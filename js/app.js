@@ -2,6 +2,7 @@
    axomexam — app.js
    Application logic: i18n, navigation, routing, rendering,
    search, Q&A reader, and Advanced Timed Mock Tests.
+   Supports both standard and flat question JSON schemas.
    ============================================================ */
 
 (() => {
@@ -28,13 +29,66 @@
   function localized(obj) {
     if (obj == null) return "";
     if (typeof obj === "string") return obj;
-    return obj.en || "";
+    return obj.en || obj.as || "";
   }
+
+  /* Universal content extractor supporting both JSON schemas */
+  function extractField(item, fieldName) {
+    if (!item) return "";
+    const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
+    
+    // Check direct object format: item.q / item.a / item.question
+    const obj = item[fieldName] || item[fieldName === "question" ? "q" : fieldName === "answer" ? "a" : fieldName];
+    if (obj) {
+      if (typeof obj === "string") return obj;
+      if (typeof obj === "object") {
+        return obj[targetLang] || obj.as || obj.en || "";
+      }
+    }
+
+    // Check flat keys: item.question_as, item.question_en, item.answer_as, etc.
+    const directKey = `${fieldName}_${targetLang}`;
+    if (item[directKey] !== undefined) return item[directKey];
+
+    // Fallback across language suffixes
+    const asKey = `${fieldName}_as`;
+    const enKey = `${fieldName}_en`;
+    if (item[asKey] !== undefined) return item[asKey];
+    if (item[enKey] !== undefined) return item[enKey];
+
+    return "";
+  }
+
   function localizeContent(obj) {
     if (obj == null) return "";
     if (typeof obj === "string") return obj;
     const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
-    return obj[targetLang] || obj.en || obj.as || "";
+    return obj[targetLang] || obj.as || obj.en || "";
+  }
+
+  /* Universal option list normalizer */
+  function getOptionsList(item) {
+    if (!item) return [];
+    const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
+
+    // Check array: item.options = [ {en, as}, ... ]
+    if (Array.isArray(item.options) && item.options.length) {
+      return item.options.map(opt => {
+        if (typeof opt === "string") return opt;
+        if (typeof opt === "object") return opt[targetLang] || opt.as || opt.en || "";
+        return String(opt);
+      });
+    }
+
+    // Check flat arrays: item.options_as / item.options_en
+    const directOpts = item[`options_${targetLang}`];
+    if (Array.isArray(directOpts) && directOpts.length) {
+      return directOpts;
+    }
+    if (Array.isArray(item.options_as) && item.options_as.length) return item.options_as;
+    if (Array.isArray(item.options_en) && item.options_en.length) return item.options_en;
+
+    return [];
   }
 
   function applyStaticI18n() {
@@ -177,7 +231,6 @@
 
   const FEATURED_IDS = ["gk", "science", "math", "history", "reasoning"];
 
-  /* Build Desktop Nav: Categories first, then Mock Test & Downloads before More */
   function buildDesktopNav() {
     const list = $("#nav-list");
     const activePath = currentPath();
@@ -185,14 +238,9 @@
     const rest = state.categories.filter((c) => !FEATURED_IDS.includes(c.id));
     const items = [];
 
-    // 1. Categories
     featured.forEach((c) => items.push(navLinkHTML(c, activePath)));
-
-    // 2. Mock Test & Downloads placed before "More"
     items.push(extraLink("#/mock-test", t("nav.mock"), activePath));
     items.push(extraLink("#/downloads", t("nav.downloads"), activePath));
-
-    // 3. More Dropdown
     items.push(moreDropdownHTML(rest, activePath));
     list.innerHTML = items.join("");
   }
@@ -650,18 +698,35 @@
     } else {
       list.innerHTML = slice.map((item, i) => {
         const n = start + i + 1;
-        const qtext = localizeContent(item.q) || "";
-        const atext = localizeContent(item.a) || "";
+        const qtext = extractField(item, "question");
+        const atext = extractField(item, "answer");
+        const options = getOptionsList(item);
+        const explanation = extractField(item, "explanation");
+
         return `
           <article class="qa-card" data-n="${n}">
             <div class="qa-q">
               <span class="qno">${n}</span>
               <span class="qtext">${escapeHtml(qtext)}</span>
             </div>
+            ${options.length ? `
+              <div class="qa-options" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:6px;margin:10px 0 10px 32px;">
+                ${options.map((opt, optIdx) => `
+                  <div style="font-size:0.88rem;color:var(--ink-soft);background:var(--bg-subtle,#f8fafc);padding:6px 10px;border-radius:6px;border:1px solid var(--border,#e2e8f0);">
+                    <b style="color:var(--primary);margin-right:4px;">(${String.fromCharCode(65 + optIdx)})</b> ${escapeHtml(opt)}
+                  </div>
+                `).join("")}
+              </div>` : ""
+            }
             <div class="qa-a">
               <span class="a-label">${t("topic.answer")}:</span>
               <span class="a-body">${escapeHtml(atext)}</span>
             </div>
+            ${explanation ? `
+              <div class="qa-exp" style="margin-top:6px;font-size:0.84rem;color:var(--ink-muted,#64748b);padding-left:32px;">
+                <b>ব্যাখ্যা:</b> ${escapeHtml(explanation)}
+              </div>` : ""
+            }
           </article>`;
       }).join("");
     }
@@ -755,14 +820,25 @@
     const body = $("#read-modal-body", modal);
     body.innerHTML = slice.map((item, i) => {
       const n = start + i + 1;
-      const qtext = localizeContent(item.q) || "";
-      const atext = localizeContent(item.a) || "";
+      const qtext = extractField(item, "question");
+      const atext = extractField(item, "answer");
+      const options = getOptionsList(item);
+
       return `
         <article class="qa-card read-item" data-n="${n}">
           <div class="qa-q">
             <span class="qno">${n}</span>
             <span class="qtext">${escapeHtml(qtext)}</span>
           </div>
+          ${options.length ? `
+            <div class="qa-options" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:6px;margin:8px 0 8px 32px;">
+              ${options.map((opt, optIdx) => `
+                <div style="font-size:0.85rem;color:var(--ink-soft);background:var(--bg-subtle,#f8fafc);padding:5px 8px;border-radius:4px;border:1px solid var(--border,#e2e8f0);">
+                  <b>(${String.fromCharCode(65 + optIdx)})</b> ${escapeHtml(opt)}
+                </div>
+              `).join("")}
+            </div>` : ""
+          }
           <div class="qa-a">
             <span class="a-label">${t("topic.answer")}:</span>
             <span class="a-body">${escapeHtml(atext)}</span>
@@ -857,8 +933,11 @@
       const titleEn = normalizeText(localized({ en: r.title.en }));
       const titleAs = normalizeText(localized({ as: r.title.as }));
       const tagHits = (r.tags || []).filter((tag) => normalizeText(tag).includes(q));
-      const qHits = (r.topic.questions || []).filter((item) =>
-        normalizeText(allLangs(item.q)).includes(q) || normalizeText(allLangs(item.a)).includes(q));
+      const qHits = (r.topic.questions || []).filter((item) => {
+        const qStr = (typeof item.q === "object" ? allLangs(item.q) : (item.q || item.question_en || "") + " " + (item.question_as || ""));
+        const aStr = (typeof item.a === "object" ? allLangs(item.a) : (item.a || item.answer_en || "") + " " + (item.answer_as || ""));
+        return normalizeText(qStr).includes(q) || normalizeText(aStr).includes(q);
+      });
       let score = 0;
       if (titleEn.includes(q)) score += 5;
       if (titleAs.includes(q)) score += 5;
@@ -1192,11 +1271,39 @@
     results.forEach((r) => {
       if (!r || !r.d || !Array.isArray(r.d.questions)) return;
       r.d.questions.forEach((qItem) => {
+        // Universal parser for both schemas
+        const qTextObj = (typeof qItem.q === "object") ? qItem.q : {
+          en: qItem.question_en || qItem.q || "",
+          as: qItem.question_as || qItem.q || ""
+        };
+
+        const aTextObj = (typeof qItem.a === "object") ? qItem.a : {
+          en: qItem.answer_en || qItem.a || "",
+          as: qItem.answer_as || qItem.a || ""
+        };
+
+        let optionsList = [];
+        if (Array.isArray(qItem.options) && qItem.options.length) {
+          optionsList = qItem.options;
+        } else if (Array.isArray(qItem.options_en) || Array.isArray(qItem.options_as)) {
+          const len = Math.max((qItem.options_en || []).length, (qItem.options_as || []).length);
+          for (let i = 0; i < len; i++) {
+            optionsList.push({
+              en: (qItem.options_en && qItem.options_en[i]) || "",
+              as: (qItem.options_as && qItem.options_as[i]) || ""
+            });
+          }
+        }
+
+        const correctIdx = Number.isInteger(qItem.correct_index) 
+          ? qItem.correct_index 
+          : (Number.isInteger(qItem.correct) ? qItem.correct : 0);
+
         rawList.push({
-          q: qItem.q,
-          a: qItem.a,
-          options: Array.isArray(qItem.options) && qItem.options.length >= 2 ? qItem.options : null,
-          correct: Number.isInteger(qItem.correct) ? qItem.correct : 0,
+          q: qTextObj,
+          a: aTextObj,
+          options: optionsList.length >= 2 ? optionsList : null,
+          correct: correctIdx,
           topicTitle: r.rec.title,
           catId: r.rec.cat.id,
         });
@@ -1249,7 +1356,6 @@
     });
   }
 
-  /* Handle Mock Routing without "Full GK" mixed option */
   function handleMockRouting(main, segs) {
     if (segs.length === 1) {
       return renderMockCategoryPicker(main);
@@ -1525,6 +1631,9 @@
     const answered = m.answers[m.idx] !== undefined;
     const keys = ["A", "B", "C", "D", "E"];
 
+    const qText = localizeContent(q.q);
+    const options = (q.options || []).map(opt => (typeof opt === "object" ? localizeContent(opt) : String(opt)));
+
     main.innerHTML = `
       <div class="quiz-wrap">
         <div class="quiz-top">
@@ -1535,13 +1644,13 @@
         <div class="quiz-progress"><span id="quiz-progress" style="width:${((m.idx) / m.pool.length * 100).toFixed(1)}%"></span></div>
         <div class="quiz-card">
           <div class="quiz-qno">Question ${m.idx + 1}</div>
-          <div class="quiz-qtext">${escapeHtml(localizeContent(q.q))}</div>
+          <div class="quiz-qtext">${escapeHtml(qText)}</div>
 
           <div class="quiz-options" id="quiz-options">
-            ${(q.options || []).map((opt, i) => `
+            ${options.map((opt, i) => `
               <button class="quiz-option" data-opt="${i}" ${answered ? "disabled" : ""}>
                 <span class="opt-key">${keys[i]}</span>
-                <span>${escapeHtml(localizeContent(opt))}</span>
+                <span>${escapeHtml(opt)}</span>
               </button>`).join("")}
           </div>
 
@@ -1571,7 +1680,7 @@
           fb.style.display = "block";
           fb.textContent = sel === q.correct
             ? t("mock.revealCorrect")
-            : `${t("mock.correctAnswer")}: ${escapeHtml(localizeContent(q.options[q.correct]))}`;
+            : `${t("mock.correctAnswer")}: ${escapeHtml(options[q.correct] || "")}`;
           $("#quiz-next").disabled = false;
         });
       });
@@ -1675,12 +1784,14 @@
             const badge = r.a === undefined
               ? `<span class="rv-badge" style="background:#f1f5f9;color:#64748b;">${t("mock.result.skipped")}</span>`
               : `<span class="rv-badge ${r.ok ? "good" : "bad"}">${r.ok ? "✓ " + t("mock.result.correct") : "✕ " + t("mock.result.wrong")}</span>`;
+            
+            const options = (q.options || []).map(opt => (typeof opt === "object" ? localizeContent(opt) : String(opt)));
             let ansLine = "";
-            if (r.a !== undefined && q.options) {
-              ansLine = `<div class="rv-ans"><b>${t("mock.answer")}:</b> ${escapeHtml(localizeContent(q.options[r.a]))}</div>`;
-              if (!r.ok) ansLine += `<div class="rv-ans correct-line"><b>${t("mock.correctAnswer")}:</b> ${escapeHtml(localizeContent(q.options[q.correct]))}</div>`;
-            } else if (q.options) {
-              ansLine = `<div class="rv-ans correct-line"><b>${t("mock.correctAnswer")}:</b> ${escapeHtml(localizeContent(q.options[q.correct]))}</div>`;
+            if (r.a !== undefined && options.length) {
+              ansLine = `<div class="rv-ans"><b>${t("mock.answer")}:</b> ${escapeHtml(options[r.a] || "")}</div>`;
+              if (!r.ok) ansLine += `<div class="rv-ans correct-line"><b>${t("mock.correctAnswer")}:</b> ${escapeHtml(options[q.correct] || "")}</div>`;
+            } else if (options.length) {
+              ansLine = `<div class="rv-ans correct-line"><b>${t("mock.correctAnswer")}:</b> ${escapeHtml(options[q.correct] || "")}</div>`;
             }
             return `
               <div class="review-item">
