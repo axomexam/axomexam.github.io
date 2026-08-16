@@ -7,249 +7,212 @@
     {
       "id": "gk",
       "name": { "en": "General Knowledge", "as": "সাধাৰণ জ্ঞান" },
-      "description": { "en": "GK for Assam, India and the World — the backbone of every competitive exam.", "as": "অসম, ভাৰত আৰু বিশ্বৰ সাধাৰণ জ্ঞান — প্ৰতিটো প্ৰতিযোগিতামূলক পৰীক্ষাৰ মূল ভেটি।" },
+      "description": { "en": "Comprehensive GK for all competitive exams.", "as": "সকলো প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে সাধাৰণ জ্ঞান।" },
       "color": "#0ea5e9",
       "icon": "GK",
       "subcategories": [
         {
-          "id": "assam",
-          "name": { "en": "Assam", "as": "অসম" },
-          "description": { "en": "Assam-specific GK for APSC, Police and DME exams.", "as": "APSC, আৰক্ষী আৰু DME পৰীক্ষাৰ বাবে অসম সম্পৰ্কীয় সাধাৰণ জ্ঞান।" },
+          "id": "assam-history",
+          "name": { "en": "Assam History", "as": "অসমৰ ইতিহাস" },
           "sections": [
-            { "id": "geography", "name": { "en": "Geography", "as": "ভূগোল" },
+            {
+              "id": "ancient-assam-sec",
+              "name": { "en": "Ancient Assam History", "as": "প্ৰাচীন অসমৰ ইতিহাস" },
               "topics": [
-                { "id": "brahmaputra-river", "name": { "en": "Brahmaputra River", "as": "ব্ৰহ্মপুত্ৰ নদী" }, "popularity": 9, "pdf": "brahmaputra-river.pdf" },
-                { "id": "national-parks", "name": { "en": "National Parks & Sanctuaries", "as": "ৰাষ্ট্ৰীয় উদ্যান আৰু অভয়াৰণ্য" }, "popularity": 8, "pdf": "national-parks-assam.pdf" },
-                { "id": "districts", "name": { "en": "Districts of Assam", "as": "অসমৰ জিলাসমূহ" }, "popularity": 7 }
-              ] },
-            { "id": "economy", "name": { "en": "Economy", "as": "অৰ্থনীতি" },
+                { "id": "ancient-assam", "name": { "en": "Ancient Assam (Varman/Salastambha/Pala)", "as": "প্ৰাচীন অসম (বৰ্মন/শালস্তম্ভ/পাল বংশ)" }, "popularity": 9 }
+              ]
+            },
+            {
+              "id": "medieval-assam-sec",
+              "name": { "en": "Medieval Assam History", "as": "মধ্যযুগীয় অসমৰ ইতিহাস" },
               "topics": [
-                { "id": "assam-budget", "name": { "en": "Assam Budget", "as": "অসমৰ বাজেট" } },
-                { "id": "tea-economy", "name": { "en": "Tea Economy", "as": "চাহ অৰ্থনীতি" } }
-              ] },
-            { "id": "polity", "name": { "en": "Polity", "as": "ৰাজনীতি" },
+                { "id": "medieval-assam", "name": { "en": "Ahom Kingdom & Koch Dynasty", "as": "আহোম ৰাজ্য আৰু কোচ বংশ" }, "popularity": 9 }
+              ]
+            },
+            {
+              "id": "modern-assam-sec",
+              "name": { "en": "Modern Assam History", "as": "আধুনিক অসমৰ ইতিহাস" },
               "topics": [
-                { "id": "assembly", "name": { "en": "Assam Legislative Assembly", "as": "অসম বিধানসভা" } },
-                { "id": "governor-cm", "name": { "en": "Governors & Chief Ministers", "as": "ৰাজ্যপাল আৰু মুখ্যমন্ত্ৰীসকল" }, "popularity": 6 }
-              ] },
-            { "id": "panchayat", "name": { "en": "Panchayati Raj", "as": "পঞ্চায়তী ৰাজ" },
-              "topics": [
-                { "id": "panchayat-system", "name": { "en": "Panchayat System in Assam", "as": "অসমত পঞ্চায়ত ব্যৱস্থা" } }
-              ] },
-            { "id": "art-culture", "name": { "en": "Art & Culture", "as": "কলা আৰু সংস্কৃতি" },
-              "topics": [
-                { "id": "bihu-festival", "name": { "en": "Bihu Festival", "as": "বিহু উৎসৱ" }, "popularity": 8 },
-                { "id": "handloom", "name": { "en": "Handloom & Handicrafts", "as": "হস্ততন্তু আৰু হস্তশিল্প" } }
-              ] },
-            { "id": "history", "name": { "en": "History of Assam", "as": "অসমৰ ইতিহাস" },
-              "topics": [
-                { "id": "ahom-kingdom", "name": { "en": "Ahom Kingdom", "as": "আহোম ৰাজ্য" }, "popularity": 7 },
-                { "id": "asom-likhat", "name": { "en": "Asom Likhat & Purna Swaraj", "as": "অসম লিখাত আৰু পূৰ্ণ স্বৰাজ" } }
-              ] }
+                { "id": "modern-assam", "name": { "en": "British Rule & Freedom Struggle in Assam", "as": "ব্ৰিটিছ শাসন আৰু অসমৰ স্বাধীনতা সংগ্ৰাম" }, "popularity": 9 }
+              ]
+            }
           ]
         },
         {
-          "id": "india",
-          "name": { "en": "India", "as": "ভাৰত" },
-          "description": { "en": "National-level GK for SSC, Railway and central exams.", "as": "SSC, ৰে'লৱে আৰু কেন্দ্ৰীয় পৰীক্ষাৰ বাবে ৰাষ্ট্ৰীয় পৰ্যায়ৰ সাধাৰণ জ্ঞান।" },
+          "id": "indian-history",
+          "name": { "en": "Indian History", "as": "ভাৰতীয় ইতিহাস" },
           "sections": [
-            { "id": "constitution", "name": { "en": "Indian Constitution", "as": "ভাৰতীয় সংবিধান" },
+            {
+              "id": "ancient-india-sec",
+              "name": { "en": "Ancient India", "as": "প্ৰাচীন ভাৰত" },
               "topics": [
-                { "id": "fundamental-rights", "name": { "en": "Fundamental Rights", "as": "মৌলিক অধিকাৰ" }, "popularity": 8 },
-                { "id": "preamble", "name": { "en": "The Preamble", "as": "প্ৰস্তাৱনা" } }
-              ] },
-            { "id": "geography-india", "name": { "en": "Geography", "as": "ভূগোল" },
+                { "id": "ancient-india", "name": { "en": "Indus Valley, Vedic & Maurya Era", "as": "সিন্ধু সভ্যতা, বৈদিক যুগ আৰু মৌৰ্য সাম্ৰাজ্য" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "medieval-india-sec",
+              "name": { "en": "Medieval India", "as": "মধ্যযুগীয় ভাৰত" },
               "topics": [
-                { "id": "rivers-india", "name": { "en": "Major Rivers", "as": "প্ৰধান নদীসমূহ" } },
-                { "id": "states-capitals", "name": { "en": "States & Capitals", "as": "ৰাজ্য আৰু ৰাজধানী" } }
-              ] },
-            { "id": "national-symbols", "name": { "en": "National Symbols", "as": "ৰাষ্ট্ৰীয় প্ৰতীক" },
+                { "id": "medieval-india", "name": { "en": "Delhi Sultanate & Mughal Empire", "as": "দিল্লী চুলতানি আৰু মোগল সাম্ৰাজ্য" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "modern-india-sec",
+              "name": { "en": "Modern India", "as": "আধুনিক ভাৰত" },
               "topics": [
-                { "id": "national-symbols-quiz", "name": { "en": "National Symbols Quiz", "as": "ৰাষ্ট্ৰীয় প্ৰতীক কুইজ" } }
-              ] }
+                { "id": "modern-india", "name": { "en": "Indian National Movement (1857-1947)", "as": "ভাৰতীয় জাতীয় আন্দোলন (১৮৫৭-১৯৪৭)" }, "popularity": 9 }
+              ]
+            }
           ]
         },
         {
-          "id": "world",
-          "name": { "en": "World", "as": "বিশ্ব" },
-          "description": { "en": "World geography, organisations and events.", "as": "বিশ্ব ভূগোল, সংগঠন আৰু ঘটনাৱলী।" },
+          "id": "polity",
+          "name": { "en": "Indian Polity & Constitution", "as": "ভাৰতীয় ৰাজনীতি আৰু সংবিধান" },
           "sections": [
-            { "id": "solar-system-section", "name": { "en": "Solar System", "as": "সৌৰজগত" },
+            {
+              "id": "constitution-sec",
+              "name": { "en": "Constitution Framework", "as": "সংবিধানৰ গাঁথনি" },
               "topics": [
-                { "id": "solar-system", "name": { "en": "Solar System & Planets", "as": "সৌৰজগত আৰু গ্ৰহসমূহ" }, "popularity": 8 }
-              ] },
-            { "id": "countries", "name": { "en": "Countries & Capitals", "as": "দেশ আৰু ৰাজধানী" },
+                { "id": "fundamental-rights", "name": { "en": "Preamble, Rights & Duties", "as": "প্ৰস্তাৱনা, মৌলিক অধিকাৰ আৰু কৰ্তব্য" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "governance-sec",
+              "name": { "en": "Executive & Judiciary", "as": "কাৰ্যপালিকা আৰু ন্যায়পালিকা" },
               "topics": [
-                { "id": "world-capitals", "name": { "en": "World Capitals", "as": "বিশ্বৰ ৰাজধানী" }, "popularity": 7, "pdf": "country-capital.pdf" }
-              ] },
-            { "id": "organisations", "name": { "en": "International Organisations", "as": "আন্তঃৰাষ্ট্ৰীয় সংগঠন" },
+                { "id": "indian-governance", "name": { "en": "President, Parliament & Supreme Court", "as": "ৰাষ্ট্ৰপতি, সংসদ আৰু উচ্চতম ন্যায়ালয়" }, "popularity": 8 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "geography",
+          "name": { "en": "Geography", "as": "ভূগোল" },
+          "sections": [
+            {
+              "id": "assam-geo-sec",
+              "name": { "en": "Assam Geography", "as": "অসমৰ ভূগোল" },
               "topics": [
-                { "id": "un-system", "name": { "en": "United Nations System", "as": "ৰাষ্ট্ৰসংঘ ব্যৱস্থা" }, "popularity": 5 }
-              ] }
+                { "id": "brahmaputra-river", "name": { "en": "Brahmaputra River & Rivers of Assam", "as": "ব্ৰহ্মপুত্ৰ নদী আৰু অসমৰ নদ-নদী" }, "popularity": 9, "pdf": "brahmaputra-river.pdf" },
+                { "id": "national-parks", "name": { "en": "National Parks & Sanctuaries", "as": "ৰাষ্ট্ৰীয় উদ্যান আৰু অভয়াৰণ্য" }, "popularity": 9, "pdf": "national-parks-assam.pdf" }
+              ]
+            },
+            {
+              "id": "world-solar-sec",
+              "name": { "en": "Solar System & World", "as": "সৌৰজগত আৰু বিশ্ব" },
+              "topics": [
+                { "id": "solar-system", "name": { "en": "Solar System & Universe", "as": "সৌৰজগত আৰু মহাবিশ্ব" }, "popularity": 8 },
+                { "id": "world-capitals", "name": { "en": "Countries, Capitals & Currencies", "as": "দেশ, ৰাজধানী আৰু মুদ্ৰা" }, "popularity": 7, "pdf": "country-capital.pdf" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "economics",
+          "name": { "en": "Economy & Banking", "as": "অৰ্থনীতি আৰু বেংক ব্যৱস্থা" },
+          "sections": [
+            {
+              "id": "economy-sec",
+              "name": { "en": "Economy & Budget", "as": "অৰ্থনীতি আৰু বাজেট" },
+              "topics": [
+                { "id": "assam-budget", "name": { "en": "Assam & Indian Budget Concepts", "as": "অসম আৰু ভাৰতীয় বাজেট" }, "popularity": 7 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "art-culture",
+          "name": { "en": "Assam Art & Culture", "as": "অসমৰ কলা আৰু সংস্কৃতি" },
+          "sections": [
+            {
+              "id": "culture-sec",
+              "name": { "en": "Culture & Heritage", "as": "সংস্কৃতি আৰু ঐতিহ্য" },
+              "topics": [
+                { "id": "bihu-festival", "name": { "en": "Bihu & Festivals of Assam", "as": "বিহু আৰু অসমৰ উৎসৱসমূহ" }, "popularity": 8 }
+              ]
+            }
           ]
         }
       ]
     },
     {
       "id": "math",
-      "name": { "en": "Math", "as": "গণিত" },
-      "description": { "en": "Quantitative aptitude with step-by-step bilingual solutions.", "as": "পদে-পদে দ্বিভাষিক সমাধানসহ গাণিতিক দক্ষতা।" },
+      "name": { "en": "Mathematics", "as": "গণিত" },
+      "description": { "en": "Quantitative aptitude and arithmetic.", "as": "পাটিগণিত আৰু গাণিতিক যুক্তি।" },
       "color": "#f59e0b",
       "icon": "∑",
-      "sections": [
-        { "id": "arithmetic", "name": { "en": "Arithmetic", "as": "পাটিগণিত" },
+      "subcategories": [
+        {
+          "id": "arithmetic",
+          "name": { "en": "Arithmetic", "as": "পাটিগণিত" },
           "topics": [
-            { "id": "percentage", "name": { "en": "Percentage", "as": "শতাংশ" }, "popularity": 9 },
-            { "id": "profit-loss", "name": { "en": "Profit & Loss", "as": "লাভ আৰু লোকচান" } },
-            { "id": "time-work", "name": { "en": "Time & Work", "as": "সময় আৰু কাম" } }
-          ] },
-        { "id": "algebra", "name": { "en": "Algebra", "as": "বীজগণিত" },
-          "topics": [
-            { "id": "linear-equations", "name": { "en": "Linear Equations", "as": "সৰল সমীকৰণ" } },
-            { "id": "simplification", "name": { "en": "Simplification", "as": "সৰলীকৰণ" } }
-          ] },
-        { "id": "geometry", "name": { "en": "Geometry & Mensuration", "as": "জ্যামিতি আৰু পৰিমিতি" },
-          "topics": [
-            { "id": "triangles", "name": { "en": "Triangles", "as": "ত্ৰিভুজ" } },
-            { "id": "area-perimeter", "name": { "en": "Area & Perimeter", "as": "কালি আৰু পৰিসীমা" } }
-          ] }
+            { "id": "percentage", "name": { "en": "Percentage & Ratio", "as": "শতাংশ আৰু অনুপাত" }, "popularity": 9 }
+          ]
+        }
       ]
     },
     {
       "id": "science",
       "name": { "en": "General Science", "as": "সাধাৰণ বিজ্ঞান" },
-      "description": { "en": "Physics, Chemistry and Biology fundamentals for exams.", "as": "পৰীক্ষাৰ বাবে পদাৰ্থ বিজ্ঞান, ৰসায়ন বিজ্ঞান আৰু জীৱ বিজ্ঞানৰ মূল ধাৰণা।" },
+      "description": { "en": "Physics, Chemistry and Biology.", "as": "পদাৰ্থ, ৰসায়ন আৰু জীৱ বিজ্ঞান।" },
       "color": "#10b981",
       "icon": "⚛",
-      "sections": [
-        { "id": "physics", "name": { "en": "Physics", "as": "পদাৰ্থ বিজ্ঞান" },
+      "subcategories": [
+        {
+          "id": "biology",
+          "name": { "en": "Biology", "as": "জীৱ বিজ্ঞান" },
           "topics": [
-            { "id": "units-measurement", "name": { "en": "Units & Measurement", "as": "একক আৰু জোখ" } },
-            { "id": "motion-force", "name": { "en": "Motion & Force", "as": "গতি আৰু বল" } }
-          ] },
-        { "id": "chemistry", "name": { "en": "Chemistry", "as": "ৰসায়ন বিজ্ঞান" },
-          "topics": [
-            { "id": "chemical-symbols", "name": { "en": "Chemical Symbols & Formulas", "as": "ৰাসায়নিক সংকেত আৰু সূত্ৰ" }, "popularity": 6 }
-          ] },
-        { "id": "biology", "name": { "en": "Biology", "as": "জীৱ বিজ্ঞান" },
-          "topics": [
-            { "id": "human-body", "name": { "en": "Human Body", "as": "মানৱ শৰীৰ" }, "popularity": 7 }
-          ] }
+            { "id": "human-body", "name": { "en": "Human Body & Health", "as": "মানৱ শৰীৰ আৰু স্বাস্থ্য" }, "popularity": 8 }
+          ]
+        }
       ]
     },
     {
       "id": "reasoning",
-      "name": { "en": "Reasoning", "as": "যুক্তি" },
-      "description": { "en": "Verbal and non-verbal reasoning practice sets.", "as": "মৌখিক আৰু অবাচ্য যুক্তি অনুশীলন ছেট।" },
+      "name": { "en": "Reasoning Ability", "as": "যুক্তি আৰু মানসিক ক্ষমতা" },
+      "description": { "en": "Verbal and non-verbal reasoning.", "as": "মৌখিক আৰু অবাচ্য যুক্তি।" },
       "color": "#8b5cf6",
       "icon": "▶",
-      "sections": [
-        { "id": "verbal", "name": { "en": "Verbal Reasoning", "as": "মৌখিক যুক্তি" },
+      "subcategories": [
+        {
+          "id": "verbal-reasoning",
+          "name": { "en": "Verbal Reasoning", "as": "মৌখিক যুক্তি" },
           "topics": [
-            { "id": "analogy", "name": { "en": "Analogy", "as": "সাদৃশ্য" }, "popularity": 6 },
-            { "id": "series", "name": { "en": "Number & Letter Series", "as": "সংখ্যা আৰু আখৰ শৃংখলা" } }
-          ] },
-        { "id": "nonverbal", "name": { "en": "Non-Verbal", "as": "অবাচ্য" },
-          "topics": [
-            { "id": "coding-decoding", "name": { "en": "Coding-Decoding", "as": "ক'ডিং-ডিক'ডিং" } }
-          ] }
-      ]
-    },
-    {
-      "id": "current-affairs",
-      "name": { "en": "Current Affairs", "as": "সমসাময়িক পৰিঘটনা" },
-      "description": { "en": "Weekly current affairs in both languages.", "as": "দুয়ো ভাষাত সাপ্তাহিক সমসাময়িক পৰিঘটনা।" },
-      "color": "#ef4444",
-      "icon": "≟",
-      "sections": [
-        { "id": "assam-news", "name": { "en": "Assam Current Affairs", "as": "অসম সমসাময়িক পৰিঘটনা" },
-          "topics": [
-            { "id": "august-2026", "name": { "en": "August 2026 (Assam)", "as": "আগষ্ট ২০২৬ (অসম)" } }
-          ] },
-        { "id": "national-news", "name": { "en": "National & International", "as": "ৰাষ্ট্ৰীয় আৰু আন্তঃৰাষ্ট্ৰীয়" },
-          "topics": [
-            { "id": "awards-honours", "name": { "en": "Awards & Honours", "as": "বঁটা আৰু সন্মান" } }
-          ] }
-      ]
-    },
-    {
-      "id": "static-gk",
-      "name": { "en": "Static GK", "as": "স্থিৰ সাধাৰণ জ্ঞান" },
-      "description": { "en": "Static facts — books, authors, awards, sports, capitals.", "as": "স্থিৰ তথ্য — গ্ৰন্থ, সাহিত্যিক, বঁটা, ক্ৰীড়া, ৰাজধানী।" },
-      "color": "#64748b",
-      "icon": "✒",
-      "sections": [
-        { "id": "sports", "name": { "en": "Sports", "as": "ক্ৰীড়া" },
-          "topics": [
-            { "id": "sports-trophies", "name": { "en": "Trophies & Cups", "as": "ট্ৰফী আৰু কাপ" } }
-          ] },
-        { "id": "books-authors", "name": { "en": "Books & Authors", "as": "গ্ৰন্থ আৰু সাহিত্যিক" },
-          "topics": [
-            { "id": "assamese-literature", "name": { "en": "Assamese Literature", "as": "অসমীয়া সাহিত্য" }, "popularity": 6 }
-          ] },
-        { "id": "days-dates", "name": { "en": "Important Days", "as": "গুৰুত্বপূৰ্ণ দিৱস" },
-          "topics": [
-            { "id": "important-days", "name": { "en": "National & International Days", "as": "ৰাষ্ট্ৰীয় আৰু আন্তঃৰাষ্ট্ৰীয় দিৱস" } }
-          ] }
-      ]
-    },
-    {
-      "id": "history",
-      "name": { "en": "History", "as": "ইতিহাস" },
-      "description": { "en": "Indian history and freedom struggle essentials.", "as": "ভাৰতীয় ইতিহাস আৰু স্বাধীনতা সংগ্ৰামৰ মূল বিষয়সমূহ।" },
-      "color": "#d97706",
-      "icon": "🜲",
-      "sections": [
-        { "id": "ancient", "name": { "en": "Ancient India", "as": "প্ৰাচীন ভাৰত" },
-          "topics": [
-            { "id": "indus-valley", "name": { "en": "Indus Valley Civilisation", "as": "সিন্ধু সভ্যতা" }, "popularity": 6 }
-          ] },
-        { "id": "medieval", "name": { "en": "Medieval India", "as": "মধ্যযুগীয় ভাৰত" },
-          "topics": [
-            { "id": "delhi-sultanate", "name": { "en": "Delhi Sultanate", "as": "দিল্লী চুলতানি" } }
-          ] },
-        { "id": "modern", "name": { "en": "Modern India", "as": "আধুনিক ভাৰত" },
-          "topics": [
-            { "id": "freedom-struggle", "name": { "en": "Freedom Struggle", "as": "স্বাধীনতা সংগ্ৰাম" }, "popularity": 8 }
-          ] }
+            { "id": "analogy", "name": { "en": "Analogy & Series", "as": "সাদৃশ্য আৰু শৃংখলা" }, "popularity": 7 }
+          ]
+        }
       ]
     },
     {
       "id": "english",
-      "name": { "en": "English", "as": "ইংৰাজী" },
-      "description": { "en": "Grammar, vocabulary and comprehension for English sections.", "as": "ইংৰাজী বিভাগৰ বাবে ব্যাকৰণ, শব্দভাণ্ডাৰ আৰু বোধগম্যতা।" },
+      "name": { "en": "General English", "as": "সাধাৰণ ইংৰাজী" },
+      "description": { "en": "Grammar, vocabulary and comprehension.", "as": "ইংৰাজী ব্যাকৰণ আৰু শব্দভাণ্ডাৰ।" },
       "color": "#0d9488",
       "icon": "En",
-      "sections": [
-        { "id": "grammar", "name": { "en": "Grammar", "as": "ব্যাকৰণ" },
+      "subcategories": [
+        {
+          "id": "grammar-vocab",
+          "name": { "en": "Grammar & Vocabulary", "as": "ব্যাকৰণ আৰু শব্দভাণ্ডাৰ" },
           "topics": [
-            { "id": "tenses", "name": { "en": "Tenses", "as": "কাল" }, "popularity": 6 },
-            { "id": "prepositions", "name": { "en": "Prepositions", "as": "পদান্বয়ী" } }
-          ] },
-        { "id": "vocabulary", "name": { "en": "Vocabulary", "as": "শব্দভাণ্ডাৰ" },
-          "topics": [
-            { "id": "synonyms-antonyms", "name": { "en": "Synonyms & Antonyms", "as": "সমাৰ্থক আৰু বিপৰীত শব্দ" }, "popularity": 5 },
-            { "id": "idioms-phrases", "name": { "en": "Idioms & Phrases", "as": "বাগধাৰা আৰু বাক্যাংশ" } }
-          ] }
+            { "id": "tenses", "name": { "en": "Tenses & Prepositions", "as": "কাল আৰু পদান্বয়ী" }, "popularity": 7 }
+          ]
+        }
       ]
     },
     {
       "id": "computer",
       "name": { "en": "Computer Awareness", "as": "কম্পিউটাৰ জ্ঞান" },
-      "description": { "en": "Basics of computers, MS Office and IT for exam preparation.", "as": "পৰীক্ষাৰ প্ৰস্তুতিৰ বাবে কম্পিউটাৰৰ মূল কথা, MS Office আৰু IT।" },
+      "description": { "en": "Computer fundamentals, MS Office & Internet.", "as": "কম্পিউটাৰৰ মূল কথা আৰু MS Office।" },
       "color": "#2563eb",
       "icon": "PC",
-      "sections": [
-        { "id": "fundamentals", "name": { "en": "Computer Fundamentals", "as": "কম্পিউটাৰৰ মূল কথা" },
+      "subcategories": [
+        {
+          "id": "comp-fundamentals",
+          "name": { "en": "Fundamentals", "as": "মূল ধাৰণা" },
           "topics": [
-            { "id": "computer-basics", "name": { "en": "Computer Basics", "as": "কম্পিউটাৰ বুনিয়াদ" }, "popularity": 5 },
-            { "id": "hardware-software", "name": { "en": "Hardware & Software", "as": "হাৰ্ডৱেৰ আৰু ছফ্টৱেৰ" } }
-          ] },
-        { "id": "ms-office", "name": { "en": "MS Office", "as": "MS Office" },
-          "topics": [
-            { "id": "ms-excel", "name": { "en": "MS Excel", "as": "MS Excel" } },
-            { "id": "ms-word", "name": { "en": "MS Word", "as": "MS Word" } }
-          ] }
+            { "id": "computer-basics", "name": { "en": "Computer Basics & Shortcuts", "as": "কম্পিউটাৰ বুনিয়াদ আৰু চৰ্টকাট" }, "popularity": 7 }
+          ]
+        }
       ]
     }
   ]
