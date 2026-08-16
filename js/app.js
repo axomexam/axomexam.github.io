@@ -1,7 +1,7 @@
 /* ============================================================
    axomexam — app.js
    Application logic: i18n, navigation, routing, rendering,
-   search, Q&A reader, and Multi-level Dynamic Mock Tests.
+   search, Q&A reader, and Advanced Timed Mock Tests.
    ============================================================ */
 
 (() => {
@@ -328,7 +328,6 @@
     if (segs[0] === "downloads") return renderDownloadsPage(main);
     if (segs[0] === "submit") return renderSubmitPage(main);
     if (segs[0] === "mock-test") {
-      if (state.mock) stopMockTimer();
       return handleMockRouting(main, segs);
     }
     return render404(main);
@@ -1158,7 +1157,6 @@
      ADVANCED MULTI-LEVEL DYNAMIC MOCK TEST SYSTEM
      ============================================================ */
 
-  /* Helper to collect topics based on current mock route */
   function getTopicsForMockFilter(cat, subId, secId, topicId) {
     const matched = [];
     state.topicIndex.forEach((rec) => {
@@ -1171,7 +1169,6 @@
     return matched;
   }
 
-  /* Collect questions & auto-build 4 options if not provided */
   async function collectQuestionsForMock(cat, subId, secId, topicId) {
     const matchedTopics = getTopicsForMockFilter(cat, subId, secId, topicId);
     if (!matchedTopics.length) return [];
@@ -1192,53 +1189,14 @@
           q: qItem.q,
           a: qItem.a,
           options: Array.isArray(qItem.options) && qItem.options.length >= 2 ? qItem.options : null,
-          correct: Number.isInteger(qItem.correct) ? qItem.correct : -1,
+          correct: Number.isInteger(qItem.correct) ? qItem.correct : 0,
           topicTitle: r.rec.title,
           catId: r.rec.cat.id,
         });
       });
     });
 
-    if (!rawList.length) return [];
-
-    /* Automatically generate 4 MCQ options for any questions that lack them */
-    const allAnswers = rawList.map((item) => item.a);
-
-    const pool = rawList.map((item) => {
-      if (item.options && item.options.length >= 2) {
-        return item; // already has MCQ options
-      }
-
-      // Generate 3 distractors from other questions' answers
-      const otherAnswers = shuffle(allAnswers.filter((a) => {
-        const text1 = typeof a === "object" ? (a.en || a.as) : a;
-        const text2 = typeof item.a === "object" ? (item.a.en || item.a.as) : item.a;
-        return text1 !== text2;
-      }));
-
-      const distractors = otherAnswers.slice(0, 3);
-      while (distractors.length < 3) {
-        distractors.push({ en: "None of these", as: "ইয়াৰ এটাও নহয়" });
-      }
-
-      const generatedOpts = [item.a, ...distractors];
-      const shuffledOpts = shuffle(generatedOpts);
-      const correctIdx = shuffledOpts.findIndex((opt) => {
-        const optText = typeof opt === "object" ? (opt.en || opt.as) : opt;
-        const ansText = typeof item.a === "object" ? (item.a.en || item.a.as) : item.a;
-        return optText === ansText;
-      });
-
-      return {
-        q: item.q,
-        a: item.a,
-        options: shuffledOpts,
-        correct: Math.max(0, correctIdx),
-        topicTitle: item.topicTitle,
-      };
-    });
-
-    return pool;
+    return rawList;
   }
 
   function shuffle(arr) {
@@ -1257,9 +1215,36 @@
     }
   }
 
-  /* Handle Mock Routing (Category -> Subcategory -> Section -> Test Setup) */
+  /* Modal Popup Helper */
+  function showModalPopup({ title, message, confirmText, cancelText, onConfirm }) {
+    const existing = $("#confirm-modal");
+    if (existing) existing.remove();
+
+    const modal = document.createElement("div");
+    modal.id = "confirm-modal";
+    modal.className = "read-modal";
+    modal.innerHTML = `
+      <div class="read-modal-backdrop"></div>
+      <div class="read-modal-box" role="dialog" style="max-width:440px; padding:24px; text-align:center; height:max-content; margin:auto;">
+        <h3 style="font-size:1.2rem; margin-bottom:10px;">${escapeHtml(title)}</h3>
+        <p style="color:var(--ink-soft); font-size:.92rem; margin-bottom:20px;">${escapeHtml(message)}</p>
+        <div style="display:flex; gap:10px; justify-content:center;">
+          <button class="btn btn-outline" id="modal-cancel-btn" style="flex:1;">${escapeHtml(cancelText || "Cancel")}</button>
+          <button class="btn btn-primary" id="modal-confirm-btn" style="flex:1;">${escapeHtml(confirmText || "Confirm")}</button>
+        </div>
+      </div>`;
+    document.body.appendChild(modal);
+
+    $("#modal-cancel-btn", modal).addEventListener("click", () => modal.remove());
+    $(".read-modal-backdrop", modal).addEventListener("click", () => modal.remove());
+    $("#modal-confirm-btn", modal).addEventListener("click", () => {
+      modal.remove();
+      if (onConfirm) onConfirm();
+    });
+  }
+
+  /* Handle Mock Routing */
   function handleMockRouting(main, segs) {
-    // 1. Root mock test page -> show categories
     if (segs.length === 1) {
       return renderMockCategoryPicker(main);
     }
@@ -1272,20 +1257,16 @@
     const secId = segs[3];
     const topicId = segs[4];
 
-    // If "all" or specific topic/setup reached
     if (subId === "all" || (subId && subId.startsWith("topic-")) || segs.includes("start")) {
       return renderMockSetup(main, cat, subId === "all" ? null : subId, secId, topicId);
     }
 
     const subs = cat.subcategories || [];
-    const directSections = cat.sections || [];
 
-    // 2. Category level: if it has subcategories
     if (!subId && subs.length) {
       return renderMockSubcategoryPicker(main, cat);
     }
 
-    // 3. Subcategory level: if it has sections
     if (subId && !secId) {
       const sub = subs.find((s) => s.id === subId);
       if (sub && sub.sections && sub.sections.length) {
@@ -1294,7 +1275,6 @@
       return renderMockSetup(main, cat, subId, null, null);
     }
 
-    // 4. Section level: if it has topics
     if (subId && secId) {
       const sub = subs.find((s) => s.id === subId);
       const sec = sub ? (sub.sections || []).find((sc) => sc.id === secId) : null;
@@ -1304,11 +1284,9 @@
       return renderMockSetup(main, cat, subId, secId, null);
     }
 
-    // Direct setup if category only has direct topics/sections
     return renderMockSetup(main, cat, null, null, null);
   }
 
-  /* Step A: Choose Category for Mock Test */
   function renderMockCategoryPicker(main) {
     main.innerHTML = `
       <div class="mock-intro">
@@ -1332,7 +1310,7 @@
                 <div class="mock-go">
                   <a class="mock-start" href="#/mock-test/${c.id}">
                     <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-                    Select Subject
+                    Select Sub-Category
                   </a>
                 </div>
               </div>`;
@@ -1342,7 +1320,6 @@
     observeReveals();
   }
 
-  /* Step B: Choose Subcategory */
   function renderMockSubcategoryPicker(main, cat) {
     const subs = cat.subcategories || [];
     main.innerHTML = `
@@ -1352,8 +1329,8 @@
           <a href="#/mock-test">Mock Test</a><span class="bc-sep">/</span>
           <span>${escapeHtml(localized(cat.name))}</span>
         </nav>
-        <h1>${escapeHtml(localized(cat.name))} — Mock Tests</h1>
-        <p class="page-desc">Select a sub-category or take a full test of the entire subject.</p>
+        <h1>${escapeHtml(localized(cat.name))} — Select Sub-Category</h1>
+        <p class="page-desc">Select a specific branch or take a complete combined test.</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
         <div class="sub-grid">
@@ -1375,7 +1352,6 @@
     observeReveals();
   }
 
-  /* Step C: Choose Section */
   function renderMockSectionPicker(main, cat, sub) {
     const secs = sub.sections || [];
     main.innerHTML = `
@@ -1387,14 +1363,14 @@
           <span>${escapeHtml(localized(sub.name))}</span>
         </nav>
         <h1>${escapeHtml(localized(sub.name))}</h1>
-        <p class="page-desc">Choose a section to begin your timed test.</p>
+        <p class="page-desc">Choose a section or test the entire branch.</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
         <div class="sub-grid">
           <a class="sub-card reveal" href="#/mock-test/${cat.id}/start" style="--cat:${catColor(cat.id)}; border: 2px dashed var(--primary);">
             <span class="sub-ico">🎯</span>
             <span><b>All ${escapeHtml(localized(sub.name))} Questions</b>
-              <span>Mixed practice test</span>
+              <span>Complete practice test</span>
             </span>
           </a>
           ${secs.map((sec, i) => `
@@ -1409,7 +1385,6 @@
     observeReveals();
   }
 
-  /* Step D: Choose Topic */
   function renderMockTopicPicker(main, cat, sub, sec) {
     const topics = sec.topics || [];
     main.innerHTML = `
@@ -1422,7 +1397,7 @@
           <span>${escapeHtml(localized(sec.name))}</span>
         </nav>
         <h1>${escapeHtml(localized(sec.name))}</h1>
-        <p class="page-desc">Pick a specific topic or test all questions in this section.</p>
+        <p class="page-desc">Select a topic to start your mock test.</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
         <div class="sub-grid">
@@ -1444,7 +1419,6 @@
     observeReveals();
   }
 
-  /* Step E: Test Setup Screen (Language + Question Count selection) */
   async function renderMockSetup(main, cat, subId, secId, topicId) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("mock.loading")}</p></div>`;
 
@@ -1467,11 +1441,10 @@
       pool,
       configured: false,
       count: 0,
-      testLang: state.lang || "as"
+      testLang: "as"
     };
 
-    const perQ = CONFIG.MOCK.SECONDS_PER_QUESTION;
-    const counts = [5, 10, 15, 20, 50].filter((n) => n <= pool.length);
+    const counts = [10, 20, 50, 100].filter((n) => n <= pool.length);
     if (!counts.includes(pool.length)) counts.push(pool.length);
 
     main.innerHTML = `
@@ -1490,7 +1463,7 @@
           <span class="mock-ico" style="background:${catColor(cat.id)};width:40px;height:40px;border-radius:11px;">${catIconHTML(cat.id)}</span>
           <b>${escapeHtml(localized(cat.name))} Mock Test</b>
         </div>
-        <p class="sp-sub">Configure your test settings below and start.</p>
+        <p class="sp-sub">Configure your test settings below.</p>
 
         <!-- Language Choice -->
         <p style="margin-top:18px;font-weight:700;font-size:.9rem;">Select Question Language / প্ৰশ্নৰ ভাষা:</p>
@@ -1500,19 +1473,18 @@
         </div>
 
         <!-- Question Set Size -->
-        <p style="margin-top:18px;font-weight:700;font-size:.9rem;">${t("mock.setup.count")} / প্ৰশ্নৰ সংখ্যা:</p>
+        <p style="margin-top:18px;font-weight:700;font-size:.9rem;">${t("mock.setup.count")} / প্ৰশ্নৰ সংখ্যা বাছনি কৰক:</p>
         <div class="count-picker" id="count-picker">
           ${counts.map((n, i) => `<button type="button" data-count="${n}" class="${i === 0 ? "active" : ""}">${n}</button>`).join("")}
         </div>
 
         <div class="setup-note">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
-          <span>${t("mock.setup.timeNote").replace("{s}", perQ)} (4 MCQ Options with Instant Grading).</span>
+          <span>Stopwatch Timer will track your total time taken. Instant grading on final submission.</span>
         </div>
-        <button class="btn btn-primary btn-begin" id="mock-begin">${t("mock.begin")}</button>
+        <button class="btn btn-primary btn-begin" id="mock-begin-btn">${t("mock.begin")}</button>
       </div>`;
 
-    // Language selection
     $$("[data-mocklang]").forEach((b) => {
       b.addEventListener("click", () => {
         $$("[data-mocklang]").forEach((x) => x.classList.remove("active"));
@@ -1521,7 +1493,6 @@
       });
     });
 
-    // Question count selection
     const picker = $("#count-picker");
     let selected = counts[0] || pool.length;
     $$("button", picker).forEach((b) => {
@@ -1532,20 +1503,26 @@
       });
     });
 
-    $("#mock-begin").addEventListener("click", () => startMock(selected));
+    /* Start Confirmation Popup */
+    $("#mock-begin-btn").addEventListener("click", () => {
+      showModalPopup({
+        title: "Start Mock Test?",
+        message: `You are about to start a ${selected} question test in ${state.mock.testLang === "as" ? "অসমীয়া" : "English"}. Do you want to proceed?`,
+        confirmText: "Start Test",
+        cancelText: "Cancel",
+        onConfirm: () => startMock(selected)
+      });
+    });
   }
 
-  /* Step F: Start Timed Mock Quiz */
   function startMock(count) {
     if (!state.mock) return;
     const pool = shuffle(state.mock.pool).slice(0, count);
-    const totalSec = pool.length * CONFIG.MOCK.SECONDS_PER_QUESTION;
     state.mock = Object.assign(state.mock, {
       pool,
       idx: 0,
       answers: [],
-      totalSec,
-      remaining: totalSec,
+      elapsedSec: 0,
       started: true,
       timerId: null,
     });
@@ -1563,13 +1540,13 @@
     main.innerHTML = `
       <div class="quiz-wrap">
         <div class="quiz-top">
-          <span class="qt-cat">${escapeHtml(localized(m.cat.name))} • ${t("mock.question")} ${m.idx + 1}/${m.pool.length}</span>
-          <span class="quiz-timer" id="quiz-timer">${fmtTime(m.remaining)}</span>
-          <button class="quiz-quit" id="quiz-quit">${t("mock.quit")}</button>
+          <span class="qt-cat">${escapeHtml(localized(m.cat.name))} • Question ${m.idx + 1}/${m.pool.length}</span>
+          <span class="quiz-timer" id="quiz-timer" title="Time Elapsed">⏱ ${fmtTime(m.elapsedSec)}</span>
+          <button class="quiz-quit" id="quiz-quit-btn">${t("mock.quit")}</button>
         </div>
         <div class="quiz-progress"><span id="quiz-progress" style="width:${((m.idx) / m.pool.length * 100).toFixed(1)}%"></span></div>
         <div class="quiz-card">
-          <div class="quiz-qno">${t("mock.question")} ${m.idx + 1}</div>
+          <div class="quiz-qno">Question ${m.idx + 1}</div>
           <div class="quiz-qtext">${escapeHtml(localizeContent(q.q))}</div>
 
           <div class="quiz-options" id="quiz-options">
@@ -1582,7 +1559,7 @@
 
           <div class="quiz-feedback" id="quiz-feedback"></div>
           <button class="btn btn-primary quiz-next" id="quiz-next" ${!answered ? "disabled" : ""}>
-            ${m.idx + 1 === m.pool.length ? t("mock.result.title") : t("mock.next")} →
+            ${m.idx + 1 === m.pool.length ? "Final Submit" : t("mock.next")} →
           </button>
         </div>
       </div>`;
@@ -1622,10 +1599,19 @@
       }
     });
 
-    $("#quiz-quit").addEventListener("click", () => {
-      stopMockTimer();
-      state.mock = null;
-      location.hash = "#/mock-test";
+    /* Quit Confirmation Popup */
+    $("#quiz-quit-btn").addEventListener("click", () => {
+      showModalPopup({
+        title: "Quit Mock Test?",
+        message: "Are you sure you want to quit the mock test? Your current progress will be lost.",
+        confirmText: "Yes, Quit",
+        cancelText: "Resume Test",
+        onConfirm: () => {
+          stopMockTimer();
+          state.mock = null;
+          location.hash = "#/mock-test";
+        }
+      });
     });
 
     if (!m.timerId) startMockTimer();
@@ -1635,15 +1621,10 @@
     const m = state.mock;
     const tick = () => {
       if (!m || !m.started || m.timerId === null) return;
-      m.remaining--;
+      m.elapsedSec++;
       const tEl = $("#quiz-timer");
       if (tEl) {
-        tEl.textContent = fmtTime(m.remaining);
-        tEl.classList.toggle("low", m.remaining <= 10);
-      }
-      if (m.remaining <= 0) {
-        stopMockTimer();
-        renderMockResults(true);
+        tEl.textContent = `⏱ ${fmtTime(m.elapsedSec)}`;
       }
     };
     m.timerId = setInterval(tick, 1000);
@@ -1654,8 +1635,7 @@
     return `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
   }
 
-  /* Step G: Results Screen */
-  function renderMockResults(autoSubmit) {
+  function renderMockResults() {
     const m = state.mock;
     stopMockTimer();
     if (!m) return;
@@ -1670,7 +1650,7 @@
       return { q, a, ok };
     });
 
-    const timeTaken = m.totalSec - m.remaining;
+    const timeTaken = m.elapsedSec;
     const pct = m.pool.length ? Math.round((correct / m.pool.length) * 100) : 0;
     const msgKey = pct >= 80 ? "mock.result.msgExcellent" : pct >= 55 ? "mock.result.msgGood" : pct >= 35 ? "mock.result.msgAverage" : "mock.result.msgPoor";
     const R = 52.5, C = 2 * Math.PI * R;
@@ -1693,7 +1673,7 @@
             <div class="rstat"><b>${correct}</b><span>${t("mock.result.correct")}</span></div>
             <div class="rstat bad"><b>${wrong}</b><span>${t("mock.result.wrong")}</span></div>
             <div class="rstat skip"><b>${skipped}</b><span>${t("mock.result.skipped")}</span></div>
-            <div class="rstat"><b>${fmtTime(timeTaken)}</b><span>${t("mock.result.time")}</span></div>
+            <div class="rstat"><b>${fmtTime(timeTaken)}</b><span>Total Time Taken</span></div>
           </div>
           <div class="result-actions">
             <button class="btn btn-primary" id="mock-retry">${t("mock.result.retry")}</button>
@@ -1738,7 +1718,6 @@
       reviewBtn.textContent = hidden ? t("mock.result.hideReview") : t("mock.result.review");
     });
 
-    if (autoSubmit) toast(t("mock.autoSubmit"));
     if (m.timerId) { clearInterval(m.timerId); m.timerId = null; }
   }
 
@@ -1763,7 +1742,7 @@
       window.addEventListener("hashchange", () => { buildDesktopNav(); buildMobileNav(); renderRoute(); });
       renderRoute();
 
-      /* Auto question counter */
+      /* Auto counter */
       let loadedTotal = 0;
       state.topicIndex.forEach(async (rec) => {
         try {
@@ -1792,7 +1771,6 @@
     setTimeout(() => pre.classList.add("done"), 350);
   }
 
-  /* Hamburger */
   function bindHamburger() {
     const burger = $("#hamburger");
     burger.addEventListener("click", () => {
@@ -1806,7 +1784,6 @@
     });
   }
 
-  /* Bottom tab bar */
   function updateTabbar(segs) {
     const tabs = $$("#tabbar .tab-item");
     let active = "home";
