@@ -1,7 +1,7 @@
 /* ============================================================
    axomexam — app.js
    Application logic: i18n, navigation, routing, rendering,
-   search, and the Q&A reader.
+   search, Q&A reader, and Multi-level Dynamic Mock Tests.
    ============================================================ */
 
 (() => {
@@ -22,26 +22,21 @@
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 
   /* ================= i18n helpers ================= */
-  /* UI strings: the interface always stays in English; only the
-     question & answer content follows the selected language. */
   function t(key) {
     return I18N.en[key] || key;
   }
-  /* Names (categories, topics, sections): always English in the UI. */
   function localized(obj) {
     if (obj == null) return "";
     if (typeof obj === "string") return obj;
     return obj.en || "";
   }
-  /* Q&A content: follows the reader's chosen language (state.lang),
-     defaulting to Assamese. English/Assamese toggle on the topic page. */
   function localizeContent(obj) {
     if (obj == null) return "";
     if (typeof obj === "string") return obj;
-    return obj[state.lang] || obj.en || obj.as || "";
+    const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
+    return obj[targetLang] || obj.en || obj.as || "";
   }
 
-  /* Update the few static English bits (placeholders, footer) */
   function applyStaticI18n() {
     $("#master-search").placeholder = t("search.placeholder");
     $("#footer-tagline").textContent = t("footer.tagline");
@@ -103,7 +98,6 @@
             (sec.topics || []).forEach((tp) => pushTopic(tp, cat, null, sec));
           });
         } else {
-          /* A category may also list topics directly for the simplest case */
           (cat.topics || []).forEach((tp) => pushTopic(tp, cat, null, null));
         }
       }
@@ -124,14 +118,12 @@
     const c = state.categories.find((x) => x.id === id);
     return (c && c.icon) || CATEGORY_ICONS[id] || "A";
   }
-  /* Category logo: SVG when available, else monogram. Returns safe HTML. */
   function catIconHTML(id) {
     const svg = CATEGORY_ICON_SVG[id];
     if (svg) return `<span class="cat-svg">${svg}</span>`;
     return escapeHtml(catIcon(id));
   }
 
-  /* Topic logo: keyword-matched SVG, falling back to the category logo. */
   function topicIconHTML(topicId, catId) {
     const id = String(topicId || "");
     for (const [re, svg] of TOPIC_ICON_RULES) {
@@ -183,7 +175,6 @@
       </div>`;
   }
 
-  /* Categories shown directly in the desktop nav; the rest go under "More". */
   const FEATURED_IDS = ["gk", "science", "math", "history", "reasoning"];
 
   function buildDesktopNav() {
@@ -199,14 +190,11 @@
     list.innerHTML = items.join("");
   }
 
-  /* Simple flat nav link (Mock Test / Downloads / Submit) */
   function extraLink(href, label, activePath) {
     const on = activePath.split("/")[0] === href.replace("#/", "");
     return `<li><a class="nav-link ${on ? "active" : ""}" href="${href}">${escapeHtml(label)}</a></li>`;
   }
 
-  /* "More" dropdown: remaining categories + Submit Q&A (Downloads is
-     its own direct header item). */
   function moreDropdownHTML(rest, activePath) {
     const root = activePath.split("/")[0];
     const isInside = rest.some((c) => c.id === root) || root === "submit";
@@ -233,7 +221,6 @@
       </li>`;
   }
 
-  /* ----- Mobile accordion ----- */
   function buildMobileNav() {
     const nav = $("#mobile-nav");
     const activePath = currentPath();
@@ -264,8 +251,6 @@
         </li>`;
     });
 
-    /* Download button sits directly below the Computer Awareness category;
-       the rest of the old bottom entries live in the main footer now. */
     const downloadItem = `
       <li class="m-download">
         <a class="m-item" href="#/downloads">
@@ -297,12 +282,9 @@
     return h.split("/").filter(Boolean);
   }
   function currentPath() {
-    return parseHash().filter((s) => s !== "category" && s !== "topic").join("/");
+    return parseHash().filter((s) => s !== "category" && s !== "topic" && s !== "mock-test").join("/");
   }
 
-  /* On every route change reset the page scroll to the top, otherwise the
-     browser keeps the old scroll offset and a shorter page clamps to the
-     bottom (looking like it auto-scrolled to the footer). */
   function resetScroll() {
     const html = document.documentElement;
     const prev = html.style.scrollBehavior;
@@ -320,7 +302,6 @@
     updateTabbar(segs);
     resetScroll();
 
-    /* Abandon any active mock session when leaving the mock area */
     if (segs[0] !== "mock-test" && state.mock && state.mock.timerId) {
       stopMockTimer();
       state.mock = null;
@@ -348,15 +329,14 @@
     if (segs[0] === "submit") return renderSubmitPage(main);
     if (segs[0] === "mock-test") {
       if (state.mock) stopMockTimer();
-      if (segs[1]) return renderMockSetup(main, segs[1]);
-      return renderMockPicker(main);
+      return handleMockRouting(main, segs);
     }
     return render404(main);
   }
 
   /* ================= Homepage ================= */
   function renderHome(main) {
-    const totalQuestions = state.topicIndex.reduce((a, r) => a + r.nQuestions, 0);
+    const totalQuestions = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0);
     const totalPdfs = state.topicIndex.filter((r) => r.pdf).length;
     const trending = trendingTopics(state.topicIndex.slice(0, CONFIG.TRENDING_COUNT));
     const firstCat = state.categories[0]?.id || "gk";
@@ -424,7 +404,7 @@
               <span class="rank">${i + 1}</span>
               <span>
                 <b>${escapeHtml(localized(r.title))}</b>
-                <span id="trend-count-${r.path.replace(/\//g, '-')}">${escapeHtml(localized(r.cat.name))} • ${r.nQuestions} ${t("topic.questions")}</span>
+                <span id="trend-count-${r.path.replace(/\//g, '-')}">${escapeHtml(localized(r.cat.name))} • ${r.nQuestions || 0} ${t("topic.questions")}</span>
               </span>
               <span class="trend-flame">
                 <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
@@ -436,14 +416,13 @@
     observeReveals();
   }
 
-  /* Compact, unique hero visual: animated countdown ring + floating chips */
   function heroVisualHTML() {
     const examName = CONFIG.MOCK.EXAM_NAME || "";
     const target = new Date(CONFIG.MOCK.EXAM_DATE).getTime();
     const now = Date.now();
     const daysLeft = target > now ? Math.max(0, Math.ceil((target - now) / 86400000)) : 0;
     const fraction = target > now ? Math.min(1, daysLeft / 365) : 0;
-    const C = 314; /* 2 * PI * 50 */
+    const C = 314;
     const offset = C * (1 - fraction);
     return `
       <div class="hero-visual">
@@ -467,7 +446,7 @@
   function trendingTopics(list) {
     return list.slice().sort((a, b) => {
       if (a.popularity !== b.popularity) return b.popularity - a.popularity;
-      return b.nQuestions - a.nQuestions;
+      return (b.nQuestions || 0) - (a.nQuestions || 0);
     });
   }
 
@@ -505,14 +484,12 @@
     const sub = (cat.subcategories || cat.sections || []).find((s) => s.id === segs[2]);
     if (!sub) return render404(main);
 
-    // Section level
     if (segs[3]) {
       const sec = (sub.sections || []).find((s) => s.id === segs[3]);
       if (!sec) return render404(main);
       return renderSectionPage(main, cat, sub, sec);
     }
 
-    // Subcategory level
     const secs = sub.sections;
     const topics = sub.topics;
     main.innerHTML = `
@@ -603,9 +580,7 @@
       rec.topic = Object.assign({}, rec.topic, data);
       rec.topic.title = rec.topic.title || rec.title;
       rec.nQuestions = (data.questions || []).length;
-    } catch {
-      /* keep the metadata already present in categories.json */
-    }
+    } catch { }
 
     state.page = 0;
     const qs = rec.topic.questions || [];
@@ -822,7 +797,7 @@
               <span class="topic-ico">${topicIconHTML(r.topic.id, r.cat.id)}</span>
               <span class="rank">${i + 1}</span>
               <span><b>${escapeHtml(localized(r.title))}</b>
-                <span>${escapeHtml(localized(r.cat.name))}${r.sub ? " • " + escapeHtml(localized(r.sub.name)) : ""} • ${r.nQuestions} ${t("topic.questions")}</span>
+                <span>${escapeHtml(localized(r.cat.name))}${r.sub ? " • " + escapeHtml(localized(r.sub.name)) : ""} • ${r.nQuestions || 0} ${t("topic.questions")}</span>
               </span>
             </a>`).join("")}
         </div>
@@ -862,7 +837,6 @@
     return (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
   }
 
-  /* Collect both language variants of a content field for searching */
   function allLangs(obj) {
     if (obj == null) return "";
     if (typeof obj === "string") return obj;
@@ -911,7 +885,7 @@
                 <span class="chip">${escapeHtml(localized(h.rec.cat.name))}</span>
                 <span>
                   <span class="sr-title">${escapeHtml(localized(h.rec.title))}</span>
-                  <span class="sr-sub">${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.nQuestions} ${t("topic.questions")}</span>
+                  <span class="sr-sub">${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.nQuestions || 0} ${t("topic.questions")}</span>
                 </span>
               </a>`).join("")}`;
           box.innerHTML += `<a class="sr-item" href="#/trending" style="justify-content:center;color:var(--primary);font-weight:600;">${t("see.all")}</a>`;
@@ -933,7 +907,7 @@
     });
   }
 
-  /* ================= Dedicated search page (mobile tab) ================= */
+  /* ================= Dedicated search page ================= */
   function renderSearchPage(main) {
     main.innerHTML = `
       <div class="page-head">
@@ -972,7 +946,7 @@
             <span class="chip">${escapeHtml(localized(h.rec.cat.name))}</span>
             <span>
               <b>${escapeHtml(localized(h.rec.title))}</b>
-              <span>${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.nQuestions} ${t("topic.questions")}</span>
+              <span>${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.nQuestions || 0} ${t("topic.questions")}</span>
             </span>
           </a>`).join("");
       }, 180);
@@ -1024,7 +998,6 @@
     els.forEach((el) => revealObserver.observe(el));
   }
 
-  /* ================= Misc ================= */
   function escapeHtml(s) {
     return String(s == null ? "" : s)
       .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
@@ -1048,7 +1021,7 @@
     el._t = setTimeout(() => el.classList.remove("show"), 2400);
   }
 
-  /* ================= Categories page (Practice tab) ================= */
+  /* ================= Categories page ================= */
   function renderCategoriesPage(main) {
     main.innerHTML = `
       <div class="page-head">
@@ -1181,31 +1154,90 @@
     $("#sub-tg").addEventListener("click", () => send("tg"));
   }
 
-  /* ================= Mock Test ================= */
-  async function collectCategoryQuestions(cat) {
-    const topicIds = [];
-    (cat.subcategories || cat.sections || []).forEach((sub) => {
-      (sub.sections || []).forEach((sec) => (sec.topics || []).forEach((tp) => topicIds.push({ id: tp.id, title: tp.name, sec: sec.name })));
-      (sub.topics || []).forEach((tp) => topicIds.push({ id: tp.id, title: tp.name, sec: null }));
+  /* ============================================================
+     ADVANCED MULTI-LEVEL DYNAMIC MOCK TEST SYSTEM
+     ============================================================ */
+
+  /* Helper to collect topics based on current mock route */
+  function getTopicsForMockFilter(cat, subId, secId, topicId) {
+    const matched = [];
+    state.topicIndex.forEach((rec) => {
+      if (rec.cat.id !== cat.id) return;
+      if (subId && subId !== "all" && (!rec.sub || rec.sub.id !== subId)) return;
+      if (secId && (!rec.section || rec.section.id !== secId)) return;
+      if (topicId && rec.topic.id !== topicId) return;
+      matched.push(rec);
     });
-    (cat.topics || []).forEach((tp) => topicIds.push({ id: tp.id, title: tp.name, sec: null }));
+    return matched;
+  }
+
+  /* Collect questions & auto-build 4 options if not provided */
+  async function collectQuestionsForMock(cat, subId, secId, topicId) {
+    const matchedTopics = getTopicsForMockFilter(cat, subId, secId, topicId);
+    if (!matchedTopics.length) return [];
+
     const results = await Promise.all(
-      topicIds.map((x) => API.getTopic(cat.id, x.id).then((d) => ({ d, x })).catch(() => null))
+      matchedTopics.map((rec) =>
+        API.getTopic(rec.cat.id, rec.topic.id)
+          .then((d) => ({ d, rec }))
+          .catch(() => null)
+      )
     );
-    const pool = [];
+
+    const rawList = [];
     results.forEach((r) => {
-      if (!r) return;
-      (r.d.questions || []).forEach((item) => {
-        pool.push({
-          q: item.q,
-          a: item.a,
-          options: Array.isArray(item.options) && item.options.length ? item.options : null,
-          correct: Number.isInteger(item.correct) ? item.correct : -1,
-          topicTitle: r.x.title,
-          section: r.x.sec,
+      if (!r || !r.d || !Array.isArray(r.d.questions)) return;
+      r.d.questions.forEach((qItem) => {
+        rawList.push({
+          q: qItem.q,
+          a: qItem.a,
+          options: Array.isArray(qItem.options) && qItem.options.length >= 2 ? qItem.options : null,
+          correct: Number.isInteger(qItem.correct) ? qItem.correct : -1,
+          topicTitle: r.rec.title,
+          catId: r.rec.cat.id,
         });
       });
     });
+
+    if (!rawList.length) return [];
+
+    /* Automatically generate 4 MCQ options for any questions that lack them */
+    const allAnswers = rawList.map((item) => item.a);
+
+    const pool = rawList.map((item) => {
+      if (item.options && item.options.length >= 2) {
+        return item; // already has MCQ options
+      }
+
+      // Generate 3 distractors from other questions' answers
+      const otherAnswers = shuffle(allAnswers.filter((a) => {
+        const text1 = typeof a === "object" ? (a.en || a.as) : a;
+        const text2 = typeof item.a === "object" ? (item.a.en || item.a.as) : item.a;
+        return text1 !== text2;
+      }));
+
+      const distractors = otherAnswers.slice(0, 3);
+      while (distractors.length < 3) {
+        distractors.push({ en: "None of these", as: "ইয়াৰ এটাও নহয়" });
+      }
+
+      const generatedOpts = [item.a, ...distractors];
+      const shuffledOpts = shuffle(generatedOpts);
+      const correctIdx = shuffledOpts.findIndex((opt) => {
+        const optText = typeof opt === "object" ? (opt.en || opt.as) : opt;
+        const ansText = typeof item.a === "object" ? (item.a.en || item.a.as) : item.a;
+        return optText === ansText;
+      });
+
+      return {
+        q: item.q,
+        a: item.a,
+        options: shuffledOpts,
+        correct: Math.max(0, correctIdx),
+        topicTitle: item.topicTitle,
+      };
+    });
+
     return pool;
   }
 
@@ -1225,14 +1257,65 @@
     }
   }
 
-  /* ---- Category picker ---- */
-  function renderMockPicker(main) {
+  /* Handle Mock Routing (Category -> Subcategory -> Section -> Test Setup) */
+  function handleMockRouting(main, segs) {
+    // 1. Root mock test page -> show categories
+    if (segs.length === 1) {
+      return renderMockCategoryPicker(main);
+    }
+
+    const catId = segs[1];
+    const cat = state.categories.find((c) => c.id === catId);
+    if (!cat) return render404(main);
+
+    const subId = segs[2];
+    const secId = segs[3];
+    const topicId = segs[4];
+
+    // If "all" or specific topic/setup reached
+    if (subId === "all" || (subId && subId.startsWith("topic-")) || segs.includes("start")) {
+      return renderMockSetup(main, cat, subId === "all" ? null : subId, secId, topicId);
+    }
+
+    const subs = cat.subcategories || [];
+    const directSections = cat.sections || [];
+
+    // 2. Category level: if it has subcategories
+    if (!subId && subs.length) {
+      return renderMockSubcategoryPicker(main, cat);
+    }
+
+    // 3. Subcategory level: if it has sections
+    if (subId && !secId) {
+      const sub = subs.find((s) => s.id === subId);
+      if (sub && sub.sections && sub.sections.length) {
+        return renderMockSectionPicker(main, cat, sub);
+      }
+      return renderMockSetup(main, cat, subId, null, null);
+    }
+
+    // 4. Section level: if it has topics
+    if (subId && secId) {
+      const sub = subs.find((s) => s.id === subId);
+      const sec = sub ? (sub.sections || []).find((sc) => sc.id === secId) : null;
+      if (sec && sec.topics && sec.topics.length) {
+        return renderMockTopicPicker(main, cat, sub, sec);
+      }
+      return renderMockSetup(main, cat, subId, secId, null);
+    }
+
+    // Direct setup if category only has direct topics/sections
+    return renderMockSetup(main, cat, null, null, null);
+  }
+
+  /* Step A: Choose Category for Mock Test */
+  function renderMockCategoryPicker(main) {
     main.innerHTML = `
       <div class="mock-intro">
         <h1>${t("mock.title")}</h1>
         <p>${t("mock.sub")}</p>
       </div>
-      <section class="section" style="padding-bottom:20px;">
+      <section class="section" style="padding-bottom:30px;">
         <div class="section-head"><div><h2>${t("mock.pick")}</h2><p class="sec-sub">${t("mock.pick.sub")}</p></div></div>
         <div class="mock-grid">
           ${state.categories.map((c, i) => {
@@ -1249,7 +1332,7 @@
                 <div class="mock-go">
                   <a class="mock-start" href="#/mock-test/${c.id}">
                     <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-                    ${t("mock.start")}
+                    Select Subject
                   </a>
                 </div>
               </div>`;
@@ -1259,59 +1342,186 @@
     observeReveals();
   }
 
-  /* ---- Setup screen ---- */
-  async function renderMockSetup(main, catId) {
-    const cat = state.categories.find((c) => c.id === catId);
-    if (!cat) return render404(main);
+  /* Step B: Choose Subcategory */
+  function renderMockSubcategoryPicker(main, cat) {
+    const subs = cat.subcategories || [];
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="#/">Home</a><span class="bc-sep">/</span>
+          <a href="#/mock-test">Mock Test</a><span class="bc-sep">/</span>
+          <span>${escapeHtml(localized(cat.name))}</span>
+        </nav>
+        <h1>${escapeHtml(localized(cat.name))} — Mock Tests</h1>
+        <p class="page-desc">Select a sub-category or take a full test of the entire subject.</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        <div class="sub-grid">
+          <a class="sub-card reveal" href="#/mock-test/${cat.id}/all" style="--cat:${catColor(cat.id)}; border: 2px dashed var(--primary);">
+            <span class="sub-ico">🎯</span>
+            <span><b>Full ${escapeHtml(localized(cat.name))} Mock Test</b>
+              <span>All sub-topics combined</span>
+            </span>
+          </a>
+          ${subs.map((s, i) => `
+            <a class="sub-card reveal" href="#/mock-test/${cat.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
+              <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
+              <span><b>${escapeHtml(localized(s.name))}</b>
+                <span>${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} Sections</span>
+              </span>
+            </a>`).join("")}
+        </div>
+      </section>`;
+    observeReveals();
+  }
+
+  /* Step C: Choose Section */
+  function renderMockSectionPicker(main, cat, sub) {
+    const secs = sub.sections || [];
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="#/">Home</a><span class="bc-sep">/</span>
+          <a href="#/mock-test">Mock Test</a><span class="bc-sep">/</span>
+          <a href="#/mock-test/${cat.id}">${escapeHtml(localized(cat.name))}</a><span class="bc-sep">/</span>
+          <span>${escapeHtml(localized(sub.name))}</span>
+        </nav>
+        <h1>${escapeHtml(localized(sub.name))}</h1>
+        <p class="page-desc">Choose a section to begin your timed test.</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        <div class="sub-grid">
+          <a class="sub-card reveal" href="#/mock-test/${cat.id}/start" style="--cat:${catColor(cat.id)}; border: 2px dashed var(--primary);">
+            <span class="sub-ico">🎯</span>
+            <span><b>All ${escapeHtml(localized(sub.name))} Questions</b>
+              <span>Mixed practice test</span>
+            </span>
+          </a>
+          ${secs.map((sec, i) => `
+            <a class="sub-card reveal" href="#/mock-test/${cat.id}/${sub.id}/${sec.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
+              <span class="sub-ico">${topicIconHTML(sec.id, cat.id)}</span>
+              <span><b>${escapeHtml(localized(sec.name))}</b>
+                <span>${(sec.topics || []).length} Topics</span>
+              </span>
+            </a>`).join("")}
+        </div>
+      </section>`;
+    observeReveals();
+  }
+
+  /* Step D: Choose Topic */
+  function renderMockTopicPicker(main, cat, sub, sec) {
+    const topics = sec.topics || [];
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="#/">Home</a><span class="bc-sep">/</span>
+          <a href="#/mock-test">Mock Test</a><span class="bc-sep">/</span>
+          <a href="#/mock-test/${cat.id}">${escapeHtml(localized(cat.name))}</a><span class="bc-sep">/</span>
+          <a href="#/mock-test/${cat.id}/${sub.id}">${escapeHtml(localized(sub.name))}</a><span class="bc-sep">/</span>
+          <span>${escapeHtml(localized(sec.name))}</span>
+        </nav>
+        <h1>${escapeHtml(localized(sec.name))}</h1>
+        <p class="page-desc">Pick a specific topic or test all questions in this section.</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        <div class="sub-grid">
+          <a class="sub-card reveal" href="#/mock-test/${cat.id}/start" style="--cat:${catColor(cat.id)}; border: 2px dashed var(--primary);">
+            <span class="sub-ico">🎯</span>
+            <span><b>All Topics in ${escapeHtml(localized(sec.name))}</b>
+              <span>Start mixed mock test</span>
+            </span>
+          </a>
+          ${topics.map((tp, i) => `
+            <a class="sub-card reveal" href="#/mock-test/${cat.id}/start" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
+              <span class="sub-ico">${topicIconHTML(tp.id, cat.id)}</span>
+              <span><b>${escapeHtml(localized(tp.name))}</b>
+                <span>Take Mock Test</span>
+              </span>
+            </a>`).join("")}
+        </div>
+      </section>`;
+    observeReveals();
+  }
+
+  /* Step E: Test Setup Screen (Language + Question Count selection) */
+  async function renderMockSetup(main, cat, subId, secId, topicId) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("mock.loading")}</p></div>`;
 
-    let pool = [];
-    try {
-      pool = await collectCategoryQuestions(cat);
-    } catch { /* pool stays empty */ }
+    const pool = await collectQuestionsForMock(cat, subId, secId, topicId);
 
     if (!pool.length) {
-      main.innerHTML = `<div class="qa-empty" style="padding:60px 20px;"><div class="big">
-        <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
-      </div><p>${t("mock.noQuestions")}</p></div>`;
+      main.innerHTML = `
+        <div class="qa-empty" style="padding:60px 20px;">
+          <div class="big">
+            <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+          </div>
+          <p>${t("mock.noQuestions")}</p>
+          <div style="margin-top:18px;"><a class="btn btn-outline" href="#/mock-test">← Choose Another Category</a></div>
+        </div>`;
       return;
     }
 
-    state.mock = { cat, pool, configured: false, count: 0 };
+    state.mock = {
+      cat,
+      pool,
+      configured: false,
+      count: 0,
+      testLang: state.lang || "as"
+    };
 
     const perQ = CONFIG.MOCK.SECONDS_PER_QUESTION;
-    const counts = [5, 10, 15, 20].filter((n) => n <= pool.length);
-    const fullOption = pool.length > 20;
-    if (!fullOption && !counts.includes(pool.length)) counts.push(pool.length);
+    const counts = [5, 10, 15, 20, 50].filter((n) => n <= pool.length);
+    if (!counts.includes(pool.length)) counts.push(pool.length);
 
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb">
-          <a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
-          <a href="#/mock-test">${t("mock.title")}</a>
-          <span class="bc-sep">/</span><span>${escapeHtml(localized(cat.name))}</span>
+          <a href="#/">Home</a><span class="bc-sep">/</span>
+          <a href="#/mock-test">Mock Test</a><span class="bc-sep">/</span>
+          <span>${escapeHtml(localized(cat.name))}</span>
         </nav>
         <h1>${t("mock.setup.title")}</h1>
         <p class="page-desc">${escapeHtml(localized(cat.name))} • ${pool.length} ${t("mock.questions")}</p>
       </div>
+
       <div class="setup-panel">
         <div class="sp-title">
           <span class="mock-ico" style="background:${catColor(cat.id)};width:40px;height:40px;border-radius:11px;">${catIconHTML(cat.id)}</span>
-          <b>${escapeHtml(localized(cat.name))}</b>
+          <b>${escapeHtml(localized(cat.name))} Mock Test</b>
         </div>
-        <p class="sp-sub">${t("mock.setup.sub")}</p>
-        <p style="margin-top:16px;font-weight:700;font-size:.9rem;">${t("mock.setup.count")}</p>
+        <p class="sp-sub">Configure your test settings below and start.</p>
+
+        <!-- Language Choice -->
+        <p style="margin-top:18px;font-weight:700;font-size:.9rem;">Select Question Language / প্ৰশ্নৰ ভাষা:</p>
+        <div class="lang-switch" style="margin-top:8px; display:inline-flex; width:100%;">
+          <button type="button" class="lang-btn ${state.mock.testLang === "as" ? "active" : ""}" data-mocklang="as" style="flex:1; padding:10px; font-weight:700;">অসমীয়া (Assamese)</button>
+          <button type="button" class="lang-btn ${state.mock.testLang === "en" ? "active" : ""}" data-mocklang="en" style="flex:1; padding:10px; font-weight:700;">English</button>
+        </div>
+
+        <!-- Question Set Size -->
+        <p style="margin-top:18px;font-weight:700;font-size:.9rem;">${t("mock.setup.count")} / প্ৰশ্নৰ সংখ্যা:</p>
         <div class="count-picker" id="count-picker">
           ${counts.map((n, i) => `<button type="button" data-count="${n}" class="${i === 0 ? "active" : ""}">${n}</button>`).join("")}
-          ${fullOption ? `<button type="button" data-count="${pool.length}" class="${counts.length === 0 ? "active" : ""}">${t("mock.setup.all")} (${pool.length})</button>` : ""}
         </div>
+
         <div class="setup-note">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
-          <span>${t("mock.setup.timeNote").replace("{s}", perQ)}</span>
+          <span>${t("mock.setup.timeNote").replace("{s}", perQ)} (4 MCQ Options with Instant Grading).</span>
         </div>
         <button class="btn btn-primary btn-begin" id="mock-begin">${t("mock.begin")}</button>
       </div>`;
 
+    // Language selection
+    $$("[data-mocklang]").forEach((b) => {
+      b.addEventListener("click", () => {
+        $$("[data-mocklang]").forEach((x) => x.classList.remove("active"));
+        b.classList.add("active");
+        state.mock.testLang = b.dataset.mocklang;
+      });
+    });
+
+    // Question count selection
     const picker = $("#count-picker");
     let selected = counts[0] || pool.length;
     $$("button", picker).forEach((b) => {
@@ -1321,16 +1531,23 @@
         selected = parseInt(b.dataset.count, 10);
       });
     });
+
     $("#mock-begin").addEventListener("click", () => startMock(selected));
   }
 
-  /* ---- Start quiz ---- */
+  /* Step F: Start Timed Mock Quiz */
   function startMock(count) {
     if (!state.mock) return;
     const pool = shuffle(state.mock.pool).slice(0, count);
     const totalSec = pool.length * CONFIG.MOCK.SECONDS_PER_QUESTION;
     state.mock = Object.assign(state.mock, {
-      pool, idx: 0, answers: [], totalSec, remaining: totalSec, started: true, timerId: null,
+      pool,
+      idx: 0,
+      answers: [],
+      totalSec,
+      remaining: totalSec,
+      started: true,
+      timerId: null,
     });
     renderMockQuiz();
   }
@@ -1340,8 +1557,7 @@
     const q = m.pool[m.idx];
     if (!q) return renderMockResults();
     const main = $("#app");
-    const answered = !!m.answers[m.idx];
-    const isMcq = !!q.options;
+    const answered = m.answers[m.idx] !== undefined;
     const keys = ["A", "B", "C", "D", "E"];
 
     main.innerHTML = `
@@ -1353,38 +1569,24 @@
         </div>
         <div class="quiz-progress"><span id="quiz-progress" style="width:${((m.idx) / m.pool.length * 100).toFixed(1)}%"></span></div>
         <div class="quiz-card">
-          <div class="quiz-qno">${t("mock.question")} ${m.idx + 1}${q.section ? " • " + escapeHtml(localized(q.section)) : ""}</div>
+          <div class="quiz-qno">${t("mock.question")} ${m.idx + 1}</div>
           <div class="quiz-qtext">${escapeHtml(localizeContent(q.q))}</div>
 
-          ${isMcq ? `
-            <div class="quiz-options" id="quiz-options">
-              ${q.options.map((opt, i) => `
-                <button class="quiz-option" data-opt="${i}" ${answered ? "disabled" : ""}>
-                  <span class="opt-key">${keys[i]}</span>
-                  <span>${escapeHtml(localizeContent(opt))}</span>
-                </button>`).join("")}
-            </div>` : `
-            <div class="quiz-flash">
-              <div class="flash-q">${t("mock.flashHint")}</div>
-              <button class="btn btn-outline" id="flash-reveal" style="margin-top:12px;width:100%;">${t("mock.showAnswer")}</button>
-              <div class="quiz-reveal-answer" id="flash-answer">
-                <div class="a-label">${t("topic.answer")}</div>
-                <div class="a-body">${escapeHtml(localizeContent(q.a))}</div>
-              </div>
-              <div class="quiz-flash-actions" id="flash-actions">
-                <button class="btn-self-good" data-grade="1">${t("mock.revealCorrect")}</button>
-                <button class="btn-self-bad" data-grade="0">${t("mock.revealWrong")}</button>
-              </div>
-            </div>`}
+          <div class="quiz-options" id="quiz-options">
+            ${(q.options || []).map((opt, i) => `
+              <button class="quiz-option" data-opt="${i}" ${answered ? "disabled" : ""}>
+                <span class="opt-key">${keys[i]}</span>
+                <span>${escapeHtml(localizeContent(opt))}</span>
+              </button>`).join("")}
+          </div>
 
           <div class="quiz-feedback" id="quiz-feedback"></div>
-          <button class="btn btn-primary quiz-next" id="quiz-next" ${isMcq && !answered ? "disabled" : ""}>
+          <button class="btn btn-primary quiz-next" id="quiz-next" ${!answered ? "disabled" : ""}>
             ${m.idx + 1 === m.pool.length ? t("mock.result.title") : t("mock.next")} →
           </button>
         </div>
       </div>`;
 
-    /* ---- MCQ interaction ---- */
     const optionsBox = $("#quiz-options");
     if (optionsBox) {
       $$(".quiz-option", optionsBox).forEach((opt) => {
@@ -1402,28 +1604,9 @@
           const fb = $("#quiz-feedback");
           fb.classList.add(sel === q.correct ? "good" : "bad");
           fb.style.display = "block";
-          fb.textContent = sel === q.correct ? t("mock.revealCorrect") : `${t("mock.correctAnswer")}: ${escapeHtml(localizeContent(q.options[q.correct]))}`;
-          $("#quiz-next").disabled = false;
-        });
-      });
-    }
-
-    /* ---- Flashcard interaction ---- */
-    const reveal = $("#flash-reveal");
-    if (reveal) {
-      reveal.addEventListener("click", () => {
-        $("#flash-answer").style.display = "block";
-        $("#flash-actions").style.display = "flex";
-        reveal.style.display = "none";
-      });
-      $$("[data-grade]", $("#flash-actions")).forEach((b) => {
-        b.addEventListener("click", () => {
-          if (m.answers[m.idx] !== undefined) return;
-          m.answers[m.idx] = parseInt(b.dataset.grade, 10);
-          const fb = $("#quiz-feedback");
-          fb.classList.add(m.answers[m.idx] === 1 ? "good" : "bad");
-          fb.style.display = "block";
-          fb.textContent = m.answers[m.idx] === 1 ? t("mock.revealCorrect") : t("mock.revealWrong");
+          fb.textContent = sel === q.correct
+            ? t("mock.revealCorrect")
+            : `${t("mock.correctAnswer")}: ${escapeHtml(localizeContent(q.options[q.correct]))}`;
           $("#quiz-next").disabled = false;
         });
       });
@@ -1431,8 +1614,12 @@
 
     $("#quiz-next").addEventListener("click", () => {
       m.idx++;
-      if (m.idx >= m.pool.length) { stopMockTimer(); renderMockResults(); }
-      else renderMockQuiz();
+      if (m.idx >= m.pool.length) {
+        stopMockTimer();
+        renderMockResults();
+      } else {
+        renderMockQuiz();
+      }
     });
 
     $("#quiz-quit").addEventListener("click", () => {
@@ -1467,7 +1654,7 @@
     return `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
   }
 
-  /* ---- Results ---- */
+  /* Step G: Results Screen */
   function renderMockResults(autoSubmit) {
     const m = state.mock;
     stopMockTimer();
@@ -1476,18 +1663,11 @@
     let correct = 0, wrong = 0, skipped = 0;
     const results = m.pool.map((q, i) => {
       const a = m.answers[i];
-      const isMcq = !!q.options;
       let ok = false;
-      if (isMcq) {
-        if (a === undefined) skipped++;
-        else if (a === q.correct) { ok = true; correct++; }
-        else wrong++;
-      } else {
-        if (a === undefined) skipped++;
-        else if (a === 1) { ok = true; correct++; }
-        else wrong++;
-      }
-      return { q, a, ok, isMcq };
+      if (a === undefined) skipped++;
+      else if (a === q.correct) { ok = true; correct++; }
+      else wrong++;
+      return { q, a, ok };
     });
 
     const timeTaken = m.totalSec - m.remaining;
@@ -1528,15 +1708,11 @@
               ? `<span class="rv-badge" style="background:#f1f5f9;color:#64748b;">${t("mock.result.skipped")}</span>`
               : `<span class="rv-badge ${r.ok ? "good" : "bad"}">${r.ok ? "✓ " + t("mock.result.correct") : "✕ " + t("mock.result.wrong")}</span>`;
             let ansLine = "";
-            if (r.isMcq && r.a !== undefined) {
+            if (r.a !== undefined && q.options) {
               ansLine = `<div class="rv-ans"><b>${t("mock.answer")}:</b> ${escapeHtml(localizeContent(q.options[r.a]))}</div>`;
               if (!r.ok) ansLine += `<div class="rv-ans correct-line"><b>${t("mock.correctAnswer")}:</b> ${escapeHtml(localizeContent(q.options[q.correct]))}</div>`;
-            } else if (r.isMcq && r.a === undefined) {
+            } else if (q.options) {
               ansLine = `<div class="rv-ans correct-line"><b>${t("mock.correctAnswer")}:</b> ${escapeHtml(localizeContent(q.options[q.correct]))}</div>`;
-            } else if (!r.isMcq && r.a !== undefined) {
-              ansLine = `<div class="rv-ans"><b>${t("topic.answer")}:</b> ${escapeHtml(localizeContent(q.a))}</div>`;
-            } else if (!r.isMcq) {
-              ansLine = `<div class="rv-ans correct-line"><b>${t("topic.answer")}:</b> ${escapeHtml(localizeContent(q.a))}</div>`;
             }
             return `
               <div class="review-item">
@@ -1563,9 +1739,6 @@
     });
 
     if (autoSubmit) toast(t("mock.autoSubmit"));
-
-    /* keep the session data so "Retry" can restart; it is cleared when the
-       user leaves the mock-test area (see renderRoute guard) */
     if (m.timerId) { clearInterval(m.timerId); m.timerId = null; }
   }
 
@@ -1590,7 +1763,7 @@
       window.addEventListener("hashchange", () => { buildDesktopNav(); buildMobileNav(); renderRoute(); });
       renderRoute();
 
-      /* ব্যাকগ্ৰাউণ্ডত সকলো প্ৰশ্ন স্বয়ংক্ৰিয়ভাৱে লোড কৰি গণনা কৰা */
+      /* Auto question counter */
       let loadedTotal = 0;
       state.topicIndex.forEach(async (rec) => {
         try {
@@ -1599,22 +1772,17 @@
             rec.nQuestions = d.questions.length;
             rec.topic.questions = d.questions;
             
-            // কাৰ্ডৰ প্ৰশ্নৰ সংখ্যা আপডেট কৰা
             const el = document.getElementById(`count-${rec.path.replace(/\//g, '-')}`);
             if (el) el.textContent = `${rec.nQuestions} ${t("topic.questions")}`;
 
-            // ট্ৰেণ্ডিং কাৰ্ডৰ সংখ্যা আপডেট কৰা
             const tEl = document.getElementById(`trend-count-${rec.path.replace(/\//g, '-')}`);
             if (tEl) tEl.textContent = `${escapeHtml(localized(rec.cat.name))} • ${rec.nQuestions} ${t("topic.questions")}`;
 
-            // হেদাৰৰ সৰ্বমুঠ প্ৰশ্নৰ সংখ্যা আপডেট কৰা
             loadedTotal = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0);
             const totalEl = $("#stat-total-questions");
             if (totalEl) totalEl.textContent = `${loadedTotal.toLocaleString()}+`;
           }
-        } catch (e) {
-          /* বিষয় ফাইল নাথাকিলে এৰাই চলিব */
-        }
+        } catch (e) { }
       });
 
     } else {
@@ -1638,7 +1806,7 @@
     });
   }
 
-  /* Bottom app tab bar */
+  /* Bottom tab bar */
   function updateTabbar(segs) {
     const tabs = $$("#tabbar .tab-item");
     let active = "home";
