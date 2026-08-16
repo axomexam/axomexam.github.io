@@ -1,0 +1,52 @@
+{
+  "id": "ms-word",
+  "title": { "en": "MS Word", "as": "MS Word" },
+  "description": { "en": "Common MS Word questions for exams.", "as": "পৰীক্ষাৰ বাবে সাধাৰণ MS Word প্ৰশ্নসমূহ।" },
+  "tags": ["computer", "ms office", "word", "কম্পিউটাৰ", "ৱৰ্ড"],
+  "questions": [
+    {
+      "q": { "en": "Which shortcut is used to save a document in MS Word?", "as": "MS Wordত দস্তাবেজ সংৰক্ষণ কৰিবলৈ কোন ছৰ্টকাট ব্যৱহাৰ হয়?" },
+      "options": [
+        { "en": "Ctrl + S", "as": "Ctrl + S" },
+        { "en": "Ctrl + P", "as": "Ctrl + P" },
+        { "en": "Ctrl + N", "as": "Ctrl + N" },
+        { "en": "Ctrl + O", "as": "Ctrl + O" }
+      ],
+      "correct": 0,
+      "a": { "en": "Ctrl + S saves; Ctrl + P prints; Ctrl + N creates a new document.", "as": "Ctrl + S সংৰক্ষণ; Ctrl + P মুদ্ৰণ; Ctrl + N নতুন দস্তাবেজ।" }
+    },
+    {
+      "q": { "en": "What is the default file extension of MS Word?", "as": "MS Word ৰ ডিফল্ট ফাইল এক্সটেনছন কি?" },
+      "options": [
+        { "en": ".docx", "as": ".docx" },
+        { "en": ".pdf", "as": ".pdf" },
+        { "en": ".xlsx", "as": ".xlsx" },
+        { "en": ".pptx", "as": ".pptx" }
+      ],
+      "correct": 0,
+      "a": { "en": ".docx", "as": ".docx" }
+    },
+    {
+      "q": { "en": "Which toolbar shows font, size and bold options by default?", "as": "কোন টুলবাৰত ফন্ট, সাইজ আৰু বল্ড বিকল্প দেখায়?" },
+      "options": [
+        { "en": "Home tab (Font group)", "as": "Home টেব (Font গোট)" },
+        { "en": "View tab", "as": "View টেব" },
+        { "en": "Insert tab", "as": "Insert টেব" },
+        { "en": "Page Layout tab", "as": "Page Layout টেব" }
+      ],
+      "correct": 0,
+      "a": { "en": "Home tab → Font group.", "as": "Home টেব → Font গোট।" }
+    },
+    {
+      "q": { "en": "Which shortcut selects all text in a document?", "as": "দস্তাবেজৰ আটাইখিনি পাঠ্য নিৰ্বাচন কৰিবলৈ কোন ছৰ্টকাট?" },
+      "options": [
+        { "en": "Ctrl + A", "as": "Ctrl + A" },
+        { "en": "Ctrl + C", "as": "Ctrl + C" },
+        { "en": "Ctrl + V", "as": "Ctrl + V" },
+        { "en": "Ctrl + X", "as": "Ctrl + X" }
+      ],
+      "correct": 0,
+      "a": { "en": "Ctrl + A selects all; Ctrl + C copies; Ctrl + V pastes.", "as": "Ctrl + A আটাইখিনি নিৰ্বাচন; Ctrl + C কপি; Ctrl + V পেষ্ট।" }
+    }
+  ]
+}

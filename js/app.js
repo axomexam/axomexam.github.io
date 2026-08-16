@@ -1,0 +1,1661 @@
+/* ============================================================
+   axomexam — app.js
+   Application logic: i18n, navigation, routing, rendering,
+   search, and the Q&A reader.
+   ============================================================ */
+
+(() => {
+  "use strict";
+
+  /* ================= State ================= */
+  const state = {
+    categories: [],        // normalized tree
+    topicMap: {},          // path -> topic record
+    topicIndex: [],        // flat list for search/trending
+    ready: false,
+    page: 0,               // pagination for current topic page
+    lang: "as",            // reading language for Q&A content ("en" | "as")
+    mock: null,            // active mock test session
+  };
+
+  const $ = (sel, root = document) => root.querySelector(sel);
+  const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+
+  /* ================= i18n helpers ================= */
+  /* UI strings: the interface always stays in English; only the
+     question & answer content follows the selected language. */
+  function t(key) {
+    return I18N.en[key] || key;
+  }
+  /* Names (categories, topics, sections): always English in the UI. */
+  function localized(obj) {
+    if (obj == null) return "";
+    if (typeof obj === "string") return obj;
+    return obj.en || "";
+  }
+  /* Q&A content: follows the reader's chosen language (state.lang),
+     defaulting to Assamese. English/Assamese toggle on the topic page. */
+  function localizeContent(obj) {
+    if (obj == null) return "";
+    if (typeof obj === "string") return obj;
+    return obj[state.lang] || obj.en || obj.as || "";
+  }
+
+  /* Update the few static English bits (placeholders, footer) */
+  function applyStaticI18n() {
+    $("#master-search").placeholder = t("search.placeholder");
+    $("#footer-tagline").textContent = t("footer.tagline");
+    $("#footer-copy").textContent =
+      `© ${new Date().getFullYear()} axomexam — ${t("brand.tagline")}`;
+    $$("[aria-label]").forEach((el) => {
+      const k = el.getAttribute("data-aria-i18n");
+      if (k) el.setAttribute("aria-label", t(k));
+    });
+  }
+
+  /* ================= Data normalization ================= */
+  function normalize(data) {
+    const cats = [];
+    const topicMap = {};
+    const topicIndex = [];
+
+    const pushTopic = (topic, cat, sub, section) => {
+      const path = [cat.id, sub ? sub.id : "", section ? section.id : ""]
+        .filter(Boolean)
+        .concat([topic.id])
+        .join("/");
+      const rec = {
+        path,
+        cat, sub, section, topic,
+        title: topic.title || topic.name,
+        desc: topic.description,
+        tags: topic.tags || [],
+        nQuestions: (topic.questions || []).length,
+        pdf: topic.pdf || null,
+        popularity: Number(topic.popularity) || 0,
+      };
+      topicMap[path] = rec;
+      topicIndex.push(rec);
+    };
+
+    const walkCategory = (cat) => {
+      cat.name = cat.name || { en: cat.id, as: cat.id };
+      cat.description = cat.description || {};
+      const subs = cat.subcategories || [];
+      if (subs.length) {
+        subs.forEach((sub) => {
+          sub.name = sub.name || { en: sub.id, as: sub.id };
+          const sections = sub.sections || [];
+          if (sections.length) {
+            sections.forEach((sec) => {
+              sec.name = sec.name || { en: sec.id, as: sec.id };
+              (sec.topics || []).forEach((tp) => pushTopic(tp, cat, sub, sec));
+            });
+          } else {
+            (sub.topics || []).forEach((tp) => pushTopic(tp, cat, sub, null));
+          }
+        });
+      } else {
+        const sections = cat.sections || [];
+        if (sections.length) {
+          sections.forEach((sec) => {
+            sec.name = sec.name || { en: sec.id, as: sec.id };
+            (sec.topics || []).forEach((tp) => pushTopic(tp, cat, null, sec));
+          });
+        } else {
+          /* A category may also list topics directly for the simplest case */
+          (cat.topics || []).forEach((tp) => pushTopic(tp, cat, null, null));
+        }
+      }
+      cats.push(cat);
+    };
+
+    (data.categories || []).forEach(walkCategory);
+
+    return { categories: cats, topicMap, topicIndex };
+  }
+
+  /* ================= Navigation rendering ================= */
+  function catColor(id) {
+    const c = state.categories.find((x) => x.id === id);
+    return (c && c.color) || CATEGORY_COLORS[id] || CATEGORY_COLORS.default;
+  }
+  function catIcon(id) {
+    const c = state.categories.find((x) => x.id === id);
+    return (c && c.icon) || CATEGORY_ICONS[id] || "A";
+  }
+  /* Category logo: SVG when available, else monogram. Returns safe HTML. */
+  function catIconHTML(id) {
+    const svg = CATEGORY_ICON_SVG[id];
+    if (svg) return `<span class="cat-svg">${svg}</span>`;
+    return escapeHtml(catIcon(id));
+  }
+
+  /* Topic logo: keyword-matched SVG, falling back to the category logo. */
+  function topicIconHTML(topicId, catId) {
+    const id = String(topicId || "");
+    for (const [re, svg] of TOPIC_ICON_RULES) {
+      if (re.test(id)) return `<span class="cat-svg">${svg}</span>`;
+    }
+    return catIconHTML(catId);
+  }
+
+  function countTopics(cat) {
+    return state.topicIndex.filter((r) => r.cat.id === cat.id).length;
+  }
+
+  function navLinkHTML(item, activePath) {
+    const kids = item.subcategories || item.sections || [];
+    const hasKids = !!(kids && kids.length);
+    const isActive = activePath && activePath.split("/")[0] === item.id;
+    return `
+      <li class="${hasKids ? "has-drop" : ""}">
+        <a class="nav-link ${isActive ? "active" : ""}" href="#/category/${item.id}">
+          <span>${escapeHtml(localized(item.name))}</span>
+          ${hasKids ? '<span class="caret"></span>' : ""}
+        </a>
+        ${hasKids ? renderDesktopDrop(item, activePath) : ""}
+      </li>`;
+  }
+
+  function renderDesktopDrop(item, activePath) {
+    const kids = item.subcategories || item.sections;
+    return `
+      <div class="dropdown">
+        ${kids.map((sub) => {
+          const grand = sub.sections;
+          if (grand && grand.length) {
+            return `
+              <div class="has-drop">
+                <a href="#/category/${item.id}/${sub.id}">
+                  <span>${escapeHtml(localized(sub.name))}</span><span class="d-caret"></span>
+                </a>
+                <div class="dropdown">
+                  ${grand.map((sec) => `
+                    <a href="#/category/${item.id}/${sub.id}/${sec.id}">
+                      <span>${escapeHtml(localized(sec.name))}</span>
+                    </a>`).join("")}
+                </div>
+              </div>`;
+          }
+          return `<a href="#/category/${item.id}/${sub.id}">${escapeHtml(localized(sub.name))}</a>`;
+        }).join("")}
+      </div>`;
+  }
+
+  /* Categories shown directly in the desktop nav; the rest go under "More". */
+  const FEATURED_IDS = ["gk", "science", "math", "history", "reasoning"];
+
+  function buildDesktopNav() {
+    const list = $("#nav-list");
+    const activePath = currentPath();
+    const featured = state.categories.filter((c) => FEATURED_IDS.includes(c.id));
+    const rest = state.categories.filter((c) => !FEATURED_IDS.includes(c.id));
+    const items = [];
+    items.push(extraLink("#/mock-test", t("nav.mock"), activePath));
+    items.push(extraLink("#/downloads", t("nav.downloads"), activePath));
+    featured.forEach((c) => items.push(navLinkHTML(c, activePath)));
+    items.push(moreDropdownHTML(rest, activePath));
+    list.innerHTML = items.join("");
+  }
+
+  /* Simple flat nav link (Mock Test / Downloads / Submit) */
+  function extraLink(href, label, activePath) {
+    const on = activePath.split("/")[0] === href.replace("#/", "");
+    return `<li><a class="nav-link ${on ? "active" : ""}" href="${href}">${escapeHtml(label)}</a></li>`;
+  }
+
+  /* "More" dropdown: remaining categories + Submit Q&A (Downloads is
+     its own direct header item). */
+  function moreDropdownHTML(rest, activePath) {
+    const root = activePath.split("/")[0];
+    const isInside = rest.some((c) => c.id === root) || root === "submit";
+    const catLinks = rest.map((c) => {
+      const on = root === c.id;
+      return `<a class="${on ? "active" : ""}" href="#/category/${c.id}">${escapeHtml(localized(c.name))}</a>`;
+    }).join("");
+    const extraLinks = [
+      ["#/submit", t("nav.submit")],
+    ].map(([href, label]) => {
+      const on = root === href.replace("#/", "");
+      return `<a class="${on ? "active" : ""}" href="${href}">${escapeHtml(label)}</a>`;
+    }).join("");
+    return `
+      <li class="has-drop">
+        <a class="nav-link ${isInside ? "active" : ""}" href="#/categories">
+          <span>${escapeHtml(t("nav.more"))}</span><span class="caret"></span>
+        </a>
+        <div class="dropdown">
+          ${catLinks ? `<div class="d-label">${escapeHtml(t("nav.categories"))}</div>${catLinks}` : ""}
+          <div class="d-label">${escapeHtml(t("mmenu.extra"))}</div>
+          ${extraLinks}
+        </div>
+      </li>`;
+  }
+
+  /* ----- Mobile accordion ----- */
+  function buildMobileNav() {
+    const nav = $("#mobile-nav");
+    const activePath = currentPath();
+    const catParts = state.categories.map((cat) => {
+      const kids = cat.subcategories || cat.sections || [];
+      return `
+        <li>
+          <div class="m-row">
+            <a class="m-item ${activePath.split("/")[0] === cat.id ? "active" : ""}" href="#/category/${cat.id}">
+              ${escapeHtml(localized(cat.name))}
+            </a>
+            ${kids.length ? `<button class="m-toggle" data-toggle data-target="${cat.id}" aria-label="toggle"><span class="caret"></span></button>` : ""}
+          </div>
+          ${kids.length ? `<div class="m-sub" id="msub-${cat.id}">${kids.map((sub) => {
+            const grand = sub.sections;
+            if (grand && grand.length) {
+              return `
+                <div class="m-row">
+                  <a class="m-item" href="#/category/${cat.id}/${sub.id}">${escapeHtml(localized(sub.name))}</a>
+                  <button class="m-toggle" data-toggle data-target="${cat.id}-${sub.id}" aria-label="toggle"><span class="caret"></span></button>
+                </div>
+                <div class="m-sub m-nested" id="msub-${cat.id}-${sub.id}">
+                  ${grand.map((sec) => `<a href="#/category/${cat.id}/${sub.id}/${sec.id}">${escapeHtml(localized(sec.name))}</a>`).join("")}
+                </div>`;
+            }
+            return `<a href="#/category/${cat.id}/${sub.id}">${escapeHtml(localized(sub.name))}</a>`;
+          }).join("")}</div>` : ""}
+        </li>`;
+    });
+
+    /* Download button sits directly below the Computer Awareness category;
+       the rest of the old bottom entries live in the main footer now. */
+    const downloadItem = `
+      <li class="m-download">
+        <a class="m-item" href="#/downloads">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
+          ${escapeHtml(t("nav.downloads"))}
+        </a>
+      </li>`;
+    const ci = state.categories.findIndex((c) => c.id === "computer");
+    if (ci !== -1) catParts.splice(ci + 1, 0, downloadItem);
+    else catParts.push(downloadItem);
+
+    nav.innerHTML = catParts.join("");
+
+    $$("[data-toggle]", nav).forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const target = $(`#msub-${btn.dataset.target}`);
+        if (!target) return;
+        target.classList.toggle("open");
+        btn.classList.toggle("open");
+      });
+    });
+  }
+
+  /* ================= Routing ================= */
+  function parseHash() {
+    const h = location.hash.replace(/^#\/?/, "");
+    return h.split("/").filter(Boolean);
+  }
+  function currentPath() {
+    return parseHash().filter((s) => s !== "category" && s !== "topic").join("/");
+  }
+
+  /* On every route change reset the page scroll to the top, otherwise the
+     browser keeps the old scroll offset and a shorter page clamps to the
+     bottom (looking like it auto-scrolled to the footer). */
+  function resetScroll() {
+    const html = document.documentElement;
+    const prev = html.style.scrollBehavior;
+    html.style.scrollBehavior = "auto";
+    window.scrollTo(0, 0);
+    html.style.scrollBehavior = prev;
+  }
+
+  async function renderRoute() {
+    if (!state.ready) return;
+    const segs = parseHash();
+    const main = $("#app");
+    closeMobileMenu();
+    closeReadingModal();
+    updateTabbar(segs);
+    resetScroll();
+
+    /* Abandon any active mock session when leaving the mock area */
+    if (segs[0] !== "mock-test" && state.mock && state.mock.timerId) {
+      stopMockTimer();
+      state.mock = null;
+    }
+
+    if (segs.length === 0) return renderHome(main);
+    if (segs[0] === "category") {
+      const cat = state.categories.find((c) => c.id === segs[1]);
+      if (!cat) return render404(main);
+      if (segs.length >= 2 && segs[2]) return renderSubOrSection(main, segs);
+      return renderCategoryPage(main, cat);
+    }
+    if (segs[0] === "topic") {
+      const path = segs.slice(1).join("/");
+      const rec = state.topicMap[path];
+      if (!rec) return render404(main);
+      return renderTopicPage(main, rec);
+    }
+    if (segs[0] === "about") return renderStatic(main, "about");
+    if (segs[0] === "contact") return renderStatic(main, "contact");
+    if (segs[0] === "trending") return renderTrendingPage(main);
+    if (segs[0] === "categories") return renderCategoriesPage(main);
+    if (segs[0] === "search") return renderSearchPage(main);
+    if (segs[0] === "downloads") return renderDownloadsPage(main);
+    if (segs[0] === "submit") return renderSubmitPage(main);
+    if (segs[0] === "mock-test") {
+      if (state.mock) stopMockTimer();
+      if (segs[1]) return renderMockSetup(main, segs[1]);
+      return renderMockPicker(main);
+    }
+    return render404(main);
+  }
+
+  /* ================= Homepage ================= */
+  function renderHome(main) {
+    const totalQuestions = state.topicIndex.reduce((a, r) => a + r.nQuestions, 0);
+    const totalPdfs = state.topicIndex.filter((r) => r.pdf).length;
+    const trending = trendingTopics(state.topicIndex.slice(0, CONFIG.TRENDING_COUNT));
+    const firstCat = state.categories[0]?.id || "gk";
+
+    main.innerHTML = `
+      <section class="hero reveal visible">
+        <div class="hero-content">
+          <a class="hero-brand" href="#/">
+            <span class="brand-mark">A</span>
+            <span class="brand-text">axomexam</span>
+          </a>
+          <a class="hero-badge" href="#/mock-test">
+            <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+            ${t("hero.daily")}
+          </a>
+          <h1>${t("hero.title")}</h1>
+          <p class="sub">${t("hero.sub")}</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#/category/${firstCat}">${t("hero.cta")}</a>
+            <a class="btn btn-ghost" href="#/mock-test">${t("hero.cta3")}</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat"><b id="stat-total-questions">${totalQuestions.toLocaleString()}+</b><span>${t("stat.questions")}</span></div>
+            <div class="stat"><b>${state.topicIndex.length}+</b><span>${t("stat.topics")}</span></div>
+            <div class="stat"><b>${totalPdfs}+</b><span>${t("stat.pdfs")}</span></div>
+          </div>
+        </div>
+        ${heroVisualHTML()}
+      </section>
+
+      <section class="section">
+        <div class="section-head reveal">
+          <div>
+            <h2>${t("home.categories")}</h2>
+            <p class="sec-sub">${t("home.categories.sub")}</p>
+          </div>
+        </div>
+        <div class="cat-grid">
+          ${state.categories.map((c, i) => {
+            const color = catColor(c.id);
+            return `
+              <a class="cat-card reveal" href="#/category/${c.id}" style="--cat:${color}" data-delay="${i * 60}">
+                <span class="cat-ico">${catIconHTML(c.id)}</span>
+                <span class="cat-meta">
+                  <b>${escapeHtml(localized(c.name))}</b>
+                  <span><span class="cat-count">${countTopics(c)}</span> ${t("cat.topics")}</span>
+                </span>
+              </a>`;
+          }).join("")}
+        </div>
+      </section>
+
+      <section class="section" style="padding-bottom: 40px;">
+        <div class="section-head reveal">
+          <div>
+            <h2>${t("home.trending")}</h2>
+            <p class="sec-sub">${t("home.trending.sub")}</p>
+          </div>
+          <a class="see-all" href="#/trending">${t("see.all")}</a>
+        </div>
+        <div class="trend-grid">
+          ${trending.map((r, i) => `
+            <a class="topic-card reveal" href="#/topic/${r.path}" style="--cat:${catColor(r.cat.id)}" data-delay="${i * 50}">
+              <span class="topic-ico">${topicIconHTML(r.topic.id, r.cat.id)}</span>
+              <span class="rank">${i + 1}</span>
+              <span>
+                <b>${escapeHtml(localized(r.title))}</b>
+                <span id="trend-count-${r.path.replace(/\//g, '-')}">${escapeHtml(localized(r.cat.name))} • ${r.nQuestions} ${t("topic.questions")}</span>
+              </span>
+              <span class="trend-flame">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+              </span>
+            </a>`).join("")}
+        </div>
+      </section>`;
+
+    observeReveals();
+  }
+
+  /* Compact, unique hero visual: animated countdown ring + floating chips */
+  function heroVisualHTML() {
+    const examName = CONFIG.MOCK.EXAM_NAME || "";
+    const target = new Date(CONFIG.MOCK.EXAM_DATE).getTime();
+    const now = Date.now();
+    const daysLeft = target > now ? Math.max(0, Math.ceil((target - now) / 86400000)) : 0;
+    const fraction = target > now ? Math.min(1, daysLeft / 365) : 0;
+    const C = 314; /* 2 * PI * 50 */
+    const offset = C * (1 - fraction);
+    return `
+      <div class="hero-visual">
+        <div class="countdown-ring">
+          <svg viewBox="0 0 120 120" aria-hidden="true">
+            <circle class="ring-bg" cx="60" cy="60" r="50"></circle>
+            <circle class="ring-fg" cx="60" cy="60" r="50" stroke-dashoffset="${offset.toFixed(1)}"></circle>
+          </svg>
+          <div class="ring-center">
+            <span class="ring-num">${daysLeft}</span>
+            <span class="ring-label">${t("hero.days")}</span>
+            <span class="ring-label">${escapeHtml(examName)}</span>
+          </div>
+        </div>
+        <span class="float-chip c1"><span class="dot"></span>GK</span>
+        <span class="float-chip c2"><span class="dot"></span>Math</span>
+        <span class="float-chip c3"><span class="dot"></span>Reasoning</span>
+      </div>`;
+  }
+
+  function trendingTopics(list) {
+    return list.slice().sort((a, b) => {
+      if (a.popularity !== b.popularity) return b.popularity - a.popularity;
+      return b.nQuestions - a.nQuestions;
+    });
+  }
+
+  /* ================= Category page ================= */
+  function renderCategoryPage(main, cat) {
+    const subs = cat.subcategories || cat.sections || [];
+    const directTopics = cat.topics || [];
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="#/">${t("breadcrumb.home")}</a>
+          <span class="bc-sep">/</span><span>${escapeHtml(localized(cat.name))}</span>
+        </nav>
+        <h1>${escapeHtml(localized(cat.name))}</h1>
+        <p class="page-desc">${escapeHtml(localized(cat.description)) || escapeHtml(localized(cat.name))}</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        ${subs.length ? `
+          <div class="sub-grid">
+            ${subs.map((s, i) => `
+              <a class="sub-card reveal" href="#/category/${cat.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
+                <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
+                <span><b>${escapeHtml(localized(s.name))}</b>
+                  <span>${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} ${s.sections ? t("cat.subsections") : t("cat.topics")}</span>
+                </span>
+              </a>`).join("")}
+          </div>`
+        : (directTopics.length ? topicListHTML(cat, null, null, directTopics) : emptyHTML())}
+      </section>`;
+    observeReveals();
+  }
+
+  function renderSubOrSection(main, segs) {
+    const cat = state.categories.find((c) => c.id === segs[1]);
+    const sub = (cat.subcategories || cat.sections || []).find((s) => s.id === segs[2]);
+    if (!sub) return render404(main);
+
+    // Section level
+    if (segs[3]) {
+      const sec = (sub.sections || []).find((s) => s.id === segs[3]);
+      if (!sec) return render404(main);
+      return renderSectionPage(main, cat, sub, sec);
+    }
+
+    // Subcategory level
+    const secs = sub.sections;
+    const topics = sub.topics;
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="#/">${t("breadcrumb.home")}</a>
+          <span class="bc-sep">/</span>
+          <a href="#/category/${cat.id}">${escapeHtml(localized(cat.name))}</a>
+          <span class="bc-sep">/</span><span>${escapeHtml(localized(sub.name))}</span>
+        </nav>
+        <h1>${escapeHtml(localized(sub.name))}</h1>
+        <p class="page-desc">${escapeHtml(localized(sub.description)) || ""}</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        ${secs && secs.length ? `
+          <div class="sub-grid">
+            ${secs.map((s, i) => `
+              <a class="sub-card reveal" href="#/category/${cat.id}/${sub.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
+                <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
+                <span><b>${escapeHtml(localized(s.name))}</b>
+                  <span>${(s.topics || []).length} ${t("cat.topics")}</span>
+                </span>
+              </a>`).join("")}
+          </div>` : (topics && topics.length ? topicListHTML(cat, sub, null, topics) : emptyHTML())}
+      </section>`;
+    observeReveals();
+  }
+
+  function renderSectionPage(main, cat, sub, sec) {
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="#/">${t("breadcrumb.home")}</a>
+          <span class="bc-sep">/</span>
+          <a href="#/category/${cat.id}">${escapeHtml(localized(cat.name))}</a>
+          <span class="bc-sep">/</span>
+          <a href="#/category/${cat.id}/${sub.id}">${escapeHtml(localized(sub.name))}</a>
+          <span class="bc-sep">/</span><span>${escapeHtml(localized(sec.name))}</span>
+        </nav>
+        <h1>${escapeHtml(localized(sec.name))}</h1>
+        <p class="page-desc">${escapeHtml(localized(sec.description)) || ""}</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        ${topicListHTML(cat, sub, sec, sec.topics || [])}
+      </section>`;
+    observeReveals();
+  }
+
+  function topicListHTML(cat, sub, sec, topics) {
+    if (!topics.length) return emptyHTML();
+    return `
+      <div class="sub-grid">
+        ${topics.map((tp, i) => {
+          const path = [cat.id, sub ? sub.id : "", sec ? sec.id : ""].filter(Boolean).concat([tp.id]).join("/");
+          const rec = state.topicMap[path];
+          const qCount = (rec && rec.nQuestions > 0) ? rec.nQuestions : ((tp.questions || []).length);
+          const countDisplay = qCount > 0 ? `${qCount} ${t("topic.questions")}` : t("btn.practice");
+          return `
+            <a class="sub-card reveal" href="#/topic/${path}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
+              <span class="sub-ico">${topicIconHTML(tp.id, cat.id)}</span>
+              <span><b>${escapeHtml(localized(tp.name))}</b>
+                <span id="count-${path.replace(/\//g, '-')}">${countDisplay}</span>
+              </span>
+            </a>`;
+        }).join("")}
+      </div>`;
+  }
+
+  function emptyHTML() {
+    return `<div class="qa-empty"><div class="big">
+      <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h7"/><path d="M9 9h6"/><path d="M9 13h4"/><path d="m15 16 2 2 4-4"/></svg>
+    </div><p>${t("search.noresult")}</p></div>`;
+  }
+
+  /* ================= Topic page ================= */
+  function breadcrumbForTopic(rec) {
+    const bits = [`<a href="#/">${t("breadcrumb.home")}</a>`];
+    bits.push(`<a href="#/category/${rec.cat.id}">${escapeHtml(localized(rec.cat.name))}</a>`);
+    if (rec.sub) bits.push(`<a href="#/category/${rec.cat.id}/${rec.sub.id}">${escapeHtml(localized(rec.sub.name))}</a>`);
+    if (rec.section) bits.push(`<a href="#/category/${rec.cat.id}/${rec.sub ? rec.sub.id + "/" : ""}${rec.section.id}">${escapeHtml(localized(rec.section.name))}</a>`);
+    return bits.map((b, i) => (i ? `<span class="bc-sep">/</span>` : "") + b).join("");
+  }
+
+  async function renderTopicPage(main, rec) {
+    main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
+    try {
+      const data = await API.getTopic(rec.cat.id, rec.topic.id);
+      rec.topic = Object.assign({}, rec.topic, data);
+      rec.topic.title = rec.topic.title || rec.title;
+      rec.nQuestions = (data.questions || []).length;
+    } catch {
+      /* keep the metadata already present in categories.json */
+    }
+
+    state.page = 0;
+    const qs = rec.topic.questions || [];
+
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb">${breadcrumbForTopic(rec)}</nav>
+        <h1>${escapeHtml(localized(rec.topic.title))}</h1>
+        <p class="page-desc">${escapeHtml(localized(rec.topic.description)) || ""}</p>
+      </div>
+
+      <div class="topic-layout">
+        <div>
+          <div class="qa-toolbar">
+            <span class="qt-info">${qs.length} ${t("topic.questions")}</span>
+            <div class="qa-actions">
+              <button class="btn btn-sm btn-outline qa-tool-btn" id="qa-reading" type="button">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg>
+                ${t("topic.reading")}
+              </button>
+              <div class="lang-switch" role="group" aria-label="Reading language">
+                <button class="lang-btn ${state.lang === "as" ? "active" : ""}" type="button" data-lang="as">${t("topic.lang.as")}</button>
+                <button class="lang-btn ${state.lang === "en" ? "active" : ""}" type="button" data-lang="en">${t("topic.lang.en")}</button>
+              </div>
+            </div>
+          </div>
+          <div id="qa-list" class="qa-list"></div>
+          <div id="pager"></div>
+        </div>
+      </div>`;
+
+    renderQAPage();
+
+    $("#qa-reading").addEventListener("click", openReadingModal);
+    $$(".lang-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        state.lang = btn.dataset.lang;
+        document.body.setAttribute("data-lang", state.lang);
+        $$(".lang-btn").forEach((x) => x.classList.toggle("active", x.dataset.lang === state.lang));
+        renderQAPage();
+        refreshReadingModal();
+      });
+    });
+  }
+
+  function renderQAPage() {
+    const rec = currentTopicRec();
+    if (!rec) return;
+    const qs = rec.topic.questions || [];
+    const perPage = CONFIG.PER_PAGE;
+    const totalPages = Math.max(1, Math.ceil(qs.length / perPage));
+    const start = state.page * perPage;
+    const slice = qs.slice(start, start + perPage);
+
+    const list = $("#qa-list");
+
+    if (!slice.length) {
+      list.innerHTML = `<div class="qa-empty"><div class="big">
+        <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+      </div><p>${t("toast.noquestions")}</p></div>`;
+    } else {
+      list.innerHTML = slice.map((item, i) => {
+        const n = start + i + 1;
+        const qtext = localizeContent(item.q) || "";
+        const atext = localizeContent(item.a) || "";
+        return `
+          <article class="qa-card" data-n="${n}">
+            <div class="qa-q">
+              <span class="qno">${n}</span>
+              <span class="qtext">${escapeHtml(qtext)}</span>
+            </div>
+            <div class="qa-a">
+              <span class="a-label">${t("topic.answer")}:</span>
+              <span class="a-body">${escapeHtml(atext)}</span>
+            </div>
+          </article>`;
+      }).join("");
+    }
+
+    const pager = $("#pager");
+    if (totalPages > 1) {
+      pager.innerHTML = `
+        <button id="pg-prev" ${state.page === 0 ? "disabled" : ""}>${t("topic.prev")}</button>
+        <span class="pager-info">${state.page + 1} / ${totalPages}</span>
+        <button id="pg-next" ${state.page >= totalPages - 1 ? "disabled" : ""}>${t("topic.next")}</button>`;
+      $("#pg-prev").addEventListener("click", () => { if (state.page > 0) { state.page--; renderQAPage(); refreshReadingModal(); window.scrollTo({ top: 0, behavior: "smooth" }); } });
+      $("#pg-next").addEventListener("click", () => { if (state.page < totalPages - 1) { state.page++; renderQAPage(); refreshReadingModal(); window.scrollTo({ top: 0, behavior: "smooth" }); } });
+    } else {
+      pager.innerHTML = "";
+    }
+  }
+
+  /* ================= Reading-mode popup ================= */
+  function ensureReadingModal() {
+    let modal = $("#read-modal");
+    if (modal) return modal;
+    modal = document.createElement("div");
+    modal.id = "read-modal";
+    modal.className = "read-modal";
+    modal.hidden = true;
+    modal.innerHTML = `
+      <div class="read-modal-backdrop" id="read-modal-backdrop"></div>
+      <div class="read-modal-box" role="dialog" aria-modal="true">
+        <div class="read-modal-head">
+          <div class="read-modal-titles">
+            <span class="read-modal-title"></span>
+            <span class="read-modal-sub"></span>
+          </div>
+          <button id="read-modal-close" class="read-close" type="button" aria-label="Close">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+          </button>
+        </div>
+        <div class="read-modal-body" id="read-modal-body"></div>
+        <div class="read-modal-foot">
+          <button id="read-prev" type="button">${t("topic.prev")}</button>
+          <span class="read-pageinfo" id="read-pageinfo"></span>
+          <button id="read-next" type="button">${t("topic.next")}</button>
+        </div>
+      </div>`;
+    document.body.appendChild(modal);
+
+    $("#read-modal-close", modal).addEventListener("click", closeReadingModal);
+    $("#read-modal-backdrop", modal).addEventListener("click", closeReadingModal);
+    $("#read-prev", modal).addEventListener("click", () => {
+      if (state.page > 0) { state.page--; renderReadingModalPage(); }
+    });
+    $("#read-next", modal).addEventListener("click", () => {
+      const rec = currentTopicRec();
+      const totalPages = rec ? Math.max(1, Math.ceil((rec.topic.questions || []).length / CONFIG.PER_PAGE)) : 1;
+      if (state.page < totalPages - 1) { state.page++; renderReadingModalPage(); }
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && modal && !modal.hidden) closeReadingModal();
+    });
+    return modal;
+  }
+
+  function openReadingModal() {
+    const rec = currentTopicRec();
+    if (!rec) return;
+    const modal = ensureReadingModal();
+    const qs = rec.topic.questions || [];
+    $(".read-modal-title", modal).textContent = localized(rec.topic.title);
+    $(".read-modal-sub", modal).textContent = `${qs.length} ${t("topic.questions")} • ${state.lang === "as" ? t("topic.lang.as") : t("topic.lang.en")}`;
+    modal.hidden = false;
+    renderReadingModalPage();
+  }
+
+  function closeReadingModal() {
+    const modal = $("#read-modal");
+    if (modal) modal.hidden = true;
+  }
+
+  function renderReadingModalPage() {
+    const rec = currentTopicRec();
+    const modal = $("#read-modal");
+    if (!rec || !modal || modal.hidden) return;
+    const qs = rec.topic.questions || [];
+    const perPage = CONFIG.PER_PAGE;
+    const totalPages = Math.max(1, Math.ceil(qs.length / perPage));
+    const start = state.page * perPage;
+    const slice = qs.slice(start, start + perPage);
+
+    $(".read-modal-sub", modal).textContent = `${qs.length} ${t("topic.questions")} • ${state.lang === "as" ? t("topic.lang.as") : t("topic.lang.en")}`;
+
+    const body = $("#read-modal-body", modal);
+    body.innerHTML = slice.map((item, i) => {
+      const n = start + i + 1;
+      const qtext = localizeContent(item.q) || "";
+      const atext = localizeContent(item.a) || "";
+      return `
+        <article class="qa-card read-item" data-n="${n}">
+          <div class="qa-q">
+            <span class="qno">${n}</span>
+            <span class="qtext">${escapeHtml(qtext)}</span>
+          </div>
+          <div class="qa-a">
+            <span class="a-label">${t("topic.answer")}:</span>
+            <span class="a-body">${escapeHtml(atext)}</span>
+          </div>
+        </article>`;
+    }).join("");
+
+    $("#read-pageinfo", modal).textContent = `${state.page + 1} / ${totalPages}`;
+    $("#read-prev", modal).disabled = state.page === 0;
+    $("#read-next", modal).disabled = state.page >= totalPages - 1;
+  }
+
+  function refreshReadingModal() {
+    const modal = $("#read-modal");
+    if (!modal || modal.hidden) return;
+    renderReadingModalPage();
+  }
+
+  function currentTopicRec() {
+    const segs = parseHash();
+    if (segs[0] !== "topic") return null;
+    return state.topicMap[segs.slice(1).join("/")];
+  }
+
+  /* ================= Trending page ================= */
+  function renderTrendingPage(main) {
+    const trending = trendingTopics(state.topicIndex);
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("page.trending.title")}</span></nav>
+        <h1>${t("page.trending.title")}</h1>
+        <p class="page-desc">${t("page.trending.sub")}</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        <div class="simple-list">
+          ${trending.map((r, i) => `
+            <a class="topic-card reveal" href="#/topic/${r.path}" style="--cat:${catColor(r.cat.id)}" data-delay="${(i % 10) * 40}">
+              <span class="topic-ico">${topicIconHTML(r.topic.id, r.cat.id)}</span>
+              <span class="rank">${i + 1}</span>
+              <span><b>${escapeHtml(localized(r.title))}</b>
+                <span>${escapeHtml(localized(r.cat.name))}${r.sub ? " • " + escapeHtml(localized(r.sub.name)) : ""} • ${r.nQuestions} ${t("topic.questions")}</span>
+              </span>
+            </a>`).join("")}
+        </div>
+      </section>`;
+    observeReveals();
+  }
+
+  /* ================= Static pages ================= */
+  function renderStatic(main, key) {
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t(`page.${key}.title`)}</span></nav>
+        <h1>${t(`page.${key}.title`)}</h1>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        <div class="info-panel">
+          <p>${t(`page.${key}.p1`)}</p>
+          ${key === "about" ? `<p style="margin-top:10px;">${t("page.about.p2")}</p>` : ""}
+        </div>
+        <div class="info-panel">
+          <h2>GitHub</h2>
+          <p>${CONFIG.USE_REMOTE
+            ? `<a href="https://github.com/${CONFIG.OWNER}/${CONFIG.REPO}" target="_blank" rel="noopener" style="color:var(--primary);font-weight:600;">github.com/${CONFIG.OWNER}/${CONFIG.REPO}</a>`
+            : `<a href="https://github.com/" target="_blank" rel="noopener" style="color:var(--primary);font-weight:600;">github.com</a>`}</p>
+          <ul>
+            <li data-i18n="about.li1">${t("about.li1")}</li>
+            <li data-i18n="about.li2">${t("about.li2")}</li>
+            <li data-i18n="about.li3">${t("about.li3")}</li>
+          </ul>
+        </div>
+      </section>`;
+    applyStaticI18n();
+  }
+
+  /* ================= Search ================= */
+  function normalizeText(s) {
+    return (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+  }
+
+  /* Collect both language variants of a content field for searching */
+  function allLangs(obj) {
+    if (obj == null) return "";
+    if (typeof obj === "string") return obj;
+    return [obj.en, obj.as].filter(Boolean).join(" ");
+  }
+
+  function searchIndex(query) {
+    const q = normalizeText(query);
+    if (q.length < 2) return [];
+    const hits = [];
+    for (const r of state.topicIndex) {
+      const titleEn = normalizeText(localized({ en: r.title.en }));
+      const titleAs = normalizeText(localized({ as: r.title.as }));
+      const tagHits = (r.tags || []).filter((tag) => normalizeText(tag).includes(q));
+      const qHits = (r.topic.questions || []).filter((item) =>
+        normalizeText(allLangs(item.q)).includes(q) || normalizeText(allLangs(item.a)).includes(q));
+      let score = 0;
+      if (titleEn.includes(q)) score += 5;
+      if (titleAs.includes(q)) score += 5;
+      score += tagHits.length * 3;
+      score += qHits.length * 1.5;
+      if (score > 0) hits.push({ rec: r, score, matchCount: qHits.length + tagHits.length });
+    }
+    return hits.sort((a, b) => b.score - a.score).slice(0, CONFIG.SEARCH_LIMIT);
+  }
+
+  function bindSearch() {
+    const input = $("#master-search");
+    const box = $("#search-results");
+    let timer;
+
+    const close = () => { box.hidden = true; box.innerHTML = ""; };
+    const onInput = (e) => {
+      clearTimeout(timer);
+      const v = e.target.value;
+      if (v.trim().length < 2) { close(); return; }
+      timer = setTimeout(() => {
+        const hits = searchIndex(v);
+        if (!hits.length) {
+          box.innerHTML = `<div class="sr-empty">${t("search.noresult")}</div>`;
+        } else {
+          box.innerHTML = `
+            <div class="sr-head">${t("search.results")} (${hits.length})</div>
+            ${hits.map((h, i) => `
+              <a class="sr-item" href="#/topic/${h.rec.path}" data-idx="${i}">
+                <span class="chip">${escapeHtml(localized(h.rec.cat.name))}</span>
+                <span>
+                  <span class="sr-title">${escapeHtml(localized(h.rec.title))}</span>
+                  <span class="sr-sub">${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.nQuestions} ${t("topic.questions")}</span>
+                </span>
+              </a>`).join("")}`;
+          box.innerHTML += `<a class="sr-item" href="#/trending" style="justify-content:center;color:var(--primary);font-weight:600;">${t("see.all")}</a>`;
+        }
+        box.hidden = false;
+      }, 180);
+    };
+
+    input.addEventListener("input", onInput);
+    input.addEventListener("focus", () => {
+      if (input.value.trim().length >= 2) onInput({ target: input });
+    });
+    document.addEventListener("click", (e) => {
+      if (!e.target.closest(".search-wrap")) close();
+    });
+    box.addEventListener("click", (e) => {
+      const a = e.target.closest("a.sr-item");
+      if (a) { input.value = ""; close(); }
+    });
+  }
+
+  /* ================= Dedicated search page (mobile tab) ================= */
+  function renderSearchPage(main) {
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("tab.search")}</span></nav>
+        <h1>${t("tab.search")}</h1>
+      </div>
+      <div class="search-page">
+        <div class="sp-bar">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" id="page-search" autocomplete="off" spellcheck="false" placeholder="${t("search.placeholder")}" />
+        </div>
+        <div class="sp-results" id="page-search-results">
+          <div class="sp-empty">${t("search.hint")}</div>
+        </div>
+      </div>`;
+
+    const input = $("#page-search");
+    const results = $("#page-search-results");
+    let timer;
+    input.addEventListener("input", () => {
+      clearTimeout(timer);
+      const v = input.value;
+      timer = setTimeout(() => {
+        const q = v.trim();
+        if (q.length < 2) {
+          results.innerHTML = `<div class="sp-empty">${t("search.hint")}</div>`;
+          return;
+        }
+        const hits = searchIndex(q);
+        if (!hits.length) {
+          results.innerHTML = `<div class="sp-empty">${t("search.noresult")}</div>`;
+          return;
+        }
+        results.innerHTML = hits.map((h) => `
+          <a class="sp-topic" href="#/topic/${h.rec.path}">
+            <span class="chip">${escapeHtml(localized(h.rec.cat.name))}</span>
+            <span>
+              <b>${escapeHtml(localized(h.rec.title))}</b>
+              <span>${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.nQuestions} ${t("topic.questions")}</span>
+            </span>
+          </a>`).join("");
+      }, 180);
+    });
+    input.focus();
+  }
+
+  /* ================= Mobile menu ================= */
+  function closeMobileMenu() {
+    $("#mobile-menu").classList.remove("open");
+    $("#mobile-backdrop").classList.remove("open");
+    $("#mobile-menu").hidden = true;
+    $("#mobile-backdrop").hidden = true;
+    $("#hamburger").classList.remove("open");
+    $("#hamburger").setAttribute("aria-expanded", "false");
+  }
+  function openMobileMenu() {
+    $("#mobile-menu").hidden = false;
+    $("#mobile-backdrop").hidden = false;
+    requestAnimationFrame(() => {
+      $("#mobile-menu").classList.add("open");
+      $("#mobile-backdrop").classList.add("open");
+    });
+    $("#hamburger").classList.add("open");
+    $("#hamburger").setAttribute("aria-expanded", "true");
+  }
+
+  /* ================= Reveal on scroll ================= */
+  let revealObserver;
+  function observeReveals() {
+    if (revealObserver) revealObserver.disconnect();
+    const els = $$(".reveal");
+    if (!("IntersectionObserver" in window)) {
+      els.forEach((el) => el.classList.add("visible"));
+      return;
+    }
+    els.forEach((el) => {
+      const d = parseInt(el.dataset.delay || "0", 10);
+      if (d) el.style.transitionDelay = `${d}ms`;
+    });
+    revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((en) => {
+        if (en.isIntersecting) {
+          en.target.classList.add("visible");
+          revealObserver.unobserve(en.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: "0px 0px -30px 0px" });
+    els.forEach((el) => revealObserver.observe(el));
+  }
+
+  /* ================= Misc ================= */
+  function escapeHtml(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+  }
+
+  function render404(main) {
+    main.innerHTML = `
+      <div class="page-head" style="padding:80px 0;text-align:center;">
+        <h1 style="font-size:3rem;">404</h1>
+        <p class="page-desc" style="margin:12px auto;">${t("page.error.sub")}</p>
+        <div style="margin-top:22px;"><a class="btn btn-primary" href="#/">${t("page.error.btn")}</a></div>
+      </div>`;
+  }
+
+  function toast(msg) {
+    const el = $("#toast");
+    el.textContent = msg;
+    el.classList.add("show");
+    clearTimeout(el._t);
+    el._t = setTimeout(() => el.classList.remove("show"), 2400);
+  }
+
+  /* ================= Categories page (Practice tab) ================= */
+  function renderCategoriesPage(main) {
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("tab.categories")}</span></nav>
+        <h1>${t("tab.categories")}</h1>
+        <p class="page-desc">${t("home.categories.sub")}</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        <div class="cat-grid">
+          ${state.categories.map((c, i) => {
+            const color = catColor(c.id);
+            return `
+              <a class="cat-card reveal" href="#/category/${c.id}" style="--cat:${color}" data-delay="${i * 50}">
+                <span class="cat-ico">${catIconHTML(c.id)}</span>
+                <span class="cat-meta">
+                  <b>${escapeHtml(localized(c.name))}</b>
+                  <span>${escapeHtml(localized(c.description))}</span>
+                </span>
+              </a>`;
+          }).join("")}
+        </div>
+      </section>`;
+    observeReveals();
+  }
+
+  /* ================= Downloads page ================= */
+  function renderDownloadsPage(main) {
+    const withPdf = state.topicIndex.filter((r) => r.pdf);
+    const grouped = [];
+    state.categories.forEach((cat) => {
+      const items = withPdf.filter((r) => r.cat.id === cat.id);
+      if (items.length) grouped.push({ cat, items });
+    });
+
+    const card = (r) => `
+      <div class="dl-item">
+        <span class="dl-ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+        </span>
+        <span class="dl-meta">
+          <b>${escapeHtml(localized(r.title))}</b>
+          <span>${escapeHtml(localized(r.cat.name))}${r.sub ? " • " + escapeHtml(localized(r.sub.name)) : ""}</span>
+        </span>
+        <a class="dl-btn dl-open" href="#/topic/${r.path}">${t("dl.open")}</a>
+        <a class="dl-btn dl-save" href="${API.pdfUrl(r.cat.id, r.pdf)}" download target="_blank" rel="noopener">${t("dl.download")}</a>
+      </div>`;
+
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("page.downloads.title")}</span></nav>
+        <h1>${t("page.downloads.title")}</h1>
+        <p class="page-desc">${t("page.downloads.sub")}</p>
+      </div>
+      <section class="section" style="padding-bottom:44px;">
+        ${grouped.length
+          ? grouped.map((g) => `
+              <div class="dl-group">
+                <div class="dl-group-head">
+                  <span class="cat-ico" style="width:34px;height:34px;font-size:1rem;background:${catColor(g.cat.id)};">${catIconHTML(g.cat.id)}</span>
+                  <h3>${escapeHtml(localized(g.cat.name))}</h3>
+                  <span class="dl-count">${g.items.length}</span>
+                </div>
+                <div class="dl-list">${g.items.map(card).join("")}</div>
+              </div>`).join("")
+          : `<div class="info-panel"><p>${t("downloads.none")}</p></div>`}
+      </section>`;
+  }
+
+  /* ================= Submit Q&A page ================= */
+  function renderSubmitPage(main) {
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("page.submit.title")}</span></nav>
+        <h1>${t("page.submit.title")}</h1>
+        <p class="page-desc">${t("page.submit.sub")}</p>
+      </div>
+      <section class="section" style="padding-bottom:44px;">
+        <div class="submit-panel">
+          <label>${t("submit.name")}
+            <input type="text" id="sub-name" maxlength="60" />
+          </label>
+          <label>${t("submit.topic")}
+            <input type="text" id="sub-topic" maxlength="120" placeholder="${escapeHtml(t("submit.topic.ph"))}" />
+          </label>
+          <label>${t("submit.question")}
+            <textarea id="sub-question" rows="4" maxlength="2000" placeholder="${escapeHtml(t("submit.question.ph"))}"></textarea>
+          </label>
+          <label>${t("submit.answer")}
+            <textarea id="sub-answer" rows="3" maxlength="2000" placeholder="${escapeHtml(t("submit.answer.ph"))}"></textarea>
+          </label>
+          <p class="submit-hint">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01"/><path d="M11 12h1v4h1"/></svg>
+            ${t("submit.hint")}
+          </p>
+          <div class="submit-actions">
+            <button class="btn btn-accent" id="sub-wa" type="button">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.1 13.6c-.2.6-1.2 1.1-1.7 1.2-.4 0-.9.2-3-.6-2.5-1-4.1-3.6-4.2-3.8-.1-.2-1-1.4-1-2.6s.6-1.8.9-2.1c.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.4.2.6.8 2 .9 2.1.1.2.1.3 0 .5-.1.2-.1.3-.3.5l-.4.5c-.2.2-.3.3-.1.6.2.3.9 1.4 1.9 2.3 1.3 1.1 2.3 1.5 2.7 1.6.3.2.5.1.7-.1.2-.2.8-.9 1-1.3.2-.3.4-.3.7-.2.3.1 1.7.8 2 1 .3.2.5.3.6.4.1.2.1.7-.1 1.3z"/></svg>
+              ${t("submit.sendWhatsApp")}
+            </button>
+            <button class="btn btn-outline" id="sub-tg" type="button">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M21.9 4.6 18.9 19c-.2 1-.8 1.2-1.7.8l-4.6-3.4-2.2 2.1c-.2.2-.5.4-.9.4l.3-4.7 8.6-7.8c.4-.3-.1-.5-.6-.2L6.4 12.7 1.8 11.3c-1-.3-1-.9.2-1.4L20.5 3.2c.8-.3 1.5.2 1.4 1.4z"/></svg>
+              ${t("submit.sendTelegram")}
+            </button>
+          </div>
+        </div>
+      </section>`;
+
+    const send = (channel) => {
+      const name = $("#sub-name").value.trim();
+      const topic = $("#sub-topic").value.trim();
+      const question = $("#sub-question").value.trim();
+      const answer = $("#sub-answer").value.trim();
+      if (!topic || !question) {
+        toast(t("submit.need"));
+        return;
+      }
+      const lines = [
+        "axomexam Q&A Submission",
+        `Name: ${name || "-"}`,
+        `Topic: ${topic}`,
+        `Question: ${question}`,
+        answer ? `Answer: ${answer}` : "",
+      ].filter(Boolean).join("\n");
+      const url = channel === "wa"
+        ? `https://wa.me/?text=${encodeURIComponent(lines)}`
+        : `https://t.me/share/url?url=${encodeURIComponent("https://axomexam.in")}&text=${encodeURIComponent(lines)}`;
+      window.open(url, "_blank", "noopener");
+    };
+    $("#sub-wa").addEventListener("click", () => send("wa"));
+    $("#sub-tg").addEventListener("click", () => send("tg"));
+  }
+
+  /* ================= Mock Test ================= */
+  async function collectCategoryQuestions(cat) {
+    const topicIds = [];
+    (cat.subcategories || cat.sections || []).forEach((sub) => {
+      (sub.sections || []).forEach((sec) => (sec.topics || []).forEach((tp) => topicIds.push({ id: tp.id, title: tp.name, sec: sec.name })));
+      (sub.topics || []).forEach((tp) => topicIds.push({ id: tp.id, title: tp.name, sec: null }));
+    });
+    (cat.topics || []).forEach((tp) => topicIds.push({ id: tp.id, title: tp.name, sec: null }));
+    const results = await Promise.all(
+      topicIds.map((x) => API.getTopic(cat.id, x.id).then((d) => ({ d, x })).catch(() => null))
+    );
+    const pool = [];
+    results.forEach((r) => {
+      if (!r) return;
+      (r.d.questions || []).forEach((item) => {
+        pool.push({
+          q: item.q,
+          a: item.a,
+          options: Array.isArray(item.options) && item.options.length ? item.options : null,
+          correct: Number.isInteger(item.correct) ? item.correct : -1,
+          topicTitle: r.x.title,
+          section: r.x.sec,
+        });
+      });
+    });
+    return pool;
+  }
+
+  function shuffle(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  function stopMockTimer() {
+    if (state.mock && state.mock.timerId) {
+      clearInterval(state.mock.timerId);
+      state.mock.timerId = null;
+    }
+  }
+
+  /* ---- Category picker ---- */
+  function renderMockPicker(main) {
+    main.innerHTML = `
+      <div class="mock-intro">
+        <h1>${t("mock.title")}</h1>
+        <p>${t("mock.sub")}</p>
+      </div>
+      <section class="section" style="padding-bottom:20px;">
+        <div class="section-head"><div><h2>${t("mock.pick")}</h2><p class="sec-sub">${t("mock.pick.sub")}</p></div></div>
+        <div class="mock-grid">
+          ${state.categories.map((c, i) => {
+            const color = catColor(c.id);
+            return `
+              <div class="mock-card reveal" style="--cat:${color}" data-delay="${i * 40}">
+                <div class="mock-top">
+                  <span class="mock-ico">${catIconHTML(c.id)}</span>
+                  <span>
+                    <b>${escapeHtml(localized(c.name))}</b>
+                    <span class="mock-count">${countTopics(c)} ${t("cat.topics")}</span>
+                  </span>
+                </div>
+                <div class="mock-go">
+                  <a class="mock-start" href="#/mock-test/${c.id}">
+                    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                    ${t("mock.start")}
+                  </a>
+                </div>
+              </div>`;
+          }).join("")}
+        </div>
+      </section>`;
+    observeReveals();
+  }
+
+  /* ---- Setup screen ---- */
+  async function renderMockSetup(main, catId) {
+    const cat = state.categories.find((c) => c.id === catId);
+    if (!cat) return render404(main);
+    main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("mock.loading")}</p></div>`;
+
+    let pool = [];
+    try {
+      pool = await collectCategoryQuestions(cat);
+    } catch { /* pool stays empty */ }
+
+    if (!pool.length) {
+      main.innerHTML = `<div class="qa-empty" style="padding:60px 20px;"><div class="big">
+        <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+      </div><p>${t("mock.noQuestions")}</p></div>`;
+      return;
+    }
+
+    state.mock = { cat, pool, configured: false, count: 0 };
+
+    const perQ = CONFIG.MOCK.SECONDS_PER_QUESTION;
+    const counts = [5, 10, 15, 20].filter((n) => n <= pool.length);
+    const fullOption = pool.length > 20;
+    if (!fullOption && !counts.includes(pool.length)) counts.push(pool.length);
+
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="#/mock-test">${t("mock.title")}</a>
+          <span class="bc-sep">/</span><span>${escapeHtml(localized(cat.name))}</span>
+        </nav>
+        <h1>${t("mock.setup.title")}</h1>
+        <p class="page-desc">${escapeHtml(localized(cat.name))} • ${pool.length} ${t("mock.questions")}</p>
+      </div>
+      <div class="setup-panel">
+        <div class="sp-title">
+          <span class="mock-ico" style="background:${catColor(cat.id)};width:40px;height:40px;border-radius:11px;">${catIconHTML(cat.id)}</span>
+          <b>${escapeHtml(localized(cat.name))}</b>
+        </div>
+        <p class="sp-sub">${t("mock.setup.sub")}</p>
+        <p style="margin-top:16px;font-weight:700;font-size:.9rem;">${t("mock.setup.count")}</p>
+        <div class="count-picker" id="count-picker">
+          ${counts.map((n, i) => `<button type="button" data-count="${n}" class="${i === 0 ? "active" : ""}">${n}</button>`).join("")}
+          ${fullOption ? `<button type="button" data-count="${pool.length}" class="${counts.length === 0 ? "active" : ""}">${t("mock.setup.all")} (${pool.length})</button>` : ""}
+        </div>
+        <div class="setup-note">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+          <span>${t("mock.setup.timeNote").replace("{s}", perQ)}</span>
+        </div>
+        <button class="btn btn-primary btn-begin" id="mock-begin">${t("mock.begin")}</button>
+      </div>`;
+
+    const picker = $("#count-picker");
+    let selected = counts[0] || pool.length;
+    $$("button", picker).forEach((b) => {
+      b.addEventListener("click", () => {
+        $$("button", picker).forEach((x) => x.classList.remove("active"));
+        b.classList.add("active");
+        selected = parseInt(b.dataset.count, 10);
+      });
+    });
+    $("#mock-begin").addEventListener("click", () => startMock(selected));
+  }
+
+  /* ---- Start quiz ---- */
+  function startMock(count) {
+    if (!state.mock) return;
+    const pool = shuffle(state.mock.pool).slice(0, count);
+    const totalSec = pool.length * CONFIG.MOCK.SECONDS_PER_QUESTION;
+    state.mock = Object.assign(state.mock, {
+      pool, idx: 0, answers: [], totalSec, remaining: totalSec, started: true, timerId: null,
+    });
+    renderMockQuiz();
+  }
+
+  function renderMockQuiz() {
+    const m = state.mock;
+    const q = m.pool[m.idx];
+    if (!q) return renderMockResults();
+    const main = $("#app");
+    const answered = !!m.answers[m.idx];
+    const isMcq = !!q.options;
+    const keys = ["A", "B", "C", "D", "E"];
+
+    main.innerHTML = `
+      <div class="quiz-wrap">
+        <div class="quiz-top">
+          <span class="qt-cat">${escapeHtml(localized(m.cat.name))} • ${t("mock.question")} ${m.idx + 1}/${m.pool.length}</span>
+          <span class="quiz-timer" id="quiz-timer">${fmtTime(m.remaining)}</span>
+          <button class="quiz-quit" id="quiz-quit">${t("mock.quit")}</button>
+        </div>
+        <div class="quiz-progress"><span id="quiz-progress" style="width:${((m.idx) / m.pool.length * 100).toFixed(1)}%"></span></div>
+        <div class="quiz-card">
+          <div class="quiz-qno">${t("mock.question")} ${m.idx + 1}${q.section ? " • " + escapeHtml(localized(q.section)) : ""}</div>
+          <div class="quiz-qtext">${escapeHtml(localizeContent(q.q))}</div>
+
+          ${isMcq ? `
+            <div class="quiz-options" id="quiz-options">
+              ${q.options.map((opt, i) => `
+                <button class="quiz-option" data-opt="${i}" ${answered ? "disabled" : ""}>
+                  <span class="opt-key">${keys[i]}</span>
+                  <span>${escapeHtml(localizeContent(opt))}</span>
+                </button>`).join("")}
+            </div>` : `
+            <div class="quiz-flash">
+              <div class="flash-q">${t("mock.flashHint")}</div>
+              <button class="btn btn-outline" id="flash-reveal" style="margin-top:12px;width:100%;">${t("mock.showAnswer")}</button>
+              <div class="quiz-reveal-answer" id="flash-answer">
+                <div class="a-label">${t("topic.answer")}</div>
+                <div class="a-body">${escapeHtml(localizeContent(q.a))}</div>
+              </div>
+              <div class="quiz-flash-actions" id="flash-actions">
+                <button class="btn-self-good" data-grade="1">${t("mock.revealCorrect")}</button>
+                <button class="btn-self-bad" data-grade="0">${t("mock.revealWrong")}</button>
+              </div>
+            </div>`}
+
+          <div class="quiz-feedback" id="quiz-feedback"></div>
+          <button class="btn btn-primary quiz-next" id="quiz-next" ${isMcq && !answered ? "disabled" : ""}>
+            ${m.idx + 1 === m.pool.length ? t("mock.result.title") : t("mock.next")} →
+          </button>
+        </div>
+      </div>`;
+
+    /* ---- MCQ interaction ---- */
+    const optionsBox = $("#quiz-options");
+    if (optionsBox) {
+      $$(".quiz-option", optionsBox).forEach((opt) => {
+        opt.addEventListener("click", () => {
+          if (m.answers[m.idx] !== undefined) return;
+          const sel = parseInt(opt.dataset.opt, 10);
+          m.answers[m.idx] = sel;
+          $$(".quiz-option", optionsBox).forEach((o) => {
+            o.disabled = true;
+            const i = parseInt(o.dataset.opt, 10);
+            if (i === q.correct) o.classList.add("correct");
+            else if (i === sel) o.classList.add("wrong");
+            if (i === sel) o.classList.add("selected");
+          });
+          const fb = $("#quiz-feedback");
+          fb.classList.add(sel === q.correct ? "good" : "bad");
+          fb.style.display = "block";
+          fb.textContent = sel === q.correct ? t("mock.revealCorrect") : `${t("mock.correctAnswer")}: ${escapeHtml(localizeContent(q.options[q.correct]))}`;
+          $("#quiz-next").disabled = false;
+        });
+      });
+    }
+
+    /* ---- Flashcard interaction ---- */
+    const reveal = $("#flash-reveal");
+    if (reveal) {
+      reveal.addEventListener("click", () => {
+        $("#flash-answer").style.display = "block";
+        $("#flash-actions").style.display = "flex";
+        reveal.style.display = "none";
+      });
+      $$("[data-grade]", $("#flash-actions")).forEach((b) => {
+        b.addEventListener("click", () => {
+          if (m.answers[m.idx] !== undefined) return;
+          m.answers[m.idx] = parseInt(b.dataset.grade, 10);
+          const fb = $("#quiz-feedback");
+          fb.classList.add(m.answers[m.idx] === 1 ? "good" : "bad");
+          fb.style.display = "block";
+          fb.textContent = m.answers[m.idx] === 1 ? t("mock.revealCorrect") : t("mock.revealWrong");
+          $("#quiz-next").disabled = false;
+        });
+      });
+    }
+
+    $("#quiz-next").addEventListener("click", () => {
+      m.idx++;
+      if (m.idx >= m.pool.length) { stopMockTimer(); renderMockResults(); }
+      else renderMockQuiz();
+    });
+
+    $("#quiz-quit").addEventListener("click", () => {
+      stopMockTimer();
+      state.mock = null;
+      location.hash = "#/mock-test";
+    });
+
+    if (!m.timerId) startMockTimer();
+  }
+
+  function startMockTimer() {
+    const m = state.mock;
+    const tick = () => {
+      if (!m || !m.started || m.timerId === null) return;
+      m.remaining--;
+      const tEl = $("#quiz-timer");
+      if (tEl) {
+        tEl.textContent = fmtTime(m.remaining);
+        tEl.classList.toggle("low", m.remaining <= 10);
+      }
+      if (m.remaining <= 0) {
+        stopMockTimer();
+        renderMockResults(true);
+      }
+    };
+    m.timerId = setInterval(tick, 1000);
+  }
+
+  function fmtTime(sec) {
+    const s = Math.max(0, sec);
+    return `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
+  }
+
+  /* ---- Results ---- */
+  function renderMockResults(autoSubmit) {
+    const m = state.mock;
+    stopMockTimer();
+    if (!m) return;
+
+    let correct = 0, wrong = 0, skipped = 0;
+    const results = m.pool.map((q, i) => {
+      const a = m.answers[i];
+      const isMcq = !!q.options;
+      let ok = false;
+      if (isMcq) {
+        if (a === undefined) skipped++;
+        else if (a === q.correct) { ok = true; correct++; }
+        else wrong++;
+      } else {
+        if (a === undefined) skipped++;
+        else if (a === 1) { ok = true; correct++; }
+        else wrong++;
+      }
+      return { q, a, ok, isMcq };
+    });
+
+    const timeTaken = m.totalSec - m.remaining;
+    const pct = m.pool.length ? Math.round((correct / m.pool.length) * 100) : 0;
+    const msgKey = pct >= 80 ? "mock.result.msgExcellent" : pct >= 55 ? "mock.result.msgGood" : pct >= 35 ? "mock.result.msgAverage" : "mock.result.msgPoor";
+    const R = 52.5, C = 2 * Math.PI * R;
+    const offset = C * (1 - pct / 100);
+
+    const main = $("#app");
+    main.innerHTML = `
+      <div class="result-wrap">
+        <div class="result-panel">
+          <div class="result-ring">
+            <svg viewBox="0 0 120 120">
+              <circle class="r-bg" cx="60" cy="60" r="${R}"></circle>
+              <circle class="r-fg" cx="60" cy="60" r="${R}" stroke-dasharray="${C.toFixed(1)}" stroke-dashoffset="${C.toFixed(1)}"></circle>
+            </svg>
+            <div class="result-percent">${pct}%</div>
+          </div>
+          <h2 style="font-size:1.25rem;">${t("mock.result.title")}</h2>
+          <p class="result-msg">${t(msgKey)}</p>
+          <div class="result-stats">
+            <div class="rstat"><b>${correct}</b><span>${t("mock.result.correct")}</span></div>
+            <div class="rstat bad"><b>${wrong}</b><span>${t("mock.result.wrong")}</span></div>
+            <div class="rstat skip"><b>${skipped}</b><span>${t("mock.result.skipped")}</span></div>
+            <div class="rstat"><b>${fmtTime(timeTaken)}</b><span>${t("mock.result.time")}</span></div>
+          </div>
+          <div class="result-actions">
+            <button class="btn btn-primary" id="mock-retry">${t("mock.result.retry")}</button>
+            <a class="btn btn-outline" href="#/mock-test">${t("mock.result.changeCat")}</a>
+            <button class="btn btn-outline" id="mock-review-toggle">${t("mock.result.review")}</button>
+          </div>
+        </div>
+        <div class="review-list" id="review-list" hidden>
+          ${results.map((r, i) => {
+            const q = r.q;
+            const badge = r.a === undefined
+              ? `<span class="rv-badge" style="background:#f1f5f9;color:#64748b;">${t("mock.result.skipped")}</span>`
+              : `<span class="rv-badge ${r.ok ? "good" : "bad"}">${r.ok ? "✓ " + t("mock.result.correct") : "✕ " + t("mock.result.wrong")}</span>`;
+            let ansLine = "";
+            if (r.isMcq && r.a !== undefined) {
+              ansLine = `<div class="rv-ans"><b>${t("mock.answer")}:</b> ${escapeHtml(localizeContent(q.options[r.a]))}</div>`;
+              if (!r.ok) ansLine += `<div class="rv-ans correct-line"><b>${t("mock.correctAnswer")}:</b> ${escapeHtml(localizeContent(q.options[q.correct]))}</div>`;
+            } else if (r.isMcq && r.a === undefined) {
+              ansLine = `<div class="rv-ans correct-line"><b>${t("mock.correctAnswer")}:</b> ${escapeHtml(localizeContent(q.options[q.correct]))}</div>`;
+            } else if (!r.isMcq && r.a !== undefined) {
+              ansLine = `<div class="rv-ans"><b>${t("topic.answer")}:</b> ${escapeHtml(localizeContent(q.a))}</div>`;
+            } else if (!r.isMcq) {
+              ansLine = `<div class="rv-ans correct-line"><b>${t("topic.answer")}:</b> ${escapeHtml(localizeContent(q.a))}</div>`;
+            }
+            return `
+              <div class="review-item">
+                <div class="rv-q">Q${i + 1}. ${escapeHtml(localizeContent(q.q))}</div>
+                ${badge}
+                ${ansLine}
+              </div>`;
+          }).join("")}
+        </div>
+      </div>`;
+
+    requestAnimationFrame(() => {
+      const fg = $(".result-ring .r-fg");
+      if (fg) fg.style.strokeDashoffset = offset.toFixed(1);
+    });
+
+    $("#mock-retry").addEventListener("click", () => startMock(m.pool.length));
+    const reviewBtn = $("#mock-review-toggle");
+    reviewBtn.addEventListener("click", () => {
+      const list = $("#review-list");
+      const hidden = list.hidden;
+      list.hidden = !hidden;
+      reviewBtn.textContent = hidden ? t("mock.result.hideReview") : t("mock.result.review");
+    });
+
+    if (autoSubmit) toast(t("mock.autoSubmit"));
+
+    /* keep the session data so "Retry" can restart; it is cleared when the
+       user leaves the mock-test area (see renderRoute guard) */
+    if (m.timerId) { clearInterval(m.timerId); m.timerId = null; }
+  }
+
+  /* ================= Boot ================= */
+  async function boot() {
+    const pre = $("#preloader");
+    document.body.setAttribute("data-lang", "as");
+    applyStaticI18n();
+
+    try {
+      const data = await API.getCategories();
+      Object.assign(state, normalize(data));
+    } catch (err) {
+      console.error("Failed to load categories:", err);
+    }
+
+    if (state.categories.length) {
+      state.ready = true;
+      buildDesktopNav();
+      buildMobileNav();
+      bindSearch();
+      window.addEventListener("hashchange", () => { buildDesktopNav(); buildMobileNav(); renderRoute(); });
+      renderRoute();
+
+      /* ব্যাকগ্ৰাউণ্ডত সকলো প্ৰশ্ন স্বয়ংক্ৰিয়ভাৱে লোড কৰি গণনা কৰা */
+      let loadedTotal = 0;
+      state.topicIndex.forEach(async (rec) => {
+        try {
+          const d = await API.getTopic(rec.cat.id, rec.topic.id);
+          if (d && Array.isArray(d.questions)) {
+            rec.nQuestions = d.questions.length;
+            rec.topic.questions = d.questions;
+            
+            // কাৰ্ডৰ প্ৰশ্নৰ সংখ্যা আপডেট কৰা
+            const el = document.getElementById(`count-${rec.path.replace(/\//g, '-')}`);
+            if (el) el.textContent = `${rec.nQuestions} ${t("topic.questions")}`;
+
+            // ট্ৰেণ্ডিং কাৰ্ডৰ সংখ্যা আপডেট কৰা
+            const tEl = document.getElementById(`trend-count-${rec.path.replace(/\//g, '-')}`);
+            if (tEl) tEl.textContent = `${escapeHtml(localized(rec.cat.name))} • ${rec.nQuestions} ${t("topic.questions")}`;
+
+            // হেদাৰৰ সৰ্বমুঠ প্ৰশ্নৰ সংখ্যা আপডেট কৰা
+            loadedTotal = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0);
+            const totalEl = $("#stat-total-questions");
+            if (totalEl) totalEl.textContent = `${loadedTotal.toLocaleString()}+`;
+          }
+        } catch (e) {
+          /* বিষয় ফাইল নাথাকিলে এৰাই চলিব */
+        }
+      });
+
+    } else {
+      $("#app").innerHTML = `<div class="loader"><p>${t("load.error")}</p></div>`;
+    }
+
+    setTimeout(() => pre.classList.add("done"), 350);
+  }
+
+  /* Hamburger */
+  function bindHamburger() {
+    const burger = $("#hamburger");
+    burger.addEventListener("click", () => {
+      if ($("#mobile-menu").classList.contains("open")) closeMobileMenu();
+      else openMobileMenu();
+    });
+    $("#mobile-backdrop").addEventListener("click", closeMobileMenu);
+    $("#mobile-close").addEventListener("click", closeMobileMenu);
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") { closeMobileMenu(); $("#search-results").hidden = true; }
+    });
+  }
+
+  /* Bottom app tab bar */
+  function updateTabbar(segs) {
+    const tabs = $$("#tabbar .tab-item");
+    let active = "home";
+    if (segs[0] === "mock-test") active = "mock";
+    else if (segs[0] === "categories") active = "categories";
+    else if (segs[0] === "search") active = "search";
+    else if (segs[0] && segs[0] !== "") active = "";
+    tabs.forEach((el) => el.classList.toggle("active", el.dataset.tab === active));
+  }
+
+  function bindTabbar() {
+    $("#tab-menu").addEventListener("click", () => openMobileMenu());
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    bindHamburger();
+    bindTabbar();
+    boot();
+  });
+})();

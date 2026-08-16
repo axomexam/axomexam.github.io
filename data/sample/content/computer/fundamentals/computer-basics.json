@@ -1,0 +1,56 @@
+{
+  "id": "computer-basics",
+  "title": { "en": "Computer Basics", "as": "কম্পিউটাৰ বুনিয়াদ" },
+  "description": { "en": "Fundamental computer concepts for exams.", "as": "পৰীক্ষাৰ বাবে কম্পিউটাৰৰ মূল ধাৰণা।" },
+  "tags": ["computer", "fundamentals", "basic", "কম্পিউটাৰ", "বুনিয়াদ"],
+  "questions": [
+    {
+      "q": { "en": "Who is known as the 'Father of the Computer'?", "as": "কোনজনক 'কম্পিউটাৰৰ পিতৃ' বোলা হয়?" },
+      "options": [
+        { "en": "Charles Babbage", "as": "চাৰ্লছ বেবেজ" },
+        { "en": "Alan Turing", "as": "এলান টিউৰিং" },
+        { "en": "Bill Gates", "as": "বিল গেটছ" },
+        { "en": "Steve Jobs", "as": "ষ্টিভ জবছ" }
+      ],
+      "correct": 0,
+      "a": { "en": "Charles Babbage designed the Analytical Engine.", "as": "চাৰ্লছ বেবেজে এনালাইটিকেল ইঞ্জিন নিৰ্মাণৰ নক্সা কৰিছিল।" }
+    },
+    {
+      "q": { "en": "What does CPU stand for?", "as": "CPUৰ সম্পূৰ্ণ ৰূপ কি?" },
+      "options": [
+        { "en": "Central Processing Unit", "as": "Central Processing Unit" },
+        { "en": "Computer Personal Unit", "as": "Computer Personal Unit" },
+        { "en": "Central Program Utility", "as": "Central Program Utility" },
+        { "en": "Control Processing Utility", "as": "Control Processing Utility" }
+      ],
+      "correct": 0,
+      "a": { "en": "Central Processing Unit — the brain of the computer.", "as": "Central Processing Unit — কম্পিউটাৰৰ মগজু।" }
+    },
+    {
+      "q": { "en": "Which of these is an output device?", "as": "ইয়াৰ কোনটো এটা আউটপুট ডিভাইচ?" },
+      "options": [
+        { "en": "Printer", "as": "প্ৰিন্টাৰ" },
+        { "en": "Keyboard", "as": "কিব'ৰ্ড" },
+        { "en": "Mouse", "as": "মাউছ" },
+        { "en": "Scanner", "as": "স্কেনাৰ" }
+      ],
+      "correct": 0,
+      "a": { "en": "Printer produces output; keyboard, mouse and scanner are input devices.", "as": "প্ৰিন্টাৰে আউটপুট উৎপন্ন কৰে; কিব'ৰ্ড, মাউছ আৰু স্কেনাৰ ইনপুট ডিভাইচ।" }
+    },
+    {
+      "q": { "en": "Full form of RAM is:", "as": "RAMৰ সম্পূৰ্ণ ৰূপ হ'ল:" },
+      "a": { "en": "Random Access Memory.", "as": "Random Access Memory।" }
+    },
+    {
+      "q": { "en": "1 KB is equal to ___ bytes.", "as": "১ KB = ___ বাইট।" },
+      "options": [
+        { "en": "1024", "as": "1024" },
+        { "en": "1000", "as": "1000" },
+        { "en": "512", "as": "512" },
+        { "en": "2048", "as": "2048" }
+      ],
+      "correct": 0,
+      "a": { "en": "1 Kilobyte = 1024 bytes.", "as": "১ কিলোবাইট = ১০২৪ বাইট।" }
+    }
+  ]
+}
