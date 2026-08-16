@@ -177,15 +177,22 @@
 
   const FEATURED_IDS = ["gk", "science", "math", "history", "reasoning"];
 
+  /* Build Desktop Nav: Categories first, then Mock Test & Downloads before More */
   function buildDesktopNav() {
     const list = $("#nav-list");
     const activePath = currentPath();
     const featured = state.categories.filter((c) => FEATURED_IDS.includes(c.id));
     const rest = state.categories.filter((c) => !FEATURED_IDS.includes(c.id));
     const items = [];
+
+    // 1. Categories
+    featured.forEach((c) => items.push(navLinkHTML(c, activePath)));
+
+    // 2. Mock Test & Downloads placed before "More"
     items.push(extraLink("#/mock-test", t("nav.mock"), activePath));
     items.push(extraLink("#/downloads", t("nav.downloads"), activePath));
-    featured.forEach((c) => items.push(navLinkHTML(c, activePath)));
+
+    // 3. More Dropdown
     items.push(moreDropdownHTML(rest, activePath));
     list.innerHTML = items.join("");
   }
@@ -1215,7 +1222,6 @@
     }
   }
 
-  /* Modal Popup Helper */
   function showModalPopup({ title, message, confirmText, cancelText, onConfirm }) {
     const existing = $("#confirm-modal");
     if (existing) existing.remove();
@@ -1243,7 +1249,7 @@
     });
   }
 
-  /* Handle Mock Routing */
+  /* Handle Mock Routing without "Full GK" mixed option */
   function handleMockRouting(main, segs) {
     if (segs.length === 1) {
       return renderMockCategoryPicker(main);
@@ -1257,8 +1263,8 @@
     const secId = segs[3];
     const topicId = segs[4];
 
-    if (subId === "all" || (subId && subId.startsWith("topic-")) || segs.includes("start")) {
-      return renderMockSetup(main, cat, subId === "all" ? null : subId, secId, topicId);
+    if (subId && subId.startsWith("topic-") || segs.includes("start")) {
+      return renderMockSetup(main, cat, subId, secId, topicId);
     }
 
     const subs = cat.subcategories || [];
@@ -1330,16 +1336,10 @@
           <span>${escapeHtml(localized(cat.name))}</span>
         </nav>
         <h1>${escapeHtml(localized(cat.name))} — Select Sub-Category</h1>
-        <p class="page-desc">Select a specific branch or take a complete combined test.</p>
+        <p class="page-desc">Select a specific branch to start your mock test.</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
         <div class="sub-grid">
-          <a class="sub-card reveal" href="#/mock-test/${cat.id}/all" style="--cat:${catColor(cat.id)}; border: 2px dashed var(--primary);">
-            <span class="sub-ico">🎯</span>
-            <span><b>Full ${escapeHtml(localized(cat.name))} Mock Test</b>
-              <span>All sub-topics combined</span>
-            </span>
-          </a>
           ${subs.map((s, i) => `
             <a class="sub-card reveal" href="#/mock-test/${cat.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
               <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
@@ -1363,16 +1363,10 @@
           <span>${escapeHtml(localized(sub.name))}</span>
         </nav>
         <h1>${escapeHtml(localized(sub.name))}</h1>
-        <p class="page-desc">Choose a section or test the entire branch.</p>
+        <p class="page-desc">Choose a section to begin your test.</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
         <div class="sub-grid">
-          <a class="sub-card reveal" href="#/mock-test/${cat.id}/start" style="--cat:${catColor(cat.id)}; border: 2px dashed var(--primary);">
-            <span class="sub-ico">🎯</span>
-            <span><b>All ${escapeHtml(localized(sub.name))} Questions</b>
-              <span>Complete practice test</span>
-            </span>
-          </a>
           ${secs.map((sec, i) => `
             <a class="sub-card reveal" href="#/mock-test/${cat.id}/${sub.id}/${sec.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
               <span class="sub-ico">${topicIconHTML(sec.id, cat.id)}</span>
@@ -1401,12 +1395,6 @@
       </div>
       <section class="section" style="padding-bottom:40px;">
         <div class="sub-grid">
-          <a class="sub-card reveal" href="#/mock-test/${cat.id}/start" style="--cat:${catColor(cat.id)}; border: 2px dashed var(--primary);">
-            <span class="sub-ico">🎯</span>
-            <span><b>All Topics in ${escapeHtml(localized(sec.name))}</b>
-              <span>Start mixed mock test</span>
-            </span>
-          </a>
           ${topics.map((tp, i) => `
             <a class="sub-card reveal" href="#/mock-test/${cat.id}/start" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
               <span class="sub-ico">${topicIconHTML(tp.id, cat.id)}</span>
@@ -1742,7 +1730,6 @@
       window.addEventListener("hashchange", () => { buildDesktopNav(); buildMobileNav(); renderRoute(); });
       renderRoute();
 
-      /* Auto counter */
       let loadedTotal = 0;
       state.topicIndex.forEach(async (rec) => {
         try {
