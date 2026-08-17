@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "site": "axomexam",
+    "schema": 1
+  },
+  "categories": [
+    {
+      "id": "gk",
+      "name": { "en": "General Knowledge", "as": "সাধাৰণ জ্ঞান" },
+      "description": { "en": "Comprehensive GK for all competitive exams.", "as": "সকলো প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে সাধাৰণ জ্ঞান।" },
+      "color": "#0ea5e9",
+      "icon": "GK",
+      "subcategories": [
+        {
+          "id": "assam-history",
+          "name": { "en": "Assam History", "as": "অসমৰ ইতিহাস" },
+          "sections": [
+            {
+              "id": "ancient-assam-sec",
+              "name": { "en": "Ancient Assam History", "as": "প্ৰাচীন অসমৰ ইতিহাস" },
+              "topics": [
+                { "id": "ancient-assam", "name": { "en": "Ancient Assam", "as": "প্ৰাচীন অসম (বৰ্মন/শালস্তম্ভ/পাল বংশ)" }, "popularity": 9 }
+              ]
+            },
+            {
+              "id": "medieval-assam-sec",
+              "name": { "en": "Medieval Assam History", "as": "মধ্যযুগীয় অসমৰ ইতিহাস" },
+              "topics": [
+                { "id": "medieval-assam", "name": { "en": "Ahom Kingdom & Koch Dynasty", "as": "আহোম ৰাজ্য আৰু কোচ বংশ" }, "popularity": 9 }
+              ]
+            },
+            {
+              "id": "modern-assam-sec",
+              "name": { "en": "Modern Assam History", "as": "আধুনিক অসমৰ ইতিহাস" },
+              "topics": [
+                { "id": "modern-assam", "name": { "en": "British Rule & Freedom Struggle in Assam", "as": "ব্ৰিটিছ শাসন আৰু অসমৰ স্বাধীনতা সংগ্ৰাম" }, "popularity": 9 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "indian-history",
+          "name": { "en": "Indian History", "as": "ভাৰতীয় ইতিহাস" },
+          "sections": [
+            {
+              "id": "ancient-india-sec",
+              "name": { "en": "Ancient India", "as": "প্ৰাচীন ভাৰত" },
+              "topics": [
+                { "id": "ancient-india", "name": { "en": "Indus Valley, Vedic & Maurya Era", "as": "সিন্ধু সভ্যতা, বৈদিক যুগ আৰু মৌৰ্য সাম্ৰাজ্য" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "medieval-india-sec",
+              "name": { "en": "Medieval India", "as": "মধ্যযুগীয় ভাৰত" },
+              "topics": [
+                { "id": "medieval-india", "name": { "en": "Delhi Sultanate & Mughal Empire", "as": "দিল্লী চুলতানি আৰু মোগল সাম্ৰাজ্য" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "modern-india-sec",
+              "name": { "en": "Modern India", "as": "আধুনিক ভাৰত" },
+              "topics": [
+                { "id": "modern-india", "name": { "en": "Indian National Movement (1857-1947)", "as": "ভাৰতীয় জাতীয় আন্দোলন (১৮৫৭-১৯৪৭)" }, "popularity": 9 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "polity",
+          "name": { "en": "Indian Polity & Constitution", "as": "ভাৰতীয় ৰাজনীতি আৰু সংবিধান" },
+          "sections": [
+            {
+              "id": "constitution-sec",
+              "name": { "en": "Constitution Framework", "as": "সংবিধানৰ গাঁথনি" },
+              "topics": [
+                { "id": "fundamental-rights", "name": { "en": "Preamble, Rights & Duties", "as": "প্ৰস্তাৱনা, মৌলিক অধিকাৰ আৰু কৰ্তব্য" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "governance-sec",
+              "name": { "en": "Executive & Judiciary", "as": "কাৰ্যপালিকা আৰু ন্যায়পালিকা" },
+              "topics": [
+                { "id": "indian-governance", "name": { "en": "President, Parliament & Supreme Court", "as": "ৰাষ্ট্ৰপতি, সংসদ আৰু উচ্চতম ন্যায়ালয়" }, "popularity": 8 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "geography",
+          "name": { "en": "Geography", "as": "ভূগোল" },
+          "sections": [
+            {
+              "id": "assam-geo-sec",
+              "name": { "en": "Assam Geography", "as": "অসমৰ ভূগোল" },
+              "topics": [
+                { "id": "brahmaputra-river", "name": { "en": "Brahmaputra River & Rivers of Assam", "as": "ব্ৰহ্মপুত্ৰ নদী আৰু অসমৰ নদ-নদী" }, "popularity": 9, "pdf": "brahmaputra-river.pdf" },
+                { "id": "national-parks", "name": { "en": "National Parks & Sanctuaries", "as": "ৰাষ্ট্ৰীয় উদ্যান আৰু অভয়াৰণ্য" }, "popularity": 9, "pdf": "national-parks-assam.pdf" }
+              ]
+            },
+            {
+              "id": "world-solar-sec",
+              "name": { "en": "Solar System & World", "as": "সৌৰজগত আৰু বিশ্ব" },
+              "topics": [
+                { "id": "solar-system", "name": { "en": "Solar System & Universe", "as": "সৌৰজগত আৰু মহাবিশ্ব" }, "popularity": 8 },
+                { "id": "world-capitals", "name": { "en": "Countries, Capitals & Currencies", "as": "দেশ, ৰাজধানী আৰু মুদ্ৰা" }, "popularity": 7, "pdf": "country-capital.pdf" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "economics",
+          "name": { "en": "Economy & Banking", "as": "অৰ্থনীতি আৰু বেংক ব্যৱস্থা" },
+          "sections": [
+            {
+              "id": "economy-sec",
+              "name": { "en": "Economy & Budget", "as": "অৰ্থনীতি আৰু বাজেট" },
+              "topics": [
+                { "id": "assam-budget", "name": { "en": "Assam & Indian Budget Concepts", "as": "অসম আৰু ভাৰতীয় বাজেট" }, "popularity": 7 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "art-culture",
+          "name": { "en": "Assam Art & Culture", "as": "অসমৰ কলা আৰু সংস্কৃতি" },
+          "sections": [
+            {
+              "id": "culture-sec",
+              "name": { "en": "Culture & Heritage", "as": "সংস্কৃতি আৰু ঐতিহ্য" },
+              "topics": [
+                { "id": "bihu-festival", "name": { "en": "Bihu & Festivals of Assam", "as": "বিহু আৰু অসমৰ উৎসৱসমূহ" }, "popularity": 8 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math",
+      "name": { "en": "Mathematics", "as": "গণিত" },
+      "description": { "en": "Quantitative aptitude and arithmetic.", "as": "পাটিগণিত আৰু গাণিতিক যুক্তি।" },
+      "color": "#f59e0b",
+      "icon": "∑",
+      "subcategories": [
+        {
+          "id": "arithmetic",
+          "name": { "en": "Arithmetic", "as": "পাটিগণিত" },
+          "topics": [
+            { "id": "percentage", "name": { "en": "Percentage & Ratio", "as": "শতাংশ আৰু অনুপাত" }, "popularity": 9 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": { "en": "General Science", "as": "সাধাৰণ বিজ্ঞান" },
+      "description": { "en": "Physics, Chemistry and Biology.", "as": "পদাৰ্থ, ৰসায়ন আৰু জীৱ বিজ্ঞান।" },
+      "color": "#10b981",
+      "icon": "⚛",
+      "subcategories": [
+        {
+          "id": "biology",
+          "name": { "en": "Biology", "as": "জীৱ বিজ্ঞান" },
+          "topics": [
+            { "id": "human-body", "name": { "en": "Human Body & Health", "as": "মানৱ শৰীৰ আৰু স্বাস্থ্য" }, "popularity": 8 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "name": { "en": "Reasoning Ability", "as": "যুক্তি আৰু মানসিক ক্ষমতা" },
+      "description": { "en": "Verbal and non-verbal reasoning.", "as": "মৌখিক আৰু অবাচ্য যুক্তি।" },
+      "color": "#8b5cf6",
+      "icon": "▶",
+      "subcategories": [
+        {
+          "id": "verbal-reasoning",
+          "name": { "en": "Verbal Reasoning", "as": "মৌখিক যুক্তি" },
+          "topics": [
+            { "id": "analogy", "name": { "en": "Analogy & Series", "as": "সাদৃশ্য আৰু শৃংখলা" }, "popularity": 7 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "name": { "en": "General English", "as": "সাধাৰণ ইংৰাজী" },
+      "description": { "en": "Grammar, vocabulary and comprehension.", "as": "ইংৰাজী ব্যাকৰণ আৰু শব্দভাণ্ডাৰ।" },
+      "color": "#0d9488",
+      "icon": "En",
+      "subcategories": [
+        {
+          "id": "grammar-vocab",
+          "name": { "en": "Grammar & Vocabulary", "as": "ব্যাকৰণ আৰু শব্দভাণ্ডাৰ" },
+          "topics": [
+            { "id": "tenses", "name": { "en": "Tenses & Prepositions", "as": "কাল আৰু পদান্বয়ী" }, "popularity": 7 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computer",
+      "name": { "en": "Computer Awareness", "as": "কম্পিউটাৰ জ্ঞান" },
+      "description": { "en": "Computer fundamentals, MS Office & Internet.", "as": "কম্পিউটাৰৰ মূল কথা আৰু MS Office।" },
+      "color": "#2563eb",
+      "icon": "PC",
+      "subcategories": [
+        {
+          "id": "comp-fundamentals",
+          "name": { "en": "Fundamentals", "as": "মূল ধাৰণা" },
+          "topics": [
+            { "id": "computer-basics", "name": { "en": "Computer Basics & Shortcuts", "as": "কম্পিউটাৰ বুনিয়াদ আৰু চৰ্টকাট" }, "popularity": 7 }
+          ]
+        }
+      ]
+    }
+  ]
+}
