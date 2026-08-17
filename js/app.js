@@ -2,8 +2,8 @@
    axomexam — app.js
    Application logic: i18n, navigation, routing, rendering,
    search, Q&A reader, and Advanced Timed Mock Tests.
-   Supports standard, multi-level subcategories, and flat question JSON schemas.
-   Includes global UI language switch next to Dark Mode button.
+   Supports both standard and flat question JSON schemas.
+   Default UI Language: English ("en").
    ============================================================ */
 
 (() => {
@@ -17,7 +17,7 @@
     ready: false,
     page: 0,               // pagination for current topic page
     lang: "as",            // reading language for Q&A content ("en" | "as")
-    uiLang: "as",          // global UI language for navigation & category titles ("en" | "as")
+    uiLang: "en",          // default UI language ("en" | "as")
     mock: null,            // active mock test session
   };
 
@@ -27,7 +27,7 @@
   /* ================= i18n helpers ================= */
   function t(key) {
     if (typeof I18N !== "undefined") {
-      const langObj = I18N[state.uiLang] || I18N.as || I18N.en;
+      const langObj = I18N[state.uiLang] || I18N.en || I18N.as;
       if (langObj && langObj[key]) return langObj[key];
       if (I18N.en && I18N.en[key]) return I18N.en[key];
     }
@@ -37,68 +37,42 @@
   function localized(obj) {
     if (obj == null) return "";
     if (typeof obj === "string") return obj;
-    const l = state.uiLang || "as";
-    return obj[l] || obj.as || obj.en || "";
+    const l = state.uiLang || "en";
+    return obj[l] || obj.en || obj.as || "";
   }
 
-  /* Universal content extractor supporting all JSON schemas */
+  /* Universal content extractor supporting both JSON schemas */
   function extractField(item, fieldName) {
     if (!item) return "";
     const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
     
-    // 1. Direct language specific keys
+    // Check direct object format: item.q / item.a / item.question
+    const obj = item[fieldName] || item[fieldName === "question" ? "q" : fieldName === "answer" ? "a" : fieldName];
+    if (obj) {
+      if (typeof obj === "string") return obj;
+      if (typeof obj === "object") {
+        return obj[targetLang] || obj.as || obj.en || "";
+      }
+    }
+
+    // Check flat keys: item.question_as, item.question_en, item.answer_as, etc.
     const directKey = `${fieldName}_${targetLang}`;
-    if (item[directKey] !== undefined && item[directKey] !== null && typeof item[directKey] === "string") {
-      return item[directKey];
-    }
-    const shortFieldName = fieldName === "question" ? "q" : fieldName === "answer" ? "a" : fieldName === "explanation" ? "exp" : "";
-    if (shortFieldName) {
-      const shortDirect = `${shortFieldName}_${targetLang}`;
-      if (item[shortDirect] !== undefined && item[shortDirect] !== null && typeof item[shortDirect] === "string") {
-        return item[shortDirect];
-      }
-    }
+    if (item[directKey] !== undefined) return item[directKey];
 
-    // 2. Object or direct string
-    const candidateKeys = [fieldName];
-    if (fieldName === "question") candidateKeys.push("q", "question_text");
-    if (fieldName === "answer") candidateKeys.push("a", "ans");
-    if (fieldName === "explanation") candidateKeys.push("exp", "desc");
-
-    for (const k of candidateKeys) {
-      const val = item[k];
-      if (val !== undefined && val !== null) {
-        if (typeof val === "string") return val;
-        if (typeof val === "object" && !Array.isArray(val)) {
-          return val[targetLang] || val.as || val.en || Object.values(val)[0] || "";
-        }
-      }
-    }
-
-    // 3. If fieldName is "answer" and answer was stored as an option index number
+    // Check if answer is an index
     if (fieldName === "answer") {
-      const ansIdx = Number.isInteger(item.answer) ? item.answer
-                   : Number.isInteger(item.correct) ? item.correct
-                   : Number.isInteger(item.correct_index) ? item.correct_index
-                   : -1;
-      if (ansIdx >= 0) {
+      const idx = Number.isInteger(item.answer) ? item.answer : (Number.isInteger(item.correct) ? item.correct : -1);
+      if (idx >= 0) {
         const opts = getOptionsList(item);
-        if (opts && opts[ansIdx] !== undefined) {
-          return opts[ansIdx];
-        }
+        if (opts[idx] !== undefined) return opts[idx];
       }
     }
 
-    // 4. Fallbacks across languages
+    // Fallback across language suffixes
     const asKey = `${fieldName}_as`;
     const enKey = `${fieldName}_en`;
-    if (item[asKey] !== undefined && item[asKey] !== null) return String(item[asKey]);
-    if (item[enKey] !== undefined && item[enKey] !== null) return String(item[enKey]);
-
-    if (shortFieldName) {
-      if (item[`${shortFieldName}_as`] !== undefined) return String(item[`${shortFieldName}_as`]);
-      if (item[`${shortFieldName}_en`] !== undefined) return String(item[`${shortFieldName}_en`]);
-    }
+    if (item[asKey] !== undefined) return item[asKey];
+    if (item[enKey] !== undefined) return item[enKey];
 
     return "";
   }
@@ -118,17 +92,17 @@
     if (Array.isArray(item.options) && item.options.length) {
       return item.options.map(opt => {
         if (typeof opt === "string") return opt;
-        if (typeof opt === "object" && opt !== null) return opt[targetLang] || opt.as || opt.en || "";
+        if (typeof opt === "object") return opt[targetLang] || opt.as || opt.en || "";
         return String(opt);
       });
     }
 
     const directOpts = item[`options_${targetLang}`];
     if (Array.isArray(directOpts) && directOpts.length) {
-      return directOpts.map(String);
+      return directOpts;
     }
-    if (Array.isArray(item.options_as) && item.options_as.length) return item.options_as.map(String);
-    if (Array.isArray(item.options_en) && item.options_en.length) return item.options_en.map(String);
+    if (Array.isArray(item.options_as) && item.options_as.length) return item.options_as;
+    if (Array.isArray(item.options_en) && item.options_en.length) return item.options_en;
 
     return [];
   }
@@ -146,65 +120,59 @@
     });
   }
 
-  /* Global UI Language Toggle (Next to Dark Mode Button) */
+  /* ================= UI Language Switcher Setup ================= */
   function initGlobalLangToggle() {
-    const themeToggles = $$(".theme-toggle");
-    themeToggles.forEach((themeBtn) => {
-      const parent = themeBtn.parentElement;
-      if (!parent || parent.querySelector(".global-lang-toggle")) return;
-
-      const langWrap = document.createElement("div");
-      langWrap.className = "global-lang-toggle";
-      langWrap.style.cssText = "display:inline-flex;align-items:center;background:var(--bg-subtle,#f1f5f9);border:1px solid var(--border,#e2e8f0);border-radius:20px;padding:2px;margin-right:8px;font-size:0.75rem;font-weight:700;";
-      
-      langWrap.innerHTML = `
-        <button type="button" class="glang-btn ${state.uiLang === "as" ? "active" : ""}" data-glang="as" style="border:none;background:${state.uiLang === "as" ? "var(--primary,#0ea5e9)" : "transparent"};color:${state.uiLang === "as" ? "#fff" : "var(--ink-soft,#64748b)"};padding:3px 9px;border-radius:14px;cursor:pointer;font-size:0.75rem;font-weight:700;transition:all 0.2s;">অসমীয়া</button>
-        <button type="button" class="glang-btn ${state.uiLang === "en" ? "active" : ""}" data-glang="en" style="border:none;background:${state.uiLang === "en" ? "var(--primary,#0ea5e9)" : "transparent"};color:${state.uiLang === "en" ? "#fff" : "var(--ink-soft,#64748b)"};padding:3px 9px;border-radius:14px;cursor:pointer;font-size:0.75rem;font-weight:700;transition:all 0.2s;">EN</button>
+    // 1. Desktop Nav (next to darkmode button)
+    const headerActions = document.querySelector(".header-actions") || document.querySelector(".nav-actions");
+    const deskTheme = headerActions ? headerActions.querySelector(".theme-toggle") : document.querySelector(".theme-toggle");
+    
+    if (deskTheme && !document.querySelector(".desktop-lang-toggle")) {
+      const dWrap = document.createElement("div");
+      dWrap.className = "desktop-lang-toggle";
+      dWrap.style.cssText = "display:inline-flex;align-items:center;background:var(--bg-subtle,#f1f5f9);border:1px solid var(--border,#e2e8f0);border-radius:20px;padding:2px;margin-right:8px;";
+      dWrap.innerHTML = `
+        <button type="button" class="glang-btn ${state.uiLang === "en" ? "active" : ""}" data-glang="en" style="border:none;background:${state.uiLang === "en" ? "var(--primary,#0ea5e9)" : "transparent"};color:${state.uiLang === "en" ? "#fff" : "var(--ink-soft,#64748b)"};padding:3px 9px;border-radius:14px;cursor:pointer;font-size:0.75rem;font-weight:700;">EN</button>
+        <button type="button" class="glang-btn ${state.uiLang === "as" ? "active" : ""}" data-glang="as" style="border:none;background:${state.uiLang === "as" ? "var(--primary,#0ea5e9)" : "transparent"};color:${state.uiLang === "as" ? "#fff" : "var(--ink-soft,#64748b)"};padding:3px 9px;border-radius:14px;cursor:pointer;font-size:0.75rem;font-weight:700;">অসমীয়া</button>
       `;
+      deskTheme.insertAdjacentElement("beforebegin", dWrap);
+    }
 
-      themeBtn.insertAdjacentElement("beforebegin", langWrap);
-    });
+    // 2. Mobile Drawer Top
+    const mobileMenu = $("#mobile-menu");
+    if (mobileMenu && !mobileMenu.querySelector(".mobile-lang-bar")) {
+      const mBar = document.createElement("div");
+      mBar.className = "mobile-lang-bar";
+      mBar.style.cssText = "display:flex;justify-content:center;padding:12px;border-bottom:1px solid var(--border,#e2e8f0);background:var(--bg-subtle,#f8fafc);";
+      mBar.innerHTML = `
+        <div style="display:inline-flex;background:var(--bg,#fff);border:1px solid var(--border,#cbd5e1);border-radius:20px;padding:2px;width:100%;max-width:220px;">
+          <button type="button" class="glang-btn ${state.uiLang === "en" ? "active" : ""}" data-glang="en" style="flex:1;border:none;background:${state.uiLang === "en" ? "var(--primary,#0ea5e9)" : "transparent"};color:${state.uiLang === "en" ? "#fff" : "var(--ink-soft,#64748b)"};padding:6px 0;border-radius:14px;cursor:pointer;font-size:0.82rem;font-weight:700;text-align:center;">English</button>
+          <button type="button" class="glang-btn ${state.uiLang === "as" ? "active" : ""}" data-glang="as" style="flex:1;border:none;background:${state.uiLang === "as" ? "var(--primary,#0ea5e9)" : "transparent"};color:${state.uiLang === "as" ? "#fff" : "var(--ink-soft,#64748b)"};padding:6px 0;border-radius:14px;cursor:pointer;font-size:0.82rem;font-weight:700;text-align:center;">অসমীয়া</button>
+        </div>
+      `;
+      mobileMenu.insertBefore(mBar, mobileMenu.firstChild);
+    }
 
-    $$(".global-lang-toggle .glang-btn").forEach((btn) => {
+    $$(".glang-btn").forEach((btn) => {
       btn.addEventListener("click", (e) => {
         e.preventDefault();
         const targetLang = btn.dataset.glang;
         if (state.uiLang === targetLang) return;
         state.uiLang = targetLang;
         try { localStorage.setItem("axomexam-ui-lang", targetLang); } catch (err) {}
-        updateGlobalLangButtons();
+        
+        $$(".glang-btn").forEach((b) => {
+          const isAct = b.dataset.glang === state.uiLang;
+          b.classList.toggle("active", isAct);
+          b.style.background = isAct ? "var(--primary,#0ea5e9)" : "transparent";
+          b.style.color = isAct ? "#fff" : "var(--ink-soft,#64748b)";
+        });
+
         applyStaticI18n();
         buildDesktopNav();
         buildMobileNav();
         renderRoute();
       });
     });
-  }
-
-  function updateGlobalLangButtons() {
-    $$(".global-lang-toggle .glang-btn").forEach((btn) => {
-      const isAct = btn.dataset.glang === state.uiLang;
-      btn.classList.toggle("active", isAct);
-      btn.style.background = isAct ? "var(--primary,#0ea5e9)" : "transparent";
-      btn.style.color = isAct ? "#fff" : "var(--ink-soft,#64748b)";
-    });
-  }
-
-  /* Universal Fetcher for Topic JSON */
-  async function fetchTopicData(rec) {
-    if (window.API && typeof window.API.getTopic === "function") {
-      try {
-        return await API.getTopic(rec.cat.id, rec.topic.id);
-      } catch (err) {
-        try {
-          const parts = [rec.cat.id, rec.sub ? rec.sub.id : "", rec.section ? rec.section.id : "", rec.topic.id].filter(Boolean);
-          return await API.getTopic(rec.cat.id, parts.slice(1).join("/"));
-        } catch (e) {
-          return null;
-        }
-      }
-    }
-    return null;
   }
 
   /* ================= Data normalization ================= */
@@ -750,19 +718,11 @@
   async function renderTopicPage(main, rec) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
     try {
-      const data = await fetchTopicData(rec);
-      if (data) {
-        if (Array.isArray(data)) {
-          rec.topic.questions = data;
-        } else if (data.questions && Array.isArray(data.questions)) {
-          rec.topic = Object.assign({}, rec.topic, data);
-        }
-        rec.topic.title = rec.topic.title || rec.title;
-        rec.nQuestions = (rec.topic.questions || []).length;
-      }
-    } catch (err) {
-      console.error("Topic load error:", err);
-    }
+      const data = await API.getTopic(rec.cat.id, rec.topic.id);
+      rec.topic = Object.assign({}, rec.topic, data);
+      rec.topic.title = rec.topic.title || rec.title;
+      rec.nQuestions = (data.questions || []).length;
+    } catch { }
 
     state.page = 0;
     const qs = rec.topic.questions || [];
@@ -1491,7 +1451,7 @@
 
     const results = await Promise.all(
       matchedTopics.map((rec) =>
-        fetchTopicData(rec)
+        API.getTopic(rec.cat.id, rec.topic.id)
           .then((d) => ({ d, rec }))
           .catch(() => null)
       )
@@ -1499,9 +1459,8 @@
 
     const rawList = [];
     results.forEach((r) => {
-      if (!r || !r.d) return;
-      const list = Array.isArray(r.d) ? r.d : (Array.isArray(r.d.questions) ? r.d.questions : []);
-      list.forEach((qItem) => {
+      if (!r || !r.d || !Array.isArray(r.d.questions)) return;
+      r.d.questions.forEach((qItem) => {
         const qTextObj = (typeof qItem.q === "object") ? qItem.q : {
           en: qItem.question_en || qItem.q || "",
           as: qItem.question_as || qItem.q || ""
@@ -1527,7 +1486,7 @@
 
         const correctIdx = Number.isInteger(qItem.correct_index) 
           ? qItem.correct_index 
-          : (Number.isInteger(qItem.correct) ? qItem.correct : (Number.isInteger(qItem.answer) ? qItem.answer : 0));
+          : (Number.isInteger(qItem.correct) ? qItem.correct : 0);
 
         rawList.push({
           q: qTextObj,
@@ -1704,7 +1663,7 @@
       <section class="section" style="padding-bottom:40px;">
         <div class="sub-grid">
           ${secs.map((sec, i) => `
-            <a class="sub-card reveal" href="#/mock-test/${cat.id}/${sub.id}/${sec.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
+            <a class="sub-card reveal" href="#/mock-test/${cat.id}/${sub.id}/${sec.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
               <span class="sub-ico">${topicIconHTML(sec.id, cat.id)}</span>
               <span><b>${escapeHtml(localized(sec.name))}</b>
                 <span>${(sec.topics || []).length} Topics</span>
@@ -2087,7 +2046,10 @@
     try {
       const savedUiLang = localStorage.getItem("axomexam-ui-lang");
       if (savedUiLang) state.uiLang = savedUiLang;
-    } catch (e) { }
+      else state.uiLang = "en";
+    } catch (e) {
+      state.uiLang = "en";
+    }
 
     document.body.setAttribute("data-lang", state.lang);
     applyStaticI18n();
@@ -2099,6 +2061,7 @@
       console.error("Failed to load categories:", err);
     }
 
+    /* Load extra trending topics from the trending-topics folder */
     try {
       const extras = await API.getTrendingTopics();
       registerExtraTrending(extras);
@@ -2119,11 +2082,10 @@
       let loadedTotal = 0;
       state.topicIndex.forEach(async (rec) => {
         try {
-          const d = await fetchTopicData(rec);
-          if (d) {
-            const list = Array.isArray(d) ? d : (Array.isArray(d.questions) ? d.questions : []);
-            rec.nQuestions = list.length;
-            rec.topic.questions = list;
+          const d = await API.getTopic(rec.cat.id, rec.topic.id);
+          if (d && Array.isArray(d.questions)) {
+            rec.nQuestions = d.questions.length;
+            rec.topic.questions = d.questions;
             
             const el = document.getElementById(`count-${rec.path.replace(/\//g, '-')}`);
             if (el) el.textContent = `${rec.nQuestions} ${t("topic.questions")}`;
