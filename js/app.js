@@ -3,7 +3,7 @@
    Application logic: i18n, navigation, routing, rendering,
    search, Q&A reader, and Advanced Timed Mock Tests.
    Supports standard, multi-level subcategories, and flat question JSON schemas.
-   Includes dedicated UI language switcher for Category & Sub-category titles.
+   Includes global UI language switch next to Dark Mode button.
    ============================================================ */
 
 (() => {
@@ -17,7 +17,7 @@
     ready: false,
     page: 0,               // pagination for current topic page
     lang: "as",            // reading language for Q&A content ("en" | "as")
-    uiLang: "as",          // dedicated language for Category & Sub-category titles ("en" | "as")
+    uiLang: "as",          // global UI language for navigation & category titles ("en" | "as")
     mock: null,            // active mock test session
   };
 
@@ -26,11 +26,14 @@
 
   /* ================= i18n helpers ================= */
   function t(key) {
-    if (typeof I18N !== "undefined" && I18N.en && I18N.en[key]) {
-      return I18N.en[key];
+    if (typeof I18N !== "undefined") {
+      const langObj = I18N[state.uiLang] || I18N.as || I18N.en;
+      if (langObj && langObj[key]) return langObj[key];
+      if (I18N.en && I18N.en[key]) return I18N.en[key];
     }
     return key;
   }
+
   function localized(obj) {
     if (obj == null) return "";
     if (typeof obj === "string") return obj;
@@ -38,29 +41,64 @@
     return obj[l] || obj.as || obj.en || "";
   }
 
-  /* Universal content extractor supporting both JSON schemas */
+  /* Universal content extractor supporting all JSON schemas */
   function extractField(item, fieldName) {
     if (!item) return "";
     const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
     
-    // Check direct object format: item.q / item.a / item.question
-    const obj = item[fieldName] || item[fieldName === "question" ? "q" : fieldName === "answer" ? "a" : fieldName];
-    if (obj) {
-      if (typeof obj === "string") return obj;
-      if (typeof obj === "object") {
-        return obj[targetLang] || obj.as || obj.en || "";
+    // 1. Direct language specific keys
+    const directKey = `${fieldName}_${targetLang}`;
+    if (item[directKey] !== undefined && item[directKey] !== null && typeof item[directKey] === "string") {
+      return item[directKey];
+    }
+    const shortFieldName = fieldName === "question" ? "q" : fieldName === "answer" ? "a" : fieldName === "explanation" ? "exp" : "";
+    if (shortFieldName) {
+      const shortDirect = `${shortFieldName}_${targetLang}`;
+      if (item[shortDirect] !== undefined && item[shortDirect] !== null && typeof item[shortDirect] === "string") {
+        return item[shortDirect];
       }
     }
 
-    // Check flat keys: item.question_as, item.question_en, item.answer_as, etc.
-    const directKey = `${fieldName}_${targetLang}`;
-    if (item[directKey] !== undefined) return item[directKey];
+    // 2. Object or direct string
+    const candidateKeys = [fieldName];
+    if (fieldName === "question") candidateKeys.push("q", "question_text");
+    if (fieldName === "answer") candidateKeys.push("a", "ans");
+    if (fieldName === "explanation") candidateKeys.push("exp", "desc");
 
-    // Fallback across language suffixes
+    for (const k of candidateKeys) {
+      const val = item[k];
+      if (val !== undefined && val !== null) {
+        if (typeof val === "string") return val;
+        if (typeof val === "object" && !Array.isArray(val)) {
+          return val[targetLang] || val.as || val.en || Object.values(val)[0] || "";
+        }
+      }
+    }
+
+    // 3. If fieldName is "answer" and answer was stored as an option index number
+    if (fieldName === "answer") {
+      const ansIdx = Number.isInteger(item.answer) ? item.answer
+                   : Number.isInteger(item.correct) ? item.correct
+                   : Number.isInteger(item.correct_index) ? item.correct_index
+                   : -1;
+      if (ansIdx >= 0) {
+        const opts = getOptionsList(item);
+        if (opts && opts[ansIdx] !== undefined) {
+          return opts[ansIdx];
+        }
+      }
+    }
+
+    // 4. Fallbacks across languages
     const asKey = `${fieldName}_as`;
     const enKey = `${fieldName}_en`;
-    if (item[asKey] !== undefined) return item[asKey];
-    if (item[enKey] !== undefined) return item[enKey];
+    if (item[asKey] !== undefined && item[asKey] !== null) return String(item[asKey]);
+    if (item[enKey] !== undefined && item[enKey] !== null) return String(item[enKey]);
+
+    if (shortFieldName) {
+      if (item[`${shortFieldName}_as`] !== undefined) return String(item[`${shortFieldName}_as`]);
+      if (item[`${shortFieldName}_en`] !== undefined) return String(item[`${shortFieldName}_en`]);
+    }
 
     return "";
   }
@@ -77,22 +115,20 @@
     if (!item) return [];
     const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
 
-    // Check array: item.options = [ {en, as}, ... ]
     if (Array.isArray(item.options) && item.options.length) {
       return item.options.map(opt => {
         if (typeof opt === "string") return opt;
-        if (typeof opt === "object") return opt[targetLang] || opt.as || opt.en || "";
+        if (typeof opt === "object" && opt !== null) return opt[targetLang] || opt.as || opt.en || "";
         return String(opt);
       });
     }
 
-    // Check flat arrays: item.options_as / item.options_en
     const directOpts = item[`options_${targetLang}`];
     if (Array.isArray(directOpts) && directOpts.length) {
-      return directOpts;
+      return directOpts.map(String);
     }
-    if (Array.isArray(item.options_as) && item.options_as.length) return item.options_as;
-    if (Array.isArray(item.options_en) && item.options_en.length) return item.options_en;
+    if (Array.isArray(item.options_as) && item.options_as.length) return item.options_as.map(String);
+    if (Array.isArray(item.options_en) && item.options_en.length) return item.options_en.map(String);
 
     return [];
   }
@@ -110,25 +146,47 @@
     });
   }
 
-  /* Category UI Language Switcher HTML Component */
-  function categoryLangSwitchHTML() {
-    return `
-      <div class="cat-lang-toolbar" style="display:flex;justify-content:flex-end;margin-bottom:12px;">
-        <div class="lang-switch" role="group" aria-label="Category Title Language">
-          <button class="cat-lang-btn ${state.uiLang === "as" ? "active" : ""}" type="button" data-catlang="as" style="padding:4px 12px;font-size:0.84rem;font-weight:700;cursor:pointer;">অসমীয়া</button>
-          <button class="cat-lang-btn ${state.uiLang === "en" ? "active" : ""}" type="button" data-catlang="en" style="padding:4px 12px;font-size:0.84rem;font-weight:700;cursor:pointer;">English</button>
-        </div>
-      </div>`;
-  }
+  /* Global UI Language Toggle (Next to Dark Mode Button) */
+  function initGlobalLangToggle() {
+    const themeToggles = $$(".theme-toggle");
+    themeToggles.forEach((themeBtn) => {
+      const parent = themeBtn.parentElement;
+      if (!parent || parent.querySelector(".global-lang-toggle")) return;
 
-  function bindCategoryLangSwitch(renderCallback) {
-    $$(".cat-lang-btn").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        state.uiLang = btn.dataset.catlang;
+      const langWrap = document.createElement("div");
+      langWrap.className = "global-lang-toggle";
+      langWrap.style.cssText = "display:inline-flex;align-items:center;background:var(--bg-subtle,#f1f5f9);border:1px solid var(--border,#e2e8f0);border-radius:20px;padding:2px;margin-right:8px;font-size:0.75rem;font-weight:700;";
+      
+      langWrap.innerHTML = `
+        <button type="button" class="glang-btn ${state.uiLang === "as" ? "active" : ""}" data-glang="as" style="border:none;background:${state.uiLang === "as" ? "var(--primary,#0ea5e9)" : "transparent"};color:${state.uiLang === "as" ? "#fff" : "var(--ink-soft,#64748b)"};padding:3px 9px;border-radius:14px;cursor:pointer;font-size:0.75rem;font-weight:700;transition:all 0.2s;">অসমীয়া</button>
+        <button type="button" class="glang-btn ${state.uiLang === "en" ? "active" : ""}" data-glang="en" style="border:none;background:${state.uiLang === "en" ? "var(--primary,#0ea5e9)" : "transparent"};color:${state.uiLang === "en" ? "#fff" : "var(--ink-soft,#64748b)"};padding:3px 9px;border-radius:14px;cursor:pointer;font-size:0.75rem;font-weight:700;transition:all 0.2s;">EN</button>
+      `;
+
+      themeBtn.insertAdjacentElement("beforebegin", langWrap);
+    });
+
+    $$(".global-lang-toggle .glang-btn").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        const targetLang = btn.dataset.glang;
+        if (state.uiLang === targetLang) return;
+        state.uiLang = targetLang;
+        try { localStorage.setItem("axomexam-ui-lang", targetLang); } catch (err) {}
+        updateGlobalLangButtons();
+        applyStaticI18n();
         buildDesktopNav();
         buildMobileNav();
-        if (renderCallback) renderCallback();
+        renderRoute();
       });
+    });
+  }
+
+  function updateGlobalLangButtons() {
+    $$(".global-lang-toggle .glang-btn").forEach((btn) => {
+      const isAct = btn.dataset.glang === state.uiLang;
+      btn.classList.toggle("active", isAct);
+      btn.style.background = isAct ? "var(--primary,#0ea5e9)" : "transparent";
+      btn.style.color = isAct ? "#fff" : "var(--ink-soft,#64748b)";
     });
   }
 
@@ -136,16 +194,14 @@
   async function fetchTopicData(rec) {
     if (window.API && typeof window.API.getTopic === "function") {
       try {
-        let relPath = rec.topic.file;
-        if (!relPath) {
-          const parts = [rec.cat.id, rec.sub ? rec.sub.id : "", rec.section ? rec.section.id : ""]
-            .filter(Boolean)
-            .concat([rec.topic.id]);
-          relPath = parts.join("/");
-        }
-        return await API.getTopic(rec.cat.id, relPath);
-      } catch (err) {
         return await API.getTopic(rec.cat.id, rec.topic.id);
+      } catch (err) {
+        try {
+          const parts = [rec.cat.id, rec.sub ? rec.sub.id : "", rec.section ? rec.section.id : "", rec.topic.id].filter(Boolean);
+          return await API.getTopic(rec.cat.id, parts.slice(1).join("/"));
+        } catch (e) {
+          return null;
+        }
       }
     }
     return null;
@@ -578,7 +634,6 @@
           <a href="#/">${t("breadcrumb.home")}</a>
           <span class="bc-sep">/</span><span>${escapeHtml(localized(cat.name))}</span>
         </nav>
-        ${categoryLangSwitchHTML()}
         <h1>${escapeHtml(localized(cat.name))}</h1>
         <p class="page-desc">${escapeHtml(localized(cat.description)) || escapeHtml(localized(cat.name))}</p>
       </div>
@@ -595,8 +650,6 @@
           </div>`
         : (directTopics.length ? topicListHTML(cat, null, null, directTopics) : emptyHTML())}
       </section>`;
-    
-    bindCategoryLangSwitch(() => renderCategoryPage(main, cat));
     observeReveals();
   }
 
@@ -621,7 +674,6 @@
           <a href="#/category/${cat.id}">${escapeHtml(localized(cat.name))}</a>
           <span class="bc-sep">/</span><span>${escapeHtml(localized(sub.name))}</span>
         </nav>
-        ${categoryLangSwitchHTML()}
         <h1>${escapeHtml(localized(sub.name))}</h1>
         <p class="page-desc">${escapeHtml(localized(sub.description)) || ""}</p>
       </div>
@@ -637,13 +689,10 @@
               </a>`).join("")}
           </div>` : (topics && topics.length ? topicListHTML(cat, sub, null, topics) : emptyHTML())}
       </section>`;
-    
-    bindCategoryLangSwitch(() => renderSubOrSection(main, segs));
     observeReveals();
   }
 
   function renderSectionPage(main, cat, sub, sec) {
-    const segs = parseHash();
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb">
@@ -654,15 +703,12 @@
           <a href="#/category/${cat.id}/${sub.id}">${escapeHtml(localized(sub.name))}</a>
           <span class="bc-sep">/</span><span>${escapeHtml(localized(sec.name))}</span>
         </nav>
-        ${categoryLangSwitchHTML()}
         <h1>${escapeHtml(localized(sec.name))}</h1>
         <p class="page-desc">${escapeHtml(localized(sec.description)) || ""}</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
         ${topicListHTML(cat, sub, sec, sec.topics || [])}
       </section>`;
-    
-    bindCategoryLangSwitch(() => renderSectionPage(main, cat, sub, sec));
     observeReveals();
   }
 
@@ -706,11 +752,17 @@
     try {
       const data = await fetchTopicData(rec);
       if (data) {
-        rec.topic = Object.assign({}, rec.topic, data);
+        if (Array.isArray(data)) {
+          rec.topic.questions = data;
+        } else if (data.questions && Array.isArray(data.questions)) {
+          rec.topic = Object.assign({}, rec.topic, data);
+        }
         rec.topic.title = rec.topic.title || rec.title;
-        rec.nQuestions = (data.questions || []).length;
+        rec.nQuestions = (rec.topic.questions || []).length;
       }
-    } catch { }
+    } catch (err) {
+      console.error("Topic load error:", err);
+    }
 
     state.page = 0;
     const qs = rec.topic.questions || [];
@@ -1193,7 +1245,6 @@
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb"><a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("tab.categories")}</span></nav>
-        ${categoryLangSwitchHTML()}
         <h1>${t("tab.categories")}</h1>
         <p class="page-desc">${t("home.categories.sub")}</p>
       </div>
@@ -1212,8 +1263,6 @@
           }).join("")}
         </div>
       </section>`;
-    
-    bindCategoryLangSwitch(() => renderCategoriesPage(main));
     observeReveals();
   }
 
@@ -1450,8 +1499,9 @@
 
     const rawList = [];
     results.forEach((r) => {
-      if (!r || !r.d || !Array.isArray(r.d.questions)) return;
-      r.d.questions.forEach((qItem) => {
+      if (!r || !r.d) return;
+      const list = Array.isArray(r.d) ? r.d : (Array.isArray(r.d.questions) ? r.d.questions : []);
+      list.forEach((qItem) => {
         const qTextObj = (typeof qItem.q === "object") ? qItem.q : {
           en: qItem.question_en || qItem.q || "",
           as: qItem.question_as || qItem.q || ""
@@ -1477,7 +1527,7 @@
 
         const correctIdx = Number.isInteger(qItem.correct_index) 
           ? qItem.correct_index 
-          : (Number.isInteger(qItem.correct) ? qItem.correct : 0);
+          : (Number.isInteger(qItem.correct) ? qItem.correct : (Number.isInteger(qItem.answer) ? qItem.answer : 0));
 
         rawList.push({
           q: qTextObj,
@@ -2033,7 +2083,13 @@
   /* ================= Boot ================= */
   async function boot() {
     const pre = $("#preloader");
-    document.body.setAttribute("data-lang", "as");
+    
+    try {
+      const savedUiLang = localStorage.getItem("axomexam-ui-lang");
+      if (savedUiLang) state.uiLang = savedUiLang;
+    } catch (e) { }
+
+    document.body.setAttribute("data-lang", state.lang);
     applyStaticI18n();
 
     try {
@@ -2043,7 +2099,6 @@
       console.error("Failed to load categories:", err);
     }
 
-    /* Load extra trending topics from the trending-topics folder */
     try {
       const extras = await API.getTrendingTopics();
       registerExtraTrending(extras);
@@ -2056,6 +2111,8 @@
       buildDesktopNav();
       buildMobileNav();
       bindSearch();
+      initGlobalLangToggle();
+      
       window.addEventListener("hashchange", () => { buildDesktopNav(); buildMobileNav(); renderRoute(); });
       renderRoute();
 
@@ -2063,9 +2120,10 @@
       state.topicIndex.forEach(async (rec) => {
         try {
           const d = await fetchTopicData(rec);
-          if (d && Array.isArray(d.questions)) {
-            rec.nQuestions = d.questions.length;
-            rec.topic.questions = d.questions;
+          if (d) {
+            const list = Array.isArray(d) ? d : (Array.isArray(d.questions) ? d.questions : []);
+            rec.nQuestions = list.length;
+            rec.topic.questions = list;
             
             const el = document.getElementById(`count-${rec.path.replace(/\//g, '-')}`);
             if (el) el.textContent = `${rec.nQuestions} ${t("topic.questions")}`;
