@@ -1,8 +1,7 @@
 /* ============================================================
    axomexam — app.js
    Application logic: i18n, navigation, routing, rendering,
-   search, Q&A reader, and Advanced Timed Mock Tests.
-   Supports both standard and flat question JSON schemas.
+   search, Q&A reader, Math Engine, and Advanced Timed Mock Tests.
    Default UI Language: English ("en").
    ============================================================ */
 
@@ -41,38 +40,123 @@
     return obj[l] || obj.en || obj.as || "";
   }
 
+  /* ================= Math & Formula Formatter ================= */
+  function formatMath(str) {
+    if (str == null) return "";
+    let s = String(str);
+
+    const hasLatex = /\$[^$]+\$|\\\([^\\]+\\\)/.test(s);
+    if (!hasLatex) {
+      s = escapeHtml(s);
+
+      // Square root: sqrt(x) or √(x)
+      s = s.replace(/sqrt\(([^)]+)\)/gi, '&radic;<span style="text-decoration:overline;padding-left:1px;">$1</span>');
+      s = s.replace(/√\(([^)]+)\)/g, '&radic;<span style="text-decoration:overline;padding-left:1px;">$1</span>');
+
+      // Powers / Superscripts: ^-2, ^2, ^3, ^n, ^{10}
+      s = s.replace(/\^{([^}]+)}/g, '<sup>$1</sup>');
+      s = s.replace(/\^([\-\+]?[0-9a-zA-Z]+)/g, '<sup>$1</sup>');
+
+      // Subscripts: _2, _10, _{ab}
+      s = s.replace(/_{([^}]+)}/g, '<sub>$1</sub>');
+      s = s.replace(/_([0-9a-zA-Z]+)/g, '<sub>$1</sub>');
+
+      // Common symbols
+      s = s.replace(/\+\/-/g, '&plusmn;');
+      s = s.replace(/&lt;=/g, '&le;').replace(/&gt;=/g, '&ge;');
+    }
+    return s;
+  }
+
+  function renderMathJax(el) {
+    if (!el) return;
+    if (typeof renderMathInElement === "function") {
+      try {
+        renderMathInElement(el, {
+          delimiters: [
+            { left: "$$", right: "$$", display: true },
+            { left: "$", right: "$", display: false },
+            { left: "\\(", right: "\\)", display: false },
+            { left: "\\[", right: "\\]", display: true }
+          ],
+          throwOnError: false
+        });
+      } catch (e) { }
+    }
+  }
+
+  /* Universal Fetcher for Topic JSON with multi-level path support */
+  async function fetchTopicData(rec) {
+    if (window.API && typeof window.API.getTopic === "function") {
+      try {
+        const d = await API.getTopic(rec.cat.id, rec.topic.id);
+        if (d) return d;
+      } catch (err) { }
+
+      try {
+        if (rec.sub) {
+          const d = await API.getTopic(rec.cat.id, `${rec.sub.id}/${rec.topic.id}`);
+          if (d) return d;
+        }
+      } catch (err) { }
+
+      try {
+        if (rec.sub && rec.section) {
+          const d = await API.getTopic(rec.cat.id, `${rec.sub.id}/${rec.section.id}/${rec.topic.id}`);
+          if (d) return d;
+        }
+      } catch (err) { }
+    }
+    return null;
+  }
+
   /* Universal content extractor supporting both JSON schemas */
   function extractField(item, fieldName) {
     if (!item) return "";
     const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
     
-    // Check direct object format: item.q / item.a / item.question
-    const obj = item[fieldName] || item[fieldName === "question" ? "q" : fieldName === "answer" ? "a" : fieldName];
-    if (obj) {
-      if (typeof obj === "string") return obj;
-      if (typeof obj === "object") {
-        return obj[targetLang] || obj.as || obj.en || "";
-      }
-    }
-
-    // Check flat keys: item.question_as, item.question_en, item.answer_as, etc.
     const directKey = `${fieldName}_${targetLang}`;
-    if (item[directKey] !== undefined) return item[directKey];
-
-    // Check if answer is an index
-    if (fieldName === "answer") {
-      const idx = Number.isInteger(item.answer) ? item.answer : (Number.isInteger(item.correct) ? item.correct : -1);
-      if (idx >= 0) {
-        const opts = getOptionsList(item);
-        if (opts[idx] !== undefined) return opts[idx];
+    if (item[directKey] !== undefined && item[directKey] !== null && typeof item[directKey] === "string") {
+      return item[directKey];
+    }
+    const shortFieldName = fieldName === "question" ? "q" : fieldName === "answer" ? "a" : fieldName === "explanation" ? "exp" : "";
+    if (shortFieldName) {
+      const shortDirect = `${shortFieldName}_${targetLang}`;
+      if (item[shortDirect] !== undefined && item[shortDirect] !== null && typeof item[shortDirect] === "string") {
+        return item[shortDirect];
       }
     }
 
-    // Fallback across language suffixes
-    const asKey = `${fieldName}_as`;
+    const candidateKeys = [fieldName];
+    if (fieldName === "question") candidateKeys.push("q", "question_text");
+    if (fieldName === "answer") candidateKeys.push("a", "ans");
+    if (fieldName === "explanation") candidateKeys.push("exp", "desc");
+
+    for (const k of candidateKeys) {
+      const val = item[k];
+      if (val !== undefined && val !== null) {
+        if (typeof val === "string") return val;
+        if (typeof val === "object" && !Array.isArray(val)) {
+          return val[targetLang] || val.en || val.as || Object.values(val)[0] || "";
+        }
+      }
+    }
+
+    if (fieldName === "answer") {
+      const ansIdx = Number.isInteger(item.answer) ? item.answer
+                   : Number.isInteger(item.correct) ? item.correct
+                   : Number.isInteger(item.correct_index) ? item.correct_index
+                   : -1;
+      if (ansIdx >= 0) {
+        const opts = getOptionsList(item);
+        if (opts[ansIdx] !== undefined) return opts[ansIdx];
+      }
+    }
+
     const enKey = `${fieldName}_en`;
-    if (item[asKey] !== undefined) return item[asKey];
-    if (item[enKey] !== undefined) return item[enKey];
+    const asKey = `${fieldName}_as`;
+    if (item[enKey] !== undefined && item[enKey] !== null) return String(item[enKey]);
+    if (item[asKey] !== undefined && item[asKey] !== null) return String(item[asKey]);
 
     return "";
   }
@@ -81,10 +165,9 @@
     if (obj == null) return "";
     if (typeof obj === "string") return obj;
     const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
-    return obj[targetLang] || obj.as || obj.en || "";
+    return obj[targetLang] || obj.en || obj.as || "";
   }
 
-  /* Universal option list normalizer */
   function getOptionsList(item) {
     if (!item) return [];
     const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
@@ -92,17 +175,15 @@
     if (Array.isArray(item.options) && item.options.length) {
       return item.options.map(opt => {
         if (typeof opt === "string") return opt;
-        if (typeof opt === "object") return opt[targetLang] || opt.as || opt.en || "";
+        if (typeof opt === "object" && opt !== null) return opt[targetLang] || opt.en || opt.as || "";
         return String(opt);
       });
     }
 
     const directOpts = item[`options_${targetLang}`];
-    if (Array.isArray(directOpts) && directOpts.length) {
-      return directOpts;
-    }
-    if (Array.isArray(item.options_as) && item.options_as.length) return item.options_as;
-    if (Array.isArray(item.options_en) && item.options_en.length) return item.options_en;
+    if (Array.isArray(directOpts) && directOpts.length) return directOpts.map(String);
+    if (Array.isArray(item.options_en) && item.options_en.length) return item.options_en.map(String);
+    if (Array.isArray(item.options_as) && item.options_as.length) return item.options_as.map(String);
 
     return [];
   }
@@ -120,12 +201,10 @@
     });
   }
 
-  /* ================= UI Language Switcher Setup ================= */
+  /* Global UI Language Toggle (Desktop & Mobile) */
   function initGlobalLangToggle() {
-    // 1. Desktop Nav (next to darkmode button)
-    const headerActions = document.querySelector(".header-actions") || document.querySelector(".nav-actions");
-    const deskTheme = headerActions ? headerActions.querySelector(".theme-toggle") : document.querySelector(".theme-toggle");
-    
+    // 1. Desktop Header
+    const deskTheme = document.querySelector(".header-center .theme-toggle") || document.querySelector(".site-header .theme-toggle");
     if (deskTheme && !document.querySelector(".desktop-lang-toggle")) {
       const dWrap = document.createElement("div");
       dWrap.className = "desktop-lang-toggle";
@@ -137,14 +216,14 @@
       deskTheme.insertAdjacentElement("beforebegin", dWrap);
     }
 
-    // 2. Mobile Drawer Top
+    // 2. Mobile Menu Top (Clean Bar right above Mobile Header)
     const mobileMenu = $("#mobile-menu");
     if (mobileMenu && !mobileMenu.querySelector(".mobile-lang-bar")) {
       const mBar = document.createElement("div");
       mBar.className = "mobile-lang-bar";
-      mBar.style.cssText = "display:flex;justify-content:center;padding:12px;border-bottom:1px solid var(--border,#e2e8f0);background:var(--bg-subtle,#f8fafc);";
+      mBar.style.cssText = "display:flex;justify-content:center;padding:12px 16px;border-bottom:1px solid var(--border,#e2e8f0);background:var(--bg-subtle,#f8fafc);box-sizing:border-box;";
       mBar.innerHTML = `
-        <div style="display:inline-flex;background:var(--bg,#fff);border:1px solid var(--border,#cbd5e1);border-radius:20px;padding:2px;width:100%;max-width:220px;">
+        <div style="display:inline-flex;background:var(--bg,#fff);border:1px solid var(--border,#cbd5e1);border-radius:20px;padding:2px;width:100%;max-width:240px;box-sizing:border-box;">
           <button type="button" class="glang-btn ${state.uiLang === "en" ? "active" : ""}" data-glang="en" style="flex:1;border:none;background:${state.uiLang === "en" ? "var(--primary,#0ea5e9)" : "transparent"};color:${state.uiLang === "en" ? "#fff" : "var(--ink-soft,#64748b)"};padding:6px 0;border-radius:14px;cursor:pointer;font-size:0.82rem;font-weight:700;text-align:center;">English</button>
           <button type="button" class="glang-btn ${state.uiLang === "as" ? "active" : ""}" data-glang="as" style="flex:1;border:none;background:${state.uiLang === "as" ? "var(--primary,#0ea5e9)" : "transparent"};color:${state.uiLang === "as" ? "#fff" : "var(--ink-soft,#64748b)"};padding:6px 0;border-radius:14px;cursor:pointer;font-size:0.82rem;font-weight:700;text-align:center;">অসমীয়া</button>
         </div>
@@ -158,7 +237,7 @@
         const targetLang = btn.dataset.glang;
         if (state.uiLang === targetLang) return;
         state.uiLang = targetLang;
-        try { localStorage.setItem("axomexam-ui-lang", targetLang); } catch (err) {}
+        try { localStorage.setItem("axomexam-ui-lang", targetLang); } catch (err) { }
         
         $$(".glang-btn").forEach((b) => {
           const isAct = b.dataset.glang === state.uiLang;
@@ -718,11 +797,19 @@
   async function renderTopicPage(main, rec) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
     try {
-      const data = await API.getTopic(rec.cat.id, rec.topic.id);
-      rec.topic = Object.assign({}, rec.topic, data);
-      rec.topic.title = rec.topic.title || rec.title;
-      rec.nQuestions = (data.questions || []).length;
-    } catch { }
+      const data = await fetchTopicData(rec);
+      if (data) {
+        if (Array.isArray(data)) {
+          rec.topic.questions = data;
+        } else if (data.questions && Array.isArray(data.questions)) {
+          rec.topic = Object.assign({}, rec.topic, data);
+        }
+        rec.topic.title = rec.topic.title || rec.title;
+        rec.nQuestions = (rec.topic.questions || []).length;
+      }
+    } catch (err) {
+      console.error("Topic load error:", err);
+    }
 
     state.page = 0;
     const qs = rec.topic.questions || [];
@@ -795,28 +882,30 @@
           <article class="qa-card" data-n="${n}">
             <div class="qa-q">
               <span class="qno">${n}</span>
-              <span class="qtext">${escapeHtml(qtext)}</span>
+              <span class="qtext">${formatMath(qtext)}</span>
             </div>
             ${options.length ? `
               <div class="qa-options" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:6px;margin:10px 0 10px 32px;">
                 ${options.map((opt, optIdx) => `
                   <div style="font-size:0.88rem;color:var(--ink-soft);background:var(--bg-subtle,#f8fafc);padding:6px 10px;border-radius:6px;border:1px solid var(--border,#e2e8f0);">
-                    <b style="color:var(--primary);margin-right:4px;">(${String.fromCharCode(65 + optIdx)})</b> ${escapeHtml(opt)}
+                    <b style="color:var(--primary);margin-right:4px;">(${String.fromCharCode(65 + optIdx)})</b> ${formatMath(opt)}
                   </div>
                 `).join("")}
               </div>` : ""
             }
             <div class="qa-a">
               <span class="a-label">${t("topic.answer")}:</span>
-              <span class="a-body">${escapeHtml(atext)}</span>
+              <span class="a-body">${formatMath(atext)}</span>
             </div>
             ${explanation ? `
               <div class="qa-exp" style="margin-top:6px;font-size:0.84rem;color:var(--ink-muted,#64748b);padding-left:32px;">
-                <b>ব্যাখ্যা:</b> ${escapeHtml(explanation)}
+                <b>ব্যাখ্যা:</b> ${formatMath(explanation)}
               </div>` : ""
             }
           </article>`;
       }).join("");
+
+      renderMathJax(list);
     }
 
     const pager = $("#pager");
@@ -917,24 +1006,25 @@
         <article class="qa-card read-item" data-n="${n}">
           <div class="qa-q">
             <span class="qno">${n}</span>
-            <span class="qtext">${escapeHtml(qtext)}</span>
+            <span class="qtext">${formatMath(qtext)}</span>
           </div>
           ${options.length ? `
             <div class="qa-options" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:6px;margin:8px 0 8px 32px;">
               ${options.map((opt, optIdx) => `
                 <div style="font-size:0.85rem;color:var(--ink-soft);background:var(--bg-subtle,#f8fafc);padding:5px 8px;border-radius:4px;border:1px solid var(--border,#e2e8f0);">
-                  <b>(${String.fromCharCode(65 + optIdx)})</b> ${escapeHtml(opt)}
+                  <b>(${String.fromCharCode(65 + optIdx)})</b> ${formatMath(opt)}
                 </div>
               `).join("")}
             </div>` : ""
           }
           <div class="qa-a">
             <span class="a-label">${t("topic.answer")}:</span>
-            <span class="a-body">${escapeHtml(atext)}</span>
+            <span class="a-body">${formatMath(atext)}</span>
           </div>
         </article>`;
     }).join("");
 
+    renderMathJax(body);
     $("#read-pageinfo", modal).textContent = `${state.page + 1} / ${totalPages}`;
     $("#read-prev", modal).disabled = state.page === 0;
     $("#read-next", modal).disabled = state.page >= totalPages - 1;
@@ -1451,7 +1541,7 @@
 
     const results = await Promise.all(
       matchedTopics.map((rec) =>
-        API.getTopic(rec.cat.id, rec.topic.id)
+        fetchTopicData(rec)
           .then((d) => ({ d, rec }))
           .catch(() => null)
       )
@@ -1459,8 +1549,9 @@
 
     const rawList = [];
     results.forEach((r) => {
-      if (!r || !r.d || !Array.isArray(r.d.questions)) return;
-      r.d.questions.forEach((qItem) => {
+      if (!r || !r.d) return;
+      const list = Array.isArray(r.d) ? r.d : (Array.isArray(r.d.questions) ? r.d.questions : []);
+      list.forEach((qItem) => {
         const qTextObj = (typeof qItem.q === "object") ? qItem.q : {
           en: qItem.question_en || qItem.q || "",
           as: qItem.question_as || qItem.q || ""
@@ -1486,7 +1577,7 @@
 
         const correctIdx = Number.isInteger(qItem.correct_index) 
           ? qItem.correct_index 
-          : (Number.isInteger(qItem.correct) ? qItem.correct : 0);
+          : (Number.isInteger(qItem.correct) ? qItem.correct : (Number.isInteger(qItem.answer) ? qItem.answer : 0));
 
         rawList.push({
           q: qTextObj,
@@ -1833,13 +1924,13 @@
         <div class="quiz-progress"><span id="quiz-progress" style="width:${((m.idx) / m.pool.length * 100).toFixed(1)}%"></span></div>
         <div class="quiz-card">
           <div class="quiz-qno">Question ${m.idx + 1}</div>
-          <div class="quiz-qtext">${escapeHtml(qText)}</div>
+          <div class="quiz-qtext">${formatMath(qText)}</div>
 
           <div class="quiz-options" id="quiz-options">
             ${options.map((opt, i) => `
               <button class="quiz-option" data-opt="${i}" ${answered ? "disabled" : ""}>
                 <span class="opt-key">${keys[i]}</span>
-                <span>${escapeHtml(opt)}</span>
+                <span>${formatMath(opt)}</span>
               </button>`).join("")}
           </div>
 
@@ -1849,6 +1940,9 @@
           </button>
         </div>
       </div>`;
+
+    const qCard = $(".quiz-card");
+    if (qCard) renderMathJax(qCard);
 
     const optionsBox = $("#quiz-options");
     if (optionsBox) {
@@ -1867,9 +1961,10 @@
           const fb = $("#quiz-feedback");
           fb.classList.add(sel === q.correct ? "good" : "bad");
           fb.style.display = "block";
-          fb.textContent = sel === q.correct
+          fb.innerHTML = sel === q.correct
             ? t("mock.revealCorrect")
-            : `${t("mock.correctAnswer")}: ${escapeHtml(options[q.correct] || "")}`;
+            : `${t("mock.correctAnswer")}: ${formatMath(options[q.correct] || "")}`;
+          renderMathJax(fb);
           $("#quiz-next").disabled = false;
         });
       });
@@ -1977,20 +2072,23 @@
             const options = (q.options || []).map(opt => (typeof opt === "object" ? localizeContent(opt) : String(opt)));
             let ansLine = "";
             if (r.a !== undefined && options.length) {
-              ansLine = `<div class="rv-ans"><b>${t("mock.answer")}:</b> ${escapeHtml(options[r.a] || "")}</div>`;
-              if (!r.ok) ansLine += `<div class="rv-ans correct-line"><b>${t("mock.correctAnswer")}:</b> ${escapeHtml(options[q.correct] || "")}</div>`;
+              ansLine = `<div class="rv-ans"><b>${t("mock.answer")}:</b> ${formatMath(options[r.a] || "")}</div>`;
+              if (!r.ok) ansLine += `<div class="rv-ans correct-line"><b>${t("mock.correctAnswer")}:</b> ${formatMath(options[q.correct] || "")}</div>`;
             } else if (options.length) {
-              ansLine = `<div class="rv-ans correct-line"><b>${t("mock.correctAnswer")}:</b> ${escapeHtml(options[q.correct] || "")}</div>`;
+              ansLine = `<div class="rv-ans correct-line"><b>${t("mock.correctAnswer")}:</b> ${formatMath(options[q.correct] || "")}</div>`;
             }
             return `
               <div class="review-item">
-                <div class="rv-q">Q${i + 1}. ${escapeHtml(localizeContent(q.q))}</div>
+                <div class="rv-q">Q${i + 1}. ${formatMath(localizeContent(q.q))}</div>
                 ${badge}
                 ${ansLine}
               </div>`;
           }).join("")}
         </div>
       </div>`;
+
+    const revList = $("#review-list");
+    if (revList) renderMathJax(revList);
 
     requestAnimationFrame(() => {
       const fg = $(".result-ring .r-fg");
@@ -2061,7 +2159,6 @@
       console.error("Failed to load categories:", err);
     }
 
-    /* Load extra trending topics from the trending-topics folder */
     try {
       const extras = await API.getTrendingTopics();
       registerExtraTrending(extras);
@@ -2082,10 +2179,11 @@
       let loadedTotal = 0;
       state.topicIndex.forEach(async (rec) => {
         try {
-          const d = await API.getTopic(rec.cat.id, rec.topic.id);
-          if (d && Array.isArray(d.questions)) {
-            rec.nQuestions = d.questions.length;
-            rec.topic.questions = d.questions;
+          const d = await fetchTopicData(rec);
+          if (d) {
+            const list = Array.isArray(d) ? d : (Array.isArray(d.questions) ? d.questions : []);
+            rec.nQuestions = list.length;
+            rec.topic.questions = list;
             
             const el = document.getElementById(`count-${rec.path.replace(/\//g, '-')}`);
             if (el) el.textContent = `${rec.nQuestions} ${t("topic.questions")}`;
