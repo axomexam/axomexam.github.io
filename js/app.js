@@ -1,7 +1,7 @@
 /* ============================================================
    axomexam — app.js
    Application logic: i18n, navigation, routing, rendering,
-   search, Q&A reader, Math Engine, and Advanced Timed Mock Tests.
+   search, Q&A reader, Math Engine (Assamese + English), and Mock Tests.
    Default UI Language: English ("en").
    ============================================================ */
 
@@ -40,7 +40,7 @@
     return obj[l] || obj.en || obj.as || "";
   }
 
-  /* ================= Math & Formula Formatter ================= */
+  /* ================= Math & Formula Formatter (Supports English & Assamese) ================= */
   function formatMath(str) {
     if (str == null) return "";
     let s = String(str);
@@ -53,13 +53,13 @@
       s = s.replace(/sqrt\(([^)]+)\)/gi, '&radic;<span style="text-decoration:overline;padding-left:1px;">$1</span>');
       s = s.replace(/√\(([^)]+)\)/g, '&radic;<span style="text-decoration:overline;padding-left:1px;">$1</span>');
 
-      // Powers / Superscripts: ^-2, ^2, ^3, ^n, ^{10}
+      // Powers / Superscripts: Includes English 0-9 & Assamese ০-৯ digits
       s = s.replace(/\^{([^}]+)}/g, '<sup>$1</sup>');
-      s = s.replace(/\^([\-\+]?[0-9a-zA-Z]+)/g, '<sup>$1</sup>');
+      s = s.replace(/\^([\-\+]?[0-9০-৯a-zA-Z\u0980-\u09FF]+)/g, '<sup>$1</sup>');
 
-      // Subscripts: _2, _10, _{ab}
+      // Subscripts: Includes English 0-9 & Assamese ০-৯ digits
       s = s.replace(/_{([^}]+)}/g, '<sub>$1</sub>');
-      s = s.replace(/_([0-9a-zA-Z]+)/g, '<sub>$1</sub>');
+      s = s.replace(/_([0-9০-৯a-zA-Z\u0980-\u09FF]+)/g, '<sub>$1</sub>');
 
       // Common symbols
       s = s.replace(/\+\/-/g, '&plusmn;');
@@ -90,29 +90,46 @@
     if (!item) return "";
     const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
     
-    // Check direct object format: item.q / item.a / item.question
-    const obj = item[fieldName] || item[fieldName === "question" ? "q" : fieldName === "answer" ? "a" : fieldName];
-    if (obj) {
-      if (typeof obj === "string") return obj;
-      if (typeof obj === "object" && !Array.isArray(val)) {
-        return obj[targetLang] || obj.as || obj.en || "";
-      }
-    }
-
-    // Check flat keys: item.question_as, item.question_en, item.answer_as, etc.
+    // Direct language key
     const directKey = `${fieldName}_${targetLang}`;
     if (item[directKey] !== undefined && item[directKey] !== null) return String(item[directKey]);
 
-    // Check if answer is an index
+    // Short form key (q, a, exp)
+    const shortFieldName = fieldName === "question" ? "q" : fieldName === "answer" ? "a" : fieldName === "explanation" ? "exp" : "";
+    if (shortFieldName) {
+      const shortDirect = `${shortFieldName}_${targetLang}`;
+      if (item[shortDirect] !== undefined && item[shortDirect] !== null) return String(item[shortDirect]);
+    }
+
+    // Object format
+    const candidateKeys = [fieldName];
+    if (fieldName === "question") candidateKeys.push("q", "question_text");
+    if (fieldName === "answer") candidateKeys.push("a", "ans");
+    if (fieldName === "explanation") candidateKeys.push("exp", "desc");
+
+    for (const k of candidateKeys) {
+      const val = item[k];
+      if (val !== undefined && val !== null) {
+        if (typeof val === "string") return val;
+        if (typeof val === "object" && !Array.isArray(val)) {
+          return val[targetLang] || val.as || val.en || Object.values(val)[0] || "";
+        }
+      }
+    }
+
+    // Index answer fallback
     if (fieldName === "answer") {
-      const idx = Number.isInteger(item.answer) ? item.answer : (Number.isInteger(item.correct) ? item.correct : -1);
+      const idx = Number.isInteger(item.answer) ? item.answer
+                   : Number.isInteger(item.correct) ? item.correct
+                   : Number.isInteger(item.correct_index) ? item.correct_index
+                   : -1;
       if (idx >= 0) {
         const opts = getOptionsList(item);
         if (opts[idx] !== undefined) return opts[idx];
       }
     }
 
-    // Fallback across language suffixes
+    // Language fallbacks
     const asKey = `${fieldName}_as`;
     const enKey = `${fieldName}_en`;
     if (item[asKey] !== undefined && item[asKey] !== null) return String(item[asKey]);
@@ -128,7 +145,6 @@
     return obj[targetLang] || obj.as || obj.en || "";
   }
 
-  /* Universal option list normalizer */
   function getOptionsList(item) {
     if (!item) return [];
     const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
@@ -162,9 +178,8 @@
     });
   }
 
-  /* ================= UI Language Switcher Setup ================= */
+  /* Global UI Language Toggle (Desktop & Mobile) */
   function initGlobalLangToggle() {
-    // 1. Desktop Header
     const deskTheme = document.querySelector(".header-center .theme-toggle") || document.querySelector(".site-header .theme-toggle");
     if (deskTheme && !document.querySelector(".desktop-lang-toggle")) {
       const dWrap = document.createElement("div");
@@ -177,7 +192,6 @@
       deskTheme.insertAdjacentElement("beforebegin", dWrap);
     }
 
-    // 2. Mobile Menu Top
     const mobileMenu = $("#mobile-menu");
     if (mobileMenu && !mobileMenu.querySelector(".mobile-lang-bar")) {
       const mBar = document.createElement("div");
@@ -2130,7 +2144,6 @@
       window.addEventListener("hashchange", () => { buildDesktopNav(); buildMobileNav(); renderRoute(); });
       renderRoute();
 
-      // Reliable Question Counter (Original API Logic)
       state.topicIndex.forEach(async (rec) => {
         try {
           const d = await API.getTopic(rec.cat.id, rec.topic.id);
