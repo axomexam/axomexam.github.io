@@ -159,10 +159,44 @@
       "icon": "⚛",
       "subcategories": [
         {
+          "id": "physics",
+          "name": { "en": "Physics", "as": "পদাৰ্থ বিজ্ঞান" },
+          "topics": [
+            { "id": "mechanics", "name": { "en": "Mechanics", "as": "বলবিজ্ঞান" }, "popularity": 8 },
+            { "id": "optics", "name": { "en": "Optics", "as": "আলোক বিজ্ঞান" }, "popularity": 8 },
+            { "id": "thermodynamics", "name": { "en": "Thermodynamics", "as": "তাপগতিবিজ্ঞান" }, "popularity": 7 },
+            { "id": "acoustics", "name": { "en": "Acoustics", "as": "শব্দবিজ্ঞান" }, "popularity": 7 },
+            { "id": "electromagnetism", "name": { "en": "Electromagnetism", "as": "বিদ্যুত-চুম্বকত্ব" }, "popularity": 8 },
+            { "id": "modern-physics", "name": { "en": "Modern Physics", "as": "আধুনিক পদাৰ্থ বিজ্ঞান" }, "popularity": 8 },
+            { "id": "nuclear-physics", "name": { "en": "Nuclear Physics", "as": "নিউক্লীয় পদাৰ্থ বিজ্ঞান" }, "popularity": 7 },
+            { "id": "astrophysics", "name": { "en": "Astrophysics", "as": "জ্যোতিৰ্পদাৰ্থ বিজ্ঞান" }, "popularity": 7 }
+          ]
+        },
+        {
+          "id": "chemistry",
+          "name": { "en": "Chemistry", "as": "ৰসায়ন বিজ্ঞান" },
+          "topics": [
+            { "id": "organic-chemistry", "name": { "en": "Organic Chemistry", "as": "জৈৱ ৰসায়ন" }, "popularity": 8 },
+            { "id": "inorganic-chemistry", "name": { "en": "Inorganic Chemistry", "as": "অজৈৱ ৰসায়ন" }, "popularity": 8 },
+            { "id": "physical-chemistry", "name": { "en": "Physical Chemistry", "as": "ভৌতিক ৰসায়ন" }, "popularity": 7 },
+            { "id": "biochemistry", "name": { "en": "Biochemistry", "as": "জৈৱ ৰসায়ন বিজ্ঞান" }, "popularity": 7 },
+            { "id": "analytical-chemistry", "name": { "en": "Analytical Chemistry", "as": "বিশ্লেষণাত্মক ৰসায়ন" }, "popularity": 7 },
+            { "id": "environmental-chemistry", "name": { "en": "Environmental Chemistry", "as": "পৰিৱেশ ৰসায়ন" }, "popularity": 8 },
+            { "id": "industrial-chemistry", "name": { "en": "Industrial Chemistry", "as": "ঔদ্যোগিক ৰসায়ন" }, "popularity": 7 }
+          ]
+        },
+        {
           "id": "biology",
           "name": { "en": "Biology", "as": "জীৱ বিজ্ঞান" },
           "topics": [
-            { "id": "human-body", "name": { "en": "Human Body & Health", "as": "মানৱ শৰীৰ আৰু স্বাস্থ্য" }, "popularity": 8 }
+            { "id": "botany", "name": { "en": "Botany", "as": "উদ্ভিদ বিজ্ঞান" }, "popularity": 8 },
+            { "id": "zoology", "name": { "en": "Zoology", "as": "প্ৰাণী বিজ্ঞান" }, "popularity": 8 },
+            { "id": "microbiology", "name": { "en": "Microbiology", "as": "অণুজীৱ বিজ্ঞান" }, "popularity": 7 },
+            { "id": "cytology", "name": { "en": "Cytology (Cell Biology)", "as": "কোষবিজ্ঞান" }, "popularity": 8 },
+            { "id": "genetics", "name": { "en": "Genetics", "as": "বংশগতি বিজ্ঞান" }, "popularity": 8 },
+            { "id": "human-physiology", "name": { "en": "Human Physiology", "as": "মানৱ শৰীৰতত্ব" }, "popularity": 9 },
+            { "id": "anatomy", "name": { "en": "Anatomy", "as": "শৰীৰস্থান বিজ্ঞান" }, "popularity": 8 },
+            { "id": "ecology", "name": { "en": "Ecology", "as": "পৰিস্থিতি বিজ্ঞান" }, "popularity": 8 }
           ]
         }
       ]
