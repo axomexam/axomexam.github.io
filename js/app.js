@@ -2,7 +2,8 @@
    axomexam — app.js
    Application logic: i18n, navigation, routing, rendering,
    search, Q&A reader, and Advanced Timed Mock Tests.
-   Supports both standard and flat question JSON schemas.
+   Supports standard, multi-level subcategories, and flat question JSON schemas.
+   Includes dedicated UI language switcher for Category & Sub-category titles.
    ============================================================ */
 
 (() => {
@@ -16,6 +17,7 @@
     ready: false,
     page: 0,               // pagination for current topic page
     lang: "as",            // reading language for Q&A content ("en" | "as")
+    uiLang: "as",          // dedicated language for Category & Sub-category titles ("en" | "as")
     mock: null,            // active mock test session
   };
 
@@ -32,7 +34,8 @@
   function localized(obj) {
     if (obj == null) return "";
     if (typeof obj === "string") return obj;
-    return obj.en || obj.as || "";
+    const l = state.uiLang || "as";
+    return obj[l] || obj.as || obj.en || "";
   }
 
   /* Universal content extractor supporting both JSON schemas */
@@ -105,6 +108,47 @@
       const k = el.getAttribute("data-aria-i18n");
       if (k) el.setAttribute("aria-label", t(k));
     });
+  }
+
+  /* Category UI Language Switcher HTML Component */
+  function categoryLangSwitchHTML() {
+    return `
+      <div class="cat-lang-toolbar" style="display:flex;justify-content:flex-end;margin-bottom:12px;">
+        <div class="lang-switch" role="group" aria-label="Category Title Language">
+          <button class="cat-lang-btn ${state.uiLang === "as" ? "active" : ""}" type="button" data-catlang="as" style="padding:4px 12px;font-size:0.84rem;font-weight:700;cursor:pointer;">অসমীয়া</button>
+          <button class="cat-lang-btn ${state.uiLang === "en" ? "active" : ""}" type="button" data-catlang="en" style="padding:4px 12px;font-size:0.84rem;font-weight:700;cursor:pointer;">English</button>
+        </div>
+      </div>`;
+  }
+
+  function bindCategoryLangSwitch(renderCallback) {
+    $$(".cat-lang-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        state.uiLang = btn.dataset.catlang;
+        buildDesktopNav();
+        buildMobileNav();
+        if (renderCallback) renderCallback();
+      });
+    });
+  }
+
+  /* Universal Fetcher for Topic JSON */
+  async function fetchTopicData(rec) {
+    if (window.API && typeof window.API.getTopic === "function") {
+      try {
+        let relPath = rec.topic.file;
+        if (!relPath) {
+          const parts = [rec.cat.id, rec.sub ? rec.sub.id : "", rec.section ? rec.section.id : ""]
+            .filter(Boolean)
+            .concat([rec.topic.id]);
+          relPath = parts.join("/");
+        }
+        return await API.getTopic(rec.cat.id, relPath);
+      } catch (err) {
+        return await API.getTopic(rec.cat.id, rec.topic.id);
+      }
+    }
+    return null;
   }
 
   /* ================= Data normalization ================= */
@@ -534,6 +578,7 @@
           <a href="#/">${t("breadcrumb.home")}</a>
           <span class="bc-sep">/</span><span>${escapeHtml(localized(cat.name))}</span>
         </nav>
+        ${categoryLangSwitchHTML()}
         <h1>${escapeHtml(localized(cat.name))}</h1>
         <p class="page-desc">${escapeHtml(localized(cat.description)) || escapeHtml(localized(cat.name))}</p>
       </div>
@@ -550,6 +595,8 @@
           </div>`
         : (directTopics.length ? topicListHTML(cat, null, null, directTopics) : emptyHTML())}
       </section>`;
+    
+    bindCategoryLangSwitch(() => renderCategoryPage(main, cat));
     observeReveals();
   }
 
@@ -574,6 +621,7 @@
           <a href="#/category/${cat.id}">${escapeHtml(localized(cat.name))}</a>
           <span class="bc-sep">/</span><span>${escapeHtml(localized(sub.name))}</span>
         </nav>
+        ${categoryLangSwitchHTML()}
         <h1>${escapeHtml(localized(sub.name))}</h1>
         <p class="page-desc">${escapeHtml(localized(sub.description)) || ""}</p>
       </div>
@@ -589,10 +637,13 @@
               </a>`).join("")}
           </div>` : (topics && topics.length ? topicListHTML(cat, sub, null, topics) : emptyHTML())}
       </section>`;
+    
+    bindCategoryLangSwitch(() => renderSubOrSection(main, segs));
     observeReveals();
   }
 
   function renderSectionPage(main, cat, sub, sec) {
+    const segs = parseHash();
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb">
@@ -603,12 +654,15 @@
           <a href="#/category/${cat.id}/${sub.id}">${escapeHtml(localized(sub.name))}</a>
           <span class="bc-sep">/</span><span>${escapeHtml(localized(sec.name))}</span>
         </nav>
+        ${categoryLangSwitchHTML()}
         <h1>${escapeHtml(localized(sec.name))}</h1>
         <p class="page-desc">${escapeHtml(localized(sec.description)) || ""}</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
         ${topicListHTML(cat, sub, sec, sec.topics || [])}
       </section>`;
+    
+    bindCategoryLangSwitch(() => renderSectionPage(main, cat, sub, sec));
     observeReveals();
   }
 
@@ -650,10 +704,12 @@
   async function renderTopicPage(main, rec) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
     try {
-      const data = await API.getTopic(rec.cat.id, rec.topic.id);
-      rec.topic = Object.assign({}, rec.topic, data);
-      rec.topic.title = rec.topic.title || rec.title;
-      rec.nQuestions = (data.questions || []).length;
+      const data = await fetchTopicData(rec);
+      if (data) {
+        rec.topic = Object.assign({}, rec.topic, data);
+        rec.topic.title = rec.topic.title || rec.title;
+        rec.nQuestions = (data.questions || []).length;
+      }
     } catch { }
 
     state.page = 0;
@@ -1137,6 +1193,7 @@
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb"><a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("tab.categories")}</span></nav>
+        ${categoryLangSwitchHTML()}
         <h1>${t("tab.categories")}</h1>
         <p class="page-desc">${t("home.categories.sub")}</p>
       </div>
@@ -1155,6 +1212,8 @@
           }).join("")}
         </div>
       </section>`;
+    
+    bindCategoryLangSwitch(() => renderCategoriesPage(main));
     observeReveals();
   }
 
@@ -1383,7 +1442,7 @@
 
     const results = await Promise.all(
       matchedTopics.map((rec) =>
-        API.getTopic(rec.cat.id, rec.topic.id)
+        fetchTopicData(rec)
           .then((d) => ({ d, rec }))
           .catch(() => null)
       )
@@ -2003,7 +2062,7 @@
       let loadedTotal = 0;
       state.topicIndex.forEach(async (rec) => {
         try {
-          const d = await API.getTopic(rec.cat.id, rec.topic.id);
+          const d = await fetchTopicData(rec);
           if (d && Array.isArray(d.questions)) {
             rec.nQuestions = d.questions.length;
             rec.topic.questions = d.questions;
