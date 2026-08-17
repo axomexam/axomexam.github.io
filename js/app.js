@@ -2,7 +2,7 @@
    axomexam — app.js
    Application logic: i18n, navigation, routing, rendering,
    search, Q&A reader, and Advanced Timed Mock Tests.
-   Supports standard, multi-level subcategories, and flat question JSON schemas.
+   Supports both standard and flat question JSON schemas.
    ============================================================ */
 
 (() => {
@@ -24,7 +24,10 @@
 
   /* ================= i18n helpers ================= */
   function t(key) {
-    return (window.I18N && window.I18N.en && window.I18N.en[key]) || key;
+    if (typeof I18N !== "undefined" && I18N.en && I18N.en[key]) {
+      return I18N.en[key];
+    }
+    return key;
   }
   function localized(obj) {
     if (obj == null) return "";
@@ -104,25 +107,6 @@
     });
   }
 
-  /* Universal Fetcher for Topic JSON with nested folder support */
-  async function fetchTopicData(rec) {
-    if (window.API && typeof window.API.getTopic === "function") {
-      try {
-        let relPath = rec.topic.file;
-        if (!relPath) {
-          const parts = [rec.cat.id, rec.sub ? rec.sub.id : "", rec.section ? rec.section.id : ""]
-            .filter(Boolean)
-            .concat([rec.topic.id]);
-          relPath = parts.join("/");
-        }
-        return await API.getTopic(rec.cat.id, relPath);
-      } catch (err) {
-        return await API.getTopic(rec.cat.id, rec.topic.id);
-      }
-    }
-    return null;
-  }
-
   /* ================= Data normalization ================= */
   function normalize(data) {
     const cats = [];
@@ -187,22 +171,22 @@
   /* ================= Navigation rendering ================= */
   function catColor(id) {
     const c = state.categories.find((x) => x.id === id);
-    return (c && c.color) || (window.CATEGORY_COLORS && window.CATEGORY_COLORS[id]) || (window.CATEGORY_COLORS && window.CATEGORY_COLORS.default) || "#0ea5e9";
+    return (c && c.color) || (typeof CATEGORY_COLORS !== "undefined" ? (CATEGORY_COLORS[id] || CATEGORY_COLORS.default) : "#0ea5e9");
   }
   function catIcon(id) {
     const c = state.categories.find((x) => x.id === id);
-    return (c && c.icon) || (window.CATEGORY_ICONS && window.CATEGORY_ICONS[id]) || "A";
+    return (c && c.icon) || (typeof CATEGORY_ICONS !== "undefined" ? CATEGORY_ICONS[id] : "A") || "A";
   }
   function catIconHTML(id) {
-    const svg = window.CATEGORY_ICON_SVG && window.CATEGORY_ICON_SVG[id];
+    const svg = typeof CATEGORY_ICON_SVG !== "undefined" && CATEGORY_ICON_SVG[id];
     if (svg) return `<span class="cat-svg">${svg}</span>`;
     return escapeHtml(catIcon(id));
   }
 
   function topicIconHTML(topicId, catId) {
     const id = String(topicId || "");
-    if (window.TOPIC_ICON_RULES) {
-      for (const [re, svg] of window.TOPIC_ICON_RULES) {
+    if (typeof TOPIC_ICON_RULES !== "undefined") {
+      for (const [re, svg] of TOPIC_ICON_RULES) {
         if (re.test(id)) return `<span class="cat-svg">${svg}</span>`;
       }
     }
@@ -228,7 +212,7 @@
   }
 
   function renderDesktopDrop(item, activePath) {
-    const kids = item.subcategories || item.sections;
+    const kids = item.subcategories || item.sections || [];
     return `
       <div class="dropdown">
         ${kids.map((sub) => {
@@ -427,7 +411,7 @@
   function renderHome(main) {
     const totalQuestions = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0);
     const totalPdfs = state.topicIndex.filter((r) => r.pdf).length;
-    const trending = trendingTopics(state.topicIndex).slice(0, (window.CONFIG && window.CONFIG.TRENDING_COUNT) || 6);
+    const trending = trendingTopics(state.topicIndex).slice(0, typeof CONFIG !== "undefined" ? CONFIG.TRENDING_COUNT : 6);
     const firstCat = state.categories[0]?.id || "gk";
 
     main.innerHTML = `
@@ -506,8 +490,8 @@
   }
 
   function heroVisualHTML() {
-    const examName = (window.CONFIG && window.CONFIG.MOCK && window.CONFIG.MOCK.EXAM_NAME) || "";
-    const target = new Date((window.CONFIG && window.CONFIG.MOCK && window.CONFIG.MOCK.EXAM_DATE) || "2026-12-31").getTime();
+    const examName = (typeof CONFIG !== "undefined" && CONFIG.MOCK && CONFIG.MOCK.EXAM_NAME) || "";
+    const target = new Date((typeof CONFIG !== "undefined" && CONFIG.MOCK && CONFIG.MOCK.EXAM_DATE) || "2026-12-31").getTime();
     const now = Date.now();
     const daysLeft = target > now ? Math.max(0, Math.ceil((target - now) / 86400000)) : 0;
     const fraction = target > now ? Math.min(1, daysLeft / 365) : 0;
@@ -666,12 +650,10 @@
   async function renderTopicPage(main, rec) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
     try {
-      const data = await fetchTopicData(rec);
-      if (data) {
-        rec.topic = Object.assign({}, rec.topic, data);
-        rec.topic.title = rec.topic.title || rec.title;
-        rec.nQuestions = (data.questions || []).length;
-      }
+      const data = await API.getTopic(rec.cat.id, rec.topic.id);
+      rec.topic = Object.assign({}, rec.topic, data);
+      rec.topic.title = rec.topic.title || rec.title;
+      rec.nQuestions = (data.questions || []).length;
     } catch { }
 
     state.page = 0;
@@ -722,7 +704,7 @@
     const rec = currentTopicRec();
     if (!rec) return;
     const qs = rec.topic.questions || [];
-    const perPage = (window.CONFIG && window.CONFIG.PER_PAGE) || 10;
+    const perPage = typeof CONFIG !== "undefined" ? CONFIG.PER_PAGE : 10;
     const totalPages = Math.max(1, Math.ceil(qs.length / perPage));
     const start = state.page * perPage;
     const slice = qs.slice(start, start + perPage);
@@ -818,7 +800,7 @@
     });
     $("#read-next", modal).addEventListener("click", () => {
       const rec = currentTopicRec();
-      const perPage = (window.CONFIG && window.CONFIG.PER_PAGE) || 10;
+      const perPage = typeof CONFIG !== "undefined" ? CONFIG.PER_PAGE : 10;
       const totalPages = rec ? Math.max(1, Math.ceil((rec.topic.questions || []).length / perPage)) : 1;
       if (state.page < totalPages - 1) { state.page++; renderReadingModalPage(); }
     });
@@ -849,7 +831,7 @@
     const modal = $("#read-modal");
     if (!rec || !modal || modal.hidden) return;
     const qs = rec.topic.questions || [];
-    const perPage = (window.CONFIG && window.CONFIG.PER_PAGE) || 10;
+    const perPage = typeof CONFIG !== "undefined" ? CONFIG.PER_PAGE : 10;
     const totalPages = Math.max(1, Math.ceil(qs.length / perPage));
     const start = state.page * perPage;
     const slice = qs.slice(start, start + perPage);
@@ -940,8 +922,8 @@
         </div>
         <div class="info-panel">
           <h2>GitHub</h2>
-          <p>${window.CONFIG && window.CONFIG.USE_REMOTE
-            ? `<a href="https://github.com/${window.CONFIG.OWNER}/${window.CONFIG.REPO}" target="_blank" rel="noopener" style="color:var(--primary);font-weight:600;">github.com/${window.CONFIG.OWNER}/${window.CONFIG.REPO}</a>`
+          <p>${(typeof CONFIG !== "undefined" && CONFIG.USE_REMOTE)
+            ? `<a href="https://github.com/${CONFIG.OWNER}/${CONFIG.REPO}" target="_blank" rel="noopener" style="color:var(--primary);font-weight:600;">github.com/${CONFIG.OWNER}/${CONFIG.REPO}</a>`
             : `<a href="https://github.com/" target="_blank" rel="noopener" style="color:var(--primary);font-weight:600;">github.com</a>`}</p>
           <ul>
             <li data-i18n="about.li1">${t("about.li1")}</li>
@@ -968,7 +950,7 @@
     const q = normalizeText(query);
     if (q.length < 2) return [];
     const hits = [];
-    const limit = (window.CONFIG && window.CONFIG.SEARCH_LIMIT) || 20;
+    const searchLimit = typeof CONFIG !== "undefined" ? CONFIG.SEARCH_LIMIT : 20;
     for (const r of state.topicIndex) {
       const titleEn = normalizeText(localized({ en: r.title.en }));
       const titleAs = normalizeText(localized({ as: r.title.as }));
@@ -985,7 +967,7 @@
       score += qHits.length * 1.5;
       if (score > 0) hits.push({ rec: r, score, matchCount: qHits.length + tagHits.length });
     }
-    return hits.sort((a, b) => b.score - a.score).slice(0, limit);
+    return hits.sort((a, b) => b.score - a.score).slice(0, searchLimit);
   }
 
   function bindSearch() {
@@ -1182,9 +1164,7 @@
 
     let files = [];
     try {
-      if (window.API && typeof window.API.listDownloads === "function") {
-        files = await API.listDownloads();
-      }
+      files = await API.listDownloads();
     } catch (err) {
       console.error("Failed to load downloads:", err);
     }
@@ -1223,27 +1203,22 @@
       return;
     }
 
-    const exams = (window.CONFIG && window.CONFIG.PYEAR_EXAMS) || [];
-    const exam = exams.find((e) => e.id === segs[1]);
+    const exam = ((typeof CONFIG !== "undefined" && CONFIG.PYEAR_EXAMS) || []).find((e) => e.id === segs[1]);
     if (!exam) return render404(main);
 
     if (segs.length === 2) {
-      const years = (window.API && typeof window.API.listPreviousYearYears === "function") 
-        ? await API.listPreviousYearYears(exam.id) 
-        : [];
+      const years = await API.listPreviousYearYears(exam.id);
       renderPreviousYearYears(main, exam, years);
       return;
     }
 
     const year = segs[2];
-    const files = (window.API && typeof window.API.listPreviousYearPdfs === "function")
-      ? await API.listPreviousYearPdfs(exam.id, year)
-      : [];
+    const files = await API.listPreviousYearPdfs(exam.id, year);
     renderPreviousYearPapers(main, exam, year, files);
   }
 
   function renderPreviousYearExams(main) {
-    const exams = (window.CONFIG && window.CONFIG.PYEAR_EXAMS) || [];
+    const exams = (typeof CONFIG !== "undefined" && CONFIG.PYEAR_EXAMS) || [];
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb"><a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("page.previous-year.title")}</span></nav>
@@ -1389,10 +1364,7 @@
     $("#sub-tg").addEventListener("click", () => send("tg"));
   }
 
-  /* ============================================================
-     ADVANCED MULTI-LEVEL DYNAMIC MOCK TEST SYSTEM
-     ============================================================ */
-
+  /* ================= MOCK TEST SYSTEM ================= */
   function getTopicsForMockFilter(cat, subId, secId, topicId) {
     const matched = [];
     state.topicIndex.forEach((rec) => {
@@ -1411,7 +1383,7 @@
 
     const results = await Promise.all(
       matchedTopics.map((rec) =>
-        fetchTopicData(rec)
+        API.getTopic(rec.cat.id, rec.topic.id)
           .then((d) => ({ d, rec }))
           .catch(() => null)
       )
@@ -1446,7 +1418,7 @@
 
         const correctIdx = Number.isInteger(qItem.correct_index) 
           ? qItem.correct_index 
-          : (Number.isInteger(qItem.correct) ? qItem.correct : (Number.isInteger(qItem.answer) ? qItem.answer : 0));
+          : (Number.isInteger(qItem.correct) ? qItem.correct : 0);
 
         rawList.push({
           q: qTextObj,
@@ -1599,7 +1571,7 @@
             <a class="sub-card reveal" href="#/mock-test/${cat.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
               <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
               <span><b>${escapeHtml(localized(s.name))}</b>
-                <span>${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} ${(s.sections && s.sections.length) ? "Sections" : "Topics"}</span>
+                <span>${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} Sections</span>
               </span>
             </a>`).join("")}
         </div>
@@ -2006,19 +1978,16 @@
     applyStaticI18n();
 
     try {
-      if (window.API && typeof window.API.getCategories === "function") {
-        const data = await API.getCategories();
-        Object.assign(state, normalize(data));
-      }
+      const data = await API.getCategories();
+      Object.assign(state, normalize(data));
     } catch (err) {
       console.error("Failed to load categories:", err);
     }
 
+    /* Load extra trending topics from the trending-topics folder */
     try {
-      if (window.API && typeof window.API.getTrendingTopics === "function") {
-        const extras = await API.getTrendingTopics();
-        registerExtraTrending(extras);
-      }
+      const extras = await API.getTrendingTopics();
+      registerExtraTrending(extras);
     } catch (err) {
       console.error("Failed to load extra trending topics:", err);
     }
@@ -2034,7 +2003,7 @@
       let loadedTotal = 0;
       state.topicIndex.forEach(async (rec) => {
         try {
-          const d = await fetchTopicData(rec);
+          const d = await API.getTopic(rec.cat.id, rec.topic.id);
           if (d && Array.isArray(d.questions)) {
             rec.nQuestions = d.questions.length;
             rec.topic.questions = d.questions;
