@@ -2,7 +2,7 @@
    axomexam — app.js
    Application logic: i18n, navigation, routing, rendering,
    search, Q&A reader, and Advanced Timed Mock Tests.
-   Supports both standard and flat question JSON schemas.
+   Supports standard, multi-level subcategories, and flat question JSON schemas.
    ============================================================ */
 
 (() => {
@@ -24,7 +24,7 @@
 
   /* ================= i18n helpers ================= */
   function t(key) {
-    return I18N.en[key] || key;
+    return (window.I18N && window.I18N.en && window.I18N.en[key]) || key;
   }
   function localized(obj) {
     if (obj == null) return "";
@@ -92,14 +92,35 @@
   }
 
   function applyStaticI18n() {
-    $("#master-search").placeholder = t("search.placeholder");
-    $("#footer-tagline").textContent = t("footer.tagline");
-    $("#footer-copy").textContent =
-      `© ${new Date().getFullYear()} axomexam — ${t("brand.tagline")}`;
+    const searchEl = $("#master-search");
+    if (searchEl) searchEl.placeholder = t("search.placeholder");
+    const taglineEl = $("#footer-tagline");
+    if (taglineEl) taglineEl.textContent = t("footer.tagline");
+    const copyEl = $("#footer-copy");
+    if (copyEl) copyEl.textContent = `© ${new Date().getFullYear()} axomexam — ${t("brand.tagline")}`;
     $$("[aria-label]").forEach((el) => {
       const k = el.getAttribute("data-aria-i18n");
       if (k) el.setAttribute("aria-label", t(k));
     });
+  }
+
+  /* Universal Fetcher for Topic JSON with nested folder support */
+  async function fetchTopicData(rec) {
+    if (window.API && typeof window.API.getTopic === "function") {
+      try {
+        let relPath = rec.topic.file;
+        if (!relPath) {
+          const parts = [rec.cat.id, rec.sub ? rec.sub.id : "", rec.section ? rec.section.id : ""]
+            .filter(Boolean)
+            .concat([rec.topic.id]);
+          relPath = parts.join("/");
+        }
+        return await API.getTopic(rec.cat.id, relPath);
+      } catch (err) {
+        return await API.getTopic(rec.cat.id, rec.topic.id);
+      }
+    }
+    return null;
   }
 
   /* ================= Data normalization ================= */
@@ -166,22 +187,24 @@
   /* ================= Navigation rendering ================= */
   function catColor(id) {
     const c = state.categories.find((x) => x.id === id);
-    return (c && c.color) || CATEGORY_COLORS[id] || CATEGORY_COLORS.default;
+    return (c && c.color) || (window.CATEGORY_COLORS && window.CATEGORY_COLORS[id]) || (window.CATEGORY_COLORS && window.CATEGORY_COLORS.default) || "#0ea5e9";
   }
   function catIcon(id) {
     const c = state.categories.find((x) => x.id === id);
-    return (c && c.icon) || CATEGORY_ICONS[id] || "A";
+    return (c && c.icon) || (window.CATEGORY_ICONS && window.CATEGORY_ICONS[id]) || "A";
   }
   function catIconHTML(id) {
-    const svg = CATEGORY_ICON_SVG[id];
+    const svg = window.CATEGORY_ICON_SVG && window.CATEGORY_ICON_SVG[id];
     if (svg) return `<span class="cat-svg">${svg}</span>`;
     return escapeHtml(catIcon(id));
   }
 
   function topicIconHTML(topicId, catId) {
     const id = String(topicId || "");
-    for (const [re, svg] of TOPIC_ICON_RULES) {
-      if (re.test(id)) return `<span class="cat-svg">${svg}</span>`;
+    if (window.TOPIC_ICON_RULES) {
+      for (const [re, svg] of window.TOPIC_ICON_RULES) {
+        if (re.test(id)) return `<span class="cat-svg">${svg}</span>`;
+      }
     }
     return catIconHTML(catId);
   }
@@ -233,6 +256,7 @@
 
   function buildDesktopNav() {
     const list = $("#nav-list");
+    if (!list) return;
     const activePath = currentPath();
     const featured = state.categories.filter((c) => FEATURED_IDS.includes(c.id));
     const rest = state.categories.filter((c) => !FEATURED_IDS.includes(c.id));
@@ -280,6 +304,7 @@
 
   function buildMobileNav() {
     const nav = $("#mobile-nav");
+    if (!nav) return;
     const activePath = currentPath();
     const catParts = state.categories.map((cat) => {
       const kids = cat.subcategories || cat.sections || [];
@@ -402,7 +427,7 @@
   function renderHome(main) {
     const totalQuestions = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0);
     const totalPdfs = state.topicIndex.filter((r) => r.pdf).length;
-    const trending = trendingTopics(state.topicIndex).slice(0, CONFIG.TRENDING_COUNT);
+    const trending = trendingTopics(state.topicIndex).slice(0, (window.CONFIG && window.CONFIG.TRENDING_COUNT) || 6);
     const firstCat = state.categories[0]?.id || "gk";
 
     main.innerHTML = `
@@ -481,8 +506,8 @@
   }
 
   function heroVisualHTML() {
-    const examName = CONFIG.MOCK.EXAM_NAME || "";
-    const target = new Date(CONFIG.MOCK.EXAM_DATE).getTime();
+    const examName = (window.CONFIG && window.CONFIG.MOCK && window.CONFIG.MOCK.EXAM_NAME) || "";
+    const target = new Date((window.CONFIG && window.CONFIG.MOCK && window.CONFIG.MOCK.EXAM_DATE) || "2026-12-31").getTime();
     const now = Date.now();
     const daysLeft = target > now ? Math.max(0, Math.ceil((target - now) / 86400000)) : 0;
     const fraction = target > now ? Math.min(1, daysLeft / 365) : 0;
@@ -503,7 +528,7 @@
         </div>
         <span class="float-chip c1"><span class="dot"></span>GK</span>
         <span class="float-chip c2"><span class="dot"></span>Math</span>
-        <span class="float-chip c3"><span class="dot"></span>Reasoning</span>
+        <span class="float-chip c3"><span class="dot"></span>Science</span>
       </div>`;
   }
 
@@ -641,10 +666,12 @@
   async function renderTopicPage(main, rec) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
     try {
-      const data = await API.getTopic(rec.cat.id, rec.topic.id);
-      rec.topic = Object.assign({}, rec.topic, data);
-      rec.topic.title = rec.topic.title || rec.title;
-      rec.nQuestions = (data.questions || []).length;
+      const data = await fetchTopicData(rec);
+      if (data) {
+        rec.topic = Object.assign({}, rec.topic, data);
+        rec.topic.title = rec.topic.title || rec.title;
+        rec.nQuestions = (data.questions || []).length;
+      }
     } catch { }
 
     state.page = 0;
@@ -695,7 +722,7 @@
     const rec = currentTopicRec();
     if (!rec) return;
     const qs = rec.topic.questions || [];
-    const perPage = CONFIG.PER_PAGE;
+    const perPage = (window.CONFIG && window.CONFIG.PER_PAGE) || 10;
     const totalPages = Math.max(1, Math.ceil(qs.length / perPage));
     const start = state.page * perPage;
     const slice = qs.slice(start, start + perPage);
@@ -791,7 +818,8 @@
     });
     $("#read-next", modal).addEventListener("click", () => {
       const rec = currentTopicRec();
-      const totalPages = rec ? Math.max(1, Math.ceil((rec.topic.questions || []).length / CONFIG.PER_PAGE)) : 1;
+      const perPage = (window.CONFIG && window.CONFIG.PER_PAGE) || 10;
+      const totalPages = rec ? Math.max(1, Math.ceil((rec.topic.questions || []).length / perPage)) : 1;
       if (state.page < totalPages - 1) { state.page++; renderReadingModalPage(); }
     });
     document.addEventListener("keydown", (e) => {
@@ -821,7 +849,7 @@
     const modal = $("#read-modal");
     if (!rec || !modal || modal.hidden) return;
     const qs = rec.topic.questions || [];
-    const perPage = CONFIG.PER_PAGE;
+    const perPage = (window.CONFIG && window.CONFIG.PER_PAGE) || 10;
     const totalPages = Math.max(1, Math.ceil(qs.length / perPage));
     const start = state.page * perPage;
     const slice = qs.slice(start, start + perPage);
@@ -912,8 +940,8 @@
         </div>
         <div class="info-panel">
           <h2>GitHub</h2>
-          <p>${CONFIG.USE_REMOTE
-            ? `<a href="https://github.com/${CONFIG.OWNER}/${CONFIG.REPO}" target="_blank" rel="noopener" style="color:var(--primary);font-weight:600;">github.com/${CONFIG.OWNER}/${CONFIG.REPO}</a>`
+          <p>${window.CONFIG && window.CONFIG.USE_REMOTE
+            ? `<a href="https://github.com/${window.CONFIG.OWNER}/${window.CONFIG.REPO}" target="_blank" rel="noopener" style="color:var(--primary);font-weight:600;">github.com/${window.CONFIG.OWNER}/${window.CONFIG.REPO}</a>`
             : `<a href="https://github.com/" target="_blank" rel="noopener" style="color:var(--primary);font-weight:600;">github.com</a>`}</p>
           <ul>
             <li data-i18n="about.li1">${t("about.li1")}</li>
@@ -940,6 +968,7 @@
     const q = normalizeText(query);
     if (q.length < 2) return [];
     const hits = [];
+    const limit = (window.CONFIG && window.CONFIG.SEARCH_LIMIT) || 20;
     for (const r of state.topicIndex) {
       const titleEn = normalizeText(localized({ en: r.title.en }));
       const titleAs = normalizeText(localized({ as: r.title.as }));
@@ -956,12 +985,13 @@
       score += qHits.length * 1.5;
       if (score > 0) hits.push({ rec: r, score, matchCount: qHits.length + tagHits.length });
     }
-    return hits.sort((a, b) => b.score - a.score).slice(0, CONFIG.SEARCH_LIMIT);
+    return hits.sort((a, b) => b.score - a.score).slice(0, limit);
   }
 
   function bindSearch() {
     const input = $("#master-search");
     const box = $("#search-results");
+    if (!input || !box) return;
     let timer;
 
     const close = () => { box.hidden = true; box.innerHTML = ""; };
@@ -1052,22 +1082,24 @@
 
   /* ================= Mobile menu ================= */
   function closeMobileMenu() {
-    $("#mobile-menu").classList.remove("open");
-    $("#mobile-backdrop").classList.remove("open");
-    $("#mobile-menu").hidden = true;
-    $("#mobile-backdrop").hidden = true;
-    $("#hamburger").classList.remove("open");
-    $("#hamburger").setAttribute("aria-expanded", "false");
+    const m = $("#mobile-menu");
+    const b = $("#mobile-backdrop");
+    const h = $("#hamburger");
+    if (m) { m.classList.remove("open"); m.hidden = true; }
+    if (b) { b.classList.remove("open"); b.hidden = true; }
+    if (h) { h.classList.remove("open"); h.setAttribute("aria-expanded", "false"); }
   }
   function openMobileMenu() {
-    $("#mobile-menu").hidden = false;
-    $("#mobile-backdrop").hidden = false;
+    const m = $("#mobile-menu");
+    const b = $("#mobile-backdrop");
+    const h = $("#hamburger");
+    if (m) m.hidden = false;
+    if (b) b.hidden = false;
     requestAnimationFrame(() => {
-      $("#mobile-menu").classList.add("open");
-      $("#mobile-backdrop").classList.add("open");
+      if (m) m.classList.add("open");
+      if (b) b.classList.add("open");
     });
-    $("#hamburger").classList.add("open");
-    $("#hamburger").setAttribute("aria-expanded", "true");
+    if (h) { h.classList.add("open"); h.setAttribute("aria-expanded", "true"); }
   }
 
   /* ================= Reveal on scroll ================= */
@@ -1111,6 +1143,7 @@
 
   function toast(msg) {
     const el = $("#toast");
+    if (!el) return;
     el.textContent = msg;
     el.classList.add("show");
     clearTimeout(el._t);
@@ -1143,16 +1176,15 @@
     observeReveals();
   }
 
-  /* ================= Downloads page =================
-     Reads every PDF placed in the "download" folder of the GitHub
-     repo (see js/config.js PATHS.DOWNLOADS). Simple flat list with
-     a single Download button per file. */
+  /* ================= Downloads page ================= */
   async function renderDownloadsPage(main) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
 
     let files = [];
     try {
-      files = await API.listDownloads();
+      if (window.API && typeof window.API.listDownloads === "function") {
+        files = await API.listDownloads();
+      }
     } catch (err) {
       console.error("Failed to load downloads:", err);
     }
@@ -1182,9 +1214,7 @@
       </section>`;
   }
 
-  /* ================= Previous Year Questions =================
-     Flow: exam list → year list → PDF download.
-     Repo layout: previous-year/<exam-id>/<year>/<file>.pdf */
+  /* ================= Previous Year Questions ================= */
   async function renderPreviousYear(main, segs) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
 
@@ -1193,22 +1223,27 @@
       return;
     }
 
-    const exam = (CONFIG.PYEAR_EXAMS || []).find((e) => e.id === segs[1]);
+    const exams = (window.CONFIG && window.CONFIG.PYEAR_EXAMS) || [];
+    const exam = exams.find((e) => e.id === segs[1]);
     if (!exam) return render404(main);
 
     if (segs.length === 2) {
-      const years = await API.listPreviousYearYears(exam.id);
+      const years = (window.API && typeof window.API.listPreviousYearYears === "function") 
+        ? await API.listPreviousYearYears(exam.id) 
+        : [];
       renderPreviousYearYears(main, exam, years);
       return;
     }
 
     const year = segs[2];
-    const files = await API.listPreviousYearPdfs(exam.id, year);
+    const files = (window.API && typeof window.API.listPreviousYearPdfs === "function")
+      ? await API.listPreviousYearPdfs(exam.id, year)
+      : [];
     renderPreviousYearPapers(main, exam, year, files);
   }
 
   function renderPreviousYearExams(main) {
-    const exams = CONFIG.PYEAR_EXAMS || [];
+    const exams = (window.CONFIG && window.CONFIG.PYEAR_EXAMS) || [];
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb"><a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("page.previous-year.title")}</span></nav>
@@ -1376,7 +1411,7 @@
 
     const results = await Promise.all(
       matchedTopics.map((rec) =>
-        API.getTopic(rec.cat.id, rec.topic.id)
+        fetchTopicData(rec)
           .then((d) => ({ d, rec }))
           .catch(() => null)
       )
@@ -1386,7 +1421,6 @@
     results.forEach((r) => {
       if (!r || !r.d || !Array.isArray(r.d.questions)) return;
       r.d.questions.forEach((qItem) => {
-        // Universal parser for both schemas
         const qTextObj = (typeof qItem.q === "object") ? qItem.q : {
           en: qItem.question_en || qItem.q || "",
           as: qItem.question_as || qItem.q || ""
@@ -1412,7 +1446,7 @@
 
         const correctIdx = Number.isInteger(qItem.correct_index) 
           ? qItem.correct_index 
-          : (Number.isInteger(qItem.correct) ? qItem.correct : 0);
+          : (Number.isInteger(qItem.correct) ? qItem.correct : (Number.isInteger(qItem.answer) ? qItem.answer : 0));
 
         rawList.push({
           q: qTextObj,
@@ -1565,7 +1599,7 @@
             <a class="sub-card reveal" href="#/mock-test/${cat.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
               <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
               <span><b>${escapeHtml(localized(s.name))}</b>
-                <span>${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} Sections</span>
+                <span>${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} ${(s.sections && s.sections.length) ? "Sections" : "Topics"}</span>
               </span>
             </a>`).join("")}
         </div>
@@ -1935,12 +1969,7 @@
     if (m.timerId) { clearInterval(m.timerId); m.timerId = null; }
   }
 
-  /* ================= Extra trending topics =================
-     JSON files placed in the "trending-topics" folder of the GitHub
-     repo (see PATHS.TRENDING) are merged into the site as trending
-     topics. They render with the same Q&A reader + reading mode +
-     language switch as any other topic, under the path
-     "#/topic/trending/<id>". */
+  /* ================= Extra trending topics ================= */
   function registerExtraTrending(extras) {
     const extraCat = {
       id: "trending",
@@ -1977,16 +2006,19 @@
     applyStaticI18n();
 
     try {
-      const data = await API.getCategories();
-      Object.assign(state, normalize(data));
+      if (window.API && typeof window.API.getCategories === "function") {
+        const data = await API.getCategories();
+        Object.assign(state, normalize(data));
+      }
     } catch (err) {
       console.error("Failed to load categories:", err);
     }
 
-    /* Load extra trending topics from the trending-topics folder */
     try {
-      const extras = await API.getTrendingTopics();
-      registerExtraTrending(extras);
+      if (window.API && typeof window.API.getTrendingTopics === "function") {
+        const extras = await API.getTrendingTopics();
+        registerExtraTrending(extras);
+      }
     } catch (err) {
       console.error("Failed to load extra trending topics:", err);
     }
@@ -2002,7 +2034,7 @@
       let loadedTotal = 0;
       state.topicIndex.forEach(async (rec) => {
         try {
-          const d = await API.getTopic(rec.cat.id, rec.topic.id);
+          const d = await fetchTopicData(rec);
           if (d && Array.isArray(d.questions)) {
             rec.nQuestions = d.questions.length;
             rec.topic.questions = d.questions;
@@ -2024,19 +2056,23 @@
       $("#app").innerHTML = `<div class="loader"><p>${t("load.error")}</p></div>`;
     }
 
-    setTimeout(() => pre.classList.add("done"), 350);
+    if (pre) setTimeout(() => pre.classList.add("done"), 350);
   }
 
   function bindHamburger() {
     const burger = $("#hamburger");
+    if (!burger) return;
     burger.addEventListener("click", () => {
-      if ($("#mobile-menu").classList.contains("open")) closeMobileMenu();
+      const menu = $("#mobile-menu");
+      if (menu && menu.classList.contains("open")) closeMobileMenu();
       else openMobileMenu();
     });
-    $("#mobile-backdrop").addEventListener("click", closeMobileMenu);
-    $("#mobile-close").addEventListener("click", closeMobileMenu);
+    const mb = $("#mobile-backdrop");
+    if (mb) mb.addEventListener("click", closeMobileMenu);
+    const mc = $("#mobile-close");
+    if (mc) mc.addEventListener("click", closeMobileMenu);
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape") { closeMobileMenu(); $("#search-results").hidden = true; }
+      if (e.key === "Escape") { closeMobileMenu(); const sr = $("#search-results"); if (sr) sr.hidden = true; }
     });
   }
 
@@ -2051,7 +2087,8 @@
   }
 
   function bindTabbar() {
-    $("#tab-menu").addEventListener("click", () => openMobileMenu());
+    const tm = $("#tab-menu");
+    if (tm) tm.addEventListener("click", () => openMobileMenu());
   }
 
   /* ================= Dark mode ================= */
