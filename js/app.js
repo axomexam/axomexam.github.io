@@ -85,78 +85,38 @@
     }
   }
 
-  /* Universal Fetcher for Topic JSON with multi-level path support */
-  async function fetchTopicData(rec) {
-    if (window.API && typeof window.API.getTopic === "function") {
-      try {
-        const d = await API.getTopic(rec.cat.id, rec.topic.id);
-        if (d) return d;
-      } catch (err) { }
-
-      try {
-        if (rec.sub) {
-          const d = await API.getTopic(rec.cat.id, `${rec.sub.id}/${rec.topic.id}`);
-          if (d) return d;
-        }
-      } catch (err) { }
-
-      try {
-        if (rec.sub && rec.section) {
-          const d = await API.getTopic(rec.cat.id, `${rec.sub.id}/${rec.section.id}/${rec.topic.id}`);
-          if (d) return d;
-        }
-      } catch (err) { }
-    }
-    return null;
-  }
-
   /* Universal content extractor supporting both JSON schemas */
   function extractField(item, fieldName) {
     if (!item) return "";
     const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
     
+    // Check direct object format: item.q / item.a / item.question
+    const obj = item[fieldName] || item[fieldName === "question" ? "q" : fieldName === "answer" ? "a" : fieldName];
+    if (obj) {
+      if (typeof obj === "string") return obj;
+      if (typeof obj === "object" && !Array.isArray(val)) {
+        return obj[targetLang] || obj.as || obj.en || "";
+      }
+    }
+
+    // Check flat keys: item.question_as, item.question_en, item.answer_as, etc.
     const directKey = `${fieldName}_${targetLang}`;
-    if (item[directKey] !== undefined && item[directKey] !== null && typeof item[directKey] === "string") {
-      return item[directKey];
-    }
-    const shortFieldName = fieldName === "question" ? "q" : fieldName === "answer" ? "a" : fieldName === "explanation" ? "exp" : "";
-    if (shortFieldName) {
-      const shortDirect = `${shortFieldName}_${targetLang}`;
-      if (item[shortDirect] !== undefined && item[shortDirect] !== null && typeof item[shortDirect] === "string") {
-        return item[shortDirect];
-      }
-    }
+    if (item[directKey] !== undefined && item[directKey] !== null) return String(item[directKey]);
 
-    const candidateKeys = [fieldName];
-    if (fieldName === "question") candidateKeys.push("q", "question_text");
-    if (fieldName === "answer") candidateKeys.push("a", "ans");
-    if (fieldName === "explanation") candidateKeys.push("exp", "desc");
-
-    for (const k of candidateKeys) {
-      const val = item[k];
-      if (val !== undefined && val !== null) {
-        if (typeof val === "string") return val;
-        if (typeof val === "object" && !Array.isArray(val)) {
-          return val[targetLang] || val.en || val.as || Object.values(val)[0] || "";
-        }
-      }
-    }
-
+    // Check if answer is an index
     if (fieldName === "answer") {
-      const ansIdx = Number.isInteger(item.answer) ? item.answer
-                   : Number.isInteger(item.correct) ? item.correct
-                   : Number.isInteger(item.correct_index) ? item.correct_index
-                   : -1;
-      if (ansIdx >= 0) {
+      const idx = Number.isInteger(item.answer) ? item.answer : (Number.isInteger(item.correct) ? item.correct : -1);
+      if (idx >= 0) {
         const opts = getOptionsList(item);
-        if (opts[ansIdx] !== undefined) return opts[ansIdx];
+        if (opts[idx] !== undefined) return opts[idx];
       }
     }
 
-    const enKey = `${fieldName}_en`;
+    // Fallback across language suffixes
     const asKey = `${fieldName}_as`;
-    if (item[enKey] !== undefined && item[enKey] !== null) return String(item[enKey]);
+    const enKey = `${fieldName}_en`;
     if (item[asKey] !== undefined && item[asKey] !== null) return String(item[asKey]);
+    if (item[enKey] !== undefined && item[enKey] !== null) return String(item[enKey]);
 
     return "";
   }
@@ -165,9 +125,10 @@
     if (obj == null) return "";
     if (typeof obj === "string") return obj;
     const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
-    return obj[targetLang] || obj.en || obj.as || "";
+    return obj[targetLang] || obj.as || obj.en || "";
   }
 
+  /* Universal option list normalizer */
   function getOptionsList(item) {
     if (!item) return [];
     const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
@@ -175,15 +136,15 @@
     if (Array.isArray(item.options) && item.options.length) {
       return item.options.map(opt => {
         if (typeof opt === "string") return opt;
-        if (typeof opt === "object" && opt !== null) return opt[targetLang] || opt.en || opt.as || "";
+        if (typeof opt === "object" && opt !== null) return opt[targetLang] || opt.as || opt.en || "";
         return String(opt);
       });
     }
 
     const directOpts = item[`options_${targetLang}`];
     if (Array.isArray(directOpts) && directOpts.length) return directOpts.map(String);
-    if (Array.isArray(item.options_en) && item.options_en.length) return item.options_en.map(String);
     if (Array.isArray(item.options_as) && item.options_as.length) return item.options_as.map(String);
+    if (Array.isArray(item.options_en) && item.options_en.length) return item.options_en.map(String);
 
     return [];
   }
@@ -201,7 +162,7 @@
     });
   }
 
-  /* Global UI Language Toggle (Desktop & Mobile) */
+  /* ================= UI Language Switcher Setup ================= */
   function initGlobalLangToggle() {
     // 1. Desktop Header
     const deskTheme = document.querySelector(".header-center .theme-toggle") || document.querySelector(".site-header .theme-toggle");
@@ -216,7 +177,7 @@
       deskTheme.insertAdjacentElement("beforebegin", dWrap);
     }
 
-    // 2. Mobile Menu Top (Clean Bar right above Mobile Header)
+    // 2. Mobile Menu Top
     const mobileMenu = $("#mobile-menu");
     if (mobileMenu && !mobileMenu.querySelector(".mobile-lang-bar")) {
       const mBar = document.createElement("div");
@@ -237,7 +198,7 @@
         const targetLang = btn.dataset.glang;
         if (state.uiLang === targetLang) return;
         state.uiLang = targetLang;
-        try { localStorage.setItem("axomexam-ui-lang", targetLang); } catch (err) { }
+        try { localStorage.setItem("axomexam-ui-lang", targetLang); } catch (err) {}
         
         $$(".glang-btn").forEach((b) => {
           const isAct = b.dataset.glang === state.uiLang;
@@ -797,19 +758,13 @@
   async function renderTopicPage(main, rec) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
     try {
-      const data = await fetchTopicData(rec);
+      const data = await API.getTopic(rec.cat.id, rec.topic.id);
       if (data) {
-        if (Array.isArray(data)) {
-          rec.topic.questions = data;
-        } else if (data.questions && Array.isArray(data.questions)) {
-          rec.topic = Object.assign({}, rec.topic, data);
-        }
+        rec.topic = Object.assign({}, rec.topic, data);
         rec.topic.title = rec.topic.title || rec.title;
-        rec.nQuestions = (rec.topic.questions || []).length;
+        rec.nQuestions = (data.questions || []).length;
       }
-    } catch (err) {
-      console.error("Topic load error:", err);
-    }
+    } catch { }
 
     state.page = 0;
     const qs = rec.topic.questions || [];
@@ -1541,7 +1496,7 @@
 
     const results = await Promise.all(
       matchedTopics.map((rec) =>
-        fetchTopicData(rec)
+        API.getTopic(rec.cat.id, rec.topic.id)
           .then((d) => ({ d, rec }))
           .catch(() => null)
       )
@@ -1549,9 +1504,8 @@
 
     const rawList = [];
     results.forEach((r) => {
-      if (!r || !r.d) return;
-      const list = Array.isArray(r.d) ? r.d : (Array.isArray(r.d.questions) ? r.d.questions : []);
-      list.forEach((qItem) => {
+      if (!r || !r.d || !Array.isArray(r.d.questions)) return;
+      r.d.questions.forEach((qItem) => {
         const qTextObj = (typeof qItem.q === "object") ? qItem.q : {
           en: qItem.question_en || qItem.q || "",
           as: qItem.question_as || qItem.q || ""
@@ -1577,7 +1531,7 @@
 
         const correctIdx = Number.isInteger(qItem.correct_index) 
           ? qItem.correct_index 
-          : (Number.isInteger(qItem.correct) ? qItem.correct : (Number.isInteger(qItem.answer) ? qItem.answer : 0));
+          : (Number.isInteger(qItem.correct) ? qItem.correct : 0);
 
         rawList.push({
           q: qTextObj,
@@ -2176,14 +2130,13 @@
       window.addEventListener("hashchange", () => { buildDesktopNav(); buildMobileNav(); renderRoute(); });
       renderRoute();
 
-      let loadedTotal = 0;
+      // Reliable Question Counter (Original API Logic)
       state.topicIndex.forEach(async (rec) => {
         try {
-          const d = await fetchTopicData(rec);
-          if (d) {
-            const list = Array.isArray(d) ? d : (Array.isArray(d.questions) ? d.questions : []);
-            rec.nQuestions = list.length;
-            rec.topic.questions = list;
+          const d = await API.getTopic(rec.cat.id, rec.topic.id);
+          if (d && Array.isArray(d.questions)) {
+            rec.nQuestions = d.questions.length;
+            rec.topic.questions = d.questions;
             
             const el = document.getElementById(`count-${rec.path.replace(/\//g, '-')}`);
             if (el) el.textContent = `${rec.nQuestions} ${t("topic.questions")}`;
@@ -2191,7 +2144,7 @@
             const tEl = document.getElementById(`trend-count-${rec.path.replace(/\//g, '-')}`);
             if (tEl) tEl.textContent = `${escapeHtml(localized(rec.cat.name))} • ${rec.nQuestions} ${t("topic.questions")}`;
 
-            loadedTotal = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0);
+            const loadedTotal = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0);
             const totalEl = $("#stat-total-questions");
             if (totalEl) totalEl.textContent = `${loadedTotal.toLocaleString()}+`;
           }
