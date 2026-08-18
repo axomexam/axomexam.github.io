@@ -19,21 +19,59 @@
               "id": "ancient-assam-sec",
               "name": { "en": "Ancient Assam History", "as": "প্ৰাচীন অসমৰ ইতিহাস" },
               "topics": [
-                { "id": "ancient-assam", "name": { "en": "Ancient Assam", "as": "প্ৰাচীন অসম (বৰ্মন/শালস্তম্ভ/পাল বংশ)" }, "popularity": 9 }
+                { "id": "ancient-sources", "name": { "en": "Sources of Ancient History", "as": "ইতিহাসৰ উৎসসমূহ" }, "popularity": 8 },
+                { "id": "pre-proto-history", "name": { "en": "Pre & Proto-History", "as": "প্ৰাক আৰু প্ৰাচীন ইতিহাস" }, "popularity": 7 },
+                { "id": "origin-names-assam", "name": { "en": "Origin of Names (Pragjyotisha & Kamarupa)", "as": "প্ৰাগজ্যোতিষ আৰু কামৰূপ নামৰ উৎপত্তি" }, "popularity": 8 },
+                { "id": "danava-dynasty", "name": { "en": "Danava Dynasty", "as": "দানৱ বংশ" }, "popularity": 8 },
+                { "id": "bhauma-asura-dynasty", "name": { "en": "Bhauma / Asura Dynasty (Narakasura)", "as": "ভৌমিক / অসুৰ বংশ (নৰকাসুৰ)" }, "popularity": 9 },
+                { "id": "mythological-rulers", "name": { "en": "Mythological Rulers (Bana & Bhismaka)", "as": "পৌৰাণিক শাসক (বাণ আৰু ভীষ্মক)" }, "popularity": 7 },
+                { "id": "varman-dynasty", "name": { "en": "Varman Dynasty & Bhaskarvarman", "as": "বৰ্মন বংশ আৰু ভাস্কৰবৰ্মন" }, "popularity": 9 },
+                { "id": "xuanzang-visit", "name": { "en": "Xuanzang's Visit to Kamarupa", "as": "হিউৱেন চাঙৰ কামৰূপ ভ্ৰমণ" }, "popularity": 9 },
+                { "id": "salastambha-dynasty", "name": { "en": "Salastambha (Mlechchha) Dynasty", "as": "শালস্তম্ভ (ম্লেছ) বংশ" }, "popularity": 8 },
+                { "id": "pala-dynasty", "name": { "en": "Pala Dynasty of Kamarupa", "as": "কামৰূপৰ পাল বংশ" }, "popularity": 8 },
+                { "id": "ancient-inscriptions", "name": { "en": "Ancient Inscriptions & Copper Plates", "as": "প্ৰাচীন শিলালিপি আৰু তাম্ৰশাসন" }, "popularity": 8 },
+                { "id": "ancient-society-admin", "name": { "en": "Administration, Society & Religion", "as": "প্ৰশাসন, সমাজ আৰু ধৰ্ম" }, "popularity": 7 },
+                { "id": "fall-of-kamarupa", "name": { "en": "Fall of Kamarupa Kingdom", "as": "কামৰূপ ৰাজ্যৰ পতন" }, "popularity": 8 }
               ]
             },
             {
               "id": "medieval-assam-sec",
               "name": { "en": "Medieval Assam History", "as": "মধ্যযুগীয় অসমৰ ইতিহাস" },
               "topics": [
-                { "id": "medieval-assam", "name": { "en": "Ahom Kingdom & Koch Dynasty", "as": "আহোম ৰাজ্য আৰু কোচ বংশ" }, "popularity": 9 }
+                { "id": "early-invasions", "name": { "en": "Early Invasions (Bakhtiyar Khilji)", "as": "প্ৰাৰম্ভিক মুছলিম আক্ৰমণ (বখতিয়াৰ খিলজী)" }, "popularity": 8 },
+                { "id": "kamata-khen-kingdom", "name": { "en": "Kamata Kingdom & Khen Dynasty", "as": "কমতা ৰাজ্য আৰু খেন বংশ" }, "popularity": 8 },
+                { "id": "chutiya-kingdom", "name": { "en": "Chutiya Kingdom & Sati Sadhani", "as": "চুতীয়া ৰাজ্য আৰু সতী সাধনী" }, "popularity": 9 },
+                { "id": "kachari-kingdom", "name": { "en": "Kachari (Dimasa) Kingdom", "as": "কছাৰী (ডিমাছা) ৰাজ্য" }, "popularity": 8 },
+                { "id": "koch-kingdom", "name": { "en": "Koch Kingdom (Naranarayan & Chilarai)", "as": "কোচ ৰাজ্য (নৰনাৰায়ণ আৰু চিলাৰায়)" }, "popularity": 9 },
+                { "id": "ahom-foundation", "name": { "en": "Foundation of Ahom Kingdom (Sukapha)", "as": "আহোম ৰাজ্যৰ প্ৰতিষ্ঠা (চুকাফা)" }, "popularity": 9 },
+                { "id": "major-ahom-rulers", "name": { "en": "Major Ahom Rulers & Expansion", "as": "প্ৰধান আহোম ৰজা আৰু ৰাজ্য বিস্তাৰ" }, "popularity": 9 },
+                { "id": "ahom-administration", "name": { "en": "Ahom Administration (Paik, Khel, Posha)", "as": "আহোম প্ৰশাসন (পাইক, খেল, পৌছা)" }, "popularity": 9 },
+                { "id": "neo-vaishnavite-movement", "name": { "en": "Neo-Vaishnavite Movement (Sankardeva)", "as": "নৱ-বৈষ্ণৱ ধৰ্ম আন্দোলন (শংকৰদেৱ)" }, "popularity": 9 },
+                { "id": "ahom-mughal-conflicts", "name": { "en": "Ahom-Mughal Conflicts & Mir Jumla", "as": "আহোম-মোগল সংঘাত আৰু মীৰ জুমলা" }, "popularity": 9 },
+                { "id": "saraighat-itakhuli", "name": { "en": "Battle of Saraighat & Itakhuli", "as": "শৰাইঘাট আৰু ইটাখুলীৰ যুদ্ধ" }, "popularity": 10 },
+                { "id": "moamoria-rebellion", "name": { "en": "Moamoria Rebellion", "as": "মোৱামৰীয়া গণ-বিদ্ৰোহ" }, "popularity": 9 },
+                { "id": "burmese-invasions", "name": { "en": "Burmese Invasions (Maanor Akroman)", "as": "মানৰ আক্ৰমণ" }, "popularity": 9 },
+                { "id": "yandabo-ahom-fall", "name": { "en": "Treaty of Yandabo (1826) & Fall of Ahoms", "as": "ইয়াণ্ডাবু সন্ধি আৰু আহোমৰ পতন" }, "popularity": 9 }
               ]
             },
             {
               "id": "modern-assam-sec",
               "name": { "en": "Modern Assam History", "as": "আধুনিক অসমৰ ইতিহাস" },
               "topics": [
-                { "id": "modern-assam", "name": { "en": "British Rule & Freedom Struggle in Assam", "as": "ব্ৰিটিছ শাসন আৰু অসমৰ স্বাধীনতা সংগ্ৰাম" }, "popularity": 9 }
+                { "id": "british-annexation", "name": { "en": "Treaty of Yandabo & British Rule", "as": "ইয়াণ্ডাবু সন্ধি আৰু ব্ৰিটিছ শাসন" }, "popularity": 9 },
+                { "id": "early-anti-british-revolts", "name": { "en": "Early Revolts (Gomdhar & Piyoli)", "as": "প্ৰাৰম্ভিক বিদ্ৰোহ (গোমধৰ কোঁৱৰ, পিয়লী ফুকন)" }, "popularity": 8 },
+                { "id": "revolt-1857-assam", "name": { "en": "1857 Revolt in Assam (Maniram Dewan)", "as": "১৮৫৭ চনৰ বিদ্ৰোহ (মণিৰাম দেৱান)" }, "popularity": 9 },
+                { "id": "peasant-uprisings", "name": { "en": "Peasant Uprisings (Phulaguri & Patharughat)", "as": "কৃষক বিদ্ৰোহ (ফুলগুৰি ধেৱা, পথৰুঘাট)" }, "popularity": 9 },
+                { "id": "tea-oil-coal-growth", "name": { "en": "Growth of Tea, Oil & Coal Industry", "as": "চাহ, তেল আৰু কয়লা উদ্যোগৰ বিকাশ" }, "popularity": 8 },
+                { "id": "socio-cultural-awakening", "name": { "en": "Orunodoi, Jonaki & Sahitya Sabha", "as": "অৰুণোদই, জোনাকী যুগ আৰু সাহিত্য সভা" }, "popularity": 9 },
+                { "id": "political-associations", "name": { "en": "Assam Association & APCC Formation", "as": "অসম এছ'চিয়েচন আৰু কংগ্ৰেছ গঠন" }, "popularity": 8 },
+                { "id": "non-cooperation-assam", "name": { "en": "Non-Cooperation Movement in Assam", "as": "অসহযোগ আন্দোলনত অসমৰ ভূমিকা" }, "popularity": 9 },
+                { "id": "civil-disobedience-cunningham", "name": { "en": "Civil Disobedience & Cunningham Circular", "as": "আইন অমান্য আন্দোলন আৰু কানিংহাম চাৰ্কুলাৰ" }, "popularity": 8 },
+                { "id": "quit-india-martyrs", "name": { "en": "Quit India Movement & Martyrs", "as": "ভাৰত ত্যাগ আন্দোলন আৰু শ্বহীদসকল" }, "popularity": 9 },
+                { "id": "line-system-immigration", "name": { "en": "Line System & Immigration Issues", "as": "লাইন প্ৰথা আৰু অনুপ্ৰৱেশ সমস্যা" }, "popularity": 8 },
+                { "id": "grouping-scheme-bordoloi", "name": { "en": "Grouping Scheme & Gopinath Bordoloi", "as": "গ্ৰুপিং আঁচনি আৰু গোপীনাথ বৰদলৈ" }, "popularity": 9 },
+                { "id": "partition-sylhet-referendum", "name": { "en": "Partition & Sylhet Referendum (1947)", "as": "দেশ বিভাজন আৰু চিলেট গণভোট" }, "popularity": 8 },
+                { "id": "reorganization-assam-accord", "name": { "en": "State Reorganization & Assam Accord (1985)", "as": "ৰাজ্য পুনৰ্গঠন আৰু অসম চুক্তি" }, "popularity": 9 }
               ]
             }
           ]
