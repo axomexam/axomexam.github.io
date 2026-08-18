@@ -81,24 +81,52 @@
           "name": { "en": "Indian History", "as": "ভাৰতীয় ইতিহাস" },
           "sections": [
             {
-              "id": "ancient-india-sec",
-              "name": { "en": "Ancient India", "as": "প্ৰাচীন ভাৰত" },
+              "id": "ancient-indian-history-sec",
+              "name": { "en": "Ancient Indian History", "as": "প্ৰাচীন ভাৰতীয় ইতিহাস" },
               "topics": [
-                { "id": "ancient-india", "name": { "en": "Indus Valley, Vedic & Maurya Era", "as": "সিন্ধু সভ্যতা, বৈদিক যুগ আৰু মৌৰ্য সাম্ৰাজ্য" }, "popularity": 8 }
+                { "id": "prehistoric-stone-age", "name": { "en": "Prehistoric Period & Stone Age", "as": "প্ৰাগঐতিহাসিক যুগ আৰু প্ৰস্তৰ যুগ" }, "popularity": 8 },
+                { "id": "indus-valley-civilization", "name": { "en": "Indus Valley Civilization", "as": "সিন্ধু সভ্যতা" }, "popularity": 9 },
+                { "id": "vedic-period", "name": { "en": "Vedic Period (Early & Later Vedic)", "as": "বৈদিক যুগ (প্ৰাৰম্ভিক আৰু পৰৱৰ্তী বৈদিক)" }, "popularity": 9 },
+                { "id": "jainism-buddhism", "name": { "en": "Rise of Jainism & Buddhism", "as": "জৈন আৰু বৌদ্ধ ধৰ্মৰ উত্থান" }, "popularity": 9 },
+                { "id": "mahajanapadas-magadha", "name": { "en": "Mahajanapadas & Magadha Empire", "as": "মহাজনপদ আৰু মগধ সাম্ৰাজ্য" }, "popularity": 8 },
+                { "id": "mauryan-empire", "name": { "en": "Mauryan Empire", "as": "মৌৰ্য সাম্ৰাজ্য" }, "popularity": 9 },
+                { "id": "post-mauryan-period", "name": { "en": "Post-Mauryan Period (Shungas, Kanvas, Indo-Greeks, Kushans, Satavahanas)", "as": "মৌৰ্যোত্তৰ যুগ (শুংগ, কান্ব, ইণ্ডো-গ্ৰীক, কুশান, সাতবাহন)" }, "popularity": 8 },
+                { "id": "gupta-empire", "name": { "en": "Gupta Empire", "as": "গুপ্ত সাম্ৰাজ্য" }, "popularity": 9 },
+                { "id": "post-gupta-period", "name": { "en": "Post-Gupta Period (Harshavardhana, Pallavas, Chalukyas, Rashtrakutas)", "as": "গুপ্তোত্তৰ যুগ (হৰ্ষবৰ্ধন, পল্লৱ, চালুক্য, ৰাষ্ট্ৰকূট)" }, "popularity": 8 },
+                { "id": "ancient-art-arch-lit", "name": { "en": "Ancient Indian Art, Architecture & Literature", "as": "প্ৰাচীন ভাৰতীয় কলা, স্থাপত্য আৰু সাহিত্য" }, "popularity": 8 }
               ]
             },
             {
-              "id": "medieval-india-sec",
-              "name": { "en": "Medieval India", "as": "মধ্যযুগীয় ভাৰত" },
+              "id": "medieval-indian-history-sec",
+              "name": { "en": "Medieval Indian History", "as": "মধ্যযুগীয় ভাৰতীয় ইতিহাস" },
               "topics": [
-                { "id": "medieval-india", "name": { "en": "Delhi Sultanate & Mughal Empire", "as": "দিল্লী চুলতানি আৰু মোগল সাম্ৰাজ্য" }, "popularity": 8 }
+                { "id": "tripartite-struggle-dynasties", "name": { "en": "Tripartite Struggle & Early Medieval Dynasties", "as": "ত্ৰিপাক্ষিক সংঘাত আৰু প্ৰাৰম্ভিক মধ্যযুগীয় ৰাজবংশসমূহ" }, "popularity": 8 },
+                { "id": "chola-south-kingdoms", "name": { "en": "Chola Empire & South Indian Kingdoms", "as": "চোল সাম্ৰাজ্য আৰু দক্ষিণ ভাৰতৰ ৰাজ্যসমূহ" }, "popularity": 8 },
+                { "id": "turkish-invasions", "name": { "en": "Turkish Invasions (Mahmud of Ghazni & Muhammad Ghori)", "as": "তুৰ্কী আক্ৰমণ (মাহমুদ গজনী আৰু মহম্মদ ঘোৰী)" }, "popularity": 8 },
+                { "id": "delhi-sultanate", "name": { "en": "Delhi Sultanate (Slave, Khilji, Tughlaq, Sayyid, Lodi Dynasties)", "as": "দিল্লী চুলতানি (দাস, খিলজী, তুঘলক, চৈয়দ, লোডী বংশ)" }, "popularity": 9 },
+                { "id": "vijayanagar-bahmani", "name": { "en": "Vijayanagar & Bahmani Kingdoms", "as": "বিজয়নগৰ আৰু বাহমণি ৰাজ্য" }, "popularity": 8 },
+                { "id": "bhakti-sufi-movements", "name": { "en": "Bhakti & Sufi Movements", "as": "ভক্তি আৰু চুফী আন্দোলন" }, "popularity": 8 },
+                { "id": "mughal-empire-admin", "name": { "en": "Mughal Empire (Babur to Aurangzeb) & Administration", "as": "মোগল সাম্ৰাজ্য (বাবৰৰ পৰা ঔৰংজেৱলৈ) আৰু প্ৰশাসন" }, "popularity": 9 },
+                { "id": "maratha-empire-peshwas", "name": { "en": "Maratha Empire & Peshwas", "as": "মাৰাঠা সাম্ৰাজ্য আৰু পেশ্বৱাসকল" }, "popularity": 8 },
+                { "id": "later-mughals-regional-states", "name": { "en": "Later Mughals & Rise of Regional States", "as": "পৰৱৰ্তী মোগল আৰু আঞ্চলিক ৰাজ্যসমূহৰ উত্থান" }, "popularity": 7 },
+                { "id": "advent-of-europeans", "name": { "en": "Advent of European Trading Companies", "as": "ইউৰোপীয় বাণিজ্যিক কোম্পানীসমূহৰ আগমন" }, "popularity": 8 }
               ]
             },
             {
-              "id": "modern-india-sec",
-              "name": { "en": "Modern India", "as": "আধুনিক ভাৰত" },
+              "id": "modern-indian-history-sec",
+              "name": { "en": "Modern Indian History", "as": "আধুনিক ভাৰতীয় ইতিহাস" },
               "topics": [
-                { "id": "modern-india", "name": { "en": "Indian National Movement (1857-1947)", "as": "ভাৰতীয় জাতীয় আন্দোলন (১৮৫৭-১৯৪৭)" }, "popularity": 9 }
+                { "id": "british-conquest-plassey-buxar", "name": { "en": "British Conquest & Consolidation (Plassey & Buxar)", "as": "ব্ৰিটিছ বিজয় আৰু বিস্তাৰ (পলাশী আৰু বক্সাৰ যুদ্ধ)" }, "popularity": 9 },
+                { "id": "british-economic-land-policies", "name": { "en": "British Economic & Land Revenue Policies", "as": "ব্ৰিটিছ অৰ্থনৈতিক আৰু ভূমি ৰাজহ নীতি" }, "popularity": 8 },
+                { "id": "socio-religious-reforms", "name": { "en": "Socio-Religious Reform Movements", "as": "সামাজিক-ধাৰ্মিক সংস্কাৰ আন্দোলন" }, "popularity": 8 },
+                { "id": "revolt-of-1857", "name": { "en": "Revolt of 1857", "as": "১৮৫৭ চনৰ মহাবিদ্ৰোহ" }, "popularity": 9 },
+                { "id": "nationalism-inc-formation", "name": { "en": "Rise of Indian Nationalism & Formation of INC", "as": "ভাৰতীয় জাতীয়তাবাদৰ উত্থান আৰু কংগ্ৰেছৰ গঠন" }, "popularity": 9 },
+                { "id": "partition-bengal-swadeshi", "name": { "en": "Partition of Bengal & Swadeshi Movement", "as": "বঙ্গভঙ্গ আৰু স্বদেশী আন্দোলন" }, "popularity": 8 },
+                { "id": "revolutionary-movements", "name": { "en": "Revolutionary Freedom Movements", "as": "বিপ্লৱী স্বাধীনতা সংগ্ৰাম" }, "popularity": 8 },
+                { "id": "gandhian-era-movements", "name": { "en": "Gandhian Era & Major Mass Movements (Non-Cooperation, Civil Disobedience, Quit India)", "as": "গান্ধীবাদী যুগ আৰু গণ আন্দোলন (অসহযোগ, আইন অমান্য, ভাৰত ত্যাগ)" }, "popularity": 10 },
+                { "id": "subhas-bose-ina", "name": { "en": "Subhas Chandra Bose & Azad Hind Fauj (INA)", "as": "সুভাষ চন্দ্ৰ বসু আৰু আজাদ হিন্দ ফৌজ" }, "popularity": 9 },
+                { "id": "constitutional-developments-acts", "name": { "en": "Constitutional Developments & Acts (1909, 1919, 1935)", "as": "সাংবিধানিক বিকাশ আৰু আইনসমূহ (১৯০৯, ১৯১৯, ১৯৩৫)" }, "popularity": 8 },
+                { "id": "mountbatten-partition-independence", "name": { "en": "Mountbatten Plan, Partition & Independence (1947)", "as": "মাউণ্টবেটেন পৰিকল্পনা, দেশ বিভাজন আৰু স্বাধীনতা (১৯৪৭)" }, "popularity": 9 }
               ]
             }
           ]
