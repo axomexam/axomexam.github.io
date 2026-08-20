@@ -1,7 +1,8 @@
 /* ============================================================
    axomexam — app.js
    Application logic: i18n, navigation, routing, rendering,
-   search, Q&A reader, Math Engine (Assamese + English), and Mock Tests.
+   search, Q&A reader, Math Engine (Assamese + English), Mock Tests,
+   and Robust Multi-Page Zero-Blank-Page A4 PDF Exporter.
    Default UI Language: English ("en").
    ============================================================ */
 
@@ -85,12 +86,20 @@
     }
   }
 
-  /* Universal content extractor supporting both JSON schemas */
-  function extractField(item, fieldName) {
+  /* Universal content extractor supporting all JSON schemas & forced languages */
+  function extractField(item, fieldName, forcedLang) {
     if (!item) return "";
-    const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
-    
-    // Direct language key
+    const targetLang = forcedLang || ((state.mock && state.mock.testLang) ? state.mock.testLang : state.lang);
+    const longLang = targetLang === "en" ? "english" : "assamese";
+
+    // Direct object with english/assamese key
+    if (item[longLang] && typeof item[longLang] === "object") {
+      if (item[longLang][fieldName] !== undefined) return String(item[longLang][fieldName]);
+      const shortF = fieldName === "question" ? "q" : fieldName === "answer" ? "a" : fieldName === "explanation" ? "exp" : "";
+      if (shortF && item[longLang][shortF] !== undefined) return String(item[longLang][shortF]);
+    }
+
+    // Direct language key (e.g., question_as, question_en)
     const directKey = `${fieldName}_${targetLang}`;
     if (item[directKey] !== undefined && item[directKey] !== null) return String(item[directKey]);
 
@@ -101,7 +110,7 @@
       if (item[shortDirect] !== undefined && item[shortDirect] !== null) return String(item[shortDirect]);
     }
 
-    // Object format
+    // Object format (item.q.as / item.question.en)
     const candidateKeys = [fieldName];
     if (fieldName === "question") candidateKeys.push("q", "question_text");
     if (fieldName === "answer") candidateKeys.push("a", "ans");
@@ -124,7 +133,7 @@
                    : Number.isInteger(item.correct_index) ? item.correct_index
                    : -1;
       if (idx >= 0) {
-        const opts = getOptionsList(item);
+        const opts = getOptionsList(item, targetLang);
         if (opts[idx] !== undefined) return opts[idx];
       }
     }
@@ -138,16 +147,21 @@
     return "";
   }
 
-  function localizeContent(obj) {
+  function localizeContent(obj, forcedLang) {
     if (obj == null) return "";
     if (typeof obj === "string") return obj;
-    const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
+    const targetLang = forcedLang || ((state.mock && state.mock.testLang) ? state.mock.testLang : state.lang);
     return obj[targetLang] || obj.as || obj.en || "";
   }
 
-  function getOptionsList(item) {
+  function getOptionsList(item, forcedLang) {
     if (!item) return [];
-    const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
+    const targetLang = forcedLang || ((state.mock && state.mock.testLang) ? state.mock.testLang : state.lang);
+    const longLang = targetLang === "en" ? "english" : "assamese";
+
+    if (item[longLang] && Array.isArray(item[longLang].options)) {
+      return item[longLang].options.map(String);
+    }
 
     if (Array.isArray(item.options) && item.options.length) {
       return item.options.map(opt => {
@@ -290,7 +304,7 @@
     return { categories: cats, topicMap, topicIndex };
   }
 
-  /* ================= Navigation rendering ================= */
+  /* ================= Navigation helpers ================= */
   function catColor(id) {
     const c = state.categories.find((x) => x.id === id);
     return (c && c.color) || (typeof CATEGORY_COLORS !== "undefined" ? (CATEGORY_COLORS[id] || CATEGORY_COLORS.default) : "#0ea5e9");
@@ -868,7 +882,7 @@
             </div>
             ${explanation ? `
               <div class="qa-exp" style="margin-top:6px;font-size:0.84rem;color:var(--ink-muted,#64748b);padding-left:32px;">
-                <b>ব্যাখ্যা:</b> ${formatMath(explanation)}
+                <b>${state.lang === "as" ? "ব্যাখ্যা" : "Explanation"}:</b> ${formatMath(explanation)}
               </div>` : ""
             }
           </article>`;
@@ -969,7 +983,6 @@
       const n = start + i + 1;
       const qtext = extractField(item, "question");
       const atext = extractField(item, "answer");
-      const options = getOptionsList(item);
 
       return `
         <article class="qa-card read-item" data-n="${n}">
@@ -977,15 +990,6 @@
             <span class="qno">${n}</span>
             <span class="qtext">${formatMath(qtext)}</span>
           </div>
-          ${options.length ? `
-            <div class="qa-options" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:6px;margin:8px 0 8px 32px;">
-              ${options.map((opt, optIdx) => `
-                <div style="font-size:0.85rem;color:var(--ink-soft);background:var(--bg-subtle,#f8fafc);padding:5px 8px;border-radius:4px;border:1px solid var(--border,#e2e8f0);">
-                  <b>(${String.fromCharCode(65 + optIdx)})</b> ${formatMath(opt)}
-                </div>
-              `).join("")}
-            </div>` : ""
-          }
           <div class="qa-a">
             <span class="a-label">${t("topic.answer")}:</span>
             <span class="a-body">${formatMath(atext)}</span>
@@ -1285,6 +1289,221 @@
     observeReveals();
   }
 
+  /* ================= Robust Multi-Page Zero-Blank-Page PDF Exporter ================= */
+  function showPdfDownloadModal(rec) {
+    const existing = $("#pdf-lang-modal");
+    if (existing) existing.remove();
+
+    const modal = document.createElement("div");
+    modal.id = "pdf-lang-modal";
+    modal.className = "read-modal";
+    modal.innerHTML = `
+      <div class="read-modal-backdrop"></div>
+      <div class="read-modal-box" role="dialog" style="max-width:420px; padding:24px; text-align:center; height:max-content; margin:auto; border-radius:14px;">
+        <div style="font-size:2rem; margin-bottom:8px;">📄</div>
+        <h3 style="font-size:1.15rem; margin-bottom:6px;">Download PDF Notes</h3>
+        <p style="color:var(--ink-soft,#64748b); font-size:.9rem; margin-bottom:18px;">
+          <b>${escapeHtml(localized(rec.title))}</b><br>Select your preferred language / ভাষা বাছক:
+        </p>
+        <div style="display:flex; flex-direction:column; gap:10px;">
+          <button class="btn btn-primary" id="pdf-btn-as" style="padding:12px; font-weight:700; font-size:.95rem;">
+            অসমীয়া মাধ্যম (Assamese PDF)
+          </button>
+          <button class="btn btn-outline" id="pdf-btn-en" style="padding:12px; font-weight:700; font-size:.95rem;">
+            English Medium (English PDF)
+          </button>
+          <button class="btn btn-ghost" id="pdf-btn-cancel" style="padding:8px; font-size:.85rem; margin-top:4px;">
+            Cancel
+          </button>
+        </div>
+      </div>`;
+    document.body.appendChild(modal);
+
+    const close = () => modal.remove();
+    $("#pdf-btn-cancel", modal).addEventListener("click", close);
+    $(".read-modal-backdrop", modal).addEventListener("click", close);
+
+    $("#pdf-btn-as", modal).addEventListener("click", () => {
+      close();
+      generateTopicPdf(rec, "as");
+    });
+    $("#pdf-btn-en", modal).addEventListener("click", () => {
+      close();
+      generateTopicPdf(rec, "en");
+    });
+  }
+
+  async function generateTopicPdf(rec, lang) {
+    toast(lang === "as" ? "PDF প্ৰস্তুত হৈ আছে, অনুগ্ৰহ কৰি ৰওক..." : "Generating PDF, please wait...");
+    let qs = rec.topic.questions || [];
+
+    if (!qs.length) {
+      try {
+        const data = await API.getTopic(rec.cat.id, rec.topic.id);
+        if (data) {
+          qs = Array.isArray(data) ? data : (data.questions || []);
+          rec.topic.questions = qs;
+        }
+      } catch (err) {
+        console.error("PDF fetch error:", err);
+      }
+    }
+
+    if (!qs.length) {
+      toast(lang === "as" ? "এই বিষয়ত প্ৰশ্ন উপলব্ধ নহয়!" : "No questions available in this topic!");
+      return;
+    }
+
+    const titleText = rec.title[lang] || rec.title.as || rec.title.en || rec.topic.id;
+    const catText = rec.cat.name[lang] || rec.cat.name.as || rec.cat.name.en || "";
+    const langLabel = lang === "as" ? "অসমীয়া মাধ্যম" : "English Medium";
+    const ansLabel = lang === "as" ? "উত্তৰ" : "Answer";
+    const expLabel = lang === "as" ? "ব্যাখ্যা" : "Explanation";
+    const fontFam = lang === "as" ? "'Noto Serif Bengali', serif" : "'Plus Jakarta Sans', sans-serif";
+
+    // Build Hidden Multi-Page Container
+    const pdfContainer = document.createElement("div");
+    pdfContainer.id = "dynamic-pdf-export-container";
+    pdfContainer.style.cssText = "position:absolute; left:-9999px; top:-9999px; width:794px; background:#fff;";
+
+    // Page 1 gets 7 questions (due to detailed header), subsequent pages get 8 questions
+    const p1Count = 7;
+    const subCount = 8;
+    const pages = [];
+    pages.push(qs.slice(0, p1Count));
+
+    let cur = p1Count;
+    while (cur < qs.length) {
+      pages.push(qs.slice(cur, cur + subCount));
+      cur += subCount;
+    }
+
+    const totalPages = pages.length;
+
+    pages.forEach((pageItems, pageIdx) => {
+      const pageNum = pageIdx + 1;
+      const isFirst = pageNum === 1;
+
+      const pageDiv = document.createElement("div");
+      pageDiv.className = "pdf-page-node";
+      pageDiv.style.cssText = `
+        width: 794px;
+        height: 1122px;
+        max-height: 1122px;
+        background: #ffffff;
+        color: #0f172a;
+        padding: 24px 34px;
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+        font-family: ${fontFam};
+      `;
+
+      // Header HTML
+      const headerHtml = isFirst ? `
+        <div style="display:flex; justify-content:space-between; align-items:flex-end; border-bottom:2px solid #4f46e5; padding-bottom:8px; margin-bottom:14px; position:relative; z-index:2; height:48px; box-sizing:border-box;">
+          <div style="display:flex; flex-direction:column; gap:2px;">
+            <span style="font-size:15px; font-weight:800; color:#0f172a; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(titleText)}</span>
+            <span style="font-size:10.5px; color:#64748b; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(catText)} • ${lang === "as" ? "মুঠ প্ৰশ্ন" : "Total Questions"}: ${qs.length} | ${langLabel}</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:6px;">
+            <div style="width:22px; height:22px; background:#4f46e5; color:#ffffff; border-radius:5px; display:flex; align-items:center; justify-content:center; font-size:13px; font-weight:800; font-family:Arial, sans-serif;">A</div>
+            <div style="font-size:15px; font-weight:800; color:#4f46e5; letter-spacing:-0.3px;">axomexam</div>
+          </div>
+        </div>
+      ` : `
+        <div style="display:flex; justify-content:flex-end; align-items:center; border-bottom:1.5px solid #e2e8f0; padding-bottom:6px; margin-bottom:14px; position:relative; z-index:2; height:34px; box-sizing:border-box;">
+          <div style="display:flex; align-items:center; gap:6px;">
+            <div style="width:22px; height:22px; background:#4f46e5; color:#ffffff; border-radius:5px; display:flex; align-items:center; justify-content:center; font-size:13px; font-weight:800; font-family:Arial, sans-serif;">A</div>
+            <div style="font-size:15px; font-weight:800; color:#4f46e5; letter-spacing:-0.3px;">axomexam</div>
+          </div>
+        </div>
+      `;
+
+      // Content HTML
+      const startNo = isFirst ? 1 : p1Count + (pageIdx - 1) * subCount + 1;
+      const questionsHtml = pageItems.map((item, i) => {
+        const qText = extractField(item, "question", lang);
+        const aText = extractField(item, "answer", lang);
+        const exp = extractField(item, "explanation", lang);
+
+        return `
+          <div style="margin-bottom:12px; padding-bottom:8px; border-bottom:1px dashed #cbd5e1;">
+            <div style="font-size:13px; font-weight:700; color:#0f172a; line-height:1.5; margin-bottom:3px;">
+              ${startNo + i}. ${formatMath(qText)}
+            </div>
+            <div style="font-size:12.5px; font-weight:600; color:#334155; margin-left:20px; line-height:1.45; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">
+              ${ansLabel}: ${formatMath(aText)}
+            </div>
+            ${exp ? `
+              <div style="font-size:11px; color:#64748b; margin-top:2px; margin-left:20px; line-height:1.4; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">
+                ${expLabel}: ${formatMath(exp)}
+              </div>` : ""}
+          </div>
+        `;
+      }).join("");
+
+      pageDiv.innerHTML = `
+        <!-- Watermark on EVERY Page -->
+        <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%) rotate(-35deg); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; pointer-events:none; user-select:none; z-index:0; opacity:0.075; width:140%;">
+          <div style="width:110px; height:110px; background:#4f46e5; color:#ffffff; border-radius:24px; display:flex; align-items:center; justify-content:center; font-size:68px; font-weight:800; font-family:Arial, sans-serif;">A</div>
+          <div style="font-size:62px; font-weight:800; color:#4f46e5; letter-spacing:2px; line-height:1;">axomexam</div>
+        </div>
+
+        <!-- Header -->
+        ${headerHtml}
+
+        <!-- Content Area -->
+        <div style="position:relative; z-index:2; height:980px; overflow:hidden;">
+          ${questionsHtml}
+        </div>
+
+        <!-- Footer -->
+        <div style="position:absolute; bottom:12px; left:34px; right:34px; border-top:1px solid #e2e8f0; padding-top:6px; display:flex; justify-content:space-between; align-items:center; font-size:9.5px; color:#64748b; font-family:'Plus Jakarta Sans', sans-serif; z-index:2;">
+          <span>© axomexam — Free Educational Notes for Assam Competitive Exams</span>
+          <span style="position:absolute; left:50%; transform:translateX(-50%); font-weight:700; color:#334155; font-size:10px;">— Page ${pageNum} of ${totalPages} —</span>
+          <span>axomexam.in</span>
+        </div>
+      `;
+
+      pdfContainer.appendChild(pageDiv);
+    });
+
+    document.body.appendChild(pdfContainer);
+    renderMathJax(pdfContainer);
+
+    try {
+      if (!window.jspdf || !window.html2canvas) {
+        throw new Error("jsPDF or html2canvas library is missing.");
+      }
+
+      const { jsPDF } = window.jspdf;
+      const pdf = new jsPDF('p', 'mm', 'a4');
+      const pageElements = pdfContainer.querySelectorAll('.pdf-page-node');
+
+      for (let i = 0; i < pageElements.length; i++) {
+        const canvas = await window.html2canvas(pageElements[i], {
+          scale: 2,
+          useCORS: true,
+          logging: false
+        });
+
+        const imgData = canvas.toDataURL('image/jpeg', 0.98);
+        if (i > 0) pdf.addPage('a4', 'p');
+        pdf.addImage(imgData, 'JPEG', 0, 0, 210, 297);
+      }
+
+      pdf.save(`${rec.topic.id}-${lang}.pdf`);
+      pdfContainer.remove();
+      toast(lang === "as" ? "PDF ডাউনলোড সফল হ'ল!" : "PDF downloaded successfully!");
+    } catch (err) {
+      console.error("PDF generation failed:", err);
+      pdfContainer.remove();
+      toast("Failed to generate PDF. Check browser console.");
+    }
+  }
+
   /* ================= Downloads page ================= */
   async function renderDownloadsPage(main) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
@@ -1293,20 +1512,8 @@
     try {
       files = await API.listDownloads();
     } catch (err) {
-      console.error("Failed to load downloads:", err);
+      console.error("Failed to load manual downloads:", err);
     }
-
-    const card = (f) => `
-      <div class="dl-item">
-        <span class="dl-ico">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
-        </span>
-        <span class="dl-meta">
-          <b>${escapeHtml(f.name.replace(/\.pdf$/i, "").replace(/[-_]+/g, " "))}</b>
-          <span>PDF</span>
-        </span>
-        <a class="dl-btn dl-save" href="${f.url}" download target="_blank" rel="noopener">${t("dl.download")}</a>
-      </div>`;
 
     main.innerHTML = `
       <div class="page-head">
@@ -1314,11 +1521,69 @@
         <h1>${t("page.downloads.title")}</h1>
         <p class="page-desc">${t("page.downloads.sub")}</p>
       </div>
-      <section class="section" style="padding-bottom:44px;">
-        ${files.length
-          ? `<div class="dl-list">${files.map(card).join("")}</div>`
-          : `<div class="info-panel"><p>${t("downloads.none")}</p></div>`}
-      </section>`;
+
+      <!-- Section 1: All Interactive Topics Dynamic PDF Generator -->
+      <section class="section" style="padding-bottom:28px;">
+        <div class="section-head">
+          <div>
+            <h2>Topic-wise Q&A PDF Notes</h2>
+            <p class="sec-sub">Download complete bilingual questions & answers for each topic in PDF format.</p>
+          </div>
+        </div>
+        <div class="dl-list" id="topic-pdf-list">
+          ${state.topicIndex.map((rec, i) => `
+            <div class="dl-item reveal" data-delay="${(i % 12) * 30}">
+              <span class="dl-ico">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+              </span>
+              <span class="dl-meta">
+                <b>${escapeHtml(localized(rec.title))}</b>
+                <span>${escapeHtml(localized(rec.cat.name))}${rec.sub ? " • " + escapeHtml(localized(rec.sub.name)) : ""} • ${rec.nQuestions || 0} Questions</span>
+              </span>
+              <button class="dl-btn dl-save topic-pdf-btn" data-path="${escapeHtml(rec.path)}" type="button">
+                ${t("dl.download")}
+              </button>
+            </div>
+          `).join("")}
+        </div>
+      </section>
+
+      <!-- Section 2: Manual Uploaded Special PDF Notes -->
+      <section class="section" style="padding-bottom:44px; border-top:1px solid var(--border,#e2e8f0); padding-top:30px;">
+        <div class="section-head">
+          <div>
+            <h2>Special E-Books & Hand-written Notes</h2>
+            <p class="sec-sub">Direct official PDFs and curated study materials.</p>
+          </div>
+        </div>
+        ${files.length ? `
+          <div class="dl-list">
+            ${files.map(f => `
+              <div class="dl-item">
+                <span class="dl-ico">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+                </span>
+                <span class="dl-meta">
+                  <b>${escapeHtml(f.name.replace(/\.pdf$/i, "").replace(/[-_]+/g, " "))}</b>
+                  <span>PDF Document</span>
+                </span>
+                <a class="dl-btn dl-save" href="${f.url}" download target="_blank" rel="noopener">${t("dl.download")}</a>
+              </div>
+            `).join("")}
+          </div>
+        ` : `<div class="info-panel"><p>No extra manual PDF uploaded yet.</p></div>`}
+      </section>
+    `;
+
+    $$(".topic-pdf-btn", main).forEach(btn => {
+      btn.addEventListener("click", () => {
+        const path = btn.dataset.path;
+        const rec = state.topicMap[path];
+        if (rec) showPdfDownloadModal(rec);
+      });
+    });
+
+    observeReveals();
   }
 
   /* ================= Previous Year Questions ================= */
@@ -1518,34 +1783,36 @@
 
     const rawList = [];
     results.forEach((r) => {
-      if (!r || !r.d || !Array.isArray(r.d.questions)) return;
-      r.d.questions.forEach((qItem) => {
-        const qTextObj = (typeof qItem.q === "object") ? qItem.q : {
-          en: qItem.question_en || qItem.q || "",
-          as: qItem.question_as || qItem.q || ""
+      if (!r || !r.d) return;
+      const list = Array.isArray(r.d) ? r.d : (Array.isArray(r.d.questions) ? r.d.questions : []);
+      list.forEach((qItem) => {
+        const qTextObj = {
+          en: extractField(qItem, "question", "en"),
+          as: extractField(qItem, "question", "as")
         };
 
-        const aTextObj = (typeof qItem.a === "object") ? qItem.a : {
-          en: qItem.answer_en || qItem.a || "",
-          as: qItem.answer_as || qItem.a || ""
+        const aTextObj = {
+          en: extractField(qItem, "answer", "en"),
+          as: extractField(qItem, "answer", "as")
         };
 
+        const optsEn = getOptionsList(qItem, "en");
+        const optsAs = getOptionsList(qItem, "as");
         let optionsList = [];
-        if (Array.isArray(qItem.options) && qItem.options.length) {
-          optionsList = qItem.options;
-        } else if (Array.isArray(qItem.options_en) || Array.isArray(qItem.options_as)) {
-          const len = Math.max((qItem.options_en || []).length, (qItem.options_as || []).length);
-          for (let i = 0; i < len; i++) {
+
+        if (optsEn.length || optsAs.length) {
+          const maxLen = Math.max(optsEn.length, optsAs.length);
+          for (let i = 0; i < maxLen; i++) {
             optionsList.push({
-              en: (qItem.options_en && qItem.options_en[i]) || "",
-              as: (qItem.options_as && qItem.options_as[i]) || ""
+              en: optsEn[i] || "",
+              as: optsAs[i] || ""
             });
           }
         }
 
         const correctIdx = Number.isInteger(qItem.correct_index) 
           ? qItem.correct_index 
-          : (Number.isInteger(qItem.correct) ? qItem.correct : 0);
+          : (Number.isInteger(qItem.correct) ? qItem.correct : (Number.isInteger(qItem.answer) ? qItem.answer : 0));
 
         rawList.push({
           q: qTextObj,
@@ -2147,9 +2414,10 @@
       state.topicIndex.forEach(async (rec) => {
         try {
           const d = await API.getTopic(rec.cat.id, rec.topic.id);
-          if (d && Array.isArray(d.questions)) {
-            rec.nQuestions = d.questions.length;
-            rec.topic.questions = d.questions;
+          if (d) {
+            const list = Array.isArray(d) ? d : (Array.isArray(d.questions) ? d.questions : []);
+            rec.nQuestions = list.length;
+            rec.topic.questions = list;
             
             const el = document.getElementById(`count-${rec.path.replace(/\//g, '-')}`);
             if (el) el.textContent = `${rec.nQuestions} ${t("topic.questions")}`;
@@ -2209,7 +2477,7 @@
     const apply = (theme) => {
       if (theme === "dark") html.setAttribute("data-theme", "dark");
       else html.removeAttribute("data-theme");
-      try { localStorage.setItem("axomexam-theme", theme); } catch (e) { /* ignore */ }
+      try { localStorage.setItem("axomexam-theme", theme); } catch (e) { }
     };
     $$(".theme-toggle").forEach((btn) => {
       if (btn.dataset.themeBound) return;
