@@ -133,20 +133,86 @@
         },
         {
           "id": "polity",
-          "name": { "en": "Indian Polity & Constitution", "as": "ভাৰতীয় ৰাজনীতি আৰু সংবিধান" },
+          "name": { "en": "Political Science", "as": "ৰাজনীতি বিজ্ঞান" },
           "sections": [
             {
               "id": "constitution-sec",
-              "name": { "en": "Constitution Framework", "as": "সংবিধানৰ গাঁথনি" },
+              "name": { "en": "Constitution", "as": "সংবিধান" },
               "topics": [
-                { "id": "fundamental-rights", "name": { "en": "Preamble, Rights & Duties", "as": "প্ৰস্তাৱনা, মৌলিক অধিকাৰ আৰু কৰ্তব্য" }, "popularity": 8 }
+                { "id": "historical-background-making-sources", "name": { "en": "Historical Background, Making & Sources", "as": "ঐতিহাসিক পটভূমি, গঠন আৰু উৎসসমূহ" }, "popularity": 9 },
+                { "id": "preamble", "name": { "en": "Preamble", "as": "প্ৰস্তাৱনা" }, "popularity": 9 },
+                { "id": "citizenship", "name": { "en": "Citizenship", "as": "নাগৰিকত্ব" }, "popularity": 8 },
+                { "id": "fundamental-rights", "name": { "en": "Fundamental Rights", "as": "মৌলিক অধিকাৰ" }, "popularity": 10 },
+                { "id": "directive-principles-state-policy", "name": { "en": "Directive Principles of State Policy", "as": "ৰাষ্ট্ৰ পৰিচালনাৰ নিৰ্দেশাত্মক নীতি" }, "popularity": 9 },
+                { "id": "fundamental-duties", "name": { "en": "Fundamental Duties", "as": "মৌলিক কৰ্তব্য" }, "popularity": 9 },
+                { "id": "constitutional-amendments", "name": { "en": "Important Constitutional Amendments", "as": "গুৰুত্বপূৰ্ণ সাংবিধানিক সংশোধনীসমূহ" }, "popularity": 9 }
               ]
             },
             {
-              "id": "governance-sec",
-              "name": { "en": "Executive & Judiciary", "as": "কাৰ্যপালিকা আৰু ন্যায়পালিকা" },
+              "id": "union-govt-sec",
+              "name": { "en": "Union Govt", "as": "কেন্দ্ৰীয় চৰকাৰ" },
               "topics": [
-                { "id": "indian-governance", "name": { "en": "President, Parliament & Supreme Court", "as": "ৰাষ্ট্ৰপতি, সংসদ আৰু উচ্চতম ন্যায়ালয়" }, "popularity": 8 }
+                { "id": "president-vice-president", "name": { "en": "President & Vice-President", "as": "ৰাষ্ট্ৰপতি আৰু উপ-ৰাষ্ট্ৰপতি" }, "popularity": 9 },
+                { "id": "prime-minister-council-ministers", "name": { "en": "Prime Minister & Council of Ministers", "as": "প্ৰধানমন্ত্ৰী আৰু মন্ত্ৰী পৰিষদ" }, "popularity": 9 },
+                { "id": "parliament", "name": { "en": "Parliament", "as": "সংসদ" }, "popularity": 10 },
+                { "id": "attorney-general-india", "name": { "en": "Attorney General of India", "as": "ভাৰতৰ মহান্যায়বাদী (Attorney General)" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "state-govt-sec",
+              "name": { "en": "State Govt", "as": "ৰাজ্যিক চৰকাৰ" },
+              "topics": [
+                { "id": "governor", "name": { "en": "Governor", "as": "ৰাজ্যপাল" }, "popularity": 9 },
+                { "id": "chief-minister-state-council-ministers", "name": { "en": "Chief Minister & State Council of Ministers", "as": "মুখ্যমন্ত্ৰী আৰু ৰাজ্যিক মন্ত্ৰী পৰিষদ" }, "popularity": 8 },
+                { "id": "state-legislature", "name": { "en": "State Legislature", "as": "ৰাজ্যিক বিধানমণ্ডল" }, "popularity": 9 },
+                { "id": "advocate-general-state", "name": { "en": "Advocate General of the State", "as": "ৰাজ্যৰ মহাধিবক্তা (Advocate General)" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "judiciary-sec",
+              "name": { "en": "Judiciary", "as": "ন্যায়পালিকা" },
+              "topics": [
+                { "id": "supreme-court-india", "name": { "en": "Supreme Court of India", "as": "ভাৰতৰ উচ্চতম ন্যায়ালয়" }, "popularity": 9 },
+                { "id": "high-courts", "name": { "en": "High Courts", "as": "উচ্চ ন্যায়ালয়সমূহ" }, "popularity": 9 },
+                { "id": "subordinate-courts-legal-aid", "name": { "en": "Subordinate Courts & Legal Aid", "as": "অধস্তন আদালত আৰু আইনী সাহায্য" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "assam-specifics-sec",
+              "name": { "en": "Assam Specifics", "as": "অসম সম্পৰ্কীয় ৰাজনীতি" },
+              "topics": [
+                { "id": "sixth-schedule", "name": { "en": "Sixth Schedule", "as": "ষষ্ঠ অনুসূচী" }, "popularity": 10 },
+                { "id": "article-371b", "name": { "en": "Article 371B", "as": "অনুচ্ছেদ ৩৭১(খ)" }, "popularity": 9 },
+                { "id": "assam-accord-clause-6", "name": { "en": "Assam Accord & Clause 6 implementation", "as": "অসম চুক্তি আৰু ৬ নং দফাৰ ৰূপায়ণ" }, "popularity": 9 },
+                { "id": "border-issues-admin-setup", "name": { "en": "Border issues and administrative setup", "as": "সীমা বিবাদ আৰু প্ৰশাসনিক গাঁথনি" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "local-govt-sec",
+              "name": { "en": "Local Govt", "as": "স্থানীয় চৰকাৰ" },
+              "topics": [
+                { "id": "panchayati-raj-system", "name": { "en": "Panchayati Raj System", "as": "পঞ্চায়তী ৰাজ ব্যৱস্থা" }, "popularity": 9 },
+                { "id": "municipalities-urban-local-bodies", "name": { "en": "Municipalities & Urban Local Bodies", "as": "পৌৰসভা আৰু নগৰীয়া স্থানীয় নিকায়" }, "popularity": 8 },
+                { "id": "assam-panchayat-act-local-governance", "name": { "en": "Assam Panchayat Act & Local Self Governance", "as": "অসম পঞ্চায়ত আইন আৰু স্থানীয় স্বায়ত্ত্ব শাসন" }, "popularity": 9 }
+              ]
+            },
+            {
+              "id": "constitutional-bodies-sec",
+              "name": { "en": "Constitutional Bodies", "as": "সাংবিধানিক সংস্থাসমূহ" },
+              "topics": [
+                { "id": "election-commission-india-state", "name": { "en": "Election Commission of India & State Election Commission", "as": "ভাৰতৰ নিৰ্বাচন আয়োগ আৰু ৰাজ্যিক নিৰ্বাচন আয়োগ" }, "popularity": 9 },
+                { "id": "upsc-apsc", "name": { "en": "Union Public Service Commission & Assam Public Service Commission", "as": "ইউনিয়ন পাব্লিক চাৰ্ভিচ কমিছন (UPSC) আৰু অসম লোকসেৱা আয়োগ (APSC)" }, "popularity": 9 },
+                { "id": "cag-india", "name": { "en": "Comptroller and Auditor General of India", "as": "ভাৰতৰ নিয়ন্ত্ৰক আৰু মহাগাণনিক (CAG)" }, "popularity": 8 },
+                { "id": "finance-commission-india-state", "name": { "en": "Finance Commission of India & State Finance Commission", "as": "ভাৰতৰ বিত্ত আয়োগ আৰু ৰাজ্যিক বিত্ত আয়োগ" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "emergency-sec",
+              "name": { "en": "Emergency", "as": "জৰুৰীকালীন ব্যৱস্থা" },
+              "topics": [
+                { "id": "national-emergency", "name": { "en": "National Emergency", "as": "ৰাষ্ট্ৰীয় জৰুৰীকালীন অৱস্থা" }, "popularity": 8 },
+                { "id": "presidents-rule", "name": { "en": "President’s Rule", "as": "ৰাষ্ট্ৰপতি শাসন" }, "popularity": 8 },
+                { "id": "financial-emergency", "name": { "en": "Financial Emergency", "as": "বিত্তীয় জৰুৰীকালীন অৱস্থা" }, "popularity": 8 }
               ]
             }
           ]
