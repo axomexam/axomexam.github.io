@@ -425,6 +425,7 @@
       </li>`;
   }
 
+  /* ================= Mobile Menu Builder (Submit Added Below Download) ================= */
   function buildMobileNav() {
     const nav = $("#mobile-nav");
     if (!nav) return;
@@ -456,23 +457,33 @@
         </li>`;
     });
 
-    const downloadItem = `
-      <li class="m-download">
-        <a class="m-item" href="#/downloads">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
-          ${escapeHtml(t("nav.downloads"))}
-        </a>
-      </li>`;
     const prevYearItem = `
       <li class="m-py">
-        <a class="m-item" href="#/previous-year">
+        <a class="m-item ${activePath === "previous-year" ? "active" : ""}" href="#/previous-year">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6"/><path d="M9 16h4"/><path d="M7 3v3"/><path d="M17 3v3"/><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M8 9h8a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1z"/></svg>
           ${escapeHtml(t("nav.previousYear"))}
         </a>
       </li>`;
+
+    const downloadItem = `
+      <li class="m-download">
+        <a class="m-item ${activePath === "downloads" ? "active" : ""}" href="#/downloads">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
+          ${escapeHtml(t("nav.downloads"))}
+        </a>
+      </li>`;
+
+    const submitItem = `
+      <li class="m-submit" style="margin-top:4px;">
+        <a class="m-item ${activePath === "submit" ? "active" : ""}" href="#/submit" style="display:flex;align-items:center;gap:10px;margin:6px 0 2px;padding:13px 14px;border-radius:12px;background:var(--bg-subtle,#f1f5f9);color:var(--ink,#0f172a);font-weight:700;border:1px solid var(--border,#e2e8f0);">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          ${escapeHtml(t("nav.submit"))}
+        </a>
+      </li>`;
+
     const ci = state.categories.findIndex((c) => c.id === "computer");
-    if (ci !== -1) catParts.splice(ci + 1, 0, prevYearItem, downloadItem);
-    else catParts.push(prevYearItem, downloadItem);
+    if (ci !== -1) catParts.splice(ci + 1, 0, prevYearItem, downloadItem, submitItem);
+    else catParts.push(prevYearItem, downloadItem, submitItem);
 
     nav.innerHTML = catParts.join("");
 
@@ -1767,68 +1778,262 @@
       </section>`;
   }
 
-  /* ================= Submit Q&A page ================= */
+  /* ================= Submit Q&A page (App-like, Fit-to-screen, StaticForms Integrated) ================= */
   function renderSubmitPage(main) {
     main.innerHTML = `
-      <div class="page-head">
-        <nav class="breadcrumb"><a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("page.submit.title")}</span></nav>
-        <h1>${t("page.submit.title")}</h1>
-        <p class="page-desc">${t("page.submit.sub")}</p>
+      <!-- Paytm-Style 2-Second Center Success Popup -->
+      <div class="success-modal-overlay" id="successPopup" style="position:fixed;inset:0;background:rgba(15,23,42,0.6);backdrop-filter:blur(5px);display:none;place-items:center;z-index:99999;opacity:0;transition:opacity 0.2s ease;">
+        <div class="success-modal-card" style="background:#ffffff;border-radius:24px;padding:30px 24px;width:82%;max-width:300px;text-align:center;box-shadow:0 25px 50px -12px rgba(0,0,0,0.25);">
+          <div class="tick-circle" style="width:68px;height:68px;background:#10b981;border-radius:50%;display:grid;place-items:center;margin:0 auto 16px;box-shadow:0 8px 24px -4px rgba(16,185,129,0.5);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="width:36px;height:36px;">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+          </div>
+          <h3 id="pop-title" style="font-size:1.25rem;font-weight:800;color:#0f172a;margin-bottom:4px;">Sent Successfully!</h3>
+          <p id="pop-desc" style="font-size:0.84rem;color:#64748b;font-weight:600;">Your message has been received.</p>
+        </div>
       </div>
-      <section class="section" style="padding-bottom:44px;">
-        <div class="submit-panel">
-          <label>${t("submit.name")}
-            <input type="text" id="sub-name" maxlength="60" />
-          </label>
-          <label>${t("submit.topic")}
-            <input type="text" id="sub-topic" maxlength="120" placeholder="${escapeHtml(t("submit.topic.ph"))}" />
-          </label>
-          <label>${t("submit.question")}
-            <textarea id="sub-question" rows="4" maxlength="2000" placeholder="${escapeHtml(t("submit.question.ph"))}"></textarea>
-          </label>
-          <label>${t("submit.answer")}
-            <textarea id="sub-answer" rows="3" maxlength="2000" placeholder="${escapeHtml(t("submit.answer.ph"))}"></textarea>
-          </label>
-          <p class="submit-hint">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01"/><path d="M11 12h1v4h1"/></svg>
-            ${t("submit.hint")}
-          </p>
-          <div class="submit-actions">
-            <button class="btn btn-accent" id="sub-wa" type="button">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.1 13.6c-.2.6-1.2 1.1-1.7 1.2-.4 0-.9.2-3-.6-2.5-1-4.1-3.6-4.2-3.8-.1-.2-1-1.4-1-2.6s.6-1.8.9-2.1c.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.4.2.6.8 2 .9 2.1.1.2.1.3 0 .5-.1.2-.1.3-.3.5l-.4.5c-.2.2-.3.3-.1.6.2.3.9 1.4 1.9 2.3 1.3 1.1 2.3 1.5 2.7 1.6.3.2.5.1.7-.1.2-.2.8-.9 1-1.3.2-.3.4-.3.7-.2.3.1 1.7.8 2 1 .3.2.5.3.6.4.1.2.1.7-.1 1.3z"/></svg>
-              ${t("submit.sendWhatsApp")}
-            </button>
-            <button class="btn btn-outline" id="sub-tg" type="button">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M21.9 4.6 18.9 19c-.2 1-.8 1.2-1.7.8l-4.6-3.4-2.2 2.1c-.2.2-.5.4-.9.4l.3-4.7 8.6-7.8c.4-.3-.1-.5-.6-.2L6.4 12.7 1.8 11.3c-1-.3-1-.9.2-1.4L20.5 3.2c.8-.3 1.5.2 1.4 1.4z"/></svg>
-              ${t("submit.sendTelegram")}
-            </button>
+
+      <div class="form-wrapper" style="width:100%;max-width:540px;margin:20px auto 40px;background:var(--card-bg,#fff);border-radius:20px;border:1px solid var(--line,#e2e8f0);box-shadow:0 12px 36px -8px rgba(15,23,42,0.08);padding:30px 24px;display:flex;flex-direction:column;">
+        <div class="form-header" style="display:flex;flex-direction:column;align-items:center;text-align:center;margin-bottom:22px;gap:12px;">
+          <!-- Language Toggle Top-Centered -->
+          <div class="lang-toggle" style="display:inline-flex;background:#f1f5f9;border:1px solid var(--line,#e2e8f0);border-radius:99px;padding:3px;">
+            <button type="button" class="lang-btn active" id="btn-en" style="border:none;background:var(--primary,#4f46e5);color:#fff;padding:5px 14px;border-radius:99px;font-size:0.78rem;font-weight:700;cursor:pointer;">EN</button>
+            <button type="button" class="lang-btn" id="btn-as" style="border:none;background:transparent;color:var(--ink-soft,#475569);padding:5px 14px;border-radius:99px;font-size:0.78rem;font-weight:700;cursor:pointer;">অসমীয়া</button>
+          </div>
+
+          <!-- Titles Fully Centered -->
+          <div class="form-title" style="text-align:center;width:100%;">
+            <h2 id="txt-title" style="font-size:1.35rem;font-weight:800;color:var(--ink,#0f172a);letter-spacing:-0.4px;">Submit Q&A Note</h2>
+            <p id="txt-desc" style="margin-top:4px;font-size:0.84rem;color:var(--ink-soft,#475569);">Contribute notes or feedback for aspirants.</p>
           </div>
         </div>
-      </section>`;
 
-    const send = (channel) => {
-      const name = $("#sub-name").value.trim();
-      const topic = $("#sub-topic").value.trim();
-      const question = $("#sub-question").value.trim();
-      const answer = $("#sub-answer").value.trim();
-      if (!topic || !question) {
-        toast(t("submit.need"));
+        <form id="qaForm" class="form-body" style="display:flex;flex-direction:column;gap:14px;">
+          <input type="hidden" name="apiKey" value="sf_304846a9720d7354070bd57c">
+          <input type="text" name="honeypot" style="display:none" tabindex="-1" autocomplete="off">
+
+          <div class="field">
+            <label id="lbl-name" for="name" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Rahul Borah" required style="width:100%;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);font-size:0.92rem;outline:none;box-sizing:border-box;">
+          </div>
+
+          <div class="field">
+            <label id="lbl-email" for="email" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="name@example.com" required style="width:100%;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);font-size:0.92rem;outline:none;box-sizing:border-box;">
+          </div>
+
+          <div class="field">
+            <label id="lbl-topic" for="subject" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;">Subject / Topic (Optional)</label>
+            <input type="text" id="subject" name="subject" placeholder="e.g. Assam History, Science" style="width:100%;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);font-size:0.92rem;outline:none;box-sizing:border-box;">
+          </div>
+
+          <div class="field">
+            <label id="lbl-question" for="question" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;">Question (Optional)</label>
+            <textarea id="question" name="question" rows="2" placeholder="Type the question here..." style="width:100%;min-height:55px;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);font-size:0.92rem;outline:none;resize:vertical;box-sizing:border-box;"></textarea>
+          </div>
+
+          <div class="field">
+            <label id="lbl-answer" for="answer" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;">Answer / Message (Optional)</label>
+            <textarea id="answer" name="answer" rows="3" placeholder="Provide complete answer, steps or message..." style="width:100%;min-height:90px;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);font-size:0.92rem;outline:none;resize:vertical;box-sizing:border-box;"></textarea>
+          </div>
+
+          <!-- Compact Security Math Captcha Section -->
+          <div class="captcha-container" style="background:var(--bg-soft,#f8fafc);border:1px solid var(--line,#e2e8f0);border-radius:12px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between;gap:8px;">
+            <div class="captcha-left" style="display:flex;align-items:center;gap:8px;">
+              <span class="captcha-label" id="lbl-captcha" style="font-size:0.8rem;font-weight:700;color:var(--ink-soft,#475569);">Security:</span>
+              <div class="captcha-badge-wrap" style="display:inline-flex;align-items:center;gap:4px;background:#ffffff;padding:3px 6px 3px 8px;border-radius:8px;border:1px solid #c7d2fe;">
+                <span class="captcha-math" id="math-expression" style="font-size:0.92rem;font-weight:800;color:var(--primary,#4f46e5);user-select:none;">2 + 3 = ?</span>
+                <button type="button" class="captcha-refresh-btn" id="btn-refresh-captcha" title="Change Captcha" style="border:none;background:transparent;color:var(--ink-faint,#94a3b8);width:24px;height:24px;display:grid;place-items:center;cursor:pointer;">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;">
+                    <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.3"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <input type="number" id="captcha-answer" placeholder="Ans" required style="width:80px;text-align:center;font-weight:700;font-size:0.92rem;padding:7px 8px;background:#ffffff;border:1.5px solid #cbd5e1;border-radius:8px;outline:none;-moz-appearance:textfield;">
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-submit" id="submitBtn" style="width:100%;padding:14px 20px;font-size:0.95rem;font-weight:700;border-radius:12px;margin-top:4px;cursor:pointer;">
+            <span id="txt-btn">Submit</span>
+          </button>
+
+          <div id="form-error" class="error-msg" style="padding:10px 12px;border-radius:12px;font-size:0.84rem;font-weight:600;display:none;text-align:center;background:#fef2f2;color:#dc2626;border:1px solid #fecaca;"></div>
+        </form>
+      </div>
+      <style>
+        input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+      </style>
+    `;
+
+    const i18nSubmit = {
+      en: {
+        title: "Submit Q&A Note",
+        desc: "Contribute notes or feedback for aspirants.",
+        name: "Your Name",
+        namePh: "e.g. Rahul Borah",
+        email: "Email Address",
+        emailPh: "name@example.com",
+        topic: "Subject / Topic (Optional)",
+        topicPh: "e.g. Assam History, Science",
+        question: "Question (Optional)",
+        questionPh: "Type the question here...",
+        answer: "Answer / Message (Optional)",
+        answerPh: "Provide complete answer, steps or message...",
+        captcha: "Security:",
+        captchaPh: "Ans",
+        btn: "Submit",
+        submitting: "Submitting...",
+        captchaError: "Incorrect math answer! Please try again.",
+        popTitle: "Sent Successfully!",
+        popDesc: "Your message has been received."
+      },
+      as: {
+        title: "প্ৰশ্ন প্ৰেৰণ কৰক (Submit Q&A)",
+        desc: "প্ৰশ্ন বা বাৰ্তা জমা দি শিক্ষাৰ্থীসকলক সহায় কৰক।",
+        name: "আপোনাৰ নাম",
+        namePh: "যেনে: ৰাহুল বৰা",
+        email: "ইমেইল ঠিকনা",
+        emailPh: "name@example.com",
+        topic: "বিষয় / অধ্যায় (ঐচ্ছিক)",
+        topicPh: "যেনে: অসম বুৰঞ্জী, বিজ্ঞান",
+        question: "প্ৰশ্ন (ঐচ্ছিক)",
+        questionPh: "প্ৰশ্নটো ইয়াত লিখক...",
+        answer: "উত্তৰ বা বাৰ্তা (ঐচ্ছিক)",
+        answerPh: "সম্পূৰ্ণ উত্তৰ বা বাৰ্তা ইয়াত লিখক...",
+        captcha: "সুৰক্ষা:",
+        captchaPh: "উত্তৰ",
+        btn: "জমা দিয়ক",
+        submitting: "প্ৰেৰণ হৈ আছে...",
+        captchaError: "অংকৰ উত্তৰ ভুল হৈছে! পুনৰ চেষ্টা কৰক।",
+        popTitle: "সফলতাৰে প্ৰেৰণ হ'ল!",
+        popDesc: "আপোনাৰ বাৰ্তা লাভ কৰা হৈছে।"
+      }
+    };
+
+    let currentFormLang = "en";
+    let correctCaptcha = 0;
+
+    function generateCaptcha() {
+      const num1 = Math.floor(Math.random() * 9) + 1;
+      const num2 = Math.floor(Math.random() * 9) + 1;
+      correctCaptcha = num1 + num2;
+      $("#math-expression").textContent = `${num1} + ${num2} = ?`;
+      $("#captcha-answer").value = "";
+    }
+
+    function updateFormLanguage(lang) {
+      currentFormLang = lang;
+      const btnEn = $("#btn-en");
+      const btnAs = $("#btn-as");
+
+      if (lang === "en") {
+        btnEn.style.background = "var(--primary,#4f46e5)";
+        btnEn.style.color = "#fff";
+        btnAs.style.background = "transparent";
+        btnAs.style.color = "var(--ink-soft,#475569)";
+      } else {
+        btnAs.style.background = "var(--primary,#4f46e5)";
+        btnAs.style.color = "#fff";
+        btnEn.style.background = "transparent";
+        btnEn.style.color = "var(--ink-soft,#475569)";
+      }
+
+      const tObj = i18nSubmit[lang];
+      $("#txt-title").textContent = tObj.title;
+      $("#txt-desc").textContent = tObj.desc;
+      $("#lbl-name").textContent = tObj.name;
+      $("#name").placeholder = tObj.namePh;
+      $("#lbl-email").textContent = tObj.email;
+      $("#email").placeholder = tObj.emailPh;
+      $("#lbl-topic").textContent = tObj.topic;
+      $("#subject").placeholder = tObj.topicPh;
+      $("#lbl-question").textContent = tObj.question;
+      $("#question").placeholder = tObj.questionPh;
+      $("#lbl-answer").textContent = tObj.answer;
+      $("#answer").placeholder = tObj.answerPh;
+      $("#lbl-captcha").textContent = tObj.captcha;
+      $("#captcha-answer").placeholder = tObj.captchaPh;
+      $("#txt-btn").textContent = tObj.btn;
+      $("#pop-title").textContent = tObj.popTitle;
+      $("#pop-desc").textContent = tObj.popDesc;
+    }
+
+    function showSuccessPopup() {
+      const popup = $("#successPopup");
+      popup.style.display = "grid";
+      popup.style.opacity = "1";
+      setTimeout(() => {
+        popup.style.opacity = "0";
+        setTimeout(() => { popup.style.display = "none"; }, 200);
+      }, 2000);
+    }
+
+    $("#btn-en").addEventListener("click", () => updateFormLanguage("en"));
+    $("#btn-as").addEventListener("click", () => updateFormLanguage("as"));
+    $("#btn-refresh-captcha").addEventListener("click", generateCaptcha);
+
+    $("#qaForm").addEventListener("submit", async function(e) {
+      e.preventDefault();
+
+      const errorEl = $("#form-error");
+      errorEl.style.display = "none";
+
+      const userCaptcha = parseInt($("#captcha-answer").value, 10);
+      if (userCaptcha !== correctCaptcha) {
+        errorEl.textContent = i18nSubmit[currentFormLang].captchaError;
+        errorEl.style.display = "block";
+        generateCaptcha();
         return;
       }
-      const lines = [
-        "axomexam Q&A Submission",
-        `Name: ${name || "-"}`,
-        `Topic: ${topic}`,
-        `Question: ${question}`,
-        answer ? `Answer: ${answer}` : "",
-      ].filter(Boolean).join("\n");
-      const url = channel === "wa"
-        ? `https://wa.me/?text=${encodeURIComponent(lines)}`
-        : `https://t.me/share/url?url=${encodeURIComponent("https://axomexam.in")}&text=${encodeURIComponent(lines)}`;
-      window.open(url, "_blank", "noopener");
-    };
-    $("#sub-wa").addEventListener("click", () => send("wa"));
-    $("#sub-tg").addEventListener("click", () => send("tg"));
+
+      const submitBtn = $("#submitBtn");
+      const txtBtn = $("#txt-btn");
+      submitBtn.disabled = true;
+      txtBtn.textContent = i18nSubmit[currentFormLang].submitting;
+
+      const topicVal = $("#subject").value.trim() || "General Note";
+      const questionVal = $("#question").value.trim() || "N/A";
+      const answerVal = $("#answer").value.trim() || "N/A";
+
+      const payload = {
+        apiKey: "sf_304846a9720d7354070bd57c",
+        name: $("#name").value.trim(),
+        email: $("#email").value.trim(),
+        subject: `[axomexam Submission] ${topicVal}`,
+        message: `Topic: ${topicVal}\n\nQuestion:\n${questionVal}\n\nAnswer/Message:\n${answerVal}`
+      };
+
+      try {
+        const response = await fetch("https://api.staticforms.dev/submit", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+
+        const data = await response.json();
+        if (data.success) {
+          $("#qaForm").reset();
+          generateCaptcha();
+          showSuccessPopup();
+        } else {
+          errorEl.textContent = data.message || "Failed to submit. Please try again.";
+          errorEl.style.display = "block";
+        }
+      } catch (err) {
+        errorEl.textContent = "Network error. Please check your connection.";
+        errorEl.style.display = "block";
+      } finally {
+        submitBtn.disabled = false;
+        txtBtn.textContent = i18nSubmit[currentFormLang].btn;
+      }
+    });
+
+    generateCaptcha();
   }
 
   /* ================= MOCK TEST SYSTEM ================= */
