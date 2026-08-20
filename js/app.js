@@ -3,7 +3,7 @@
    Application logic: i18n, navigation, routing, rendering,
    search, Q&A reader, Math Engine (Assamese + English), Mock Tests,
    Dedicated Downloads Search (Centered Mobile), Permanent "Download" Button,
-   Direct SVG Brand Logo & 19-Q per Page A4 PDF Exporter.
+   Direct SVG Brand Logo & Natural Flow-Based A4 PDF Exporter.
    Default UI Language: English ("en").
    ============================================================ */
 
@@ -28,7 +28,7 @@
 
   /* Direct Vector Brand Logo (Prevents any misalignment/font drop in PDF) */
   const BRAND_LOGO_SVG = `
-    <svg width="112" height="26" viewBox="0 0 112 26" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
+    <svg width="118" height="26" viewBox="0 0 118 26" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
       <defs>
         <linearGradient id="gradLogo" x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" stop-color="#6366f1" />
@@ -37,7 +37,7 @@
       </defs>
       <rect width="26" height="26" rx="6.5" fill="url(#gradLogo)"/>
       <text x="13" y="18" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="14.5" text-anchor="middle">A</text>
-      <text x="33" y="18.5" fill="#090d16" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="14" letter-spacing="-0.3">axomexam</text>
+      <text x="34" y="18.5" fill="#090d16" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="14" letter-spacing="-0.3">axomexam</text>
     </svg>
   `;
 
@@ -95,7 +95,7 @@
     }
   }
 
-  /* Universal content extractor */
+  /* Universal content extractor supporting all JSON schemas */
   function extractField(item, fieldName, forcedLang) {
     if (!item) return "";
     const targetLang = forcedLang || ((state.mock && state.mock.testLang) ? state.mock.testLang : state.lang);
@@ -1343,7 +1343,7 @@
     });
   }
 
-  /* ================= 19 Questions Per Page Standard A4 PDF Generator ================= */
+  /* ================= Natural Flow-Based A4 PDF Exporter ================= */
   async function generateTopicPdf(rec, lang) {
     if (state.isGeneratingPdf) return;
     state.isGeneratingPdf = true;
@@ -1377,22 +1377,55 @@
     const expLabel = lang === "as" ? "ব্যাখ্যা" : "Explanation";
     const fontFam = lang === "as" ? "'Noto Serif Bengali', serif" : "'Plus Jakarta Sans', sans-serif";
 
+    // Measurement Div to get real pixel height of each question
+    const testMeasureDiv = document.createElement("div");
+    testMeasureDiv.style.cssText = "position:absolute; left:-9999px; top:-9999px; visibility:hidden; width:726px; font-family:" + fontFam + ";";
+    document.body.appendChild(testMeasureDiv);
+
+    const renderedCards = qs.map((item, idx) => {
+      const qText = extractField(item, "question", lang);
+      const aText = extractField(item, "answer", lang);
+      const exp = extractField(item, "explanation", lang);
+
+      const row = document.createElement("div");
+      row.className = "qa-row";
+      row.style.cssText = "border-bottom:1px dashed #e2e8f0; padding-bottom:4px; margin-bottom:7px; line-height:1.4;";
+      row.innerHTML = `
+        <div style="font-size:12.8px; font-weight:700; color:#0f172a; margin-bottom:1px;">${idx + 1}. ${formatMath(qText)}</div>
+        <div style="font-size:12.2px; font-weight:600; color:#334155; margin-left:18px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${ansLabel}: ${formatMath(aText)}</div>
+        ${exp ? `<div style="font-size:10.5px; color:#64748b; margin-top:1px; margin-left:18px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${expLabel}: ${formatMath(exp)}</div>` : ""}
+      `;
+      testMeasureDiv.appendChild(row);
+      const h = row.offsetHeight + 7;
+      return { html: row.outerHTML, height: h };
+    });
+    testMeasureDiv.remove();
+
+    // Natural Flow-based Page Slicing (Max Content Height = 1010px)
+    const pages = [];
+    let currentPage = [];
+    let currentHeight = 0;
+    const pageMaxHeight = 1010;
+
+    renderedCards.forEach(card => {
+      if (currentHeight + card.height > pageMaxHeight && currentPage.length > 0) {
+        pages.push(currentPage);
+        currentPage = [card.html];
+        currentHeight = card.height;
+      } else {
+        currentPage.push(card.html);
+        currentHeight += card.height;
+      }
+    });
+    if (currentPage.length > 0) pages.push(currentPage);
+
+    const totalPages = pages.length;
+
     const pdfContainer = document.createElement("div");
     pdfContainer.id = "dynamic-pdf-export-container";
     pdfContainer.style.cssText = "position:absolute; left:-9999px; top:-9999px; width:794px; background:#fff;";
 
-    // Exactly 19 Questions per Page fit perfectly in A4 format
-    const perPageItems = 19;
-    const pages = [];
-    let cur = 0;
-    while (cur < qs.length) {
-      pages.push(qs.slice(cur, cur + perPageItems));
-      cur += perPageItems;
-    }
-
-    const totalPages = pages.length;
-
-    pages.forEach((pageItems, pageIdx) => {
+    pages.forEach((pageRows, pageIdx) => {
       const pageNum = pageIdx + 1;
       const isFirst = pageNum === 1;
 
@@ -1404,64 +1437,43 @@
         max-height: 1122px;
         background: #ffffff;
         color: #0f172a;
-        padding: 16px 30px 14px 30px;
+        padding: 20px 34px 14px 34px;
         box-sizing: border-box;
         position: relative;
         overflow: hidden;
         margin: 0;
+        display: flex;
+        flex-direction: column;
         font-family: ${fontFam};
       `;
 
       // Header HTML: Solid table alignment to guarantee brand logo doesn't shift
       const headerHtml = isFirst ? `
-        <div style="border-bottom:1.5px solid #4f46e5; padding-bottom:5px; margin-bottom:10px; height:42px; box-sizing:border-box;">
+        <div style="border-bottom:2px solid #4f46e5; padding-bottom:6px; margin-bottom:4px; height:46px; box-sizing:border-box;">
           <table style="width:100%; border-collapse:collapse;">
             <tr>
               <td style="vertical-align:bottom; text-align:left;">
-                <div style="font-size:14px; font-weight:800; color:#0f172a; line-height:1.15; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(titleText)}</div>
-                <div style="font-size:10px; color:#64748b; margin-top:2px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(catText)} • ${lang === "as" ? "মুঠ প্ৰশ্ন" : "Total Questions"}: ${qs.length} | ${langLabel}</div>
+                <div style="font-size:15px; font-weight:800; color:#0f172a; line-height:1.2; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(titleText)}</div>
+                <div style="font-size:10.5px; color:#64748b; margin-top:2px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(catText)} • ${lang === "as" ? "মুঠ প্ৰশ্ন" : "Total Questions"}: ${qs.length} | ${langLabel}</div>
               </td>
-              <td style="vertical-align:bottom; text-align:right; width:120px; white-space:nowrap;">
+              <td style="vertical-align:bottom; text-align:right; width:135px; white-space:nowrap; padding-right:12px;">
                 ${BRAND_LOGO_SVG}
               </td>
             </tr>
           </table>
         </div>
       ` : `
-        <div style="border-bottom:1px solid #e2e8f0; padding-bottom:4px; margin-bottom:10px; height:30px; box-sizing:border-box;">
+        <div style="border-bottom:1.5px solid #e2e8f0; padding-bottom:6px; margin-bottom:4px; height:34px; box-sizing:border-box;">
           <table style="width:100%; border-collapse:collapse;">
             <tr>
               <td></td>
-              <td style="vertical-align:bottom; text-align:right; width:120px; white-space:nowrap;">
+              <td style="vertical-align:bottom; text-align:right; width:135px; white-space:nowrap; padding-right:12px;">
                 ${BRAND_LOGO_SVG}
               </td>
             </tr>
           </table>
         </div>
       `;
-
-      // 19 High-Density Compact Question Rows
-      const startNo = pageIdx * perPageItems + 1;
-      const questionsHtml = pageItems.map((item, i) => {
-        const qText = extractField(item, "question", lang);
-        const aText = extractField(item, "answer", lang);
-        const exp = extractField(item, "explanation", lang);
-
-        return `
-          <div style="margin-bottom:6px; padding-bottom:3px; border-bottom:1px dashed #f1f5f9; line-height:1.3;">
-            <div style="font-size:11.8px; font-weight:700; color:#0f172a; margin-bottom:1px;">
-              ${startNo + i}. ${formatMath(qText)}
-            </div>
-            <div style="font-size:11.2px; font-weight:600; color:#334155; margin-left:14px; font-family:'Noto Sans Bengali', sans-serif;">
-              ${ansLabel}: ${formatMath(aText)}
-            </div>
-            ${exp ? `
-              <div style="font-size:9.8px; color:#64748b; margin-top:1px; margin-left:14px; font-family:'Noto Sans Bengali', sans-serif;">
-                ${expLabel}: ${formatMath(exp)}
-              </div>` : ""}
-          </div>
-        `;
-      }).join("");
 
       pageDiv.innerHTML = `
         <!-- Watermark on EVERY Page -->
@@ -1473,15 +1485,15 @@
         <!-- Header -->
         ${headerHtml}
 
-        <!-- Content Area -->
-        <div style="position:relative; z-index:2; height:1015px; overflow:hidden;">
-          ${questionsHtml}
+        <!-- Natural Flow Content Area -->
+        <div style="position:relative; z-index:2; flex:1; display:flex; flex-direction:column; justify-content:flex-start; margin-top:8px; margin-bottom:8px;">
+          ${pageRows.join("")}
         </div>
 
         <!-- Footer -->
-        <div style="position:absolute; bottom:8px; left:30px; right:30px; border-top:1px solid #e2e8f0; padding-top:4px; display:flex; justify-content:space-between; align-items:center; font-size:9px; color:#64748b; font-family:'Plus Jakarta Sans', sans-serif; z-index:2;">
+        <div style="border-top:1px solid #e2e8f0; padding-top:4px; display:flex; justify-content:space-between; align-items:center; font-size:9.5px; color:#64748b; font-family:'Plus Jakarta Sans', sans-serif; position:relative; z-index:2;">
           <span>© axomexam — Free Educational Notes for Assam Competitive Exams</span>
-          <span style="position:absolute; left:50%; transform:translateX(-50%); font-weight:700; color:#334155; font-size:9.5px;">— Page ${pageNum} of ${totalPages} —</span>
+          <span style="position:absolute; left:50%; transform:translateX(-50%); font-weight:700; color:#334155; font-size:10px;">— Page ${pageNum} of ${totalPages} —</span>
           <span>axomexam.in</span>
         </div>
       `;
