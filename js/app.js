@@ -2,7 +2,8 @@
    axomexam — app.js
    Application logic: i18n, navigation, routing, rendering,
    search, Q&A reader, Math Engine (Assamese + English), Mock Tests,
-   Dedicated Downloads Search, Compact Mobile Modal & A4 PDF Exporter.
+   Dedicated Downloads Search (Centered Mobile), Permanent "Download" Button,
+   Direct SVG Brand Logo & 19-Q per Page A4 PDF Exporter.
    Default UI Language: English ("en").
    ============================================================ */
 
@@ -24,6 +25,21 @@
 
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+
+  /* Direct Vector Brand Logo (Prevents any misalignment/font drop in PDF) */
+  const BRAND_LOGO_SVG = `
+    <svg width="112" height="26" viewBox="0 0 112 26" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
+      <defs>
+        <linearGradient id="gradLogo" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#6366f1" />
+          <stop offset="100%" stop-color="#3b82f6" />
+        </linearGradient>
+      </defs>
+      <rect width="26" height="26" rx="6.5" fill="url(#gradLogo)"/>
+      <text x="13" y="18" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="14.5" text-anchor="middle">A</text>
+      <text x="33" y="18.5" fill="#090d16" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="14" letter-spacing="-0.3">axomexam</text>
+    </svg>
+  `;
 
   /* ================= i18n helpers ================= */
   function t(key) {
@@ -1327,6 +1343,7 @@
     });
   }
 
+  /* ================= 19 Questions Per Page Standard A4 PDF Generator ================= */
   async function generateTopicPdf(rec, lang) {
     if (state.isGeneratingPdf) return;
     state.isGeneratingPdf = true;
@@ -1364,16 +1381,13 @@
     pdfContainer.id = "dynamic-pdf-export-container";
     pdfContainer.style.cssText = "position:absolute; left:-9999px; top:-9999px; width:794px; background:#fff;";
 
-    // Dynamic Slicing based on real total questions
-    const p1Count = 14;
-    const subCount = 16;
+    // Exactly 19 Questions per Page fit perfectly in A4 format
+    const perPageItems = 19;
     const pages = [];
-    pages.push(qs.slice(0, p1Count));
-
-    let cur = p1Count;
+    let cur = 0;
     while (cur < qs.length) {
-      pages.push(qs.slice(cur, cur + subCount));
-      cur += subCount;
+      pages.push(qs.slice(cur, cur + perPageItems));
+      cur += perPageItems;
     }
 
     const totalPages = pages.length;
@@ -1390,7 +1404,7 @@
         max-height: 1122px;
         background: #ffffff;
         color: #0f172a;
-        padding: 22px 34px 20px 34px;
+        padding: 16px 30px 14px 30px;
         box-sizing: border-box;
         position: relative;
         overflow: hidden;
@@ -1400,51 +1414,49 @@
 
       // Header HTML: Solid table alignment to guarantee brand logo doesn't shift
       const headerHtml = isFirst ? `
-        <div style="border-bottom:2px solid #4f46e5; padding-bottom:6px; margin-bottom:12px; height:46px; box-sizing:border-box;">
+        <div style="border-bottom:1.5px solid #4f46e5; padding-bottom:5px; margin-bottom:10px; height:42px; box-sizing:border-box;">
           <table style="width:100%; border-collapse:collapse;">
             <tr>
               <td style="vertical-align:bottom; text-align:left;">
-                <div style="font-size:15px; font-weight:800; color:#0f172a; line-height:1.2; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(titleText)}</div>
-                <div style="font-size:10.5px; color:#64748b; margin-top:2px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(catText)} • ${lang === "as" ? "মুঠ প্ৰশ্ন" : "Total Questions"}: ${qs.length} | ${langLabel}</div>
+                <div style="font-size:14px; font-weight:800; color:#0f172a; line-height:1.15; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(titleText)}</div>
+                <div style="font-size:10px; color:#64748b; margin-top:2px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(catText)} • ${lang === "as" ? "মুঠ প্ৰশ্ন" : "Total Questions"}: ${qs.length} | ${langLabel}</div>
               </td>
-              <td style="vertical-align:bottom; text-align:right; width:130px; white-space:nowrap;">
-                <span style="display:inline-block; vertical-align:middle; width:22px; height:22px; background:#4f46e5; color:#ffffff; border-radius:5px; text-align:center; line-height:22px; font-size:13px; font-weight:800; font-family:Arial, sans-serif;">A</span>
-                <span style="display:inline-block; vertical-align:middle; font-size:15px; font-weight:800; color:#4f46e5; letter-spacing:-0.3px; margin-left:4px;">axomexam</span>
+              <td style="vertical-align:bottom; text-align:right; width:120px; white-space:nowrap;">
+                ${BRAND_LOGO_SVG}
               </td>
             </tr>
           </table>
         </div>
       ` : `
-        <div style="border-bottom:1.5px solid #e2e8f0; padding-bottom:5px; margin-bottom:12px; height:32px; box-sizing:border-box;">
+        <div style="border-bottom:1px solid #e2e8f0; padding-bottom:4px; margin-bottom:10px; height:30px; box-sizing:border-box;">
           <table style="width:100%; border-collapse:collapse;">
             <tr>
               <td></td>
-              <td style="vertical-align:bottom; text-align:right; width:130px; white-space:nowrap;">
-                <span style="display:inline-block; vertical-align:middle; width:20px; height:20px; background:#4f46e5; color:#ffffff; border-radius:4px; text-align:center; line-height:20px; font-size:12px; font-weight:800; font-family:Arial, sans-serif;">A</span>
-                <span style="display:inline-block; vertical-align:middle; font-size:14px; font-weight:800; color:#4f46e5; letter-spacing:-0.3px; margin-left:4px;">axomexam</span>
+              <td style="vertical-align:bottom; text-align:right; width:120px; white-space:nowrap;">
+                ${BRAND_LOGO_SVG}
               </td>
             </tr>
           </table>
         </div>
       `;
 
-      // Question Rows
-      const startNo = isFirst ? 1 : p1Count + (pageIdx - 1) * subCount + 1;
+      // 19 High-Density Compact Question Rows
+      const startNo = pageIdx * perPageItems + 1;
       const questionsHtml = pageItems.map((item, i) => {
         const qText = extractField(item, "question", lang);
         const aText = extractField(item, "answer", lang);
         const exp = extractField(item, "explanation", lang);
 
         return `
-          <div style="margin-bottom:8px; padding-bottom:5px; border-bottom:1px dashed #e2e8f0;">
-            <div style="font-size:12.5px; font-weight:700; color:#0f172a; line-height:1.4; margin-bottom:2px;">
+          <div style="margin-bottom:6px; padding-bottom:3px; border-bottom:1px dashed #f1f5f9; line-height:1.3;">
+            <div style="font-size:11.8px; font-weight:700; color:#0f172a; margin-bottom:1px;">
               ${startNo + i}. ${formatMath(qText)}
             </div>
-            <div style="font-size:12px; font-weight:600; color:#334155; margin-left:16px; line-height:1.35; font-family:'Noto Sans Bengali', sans-serif;">
+            <div style="font-size:11.2px; font-weight:600; color:#334155; margin-left:14px; font-family:'Noto Sans Bengali', sans-serif;">
               ${ansLabel}: ${formatMath(aText)}
             </div>
             ${exp ? `
-              <div style="font-size:10.5px; color:#64748b; margin-top:2px; margin-left:16px; line-height:1.3; font-family:'Noto Sans Bengali', sans-serif;">
+              <div style="font-size:9.8px; color:#64748b; margin-top:1px; margin-left:14px; font-family:'Noto Sans Bengali', sans-serif;">
                 ${expLabel}: ${formatMath(exp)}
               </div>` : ""}
           </div>
@@ -1462,14 +1474,14 @@
         ${headerHtml}
 
         <!-- Content Area -->
-        <div style="position:relative; z-index:2; height:1000px; overflow:hidden;">
+        <div style="position:relative; z-index:2; height:1015px; overflow:hidden;">
           ${questionsHtml}
         </div>
 
         <!-- Footer -->
-        <div style="position:absolute; bottom:12px; left:34px; right:34px; border-top:1px solid #e2e8f0; padding-top:5px; display:flex; justify-content:space-between; align-items:center; font-size:9.5px; color:#64748b; font-family:'Plus Jakarta Sans', sans-serif; z-index:2;">
+        <div style="position:absolute; bottom:8px; left:30px; right:30px; border-top:1px solid #e2e8f0; padding-top:4px; display:flex; justify-content:space-between; align-items:center; font-size:9px; color:#64748b; font-family:'Plus Jakarta Sans', sans-serif; z-index:2;">
           <span>© axomexam — Free Educational Notes for Assam Competitive Exams</span>
-          <span style="position:absolute; left:50%; transform:translateX(-50%); font-weight:700; color:#334155; font-size:10px;">— Page ${pageNum} of ${totalPages} —</span>
+          <span style="position:absolute; left:50%; transform:translateX(-50%); font-weight:700; color:#334155; font-size:9.5px;">— Page ${pageNum} of ${totalPages} —</span>
           <span>axomexam.in</span>
         </div>
       `;
@@ -1515,7 +1527,7 @@
     }
   }
 
-  /* ================= Downloads page with Search Bar ================= */
+  /* ================= Downloads page with Centered Mobile Search ================= */
   async function renderDownloadsPage(main) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
 
@@ -1533,19 +1545,19 @@
         <p class="page-desc">${t("page.downloads.sub")}</p>
       </div>
 
-      <!-- Section 1: Dynamic Topic-wise Q&A PDF Notes with Dedicated Search -->
+      <!-- Section 1: Dynamic Topic-wise Q&A PDF Notes -->
       <section class="section" style="padding-bottom:28px;">
-        <div class="section-head" style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:12px;">
+        <div class="section-head" style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:14px;">
           <div>
             <h2>Topic-wise Q&A PDF Notes</h2>
             <p class="sec-sub">Download complete bilingual questions & answers for each topic in PDF format.</p>
           </div>
           
-          <!-- Compact Search Bar for Downloads -->
-          <div style="position:relative; width:100%; max-width:280px;">
-            <input type="search" id="dl-search-input" placeholder="Search PDF by topic..." autocomplete="off" spellcheck="false"
-                   style="width:100%; padding:8px 12px 8px 34px; border-radius:20px; border:1px solid var(--border,#cbd5e1); background:var(--bg,#ffffff); color:var(--ink,#0f172a); font-size:0.85rem; outline:none; box-sizing:border-box;" />
-            <svg style="position:absolute; left:12px; top:50%; transform:translateY(-50%); width:14px; height:14px; color:var(--ink-soft,#64748b);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <!-- Perfectly Centered Mobile & Desktop Search Bar -->
+          <div style="width:100%; max-width:320px; margin:0 auto; position:relative;">
+            <input type="search" id="dl-search-input" placeholder="Search PDF by topic name..." autocomplete="off" spellcheck="false"
+                   style="width:100%; padding:9px 12px 9px 36px; border-radius:20px; border:1px solid var(--border,#cbd5e1); background:var(--bg,#ffffff); color:var(--ink,#0f172a); font-size:0.85rem; outline:none; box-sizing:border-box; box-shadow:0 1px 3px rgba(0,0,0,0.05);" />
+            <svg style="position:absolute; left:12px; top:50%; transform:translateY(-50%); width:15px; height:15px; color:var(--ink-soft,#64748b);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
           </div>
         </div>
 
@@ -1559,8 +1571,9 @@
                 <b>${escapeHtml(localized(rec.title))}</b>
                 <span>${escapeHtml(localized(rec.cat.name))}${rec.sub ? " • " + escapeHtml(localized(rec.sub.name)) : ""} • ${rec.nQuestions || 0} Questions</span>
               </span>
-              <button class="dl-btn dl-save topic-pdf-btn" data-path="${escapeHtml(rec.path)}" type="button">
-                ${t("dl.download")}
+              <!-- Permanent English "Download" Button Text (Never Translated) -->
+              <button class="dl-btn dl-save topic-pdf-btn" data-path="${escapeHtml(rec.path)}" type="button" style="text-transform:none;">
+                Download
               </button>
             </div>
           `).join("")}
@@ -1589,7 +1602,8 @@
                   <b>${escapeHtml(f.name.replace(/\.pdf$/i, "").replace(/[-_]+/g, " "))}</b>
                   <span>PDF Document</span>
                 </span>
-                <a class="dl-btn dl-save" href="${f.url}" download target="_blank" rel="noopener">${t("dl.download")}</a>
+                <!-- Permanent English "Download" Link Text -->
+                <a class="dl-btn dl-save" href="${f.url}" download target="_blank" rel="noopener" style="text-transform:none;">Download</a>
               </div>
             `).join("")}
           </div>
@@ -1719,7 +1733,8 @@
           <b>${escapeHtml(f.name.replace(/\.pdf$/i, "").replace(/[-_]+/g, " "))}</b>
           <span>${escapeHtml(localized(exam.name))} • ${escapeHtml(year)}</span>
         </span>
-        <a class="dl-btn dl-save" href="${f.url}" download target="_blank" rel="noopener">${t("dl.download")}</a>
+        <!-- Permanent English "Download" Link Text -->
+        <a class="dl-btn dl-save" href="${f.url}" download target="_blank" rel="noopener" style="text-transform:none;">Download</a>
       </div>`;
 
     main.innerHTML = `
@@ -2477,7 +2492,7 @@
             const totalEl = $("#stat-total-questions");
             if (totalEl) totalEl.textContent = `${loadedTotal.toLocaleString()}+`;
 
-            // Realtime update Total PDF Notes Count in Hero Section
+            // Realtime Total PDF Count
             const totalPdfNotes = state.topicIndex.length + (state.topicIndex.filter((r) => r.pdf).length);
             const pdfEl = $("#stat-total-pdfs");
             if (pdfEl) pdfEl.textContent = `${totalPdfNotes}+`;
