@@ -2,7 +2,7 @@
    axomexam — app.js
    Application logic: i18n, navigation, routing, rendering,
    search, Q&A reader, Math Engine (Assamese + English), Mock Tests,
-   and Robust Multi-Page Zero-Blank-Page A4 PDF Exporter.
+   Dedicated Downloads Search, Compact Mobile Modal & A4 PDF Exporter.
    Default UI Language: English ("en").
    ============================================================ */
 
@@ -19,6 +19,7 @@
     lang: "as",            // reading language for Q&A content ("en" | "as")
     uiLang: "en",          // default UI language ("en" | "as")
     mock: null,            // active mock test session
+    isGeneratingPdf: false // prevent multiple rapid PDF download clicks
   };
 
   const $ = (sel, root = document) => root.querySelector(sel);
@@ -41,7 +42,7 @@
     return obj[l] || obj.en || obj.as || "";
   }
 
-  /* ================= Math & Formula Formatter (Supports English & Assamese) ================= */
+  /* ================= Math & Formula Formatter ================= */
   function formatMath(str) {
     if (str == null) return "";
     let s = String(str);
@@ -49,20 +50,12 @@
     const hasLatex = /\$[^$]+\$|\\\([^\\]+\\\)/.test(s);
     if (!hasLatex) {
       s = escapeHtml(s);
-
-      // Square root: sqrt(x) or √(x)
       s = s.replace(/sqrt\(([^)]+)\)/gi, '&radic;<span style="text-decoration:overline;padding-left:1px;">$1</span>');
       s = s.replace(/√\(([^)]+)\)/g, '&radic;<span style="text-decoration:overline;padding-left:1px;">$1</span>');
-
-      // Powers / Superscripts: Includes English 0-9 & Assamese ০-৯ digits
       s = s.replace(/\^{([^}]+)}/g, '<sup>$1</sup>');
       s = s.replace(/\^([\-\+]?[0-9০-৯a-zA-Z\u0980-\u09FF]+)/g, '<sup>$1</sup>');
-
-      // Subscripts: Includes English 0-9 & Assamese ০-৯ digits
       s = s.replace(/_{([^}]+)}/g, '<sub>$1</sub>');
       s = s.replace(/_([0-9০-৯a-zA-Z\u0980-\u09FF]+)/g, '<sub>$1</sub>');
-
-      // Common symbols
       s = s.replace(/\+\/-/g, '&plusmn;');
       s = s.replace(/&lt;=/g, '&le;').replace(/&gt;=/g, '&ge;');
     }
@@ -86,31 +79,27 @@
     }
   }
 
-  /* Universal content extractor supporting all JSON schemas & forced languages */
+  /* Universal content extractor */
   function extractField(item, fieldName, forcedLang) {
     if (!item) return "";
     const targetLang = forcedLang || ((state.mock && state.mock.testLang) ? state.mock.testLang : state.lang);
     const longLang = targetLang === "en" ? "english" : "assamese";
 
-    // Direct object with english/assamese key
     if (item[longLang] && typeof item[longLang] === "object") {
       if (item[longLang][fieldName] !== undefined) return String(item[longLang][fieldName]);
       const shortF = fieldName === "question" ? "q" : fieldName === "answer" ? "a" : fieldName === "explanation" ? "exp" : "";
       if (shortF && item[longLang][shortF] !== undefined) return String(item[longLang][shortF]);
     }
 
-    // Direct language key (e.g., question_as, question_en)
     const directKey = `${fieldName}_${targetLang}`;
     if (item[directKey] !== undefined && item[directKey] !== null) return String(item[directKey]);
 
-    // Short form key (q, a, exp)
     const shortFieldName = fieldName === "question" ? "q" : fieldName === "answer" ? "a" : fieldName === "explanation" ? "exp" : "";
     if (shortFieldName) {
       const shortDirect = `${shortFieldName}_${targetLang}`;
       if (item[shortDirect] !== undefined && item[shortDirect] !== null) return String(item[shortDirect]);
     }
 
-    // Object format (item.q.as / item.question.en)
     const candidateKeys = [fieldName];
     if (fieldName === "question") candidateKeys.push("q", "question_text");
     if (fieldName === "answer") candidateKeys.push("a", "ans");
@@ -126,7 +115,6 @@
       }
     }
 
-    // Index answer fallback
     if (fieldName === "answer") {
       const idx = Number.isInteger(item.answer) ? item.answer
                    : Number.isInteger(item.correct) ? item.correct
@@ -138,7 +126,6 @@
       }
     }
 
-    // Language fallbacks
     const asKey = `${fieldName}_as`;
     const enKey = `${fieldName}_en`;
     if (item[asKey] !== undefined && item[asKey] !== null) return String(item[asKey]);
@@ -192,7 +179,7 @@
     });
   }
 
-  /* Global UI Language Toggle (Desktop & Mobile) */
+  /* Global UI Language Toggle */
   function initGlobalLangToggle() {
     const deskTheme = document.querySelector(".header-center .theme-toggle") || document.querySelector(".site-header .theme-toggle");
     if (deskTheme && !document.querySelector(".desktop-lang-toggle")) {
@@ -546,7 +533,7 @@
   /* ================= Homepage ================= */
   function renderHome(main) {
     const totalQuestions = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0);
-    const totalPdfs = state.topicIndex.filter((r) => r.pdf).length;
+    const totalPdfs = state.topicIndex.length + (state.topicIndex.filter((r) => r.pdf).length);
     const trending = trendingTopics(state.topicIndex).slice(0, typeof CONFIG !== "undefined" ? CONFIG.TRENDING_COUNT : 6);
     const firstCat = state.categories[0]?.id || "gk";
 
@@ -570,7 +557,7 @@
           <div class="hero-stats">
             <div class="stat"><b id="stat-total-questions">${totalQuestions.toLocaleString()}+</b><span>${t("stat.questions")}</span></div>
             <div class="stat"><b>${state.topicIndex.length}+</b><span>${t("stat.topics")}</span></div>
-            <div class="stat"><b>${totalPdfs}+</b><span>${t("stat.pdfs")}</span></div>
+            <div class="stat"><b id="stat-total-pdfs">${totalPdfs}+</b><span>${t("stat.pdfs")}</span></div>
           </div>
         </div>
         ${heroVisualHTML()}
@@ -935,18 +922,6 @@
 
     $("#read-modal-close", modal).addEventListener("click", closeReadingModal);
     $("#read-modal-backdrop", modal).addEventListener("click", closeReadingModal);
-    $("#read-prev", modal).addEventListener("click", () => {
-      if (state.page > 0) { state.page--; renderReadingModalPage(); }
-    });
-    $("#read-next", modal).addEventListener("click", () => {
-      const rec = currentTopicRec();
-      const perPage = typeof CONFIG !== "undefined" ? CONFIG.PER_PAGE : 10;
-      const totalPages = rec ? Math.max(1, Math.ceil((rec.topic.questions || []).length / perPage)) : 1;
-      if (state.page < totalPages - 1) { state.page++; renderReadingModalPage(); }
-    });
-    document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && modal && !modal.hidden) closeReadingModal();
-    });
     return modal;
   }
 
@@ -1051,22 +1026,11 @@
           <p>${t(`page.${key}.p1`)}</p>
           ${key === "about" ? `<p style="margin-top:10px;">${t("page.about.p2")}</p>` : ""}
         </div>
-        <div class="info-panel">
-          <h2>GitHub</h2>
-          <p>${(typeof CONFIG !== "undefined" && CONFIG.USE_REMOTE)
-            ? `<a href="https://github.com/${CONFIG.OWNER}/${CONFIG.REPO}" target="_blank" rel="noopener" style="color:var(--primary);font-weight:600;">github.com/${CONFIG.OWNER}/${CONFIG.REPO}</a>`
-            : `<a href="https://github.com/" target="_blank" rel="noopener" style="color:var(--primary);font-weight:600;">github.com</a>`}</p>
-          <ul>
-            <li data-i18n="about.li1">${t("about.li1")}</li>
-            <li data-i18n="about.li2">${t("about.li2")}</li>
-            <li data-i18n="about.li3">${t("about.li3")}</li>
-          </ul>
-        </div>
       </section>`;
     applyStaticI18n();
   }
 
-  /* ================= Search ================= */
+  /* ================= Master Search ================= */
   function normalizeText(s) {
     return (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
   }
@@ -1155,7 +1119,6 @@
       </div>
       <div class="search-page">
         <div class="sp-bar">
-          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
           <input type="search" id="page-search" autocomplete="off" spellcheck="false" placeholder="${t("search.placeholder")}" />
         </div>
         <div class="sp-results" id="page-search-results">
@@ -1190,7 +1153,6 @@
           </a>`).join("");
       }, 180);
     });
-    input.focus();
   }
 
   /* ================= Mobile menu ================= */
@@ -1289,7 +1251,31 @@
     observeReveals();
   }
 
-  /* ================= Robust Multi-Page Zero-Blank-Page PDF Exporter ================= */
+  /* ================= PDF Spinner Overlay Helper ================= */
+  function showPdfSpinner(message) {
+    let spinner = $("#pdf-loading-overlay");
+    if (!spinner) {
+      spinner = document.createElement("div");
+      spinner.id = "pdf-loading-overlay";
+      spinner.style.cssText = "position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(15,23,42,0.75);z-index:99999;display:flex;flex-direction:column;align-items:center;justify-content:center;backdrop-filter:blur(3px);";
+      spinner.innerHTML = `
+        <div style="width:44px;height:44px;border:3.5px solid rgba(255,255,255,0.2);border-top:3.5px solid #4f46e5;border-radius:50%;animation:pdfSpin 0.8s linear infinite;margin-bottom:14px;"></div>
+        <div id="pdf-spinner-text" style="color:#ffffff;font-size:0.95rem;font-weight:700;letter-spacing:0.3px;font-family:'Plus Jakarta Sans',sans-serif;">${escapeHtml(message || "Generating PDF...")}</div>
+        <style>@keyframes pdfSpin{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}</style>
+      `;
+      document.body.appendChild(spinner);
+    } else {
+      $("#pdf-spinner-text").textContent = message || "Generating PDF...";
+      spinner.style.display = "flex";
+    }
+  }
+
+  function hidePdfSpinner() {
+    const spinner = $("#pdf-loading-overlay");
+    if (spinner) spinner.style.display = "none";
+  }
+
+  /* ================= Compact & Stylish Mobile Modal ================= */
   function showPdfDownloadModal(rec) {
     const existing = $("#pdf-lang-modal");
     if (existing) existing.remove();
@@ -1297,26 +1283,34 @@
     const modal = document.createElement("div");
     modal.id = "pdf-lang-modal";
     modal.className = "read-modal";
+    modal.style.cssText = "position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;display:flex;align-items:center;justify-content:center;";
     modal.innerHTML = `
-      <div class="read-modal-backdrop"></div>
-      <div class="read-modal-box" role="dialog" style="max-width:420px; padding:24px; text-align:center; height:max-content; margin:auto; border-radius:14px;">
-        <div style="font-size:2rem; margin-bottom:8px;">📄</div>
-        <h3 style="font-size:1.15rem; margin-bottom:6px;">Download PDF Notes</h3>
-        <p style="color:var(--ink-soft,#64748b); font-size:.9rem; margin-bottom:18px;">
-          <b>${escapeHtml(localized(rec.title))}</b><br>Select your preferred language / ভাষা বাছক:
+      <div class="read-modal-backdrop" style="position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(15,23,42,0.65);backdrop-filter:blur(2px);"></div>
+      <div class="read-modal-box" role="dialog" style="position:relative; z-index:2; width:88%; max-width:320px; padding:20px 18px; text-align:center; background:var(--bg,#ffffff); color:var(--ink,#0f172a); border-radius:16px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.2), 0 10px 10px -5px rgba(0,0,0,0.1); border:1px solid var(--border,#e2e8f0); animation:popIn 0.2s cubic-bezier(0.16,1,0.3,1);">
+        <div style="font-size:1.6rem; margin-bottom:4px;">📄</div>
+        <h3 style="font-size:1.05rem; font-weight:800; margin:0 0 4px 0; color:var(--ink,#0f172a);">Download PDF</h3>
+        <p style="color:var(--ink-soft,#64748b); font-size:0.82rem; margin:0 0 16px 0; line-height:1.35; padding:0 4px; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;">
+          <b>${escapeHtml(localized(rec.title))}</b>
         </p>
-        <div style="display:flex; flex-direction:column; gap:10px;">
-          <button class="btn btn-primary" id="pdf-btn-as" style="padding:12px; font-weight:700; font-size:.95rem;">
-            অসমীয়া মাধ্যম (Assamese PDF)
+        <div style="display:flex; flex-direction:column; gap:8px;">
+          <button class="btn btn-primary" id="pdf-btn-as" style="padding:10px; font-weight:700; font-size:0.88rem; border-radius:10px; display:flex; align-items:center; justify-content:center; gap:6px;">
+            <span>অসমীয়া মাধ্যম</span>
           </button>
-          <button class="btn btn-outline" id="pdf-btn-en" style="padding:12px; font-weight:700; font-size:.95rem;">
-            English Medium (English PDF)
+          <button class="btn btn-outline" id="pdf-btn-en" style="padding:10px; font-weight:700; font-size:0.88rem; border-radius:10px; display:flex; align-items:center; justify-content:center; gap:6px;">
+            <span>English Medium</span>
           </button>
-          <button class="btn btn-ghost" id="pdf-btn-cancel" style="padding:8px; font-size:.85rem; margin-top:4px;">
+          <button class="btn btn-ghost" id="pdf-btn-cancel" style="padding:6px; font-size:0.78rem; margin-top:2px; color:var(--ink-muted,#94a3b8); font-weight:600;">
             Cancel
           </button>
         </div>
-      </div>`;
+      </div>
+      <style>
+        @keyframes popIn {
+          0% { transform: scale(0.92); opacity: 0; }
+          100% { transform: scale(1); opacity: 1; }
+        }
+      </style>
+    `;
     document.body.appendChild(modal);
 
     const close = () => modal.remove();
@@ -1334,7 +1328,10 @@
   }
 
   async function generateTopicPdf(rec, lang) {
-    toast(lang === "as" ? "PDF প্ৰস্তুত হৈ আছে, অনুগ্ৰহ কৰি ৰওক..." : "Generating PDF, please wait...");
+    if (state.isGeneratingPdf) return;
+    state.isGeneratingPdf = true;
+
+    showPdfSpinner(lang === "as" ? "PDF প্ৰস্তুত হৈ আছে, অনুগ্ৰহ কৰি ৰওক..." : "Generating PDF, please wait...");
     let qs = rec.topic.questions || [];
 
     if (!qs.length) {
@@ -1350,6 +1347,8 @@
     }
 
     if (!qs.length) {
+      hidePdfSpinner();
+      state.isGeneratingPdf = false;
       toast(lang === "as" ? "এই বিষয়ত প্ৰশ্ন উপলব্ধ নহয়!" : "No questions available in this topic!");
       return;
     }
@@ -1361,14 +1360,13 @@
     const expLabel = lang === "as" ? "ব্যাখ্যা" : "Explanation";
     const fontFam = lang === "as" ? "'Noto Serif Bengali', serif" : "'Plus Jakarta Sans', sans-serif";
 
-    // Build Hidden Multi-Page Container
     const pdfContainer = document.createElement("div");
     pdfContainer.id = "dynamic-pdf-export-container";
     pdfContainer.style.cssText = "position:absolute; left:-9999px; top:-9999px; width:794px; background:#fff;";
 
-    // Page 1 gets 7 questions (due to detailed header), subsequent pages get 8 questions
-    const p1Count = 7;
-    const subCount = 8;
+    // Dynamic Slicing based on real total questions
+    const p1Count = 14;
+    const subCount = 16;
     const pages = [];
     pages.push(qs.slice(0, p1Count));
 
@@ -1392,7 +1390,7 @@
         max-height: 1122px;
         background: #ffffff;
         color: #0f172a;
-        padding: 24px 34px;
+        padding: 22px 34px 20px 34px;
         box-sizing: border-box;
         position: relative;
         overflow: hidden;
@@ -1400,28 +1398,37 @@
         font-family: ${fontFam};
       `;
 
-      // Header HTML
+      // Header HTML: Solid table alignment to guarantee brand logo doesn't shift
       const headerHtml = isFirst ? `
-        <div style="display:flex; justify-content:space-between; align-items:flex-end; border-bottom:2px solid #4f46e5; padding-bottom:8px; margin-bottom:14px; position:relative; z-index:2; height:48px; box-sizing:border-box;">
-          <div style="display:flex; flex-direction:column; gap:2px;">
-            <span style="font-size:15px; font-weight:800; color:#0f172a; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(titleText)}</span>
-            <span style="font-size:10.5px; color:#64748b; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(catText)} • ${lang === "as" ? "মুঠ প্ৰশ্ন" : "Total Questions"}: ${qs.length} | ${langLabel}</span>
-          </div>
-          <div style="display:flex; align-items:center; gap:6px;">
-            <div style="width:22px; height:22px; background:#4f46e5; color:#ffffff; border-radius:5px; display:flex; align-items:center; justify-content:center; font-size:13px; font-weight:800; font-family:Arial, sans-serif;">A</div>
-            <div style="font-size:15px; font-weight:800; color:#4f46e5; letter-spacing:-0.3px;">axomexam</div>
-          </div>
+        <div style="border-bottom:2px solid #4f46e5; padding-bottom:6px; margin-bottom:12px; height:46px; box-sizing:border-box;">
+          <table style="width:100%; border-collapse:collapse;">
+            <tr>
+              <td style="vertical-align:bottom; text-align:left;">
+                <div style="font-size:15px; font-weight:800; color:#0f172a; line-height:1.2; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(titleText)}</div>
+                <div style="font-size:10.5px; color:#64748b; margin-top:2px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(catText)} • ${lang === "as" ? "মুঠ প্ৰশ্ন" : "Total Questions"}: ${qs.length} | ${langLabel}</div>
+              </td>
+              <td style="vertical-align:bottom; text-align:right; width:130px; white-space:nowrap;">
+                <span style="display:inline-block; vertical-align:middle; width:22px; height:22px; background:#4f46e5; color:#ffffff; border-radius:5px; text-align:center; line-height:22px; font-size:13px; font-weight:800; font-family:Arial, sans-serif;">A</span>
+                <span style="display:inline-block; vertical-align:middle; font-size:15px; font-weight:800; color:#4f46e5; letter-spacing:-0.3px; margin-left:4px;">axomexam</span>
+              </td>
+            </tr>
+          </table>
         </div>
       ` : `
-        <div style="display:flex; justify-content:flex-end; align-items:center; border-bottom:1.5px solid #e2e8f0; padding-bottom:6px; margin-bottom:14px; position:relative; z-index:2; height:34px; box-sizing:border-box;">
-          <div style="display:flex; align-items:center; gap:6px;">
-            <div style="width:22px; height:22px; background:#4f46e5; color:#ffffff; border-radius:5px; display:flex; align-items:center; justify-content:center; font-size:13px; font-weight:800; font-family:Arial, sans-serif;">A</div>
-            <div style="font-size:15px; font-weight:800; color:#4f46e5; letter-spacing:-0.3px;">axomexam</div>
-          </div>
+        <div style="border-bottom:1.5px solid #e2e8f0; padding-bottom:5px; margin-bottom:12px; height:32px; box-sizing:border-box;">
+          <table style="width:100%; border-collapse:collapse;">
+            <tr>
+              <td></td>
+              <td style="vertical-align:bottom; text-align:right; width:130px; white-space:nowrap;">
+                <span style="display:inline-block; vertical-align:middle; width:20px; height:20px; background:#4f46e5; color:#ffffff; border-radius:4px; text-align:center; line-height:20px; font-size:12px; font-weight:800; font-family:Arial, sans-serif;">A</span>
+                <span style="display:inline-block; vertical-align:middle; font-size:14px; font-weight:800; color:#4f46e5; letter-spacing:-0.3px; margin-left:4px;">axomexam</span>
+              </td>
+            </tr>
+          </table>
         </div>
       `;
 
-      // Content HTML
+      // Question Rows
       const startNo = isFirst ? 1 : p1Count + (pageIdx - 1) * subCount + 1;
       const questionsHtml = pageItems.map((item, i) => {
         const qText = extractField(item, "question", lang);
@@ -1429,15 +1436,15 @@
         const exp = extractField(item, "explanation", lang);
 
         return `
-          <div style="margin-bottom:12px; padding-bottom:8px; border-bottom:1px dashed #cbd5e1;">
-            <div style="font-size:13px; font-weight:700; color:#0f172a; line-height:1.5; margin-bottom:3px;">
+          <div style="margin-bottom:8px; padding-bottom:5px; border-bottom:1px dashed #e2e8f0;">
+            <div style="font-size:12.5px; font-weight:700; color:#0f172a; line-height:1.4; margin-bottom:2px;">
               ${startNo + i}. ${formatMath(qText)}
             </div>
-            <div style="font-size:12.5px; font-weight:600; color:#334155; margin-left:20px; line-height:1.45; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">
+            <div style="font-size:12px; font-weight:600; color:#334155; margin-left:16px; line-height:1.35; font-family:'Noto Sans Bengali', sans-serif;">
               ${ansLabel}: ${formatMath(aText)}
             </div>
             ${exp ? `
-              <div style="font-size:11px; color:#64748b; margin-top:2px; margin-left:20px; line-height:1.4; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">
+              <div style="font-size:10.5px; color:#64748b; margin-top:2px; margin-left:16px; line-height:1.3; font-family:'Noto Sans Bengali', sans-serif;">
                 ${expLabel}: ${formatMath(exp)}
               </div>` : ""}
           </div>
@@ -1455,12 +1462,12 @@
         ${headerHtml}
 
         <!-- Content Area -->
-        <div style="position:relative; z-index:2; height:980px; overflow:hidden;">
+        <div style="position:relative; z-index:2; height:1000px; overflow:hidden;">
           ${questionsHtml}
         </div>
 
         <!-- Footer -->
-        <div style="position:absolute; bottom:12px; left:34px; right:34px; border-top:1px solid #e2e8f0; padding-top:6px; display:flex; justify-content:space-between; align-items:center; font-size:9.5px; color:#64748b; font-family:'Plus Jakarta Sans', sans-serif; z-index:2;">
+        <div style="position:absolute; bottom:12px; left:34px; right:34px; border-top:1px solid #e2e8f0; padding-top:5px; display:flex; justify-content:space-between; align-items:center; font-size:9.5px; color:#64748b; font-family:'Plus Jakarta Sans', sans-serif; z-index:2;">
           <span>© axomexam — Free Educational Notes for Assam Competitive Exams</span>
           <span style="position:absolute; left:50%; transform:translateX(-50%); font-weight:700; color:#334155; font-size:10px;">— Page ${pageNum} of ${totalPages} —</span>
           <span>axomexam.in</span>
@@ -1496,15 +1503,19 @@
 
       pdf.save(`${rec.topic.id}-${lang}.pdf`);
       pdfContainer.remove();
+      hidePdfSpinner();
+      state.isGeneratingPdf = false;
       toast(lang === "as" ? "PDF ডাউনলোড সফল হ'ল!" : "PDF downloaded successfully!");
     } catch (err) {
       console.error("PDF generation failed:", err);
       pdfContainer.remove();
-      toast("Failed to generate PDF. Check browser console.");
+      hidePdfSpinner();
+      state.isGeneratingPdf = false;
+      toast("Failed to generate PDF. Please try again.");
     }
   }
 
-  /* ================= Downloads page ================= */
+  /* ================= Downloads page with Search Bar ================= */
   async function renderDownloadsPage(main) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
 
@@ -1522,17 +1533,25 @@
         <p class="page-desc">${t("page.downloads.sub")}</p>
       </div>
 
-      <!-- Section 1: All Interactive Topics Dynamic PDF Generator -->
+      <!-- Section 1: Dynamic Topic-wise Q&A PDF Notes with Dedicated Search -->
       <section class="section" style="padding-bottom:28px;">
-        <div class="section-head">
+        <div class="section-head" style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:12px;">
           <div>
             <h2>Topic-wise Q&A PDF Notes</h2>
             <p class="sec-sub">Download complete bilingual questions & answers for each topic in PDF format.</p>
           </div>
+          
+          <!-- Compact Search Bar for Downloads -->
+          <div style="position:relative; width:100%; max-width:280px;">
+            <input type="search" id="dl-search-input" placeholder="Search PDF by topic..." autocomplete="off" spellcheck="false"
+                   style="width:100%; padding:8px 12px 8px 34px; border-radius:20px; border:1px solid var(--border,#cbd5e1); background:var(--bg,#ffffff); color:var(--ink,#0f172a); font-size:0.85rem; outline:none; box-sizing:border-box;" />
+            <svg style="position:absolute; left:12px; top:50%; transform:translateY(-50%); width:14px; height:14px; color:var(--ink-soft,#64748b);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          </div>
         </div>
+
         <div class="dl-list" id="topic-pdf-list">
           ${state.topicIndex.map((rec, i) => `
-            <div class="dl-item reveal" data-delay="${(i % 12) * 30}">
+            <div class="dl-item reveal topic-dl-card" data-title="${escapeHtml(allLangs(rec.title))}" data-cat="${escapeHtml(allLangs(rec.cat.name))}" data-delay="${(i % 12) * 30}">
               <span class="dl-ico">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
               </span>
@@ -1545,6 +1564,9 @@
               </button>
             </div>
           `).join("")}
+        </div>
+        <div id="dl-no-match" class="qa-empty" style="display:none; padding:30px 10px;">
+          <p>No matching PDF topic found.</p>
         </div>
       </section>
 
@@ -1575,6 +1597,7 @@
       </section>
     `;
 
+    // Bind Download Buttons
     $$(".topic-pdf-btn", main).forEach(btn => {
       btn.addEventListener("click", () => {
         const path = btn.dataset.path;
@@ -1582,6 +1605,31 @@
         if (rec) showPdfDownloadModal(rec);
       });
     });
+
+    // Realtime Download List Search Filtering
+    const dlSearchInput = $("#dl-search-input");
+    const cards = $$(".topic-dl-card", main);
+    const noMatch = $("#dl-no-match");
+
+    if (dlSearchInput) {
+      dlSearchInput.addEventListener("input", (e) => {
+        const q = normalizeText(e.target.value);
+        let visibleCount = 0;
+
+        cards.forEach(card => {
+          const tName = normalizeText(card.dataset.title);
+          const cName = normalizeText(card.dataset.cat);
+          if (tName.includes(q) || cName.includes(q)) {
+            card.style.display = "";
+            visibleCount++;
+          } else {
+            card.style.display = "none";
+          }
+        });
+
+        if (noMatch) noMatch.style.display = visibleCount === 0 ? "block" : "none";
+      });
+    }
 
     observeReveals();
   }
@@ -2428,6 +2476,11 @@
             const loadedTotal = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0);
             const totalEl = $("#stat-total-questions");
             if (totalEl) totalEl.textContent = `${loadedTotal.toLocaleString()}+`;
+
+            // Realtime update Total PDF Notes Count in Hero Section
+            const totalPdfNotes = state.topicIndex.length + (state.topicIndex.filter((r) => r.pdf).length);
+            const pdfEl = $("#stat-total-pdfs");
+            if (pdfEl) pdfEl.textContent = `${totalPdfNotes}+`;
           }
         } catch (e) { }
       });
