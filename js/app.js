@@ -1778,72 +1778,74 @@
       </section>`;
   }
 
-  /* ================= Submit Q&A page (App-like, Fit-to-screen, StaticForms Integrated) ================= */
+  /* ================= Submit Q&A page (Dark Mode + Blue Submit Button + Official Email Integrated) ================= */
   function renderSubmitPage(main) {
     main.innerHTML = `
       <!-- Paytm-Style 2-Second Center Success Popup -->
-      <div class="success-modal-overlay" id="successPopup" style="position:fixed;inset:0;background:rgba(15,23,42,0.6);backdrop-filter:blur(5px);display:none;place-items:center;z-index:99999;opacity:0;transition:opacity 0.2s ease;">
-        <div class="success-modal-card" style="background:#ffffff;border-radius:24px;padding:30px 24px;width:82%;max-width:300px;text-align:center;box-shadow:0 25px 50px -12px rgba(0,0,0,0.25);">
+      <div class="success-modal-overlay" id="successPopup" style="position:fixed;inset:0;background:rgba(15,23,42,0.65);backdrop-filter:blur(5px);display:none;place-items:center;z-index:99999;opacity:0;transition:opacity 0.2s ease;">
+        <div class="success-modal-card" style="background:var(--bg,#ffffff);color:var(--ink,#0f172a);border-radius:24px;padding:30px 24px;width:82%;max-width:300px;text-align:center;box-shadow:0 25px 50px -12px rgba(0,0,0,0.35);border:1px solid var(--line,#e2e8f0);">
           <div class="tick-circle" style="width:68px;height:68px;background:#10b981;border-radius:50%;display:grid;place-items:center;margin:0 auto 16px;box-shadow:0 8px 24px -4px rgba(16,185,129,0.5);">
             <svg viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="width:36px;height:36px;">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
           </div>
-          <h3 id="pop-title" style="font-size:1.25rem;font-weight:800;color:#0f172a;margin-bottom:4px;">Sent Successfully!</h3>
-          <p id="pop-desc" style="font-size:0.84rem;color:#64748b;font-weight:600;">Your message has been received.</p>
+          <h3 id="pop-title" style="font-size:1.25rem;font-weight:800;color:var(--ink,#0f172a);margin-bottom:4px;">Sent Successfully!</h3>
+          <p id="pop-desc" style="font-size:0.84rem;color:var(--ink-soft,#64748b);font-weight:600;">Your message has been received.</p>
         </div>
       </div>
 
-      <div class="form-wrapper" style="width:100%;max-width:540px;margin:20px auto 40px;background:var(--card-bg,#fff);border-radius:20px;border:1px solid var(--line,#e2e8f0);box-shadow:0 12px 36px -8px rgba(15,23,42,0.08);padding:30px 24px;display:flex;flex-direction:column;">
+      <div class="form-wrapper" style="width:100%;max-width:540px;margin:20px auto 40px;background:var(--bg,#ffffff);color:var(--ink,#0f172a);border-radius:20px;border:1px solid var(--line,#e2e8f0);box-shadow:var(--card-shadow, 0 12px 36px -8px rgba(15,23,42,0.08));padding:30px 24px;display:flex;flex-direction:column;box-sizing:border-box;">
         <div class="form-header" style="display:flex;flex-direction:column;align-items:center;text-align:center;margin-bottom:22px;gap:12px;">
           <!-- Language Toggle Top-Centered -->
-          <div class="lang-toggle" style="display:inline-flex;background:#f1f5f9;border:1px solid var(--line,#e2e8f0);border-radius:99px;padding:3px;">
-            <button type="button" class="lang-btn active" id="btn-en" style="border:none;background:var(--primary,#4f46e5);color:#fff;padding:5px 14px;border-radius:99px;font-size:0.78rem;font-weight:700;cursor:pointer;">EN</button>
-            <button type="button" class="lang-btn" id="btn-as" style="border:none;background:transparent;color:var(--ink-soft,#475569);padding:5px 14px;border-radius:99px;font-size:0.78rem;font-weight:700;cursor:pointer;">অসমীয়া</button>
+          <div class="lang-toggle" style="display:inline-flex;background:var(--bg-soft,#f1f5f9);border:1px solid var(--line,#e2e8f0);border-radius:99px;padding:3px;">
+            <button type="button" class="lang-btn active" id="btn-en" style="border:none;background:#2563eb;color:#ffffff;padding:5px 14px;border-radius:99px;font-size:0.78rem;font-weight:700;cursor:pointer;transition:all 0.2s;">EN</button>
+            <button type="button" class="lang-btn" id="btn-as" style="border:none;background:transparent;color:var(--ink-soft,#64748b);padding:5px 14px;border-radius:99px;font-size:0.78rem;font-weight:700;cursor:pointer;transition:all 0.2s;">অসমীয়া</button>
           </div>
 
           <!-- Titles Fully Centered -->
           <div class="form-title" style="text-align:center;width:100%;">
             <h2 id="txt-title" style="font-size:1.35rem;font-weight:800;color:var(--ink,#0f172a);letter-spacing:-0.4px;">Submit Q&A Note</h2>
-            <p id="txt-desc" style="margin-top:4px;font-size:0.84rem;color:var(--ink-soft,#475569);">Contribute notes or feedback for aspirants.</p>
+            <p id="txt-desc" style="margin-top:4px;font-size:0.84rem;color:var(--ink-soft,#64748b);">Contribute notes or feedback for aspirants.</p>
           </div>
         </div>
 
         <form id="qaForm" class="form-body" style="display:flex;flex-direction:column;gap:14px;">
+          <!-- StaticForms API Key, Honeypot & Official Configs -->
           <input type="hidden" name="apiKey" value="sf_304846a9720d7354070bd57c">
+          <input type="hidden" name="replyTo" value="axomexam@outlook.com">
           <input type="text" name="honeypot" style="display:none" tabindex="-1" autocomplete="off">
 
           <div class="field">
-            <label id="lbl-name" for="name" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;">Your Name</label>
-            <input type="text" id="name" name="name" placeholder="e.g. Rahul Borah" required style="width:100%;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);font-size:0.92rem;outline:none;box-sizing:border-box;">
+            <label id="lbl-name" for="name" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Rahul Borah" required style="width:100%;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;box-sizing:border-box;font-family:inherit;">
           </div>
 
           <div class="field">
-            <label id="lbl-email" for="email" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="name@example.com" required style="width:100%;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);font-size:0.92rem;outline:none;box-sizing:border-box;">
+            <label id="lbl-email" for="email" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="name@example.com" required style="width:100%;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;box-sizing:border-box;font-family:inherit;">
           </div>
 
           <div class="field">
-            <label id="lbl-topic" for="subject" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;">Subject / Topic (Optional)</label>
-            <input type="text" id="subject" name="subject" placeholder="e.g. Assam History, Science" style="width:100%;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);font-size:0.92rem;outline:none;box-sizing:border-box;">
+            <label id="lbl-topic" for="subject" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Subject / Topic (Optional)</label>
+            <input type="text" id="subject" name="subject" placeholder="e.g. Assam History, Science" style="width:100%;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;box-sizing:border-box;font-family:inherit;">
           </div>
 
           <div class="field">
-            <label id="lbl-question" for="question" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;">Question (Optional)</label>
-            <textarea id="question" name="question" rows="2" placeholder="Type the question here..." style="width:100%;min-height:55px;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);font-size:0.92rem;outline:none;resize:vertical;box-sizing:border-box;"></textarea>
+            <label id="lbl-question" for="question" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Question (Optional)</label>
+            <textarea id="question" name="question" rows="2" placeholder="Type the question here..." style="width:100%;min-height:55px;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;resize:vertical;box-sizing:border-box;font-family:inherit;"></textarea>
           </div>
 
           <div class="field">
-            <label id="lbl-answer" for="answer" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;">Answer / Message (Optional)</label>
-            <textarea id="answer" name="answer" rows="3" placeholder="Provide complete answer, steps or message..." style="width:100%;min-height:90px;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);font-size:0.92rem;outline:none;resize:vertical;box-sizing:border-box;"></textarea>
+            <label id="lbl-answer" for="answer" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Answer / Message (Optional)</label>
+            <textarea id="answer" name="answer" rows="3" placeholder="Provide complete answer, steps or message..." style="width:100%;min-height:90px;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;resize:vertical;box-sizing:border-box;font-family:inherit;"></textarea>
           </div>
 
           <!-- Compact Security Math Captcha Section -->
-          <div class="captcha-container" style="background:var(--bg-soft,#f8fafc);border:1px solid var(--line,#e2e8f0);border-radius:12px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between;gap:8px;">
+          <div class="captcha-container" style="background:var(--bg-soft,#f8fafc);border:1.5px solid var(--line,#e2e8f0);border-radius:12px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between;gap:8px;">
             <div class="captcha-left" style="display:flex;align-items:center;gap:8px;">
-              <span class="captcha-label" id="lbl-captcha" style="font-size:0.8rem;font-weight:700;color:var(--ink-soft,#475569);">Security:</span>
-              <div class="captcha-badge-wrap" style="display:inline-flex;align-items:center;gap:4px;background:#ffffff;padding:3px 6px 3px 8px;border-radius:8px;border:1px solid #c7d2fe;">
-                <span class="captcha-math" id="math-expression" style="font-size:0.92rem;font-weight:800;color:var(--primary,#4f46e5);user-select:none;">2 + 3 = ?</span>
+              <span class="captcha-label" id="lbl-captcha" style="font-size:0.8rem;font-weight:700;color:var(--ink-soft,#64748b);">Security:</span>
+              <div class="captcha-badge-wrap" style="display:inline-flex;align-items:center;gap:4px;background:var(--bg,#ffffff);padding:3px 6px 3px 8px;border-radius:8px;border:1px solid var(--line,#cbd5e1);">
+                <span class="captcha-math" id="math-expression" style="font-size:0.92rem;font-weight:800;color:#2563eb;user-select:none;">2 + 3 = ?</span>
                 <button type="button" class="captcha-refresh-btn" id="btn-refresh-captcha" title="Change Captcha" style="border:none;background:transparent;color:var(--ink-faint,#94a3b8);width:24px;height:24px;display:grid;place-items:center;cursor:pointer;">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;">
                     <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.3"/>
@@ -1851,21 +1853,56 @@
                 </button>
               </div>
             </div>
-            <input type="number" id="captcha-answer" placeholder="Ans" required style="width:80px;text-align:center;font-weight:700;font-size:0.92rem;padding:7px 8px;background:#ffffff;border:1.5px solid #cbd5e1;border-radius:8px;outline:none;-moz-appearance:textfield;">
+            <input type="number" id="captcha-answer" placeholder="Ans" required style="width:80px;text-align:center;font-weight:700;font-size:0.92rem;padding:7px 8px;background:var(--bg,#ffffff);color:var(--ink,#0f172a);border:1.5px solid var(--line,#cbd5e1);border-radius:8px;outline:none;-moz-appearance:textfield;">
           </div>
 
-          <button type="submit" class="btn btn-primary btn-submit" id="submitBtn" style="width:100%;padding:14px 20px;font-size:0.95rem;font-weight:700;border-radius:12px;margin-top:4px;cursor:pointer;">
+          <!-- Blue Submit Button (Never white) -->
+          <button type="submit" id="submitBtn" style="width:100%;padding:14px 20px;font-size:0.95rem;font-weight:700;border-radius:12px;margin-top:4px;cursor:pointer;border:none;background:#2563eb !important;color:#ffffff !important;box-shadow:0 6px 16px -4px rgba(37,99,235,0.45);transition:all 0.2s ease;">
             <span id="txt-btn">Submit</span>
           </button>
 
           <div id="form-error" class="error-msg" style="padding:10px 12px;border-radius:12px;font-size:0.84rem;font-weight:600;display:none;text-align:center;background:#fef2f2;color:#dc2626;border:1px solid #fecaca;"></div>
         </form>
       </div>
+
       <style>
         input[type="number"]::-webkit-outer-spin-button,
         input[type="number"]::-webkit-inner-spin-button {
           -webkit-appearance: none;
           margin: 0;
+        }
+        #submitBtn:hover {
+          background: #1d4ed8 !important;
+          transform: translateY(-1px);
+        }
+        #submitBtn:active {
+          transform: scale(0.98);
+        }
+        [data-theme="dark"] .form-wrapper input,
+        [data-theme="dark"] .form-wrapper textarea {
+          background: var(--bg-soft, #0f172a) !important;
+          color: var(--ink, #e5e7eb) !important;
+          border-color: var(--border, #2b3a55) !important;
+        }
+        [data-theme="dark"] .form-wrapper input:focus,
+        [data-theme="dark"] .form-wrapper textarea:focus {
+          border-color: #2563eb !important;
+          box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2) !important;
+        }
+        [data-theme="dark"] .captcha-container {
+          background: var(--bg-soft, #0f172a) !important;
+          border-color: var(--border, #2b3a55) !important;
+        }
+        [data-theme="dark"] .captcha-badge-wrap,
+        [data-theme="dark"] #captcha-answer {
+          background: var(--bg, #0b1120) !important;
+          border-color: var(--border, #2b3a55) !important;
+          color: var(--ink, #e5e7eb) !important;
+        }
+        [data-theme="dark"] .success-modal-card {
+          background: var(--bg-soft, #0f172a) !important;
+          border-color: var(--border, #2b3a55) !important;
+          color: var(--ink, #e5e7eb) !important;
         }
       </style>
     `;
@@ -1932,15 +1969,15 @@
       const btnAs = $("#btn-as");
 
       if (lang === "en") {
-        btnEn.style.background = "var(--primary,#4f46e5)";
-        btnEn.style.color = "#fff";
+        btnEn.style.background = "#2563eb";
+        btnEn.style.color = "#ffffff";
         btnAs.style.background = "transparent";
-        btnAs.style.color = "var(--ink-soft,#475569)";
+        btnAs.style.color = "var(--ink-soft,#64748b)";
       } else {
-        btnAs.style.background = "var(--primary,#4f46e5)";
-        btnAs.style.color = "#fff";
+        btnAs.style.background = "#2563eb";
+        btnAs.style.color = "#ffffff";
         btnEn.style.background = "transparent";
-        btnEn.style.color = "var(--ink-soft,#475569)";
+        btnEn.style.color = "var(--ink-soft,#64748b)";
       }
 
       const tObj = i18nSubmit[lang];
@@ -2002,10 +2039,11 @@
 
       const payload = {
         apiKey: "sf_304846a9720d7354070bd57c",
+        replyTo: "axomexam@outlook.com",
         name: $("#name").value.trim(),
         email: $("#email").value.trim(),
         subject: `[axomexam Submission] ${topicVal}`,
-        message: `Topic: ${topicVal}\n\nQuestion:\n${questionVal}\n\nAnswer/Message:\n${answerVal}`
+        message: `Topic: ${topicVal}\n\nQuestion:\n${questionVal}\n\nAnswer/Message:\n${answerVal}\n\nSent to: axomexam@outlook.com`
       };
 
       try {
