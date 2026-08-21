@@ -400,7 +400,7 @@
 
   function moreDropdownHTML(rest, activePath) {
     const root = activePath.split("/")[0];
-    const isInside = rest.some((c) => c.id === root) || root === "submit" || root === "previous-year";
+    const isInside = rest.some((c) => c.id === root) || root === "submit" || root === "previous-year" || root === "contact";
     const catLinks = rest.map((c) => {
       const on = root === c.id;
       return `<a class="${on ? "active" : ""}" href="#/category/${c.id}">${escapeHtml(localized(c.name))}</a>`;
@@ -408,7 +408,7 @@
     const extraLinks = [
       ["#/previous-year", t("nav.previousYear")],
       ["#/submit", t("nav.submit")],
-      ["#/contact", t("nav.contact") || "Contact Us"],
+      ["#/contact", "Contact Us"],
     ].map(([href, label]) => {
       const on = root === href.replace("#/", "");
       return `<a class="${on ? "active" : ""}" href="${href}">${escapeHtml(label)}</a>`;
@@ -426,7 +426,7 @@
       </li>`;
   }
 
-  /* ================= Mobile Menu Builder ================= */
+  /* ================= Mobile Menu Builder (Submit & Contact Us Added Below Download) ================= */
   function buildMobileNav() {
     const nav = $("#mobile-nav");
     if (!nav) return;
@@ -486,7 +486,7 @@
       <li class="m-contact" style="margin-top:4px;">
         <a class="m-item ${activePath === "contact" ? "active" : ""}" href="#/contact" style="display:flex;align-items:center;gap:10px;margin:2px 0 6px;padding:13px 14px;border-radius:12px;background:var(--bg-subtle,#f1f5f9);color:var(--ink,#0f172a);font-weight:700;border:1px solid var(--border,#e2e8f0);">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          ${escapeHtml(t("nav.contact") || "Contact Us")}
+          Contact Us
         </a>
       </li>`;
 
@@ -1066,54 +1066,55 @@
     applyStaticI18n();
   }
 
-  /* ================= Contact Us Page with Official Email ================= */
+  /* ================= Contact Us Page (Fit to Screen, Centered, Clean Mobile & Desktop) ================= */
   function renderContactPage(main) {
     main.innerHTML = `
-      <div class="page-head">
-        <nav class="breadcrumb">
-          <a href="#/">${t("breadcrumb.home")}</a>
-          <span class="bc-sep">/</span>
-          <span>Contact Us</span>
-        </nav>
-        <h1>Contact Us</h1>
-        <p class="page-desc">We’d love to hear from you. Reach out for any questions, study materials, or suggestions.</p>
+      <div class="contact-wrapper" style="width:100%;max-width:540px;margin:20px auto 40px;background:var(--bg,#ffffff);color:var(--ink,#0f172a);border-radius:20px;border:1px solid var(--line,#e2e8f0);box-shadow:var(--card-shadow, 0 12px 36px -8px rgba(15,23,42,0.08));padding:34px 24px;display:flex;flex-direction:column;align-items:center;text-align:center;box-sizing:border-box;">
+        
+        <div style="width:64px; height:64px; border-radius:18px; background:rgba(37,99,235,0.1); color:#2563eb; display:flex; align-items:center; justify-content:center; margin-bottom:16px;">
+          <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+        </div>
+
+        <h1 style="font-size:1.45rem; font-weight:800; color:var(--ink,#0f172a); margin:0 0 6px 0; letter-spacing:-0.4px;">Contact Us</h1>
+        <p style="font-size:0.86rem; color:var(--ink-soft,#64748b); line-height:1.5; margin:0 0 24px 0; max-width:400px;">
+          We’d love to hear from you. Reach out for any questions, study materials, or suggestions.
+        </p>
+
+        <div style="width:100%; background:var(--bg-soft,#f8fafc); border:1.5px solid var(--line,#e2e8f0); border-radius:14px; padding:18px 14px; margin-bottom:24px; box-sizing:border-box;">
+          <span style="font-size:0.75rem; font-weight:700; color:var(--ink-soft,#64748b); text-transform:uppercase; letter-spacing:0.6px; display:block; margin-bottom:4px;">Official Support Email</span>
+          <a href="mailto:axomexam@outlook.com" style="font-size:1.15rem; font-weight:800; color:#2563eb; text-decoration:none; word-break:break-all;">axomexam@outlook.com</a>
+        </div>
+
+        <a href="mailto:axomexam@outlook.com" style="width:100%; max-width:280px; padding:14px 20px; font-size:0.95rem; font-weight:700; border-radius:12px; border:none; background:#2563eb; color:#ffffff; text-decoration:none; display:inline-flex; align-items:center; justify-content:center; gap:8px; box-shadow:0 6px 16px -4px rgba(37,99,235,0.45); transition:all 0.2s ease;">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Send an Email
+        </a>
       </div>
 
-      <section class="section" style="padding-bottom:40px;">
-        <div style="max-width:680px; margin:0 auto; background:var(--bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:20px; padding:32px 24px; box-shadow:var(--card-shadow, 0 10px 30px rgba(0,0,0,0.05));">
-          
-          <div style="display:flex; align-items:center; gap:16px; margin-bottom:24px; padding-bottom:20px; border-bottom:1px solid var(--border,#e2e8f0);">
-            <div style="width:54px; height:54px; border-radius:14px; background:rgba(37,99,235,0.1); color:#2563eb; display:flex; align-items:center; justify-content:center;">
-              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                <polyline points="22,6 12,13 2,6"/>
-              </svg>
-            </div>
-            <div>
-              <span style="font-size:0.82rem; font-weight:700; color:var(--ink-soft,#64748b); text-transform:uppercase; letter-spacing:0.5px;">Official Support Email</span>
-              <h3 style="margin:2px 0 0; font-size:1.25rem; font-weight:800; color:var(--ink,#0f172a);">
-                <a href="mailto:axomexam@outlook.com" style="color:#2563eb; text-decoration:none;">axomexam@outlook.com</a>
-              </h3>
-            </div>
-          </div>
-
-          <p style="font-size:0.92rem; color:var(--ink-soft,#64748b); line-height:1.6; margin-bottom:20px;">
-            For study material contributions, question corrections, or general queries, please email us directly or submit your notes using our Q&A submission portal.
-          </p>
-
-          <div style="display:flex; flex-wrap:wrap; gap:12px; margin-top:24px;">
-            <a href="mailto:axomexam@outlook.com" class="btn btn-primary" style="padding:12px 20px; font-size:0.9rem; font-weight:700; border-radius:12px; text-decoration:none; display:inline-flex; align-items:center; gap:8px;">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-              Send an Email
-            </a>
-            <a href="#/submit" class="btn btn-outline" style="padding:12px 20px; font-size:0.9rem; font-weight:700; border-radius:12px; text-decoration:none; display:inline-flex; align-items:center; gap:8px;">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-              Submit Notes Online
-            </a>
-          </div>
-
-        </div>
-      </section>
+      <style>
+        @media (max-width: 600px) {
+          .contact-wrapper {
+            border-radius: 0 !important;
+            border: none !important;
+            box-shadow: none !important;
+            padding: calc(24px + env(safe-area-inset-top, 0px)) 20px calc(24px + env(safe-area-inset-bottom, 0px)) !important;
+            min-height: calc(100vh - 120px) !important;
+            justify-content: center !important;
+            margin: 0 !important;
+          }
+        }
+        [data-theme="dark"] .contact-wrapper {
+          background: var(--bg, #0b1120) !important;
+          border-color: var(--border, #2b3a55) !important;
+        }
+        [data-theme="dark"] .contact-wrapper div {
+          background: var(--bg-soft, #0f172a) !important;
+          border-color: var(--border, #2b3a55) !important;
+        }
+      </style>
     `;
     applyStaticI18n();
     observeReveals();
@@ -1509,10 +1510,7 @@
     if (state.isGeneratingPdf) return;
     state.isGeneratingPdf = true;
 
-    // Instant Loading feedback
     showPdfSpinner(lang === "as" ? "PDF প্ৰস্তুত হৈ আছে, অনুগ্ৰহ কৰি ৰওক..." : "Generating PDF, please wait...");
-    
-    // Slight tick to let UI update instantly before heavy tasks
     await new Promise((r) => setTimeout(r, 40));
 
     let qs = rec.topic.questions || [];
@@ -1933,7 +1931,7 @@
       </section>`;
   }
 
-  /* ================= Submit Q&A page ================= */
+  /* ================= Submit Q&A page (Dark Mode + Blue Submit Button + Official Email Integrated) ================= */
   function renderSubmitPage(main) {
     main.innerHTML = `
       <!-- Paytm-Style 2-Second Center Success Popup -->
@@ -2011,7 +2009,7 @@
             <input type="number" id="captcha-answer" placeholder="Ans" required style="width:80px;text-align:center;font-weight:700;font-size:0.92rem;padding:7px 8px;background:var(--bg,#ffffff);color:var(--ink,#0f172a);border:1.5px solid var(--line,#cbd5e1);border-radius:8px;outline:none;-moz-appearance:textfield;">
           </div>
 
-          <!-- Blue Submit Button -->
+          <!-- Blue Submit Button (Never white) -->
           <button type="submit" id="submitBtn" style="width:100%;padding:14px 20px;font-size:0.95rem;font-weight:700;border-radius:12px;margin-top:4px;cursor:pointer;border:none;background:#2563eb !important;color:#ffffff !important;box-shadow:0 6px 16px -4px rgba(37,99,235,0.45);transition:all 0.2s ease;">
             <span id="txt-btn">Submit</span>
           </button>
