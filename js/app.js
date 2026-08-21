@@ -408,6 +408,7 @@
     const extraLinks = [
       ["#/previous-year", t("nav.previousYear")],
       ["#/submit", t("nav.submit")],
+      ["#/contact", t("nav.contact") || "Contact Us"],
     ].map(([href, label]) => {
       const on = root === href.replace("#/", "");
       return `<a class="${on ? "active" : ""}" href="${href}">${escapeHtml(label)}</a>`;
@@ -425,7 +426,7 @@
       </li>`;
   }
 
-  /* ================= Mobile Menu Builder (Submit Added Below Download) ================= */
+  /* ================= Mobile Menu Builder ================= */
   function buildMobileNav() {
     const nav = $("#mobile-nav");
     if (!nav) return;
@@ -481,9 +482,17 @@
         </a>
       </li>`;
 
+    const contactItem = `
+      <li class="m-contact" style="margin-top:4px;">
+        <a class="m-item ${activePath === "contact" ? "active" : ""}" href="#/contact" style="display:flex;align-items:center;gap:10px;margin:2px 0 6px;padding:13px 14px;border-radius:12px;background:var(--bg-subtle,#f1f5f9);color:var(--ink,#0f172a);font-weight:700;border:1px solid var(--border,#e2e8f0);">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          ${escapeHtml(t("nav.contact") || "Contact Us")}
+        </a>
+      </li>`;
+
     const ci = state.categories.findIndex((c) => c.id === "computer");
-    if (ci !== -1) catParts.splice(ci + 1, 0, prevYearItem, downloadItem, submitItem);
-    else catParts.push(prevYearItem, downloadItem, submitItem);
+    if (ci !== -1) catParts.splice(ci + 1, 0, prevYearItem, downloadItem, submitItem, contactItem);
+    else catParts.push(prevYearItem, downloadItem, submitItem, contactItem);
 
     nav.innerHTML = catParts.join("");
 
@@ -544,7 +553,7 @@
       return renderTopicPage(main, rec);
     }
     if (segs[0] === "about") return renderStatic(main, "about");
-    if (segs[0] === "contact") return renderStatic(main, "contact");
+    if (segs[0] === "contact") return renderContactPage(main);
     if (segs[0] === "trending") return renderTrendingPage(main);
     if (segs[0] === "previous-year") return renderPreviousYear(main, segs);
     if (segs[0] === "categories") return renderCategoriesPage(main);
@@ -1057,6 +1066,59 @@
     applyStaticI18n();
   }
 
+  /* ================= Contact Us Page with Official Email ================= */
+  function renderContactPage(main) {
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="#/">${t("breadcrumb.home")}</a>
+          <span class="bc-sep">/</span>
+          <span>Contact Us</span>
+        </nav>
+        <h1>Contact Us</h1>
+        <p class="page-desc">We’d love to hear from you. Reach out for any questions, study materials, or suggestions.</p>
+      </div>
+
+      <section class="section" style="padding-bottom:40px;">
+        <div style="max-width:680px; margin:0 auto; background:var(--bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:20px; padding:32px 24px; box-shadow:var(--card-shadow, 0 10px 30px rgba(0,0,0,0.05));">
+          
+          <div style="display:flex; align-items:center; gap:16px; margin-bottom:24px; padding-bottom:20px; border-bottom:1px solid var(--border,#e2e8f0);">
+            <div style="width:54px; height:54px; border-radius:14px; background:rgba(37,99,235,0.1); color:#2563eb; display:flex; align-items:center; justify-content:center;">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <div>
+              <span style="font-size:0.82rem; font-weight:700; color:var(--ink-soft,#64748b); text-transform:uppercase; letter-spacing:0.5px;">Official Support Email</span>
+              <h3 style="margin:2px 0 0; font-size:1.25rem; font-weight:800; color:var(--ink,#0f172a);">
+                <a href="mailto:axomexam@outlook.com" style="color:#2563eb; text-decoration:none;">axomexam@outlook.com</a>
+              </h3>
+            </div>
+          </div>
+
+          <p style="font-size:0.92rem; color:var(--ink-soft,#64748b); line-height:1.6; margin-bottom:20px;">
+            For study material contributions, question corrections, or general queries, please email us directly or submit your notes using our Q&A submission portal.
+          </p>
+
+          <div style="display:flex; flex-wrap:wrap; gap:12px; margin-top:24px;">
+            <a href="mailto:axomexam@outlook.com" class="btn btn-primary" style="padding:12px 20px; font-size:0.9rem; font-weight:700; border-radius:12px; text-decoration:none; display:inline-flex; align-items:center; gap:8px;">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Send an Email
+            </a>
+            <a href="#/submit" class="btn btn-outline" style="padding:12px 20px; font-size:0.9rem; font-weight:700; border-radius:12px; text-decoration:none; display:inline-flex; align-items:center; gap:8px;">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              Submit Notes Online
+            </a>
+          </div>
+
+        </div>
+      </section>
+    `;
+    applyStaticI18n();
+    observeReveals();
+  }
+
   /* ================= Master Search ================= */
   function normalizeText(s) {
     return (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
@@ -1284,10 +1346,10 @@
     if (!spinner) {
       spinner = document.createElement("div");
       spinner.id = "pdf-loading-overlay";
-      spinner.style.cssText = "position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(15,23,42,0.75);z-index:99999;display:flex;flex-direction:column;align-items:center;justify-content:center;backdrop-filter:blur(3px);";
+      spinner.style.cssText = "position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(15,23,42,0.8);z-index:99999;display:flex;flex-direction:column;align-items:center;justify-content:center;backdrop-filter:blur(4px);";
       spinner.innerHTML = `
-        <div style="width:44px;height:44px;border:3.5px solid rgba(255,255,255,0.2);border-top:3.5px solid #4f46e5;border-radius:50%;animation:pdfSpin 0.8s linear infinite;margin-bottom:14px;"></div>
-        <div id="pdf-spinner-text" style="color:#ffffff;font-size:0.95rem;font-weight:700;letter-spacing:0.3px;font-family:'Plus Jakarta Sans',sans-serif;">${escapeHtml(message || "Generating PDF...")}</div>
+        <div style="width:48px;height:48px;border:3.5px solid rgba(255,255,255,0.15);border-top:3.5px solid #3b82f6;border-radius:50%;animation:pdfSpin 0.8s linear infinite;margin-bottom:16px;"></div>
+        <div id="pdf-spinner-text" style="color:#ffffff;font-size:0.98rem;font-weight:700;letter-spacing:0.3px;font-family:'Plus Jakarta Sans',sans-serif;">${escapeHtml(message || "Generating PDF...")}</div>
         <style>@keyframes pdfSpin{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}</style>
       `;
       document.body.appendChild(spinner);
@@ -1302,7 +1364,7 @@
     if (spinner) spinner.style.display = "none";
   }
 
-  /* ================= Compact & Stylish Mobile Modal ================= */
+  /* ================= Enhanced Language Selection Modal with Real Button Styles & Instant Click Animation ================= */
   function showPdfDownloadModal(rec) {
     const existing = $("#pdf-lang-modal");
     if (existing) existing.remove();
@@ -1312,29 +1374,110 @@
     modal.className = "read-modal";
     modal.style.cssText = "position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;display:flex;align-items:center;justify-content:center;";
     modal.innerHTML = `
-      <div class="read-modal-backdrop" style="position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(15,23,42,0.65);backdrop-filter:blur(2px);"></div>
-      <div class="read-modal-box" role="dialog" style="position:relative; z-index:2; width:88%; max-width:320px; padding:20px 18px; text-align:center; background:var(--bg,#ffffff); color:var(--ink,#0f172a); border-radius:16px; box-shadow:0 20px 25px -5px rgba(0,0,0,0.2), 0 10px 10px -5px rgba(0,0,0,0.1); border:1px solid var(--border,#e2e8f0); animation:popIn 0.2s cubic-bezier(0.16,1,0.3,1);">
-        <div style="font-size:1.6rem; margin-bottom:4px;">📄</div>
-        <h3 style="font-size:1.05rem; font-weight:800; margin:0 0 4px 0; color:var(--ink,#0f172a);">Download PDF</h3>
-        <p style="color:var(--ink-soft,#64748b); font-size:0.82rem; margin:0 0 16px 0; line-height:1.35; padding:0 4px; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;">
+      <div class="read-modal-backdrop" style="position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(15,23,42,0.7);backdrop-filter:blur(4px);"></div>
+      <div class="read-modal-box pdf-pop-box" role="dialog" style="position:relative; z-index:2; width:90%; max-width:340px; padding:24px 20px; text-align:center; background:var(--bg,#ffffff); color:var(--ink,#0f172a); border-radius:20px; box-shadow:0 25px 50px -12px rgba(0,0,0,0.3); border:1px solid var(--border,#e2e8f0); animation:popIn 0.22s cubic-bezier(0.16,1,0.3,1); box-sizing:border-box;">
+        
+        <div style="width:52px; height:52px; background:rgba(37,99,235,0.1); color:#2563eb; border-radius:14px; display:inline-flex; align-items:center; justify-content:center; margin-bottom:12px; font-size:1.6rem;">
+          📄
+        </div>
+
+        <h3 style="font-size:1.15rem; font-weight:800; margin:0 0 6px 0; color:var(--ink,#0f172a); letter-spacing:-0.2px;">Select PDF Language</h3>
+        <p style="color:var(--ink-soft,#64748b); font-size:0.84rem; margin:0 0 20px 0; line-height:1.4; padding:0 4px; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;">
           <b>${escapeHtml(localized(rec.title))}</b>
         </p>
-        <div style="display:flex; flex-direction:column; gap:8px;">
-          <button class="btn btn-primary" id="pdf-btn-as" style="padding:10px; font-weight:700; font-size:0.88rem; border-radius:10px; display:flex; align-items:center; justify-content:center; gap:6px;">
-            <span>অসমীয়া মাধ্যম</span>
+
+        <div style="display:flex; flex-direction:column; gap:10px;">
+          <!-- Assamese Button -->
+          <button type="button" class="pdf-action-btn pdf-btn-as-action" id="pdf-btn-as">
+            <span style="display:flex; align-items:center; gap:8px;">
+              <span class="btn-indicator-dot"></span>
+              অসমীয়া মাধ্যম (Assamese)
+            </span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </button>
-          <button class="btn btn-outline" id="pdf-btn-en" style="padding:10px; font-weight:700; font-size:0.88rem; border-radius:10px; display:flex; align-items:center; justify-content:center; gap:6px;">
-            <span>English Medium</span>
+
+          <!-- English Button -->
+          <button type="button" class="pdf-action-btn pdf-btn-en-action" id="pdf-btn-en">
+            <span style="display:flex; align-items:center; gap:8px;">
+              <span class="btn-indicator-dot" style="background:#0ea5e9;"></span>
+              English Medium
+            </span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </button>
-          <button class="btn btn-ghost" id="pdf-btn-cancel" style="padding:6px; font-size:0.78rem; margin-top:2px; color:var(--ink-muted,#94a3b8); font-weight:600;">
+
+          <button type="button" id="pdf-btn-cancel" style="border:none; background:transparent; padding:8px; font-size:0.82rem; margin-top:4px; color:var(--ink-muted,#94a3b8); font-weight:700; cursor:pointer; transition:color 0.2s;">
             Cancel
           </button>
         </div>
       </div>
+      
       <style>
         @keyframes popIn {
-          0% { transform: scale(0.92); opacity: 0; }
+          0% { transform: scale(0.9); opacity: 0; }
           100% { transform: scale(1); opacity: 1; }
+        }
+        .pdf-action-btn {
+          width: 100%;
+          padding: 13px 16px;
+          font-weight: 700;
+          font-size: 0.92rem;
+          border-radius: 12px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          border: 1.5px solid transparent;
+          cursor: pointer;
+          transition: all 0.15s ease-in-out;
+          outline: none;
+          box-sizing: border-box;
+          user-select: none;
+        }
+        .pdf-btn-as-action {
+          background: #2563eb;
+          color: #ffffff;
+          box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+        }
+        .pdf-btn-as-action:hover {
+          background: #1d4ed8;
+          transform: translateY(-1px);
+        }
+        .pdf-btn-as-action:active {
+          transform: scale(0.96);
+        }
+        .pdf-btn-en-action {
+          background: var(--bg-subtle, #f8fafc);
+          color: var(--ink, #0f172a);
+          border-color: var(--border, #cbd5e1);
+        }
+        .pdf-btn-en-action:hover {
+          background: var(--bg-soft, #f1f5f9);
+          border-color: #2563eb;
+          color: #2563eb;
+          transform: translateY(-1px);
+        }
+        .pdf-btn-en-action:active {
+          transform: scale(0.96);
+        }
+        .btn-indicator-dot {
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background: #22c55e;
+          display: inline-block;
+        }
+        [data-theme="dark"] .pdf-pop-box {
+          background: #0f172a !important;
+          border-color: #334155 !important;
+          color: #f8fafc !important;
+        }
+        [data-theme="dark"] .pdf-btn-en-action {
+          background: #1e293b !important;
+          color: #f8fafc !important;
+          border-color: #334155 !important;
+        }
+        [data-theme="dark"] .pdf-btn-en-action:hover {
+          border-color: #38bdf8 !important;
+          color: #38bdf8 !important;
         }
       </style>
     `;
@@ -1344,13 +1487,20 @@
     $("#pdf-btn-cancel", modal).addEventListener("click", close);
     $(".read-modal-backdrop", modal).addEventListener("click", close);
 
-    $("#pdf-btn-as", modal).addEventListener("click", () => {
-      close();
-      generateTopicPdf(rec, "as");
+    $("#pdf-btn-as", modal).addEventListener("click", (e) => {
+      e.currentTarget.style.transform = "scale(0.95)";
+      setTimeout(() => {
+        close();
+        generateTopicPdf(rec, "as");
+      }, 100);
     });
-    $("#pdf-btn-en", modal).addEventListener("click", () => {
-      close();
-      generateTopicPdf(rec, "en");
+
+    $("#pdf-btn-en", modal).addEventListener("click", (e) => {
+      e.currentTarget.style.transform = "scale(0.95)";
+      setTimeout(() => {
+        close();
+        generateTopicPdf(rec, "en");
+      }, 100);
     });
   }
 
@@ -1359,7 +1509,12 @@
     if (state.isGeneratingPdf) return;
     state.isGeneratingPdf = true;
 
+    // Instant Loading feedback
     showPdfSpinner(lang === "as" ? "PDF প্ৰস্তুত হৈ আছে, অনুগ্ৰহ কৰি ৰওক..." : "Generating PDF, please wait...");
+    
+    // Slight tick to let UI update instantly before heavy tasks
+    await new Promise((r) => setTimeout(r, 40));
+
     let qs = rec.topic.questions || [];
 
     if (!qs.length) {
@@ -1778,7 +1933,7 @@
       </section>`;
   }
 
-  /* ================= Submit Q&A page (Dark Mode + Blue Submit Button + Official Email Integrated) ================= */
+  /* ================= Submit Q&A page ================= */
   function renderSubmitPage(main) {
     main.innerHTML = `
       <!-- Paytm-Style 2-Second Center Success Popup -->
@@ -1856,7 +2011,7 @@
             <input type="number" id="captcha-answer" placeholder="Ans" required style="width:80px;text-align:center;font-weight:700;font-size:0.92rem;padding:7px 8px;background:var(--bg,#ffffff);color:var(--ink,#0f172a);border:1.5px solid var(--line,#cbd5e1);border-radius:8px;outline:none;-moz-appearance:textfield;">
           </div>
 
-          <!-- Blue Submit Button (Never white) -->
+          <!-- Blue Submit Button -->
           <button type="submit" id="submitBtn" style="width:100%;padding:14px 20px;font-size:0.95rem;font-weight:700;border-radius:12px;margin-top:4px;cursor:pointer;border:none;background:#2563eb !important;color:#ffffff !important;box-shadow:0 6px 16px -4px rgba(37,99,235,0.45);transition:all 0.2s ease;">
             <span id="txt-btn">Submit</span>
           </button>
