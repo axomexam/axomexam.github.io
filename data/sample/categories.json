@@ -184,19 +184,78 @@
           "name": { "en": "Geography", "as": "ভূগোল" },
           "sections": [
             {
-              "id": "assam-geo-sec",
+              "id": "assam-geography-sec",
               "name": { "en": "Assam Geography", "as": "অসমৰ ভূগোল" },
               "topics": [
-                { "id": "brahmaputra-river", "name": { "en": "Brahmaputra River & Rivers of Assam", "as": "ব্ৰহ্মপুত্ৰ নদী আৰু অসমৰ নদ-নদী" }, "popularity": 9, "pdf": "brahmaputra-river.pdf" },
-                { "id": "national-parks", "name": { "en": "National Parks & Sanctuaries", "as": "ৰাষ্ট্ৰীয় উদ্যান আৰু অভয়াৰণ্য" }, "popularity": 9, "pdf": "national-parks-assam.pdf" }
+                { "id": "brahmaputra-barak-valley", "name": { "en": "Brahmaputra & Barak Valley", "as": "ব্ৰহ্মপুত্ৰ আৰু বৰাক উপত্যকা" }, "popularity": 9 },
+                { "id": "hills-karbi-dima-hasao", "name": { "en": "Hills: Karbi Anglong & Dima Hasao", "as": "পাহাৰীয়া অঞ্চল: কাৰ্বি আংলং আৰু ডিমা হাচাও" }, "popularity": 8 },
+                { "id": "tributaries-majuli-wetlands", "name": { "en": "Major Tributaries, Majuli & Wetlands", "as": "প্ৰধান উপনৈ, মাজুলী আৰু আৰ্দ্ৰভূমিসমূহ" }, "popularity": 10 },
+                { "id": "climate-monsoon-floods-assam", "name": { "en": "Climate, Monsoon & Floods", "as": "জলবায়ু, মৌচুমী বায়ু আৰু বানপানী" }, "popularity": 9 },
+                { "id": "national-parks-wls-assam", "name": { "en": "National Parks & Wildlife Sanctuaries", "as": "ৰাষ্ট্ৰীয় উদ্যান আৰু অভয়াৰণ্যসমূহ" }, "popularity": 10, "pdf": "national-parks-assam.pdf" },
+                { "id": "tiger-biosphere-reserves-assam", "name": { "en": "Tiger Reserves & Biosphere Reserve", "as": "ব্যাঘ্ৰ প্ৰকল্প আৰু জীৱমণ্ডল সংৰক্ষিত অঞ্চল" }, "popularity": 9 },
+                { "id": "ramsar-endemic-flora-fauna-assam", "name": { "en": "Ramsar Sites & Endemic Flora, Fauna", "as": "ৰামচাৰ ক্ষেত্ৰ আৰু স্থানীয় উদ্ভিদ-প্ৰাণীকুল" }, "popularity": 9 },
+                { "id": "forest-types-area-assam", "name": { "en": "Forest Types & Area", "as": "বননিৰ প্ৰকাৰ আৰু বনাঞ্চলৰ পৰিসীমা" }, "popularity": 8 },
+                { "id": "minerals-oil-gas-coal-limestone", "name": { "en": "Minerals: Oil, Gas, Coal & Limestone", "as": "খনিজ সম্পদ: খাৰুৱা তেল, প্ৰাকৃতিক গেছ, কয়লা আৰু চূণশিল" }, "popularity": 9 },
+                { "id": "agriculture-tea-rice-jute-silk", "name": { "en": "Agriculture: Tea, Rice, Jute & Silk", "as": "কৃষি: চাহ, ধান, মৰাপাট আৰু মুগা-পাট ৰেচম" }, "popularity": 9 },
+                { "id": "industries-refineries-tea-gardens", "name": { "en": "Industries: Refineries & Tea Gardens", "as": "উদ্যোগ: শোধনাগাৰ আৰু চাহ বাগান" }, "popularity": 8 },
+                { "id": "power-hydro-thermal-assam", "name": { "en": "Power: Hydro & Thermal Projects", "as": "শক্তি: জলবিদ্যুৎ আৰু তাপবিদ্যুৎ প্ৰকল্প" }, "popularity": 8 },
+                { "id": "demography-population-density-literacy-assam", "name": { "en": "Population, Density & Literacy", "as": "জনসংখ্যা, জনঘনত্ব আৰু সাক্ষৰতা" }, "popularity": 9 },
+                { "id": "tribes-distribution-assam", "name": { "en": "Major Tribes & Distribution", "as": "প্ৰধান জনজাতি আৰু বসতি বিন্যাস" }, "popularity": 9 },
+                { "id": "transport-nh-railways-waterways-assam", "name": { "en": "Transport: NH, Railways & Waterways", "as": "পৰিবহণ: ৰাষ্ট্ৰীয় ঘাইপথ, ৰে'ল আৰু জলপথ" }, "popularity": 8 },
+                { "id": "borders-interstate-international-assam", "name": { "en": "Inter-State & International Borders", "as": "আন্তঃৰাজ্যিক আৰু আন্তঃৰাষ্ট্ৰীয় সীমান্ত" }, "popularity": 9 }
               ]
             },
             {
-              "id": "world-solar-sec",
-              "name": { "en": "Solar System & World", "as": "সৌৰজগত আৰু বিশ্ব" },
+              "id": "indian-geography-sec",
+              "name": { "en": "Indian Geography", "as": "ভাৰতীয় ভূগোল" },
               "topics": [
-                { "id": "solar-system", "name": { "en": "Solar System & Universe", "as": "সৌৰজগত আৰু মহাবিশ্ব" }, "popularity": 8 },
-                { "id": "world-capitals", "name": { "en": "Countries, Capitals & Currencies", "as": "দেশ, ৰাজধানী আৰু মুদ্ৰা" }, "popularity": 7, "pdf": "country-capital.pdf" }
+                { "id": "physical-himalayas-plains-plateau-islands", "name": { "en": "Himalayas, Plains, Plateau, Islands & Coasts", "as": "হিমালয়, সমভূমি, মালভূমি, দ্বীপ আৰু উপকূল" }, "popularity": 10 },
+                { "id": "mountain-peaks-passes-india", "name": { "en": "Mountain Peaks & Passes", "as": "পৰ্বতশৃংগ আৰু গিৰিপথসমূহ" }, "popularity": 9 },
+                { "id": "rivers-indus-ganga-brahmaputra-peninsular", "name": { "en": "Rivers: Indus, Ganga, Brahmaputra & Peninsular", "as": "নদ-নদী: সিন্ধু, গংগা, ব্ৰহ্মপুত্ৰ আৰু উপদ্বীপীয় নদীসমূহ" }, "popularity": 10 },
+                { "id": "climate-monsoon-soils-india", "name": { "en": "Climate, Monsoon & Soil Types", "as": "জলবায়ু, মৌচুমী বতাহ আৰু মাটিৰ প্ৰকাৰ" }, "popularity": 9 },
+                { "id": "vegetation-forest-types-india", "name": { "en": "Natural Vegetation & Forest Types", "as": "প্ৰাকৃতিক উদ্ভিদ আৰু বননিৰ শ্ৰেণীবিভাজন" }, "popularity": 8 },
+                { "id": "national-parks-wls-biosphere-india", "name": { "en": "National Parks, WLS & Biosphere Reserves", "as": "ৰাষ্ট্ৰীয় উদ্যান, অভয়াৰণ্য আৰু জীৱমণ্ডল সংৰক্ষিত অঞ্চল" }, "popularity": 9 },
+                { "id": "tiger-reserves-ramsar-conservation-india", "name": { "en": "Tiger Reserves, Ramsar Sites & Conservation Projects", "as": "ব্যাঘ্ৰ সংৰক্ষিত বনাঞ্চল, ৰামচাৰ ক্ষেত্ৰ আৰু সংৰক্ষণ প্ৰকল্প" }, "popularity": 9 },
+                { "id": "crops-kharif-rabi-cash-india", "name": { "en": "Crops: Kharif, Rabi & Cash Crops", "as": "শস্য: খাৰিফ, ৰবি আৰু অৰ্থকৰী শস্য" }, "popularity": 8 },
+                { "id": "dams-river-projects-india", "name": { "en": "Dams & Multipurpose River Projects", "as": "বান্ধ আৰু বহুমুখী নদী উপত্যকা প্ৰকল্প" }, "popularity": 9 },
+                { "id": "minerals-iron-coal-petroleum-bauxite-india", "name": { "en": "Minerals: Iron, Coal, Petroleum & Bauxite", "as": "খনিজ: লো, কয়লা, পেট্ৰ'লিয়াম আৰু বক্সাইট" }, "popularity": 8 },
+                { "id": "energy-renewable-nonrenewable-india", "name": { "en": "Renewable & Non-Renewable Energy", "as": "নৱীকৰণযোগ্য আৰু অনৱীকৰণযোগ্য শক্তি" }, "popularity": 8 },
+                { "id": "demography-census-sexratio-literacy-india", "name": { "en": "Population, Density, Sex Ratio & Literacy", "as": "জনসংখ্যা, ঘনত্ব, লিংগ অনুপাত আৰু সাক্ষৰতা" }, "popularity": 9 },
+                { "id": "transport-highways-railways-ports-india", "name": { "en": "Highways, Railways, Ports & Waterways", "as": "ৰাষ্ট্ৰীয় ঘাইপথ, ৰে'লৱে, বন্দৰ আৰু জলপথ" }, "popularity": 8 },
+                { "id": "industrial-belts-borders-frontiers-india", "name": { "en": "Major Industrial Belts, Borders & Frontiers", "as": "প্ৰধান ঔদ্যোগিক বলয় আৰু আন্তঃৰাষ্ট্ৰীয় সীমান্ত" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "astronomical-geography-sec",
+              "name": { "en": "Astronomical Geography", "as": "মহাজাগতিক / জ্যোতিৰ্বিজ্ঞানীয় ভূগোল" },
+              "topics": [
+                { "id": "universe-bigbang-galaxies", "name": { "en": "Big Bang Theory & Galaxies", "as": "মহাবিস্ফোৰণ তত্ত্ব (Big Bang) আৰু তাৰকাৰাজ্য" }, "popularity": 8 },
+                { "id": "stars-lifecycle-constellations-lightyear", "name": { "en": "Stars: Lifecycle, Constellations & Light Year", "as": "তৰা: জীৱনচক্ৰ, নক্ষত্ৰমণ্ডল আৰু পোহৰ বৰ্ষ" }, "popularity": 8 },
+                { "id": "nebulae-blackholes-supernovae", "name": { "en": "Nebulae, Black Holes & Supernovae", "as": "নীহাৰিকা, কৃষ্ণগহ্বৰ (Black Hole) আৰু চুপাৰন'ভা" }, "popularity": 8 },
+                { "id": "sun-structure-core-flares", "name": { "en": "Sun: Structure, Core & Solar Flares", "as": "সূৰ্য: আভ্যন্তৰীণ গাঁথনি, কেন্দ্ৰ আৰু সৌৰ শিখা" }, "popularity": 8 },
+                { "id": "solar-system-planets-order-sizes", "name": { "en": "Inner & Outer Planets: Order, Sizes & Facts", "as": "গ্ৰহসমূহ: ক্ৰম, আকাৰ আৰু বৈশিষ্ট্য" }, "popularity": 9 },
+                { "id": "dwarf-planets-asteroids-comets-meteors", "name": { "en": "Dwarf Planets, Asteroids, Comets & Meteors", "as": "বাওনা গ্ৰহ, গ্ৰহাণুপুঞ্জ, ধূমকেতু আৰু উল্কাপিণ্ড" }, "popularity": 8 },
+                { "id": "planetary-moons-titan-ganymede-europa", "name": { "en": "Planetary Moons: Titan, Ganymede & Europa", "as": "উপগ্ৰহসমূহ: টাইটান, গেনীমেড আৰু ইউৰোপা" }, "popularity": 8 },
+                { "id": "earth-rotation-revolution-seasons", "name": { "en": "Earth: Rotation, Revolution, Inclination & Seasons", "as": "পৃথিৱীৰ আৱৰ্তন, পৰিক্ৰমণ আৰু ঋতু পৰিৱৰ্তন" }, "popularity": 9 },
+                { "id": "latitudes-longitudes-equator-idl", "name": { "en": "Latitudes, Longitudes, Equator & International Date Line", "as": "অক্ষৰেখা, দ্ৰাঘিমাৰেখা, বিষুৱৰেখা আৰু আন্তঃৰাষ্ট্ৰীয় তাৰিখ ৰেখা" }, "popularity": 9 },
+                { "id": "timezones-standard-time-calculation", "name": { "en": "Time Zones & Standard Time Calculation", "as": "সময় মণ্ডল (Time Zone) আৰু মান সময় নিৰ্ণয়" }, "popularity": 8 },
+                { "id": "moon-phases-eclipses-tides", "name": { "en": "Moon Phases, Eclipses & Tides (Spring & Neap)", "as": "চন্দ্ৰৰ কলা, সূৰ্য্য-চন্দ্ৰ গ্ৰহণ আৰু জোৱাৰ-ভাটা" }, "popularity": 9 },
+                { "id": "space-agencies-missions-isro-nasa", "name": { "en": "Space Agencies & Indian Missions (ISRO, Chandrayaan, Aditya-L1)", "as": "মহাকাশ সংস্থা আৰু ভাৰতীয় অভিযান (ISRO, চন্দ্ৰযান, আদিত্য-L1)" }, "popularity": 10 },
+                { "id": "upcoming-missions-space-telescopes", "name": { "en": "Upcoming Missions & Space Telescopes (Gaganyaan, James Webb)", "as": "ভৱিষ্যতৰ অভিযান আৰু মহাকাশ দূৰবীক্ষণ যন্ত্ৰ (গগনযান, জেমছ ৱেব)" }, "popularity": 9 }
+              ]
+            },
+            {
+              "id": "world-geography-sec",
+              "name": { "en": "World Geography", "as": "বিশ্ব ভূগোল" },
+              "topics": [
+                { "id": "earth-layers-plates-volcanoes", "name": { "en": "Earth Layers, Plates & Volcanoes", "as": "পৃথিৱীৰ স্তৰ, ভূ-তাত্বিক ফলক (Plates) আৰু আগ্নেয়গিৰি" }, "popularity": 9 },
+                { "id": "mountains-deserts-islands-earthquakes", "name": { "en": "Mountains, Deserts, Islands & Earthquakes", "as": "পৰ্বতমালা, মৰুভূমি, দ্বীপ আৰু ভূমিকম্প" }, "popularity": 9 },
+                { "id": "oceans-currents-trenches-rivers-lakes", "name": { "en": "Oceans, Currents, Trenches & Rivers/Lakes", "as": "মহাসাগৰ, সাগৰীয় সোঁত, গভীৰ খাত আৰু নদ-হ্ৰদ" }, "popularity": 9 },
+                { "id": "straits-canals-seas-gulfs", "name": { "en": "Straits, Canals, Seas & Gulfs", "as": "প্ৰণালী, খাল, সাগৰ আৰু উপসাগৰ" }, "popularity": 8 },
+                { "id": "atmosphere-layers-winds-cyclones", "name": { "en": "Atmosphere Layers, Winds & Cyclones", "as": "বায়ুমণ্ডলৰ স্তৰসমূহ, বায়ু প্ৰবাহ আৰু ঘূৰ্ণীবতাহ" }, "popularity": 9 },
+                { "id": "grasslands-agricultural-belts-world", "name": { "en": "Grasslands & Agricultural Belts", "as": "তৃণভূমি আৰু বিশ্বৰ প্ৰধান কৃষি বলয়" }, "popularity": 8 },
+                { "id": "minerals-oil-belts-sea-routes-world", "name": { "en": "Minerals, Oil Belts & Major Sea Routes", "as": "খনিজ, তেল বলয় আৰু প্ৰধান সামুদ্ৰিক বাণিজ্যিক পথ" }, "popularity": 8 },
+                { "id": "international-border-lines-world", "name": { "en": "International Border Lines", "as": "প্ৰধান আন্তঃৰাষ্ট্ৰীয় সীমৰেখাসমূহ (Radcliffe, Durand আদি)" }, "popularity": 9 }
               ]
             }
           ]
