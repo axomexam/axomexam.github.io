@@ -1,0 +1,271 @@
+{
+  "id": "10-time-zones-standard-time-calculation",
+  "title": {
+    "en": "Time Zones & Standard Time Calculation",
+    "as": "সময় মণ্ডল আৰু মানক সময় গণনা"
+  },
+  "description": {
+    "en": "Important questions on time zones and standard time calculation for competitive exams.",
+    "as": "সময় মণ্ডল আৰু মানক সময় গণনা সম্পৰ্কে প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে গুৰুত্বপূৰ্ণ প্ৰশ্ন।"
+  },
+  "tags": [
+    "time-zones",
+    "standard-time",
+    "ist",
+    "gmt",
+    "geography"
+  ],
+  "pdf": null,
+  "questions": [
+    {
+      "q": {
+        "en": "What is a time zone?",
+        "as": "সময় মণ্ডল (time zone) কি?"
+      },
+      "a": {
+        "en": "A time zone is a region of the Earth where the same standard time is used, generally based on 15 degrees of longitude intervals.",
+        "as": "সময় মণ্ডল হৈছে পৃথিৱীৰ এনে এটা অঞ্চল য'ত একে মানক সময় ব্যৱহাৰ হয়, সাধাৰণতে ১৫ ডিগ্রী দ্রাঘিমাংশ ব্যৱধানৰ ভিত্তিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "How many time zones exist around the world?",
+        "as": "সমগ্ৰ বিশ্বত কিমানটা সময় মণ্ডল আছে?"
+      },
+      "a": {
+        "en": "Ideally there are 24 time zones (360 degrees divided by 15 degrees), but in practice there are about 40, counting irregular ones.",
+        "as": "আদর্শভাৱে ২৪ টা সময় মণ্ডল আছে (৩৬০ ডিগ্রীক ১৫ ডিগ্রীয়ে হৰণ কৰিলে), কিন্তু বাস্তৱত অনিয়মিত সময় মণ্ডলকে ধৰি প্ৰায় ৪০ টা আছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the standard meridian of India?",
+        "as": "ভাৰতৰ মানক মধ্যৰেখা কোনটো?"
+      },
+      "a": {
+        "en": "India's standard meridian is 82.5 degrees East, which passes through Mirzapur in Uttar Pradesh.",
+        "as": "ভাৰতৰ মানক মধ্যৰেখা হৈছে ৮২.৫ ডিগ্রী পূৱ, যিটো উত্তৰ প্ৰদেশৰ মির্জাপুৰেদি পাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is Indian Standard Time (IST)?",
+        "as": "ভাৰতীয় মান সময় (IST) কি?"
+      },
+      "a": {
+        "en": "Indian Standard Time is UTC+5:30, the time used uniformly across India.",
+        "as": "ভাৰতীয় মান সময় হৈছে UTC+5:30, যিটো সমগ্ৰ ভাৰতত একে সময়ত ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is UTC?",
+        "as": "UTC কি?"
+      },
+      "a": {
+        "en": "UTC (Coordinated Universal Time) is the primary global time standard, roughly equivalent to GMT, used as a reference for all time zones.",
+        "as": "UTC (সমন্বিত বিশ্ব সময়) হৈছে মূল বৈশ্বিক সময় মান, যিটো মোটামুটি GMTৰ সমান, আৰু সমস্ত সময় মণ্ডলৰ প্ৰসংগ হিচাপে ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Why is India's standard meridian 82.5°E?",
+        "as": "ভাৰতৰ মানক মধ্যৰেখা কিয় ৮২.৫°পূ?"
+      },
+      "a": {
+        "en": "The 82.5°E meridian was chosen so that a single time zone covers the whole country uniformly, avoiding multiple time zones.",
+        "as": "৮২.৫°পূ মধ্যৰেখাটো বাছি লোৱা হৈছিল যাতে সমগ্ৰ দেশত একক সময় মণ্ডল থাকে আৰু বহু সময় মণ্ডল নলাগে।"
+      }
+    },
+    {
+      "q": {
+        "en": "How do you calculate time difference between two places based on longitude?",
+        "as": "দ্রাঘিমাংশৰ ভিত্তিত দুটা স্থানৰ সময় পাৰ্থক্য কেনেকৈ গণনা কৰা হয়?"
+      },
+      "a": {
+        "en": "Divide the difference in longitude by 15 to get the time difference in hours; each 15 degrees equals 1 hour.",
+        "as": "দ্রাঘিমাংশৰ পাৰ্থক্যক ১৫ ৰে হৰণ কৰিলে ঘণ্টাত সময় পাৰ্থক্য পোৱা যায়; প্ৰতিটো ১৫ ডিগ্রী ১ ঘণ্টাৰ সমান।"
+      }
+    },
+    {
+      "q": {
+        "en": "If it is 12 noon at Greenwich (0°), what is the local time at 15°E?",
+        "as": "গ্ৰীনউইচত (০°) ১২ বাজিলে ১৫°পূ ত স্থানীয় সময় কিমান?"
+      },
+      "a": {
+        "en": "At 15°E, the local time is 1:00 PM, because it is east and ahead of Greenwich.",
+        "as": "১৫°পূ ত স্থানীয় সময় ১:০০ বাজে, কাৰণ ই পূৱত আৰু গ্ৰীনউইচতকৈ আগুৱাই আছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "How is time calculated for a place east of the Prime Meridian?",
+        "as": "মূল মধ্যৰেখাৰ পূৱত থকা স্থানৰ সময় কেনেকৈ গণনা হয়?"
+      },
+      "a": {
+        "en": "For places east of the Prime Meridian, add the time difference to the GMT/UTC to get local time.",
+        "as": "মূল মধ্যৰেখাৰ পূৱত থকা স্থানৰ বাবে GMT/UTCত সময় পাৰ্থক্য যোগ কৰি স্থানীয় সময় পোৱা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "How is time calculated for a place west of the Prime Meridian?",
+        "as": "মূল মধ্যৰেখাৰ পশ্চিমত থকা স্থানৰ সময় কেনেকৈ গণনা হয়?"
+      },
+      "a": {
+        "en": "For places west of the Prime Meridian, subtract the time difference from the GMT/UTC to get local time.",
+        "as": "মূল মধ্যৰেখাৰ পশ্চিমত থকা স্থানৰ বাবে GMT/UTCৰ পৰা সময় পাৰ্থক্য বিয়োগ কৰি স্থানীয় সময় পোৱা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the formula to find longitude from time difference?",
+        "as": "সময় পাৰ্থক্যৰ পৰা দ্রাঘিমাংশ পাবলৈ সূত্ৰটো কি?"
+      },
+      "a": {
+        "en": "Multiply the time difference in hours by 15 degrees to get the longitude difference (Time difference × 15° = Longitude difference).",
+        "as": "ঘণ্টাত সময় পাৰ্থক্যক ১৫ ডিগ্রীৰে পূৰণ কৰিলে দ্রাঘিমাংশ পাৰ্থক্য পোৱা যায় (সময় পাৰ্থক্য × ১৫° = দ্রাঘিমাংশ পাৰ্থক্য)।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is daylight saving time (DST)?",
+        "as": "দিবালোক সংৰক্ষণ সময় (DST) কি?"
+      },
+      "a": {
+        "en": "Daylight Saving Time is the practice of advancing clocks by one hour during summer months to extend evening daylight.",
+        "as": "দিবালোক সংৰক্ষণ সময় হৈছে গ্ৰীষ্মকালত সন্ধিয়াৰ দিবালোক বঢ়াবলৈ ঘড়ী এঘণ্টা আগুৱাই নিয়া পদ্ধতি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Does India observe daylight saving time?",
+        "as": "ভাৰতত দিবালোক সংৰক্ষণ সময় পালন হয় নেকি?"
+      },
+      "a": {
+        "en": "No, India does not observe daylight saving time; it uses IST (UTC+5:30) all year round.",
+        "as": "নহয়, ভাৰতত দিবালোক সংৰক্ষণ সময় পালন নহয়; ভাৰতত বছৰজুৰি IST (UTC+5:30) ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is Greenwich Mean Time (GMT)?",
+        "as": "গ্ৰীনউইচ মান সময় (GMT) কি?"
+      },
+      "a": {
+        "en": "GMT is the mean solar time at the Prime Meridian (0° longitude) at Greenwich, London, used as the historical global time reference.",
+        "as": "GMT হৈছে লণ্ডনৰ গ্ৰীনউইচৰ মূল মধ্যৰেখাত (০° দ্রাঘিমাংশ) থকা গড় সৌৰ সময়, যিটো ঐতিহাসিক বৈশ্বিক সময় প্ৰসংগ হিচাপে ব্যৱহৃত।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the difference between GMT and UTC?",
+        "as": "GMT আৰু UTCৰ মাজৰ পাৰ্থক্য কি?"
+      },
+      "a": {
+        "en": "GMT is based on the Earth's rotation and is an astronomical time, while UTC is an atomic time standard with occasional leap seconds.",
+        "as": "GMT পৃথিৱীৰ আহুর্ননৰ ভিত্তিত জ্যোতির্বিজ্ঞানীয় সময়, আনহাতে UTC এটমিক সময় মান যাৰ মাজে মাজে leap second যোগ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which country spans the most time zones?",
+        "as": "কোন দেশত সৰ্বাধিক সময় মণ্ডল আছে?"
+      },
+      "a": {
+        "en": "France spans the most time zones (about 12), including its overseas territories; Russia spans 11 time zones.",
+        "as": "ফ্রান্সত সৰ্বাধিক সময় মণ্ডল আছে (প্ৰায় ১২), যাৰ ভিতৰত তাৰ বিদেশী অঞ্চলসমূহো আছে; ৰাছিয়াত ১১ টা সময় মণ্ডল আছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the standard time of the USA (EST)?",
+        "as": "আমেৰিকা যুক্তৰাষ্ট্ৰৰ মানক সময় (EST) কি?"
+      },
+      "a": {
+        "en": "Eastern Standard Time (EST) of the USA is UTC-5, and Eastern Daylight Time is UTC-4.",
+        "as": "আমেৰিকা যুক্তৰাষ্ট্ৰৰ ইষ্টার্ন ষ্টেণ্ডার্ড টাইম (EST) হৈছে UTC-5, আৰু ইষ্টার্ন ডেলাইট টাইম হৈছে UTC-4।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the time in India when it is 12 noon GMT?",
+        "as": "GMTত ১২ বাজিলে ভাৰতত সময় কিমান?"
+      },
+      "a": {
+        "en": "When it is 12 noon GMT, it is 5:30 PM in India (IST = GMT + 5:30).",
+        "as": "GMTত ১২ বাজিলে ভাৰতত ৫:৩০ বাজে (IST = GMT + 5:30)।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is a local mean time?",
+        "as": "স্থানীয় গড় সময় (local mean time) কি?"
+      },
+      "a": {
+        "en": "Local mean time is the average solar time at a specific longitude, based on the position of the Sun at that meridian.",
+        "as": "স্থানীয় গড় সময় হৈছে কোনো নিৰ্দিষ্ট দ্রাঘিমাংশত সেই মধ্যৰেখাত সূৰ্যৰ অৱস্থানৰ ভিত্তিত হোৱা গড় সৌৰ সময়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which line of longitude is used for the International Date Line's basis?",
+        "as": "আন্তঃৰাষ্ট্ৰীয় তাৰিখ ৰেখাৰ ভিত্তি হিচাপে কোন দ্রাঘিমাংশ ৰেখা ব্যৱহাৰ হয়?"
+      },
+      "a": {
+        "en": "The International Date Line is based on the 180 degrees longitude line.",
+        "as": "আন্তঃৰাষ্ট্ৰীয় তাৰিখ ৰেখা ১৮০ ডিগ্রী দ্রাঘিমাংশ ৰেখাৰ ভিত্তিত আছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What happens to the date when crossing the International Date Line from east to west?",
+        "as": "আন্তঃৰাষ্ট্ৰীয় তাৰিখ ৰেখা পূৱৰ পৰা পশ্চিমলৈ পাৰ হলে তাৰিখৰ কি হয়?"
+      },
+      "a": {
+        "en": "Crossing the International Date Line from east to west, you add one day (move forward in date).",
+        "as": "আন্তঃৰাষ্ট্ৰীয় তাৰিখ ৰেখা পূৱৰ পৰা পশ্চিমলৈ পাৰ হলে এদিন যোগ হয় (তাৰিখ আগুৱাই যায়)।"
+      }
+    },
+    {
+      "q": {
+        "en": "If a place is at 45°E and Greenwich is at 0°, what is the local time when it is 12 noon at Greenwich?",
+        "as": "এটা স্থান ৪৫°পূ ত আছে আৰু গ্ৰীনউইচ ০° ত, গ্ৰীনউইচত ১২ বাজিলে সেই স্থানৰ স্থানীয় সময় কিমান?"
+      },
+      "a": {
+        "en": "The time difference is 45/15 = 3 hours. Since the place is east, local time is 3:00 PM.",
+        "as": "সময় পাৰ্থক্য হৈছে ৪৫/১৫ = ৩ ঘণ্টা। স্থানটো পূৱত বাবে স্থানীয় সময় ৩:০০ বজা।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is China's standard time?",
+        "as": "চীনৰ মানক সময় কি?"
+      },
+      "a": {
+        "en": "China uses a single standard time zone, Beijing Time, which is UTC+8.",
+        "as": "চীনত একক মানক সময় মণ্ডল ব্যৱহাৰ হয়, বেইজিং সময়, যিটো UTC+8।"
+      }
+    },
+    {
+      "q": {
+        "en": "Why does Japan use UTC+9?",
+        "as": "জাপানে কিয় UTC+9 ব্যৱহাৰ কৰে?"
+      },
+      "a": {
+        "en": "Japan Standard Time is UTC+9, determined by the 135°E meridian, which is 9 hours ahead of GMT.",
+        "as": "জাপান মান সময় হৈছে UTC+9, যিটো ১৩৫°পূ মধ্যৰেখাই নিৰ্ধাৰণ কৰে, যিটো GMTতকৈ ৯ ঘণ্টা আগুৱাই।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the problem with the International Date Line in terms of time zones?",
+        "as": "সময় মণ্ডলৰ ক্ষেত্ৰত আন্তঃৰাষ্ট্ৰীয় তাৰিখ ৰেখাৰ সমস্যা কি?"
+      },
+      "a": {
+        "en": "The problem is that adjacent places on either side of the line can have dates that differ by one day, even if they are close in location.",
+        "as": "সমস্যাটো হৈছে ৰেখাখনৰ দুয়োফালৰ ওচৰা-ওচৰি স্থানৰ তাৰিখ এদিনৰ পাৰ্থক্য হ'ব পাৰে, যদিও তেওঁলোক ভৌগোলিকভাৱে ওচৰত থাকে।"
+      }
+    }
+  ]
+}
