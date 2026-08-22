@@ -426,7 +426,7 @@
       </li>`;
   }
 
-  /* ================= Mobile Menu Builder (Submit & Contact Us Added Below Download) ================= */
+  /* ================= Mobile Menu Builder (Sleek Border & Highlight on all 4 buttons) ================= */
   function buildMobileNav() {
     const nav = $("#mobile-nav");
     if (!nav) return;
@@ -458,41 +458,43 @@
         </li>`;
     });
 
-    const prevYearItem = `
-      <li class="m-py">
-        <a class="m-item ${activePath === "previous-year" ? "active" : ""}" href="#/previous-year">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6"/><path d="M9 16h4"/><path d="M7 3v3"/><path d="M17 3v3"/><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M8 9h8a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1z"/></svg>
-          ${escapeHtml(t("nav.previousYear"))}
-        </a>
-      </li>`;
+    const mBtnStyle = `display:flex;align-items:center;gap:10px;padding:12px 14px;border-radius:12px;background:var(--bg-subtle,#f8fafc);color:var(--ink,#0f172a);font-weight:700;border:1px solid var(--border,#e2e8f0);box-shadow:0 1px 3px rgba(0,0,0,0.03);`;
 
     const downloadItem = `
-      <li class="m-download">
-        <a class="m-item ${activePath === "downloads" ? "active" : ""}" href="#/downloads">
+      <li class="m-download" style="margin-top:8px;">
+        <a class="m-item ${activePath === "downloads" ? "active" : ""}" href="#/downloads" style="${mBtnStyle}">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
           ${escapeHtml(t("nav.downloads"))}
         </a>
       </li>`;
 
+    const prevYearItem = `
+      <li class="m-py" style="margin-top:6px;">
+        <a class="m-item ${activePath === "previous-year" ? "active" : ""}" href="#/previous-year" style="${mBtnStyle}">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6"/><path d="M9 16h4"/><path d="M7 3v3"/><path d="M17 3v3"/><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M8 9h8a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1z"/></svg>
+          ${escapeHtml(t("nav.previousYear"))}
+        </a>
+      </li>`;
+
     const submitItem = `
-      <li class="m-submit" style="margin-top:4px;">
-        <a class="m-item ${activePath === "submit" ? "active" : ""}" href="#/submit" style="display:flex;align-items:center;gap:10px;margin:6px 0 2px;padding:13px 14px;border-radius:12px;background:var(--bg-subtle,#f1f5f9);color:var(--ink,#0f172a);font-weight:700;border:1px solid var(--border,#e2e8f0);">
+      <li class="m-submit" style="margin-top:6px;">
+        <a class="m-item ${activePath === "submit" ? "active" : ""}" href="#/submit" style="${mBtnStyle}">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
           ${escapeHtml(t("nav.submit"))}
         </a>
       </li>`;
 
     const contactItem = `
-      <li class="m-contact" style="margin-top:4px;">
-        <a class="m-item ${activePath === "contact" ? "active" : ""}" href="#/contact" style="display:flex;align-items:center;gap:10px;margin:2px 0 6px;padding:13px 14px;border-radius:12px;background:var(--bg-subtle,#f1f5f9);color:var(--ink,#0f172a);font-weight:700;border:1px solid var(--border,#e2e8f0);">
+      <li class="m-contact" style="margin-top:6px;margin-bottom:8px;">
+        <a class="m-item ${activePath === "contact" ? "active" : ""}" href="#/contact" style="${mBtnStyle}">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
           Contact Us
         </a>
       </li>`;
 
     const ci = state.categories.findIndex((c) => c.id === "computer");
-    if (ci !== -1) catParts.splice(ci + 1, 0, prevYearItem, downloadItem, submitItem, contactItem);
-    else catParts.push(prevYearItem, downloadItem, submitItem, contactItem);
+    if (ci !== -1) catParts.splice(ci + 1, 0, downloadItem, prevYearItem, submitItem, contactItem);
+    else catParts.push(downloadItem, prevYearItem, submitItem, contactItem);
 
     nav.innerHTML = catParts.join("");
 
@@ -566,7 +568,7 @@
     return render404(main);
   }
 
-  /* ================= Homepage ================= */
+  /* ================= Homepage (ADRE Exam Added) ================= */
   function renderHome(main) {
     const totalQuestions = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0);
     const totalPdfs = state.topicIndex.length + (state.topicIndex.filter((r) => r.pdf).length);
@@ -582,7 +584,7 @@
           </a>
           <a class="hero-badge" href="#/mock-test">
             <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
-            ${t("hero.daily")}
+            ${t("hero.daily")} • ADRE 2.0 / RRB
           </a>
           <h1>${t("hero.title")}</h1>
           <p class="sub">${t("hero.sub")}</p>
@@ -649,7 +651,7 @@
   }
 
   function heroVisualHTML() {
-    const examName = (typeof CONFIG !== "undefined" && CONFIG.MOCK && CONFIG.MOCK.EXAM_NAME) || "";
+    const examName = (typeof CONFIG !== "undefined" && CONFIG.MOCK && CONFIG.MOCK.EXAM_NAME) || "ADRE / Assam Police";
     const target = new Date((typeof CONFIG !== "undefined" && CONFIG.MOCK && CONFIG.MOCK.EXAM_DATE) || "2026-12-31").getTime();
     const now = Date.now();
     const daysLeft = target > now ? Math.max(0, Math.ceil((target - now) / 86400000)) : 0;
@@ -669,9 +671,9 @@
             <span class="ring-label">${escapeHtml(examName)}</span>
           </div>
         </div>
-        <span class="float-chip c1"><span class="dot"></span>GK</span>
-        <span class="float-chip c2"><span class="dot"></span>Math</span>
-        <span class="float-chip c3"><span class="dot"></span>Science</span>
+        <span class="float-chip c1"><span class="dot"></span>ADRE</span>
+        <span class="float-chip c2"><span class="dot"></span>GK & Math</span>
+        <span class="float-chip c3"><span class="dot"></span>Assam Police</span>
       </div>`;
   }
 
@@ -1066,30 +1068,30 @@
     applyStaticI18n();
   }
 
-  /* ================= Contact Us Page (Fit to Screen, Centered, Clean Mobile & Desktop) ================= */
+  /* ================= Contact Us Page (Compact Top Spacing for Mobile & Desktop) ================= */
   function renderContactPage(main) {
     main.innerHTML = `
-      <div class="contact-wrapper" style="width:100%;max-width:540px;margin:20px auto 40px;background:var(--bg,#ffffff);color:var(--ink,#0f172a);border-radius:20px;border:1px solid var(--line,#e2e8f0);box-shadow:var(--card-shadow, 0 12px 36px -8px rgba(15,23,42,0.08));padding:34px 24px;display:flex;flex-direction:column;align-items:center;text-align:center;box-sizing:border-box;">
+      <div class="contact-wrapper" style="width:100%;max-width:520px;margin:10px auto 30px;background:var(--bg,#ffffff);color:var(--ink,#0f172a);border-radius:20px;border:1px solid var(--line,#e2e8f0);box-shadow:var(--card-shadow, 0 10px 30px -6px rgba(15,23,42,0.06));padding:28px 20px;display:flex;flex-direction:column;align-items:center;text-align:center;box-sizing:border-box;">
         
-        <div style="width:64px; height:64px; border-radius:18px; background:rgba(37,99,235,0.1); color:#2563eb; display:flex; align-items:center; justify-content:center; margin-bottom:16px;">
-          <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <div style="width:58px; height:58px; border-radius:16px; background:rgba(37,99,235,0.1); color:#2563eb; display:flex; align-items:center; justify-content:center; margin-bottom:12px;">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
             <polyline points="22,6 12,13 2,6"/>
           </svg>
         </div>
 
-        <h1 style="font-size:1.45rem; font-weight:800; color:var(--ink,#0f172a); margin:0 0 6px 0; letter-spacing:-0.4px;">Contact Us</h1>
-        <p style="font-size:0.86rem; color:var(--ink-soft,#64748b); line-height:1.5; margin:0 0 24px 0; max-width:400px;">
+        <h1 style="font-size:1.38rem; font-weight:800; color:var(--ink,#0f172a); margin:0 0 4px 0; letter-spacing:-0.3px;">Contact Us</h1>
+        <p style="font-size:0.84rem; color:var(--ink-soft,#64748b); line-height:1.45; margin:0 0 20px 0; max-width:380px;">
           We’d love to hear from you. Reach out for any questions, study materials, or suggestions.
         </p>
 
-        <div style="width:100%; background:var(--bg-soft,#f8fafc); border:1.5px solid var(--line,#e2e8f0); border-radius:14px; padding:18px 14px; margin-bottom:24px; box-sizing:border-box;">
-          <span style="font-size:0.75rem; font-weight:700; color:var(--ink-soft,#64748b); text-transform:uppercase; letter-spacing:0.6px; display:block; margin-bottom:4px;">Official Support Email</span>
-          <a href="mailto:axomexam@outlook.com" style="font-size:1.15rem; font-weight:800; color:#2563eb; text-decoration:none; word-break:break-all;">axomexam@outlook.com</a>
+        <div style="width:100%; background:var(--bg-soft,#f8fafc); border:1.5px solid var(--line,#e2e8f0); border-radius:14px; padding:16px 12px; margin-bottom:20px; box-sizing:border-box;">
+          <span style="font-size:0.72rem; font-weight:700; color:var(--ink-soft,#64748b); text-transform:uppercase; letter-spacing:0.6px; display:block; margin-bottom:3px;">Official Support Email</span>
+          <a href="mailto:axomexam@outlook.com" style="font-size:1.1rem; font-weight:800; color:#2563eb; text-decoration:none; word-break:break-all;">axomexam@outlook.com</a>
         </div>
 
-        <a href="mailto:axomexam@outlook.com" style="width:100%; max-width:280px; padding:14px 20px; font-size:0.95rem; font-weight:700; border-radius:12px; border:none; background:#2563eb; color:#ffffff; text-decoration:none; display:inline-flex; align-items:center; justify-content:center; gap:8px; box-shadow:0 6px 16px -4px rgba(37,99,235,0.45); transition:all 0.2s ease;">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <a href="mailto:axomexam@outlook.com" style="width:100%; max-width:260px; padding:12px 18px; font-size:0.92rem; font-weight:700; border-radius:12px; border:none; background:#2563eb; color:#ffffff; text-decoration:none; display:inline-flex; align-items:center; justify-content:center; gap:8px; box-shadow:0 5px 14px -3px rgba(37,99,235,0.4); transition:all 0.2s ease;">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
           Send an Email
         </a>
       </div>
@@ -1100,10 +1102,8 @@
             border-radius: 0 !important;
             border: none !important;
             box-shadow: none !important;
-            padding: calc(24px + env(safe-area-inset-top, 0px)) 20px calc(24px + env(safe-area-inset-bottom, 0px)) !important;
-            min-height: calc(100vh - 120px) !important;
-            justify-content: center !important;
-            margin: 0 !important;
+            padding: 12px 18px 24px !important;
+            margin-top: 0 !important;
           }
         }
         [data-theme="dark"] .contact-wrapper {
@@ -1365,7 +1365,7 @@
     if (spinner) spinner.style.display = "none";
   }
 
-  /* ================= Enhanced Language Selection Modal with Real Button Styles & Instant Click Animation ================= */
+  /* ================= Enhanced Language Selection Modal (Middle Aligned Logo & Button Animation) ================= */
   function showPdfDownloadModal(rec) {
     const existing = $("#pdf-lang-modal");
     if (existing) existing.remove();
@@ -1376,18 +1376,19 @@
     modal.style.cssText = "position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;display:flex;align-items:center;justify-content:center;";
     modal.innerHTML = `
       <div class="read-modal-backdrop" style="position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(15,23,42,0.7);backdrop-filter:blur(4px);"></div>
-      <div class="read-modal-box pdf-pop-box" role="dialog" style="position:relative; z-index:2; width:90%; max-width:340px; padding:24px 20px; text-align:center; background:var(--bg,#ffffff); color:var(--ink,#0f172a); border-radius:20px; box-shadow:0 25px 50px -12px rgba(0,0,0,0.3); border:1px solid var(--border,#e2e8f0); animation:popIn 0.22s cubic-bezier(0.16,1,0.3,1); box-sizing:border-box;">
+      <div class="read-modal-box pdf-pop-box" role="dialog" style="position:relative; z-index:2; width:90%; max-width:340px; padding:24px 20px; text-align:center; background:var(--bg,#ffffff); color:var(--ink,#0f172a); border-radius:20px; box-shadow:0 25px 50px -12px rgba(0,0,0,0.3); border:1px solid var(--border,#e2e8f0); animation:popIn 0.22s cubic-bezier(0.16,1,0.3,1); box-sizing:border-box; display:flex; flex-direction:column; align-items:center;">
         
-        <div style="width:52px; height:52px; background:rgba(37,99,235,0.1); color:#2563eb; border-radius:14px; display:inline-flex; align-items:center; justify-content:center; margin-bottom:12px; font-size:1.6rem;">
+        <!-- Fully Centered PDF Logo -->
+        <div style="width:52px; height:52px; background:rgba(37,99,235,0.1); color:#2563eb; border-radius:14px; display:flex; align-items:center; justify-content:center; margin:0 auto 12px auto; font-size:1.6rem;">
           📄
         </div>
 
-        <h3 style="font-size:1.15rem; font-weight:800; margin:0 0 6px 0; color:var(--ink,#0f172a); letter-spacing:-0.2px;">Select PDF Language</h3>
-        <p style="color:var(--ink-soft,#64748b); font-size:0.84rem; margin:0 0 20px 0; line-height:1.4; padding:0 4px; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;">
+        <h3 style="font-size:1.15rem; font-weight:800; margin:0 0 6px 0; color:var(--ink,#0f172a); letter-spacing:-0.2px; text-align:center; width:100%;">Select PDF Language</h3>
+        <p style="color:var(--ink-soft,#64748b); font-size:0.84rem; margin:0 0 20px 0; line-height:1.4; padding:0 4px; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; text-align:center; width:100%;">
           <b>${escapeHtml(localized(rec.title))}</b>
         </p>
 
-        <div style="display:flex; flex-direction:column; gap:10px;">
+        <div style="display:flex; flex-direction:column; gap:10px; width:100%;">
           <!-- Assamese Button -->
           <button type="button" class="pdf-action-btn pdf-btn-as-action" id="pdf-btn-as">
             <span style="display:flex; align-items:center; gap:8px;">
