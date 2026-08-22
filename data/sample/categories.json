@@ -12,6 +12,54 @@
       "icon": "GK",
       "subcategories": [
         {
+          "id": "assam-literature",
+          "name": { "en": "Assam Literature", "as": "অসমীয়া সাহিত্য" },
+          "sections": [
+            {
+              "id": "ancient-pre-vaishnavite-sec",
+              "name": { "en": "Ancient & Pre-Vaishnavite Period", "as": "প্ৰাচীন আৰু প্ৰাক-বৈষ্ণৱ যুগ" },
+              "topics": [
+                { "id": "charyapada-folk-songs", "name": { "en": "Charyapada & Folk Songs", "as": "চৰ্যাপদ আৰু লোকগীতসমূহ" }, "popularity": 9 },
+                { "id": "early-poets-translations", "name": { "en": "Early Poets & Translations", "as": "প্ৰাৰম্ভিক কবি আৰু অনুবাদ সাহিত্য" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "vaishnavite-period-sec",
+              "name": { "en": "Vaishnavite Period", "as": "বৈষ্ণৱ যুগ" },
+              "topics": [
+                { "id": "sankardev-madhavdev-works", "name": { "en": "Sankardev & Madhavdev Works", "as": "শংকৰদেৱ আৰু মাধৱদেৱৰ সাহিত্যকৃতি" }, "popularity": 10 },
+                { "id": "charit-puthis-early-prose", "name": { "en": "Charit Puthis & Early Prose", "as": "চৰিত পুথি আৰু প্ৰাৰম্ভিক গদ্য" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "ahom-period-lit-sec",
+              "name": { "en": "Ahom Period", "as": "আহোম যুগৰ সাহিত্য" },
+              "topics": [
+                { "id": "buranjis-historical-chronicles", "name": { "en": "Buranjis (Historical Chronicles)", "as": "বুৰঞ্জী সাহিত্য (ঐতিহাসিক আখ্যান)" }, "popularity": 9 },
+                { "id": "court-scientific-literature", "name": { "en": "Court & Scientific Literature", "as": "ৰাজসভাৰ সাহিত্য আৰু ব্যৱহাৰিক শাস্ত্ৰ" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "modern-era-arunodoi-jonaki-sec",
+              "name": { "en": "Modern Era (Arunodoi to Jonaki)", "as": "আধুনিক যুগ (অৰুণোদইৰ পৰা জোনাকীলৈ)" },
+              "topics": [
+                { "id": "arunodoi-era-missionaries", "name": { "en": "Arunodoi Era & Missionaries", "as": "অৰুণোদই যুগ আৰু মিছনেৰীসকলৰ অৱদান" }, "popularity": 9 },
+                { "id": "jonaki-era-romantic-movement", "name": { "en": "Jonaki Era (Romantic Movement)", "as": "জোনাকী যুগ আৰু ৰোমাণ্টিক আন্দোলন" }, "popularity": 9 },
+                { "id": "early-modern-novels-poems-drama", "name": { "en": "Early Modern Novels, Poems & Drama", "as": "প্ৰাৰম্ভিক আধুনিক উপন্যাস, কবিতা আৰু নাটক" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "post-independence-contemporary-sec",
+              "name": { "en": "Post-Independence & Contemporary", "as": "স্বাধীনতা-উত্তৰ আৰু সাম্প্ৰতিক সাহিত্য" },
+              "topics": [
+                { "id": "modern-literature-major-writers", "name": { "en": "Modern Literature & Major Writers", "as": "আধুনিক সাহিত্য আৰু প্ৰধান সাহিত্যিকসকল" }, "popularity": 9 },
+                { "id": "literary-awards-jnanpith-sahitya-akademi", "name": { "en": "Literary Awards (Jnanpith, Sahitya Akademi)", "as": "সাহিত্য বঁটাসমূহ (জ্ঞানপীঠ, সাহিত্য অকাডেমি)" }, "popularity": 10 },
+                { "id": "asam-sahitya-sabha-journals", "name": { "en": "Asam Sahitya Sabha & Journals", "as": "অসম সাহিত্য সভা আৰু প্ৰধান আলোচনীসমূহ" }, "popularity": 9 }
+              ]
+            }
+          ]
+        },
+        {
           "id": "assam-history",
           "name": { "en": "Assam History", "as": "অসমৰ ইতিহাস" },
           "sections": [
@@ -262,26 +310,94 @@
         },
         {
           "id": "economics",
-          "name": { "en": "Economy & Banking", "as": "অৰ্থনীতি আৰু বেংক ব্যৱস্থা" },
+          "name": { "en": "Economics", "as": "অৰ্থনীতি" },
           "sections": [
             {
-              "id": "economy-sec",
-              "name": { "en": "Economy & Budget", "as": "অৰ্থনীতি আৰু বাজেট" },
+              "id": "assam-economy-sec",
+              "name": { "en": "Assam Economy", "as": "অসমৰ অৰ্থনীতি" },
               "topics": [
-                { "id": "assam-budget", "name": { "en": "Assam & Indian Budget Concepts", "as": "অসম আৰু ভাৰতীয় বাজেট" }, "popularity": 7 }
+                { "id": "assam-macro-profile-demographics", "name": { "en": "Growth Metrics & Demography", "as": "বিকাশৰ সূচক আৰু জনগাঁথনি" }, "popularity": 8 },
+                { "id": "assam-agriculture-horticulture", "name": { "en": "Agriculture & Horticulture", "as": "কৃষি আৰু উদ্যানশস্য" }, "popularity": 9 },
+                { "id": "assam-tea-sericulture", "name": { "en": "Tea Industry & Sericulture", "as": "চাহ উদ্যোগ আৰু ৰেচম শিল্প" }, "popularity": 10 },
+                { "id": "assam-allied-primary-activities", "name": { "en": "Allied Activities (Fisheries, Forestry & Livestock)", "as": "আনুষঙ্গিক খণ্ড (মীন, বননি আৰু পশুপালন)" }, "popularity": 8 },
+                { "id": "assam-minerals-oil-gas-coal", "name": { "en": "Minerals, Oil & Natural Gas", "as": "খনিজ সম্পদ, খাৰুৱা তেল আৰু প্ৰাকৃতিক গেছ" }, "popularity": 9 },
+                { "id": "assam-power-energy-sector", "name": { "en": "Power & Energy Sector", "as": "বিদ্যুৎ আৰু শক্তি খণ্ড" }, "popularity": 8 },
+                { "id": "assam-manufacturing-msme-handloom", "name": { "en": "Manufacturing, MSME & Handloom", "as": "উৎপাদনমুখী উদ্যোগ, MSME আৰু হস্ততাঁত" }, "popularity": 9 },
+                { "id": "assam-transport-logistics-nw2", "name": { "en": "Transport & Logistics (Roads, Rail, NW-2)", "as": "পৰিবহণ আৰু লজিষ্টিকছ (পথ, ৰে'ল আৰু দ্বিতীয় ৰাষ্ট্ৰীয় জলপথ)" }, "popularity": 8 },
+                { "id": "assam-act-east-border-trade", "name": { "en": "Act East Policy & Border Trade", "as": "এক্ট ইষ্ট পলিচি আৰু সীমান্ত বাণিজ্য" }, "popularity": 9 },
+                { "id": "assam-tourism-banking", "name": { "en": "Tourism & Banking", "as": "পৰ্যটন আৰু বেংক ব্যৱস্থা" }, "popularity": 8 },
+                { "id": "assam-budget-flagship-schemes", "name": { "en": "State Budget & Flagship Schemes", "as": "ৰাজ্যিক বাজেট আৰু ফ্লেগশ্বিপ আঁচনিসমূহ" }, "popularity": 9 },
+                { "id": "assam-floods-erosion-ecology", "name": { "en": "Floods, Erosion & Ecological Impact", "as": "বানপানী, গৰাখহনীয়া আৰু পৰিৱেশীয় প্ৰভাৱ" }, "popularity": 9 },
+                { "id": "assam-unemployment-industrial-lag", "name": { "en": "Unemployment & Industrial Lag", "as": "নিবনুৱা সমস্যা আৰু ঔদ্যোগিক অনগ্ৰসৰতা" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "indian-economy-sec",
+              "name": { "en": "Indian Economy", "as": "ভাৰতীয় অৰ্থনীতি" },
+              "topics": [
+                { "id": "national-income-gdp-gnp-nnp", "name": { "en": "GDP, GNP, NNP & National Income", "as": "GDP, GNP, NNP আৰু জাতীয় আয়" }, "popularity": 10 },
+                { "id": "inflation-price-indices-cpi-wpi", "name": { "en": "Inflation & Price Indices (CPI, WPI)", "as": "মুদ্ৰাস্ফীতি আৰু মূল্য সূচক (CPI, WPI)" }, "popularity": 9 },
+                { "id": "demographics-hdi-census-india", "name": { "en": "Demographics & Human Development (Census, HDI)", "as": "জনগাঁথনি আৰু মানৱ উন্নয়ন সূচক (লোকপিয়ল, HDI)" }, "popularity": 9 },
+                { "id": "india-agriculture-cropping-patterns", "name": { "en": "Agriculture & Cropping Patterns", "as": "কৃষি আৰু শস্যৰ আৰ্হি" }, "popularity": 8 },
+                { "id": "green-revolution-msp-pds-subsidies", "name": { "en": "Green Revolution & Farm Subsidies (MSP, PDS)", "as": "সেউজ বিপ্লৱ আৰু কৃষি ৰাজসাহায্য (MSP, PDS)" }, "popularity": 9 },
+                { "id": "india-allied-sectors-dairy-fisheries", "name": { "en": "Allied Sectors (Animal Husbandry, Dairy, Fisheries)", "as": "কৃষি আনুষঙ্গিক খণ্ড (পশুপালন, দুগ্ধ, মীন)" }, "popularity": 8 },
+                { "id": "industrial-policies-1991-reforms", "name": { "en": "Industrial Policies & Reforms (1991 Policy)", "as": "ঔদ্যোগিক নীতি আৰু সংস্কাৰ (১৯৯১ৰ অৰ্থনৈতিক নীতি)" }, "popularity": 9 },
+                { "id": "core-industries-make-in-india", "name": { "en": "Core Industries & Manufacturing (Make in India)", "as": "মূল উদ্যোগ আৰু উৎপাদন খণ্ড (Make in India)" }, "popularity": 9 },
+                { "id": "msme-handloom-psus-india", "name": { "en": "MSME, Handloom & Public Sector Undertakings (PSUs)", "as": "MSME, হস্ততাঁত আৰু ৰাজহুৱা খণ্ডৰ প্ৰতিষ্ঠানসমূহ (PSUs)" }, "popularity": 8 },
+                { "id": "services-sector-it-telecom-tourism", "name": { "en": "Services Sector (IT, Telecom, Tourism)", "as": "সেৱা খণ্ড (তথ্যপ্ৰযুক্তি, টেলিকম, পৰ্যটন)" }, "popularity": 8 },
+                { "id": "physical-infrastructure-nh-rail-ports-aviation", "name": { "en": "Physical Infrastructure (Highways, Railways, Ports, Aviation)", "as": "আন্তঃগাঁথনি (ৰাষ্ট্ৰীয় ঘাইপথ, ৰে'লৱে, বন্দৰ, বিমান পৰিবহণ)" }, "popularity": 8 },
+                { "id": "digital-infrastructure-fintech-india", "name": { "en": "Digital Infrastructure & FinTech", "as": "ডিজিটেল আন্তঃগাঁথনি আৰু ফিনটেক (FinTech)" }, "popularity": 8 },
+                { "id": "rbi-monetary-policy", "name": { "en": "Reserve Bank of India (RBI) & Monetary Policy", "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক (RBI) আৰু মুদ্ৰানীতি" }, "popularity": 10 },
+                { "id": "commercial-banking-npa-inclusion", "name": { "en": "Commercial Banking, NPAs & Financial Inclusion", "as": "বাণিজ্যিক বেংক, NPA আৰু বিত্তীয় অন্তৰ্ভুক্তি" }, "popularity": 9 },
+                { "id": "capital-money-markets-sebi", "name": { "en": "Capital & Money Markets (SEBI, Stock Exchanges)", "as": "মূলধন আৰু মুদ্ৰা বজাৰ (SEBI, ষ্টক এক্সচেঞ্জ)" }, "popularity": 8 },
+                { "id": "union-budget-gst-fiscal-policy", "name": { "en": "Union Budget, Taxation (GST) & Fiscal Policy", "as": "কেন্দ্ৰীয় বাজেট, কৰ ব্যৱস্থা (GST) আৰু ৰাজকোষীয় নীতি" }, "popularity": 10 },
+                { "id": "bop-forex-reserves-india", "name": { "en": "Balance of Payments (BoP) & Foreign Exchange (Forex)", "as": "লেনদেনৰ সমতা (BoP) আৰু বৈদেশিক মুদ্ৰাৰ ভঁৰাল" }, "popularity": 8 },
+                { "id": "foreign-trade-fdi-wto-imf-wb", "name": { "en": "Foreign Trade, FDI/FPI & International Bodies (WTO, IMF, World Bank)", "as": "বৈদেশিক বাণিজ্য, FDI আৰু আন্তঃৰাষ্ট্ৰীয় সংস্থাসমূহ" }, "popularity": 9 },
+                { "id": "planning-history-niti-aayog", "name": { "en": "Five-Year Plans History & NITI Aayog", "as": "পঞ্চবাৰ্ষিক পৰিকল্পনাৰ ইতিহাস আৰু নীতি আয়োগ (NITI Aayog)" }, "popularity": 9 },
+                { "id": "poverty-inequality-unemployment-india", "name": { "en": "Poverty, Inequality & Unemployment", "as": "দ্ৰিদ্ৰতা, অসমতা আৰু নিবনুৱা সমস্যা" }, "popularity": 9 },
+                { "id": "central-flagship-welfare-schemes", "name": { "en": "Central Flagship Welfare Schemes", "as": "কেন্দ্ৰীয় চৰকাৰৰ ফ্লেগশ্বিপ কল্যাণমূলক আঁচনিসমূহ" }, "popularity": 9 }
               ]
             }
           ]
         },
         {
           "id": "art-culture",
-          "name": { "en": "Assam Art & Culture", "as": "অসমৰ কলা আৰু সংস্কৃতি" },
+          "name": { "en": "Art & Culture", "as": "কলা আৰু সংস্কৃতি" },
           "sections": [
             {
-              "id": "culture-sec",
-              "name": { "en": "Culture & Heritage", "as": "সংস্কৃতি আৰু ঐতিহ্য" },
+              "id": "india-art-culture-sec",
+              "name": { "en": "India Art and Culture", "as": "ভাৰতীয় কলা আৰু সংস্কৃতি" },
               "topics": [
-                { "id": "bihu-festival", "name": { "en": "Bihu & Festivals of Assam", "as": "বিহু আৰু অসমৰ উৎসৱসমূহ" }, "popularity": 8 }
+                { "id": "classical-folk-dances-india", "name": { "en": "Classical & Folk Dances", "as": "শাস্ত্ৰীয় আৰু লোকনৃত্যসমূহ" }, "popularity": 10 },
+                { "id": "music-traditions-classical-folk-india", "name": { "en": "Classical & Folk Music Traditions", "as": "শাস্ত্ৰীয় আৰু লোকসংগীতৰ পৰম্পৰা" }, "popularity": 9 },
+                { "id": "theatre-puppetry-martial-arts-india", "name": { "en": "Traditional Theatre, Puppetry & Martial Arts", "as": "পৰম্পৰাগত নাট্যশিল্প, পুতলা নাচ আৰু সমৰ কলা" }, "popularity": 8 },
+                { "id": "paintings-murals-miniatures-india", "name": { "en": "Paintings (Murals & Miniatures)", "as": "চিত্ৰকলা (দেৱাল চিত্ৰ আৰু ক্ষুদ্ৰ চিত্ৰশিল্প)" }, "popularity": 9 },
+                { "id": "sculptures-pottery-india", "name": { "en": "Sculptures & Pottery", "as": "ভাস্কৰ্য আৰু মৃৎশিল্প" }, "popularity": 8 },
+                { "id": "handlooms-textiles-crafts-india", "name": { "en": "Handlooms, Textiles & Traditional Crafts", "as": "হস্ততাঁত, বস্ত্ৰশিল্প আৰু পৰম্পৰাগত শিল্পকলা" }, "popularity": 8 },
+                { "id": "ancient-cave-temple-architecture-india", "name": { "en": "Ancient, Cave & Temple Architecture", "as": "প্ৰাচীন, গুহা আৰু মন্দিৰ স্থাপত্য" }, "popularity": 10 },
+                { "id": "medieval-indo-islamic-structures", "name": { "en": "Medieval & Indo-Islamic Structures", "as": "মধ্যযুগীয় আৰু ইণ্ডো-ইছলামিক স্থাপত্য" }, "popularity": 9 },
+                { "id": "modern-architecture-unesco-sites-india", "name": { "en": "Modern Architecture & UNESCO World Heritage Sites", "as": "আধুনিক স্থাপত্য আৰু ইউনেস্কোৰ বিশ্ব ঐতিহ্য ক্ষেত্ৰসমূহ" }, "popularity": 10 },
+                { "id": "classical-languages-literature-india", "name": { "en": "Classical Languages & Literature", "as": "শাস্ত্ৰীয় ভাষা আৰু প্ৰাচীন সাহিত্য" }, "popularity": 9 },
+                { "id": "major-religions-philosophies-india", "name": { "en": "Major Religions & Philosophical Schools", "as": "প্ৰধান ধৰ্ম আৰু ভাৰতীয় দৰ্শনৰ ধাৰাসমূহ" }, "popularity": 9 },
+                { "id": "fairs-festivals-intangible-heritage-india", "name": { "en": "Fairs, Festivals & Intangible Heritage", "as": "মেলা, উৎসৱ আৰু অমূৰ্ত সাংস্কৃতিক ঐতিহ্য" }, "popularity": 9 }
+              ]
+            },
+            {
+              "id": "assam-art-culture-sec",
+              "name": { "en": "Assam Art and Culture", "as": "অসমৰ কলা আৰু সংস্কৃতি" },
+              "topics": [
+                { "id": "classical-folk-dances-assam", "name": { "en": "Classical & Folk Dances", "as": "সত্ৰীয়া শাস্ত্ৰীয় নৃত্য আৰু লোকনৃত্য" }, "popularity": 10 },
+                { "id": "music-folk-instruments-assam", "name": { "en": "Traditional Music, Folk Songs & Musical Instruments", "as": "পৰম্পৰাগত সংগীত, লোকগীত আৰু বাদ্যযন্ত্ৰ" }, "popularity": 9 },
+                { "id": "theatre-ankiya-naat-bhaona-assam", "name": { "en": "Traditional Theatre (Ankiya Naat & Bhaona)", "as": "পৰম্পৰাগত নাট্যশিল্প (অঙ্কীয়া নাট আৰু ভাওনা)" }, "popularity": 10 },
+                { "id": "crafts-bell-metal-brass-cane-bamboo-assam", "name": { "en": "Traditional Crafts & Metalwork (Bell Metal, Brass & Cane/Bamboo)", "as": "কাঁহ-পিতল, বাঁহ-বেতৰ শিল্প আৰু পৰম্পৰাগত হস্তশিল্প" }, "popularity": 9 },
+                { "id": "handlooms-silk-textiles-assam", "name": { "en": "Handlooms & Silk Textiles", "as": "হস্ততাঁত আৰু মুগা-পাট-এৰী ৰেচম শিল্প" }, "popularity": 10 },
+                { "id": "manuscript-paintings-mask-making-assam", "name": { "en": "Manuscript Paintings & Mask Making", "as": "সাঁচিপাতৰ চিত্ৰকলা আৰু মুখাশিল্প" }, "popularity": 9 },
+                { "id": "ahom-dynasty-architecture-assam", "name": { "en": "Ahom Dynasty Architecture", "as": "আহোম যুগৰ স্থাপত্য আৰু কীৰ্তিচিহ্নসমূহ" }, "popularity": 10 },
+                { "id": "historical-temple-architecture-assam", "name": { "en": "Historical Temple Architecture", "as": "ঐতিহাসিক দৌল-দেৱালয় আৰু মন্দিৰ স্থাপত্য" }, "popularity": 9 },
+                { "id": "sattras-charaideo-maidams-assam", "name": { "en": "Sattras & Charaideo Maidams", "as": "সত্ৰ সংস্কৃতি আৰু চৰাইদেউ মৈদাম (UNESCO ক্ষেত্ৰ)" }, "popularity": 10 },
+                { "id": "major-festivals-fairs-assam", "name": { "en": "Major Festivals & Fairs", "as": "বিহু, অম্বুবাচী আৰু অসমৰ প্ৰধান উৎসৱ-মেলাসমূহ" }, "popularity": 10 },
+                { "id": "assamese-literature-buranjis-culture", "name": { "en": "Assamese Literature & Historical Chronicles (Buranjis)", "as": "অসমীয়া সাহিত্য আৰু বুৰঞ্জী পৰম্পৰা" }, "popularity": 8 },
+                { "id": "indigenous-tribal-traditions-customs-assam", "name": { "en": "Indigenous Tribal Traditions & Customs", "as": "জনজাতীয় পৰম্পৰা, ৰীতি-নীতি আৰু সংস্কৃতি" }, "popularity": 9 }
               ]
             }
           ]
