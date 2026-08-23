@@ -2,8 +2,8 @@
    axomexam — app.js
    Application logic: i18n, navigation, routing, rendering,
    search, Q&A reader, Math Engine (Assamese + English), Mock Tests,
-   Dedicated Downloads Search, Full Bilingual AdSense Legal Pages,
-   Two-Line Subcategory Cards & Clean Footer Integration.
+   Dedicated Downloads Search, Detailed Bilingual AdSense Legal Pages,
+   Compact Stylish Footer with Quick & Legal Links.
    Domain: axomexam.in
    Default UI Language: English ("en").
    ============================================================ */
@@ -182,22 +182,49 @@
     return [];
   }
 
+  /* ================= Enhanced Stylish Footer ================= */
   function renderDynamicFooter() {
     const footerContainer = $("footer.site-footer") || $("footer");
     if (!footerContainer) return;
 
     const isAs = state.uiLang === "as";
     footerContainer.innerHTML = `
-      <div class="footer-wrap" style="max-width:1100px; margin:0 auto; padding:24px 16px; display:flex; flex-direction:column; align-items:center; text-align:center; gap:14px; box-sizing:border-box;">
-        <div class="footer-links" style="display:flex; flex-wrap:wrap; justify-content:center; gap:16px 20px;">
-          <a href="#/about" style="color:var(--ink-soft,#64748b); font-size:0.85rem; font-weight:600; text-decoration:none;">${isAs ? "আমাৰ বিষয়ে" : "About Us"}</a>
-          <a href="#/contact" style="color:var(--ink-soft,#64748b); font-size:0.85rem; font-weight:600; text-decoration:none;">${isAs ? "যোগাযোগ" : "Contact Us"}</a>
-          <a href="#/privacy" style="color:var(--ink-soft,#64748b); font-size:0.85rem; font-weight:600; text-decoration:none;">${isAs ? "গোপনীয়তা নীতি" : "Privacy Policy"}</a>
-          <a href="#/terms" style="color:var(--ink-soft,#64748b); font-size:0.85rem; font-weight:600; text-decoration:none;">${isAs ? "নীতি আৰু চৰ্তসমূহ" : "Terms & Conditions"}</a>
-          <a href="#/disclaimer" style="color:var(--ink-soft,#64748b); font-size:0.85rem; font-weight:600; text-decoration:none;">${isAs ? "দাবীত্যাগ" : "Disclaimer"}</a>
+      <div style="max-width:1100px; margin:0 auto; padding:32px 16px 20px; box-sizing:border-box;">
+        <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; gap:24px; padding-bottom:24px; border-bottom:1px solid var(--border,#e2e8f0);">
+          <div style="flex:1; min-width:240px; text-align:left;">
+            <div style="margin-bottom:8px;">${BRAND_LOGO_SVG}</div>
+            <p style="font-size:0.84rem; color:var(--ink-soft,#64748b); line-height:1.5; margin:0; max-width:320px;">
+              ${isAs ? "অসমৰ সৰ্ববৃহৎ দ্বিভাষিক প্ৰতিযোগিতামূলক পৰীক্ষাৰ প্ৰস্তুতি মঞ্চ। ADRE, অসম আৰক্ষী, APSC আদি পৰীক্ষাৰ বিনামূলীয়া সমল।" : "Assam's premier bilingual competitive exam preparation portal. Free study notes, mock tests and previous papers."}
+            </p>
+          </div>
+          
+          <div style="display:flex; gap:36px; flex-wrap:wrap;">
+            <div style="text-align:left;">
+              <span style="font-size:0.75rem; font-weight:800; text-transform:uppercase; letter-spacing:0.6px; color:var(--ink,#0f172a); display:block; margin-bottom:10px;">${isAs ? "দ্ৰুত লিংক" : "Quick Links"}</span>
+              <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:6px; font-size:0.84rem;">
+                <li><a href="#/mock-test" style="color:var(--ink-soft,#64748b); text-decoration:none; font-weight:500;">${isAs ? "মক টেষ্ট" : "Mock Test"}</a></li>
+                <li><a href="#/previous-year" style="color:var(--ink-soft,#64748b); text-decoration:none; font-weight:500;">${isAs ? "বিগত বৰ্ষৰ প্ৰশ্ন" : "Previous Papers"}</a></li>
+                <li><a href="#/downloads" style="color:var(--ink-soft,#64748b); text-decoration:none; font-weight:500;">${isAs ? "নোটসমূহ ডাউনল'ড" : "Download Notes"}</a></li>
+                <li><a href="#/submit" style="color:var(--ink-soft,#64748b); text-decoration:none; font-weight:500;">${isAs ? "প্ৰশ্ন প্ৰেৰণ কৰক" : "Submit Q&A"}</a></li>
+              </ul>
+            </div>
+
+            <div style="text-align:left;">
+              <span style="font-size:0.75rem; font-weight:800; text-transform:uppercase; letter-spacing:0.6px; color:var(--ink,#0f172a); display:block; margin-bottom:10px;">${isAs ? "আইনী নীতি" : "Legal & Info"}</span>
+              <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:6px; font-size:0.84rem;">
+                <li><a href="#/about" style="color:var(--ink-soft,#64748b); text-decoration:none; font-weight:500;">${isAs ? "আমাৰ বিষয়ে" : "About Us"}</a></li>
+                <li><a href="#/contact" style="color:var(--ink-soft,#64748b); text-decoration:none; font-weight:500;">${isAs ? "যোগাযোগ কৰক" : "Contact Us"}</a></li>
+                <li><a href="#/privacy" style="color:var(--ink-soft,#64748b); text-decoration:none; font-weight:500;">${isAs ? "গোপনীয়তা নীতি" : "Privacy Policy"}</a></li>
+                <li><a href="#/terms" style="color:var(--ink-soft,#64748b); text-decoration:none; font-weight:500;">${isAs ? "নীতি আৰু চৰ্তসমূহ" : "Terms & Conditions"}</a></li>
+                <li><a href="#/disclaimer" style="color:var(--ink-soft,#64748b); text-decoration:none; font-weight:500;">${isAs ? "দাবীত্যাগ" : "Disclaimer"}</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div style="font-size:0.82rem; color:var(--ink-faint,#94a3b8); line-height:1.5;">
-          © ${new Date().getFullYear()} <strong style="color:var(--ink,#0f172a);">axomexam.in</strong> — ${isAs ? "অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাৰ বিনামূলীয়া শিক্ষামূলক মঞ্চ" : "Free Educational Platform for Assam Competitive Exams"}
+
+        <div style="padding-top:16px; font-size:0.8rem; color:var(--ink-faint,#94a3b8); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; align-items:center;">
+          <span>© ${new Date().getFullYear()} <strong>axomexam.in</strong>. All Rights Reserved.</span>
+          <span>Made for Assam Competitive Aspirants</span>
         </div>
       </div>
     `;
@@ -445,7 +472,7 @@
       </li>`;
   }
 
-  /* ================= Mobile Menu Builder (Clean Look) ================= */
+  /* ================= Mobile Menu Builder ================= */
   function buildMobileNav() {
     const nav = $("#mobile-nav");
     if (!nav) return;
@@ -574,7 +601,7 @@
       return renderTopicPage(main, rec);
     }
     
-    // Legal Pages Routing (Bilingual)
+    // Legal Pages Routing
     if (["about", "privacy", "terms", "disclaimer"].includes(segs[0])) return renderStatic(main, segs[0]);
     
     if (segs[0] === "contact") return renderContactPage(main);
@@ -660,7 +687,7 @@
               <span class="rank">${i + 1}</span>
               <span style="display:flex; flex-direction:column; gap:2px;">
                 <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(r.title))}</span>
-                <span id="trend-count-${r.path.replace(/\//g, '-')}" style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${escapeHtml(localized(r.cat.name))} • ${r.nQuestions || 0} ${t("topic.questions")}</span>
+                <span id="trend-count-${r.path.replace(/\//g, '-')}">${escapeHtml(localized(r.cat.name))} • ${r.nQuestions || 0} ${t("topic.questions")}</span>
               </span>
               <span class="trend-flame">
                 <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
@@ -726,7 +753,7 @@
             ${subs.map((s, i) => `
               <a class="sub-card reveal" href="#/category/${cat.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
                 <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
-                <span style="display:flex; flex-direction:column; gap:2px;">
+                <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                   <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(s.name))}</span>
                   <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} ${s.sections ? t("cat.subsections") : t("cat.topics")}</span>
                 </span>
@@ -767,7 +794,7 @@
             ${secs.map((s, i) => `
               <a class="sub-card reveal" href="#/category/${cat.id}/${sub.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
                 <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
-                <span style="display:flex; flex-direction:column; gap:2px;">
+                <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                   <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(s.name))}</span>
                   <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${(s.topics || []).length} ${t("cat.topics")}</span>
                 </span>
@@ -809,9 +836,9 @@
           return `
             <a class="sub-card reveal" href="#/topic/${path}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
               <span class="sub-ico">${topicIconHTML(tp.id, cat.id)}</span>
-              <span style="display:flex; flex-direction:column; gap:2px;">
+              <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                 <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(tp.name))}</span>
-                <span id="count-${path.replace(/\//g, '-')}" style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${countDisplay}</span>
+                <span id="count-${path.replace(/\//g, '-')}">${countDisplay}</span>
               </span>
             </a>`;
         }).join("")}
@@ -1078,65 +1105,121 @@
     observeReveals();
   }
 
-  /* ================= Full Bilingual Legal & Static pages (AdSense Compliant) ================= */
+  /* ================= Detailed Bilingual Legal Pages (AdSense High Standards) ================= */
   function renderStatic(main, key) {
     const isAs = state.uiLang === "as";
     let title = "";
     let content = "";
 
     if (key === "about") {
-      title = isAs ? "আমাৰ বিষয়ে" : "About Us";
+      title = isAs ? "আমাৰ বিষয়ে" : "About Us";
       content = isAs ? `
-        <p><strong>axomexam.in</strong> লৈ আপোনাক স্বাগতম। এইখন অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাৰ শিক্ষাৰ্থীসকলক সহায় কৰাৰ উদ্দেশ্যে গঢ়ি তোলা এক বিনামূলীয়া শিক্ষামূলক মঞ্চ।</p>
-        <p>আমাৰ লক্ষ্য হৈছে ADRE, অসম আৰক্ষী, APSC, আৰু RRB আদি পৰীক্ষাসমূহৰ বাবে উচ্চমানৰ দ্বিভাষিক অধ্যয়ন সামগ্ৰী, মক টেষ্ট আৰু বিগত বৰ্ষৰ প্ৰশ্নকাকত সহজে উপলব্ধ কৰা। ভাষা যাতে শিক্ষাৰ অন্তৰায় নহয়, তাৰ বাবে আমাৰ সকলো সমল অসমীয়া আৰু ইংৰাজী দুয়োটা ভাষাতে প্ৰস্তুত কৰা হৈছে।</p>
-        <p>আমাক বাছি লোৱাৰ বাবে ধন্যবাদ। আপোনাৰ সফলতাৰ যাত্ৰাত axomexam.in সদায় আপোনাৰ কাষত আছে।</p>
+        <p><strong>axomexam.in</strong> লৈ আপোনাক স্বাগতম। এইখন অসমৰ বিভিন্ন প্ৰতিযোগিতামূলক পৰীক্ষাৰ শিক্ষাৰ্থীসকলক সৰ্বাংগীনভাৱে সহায় কৰাৰ উদ্দেশ্যে গঢ়ি তোলা এক নিৰ্ভৰযোগ্য আৰু বিনামূলীয়া শিক্ষামূলক ৱেবছাইট।</p>
+        
+        <h3>আমাৰ উদ্দেশ্য আৰু লক্ষ্য</h3>
+        <p>অসম চৰকাৰৰ বিভিন্ন বিভাগীয় পৰীক্ষা যেনে ADRE (Assam Direct Recruitment Examination), অসম আৰক্ষী (Assam Police SI & Constable), APSC CCE, পঞ্চায়ত আৰু গ্ৰামোন্নয়ন বিভাগ (PNRD), বন বিভাগ, আৰু কেন্দ্ৰীয় ৰে'লৱে (RRB) পৰীক্ষাসমূহৰ বাবে মানসম্পন্ন অধ্যয়ন সমল প্ৰদান কৰাই আমাৰ মূল উদ্দেশ্য।</p>
+        
+        <h3>আমি কি কি আগবঢ়াওঁ?</h3>
+        <ul style="margin-left:20px; line-height:1.8;">
+          <li><strong>দ্বিভাষিক প্ৰশ্নোত্তৰ:</strong> সকলো বিষয়ৰ প্ৰশ্ন আৰু সমাধান অসমীয়া আৰু ইংৰাজী দুয়োটা ভাষাতে উপলব্ধ।</li>
+          <li><strong>অধ্যায়ভিত্তিক মক টেষ্ট:</strong> সময় নিৰূপণ ব্যৱস্থাৰে সৈতে আত্ম-মূল্যায়নৰ সুবিধা।</li>
+          <li><strong>বিনামূলীয়া প্ৰশ্ন-উত্তৰ PDF:</strong> ম’বাইল আৰু প্ৰিন্ট ফ্ৰেণ্ডলী ফৰ্মেটত নোটসমূহ ডাউনল’ড কৰাৰ ব্যৱস্থা।</li>
+          <li><strong>বিগত বৰ্ষৰ প্ৰশ্নকাকত:</strong> পূৰ্বৰ পৰীক্ষাৰ প্ৰশ্নসমূহ উত্তৰসহ অধ্যয়নৰ সুবিধা।</li>
+        </ul>
+
+        <h3>যোগাযোগ</h3>
+        <p>আপোনাৰ যিকোনো অনুসন্ধান, পৰামৰ্শ বা অভিযোগৰ বাবে আমাৰ অফিচিয়েল ইমেইল <a href="mailto:axomexam@outlook.com" style="color:#2563eb; font-weight:700;">axomexam@outlook.com</a>-ত পোনপটীয়াকৈ যোগাযোগ কৰিব পাৰে।</p>
       ` : `
-        <p>Welcome to <strong>axomexam.in</strong>, your trusted educational platform dedicated to helping aspirants succeed in competitive examinations in Assam.</p>
-        <p>Our mission is to provide high-quality, bilingual study materials, mock tests, and previous year question papers specifically tailored for exams like ADRE, Assam Police, APSC, and RRB. We believe that language should never be a barrier to learning, which is why all our resources are crafted in both Assamese and English.</p>
-        <p>Thank you for choosing axomexam.in. We are committed to supporting your success.</p>
+        <p>Welcome to <strong>axomexam.in</strong>, your premier online destination for comprehensive and accessible preparation for all competitive examinations in Assam.</p>
+        
+        <h3>Our Mission & Vision</h3>
+        <p>We are committed to democratizing quality exam resources for candidates preparing for state and national recruitments, including ADRE (Grade III & IV), Assam Police (Sub-Inspector & Constables), APSC, PNRD, Forest Department, and Central RRB examinations.</p>
+        
+        <h3>What We Provide</h3>
+        <ul style="margin-left:20px; line-height:1.8;">
+          <li><strong>Bilingual Repository:</strong> Complete Q&A, chapter-wise notes and explanations translated in both Assamese and English.</li>
+          <li><strong>Interactive Mock Exams:</strong> Real-time timed practice mock tests designed to simulate exact examination environments.</li>
+          <li><strong>Print-Ready PDF Notes:</strong> High-quality, clutter-free natural-flow PDFs downloadable for offline revisions.</li>
+          <li><strong>Previous Year Papers:</strong> Systematically organized past question papers with verified solutions.</li>
+        </ul>
+
+        <h3>Contact & Support</h3>
+        <p>We value community feedback and continuous improvement. Reach out to our academic support team at <a href="mailto:axomexam@outlook.com" style="color:#2563eb; font-weight:700;">axomexam@outlook.com</a>.</p>
       `;
     } else if (key === "privacy") {
-      title = isAs ? "গোপনীয়তা নীতি" : "Privacy Policy";
+      title = isAs ? "গোপনীয়তা নীতি" : "Privacy Policy";
       content = isAs ? `
-        <p><strong>https://axomexam.in</strong> ত দৰ্শনাৰ্থীসকলৰ গোপনীয়তা ৰক্ষা কৰাটো আমাৰ অন্যতম প্ৰধান লক্ষ্য।</p>
-        <h3>১. আমি সংগ্ৰহ কৰা তথ্য</h3>
-        <p>যেতিয়া আপুনি আমাৰ ৱেবছাইট ব্যৱহাৰ কৰে, আমি কোনো ব্যক্তিগত তথ্য পোনপটীয়াকৈ সংগ্ৰহ নকৰোঁ। ল'গ ফাইলৰ জৰিয়তে কেৱল ব্ৰাউজাৰৰ প্ৰকাৰ আৰু পৃষ্ঠাৰ ভিজিট আদি সাধাৰণ তথ্য সংৰক্ষিত হয়।</p>
-        <h3>২. কুকিজ (Cookies) আৰু বিজ্ঞাপন</h3>
-        <p>axomexam.in এ ব্যৱহাৰকাৰীৰ অভিজ্ঞতা উন্নত কৰিবলৈ কুকিজ ব্যৱহাৰ কৰিব পাৰে। Google তৃতীয় পক্ষৰ বিজ্ঞাপনদাতা হিচাপে DART কুকিজ ব্যৱহাৰ কৰি ব্যৱহাৰকাৰীৰ পছন্দ অনুসৰি বিজ্ঞাপন প্ৰদৰ্শন কৰে। ব্যৱহাৰকাৰীয়ে ইচ্ছা কৰিলে Google Ad Settings ত গৈ এই কুকিজ বন্ধ কৰিব পাৰে।</p>
-        <h3>৩. সন্মতি</h3>
-        <p>আমাৰ ৱেবছাইট ব্যৱহাৰ কৰি আপুনি আমাৰ গোপনীয়তা নীতি মানি লোৱা বুলি গণ্য কৰা হ'ব।</p>
+        <p><strong>axomexam.in</strong> ত আপোনাৰ ব্যক্তিগত তথ্যৰ সুৰক্ষা আৰু গোপনীয়তা ৰক্ষা কৰাটো আমাৰ অন্যতম অগ্ৰাধিকাৰ। এই নথিয়ে আমি কি তথ্য সংগ্ৰহ কৰোঁ আৰু সেয়া কেনেদৰে ব্যৱহাৰ কৰোঁ তাৰ স্পষ্ট বিৱৰণ দিয়ে।</p>
+        
+        <h3>১. আমি সংগ্ৰহ কৰা তথ্যসমূহ</h3>
+        <p>আমি আমাৰ ব্যৱহাৰকাৰীৰ পৰা কোনো গোপনীয় ব্যক্তিগত তথ্য (যেনে বেংক বিৱৰণ, পাছৱৰ্ড আদি) সংগ্ৰহ নকৰোঁ। ব্যৱহাৰকাৰীয়ে যেতিয়া Contact বা Submit ফৰ্ম ব্যৱহাৰ কৰে, তেতিয়া কেৱল নাম আৰু ইমেইল ঠিকনাহে প্ৰয়োজন সাপেক্ষে সংগ্ৰহ কৰা হয়।</p>
+        
+        <h3>২. ল'গ ফাইল আৰু এনালিটিক্স</h3>
+        <p>আন সকলো ষ্টেণ্ডাৰ্ড ৱেবছাইটৰ দৰে, axomexam.in এ ছাইটৰ কাৰ্যক্ষমতা আৰু ব্যৱহাৰকাৰীৰ অভিজ্ঞতা উন্নত কৰিবলৈ ল’গ ফাইল ব্যৱহাৰ কৰে (যেনে IP ঠিকনা, ব্ৰাউজাৰৰ প্ৰকাৰ, পৃষ্ঠা পৰিদৰ্শনৰ সময়)। এইবোৰ কোনো ব্যক্তিবিশেষৰ পৰিচয়ৰ সৈতে সংযুক্ত নহয়।</p>
+
+        <h3>৩. গুগল ডাবল-ক্লিক DART কুকিজ আৰু বিজ্ঞাপন</h3>
+        <p>Google আমাৰ ৱেবছাইটৰ এজন অন্যতম তৃতীয় পক্ষৰ বিজ্ঞাপনদাতা। Google-এ ব্যৱহাৰকাৰীৰ পূৰ্বৰ ইণ্টাৰনেট কাৰ্যকলাপৰ ওপৰত ভিত্তি কৰি প্ৰাসংগিক বিজ্ঞাপন প্ৰদৰ্শন কৰিবলৈ DART কুকিজ ব্যৱহাৰ কৰিব পাৰে। ব্যৱহাৰকাৰীয়ে Google Privacy & Terms পৃষ্ঠালৈ গৈ এই বিজ্ঞাপন ব্যক্তিগতকৰণ নিয়ন্ত্ৰণ কৰিব পাৰে।</p>
+
+        <h3>৪. নীতিৰ সন্মতি</h3>
+        <p>আমাৰ ৱেবছাইট ব্যৱহাৰ কৰাৰ জৰিয়তে আপুনি আমাৰ গোপনীয়তা নীতিৰ চৰ্তসমূহত সন্মতি প্ৰকাশ কৰা বুলি গণ্য কৰা হ'ব।</p>
       ` : `
-        <p>At <strong>axomexam.in</strong>, accessible from https://axomexam.in, the privacy of our visitors is of extreme importance to us.</p>
-        <h3>1. Information We Collect</h3>
-        <p>We do not collect personal identification information directly. Non-personal information such as browser type, IP address, and page visits may be collected automatically through log files to optimize user experience.</p>
-        <h3>2. Cookies and Third-Party Advertising</h3>
-        <p>axomexam.in uses cookies. Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to our website or other websites. Users may opt out of personalized advertising by visiting Google's Ads Settings.</p>
-        <h3>3. Consent</h3>
-        <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
+        <p>At <strong>axomexam.in</strong> (accessible via https://axomexam.in), the privacy of our visitors is of paramount importance. This document outlines the types of personal and analytical information received and collected by our platform.</p>
+        
+        <h3>1. Information Collection and Handling</h3>
+        <p>We do not mandate personal account creation or collect sensitive personal identification details. Information submitted via contact or feedback forms (such as Name and Email) is used strictly to respond to user inquiries.</p>
+
+        <h3>2. Log Files & Standard Analytics</h3>
+        <p>Like standard web portals, axomexam.in utilizes standard log files. The data inside includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date/time stamps, referring/exit pages, and click metrics. This data is non-personally identifiable and used purely for site maintenance.</p>
+
+        <h3>3. Google AdSense & Third-Party Cookies</h3>
+        <p>Google, as a third-party vendor, uses cookies to serve contextual advertisements on our site. Google's use of advertising cookies enables it and its partners to serve ads to users based on their visits to axomexam.in and other sites across the web. You can opt out of personalized advertising by visiting Google Ad Settings.</p>
+
+        <h3>4. Consent</h3>
+        <p>By using our website, you hereby consent to our Privacy Policy and agree to all its operational terms.</p>
       `;
     } else if (key === "terms") {
       title = isAs ? "নীতি আৰু চৰ্তসমূহ" : "Terms & Conditions";
       content = isAs ? `
-        <p><strong>axomexam.in</strong> ব্যৱহাৰ কৰাৰ নিয়ম আৰু চৰ্তসমূহ তলত দিয়া হ'ল:</p>
-        <h3>১. বৌদ্ধিক সম্পত্তি আৰু ব্যৱহাৰৰ অনুজ্ঞাপত্ৰ</h3>
-        <p>axomexam.in ত উপলব্ধ সকলো শিক্ষামূলক সমল কেৱল ব্যক্তিগত আৰু শিক্ষণ উদ্দেশ্যত ব্যৱহাৰৰ বাবেহে অনুমতি দিয়া হৈছে। আমাৰ সমলসমূহ ব্যৱসায়িকভাৱে বিক্ৰী বা পুনৰ প্ৰকাশ কৰা নিষিদ্ধ।</p>
-        <h3>২. সমলৰ দায়িত্ব</h3>
-        <p>ৱেবছাইটত দিয়া প্ৰশ্ন আৰু তথ্যসমূহ যথাসম্ভৱ নিৰ্ভুল কৰিবলৈ চেষ্টা কৰা হৈছে। তথাপিও কোনো অনিচ্ছাকৃত ভুলৰ বাবে ৱেবছাইট কৰ্তৃপক্ষ আইনীভাৱে দায়বদ্ধ নহ'ব।</p>
+        <p><strong>axomexam.in</strong> লৈ স্বাগতম। এই ৱেবছাইটটো ব্যৱহাৰ কৰাৰ ক্ষেত্ৰত তলত উল্লেখ কৰা নীতি আৰু চৰ্তসমূহ প্ৰযোজ্য হ'ব:</p>
+        
+        <h3>১. বৌদ্ধিক সম্পত্তি আৰু ব্যৱহাৰৰ নিয়ম</h3>
+        <p>axomexam.in ত প্ৰকাশিত সকলো পাঠ্যক্ৰম, প্ৰশ্নোত্তৰ, মক টেষ্ট আৰু PDF সমল কেৱল ছাত্ৰ-ছাত্ৰী আৰু পৰীক্ষাৰ্থীৰ ব্যক্তিগত শিক্ষাৰ বাবেহে অনুমোদিত। আমাৰ অনুমতি অবিহনে কোনো সমল ব্যৱসায়িক স্বাৰ্থত পুনৰ প্ৰকাশ, বিক্ৰী বা অনৈতিকভাৱে ব্যৱহাৰ কৰা নিষিদ্ধ।</p>
+
+        <h3>২. তথ্যৰ শুদ্ধতা আৰু সীমাবদ্ধতা</h3>
+        <p>আমি সকলো প্ৰশ্ন আৰু উত্তৰ নিৰ্ভুলভাৱে যুগুত কৰিবলৈ যথাসম্ভৱ চেষ্টা কৰোঁ। তথাপিও কোনো তথ্যৰ অনিচ্ছাকৃত ত্ৰুটিৰ বাবে হোৱা শৈক্ষিক বা আনুসংগিক ক্ষতিৰ বাবে ৱেবছাইট প্ৰশাসক আইনগতভাৱে দায়বদ্ধ নহ’ব।</p>
+
+        <h3>৩. বাহ্যিক লিংক</h3>
+        <p>আমাৰ ৱেবছাইটত তৃতীয় পক্ষৰ লিংক (যেনে চৰকাৰী জাননী, অফিচিয়েল পৰীক্ষা প’ৰ্টেল আদি) থাকিব পাৰে। সেই বাহ্যিক ৱেবছাইটসমূহৰ সমল বা নীতিৰ বাবে আমি দায়বদ্ধ নহওঁ।</p>
       ` : `
-        <p>Welcome to <strong>axomexam.in</strong>. By accessing this website, you accept these terms and conditions.</p>
-        <h3>1. Intellectual Property Rights</h3>
-        <p>All materials and educational contents on axomexam.in are for personal, non-commercial use only. You must not sell, republish, or duplicate our materials commercially without explicit permission.</p>
-        <h3>2. Accuracy of Materials</h3>
-        <p>The materials appearing on axomexam.in are for general educational purposes. While we strive for absolute accuracy, we do not warrant that any of the materials on its website are completely error-free.</p>
+        <p>Welcome to <strong>axomexam.in</strong>. By accessing and browsing this website, you accept and agree to comply with the following Terms and Conditions.</p>
+        
+        <h3>1. Content Usage & Intellectual Property</h3>
+        <p>All materials, structured questions, study notes, and downloadable assets published on axomexam.in are intended strictly for educational, personal, and non-commercial usage. Redistribution, commercial reproduction, or resale without written permission is strictly prohibited.</p>
+
+        <h3>2. Accuracy & Limitation of Liability</h3>
+        <p>While our editorial team endeavors to ensure absolute factual correctness across all subjects, study materials are provided on an 'as-is' basis. axomexam.in does not warrant the completeness or absolute infallibility of contents for official evaluation criteria.</p>
+
+        <h3>3. External Hyperlinks</h3>
+        <p>Our pages may occasionally contain links to official external sites or reference sources. We hold no responsibility for the content, privacy guidelines, or accuracy of third-party platforms.</p>
       `;
     } else if (key === "disclaimer") {
       title = isAs ? "দাবীত্যাগ (Disclaimer)" : "Disclaimer";
       content = isAs ? `
-        <p><strong>https://axomexam.in</strong> ত থকা সকলো তথ্য কেৱল সাধাৰণ শিক্ষামূলক উদ্দেশ্যে প্ৰকাশ কৰা হৈছে।</p>
-        <p>আমাৰ ৱেবছাইটত দিয়া তথ্যৰ সম্পূৰ্ণতা বা সঠিকতাৰ বিষয়ে কোনো নিশ্চয়তা দিয়া নহয়। এই তথ্যৰ ভিত্তিত লোৱা যিকোনো পদক্ষেপ আপোনাৰ নিজা দায়িত্বত হ'ব আৰু তাৰ বাবে হোৱা কোনো ক্ষতিৰ বাবে axomexam.in দায়ী নহ'ব।</p>
+        <p><strong>https://axomexam.in</strong> ত প্ৰকাশিত সকলো তথ্য কেৱল সাধাৰণ শিক্ষা আৰু জ্ঞান আহৰণৰ উদ্দেশ্যতহে আগবঢ়োৱা হৈছে।</p>
+        
+        <h3>১. চৰকাৰী সংস্থাৰ সৈতে সম্পৰ্কহীনতা</h3>
+        <p>axomexam.in কোনো চৰকাৰী সংস্থা, অসম লোকসেৱা আয়োগ (APSC), বা কোনো পৰীক্ষা পৰিচালনা কৰা চৰকাৰী নিগমৰ অফিচিয়েল ৱেবছাইট নহয়। ই এক স্বতন্ত্ৰ শিক্ষামূলক প’ৰ্টেল। অফিচিয়েল জাননীৰ বাবে পৰীক্ষাৰ্থীসকলক সদায় চৰকাৰী গেজেট বা অফিচিয়েল প’ৰ্টেল অনুসৰণ কৰিবলৈ পৰামৰ্শ দিয়া হয়।</p>
+
+        <h3>২. পেছাদাৰী পৰামৰ্শ নহয়</h3>
+        <p>আমাৰ ৱেবছাইটত উপলব্ধ সমলসমূহ পৰীক্ষাৰ্থীৰ অনুশীলনৰ সহায়ৰ বাবেহে তৈয়াৰ কৰা হৈছে। ইয়াৰ ওপৰত ভিত্তি কৰি লোৱা যিকোনো সিদ্ধান্ত আপোনাৰ নিজা বিবেচনাধীন।</p>
       ` : `
-        <p>All information on this website - <strong>https://axomexam.in</strong> - is published in good faith and for general educational and informational purposes only.</p>
-        <p>axomexam.in does not make any warranties about the completeness and absolute accuracy of this information. Any action you take upon the information you find on this website is strictly at your own risk.</p>
+        <p>All content and question banks on <strong>https://axomexam.in</strong> are published in good faith and solely for general educational, academic, and competitive examination preparation purposes.</p>
+        
+        <h3>1. Non-Affiliation with Government Authorities</h3>
+        <p>axomexam.in is an independent private educational website. It is NOT affiliated with, sponsored by, or endorsed by the Government of Assam, APSC, SLPRB, State Recruitment Boards, or any governmental testing agency. Candidates must always cross-reference with official state recruitment gazettes.</p>
+
+        <h3>2. Educational Warranties</h3>
+        <p>We make no absolute warranties regarding test pattern guarantees or exam success outcomes. Use of study resources and mock practices is at the user's sole discretion.</p>
       `;
     } else {
       content = `<p>${t(`page.${key}.p1`)}</p>`;
@@ -1148,7 +1231,7 @@
         <h1>${escapeHtml(title)}</h1>
       </div>
       <section class="section" style="padding-bottom:40px;">
-        <div class="info-panel" style="background:var(--bg,#ffffff); padding:26px 24px; border-radius:18px; border:1px solid var(--border,#e2e8f0); line-height:1.75; color:var(--ink-soft,#475569); box-shadow:0 8px 24px -4px rgba(15,23,42,0.03);">
+        <div class="info-panel" style="background:var(--bg,#ffffff); padding:28px 24px; border-radius:18px; border:1px solid var(--border,#e2e8f0); line-height:1.75; color:var(--ink-soft,#475569); box-shadow:0 8px 24px -4px rgba(15,23,42,0.03); max-width:840px; margin:0 auto; text-align:left;">
           ${content}
         </div>
       </section>`;
@@ -1828,7 +1911,7 @@
             ${exams.map((ex, i) => `
               <a class="sub-card reveal" href="#/previous-year/${ex.id}" style="--cat:${ex.color}" data-delay="${i * 40}">
                 <span class="sub-ico">${escapeHtml(ex.icon || ex.id.slice(0, 2).toUpperCase())}</span>
-                <span style="display:flex; flex-direction:column; gap:2px;">
+                <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                   <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(ex.name))}</span>
                   <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${t("pyear.years")}</span>
                 </span>
@@ -1855,7 +1938,7 @@
             ${years.map((yr, i) => `
               <a class="sub-card reveal" href="#/previous-year/${exam.id}/${yr}" style="--cat:${exam.color}" data-delay="${i * 50}">
                 <span class="sub-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4"/><path d="M16 3v4"/><path d="M3 10h18"/></svg></span>
-                <span style="display:flex; flex-direction:column; gap:2px;">
+                <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                   <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(yr)}</span>
                   <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${t("pyear.papers")}</span>
                 </span>
@@ -2287,7 +2370,7 @@
           ${subs.map((s, i) => `
             <a class="sub-card reveal" href="#/mock-test/${cat.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
               <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
-              <span style="display:flex; flex-direction:column; gap:2px;">
+              <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                 <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(s.name))}</span>
                 <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} Sections</span>
               </span>
@@ -2315,7 +2398,7 @@
           ${secs.map((sec, i) => `
             <a class="sub-card reveal" href="#/mock-test/${cat.id}/${sub.id}/${sec.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
               <span class="sub-ico">${topicIconHTML(sec.id, cat.id)}</span>
-              <span style="display:flex; flex-direction:column; gap:2px;">
+              <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                 <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(sec.name))}</span>
                 <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${(sec.topics || []).length} Topics</span>
               </span>
@@ -2344,7 +2427,7 @@
           ${topics.map((tp, i) => `
             <a class="sub-card reveal" href="#/mock-test/${cat.id}/start" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
               <span class="sub-ico">${topicIconHTML(tp.id, cat.id)}</span>
-              <span style="display:flex; flex-direction:column; gap:2px;">
+              <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                 <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(tp.name))}</span>
                 <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">Take Mock Test</span>
               </span>
