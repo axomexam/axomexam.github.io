@@ -2,8 +2,8 @@
    axomexam — app.js
    Application logic: i18n, navigation, routing, rendering,
    search, Q&A reader, Math Engine (Assamese + English), Mock Tests,
-   Dedicated Downloads Search (Centered Mobile), Permanent "Download" Button,
-   Direct SVG Brand Logo & Natural Flow-Based A4 PDF Exporter.
+   Dedicated Downloads Search, AdSense Compliant Legal Pages.
+   Domain: axomexam.in
    Default UI Language: English ("en").
    ============================================================ */
 
@@ -12,21 +12,21 @@
 
   /* ================= State ================= */
   const state = {
-    categories: [],        // normalized tree
-    topicMap: {},          // path -> topic record
-    topicIndex: [],        // flat list for search/trending
+    categories: [],        
+    topicMap: {},          
+    topicIndex: [],        
     ready: false,
-    page: 0,               // pagination for current topic page
-    lang: "as",            // reading language for Q&A content ("en" | "as")
-    uiLang: "en",          // default UI language ("en" | "as")
-    mock: null,            // active mock test session
-    isGeneratingPdf: false // prevent multiple rapid PDF download clicks
+    page: 0,               
+    lang: "as",            
+    uiLang: "en",          
+    mock: null,            
+    isGeneratingPdf: false 
   };
 
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 
-  /* Direct Vector Brand Logo (Prevents any misalignment/font drop in PDF) */
+  /* Direct Vector Brand Logo */
   const BRAND_LOGO_SVG = `
     <svg width="118" height="26" viewBox="0 0 118 26" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
       <defs>
@@ -62,7 +62,6 @@
   function formatMath(str) {
     if (str == null) return "";
     let s = String(str);
-
     const hasLatex = /\$[^$]+\$|\\\([^\\]+\\\)/.test(s);
     if (!hasLatex) {
       s = escapeHtml(s);
@@ -95,7 +94,7 @@
     }
   }
 
-  /* Universal content extractor supporting all JSON schemas */
+  /* Universal content extractor */
   function extractField(item, fieldName, forcedLang) {
     if (!item) return "";
     const targetLang = forcedLang || ((state.mock && state.mock.testLang) ? state.mock.testLang : state.lang);
@@ -188,7 +187,7 @@
     const taglineEl = $("#footer-tagline");
     if (taglineEl) taglineEl.textContent = t("footer.tagline");
     const copyEl = $("#footer-copy");
-    if (copyEl) copyEl.textContent = `© ${new Date().getFullYear()} axomexam — ${t("brand.tagline")}`;
+    if (copyEl) copyEl.textContent = `© ${new Date().getFullYear()} axomexam.in — ${t("brand.tagline")}`;
     $$("[aria-label]").forEach((el) => {
       const k = el.getAttribute("data-aria-i18n");
       if (k) el.setAttribute("aria-label", t(k));
@@ -405,14 +404,26 @@
       const on = root === c.id;
       return `<a class="${on ? "active" : ""}" href="#/category/${c.id}">${escapeHtml(localized(c.name))}</a>`;
     }).join("");
+    
     const extraLinks = [
       ["#/previous-year", t("nav.previousYear")],
       ["#/submit", t("nav.submit")],
-      ["#/contact", "Contact Us"],
+      ["#/contact", "Contact Us"]
     ].map(([href, label]) => {
       const on = root === href.replace("#/", "");
       return `<a class="${on ? "active" : ""}" href="${href}">${escapeHtml(label)}</a>`;
     }).join("");
+
+    const legalLinks = [
+      ["#/about", "About Us"],
+      ["#/privacy", "Privacy Policy"],
+      ["#/terms", "Terms & Conditions"],
+      ["#/disclaimer", "Disclaimer"]
+    ].map(([href, label]) => {
+      const on = root === href.replace("#/", "");
+      return `<a class="${on ? "active" : ""}" href="${href}">${escapeHtml(label)}</a>`;
+    }).join("");
+
     return `
       <li class="has-drop">
         <a class="nav-link ${isInside ? "active" : ""}" href="#/categories">
@@ -422,11 +433,13 @@
           ${catLinks ? `<div class="d-label">${escapeHtml(t("nav.categories"))}</div>${catLinks}` : ""}
           <div class="d-label">${escapeHtml(t("mmenu.extra"))}</div>
           ${extraLinks}
+          <div class="d-label" style="margin-top:8px;">Legal</div>
+          ${legalLinks}
         </div>
       </li>`;
   }
 
-  /* ================= Mobile Menu Builder (Sleek Border & Highlight on all 4 buttons) ================= */
+  /* ================= Mobile Menu Builder (Sleek Border & Highlight on all 4 buttons + Legal Links) ================= */
   function buildMobileNav() {
     const nav = $("#mobile-nav");
     if (!nav) return;
@@ -446,14 +459,14 @@
             if (grand && grand.length) {
               return `
                 <div class="m-row">
-                  <a class="m-item" href="#/category/${cat.id}/${sub.id}">${escapeHtml(localized(sub.name))}</a>
+                  <a class="m-item" href="#/category/${cat.id}/${sub.id}"><span style="font-weight:600; font-size:0.92rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(sub.name))}</span></a>
                   <button class="m-toggle" data-toggle data-target="${cat.id}-${sub.id}" aria-label="toggle"><span class="caret"></span></button>
                 </div>
                 <div class="m-sub m-nested" id="msub-${cat.id}-${sub.id}">
-                  ${grand.map((sec) => `<a href="#/category/${cat.id}/${sub.id}/${sec.id}">${escapeHtml(localized(sec.name))}</a>`).join("")}
+                  ${grand.map((sec) => `<a href="#/category/${cat.id}/${sub.id}/${sec.id}"><span style="font-weight:600; font-size:0.88rem; color:var(--ink-soft,#475569); letter-spacing:0.2px;">${escapeHtml(localized(sec.name))}</span></a>`).join("")}
                 </div>`;
             }
-            return `<a href="#/category/${cat.id}/${sub.id}">${escapeHtml(localized(sub.name))}</a>`;
+            return `<a href="#/category/${cat.id}/${sub.id}"><span style="font-weight:600; font-size:0.92rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(sub.name))}</span></a>`;
           }).join("")}</div>` : ""}
         </li>`;
     });
@@ -492,9 +505,19 @@
         </a>
       </li>`;
 
+    const legalItem = `
+      <li style="margin-top:10px; padding-top:14px; padding-bottom:20px; border-top:1px solid var(--border,#e2e8f0);">
+        <div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center;">
+          <a href="#/about" style="font-size:0.78rem; color:var(--ink-soft,#64748b); font-weight:600; text-decoration:none;">About Us</a>
+          <a href="#/privacy" style="font-size:0.78rem; color:var(--ink-soft,#64748b); font-weight:600; text-decoration:none;">Privacy Policy</a>
+          <a href="#/terms" style="font-size:0.78rem; color:var(--ink-soft,#64748b); font-weight:600; text-decoration:none;">Terms</a>
+          <a href="#/disclaimer" style="font-size:0.78rem; color:var(--ink-soft,#64748b); font-weight:600; text-decoration:none;">Disclaimer</a>
+        </div>
+      </li>`;
+
     const ci = state.categories.findIndex((c) => c.id === "computer");
-    if (ci !== -1) catParts.splice(ci + 1, 0, downloadItem, prevYearItem, submitItem, contactItem);
-    else catParts.push(downloadItem, prevYearItem, submitItem, contactItem);
+    if (ci !== -1) catParts.splice(ci + 1, 0, downloadItem, prevYearItem, submitItem, contactItem, legalItem);
+    else catParts.push(downloadItem, prevYearItem, submitItem, contactItem, legalItem);
 
     nav.innerHTML = catParts.join("");
 
@@ -554,7 +577,10 @@
       if (!rec) return render404(main);
       return renderTopicPage(main, rec);
     }
-    if (segs[0] === "about") return renderStatic(main, "about");
+    
+    // Legal Pages Routing
+    if (["about", "privacy", "terms", "disclaimer"].includes(segs[0])) return renderStatic(main, segs[0]);
+    
     if (segs[0] === "contact") return renderContactPage(main);
     if (segs[0] === "trending") return renderTrendingPage(main);
     if (segs[0] === "previous-year") return renderPreviousYear(main, segs);
@@ -568,7 +594,7 @@
     return render404(main);
   }
 
-  /* ================= Homepage (ADRE Exam Added) ================= */
+  /* ================= Homepage ================= */
   function renderHome(main) {
     const totalQuestions = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0);
     const totalPdfs = state.topicIndex.length + (state.topicIndex.filter((r) => r.pdf).length);
@@ -637,7 +663,7 @@
               <span class="topic-ico">${topicIconHTML(r.topic.id, r.cat.id)}</span>
               <span class="rank">${i + 1}</span>
               <span>
-                <b>${escapeHtml(localized(r.title))}</b>
+                <span style="font-weight:600; font-size:0.92rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(r.title))}</span>
                 <span id="trend-count-${r.path.replace(/\//g, '-')}">${escapeHtml(localized(r.cat.name))} • ${r.nQuestions || 0} ${t("topic.questions")}</span>
               </span>
               <span class="trend-flame">
@@ -704,7 +730,7 @@
             ${subs.map((s, i) => `
               <a class="sub-card reveal" href="#/category/${cat.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
                 <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
-                <span><b>${escapeHtml(localized(s.name))}</b>
+                <span><span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(s.name))}</span>
                   <span>${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} ${s.sections ? t("cat.subsections") : t("cat.topics")}</span>
                 </span>
               </a>`).join("")}
@@ -744,7 +770,7 @@
             ${secs.map((s, i) => `
               <a class="sub-card reveal" href="#/category/${cat.id}/${sub.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
                 <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
-                <span><b>${escapeHtml(localized(s.name))}</b>
+                <span><span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(s.name))}</span>
                   <span>${(s.topics || []).length} ${t("cat.topics")}</span>
                 </span>
               </a>`).join("")}
@@ -785,7 +811,7 @@
           return `
             <a class="sub-card reveal" href="#/topic/${path}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
               <span class="sub-ico">${topicIconHTML(tp.id, cat.id)}</span>
-              <span><b>${escapeHtml(localized(tp.name))}</b>
+              <span><span style="font-weight:600; font-size:0.92rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(tp.name))}</span>
                 <span id="count-${path.replace(/\//g, '-')}">${countDisplay}</span>
               </span>
             </a>`;
@@ -1043,7 +1069,7 @@
             <a class="topic-card reveal" href="#/topic/${r.path}" style="--cat:${catColor(r.cat.id)}" data-delay="${(i % 10) * 40}">
               <span class="topic-ico">${topicIconHTML(r.topic.id, r.cat.id)}</span>
               <span class="rank">${i + 1}</span>
-              <span><b>${escapeHtml(localized(r.title))}</b>
+              <span><span style="font-weight:600; font-size:0.92rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(r.title))}</span>
                 <span>${escapeHtml(localized(r.cat.name))}${r.sub ? " • " + escapeHtml(localized(r.sub.name)) : ""} • ${r.nQuestions || 0} ${t("topic.questions")}</span>
               </span>
             </a>`).join("")}
@@ -1052,20 +1078,76 @@
     observeReveals();
   }
 
-  /* ================= Static pages ================= */
+  /* ================= Legal & Static pages (AdSense Compliant) ================= */
   function renderStatic(main, key) {
+    let title = t(`page.${key}.title`) || key.charAt(0).toUpperCase() + key.slice(1);
+    let content = "";
+
+    if (key === "about") {
+      title = "About Us";
+      content = `
+        <p>Welcome to <strong>axomexam.in</strong>, your trusted educational platform dedicated to helping aspirants succeed in competitive examinations in Assam.</p>
+        <p>Our mission is to provide high-quality, bilingual study materials, mock tests, and previous year question papers specifically tailored for exams like ADRE, Assam Police, APSC, and RRB. We believe that language should never be a barrier to learning, which is why all our resources are meticulously crafted in both Assamese and English.</p>
+        <p>Whether you need quick PDF notes, daily mock tests, or chapter-wise comprehensive Q&A, we are here to support your journey. Thank you for choosing axomexam.in.</p>
+      `;
+    } else if (key === "privacy") {
+      title = "Privacy Policy";
+      content = `
+        <p>At <strong>axomexam.in</strong>, accessible from https://axomexam.in, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by axomexam.in and how we use it.</p>
+        <h3>1. Information We Collect</h3>
+        <p>When you use our website, we may collect non-personally identifiable information automatically via log files, which include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable.</p>
+        <h3>2. Cookies and Web Beacons</h3>
+        <p>Like any other website, axomexam.in uses "cookies". These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
+        <h3>3. Google DoubleClick DART Cookie</h3>
+        <p>Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to axomexam.in and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">https://policies.google.com/technologies/ads</a></p>
+        <h3>4. Third Party Privacy Policies</h3>
+        <p>axomexam.in's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information.</p>
+        <h3>5. Consent</h3>
+        <p>By using our website, you hereby consent to our Privacy Policy and agree to its Terms and Conditions.</p>
+      `;
+    } else if (key === "terms") {
+      title = "Terms & Conditions";
+      content = `
+        <p>Welcome to <strong>axomexam.in</strong>!</p>
+        <p>These terms and conditions outline the rules and regulations for the use of axomexam's Website, located at https://axomexam.in.</p>
+        <h3>1. License</h3>
+        <p>Unless otherwise stated, axomexam and/or its licensors own the intellectual property rights for all material on axomexam.in. All intellectual property rights are reserved. You may access this from axomexam.in for your own personal use subjected to restrictions set in these terms and conditions.</p>
+        <p>You must not:</p>
+        <ul style="margin-left:20px; color:var(--ink-soft,#475569);">
+          <li>Republish material from axomexam.in without proper attribution</li>
+          <li>Sell, rent or sub-license material from axomexam.in</li>
+          <li>Reproduce, duplicate or copy material from axomexam.in commercially</li>
+        </ul>
+        <h3>2. Content Liability</h3>
+        <p>We shall not be hold responsible for any content that appears on our Website. You agree to protect and defend us against all claims that is rising on our Website.</p>
+        <h3>3. Removal of links from our website</h3>
+        <p>If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.</p>
+      `;
+    } else if (key === "disclaimer") {
+      title = "Disclaimer";
+      content = `
+        <p>All the information on this website - <strong>https://axomexam.in</strong> - is published in good faith and for general information and educational purpose only. axomexam.in does not make any warranties about the completeness, reliability and accuracy of this information.</p>
+        <p>Any action you take upon the information you find on this website (axomexam.in), is strictly at your own risk. axomexam.in will not be liable for any losses and/or damages in connection with the use of our website.</p>
+        <p>From our website, you can visit other websites by following hyperlinks to such external sites. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before we have the opportunity to remove a link which may have gone 'bad'.</p>
+        <p>Please be also aware that when you leave our website, other sites may have different privacy policies and terms which are beyond our control. Please be sure to check the Privacy Policies of these sites as well as their "Terms of Service" before engaging in any business or uploading any information.</p>
+      `;
+    } else {
+      content = `<p>${t(`page.${key}.p1`)}</p>`;
+    }
+
     main.innerHTML = `
       <div class="page-head">
-        <nav class="breadcrumb"><a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t(`page.${key}.title`)}</span></nav>
-        <h1>${t(`page.${key}.title`)}</h1>
+        <nav class="breadcrumb"><a href="#/">Home</a><span class="bc-sep">/</span><span>${escapeHtml(title)}</span></nav>
+        <h1>${escapeHtml(title)}</h1>
       </div>
       <section class="section" style="padding-bottom:40px;">
-        <div class="info-panel">
-          <p>${t(`page.${key}.p1`)}</p>
-          ${key === "about" ? `<p style="margin-top:10px;">${t("page.about.p2")}</p>` : ""}
+        <div class="info-panel" style="background:var(--bg,#ffffff); padding:26px 24px; border-radius:18px; border:1px solid var(--border,#e2e8f0); line-height:1.7; color:var(--ink-soft,#475569); box-shadow:0 8px 24px -4px rgba(15,23,42,0.03);">
+          ${content}
         </div>
       </section>`;
+    
     applyStaticI18n();
+    window.scrollTo(0, 0);
   }
 
   /* ================= Contact Us Page (Compact Top Spacing for Mobile & Desktop) ================= */
@@ -1237,7 +1319,7 @@
           <a class="sp-topic" href="#/topic/${h.rec.path}">
             <span class="chip">${escapeHtml(localized(h.rec.cat.name))}</span>
             <span>
-              <b>${escapeHtml(localized(h.rec.title))}</b>
+              <span style="font-weight:600; font-size:0.92rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(h.rec.title))}</span>
               <span>${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.nQuestions || 0} ${t("topic.questions")}</span>
             </span>
           </a>`).join("");
@@ -1657,7 +1739,7 @@
 
         <!-- Footer -->
         <div style="border-top:1px solid #e2e8f0; padding-top:4px; display:flex; justify-content:space-between; align-items:center; font-size:9.5px; color:#64748b; font-family:'Plus Jakarta Sans', sans-serif; position:relative; z-index:2;">
-          <span>© axomexam — Free Educational Notes for Assam Competitive Exams</span>
+          <span>© axomexam.in — Free Educational Notes for Assam Competitive Exams</span>
           <span style="position:absolute; left:50%; transform:translateX(-50%); font-weight:700; color:#334155; font-size:10px;">— Page ${pageNum} of ${totalPages} —</span>
           <span>axomexam.in</span>
         </div>
@@ -1932,16 +2014,13 @@
       </section>`;
   }
 
-  /* ================= Submit Q&A page (Dark Mode + Blue Submit Button + Official Email Integrated) ================= */
+  /* ================= Submit Q&A page ================= */
   function renderSubmitPage(main) {
     main.innerHTML = `
-      <!-- Paytm-Style 2-Second Center Success Popup -->
       <div class="success-modal-overlay" id="successPopup" style="position:fixed;inset:0;background:rgba(15,23,42,0.65);backdrop-filter:blur(5px);display:none;place-items:center;z-index:99999;opacity:0;transition:opacity 0.2s ease;">
         <div class="success-modal-card" style="background:var(--bg,#ffffff);color:var(--ink,#0f172a);border-radius:24px;padding:30px 24px;width:82%;max-width:300px;text-align:center;box-shadow:0 25px 50px -12px rgba(0,0,0,0.35);border:1px solid var(--line,#e2e8f0);">
           <div class="tick-circle" style="width:68px;height:68px;background:#10b981;border-radius:50%;display:grid;place-items:center;margin:0 auto 16px;box-shadow:0 8px 24px -4px rgba(16,185,129,0.5);">
-            <svg viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="width:36px;height:36px;">
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="width:36px;height:36px;"><polyline points="20 6 9 17 4 12"></polyline></svg>
           </div>
           <h3 id="pop-title" style="font-size:1.25rem;font-weight:800;color:var(--ink,#0f172a);margin-bottom:4px;">Sent Successfully!</h3>
           <p id="pop-desc" style="font-size:0.84rem;color:var(--ink-soft,#64748b);font-weight:600;">Your message has been received.</p>
@@ -1950,13 +2029,10 @@
 
       <div class="form-wrapper" style="width:100%;max-width:540px;margin:20px auto 40px;background:var(--bg,#ffffff);color:var(--ink,#0f172a);border-radius:20px;border:1px solid var(--line,#e2e8f0);box-shadow:var(--card-shadow, 0 12px 36px -8px rgba(15,23,42,0.08));padding:30px 24px;display:flex;flex-direction:column;box-sizing:border-box;">
         <div class="form-header" style="display:flex;flex-direction:column;align-items:center;text-align:center;margin-bottom:22px;gap:12px;">
-          <!-- Language Toggle Top-Centered -->
           <div class="lang-toggle" style="display:inline-flex;background:var(--bg-soft,#f1f5f9);border:1px solid var(--line,#e2e8f0);border-radius:99px;padding:3px;">
             <button type="button" class="lang-btn active" id="btn-en" style="border:none;background:#2563eb;color:#ffffff;padding:5px 14px;border-radius:99px;font-size:0.78rem;font-weight:700;cursor:pointer;transition:all 0.2s;">EN</button>
             <button type="button" class="lang-btn" id="btn-as" style="border:none;background:transparent;color:var(--ink-soft,#64748b);padding:5px 14px;border-radius:99px;font-size:0.78rem;font-weight:700;cursor:pointer;transition:all 0.2s;">অসমীয়া</button>
           </div>
-
-          <!-- Titles Fully Centered -->
           <div class="form-title" style="text-align:center;width:100%;">
             <h2 id="txt-title" style="font-size:1.35rem;font-weight:800;color:var(--ink,#0f172a);letter-spacing:-0.4px;">Submit Q&A Note</h2>
             <p id="txt-desc" style="margin-top:4px;font-size:0.84rem;color:var(--ink-soft,#64748b);">Contribute notes or feedback for aspirants.</p>
@@ -1964,7 +2040,6 @@
         </div>
 
         <form id="qaForm" class="form-body" style="display:flex;flex-direction:column;gap:14px;">
-          <!-- StaticForms API Key, Honeypot & Official Configs -->
           <input type="hidden" name="apiKey" value="sf_304846a9720d7354070bd57c">
           <input type="hidden" name="replyTo" value="axomexam@outlook.com">
           <input type="text" name="honeypot" style="display:none" tabindex="-1" autocomplete="off">
@@ -1973,44 +2048,36 @@
             <label id="lbl-name" for="name" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Your Name</label>
             <input type="text" id="name" name="name" placeholder="e.g. Rahul Borah" required style="width:100%;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;box-sizing:border-box;font-family:inherit;">
           </div>
-
           <div class="field">
             <label id="lbl-email" for="email" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Email Address</label>
             <input type="email" id="email" name="email" placeholder="name@example.com" required style="width:100%;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;box-sizing:border-box;font-family:inherit;">
           </div>
-
           <div class="field">
             <label id="lbl-topic" for="subject" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Subject / Topic (Optional)</label>
             <input type="text" id="subject" name="subject" placeholder="e.g. Assam History, Science" style="width:100%;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;box-sizing:border-box;font-family:inherit;">
           </div>
-
           <div class="field">
             <label id="lbl-question" for="question" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Question (Optional)</label>
             <textarea id="question" name="question" rows="2" placeholder="Type the question here..." style="width:100%;min-height:55px;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;resize:vertical;box-sizing:border-box;font-family:inherit;"></textarea>
           </div>
-
           <div class="field">
             <label id="lbl-answer" for="answer" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Answer / Message (Optional)</label>
             <textarea id="answer" name="answer" rows="3" placeholder="Provide complete answer, steps or message..." style="width:100%;min-height:90px;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;resize:vertical;box-sizing:border-box;font-family:inherit;"></textarea>
           </div>
 
-          <!-- Compact Security Math Captcha Section -->
           <div class="captcha-container" style="background:var(--bg-soft,#f8fafc);border:1.5px solid var(--line,#e2e8f0);border-radius:12px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between;gap:8px;">
             <div class="captcha-left" style="display:flex;align-items:center;gap:8px;">
               <span class="captcha-label" id="lbl-captcha" style="font-size:0.8rem;font-weight:700;color:var(--ink-soft,#64748b);">Security:</span>
               <div class="captcha-badge-wrap" style="display:inline-flex;align-items:center;gap:4px;background:var(--bg,#ffffff);padding:3px 6px 3px 8px;border-radius:8px;border:1px solid var(--line,#cbd5e1);">
                 <span class="captcha-math" id="math-expression" style="font-size:0.92rem;font-weight:800;color:#2563eb;user-select:none;">2 + 3 = ?</span>
                 <button type="button" class="captcha-refresh-btn" id="btn-refresh-captcha" title="Change Captcha" style="border:none;background:transparent;color:var(--ink-faint,#94a3b8);width:24px;height:24px;display:grid;place-items:center;cursor:pointer;">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;">
-                    <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.3"/>
-                  </svg>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.3"/></svg>
                 </button>
               </div>
             </div>
             <input type="number" id="captcha-answer" placeholder="Ans" required style="width:80px;text-align:center;font-weight:700;font-size:0.92rem;padding:7px 8px;background:var(--bg,#ffffff);color:var(--ink,#0f172a);border:1.5px solid var(--line,#cbd5e1);border-radius:8px;outline:none;-moz-appearance:textfield;">
           </div>
 
-          <!-- Blue Submit Button (Never white) -->
           <button type="submit" id="submitBtn" style="width:100%;padding:14px 20px;font-size:0.95rem;font-weight:700;border-radius:12px;margin-top:4px;cursor:pointer;border:none;background:#2563eb !important;color:#ffffff !important;box-shadow:0 6px 16px -4px rgba(37,99,235,0.45);transition:all 0.2s ease;">
             <span id="txt-btn">Submit</span>
           </button>
@@ -2020,89 +2087,35 @@
       </div>
 
       <style>
-        input[type="number"]::-webkit-outer-spin-button,
-        input[type="number"]::-webkit-inner-spin-button {
-          -webkit-appearance: none;
-          margin: 0;
-        }
-        #submitBtn:hover {
-          background: #1d4ed8 !important;
-          transform: translateY(-1px);
-        }
-        #submitBtn:active {
-          transform: scale(0.98);
-        }
-        [data-theme="dark"] .form-wrapper input,
-        [data-theme="dark"] .form-wrapper textarea {
-          background: var(--bg-soft, #0f172a) !important;
-          color: var(--ink, #e5e7eb) !important;
-          border-color: var(--border, #2b3a55) !important;
-        }
-        [data-theme="dark"] .form-wrapper input:focus,
-        [data-theme="dark"] .form-wrapper textarea:focus {
-          border-color: #2563eb !important;
-          box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2) !important;
-        }
-        [data-theme="dark"] .captcha-container {
-          background: var(--bg-soft, #0f172a) !important;
-          border-color: var(--border, #2b3a55) !important;
-        }
-        [data-theme="dark"] .captcha-badge-wrap,
-        [data-theme="dark"] #captcha-answer {
-          background: var(--bg, #0b1120) !important;
-          border-color: var(--border, #2b3a55) !important;
-          color: var(--ink, #e5e7eb) !important;
-        }
-        [data-theme="dark"] .success-modal-card {
-          background: var(--bg-soft, #0f172a) !important;
-          border-color: var(--border, #2b3a55) !important;
-          color: var(--ink, #e5e7eb) !important;
-        }
+        input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+        #submitBtn:hover { background: #1d4ed8 !important; transform: translateY(-1px); }
+        #submitBtn:active { transform: scale(0.98); }
+        [data-theme="dark"] .form-wrapper input, [data-theme="dark"] .form-wrapper textarea { background: var(--bg-soft, #0f172a) !important; color: var(--ink, #e5e7eb) !important; border-color: var(--border, #2b3a55) !important; }
+        [data-theme="dark"] .form-wrapper input:focus, [data-theme="dark"] .form-wrapper textarea:focus { border-color: #2563eb !important; box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2) !important; }
+        [data-theme="dark"] .captcha-container { background: var(--bg-soft, #0f172a) !important; border-color: var(--border, #2b3a55) !important; }
+        [data-theme="dark"] .captcha-badge-wrap, [data-theme="dark"] #captcha-answer { background: var(--bg, #0b1120) !important; border-color: var(--border, #2b3a55) !important; color: var(--ink, #e5e7eb) !important; }
+        [data-theme="dark"] .success-modal-card { background: var(--bg-soft, #0f172a) !important; border-color: var(--border, #2b3a55) !important; color: var(--ink, #e5e7eb) !important; }
       </style>
     `;
 
     const i18nSubmit = {
       en: {
-        title: "Submit Q&A Note",
-        desc: "Contribute notes or feedback for aspirants.",
-        name: "Your Name",
-        namePh: "e.g. Rahul Borah",
-        email: "Email Address",
-        emailPh: "name@example.com",
-        topic: "Subject / Topic (Optional)",
-        topicPh: "e.g. Assam History, Science",
-        question: "Question (Optional)",
-        questionPh: "Type the question here...",
-        answer: "Answer / Message (Optional)",
-        answerPh: "Provide complete answer, steps or message...",
-        captcha: "Security:",
-        captchaPh: "Ans",
-        btn: "Submit",
-        submitting: "Submitting...",
-        captchaError: "Incorrect math answer! Please try again.",
-        popTitle: "Sent Successfully!",
-        popDesc: "Your message has been received."
+        title: "Submit Q&A Note", desc: "Contribute notes or feedback for aspirants.",
+        name: "Your Name", namePh: "e.g. Rahul Borah", email: "Email Address", emailPh: "name@example.com",
+        topic: "Subject / Topic (Optional)", topicPh: "e.g. Assam History, Science",
+        question: "Question (Optional)", questionPh: "Type the question here...",
+        answer: "Answer / Message (Optional)", answerPh: "Provide complete answer, steps or message...",
+        captcha: "Security:", captchaPh: "Ans", btn: "Submit", submitting: "Submitting...",
+        captchaError: "Incorrect math answer! Please try again.", popTitle: "Sent Successfully!", popDesc: "Your message has been received."
       },
       as: {
-        title: "প্ৰশ্ন প্ৰেৰণ কৰক (Submit Q&A)",
-        desc: "প্ৰশ্ন বা বাৰ্তা জমা দি শিক্ষাৰ্থীসকলক সহায় কৰক।",
-        name: "আপোনাৰ নাম",
-        namePh: "যেনে: ৰাহুল বৰা",
-        email: "ইমেইল ঠিকনা",
-        emailPh: "name@example.com",
-        topic: "বিষয় / অধ্যায় (ঐচ্ছিক)",
-        topicPh: "যেনে: অসম বুৰঞ্জী, বিজ্ঞান",
-        question: "প্ৰশ্ন (ঐচ্ছিক)",
-        questionPh: "প্ৰশ্নটো ইয়াত লিখক...",
-        answer: "উত্তৰ বা বাৰ্তা (ঐচ্ছিক)",
-        answerPh: "সম্পূৰ্ণ উত্তৰ বা বাৰ্তা ইয়াত লিখক...",
-        captcha: "সুৰক্ষা:",
-        captchaPh: "উত্তৰ",
-        btn: "জমা দিয়ক",
-        submitting: "প্ৰেৰণ হৈ আছে...",
-        captchaError: "অংকৰ উত্তৰ ভুল হৈছে! পুনৰ চেষ্টা কৰক।",
-        popTitle: "সফলতাৰে প্ৰেৰণ হ'ল!",
-        popDesc: "আপোনাৰ বাৰ্তা লাভ কৰা হৈছে।"
+        title: "প্ৰশ্ন প্ৰেৰণ কৰক (Submit Q&A)", desc: "প্ৰশ্ন বা বাৰ্তা জমা দি শিক্ষাৰ্থীসকলক সহায় কৰক।",
+        name: "আপোনাৰ নাম", namePh: "যেনে: ৰাহুল বৰা", email: "ইমেইল ঠিকনা", emailPh: "name@example.com",
+        topic: "বিষয় / অধ্যায় (ঐচ্ছিক)", topicPh: "যেনে: অসম বুৰঞ্জী, বিজ্ঞান",
+        question: "প্ৰশ্ন (ঐচ্ছিক)", questionPh: "প্ৰশ্নটো ইয়াত লিখক...",
+        answer: "উত্তৰ বা বাৰ্তা (ঐচ্ছিক)", answerPh: "সম্পূৰ্ণ উত্তৰ বা বাৰ্তা ইয়াত লিখক...",
+        captcha: "সুৰক্ষা:", captchaPh: "উত্তৰ", btn: "জমা দিয়ক", submitting: "প্ৰেৰণ হৈ আছে...",
+        captchaError: "অংকৰ উত্তৰ ভুল হৈছে! পুনৰ চেষ্টা কৰক।", popTitle: "সফলতাৰে প্ৰেৰণ হ'ল!", popDesc: "আপোনাৰ বাৰ্তা লাভ কৰা হৈছে।"
       }
     };
 
@@ -2123,44 +2136,29 @@
       const btnAs = $("#btn-as");
 
       if (lang === "en") {
-        btnEn.style.background = "#2563eb";
-        btnEn.style.color = "#ffffff";
-        btnAs.style.background = "transparent";
-        btnAs.style.color = "var(--ink-soft,#64748b)";
+        btnEn.style.background = "#2563eb"; btnEn.style.color = "#ffffff";
+        btnAs.style.background = "transparent"; btnAs.style.color = "var(--ink-soft,#64748b)";
       } else {
-        btnAs.style.background = "#2563eb";
-        btnAs.style.color = "#ffffff";
-        btnEn.style.background = "transparent";
-        btnEn.style.color = "var(--ink-soft,#64748b)";
+        btnAs.style.background = "#2563eb"; btnAs.style.color = "#ffffff";
+        btnEn.style.background = "transparent"; btnEn.style.color = "var(--ink-soft,#64748b)";
       }
 
       const tObj = i18nSubmit[lang];
-      $("#txt-title").textContent = tObj.title;
-      $("#txt-desc").textContent = tObj.desc;
-      $("#lbl-name").textContent = tObj.name;
-      $("#name").placeholder = tObj.namePh;
-      $("#lbl-email").textContent = tObj.email;
-      $("#email").placeholder = tObj.emailPh;
-      $("#lbl-topic").textContent = tObj.topic;
-      $("#subject").placeholder = tObj.topicPh;
-      $("#lbl-question").textContent = tObj.question;
-      $("#question").placeholder = tObj.questionPh;
-      $("#lbl-answer").textContent = tObj.answer;
-      $("#answer").placeholder = tObj.answerPh;
-      $("#lbl-captcha").textContent = tObj.captcha;
-      $("#captcha-answer").placeholder = tObj.captchaPh;
-      $("#txt-btn").textContent = tObj.btn;
-      $("#pop-title").textContent = tObj.popTitle;
-      $("#pop-desc").textContent = tObj.popDesc;
+      $("#txt-title").textContent = tObj.title; $("#txt-desc").textContent = tObj.desc;
+      $("#lbl-name").textContent = tObj.name; $("#name").placeholder = tObj.namePh;
+      $("#lbl-email").textContent = tObj.email; $("#email").placeholder = tObj.emailPh;
+      $("#lbl-topic").textContent = tObj.topic; $("#subject").placeholder = tObj.topicPh;
+      $("#lbl-question").textContent = tObj.question; $("#question").placeholder = tObj.questionPh;
+      $("#lbl-answer").textContent = tObj.answer; $("#answer").placeholder = tObj.answerPh;
+      $("#lbl-captcha").textContent = tObj.captcha; $("#captcha-answer").placeholder = tObj.captchaPh;
+      $("#txt-btn").textContent = tObj.btn; $("#pop-title").textContent = tObj.popTitle; $("#pop-desc").textContent = tObj.popDesc;
     }
 
     function showSuccessPopup() {
       const popup = $("#successPopup");
-      popup.style.display = "grid";
-      popup.style.opacity = "1";
+      popup.style.display = "grid"; popup.style.opacity = "1";
       setTimeout(() => {
-        popup.style.opacity = "0";
-        setTimeout(() => { popup.style.display = "none"; }, 200);
+        popup.style.opacity = "0"; setTimeout(() => { popup.style.display = "none"; }, 200);
       }, 2000);
     }
 
@@ -2170,22 +2168,16 @@
 
     $("#qaForm").addEventListener("submit", async function(e) {
       e.preventDefault();
-
       const errorEl = $("#form-error");
       errorEl.style.display = "none";
-
       const userCaptcha = parseInt($("#captcha-answer").value, 10);
       if (userCaptcha !== correctCaptcha) {
         errorEl.textContent = i18nSubmit[currentFormLang].captchaError;
-        errorEl.style.display = "block";
-        generateCaptcha();
-        return;
+        errorEl.style.display = "block"; generateCaptcha(); return;
       }
 
-      const submitBtn = $("#submitBtn");
-      const txtBtn = $("#txt-btn");
-      submitBtn.disabled = true;
-      txtBtn.textContent = i18nSubmit[currentFormLang].submitting;
+      const submitBtn = $("#submitBtn"); const txtBtn = $("#txt-btn");
+      submitBtn.disabled = true; txtBtn.textContent = i18nSubmit[currentFormLang].submitting;
 
       const topicVal = $("#subject").value.trim() || "General Note";
       const questionVal = $("#question").value.trim() || "N/A";
@@ -2202,26 +2194,18 @@
 
       try {
         const response = await fetch("https://api.staticforms.dev/submit", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(payload)
+          method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload)
         });
-
         const data = await response.json();
         if (data.success) {
-          $("#qaForm").reset();
-          generateCaptcha();
-          showSuccessPopup();
+          $("#qaForm").reset(); generateCaptcha(); showSuccessPopup();
         } else {
-          errorEl.textContent = data.message || "Failed to submit. Please try again.";
-          errorEl.style.display = "block";
+          errorEl.textContent = data.message || "Failed to submit. Please try again."; errorEl.style.display = "block";
         }
       } catch (err) {
-        errorEl.textContent = "Network error. Please check your connection.";
-        errorEl.style.display = "block";
+        errorEl.textContent = "Network error. Please check your connection."; errorEl.style.display = "block";
       } finally {
-        submitBtn.disabled = false;
-        txtBtn.textContent = i18nSubmit[currentFormLang].btn;
+        submitBtn.disabled = false; txtBtn.textContent = i18nSubmit[currentFormLang].btn;
       }
     });
 
@@ -2436,7 +2420,7 @@
           ${subs.map((s, i) => `
             <a class="sub-card reveal" href="#/mock-test/${cat.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
               <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
-              <span><b>${escapeHtml(localized(s.name))}</b>
+              <span><span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(s.name))}</span>
                 <span>${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} Sections</span>
               </span>
             </a>`).join("")}
@@ -2463,7 +2447,7 @@
           ${secs.map((sec, i) => `
             <a class="sub-card reveal" href="#/mock-test/${cat.id}/${sub.id}/${sec.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
               <span class="sub-ico">${topicIconHTML(sec.id, cat.id)}</span>
-              <span><b>${escapeHtml(localized(sec.name))}</b>
+              <span><span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(sec.name))}</span>
                 <span>${(sec.topics || []).length} Topics</span>
               </span>
             </a>`).join("")}
@@ -2491,7 +2475,7 @@
           ${topics.map((tp, i) => `
             <a class="sub-card reveal" href="#/mock-test/${cat.id}/start" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
               <span class="sub-ico">${topicIconHTML(tp.id, cat.id)}</span>
-              <span><b>${escapeHtml(localized(tp.name))}</b>
+              <span><span style="font-weight:600; font-size:0.92rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(tp.name))}</span>
                 <span>Take Mock Test</span>
               </span>
             </a>`).join("")}
