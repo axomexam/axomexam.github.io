@@ -2,7 +2,8 @@
    axomexam — app.js
    Application logic: i18n, navigation, routing, rendering,
    search, Q&A reader, Math Engine (Assamese + English), Mock Tests,
-   Dedicated Downloads Search, AdSense Compliant Legal Pages.
+   Dedicated Downloads Search, Full Bilingual AdSense Legal Pages,
+   Two-Line Subcategory Cards & Clean Footer Integration.
    Domain: axomexam.in
    Default UI Language: English ("en").
    ============================================================ */
@@ -181,17 +182,35 @@
     return [];
   }
 
+  function renderDynamicFooter() {
+    const footerContainer = $("footer.site-footer") || $("footer");
+    if (!footerContainer) return;
+
+    const isAs = state.uiLang === "as";
+    footerContainer.innerHTML = `
+      <div class="footer-wrap" style="max-width:1100px; margin:0 auto; padding:24px 16px; display:flex; flex-direction:column; align-items:center; text-align:center; gap:14px; box-sizing:border-box;">
+        <div class="footer-links" style="display:flex; flex-wrap:wrap; justify-content:center; gap:16px 20px;">
+          <a href="#/about" style="color:var(--ink-soft,#64748b); font-size:0.85rem; font-weight:600; text-decoration:none;">${isAs ? "আমাৰ বিষয়ে" : "About Us"}</a>
+          <a href="#/contact" style="color:var(--ink-soft,#64748b); font-size:0.85rem; font-weight:600; text-decoration:none;">${isAs ? "যোগাযোগ" : "Contact Us"}</a>
+          <a href="#/privacy" style="color:var(--ink-soft,#64748b); font-size:0.85rem; font-weight:600; text-decoration:none;">${isAs ? "গোপনীয়তা নীতি" : "Privacy Policy"}</a>
+          <a href="#/terms" style="color:var(--ink-soft,#64748b); font-size:0.85rem; font-weight:600; text-decoration:none;">${isAs ? "নীতি আৰু চৰ্তসমূহ" : "Terms & Conditions"}</a>
+          <a href="#/disclaimer" style="color:var(--ink-soft,#64748b); font-size:0.85rem; font-weight:600; text-decoration:none;">${isAs ? "দাবীত্যাগ" : "Disclaimer"}</a>
+        </div>
+        <div style="font-size:0.82rem; color:var(--ink-faint,#94a3b8); line-height:1.5;">
+          © ${new Date().getFullYear()} <strong style="color:var(--ink,#0f172a);">axomexam.in</strong> — ${isAs ? "অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাৰ বিনামূলীয়া শিক্ষামূলক মঞ্চ" : "Free Educational Platform for Assam Competitive Exams"}
+        </div>
+      </div>
+    `;
+  }
+
   function applyStaticI18n() {
     const searchEl = $("#master-search");
     if (searchEl) searchEl.placeholder = t("search.placeholder");
-    const taglineEl = $("#footer-tagline");
-    if (taglineEl) taglineEl.textContent = t("footer.tagline");
-    const copyEl = $("#footer-copy");
-    if (copyEl) copyEl.textContent = `© ${new Date().getFullYear()} axomexam.in — ${t("brand.tagline")}`;
     $$("[aria-label]").forEach((el) => {
       const k = el.getAttribute("data-aria-i18n");
       if (k) el.setAttribute("aria-label", t(k));
     });
+    renderDynamicFooter();
   }
 
   /* Global UI Language Toggle */
@@ -302,7 +321,6 @@
     };
 
     (data.categories || []).forEach(walkCategory);
-
     return { categories: cats, topicMap, topicIndex };
   }
 
@@ -399,7 +417,7 @@
 
   function moreDropdownHTML(rest, activePath) {
     const root = activePath.split("/")[0];
-    const isInside = rest.some((c) => c.id === root) || root === "submit" || root === "previous-year" || root === "contact";
+    const isInside = rest.some((c) => c.id === root) || ["submit", "previous-year", "contact", "about", "privacy", "terms", "disclaimer"].includes(root);
     const catLinks = rest.map((c) => {
       const on = root === c.id;
       return `<a class="${on ? "active" : ""}" href="#/category/${c.id}">${escapeHtml(localized(c.name))}</a>`;
@@ -414,16 +432,6 @@
       return `<a class="${on ? "active" : ""}" href="${href}">${escapeHtml(label)}</a>`;
     }).join("");
 
-    const legalLinks = [
-      ["#/about", "About Us"],
-      ["#/privacy", "Privacy Policy"],
-      ["#/terms", "Terms & Conditions"],
-      ["#/disclaimer", "Disclaimer"]
-    ].map(([href, label]) => {
-      const on = root === href.replace("#/", "");
-      return `<a class="${on ? "active" : ""}" href="${href}">${escapeHtml(label)}</a>`;
-    }).join("");
-
     return `
       <li class="has-drop">
         <a class="nav-link ${isInside ? "active" : ""}" href="#/categories">
@@ -433,13 +441,11 @@
           ${catLinks ? `<div class="d-label">${escapeHtml(t("nav.categories"))}</div>${catLinks}` : ""}
           <div class="d-label">${escapeHtml(t("mmenu.extra"))}</div>
           ${extraLinks}
-          <div class="d-label" style="margin-top:8px;">Legal</div>
-          ${legalLinks}
         </div>
       </li>`;
   }
 
-  /* ================= Mobile Menu Builder (Sleek Border & Highlight on all 4 buttons + Legal Links) ================= */
+  /* ================= Mobile Menu Builder (Clean Look) ================= */
   function buildMobileNav() {
     const nav = $("#mobile-nav");
     if (!nav) return;
@@ -459,14 +465,14 @@
             if (grand && grand.length) {
               return `
                 <div class="m-row">
-                  <a class="m-item" href="#/category/${cat.id}/${sub.id}"><span style="font-weight:600; font-size:0.92rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(sub.name))}</span></a>
+                  <a class="m-item" href="#/category/${cat.id}/${sub.id}"><span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(sub.name))}</span></a>
                   <button class="m-toggle" data-toggle data-target="${cat.id}-${sub.id}" aria-label="toggle"><span class="caret"></span></button>
                 </div>
                 <div class="m-sub m-nested" id="msub-${cat.id}-${sub.id}">
-                  ${grand.map((sec) => `<a href="#/category/${cat.id}/${sub.id}/${sec.id}"><span style="font-weight:600; font-size:0.88rem; color:var(--ink-soft,#475569); letter-spacing:0.2px;">${escapeHtml(localized(sec.name))}</span></a>`).join("")}
+                  ${grand.map((sec) => `<a href="#/category/${cat.id}/${sub.id}/${sec.id}"><span style="font-weight:600; font-size:0.87rem; color:var(--ink-soft,#475569);">${escapeHtml(localized(sec.name))}</span></a>`).join("")}
                 </div>`;
             }
-            return `<a href="#/category/${cat.id}/${sub.id}"><span style="font-weight:600; font-size:0.92rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(sub.name))}</span></a>`;
+            return `<a href="#/category/${cat.id}/${sub.id}"><span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(sub.name))}</span></a>`;
           }).join("")}</div>` : ""}
         </li>`;
     });
@@ -505,19 +511,9 @@
         </a>
       </li>`;
 
-    const legalItem = `
-      <li style="margin-top:10px; padding-top:14px; padding-bottom:20px; border-top:1px solid var(--border,#e2e8f0);">
-        <div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center;">
-          <a href="#/about" style="font-size:0.78rem; color:var(--ink-soft,#64748b); font-weight:600; text-decoration:none;">About Us</a>
-          <a href="#/privacy" style="font-size:0.78rem; color:var(--ink-soft,#64748b); font-weight:600; text-decoration:none;">Privacy Policy</a>
-          <a href="#/terms" style="font-size:0.78rem; color:var(--ink-soft,#64748b); font-weight:600; text-decoration:none;">Terms</a>
-          <a href="#/disclaimer" style="font-size:0.78rem; color:var(--ink-soft,#64748b); font-weight:600; text-decoration:none;">Disclaimer</a>
-        </div>
-      </li>`;
-
     const ci = state.categories.findIndex((c) => c.id === "computer");
-    if (ci !== -1) catParts.splice(ci + 1, 0, downloadItem, prevYearItem, submitItem, contactItem, legalItem);
-    else catParts.push(downloadItem, prevYearItem, submitItem, contactItem, legalItem);
+    if (ci !== -1) catParts.splice(ci + 1, 0, downloadItem, prevYearItem, submitItem, contactItem);
+    else catParts.push(downloadItem, prevYearItem, submitItem, contactItem);
 
     nav.innerHTML = catParts.join("");
 
@@ -578,7 +574,7 @@
       return renderTopicPage(main, rec);
     }
     
-    // Legal Pages Routing
+    // Legal Pages Routing (Bilingual)
     if (["about", "privacy", "terms", "disclaimer"].includes(segs[0])) return renderStatic(main, segs[0]);
     
     if (segs[0] === "contact") return renderContactPage(main);
@@ -662,9 +658,9 @@
             <a class="topic-card reveal" href="#/topic/${r.path}" style="--cat:${catColor(r.cat.id)}" data-delay="${i * 50}">
               <span class="topic-ico">${topicIconHTML(r.topic.id, r.cat.id)}</span>
               <span class="rank">${i + 1}</span>
-              <span>
-                <span style="font-weight:600; font-size:0.92rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(r.title))}</span>
-                <span id="trend-count-${r.path.replace(/\//g, '-')}">${escapeHtml(localized(r.cat.name))} • ${r.nQuestions || 0} ${t("topic.questions")}</span>
+              <span style="display:flex; flex-direction:column; gap:2px;">
+                <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(r.title))}</span>
+                <span id="trend-count-${r.path.replace(/\//g, '-')}" style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${escapeHtml(localized(r.cat.name))} • ${r.nQuestions || 0} ${t("topic.questions")}</span>
               </span>
               <span class="trend-flame">
                 <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
@@ -711,7 +707,7 @@
     });
   }
 
-  /* ================= Category page ================= */
+  /* ================= Category page (Two-Line Subcategory Cards) ================= */
   function renderCategoryPage(main, cat) {
     const subs = cat.subcategories || cat.sections || [];
     const directTopics = cat.topics || [];
@@ -730,8 +726,9 @@
             ${subs.map((s, i) => `
               <a class="sub-card reveal" href="#/category/${cat.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
                 <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
-                <span><span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(s.name))}</span>
-                  <span>${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} ${s.sections ? t("cat.subsections") : t("cat.topics")}</span>
+                <span style="display:flex; flex-direction:column; gap:2px;">
+                  <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(s.name))}</span>
+                  <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} ${s.sections ? t("cat.subsections") : t("cat.topics")}</span>
                 </span>
               </a>`).join("")}
           </div>`
@@ -770,8 +767,9 @@
             ${secs.map((s, i) => `
               <a class="sub-card reveal" href="#/category/${cat.id}/${sub.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
                 <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
-                <span><span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(s.name))}</span>
-                  <span>${(s.topics || []).length} ${t("cat.topics")}</span>
+                <span style="display:flex; flex-direction:column; gap:2px;">
+                  <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(s.name))}</span>
+                  <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${(s.topics || []).length} ${t("cat.topics")}</span>
                 </span>
               </a>`).join("")}
           </div>` : (topics && topics.length ? topicListHTML(cat, sub, null, topics) : emptyHTML())}
@@ -811,8 +809,9 @@
           return `
             <a class="sub-card reveal" href="#/topic/${path}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
               <span class="sub-ico">${topicIconHTML(tp.id, cat.id)}</span>
-              <span><span style="font-weight:600; font-size:0.92rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(tp.name))}</span>
-                <span id="count-${path.replace(/\//g, '-')}">${countDisplay}</span>
+              <span style="display:flex; flex-direction:column; gap:2px;">
+                <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(tp.name))}</span>
+                <span id="count-${path.replace(/\//g, '-')}" style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${countDisplay}</span>
               </span>
             </a>`;
         }).join("")}
@@ -1069,7 +1068,8 @@
             <a class="topic-card reveal" href="#/topic/${r.path}" style="--cat:${catColor(r.cat.id)}" data-delay="${(i % 10) * 40}">
               <span class="topic-ico">${topicIconHTML(r.topic.id, r.cat.id)}</span>
               <span class="rank">${i + 1}</span>
-              <span><span style="font-weight:600; font-size:0.92rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(r.title))}</span>
+              <span style="display:flex; flex-direction:column; gap:2px;">
+                <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(r.title))}</span>
                 <span>${escapeHtml(localized(r.cat.name))}${r.sub ? " • " + escapeHtml(localized(r.sub.name)) : ""} • ${r.nQuestions || 0} ${t("topic.questions")}</span>
               </span>
             </a>`).join("")}
@@ -1078,58 +1078,65 @@
     observeReveals();
   }
 
-  /* ================= Legal & Static pages (AdSense Compliant) ================= */
+  /* ================= Full Bilingual Legal & Static pages (AdSense Compliant) ================= */
   function renderStatic(main, key) {
-    let title = t(`page.${key}.title`) || key.charAt(0).toUpperCase() + key.slice(1);
+    const isAs = state.uiLang === "as";
+    let title = "";
     let content = "";
 
     if (key === "about") {
-      title = "About Us";
-      content = `
+      title = isAs ? "আমাৰ বিষয়ে" : "About Us";
+      content = isAs ? `
+        <p><strong>axomexam.in</strong> লৈ আপোনাক স্বাগতম। এইখন অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাৰ শিক্ষাৰ্থীসকলক সহায় কৰাৰ উদ্দেশ্যে গঢ়ি তোলা এক বিনামূলীয়া শিক্ষামূলক মঞ্চ।</p>
+        <p>আমাৰ লক্ষ্য হৈছে ADRE, অসম আৰক্ষী, APSC, আৰু RRB আদি পৰীক্ষাসমূহৰ বাবে উচ্চমানৰ দ্বিভাষিক অধ্যয়ন সামগ্ৰী, মক টেষ্ট আৰু বিগত বৰ্ষৰ প্ৰশ্নকাকত সহজে উপলব্ধ কৰা। ভাষা যাতে শিক্ষাৰ অন্তৰায় নহয়, তাৰ বাবে আমাৰ সকলো সমল অসমীয়া আৰু ইংৰাজী দুয়োটা ভাষাতে প্ৰস্তুত কৰা হৈছে।</p>
+        <p>আমাক বাছি লোৱাৰ বাবে ধন্যবাদ। আপোনাৰ সফলতাৰ যাত্ৰাত axomexam.in সদায় আপোনাৰ কাষত আছে।</p>
+      ` : `
         <p>Welcome to <strong>axomexam.in</strong>, your trusted educational platform dedicated to helping aspirants succeed in competitive examinations in Assam.</p>
-        <p>Our mission is to provide high-quality, bilingual study materials, mock tests, and previous year question papers specifically tailored for exams like ADRE, Assam Police, APSC, and RRB. We believe that language should never be a barrier to learning, which is why all our resources are meticulously crafted in both Assamese and English.</p>
-        <p>Whether you need quick PDF notes, daily mock tests, or chapter-wise comprehensive Q&A, we are here to support your journey. Thank you for choosing axomexam.in.</p>
+        <p>Our mission is to provide high-quality, bilingual study materials, mock tests, and previous year question papers specifically tailored for exams like ADRE, Assam Police, APSC, and RRB. We believe that language should never be a barrier to learning, which is why all our resources are crafted in both Assamese and English.</p>
+        <p>Thank you for choosing axomexam.in. We are committed to supporting your success.</p>
       `;
     } else if (key === "privacy") {
-      title = "Privacy Policy";
-      content = `
-        <p>At <strong>axomexam.in</strong>, accessible from https://axomexam.in, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by axomexam.in and how we use it.</p>
+      title = isAs ? "গোপনীয়তা নীতি" : "Privacy Policy";
+      content = isAs ? `
+        <p><strong>https://axomexam.in</strong> ত দৰ্শনাৰ্থীসকলৰ গোপনীয়তা ৰক্ষা কৰাটো আমাৰ অন্যতম প্ৰধান লক্ষ্য।</p>
+        <h3>১. আমি সংগ্ৰহ কৰা তথ্য</h3>
+        <p>যেতিয়া আপুনি আমাৰ ৱেবছাইট ব্যৱহাৰ কৰে, আমি কোনো ব্যক্তিগত তথ্য পোনপটীয়াকৈ সংগ্ৰহ নকৰোঁ। ল'গ ফাইলৰ জৰিয়তে কেৱল ব্ৰাউজাৰৰ প্ৰকাৰ আৰু পৃষ্ঠাৰ ভিজিট আদি সাধাৰণ তথ্য সংৰক্ষিত হয়।</p>
+        <h3>২. কুকিজ (Cookies) আৰু বিজ্ঞাপন</h3>
+        <p>axomexam.in এ ব্যৱহাৰকাৰীৰ অভিজ্ঞতা উন্নত কৰিবলৈ কুকিজ ব্যৱহাৰ কৰিব পাৰে। Google তৃতীয় পক্ষৰ বিজ্ঞাপনদাতা হিচাপে DART কুকিজ ব্যৱহাৰ কৰি ব্যৱহাৰকাৰীৰ পছন্দ অনুসৰি বিজ্ঞাপন প্ৰদৰ্শন কৰে। ব্যৱহাৰকাৰীয়ে ইচ্ছা কৰিলে Google Ad Settings ত গৈ এই কুকিজ বন্ধ কৰিব পাৰে।</p>
+        <h3>৩. সন্মতি</h3>
+        <p>আমাৰ ৱেবছাইট ব্যৱহাৰ কৰি আপুনি আমাৰ গোপনীয়তা নীতি মানি লোৱা বুলি গণ্য কৰা হ'ব।</p>
+      ` : `
+        <p>At <strong>axomexam.in</strong>, accessible from https://axomexam.in, the privacy of our visitors is of extreme importance to us.</p>
         <h3>1. Information We Collect</h3>
-        <p>When you use our website, we may collect non-personally identifiable information automatically via log files, which include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable.</p>
-        <h3>2. Cookies and Web Beacons</h3>
-        <p>Like any other website, axomexam.in uses "cookies". These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
-        <h3>3. Google DoubleClick DART Cookie</h3>
-        <p>Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to axomexam.in and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">https://policies.google.com/technologies/ads</a></p>
-        <h3>4. Third Party Privacy Policies</h3>
-        <p>axomexam.in's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information.</p>
-        <h3>5. Consent</h3>
-        <p>By using our website, you hereby consent to our Privacy Policy and agree to its Terms and Conditions.</p>
+        <p>We do not collect personal identification information directly. Non-personal information such as browser type, IP address, and page visits may be collected automatically through log files to optimize user experience.</p>
+        <h3>2. Cookies and Third-Party Advertising</h3>
+        <p>axomexam.in uses cookies. Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to our website or other websites. Users may opt out of personalized advertising by visiting Google's Ads Settings.</p>
+        <h3>3. Consent</h3>
+        <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
       `;
     } else if (key === "terms") {
-      title = "Terms & Conditions";
-      content = `
-        <p>Welcome to <strong>axomexam.in</strong>!</p>
-        <p>These terms and conditions outline the rules and regulations for the use of axomexam's Website, located at https://axomexam.in.</p>
-        <h3>1. License</h3>
-        <p>Unless otherwise stated, axomexam and/or its licensors own the intellectual property rights for all material on axomexam.in. All intellectual property rights are reserved. You may access this from axomexam.in for your own personal use subjected to restrictions set in these terms and conditions.</p>
-        <p>You must not:</p>
-        <ul style="margin-left:20px; color:var(--ink-soft,#475569);">
-          <li>Republish material from axomexam.in without proper attribution</li>
-          <li>Sell, rent or sub-license material from axomexam.in</li>
-          <li>Reproduce, duplicate or copy material from axomexam.in commercially</li>
-        </ul>
-        <h3>2. Content Liability</h3>
-        <p>We shall not be hold responsible for any content that appears on our Website. You agree to protect and defend us against all claims that is rising on our Website.</p>
-        <h3>3. Removal of links from our website</h3>
-        <p>If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.</p>
+      title = isAs ? "নীতি আৰু চৰ্তসমূহ" : "Terms & Conditions";
+      content = isAs ? `
+        <p><strong>axomexam.in</strong> ব্যৱহাৰ কৰাৰ নিয়ম আৰু চৰ্তসমূহ তলত দিয়া হ'ল:</p>
+        <h3>১. বৌদ্ধিক সম্পত্তি আৰু ব্যৱহাৰৰ অনুজ্ঞাপত্ৰ</h3>
+        <p>axomexam.in ত উপলব্ধ সকলো শিক্ষামূলক সমল কেৱল ব্যক্তিগত আৰু শিক্ষণ উদ্দেশ্যত ব্যৱহাৰৰ বাবেহে অনুমতি দিয়া হৈছে। আমাৰ সমলসমূহ ব্যৱসায়িকভাৱে বিক্ৰী বা পুনৰ প্ৰকাশ কৰা নিষিদ্ধ।</p>
+        <h3>২. সমলৰ দায়িত্ব</h3>
+        <p>ৱেবছাইটত দিয়া প্ৰশ্ন আৰু তথ্যসমূহ যথাসম্ভৱ নিৰ্ভুল কৰিবলৈ চেষ্টা কৰা হৈছে। তথাপিও কোনো অনিচ্ছাকৃত ভুলৰ বাবে ৱেবছাইট কৰ্তৃপক্ষ আইনীভাৱে দায়বদ্ধ নহ'ব।</p>
+      ` : `
+        <p>Welcome to <strong>axomexam.in</strong>. By accessing this website, you accept these terms and conditions.</p>
+        <h3>1. Intellectual Property Rights</h3>
+        <p>All materials and educational contents on axomexam.in are for personal, non-commercial use only. You must not sell, republish, or duplicate our materials commercially without explicit permission.</p>
+        <h3>2. Accuracy of Materials</h3>
+        <p>The materials appearing on axomexam.in are for general educational purposes. While we strive for absolute accuracy, we do not warrant that any of the materials on its website are completely error-free.</p>
       `;
     } else if (key === "disclaimer") {
-      title = "Disclaimer";
-      content = `
-        <p>All the information on this website - <strong>https://axomexam.in</strong> - is published in good faith and for general information and educational purpose only. axomexam.in does not make any warranties about the completeness, reliability and accuracy of this information.</p>
-        <p>Any action you take upon the information you find on this website (axomexam.in), is strictly at your own risk. axomexam.in will not be liable for any losses and/or damages in connection with the use of our website.</p>
-        <p>From our website, you can visit other websites by following hyperlinks to such external sites. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before we have the opportunity to remove a link which may have gone 'bad'.</p>
-        <p>Please be also aware that when you leave our website, other sites may have different privacy policies and terms which are beyond our control. Please be sure to check the Privacy Policies of these sites as well as their "Terms of Service" before engaging in any business or uploading any information.</p>
+      title = isAs ? "দাবীত্যাগ (Disclaimer)" : "Disclaimer";
+      content = isAs ? `
+        <p><strong>https://axomexam.in</strong> ত থকা সকলো তথ্য কেৱল সাধাৰণ শিক্ষামূলক উদ্দেশ্যে প্ৰকাশ কৰা হৈছে।</p>
+        <p>আমাৰ ৱেবছাইটত দিয়া তথ্যৰ সম্পূৰ্ণতা বা সঠিকতাৰ বিষয়ে কোনো নিশ্চয়তা দিয়া নহয়। এই তথ্যৰ ভিত্তিত লোৱা যিকোনো পদক্ষেপ আপোনাৰ নিজা দায়িত্বত হ'ব আৰু তাৰ বাবে হোৱা কোনো ক্ষতিৰ বাবে axomexam.in দায়ী নহ'ব।</p>
+      ` : `
+        <p>All information on this website - <strong>https://axomexam.in</strong> - is published in good faith and for general educational and informational purposes only.</p>
+        <p>axomexam.in does not make any warranties about the completeness and absolute accuracy of this information. Any action you take upon the information you find on this website is strictly at your own risk.</p>
       `;
     } else {
       content = `<p>${t(`page.${key}.p1`)}</p>`;
@@ -1137,11 +1144,11 @@
 
     main.innerHTML = `
       <div class="page-head">
-        <nav class="breadcrumb"><a href="#/">Home</a><span class="bc-sep">/</span><span>${escapeHtml(title)}</span></nav>
+        <nav class="breadcrumb"><a href="#/">${isAs ? "গৃহপৃষ্ঠা" : "Home"}</a><span class="bc-sep">/</span><span>${escapeHtml(title)}</span></nav>
         <h1>${escapeHtml(title)}</h1>
       </div>
       <section class="section" style="padding-bottom:40px;">
-        <div class="info-panel" style="background:var(--bg,#ffffff); padding:26px 24px; border-radius:18px; border:1px solid var(--border,#e2e8f0); line-height:1.7; color:var(--ink-soft,#475569); box-shadow:0 8px 24px -4px rgba(15,23,42,0.03);">
+        <div class="info-panel" style="background:var(--bg,#ffffff); padding:26px 24px; border-radius:18px; border:1px solid var(--border,#e2e8f0); line-height:1.75; color:var(--ink-soft,#475569); box-shadow:0 8px 24px -4px rgba(15,23,42,0.03);">
           ${content}
         </div>
       </section>`;
@@ -1150,8 +1157,9 @@
     window.scrollTo(0, 0);
   }
 
-  /* ================= Contact Us Page (Compact Top Spacing for Mobile & Desktop) ================= */
+  /* ================= Contact Us Page ================= */
   function renderContactPage(main) {
+    const isAs = state.uiLang === "as";
     main.innerHTML = `
       <div class="contact-wrapper" style="width:100%;max-width:520px;margin:10px auto 30px;background:var(--bg,#ffffff);color:var(--ink,#0f172a);border-radius:20px;border:1px solid var(--line,#e2e8f0);box-shadow:var(--card-shadow, 0 10px 30px -6px rgba(15,23,42,0.06));padding:28px 20px;display:flex;flex-direction:column;align-items:center;text-align:center;box-sizing:border-box;">
         
@@ -1162,19 +1170,19 @@
           </svg>
         </div>
 
-        <h1 style="font-size:1.38rem; font-weight:800; color:var(--ink,#0f172a); margin:0 0 4px 0; letter-spacing:-0.3px;">Contact Us</h1>
+        <h1 style="font-size:1.38rem; font-weight:800; color:var(--ink,#0f172a); margin:0 0 4px 0; letter-spacing:-0.3px;">${isAs ? "যোগাযোগ কৰক" : "Contact Us"}</h1>
         <p style="font-size:0.84rem; color:var(--ink-soft,#64748b); line-height:1.45; margin:0 0 20px 0; max-width:380px;">
-          We’d love to hear from you. Reach out for any questions, study materials, or suggestions.
+          ${isAs ? "যিকোনো প্ৰশ্ন, পৰামৰ্শ বা সহায়ৰ বাবে আমাৰ লগত যোগাযোগ কৰিব পাৰে।" : "We’d love to hear from you. Reach out for any questions, study materials, or suggestions."}
         </p>
 
         <div style="width:100%; background:var(--bg-soft,#f8fafc); border:1.5px solid var(--line,#e2e8f0); border-radius:14px; padding:16px 12px; margin-bottom:20px; box-sizing:border-box;">
-          <span style="font-size:0.72rem; font-weight:700; color:var(--ink-soft,#64748b); text-transform:uppercase; letter-spacing:0.6px; display:block; margin-bottom:3px;">Official Support Email</span>
+          <span style="font-size:0.72rem; font-weight:700; color:var(--ink-soft,#64748b); text-transform:uppercase; letter-spacing:0.6px; display:block; margin-bottom:3px;">${isAs ? "অফিচিয়েল ইমেইল" : "Official Support Email"}</span>
           <a href="mailto:axomexam@outlook.com" style="font-size:1.1rem; font-weight:800; color:#2563eb; text-decoration:none; word-break:break-all;">axomexam@outlook.com</a>
         </div>
 
         <a href="mailto:axomexam@outlook.com" style="width:100%; max-width:260px; padding:12px 18px; font-size:0.92rem; font-weight:700; border-radius:12px; border:none; background:#2563eb; color:#ffffff; text-decoration:none; display:inline-flex; align-items:center; justify-content:center; gap:8px; box-shadow:0 5px 14px -3px rgba(37,99,235,0.4); transition:all 0.2s ease;">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          Send an Email
+          ${isAs ? "ইমেইল প্ৰেৰণ কৰক" : "Send an Email"}
         </a>
       </div>
 
@@ -1258,7 +1266,7 @@
             ${hits.map((h, i) => `
               <a class="sr-item" href="#/topic/${h.rec.path}" data-idx="${i}">
                 <span class="chip">${escapeHtml(localized(h.rec.cat.name))}</span>
-                <span>
+                <span style="display:flex; flex-direction:column; gap:2px;">
                   <span class="sr-title">${escapeHtml(localized(h.rec.title))}</span>
                   <span class="sr-sub">${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.nQuestions || 0} ${t("topic.questions")}</span>
                 </span>
@@ -1318,9 +1326,9 @@
         results.innerHTML = hits.map((h) => `
           <a class="sp-topic" href="#/topic/${h.rec.path}">
             <span class="chip">${escapeHtml(localized(h.rec.cat.name))}</span>
-            <span>
-              <span style="font-weight:600; font-size:0.92rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(h.rec.title))}</span>
-              <span>${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.nQuestions || 0} ${t("topic.questions")}</span>
+            <span style="display:flex; flex-direction:column; gap:2px;">
+              <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(h.rec.title))}</span>
+              <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.nQuestions || 0} ${t("topic.questions")}</span>
             </span>
           </a>`).join("");
       }, 180);
@@ -1447,7 +1455,7 @@
     if (spinner) spinner.style.display = "none";
   }
 
-  /* ================= Enhanced Language Selection Modal (Middle Aligned Logo & Button Animation) ================= */
+  /* ================= Enhanced Language Selection Modal ================= */
   function showPdfDownloadModal(rec) {
     const existing = $("#pdf-lang-modal");
     if (existing) existing.remove();
@@ -1460,7 +1468,6 @@
       <div class="read-modal-backdrop" style="position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(15,23,42,0.7);backdrop-filter:blur(4px);"></div>
       <div class="read-modal-box pdf-pop-box" role="dialog" style="position:relative; z-index:2; width:90%; max-width:340px; padding:24px 20px; text-align:center; background:var(--bg,#ffffff); color:var(--ink,#0f172a); border-radius:20px; box-shadow:0 25px 50px -12px rgba(0,0,0,0.3); border:1px solid var(--border,#e2e8f0); animation:popIn 0.22s cubic-bezier(0.16,1,0.3,1); box-sizing:border-box; display:flex; flex-direction:column; align-items:center;">
         
-        <!-- Fully Centered PDF Logo -->
         <div style="width:52px; height:52px; background:rgba(37,99,235,0.1); color:#2563eb; border-radius:14px; display:flex; align-items:center; justify-content:center; margin:0 auto 12px auto; font-size:1.6rem;">
           📄
         </div>
@@ -1471,7 +1478,6 @@
         </p>
 
         <div style="display:flex; flex-direction:column; gap:10px; width:100%;">
-          <!-- Assamese Button -->
           <button type="button" class="pdf-action-btn pdf-btn-as-action" id="pdf-btn-as">
             <span style="display:flex; align-items:center; gap:8px;">
               <span class="btn-indicator-dot"></span>
@@ -1480,7 +1486,6 @@
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </button>
 
-          <!-- English Button -->
           <button type="button" class="pdf-action-btn pdf-btn-en-action" id="pdf-btn-en">
             <span style="display:flex; align-items:center; gap:8px;">
               <span class="btn-indicator-dot" style="background:#0ea5e9;"></span>
@@ -1496,73 +1501,18 @@
       </div>
       
       <style>
-        @keyframes popIn {
-          0% { transform: scale(0.9); opacity: 0; }
-          100% { transform: scale(1); opacity: 1; }
-        }
-        .pdf-action-btn {
-          width: 100%;
-          padding: 13px 16px;
-          font-weight: 700;
-          font-size: 0.92rem;
-          border-radius: 12px;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          border: 1.5px solid transparent;
-          cursor: pointer;
-          transition: all 0.15s ease-in-out;
-          outline: none;
-          box-sizing: border-box;
-          user-select: none;
-        }
-        .pdf-btn-as-action {
-          background: #2563eb;
-          color: #ffffff;
-          box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
-        }
-        .pdf-btn-as-action:hover {
-          background: #1d4ed8;
-          transform: translateY(-1px);
-        }
-        .pdf-btn-as-action:active {
-          transform: scale(0.96);
-        }
-        .pdf-btn-en-action {
-          background: var(--bg-subtle, #f8fafc);
-          color: var(--ink, #0f172a);
-          border-color: var(--border, #cbd5e1);
-        }
-        .pdf-btn-en-action:hover {
-          background: var(--bg-soft, #f1f5f9);
-          border-color: #2563eb;
-          color: #2563eb;
-          transform: translateY(-1px);
-        }
-        .pdf-btn-en-action:active {
-          transform: scale(0.96);
-        }
-        .btn-indicator-dot {
-          width: 8px;
-          height: 8px;
-          border-radius: 50%;
-          background: #22c55e;
-          display: inline-block;
-        }
-        [data-theme="dark"] .pdf-pop-box {
-          background: #0f172a !important;
-          border-color: #334155 !important;
-          color: #f8fafc !important;
-        }
-        [data-theme="dark"] .pdf-btn-en-action {
-          background: #1e293b !important;
-          color: #f8fafc !important;
-          border-color: #334155 !important;
-        }
-        [data-theme="dark"] .pdf-btn-en-action:hover {
-          border-color: #38bdf8 !important;
-          color: #38bdf8 !important;
-        }
+        @keyframes popIn { 0% { transform: scale(0.9); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+        .pdf-action-btn { width: 100%; padding: 13px 16px; font-weight: 700; font-size: 0.92rem; border-radius: 12px; display: flex; align-items: center; justify-content: space-between; border: 1.5px solid transparent; cursor: pointer; transition: all 0.15s ease-in-out; outline: none; box-sizing: border-box; user-select: none; }
+        .pdf-btn-as-action { background: #2563eb; color: #ffffff; box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35); }
+        .pdf-btn-as-action:hover { background: #1d4ed8; transform: translateY(-1px); }
+        .pdf-btn-as-action:active { transform: scale(0.96); }
+        .pdf-btn-en-action { background: var(--bg-subtle, #f8fafc); color: var(--ink, #0f172a); border-color: var(--border, #cbd5e1); }
+        .pdf-btn-en-action:hover { background: var(--bg-soft, #f1f5f9); border-color: #2563eb; color: #2563eb; transform: translateY(-1px); }
+        .pdf-btn-en-action:active { transform: scale(0.96); }
+        .btn-indicator-dot { width: 8px; height: 8px; border-radius: 50%; background: #22c55e; display: inline-block; }
+        [data-theme="dark"] .pdf-pop-box { background: #0f172a !important; border-color: #334155 !important; color: #f8fafc !important; }
+        [data-theme="dark"] .pdf-btn-en-action { background: #1e293b !important; color: #f8fafc !important; border-color: #334155 !important; }
+        [data-theme="dark"] .pdf-btn-en-action:hover { border-color: #38bdf8 !important; color: #38bdf8 !important; }
       </style>
     `;
     document.body.appendChild(modal);
@@ -1573,18 +1523,12 @@
 
     $("#pdf-btn-as", modal).addEventListener("click", (e) => {
       e.currentTarget.style.transform = "scale(0.95)";
-      setTimeout(() => {
-        close();
-        generateTopicPdf(rec, "as");
-      }, 100);
+      setTimeout(() => { close(); generateTopicPdf(rec, "as"); }, 100);
     });
 
     $("#pdf-btn-en", modal).addEventListener("click", (e) => {
       e.currentTarget.style.transform = "scale(0.95)";
-      setTimeout(() => {
-        close();
-        generateTopicPdf(rec, "en");
-      }, 100);
+      setTimeout(() => { close(); generateTopicPdf(rec, "en"); }, 100);
     });
   }
 
@@ -1624,7 +1568,6 @@
     const expLabel = lang === "as" ? "ব্যাখ্যা" : "Explanation";
     const fontFam = lang === "as" ? "'Noto Serif Bengali', serif" : "'Plus Jakarta Sans', sans-serif";
 
-    // Measurement Div to get real pixel height of each question
     const testMeasureDiv = document.createElement("div");
     testMeasureDiv.style.cssText = "position:absolute; left:-9999px; top:-9999px; visibility:hidden; width:726px; font-family:" + fontFam + ";";
     document.body.appendChild(testMeasureDiv);
@@ -1648,7 +1591,6 @@
     });
     testMeasureDiv.remove();
 
-    // Natural Flow-based Page Slicing (Max Content Height = 1010px)
     const pages = [];
     let currentPage = [];
     let currentHeight = 0;
@@ -1694,7 +1636,6 @@
         font-family: ${fontFam};
       `;
 
-      // Header HTML: Solid table alignment to guarantee brand logo doesn't shift
       const headerHtml = isFirst ? `
         <div style="border-bottom:2px solid #4f46e5; padding-bottom:6px; margin-bottom:4px; height:46px; box-sizing:border-box;">
           <table style="width:100%; border-collapse:collapse;">
@@ -1723,21 +1664,14 @@
       `;
 
       pageDiv.innerHTML = `
-        <!-- Watermark on EVERY Page -->
         <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%) rotate(-35deg); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; pointer-events:none; user-select:none; z-index:0; opacity:0.075; width:140%;">
           <div style="width:110px; height:110px; background:#4f46e5; color:#ffffff; border-radius:24px; display:flex; align-items:center; justify-content:center; font-size:68px; font-weight:800; font-family:Arial, sans-serif;">A</div>
           <div style="font-size:62px; font-weight:800; color:#4f46e5; letter-spacing:2px; line-height:1;">axomexam</div>
         </div>
-
-        <!-- Header -->
         ${headerHtml}
-
-        <!-- Natural Flow Content Area -->
         <div style="position:relative; z-index:2; flex:1; display:flex; flex-direction:column; justify-content:flex-start; margin-top:8px; margin-bottom:8px;">
           ${pageRows.join("")}
         </div>
-
-        <!-- Footer -->
         <div style="border-top:1px solid #e2e8f0; padding-top:4px; display:flex; justify-content:space-between; align-items:center; font-size:9.5px; color:#64748b; font-family:'Plus Jakarta Sans', sans-serif; position:relative; z-index:2;">
           <span>© axomexam.in — Free Educational Notes for Assam Competitive Exams</span>
           <span style="position:absolute; left:50%; transform:translateX(-50%); font-weight:700; color:#334155; font-size:10px;">— Page ${pageNum} of ${totalPages} —</span>
@@ -1755,18 +1689,12 @@
       if (!window.jspdf || !window.html2canvas) {
         throw new Error("jsPDF or html2canvas library is missing.");
       }
-
       const { jsPDF } = window.jspdf;
       const pdf = new jsPDF('p', 'mm', 'a4');
       const pageElements = pdfContainer.querySelectorAll('.pdf-page-node');
 
       for (let i = 0; i < pageElements.length; i++) {
-        const canvas = await window.html2canvas(pageElements[i], {
-          scale: 2,
-          useCORS: true,
-          logging: false
-        });
-
+        const canvas = await window.html2canvas(pageElements[i], { scale: 2, useCORS: true, logging: false });
         const imgData = canvas.toDataURL('image/jpeg', 0.98);
         if (i > 0) pdf.addPage('a4', 'p');
         pdf.addImage(imgData, 'JPEG', 0, 0, 210, 297);
@@ -1786,16 +1714,11 @@
     }
   }
 
-  /* ================= Downloads page with Centered Mobile Search ================= */
+  /* ================= Downloads page ================= */
   async function renderDownloadsPage(main) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
-
     let files = [];
-    try {
-      files = await API.listDownloads();
-    } catch (err) {
-      console.error("Failed to load manual downloads:", err);
-    }
+    try { files = await API.listDownloads(); } catch (err) {}
 
     main.innerHTML = `
       <div class="page-head">
@@ -1804,15 +1727,12 @@
         <p class="page-desc">${t("page.downloads.sub")}</p>
       </div>
 
-      <!-- Section 1: Dynamic Topic-wise Q&A PDF Notes -->
       <section class="section" style="padding-bottom:28px;">
         <div class="section-head" style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:14px;">
           <div>
             <h2>Topic-wise Q&A PDF Notes</h2>
             <p class="sec-sub">Download complete bilingual questions & answers for each topic in PDF format.</p>
           </div>
-          
-          <!-- Perfectly Centered Mobile & Desktop Search Bar -->
           <div style="width:100%; max-width:320px; margin:0 auto; position:relative;">
             <input type="search" id="dl-search-input" placeholder="Search PDF by topic name..." autocomplete="off" spellcheck="false"
                    style="width:100%; padding:9px 12px 9px 36px; border-radius:20px; border:1px solid var(--border,#cbd5e1); background:var(--bg,#ffffff); color:var(--ink,#0f172a); font-size:0.85rem; outline:none; box-sizing:border-box; box-shadow:0 1px 3px rgba(0,0,0,0.05);" />
@@ -1830,47 +1750,26 @@
                 <b>${escapeHtml(localized(rec.title))}</b>
                 <span>${escapeHtml(localized(rec.cat.name))}${rec.sub ? " • " + escapeHtml(localized(rec.sub.name)) : ""} • ${rec.nQuestions || 0} Questions</span>
               </span>
-              <!-- Permanent English "Download" Button Text (Never Translated) -->
-              <button class="dl-btn dl-save topic-pdf-btn" data-path="${escapeHtml(rec.path)}" type="button" style="text-transform:none;">
-                Download
-              </button>
+              <button class="dl-btn dl-save topic-pdf-btn" data-path="${escapeHtml(rec.path)}" type="button" style="text-transform:none;">Download</button>
             </div>
           `).join("")}
         </div>
-        <div id="dl-no-match" class="qa-empty" style="display:none; padding:30px 10px;">
-          <p>No matching PDF topic found.</p>
-        </div>
+        <div id="dl-no-match" class="qa-empty" style="display:none; padding:30px 10px;"><p>No matching PDF topic found.</p></div>
       </section>
 
-      <!-- Section 2: Manual Uploaded Special PDF Notes -->
       <section class="section" style="padding-bottom:44px; border-top:1px solid var(--border,#e2e8f0); padding-top:30px;">
-        <div class="section-head">
-          <div>
-            <h2>Special E-Books & Hand-written Notes</h2>
-            <p class="sec-sub">Direct official PDFs and curated study materials.</p>
-          </div>
-        </div>
+        <div class="section-head"><div><h2>Special E-Books & Hand-written Notes</h2><p class="sec-sub">Direct official PDFs and curated study materials.</p></div></div>
         ${files.length ? `
           <div class="dl-list">
             ${files.map(f => `
               <div class="dl-item">
-                <span class="dl-ico">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
-                </span>
-                <span class="dl-meta">
-                  <b>${escapeHtml(f.name.replace(/\.pdf$/i, "").replace(/[-_]+/g, " "))}</b>
-                  <span>PDF Document</span>
-                </span>
-                <!-- Permanent English "Download" Link Text -->
+                <span class="dl-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg></span>
+                <span class="dl-meta"><b>${escapeHtml(f.name.replace(/\.pdf$/i, "").replace(/[-_]+/g, " "))}</b><span>PDF Document</span></span>
                 <a class="dl-btn dl-save" href="${f.url}" download target="_blank" rel="noopener" style="text-transform:none;">Download</a>
-              </div>
-            `).join("")}
-          </div>
-        ` : `<div class="info-panel"><p>No extra manual PDF uploaded yet.</p></div>`}
-      </section>
-    `;
+              </div>`).join("")}
+          </div>` : `<div class="info-panel"><p>No extra manual PDF uploaded yet.</p></div>`}
+      </section>`;
 
-    // Bind Download Buttons
     $$(".topic-pdf-btn", main).forEach(btn => {
       btn.addEventListener("click", () => {
         const path = btn.dataset.path;
@@ -1879,7 +1778,6 @@
       });
     });
 
-    // Realtime Download List Search Filtering
     const dlSearchInput = $("#dl-search-input");
     const cards = $$(".topic-dl-card", main);
     const noMatch = $("#dl-no-match");
@@ -1888,43 +1786,28 @@
       dlSearchInput.addEventListener("input", (e) => {
         const q = normalizeText(e.target.value);
         let visibleCount = 0;
-
         cards.forEach(card => {
           const tName = normalizeText(card.dataset.title);
           const cName = normalizeText(card.dataset.cat);
-          if (tName.includes(q) || cName.includes(q)) {
-            card.style.display = "";
-            visibleCount++;
-          } else {
-            card.style.display = "none";
-          }
+          if (tName.includes(q) || cName.includes(q)) { card.style.display = ""; visibleCount++; }
+          else { card.style.display = "none"; }
         });
-
         if (noMatch) noMatch.style.display = visibleCount === 0 ? "block" : "none";
       });
     }
-
     observeReveals();
   }
 
   /* ================= Previous Year Questions ================= */
   async function renderPreviousYear(main, segs) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
-
-    if (segs.length === 1) {
-      renderPreviousYearExams(main);
-      return;
-    }
-
+    if (segs.length === 1) return renderPreviousYearExams(main);
     const exam = ((typeof CONFIG !== "undefined" && CONFIG.PYEAR_EXAMS) || []).find((e) => e.id === segs[1]);
     if (!exam) return render404(main);
-
     if (segs.length === 2) {
       const years = await API.listPreviousYearYears(exam.id);
-      renderPreviousYearYears(main, exam, years);
-      return;
+      return renderPreviousYearYears(main, exam, years);
     }
-
     const year = segs[2];
     const files = await API.listPreviousYearPdfs(exam.id, year);
     renderPreviousYearPapers(main, exam, year, files);
@@ -1945,8 +1828,9 @@
             ${exams.map((ex, i) => `
               <a class="sub-card reveal" href="#/previous-year/${ex.id}" style="--cat:${ex.color}" data-delay="${i * 40}">
                 <span class="sub-ico">${escapeHtml(ex.icon || ex.id.slice(0, 2).toUpperCase())}</span>
-                <span><b>${escapeHtml(localized(ex.name))}</b>
-                  <span>${t("pyear.years")}</span>
+                <span style="display:flex; flex-direction:column; gap:2px;">
+                  <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(ex.name))}</span>
+                  <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${t("pyear.years")}</span>
                 </span>
               </a>`).join("")}
           </div>` : `<div class="info-panel"><p>${t("downloads.none")}</p></div>`}
@@ -1959,8 +1843,8 @@
       <div class="page-head">
         <nav class="breadcrumb">
           <a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
-          <a href="#/previous-year">${t("page.previous-year.title")}</a>
-          <span class="bc-sep">/</span><span>${escapeHtml(localized(exam.name))}</span>
+          <a href="#/previous-year">${t("page.previous-year.title")}</a><span class="bc-sep">/</span>
+          <span>${escapeHtml(localized(exam.name))}</span>
         </nav>
         <h1>${escapeHtml(localized(exam.name))}</h1>
         <p class="page-desc">${t("pyear.chooseYear")}</p>
@@ -1970,11 +1854,10 @@
           <div class="sub-grid">
             ${years.map((yr, i) => `
               <a class="sub-card reveal" href="#/previous-year/${exam.id}/${yr}" style="--cat:${exam.color}" data-delay="${i * 50}">
-                <span class="sub-ico">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4"/><path d="M16 3v4"/><path d="M3 10h18"/></svg>
-                </span>
-                <span><b>${escapeHtml(yr)}</b>
-                  <span>${t("pyear.papers")}</span>
+                <span class="sub-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4"/><path d="M16 3v4"/><path d="M3 10h18"/></svg></span>
+                <span style="display:flex; flex-direction:column; gap:2px;">
+                  <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(yr)}</span>
+                  <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${t("pyear.papers")}</span>
                 </span>
               </a>`).join("")}
           </div>` : `<div class="info-panel"><p>${t("pyear.noYears")}</p></div>`}
@@ -1985,14 +1868,8 @@
   function renderPreviousYearPapers(main, exam, year, files) {
     const card = (f) => `
       <div class="dl-item">
-        <span class="dl-ico">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
-        </span>
-        <span class="dl-meta">
-          <b>${escapeHtml(f.name.replace(/\.pdf$/i, "").replace(/[-_]+/g, " "))}</b>
-          <span>${escapeHtml(localized(exam.name))} • ${escapeHtml(year)}</span>
-        </span>
-        <!-- Permanent English "Download" Link Text -->
+        <span class="dl-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg></span>
+        <span class="dl-meta"><b>${escapeHtml(f.name.replace(/\.pdf$/i, "").replace(/[-_]+/g, " "))}</b><span>${escapeHtml(localized(exam.name))} • ${escapeHtml(year)}</span></span>
         <a class="dl-btn dl-save" href="${f.url}" download target="_blank" rel="noopener" style="text-transform:none;">Download</a>
       </div>`;
 
@@ -2001,16 +1878,14 @@
         <nav class="breadcrumb">
           <a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
           <a href="#/previous-year">${t("page.previous-year.title")}</a><span class="bc-sep">/</span>
-          <a href="#/previous-year/${exam.id}">${escapeHtml(localized(exam.name))}</a>
-          <span class="bc-sep">/</span><span>${escapeHtml(year)}</span>
+          <a href="#/previous-year/${exam.id}">${escapeHtml(localized(exam.name))}</a><span class="bc-sep">/</span>
+          <span>${escapeHtml(year)}</span>
         </nav>
         <h1>${escapeHtml(localized(exam.name))} — ${escapeHtml(year)}</h1>
         <p class="page-desc">${t("page.downloads.sub")}</p>
       </div>
       <section class="section" style="padding-bottom:44px;">
-        ${files.length
-          ? `<div class="dl-list">${files.map(card).join("")}</div>`
-          : `<div class="info-panel"><p>${t("pyear.none")}</p></div>`}
+        ${files.length ? `<div class="dl-list">${files.map(card).join("")}</div>` : `<div class="info-panel"><p>${t("pyear.none")}</p></div>`}
       </section>`;
   }
 
@@ -2259,10 +2134,7 @@
         if (optsEn.length || optsAs.length) {
           const maxLen = Math.max(optsEn.length, optsAs.length);
           for (let i = 0; i < maxLen; i++) {
-            optionsList.push({
-              en: optsEn[i] || "",
-              as: optsAs[i] || ""
-            });
+            optionsList.push({ en: optsEn[i] || "", as: optsAs[i] || "" });
           }
         }
 
@@ -2328,9 +2200,7 @@
   }
 
   function handleMockRouting(main, segs) {
-    if (segs.length === 1) {
-      return renderMockCategoryPicker(main);
-    }
+    if (segs.length === 1) return renderMockCategoryPicker(main);
 
     const catId = segs[1];
     const cat = state.categories.find((c) => c.id === catId);
@@ -2345,10 +2215,7 @@
     }
 
     const subs = cat.subcategories || [];
-
-    if (!subId && subs.length) {
-      return renderMockSubcategoryPicker(main, cat);
-    }
+    if (!subId && subs.length) return renderMockSubcategoryPicker(main, cat);
 
     if (subId && !secId) {
       const sub = subs.find((s) => s.id === subId);
@@ -2420,8 +2287,9 @@
           ${subs.map((s, i) => `
             <a class="sub-card reveal" href="#/mock-test/${cat.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
               <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
-              <span><span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(s.name))}</span>
-                <span>${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} Sections</span>
+              <span style="display:flex; flex-direction:column; gap:2px;">
+                <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(s.name))}</span>
+                <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} Sections</span>
               </span>
             </a>`).join("")}
         </div>
@@ -2447,8 +2315,9 @@
           ${secs.map((sec, i) => `
             <a class="sub-card reveal" href="#/mock-test/${cat.id}/${sub.id}/${sec.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
               <span class="sub-ico">${topicIconHTML(sec.id, cat.id)}</span>
-              <span><span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(sec.name))}</span>
-                <span>${(sec.topics || []).length} Topics</span>
+              <span style="display:flex; flex-direction:column; gap:2px;">
+                <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(sec.name))}</span>
+                <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${(sec.topics || []).length} Topics</span>
               </span>
             </a>`).join("")}
         </div>
@@ -2475,8 +2344,9 @@
           ${topics.map((tp, i) => `
             <a class="sub-card reveal" href="#/mock-test/${cat.id}/start" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
               <span class="sub-ico">${topicIconHTML(tp.id, cat.id)}</span>
-              <span><span style="font-weight:600; font-size:0.92rem; color:var(--ink,#0f172a); letter-spacing:0.2px;">${escapeHtml(localized(tp.name))}</span>
-                <span>Take Mock Test</span>
+              <span style="display:flex; flex-direction:column; gap:2px;">
+                <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(tp.name))}</span>
+                <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">Take Mock Test</span>
               </span>
             </a>`).join("")}
         </div>
@@ -2488,37 +2358,23 @@
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("mock.loading")}</p></div>`;
 
     const pool = await collectQuestionsForMock(cat, subId, secId, topicId);
-
     if (!pool.length) {
       main.innerHTML = `
         <div class="qa-empty" style="padding:60px 20px;">
-          <div class="big">
-            <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
-          </div>
+          <div class="big"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg></div>
           <p>${t("mock.noQuestions")}</p>
           <div style="margin-top:18px;"><a class="btn btn-outline" href="#/mock-test">← Choose Another Category</a></div>
         </div>`;
       return;
     }
 
-    state.mock = {
-      cat,
-      pool,
-      configured: false,
-      count: 0,
-      testLang: "as"
-    };
-
+    state.mock = { cat, pool, configured: false, count: 0, testLang: "as" };
     const counts = [10, 20, 50, 100].filter((n) => n <= pool.length);
     if (!counts.includes(pool.length)) counts.push(pool.length);
 
     main.innerHTML = `
       <div class="page-head">
-        <nav class="breadcrumb">
-          <a href="#/">Home</a><span class="bc-sep">/</span>
-          <a href="#/mock-test">Mock Test</a><span class="bc-sep">/</span>
-          <span>${escapeHtml(localized(cat.name))}</span>
-        </nav>
+        <nav class="breadcrumb"><a href="#/">Home</a><span class="bc-sep">/</span><a href="#/mock-test">Mock Test</a><span class="bc-sep">/</span><span>${escapeHtml(localized(cat.name))}</span></nav>
         <h1>${t("mock.setup.title")}</h1>
         <p class="page-desc">${escapeHtml(localized(cat.name))} • ${pool.length} ${t("mock.questions")}</p>
       </div>
@@ -2529,15 +2385,12 @@
           <b>${escapeHtml(localized(cat.name))} Mock Test</b>
         </div>
         <p class="sp-sub">Configure your test settings below.</p>
-
-        <!-- Language Choice -->
         <p style="margin-top:18px;font-weight:700;font-size:.9rem;">Select Question Language / প্ৰশ্নৰ ভাষা:</p>
         <div class="lang-switch" style="margin-top:8px; display:inline-flex; width:100%;">
           <button type="button" class="lang-btn ${state.mock.testLang === "as" ? "active" : ""}" data-mocklang="as" style="flex:1; padding:10px; font-weight:700;">অসমীয়া (Assamese)</button>
           <button type="button" class="lang-btn ${state.mock.testLang === "en" ? "active" : ""}" data-mocklang="en" style="flex:1; padding:10px; font-weight:700;">English</button>
         </div>
 
-        <!-- Question Set Size -->
         <p style="margin-top:18px;font-weight:700;font-size:.9rem;">${t("mock.setup.count")} / প্ৰশ্নৰ সংখ্যা বাছনি কৰক:</p>
         <div class="count-picker" id="count-picker">
           ${counts.map((n, i) => `<button type="button" data-count="${n}" class="${i === 0 ? "active" : ""}">${n}</button>`).join("")}
@@ -2568,7 +2421,6 @@
       });
     });
 
-    /* Start Confirmation Popup */
     $("#mock-begin-btn").addEventListener("click", () => {
       showModalPopup({
         title: "Start Mock Test?",
@@ -2583,14 +2435,7 @@
   function startMock(count) {
     if (!state.mock) return;
     const pool = shuffle(state.mock.pool).slice(0, count);
-    state.mock = Object.assign(state.mock, {
-      pool,
-      idx: 0,
-      answers: [],
-      elapsedSec: 0,
-      started: true,
-      timerId: null,
-    });
+    state.mock = Object.assign(state.mock, { pool, idx: 0, answers: [], elapsedSec: 0, started: true, timerId: null });
     renderMockQuiz();
   }
 
@@ -2652,9 +2497,7 @@
           const fb = $("#quiz-feedback");
           fb.classList.add(sel === q.correct ? "good" : "bad");
           fb.style.display = "block";
-          fb.innerHTML = sel === q.correct
-            ? t("mock.revealCorrect")
-            : `${t("mock.correctAnswer")}: ${formatMath(options[q.correct] || "")}`;
+          fb.innerHTML = sel === q.correct ? t("mock.revealCorrect") : `${t("mock.correctAnswer")}: ${formatMath(options[q.correct] || "")}`;
           renderMathJax(fb);
           $("#quiz-next").disabled = false;
         });
@@ -2663,26 +2506,17 @@
 
     $("#quiz-next").addEventListener("click", () => {
       m.idx++;
-      if (m.idx >= m.pool.length) {
-        stopMockTimer();
-        renderMockResults();
-      } else {
-        renderMockQuiz();
-      }
+      if (m.idx >= m.pool.length) { stopMockTimer(); renderMockResults(); }
+      else { renderMockQuiz(); }
     });
 
-    /* Quit Confirmation Popup */
     $("#quiz-quit-btn").addEventListener("click", () => {
       showModalPopup({
         title: "Quit Mock Test?",
         message: "Are you sure you want to quit the mock test? Your current progress will be lost.",
         confirmText: "Yes, Quit",
         cancelText: "Resume Test",
-        onConfirm: () => {
-          stopMockTimer();
-          state.mock = null;
-          location.hash = "#/mock-test";
-        }
+        onConfirm: () => { stopMockTimer(); state.mock = null; location.hash = "#/mock-test"; }
       });
     });
 
@@ -2695,9 +2529,7 @@
       if (!m || !m.started || m.timerId === null) return;
       m.elapsedSec++;
       const tEl = $("#quiz-timer");
-      if (tEl) {
-        tEl.textContent = `⏱ ${fmtTime(m.elapsedSec)}`;
-      }
+      if (tEl) tEl.textContent = `⏱ ${fmtTime(m.elapsedSec)}`;
     };
     m.timerId = setInterval(tick, 1000);
   }
@@ -2885,7 +2717,6 @@
             const totalEl = $("#stat-total-questions");
             if (totalEl) totalEl.textContent = `${loadedTotal.toLocaleString()}+`;
 
-            // Realtime Total PDF Count
             const totalPdfNotes = state.topicIndex.length + (state.topicIndex.filter((r) => r.pdf).length);
             const pdfEl = $("#stat-total-pdfs");
             if (pdfEl) pdfEl.textContent = `${totalPdfNotes}+`;
