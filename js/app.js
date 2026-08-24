@@ -4,7 +4,7 @@
    search, Q&A reader, Math Engine (Assamese + English), Mock Tests,
    Dedicated Downloads Search, Detailed Bilingual AdSense Legal Pages,
    Pure White High-Contrast Footer Text, Mobile Center Align Fixed,
-   Flush Left-Aligned Clean Multi-Line & Reading Mode Pager Fixed.
+   100% Flush Left-Aligned Precision for Questions & Answers.
    Domain: axomexam.in
    Default UI Language: English ("en").
    ============================================================ */
@@ -105,7 +105,7 @@
     const processVal = (v) => {
       if (v === undefined || v === null) return "";
       if (Array.isArray(v)) {
-        return v.map(line => `<span class="qa-step-line" style="display:block; margin-bottom:4px; line-height:1.55;">${formatMath(line)}</span>`).join("");
+        return v.map(line => `<div class="qa-step-line" style="margin:0 0 4px 0; padding:0; line-height:1.55; text-align:left;">${formatMath(line)}</div>`).join("");
       }
       if (typeof v === "object") {
         return processVal(v[targetLang] || v.as || v.en || Object.values(v)[0] || "");
@@ -986,14 +986,14 @@
         const isStepArray = Array.isArray(rawAns) || atext.includes("qa-step-line");
 
         if (isStepArray) {
-          // Format for Math & Detailed Step-by-Step Questions (Flush Left Aligned)
+          // Format for Math & Detailed Step-by-Step Questions (100% Flush Left Aligned)
           return `
             <article class="qa-card" data-n="${n}" style="box-sizing:border-box; width:100%; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:12px; padding:18px 20px; margin-bottom:16px; box-shadow:0 2px 6px rgba(0,0,0,0.03); text-align:left;">
-              <div class="qa-q" style="font-size:0.98rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; margin-bottom:8px; text-align:left;">
+              <div class="qa-q" style="margin:0 0 10px 0; padding:0; font-size:1rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">
                 ${n}. ${formatMath(qtext)}
               </div>
               ${options.length ? `
-                <div class="qa-options-inline" style="font-size:0.92rem; color:var(--ink-soft,#334155); margin-bottom:12px; display:flex; flex-wrap:wrap; gap:16px; font-weight:500; text-align:left; justify-content:flex-start;">
+                <div class="qa-options-inline" style="margin:0 0 12px 0; padding:0; font-size:0.92rem; color:var(--ink-soft,#334155); display:flex; flex-wrap:wrap; gap:16px; font-weight:500; text-align:left; justify-content:flex-start;">
                   ${options.map((opt, optIdx) => {
                     const hasPrefix = /^\s*[\(\[]?[A-Za-zক-হ০-৯\d]/i.test(opt);
                     const optDisplay = hasPrefix ? opt : `(${String.fromCharCode(65 + optIdx)}) ${opt}`;
@@ -1001,10 +1001,10 @@
                   }).join("")}
                 </div>` : ""
               }
-              <div class="qa-solution" style="border-top:1px dashed var(--border,#e2e8f0); padding-top:10px; font-size:0.9rem; line-height:1.6; color:var(--ink-soft,#334155); text-align:left;">
-                <div class="a-body" style="text-align:left;">${atext}</div>
+              <div class="qa-solution" style="border-top:1px dashed var(--border,#e2e8f0); padding-top:10px; margin:0; font-size:0.9rem; line-height:1.6; color:var(--ink-soft,#334155); text-align:left;">
+                <div class="a-body" style="margin:0; padding:0; text-align:left;">${atext}</div>
                 ${explanation ? `
-                  <div class="qa-exp" style="margin-top:8px; font-size:0.86rem; color:var(--ink-muted,#64748b); text-align:left;">
+                  <div class="qa-exp" style="margin-top:8px; padding:0; font-size:0.86rem; color:var(--ink-muted,#64748b); text-align:left;">
                     <b style="color:var(--ink,#0f172a);">${state.lang === "as" ? "ব্যাখ্যা" : "Explanation"}:</b> ${explanation}
                   </div>` : ""
                 }
@@ -1014,7 +1014,7 @@
           // Format for General GK & Standard One-Line Q&A
           return `
             <article class="qa-card" data-n="${n}" style="box-sizing:border-box; width:100%; margin-bottom:16px; text-align:left;">
-              <div class="qa-q" style="display:flex; align-items:flex-start; gap:10px; text-align:left;">
+              <div class="qa-q" style="display:flex; align-items:flex-start; gap:10px; text-align:left; margin:0; padding:0;">
                 <span class="qno" style="flex-shrink:0;">${n}</span>
                 <span class="qtext" style="flex:1; line-height:1.5; text-align:left;">${formatMath(qtext)}</span>
               </div>
@@ -1057,7 +1057,7 @@
     }
   }
 
-  /* ================= Reading-mode popup (Working Next/Prev Buttons) ================= */
+  /* ================= Reading-mode popup ================= */
   function ensureReadingModal() {
     let modal = $("#read-modal");
     if (modal) return modal;
@@ -1156,11 +1156,11 @@
 
       return `
         <article class="qa-card read-item" data-n="${n}" style="margin-bottom:16px; padding:16px 18px; border:1px solid var(--border,#e2e8f0); border-radius:12px; background:var(--card-bg,#fff); text-align:left;">
-          <div class="qa-q" style="font-size:0.96rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; margin-bottom:8px; text-align:left;">
+          <div class="qa-q" style="margin:0 0 8px 0; padding:0; font-size:0.96rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">
             ${n}. ${formatMath(qtext)}
           </div>
           ${options.length ? `
-            <div class="qa-options-inline" style="display:flex; flex-wrap:wrap; gap:14px; font-size:0.9rem; color:var(--ink-soft,#334155); margin-bottom:10px; font-weight:500; text-align:left; justify-content:flex-start;">
+            <div class="qa-options-inline" style="margin:0 0 10px 0; padding:0; display:flex; flex-wrap:wrap; gap:14px; font-size:0.9rem; color:var(--ink-soft,#334155); font-weight:500; text-align:left; justify-content:flex-start;">
               ${options.map((opt, optIdx) => {
                 const hasPrefix = /^\s*[\(\[]?[A-Za-zক-হ০-৯\d]/i.test(opt);
                 const optDisplay = hasPrefix ? opt : `(${String.fromCharCode(65 + optIdx)}) ${opt}`;
@@ -1168,8 +1168,8 @@
               }).join("")}
             </div>` : ""
           }
-          <div class="qa-solution" style="border-top:1px dashed var(--border,#e2e8f0); padding-top:8px; font-size:0.88rem; color:var(--ink-soft,#334155); line-height:1.6; text-align:left;">
-            <div class="a-body" style="text-align:left;">${atext}</div>
+          <div class="qa-solution" style="border-top:1px dashed var(--border,#e2e8f0); padding-top:8px; margin:0; font-size:0.88rem; color:var(--ink-soft,#334155); line-height:1.6; text-align:left;">
+            <div class="a-body" style="margin:0; padding:0; text-align:left;">${atext}</div>
           </div>
         </article>`;
     }).join("");
@@ -1754,9 +1754,9 @@
       row.className = "qa-row";
       row.style.cssText = "border-bottom:1px dashed #e2e8f0; padding-bottom:4px; margin-bottom:7px; line-height:1.4; text-align:left;";
       row.innerHTML = `
-        <div style="font-size:12.8px; font-weight:700; color:#0f172a; margin-bottom:1px;">${idx + 1}. ${formatMath(qText)}</div>
+        <div style="font-size:12.8px; font-weight:700; color:#0f172a; margin-bottom:1px; text-align:left;">${idx + 1}. ${formatMath(qText)}</div>
         ${options.length ? `
-          <div style="font-size:11.2px; color:#475569; margin-bottom:3px; display:flex; flex-wrap:wrap; gap:12px;">
+          <div style="font-size:11.2px; color:#475569; margin-bottom:3px; display:flex; flex-wrap:wrap; gap:12px; text-align:left; justify-content:flex-start;">
             ${options.map((opt, optIdx) => {
               const hasPrefix = /^\s*[\(\[]?[A-Za-zক-হ০-৯\d]/i.test(opt);
               const optDisplay = hasPrefix ? opt : `(${String.fromCharCode(65 + optIdx)}) ${opt}`;
@@ -1764,8 +1764,8 @@
             }).join("")}
           </div>` : ""
         }
-        <div style="font-size:12.2px; font-weight:600; color:#334155; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${aText}</div>
-        ${exp ? `<div style="font-size:10.5px; color:#64748b; margin-top:1px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;"><b>${expLabel}:</b> ${exp}</div>` : ""}
+        <div style="font-size:12.2px; font-weight:600; color:#334155; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif; text-align:left;">${aText}</div>
+        ${exp ? `<div style="font-size:10.5px; color:#64748b; margin-top:1px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif; text-align:left;"><b>${expLabel}:</b> ${exp}</div>` : ""}
       `;
       testMeasureDiv.appendChild(row);
       const h = row.offsetHeight + 7;
