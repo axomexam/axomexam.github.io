@@ -4,7 +4,7 @@
    search, Q&A reader, Math Engine (Assamese + English), Mock Tests,
    Dedicated Downloads Search, Detailed Bilingual AdSense Legal Pages,
    Pure White High-Contrast Footer Text, Mobile Center Align Fixed,
-   100% Flush Left-Aligned Precision for Questions & Answers.
+   Restored Classic GK Layout + Flush Left Aligned Step-by-Step Math.
    Domain: axomexam.in
    Default UI Language: English ("en").
    ============================================================ */
@@ -934,10 +934,13 @@
             margin-right: auto !important;
             box-sizing: border-box !important;
             width: 100% !important;
-            padding: 14px 16px !important;
           }
-          .qa-options-inline {
-            gap: 10px !important;
+          .qa-options {
+            margin-left: 0 !important;
+            grid-template-columns: 1fr !important;
+          }
+          .qa-a, .qa-exp {
+            padding-left: 0 !important;
           }
         }
       </style>
@@ -957,7 +960,7 @@
     });
   }
 
-  /* ================= Universal Smart Q&A Renderer ================= */
+  /* ================= Smart Hybrid Q&A Renderer ================= */
   function renderQAPage() {
     const rec = currentTopicRec();
     if (!rec) return;
@@ -986,7 +989,7 @@
         const isStepArray = Array.isArray(rawAns) || atext.includes("qa-step-line");
 
         if (isStepArray) {
-          // Format for Math & Detailed Step-by-Step Questions (100% Flush Left Aligned)
+          // Format for Math & Detailed Step-by-Step Questions (100% Flush Left Aligned)[cite: 3]
           return `
             <article class="qa-card" data-n="${n}" style="box-sizing:border-box; width:100%; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:12px; padding:18px 20px; margin-bottom:16px; box-shadow:0 2px 6px rgba(0,0,0,0.03); text-align:left;">
               <div class="qa-q" style="margin:0 0 10px 0; padding:0; font-size:1rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">
@@ -1011,29 +1014,29 @@
               </div>
             </article>`;
         } else {
-          // Format for General GK & Standard One-Line Q&A
+          // Classic Original GK Layout (Restored)[cite: 4]
           return `
-            <article class="qa-card" data-n="${n}" style="box-sizing:border-box; width:100%; margin-bottom:16px; text-align:left;">
-              <div class="qa-q" style="display:flex; align-items:flex-start; gap:10px; text-align:left; margin:0; padding:0;">
+            <article class="qa-card" data-n="${n}" style="box-sizing:border-box; width:100%; margin-bottom:16px;">
+              <div class="qa-q" style="display:flex; align-items:flex-start; gap:10px;">
                 <span class="qno" style="flex-shrink:0;">${n}</span>
-                <span class="qtext" style="flex:1; line-height:1.5; text-align:left;">${formatMath(qtext)}</span>
+                <span class="qtext" style="flex:1; line-height:1.5;">${formatMath(qtext)}</span>
               </div>
               ${options.length ? `
-                <div class="qa-options" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:8px; margin:12px 0 12px 32px; text-align:left;">
+                <div class="qa-options" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:8px; margin:12px 0 12px 32px;">
                   ${options.map((opt, optIdx) => `
-                    <div style="font-size:0.88rem; color:var(--ink-soft); background:var(--bg-subtle,#f8fafc); padding:8px 12px; border-radius:8px; border:1px solid var(--border,#e2e8f0); display:flex; align-items:flex-start; gap:6px; text-align:left;">
+                    <div style="font-size:0.88rem; color:var(--ink-soft); background:var(--bg-subtle,#f8fafc); padding:8px 12px; border-radius:8px; border:1px solid var(--border,#e2e8f0); display:flex; align-items:flex-start; gap:6px;">
                       <b style="color:var(--primary,#2563eb); flex-shrink:0;">(${String.fromCharCode(65 + optIdx)})</b> 
-                      <span style="flex:1; line-height:1.4; text-align:left;">${formatMath(opt)}</span>
+                      <span style="flex:1; line-height:1.4;">${formatMath(opt)}</span>
                     </div>
                   `).join("")}
                 </div>` : ""
               }
-              <div class="qa-a" style="margin-top:10px; display:flex; align-items:flex-start; gap:6px; padding-left:32px; text-align:left;">
+              <div class="qa-a" style="margin-top:10px; display:flex; align-items:flex-start; gap:6px; padding-left:32px;">
                 <span class="a-label" style="font-weight:700; color:var(--primary,#2563eb); flex-shrink:0;">${t("topic.answer")}:</span>
-                <span class="a-body" style="font-weight:600; line-height:1.4; text-align:left;">${formatMath(atext)}</span>
+                <span class="a-body" style="font-weight:600; line-height:1.4;">${formatMath(atext)}</span>
               </div>
               ${explanation ? `
-                <div class="qa-exp" style="margin-top:8px; font-size:0.85rem; color:var(--ink-muted,#64748b); padding-left:32px; line-height:1.45; text-align:left;">
+                <div class="qa-exp" style="margin-top:8px; font-size:0.85rem; color:var(--ink-muted,#64748b); padding-left:32px; line-height:1.45;">
                   <b style="color:var(--ink,#0f172a);">${state.lang === "as" ? "ব্যাখ্যা" : "Explanation"}:</b> ${formatMath(explanation)}
                 </div>` : ""
               }
@@ -1089,7 +1092,7 @@
     $("#read-modal-close", modal).addEventListener("click", closeReadingModal);
     $("#read-modal-backdrop", modal).addEventListener("click", closeReadingModal);
 
-    // Reading Modal Pager Listeners
+    // Reading Modal Pager Listeners[cite: 4]
     $("#read-prev", modal).addEventListener("click", () => {
       if (state.page > 0) {
         state.page--;
@@ -1154,24 +1157,44 @@
       const atext = extractField(item, "answer");
       const options = getOptionsList(item);
 
-      return `
-        <article class="qa-card read-item" data-n="${n}" style="margin-bottom:16px; padding:16px 18px; border:1px solid var(--border,#e2e8f0); border-radius:12px; background:var(--card-bg,#fff); text-align:left;">
-          <div class="qa-q" style="margin:0 0 8px 0; padding:0; font-size:0.96rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">
-            ${n}. ${formatMath(qtext)}
-          </div>
-          ${options.length ? `
-            <div class="qa-options-inline" style="margin:0 0 10px 0; padding:0; display:flex; flex-wrap:wrap; gap:14px; font-size:0.9rem; color:var(--ink-soft,#334155); font-weight:500; text-align:left; justify-content:flex-start;">
-              ${options.map((opt, optIdx) => {
-                const hasPrefix = /^\s*[\(\[]?[A-Za-zক-হ০-৯\d]/i.test(opt);
-                const optDisplay = hasPrefix ? opt : `(${String.fromCharCode(65 + optIdx)}) ${opt}`;
-                return `<span style="white-space:nowrap;">${formatMath(optDisplay)}</span>`;
-              }).join("")}
-            </div>` : ""
-          }
-          <div class="qa-solution" style="border-top:1px dashed var(--border,#e2e8f0); padding-top:8px; margin:0; font-size:0.88rem; color:var(--ink-soft,#334155); line-height:1.6; text-align:left;">
-            <div class="a-body" style="margin:0; padding:0; text-align:left;">${atext}</div>
-          </div>
-        </article>`;
+      const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
+      const rawAns = (item.a && typeof item.a === "object" && item.a[targetLang]) || item.a || item.answer;
+      const isStepArray = Array.isArray(rawAns) || atext.includes("qa-step-line");
+
+      if (isStepArray) {
+        // Step-by-Step Layout in Reading Mode[cite: 3]
+        return `
+          <article class="qa-card read-item" data-n="${n}" style="margin-bottom:16px; padding:16px 18px; border:1px solid var(--border,#e2e8f0); border-radius:12px; background:var(--card-bg,#fff); text-align:left;">
+            <div class="qa-q" style="margin:0 0 8px 0; padding:0; font-size:0.96rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">
+              ${n}. ${formatMath(qtext)}
+            </div>
+            ${options.length ? `
+              <div class="qa-options-inline" style="margin:0 0 10px 0; padding:0; display:flex; flex-wrap:wrap; gap:14px; font-size:0.9rem; color:var(--ink-soft,#334155); font-weight:500; text-align:left; justify-content:flex-start;">
+                ${options.map((opt, optIdx) => {
+                  const hasPrefix = /^\s*[\(\[]?[A-Za-zক-হ০-৯\d]/i.test(opt);
+                  const optDisplay = hasPrefix ? opt : `(${String.fromCharCode(65 + optIdx)}) ${opt}`;
+                  return `<span style="white-space:nowrap;">${formatMath(optDisplay)}</span>`;
+                }).join("")}
+              </div>` : ""
+            }
+            <div class="qa-solution" style="border-top:1px dashed var(--border,#e2e8f0); padding-top:8px; margin:0; font-size:0.88rem; color:var(--ink-soft,#334155); line-height:1.6; text-align:left;">
+              <div class="a-body" style="margin:0; padding:0; text-align:left;">${atext}</div>
+            </div>
+          </article>`;
+      } else {
+        // Classic Original GK in Reading Mode[cite: 4]
+        return `
+          <article class="qa-card read-item" data-n="${n}">
+            <div class="qa-q">
+              <span class="qno">${n}</span>
+              <span class="qtext">${formatMath(qtext)}</span>
+            </div>
+            <div class="qa-a">
+              <span class="a-label">${t("topic.answer")}:</span>
+              <span class="a-body">${formatMath(atext)}</span>
+            </div>
+          </article>`;
+      }
     }).join("");
 
     renderMathJax(body);
@@ -1750,23 +1773,37 @@
       const exp = extractField(item, "explanation", lang);
       const options = getOptionsList(item, lang);
 
+      const targetLang = lang;
+      const rawAns = (item.a && typeof item.a === "object" && item.a[targetLang]) || item.a || item.answer;
+      const isStepArray = Array.isArray(rawAns) || aText.includes("qa-step-line");
+
       const row = document.createElement("div");
       row.className = "qa-row";
       row.style.cssText = "border-bottom:1px dashed #e2e8f0; padding-bottom:4px; margin-bottom:7px; line-height:1.4; text-align:left;";
-      row.innerHTML = `
-        <div style="font-size:12.8px; font-weight:700; color:#0f172a; margin-bottom:1px; text-align:left;">${idx + 1}. ${formatMath(qText)}</div>
-        ${options.length ? `
-          <div style="font-size:11.2px; color:#475569; margin-bottom:3px; display:flex; flex-wrap:wrap; gap:12px; text-align:left; justify-content:flex-start;">
-            ${options.map((opt, optIdx) => {
-              const hasPrefix = /^\s*[\(\[]?[A-Za-zক-হ০-৯\d]/i.test(opt);
-              const optDisplay = hasPrefix ? opt : `(${String.fromCharCode(65 + optIdx)}) ${opt}`;
-              return `<span>${formatMath(optDisplay)}</span>`;
-            }).join("")}
-          </div>` : ""
-        }
-        <div style="font-size:12.2px; font-weight:600; color:#334155; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif; text-align:left;">${aText}</div>
-        ${exp ? `<div style="font-size:10.5px; color:#64748b; margin-top:1px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif; text-align:left;"><b>${expLabel}:</b> ${exp}</div>` : ""}
-      `;
+      
+      if (isStepArray) {
+        row.innerHTML = `
+          <div style="font-size:12.8px; font-weight:700; color:#0f172a; margin-bottom:1px; text-align:left;">${idx + 1}. ${formatMath(qText)}</div>
+          ${options.length ? `
+            <div style="font-size:11.2px; color:#475569; margin-bottom:3px; display:flex; flex-wrap:wrap; gap:12px; text-align:left; justify-content:flex-start;">
+              ${options.map((opt, optIdx) => {
+                const hasPrefix = /^\s*[\(\[]?[A-Za-zক-হ০-৯\d]/i.test(opt);
+                const optDisplay = hasPrefix ? opt : `(${String.fromCharCode(65 + optIdx)}) ${opt}`;
+                return `<span>${formatMath(optDisplay)}</span>`;
+              }).join("")}
+            </div>` : ""
+          }
+          <div style="font-size:12.2px; font-weight:600; color:#334155; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif; text-align:left;">${aText}</div>
+          ${exp ? `<div style="font-size:10.5px; color:#64748b; margin-top:1px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif; text-align:left;"><b>${expLabel}:</b> ${exp}</div>` : ""}
+        `;
+      } else {
+        row.innerHTML = `
+          <div style="font-size:12.8px; font-weight:700; color:#0f172a; margin-bottom:1px;">${idx + 1}. ${formatMath(qText)}</div>
+          <div style="font-size:12.2px; font-weight:600; color:#334155; margin-left:18px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${ansLabel}: ${formatMath(aText)}</div>
+          ${exp ? `<div style="font-size:10.5px; color:#64748b; margin-top:1px; margin-left:18px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${expLabel}: ${formatMath(exp)}</div>` : ""}
+        `;
+      }
+
       testMeasureDiv.appendChild(row);
       const h = row.offsetHeight + 7;
       return { html: row.outerHTML, height: h };
