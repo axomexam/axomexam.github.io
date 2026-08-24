@@ -1,0 +1,639 @@
+{
+  "id": "10-time-and-work",
+  "title": {"en": "Time and Work", "as": "সময় আৰু কাম"},
+  "description": {"en": "42 most important Time and Work questions with full step-by-step solutions for Assam competitive exams.", "as": "অসম প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে সম্পূৰ্ণ ধাপে-ধাপে সমাধানসহ সময় আৰু কামৰ ৪২টা অতি গুৰুত্বপূৰ্ণ প্ৰশ্ন।"},
+  "tags": ["time-and-work", "work", "efficiency", "men", "days", "math", "assam-exam", "সময়-আৰু-কাম"],
+  "pdf": null,
+  "questions": [
+    {
+      "q": {
+        "en": "A can do a piece of work in 12 days. What part of the work does he finish in 3 days?",
+        "as": "A লোকে এটা কাম 12 দিনত কৰিব পাৰে। 3 দিনত সি কামৰ কিমান অংশ শেষ কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 1/4", "(b) 1/3", "(c) 1/6", "(d) 1/2"],
+        "as": ["(ক) ১/৪", "(খ) ১/৩", "(গ) ১/৬", "(ঘ) ১/২"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Work in Y days = Y/X of the total work.", "Step 1: Work per day = 1/12", "Step 2: Work in 3 days = 3 × (1/12) = 3/12", "Step 3: = 1/4", "Answer: (a) 1/4"],
+        "as": ["সূত্ৰ: Y দিনত হোৱা কাম = মুঠ কামৰ Y/X অংশ।", "পদক্ষেপ ১: দৈনিক কাম = 1/12", "পদক্ষেপ ২: 3 দিনত হোৱা কাম = 3 × (1/12) = 3/12", "পদক্ষেপ ৩: = 1/4", "উত্তৰ: (ক) 1/4"]
+      }
+    },
+    {
+      "q": {
+        "en": "A can complete a work in 15 days. What fraction of the work remains after he works for 6 days?",
+        "as": "A লোকে এটা কাম 15 দিনত সম্পূৰ্ণ কৰিব পাৰে। 6 দিন কাম কৰাৰ পিছত কামৰ কিমান অংশ বাকী থাকিব?"
+      },
+      "options": {
+        "en": ["(a) 2/5", "(b) 1/3", "(c) 3/5", "(d) 2/3"],
+        "as": ["(ক) ২/৫", "(খ) ১/৩", "(গ) ৩/৫", "(ঘ) ২/৩"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Remaining work = 1 − (work done in Y days).", "Step 1: Work done in 6 days = 6/15 = 2/5", "Step 2: Remaining = 1 − 2/5", "Step 3: = 3/5", "Answer: (c) 3/5"],
+        "as": ["সূত্ৰ: বাকী থকা কাম = 1 − (Y দিনত হোৱা কাম)।", "পদক্ষেপ ১: 6 দিনত হোৱা কাম = 6/15 = 2/5", "পদক্ষেপ ২: বাকী = 1 − 2/5", "পদক্ষেপ ৩: = 3/5", "উত্তৰ: (গ) 3/5"]
+      }
+    },
+    {
+      "q": {
+        "en": "A and B together can finish a work in 12 days. A alone can finish it in 18 days. In how many days will B alone finish it?",
+        "as": "A আৰু B একেলগে এটা কাম 12 দিনত শেষ কৰিব পাৰে। A অকলে 18 দিনত শেষ কৰিব পাৰে। B অকলে কিমান দিনত শেষ কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 30 days", "(b) 36 days", "(c) 24 days", "(d) 27 days"],
+        "as": ["(ক) ৩০ দিন", "(খ) ৩৬ দিন", "(গ) ২৪ দিন", "(ঘ) ২৭ দিন"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: B alone = 1/(1/AB − 1/A).", "Step 1: 1/B = 1/12 − 1/18", "Step 2: = (3 − 2)/36 = 1/36", "Step 3: So B alone takes 36 days", "Answer: (b) 36 days"],
+        "as": ["সূত্ৰ: B অকলে = 1/(1/AB − 1/A)।", "পদক্ষেপ ১: 1/B = 1/12 − 1/18", "পদক্ষেপ ২: = (3 − 2)/36 = 1/36", "পদক্ষেপ ৩: অৰ্থাৎ B অকলে 36 দিন লাগিব", "উত্তৰ: (খ) 36 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A and B together can do a work in 6 days, while A alone takes 10 days. How many days will B alone take?",
+        "as": "A আৰু B একেলগে এটা কাম 6 দিনত কৰিব পাৰে, আনহাতে A অকলে 10 দিন লয়। B অকলে কিমান দিন লাগিব?"
+      },
+      "options": {
+        "en": ["(a) 15 days", "(b) 12 days", "(c) 18 days", "(d) 20 days"],
+        "as": ["(ক) ১৫ দিন", "(খ) ১২ দিন", "(গ) ১৮ দিন", "(ঘ) ২০ দিন"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: B = 1/(1/6 − 1/10).", "Step 1: 1/B = 1/6 − 1/10", "Step 2: = (5 − 3)/30 = 2/30 = 1/15", "Step 3: So B alone takes 15 days", "Answer: (a) 15 days"],
+        "as": ["সূত্ৰ: B = 1/(1/6 − 1/10)।", "পদক্ষেপ ১: 1/B = 1/6 − 1/10", "পদক্ষেপ ২: = (5 − 3)/30 = 2/30 = 1/15", "পদক্ষেপ ৩: অৰ্থাৎ B অকলে 15 দিন লাগিব", "উত্তৰ: (ক) 15 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A and B together can do a work in 15 days, B and C in 20 days, and A and C in 30 days. In how many days can A alone do the work?",
+        "as": "A আৰু B একেলগে 15 দিনত, B আৰু C একেলগে 20 দিনত, আৰু A আৰু C একেলগে 30 দিনত এটা কাম কৰিব পাৰে। A অকলে কিমান দিনত কামটো কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 30 days", "(b) 36 days", "(c) 45 days", "(d) 40 days"],
+        "as": ["(ক) ৩০ দিন", "(খ) ৩৬ দিন", "(গ) ৪৫ দিন", "(ঘ) ৪০ দিন"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Total work = LCM(15, 20, 30) = 60 units.", "Step 1: A+B = 60/15 = 4, B+C = 60/20 = 3, A+C = 60/30 = 2", "Step 2: A+B+C = (4+3+2)/2 = 4.5 per day", "Step 3: A = 4.5 − 3 = 1.5 per day", "Step 4: A alone = 60/1.5 = 40 days", "Answer: (d) 40 days"],
+        "as": ["সূত্ৰ: মুঠ কাম = LCM(15, 20, 30) = 60 একক।", "পদক্ষেপ ১: A+B = 60/15 = 4, B+C = 60/20 = 3, A+C = 60/30 = 2", "পদক্ষেপ ২: A+B+C = (4+3+2)/2 = 4.5 দৈনিক", "পদক্ষেপ ৩: A = 4.5 − 3 = 1.5 দৈনিক", "পদক্ষেপ ৪: A অকলে = 60/1.5 = 40 দিন", "উত্তৰ: (ঘ) 40 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A and B together can do a work in 12 days, B and C in 15 days, and A and C in 20 days. In how many days can A alone do the work?",
+        "as": "A আৰু B একেলগে 12 দিনত, B আৰু C একেলগে 15 দিনত, আৰু A আৰু C একেলগে 20 দিনত এটা কাম কৰিব পাৰে। A অকলে কিমান দিনত কামটো কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 24 days", "(b) 20 days", "(c) 30 days", "(d) 40 days"],
+        "as": ["(ক) ২৪ দিন", "(খ) ২০ দিন", "(গ) ৩০ দিন", "(ঘ) ৪০ দিন"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Total work = LCM(12, 15, 20) = 60 units.", "Step 1: A+B = 5, B+C = 4, A+C = 3 per day", "Step 2: A+B+C = (5+4+3)/2 = 6 per day", "Step 3: A = 6 − 4 = 2 per day", "Step 4: A alone = 60/2 = 30 days", "Answer: (c) 30 days"],
+        "as": ["সূত্ৰ: মুঠ কাম = LCM(12, 15, 20) = 60 একক।", "পদক্ষেপ ১: A+B = 5, B+C = 4, A+C = 3 দৈনিক", "পদক্ষেপ ২: A+B+C = (5+4+3)/2 = 6 দৈনিক", "পদক্ষেপ ৩: A = 6 − 4 = 2 দৈনিক", "পদক্ষেপ ৪: A অকলে = 60/2 = 30 দিন", "উত্তৰ: (গ) 30 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A is twice as efficient as B. If A alone can finish the work in 20 days, in how many days will B alone finish it?",
+        "as": "A ৰ কাৰ্যক্ষমতা B ৰ দুগুণ। যদি A অকলে 20 দিনত কাম শেষ কৰিব পাৰে, B অকলে কিমান দিনত শেষ কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 30 days", "(b) 40 days", "(c) 10 days", "(d) 60 days"],
+        "as": ["(ক) ৩০ দিন", "(খ) ৪০ দিন", "(গ) ১০ দিন", "(ঘ) ৬০ দিন"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Time ratio is inverse of efficiency ratio.", "Step 1: Efficiency A:B = 2:1, so Time A:B = 1:2", "Step 2: Time of B = 2 × 20 = 40 days", "Answer: (b) 40 days"],
+        "as": ["সূত্ৰ: সময়ৰ অনুপাত কাৰ্যক্ষমতাৰ অনুপাতৰ ব্যস্ত।", "পদক্ষেপ ১: কাৰ্যক্ষমতা A:B = 2:1, সেয়ে সময় A:B = 1:2", "পদক্ষেপ ২: B ৰ সময় = 2 × 20 = 40 দিন", "উত্তৰ: (খ) 40 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "The efficiencies of A and B are in the ratio 5:4. If A takes 20 days to do a work, how many days will B take?",
+        "as": "A আৰু B ৰ কাৰ্যক্ষমতা 5:4 অনুপাতত। যদি A লোকে 20 দিনত এটা কাম কৰে, B লোকে কিমান দিন ল'ব?"
+      },
+      "options": {
+        "en": ["(a) 25 days", "(b) 24 days", "(c) 16 days", "(d) 30 days"],
+        "as": ["(ক) ২৫ দিন", "(খ) ২৪ দিন", "(গ) ১৬ দিন", "(ঘ) ৩০ দিন"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Time ratio = inverse of efficiency ratio = 4:5.", "Step 1: Time A:B = 4:5", "Step 2: Time of B = 20 × (5/4) = 25 days", "Answer: (a) 25 days"],
+        "as": ["সূত্ৰ: সময়ৰ অনুপাত = কাৰ্যক্ষমতাৰ ব্যস্ত = 4:5।", "পদক্ষেপ ১: সময় A:B = 4:5", "পদক্ষেপ ২: B ৰ সময় = 20 × (5/4) = 25 দিন", "উত্তৰ: (ক) 25 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "12 men can do a work in 15 days. In how many days will 18 men do the same work?",
+        "as": "12 জন মানুহে 15 দিনত এটা কাম কৰিব পাৰে। 18 জন মানুহে কিমান দিনত একে কামটো কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 12 days", "(b) 8 days", "(c) 10 days", "(d) 11 days"],
+        "as": ["(ক) ১২ দিন", "(খ) ৮ দিন", "(গ) ১০ দিন", "(ঘ) ১১ দিন"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: M1 × D1 = M2 × D2.", "Step 1: 12 × 15 = 18 × D", "Step 2: D = 180/18", "Step 3: = 10 days", "Answer: (c) 10 days"],
+        "as": ["সূত্ৰ: M1 × D1 = M2 × D2।", "পদক্ষেপ ১: 12 × 15 = 18 × D", "পদক্ষেপ ২: D = 180/18", "পদক্ষেপ ৩: = 10 দিন", "উত্তৰ: (গ) 10 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "8 men can do a piece of work in 12 days. How many men are required to do double the work in 16 days?",
+        "as": "8 জন মানুহে 12 দিনত এটা কাম কৰিব পাৰে। দুগুণ কাম 16 দিনত কৰিবলৈ কিমান মানুহ লাগিব?"
+      },
+      "options": {
+        "en": ["(a) 10 men", "(b) 16 men", "(c) 9 men", "(d) 12 men"],
+        "as": ["(ক) ১০ জন", "(খ) ১৬ জন", "(গ) ৯ জন", "(ঘ) ১২ জন"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: M1 × D1 × W2 = M2 × D2 × W1.", "Step 1: 8 × 12 × 2 = M2 × 16 × 1", "Step 2: 192 = 16 × M2", "Step 3: M2 = 12 men", "Answer: (d) 12 men"],
+        "as": ["সূত্ৰ: M1 × D1 × W2 = M2 × D2 × W1।", "পদক্ষেপ ১: 8 × 12 × 2 = M2 × 16 × 1", "পদক্ষেপ ২: 192 = 16 × M2", "পদক্ষেপ ৩: M2 = 12 জন", "উত্তৰ: (ঘ) 12 জন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A can do a work in 10 days and B in 15 days. In how many days will they finish it working together?",
+        "as": "A লোকে 10 দিনত আৰু B লোকে 15 দিনত এটা কাম কৰিব পাৰে। দুয়ো একেলগে কাম কৰিলে কিমান দিনত শেষ হ'ব?"
+      },
+      "options": {
+        "en": ["(a) 5 days", "(b) 6 days", "(c) 8 days", "(d) 7 days"],
+        "as": ["(ক) ৫ দিন", "(খ) ৬ দিন", "(গ) ৮ দিন", "(ঘ) ৭ দিন"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Total work = LCM(10, 15) = 30 units.", "Step 1: A = 3, B = 2 units per day", "Step 2: Together = 5 units per day", "Step 3: Time = 30/5 = 6 days", "Answer: (b) 6 days"],
+        "as": ["সূত্ৰ: মুঠ কাম = LCM(10, 15) = 30 একক।", "পদক্ষেপ ১: A = 3, B = 2 একক দৈনিক", "পদক্ষেপ ২: একেলগে = 5 একক দৈনিক", "পদক্ষেপ ৩: সময় = 30/5 = 6 দিন", "উত্তৰ: (খ) 6 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A can do a work in 6 days and B in 12 days. Working together, how long will they take?",
+        "as": "A লোকে 6 দিনত আৰু B লোকে 12 দিনত এটা কাম কৰিব পাৰে। একেলগে কাম কৰিলে কিমান দিন লাগিব?"
+      },
+      "options": {
+        "en": ["(a) 4 days", "(b) 6 days", "(c) 3 days", "(d) 5 days"],
+        "as": ["(ক) ৪ দিন", "(খ) ৬ দিন", "(গ) ৩ দিন", "(ঘ) ৫ দিন"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Total work = LCM(6, 12) = 12 units.", "Step 1: A = 2, B = 1 unit per day", "Step 2: Together = 3 units per day", "Step 3: Time = 12/3 = 4 days", "Answer: (a) 4 days"],
+        "as": ["সূত্ৰ: মুঠ কাম = LCM(6, 12) = 12 একক।", "পদক্ষেপ ১: A = 2, B = 1 একক দৈনিক", "পদক্ষেপ ২: একেলগে = 3 একক দৈনিক", "পদক্ষেপ ৩: সময় = 12/3 = 4 দিন", "উত্তৰ: (ক) 4 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A, B and C can do a work in 6, 12 and 4 days respectively. All three start together but C leaves after 1 day. In how many more days will A and B finish the remaining work?",
+        "as": "A, B আৰু C লোকে ক্ৰমে 6, 12 আৰু 4 দিনত এটা কাম কৰিব পাৰে। তিনিও একেলগে আৰম্ভ কৰে, কিন্তু C লোকে 1 দিনৰ পিছত এৰি যায়। বাকী কাম A আৰু B লোকে আৰু কিমান দিনত শেষ কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 3 days", "(b) 1 day", "(c) 2 days", "(d) 4 days"],
+        "as": ["(ক) ৩ দিন", "(খ) ১ দিন", "(গ) ২ দিন", "(ঘ) ৪ দিন"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Total work = LCM(6, 12, 4) = 12 units.", "Step 1: A = 2, B = 1, C = 3 units per day; together = 6", "Step 2: In 1 day, work done = 6, remaining = 6", "Step 3: A+B = 3 per day", "Step 4: Time = 6/3 = 2 days", "Answer: (c) 2 days"],
+        "as": ["সূত্ৰ: মুঠ কাম = LCM(6, 12, 4) = 12 একক।", "পদক্ষেপ ১: A = 2, B = 1, C = 3 একক দৈনিক; একেলগে = 6", "পদক্ষেপ ২: 1 দিনত কাম হ'ল = 6, বাকী = 6", "পদক্ষেপ ৩: A+B = 3 দৈনিক", "পদক্ষেপ ৪: সময় = 6/3 = 2 দিন", "উত্তৰ: (গ) 2 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A can do a work in 8 days, B in 24 days and C in 12 days. All three start together, but C leaves after 2 days. Find the total time taken to complete the work.",
+        "as": "A লোকে 8 দিনত, B লোকে 24 দিনত আৰু C লোকে 12 দিনত এটা কাম কৰিব পাৰে। তিনিও একেলগে আৰম্ভ কৰে, কিন্তু C লোকে 2 দিনৰ পিছত এৰি যায়। মুঠ কিমান সময়ত কাম শেষ হ'ব?"
+      },
+      "options": {
+        "en": ["(a) 4 days", "(b) 5 days", "(c) 6 days", "(d) 7 days"],
+        "as": ["(ক) ৪ দিন", "(খ) ৫ দিন", "(গ) ৬ দিন", "(ঘ) ৭ দিন"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Total work = LCM(8, 24, 12) = 24 units.", "Step 1: A = 3, B = 1, C = 2; together = 6 per day", "Step 2: In 2 days, work done = 12, remaining = 12", "Step 3: A+B = 4 per day; time = 12/4 = 3 days", "Step 4: Total time = 2 + 3 = 5 days", "Answer: (b) 5 days"],
+        "as": ["সূত্ৰ: মুঠ কাম = LCM(8, 24, 12) = 24 একক।", "পদক্ষেপ ১: A = 3, B = 1, C = 2; একেলগে = 6 দৈনিক", "পদক্ষেপ ২: 2 দিনত কাম হ'ল = 12, বাকী = 12", "পদক্ষেপ ৩: A+B = 4 দৈনিক; সময় = 12/4 = 3 দিন", "পদক্ষেপ ৪: মুঠ সময় = 2 + 3 = 5 দিন", "উত্তৰ: (খ) 5 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A can do a piece of work in 8 days working 6 hours a day. In how many days will he finish it working 8 hours a day?",
+        "as": "A লোকে দিনত 6 ঘণ্টা কাম কৰি 8 দিনত এটা কাম কৰিব পাৰে। দিনত 8 ঘণ্টা কাম কৰিলে কিমান দিনত শেষ হ'ব?"
+      },
+      "options": {
+        "en": ["(a) 5 days", "(b) 7 days", "(c) 4 days", "(d) 6 days"],
+        "as": ["(ক) ৫ দিন", "(খ) ৭ দিন", "(গ) ৪ দিন", "(ঘ) ৬ দিন"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: D1 × H1 = D2 × H2.", "Step 1: 8 × 6 = D2 × 8", "Step 2: D2 = 48/8", "Step 3: = 6 days", "Answer: (d) 6 days"],
+        "as": ["সূত্ৰ: D1 × H1 = D2 × H2।", "পদক্ষেপ ১: 8 × 6 = D2 × 8", "পদক্ষেপ ২: D2 = 48/8", "পদক্ষেপ ৩: = 6 দিন", "উত্তৰ: (ঘ) 6 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A can do a work in 6 days and B in 12 days. If they work on alternate days, with A starting first, in how many days will the work be completed?",
+        "as": "A লোকে 6 দিনত আৰু B লোকে 12 দিনত এটা কাম কৰিব পাৰে। যদি তেওঁলোকে এবাৰলৈ পালাক্রমে কাম কৰে, A লোকে প্ৰথমে আৰম্ভ কৰি, কিমান দিনত কাম শেষ হ'ব?"
+      },
+      "options": {
+        "en": ["(a) 8 days", "(b) 7 days", "(c) 9 days", "(d) 6 days"],
+        "as": ["(ক) ৮ দিন", "(খ) ৭ দিন", "(গ) ৯ দিন", "(ঘ) ৬ দিন"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Total work = LCM(6, 12) = 12 units.", "Step 1: A = 2, B = 1 unit per day", "Step 2: In 2 days (A+B) = 3 units; in 8 days = 12 units", "Step 3: Work is completed in 8 days", "Answer: (a) 8 days"],
+        "as": ["সূত্ৰ: মুঠ কাম = LCM(6, 12) = 12 একক।", "পদক্ষেপ ১: A = 2, B = 1 একক দৈনিক", "পদক্ষেপ ২: 2 দিনত (A+B) = 3 একক; 8 দিনত = 12 একক", "পদক্ষেপ ৩: কাম 8 দিনত শেষ হ'ব", "উত্তৰ: (ক) 8 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "Two pipes A and B can fill a tank in 10 hours and 15 hours respectively. If both are opened together, how long will they take to fill the tank?",
+        "as": "দুটা নল A আৰু B লোকে ক্ৰমে 10 ঘণ্টা আৰু 15 ঘণ্টাত এটা টেংকি পূৰাব পাৰে। দুয়োটা একেলগে খুলিলে কিমান সময়ত টেংকিটো পূৰ হ'ব?"
+      },
+      "options": {
+        "en": ["(a) 5 hours", "(b) 6 hours", "(c) 7 hours", "(d) 8 hours"],
+        "as": ["(ক) ৫ ঘণ্টা", "(খ) ৬ ঘণ্টা", "(গ) ৭ ঘণ্টা", "(ঘ) ৮ ঘণ্টা"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Total work = LCM(10, 15) = 30 units.", "Step 1: A = 3, B = 2 units per hour", "Step 2: Together = 5 units per hour", "Step 3: Time = 30/5 = 6 hours", "Answer: (b) 6 hours"],
+        "as": ["সূত্ৰ: মুঠ কাম = LCM(10, 15) = 30 একক।", "পদক্ষেপ ১: A = 3, B = 2 একক ঘণ্টাত", "পদক্ষেপ ২: একেলগে = 5 একক ঘণ্টাত", "পদক্ষেপ ৩: সময় = 30/5 = 6 ঘণ্টা", "উত্তৰ: (খ) 6 ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A can do a work in 12 days and B in 18 days. They work together and receive Rs 3000 as wages. What is B's share?",
+        "as": "A লোকে 12 দিনত আৰু B লোকে 18 দিনত এটা কাম কৰিব পাৰে। তেওঁলোকে একেলগে কাম কৰি মজুৰি হিচাপে 3000 টকা পায়। B ৰ অংশ কিমান?"
+      },
+      "options": {
+        "en": ["(a) Rs 1800", "(b) Rs 1000", "(c) Rs 1200", "(d) Rs 1500"],
+        "as": ["(ক) ১৮০০ টকা", "(খ) ১০০০ টকা", "(গ) ১২০০ টকা", "(ঘ) ১৫০০ টকা"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Wages are shared in the ratio of work done (efficiency).", "Step 1: Total work = LCM(12, 18) = 36; A = 3, B = 2", "Step 2: Ratio A:B = 3:2", "Step 3: B's share = (2/5) × 3000 = 1200", "Answer: (c) Rs 1200"],
+        "as": ["সূত্ৰ: মজুৰি কামৰ অনুপাতত (কাৰ্যক্ষমতাত) ভাগ হয়।", "পদক্ষেপ ১: মুঠ কাম = LCM(12, 18) = 36; A = 3, B = 2", "পদক্ষেপ ২: অনুপাত A:B = 3:2", "পদক্ষেপ ৩: B ৰ অংশ = (2/5) × 3000 = 1200", "উত্তৰ: (গ) 1200 টকা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A, B and C can do a work in 10, 15 and 30 days respectively. They work together and receive Rs 1200. What is A's share?",
+        "as": "A, B আৰু C লোকে ক্ৰমে 10, 15 আৰু 30 দিনত এটা কাম কৰিব পাৰে। তেওঁলোকে একেলগে কাম কৰি 1200 টকা পায়। A ৰ অংশ কিমান?"
+      },
+      "options": {
+        "en": ["(a) Rs 600", "(b) Rs 400", "(c) Rs 200", "(d) Rs 500"],
+        "as": ["(ক) ৬০০ টকা", "(খ) ৪০০ টকা", "(গ) ২০০ টকা", "(ঘ) ৫০০ টকা"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Total work = LCM(10, 15, 30) = 30 units.", "Step 1: A = 3, B = 2, C = 1; ratio 3:2:1", "Step 2: A's share = (3/6) × 1200", "Step 3: = 600", "Answer: (a) Rs 600"],
+        "as": ["সূত্ৰ: মুঠ কাম = LCM(10, 15, 30) = 30 একক।", "পদক্ষেপ ১: A = 3, B = 2, C = 1; অনুপাত 3:2:1", "পদক্ষেপ ২: A ৰ অংশ = (3/6) × 1200", "পদক্ষেপ ৩: = 600", "উত্তৰ: (ক) 600 টকা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A can do a work in 12 days and B in 18 days. They work together for 4 days, then A leaves. In how many days will B finish the remaining work?",
+        "as": "A লোকে 12 দিনত আৰু B লোকে 18 দিনত এটা কাম কৰিব পাৰে। তেওঁলোকে 4 দিন একেলগে কাম কৰে, তাৰ পিছত A এৰি যায়। বাকী কাম B লোকে কিমান দিনত শেষ কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 6 days", "(b) 10 days", "(c) 9 days", "(d) 8 days"],
+        "as": ["(ক) ৬ দিন", "(খ) ১০ দিন", "(গ) ৯ দিন", "(ঘ) ৮ দিন"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Total work = LCM(12, 18) = 36 units.", "Step 1: A = 3, B = 2; together = 5 per day", "Step 2: In 4 days, work done = 20, remaining = 16", "Step 3: B alone = 16/2 = 8 days", "Answer: (d) 8 days"],
+        "as": ["সূত্ৰ: মুঠ কাম = LCM(12, 18) = 36 একক।", "পদক্ষেপ ১: A = 3, B = 2; একেলগে = 5 দৈনিক", "পদক্ষেপ ২: 4 দিনত কাম হ'ল = 20, বাকী = 16", "পদক্ষেপ ৩: B অকলে = 16/2 = 8 দিন", "উত্তৰ: (ঘ) 8 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A can do a work in 20 days and B in 30 days. They start together, but A leaves 5 days before the work is completed. Find the total time taken.",
+        "as": "A লোকে 20 দিনত আৰু B লোকে 30 দিনত এটা কাম কৰিব পাৰে। তেওঁলোকে একেলগে আৰম্ভ কৰে, কিন্তু কাম শেষ হোৱাৰ 5 দিন আগতে A এৰি যায়। মুঠ সময় নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 12 days", "(b) 15 days", "(c) 16 days", "(d) 14 days"],
+        "as": ["(ক) ১২ দিন", "(খ) ১৫ দিন", "(গ) ১৬ দিন", "(ঘ) ১৪ দিন"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Let total time = T; A works (T − 5) days, B works T days.", "Step 1: Total work = LCM(20, 30) = 60; A = 3, B = 2", "Step 2: 3(T − 5) + 2T = 60", "Step 3: 5T − 15 = 60, so T = 15 days", "Answer: (b) 15 days"],
+        "as": ["সূত্ৰ: ধৰা হ'ল মুঠ সময় = T; A লোকে (T − 5) দিন, B লোকে T দিন কাম কৰে।", "পদক্ষেপ ১: মুঠ কাম = LCM(20, 30) = 60; A = 3, B = 2", "পদক্ষেপ ২: 3(T − 5) + 2T = 60", "পদক্ষেপ ৩: 5T − 15 = 60, সেয়ে T = 15 দিন", "উত্তৰ: (খ) 15 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A can do a work in 20 days and B in 30 days. They work together for 6 days. What fraction of the work remains?",
+        "as": "A লোকে 20 দিনত আৰু B লোকে 30 দিনত এটা কাম কৰিব পাৰে। তেওঁলোকে 6 দিন একেলগে কাম কৰে। কামৰ কিমান অংশ বাকী থাকিব?"
+      },
+      "options": {
+        "en": ["(a) 1/3", "(b) 2/3", "(c) 1/2", "(d) 1/4"],
+        "as": ["(ক) ১/৩", "(খ) ২/৩", "(গ) ১/২", "(ঘ) ১/৪"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Total work = LCM(20, 30) = 60 units.", "Step 1: A = 3, B = 2; together = 5 per day", "Step 2: In 6 days, work done = 30 = half", "Step 3: Remaining = 1 − 1/2 = 1/2", "Answer: (c) 1/2"],
+        "as": ["সূত্ৰ: মুঠ কাম = LCM(20, 30) = 60 একক।", "পদক্ষেপ ১: A = 3, B = 2; একেলগে = 5 দৈনিক", "পদক্ষেপ ২: 6 দিনত কাম হ'ল = 30 = আধা", "পদক্ষেপ ৩: বাকী = 1 − 1/2 = 1/2", "উত্তৰ: (গ) 1/2"]
+      }
+    },
+    {
+      "q": {
+        "en": "2 men or 3 women can do a work in 12 days. In how many days will 2 men and 3 women together do the same work?",
+        "as": "2 জন মানুহ বা 3 গৰাকী মহিলাই 12 দিনত এটা কাম কৰিব পাৰে। 2 জন মানুহ আৰু 3 গৰাকী মহিলাই একেলগে কিমান দিনত একে কামটো কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 6 days", "(b) 4 days", "(c) 8 days", "(d) 9 days"],
+        "as": ["(ক) ৬ দিন", "(খ) ৪ দিন", "(গ) ৮ দিন", "(ঘ) ৯ দিন"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: 2 men = 3 women in efficiency (one group).", "Step 1: Total work = 3 women × 12 = 36 woman-days", "Step 2: 2 men + 3 women = 3 + 3 = 6 women-equivalent", "Step 3: Time = 36/6 = 6 days", "Answer: (a) 6 days"],
+        "as": ["সূত্ৰ: কাৰ্যক্ষমতাত 2 জন মানুহ = 3 গৰাকী মহিলা (এটা দল)।", "পদক্ষেপ ১: মুঠ কাম = 3 মহিলা × 12 = 36 মহিলা-দিন", "পদক্ষেপ ২: 2 জন মানুহ + 3 গৰাকী মহিলা = 3 + 3 = 6 মহিলা-সমতুল্য", "পদক্ষেপ ৩: সময় = 36/6 = 6 দিন", "উত্তৰ: (ক) 6 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "3 men or 4 women can do a work in 20 days. How long will 3 men and 4 women together take?",
+        "as": "3 জন মানুহ বা 4 গৰাকী মহিলাই 20 দিনত এটা কাম কৰিব পাৰে। 3 জন মানুহ আৰু 4 গৰাকী মহিলাই একেলগে কিমান সময় লাগিব?"
+      },
+      "options": {
+        "en": ["(a) 8 days", "(b) 12 days", "(c) 15 days", "(d) 10 days"],
+        "as": ["(ক) ৮ দিন", "(খ) ১২ দিন", "(গ) ১৫ দিন", "(ঘ) ১০ দিন"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: 3 men = 4 women in efficiency (one group).", "Step 1: Total work = 4 women × 20 = 80 woman-days", "Step 2: 3 men + 4 women = 4 + 4 = 8 women-equivalent", "Step 3: Time = 80/8 = 10 days", "Answer: (d) 10 days"],
+        "as": ["সূত্ৰ: কাৰ্যক্ষমতাত 3 জন মানুহ = 4 গৰাকী মহিলা (এটা দল)।", "পদক্ষেপ ১: মুঠ কাম = 4 মহিলা × 20 = 80 মহিলা-দিন", "পদক্ষেপ ২: 3 জন মানুহ + 4 গৰাকী মহিলা = 4 + 4 = 8 মহিলা-সমতুল্য", "পদক্ষেপ ৩: সময় = 80/8 = 10 দিন", "উত্তৰ: (ঘ) 10 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "20 men can do a work in 15 days. How many more men are needed to complete the work in 10 days?",
+        "as": "20 জন মানুহে 15 দিনত এটা কাম কৰিব পাৰে। 10 দিনত কাম শেষ কৰিবলৈ আৰু কিমান মানুহৰ প্ৰয়োজন?"
+      },
+      "options": {
+        "en": ["(a) 5 men", "(b) 10 men", "(c) 15 men", "(d) 20 men"],
+        "as": ["(ক) ৫ জন", "(খ) ১০ জন", "(গ) ১৫ জন", "(ঘ) ২০ জন"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: M1 × D1 = M2 × D2.", "Step 1: Total work = 20 × 15 = 300 man-days", "Step 2: Men needed = 300/10 = 30", "Step 3: More men = 30 − 20 = 10", "Answer: (b) 10 men"],
+        "as": ["সূত্ৰ: M1 × D1 = M2 × D2।", "পদক্ষেপ ১: মুঠ কাম = 20 × 15 = 300 মানুহ-দিন", "পদক্ষেপ ২: প্ৰয়োজনীয় মানুহ = 300/10 = 30", "পদক্ষেপ ৩: আৰু লাগিব = 30 − 20 = 10 জন", "উত্তৰ: (খ) 10 জন"]
+      }
+    },
+    {
+      "q": {
+        "en": "12 men can do a work in 18 days. How many additional men are required to finish it in 9 days?",
+        "as": "12 জন মানুহে 18 দিনত এটা কাম কৰিব পাৰে। 9 দিনত শেষ কৰিবলৈ আৰু কিমান মানুহৰ প্ৰয়োজন?"
+      },
+      "options": {
+        "en": ["(a) 10 men", "(b) 8 men", "(c) 12 men", "(d) 6 men"],
+        "as": ["(ক) ১০ জন", "(খ) ৮ জন", "(গ) ১২ জন", "(ঘ) ৬ জন"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: M1 × D1 = M2 × D2.", "Step 1: Total work = 12 × 18 = 216 man-days", "Step 2: Men needed = 216/9 = 24", "Step 3: Additional = 24 − 12 = 12 men", "Answer: (c) 12 men"],
+        "as": ["সূত্ৰ: M1 × D1 = M2 × D2।", "পদক্ষেপ ১: মুঠ কাম = 12 × 18 = 216 মানুহ-দিন", "পদক্ষেপ ২: প্ৰয়োজনীয় মানুহ = 216/9 = 24", "পদক্ষেপ ৩: আৰু লাগিব = 24 − 12 = 12 জন", "উত্তৰ: (গ) 12 জন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A is twice as good a workman as B. Together they can finish a work in 16 days. In how many days can A alone do it?",
+        "as": "A লোকে B তকৈ দুগুণ কাম কৰিব পৰা শ্ৰমিক। তেওঁলোকে একেলগে 16 দিনত এটা কাম শেষ কৰিব পাৰে। A অকলে কিমান দিনত শেষ কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 24 days", "(b) 32 days", "(c) 20 days", "(d) 18 days"],
+        "as": ["(ক) ২৪ দিন", "(খ) ৩২ দিন", "(গ) ২০ দিন", "(ঘ) ১৮ দিন"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Efficiency A:B = 2:1; total work = 3 × 16 = 48 units.", "Step 1: A's efficiency = 2 units per day", "Step 2: A alone = 48/2", "Step 3: = 24 days", "Answer: (a) 24 days"],
+        "as": ["সূত্ৰ: কাৰ্যক্ষমতা A:B = 2:1; মুঠ কাম = 3 × 16 = 48 একক।", "পদক্ষেপ ১: A ৰ কাৰ্যক্ষমতা = 2 একক দৈনিক", "পদক্ষেপ ২: A অকলে = 48/2", "পদক্ষেপ ৩: = 24 দিন", "উত্তৰ: (ক) 24 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A is 3 times as efficient as B. Together they can do a work in 12 days. In how many days will B alone do it?",
+        "as": "A ৰ কাৰ্যক্ষমতা B ৰ 3 গুণ। তেওঁলোকে একেলগে 12 দিনত এটা কাম কৰিব পাৰে। B অকলে কিমান দিনত শেষ কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 36 days", "(b) 24 days", "(c) 16 days", "(d) 48 days"],
+        "as": ["(ক) ৩৬ দিন", "(খ) ২৪ দিন", "(গ) ১৬ দিন", "(ঘ) ৪৮ দিন"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Efficiency A:B = 3:1; total work = 4 × 12 = 48 units.", "Step 1: B's efficiency = 1 unit per day", "Step 2: B alone = 48/1 = 48 days", "Answer: (d) 48 days"],
+        "as": ["সূত্ৰ: কাৰ্যক্ষমতা A:B = 3:1; মুঠ কাম = 4 × 12 = 48 একক।", "পদক্ষেপ ১: B ৰ কাৰ্যক্ষমতা = 1 একক দৈনিক", "পদক্ষেপ ২: B অকলে = 48/1 = 48 দিন", "উত্তৰ: (ঘ) 48 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A and B together can finish a work in 8 days. A alone can finish it in 12 days. How many days will B alone take?",
+        "as": "A আৰু B একেলগে 8 দিনত এটা কাম শেষ কৰিব পাৰে। A অকলে 12 দিনত শেষ কৰিব পাৰে। B অকলে কিমান দিন লাগিব?"
+      },
+      "options": {
+        "en": ["(a) 20 days", "(b) 24 days", "(c) 18 days", "(d) 16 days"],
+        "as": ["(ক) ২০ দিন", "(খ) ২৪ দিন", "(গ) ১৮ দিন", "(ঘ) ১৬ দিন"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: B = 1/(1/8 − 1/12).", "Step 1: 1/B = 1/8 − 1/12 = (3 − 2)/24", "Step 2: = 1/24", "Step 3: So B alone takes 24 days", "Answer: (b) 24 days"],
+        "as": ["সূত্ৰ: B = 1/(1/8 − 1/12)।", "পদক্ষেপ ১: 1/B = 1/8 − 1/12 = (3 − 2)/24", "পদক্ষেপ ২: = 1/24", "পদক্ষেপ ৩: অৰ্থাৎ B অকলে 24 দিন লাগিব", "উত্তৰ: (খ) 24 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A can do a work in 9 days and B in 18 days. How many days will they take together?",
+        "as": "A লোকে 9 দিনত আৰু B লোকে 18 দিনত এটা কাম কৰিব পাৰে। একেলগে কিমান দিন লাগিব?"
+      },
+      "options": {
+        "en": ["(a) 5 days", "(b) 7 days", "(c) 6 days", "(d) 8 days"],
+        "as": ["(ক) ৫ দিন", "(খ) ৭ দিন", "(গ) ৬ দিন", "(ঘ) ৮ দিন"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Total work = LCM(9, 18) = 18 units.", "Step 1: A = 2, B = 1 unit per day", "Step 2: Together = 3 units per day", "Step 3: Time = 18/3 = 6 days", "Answer: (c) 6 days"],
+        "as": ["সূত্ৰ: মুঠ কাম = LCM(9, 18) = 18 একক।", "পদক্ষেপ ১: A = 2, B = 1 একক দৈনিক", "পদক্ষেপ ২: একেলগে = 3 একক দৈনিক", "পদক্ষেপ ৩: সময় = 18/3 = 6 দিন", "উত্তৰ: (গ) 6 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A can do a work in 10 days. What fraction of the work does he complete in 7 days?",
+        "as": "A লোকে 10 দিনত এটা কাম কৰিব পাৰে। 7 দিনত সি কামৰ কিমান অংশ সম্পূৰ্ণ কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 7/10", "(b) 3/10", "(c) 1/10", "(d) 4/5"],
+        "as": ["(ক) ৭/১০", "(খ) ৩/১০", "(গ) ১/১০", "(ঘ) ৪/৫"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Work done = Days/Total days of the whole work.", "Step 1: Work in 1 day = 1/10", "Step 2: Work in 7 days = 7 × (1/10) = 7/10", "Answer: (a) 7/10"],
+        "as": ["সূত্ৰ: হোৱা কাম = দিন/মুঠ দিন।", "পদক্ষেপ ১: 1 দিনৰ কাম = 1/10", "পদক্ষেপ ২: 7 দিনৰ কাম = 7 × (1/10) = 7/10", "উত্তৰ: (ক) 7/10"]
+      }
+    },
+    {
+      "q": {
+        "en": "15 men can do a work in 20 days. In how many days will 25 men do the same work?",
+        "as": "15 জন মানুহে 20 দিনত এটা কাম কৰিব পাৰে। 25 জন মানুহে কিমান দিনত একে কামটো কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 10 days", "(b) 15 days", "(c) 18 days", "(d) 12 days"],
+        "as": ["(ক) ১০ দিন", "(খ) ১৫ দিন", "(গ) ১৮ দিন", "(ঘ) ১২ দিন"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: M1 × D1 = M2 × D2.", "Step 1: 15 × 20 = 25 × D", "Step 2: D = 300/25 = 12 days", "Answer: (d) 12 days"],
+        "as": ["সূত্ৰ: M1 × D1 = M2 × D2।", "পদক্ষেপ ১: 15 × 20 = 25 × D", "পদক্ষেপ ২: D = 300/25 = 12 দিন", "উত্তৰ: (ঘ) 12 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "The efficiencies of A and B are in the ratio 4:3. If B alone takes 24 days, how many days will A take?",
+        "as": "A আৰু B ৰ কাৰ্যক্ষমতা 4:3 অনুপাতত। যদি B অকলে 24 দিন লয়, A লোকে কিমান দিন ল'ব?"
+      },
+      "options": {
+        "en": ["(a) 16 days", "(b) 18 days", "(c) 21 days", "(d) 32 days"],
+        "as": ["(ক) ১৬ দিন", "(খ) ১৮ দিন", "(গ) ২১ দিন", "(ঘ) ৩২ দিন"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Time ratio = inverse of efficiency ratio = 3:4.", "Step 1: Time A:B = 3:4", "Step 2: A = 24 × (3/4) = 18 days", "Answer: (b) 18 days"],
+        "as": ["সূত্ৰ: সময়ৰ অনুপাত = কাৰ্যক্ষমতাৰ ব্যস্ত = 3:4।", "পদক্ষেপ ১: সময় A:B = 3:4", "পদক্ষেপ ২: A = 24 × (3/4) = 18 দিন", "উত্তৰ: (খ) 18 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A can do a work in 10 days working 8 hours a day. Working 10 hours a day, in how many days will he finish it?",
+        "as": "A লোকে দিনত 8 ঘণ্টা কাম কৰি 10 দিনত এটা কাম কৰিব পাৰে। দিনত 10 ঘণ্টা কাম কৰিলে কিমান দিনত শেষ হ'ব?"
+      },
+      "options": {
+        "en": ["(a) 6 days", "(b) 7 days", "(c) 8 days", "(d) 9 days"],
+        "as": ["(ক) ৬ দিন", "(খ) ৭ দিন", "(গ) ৮ দিন", "(ঘ) ৯ দিন"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: D1 × H1 = D2 × H2.", "Step 1: 10 × 8 = D2 × 10", "Step 2: D2 = 80/10 = 8 days", "Answer: (c) 8 days"],
+        "as": ["সূত্ৰ: D1 × H1 = D2 × H2।", "পদক্ষেপ ১: 10 × 8 = D2 × 10", "পদক্ষেপ ২: D2 = 80/10 = 8 দিন", "উত্তৰ: (গ) 8 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A and B together can do a work in 12 days. They work for 3 days and then A leaves. What fraction of the work is completed in these 3 days?",
+        "as": "A আৰু B একেলগে 12 দিনত এটা কাম কৰিব পাৰে। তেওঁলোকে 3 দিন কাম কৰে আৰু তাৰ পিছত A এৰি যায়। এই 3 দিনত কামৰ কিমান অংশ সম্পূৰ্ণ হ'ল?"
+      },
+      "options": {
+        "en": ["(a) 1/4", "(b) 1/3", "(c) 1/2", "(d) 2/3"],
+        "as": ["(ক) ১/৪", "(খ) ১/৩", "(গ) ১/২", "(ঘ) ২/৩"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Work done = days × (1/combined time).", "Step 1: Together they do 1/12 per day", "Step 2: In 3 days = 3 × (1/12) = 3/12", "Step 3: = 1/4", "Answer: (a) 1/4"],
+        "as": ["সূত্ৰ: হোৱা কাম = দিন × (1/একেলগে সময়)।", "পদক্ষেপ ১: একেলগে দৈনিক 1/12 কাম হয়", "পদক্ষেপ ২: 3 দিনত = 3 × (1/12) = 3/12", "পদক্ষেপ ৩: = 1/4", "উত্তৰ: (ক) 1/4"]
+      }
+    },
+    {
+      "q": {
+        "en": "A does 1/6 of a piece of work in one day. In how many days will he complete the whole work?",
+        "as": "A লোকে এটা কামৰ 1/6 অংশ এক দিনত কৰে। মুঠ কাম শেষ কৰিবলৈ কিমান দিন লাগিব?"
+      },
+      "options": {
+        "en": ["(a) 5 days", "(b) 8 days", "(c) 12 days", "(d) 6 days"],
+        "as": ["(ক) ৫ দিন", "(খ) ৮ দিন", "(গ) ১২ দিন", "(ঘ) ৬ দিন"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Total days = 1/(work done per day).", "Step 1: Work per day = 1/6", "Step 2: Total days = 1/(1/6) = 6 days", "Answer: (d) 6 days"],
+        "as": ["সূত্ৰ: মুঠ দিন = 1/(দৈনিক হোৱা কাম)।", "পদক্ষেপ ১: দৈনিক কাম = 1/6", "পদক্ষেপ ২: মুঠ দিন = 1/(1/6) = 6 দিন", "উত্তৰ: (ঘ) 6 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A can do a work in 6 days, B in 8 days and C in 24 days. How many days will they take working together?",
+        "as": "A লোকে 6 দিনত, B লোকে 8 দিনত আৰু C লোকে 24 দিনত এটা কাম কৰিব পাৰে। তিনিও একেলগে কাম কৰিলে কিমান দিন লাগিব?"
+      },
+      "options": {
+        "en": ["(a) 4 days", "(b) 3 days", "(c) 5 days", "(d) 6 days"],
+        "as": ["(ক) ৪ দিন", "(খ) ৩ দিন", "(গ) ৫ দিন", "(ঘ) ৬ দিন"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Total work = LCM(6, 8, 24) = 24 units.", "Step 1: A = 4, B = 3, C = 1 unit per day", "Step 2: Together = 8 units per day", "Step 3: Time = 24/8 = 3 days", "Answer: (b) 3 days"],
+        "as": ["সূত্ৰ: মুঠ কাম = LCM(6, 8, 24) = 24 একক।", "পদক্ষেপ ১: A = 4, B = 3, C = 1 একক দৈনিক", "পদক্ষেপ ২: একেলগে = 8 একক দৈনিক", "পদক্ষেপ ৩: সময় = 24/8 = 3 দিন", "উত্তৰ: (খ) 3 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "If 8 men can do a work in 10 days, how many men are required to do one-fourth of the same work in 5 days?",
+        "as": "যদি 8 জন মানুহে 10 দিনত এটা কাম কৰিব পাৰে, একে কামৰ এক-চতুৰ্থাংশ 5 দিনত কৰিবলৈ কিমান মানুহ লাগিব?"
+      },
+      "options": {
+        "en": ["(a) 4 men", "(b) 5 men", "(c) 2 men", "(d) 6 men"],
+        "as": ["(ক) ৪ জন", "(খ) ৫ জন", "(গ) ২ জন", "(ঘ) ৬ জন"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: M1 × D1 × W2 = M2 × D2 × W1.", "Step 1: 8 × 10 × (1/4) = M2 × 5 × 1", "Step 2: 20 = 5 × M2", "Step 3: M2 = 4 men", "Answer: (a) 4 men"],
+        "as": ["সূত্ৰ: M1 × D1 × W2 = M2 × D2 × W1।", "পদক্ষেপ ১: 8 × 10 × (1/4) = M2 × 5 × 1", "পদক্ষেপ ২: 20 = 5 × M2", "পদক্ষেপ ৩: M2 = 4 জন", "উত্তৰ: (ক) 4 জন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A and B together can do a work in 12 days. They work together for 4 days, then B leaves and A finishes the remaining work in 16 days. In how many days can A alone do the work?",
+        "as": "A আৰু B একেলগে 12 দিনত এটা কাম কৰিব পাৰে। তেওঁলোকে 4 দিন একেলগে কাম কৰে, তাৰ পিছত B এৰি যায় আৰু A লোকে 16 দিনত বাকী কাম শেষ কৰে। A অকলে কিমান দিনত কামটো কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 20 days", "(b) 30 days", "(c) 18 days", "(d) 24 days"],
+        "as": ["(ক) ২০ দিন", "(খ) ৩০ দিন", "(গ) ১৮ দিন", "(ঘ) ২৪ দিন"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Remaining work = 1 − work done in 4 days.", "Step 1: In 4 days, work done = 4/12 = 1/3; remaining = 2/3", "Step 2: A does 2/3 in 16 days, so A's rate = (2/3)/16 = 1/24", "Step 3: A alone = 24 days", "Answer: (d) 24 days"],
+        "as": ["সূত্ৰ: বাকী কাম = 1 − 4 দিনত হোৱা কাম।", "পদক্ষেপ ১: 4 দিনত কাম হ'ল = 4/12 = 1/3; বাকী = 2/3", "পদক্ষেপ ২: A লোকে 16 দিনত 2/3 কৰে, সেয়ে A ৰ হাৰ = (2/3)/16 = 1/24", "পদক্ষেপ ৩: A অকলে = 24 দিন", "উত্তৰ: (ঘ) 24 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A and B together can do a work in 15 days, B and C in 12 days, and A and C in 20 days. In how many days will A, B and C together finish the work?",
+        "as": "A আৰু B একেলগে 15 দিনত, B আৰু C একেলগে 12 দিনত, আৰু A আৰু C একেলগে 20 দিনত এটা কাম কৰিব পাৰে। A, B আৰু C তিনিও একেলগে কিমান দিনত কাম শেষ কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 8 days", "(b) 12 days", "(c) 10 days", "(d) 15 days"],
+        "as": ["(ক) ৮ দিন", "(খ) ১২ দিন", "(গ) ১০ দিন", "(ঘ) ১৫ দিন"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Total work = LCM(15, 12, 20) = 60 units.", "Step 1: A+B = 4, B+C = 5, A+C = 3 per day", "Step 2: A+B+C = (4+5+3)/2 = 6 per day", "Step 3: Time = 60/6 = 10 days", "Answer: (c) 10 days"],
+        "as": ["সূত্ৰ: মুঠ কাম = LCM(15, 12, 20) = 60 একক।", "পদক্ষেপ ১: A+B = 4, B+C = 5, A+C = 3 দৈনিক", "পদক্ষেপ ২: A+B+C = (4+5+3)/2 = 6 দৈনিক", "পদক্ষেপ ৩: সময় = 60/6 = 10 দিন", "উত্তৰ: (গ) 10 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "The efficiencies of A and B are in the ratio 3:4. Together they can finish a work in 12 days. In how many days can A alone finish it?",
+        "as": "A আৰু B ৰ কাৰ্যক্ষমতা 3:4 অনুপাতত। তেওঁলোকে একেলগে 12 দিনত এটা কাম শেষ কৰিব পাৰে। A অকলে কিমান দিনত শেষ কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 21 days", "(b) 28 days", "(c) 24 days", "(d) 32 days"],
+        "as": ["(ক) ২১ দিন", "(খ) ২৮ দিন", "(গ) ২৪ দিন", "(ঘ) ৩২ দিন"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Total work = (3+4) × 12 = 84 units.", "Step 1: A's efficiency = 3 units per day", "Step 2: A alone = 84/3 = 28 days", "Answer: (b) 28 days"],
+        "as": ["সূত্ৰ: মুঠ কাম = (3+4) × 12 = 84 একক।", "পদক্ষেপ ১: A ৰ কাৰ্যক্ষমতা = 3 একক দৈনিক", "পদক্ষেপ ২: A অকলে = 84/3 = 28 দিন", "উত্তৰ: (খ) 28 দিন"]
+      }
+    },
+    {
+      "q": {
+        "en": "A work can be completed by 25 men in 18 days. After 6 days of work, some men left, and the remaining work was finished in 20 more days. How many men left?",
+        "as": "25 জন মানুহে 18 দিনত এটা কাম সম্পূৰ্ণ কৰিব পাৰে। 6 দিন কাম কৰাৰ পিছত কিছুমান মানুহ এৰি যায়, আৰু বাকী কাম আৰু 20 দিনত শেষ হয়। কিমান জন মানুহ এৰি গ'ল?"
+      },
+      "options": {
+        "en": ["(a) 10 men", "(b) 15 men", "(c) 5 men", "(d) 8 men"],
+        "as": ["(ক) ১০ জন", "(খ) ১৫ জন", "(গ) ৫ জন", "(ঘ) ৮ জন"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Total work = M × D = 25 × 18 = 450 man-days.", "Step 1: Work done in 6 days = 25 × 6 = 150; remaining = 300", "Step 2: Remaining men needed = 300/20 = 15", "Step 3: Men who left = 25 − 15 = 10", "Answer: (a) 10 men"],
+        "as": ["সূত্ৰ: মুঠ কাম = M × D = 25 × 18 = 450 মানুহ-দিন।", "পদক্ষেপ ১: 6 দিনত হোৱা কাম = 25 × 6 = 150; বাকী = 300", "পদক্ষেপ ২: প্ৰয়োজনীয় মানুহ = 300/20 = 15", "পদক্ষেপ ৩: এৰি যোৱা মানুহ = 25 − 15 = 10 জন", "উত্তৰ: (ক) 10 জন"]
+      }
+    }
+  ]
+}
