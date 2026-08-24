@@ -4,7 +4,7 @@
    search, Q&A reader, Math Engine (Assamese + English), Mock Tests,
    Dedicated Downloads Search, Detailed Bilingual AdSense Legal Pages,
    Pure White High-Contrast Footer Text, Mobile Center Align Fixed,
-   GK Serial & Answer Perfect Vertical Alignment.
+   GK Unbold Light Font + Step-by-Step Math Precision.
    Domain: axomexam.in
    Default UI Language: English ("en").
    ============================================================ */
@@ -956,7 +956,7 @@
     });
   }
 
-  /* ================= Smart Hybrid Q&A Renderer (Precise Alignment) ================= */
+  /* ================= Smart Hybrid Q&A Renderer (GK Unbold & Clean) ================= */
   function renderQAPage() {
     const rec = currentTopicRec();
     if (!rec) return;
@@ -1010,12 +1010,12 @@
               </div>
             </article>`;
         } else {
-          // Perfectly Aligned Classic GK Layout (Flush Left & Level Line-Height)
+          // Perfectly Aligned Classic GK Layout (Unbold Regular Font)[cite: 4]
           return `
             <article class="qa-card" data-n="${n}" style="box-sizing:border-box; width:100%; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:18px 20px; margin-bottom:16px; box-shadow:0 2px 6px rgba(0,0,0,0.03); text-align:left;">
-              <div class="qa-q" style="display:flex; align-items:center; gap:10px; margin:0 0 12px 0; padding:0; text-align:left;">
-                <span class="qno" style="flex-shrink:0; width:28px; height:28px; border-radius:8px; background:var(--primary-soft,#eff6ff); color:var(--primary,#2563eb); font-weight:800; font-size:0.88rem; display:inline-flex; align-items:center; justify-content:center; line-height:1; box-sizing:border-box; margin:0;">${n}</span>
-                <span class="qtext" style="flex:1; font-weight:700; font-size:0.98rem; color:var(--ink,#0f172a); line-height:1.45; text-align:left; margin:0; padding:0;">${formatMath(qtext)}</span>
+              <div class="qa-q" style="display:flex; align-items:flex-start; gap:10px; margin:0 0 12px 0; padding:0; text-align:left;">
+                <span class="qno" style="flex-shrink:0; width:28px; height:28px; border-radius:8px; background:var(--primary-soft,#eff6ff); color:var(--primary,#2563eb); font-weight:800; font-size:0.88rem; display:inline-flex; align-items:center; justify-content:center; line-height:1; box-sizing:border-box; margin-top:1px;">${n}</span>
+                <span class="qtext" style="flex:1; font-weight:500; font-size:0.96rem; color:var(--ink,#0f172a); line-height:1.55; text-align:left; margin:0; padding:0;">${formatMath(qtext)}</span>
               </div>
               ${options.length ? `
                 <div class="qa-options" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:8px; margin:0 0 12px 0; padding:0; text-align:left;">
@@ -1178,12 +1178,12 @@
             </div>
           </article>`;
       } else {
-        // Classic GK in Reading Mode (Flush Left Aligned)
+        // Classic GK in Reading Mode (Unbold Regular Font)[cite: 4]
         return `
           <article class="qa-card read-item" data-n="${n}" style="margin-bottom:16px; padding:16px 18px; border:1px solid var(--border,#e2e8f0); border-radius:12px; background:var(--card-bg,#fff); text-align:left;">
-            <div class="qa-q" style="display:flex; align-items:center; gap:10px; margin:0 0 8px 0; padding:0; text-align:left;">
-              <span class="qno" style="flex-shrink:0; width:26px; height:26px; border-radius:6px; background:var(--primary-soft,#eff6ff); color:var(--primary,#2563eb); font-weight:800; font-size:0.84rem; display:inline-flex; align-items:center; justify-content:center; line-height:1;">${n}</span>
-              <span class="qtext" style="flex:1; font-weight:700; font-size:0.94rem; color:var(--ink,#0f172a); line-height:1.45; text-align:left;">${formatMath(qtext)}</span>
+            <div class="qa-q" style="display:flex; align-items:flex-start; gap:10px; margin:0 0 8px 0; padding:0; text-align:left;">
+              <span class="qno" style="flex-shrink:0; width:26px; height:26px; border-radius:6px; background:var(--primary-soft,#eff6ff); color:var(--primary,#2563eb); font-weight:800; font-size:0.84rem; display:inline-flex; align-items:center; justify-content:center; line-height:1; margin-top:1px;">${n}</span>
+              <span class="qtext" style="flex:1; font-weight:500; font-size:0.94rem; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">${formatMath(qtext)}</span>
             </div>
             <div class="qa-a" style="margin:6px 0 0 0; padding:0; display:flex; align-items:flex-start; gap:6px; text-align:left;">
               <span class="a-label" style="font-weight:700; color:var(--primary,#2563eb); font-size:0.9rem;">${t("topic.answer")}:</span>
@@ -1794,7 +1794,7 @@
         `;
       } else {
         row.innerHTML = `
-          <div style="font-size:12.8px; font-weight:700; color:#0f172a; margin-bottom:1px; text-align:left;">${idx + 1}. ${formatMath(qText)}</div>
+          <div style="font-size:12.8px; font-weight:500; color:#0f172a; margin-bottom:1px; text-align:left;">${idx + 1}. ${formatMath(qText)}</div>
           <div style="font-size:12.2px; font-weight:600; color:#334155; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif; text-align:left;">${ansLabel}: ${formatMath(aText)}</div>
           ${exp ? `<div style="font-size:10.5px; color:#64748b; margin-top:1px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif; text-align:left;"><b>${expLabel}:</b> ${exp}</div>` : ""}
         `;
