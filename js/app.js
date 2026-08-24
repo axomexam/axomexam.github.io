@@ -460,7 +460,7 @@
 
   function moreDropdownHTML(rest, activePath) {
     const root = activePath.split("/")[0];
-    const isInside = rest.some((c) => c.id === root) || ["submit", "previous-year", "contact", "about", "privacy", "terms", "disclaimer"].includes(root);
+    const isInside = rest.some((c) => c.id === root) || ["submit", "previous-year", "contact", "about", "privacy", "privacy-policy", "terms", "disclaimer"].includes(root);
     const catLinks = rest.map((c) => {
       const on = root === c.id;
       return `<a class="${on ? "active" : ""}" href="#/category/${c.id}">${escapeHtml(localized(c.name))}</a>`;
@@ -617,8 +617,11 @@
       return renderTopicPage(main, rec);
     }
     
-    // Legal Pages Routing
-    if (["about", "privacy", "terms", "disclaimer"].includes(segs[0])) return renderStatic(main, segs[0]);
+    // Legal Pages Routing (Both /privacy and /privacy-policy supported)
+    if (["about", "privacy", "privacy-policy", "terms", "disclaimer"].includes(segs[0])) {
+      const pageKey = segs[0] === "privacy-policy" ? "privacy" : segs[0];
+      return renderStatic(main, pageKey);
+    }
     
     if (segs[0] === "contact") return renderContactPage(main);
     if (segs[0] === "trending") return renderTrendingPage(main);
@@ -651,8 +654,8 @@
             <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
             ${t("hero.daily")} • ADRE 2.0 / RRB
           </a>
-          <h1>${t("hero.title")}</h1>
-          <p class="sub">${t("hero.sub")}</p>
+          <h1>${t("hero.title") || "Assam Competitive Exam Preparation Portal"}</h1>
+          <p class="sub">${t("hero.sub") || "Free bilingual questions, mock tests, and PDF study notes for Assam exams."}</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#/category/${firstCat}">${t("hero.cta")}</a>
             <a class="btn btn-ghost" href="#/mock-test">${t("hero.cta3")}</a>
@@ -985,7 +988,6 @@
         const isStepArray = Array.isArray(rawAns) || atext.includes("qa-step-line");
 
         if (isStepArray) {
-          // Format for Math & Detailed Step-by-Step Questions (100% Flush Left Aligned)
           return `
             <article class="qa-card" data-n="${n}" style="box-sizing:border-box; width:100%; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:12px; padding:18px 20px; margin-bottom:16px; box-shadow:0 2px 6px rgba(0,0,0,0.03); text-align:left;">
               <div class="qa-q" style="margin:0 0 10px 0; padding:0; font-size:1rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">
@@ -1010,7 +1012,6 @@
               </div>
             </article>`;
         } else {
-          // Perfectly Aligned Classic GK Layout (Unbold Regular Font)[cite: 4]
           return `
             <article class="qa-card" data-n="${n}" style="box-sizing:border-box; width:100%; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:18px 20px; margin-bottom:16px; box-shadow:0 2px 6px rgba(0,0,0,0.03); text-align:left;">
               <div class="qa-q" style="display:flex; align-items:flex-start; gap:10px; margin:0 0 12px 0; padding:0; text-align:left;">
@@ -1088,7 +1089,6 @@
     $("#read-modal-close", modal).addEventListener("click", closeReadingModal);
     $("#read-modal-backdrop", modal).addEventListener("click", closeReadingModal);
 
-    // Reading Modal Pager Listeners
     $("#read-prev", modal).addEventListener("click", () => {
       if (state.page > 0) {
         state.page--;
@@ -1158,7 +1158,6 @@
       const isStepArray = Array.isArray(rawAns) || atext.includes("qa-step-line");
 
       if (isStepArray) {
-        // Step-by-Step Layout in Reading Mode
         return `
           <article class="qa-card read-item" data-n="${n}" style="margin-bottom:16px; padding:16px 18px; border:1px solid var(--border,#e2e8f0); border-radius:12px; background:var(--card-bg,#fff); text-align:left;">
             <div class="qa-q" style="margin:0 0 8px 0; padding:0; font-size:0.96rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">
@@ -1178,7 +1177,6 @@
             </div>
           </article>`;
       } else {
-        // Classic GK in Reading Mode (Unbold Regular Font)[cite: 4]
         return `
           <article class="qa-card read-item" data-n="${n}" style="margin-bottom:16px; padding:16px 18px; border:1px solid var(--border,#e2e8f0); border-radius:12px; background:var(--card-bg,#fff); text-align:left;">
             <div class="qa-q" style="display:flex; align-items:flex-start; gap:10px; margin:0 0 8px 0; padding:0; text-align:left;">
@@ -1271,7 +1269,7 @@
         <h3>Contact & Support</h3>
         <p>We value community feedback and continuous improvement. Reach out to our academic support team at <a href="mailto:axomexam@outlook.com" style="color:#2563eb; font-weight:700;">axomexam@outlook.com</a>.</p>
       `;
-    } else if (key === "privacy") {
+    } else if (key === "privacy" || key === "privacy-policy") {
       title = isAs ? "গোপনীয়তা নীতি" : "Privacy Policy";
       content = isAs ? `
         <p><strong>axomexam.in</strong> ত আপোনাৰ ব্যক্তিগত তথ্যৰ সুৰক্ষা আৰু গোপনীয়তা ৰক্ষা কৰাটো আমাৰ অন্যতম অগ্ৰাধিকাৰ। এই নথিয়ে আমি কি তথ্য সংগ্ৰহ কৰোঁ আৰু সেয়া কেনেদৰে ব্যৱহাৰ কৰোঁ তাৰ স্পষ্ট বিৱৰণ দিয়ে।</p>
@@ -1723,7 +1721,7 @@
     });
   }
 
-  /* ================= Natural Flow-Based A4 PDF Exporter (Logo + Brand Fixed) ================= */
+  /* ================= Natural Flow-Based A4 PDF Exporter ================= */
   async function generateTopicPdf(rec, lang) {
     if (state.isGeneratingPdf) return;
     state.isGeneratingPdf = true;
