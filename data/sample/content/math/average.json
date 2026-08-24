@@ -1,0 +1,639 @@
+{
+  "id": "05-average",
+  "title": {"en": "Average", "as": "গড়"},
+  "description": {"en": "42 most important Average questions with full step-by-step solutions for Assam competitive exams.", "as": "অসম প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে সম্পূৰ্ণ ধাপে-ধাপে সমাধানসহ গড়ৰ ৪২টা অতি গুৰুত্বপূৰ্ণ প্ৰশ্ন।"},
+  "tags": ["average", "mean", "sum", "math", "assam-exam", "গড়"],
+  "pdf": null,
+  "questions": [
+    {
+      "q": {
+        "en": "Find the average of 6, 11, 13, 16 and 24.",
+        "as": "6, 11, 13, 16 আৰু 24 ৰ গড় নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 14", "(b) 15", "(c) 13", "(d) 12"],
+        "as": ["(ক) ১৪", "(খ) ১৫", "(গ) ১৩", "(ঘ) ১২"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Average = Sum of numbers / Number of numbers.", "Step 1: Sum = 6 + 11 + 13 + 16 + 24 = 70", "Step 2: Number of numbers = 5", "Step 3: Average = 70/5 = 14", "Answer: (a) 14"],
+        "as": ["সূত্ৰ: গড় = সংখ্যাবোৰৰ যোগফল / সংখ্যাৰ সংখ্যা।", "পদক্ষেপ ১: যোগফল = 6 + 11 + 13 + 16 + 24 = 70", "পদক্ষেপ ২: সংখ্যাৰ সংখ্যা = 5", "পদক্ষেপ ৩: গড় = 70/5 = 14", "উত্তৰ: (ক) 14"]
+      }
+    },
+    {
+      "q": {
+        "en": "Find the average of 25, 30, 35, 40 and 45.",
+        "as": "25, 30, 35, 40 আৰু 45 ৰ গড় নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 33", "(b) 34", "(c) 35", "(d) 36"],
+        "as": ["(ক) ৩৩", "(খ) ৩৪", "(গ) ৩৫", "(ঘ) ৩৬"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Average = Sum of numbers / Count.", "Step 1: Sum = 25 + 30 + 35 + 40 + 45 = 175", "Step 2: Count = 5", "Step 3: Average = 175/5 = 35", "Answer: (c) 35"],
+        "as": ["সূত্ৰ: গড় = যোগফল / সংখ্যা।", "পদক্ষেপ ১: যোগফল = 25 + 30 + 35 + 40 + 45 = 175", "পদক্ষেপ ২: সংখ্যা = 5", "পদক্ষেপ ৩: গড় = 175/5 = 35", "উত্তৰ: (গ) 35"]
+      }
+    },
+    {
+      "q": {
+        "en": "What is the average of the first 10 odd numbers?",
+        "as": "প্ৰথম 10 টা অযুগ্ম সংখ্যাৰ গড় কিমান?"
+      },
+      "options": {
+        "en": ["(a) 9", "(b) 10", "(c) 11", "(d) 12"],
+        "as": ["(ক) ৯", "(খ) ১০", "(গ) ১১", "(ঘ) ১২"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Average of first n odd numbers = n.", "Step 1: Here n = 10", "Step 2: Average = 10", "Answer: (b) 10"],
+        "as": ["সূত্ৰ: প্ৰথম n টা অযুগ্ম সংখ্যাৰ গড় = n।", "পদক্ষেপ ১: ইয়াত n = 10", "পদক্ষেপ ২: গড় = 10", "উত্তৰ: (খ) 10"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average weight of 5 persons is 42 kg. Find their total weight.",
+        "as": "5 জন ব্যক্তিৰ গড় ওজন 42 কিলোগ্রাম। মুঠ ওজন নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 205 kg", "(b) 208 kg", "(c) 212 kg", "(d) 210 kg"],
+        "as": ["(ক) ২০৫ কিলোগ্রাম", "(খ) ২০৮ কিলোগ্রাম", "(গ) ২১২ কিলোগ্রাম", "(ঘ) ২১০ কিলোগ্রাম"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Total = Average × Number of persons.", "Step 1: Total weight = 42 × 5", "Step 2: = 210 kg", "Answer: (d) 210 kg"],
+        "as": ["সূত্ৰ: মুঠ = গড় × ব্যক্তিৰ সংখ্যা।", "পদক্ষেপ ১: মুঠ ওজন = 42 × 5", "পদক্ষেপ ২: = 210 কিলোগ্রাম", "উত্তৰ: (ঘ) 210 কিলোগ্রাম"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average marks of 20 students is 55. Later it was found that the marks of one student were wrongly entered as 82 instead of 62. Find the correct average.",
+        "as": "20 জন ছাত্ৰৰ গড় নম্বৰ 55। পিছত দেখা গ'ল যে এজন ছাত্ৰৰ নম্বৰ ভুলকৈ 62 ৰ সলনি 82 বুলি লিখা হৈছিল। শুদ্ধ গড় নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 54", "(b) 55", "(c) 53", "(d) 56"],
+        "as": ["(ক) ৫৪", "(খ) ৫৫", "(গ) ৫৩", "(ঘ) ৫৬"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Correct total = Old total − wrong entry + correct entry.", "Step 1: Old total = 20 × 55 = 1100", "Step 2: Correct total = 1100 − 82 + 62 = 1080", "Step 3: Correct average = 1080/20 = 54", "Answer: (a) 54"],
+        "as": ["সূত্ৰ: শুদ্ধ মুঠ = আগৰ মুঠ − ভুল মান + শুদ্ধ মান।", "পদক্ষেপ ১: আগৰ মুঠ = 20 × 55 = 1100", "পদক্ষেপ ২: শুদ্ধ মুঠ = 1100 − 82 + 62 = 1080", "পদক্ষেপ ৩: শুদ্ধ গড় = 1080/20 = 54", "উত্তৰ: (ক) 54"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average age of 4 persons is 25 years. When a new person joins, the average becomes 27 years. Find the age of the new person.",
+        "as": "4 জন ব্যক্তিৰ গড় বয়স 25 বছৰ। এজন নতুন ব্যক্তি যোগ দিয়াত গড় বয়স 27 বছৰ হয়। নতুন ব্যক্তিজনৰ বয়স নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 33 years", "(b) 35 years", "(c) 37 years", "(d) 39 years"],
+        "as": ["(ক) ৩৩ বছৰ", "(খ) ৩৫ বছৰ", "(গ) ৩৭ বছৰ", "(ঘ) ৩৯ বছৰ"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: New person's age = New total − Old total.", "Step 1: Old total = 4 × 25 = 100", "Step 2: New total = 5 × 27 = 135", "Step 3: New person's age = 135 − 100 = 35 years", "Answer: (b) 35 years"],
+        "as": ["সূত্ৰ: নতুন ব্যক্তিজনৰ বয়স = নতুন মুঠ − আগৰ মুঠ।", "পদক্ষেপ ১: আগৰ মুঠ = 4 × 25 = 100", "পদক্ষেপ ২: নতুন মুঠ = 5 × 27 = 135", "পদক্ষেপ ৩: নতুন ব্যক্তিজনৰ বয়স = 135 − 100 = 35 বছৰ", "উত্তৰ: (খ) 35 বছৰ"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average age of 6 persons is 30 years. One person aged 40 years leaves the group. Find the new average age.",
+        "as": "6 জন ব্যক্তিৰ গড় বয়স 30 বছৰ। 40 বছৰীয়া এজন ব্যক্তি গোটৰ পৰা ওলাই যায়। নতুন গড় বয়স কিমান?"
+      },
+      "options": {
+        "en": ["(a) 26 years", "(b) 27 years", "(c) 29 years", "(d) 28 years"],
+        "as": ["(ক) ২৬ বছৰ", "(খ) ২৭ বছৰ", "(গ) ২৯ বছৰ", "(ঘ) ২৮ বছৰ"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: New average = (Old total − departed person's age) / New count.", "Step 1: Old total = 6 × 30 = 180", "Step 2: New total = 180 − 40 = 140", "Step 3: New average = 140/5 = 28 years", "Answer: (d) 28 years"],
+        "as": ["সূত্ৰ: নতুন গড় = (আগৰ মুঠ − ওলাই যোৱা ব্যক্তিজনৰ বয়স) / নতুন সংখ্যা।", "পদক্ষেপ ১: আগৰ মুঠ = 6 × 30 = 180", "পদক্ষেপ ২: নতুন মুঠ = 180 − 40 = 140", "পদক্ষেপ ৩: নতুন গড় = 140/5 = 28 বছৰ", "উত্তৰ: (ঘ) 28 বছৰ"]
+      }
+    },
+    {
+      "q": {
+        "en": "In a class of 30 boys and 20 girls, the average weight of boys is 40 kg and of girls is 35 kg. Find the average weight of the whole class.",
+        "as": "30 জন ল'ৰা আৰু 20 জনী ছোৱালীৰ শ্ৰেণীত ল'ৰাবোৰৰ গড় ওজন 40 কিলোগ্রাম আৰু ছোৱালীবোৰৰ 35 কিলোগ্রাম। গোটেই শ্ৰেণীটোৰ গড় ওজন নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 37 kg", "(b) 36 kg", "(c) 38 kg", "(d) 39 kg"],
+        "as": ["(ক) ৩৭ কিলোগ্রাম", "(খ) ৩৬ কিলোগ্রাম", "(গ) ৩৮ কিলোগ্রাম", "(ঘ) ৩৯ কিলোগ্রাম"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Combined average = (n1×a1 + n2×a2) / (n1 + n2).", "Step 1: Total weight = 30×40 + 20×35 = 1200 + 700 = 1900 kg", "Step 2: Total students = 30 + 20 = 50", "Step 3: Average = 1900/50 = 38 kg", "Answer: (c) 38 kg"],
+        "as": ["সূত্ৰ: সম্মিলিত গড় = (n1×a1 + n2×a2) / (n1 + n2)।", "পদক্ষেপ ১: মুঠ ওজন = 30×40 + 20×35 = 1200 + 700 = 1900 কিলোগ্রাম", "পদক্ষেপ ২: মুঠ ছাত্ৰ = 30 + 20 = 50", "পদক্ষেপ ৩: গড় = 1900/50 = 38 কিলোগ্রাম", "উত্তৰ: (গ) 38 কিলোগ্রাম"]
+      }
+    },
+    {
+      "q": {
+        "en": "A man travels from A to B at 60 km/h and returns at 40 km/h. Find his average speed for the whole journey.",
+        "as": "এজন মানুহে A ৰ পৰা B লৈ 60 কিলোমিটাৰ/ঘণ্টা বেগত যাত্ৰা কৰি 40 কিলোমিটাৰ/ঘণ্টা বেগত উভতি আহে। সমগ্ৰ যাত্ৰাৰ গড় গতি কিমান?"
+      },
+      "options": {
+        "en": ["(a) 48 km/h", "(b) 50 km/h", "(c) 45 km/h", "(d) 52 km/h"],
+        "as": ["(ক) ৪৮ কিলোমিটাৰ/ঘণ্টা", "(খ) ৫০ কিলোমিটাৰ/ঘণ্টা", "(গ) ৪৫ কিলোমিটাৰ/ঘণ্টা", "(ঘ) ৫২ কিলোমিটাৰ/ঘণ্টা"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Average speed = 2xy / (x + y) when distances are equal.", "Step 1: x = 60, y = 40", "Step 2: Average speed = 2×60×40 / (60+40) = 4800/100", "Step 3: = 48 km/h", "Answer: (a) 48 km/h"],
+        "as": ["সূত্ৰ: গড় গতি = 2xy / (x + y) যেতিয়া দূৰত্ব সমান হয়।", "পদক্ষেপ ১: x = 60, y = 40", "পদক্ষেপ ২: গড় গতি = 2×60×40 / (60+40) = 4800/100", "পদক্ষেপ ৩: = 48 কিলোমিটাৰ/ঘণ্টা", "উত্তৰ: (ক) 48 কিলোমিটাৰ/ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average of 5 numbers is 40. Later it was found that one number 28 was misread as 48. Find the correct average.",
+        "as": "5 টা সংখ্যাৰ গড় 40। পিছত দেখা গ'ল যে এটা সংখ্যা 28 ক ভুলকৈ 48 বুলি পঢ়া হৈছিল। শুদ্ধ গড় নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 38", "(b) 36", "(c) 34", "(d) 40"],
+        "as": ["(ক) ৩৮", "(খ) ৩৬", "(গ) ৩৪", "(ঘ) ৪০"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Correct average = (Sum − misread value + actual value) / Count.", "Step 1: Sum = 5 × 40 = 200", "Step 2: Correct sum = 200 − 48 + 28 = 180", "Step 3: Correct average = 180/5 = 36", "Answer: (b) 36"],
+        "as": ["সূত্ৰ: শুদ্ধ গড় = (যোগফল − ভুলকৈ পঢ়া মান + প্রকৃত মান) / সংখ্যা।", "পদক্ষেপ ১: যোগফল = 5 × 40 = 200", "পদক্ষেপ ২: শুদ্ধ যোগফল = 200 − 48 + 28 = 180", "পদক্ষেপ ৩: শুদ্ধ গড় = 180/5 = 36", "উত্তৰ: (খ) 36"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average of 5 numbers is 28. Four of them are 20, 24, 32 and 36. Find the fifth number.",
+        "as": "5 টা সংখ্যাৰ গড় 28। তাৰে চাৰিটা সংখ্যা 20, 24, 32 আৰু 36। পঞ্চম সংখ্যাটো নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 26", "(b) 30", "(c) 28", "(d) 24"],
+        "as": ["(ক) ২৬", "(খ) ৩০", "(গ) ২৮", "(ঘ) ২৪"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Missing number = Total sum − Sum of known numbers.", "Step 1: Total sum = 5 × 28 = 140", "Step 2: Sum of four numbers = 20 + 24 + 32 + 36 = 112", "Step 3: Fifth number = 140 − 112 = 28", "Answer: (c) 28"],
+        "as": ["সূত্ৰ: অনুপস্থিত সংখ্যা = মুঠ যোগফল − জনা সংখ্যাবোৰৰ যোগফল।", "পদক্ষেপ ১: মুঠ যোগফল = 5 × 28 = 140", "পদক্ষেপ ২: চাৰিটা সংখ্যাৰ যোগফল = 20 + 24 + 32 + 36 = 112", "পদক্ষেপ ৩: পঞ্চম সংখ্যা = 140 − 112 = 28", "উত্তৰ: (গ) 28"]
+      }
+    },
+    {
+      "q": {
+        "en": "A bowler has taken 12 wickets at an average of 25 runs per wicket. In the next match he conceded 30 runs for 3 wickets. Find his new average.",
+        "as": "এজন বলাৰে 25 ৰান/উইকেট হাৰত 12 টা উইকেট লৈছে। পৰৱৰ্তী খেলখনত তেওঁ 3 টা উইকেটত 30 ৰান দিলে। তেওঁৰ নতুন গড় কিমান?"
+      },
+      "options": {
+        "en": ["(a) 24 runs/wicket", "(b) 23 runs/wicket", "(c) 21 runs/wicket", "(d) 22 runs/wicket"],
+        "as": ["(ক) ২৪ ৰান/উইকেট", "(খ) ২৩ ৰান/উইকেট", "(গ) ২১ ৰান/উইকেট", "(ঘ) ২২ ৰান/উইকেট"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: New average = (Total runs before + runs in match) / (Total wickets before + wickets in match).", "Step 1: Runs before = 12 × 25 = 300", "Step 2: Total runs = 300 + 30 = 330, Total wickets = 12 + 3 = 15", "Step 3: New average = 330/15 = 22 runs per wicket", "Answer: (d) 22 runs/wicket"],
+        "as": ["সূত্ৰ: নতুন গড় = (আগৰ মুঠ ৰান + খেলখনৰ ৰান) / (আগৰ মুঠ উইকেট + খেলখনৰ উইকেট)।", "পদক্ষেপ ১: আগৰ ৰান = 12 × 25 = 300", "পদক্ষেপ ২: মুঠ ৰান = 300 + 30 = 330, মুঠ উইকেট = 12 + 3 = 15", "পদক্ষেপ ৩: নতুন গড় = 330/15 = 22 ৰান/উইকেট", "উত্তৰ: (ঘ) 22 ৰান/উইকেট"]
+      }
+    },
+    {
+      "q": {
+        "en": "What is the average of the first 8 even numbers?",
+        "as": "প্ৰথম 8 টা যুগ্ম সংখ্যাৰ গড় কিমান?"
+      },
+      "options": {
+        "en": ["(a) 9", "(b) 10", "(c) 8", "(d) 11"],
+        "as": ["(ক) ৯", "(খ) ১০", "(গ) ৮", "(ঘ) ১১"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Sum of first n even numbers = n(n+1).", "Step 1: n = 8, Sum = 8 × 9 = 72", "Step 2: Average = 72/8 = 9", "Answer: (a) 9"],
+        "as": ["সূত্ৰ: প্ৰথম n টা যুগ্ম সংখ্যাৰ যোগফল = n(n+1)।", "পদক্ষেপ ১: n = 8, যোগফল = 8 × 9 = 72", "পদক্ষেপ ২: গড় = 72/8 = 9", "উত্তৰ: (ক) 9"]
+      }
+    },
+    {
+      "q": {
+        "en": "Section A has 40 students with an average of 60 marks and Section B has 60 students with an average of 50 marks. Find the average of both sections combined.",
+        "as": "A শাখাত 40 জন ছাত্ৰৰ গড় নম্বৰ 60 আৰু B শাখাত 60 জন ছাত্ৰৰ গড় নম্বৰ 50। দুয়োটা শাখা একেলগে ধৰিলে গড় নম্বৰ কিমান?"
+      },
+      "options": {
+        "en": ["(a) 55", "(b) 54", "(c) 53", "(d) 56"],
+        "as": ["(ক) ৫৫", "(খ) ৫৪", "(গ) ৫৩", "(ঘ) ৫৬"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Combined average = (n1×a1 + n2×a2) / (n1 + n2).", "Step 1: Total marks = 40×60 + 60×50 = 2400 + 3000 = 5400", "Step 2: Total students = 40 + 60 = 100", "Step 3: Average = 5400/100 = 54", "Answer: (b) 54"],
+        "as": ["সূত্ৰ: সম্মিলিত গড় = (n1×a1 + n2×a2) / (n1 + n2)।", "পদক্ষেপ ১: মুঠ নম্বৰ = 40×60 + 60×50 = 2400 + 3000 = 5400", "পদক্ষেপ ২: মুঠ ছাত্ৰ = 40 + 60 = 100", "পদক্ষেপ ৩: গড় = 5400/100 = 54", "উত্তৰ: (খ) 54"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average income of a family increased by Rs 2000 each year for 5 years. If the average income at the end of 5 years is Rs 15000, what was the average income 5 years ago?",
+        "as": "এটা পৰিয়ালৰ গড় আয় প্ৰতি বছৰে 2000 টকাকৈ 5 বছৰ ধৰি বৃদ্ধি পাইছে। 5 বছৰৰ শেষত গড় আয় 15000 টকা হ'লে, 5 বছৰ আগতে গড় আয় কিমান আছিল?"
+      },
+      "options": {
+        "en": ["(a) Rs 4000", "(b) Rs 6000", "(c) Rs 5000", "(d) Rs 4500"],
+        "as": ["(ক) ৪০০০ টকা", "(খ) ৬০০০ টকা", "(গ) ৫০০০ টকা", "(ঘ) ৪৫০০ টকা"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Earlier average = Present average − (increase per year × number of years).", "Step 1: Total increase = 2000 × 5 = 10000", "Step 2: Average 5 years ago = 15000 − 10000 = Rs 5000", "Answer: (c) Rs 5000"],
+        "as": ["সূত্ৰ: আগৰ গড় = বৰ্তমান গড় − (প্ৰতি বছৰে বৃদ্ধি × বছৰৰ সংখ্যা)।", "পদক্ষেপ ১: মুঠ বৃদ্ধি = 2000 × 5 = 10000", "পদক্ষেপ ২: 5 বছৰ আগৰ গড় = 15000 − 10000 = 5000 টকা", "উত্তৰ: (গ) 5000 টকা"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average of 9 consecutive natural numbers is 45. Find the largest number.",
+        "as": "9 টা ক্ৰমিক স্বাভাৱিক সংখ্যাৰ গড় 45। সৰ্ববৃহৎ সংখ্যাটো কিমান?"
+      },
+      "options": {
+        "en": ["(a) 47", "(b) 48", "(c) 50", "(d) 49"],
+        "as": ["(ক) ৪৭", "(খ) ৪৮", "(গ) ৫০", "(ঘ) ৪৯"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: For consecutive numbers, average = middle number.", "Step 1: Middle number (5th) = 45, so first number = 45 − 4 = 41", "Step 2: Largest number = 41 + 8 = 49", "Answer: (d) 49"],
+        "as": ["সূত্ৰ: ক্ৰমিক সংখ্যাৰ ক্ষেত্ৰত, গড় = মাজৰ সংখ্যা।", "পদক্ষেপ ১: মাজৰ সংখ্যা (5ম) = 45, গতিকে প্ৰথম সংখ্যা = 45 − 4 = 41", "পদক্ষেপ ২: সৰ্ববৃহৎ সংখ্যা = 41 + 8 = 49", "উত্তৰ: (ঘ) 49"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average age of 30 students in a class is 15 years. If the average age of 2/3 of the students is 14 years, find the average age of the remaining 10 students.",
+        "as": "30 জন ছাত্ৰৰ শ্ৰেণী এখনৰ গড় বয়স 15 বছৰ। ছাত্ৰৰ 2/3 অংশৰ (20 জন) গড় বয়স 14 বছৰ হ'লে, বাকী 10 জন ছাত্ৰৰ গড় বয়স কিমান?"
+      },
+      "options": {
+        "en": ["(a) 17 years", "(b) 16 years", "(c) 18 years", "(d) 15 years"],
+        "as": ["(ক) ১৭ বছৰ", "(খ) ১৬ বছৰ", "(গ) ১৮ বছৰ", "(ঘ) ১৫ বছৰ"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Remaining group average = (Total age − group age) / Remaining count.", "Step 1: Total age = 30 × 15 = 450", "Step 2: Age of 2/3 students = 20 × 14 = 280", "Step 3: Remaining average = (450 − 280)/10 = 170/10 = 17 years", "Answer: (a) 17 years"],
+        "as": ["সূত্ৰ: বাকী গোটৰ গড় = (মুঠ বয়স − গোটৰ বয়স) / বাকী সংখ্যা।", "পদক্ষেপ ১: মুঠ বয়স = 30 × 15 = 450", "পদক্ষেপ ২: 2/3 ছাত্ৰৰ বয়স = 20 × 14 = 280", "পদক্ষেপ ৩: বাকী গোটৰ গড় = (450 − 280)/10 = 170/10 = 17 বছৰ", "উত্তৰ: (ক) 17 বছৰ"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average age of a family of 5 members is 24 years. If the youngest member is 8 years old, find the average age of the remaining 4 members.",
+        "as": "5 জন সদস্যৰ এটা পৰিয়ালৰ গড় বয়স 24 বছৰ। সৰ্বকনিষ্ঠ সদস্যজনৰ বয়স 8 বছৰ হ'লে, বাকী 4 জনৰ গড় বয়স কিমান?"
+      },
+      "options": {
+        "en": ["(a) 27 years", "(b) 28 years", "(c) 29 years", "(d) 26 years"],
+        "as": ["(ক) ২৭ বছৰ", "(খ) ২৮ বছৰ", "(গ) ২৯ বছৰ", "(ঘ) ২৬ বছৰ"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Average of remaining = (Total − youngest's age) / Remaining count.", "Step 1: Total age = 5 × 24 = 120", "Step 2: Remaining total = 120 − 8 = 112", "Step 3: Average = 112/4 = 28 years", "Answer: (b) 28 years"],
+        "as": ["সূত্ৰ: বাকীসকলৰ গড় = (মুঠ − সৰ্বকনিষ্ঠজনৰ বয়স) / বাকী সংখ্যা।", "পদক্ষেপ ১: মুঠ বয়স = 5 × 24 = 120", "পদক্ষেপ ২: বাকী মুঠ = 120 − 8 = 112", "পদক্ষেপ ৩: গড় = 112/4 = 28 বছৰ", "উত্তৰ: (খ) 28 বছৰ"]
+      }
+    },
+    {
+      "q": {
+        "en": "A student scores an average of 70 marks in 6 subjects. How many marks must he score in the 7th subject to raise his average to 75?",
+        "as": "এজন ছাত্ৰই 6 টা বিষয়ত গড়ে 70 নম্বৰ পাইছে। 7 টা বিষয়ত গড় 75 কৰিবলৈ 7ম বিষয়ত তেওঁক কিমান নম্বৰ লাগিব?"
+      },
+      "options": {
+        "en": ["(a) 100", "(b) 95", "(c) 105", "(d) 110"],
+        "as": ["(ক) ১০০", "(খ) ৯৫", "(গ) ১০৫", "(ঘ) ১১০"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Required marks = New total − Old total.", "Step 1: Old total = 6 × 70 = 420", "Step 2: New total = 7 × 75 = 525", "Step 3: Marks in 7th subject = 525 − 420 = 105", "Answer: (c) 105"],
+        "as": ["সূত্ৰ: প্ৰয়োজনীয় নম্বৰ = নতুন মুঠ − আগৰ মুঠ।", "পদক্ষেপ ১: আগৰ মুঠ = 6 × 70 = 420", "পদক্ষেপ ২: নতুন মুঠ = 7 × 75 = 525", "পদক্ষেপ ৩: 7ম বিষয়ত নম্বৰ = 525 − 420 = 105", "উত্তৰ: (গ) 105"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average weight of 30 men is 65 kg and of 20 women is 55 kg. Find the average weight of the whole group.",
+        "as": "30 জন মানুহৰ গড় ওজন 65 কিলোগ্রাম আৰু 20 গৰাকী মহিলাৰ গড় ওজন 55 কিলোগ্রাম। গোটেই গোটটোৰ গড় ওজন নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 63 kg", "(b) 60 kg", "(c) 62 kg", "(d) 61 kg"],
+        "as": ["(ক) ৬৩ কিলোগ্রাম", "(খ) ৬০ কিলোগ্রাম", "(গ) ৬২ কিলোগ্রাম", "(ঘ) ৬১ কিলোগ্রাম"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Combined average = (n1×a1 + n2×a2) / (n1 + n2).", "Step 1: Total weight = 30×65 + 20×55 = 1950 + 1100 = 3050 kg", "Step 2: Total persons = 30 + 20 = 50", "Step 3: Average = 3050/50 = 61 kg", "Answer: (d) 61 kg"],
+        "as": ["সূত্ৰ: সম্মিলিত গড় = (n1×a1 + n2×a2) / (n1 + n2)।", "পদক্ষেপ ১: মুঠ ওজন = 30×65 + 20×55 = 1950 + 1100 = 3050 কিলোগ্রাম", "পদক্ষেপ ২: মুঠ ব্যক্তি = 30 + 20 = 50", "পদক্ষেপ ৩: গড় = 3050/50 = 61 কিলোগ্রাম", "উত্তৰ: (ঘ) 61 কিলোগ্রাম"]
+      }
+    },
+    {
+      "q": {
+        "en": "A batsman has an average of 45 runs in 8 innings. How many runs must he score in the next innings to raise his average to 50?",
+        "as": "এজন বেটছমেনে 8 টা ইনিংছত গড়ে 45 ৰান কৰিছে। পৰৱৰ্তী ইনিংছত কিমান ৰান কৰিলে তেওঁৰ গড় 50 হ'ব?"
+      },
+      "options": {
+        "en": ["(a) 90", "(b) 85", "(c) 95", "(d) 100"],
+        "as": ["(ক) ৯০", "(খ) ৮৫", "(গ) ৯৫", "(ঘ) ১০০"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Required runs = New total − Old total.", "Step 1: Old total = 8 × 45 = 360", "Step 2: New total (9 innings) = 9 × 50 = 450", "Step 3: Runs needed = 450 − 360 = 90", "Answer: (a) 90"],
+        "as": ["সূত্ৰ: প্ৰয়োজনীয় ৰান = নতুন মুঠ − আগৰ মুঠ।", "পদক্ষেপ ১: আগৰ মুঠ = 8 × 45 = 360", "পদক্ষেপ ২: নতুন মুঠ (9 ইনিংছ) = 9 × 50 = 450", "পদক্ষেপ ৩: প্ৰয়োজনীয় ৰান = 450 − 360 = 90", "উত্তৰ: (ক) 90"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average age of a father and mother is 30 years. After the birth of a child, the average age of the family becomes 22 years. Find the age of the child.",
+        "as": "পিতৃ-মাতৃ দুজনৰ গড় বয়স 30 বছৰ। এটা সন্তান জন্ম হোৱাৰ পিছত পৰিয়ালটোৰ গড় বয়স 22 বছৰ হয়। সন্তানটিৰ বয়স কিমান?"
+      },
+      "options": {
+        "en": ["(a) 4 years", "(b) 6 years", "(c) 5 years", "(d) 8 years"],
+        "as": ["(ক) ৪ বছৰ", "(খ) ৬ বছৰ", "(গ) ৫ বছৰ", "(ঘ) ৮ বছৰ"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Child's age = Family total − Parents' total.", "Step 1: Parents' total = 2 × 30 = 60", "Step 2: Family total = 3 × 22 = 66", "Step 3: Child's age = 66 − 60 = 6 years", "Answer: (b) 6 years"],
+        "as": ["সূত্ৰ: শিশুটিৰ বয়স = পৰিয়ালৰ মুঠ − পিতৃ-মাতৃৰ মুঠ।", "পদক্ষেপ ১: পিতৃ-মাতৃৰ মুঠ = 2 × 30 = 60", "পদক্ষেপ ২: পৰিয়ালৰ মুঠ = 3 × 22 = 66", "পদক্ষেপ ৩: শিশুটিৰ বয়স = 66 − 60 = 6 বছৰ", "উত্তৰ: (খ) 6 বছৰ"]
+      }
+    },
+    {
+      "q": {
+        "en": "A man travels at 50 km/h for 2 hours and then at 70 km/h for 3 hours. Find his average speed for the whole journey.",
+        "as": "এজন মানুহে 2 ঘণ্টা 50 কিলোমিটাৰ/ঘণ্টা বেগত আৰু 3 ঘণ্টা 70 কিলোমিটাৰ/ঘণ্টা বেগত যাত্ৰা কৰে। সমগ্ৰ যাত্ৰাৰ গড় গতি কিমান?"
+      },
+      "options": {
+        "en": ["(a) 60 km/h", "(b) 64 km/h", "(c) 62 km/h", "(d) 58 km/h"],
+        "as": ["(ক) ৬০ কিলোমিটাৰ/ঘণ্টা", "(খ) ৬৪ কিলোমিটাৰ/ঘণ্টা", "(গ) ৬২ কিলোমিটাৰ/ঘণ্টা", "(ঘ) ৫৮ কিলোমিটাৰ/ঘণ্টা"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Average speed = Total distance / Total time.", "Step 1: Distance1 = 50 × 2 = 100 km, Distance2 = 70 × 3 = 210 km", "Step 2: Total distance = 310 km, Total time = 5 h", "Step 3: Average speed = 310/5 = 62 km/h", "Answer: (c) 62 km/h"],
+        "as": ["সূত্ৰ: গড় গতি = মুঠ দূৰত্ব / মুঠ সময়।", "পদক্ষেপ ১: দূৰত্ব1 = 50 × 2 = 100 কিলোমিটাৰ, দূৰত্ব2 = 70 × 3 = 210 কিলোমিটাৰ", "পদক্ষেপ ২: মুঠ দূৰত্ব = 310 কিলোমিটাৰ, মুঠ সময় = 5 ঘণ্টা", "পদক্ষেপ ৩: গড় গতি = 310/5 = 62 কিলোমিটাৰ/ঘণ্টা", "উত্তৰ: (গ) 62 কিলোমিটাৰ/ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average of 5 consecutive even numbers is 26. Find the smallest number.",
+        "as": "5 টা ক্ৰমিক যুগ্ম সংখ্যাৰ গড় 26। সৰ্বকনিষ্ঠ সংখ্যাটো কিমান?"
+      },
+      "options": {
+        "en": ["(a) 24", "(b) 20", "(c) 26", "(d) 22"],
+        "as": ["(ক) ২৪", "(খ) ২০", "(গ) ২৬", "(ঘ) ২২"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: For consecutive even numbers, average = middle number.", "Step 1: Middle number (3rd) = 26", "Step 2: Smallest = 26 − 4 = 22", "Answer: (d) 22"],
+        "as": ["সূত্ৰ: ক্ৰমিক যুগ্ম সংখ্যাৰ ক্ষেত্ৰত, গড় = মাজৰ সংখ্যা।", "পদক্ষেপ ১: মাজৰ সংখ্যা (3য়) = 26", "পদক্ষেপ ২: সৰ্বকনিষ্ঠ সংখ্যা = 26 − 4 = 22", "উত্তৰ: (ঘ) 22"]
+      }
+    },
+    {
+      "q": {
+        "en": "Find the average of all numbers from 1 to 100.",
+        "as": "1 ৰ পৰা 100 লৈকে সকলো সংখ্যাৰ গড় কিমান?"
+      },
+      "options": {
+        "en": ["(a) 50.5", "(b) 50", "(c) 51", "(d) 49.5"],
+        "as": ["(ক) ৫০.৫", "(খ) ৫০", "(গ) ৫১", "(ঘ) ৪৯.৫"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Average of 1 to n = (n + 1)/2.", "Step 1: n = 100", "Step 2: Average = (100 + 1)/2 = 50.5", "Answer: (a) 50.5"],
+        "as": ["সূত্ৰ: 1 ৰ পৰা n লৈ গড় = (n + 1)/2।", "পদক্ষেপ ১: n = 100", "পদক্ষেপ ২: গড় = (100 + 1)/2 = 50.5", "উত্তৰ: (ক) 50.5"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average weight of 10 students is 42 kg. The weight of one student was wrongly recorded as 46 kg instead of 36 kg. Find the correct average.",
+        "as": "10 জন ছাত্ৰৰ গড় ওজন 42 কিলোগ্রাম। এজন ছাত্ৰৰ ওজন ভুলকৈ 36 কিলোগ্রামৰ সলনি 46 কিলোগ্রাম বুলি লিখা হৈছিল। শুদ্ধ গড় নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 42 kg", "(b) 41 kg", "(c) 40 kg", "(d) 43 kg"],
+        "as": ["(ক) ৪২ কিলোগ্রাম", "(খ) ৪১ কিলোগ্রাম", "(গ) ৪০ কিলোগ্রাম", "(ঘ) ৪৩ কিলোগ্রাম"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Correct average = (Old sum − wrong value + correct value) / Count.", "Step 1: Old sum = 10 × 42 = 420", "Step 2: Correct sum = 420 − 46 + 36 = 410", "Step 3: Correct average = 410/10 = 41 kg", "Answer: (b) 41 kg"],
+        "as": ["সূত্ৰ: শুদ্ধ গড় = (আগৰ যোগফল − ভুল মান + শুদ্ধ মান) / সংখ্যা।", "পদক্ষেপ ১: আগৰ যোগফল = 10 × 42 = 420", "পদক্ষেপ ২: শুদ্ধ যোগফল = 420 − 46 + 36 = 410", "পদক্ষেপ ৩: শুদ্ধ গড় = 410/10 = 41 কিলোগ্রাম", "উত্তৰ: (খ) 41 কিলোগ্রাম"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average of 5 numbers is 18. If each number is multiplied by 3, what will be the new average?",
+        "as": "5 টা সংখ্যাৰ গড় 18। যদি প্ৰতিটো সংখ্যাকে 3 ৰে পূৰণ কৰা হয়, তেন্তে নতুন গড় কিমান হ'ব?"
+      },
+      "options": {
+        "en": ["(a) 45", "(b) 21", "(c) 54", "(d) 51"],
+        "as": ["(ক) ৪৫", "(খ) ২১", "(গ) ৫৪", "(ঘ) ৫১"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: If each number is multiplied by k, the average is also multiplied by k.", "Step 1: Original average = 18, k = 3", "Step 2: New average = 18 × 3 = 54", "Answer: (c) 54"],
+        "as": ["সূত্ৰ: যদি প্ৰতিটো সংখ্যাকে k ৰে পূৰণ কৰা হয়, তেন্তে গড়কো k ৰে পূৰণ হয়।", "পদক্ষেপ ১: মূল গড় = 18, k = 3", "পদক্ষেপ ২: নতুন গড় = 18 × 3 = 54", "উত্তৰ: (গ) 54"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average age of 8 persons is 25 years. A person aged 40 years is replaced by a new person aged 16 years. Find the new average.",
+        "as": "8 জন ব্যক্তিৰ গড় বয়স 25 বছৰ। 40 বছৰীয়া এজন ব্যক্তিক 16 বছৰীয়া নতুন এজন ব্যক্তিয়ে সলনি কৰিলে। নতুন গড় বয়স কিমান?"
+      },
+      "options": {
+        "en": ["(a) 24 years", "(b) 23 years", "(c) 21 years", "(d) 22 years"],
+        "as": ["(ক) ২৪ বছৰ", "(খ) ২৩ বছৰ", "(গ) ২১ বছৰ", "(ঘ) ২২ বছৰ"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: New average = (Old total − replaced age + new age) / Count.", "Step 1: Old total = 8 × 25 = 200", "Step 2: New total = 200 − 40 + 16 = 176", "Step 3: New average = 176/8 = 22 years", "Answer: (d) 22 years"],
+        "as": ["সূত্ৰ: নতুন গড় = (আগৰ মুঠ − বাহিৰ হোৱাজনৰ বয়স + নতুনজনৰ বয়স) / সংখ্যা।", "পদক্ষেপ ১: আগৰ মুঠ = 8 × 25 = 200", "পদক্ষেপ ২: নতুন মুঠ = 200 − 40 + 16 = 176", "পদক্ষেপ ৩: নতুন গড় = 176/8 = 22 বছৰ", "উত্তৰ: (ঘ) 22 বছৰ"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average daily expenditure of a family in a week is Rs 250. What is the total expenditure of the week?",
+        "as": "এটা পৰিয়ালৰ সপ্তাহটোৰ গড় দৈনিক খৰচ 250 টকা। সপ্তাহটোৰ মুঠ খৰচ কিমান?"
+      },
+      "options": {
+        "en": ["(a) Rs 1750", "(b) Rs 1700", "(c) Rs 1800", "(d) Rs 1500"],
+        "as": ["(ক) ১৭৫০ টকা", "(খ) ১৭০০ টকা", "(গ) ১৮০০ টকা", "(ঘ) ১৫০০ টকা"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Total = Average × Number of days.", "Step 1: Total expenditure = 250 × 7", "Step 2: = Rs 1750", "Answer: (a) Rs 1750"],
+        "as": ["সূত্ৰ: মুঠ = গড় × দিনৰ সংখ্যা।", "পদক্ষেপ ১: মুঠ খৰচ = 250 × 7", "পদক্ষেপ ২: = 1750 টকা", "উত্তৰ: (ক) 1750 টকা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A batsman has an average of 40 runs in 15 innings. After the next innings his average drops to 38. How many runs did he score in the 16th innings?",
+        "as": "এজন বেটছমেনৰ 15 টা ইনিংছত গড় 40 ৰান। পৰৱৰ্তী ইনিংছৰ পিছত তেওঁৰ গড় 38 লৈ নামিল। 16তম ইনিংছত তেওঁ কিমান ৰান কৰিছিল?"
+      },
+      "options": {
+        "en": ["(a) 10", "(b) 8", "(c) 12", "(d) 6"],
+        "as": ["(ক) ১০", "(খ) ৮", "(গ) ১২", "(ঘ) ৬"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Runs in nth innings = New total − Old total.", "Step 1: Old total = 15 × 40 = 600", "Step 2: New total = 16 × 38 = 608", "Step 3: Runs in 16th innings = 608 − 600 = 8", "Answer: (b) 8"],
+        "as": ["সূত্ৰ: n তম ইনিংছৰ ৰান = নতুন মুঠ − আগৰ মুঠ।", "পদক্ষেপ ১: আগৰ মুঠ = 15 × 40 = 600", "পদক্ষেপ ২: নতুন মুঠ = 16 × 38 = 608", "পদক্ষেপ ৩: 16 তম ইনিংছৰ ৰান = 608 − 600 = 8", "উত্তৰ: (খ) 8"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average of 4 numbers is 20. If 0 is also included, what will be the new average?",
+        "as": "4 টা সংখ্যাৰ গড় 20। যদি ইয়াৰ লগত 0 ো অন্তৰ্ভুক্ত কৰা হয়, তেন্তে নতুন গড় কিমান?"
+      },
+      "options": {
+        "en": ["(a) 18", "(b) 17", "(c) 16", "(d) 15"],
+        "as": ["(ক) ১৮", "(খ) ১৭", "(গ) ১৬", "(ঘ) ১৫"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: New average = (Old sum + 0) / (Count + 1).", "Step 1: Old sum = 4 × 20 = 80", "Step 2: New average = 80/5 = 16", "Answer: (c) 16"],
+        "as": ["সূত্ৰ: নতুন গড় = (আগৰ যোগফল + 0) / (সংখ্যা + 1)।", "পদক্ষেপ ১: আগৰ যোগফল = 4 × 20 = 80", "পদক্ষেপ ২: নতুন গড় = 80/5 = 16", "উত্তৰ: (গ) 16"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average of 6 numbers is 35. Five of them are 28, 32, 36, 40 and 44. Find the sixth number.",
+        "as": "6 টা সংখ্যাৰ গড় 35। তাৰে পাঁচটা সংখ্যা 28, 32, 36, 40 আৰু 44। ষষ্ঠ সংখ্যাটো কিমান?"
+      },
+      "options": {
+        "en": ["(a) 34", "(b) 32", "(c) 28", "(d) 30"],
+        "as": ["(ক) ৩৪", "(খ) ৩২", "(গ) ২৮", "(ঘ) ৩০"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Missing number = Total sum − Sum of known numbers.", "Step 1: Total sum = 6 × 35 = 210", "Step 2: Sum of five = 28 + 32 + 36 + 40 + 44 = 180", "Step 3: Sixth number = 210 − 180 = 30", "Answer: (d) 30"],
+        "as": ["সূত্ৰ: অনুপস্থিত সংখ্যা = মুঠ যোগফল − জনা সংখ্যাবোৰৰ যোগফল।", "পদক্ষেপ ১: মুঠ যোগফল = 6 × 35 = 210", "পদক্ষেপ ২: পাঁচটা সংখ্যাৰ যোগফল = 28 + 32 + 36 + 40 + 44 = 180", "পদক্ষেপ ৩: ষষ্ঠ সংখ্যা = 210 − 180 = 30", "উত্তৰ: (ঘ) 30"]
+      }
+    },
+    {
+      "q": {
+        "en": "Find the average of the first 12 multiples of 5.",
+        "as": "5 ৰ প্ৰথম 12 টা গুণিতকৰ গড় কিমান?"
+      },
+      "options": {
+        "en": ["(a) 32.5", "(b) 30", "(c) 35", "(d) 33"],
+        "as": ["(ক) ৩২.৫", "(খ) ৩০", "(গ) ৩৫", "(ঘ) ৩৩"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Sum of first n multiples of k = k × n(n+1)/2.", "Step 1: Sum = 5 × 12×13/2 = 5 × 78 = 390", "Step 2: Average = 390/12 = 32.5", "Answer: (a) 32.5"],
+        "as": ["সূত্ৰ: k ৰ প্ৰথম n টা গুণিতকৰ যোগফল = k × n(n+1)/2।", "পদক্ষেপ ১: যোগফল = 5 × 12×13/2 = 5 × 78 = 390", "পদক্ষেপ ২: গড় = 390/12 = 32.5", "উত্তৰ: (ক) 32.5"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average age of 4 students is 25 years. A new student aged 30 joins them. Find the new average age.",
+        "as": "4 জন ছাত্ৰৰ গড় বয়স 25 বছৰ। 30 বছৰীয়া এজন নতুন ছাত্ৰ যোগ দিলে নতুন গড় বয়স কিমান হ'ব?"
+      },
+      "options": {
+        "en": ["(a) 27 years", "(b) 26 years", "(c) 25 years", "(d) 28 years"],
+        "as": ["(ক) ২৭ বছৰ", "(খ) ২৬ বছৰ", "(গ) ২৫ বছৰ", "(ঘ) ২৮ বছৰ"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: New average = (Old total + new member's age) / (Old count + 1).", "Step 1: Old total = 4 × 25 = 100", "Step 2: New total = 100 + 30 = 130", "Step 3: New average = 130/5 = 26 years", "Answer: (b) 26 years"],
+        "as": ["সূত্ৰ: নতুন গড় = (আগৰ মুঠ + নতুন সদস্যৰ বয়স) / (আগৰ সংখ্যা + 1)।", "পদক্ষেপ ১: আগৰ মুঠ = 4 × 25 = 100", "পদক্ষেপ ২: নতুন মুঠ = 100 + 30 = 130", "পদক্ষেপ ৩: নতুন গড় = 130/5 = 26 বছৰ", "উত্তৰ: (খ) 26 বছৰ"]
+      }
+    },
+    {
+      "q": {
+        "en": "In a class, 2/3 of the students scored an average of 45 marks and 1/3 scored an average of 60 marks. Find the average marks of the whole class.",
+        "as": "এটা শ্ৰেণীত ছাত্ৰৰ 2/3 অংশই গড়ে 45 নম্বৰ আৰু 1/3 অংশই গড়ে 60 নম্বৰ পাইছে। গোটেই শ্ৰেণীটোৰ গড় নম্বৰ কিমান?"
+      },
+      "options": {
+        "en": ["(a) 52", "(b) 48", "(c) 50", "(d) 55"],
+        "as": ["(ক) ৫২", "(খ) ৪৮", "(গ) ৫০", "(ঘ) ৫৫"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Overall average = (w1×a1 + w2×a2) / (w1 + w2).", "Step 1: Weights are 2 and 1 (ratio 2:1)", "Step 2: Overall average = (2×45 + 1×60)/3 = (90 + 60)/3", "Step 3: = 150/3 = 50", "Answer: (c) 50"],
+        "as": ["সূত্ৰ: সামগ্ৰিক গড় = (w1×a1 + w2×a2) / (w1 + w2)।", "পদক্ষেপ ১: ভাগ 2 আৰু 1 (অনুপাত 2:1)", "পদক্ষেপ ২: সামগ্ৰিক গড় = (2×45 + 1×60)/3 = (90 + 60)/3", "পদক্ষেপ ৩: = 150/3 = 50", "উত্তৰ: (গ) 50"]
+      }
+    },
+    {
+      "q": {
+        "en": "Find the average of the first 5 prime numbers.",
+        "as": "প্ৰথম 5 টা মৌলিক সংখ্যাৰ গড় কিমান?"
+      },
+      "options": {
+        "en": ["(a) 5.4", "(b) 5.5", "(c) 6", "(d) 5.6"],
+        "as": ["(ক) ৫.৪", "(খ) ৫.৫", "(গ) ৬", "(ঘ) ৫.৬"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Average = Sum of primes / Count.", "Step 1: First five primes: 2, 3, 5, 7, 11", "Step 2: Sum = 2 + 3 + 5 + 7 + 11 = 28", "Step 3: Average = 28/5 = 5.6", "Answer: (d) 5.6"],
+        "as": ["সূত্ৰ: গড় = মৌলিক সংখ্যাবোৰৰ যোগফল / সংখ্যা।", "পদক্ষেপ ১: প্ৰথম পাঁচটা মৌলিক সংখ্যা: 2, 3, 5, 7, 11", "পদক্ষেপ ২: যোগফল = 2 + 3 + 5 + 7 + 11 = 28", "পদক্ষেপ ৩: গড় = 28/5 = 5.6", "উত্তৰ: (ঘ) 5.6"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average of two numbers is 15. If one of them is 9, find the other number.",
+        "as": "দুটা সংখ্যাৰ গড় 15। তাৰে এটা 9 হ'লে, আনটো সংখ্যা কিমান?"
+      },
+      "options": {
+        "en": ["(a) 21", "(b) 19", "(c) 24", "(d) 18"],
+        "as": ["(ক) ২১", "(খ) ১৯", "(গ) ২৪", "(ঘ) ১৮"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Other number = 2 × Average − Given number.", "Step 1: Sum = 2 × 15 = 30", "Step 2: Other number = 30 − 9 = 21", "Answer: (a) 21"],
+        "as": ["সূত্ৰ: আনটো সংখ্যা = 2 × গড় − দিয়া সংখ্যা।", "পদক্ষেপ ১: যোগফল = 2 × 15 = 30", "পদক্ষেপ ২: আনটো সংখ্যা = 30 − 9 = 21", "উত্তৰ: (ক) 21"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average height of 5 boys is 150 cm. If the average height of 4 of them is 148 cm, find the height of the fifth boy.",
+        "as": "5 জন ল'ৰাৰ গড় উচ্চতা 150 চে.মি.। তাৰে 4 জনৰ গড় উচ্চতা 148 চে.মি. হ'লে, পঞ্চম ল'ৰাটোৰ উচ্চতা কিমান?"
+      },
+      "options": {
+        "en": ["(a) 156 cm", "(b) 158 cm", "(c) 155 cm", "(d) 160 cm"],
+        "as": ["(ক) ১৫৬ চে.মি.", "(খ) ১৫৮ চে.মি.", "(গ) ১৫৫ চে.মি.", "(ঘ) ১৬০ চে.মি."]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Missing height = Total − Sum of the rest.", "Step 1: Total = 5 × 150 = 750 cm", "Step 2: Sum of 4 boys = 4 × 148 = 592 cm", "Step 3: Fifth boy's height = 750 − 592 = 158 cm", "Answer: (b) 158 cm"],
+        "as": ["সূত্ৰ: অনুপস্থিত উচ্চতা = মুঠ − বাকীসকলৰ যোগফল।", "পদক্ষেপ ১: মুঠ = 5 × 150 = 750 চে.মি.", "পদক্ষেপ ২: 4 জন ল'ৰাৰ যোগফল = 4 × 148 = 592 চে.মি.", "পদক্ষেপ ৩: পঞ্চম ল'ৰাটোৰ উচ্চতা = 750 − 592 = 158 চে.মি.", "উত্তৰ: (খ) 158 চে.মি."]
+      }
+    },
+    {
+      "q": {
+        "en": "The present average age of a family of 4 members is 30 years. What will be the average age of the family after 5 years?",
+        "as": "4 জন সদস্যৰ এটা পৰিয়ালৰ বৰ্তমান গড় বয়স 30 বছৰ। 5 বছৰ পিছত পৰিয়ালটোৰ গড় বয়স কিমান হ'ব?"
+      },
+      "options": {
+        "en": ["(a) 32 years", "(b) 33 years", "(c) 35 years", "(d) 34 years"],
+        "as": ["(ক) ৩২ বছৰ", "(খ) ৩৩ বছৰ", "(গ) ৩৫ বছৰ", "(ঘ) ৩৪ বছৰ"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Average after t years = Present average + t.", "Step 1: Present average = 30 years", "Step 2: After 5 years, average = 30 + 5 = 35 years", "Answer: (c) 35 years"],
+        "as": ["সূত্ৰ: t বছৰ পিছত গড় = বৰ্তমান গড় + t।", "পদক্ষেপ ১: বৰ্তমান গড় = 30 বছৰ", "পদক্ষেপ ২: 5 বছৰ পিছত, গড় = 30 + 5 = 35 বছৰ", "উত্তৰ: (গ) 35 বছৰ"]
+      }
+    },
+    {
+      "q": {
+        "en": "The average weight of 10 boys is 45 kg. A boy weighing 40 kg leaves and a new boy weighing 50 kg joins. Find the new average weight.",
+        "as": "10 জন ল'ৰাৰ গড় ওজন 45 কিলোগ্রাম। 40 কিলোগ্রাম ওজনৰ ল'ৰা এজন ওলাই গৈ 50 কিলোগ্রাম ওজনৰ নতুন ল'ৰা এজন ভৰ্তি হ'লে, নতুন গড় ওজন কিমান?"
+      },
+      "options": {
+        "en": ["(a) 44 kg", "(b) 45 kg", "(c) 47 kg", "(d) 46 kg"],
+        "as": ["(ক) ৪৪ কিলোগ্রাম", "(খ) ৪৫ কিলোগ্রাম", "(গ) ৪৭ কিলোগ্রাম", "(ঘ) ৪৬ কিলোগ্রাম"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: New average = (Old total − leaving weight + joining weight) / Count.", "Step 1: Old total = 10 × 45 = 450 kg", "Step 2: New total = 450 − 40 + 50 = 460 kg", "Step 3: New average = 460/10 = 46 kg", "Answer: (d) 46 kg"],
+        "as": ["সূত্ৰ: নতুন গড় = (আগৰ মুঠ − বাহিৰ হোৱাজনৰ ওজন + ভৰ্তি হোৱাজনৰ ওজন) / সংখ্যা।", "পদক্ষেপ ১: আগৰ মুঠ = 10 × 45 = 450 কিলোগ্রাম", "পদক্ষেপ ২: নতুন মুঠ = 450 − 40 + 50 = 460 কিলোগ্রাম", "পদক্ষেপ ৩: নতুন গড় = 460/10 = 46 কিলোগ্রাম", "উত্তৰ: (ঘ) 46 কিলোগ্রাম"]
+      }
+    },
+    {
+      "q": {
+        "en": "Find the average of 3, 7, 11, 15 and 19.",
+        "as": "3, 7, 11, 15 আৰু 19 ৰ গড় নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 11", "(b) 13", "(c) 10", "(d) 12"],
+        "as": ["(ক) ১১", "(খ) ১৩", "(গ) ১০", "(ঘ) ১২"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Average = Sum of numbers / Count.", "Step 1: Sum = 3 + 7 + 11 + 15 + 19 = 55", "Step 2: Count = 5", "Step 3: Average = 55/5 = 11", "Answer: (a) 11"],
+        "as": ["সূত্ৰ: গড় = সংখ্যাবোৰৰ যোগফল / সংখ্যা।", "পদক্ষেপ ১: যোগফল = 3 + 7 + 11 + 15 + 19 = 55", "পদক্ষেপ ২: সংখ্যা = 5", "পদক্ষেপ ৩: গড় = 55/5 = 11", "উত্তৰ: (ক) 11"]
+      }
+    },
+    {
+      "q": {
+        "en": "In an office, 4 peons have an average salary of Rs 3000, 6 clerks of Rs 5000 and 8 officers of Rs 6000. Find the average salary of all the employees.",
+        "as": "এটা কাৰ্যালয়ত 4 জন পিয়নৰ গড় দৰমহা 3000 টকা, 6 জন কেৰাণীৰ 5000 টকা আৰু 8 জন বিষয়াৰ 6000 টকা। সকলোৰে গড় দৰমহা কিমান?"
+      },
+      "options": {
+        "en": ["(a) Rs 4800", "(b) Rs 5000", "(c) Rs 5200", "(d) Rs 4500"],
+        "as": ["(ক) ৪৮০০ টকা", "(খ) ৫০০০ টকা", "(গ) ৫২০০ টকা", "(ঘ) ৪৫০০ টকা"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Overall average = Total of all groups / Total number.", "Step 1: Total = 4×3000 + 6×5000 + 8×6000 = 12000 + 30000 + 48000 = 90000", "Step 2: Total persons = 4 + 6 + 8 = 18", "Step 3: Average = 90000/18 = Rs 5000", "Answer: (b) Rs 5000"],
+        "as": ["সূত্ৰ: সামগ্ৰিক গড় = সকলো গোটৰ মুঠ / মুঠ সংখ্যা।", "পদক্ষেপ ১: মুঠ = 4×3000 + 6×5000 + 8×6000 = 12000 + 30000 + 48000 = 90000", "পদক্ষেপ ২: মুঠ ব্যক্তি = 4 + 6 + 8 = 18", "পদক্ষেপ ৩: গড় = 90000/18 = 5000 টকা", "উত্তৰ: (খ) 5000 টকা"]
+      }
+    }
+  ]
+}
