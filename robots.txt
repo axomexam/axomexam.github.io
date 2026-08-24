@@ -1,0 +1,30 @@
+# ============================================================
+# robots.txt for axomexam.in
+# Optimized for Google Search, AdSense, and Fast Crawling
+# ============================================================
+
+User-agent: *
+Allow: /
+
+# Explicit permission for Google AdSense Crawler
+User-agent: Mediapartners-Google
+Allow: /
+
+# Explicit permission for Googlebot (Search Engine)
+User-agent: Googlebot
+Allow: /
+
+# Explicit permission for Google Mobile Crawler
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Explicit permission for Google Image Crawler
+User-agent: Googlebot-Image
+Allow: /
+
+# Disallow sensitive asset directories if any (Optional)
+Disallow: /api/
+Disallow: /*?*
+
+# Sitemap Location
+Sitemap: https://axomexam.in/sitemap.xml
