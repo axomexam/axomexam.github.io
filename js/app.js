@@ -3,7 +3,7 @@
    Application logic: i18n, navigation, routing, rendering,
    search, Q&A reader, Math Engine (Assamese + English), Mock Tests,
    Dedicated Downloads Search, Detailed Bilingual AdSense Legal Pages,
-   Pure White High-Contrast Footer Text.
+   Pure White High-Contrast Footer Text, Mobile Center Align Fixed.
    Domain: axomexam.in
    Default UI Language: English ("en").
    ============================================================ */
@@ -29,16 +29,16 @@
 
   /* Direct Vector Brand Logo */
   const BRAND_LOGO_SVG = `
-    <svg width="118" height="26" viewBox="0 0 118 26" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
+    <svg width="124" height="28" viewBox="0 0 124 28" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
       <defs>
         <linearGradient id="gradLogo" x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" stop-color="#6366f1" />
           <stop offset="100%" stop-color="#3b82f6" />
         </linearGradient>
       </defs>
-      <rect width="26" height="26" rx="6.5" fill="url(#gradLogo)"/>
-      <text x="13" y="18" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="14.5" text-anchor="middle">A</text>
-      <text x="34" y="18.5" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="14" letter-spacing="-0.3">axomexam</text>
+      <rect width="28" height="28" rx="7" fill="url(#gradLogo)"/>
+      <text x="14" y="19.5" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="15.5" text-anchor="middle">A</text>
+      <text x="36" y="19.5" fill="#4f46e5" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="15" letter-spacing="-0.3">axomexam</text>
     </svg>
   `;
 
@@ -734,7 +734,7 @@
     });
   }
 
-  /* ================= Category page (Two-Line Subcategory Cards) ================= */
+  /* ================= Category page ================= */
   function renderCategoryPage(main, cat) {
     const subs = cat.subcategories || cat.sections || [];
     const directTopics = cat.topics || [];
@@ -881,25 +881,54 @@
         <p class="page-desc">${escapeHtml(localized(rec.topic.description)) || ""}</p>
       </div>
 
-      <div class="topic-layout">
+      <div class="topic-layout" style="max-width:100%; margin:0 auto;">
         <div>
-          <div class="qa-toolbar">
-            <span class="qt-info">${qs.length} ${t("topic.questions")}</span>
-            <div class="qa-actions">
-              <button class="btn btn-sm btn-outline qa-tool-btn" id="qa-reading" type="button">
+          <div class="qa-toolbar" style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:10px; margin-bottom:16px;">
+            <span class="qt-info" style="font-weight:700; font-size:0.92rem; color:var(--ink-soft,#64748b);">${qs.length} ${t("topic.questions")}</span>
+            <div class="qa-actions" style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+              <button class="btn btn-sm btn-outline qa-tool-btn" id="qa-reading" type="button" style="display:inline-flex; align-items:center; gap:6px; font-weight:700;">
                 <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg>
-                ${t("topic.reading")}
+                Reading Mode
               </button>
-              <div class="lang-switch" role="group" aria-label="Reading language">
-                <button class="lang-btn ${state.lang === "as" ? "active" : ""}" type="button" data-lang="as">${t("topic.lang.as")}</button>
-                <button class="lang-btn ${state.lang === "en" ? "active" : ""}" type="button" data-lang="en">${t("topic.lang.en")}</button>
+              <div class="lang-switch" role="group" aria-label="Reading language" style="display:inline-flex; border-radius:10px; overflow:hidden; border:1px solid var(--border,#cbd5e1);">
+                <button class="lang-btn ${state.lang === "as" ? "active" : ""}" type="button" data-lang="as" style="padding:6px 12px; font-weight:700; border:none; cursor:pointer;">${t("topic.lang.as")}</button>
+                <button class="lang-btn ${state.lang === "en" ? "active" : ""}" type="button" data-lang="en" style="padding:6px 12px; font-weight:700; border:none; cursor:pointer;">${t("topic.lang.en")}</button>
               </div>
             </div>
           </div>
-          <div id="qa-list" class="qa-list"></div>
-          <div id="pager"></div>
+          <div id="qa-list" class="qa-list" style="width:100%; box-sizing:border-box;"></div>
+          <div id="pager" style="display:flex; justify-content:center; align-items:center; gap:12px; margin-top:24px;"></div>
         </div>
-      </div>`;
+      </div>
+
+      <style>
+        @media (max-width: 640px) {
+          .qa-toolbar {
+            justify-content: center !important;
+            text-align: center !important;
+            flex-direction: column !important;
+            gap: 12px !important;
+          }
+          .qa-actions {
+            justify-content: center !important;
+            width: 100% !important;
+          }
+          .qa-card {
+            margin-left: auto !important;
+            margin-right: auto !important;
+            box-sizing: border-box !important;
+            width: 100% !important;
+          }
+          .qa-options {
+            margin-left: 0 !important;
+            grid-template-columns: 1fr !important;
+          }
+          .qa-exp {
+            padding-left: 0 !important;
+          }
+        }
+      </style>
+    `;
 
     renderQAPage();
 
@@ -939,27 +968,28 @@
         const explanation = extractField(item, "explanation");
 
         return `
-          <article class="qa-card" data-n="${n}">
-            <div class="qa-q">
-              <span class="qno">${n}</span>
-              <span class="qtext">${formatMath(qtext)}</span>
+          <article class="qa-card" data-n="${n}" style="box-sizing:border-box; width:100%; margin-bottom:16px;">
+            <div class="qa-q" style="display:flex; align-items:flex-start; gap:10px;">
+              <span class="qno" style="flex-shrink:0;">${n}</span>
+              <span class="qtext" style="flex:1; line-height:1.5;">${formatMath(qtext)}</span>
             </div>
             ${options.length ? `
-              <div class="qa-options" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:6px;margin:10px 0 10px 32px;">
+              <div class="qa-options" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:8px; margin:12px 0 12px 32px;">
                 ${options.map((opt, optIdx) => `
-                  <div style="font-size:0.88rem;color:var(--ink-soft);background:var(--bg-subtle,#f8fafc);padding:6px 10px;border-radius:6px;border:1px solid var(--border,#e2e8f0);">
-                    <b style="color:var(--primary);margin-right:4px;">(${String.fromCharCode(65 + optIdx)})</b> ${formatMath(opt)}
+                  <div style="font-size:0.88rem; color:var(--ink-soft); background:var(--bg-subtle,#f8fafc); padding:8px 12px; border-radius:8px; border:1px solid var(--border,#e2e8f0); display:flex; align-items:flex-start; gap:6px;">
+                    <b style="color:var(--primary,#2563eb); flex-shrink:0;">(${String.fromCharCode(65 + optIdx)})</b> 
+                    <span style="flex:1; line-height:1.4;">${formatMath(opt)}</span>
                   </div>
                 `).join("")}
               </div>` : ""
             }
-            <div class="qa-a">
-              <span class="a-label">${t("topic.answer")}:</span>
-              <span class="a-body">${formatMath(atext)}</span>
+            <div class="qa-a" style="margin-top:10px; display:flex; align-items:flex-start; gap:6px;">
+              <span class="a-label" style="font-weight:700; color:var(--primary,#2563eb); flex-shrink:0;">${t("topic.answer")}:</span>
+              <span class="a-body" style="font-weight:600; line-height:1.4;">${formatMath(atext)}</span>
             </div>
             ${explanation ? `
-              <div class="qa-exp" style="margin-top:6px;font-size:0.84rem;color:var(--ink-muted,#64748b);padding-left:32px;">
-                <b>${state.lang === "as" ? "ব্যাখ্যা" : "Explanation"}:</b> ${formatMath(explanation)}
+              <div class="qa-exp" style="margin-top:8px; font-size:0.85rem; color:var(--ink-muted,#64748b); padding-left:32px; line-height:1.45;">
+                <b style="color:var(--ink,#0f172a);">${state.lang === "as" ? "ব্যাখ্যা" : "Explanation"}:</b> ${formatMath(explanation)}
               </div>` : ""
             }
           </article>`;
@@ -971,9 +1001,9 @@
     const pager = $("#pager");
     if (totalPages > 1) {
       pager.innerHTML = `
-        <button id="pg-prev" ${state.page === 0 ? "disabled" : ""}>${t("topic.prev")}</button>
-        <span class="pager-info">${state.page + 1} / ${totalPages}</span>
-        <button id="pg-next" ${state.page >= totalPages - 1 ? "disabled" : ""}>${t("topic.next")}</button>`;
+        <button id="pg-prev" class="btn btn-sm btn-outline" ${state.page === 0 ? "disabled" : ""} style="padding:6px 14px; font-weight:700;">${t("topic.prev")}</button>
+        <span class="pager-info" style="font-weight:700; font-size:0.88rem; color:var(--ink-soft,#64748b);">${state.page + 1} / ${totalPages}</span>
+        <button id="pg-next" class="btn btn-sm btn-outline" ${state.page >= totalPages - 1 ? "disabled" : ""} style="padding:6px 14px; font-weight:700;">${t("topic.next")}</button>`;
       $("#pg-prev").addEventListener("click", () => { if (state.page > 0) { state.page--; renderQAPage(); refreshReadingModal(); window.scrollTo({ top: 0, behavior: "smooth" }); } });
       $("#pg-next").addEventListener("click", () => { if (state.page < totalPages - 1) { state.page++; renderQAPage(); refreshReadingModal(); window.scrollTo({ top: 0, behavior: "smooth" }); } });
     } else {
@@ -1591,7 +1621,7 @@
     });
   }
 
-  /* ================= Natural Flow-Based A4 PDF Exporter ================= */
+  /* ================= Natural Flow-Based A4 PDF Exporter (Logo + Brand Fixed) ================= */
   async function generateTopicPdf(rec, lang) {
     if (state.isGeneratingPdf) return;
     state.isGeneratingPdf = true;
@@ -1696,25 +1726,25 @@
       `;
 
       const headerHtml = isFirst ? `
-        <div style="border-bottom:2px solid #4f46e5; padding-bottom:6px; margin-bottom:4px; height:46px; box-sizing:border-box;">
+        <div style="border-bottom:2px solid #4f46e5; padding-bottom:6px; margin-bottom:4px; height:48px; box-sizing:border-box;">
           <table style="width:100%; border-collapse:collapse;">
             <tr>
               <td style="vertical-align:bottom; text-align:left;">
                 <div style="font-size:15px; font-weight:800; color:#0f172a; line-height:1.2; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(titleText)}</div>
                 <div style="font-size:10.5px; color:#64748b; margin-top:2px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(catText)} • ${lang === "as" ? "মুঠ প্ৰশ্ন" : "Total Questions"}: ${qs.length} | ${langLabel}</div>
               </td>
-              <td style="vertical-align:bottom; text-align:right; width:135px; white-space:nowrap; padding-right:12px;">
+              <td style="vertical-align:bottom; text-align:right; width:140px; white-space:nowrap; padding-right:6px;">
                 ${BRAND_LOGO_SVG}
               </td>
             </tr>
           </table>
         </div>
       ` : `
-        <div style="border-bottom:1.5px solid #e2e8f0; padding-bottom:6px; margin-bottom:4px; height:34px; box-sizing:border-box;">
+        <div style="border-bottom:1.5px solid #e2e8f0; padding-bottom:6px; margin-bottom:4px; height:36px; box-sizing:border-box;">
           <table style="width:100%; border-collapse:collapse;">
             <tr>
               <td></td>
-              <td style="vertical-align:bottom; text-align:right; width:135px; white-space:nowrap; padding-right:12px;">
+              <td style="vertical-align:bottom; text-align:right; width:140px; white-space:nowrap; padding-right:6px;">
                 ${BRAND_LOGO_SVG}
               </td>
             </tr>
