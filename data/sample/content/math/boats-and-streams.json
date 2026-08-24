@@ -1,0 +1,639 @@
+{
+  "id": "13-boats-and-streams",
+  "title": {"en": "Boats and Streams", "as": "নাৱ আৰু সোঁত"},
+  "description": {"en": "42 most important Boats and Streams questions with full step-by-step solutions for Assam competitive exams.", "as": "অসম প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে সম্পূৰ্ণ ধাপে-ধাপে সমাধানসহ নাৱ আৰু সোঁতৰ ৪২টা অতি গুৰুত্বপূৰ্ণ প্ৰশ্ন।"},
+  "tags": ["boats", "streams", "downstream", "upstream", "current", "speed", "math", "assam-exam", "নাৱ-আৰু-সোঁত"],
+  "pdf": null,
+  "questions": [
+    {
+      "q": {
+        "en": "A boat can travel at 10 km/h in still water. If the speed of the stream is 2 km/h, find the speed of the boat downstream.",
+        "as": "এখন নাৱে স্থিৰ পানীত 10 কি.মি./ঘণ্টা গতিত চলিব পাৰে। সোঁতৰ গতি 2 কি.মি./ঘণ্টা হ'লে সোঁতৰ দিশত নাৱৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 12 km/h", "(b) 10 km/h", "(c) 8 km/h", "(d) 14 km/h"],
+        "as": ["(ক) ১২ কি.মি./ঘণ্টা", "(খ) ১০ কি.মি./ঘণ্টা", "(গ) ৮ কি.মি./ঘণ্টা", "(ঘ) ১৪ কি.মি./ঘণ্টা"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Downstream speed = Boat speed + Stream speed.", "Step 1: D = 10 + 2", "Step 2: D = 12 km/h", "Answer: (a) 12 km/h"],
+        "as": ["সূত্ৰ: সোঁতৰ দিশত গতি = স্থিৰ পানীত নাৱৰ গতি + সোঁতৰ গতি।", "পদক্ষেপ ১: D = 10 + 2", "পদক্ষেপ ২: D = 12 কি.মি./ঘণ্টা", "উত্তৰ: (ক) 12 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat can travel at 12 km/h in still water. If the speed of the stream is 4 km/h, find the speed of the boat upstream.",
+        "as": "এখন নাৱে স্থিৰ পানীত 12 কি.মি./ঘণ্টা গতিত চলিব পাৰে। সোঁতৰ গতি 4 কি.মি./ঘণ্টা হ'লে সোঁতৰ বিপৰীত দিশত নাৱৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 16 km/h", "(b) 8 km/h", "(c) 12 km/h", "(d) 6 km/h"],
+        "as": ["(ক) ১৬ কি.মি./ঘণ্টা", "(খ) ৮ কি.মি./ঘণ্টা", "(গ) ১২ কি.মি./ঘণ্টা", "(ঘ) ৬ কি.মি./ঘণ্টা"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Upstream speed = Boat speed − Stream speed.", "Step 1: U = 12 − 4", "Step 2: U = 8 km/h", "Answer: (b) 8 km/h"],
+        "as": ["সূত্ৰ: সোঁতৰ বিপৰীত দিশত গতি = স্থিৰ পানীত নাৱৰ গতি − সোঁতৰ গতি।", "পদক্ষেপ ১: U = 12 − 4", "পদক্ষেপ ২: U = 8 কি.মি./ঘণ্টা", "উত্তৰ: (খ) 8 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat moves at 15 km/h downstream. How much time will it take to cover a distance of 45 km?",
+        "as": "এখন নাৱে সোঁতৰ দিশত 15 কি.মি./ঘণ্টা গতিত চলি আছে। 45 কি.মি. দূৰত্ব অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+      },
+      "options": {
+        "en": ["(a) 2 hours", "(b) 4 hours", "(c) 3 hours", "(d) 5 hours"],
+        "as": ["(ক) ২ ঘণ্টা", "(খ) ৪ ঘণ্টা", "(গ) ৩ ঘণ্টা", "(ঘ) ৫ ঘণ্টা"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Time = Distance ÷ Speed.", "Step 1: Time = 45 ÷ 15", "Step 2: Time = 3 hours", "Answer: (c) 3 hours"],
+        "as": ["সূত্ৰ: সময় = দূৰত্ব ÷ গতি।", "পদক্ষেপ ১: সময় = 45 ÷ 15", "পদক্ষেপ ২: সময় = ৩ ঘণ্টা", "উত্তৰ: (গ) 3 ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat moves at 6 km/h upstream. How much time will it take to cover a distance of 30 km?",
+        "as": "এখন নাৱে সোঁতৰ বিপৰীত দিশত 6 কি.মি./ঘণ্টা গতিত চলি আছে। 30 কি.মি. দূৰত্ব অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+      },
+      "options": {
+        "en": ["(a) 3 hours", "(b) 6 hours", "(c) 4 hours", "(d) 5 hours"],
+        "as": ["(ক) ৩ ঘণ্টা", "(খ) ৬ ঘণ্টা", "(গ) ৪ ঘণ্টা", "(ঘ) ৫ ঘণ্টা"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Time = Distance ÷ Speed.", "Step 1: Time = 30 ÷ 6", "Step 2: Time = 5 hours", "Answer: (d) 5 hours"],
+        "as": ["সূত্ৰ: সময় = দূৰত্ব ÷ গতি।", "পদক্ষেপ ১: সময় = 30 ÷ 6", "পদক্ষেপ ২: সময় = ৫ ঘণ্টা", "উত্তৰ: (ঘ) 5 ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat travels at 8 km/h in still water and the stream flows at 2 km/h. How far will it go downstream in 4 hours?",
+        "as": "এখন নাৱে স্থিৰ পানীত 8 কি.মি./ঘণ্টা গতিত বাইছে আৰু সোঁতৰ গতি 2 কি.মি./ঘণ্টা। 4 ঘণ্টাত সোঁতৰ দিশত ই কিমান দূৰ যাব?"
+      },
+      "options": {
+        "en": ["(a) 40 km", "(b) 32 km", "(c) 20 km", "(d) 48 km"],
+        "as": ["(ক) ৪০ কি.মি.", "(খ) ৩২ কি.মি.", "(গ) ২০ কি.মি.", "(ঘ) ৪৮ কি.মি."]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Distance = Downstream speed × Time.", "Step 1: D = 8 + 2 = 10 km/h", "Step 2: Distance = 10 × 4", "Step 3: = 40 km", "Answer: (a) 40 km"],
+        "as": ["সূত্ৰ: দূৰত্ব = সোঁতৰ দিশত গতি × সময়।", "পদক্ষেপ ১: D = 8 + 2 = 10 কি.মি./ঘণ্টা", "পদক্ষেপ ২: দূৰত্ব = 10 × 4", "পদক্ষেপ ৩: = 40 কি.মি.", "উত্তৰ: (ক) 40 কি.মি."]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat goes 14 km/h downstream and 6 km/h upstream. Find the speed of the boat in still water.",
+        "as": "এখন নাৱে সোঁতৰ দিশত 14 কি.মি./ঘণ্টা আৰু সোঁতৰ বিপৰীত দিশত 6 কি.মি./ঘণ্টা গতিত যায়। স্থিৰ পানীত নাৱৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 6 km/h", "(b) 10 km/h", "(c) 14 km/h", "(d) 4 km/h"],
+        "as": ["(ক) ৬ কি.মি./ঘণ্টা", "(খ) ১০ কি.মি./ঘণ্টা", "(গ) ১৪ কি.মি./ঘণ্টা", "(ঘ) ৪ কি.মি./ঘণ্টা"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Boat speed = (D + U) ÷ 2.", "Step 1: Boat speed = (14 + 6) ÷ 2", "Step 2: = 20 ÷ 2", "Step 3: = 10 km/h", "Answer: (b) 10 km/h"],
+        "as": ["সূত্ৰ: নাৱৰ গতি = (D + U) ÷ 2।", "পদক্ষেপ ১: নাৱৰ গতি = (14 + 6) ÷ 2", "পদক্ষেপ ২: = 20 ÷ 2", "পদক্ষেপ ৩: = 10 কি.মি./ঘণ্টা", "উত্তৰ: (খ) 10 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat goes 12 km/h downstream and 8 km/h upstream. Find the speed of the stream.",
+        "as": "এখন নাৱে সোঁতৰ দিশত 12 কি.মি./ঘণ্টা আৰু সোঁতৰ বিপৰীত দিশত 8 কি.মি./ঘণ্টা গতিত যায়। সোঁতৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 4 km/h", "(b) 3 km/h", "(c) 2 km/h", "(d) 5 km/h"],
+        "as": ["(ক) ৪ কি.মি./ঘণ্টা", "(খ) ৩ কি.মি./ঘণ্টা", "(গ) ২ কি.মি./ঘণ্টা", "(ঘ) ৫ কি.মি./ঘণ্টা"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Stream speed = (D − U) ÷ 2.", "Step 1: Stream speed = (12 − 8) ÷ 2", "Step 2: = 4 ÷ 2", "Step 3: = 2 km/h", "Answer: (c) 2 km/h"],
+        "as": ["সূত্ৰ: সোঁতৰ গতি = (D − U) ÷ 2।", "পদক্ষেপ ১: সোঁতৰ গতি = (12 − 8) ÷ 2", "পদক্ষেপ ২: = 4 ÷ 2", "পদক্ষেপ ৩: = 2 কি.মি./ঘণ্টা", "উত্তৰ: (গ) 2 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat travels at 10 km/h in still water and the stream flows at 2 km/h. Find the ratio of the time taken to go upstream to the time taken to go downstream for the same distance.",
+        "as": "এখন নাৱে স্থিৰ পানীত 10 কি.মি./ঘণ্টা গতিত বাইছে আৰু সোঁতৰ গতি 2 কি.মি./ঘণ্টা। একে দূৰত্ব প্ৰতিকূল সোঁতত যাবলৈ আৰু অনুকূল সোঁতত যাবলৈ লগা সময়ৰ অনুপাত নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 2:3", "(b) 4:3", "(c) 1:1", "(d) 3:2"],
+        "as": ["(ক) ২:৩", "(খ) ৪:৩", "(গ) ১:১", "(ঘ) ৩:২"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Time ratio (up:down) = D : U for the same distance.", "Step 1: U = 10 − 2 = 8, D = 10 + 2 = 12", "Step 2: Time ratio = 12 : 8", "Step 3: = 3 : 2", "Answer: (d) 3:2"],
+        "as": ["সূত্ৰ: একে দূৰত্বত সময়ৰ অনুপাত (প্ৰতিকূল:অনুকূল) = D : U।", "পদক্ষেপ ১: U = 10 − 2 = 8, D = 10 + 2 = 12", "পদক্ষেপ ২: সময়ৰ অনুপাত = 12 : 8", "পদক্ষেপ ৩: = 3 : 2", "উত্তৰ: (ঘ) 3 : 2"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat goes downstream in 2 hours and upstream in 3 hours for the same distance. The boat can travel at 15 km/h in still water. Find the speed of the stream.",
+        "as": "এখন নাৱে একে দূৰত্ব অনুকূল সোঁতত 2 ঘণ্টাত আৰু প্ৰতিকূল সোঁতত 3 ঘণ্টাত পাৰ হয়। স্থিৰ পানীত নাৱৰ গতি 15 কি.মি./ঘণ্টা। সোঁতৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 3 km/h", "(b) 5 km/h", "(c) 4 km/h", "(d) 6 km/h"],
+        "as": ["(ক) ৩ কি.মি./ঘণ্টা", "(খ) ৫ কি.মি./ঘণ্টা", "(গ) ৪ কি.মি./ঘণ্টা", "(ঘ) ৬ কি.মি./ঘণ্টা"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Distance is the same, so D × 2 = U × 3.", "Step 1: (15 + s) × 2 = (15 − s) × 3", "Step 2: 30 + 2s = 45 − 3s → 5s = 15", "Step 3: s = 3 km/h", "Answer: (a) 3 km/h"],
+        "as": ["সূত্ৰ: দূৰত্ব একে, সেয়ে D × 2 = U × 3।", "পদক্ষেপ ১: (15 + s) × 2 = (15 − s) × 3", "পদক্ষেপ ২: 30 + 2s = 45 − 3s → 5s = 15", "পদক্ষেপ ৩: s = 3 কি.মি./ঘণ্টা", "উত্তৰ: (ক) 3 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat takes 3 hours to go upstream and 2 hours to come back downstream over the same distance. Find the ratio of the speed of the boat in still water to the speed of the stream.",
+        "as": "এখন নাৱে একে দূৰত্ব প্ৰতিকূল সোঁতত 3 ঘণ্টাত পাৰ হয় আৰু উভতি অনুকূল সোঁতত 2 ঘণ্টাত আহে। স্থিৰ পানীত নাৱৰ গতি আৰু সোঁতৰ গতিৰ অনুপাত নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 3:2", "(b) 5:1", "(c) 2:3", "(d) 1:5"],
+        "as": ["(ক) ৩:২", "(খ) ৫:১", "(গ) ২:৩", "(ঘ) ১:৫"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: D × 2 = U × 3 for the same distance.", "Step 1: 2(b + s) = 3(b − s)", "Step 2: 2b + 2s = 3b − 3s → b = 5s", "Step 3: b : s = 5 : 1", "Answer: (b) 5:1"],
+        "as": ["সূত্ৰ: একে দূৰত্বত D × 2 = U × 3।", "পদক্ষেপ ১: 2(b + s) = 3(b − s)", "পদক্ষেপ ২: 2b + 2s = 3b − 3s → b = 5s", "পদক্ষেপ ৩: b : s = 5 : 1", "উত্তৰ: (খ) 5 : 1"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat goes downstream at a speed of 12 km/h. For the same distance it takes twice as much time going upstream. Find the speed of the boat in still water.",
+        "as": "এখন নাৱে সোঁতৰ দিশত 12 কি.মি./ঘণ্টা গতিত যায়। একে দূৰত্ব প্ৰতিকূল সোঁতত যাবলৈ দুগুণ সময় লাগে। স্থিৰ পানীত নাৱৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 6 km/h", "(b) 12 km/h", "(c) 9 km/h", "(d) 8 km/h"],
+        "as": ["(ক) ৬ কি.মি./ঘণ্টা", "(খ) ১২ কি.মি./ঘণ্টা", "(গ) ৯ কি.মি./ঘণ্টা", "(ঘ) ৮ কি.মি./ঘণ্টা"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Upstream speed = D ÷ 2 (twice the time).", "Step 1: U = 12 ÷ 2 = 6 km/h", "Step 2: Boat speed = (D + U) ÷ 2 = (12 + 6) ÷ 2", "Step 3: = 9 km/h", "Answer: (c) 9 km/h"],
+        "as": ["সূত্ৰ: প্ৰতিকূল সোঁতত গতি = D ÷ 2 (দুগুণ সময়)।", "পদক্ষেপ ১: U = 12 ÷ 2 = 6 কি.মি./ঘণ্টা", "পদক্ষেপ ২: নাৱৰ গতি = (D + U) ÷ 2 = (12 + 6) ÷ 2", "পদক্ষেপ ৩: = 9 কি.মি./ঘণ্টা", "উত্তৰ: (গ) 9 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A man can row at 12 km/h in still water. He takes 3 times as long to row upstream as downstream. Find the speed of the stream.",
+        "as": "এজন মানুহে স্থিৰ পানীত 12 কি.মি./ঘণ্টা গতিত নাৱ বাব পাৰে। প্ৰতিকূল সোঁতত নাৱ বাবলৈ অনুকূল সোঁততকৈ 3 গুণ সময় লাগে। সোঁতৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 3 km/h", "(b) 4 km/h", "(c) 9 km/h", "(d) 6 km/h"],
+        "as": ["(ক) ৩ কি.মি./ঘণ্টা", "(খ) ৪ কি.মি./ঘণ্টা", "(গ) ৯ কি.মি./ঘণ্টা", "(ঘ) ৬ কি.মি./ঘণ্টা"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Time upstream = 3 × time downstream → U = D ÷ 3.", "Step 1: 12 − s = (12 + s) ÷ 3", "Step 2: 36 − 3s = 12 + s → 4s = 24", "Step 3: s = 6 km/h", "Answer: (d) 6 km/h"],
+        "as": ["সূত্ৰ: প্ৰতিকূল সময় = 3 × অনুকূল সময় → U = D ÷ 3।", "পদক্ষেপ ১: 12 − s = (12 + s) ÷ 3", "পদক্ষেপ ২: 36 − 3s = 12 + s → 4s = 24", "পদক্ষেপ ৩: s = 6 কি.মি./ঘণ্টা", "উত্তৰ: (ঘ) 6 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat travels at 8 km/h downstream and 4 km/h upstream. If the difference between the time taken to go upstream and downstream for the same distance is 2 hours, find the distance.",
+        "as": "এখন নাৱে সোঁতৰ দিশত 8 কি.মি./ঘণ্টা আৰু সোঁতৰ বিপৰীত দিশত 4 কি.মি./ঘণ্টা গতিত যায়। একে দূৰত্ব প্ৰতিকূল আৰু অনুকূল সোঁতত যাবলৈ লগা সময়ৰ পাৰ্থক্য 2 ঘণ্টা হ'লে দূৰত্ব নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 16 km", "(b) 8 km", "(c) 12 km", "(d) 24 km"],
+        "as": ["(ক) ১৬ কি.মি.", "(খ) ৮ কি.মি.", "(গ) ১২ কি.মি.", "(ঘ) ২৪ কি.মি."]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: (d ÷ U) − (d ÷ D) = time difference.", "Step 1: d/4 − d/8 = 2", "Step 2: d/8 = 2", "Step 3: d = 16 km", "Answer: (a) 16 km"],
+        "as": ["সূত্ৰ: (d ÷ U) − (d ÷ D) = সময়ৰ পাৰ্থক্য।", "পদক্ষেপ ১: d/4 − d/8 = 2", "পদক্ষেপ ২: d/8 = 2", "পদক্ষেপ ৩: d = 16 কি.মি.", "উত্তৰ: (ক) 16 কি.মি."]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat goes 15 km/h downstream and 9 km/h upstream. Find the ratio of the speed of the boat in still water to the speed of the stream.",
+        "as": "এখন নাৱে সোঁতৰ দিশত 15 কি.মি./ঘণ্টা আৰু সোঁতৰ বিপৰীত দিশত 9 কি.মি./ঘণ্টা গতিত যায়। স্থিৰ পানীত নাৱৰ গতি আৰু সোঁতৰ গতিৰ অনুপাত নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 3:1", "(b) 4:1", "(c) 5:1", "(d) 2:1"],
+        "as": ["(ক) ৩:১", "(খ) ৪:১", "(গ) ৫:১", "(ঘ) ২:১"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Boat = (D + U) ÷ 2, Stream = (D − U) ÷ 2.", "Step 1: Boat = (15 + 9) ÷ 2 = 12, Stream = (15 − 9) ÷ 2 = 3", "Step 2: Ratio = 12 : 3", "Step 3: = 4 : 1", "Answer: (b) 4:1"],
+        "as": ["সূত্ৰ: নাৱ = (D + U) ÷ 2, সোঁত = (D − U) ÷ 2।", "পদক্ষেপ ১: নাৱ = (15 + 9) ÷ 2 = 12, সোঁত = (15 − 9) ÷ 2 = 3", "পদক্ষেপ ২: অনুপাত = 12 : 3", "পদক্ষেপ ৩: = 4 : 1", "উত্তৰ: (খ) 4 : 1"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat goes 10 km/h downstream and 6 km/h upstream. Find the speed of the boat in still water.",
+        "as": "এখন নাৱে সোঁতৰ দিশত 10 কি.মি./ঘণ্টা আৰু সোঁতৰ বিপৰীত দিশত 6 কি.মি./ঘণ্টা গতিত যায়। স্থিৰ পানীত নাৱৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 6 km/h", "(b) 10 km/h", "(c) 8 km/h", "(d) 12 km/h"],
+        "as": ["(ক) ৬ কি.মি./ঘণ্টা", "(খ) ১০ কি.মি./ঘণ্টা", "(গ) ৮ কি.মি./ঘণ্টা", "(ঘ) ১২ কি.মি./ঘণ্টা"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Boat speed = (D + U) ÷ 2.", "Step 1: Boat speed = (10 + 6) ÷ 2", "Step 2: = 16 ÷ 2", "Step 3: = 8 km/h", "Answer: (c) 8 km/h"],
+        "as": ["সূত্ৰ: নাৱৰ গতি = (D + U) ÷ 2।", "পদক্ষেপ ১: নাৱৰ গতি = (10 + 6) ÷ 2", "পদক্ষেপ ২: = 16 ÷ 2", "পদক্ষেপ ৩: = 8 কি.মি./ঘণ্টা", "উত্তৰ: (গ) 8 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat can travel at 9 km/h in still water. If the speed of the stream is 3 km/h, find the speed of the boat downstream.",
+        "as": "এখন নাৱে স্থিৰ পানীত 9 কি.মি./ঘণ্টা গতিত চলিব পাৰে। সোঁতৰ গতি 3 কি.মি./ঘণ্টা হ'লে সোঁতৰ দিশত নাৱৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 6 km/h", "(b) 9 km/h", "(c) 3 km/h", "(d) 12 km/h"],
+        "as": ["(ক) ৬ কি.মি./ঘণ্টা", "(খ) ৯ কি.মি./ঘণ্টা", "(গ) ৩ কি.মি./ঘণ্টা", "(ঘ) ১২ কি.মি./ঘণ্টা"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Downstream speed = Boat speed + Stream speed.", "Step 1: D = 9 + 3", "Step 2: D = 12 km/h", "Answer: (d) 12 km/h"],
+        "as": ["সূত্ৰ: সোঁতৰ দিশত গতি = স্থিৰ পানীত নাৱৰ গতি + সোঁতৰ গতি।", "পদক্ষেপ ১: D = 9 + 3", "পদক্ষেপ ২: D = 12 কি.মি./ঘণ্টা", "উত্তৰ: (ঘ) 12 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat moves at 10 km/h downstream. How much time will it take to cover a distance of 25 km?",
+        "as": "এখন নাৱে সোঁতৰ দিশত 10 কি.মি./ঘণ্টা গতিত চলি আছে। 25 কি.মি. দূৰত্ব অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+      },
+      "options": {
+        "en": ["(a) 2.5 hours", "(b) 2 hours", "(c) 3 hours", "(d) 1.5 hours"],
+        "as": ["(ক) ২.৫ ঘণ্টা", "(খ) ২ ঘণ্টা", "(গ) ৩ ঘণ্টা", "(ঘ) ১.৫ ঘণ্টা"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Time = Distance ÷ Speed.", "Step 1: Time = 25 ÷ 10", "Step 2: = 2.5 hours", "Answer: (a) 2.5 hours"],
+        "as": ["সূত্ৰ: সময় = দূৰত্ব ÷ গতি।", "পদক্ষেপ ১: সময় = 25 ÷ 10", "পদক্ষেপ ২: = ২.৫ ঘণ্টা", "উত্তৰ: (ক) 2.5 ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat goes upstream at a speed of 5 km/h for 6 hours. How much distance does it cover?",
+        "as": "এখন নাৱে সোঁতৰ বিপৰীত দিশত 5 কি.মি./ঘণ্টা গতিত 6 ঘণ্টা যায়। ই কিমান দূৰত্ব অতিক্ৰম কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 25 km", "(b) 30 km", "(c) 11 km", "(d) 35 km"],
+        "as": ["(ক) ২৫ কি.মি.", "(খ) ৩০ কি.মি.", "(গ) ১১ কি.মি.", "(ঘ) ৩৫ কি.মি."]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Distance = Speed × Time.", "Step 1: Distance = 5 × 6", "Step 2: = 30 km", "Answer: (b) 30 km"],
+        "as": ["সূত্ৰ: দূৰত্ব = গতি × সময়।", "পদক্ষেপ ১: দূৰত্ব = 5 × 6", "পদক্ষেপ ২: = 30 কি.মি.", "উত্তৰ: (খ) 30 কি.মি."]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat goes 18 km/h downstream and 12 km/h upstream. Find the speed of the boat in still water.",
+        "as": "এখন নাৱে সোঁতৰ দিশত 18 কি.মি./ঘণ্টা আৰু সোঁতৰ বিপৰীত দিশত 12 কি.মি./ঘণ্টা গতিত যায়। স্থিৰ পানীত নাৱৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 12 km/h", "(b) 18 km/h", "(c) 15 km/h", "(d) 6 km/h"],
+        "as": ["(ক) ১২ কি.মি./ঘণ্টা", "(খ) ১৮ কি.মি./ঘণ্টা", "(গ) ১৫ কি.মি./ঘণ্টা", "(ঘ) ৬ কি.মি./ঘণ্টা"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Boat speed = (D + U) ÷ 2.", "Step 1: Boat speed = (18 + 12) ÷ 2", "Step 2: = 30 ÷ 2", "Step 3: = 15 km/h", "Answer: (c) 15 km/h"],
+        "as": ["সূত্ৰ: নাৱৰ গতি = (D + U) ÷ 2।", "পদক্ষেপ ১: নাৱৰ গতি = (18 + 12) ÷ 2", "পদক্ষেপ ২: = 30 ÷ 2", "পদক্ষেপ ৩: = 15 কি.মি./ঘণ্টা", "উত্তৰ: (গ) 15 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat travels at 8 km/h in still water and the stream flows at 2 km/h. Find the ratio of the time taken to go upstream to the time taken to go downstream for the same distance.",
+        "as": "এখন নাৱে স্থিৰ পানীত 8 কি.মি./ঘণ্টা গতিত বাইছে আৰু সোঁতৰ গতি 2 কি.মি./ঘণ্টা। একে দূৰত্ব প্ৰতিকূল সোঁতত যাবলৈ আৰু অনুকূল সোঁতত যাবলৈ লগা সময়ৰ অনুপাত নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 3:5", "(b) 4:3", "(c) 5:4", "(d) 5:3"],
+        "as": ["(ক) ৩:৫", "(খ) ৪:৩", "(গ) ৫:৪", "(ঘ) ৫:৩"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Time ratio (up:down) = D : U.", "Step 1: D = 8 + 2 = 10, U = 8 − 2 = 6", "Step 2: Time ratio = 10 : 6", "Step 3: = 5 : 3", "Answer: (d) 5:3"],
+        "as": ["সূত্ৰ: সময়ৰ অনুপাত (প্ৰতিকূল:অনুকূল) = D : U।", "পদক্ষেপ ১: D = 8 + 2 = 10, U = 8 − 2 = 6", "পদক্ষেপ ২: সময়ৰ অনুপাত = 10 : 6", "পদক্ষেপ ৩: = 5 : 3", "উত্তৰ: (ঘ) 5 : 3"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat can travel at 14 km/h in still water. It takes 1.5 hours downstream and 2 hours upstream for the same distance. Find the speed of the stream.",
+        "as": "এখন নাৱে স্থিৰ পানীত 14 কি.মি./ঘণ্টা গতিত চলিব পাৰে। একে দূৰত্ব অনুকূল সোঁতত 1.5 ঘণ্টা আৰু প্ৰতিকূল সোঁতত 2 ঘণ্টা লাগে। সোঁতৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 2 km/h", "(b) 3 km/h", "(c) 4 km/h", "(d) 1 km/h"],
+        "as": ["(ক) ২ কি.মি./ঘণ্টা", "(খ) ৩ কি.মি./ঘণ্টা", "(গ) ৪ কি.মি./ঘণ্টা", "(ঘ) ১ কি.মি./ঘণ্টা"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: D × 1.5 = U × 2 (same distance).", "Step 1: (14 + s) × 1.5 = (14 − s) × 2", "Step 2: 21 + 1.5s = 28 − 2s → 3.5s = 7", "Step 3: s = 2 km/h", "Answer: (a) 2 km/h"],
+        "as": ["সূত্ৰ: D × 1.5 = U × 2 (দূৰত্ব একে)।", "পদক্ষেপ ১: (14 + s) × 1.5 = (14 − s) × 2", "পদক্ষেপ ২: 21 + 1.5s = 28 − 2s → 3.5s = 7", "পদক্ষেপ ৩: s = 2 কি.মি./ঘণ্টা", "উত্তৰ: (ক) 2 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat takes 4 hours to go upstream and 2 hours to come back downstream over the same distance. Find the ratio of the speed of the boat in still water to the speed of the stream.",
+        "as": "এখন নাৱে একে দূৰত্ব প্ৰতিকূল সোঁতত 4 ঘণ্টাত পাৰ হয় আৰু উভতি অনুকূল সোঁতত 2 ঘণ্টাত আহে। স্থিৰ পানীত নাৱৰ গতি আৰু সোঁতৰ গতিৰ অনুপাত নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 2:1", "(b) 3:1", "(c) 4:1", "(d) 6:1"],
+        "as": ["(ক) ২:১", "(খ) ৩:১", "(গ) ৪:১", "(ঘ) ৬:১"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: D × 2 = U × 4 (same distance).", "Step 1: (b + s) × 2 = (b − s) × 4", "Step 2: 2b + 2s = 4b − 4s → b = 3s", "Step 3: b : s = 3 : 1", "Answer: (b) 3:1"],
+        "as": ["সূত্ৰ: D × 2 = U × 4 (দূৰত্ব একে)।", "পদক্ষেপ ১: (b + s) × 2 = (b − s) × 4", "পদক্ষেপ ২: 2b + 2s = 4b − 4s → b = 3s", "পদক্ষেপ ৩: b : s = 3 : 1", "উত্তৰ: (খ) 3 : 1"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat covers 48 km downstream in 3 hours and the same distance upstream in 6 hours. Find the speed of the boat in still water.",
+        "as": "এখন নাৱে 48 কি.মি. দূৰত্ব অনুকূল সোঁতত 3 ঘণ্টাত আৰু একে দূৰত্ব প্ৰতিকূল সোঁতত 6 ঘণ্টাত পাৰ হয়। স্থিৰ পানীত নাৱৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 8 km/h", "(b) 16 km/h", "(c) 12 km/h", "(d) 10 km/h"],
+        "as": ["(ক) ৮ কি.মি./ঘণ্টা", "(খ) ১৬ কি.মি./ঘণ্টা", "(গ) ১২ কি.মি./ঘণ্টা", "(ঘ) ১০ কি.মি./ঘণ্টা"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: D = distance ÷ time; Boat speed = (D + U) ÷ 2.", "Step 1: D = 48 ÷ 3 = 16, U = 48 ÷ 6 = 8", "Step 2: Boat = (16 + 8) ÷ 2", "Step 3: = 12 km/h", "Answer: (c) 12 km/h"],
+        "as": ["সূত্ৰ: D = দূৰত্ব ÷ সময়; নাৱৰ গতি = (D + U) ÷ 2।", "পদক্ষেপ ১: D = 48 ÷ 3 = 16, U = 48 ÷ 6 = 8", "পদক্ষেপ ২: নাৱ = (16 + 8) ÷ 2", "পদক্ষেপ ৩: = 12 কি.মি./ঘণ্টা", "উত্তৰ: (গ) 12 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A man can row at 6 km/h in still water. He takes twice as long to row upstream as downstream. Find the speed of the stream.",
+        "as": "এজন মানুহে স্থিৰ পানীত 6 কি.মি./ঘণ্টা গতিত নাৱ বাব পাৰে। প্ৰতিকূল সোঁতত নাৱ বাবলৈ অনুকূল সোঁততকৈ দুগুণ সময় লাগে। সোঁতৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 1 km/h", "(b) 3 km/h", "(c) 4 km/h", "(d) 2 km/h"],
+        "as": ["(ক) ১ কি.মি./ঘণ্টা", "(খ) ৩ কি.মি./ঘণ্টা", "(গ) ৪ কি.মি./ঘণ্টা", "(ঘ) ২ কি.মি./ঘণ্টা"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Time upstream = 2 × time downstream → U = D ÷ 2.", "Step 1: 6 − s = (6 + s) ÷ 2", "Step 2: 12 − 2s = 6 + s → 3s = 6", "Step 3: s = 2 km/h", "Answer: (d) 2 km/h"],
+        "as": ["সূত্ৰ: প্ৰতিকূল সময় = 2 × অনুকূল সময় → U = D ÷ 2।", "পদক্ষেপ ১: 6 − s = (6 + s) ÷ 2", "পদক্ষেপ ২: 12 − 2s = 6 + s → 3s = 6", "পদক্ষেপ ৩: s = 2 কি.মি./ঘণ্টা", "উত্তৰ: (ঘ) 2 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat travels at 12 km/h downstream and 8 km/h upstream. The difference between the time taken to go upstream and downstream for the same distance is 1 hour. Find the distance.",
+        "as": "এখন নাৱে সোঁতৰ দিশত 12 কি.মি./ঘণ্টা আৰু সোঁতৰ বিপৰীত দিশত 8 কি.মি./ঘণ্টা গতিত যায়। একে দূৰত্ব প্ৰতিকূল আৰু অনুকূল সোঁতত যাবলৈ লগা সময়ৰ পাৰ্থক্য 1 ঘণ্টা হ'লে দূৰত্ব নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 24 km", "(b) 12 km", "(c) 48 km", "(d) 20 km"],
+        "as": ["(ক) ২৪ কি.মি.", "(খ) ১২ কি.মি.", "(গ) ৪৮ কি.মি.", "(ঘ) ২০ কি.মি."]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: (d ÷ U) − (d ÷ D) = time difference.", "Step 1: d/8 − d/12 = 1", "Step 2: d/24 = 1", "Step 3: d = 24 km", "Answer: (a) 24 km"],
+        "as": ["সূত্ৰ: (d ÷ U) − (d ÷ D) = সময়ৰ পাৰ্থক্য।", "পদক্ষেপ ১: d/8 − d/12 = 1", "পদক্ষেপ ২: d/24 = 1", "পদক্ষেপ ৩: d = 24 কি.মি.", "উত্তৰ: (ক) 24 কি.মি."]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat goes 20 km/h downstream and 10 km/h upstream. Find the ratio of the speed of the boat in still water to the speed of the stream.",
+        "as": "এখন নাৱে সোঁতৰ দিশত 20 কি.মি./ঘণ্টা আৰু সোঁতৰ বিপৰীত দিশত 10 কি.মি./ঘণ্টা গতিত যায়। স্থিৰ পানীত নাৱৰ গতি আৰু সোঁতৰ গতিৰ অনুপাত নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 4:1", "(b) 3:1", "(c) 2:1", "(d) 5:1"],
+        "as": ["(ক) ৪:১", "(খ) ৩:১", "(গ) ২:১", "(ঘ) ৫:১"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Boat = (D + U) ÷ 2, Stream = (D − U) ÷ 2.", "Step 1: Boat = (20 + 10) ÷ 2 = 15, Stream = (20 − 10) ÷ 2 = 5", "Step 2: Ratio = 15 : 5", "Step 3: = 3 : 1", "Answer: (b) 3:1"],
+        "as": ["সূত্ৰ: নাৱ = (D + U) ÷ 2, সোঁত = (D − U) ÷ 2।", "পদক্ষেপ ১: নাৱ = (20 + 10) ÷ 2 = 15, সোঁত = (20 − 10) ÷ 2 = 5", "পদক্ষেপ ২: অনুপাত = 15 : 5", "পদক্ষেপ ৩: = 3 : 1", "উত্তৰ: (খ) 3 : 1"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat goes 16 km/h downstream and 12 km/h upstream. Find the speed of the boat in still water.",
+        "as": "এখন নাৱে সোঁতৰ দিশত 16 কি.মি./ঘণ্টা আৰু সোঁতৰ বিপৰীত দিশত 12 কি.মি./ঘণ্টা গতিত যায়। স্থিৰ পানীত নাৱৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 12 km/h", "(b) 16 km/h", "(c) 14 km/h", "(d) 15 km/h"],
+        "as": ["(ক) ১২ কি.মি./ঘণ্টা", "(খ) ১৬ কি.মি./ঘণ্টা", "(গ) ১৪ কি.মি./ঘণ্টা", "(ঘ) ১৫ কি.মি./ঘণ্টা"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Boat speed = (D + U) ÷ 2.", "Step 1: Boat speed = (16 + 12) ÷ 2", "Step 2: = 28 ÷ 2", "Step 3: = 14 km/h", "Answer: (c) 14 km/h"],
+        "as": ["সূত্ৰ: নাৱৰ গতি = (D + U) ÷ 2।", "পদক্ষেপ ১: নাৱৰ গতি = (16 + 12) ÷ 2", "পদক্ষেপ ২: = 28 ÷ 2", "পদক্ষেপ ৩: = 14 কি.মি./ঘণ্টা", "উত্তৰ: (গ) 14 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat can travel at 7 km/h in still water. If the speed of the stream is 3 km/h, find the speed of the boat upstream.",
+        "as": "এখন নাৱে স্থিৰ পানীত 7 কি.মি./ঘণ্টা গতিত চলিব পাৰে। সোঁতৰ গতি 3 কি.মি./ঘণ্টা হ'লে সোঁতৰ বিপৰীত দিশত নাৱৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 10 km/h", "(b) 7 km/h", "(c) 3 km/h", "(d) 4 km/h"],
+        "as": ["(ক) ১০ কি.মি./ঘণ্টা", "(খ) ৭ কি.মি./ঘণ্টা", "(গ) ৩ কি.মি./ঘণ্টা", "(ঘ) ৪ কি.মি./ঘণ্টা"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Upstream speed = Boat speed − Stream speed.", "Step 1: U = 7 − 3", "Step 2: = 4 km/h", "Answer: (d) 4 km/h"],
+        "as": ["সূত্ৰ: সোঁতৰ বিপৰীত দিশত গতি = স্থিৰ পানীত নাৱৰ গতি − সোঁতৰ গতি।", "পদক্ষেপ ১: U = 7 − 3", "পদক্ষেপ ২: = 4 কি.মি./ঘণ্টা", "উত্তৰ: (ঘ) 4 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat moves at 15 km/h downstream. How much time will it take to cover a distance of 60 km?",
+        "as": "এখন নাৱে সোঁতৰ দিশত 15 কি.মি./ঘণ্টা গতিত চলি আছে। 60 কি.মি. দূৰত্ব অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+      },
+      "options": {
+        "en": ["(a) 4 hours", "(b) 3 hours", "(c) 5 hours", "(d) 6 hours"],
+        "as": ["(ক) ৪ ঘণ্টা", "(খ) ৩ ঘণ্টা", "(গ) ৫ ঘণ্টা", "(ঘ) ৬ ঘণ্টা"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Time = Distance ÷ Speed.", "Step 1: Time = 60 ÷ 15", "Step 2: = 4 hours", "Answer: (a) 4 hours"],
+        "as": ["সূত্ৰ: সময় = দূৰত্ব ÷ গতি।", "পদক্ষেপ ১: সময় = 60 ÷ 15", "পদক্ষেপ ২: = ৪ ঘণ্টা", "উত্তৰ: (ক) 4 ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat goes upstream at a speed of 4 km/h for 5 hours. How much distance does it cover?",
+        "as": "এখন নাৱে সোঁতৰ বিপৰীত দিশত 4 কি.মি./ঘণ্টা গতিত 5 ঘণ্টা যায়। ই কিমান দূৰত্ব অতিক্ৰম কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 9 km", "(b) 20 km", "(c) 16 km", "(d) 25 km"],
+        "as": ["(ক) ৯ কি.মি.", "(খ) ২০ কি.মি.", "(গ) ১৬ কি.মি.", "(ঘ) ২৫ কি.মি."]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Distance = Speed × Time.", "Step 1: Distance = 4 × 5", "Step 2: = 20 km", "Answer: (b) 20 km"],
+        "as": ["সূত্ৰ: দূৰত্ব = গতি × সময়।", "পদক্ষেপ ১: দূৰত্ব = 4 × 5", "পদক্ষেপ ২: = 20 কি.মি.", "উত্তৰ: (খ) 20 কি.মি."]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat goes 16 km/h downstream and 10 km/h upstream. Find the speed of the stream.",
+        "as": "এখন নাৱে সোঁতৰ দিশত 16 কি.মি./ঘণ্টা আৰু সোঁতৰ বিপৰীত দিশত 10 কি.মি./ঘণ্টা গতিত যায়। সোঁতৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 2 km/h", "(b) 4 km/h", "(c) 3 km/h", "(d) 6 km/h"],
+        "as": ["(ক) ২ কি.মি./ঘণ্টা", "(খ) ৪ কি.মি./ঘণ্টা", "(গ) ৩ কি.মি./ঘণ্টা", "(ঘ) ৬ কি.মি./ঘণ্টা"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Stream speed = (D − U) ÷ 2.", "Step 1: Stream speed = (16 − 10) ÷ 2", "Step 2: = 6 ÷ 2", "Step 3: = 3 km/h", "Answer: (c) 3 km/h"],
+        "as": ["সূত্ৰ: সোঁতৰ গতি = (D − U) ÷ 2।", "পদক্ষেপ ১: সোঁতৰ গতি = (16 − 10) ÷ 2", "পদক্ষেপ ২: = 6 ÷ 2", "পদক্ষেপ ৩: = 3 কি.মি./ঘণ্টা", "উত্তৰ: (গ) 3 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat travels at 12 km/h in still water and the stream flows at 4 km/h. Find the ratio of the time taken to go upstream to the time taken to go downstream for the same distance.",
+        "as": "এখন নাৱে স্থিৰ পানীত 12 কি.মি./ঘণ্টা গতিত বাইছে আৰু সোঁতৰ গতি 4 কি.মি./ঘণ্টা। একে দূৰত্ব প্ৰতিকূল সোঁতত যাবলৈ আৰু অনুকূল সোঁতত যাবলৈ লগা সময়ৰ অনুপাত নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 1:2", "(b) 3:1", "(c) 4:3", "(d) 2:1"],
+        "as": ["(ক) ১:২", "(খ) ৩:১", "(গ) ৪:৩", "(ঘ) ২:১"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Time ratio (up:down) = D : U.", "Step 1: D = 12 + 4 = 16, U = 12 − 4 = 8", "Step 2: Time ratio = 16 : 8", "Step 3: = 2 : 1", "Answer: (d) 2:1"],
+        "as": ["সূত্ৰ: সময়ৰ অনুপাত (প্ৰতিকূল:অনুকূল) = D : U।", "পদক্ষেপ ১: D = 12 + 4 = 16, U = 12 − 4 = 8", "পদক্ষেপ ২: সময়ৰ অনুপাত = 16 : 8", "পদক্ষেপ ৩: = 2 : 1", "উত্তৰ: (ঘ) 2 : 1"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat can travel at 15 km/h in still water. It takes 4 hours downstream and 6 hours upstream for the same distance. Find the speed of the stream.",
+        "as": "এখন নাৱে স্থিৰ পানীত 15 কি.মি./ঘণ্টা গতিত চলিব পাৰে। একে দূৰত্ব অনুকূল সোঁতত 4 ঘণ্টা আৰু প্ৰতিকূল সোঁতত 6 ঘণ্টা লাগে। সোঁতৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 3 km/h", "(b) 5 km/h", "(c) 2 km/h", "(d) 4 km/h"],
+        "as": ["(ক) ৩ কি.মি./ঘণ্টা", "(খ) ৫ কি.মি./ঘণ্টা", "(গ) ২ কি.মি./ঘণ্টা", "(ঘ) ৪ কি.মি./ঘণ্টা"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: D × 4 = U × 6 (same distance).", "Step 1: (15 + s) × 4 = (15 − s) × 6", "Step 2: 60 + 4s = 90 − 6s → 10s = 30", "Step 3: s = 3 km/h", "Answer: (a) 3 km/h"],
+        "as": ["সূত্ৰ: D × 4 = U × 6 (দূৰত্ব একে)।", "পদক্ষেপ ১: (15 + s) × 4 = (15 − s) × 6", "পদক্ষেপ ২: 60 + 4s = 90 − 6s → 10s = 30", "পদক্ষেপ ৩: s = 3 কি.মি./ঘণ্টা", "উত্তৰ: (ক) 3 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat takes 4 hours to go upstream and 3 hours to come back downstream over the same distance. Find the ratio of the speed of the stream to the speed of the boat in still water.",
+        "as": "এখন নাৱে একে দূৰত্ব প্ৰতিকূল সোঁতত 4 ঘণ্টাত পাৰ হয় আৰু উভতি অনুকূল সোঁতত 3 ঘণ্টাত আহে। সোঁতৰ গতি আৰু স্থিৰ পানীত নাৱৰ গতিৰ অনুপাত নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 7:1", "(b) 1:7", "(c) 3:4", "(d) 4:3"],
+        "as": ["(ক) ৭:১", "(খ) ১:৭", "(গ) ৩:৪", "(ঘ) ৪:৩"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: D × 3 = U × 4 (same distance).", "Step 1: 3(b + s) = 4(b − s)", "Step 2: 3b + 3s = 4b − 4s → b = 7s", "Step 3: s : b = 1 : 7", "Answer: (b) 1:7"],
+        "as": ["সূত্ৰ: D × 3 = U × 4 (দূৰত্ব একে)।", "পদক্ষেপ ১: 3(b + s) = 4(b − s)", "পদক্ষেপ ২: 3b + 3s = 4b − 4s → b = 7s", "পদক্ষেপ ৩: s : b = 1 : 7", "উত্তৰ: (খ) 1 : 7"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat covers 60 km downstream in 3 hours and the same distance upstream in 6 hours. Find the speed of the boat in still water.",
+        "as": "এখন নাৱে 60 কি.মি. দূৰত্ব অনুকূল সোঁতত 3 ঘণ্টাত আৰু একে দূৰত্ব প্ৰতিকূল সোঁতত 6 ঘণ্টাত পাৰ হয়। স্থিৰ পানীত নাৱৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 10 km/h", "(b) 20 km/h", "(c) 15 km/h", "(d) 12 km/h"],
+        "as": ["(ক) ১০ কি.মি./ঘণ্টা", "(খ) ২০ কি.মি./ঘণ্টা", "(গ) ১৫ কি.মি./ঘণ্টা", "(ঘ) ১২ কি.মি./ঘণ্টা"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Boat speed = (D + U) ÷ 2.", "Step 1: D = 60 ÷ 3 = 20, U = 60 ÷ 6 = 10", "Step 2: Boat = (20 + 10) ÷ 2", "Step 3: = 15 km/h", "Answer: (c) 15 km/h"],
+        "as": ["সূত্ৰ: নাৱৰ গতি = (D + U) ÷ 2।", "পদক্ষেপ ১: D = 60 ÷ 3 = 20, U = 60 ÷ 6 = 10", "পদক্ষেপ ২: নাৱ = (20 + 10) ÷ 2", "পদক্ষেপ ৩: = 15 কি.মি./ঘণ্টা", "উত্তৰ: (গ) 15 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A man can row at 8 km/h in still water. He takes 3 times as long to row upstream as downstream. Find the speed of the stream.",
+        "as": "এজন মানুহে স্থিৰ পানীত 8 কি.মি./ঘণ্টা গতিত নাৱ বাব পাৰে। প্ৰতিকূল সোঁতত নাৱ বাবলৈ অনুকূল সোঁততকৈ 3 গুণ সময় লাগে। সোঁতৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 2 km/h", "(b) 6 km/h", "(c) 8 km/h", "(d) 4 km/h"],
+        "as": ["(ক) ২ কি.মি./ঘণ্টা", "(খ) ৬ কি.মি./ঘণ্টা", "(গ) ৮ কি.মি./ঘণ্টা", "(ঘ) ৪ কি.মি./ঘণ্টা"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Time upstream = 3 × time downstream → U = D ÷ 3.", "Step 1: 8 − s = (8 + s) ÷ 3", "Step 2: 24 − 3s = 8 + s → 4s = 16", "Step 3: s = 4 km/h", "Answer: (d) 4 km/h"],
+        "as": ["সূত্ৰ: প্ৰতিকূল সময় = 3 × অনুকূল সময় → U = D ÷ 3।", "পদক্ষেপ ১: 8 − s = (8 + s) ÷ 3", "পদক্ষেপ ২: 24 − 3s = 8 + s → 4s = 16", "পদক্ষেপ ৩: s = 4 কি.মি./ঘণ্টা", "উত্তৰ: (ঘ) 4 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat travels at 16 km/h downstream and 12 km/h upstream. The difference between the time taken to go upstream and downstream for the same distance is 1 hour. Find the distance.",
+        "as": "এখন নাৱে সোঁতৰ দিশত 16 কি.মি./ঘণ্টা আৰু সোঁতৰ বিপৰীত দিশত 12 কি.মি./ঘণ্টা গতিত যায়। একে দূৰত্ব প্ৰতিকূল আৰু অনুকূল সোঁতত যাবলৈ লগা সময়ৰ পাৰ্থক্য 1 ঘণ্টা হ'লে দূৰত্ব নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 48 km", "(b) 32 km", "(c) 24 km", "(d) 40 km"],
+        "as": ["(ক) ৪৮ কি.মি.", "(খ) ৩২ কি.মি.", "(গ) ২৪ কি.মি.", "(ঘ) ৪০ কি.মি."]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: (d ÷ U) − (d ÷ D) = time difference.", "Step 1: d/12 − d/16 = 1", "Step 2: d/48 = 1", "Step 3: d = 48 km", "Answer: (a) 48 km"],
+        "as": ["সূত্ৰ: (d ÷ U) − (d ÷ D) = সময়ৰ পাৰ্থক্য।", "পদক্ষেপ ১: d/12 − d/16 = 1", "পদক্ষেপ ২: d/48 = 1", "পদক্ষেপ ৩: d = 48 কি.মি.", "উত্তৰ: (ক) 48 কি.মি."]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat goes 12 km/h downstream and 4 km/h upstream. Find the ratio of the speed of the boat in still water to the speed of the stream.",
+        "as": "এখন নাৱে সোঁতৰ দিশত 12 কি.মি./ঘণ্টা আৰু সোঁতৰ বিপৰীত দিশত 4 কি.মি./ঘণ্টা গতিত যায়। স্থিৰ পানীত নাৱৰ গতি আৰু সোঁতৰ গতিৰ অনুপাত নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 3:1", "(b) 2:1", "(c) 4:1", "(d) 5:1"],
+        "as": ["(ক) ৩:১", "(খ) ২:১", "(গ) ৪:১", "(ঘ) ৫:১"]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Boat = (D + U) ÷ 2, Stream = (D − U) ÷ 2.", "Step 1: Boat = (12 + 4) ÷ 2 = 8, Stream = (12 − 4) ÷ 2 = 4", "Step 2: Ratio = 8 : 4", "Step 3: = 2 : 1", "Answer: (b) 2:1"],
+        "as": ["সূত্ৰ: নাৱ = (D + U) ÷ 2, সোঁত = (D − U) ÷ 2।", "পদক্ষেপ ১: নাৱ = (12 + 4) ÷ 2 = 8, সোঁত = (12 − 4) ÷ 2 = 4", "পদক্ষেপ ২: অনুপাত = 8 : 4", "পদক্ষেপ ৩: = 2 : 1", "উত্তৰ: (খ) 2 : 1"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat goes 24 km/h downstream and 16 km/h upstream. Find the speed of the boat in still water.",
+        "as": "এখন নাৱে সোঁতৰ দিশত 24 কি.মি./ঘণ্টা আৰু সোঁতৰ বিপৰীত দিশত 16 কি.মি./ঘণ্টা গতিত যায়। স্থিৰ পানীত নাৱৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 16 km/h", "(b) 24 km/h", "(c) 20 km/h", "(d) 18 km/h"],
+        "as": ["(ক) ১৬ কি.মি./ঘণ্টা", "(খ) ২৪ কি.মি./ঘণ্টা", "(গ) ২০ কি.মি./ঘণ্টা", "(ঘ) ১৮ কি.মি./ঘণ্টা"]
+      },
+      "correct": "c",
+      "a": {
+        "en": ["Formula: Boat speed = (D + U) ÷ 2.", "Step 1: Boat speed = (24 + 16) ÷ 2", "Step 2: = 40 ÷ 2", "Step 3: = 20 km/h", "Answer: (c) 20 km/h"],
+        "as": ["সূত্ৰ: নাৱৰ গতি = (D + U) ÷ 2।", "পদক্ষেপ ১: নাৱৰ গতি = (24 + 16) ÷ 2", "পদক্ষেপ ২: = 40 ÷ 2", "পদক্ষেপ ৩: = 20 কি.মি./ঘণ্টা", "উত্তৰ: (গ) 20 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat can travel at 11 km/h in still water. If the speed of the stream is 1 km/h, find the speed of the boat downstream.",
+        "as": "এখন নাৱে স্থিৰ পানীত 11 কি.মি./ঘণ্টা গতিত চলিব পাৰে। সোঁতৰ গতি 1 কি.মি./ঘণ্টা হ'লে সোঁতৰ দিশত নাৱৰ গতি নিৰ্ণয় কৰা।"
+      },
+      "options": {
+        "en": ["(a) 10 km/h", "(b) 11 km/h", "(c) 13 km/h", "(d) 12 km/h"],
+        "as": ["(ক) ১০ কি.মি./ঘণ্টা", "(খ) ১১ কি.মি./ঘণ্টা", "(গ) ১৩ কি.মি./ঘণ্টা", "(ঘ) ১২ কি.মি./ঘণ্টা"]
+      },
+      "correct": "d",
+      "a": {
+        "en": ["Formula: Downstream speed = Boat speed + Stream speed.", "Step 1: D = 11 + 1", "Step 2: = 12 km/h", "Answer: (d) 12 km/h"],
+        "as": ["সূত্ৰ: সোঁতৰ দিশত গতি = স্থিৰ পানীত নাৱৰ গতি + সোঁতৰ গতি।", "পদক্ষেপ ১: D = 11 + 1", "পদক্ষেপ ২: = 12 কি.মি./ঘণ্টা", "উত্তৰ: (ঘ) 12 কি.মি./ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat moves at 9 km/h upstream. How much time will it take to cover a distance of 45 km?",
+        "as": "এখন নাৱে সোঁতৰ বিপৰীত দিশত 9 কি.মি./ঘণ্টা গতিত চলি আছে। 45 কি.মি. দূৰত্ব অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+      },
+      "options": {
+        "en": ["(a) 5 hours", "(b) 4 hours", "(c) 6 hours", "(d) 3 hours"],
+        "as": ["(ক) ৫ ঘণ্টা", "(খ) ৪ ঘণ্টা", "(গ) ৬ ঘণ্টা", "(ঘ) ৩ ঘণ্টা"]
+      },
+      "correct": "a",
+      "a": {
+        "en": ["Formula: Time = Distance ÷ Speed.", "Step 1: Time = 45 ÷ 9", "Step 2: = 5 hours", "Answer: (a) 5 hours"],
+        "as": ["সূত্ৰ: সময় = দূৰত্ব ÷ গতি।", "পদক্ষেপ ১: সময় = 45 ÷ 9", "পদক্ষেপ ২: = ৫ ঘণ্টা", "উত্তৰ: (ক) 5 ঘণ্টা"]
+      }
+    },
+    {
+      "q": {
+        "en": "A boat moves downstream at a speed of 12 km/h for 3.5 hours. How much distance does it cover?",
+        "as": "এখন নাৱে সোঁতৰ দিশত 12 কি.মি./ঘণ্টা গতিত 3.5 ঘণ্টা যায়। ই কিমান দূৰত্ব অতিক্ৰম কৰিব?"
+      },
+      "options": {
+        "en": ["(a) 36 km", "(b) 42 km", "(c) 40 km", "(d) 30 km"],
+        "as": ["(ক) ৩৬ কি.মি.", "(খ) ৪২ কি.মি.", "(গ) ৪০ কি.মি.", "(ঘ) ৩০ কি.মি."]
+      },
+      "correct": "b",
+      "a": {
+        "en": ["Formula: Distance = Speed × Time.", "Step 1: Distance = 12 × 3.5", "Step 2: = 42 km", "Answer: (b) 42 km"],
+        "as": ["সূত্ৰ: দূৰত্ব = গতি × সময়।", "পদক্ষেপ ১: দূৰত্ব = 12 × 3.5", "পদক্ষেপ ২: = 42 কি.মি.", "উত্তৰ: (খ) 42 কি.মি."]
+      }
+    }
+  ]
+}
