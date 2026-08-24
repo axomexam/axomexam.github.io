@@ -407,7 +407,7 @@
     {
       "id": "math",
       "name": { "en": "Mathematics", "as": "গণিত" },
-      "description": { "en": "Quantitative aptitude and arithmetic.", "as": "পাটিগণিত আৰু গাণিতিক যুক্তি।" },
+      "description": { "en": "Quantitative aptitude, arithmetic, advanced math & DI.", "as": "পাটিগণিত, উচ্চ গণিত আৰু সংখ্যাত্মক বিশ্লেষণ।" },
       "color": "#f59e0b",
       "icon": "∑",
       "subcategories": [
@@ -415,7 +415,41 @@
           "id": "arithmetic",
           "name": { "en": "Arithmetic", "as": "পাটিগণিত" },
           "topics": [
-            { "id": "percentage", "name": { "en": "Percentage & Ratio", "as": "শতাংশ আৰু অনুপাত" }, "popularity": 9 }
+            { "id": "number-system", "name": { "en": "Number System", "as": "সংখ্যা প্ৰণালী" }, "popularity": 10 },
+            { "id": "simplification", "name": { "en": "Simplification", "as": "সৰলীকৰণ" }, "popularity": 10 },
+            { "id": "lcm-and-hcf", "name": { "en": "LCM and HCF", "as": "ল.সা.গু. আৰু গ.সা.গু." }, "popularity": 9 },
+            { "id": "percentage", "name": { "en": "Percentage", "as": "শতাংশ" }, "popularity": 10 },
+            { "id": "ratio-and-proportion", "name": { "en": "Ratio and Proportion", "as": "অনুপাত আৰু সমানুপাত" }, "popularity": 9 },
+            { "id": "profit-and-loss", "name": { "en": "Profit and Loss", "as": "লাভ আৰু লোকচান" }, "popularity": 10 },
+            { "id": "simple-and-compound-interest", "name": { "en": "Simple and Compound Interest", "as": "সৰল আৰু চক্ৰবৃদ্ধি সূত" }, "popularity": 9 },
+            { "id": "average", "name": { "en": "Average", "as": "গড়" }, "popularity": 9 },
+            { "id": "time-and-work", "name": { "en": "Time and Work", "as": "সময় আৰু কাৰ্য্য" }, "popularity": 10 },
+            { "id": "pipes-and-cisterns", "name": { "en": "Pipes and Cisterns", "as": "নল আৰু চৌবাচ্চা" }, "popularity": 8 },
+            { "id": "time-speed-and-distance", "name": { "en": "Time, Speed and Distance", "as": "সময়, গতিবেগ আৰু দূৰত্ব" }, "popularity": 10 },
+            { "id": "boats-and-streams", "name": { "en": "Boats and Streams", "as": "নাও আৰু সোঁত" }, "popularity": 8 },
+            { "id": "problems-on-ages", "name": { "en": "Problems on Ages", "as": "বয়স সম্পৰ্কীয় অংক" }, "popularity": 9 },
+            { "id": "partnership", "name": { "en": "Partnership", "as": "অংশীদাৰিত্ব" }, "popularity": 8 },
+            { "id": "mixture-and-alligation", "name": { "en": "Mixture and Alligation", "as": "মিশ্ৰণ আৰু সংযোগ" }, "popularity": 8 }
+          ]
+        },
+        {
+          "id": "advanced-math",
+          "name": { "en": "Advanced Math", "as": "উচ্চ গণিত" },
+          "topics": [
+            { "id": "algebra", "name": { "en": "Algebra", "as": "বীজগণিত" }, "popularity": 9 },
+            { "id": "surds-and-indices", "name": { "en": "Surds and Indices", "as": "ঘাত আৰু সূচক" }, "popularity": 8 },
+            { "id": "geometry", "name": { "en": "Geometry", "as": "জ্যামিতি" }, "popularity": 9 },
+            { "id": "mensuration-2d", "name": { "en": "Mensuration 2D", "as": "পৰিমিতি (২-মাত্ৰিক / 2D)" }, "popularity": 9 },
+            { "id": "mensuration-3d", "name": { "en": "Mensuration 3D", "as": "পৰিমিতি (৩-মাত্ৰিক / 3D)" }, "popularity": 9 },
+            { "id": "trigonometry", "name": { "en": "Trigonometry", "as": "ত্ৰিকোণমিতি" }, "popularity": 9 }
+          ]
+        },
+        {
+          "id": "statistics-and-data-interpretation",
+          "name": { "en": "Statistics and Data Interpretation", "as": "পৰিসংখ্যা আৰু তথ্য বিশ্লেষণ" },
+          "topics": [
+            { "id": "statistics", "name": { "en": "Statistics", "as": "পৰিসংখ্যা বিজ্ঞান" }, "popularity": 8 },
+            { "id": "data-interpretation", "name": { "en": "Data Interpretation", "as": "তথ্য বিশ্লেষণ (DI)" }, "popularity": 9 }
           ]
         }
       ]
