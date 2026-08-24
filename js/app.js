@@ -4,7 +4,7 @@
    search, Q&A reader, Math Engine (Assamese + English), Mock Tests,
    Dedicated Downloads Search, Detailed Bilingual AdSense Legal Pages,
    Pure White High-Contrast Footer Text, Mobile Center Align Fixed,
-   Restored Classic GK Layout + Flush Left Aligned Step-by-Step Math.
+   GK Serial & Answer Perfect Vertical Alignment.
    Domain: axomexam.in
    Default UI Language: English ("en").
    ============================================================ */
@@ -936,11 +936,7 @@
             width: 100% !important;
           }
           .qa-options {
-            margin-left: 0 !important;
             grid-template-columns: 1fr !important;
-          }
-          .qa-a, .qa-exp {
-            padding-left: 0 !important;
           }
         }
       </style>
@@ -960,7 +956,7 @@
     });
   }
 
-  /* ================= Smart Hybrid Q&A Renderer ================= */
+  /* ================= Smart Hybrid Q&A Renderer (Precise Alignment) ================= */
   function renderQAPage() {
     const rec = currentTopicRec();
     if (!rec) return;
@@ -989,7 +985,7 @@
         const isStepArray = Array.isArray(rawAns) || atext.includes("qa-step-line");
 
         if (isStepArray) {
-          // Format for Math & Detailed Step-by-Step Questions (100% Flush Left Aligned)[cite: 3]
+          // Format for Math & Detailed Step-by-Step Questions (100% Flush Left Aligned)
           return `
             <article class="qa-card" data-n="${n}" style="box-sizing:border-box; width:100%; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:12px; padding:18px 20px; margin-bottom:16px; box-shadow:0 2px 6px rgba(0,0,0,0.03); text-align:left;">
               <div class="qa-q" style="margin:0 0 10px 0; padding:0; font-size:1rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">
@@ -1014,29 +1010,29 @@
               </div>
             </article>`;
         } else {
-          // Classic Original GK Layout (Restored)[cite: 4]
+          // Perfectly Aligned Classic GK Layout (Flush Left & Level Line-Height)
           return `
-            <article class="qa-card" data-n="${n}" style="box-sizing:border-box; width:100%; margin-bottom:16px;">
-              <div class="qa-q" style="display:flex; align-items:flex-start; gap:10px;">
-                <span class="qno" style="flex-shrink:0;">${n}</span>
-                <span class="qtext" style="flex:1; line-height:1.5;">${formatMath(qtext)}</span>
+            <article class="qa-card" data-n="${n}" style="box-sizing:border-box; width:100%; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:18px 20px; margin-bottom:16px; box-shadow:0 2px 6px rgba(0,0,0,0.03); text-align:left;">
+              <div class="qa-q" style="display:flex; align-items:center; gap:10px; margin:0 0 12px 0; padding:0; text-align:left;">
+                <span class="qno" style="flex-shrink:0; width:28px; height:28px; border-radius:8px; background:var(--primary-soft,#eff6ff); color:var(--primary,#2563eb); font-weight:800; font-size:0.88rem; display:inline-flex; align-items:center; justify-content:center; line-height:1; box-sizing:border-box; margin:0;">${n}</span>
+                <span class="qtext" style="flex:1; font-weight:700; font-size:0.98rem; color:var(--ink,#0f172a); line-height:1.45; text-align:left; margin:0; padding:0;">${formatMath(qtext)}</span>
               </div>
               ${options.length ? `
-                <div class="qa-options" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:8px; margin:12px 0 12px 32px;">
+                <div class="qa-options" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:8px; margin:0 0 12px 0; padding:0; text-align:left;">
                   ${options.map((opt, optIdx) => `
-                    <div style="font-size:0.88rem; color:var(--ink-soft); background:var(--bg-subtle,#f8fafc); padding:8px 12px; border-radius:8px; border:1px solid var(--border,#e2e8f0); display:flex; align-items:flex-start; gap:6px;">
+                    <div style="font-size:0.88rem; color:var(--ink-soft,#334155); background:var(--bg-subtle,#f8fafc); padding:8px 12px; border-radius:8px; border:1px solid var(--border,#e2e8f0); display:flex; align-items:center; gap:6px; text-align:left;">
                       <b style="color:var(--primary,#2563eb); flex-shrink:0;">(${String.fromCharCode(65 + optIdx)})</b> 
                       <span style="flex:1; line-height:1.4;">${formatMath(opt)}</span>
                     </div>
                   `).join("")}
                 </div>` : ""
               }
-              <div class="qa-a" style="margin-top:10px; display:flex; align-items:flex-start; gap:6px; padding-left:32px;">
-                <span class="a-label" style="font-weight:700; color:var(--primary,#2563eb); flex-shrink:0;">${t("topic.answer")}:</span>
-                <span class="a-body" style="font-weight:600; line-height:1.4;">${formatMath(atext)}</span>
+              <div class="qa-a" style="margin:10px 0 0 0; padding:0; display:flex; align-items:flex-start; gap:6px; text-align:left;">
+                <span class="a-label" style="font-weight:700; color:var(--primary,#2563eb); flex-shrink:0; font-size:0.92rem;">${t("topic.answer")}:</span>
+                <span class="a-body" style="font-weight:600; color:var(--ink,#0f172a); line-height:1.45; font-size:0.92rem; text-align:left;">${formatMath(atext)}</span>
               </div>
               ${explanation ? `
-                <div class="qa-exp" style="margin-top:8px; font-size:0.85rem; color:var(--ink-muted,#64748b); padding-left:32px; line-height:1.45;">
+                <div class="qa-exp" style="margin-top:8px; padding:0; font-size:0.86rem; color:var(--ink-muted,#64748b); line-height:1.45; text-align:left;">
                   <b style="color:var(--ink,#0f172a);">${state.lang === "as" ? "ব্যাখ্যা" : "Explanation"}:</b> ${formatMath(explanation)}
                 </div>` : ""
               }
@@ -1092,7 +1088,7 @@
     $("#read-modal-close", modal).addEventListener("click", closeReadingModal);
     $("#read-modal-backdrop", modal).addEventListener("click", closeReadingModal);
 
-    // Reading Modal Pager Listeners[cite: 4]
+    // Reading Modal Pager Listeners
     $("#read-prev", modal).addEventListener("click", () => {
       if (state.page > 0) {
         state.page--;
@@ -1162,7 +1158,7 @@
       const isStepArray = Array.isArray(rawAns) || atext.includes("qa-step-line");
 
       if (isStepArray) {
-        // Step-by-Step Layout in Reading Mode[cite: 3]
+        // Step-by-Step Layout in Reading Mode
         return `
           <article class="qa-card read-item" data-n="${n}" style="margin-bottom:16px; padding:16px 18px; border:1px solid var(--border,#e2e8f0); border-radius:12px; background:var(--card-bg,#fff); text-align:left;">
             <div class="qa-q" style="margin:0 0 8px 0; padding:0; font-size:0.96rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">
@@ -1182,16 +1178,16 @@
             </div>
           </article>`;
       } else {
-        // Classic Original GK in Reading Mode[cite: 4]
+        // Classic GK in Reading Mode (Flush Left Aligned)
         return `
-          <article class="qa-card read-item" data-n="${n}">
-            <div class="qa-q">
-              <span class="qno">${n}</span>
-              <span class="qtext">${formatMath(qtext)}</span>
+          <article class="qa-card read-item" data-n="${n}" style="margin-bottom:16px; padding:16px 18px; border:1px solid var(--border,#e2e8f0); border-radius:12px; background:var(--card-bg,#fff); text-align:left;">
+            <div class="qa-q" style="display:flex; align-items:center; gap:10px; margin:0 0 8px 0; padding:0; text-align:left;">
+              <span class="qno" style="flex-shrink:0; width:26px; height:26px; border-radius:6px; background:var(--primary-soft,#eff6ff); color:var(--primary,#2563eb); font-weight:800; font-size:0.84rem; display:inline-flex; align-items:center; justify-content:center; line-height:1;">${n}</span>
+              <span class="qtext" style="flex:1; font-weight:700; font-size:0.94rem; color:var(--ink,#0f172a); line-height:1.45; text-align:left;">${formatMath(qtext)}</span>
             </div>
-            <div class="qa-a">
-              <span class="a-label">${t("topic.answer")}:</span>
-              <span class="a-body">${formatMath(atext)}</span>
+            <div class="qa-a" style="margin:6px 0 0 0; padding:0; display:flex; align-items:flex-start; gap:6px; text-align:left;">
+              <span class="a-label" style="font-weight:700; color:var(--primary,#2563eb); font-size:0.9rem;">${t("topic.answer")}:</span>
+              <span class="a-body" style="font-weight:600; color:var(--ink,#0f172a); font-size:0.9rem; line-height:1.45;">${formatMath(atext)}</span>
             </div>
           </article>`;
       }
@@ -1798,9 +1794,9 @@
         `;
       } else {
         row.innerHTML = `
-          <div style="font-size:12.8px; font-weight:700; color:#0f172a; margin-bottom:1px;">${idx + 1}. ${formatMath(qText)}</div>
-          <div style="font-size:12.2px; font-weight:600; color:#334155; margin-left:18px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${ansLabel}: ${formatMath(aText)}</div>
-          ${exp ? `<div style="font-size:10.5px; color:#64748b; margin-top:1px; margin-left:18px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${expLabel}: ${formatMath(exp)}</div>` : ""}
+          <div style="font-size:12.8px; font-weight:700; color:#0f172a; margin-bottom:1px; text-align:left;">${idx + 1}. ${formatMath(qText)}</div>
+          <div style="font-size:12.2px; font-weight:600; color:#334155; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif; text-align:left;">${ansLabel}: ${formatMath(aText)}</div>
+          ${exp ? `<div style="font-size:10.5px; color:#64748b; margin-top:1px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif; text-align:left;"><b>${expLabel}:</b> ${exp}</div>` : ""}
         `;
       }
 
