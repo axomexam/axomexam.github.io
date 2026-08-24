@@ -4,7 +4,7 @@
    search, Q&A reader, Math Engine (Assamese + English), Mock Tests,
    Dedicated Downloads Search, Detailed Bilingual AdSense Legal Pages,
    Pure White High-Contrast Footer Text, Mobile Center Align Fixed,
-   Dual-Engine Q&A Formatter (Legacy Simple GK + Step-by-Step Math).
+   Flush Left-Aligned Clean Multi-Line & Reading Mode Pager Fixed.
    Domain: axomexam.in
    Default UI Language: English ("en").
    ============================================================ */
@@ -105,7 +105,7 @@
     const processVal = (v) => {
       if (v === undefined || v === null) return "";
       if (Array.isArray(v)) {
-        return v.map(line => `<span class="qa-step-line" style="display:block; margin-bottom:3px;">${formatMath(line)}</span>`).join("");
+        return v.map(line => `<span class="qa-step-line" style="display:block; margin-bottom:4px; line-height:1.55;">${formatMath(line)}</span>`).join("");
       }
       if (typeof v === "object") {
         return processVal(v[targetLang] || v.as || v.en || Object.values(v)[0] || "");
@@ -986,14 +986,14 @@
         const isStepArray = Array.isArray(rawAns) || atext.includes("qa-step-line");
 
         if (isStepArray) {
-          // Format for Math & Detailed Step-by-Step Questions
+          // Format for Math & Detailed Step-by-Step Questions (Flush Left Aligned)
           return `
-            <article class="qa-card" data-n="${n}" style="box-sizing:border-box; width:100%; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:12px; padding:18px 20px; margin-bottom:16px; box-shadow:0 2px 6px rgba(0,0,0,0.03);">
-              <div class="qa-q" style="font-size:0.98rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; margin-bottom:8px;">
+            <article class="qa-card" data-n="${n}" style="box-sizing:border-box; width:100%; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:12px; padding:18px 20px; margin-bottom:16px; box-shadow:0 2px 6px rgba(0,0,0,0.03); text-align:left;">
+              <div class="qa-q" style="font-size:0.98rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; margin-bottom:8px; text-align:left;">
                 ${n}. ${formatMath(qtext)}
               </div>
               ${options.length ? `
-                <div class="qa-options-inline" style="font-size:0.92rem; color:var(--ink-soft,#334155); margin-bottom:12px; display:flex; flex-wrap:wrap; gap:16px; font-weight:500;">
+                <div class="qa-options-inline" style="font-size:0.92rem; color:var(--ink-soft,#334155); margin-bottom:12px; display:flex; flex-wrap:wrap; gap:16px; font-weight:500; text-align:left; justify-content:flex-start;">
                   ${options.map((opt, optIdx) => {
                     const hasPrefix = /^\s*[\(\[]?[A-Za-zক-হ০-৯\d]/i.test(opt);
                     const optDisplay = hasPrefix ? opt : `(${String.fromCharCode(65 + optIdx)}) ${opt}`;
@@ -1001,10 +1001,10 @@
                   }).join("")}
                 </div>` : ""
               }
-              <div class="qa-solution" style="border-top:1px dashed var(--border,#e2e8f0); padding-top:10px; font-size:0.9rem; line-height:1.6; color:var(--ink-soft,#334155);">
-                <div class="a-body">${atext}</div>
+              <div class="qa-solution" style="border-top:1px dashed var(--border,#e2e8f0); padding-top:10px; font-size:0.9rem; line-height:1.6; color:var(--ink-soft,#334155); text-align:left;">
+                <div class="a-body" style="text-align:left;">${atext}</div>
                 ${explanation ? `
-                  <div class="qa-exp" style="margin-top:8px; font-size:0.86rem; color:var(--ink-muted,#64748b);">
+                  <div class="qa-exp" style="margin-top:8px; font-size:0.86rem; color:var(--ink-muted,#64748b); text-align:left;">
                     <b style="color:var(--ink,#0f172a);">${state.lang === "as" ? "ব্যাখ্যা" : "Explanation"}:</b> ${explanation}
                   </div>` : ""
                 }
@@ -1013,27 +1013,27 @@
         } else {
           // Format for General GK & Standard One-Line Q&A
           return `
-            <article class="qa-card" data-n="${n}" style="box-sizing:border-box; width:100%; margin-bottom:16px;">
-              <div class="qa-q" style="display:flex; align-items:flex-start; gap:10px;">
+            <article class="qa-card" data-n="${n}" style="box-sizing:border-box; width:100%; margin-bottom:16px; text-align:left;">
+              <div class="qa-q" style="display:flex; align-items:flex-start; gap:10px; text-align:left;">
                 <span class="qno" style="flex-shrink:0;">${n}</span>
-                <span class="qtext" style="flex:1; line-height:1.5;">${formatMath(qtext)}</span>
+                <span class="qtext" style="flex:1; line-height:1.5; text-align:left;">${formatMath(qtext)}</span>
               </div>
               ${options.length ? `
-                <div class="qa-options" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:8px; margin:12px 0 12px 32px;">
+                <div class="qa-options" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:8px; margin:12px 0 12px 32px; text-align:left;">
                   ${options.map((opt, optIdx) => `
-                    <div style="font-size:0.88rem; color:var(--ink-soft); background:var(--bg-subtle,#f8fafc); padding:8px 12px; border-radius:8px; border:1px solid var(--border,#e2e8f0); display:flex; align-items:flex-start; gap:6px;">
+                    <div style="font-size:0.88rem; color:var(--ink-soft); background:var(--bg-subtle,#f8fafc); padding:8px 12px; border-radius:8px; border:1px solid var(--border,#e2e8f0); display:flex; align-items:flex-start; gap:6px; text-align:left;">
                       <b style="color:var(--primary,#2563eb); flex-shrink:0;">(${String.fromCharCode(65 + optIdx)})</b> 
-                      <span style="flex:1; line-height:1.4;">${formatMath(opt)}</span>
+                      <span style="flex:1; line-height:1.4; text-align:left;">${formatMath(opt)}</span>
                     </div>
                   `).join("")}
                 </div>` : ""
               }
-              <div class="qa-a" style="margin-top:10px; display:flex; align-items:flex-start; gap:6px; padding-left:32px;">
+              <div class="qa-a" style="margin-top:10px; display:flex; align-items:flex-start; gap:6px; padding-left:32px; text-align:left;">
                 <span class="a-label" style="font-weight:700; color:var(--primary,#2563eb); flex-shrink:0;">${t("topic.answer")}:</span>
-                <span class="a-body" style="font-weight:600; line-height:1.4;">${formatMath(atext)}</span>
+                <span class="a-body" style="font-weight:600; line-height:1.4; text-align:left;">${formatMath(atext)}</span>
               </div>
               ${explanation ? `
-                <div class="qa-exp" style="margin-top:8px; font-size:0.85rem; color:var(--ink-muted,#64748b); padding-left:32px; line-height:1.45;">
+                <div class="qa-exp" style="margin-top:8px; font-size:0.85rem; color:var(--ink-muted,#64748b); padding-left:32px; line-height:1.45; text-align:left;">
                   <b style="color:var(--ink,#0f172a);">${state.lang === "as" ? "ব্যাখ্যা" : "Explanation"}:</b> ${formatMath(explanation)}
                 </div>` : ""
               }
@@ -1057,7 +1057,7 @@
     }
   }
 
-  /* ================= Reading-mode popup ================= */
+  /* ================= Reading-mode popup (Working Next/Prev Buttons) ================= */
   function ensureReadingModal() {
     let modal = $("#read-modal");
     if (modal) return modal;
@@ -1067,27 +1067,55 @@
     modal.hidden = true;
     modal.innerHTML = `
       <div class="read-modal-backdrop" id="read-modal-backdrop"></div>
-      <div class="read-modal-box" role="dialog" aria-modal="true">
-        <div class="read-modal-head">
-          <div class="read-modal-titles">
-            <span class="read-modal-title"></span>
-            <span class="read-modal-sub"></span>
+      <div class="read-modal-box" role="dialog" aria-modal="true" style="max-width:760px; width:92%; margin:auto; border-radius:18px; text-align:left; background:var(--bg,#ffffff);">
+        <div class="read-modal-head" style="display:flex; justify-content:space-between; align-items:center; padding:16px 20px; border-bottom:1px solid var(--border,#e2e8f0);">
+          <div class="read-modal-titles" style="text-align:left;">
+            <span class="read-modal-title" style="font-size:1.15rem; font-weight:800; display:block; color:var(--ink,#0f172a);"></span>
+            <span class="read-modal-sub" style="font-size:0.82rem; color:var(--ink-muted,#64748b);"></span>
           </div>
-          <button id="read-modal-close" class="read-close" type="button" aria-label="Close">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+          <button id="read-modal-close" class="read-close" type="button" aria-label="Close" style="background:transparent; border:none; cursor:pointer; padding:6px;">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
           </button>
         </div>
-        <div class="read-modal-body" id="read-modal-body"></div>
-        <div class="read-modal-foot">
-          <button id="read-prev" type="button">${t("topic.prev")}</button>
-          <span class="read-pageinfo" id="read-pageinfo"></span>
-          <button id="read-next" type="button">${t("topic.next")}</button>
+        <div class="read-modal-body" id="read-modal-body" style="padding:20px; max-height:70vh; overflow-y:auto; text-align:left; box-sizing:border-box;"></div>
+        <div class="read-modal-foot" style="display:flex; justify-content:space-between; align-items:center; padding:14px 20px; border-top:1px solid var(--border,#e2e8f0);">
+          <button id="read-prev" type="button" class="btn btn-sm btn-outline" style="padding:6px 16px; font-weight:700;">${t("topic.prev")}</button>
+          <span class="read-pageinfo" id="read-pageinfo" style="font-weight:700; font-size:0.88rem; color:var(--ink-soft,#64748b);"></span>
+          <button id="read-next" type="button" class="btn btn-sm btn-outline" style="padding:6px 16px; font-weight:700;">${t("topic.next")}</button>
         </div>
       </div>`;
     document.body.appendChild(modal);
 
     $("#read-modal-close", modal).addEventListener("click", closeReadingModal);
     $("#read-modal-backdrop", modal).addEventListener("click", closeReadingModal);
+
+    // Reading Modal Pager Listeners
+    $("#read-prev", modal).addEventListener("click", () => {
+      if (state.page > 0) {
+        state.page--;
+        renderQAPage();
+        renderReadingModalPage();
+        const b = $("#read-modal-body");
+        if (b) b.scrollTop = 0;
+      }
+    });
+
+    $("#read-next", modal).addEventListener("click", () => {
+      const rec = currentTopicRec();
+      if (!rec) return;
+      const qs = rec.topic.questions || [];
+      const perPage = typeof CONFIG !== "undefined" ? CONFIG.PER_PAGE : 10;
+      const totalPages = Math.max(1, Math.ceil(qs.length / perPage));
+
+      if (state.page < totalPages - 1) {
+        state.page++;
+        renderQAPage();
+        renderReadingModalPage();
+        const b = $("#read-modal-body");
+        if (b) b.scrollTop = 0;
+      }
+    });
+
     return modal;
   }
 
@@ -1127,21 +1155,21 @@
       const options = getOptionsList(item);
 
       return `
-        <article class="qa-card read-item" data-n="${n}" style="margin-bottom:14px; padding-bottom:10px; border-bottom:1px solid var(--border,#e2e8f0);">
-          <div class="qa-q" style="font-weight:700; margin-bottom:6px;">
+        <article class="qa-card read-item" data-n="${n}" style="margin-bottom:16px; padding:16px 18px; border:1px solid var(--border,#e2e8f0); border-radius:12px; background:var(--card-bg,#fff); text-align:left;">
+          <div class="qa-q" style="font-size:0.96rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; margin-bottom:8px; text-align:left;">
             ${n}. ${formatMath(qtext)}
           </div>
           ${options.length ? `
-            <div class="qa-options-inline" style="display:flex; flex-wrap:wrap; gap:12px; font-size:0.88rem; color:var(--ink-soft,#475569); margin-bottom:8px;">
+            <div class="qa-options-inline" style="display:flex; flex-wrap:wrap; gap:14px; font-size:0.9rem; color:var(--ink-soft,#334155); margin-bottom:10px; font-weight:500; text-align:left; justify-content:flex-start;">
               ${options.map((opt, optIdx) => {
                 const hasPrefix = /^\s*[\(\[]?[A-Za-zক-হ০-৯\d]/i.test(opt);
                 const optDisplay = hasPrefix ? opt : `(${String.fromCharCode(65 + optIdx)}) ${opt}`;
-                return `<span>${formatMath(optDisplay)}</span>`;
+                return `<span style="white-space:nowrap;">${formatMath(optDisplay)}</span>`;
               }).join("")}
             </div>` : ""
           }
-          <div class="qa-solution" style="border-top:1px dashed var(--border,#e2e8f0); padding-top:6px; font-size:0.88rem; color:var(--ink-soft,#334155);">
-            <div class="a-body">${atext}</div>
+          <div class="qa-solution" style="border-top:1px dashed var(--border,#e2e8f0); padding-top:8px; font-size:0.88rem; color:var(--ink-soft,#334155); line-height:1.6; text-align:left;">
+            <div class="a-body" style="text-align:left;">${atext}</div>
           </div>
         </article>`;
     }).join("");
@@ -1724,7 +1752,7 @@
 
       const row = document.createElement("div");
       row.className = "qa-row";
-      row.style.cssText = "border-bottom:1px dashed #e2e8f0; padding-bottom:4px; margin-bottom:7px; line-height:1.4;";
+      row.style.cssText = "border-bottom:1px dashed #e2e8f0; padding-bottom:4px; margin-bottom:7px; line-height:1.4; text-align:left;";
       row.innerHTML = `
         <div style="font-size:12.8px; font-weight:700; color:#0f172a; margin-bottom:1px;">${idx + 1}. ${formatMath(qText)}</div>
         ${options.length ? `
@@ -1736,8 +1764,8 @@
             }).join("")}
           </div>` : ""
         }
-        <div style="font-size:12.2px; font-weight:600; color:#334155; margin-left:14px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${aText}</div>
-        ${exp ? `<div style="font-size:10.5px; color:#64748b; margin-top:1px; margin-left:14px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;"><b>${expLabel}:</b> ${exp}</div>` : ""}
+        <div style="font-size:12.2px; font-weight:600; color:#334155; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${aText}</div>
+        ${exp ? `<div style="font-size:10.5px; color:#64748b; margin-top:1px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;"><b>${expLabel}:</b> ${exp}</div>` : ""}
       `;
       testMeasureDiv.appendChild(row);
       const h = row.offsetHeight + 7;
