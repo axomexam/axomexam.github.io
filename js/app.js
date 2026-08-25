@@ -617,7 +617,6 @@
       return renderTopicPage(main, rec);
     }
     
-    // Legal Pages Routing (Both /privacy and /privacy-policy supported)
     if (["about", "privacy", "privacy-policy", "terms", "disclaimer"].includes(segs[0])) {
       const pageKey = segs[0] === "privacy-policy" ? "privacy" : segs[0];
       return renderStatic(main, pageKey);
@@ -959,7 +958,7 @@
     });
   }
 
-  /* ================= Smart Hybrid Q&A Renderer (GK Unbold & Clean) ================= */
+  /* ================= Smart Hybrid Q&A Renderer ================= */
   function renderQAPage() {
     const rec = currentTopicRec();
     if (!rec) return;
