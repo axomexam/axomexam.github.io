@@ -4,7 +4,8 @@
    search, Q&A reader, Math Engine (Assamese + English), Mock Tests,
    Dedicated Downloads Search, Detailed Bilingual AdSense Legal Pages,
    Pure White High-Contrast Footer Text, Mobile Center Align Fixed,
-   GK Unbold Light Font + Step-by-Step Math Precision.
+   GK Unbold Light Font + Step-by-Step Math Precision,
+   Pure Path-Based Routing (No # Hashes Anywhere).
    Domain: axomexam.in
    Default UI Language: English ("en").
    ============================================================ */
@@ -218,21 +219,21 @@
             <div style="text-align:left;">
               <span style="font-size:0.78rem; font-weight:800; text-transform:uppercase; letter-spacing:0.8px; color:#ffffff; display:block; margin-bottom:12px;">${isAs ? "দ্ৰুত লিংক" : "Quick Links"}</span>
               <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px; font-size:0.86rem;">
-                <li><a href="#/mock-test" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "মক টেষ্ট" : "Mock Test"}</a></li>
-                <li><a href="#/previous-year" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "বিগত বৰ্ষৰ প্ৰশ্ন" : "Previous Papers"}</a></li>
-                <li><a href="#/downloads" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "নোটসমূহ ডাউনল'ড" : "Download Notes"}</a></li>
-                <li><a href="#/submit" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "প্ৰশ্ন প্ৰেৰণ কৰক" : "Submit Q&A"}</a></li>
+                <li><a href="/mock-test" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "মক টেষ্ট" : "Mock Test"}</a></li>
+                <li><a href="/previous-year" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "বিগত বৰ্ষৰ প্ৰশ্ন" : "Previous Papers"}</a></li>
+                <li><a href="/downloads" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "নোটসমূহ ডাউনল'ড" : "Download Notes"}</a></li>
+                <li><a href="/submit" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "প্ৰশ্ন প্ৰেৰণ কৰক" : "Submit Q&A"}</a></li>
               </ul>
             </div>
 
             <div style="text-align:left;">
               <span style="font-size:0.78rem; font-weight:800; text-transform:uppercase; letter-spacing:0.8px; color:#ffffff; display:block; margin-bottom:12px;">${isAs ? "আইনী নীতি" : "Legal & Info"}</span>
               <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px; font-size:0.86rem;">
-                <li><a href="#/about" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "আমাৰ বিষয়ে" : "About Us"}</a></li>
-                <li><a href="#/contact" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "যোগাযোগ কৰক" : "Contact Us"}</a></li>
-                <li><a href="#/privacy" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "গোপনীয়তা নীতি" : "Privacy Policy"}</a></li>
-                <li><a href="#/terms" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "নীতি আৰু চৰ্তসমূহ" : "Terms & Conditions"}</a></li>
-                <li><a href="#/disclaimer" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "দাবীত্যাগ" : "Disclaimer"}</a></li>
+                <li><a href="/about" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "আমাৰ বিষয়ে" : "About Us"}</a></li>
+                <li><a href="/contact" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "যোগাযোগ কৰক" : "Contact Us"}</a></li>
+                <li><a href="/privacy" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "গোপনীয়তা নীতি" : "Privacy Policy"}</a></li>
+                <li><a href="/terms" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "নীতি আৰু চৰ্তসমূহ" : "Terms & Conditions"}</a></li>
+                <li><a href="/disclaimer" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "দাবীত্যাগ" : "Disclaimer"}</a></li>
               </ul>
             </div>
           </div>
@@ -402,7 +403,7 @@
     const isActive = activePath && activePath.split("/")[0] === item.id;
     return `
       <li class="${hasKids ? "has-drop" : ""}">
-        <a class="nav-link ${isActive ? "active" : ""}" href="#/category/${item.id}">
+        <a class="nav-link ${isActive ? "active" : ""}" href="/category/${item.id}">
           <span>${escapeHtml(localized(item.name))}</span>
           ${hasKids ? '<span class="caret"></span>' : ""}
         </a>
@@ -419,18 +420,18 @@
           if (grand && grand.length) {
             return `
               <div class="has-drop">
-                <a href="#/category/${item.id}/${sub.id}">
+                <a href="/category/${item.id}/${sub.id}">
                   <span>${escapeHtml(localized(sub.name))}</span><span class="d-caret"></span>
                 </a>
                 <div class="dropdown">
                   ${grand.map((sec) => `
-                    <a href="#/category/${item.id}/${sub.id}/${sec.id}">
+                    <a href="/category/${item.id}/${sub.id}/${sec.id}">
                       <span>${escapeHtml(localized(sec.name))}</span>
                     </a>`).join("")}
                 </div>
               </div>`;
           }
-          return `<a href="#/category/${item.id}/${sub.id}">${escapeHtml(localized(sub.name))}</a>`;
+          return `<a href="/category/${item.id}/${sub.id}">${escapeHtml(localized(sub.name))}</a>`;
         }).join("")}
       </div>`;
   }
@@ -445,16 +446,16 @@
     const rest = state.categories.filter((c) => !FEATURED_IDS.includes(c.id));
     const items = [];
 
-    items.push(extraLink("#/", t("nav.home"), activePath));
+    items.push(extraLink("/", t("nav.home"), activePath));
     featured.forEach((c) => items.push(navLinkHTML(c, activePath)));
-    items.push(extraLink("#/mock-test", t("nav.mock"), activePath));
-    items.push(extraLink("#/downloads", t("nav.downloads"), activePath));
+    items.push(extraLink("/mock-test", t("nav.mock"), activePath));
+    items.push(extraLink("/downloads", t("nav.downloads"), activePath));
     items.push(moreDropdownHTML(rest, activePath));
     list.innerHTML = items.join("");
   }
 
   function extraLink(href, label, activePath) {
-    const on = activePath.split("/")[0] === href.replace("#/", "");
+    const on = activePath.split("/")[0] === href.replace(/^\//, "");
     return `<li><a class="nav-link ${on ? "active" : ""}" href="${href}">${escapeHtml(label)}</a></li>`;
   }
 
@@ -463,21 +464,21 @@
     const isInside = rest.some((c) => c.id === root) || ["submit", "previous-year", "contact", "about", "privacy", "privacy-policy", "terms", "disclaimer"].includes(root);
     const catLinks = rest.map((c) => {
       const on = root === c.id;
-      return `<a class="${on ? "active" : ""}" href="#/category/${c.id}">${escapeHtml(localized(c.name))}</a>`;
+      return `<a class="${on ? "active" : ""}" href="/category/${c.id}">${escapeHtml(localized(c.name))}</a>`;
     }).join("");
     
     const extraLinks = [
-      ["#/previous-year", t("nav.previousYear")],
-      ["#/submit", t("nav.submit")],
-      ["#/contact", "Contact Us"]
+      ["/previous-year", t("nav.previousYear")],
+      ["/submit", t("nav.submit")],
+      ["/contact", "Contact Us"]
     ].map(([href, label]) => {
-      const on = root === href.replace("#/", "");
+      const on = root === href.replace(/^\//, "");
       return `<a class="${on ? "active" : ""}" href="${href}">${escapeHtml(label)}</a>`;
     }).join("");
 
     return `
       <li class="has-drop">
-        <a class="nav-link ${isInside ? "active" : ""}" href="#/categories">
+        <a class="nav-link ${isInside ? "active" : ""}" href="/categories">
           <span>${escapeHtml(t("nav.more"))}</span><span class="caret"></span>
         </a>
         <div class="dropdown">
@@ -498,7 +499,7 @@
       return `
         <li>
           <div class="m-row">
-            <a class="m-item ${activePath.split("/")[0] === cat.id ? "active" : ""}" href="#/category/${cat.id}">
+            <a class="m-item ${activePath.split("/")[0] === cat.id ? "active" : ""}" href="/category/${cat.id}">
               ${escapeHtml(localized(cat.name))}
             </a>
             ${kids.length ? `<button class="m-toggle" data-toggle data-target="${cat.id}" aria-label="toggle"><span class="caret"></span></button>` : ""}
@@ -508,14 +509,14 @@
             if (grand && grand.length) {
               return `
                 <div class="m-row">
-                  <a class="m-item" href="#/category/${cat.id}/${sub.id}"><span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(sub.name))}</span></a>
+                  <a class="m-item" href="/category/${cat.id}/${sub.id}"><span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(sub.name))}</span></a>
                   <button class="m-toggle" data-toggle data-target="${cat.id}-${sub.id}" aria-label="toggle"><span class="caret"></span></button>
                 </div>
                 <div class="m-sub m-nested" id="msub-${cat.id}-${sub.id}">
-                  ${grand.map((sec) => `<a href="#/category/${cat.id}/${sub.id}/${sec.id}"><span style="font-weight:600; font-size:0.87rem; color:var(--ink-soft,#475569);">${escapeHtml(localized(sec.name))}</span></a>`).join("")}
+                  ${grand.map((sec) => `<a href="/category/${cat.id}/${sub.id}/${sec.id}"><span style="font-weight:600; font-size:0.87rem; color:var(--ink-soft,#475569);">${escapeHtml(localized(sec.name))}</span></a>`).join("")}
                 </div>`;
             }
-            return `<a href="#/category/${cat.id}/${sub.id}"><span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(sub.name))}</span></a>`;
+            return `<a href="/category/${cat.id}/${sub.id}"><span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(sub.name))}</span></a>`;
           }).join("")}</div>` : ""}
         </li>`;
     });
@@ -524,7 +525,7 @@
 
     const downloadItem = `
       <li class="m-download" style="margin-top:8px;">
-        <a class="m-item ${activePath === "downloads" ? "active" : ""}" href="#/downloads" style="${mBtnStyle}">
+        <a class="m-item ${activePath === "downloads" ? "active" : ""}" href="/downloads" style="${mBtnStyle}">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
           ${escapeHtml(t("nav.downloads"))}
         </a>
@@ -532,7 +533,7 @@
 
     const prevYearItem = `
       <li class="m-py" style="margin-top:6px;">
-        <a class="m-item ${activePath === "previous-year" ? "active" : ""}" href="#/previous-year" style="${mBtnStyle}">
+        <a class="m-item ${activePath === "previous-year" ? "active" : ""}" href="/previous-year" style="${mBtnStyle}">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6"/><path d="M9 16h4"/><path d="M7 3v3"/><path d="M17 3v3"/><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M8 9h8a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1z"/></svg>
           ${escapeHtml(t("nav.previousYear"))}
         </a>
@@ -540,7 +541,7 @@
 
     const submitItem = `
       <li class="m-submit" style="margin-top:6px;">
-        <a class="m-item ${activePath === "submit" ? "active" : ""}" href="#/submit" style="${mBtnStyle}">
+        <a class="m-item ${activePath === "submit" ? "active" : ""}" href="/submit" style="${mBtnStyle}">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
           ${escapeHtml(t("nav.submit"))}
         </a>
@@ -548,7 +549,7 @@
 
     const contactItem = `
       <li class="m-contact" style="margin-top:6px;margin-bottom:8px;">
-        <a class="m-item ${activePath === "contact" ? "active" : ""}" href="#/contact" style="${mBtnStyle}">
+        <a class="m-item ${activePath === "contact" ? "active" : ""}" href="/contact" style="${mBtnStyle}">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
           Contact Us
         </a>
@@ -572,13 +573,25 @@
     });
   }
 
-  /* ================= Routing ================= */
-  function parseHash() {
-    const h = location.hash.replace(/^#\/?/, "");
-    return h.split("/").filter(Boolean);
+  /* ================= Routing (Clean URL Path Handler) ================= */
+  function parsePath() {
+    let p = window.location.pathname.replace(/^\/|\/$/g, "");
+    if (window.location.search && window.location.search.startsWith("?/")) {
+      p = window.location.search.slice(2).replace(/~and~/g, "&");
+      window.history.replaceState(null, null, "/" + p);
+    }
+    return p.split("/").filter(Boolean);
   }
+
   function currentPath() {
-    return parseHash().filter((s) => s !== "category" && s !== "topic" && s !== "mock-test").join("/");
+    return parsePath().filter((s) => s !== "category" && s !== "topic" && s !== "mock-test").join("/");
+  }
+
+  function navigateTo(url) {
+    window.history.pushState(null, null, url);
+    buildDesktopNav();
+    buildMobileNav();
+    renderRoute();
   }
 
   function resetScroll() {
@@ -591,7 +604,7 @@
 
   async function renderRoute() {
     if (!state.ready) return;
-    const segs = parseHash();
+    const segs = parsePath();
     const main = $("#app");
     closeMobileMenu();
     closeReadingModal();
@@ -645,19 +658,19 @@
     main.innerHTML = `
       <section class="hero reveal visible">
         <div class="hero-content">
-          <a class="hero-brand" href="#/">
+          <a class="hero-brand" href="/">
             <span class="brand-mark">A</span>
             <span class="brand-text">axomexam</span>
           </a>
-          <a class="hero-badge" href="#/mock-test">
+          <a class="hero-badge" href="/mock-test">
             <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
             ${t("hero.daily")} • ADRE 2.0 / RRB
           </a>
           <h1>${t("hero.title") || "Assam Competitive Exam Preparation Portal"}</h1>
           <p class="sub">${t("hero.sub") || "Free bilingual questions, mock tests, and PDF study notes for Assam exams."}</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#/category/${firstCat}">${t("hero.cta")}</a>
-            <a class="btn btn-ghost" href="#/mock-test">${t("hero.cta3")}</a>
+            <a class="btn btn-primary" href="/category/${firstCat}">${t("hero.cta")}</a>
+            <a class="btn btn-ghost" href="/mock-test">${t("hero.cta3")}</a>
           </div>
           <div class="hero-stats">
             <div class="stat"><b id="stat-total-questions">${totalQuestions.toLocaleString()}+</b><span>${t("stat.questions")}</span></div>
@@ -679,7 +692,7 @@
           ${state.categories.map((c, i) => {
             const color = catColor(c.id);
             return `
-              <a class="cat-card reveal" href="#/category/${c.id}" style="--cat:${color}" data-delay="${i * 60}">
+              <a class="cat-card reveal" href="/category/${c.id}" style="--cat:${color}" data-delay="${i * 60}">
                 <span class="cat-ico">${catIconHTML(c.id)}</span>
                 <span class="cat-meta">
                   <b>${escapeHtml(localized(c.name))}</b>
@@ -696,11 +709,11 @@
             <h2>${t("home.trending")}</h2>
             <p class="sec-sub">${t("home.trending.sub")}</p>
           </div>
-          <a class="see-all" href="#/trending">${t("see.all")}</a>
+          <a class="see-all" href="/trending">${t("see.all")}</a>
         </div>
         <div class="trend-grid">
           ${trending.map((r, i) => `
-            <a class="topic-card reveal" href="#/topic/${r.path}" style="--cat:${catColor(r.cat.id)}" data-delay="${i * 50}">
+            <a class="topic-card reveal" href="/topic/${r.path}" style="--cat:${catColor(r.cat.id)}" data-delay="${i * 50}">
               <span class="topic-ico">${topicIconHTML(r.topic.id, r.cat.id)}</span>
               <span class="rank">${i + 1}</span>
               <span style="display:flex; flex-direction:column; gap:2px;">
@@ -759,7 +772,7 @@
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb">
-          <a href="#/">${t("breadcrumb.home")}</a>
+          <a href="/">${t("breadcrumb.home")}</a>
           <span class="bc-sep">/</span><span>${escapeHtml(localized(cat.name))}</span>
         </nav>
         <h1>${escapeHtml(localized(cat.name))}</h1>
@@ -769,7 +782,7 @@
         ${subs.length ? `
           <div class="sub-grid">
             ${subs.map((s, i) => `
-              <a class="sub-card reveal" href="#/category/${cat.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
+              <a class="sub-card reveal" href="/category/${cat.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
                 <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
                 <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                   <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(s.name))}</span>
@@ -798,9 +811,9 @@
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb">
-          <a href="#/">${t("breadcrumb.home")}</a>
+          <a href="/">${t("breadcrumb.home")}</a>
           <span class="bc-sep">/</span>
-          <a href="#/category/${cat.id}">${escapeHtml(localized(cat.name))}</a>
+          <a href="/category/${cat.id}">${escapeHtml(localized(cat.name))}</a>
           <span class="bc-sep">/</span><span>${escapeHtml(localized(sub.name))}</span>
         </nav>
         <h1>${escapeHtml(localized(sub.name))}</h1>
@@ -810,7 +823,7 @@
         ${secs && secs.length ? `
           <div class="sub-grid">
             ${secs.map((s, i) => `
-              <a class="sub-card reveal" href="#/category/${cat.id}/${sub.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
+              <a class="sub-card reveal" href="/category/${cat.id}/${sub.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
                 <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
                 <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                   <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(s.name))}</span>
@@ -826,11 +839,11 @@
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb">
-          <a href="#/">${t("breadcrumb.home")}</a>
+          <a href="/">${t("breadcrumb.home")}</a>
           <span class="bc-sep">/</span>
-          <a href="#/category/${cat.id}">${escapeHtml(localized(cat.name))}</a>
+          <a href="/category/${cat.id}">${escapeHtml(localized(cat.name))}</a>
           <span class="bc-sep">/</span>
-          <a href="#/category/${cat.id}/${sub.id}">${escapeHtml(localized(sub.name))}</a>
+          <a href="/category/${cat.id}/${sub.id}">${escapeHtml(localized(sub.name))}</a>
           <span class="bc-sep">/</span><span>${escapeHtml(localized(sec.name))}</span>
         </nav>
         <h1>${escapeHtml(localized(sec.name))}</h1>
@@ -852,7 +865,7 @@
           const qCount = (rec && rec.nQuestions > 0) ? rec.nQuestions : ((tp.questions || []).length);
           const countDisplay = qCount > 0 ? `${qCount} ${t("topic.questions")}` : t("btn.practice");
           return `
-            <a class="sub-card reveal" href="#/topic/${path}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
+            <a class="sub-card reveal" href="/topic/${path}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
               <span class="sub-ico">${topicIconHTML(tp.id, cat.id)}</span>
               <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                 <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(tp.name))}</span>
@@ -871,10 +884,10 @@
 
   /* ================= Topic page ================= */
   function breadcrumbForTopic(rec) {
-    const bits = [`<a href="#/">${t("breadcrumb.home")}</a>`];
-    bits.push(`<a href="#/category/${rec.cat.id}">${escapeHtml(localized(rec.cat.name))}</a>`);
-    if (rec.sub) bits.push(`<a href="#/category/${rec.cat.id}/${rec.sub.id}">${escapeHtml(localized(rec.sub.name))}</a>`);
-    if (rec.section) bits.push(`<a href="#/category/${rec.cat.id}/${rec.sub ? rec.sub.id + "/" : ""}${rec.section.id}">${escapeHtml(localized(rec.section.name))}</a>`);
+    const bits = [`<a href="/">${t("breadcrumb.home")}</a>`];
+    bits.push(`<a href="/category/${rec.cat.id}">${escapeHtml(localized(rec.cat.name))}</a>`);
+    if (rec.sub) bits.push(`<a href="/category/${rec.cat.id}/${rec.sub.id}">${escapeHtml(localized(rec.sub.name))}</a>`);
+    if (rec.section) bits.push(`<a href="/category/${rec.cat.id}/${rec.sub ? rec.sub.id + "/" : ""}${rec.section.id}">${escapeHtml(localized(rec.section.name))}</a>`);
     return bits.map((b, i) => (i ? `<span class="bc-sep">/</span>` : "") + b).join("");
   }
 
@@ -1203,7 +1216,7 @@
   }
 
   function currentTopicRec() {
-    const segs = parseHash();
+    const segs = parsePath();
     if (segs[0] !== "topic") return null;
     return state.topicMap[segs.slice(1).join("/")];
   }
@@ -1213,14 +1226,14 @@
     const trending = trendingTopics(state.topicIndex);
     main.innerHTML = `
       <div class="page-head">
-        <nav class="breadcrumb"><a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("page.trending.title")}</span></nav>
+        <nav class="breadcrumb"><a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("page.trending.title")}</span></nav>
         <h1>${t("page.trending.title")}</h1>
         <p class="page-desc">${t("page.trending.sub")}</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
         <div class="simple-list">
           ${trending.map((r, i) => `
-            <a class="topic-card reveal" href="#/topic/${r.path}" style="--cat:${catColor(r.cat.id)}" data-delay="${(i % 10) * 40}">
+            <a class="topic-card reveal" href="/topic/${r.path}" style="--cat:${catColor(r.cat.id)}" data-delay="${(i % 10) * 40}">
               <span class="topic-ico">${topicIconHTML(r.topic.id, r.cat.id)}</span>
               <span class="rank">${i + 1}</span>
               <span style="display:flex; flex-direction:column; gap:2px;">
@@ -1331,7 +1344,7 @@
 
     main.innerHTML = `
       <div class="page-head">
-        <nav class="breadcrumb"><a href="#/">${isAs ? "গৃহপৃষ্ঠা" : "Home"}</a><span class="bc-sep">/</span><span>${escapeHtml(title)}</span></nav>
+        <nav class="breadcrumb"><a href="/">${isAs ? "গৃহপৃষ্ঠা" : "Home"}</a><span class="bc-sep">/</span><span>${escapeHtml(title)}</span></nav>
         <h1>${escapeHtml(title)}</h1>
       </div>
       <section class="section" style="padding-bottom:40px;">
@@ -1368,7 +1381,8 @@
         </div>
 
         <a href="mailto:axomexam@outlook.com" style="width:100%; max-width:260px; padding:12px 18px; font-size:0.92rem; font-weight:700; border-radius:12px; border:none; background:#2563eb; color:#ffffff; text-decoration:none; display:inline-flex; align-items:center; justify-content:center; gap:8px; box-shadow:0 5px 14px -3px rgba(37,99,235,0.4); transition:all 0.2s ease;">
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+          </svg>
           ${isAs ? "ইমেইল প্ৰেৰণ কৰক" : "Send an Email"}
         </a>
       </div>
@@ -1452,14 +1466,14 @@
           box.innerHTML = `
             <div class="sr-head">${t("search.results")} (${hits.length})</div>
             ${hits.map((h, i) => `
-              <a class="sr-item" href="#/topic/${h.rec.path}" data-idx="${i}">
+              <a class="sr-item" href="/topic/${h.rec.path}" data-idx="${i}">
                 <span class="chip">${escapeHtml(localized(h.rec.cat.name))}</span>
                 <span style="display:flex; flex-direction:column; gap:2px;">
                   <span class="sr-title">${escapeHtml(localized(h.rec.title))}</span>
                   <span class="sr-sub">${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.nQuestions || 0} ${t("topic.questions")}</span>
                 </span>
               </a>`).join("")}`;
-          box.innerHTML += `<a class="sr-item" href="#/trending" style="justify-content:center;color:var(--primary);font-weight:600;">${t("see.all")}</a>`;
+          box.innerHTML += `<a class="sr-item" href="/trending" style="justify-content:center;color:var(--primary);font-weight:600;">${t("see.all")}</a>`;
         }
         box.hidden = false;
       }, 180);
@@ -1482,7 +1496,7 @@
   function renderSearchPage(main) {
     main.innerHTML = `
       <div class="page-head">
-        <nav class="breadcrumb"><a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("tab.search")}</span></nav>
+        <nav class="breadcrumb"><a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("tab.search")}</span></nav>
         <h1>${t("tab.search")}</h1>
       </div>
       <div class="search-page">
@@ -1512,7 +1526,7 @@
           return;
         }
         results.innerHTML = hits.map((h) => `
-          <a class="sp-topic" href="#/topic/${h.rec.path}">
+          <a class="sp-topic" href="/topic/${h.rec.path}">
             <span class="chip">${escapeHtml(localized(h.rec.cat.name))}</span>
             <span style="display:flex; flex-direction:column; gap:2px;">
               <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(h.rec.title))}</span>
@@ -1580,7 +1594,7 @@
       <div class="page-head" style="padding:80px 0;text-align:center;">
         <h1 style="font-size:3rem;">404</h1>
         <p class="page-desc" style="margin:12px auto;">${t("page.error.sub")}</p>
-        <div style="margin-top:22px;"><a class="btn btn-primary" href="#/">${t("page.error.btn")}</a></div>
+        <div style="margin-top:22px;"><a class="btn btn-primary" href="/">${t("page.error.btn")}</a></div>
       </div>`;
   }
 
@@ -1597,7 +1611,7 @@
   function renderCategoriesPage(main) {
     main.innerHTML = `
       <div class="page-head">
-        <nav class="breadcrumb"><a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("tab.categories")}</span></nav>
+        <nav class="breadcrumb"><a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("tab.categories")}</span></nav>
         <h1>${t("tab.categories")}</h1>
         <p class="page-desc">${t("home.categories.sub")}</p>
       </div>
@@ -1606,7 +1620,7 @@
           ${state.categories.map((c, i) => {
             const color = catColor(c.id);
             return `
-              <a class="cat-card reveal" href="#/category/${c.id}" style="--cat:${color}" data-delay="${i * 50}">
+              <a class="cat-card reveal" href="/category/${c.id}" style="--cat:${color}" data-delay="${i * 50}">
                 <span class="cat-ico">${catIconHTML(c.id)}</span>
                 <span class="cat-meta">
                   <b>${escapeHtml(localized(c.name))}</b>
@@ -1720,7 +1734,7 @@
     });
   }
 
-  /* ================= Natural Flow-Based A4 PDF Exporter ================= */
+  /* ================= Natural Flow-Based A4 PDF Exporter (Logo + Brand Fixed) ================= */
   async function generateTopicPdf(rec, lang) {
     if (state.isGeneratingPdf) return;
     state.isGeneratingPdf = true;
@@ -1934,7 +1948,7 @@
 
     main.innerHTML = `
       <div class="page-head">
-        <nav class="breadcrumb"><a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("page.downloads.title")}</span></nav>
+        <nav class="breadcrumb"><a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("page.downloads.title")}</span></nav>
         <h1>${t("page.downloads.title")}</h1>
         <p class="page-desc">${t("page.downloads.sub")}</p>
       </div>
@@ -2029,7 +2043,7 @@
     const exams = (typeof CONFIG !== "undefined" && CONFIG.PYEAR_EXAMS) || [];
     main.innerHTML = `
       <div class="page-head">
-        <nav class="breadcrumb"><a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("page.previous-year.title")}</span></nav>
+        <nav class="breadcrumb"><a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("page.previous-year.title")}</span></nav>
         <h1>${t("page.previous-year.title")}</h1>
         <p class="page-desc">${t("page.previous-year.sub")}</p>
       </div>
@@ -2038,7 +2052,7 @@
           <div class="section-head"><div><h2>${t("pyear.choose")}</h2><p class="sec-sub">${t("pyear.choose.sub")}</p></div></div>
           <div class="sub-grid">
             ${exams.map((ex, i) => `
-              <a class="sub-card reveal" href="#/previous-year/${ex.id}" style="--cat:${ex.color}" data-delay="${i * 40}">
+              <a class="sub-card reveal" href="/previous-year/${ex.id}" style="--cat:${ex.color}" data-delay="${i * 40}">
                 <span class="sub-ico">${escapeHtml(ex.icon || ex.id.slice(0, 2).toUpperCase())}</span>
                 <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                   <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(ex.name))}</span>
@@ -2054,8 +2068,8 @@
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb">
-          <a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
-          <a href="#/previous-year">${t("page.previous-year.title")}</a><span class="bc-sep">/</span>
+          <a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/previous-year">${t("page.previous-year.title")}</a><span class="bc-sep">/</span>
           <span>${escapeHtml(localized(exam.name))}</span>
         </nav>
         <h1>${escapeHtml(localized(exam.name))}</h1>
@@ -2065,7 +2079,7 @@
         ${years.length ? `
           <div class="sub-grid">
             ${years.map((yr, i) => `
-              <a class="sub-card reveal" href="#/previous-year/${exam.id}/${yr}" style="--cat:${exam.color}" data-delay="${i * 50}">
+              <a class="sub-card reveal" href="/previous-year/${exam.id}/${yr}" style="--cat:${exam.color}" data-delay="${i * 50}">
                 <span class="sub-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4"/><path d="M16 3v4"/><path d="M3 10h18"/></svg></span>
                 <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                   <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(yr)}</span>
@@ -2088,9 +2102,9 @@
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb">
-          <a href="#/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
-          <a href="#/previous-year">${t("page.previous-year.title")}</a><span class="bc-sep">/</span>
-          <a href="#/previous-year/${exam.id}">${escapeHtml(localized(exam.name))}</a><span class="bc-sep">/</span>
+          <a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/previous-year">${t("page.previous-year.title")}</a><span class="bc-sep">/</span>
+          <a href="/previous-year/${exam.id}">${escapeHtml(localized(exam.name))}</a><span class="bc-sep">/</span>
           <span>${escapeHtml(year)}</span>
         </nav>
         <h1>${escapeHtml(localized(exam.name))} — ${escapeHtml(year)}</h1>
@@ -2479,7 +2493,7 @@
                   </span>
                 </div>
                 <div class="mock-go">
-                  <a class="mock-start" href="#/mock-test/${c.id}">
+                  <a class="mock-start" href="/mock-test/${c.id}">
                     <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
                     Select Sub-Category
                   </a>
@@ -2496,8 +2510,8 @@
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb">
-          <a href="#/">Home</a><span class="bc-sep">/</span>
-          <a href="#/mock-test">Mock Test</a><span class="bc-sep">/</span>
+          <a href="/">Home</a><span class="bc-sep">/</span>
+          <a href="/mock-test">Mock Test</a><span class="bc-sep">/</span>
           <span>${escapeHtml(localized(cat.name))}</span>
         </nav>
         <h1>${escapeHtml(localized(cat.name))} — Select Sub-Category</h1>
@@ -2506,7 +2520,7 @@
       <section class="section" style="padding-bottom:40px;">
         <div class="sub-grid">
           ${subs.map((s, i) => `
-            <a class="sub-card reveal" href="#/mock-test/${cat.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
+            <a class="sub-card reveal" href="/mock-test/${cat.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
               <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
               <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                 <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(s.name))}</span>
@@ -2523,9 +2537,9 @@
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb">
-          <a href="#/">Home</a><span class="bc-sep">/</span>
-          <a href="#/mock-test">Mock Test</a><span class="bc-sep">/</span>
-          <a href="#/mock-test/${cat.id}">${escapeHtml(localized(cat.name))}</a><span class="bc-sep">/</span>
+          <a href="/">Home</a><span class="bc-sep">/</span>
+          <a href="/mock-test">Mock Test</a><span class="bc-sep">/</span>
+          <a href="/mock-test/${cat.id}">${escapeHtml(localized(cat.name))}</a><span class="bc-sep">/</span>
           <span>${escapeHtml(localized(sub.name))}</span>
         </nav>
         <h1>${escapeHtml(localized(sub.name))}</h1>
@@ -2534,7 +2548,7 @@
       <section class="section" style="padding-bottom:40px;">
         <div class="sub-grid">
           ${secs.map((sec, i) => `
-            <a class="sub-card reveal" href="#/mock-test/${cat.id}/${sub.id}/${sec.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
+            <a class="sub-card reveal" href="/mock-test/${cat.id}/${sub.id}/${sec.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
               <span class="sub-ico">${topicIconHTML(sec.id, cat.id)}</span>
               <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                 <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(sec.name))}</span>
@@ -2551,10 +2565,10 @@
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb">
-          <a href="#/">Home</a><span class="bc-sep">/</span>
-          <a href="#/mock-test">Mock Test</a><span class="bc-sep">/</span>
-          <a href="#/mock-test/${cat.id}">${escapeHtml(localized(cat.name))}</a><span class="bc-sep">/</span>
-          <a href="#/mock-test/${cat.id}/${sub.id}">${escapeHtml(localized(sub.name))}</a><span class="bc-sep">/</span>
+          <a href="/">Home</a><span class="bc-sep">/</span>
+          <a href="/mock-test">Mock Test</a><span class="bc-sep">/</span>
+          <a href="/mock-test/${cat.id}">${escapeHtml(localized(cat.name))}</a><span class="bc-sep">/</span>
+          <a href="/mock-test/${cat.id}/${sub.id}">${escapeHtml(localized(sub.name))}</a><span class="bc-sep">/</span>
           <span>${escapeHtml(localized(sec.name))}</span>
         </nav>
         <h1>${escapeHtml(localized(sec.name))}</h1>
@@ -2563,7 +2577,7 @@
       <section class="section" style="padding-bottom:40px;">
         <div class="sub-grid">
           ${topics.map((tp, i) => `
-            <a class="sub-card reveal" href="#/mock-test/${cat.id}/start" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
+            <a class="sub-card reveal" href="/mock-test/${cat.id}/start" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
               <span class="sub-ico">${topicIconHTML(tp.id, cat.id)}</span>
               <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                 <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(tp.name))}</span>
@@ -2584,7 +2598,7 @@
         <div class="qa-empty" style="padding:60px 20px;">
           <div class="big"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg></div>
           <p>${t("mock.noQuestions")}</p>
-          <div style="margin-top:18px;"><a class="btn btn-outline" href="#/mock-test">← Choose Another Category</a></div>
+          <div style="margin-top:18px;"><a class="btn btn-outline" href="/mock-test">← Choose Another Category</a></div>
         </div>`;
       return;
     }
@@ -2595,7 +2609,7 @@
 
     main.innerHTML = `
       <div class="page-head">
-        <nav class="breadcrumb"><a href="#/">Home</a><span class="bc-sep">/</span><a href="#/mock-test">Mock Test</a><span class="bc-sep">/</span><span>${escapeHtml(localized(cat.name))}</span></nav>
+        <nav class="breadcrumb"><a href="/">Home</a><span class="bc-sep">/</span><a href="/mock-test">Mock Test</a><span class="bc-sep">/</span><span>${escapeHtml(localized(cat.name))}</span></nav>
         <h1>${t("mock.setup.title")}</h1>
         <p class="page-desc">${escapeHtml(localized(cat.name))} • ${pool.length} ${t("mock.questions")}</p>
       </div>
@@ -2737,7 +2751,7 @@
         message: "Are you sure you want to quit the mock test? Your current progress will be lost.",
         confirmText: "Yes, Quit",
         cancelText: "Resume Test",
-        onConfirm: () => { stopMockTimer(); state.mock = null; location.hash = "#/mock-test"; }
+        onConfirm: () => { stopMockTimer(); state.mock = null; navigateTo("/mock-test"); }
       });
     });
 
@@ -2802,7 +2816,7 @@
           </div>
           <div class="result-actions">
             <button class="btn btn-primary" id="mock-retry">${t("mock.result.retry")}</button>
-            <a class="btn btn-outline" href="#/mock-test">${t("mock.result.changeCat")}</a>
+            <a class="btn btn-outline" href="/mock-test">${t("mock.result.changeCat")}</a>
             <button class="btn btn-outline" id="mock-review-toggle">${t("mock.result.review")}</button>
           </div>
         </div>
@@ -2881,6 +2895,19 @@
     });
   }
 
+  /* ================= Global Link Handler (No Hash Interception) ================= */
+  function bindLinkInterception() {
+    document.addEventListener("click", (e) => {
+      const a = e.target.closest("a");
+      if (!a) return;
+      const href = a.getAttribute("href");
+      if (href && href.startsWith("/") && !href.startsWith("//") && !a.hasAttribute("download") && a.target !== "_blank") {
+        e.preventDefault();
+        navigateTo(href);
+      }
+    });
+  }
+
   /* ================= Boot ================= */
   async function boot() {
     const pre = $("#preloader");
@@ -2916,8 +2943,14 @@
       buildMobileNav();
       bindSearch();
       initGlobalLangToggle();
-      
-      window.addEventListener("hashchange", () => { buildDesktopNav(); buildMobileNav(); renderRoute(); });
+      bindLinkInterception();
+
+      window.addEventListener("popstate", () => {
+        buildDesktopNav();
+        buildMobileNav();
+        renderRoute();
+      });
+
       renderRoute();
 
       state.topicIndex.forEach(async (rec) => {
