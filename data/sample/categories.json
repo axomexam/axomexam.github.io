@@ -363,10 +363,7 @@
         {
           "id": "art-culture",
           "name": { "en": "Art & Culture", "as": "কলা আৰু সংস্কৃতি" },
-          "description": { "en": "Indian and Assamese art, heritage and culture.", "as": "ভাৰতীয় আৰু অসমীয়া কলা, ঐতিহ্য আৰু সংস্কৃতি।" },
-          "color": "#d97706",
-          "icon": "A",
-          "subcategories": [
+          "sections": [
             {
               "id": "india-art-culture-sec",
               "name": { "en": "India Art and Culture", "as": "ভাৰতীয় কলা আৰু সংস্কৃতি" },
@@ -557,41 +554,17 @@
     },
     {
       "id": "articles",
-      "name": { "en": "Articles", "as": "আৰ্টিকলসমূহ" },
-      "description": { "en": "Detailed subject-wise long-form articles, theory guides, and exam strategies.", "as": "বিষয়ভিত্তিক দীঘলীয়া আৰ্টিকল, তত্ত্বগত গাইড আৰু পৰীক্ষাৰ কৌশলসমূহ।" },
+      "name": { "en": "Articles", "as": "প্ৰবন্ধসমূহ" },
+      "description": { "en": "All article categories of the site.", "as": "ছাইটৰ সকলো প্ৰবন্ধ শাখা।" },
       "color": "#e11d48",
-      "icon": "✍",
-      "topics": [
-        {
-          "id": "general-knowledge-guide",
-          "name": { "en": "General Knowledge Master Guide", "as": "সাধাৰণ জ্ঞান নিৰ্দেশিকা" },
-          "popularity": 10
-        },
-        {
-          "id": "mathematics-guide",
-          "name": { "en": "Mathematics Master Guide", "as": "গণিতৰ সম্পূৰ্ণ নিৰ্দেশিকা" },
-          "popularity": 10
-        },
-        {
-          "id": "general-science-guide",
-          "name": { "en": "General Science Handbook", "as": "সাধাৰণ বিজ্ঞানৰ হাতপুথি" },
-          "popularity": 10
-        },
-        {
-          "id": "reasoning-ability-guide",
-          "name": { "en": "Reasoning Ability Guide", "as": "যুক্তি আৰু মানসিক ক্ষমতা নিৰ্দেশিকা" },
-          "popularity": 9
-        },
-        {
-          "id": "general-english-guide",
-          "name": { "en": "General English Guide", "as": "সাধাৰণ ইংৰাজী ব্যাকৰণ নিৰ্দেশিকা" },
-          "popularity": 9
-        },
-        {
-          "id": "computer-awareness-guide",
-          "name": { "en": "Computer Awareness Guide", "as": "কম্পিউটাৰ জ্ঞান নিৰ্দেশিকা" },
-          "popularity": 9
-        }
+      "icon": "A",
+      "subcategories": [
+        { "id": "gk", "name": { "en": "General Knowledge", "as": "সাধাৰণ জ্ঞান" } },
+        { "id": "math", "name": { "en": "Mathematics", "as": "গণিত" } },
+        { "id": "science", "name": { "en": "General Science", "as": "সাধাৰণ বিজ্ঞান" } },
+        { "id": "reasoning", "name": { "en": "Reasoning Ability", "as": "যুক্তি আৰু মানসিক ক্ষমতা" } },
+        { "id": "english", "name": { "en": "General English", "as": "সাধাৰণ ইংৰাজী" } },
+        { "id": "computer", "name": { "en": "Computer Awareness", "as": "কম্পিউটাৰ জ্ঞান" } }
       ]
     }
   ]
