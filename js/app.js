@@ -724,7 +724,7 @@
                 <span class="cat-ico">${catIconHTML(c.id)}</span>
                 <span class="cat-meta">
                   <b>${escapeHtml(localized(c.name))}</b>
-                  <span><span class="cat-count">${countTopics(c)}</span> ${c.id === "study-guides" ? (state.uiLang === "as" ? "টা গাইড" : "Guides") : t("cat.topics")}</span>
+                  <span>${c.id === "articles" ? (state.uiLang === "as" ? "প্ৰবন্ধসমূহ" : "Articles") : `<span class="cat-count">${countTopics(c)}</span> ${c.id === "study-guides" ? (state.uiLang === "as" ? "টা গাইড" : "Guides") : t("cat.topics")}`}</span>
                 </span>
               </a>`;
           }).join("")}
@@ -797,6 +797,7 @@
   function renderCategoryPage(main, cat) {
     const subs = cat.subcategories || cat.sections || [];
     const directTopics = cat.topics || [];
+    const isArticlesCat = cat.id === "articles";
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb">
@@ -814,7 +815,7 @@
                 <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
                 <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                   <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(s.name))}</span>
-                  <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} ${s.sections ? t("cat.subsections") : t("cat.topics")}</span>
+                  <span style="font-size:0.75rem; font-weight:${isArticlesCat ? "700" : "400"}; color:${isArticlesCat ? catColor(cat.id) : "var(--ink-soft,#64748b)"};">${isArticlesCat ? (state.uiLang === "as" ? "প্ৰবন্ধ পঢ়ক →" : "Read Articles →") : `${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} ${s.sections ? t("cat.subsections") : t("cat.topics")}`}</span>
                 </span>
               </a>`).join("")}
           </div>`
@@ -827,6 +828,12 @@
     const cat = state.categories.find((c) => c.id === segs[1]);
     const sub = (cat.subcategories || cat.sections || []).find((s) => s.id === segs[2]);
     if (!sub) return render404(main);
+
+    /* Articles category — read-only rich articles, never in Downloads */
+    if (cat.id === "articles") {
+      if (segs[3] === "read") return renderArticleReader(main, cat, sub);
+      return renderArticleSubCategoryPage(main, cat, sub);
+    }
 
     if (segs[3]) {
       const sec = (sub.sections || []).find((s) => s.id === segs[3]);
@@ -914,6 +921,93 @@
     </div><p>${t("search.noresult")}</p></div>`;
   }
 
+  /* ================= Articles (read-only) =================
+     The "articles" category works differently from Q&A topics:
+     each subcategory holds a JSON file of rich articles that are
+     rendered in a full reading view. They are NOT part of the
+     topic index, so they never appear in Downloads / Trending /
+     Search — reading only, exactly as required. */
+  function renderArticleSubCategoryPage(main, cat, sub) {
+    const isAs = state.uiLang === "as";
+    main.innerHTML = `
+      <div class="page-head art-sub-page-head">
+        <nav class="breadcrumb art-breadcrumb">
+          <a href="/">${t("breadcrumb.home")}</a>
+          <span class="bc-sep">/</span>
+          <a href="/category/${cat.id}">${escapeHtml(localized(cat.name))}</a>
+          <span class="bc-sep">/</span><span>${escapeHtml(localized(sub.name))}</span>
+        </nav>
+        <h1>${escapeHtml(localized(sub.name))}</h1>
+        <p class="page-desc">${escapeHtml(localized(sub.description)) || escapeHtml(localized(cat.description)) || ""}</p>
+
+        <div class="art-read-cta">
+          <a class="art-read-btn" href="/category/${cat.id}/${sub.id}/read">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg>
+            ${isAs ? "প্ৰবন্ধ পঢ়ক" : "Read Articles"}
+          </a>
+        </div>
+        <p class="art-read-note">${isAs ? "পঢ়া-মাত্ৰ শাখা — এই প্ৰবন্ধসমূহ ডাউনলোডৰ বাবে উপলব্ধ নহয়" : "Reading-only section — these articles are not available for download"}</p>
+      </div>
+
+      <style>
+        .art-sub-page-head { text-align: center; max-width: 760px; margin: 0 auto 8px auto; padding: 30px 16px 4px 16px; box-sizing: border-box; }
+        .art-sub-page-head .breadcrumb { justify-content: center; }
+        .art-sub-page-head .page-desc { margin-left: auto; margin-right: auto; text-align: center; }
+        .art-read-cta { margin: 22px auto 6px auto; display: flex; justify-content: center; }
+        .art-read-btn {
+          display: inline-flex; align-items: center; justify-content: center; gap: 9px;
+          padding: 14px 34px; border-radius: 99px; font-weight: 800; font-size: 1rem;
+          color: #ffffff; background: linear-gradient(135deg, #e11d48, #f43f5e);
+          box-shadow: 0 10px 24px -8px rgba(225,29,72,.55);
+          border: none; cursor: pointer; transition: transform .2s ease, box-shadow .2s ease; text-decoration: none;
+        }
+        .art-read-btn:hover { transform: translateY(-2px); box-shadow: 0 16px 30px -10px rgba(225,29,72,.6); }
+        .art-read-note { margin-top: 12px; font-size: .8rem; color: var(--ink-faint, #94a3b8); text-align: center; }
+
+        @media (max-width: 520px) {
+          .art-sub-page-head h1 { font-size: 1.4rem !important; }
+          .art-read-btn { width: 100%; padding: 13px 20px; font-size: .95rem; }
+        }
+      </style>
+    `;
+    observeReveals();
+  }
+
+  async function renderArticleReader(main, cat, sub) {
+    main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
+    let data = null;
+    try {
+      data = await API.getArticles(sub.id);
+    } catch (e) {
+      data = null;
+    }
+
+    if (!data || !((data.articles || data.questions || []).length)) {
+      const isAs = state.uiLang === "as";
+      main.innerHTML = `
+        <div class="page-head" style="text-align:center; max-width:720px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
+          <h1>${escapeHtml(localized(sub.name))}</h1>
+          <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${isAs ? "এতিয়ালৈকে ইয়াত কোনো প্ৰবন্ধ যোগ কৰা হোৱা নাই।" : "No articles have been added here yet."}</p>
+          <div style="margin-top:20px;"><a class="btn btn-accent" href="/category/${cat.id}/${sub.id}">${isAs ? "পিছলৈ যাওক" : "Go Back"}</a></div>
+        </div>`;
+      return;
+    }
+
+    const rec = {
+      path: `articles/${sub.id}`,
+      cat: cat,
+      sub: sub,
+      section: null,
+      topic: {
+        id: sub.id,
+        title: (data && data.title) || sub.name,
+        description: (data && data.description) || sub.description || {},
+        questions: (data && (data.articles || data.questions)) || [],
+      },
+    };
+    renderDedicatedArticlePage(main, rec);
+  }
+
   /* ================= Topic & Article Page Handler ================= */
   function breadcrumbForTopic(rec) {
     const bits = [`<a href="/">${t("breadcrumb.home")}</a>`];
@@ -987,6 +1081,10 @@
   function renderDedicatedArticlePage(main, rec) {
     const rawItems = rec.topic.questions || rec.topic.sections || [];
     const isAs = state.lang === "as";
+    const isArticles = rec.cat && rec.cat.id === "articles";
+    const artBadge = isArticles
+      ? (isAs ? "প্ৰবন্ধ পঢ়া • পঢ়া-মাত্ৰ" : "Read Articles • Reading Only")
+      : (isAs ? "সম্পূৰ্ণ অধ্যয়ন নিৰ্দেশিকা (Theory Guide)" : "Complete In-Depth Study Guide");
 
     main.innerHTML = `
       <div class="page-head" style="text-align:left; max-width:860px; margin:0 auto 20px auto; padding:0 16px; box-sizing:border-box;">
@@ -997,7 +1095,7 @@
         <div class="art-top-bar">
           <span style="font-size:0.82rem; font-weight:800; color:var(--primary,#2563eb); text-transform:uppercase; letter-spacing:0.5px; display:inline-flex; align-items:center; gap:6px;">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg>
-            ${isAs ? "সম্পূৰ্ণ অধ্যয়ন নিৰ্দেশিকা (Theory Guide)" : "Complete In-Depth Study Guide"}
+            ${artBadge}
           </span>
           <div class="art-lang-switch-box" role="group" aria-label="Article Language">
             <button class="art-glang-btn ${state.lang === "as" ? "active" : ""}" type="button" data-lang="as">
