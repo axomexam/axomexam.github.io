@@ -363,10 +363,7 @@
         {
           "id": "art-culture",
           "name": { "en": "Art & Culture", "as": "কলা আৰু সংস্কৃতি" },
-          "description": { "en": "Indian and Assamese art, heritage and culture.", "as": "ভাৰতীয় আৰু অসমীয়া কলা, ঐতিহ্য আৰু সংস্কৃতি।" },
-          "color": "#d97706",
-          "icon": "A",
-          "subcategories": [
+          "sections": [
             {
               "id": "india-art-culture-sec",
               "name": { "en": "India Art and Culture", "as": "ভাৰতীয় কলা আৰু সংস্কৃতি" },
@@ -556,11 +553,11 @@
       ]
     },
     {
-      "id": "articles",
-      "name": { "en": "Articles", "as": "আৰ্টিকলসমূহ" },
-      "description": { "en": "Detailed subject-wise long-form articles, theory guides, and exam strategies.", "as": "বিষয়ভিত্তিক দীঘলীয়া আৰ্টিকল, তত্ত্বগত গাইড আৰু পৰীক্ষাৰ কৌশলসমূহ।" },
+      "id": "study-guides",
+      "name": { "en": "Study Guides", "as": "অধ্যয়ন নিৰ্দেশিকা" },
+      "description": { "en": "Comprehensive theory guides, detailed notes and strategy articles for competitive exams.", "as": "প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে বিশদ আলোচনা, সম্পূৰ্ণ নোটছ আৰু নিৰ্দেশনা প্ৰবন্ধ।" },
       "color": "#e11d48",
-      "icon": "✍",
+      "icon": "📖",
       "topics": [
         {
           "id": "general-knowledge-guide",
