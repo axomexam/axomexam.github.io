@@ -29,33 +29,33 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 
-  /* Direct Vector Brand Logo (Dark Mode Compatible) */
+  /* Direct Vector Brand Logo */
   const BRAND_LOGO_SVG = `
-    <svg width="150" height="32" viewBox="0 0 150 32" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
+    <svg width="152" height="30" viewBox="0 0 152 30" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
       <defs>
         <linearGradient id="gradLogo" x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" stop-color="#6366f1" />
           <stop offset="100%" stop-color="#3b82f6" />
         </linearGradient>
       </defs>
-      <rect width="32" height="32" rx="8" fill="url(#gradLogo)"/>
-      <text x="16" y="22" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="17" text-anchor="middle">A</text>
-      <text x="42" y="22" fill="currentColor" style="color:var(--ink, #0f172a);" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="16" letter-spacing="-0.3">axomexam<tspan fill="#3b82f6">.in</tspan></text>
+      <rect width="30" height="30" rx="8" fill="url(#gradLogo)"/>
+      <text x="15" y="21" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="16" text-anchor="middle">A</text>
+      <text x="38" y="21" fill="currentColor" style="color:var(--ink, #0f172a);" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="16" letter-spacing="-0.4">axomexam<tspan fill="#3b82f6">.in</tspan></text>
     </svg>
   `;
 
-  /* PDF Logo Variant */
+  /* PDF Optimized Vector Logo (Left Aligned & Protected Margin) */
   const PDF_BRAND_LOGO_SVG = `
-    <svg width="150" height="32" viewBox="0 0 150 32" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
+    <svg width="146" height="28" viewBox="0 0 146 28" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
       <defs>
         <linearGradient id="gradLogoPdf" x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" stop-color="#6366f1" />
           <stop offset="100%" stop-color="#3b82f6" />
         </linearGradient>
       </defs>
-      <rect width="32" height="32" rx="8" fill="url(#gradLogoPdf)"/>
-      <text x="16" y="22" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="17" text-anchor="middle">A</text>
-      <text x="42" y="22" fill="#0f172a" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="16" letter-spacing="-0.3">axomexam<tspan fill="#3b82f6">.in</tspan></text>
+      <rect width="28" height="28" rx="7" fill="url(#gradLogoPdf)"/>
+      <text x="14" y="19.5" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="15" text-anchor="middle">A</text>
+      <text x="36" y="19.5" fill="#0f172a" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="15" letter-spacing="-0.3">axomexam<tspan fill="#2563eb">.in</tspan></text>
     </svg>
   `;
 
@@ -225,16 +225,16 @@
         <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; gap:24px; padding-bottom:24px; border-bottom:1px solid rgba(255,255,255,0.15);">
           <div style="flex:1; min-width:240px; text-align:left;">
             <div style="margin-bottom:10px; color:#ffffff;">
-              <svg width="150" height="32" viewBox="0 0 150 32" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
+              <svg width="152" height="30" viewBox="0 0 152 30" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
                 <defs>
                   <linearGradient id="gradLogoFooter" x1="0%" y1="0%" x2="100%" y2="100%">
                     <stop offset="0%" stop-color="#6366f1" />
                     <stop offset="100%" stop-color="#3b82f6" />
                   </linearGradient>
                 </defs>
-                <rect width="32" height="32" rx="8" fill="url(#gradLogoFooter)"/>
-                <text x="16" y="22" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="17" text-anchor="middle">A</text>
-                <text x="42" y="22" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="16" letter-spacing="-0.3">axomexam<tspan fill="#38bdf8">.in</tspan></text>
+                <rect width="30" height="30" rx="8" fill="url(#gradLogoFooter)"/>
+                <text x="15" y="21" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="16" text-anchor="middle">A</text>
+                <text x="38" y="21" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="16" letter-spacing="-0.4">axomexam<tspan fill="#38bdf8">.in</tspan></text>
               </svg>
             </div>
             <p style="font-size:0.86rem; color:#f8fafc; line-height:1.55; margin:0; max-width:320px; font-weight:400;">
@@ -685,8 +685,9 @@
     main.innerHTML = `
       <section class="hero reveal visible">
         <div class="hero-content">
-          <a class="hero-brand" href="/" style="text-decoration:none; display:inline-flex; align-items:center; margin-bottom:12px;">
-            ${BRAND_LOGO_SVG}
+          <a class="hero-brand" href="/" style="text-decoration:none; display:inline-flex; align-items:center; gap:8px; margin-bottom:12px;">
+            <span class="brand-mark" style="width:34px; height:34px; border-radius:9px; background:linear-gradient(135deg,#6366f1,#3b82f6); color:#fff; display:inline-flex; align-items:center; justify-content:center; font-weight:900; font-size:1.15rem;">A</span>
+            <span class="brand-text" style="font-size:1.55rem; font-weight:900; color:var(--ink,#0f172a); letter-spacing:-0.4px;">axomexam<span style="color:#2563eb;">.in</span></span>
           </a>
           <a class="hero-badge" href="/mock-test">
             <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
@@ -1760,7 +1761,7 @@
     });
   }
 
-  /* ================= Natural Flow-Based A4 PDF Exporter (Logo + Brand Fixed) ================= */
+  /* ================= Natural Flow-Based A4 PDF Exporter (Logo Position Adjusted) ================= */
   async function generateTopicPdf(rec, lang) {
     if (state.isGeneratingPdf) return;
     state.isGeneratingPdf = true;
@@ -1896,7 +1897,7 @@
                 <div style="font-size:15px; font-weight:800; color:#0f172a; line-height:1.2; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(titleText)}</div>
                 <div style="font-size:10.5px; color:#64748b; margin-top:2px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(catText)} • ${lang === "as" ? "মুঠ প্ৰশ্ন" : "Total Questions"}: ${qs.length} | ${langLabel}</div>
               </td>
-              <td style="vertical-align:bottom; text-align:right; width:150px; white-space:nowrap; padding-right:6px;">
+              <td style="vertical-align:bottom; text-align:right; width:155px; white-space:nowrap; padding-right:4px;">
                 ${PDF_BRAND_LOGO_SVG}
               </td>
             </tr>
@@ -1907,7 +1908,7 @@
           <table style="width:100%; border-collapse:collapse;">
             <tr>
               <td></td>
-              <td style="vertical-align:bottom; text-align:right; width:150px; white-space:nowrap; padding-right:6px;">
+              <td style="vertical-align:bottom; text-align:right; width:155px; white-space:nowrap; padding-right:4px;">
                 ${PDF_BRAND_LOGO_SVG}
               </td>
             </tr>
@@ -1918,7 +1919,7 @@
       pageDiv.innerHTML = `
         <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%) rotate(-35deg); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; pointer-events:none; user-select:none; z-index:0; opacity:0.075; width:140%;">
           <div style="width:110px; height:110px; background:#4f46e5; color:#ffffff; border-radius:24px; display:flex; align-items:center; justify-content:center; font-size:68px; font-weight:800; font-family:Arial, sans-serif;">A</div>
-          <div style="font-size:62px; font-weight:800; color:#4f46e5; letter-spacing:2px; line-height:1;">axomexam.in</div>
+          <div style="font-size:58px; font-weight:800; color:#4f46e5; letter-spacing:2px; line-height:1;">axomexam.in</div>
         </div>
         ${headerHtml}
         <div style="position:relative; z-index:2; flex:1; display:flex; flex-direction:column; justify-content:flex-start; margin-top:8px; margin-bottom:8px;">
@@ -3046,7 +3047,7 @@
     if (tm) tm.addEventListener("click", () => openMobileMenu());
   }
 
-  /* ================= Dark mode ================= */
+  /* ================= Dark Mode Toggle ================= */
   function initTheme() {
     const html = document.documentElement;
     const apply = (theme) => {
@@ -3054,9 +3055,11 @@
       else html.removeAttribute("data-theme");
       try { localStorage.setItem("axomexam-theme", theme); } catch (e) { }
     };
+    
     $$(".theme-toggle").forEach((btn) => {
       if (btn.dataset.themeBound) return;
       btn.dataset.themeBound = "1";
+      btn.style.cssText = "display:inline-flex; align-items:center; justify-content:center; width:36px; height:36px; border-radius:10px; border:1px solid var(--border,#e2e8f0); background:var(--bg-subtle,#f8fafc); color:var(--ink,#0f172a); cursor:pointer; transition:all 0.2s ease;";
       btn.addEventListener("click", () => {
         apply(html.getAttribute("data-theme") === "dark" ? "light" : "dark");
       });
