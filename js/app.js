@@ -29,18 +29,33 @@
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 
-  /* Direct Vector Brand Logo */
+  /* Direct Vector Brand Logo (Dark Mode Compatible) */
   const BRAND_LOGO_SVG = `
-    <svg width="124" height="28" viewBox="0 0 124 28" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
+    <svg width="150" height="32" viewBox="0 0 150 32" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
       <defs>
         <linearGradient id="gradLogo" x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" stop-color="#6366f1" />
           <stop offset="100%" stop-color="#3b82f6" />
         </linearGradient>
       </defs>
-      <rect width="28" height="28" rx="7" fill="url(#gradLogo)"/>
-      <text x="14" y="19.5" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="15.5" text-anchor="middle">A</text>
-      <text x="36" y="19.5" fill="#4f46e5" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="15" letter-spacing="-0.3">axomexam</text>
+      <rect width="32" height="32" rx="8" fill="url(#gradLogo)"/>
+      <text x="16" y="22" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="17" text-anchor="middle">A</text>
+      <text x="42" y="22" fill="currentColor" style="color:var(--ink, #0f172a);" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="16" letter-spacing="-0.3">axomexam<tspan fill="#3b82f6">.in</tspan></text>
+    </svg>
+  `;
+
+  /* PDF Logo Variant */
+  const PDF_BRAND_LOGO_SVG = `
+    <svg width="150" height="32" viewBox="0 0 150 32" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
+      <defs>
+        <linearGradient id="gradLogoPdf" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#6366f1" />
+          <stop offset="100%" stop-color="#3b82f6" />
+        </linearGradient>
+      </defs>
+      <rect width="32" height="32" rx="8" fill="url(#gradLogoPdf)"/>
+      <text x="16" y="22" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="17" text-anchor="middle">A</text>
+      <text x="42" y="22" fill="#0f172a" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="16" letter-spacing="-0.3">axomexam<tspan fill="#3b82f6">.in</tspan></text>
     </svg>
   `;
 
@@ -209,7 +224,19 @@
       <div style="max-width:1100px; margin:0 auto; padding:32px 16px 20px; box-sizing:border-box; color:#ffffff;">
         <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; gap:24px; padding-bottom:24px; border-bottom:1px solid rgba(255,255,255,0.15);">
           <div style="flex:1; min-width:240px; text-align:left;">
-            <div style="margin-bottom:10px;">${BRAND_LOGO_SVG}</div>
+            <div style="margin-bottom:10px; color:#ffffff;">
+              <svg width="150" height="32" viewBox="0 0 150 32" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
+                <defs>
+                  <linearGradient id="gradLogoFooter" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#6366f1" />
+                    <stop offset="100%" stop-color="#3b82f6" />
+                  </linearGradient>
+                </defs>
+                <rect width="32" height="32" rx="8" fill="url(#gradLogoFooter)"/>
+                <text x="16" y="22" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="17" text-anchor="middle">A</text>
+                <text x="42" y="22" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="16" letter-spacing="-0.3">axomexam<tspan fill="#38bdf8">.in</tspan></text>
+              </svg>
+            </div>
             <p style="font-size:0.86rem; color:#f8fafc; line-height:1.55; margin:0; max-width:320px; font-weight:400;">
               ${isAs ? "অসমৰ সৰ্ববৃহৎ দ্বিভাষিক প্ৰতিযোগিতামূলক পৰীক্ষাৰ প্ৰস্তুতি মঞ্চ। ADRE, অসম আৰক্ষী, APSC আদি পৰীক্ষাৰ বিনামূলীয়া সমল।" : "Assam's premier bilingual competitive exam preparation portal. Free study notes, mock tests and previous papers."}
             </p>
@@ -658,16 +685,15 @@
     main.innerHTML = `
       <section class="hero reveal visible">
         <div class="hero-content">
-          <a class="hero-brand" href="/">
-            <span class="brand-mark">A</span>
-            <span class="brand-text">axomexam</span>
+          <a class="hero-brand" href="/" style="text-decoration:none; display:inline-flex; align-items:center; margin-bottom:12px;">
+            ${BRAND_LOGO_SVG}
           </a>
           <a class="hero-badge" href="/mock-test">
             <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
             ${t("hero.daily")} • ADRE 2.0 / RRB
           </a>
-          <h1>${t("hero.title") || "Assam Competitive Exam Preparation Portal"}</h1>
-          <p class="sub">${t("hero.sub") || "Free bilingual questions, mock tests, and PDF study notes for Assam exams."}</p>
+          <h1>${t("hero.title") || "Crack Competitive Exams with Bilingual Q&A & PDF Notes"}</h1>
+          <p class="sub">${t("hero.sub") || "Practice thousands of exam questions and download printable PDF notes in both Assamese and English — built for APSC, Assam Police, ADRE, and Central Railways."}</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="/category/${firstCat}">${t("hero.cta")}</a>
             <a class="btn btn-ghost" href="/mock-test">${t("hero.cta3")}</a>
@@ -1238,7 +1264,7 @@
               <span class="rank">${i + 1}</span>
               <span style="display:flex; flex-direction:column; gap:2px;">
                 <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(r.title))}</span>
-                <span>${escapeHtml(localized(r.cat.name))}${r.sub ? " • " + escapeHtml(localized(r.sub.name)) : ""} • ${r.nQuestions || 0} ${t("topic.questions")}</span>
+                <span id="trend-count-${r.path.replace(/\//g, '-')}">${escapeHtml(localized(r.cat.name))}${r.sub ? " • " + escapeHtml(localized(r.sub.name)) : ""} • ${r.nQuestions || 0} ${t("topic.questions")}</span>
               </span>
             </a>`).join("")}
         </div>
@@ -1870,8 +1896,8 @@
                 <div style="font-size:15px; font-weight:800; color:#0f172a; line-height:1.2; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(titleText)}</div>
                 <div style="font-size:10.5px; color:#64748b; margin-top:2px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(catText)} • ${lang === "as" ? "মুঠ প্ৰশ্ন" : "Total Questions"}: ${qs.length} | ${langLabel}</div>
               </td>
-              <td style="vertical-align:bottom; text-align:right; width:140px; white-space:nowrap; padding-right:6px;">
-                ${BRAND_LOGO_SVG}
+              <td style="vertical-align:bottom; text-align:right; width:150px; white-space:nowrap; padding-right:6px;">
+                ${PDF_BRAND_LOGO_SVG}
               </td>
             </tr>
           </table>
@@ -1881,8 +1907,8 @@
           <table style="width:100%; border-collapse:collapse;">
             <tr>
               <td></td>
-              <td style="vertical-align:bottom; text-align:right; width:140px; white-space:nowrap; padding-right:6px;">
-                ${BRAND_LOGO_SVG}
+              <td style="vertical-align:bottom; text-align:right; width:150px; white-space:nowrap; padding-right:6px;">
+                ${PDF_BRAND_LOGO_SVG}
               </td>
             </tr>
           </table>
@@ -1892,7 +1918,7 @@
       pageDiv.innerHTML = `
         <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%) rotate(-35deg); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; pointer-events:none; user-select:none; z-index:0; opacity:0.075; width:140%;">
           <div style="width:110px; height:110px; background:#4f46e5; color:#ffffff; border-radius:24px; display:flex; align-items:center; justify-content:center; font-size:68px; font-weight:800; font-family:Arial, sans-serif;">A</div>
-          <div style="font-size:62px; font-weight:800; color:#4f46e5; letter-spacing:2px; line-height:1;">axomexam</div>
+          <div style="font-size:62px; font-weight:800; color:#4f46e5; letter-spacing:2px; line-height:1;">axomexam.in</div>
         </div>
         ${headerHtml}
         <div style="position:relative; z-index:2; flex:1; display:flex; flex-direction:column; justify-content:flex-start; margin-top:8px; margin-bottom:8px;">
@@ -1940,7 +1966,7 @@
     }
   }
 
-  /* ================= Downloads page ================= */
+  /* ================= Downloads page (Fixed Dynamic Question Counts) ================= */
   async function renderDownloadsPage(main) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
     let files = [];
@@ -1974,7 +2000,7 @@
               </span>
               <span class="dl-meta">
                 <b>${escapeHtml(localized(rec.title))}</b>
-                <span>${escapeHtml(localized(rec.cat.name))}${rec.sub ? " • " + escapeHtml(localized(rec.sub.name)) : ""} • ${rec.nQuestions || 0} Questions</span>
+                <span>${escapeHtml(localized(rec.cat.name))}${rec.sub ? " • " + escapeHtml(localized(rec.sub.name)) : ""} • <span id="dl-count-${rec.path.replace(/\//g, '-')}">${rec.nQuestions || 0}</span> Questions</span>
               </span>
               <button class="dl-btn dl-save topic-pdf-btn" data-path="${escapeHtml(rec.path)}" type="button" style="text-transform:none;">Download</button>
             </div>
@@ -2966,6 +2992,9 @@
 
             const tEl = document.getElementById(`trend-count-${rec.path.replace(/\//g, '-')}`);
             if (tEl) tEl.textContent = `${escapeHtml(localized(rec.cat.name))} • ${rec.nQuestions} ${t("topic.questions")}`;
+
+            const dlEl = document.getElementById(`dl-count-${rec.path.replace(/\//g, '-')}`);
+            if (dlEl) dlEl.textContent = `${rec.nQuestions}`;
 
             const loadedTotal = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0);
             const totalEl = $("#stat-total-questions");
