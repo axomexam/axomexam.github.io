@@ -68,6 +68,17 @@ const API = (() => {
     return fetchText(url);
   }
 
+  /* ---- Articles (read-only rich articles under the "articles" category) ----
+     Each subcategory of "articles" loads a single JSON file:
+     content/articles/<subcategory-id>.json
+     Articles are for reading only and never appear in the Downloads list. */
+  async function getArticles(subcategoryId) {
+    const url = CONFIG.USE_REMOTE
+      ? rawUrl(`${P.CONTENT}/articles/${subcategoryId}.json`)
+      : `${F.CONTENT_BASE}articles/${subcategoryId}.json`;
+    return fetchJSON(url);
+  }
+
   /* ---- Optional: discover available PDFs from a repo directory
         via the GitHub API. Used to enrich the PDF panel when a
         topic does not declare a pdf field but files exist. ---- */
@@ -157,5 +168,6 @@ const API = (() => {
   return {
     getCategories, getTopic, getTopicMarkdown, listPdfDir, pdfUrl,
     listDownloads, getTrendingTopics, listPreviousYearYears, listPreviousYearPdfs,
+    getArticles,
   };
 })();
