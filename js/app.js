@@ -3,7 +3,7 @@
    Application logic: i18n, navigation, routing, rendering,
    search, Q&A reader, Math Engine (Assamese + English), Mock Tests,
    Dedicated Downloads Search, Detailed Bilingual AdSense Legal Pages,
-   Specialized Rich Article Reader for Study Guides,
+   Mobile-Optimized Clean Article Reader for Study Guides,
    Pure Path-Based Routing (No # Hashes Anywhere).
    Domain: axomexam.in
    Default UI Language: English ("en").
@@ -793,7 +793,7 @@
     });
   }
 
-  /* ================= Category page (Card Text: "Read Guide" for study-guides) ================= */
+  /* ================= Category page ================= */
   function renderCategoryPage(main, cat) {
     const subs = cat.subcategories || cat.sections || [];
     const directTopics = cat.topics || [];
@@ -934,7 +934,6 @@
       }
     } catch { }
 
-    // Special Full-Width Rich Article Layout for Study Guides
     if (rec.cat.id === "study-guides") {
       return renderDedicatedArticlePage(main, rec);
     }
@@ -984,40 +983,66 @@
     });
   }
 
-  /* ================= Dedicated Rich Article Layout (No Limits) ================= */
+  /* ================= Dedicated Rich Article Layout (Stylish & Mobile-Optimized) ================= */
   function renderDedicatedArticlePage(main, rec) {
     const rawItems = rec.topic.questions || rec.topic.sections || [];
     const isAs = state.lang === "as";
 
     main.innerHTML = `
-      <div class="page-head" style="text-align:left; max-width:880px; margin:0 auto 24px auto;">
+      <div class="page-head" style="text-align:left; max-width:860px; margin:0 auto 20px auto; padding:0 16px; box-sizing:border-box;">
         <nav class="breadcrumb">${breadcrumbForTopic(rec)}</nav>
-        <h1 style="font-size:1.85rem; font-weight:900; line-height:1.3; color:var(--ink,#0f172a); margin-bottom:8px;">${escapeHtml(localized(rec.topic.title))}</h1>
+        <h1 class="art-main-title">${escapeHtml(localized(rec.topic.title))}</h1>
         <p class="page-desc" style="font-size:0.96rem; line-height:1.6; color:var(--ink-soft,#475569); margin:0 0 16px 0;">${escapeHtml(localized(rec.topic.description)) || ""}</p>
         
-        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; border-top:1px solid var(--border,#e2e8f0); border-bottom:1px solid var(--border,#e2e8f0); padding:10px 0;">
-          <span style="font-size:0.82rem; font-weight:700; color:var(--primary,#2563eb); text-transform:uppercase; letter-spacing:0.5px;">
-            📚 ${isAs ? "সম্পূৰ্ণ পাঠ্য নিৰ্দেশিকা (Theory Guide)" : "Full Comprehensive Study Guide"}
+        <div class="art-top-bar">
+          <span style="font-size:0.82rem; font-weight:800; color:var(--primary,#2563eb); text-transform:uppercase; letter-spacing:0.5px; display:inline-flex; align-items:center; gap:6px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg>
+            ${isAs ? "সম্পূৰ্ণ অধ্যয়ন নিৰ্দেশিকা (Theory Guide)" : "Complete In-Depth Study Guide"}
           </span>
-          <div class="lang-switch" role="group" aria-label="Reading language" style="display:inline-flex; border-radius:10px; overflow:hidden; border:1px solid var(--border,#cbd5e1);">
-            <button class="art-lang-btn ${state.lang === "as" ? "active" : ""}" type="button" data-lang="as" style="padding:5px 12px; font-weight:700; border:none; cursor:pointer; font-size:0.8rem;">অসমীয়া</button>
-            <button class="art-lang-btn ${state.lang === "en" ? "active" : ""}" type="button" data-lang="en" style="padding:5px 12px; font-weight:700; border:none; cursor:pointer; font-size:0.8rem;">English</button>
+          <div class="art-lang-switch-box" role="group" aria-label="Article Language">
+            <button class="art-glang-btn ${state.lang === "as" ? "active" : ""}" type="button" data-lang="as">
+              <span class="active-dot"></span>অসমীয়া
+            </button>
+            <button class="art-glang-btn ${state.lang === "en" ? "active" : ""}" type="button" data-lang="en">
+              <span class="active-dot"></span>English
+            </button>
           </div>
         </div>
       </div>
 
-      <div class="article-container" style="max-width:880px; margin:0 auto; padding-bottom:50px;">
-        <div id="article-body-content" style="background:var(--card-bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:18px; padding:32px 28px; box-shadow:0 8px 24px -4px rgba(15,23,42,0.03); box-sizing:border-box;"></div>
+      <div class="article-wrapper" style="max-width:860px; margin:0 auto; padding:0 16px 50px 16px; box-sizing:border-box;">
+        <article id="article-body-content" class="article-card-box"></article>
       </div>
 
       <style>
-        .article-part-block { margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px dashed var(--border,#e2e8f0); }
+        .art-main-title { font-size: 1.8rem; font-weight: 900; line-height: 1.35; color: var(--ink, #0f172a); margin-bottom: 10px; letter-spacing: -0.3px; }
+        .art-top-bar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; border-top: 1px solid var(--border, #e2e8f0); border-bottom: 1px solid var(--border, #e2e8f0); padding: 12px 0; }
+        .art-lang-switch-box { display: inline-flex; background: var(--bg-subtle, #f1f5f9); border: 1.5px solid var(--border, #cbd5e1); border-radius: 24px; padding: 3px; gap: 2px; }
+        .art-glang-btn { display: inline-flex; align-items: center; gap: 5px; padding: 6px 14px; font-weight: 700; font-size: 0.82rem; border-radius: 20px; border: none; cursor: pointer; transition: all 0.2s ease-in-out; background: transparent; color: var(--ink-soft, #64748b); }
+        .art-glang-btn .active-dot { width: 6px; height: 6px; border-radius: 50%; background: #22c55e; display: none; }
+        .art-glang-btn.active { background: #2563eb !important; color: #ffffff !important; box-shadow: 0 2px 8px rgba(37, 99, 235, 0.35); }
+        .art-glang-btn.active .active-dot { display: inline-block; }
+        .article-card-box { background: var(--card-bg, #ffffff); border: 1px solid var(--border, #e2e8f0); border-radius: 20px; padding: 36px 32px; box-shadow: 0 10px 30px -6px rgba(15,23,42,0.04); text-align: left; }
+        .article-part-block { margin-bottom: 34px; padding-bottom: 26px; border-bottom: 1px dashed var(--border, #e2e8f0); }
         .article-part-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
-        .art-headline { font-size: 1.25rem; font-weight: 800; color: var(--ink,#0f172a); margin: 0 0 14px 0; line-height: 1.4; }
-        .art-paragraph { font-size: 0.98rem; line-height: 1.8; color: var(--ink-soft,#334155); margin: 0 0 14px 0; text-align: justify; }
-        .art-keynote { background: var(--bg-subtle,#f8fafc); border-left: 4px solid var(--primary,#2563eb); padding: 12px 16px; border-radius: 6px; font-size: 0.9rem; line-height: 1.6; color: var(--ink-muted,#475569); }
-        [data-theme="dark"] .article-container div { background: var(--bg-soft, #0f172a); border-color: var(--border, #2b3a55); }
-        [data-theme="dark"] .art-keynote { background: #1e293b; color: #cbd5e1; }
+        .art-headline { font-size: 1.3rem; font-weight: 800; color: var(--ink, #0f172a); margin: 0 0 14px 0; line-height: 1.4; display: flex; align-items: flex-start; gap: 8px; }
+        .art-paragraph { font-size: 1.02rem; line-height: 1.85; color: var(--ink-soft, #334155); margin: 0 0 16px 0; text-align: left; word-break: break-word; font-weight: 400; }
+        .art-keynote { background: var(--bg-subtle, #f8fafc); border-left: 4px solid var(--primary, #2563eb); padding: 14px 18px; border-radius: 10px; font-size: 0.92rem; line-height: 1.65; color: var(--ink-muted, #475569); border-top: 1px solid var(--border, #f1f5f9); border-right: 1px solid var(--border, #f1f5f9); border-bottom: 1px solid var(--border, #f1f5f9); }
+        
+        @media (max-width: 640px) {
+          .art-main-title { font-size: 1.35rem !important; line-height: 1.35 !important; }
+          .article-card-box { padding: 20px 16px !important; border-radius: 14px !important; }
+          .art-headline { font-size: 1.12rem !important; }
+          .art-paragraph { font-size: 0.95rem !important; line-height: 1.75 !important; }
+          .art-top-bar { justify-content: center !important; flex-direction: column !important; text-align: center !important; gap: 10px !important; }
+          .art-lang-switch-box { width: 100% !important; justify-content: center !important; }
+          .art-glang-btn { flex: 1 !important; justify-content: center !important; padding: 8px 0 !important; }
+        }
+
+        [data-theme="dark"] .article-card-box { background: var(--bg-soft, #0f172a) !important; border-color: var(--border, #2b3a55) !important; }
+        [data-theme="dark"] .art-lang-switch-box { background: #0f172a !important; border-color: #334155 !important; }
+        [data-theme="dark"] .art-glang-btn { color: #94a3b8 !important; }
+        [data-theme="dark"] .art-keynote { background: #1e293b !important; border-color: #334155 !important; color: #cbd5e1 !important; }
       </style>
     `;
 
@@ -1032,11 +1057,13 @@
 
         return `
           <div class="article-part-block">
-            <h2 class="art-headline">${formatMath(headline)}</h2>
+            <h2 class="art-headline">
+              <span>${formatMath(headline)}</span>
+            </h2>
             <div class="art-paragraph">${formatMath(bodyText)}</div>
             ${explanation ? `
               <div class="art-keynote">
-                <b style="color:var(--primary,#2563eb);">${state.lang === "as" ? "গুৰুত্বপূৰ্ণ বিষয়" : "Key Takeaways"}:</b> ${formatMath(explanation)}
+                <b style="color:var(--primary,#2563eb);">${state.lang === "as" ? "গুৰুত্বপূৰ্ণ বিষয় (Key Takeaway)" : "Key Highlights"}:</b> ${formatMath(explanation)}
               </div>` : ""
             }
           </div>
@@ -1048,11 +1075,17 @@
 
     renderArticleText();
 
-    $$(".art-lang-btn").forEach((btn) => {
+    $$(".art-glang-btn").forEach((btn) => {
       btn.addEventListener("click", () => {
-        state.lang = btn.dataset.lang;
+        const target = btn.dataset.lang;
+        if (state.lang === target) return;
+        state.lang = target;
         document.body.setAttribute("data-lang", state.lang);
-        $$(".art-lang-btn").forEach((x) => x.classList.toggle("active", x.dataset.lang === state.lang));
+        
+        $$(".art-glang-btn").forEach((x) => {
+          x.classList.toggle("active", x.dataset.lang === state.lang);
+        });
+
         renderArticleText();
       });
     });
@@ -1779,6 +1812,9 @@
         .pdf-btn-en-action:hover { background: var(--bg-soft, #f1f5f9); border-color: #2563eb; color: #2563eb; transform: translateY(-1px); }
         .pdf-btn-en-action:active { transform: scale(0.96); }
         .btn-indicator-dot { width: 8px; height: 8px; border-radius: 50%; background: #22c55e; display: inline-block; }
+        [data-theme="dark"] .pdf-pop-box { background: #0f172a !important; border-color: #334155 !important; color: #f8fafc !important; }
+        [data-theme="dark"] .pdf-btn-en-action { background: #1e293b !important; color: #f8fafc !important; border-color: #334155 !important; }
+        [data-theme="dark"] .pdf-btn-en-action:hover { border-color: #38bdf8 !important; color: #38bdf8 !important; }
       </style>
     `;
     document.body.appendChild(modal);
@@ -3081,7 +3117,7 @@
     const iconHtml = isDark ? `
       <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:block;">
         <circle cx="12" cy="12" r="5"></circle>
-        <line x1="12" y1="1" x2="12" y2="3"></line>
+        <line x1="12" y1="12" x2="12" y2="3"></line>
         <line x1="12" y1="21" x2="12" y2="23"></line>
         <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
         <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
