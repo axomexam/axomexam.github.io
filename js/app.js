@@ -685,10 +685,6 @@
     main.innerHTML = `
       <section class="hero reveal visible">
         <div class="hero-content">
-          <a class="hero-brand" href="/" style="text-decoration:none; display:inline-flex; align-items:center; gap:8px; margin-bottom:12px;">
-            <span class="brand-mark" style="width:34px; height:34px; border-radius:9px; background:linear-gradient(135deg,#6366f1,#3b82f6); color:#fff; display:inline-flex; align-items:center; justify-content:center; font-weight:900; font-size:1.15rem;">A</span>
-            <span class="brand-text" style="font-size:1.55rem; font-weight:900; color:var(--ink,#0f172a); letter-spacing:-0.4px;">axomexam<span style="color:#2563eb;">.in</span></span>
-          </a>
           <a class="hero-badge" href="/mock-test">
             <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
             ${t("hero.daily")} • ADRE 2.0 / RRB
@@ -3047,21 +3043,55 @@
     if (tm) tm.addEventListener("click", () => openMobileMenu());
   }
 
-  /* ================= Dark Mode Toggle ================= */
+  /* ================= Enhanced Dark Mode Toggle ================= */
+  function updateThemeIcons(theme) {
+    const isDark = theme === "dark";
+    const iconHtml = isDark ? `
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:block;">
+        <circle cx="12" cy="12" r="5"></circle>
+        <line x1="12" y1="1" x2="12" y2="3"></line>
+        <line x1="12" y1="21" x2="12" y2="23"></line>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+        <line x1="1" y1="12" x2="3" y2="12"></line>
+        <line x1="21" y1="12" x2="23" y2="12"></line>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+      </svg>
+    ` : `
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:block;">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+      </svg>
+    `;
+
+    $$(".theme-toggle").forEach((btn) => {
+      btn.innerHTML = iconHtml;
+      btn.style.cssText = "display:inline-flex; align-items:center; justify-content:center; width:34px; height:34px; border-radius:10px; border:1px solid var(--border,#e2e8f0); background:var(--bg-subtle,#f8fafc); color:var(--ink,#0f172a); cursor:pointer; padding:0; outline:none; transition:all 0.2s ease;";
+    });
+  }
+
   function initTheme() {
     const html = document.documentElement;
+    let savedTheme = "light";
+    try { savedTheme = localStorage.getItem("axomexam-theme") || "light"; } catch (e) { }
+
+    if (savedTheme === "dark") html.setAttribute("data-theme", "dark");
+    else html.removeAttribute("data-theme");
+    updateThemeIcons(savedTheme);
+
     const apply = (theme) => {
       if (theme === "dark") html.setAttribute("data-theme", "dark");
       else html.removeAttribute("data-theme");
       try { localStorage.setItem("axomexam-theme", theme); } catch (e) { }
+      updateThemeIcons(theme);
     };
-    
+
     $$(".theme-toggle").forEach((btn) => {
       if (btn.dataset.themeBound) return;
       btn.dataset.themeBound = "1";
-      btn.style.cssText = "display:inline-flex; align-items:center; justify-content:center; width:36px; height:36px; border-radius:10px; border:1px solid var(--border,#e2e8f0); background:var(--bg-subtle,#f8fafc); color:var(--ink,#0f172a); cursor:pointer; transition:all 0.2s ease;";
       btn.addEventListener("click", () => {
-        apply(html.getAttribute("data-theme") === "dark" ? "light" : "dark");
+        const isDark = html.getAttribute("data-theme") === "dark";
+        apply(isDark ? "light" : "dark");
       });
     });
   }
