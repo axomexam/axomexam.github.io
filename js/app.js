@@ -534,7 +534,7 @@
     const nav = $("#mobile-nav");
     if (!nav) return;
     const activePath = currentPath();
-    const catParts = state.categories.map((cat) => {
+    const catParts = homeCategoriesOrder().map((cat) => {
       const kids = cat.subcategories || cat.sections || [];
       return `
         <li>
