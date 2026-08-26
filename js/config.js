@@ -22,26 +22,26 @@ const CONFIG = {
   /* Paths inside the content repo */
   PATHS: {
     CATEGORIES: "data/categories.json",
-    CONTENT: "content",       // <category>/<topic>.json
-    PDF: "pdfs",              // <category>/<file>.pdf
-    DOWNLOADS: "download",    // flat folder of PDFs shown on the Downloads page
+    CONTENT: "content",        // <category>/<topic>.json
+    PDF: "pdfs",               // <category>/<file>.pdf
+    DOWNLOADS: "download",     // flat folder of PDFs shown on the Downloads page
     TRENDING: "trending-topics", // folder of JSON files for extra trending topics
-    PYEAR: "previous-year",   // <exam>/<year>/<file>.pdf for Previous Year Questions
+    PYEAR: "previous-year",    // <exam>/<year>/<file>.pdf for Previous Year Questions
   },
 
-  /* Local fallback bundle (bundled with the site) */
+  /* Local fallback bundle (Fixed with Absolute Paths) */
   FALLBACK: {
-    CATEGORIES_URL: "data/sample/categories.json",
-    CONTENT_BASE: "data/sample/content/",
-    PDF_BASE: "data/sample/pdfs/",
-    /* Downloads page — flat list of PDFs inside data/sample/download/ */
-    DOWNLOAD_BASE: "data/sample/download/",
+    CATEGORIES_URL: "/data/sample/categories.json",
+    CONTENT_BASE: "/data/sample/content/",
+    PDF_BASE: "/data/sample/pdfs/",
+    /* Downloads page — flat list of PDFs inside /data/sample/download/ */
+    DOWNLOAD_BASE: "/data/sample/download/",
     DOWNLOADS: ["brahmaputra-river.pdf", "country-capital.pdf"],
-    /* Extra trending topics — JSON files inside data/sample/trending-topics/ */
-    TRENDING_BASE: "data/sample/trending-topics/",
+    /* Extra trending topics — JSON files inside /data/sample/trending-topics/ */
+    TRENDING_BASE: "/data/sample/trending-topics/",
     TRENDING: ["assam-gk-special"],
-    /* Previous year questions — data/sample/previous-year/<exam>/<year>/<file>.pdf */
-    PYEAR_BASE: "data/sample/previous-year/",
+    /* Previous year questions — /data/sample/previous-year/<exam>/<year>/<file>.pdf */
+    PYEAR_BASE: "/data/sample/previous-year/",
     PYEAR: {
       ssc: { "2023": ["ssc-cgl-2023.pdf"], "2024": ["ssc-cgl-2024.pdf"] },
       railway: { "2023": ["rrb-2023.pdf"] },
@@ -129,8 +129,7 @@ const CATEGORY_ICON_SVG = {
   trending: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>',
 };
 
-/* Topic logo rules (24x24 stroke SVGs). First keyword match on the topic
-   id wins; topics that match nothing fall back to their category logo. */
+/* Topic logo rules (24x24 stroke SVGs) */
 const TOPIC_ICON_RULES = [
   [/symbol|emblem|flag|anthem/i, '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 22V2"/><path d="M5 3c4 0 4 3 8 3s4-3 8-3v10c-4 0-4-3-8-3s-4 3-8 3"/></svg>'],
   [/river|water|flood|wave/i, '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9c2 0 2 2 4 2s2-2 4-2 2 2 4 2 2-2 4-2 2 2 4 2"/><path d="M2 15c2 0 2 2 4 2s2-2 4-2 2 2 4 2 2-2 4-2 2 2 4 2"/></svg>'],
