@@ -378,29 +378,113 @@
                 { "id": "sculptures-pottery-india", "name": { "en": "Sculptures & Pottery", "as": "ভাস্কৰ্য আৰু মৃৎশিল্প" }, "popularity": 8 },
                 { "id": "handlooms-textiles-crafts-india", "name": { "en": "Handlooms, Textiles & Traditional Crafts", "as": "হস্ততাঁত, বস্ত্ৰশিল্প আৰু পৰম্পৰাগত শিল্পকলা" }, "popularity": 8 },
                 { "id": "ancient-cave-temple-architecture-india", "name": { "en": "Ancient, Cave & Temple Architecture", "as": "প্ৰাচীন, গুহা আৰু মন্দিৰ স্থাপত্য" }, "popularity": 10 },
-                { "id": "medieval-indo-islamic-structures", "name": { "en": "Medieval & Indo-Islamic Structures", "as": "মধ্যযুগীয় আৰু ইণ্ডো-ইছলামিক স্থাপত্য" }, "popularity": 9 },
-                { "id": "modern-architecture-unesco-sites-india", "name": { "en": "Modern Architecture & UNESCO World Heritage Sites", "as": "আধুনিক স্থাপত্য আৰু ইউনেস্কোৰ বিশ্ব ঐতিহ্য ক্ষেত্ৰসমূহ" }, "popularity": 10 },
-                { "id": "classical-languages-literature-india", "name": { "en": "Classical Languages & Literature", "as": "শাস্ত্ৰীয় ভাষা আৰু প্ৰাচীন সাহিত্য" }, "popularity": 9 },
-                { "id": "major-religions-philosophies-india", "name": { "en": "Major Religions & Philosophical Schools", "as": "প্ৰধান ধৰ্ম আৰু ভাৰতীয় দৰ্শনৰ ধাৰাসমূহ" }, "popularity": 9 },
-                { "id": "fairs-festivals-intangible-heritage-india", "name": { "en": "Fairs, Festivals & Intangible Heritage", "as": "মেলা, উৎসৱ আৰু অমূৰ্ত সাংস্কৃতিক ঐতিহ্য" }, "popularity": 9 }
+                {
+                  "id": "medieval-indo-islamic-structures",
+                  "name": { "en": "Medieval & Indo-Islamic Structures", "as": "মধ্যযুগীয় আৰু ইণ্ডো-ইছলামিক স্থাপত্য" },
+                  "popularity": 9
+                },
+                {
+                  "id": "modern-architecture-unesco-sites-india",
+                  "name": { "en": "Modern Architecture & UNESCO World Heritage Sites",
+                  "as": "আধুনিক স্থাপত্য আৰু ইউনেস্কোৰ বিশ্ব ঐতিহ্য ক্ষেত্ৰসমূহ" },
+                  "popularity": 10
+                },
+                {
+                  "id": "classical-languages-literature-india",
+                  "name": { "en": "Classical Languages & Literature",
+                  "as": "শাস্ত্ৰীয় ভাষা আৰু প্ৰাচীন সাহিত্য" },
+                  "popularity": 9
+                },
+                {
+                  "id": "major-religions-philosophies-india",
+                  "name": { "en": "Major Religions & Philosophical Schools",
+                  "as": "প্ৰধান ধৰ্ম আৰু ভাৰতীয় দৰ্শনৰ ধাৰাসমূহ" },
+                  "popularity": 9
+                },
+                {
+                  "id": "fairs-festivals-intangible-heritage-india",
+                  "name": { "en": "Fairs, Festivals & Intangible Heritage",
+                  "as": "মেলা, উৎসৱ আৰু অমূৰ্ত সাংস্কৃতিক ঐতিহ্য" },
+                  "popularity": 9
+                }
               ]
             },
             {
               "id": "assam-art-culture-sec",
               "name": { "en": "Assam Art and Culture", "as": "অসমৰ কলা আৰু সংস্কৃতি" },
               "topics": [
-                { "id": "classical-folk-dances-assam", "name": { "en": "Classical & Folk Dances", "as": "সত্ৰীয়া শাস্ত্ৰীয় নৃত্য আৰু লোকনৃত্য" }, "popularity": 10 },
-                { "id": "music-folk-instruments-assam", "name": { "en": "Traditional Music, Folk Songs & Musical Instruments", "as": "পৰম্পৰাগত সংগীত, লোকগীত আৰু বাদ্যযন্ত্ৰ" }, "popularity": 9 },
-                { "id": "theatre-ankiya-naat-bhaona-assam", "name": { "en": "Traditional Theatre (Ankiya Naat & Bhaona)", "as": "পৰম্পৰাগত নাট্যশিল্প (অঙ্কীয়া নাট আৰু ভাওনা)" }, "popularity": 10 },
-                { "id": "crafts-bell-metal-brass-cane-bamboo-assam", "name": { "en": "Traditional Crafts & Metalwork (Bell Metal, Brass & Cane/Bamboo)", "as": "কাঁহ-পিতল, বাঁহ-বেতৰ শিল্প আৰু পৰম্পৰাগত হস্তশিল্প" }, "popularity": 9 },
-                { "id": "handlooms-silk-textiles-assam", "name": { "en": "Handlooms & Silk Textiles", "as": "হস্ততাঁত আৰু মুগা-পাট-এৰী ৰেচম শিল্প" }, "popularity": 10 },
-                { "id": "manuscript-paintings-mask-making-assam", "name": { "en": "Manuscript Paintings & Mask Making", "as": "সাঁচিপাতৰ চিত্ৰকলা আৰু মুখাশিল্প" }, "popularity": 9 },
-                { "id": "ahom-dynasty-architecture-assam", "name": { "en": "Ahom Dynasty Architecture", "as": "আহোম যুগৰ স্থাপত্য আৰু কীৰ্তিচিহ্নসমূহ" }, "popularity": 10 },
-                { "id": "historical-temple-architecture-assam", "name": { "en": "Historical Temple Architecture", "as": "ঐতিহাসিক দৌল-দেৱালয় আৰু মন্দিৰ স্থাপত্য" }, "popularity": 9 },
-                { "id": "sattras-charaideo-maidams-assam", "name": { "en": "Sattras & Charaideo Maidams", "as": "সত্ৰ সংস্কৃতি আৰু চৰাইদেউ মৈদাম (UNESCO ক্ষেত্ৰ)" }, "popularity": 10 },
-                { "id": "major-festivals-fairs-assam", "name": { "en": "Major Festivals & Fairs", "as": "বিহু, অম্বুবাচী আৰু অসমৰ প্ৰধান উৎসৱ-মেলাসমূহ" }, "popularity": 10 },
-                { "id": "assamese-literature-buranjis-culture", "name": { "en": "Assamese Literature & Historical Chronicles (Buranjis)", "as": "অসমীয়া সাহিত্য আৰু বুৰঞ্জী পৰম্পৰা" }, "popularity": 8 },
-                { "id": "indigenous-tribal-traditions-customs-assam", "name": { "en": "Indigenous Tribal Traditions & Customs", "as": "জনজাতীয় পৰম্পৰা, ৰীতি-নীতি আৰু সংস্কৃতি" }, "popularity": 9 }
+                {
+                  "id": "classical-folk-dances-assam",
+                  "name": { "en": "Classical & Folk Dances",
+                  "as": "সত্ৰীয়া শাস্ত্ৰীয় নৃত্য আৰু লোকনৃত্য" },
+                  "popularity": 10
+                },
+                {
+                  "id": "music-folk-instruments-assam",
+                  "name": { "en": "Traditional Music, Folk Songs & Musical Instruments",
+                  "as": "পৰম্পৰাগত সংগীত, লোকগীত আৰু বাদ্যযন্ত্ৰ" },
+                  "popularity": 9
+                },
+                {
+                  "id": "theatre-ankiya-naat-bhaona-assam",
+                  "name": { "en": "Traditional Theatre (Ankiya Naat & Bhaona)",
+                  "as": "পৰম্পৰাগত নাট্যশিল্প (অঙ্কীয়া নাট আৰু ভাওনা)" },
+                  "popularity": 10
+                },
+                {
+                  "id": "crafts-bell-metal-brass-cane-bamboo-assam",
+                  "name": { "en": "Traditional Crafts & Metalwork (Bell Metal, Brass & Cane/Bamboo)",
+                  "as": "কাঁহ-পিতল, বাঁহ-বেতৰ শিল্প আৰু পৰম্পৰাগত হস্তশিল্প" },
+                  "popularity": 9
+                },
+                {
+                  "id": "handlooms-silk-textiles-assam",
+                  "name": { "en": "Handlooms & Silk Textiles",
+                  "as": "হস্ততাঁত আৰু মুগা-পাট-এৰী ৰেচম শিল্প" },
+                  "popularity": 10
+                },
+                {
+                  "id": "manuscript-paintings-mask-making-assam",
+                  "name": { "en": "Manuscript Paintings & Mask Making",
+                  "as": "সাঁচিপাতৰ চিত্ৰকলা আৰু মুখাশিল্প" },
+                  "popularity": 9
+                },
+                {
+                  "id": "ahom-dynasty-architecture-assam",
+                  "name": { "en": "Ahom Dynasty Architecture",
+                  "as": "আহোম যুগৰ স্থাপত্য আৰু কীৰ্তিচিহ্নসমূহ" },
+                  "popularity": 10
+                },
+                {
+                  "id": "historical-temple-architecture-assam",
+                  "name": { "en": "Historical Temple Architecture",
+                  "as": "ঐতিহাসিক দৌল-দেৱালয় আৰু মন্দিৰ স্থাপত্য" },
+                  "popularity": 9
+                },
+                {
+                  "id": "sattras-charaideo-maidams-assam",
+                  "name": { "en": "Sattras & Charaideo Maidams",
+                  "as": "সত্ৰ সংস্কৃতি আৰু চৰাইদেউ মৈদাম (UNESCO ক্ষেত্ৰ)" },
+                  "popularity": 10
+                },
+                {
+                  "id": "major-festivals-fairs-assam",
+                  "name": { "en": "Major Festivals & Fairs",
+                  "as": "বিহু, অম্বুবাচী আৰু অসমৰ প্ৰধান উৎসৱ-মেলাসমূহ" },
+                  "popularity": 10
+                },
+                {
+                  "id": "assamese-literature-buranjis-culture",
+                  "name": { "en": "Assamese Literature & Historical Chronicles (Buranjis)",
+                  "as": "অসমীয়া সাহিত্য আৰু বুৰঞ্জী পৰম্পৰা" },
+                  "popularity": 8
+                },
+                {
+                  "id": "indigenous-tribal-traditions-customs-assam",
+                  "name": { "en": "Indigenous Tribal Traditions & Customs",
+                  "as": "জনজাতীয় পৰম্পৰা, ৰীতি-নীতি আৰু সংস্কৃতি" },
+                  "popularity": 9
+                }
               ]
             }
           ]
