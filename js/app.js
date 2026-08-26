@@ -3,8 +3,7 @@
    Application logic: i18n, navigation, routing, rendering,
    search, Q&A reader, Math Engine (Assamese + English), Mock Tests,
    Dedicated Downloads Search, Detailed Bilingual AdSense Legal Pages,
-   Pure White High-Contrast Footer Text, Mobile Center Align Fixed,
-   GK Unbold Light Font + Step-by-Step Math Precision,
+   Specialized Rich Article Reader for Study Guides,
    Pure Path-Based Routing (No # Hashes Anywhere).
    Domain: axomexam.in
    Default UI Language: English ("en").
@@ -44,7 +43,7 @@
     </svg>
   `;
 
-  /* PDF Optimized Vector Logo (Left Aligned & Protected Margin) */
+  /* PDF Optimized Vector Logo */
   const PDF_BRAND_LOGO_SVG = `
     <svg width="146" height="28" viewBox="0 0 146 28" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
       <defs>
@@ -121,7 +120,7 @@
     const processVal = (v) => {
       if (v === undefined || v === null) return "";
       if (Array.isArray(v)) {
-        return v.map(line => `<div class="qa-step-line" style="margin:0 0 4px 0; padding:0; line-height:1.55; text-align:left;">${formatMath(line)}</div>`).join("");
+        return v.map(line => `<div class="qa-step-line" style="margin:0 0 6px 0; padding:0; line-height:1.65; text-align:left;">${formatMath(line)}</div>`).join("");
       }
       if (typeof v === "object") {
         return processVal(v[targetLang] || v.as || v.en || Object.values(v)[0] || "");
@@ -145,9 +144,9 @@
     }
 
     const candidateKeys = [fieldName];
-    if (fieldName === "question") candidateKeys.push("q", "question_text");
-    if (fieldName === "answer") candidateKeys.push("a", "ans");
-    if (fieldName === "explanation") candidateKeys.push("exp", "desc");
+    if (fieldName === "question") candidateKeys.push("q", "question_text", "headline", "title");
+    if (fieldName === "answer") candidateKeys.push("a", "ans", "content", "body", "description");
+    if (fieldName === "explanation") candidateKeys.push("exp", "desc", "key_points", "summary");
 
     for (const k of candidateKeys) {
       const val = item[k];
@@ -249,6 +248,7 @@
                 <li><a href="/mock-test" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "মক টেষ্ট" : "Mock Test"}</a></li>
                 <li><a href="/previous-year" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "বিগত বৰ্ষৰ প্ৰশ্ন" : "Previous Papers"}</a></li>
                 <li><a href="/downloads" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "নোটসমূহ ডাউনল'ড" : "Download Notes"}</a></li>
+                <li><a href="/category/study-guides" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "অধ্যয়ন নিৰ্দেশিকা" : "Study Guides"}</a></li>
                 <li><a href="/submit" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "প্ৰশ্ন প্ৰেৰণ কৰক" : "Submit Q&A"}</a></li>
               </ul>
             </div>
@@ -516,7 +516,7 @@
       </li>`;
   }
 
-  /* ================= Mobile Menu Builder ================= */
+  /* ================= Mobile Menu Builder (Fixed Order) ================= */
   function buildMobileNav() {
     const nav = $("#mobile-nav");
     if (!nav) return;
@@ -582,9 +582,14 @@
         </a>
       </li>`;
 
-    const ci = state.categories.findIndex((c) => c.id === "computer");
-    if (ci !== -1) catParts.splice(ci + 1, 0, downloadItem, prevYearItem, submitItem, contactItem);
-    else catParts.push(downloadItem, prevYearItem, submitItem, contactItem);
+    const targetIndex = state.categories.findIndex((c) => c.id === "study-guides");
+    const insertPos = targetIndex !== -1 ? targetIndex : state.categories.findIndex((c) => c.id === "computer");
+
+    if (insertPos !== -1) {
+      catParts.splice(insertPos + 1, 0, downloadItem, prevYearItem, submitItem, contactItem);
+    } else {
+      catParts.push(downloadItem, prevYearItem, submitItem, contactItem);
+    }
 
     nav.innerHTML = catParts.join("");
 
@@ -600,7 +605,7 @@
     });
   }
 
-  /* ================= Routing (Clean URL Path Handler) ================= */
+  /* ================= Routing ================= */
   function parsePath() {
     let p = window.location.pathname.replace(/^\/|\/$/g, "");
     if (window.location.search && window.location.search.startsWith("?/")) {
@@ -719,7 +724,7 @@
                 <span class="cat-ico">${catIconHTML(c.id)}</span>
                 <span class="cat-meta">
                   <b>${escapeHtml(localized(c.name))}</b>
-                  <span><span class="cat-count">${countTopics(c)}</span> ${t("cat.topics")}</span>
+                  <span><span class="cat-count">${countTopics(c)}</span> ${c.id === "study-guides" ? (state.uiLang === "as" ? "টা গাইড" : "Guides") : t("cat.topics")}</span>
                 </span>
               </a>`;
           }).join("")}
@@ -741,7 +746,7 @@
               <span class="rank">${i + 1}</span>
               <span style="display:flex; flex-direction:column; gap:2px;">
                 <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(r.title))}</span>
-                <span id="trend-count-${r.path.replace(/\//g, '-')}">${escapeHtml(localized(r.cat.name))} • ${r.nQuestions || 0} ${t("topic.questions")}</span>
+                <span id="trend-count-${r.path.replace(/\//g, '-')}">${escapeHtml(localized(r.cat.name))} • ${r.cat.id === "study-guides" ? (state.uiLang === "as" ? "পঢ়ক →" : "Read Guide →") : `${r.nQuestions || 0} ${t("topic.questions")}`}</span>
               </span>
               <span class="trend-flame">
                 <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
@@ -788,7 +793,7 @@
     });
   }
 
-  /* ================= Category page ================= */
+  /* ================= Category page (Card Text: "Read Guide" for study-guides) ================= */
   function renderCategoryPage(main, cat) {
     const subs = cat.subcategories || cat.sections || [];
     const directTopics = cat.topics || [];
@@ -880,19 +885,23 @@
 
   function topicListHTML(cat, sub, sec, topics) {
     if (!topics.length) return emptyHTML();
+    const isStudyGuide = cat.id === "study-guides";
+    const actionLabel = state.uiLang === "as" ? "পঢ়ক (Read Guide) →" : "Read Guide →";
+
     return `
       <div class="sub-grid">
         ${topics.map((tp, i) => {
           const path = [cat.id, sub ? sub.id : "", sec ? sec.id : ""].filter(Boolean).concat([tp.id]).join("/");
           const rec = state.topicMap[path];
           const qCount = (rec && rec.nQuestions > 0) ? rec.nQuestions : ((tp.questions || []).length);
-          const countDisplay = qCount > 0 ? `${qCount} ${t("topic.questions")}` : t("btn.practice");
+          const countDisplay = isStudyGuide ? actionLabel : (qCount > 0 ? `${qCount} ${t("topic.questions")}` : t("btn.practice"));
+
           return `
             <a class="sub-card reveal" href="/topic/${path}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
               <span class="sub-ico">${topicIconHTML(tp.id, cat.id)}</span>
               <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                 <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(tp.name))}</span>
-                <span id="count-${path.replace(/\//g, '-')}">${countDisplay}</span>
+                <span id="count-${path.replace(/\//g, '-')}" style="${isStudyGuide ? "color:var(--primary,#2563eb); font-weight:700;" : ""}">${countDisplay}</span>
               </span>
             </a>`;
         }).join("")}
@@ -905,7 +914,7 @@
     </div><p>${t("search.noresult")}</p></div>`;
   }
 
-  /* ================= Topic page ================= */
+  /* ================= Topic & Article Page Handler ================= */
   function breadcrumbForTopic(rec) {
     const bits = [`<a href="/">${t("breadcrumb.home")}</a>`];
     bits.push(`<a href="/category/${rec.cat.id}">${escapeHtml(localized(rec.cat.name))}</a>`);
@@ -924,6 +933,11 @@
         rec.nQuestions = (data.questions || []).length;
       }
     } catch { }
+
+    // Special Full-Width Rich Article Layout for Study Guides
+    if (rec.cat.id === "study-guides") {
+      return renderDedicatedArticlePage(main, rec);
+    }
 
     state.page = 0;
     const qs = rec.topic.questions || [];
@@ -954,30 +968,6 @@
           <div id="pager" style="display:flex; justify-content:center; align-items:center; gap:12px; margin-top:24px;"></div>
         </div>
       </div>
-
-      <style>
-        @media (max-width: 640px) {
-          .qa-toolbar {
-            justify-content: center !important;
-            text-align: center !important;
-            flex-direction: column !important;
-            gap: 12px !important;
-          }
-          .qa-actions {
-            justify-content: center !important;
-            width: 100% !important;
-          }
-          .qa-card {
-            margin-left: auto !important;
-            margin-right: auto !important;
-            box-sizing: border-box !important;
-            width: 100% !important;
-          }
-          .qa-options {
-            grid-template-columns: 1fr !important;
-          }
-        }
-      </style>
     `;
 
     renderQAPage();
@@ -990,6 +980,80 @@
         $$(".lang-btn").forEach((x) => x.classList.toggle("active", x.dataset.lang === state.lang));
         renderQAPage();
         refreshReadingModal();
+      });
+    });
+  }
+
+  /* ================= Dedicated Rich Article Layout (No Limits) ================= */
+  function renderDedicatedArticlePage(main, rec) {
+    const rawItems = rec.topic.questions || rec.topic.sections || [];
+    const isAs = state.lang === "as";
+
+    main.innerHTML = `
+      <div class="page-head" style="text-align:left; max-width:880px; margin:0 auto 24px auto;">
+        <nav class="breadcrumb">${breadcrumbForTopic(rec)}</nav>
+        <h1 style="font-size:1.85rem; font-weight:900; line-height:1.3; color:var(--ink,#0f172a); margin-bottom:8px;">${escapeHtml(localized(rec.topic.title))}</h1>
+        <p class="page-desc" style="font-size:0.96rem; line-height:1.6; color:var(--ink-soft,#475569); margin:0 0 16px 0;">${escapeHtml(localized(rec.topic.description)) || ""}</p>
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; border-top:1px solid var(--border,#e2e8f0); border-bottom:1px solid var(--border,#e2e8f0); padding:10px 0;">
+          <span style="font-size:0.82rem; font-weight:700; color:var(--primary,#2563eb); text-transform:uppercase; letter-spacing:0.5px;">
+            📚 ${isAs ? "সম্পূৰ্ণ পাঠ্য নিৰ্দেশিকা (Theory Guide)" : "Full Comprehensive Study Guide"}
+          </span>
+          <div class="lang-switch" role="group" aria-label="Reading language" style="display:inline-flex; border-radius:10px; overflow:hidden; border:1px solid var(--border,#cbd5e1);">
+            <button class="art-lang-btn ${state.lang === "as" ? "active" : ""}" type="button" data-lang="as" style="padding:5px 12px; font-weight:700; border:none; cursor:pointer; font-size:0.8rem;">অসমীয়া</button>
+            <button class="art-lang-btn ${state.lang === "en" ? "active" : ""}" type="button" data-lang="en" style="padding:5px 12px; font-weight:700; border:none; cursor:pointer; font-size:0.8rem;">English</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-container" style="max-width:880px; margin:0 auto; padding-bottom:50px;">
+        <div id="article-body-content" style="background:var(--card-bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:18px; padding:32px 28px; box-shadow:0 8px 24px -4px rgba(15,23,42,0.03); box-sizing:border-box;"></div>
+      </div>
+
+      <style>
+        .article-part-block { margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px dashed var(--border,#e2e8f0); }
+        .article-part-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .art-headline { font-size: 1.25rem; font-weight: 800; color: var(--ink,#0f172a); margin: 0 0 14px 0; line-height: 1.4; }
+        .art-paragraph { font-size: 0.98rem; line-height: 1.8; color: var(--ink-soft,#334155); margin: 0 0 14px 0; text-align: justify; }
+        .art-keynote { background: var(--bg-subtle,#f8fafc); border-left: 4px solid var(--primary,#2563eb); padding: 12px 16px; border-radius: 6px; font-size: 0.9rem; line-height: 1.6; color: var(--ink-muted,#475569); }
+        [data-theme="dark"] .article-container div { background: var(--bg-soft, #0f172a); border-color: var(--border, #2b3a55); }
+        [data-theme="dark"] .art-keynote { background: #1e293b; color: #cbd5e1; }
+      </style>
+    `;
+
+    const renderArticleText = () => {
+      const artBox = $("#article-body-content");
+      if (!artBox) return;
+
+      artBox.innerHTML = rawItems.map((item, idx) => {
+        const headline = extractField(item, "question");
+        const bodyText = extractField(item, "answer");
+        const explanation = extractField(item, "explanation");
+
+        return `
+          <div class="article-part-block">
+            <h2 class="art-headline">${formatMath(headline)}</h2>
+            <div class="art-paragraph">${formatMath(bodyText)}</div>
+            ${explanation ? `
+              <div class="art-keynote">
+                <b style="color:var(--primary,#2563eb);">${state.lang === "as" ? "গুৰুত্বপূৰ্ণ বিষয়" : "Key Takeaways"}:</b> ${formatMath(explanation)}
+              </div>` : ""
+            }
+          </div>
+        `;
+      }).join("");
+
+      renderMathJax(artBox);
+    };
+
+    renderArticleText();
+
+    $$(".art-lang-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        state.lang = btn.dataset.lang;
+        document.body.setAttribute("data-lang", state.lang);
+        $$(".art-lang-btn").forEach((x) => x.classList.toggle("active", x.dataset.lang === state.lang));
+        renderArticleText();
       });
     });
   }
@@ -1261,7 +1325,7 @@
               <span class="rank">${i + 1}</span>
               <span style="display:flex; flex-direction:column; gap:2px;">
                 <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(r.title))}</span>
-                <span id="trend-count-${r.path.replace(/\//g, '-')}">${escapeHtml(localized(r.cat.name))}${r.sub ? " • " + escapeHtml(localized(r.sub.name)) : ""} • ${r.nQuestions || 0} ${t("topic.questions")}</span>
+                <span id="trend-count-${r.path.replace(/\//g, '-')}">${escapeHtml(localized(r.cat.name))}${r.sub ? " • " + escapeHtml(localized(r.sub.name)) : ""} • ${r.cat.id === "study-guides" ? (state.uiLang === "as" ? "পঢ়ক →" : "Read Guide →") : `${r.nQuestions || 0} ${t("topic.questions")}`}</span>
               </span>
             </a>`).join("")}
         </div>
@@ -1409,26 +1473,6 @@
           ${isAs ? "ইমেইল প্ৰেৰণ কৰক" : "Send an Email"}
         </a>
       </div>
-
-      <style>
-        @media (max-width: 600px) {
-          .contact-wrapper {
-            border-radius: 0 !important;
-            border: none !important;
-            box-shadow: none !important;
-            padding: 12px 18px 24px !important;
-            margin-top: 0 !important;
-          }
-        }
-        [data-theme="dark"] .contact-wrapper {
-          background: var(--bg, #0b1120) !important;
-          border-color: var(--border, #2b3a55) !important;
-        }
-        [data-theme="dark"] .contact-wrapper div {
-          background: var(--bg-soft, #0f172a) !important;
-          border-color: var(--border, #2b3a55) !important;
-        }
-      </style>
     `;
     applyStaticI18n();
     observeReveals();
@@ -1493,7 +1537,7 @@
                 <span class="chip">${escapeHtml(localized(h.rec.cat.name))}</span>
                 <span style="display:flex; flex-direction:column; gap:2px;">
                   <span class="sr-title">${escapeHtml(localized(h.rec.title))}</span>
-                  <span class="sr-sub">${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.nQuestions || 0} ${t("topic.questions")}</span>
+                  <span class="sr-sub">${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.cat.id === "study-guides" ? (state.uiLang === "as" ? "নিৰ্দেশিকা" : "Guide") : `${h.rec.nQuestions || 0} ${t("topic.questions")}`}</span>
                 </span>
               </a>`).join("")}`;
           box.innerHTML += `<a class="sr-item" href="/trending" style="justify-content:center;color:var(--primary);font-weight:600;">${t("see.all")}</a>`;
@@ -1553,7 +1597,7 @@
             <span class="chip">${escapeHtml(localized(h.rec.cat.name))}</span>
             <span style="display:flex; flex-direction:column; gap:2px;">
               <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(h.rec.title))}</span>
-              <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.nQuestions || 0} ${t("topic.questions")}</span>
+              <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.cat.id === "study-guides" ? (state.uiLang === "as" ? "নিৰ্দেশিকা" : "Guide") : `${h.rec.nQuestions || 0} ${t("topic.questions")}`}</span>
             </span>
           </a>`).join("");
       }, 180);
@@ -1735,9 +1779,6 @@
         .pdf-btn-en-action:hover { background: var(--bg-soft, #f1f5f9); border-color: #2563eb; color: #2563eb; transform: translateY(-1px); }
         .pdf-btn-en-action:active { transform: scale(0.96); }
         .btn-indicator-dot { width: 8px; height: 8px; border-radius: 50%; background: #22c55e; display: inline-block; }
-        [data-theme="dark"] .pdf-pop-box { background: #0f172a !important; border-color: #334155 !important; color: #f8fafc !important; }
-        [data-theme="dark"] .pdf-btn-en-action { background: #1e293b !important; color: #f8fafc !important; border-color: #334155 !important; }
-        [data-theme="dark"] .pdf-btn-en-action:hover { border-color: #38bdf8 !important; color: #38bdf8 !important; }
       </style>
     `;
     document.body.appendChild(modal);
@@ -1757,7 +1798,7 @@
     });
   }
 
-  /* ================= Natural Flow-Based A4 PDF Exporter (Logo Position Adjusted) ================= */
+  /* ================= Natural Flow-Based A4 PDF Exporter ================= */
   async function generateTopicPdf(rec, lang) {
     if (state.isGeneratingPdf) return;
     state.isGeneratingPdf = true;
@@ -1891,7 +1932,7 @@
             <tr>
               <td style="vertical-align:bottom; text-align:left;">
                 <div style="font-size:15px; font-weight:800; color:#0f172a; line-height:1.2; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(titleText)}</div>
-                <div style="font-size:10.5px; color:#64748b; margin-top:2px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(catText)} • ${lang === "as" ? "মুঠ প্ৰশ্ন" : "Total Questions"}: ${qs.length} | ${langLabel}</div>
+                <div style="font-size:10.5px; color:#64748b; margin-top:2px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${escapeHtml(catText)} • ${lang === "as" ? "মুঠ বিষয়" : "Total Content"}: ${qs.length} | ${langLabel}</div>
               </td>
               <td style="vertical-align:bottom; text-align:right; width:155px; white-space:nowrap; padding-right:4px;">
                 ${PDF_BRAND_LOGO_SVG}
@@ -1963,7 +2004,7 @@
     }
   }
 
-  /* ================= Downloads page (Fixed Dynamic Question Counts) ================= */
+  /* ================= Downloads page ================= */
   async function renderDownloadsPage(main) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
     let files = [];
@@ -1997,7 +2038,7 @@
               </span>
               <span class="dl-meta">
                 <b>${escapeHtml(localized(rec.title))}</b>
-                <span>${escapeHtml(localized(rec.cat.name))}${rec.sub ? " • " + escapeHtml(localized(rec.sub.name)) : ""} • <span id="dl-count-${rec.path.replace(/\//g, '-')}">${rec.nQuestions || 0}</span> Questions</span>
+                <span>${escapeHtml(localized(rec.cat.name))}${rec.sub ? " • " + escapeHtml(localized(rec.sub.name)) : ""} • <span id="dl-count-${rec.path.replace(/\//g, '-')}">${rec.nQuestions || 0}</span> ${rec.cat.id === "study-guides" ? "Chapters" : "Questions"}</span>
               </span>
               <button class="dl-btn dl-save topic-pdf-btn" data-path="${escapeHtml(rec.path)}" type="button" style="text-transform:none;">Download</button>
             </div>
@@ -2209,17 +2250,6 @@
           <div id="form-error" class="error-msg" style="padding:10px 12px;border-radius:12px;font-size:0.84rem;font-weight:600;display:none;text-align:center;background:#fef2f2;color:#dc2626;border:1px solid #fecaca;"></div>
         </form>
       </div>
-
-      <style>
-        input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
-        #submitBtn:hover { background: #1d4ed8 !important; transform: translateY(-1px); }
-        #submitBtn:active { transform: scale(0.98); }
-        [data-theme="dark"] .form-wrapper input, [data-theme="dark"] .form-wrapper textarea { background: var(--bg-soft, #0f172a) !important; color: var(--ink, #e5e7eb) !important; border-color: var(--border, #2b3a55) !important; }
-        [data-theme="dark"] .form-wrapper input:focus, [data-theme="dark"] .form-wrapper textarea:focus { border-color: #2563eb !important; box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2) !important; }
-        [data-theme="dark"] .captcha-container { background: var(--bg-soft, #0f172a) !important; border-color: var(--border, #2b3a55) !important; }
-        [data-theme="dark"] .captcha-badge-wrap, [data-theme="dark"] #captcha-answer { background: var(--bg, #0b1120) !important; border-color: var(--border, #2b3a55) !important; color: var(--ink, #e5e7eb) !important; }
-        [data-theme="dark"] .success-modal-card { background: var(--bg-soft, #0f172a) !important; border-color: var(--border, #2b3a55) !important; color: var(--ink, #e5e7eb) !important; }
-      </style>
     `;
 
     const i18nSubmit = {
@@ -2496,6 +2526,8 @@
   }
 
   function renderMockCategoryPicker(main) {
+    const mockCategories = state.categories.filter(c => c.id !== "study-guides");
+
     main.innerHTML = `
       <div class="mock-intro">
         <h1>${t("mock.title")}</h1>
@@ -2504,7 +2536,7 @@
       <section class="section" style="padding-bottom:30px;">
         <div class="section-head"><div><h2>${t("mock.pick")}</h2><p class="sec-sub">${t("mock.pick.sub")}</p></div></div>
         <div class="mock-grid">
-          ${state.categories.map((c, i) => {
+          ${mockCategories.map((c, i) => {
             const color = catColor(c.id);
             return `
               <div class="mock-card reveal" style="--cat:${color}" data-delay="${i * 40}">
@@ -2918,7 +2950,7 @@
     });
   }
 
-  /* ================= Global Link Handler (No Hash Interception) ================= */
+  /* ================= Global Link Handler ================= */
   function bindLinkInterception() {
     document.addEventListener("click", (e) => {
       const a = e.target.closest("a");
@@ -2985,10 +3017,10 @@
             rec.topic.questions = list;
             
             const el = document.getElementById(`count-${rec.path.replace(/\//g, '-')}`);
-            if (el) el.textContent = `${rec.nQuestions} ${t("topic.questions")}`;
+            if (el && rec.cat.id !== "study-guides") el.textContent = `${rec.nQuestions} ${t("topic.questions")}`;
 
             const tEl = document.getElementById(`trend-count-${rec.path.replace(/\//g, '-')}`);
-            if (tEl) tEl.textContent = `${escapeHtml(localized(rec.cat.name))} • ${rec.nQuestions} ${t("topic.questions")}`;
+            if (tEl && rec.cat.id !== "study-guides") tEl.textContent = `${escapeHtml(localized(rec.cat.name))} • ${rec.nQuestions} ${t("topic.questions")}`;
 
             const dlEl = document.getElementById(`dl-count-${rec.path.replace(/\//g, '-')}`);
             if (dlEl) dlEl.textContent = `${rec.nQuestions}`;
