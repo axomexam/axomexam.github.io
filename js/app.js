@@ -424,6 +424,19 @@
     return state.topicIndex.filter((r) => r.cat.id === cat.id).length;
   }
 
+  /* Home grid order — keep the Articles card directly below Computer Awareness */
+  function homeCategoriesOrder() {
+    const list = state.categories.slice();
+    const artIdx = list.findIndex((c) => c.id === "articles");
+    if (artIdx !== -1) {
+      const [art] = list.splice(artIdx, 1);
+      const pos = list.findIndex((c) => c.id === "computer");
+      if (pos !== -1) list.splice(pos + 1, 0, art);
+      else list.push(art);
+    }
+    return list;
+  }
+
   function navLinkHTML(item, activePath) {
     const kids = item.subcategories || item.sections || [];
     const hasKids = !!(kids && kids.length);
@@ -717,10 +730,10 @@
           </div>
         </div>
         <div class="cat-grid">
-          ${state.categories.map((c, i) => {
+          ${homeCategoriesOrder().map((c, i) => {
             const color = catColor(c.id);
             return `
-              <a class="cat-card reveal" href="/category/${c.id}" style="--cat:${color}" data-delay="${i * 60}">
+              <a class="cat-card reveal" href="/category/${c.id}" data-cat="${c.id}" style="--cat:${color}" data-delay="${i * 60}">
                 <span class="cat-ico">${catIconHTML(c.id)}</span>
                 <span class="cat-meta">
                   <b>${escapeHtml(localized(c.name))}</b>
@@ -729,6 +742,11 @@
               </a>`;
           }).join("")}
         </div>
+        <style>
+          @media (min-width: 544px) and (max-width: 799px) {
+            .cat-card[data-cat="articles"] { grid-column: 2; }
+          }
+        </style>
       </section>
 
       <section class="section" style="padding-bottom: 40px;">
@@ -957,11 +975,11 @@
         .art-read-btn {
           display: inline-flex; align-items: center; justify-content: center; gap: 9px;
           padding: 14px 34px; border-radius: 99px; font-weight: 800; font-size: 1rem;
-          color: #ffffff; background: linear-gradient(135deg, #e11d48, #f43f5e);
-          box-shadow: 0 10px 24px -8px rgba(225,29,72,.55);
+          color: #ffffff; background: linear-gradient(135deg, #2563eb, #3b82f6);
+          box-shadow: 0 10px 24px -8px rgba(37,99,235,.55);
           border: none; cursor: pointer; transition: transform .2s ease, box-shadow .2s ease; text-decoration: none;
         }
-        .art-read-btn:hover { transform: translateY(-2px); box-shadow: 0 16px 30px -10px rgba(225,29,72,.6); }
+        .art-read-btn:hover { transform: translateY(-2px); box-shadow: 0 16px 30px -10px rgba(37,99,235,.6); }
         .art-read-note { margin-top: 12px; font-size: .8rem; color: var(--ink-faint, #94a3b8); text-align: center; }
 
         @media (max-width: 520px) {
