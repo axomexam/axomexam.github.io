@@ -1,0 +1,41 @@
+{
+  "id": "computer",
+  "title": {
+    "en": "Computer Awareness Articles",
+    "as": "কম্পিউটাৰ জ্ঞান সম্পৰ্কীয় প্ৰবন্ধসমূহ"
+  },
+  "description": {
+    "en": "Reading-only articles on computer fundamentals and MS Office.",
+    "as": "কম্পিউটাৰৰ মূল ধাৰণা আৰু MS Office সম্পৰ্কীয় পঢ়া-মাত্ৰ প্ৰবন্ধসমূহ।"
+  },
+  "questions": [
+    {
+      "q": {
+        "en": "Computer Basics: Hardware and Software",
+        "as": "কম্পিউটাৰৰ মূল কথা: হাৰ্ডৱেৰ আৰু চফ্টৱেৰ"
+      },
+      "a": {
+        "en": "A computer is an electronic device that accepts data, processes it and gives output. The physical parts of a computer that we can touch are called hardware. This includes the CPU (Central Processing Unit), which is called the brain of the computer, along with the monitor, keyboard, mouse and printer. The set of instructions that tells the computer what to do is called software. Software is of two types: system software such as the operating system (Windows, Linux, macOS), and application software such as MS Word, Excel and browsers. Without software, hardware is just a useless machine.",
+        "as": "কম্পিউটাৰ হৈছে এটা ইলেক্ট্ৰনিক যন্ত্ৰ, যিয়ে তথ্য গ্ৰহণ কৰি প্ৰক্ৰিয়াকৰণ কৰি ফলাফল দিয়ে। কম্পিউটাৰৰ যিবোৰ অংশ আমি স্পৰ্শ কৰিব পাৰো সেইবোৰক হাৰ্ডৱেৰ বোলা হয়। ইয়াৰ ভিতৰত CPU (কেন্দ্ৰীয় প্ৰক্ৰিয়াকৰণ একক), যাক কম্পিউটাৰৰ মগজু বোলা হয়, লগতে মনিটৰ, কীব'ৰ্ড, মাউছ আৰু প্ৰিন্টাৰ আদি আছে। কম্পিউটাৰক কি কৰিব লাগে সেই নিৰ্দেশনা সমূহক চফ্টৱেৰ বোলা হয়। চফ্টৱেৰ দুবিধ: চিষ্টেম চফ্টৱেৰ যেনে অপাৰেটিং চিষ্টেম (Windows, Linux, macOS), আৰু এপ্লিকেচন চফ্টৱেৰ যেনে MS Word, Excel আৰু ব্ৰাউজাৰ। চফ্টৱেৰ নাথাকিলে হাৰ্ডৱেৰ নিষ্কাম যন্ত্ৰহে।"
+      },
+      "explanation": {
+        "en": "Hardware = physical parts (CPU = brain); Software = instructions (system + application).",
+        "as": "হাৰ্ডৱেৰ = শাৰীৰিক অংশ (CPU = মগজু); চফ্টৱেৰ = নিৰ্দেশনা (চিষ্টেম + এপ্লিকেচন)।"
+      }
+    },
+    {
+      "q": {
+        "en": "MS Excel Essentials for Beginners",
+        "as": "আৰম্ভণিৰ বাবে MS Excel ৰ মূল কথা"
+      },
+      "a": {
+        "en": "MS Excel is a spreadsheet application used for organising data, doing calculations and making charts. A workbook is made of sheets, and each sheet is a grid of rows and columns. The intersection of a row and a column is called a cell, and each cell has a unique address such as A1 or B2. Formulas always start with the equals (=) sign, for example =SUM(A1:A5) adds the values of the first five cells of column A. Excel is widely used in exams for questions on basic formulas, shortcuts such as Ctrl+C for copy and Ctrl+V for paste, and functions like SUM, AVERAGE and COUNT.",
+        "as": "MS Excel হৈছে এটা স্প্ৰেডশ্বিট এপ্লিকেচন, যি তথ্য সংগঠন, গণনা আৰু চাৰ্ট তৈয়াৰ কৰিবলৈ ব্যৱহাৰ হয়। এটা workbook কেইবাটাও sheet ৰে গঠিত, আৰু প্ৰতিটো sheet হৈছে শাৰী আৰু স্তম্ভৰ এখন জালি। শাৰী আৰু স্তম্ভৰ মিলন বিন্দুক cell বোলা হয়, আৰু প্ৰতিটো cell ৰ একোটা বিশেষ ঠিকনা থাকে যেনে A1 বা B2। ফৰ্মূলা সদায় সমান (=) চিনৰে আৰম্ভ হয়, যেনে =SUM(A1:A5) য়ে স্তম্ভ A ৰ প্ৰথম পাঁচটা cell ৰ যোগফল দিয়ে। পৰীক্ষাত প্ৰায়ে মৌলিক ফৰ্মূলা, Ctrl+C কপি আৰু Ctrl+V পেষ্ট আদি চৰ্টকাট, আৰু SUM, AVERAGE, COUNT আদি ফাংচন সম্পৰ্কীয় প্ৰশ্ন আহে।"
+      },
+      "explanation": {
+        "en": "Cell = row × column intersection; formulas start with =; =SUM(A1:A5) adds cells.",
+        "as": "Cell = শাৰী আৰু স্তম্ভৰ মিলন; ফৰ্মূলা = চিনেৰে আৰম্ভ হয়; =SUM(A1:A5) যোগফল দিয়ে।"
+      }
+    }
+  ]
+}
