@@ -551,6 +551,57 @@
           ]
         }
       ]
+    },
+    {
+      "id": "study-guides",
+      "name": { "en": "Study Guides", "as": "অধ্যয়ন নিৰ্দেশিকা" },
+      "description": { "en": "Comprehensive syllabus breakdown, detailed subject-wise theory guides, and strategies for competitive exams.", "as": "প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে প্ৰতিটো বিষয়ৰ বিশদ আলোচনা, সম্পূৰ্ণ নোটছ আৰু নিৰ্দেশনা।" },
+      "color": "#e11d48",
+      "icon": "📖",
+      "subcategories": [
+        {
+          "id": "guide-general-knowledge",
+          "name": { "en": "General Knowledge Guide", "as": "সাধাৰণ জ্ঞান নিৰ্দেশিকা" },
+          "topics": [
+            { "id": "complete-general-knowledge-article", "name": { "en": "Assam GK, History, Geography & Polity Comprehensive Notes", "as": "অসমৰ বুৰঞ্জী, ভূগোল আৰু ৰাজনীতিৰ সম্পূৰ্ণ আলোচনা" }, "popularity": 10 }
+          ]
+        },
+        {
+          "id": "guide-mathematics",
+          "name": { "en": "Mathematics Master Guide", "as": "গণিতৰ সম্পূৰ্ণ নিৰ্দেশিকা" },
+          "topics": [
+            { "id": "complete-mathematics-guide-article", "name": { "en": "Quantitative Aptitude: Formulas, Shortcuts & Core Concepts", "as": "পাটিগণিত আৰু উচ্চ গণিতৰ সকলো সূত্ৰ আৰু চৰ্টকাট নিয়ম" }, "popularity": 10 }
+          ]
+        },
+        {
+          "id": "guide-general-science",
+          "name": { "en": "General Science Handbook", "as": "সাধাৰণ বিজ্ঞানৰ হাতপুথি" },
+          "topics": [
+            { "id": "complete-general-science-article", "name": { "en": "Physics, Chemistry & Biology In-Depth Revision Guide", "as": "পদাৰ্থ, ৰসায়ন আৰু জীৱবিজ্ঞানৰ প্ৰধান তত্ব আৰু তথ্য" }, "popularity": 10 }
+          ]
+        },
+        {
+          "id": "guide-reasoning-ability",
+          "name": { "en": "Reasoning Ability Guide", "as": "যুক্তি আৰু মানসিক ক্ষমতা নিৰ্দেশিকা" },
+          "topics": [
+            { "id": "complete-reasoning-guide-article", "name": { "en": "Verbal & Non-Verbal Reasoning Tricks & Concepts", "as": "মৌখিক আৰু অবাচ্য যুক্তিৰ সহজ নিয়ম আৰু কৌশল" }, "popularity": 9 }
+          ]
+        },
+        {
+          "id": "guide-general-english",
+          "name": { "en": "General English Guide", "as": "সাধাৰণ ইংৰাজী ব্যাকৰণ নিৰ্দেশিকা" },
+          "topics": [
+            { "id": "complete-general-english-article", "name": { "en": "English Grammar, Vocabulary Rules & Comprehension", "as": "ইংৰাজী ব্যাকৰণ, Tense, Preposition আৰু শব্দভাণ্ডাৰ" }, "popularity": 9 }
+          ]
+        },
+        {
+          "id": "guide-computer-awareness",
+          "name": { "en": "Computer Awareness Guide", "as": "কম্পিউটাৰ জ্ঞান নিৰ্দেশিকা" },
+          "topics": [
+            { "id": "complete-computer-guide-article", "name": { "en": "Computer Architecture, MS Office, Networking & Shortcuts", "as": "কম্পিউটাৰ স্থাপত্য, MS Office, ইণ্টাৰনেট আৰু চৰ্টকাটসমূহ" }, "popularity": 9 }
+          ]
+        }
+      ]
     }
   ]
 }
