@@ -595,8 +595,16 @@
         </a>
       </li>`;
 
-    const targetIndex = state.categories.findIndex((c) => c.id === "study-guides");
-    const insertPos = targetIndex !== -1 ? targetIndex : state.categories.findIndex((c) => c.id === "computer");
+    const orderedCats = homeCategoriesOrder();
+    const targetIndex = orderedCats.findIndex((c) => c.id === "study-guides");
+    let insertPos = targetIndex !== -1 ? targetIndex : orderedCats.findIndex((c) => c.id === "computer");
+
+    /* When the Articles card directly follows Computer Awareness, insert the
+       extra items AFTER Articles so Articles stays right below Computer */
+    if (insertPos !== -1) {
+      const artIdx = orderedCats.findIndex((c) => c.id === "articles");
+      if (artIdx === insertPos + 1) insertPos = artIdx;
+    }
 
     if (insertPos !== -1) {
       catParts.splice(insertPos + 1, 0, downloadItem, prevYearItem, submitItem, contactItem);
