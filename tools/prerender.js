@@ -275,6 +275,17 @@ function shellHTML({ route, title, description, canonical, keywords, body }) {
   <!-- Fixed Absolute CSS Path -->
   <link rel="stylesheet" href="/css/style.css?v=20260826a" />
 
+  <!-- GitHub Pages / Netlify Clean URL Single Page App Redirection Handler -->
+  <script>
+    (function() {
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect !== location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
+
   <!-- Google AdSense Script -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4574824794620382" crossorigin="anonymous"></script>
 
@@ -1447,8 +1458,12 @@ ${sitemapUrls.join("\n")}
   /* robots.txt (copy, keep sitemap pointer) */
   fs.copyFileSync(path.join(ROOT, "robots.txt"), path.join(OUT, "robots.txt"));
 
-  /* Copy static site assets (shell + assets + data) */
-  for (const name of ["index.html", "404.html", "CNAME", "_redirects", "css", "js", "data"]) {
+  /* Copy static site assets (shell + assets + data).
+     NOTE: root index.html is NOT copied — the generated homepage
+     (buildHome) already contains the full SPA shell AND prerendered
+     content, so copying the bare shell over it would leave the
+     homepage empty for crawlers (AdSense/SEO review). */
+  for (const name of ["404.html", "CNAME", "_redirects", "css", "js", "data"]) {
     const src = path.join(ROOT, name);
     const dst = path.join(OUT, name);
     if (fs.existsSync(src)) fs.cpSync(src, dst, { recursive: true });
