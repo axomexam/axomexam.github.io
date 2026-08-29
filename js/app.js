@@ -655,6 +655,62 @@
     html.style.scrollBehavior = prev;
   }
 
+  /* Keep <title>, meta description and canonical unique per route for SEO */
+  function updateSEO() {
+    try {
+      const segs = parsePath();
+      let title = "axomexam | Competitive Exam Preparation";
+      let desc = "Free bilingual (Assamese & English) Q&A and PDF notes for competitive exams in Assam.";
+
+      if (segs[0] === "topic") {
+        const rec = state.topicMap[segs.slice(1).join("/")];
+        if (rec) {
+          const t = localized(rec.topic.title || rec.title);
+          title = t ? t + " | axomexam" : title;
+          const d = localized(rec.topic.description || rec.desc);
+          if (d) desc = d;
+        }
+      } else if (segs[0] === "category" && segs[1]) {
+        const cat = state.categories.find((c) => c.id === segs[1]);
+        if (cat) {
+          const n = localized(cat.name);
+          title = n ? n + " | axomexam" : title;
+          const d = localized(cat.description);
+          if (d) desc = d;
+        }
+      } else if (segs[0] === "mock-test") {
+        const cat = state.categories.find((c) => c.id === segs[1]);
+        const n = cat ? localized(cat.name) : "";
+        title = (n ? n + " " : "") + "Mock Test | axomexam";
+      } else if (segs[0] === "previous-year") {
+        title = "Previous Year Question Papers | axomexam";
+      } else if (segs[0] === "trending") {
+        title = "Trending Topics | axomexam";
+      } else if (segs[0] === "downloads") {
+        title = "Download Free PDF Notes | axomexam";
+      } else if (segs[0] === "categories") {
+        title = "All Categories | axomexam";
+      } else if (["about", "privacy", "privacy-policy", "terms", "disclaimer", "contact", "submit"].includes(segs[0])) {
+        const map = { about: "About Us", privacy: "Privacy Policy", "privacy-policy": "Privacy Policy", terms: "Terms & Conditions", disclaimer: "Disclaimer", contact: "Contact Us", submit: "Submit Q&A" };
+        title = (map[segs[0]] || "axomexam") + " | axomexam";
+      }
+
+      document.title = title;
+      let m = document.querySelector('meta[name="description"]');
+      if (!m) {
+        m = document.createElement("meta");
+        m.name = "description";
+        document.head.appendChild(m);
+      }
+      m.content = desc;
+
+      let p = window.location.pathname;
+      if (p.length > 1 && p.endsWith("/")) p = p.slice(0, -1);
+      const link = document.querySelector('link[rel="canonical"]');
+      if (link) link.href = window.location.origin + p;
+    } catch (e) { }
+  }
+
   async function renderRoute() {
     if (!state.ready) return;
     const segs = parsePath();
@@ -663,6 +719,7 @@
     closeReadingModal();
     updateTabbar(segs);
     resetScroll();
+    updateSEO();
 
     if (segs[0] !== "mock-test" && state.mock && state.mock.timerId) {
       stopMockTimer();
