@@ -38,6 +38,11 @@ const SITE_NAME = "axomexam";
 const SITE_TAGLINE =
   "Free bilingual (Assamese & English) Q&A and PDF notes for competitive exams in Assam.";
 
+/* Exam-name keyword mentions (used across Mathematics SEO pages). */
+const EXAM_TITLE = "APSC, ADRE 2.0, Assam Police, SSC & Railway";
+const EXAM_SENTENCE = "APSC, ADRE 2.0, Assam Police, SSC and Railway exams in Assam";
+const isMathCat = (cat) => cat && cat.id === "math";
+
 /* ================= helpers ================= */
 
 function escapeHtml(str) {
@@ -59,6 +64,30 @@ function locAs(obj) {
   if (obj == null) return "";
   if (typeof obj === "object" && !Array.isArray(obj)) return obj.as || obj.en || "";
   return "";
+}
+
+/* Convert multiline bullet-list description text into semantic HTML
+   (matches the SPA's expandable "Read More" page-desc rendering). */
+function descHTML(desc) {
+  const lines = String(desc || "")
+    .split("\n")
+    .map((s) => s.trim())
+    .filter(Boolean);
+  if (lines.length <= 1) return escapeHtml(desc || "");
+  let html = "";
+  let inList = false;
+  for (const line of lines) {
+    const m = line.match(/^[•\-*]\s*(.*)$/);
+    if (m) {
+      if (!inList) { html += "<ul>"; inList = true; }
+      html += "<li>" + escapeHtml(m[1]) + "</li>";
+    } else {
+      if (inList) { html += "</ul>"; inList = false; }
+      html += "<p>" + escapeHtml(line) + "</p>";
+    }
+  }
+  if (inList) html += "</ul>";
+  return html;
 }
 
 function readJSON(p) {
@@ -476,7 +505,7 @@ function pageHead(breadcrumb, h1, desc) {
       <div class="page-head">
         <nav class="breadcrumb">${breadcrumb}</nav>
         <h1>${escapeHtml(h1)}</h1>
-        ${desc ? `<p class="page-desc">${escapeHtml(desc)}</p>` : ""}
+        ${desc ? `<p class="page-desc">${descHTML(desc)}</p>` : ""}
       </div>`;
 }
 
@@ -675,11 +704,20 @@ function buildCategoryPage(cat) {
     pageHead(crumb, loc(cat.name), loc(cat.description)) +
     `<section class="section" style="padding-bottom:40px;">${listing || emptyHTML()}</section>`;
 
+  const isMath = isMathCat(cat);
+  const pageTitle = isMath
+    ? `Mathematics Questions for ${EXAM_TITLE} | axomexam`
+    : `${loc(cat.name)} Questions for Competitive Exams | axomexam`;
+  const pageDesc = loc(cat.description) ||
+    (isMath
+      ? `Quantitative aptitude, arithmetic, advanced math & DI with solved questions and answers for ${EXAM_SENTENCE}.`
+      : `Practice ${loc(cat.name)} questions with answers in English and Assamese for competitive exams in Assam.`);
+
   return {
     html: shellHTML({
       route: `/category/${cat.id}`,
-      title: `${loc(cat.name)} Questions for Competitive Exams | axomexam`,
-      description: loc(cat.description) || `Practice ${loc(cat.name)} questions with answers in English and Assamese for competitive exams in Assam.`,
+      title: pageTitle,
+      description: pageDesc,
       canonical: `${BASE}/category/${cat.id}`,
       body,
     }),
@@ -713,11 +751,13 @@ function buildSubCategoryPage(cat, sub) {
     pageHead(crumb, loc(sub.name), loc(sub.description)) +
     `<section class="section" style="padding-bottom:40px;">${listing || emptyHTML()}</section>`;
 
+  const isMath = isMathCat(cat);
   return {
     html: shellHTML({
       route: `/category/${cat.id}/${sub.id}`,
       title: `${loc(sub.name)} - ${loc(cat.name)} | axomexam`,
-      description: loc(sub.description) || `Practice ${loc(sub.name)} questions with answers in English and Assamese.`,
+      description: loc(sub.description) ||
+        `Practice ${loc(sub.name)} questions with answers in English and Assamese${isMath ? ` for ${EXAM_SENTENCE}` : ""}.`,
       canonical: `${BASE}/category/${cat.id}/${sub.id}`,
       body,
     }),
@@ -740,11 +780,13 @@ function buildSectionPage(cat, sub, sec) {
     pageHead(crumb, loc(sec.name), loc(sec.description)) +
     `<section class="section" style="padding-bottom:40px;">${topicListHTML(cat, sub, sec, sec.topics || [])}</section>`;
 
+  const isMath = isMathCat(cat);
   return {
     html: shellHTML({
       route: `/category/${cat.id}/${sub.id}/${sec.id}`,
       title: `${loc(sec.name)} - ${loc(sub.name)} | axomexam`,
-      description: loc(sec.description) || `Practice ${loc(sec.name)} questions with answers in English and Assamese.`,
+      description: loc(sec.description) ||
+        `Practice ${loc(sec.name)} questions with answers in English and Assamese${isMath ? ` for ${EXAM_SENTENCE}` : ""}.`,
       canonical: `${BASE}/category/${cat.id}/${sub.id}/${sec.id}`,
       body,
     }),
@@ -840,9 +882,12 @@ function buildArticleReader(cat, sub) {
 function buildTopicPage(rec) {
   const content = readTopicContent(rec.cat.id, rec.topic.id) || {};
   const title = loc(content.title || rec.topic.title || rec.topic.name);
-  const desc =
+  const baseDesc =
     loc(content.description || rec.topic.description) ||
     `${title} - practice questions with answers for competitive exams in Assam.`;
+  const desc = isMathCat(rec.cat)
+    ? (baseDesc.includes("APSC") ? baseDesc : `${baseDesc} Useful for ${EXAM_SENTENCE}.`)
+    : baseDesc;
   const tags = (content.tags || rec.tags || []).join(", ");
   const qs = content.questions || rec.topic.questions || [];
 
@@ -930,11 +975,16 @@ function buildMockSubPicker(cat) {
   ]);
   const body = pageHead(crumb, `${loc(cat.name)} Mock Test`, "") +
     `<section class="section" style="padding-bottom:40px;"><div class="sub-grid">${cards}</div></section>`;
+  const isMath = isMathCat(cat);
   return {
     html: shellHTML({
       route: `/mock-test/${cat.id}`,
-      title: `${loc(cat.name)} Mock Test | axomexam`,
-      description: `Free timed ${loc(cat.name)} mock test with questions and answers for competitive exams in Assam.`,
+      title: isMath
+        ? `Mathematics Mock Test for ${EXAM_TITLE} | axomexam`
+        : `${loc(cat.name)} Mock Test | axomexam`,
+      description: isMath
+        ? `Free timed Mathematics mock test with questions and answers for ${EXAM_SENTENCE}.`
+        : `Free timed ${loc(cat.name)} mock test with questions and answers for competitive exams in Assam.`,
       canonical: `${BASE}/mock-test/${cat.id}`,
       body,
     }),
@@ -964,11 +1014,16 @@ function buildMockSectionPicker(cat, sub) {
   ]);
   const body = pageHead(crumb, `${loc(sub.name)} Mock Test`, "") +
     `<section class="section" style="padding-bottom:40px;"><div class="sub-grid">${cards}</div></section>`;
+  const isMath = isMathCat(cat);
   return {
     html: shellHTML({
       route: `/mock-test/${cat.id}/${sub.id}`,
-      title: `${loc(sub.name)} Mock Test | axomexam`,
-      description: `Free timed ${loc(sub.name)} mock test for ${loc(cat.name)} competitive exams in Assam.`,
+      title: isMath
+        ? `${loc(sub.name)} Mock Test for ${EXAM_TITLE} | axomexam`
+        : `${loc(sub.name)} Mock Test | axomexam`,
+      description: isMath
+        ? `Free timed ${loc(sub.name)} mock test with questions and answers for ${EXAM_SENTENCE}.`
+        : `Free timed ${loc(sub.name)} mock test for ${loc(cat.name)} competitive exams in Assam.`,
       canonical: `${BASE}/mock-test/${cat.id}/${sub.id}`,
       body,
     }),
@@ -999,11 +1054,16 @@ function buildMockTopicPicker(cat, sub, sec) {
   ]);
   const body = pageHead(crumb, `${loc(sec.name)} Mock Test`, "") +
     `<section class="section" style="padding-bottom:40px;"><div class="sub-grid">${cards}</div></section>`;
+  const isMath = isMathCat(cat);
   return {
     html: shellHTML({
       route: `/mock-test/${cat.id}/${sub.id}/${sec.id}`,
-      title: `${loc(sec.name)} Mock Test | axomexam`,
-      description: `Free timed ${loc(sec.name)} mock test for ${loc(cat.name)} competitive exams in Assam.`,
+      title: isMath
+        ? `${loc(sec.name)} Mock Test for ${EXAM_TITLE} | axomexam`
+        : `${loc(sec.name)} Mock Test | axomexam`,
+      description: isMath
+        ? `Free timed ${loc(sec.name)} mock test with questions and answers for ${EXAM_SENTENCE}.`
+        : `Free timed ${loc(sec.name)} mock test for ${loc(cat.name)} competitive exams in Assam.`,
       canonical: `${BASE}/mock-test/${cat.id}/${sub.id}/${sec.id}`,
       body,
     }),
@@ -1027,11 +1087,16 @@ function buildMockSetup(cat) {
     `${name} Mock Test Setup`,
     "Configure your mock test and start practising."
   ) + `<section class="section" style="padding-bottom:40px;"><p>${topicCount} topics available. Choose a topic to start the timed test.</p></section>`;
+  const isMath = isMathCat(cat);
   return {
     html: shellHTML({
       route: `/mock-test/${cat.id}/start`,
-      title: `${name} Mock Test - Start | axomexam`,
-      description: `Start a free timed ${name} mock test with questions and answers for competitive exams in Assam.`,
+      title: isMath
+        ? `Mathematics Mock Test - Start (${EXAM_TITLE}) | axomexam`
+        : `${name} Mock Test - Start | axomexam`,
+      description: isMath
+        ? `Start a free timed Mathematics mock test with questions and answers for ${EXAM_SENTENCE}.`
+        : `Start a free timed ${name} mock test with questions and answers for competitive exams in Assam.`,
       canonical: `${BASE}/mock-test/${cat.id}/start`,
       body,
     }),

@@ -1905,7 +1905,7 @@
                 <span class="cat-ico">${catIconHTML(c.id)}</span>
                 <span class="cat-meta">
                   <b>${escapeHtml(localized(c.name))}</b>
-                  <span>${escapeHtml(localized(c.description))}</span>
+                  <span>${c.id === "articles" ? (state.uiLang === "as" ? "প্ৰবন্ধসমূহ" : "Articles") : `<span class="cat-count">${countTopics(c)}</span> ${c.id === "study-guides" ? (state.uiLang === "as" ? "টা গাইড" : "Guides") : t("cat.topics")}`}</span>
                 </span>
               </a>`;
           }).join("")}
