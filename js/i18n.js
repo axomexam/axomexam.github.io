@@ -158,6 +158,8 @@ const I18N = {
     "submit.hint": "Your message opens in WhatsApp or Telegram with all details filled in.",
     "submit.need": "Please fill in at least the topic and question.",
     "mmenu.extra": "More",
+    "desc.readMore": "Read More",
+    "desc.readLess": "Show Less",
   },
 
   as: {
@@ -312,5 +314,7 @@ const I18N = {
     "submit.hint": "আপোনাৰ বাৰ্তা সকলোখিনি পূৰ্ণ হৈ WhatsApp বা Telegramত খোলিব।",
     "submit.need": "অনুগ্ৰহ কৰি অন্ততঃ বিষয় আৰু প্ৰশ্ন দুয়োটা পূৰণ কৰক।",
     "mmenu.extra": "অধিক",
+    "desc.readMore": "আৰু পঢ়ক",
+    "desc.readLess": "কম দেখুৱাওক",
   },
 };

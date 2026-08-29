@@ -3260,6 +3260,71 @@
     if (pre) setTimeout(() => pre.classList.add("done"), 350);
   }
 
+  /* ================= Expandable "Read More" Page Description ================= */
+  function enhancePageDesc() {
+    const app = $("#app");
+    if (!app) return;
+    app.querySelectorAll(".page-desc").forEach((el) => {
+      if (el.dataset.enhanced === "1") return;
+      el.dataset.enhanced = "1";
+
+      const raw = el.textContent || "";
+      if (!raw.includes("\n")) return;
+
+      const lines = raw.split("\n").map((s) => s.trim()).filter(Boolean);
+      let html = "";
+      let inList = false;
+      lines.forEach((line) => {
+        const m = line.match(/^[•\-*]\s*(.*)$/);
+        if (m) {
+          if (!inList) { html += "<ul>"; inList = true; }
+          html += "<li>" + escapeHtml(m[1]) + "</li>";
+        } else {
+          if (inList) { html += "</ul>"; inList = false; }
+          html += "<p>" + escapeHtml(line) + "</p>";
+        }
+      });
+      if (inList) html += "</ul>";
+
+      const wrapper = document.createElement("div");
+      wrapper.className = "page-desc desc-expandable";
+      wrapper.dataset.enhanced = "1";
+      wrapper.innerHTML = '<div class="desc-inner">' + html + "</div>";
+      el.replaceWith(wrapper);
+
+      const inner = wrapper.querySelector(".desc-inner");
+      const lineH = parseFloat(getComputedStyle(inner).lineHeight) || 24;
+      const collapsedMax = Math.round(lineH * 3.2);
+      if (inner.scrollHeight <= collapsedMax) return;
+
+      inner.style.setProperty("--desc-max", collapsedMax + "px");
+      wrapper.classList.add("is-collapsed");
+
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "desc-toggle";
+      btn.setAttribute("aria-expanded", "false");
+      btn.innerHTML = t("desc.readMore") +
+        '<svg class="desc-chev" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
+      btn.addEventListener("click", () => {
+        const collapsed = wrapper.classList.toggle("is-collapsed");
+        inner.style.maxHeight = "";
+        btn.innerHTML = (collapsed ? t("desc.readMore") : t("desc.readLess")) +
+          '<svg class="desc-chev" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
+        btn.setAttribute("aria-expanded", collapsed ? "false" : "true");
+      });
+      wrapper.appendChild(btn);
+    });
+  }
+
+  function initDescEnhancer() {
+    const app = $("#app");
+    if (!app) return;
+    enhancePageDesc();
+    const mo = new MutationObserver(() => enhancePageDesc());
+    mo.observe(app, { childList: true, subtree: true });
+  }
+
   function bindHamburger() {
     const burger = $("#hamburger");
     if (!burger) return;
@@ -3349,6 +3414,7 @@
     bindHamburger();
     bindTabbar();
     initTheme();
+    initDescEnhancer();
     boot();
   });
 })();
