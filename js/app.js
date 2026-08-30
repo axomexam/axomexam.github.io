@@ -894,7 +894,7 @@
         ${subs.length ? `
           <div class="sub-grid">
             ${subs.map((s, i) => `
-              <a class="sub-card reveal" href="/category/${cat.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
+              <a class="sub-card reveal" href="/category/${cat.id}/${s.id}${isArticlesCat ? "/read" : ""}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
                 <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
                 <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                   <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(s.name))}</span>
@@ -914,8 +914,7 @@
 
     /* Articles category — read-only rich articles, never in Downloads */
     if (cat.id === "articles") {
-      if (segs[3] === "read") return renderArticleReader(main, cat, sub);
-      return renderArticleSubCategoryPage(main, cat, sub);
+      return renderArticleReader(main, cat, sub);
     }
 
     if (segs[3]) {
@@ -1010,52 +1009,6 @@
      rendered in a full reading view. They are NOT part of the
      topic index, so they never appear in Downloads / Trending /
      Search — reading only, exactly as required. */
-  function renderArticleSubCategoryPage(main, cat, sub) {
-    const isAs = state.uiLang === "as";
-    main.innerHTML = `
-      <div class="page-head art-sub-page-head">
-        <nav class="breadcrumb art-breadcrumb">
-          <a href="/">${t("breadcrumb.home")}</a>
-          <span class="bc-sep">/</span>
-          <a href="/category/${cat.id}">${escapeHtml(localized(cat.name))}</a>
-          <span class="bc-sep">/</span><span>${escapeHtml(localized(sub.name))}</span>
-        </nav>
-        <h1>${escapeHtml(localized(sub.name))}</h1>
-        <p class="page-desc">${escapeHtml(localized(sub.description)) || escapeHtml(localized(cat.description)) || ""}</p>
-
-        <div class="art-read-cta">
-          <a class="art-read-btn" href="/category/${cat.id}/${sub.id}/read">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg>
-            ${isAs ? "প্ৰবন্ধ পঢ়ক" : "Read Articles"}
-          </a>
-        </div>
-        <p class="art-read-note">${isAs ? "পঢ়া-মাত্ৰ শাখা — এই প্ৰবন্ধসমূহ ডাউনলোডৰ বাবে উপলব্ধ নহয়" : "Reading-only section — these articles are not available for download"}</p>
-      </div>
-
-      <style>
-        .art-sub-page-head { text-align: center; max-width: 760px; margin: 0 auto 8px auto; padding: 30px 16px 4px 16px; box-sizing: border-box; }
-        .art-sub-page-head .breadcrumb { justify-content: center; }
-        .art-sub-page-head .page-desc { margin-left: auto; margin-right: auto; text-align: center; }
-        .art-read-cta { margin: 22px auto 6px auto; display: flex; justify-content: center; }
-        .art-read-btn {
-          display: inline-flex; align-items: center; justify-content: center; gap: 9px;
-          padding: 14px 34px; border-radius: 99px; font-weight: 800; font-size: 1rem;
-          color: #ffffff; background: linear-gradient(135deg, #2563eb, #3b82f6);
-          box-shadow: 0 10px 24px -8px rgba(37,99,235,.55);
-          border: none; cursor: pointer; transition: transform .2s ease, box-shadow .2s ease; text-decoration: none;
-        }
-        .art-read-btn:hover { transform: translateY(-2px); box-shadow: 0 16px 30px -10px rgba(37,99,235,.6); }
-        .art-read-note { margin-top: 12px; font-size: .8rem; color: var(--ink-faint, #94a3b8); text-align: center; }
-
-        @media (max-width: 520px) {
-          .art-sub-page-head h1 { font-size: 1.4rem !important; }
-          .art-read-btn { width: 100%; padding: 13px 20px; font-size: .95rem; }
-        }
-      </style>
-    `;
-    observeReveals();
-  }
-
   async function renderArticleReader(main, cat, sub) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
     let data = null;
@@ -1071,7 +1024,7 @@
         <div class="page-head" style="text-align:center; max-width:720px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
           <h1>${escapeHtml(localized(sub.name))}</h1>
           <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${isAs ? "এতিয়ালৈকে ইয়াত কোনো প্ৰবন্ধ যোগ কৰা হোৱা নাই।" : "No articles have been added here yet."}</p>
-          <div style="margin-top:20px;"><a class="btn btn-accent" href="/category/${cat.id}/${sub.id}">${isAs ? "পিছলৈ যাওক" : "Go Back"}</a></div>
+          <div style="margin-top:20px;"><a class="btn btn-accent" href="/category/${cat.id}">${isAs ? "পিছলৈ যাওক" : "Go Back"}</a></div>
         </div>`;
       return;
     }

@@ -800,30 +800,30 @@ function buildSectionPage(cat, sub, sec) {
 }
 
 function buildArticleSubPage(cat, sub) {
-  const crumb = breadcrumbHTML([
-    { href: "/", label: "Home" },
-    { href: `/category/${cat.id}`, label: loc(cat.name) },
-    { label: loc(sub.name) },
-  ]);
-  const body = `
-      ${pageHead(crumb, loc(sub.name), loc(sub.description))}
-      <section class="section" style="padding-bottom:40px; text-align:center;">
-        <a class="btn btn-accent" href="/category/${cat.id}/${sub.id}/read">Read Articles</a>
-        <p style="margin-top:14px; font-size:0.85rem; color:#94a3b8;">Reading-only section — these articles are not available for download.</p>
-      </section>`;
+  const target = `/category/${cat.id}/${sub.id}/read`;
+  const subName = escapeHtml(loc(sub.name));
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>${subName} | axomexam</title>
+  <link rel="canonical" href="${BASE}${target}" />
+  <meta name="robots" content="index, follow" />
+  <meta http-equiv="refresh" content="0; url=${target}" />
+  <script>location.replace("${target}");</script>
+</head>
+<body style="margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:#f8fafc; color:#0f172a; display:flex; align-items:center; justify-content:center; min-height:100vh;">
+  <div style="text-align:center; padding:24px;">
+    <p style="font-size:1.05rem; font-weight:700; margin:0 0 8px 0;">${subName} — Articles</p>
+    <p style="font-size:0.9rem; color:#64748b; margin:0 0 16px 0;">Redirecting to the articles…</p>
+    <a style="display:inline-block; padding:10px 26px; border-radius:99px; font-weight:800; font-size:0.95rem; color:#fff; background:linear-gradient(135deg,#2563eb,#3b82f6); text-decoration:none;" href="${target}">Open Articles</a>
+  </div>
+</body>
+</html>`;
   return {
-    html: shellHTML({
-      route: `/category/${cat.id}/${sub.id}`,
-      title: `${loc(sub.name)} | axomexam`,
-      description: loc(sub.description) || `Read ${loc(sub.name)} articles in English and Assamese.`,
-      canonical: `${BASE}/category/${cat.id}/${sub.id}`,
-      body,
-    }),
-    jsonld: breadcrumbJSONLD([
-      { href: "/", label: "Home" },
-      { href: `/category/${cat.id}`, label: loc(cat.name) },
-      { href: `/category/${cat.id}/${sub.id}`, label: loc(sub.name) },
-    ]),
+    html,
+    jsonld: "",
   };
 }
 
@@ -1386,7 +1386,7 @@ function main() {
       /* articles landing: reuse categories listing pattern */
       const cards = subs
         .map(
-          (s) => `<a class="sub-card reveal" href="/category/${cat.id}/${s.id}" style="display:block; margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px; text-decoration:none;">
+          (s) => `<a class="sub-card reveal" href="/category/${cat.id}/${s.id}/read" style="display:block; margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px; text-decoration:none;">
             <div style="font-weight:700; color:var(--ink,#0f172a);">${escapeHtml(loc(s.name))}</div>
             <div style="font-size:0.8rem; color:#64748b;">Articles</div>
           </a>`
