@@ -160,6 +160,7 @@ const I18N = {
     "mmenu.extra": "More",
     "desc.readMore": "Read More",
     "desc.readLess": "Show Less",
+    "page.downloads.desc": "Prepare comprehensively for all major Assam Government recruitment exams, including ADRE 2.0 (Grade III & IV), Assam Police, APSC, Gauhati High Court, Panchayat & Rural Development, DME, DHE, SSC, Railway and all other departmental exams.\n\nOur Downloads section offers complete topic-wise printable PDF study notes, solved previous year papers and special e-books neatly organized across every subject:\n\n• General Knowledge\n• Mathematics\n• General Science\n• Reasoning Ability\n• General English\n• Computer Awareness\n\nEach PDF contains complete bilingual (English & Assamese) questions with answers and clear, exam-focused explanations — perfect for offline study, last-minute revision and daily practice.\n\nAll notes are 100% free to download, regularly updated and easy to print, so every aspirant can prepare without any cost!",
   },
 
   as: {
@@ -316,5 +317,6 @@ const I18N = {
     "mmenu.extra": "অধিক",
     "desc.readMore": "আৰু পঢ়ক",
     "desc.readLess": "কম দেখুৱাওক",
+    "page.downloads.desc": "অসম চৰকাৰৰ সকলো প্ৰধান নিয়োগ পৰীক্ষা — ADRE 2.0 (গ্ৰেড III আৰু IV), অসম আৰক্ষী, APSC, গুৱাহাটী উচ্চ ন্যায়ালয়, পঞ্চায়ত আৰু গ্ৰামোন্নয়ন, DME, DHE, SSC, ৰে'লৱে আৰু অন্যান্য বিভাগীয় পৰীক্ষা — সমূহৰ বাবে সম্পূৰ্ণ প্ৰস্তুতি লওক।\n\nআমাৰ ডাউনলোড বিভাগত প্ৰতিটো বিষয়ৰ বাবে বিষয়-ভিত্তিক ছপা হোৱা PDF অধ্যয়ন টোকা, সমাধানসহ পূৰ্ববৰ্তী বছৰৰ প্ৰশ্নপত্ৰ আৰু বিশেষ ই-বুক সুশৃংখলভাৱে সামৰি লোৱা হৈছে:\n\n• সাধাৰণ জ্ঞান (General Knowledge)\n• গণিত (Mathematics)\n• সাধাৰণ বিজ্ঞান (General Science)\n• যুক্তি বিচাৰণ ক্ষমতা (Reasoning Ability)\n• সাধাৰণ ইংৰাজী (General English)\n• কম্পিউটাৰ সজাগতা (Computer Awareness)\n\nপ্ৰতিটো PDF ত উত্তৰসহ সম্পূৰ্ণ দ্বিভাষিক (ইংৰাজী আৰু অসমীয়া) প্ৰশ্ন আৰু স্পষ্ট, পৰীক্ষা-কেন্দ্ৰিক ব্যাখ্যা থাকে — অফলাইন অধ্যয়ন, অন্তিম মুহূৰ্তৰ পুনৰীক্ষণ আৰু দৈনিক অনুশীলনৰ বাবে আদৰ্শ।\n\nআটাইবোৰ টোকা ১০০% বিনামূলীয়াকৈ ডাউনলোড কৰিব পাৰি, প্ৰতি সপ্তাহত আপডেট হয় আৰু সহজে ছপা কৰিব পাৰি — যাৰ ফলত প্ৰতিজন প্ৰাৰ্থীয়ে কোনো খৰচ নোহোৱাকৈ প্ৰস্তুতি চলাব পাৰে!",
   },
 };

@@ -2184,7 +2184,7 @@
       <div class="page-head">
         <nav class="breadcrumb"><a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("page.downloads.title")}</span></nav>
         <h1>${t("page.downloads.title")}</h1>
-        <p class="page-desc">${t("page.downloads.sub")}</p>
+        <p class="page-desc">${escapeHtml(t("page.downloads.desc"))}</p>
       </div>
 
       <section class="section" style="padding-bottom:28px;">
@@ -3217,6 +3217,10 @@
   function enhancePageDesc() {
     const app = $("#app");
     if (!app) return;
+
+    const READ_MORE = (typeof I18N !== "undefined" && I18N.en && I18N.en["desc.readMore"]) || "Read More";
+    const READ_LESS = (typeof I18N !== "undefined" && I18N.en && I18N.en["desc.readLess"]) || "Show Less";
+
     app.querySelectorAll(".page-desc").forEach((el) => {
       if (el.dataset.enhanced === "1") return;
       el.dataset.enhanced = "1";
@@ -3257,12 +3261,12 @@
       btn.type = "button";
       btn.className = "desc-toggle";
       btn.setAttribute("aria-expanded", "false");
-      btn.innerHTML = t("desc.readMore") +
+      btn.innerHTML = READ_MORE +
         '<svg class="desc-chev" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
       btn.addEventListener("click", () => {
         const collapsed = wrapper.classList.toggle("is-collapsed");
         inner.style.maxHeight = "";
-        btn.innerHTML = (collapsed ? t("desc.readMore") : t("desc.readLess")) +
+        btn.innerHTML = (collapsed ? READ_MORE : READ_LESS) +
           '<svg class="desc-chev" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
         btn.setAttribute("aria-expanded", collapsed ? "false" : "true");
       });
