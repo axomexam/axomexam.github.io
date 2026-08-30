@@ -507,15 +507,70 @@
     {
       "id": "reasoning",
       "name": { "en": "Reasoning Ability", "as": "যুক্তি আৰু মানসিক ক্ষমতা" },
-      "description": { "en": "Verbal and non-verbal reasoning.", "as": "মৌখিক আৰু অবাচ্য যুক্তি।" },
+      "description": { "en": "Verbal, analytical & critical and non-verbal reasoning.", "as": "মৌখিক, বিশ্লেষণাত্মক আৰু অবাচ্য যুক্তি।" },
       "color": "#8b5cf6",
       "icon": "▶",
       "subcategories": [
         {
           "id": "verbal-reasoning",
           "name": { "en": "Verbal Reasoning", "as": "মৌখিক যুক্তি" },
+          "description": { "en": "Word and number based logical reasoning questions.", "as": "শব্দ আৰু সংখ্যা ভিত্তিক যুক্তিসংগত প্ৰশ্ন।" },
           "topics": [
-            { "id": "analogy", "name": { "en": "Analogy & Series", "as": "সাদৃশ্য আৰু শৃংখলা" }, "popularity": 7 }
+            { "id": "analogy", "name": { "en": "Analogy", "as": "সাদৃশ্য" }, "popularity": 8 },
+            { "id": "classification-odd-one-out", "name": { "en": "Classification (Odd One Out)", "as": "শ্ৰেণীবিভাজন (Odd One Out)" }, "popularity": 7 },
+            { "id": "number-series", "name": { "en": "Number Series", "as": "সংখ্যা শৃংখলা" }, "popularity": 8 },
+            { "id": "alphabet-series", "name": { "en": "Alphabet Series", "as": "বৰ্ণমালা শৃংখলা" }, "popularity": 8 },
+            { "id": "alpha-numeric-series", "name": { "en": "Alpha-Numeric Series", "as": "অক্ষৰ-সংখ্যা শৃংখলা" }, "popularity": 7 },
+            { "id": "coding-decoding", "name": { "en": "Coding-Decoding", "as": "ক'ডিং-ডিক'ডিং" }, "popularity": 8 },
+            { "id": "blood-relations", "name": { "en": "Blood Relations", "as": "তেজ সম্পৰ্কীয় সম্বন্ধ" }, "popularity": 8 },
+            { "id": "direction-distance", "name": { "en": "Direction & Distance Test", "as": "দিশ আৰু দূৰত্ব পৰীক্ষা" }, "popularity": 8 },
+            { "id": "order-ranking", "name": { "en": "Order & Ranking", "as": "ক্ৰম আৰু ৰেংকিং" }, "popularity": 7 },
+            { "id": "alphabet-test-word-formation", "name": { "en": "Alphabet Test & Word Formation", "as": "বৰ্ণমালা পৰীক্ষা আৰু শব্দ গঠন" }, "popularity": 7 },
+            { "id": "logical-venn-diagrams", "name": { "en": "Logical Venn Diagrams", "as": "যুক্তিসংগত ভেন ডায়াগ্ৰাম" }, "popularity": 7 },
+            { "id": "syllogism", "name": { "en": "Syllogism", "as": "চিলজিজম" }, "popularity": 8 },
+            { "id": "clock-calendar", "name": { "en": "Clock & Calendar", "as": "ঘড়ী আৰু কেলেণ্ডাৰ" }, "popularity": 8 },
+            { "id": "mathematical-operations", "name": { "en": "Mathematical Operations", "as": "গাণিতিক অপাৰেচন" }, "popularity": 7 },
+            { "id": "data-sufficiency", "name": { "en": "Data Sufficiency", "as": "তথ্য পৰ্যাপ্ততা" }, "popularity": 7 },
+            { "id": "input-output-machine", "name": { "en": "Input-Output (Machine Input)", "as": "ইনপুট-আউটপুট (মেশ্বিন ইনপুট)" }, "popularity": 7 }
+          ]
+        },
+        {
+          "id": "analytical-critical-reasoning",
+          "name": { "en": "Analytical & Critical Reasoning", "as": "বিশ্লেষণাত্মক আৰু সমালোচনাত্মক যুক্তি" },
+          "description": { "en": "Statements, arguments, puzzles and arrangement-based reasoning.", "as": "উক্তি, যুক্তি, পাজল আৰু বিন্যাস ভিত্তিক যুক্তি।" },
+          "topics": [
+            { "id": "seating-arrangement", "name": { "en": "Seating Arrangement (Linear, Circular, Square)", "as": "আসন বিন্যাস (লিনিয়াৰ, বৃত্তাকাৰ, বৰ্গাকাৰ)" }, "popularity": 8 },
+            { "id": "complex-puzzles", "name": { "en": "Complex Puzzles (Floor, Box, Scheduling)", "as": "জটিল পাজল (মজিয়া, বাকচ, সময়সূচী)" }, "popularity": 8 },
+            { "id": "inequality", "name": { "en": "Inequality (Coded & Direct)", "as": "অসমতা (ক'ডেড আৰু পোনপটীয়া)" }, "popularity": 7 },
+            { "id": "statement-assumptions", "name": { "en": "Statement & Assumptions", "as": "উক্তি আৰু অনুমান" }, "popularity": 7 },
+            { "id": "statement-conclusions", "name": { "en": "Statement & Conclusions", "as": "উক্তি আৰু সিদ্ধান্ত" }, "popularity": 7 },
+            { "id": "statement-arguments", "name": { "en": "Statement & Arguments", "as": "উক্তি আৰু যুক্তি" }, "popularity": 7 },
+            { "id": "statement-course-of-action", "name": { "en": "Statement & Course of Action", "as": "উক্তি আৰু কাৰ্য-পদক্ষেপ" }, "popularity": 7 },
+            { "id": "cause-effect", "name": { "en": "Cause & Effect", "as": "কাৰণ আৰু ফল" }, "popularity": 7 },
+            { "id": "assertion-reason", "name": { "en": "Assertion & Reason", "as": "দাবী আৰু কাৰণ" }, "popularity": 7 },
+            { "id": "decision-making", "name": { "en": "Decision Making", "as": "সিদ্ধান্ত গ্ৰহণ" }, "popularity": 7 },
+            { "id": "drawing-inferences", "name": { "en": "Drawing Inferences", "as": "অনুমান নিষ্কাশন" }, "popularity": 6 }
+          ]
+        },
+        {
+          "id": "non-verbal-reasoning",
+          "name": { "en": "Non-Verbal Reasoning", "as": "অবাচ্য যুক্তি" },
+          "description": { "en": "Visual and figure-based reasoning questions.", "as": "দৃশ্য আৰু চিত্ৰ ভিত্তিক যুক্তি প্ৰশ্ন।" },
+          "topics": [
+            { "id": "image-series", "name": { "en": "Image Series", "as": "চিত্ৰ শৃংখলা" }, "popularity": 8 },
+            { "id": "image-analogy", "name": { "en": "Image Analogy", "as": "চিত্ৰ সাদৃশ্য" }, "popularity": 7 },
+            { "id": "image-classification", "name": { "en": "Image Classification", "as": "চিত্ৰ শ্ৰেণীবিভাজন" }, "popularity": 7 },
+            { "id": "mirror-images", "name": { "en": "Mirror Images", "as": "দাপোণ প্ৰতিবিম্ব" }, "popularity": 8 },
+            { "id": "water-images", "name": { "en": "Water Images", "as": "পানী প্ৰতিবিম্ব" }, "popularity": 7 },
+            { "id": "paper-folding", "name": { "en": "Paper Folding", "as": "কাগজ ভাঁজ" }, "popularity": 7 },
+            { "id": "paper-cutting", "name": { "en": "Paper Cutting", "as": "কাগজ কাটনি" }, "popularity": 7 },
+            { "id": "embedded-figures", "name": { "en": "Embedded Figures", "as": "সমাহৃত চিত্ৰ" }, "popularity": 7 },
+            { "id": "completion-of-incomplete-pattern", "name": { "en": "Completion of Incomplete Pattern", "as": "অসম্পূৰ্ণ নক্সা সম্পূৰ্ণকৰণ" }, "popularity": 8 },
+            { "id": "figure-matrix", "name": { "en": "Figure Matrix", "as": "চিত্ৰ মেট্ৰিক্স" }, "popularity": 8 },
+            { "id": "counting-of-figures", "name": { "en": "Counting of Figures", "as": "চিত্ৰ গণনা" }, "popularity": 7 },
+            { "id": "cube-and-dice", "name": { "en": "Cube & Dice", "as": "ঘনক আৰু পাশা" }, "popularity": 8 },
+            { "id": "rule-detection", "name": { "en": "Rule Detection", "as": "নিয়ম নিৰ্ধাৰণ" }, "popularity": 6 },
+            { "id": "shape-construction-grouping", "name": { "en": "Shape Construction & Grouping of Identical Figures", "as": "আকৃতি নিৰ্মাণ আৰু একে আকৃতিৰ শ্ৰেণীবিভাজন" }, "popularity": 6 }
           ]
         }
       ]
