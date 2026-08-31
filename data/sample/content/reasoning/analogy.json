@@ -1,25 +1,812 @@
 {
-  "id": "analogy",
-  "title": { "en": "Analogy", "as": "সাদৃশ্য" },
-  "description": { "en": "Verbal analogy practice — finding relationships between words and numbers.", "as": "মৌখিক সাদৃশ্য অনুশীলন — শব্দ আৰু সংখ্যাৰ মাজৰ সম্পৰ্ক বিচাৰি উলিওৱা।" },
-  "tags": ["reasoning", "analogy", "verbal", "যুক্তি", "সাদৃশ্য"],
+  "id": "analogy_full",
+  "title": { "en": "Analogy — All Types (Assam Competitive Exams)", "as": "সাদৃশ্য — সকলো ধৰণ (অসম প্ৰতিযোগিতামূলক পৰীক্ষা)" },
+  "description": { "en": "Complete analogy practice covering all types: synonym, antonym, number, animal home/young/sound, worker-place/tool, instrument-measure, country-capital/currency, state-capital, book-author, part-whole, cause-effect, degree, family, game, letter, and Assam-specific analogies.", "as": "সকলো ধৰণৰ সাদৃশ্য অনুশীলন: পৰ্যায়, বিপৰীত, সংখ্যা, জন্তুৰ ঘৰ/পোৱালি/মাত, বৃত্তি-স্থান/সৰঞ্জাম, যন্ত্ৰ-জোখ, দেশ-ৰাজধানী/মুদ্ৰা, ৰাজ্য-ৰাজধানী, গ্ৰন্থ-লেখক, অংশ-সম্পূৰ্ণ, কাৰ্য-কাৰণ, মাত্ৰা, পৰিয়াল, খেল, বৰ্ণ আৰু অসম-বিশেষ সাদৃশ্য।" },
+  "tags": ["reasoning", "analogy", "verbal", "number", "letter", "assam", "যুক্তি", "সাদৃশ্য"],
   "pdf": null,
   "questions": [
     {
+      "type": "synonym",
+      "q": { "en": "Happy : Joyful :: Sad : ?", "as": "সুখী : আনন্দিত :: দুখী : ?" },
+      "options": [
+        { "en": "Gloomy", "as": "অন্ধকাৰময়" },
+        { "en": "Bright", "as": "উজ্জ্বল" },
+        { "en": "Cheerful", "as": "প্ৰফুল্ল" },
+        { "en": "Lively", "as": "প্ৰাণবন্ত" }
+      ],
+      "a": { "en": "Gloomy", "as": "অন্ধকাৰময়" }
+    },
+    {
+      "type": "synonym",
+      "q": { "en": "Beautiful : Pretty :: Wealthy : ?", "as": "সুন্দৰ : ধুনীয়া :: ধনী : ?" },
+      "options": [
+        { "en": "Poor", "as": "দুখীয়া" },
+        { "en": "Rich", "as": "চহকী" },
+        { "en": "Weak", "as": "দুৰ্বল" },
+        { "en": "Hungry", "as": "ভোকতুৰা" }
+      ],
+      "a": { "en": "Rich", "as": "চহকী" }
+    },
+    {
+      "type": "antonym",
+      "q": { "en": "Hot : Cold :: Light : ?", "as": "গৰম : ঠাণ্ডা :: পোহৰ : ?" },
+      "options": [
+        { "en": "Bright", "as": "উজ্জ্বল" },
+        { "en": "Dark", "as": "অন্ধকাৰ" },
+        { "en": "White", "as": "বগা" },
+        { "en": "Clear", "as": "পৰিষ্কাৰ" }
+      ],
+      "a": { "en": "Dark", "as": "অন্ধকাৰ" }
+    },
+    {
+      "type": "antonym",
+      "q": { "en": "Love : Hate :: Friend : ?", "as": "ভালপোৱা : ঘৃণা :: বন্ধু : ?" },
+      "options": [
+        { "en": "Brother", "as": "ভাই" },
+        { "en": "Enemy", "as": "শত্ৰু" },
+        { "en": "Neighbour", "as": "চুবুৰীয়া" },
+        { "en": "Relative", "as": "আত্মীয়" }
+      ],
+      "a": { "en": "Enemy", "as": "শত্ৰু" }
+    },
+    {
+      "type": "number",
+      "q": { "en": "2 : 8 :: 3 : ?", "as": "2 : 8 :: 3 : ?" },
+      "options": [
+        { "en": "6", "as": "৬" },
+        { "en": "9", "as": "৯" },
+        { "en": "27", "as": "২৭" },
+        { "en": "12", "as": "১২" }
+      ],
+      "a": { "en": "27 (Cube: 2³=8, 3³=27)", "as": "২৭ (ঘন: 2³=8, 3³=27)" }
+    },
+    {
+      "type": "number",
+      "q": { "en": "4 : 16 :: 5 : ?", "as": "4 : 16 :: 5 : ?" },
+      "options": [
+        { "en": "20", "as": "২০" },
+        { "en": "25", "as": "২৫" },
+        { "en": "10", "as": "১০" },
+        { "en": "15", "as": "১৫" }
+      ],
+      "a": { "en": "25 (Square: 4²=16, 5²=25)", "as": "২৫ (বৰ্গ: 4²=16, 5²=25)" }
+    },
+    {
+      "type": "number",
+      "q": { "en": "5 : 15 :: 7 : ?", "as": "5 : 15 :: 7 : ?" },
+      "options": [
+        { "en": "14", "as": "১৪" },
+        { "en": "17", "as": "১৭" },
+        { "en": "21", "as": "২১" },
+        { "en": "35", "as": "৩৫" }
+      ],
+      "a": { "en": "21 (×3: 5×3=15, 7×3=21)", "as": "২১ (×3: 5×3=15, 7×3=21)" }
+    },
+    {
+      "type": "number",
+      "q": { "en": "12 : 19 :: 21 : ?", "as": "12 : 19 :: 21 : ?" },
+      "options": [
+        { "en": "27", "as": "২৭" },
+        { "en": "28", "as": "২৮" },
+        { "en": "29", "as": "২৯" },
+        { "en": "30", "as": "৩০" }
+      ],
+      "a": { "en": "28 (+7: 12+7=19, 21+7=28)", "as": "২৮ (+7: 12+7=19, 21+7=28)" }
+    },
+    {
+      "type": "number",
+      "q": { "en": "3 : 7 :: 5 : ?", "as": "3 : 7 :: 5 : ?" },
+      "options": [
+        { "en": "9", "as": "৯" },
+        { "en": "10", "as": "১০" },
+        { "en": "11", "as": "১১" },
+        { "en": "12", "as": "১২" }
+      ],
+      "a": { "en": "11 (×2+1: 3×2+1=7, 5×2+1=11)", "as": "১১ (×2+1: 3×2+1=7, 5×2+1=11)" }
+    },
+    {
+      "type": "animal_home",
       "q": { "en": "Bird : Nest :: Bee : ?", "as": "চৰাই : বাহ :: মৌ : ?" },
-      "a": { "en": "Hive.", "as": "চাক।" }
+      "options": [
+        { "en": "Hive", "as": "চাক" },
+        { "en": "Den", "as": "গুহা" },
+        { "en": "Burrow", "as": "গাত" },
+        { "en": "Kennel", "as": "কুকুৰৰ ঘৰ" }
+      ],
+      "a": { "en": "Hive", "as": "চাক" }
     },
     {
-      "q": { "en": "3 : 27 :: 5 : ?", "as": "3 : 27 :: 5 : ?" },
-      "a": { "en": "125. (Each number is cubed: 3³ = 27, 5³ = 125)", "as": "125। (প্ৰতিটো সংখ্যাৰ ঘন: 3³ = 27, 5³ = 125)" }
+      "type": "animal_home",
+      "q": { "en": "Dog : Kennel :: Lion : ?", "as": "কুকুৰ : ঘৰ :: সিংহ : ?" },
+      "options": [
+        { "en": "Nest", "as": "বাহ" },
+        { "en": "Den", "as": "গুহা" },
+        { "en": "Stable", "as": "ঘোঁৰাশাল" },
+        { "en": "Hive", "as": "চাক" }
+      ],
+      "a": { "en": "Den", "as": "গুহা" }
     },
     {
+      "type": "animal_young",
+      "q": { "en": "Cow : Calf :: Horse : ?", "as": "গাই : পোৱালি :: ঘোঁৰা : ?" },
+      "options": [
+        { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" },
+        { "en": "Puppy", "as": "কুকুৰৰ পোৱালি" },
+        { "en": "Kitten", "as": "মেকুৰীৰ পোৱালি" },
+        { "en": "Chick", "as": "কুকুৰা-ছাব" }
+      ],
+      "a": { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" }
+    },
+    {
+      "type": "animal_young",
+      "q": { "en": "Cat : Kitten :: Dog : ?", "as": "মেকুৰী : পোৱালি :: কুকুৰ : ?" },
+      "options": [
+        { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" },
+        { "en": "Puppy", "as": "কুকুৰৰ পোৱালি" },
+        { "en": "Cub", "as": "সিংহৰ পোৱালি" },
+        { "en": "Lamb", "as": "ভেৰাৰ পোৱালি" }
+      ],
+      "a": { "en": "Puppy", "as": "কুকুৰৰ পোৱালি" }
+    },
+    {
+      "type": "animal_sound",
+      "q": { "en": "Dog : Bark :: Lion : ?", "as": "কুকুৰ : ভুকিছে :: সিংহ : ?" },
+      "options": [
+        { "en": "Roar", "as": "গৰ্জন" },
+        { "en": "Moo", "as": "হাম্বাৱ" },
+        { "en": "Meow", "as": "মিউ" },
+        { "en": "Neigh", "as": "হেঁকোৰা" }
+      ],
+      "a": { "en": "Roar", "as": "গৰ্জন" }
+    },
+    {
+      "type": "animal_sound",
+      "q": { "en": "Cow : Moo :: Cat : ?", "as": "গাই : হাম্বাৱ :: মেকুৰী : ?" },
+      "options": [
+        { "en": "Bark", "as": "ভুকনি" },
+        { "en": "Meow", "as": "মিউ" },
+        { "en": "Roar", "as": "গৰ্জন" },
+        { "en": "Chirp", "as": "চিকুটি" }
+      ],
+      "a": { "en": "Meow", "as": "মিউ" }
+    },
+    {
+      "type": "worker_place",
       "q": { "en": "Doctor : Hospital :: Teacher : ?", "as": "ডাক্তৰ : হাস্পতাল :: শিক্ষক : ?" },
-      "a": { "en": "School.", "as": "বিদ্যালয়।" }
+      "options": [
+        { "en": "School", "as": "বিদ্যালয়" },
+        { "en": "Court", "as": "ন্যায়ালয়" },
+        { "en": "Bank", "as": "বেংক" },
+        { "en": "Station", "as": "ষ্টেচন" }
+      ],
+      "a": { "en": "School", "as": "বিদ্যালয়" }
     },
     {
-      "q": { "en": "Book : Author :: Painting : ?", "as": "কিতাপ : লেখক :: চিত্ৰ : ?" },
-      "a": { "en": "Artist / Painter.", "as": "শিল্পী / চিত্ৰকৰ।" }
+      "type": "worker_place",
+      "q": { "en": "Farmer : Field :: Chef : ?", "as": "কৃষক : পথাৰ :: ৰন্ধনকাৰী : ?" },
+      "options": [
+        { "en": "Office", "as": "কাৰ্যালয়" },
+        { "en": "Kitchen", "as": "ৰান্ধনিশালা" },
+        { "en": "Factory", "as": "কাৰখানা" },
+        { "en": "Garden", "as": "বাগিচা" }
+      ],
+      "a": { "en": "Kitchen", "as": "ৰান্ধনিশালা" }
+    },
+    {
+      "type": "worker_tool",
+      "q": { "en": "Carpenter : Saw :: Tailor : ?", "as": "সূতাৰ : কৰাত :: দৰ্জী : ?" },
+      "options": [
+        { "en": "Needle", "as": "জিলিকা" },
+        { "en": "Hammer", "as": "হাতুৰী" },
+        { "en": "Axe", "as": "কুঠাৰ" },
+        { "en": "Spade", "as": "কোৰ" }
+      ],
+      "a": { "en": "Needle", "as": "জিলিকা" }
+    },
+    {
+      "type": "worker_tool",
+      "q": { "en": "Barber : Scissors :: Blacksmith : ?", "as": "নাৰী : কেঁচি :: কামাৰ : ?" },
+      "options": [
+        { "en": "Needle", "as": "জিলিকা" },
+        { "en": "Hammer", "as": "হাতুৰী" },
+        { "en": "Brush", "as": "ব্ৰাছ" },
+        { "en": "Pen", "as": "কলম" }
+      ],
+      "a": { "en": "Hammer", "as": "হাতুৰী" }
+    },
+    {
+      "type": "instrument_measure",
+      "q": { "en": "Thermometer : Temperature :: Barometer : ?", "as": "থাৰ্ম'মিটাৰ : উষ্ণতা :: বাৰ'মিটাৰ : ?" },
+      "options": [
+        { "en": "Humidity", "as": "আৰ্দ্ৰতা" },
+        { "en": "Pressure", "as": "চাপ" },
+        { "en": "Rain", "as": "বৰষুণ" },
+        { "en": "Wind", "as": "বতাহ" }
+      ],
+      "a": { "en": "Pressure", "as": "চাপ" }
+    },
+    {
+      "type": "instrument_measure",
+      "q": { "en": "Ammeter : Current :: Rain Gauge : ?", "as": "এমিটাৰ : বিদ্যুৎ :: বৰষুণ-জোখা যন্ত্ৰ : ?" },
+      "options": [
+        { "en": "Rainfall", "as": "বৰষুণৰ পৰিমাণ" },
+        { "en": "Wind speed", "as": "বতাহৰ গতি" },
+        { "en": "Humidity", "as": "আৰ্দ্ৰতা" },
+        { "en": "Temperature", "as": "উষ্ণতা" }
+      ],
+      "a": { "en": "Rainfall", "as": "বৰষুণৰ পৰিমাণ" }
+    },
+    {
+      "type": "country_capital",
+      "q": { "en": "India : Delhi :: Japan : ?", "as": "ভাৰত : দিল্লী :: জাপান : ?" },
+      "options": [
+        { "en": "Beijing", "as": "বেইজিং" },
+        { "en": "Tokyo", "as": "ট'কিঅ'" },
+        { "en": "Seoul", "as": "চিয়ল" },
+        { "en": "Bangkok", "as": "বেংকক" }
+      ],
+      "a": { "en": "Tokyo", "as": "ট'কিঅ'" }
+    },
+    {
+      "type": "country_capital",
+      "q": { "en": "France : Paris :: USA : ?", "as": "ফ্ৰান্স : পেৰিছ :: আমেৰিকা : ?" },
+      "options": [
+        { "en": "New York", "as": "নিউ ইয়ৰ্ক" },
+        { "en": "Washington D.C.", "as": "ৱাশ্বিংটন ডি.চি." },
+        { "en": "London", "as": "লণ্ডন" },
+        { "en": "Ottawa", "as": "অট্টাৱা" }
+      ],
+      "a": { "en": "Washington D.C.", "as": "ৱাশ্বিংটন ডি.চি." }
+    },
+    {
+      "type": "country_currency",
+      "q": { "en": "India : Rupee :: USA : ?", "as": "ভাৰত : টকা :: আমেৰিকা : ?" },
+      "options": [
+        { "en": "Pound", "as": "পাউণ্ড" },
+        { "en": "Euro", "as": "ইউৰ'"} ,
+        { "en": "Dollar", "as": "ডলাৰ" },
+        { "en": "Yen", "as": "য়েন" }
+      ],
+      "a": { "en": "Dollar", "as": "ডলাৰ" }
+    },
+    {
+      "type": "country_currency",
+      "q": { "en": "Japan : Yen :: UK : ?", "as": "জাপান : য়েন :: ব্ৰিটেইন : ?" },
+      "options": [
+        { "en": "Dollar", "as": "ডলাৰ" },
+        { "en": "Pound", "as": "পাউণ্ড" },
+        { "en": "Euro", "as": "ইউৰ'"} ,
+        { "en": "Rupee", "as": "টকা" }
+      ],
+      "a": { "en": "Pound", "as": "পাউণ্ড" }
+    },
+    {
+      "type": "state_capital",
+      "q": { "en": "Assam : Dispur :: Meghalaya : ?", "as": "অসম : দিছপুৰ :: মেঘালয় : ?" },
+      "options": [
+        { "en": "Itanagar", "as": "ইটানগৰ" },
+        { "en": "Shillong", "as": "শ্বিলং" },
+        { "en": "Agartala", "as": "আগৰতলা" },
+        { "en": "Kohima", "as": "কোহিমা" }
+      ],
+      "a": { "en": "Shillong", "as": "শ্বিলং" }
+    },
+    {
+      "type": "state_capital",
+      "q": { "en": "West Bengal : Kolkata :: Nagaland : ?", "as": "পশ্চিম বংগ : কলকাতা :: নাগালেণ্ড : ?" },
+      "options": [
+        { "en": "Imphal", "as": "ইম্ফল" },
+        { "en": "Kohima", "as": "কোহিমা" },
+        { "en": "Gangtok", "as": "গেংটক" },
+        { "en": "Itanagar", "as": "ইটানগৰ" }
+      ],
+      "a": { "en": "Kohima", "as": "কোহিমা" }
+    },
+    {
+      "type": "book_author",
+      "q": { "en": "Ramayana : Valmiki :: Mahabharata : ?", "as": "ৰামায়ণ : বাল্মীকি :: মহাভাৰত : ?" },
+      "options": [
+        { "en": "Tulsidas", "as": "তুলসীদাস" },
+        { "en": "Ved Vyasa", "as": "বেদব্যাস" },
+        { "en": "Kalidas", "as": "কালিদাস" },
+        { "en": "Banabhatta", "as": "বাণভট্ট" }
+      ],
+      "a": { "en": "Ved Vyasa", "as": "বেদব্যাস" }
+    },
+    {
+      "type": "book_author",
+      "q": { "en": "Discovery of India : Jawaharlal Nehru :: Wings of Fire : ?", "as": "ডিস্কভাৰী অৱ ইণ্ডিয়া : জৱাহৰলাল নেহৰু :: ৱিংছ অৱ ফায়াৰ : ?" },
+      "options": [
+        { "en": "Mahatma Gandhi", "as": "মহাত্মা গান্ধী" },
+        { "en": "APJ Abdul Kalam", "as": "এ.পি.জে. আব্দুল কালাম" },
+        { "en": "Rabindranath Tagore", "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ" },
+        { "en": "Sardar Patel", "as": "চৰ্দাৰ পেটেল" }
+      ],
+      "a": { "en": "APJ Abdul Kalam", "as": "এ.পি.জে. আব্দুল কালাম" }
+    },
+    {
+      "type": "part_whole",
+      "q": { "en": "Page : Book :: Leaf : ?", "as": "পৃষ্ঠা : কিতাপ :: পাত : ?" },
+      "options": [
+        { "en": "Forest", "as": "অৰণ্য" },
+        { "en": "Tree", "as": "গছ" },
+        { "en": "Branch", "as": "ডাল" },
+        { "en": "Root", "as": "জোপা" }
+      ],
+      "a": { "en": "Tree", "as": "গছ" }
+    },
+    {
+      "type": "part_whole",
+      "q": { "en": "Wheel : Car :: Chapter : ?", "as": "চকা : গাড়ী :: অধ্যায় : ?" },
+      "options": [
+        { "en": "Book", "as": "কিতাপ" },
+        { "en": "Page", "as": "পৃষ্ঠা" },
+        { "en": "Pen", "as": "কলম" },
+        { "en": "Table", "as": "মেজ" }
+      ],
+      "a": { "en": "Book", "as": "কিতাপ" }
+    },
+    {
+      "type": "cause_effect",
+      "q": { "en": "Rain : Flood :: Fire : ?", "as": "বৰষুণ : বান :: জুই : ?" },
+      "options": [
+        { "en": "Water", "as": "পানী" },
+        { "en": "Smoke", "as": "ধোঁৱা" },
+        { "en": "Cold", "as": "ঠাণ্ডা" },
+        { "en": "Wind", "as": "বতাহ" }
+      ],
+      "a": { "en": "Smoke", "as": "ধোঁৱা" }
+    },
+    {
+      "type": "cause_effect",
+      "q": { "en": "Study : Success :: Practice : ?", "as": "পঢ়া : সফলতা :: অনুশীলন : ?" },
+      "options": [
+        { "en": "Failure", "as": "বিফলতা" },
+        { "en": "Perfection", "as": "নিপুণতা" },
+        { "en": "Sleep", "as": "টোপনি" },
+        { "en": "Play", "as": "খেল" }
+      ],
+      "a": { "en": "Perfection", "as": "নিপুণতা" }
+    },
+    {
+      "type": "degree",
+      "q": { "en": "Cold : Freezing :: Warm : ?", "as": "ঠাণ্ডা : হিমাংক :: উম : ?" },
+      "options": [
+        { "en": "Cool", "as": "শীতল" },
+        { "en": "Hot", "as": "গৰম" },
+        { "en": "Mild", "as": "সৌম্য" },
+        { "en": "Wet", "as": "তিয়ঁহা" }
+      ],
+      "a": { "en": "Hot", "as": "গৰম" }
+    },
+    {
+      "type": "degree",
+      "q": { "en": "Whisper : Shout :: Walk : ?", "as": "ফুচফুচনি : চিঞৰ :: খোজকাঢ়া : ?" },
+      "options": [
+        { "en": "Stand", "as": "থিয় হোৱা" },
+        { "en": "Sit", "as": "বহা" },
+        { "en": "Run", "as": "দৌৰা" },
+        { "en": "Crawl", "as": "ভুমুকি" }
+      ],
+      "a": { "en": "Run", "as": "দৌৰা" }
+    },
+    {
+      "type": "family",
+      "q": { "en": "Father : Mother :: Brother : ?", "as": "পিতৃ : মাতৃ :: ভাতৃ : ?" },
+      "options": [
+        { "en": "Uncle", "as": "মামা/দাদা" },
+        { "en": "Sister", "as": "ভনী" },
+        { "en": "Cousin", "as": "সহোদৰ" },
+        { "en": "Nephew", "as": "ভতিজা" }
+      ],
+      "a": { "en": "Sister", "as": "ভনী" }
+    },
+    {
+      "type": "family",
+      "q": { "en": "Grandfather : Grandmother :: Son : ?", "as": "পিতামহ : পিতামহী :: পুত্র : ?" },
+      "options": [
+        { "en": "Daughter", "as": "জীয়ৰী" },
+        { "en": "Brother", "as": "ভাই" },
+        { "en": "Husband", "as": "স্বামী" },
+        { "en": "Father", "as": "পিতৃ" }
+      ],
+      "a": { "en": "Daughter", "as": "জীয়ৰী" }
+    },
+    {
+      "type": "game",
+      "q": { "en": "Cricket : Bat :: Hockey : ?", "as": "ক্ৰিকেট : বেট :: হকী : ?" },
+      "options": [
+        { "en": "Ball", "as": "বল" },
+        { "en": "Stick", "as": "দণ্ড" },
+        { "en": "Racket", "as": "ৰেকেট" },
+        { "en": "Net", "as": "জাল" }
+      ],
+      "a": { "en": "Stick", "as": "দণ্ড" }
+    },
+    {
+      "type": "game",
+      "q": { "en": "Chess : Board :: Tennis : ?", "as": "দবা : চৌকি :: টেনিছ : ?" },
+      "options": [
+        { "en": "Court", "as": "কোৰ্ট" },
+        { "en": "Bat", "as": "বেট" },
+        { "en": "Pitch", "as": "পিছ" },
+        { "en": "Ring", "as": "ৰিং" }
+      ],
+      "a": { "en": "Court", "as": "কোৰ্ট" }
+    },
+    {
+      "type": "letter",
+      "q": { "en": "A : C :: B : ?", "as": "A : C :: B : ?" },
+      "options": [
+        { "en": "D", "as": "D" },
+        { "en": "E", "as": "E" },
+        { "en": "F", "as": "F" },
+        { "en": "G", "as": "G" }
+      ],
+      "a": { "en": "D (A+2=C, B+2=D)", "as": "D (A+2=C, B+2=D)" }
+    },
+    {
+      "type": "letter",
+      "q": { "en": "ABC : DEF :: GHI : ?", "as": "ABC : DEF :: GHI : ?" },
+      "options": [
+        { "en": "JKL", "as": "JKL" },
+        { "en": "IJK", "as": "IJK" },
+        { "en": "KLM", "as": "KLM" },
+        { "en": "HJI", "as": "HJI" }
+      ],
+      "a": { "en": "JKL", "as": "JKL" }
+    },
+    {
+      "type": "letter",
+      "q": { "en": "1 : A :: 2 : ?", "as": "1 : A :: 2 : ?" },
+      "options": [
+        { "en": "B", "as": "B" },
+        { "en": "C", "as": "C" },
+        { "en": "D", "as": "D" },
+        { "en": "E", "as": "E" }
+      ],
+      "a": { "en": "B", "as": "B" }
+    },
+    {
+      "type": "animal_group",
+      "q": { "en": "Sheep : Flock :: Fish : ?", "as": "ভেৰা : জাক :: মাছ : ?" },
+      "options": [
+        { "en": "Herd", "as": "জাক" },
+        { "en": "School", "as": "শলা" },
+        { "en": "Pride", "as": "অহংকাৰ" },
+        { "en": "Pack", "as": "দল" }
+      ],
+      "a": { "en": "School", "as": "শলা" }
+    },
+    {
+      "type": "animal_group",
+      "q": { "en": "Lion : Pride :: Wolf : ?", "as": "সিংহ : প্ৰাইড :: নেকুৱা : ?" },
+      "options": [
+        { "en": "Flock", "as": "জাক" },
+        { "en": "Pack", "as": "দল" },
+        { "en": "Herd", "as": "পাল" },
+        { "en": "Swarm", "as": "দল" }
+      ],
+      "a": { "en": "Pack", "as": "দল" }
+    },
+    {
+      "type": "city_river",
+      "q": { "en": "London : Thames :: Guwahati : ?", "as": "লণ্ডন : থেমছ :: গুৱাহাটী : ?" },
+      "options": [
+        { "en": "Ganga", "as": "গংগা" },
+        { "en": "Brahmaputra", "as": "ব্ৰহ্মপুত্র" },
+        { "en": "Yamuna", "as": "যমুনা" },
+        { "en": "Godavari", "as": "গোদাবৰী" }
+      ],
+      "a": { "en": "Brahmaputra", "as": "ব্ৰহ্মপুত্র" }
+    },
+    {
+      "type": "assam_specific",
+      "q": { "en": "Kaziranga : One-horned Rhino :: Manas : ?", "as": "কাজিৰঙা : এশিঙীয়া গঁড় :: মানস : ?" },
+      "options": [
+        { "en": "Royal Bengal Tiger", "as": "ৰয়েল বেংগল বাঘ" },
+        { "en": "Elephant", "as": "হাতী" },
+        { "en": "Leopard", "as": "নাহৰফুটুকী" },
+        { "en": "Deer", "as": "হৰিণা" }
+      ],
+      "a": { "en": "Royal Bengal Tiger", "as": "ৰয়েল বেংগল বাঘ" }
+    },
+    {
+      "type": "assam_specific",
+      "q": { "en": "Bihu : Assam :: Pongal : ?", "as": "বিহু : অসম :: পংগল : ?" },
+      "options": [
+        { "en": "Kerala", "as": "কেৰালা" },
+        { "en": "Tamil Nadu", "as": "তামিলনাডু" },
+        { "en": "Punjab", "as": "পাঞ্জাব" },
+        { "en": "Odisha", "as": "ওড়িশা" }
+      ],
+      "a": { "en": "Tamil Nadu", "as": "তামিলনাডু" }
+    },
+    {
+      "type": "assam_specific",
+      "q": { "en": "Brahmaputra : Assam :: Ganga : ?", "as": "ব্ৰহ্মপুত্র : অসম :: গংগা : ?" },
+      "options": [
+        { "en": "Punjab", "as": "পাঞ্জাব" },
+        { "en": "Rajasthan", "as": "ৰাজস্থান" },
+        { "en": "Uttar Pradesh", "as": "উত্তৰ প্ৰদেশ" },
+        { "en": "Kerala", "as": "কেৰালা" }
+      ],
+      "a": { "en": "Uttar Pradesh", "as": "উত্তৰ প্ৰদেশ" }
+    },
+    {
+      "type": "assam_specific",
+      "q": { "en": "Rang Ghar : Assam :: Sanchi Stupa : ?", "as": "ৰংঘৰ : অসম :: সাঁচী স্তূপ : ?" },
+      "options": [
+        { "en": "Madhya Pradesh", "as": "মধ্যপ্রদেশ" },
+        { "en": "Bihar", "as": "বিহাৰ" },
+        { "en": "Odisha", "as": "ওড়িশা" },
+        { "en": "Gujarat", "as": "গুজৰাট" }
+      ],
+      "a": { "en": "Madhya Pradesh", "as": "মধ্যপ্রদেশ" }
+    },
+    {
+      "type": "assam_specific",
+      "q": { "en": "Rongali Bihu : April :: Bhogali Bihu : ?", "as": "ৰঙালী বিহু : এপ্রিল :: ভোগালী বিহু : ?" },
+      "options": [
+        { "en": "October", "as": "অক্টোবৰ" },
+        { "en": "January", "as": "জানুৱাৰী" },
+        { "en": "March", "as": "মার্চ" },
+        { "en": "August", "as": "আগষ্ট" }
+      ],
+      "a": { "en": "January", "as": "জানুৱাৰী" }
+    },
+    {
+      "type": "assam_specific",
+      "q": { "en": "Srimanta Sankardeva : Vaishnavism :: Madhavdeva : ?", "as": "শ্রীমন্ত শংকৰদেৱ : বৈষ্ণৱবাদ :: মাধৱদেৱ : ?" },
+      "options": [
+        { "en": "Shaivism", "as": "শৈৱবাদ" },
+        { "en": "Buddhism", "as": "বৌদ্ধ ধর্ম" },
+        { "en": "Namghar (Prayer House)", "as": "নামঘৰ" },
+        { "en": "Jainism", "as": "জৈন ধর্ম" }
+      ],
+      "a": { "en": "Namghar (Prayer House)", "as": "নামঘৰ" }
+    },
+    {
+      "type": "assam_specific",
+      "q": { "en": "Dispur : Assam :: Itanagar : ?", "as": "দিছপুৰ : অসম :: ইটানগৰ : ?" },
+      "options": [
+        { "en": "Manipur", "as": "মণিপুৰ" },
+        { "en": "Arunachal Pradesh", "as": "অৰুণাচল প্রদেশ" },
+        { "en": "Mizoram", "as": "মিজোরাম" },
+        { "en": "Tripura", "as": "ত্রিপুৰা" }
+      ],
+      "a": { "en": "Arunachal Pradesh", "as": "অৰুণাচল প্রদেশ" }
+    },
+    {
+      "type": "assam_specific",
+      "q": { "en": "Bodo : Bodo Language :: Mising : ?", "as": "বড়ো : বড়ো ভাষা :: মিচিং : ?" },
+      "options": [
+        { "en": "Mising Language", "as": "মিচিং ভাষা" },
+        { "en": "Assamese Language", "as": "অসমীয়া ভাষা" },
+        { "en": "Hindi Language", "as": "হিন্দী ভাষা" },
+        { "en": "Karbi Language", "as": "কাৰ্বি ভাষা" }
+      ],
+      "a": { "en": "Mising Language", "as": "মিচিং ভাষা" }
+    },
+    {
+      "type": "assam_specific",
+      "q": { "en": "Hemis : Ladakh :: Majuli : ?", "as": "হেমিছ : লাদাখ :: মাজুলী : ?" },
+      "options": [
+        { "en": "Bihar", "as": "বিহাৰ" },
+        { "en": "Assam", "as": "অসম" },
+        { "en": "Uttarakhand", "as": "উত্তৰাখণ্ড" },
+        { "en": "Sikkim", "as": "চিকিম" }
+      ],
+      "a": { "en": "Assam", "as": "অসম" }
+    },
+    {
+      "type": "assam_specific",
+      "q": { "en": "Northeast : Seven Sisters :: Assam : ?", "as": "উত্তৰ-পূব : সাত ভনী :: অসম : ?" },
+      "options": [
+        { "en": "Eldest Sister", "as": "জেষ্ঠা ভনী" },
+        { "en": "Youngest Sister", "as": "কনিষ্ঠ ভনী" },
+        { "en": "Middle Sister", "as": "মাজু ভনী" },
+        { "en": "Gateway of Northeast", "as": "উত্তৰ-পূবৰ প্ৰৱেশদ্বাৰ" }
+      ],
+      "a": { "en": "Gateway of Northeast", "as": "উত্তৰ-পূবৰ প্ৰৱেশদ্বাৰ" }
+    },
+    {
+      "type": "assam_specific",
+      "q": { "en": "Silk : Muga :: Tea : ?", "as": "ৰেচম : মুগা :: চাহ : ?" },
+      "options": [
+        { "en": "Assam", "as": "অসম" },
+        { "en": "Kerala", "as": "কেৰালা" },
+        { "en": "Punjab", "as": "পাঞ্জাব" },
+        { "en": "Haryana", "as": "হাৰিয়ানা" }
+      ],
+      "a": { "en": "Assam", "as": "অসম" }
+    },
+    {
+      "type": "profession_field",
+      "q": { "en": "Architect : Building :: Poet : ?", "as": "স্থপতিবিদ : ভৱন :: কবি : ?" },
+      "options": [
+        { "en": "Poem", "as": "কবিতা" },
+        { "en": "Song", "as": "গীত" },
+        { "en": "Painting", "as": "চিত্র" },
+        { "en": "Sculpture", "as": "ভাস্কর্য" }
+      ],
+      "a": { "en": "Poem", "as": "কবিতা" }
+    },
+    {
+      "type": "profession_field",
+      "q": { "en": "Chef : Food :: Musician : ?", "as": "ৰান্ধনী : খাদ্য :: সংগীতজ্ঞ : ?" },
+      "options": [
+        { "en": "Music", "as": "সংগীত" },
+        { "en": "Dance", "as": "নৃত্য" },
+        { "en": "Art", "as": "শিল্প" },
+        { "en": "Painting", "as": "চিত্র" }
+      ],
+      "a": { "en": "Music", "as": "সংগীত" }
+    },
+    {
+      "type": "misc",
+      "q": { "en": "Pen : Write :: Knife : ?", "as": "কলম : লিখা :: ছুৰী : ?" },
+      "options": [
+        { "en": "Cut", "as": "কটা" },
+        { "en": "Cook", "as": "ৰন্ধা" },
+        { "en": "Eat", "as": "খোৱা" },
+        { "en": "Read", "as": "পঢ়া" }
+      ],
+      "a": { "en": "Cut", "as": "কটা" }
+    },
+    {
+      "type": "misc",
+      "q": { "en": "Eye : See :: Ear : ?", "as": "চকু : দেখা :: কাণ : ?" },
+      "options": [
+        { "en": "Hear", "as": "শুনা" },
+        { "en": "Smell", "as": "গোন্ধ" },
+        { "en": "Taste", "as": "স্বাদ" },
+        { "en": "Touch", "as": "স্পর্শ" }
+      ],
+      "a": { "en": "Hear", "as": "শুনা" }
+    },
+    {
+      "type": "misc",
+      "q": { "en": "Chalk : Blackboard :: Pen : ?", "as": "খড়ি : ব্লেকবোর্ড :: কলম : ?" },
+      "options": [
+        { "en": "Paper", "as": "কাগজ" },
+        { "en": "Table", "as": "মেজ" },
+        { "en": "Book", "as": "কিতাপ" },
+        { "en": "Desk", "as": "ডেস্ক" }
+      ],
+      "a": { "en": "Paper", "as": "কাগজ" }
+    },
+    {
+      "type": "misc",
+      "q": { "en": "Sleep : Tired :: Eat : ?", "as": "টোপনি : ক্লান্ত :: খোৱা : ?" },
+      "options": [
+        { "en": "Hungry", "as": "ভোকতুৰা" },
+        { "en": "Thirsty", "as": "পিয়াহা" },
+        { "en": "Happy", "as": "সুখী" },
+        { "en": "Angry", "as": "ৰাগী" }
+      ],
+      "a": { "en": "Hungry", "as": "ভোকতুৰা" }
+    },
+    {
+      "type": "misc",
+      "q": { "en": "Plant : Tree :: Kitten : ?", "as": "গছ : বৃক্ষ :: মেকুৰী-পোৱালি : ?" },
+      "options": [
+        { "en": "Cat", "as": "মেকুৰী" },
+        { "en": "Dog", "as": "কুকুৰ" },
+        { "en": "Cow", "as": "গাই" },
+        { "en": "Horse", "as": "ঘোঁৰা" }
+      ],
+      "a": { "en": "Cat", "as": "মেকুৰী" }
+    },
+    {
+      "type": "misc",
+      "q": { "en": "Doctor : Stethoscope :: Writer : ?", "as": "ডাক্তৰ : ষ্টেথ'স্কোপ :: লেখক : ?" },
+      "options": [
+        { "en": "Pen", "as": "কলম" },
+        { "en": "Saw", "as": "কৰাত" },
+        { "en": "Hammer", "as": "হাতুৰী" },
+        { "en": "Needle", "as": "জিলিকা" }
+      ],
+      "a": { "en": "Pen", "as": "কলম" }
+    },
+    {
+      "type": "misc",
+      "q": { "en": "Day : Night :: Summer : ?", "as": "দিন : ৰাতি :: গৰম ঋতু : ?" },
+      "options": [
+        { "en": "Winter", "as": "শীত ঋতু" },
+        { "en": "Spring", "as": "বসন্ত" },
+        { "en": "Monsoon", "as": "বৰ্ষা" },
+        { "en": "Autumn", "as": "শৰৎ" }
+      ],
+      "a": { "en": "Winter", "as": "শীত ঋতু" }
+    },
+    {
+      "type": "misc",
+      "q": { "en": "Hand : Glove :: Foot : ?", "as": "হাত : হাতমোজা :: ভৰি : ?" },
+      "options": [
+        { "en": "Shoe", "as": "জোতা" },
+        { "en": "Sock", "as": "মোজা" },
+        { "en": "Hat", "as": "টুপি" },
+        { "en": "Belt", "as": "বেল্ট" }
+      ],
+      "a": { "en": "Sock", "as": "মোজা" }
+    },
+    {
+      "type": "misc",
+      "q": { "en": "Chair : Sit :: Bed : ?", "as": "চকী : বহা :: বিছনা : ?" },
+      "options": [
+        { "en": "Sleep", "as": "টোপনি" },
+        { "en": "Run", "as": "দৌৰা" },
+        { "en": "Jump", "as": "জঁপোৱা" },
+        { "en": "Stand", "as": "থিয়" }
+      ],
+      "a": { "en": "Sleep", "as": "টোপনি" }
+    },
+    {
+      "type": "misc",
+      "q": { "en": "Cup : Tea :: Plate : ?", "as": "কাপ : চাহ :: থাল : ?" },
+      "options": [
+        { "en": "Food", "as": "খাদ্য" },
+        { "en": "Water", "as": "পানী" },
+        { "en": "Milk", "as": "গাখীৰ" },
+        { "en": "Juice", "as": "জুইচ" }
+      ],
+      "a": { "en": "Food", "as": "খাদ্য" }
+    },
+    {
+      "type": "misc",
+      "q": { "en": "Clock : Time :: Scale : ?", "as": "ঘড়ী : সময় :: স্কেল : ?" },
+      "options": [
+        { "en": "Length", "as": "দৈর্ঘ্য" },
+        { "en": "Weight", "as": "ওজন" },
+        { "en": "Temperature", "as": "উষ্ণতা" },
+        { "en": "Speed", "as": "গতি" }
+      ],
+      "a": { "en": "Length", "as": "দৈর্ঘ্য" }
+    },
+    {
+      "type": "misc",
+      "q": { "en": "Weight : Kilogram :: Length : ?", "as": "ওজন : কিলোগ্রাম :: দৈর্ঘ্য : ?" },
+      "options": [
+        { "en": "Meter", "as": "মিটাৰ" },
+        { "en": "Litre", "as": "লিটাৰ" },
+        { "en": "Second", "as": "ছে'কেণ্ড" },
+        { "en": "Gram", "as": "গ্রাম" }
+      ],
+      "a": { "en": "Meter", "as": "মিটাৰ" }
+    },
+    {
+      "type": "misc",
+      "q": { "en": "Assam : Tezpur :: Rajasthan : ?", "as": "অসম : তেজপুৰ :: ৰাজস্থান : ?" },
+      "options": [
+        { "en": "Jaipur", "as": "জয়পুৰ" },
+        { "en": "Bikaner", "as": "বিকানের" },
+        { "en": "Udaipur", "as": "উদয়পুর" },
+        { "en": "Jodhpur", "as": "জোধপুর" }
+      ],
+      "a": { "en": "Jaipur", "as": "জয়পুৰ" }
+    },
+    {
+      "type": "misc",
+      "q": { "en": "One-horned Rhino : Kaziranga :: Golden Langur : ?", "as": "এশিঙীয়া গঁড় : কাজিৰঙা :: সোণালী লাংগুৰ : ?" },
+      "options": [
+        { "en": "Chakrashila Wildlife Sanctuary", "as": "চক্ৰশিলা অভয়াৰণ্য" },
+        { "en": "Pobitora Wildlife Sanctuary", "as": "পবিতৰা অভয়াৰণ্য" },
+        { "en": "Manas National Park", "as": "মানস ৰাষ্ট্ৰীয় উদ্যান" },
+        { "en": "Nameri National Park", "as": "নামেৰী ৰাষ্ট্ৰীয় উদ্যান" }
+      ],
+      "a": { "en": "Chakrashila Wildlife Sanctuary", "as": "চক্ৰশিলা অভয়াৰণ্য" }
+    },
+    {
+      "type": "misc",
+      "q": { "en": "Kaziranga : Elephant :: Orang : ?", "as": "কাজিৰঙা : হাতী :: ওৰাং : ?" },
+      "options": [
+        { "en": "One-horned Rhino", "as": "এশিঙীয়া গঁড়" },
+        { "en": "Tiger", "as": "বাঘ" },
+        { "en": "Leopard", "as": "নাহৰফুটুকী" },
+        { "en": "Bear", "as": "ভালুক" }
+      ],
+      "a": { "en": "One-horned Rhino", "as": "এশিঙীয়া গঁড়" }
     }
   ]
 }
