@@ -1,0 +1,493 @@
+{
+  "id": "input_output",
+  "title": { "en": "Input-Output (Machine Input) Test (Assam Competitive Exams)", "as": "ইনপুট-আউটপুট (মেচিন ইনপুট) পৰীক্ষা (অসম প্ৰতিযোগিতামূলক পৰীক্ষা)" },
+  "description": { "en": "Study how a machine rearranges numbers/words step by step and predict the next step, a given step, or the final arrangement.", "as": "মেচিনে সংখ্যা/শব্দবোৰ ধাপে ধাপে কেনেকৈ পুনৰ সজাই সেইটো অধ্যয়ন কৰি পৰৱৰ্তী ধাপ, দিয়া ধাপ বা শেষ বিন্যাস অনুমান কৰক।" },
+  "tags": ["reasoning", "input-output", "machine-input", "যুক্তি", "ইনপুট-আউটপুট"],
+  "pdf": null,
+  "questions": [
+    {
+      "type": "step-find",
+      "q": { "en": "Input: 42 67 18 93 51 34. Step 1: 18 42 67 93 51 34. Step 2: 18 34 42 67 93 51. What will be Step 3?", "as": "ইনপুট: 42 67 18 93 51 34. ধাপ 1: 18 42 67 93 51 34. ধাপ 2: 18 34 42 67 93 51. ধাপ 3 কি হ'ব?" },
+      "options": [
+        { "option": "A", "en": "18 34 42 51 67 93", "as": "18 34 42 51 67 93" },
+        { "option": "B", "en": "18 34 42 67 51 93", "as": "18 34 42 67 51 93" },
+        { "option": "C", "en": "34 18 42 67 93 51", "as": "34 18 42 67 93 51" },
+        { "option": "D", "en": "18 42 34 67 93 51", "as": "18 42 34 67 93 51" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "step-find",
+      "q": { "en": "Input: 42 67 18 93 51 34. Step 1: 18 42 67 93 51 34. Step 2: 18 34 42 67 93 51. Step 3: 18 34 42 51 67 93. What will be Step 4?", "as": "ইনপুট: 42 67 18 93 51 34. ধাপ 1: 18 42 67 93 51 34. ধাপ 2: 18 34 42 67 93 51. ধাপ 3: 18 34 42 51 67 93. ধাপ 4 কি হ'ব?" },
+      "options": [
+        { "option": "A", "en": "18 34 42 51 67 93", "as": "18 34 42 51 67 93" },
+        { "option": "B", "en": "18 34 42 51 93 67", "as": "18 34 42 51 93 67" },
+        { "option": "C", "en": "18 42 34 51 67 93", "as": "18 42 34 51 67 93" },
+        { "option": "D", "en": "93 67 51 42 34 18", "as": "93 67 51 42 34 18" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "step-identify",
+      "q": { "en": "Input: 42 67 18 93 51 34. Step 1: 18 42 67 93 51 34. Step 2: 18 34 42 67 93 51. Which step is '18 42 67 93 51 34'?", "as": "ইনপুট: 42 67 18 93 51 34. ধাপ 1: 18 42 67 93 51 34. ধাপ 2: 18 34 42 67 93 51. '18 42 67 93 51 34' কোনটো ধাপ?" },
+      "options": [
+        { "option": "A", "en": "Step 1", "as": "ধাপ 1" },
+        { "option": "B", "en": "Step 2", "as": "ধাপ 2" },
+        { "option": "C", "en": "Step 3", "as": "ধাপ 3" },
+        { "option": "D", "en": "Input itself", "as": "ইনপুট নিজেই" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "last-step",
+      "q": { "en": "Input: 42 67 18 93 51 34. Step 1: 18 42 67 93 51 34. Step 2: 18 34 42 67 93 51. Step 3: 18 34 42 51 67 93. What is the last step of the machine?", "as": "ইনপুট: 42 67 18 93 51 34. ধাপ 1: 18 42 67 93 51 34. ধাপ 2: 18 34 42 67 93 51. ধাপ 3: 18 34 42 51 67 93. মেচিনৰ শেষ ধাপটো কি?" },
+      "options": [
+        { "option": "A", "en": "18 34 42 51 67 93", "as": "18 34 42 51 67 93" },
+        { "option": "B", "en": "18 42 34 51 67 93", "as": "18 42 34 51 67 93" },
+        { "option": "C", "en": "93 67 51 42 34 18", "as": "93 67 51 42 34 18" },
+        { "option": "D", "en": "18 34 42 67 93 51", "as": "18 34 42 67 93 51" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "element-position",
+      "q": { "en": "Input: 42 67 18 93 51 34. Step 1: 18 42 67 93 51 34. In Step 1, which number is at the 5th position?", "as": "ইনপুট: 42 67 18 93 51 34. ধাপ 1: 18 42 67 93 51 34. ধাপ 1 ত 5 নং স্থানত কোনটো সংখ্যা আছে?" },
+      "options": [
+        { "option": "A", "en": "93", "as": "93" },
+        { "option": "B", "en": "67", "as": "67" },
+        { "option": "C", "en": "51", "as": "51" },
+        { "option": "D", "en": "34", "as": "34" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "rule-identify",
+      "q": { "en": "Input: 42 67 18 93 51 34. Step 1: 18 42 67 93 51 34. Step 2: 18 34 42 67 93 51. What rule is the machine following?", "as": "ইনপুট: 42 67 18 93 51 34. ধাপ 1: 18 42 67 93 51 34. ধাপ 2: 18 34 42 67 93 51. মেচিনটোৱে কোন নিয়ম মানি চলিছে?" },
+      "options": [
+        { "option": "A", "en": "Arranging numbers in ascending order", "as": "সংখ্যাবোৰ আৰোহী ক্ৰমত সজাইছে" },
+        { "option": "B", "en": "Arranging numbers in descending order", "as": "সংখ্যাবোৰ অৱৰোহী ক্ৰমত সজাইছে" },
+        { "option": "C", "en": "Moving odd numbers to the left", "as": "বিজোড় সংখ্যাবোৰ বাওঁফালে লৈ যাওক" },
+        { "option": "D", "en": "Moving even numbers to the right", "as": "জোৰ সংখ্যাবোৰ সোঁফালে লৈ যাওক" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "step-find",
+      "q": { "en": "Input: 25 81 47 12 96 53. Step 1: 96 25 81 47 12 53. Step 2: 96 81 25 47 12 53. What will be Step 3?", "as": "ইনপুট: 25 81 47 12 96 53. ধাপ 1: 96 25 81 47 12 53. ধাপ 2: 96 81 25 47 12 53. ধাপ 3 কি হ'ব?" },
+      "options": [
+        { "option": "A", "en": "96 81 53 25 47 12", "as": "96 81 53 25 47 12" },
+        { "option": "B", "en": "96 81 25 53 47 12", "as": "96 81 25 53 47 12" },
+        { "option": "C", "en": "96 81 47 25 12 53", "as": "96 81 47 25 12 53" },
+        { "option": "D", "en": "81 96 25 47 12 53", "as": "81 96 25 47 12 53" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "step-find",
+      "q": { "en": "Input: 25 81 47 12 96 53. Step 1: 96 25 81 47 12 53. Step 2: 96 81 25 47 12 53. Step 3: 96 81 53 25 47 12. What will be Step 4?", "as": "ইনপুট: 25 81 47 12 96 53. ধাপ 1: 96 25 81 47 12 53. ধাপ 2: 96 81 25 47 12 53. ধাপ 3: 96 81 53 25 47 12. ধাপ 4 কি হ'ব?" },
+      "options": [
+        { "option": "A", "en": "96 81 53 47 25 12", "as": "96 81 53 47 25 12" },
+        { "option": "B", "en": "96 81 53 25 47 12", "as": "96 81 53 25 47 12" },
+        { "option": "C", "en": "96 53 81 47 25 12", "as": "96 53 81 47 25 12" },
+        { "option": "D", "en": "12 25 47 53 81 96", "as": "12 25 47 53 81 96" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "step-identify",
+      "q": { "en": "Input: 25 81 47 12 96 53. Step 1: 96 25 81 47 12 53. Step 2: 96 81 25 47 12 53. Which step is '96 81 25 47 12 53'?", "as": "ইনপুট: 25 81 47 12 96 53. ধাপ 1: 96 25 81 47 12 53. ধাপ 2: 96 81 25 47 12 53. '96 81 25 47 12 53' কোনটো ধাপ?" },
+      "options": [
+        { "option": "A", "en": "Step 1", "as": "ধাপ 1" },
+        { "option": "B", "en": "Step 2", "as": "ধাপ 2" },
+        { "option": "C", "en": "Step 3", "as": "ধাপ 3" },
+        { "option": "D", "en": "Input itself", "as": "ইনপুট নিজেই" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "last-step",
+      "q": { "en": "Input: 25 81 47 12 96 53. Step 1: 96 25 81 47 12 53. Step 2: 96 81 25 47 12 53. Step 3: 96 81 53 25 47 12. Step 4: 96 81 53 47 25 12. What is the last step?", "as": "ইনপুট: 25 81 47 12 96 53. ধাপ 1: 96 25 81 47 12 53. ধাপ 2: 96 81 25 47 12 53. ধাপ 3: 96 81 53 25 47 12. ধাপ 4: 96 81 53 47 25 12. শেষ ধাপটো কি?" },
+      "options": [
+        { "option": "A", "en": "96 81 53 47 25 12", "as": "96 81 53 47 25 12" },
+        { "option": "B", "en": "96 81 53 47 12 25", "as": "96 81 53 47 12 25" },
+        { "option": "C", "en": "96 81 47 53 25 12", "as": "96 81 47 53 25 12" },
+        { "option": "D", "en": "12 25 47 53 81 96", "as": "12 25 47 53 81 96" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "rule-identify",
+      "q": { "en": "Input: 25 81 47 12 96 53. Step 1: 96 25 81 47 12 53. What is the machine doing?", "as": "ইনপুট: 25 81 47 12 96 53. ধাপ 1: 96 25 81 47 12 53. মেচিনটোৱে কি কৰিছে?" },
+      "options": [
+        { "option": "A", "en": "Moving the largest number to the left in each step", "as": "প্ৰতিটো ধাপত আটাইতকৈ ডাঙৰ সংখ্যাটো বাওঁফালে লৈ যাওক" },
+        { "option": "B", "en": "Moving the smallest number to the left", "as": "আটাইতকৈ সৰু সংখ্যাটো বাওঁফালে লৈ যাওক" },
+        { "option": "C", "en": "Arranging in ascending order", "as": "আৰোহী ক্ৰমত সজাইছে" },
+        { "option": "D", "en": "Moving even numbers to the right", "as": "জোৰ সংখ্যাবোৰ সোঁফালে লৈ যাওক" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "element-position",
+      "q": { "en": "Input: 25 81 47 12 96 53. Step 3: 96 81 53 25 47 12. Which number is at the 4th position in Step 3?", "as": "ইনপুট: 25 81 47 12 96 53. ধাপ 3: 96 81 53 25 47 12. ধাপ 3 ত 4 নং স্থানত কোনটো সংখ্যা আছে?" },
+      "options": [
+        { "option": "A", "en": "53", "as": "53" },
+        { "option": "B", "en": "25", "as": "25" },
+        { "option": "C", "en": "47", "as": "47" },
+        { "option": "D", "en": "81", "as": "81" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "step-find",
+      "q": { "en": "Input: mango apple grape banana cherry. Step 1: apple mango grape banana cherry. Step 2: apple banana mango grape cherry. What will be Step 3?", "as": "ইনপুট: mango apple grape banana cherry. ধাপ 1: apple mango grape banana cherry. ধাপ 2: apple banana mango grape cherry. ধাপ 3 কি হ'ব?" },
+      "options": [
+        { "option": "A", "en": "apple banana cherry mango grape", "as": "apple banana cherry mango grape" },
+        { "option": "B", "en": "apple banana mango cherry grape", "as": "apple banana mango cherry grape" },
+        { "option": "C", "en": "apple banana cherry grape mango", "as": "apple banana cherry grape mango" },
+        { "option": "D", "en": "banana apple mango grape cherry", "as": "banana apple mango grape cherry" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "step-find",
+      "q": { "en": "Input: mango apple grape banana cherry. Step 1: apple mango grape banana cherry. Step 2: apple banana mango grape cherry. Step 3: apple banana cherry mango grape. What will be Step 4?", "as": "ইনপুট: mango apple grape banana cherry. ধাপ 1: apple mango grape banana cherry. ধাপ 2: apple banana mango grape cherry. ধাপ 3: apple banana cherry mango grape. ধাপ 4 কি হ'ব?" },
+      "options": [
+        { "option": "A", "en": "apple banana cherry grape mango", "as": "apple banana cherry grape mango" },
+        { "option": "B", "en": "apple banana cherry mango grape", "as": "apple banana cherry mango grape" },
+        { "option": "C", "en": "apple cherry banana grape mango", "as": "apple cherry banana grape mango" },
+        { "option": "D", "en": "grape mango cherry banana apple", "as": "grape mango cherry banana apple" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "step-identify",
+      "q": { "en": "Input: mango apple grape banana cherry. Step 1: apple mango grape banana cherry. Step 2: apple banana mango grape cherry. Which step is 'apple banana mango grape cherry'?", "as": "ইনপুট: mango apple grape banana cherry. ধাপ 1: apple mango grape banana cherry. ধাপ 2: apple banana mango grape cherry. 'apple banana mango grape cherry' কোনটো ধাপ?" },
+      "options": [
+        { "option": "A", "en": "Step 1", "as": "ধাপ 1" },
+        { "option": "B", "en": "Step 2", "as": "ধাপ 2" },
+        { "option": "C", "en": "Step 3", "as": "ধাপ 3" },
+        { "option": "D", "en": "Input itself", "as": "ইনপুট নিজেই" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "last-step",
+      "q": { "en": "Input: mango apple grape banana cherry. Step 1: apple mango grape banana cherry. Step 2: apple banana mango grape cherry. Step 3: apple banana cherry mango grape. Step 4: apple banana cherry grape mango. What is the last step?", "as": "ইনপুট: mango apple grape banana cherry. ধাপ 1: apple mango grape banana cherry. ধাপ 2: apple banana mango grape cherry. ধাপ 3: apple banana cherry mango grape. ধাপ 4: apple banana cherry grape mango. শেষ ধাপটো কি?" },
+      "options": [
+        { "option": "A", "en": "apple banana cherry grape mango", "as": "apple banana cherry grape mango" },
+        { "option": "B", "en": "apple banana cherry mango grape", "as": "apple banana cherry mango grape" },
+        { "option": "C", "en": "apple banana mango cherry grape", "as": "apple banana mango cherry grape" },
+        { "option": "D", "en": "apple cherry banana grape mango", "as": "apple cherry banana grape mango" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "rule-identify",
+      "q": { "en": "Input: mango apple grape banana cherry. Step 1: apple mango grape banana cherry. What rule is the machine following?", "as": "ইনপুট: mango apple grape banana cherry. ধাপ 1: apple mango grape banana cherry. মেচিনটোৱে কোন নিয়ম মানি চলিছে?" },
+      "options": [
+        { "option": "A", "en": "Arranging words in alphabetical order", "as": "শব্দবোৰ বৰ্ণমালা ক্ৰমত সজাইছে" },
+        { "option": "B", "en": "Arranging words in reverse alphabetical order", "as": "শব্দবোৰ বিপৰীত বৰ্ণমালা ক্ৰমত সজাইছে" },
+        { "option": "C", "en": "Arranging words by their length", "as": "শব্দবোৰ দৈৰ্ঘ্য অনুসৰি সজাইছে" },
+        { "option": "D", "en": "Moving vowels to the left", "as": "স্বৰবৰ্ণবোৰ বাওঁফালে লৈ যাওক" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "element-position",
+      "q": { "en": "Input: mango apple grape banana cherry. Step 2: apple banana mango grape cherry. Which word is at the 4th position in Step 2?", "as": "ইনপুট: mango apple grape banana cherry. ধাপ 2: apple banana mango grape cherry. ধাপ 2 ত 4 নং স্থানত কোনটো শব্দ আছে?" },
+      "options": [
+        { "option": "A", "en": "mango", "as": "mango" },
+        { "option": "B", "en": "grape", "as": "grape" },
+        { "option": "C", "en": "banana", "as": "banana" },
+        { "option": "D", "en": "cherry", "as": "cherry" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "step-find",
+      "q": { "en": "Input: 24 57 31 68 45 12. Step 1: 31 24 57 68 45 12. Step 2: 31 45 24 57 68 12. What will be Step 3?", "as": "ইনপুট: 24 57 31 68 45 12. ধাপ 1: 31 24 57 68 45 12. ধাপ 2: 31 45 24 57 68 12. ধাপ 3 কি হ'ব?" },
+      "options": [
+        { "option": "A", "en": "31 45 57 24 68 12", "as": "31 45 57 24 68 12" },
+        { "option": "B", "en": "31 45 57 68 24 12", "as": "31 45 57 68 24 12" },
+        { "option": "C", "en": "31 45 24 68 57 12", "as": "31 45 24 68 57 12" },
+        { "option": "D", "en": "45 31 57 24 68 12", "as": "45 31 57 24 68 12" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "step-find",
+      "q": { "en": "Input: 24 57 31 68 45 12. Step 1: 31 24 57 68 45 12. Step 2: 31 45 24 57 68 12. Step 3: 31 45 57 24 68 12. What will be Step 4?", "as": "ইনপুট: 24 57 31 68 45 12. ধাপ 1: 31 24 57 68 45 12. ধাপ 2: 31 45 24 57 68 12. ধাপ 3: 31 45 57 24 68 12. ধাপ 4 কি হ'ব?" },
+      "options": [
+        { "option": "A", "en": "31 45 57 12 24 68", "as": "31 45 57 12 24 68" },
+        { "option": "B", "en": "31 45 57 68 24 12", "as": "31 45 57 68 24 12" },
+        { "option": "C", "en": "31 45 57 24 12 68", "as": "31 45 57 24 12 68" },
+        { "option": "D", "en": "12 24 31 45 57 68", "as": "12 24 31 45 57 68" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "step-identify",
+      "q": { "en": "Input: 24 57 31 68 45 12. Step 1: 31 24 57 68 45 12. Step 2: 31 45 24 57 68 12. Which step is '31 24 57 68 45 12'?", "as": "ইনপুট: 24 57 31 68 45 12. ধাপ 1: 31 24 57 68 45 12. ধাপ 2: 31 45 24 57 68 12. '31 24 57 68 45 12' কোনটো ধাপ?" },
+      "options": [
+        { "option": "A", "en": "Step 1", "as": "ধাপ 1" },
+        { "option": "B", "en": "Step 2", "as": "ধাপ 2" },
+        { "option": "C", "en": "Step 3", "as": "ধাপ 3" },
+        { "option": "D", "en": "Input itself", "as": "ইনপুট নিজেই" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "last-step",
+      "q": { "en": "Input: 24 57 31 68 45 12. Step 1: 31 24 57 68 45 12. Step 2: 31 45 24 57 68 12. Step 3: 31 45 57 24 68 12. Step 4: 31 45 57 12 24 68. What is the last step?", "as": "ইনপুট: 24 57 31 68 45 12. ধাপ 1: 31 24 57 68 45 12. ধাপ 2: 31 45 24 57 68 12. ধাপ 3: 31 45 57 24 68 12. ধাপ 4: 31 45 57 12 24 68. শেষ ধাপটো কি?" },
+      "options": [
+        { "option": "A", "en": "31 45 57 12 24 68", "as": "31 45 57 12 24 68" },
+        { "option": "B", "en": "31 45 57 68 24 12", "as": "31 45 57 68 24 12" },
+        { "option": "C", "en": "12 24 31 45 57 68", "as": "12 24 31 45 57 68" },
+        { "option": "D", "en": "68 57 45 31 24 12", "as": "68 57 45 31 24 12" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "rule-identify",
+      "q": { "en": "Input: 24 57 31 68 45 12. Step 1: 31 24 57 68 45 12. Step 2: 31 45 24 57 68 12. What rule is the machine following?", "as": "ইনপুট: 24 57 31 68 45 12. ধাপ 1: 31 24 57 68 45 12. ধাপ 2: 31 45 24 57 68 12. মেচিনটোৱে কোন নিয়ম মানি চলিছে?" },
+      "options": [
+        { "option": "A", "en": "Arranging odd numbers in ascending order to the left, then even numbers", "as": "বিজোড় সংখ্যাবোৰ আৰোহী ক্ৰমত বাওঁফালে, তাৰ পিছত জোৰ সংখ্যাবোৰ" },
+        { "option": "B", "en": "Arranging all numbers in descending order", "as": "সকলো সংখ্যা অৱৰোহী ক্ৰমত সজাইছে" },
+        { "option": "C", "en": "Arranging all numbers in ascending order", "as": "সকলো সংখ্যা আৰোহী ক্ৰমত সজাইছে" },
+        { "option": "D", "en": "Moving even numbers to the left", "as": "জোৰ সংখ্যাবোৰ বাওঁফালে লৈ যাওক" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "element-position",
+      "q": { "en": "Input: 24 57 31 68 45 12. Step 3: 31 45 57 24 68 12. Which number is at the 2nd position in Step 3?", "as": "ইনপুট: 24 57 31 68 45 12. ধাপ 3: 31 45 57 24 68 12. ধাপ 3 ত 2 নং স্থানত কোনটো সংখ্যা আছে?" },
+      "options": [
+        { "option": "A", "en": "31", "as": "31" },
+        { "option": "B", "en": "57", "as": "57" },
+        { "option": "C", "en": "45", "as": "45" },
+        { "option": "D", "en": "24", "as": "24" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "step-find",
+      "q": { "en": "Input: 42 apple 18 mango 67 banana 35. Step 1: 18 42 apple mango 67 banana 35. Step 2: 18 35 42 apple mango 67 banana. What will be Step 3?", "as": "ইনপুট: 42 apple 18 mango 67 banana 35. ধাপ 1: 18 42 apple mango 67 banana 35. ধাপ 2: 18 35 42 apple mango 67 banana. ধাপ 3 কি হ'ব?" },
+      "options": [
+        { "option": "A", "en": "18 35 42 67 apple mango banana", "as": "18 35 42 67 apple mango banana" },
+        { "option": "B", "en": "18 35 42 67 mango apple banana", "as": "18 35 42 67 mango apple banana" },
+        { "option": "C", "en": "18 35 42 apple mango 67 banana", "as": "18 35 42 apple mango 67 banana" },
+        { "option": "D", "en": "18 35 67 42 apple mango banana", "as": "18 35 67 42 apple mango banana" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "step-find",
+      "q": { "en": "Input: 42 apple 18 mango 67 banana 35. Step 1: 18 42 apple mango 67 banana 35. Step 2: 18 35 42 apple mango 67 banana. Step 3: 18 35 42 67 apple mango banana. What will be Step 4?", "as": "ইনপুট: 42 apple 18 mango 67 banana 35. ধাপ 1: 18 42 apple mango 67 banana 35. ধাপ 2: 18 35 42 apple mango 67 banana. ধাপ 3: 18 35 42 67 apple mango banana. ধাপ 4 কি হ'ব?" },
+      "options": [
+        { "option": "A", "en": "18 35 42 67 apple banana mango", "as": "18 35 42 67 apple banana mango" },
+        { "option": "B", "en": "18 35 42 67 apple mango banana", "as": "18 35 42 67 apple mango banana" },
+        { "option": "C", "en": "18 35 42 67 banana apple mango", "as": "18 35 42 67 banana apple mango" },
+        { "option": "D", "en": "18 35 42 67 mango banana apple", "as": "18 35 42 67 mango banana apple" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "step-identify",
+      "q": { "en": "Input: 42 apple 18 mango 67 banana 35. Step 1: 18 42 apple mango 67 banana 35. Step 2: 18 35 42 apple mango 67 banana. Which step is '18 42 apple mango 67 banana 35'?", "as": "ইনপুট: 42 apple 18 mango 67 banana 35. ধাপ 1: 18 42 apple mango 67 banana 35. ধাপ 2: 18 35 42 apple mango 67 banana. '18 42 apple mango 67 banana 35' কোনটো ধাপ?" },
+      "options": [
+        { "option": "A", "en": "Step 1", "as": "ধাপ 1" },
+        { "option": "B", "en": "Step 2", "as": "ধাপ 2" },
+        { "option": "C", "en": "Step 3", "as": "ধাপ 3" },
+        { "option": "D", "en": "Input itself", "as": "ইনপুট নিজেই" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "last-step",
+      "q": { "en": "Input: 42 apple 18 mango 67 banana 35. Step 1: 18 42 apple mango 67 banana 35. Step 2: 18 35 42 apple mango 67 banana. Step 3: 18 35 42 67 apple mango banana. Step 4: 18 35 42 67 apple banana mango. What is the last step?", "as": "ইনপুট: 42 apple 18 mango 67 banana 35. ধাপ 1: 18 42 apple mango 67 banana 35. ধাপ 2: 18 35 42 apple mango 67 banana. ধাপ 3: 18 35 42 67 apple mango banana. ধাপ 4: 18 35 42 67 apple banana mango. শেষ ধাপটো কি?" },
+      "options": [
+        { "option": "A", "en": "18 35 42 67 apple banana mango", "as": "18 35 42 67 apple banana mango" },
+        { "option": "B", "en": "18 35 42 67 apple mango banana", "as": "18 35 42 67 apple mango banana" },
+        { "option": "C", "en": "18 35 42 67 mango banana apple", "as": "18 35 42 67 mango banana apple" },
+        { "option": "D", "en": "67 42 35 18 mango banana apple", "as": "67 42 35 18 mango banana apple" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "rule-identify",
+      "q": { "en": "Input: 42 apple 18 mango 67 banana 35. Step 1: 18 42 apple mango 67 banana 35. What rule is the machine following?", "as": "ইনপুট: 42 apple 18 mango 67 banana 35. ধাপ 1: 18 42 apple mango 67 banana 35. মেচিনটোৱে কোন নিয়ম মানি চলিছে?" },
+      "options": [
+        { "option": "A", "en": "First arrange numbers in ascending order, then words alphabetically", "as": "প্ৰথমে সংখ্যাবোৰ আৰোহী ক্ৰমত, তাৰ পিছত শব্দবোৰ বৰ্ণমালা ক্ৰমত" },
+        { "option": "B", "en": "First arrange words alphabetically, then numbers", "as": "প্ৰথমে শব্দবোৰ বৰ্ণমালা ক্ৰমত, তাৰ পিছত সংখ্যাবোৰ" },
+        { "option": "C", "en": "Arrange everything in descending order", "as": "সকলো অৱৰোহী ক্ৰমত সজাইছে" },
+        { "option": "D", "en": "Move all words to the left", "as": "সকলো শব্দ বাওঁফালে লৈ যাওক" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "element-position",
+      "q": { "en": "Input: 42 apple 18 mango 67 banana 35. Step 3: 18 35 42 67 apple mango banana. Which element is at the 5th position in Step 3?", "as": "ইনপুট: 42 apple 18 mango 67 banana 35. ধাপ 3: 18 35 42 67 apple mango banana. ধাপ 3 ত 5 নং স্থানত কোনটো উপাদান আছে?" },
+      "options": [
+        { "option": "A", "en": "67", "as": "67" },
+        { "option": "B", "en": "apple", "as": "apple" },
+        { "option": "C", "en": "mango", "as": "mango" },
+        { "option": "D", "en": "banana", "as": "banana" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "step-find",
+      "q": { "en": "Input: 12 45 8 23 71 50. Step 1: 12 45 8 23 50 71. Step 2: 12 8 23 45 50 71. What will be Step 3?", "as": "ইনপুট: 12 45 8 23 71 50. ধাপ 1: 12 45 8 23 50 71. ধাপ 2: 12 8 23 45 50 71. ধাপ 3 কি হ'ব?" },
+      "options": [
+        { "option": "A", "en": "8 12 23 45 50 71", "as": "8 12 23 45 50 71" },
+        { "option": "B", "en": "8 12 45 23 50 71", "as": "8 12 45 23 50 71" },
+        { "option": "C", "en": "12 8 23 50 45 71", "as": "12 8 23 50 45 71" },
+        { "option": "D", "en": "8 12 23 50 45 71", "as": "8 12 23 50 45 71" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "step-identify",
+      "q": { "en": "Input: 12 45 8 23 71 50. Step 1: 12 45 8 23 50 71. Step 2: 12 8 23 45 50 71. Which step is '12 45 8 23 50 71'?", "as": "ইনপুট: 12 45 8 23 71 50. ধাপ 1: 12 45 8 23 50 71. ধাপ 2: 12 8 23 45 50 71. '12 45 8 23 50 71' কোনটো ধাপ?" },
+      "options": [
+        { "option": "A", "en": "Step 1", "as": "ধাপ 1" },
+        { "option": "B", "en": "Step 2", "as": "ধাপ 2" },
+        { "option": "C", "en": "Step 3", "as": "ধাপ 3" },
+        { "option": "D", "en": "Input itself", "as": "ইনপুট নিজেই" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "last-step",
+      "q": { "en": "Input: 12 45 8 23 71 50. Step 1: 12 45 8 23 50 71. Step 2: 12 8 23 45 50 71. Step 3: 8 12 23 45 50 71. What is the last step?", "as": "ইনপুট: 12 45 8 23 71 50. ধাপ 1: 12 45 8 23 50 71. ধাপ 2: 12 8 23 45 50 71. ধাপ 3: 8 12 23 45 50 71. শেষ ধাপটো কি?" },
+      "options": [
+        { "option": "A", "en": "8 12 23 45 50 71", "as": "8 12 23 45 50 71" },
+        { "option": "B", "en": "8 12 23 50 45 71", "as": "8 12 23 50 45 71" },
+        { "option": "C", "en": "8 12 45 23 50 71", "as": "8 12 45 23 50 71" },
+        { "option": "D", "en": "71 50 45 23 12 8", "as": "71 50 45 23 12 8" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "rule-identify",
+      "q": { "en": "Input: 12 45 8 23 71 50. Step 1: 12 45 8 23 50 71. What rule is the machine following?", "as": "ইনপুট: 12 45 8 23 71 50. ধাপ 1: 12 45 8 23 50 71. মেচিনটোৱে কোন নিয়ম মানি চলিছে?" },
+      "options": [
+        { "option": "A", "en": "Moving the largest number to the right in each step", "as": "প্ৰতিটো ধাপত আটাইতকৈ ডাঙৰ সংখ্যাটো সোঁফালে লৈ যাওক" },
+        { "option": "B", "en": "Moving the smallest number to the right", "as": "আটাইতকৈ সৰু সংখ্যাটো সোঁফালে লৈ যাওক" },
+        { "option": "C", "en": "Arranging in ascending order from the left", "as": "বাওঁফালৰ পৰা আৰোহী ক্ৰমত সজাইছে" },
+        { "option": "D", "en": "Arranging in descending order", "as": "অৱৰোহী ক্ৰমত সজাইছে" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "element-position",
+      "q": { "en": "Input: 12 45 8 23 71 50. Step 2: 12 8 23 45 50 71. Which number is at the 3rd position in Step 2?", "as": "ইনপুট: 12 45 8 23 71 50. ধাপ 2: 12 8 23 45 50 71. ধাপ 2 ত 3 নং স্থানত কোনটো সংখ্যা আছে?" },
+      "options": [
+        { "option": "A", "en": "12", "as": "12" },
+        { "option": "B", "en": "8", "as": "8" },
+        { "option": "C", "en": "23", "as": "23" },
+        { "option": "D", "en": "45", "as": "45" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "step-find",
+      "q": { "en": "Input: lion tiger zebra horse deer. Step 1: zebra lion tiger horse deer. Step 2: zebra tiger lion horse deer. What will be Step 3?", "as": "ইনপুট: lion tiger zebra horse deer. ধাপ 1: zebra lion tiger horse deer. ধাপ 2: zebra tiger lion horse deer. ধাপ 3 কি হ'ব?" },
+      "options": [
+        { "option": "A", "en": "zebra tiger horse lion deer", "as": "zebra tiger horse lion deer" },
+        { "option": "B", "en": "zebra tiger lion horse deer", "as": "zebra tiger lion horse deer" },
+        { "option": "C", "en": "zebra horse tiger lion deer", "as": "zebra horse tiger lion deer" },
+        { "option": "D", "en": "tiger zebra lion horse deer", "as": "tiger zebra lion horse deer" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "step-identify",
+      "q": { "en": "Input: lion tiger zebra horse deer. Step 1: zebra lion tiger horse deer. Step 2: zebra tiger lion horse deer. Which step is 'zebra tiger lion horse deer'?", "as": "ইনপুট: lion tiger zebra horse deer. ধাপ 1: zebra lion tiger horse deer. ধাপ 2: zebra tiger lion horse deer. 'zebra tiger lion horse deer' কোনটো ধাপ?" },
+      "options": [
+        { "option": "A", "en": "Step 1", "as": "ধাপ 1" },
+        { "option": "B", "en": "Step 2", "as": "ধাপ 2" },
+        { "option": "C", "en": "Step 3", "as": "ধাপ 3" },
+        { "option": "D", "en": "Input itself", "as": "ইনপুট নিজেই" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "last-step",
+      "q": { "en": "Input: lion tiger zebra horse deer. Step 1: zebra lion tiger horse deer. Step 2: zebra tiger lion horse deer. Step 3: zebra tiger horse lion deer. Step 4: zebra tiger horse lion deer. What is the last step?", "as": "ইনপুট: lion tiger zebra horse deer. ধাপ 1: zebra lion tiger horse deer. ধাপ 2: zebra tiger lion horse deer. ধাপ 3: zebra tiger horse lion deer. ধাপ 4: zebra tiger horse lion deer. শেষ ধাপটো কি?" },
+      "options": [
+        { "option": "A", "en": "zebra tiger horse lion deer", "as": "zebra tiger horse lion deer" },
+        { "option": "B", "en": "zebra tiger lion horse deer", "as": "zebra tiger lion horse deer" },
+        { "option": "C", "en": "zebra horse tiger lion deer", "as": "zebra horse tiger lion deer" },
+        { "option": "D", "en": "deer lion horse tiger zebra", "as": "deer lion horse tiger zebra" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "rule-identify",
+      "q": { "en": "Input: lion tiger zebra horse deer. Step 1: zebra lion tiger horse deer. What rule is the machine following?", "as": "ইনপুট: lion tiger zebra horse deer. ধাপ 1: zebra lion tiger horse deer. মেচিনটোৱে কোন নিয়ম মানি চলিছে?" },
+      "options": [
+        { "option": "A", "en": "Arranging words in reverse alphabetical order", "as": "শব্দবোৰ বিপৰীত বৰ্ণমালা ক্ৰমত সজাইছে" },
+        { "option": "B", "en": "Arranging words in alphabetical order", "as": "শব্দবোৰ বৰ্ণমালা ক্ৰমত সজাইছে" },
+        { "option": "C", "en": "Arranging words by number of letters", "as": "শব্দবোৰ আখৰৰ সংখ্যা অনুসৰি সজাইছে" },
+        { "option": "D", "en": "Moving words with vowels to the left", "as": "স্বৰবৰ্ণ থকা শব্দবোৰ বাওঁফালে লৈ যাওক" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "element-position",
+      "q": { "en": "Input: lion tiger zebra horse deer. Step 2: zebra tiger lion horse deer. Which word is at the 3rd position in Step 2?", "as": "ইনপুট: lion tiger zebra horse deer. ধাপ 2: zebra tiger lion horse deer. ধাপ 2 ত 3 নং স্থানত কোনটো শব্দ আছে?" },
+      "options": [
+        { "option": "A", "en": "zebra", "as": "zebra" },
+        { "option": "B", "en": "tiger", "as": "tiger" },
+        { "option": "C", "en": "lion", "as": "lion" },
+        { "option": "D", "en": "horse", "as": "horse" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "step-find",
+      "q": { "en": "Input: 31 62 88 45 17 74 29. Step 1: 17 31 62 88 45 74 29. Step 2: 17 29 31 62 88 45 74. What will be Step 3?", "as": "ইনপুট: 31 62 88 45 17 74 29. ধাপ 1: 17 31 62 88 45 74 29. ধাপ 2: 17 29 31 62 88 45 74. ধাপ 3 কি হ'ব?" },
+      "options": [
+        { "option": "A", "en": "17 29 31 45 62 88 74", "as": "17 29 31 45 62 88 74" },
+        { "option": "B", "en": "17 29 31 62 88 45 74", "as": "17 29 31 62 88 45 74" },
+        { "option": "C", "en": "17 31 29 45 62 88 74", "as": "17 31 29 45 62 88 74" },
+        { "option": "D", "en": "17 29 31 45 88 62 74", "as": "17 29 31 45 88 62 74" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "step-identify",
+      "q": { "en": "Input: 31 62 88 45 17 74 29. Step 1: 17 31 62 88 45 74 29. Step 2: 17 29 31 62 88 45 74. Which step is '17 31 62 88 45 74 29'?", "as": "ইনপুট: 31 62 88 45 17 74 29. ধাপ 1: 17 31 62 88 45 74 29. ধাপ 2: 17 29 31 62 88 45 74. '17 31 62 88 45 74 29' কোনটো ধাপ?" },
+      "options": [
+        { "option": "A", "en": "Step 1", "as": "ধাপ 1" },
+        { "option": "B", "en": "Step 2", "as": "ধাপ 2" },
+        { "option": "C", "en": "Step 3", "as": "ধাপ 3" },
+        { "option": "D", "en": "Input itself", "as": "ইনপুট নিজেই" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "last-step",
+      "q": { "en": "Input: 31 62 88 45 17 74 29. Step 1: 17 31 62 88 45 74 29. Step 2: 17 29 31 62 88 45 74. Step 3: 17 29 31 45 62 88 74. Step 4: 17 29 31 45 62 74 88. What is the last step?", "as": "ইনপুট: 31 62 88 45 17 74 29. ধাপ 1: 17 31 62 88 45 74 29. ধাপ 2: 17 29 31 62 88 45 74. ধাপ 3: 17 29 31 45 62 88 74. ধাপ 4: 17 29 31 45 62 74 88. শেষ ধাপটো কি?" },
+      "options": [
+        { "option": "A", "en": "17 29 31 45 62 74 88", "as": "17 29 31 45 62 74 88" },
+        { "option": "B", "en": "17 29 31 45 62 88 74", "as": "17 29 31 45 62 88 74" },
+        { "option": "C", "en": "88 74 62 45 31 29 17", "as": "88 74 62 45 31 29 17" },
+        { "option": "D", "en": "17 29 31 45 88 62 74", "as": "17 29 31 45 88 62 74" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "element-position",
+      "q": { "en": "Input: 31 62 88 45 17 74 29. Step 2: 17 29 31 62 88 45 74. Which number is at the 6th position in Step 2?", "as": "ইনপুট: 31 62 88 45 17 74 29. ধাপ 2: 17 29 31 62 88 45 74. ধাপ 2 ত 6 নং স্থানত কোনটো সংখ্যা আছে?" },
+      "options": [
+        { "option": "A", "en": "88", "as": "88" },
+        { "option": "B", "en": "45", "as": "45" },
+        { "option": "C", "en": "74", "as": "74" },
+        { "option": "D", "en": "62", "as": "62" }
+      ],
+      "a": "B"
+    }
+  ]
+}
