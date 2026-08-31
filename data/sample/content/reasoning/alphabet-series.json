@@ -1,0 +1,1131 @@
+{
+  "id": "alphabet_series",
+  "title": {
+    "en": "Alphabet Series (Assam Competitive Exams)",
+    "as": "বৰ্ণ শৃংখলা (অসম প্ৰতিযোগিতামূলক পৰীক্ষা)"
+  },
+  "description": {
+    "en": "Find the next letter or letter-group in the series. Covers forward, backward, skip-letter, and mixed alphabet series.",
+    "as": "শৃংখলাটোৰ পৰৱৰ্তী বৰ্ণ বা বৰ্ণ-সমষ্টি বিচাৰক। সন্মুখ, পশ্চাৎ, বৰ্ণ এৰি যোৱা আৰু মিশ্র বৰ্ণ শৃংখলা সামৰি লোৱা হৈছে।"
+  },
+  "tags": [
+    "reasoning",
+    "alphabet-series",
+    "letter-series",
+    "যুক্তি",
+    "বৰ্ণ"
+  ],
+  "pdf": null,
+  "questions": [
+    {
+      "type": "forward",
+      "q": {
+        "en": "Find the next letter: A, C, E, G, ?",
+        "as": "পৰৱৰ্তী বৰ্ণটো বিচাৰক: A, C, E, G, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "H",
+          "as": "H"
+        },
+        {
+          "option": "B",
+          "en": "J",
+          "as": "J"
+        },
+        {
+          "option": "C",
+          "en": "I",
+          "as": "I"
+        },
+        {
+          "option": "D",
+          "en": "K",
+          "as": "K"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "forward",
+      "q": {
+        "en": "Find the next letter: B, D, F, H, ?",
+        "as": "পৰৱৰ্তী বৰ্ণটো বিচাৰক: B, D, F, H, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "I",
+          "as": "I"
+        },
+        {
+          "option": "B",
+          "en": "J",
+          "as": "J"
+        },
+        {
+          "option": "C",
+          "en": "K",
+          "as": "K"
+        },
+        {
+          "option": "D",
+          "en": "L",
+          "as": "L"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "forward",
+      "q": {
+        "en": "Find the next letter: A, D, G, J, ?",
+        "as": "পৰৱৰ্তী বৰ্ণটো বিচাৰক: A, D, G, J, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "M",
+          "as": "M"
+        },
+        {
+          "option": "B",
+          "en": "K",
+          "as": "K"
+        },
+        {
+          "option": "C",
+          "en": "L",
+          "as": "L"
+        },
+        {
+          "option": "D",
+          "en": "N",
+          "as": "N"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "forward",
+      "q": {
+        "en": "Find the next letter: C, F, I, L, ?",
+        "as": "পৰৱৰ্তী বৰ্ণটো বিচাৰক: C, F, I, L, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "M",
+          "as": "M"
+        },
+        {
+          "option": "B",
+          "en": "N",
+          "as": "N"
+        },
+        {
+          "option": "C",
+          "en": "O",
+          "as": "O"
+        },
+        {
+          "option": "D",
+          "en": "P",
+          "as": "P"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "forward",
+      "q": {
+        "en": "Find the next letter: J, L, N, P, ?",
+        "as": "পৰৱৰ্তী বৰ্ণটো বিচাৰক: J, L, N, P, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "R",
+          "as": "R"
+        },
+        {
+          "option": "B",
+          "en": "Q",
+          "as": "Q"
+        },
+        {
+          "option": "C",
+          "en": "S",
+          "as": "S"
+        },
+        {
+          "option": "D",
+          "en": "T",
+          "as": "T"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "backward",
+      "q": {
+        "en": "Find the next letter: Z, X, V, T, ?",
+        "as": "পৰৱৰ্তী বৰ্ণটো বিচাৰক: Z, X, V, T, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "S",
+          "as": "S"
+        },
+        {
+          "option": "B",
+          "en": "Q",
+          "as": "Q"
+        },
+        {
+          "option": "C",
+          "en": "R",
+          "as": "R"
+        },
+        {
+          "option": "D",
+          "en": "P",
+          "as": "P"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "backward",
+      "q": {
+        "en": "Find the next letter: Z, Y, X, W, ?",
+        "as": "পৰৱৰ্তী বৰ্ণটো বিচাৰক: Z, Y, X, W, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "V",
+          "as": "V"
+        },
+        {
+          "option": "B",
+          "en": "U",
+          "as": "U"
+        },
+        {
+          "option": "C",
+          "en": "T",
+          "as": "T"
+        },
+        {
+          "option": "D",
+          "en": "S",
+          "as": "S"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "backward",
+      "q": {
+        "en": "Find the next letter: Z, V, R, N, ?",
+        "as": "পৰৱৰ্তী বৰ্ণটো বিচাৰক: Z, V, R, N, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "K",
+          "as": "K"
+        },
+        {
+          "option": "B",
+          "en": "J",
+          "as": "J"
+        },
+        {
+          "option": "C",
+          "en": "I",
+          "as": "I"
+        },
+        {
+          "option": "D",
+          "en": "L",
+          "as": "L"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next letter: A, Z, B, Y, C, ?",
+        "as": "পৰৱৰ্তী বৰ্ণটো বিচাৰক: A, Z, B, Y, C, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "D",
+          "as": "D"
+        },
+        {
+          "option": "B",
+          "en": "W",
+          "as": "W"
+        },
+        {
+          "option": "C",
+          "en": "X",
+          "as": "X"
+        },
+        {
+          "option": "D",
+          "en": "V",
+          "as": "V"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next letter: A, C, F, J, O, ?",
+        "as": "পৰৱৰ্তী বৰ্ণটো বিচাৰক: A, C, F, J, O, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "T",
+          "as": "T"
+        },
+        {
+          "option": "B",
+          "en": "S",
+          "as": "S"
+        },
+        {
+          "option": "C",
+          "en": "R",
+          "as": "R"
+        },
+        {
+          "option": "D",
+          "en": "U",
+          "as": "U"
+        }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next letter: A, B, D, G, K, ?",
+        "as": "পৰৱৰ্তী বৰ্ণটো বিচাৰক: A, B, D, G, K, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "N",
+          "as": "N"
+        },
+        {
+          "option": "B",
+          "en": "O",
+          "as": "O"
+        },
+        {
+          "option": "C",
+          "en": "P",
+          "as": "P"
+        },
+        {
+          "option": "D",
+          "en": "M",
+          "as": "M"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next letter: B, E, H, K, ?",
+        "as": "পৰৱৰ্তী বৰ্ণটো বিচাৰক: B, E, H, K, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "M",
+          "as": "M"
+        },
+        {
+          "option": "B",
+          "en": "N",
+          "as": "N"
+        },
+        {
+          "option": "C",
+          "en": "L",
+          "as": "L"
+        },
+        {
+          "option": "D",
+          "en": "O",
+          "as": "O"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next letter: D, H, L, P, ?",
+        "as": "পৰৱৰ্তী বৰ্ণটো বিচাৰক: D, H, L, P, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "R",
+          "as": "R"
+        },
+        {
+          "option": "B",
+          "en": "T",
+          "as": "T"
+        },
+        {
+          "option": "C",
+          "en": "S",
+          "as": "S"
+        },
+        {
+          "option": "D",
+          "en": "U",
+          "as": "U"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "pair",
+      "q": {
+        "en": "Find the next pair: AZ, BY, CX, DW, ?",
+        "as": "পৰৱৰ্তী যোড়টো বিচাৰক: AZ, BY, CX, DW, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "EU",
+          "as": "EU"
+        },
+        {
+          "option": "B",
+          "en": "EV",
+          "as": "EV"
+        },
+        {
+          "option": "C",
+          "en": "FU",
+          "as": "FU"
+        },
+        {
+          "option": "D",
+          "en": "EX",
+          "as": "EX"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "triplet",
+      "q": {
+        "en": "Find the next triplet: ACE, BDF, CEG, DFH, ?",
+        "as": "পৰৱৰ্তী ত্রি-বর্ণ বিচাৰক: ACE, BDF, CEG, DFH, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "EIJ",
+          "as": "EIJ"
+        },
+        {
+          "option": "B",
+          "en": "EGI",
+          "as": "EGI"
+        },
+        {
+          "option": "C",
+          "en": "EHK",
+          "as": "EHK"
+        },
+        {
+          "option": "D",
+          "en": "EHJ",
+          "as": "EHJ"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "triplet",
+      "q": {
+        "en": "Find the next triplet: AB, CD, EF, GH, ?",
+        "as": "পৰৱৰ্তী যোড়টো বিচাৰক: AB, CD, EF, GH, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "HJ",
+          "as": "HJ"
+        },
+        {
+          "option": "B",
+          "en": "HI",
+          "as": "HI"
+        },
+        {
+          "option": "C",
+          "en": "IJ",
+          "as": "IJ"
+        },
+        {
+          "option": "D",
+          "en": "IK",
+          "as": "IK"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "triplet",
+      "q": {
+        "en": "Find the next triplet: ZYX, WVU, TSR, ?",
+        "as": "পৰৱৰ্তী ত্রি-বর্ণ বিচাৰক: ZYX, WVU, TSR, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "QPO",
+          "as": "QPO"
+        },
+        {
+          "option": "B",
+          "en": "ONM",
+          "as": "ONM"
+        },
+        {
+          "option": "C",
+          "en": "PON",
+          "as": "PON"
+        },
+        {
+          "option": "D",
+          "en": "RQP",
+          "as": "RQP"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "position",
+      "q": {
+        "en": "Find the next letter: A, E, J, Q, ? (based on +4, +5, +7, +9)",
+        "as": "পৰৱৰ্তী বৰ্ণটো বিচাৰক: A, E, J, Q, ? (+4, +5, +7, +9)"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "X",
+          "as": "X"
+        },
+        {
+          "option": "B",
+          "en": "Z",
+          "as": "Z"
+        },
+        {
+          "option": "C",
+          "en": "Y",
+          "as": "Y"
+        },
+        {
+          "option": "D",
+          "en": "W",
+          "as": "W"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "position",
+      "q": {
+        "en": "Find the next letter: M, N, O, P, ?",
+        "as": "পৰৱৰ্তী বৰ্ণটো বিচাৰক: M, N, O, P, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Q",
+          "as": "Q"
+        },
+        {
+          "option": "B",
+          "en": "R",
+          "as": "R"
+        },
+        {
+          "option": "C",
+          "en": "S",
+          "as": "S"
+        },
+        {
+          "option": "D",
+          "en": "T",
+          "as": "T"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "skip",
+      "q": {
+        "en": "Find the missing letter: A, _, E, G, I",
+        "as": "অনুপস্থিত বৰ্ণটো বিচাৰক: A, _, E, G, I"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "B",
+          "as": "B"
+        },
+        {
+          "option": "B",
+          "en": "C",
+          "as": "C"
+        },
+        {
+          "option": "C",
+          "en": "D",
+          "as": "D"
+        },
+        {
+          "option": "D",
+          "en": "F",
+          "as": "F"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "skip",
+      "q": {
+        "en": "Find the missing letter: AC, ?, FH, GJ",
+        "as": "অনুপস্থিত যোড়টো বিচাৰক: AC, ?, FH, GJ"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "BD",
+          "as": "BD"
+        },
+        {
+          "option": "B",
+          "en": "CE",
+          "as": "CE"
+        },
+        {
+          "option": "C",
+          "en": "DF",
+          "as": "DF"
+        },
+        {
+          "option": "D",
+          "en": "DE",
+          "as": "DE"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "backward",
+      "q": {
+        "en": "Find the next term: Y, W, U, S, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: Y, W, U, S, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Q",
+          "as": "Q"
+        },
+        {
+          "option": "B",
+          "en": "R",
+          "as": "R"
+        },
+        {
+          "option": "C",
+          "en": "P",
+          "as": "P"
+        },
+        {
+          "option": "D",
+          "en": "T",
+          "as": "T"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "forward",
+      "q": {
+        "en": "Find the next term: D, H, L, P, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: D, H, L, P, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "R",
+          "as": "R"
+        },
+        {
+          "option": "B",
+          "en": "S",
+          "as": "S"
+        },
+        {
+          "option": "C",
+          "en": "T",
+          "as": "T"
+        },
+        {
+          "option": "D",
+          "en": "U",
+          "as": "U"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "forward",
+      "q": {
+        "en": "Find the next term: E, J, O, T, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: E, J, O, T, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "X",
+          "as": "X"
+        },
+        {
+          "option": "B",
+          "en": "Y",
+          "as": "Y"
+        },
+        {
+          "option": "C",
+          "en": "Z",
+          "as": "Z"
+        },
+        {
+          "option": "D",
+          "en": "W",
+          "as": "W"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "forward",
+      "q": {
+        "en": "Find the next term: A, F, K, P, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: A, F, K, P, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "T",
+          "as": "T"
+        },
+        {
+          "option": "B",
+          "en": "U",
+          "as": "U"
+        },
+        {
+          "option": "C",
+          "en": "V",
+          "as": "V"
+        },
+        {
+          "option": "D",
+          "en": "S",
+          "as": "S"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "forward",
+      "q": {
+        "en": "Find the next term: H, L, P, T, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: H, L, P, T, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "V",
+          "as": "V"
+        },
+        {
+          "option": "B",
+          "en": "W",
+          "as": "W"
+        },
+        {
+          "option": "C",
+          "en": "X",
+          "as": "X"
+        },
+        {
+          "option": "D",
+          "en": "Y",
+          "as": "Y"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "forward",
+      "q": {
+        "en": "Find the next term: N, P, R, T, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: N, P, R, T, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "U",
+          "as": "U"
+        },
+        {
+          "option": "B",
+          "en": "W",
+          "as": "W"
+        },
+        {
+          "option": "C",
+          "en": "V",
+          "as": "V"
+        },
+        {
+          "option": "D",
+          "en": "X",
+          "as": "X"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "backward",
+      "q": {
+        "en": "Find the next term: Q, N, K, H, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: Q, N, K, H, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "E",
+          "as": "E"
+        },
+        {
+          "option": "B",
+          "en": "F",
+          "as": "F"
+        },
+        {
+          "option": "C",
+          "en": "G",
+          "as": "G"
+        },
+        {
+          "option": "D",
+          "en": "D",
+          "as": "D"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "forward",
+      "q": {
+        "en": "Find the next term: F, K, P, U, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: F, K, P, U, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Y",
+          "as": "Y"
+        },
+        {
+          "option": "B",
+          "en": "X",
+          "as": "X"
+        },
+        {
+          "option": "C",
+          "en": "Z",
+          "as": "Z"
+        },
+        {
+          "option": "D",
+          "en": "W",
+          "as": "W"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "pair",
+      "q": {
+        "en": "Find the next term: AB, EF, IJ, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: AB, EF, IJ, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "MN",
+          "as": "MN"
+        },
+        {
+          "option": "B",
+          "en": "MO",
+          "as": "MO"
+        },
+        {
+          "option": "C",
+          "en": "LN",
+          "as": "LN"
+        },
+        {
+          "option": "D",
+          "en": "MK",
+          "as": "MK"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "pair",
+      "q": {
+        "en": "Find the next term: AC, FH, KM, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: AC, FH, KM, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "PR",
+          "as": "PR"
+        },
+        {
+          "option": "B",
+          "en": "PQ",
+          "as": "PQ"
+        },
+        {
+          "option": "C",
+          "en": "OR",
+          "as": "OR"
+        },
+        {
+          "option": "D",
+          "en": "OQ",
+          "as": "OQ"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "pair",
+      "q": {
+        "en": "Find the next term: DF, GJ, KN, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: DF, GJ, KN, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "NR",
+          "as": "NR"
+        },
+        {
+          "option": "B",
+          "en": "NS",
+          "as": "NS"
+        },
+        {
+          "option": "C",
+          "en": "MR",
+          "as": "MR"
+        },
+        {
+          "option": "D",
+          "en": "MS",
+          "as": "MS"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "triplet",
+      "q": {
+        "en": "Find the next term: ABD, BCE, CDF, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: ABD, BCE, CDF, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "DEG",
+          "as": "DEG"
+        },
+        {
+          "option": "B",
+          "en": "DFG",
+          "as": "DFG"
+        },
+        {
+          "option": "C",
+          "en": "CEG",
+          "as": "CEG"
+        },
+        {
+          "option": "D",
+          "en": "DEH",
+          "as": "DEH"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "triplet",
+      "q": {
+        "en": "Find the next term: ZBA, YCB, XDC, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: ZBA, YCB, XDC, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "WED",
+          "as": "WED"
+        },
+        {
+          "option": "B",
+          "en": "WEC",
+          "as": "WEC"
+        },
+        {
+          "option": "C",
+          "en": "VED",
+          "as": "VED"
+        },
+        {
+          "option": "D",
+          "en": "WFC",
+          "as": "WFC"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "pair",
+      "q": {
+        "en": "Find the next term: MN, OP, QR, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: MN, OP, QR, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "ST",
+          "as": "ST"
+        },
+        {
+          "option": "B",
+          "en": "SU",
+          "as": "SU"
+        },
+        {
+          "option": "C",
+          "en": "RS",
+          "as": "RS"
+        },
+        {
+          "option": "D",
+          "en": "TU",
+          "as": "TU"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "forward",
+      "q": {
+        "en": "Find the next term: P, Q, R, S, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: P, Q, R, S, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "U",
+          "as": "U"
+        },
+        {
+          "option": "B",
+          "en": "V",
+          "as": "V"
+        },
+        {
+          "option": "C",
+          "en": "T",
+          "as": "T"
+        },
+        {
+          "option": "D",
+          "en": "W",
+          "as": "W"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "backward",
+      "q": {
+        "en": "Find the next term: M, K, I, G, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: M, K, I, G, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "E",
+          "as": "E"
+        },
+        {
+          "option": "B",
+          "en": "F",
+          "as": "F"
+        },
+        {
+          "option": "C",
+          "en": "D",
+          "as": "D"
+        },
+        {
+          "option": "D",
+          "en": "C",
+          "as": "C"
+        }
+      ],
+      "a": "A"
+    }
+  ]
+}
