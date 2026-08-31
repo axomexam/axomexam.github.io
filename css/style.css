@@ -702,6 +702,7 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 .mock-intro { text-align: center; padding: 18px 0 6px; }
 .mock-intro h1 { font-size: clamp(1.4rem, 3vw, 1.9rem); }
 .mock-intro p { color: var(--ink-faint); margin-top: 6px; font-size: .92rem; }
+.mock-intro .page-desc { text-align: left; margin: 12px auto 0; max-width: 720px; }
 
 .mock-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px; padding: 22px 0 44px; }
 .mock-card {

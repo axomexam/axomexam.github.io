@@ -941,7 +941,16 @@ function buildMockCategoryPicker() {
   const body = `
       <div class="mock-intro">
         <h1>Mock Tests for Competitive Exams</h1>
-        <p>Timed practice mock tests for every subject with instant scoring and full answer review.</p>
+        <p class="page-desc">Take timed mock tests designed exactly like the real exam to build speed, accuracy and confidence for all major Assam Government recruitment exams, including ADRE 2.0 (Grade III &amp; IV), Assam Police, APSC, Gauhati High Court, Panchayat &amp; Rural Development, DME, DHE, SSC, and Railway exams.
+Choose from every subject:
+• General Knowledge
+• Mathematics
+• General Science
+• Reasoning Ability
+• General English
+• Computer Awareness
+Each mock test simulates the real exam environment with a live timer, instant scoring and a full answer review — so you can identify your weak areas and improve with every attempt.
+All mock tests are 100% free, unlimited and available in both English and Assamese!</p>
       </div>
       <section class="section" style="padding-bottom:30px;">
         <div class="section-head"><div><h2>Choose a Subject</h2></div></div>

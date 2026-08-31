@@ -2726,7 +2726,7 @@
     main.innerHTML = `
       <div class="mock-intro">
         <h1>${t("mock.title")}</h1>
-        <p>${t("mock.sub")}</p>
+        <p class="page-desc">${t("mock.sub")}</p>
       </div>
       <section class="section" style="padding-bottom:30px;">
         <div class="section-head"><div><h2>${t("mock.pick")}</h2><p class="sec-sub">${t("mock.pick.sub")}</p></div></div>
