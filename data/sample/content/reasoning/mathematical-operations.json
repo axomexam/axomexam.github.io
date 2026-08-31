@@ -458,14 +458,14 @@
     },
     {
       "type": "coded-operation",
-      "q": { "en": "If a * b means a + b and a $ b means a × b, then what is the value of 4 * 3 $ 2?", "as": "যদি a * b ৰ অৰ্থ a + b আৰু a $ b ৰ অৰ্থ a × b হয়, তেন্তে 4 * 3 $ 2 ৰ মান কিমান?" },
+      "q": { "en": "If a # b means a + b and a $ b means a − b, then what is the value of 6 # 4 $ 2?", "as": "যদি a # b ৰ অৰ্থ a + b আৰু a $ b ৰ অৰ্থ a − b হয়, তেন্তে 6 # 4 $ 2 ৰ মান কিমান?" },
       "options": [
         { "option": "A", "en": "9", "as": "৯" },
         { "option": "B", "en": "10", "as": "১০" },
-        { "option": "C", "en": "14", "as": "১৪" },
-        { "option": "D", "en": "20", "as": "২০" }
+        { "option": "C", "en": "8", "as": "৮" },
+        { "option": "D", "en": "12", "as": "১২" }
       ],
-      "a": "B"
+      "a": "C"
     }
   ]
 }
