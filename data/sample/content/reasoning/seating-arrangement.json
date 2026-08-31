@@ -1,0 +1,548 @@
+{
+  "id": "seating_arrangement",
+  "title": { "en": "Seating Arrangement Test (Assam Competitive Exams)", "as": "বহা ব্যৱস্থা পৰীক্ষা (অসম প্ৰতিযোগিতামূলক পৰীক্ষা)" },
+  "description": { "en": "Solve linear, circular and square seating puzzles using position, direction and neighbour clues.", "as": "স্থান, দিশ আৰু ওচৰ-চুবুৰীয়া সংকেত ব্যৱহাৰ কৰি সৰলৰেখা, বৃত্তাকাৰ আৰু বর্গক্ষেত্রীয় বহা ব্যৱস্থা সমাধান কৰক।" },
+  "tags": ["reasoning", "seating", "arrangement", "যুক্তি", "বহা-ব্যৱস্থা"],
+  "pdf": null,
+  "questions": [
+    {
+      "type": "linear",
+      "q": { "en": "Five friends A, B, C, D, E sit in a row facing North. B sits to the immediate right of A. C sits to the immediate left of A. Who sits in the middle if there are exactly three people to the left of C?", "as": "পাঁচজন বন্ধু A, B, C, D, E উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। B, A ৰ সোঁ ফালে ওচৰত বহে। C, A ৰ বাওঁ ফালে ওচৰত বহে। যদি C ৰ বাওঁ ফালে ঠিক তিনিজন আছে তেন্তে মাজত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "A", "as": "A" },
+        { "option": "B", "en": "B", "as": "B" },
+        { "option": "C", "en": "C", "as": "C" },
+        { "option": "D", "en": "D", "as": "D" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "linear",
+      "q": { "en": "Six persons P, Q, R, S, T, U sit in a row facing North. P is at the extreme left end. Q sits second to the right of P. Who sits exactly in the middle of the row of six?", "as": "ছয়জন ব্যক্তি P, Q, R, S, T, U উত্তৰলৈ মুখ কৰি এটা শাৰীত বহে। P আটাইতকৈ বাওঁ মূৰত বহে। Q, P ৰ সোঁ ফালে দ্বিতীয় স্থানত বহে। ছয়জনীয়া শাৰীৰ ঠিক মাজত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "R and S", "as": "R আৰু S" },
+        { "option": "B", "en": "S and T", "as": "S আৰু T" },
+        { "option": "C", "en": "Q and R", "as": "Q আৰু R" },
+        { "option": "D", "en": "T and U", "as": "T আৰু U" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "linear",
+      "q": { "en": "Seven people A, B, C, D, E, F, G sit in a row facing South. D sits in the middle. B sits third to the left of D. Which of the following is the correct position of B?", "as": "সাতজন লোক A, B, C, D, E, F, G দক্ষিণলৈ মুখ কৰি এটা শাৰীত বহে। D মাজত বহে। B, D ৰ বাওঁ ফালে তৃতীয় স্থানত বহে। তলৰ কোনটো B ৰ সঠিক স্থান?" },
+      "options": [
+        { "option": "A", "en": "Immediate left of D", "as": "D ৰ বাওঁ ফালে ওচৰত" },
+        { "option": "B", "en": "Extreme left end", "as": "আটাইতকৈ বাওঁ মূৰত" },
+        { "option": "C", "en": "Immediate right of D", "as": "D ৰ সোঁ ফালে ওচৰত" },
+        { "option": "D", "en": "Third from the right end", "as": "সোঁ মূৰৰ পৰা তৃতীয়" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "linear",
+      "q": { "en": "In a row of five people facing North, Ravi is at the extreme left. Sita is second to the right of Ravi. Gita sits exactly in the middle. Who sits between Sita and the person at the extreme right?", "as": "উত্তৰলৈ মুখ কৰা পাঁচজন লোকৰ শাৰীত ৰবি আটাইতকৈ বাওঁ মূৰত আছে। সীতা ৰবিৰ সোঁ ফালে দ্বিতীয় স্থানত। গীতা ঠিক মাজত বহে। সীতা আৰু আটাইতকৈ সোঁ মূৰৰ ব্যক্তিজনৰ মাজত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "Ravi", "as": "ৰবি" },
+        { "option": "B", "en": "Sita", "as": "সীতা" },
+        { "option": "C", "en": "Gita", "as": "গীতা" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "linear",
+      "q": { "en": "Eight friends A, B, C, D, E, F, G, H sit in a row facing North. A sits at one of the extreme ends. F sits third to the right of A. How many persons sit between F and the other extreme end?", "as": "আঠজন বন্ধু A, B, C, D, E, F, G, H উত্তৰলৈ মুখ কৰি শাৰীত বহে। A এটা মূৰত বহে। F, A ৰ সোঁ ফালে তৃতীয় স্থানত বহে। F আৰু আনটো মূৰৰ মাজত কিমানজন বহে?" },
+      "options": [
+        { "option": "A", "en": "2", "as": "২" },
+        { "option": "B", "en": "3", "as": "৩" },
+        { "option": "C", "en": "4", "as": "৪" },
+        { "option": "D", "en": "5", "as": "৫" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "linear",
+      "q": { "en": "Five people sit in a row. Two people sit between Amit and Bhaskar. Bhaskar sits at the extreme right end. How many people sit to the left of Amit?", "as": "পাঁচজন লোক শাৰীত বহে। অমিত আৰু ভাস্কৰৰ মাজত দুজন বহে। ভাস্কৰ আটাইতকৈ সোঁ মূৰত বহে। অমিতৰ বাওঁ ফালে কিমানজন বহে?" },
+      "options": [
+        { "option": "A", "en": "2", "as": "২" },
+        { "option": "B", "en": "3", "as": "৩" },
+        { "option": "C", "en": "1", "as": "১" },
+        { "option": "D", "en": "4", "as": "৪" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "linear",
+      "q": { "en": "In a row of 7 persons facing North, P is third from the left end and Q is third from the right end. How many persons sit between P and Q?", "as": "উত্তৰলৈ মুখ কৰা 7 জন লোকৰ শাৰীত P বাওঁ মূৰৰ পৰা তৃতীয় আৰু Q সোঁ মূৰৰ পৰা তৃতীয়। P আৰু Q ৰ মাজত কিমানজন বহে?" },
+      "options": [
+        { "option": "A", "en": "1", "as": "১" },
+        { "option": "B", "en": "2", "as": "২" },
+        { "option": "C", "en": "3", "as": "৩" },
+        { "option": "D", "en": "0", "as": "০" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "linear",
+      "q": { "en": "Four people A, B, C, D sit in a row facing North. A sits to the immediate right of B. C sits at the extreme left end. D sits second from the right end. Who sits to the immediate right of A?", "as": "চাৰিজন লোক A, B, C, D উত্তৰলৈ মুখ কৰি শাৰীত বহে। A, B ৰ সোঁ ফালে ওচৰত বহে। C আটাইতকৈ বাওঁ মূৰত বহে। D সোঁ মূৰৰ পৰা দ্বিতীয় স্থানত বহে। A ৰ সোঁ ফালে ওচৰত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "B", "as": "B" },
+        { "option": "B", "en": "C", "as": "C" },
+        { "option": "C", "en": "D", "as": "D" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "linear",
+      "q": { "en": "Six people X, Y, Z, P, Q, R sit in a row facing South. Y sits to the immediate left of X. Z sits to the immediate right of X. Who sits in the middle of the row?", "as": "ছয়জন লোক X, Y, Z, P, Q, R দক্ষিণলৈ মুখ কৰি শাৰীত বহে। Y, X ৰ বাওঁ ফালে ওচৰত বহে। Z, X ৰ সোঁ ফালে ওচৰত বহে। শাৰীৰ মাজত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "X and P", "as": "X আৰু P" },
+        { "option": "B", "en": "Z and Q", "as": "Z আৰু Q" },
+        { "option": "C", "en": "Y and X", "as": "Y আৰু X" },
+        { "option": "D", "en": "R and P", "as": "R আৰু P" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "linear",
+      "q": { "en": "In a row of 6 persons, the person at the extreme left is A. C is second to the right of A. E is exactly between C and the person at the extreme right. What is the position of E from the right end?", "as": "6 জন লোকৰ শাৰীত আটাইতকৈ বাওঁ মূৰত থকা ব্যক্তিজন A। C, A ৰ সোঁ ফালে দ্বিতীয় স্থানত। E, C আৰু আটাইতকৈ সোঁ মূৰৰ ব্যক্তিজনৰ ঠিক মাজত। সোঁ মূৰৰ পৰা E ৰ স্থান কিমান?" },
+      "options": [
+        { "option": "A", "en": "2nd", "as": "২য়" },
+        { "option": "B", "en": "3rd", "as": "৩য়" },
+        { "option": "C", "en": "4th", "as": "৪র্থ" },
+        { "option": "D", "en": "5th", "as": "৫ম" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "linear",
+      "q": { "en": "Five girls sit in a row. Rekha sits in the middle. Meena sits to the immediate left of Rekha. Sita sits at the extreme left end. Who sits between Meena and Sita?", "as": "পাঁচজনী ছোৱালী শাৰীত বহে। ৰেখা মাজত বহে। মীনা ৰেখাৰ বাওঁ ফালে ওচৰত বহে। সীতা আটাইতকৈ বাওঁ মূৰত বহে। মীনা আৰু সীতাৰ মাজত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "Rekha", "as": "ৰেখা" },
+        { "option": "B", "en": "Meena", "as": "মীনা" },
+        { "option": "C", "en": "No one", "as": "কোনো নাই" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "linear",
+      "q": { "en": "Seven students A, B, C, D, E, F, G sit in a row facing North. A and B sit at the extreme ends. C sits exactly in the middle. How many persons sit between C and B if B is at the right end?", "as": "সাতজন ছাত্ৰ A, B, C, D, E, F, G উত্তৰলৈ মুখ কৰি শাৰীত বহে। A আৰু B আটাইতকৈ মূৰত বহে। C ঠিক মাজত বহে। যদি B সোঁ মূৰত থাকে তেন্তে C আৰু B ৰ মাজত কিমানজন বহে?" },
+      "options": [
+        { "option": "A", "en": "2", "as": "২" },
+        { "option": "B", "en": "3", "as": "৩" },
+        { "option": "C", "en": "4", "as": "৪" },
+        { "option": "D", "en": "1", "as": "১" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "linear",
+      "q": { "en": "In a row of 9 persons, a man is 4th from the left. What is his position from the right end?", "as": "9 জন লোকৰ শাৰীত এজন মানুহ বাওঁ মূৰৰ পৰা ৪র্থ। সোঁ মূৰৰ পৰা তেওঁৰ স্থান কিমান?" },
+      "options": [
+        { "option": "A", "en": "5th", "as": "৫ম" },
+        { "option": "B", "en": "4th", "as": "৪র্থ" },
+        { "option": "C", "en": "6th", "as": "৬ষ্ঠ" },
+        { "option": "D", "en": "3rd", "as": "৩য়" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "linear",
+      "q": { "en": "Five persons A, B, C, D, E sit in a line facing South. B sits to the immediate right of A (from A's perspective). C sits at the extreme right end. If the order from left to right is D, A, E, C then where does B sit?", "as": "পাঁচজন ব্যক্তি A, B, C, D, E দক্ষিণলৈ মুখ কৰি শাৰীত বহে। B, A ৰ সোঁ ফালে ওচৰত বহে (A ৰ দৃষ্টিকোণৰ পৰা)। C আটাইতকৈ সোঁ মূৰত বহে। যদি বাওঁৰ পৰা সোঁলৈ ক্ৰম D, A, E, C হয় তেন্তে B ক'ত বহে?" },
+      "options": [
+        { "option": "A", "en": "Immediate left of C", "as": "C ৰ বাওঁ ফালে ওচৰত" },
+        { "option": "B", "en": "Between A and E", "as": "A আৰু E ৰ মাজত" },
+        { "option": "C", "en": "Immediate right of D", "as": "D ৰ সোঁ ফালে ওচৰত" },
+        { "option": "D", "en": "Extreme left end", "as": "আটাইতকৈ বাওঁ মূৰত" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "linear",
+      "q": { "en": "In a row of 10 people, Mohan is 7th from the left. How many people sit to his right?", "as": "10 জন লোকৰ শাৰীত মোহন বাওঁ মূৰৰ পৰা ৭ম। তেওঁৰ সোঁ ফালে কিমানজন বহে?" },
+      "options": [
+        { "option": "A", "en": "3", "as": "৩" },
+        { "option": "B", "en": "2", "as": "২" },
+        { "option": "C", "en": "4", "as": "৪" },
+        { "option": "D", "en": "5", "as": "৫" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "linear",
+      "q": { "en": "Eight boys sit in a row. Ramesh is 3rd from the left. Suresh is 2nd to the right of Ramesh. What is Suresh's position from the right end of the row?", "as": "আঠজন লৰা শাৰীত বহে। ৰমেশ বাওঁ মূৰৰ পৰা ৩য়। সুরেশ ৰমেশৰ সোঁ ফালে ২য় স্থানত। সোঁ মূৰৰ পৰা সুরেশৰ স্থান কিমান?" },
+      "options": [
+        { "option": "A", "en": "4th", "as": "৪র্থ" },
+        { "option": "B", "en": "5th", "as": "৫ম" },
+        { "option": "C", "en": "6th", "as": "৬ষ্ঠ" },
+        { "option": "D", "en": "3rd", "as": "৩য়" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "circular",
+      "q": { "en": "Four friends A, B, C, D sit around a circular table facing the centre. A sits opposite B. C sits to the immediate right of A. Who sits to the immediate left of B?", "as": "চাৰিজন বন্ধু A, B, C, D কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ টেবুলত বহে। A, B ৰ বিপৰীতত বহে। C, A ৰ সোঁ ফালে ওচৰত বহে। B ৰ বাওঁ ফালে ওচৰত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "C", "as": "C" },
+        { "option": "B", "en": "D", "as": "D" },
+        { "option": "C", "en": "A", "as": "A" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "circular",
+      "q": { "en": "Six people P, Q, R, S, T, U sit around a circular table facing the centre. P sits opposite R. S sits to the immediate right of P. Which of the following pairs sit opposite each other?", "as": "ছয়জন লোক P, Q, R, S, T, U কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ টেবুলত বহে। P, R ৰ বিপৰীতত বহে। S, P ৰ সোঁ ফালে ওচৰত বহে। তলৰ কোনটো যোৰ বিপৰীতত বহে?" },
+      "options": [
+        { "option": "A", "en": "Q and T", "as": "Q আৰু T" },
+        { "option": "B", "en": "S and U", "as": "S আৰু U" },
+        { "option": "C", "en": "Q and U", "as": "Q আৰু U" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "circular",
+      "q": { "en": "Five people sit around a circular table facing the centre. Each person faces the centre. Ram is second to the left of Shyam. If Shyam faces North, who faces the centre directly between them on the arc?", "as": "পাঁচজন লোক কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ টেবুলত বহে। ৰাম শ্যামৰ বাওঁ ফালে দ্বিতীয় স্থানত। যদি শ্যাম উত্তৰলৈ মুখ কৰে তেন্তে দুয়োৰে মাজৰ আৰ্কত কেন্দ্ৰলৈ মুখ কৰি কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "The person opposite Ram", "as": "ৰামৰ বিপৰীতত থকা ব্যক্তিজন" },
+        { "option": "B", "en": "There is no one between them", "as": "দুয়োৰে মাজত কোনো নাই" },
+        { "option": "C", "en": "Shyam's immediate right", "as": "শ্যামৰ সোঁ ফালে ওচৰত" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "circular",
+      "q": { "en": "Eight friends sit around a circular table facing the centre. A sits third to the right of B. How many people sit between A and B when counted clockwise?", "as": "আঠজন বন্ধু কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ টেবুলত বহে। A, B ৰ সোঁ ফালে তৃতীয় স্থানত বহে। ঘড়ীৰ কাঁটাৰ দিশে গণনা কৰিলে A আৰু B ৰ মাজত কিমানজন বহে?" },
+      "options": [
+        { "option": "A", "en": "2", "as": "২" },
+        { "option": "B", "en": "3", "as": "৩" },
+        { "option": "C", "en": "4", "as": "৪" },
+        { "option": "D", "en": "5", "as": "৫" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "circular",
+      "q": { "en": "In a circular arrangement of 6 people facing the centre, X sits opposite Y. Z sits to the immediate left of X. W sits to the immediate right of Y. Who sits opposite Z?", "as": "কেন্দ্ৰলৈ মুখ কৰা 6 জন লোকৰ বৃত্তাকাৰ ব্যৱস্থাত X, Y ৰ বিপৰীতত বহে। Z, X ৰ বাওঁ ফালে ওচৰত বহে। W, Y ৰ সোঁ ফালে ওচৰত বহে। Z ৰ বিপৰীতত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "X", "as": "X" },
+        { "option": "B", "en": "W", "as": "W" },
+        { "option": "C", "en": "Y", "as": "Y" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "circular",
+      "q": { "en": "Four couples sit around a circular table facing the centre, with husbands and wives sitting opposite each other. If Mr. A's wife sits opposite him, who sits to the immediate right of Mr. A?", "as": "চাৰি দম্পতী কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ টেবুলত বহে, স্বামী আৰু পত্নী বিপৰীতত বহে। যদি শ্ৰী A ৰ পত্নী তেওঁৰ বিপৰীতত বহে তেন্তে শ্ৰী A ৰ সোঁ ফালে ওচৰত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "Mr. A's wife", "as": "শ্ৰী A ৰ পত্নী" },
+        { "option": "B", "en": "Another man", "as": "আন এজন পুৰুষ" },
+        { "option": "C", "en": "Another woman", "as": "আন এগৰাকী মহিলা" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "circular",
+      "q": { "en": "Five friends sit around a circular table facing the centre. Anil sits to the immediate right of Bimal. Chitra sits to the immediate left of Bimal. Dinesh sits opposite Anil. Who sits opposite Bimal?", "as": "পাঁচজন বন্ধু কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ টেবুলত বহে। অনিল বিমলৰ সোঁ ফালে ওচৰত বহে। চিত্ৰা বিমলৰ বাওঁ ফালে ওচৰত বহে। দিনেশ অনিলৰ বিপৰীতত বহে। বিমলৰ বিপৰীতত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "Chitra", "as": "চিত্ৰা" },
+        { "option": "B", "en": "Dinesh", "as": "দিনেশ" },
+        { "option": "C", "en": "Ekta", "as": "একতা" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "circular",
+      "q": { "en": "Six people sit around a circular table facing the centre. Two people sit between A and B (clockwise). Two people sit between B and A (anticlockwise) on the other side. How many people are there in total around the table?", "as": "ছয়জন লোক কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ টেবুলত বহে। A আৰু B ৰ মাজত দুজন (ঘড়ীৰ কাঁটাৰ দিশে) বহে। B আৰু A ৰ মাজত আনফালে দুজন (বিপৰীত দিশে) বহে। টেবুলৰ চাৰিওফালে মুঠ কিমানজন আছে?" },
+      "options": [
+        { "option": "A", "en": "4", "as": "৪" },
+        { "option": "B", "en": "6", "as": "৬" },
+        { "option": "C", "en": "8", "as": "৮" },
+        { "option": "D", "en": "5", "as": "৫" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "circular",
+      "q": { "en": "In a circular table seating of 8 people facing the centre, P sits 4th to the right of Q. How many people sit between P and Q?", "as": "কেন্দ্ৰলৈ মুখ কৰা 8 জন লোকৰ বৃত্তাকাৰ টেবুলত P, Q ৰ সোঁ ফালে ৪র্থ স্থানত বহে। P আৰু Q ৰ মাজত কিমানজন বহে?" },
+      "options": [
+        { "option": "A", "en": "3", "as": "৩" },
+        { "option": "B", "en": "4", "as": "৪" },
+        { "option": "C", "en": "2", "as": "২" },
+        { "option": "D", "en": "5", "as": "৫" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "circular",
+      "q": { "en": "Four people A, B, C, D sit around a circular table facing the centre. A and C sit opposite each other. B sits to the immediate left of A. Which person sits to the immediate right of C?", "as": "চাৰিজন লোক A, B, C, D কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ টেবুলত বহে। A আৰু C বিপৰীতত বহে। B, A ৰ বাওঁ ফালে ওচৰত বহে। C ৰ সোঁ ফালে ওচৰত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "A", "as": "A" },
+        { "option": "B", "en": "B", "as": "B" },
+        { "option": "C", "en": "D", "as": "D" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "circular",
+      "q": { "en": "Seven people sit around a circular table facing the centre. If one person sits exactly opposite another, and there are three people between them on each side, how many people sit around the table?", "as": "সাতজন লোক কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ টেবুলত বহে। যদি এজন ব্যক্তি আন এজনৰ ঠিক বিপৰীতত বহে আৰু প্ৰতিখন ফালে দুয়োৰে মাজত তিনিজন বহে তেন্তে টেবুলৰ চাৰিওফালে কিমানজন বহে?" },
+      "options": [
+        { "option": "A", "en": "6", "as": "৬" },
+        { "option": "B", "en": "7", "as": "৭" },
+        { "option": "C", "en": "8", "as": "৮" },
+        { "option": "D", "en": "9", "as": "৯" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "circular",
+      "q": { "en": "Five friends P, Q, R, S, T sit around a circular table facing the centre. P sits second to the left of Q. R sits to the immediate right of Q. T sits to the immediate left of P. Who sits between R and T when counted clockwise?", "as": "পাঁচজন বন্ধু P, Q, R, S, T কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ টেবুলত বহে। P, Q ৰ বাওঁ ফালে দ্বিতীয় স্থানত। R, Q ৰ সোঁ ফালে ওচৰত। T, P ৰ বাওঁ ফালে ওচৰত। ঘড়ীৰ কাঁটাৰ দিশে গণনা কৰিলে R আৰু T ৰ মাজত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "S", "as": "S" },
+        { "option": "B", "en": "P", "as": "P" },
+        { "option": "C", "en": "Q", "as": "Q" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "circular",
+      "q": { "en": "In a circular arrangement facing the centre, A sits opposite B. C sits to the immediate left of A. D sits to the immediate right of B. Which two persons sit to the immediate right and left of C respectively?", "as": "কেন্দ্ৰলৈ মুখ কৰা বৃত্তাকাৰ ব্যৱস্থাত A, B ৰ বিপৰীতত বহে। C, A ৰ বাওঁ ফালে ওচৰত বহে। D, B ৰ সোঁ ফালে ওচৰত বহে। C ৰ সোঁ আৰু বাওঁ ফালে ওচৰত ক্ৰমে কোন দুজন বহে?" },
+      "options": [
+        { "option": "A", "en": "A and D", "as": "A আৰু D" },
+        { "option": "B", "en": "D and A", "as": "D আৰু A" },
+        { "option": "C", "en": "B and C", "as": "B আৰু C" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "square",
+      "q": { "en": "Four people A, B, C, D sit at the corners of a square table facing the centre. A sits to the immediate right of B. C sits to the immediate right of A. Who sits to the immediate right of D?", "as": "চাৰিজন লোক A, B, C, D কেন্দ্ৰলৈ মুখ কৰি বর্গাকাৰ টেবুলৰ কোনাত বহে। A, B ৰ সোঁ ফালে ওচৰত বহে। C, A ৰ সোঁ ফালে ওচৰত বহে। D ৰ সোঁ ফালে ওচৰত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "A", "as": "A" },
+        { "option": "B", "en": "B", "as": "B" },
+        { "option": "C", "en": "C", "as": "C" },
+        { "option": "D", "en": "D", "as": "D" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "square",
+      "q": { "en": "Eight people sit around a square table, two on each side, all facing the centre. A sits to the immediate right of B. Which of the following is true about A and B?", "as": "আঠজন লোক বর্গাকাৰ টেবুলৰ চাৰিওফালে বহে, প্ৰতিখন ফালে দুজন, সকলো কেন্দ্ৰলৈ মুখ কৰি। A, B ৰ সোঁ ফালে ওচৰত বহে। তলৰ কোনটো A আৰু B ৰ বিষয়ে সত্য?" },
+      "options": [
+        { "option": "A", "en": "They sit on the same side", "as": "তেওঁলোক একে ফালে বহে" },
+        { "option": "B", "en": "They sit opposite each other", "as": "তেওঁলোক বিপৰীতত বহে" },
+        { "option": "C", "en": "They sit on adjacent sides", "as": "তেওঁলোক ওচৰা-উচৰি ফালে বহে" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "square",
+      "q": { "en": "In a square arrangement of 4 people facing the centre, who sits opposite the person who sits to the immediate left of A?", "as": "কেন্দ্ৰলৈ মুখ কৰা 4 জন লোকৰ বর্গাকাৰ ব্যৱস্থাত A ৰ বাওঁ ফালে ওচৰত থকা ব্যক্তিজনৰ বিপৰীতত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "A", "as": "A" },
+        { "option": "B", "en": "The person to the immediate right of A", "as": "A ৰ সোঁ ফালে ওচৰত থকা ব্যক্তিজন" },
+        { "option": "C", "en": "The person opposite A", "as": "A ৰ বিপৰীতত থকা ব্যক্তিজন" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "square",
+      "q": { "en": "Four men sit at the corners of a square table facing outside (away from centre). A sits opposite C. B sits to the immediate left of A. Which direction is B facing?", "as": "চাৰিজন পুৰুষ কেন্দ্ৰৰ পৰা বাহিৰলৈ মুখ কৰি বর্গাকাৰ টেবুলৰ কোনাত বহে। A, C ৰ বিপৰীতত বহে। B, A ৰ বাওঁ ফালে ওচৰত বহে। B কোন দিশলৈ মুখ কৰি আছে?" },
+      "options": [
+        { "option": "A", "en": "Towards centre", "as": "কেন্দ্ৰলৈ" },
+        { "option": "B", "en": "Away from centre", "as": "কেন্দ্ৰৰ পৰা বাহিৰলৈ" },
+        { "option": "C", "en": "North", "as": "উত্তৰ" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "square",
+      "q": { "en": "Eight friends sit around a square table, two on each side, facing the centre. P sits to the immediate right of Q on the same side. R sits at the corner immediately to the right of P. Who sits opposite Q?", "as": "আঠজন বন্ধু বর্গাকাৰ টেবুলৰ চাৰিওফালে বহে, প্ৰতিখন ফালে দুজন, কেন্দ্ৰলৈ মুখ কৰি। P, Q ৰ সোঁ ফালে একে ফালে ওচৰত বহে। R, P ৰ সোঁ ফালে থকা কোনাত বহে। Q ৰ বিপৰীতত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "The person at the opposite corner", "as": "বিপৰীত কোনাত থকা ব্যক্তিজন" },
+        { "option": "B", "en": "The person opposite P's side", "as": "P ৰ ফালৰ বিপৰীতত থকা ব্যক্তিজন" },
+        { "option": "C", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" },
+        { "option": "D", "en": "R", "as": "R" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "square",
+      "q": { "en": "In a square table, A sits at the north-west corner facing the centre. B sits to the immediate right of A. C sits to the immediate left of A. Who sits opposite B?", "as": "বর্গাকাৰ টেবুলত A কেন্দ্ৰলৈ মুখ কৰি উত্তৰ-পশ্চিম কোনাত বহে। B, A ৰ সোঁ ফালে ওচৰত বহে। C, A ৰ বাওঁ ফালে ওচৰত বহে। B ৰ বিপৰীতত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "C", "as": "C" },
+        { "option": "B", "en": "A", "as": "A" },
+        { "option": "C", "en": "D", "as": "D" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "square",
+      "q": { "en": "Eight people sit around a square table facing the centre, two per side. If the person at the top-left corner is M and the person to his immediate right is N, who sits diagonally opposite M?", "as": "আঠজন লোক কেন্দ্ৰলৈ মুখ কৰি বর্গাকাৰ টেবুলৰ চাৰিওফালে বহে, প্ৰতিখন ফালে দুজন। যদি ওপৰ-বাওঁ কোনাত থকা ব্যক্তিজন M আৰু তেওঁৰ সোঁ ফালে ওচৰত থকা ব্যক্তিজন N হয় তেন্তে M ৰ বিপৰীতত তিৰ্যকভাৱে কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "N", "as": "N" },
+        { "option": "B", "en": "The person at the bottom-right corner", "as": "তল-সোঁ কোনাত থকা ব্যক্তিজন" },
+        { "option": "C", "en": "The person at the bottom-left corner", "as": "তল-বাওঁ কোনাত থকা ব্যক্তিজন" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "square",
+      "q": { "en": "Four people sit at the corners of a square table facing the centre. A sits opposite C. B sits to the immediate left of A. D sits to the immediate right of C. Who sits opposite B?", "as": "চাৰিজন লোক কেন্দ্ৰলৈ মুখ কৰি বর্গাকাৰ টেবুলৰ কোনাত বহে। A, C ৰ বিপৰীতত বহে। B, A ৰ বাওঁ ফালে ওচৰত বহে। D, C ৰ সোঁ ফালে ওচৰত বহে। B ৰ বিপৰীতত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "A", "as": "A" },
+        { "option": "B", "en": "C", "as": "C" },
+        { "option": "C", "en": "D", "as": "D" },
+        { "option": "D", "en": "No one", "as": "কোনো নাই" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "square",
+      "q": { "en": "In a square seating of 8 facing the centre, how many people sit between two people who sit at opposite corners when counted along either side?", "as": "কেন্দ্ৰলৈ মুখ কৰা 8 জন লোকৰ বর্গাকাৰ বহা ব্যৱস্থাত দুটা বিপৰীত কোনাত বহা দুজন ব্যক্তিৰ মাজত যিকোনো ফালে ধৰিলে কিমানজন বহে?" },
+      "options": [
+        { "option": "A", "en": "3", "as": "৩" },
+        { "option": "B", "en": "4", "as": "৪" },
+        { "option": "C", "en": "2", "as": "২" },
+        { "option": "D", "en": "1", "as": "১" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "square",
+      "q": { "en": "Four people A, B, C, D sit at a square table facing the centre. A sits opposite B. C sits to the immediate left of A. Which of the following is true?", "as": "চাৰিজন লোক A, B, C, D কেন্দ্ৰলৈ মুখ কৰি বর্গাকাৰ টেবুলত বহে। A, B ৰ বিপৰীতত বহে। C, A ৰ বাওঁ ফালে ওচৰত বহে। তলৰ কোনটো সত্য?" },
+      "options": [
+        { "option": "A", "en": "D sits opposite C", "as": "D, C ৰ বিপৰীতত বহে" },
+        { "option": "B", "en": "D sits to the immediate right of A", "as": "D, A ৰ সোঁ ফালে ওচৰত বহে" },
+        { "option": "C", "en": "D sits to the immediate left of B", "as": "D, B ৰ বাওঁ ফালে ওচৰত বহে" },
+        { "option": "D", "en": "All of the above are true", "as": "ওপৰৰ সকলোবোৰ সত্য" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "square",
+      "q": { "en": "Six people sit around a rectangular table, three on each long side, facing the centre. If a person at one end of a long side is X and the person opposite him on the other long side is Y, who sits to the immediate left of X?", "as": "ছয়জন লোক আয়তাকাৰ টেবুলত বহে, প্ৰতিখন দীঘল ফালে তিনিজন, কেন্দ্ৰলৈ মুখ কৰি। যদি এখন দীঘল ফালৰ এটা মূৰত X আৰু তেওঁৰ বিপৰীতত আনখন দীঘল ফালে Y বহে তেন্তে X ৰ বাওঁ ফালে ওচৰত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "Y", "as": "Y" },
+        { "option": "B", "en": "A person on the same side", "as": "একে ফালে থকা এজন ব্যক্তি" },
+        { "option": "C", "en": "A person on the opposite side", "as": "বিপৰীত ফালে থকা এজন ব্যক্তি" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "square",
+      "q": { "en": "In a square table arrangement of 4 persons facing the centre, the person opposite A is B. The person to the immediate left of A is C. The person to the immediate right of B is D. Who sits to the immediate left of D?", "as": "কেন্দ্ৰলৈ মুখ কৰা 4 জন লোকৰ বর্গাকাৰ টেবুল ব্যৱস্থাত A ৰ বিপৰীতত থকা ব্যক্তিজন B। A ৰ বাওঁ ফালে ওচৰত থকা ব্যক্তিজন C। B ৰ সোঁ ফালে ওচৰত থকা ব্যক্তিজন D। D ৰ বাওঁ ফালে ওচৰত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "A", "as": "A" },
+        { "option": "B", "en": "B", "as": "B" },
+        { "option": "C", "en": "C", "as": "C" },
+        { "option": "D", "en": "D", "as": "D" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "square",
+      "q": { "en": "Eight people sit around a square table, two on each side, all facing the centre. A sits at a corner. B sits to the immediate right of A. C sits to the immediate left of A. Who sits opposite the person to the immediate right of C?", "as": "আঠজন লোক বর্গাকাৰ টেবুলৰ চাৰিওফালে বহে, প্ৰতিখন ফালে দুজন, সকলো কেন্দ্ৰলৈ মুখ কৰি। A এটা কোনাত বহে। B, A ৰ সোঁ ফালে ওচৰত বহে। C, A ৰ বাওঁ ফালে ওচৰত বহে। C ৰ সোঁ ফালে ওচৰত থকা ব্যক্তিজনৰ বিপৰীতত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "A", "as": "A" },
+        { "option": "B", "en": "B", "as": "B" },
+        { "option": "C", "en": "C", "as": "C" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "square",
+      "q": { "en": "Four persons A, B, C, D sit at the corners of a square facing the centre. If A is at the north-west corner and B is to the immediate right of A, who sits to the immediate left of the person at the south-east corner?", "as": "চাৰিজন ব্যক্তি A, B, C, D কেন্দ্ৰলৈ মুখ কৰি বর্গাকাৰ টেবুলৰ কোনাত বহে। যদি A উত্তৰ-পশ্চিম কোনাত আৰু B, A ৰ সোঁ ফালে ওচৰত থাকে তেন্তে দক্ষিণ-পূব কোনাত থকা ব্যক্তিজনৰ বাওঁ ফালে ওচৰত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "A", "as": "A" },
+        { "option": "B", "en": "B", "as": "B" },
+        { "option": "C", "en": "C", "as": "C" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "circular",
+      "q": { "en": "Six people sit around a circular table facing the centre. A is between B and C (B to A's left, C to A's right). D sits opposite B. Who sits opposite A?", "as": "ছয়জন লোক কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ টেবুলত বহে। A, B আৰু C ৰ মাজত বহে (B, A ৰ বাওঁ ফালে, C, A ৰ সোঁ ফালে)। D, B ৰ বিপৰীতত বহে। A ৰ বিপৰীতত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "D", "as": "D" },
+        { "option": "B", "en": "E", "as": "E" },
+        { "option": "C", "en": "F", "as": "F" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "circular",
+      "q": { "en": "Eight friends sit around a circular table facing the centre. A sits third to the left of B. C sits to the immediate right of A. How many people sit between C and B when counted anticlockwise from C?", "as": "আঠজন বন্ধু কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ টেবুলত বহে। A, B ৰ বাওঁ ফালে তৃতীয় স্থানত। C, A ৰ সোঁ ফালে ওচৰত। C ৰ পৰা ঘড়ীৰ কাঁটাৰ বিপৰীত দিশে গণনা কৰিলে C আৰু B ৰ মাজত কিমানজন বহে?" },
+      "options": [
+        { "option": "A", "en": "2", "as": "২" },
+        { "option": "B", "en": "3", "as": "৩" },
+        { "option": "C", "en": "4", "as": "৪" },
+        { "option": "D", "en": "1", "as": "১" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "linear",
+      "q": { "en": "A row has 8 seats. A sits at the 3rd seat from the left. B sits at the 6th seat from the left. How many seats are between A and B?", "as": "এটা শাৰীত 8 টা আসন আছে। A বাওঁ মূৰৰ পৰা ৩য় আসনত বহে। B বাওঁ মূৰৰ পৰা ৬ষ্ঠ আসনত বহে। A আৰু B ৰ মাজত কিমানটা আসন আছে?" },
+      "options": [
+        { "option": "A", "en": "2", "as": "২" },
+        { "option": "B", "en": "3", "as": "৩" },
+        { "option": "C", "en": "1", "as": "১" },
+        { "option": "D", "en": "4", "as": "৪" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "linear",
+      "q": { "en": "Five people P, Q, R, S, T sit in a row facing North. Q sits in the middle. P sits second to the left of Q. R sits to the immediate right of Q. Who sits at the extreme right end?", "as": "পাঁচজন লোক P, Q, R, S, T উত্তৰলৈ মুখ কৰি শাৰীত বহে। Q মাজত বহে। P, Q ৰ বাওঁ ফালে দ্বিতীয় স্থানত। R, Q ৰ সোঁ ফালে ওচৰত বহে। আটাইতকৈ সোঁ মূৰত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "R", "as": "R" },
+        { "option": "B", "en": "S", "as": "S" },
+        { "option": "C", "en": "T", "as": "T" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "circular",
+      "q": { "en": "Six people A, B, C, D, E, F sit around a circular table facing the centre. A sits opposite D. B sits to the immediate right of A. E sits to the immediate left of A. Who sits opposite B?", "as": "ছয়জন লোক A, B, C, D, E, F কেন্দ্ৰলৈ মুখ কৰি বৃত্তাকাৰ টেবুলত বহে। A, D ৰ বিপৰীতত বহে। B, A ৰ সোঁ ফালে ওচৰত বহে। E, A ৰ বাওঁ ফালে ওচৰত বহে। B ৰ বিপৰীতত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "E", "as": "E" },
+        { "option": "B", "en": "F", "as": "F" },
+        { "option": "C", "en": "C", "as": "C" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "square",
+      "q": { "en": "Four people sit at the corners of a square table facing the centre. A sits to the immediate left of B. C sits to the immediate left of A. D sits to the immediate right of B. Who sits opposite C?", "as": "চাৰিজন লোক কেন্দ্ৰলৈ মুখ কৰি বর্গাকাৰ টেবুলৰ কোনাত বহে। A, B ৰ বাওঁ ফালে ওচৰত বহে। C, A ৰ বাওঁ ফালে ওচৰত বহে। D, B ৰ সোঁ ফালে ওচৰত বহে। C ৰ বিপৰীতত কোন বহে?" },
+      "options": [
+        { "option": "A", "en": "B", "as": "B" },
+        { "option": "B", "en": "D", "as": "D" },
+        { "option": "C", "en": "A", "as": "A" },
+        { "option": "D", "en": "No one", "as": "কোনো নাই" }
+      ],
+      "a": "A"
+    }
+  ]
+}
