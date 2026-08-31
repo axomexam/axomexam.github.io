@@ -2721,7 +2721,7 @@
   }
 
   function renderMockCategoryPicker(main) {
-    const mockCategories = state.categories.filter(c => c.id !== "study-guides");
+    const mockCategories = state.categories.filter(c => c.id !== "study-guides" && c.id !== "articles");
 
     main.innerHTML = `
       <div class="mock-intro">
