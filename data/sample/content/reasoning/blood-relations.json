@@ -1,0 +1,1221 @@
+{
+  "id": "blood_relations",
+  "title": {
+    "en": "Blood Relations (Assam Competitive Exams)",
+    "as": "তেজ সম্পৰ্কীয় আত্মীয়তা (অসম প্ৰতিযোগিতামূলক পৰীক্ষা)"
+  },
+  "description": {
+    "en": "Solve family relation puzzles — statements about family members, pointing-to-photo questions, and multi-person relation chains.",
+    "as": "পৰিয়ালৰ সম্পৰ্কৰ সমস্যাবোৰ সমাধান কৰক — পৰিয়ালৰ সদস্যৰ বিষয়ে উক্তি, ফটো-নিৰ্দেশৰ প্ৰশ্ন আৰু বহু-ব্যক্তি সম্পৰ্ক শৃংখলা।"
+  },
+  "tags": [
+    "reasoning",
+    "blood-relations",
+    "family",
+    "যুক্তি",
+    "আত্মীয়তা"
+  ],
+  "pdf": null,
+  "questions": [
+    {
+      "type": "pointing",
+      "q": {
+        "en": "Pointing to a photo, Ramesh says, \"He is the son of my father's only son.\" Who is he to Ramesh?",
+        "as": "এখন ফটো নিৰ্দেশ কৰি ৰামেশ্বৰে কয়, \"তেওঁ মোৰ পিতৃৰ একমাত্র পুত্রৰ পুত্র।\" তেওঁ ৰামেশ্বৰৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Son",
+          "as": "পুত্র"
+        },
+        {
+          "option": "B",
+          "en": "Brother",
+          "as": "ভাই"
+        },
+        {
+          "option": "C",
+          "en": "Nephew",
+          "as": "ভতিজা"
+        },
+        {
+          "option": "D",
+          "en": "Cousin",
+          "as": "ককাই-ভাই"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "statement",
+      "q": {
+        "en": "A is B's mother. B is C's sister. How is A related to C?",
+        "as": "A হৈছে B ৰ মাতৃ। B হৈছে C ৰ ভনী। A, C ৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Mother",
+          "as": "মাতৃ"
+        },
+        {
+          "option": "B",
+          "en": "Aunt",
+          "as": "খুড়ী"
+        },
+        {
+          "option": "C",
+          "en": "Grandmother",
+          "as": "আইতা"
+        },
+        {
+          "option": "D",
+          "en": "Sister",
+          "as": "ভনী"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "statement",
+      "q": {
+        "en": "X is the brother of Y. Y is the daughter of Z. How is X related to Z?",
+        "as": "X হৈছে Y ৰ ভাই। Y হৈছে Z ৰ জীয়ৰী। X, Z ৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Father",
+          "as": "পিতৃ"
+        },
+        {
+          "option": "B",
+          "en": "Son",
+          "as": "পুত্র"
+        },
+        {
+          "option": "C",
+          "en": "Uncle",
+          "as": "মামা"
+        },
+        {
+          "option": "D",
+          "en": "Brother",
+          "as": "ভাই"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "pointing",
+      "q": {
+        "en": "Pointing to a lady, Raju says, \"She is my brother's mother.\" Who is she to Raju?",
+        "as": "এগৰাকী মহিলা নিৰ্দেশ কৰি ৰাজুৱে কয়, \"তেওঁ মোৰ ভাইৰ মাতৃ।\" তেওঁ ৰাজুৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Aunt",
+          "as": "খুড়ী"
+        },
+        {
+          "option": "B",
+          "en": "Sister",
+          "as": "ভনী"
+        },
+        {
+          "option": "C",
+          "en": "Mother",
+          "as": "মাতৃ"
+        },
+        {
+          "option": "D",
+          "en": "Grandmother",
+          "as": "আইতা"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "statement",
+      "q": {
+        "en": "A is the son of B. B is the husband of C. How is A related to C?",
+        "as": "A হৈছে B ৰ পুত্র। B হৈছে C ৰ স্বামী। A, C ৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Father",
+          "as": "পিতৃ"
+        },
+        {
+          "option": "B",
+          "en": "Husband",
+          "as": "স্বামী"
+        },
+        {
+          "option": "C",
+          "en": "Son",
+          "as": "পুত্র"
+        },
+        {
+          "option": "D",
+          "en": "Brother",
+          "as": "ভাই"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "chain",
+      "q": {
+        "en": "Rohan is the brother of Sita. Sita is the daughter of Meena. Meena is the wife of Ramesh. How is Rohan related to Ramesh?",
+        "as": "ৰোহন হৈছে সীতাৰ ভাই। সীতা হৈছে মীনাৰ জীয়ৰী। মীনা হৈছে ৰামেশ্বৰৰ স্ত্রী। ৰোহন, ৰামেশ্বৰৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Son",
+          "as": "পুত্র"
+        },
+        {
+          "option": "B",
+          "en": "Nephew",
+          "as": "ভতিজা"
+        },
+        {
+          "option": "C",
+          "en": "Brother",
+          "as": "ভাই"
+        },
+        {
+          "option": "D",
+          "en": "Grandson",
+          "as": "নাতি"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "pointing",
+      "q": {
+        "en": "Pointing to a man, Priya says, \"He is the husband of my mother's sister.\" Who is he to Priya?",
+        "as": "এজন লোক নিৰ্দেশ কৰি প্রিয়াই কয়, \"তেওঁ মোৰ মাতৃৰ ভনীৰ স্বামী।\" তেওঁ প্রিয়াৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Father",
+          "as": "পিতৃ"
+        },
+        {
+          "option": "B",
+          "en": "Uncle",
+          "as": "মামা"
+        },
+        {
+          "option": "C",
+          "en": "Brother",
+          "as": "ভাই"
+        },
+        {
+          "option": "D",
+          "en": "Father-in-law",
+          "as": "শহুৰ"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "pointing",
+      "q": {
+        "en": "My father's wife's brother is my ?",
+        "as": "মোৰ পিতৃৰ স্ত্রীৰ ভাই হৈছে মোৰ ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Father",
+          "as": "পিতৃ"
+        },
+        {
+          "option": "B",
+          "en": "Uncle",
+          "as": "মামা"
+        },
+        {
+          "option": "C",
+          "en": "Grandfather",
+          "as": "ককা"
+        },
+        {
+          "option": "D",
+          "en": "Brother-in-law",
+          "as": "ভিনিহি"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "pointing",
+      "q": {
+        "en": "The sister of my father is my ?",
+        "as": "মোৰ পিতৃৰ ভনী হৈছে মোৰ ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Aunt",
+          "as": "পেহী"
+        },
+        {
+          "option": "B",
+          "en": "Mother",
+          "as": "মাতৃ"
+        },
+        {
+          "option": "C",
+          "en": "Sister",
+          "as": "ভনী"
+        },
+        {
+          "option": "D",
+          "en": "Grandmother",
+          "as": "আইতা"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "statement",
+      "q": {
+        "en": "A is the brother of B. B is the mother of C. How is A related to C?",
+        "as": "A হৈছে B ৰ ভাই। B হৈছে C ৰ মাতৃ। A, C ৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Father",
+          "as": "পিতৃ"
+        },
+        {
+          "option": "B",
+          "en": "Uncle",
+          "as": "মামা"
+        },
+        {
+          "option": "C",
+          "en": "Brother",
+          "as": "ভাই"
+        },
+        {
+          "option": "D",
+          "en": "Grandfather",
+          "as": "ককা"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "pointing",
+      "q": {
+        "en": "Pointing to a woman, Amar says, \"She is the mother of my father's son.\" Who is she to Amar?",
+        "as": "এগৰাকী মহিলা নিৰ্দেশ কৰি অমৰে কয়, \"তেওঁ মোৰ পিতৃৰ পুত্রৰ মাতৃ।\" তেওঁ অমৰৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Sister",
+          "as": "ভনী"
+        },
+        {
+          "option": "B",
+          "en": "Mother",
+          "as": "মাতৃ"
+        },
+        {
+          "option": "C",
+          "en": "Aunt",
+          "as": "খুড়ী"
+        },
+        {
+          "option": "D",
+          "en": "Wife",
+          "as": "স্ত্রী"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "pointing",
+      "q": {
+        "en": "The father of my grandfather is my ?",
+        "as": "মোৰ ককাদেউতাৰ পিতৃ হৈছে মোৰ ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Great-grandfather",
+          "as": "বুঢ়াককা"
+        },
+        {
+          "option": "B",
+          "en": "Grandfather",
+          "as": "ককা"
+        },
+        {
+          "option": "C",
+          "en": "Father",
+          "as": "পিতৃ"
+        },
+        {
+          "option": "D",
+          "en": "Uncle",
+          "as": "মামা"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "chain",
+      "q": {
+        "en": "X is the son of Y. Y is the daughter of Z. Z is the wife of W. How is X related to W?",
+        "as": "X হৈছে Y ৰ পুত্র। Y হৈছে Z ৰ জীয়ৰী। Z হৈছে W ৰ স্ত্রী। X, W ৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Son",
+          "as": "পুত্র"
+        },
+        {
+          "option": "B",
+          "en": "Grandson",
+          "as": "নাতি"
+        },
+        {
+          "option": "C",
+          "en": "Nephew",
+          "as": "ভতিজা"
+        },
+        {
+          "option": "D",
+          "en": "Brother",
+          "as": "ভাই"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "statement",
+      "q": {
+        "en": "A is the father of B. C is the daughter of B. How is C related to A?",
+        "as": "A হৈছে B ৰ পিতৃ। C হৈছে B ৰ জীয়ৰী। C, A ৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Daughter",
+          "as": "জীয়ৰী"
+        },
+        {
+          "option": "B",
+          "en": "Granddaughter",
+          "as": "নাতনি"
+        },
+        {
+          "option": "C",
+          "en": "Sister",
+          "as": "ভনী"
+        },
+        {
+          "option": "D",
+          "en": "Wife",
+          "as": "স্ত্রী"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "pointing",
+      "q": {
+        "en": "Pointing to a boy, Monu says, \"He is the son of my uncle.\" Who is he to Monu?",
+        "as": "এজন ল'ৰা নিৰ্দেশ কৰি মনুৱে কয়, \"তেওঁ মোৰ মামাৰ পুত্র।\" তেওঁ মনুৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Cousin",
+          "as": "ককাই-ভাই"
+        },
+        {
+          "option": "B",
+          "en": "Brother",
+          "as": "ভাই"
+        },
+        {
+          "option": "C",
+          "en": "Nephew",
+          "as": "ভতিজা"
+        },
+        {
+          "option": "D",
+          "en": "Son",
+          "as": "পুত্র"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "statement",
+      "q": {
+        "en": "P is the father of Q and R. R is the mother of S. How is S related to P?",
+        "as": "P হৈছে Q আৰু R ৰ পিতৃ। R হৈছে S ৰ মাতৃ। S, P ৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Son",
+          "as": "পুত্র"
+        },
+        {
+          "option": "B",
+          "en": "Daughter",
+          "as": "জীয়ৰী"
+        },
+        {
+          "option": "C",
+          "en": "Grandchild",
+          "as": "নাতি/নাতনি"
+        },
+        {
+          "option": "D",
+          "en": "Nephew",
+          "as": "ভতিজা"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "statement",
+      "q": {
+        "en": "A man says to a woman, \"Your mother's husband is my father.\" How is the man related to the woman?",
+        "as": "এজন পুৰুষে এগৰাকী মহিলাক কয়, \"আপোনাৰ মাতৃৰ স্বামী হৈছে মোৰ পিতৃ।\" পুৰুষগৰাকী মহিলাগৰাকীৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Brother",
+          "as": "ভাই"
+        },
+        {
+          "option": "B",
+          "en": "Husband",
+          "as": "স্বামী"
+        },
+        {
+          "option": "C",
+          "en": "Cousin",
+          "as": "ককাই-ভাই"
+        },
+        {
+          "option": "D",
+          "en": "Father",
+          "as": "পিতৃ"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "chain",
+      "q": {
+        "en": "A is the daughter of B. B is the daughter of C. How is A related to C?",
+        "as": "A হৈছে B ৰ জীয়ৰী। B হৈছে C ৰ জীয়ৰী। A, C ৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Daughter",
+          "as": "জীয়ৰী"
+        },
+        {
+          "option": "B",
+          "en": "Granddaughter",
+          "as": "নাতনি"
+        },
+        {
+          "option": "C",
+          "en": "Mother",
+          "as": "মাতৃ"
+        },
+        {
+          "option": "D",
+          "en": "Aunt",
+          "as": "খুড়ী"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "pointing",
+      "q": {
+        "en": "Pointing to a lady, Rekha says, \"She is the mother of my daughter's mother.\" Who is she to Rekha?",
+        "as": "এগৰাকী মহিলা নিৰ্দেশ কৰি ৰেখাই কয়, \"তেওঁ মোৰ জীয়ৰীৰ মাতৃৰ মাতৃ।\" তেওঁ ৰেখাৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Grandmother",
+          "as": "আইতা"
+        },
+        {
+          "option": "B",
+          "en": "Mother-in-law",
+          "as": "শাহু"
+        },
+        {
+          "option": "C",
+          "en": "Mother",
+          "as": "মাতৃ"
+        },
+        {
+          "option": "D",
+          "en": "Aunt",
+          "as": "খুড়ী"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "chain",
+      "q": {
+        "en": "K is the husband of L. L is the mother of M. N is the father of L. How is M related to N?",
+        "as": "K হৈছে L ৰ স্বামী। L হৈছে M ৰ মাতৃ। N হৈছে L ৰ পিতৃ। M, N ৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Son",
+          "as": "পুত্র"
+        },
+        {
+          "option": "B",
+          "en": "Grandson",
+          "as": "নাতি"
+        },
+        {
+          "option": "C",
+          "en": "Nephew",
+          "as": "ভতিজা"
+        },
+        {
+          "option": "D",
+          "en": "Brother",
+          "as": "ভাই"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "chain",
+      "q": {
+        "en": "P is the father of Q. Q is the sister of R. R is the son of S. How is S related to P?",
+        "as": "P হৈছে Q ৰ পিতৃ। Q হৈছে R ৰ ভনী। R হৈছে S ৰ পুত্র। S, P ৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Wife",
+          "as": "স্ত্রী"
+        },
+        {
+          "option": "B",
+          "en": "Sister",
+          "as": "ভনী"
+        },
+        {
+          "option": "C",
+          "en": "Daughter",
+          "as": "জীয়ৰী"
+        },
+        {
+          "option": "D",
+          "en": "Mother",
+          "as": "মাতৃ"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "statement",
+      "q": {
+        "en": "A and B are brothers. C is the mother of B. D is the father of C. How is A related to D?",
+        "as": "A আৰু B ভাই-ককাই। C হৈছে B ৰ মাতৃ। D হৈছে C ৰ পিতৃ। A, D ৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Father",
+          "as": "পিতৃ"
+        },
+        {
+          "option": "B",
+          "en": "Grandfather",
+          "as": "ককা"
+        },
+        {
+          "option": "C",
+          "en": "Uncle",
+          "as": "মামা"
+        },
+        {
+          "option": "D",
+          "en": "Son",
+          "as": "পুত্র"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "pointing",
+      "q": {
+        "en": "Pointing to a man, Anita says, \"His mother is the daughter of my father.\" How is the man related to Anita?",
+        "as": "এজন লোক নিৰ্দেশ কৰি অনিতাই কয়, \"তেওঁৰ মাতৃ হৈছে মোৰ পিতৃৰ জীয়ৰী।\" লোকজন অনিতাৰ কি হয়?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Brother",
+          "as": "ভাই"
+        },
+        {
+          "option": "B",
+          "en": "Son",
+          "as": "পুত্র"
+        },
+        {
+          "option": "C",
+          "en": "Nephew",
+          "as": "ভতিজা"
+        },
+        {
+          "option": "D",
+          "en": "Husband",
+          "as": "স্বামী"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "pointing",
+      "q": {
+        "en": "Pointing to a boy, Mohan says, \"He is my uncle's son.\" Who is he to Mohan?",
+        "as": "Pointing to a boy, Mohan says, \"He is my uncle's son.\" Who is he to Mohan?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Cousin",
+          "as": "Cousin"
+        },
+        {
+          "option": "B",
+          "en": "Brother",
+          "as": "Brother"
+        },
+        {
+          "option": "C",
+          "en": "Nephew",
+          "as": "Nephew"
+        },
+        {
+          "option": "D",
+          "en": "Son",
+          "as": "Son"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "statement",
+      "q": {
+        "en": "A is the father of B. B is the daughter of C. How is C related to A?",
+        "as": "A is the father of B. B is the daughter of C. How is C related to A?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Wife",
+          "as": "Wife"
+        },
+        {
+          "option": "B",
+          "en": "Daughter",
+          "as": "Daughter"
+        },
+        {
+          "option": "C",
+          "en": "Sister",
+          "as": "Sister"
+        },
+        {
+          "option": "D",
+          "en": "Mother",
+          "as": "Mother"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "pointing",
+      "q": {
+        "en": "My mother's sister is my ?",
+        "as": "My mother's sister is my ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Aunt",
+          "as": "Aunt"
+        },
+        {
+          "option": "B",
+          "en": "Mother",
+          "as": "Mother"
+        },
+        {
+          "option": "C",
+          "en": "Grandmother",
+          "as": "Grandmother"
+        },
+        {
+          "option": "D",
+          "en": "Sister",
+          "as": "Sister"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "pointing",
+      "q": {
+        "en": "My father's brother is my ?",
+        "as": "My father's brother is my ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Uncle",
+          "as": "Uncle"
+        },
+        {
+          "option": "B",
+          "en": "Father",
+          "as": "Father"
+        },
+        {
+          "option": "C",
+          "en": "Grandfather",
+          "as": "Grandfather"
+        },
+        {
+          "option": "D",
+          "en": "Cousin",
+          "as": "Cousin"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "pointing",
+      "q": {
+        "en": "My brother's wife is my ?",
+        "as": "My brother's wife is my ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Sister-in-law",
+          "as": "Sister-in-law"
+        },
+        {
+          "option": "B",
+          "en": "Sister",
+          "as": "Sister"
+        },
+        {
+          "option": "C",
+          "en": "Aunt",
+          "as": "Aunt"
+        },
+        {
+          "option": "D",
+          "en": "Mother-in-law",
+          "as": "Mother-in-law"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "pointing",
+      "q": {
+        "en": "My sister's husband is my ?",
+        "as": "My sister's husband is my ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Brother-in-law",
+          "as": "Brother-in-law"
+        },
+        {
+          "option": "B",
+          "en": "Brother",
+          "as": "Brother"
+        },
+        {
+          "option": "C",
+          "en": "Uncle",
+          "as": "Uncle"
+        },
+        {
+          "option": "D",
+          "en": "Cousin",
+          "as": "Cousin"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "statement",
+      "q": {
+        "en": "A is the brother of B. B is the father of C. How is A related to C?",
+        "as": "A is the brother of B. B is the father of C. How is A related to C?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Uncle",
+          "as": "Uncle"
+        },
+        {
+          "option": "B",
+          "en": "Father",
+          "as": "Father"
+        },
+        {
+          "option": "C",
+          "en": "Grandfather",
+          "as": "Grandfather"
+        },
+        {
+          "option": "D",
+          "en": "Brother",
+          "as": "Brother"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "pointing",
+      "q": {
+        "en": "Pointing to a man, a woman says, \"He is the father of my son.\" Who is he to her?",
+        "as": "Pointing to a man, a woman says, \"He is the father of my son.\" Who is he to her?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Husband",
+          "as": "Husband"
+        },
+        {
+          "option": "B",
+          "en": "Brother",
+          "as": "Brother"
+        },
+        {
+          "option": "C",
+          "en": "Father",
+          "as": "Father"
+        },
+        {
+          "option": "D",
+          "en": "Uncle",
+          "as": "Uncle"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "chain",
+      "q": {
+        "en": "Ravi's mother has a sister Geeta. Geeta's daughter is Rekha. How is Rekha related to Ravi?",
+        "as": "Ravi's mother has a sister Geeta. Geeta's daughter is Rekha. How is Rekha related to Ravi?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Cousin",
+          "as": "Cousin"
+        },
+        {
+          "option": "B",
+          "en": "Sister",
+          "as": "Sister"
+        },
+        {
+          "option": "C",
+          "en": "Aunt",
+          "as": "Aunt"
+        },
+        {
+          "option": "D",
+          "en": "Niece",
+          "as": "Niece"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "statement",
+      "q": {
+        "en": "A is the mother of B. C is the brother of A. How is C related to B?",
+        "as": "A is the mother of B. C is the brother of A. How is C related to B?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Maternal uncle",
+          "as": "Maternal uncle"
+        },
+        {
+          "option": "B",
+          "en": "Father",
+          "as": "Father"
+        },
+        {
+          "option": "C",
+          "en": "Grandfather",
+          "as": "Grandfather"
+        },
+        {
+          "option": "D",
+          "en": "Paternal uncle",
+          "as": "Paternal uncle"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "statement",
+      "q": {
+        "en": "P is the brother of Q's mother. How is P related to Q?",
+        "as": "P is the brother of Q's mother. How is P related to Q?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Maternal uncle",
+          "as": "Maternal uncle"
+        },
+        {
+          "option": "B",
+          "en": "Father",
+          "as": "Father"
+        },
+        {
+          "option": "C",
+          "en": "Grandfather",
+          "as": "Grandfather"
+        },
+        {
+          "option": "D",
+          "en": "Paternal uncle",
+          "as": "Paternal uncle"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "pointing",
+      "q": {
+        "en": "Pointing to a lady, Sunil says, \"She is my father's mother.\" Who is she to Sunil?",
+        "as": "Pointing to a lady, Sunil says, \"She is my father's mother.\" Who is she to Sunil?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Grandmother",
+          "as": "Grandmother"
+        },
+        {
+          "option": "B",
+          "en": "Mother",
+          "as": "Mother"
+        },
+        {
+          "option": "C",
+          "en": "Aunt",
+          "as": "Aunt"
+        },
+        {
+          "option": "D",
+          "en": "Sister",
+          "as": "Sister"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "statement",
+      "q": {
+        "en": "A is the grandfather of B. C is the son of A. How is C related to B?",
+        "as": "A is the grandfather of B. C is the son of A. How is C related to B?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Father",
+          "as": "Father"
+        },
+        {
+          "option": "B",
+          "en": "Grandfather",
+          "as": "Grandfather"
+        },
+        {
+          "option": "C",
+          "en": "Uncle",
+          "as": "Uncle"
+        },
+        {
+          "option": "D",
+          "en": "Brother",
+          "as": "Brother"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "chain",
+      "q": {
+        "en": "M is the son of N. N is the wife of O. How is O related to M?",
+        "as": "M is the son of N. N is the wife of O. How is O related to M?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Father",
+          "as": "Father"
+        },
+        {
+          "option": "B",
+          "en": "Grandfather",
+          "as": "Grandfather"
+        },
+        {
+          "option": "C",
+          "en": "Uncle",
+          "as": "Uncle"
+        },
+        {
+          "option": "D",
+          "en": "Brother",
+          "as": "Brother"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "pointing",
+      "q": {
+        "en": "Pointing to a woman, Rakesh says, \"Her brother is my father.\" Who is she to Rakesh?",
+        "as": "Pointing to a woman, Rakesh says, \"Her brother is my father.\" Who is she to Rakesh?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Mother",
+          "as": "Mother"
+        },
+        {
+          "option": "B",
+          "en": "Aunt",
+          "as": "Aunt"
+        },
+        {
+          "option": "C",
+          "en": "Sister",
+          "as": "Sister"
+        },
+        {
+          "option": "D",
+          "en": "Grandmother",
+          "as": "Grandmother"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "statement",
+      "q": {
+        "en": "A is the daughter of B. B is the brother of C. How is C related to A?",
+        "as": "A is the daughter of B. B is the brother of C. How is C related to A?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Uncle",
+          "as": "Uncle"
+        },
+        {
+          "option": "B",
+          "en": "Father",
+          "as": "Father"
+        },
+        {
+          "option": "C",
+          "en": "Grandfather",
+          "as": "Grandfather"
+        },
+        {
+          "option": "D",
+          "en": "Brother",
+          "as": "Brother"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "pointing",
+      "q": {
+        "en": "My father's son is my ?",
+        "as": "My father's son is my ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Brother",
+          "as": "Brother"
+        },
+        {
+          "option": "B",
+          "en": "Uncle",
+          "as": "Uncle"
+        },
+        {
+          "option": "C",
+          "en": "Cousin",
+          "as": "Cousin"
+        },
+        {
+          "option": "D",
+          "en": "Nephew",
+          "as": "Nephew"
+        }
+      ],
+      "a": "A"
+    }
+  ]
+}
