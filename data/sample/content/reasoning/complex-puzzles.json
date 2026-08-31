@@ -1,0 +1,482 @@
+{
+  "id": "complex_puzzles",
+  "title": { "en": "Complex Puzzles Test (Assam Competitive Exams)", "as": "জটিল ধাঁধা পৰীক্ষা (অসম প্ৰতিযোগিতামূলক পৰীক্ষা)" },
+  "description": { "en": "Solve floor, box and scheduling puzzles using positional, relational and calendar clues.", "as": "স্থান, সম্পৰ্কীয় আৰু দিনপঞ্জী সংকেত ব্যৱহাৰ কৰি মহলা, বাকচ আৰু সময়সূচীৰ ধাঁধা সমাধান কৰক।" },
+  "tags": ["reasoning", "puzzle", "floor", "box", "scheduling", "যুক্তি", "ধাঁধা"],
+  "pdf": null,
+  "questions": [
+    {
+      "type": "floor",
+      "q": { "en": "Six persons A, B, C, D, E, F live on six different floors of a building (ground = 1st). A lives on the top floor. F lives two floors below A. Who lives on the floor immediately above D if D lives on the 2nd floor?", "as": "ছয়জন ব্যক্তি A, B, C, D, E, F এটা ভৱনৰ ছয়টা ভিন্ন মহলাত থাকে (তল = ১ম)। A আটাইতকৈ ওপৰৰ মহলাত থাকে। F, A ৰ তলত দুটা মহলাত থাকে। যদি D ২য় মহলাত থাকে তেন্তে D ৰ ঠিক ওপৰৰ মহলাত কোন থাকে?" },
+      "options": [
+        { "option": "A", "en": "A", "as": "A" },
+        { "option": "B", "en": "B", "as": "B" },
+        { "option": "C", "en": "C", "as": "C" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "floor",
+      "q": { "en": "Five people P, Q, R, S, T live on five floors of a building. P lives on the top floor. Q lives immediately below P. R lives immediately above S. If S lives on the 2nd floor from bottom, who lives on the bottom floor?", "as": "পাঁচজন লোক P, Q, R, S, T এটা ভৱনৰ পাঁচটা মহলাত থাকে। P আটাইতকৈ ওপৰৰ মহলাত থাকে। Q, P ৰ ঠিক তলত থাকে। R, S ৰ ঠিক ওপৰত থাকে। যদি S তলৰ পৰা ২য় মহলাত থাকে তেন্তে আটাইতকৈ তলৰ মহলাত কোন থাকে?" },
+      "options": [
+        { "option": "A", "en": "T", "as": "T" },
+        { "option": "B", "en": "R", "as": "R" },
+        { "option": "C", "en": "S", "as": "S" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "floor",
+      "q": { "en": "Seven persons live in a seven-storey building (ground to 6th floor). Three persons live above C. How many persons live below C?", "as": "সাতজন ব্যক্তি সাতমহলীয়া ভৱনত থাকে (তলৰ পৰা ৬ষ্ঠ মহলা)। C ৰ ওপৰত তিনিজন থাকে। C ৰ তলত কিমানজন থাকে?" },
+      "options": [
+        { "option": "A", "en": "3", "as": "৩" },
+        { "option": "B", "en": "4", "as": "৪" },
+        { "option": "C", "en": "2", "as": "২" },
+        { "option": "D", "en": "5", "as": "৫" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "floor",
+      "q": { "en": "In a five-floor building, A lives on the 3rd floor. B lives two floors above A. C lives immediately below B. Which floor does C live on?", "as": "পাঁচমহলীয়া ভৱনত A ৩য় মহলাত থাকে। B, A ৰ ওপৰত দুটা মহলাত থাকে। C, B ৰ ঠিক তলত থাকে। C কোন মহলাত থাকে?" },
+      "options": [
+        { "option": "A", "en": "5th", "as": "৫ম" },
+        { "option": "B", "en": "4th", "as": "৪র্থ" },
+        { "option": "C", "en": "2nd", "as": "২য়" },
+        { "option": "D", "en": "6th", "as": "৬ষ্ঠ" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "floor",
+      "q": { "en": "Six friends live on six floors. Two persons live between A and B. A lives on the ground floor. B lives above A. How many floors are above B?", "as": "ছয়জন বন্ধু ছয়টা মহলাত থাকে। A আৰু B ৰ মাজত দুজন থাকে। A তলৰ মহলাত থাকে। B, A ৰ ওপৰত থাকে। B ৰ ওপৰত কিমানটা মহলা আছে?" },
+      "options": [
+        { "option": "A", "en": "3", "as": "৩" },
+        { "option": "B", "en": "4", "as": "৪" },
+        { "option": "C", "en": "2", "as": "২" },
+        { "option": "D", "en": "1", "as": "১" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "floor",
+      "q": { "en": "Seven persons live on seven floors of a building. P lives on the 4th floor from the bottom. Q lives immediately above P. How many persons live below Q?", "as": "সাতজন ব্যক্তি এটা ভৱনৰ সাতটা মহলাত থাকে। P তলৰ পৰা ৪র্থ মহলাত থাকে। Q, P ৰ ঠিক ওপৰত থাকে। Q ৰ তলত কিমানজন থাকে?" },
+      "options": [
+        { "option": "A", "en": "4", "as": "৪" },
+        { "option": "B", "en": "3", "as": "৩" },
+        { "option": "C", "en": "5", "as": "৫" },
+        { "option": "D", "en": "2", "as": "২" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "floor",
+      "q": { "en": "Four people A, B, C, D live on four floors of a building. A lives on the top floor. C lives below B. D lives above C but below B. Who lives on the ground floor?", "as": "চাৰিজন লোক A, B, C, D এটা ভৱনৰ চাৰিটা মহলাত থাকে। A আটাইতকৈ ওপৰৰ মহলাত থাকে। C, B ৰ তলত থাকে। D, C ৰ ওপৰত কিন্তু B ৰ তলত থাকে। তলৰ মহলাত কোন থাকে?" },
+      "options": [
+        { "option": "A", "en": "B", "as": "B" },
+        { "option": "B", "en": "C", "as": "C" },
+        { "option": "C", "en": "D", "as": "D" },
+        { "option": "D", "en": "A", "as": "A" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "floor",
+      "q": { "en": "Eight people live on eight floors. X lives on the 7th floor. Y lives three floors below X. Z lives immediately above Y. Which floor does Z live on?", "as": "আঠজন লোক আঠটা মহলাত থাকে। X ৭ম মহলাত থাকে। Y, X ৰ তলত তিনিটা মহলাত থাকে। Z, Y ৰ ঠিক ওপৰত থাকে। Z কোন মহলাত থাকে?" },
+      "options": [
+        { "option": "A", "en": "4th", "as": "৪র্থ" },
+        { "option": "B", "en": "5th", "as": "৫ম" },
+        { "option": "C", "en": "3rd", "as": "৩য়" },
+        { "option": "D", "en": "6th", "as": "৬ষ্ঠ" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "floor",
+      "q": { "en": "Six persons live on six floors. M lives on the 2nd floor. N lives three floors above M. O lives immediately below N. P lives immediately above M. Who lives on the top (6th) floor?", "as": "ছয়জন ব্যক্তি ছয়টা মহলাত থাকে। M ২য় মহলাত থাকে। N, M ৰ ওপৰত তিনিটা মহলাত থাকে। O, N ৰ ঠিক তলত থাকে। P, M ৰ ঠিক ওপৰত থাকে। আটাইতকৈ ওপৰৰ (৬ষ্ঠ) মহলাত কোন থাকে?" },
+      "options": [
+        { "option": "A", "en": "N", "as": "N" },
+        { "option": "B", "en": "O", "as": "O" },
+        { "option": "C", "en": "P", "as": "P" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "floor",
+      "q": { "en": "Five people live on five floors of a building. A lives above B but below C. D lives above C. E lives below B. Who lives on the top floor?", "as": "পাঁচজন লোক এটা ভৱনৰ পাঁচটা মহলাত থাকে। A, B ৰ ওপৰত কিন্তু C ৰ তলত থাকে। D, C ৰ ওপৰত থাকে। E, B ৰ তলত থাকে। আটাইতকৈ ওপৰৰ মহলাত কোন থাকে?" },
+      "options": [
+        { "option": "A", "en": "A", "as": "A" },
+        { "option": "B", "en": "B", "as": "B" },
+        { "option": "C", "en": "C", "as": "C" },
+        { "option": "D", "en": "D", "as": "D" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "floor",
+      "q": { "en": "A six-storey building has one person per floor. K lives on an odd-numbered floor above the 2nd floor. L lives immediately below K. If K does not live on the 5th floor, which floor does K live on?", "as": "এখন ছয়মহলীয়া ভৱনত প্ৰতিটো মহলাত এজনকৈ থাকে। K ২য় মহলাৰ ওপৰৰ এটা বিজোড় নম্বৰ মহলাত থাকে। L, K ৰ ঠিক তলত থাকে। যদি K ৫ম মহলাত নাথাকে তেন্তে K কোন মহলাত থাকে?" },
+      "options": [
+        { "option": "A", "en": "3rd", "as": "৩য়" },
+        { "option": "B", "en": "1st", "as": "১ম" },
+        { "option": "C", "en": "5th", "as": "৫ম" },
+        { "option": "D", "en": "4th", "as": "৪র্থ" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "floor",
+      "q": { "en": "Seven persons A to G live on seven floors. B lives immediately below A. C lives immediately above A. If A lives on the 4th floor, how many persons live above C?", "as": "সাতজন ব্যক্তি A ৰ পৰা G লৈ সাতটা মহলাত থাকে। B, A ৰ ঠিক তলত থাকে। C, A ৰ ঠিক ওপৰত থাকে। যদি A ৪র্থ মহলাত থাকে তেন্তে C ৰ ওপৰত কিমানজন থাকে?" },
+      "options": [
+        { "option": "A", "en": "2", "as": "২" },
+        { "option": "B", "en": "3", "as": "৩" },
+        { "option": "C", "en": "4", "as": "৪" },
+        { "option": "D", "en": "1", "as": "১" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "box",
+      "q": { "en": "Six boxes A, B, C, D, E, F are stacked one above another. Box A is at the bottom. Box C is immediately above A. Box E is immediately below A. Which box is exactly in the middle of the stack of six?", "as": "ছয়টা বাকচ A, B, C, D, E, F এটা আনটোৰ ওপৰত স্তুপীকৃত। বাকচ A আটাইতকৈ তলত। বাকচ C, A ৰ ঠিক ওপৰত। বাকচ E, A ৰ ঠিক তলত। ছয়টাৰ স্তুপত ঠিক মাজত কোন বাকচ আছে?" },
+      "options": [
+        { "option": "A", "en": "B and C", "as": "B আৰু C" },
+        { "option": "B", "en": "A and B", "as": "A আৰু B" },
+        { "option": "C", "en": "D and E", "as": "D আৰু E" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "box",
+      "q": { "en": "Five boxes P, Q, R, S, T are stacked. P is at the top. Q is immediately below P. R is immediately above S. T is at the bottom. Which box is immediately above T?", "as": "পাঁচটা বাকচ P, Q, R, S, T স্তুপীকৃত। P আটাইতকৈ ওপৰত। Q, P ৰ ঠিক তলত। R, S ৰ ঠিক ওপৰত। T আটাইতকৈ তলত। T ৰ ঠিক ওপৰত কোন বাকচ আছে?" },
+      "options": [
+        { "option": "A", "en": "S", "as": "S" },
+        { "option": "B", "en": "R", "as": "R" },
+        { "option": "C", "en": "Q", "as": "Q" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "box",
+      "q": { "en": "Seven boxes are stacked. Box X is the 3rd from the top. Box Y is immediately below X. How many boxes are above Y?", "as": "সাতটা বাকচ স্তুপীকৃত। বাকচ X ওপৰৰ পৰা ৩য়। বাকচ Y, X ৰ ঠিক তলত। Y ৰ ওপৰত কিমানটা বাকচ আছে?" },
+      "options": [
+        { "option": "A", "en": "2", "as": "২" },
+        { "option": "B", "en": "3", "as": "৩" },
+        { "option": "C", "en": "4", "as": "৪" },
+        { "option": "D", "en": "1", "as": "১" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "box",
+      "q": { "en": "Five boxes are stacked one above another. Box A is two places above box B. Box C is immediately below box B. If box A is 2nd from the top, what is the position of box C from the bottom?", "as": "পাঁচটা বাকচ এটা আনটোৰ ওপৰত স্তুপীকৃত। বাকচ A, বাকচ B ৰ ওপৰত দুটা স্থানত। বাকচ C, বাকচ B ৰ ঠিক তলত। যদি বাকচ A ওপৰৰ পৰা ২য় হয় তেন্তে তলৰ পৰা বাকচ C ৰ স্থান কিমান?" },
+      "options": [
+        { "option": "A", "en": "2nd", "as": "২য়" },
+        { "option": "B", "en": "3rd", "as": "৩য়" },
+        { "option": "C", "en": "4th", "as": "৪র্থ" },
+        { "option": "D", "en": "1st", "as": "১ম" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "box",
+      "q": { "en": "Eight boxes are stacked. Box P is at the top. Box Q is at the bottom. Box R is exactly in the middle. How many boxes are between R and Q?", "as": "আঠটা বাকচ স্তুপীকৃত। বাকচ P আটাইতকৈ ওপৰত। বাকচ Q আটাইতকৈ তলত। বাকচ R ঠিক মাজত। R আৰু Q ৰ মাজত কিমানটা বাকচ আছে?" },
+      "options": [
+        { "option": "A", "en": "3", "as": "৩" },
+        { "option": "B", "en": "4", "as": "৪" },
+        { "option": "C", "en": "2", "as": "২" },
+        { "option": "D", "en": "5", "as": "৫" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "box",
+      "q": { "en": "Six boxes M, N, O, P, Q, R are stacked. N is immediately above P. R is immediately below P. Which two boxes are adjacent to each other if the stack from top is M, N, P, R, O, Q?", "as": "ছয়টা বাকচ M, N, O, P, Q, R স্তুপীকৃত। N, P ৰ ঠিক ওপৰত। R, P ৰ ঠিক তলত। যদি ওপৰৰ পৰা স্তুপ M, N, P, R, O, Q হয় তেন্তে কোন দুটা বাকচ ওচৰা-ওচৰি আছে?" },
+      "options": [
+        { "option": "A", "en": "M and O", "as": "M আৰু O" },
+        { "option": "B", "en": "O and Q", "as": "O আৰু Q" },
+        { "option": "C", "en": "N and P", "as": "N আৰু P" },
+        { "option": "D", "en": "M and N", "as": "M আৰু N" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "box",
+      "q": { "en": "Five boxes A, B, C, D, E are stacked. Two boxes are between A and B. A is at the top. How many boxes are above B?", "as": "পাঁচটা বাকচ A, B, C, D, E স্তুপীকৃত। A আৰু B ৰ মাজত দুটা বাকচ আছে। A আটাইতকৈ ওপৰত। B ৰ ওপৰত কিমানটা বাকচ আছে?" },
+      "options": [
+        { "option": "A", "en": "2", "as": "২" },
+        { "option": "B", "en": "3", "as": "৩" },
+        { "option": "C", "en": "1", "as": "১" },
+        { "option": "D", "en": "4", "as": "৪" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "box",
+      "q": { "en": "Seven boxes are stacked. Box G is 4th from the bottom. Box H is immediately above G. How many boxes are above H?", "as": "সাতটা বাকচ স্তুপীকৃত। বাকচ G তলৰ পৰা ৪র্থ। বাকচ H, G ৰ ঠিক ওপৰত। H ৰ ওপৰত কিমানটা বাকচ আছে?" },
+      "options": [
+        { "option": "A", "en": "2", "as": "২" },
+        { "option": "B", "en": "3", "as": "৩" },
+        { "option": "C", "en": "4", "as": "৪" },
+        { "option": "D", "en": "1", "as": "১" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "box",
+      "q": { "en": "Six boxes are stacked. Box X is at the bottom. Box Z is two places above box X. Box Y is immediately above box Z. Which box is 3rd from the top?", "as": "ছয়টা বাকচ স্তুপীকৃত। বাকচ X আটাইতকৈ তলত। বাকচ Z, বাকচ X ৰ ওপৰত দুটা স্থানত। বাকচ Y, বাকচ Z ৰ ঠিক ওপৰত। ওপৰৰ পৰা ৩য় কোন বাকচ?" },
+      "options": [
+        { "option": "A", "en": "Y", "as": "Y" },
+        { "option": "B", "en": "Z", "as": "Z" },
+        { "option": "C", "en": "X", "as": "X" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "box",
+      "q": { "en": "Four boxes P, Q, R, S are stacked. Q is above P. R is above Q. S is at the bottom. Which box is at the top?", "as": "চাৰিটা বাকচ P, Q, R, S স্তুপীকৃত। Q, P ৰ ওপৰত। R, Q ৰ ওপৰত। S আটাইতকৈ তলত। আটাইতকৈ ওপৰত কোন বাকচ আছে?" },
+      "options": [
+        { "option": "A", "en": "P", "as": "P" },
+        { "option": "B", "en": "Q", "as": "Q" },
+        { "option": "C", "en": "R", "as": "R" },
+        { "option": "D", "en": "S", "as": "S" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "scheduling",
+      "q": { "en": "Six lectures A, B, C, D, E, F are scheduled on six days from Monday to Saturday, one per day. A is on Monday. B is two days after A. Which day is lecture B on?", "as": "ছটা বক্তৃতা A, B, C, D, E, F সোমবাৰৰ পৰা শনিবাৰলৈ ছটা দিনত সময়সূচীভুক্ত, প্ৰতিদিন এটা। A সোমবাৰে। B, A ৰ পিছত দুদিন। B কোন দিনটোত আছে?" },
+      "options": [
+        { "option": "A", "en": "Wednesday", "as": "বুধবাৰ" },
+        { "option": "B", "en": "Thursday", "as": "বৃহস্পতিবাৰ" },
+        { "option": "C", "en": "Tuesday", "as": "মঙ্গলবাৰ" },
+        { "option": "D", "en": "Friday", "as": "শুকুৰবাৰ" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "scheduling",
+      "q": { "en": "Seven employees work on seven days from Monday to Sunday. P works on Monday. Q works on the 4th day after P. R works immediately after Q. Which day does R work?", "as": "সাতজন কৰ্মচাৰী সোমবাৰৰ পৰা দেওবাৰলৈ সাত দিন কাম কৰে। P সোমবাৰে কাম কৰে। Q, P ৰ পিছত ৪র্থ দিনত কাম কৰে। R, Q ৰ ঠিক পিছত কাম কৰে। R কোন দিনটোত কাম কৰে?" },
+      "options": [
+        { "option": "A", "en": "Saturday", "as": "শনিবাৰ" },
+        { "option": "B", "en": "Friday", "as": "শুকুৰবাৰ" },
+        { "option": "C", "en": "Thursday", "as": "বৃহস্পতিবাৰ" },
+        { "option": "D", "en": "Sunday", "as": "দেওবাৰ" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "scheduling",
+      "q": { "en": "Five subjects are taught from Monday to Friday. Maths is on Monday. Science is two days after Maths. English is immediately after Science. Which day is English taught?", "as": "পাঁচটা বিষয় সোমবাৰৰ পৰা শুকুৰবাৰলৈ পঢ়োৱা হয়। গণিত সোমবাৰে। বিজ্ঞান গণিতৰ পিছত দুদিন। ইংৰাজী বিজ্ঞানৰ ঠিক পিছত। ইংৰাজী কোন দিনটোত পঢ়োৱা হয়?" },
+      "options": [
+        { "option": "A", "en": "Wednesday", "as": "বুধবাৰ" },
+        { "option": "B", "en": "Thursday", "as": "বৃহস্পতিবাৰ" },
+        { "option": "C", "en": "Friday", "as": "শুকুৰবাৰ" },
+        { "option": "D", "en": "Tuesday", "as": "মঙ্গলবাৰ" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "scheduling",
+      "q": { "en": "Six persons attend a meeting on six different days of the week (Mon-Sat). A attends on Tuesday. B attends three days after A. How many days are between A and B?", "as": "ছয়জন ব্যক্তি সপ্তাহৰ ছয়টা ভিন্ন দিনত (সোম-শনি) সভাত যোগ দিয়ে। A মঙ্গলবাৰে যোগ দিয়ে। B, A ৰ পিছত তিন দিন। A আৰু B ৰ মাজত কিমান দিন আছে?" },
+      "options": [
+        { "option": "A", "en": "2", "as": "২" },
+        { "option": "B", "en": "3", "as": "৩" },
+        { "option": "C", "en": "4", "as": "৪" },
+        { "option": "D", "en": "1", "as": "১" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "scheduling",
+      "q": { "en": "Seven friends go on vacation on seven consecutive days. Ravi goes on Monday. Sita goes two days before Ravi's day is not possible since Ravi is first; instead Sita goes on the day immediately after Ravi. Which day does Sita go?", "as": "সাতজন বন্ধু সাতটা ক্ৰমাগত দিনত বেৰলৈ যায়। ৰবি সোমবাৰে যায়। সীতা ৰবিৰ ঠিক পিছৰ দিনটোত যায়। সীতা কোন দিনটোত যায়?" },
+      "options": [
+        { "option": "A", "en": "Tuesday", "as": "মঙ্গলবাৰ" },
+        { "option": "B", "en": "Wednesday", "as": "বুধবাৰ" },
+        { "option": "C", "en": "Sunday", "as": "দেওবাৰ" },
+        { "option": "D", "en": "Monday", "as": "সোমবাৰ" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "scheduling",
+      "q": { "en": "Six lectures are scheduled Monday to Saturday. Lecture P is on Wednesday. Lecture Q is immediately after P. Lecture R is immediately before P. Which lectures are on Tuesday and Thursday?", "as": "ছটা বক্তৃতা সোমবাৰৰ পৰা শনিবাৰলৈ সময়সূচীভুক্ত। বক্তৃতা P বুধবাৰে। বক্তৃতা Q, P ৰ ঠিক পিছত। বক্তৃতা R, P ৰ ঠিক আগত। মঙ্গলবাৰ আৰু বৃহস্পতিবাৰে কোন বক্তৃতা আছে?" },
+      "options": [
+        { "option": "A", "en": "R and Q", "as": "R আৰু Q" },
+        { "option": "B", "en": "Q and R", "as": "Q আৰু R" },
+        { "option": "C", "en": "P and Q", "as": "P আৰু Q" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "scheduling",
+      "q": { "en": "Seven employees A, B, C, D, E, F, G work on seven days Mon-Sun. A works on the 1st day. B works on the last day. C works exactly in the middle. Which day does C work?", "as": "সাতজন কৰ্মচাৰী A, B, C, D, E, F, G সাত দিন সোম-দেওবাৰে কাম কৰে। A প্ৰথম দিনটোত কাম কৰে। B শেষ দিনটোত কাম কৰে। C ঠিক মাজত কাম কৰে। C কোন দিনটোত কাম কৰে?" },
+      "options": [
+        { "option": "A", "en": "Thursday", "as": "বৃহস্পতিবাৰ" },
+        { "option": "B", "en": "Wednesday", "as": "বুধবাৰ" },
+        { "option": "C", "en": "Friday", "as": "শুকুৰবাৰ" },
+        { "option": "D", "en": "Saturday", "as": "শনিবাৰ" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "scheduling",
+      "q": { "en": "Five people give speeches on five consecutive days. P speaks on the 2nd day. Q speaks immediately after P. R speaks immediately before P. On which day does R speak?", "as": "পাঁচজন ব্যক্তি পাঁচটা ক্ৰমাগত দিনত ভাষণ দিয়ে। P দ্বিতীয় দিনটোত ভাষণ দিয়ে। Q, P ৰ ঠিক পিছত ভাষণ দিয়ে। R, P ৰ ঠিক আগত ভাষণ দিয়ে। R কোন দিনটোত ভাষণ দিয়ে?" },
+      "options": [
+        { "option": "A", "en": "1st day", "as": "১ম দিন" },
+        { "option": "B", "en": "3rd day", "as": "৩য় দিন" },
+        { "option": "C", "en": "4th day", "as": "৪র্থ দিন" },
+        { "option": "D", "en": "5th day", "as": "৫ম দিন" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "scheduling",
+      "q": { "en": "Six trains leave on six days Mon-Sat. Train X leaves on Monday. Train Y leaves two days before Train Z. Train Z leaves on Saturday. How many days are between Train X and Train Y?", "as": "ছটা ৰেল সোম-শনি ছয় দিনত ছাড়ে। ৰেল X সোমবাৰে ছাড়ে। ৰেল Y, ৰেল Z ৰ আগত দুদিন ছাড়ে। ৰেল Z শনিবাৰে ছাড়ে। ৰেল X আৰু ৰেল Y ৰ মাজত কিমান দিন আছে?" },
+      "options": [
+        { "option": "A", "en": "2", "as": "২" },
+        { "option": "B", "en": "3", "as": "৩" },
+        { "option": "C", "en": "4", "as": "৪" },
+        { "option": "D", "en": "1", "as": "১" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "scheduling",
+      "q": { "en": "Seven students give presentations Mon-Sun. A presents on Tuesday. B presents on the 3rd day after A. C presents immediately after B. How many students present after C?", "as": "সাতজন ছাত্ৰ সোম-দেওবাৰে প্ৰেজেণ্টেচন দিয়ে। A মঙ্গলবাৰে দিয়ে। B, A ৰ পিছত ৩য় দিনটোত দিয়ে। C, B ৰ ঠিক পিছত দিয়ে। C ৰ পিছত কিমানজন ছাত্ৰই প্ৰেজেণ্টেচন দিয়ে?" },
+      "options": [
+        { "option": "A", "en": "2", "as": "২" },
+        { "option": "B", "en": "1", "as": "১" },
+        { "option": "C", "en": "3", "as": "৩" },
+        { "option": "D", "en": "0", "as": "০" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "scheduling",
+      "q": { "en": "Five tasks are done on five days. Task P is done on day 1. Task Q is done two days after task P. Task R is done immediately after task Q. Task S is done immediately before task P. Which task is done on the last day?", "as": "পাঁচটা কাম পাঁচ দিনত কৰা হয়। কাম P প্ৰথম দিনটোত হয়। কাম Q, কাম P ৰ পিছত দুদিন হয়। কাম R, কাম Q ৰ ঠিক পিছত হয়। কাম S, কাম P ৰ ঠিক আগত হয়। শেষ দিনটোত কোন কাম হয়?" },
+      "options": [
+        { "option": "A", "en": "R", "as": "R" },
+        { "option": "B", "en": "Q", "as": "Q" },
+        { "option": "C", "en": "P", "as": "P" },
+        { "option": "D", "en": "S", "as": "S" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "scheduling",
+      "q": { "en": "Six meetings are held on six days. Meeting A is on Monday. Meeting F is on Saturday. Meeting C is two days after meeting A. How many meetings are between C and F?", "as": "ছটা সভা ছয় দিনত অনুষ্ঠিত হয়। সভা A সোমবাৰে। সভা F শনিবাৰে। সভা C, সভা A ৰ পিছত দুদিন। C আৰু F ৰ মাজত কিমানটা সভা আছে?" },
+      "options": [
+        { "option": "A", "en": "2", "as": "২" },
+        { "option": "B", "en": "3", "as": "৩" },
+        { "option": "C", "en": "1", "as": "১" },
+        { "option": "D", "en": "4", "as": "৪" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "floor",
+      "q": { "en": "Six people live on six floors. The person on the top floor is M. The person on the ground floor is N. Two floors are between M and P. On which floor does P live?", "as": "ছয়জন লোক ছয়টা মহলাত থাকে। আটাইতকৈ ওপৰৰ মহলাত থকা ব্যক্তিজন M। তলৰ মহলাত থকা ব্যক্তিজন N। M আৰু P ৰ মাজত দুটা মহলা আছে। P কোন মহলাত থাকে?" },
+      "options": [
+        { "option": "A", "en": "3rd", "as": "৩য়" },
+        { "option": "B", "en": "4th", "as": "৪র্থ" },
+        { "option": "C", "en": "2nd", "as": "২য়" },
+        { "option": "D", "en": "5th", "as": "৫ম" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "floor",
+      "q": { "en": "Seven persons live on seven floors. R lives on the 5th floor. S lives three floors below R. T lives immediately above S. How many persons live above T?", "as": "সাতজন ব্যক্তি সাতটা মহলাত থাকে। R ৫ম মহলাত থাকে। S, R ৰ তলত তিনিটা মহলাত থাকে। T, S ৰ ঠিক ওপৰত থাকে। T ৰ ওপৰত কিমানজন থাকে?" },
+      "options": [
+        { "option": "A", "en": "3", "as": "৩" },
+        { "option": "B", "en": "2", "as": "২" },
+        { "option": "C", "en": "4", "as": "৪" },
+        { "option": "D", "en": "1", "as": "১" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "box",
+      "q": { "en": "Six boxes are stacked. Box A is two places below box B. Box B is at the 3rd position from the top. What is the position of box A from the bottom?", "as": "ছয়টা বাকচ স্তুপীকৃত। বাকচ A, বাকচ B ৰ তলত দুটা স্থানত। বাকচ B ওপৰৰ পৰা ৩য় স্থানত। তলৰ পৰা বাকচ A ৰ স্থান কিমান?" },
+      "options": [
+        { "option": "A", "en": "3rd", "as": "৩য়" },
+        { "option": "B", "en": "2nd", "as": "২য়" },
+        { "option": "C", "en": "4th", "as": "৪র্থ" },
+        { "option": "D", "en": "5th", "as": "৫ম" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "box",
+      "q": { "en": "Five boxes P, Q, R, S, T are stacked from top to bottom. P is above Q. Q is above R. R is above S. S is above T. Which box is exactly in the middle?", "as": "পাঁচটা বাকচ P, Q, R, S, T ওপৰৰ পৰা তললৈ স্তুপীকৃত। P, Q ৰ ওপৰত। Q, R ৰ ওপৰত। R, S ৰ ওপৰত। S, T ৰ ওপৰত। ঠিক মাজত কোন বাকচ আছে?" },
+      "options": [
+        { "option": "A", "en": "P", "as": "P" },
+        { "option": "B", "en": "Q", "as": "Q" },
+        { "option": "C", "en": "R", "as": "R" },
+        { "option": "D", "en": "S", "as": "S" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "scheduling",
+      "q": { "en": "Six friends visit a park on six different days of a week starting Monday. Arjun goes on Tuesday. Binoy goes three days after Arjun. On which day does Binoy go?", "as": "ছয়জন বন্ধু সোমবাৰৰ পৰা আৰম্ভ হোৱা সপ্তাহৰ ছয়টা ভিন্ন দিনত উদ্যানলৈ যায়। অৰ্জুন মঙ্গলবাৰে যায়। বিনয় অৰ্জুনৰ পিছত তিন দিন যায়। বিনয় কোন দিনটোত যায়?" },
+      "options": [
+        { "option": "A", "en": "Friday", "as": "শুকুৰবাৰ" },
+        { "option": "B", "en": "Saturday", "as": "শনিবাৰ" },
+        { "option": "C", "en": "Thursday", "as": "বৃহস্পতিবাৰ" },
+        { "option": "D", "en": "Wednesday", "as": "বুধবাৰ" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "scheduling",
+      "q": { "en": "Seven employees take leave on seven days Mon-Sun. P takes leave on Monday. Q takes leave on the 5th day after P. R takes leave immediately after Q. Which day does R take leave?", "as": "সাতজন কৰ্মচাৰীয়ে সোম-দেওবাৰে সাত দিন ছুটি লয়। P সোমবাৰে ছুটি লয়। Q, P ৰ পিছত ৫ম দিনটোত ছুটি লয়। R, Q ৰ ঠিক পিছত ছুটি লয়। R কোন দিনটোত ছুটি লয়?" },
+      "options": [
+        { "option": "A", "en": "Sunday", "as": "দেওবাৰ" },
+        { "option": "B", "en": "Saturday", "as": "শনিবাৰ" },
+        { "option": "C", "en": "Friday", "as": "শুকুৰবাৰ" },
+        { "option": "D", "en": "Monday", "as": "সোমবাৰ" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "box",
+      "q": { "en": "Seven boxes are stacked. Box K is two places above box L. Box M is immediately below box L. If box M is at the bottom, what is the position of box K from the top?", "as": "সাতটা বাকচ স্তুপীকৃত। বাকচ K, বাকচ L ৰ ওপৰত দুটা স্থানত। বাকচ M, বাকচ L ৰ ঠিক তলত। যদি বাকচ M আটাইতকৈ তলত থাকে তেন্তে ওপৰৰ পৰা বাকচ K ৰ স্থান কিমান?" },
+      "options": [
+        { "option": "A", "en": "4th", "as": "৪র্থ" },
+        { "option": "B", "en": "3rd", "as": "৩য়" },
+        { "option": "C", "en": "5th", "as": "৫ম" },
+        { "option": "D", "en": "2nd", "as": "২য়" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "floor",
+      "q": { "en": "Eight people live on eight floors. The person on the 6th floor is J. The person two floors below J is K. The person immediately above K is L. Which floor does L live on?", "as": "আঠজন লোক আঠটা মহলাত থাকে। ৬ষ্ঠ মহলাত থকা ব্যক্তিজন J। J ৰ তলত দুটা মহলাত থকা ব্যক্তিজন K। K ৰ ঠিক ওপৰত থকা ব্যক্তিজন L। L কোন মহলাত থাকে?" },
+      "options": [
+        { "option": "A", "en": "5th", "as": "৫ম" },
+        { "option": "B", "en": "4th", "as": "৪র্থ" },
+        { "option": "C", "en": "3rd", "as": "৩য়" },
+        { "option": "D", "en": "6th", "as": "৬ষ্ঠ" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "scheduling",
+      "q": { "en": "Six doctors visit a hospital on six days. Dr. A visits on Monday. Dr. B visits two days after Dr. A. Dr. C visits immediately after Dr. B. Dr. D visits immediately before Dr. A. Which doctor visits on Friday?", "as": "ছয়জন ডাক্তৰ ছয় দিনত চিকিৎসালয়লৈ আহে। ডা. A সোমবাৰে আহে। ডা. B, ডা. A ৰ পিছত দুদিন আহে। ডা. C, ডা. B ৰ ঠিক পিছত আহে। ডা. D, ডা. A ৰ ঠিক আগত আহে। শুকুৰবাৰে কোন ডাক্তৰ আহে?" },
+      "options": [
+        { "option": "A", "en": "Dr. B", "as": "ডা. B" },
+        { "option": "B", "en": "Dr. C", "as": "ডা. C" },
+        { "option": "C", "en": "Dr. D", "as": "ডা. D" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "A"
+    }
+  ]
+}
