@@ -1,0 +1,513 @@
+{
+  "id": "data_sufficiency",
+  "title": { "en": "Data Sufficiency Test (Assam Competitive Exams)", "as": "তথ্য পৰ্যাপ্ততা পৰীক্ষা (অসম প্ৰতিযোগিতামূলক পৰীক্ষা)" },
+  "description": { "en": "Read the question and two statements. Determine which statement(s) alone are sufficient to answer the question.", "as": "প্ৰশ্নটো আৰু দুটা বিবৃতি পঢ়ক। প্ৰশ্নটোৰ উত্তৰ দিবলৈ কোনটো বিবৃতি অকলেই পৰ্যাপ্ত সেইটো নিৰ্ণয় কৰক।" },
+  "tags": ["reasoning", "data-sufficiency", "statements", "যুক্তি", "তথ্য-পৰ্যাপ্ততা"],
+  "pdf": null,
+  "questions": [
+    {
+      "type": "age",
+      "q": { "en": "What is the present age of A's father? Statement I: A is 20 years old. Statement II: Father's age is 3 times A's age.", "as": "A ৰ পিতৃৰ বৰ্তমান বয়স কিমান? বিবৃতি I: A ৰ বয়স 20 বছৰ। বিবৃতি II: পিতৃৰ বয়স A ৰ বয়সৰ 3 গুণ।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "age",
+      "q": { "en": "What is the present age of Meera? Statement I: Meera's mother is 35 years old. Statement II: Meera is 10 years younger than her sister, and her sister is 18 years old.", "as": "মীৰাৰ বৰ্তমান বয়স কিমান? বিবৃতি I: মীৰাৰ মাকৰ বয়স 35 বছৰ। বিবৃতি II: মীৰা তাইৰ ভনীটোতকৈ 10 বছৰ সৰু, আৰু তাইৰ ভনীৰ বয়স 18 বছৰ।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "equation",
+      "q": { "en": "What is the value of x? Statement I: x + 3 = 8. Statement II: 2x = 10.", "as": "x ৰ মান কিমান? বিবৃতি I: x + 3 = 8। বিবৃতি II: 2x = 10।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "equation",
+      "q": { "en": "What is the value of x? Statement I: x + y = 10. Statement II: y + z = 15.", "as": "x ৰ মান কিমান? বিবৃতি I: x + y = 10। বিবৃতি II: y + z = 15।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "E"
+    },
+    {
+      "type": "comparison",
+      "q": { "en": "Is x greater than y? Statement I: x + y = 20. Statement II: x = 3y.", "as": "x, y তকৈ ডাঙৰ নেকি? বিবৃতি I: x + y = 20। বিবৃতি II: x = 3y।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "equation",
+      "q": { "en": "What is the value of x? Statement I: 2x = 14. Statement II: y = 3.", "as": "x ৰ মান কিমান? বিবৃতি I: 2x = 14। বিবৃতি II: y = 3।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "number",
+      "q": { "en": "How many students are there in the class? Statement I: 40% of the students are girls. Statement II: The number of boys is 36.", "as": "শ্রেণীত মুঠ কিমানজন ছাত্ৰ-ছাত্ৰী আছে? বিবৃতি I: ছাত্ৰ-ছাত্ৰীৰ 40% ছোৱালী। বিবৃতি II: ল'ৰাৰ সংখ্যা 36।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "equation",
+      "q": { "en": "What is the value of y? Statement I: x = 8. Statement II: x − y = 5.", "as": "y ৰ মান কিমান? বিবৃতি I: x = 8। বিবৃতি II: x − y = 5।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "number",
+      "q": { "en": "Find the two-digit number. Statement I: The sum of its digits is 9. Statement II: Its tens digit is 3.", "as": "দুটা অংকৰ সংখ্যাটো নিৰ্ণয় কৰক। বিবৃতি I: ইয়াৰ অংক দুটাৰ যোগফল 9। বিবৃতি II: ইয়াৰ দহক ঘৰৰ অংকটো 3।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "number",
+      "q": { "en": "Is the number divisible by 6? Statement I: It is divisible by 2. Statement II: It is divisible by 3.", "as": "সংখ্যাটো 6 ৰে বিভাজ্য নেকি? বিবৃতি I: ই 2 ৰে বিভাজ্য। বিবৃতি II: ই 3 ৰে বিভাজ্য।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "average",
+      "q": { "en": "What is the average of 5 numbers? Statement I: The sum of the 5 numbers is 120. Statement II: The 5 numbers are consecutive even numbers.", "as": "5টা সংখ্যাৰ গড় কিমান? বিবৃতি I: 5টা সংখ্যাৰ যোগফল 120। বিবৃতি II: 5টা সংখ্যা ক্ৰমাগত জোৰ সংখ্যা।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "comparison",
+      "q": { "en": "Who is the tallest among A, B and C? Statement I: A is taller than B. Statement II: C is taller than A.", "as": "A, B আৰু C ৰ ভিতৰত কোনজন আটাইতকৈ ওখ? বিবৃতি I: A, B তকৈ ওখ। বিবৃতি II: C, A তকৈ ওখ।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "direction",
+      "q": { "en": "In which direction is P from Q? Statement I: R is to the North of P. Statement II: Q is to the West of R.", "as": "P, Q ৰ পৰা কোন দিশত আছে? বিবৃতি I: R, P ৰ উত্তৰত আছে। বিবৃতি II: Q, R ৰ পশ্চিমত আছে।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "profit-loss",
+      "q": { "en": "What is the selling price of the article? Statement I: Its cost price is ₹500. Statement II: The shopkeeper earns a profit of 20%.", "as": "বস্তুটোৰ বিক্ৰী মূল্য কিমান? বিবৃতি I: ইয়াৰ কিনিময় মূল্য ₹500। বিবৃতি II: দোকানীয়ে 20% লাভ পায়।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "profit-loss",
+      "q": { "en": "What is the profit percent? Statement I: The selling price is ₹600. Statement II: The cost price is ₹500.", "as": "লাভৰ শতাংশ কিমান? বিবৃতি I: বিক্ৰী মূল্য ₹600। বিবৃতি II: কিনিময় মূল্য ₹500।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "simple-interest",
+      "q": { "en": "What is the simple interest? Statement I: The principal is ₹2000. Statement II: The rate is 5% per annum and the time is 3 years.", "as": "সৰল সুদ কিমান? বিবৃতি I: মূলধন ₹2000। বিবৃতি II: সুদৰ হাৰ বছৰি 5% আৰু সময় 3 বছৰ।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "time-work",
+      "q": { "en": "How many days will A take to complete the work alone? Statement I: A and B together complete the work in 12 days. Statement II: B alone completes the work in 30 days.", "as": "A অকলেই কামটো শেষ কৰিবলৈ কিমান দিন লাগিব? বিবৃতি I: A আৰু B একেলগে কামটো 12 দিনত শেষ কৰে। বিবৃতি II: B অকলেই কামটো 30 দিনত শেষ কৰে।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "time-work",
+      "q": { "en": "How many days will A and B together take? Statement I: A alone takes 20 days. Statement II: B alone takes 30 days.", "as": "A আৰু B একেলগে কিমান দিন লাগিব? বিবৃতি I: A অকলেই 20 দিন লাগে। বিবৃতি II: B অকলেই 30 দিন লাগে।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "speed-distance",
+      "q": { "en": "What is the speed of the train? Statement I: The train covers 300 km. Statement II: It takes 5 hours to cover the distance.", "as": "ৰেলগাড়ীখনৰ গতি কিমান? বিবৃতি I: ৰেলগাড়ীখনে 300 কিঃমিঃ যায়। বিবৃতি II: দূৰত্বটো অতিক্ৰম কৰিবলৈ 5 ঘণ্টা লাগে।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "age",
+      "q": { "en": "What is the present age of A? Statement I: 5 years ago, A's age was 20 years. Statement II: A's brother is 15 years old.", "as": "A ৰ বৰ্তমান বয়স কিমান? বিবৃতি I: 5 বছৰ আগতে A ৰ বয়স আছিল 20 বছৰ। বিবৃতি II: A ৰ ভায়েকৰ বয়স 15 বছৰ।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "age",
+      "q": { "en": "What is the age of B? Statement I: A is 24 years old. Statement II: B's age is half of A's age.", "as": "B ৰ বয়স কিমান? বিবৃতি I: A ৰ বয়স 24 বছৰ। বিবৃতি II: B ৰ বয়স A ৰ বয়সৰ আধা।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "number",
+      "q": { "en": "Find the two numbers. Statement I: Their sum is 12. Statement II: Their product is 35.", "as": "দুটা সংখ্যা নিৰ্ণয় কৰক। বিবৃতি I: ইহঁতৰ যোগফল 12। বিবৃতি II: ইহঁতৰ পূৰণফল 35।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "number",
+      "q": { "en": "Is x an even number? Statement I: x is divisible by 4. Statement II: y is an odd number.", "as": "x এটা জোৰ সংখ্যা নেকি? বিবৃতি I: x, 4 ৰে বিভাজ্য। বিবৃতি II: y এটা বিজোড় সংখ্যা।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "number",
+      "q": { "en": "Is the number divisible by 15? Statement I: It is divisible by 3. Statement II: It is divisible by 5.", "as": "সংখ্যাটো 15 ৰে বিভাজ্য নেকি? বিবৃতি I: ই 3 ৰে বিভাজ্য। বিবৃতি II: ই 5 ৰে বিভাজ্য।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "comparison",
+      "q": { "en": "Who is the shortest among A, B and C? Statement I: A is taller than B. Statement II: B is taller than C.", "as": "A, B আৰু C ৰ ভিতৰত কোনজন আটাইতকৈ চাপৰ? বিবৃতি I: A, B তকৈ ওখ। বিবৃতি II: B, C তকৈ ওখ।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "age",
+      "q": { "en": "What is the age of the father? Statement I: The sum of the ages of father and son is 60. Statement II: The father is 4 times as old as the son.", "as": "পিতৃৰ বয়স কিমান? বিবৃতি I: পিতৃ আৰু পুত্রৰ বয়সৰ যোগফল 60। বিবৃতি II: পিতৃৰ বয়স পুত্রৰ বয়সৰ 4 গুণ।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "number",
+      "q": { "en": "What is the number? Statement I: Twice the number is 20. Statement II: The number is even.", "as": "সংখ্যাটো কিমান? বিবৃতি I: সংখ্যাটোৰ দুগুণ 20। বিবৃতি II: সংখ্যাটো জোৰ।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "number",
+      "q": { "en": "What are the passing marks? Statement I: A student scored 40 marks and failed by 10 marks. Statement II: The maximum marks are 100.", "as": "পাছ নম্বৰ কিমান? বিবৃতি I: এজন ছাত্ৰই 40 নম্বৰ পাই 10 নম্বৰেৰে ফেইল হয়। বিবৃতি II: সর্বোচ্চ নম্বৰ 100।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "equation",
+      "q": { "en": "What is the value of x? Statement I: x + y = 10. Statement II: x − y = 4.", "as": "x ৰ মান কিমান? বিবৃতি I: x + y = 10। বিবৃতি II: x − y = 4।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "equation",
+      "q": { "en": "What is the value of y? Statement I: x + y = 15. Statement II: x − y = 5.", "as": "y ৰ মান কিমান? বিবৃতি I: x + y = 15। বিবৃতি II: x − y = 5।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "equation",
+      "q": { "en": "What is the value of x? Statement I: x² = 16. Statement II: x > 0.", "as": "x ৰ মান কিমান? বিবৃতি I: x² = 16। বিবৃতি II: x > 0।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "area",
+      "q": { "en": "What is the area of the rectangle? Statement I: Its length is 8 cm. Statement II: Its breadth is 5 cm.", "as": "আয়তক্ষেত্ৰটোৰ কালি কিমান? বিবৃতি I: ইয়াৰ দীঘ 8 চেঃমিঃ। বিবৃতি II: ইয়াৰ প্ৰস্থ 5 চেঃমিঃ।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "area",
+      "q": { "en": "What is the perimeter of the square? Statement I: Its side is 6 cm. Statement II: Its diagonal is 6√2 cm.", "as": "বৰ্গক্ষেত্ৰটোৰ পৰিসীমা কিমান? বিবৃতি I: ইয়াৰ বাহু 6 চেঃমিঃ। বিবৃতি II: ইয়াৰ কৰ্ণ 6√2 চেঃমিঃ।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "age",
+      "q": { "en": "What are the present ages of A and B? Statement I: A is 4 years older than B. Statement II: The sum of their ages is 30.", "as": "A আৰু B ৰ বৰ্তমান বয়স কিমান? বিবৃতি I: A, B তকৈ 4 বছৰ ডাঙৰ। বিবৃতি II: ইহঁতৰ বয়সৰ যোগফল 30।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "comparison",
+      "q": { "en": "Is x greater than y? Statement I: x is greater than z. Statement II: y is greater than z.", "as": "x, y তকৈ ডাঙৰ নেকি? বিবৃতি I: x, z তকৈ ডাঙৰ। বিবৃতি II: y, z তকৈ ডাঙৰ।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "E"
+    },
+    {
+      "type": "number",
+      "q": { "en": "What is the number? Statement I: The number is greater than 20. Statement II: The number is less than 30.", "as": "সংখ্যাটো কিমান? বিবৃতি I: সংখ্যাটো 20 তকৈ ডাঙৰ। বিবৃতি II: সংখ্যাটো 30 তকৈ সৰু।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "E"
+    },
+    {
+      "type": "speed-distance",
+      "q": { "en": "What is the distance between the two towns? Statement I: A train covers the distance at 60 km/h. Statement II: The train takes 3 hours to cover the distance.", "as": "দুখন চহৰৰ মাজৰ দূৰত্ব কিমান? বিবৃতি I: ৰেলগাড়ীখনে 60 কিঃমিঃ/ঘণ্টা বেগেৰে দূৰত্বটো অতিক্ৰম কৰে। বিবৃতি II: দূৰত্বটো অতিক্ৰম কৰিবলৈ 3 ঘণ্টা লাগে।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "profit-loss",
+      "q": { "en": "What is the cost price of the article? Statement I: Its selling price is ₹450. Statement II: The profit is ₹50.", "as": "বস্তুটোৰ কিনিময় মূল্য কিমান? বিবৃতি I: ইয়াৰ বিক্ৰী মূল্য ₹450। বিবৃতি II: লাভ ₹50।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "equation",
+      "q": { "en": "What is the value of x? Statement I: x = y + 2 and y = 3. Statement II: x = 5.", "as": "x ৰ মান কিমান? বিবৃতি I: x = y + 2 আৰু y = 3। বিবৃতি II: x = 5।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "number",
+      "q": { "en": "Is x divisible by 6? Statement I: x is an even number. Statement II: x is divisible by 3.", "as": "x, 6 ৰে বিভাজ্য নেকি? বিবৃতি I: x এটা জোৰ সংখ্যা। বিবৃতি II: x, 3 ৰে বিভাজ্য।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "miscellaneous",
+      "q": { "en": "What is the color of the car? Statement I: The car is not red. Statement II: The car is either black or white.", "as": "গাড়ীখনৰ ৰং কি? বিবৃতি I: গাড়ীখন ৰঙা নহয়। বিবৃতি II: গাড়ীখন ক'লা নে বগা।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "E"
+    },
+    {
+      "type": "number",
+      "q": { "en": "What is the sum of the two numbers? Statement I: Their difference is 4. Statement II: The larger number is 10.", "as": "দুটা সংখ্যাৰ যোগফল কিমান? বিবৃতি I: ইহঁতৰ পাৰ্থক্য 4। বিবৃতি II: ডাঙৰ সংখ্যাটো 10।" },
+      "options": [
+        { "option": "A", "en": "Only statement I alone is sufficient", "as": "কেৱল বিবৃতি I অকলেই পৰ্যাপ্ত" },
+        { "option": "B", "en": "Only statement II alone is sufficient", "as": "কেৱল বিবৃতি II অকলেই পৰ্যাপ্ত" },
+        { "option": "C", "en": "Either statement I or II alone is sufficient", "as": "বিবৃতি I অকলেই বা II অকলেই পৰ্যাপ্ত" },
+        { "option": "D", "en": "Both statements I and II together are sufficient", "as": "বিবৃতি I আৰু II দুয়োটাকে একেলগে লাগি পৰ্যাপ্ত" },
+        { "option": "E", "en": "Neither statement I nor II is sufficient", "as": "বিবৃতি I নে II কোনোটোৱেই পৰ্যাপ্ত নহয়" }
+      ],
+      "a": "D"
+    }
+  ]
+}
