@@ -1,0 +1,891 @@
+{
+  "id": "alphanumeric_series",
+  "title": {
+    "en": "Alpha-Numeric Series (Assam Competitive Exams)",
+    "as": "বৰ্ণ-সংখ্যা শৃংখলা (অসম প্ৰতিযোগিতামূলক পৰীক্ষা)"
+  },
+  "description": {
+    "en": "Find the next term in series that combine letters and numbers. Covers letter-number pairing, mixed sequences, and pattern-based alpha-numeric series.",
+    "as": "বৰ্ণ আৰু সংখ্যা মিলি থকা শৃংখলাটোৰ পৰৱৰ্তী পদটো বিচাৰক। বৰ্ণ-সংখ্যা যোড়া, মিশ্র অনুক্রম আৰু আৰ্হি-ভিত্তিক শৃংখলা সামৰি লোৱা হৈছে।"
+  },
+  "tags": [
+    "reasoning",
+    "alphanumeric",
+    "series",
+    "যুক্তি",
+    "বৰ্ণ-সংখ্যা"
+  ],
+  "pdf": null,
+  "questions": [
+    {
+      "type": "letter_number",
+      "q": {
+        "en": "Find the next term: A1, B2, C3, D4, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: A1, B2, C3, D4, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "E5",
+          "as": "E5"
+        },
+        {
+          "option": "B",
+          "en": "F5",
+          "as": "F5"
+        },
+        {
+          "option": "C",
+          "en": "E6",
+          "as": "E6"
+        },
+        {
+          "option": "D",
+          "en": "D5",
+          "as": "D5"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "letter_number",
+      "q": {
+        "en": "Find the next term: A2, C4, E6, G8, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: A2, C4, E6, G8, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "H10",
+          "as": "H10"
+        },
+        {
+          "option": "B",
+          "en": "I10",
+          "as": "I10"
+        },
+        {
+          "option": "C",
+          "en": "I12",
+          "as": "I12"
+        },
+        {
+          "option": "D",
+          "en": "J10",
+          "as": "J10"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "letter_number",
+      "q": {
+        "en": "Find the next term: Z26, Y25, X24, W23, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: Z26, Y25, X24, W23, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "V22",
+          "as": "V22"
+        },
+        {
+          "option": "B",
+          "en": "U22",
+          "as": "U22"
+        },
+        {
+          "option": "C",
+          "en": "V21",
+          "as": "V21"
+        },
+        {
+          "option": "D",
+          "en": "U21",
+          "as": "U21"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "letter_number",
+      "q": {
+        "en": "Find the next term: 1A, 2B, 3C, 4D, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: 1A, 2B, 3C, 4D, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "6E",
+          "as": "6E"
+        },
+        {
+          "option": "B",
+          "en": "5E",
+          "as": "5E"
+        },
+        {
+          "option": "C",
+          "en": "5F",
+          "as": "5F"
+        },
+        {
+          "option": "D",
+          "en": "6F",
+          "as": "6F"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "letter_number",
+      "q": {
+        "en": "Find the next term: 1Z, 2Y, 3X, 4W, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: 1Z, 2Y, 3X, 4W, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "5U",
+          "as": "5U"
+        },
+        {
+          "option": "B",
+          "en": "6V",
+          "as": "6V"
+        },
+        {
+          "option": "C",
+          "en": "5V",
+          "as": "5V"
+        },
+        {
+          "option": "D",
+          "en": "6U",
+          "as": "6U"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "letter_number",
+      "q": {
+        "en": "Find the next term: M13, N14, O15, P16, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: M13, N14, O15, P16, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "R17",
+          "as": "R17"
+        },
+        {
+          "option": "B",
+          "en": "Q18",
+          "as": "Q18"
+        },
+        {
+          "option": "C",
+          "en": "Q17",
+          "as": "Q17"
+        },
+        {
+          "option": "D",
+          "en": "R18",
+          "as": "R18"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next term: A1, B3, C5, D7, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: A1, B3, C5, D7, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "E9",
+          "as": "E9"
+        },
+        {
+          "option": "B",
+          "en": "E8",
+          "as": "E8"
+        },
+        {
+          "option": "C",
+          "en": "F9",
+          "as": "F9"
+        },
+        {
+          "option": "D",
+          "en": "E10",
+          "as": "E10"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next term: B2, D4, F6, H8, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: B2, D4, F6, H8, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "I10",
+          "as": "I10"
+        },
+        {
+          "option": "B",
+          "en": "J10",
+          "as": "J10"
+        },
+        {
+          "option": "C",
+          "en": "K10",
+          "as": "K10"
+        },
+        {
+          "option": "D",
+          "en": "J12",
+          "as": "J12"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next term: A1B, C3D, E5F, G7H, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: A1B, C3D, E5F, G7H, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "I9J",
+          "as": "I9J"
+        },
+        {
+          "option": "B",
+          "en": "I8J",
+          "as": "I8J"
+        },
+        {
+          "option": "C",
+          "en": "J9I",
+          "as": "J9I"
+        },
+        {
+          "option": "D",
+          "en": "H9I",
+          "as": "H9I"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next term: 1A2, 3B4, 5C6, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: 1A2, 3B4, 5C6, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "7D8",
+          "as": "7D8"
+        },
+        {
+          "option": "B",
+          "en": "8D7",
+          "as": "8D7"
+        },
+        {
+          "option": "C",
+          "en": "7E8",
+          "as": "7E8"
+        },
+        {
+          "option": "D",
+          "en": "7D9",
+          "as": "7D9"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next term: A1, C4, E9, G16, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: A1, C4, E9, G16, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "I25",
+          "as": "I25"
+        },
+        {
+          "option": "B",
+          "en": "H25",
+          "as": "H25"
+        },
+        {
+          "option": "C",
+          "en": "I20",
+          "as": "I20"
+        },
+        {
+          "option": "D",
+          "en": "J25",
+          "as": "J25"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next term: 2A, 4C, 6E, 8G, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: 2A, 4C, 6E, 8G, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "10I",
+          "as": "10I"
+        },
+        {
+          "option": "B",
+          "en": "10H",
+          "as": "10H"
+        },
+        {
+          "option": "C",
+          "en": "12I",
+          "as": "12I"
+        },
+        {
+          "option": "D",
+          "en": "9I",
+          "as": "9I"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "pattern",
+      "q": {
+        "en": "Find the next term: A1, B2, D4, G7, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: A1, B2, D4, G7, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "K11",
+          "as": "K11"
+        },
+        {
+          "option": "B",
+          "en": "J11",
+          "as": "J11"
+        },
+        {
+          "option": "C",
+          "en": "K12",
+          "as": "K12"
+        },
+        {
+          "option": "D",
+          "en": "L11",
+          "as": "L11"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "pattern",
+      "q": {
+        "en": "Find the next term: Z9, X8, V7, T6, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: Z9, X8, V7, T6, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "R5",
+          "as": "R5"
+        },
+        {
+          "option": "B",
+          "en": "S5",
+          "as": "S5"
+        },
+        {
+          "option": "C",
+          "en": "R4",
+          "as": "R4"
+        },
+        {
+          "option": "D",
+          "en": "Q5",
+          "as": "Q5"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "pattern",
+      "q": {
+        "en": "Find the next term: P4, N8, L12, J16, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: P4, N8, L12, J16, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "G20",
+          "as": "G20"
+        },
+        {
+          "option": "B",
+          "en": "H20",
+          "as": "H20"
+        },
+        {
+          "option": "C",
+          "en": "H18",
+          "as": "H18"
+        },
+        {
+          "option": "D",
+          "en": "G18",
+          "as": "G18"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next term: A1, B4, C9, D16, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: A1, B4, C9, D16, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "E25",
+          "as": "E25"
+        },
+        {
+          "option": "B",
+          "en": "F25",
+          "as": "F25"
+        },
+        {
+          "option": "C",
+          "en": "E36",
+          "as": "E36"
+        },
+        {
+          "option": "D",
+          "en": "D25",
+          "as": "D25"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next term: A2, D4, G6, J8, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: A2, D4, G6, J8, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "L10",
+          "as": "L10"
+        },
+        {
+          "option": "B",
+          "en": "M10",
+          "as": "M10"
+        },
+        {
+          "option": "C",
+          "en": "K10",
+          "as": "K10"
+        },
+        {
+          "option": "D",
+          "en": "M12",
+          "as": "M12"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next term: 1Z, 3X, 5V, 7T, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: 1Z, 3X, 5V, 7T, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "8R",
+          "as": "8R"
+        },
+        {
+          "option": "B",
+          "en": "9R",
+          "as": "9R"
+        },
+        {
+          "option": "C",
+          "en": "9S",
+          "as": "9S"
+        },
+        {
+          "option": "D",
+          "en": "8S",
+          "as": "8S"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next term: B2, E5, H8, K11, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: B2, E5, H8, K11, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "N14",
+          "as": "N14"
+        },
+        {
+          "option": "B",
+          "en": "M14",
+          "as": "M14"
+        },
+        {
+          "option": "C",
+          "en": "N15",
+          "as": "N15"
+        },
+        {
+          "option": "D",
+          "en": "M15",
+          "as": "M15"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next term: A1, C2, E3, G4, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: A1, C2, E3, G4, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "I5",
+          "as": "I5"
+        },
+        {
+          "option": "B",
+          "en": "H5",
+          "as": "H5"
+        },
+        {
+          "option": "C",
+          "en": "I6",
+          "as": "I6"
+        },
+        {
+          "option": "D",
+          "en": "H6",
+          "as": "H6"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next term: Z1, Y2, X3, W4, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: Z1, Y2, X3, W4, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "V5",
+          "as": "V5"
+        },
+        {
+          "option": "B",
+          "en": "U5",
+          "as": "U5"
+        },
+        {
+          "option": "C",
+          "en": "V6",
+          "as": "V6"
+        },
+        {
+          "option": "D",
+          "en": "U6",
+          "as": "U6"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next term: 1A, 2C, 3E, 4G, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: 1A, 2C, 3E, 4G, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "5I",
+          "as": "5I"
+        },
+        {
+          "option": "B",
+          "en": "6I",
+          "as": "6I"
+        },
+        {
+          "option": "C",
+          "en": "5H",
+          "as": "5H"
+        },
+        {
+          "option": "D",
+          "en": "6H",
+          "as": "6H"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next term: A1, B3, C6, D10, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: A1, B3, C6, D10, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "E15",
+          "as": "E15"
+        },
+        {
+          "option": "B",
+          "en": "E14",
+          "as": "E14"
+        },
+        {
+          "option": "C",
+          "en": "F15",
+          "as": "F15"
+        },
+        {
+          "option": "D",
+          "en": "E16",
+          "as": "E16"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next term: M1, N3, P5, S7, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: M1, N3, P5, S7, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "V9",
+          "as": "V9"
+        },
+        {
+          "option": "B",
+          "en": "W9",
+          "as": "W9"
+        },
+        {
+          "option": "C",
+          "en": "W8",
+          "as": "W8"
+        },
+        {
+          "option": "D",
+          "en": "V8",
+          "as": "V8"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next term: A10, C9, E8, G7, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: A10, C9, E8, G7, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "I6",
+          "as": "I6"
+        },
+        {
+          "option": "B",
+          "en": "I5",
+          "as": "I5"
+        },
+        {
+          "option": "C",
+          "en": "H6",
+          "as": "H6"
+        },
+        {
+          "option": "D",
+          "en": "J6",
+          "as": "J6"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "letter_number",
+      "q": {
+        "en": "Find the next term: A1, B3, C5, D7, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: A1, B3, C5, D7, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "E9",
+          "as": "E9"
+        },
+        {
+          "option": "B",
+          "en": "F9",
+          "as": "F9"
+        },
+        {
+          "option": "C",
+          "en": "E8",
+          "as": "E8"
+        },
+        {
+          "option": "D",
+          "en": "F8",
+          "as": "F8"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "letter_number",
+      "q": {
+        "en": "Find the next term: 1B, 2D, 3F, 4H, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: 1B, 2D, 3F, 4H, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "5J",
+          "as": "5J"
+        },
+        {
+          "option": "B",
+          "en": "6J",
+          "as": "6J"
+        },
+        {
+          "option": "C",
+          "en": "5I",
+          "as": "5I"
+        },
+        {
+          "option": "D",
+          "en": "6I",
+          "as": "6I"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "letter_number",
+      "q": {
+        "en": "Find the next term: Z1, Y3, X5, W7, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: Z1, Y3, X5, W7, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "V9",
+          "as": "V9"
+        },
+        {
+          "option": "B",
+          "en": "U9",
+          "as": "U9"
+        },
+        {
+          "option": "C",
+          "en": "V8",
+          "as": "V8"
+        },
+        {
+          "option": "D",
+          "en": "U8",
+          "as": "U8"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "pattern",
+      "q": {
+        "en": "Find the next term: A2, B4, D8, G16, ?",
+        "as": "পৰৱৰ্তী পদ বিচাৰক: A2, B4, D8, G16, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "K32",
+          "as": "K32"
+        },
+        {
+          "option": "B",
+          "en": "J32",
+          "as": "J32"
+        },
+        {
+          "option": "C",
+          "en": "K30",
+          "as": "K30"
+        },
+        {
+          "option": "D",
+          "en": "J30",
+          "as": "J30"
+        }
+      ],
+      "a": "A"
+    }
+  ]
+}
