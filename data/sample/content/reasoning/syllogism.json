@@ -1,0 +1,229 @@
+{
+  "id": "syllogism",
+  "title": { "en": "Syllogism (Assam Competitive Exams)", "as": "চিল্লজিম/যুক্তিবাক্য (অসম প্ৰতিযোগিতামূলক পৰীক্ষা)" },
+  "description": { "en": "Given two statements, decide which conclusion logically follows. Covers All-Some, All-No, and Some-No syllogism patterns.", "as": "দুটা উক্তি দিয়া থাকে; কোন সিদ্ধান্ত যুক্তিযুক্তভাৱে আহে নির্ণয় কৰক। All-Some, All-No আৰু Some-No আৰ্হি সামৰি লোৱা হৈছে।" },
+  "tags": ["reasoning", "syllogism", "logic", "যুক্তি", "সিদ্ধান্ত"],
+  "pdf": null,
+  "questions": [
+    {
+      "type": "all_all",
+      "q": { "en": "Statements: All cats are animals. All animals are living beings. Conclusions: I. All cats are living beings. II. All living beings are cats.", "as": "উক্তি: All cats are animals. All animals are living beings. সিদ্ধান্ত: I. All cats are living beings. II. All living beings are cats." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "all_some",
+      "q": { "en": "Statements: All apples are fruits. Some fruits are sweet. Conclusions: I. Some apples are sweet. II. Some fruits are apples.", "as": "উক্তি: All apples are fruits. Some fruits are sweet. সিদ্ধান্ত: I. Some apples are sweet. II. Some fruits are apples." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "all_no",
+      "q": { "en": "Statements: All students are hardworking. No hardworking person is lazy. Conclusions: I. No student is lazy. II. All hardworking people are students.", "as": "উক্তি: All students are hardworking. No hardworking person is lazy. সিদ্ধান্ত: I. No student is lazy. II. All hardworking people are students." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "some_all",
+      "q": { "en": "Statements: Some boys are intelligent. All intelligent people are clever. Conclusions: I. Some boys are clever. II. All clever people are boys.", "as": "উক্তি: Some boys are intelligent. All intelligent people are clever. সিদ্ধান্ত: I. Some boys are clever. II. All clever people are boys." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "all_some",
+      "q": { "en": "Statements: All birds have wings. Some birds are parrots. Conclusions: I. Some parrots have wings. II. All parrots are birds.", "as": "উক্তি: All birds have wings. Some birds are parrots. সিদ্ধান্ত: I. Some parrots have wings. II. All parrots are birds." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "all_no",
+      "q": { "en": "Statements: All flowers are beautiful. No beautiful thing is ugly. Conclusions: I. No flower is ugly. II. Some flowers are ugly.", "as": "উক্তি: All flowers are beautiful. No beautiful thing is ugly. সিদ্ধান্ত: I. No flower is ugly. II. Some flowers are ugly." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "all_no",
+      "q": { "en": "Statements: All pens are stationery. No stationery is costly. Conclusions: I. No pen is costly. II. Some costly items are pens.", "as": "উক্তি: All pens are stationery. No stationery is costly. সিদ্ধান্ত: I. No pen is costly. II. Some costly items are pens." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "some_all",
+      "q": { "en": "Statements: Some teachers are men. All men are human. Conclusions: I. Some teachers are human. II. All teachers are men.", "as": "উক্তি: Some teachers are men. All men are human. সিদ্ধান্ত: I. Some teachers are human. II. All teachers are men." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "all_some",
+      "q": { "en": "Statements: All doctors are graduates. Some graduates are teachers. Conclusions: I. Some doctors are teachers. II. Some graduates are doctors.", "as": "উক্তি: All doctors are graduates. Some graduates are teachers. সিদ্ধান্ত: I. Some doctors are teachers. II. Some graduates are doctors." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "all_all",
+      "q": { "en": "Statements: All trees are plants. All plants are living things. Conclusions: I. All trees are living things. II. All living things are trees.", "as": "উক্তি: All trees are plants. All plants are living things. সিদ্ধান্ত: I. All trees are living things. II. All living things are trees." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "some_no",
+      "q": { "en": "Statements: Some pens are pencils. No pencil is an eraser. Conclusions: I. Some pens are not erasers. II. No pen is an eraser.", "as": "উক্তি: Some pens are pencils. No pencil is an eraser. সিদ্ধান্ত: I. Some pens are not erasers. II. No pen is an eraser." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "all_some",
+      "q": { "en": "Statements: All rings are circles. Some squares are circles. Conclusions: I. Some rings are squares. II. Some circles are squares.", "as": "উক্তি: All rings are circles. Some squares are circles. সিদ্ধান্ত: I. Some rings are squares. II. Some circles are squares." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "no_all",
+      "q": { "en": "Statements: No mango is an apple. All apples are fruits. Conclusions: I. No mango is a fruit. II. Some fruits are apples.", "as": "উক্তি: No mango is an apple. All apples are fruits. সিদ্ধান্ত: I. No mango is a fruit. II. Some fruits are apples." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "all_some",
+      "q": { "en": "Statements: All chairs are furniture. Some furniture is wooden. Conclusions: I. Some chairs are wooden. II. Some wooden things are furniture.", "as": "উক্তি: All chairs are furniture. Some furniture is wooden. সিদ্ধান্ত: I. Some chairs are wooden. II. Some wooden things are furniture." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "some_all",
+      "q": { "en": "Statements: Some birds are crows. All crows are black. Conclusions: I. Some birds are black. II. All black birds are crows.", "as": "উক্তি: Some birds are crows. All crows are black. সিদ্ধান্ত: I. Some birds are black. II. All black birds are crows." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "all_no",
+      "q": { "en": "Statements: All students are punctual. No punctual person is careless. Conclusions: I. No student is careless. II. Some careless people are students.", "as": "উক্তি: All students are punctual. No punctual person is careless. সিদ্ধান্ত: I. No student is careless. II. Some careless people are students." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "all_some",
+      "q": { "en": "Statements: All dogs are animals. Some animals are pets. Conclusions: I. Some dogs are pets. II. Some animals are dogs.", "as": "উক্তি: All dogs are animals. Some animals are pets. সিদ্ধান্ত: I. Some dogs are pets. II. Some animals are dogs." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "no_all",
+      "q": { "en": "Statements: No cat is a dog. All dogs are animals. Conclusions: I. No cat is an animal. II. Some animals are dogs.", "as": "উক্তি: No cat is a dog. All dogs are animals. সিদ্ধান্ত: I. No cat is an animal. II. Some animals are dogs." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "some_no",
+      "q": { "en": "Statements: Some fruits are mangoes. No mango is a vegetable. Conclusions: I. Some fruits are not vegetables. II. All fruits are mangoes.", "as": "উক্তি: Some fruits are mangoes. No mango is a vegetable. সিদ্ধান্ত: I. Some fruits are not vegetables. II. All fruits are mangoes." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "all_all",
+      "q": { "en": "Statements: All rivers are water bodies. All water bodies are natural. Conclusions: I. All rivers are natural. II. All natural things are rivers.", "as": "উক্তি: All rivers are water bodies. All water bodies are natural. সিদ্ধান্ত: I. All rivers are natural. II. All natural things are rivers." },
+      "options": [
+        { "option": "A", "en": "Only I follows", "as": "কেৱল I আহে" },
+        { "option": "B", "en": "Only II follows", "as": "কেৱল II আহে" },
+        { "option": "C", "en": "Both follow", "as": "দুয়োটাই আহে" },
+        { "option": "D", "en": "Neither follows", "as": "একোটাৱেই নাহে" }
+      ],
+      "a": "A"
+    }
+  ]
+}
