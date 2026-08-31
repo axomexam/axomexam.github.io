@@ -1,0 +1,229 @@
+{
+  "id": "order_ranking",
+  "title": { "en": "Order & Ranking (Assam Competitive Exams)", "as": "ক্রম আৰু ৰেংকিং (অসম প্ৰতিযোগিতামূলক পৰীক্ষা)" },
+  "description": { "en": "Find total students, positions from either end, and arrange people by height, age, marks or weight.", "as": "মুঠ শিক্ষার্থী, যিকোনো ফালৰ পৰা স্থান নিৰ্ণয়, আৰু উচ্চতা, বয়স, নম্বৰ বা ওজন অনুসৰি সজোৱা।" },
+  "tags": ["reasoning", "order", "ranking", "যুক্তি", "ক্রম"],
+  "pdf": null,
+  "questions": [
+    {
+      "type": "row",
+      "q": { "en": "In a row, Ramesh is 7th from the left and 9th from the right. How many people are in the row?", "as": "এটা শাৰীত ৰামেশ্বৰ বাওঁ ফালৰ পৰা 7ম আৰু সোঁ ফালৰ পৰা 9ম। শাৰীত মুঠ কিমানজন আছে?" },
+      "options": [
+        { "option": "A", "en": "16", "as": "১৬" },
+        { "option": "B", "en": "15", "as": "১৫" },
+        { "option": "C", "en": "17", "as": "১৭" },
+        { "option": "D", "en": "14", "as": "১৪" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "row",
+      "q": { "en": "In a row of 20 students, A is 8th from the left. What is his position from the right?", "as": "20 জন শিক্ষার্থীৰ শাৰীত A বাওঁ ফালৰ পৰা 8ম। সোঁ ফালৰ পৰা তেওঁৰ স্থান কিমান?" },
+      "options": [
+        { "option": "A", "en": "13th", "as": "১৩ম" },
+        { "option": "B", "en": "12th", "as": "১২ম" },
+        { "option": "C", "en": "11th", "as": "১১ম" },
+        { "option": "D", "en": "14th", "as": "১৪ম" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "rank",
+      "q": { "en": "Rohan is 12th from the top and 15th from the bottom in a merit list. How many students are there?", "as": "এটা মেৰিট তালিকাত ৰোহন ওপৰৰ পৰা 12ম আৰু তলৰ পৰা 15ম। মুঠ কিমানজন শিক্ষার্থী আছে?" },
+      "options": [
+        { "option": "A", "en": "27", "as": "২৭" },
+        { "option": "B", "en": "25", "as": "২৫" },
+        { "option": "C", "en": "26", "as": "২৬" },
+        { "option": "D", "en": "28", "as": "২৮" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "queue",
+      "q": { "en": "A person is 10th from both ends of a queue. How many people are in the queue?", "as": "এটা শাৰীত এজন ব্যক্তি দুয়ো ফালৰ পৰা 10ম। শাৰীত মুঠ কিমানজন আছে?" },
+      "options": [
+        { "option": "A", "en": "20", "as": "২০" },
+        { "option": "B", "en": "21", "as": "২১" },
+        { "option": "C", "en": "19", "as": "১৯" },
+        { "option": "D", "en": "18", "as": "১৮" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "rank",
+      "q": { "en": "In a class of 40, a student's rank from the top is 5. What is his rank from the bottom?", "as": "40 জনৰ শ্ৰেণীত এজন শিক্ষার্থীৰ ওপৰৰ পৰা ৰেংক 5। তলৰ পৰা তেওঁৰ ৰেংক কিমান?" },
+      "options": [
+        { "option": "A", "en": "35", "as": "৩৫" },
+        { "option": "B", "en": "34", "as": "৩৪" },
+        { "option": "C", "en": "36", "as": "৩৬" },
+        { "option": "D", "en": "33", "as": "৩৩" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "comparison",
+      "q": { "en": "A is older than B. B is older than C. C is older than D. Who is the youngest?", "as": "A, B তকৈ ডাঙৰ। B, C তকৈ ডাঙৰ। C, D তকৈ ডাঙৰ। সৰুতম কোন?" },
+      "options": [
+        { "option": "A", "en": "A", "as": "A" },
+        { "option": "B", "en": "B", "as": "B" },
+        { "option": "C", "en": "C", "as": "C" },
+        { "option": "D", "en": "D", "as": "D" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "comparison",
+      "q": { "en": "Among P, Q and R: P is heavier than Q and R. Who is the heaviest?", "as": "P, Q আৰু R ৰ মাজত: P, Q আৰু R দুয়োতকৈ ওজনদাৰ। সৰ্বাধিক ওজনদাৰ কোন?" },
+      "options": [
+        { "option": "A", "en": "P", "as": "P" },
+        { "option": "B", "en": "Q", "as": "Q" },
+        { "option": "C", "en": "R", "as": "R" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "row",
+      "q": { "en": "In a row of girls, Kavita is 5th from the left and 12th from the right. How many girls are there?", "as": "ছোৱালীৰ শাৰীত কবিতা বাওঁ ফালৰ পৰা 5ম আৰু সোঁ ফালৰ পৰা 12ম। মুঠ কিমানজনী ছোৱালী আছে?" },
+      "options": [
+        { "option": "A", "en": "17", "as": "১৭" },
+        { "option": "B", "en": "16", "as": "১৬" },
+        { "option": "C", "en": "15", "as": "১৫" },
+        { "option": "D", "en": "18", "as": "১৮" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "comparison",
+      "q": { "en": "Five boys: A is taller than B, B taller than C, C taller than D, D taller than E. Who is the second tallest?", "as": "পাঁচজন ল'ৰা: A, B তকৈ ওখ; B, C তকৈ ওখ; C, D তকৈ ওখ; D, E তকৈ ওখ। দ্বিতীয় সৰ্বোচ্চ কোন?" },
+      "options": [
+        { "option": "A", "en": "A", "as": "A" },
+        { "option": "B", "en": "B", "as": "B" },
+        { "option": "C", "en": "C", "as": "C" },
+        { "option": "D", "en": "D", "as": "D" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "rank",
+      "q": { "en": "In a row of 25 students, if the position from the left is 10, what is the position from the right?", "as": "25 জন শিক্ষার্থীৰ শাৰীত বাওঁ ফালৰ পৰা স্থান 10 হ'লে সোঁ ফালৰ পৰা স্থান কিমান?" },
+      "options": [
+        { "option": "A", "en": "15", "as": "১৫" },
+        { "option": "B", "en": "16", "as": "১৬" },
+        { "option": "C", "en": "14", "as": "১৪" },
+        { "option": "D", "en": "17", "as": "১৭" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "comparison",
+      "q": { "en": "A, B, C, D, E are arranged by marks as A > B > C > D > E. Who got the highest marks?", "as": "A, B, C, D, E নম্বৰ অনুসৰি A > B > C > D > E হিচাপে সজোৱা হয়। সৰ্বাধিক নম্বৰ কোনে পাইছে?" },
+      "options": [
+        { "option": "A", "en": "A", "as": "A" },
+        { "option": "B", "en": "E", "as": "E" },
+        { "option": "C", "en": "C", "as": "C" },
+        { "option": "D", "en": "B", "as": "B" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "rank",
+      "q": { "en": "Riya ranks 4th from the top and 6th from the bottom in a class. How many students are in the class?", "as": "শ্ৰেণীত ৰিয়া ওপৰৰ পৰা 4থ আৰু তলৰ পৰা 6ষ্ঠ। শ্ৰেণীত মুঠ কিমানজন শিক্ষার্থী আছে?" },
+      "options": [
+        { "option": "A", "en": "9", "as": "৯" },
+        { "option": "B", "en": "10", "as": "১০" },
+        { "option": "C", "en": "8", "as": "৮" },
+        { "option": "D", "en": "11", "as": "১১" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "queue",
+      "q": { "en": "In a queue of 30 people, X is 18th from the front. What is his position from the back?", "as": "30 জনৰ শাৰীত X সন্মুখৰ পৰা 18ম। পিছফালৰ পৰা তেওঁৰ স্থান কিমান?" },
+      "options": [
+        { "option": "A", "en": "12", "as": "১২" },
+        { "option": "B", "en": "13", "as": "১৩" },
+        { "option": "C", "en": "11", "as": "১১" },
+        { "option": "D", "en": "14", "as": "১৪" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "comparison",
+      "q": { "en": "R is richer than S. T is richer than R. Who is the richest among R, S, T?", "as": "R, S তকৈ ধনী। T, R তকৈ ধনী। R, S, T ৰ ভিতৰত সৰ্বাধিক ধনী কোন?" },
+      "options": [
+        { "option": "A", "en": "R", "as": "R" },
+        { "option": "B", "en": "S", "as": "S" },
+        { "option": "C", "en": "T", "as": "T" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "comparison",
+      "q": { "en": "A is shorter than B but taller than C. Among A, B and C, who is the shortest?", "as": "A, B তকৈ চুটি কিন্তু C তকৈ ওখ। A, B, C ৰ ভিতৰত সৰ্বাপেক্ষা চুটি কোন?" },
+      "options": [
+        { "option": "A", "en": "A", "as": "A" },
+        { "option": "B", "en": "B", "as": "B" },
+        { "option": "C", "en": "C", "as": "C" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "row",
+      "q": { "en": "In a row, if A is 6th from the left and B is 8th from the right, and there are 5 persons between A and B, how many people are in the row?", "as": "শাৰীত A বাওঁ ফালৰ পৰা 6ষ্ঠ আৰু B সোঁ ফালৰ পৰা 8ম, A আৰু B ৰ মাজত 5 জন থাকিলে শাৰীত মুঠ কিমানজন আছে?" },
+      "options": [
+        { "option": "A", "en": "19", "as": "১৯" },
+        { "option": "B", "en": "18", "as": "১৮" },
+        { "option": "C", "en": "20", "as": "২০" },
+        { "option": "D", "en": "17", "as": "১৭" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "comparison",
+      "q": { "en": "Among five friends, P is taller than Q and R. S is taller than P but shorter than T. Who is the tallest?", "as": "পাঁচজন বন্ধুৰ ভিতৰত P, Q আৰু R তকৈ ওখ। S, P তকৈ ওখ কিন্তু T তকৈ চুটি। সৰ্বাধিক ওখ কোন?" },
+      "options": [
+        { "option": "A", "en": "P", "as": "P" },
+        { "option": "B", "en": "S", "as": "S" },
+        { "option": "C", "en": "T", "as": "T" },
+        { "option": "D", "en": "R", "as": "R" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "rank",
+      "q": { "en": "In a class of 50, if a student ranks 10th from the bottom, what is his rank from the top?", "as": "50 জনৰ শ্ৰেণীত এজন শিক্ষার্থী তলৰ পৰা 10ম ৰেংকত থাকিলে ওপৰৰ পৰা তেওঁৰ ৰেংক কিমান?" },
+      "options": [
+        { "option": "A", "en": "40", "as": "৪০" },
+        { "option": "B", "en": "41", "as": "৪১" },
+        { "option": "C", "en": "39", "as": "৩৯" },
+        { "option": "D", "en": "42", "as": "৪২" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "row",
+      "q": { "en": "A row of 15 people: X is 5th from the left. How many people are to his right?", "as": "15 জনৰ শাৰীত X বাওঁ ফালৰ পৰা 5ম। তেওঁৰ সোঁ ফালে কিমানজন আছে?" },
+      "options": [
+        { "option": "A", "en": "9", "as": "৯" },
+        { "option": "B", "en": "10", "as": "১০" },
+        { "option": "C", "en": "11", "as": "১১" },
+        { "option": "D", "en": "8", "as": "৮" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "comparison",
+      "q": { "en": "Mango is sweeter than Apple. Apple is sweeter than Guava. Which fruit is the least sweet?", "as": "আম আপেলতকৈ মিঠা। আপেল গুৱাৱাতকৈ মিঠা। কোনটো ফল আটাইতকৈ কম মিঠা?" },
+      "options": [
+        { "option": "A", "en": "Mango", "as": "আম" },
+        { "option": "B", "en": "Apple", "as": "আপেল" },
+        { "option": "C", "en": "Guava", "as": "গুৱাৱা" },
+        { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
+      ],
+      "a": "C"
+    }
+  ]
+}
