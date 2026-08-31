@@ -1,0 +1,240 @@
+{
+  "id": "direction_distance",
+  "title": { "en": "Direction & Distance Test (Assam Competitive Exams)", "as": "দিশ আৰু দূৰত্ব পৰীক্ষা (অসম প্ৰতিযোগিতামূলক পৰীক্ষা)" },
+  "description": { "en": "Solve direction-facing puzzles, walking-path problems, and shadow-direction questions using compass logic and Pythagoras distance.", "as": "কম্পাছ যুক্তি আৰু পাইথাগোৰাছ দূৰত্ব ব্যৱহাৰ কৰি দিশ-মুখী, খোজ-পথ আৰু ছাঁ-দিশৰ সমস্যা সমাধান কৰক।" },
+  "tags": ["reasoning", "direction", "distance", "যুক্তি", "দিশ"],
+  "pdf": null,
+  "questions": [
+    {
+      "type": "direction",
+      "q": { "en": "A man walks 5 km towards North, then turns right and walks 3 km. In which direction is he from his starting point?", "as": "এজন মানুহে 5 কিঃমিঃ উত্তৰলৈ খোজ কাঢ়ি তাৰ পিছত সোঁ হাতলৈ ঘূৰি 3 কিঃমিঃ খোজ কাঢ়ে। তেওঁ আৰম্ভণি স্থানৰ পৰা কোন দিশত আছে?" },
+      "options": [
+        { "option": "A", "en": "North-East", "as": "উত্তৰ-পূব" },
+        { "option": "B", "en": "North-West", "as": "উত্তৰ-পশ্চিম" },
+        { "option": "C", "en": "South-East", "as": "দক্ষিণ-পূব" },
+        { "option": "D", "en": "South-West", "as": "দক্ষিণ-পশ্চিম" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "direction",
+      "q": { "en": "Rohan walks 10 m North, turns left and walks 5 m, then turns left again and walks 10 m. How far and in which direction is he from the start?", "as": "ৰোহনে 10 মিটাৰ উত্তৰলৈ খোজ কাঢ়ি, বাওঁ হাতলৈ ঘূৰি 5 মিটাৰ, তাৰ পিছত আকৌ বাওঁ হাতলৈ ঘূৰি 10 মিটাৰ খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰ আৰু কোন দিশত আছে?" },
+      "options": [
+        { "option": "A", "en": "5 m East", "as": "5 মিটাৰ পূব" },
+        { "option": "B", "en": "5 m West", "as": "5 মিটাৰ পশ্চিম" },
+        { "option": "C", "en": "10 m East", "as": "10 মিটাৰ পূব" },
+        { "option": "D", "en": "10 m West", "as": "10 মিটাৰ পশ্চিম" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "direction",
+      "q": { "en": "A person facing North turns 90° clockwise. Which direction is he facing now?", "as": "এজন ব্যক্তি উত্তৰমুখী হৈ আছে; তেওঁ ঘড়ীৰ কাঁটাৰ দিশে 90° ঘূৰে। এতিয়া তেওঁ কোন দিশত মুখ কৰি আছে?" },
+      "options": [
+        { "option": "A", "en": "North", "as": "উত্তৰ" },
+        { "option": "B", "en": "East", "as": "পূব" },
+        { "option": "C", "en": "West", "as": "পশ্চিম" },
+        { "option": "D", "en": "South", "as": "দক্ষিণ" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "direction",
+      "q": { "en": "A person facing South turns 45° anticlockwise. Which direction is he facing now?", "as": "এজন ব্যক্তি দক্ষিণমুখী হৈ আছে; তেওঁ ঘড়ীৰ কাঁটাৰ বিপৰীত দিশে 45° ঘূৰে। এতিয়া তেওঁ কোন দিশত আছে?" },
+      "options": [
+        { "option": "A", "en": "South-East", "as": "দক্ষিণ-পূব" },
+        { "option": "B", "en": "North-East", "as": "উত্তৰ-পূব" },
+        { "option": "C", "en": "South-West", "as": "দক্ষিণ-পশ্চিম" },
+        { "option": "D", "en": "North-West", "as": "উত্তৰ-পশ্চিম" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "distance",
+      "q": { "en": "A person walks 4 km East, then 3 km North. What is the straight-line distance from the starting point?", "as": "এজন ব্যক্তিয়ে 4 কিঃমিঃ পূবলৈ, তাৰ পিছত 3 কিঃমিঃ উত্তৰলৈ খোজ কাঢ়ে। আৰম্ভণি স্থানৰ পৰা সৰল ৰেখা দূৰত্ব কিমান?" },
+      "options": [
+        { "option": "A", "en": "7 km", "as": "৭ কিঃমিঃ" },
+        { "option": "B", "en": "1 km", "as": "১ কিঃমিঃ" },
+        { "option": "C", "en": "5 km", "as": "৫ কিঃমিঃ" },
+        { "option": "D", "en": "12 km", "as": "১২ কিঃমিঃ" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "direction",
+      "q": { "en": "If A is to the North of B and C is to the East of B, in which direction is A from C?", "as": "যদি A, B ৰ উত্তৰত আৰু C, B ৰ পূবে থাকে, তেন্তে A, C ৰ পৰা কোন দিশত আছে?" },
+      "options": [
+        { "option": "A", "en": "North-East", "as": "উত্তৰ-পূব" },
+        { "option": "B", "en": "North-West", "as": "উত্তৰ-পশ্চিম" },
+        { "option": "C", "en": "South-East", "as": "দক্ষিণ-পূব" },
+        { "option": "D", "en": "South-West", "as": "দক্ষিণ-পশ্চিম" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "shadow",
+      "q": { "en": "The sun rises in the East. In the morning, a man's shadow falls in which direction?", "as": "সূৰ্য পূবত উদয় হয়। পুৱা এজন মানুহৰ ছাঁ কোন দিশত পৰে?" },
+      "options": [
+        { "option": "A", "en": "East", "as": "পূব" },
+        { "option": "B", "en": "West", "as": "পশ্চিম" },
+        { "option": "C", "en": "North", "as": "উত্তৰ" },
+        { "option": "D", "en": "South", "as": "দক্ষিণ" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "distance",
+      "q": { "en": "A man walks 30 m North, 20 m East, then 30 m South. How far is he from the start?", "as": "এজন মানুহে 30 মিটাৰ উত্তৰ, 20 মিটাৰ পূব, তাৰ পিছত 30 মিটাৰ দক্ষিণলৈ খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত আছে?" },
+      "options": [
+        { "option": "A", "en": "30 m West", "as": "৩০ মিটাৰ পশ্চিম" },
+        { "option": "B", "en": "20 m East", "as": "২০ মিটাৰ পূব" },
+        { "option": "C", "en": "30 m East", "as": "৩০ মিটাৰ পূব" },
+        { "option": "D", "en": "20 m West", "as": "২০ মিটাৰ পশ্চিম" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "direction",
+      "q": { "en": "A person facing North turns right, then right again, then right again. Which direction is he facing now?", "as": "এজন ব্যক্তি উত্তৰমুখী হৈ সোঁ হাতলৈ ঘূৰে, আকৌ সোঁ হাতলৈ, আকৌ সোঁ হাতলৈ ঘূৰে। এতিয়া তেওঁ কোন দিশত আছে?" },
+      "options": [
+        { "option": "A", "en": "East", "as": "পূব" },
+        { "option": "B", "en": "South", "as": "দক্ষিণ" },
+        { "option": "C", "en": "West", "as": "পশ্চিম" },
+        { "option": "D", "en": "North", "as": "উত্তৰ" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "direction",
+      "q": { "en": "A is 5 km East of B. C is 5 km North of A. In which direction is C from B?", "as": "A, B ৰ 5 কিঃমিঃ পূবত। C, A ৰ 5 কিঃমিঃ উত্তৰত। C, B ৰ পৰা কোন দিশত আছে?" },
+      "options": [
+        { "option": "A", "en": "North-East", "as": "উত্তৰ-পূব" },
+        { "option": "B", "en": "North-West", "as": "উত্তৰ-পশ্চিম" },
+        { "option": "C", "en": "South-East", "as": "দক্ষিণ-পূব" },
+        { "option": "D", "en": "South-West", "as": "দক্ষিণ-পশ্চিম" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "distance",
+      "q": { "en": "A man walks 10 km South, turns left and walks 10 km, then turns left again and walks 10 km. How far and in which direction is he from the start?", "as": "এজন মানুহে 10 কিঃমিঃ দক্ষিণলৈ, বাওঁ হাতলৈ ঘূৰি 10 কিঃমিঃ, আকৌ বাওঁ হাতলৈ ঘূৰি 10 কিঃমিঃ খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰ আৰু কোন দিশত আছে?" },
+      "options": [
+        { "option": "A", "en": "10 km East", "as": "১০ কিঃমিঃ পূব" },
+        { "option": "B", "en": "10 km West", "as": "১০ কিঃমিঃ পশ্চিম" },
+        { "option": "C", "en": "20 km East", "as": "২০ কিঃমিঃ পূব" },
+        { "option": "D", "en": "10 km South", "as": "১০ কিঃমিঃ দক্ষিণ" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "distance",
+      "q": { "en": "Two persons A and B start from the same point. A walks 10 m North and B walks 10 m South. What is the distance between them?", "as": "দুজন ব্যক্তি A আৰু B একে স্থানৰ পৰা আৰম্ভ কৰে। A 10 মিটাৰ উত্তৰলৈ আৰু B 10 মিটাৰ দক্ষিণলৈ খোজ কাঢ়ে। তেওঁলোকৰ মাজৰ দূৰত্ব কিমান?" },
+      "options": [
+        { "option": "A", "en": "10 m", "as": "১০ মিটাৰ" },
+        { "option": "B", "en": "15 m", "as": "১৫ মিটাৰ" },
+        { "option": "C", "en": "20 m", "as": "২০ মিটাৰ" },
+        { "option": "D", "en": "5 m", "as": "৫ মিটাৰ" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "distance",
+      "q": { "en": "A car travels 20 km North, 10 km West, then 20 km South. Where is it relative to the starting point?", "as": "এখন গাড়ীয়ে 20 কিঃমিঃ উত্তৰ, 10 কিঃমিঃ পশ্চিম, তাৰ পিছত 20 কিঃমিঃ দক্ষিণলৈ যায়। আৰম্ভণি স্থানৰ তুলনাত গাড়ীখন ক'ত আছে?" },
+      "options": [
+        { "option": "A", "en": "10 km East", "as": "১০ কিঃমিঃ পূব" },
+        { "option": "B", "en": "10 km West", "as": "১০ কিঃমিঃ পশ্চিম" },
+        { "option": "C", "en": "20 km West", "as": "২০ কিঃমিঃ পশ্চিম" },
+        { "option": "D", "en": "At the start point", "as": "আৰম্ভণি স্থানত" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "shadow",
+      "q": { "en": "In the evening, a man's shadow falls to his left. In which direction is he facing?", "as": "সন্ধ্যা বেলাত এজন মানুহৰ ছাঁ তেওঁৰ বাওঁ ফালে পৰে। তেওঁ কোন দিশত মুখ কৰি আছে?" },
+      "options": [
+        { "option": "A", "en": "North", "as": "উত্তৰ" },
+        { "option": "B", "en": "South", "as": "দক্ষিণ" },
+        { "option": "C", "en": "East", "as": "পূব" },
+        { "option": "D", "en": "West", "as": "পশ্চিম" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "distance",
+      "q": { "en": "A man walks 5 km North, turns right and walks 5 km, then turns right again and walks 5 km. How far is he from the start?", "as": "এজন মানুহে 5 কিঃমিঃ উত্তৰ, সোঁ হাতলৈ ঘূৰি 5 কিঃমিঃ, আকৌ সোঁ হাতলৈ ঘূৰি 5 কিঃমিঃ খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত আছে?" },
+      "options": [
+        { "option": "A", "en": "5 km East", "as": "৫ কিঃমিঃ পূব" },
+        { "option": "B", "en": "5 km West", "as": "৫ কিঃমিঃ পশ্চিম" },
+        { "option": "C", "en": "10 km East", "as": "১০ কিঃমিঃ পূব" },
+        { "option": "D", "en": "10 km North", "as": "১০ কিঃমিঃ উত্তৰ" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "direction",
+      "q": { "en": "A person facing West turns 135° anticlockwise. Which direction is he facing now?", "as": "এজন ব্যক্তি পশ্চিমমুখী হৈ ঘড়ীৰ কাঁটাৰ বিপৰীত দিশে 135° ঘূৰে। এতিয়া তেওঁ কোন দিশত আছে?" },
+      "options": [
+        { "option": "A", "en": "North-East", "as": "উত্তৰ-পূব" },
+        { "option": "B", "en": "North-West", "as": "উত্তৰ-পশ্চিম" },
+        { "option": "C", "en": "South-West", "as": "দক্ষিণ-পশ্চিম" },
+        { "option": "D", "en": "South-East", "as": "দক্ষিণ-পূব" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "direction",
+      "q": { "en": "In a map, North is shown at the top. Which direction is to the left of a person facing North?", "as": "মানচিত্রত উত্তৰ ওপৰত দেখুওৱা হয়। উত্তৰমুখী এজন ব্যক্তিৰ বাওঁ ফালে কোন দিশ থাকে?" },
+      "options": [
+        { "option": "A", "en": "East", "as": "পূব" },
+        { "option": "B", "en": "West", "as": "পশ্চিম" },
+        { "option": "C", "en": "South", "as": "দক্ষিণ" },
+        { "option": "D", "en": "North-East", "as": "উত্তৰ-পূব" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "distance",
+      "q": { "en": "A boy walks 3 km East, then 4 km North. What is the shortest distance back to the start?", "as": "এজন ল'ৰাই 3 কিঃমিঃ পূব, তাৰ পিছত 4 কিঃমিঃ উত্তৰলৈ খোজ কাঢ়ে। আৰম্ভণি স্থানলৈ ওভোতাই যাবলৈ সৰু দূৰত্ব কিমান?" },
+      "options": [
+        { "option": "A", "en": "7 km", "as": "৭ কিঃমিঃ" },
+        { "option": "B", "en": "5 km", "as": "৫ কিঃমিঃ" },
+        { "option": "C", "en": "6 km", "as": "৬ কিঃমিঃ" },
+        { "option": "D", "en": "4 km", "as": "৪ কিঃমিঃ" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "direction",
+      "q": { "en": "If a person is facing North and turns to his left three times, which direction will he finally face?", "as": "এজন ব্যক্তি উত্তৰমুখী হৈ তিনিবাৰ বাওঁ হাতলৈ ঘূৰিলে তেওঁ শেষত কোন দিশত মুখ কৰি থাকিব?" },
+      "options": [
+        { "option": "A", "en": "North", "as": "উত্তৰ" },
+        { "option": "B", "en": "South", "as": "দক্ষিণ" },
+        { "option": "C", "en": "East", "as": "পূব" },
+        { "option": "D", "en": "West", "as": "পশ্চিম" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "direction",
+      "q": { "en": "A, B, C and D stand in a square. B is to the East of A. C is to the South of B. D is to the West of C. In which direction is D from A?", "as": "A, B, C আৰু D এটা বর্গক্ষেত্রত থিয় হৈ থাকে। B, A ৰ পূবে। C, B ৰ দক্ষিণত। D, C ৰ পশ্চিমত। D, A ৰ পৰা কোন দিশত আছে?" },
+      "options": [
+        { "option": "A", "en": "South", "as": "দক্ষিণ" },
+        { "option": "B", "en": "East", "as": "পূব" },
+        { "option": "C", "en": "North", "as": "উত্তৰ" },
+        { "option": "D", "en": "West", "as": "পশ্চিম" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "distance",
+      "q": { "en": "X walks 8 m North, turns right and walks 6 m. What is the shortest distance from the start?", "as": "X 8 মিটাৰ উত্তৰলৈ খোজ কাঢ়ি, সোঁ হাতলৈ ঘূৰি 6 মিটাৰ খোজ কাঢ়ে। আৰম্ভণিৰ পৰা সৰু দূৰত্ব কিমান?" },
+      "options": [
+        { "option": "A", "en": "14 m", "as": "১৪ মিটাৰ" },
+        { "option": "B", "en": "10 m", "as": "১০ মিটাৰ" },
+        { "option": "C", "en": "12 m", "as": "১২ মিটাৰ" },
+        { "option": "D", "en": "2 m", "as": "২ মিটাৰ" }
+      ],
+      "a": "B"
+    }
+  ]
+}
