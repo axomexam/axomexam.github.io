@@ -1,0 +1,317 @@
+{
+  "id": "clock_calendar",
+  "title": { "en": "Clock & Calendar (Assam Competitive Exams)", "as": "ঘড়ী আৰু কেলেণ্ডাৰ (অসম প্ৰতিযোগিতামূলক পৰীক্ষা)" },
+  "description": { "en": "Angle between clock hands, hands coinciding/opposite, day-after problems, leap years, and calendar day calculation.", "as": "ঘড়ীৰ কাঁটাৰ কোণ, কাঁটা লগ-লাগ/বিপৰীত, এনদিন পিছত দিন, লিপ ইয়াৰ আৰু কেলেণ্ডাৰ দিন গণনা।" },
+  "tags": ["reasoning", "clock", "calendar", "যুক্তি", "ঘড়ী"],
+  "pdf": null,
+  "questions": [
+    {
+      "type": "angle",
+      "q": { "en": "What is the angle between the two hands of a clock at 3:00?", "as": "3:00 বজাত ঘড়ীটোৰ দুয়োটা কাঁটাৰ মাজৰ কোণ কিমান?" },
+      "options": [
+        { "option": "A", "en": "60°", "as": "৬০°" },
+        { "option": "B", "en": "90°", "as": "৯০°" },
+        { "option": "C", "en": "45°", "as": "৪৫°" },
+        { "option": "D", "en": "120°", "as": "১২০°" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "angle",
+      "q": { "en": "What is the angle between the two hands of a clock at 6:00?", "as": "6:00 বজাত ঘড়ীটোৰ দুয়োটা কাঁটাৰ মাজৰ কোণ কিমান?" },
+      "options": [
+        { "option": "A", "en": "90°", "as": "৯০°" },
+        { "option": "B", "en": "150°", "as": "১৫০°" },
+        { "option": "C", "en": "180°", "as": "১৮০°" },
+        { "option": "D", "en": "120°", "as": "১২০°" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "angle",
+      "q": { "en": "What is the angle between the two hands of a clock at 9:00?", "as": "9:00 বজাত ঘড়ীটোৰ দুয়োটা কাঁটাৰ মাজৰ কোণ কিমান?" },
+      "options": [
+        { "option": "A", "en": "90°", "as": "৯০°" },
+        { "option": "B", "en": "100°", "as": "১০০°" },
+        { "option": "C", "en": "80°", "as": "৮০°" },
+        { "option": "D", "en": "110°", "as": "১১০°" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "angle",
+      "q": { "en": "What is the angle between the two hands of a clock at 1:00?", "as": "1:00 বজাত ঘড়ীটোৰ দুয়োটা কাঁটাৰ মাজৰ কোণ কিমান?" },
+      "options": [
+        { "option": "A", "en": "15°", "as": "১৫°" },
+        { "option": "B", "en": "45°", "as": "৪৫°" },
+        { "option": "C", "en": "30°", "as": "৩০°" },
+        { "option": "D", "en": "60°", "as": "৬০°" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "angle",
+      "q": { "en": "What is the angle between the two hands of a clock at 5:00?", "as": "5:00 বজাত ঘড়ীটোৰ দুয়োটা কাঁটাৰ মাজৰ কোণ কিমান?" },
+      "options": [
+        { "option": "A", "en": "120°", "as": "১২০°" },
+        { "option": "B", "en": "150°", "as": "১৫০°" },
+        { "option": "C", "en": "130°", "as": "১৩০°" },
+        { "option": "D", "en": "160°", "as": "১৬০°" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "angle",
+      "q": { "en": "What is the angle between the two hands of a clock at 8:00?", "as": "8:00 বজাত ঘড়ীটোৰ দুয়োটা কাঁটাৰ মাজৰ কোণ কিমান?" },
+      "options": [
+        { "option": "A", "en": "100°", "as": "১০০°" },
+        { "option": "B", "en": "110°", "as": "১১০°" },
+        { "option": "C", "en": "120°", "as": "১২০°" },
+        { "option": "D", "en": "130°", "as": "১৩০°" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "angle",
+      "q": { "en": "What is the angle between the two hands of a clock at 2:30?", "as": "2:30 বজাত ঘড়ীটোৰ দুয়োটা কাঁটাৰ মাজৰ কোণ কিমান?" },
+      "options": [
+        { "option": "A", "en": "105°", "as": "১০৫°" },
+        { "option": "B", "en": "90°", "as": "৯০°" },
+        { "option": "C", "en": "110°", "as": "১১০°" },
+        { "option": "D", "en": "95°", "as": "৯৫°" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "angle",
+      "q": { "en": "What is the angle between the two hands of a clock at 12:30?", "as": "12:30 বজাত ঘড়ীটোৰ দুয়োটা কাঁটাৰ মাজৰ কোণ কিমান?" },
+      "options": [
+        { "option": "A", "en": "150°", "as": "১৫০°" },
+        { "option": "B", "en": "165°", "as": "১৬৫°" },
+        { "option": "C", "en": "180°", "as": "১৮০°" },
+        { "option": "D", "en": "155°", "as": "১৫৫°" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "angle",
+      "q": { "en": "What is the angle between the two hands of a clock at 10:00?", "as": "10:00 বজাত ঘড়ীটোৰ দুয়োটা কাঁটাৰ মাজৰ কোণ কিমান?" },
+      "options": [
+        { "option": "A", "en": "50°", "as": "৫০°" },
+        { "option": "B", "en": "55°", "as": "৫৫°" },
+        { "option": "C", "en": "60°", "as": "৬০°" },
+        { "option": "D", "en": "65°", "as": "৬৫°" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "angle",
+      "q": { "en": "What is the angle between the two hands of a clock at 3:15?", "as": "3:15 বজাত ঘড়ীটোৰ দুয়োটা কাঁটাৰ মাজৰ কোণ কিমান?" },
+      "options": [
+        { "option": "A", "en": "7.5°", "as": "৭.৫°" },
+        { "option": "B", "en": "8°", "as": "৮°" },
+        { "option": "C", "en": "6°", "as": "৬°" },
+        { "option": "D", "en": "9°", "as": "৯°" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "coincide",
+      "q": { "en": "How many times do the hands of a clock coincide in 12 hours?", "as": "12 ঘণ্টাত ঘড়ীৰ দুয়োটা কাঁটা কিমানবাৰ লগ লাগে?" },
+      "options": [
+        { "option": "A", "en": "12", "as": "১২" },
+        { "option": "B", "en": "10", "as": "১০" },
+        { "option": "C", "en": "11", "as": "১১" },
+        { "option": "D", "en": "9", "as": "৯" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "coincide",
+      "q": { "en": "How many times do the hands of a clock coincide in a full day (24 hours)?", "as": "পূর্ণ এক দিনত (24 ঘণ্টা) ঘড়ীৰ দুয়োটা কাঁটা কিমানবাৰ লগ লাগে?" },
+      "options": [
+        { "option": "A", "en": "24", "as": "২৪" },
+        { "option": "B", "en": "22", "as": "২২" },
+        { "option": "C", "en": "23", "as": "২৩" },
+        { "option": "D", "en": "21", "as": "২১" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "coincide",
+      "q": { "en": "In a day, how many times are the hands of a clock at right angles?", "as": "এদিনত ঘড়ীৰ দুয়োটা কাঁটা কিমানবাৰ সোঁকোণত থাকে?" },
+      "options": [
+        { "option": "A", "en": "22", "as": "২২" },
+        { "option": "B", "en": "48", "as": "৪৮" },
+        { "option": "C", "en": "44", "as": "৪৪" },
+        { "option": "D", "en": "40", "as": "৪০" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "coincide",
+      "q": { "en": "In a day, how many times are the hands of a clock directly opposite (180°)?", "as": "এদিনত ঘড়ীৰ দুয়োটা কাঁটা কিমানবাৰ একেবাৰে বিপৰীত (180°) থাকে?" },
+      "options": [
+        { "option": "A", "en": "22", "as": "২২" },
+        { "option": "B", "en": "24", "as": "২৪" },
+        { "option": "C", "en": "20", "as": "২০" },
+        { "option": "D", "en": "11", "as": "১১" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "coincide",
+      "q": { "en": "At what approximate time between 4 and 5 o'clock do the hands of a clock coincide?", "as": "4 আৰু 5 বজাৰ মাজত কিমান বজাত ঘড়ীৰ দুয়োটা কাঁটা লগ লাগে?" },
+      "options": [
+        { "option": "A", "en": "4:21", "as": "4:21" },
+        { "option": "B", "en": "4:22", "as": "4:22" },
+        { "option": "C", "en": "4:23", "as": "4:23" },
+        { "option": "D", "en": "4:20", "as": "4:20" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "day",
+      "q": { "en": "If today is Monday, what day will it be after 15 days?", "as": "আজি সোমবাৰ হ'লে 15 দিন পিছত কি দিন হ'ব?" },
+      "options": [
+        { "option": "A", "en": "Monday", "as": "সোমবাৰ" },
+        { "option": "B", "en": "Tuesday", "as": "মঙলবাৰ" },
+        { "option": "C", "en": "Wednesday", "as": "বুধবাৰ" },
+        { "option": "D", "en": "Thursday", "as": "বৃহস্পতিবাৰ" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "day",
+      "q": { "en": "If today is Wednesday, what day will it be after 20 days?", "as": "আজি বুধবাৰ হ'লে 20 দিন পিছত কি দিন হ'ব?" },
+      "options": [
+        { "option": "A", "en": "Sunday", "as": "দেওবাৰ" },
+        { "option": "B", "en": "Monday", "as": "সোমবাৰ" },
+        { "option": "C", "en": "Tuesday", "as": "মঙলবাৰ" },
+        { "option": "D", "en": "Wednesday", "as": "বুধবাৰ" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "day",
+      "q": { "en": "If today is Saturday, what day was it 10 days ago?", "as": "আজি শনিবাৰ হ'লে 10 দিন আগত কি দিন আছিল?" },
+      "options": [
+        { "option": "A", "en": "Sunday", "as": "দেওবাৰ" },
+        { "option": "B", "en": "Monday", "as": "সোমবাৰ" },
+        { "option": "C", "en": "Tuesday", "as": "মঙলবাৰ" },
+        { "option": "D", "en": "Wednesday", "as": "বুধবাৰ" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "day",
+      "q": { "en": "If today is Friday, what day will it be after 100 days?", "as": "আজি শুকুৰবাৰ হ'লে 100 দিন পিছত কি দিন হ'ব?" },
+      "options": [
+        { "option": "A", "en": "Friday", "as": "শুকুৰবাৰ" },
+        { "option": "B", "en": "Saturday", "as": "শনিবাৰ" },
+        { "option": "C", "en": "Sunday", "as": "দেওবাৰ" },
+        { "option": "D", "en": "Monday", "as": "সোমবাৰ" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "calendar",
+      "q": { "en": "If the 1st of a month is Tuesday, what day will the 25th of that month be?", "as": "এটা মাহৰ ১ তাৰিখ মঙলবাৰ হ'লে সেই মাহৰ ২৫ তাৰিখ কি দিন হ'ব?" },
+      "options": [
+        { "option": "A", "en": "Thursday", "as": "বৃহস্পতিবাৰ" },
+        { "option": "B", "en": "Friday", "as": "শুকুৰবাৰ" },
+        { "option": "C", "en": "Saturday", "as": "শনিবাৰ" },
+        { "option": "D", "en": "Wednesday", "as": "বুধবাৰ" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "calendar",
+      "q": { "en": "If March 1 is Sunday, what day will March 31 be?", "as": "মার্চ ১ দেওবাৰ হ'লে মার্চ ৩১ কি দিন হ'ব?" },
+      "options": [
+        { "option": "A", "en": "Monday", "as": "সোমবাৰ" },
+        { "option": "B", "en": "Tuesday", "as": "মঙলবাৰ" },
+        { "option": "C", "en": "Wednesday", "as": "বুধবাৰ" },
+        { "option": "D", "en": "Thursday", "as": "বৃহস্পতিবাৰ" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "calendar",
+      "q": { "en": "What was the day of the week on 1 January 2024?", "as": "2024 চনৰ ১ জানুৱাৰী কি দিন আছিল?" },
+      "options": [
+        { "option": "A", "en": "Sunday", "as": "দেওবাৰ" },
+        { "option": "B", "en": "Tuesday", "as": "মঙলবাৰ" },
+        { "option": "C", "en": "Monday", "as": "সোমবাৰ" },
+        { "option": "D", "en": "Wednesday", "as": "বুধবাৰ" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "calendar",
+      "q": { "en": "If 15 August 2024 is Thursday, what day will 15 August 2025 be?", "as": "2024 চনৰ ১৫ আগষ্ট বৃহস্পতিবাৰ হ'লে 2025 চনৰ ১৫ আগষ্ট কি দিন হ'ব?" },
+      "options": [
+        { "option": "A", "en": "Thursday", "as": "বৃহস্পতিবাৰ" },
+        { "option": "B", "en": "Friday", "as": "শুকুৰবাৰ" },
+        { "option": "C", "en": "Saturday", "as": "শনিবাৰ" },
+        { "option": "D", "en": "Wednesday", "as": "বুধবাৰ" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "calendar",
+      "q": { "en": "Which of the following is a leap year?", "as": "নিম্নলিখিত কোনটো লিপ ইয়াৰ?" },
+      "options": [
+        { "option": "A", "en": "2023", "as": "২০২৩" },
+        { "option": "B", "en": "2024", "as": "২০২৪" },
+        { "option": "C", "en": "2025", "as": "২০২৫" },
+        { "option": "D", "en": "2026", "as": "২০২৬" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "calendar",
+      "q": { "en": "Which of the following is NOT a leap year?", "as": "নিম্নলিখিত কোনটো লিপ ইয়াৰ নহয়?" },
+      "options": [
+        { "option": "A", "en": "2000", "as": "২০০০" },
+        { "option": "B", "en": "2004", "as": "২০০৪" },
+        { "option": "C", "en": "2010", "as": "২০১০" },
+        { "option": "D", "en": "2020", "as": "২০২০" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "calendar",
+      "q": { "en": "How many days are there in February 2024?", "as": "ফেব্রুৱাৰী 2024 ত কিমান দিন আছে?" },
+      "options": [
+        { "option": "A", "en": "28", "as": "২৮" },
+        { "option": "B", "en": "30", "as": "৩০" },
+        { "option": "C", "en": "31", "as": "৩১" },
+        { "option": "D", "en": "29", "as": "২৯" }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "calendar",
+      "q": { "en": "How many leap years are there between 2000 and 2020 (both inclusive)?", "as": "2000 আৰু 2020 ৰ মাজত (দুয়োটা সৈতে) কিমানটা লিপ ইয়াৰ আছে?" },
+      "options": [
+        { "option": "A", "en": "5", "as": "৫" },
+        { "option": "B", "en": "7", "as": "৭" },
+        { "option": "C", "en": "6", "as": "৬" },
+        { "option": "D", "en": "8", "as": "৮" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "calendar",
+      "q": { "en": "In a non-leap year, how many weeks and days are there in total?", "as": "অ-লিপ ইয়াৰত মুঠ কিমান সপ্তাহ আৰু দিন আছে?" },
+      "options": [
+        { "option": "A", "en": "52 weeks 1 day", "as": "৫২ সপ্তাহ ১ দিন" },
+        { "option": "B", "en": "52 weeks 2 days", "as": "৫২ সপ্তাহ ২ দিন" },
+        { "option": "C", "en": "51 weeks 3 days", "as": "৫১ সপ্তাহ ৩ দিন" },
+        { "option": "D", "en": "53 weeks", "as": "৫৩ সপ্তাহ" }
+      ],
+      "a": "A"
+    }
+  ]
+}
