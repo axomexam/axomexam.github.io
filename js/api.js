@@ -79,6 +79,24 @@ const API = (() => {
     return fetchJSON(url);
   }
 
+  /* ---- Mock test sets ----
+     Each set is a single manually uploaded JSON file:
+     mock-test/<categoryId>/<subcategoryId>/set-<n>.json
+     The file contains the full question list for one mock test set,
+     with a "difficulty" field (easy / medium / hard) per question. */
+  async function getMockSet(catId, subId, setNumber) {
+    const url = CONFIG.USE_REMOTE
+      ? rawUrl(`${P.MOCKSETS}/${catId}/${subId}/set-${setNumber}.json`)
+      : `${F.MOCKSETS_BASE}${catId}/${subId}/set-${setNumber}.json`;
+    try {
+      const res = await fetch(url, { cache: "no-store" });
+      if (!res.ok) return null;
+      return await res.json();
+    } catch {
+      return null;
+    }
+  }
+
   /* ---- Optional: discover available PDFs from a repo directory
         via the GitHub API. Used to enrich the PDF panel when a
         topic does not declare a pdf field but files exist. ---- */
@@ -168,6 +186,6 @@ const API = (() => {
   return {
     getCategories, getTopic, getTopicMarkdown, listPdfDir, pdfUrl,
     listDownloads, getTrendingTopics, listPreviousYearYears, listPreviousYearPdfs,
-    getArticles,
+    getArticles, getMockSet,
   };
 })();

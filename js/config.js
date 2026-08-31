@@ -27,6 +27,7 @@ const CONFIG = {
     DOWNLOADS: "download",     // flat folder of PDFs shown on the Downloads page
     TRENDING: "trending-topics", // folder of JSON files for extra trending topics
     PYEAR: "previous-year",    // <exam>/<year>/<file>.pdf for Previous Year Questions
+    MOCKSETS: "mock-test",     // <category>/<subcategory>/set-<n>.json for mock test sets
   },
 
   /* Local fallback bundle (Fixed with Absolute Paths) */
@@ -42,6 +43,8 @@ const CONFIG = {
     TRENDING: ["assam-gk-special"],
     /* Previous year questions — /data/sample/previous-year/<exam>/<year>/<file>.pdf */
     PYEAR_BASE: "/data/sample/previous-year/",
+    /* Mock test sets — /data/sample/mock-test/<category>/<subcategory>/set-<n>.json */
+    MOCKSETS_BASE: "/data/sample/mock-test/",
     PYEAR: {
       ssc: { "2023": ["ssc-cgl-2023.pdf"], "2024": ["ssc-cgl-2024.pdf"] },
       railway: { "2023": ["rrb-2023.pdf"] },

@@ -22,8 +22,14 @@
     lang: "as",            
     uiLang: "en",          
     mock: null,            
-    isGeneratingPdf: false 
+    isGeneratingPdf: false,
+    mockSetCache: {}       
   };
+
+  /* Max mock test set number to probe per subcategory */
+  const MAX_MOCK_SETS = 20;
+  /* Minimum number of set cards to show once at least one set exists */
+  const DEFAULT_VISIBLE_SETS = 5;
 
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
@@ -2677,15 +2683,24 @@
 
     if (subId && !secId) {
       const sub = subs.find((s) => s.id === subId);
-      if (sub && sub.sections && sub.sections.length) {
-        return renderMockSectionPicker(main, cat, sub);
+      if (sub) {
+        return renderMockSubLevel(main, cat, sub);
       }
       return renderMockSetup(main, cat, subId, null, null);
     }
 
     if (subId && secId) {
       const sub = subs.find((s) => s.id === subId);
-      const sec = sub ? (sub.sections || []).find((sc) => sc.id === secId) : null;
+      if (!sub) return render404(main);
+
+      /* Manual JSON mock test sets: /mock-test/<cat>/<sub>/set-<n> */
+      if (/^set-\d+$/.test(secId)) {
+        const setNumber = parseInt(secId.replace("set-", ""), 10);
+        if (!(setNumber >= 1 && setNumber <= MAX_MOCK_SETS)) return render404(main);
+        return renderMockSetDifficulty(main, cat, sub, setNumber);
+      }
+
+      const sec = (sub.sections || []).find((sc) => sc.id === secId);
       if (sec && sec.topics && sec.topics.length) {
         return renderMockTopicPicker(main, cat, sub, sec);
       }
@@ -2693,6 +2708,16 @@
     }
 
     return renderMockSetup(main, cat, null, null, null);
+  }
+
+  /* Subcategory landing: show manual JSON sets when available,
+     otherwise fall back to the old section / topic flow. */
+  async function renderMockSubLevel(main, cat, sub) {
+    main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("mock.loading")}</p></div>`;
+    const sets = await detectMockSets(cat.id, sub.id);
+    if (sets.length) return renderMockSetPicker(main, cat, sub, sets);
+    if (sub.sections && sub.sections.length) return renderMockSectionPicker(main, cat, sub);
+    return renderMockSetup(main, cat, sub.id, null, null);
   }
 
   function renderMockCategoryPicker(main) {
@@ -2814,6 +2839,317 @@
     observeReveals();
   }
 
+  /* ================= Manual JSON Mock Test Sets ================= */
+
+  function hasMockQuestions(data) {
+    if (!data) return false;
+    if (Array.isArray(data)) return data.length > 0;
+    return Array.isArray(data.questions) && data.questions.length > 0;
+  }
+
+  /* Probe set-N.json files until the first gap to discover how many
+     sets exist for a subcategory. Results are cached per session. */
+  async function detectMockSets(catId, subId) {
+    const cacheKey = catId + "/" + subId;
+    if (state.mockSetCache[cacheKey]) return state.mockSetCache[cacheKey];
+
+    const found = [];
+    for (let n = 1; n <= MAX_MOCK_SETS; n++) {
+      const data = await API.getMockSet(catId, subId, n);
+      if (hasMockQuestions(data)) {
+        found.push(n);
+      } else {
+        break;
+      }
+    }
+    state.mockSetCache[cacheKey] = found;
+    return found;
+  }
+
+  /* Normalise one question object from a manually uploaded set file
+     into the internal quiz format used by the mock test engine. */
+  function normalizeMockQuestion(item) {
+    if (!item || typeof item !== "object") return null;
+
+    const qTextObj = {
+      en: extractField(item, "question", "en"),
+      as: extractField(item, "question", "as")
+    };
+    if (!qTextObj.en && !qTextObj.as) return null;
+
+    const aTextObj = {
+      en: extractField(item, "answer", "en"),
+      as: extractField(item, "answer", "as")
+    };
+
+    const optsEn = getOptionsList(item, "en");
+    const optsAs = getOptionsList(item, "as");
+    let optionsList = [];
+    if (optsEn.length || optsAs.length) {
+      const maxLen = Math.max(optsEn.length, optsAs.length);
+      for (let i = 0; i < maxLen; i++) {
+        optionsList.push({ en: optsEn[i] || "", as: optsAs[i] || "" });
+      }
+    }
+
+    let correctIdx = 0;
+    if (typeof item.correct === "string") {
+      const letter = item.correct.trim().toLowerCase();
+      const charCode = letter.charCodeAt(0);
+      if (charCode >= 97 && charCode <= 101) correctIdx = charCode - 97;
+    } else if (Number.isInteger(item.correct_index)) {
+      correctIdx = item.correct_index;
+    } else if (Number.isInteger(item.correct)) {
+      correctIdx = item.correct;
+    } else if (Number.isInteger(item.answer)) {
+      correctIdx = item.answer;
+    }
+
+    let difficulty = String(item.difficulty || "medium").toLowerCase().trim();
+    if (difficulty !== "easy" && difficulty !== "hard") difficulty = "medium";
+
+    return {
+      q: qTextObj,
+      a: aTextObj,
+      options: optionsList.length >= 2 ? optionsList : null,
+      correct: correctIdx,
+      difficulty: difficulty
+    };
+  }
+
+  async function loadMockSetQuestions(cat, sub, setNumber) {
+    const data = await API.getMockSet(cat.id, sub.id, setNumber);
+    if (!hasMockQuestions(data)) return null;
+    const list = Array.isArray(data) ? data : (Array.isArray(data.questions) ? data.questions : []);
+    const questions = list.map(normalizeMockQuestion).filter(Boolean);
+    if (!questions.length) return null;
+    return {
+      setNumber,
+      title: (data && data.title) || `Set ${setNumber}`,
+      subject: (data && data.subject) || (sub && sub.name) || "",
+      questions
+    };
+  }
+
+  function groupByDifficulty(questions) {
+    const groups = { easy: [], medium: [], hard: [] };
+    (questions || []).forEach((q) => {
+      if (!q.options || q.options.length < 2) return;
+      groups[q.difficulty] = groups[q.difficulty] || [];
+      groups[q.difficulty].push(q);
+    });
+    return groups;
+  }
+
+  function difficultyLabel(d, lang) {
+    const l = lang || state.uiLang;
+    if (d === "easy") return l === "as" ? "সহজ" : "Easy";
+    if (d === "hard") return l === "as" ? "কঠিন" : "Hard";
+    return l === "as" ? "মধ্যম" : "Medium";
+  }
+
+  function renderMockSetPicker(main, cat, sub, setNumbers) {
+    const existing = new Set(setNumbers);
+    const maxFound = Math.max.apply(null, setNumbers);
+    const visible = Math.max(maxFound, DEFAULT_VISIBLE_SETS);
+
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">Home</a><span class="bc-sep">/</span>
+          <a href="/mock-test">Mock Test</a><span class="bc-sep">/</span>
+          <a href="/mock-test/${cat.id}">${escapeHtml(localized(cat.name))}</a><span class="bc-sep">/</span>
+          <span>${escapeHtml(localized(sub.name))}</span>
+        </nav>
+        <h1>${escapeHtml(localized(sub.name))} — Mock Test</h1>
+        <p class="page-desc">Select a set and choose your difficulty level to begin.</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        <div class="set-grid">
+          ${Array.from({ length: visible }, (_, i) => {
+            const n = i + 1;
+            if (existing.has(n)) {
+              return `
+              <a class="set-card reveal" href="/mock-test/${cat.id}/${sub.id}/set-${n}" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
+                <span class="set-card-head">
+                  <span class="set-num">${String(n).padStart(2, "0")}</span>
+                  <span class="set-status">Available</span>
+                </span>
+                <span class="set-name">Mock Test Set ${n}</span>
+                <span class="set-meta">Easy • Medium • Hard</span>
+                <span class="set-go">
+                  <span>Start Test</span>
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </span>
+              </a>`;
+            }
+            return `
+              <div class="set-card set-card-locked reveal" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
+                <span class="set-card-head">
+                  <span class="set-num">${String(n).padStart(2, "0")}</span>
+                  <span class="set-status set-status-locked">
+                    <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    Coming Soon
+                  </span>
+                </span>
+                <span class="set-name">Mock Test Set ${n}</span>
+                <span class="set-meta">Not published yet</span>
+              </div>`;
+          }).join("")}
+        </div>
+      </section>`;
+    observeReveals();
+  }
+
+  async function renderMockSetDifficulty(main, cat, sub, setNumber) {
+    main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("mock.loading")}</p></div>`;
+
+    const loaded = await loadMockSetQuestions(cat, sub, setNumber);
+    if (!loaded) {
+      main.innerHTML = `
+        <div class="qa-empty" style="padding:60px 20px;">
+          <div class="big"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg></div>
+          <p>Questions for Set ${setNumber} have not been uploaded yet. Please check back soon.</p>
+          <div style="margin-top:18px;">
+            <a class="btn btn-outline" href="/mock-test/${cat.id}/${sub.id}">← Back to Sets</a>
+          </div>
+        </div>`;
+      return;
+    }
+
+    const groups = groupByDifficulty(loaded.questions);
+    const avail = ["easy", "medium", "hard"].filter((d) => groups[d].length);
+    const diffDefs = [
+      { d: "easy", en: "Easy", as: "সহজ", descEn: "Basic level questions", descAs: "মৌলিক পৰ্যায়ৰ প্ৰশ্ন" },
+      { d: "medium", en: "Medium", as: "মধ্যম", descEn: "Moderate level questions", descAs: "মধ্যম পৰ্যায়ৰ প্ৰশ্ন" },
+      { d: "hard", en: "Hard", as: "কঠিন", descEn: "Advanced level questions", descAs: "উন্নত পৰ্যায়ৰ প্ৰশ্ন" }
+    ];
+    const diffIcon = {
+      easy: '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 9-10 10L2 9"/></svg>',
+      medium: '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 9 10 6 10-6"/><path d="m2 15 10 6 10-6"/></svg>',
+      hard: '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 15 10-6 10 6"/><path d="m2 9 10 6 10-6"/></svg>'
+    };
+
+    state.mock = {
+      cat, pool: loaded.questions, configured: false, count: 0,
+      testLang: "as",
+      setInfo: { setNumber, title: loaded.title, difficulty: null }
+    };
+
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">Home</a><span class="bc-sep">/</span>
+          <a href="/mock-test">Mock Test</a><span class="bc-sep">/</span>
+          <a href="/mock-test/${cat.id}">${escapeHtml(localized(cat.name))}</a><span class="bc-sep">/</span>
+          <a href="/mock-test/${cat.id}/${sub.id}">${escapeHtml(localized(sub.name))}</a><span class="bc-sep">/</span>
+          <span>${escapeHtml(loaded.title)}</span>
+        </nav>
+        <h1>${escapeHtml(loaded.title)} — ${escapeHtml(localized(sub.name))}</h1>
+        <p class="page-desc">Configure your test and start when ready.</p>
+      </div>
+
+      <div class="mt-setup">
+        <div class="mt-hero" style="--cat:${catColor(cat.id)}">
+          <span class="mt-hero-icon">${catIconHTML(cat.id)}</span>
+          <span style="min-width:0;">
+            <span class="mt-hero-cat">${escapeHtml(localized(cat.name))}</span>
+            <span class="mt-hero-title">${escapeHtml(loaded.title)} • ${escapeHtml(localized(sub.name))} Mock Test</span>
+            <span class="mt-hero-chips">
+              <span class="mt-chip">${loaded.questions.length} ${t("mock.questions")}</span>
+              <span class="mt-chip">Easy • Medium • Hard</span>
+              <span class="mt-chip">অসমীয়া / English</span>
+            </span>
+          </span>
+        </div>
+
+        <div class="mt-block">
+          <div class="mt-label">Question Language <span>প্ৰশ্নৰ ভাষা</span></div>
+          <div class="mt-segmented">
+            <button type="button" class="mt-seg-btn ${state.mock.testLang === "as" ? "active" : ""}" data-mocklang="as">
+              <span class="mt-seg-ico">অ</span> অসমীয়া (Assamese)
+            </button>
+            <button type="button" class="mt-seg-btn ${state.mock.testLang === "en" ? "active" : ""}" data-mocklang="en">
+              <span class="mt-seg-ico">A</span> English
+            </button>
+          </div>
+        </div>
+
+        <div class="mt-block">
+          <div class="mt-label">Select Difficulty <span>অসুবিধা বাছনি</span></div>
+          <div class="mt-diff" id="difficulty-picker">
+            ${avail.map((item) => {
+              const def = diffDefs.find((x) => x.d === item);
+              return `
+              <button type="button" class="mt-diff-card ${item}" data-difficulty="${item}">
+                <span class="mt-diff-ico">${diffIcon[item] || ""}</span>
+                <span class="mt-diff-name">${difficultyLabel(item)}</span>
+                <span class="mt-diff-count">${groups[item].length} ${t("mock.question").toLowerCase()}</span>
+              </button>`;
+            }).join("")}
+          </div>
+        </div>
+
+        <div class="mt-block">
+          <div class="mt-label">Instructions <span>নিৰ্দেশনা</span></div>
+          <ul class="mt-rules">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>This is a timed test — a stopwatch tracks your total time.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>Choose the best answer. Results are graded instantly on submit.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>You can quit anytime — your current progress will be lost.</li>
+          </ul>
+        </div>
+
+        <button class="btn btn-primary mt-start" id="mock-begin-btn">${t("mock.begin")} →</button>
+      </div>`;
+
+    $$("[data-mocklang]").forEach((b) => {
+      b.addEventListener("click", () => {
+        $$("[data-mocklang]").forEach((x) => x.classList.remove("active"));
+        b.classList.add("active");
+        state.mock.testLang = b.dataset.mocklang;
+      });
+    });
+
+    const picker = $("#difficulty-picker");
+    let selected = avail[0] || "medium";
+    $$("button", picker).forEach((b) => {
+      b.addEventListener("click", () => {
+        $$("button", picker).forEach((x) => x.classList.remove("active"));
+        b.classList.add("active");
+        selected = b.dataset.difficulty;
+      });
+    });
+
+    $("#mock-begin-btn").addEventListener("click", () => {
+      const def = diffDefs.find((x) => x.d === selected) || diffDefs[0];
+      const diffText = state.uiLang === "as" ? def.as : def.en;
+      showModalPopup({
+        title: `Start ${loaded.title}?`,
+        message: `You are about to start the ${diffText} mock test in ${state.mock.testLang === "as" ? "অসমীয়া" : "English"}. Do you want to proceed?`,
+        confirmText: "Start Test",
+        cancelText: "Cancel",
+        onConfirm: () => startSetMock(selected)
+      });
+    });
+  }
+
+  function startSetMock(difficulty) {
+    if (!state.mock) return;
+    const groups = groupByDifficulty(state.mock.pool);
+    let pool = groups[difficulty] || [];
+    if (!pool.length) pool = state.mock.pool;
+    state.mock = Object.assign(state.mock, {
+      pool: shuffle(pool),
+      idx: 0,
+      answers: [],
+      elapsedSec: 0,
+      started: true,
+      timerId: null,
+      setInfo: Object.assign(state.mock.setInfo || {}, { difficulty })
+    });
+    renderMockQuiz();
+  }
+
   async function renderMockSetup(main, cat, subId, secId, topicId) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("mock.loading")}</p></div>`;
 
@@ -2909,11 +3245,14 @@
 
     const qText = localizeContent(q.q);
     const options = (q.options || []).map(opt => (typeof opt === "object" ? localizeContent(opt) : String(opt)));
+    const setLabel = m.setInfo
+      ? `${escapeHtml(localized(m.cat.name))} • ${escapeHtml(m.setInfo.title)} ${m.setInfo.difficulty ? "• " + difficultyLabel(m.setInfo.difficulty) : ""}`
+      : `${escapeHtml(localized(m.cat.name))}`;
 
     main.innerHTML = `
       <div class="quiz-wrap">
         <div class="quiz-top">
-          <span class="qt-cat">${escapeHtml(localized(m.cat.name))} • Question ${m.idx + 1}/${m.pool.length}</span>
+          <span class="qt-cat">${setLabel} • Question ${m.idx + 1}/${m.pool.length}</span>
           <span class="quiz-timer" id="quiz-timer" title="Time Elapsed">⏱ ${fmtTime(m.elapsedSec)}</span>
           <button class="quiz-quit" id="quiz-quit-btn">${t("mock.quit")}</button>
         </div>
@@ -3032,6 +3371,7 @@
             <div class="result-percent">${pct}%</div>
           </div>
           <h2 style="font-size:1.25rem;">${t("mock.result.title")}</h2>
+          ${m.setInfo ? `<p style="font-size:.85rem; color:var(--ink-soft,#64748b); margin:2px 0 0;">${escapeHtml(m.setInfo.title)}${m.setInfo.difficulty ? " • " + difficultyLabel(m.setInfo.difficulty) : ""}</p>` : ""}
           <p class="result-msg">${t(msgKey)}</p>
           <div class="result-stats">
             <div class="rstat"><b>${correct}</b><span>${t("mock.result.correct")}</span></div>
