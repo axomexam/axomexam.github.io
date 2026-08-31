@@ -1,0 +1,1131 @@
+{
+  "id": "coding_decoding",
+  "title": {
+    "en": "Coding-Decoding (Assam Competitive Exams)",
+    "as": "কোডিং-ডিকোডিং (অসম প্ৰতিযোগিতামূলক পৰীক্ষা)"
+  },
+  "description": {
+    "en": "Decode the pattern and find the correct code. Covers letter shift (+1, +2, reverse alphabet), letter-position number coding, word-to-number coding, and word-reversal coding.",
+    "as": "আৰ্হিটো চিনি উলিয়াই শুদ্ধ কোডটো বিচাৰক। বৰ্ণ স্থানান্তৰ (+1, +2, বিপৰীত বৰ্ণমালা), বৰ্ণ-অৱস্থান সংখ্যা কোড, শব্দ-সংখ্যা কোড আৰু শব্দ-বিপৰীত কোড সামৰি লোৱা হৈছে।"
+  },
+  "tags": [
+    "reasoning",
+    "coding",
+    "decoding",
+    "যুক্তি",
+    "কোডিং"
+  ],
+  "pdf": null,
+  "questions": [
+    {
+      "type": "letter_shift",
+      "q": {
+        "en": "If CAT is coded as DBU, then DOG is coded as ?",
+        "as": "যদি CAT ক DBU কোড কৰা হয়, তেন্তে DOG ক কেনেকৈ কোড কৰা হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "EPH",
+          "as": "EPH"
+        },
+        {
+          "option": "B",
+          "en": "EPI",
+          "as": "EPI"
+        },
+        {
+          "option": "C",
+          "en": "EQH",
+          "as": "EQH"
+        },
+        {
+          "option": "D",
+          "en": "FOI",
+          "as": "FOI"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "letter_shift",
+      "q": {
+        "en": "If BOY is coded as CPZ, then GIRL is coded as ?",
+        "as": "যদি BOY ক CPZ কোড কৰা হয়, তেন্তে GIRL ক কেনেকৈ কোড কৰা হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "HJSK",
+          "as": "HJSK"
+        },
+        {
+          "option": "B",
+          "en": "HJSM",
+          "as": "HJSM"
+        },
+        {
+          "option": "C",
+          "en": "HJSL",
+          "as": "HJSL"
+        },
+        {
+          "option": "D",
+          "en": "HKTN",
+          "as": "HKTN"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "letter_shift",
+      "q": {
+        "en": "If HOUSE is coded as IPVTF, then FLOWER is coded as ?",
+        "as": "যদি HOUSE ক IPVTF কোড কৰা হয়, তেন্তে FLOWER ক কেনেকৈ কোড কৰা হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "GMPXER",
+          "as": "GMPXER"
+        },
+        {
+          "option": "B",
+          "en": "GMPXFS",
+          "as": "GMPXFS"
+        },
+        {
+          "option": "C",
+          "en": "GMQXFS",
+          "as": "GMQXFS"
+        },
+        {
+          "option": "D",
+          "en": "GMPXGS",
+          "as": "GMPXGS"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "letter_shift",
+      "q": {
+        "en": "If GOOD is coded as HPPE, then TIME is coded as ?",
+        "as": "যদি GOOD ক HPPE কোড কৰা হয়, তেন্তে TIME ক কেনেকৈ কোড কৰা হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "UJNF",
+          "as": "UJNF"
+        },
+        {
+          "option": "B",
+          "en": "UJMG",
+          "as": "UJMG"
+        },
+        {
+          "option": "C",
+          "en": "TJNF",
+          "as": "TJNF"
+        },
+        {
+          "option": "D",
+          "en": "UINF",
+          "as": "UINF"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "letter_shift",
+      "q": {
+        "en": "If APPLE is coded as BMQQF, then MANGO is coded as ?",
+        "as": "যদি APPLE ক BMQQF কোড কৰা হয়, তেন্তে MANGO ক কেনেকৈ কোড কৰা হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "NBOHS",
+          "as": "NBOHS"
+        },
+        {
+          "option": "B",
+          "en": "NBOHQ",
+          "as": "NBOHQ"
+        },
+        {
+          "option": "C",
+          "en": "NBOHP",
+          "as": "NBOHP"
+        },
+        {
+          "option": "D",
+          "en": "NBPHP",
+          "as": "NBPHP"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "letter_shift",
+      "q": {
+        "en": "If TEA is coded as VGC, then COFFEE is coded as ?",
+        "as": "যদি TEA ক VGC কোড কৰা হয়, তেন্তে COFFEE ক কেনেকৈ কোড কৰা হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "EQHHGG",
+          "as": "EQHHGG"
+        },
+        {
+          "option": "B",
+          "en": "EQHGGH",
+          "as": "EQHGGH"
+        },
+        {
+          "option": "C",
+          "en": "ERHHGG",
+          "as": "ERHHGG"
+        },
+        {
+          "option": "D",
+          "en": "EQIIGG",
+          "as": "EQIIGG"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "letter_shift",
+      "q": {
+        "en": "If MONKEY is coded as NPOLFZ, then GIRAFFE is coded as ?",
+        "as": "যদি MONKEY ক NPOLFZ কোড কৰা হয়, তেন্তে GIRAFFE ক কেনেকৈ কোড কৰা হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "HJSBGGF",
+          "as": "HJSBGGF"
+        },
+        {
+          "option": "B",
+          "en": "HJSBGG",
+          "as": "HJSBGG"
+        },
+        {
+          "option": "C",
+          "en": "HJSBGF",
+          "as": "HJSBGF"
+        },
+        {
+          "option": "D",
+          "en": "HSJBGFG",
+          "as": "HSJBGFG"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "reverse",
+      "q": {
+        "en": "If DEAR is coded as WVIZ, then LOVE is coded as ?",
+        "as": "যদি DEAR ক WVIZ কোড কৰা হয়, তেন্তে LOVE ক কেনেকৈ কোড কৰা হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "OLVE",
+          "as": "OLVE"
+        },
+        {
+          "option": "B",
+          "en": "OLEV",
+          "as": "OLEV"
+        },
+        {
+          "option": "C",
+          "en": "OVEL",
+          "as": "OVEL"
+        },
+        {
+          "option": "D",
+          "en": "OVLE",
+          "as": "OVLE"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "reverse",
+      "q": {
+        "en": "If DOG is coded as WLT, then CAT is coded as ?",
+        "as": "যদি DOG ক WLT কোড কৰা হয়, তেন্তে CAT ক কেনেকৈ কোড কৰা হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "XZG",
+          "as": "XZG"
+        },
+        {
+          "option": "B",
+          "en": "XZU",
+          "as": "XZU"
+        },
+        {
+          "option": "C",
+          "en": "XAG",
+          "as": "XAG"
+        },
+        {
+          "option": "D",
+          "en": "XZW",
+          "as": "XZW"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "position",
+      "q": {
+        "en": "If A=1, B=2, C=3, ... Z=26, then CAT is coded as ?",
+        "as": "যদি A=1, B=2, C=3, ... Z=26 হয়, তেন্তে CAT ৰ কোড কি হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "3120",
+          "as": "3120"
+        },
+        {
+          "option": "B",
+          "en": "213",
+          "as": "213"
+        },
+        {
+          "option": "C",
+          "en": "31219",
+          "as": "31219"
+        },
+        {
+          "option": "D",
+          "en": "321",
+          "as": "321"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "position",
+      "q": {
+        "en": "If NAME is coded as 141315, then ROSE is coded as ?",
+        "as": "যদি NAME ক 141315 কোড কৰা হয়, তেন্তে ROSE ক কেনেকৈ কোড কৰা হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "1815195",
+          "as": "1815195"
+        },
+        {
+          "option": "B",
+          "en": "1816195",
+          "as": "1816195"
+        },
+        {
+          "option": "C",
+          "en": "181505",
+          "as": "181505"
+        },
+        {
+          "option": "D",
+          "en": "1815196",
+          "as": "1815196"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "position",
+      "q": {
+        "en": "If SUN is coded as 54 (S=19, U=21, N=14), then MOON is coded as ?",
+        "as": "যদি SUN ক 54 কোড কৰা হয় (S=19, U=21, N=14), তেন্তে MOON ক কেনেকৈ কোড কৰা হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "56",
+          "as": "৫৬"
+        },
+        {
+          "option": "B",
+          "en": "57",
+          "as": "৫৭"
+        },
+        {
+          "option": "C",
+          "en": "58",
+          "as": "৫৮"
+        },
+        {
+          "option": "D",
+          "en": "55",
+          "as": "৫৫"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "position",
+      "q": {
+        "en": "If A=1, B=2, ... Z=26, then the code for BED is ?",
+        "as": "যদি A=1, B=2, ... Z=26 হয়, তেন্তে BED ৰ কোড কি হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "254",
+          "as": "254"
+        },
+        {
+          "option": "B",
+          "en": "253",
+          "as": "253"
+        },
+        {
+          "option": "C",
+          "en": "264",
+          "as": "264"
+        },
+        {
+          "option": "D",
+          "en": "245",
+          "as": "245"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "position",
+      "q": {
+        "en": "If A=1, B=2, ... then the code for GO is ?",
+        "as": "যদি A=1, B=2, ... হয়, তেন্তে GO ৰ কোড কি হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "815",
+          "as": "815"
+        },
+        {
+          "option": "B",
+          "en": "715",
+          "as": "715"
+        },
+        {
+          "option": "C",
+          "en": "716",
+          "as": "716"
+        },
+        {
+          "option": "D",
+          "en": "615",
+          "as": "615"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "reverse_position",
+      "q": {
+        "en": "If A=26, B=25, ... Z=1, then the code for BOY is ?",
+        "as": "যদি A=26, B=25, ... Z=1 হয়, তেন্তে BOY ৰ কোড কি হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "25122",
+          "as": "25122"
+        },
+        {
+          "option": "B",
+          "en": "25112",
+          "as": "25112"
+        },
+        {
+          "option": "C",
+          "en": "25123",
+          "as": "25123"
+        },
+        {
+          "option": "D",
+          "en": "24122",
+          "as": "24122"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "jumbled",
+      "q": {
+        "en": "If EARTH is coded as HTRAE (letters reversed), then PLANET is coded as ?",
+        "as": "যদি EARTH ক HTRAE কোড কৰা হয় (বৰ্ণবোৰ বিপৰীত), তেন্তে PLANET ক কেনেকৈ কোড কৰা হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "TENALP",
+          "as": "TENALP"
+        },
+        {
+          "option": "B",
+          "en": "TNALEP",
+          "as": "TNALEP"
+        },
+        {
+          "option": "C",
+          "en": "TENLAP",
+          "as": "TENLAP"
+        },
+        {
+          "option": "D",
+          "en": "TELANP",
+          "as": "TELANP"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "jumbled",
+      "q": {
+        "en": "If GOOD is coded as DOOG (letters reversed), then MORNING is coded as ?",
+        "as": "যদি GOOD ক DOOG কোড কৰা হয় (বৰ্ণবোৰ বিপৰীত), তেন্তে MORNING ক কেনেকৈ কোড কৰা হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "GNINROM",
+          "as": "GNINROM"
+        },
+        {
+          "option": "B",
+          "en": "GNINRMO",
+          "as": "GNINRMO"
+        },
+        {
+          "option": "C",
+          "en": "GINNROM",
+          "as": "GINNROM"
+        },
+        {
+          "option": "D",
+          "en": "GNINOMR",
+          "as": "GNINOMR"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "word_code",
+      "q": {
+        "en": "In a code, PEN is written as QFO (each letter +1). How is INK written ?",
+        "as": "এটা কোডত PEN ক QFO বুলি লিখা হয় (প্ৰতিটো বৰ্ণ +1)। INK কেনেকৈ লিখা হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "JOL",
+          "as": "JOL"
+        },
+        {
+          "option": "B",
+          "en": "JOM",
+          "as": "JOM"
+        },
+        {
+          "option": "C",
+          "en": "JNL",
+          "as": "JNL"
+        },
+        {
+          "option": "D",
+          "en": "KOL",
+          "as": "KOL"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "word_code",
+      "q": {
+        "en": "In a code, BOOK is written as CPPL (+1 each). How is MADE written ?",
+        "as": "এটা কোডত BOOK ক CPPL বুলি লিখা হয় (+1 প্ৰতিটো)। MADE কেনেকৈ লিখা হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "NBEF",
+          "as": "NBEF"
+        },
+        {
+          "option": "B",
+          "en": "NBFE",
+          "as": "NBFE"
+        },
+        {
+          "option": "C",
+          "en": "NCEF",
+          "as": "NCEF"
+        },
+        {
+          "option": "D",
+          "en": "MBEF",
+          "as": "MBEF"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "word_code",
+      "q": {
+        "en": "If ROSE is written as QNRD (each letter -1), how is TREE written ?",
+        "as": "যদি ROSE ক QNRD বুলি লিখা হয় (প্ৰতিটো বৰ্ণ -1), তেন্তে TREE কেনেকৈ লিখা হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "SQQD",
+          "as": "SQQD"
+        },
+        {
+          "option": "B",
+          "en": "SQDD",
+          "as": "SQDD"
+        },
+        {
+          "option": "C",
+          "en": "SQQF",
+          "as": "SQQF"
+        },
+        {
+          "option": "D",
+          "en": "SQPD",
+          "as": "SQPD"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "word_code",
+      "q": {
+        "en": "If BAG is coded as 217, then CAP is coded as ?",
+        "as": "যদি BAG ক 217 কোড কৰা হয়, তেন্তে CAP ক কেনেকৈ কোড কৰা হ'ব ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "3116",
+          "as": "3116"
+        },
+        {
+          "option": "B",
+          "en": "3115",
+          "as": "3115"
+        },
+        {
+          "option": "C",
+          "en": "3126",
+          "as": "3126"
+        },
+        {
+          "option": "D",
+          "en": "3161",
+          "as": "3161"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "letter_shift",
+      "q": {
+        "en": "If RED is coded as SFE, then BLUE is coded as ?",
+        "as": "If RED is coded as SFE, then BLUE is coded as ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "CMVF",
+          "as": "CMVF"
+        },
+        {
+          "option": "B",
+          "en": "CLVE",
+          "as": "CLVE"
+        },
+        {
+          "option": "C",
+          "en": "CNVF",
+          "as": "CNVF"
+        },
+        {
+          "option": "D",
+          "en": "CMUF",
+          "as": "CMUF"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "letter_shift",
+      "q": {
+        "en": "If WORK is coded as XPSL, then PLAY is coded as ?",
+        "as": "If WORK is coded as XPSL, then PLAY is coded as ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "QMBZ",
+          "as": "QMBZ"
+        },
+        {
+          "option": "B",
+          "en": "QMAZ",
+          "as": "QMAZ"
+        },
+        {
+          "option": "C",
+          "en": "PMBZ",
+          "as": "PMBZ"
+        },
+        {
+          "option": "D",
+          "en": "QMBY",
+          "as": "QMBY"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "letter_shift",
+      "q": {
+        "en": "If GAME is coded as FZLD, then WIND is coded as ?",
+        "as": "If GAME is coded as FZLD, then WIND is coded as ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "VHMC",
+          "as": "VHMC"
+        },
+        {
+          "option": "B",
+          "en": "VHNC",
+          "as": "VHNC"
+        },
+        {
+          "option": "C",
+          "en": "VGMC",
+          "as": "VGMC"
+        },
+        {
+          "option": "D",
+          "en": "VIMC",
+          "as": "VIMC"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "letter_shift",
+      "q": {
+        "en": "If HELLO is coded as IFMMP, then WORLD is coded as ?",
+        "as": "If HELLO is coded as IFMMP, then WORLD is coded as ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "XPSME",
+          "as": "XPSME"
+        },
+        {
+          "option": "B",
+          "en": "XPSMF",
+          "as": "XPSMF"
+        },
+        {
+          "option": "C",
+          "en": "XPSTE",
+          "as": "XPSTE"
+        },
+        {
+          "option": "D",
+          "en": "XQSMF",
+          "as": "XQSMF"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "letter_shift",
+      "q": {
+        "en": "If FLOWER is coded as GMPXFS, then MONEY is coded as ?",
+        "as": "If FLOWER is coded as GMPXFS, then MONEY is coded as ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "NPOFZ",
+          "as": "NPOFZ"
+        },
+        {
+          "option": "B",
+          "en": "NPOEZ",
+          "as": "NPOEZ"
+        },
+        {
+          "option": "C",
+          "en": "NPOFY",
+          "as": "NPOFY"
+        },
+        {
+          "option": "D",
+          "en": "NQPFZ",
+          "as": "NQPFZ"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "position",
+      "q": {
+        "en": "If A=1, B=2, ... Z=26, then CANDLE = ?",
+        "as": "If A=1, B=2, ... Z=26, then CANDLE = ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "39",
+          "as": "39"
+        },
+        {
+          "option": "B",
+          "en": "40",
+          "as": "40"
+        },
+        {
+          "option": "C",
+          "en": "38",
+          "as": "38"
+        },
+        {
+          "option": "D",
+          "en": "41",
+          "as": "41"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "position",
+      "q": {
+        "en": "If MAT is coded as 13120, then DOG is coded as ?",
+        "as": "If MAT is coded as 13120, then DOG is coded as ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "4157",
+          "as": "4157"
+        },
+        {
+          "option": "B",
+          "en": "4156",
+          "as": "4156"
+        },
+        {
+          "option": "C",
+          "en": "4057",
+          "as": "4057"
+        },
+        {
+          "option": "D",
+          "en": "4158",
+          "as": "4158"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "position",
+      "q": {
+        "en": "If PEN is coded as 161514, then BED is coded as ?",
+        "as": "If PEN is coded as 161514, then BED is coded as ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "254",
+          "as": "254"
+        },
+        {
+          "option": "B",
+          "en": "253",
+          "as": "253"
+        },
+        {
+          "option": "C",
+          "en": "264",
+          "as": "264"
+        },
+        {
+          "option": "D",
+          "en": "245",
+          "as": "245"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "letter_shift",
+      "q": {
+        "en": "If TEA is coded as WHD (+3), then COFFEE is coded as ?",
+        "as": "If TEA is coded as WHD (+3), then COFFEE is coded as ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "FRIHH",
+          "as": "FRIHH"
+        },
+        {
+          "option": "B",
+          "en": "FRIHI",
+          "as": "FRIHI"
+        },
+        {
+          "option": "C",
+          "en": "FRHIH",
+          "as": "FRHIH"
+        },
+        {
+          "option": "D",
+          "en": "ERIHH",
+          "as": "ERIHH"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "letter_shift",
+      "q": {
+        "en": "If NIGHT is coded as OJHU, then MORNING is coded as ?",
+        "as": "If NIGHT is coded as OJHU, then MORNING is coded as ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "NPSOJOH",
+          "as": "NPSOJOH"
+        },
+        {
+          "option": "B",
+          "en": "NPSOJOG",
+          "as": "NPSOJOG"
+        },
+        {
+          "option": "C",
+          "en": "NPSOJOI",
+          "as": "NPSOJOI"
+        },
+        {
+          "option": "D",
+          "en": "NPROJOH",
+          "as": "NPROJOH"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "letter_shift",
+      "q": {
+        "en": "If SILK is coded as TLML, then COTTON is coded as ?",
+        "as": "If SILK is coded as TLML, then COTTON is coded as ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "DPUUPO",
+          "as": "DPUUPO"
+        },
+        {
+          "option": "B",
+          "en": "DPUUPN",
+          "as": "DPUUPN"
+        },
+        {
+          "option": "C",
+          "en": "DPUUQO",
+          "as": "DPUUQO"
+        },
+        {
+          "option": "D",
+          "en": "DQUUPO",
+          "as": "DQUUPO"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "reverse",
+      "q": {
+        "en": "If BLACK is coded as YOZXP, then WHITE is coded as ?",
+        "as": "If BLACK is coded as YOZXP, then WHITE is coded as ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "DSRGV",
+          "as": "DSRGV"
+        },
+        {
+          "option": "B",
+          "en": "DSRGU",
+          "as": "DSRGU"
+        },
+        {
+          "option": "C",
+          "en": "DSQGV",
+          "as": "DSQGV"
+        },
+        {
+          "option": "D",
+          "en": "DTRGV",
+          "as": "DTRGV"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "reverse",
+      "q": {
+        "en": "If A=Z, B=Y, then GOOD is coded as ?",
+        "as": "If A=Z, B=Y, then GOOD is coded as ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "TLLW",
+          "as": "TLLW"
+        },
+        {
+          "option": "B",
+          "en": "TLLV",
+          "as": "TLLV"
+        },
+        {
+          "option": "C",
+          "en": "ULLW",
+          "as": "ULLW"
+        },
+        {
+          "option": "D",
+          "en": "TMLW",
+          "as": "TMLW"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "position",
+      "q": {
+        "en": "If GAME = 31, then SPORT = ?",
+        "as": "If GAME = 31, then SPORT = ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "88",
+          "as": "88"
+        },
+        {
+          "option": "B",
+          "en": "87",
+          "as": "87"
+        },
+        {
+          "option": "C",
+          "en": "89",
+          "as": "89"
+        },
+        {
+          "option": "D",
+          "en": "86",
+          "as": "86"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "position",
+      "q": {
+        "en": "If RAT is coded as 39, then CAT is coded as ?",
+        "as": "If RAT is coded as 39, then CAT is coded as ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "24",
+          "as": "24"
+        },
+        {
+          "option": "B",
+          "en": "25",
+          "as": "25"
+        },
+        {
+          "option": "C",
+          "en": "23",
+          "as": "23"
+        },
+        {
+          "option": "D",
+          "en": "26",
+          "as": "26"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "letter_shift",
+      "q": {
+        "en": "If JANUARY is coded as KBOVBSZ, then FEBRUARY is coded as ?",
+        "as": "If JANUARY is coded as KBOVBSZ, then FEBRUARY is coded as ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "GFCSVBZ",
+          "as": "GFCSVBZ"
+        },
+        {
+          "option": "B",
+          "en": "GFCSVB",
+          "as": "GFCSVB"
+        },
+        {
+          "option": "C",
+          "en": "GFCSVCZ",
+          "as": "GFCSVCZ"
+        },
+        {
+          "option": "D",
+          "en": "GFDSVBZ",
+          "as": "GFDSVBZ"
+        }
+      ],
+      "a": "A"
+    }
+  ]
+}
