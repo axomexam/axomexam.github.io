@@ -1,0 +1,471 @@
+{
+  "id": "mathematical_operations",
+  "title": { "en": "Mathematical Operations Test (Assam Competitive Exams)", "as": "গাণিতিক কাৰ্য পৰীক্ষা (অসম প্ৰতিযোগিতামূলক পৰীক্ষা)" },
+  "description": { "en": "Solve symbol substitution, sign-number interchange, coded operations, BODMAS and conditional operation puzzles.", "as": "চিহ্ন পৰিৱৰ্তন, চিহ্ন-সংখ্যা বিনিময়, ক'ডেড কাৰ্য, BODMAS আৰু চৰ্তযুক্ত কাৰ্যৰ সমস্যা সমাধান কৰক।" },
+  "tags": ["reasoning", "mathematical-operations", "symbol-substitution", "যুক্তি", "গাণিতিক-কাৰ্য"],
+  "pdf": null,
+  "questions": [
+    {
+      "type": "symbol-substitution",
+      "q": { "en": "If '+' means '−', '−' means '×', '×' means '+' and '÷' means '÷', then what is the value of 8 × 3 + 4 − 2?", "as": "যদি '+' অৰ্থ '−', '−' অৰ্থ '×', '×' অৰ্থ '+' আৰু '÷' অৰ্থ '÷' হয়, তেন্তে 8 × 3 + 4 − 2 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "4", "as": "৪" },
+        { "option": "B", "en": "3", "as": "৩" },
+        { "option": "C", "en": "6", "as": "৬" },
+        { "option": "D", "en": "10", "as": "১০" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "symbol-substitution",
+      "q": { "en": "If '+' means '÷', '−' means '×', '×' means '−' and '÷' means '+', then what is the value of 16 + 4 × 2 − 3 ÷ 5?", "as": "যদি '+' অৰ্থ '÷', '−' অৰ্থ '×', '×' অৰ্থ '−' আৰু '÷' অৰ্থ '+' হয়, তেন্তে 16 + 4 × 2 − 3 ÷ 5 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "7", "as": "৭" },
+        { "option": "B", "en": "3", "as": "৩" },
+        { "option": "C", "en": "5", "as": "৫" },
+        { "option": "D", "en": "4", "as": "৪" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "symbol-substitution",
+      "q": { "en": "If '+' means '×', '−' means '÷', '×' means '−' and '÷' means '+', then what is the value of 12 × 2 + 4 ÷ 8 − 2?", "as": "যদি '+' অৰ্থ '×', '−' অৰ্থ '÷', '×' অৰ্থ '−' আৰু '÷' অৰ্থ '+' হয়, তেন্তে 12 × 2 + 4 ÷ 8 − 2 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "10", "as": "১০" },
+        { "option": "B", "en": "6", "as": "৬" },
+        { "option": "C", "en": "8", "as": "৮" },
+        { "option": "D", "en": "12", "as": "১২" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "symbol-substitution",
+      "q": { "en": "If '+' means '×', '−' means '+', '×' means '÷' and '÷' means '−', then what is the value of 18 ÷ 6 + 2 × 3 − 4?", "as": "যদি '+' অৰ্থ '×', '−' অৰ্থ '+', '×' অৰ্থ '÷' আৰু '÷' অৰ্থ '−' হয়, তেন্তে 18 ÷ 6 + 2 × 3 − 4 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "12", "as": "১২" },
+        { "option": "B", "en": "18", "as": "১৮" },
+        { "option": "C", "en": "15", "as": "১৫" },
+        { "option": "D", "en": "20", "as": "২০" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "symbol-substitution",
+      "q": { "en": "If '+' means '−', '−' means '÷', '×' means '+' and '÷' means '×', then what is the value of 20 − 4 ÷ 2 + 5 × 3?", "as": "যদি '+' অৰ্থ '−', '−' অৰ্থ '÷', '×' অৰ্থ '+' আৰু '÷' অৰ্থ '×' হয়, তেন্তে 20 − 4 ÷ 2 + 5 × 3 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "7", "as": "৭" },
+        { "option": "B", "en": "9", "as": "৯" },
+        { "option": "C", "en": "8", "as": "৮" },
+        { "option": "D", "en": "6", "as": "৬" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "symbol-substitution",
+      "q": { "en": "If '+' means '÷', '−' means '+', '×' means '−' and '÷' means '×', then what is the value of 24 + 4 × 2 ÷ 3 − 5?", "as": "যদি '+' অৰ্থ '÷', '−' অৰ্থ '+', '×' অৰ্থ '−' আৰু '÷' অৰ্থ '×' হয়, তেন্তে 24 + 4 × 2 ÷ 3 − 5 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "5", "as": "৫" },
+        { "option": "B", "en": "7", "as": "৭" },
+        { "option": "C", "en": "9", "as": "৯" },
+        { "option": "D", "en": "3", "as": "৩" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "symbol-substitution",
+      "q": { "en": "If '+' means '−', '−' means '+', '×' means '÷' and '÷' means '×', then what is the value of 20 ÷ 5 × 2 + 4 − 6?", "as": "যদি '+' অৰ্থ '−', '−' অৰ্থ '+', '×' অৰ্থ '÷' আৰু '÷' অৰ্থ '×' হয়, তেন্তে 20 ÷ 5 × 2 + 4 − 6 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "50", "as": "৫০" },
+        { "option": "B", "en": "48", "as": "৪৮" },
+        { "option": "C", "en": "52", "as": "৫২" },
+        { "option": "D", "en": "56", "as": "৫৬" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "symbol-substitution",
+      "q": { "en": "If '+' means '−', '−' means '×', '×' means '÷' and '÷' means '+', then what is the value of 24 ÷ 8 − 2 × 4 + 6?", "as": "যদি '+' অৰ্থ '−', '−' অৰ্থ '×', '×' অৰ্থ '÷' আৰু '÷' অৰ্থ '+' হয়, তেন্তে 24 ÷ 8 − 2 × 4 + 6 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "20", "as": "২০" },
+        { "option": "B", "en": "22", "as": "২২" },
+        { "option": "C", "en": "18", "as": "১৮" },
+        { "option": "D", "en": "24", "as": "২৪" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "symbol-substitution",
+      "q": { "en": "If '+' means '×', '−' means '÷', '×' means '+' and '÷' means '−', then what is the value of 9 ÷ 3 + 4 − 2 × 5?", "as": "যদি '+' অৰ্থ '×', '−' অৰ্থ '÷', '×' অৰ্থ '+' আৰু '÷' অৰ্থ '−' হয়, তেন্তে 9 ÷ 3 + 4 − 2 × 5 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "8", "as": "৮" },
+        { "option": "B", "en": "6", "as": "৬" },
+        { "option": "C", "en": "10", "as": "১০" },
+        { "option": "D", "en": "4", "as": "৪" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "symbol-substitution",
+      "q": { "en": "If '+' means '−', '−' means '÷', '×' means '×' and '÷' means '+', then what is the value of 24 − 6 × 2 ÷ 4 + 8?", "as": "যদি '+' অৰ্থ '−', '−' অৰ্থ '÷', '×' অৰ্থ '×' আৰু '÷' অৰ্থ '+' হয়, তেন্তে 24 − 6 × 2 ÷ 4 + 8 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "6", "as": "৬" },
+        { "option": "B", "en": "4", "as": "৪" },
+        { "option": "C", "en": "8", "as": "৮" },
+        { "option": "D", "en": "2", "as": "২" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "interchange",
+      "q": { "en": "If the signs '+' and '×' are interchanged, and the numbers 2 and 4 are interchanged, then what is the value of 4 + 2 × 6?", "as": "যদি '+' আৰু '×' চিহ্ন দুটা বিনিময় হয়, আৰু 2 আৰু 4 সংখ্যা দুটাও বিনিময় হয়, তেন্তে 4 + 2 × 6 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "12", "as": "১২" },
+        { "option": "B", "en": "14", "as": "১৪" },
+        { "option": "C", "en": "16", "as": "১৬" },
+        { "option": "D", "en": "18", "as": "১৮" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "interchange",
+      "q": { "en": "If the signs '+' and '−' are interchanged, and the numbers 5 and 8 are interchanged, then what is the value of 8 − 5 + 2?", "as": "যদি '+' আৰু '−' চিহ্ন দুটা বিনিময় হয়, আৰু 5 আৰু 8 সংখ্যা দুটাও বিনিময় হয়, তেন্তে 8 − 5 + 2 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "9", "as": "৯" },
+        { "option": "B", "en": "10", "as": "১০" },
+        { "option": "C", "en": "11", "as": "১১" },
+        { "option": "D", "en": "12", "as": "১২" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "interchange",
+      "q": { "en": "If the signs '×' and '÷' are interchanged, and the numbers 6 and 3 are interchanged, then what is the value of 6 × 3 ÷ 2?", "as": "যদি '×' আৰু '÷' চিহ্ন দুটা বিনিময় হয়, আৰু 6 আৰু 3 সংখ্যা দুটাও বিনিময় হয়, তেন্তে 6 × 3 ÷ 2 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "2", "as": "২" },
+        { "option": "B", "en": "3", "as": "৩" },
+        { "option": "C", "en": "1", "as": "১" },
+        { "option": "D", "en": "4", "as": "৪" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "interchange",
+      "q": { "en": "If the signs '+' and '×' are interchanged, and the numbers 3 and 6 are interchanged, then what is the value of 3 + 6 × 2?", "as": "যদি '+' আৰু '×' চিহ্ন দুটা বিনিময় হয়, আৰু 3 আৰু 6 সংখ্যা দুটাও বিনিময় হয়, তেন্তে 3 + 6 × 2 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "18", "as": "১৮" },
+        { "option": "B", "en": "20", "as": "২০" },
+        { "option": "C", "en": "15", "as": "১৫" },
+        { "option": "D", "en": "24", "as": "২৪" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "coded-operation",
+      "q": { "en": "If a × b means a + b + ab, then what is the value of 2 × 3?", "as": "যদি a × b ৰ অৰ্থ a + b + ab হয়, তেন্তে 2 × 3 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "8", "as": "৮" },
+        { "option": "B", "en": "10", "as": "১০" },
+        { "option": "C", "en": "11", "as": "১১" },
+        { "option": "D", "en": "12", "as": "১২" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "coded-operation",
+      "q": { "en": "If a × b means a² + b, then what is the value of 5 × 2?", "as": "যদি a × b ৰ অৰ্থ a² + b হয়, তেন্তে 5 × 2 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "25", "as": "২৫" },
+        { "option": "B", "en": "27", "as": "২৭" },
+        { "option": "C", "en": "23", "as": "২৩" },
+        { "option": "D", "en": "29", "as": "২৯" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "coded-operation",
+      "q": { "en": "If a @ b means a² − b², then what is the value of 5 @ 3?", "as": "যদি a @ b ৰ অৰ্থ a² − b² হয়, তেন্তে 5 @ 3 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "15", "as": "১৫" },
+        { "option": "B", "en": "16", "as": "১৬" },
+        { "option": "C", "en": "20", "as": "২০" },
+        { "option": "D", "en": "12", "as": "১২" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "coded-operation",
+      "q": { "en": "If a # b means a × b + 2 and a $ b means a + b − 3, then what is the value of 4 # 6 + 8 $ 5?", "as": "যদি a # b ৰ অৰ্থ a × b + 2 আৰু a $ b ৰ অৰ্থ a + b − 3 হয়, তেন্তে 4 # 6 + 8 $ 5 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "32", "as": "৩২" },
+        { "option": "B", "en": "34", "as": "৩৪" },
+        { "option": "C", "en": "36", "as": "৩৬" },
+        { "option": "D", "en": "38", "as": "৩৮" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "coded-operation",
+      "q": { "en": "If a ⇒ b means a ÷ b + 1, then what is the value of 12 ⇒ 3?", "as": "যদি a ⇒ b ৰ অৰ্থ a ÷ b + 1 হয়, তেন্তে 12 ⇒ 3 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "4", "as": "৪" },
+        { "option": "B", "en": "5", "as": "৫" },
+        { "option": "C", "en": "6", "as": "৬" },
+        { "option": "D", "en": "7", "as": "৭" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "coded-operation",
+      "q": { "en": "If a ⊕ b means (a × b) − (a + b), then what is the value of 6 ⊕ 4?", "as": "যদি a ⊕ b ৰ অৰ্থ (a × b) − (a + b) হয়, তেন্তে 6 ⊕ 4 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "12", "as": "১২" },
+        { "option": "B", "en": "14", "as": "১৪" },
+        { "option": "C", "en": "16", "as": "১৬" },
+        { "option": "D", "en": "10", "as": "১০" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "equation-correct",
+      "q": { "en": "If '+' means '×', '−' means '+', '×' means '−' and '÷' means '÷', then which of the following equations is correct?", "as": "যদি '+' অৰ্থ '×', '−' অৰ্থ '+', '×' অৰ্থ '−' আৰু '÷' অৰ্থ '÷' হয়, তেন্তে তলৰ কোনটো সমীকৰণ শুদ্ধ?" },
+      "options": [
+        { "option": "A", "en": "2 + 3 × 4 ÷ 2 = 4", "as": "2 + 3 × 4 ÷ 2 = 4" },
+        { "option": "B", "en": "3 × 2 + 4 ÷ 1 = 8", "as": "3 × 2 + 4 ÷ 1 = 8" },
+        { "option": "C", "en": "4 + 2 − 3 × 1 = 5", "as": "4 + 2 − 3 × 1 = 5" },
+        { "option": "D", "en": "2 × 4 + 2 − 1 = 9", "as": "2 × 4 + 2 − 1 = 9" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "equation-correct",
+      "q": { "en": "If '+' means '−', '−' means '÷', '×' means '+' and '÷' means '×', then which of the following equations is correct?", "as": "যদি '+' অৰ্থ '−', '−' অৰ্থ '÷', '×' অৰ্থ '+' আৰু '÷' অৰ্থ '×' হয়, তেন্তে তলৰ কোনটো সমীকৰণ শুদ্ধ?" },
+      "options": [
+        { "option": "A", "en": "9 − 3 + 2 × 1 = 2", "as": "9 − 3 + 2 × 1 = 2" },
+        { "option": "B", "en": "9 × 3 − 2 + 1 = 8", "as": "9 × 3 − 2 + 1 = 8" },
+        { "option": "C", "en": "8 + 2 − 3 × 1 = 7", "as": "8 + 2 − 3 × 1 = 7" },
+        { "option": "D", "en": "6 × 2 + 4 − 1 = 10", "as": "6 × 2 + 4 − 1 = 10" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "equation-correct",
+      "q": { "en": "If '+' means '−', '−' means '×', '×' means '÷' and '÷' means '+', then which of the following equations is correct?", "as": "যদি '+' অৰ্থ '−', '−' অৰ্থ '×', '×' অৰ্থ '÷' আৰু '÷' অৰ্থ '+' হয়, তেন্তে তলৰ কোনটো সমীকৰণ শুদ্ধ?" },
+      "options": [
+        { "option": "A", "en": "6 − 2 × 3 = 4", "as": "6 − 2 × 3 = 4" },
+        { "option": "B", "en": "8 − 4 × 2 = 8", "as": "8 − 4 × 2 = 8" },
+        { "option": "C", "en": "9 − 3 × 2 = 4", "as": "9 − 3 × 2 = 4" },
+        { "option": "D", "en": "12 − 6 × 1 = 3", "as": "12 − 6 × 1 = 3" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "equation-correct",
+      "q": { "en": "If the signs '+' and '×' and the numbers 2 and 6 are interchanged, then which of the following equations is correct?", "as": "যদি '+' আৰু '×' চিহ্ন দুটা আৰু 2 আৰু 6 সংখ্যা দুটা বিনিময় হয়, তেন্তে তলৰ কোনটো সমীকৰণ শুদ্ধ?" },
+      "options": [
+        { "option": "A", "en": "6 + 2 × 1 = 13", "as": "6 + 2 × 1 = 13" },
+        { "option": "B", "en": "6 × 2 + 1 = 13", "as": "6 × 2 + 1 = 13" },
+        { "option": "C", "en": "6 + 2 × 3 = 20", "as": "6 + 2 × 3 = 20" },
+        { "option": "D", "en": "6 × 2 + 4 = 16", "as": "6 × 2 + 4 = 16" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "bodmas",
+      "q": { "en": "Simplify: 12 + 6 × 2 ÷ 3 − 4", "as": "সৰল কৰক: 12 + 6 × 2 ÷ 3 − 4" },
+      "options": [
+        { "option": "A", "en": "12", "as": "১২" },
+        { "option": "B", "en": "14", "as": "১৪" },
+        { "option": "C", "en": "10", "as": "১০" },
+        { "option": "D", "en": "16", "as": "১৬" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "bodmas",
+      "q": { "en": "Simplify: 18 ÷ 3 × 2 + 5 − 1", "as": "সৰল কৰক: 18 ÷ 3 × 2 + 5 − 1" },
+      "options": [
+        { "option": "A", "en": "14", "as": "১৪" },
+        { "option": "B", "en": "16", "as": "১৬" },
+        { "option": "C", "en": "12", "as": "১২" },
+        { "option": "D", "en": "18", "as": "১৮" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "bodmas",
+      "q": { "en": "Simplify: 7 × 6 + 24 ÷ 6 − 8", "as": "সৰল কৰক: 7 × 6 + 24 ÷ 6 − 8" },
+      "options": [
+        { "option": "A", "en": "34", "as": "৩৪" },
+        { "option": "B", "en": "36", "as": "৩৬" },
+        { "option": "C", "en": "38", "as": "৩৮" },
+        { "option": "D", "en": "42", "as": "৪২" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "bodmas",
+      "q": { "en": "Simplify: 100 − 4 × 12 + 30 ÷ 5", "as": "সৰল কৰক: 100 − 4 × 12 + 30 ÷ 5" },
+      "options": [
+        { "option": "A", "en": "52", "as": "৫২" },
+        { "option": "B", "en": "58", "as": "৫৮" },
+        { "option": "C", "en": "56", "as": "৫৬" },
+        { "option": "D", "en": "62", "as": "৬২" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "bodmas",
+      "q": { "en": "Simplify: 48 ÷ 6 × 5 + 12 − 3", "as": "সৰল কৰক: 48 ÷ 6 × 5 + 12 − 3" },
+      "options": [
+        { "option": "A", "en": "45", "as": "৪৫" },
+        { "option": "B", "en": "49", "as": "৪৯" },
+        { "option": "C", "en": "47", "as": "৪৭" },
+        { "option": "D", "en": "52", "as": "৫২" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "bodmas",
+      "q": { "en": "Simplify: 25 × 4 − 108 ÷ 9 + 6", "as": "সৰল কৰক: 25 × 4 − 108 ÷ 9 + 6" },
+      "options": [
+        { "option": "A", "en": "90", "as": "৯০" },
+        { "option": "B", "en": "96", "as": "৯৬" },
+        { "option": "C", "en": "94", "as": "৯৪" },
+        { "option": "D", "en": "98", "as": "৯৮" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "conditional-operation",
+      "q": { "en": "If a ⊕ b = a + b when a > b, otherwise a − b, then what is the value of 8 ⊕ 3?", "as": "যদি a ⊕ b = a + b হয় যেতিয়া a > b, নহ'লে a − b হয়, তেন্তে 8 ⊕ 3 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "5", "as": "৫" },
+        { "option": "B", "en": "11", "as": "১১" },
+        { "option": "C", "en": "8", "as": "৮" },
+        { "option": "D", "en": "24", "as": "২৪" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "conditional-operation",
+      "q": { "en": "If a ⊙ b = a × b when a is even, otherwise a + b, then what is the value of 6 ⊙ 4?", "as": "যদি a ⊙ b = a × b হয় যেতিয়া a যুগ্ম (জোৰ) হয়, নহ'লে a + b হয়, তেন্তে 6 ⊙ 4 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "10", "as": "১০" },
+        { "option": "B", "en": "20", "as": "২০" },
+        { "option": "C", "en": "24", "as": "২৪" },
+        { "option": "D", "en": "12", "as": "১২" }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "conditional-operation",
+      "q": { "en": "If a ⊛ b = a + b when both are even, otherwise a − b, then what is the value of 4 ⊛ 6?", "as": "যদি a ⊛ b = a + b হয় যেতিয়া দুয়োটাই যুগ্ম (জোৰ) হয়, নহ'লে a − b হয়, তেন্তে 4 ⊛ 6 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "10", "as": "১০" },
+        { "option": "B", "en": "2", "as": "২" },
+        { "option": "C", "en": "4", "as": "৪" },
+        { "option": "D", "en": "8", "as": "৮" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "conditional-operation",
+      "q": { "en": "If a © b = a + b when a is odd, otherwise a × b, then what is the value of 5 © 3?", "as": "যদি a © b = a + b হয় যেতিয়া a অযুগ্ম (বিজোৰ) হয়, নহ'লে a × b হয়, তেন্তে 5 © 3 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "8", "as": "৮" },
+        { "option": "B", "en": "15", "as": "১৫" },
+        { "option": "C", "en": "5", "as": "৫" },
+        { "option": "D", "en": "12", "as": "১২" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "mixed",
+      "q": { "en": "If '+' means '×', '−' means '÷', '×' means '+' and '÷' means '−', then what is the value of (6 × 3) − 2 + 4?", "as": "যদি '+' অৰ্থ '×', '−' অৰ্থ '÷', '×' অৰ্থ '+' আৰু '÷' অৰ্থ '−' হয়, তেন্তে (6 × 3) − 2 + 4 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "16", "as": "১৬" },
+        { "option": "B", "en": "18", "as": "১৮" },
+        { "option": "C", "en": "14", "as": "১৪" },
+        { "option": "D", "en": "20", "as": "২০" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "mixed",
+      "q": { "en": "If '+' means '−', '−' means '×', '×' means '÷' and '÷' means '+', then what is the value of 36 ÷ 4 + 2 × 6 − 3?", "as": "যদি '+' অৰ্থ '−', '−' অৰ্থ '×', '×' অৰ্থ '÷' আৰু '÷' অৰ্থ '+' হয়, তেন্তে 36 ÷ 4 + 2 × 6 − 3 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "37", "as": "৩৭" },
+        { "option": "B", "en": "39", "as": "৩৯" },
+        { "option": "C", "en": "41", "as": "৪১" },
+        { "option": "D", "en": "35", "as": "৩৫" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "coded-operation",
+      "q": { "en": "If a ^ b means a² + b² and a & b means a² − b², then what is the value of 5 ^ 3 + 4 & 1?", "as": "যদি a ^ b ৰ অৰ্থ a² + b² আৰু a & b ৰ অৰ্থ a² − b² হয়, তেন্তে 5 ^ 3 + 4 & 1 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "45", "as": "৪৫" },
+        { "option": "B", "en": "49", "as": "৪৯" },
+        { "option": "C", "en": "50", "as": "৫০" },
+        { "option": "D", "en": "44", "as": "৪৪" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "interchange",
+      "q": { "en": "If the signs '+' and '×' and the numbers 2 and 5 are interchanged, then what is the value of 5 + 2 × 3?", "as": "যদি '+' আৰু '×' চিহ্ন দুটা আৰু 2 আৰু 5 সংখ্যা দুটা বিনিময় হয়, তেন্তে 5 + 2 × 3 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "13", "as": "১৩" },
+        { "option": "B", "en": "11", "as": "১১" },
+        { "option": "C", "en": "15", "as": "১৫" },
+        { "option": "D", "en": "10", "as": "১০" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "equation-correct",
+      "q": { "en": "Which of the following pairs of signs will make the equation 12 __ 4 __ 5 = 8 correct?", "as": "তলৰ কোনটো চিহ্ন জোৰাই 12 __ 4 __ 5 = 8 সমীকৰণটো শুদ্ধ কৰিব?" },
+      "options": [
+        { "option": "A", "en": "÷, +", "as": "÷, +" },
+        { "option": "B", "en": "×, −", "as": "×, −" },
+        { "option": "C", "en": "+, ÷", "as": "+, ÷" },
+        { "option": "D", "en": "−, ×", "as": "−, ×" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "mixed",
+      "q": { "en": "If '+' means '×', '−' means '+', '×' means '÷' and '÷' means '−', then what is the value of 30 ÷ 6 × 3 − 4 + 5?", "as": "যদি '+' অৰ্থ '×', '−' অৰ্থ '+', '×' অৰ্থ '÷' আৰু '÷' অৰ্থ '−' হয়, তেন্তে 30 ÷ 6 × 3 − 4 + 5 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "48", "as": "৪৮" },
+        { "option": "B", "en": "44", "as": "৪৪" },
+        { "option": "C", "en": "50", "as": "৫০" },
+        { "option": "D", "en": "46", "as": "৪৬" }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "coded-operation",
+      "q": { "en": "If a # b means (a × b) ÷ 2, then what is the value of 6 # 8?", "as": "যদি a # b ৰ অৰ্থ (a × b) ÷ 2 হয়, তেন্তে 6 # 8 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "22", "as": "২২" },
+        { "option": "B", "en": "24", "as": "২৪" },
+        { "option": "C", "en": "28", "as": "২৮" },
+        { "option": "D", "en": "20", "as": "২০" }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "coded-operation",
+      "q": { "en": "If a * b means a + b and a $ b means a × b, then what is the value of 4 * 3 $ 2?", "as": "যদি a * b ৰ অৰ্থ a + b আৰু a $ b ৰ অৰ্থ a × b হয়, তেন্তে 4 * 3 $ 2 ৰ মান কিমান?" },
+      "options": [
+        { "option": "A", "en": "9", "as": "৯" },
+        { "option": "B", "en": "10", "as": "১০" },
+        { "option": "C", "en": "14", "as": "১৪" },
+        { "option": "D", "en": "20", "as": "২০" }
+      ],
+      "a": "B"
+    }
+  ]
+}
