@@ -3276,6 +3276,8 @@
         </div>
       </div>`;
 
+    resetScroll();
+
     const qCard = $(".quiz-card");
     if (qCard) renderMathJax(qCard);
 
@@ -3409,6 +3411,8 @@
           }).join("")}
         </div>
       </div>`;
+
+    resetScroll();
 
     const revList = $("#review-list");
     if (revList) renderMathJax(revList);
