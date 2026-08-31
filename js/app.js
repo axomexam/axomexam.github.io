@@ -665,8 +665,8 @@
   function updateSEO() {
     try {
       const segs = parsePath();
-      let title = "axomexam | Competitive Exam Preparation";
-      let desc = "Free bilingual (Assamese & English) Q&A and PDF notes for competitive exams in Assam.";
+      let title = "axomexam | Assam Exam Preparation – Mock Tests, Previous Papers & PDF Notes";
+      let desc = "Free bilingual (Assamese & English) Q&A, mock tests and PDF notes for Assam exam, ADRE, APSC and Assam Police preparation.";
 
       if (segs[0] === "topic") {
         const rec = state.topicMap[segs.slice(1).join("/")];
@@ -842,7 +842,45 @@
               </span>
             </a>`).join("")}
         </div>
+      </section>
+
+      <section class="section" style="padding-bottom:40px;">
+        <div class="section-head reveal">
+          <div>
+            <h2>Assam Exam Preparation at Your Fingertips</h2>
+            <p class="sec-sub">Free mock tests, previous year papers & study notes for every Assam competitive exam</p>
+          </div>
+        </div>
+        <style>
+          .seo-read-more { display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+          .seo-read-more.expanded { display:block; -webkit-line-clamp:unset; }
+        </style>
+        <div style="max-width:860px; margin:0 auto; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:18px; padding:26px 28px; box-shadow:0 6px 20px -8px rgba(15,23,42,0.06); text-align:left;">
+          <div class="seo-read-more" id="seo-read-more">
+            <p style="font-size:0.97rem; line-height:1.8; color:var(--ink-soft,#334155); margin:0 0 14px 0;">
+              <b style="color:var(--ink,#0f172a);">axomexam</b> is a free bilingual study platform built for <b>Assam exam</b> aspirants — however you search for it, whether <b>axom exam</b>, <b>assam exam</b> or <b>assamexam</b>. Whether you are preparing for the <b>ADRE</b> (Assam Direct Recruitment Examination), <b>APSC</b>, <b>Assam Police</b>, or central exams like SSC and Railway, you will find thousands of practice questions, mock tests and previous year papers — all available in both English and Assamese. Many students look for the <b>exam Assam</b> or <b>exam Axom</b> (অসম পৰীক্ষা), and <b>axomexam</b> makes sure every major Assam government recruitment exam is covered here.
+            </p>
+            <p style="font-size:0.97rem; line-height:1.8; color:var(--ink-soft,#334155); margin:0 0 14px 0;">
+              From Assam General Knowledge, Assam History and Assam Geography to Indian Polity, Mathematics, Reasoning, General English and Science, the question bank is organised subject-wise so you can practise topic by topic. Each question includes a clear answer and explanation, and every mock test runs on a live timer just like the real exam — completely free, with no registration needed.
+            </p>
+            <p style="font-size:0.97rem; line-height:1.8; color:var(--ink-soft,#334155); margin:0;">
+              Get started with a <a href="/mock-test" style="color:var(--primary,#2563eb); font-weight:700; text-decoration:underline;">free mock test</a>, go through the <a href="/previous-year" style="color:var(--primary,#2563eb); font-weight:700; text-decoration:underline;">previous year solved papers</a>, or download <a href="/downloads" style="color:var(--primary,#2563eb); font-weight:700; text-decoration:underline;">PDF study notes</a> for offline practice.
+            </p>
+          </div>
+          <button id="seo-read-more-btn" type="button" style="margin-top:14px; padding:8px 18px; border-radius:99px; font-weight:800; font-size:0.85rem; cursor:pointer; color:var(--primary,#2563eb); background:var(--primary-soft,#eff6ff); border:1px solid var(--border,#cbd5e1);">Read More</button>
+        </div>
       </section>`;
+
+    const seoBtn = $("#seo-read-more-btn");
+    if (seoBtn) {
+      seoBtn.addEventListener("click", () => {
+        const box = $("#seo-read-more");
+        if (!box) return;
+        const expanded = box.classList.contains("expanded");
+        box.classList.toggle("expanded", !expanded);
+        seoBtn.textContent = expanded ? "Read More" : "Read Less";
+      });
+    }
 
     observeReveals();
   }
