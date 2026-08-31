@@ -279,6 +279,12 @@ h1, h2, h3, h4 { line-height: 1.25; font-weight: 700; }
 .dropdown .dropdown { top: -6px; left: 100%; margin-left: 4px; }
 .has-drop .has-drop:hover > .dropdown { opacity: 1; visibility: visible; transform: translateY(0); }
 
+/* Keep the right-most ("More") dropdown inside the viewport so narrow
+   desktop windows / mobile desktop-mode don't get horizontal overflow,
+   which pushed the whole UI off-centre. */
+.nav-list > li:last-child > .dropdown { left: auto; right: 0; }
+.nav-list > li:last-child > .dropdown .dropdown { left: auto; right: 100%; }
+
 /* Dropdown section label */
 .dropdown .d-label { padding: 8px 12px 4px; font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .7px; color: var(--ink-faint); }
 
@@ -938,6 +944,12 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   .container { max-width: 1360px; }
   .nav-list { flex-wrap: nowrap; gap: 1px; }
   .nav-link { padding: 8px 11px; margin: 0; font-size: .93rem; }
+}
+
+/* Narrow desktop / desktop-mode-on-mobile: let the nav wrap instead of
+   overflowing the viewport so the UI stays centred. */
+@media (min-width: 901px) and (max-width: 1100px) {
+  .nav-list { flex-wrap: wrap; }
 }
 
 @media (max-width: 640px) {
