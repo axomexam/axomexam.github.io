@@ -3273,8 +3273,8 @@
           </div>
 
           <div class="quiz-feedback" id="quiz-feedback"></div>
-          <button class="btn btn-primary quiz-next" id="quiz-next" ${!answered ? "disabled" : ""}>
-            ${m.idx + 1 === m.pool.length ? "Final Submit" : t("mock.next")} →
+          <button class="btn btn-primary quiz-next" id="quiz-next" type="button">
+            ${m.idx + 1 === m.pool.length ? "Final Submit" : (answered ? t("mock.next") + " →" : t("mock.skip") + " →")}
           </button>
         </div>
       </div>`;
@@ -3303,7 +3303,11 @@
           fb.style.display = "block";
           fb.innerHTML = sel === q.correct ? t("mock.revealCorrect") : `${t("mock.correctAnswer")}: ${formatMath(options[q.correct] || "")}`;
           renderMathJax(fb);
-          $("#quiz-next").disabled = false;
+          const nextBtn = $("#quiz-next");
+          if (nextBtn) {
+            nextBtn.disabled = false;
+            nextBtn.textContent = m.idx + 1 === m.pool.length ? "Final Submit" : t("mock.next") + " →";
+          }
         });
       });
     }
@@ -3388,6 +3392,7 @@
             <button class="btn btn-primary" id="mock-retry">${t("mock.result.retry")}</button>
             <a class="btn btn-outline" href="/mock-test">${t("mock.result.changeCat")}</a>
             <button class="btn btn-outline" id="mock-review-toggle">${t("mock.result.review")}</button>
+            <a class="btn btn-outline" href="/mock-test">${t("mock.result.exit")}</a>
           </div>
         </div>
         <div class="review-list" id="review-list" hidden>
