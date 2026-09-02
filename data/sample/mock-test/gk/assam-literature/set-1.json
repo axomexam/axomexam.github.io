@@ -4,354 +4,629 @@
   "subject": "Assam Literature",
   "questions": [
     {
-      "difficulty": "easy",
       "q": {
         "en": "Who is regarded as the father of modern Assamese literature?",
         "as": "আধুনিক অসমীয়া সাহিত্যৰ জনক বুলি কাক কোৱা হয়?"
       },
       "options": [
-        { "en": "Lakshminath Bezbaroa", "as": "লক্ষ্মীনাথ বেজবৰুৱা" },
-        { "en": "Hemchandra Baruah", "as": "হেমচন্দ্ৰ বৰুৱা" },
-        { "en": "Jyoti Prasad Agarwala", "as": "জ্যোতিপ্ৰসাদ আগৰৱালা" },
-        { "en": "Banikanta Kakati", "as": "বাণীকান্ত কাকতি" }
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Hemchandra Baruah",
+          "as": "হেমচন্দ্ৰ বৰুৱা"
+        },
+        {
+          "en": "Jyoti Prasad Agarwala",
+          "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+        },
+        {
+          "en": "Banikanta Kakati",
+          "as": "বাণীকান্ত কাকতি"
+        }
       ],
       "correct": 0
     },
     {
-      "difficulty": "easy",
       "q": {
         "en": "Who is known as 'Sahityarathi'?",
         "as": "'সাহিত্যৰথী' বুলি কাক জনা যায়?"
       },
       "options": [
-        { "en": "Padmanath Gohain Baruah", "as": "পদ্মনাথ গোহাঞি বৰুৱা" },
-        { "en": "Lakshminath Bezbaroa", "as": "লক্ষ্মীনাথ বেজবৰুৱা" },
-        { "en": "Hemchandra Goswami", "as": "হেমচন্দ্ৰ গোস্বামী" },
-        { "en": "Chandra Kumar Agarwala", "as": "চন্দ্ৰকুমাৰ আগৰৱালা" }
+        {
+          "en": "Chandra Kumar Agarwala",
+          "as": "চন্দ্ৰকুমাৰ আগৰৱালা"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Hemchandra Goswami",
+          "as": "হেমচন্দ্ৰ গোস্বামী"
+        },
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        }
       ],
       "correct": 1
     },
     {
-      "difficulty": "easy",
       "q": {
         "en": "Who composed the 'Kirtan Ghosha'?",
         "as": "'কীৰ্তন ঘোষা' ৰচনা কৰিছিল কোনে?"
       },
       "options": [
-        { "en": "Srimanta Sankardev", "as": "শ্ৰীমন্ত শংকৰদেৱ" },
-        { "en": "Madhavdev", "as": "মাধৱদেৱ" },
-        { "en": "Damodardev", "as": "দামোদৰদেৱ" },
-        { "en": "Madhava Kandali", "as": "মাধৱ কন্দলী" }
+        {
+          "en": "Srimanta Sankardev",
+          "as": "শ্ৰীমন্ত শংকৰদেৱ"
+        },
+        {
+          "en": "Madhavdev",
+          "as": "মাধৱদেৱ"
+        },
+        {
+          "en": "Madhava Kandali",
+          "as": "মাধৱ কন্দলী"
+        },
+        {
+          "en": "Damodardev",
+          "as": "দামোদৰদেৱ"
+        }
       ],
       "correct": 0
     },
     {
-      "difficulty": "easy",
       "q": {
         "en": "Who wrote the 'Namghosa'?",
         "as": "'নামঘোষা' ৰচনা কৰিছিল কোনে?"
       },
       "options": [
-        { "en": "Srimanta Sankardev", "as": "শ্ৰীমন্ত শংকৰদেৱ" },
-        { "en": "Madhavdev", "as": "মাধৱদেৱ" },
-        { "en": "Ananta Kandali", "as": "অনন্ত কন্দলী" },
-        { "en": "Ram Saraswati", "as": "ৰাম সৰস্বতী" }
+        {
+          "en": "Madhavdev",
+          "as": "মাধৱদেৱ"
+        },
+        {
+          "en": "Srimanta Sankardev",
+          "as": "শ্ৰীমন্ত শংকৰদেৱ"
+        },
+        {
+          "en": "Ram Saraswati",
+          "as": "ৰাম সৰস্বতী"
+        },
+        {
+          "en": "Ananta Kandali",
+          "as": "অনন্ত কন্দলী"
+        }
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "difficulty": "easy",
       "q": {
         "en": "Who is known as 'Rupkonwar' of Assamese culture?",
         "as": "অসমীয়া সংস্কৃতিৰ 'ৰূপকোৱঁৰ' বুলি কাক জনা যায়?"
       },
       "options": [
-        { "en": "Bishnu Prasad Rabha", "as": "বিষ্ণুপ্ৰসাদ ৰাভা" },
-        { "en": "Jyoti Prasad Agarwala", "as": "জ্যোতিপ্ৰসাদ আগৰৱালা" },
-        { "en": "Phani Sarma", "as": "ফণী শৰ্মা" },
-        { "en": "Bhupen Hazarika", "as": "ভূপেন হাজৰিকা" }
+        {
+          "en": "Phani Sarma",
+          "as": "ফণী শৰ্মা"
+        },
+        {
+          "en": "Bishnu Prasad Rabha",
+          "as": "বিষ্ণুপ্ৰসাদ ৰাভা"
+        },
+        {
+          "en": "Bhupen Hazarika",
+          "as": "ভূপেন হাজৰিকা"
+        },
+        {
+          "en": "Jyoti Prasad Agarwala",
+          "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+        }
       ],
-      "correct": 1
+      "correct": 3
     },
     {
-      "difficulty": "easy",
       "q": {
         "en": "Who is known as 'Kalaguru'?",
         "as": "'কলাগুৰু' বুলি কাক জনা যায়?"
       },
       "options": [
-        { "en": "Jyoti Prasad Agarwala", "as": "জ্যোতিপ্ৰসাদ আগৰৱালা" },
-        { "en": "Bishnu Prasad Rabha", "as": "বিষ্ণুপ্ৰসাদ ৰাভা" },
-        { "en": "Phani Sarma", "as": "ফণী শৰ্মা" },
-        { "en": "Parvati Prasad Baruva", "as": "পাৰ্বতীপ্ৰসাদ বৰুৱা" }
+        {
+          "en": "Jyoti Prasad Agarwala",
+          "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+        },
+        {
+          "en": "Phani Sarma",
+          "as": "ফণী শৰ্মা"
+        },
+        {
+          "en": "Parvati Prasad Baruva",
+          "as": "পাৰ্বতীপ্ৰসাদ বৰুৱা"
+        },
+        {
+          "en": "Bishnu Prasad Rabha",
+          "as": "বিষ্ণুপ্ৰসাদ ৰাভা"
+        }
       ],
-      "correct": 1
+      "correct": 3
     },
     {
-      "difficulty": "easy",
       "q": {
         "en": "What was the first Assamese newspaper?",
         "as": "প্ৰথম অসমীয়া বাতৰি কাকতখন কি আছিল?"
       },
       "options": [
-        { "en": "Jonaki", "as": "জোনাকী" },
-        { "en": "Orunodoi", "as": "অৰুণোদই" },
-        { "en": "Banhi", "as": "বাঁহী" },
-        { "en": "Assam Bilasini", "as": "অসম বিলাসিনী" }
+        {
+          "en": "Orunodoi",
+          "as": "অৰুণোদই"
+        },
+        {
+          "en": "Assam Bilasini",
+          "as": "অসম বিলাসিনী"
+        },
+        {
+          "en": "Banhi",
+          "as": "বাঁহী"
+        },
+        {
+          "en": "Jonaki",
+          "as": "জোনাকী"
+        }
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "difficulty": "easy",
       "q": {
         "en": "Who compiled the Assamese dictionary 'Hemkosh'?",
         "as": "অসমীয়া অভিধান 'হেমকোষ' সংকলন কৰিছিল কোনে?"
       },
       "options": [
-        { "en": "Hemchandra Baruah", "as": "হেমচন্দ্ৰ বৰুৱা" },
-        { "en": "Hemchandra Goswami", "as": "হেমচন্দ্ৰ গোস্বামী" },
-        { "en": "Banikanta Kakati", "as": "বাণীকান্ত কাকতি" },
-        { "en": "Anandaram Dhekial Phukan", "as": "আনন্দৰাম ঢেকিয়াল ফুকন" }
+        {
+          "en": "Hemchandra Goswami",
+          "as": "হেমচন্দ্ৰ গোস্বামী"
+        },
+        {
+          "en": "Hemchandra Baruah",
+          "as": "হেমচন্দ্ৰ বৰুৱা"
+        },
+        {
+          "en": "Anandaram Dhekial Phukan",
+          "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+        },
+        {
+          "en": "Banikanta Kakati",
+          "as": "বাণীকান্ত কাকতি"
+        }
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "difficulty": "easy",
       "q": {
         "en": "Who is regarded as the first Assamese novelist?",
         "as": "প্ৰথম অসমীয়া ঔপন্যাসিক বুলি কাক গণ্য কৰা হয়?"
       },
       "options": [
-        { "en": "Rajanikanta Bordoloi", "as": "ৰজনীকান্ত বৰদলৈ" },
-        { "en": "Padmanath Gohain Baruah", "as": "পদ্মনাথ গোহাঞি বৰুৱা" },
-        { "en": "Lakshminath Bezbaroa", "as": "লক্ষ্মীনাথ বেজবৰুৱা" },
-        { "en": "Birinchi Kumar Barua", "as": "বীৰিঞ্চি কুমাৰ বৰুৱা" }
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        },
+        {
+          "en": "Birinchi Kumar Barua",
+          "as": "বীৰিঞ্চি কুমাৰ বৰুৱা"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Rajanikanta Bordoloi",
+          "as": "ৰজনীকান্ত বৰদলৈ"
+        }
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "difficulty": "easy",
       "q": {
         "en": "Which is considered the first Assamese novel?",
         "as": "প্ৰথম অসমীয়া উপন্যাস বুলি কোনখনক গণ্য কৰা হয়?"
       },
       "options": [
-        { "en": "Miri Jiyori", "as": "মিৰি জীয়ৰী" },
-        { "en": "Bhanumati", "as": "ভানুমতী" },
-        { "en": "Manomati", "as": "মনোমতী" },
-        { "en": "Dantal Hatir Une Khowa Howdah", "as": "দঁতাল হাঁতিৰ উঁয়ে খোৱা হাওদা" }
+        {
+          "en": "Bhanumati",
+          "as": "ভানুমতী"
+        },
+        {
+          "en": "Dantal Hatir Une Khowa Howdah",
+          "as": "দঁতাল হাঁতিৰ উঁয়ে খোৱা হাওদা"
+        },
+        {
+          "en": "Manomati",
+          "as": "মনোমতী"
+        },
+        {
+          "en": "Miri Jiyori",
+          "as": "মিৰি জীয়ৰী"
+        }
       ],
-      "correct": 1
+      "correct": 0
     },
     {
-      "difficulty": "medium",
       "q": {
         "en": "In which year was the first Assamese newspaper 'Orunodoi' published?",
         "as": "প্ৰথম অসমীয়া বাতৰি কাকত 'অৰুণোদই' কোন চনত প্ৰকাশ পাইছিল?"
       },
       "options": [
-        { "en": "1819", "as": "১৮১৯" },
-        { "en": "1836", "as": "১৮৩৬" },
-        { "en": "1846", "as": "১৮৪৬" },
-        { "en": "1889", "as": "১৮৮৯" }
+        {
+          "en": "1819",
+          "as": "১৮১৯"
+        },
+        {
+          "en": "1889",
+          "as": "১৮৮৯"
+        },
+        {
+          "en": "1836",
+          "as": "১৮৩৬"
+        },
+        {
+          "en": "1846",
+          "as": "১৮৪৬"
+        }
       ],
-      "correct": 2
+      "correct": 3
     },
     {
-      "difficulty": "medium",
       "q": {
         "en": "Who translated the Ramayana into Assamese as 'Saptakanda Ramayana'?",
         "as": "'সপ্তকাণ্ড ৰামায়ণ' নামেৰে অসমীয়ালৈ ৰামায়ণ অনুবাদ কৰিছিল কোনে?"
       },
       "options": [
-        { "en": "Madhava Kandali", "as": "মাধৱ কন্দলী" },
-        { "en": "Ananta Kandali", "as": "অনন্ত কন্দলী" },
-        { "en": "Sankardev", "as": "শংকৰদেৱ" },
-        { "en": "Ram Saraswati", "as": "ৰাম সৰস্বতী" }
+        {
+          "en": "Ram Saraswati",
+          "as": "ৰাম সৰস্বতী"
+        },
+        {
+          "en": "Ananta Kandali",
+          "as": "অনন্ত কন্দলী"
+        },
+        {
+          "en": "Madhava Kandali",
+          "as": "মাধৱ কন্দলী"
+        },
+        {
+          "en": "Sankardev",
+          "as": "শংকৰদেৱ"
+        }
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "difficulty": "medium",
       "q": {
         "en": "Who was the first President of Asam Sahitya Sabha?",
         "as": "অসম সাহিত্য সভাৰ প্ৰথম সভাপতি কোন আছিল?"
       },
       "options": [
-        { "en": "Lakshminath Bezbaroa", "as": "লক্ষ্মীনাথ বেজবৰুৱা" },
-        { "en": "Padmanath Gohain Baruah", "as": "পদ্মনাথ গোহাঞি বৰুৱা" },
-        { "en": "Hemchandra Goswami", "as": "হেমচন্দ্ৰ গোস্বামী" },
-        { "en": "Chandra Kumar Agarwala", "as": "চন্দ্ৰকুমাৰ আগৰৱালা" }
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        },
+        {
+          "en": "Chandra Kumar Agarwala",
+          "as": "চন্দ্ৰকুমাৰ আগৰৱালা"
+        },
+        {
+          "en": "Hemchandra Goswami",
+          "as": "হেমচন্দ্ৰ গোস্বামী"
+        }
       ],
       "correct": 1
     },
     {
-      "difficulty": "medium",
       "q": {
         "en": "In which year was Asam Sahitya Sabha founded?",
         "as": "অসম সাহিত্য সভা কোন চনত প্ৰতিষ্ঠা হৈছিল?"
       },
       "options": [
-        { "en": "1905", "as": "১৯০৫" },
-        { "en": "1917", "as": "১৯১৭" },
-        { "en": "1921", "as": "১৯২১" },
-        { "en": "1935", "as": "১৯৩৫" }
+        {
+          "en": "1935",
+          "as": "১৯৩৫"
+        },
+        {
+          "en": "1921",
+          "as": "১৯২১"
+        },
+        {
+          "en": "1917",
+          "as": "১৯১৭"
+        },
+        {
+          "en": "1905",
+          "as": "১৯০৫"
+        }
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "difficulty": "medium",
       "q": {
         "en": "Who wrote the first Assamese drama 'Ram-Navami'?",
         "as": "প্ৰথম অসমীয়া নাটক 'ৰাম-নৱমী' ৰচনা কৰিছিল কোনে?"
       },
       "options": [
-        { "en": "Gunabhiram Barua", "as": "গুণাভিৰাম বৰুৱা" },
-        { "en": "Lakshminath Bezbaroa", "as": "লক্ষ্মীনাথ বেজবৰুৱা" },
-        { "en": "Padmanath Gohain Baruah", "as": "পদ্মনাথ গোহাঞি বৰুৱা" },
-        { "en": "Jyoti Prasad Agarwala", "as": "জ্যোতিপ্ৰসাদ আগৰৱালা" }
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Gunabhiram Barua",
+          "as": "গুণাভিৰাম বৰুৱা"
+        },
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        },
+        {
+          "en": "Jyoti Prasad Agarwala",
+          "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+        }
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "difficulty": "medium",
       "q": {
         "en": "The magazine 'Jonaki' was first published from which place?",
         "as": "'জোনাকী' আলোচনীখন প্ৰথমে কোন ঠাইৰ পৰা প্ৰকাশ পাইছিল?"
       },
       "options": [
-        { "en": "Guwahati", "as": "গুৱাহাটী" },
-        { "en": "Calcutta (Kolkata)", "as": "কলিকতা (কলকাতা)" },
-        { "en": "Sivasagar", "as": "শিৱসাগৰ" },
-        { "en": "Jorhat", "as": "যোৰহাট" }
+        {
+          "en": "Guwahati",
+          "as": "গুৱাহাটী"
+        },
+        {
+          "en": "Jorhat",
+          "as": "যোৰহাট"
+        },
+        {
+          "en": "Calcutta (Kolkata)",
+          "as": "কলিকতা (কলকাতা)"
+        },
+        {
+          "en": "Sivasagar",
+          "as": "শিৱসাগৰ"
+        }
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "difficulty": "medium",
       "q": {
         "en": "Who is known as 'Natasurjya' of Assamese theatre?",
         "as": "অসমীয়া নাট্যজগতৰ 'নাটসূৰ্য' বুলি কাক জনা যায়?"
       },
       "options": [
-        { "en": "Jyoti Prasad Agarwala", "as": "জ্যোতিপ্ৰসাদ আগৰৱালা" },
-        { "en": "Phani Sarma", "as": "ফণী শৰ্মা" },
-        { "en": "Bishnu Prasad Rabha", "as": "বিষ্ণুপ্ৰসাদ ৰাভা" },
-        { "en": "Brajanath Sarma", "as": "ব্ৰজনাথ শৰ্মা" }
+        {
+          "en": "Jyoti Prasad Agarwala",
+          "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+        },
+        {
+          "en": "Brajanath Sarma",
+          "as": "ব্ৰজনাথ শৰ্মা"
+        },
+        {
+          "en": "Phani Sarma",
+          "as": "ফণী শৰ্মা"
+        },
+        {
+          "en": "Bishnu Prasad Rabha",
+          "as": "বিষ্ণুপ্ৰসাদ ৰাভা"
+        }
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "difficulty": "medium",
       "q": {
         "en": "Who is considered the father of modern Assamese prose?",
         "as": "আধুনিক অসমীয়া গদ্যৰ জনক বুলি কাক গণ্য কৰা হয়?"
       },
       "options": [
-        { "en": "Lakshminath Bezbaroa", "as": "লক্ষ্মীনাথ বেজবৰুৱা" },
-        { "en": "Hemchandra Baruah", "as": "হেমচন্দ্ৰ বৰুৱা" },
-        { "en": "Anandaram Dhekial Phukan", "as": "আনন্দৰাম ঢেকিয়াল ফুকন" },
-        { "en": "Nathan Brown", "as": "নাথান ব্ৰাউন" }
+        {
+          "en": "Anandaram Dhekial Phukan",
+          "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Hemchandra Baruah",
+          "as": "হেমচন্দ্ৰ বৰুৱা"
+        },
+        {
+          "en": "Nathan Brown",
+          "as": "নাথান ব্ৰাউন"
+        }
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "difficulty": "hard",
       "q": {
         "en": "The Charyapada, considered an early specimen of Assamese literature, dates back to which period?",
         "as": "অসমীয়া সাহিত্যৰ আদি নিদৰ্শন বুলি গণ্য কৰা চৰ্যাপদৰ ৰচনা-কাল কোন সময় বুলি ধৰা হয়?"
       },
       "options": [
-        { "en": "1st–3rd century AD", "as": "খ্ৰীষ্টীয় ১ম–৩য় শতাব্দী" },
-        { "en": "8th–12th century AD", "as": "খ্ৰীষ্টীয় ৮ম–১২শ শতাব্দী" },
-        { "en": "14th–16th century AD", "as": "খ্ৰীষ্টীয় ১৪শ–১৬শ শতাব্দী" },
-        { "en": "18th–19th century AD", "as": "খ্ৰীষ্টীয় ১৮শ–১৯শ শতাব্দী" }
+        {
+          "en": "14th–16th century AD",
+          "as": "খ্ৰীষ্টীয় ১৪শ–১৬শ শতাব্দী"
+        },
+        {
+          "en": "8th–12th century AD",
+          "as": "খ্ৰীষ্টীয় ৮ম–১২শ শতাব্দী"
+        },
+        {
+          "en": "1st–3rd century AD",
+          "as": "খ্ৰীষ্টীয় ১ম–৩য় শতাব্দী"
+        },
+        {
+          "en": "18th–19th century AD",
+          "as": "খ্ৰীষ্টীয় ১৮শ–১৯শ শতাব্দী"
+        }
       ],
       "correct": 1
     },
     {
-      "difficulty": "hard",
       "q": {
         "en": "Who wrote the famous essay 'A Few Remarks on the Assamese Language and on Vernacular Education in Assam'?",
         "as": "'A Few Remarks on the Assamese Language and on Vernacular Education in Assam' নামৰ প্ৰসিদ্ধ ৰচনাখন কোনে লিখিছিল?"
       },
       "options": [
-        { "en": "Hemchandra Baruah", "as": "হেমচন্দ্ৰ বৰুৱা" },
-        { "en": "Anandaram Dhekial Phukan", "as": "আনন্দৰাম ঢেকিয়াল ফুকন" },
-        { "en": "Gunabhiram Barua", "as": "গুণাভিৰাম বৰুৱা" },
-        { "en": "Nathan Brown", "as": "নাথান ব্ৰাউন" }
+        {
+          "en": "Gunabhiram Barua",
+          "as": "গুণাভিৰাম বৰুৱা"
+        },
+        {
+          "en": "Nathan Brown",
+          "as": "নাথান ব্ৰাউন"
+        },
+        {
+          "en": "Hemchandra Baruah",
+          "as": "হেমচন্দ্ৰ বৰুৱা"
+        },
+        {
+          "en": "Anandaram Dhekial Phukan",
+          "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+        }
       ],
-      "correct": 1
+      "correct": 3
     },
     {
-      "difficulty": "hard",
       "q": {
         "en": "Who was the first editor of the magazine 'Jonaki'?",
         "as": "'জোনাকী' আলোচনীৰ প্ৰথম সম্পাদক কোন আছিল?"
       },
       "options": [
-        { "en": "Lakshminath Bezbaroa", "as": "লক্ষ্মীনাথ বেজবৰুৱা" },
-        { "en": "Chandra Kumar Agarwala", "as": "চন্দ্ৰকুমাৰ আগৰৱালা" },
-        { "en": "Hemchandra Goswami", "as": "হেমচন্দ্ৰ গোস্বামী" },
-        { "en": "Padmanath Gohain Baruah", "as": "পদ্মনাথ গোহাঞি বৰুৱা" }
+        {
+          "en": "Hemchandra Goswami",
+          "as": "হেমচন্দ্ৰ গোস্বামী"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        },
+        {
+          "en": "Chandra Kumar Agarwala",
+          "as": "চন্দ্ৰকুমাৰ আগৰৱালা"
+        }
       ],
-      "correct": 1
+      "correct": 3
     },
     {
-      "difficulty": "hard",
       "q": {
         "en": "Which work of Madhava Kandali was praised by Srimanta Sankardev?",
         "as": "মাধৱ কন্দলীৰ কোনখন ৰচনাক শ্ৰীমন্ত শংকৰদেৱে প্ৰশংসা কৰিছিল?"
       },
       "options": [
-        { "en": "Mahabharata", "as": "মহাভাৰত" },
-        { "en": "Saptakanda Ramayana", "as": "সপ্তকাণ্ড ৰামায়ণ" },
-        { "en": "Kirtan Ghosha", "as": "কীৰ্তন ঘোষা" },
-        { "en": "Bhakti Ratnavali", "as": "ভক্তি ৰত্নাৱলী" }
+        {
+          "en": "Mahabharata",
+          "as": "মহাভাৰত"
+        },
+        {
+          "en": "Kirtan Ghosha",
+          "as": "কীৰ্তন ঘোষা"
+        },
+        {
+          "en": "Bhakti Ratnavali",
+          "as": "ভক্তি ৰত্নাৱলী"
+        },
+        {
+          "en": "Saptakanda Ramayana",
+          "as": "সপ্তকাণ্ড ৰামায়ণ"
+        }
       ],
-      "correct": 1
+      "correct": 3
     },
     {
-      "difficulty": "hard",
       "q": {
         "en": "Who wrote the historical novel 'Miri Jiyori'?",
         "as": "ঐতিহাসিক উপন্যাস 'মিৰি জীয়ৰী' ৰচনা কৰিছিল কোনে?"
       },
       "options": [
-        { "en": "Padmanath Gohain Baruah", "as": "পদ্মনাথ গোহাঞি বৰুৱা" },
-        { "en": "Rajanikanta Bordoloi", "as": "ৰজনীকান্ত বৰদলৈ" },
-        { "en": "Birinchi Kumar Barua", "as": "বীৰিঞ্চি কুমাৰ বৰুৱা" },
-        { "en": "Dandinath Kalita", "as": "দণ্ডিনাথ কলিতা" }
+        {
+          "en": "Dandinath Kalita",
+          "as": "দণ্ডিনাথ কলিতা"
+        },
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        },
+        {
+          "en": "Rajanikanta Bordoloi",
+          "as": "ৰজনীকান্ত বৰদলৈ"
+        },
+        {
+          "en": "Birinchi Kumar Barua",
+          "as": "বীৰিঞ্চি কুমাৰ বৰুৱা"
+        }
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "difficulty": "hard",
       "q": {
         "en": "Which of the following is an Ankiya Naat composed by Srimanta Sankardev?",
         "as": "তলৰ কোনখন শ্ৰীমন্ত শংকৰদেৱৰ দ্বাৰা ৰচিত অংকীয়া নাট?"
       },
       "options": [
-        { "en": "Ram-Navami", "as": "ৰাম-নৱমী" },
-        { "en": "Chihna Yatra", "as": "চিহ্নযাত্ৰা" },
-        { "en": "Sonit Konwari", "as": "শোণিত কুঁৱৰী" },
-        { "en": "Labhita", "as": "লভিতা" }
+        {
+          "en": "Labhita",
+          "as": "লভিতা"
+        },
+        {
+          "en": "Chihna Yatra",
+          "as": "চিহ্নযাত্ৰা"
+        },
+        {
+          "en": "Ram-Navami",
+          "as": "ৰাম-নৱমী"
+        },
+        {
+          "en": "Sonit Konwari",
+          "as": "শোণিত কুঁৱৰী"
+        }
       ],
       "correct": 1
     },
     {
-      "difficulty": "hard",
       "q": {
         "en": "Who is the author of the Assamese grammar book 'Asamiya Byakaran' that helped standardise modern Assamese?",
         "as": "আধুনিক অসমীয়া ভাষা মানকীকৰণত সহায় কৰা 'অসমীয়া ব্যাকৰণ' গ্ৰন্থখনৰ লেখক কোন?"
       },
       "options": [
-        { "en": "Banikanta Kakati", "as": "বাণীকান্ত কাকতি" },
-        { "en": "Hemchandra Baruah", "as": "হেমচন্দ্ৰ বৰুৱা" },
-        { "en": "Kaliram Medhi", "as": "কালিৰাম মেধি" },
-        { "en": "Golock Chandra Goswami", "as": "গলকচন্দ্ৰ গোস্বামী" }
+        {
+          "en": "Hemchandra Baruah",
+          "as": "হেমচন্দ্ৰ বৰুৱা"
+        },
+        {
+          "en": "Golock Chandra Goswami",
+          "as": "গলকচন্দ্ৰ গোস্বামী"
+        },
+        {
+          "en": "Kaliram Medhi",
+          "as": "কালিৰাম মেধি"
+        },
+        {
+          "en": "Banikanta Kakati",
+          "as": "বাণীকান্ত কাকতি"
+        }
       ],
-      "correct": 1
+      "correct": 0
     }
   ]
 }
