@@ -2763,9 +2763,7 @@
   async function renderMockSubLevel(main, cat, sub) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("mock.loading")}</p></div>`;
     const sets = await detectMockSets(cat.id, sub.id);
-    if (sets.length) return renderMockSetPicker(main, cat, sub, sets);
-    if (sub.sections && sub.sections.length) return renderMockSectionPicker(main, cat, sub);
-    return renderMockSetup(main, cat, sub.id, null, null);
+    return renderMockSetPicker(main, cat, sub, sets);
   }
 
   function renderMockCategoryPicker(main) {
@@ -2787,13 +2785,13 @@
                   <span class="mock-ico">${catIconHTML(c.id)}</span>
                   <span>
                     <b>${escapeHtml(localized(c.name))}</b>
-                    <span class="mock-count">${countTopics(c)} ${t("cat.topics")}</span>
+                    <span class="mock-count">${(c.subcategories || []).length} practice papers</span>
                   </span>
                 </div>
                 <div class="mock-go">
                   <a class="mock-start" href="/mock-test/${c.id}">
                     <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-                    Select Sub-Category
+                    ${t("mock.start")}
                   </a>
                 </div>
               </div>`;
@@ -2812,8 +2810,8 @@
           <a href="/mock-test">Mock Test</a><span class="bc-sep">/</span>
           <span>${escapeHtml(localized(cat.name))}</span>
         </nav>
-        <h1>${escapeHtml(localized(cat.name))} — Select Sub-Category</h1>
-        <p class="page-desc">Select a specific branch to start your mock test.</p>
+        <h1>${escapeHtml(localized(cat.name))}</h1>
+        <p class="page-desc">Choose a paper to begin your timed mock test.</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
         <div class="sub-grid">
@@ -2822,7 +2820,7 @@
               <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
               <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                 <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(s.name))}</span>
-                <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} Sections</span>
+                <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">Timed practice sets</span>
               </span>
             </a>`).join("")}
         </div>
@@ -2998,8 +2996,7 @@
 
   function renderMockSetPicker(main, cat, sub, setNumbers) {
     const existing = new Set(setNumbers);
-    const maxFound = Math.max.apply(null, setNumbers);
-    const visible = Math.max(maxFound, DEFAULT_VISIBLE_SETS);
+    const visible = DEFAULT_VISIBLE_SETS;
 
     main.innerHTML = `
       <div class="page-head">
@@ -3009,8 +3006,8 @@
           <a href="/mock-test/${cat.id}">${escapeHtml(localized(cat.name))}</a><span class="bc-sep">/</span>
           <span>${escapeHtml(localized(sub.name))}</span>
         </nav>
-        <h1>${escapeHtml(localized(sub.name))} — Mock Test</h1>
-        <p class="page-desc">Select a set and choose your difficulty level to begin.</p>
+        <h1>${escapeHtml(localized(sub.name))}</h1>
+        <p class="page-desc">Pick a set to start your mock test.</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
         <div class="set-grid">
@@ -3024,7 +3021,7 @@
                   <span class="set-status">Available</span>
                 </span>
                 <span class="set-name">Mock Test Set ${n}</span>
-                <span class="set-meta">Easy • Medium • Hard</span>
+                <span class="set-meta">Full paper • Instant scoring</span>
                 <span class="set-go">
                   <span>Start Test</span>
                   <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
@@ -3065,23 +3062,12 @@
       return;
     }
 
-    const groups = groupByDifficulty(loaded.questions);
-    const avail = ["easy", "medium", "hard"].filter((d) => groups[d].length);
-    const diffDefs = [
-      { d: "easy", en: "Easy", as: "সহজ", descEn: "Basic level questions", descAs: "মৌলিক পৰ্যায়ৰ প্ৰশ্ন" },
-      { d: "medium", en: "Medium", as: "মধ্যম", descEn: "Moderate level questions", descAs: "মধ্যম পৰ্যায়ৰ প্ৰশ্ন" },
-      { d: "hard", en: "Hard", as: "কঠিন", descEn: "Advanced level questions", descAs: "উন্নত পৰ্যায়ৰ প্ৰশ্ন" }
-    ];
-    const diffIcon = {
-      easy: '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 9-10 10L2 9"/></svg>',
-      medium: '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 9 10 6 10-6"/><path d="m2 15 10 6 10-6"/></svg>',
-      hard: '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 15 10-6 10 6"/><path d="m2 9 10 6 10-6"/></svg>'
-    };
+    const quizPool = loaded.questions.filter((q) => q.options && q.options.length >= 2);
 
     state.mock = {
-      cat, pool: loaded.questions, configured: false, count: 0,
+      cat, pool: quizPool.length ? quizPool : loaded.questions, configured: false, count: 0,
       testLang: "as",
-      setInfo: { setNumber, title: loaded.title, difficulty: null }
+      setInfo: { setNumber, title: loaded.title }
     };
 
     main.innerHTML = `
@@ -3094,7 +3080,7 @@
           <span>${escapeHtml(loaded.title)}</span>
         </nav>
         <h1>${escapeHtml(loaded.title)} — ${escapeHtml(localized(sub.name))}</h1>
-        <p class="page-desc">Configure your test and start when ready.</p>
+        <p class="page-desc">Choose your language and start when ready.</p>
       </div>
 
       <div class="mt-setup">
@@ -3102,10 +3088,9 @@
           <span class="mt-hero-icon">${catIconHTML(cat.id)}</span>
           <span style="min-width:0;">
             <span class="mt-hero-cat">${escapeHtml(localized(cat.name))}</span>
-            <span class="mt-hero-title">${escapeHtml(loaded.title)} • ${escapeHtml(localized(sub.name))} Mock Test</span>
+            <span class="mt-hero-title">${escapeHtml(loaded.title)} • ${escapeHtml(localized(sub.name))}</span>
             <span class="mt-hero-chips">
-              <span class="mt-chip">${loaded.questions.length} ${t("mock.questions")}</span>
-              <span class="mt-chip">Easy • Medium • Hard</span>
+              <span class="mt-chip">${state.mock.pool.length} ${t("mock.questions")}</span>
               <span class="mt-chip">অসমীয়া / English</span>
             </span>
           </span>
@@ -3120,21 +3105,6 @@
             <button type="button" class="mt-seg-btn ${state.mock.testLang === "en" ? "active" : ""}" data-mocklang="en">
               <span class="mt-seg-ico">A</span> English
             </button>
-          </div>
-        </div>
-
-        <div class="mt-block">
-          <div class="mt-label">Select Difficulty <span>অসুবিধা বাছনি</span></div>
-          <div class="mt-diff" id="difficulty-picker">
-            ${avail.map((item) => {
-              const def = diffDefs.find((x) => x.d === item);
-              return `
-              <button type="button" class="mt-diff-card ${item}" data-difficulty="${item}">
-                <span class="mt-diff-ico">${diffIcon[item] || ""}</span>
-                <span class="mt-diff-name">${difficultyLabel(item)}</span>
-                <span class="mt-diff-count">${groups[item].length} ${t("mock.question").toLowerCase()}</span>
-              </button>`;
-            }).join("")}
           </div>
         </div>
 
@@ -3158,42 +3128,27 @@
       });
     });
 
-    const picker = $("#difficulty-picker");
-    let selected = avail[0] || "medium";
-    $$("button", picker).forEach((b) => {
-      b.addEventListener("click", () => {
-        $$("button", picker).forEach((x) => x.classList.remove("active"));
-        b.classList.add("active");
-        selected = b.dataset.difficulty;
-      });
-    });
-
     $("#mock-begin-btn").addEventListener("click", () => {
-      const def = diffDefs.find((x) => x.d === selected) || diffDefs[0];
-      const diffText = state.uiLang === "as" ? def.as : def.en;
       showModalPopup({
         title: `Start ${loaded.title}?`,
-        message: `You are about to start the ${diffText} mock test in ${state.mock.testLang === "as" ? "অসমীয়া" : "English"}. Do you want to proceed?`,
+        message: `You are about to start this mock test in ${state.mock.testLang === "as" ? "অসমীয়া" : "English"}. Do you want to proceed?`,
         confirmText: "Start Test",
         cancelText: "Cancel",
-        onConfirm: () => startSetMock(selected)
+        onConfirm: () => startSetMock()
       });
     });
   }
 
-  function startSetMock(difficulty) {
+  function startSetMock() {
     if (!state.mock) return;
-    const groups = groupByDifficulty(state.mock.pool);
-    let pool = groups[difficulty] || [];
-    if (!pool.length) pool = state.mock.pool;
+    const pool = state.mock.pool.filter((q) => q.options && q.options.length >= 2);
     state.mock = Object.assign(state.mock, {
-      pool: shuffle(pool),
+      pool: shuffle(pool.length ? pool : state.mock.pool),
       idx: 0,
       answers: [],
       elapsedSec: 0,
       started: true,
-      timerId: null,
-      setInfo: Object.assign(state.mock.setInfo || {}, { difficulty })
+      timerId: null
     });
     renderMockQuiz();
   }
@@ -3294,7 +3249,7 @@
     const qText = localizeContent(q.q);
     const options = (q.options || []).map(opt => (typeof opt === "object" ? localizeContent(opt) : String(opt)));
     const setLabel = m.setInfo
-      ? `${escapeHtml(localized(m.cat.name))} • ${escapeHtml(m.setInfo.title)} ${m.setInfo.difficulty ? "• " + difficultyLabel(m.setInfo.difficulty) : ""}`
+      ? `${escapeHtml(localized(m.cat.name))} • ${escapeHtml(m.setInfo.title)}`
       : `${escapeHtml(localized(m.cat.name))}`;
 
     main.innerHTML = `
