@@ -2711,6 +2711,17 @@
     });
   }
 
+  function mockSubcategories(cat) {
+    if (!cat) return [];
+    if (cat.id === "english") {
+      return [
+        { id: "grammar", name: { en: "Grammar", as: "ব্যাকৰণ" } },
+        { id: "vocabulary", name: { en: "Vocabulary", as: "শব্দভাণ্ডাৰ" } }
+      ];
+    }
+    return cat.subcategories || [];
+  }
+
   function handleMockRouting(main, segs) {
     if (segs.length === 1) return renderMockCategoryPicker(main);
 
@@ -2726,7 +2737,7 @@
       return renderMockSetup(main, cat, subId, secId, topicId);
     }
 
-    const subs = cat.subcategories || [];
+    const subs = mockSubcategories(cat);
     if (!subId && subs.length) return renderMockSubcategoryPicker(main, cat);
 
     if (subId && !secId) {
@@ -2785,7 +2796,7 @@
                   <span class="mock-ico">${catIconHTML(c.id)}</span>
                   <span>
                     <b>${escapeHtml(localized(c.name))}</b>
-                    <span class="mock-count">${(c.subcategories || []).length} practice papers</span>
+                    <span class="mock-count">${mockSubcategories(c).length} practice papers</span>
                   </span>
                 </div>
                 <div class="mock-go">
@@ -2802,7 +2813,7 @@
   }
 
   function renderMockSubcategoryPicker(main, cat) {
-    const subs = cat.subcategories || [];
+    const subs = mockSubcategories(cat);
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb">
