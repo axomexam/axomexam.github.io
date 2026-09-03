@@ -724,7 +724,7 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 .setup-panel .sp-title { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
 .setup-panel .sp-title b { font-size: 1.1rem; }
 .setup-panel .sp-sub { color: var(--ink-faint); font-size: .88rem; }
-.count-picker { display: flex; flex-wrap: wrap; gap: 9px; margin: 18px 0 6px; }
+.count-picker { display: flex; flex-wrap: wrap; gap: 9px; margin: 18px 0 6px; justify-content: center; }
 .count-picker button { padding: 9px 16px; border-radius: 10px; border: 1.5px solid var(--line); font-weight: 700; font-size: .9rem; transition: all var(--transition); background: #fff; }
 .count-picker button:hover { border-color: var(--primary); }
 .count-picker button.active { border-color: var(--primary); background: var(--bg-tint); color: var(--primary); }
