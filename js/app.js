@@ -3063,9 +3063,13 @@
     }
 
     const quizPool = loaded.questions.filter((q) => q.options && q.options.length >= 2);
+    const fullPool = quizPool.length ? quizPool : loaded.questions;
+    const countOptions = [10, 15, 20, 25].filter((n) => n <= fullPool.length);
+    if (!countOptions.length) countOptions.push(fullPool.length);
+    const defaultCount = countOptions.includes(25) ? 25 : countOptions[countOptions.length - 1];
 
     state.mock = {
-      cat, pool: quizPool.length ? quizPool : loaded.questions, configured: false, count: 0,
+      cat, pool: fullPool, configured: false, count: defaultCount,
       testLang: "as",
       setInfo: { setNumber, title: loaded.title }
     };
@@ -3109,6 +3113,13 @@
         </div>
 
         <div class="mt-block">
+          <div class="mt-label">Number of Questions <span>প্ৰশ্নৰ সংখ্যা</span></div>
+          <div class="count-picker" id="set-count-picker" style="margin:0;">
+            ${countOptions.map((n) => `<button type="button" data-count="${n}" class="${n === defaultCount ? "active" : ""}">${n}</button>`).join("")}
+          </div>
+        </div>
+
+        <div class="mt-block">
           <div class="mt-label">Instructions <span>নিৰ্দেশনা</span></div>
           <ul class="mt-rules">
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>This is a timed test — a stopwatch tracks your total time.</li>
@@ -3128,22 +3139,38 @@
       });
     });
 
+    let selectedCount = defaultCount;
+    const countPicker = $("#set-count-picker");
+    if (countPicker) {
+      $$("button", countPicker).forEach((b) => {
+        b.addEventListener("click", () => {
+          $$("button", countPicker).forEach((x) => x.classList.remove("active"));
+          b.classList.add("active");
+          selectedCount = parseInt(b.dataset.count, 10);
+          state.mock.count = selectedCount;
+        });
+      });
+    }
+
     $("#mock-begin-btn").addEventListener("click", () => {
       showModalPopup({
         title: `Start ${loaded.title}?`,
-        message: `You are about to start this mock test in ${state.mock.testLang === "as" ? "অসমীয়া" : "English"}. Do you want to proceed?`,
+        message: `You are about to start a ${selectedCount} question mock test in ${state.mock.testLang === "as" ? "অসমীয়া" : "English"}. Do you want to proceed?`,
         confirmText: "Start Test",
         cancelText: "Cancel",
-        onConfirm: () => startSetMock()
+        onConfirm: () => startSetMock(selectedCount)
       });
     });
   }
 
-  function startSetMock() {
+  function startSetMock(count) {
     if (!state.mock) return;
-    const pool = state.mock.pool.filter((q) => q.options && q.options.length >= 2);
+    const source = state.mock.pool.filter((q) => q.options && q.options.length >= 2);
+    const full = source.length ? source : state.mock.pool;
+    const n = Math.min(count || full.length, full.length);
     state.mock = Object.assign(state.mock, {
-      pool: shuffle(pool.length ? pool : state.mock.pool),
+      pool: shuffle(full).slice(0, n),
+      count: n,
       idx: 0,
       answers: [],
       elapsedSec: 0,
