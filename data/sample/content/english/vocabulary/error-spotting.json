@@ -1,12 +1,789 @@
 {
   "id": "error-spotting",
-  "title": {
-    "en": "Error Spotting",
-    "as": "ত্ৰুটি নিৰ্ণয়"
-  },
-  "description": {
-    "en": "Upload questions here.",
-    "as": "ইয়াত প্ৰশ্ন আপলোড কৰক।"
-  },
-  "questions": []
+  "title": { "en": "Error Spotting", "as": "ভুল চিনাক্তকৰণ" },
+  "description": { "en": "Spot the error in the given sentence. English grammar practice for Assam competitive exams.", "as": "দিয়া বাক্যটোত ভুল চিনাক্ত কৰক। অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে ইংৰাজী ব্যাকৰণ অভ্যাস।" },
+  "tags": ["english", "grammar", "error-spotting", "assam", "competitive", "ইংৰাজী", "ব্যাকৰণ", "ভুল চিনাক্তকৰণ"],
+  "questions": [
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "He has went to", "as": "He has went to" },
+        { "en": "the market to buy", "as": "the market to buy" },
+        { "en": "some fresh vegetables.", "as": "some fresh vegetables." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'has went' should be 'has gone' (past participle after 'has').", "as": "A অংশত ভুল আছে: 'has went' ৰ ঠাইত 'has gone' হ'ব লাগে ('has' ৰ পিছত past participle ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "Every student in the class", "as": "Every student in the class" },
+        { "en": "has submitted the assignment", "as": "has submitted the assignment" },
+        { "en": "to the teacher.", "as": "to the teacher." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 3,
+      "a": { "en": "No error — the sentence is grammatically correct. The singular subject 'student' agrees with the singular verb 'has'.", "as": "ভুল নাই — বাক্যটো ব্যাকৰণগতভাৱে শুদ্ধ। একবচন কৰ্তা 'student' ৰ লগত একবচন ক্ৰিয়া 'has' মানি গৈছে।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "Between you and I,", "as": "Between you and I," },
+        { "en": "this plan will surely", "as": "this plan will surely" },
+        { "en": "fail.", "as": "fail." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'Between you and I' should be 'Between you and me' (object pronoun after the preposition 'between').", "as": "A অংশত ভুল আছে: 'Between you and I' ৰ ঠাইত 'Between you and me' হ'ব লাগে (preposition 'between' ৰ পিছত objective case 'me' ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "We enjoyed the beautiful sceneries", "as": "We enjoyed the beautiful sceneries" },
+        { "en": "of Assam during our", "as": "of Assam during our" },
+        { "en": "recent school trip.", "as": "recent school trip." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'sceneries' should be 'scenery' ('scenery' is an uncountable noun and has no plural form).", "as": "A অংশত ভুল আছে: 'sceneries' ৰ ঠাইত 'scenery' হ'ব লাগে ('scenery' এটা uncountable noun, ইয়াৰ বহুবচন নাথাকে)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "This book is more better", "as": "This book is more better" },
+        { "en": "than the one I read", "as": "than the one I read" },
+        { "en": "yesterday.", "as": "yesterday." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'more better' should be 'better' ('better' is already comparative and does not take 'more').", "as": "A অংশত ভুল আছে: 'more better' ৰ ঠাইত 'better' হ'ব লাগে ('better' ইতিমধ্যে comparative, গতিকে আকৌ 'more' যোগ নকৰি)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "According to the teacher,", "as": "According to the teacher," },
+        { "en": "neither of the answers", "as": "neither of the answers" },
+        { "en": "are correct.", "as": "are correct." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 2,
+      "a": { "en": "Part C has the error: 'are' should be 'is' (a singular verb follows 'neither of').", "as": "C অংশত ভুল আছে: 'are' ৰ ঠাইত 'is' হ'ব লাগে ('neither of' ৰ পিছত একবচন ক্ৰিয়া ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "She gave me many advices", "as": "She gave me many advices" },
+        { "en": "before my job interview", "as": "before my job interview" },
+        { "en": "last week.", "as": "last week." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'advices' should be 'advice' ('advice' is uncountable and has no plural 'advices').", "as": "A অংশত ভুল আছে: 'advices' ৰ ঠাইত 'advice' হ'ব লাগে ('advice' এটা uncountable noun, 'advices' বহুবচন শুদ্ধ নহয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "If I was the chief minister,", "as": "If I was the chief minister," },
+        { "en": "I would construct many new", "as": "I would construct many new" },
+        { "en": "roads for the people.", "as": "roads for the people." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'If I was' should be 'If I were' (use the subjunctive 'were' for an unreal condition).", "as": "A অংশত ভুল আছে: 'If I was' ৰ ঠাইত 'If I were' হ'ব লাগে (অবাস্তৱ conditional ৰ ক্ষেত্ৰত subjunctive 'were' ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "One of my friends are coming", "as": "One of my friends are coming" },
+        { "en": "to stay with me", "as": "to stay with me" },
+        { "en": "this weekend.", "as": "this weekend." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'are coming' should be 'is coming' (the subject of 'one of' is singular).", "as": "A অংশত ভুল আছে: 'are coming' ৰ ঠাইত 'is coming' হ'ব লাগে ('one of' ৰ পিছত subject একবচন, গতিকে ক্ৰিয়াও একবচন হ'ব লাগে)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "He has did his homework already,", "as": "He has did his homework already," },
+        { "en": "so he can play with", "as": "so he can play with" },
+        { "en": "his friends now.", "as": "his friends now." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'has did' should be 'has done' (past participle after 'has').", "as": "A অংশত ভুল আছে: 'has did' ৰ ঠাইত 'has done' হ'ব লাগে ('has' ৰ পিছত past participle ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "You must avoid to go", "as": "You must avoid to go" },
+        { "en": "out late at night", "as": "out late at night" },
+        { "en": "alone.", "as": "alone." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'avoid to go' should be 'avoid going' (a gerund follows 'avoid').", "as": "A অংশত ভুল আছে: 'avoid to go' ৰ ঠাইত 'avoid going' হ'ব লাগে ('avoid' ৰ পিছত gerund ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "We have been living in Guwahati", "as": "We have been living in Guwahati" },
+        { "en": "for five years now and", "as": "for five years now and" },
+        { "en": "I am liking this city very much.", "as": "I am liking this city very much." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 2,
+      "a": { "en": "Part C has the error: 'am liking' should be 'like' (stative verbs such as 'like' are not used in continuous tenses).", "as": "C অংশত ভুল আছে: 'am liking' ৰ ঠাইত 'like' হ'ব লাগে ('like'ৰ দৰে stative verb continuous tense ত ব্যৱহাৰ নহয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "The news are being", "as": "The news are being" },
+        { "en": "broadcast on every channel", "as": "broadcast on every channel" },
+        { "en": "tonight.", "as": "tonight." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'are' should be 'is' ('news' looks plural but takes a singular verb).", "as": "A অংশত ভুল আছে: 'are' ৰ ঠাইত 'is' হ'ব লাগে ('news' বহুবচন যেন লাগিলেও ই একবচন আৰু একবচন ক্ৰিয়া লয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "She is senior than me", "as": "She is senior than me" },
+        { "en": "by two years in the", "as": "by two years in the" },
+        { "en": "office.", "as": "office." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'senior than me' should be 'senior to me' (words like 'senior', 'junior' and 'superior' take 'to', not 'than').", "as": "A অংশত ভুল আছে: 'senior than me' ৰ ঠাইত 'senior to me' হ'ব লাগে ('senior', 'junior', 'superior' ৰ দৰে শব্দৰ পিছত 'than' নহয়, 'to' ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "The Ganges is a", "as": "The Ganges is a" },
+        { "en": "holy river flowing through", "as": "holy river flowing through" },
+        { "en": "northern India.", "as": "northern India." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 3,
+      "a": { "en": "No error — the sentence is grammatically correct. The definite article 'the' before 'Ganges' and the singular verb 'is' are both correct.", "as": "ভুল নাই — বাক্যটো ব্যাকৰণগতভাৱে শুদ্ধ। 'Ganges' ৰ আগত definite article 'the' আৰু একবচন ক্ৰিয়া 'is' শুদ্ধ।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "The flock of birds were", "as": "The flock of birds were" },
+        { "en": "flying south in the winter", "as": "flying south in the winter" },
+        { "en": "sky.", "as": "sky." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'were' should be 'was' ('flock' is a collective noun and takes a singular verb).", "as": "A অংশত ভুল আছে: 'were' ৰ ঠাইত 'was' হ'ব লাগে ('flock' এটা collective noun, সেয়ে একবচন ক্ৰিয়া লয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "He asked me where", "as": "He asked me where" },
+        { "en": "was I going at", "as": "was I going at" },
+        { "en": "that time.", "as": "that time." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 1,
+      "a": { "en": "Part B has the error: 'was I going' should be 'I was going' (an indirect question keeps statement word order).", "as": "B অংশত ভুল আছে: 'was I going' ৰ ঠাইত 'I was going' হ'ব লাগে (indirect question ত subject আগত আহে, inverted form নহয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "Neither he nor his friends", "as": "Neither he nor his friends" },
+        { "en": "has arrived yet for", "as": "has arrived yet for" },
+        { "en": "the party.", "as": "the party." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 1,
+      "a": { "en": "Part B has the error: 'has arrived' should be 'have arrived' (with 'neither...nor' the verb agrees with the nearer subject 'his friends').", "as": "B অংশত ভুল আছে: 'has arrived' ৰ ঠাইত 'have arrived' হ'ব লাগে ('neither...nor' ৰ ক্ষেত্ৰত ক্ৰিয়া ওচৰৰ subject 'his friends' ৰ লগত মানি যায়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "She enjoys to sing", "as": "She enjoys to sing" },
+        { "en": "classical songs in", "as": "classical songs in" },
+        { "en": "the evening.", "as": "the evening." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'enjoys to sing' should be 'enjoys singing' (a gerund follows 'enjoy').", "as": "A অংশত ভুল আছে: 'enjoys to sing' ৰ ঠাইত 'enjoys singing' হ'ব লাগে ('enjoy' ৰ পিছত gerund ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "He succeeded in achieving", "as": "He succeeded in achieving" },
+        { "en": "his goal through hard", "as": "his goal through hard" },
+        { "en": "work.", "as": "work." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 3,
+      "a": { "en": "No error — the sentence is grammatically correct. The pattern 'succeed in + gerund' is used correctly.", "as": "ভুল নাই — বাক্যটো ব্যাকৰণগতভাৱে শুদ্ধ। 'succeed in + gerund' আৰ্হি শুদ্ধকৈ ব্যৱহাৰ হৈছে।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "I have much works", "as": "I have much works" },
+        { "en": "to complete before the", "as": "to complete before the" },
+        { "en": "deadline tomorrow.", "as": "deadline tomorrow." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'much works' should be 'much work' ('work' is uncountable here and has no plural).", "as": "A অংশত ভুল আছে: 'much works' ৰ ঠাইত 'much work' হ'ব লাগে (ইয়াত 'work' uncountable noun হিচাপে ব্যৱহাৰ হৈছে)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "The two brothers quarrelled", "as": "The two brothers quarrelled" },
+        { "en": "with each other", "as": "with each other" },
+        { "en": "for a small matter.", "as": "for a small matter." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 2,
+      "a": { "en": "Part C has the error: 'for a small matter' should be 'over a small matter' (we quarrel over a matter).", "as": "C অংশত ভুল আছে: 'for a small matter' ৰ ঠাইত 'over a small matter' হ'ব লাগে (কোনো বিষয় লৈ quarrel হ'লে 'over' preposition ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "Each of the girls have", "as": "Each of the girls have" },
+        { "en": "their own books in", "as": "their own books in" },
+        { "en": "the library.", "as": "the library." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'Each of the girls have' should be 'Each of the girls has' ('each' is singular and takes a singular verb).", "as": "A অংশত ভুল আছে: 'Each of the girls have' ৰ ঠাইত 'Each of the girls has' হ'ব লাগে ('each' একবচন, গতিকে একবচন ক্ৰিয়া লয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "This building is more taller", "as": "This building is more taller" },
+        { "en": "than the neighbouring", "as": "than the neighbouring" },
+        { "en": "one.", "as": "one." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'more taller' should be 'taller' ('taller' is already comparative and does not need 'more').", "as": "A অংশত ভুল আছে: 'more taller' ৰ ঠাইত 'taller' হ'ব লাগে ('taller' ইতিমধ্যে comparative, গতিকে 'more' অতিৰিক্ত)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "Rahim is the best player", "as": "Rahim is the best player" },
+        { "en": "in our school cricket", "as": "in our school cricket" },
+        { "en": "team.", "as": "team." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 3,
+      "a": { "en": "No error — the sentence is grammatically correct. The superlative 'the best' is used properly.", "as": "ভুল নাই — বাক্যটো ব্যাকৰণগতভাৱে শুদ্ধ। superlative 'the best' ৰ ব্যৱহাৰ শুদ্ধ।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "She did not go to school", "as": "She did not go to school" },
+        { "en": "since Monday because of", "as": "since Monday because of" },
+        { "en": "illness.", "as": "illness." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'did not go' should be 'has not gone' (the present perfect is used with 'since Monday').", "as": "A অংশত ভুল আছে: 'did not go' ৰ ঠাইত 'has not gone' হ'ব লাগে ('since Monday' ৰ লগত present perfect tense ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "The scenery of the hills", "as": "The scenery of the hills" },
+        { "en": "attract many tourists", "as": "attract many tourists" },
+        { "en": "every year.", "as": "every year." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 1,
+      "a": { "en": "Part B has the error: 'attract' should be 'attracts' (the subject 'The scenery' is singular).", "as": "B অংশত ভুল আছে: 'attract' ৰ ঠাইত 'attracts' হ'ব লাগে (subject 'The scenery' একবচন, গতিকে ক্ৰিয়াও একবচন হ'ব লাগে)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "If he would have come earlier,", "as": "If he would have come earlier," },
+        { "en": "he would have met", "as": "he would have met" },
+        { "en": "her.", "as": "her." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'If he would have come' should be 'If he had come' (the if-clause of a third conditional uses the past perfect).", "as": "A অংশত ভুল আছে: 'If he would have come' ৰ ঠাইত 'If he had come' হ'ব লাগে (third conditional ৰ if-clause ত past perfect ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "There is many problems", "as": "There is many problems" },
+        { "en": "in this project that", "as": "in this project that" },
+        { "en": "need attention.", "as": "need attention." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'There is many problems' should be 'There are many problems' ('many problems' is plural).", "as": "A অংশত ভুল আছে: 'There is many problems' ৰ ঠাইত 'There are many problems' হ'ব লাগে ('many problems' বহুবচন, গতিকে 'are' শুদ্ধ)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "Having finished the work,", "as": "Having finished the work," },
+        { "en": "she went to bed", "as": "she went to bed" },
+        { "en": "early.", "as": "early." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 3,
+      "a": { "en": "No error — the sentence is grammatically correct. The perfect participle clause 'Having finished the work' is correctly used.", "as": "ভুল নাই — বাক্যটো ব্যাকৰণগতভাৱে শুদ্ধ। perfect participle clause 'Having finished the work' ৰ ব্যৱহাৰ শুদ্ধ।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "The price of these mangoes", "as": "The price of these mangoes" },
+        { "en": "are very high this", "as": "are very high this" },
+        { "en": "season.", "as": "season." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 1,
+      "a": { "en": "Part B has the error: 'are' should be 'is' (the subject is 'The price', not 'mangoes').", "as": "B অংশত ভুল আছে: 'are' ৰ ঠাইত 'is' হ'ব লাগে (subject 'The price' একবচন; 'mangoes' ৰ ওপৰত নিৰ্ভৰ নকৰে)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "I prefer tea than", "as": "I prefer tea than" },
+        { "en": "coffee in the", "as": "coffee in the" },
+        { "en": "morning.", "as": "morning." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'prefer tea than' should be 'prefer tea to' ('prefer' takes 'to', not 'than').", "as": "A অংশত ভুল আছে: 'prefer tea than' ৰ ঠাইত 'prefer tea to' হ'ব লাগে ('prefer' ৰ লগত 'than' নহয়, 'to' ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "She told to me that", "as": "She told to me that" },
+        { "en": "she would come", "as": "she would come" },
+        { "en": "tomorrow.", "as": "tomorrow." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'told to me' should be 'told me' ('tell' takes a direct object without 'to').", "as": "A অংশত ভুল আছে: 'told to me' ৰ ঠাইত 'told me' হ'ব লাগে ('tell' ৰ পিছত 'to' নলগাকৈ object আহে)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "He is one of the best", "as": "He is one of the best" },
+        { "en": "student in the", "as": "student in the" },
+        { "en": "class.", "as": "class." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 1,
+      "a": { "en": "Part B has the error: 'student' should be 'students' (the pattern is 'one of the + plural noun').", "as": "B অংশত ভুল আছে: 'student' ৰ ঠাইত 'students' হ'ব লাগে ('one of the + plural noun' আৰ্হি ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "The police has arrested", "as": "The police has arrested" },
+        { "en": "the thief near the", "as": "the thief near the" },
+        { "en": "river bridge.", "as": "river bridge." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'has arrested' should be 'have arrested' ('police' is plural and takes a plural verb).", "as": "A অংশত ভুল আছে: 'has arrested' ৰ ঠাইত 'have arrested' হ'ব লাগে ('police' বহুবচন আৰু বহুবচন ক্ৰিয়া লয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "We discussed about the", "as": "We discussed about the" },
+        { "en": "matter in the meeting", "as": "matter in the meeting" },
+        { "en": "yesterday.", "as": "yesterday." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'discussed about' should be 'discussed' ('discuss' takes a direct object without 'about').", "as": "A অংশত ভুল আছে: 'discussed about' ৰ ঠাইত 'discussed' হ'ব লাগে ('discuss' ৰ পিছত 'about' নলগাকৈ object আহে)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "He reached at the", "as": "He reached at the" },
+        { "en": "station before the train", "as": "station before the train" },
+        { "en": "left.", "as": "left." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'reached at' should be 'reached' ('reach' takes a place directly without 'at').", "as": "A অংশত ভুল আছে: 'reached at' ৰ ঠাইত 'reached' হ'ব লাগে ('reach' ৰ পিছত 'at' নালাগে, স্থান সরাসৰি আহে)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "The boy who stood first", "as": "The boy who stood first" },
+        { "en": "in the exam received", "as": "in the exam received" },
+        { "en": "a prize.", "as": "a prize." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 3,
+      "a": { "en": "No error — the sentence is grammatically correct. The relative clause 'who stood first' is correctly used.", "as": "ভুল নাই — বাক্যটো ব্যাকৰণগতভাৱে শুদ্ধ। relative clause 'who stood first' শুদ্ধ।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "The teacher, along with", "as": "The teacher, along with" },
+        { "en": "the students, were present", "as": "the students, were present" },
+        { "en": "in the hall.", "as": "in the hall." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 1,
+      "a": { "en": "Part B has the error: 'were present' should be 'was present' (the subject 'The teacher' is singular; 'along with the students' does not make it plural).", "as": "B অংশত ভুল আছে: 'were present' ৰ ঠাইত 'was present' হ'ব লাগে (subject 'The teacher' একবচন; 'along with the students' ৰ বাবে বহুবচন নহয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "I have visited the", "as": "I have visited the" },
+        { "en": "Kaziranga National Park", "as": "Kaziranga National Park" },
+        { "en": "last year.", "as": "last year." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'have visited' should be 'visited' (the present perfect cannot be used with a definite past time such as 'last year').", "as": "A অংশত ভুল আছে: 'have visited' ৰ ঠাইত 'visited' হ'ব লাগে ('last year' নিৰ্দিষ্ট অতীত সময়, গতিকে present perfect নহয়, simple past শুদ্ধ)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "Neither of the two girls", "as": "Neither of the two girls" },
+        { "en": "were present in the", "as": "were present in the" },
+        { "en": "class today.", "as": "class today." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 1,
+      "a": { "en": "Part B has the error: 'were present' should be 'was present' (a singular verb follows 'neither of').", "as": "B অংশত ভুল আছে: 'were present' ৰ ঠাইত 'was present' হ'ব লাগে ('neither of' ৰ পিছত একবচন ক্ৰিয়া ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "She is married with", "as": "She is married with" },
+        { "en": "a doctor working in", "as": "a doctor working in" },
+        { "en": "Guwahati.", "as": "Guwahati." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'married with' should be 'married to' (the preposition 'to' follows 'married').", "as": "A অংশত ভুল আছে: 'married with' ৰ ঠাইত 'married to' হ'ব লাগে ('married' ৰ লগত 'to' preposition ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "He asked me that", "as": "He asked me that" },
+        { "en": "why I was late", "as": "why I was late" },
+        { "en": "that day.", "as": "that day." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'asked me that why' should be 'asked me why' (no 'that' is used before a wh-word in indirect speech).", "as": "A অংশত ভুল আছে: 'asked me that why' ৰ ঠাইত 'asked me why' হ'ব লাগে (wh-word ৰ আগত 'that' ব্যৱহাৰ নকৰি)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "A number of students", "as": "A number of students" },
+        { "en": "is waiting outside the", "as": "is waiting outside the" },
+        { "en": "examination hall.", "as": "examination hall." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 1,
+      "a": { "en": "Part B has the error: 'is waiting' should be 'are waiting' ('a number of' is plural and takes a plural verb).", "as": "B অংশত ভুল আছে: 'is waiting' ৰ ঠাইত 'are waiting' হ'ব লাগে ('a number of' বহুবচন, গতিকে বহুবচন ক্ৰিয়া লয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "I cannot help to laugh", "as": "I cannot help to laugh" },
+        { "en": "at his funny", "as": "at his funny" },
+        { "en": "jokes.", "as": "jokes." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'cannot help to laugh' should be 'cannot help laughing' (a gerund follows 'cannot help').", "as": "A অংশত ভুল আছে: 'cannot help to laugh' ৰ ঠাইত 'cannot help laughing' হ'ব লাগে ('cannot help' ৰ পিছত gerund ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "His spectacles is", "as": "His spectacles is" },
+        { "en": "new and very", "as": "new and very" },
+        { "en": "expensive.", "as": "expensive." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'spectacles is' should be 'spectacles are' (pair nouns like 'spectacles' are plural).", "as": "A অংশত ভুল আছে: 'spectacles is' ৰ ঠাইত 'spectacles are' হ'ব লাগে ('spectacles' যোৰ-বস্তু, সেয়া বহুবচন ক্ৰিয়া লয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "We go to the cinema", "as": "We go to the cinema" },
+        { "en": "once in a week with", "as": "once in a week with" },
+        { "en": "our friends.", "as": "our friends." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 1,
+      "a": { "en": "Part B has the error: 'once in a week' should be 'once a week' (no 'in' is used after 'once' or 'twice').", "as": "B অংশত ভুল আছে: 'once in a week' ৰ ঠাইত 'once a week' হ'ব লাগে ('once' বা 'twice' ৰ পিছত 'in' নালাগে)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "They have been building", "as": "They have been building" },
+        { "en": "the bridge since", "as": "the bridge since" },
+        { "en": "2020.", "as": "2020." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 3,
+      "a": { "en": "No error — the sentence is grammatically correct. 'Since 2020' correctly uses the present perfect continuous.", "as": "ভুল নাই — বাক্যটো ব্যাকৰণগতভাৱে শুদ্ধ। 'since 2020' ৰ লগত present perfect continuous শুদ্ধ।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "She was angry on", "as": "She was angry on" },
+        { "en": "me for breaking her", "as": "me for breaking her" },
+        { "en": "pen.", "as": "pen." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'angry on' should be 'angry with' (we are angry with a person).", "as": "A অংশত ভুল আছে: 'angry on' ৰ ঠাইত 'angry with' হ'ব লাগে (ব্যক্তিৰ ওপৰত খং হ'লে 'angry with' ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "It has been raining", "as": "It has been raining" },
+        { "en": "since two hours without", "as": "since two hours without" },
+        { "en": "any break.", "as": "any break." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 1,
+      "a": { "en": "Part B has the error: 'since two hours' should be 'for two hours' (use 'for' with a duration of time).", "as": "B অংশত ভুল আছে: 'since two hours' ৰ ঠাইত 'for two hours' হ'ব লাগে (সময়ৰ দৈৰ্ঘ্য বুজালে 'for' ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "He talks as if he knows", "as": "He talks as if he knows" },
+        { "en": "everything about the", "as": "everything about the" },
+        { "en": "subject.", "as": "subject." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'knows' should be 'knew' (a past or subjunctive form follows 'as if').", "as": "A অংশত ভুল আছে: 'knows' ৰ ঠাইত 'knew' হ'ব লাগে ('as if' ৰ পিছত past tense ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "The captain as well as", "as": "The captain as well as" },
+        { "en": "the players were praised", "as": "the players were praised" },
+        { "en": "by the coach.", "as": "by the coach." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 1,
+      "a": { "en": "Part B has the error: 'were praised' should be 'was praised' (the subject 'The captain' is singular; 'as well as' does not make it plural).", "as": "B অংশত ভুল আছে: 'were praised' ৰ ঠাইত 'was praised' হ'ব লাগে (subject 'The captain' একবচন; 'as well as' ৰ বাবে বহুবচন নহয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "He has lived in this city", "as": "He has lived in this city" },
+        { "en": "for ten years and", "as": "for ten years and" },
+        { "en": "knows every street.", "as": "knows every street." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 3,
+      "a": { "en": "No error — the sentence is grammatically correct. 'For ten years' with the present perfect is correct and the verb 'knows' agrees with the subject.", "as": "ভুল নাই — বাক্যটো ব্যাকৰণগতভাৱে শুদ্ধ। 'for ten years' ৰ লগত present perfect শুদ্ধ আৰু 'knows' subject ৰ লগত মানি গৈছে।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "Every one of the players", "as": "Every one of the players" },
+        { "en": "were given a medal", "as": "were given a medal" },
+        { "en": "yesterday.", "as": "yesterday." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 1,
+      "a": { "en": "Part B has the error: 'were given' should be 'was given' ('every one' is singular and takes a singular verb).", "as": "B অংশত ভুল আছে: 'were given' ৰ ঠাইত 'was given' হ'ব লাগে ('every one' একবচন, গতিকে একবচন ক্ৰিয়া লয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "I look forward to", "as": "I look forward to" },
+        { "en": "meet you at the", "as": "meet you at the" },
+        { "en": "conference tomorrow.", "as": "conference tomorrow." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 1,
+      "a": { "en": "Part B has the error: 'meet' should be 'meeting' (a gerund follows 'look forward to').", "as": "B অংশত ভুল আছে: 'meet' ৰ ঠাইত 'meeting' হ'ব লাগে ('look forward to' ৰ পিছত gerund ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "Hardly had he reached the station", "as": "Hardly had he reached the station" },
+        { "en": "when the train", "as": "when the train" },
+        { "en": "left.", "as": "left." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 3,
+      "a": { "en": "No error — the sentence is grammatically correct. The inversion after 'hardly...when' is correctly done.", "as": "ভুল নাই — বাক্যটো ব্যাকৰণগতভাৱে শুদ্ধ। 'Hardly...when' ৰ পিছত inversion শুদ্ধকৈ হৈছে।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "Rina, our class monitor,", "as": "Rina, our class monitor," },
+        { "en": "is present today,", "as": "is present today," },
+        { "en": "isn't it?", "as": "isn't it?" },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 2,
+      "a": { "en": "Part C has the error: 'isn't it' should be 'isn't she' (the question tag must agree with the subject 'Rina').", "as": "C অংশত ভুল আছে: 'isn't it' ৰ ঠাইত 'isn't she' হ'ব লাগে (question tag subject 'Rina' ৰ লগত মানি চলিব লাগে)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "I bought a red beautiful", "as": "I bought a red beautiful" },
+        { "en": "saree at the", "as": "saree at the" },
+        { "en": "market.", "as": "market." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'red beautiful saree' should be 'beautiful red saree' (an opinion adjective comes before a colour adjective).", "as": "A অংশত ভুল আছে: 'red beautiful saree' ৰ ঠাইত 'beautiful red saree' হ'ব লাগে (opinion adjective 'beautiful' বৰণ adjective 'red' ৰ আগত আহে)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "He died from cancer", "as": "He died from cancer" },
+        { "en": "last year in the city", "as": "last year in the city" },
+        { "en": "hospital.", "as": "hospital." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'died from cancer' should be 'died of cancer' (we die of a disease).", "as": "A অংশত ভুল আছে: 'died from cancer' ৰ ঠাইত 'died of cancer' হ'ব লাগে (ৰোগৰ ক্ষেত্ৰত 'die of' ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "He is an university", "as": "He is an university" },
+        { "en": "student of the", "as": "student of the" },
+        { "en": "local college.", "as": "local college." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'an university' should be 'a university' ('university' begins with the consonant sound 'ju').", "as": "A অংশত ভুল আছে: 'an university' ৰ ঠাইত 'a university' হ'ব লাগে ('university' উচ্চাৰণত consonant sound 'ju' ৰে আৰম্ভ হয়, সেয়ে 'a' ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "The Brahmaputra is a longest", "as": "The Brahmaputra is a longest" },
+        { "en": "river in the state", "as": "river in the state" },
+        { "en": "of Assam.", "as": "of Assam." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'a longest' should be 'the longest' (the definite article 'the' is used before a superlative).", "as": "A অংশত ভুল আছে: 'a longest' ৰ ঠাইত 'the longest' হ'ব লাগে (superlative ৰ আগত 'the' ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "Ravi and myself went", "as": "Ravi and myself went" },
+        { "en": "to the market", "as": "to the market" },
+        { "en": "this morning.", "as": "this morning." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'Ravi and myself' should be 'Ravi and I' (a reflexive pronoun cannot be used as the subject).", "as": "A অংশত ভুল আছে: 'Ravi and myself' ৰ ঠাইত 'Ravi and I' হ'ব লাগে (reflexive pronoun 'myself' subject পদত ব্যৱহাৰ নহয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "He is the most tallest", "as": "He is the most tallest" },
+        { "en": "boy in the", "as": "boy in the" },
+        { "en": "class.", "as": "class." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'most tallest' should be 'tallest' ('tallest' is already superlative and does not take 'most').", "as": "A অংশত ভুল আছে: 'most tallest' ৰ ঠাইত 'tallest' হ'ব লাগে ('tallest' ইতিমধ্যে superlative, গতিকে 'most' অতিৰিক্ত)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "The cattle is grazing", "as": "The cattle is grazing" },
+        { "en": "in the field", "as": "in the field" },
+        { "en": "near the river.", "as": "near the river." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'cattle is grazing' should be 'cattle are grazing' ('cattle' is a plural noun).", "as": "A অংশত ভুল আছে: 'cattle is grazing' ৰ ঠাইত 'cattle are grazing' হ'ব লাগে ('cattle' বহুবচন আৰু বহুবচন ক্ৰিয়া লয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "Mathematics are my", "as": "Mathematics are my" },
+        { "en": "favourite subject in", "as": "favourite subject in" },
+        { "en": "school.", "as": "school." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'Mathematics are' should be 'Mathematics is' ('mathematics' looks plural but is singular).", "as": "A অংশত ভুল আছে: 'Mathematics are' ৰ ঠাইত 'Mathematics is' হ'ব লাগে ('Mathematics' বহুবচন যেন লাগিলেও একবচন)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "He is used to get up", "as": "He is used to get up" },
+        { "en": "early in the", "as": "early in the" },
+        { "en": "morning.", "as": "morning." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'used to get up' should be 'used to getting up' (a gerund follows 'be used to').", "as": "A অংশত ভুল আছে: 'used to get up' ৰ ঠাইত 'used to getting up' হ'ব লাগে ('be used to' ৰ পিছত gerund ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "He did not went to school", "as": "He did not went to school" },
+        { "en": "because he was", "as": "because he was" },
+        { "en": "not feeling well.", "as": "not feeling well." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'did not went' should be 'did not go' (the base form of the verb follows 'did not').", "as": "A অংশত ভুল আছে: 'did not went' ৰ ঠাইত 'did not go' হ'ব লাগে ('did not' ৰ পিছত base form ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "Many a student have failed", "as": "Many a student have failed" },
+        { "en": "the English examination", "as": "the English examination" },
+        { "en": "this year.", "as": "this year." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'Many a student have failed' should be 'Many a student has failed' ('many a' is singular and takes a singular verb).", "as": "A অংশত ভুল আছে: 'Many a student have failed' ৰ ঠাইত 'Many a student has failed' হ'ব লাগে ('many a' একবচন আৰু একবচন ক্ৰিয়া লয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "No sooner he arrived than", "as": "No sooner he arrived than" },
+        { "en": "the train left the", "as": "the train left the" },
+        { "en": "station.", "as": "station." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 0,
+      "a": { "en": "Part A has the error: 'No sooner he arrived than' should be 'No sooner had he arrived than' (inversion with the past perfect follows 'no sooner').", "as": "A অংশত ভুল আছে: 'No sooner he arrived than' ৰ ঠাইত 'No sooner had he arrived than' হ'ব লাগে ('no sooner' ৰ পিছত inversion আৰু past perfect ব্যৱহাৰ হয়)।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "She neither came to the", "as": "She neither came to the" },
+        { "en": "party nor called", "as": "party nor called" },
+        { "en": "me.", "as": "me." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 3,
+      "a": { "en": "No error — the sentence is grammatically correct. The correlative pair 'neither...nor' is correctly used.", "as": "ভুল নাই — বাক্যটো ব্যাকৰণগতভাৱে শুদ্ধ। 'neither...nor' ৰ ব্যৱহাৰ শুদ্ধ।" }
+    },
+    {
+      "q": { "en": "Spot the part of the sentence that contains an error.", "as": "বাক্যটোৰ কোনটো অংশত ভুল আছে চিনাক্ত কৰক।" },
+      "options": [
+        { "en": "The teacher gave the books", "as": "The teacher gave the books" },
+        { "en": "to Ravi and", "as": "to Ravi and" },
+        { "en": "I.", "as": "I." },
+        { "en": "No error", "as": "No error" }
+      ],
+      "correct": 2,
+      "a": { "en": "Part C has the error: 'I' should be 'me' (the object pronoun is required after the preposition 'to').", "as": "C অংশত ভুল আছে: 'I' ৰ ঠাইত 'me' হ'ব লাগে (preposition 'to' ৰ পিছত object pronoun 'me' ব্যৱহাৰ হয়)।" }
+    }
+  ]
 }
