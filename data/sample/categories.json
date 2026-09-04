@@ -627,11 +627,28 @@
       "icon": "PC",
       "subcategories": [
         {
-          "id": "comp-fundamentals",
-          "name": { "en": "Fundamentals", "as": "মূল ধাৰণা" },
-          "topics": [
-            { "id": "computer-basics", "name": { "en": "Computer Basics & Shortcuts", "as": "কম্পিউটাৰ বুনিয়াদ আৰু চৰ্টকাট" }, "popularity": 7 }
-          ]
+          "id": "fundamentals-hardware",
+          "name": { "en": "Computer Fundamentals & Hardware", "as": "কম্পিউটাৰ মৌলিক ধাৰণা আৰু হাৰ্ডৱেৰ" }
+        },
+        {
+          "id": "software-os",
+          "name": { "en": "Software & Operating System", "as": "চফ্টৱেৰ আৰু অপাৰেটিং ছিষ্টেম" }
+        },
+        {
+          "id": "ms-office-suite",
+          "name": { "en": "MS Office Suite", "as": "MS Office ছুট" }
+        },
+        {
+          "id": "networking-internet",
+          "name": { "en": "Networking & Internet", "as": "নেটৱৰ্কিং আৰু ইন্টাৰনেট" }
+        },
+        {
+          "id": "cyber-security",
+          "name": { "en": "Cyber Security", "as": "চাইবাৰ নিৰাপত্তা" }
+        },
+        {
+          "id": "dbms-number-shortcuts",
+          "name": { "en": "DBMS, Number System & Shortcuts", "as": "DBMS, সংখ্যা পদ্ধতি আৰু চৰ্টকাট" }
         }
       ]
     },

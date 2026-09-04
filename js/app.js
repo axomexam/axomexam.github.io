@@ -2755,6 +2755,12 @@
         { id: "vocabulary", name: { en: "Vocabulary", as: "শব্দভাণ্ডাৰ" } }
       ];
     }
+    if (cat.id === "computer") {
+      return [
+        { id: "comp-fundamentals", name: { en: "Fundamentals", as: "মৌলিক" } },
+        { id: "ms-office", name: { en: "MS Office", as: "MS Office" } }
+      ];
+    }
     return cat.subcategories || [];
   }
 
