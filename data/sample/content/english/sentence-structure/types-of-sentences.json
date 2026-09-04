@@ -1,12 +1,463 @@
 {
-  "id": "types-of-sentences",
-  "title": {
-    "en": "Types of Sentences",
-    "as": "বাক্যৰ প্ৰকাৰ"
-  },
-  "description": {
-    "en": "Upload questions here.",
-    "as": "ইয়াত প্ৰশ্ন আপলোড কৰক।"
-  },
-  "questions": []
+  "id": "english-grammar-sentence-types",
+  "title": { "en": "Sentence Structure & Types of Sentences", "as": "বাক্য গঠন আৰু বাক্যৰ প্ৰকাৰ" },
+  "description": { "en": "Objective questions on types of sentences and sentence structure for Assam competitive exams.", "as": "অসম প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে বাক্যৰ প্ৰকাৰ আৰু বাক্য গঠনৰ ওপৰত গুৰুত্বপূৰ্ণ প্ৰশ্ন।" },
+  "tags": ["english", "grammar", "sentence", "types-of-sentences", "competitive", "ইংৰাজী", "ব্যাকৰণ", "বাক্য"],
+  "questions": [
+    {
+      "q": { "en": "Which type of sentence is: 'The sun rises in the east.'", "as": "'The sun rises in the east.' — কোন প্ৰকাৰৰ বাক্য?" },
+      "options": [
+        { "en": "Declarative", "as": "ঘোষণামূলক" },
+        { "en": "Interrogative", "as": "প্ৰশ্নবোধক" },
+        { "en": "Imperative", "as": "আদেশাত্মক" },
+        { "en": "Exclamatory", "as": "বিস্ময়সূচক" }
+      ],
+      "correct": 0,
+      "a": { "en": "It makes a statement or gives information.", "as": "ই এটা বক্তব্য/তথ্য দিয়ে।" }
+    },
+    {
+      "q": { "en": "Which type of sentence is: 'Please close the door.'", "as": "'Please close the door.' — কোন প্ৰকাৰৰ বাক্য?" },
+      "options": [
+        { "en": "Declarative", "as": "ঘোষণামূলক" },
+        { "en": "Interrogative", "as": "প্ৰশ্নবোধক" },
+        { "en": "Imperative", "as": "আদেশাত্মক" },
+        { "en": "Exclamatory", "as": "বিস্ময়সূচক" }
+      ],
+      "correct": 2,
+      "a": { "en": "It expresses a request (a kind of imperative sentence).", "as": "ই অনুৰোধ জনায় (আদেশাত্মক বাক্যৰ এটা প্ৰকাৰ)।" }
+    },
+    {
+      "q": { "en": "Which type of sentence is: 'What a beautiful picture it is!'", "as": "'What a beautiful picture it is!' — কোন প্ৰকাৰৰ বাক্য?" },
+      "options": [
+        { "en": "Declarative", "as": "ঘোষণামূলক" },
+        { "en": "Interrogative", "as": "প্ৰশ্নবোধক" },
+        { "en": "Imperative", "as": "আদেশাত্মক" },
+        { "en": "Exclamatory", "as": "বিস্ময়সূচক" }
+      ],
+      "correct": 3,
+      "a": { "en": "It expresses a sudden feeling of wonder.", "as": "ই হঠাৎ বিস্ময়ৰ ভাৱ প্ৰকাশ কৰে।" }
+    },
+    {
+      "q": { "en": "Which type of sentence is: 'Where do you live?'", "as": "'Where do you live?' — কোন প্ৰকাৰৰ বাক্য?" },
+      "options": [
+        { "en": "Declarative", "as": "ঘোষণামূলক" },
+        { "en": "Interrogative", "as": "প্ৰশ্নবোধক" },
+        { "en": "Imperative", "as": "আদেশাত্মক" },
+        { "en": "Exclamatory", "as": "বিস্ময়সূচক" }
+      ],
+      "correct": 1,
+      "a": { "en": "It asks a question.", "as": "ই প্ৰশ্ন সোধে।" }
+    },
+    {
+      "q": { "en": "Which type of sentence is: 'May you live long!'", "as": "'May you live long!' — কোন প্ৰকাৰৰ বাক্য?" },
+      "options": [
+        { "en": "Imperative", "as": "আদেশাত্মক" },
+        { "en": "Optative", "as": "আশীৰ্বাদসূচক" },
+        { "en": "Exclamatory", "as": "বিস্ময়সূচক" },
+        { "en": "Declarative", "as": "ঘোষণামূলক" }
+      ],
+      "correct": 1,
+      "a": { "en": "It expresses a wish or prayer.", "as": "ই আশীৰ্বাদ বা প্ৰাৰ্থনা প্ৰকাশ কৰে।" }
+    },
+    {
+      "q": { "en": "Which type of sentence is: 'Help me, please.'", "as": "'Help me, please.' — কোন প্ৰকাৰৰ বাক্য?" },
+      "options": [
+        { "en": "Declarative", "as": "ঘোষণামূলক" },
+        { "en": "Interrogative", "as": "প্ৰশ্নবোধক" },
+        { "en": "Imperative", "as": "আদেশাত্মক" },
+        { "en": "Exclamatory", "as": "বিস্ময়সূচক" }
+      ],
+      "correct": 2,
+      "a": { "en": "It is a request made in the imperative form.", "as": "ই আদেশাত্মক ৰূপত দিয়া অনুৰোধ।" }
+    },
+    {
+      "q": { "en": "A sentence that asks a question is called an ___ sentence.", "as": "যি বাক্যই প্ৰশ্ন সোধে তাক ___ বাক্য বোলে।" },
+      "options": [
+        { "en": "Declarative", "as": "ঘোষণামূলক" },
+        { "en": "Interrogative", "as": "প্ৰশ্নবোধক" },
+        { "en": "Imperative", "as": "আদেশাত্মক" },
+        { "en": "Exclamatory", "as": "বিস্ময়সূচক" }
+      ],
+      "correct": 1,
+      "a": { "en": "Interrogative sentences ask questions.", "as": "প্ৰশ্নবোধক বাক্যই প্ৰশ্ন সোধে।" }
+    },
+    {
+      "q": { "en": "An assertive sentence is also called a ___ sentence.", "as": "Assertive বাক্যক আন এটা নামত ___ বাক্য বোলে।" },
+      "options": [
+        { "en": "Declarative", "as": "ঘোষণামূলক" },
+        { "en": "Exclamatory", "as": "বিস্ময়সূচক" },
+        { "en": "Imperative", "as": "আদেশাত্মক" },
+        { "en": "Optative", "as": "আশীৰ্বাদসূচক" }
+      ],
+      "correct": 0,
+      "a": { "en": "Assertive and declarative sentences both state a fact.", "as": "Assertive আৰু declarative দুয়োটাই তথ্য/বক্তব্য প্ৰকাশ কৰে।" }
+    },
+    {
+      "q": { "en": "Which of the following is a declarative sentence?", "as": "তলৰ কোনটো এটা ঘোষণামূলক বাক্য?" },
+      "options": [
+        { "en": "What a pity!", "as": "What a pity!" },
+        { "en": "Please sit down.", "as": "Please sit down." },
+        { "en": "The earth is round.", "as": "The earth is round." },
+        { "en": "When will you come?", "as": "When will you come?" }
+      ],
+      "correct": 2,
+      "a": { "en": "It states a plain fact.", "as": "ই এটা সাধাৰণ তথ্য কয়।" }
+    },
+    {
+      "q": { "en": "Which of the following is an imperative sentence?", "as": "তলৰ কোনটো আদেশাত্মক বাক্য?" },
+      "options": [
+        { "en": "Where are you going?", "as": "Where are you going?" },
+        { "en": "Don't make a noise.", "as": "Don't make a noise." },
+        { "en": "What a pity!", "as": "What a pity!" },
+        { "en": "The sun shines.", "as": "The sun shines." }
+      ],
+      "correct": 1,
+      "a": { "en": "It gives a negative command (prohibition).", "as": "ই নিষেধ/আদেশ জনায়।" }
+    },
+    {
+      "q": { "en": "Change into an exclamatory sentence: 'He is a very honest man.'", "as": "বিস্ময়সূচক বাক্যলৈ ৰূপান্তৰ কৰক: 'He is a very honest man.'" },
+      "options": [
+        { "en": "What honest man he is!", "as": "What honest man he is!" },
+        { "en": "What an honest man he is!", "as": "What an honest man he is!" },
+        { "en": "How honest man he is!", "as": "How honest man he is!" },
+        { "en": "What honest a man he is!", "as": "What honest a man he is!" }
+      ],
+      "correct": 1,
+      "a": { "en": "Pattern: What + a/an + adjective + noun + subject + verb!", "as": "ৰীতি: What + a/an + বিশেষণ + বিশেষ্য + কৰ্তা + ক্রিয়া!" }
+    },
+    {
+      "q": { "en": "Change into an assertive sentence: 'What a beautiful flower it is!'", "as": "Assertive বাক্যলৈ ৰূপান্তৰ কৰক: 'What a beautiful flower it is!'" },
+      "options": [
+        { "en": "It is a very beautiful flower.", "as": "It is a very beautiful flower." },
+        { "en": "It is very beautiful flower.", "as": "It is very beautiful flower." },
+        { "en": "It is a so beautiful flower.", "as": "It is a so beautiful flower." },
+        { "en": "A very beautiful flower it is.", "as": "A very beautiful flower it is." }
+      ],
+      "correct": 0,
+      "a": { "en": "'Very' is used in place of 'what a/an' in the assertive form.", "as": "Assertive ৰূপত 'what a/an' ৰ সলনি 'very' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Change into an interrogative sentence: 'No one can deny that he is honest.'", "as": "প্ৰশ্নবোধক বাক্যলৈ ৰূপান্তৰ কৰক: 'No one can deny that he is honest.'" },
+      "options": [
+        { "en": "Can anyone deny that he is honest?", "as": "Can anyone deny that he is honest?" },
+        { "en": "Can anyone deny that he is dishonest?", "as": "Can anyone deny that he is dishonest?" },
+        { "en": "Can anyone deny that is he honest?", "as": "Can anyone deny that is he honest?" },
+        { "en": "No one can deny that is he honest?", "as": "No one can deny that is he honest?" }
+      ],
+      "correct": 0,
+      "a": { "en": "A negative assertive sentence turns into a positive interrogative one.", "as": "নকাৰাত্মক assertive বাক্য সকাৰাত্মক প্ৰশ্নবোধক বাক্যলৈ ৰূপান্তৰিত হয়।" }
+    },
+    {
+      "q": { "en": "Change into an assertive sentence: 'Am I a fool?'", "as": "Assertive বাক্যলৈ ৰূপান্তৰ কৰক: 'Am I a fool?'" },
+      "options": [
+        { "en": "I am a fool.", "as": "I am a fool." },
+        { "en": "I am not a fool.", "as": "I am not a fool." },
+        { "en": "I was not a fool.", "as": "I was not a fool." },
+        { "en": "I am a not fool.", "as": "I am a not fool." }
+      ],
+      "correct": 1,
+      "a": { "en": "This rhetorical question means a negative assertion.", "as": "এই অলংকাৰিক প্ৰশ্নটোৱে নকাৰাত্মক বক্তব্য বুজায়।" }
+    },
+    {
+      "q": { "en": "Change into an imperative sentence: 'You should not waste time.'", "as": "আদেশাত্মক বাক্যলৈ ৰূপান্তৰ কৰক: 'You should not waste time.'" },
+      "options": [
+        { "en": "Do not waste time.", "as": "Do not waste time." },
+        { "en": "Waste time not do.", "as": "Waste time not do." },
+        { "en": "Not waste time you.", "as": "Not waste time you." },
+        { "en": "You do not wasting time.", "as": "You do not wasting time." }
+      ],
+      "correct": 0,
+      "a": { "en": "A prohibition is expressed with 'Do not + base verb'.", "as": "নিষেধ 'Do not + মূল ক্রিয়া' ৰে প্ৰকাশ হয়।" }
+    },
+    {
+      "q": { "en": "Which of the following is an optative sentence?", "as": "তলৰ কোনটো আশীৰ্বাদসূচক বাক্য?" },
+      "options": [
+        { "en": "May God bless you!", "as": "May God bless you!" },
+        { "en": "How nice!", "as": "How nice!" },
+        { "en": "Go away.", "as": "Go away." },
+        { "en": "Is he coming?", "as": "Is he coming?" }
+      ],
+      "correct": 0,
+      "a": { "en": "It expresses a blessing/prayer.", "as": "ই আশীৰ্বাদ/প্ৰাৰ্থনা প্ৰকাশ কৰে।" }
+    },
+    {
+      "q": { "en": "Which of the following is an exclamatory sentence?", "as": "তলৰ কোনটো বিস্ময়সূচক বাক্য?" },
+      "options": [
+        { "en": "How fast he runs!", "as": "How fast he runs!" },
+        { "en": "Run fast.", "as": "Run fast." },
+        { "en": "He runs fast.", "as": "He runs fast." },
+        { "en": "Does he run fast?", "as": "Does he run fast?" }
+      ],
+      "correct": 0,
+      "a": { "en": "It shows a sudden feeling using 'How'.", "as": "'How' ৰে হঠাৎ ভাৱ প্ৰকাশ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'An imperative sentence expresses a ___, a request or advice.'", "as": "শূন্যস্থান পূৰণ কৰক: 'An imperative sentence expresses a ___, a request or advice.'" },
+      "options": [
+        { "en": "command", "as": "command" },
+        { "en": "question", "as": "question" },
+        { "en": "wish", "as": "wish" },
+        { "en": "feeling", "as": "feeling" }
+      ],
+      "correct": 0,
+      "a": { "en": "Imperative sentences express commands, requests or advice.", "as": "আদেশাত্মক বাক্যই আদেশ, অনুৰোধ বা উপদেশ প্ৰকাশ কৰে।" }
+    },
+    {
+      "q": { "en": "'Don't waste time.' is a ___ sentence.", "as": "'Don't waste time.' এটা ___ বাক্য।" },
+      "options": [
+        { "en": "negative imperative", "as": "নকাৰাত্মক আদেশাত্মক" },
+        { "en": "declarative", "as": "ঘোষণামূলক" },
+        { "en": "interrogative", "as": "প্ৰশ্নবোধক" },
+        { "en": "exclamatory", "as": "বিস্ময়সূচক" }
+      ],
+      "correct": 0,
+      "a": { "en": "It is a command in the negative form.", "as": "ই নকাৰাত্মক ৰূপত দিয়া আদেশ।" }
+    },
+    {
+      "q": { "en": "A sentence which expresses a sudden strong feeling is called a/an ___ sentence.", "as": "যি বাক্যই হঠাৎ প্ৰবল ভাৱ প্ৰকাশ কৰে তাক ___ বাক্য বোলে।" },
+      "options": [
+        { "en": "Declarative", "as": "ঘোষণামূলক" },
+        { "en": "Interrogative", "as": "প্ৰশ্নবোধক" },
+        { "en": "Exclamatory", "as": "বিস্ময়সূচক" },
+        { "en": "Imperative", "as": "আদেশাত্মক" }
+      ],
+      "correct": 2,
+      "a": { "en": "Sudden feelings (joy, sorrow, wonder) are expressed by exclamatory sentences.", "as": "আনন্দ, দুখ, বিস্ময় আদি হঠাৎ ভাৱ বিস্ময়সূচক বাক্যত প্ৰকাশ পায়।" }
+    },
+    {
+      "q": { "en": "A sentence that has only one subject and one finite verb is called a ___ sentence.", "as": "যি বাক্যত কেৱল এটা subject আৰু এটা finite verb থাকে তাক ___ বাক্য বোলে।" },
+      "options": [
+        { "en": "Simple", "as": "সৰল" },
+        { "en": "Compound", "as": "যৌগিক" },
+        { "en": "Complex", "as": "জটিল" },
+        { "en": "Imperative", "as": "আদেশাত্মক" }
+      ],
+      "correct": 0,
+      "a": { "en": "A simple sentence has one main clause only.", "as": "সৰল বাক্যত কেৱল এটা main clause থাকে।" }
+    },
+    {
+      "q": { "en": "A sentence that has two or more main clauses joined by a conjunction is a ___ sentence.", "as": "যি বাক্যত conjunction ৰে যুক্ত দুটা বা তাতকৈ বেছি main clause থাকে তাক ___ বাক্য বোলে।" },
+      "options": [
+        { "en": "Simple", "as": "সৰল" },
+        { "en": "Compound", "as": "যৌগিক" },
+        { "en": "Complex", "as": "জটিল" },
+        { "en": "Phrase", "as": "বাক্যাংশ" }
+      ],
+      "correct": 1,
+      "a": { "en": "A compound sentence joins main clauses with and/but/or.", "as": "যৌগিক বাক্যত and/but/or ৰে main clause যুক্ত হয়।" }
+    },
+    {
+      "q": { "en": "A sentence that has one main clause and one or more subordinate clauses is a ___ sentence.", "as": "যি বাক্যত এটা main clause আৰু এটা বা বেছি subordinate clause থাকে তাক ___ বাক্য বোলে।" },
+      "options": [
+        { "en": "Simple", "as": "সৰল" },
+        { "en": "Compound", "as": "যৌগিক" },
+        { "en": "Complex", "as": "জটিল" },
+        { "en": "Optative", "as": "আশীৰ্বাদসূচক" }
+      ],
+      "correct": 2,
+      "a": { "en": "A complex sentence contains a subordinate clause.", "as": "জটিল বাক্যত subordinate clause থাকে।" }
+    },
+    {
+      "q": { "en": "Identify the kind of sentence: 'He came home and slept.'", "as": "বাক্যটোৰ প্ৰকাৰ চিনাক্ত কৰক: 'He came home and slept.'" },
+      "options": [
+        { "en": "Simple", "as": "সৰল" },
+        { "en": "Compound", "as": "যৌগিক" },
+        { "en": "Complex", "as": "জটিল" },
+        { "en": "Imperative", "as": "আদেশাত্মক" }
+      ],
+      "correct": 1,
+      "a": { "en": "Two main clauses are joined by 'and'.", "as": "'and' ৰে দুটা main clause যুক্ত হৈছে।" }
+    },
+    {
+      "q": { "en": "Identify the kind of sentence: 'He is so weak that he cannot walk.'", "as": "বাক্যটোৰ প্ৰকাৰ চিনাক্ত কৰক: 'He is so weak that he cannot walk.'" },
+      "options": [
+        { "en": "Simple", "as": "সৰল" },
+        { "en": "Compound", "as": "যৌগিক" },
+        { "en": "Complex", "as": "জটিল" },
+        { "en": "Imperative", "as": "আদেশাত্মক" }
+      ],
+      "correct": 2,
+      "a": { "en": "Main clause + subordinate clause ('that he cannot walk').", "as": "Main clause + subordinate clause ('that he cannot walk')।" }
+    },
+    {
+      "q": { "en": "Identify the kind of sentence: 'He is too weak to walk.'", "as": "বাক্যটোৰ প্ৰকাৰ চিনাক্ত কৰক: 'He is too weak to walk.'" },
+      "options": [
+        { "en": "Simple", "as": "সৰল" },
+        { "en": "Compound", "as": "যৌগিক" },
+        { "en": "Complex", "as": "জটিল" },
+        { "en": "Interrogative", "as": "প্ৰশ্নবোধক" }
+      ],
+      "correct": 0,
+      "a": { "en": "The phrase 'too...to' has no finite verb, so it is a simple sentence.", "as": "'too...to' অংশত finite verb নাই, সেয়ে ই সৰল বাক্য।" }
+    },
+    {
+      "q": { "en": "Identify the kind of sentence: 'I know that he is honest.'", "as": "বাক্যটোৰ প্ৰকাৰ চিনাক্ত কৰক: 'I know that he is honest.'" },
+      "options": [
+        { "en": "Simple", "as": "সৰল" },
+        { "en": "Compound", "as": "যৌগিক" },
+        { "en": "Complex", "as": "জটিল" },
+        { "en": "Exclamatory", "as": "বিস্ময়সূচক" }
+      ],
+      "correct": 2,
+      "a": { "en": "It has a main clause and a noun clause ('that he is honest').", "as": "ইয়াত main clause আৰু noun clause আছে।" }
+    },
+    {
+      "q": { "en": "Identify the kind of sentence: 'Work hard or you will fail.'", "as": "বাক্যটোৰ প্ৰকাৰ চিনাক্ত কৰক: 'Work hard or you will fail.'" },
+      "options": [
+        { "en": "Simple", "as": "সৰল" },
+        { "en": "Compound", "as": "যৌগিক" },
+        { "en": "Complex", "as": "জটিল" },
+        { "en": "Phrase", "as": "বাক্যাংশ" }
+      ],
+      "correct": 1,
+      "a": { "en": "Two clauses are joined by 'or'.", "as": "'or' ৰে দুটা clause যুক্ত হৈছে।" }
+    },
+    {
+      "q": { "en": "Identify the kind of sentence: 'The boy who stole the pen was punished.'", "as": "বাক্যটোৰ প্ৰকাৰ চিনাক্ত কৰক: 'The boy who stole the pen was punished.'" },
+      "options": [
+        { "en": "Simple", "as": "সৰল" },
+        { "en": "Compound", "as": "যৌগিক" },
+        { "en": "Complex", "as": "জটিল" },
+        { "en": "Interrogative", "as": "প্ৰশ্নবোধক" }
+      ],
+      "correct": 2,
+      "a": { "en": "It contains an adjective clause ('who stole the pen').", "as": "ইয়াত adjective clause আছে ('who stole the pen')।" }
+    },
+    {
+      "q": { "en": "Which of the following is a simple sentence?", "as": "তলৰ কোনটো সৰল বাক্য?" },
+      "options": [
+        { "en": "He is poor but honest.", "as": "He is poor but honest." },
+        { "en": "Being ill, he stayed at home.", "as": "Being ill, he stayed at home." },
+        { "en": "As he was ill, he stayed at home.", "as": "As he was ill, he stayed at home." },
+        { "en": "He was ill and so he stayed at home.", "as": "He was ill and so he stayed at home." }
+      ],
+      "correct": 1,
+      "a": { "en": "Option B has only one subject and one finite verb ('being ill' is a phrase).", "as": "B বিকল্পত মাত্ৰ এটা subject আৰু finite verb আছে।" }
+    },
+    {
+      "q": { "en": "Change into a simple sentence: 'As he was ill, he stayed at home.'", "as": "সৰল বাক্যলৈ ৰূপান্তৰ কৰক: 'As he was ill, he stayed at home.'" },
+      "options": [
+        { "en": "Being ill, he stayed at home.", "as": "Being ill, he stayed at home." },
+        { "en": "He was ill and stayed at home.", "as": "He was ill and stayed at home." },
+        { "en": "He stayed at home and was ill.", "as": "He stayed at home and was ill." },
+        { "en": "He was ill so he stayed at home.", "as": "He was ill so he stayed at home." }
+      ],
+      "correct": 0,
+      "a": { "en": "The adverb clause becomes a participle phrase 'being ill'.", "as": "Adverb clause টো 'being ill' participle phrase লৈ ৰূপান্তৰিত হয়।" }
+    },
+    {
+      "q": { "en": "Change into a compound sentence: 'He must work hard to pass.'", "as": "যৌগিক বাক্যলৈ ৰূপান্তৰ কৰক: 'He must work hard to pass.'" },
+      "options": [
+        { "en": "He must work hard or he will not pass.", "as": "He must work hard or he will not pass." },
+        { "en": "He must work hard and pass.", "as": "He must work hard and pass." },
+        { "en": "If he works hard, he will pass.", "as": "If he works hard, he will pass." },
+        { "en": "Working hard, he will pass.", "as": "Working hard, he will pass." }
+      ],
+      "correct": 0,
+      "a": { "en": "The infinitive 'to pass' is converted into a second clause with 'or'.", "as": "'to pass' ৰ সলনি 'or' ৰে দ্বিতীয় clause তৈয়াৰ হয়।" }
+    },
+    {
+      "q": { "en": "Change into a complex sentence: 'Work hard and you will pass.'", "as": "জটিল বাক্যলৈ ৰূপান্তৰ কৰক: 'Work hard and you will pass.'" },
+      "options": [
+        { "en": "If you work hard, you will pass.", "as": "If you work hard, you will pass." },
+        { "en": "You work hard to pass.", "as": "You work hard to pass." },
+        { "en": "By working hard you will pass.", "as": "By working hard you will pass." },
+        { "en": "Work hard to pass.", "as": "Work hard to pass." }
+      ],
+      "correct": 0,
+      "a": { "en": "The first clause becomes an adverb clause of condition 'If...'.", "as": "প্ৰথম clause টো 'If...' শর্তবোধক adverb clause হয়।" }
+    },
+    {
+      "q": { "en": "The part of the sentence about which something is said is called the ___.", "as": "যি অংশৰ বিষয়ে বাক্যটোত কোৱা হয় তাকে ___ বোলে।" },
+      "options": [
+        { "en": "Predicate", "as": "বিধেয়" },
+        { "en": "Subject", "as": "কৰ্তা" },
+        { "en": "Object", "as": "কৰ্ম" },
+        { "en": "Complement", "as": "পূৰক" }
+      ],
+      "correct": 1,
+      "a": { "en": "The subject is the doer that the sentence is about.", "as": "Subject হৈছে বাক্যটো যি বিষয়ে কোৱা হয় সেই কৰ্তা।" }
+    },
+    {
+      "q": { "en": "The part of the sentence that says something about the subject is the ___.", "as": "বাক্যৰ যি অংশই subject ৰ বিষয়ে কয় তাক ___ বোলে।" },
+      "options": [
+        { "en": "Predicate", "as": "বিধেয়" },
+        { "en": "Subject", "as": "কৰ্তা" },
+        { "en": "Phrase", "as": "বাক্যাংশ" },
+        { "en": "Clause", "as": "উপবাক্য" }
+      ],
+      "correct": 0,
+      "a": { "en": "The predicate begins with the verb.", "as": "Predicate ক্রিয়াৰে আৰম্ভ হয়।" }
+    },
+    {
+      "q": { "en": "Identify the subject in: 'The old man walks slowly.'", "as": "কৰ্তা চিনাক্ত কৰক: 'The old man walks slowly.'" },
+      "options": [
+        { "en": "The old man", "as": "The old man" },
+        { "en": "old man", "as": "old man" },
+        { "en": "walks", "as": "walks" },
+        { "en": "slowly", "as": "slowly" }
+      ],
+      "correct": 0,
+      "a": { "en": "'The old man' is who the sentence talks about.", "as": "'The old man' হৈছে বাক্যটোৰ মূল বিষয়।" }
+    },
+    {
+      "q": { "en": "A group of words without a finite verb is called a ___.", "as": "finite verb নথকা শব্দসমষ্টিক ___ বোলে।" },
+      "options": [
+        { "en": "Clause", "as": "উপবাক্য" },
+        { "en": "Phrase", "as": "বাক্যাংশ" },
+        { "en": "Sentence", "as": "বাক্য" },
+        { "en": "Word", "as": "শব্দ" }
+      ],
+      "correct": 1,
+      "a": { "en": "A phrase has no subject-finite verb combination.", "as": "Phrase ত subject-finite verb নাথাকে।" }
+    },
+    {
+      "q": { "en": "A group of words that has a subject and a finite verb but forms only part of a sentence is a ___.", "as": "subject আৰু finite verb থকা কিন্তু বাক্যৰ অংশ মাথোন হোৱা শব্দসমষ্টি এটা ___।" },
+      "options": [
+        { "en": "Phrase", "as": "বাক্যাংশ" },
+        { "en": "Clause", "as": "উপবাক্য" },
+        { "en": "Sentence", "as": "বাক্য" },
+        { "en": "Paragraph", "as": "অনুচ্ছেদ" }
+      ],
+      "correct": 1,
+      "a": { "en": "A clause is part of a sentence but has its own subject and verb.", "as": "Clause ৰ নিজস্ব subject-verb থাকে যদিও সি বাক্যৰ অংশহে।" }
+    },
+    {
+      "q": { "en": "A group of words that makes complete sense is a ___.", "as": "যি শব্দসমষ্টিয়ে সম্পূৰ্ণ অৰ্থ প্ৰকাশ কৰে তাক ___ বোলে।" },
+      "options": [
+        { "en": "Phrase", "as": "বাক্যাংশ" },
+        { "en": "Clause", "as": "উপবাক্য" },
+        { "en": "Sentence", "as": "বাক্য" },
+        { "en": "Syllable", "as": "অক্ষৰ" }
+      ],
+      "correct": 2,
+      "a": { "en": "A sentence expresses a complete thought.", "as": "বাক্যই সম্পূৰ্ণ ভাৱ প্ৰকাশ কৰে।" }
+    },
+    {
+      "q": { "en": "Which of the following is a phrase?", "as": "তলৰ কোনটো এটা phrase (বাক্যাংশ)?" },
+      "options": [
+        { "en": "on the table", "as": "on the table" },
+        { "en": "he came", "as": "he came" },
+        { "en": "when he came", "as": "when he came" },
+        { "en": "what he wants", "as": "what he wants" }
+      ],
+      "correct": 0,
+      "a": { "en": "The other options have their own subjects and verbs.", "as": "আনবোৰ বিকল্পৰ নিজস্ব subject-verb আছে।" }
+    },
+    {
+      "q": { "en": "Which of the following is a complete sentence?", "as": "তলৰ কোনটো সম্পূৰ্ণ বাক্য?" },
+      "options": [
+        { "en": "in the morning", "as": "in the morning" },
+        { "en": "The sun shines.", "as": "The sun shines." },
+        { "en": "because of rain", "as": "because of rain" },
+        { "en": "on the roof", "as": "on the roof" }
+      ],
+      "correct": 1,
+      "a": { "en": "Only option B has a subject and a verb and makes complete sense.", "as": "B বিকল্পতহে subject-verb আছে আৰু সম্পূৰ্ণ অৰ্থ দিয়ে।" }
+    },
+    {
+      "q": { "en": "What kind of sentence is: 'How beautiful the sunset is!'", "as": "'How beautiful the sunset is!' — কোন প্ৰকাৰৰ বাক্য?" },
+      "a": { "en": "An exclamatory sentence (expresses wonder).", "as": "বিস্ময়সূচক বাক্য (বিস্ময় প্ৰকাশ কৰে)।" }
+    }
+  ]
 }
