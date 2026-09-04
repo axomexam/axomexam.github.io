@@ -1,20 +1,2688 @@
 {
- "id": "networking-internet",
- "title": {
-  "en": "Networking & Internet",
-  "as": "নেটৱৰ্কিং আৰু ইন্টাৰনেট"
- },
- "description": {
-  "en": "Computer networks, internet and related protocols for exams.",
-  "as": "পৰীক্ষাৰ বাবে কম্পিউটাৰ নেটৱৰ্ক, ইন্টাৰনেট আৰু প্ৰট'কল।"
- },
- "tags": [
-  "networking",
-  "internet",
-  "network",
-  "protocol",
-  "নেটৱৰ্কিং",
-  "ইন্টাৰনেট"
- ],
- "questions": []
+  "id": 4,
+  "title": {
+    "en": "Networking & Internet",
+    "as": "নেটৱৰ্কিং আৰু ইন্টাৰনেট"
+  },
+  "description": {
+    "en": "Questions on network types, protocols, internet services, browsers, email, web technologies and domain names.",
+    "as": "নেটৱৰ্কৰ প্ৰকাৰ, প্ৰ'ট'কল, ইন্টাৰনেট সেৱা, ব্ৰাউজাৰ, ইমেইল, ৱেব প্ৰযুক্তি আৰু ডমেইন নাম সম্পৰ্কীয় প্ৰশ্ন।"
+  },
+  "tags": [
+    "networking",
+    "internet",
+    "protocol",
+    "email",
+    "computer"
+  ],
+  "questions": [
+    {
+      "q": {
+        "en": "A group of interconnected computers is called a ___",
+        "as": "পৰস্পৰ সংযুক্ত কম্পিউটাৰ সমষ্টিক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Network",
+          "as": "Network"
+        },
+        {
+          "en": "Group",
+          "as": "Group"
+        },
+        {
+          "en": "System",
+          "as": "System"
+        },
+        {
+          "en": "Cluster",
+          "as": "Cluster"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A network connects computers to share data and resources.",
+        "as": "network য়ে তথ্য আৰু সম্পদ ভাগ-বতৰা কৰিবলৈ কম্পিউটাৰ সংযোগ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The network that covers a small area like a building is called a ___",
+        "as": "অট্টালিকাৰ দৰে সৰু অঞ্চল জুৰি থকা network ক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "LAN",
+          "as": "LAN"
+        },
+        {
+          "en": "WAN",
+          "as": "WAN"
+        },
+        {
+          "en": "MAN",
+          "as": "MAN"
+        },
+        {
+          "en": "PAN",
+          "as": "PAN"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "LAN (Local Area Network) covers a small area like an office or building.",
+        "as": "LAN (Local Area Network) এ অফিচ বা অট্টালিকাৰ দৰে সৰু অঞ্চল জুৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The network that covers a very large area like a country is called a ___",
+        "as": "দেশৰ দৰে বহুত ডাঙৰ অঞ্চল জুৰি network ক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "WAN",
+          "as": "WAN"
+        },
+        {
+          "en": "LAN",
+          "as": "LAN"
+        },
+        {
+          "en": "MAN",
+          "as": "MAN"
+        },
+        {
+          "en": "CAN",
+          "as": "CAN"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "WAN (Wide Area Network) covers a large geographical area; the internet is the largest WAN.",
+        "as": "WAN (Wide Area Network) এ ডাঙৰ ভৌগোলিক অঞ্চল জুৰে; ইন্টারনেটেই সবাতোকৈ ডাঙৰ WAN।"
+      }
+    },
+    {
+      "q": {
+        "en": "The network that covers a city is called a ___",
+        "as": "চহৰ এখন জুৰি network ক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "MAN",
+          "as": "MAN"
+        },
+        {
+          "en": "LAN",
+          "as": "LAN"
+        },
+        {
+          "en": "WAN",
+          "as": "WAN"
+        },
+        {
+          "en": "PAN",
+          "as": "PAN"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "MAN (Metropolitan Area Network) covers a city or metropolitan area.",
+        "as": "MAN (Metropolitan Area Network) এ চহৰ বা নগৰীয়া অঞ্চল জুৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the full form of LAN?",
+        "as": "LAN ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Local Area Network",
+          "as": "Local Area Network"
+        },
+        {
+          "en": "Large Area Network",
+          "as": "Large Area Network"
+        },
+        {
+          "en": "Long Area Network",
+          "as": "Long Area Network"
+        },
+        {
+          "en": "Linked Area Network",
+          "as": "Linked Area Network"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "LAN stands for Local Area Network.",
+        "as": "LAN ৰ অৰ্থ Local Area Network।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the full form of WAN?",
+        "as": "WAN ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Wide Area Network",
+          "as": "Wide Area Network"
+        },
+        {
+          "en": "Web Area Network",
+          "as": "Web Area Network"
+        },
+        {
+          "en": "World Area Network",
+          "as": "World Area Network"
+        },
+        {
+          "en": "Wireless Area Network",
+          "as": "Wireless Area Network"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "WAN stands for Wide Area Network.",
+        "as": "WAN ৰ অৰ্থ Wide Area Network।"
+      }
+    },
+    {
+      "q": {
+        "en": "The worldwide network of computers is called the ___",
+        "as": "বিশ্বব্যাপী কম্পিউটাৰ network ক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Internet",
+          "as": "Internet"
+        },
+        {
+          "en": "Intranet",
+          "as": "Intranet"
+        },
+        {
+          "en": "Extranet",
+          "as": "Extranet"
+        },
+        {
+          "en": "Modem",
+          "as": "Modem"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The Internet is the global network of interconnected computers.",
+        "as": "ইন্টারনেট হৈছে বিশ্বব্যাপী সংযুক্ত কম্পিউটাৰ network।"
+      }
+    },
+    {
+      "q": {
+        "en": "A private network within an organization is called a(n) ___",
+        "as": "সংস্থা এটাৰ ভিতৰত ব্যক্তিগত network ক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Intranet",
+          "as": "Intranet"
+        },
+        {
+          "en": "Internet",
+          "as": "Internet"
+        },
+        {
+          "en": "Extranet",
+          "as": "Extranet"
+        },
+        {
+          "en": "Hypernet",
+          "as": "Hypernet"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "An intranet is a private network within an organization using internet technology.",
+        "as": "intranet হৈছে সংস্থা এটাৰ ভিতৰত internet প্রযুক্তিৰে নির্মিত ব্যক্তিগত network।"
+      }
+    },
+    {
+      "q": {
+        "en": "A network that allows controlled access from outside an organization's intranet is called a(n) ___",
+        "as": "সংস্থাৰ intranet ৰ বাহিৰৰ পৰা নিয়ন্ত্ৰিত প্রবেশ দিয়া network ক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Extranet",
+          "as": "Extranet"
+        },
+        {
+          "en": "Intranet",
+          "as": "Intranet"
+        },
+        {
+          "en": "Internet",
+          "as": "Internet"
+        },
+        {
+          "en": "Localnet",
+          "as": "Localnet"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "An extranet is a controlled extension of an intranet to outside partners.",
+        "as": "extranet হৈছে বাহিৰৰ অংশীদাৰলৈ intranet ৰ নিয়ন্ত্ৰিত বিস্তাৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which device connects a computer to the internet using a telephone or cable line?",
+        "as": "টেলিফোন বা cable line ৰে কম্পিউটাৰক ইন্টারনেটত সংযোগ কৰা যন্ত্ৰ কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Modem",
+          "as": "Modem"
+        },
+        {
+          "en": "Printer",
+          "as": "Printer"
+        },
+        {
+          "en": "Scanner",
+          "as": "Scanner"
+        },
+        {
+          "en": "Joystick",
+          "as": "Joystick"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A modem modulates and demodulates signals to connect to the internet.",
+        "as": "modem য়ে সংকেত মডুলেট/ডিমডুলেট কৰি ইন্টারনেট সংযোগ দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The device that connects multiple computers in a LAN is called a ___",
+        "as": "LAN ত একাধিক কম্পিউটাৰ সংযোগ কৰা যন্ত্ৰক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Switch / Hub",
+          "as": "Switch / Hub"
+        },
+        {
+          "en": "Modem",
+          "as": "Modem"
+        },
+        {
+          "en": "Router over modem",
+          "as": "Router over modem"
+        },
+        {
+          "en": "Repeater",
+          "as": "Repeater"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A switch (or hub) connects computers within a LAN.",
+        "as": "switch (বা hub) য়ে LAN ত কম্পিউটাৰ সংযোগ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which device connects two or more different networks and chooses the best path for data?",
+        "as": "দুই বা ততোধিক ভিন্ন network সংযোগ কৰি তথ্যৰ বাবে উত্তম পথ বাছি লোৱা যন্ত্ৰ কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Router",
+          "as": "Router"
+        },
+        {
+          "en": "Switch",
+          "as": "Switch"
+        },
+        {
+          "en": "Hub",
+          "as": "Hub"
+        },
+        {
+          "en": "Modem",
+          "as": "Modem"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A router connects networks and routes data packets between them.",
+        "as": "router য়ে network সংযোগ আৰু মাজত data packet পৰিবহণ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The unique address of a computer on a network is called its ___",
+        "as": "network ত কম্পিউটাৰৰ অনন্য ঠিকনাক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "IP address",
+          "as": "IP address"
+        },
+        {
+          "en": "CPU number",
+          "as": "CPU number"
+        },
+        {
+          "en": "Port name",
+          "as": "Port name"
+        },
+        {
+          "en": "File ID",
+          "as": "File ID"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "An IP address uniquely identifies a device on a network.",
+        "as": "IP address য়ে network ত যন্ত্ৰ এটা চিনাক্ত কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the full form of IP?",
+        "as": "IP ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Internet Protocol",
+          "as": "Internet Protocol"
+        },
+        {
+          "en": "Internet Process",
+          "as": "Internet Process"
+        },
+        {
+          "en": "Internal Protocol",
+          "as": "Internal Protocol"
+        },
+        {
+          "en": "Input Protocol",
+          "as": "Input Protocol"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "IP stands for Internet Protocol.",
+        "as": "IP ৰ অৰ্থ Internet Protocol।"
+      }
+    },
+    {
+      "q": {
+        "en": "How many bits are there in an IPv4 address?",
+        "as": "IPv4 address ত কিমান bit থাকে?"
+      },
+      "options": [
+        {
+          "en": "32",
+          "as": "32"
+        },
+        {
+          "en": "64",
+          "as": "64"
+        },
+        {
+          "en": "16",
+          "as": "16"
+        },
+        {
+          "en": "128",
+          "as": "128"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "An IPv4 address has 32 bits (e.g., 192.168.1.1).",
+        "as": "IPv4 address ত 32 bit থাকে (যেনে 192.168.1.1)।"
+      }
+    },
+    {
+      "q": {
+        "en": "How many bits are there in an IPv6 address?",
+        "as": "IPv6 address ত কিমান bit থাকে?"
+      },
+      "options": [
+        {
+          "en": "128",
+          "as": "128"
+        },
+        {
+          "en": "32",
+          "as": "32"
+        },
+        {
+          "en": "64",
+          "as": "64"
+        },
+        {
+          "en": "256",
+          "as": "256"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "An IPv6 address has 128 bits.",
+        "as": "IPv6 address ত 128 bit থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the full form of URL?",
+        "as": "URL ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Uniform Resource Locator",
+          "as": "Uniform Resource Locator"
+        },
+        {
+          "en": "Universal Resource Link",
+          "as": "Universal Resource Link"
+        },
+        {
+          "en": "Uniform Research Locator",
+          "as": "Uniform Research Locator"
+        },
+        {
+          "en": "United Resource Locator",
+          "as": "United Resource Locator"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "URL stands for Uniform Resource Locator, the address of a web page.",
+        "as": "URL ৰ অৰ্থ Uniform Resource Locator, web page ৰ ঠিকনা।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the full form of HTTP?",
+        "as": "HTTP ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Hyper Text Transfer Protocol",
+          "as": "Hyper Text Transfer Protocol"
+        },
+        {
+          "en": "High Text Transfer Protocol",
+          "as": "High Text Transfer Protocol"
+        },
+        {
+          "en": "Hyper Test Transmission Protocol",
+          "as": "Hyper Test Transmission Protocol"
+        },
+        {
+          "en": "Hyper Text Transmission Process",
+          "as": "Hyper Text Transmission Process"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "HTTP stands for Hyper Text Transfer Protocol.",
+        "as": "HTTP ৰ অৰ্থ Hyper Text Transfer Protocol।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does 's' stand for in HTTPS?",
+        "as": "HTTPS ৰ 's' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Secure",
+          "as": "Secure"
+        },
+        {
+          "en": "System",
+          "as": "System"
+        },
+        {
+          "en": "Simple",
+          "as": "Simple"
+        },
+        {
+          "en": "Server",
+          "as": "Server"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "HTTPS = HTTP Secure; data is encrypted.",
+        "as": "HTTPS = HTTP Secure; তথ্য এনক্রিপ্টেড থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which protocol is used to send emails?",
+        "as": "ইমেইল পঠাবলৈ কোন protocol ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "SMTP",
+          "as": "SMTP"
+        },
+        {
+          "en": "FTP",
+          "as": "FTP"
+        },
+        {
+          "en": "HTTP",
+          "as": "HTTP"
+        },
+        {
+          "en": "POP3",
+          "as": "POP3"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "SMTP (Simple Mail Transfer Protocol) is used to send email.",
+        "as": "SMTP (Simple Mail Transfer Protocol) ইমেইল পঠাবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which protocol is used to receive emails?",
+        "as": "ইমেইল ল'বলৈ কোন protocol ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "POP3 / IMAP",
+          "as": "POP3 / IMAP"
+        },
+        {
+          "en": "SMTP",
+          "as": "SMTP"
+        },
+        {
+          "en": "FTP",
+          "as": "FTP"
+        },
+        {
+          "en": "Telnet",
+          "as": "Telnet"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "POP3 and IMAP are used to receive email from a server.",
+        "as": "POP3 আৰু IMAP server ৰ পৰা ইমেইল ল'বলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which protocol is used to transfer files over the internet?",
+        "as": "ইন্টারনেটত ফাইল স্থানান্তৰৰ বাবে কোন protocol?"
+      },
+      "options": [
+        {
+          "en": "FTP",
+          "as": "FTP"
+        },
+        {
+          "en": "HTTP",
+          "as": "HTTP"
+        },
+        {
+          "en": "SMTP",
+          "as": "SMTP"
+        },
+        {
+          "en": "DNS",
+          "as": "DNS"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "FTP (File Transfer Protocol) transfers files between computers.",
+        "as": "FTP (File Transfer Protocol) য়ে কম্পিউটাৰৰ মাজত ফাইল স্থানান্তৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which protocol converts domain names into IP addresses?",
+        "as": "কোন protocol য়ে domain name ক IP address লৈ ৰূপান্তৰ কৰে?"
+      },
+      "options": [
+        {
+          "en": "DNS",
+          "as": "DNS"
+        },
+        {
+          "en": "FTP",
+          "as": "FTP"
+        },
+        {
+          "en": "SMTP",
+          "as": "SMTP"
+        },
+        {
+          "en": "POP",
+          "as": "POP"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "DNS (Domain Name System) resolves domain names to IP addresses.",
+        "as": "DNS (Domain Name System) য়ে domain name ক IP address লৈ সমাধান কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which software is used to view web pages on the internet?",
+        "as": "ইন্টারনেটত web page চাবলৈ কোন ছফ্টৱেৰ ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Web browser",
+          "as": "Web browser"
+        },
+        {
+          "en": "Word processor",
+          "as": "Word processor"
+        },
+        {
+          "en": "Spreadsheet",
+          "as": "Spreadsheet"
+        },
+        {
+          "en": "Antivirus",
+          "as": "Antivirus"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A web browser (Chrome, Firefox, etc.) is used to view websites.",
+        "as": "web browser (Chrome, Firefox আদি) ৱেবছাইট চাবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A collection of related web pages is called a ___",
+        "as": "সম্পর্কিত web page ৰ সংগ্ৰহক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Website",
+          "as": "Website"
+        },
+        {
+          "en": "Webpage",
+          "as": "Webpage"
+        },
+        {
+          "en": "Web server",
+          "as": "Web server"
+        },
+        {
+          "en": "Web link",
+          "as": "Web link"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A website is a collection of related web pages under one domain.",
+        "as": "website হৈছে এটা domain ৰ তলত থকা সম্পর্কিত web page ৰ সংগ্ৰহ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The first page of a website is called the ___",
+        "as": "website ৰ প্ৰথম পৃষ্ঠাক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Home page",
+          "as": "Home page"
+        },
+        {
+          "en": "Index page only",
+          "as": "Index page only"
+        },
+        {
+          "en": "Header page",
+          "as": "Header page"
+        },
+        {
+          "en": "Main view",
+          "as": "Main view"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The home page is the first or main page of a website.",
+        "as": "home page হৈছে website ৰ প্ৰথম বা মূল পৃষ্ঠা।"
+      }
+    },
+    {
+      "q": {
+        "en": "A single document on the World Wide Web is called a ___",
+        "as": "World Wide Web ৰ এটা দলিলক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Web page",
+          "as": "Web page"
+        },
+        {
+          "en": "Website",
+          "as": "Website"
+        },
+        {
+          "en": "Web service",
+          "as": "Web service"
+        },
+        {
+          "en": "Web portal",
+          "as": "Web portal"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A web page is a single document displayed by a browser.",
+        "as": "web page হৈছে browser ত দেখা এটা দলিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the full form of WWW?",
+        "as": "WWW ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "World Wide Web",
+          "as": "World Wide Web"
+        },
+        {
+          "en": "World Web Wide",
+          "as": "World Web Wide"
+        },
+        {
+          "en": "Wide World Web",
+          "as": "Wide World Web"
+        },
+        {
+          "en": "Web World Wide",
+          "as": "Web World Wide"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "WWW stands for World Wide Web.",
+        "as": "WWW ৰ অৰ্থ World Wide Web।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who invented the World Wide Web (WWW)?",
+        "as": "World Wide Web (WWW) কোনে উদ্ভাৱন কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Tim Berners-Lee",
+          "as": "Tim Berners-Lee"
+        },
+        {
+          "en": "Bill Gates",
+          "as": "Bill Gates"
+        },
+        {
+          "en": "Charles Babbage",
+          "as": "Charles Babbage"
+        },
+        {
+          "en": "Alan Turing",
+          "as": "Alan Turing"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Tim Berners-Lee invented the World Wide Web in 1989.",
+        "as": "Tim Berners-Lee য়ে 1989 ত World Wide Web উদ্ভাৱন কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which company developed the web browser 'Chrome'?",
+        "as": "'Chrome' web browser কোন কোম্পানীয়ে বনাইছিল?"
+      },
+      "options": [
+        {
+          "en": "Google",
+          "as": "Google"
+        },
+        {
+          "en": "Microsoft",
+          "as": "Microsoft"
+        },
+        {
+          "en": "Mozilla",
+          "as": "Mozilla"
+        },
+        {
+          "en": "Apple",
+          "as": "Apple"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Google developed the Chrome browser.",
+        "as": "Google য়ে Chrome browser বনাইছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which browser is developed by Microsoft?",
+        "as": "Microsoft ৰ browser কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Edge",
+          "as": "Edge"
+        },
+        {
+          "en": "Chrome",
+          "as": "Chrome"
+        },
+        {
+          "en": "Safari",
+          "as": "Safari"
+        },
+        {
+          "en": "Opera",
+          "as": "Opera"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Microsoft Edge is the browser made by Microsoft.",
+        "as": "Microsoft Edge হৈছে Microsoft ৰ বনোৱা browser।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which browser is developed by Apple?",
+        "as": "Apple ৰ browser কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Safari",
+          "as": "Safari"
+        },
+        {
+          "en": "Chrome",
+          "as": "Chrome"
+        },
+        {
+          "en": "Firefox",
+          "as": "Firefox"
+        },
+        {
+          "en": "Edge",
+          "as": "Edge"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Safari is the web browser developed by Apple.",
+        "as": "Safari হৈছে Apple ৰ বনোৱা web browser।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which browser is developed by the Mozilla Foundation?",
+        "as": "Mozilla Foundation ৰ browser কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Firefox",
+          "as": "Firefox"
+        },
+        {
+          "en": "Chrome",
+          "as": "Chrome"
+        },
+        {
+          "en": "Safari",
+          "as": "Safari"
+        },
+        {
+          "en": "Opera",
+          "as": "Opera"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Mozilla Firefox is developed by the Mozilla Foundation.",
+        "as": "Mozilla Firefox হৈছে Mozilla Foundation ৰ browser।"
+      }
+    },
+    {
+      "q": {
+        "en": "The address bar of a browser is used to ___",
+        "as": "browser ৰ address bar ___ বাবে ব্যৱহাৰ হয়।"
+      },
+      "options": [
+        {
+          "en": "Type the URL of a website",
+          "as": "website ৰ URL টাইপ"
+        },
+        {
+          "en": "Change the volume",
+          "as": "ভলিউম সলনি"
+        },
+        {
+          "en": "Print the page",
+          "as": "পৃষ্ঠা প্ৰিন্ট"
+        },
+        {
+          "en": "Save the file",
+          "as": "ফাইল save"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The address bar is where you type a website's URL.",
+        "as": "address bar ত website ৰ URL টাইপ কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a search engine?",
+        "as": "তলৰ কোনটো search engine?"
+      },
+      "options": [
+        {
+          "en": "Google",
+          "as": "Google"
+        },
+        {
+          "en": "Chrome",
+          "as": "Chrome"
+        },
+        {
+          "en": "Firefox",
+          "as": "Firefox"
+        },
+        {
+          "en": "Windows",
+          "as": "Windows"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Google is a search engine; Chrome and Firefox are browsers.",
+        "as": "Google হৈছে search engine; Chrome আৰু Firefox browser।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which is an example of a web server software?",
+        "as": "web server ছফ্টৱেৰৰ উদাহৰণ কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Apache",
+          "as": "Apache"
+        },
+        {
+          "en": "Chrome",
+          "as": "Chrome"
+        },
+        {
+          "en": "Photoshop",
+          "as": "Photoshop"
+        },
+        {
+          "en": "Excel",
+          "as": "Excel"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Apache HTTP Server is popular web server software.",
+        "as": "Apache HTTP Server জনপ্ৰিয় web server ছফ্টৱেৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "An 'e-mail' is a message sent through the ___",
+        "as": "'ই-মেইল' হৈছে ___ ৰ দ্বাৰা পঠোৱা বাৰ্তা।"
+      },
+      "options": [
+        {
+          "en": "Internet",
+          "as": "ইন্টারনেট"
+        },
+        {
+          "en": "Post office",
+          "as": "পোষ্ট অফিচ"
+        },
+        {
+          "en": "Telephone",
+          "as": "টেলিফোন"
+        },
+        {
+          "en": "Radio",
+          "as": "ৰেডিঅ' "
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "E-mail is electronic mail sent over the internet.",
+        "as": "ই-মেইল হৈছে ইন্টারনেটত পঠোৱা ইলেক্ট্রনিক ডাক।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which symbol separates the username and domain in an email address?",
+        "as": "ইমেইল ঠিকনাত ইউজারনেম আৰু domain পৃথক কৰা চিহ্ন কোনটো?"
+      },
+      "options": [
+        {
+          "en": "@",
+          "as": "@"
+        },
+        {
+          "en": "#",
+          "as": "#"
+        },
+        {
+          "en": "&",
+          "as": "&"
+        },
+        {
+          "en": "%",
+          "as": "%"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The '@' (at) symbol separates username and domain, e.g., name@domain.com.",
+        "as": "'@' চিহ্নই ইউজারনেম আৰু domain পৃথক কৰে, যেনে name@domain.com।"
+      }
+    },
+    {
+      "q": {
+        "en": "In the email address abc@xyz.com, what is 'xyz.com'?",
+        "as": "ইমেইল ঠিকনা abc@xyz.com ত 'xyz.com' কি?"
+      },
+      "options": [
+        {
+          "en": "Domain name",
+          "as": "Domain name"
+        },
+        {
+          "en": "Username",
+          "as": "Username"
+        },
+        {
+          "en": "Password",
+          "as": "Password"
+        },
+        {
+          "en": "Server code",
+          "as": "Server code"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'xyz.com' is the domain name of the email provider.",
+        "as": "'xyz.com' হৈছে ইমেইল প্ৰদানকাৰীৰ domain name।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'CC' field in an email means ___",
+        "as": "ইমেইলৰ 'CC' ক্ষেত্ৰৰ অৰ্থ ___।"
+      },
+      "options": [
+        {
+          "en": "Carbon Copy",
+          "as": "Carbon Copy"
+        },
+        {
+          "en": "Computer Copy",
+          "as": "Computer Copy"
+        },
+        {
+          "en": "Copy Center",
+          "as": "Copy Center"
+        },
+        {
+          "en": "Common Copy",
+          "as": "Common Copy"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "CC stands for Carbon Copy; other people receive a copy.",
+        "as": "CC ৰ অৰ্থ Carbon Copy; আন লোকেও এটা কপি পায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'BCC' field in an email means ___",
+        "as": "ইমেইলৰ 'BCC' ক্ষেত্ৰৰ অৰ্থ ___।"
+      },
+      "options": [
+        {
+          "en": "Blind Carbon Copy",
+          "as": "Blind Carbon Copy"
+        },
+        {
+          "en": "Basic Carbon Copy",
+          "as": "Basic Carbon Copy"
+        },
+        {
+          "en": "Backup Copy",
+          "as": "Backup Copy"
+        },
+        {
+          "en": "Best Copy",
+          "as": "Best Copy"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "BCC (Blind Carbon Copy) sends a copy without others seeing the address.",
+        "as": "BCC (Blind Carbon Copy) ত ঠিকনা আনৰ চকুত নপৰাকৈ কপি যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "An unwanted or junk email is called ___",
+        "as": "অবাঞ্ছিত বা জংক ইমেইলক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Spam",
+          "as": "Spam"
+        },
+        {
+          "en": "Virus",
+          "as": "Virus"
+        },
+        {
+          "en": "Draft",
+          "as": "Draft"
+        },
+        {
+          "en": "Bounce",
+          "as": "Bounce"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Unwanted bulk email sent to many people is called spam.",
+        "as": "বহু লোকলৈ পঠোৱা অবাঞ্ছিত ইমেইলক spam বোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a popular free email service?",
+        "as": "তলৰ কোনটো জনপ্ৰিয় বিনামূলীয়া ইমেইল সেৱা?"
+      },
+      "options": [
+        {
+          "en": "Gmail",
+          "as": "Gmail"
+        },
+        {
+          "en": "Google Drive",
+          "as": "Google Drive"
+        },
+        {
+          "en": "YouTube",
+          "as": "YouTube"
+        },
+        {
+          "en": "Skype",
+          "as": "Skype"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Gmail is a free email service by Google.",
+        "as": "Gmail হৈছে Google ৰ বিনামূলীয়া ইমেইল সেৱা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The process of transferring a file from a remote server to your computer is called ___",
+        "as": "দূৰৱৰ্তী server ৰ পৰা কম্পিউটাৰলৈ ফাইল লোৱা প্রক্রিয়াক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Downloading",
+          "as": "Downloading"
+        },
+        {
+          "en": "Uploading",
+          "as": "Uploading"
+        },
+        {
+          "en": "Streaming",
+          "as": "Streaming"
+        },
+        {
+          "en": "Browsing",
+          "as": "Browsing"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Downloading means receiving a file from the internet to your computer.",
+        "as": "Downloading অৰ্থ ইন্টারনেটৰ পৰা কম্পিউটাৰলৈ ফাইল লোৱা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The process of sending a file from your computer to a server is called ___",
+        "as": "কম্পিউটাৰৰ পৰা server লৈ ফাইল পঠোৱা প্রক্রিয়াক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Uploading",
+          "as": "Uploading"
+        },
+        {
+          "en": "Downloading",
+          "as": "Downloading"
+        },
+        {
+          "en": "Installing",
+          "as": "Installing"
+        },
+        {
+          "en": "Copying",
+          "as": "Copying"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Uploading means sending a file from your computer to a server.",
+        "as": "Uploading অৰ্থ কম্পিউটাৰৰ পৰা server লৈ ফাইল পঠোৱা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a video calling application?",
+        "as": "তলৰ কোনটো ভিডিঅ' কলিং application?"
+      },
+      "options": [
+        {
+          "en": "Zoom",
+          "as": "Zoom"
+        },
+        {
+          "en": "Gmail",
+          "as": "Gmail"
+        },
+        {
+          "en": "Notepad",
+          "as": "Notepad"
+        },
+        {
+          "en": "Excel",
+          "as": "Excel"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Zoom is a popular video calling/conferencing application.",
+        "as": "Zoom হৈছে জনপ্ৰিয় ভিডিঅ' কলিং/কনফারেন্সিং application।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the full form of Wi-Fi?",
+        "as": "Wi-Fi ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Wireless Fidelity",
+          "as": "Wireless Fidelity"
+        },
+        {
+          "en": "Wireless File",
+          "as": "Wireless File"
+        },
+        {
+          "en": "Wide Fidelity",
+          "as": "Wide Fidelity"
+        },
+        {
+          "en": "Wire Frame",
+          "as": "Wire Frame"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Wi-Fi stands for Wireless Fidelity.",
+        "as": "Wi-Fi ৰ অৰ্থ Wireless Fidelity।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which technology connects devices like mobiles to the internet without wires?",
+        "as": "তৰহীনভাৱে মোবাইল আদি যন্ত্ৰ ইন্টারনেটত সংযোগ কৰা প্রযুক্তি কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Wi-Fi",
+          "as": "Wi-Fi"
+        },
+        {
+          "en": "LAN cable",
+          "as": "LAN cable"
+        },
+        {
+          "en": "USB cable",
+          "as": "USB cable"
+        },
+        {
+          "en": "Coaxial cable",
+          "as": "Coaxial cable"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Wi-Fi connects devices to the internet wirelessly.",
+        "as": "Wi-Fi য়ে যন্ত্ৰ তৰহীনভাৱে ইন্টারনেটত সংযোগ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a wireless communication technology used over short distances (up to 10 m)?",
+        "as": "কম দূৰত্ব (10 m লৈ) ত ব্যৱহৃত তৰহীন যোগাযোগ প্রযুক্তি কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Bluetooth",
+          "as": "Bluetooth"
+        },
+        {
+          "en": "Fiber optic",
+          "as": "Fiber optic"
+        },
+        {
+          "en": "Ethernet",
+          "as": "Ethernet"
+        },
+        {
+          "en": "Coaxial",
+          "as": "Coaxial"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Bluetooth is used for short-range wireless data exchange.",
+        "as": "Bluetooth কম দূৰত্বৰ তৰহীন তথ্য বিনিময়ত ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which medium transmits data as pulses of light?",
+        "as": "কোন মাধ্যমত তথ্য পোহৰৰ স্পন্দন হিচাপে যায়?"
+      },
+      "options": [
+        {
+          "en": "Optical fiber",
+          "as": "Optical fiber"
+        },
+        {
+          "en": "Twisted pair cable",
+          "as": "Twisted pair cable"
+        },
+        {
+          "en": "Coaxial cable",
+          "as": "Coaxial cable"
+        },
+        {
+          "en": "Radio waves only",
+          "as": "Radio waves only"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Optical fiber transmits data as pulses of light at very high speed.",
+        "as": "Optical fiber ত তথ্য পোহৰ স্পন্দন হিচাপে বহুত উচ্চ গতিৰে যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which cable is commonly used to connect a computer to a LAN?",
+        "as": "কম্পিউটাৰক LAN ত সংযোগ কৰিবলৈ সাধাৰণতে কোন cable?"
+      },
+      "options": [
+        {
+          "en": "Twisted pair (Ethernet) cable",
+          "as": "Twisted pair (Ethernet) cable"
+        },
+        {
+          "en": "HDMI cable",
+          "as": "HDMI cable"
+        },
+        {
+          "en": "VGA cable",
+          "as": "VGA cable"
+        },
+        {
+          "en": "Power cable",
+          "as": "Power cable"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ethernet twisted pair cables (RJ-45) are commonly used in LANs.",
+        "as": "LAN ত সাধাৰণতে Ethernet twisted pair cable (RJ-45) ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the full form of GSM?",
+        "as": "GSM ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Global System for Mobile communication",
+          "as": "Global System for Mobile communication"
+        },
+        {
+          "en": "General System for Mobile",
+          "as": "General System for Mobile"
+        },
+        {
+          "en": "Global Service Mobile",
+          "as": "Global Service Mobile"
+        },
+        {
+          "en": "Group System Mobile",
+          "as": "Group System Mobile"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "GSM stands for Global System for Mobile communication.",
+        "as": "GSM ৰ অৰ্থ Global System for Mobile communication।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which generation of mobile network introduced high-speed data and video calling (4G is an upgrade of it)?",
+        "as": "কোন প্ৰজন্মৰ মোবাইল network এ উচ্চ গতিৰ তথ্য আৰু ভিডিঅ' কল চালু কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "3G",
+          "as": "3G"
+        },
+        {
+          "en": "1G",
+          "as": "1G"
+        },
+        {
+          "en": "2G",
+          "as": "2G"
+        },
+        {
+          "en": "5G only",
+          "as": "5G only"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "3G networks brought mobile broadband, video calling and better data speed.",
+        "as": "3G network য়ে মোবাইল broadband, ভিডিঅ' কল আৰু উন্নত data গতি আনিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The newest fifth-generation mobile network standard is ___",
+        "as": "সবাতোকৈ নতুন পঞ্চম প্ৰজন্মৰ মোবাইল network মান ___।"
+      },
+      "options": [
+        {
+          "en": "5G",
+          "as": "5G"
+        },
+        {
+          "en": "4G",
+          "as": "4G"
+        },
+        {
+          "en": "3G",
+          "as": "3G"
+        },
+        {
+          "en": "2G",
+          "as": "2G"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "5G is the fifth-generation mobile network standard.",
+        "as": "5G হৈছে পঞ্চম প্ৰজন্মৰ মোবাইল network মান।"
+      }
+    },
+    {
+      "q": {
+        "en": "SIM card stands for ___",
+        "as": "SIM card ৰ অৰ্থ ___।"
+      },
+      "options": [
+        {
+          "en": "Subscriber Identity Module",
+          "as": "Subscriber Identity Module"
+        },
+        {
+          "en": "System Identity Module",
+          "as": "System Identity Module"
+        },
+        {
+          "en": "Subscriber Information Module",
+          "as": "Subscriber Information Module"
+        },
+        {
+          "en": "Signal Identification Module",
+          "as": "Signal Identification Module"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "SIM stands for Subscriber Identity Module.",
+        "as": "SIM ৰ অৰ্থ Subscriber Identity Module।"
+      }
+    },
+    {
+      "q": {
+        "en": "A hotspot is a place that provides ___",
+        "as": "hotspot হৈছে ___ যোগান দিয়া ঠাই।"
+      },
+      "options": [
+        {
+          "en": "Wireless internet access",
+          "as": "তৰহীন ইন্টারনেট সুবিধা"
+        },
+        {
+          "en": "Electricity",
+          "as": "বিদ্যুৎ"
+        },
+        {
+          "en": "Water",
+          "as": "পানী"
+        },
+        {
+          "en": "Telephone lines",
+          "as": "টেলিফোন line"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A hotspot provides wireless internet access, usually via Wi-Fi.",
+        "as": "hotspot য়ে সাধাৰণতে Wi-Fi যোগে তৰহীন ইন্টারনেট সুবিধা দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of these is a social media website?",
+        "as": "তলৰ কোনটো social media website?"
+      },
+      "options": [
+        {
+          "en": "Facebook",
+          "as": "Facebook"
+        },
+        {
+          "en": "Gmail",
+          "as": "Gmail"
+        },
+        {
+          "en": "Hotmail",
+          "as": "Hotmail"
+        },
+        {
+          "en": "Outlook",
+          "as": "Outlook"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Facebook is a social networking website.",
+        "as": "Facebook হৈছে social networking website।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which platform is mainly used to share short videos?",
+        "as": "চুটি ভিডিঅ' ভাগ-বতৰা কৰা জনপ্ৰিয় প্লেটফর্ম কোনটো?"
+      },
+      "options": [
+        {
+          "en": "TikTok",
+          "as": "TikTok"
+        },
+        {
+          "en": "LinkedIn",
+          "as": "LinkedIn"
+        },
+        {
+          "en": "GitHub",
+          "as": "GitHub"
+        },
+        {
+          "en": "Stack Overflow",
+          "as": "Stack Overflow"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "TikTok is mainly used for sharing short videos.",
+        "as": "TikTok চুটি ভিডিঅ' ভাগ-বতৰা কৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which website is the world's largest professional networking site?",
+        "as": "বিশ্বৰ বৃহত্তম ব্যৱসায়িক networking site কোনটো?"
+      },
+      "options": [
+        {
+          "en": "LinkedIn",
+          "as": "LinkedIn"
+        },
+        {
+          "en": "Facebook",
+          "as": "Facebook"
+        },
+        {
+          "en": "Instagram",
+          "as": "Instagram"
+        },
+        {
+          "en": "Twitter",
+          "as": "Twitter"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "LinkedIn is the largest professional networking website.",
+        "as": "LinkedIn হৈছে বৃহত্তম ব্যৱসায়িক networking website।"
+      }
+    },
+    {
+      "q": {
+        "en": "A 'blog' is mainly a ___",
+        "as": "'ব্লগ' হৈছে মূলত ___।"
+      },
+      "options": [
+        {
+          "en": "Personal online diary/journal",
+          "as": "ব্যক্তিগত অনলাইন ডায়েৰী/জার্নাল"
+        },
+        {
+          "en": "Antivirus tool",
+          "as": "antivirus সা-সঁজুলি"
+        },
+        {
+          "en": "Search engine",
+          "as": "search engine"
+        },
+        {
+          "en": "Email client",
+          "as": "email client"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A blog is a website where an individual writes regular posts (online journal).",
+        "as": "blog হৈছে ব্যক্তি এজনে নিয়মীয়া পোষ্ট লিখা website (অনলাইন ডায়েৰী)।"
+      }
+    },
+    {
+      "q": {
+        "en": "A live online discussion or lecture over the internet is called a ___",
+        "as": "ইন্টারনেটত জীৱন্ত অনলাইন আলোচনা বা বক্তৃতাক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Webinar",
+          "as": "Webinar"
+        },
+        {
+          "en": "Podcast",
+          "as": "Podcast"
+        },
+        {
+          "en": "Blog",
+          "as": "Blog"
+        },
+        {
+          "en": "Vlog",
+          "as": "Vlog"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A webinar is a seminar or lecture conducted over the internet.",
+        "as": "webinar হৈছে ইন্টারনেটত অনুষ্ঠিত seminar বা বক্তৃতা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The term 'e-commerce' refers to ___",
+        "as": "'ই-কমার্স' শব্দটো ___ বুজায়।"
+      },
+      "options": [
+        {
+          "en": "Buying and selling over the internet",
+          "as": "ইন্টারনেটত কিনা-বেচা"
+        },
+        {
+          "en": "Electronic machines",
+          "as": "ইলেক্ট্রনিক মেচিন"
+        },
+        {
+          "en": "Email communication",
+          "as": "ইমেইল যোগাযোগ"
+        },
+        {
+          "en": "Computer hardware",
+          "as": "কম্পিউটাৰ হাৰ্ডৱেৰ"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "E-commerce means buying and selling goods and services online.",
+        "as": "ই-কমার্স অৰ্থ অনলাইনত সামগ্রী আৰু সেৱা কিনা-বেচা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is an e-commerce website?",
+        "as": "তলৰ কোনটো ই-কমার্স website?"
+      },
+      "options": [
+        {
+          "en": "Amazon",
+          "as": "Amazon"
+        },
+        {
+          "en": "Wikipedia",
+          "as": "Wikipedia"
+        },
+        {
+          "en": "Facebook",
+          "as": "Facebook"
+        },
+        {
+          "en": "Google",
+          "as": "Google"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Amazon is an e-commerce (online shopping) website.",
+        "as": "Amazon হৈছে ই-কমার্স (অনলাইন বজাৰ) website।"
+      }
+    },
+    {
+      "q": {
+        "en": "Online banking is also known as ___",
+        "as": "অনলাইন বেংকিংক ___ বুলিও কোৱা হয়।"
+      },
+      "options": [
+        {
+          "en": "Net banking / e-banking",
+          "as": "Net banking / e-banking"
+        },
+        {
+          "en": "Hard banking",
+          "as": "Hard banking"
+        },
+        {
+          "en": "Paper banking",
+          "as": "Paper banking"
+        },
+        {
+          "en": "Cash banking",
+          "as": "Cash banking"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Internet banking is called net banking or e-banking.",
+        "as": "ইন্টারনেট বেংকিংক net banking বা e-banking বোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a digital payment system in India?",
+        "as": "তলৰ কোনটো ভাৰতৰ digital payment ব্যৱস্থা?"
+      },
+      "options": [
+        {
+          "en": "UPI",
+          "as": "UPI"
+        },
+        {
+          "en": "IMPS",
+          "as": "IMPS"
+        },
+        {
+          "en": "RTGS",
+          "as": "RTGS"
+        },
+        {
+          "en": "All of the above",
+          "as": "ওপৰৰ সকলো"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "UPI, IMPS and RTGS are all digital/electronic payment systems in India.",
+        "as": "UPI, IMPS আৰু RTGS সকলো ভাৰতৰ digital/ইলেক্ট্রনিক পেমেন্ট ব্যৱস্থা।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the full form of UPI?",
+        "as": "UPI ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Unified Payments Interface",
+          "as": "Unified Payments Interface"
+        },
+        {
+          "en": "Universal Payment Interface",
+          "as": "Universal Payment Interface"
+        },
+        {
+          "en": "United Payment Index",
+          "as": "United Payment Index"
+        },
+        {
+          "en": "Unique Payments Internet",
+          "as": "Unique Payments Internet"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "UPI stands for Unified Payments Interface.",
+        "as": "UPI ৰ অৰ্থ Unified Payments Interface।"
+      }
+    },
+    {
+      "q": {
+        "en": "Cloud computing means ___",
+        "as": "Cloud computing ৰ অৰ্থ ___।"
+      },
+      "options": [
+        {
+          "en": "Storing and accessing data over the internet",
+          "as": "ইন্টারনেটত তথ্য সংৰক্ষণ আৰু প্রবেশ"
+        },
+        {
+          "en": "Storing data in rain clouds",
+          "as": "বৰষুণৰ মেঘত তথ্য ৰখা"
+        },
+        {
+          "en": "Using only local hard disks",
+          "as": "কেৱল স্থানীয় hard disk ব্যৱহাৰ"
+        },
+        {
+          "en": "Printing documents",
+          "as": "দলিল প্ৰিন্ট"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Cloud computing delivers computing services over the internet.",
+        "as": "cloud computing য়ে ইন্টারনেটত কম্পিউটাৰ সেৱা দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a cloud storage service by Google?",
+        "as": "Google ৰ cloud storage সেৱা কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Google Drive",
+          "as": "Google Drive"
+        },
+        {
+          "en": "OneDrive",
+          "as": "OneDrive"
+        },
+        {
+          "en": "Dropbox",
+          "as": "Dropbox"
+        },
+        {
+          "en": "iCloud",
+          "as": "iCloud"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Google Drive is Google's cloud storage service.",
+        "as": "Google Drive হৈছে Google ৰ cloud storage সেৱা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which cloud storage service is by Microsoft?",
+        "as": "Microsoft ৰ cloud storage সেৱা কোনটো?"
+      },
+      "options": [
+        {
+          "en": "OneDrive",
+          "as": "OneDrive"
+        },
+        {
+          "en": "Google Drive",
+          "as": "Google Drive"
+        },
+        {
+          "en": "iCloud",
+          "as": "iCloud"
+        },
+        {
+          "en": "Mega",
+          "as": "Mega"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "OneDrive is Microsoft's cloud storage service.",
+        "as": "OneDrive হৈছে Microsoft ৰ cloud storage সেৱা।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the full form of HTML?",
+        "as": "HTML ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Hyper Text Markup Language",
+          "as": "Hyper Text Markup Language"
+        },
+        {
+          "en": "High Text Machine Language",
+          "as": "High Text Machine Language"
+        },
+        {
+          "en": "Hyper Transfer Markup Language",
+          "as": "Hyper Transfer Markup Language"
+        },
+        {
+          "en": "Hyper Tool Markup Language",
+          "as": "Hyper Tool Markup Language"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "HTML stands for Hyper Text Markup Language, used to create web pages.",
+        "as": "HTML ৰ অৰ্থ Hyper Text Markup Language, web page সৃষ্টিৰ বাবে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which language is used to create web pages?",
+        "as": "web page সৃষ্টিৰ বাবে কোন ভাষা ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "HTML",
+          "as": "HTML"
+        },
+        {
+          "en": "COBOL",
+          "as": "COBOL"
+        },
+        {
+          "en": "FORTRAN",
+          "as": "FORTRAN"
+        },
+        {
+          "en": "Assembly",
+          "as": "Assembly"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "HTML is the standard language for creating web pages.",
+        "as": "HTML web page সৃষ্টিৰ মান ভাষা।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the full form of ISP?",
+        "as": "ISP ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Internet Service Provider",
+          "as": "Internet Service Provider"
+        },
+        {
+          "en": "Internet Server Provider",
+          "as": "Internet Server Provider"
+        },
+        {
+          "en": "International Service Provider",
+          "as": "International Service Provider"
+        },
+        {
+          "en": "Internet Signal Provider",
+          "as": "Internet Signal Provider"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "ISP stands for Internet Service Provider, e.g., Jio, Airtel, BSNL.",
+        "as": "ISP ৰ অৰ্থ Internet Service Provider, যেনে Jio, Airtel, BSNL।"
+      }
+    },
+    {
+      "q": {
+        "en": "In India, which of the following is a government ISP?",
+        "as": "ভাৰতত তলৰ কোনটো চৰকাৰী ISP?"
+      },
+      "options": [
+        {
+          "en": "BSNL",
+          "as": "BSNL"
+        },
+        {
+          "en": "Jio",
+          "as": "Jio"
+        },
+        {
+          "en": "Airtel",
+          "as": "Airtel"
+        },
+        {
+          "en": "Vodafone Idea",
+          "as": "Vodafone Idea"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "BSNL (Bharat Sanchar Nigam Limited) is a government-owned ISP.",
+        "as": "BSNL (Bharat Sanchar Nigam Limited) হৈছে চৰকাৰী মালিকানাধীন ISP।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the full form of VoIP?",
+        "as": "VoIP ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Voice over Internet Protocol",
+          "as": "Voice over Internet Protocol"
+        },
+        {
+          "en": "Video over Internet Protocol",
+          "as": "Video over Internet Protocol"
+        },
+        {
+          "en": "Voice on Internet Process",
+          "as": "Voice on Internet Process"
+        },
+        {
+          "en": "Voice over Integrated Process",
+          "as": "Voice over Integrated Process"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "VoIP sends voice calls over the internet, e.g., WhatsApp calls.",
+        "as": "VoIP য়ে ইন্টারনেটত কণ্ঠ কল পঠায়, যেনে WhatsApp কল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Video calls over the internet are an example of ___",
+        "as": "ইন্টারনেটত ভিডিঅ' কল হৈছে ___ উদাহৰণ।"
+      },
+      "options": [
+        {
+          "en": "VoIP / Video conferencing",
+          "as": "VoIP / video conferencing"
+        },
+        {
+          "en": "FTP",
+          "as": "FTP"
+        },
+        {
+          "en": "DNS",
+          "as": "DNS"
+        },
+        {
+          "en": "Downloading",
+          "as": "Downloading"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Internet video calls use VoIP or video conferencing technology.",
+        "as": "ইন্টারনেট ভিডিঅ' কলত VoIP বা video conferencing প্রযুক্তি ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the full form of VPN?",
+        "as": "VPN ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Virtual Private Network",
+          "as": "Virtual Private Network"
+        },
+        {
+          "en": "Very Private Network",
+          "as": "Very Private Network"
+        },
+        {
+          "en": "Virtual Public Network",
+          "as": "Virtual Public Network"
+        },
+        {
+          "en": "Visual Private Network",
+          "as": "Visual Private Network"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "VPN (Virtual Private Network) creates a secure private tunnel over the internet.",
+        "as": "VPN (Virtual Private Network) য়ে ইন্টারনেটত নিৰাপদ ব্যক্তিগত tunnel সৃষ্টি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A VPN is mainly used for ___",
+        "as": "VPN মূলত ___ বাবে ব্যৱহাৰ হয়।"
+      },
+      "options": [
+        {
+          "en": "Secure and private internet access",
+          "as": "নিৰাপদ আৰু ব্যক্তিগত ইন্টারনেট"
+        },
+        {
+          "en": "Faster printing",
+          "as": "দ্রুত প্ৰিন্টিং"
+        },
+        {
+          "en": "Playing games offline",
+          "as": "অফলাইন খেলা"
+        },
+        {
+          "en": "Increasing RAM",
+          "as": "RAM বৃদ্ধি"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A VPN encrypts traffic and hides the user's identity for privacy and security.",
+        "as": "VPN য়ে traffic এনক্রিপ্ট আৰু ইউজাৰৰ পৰিচয় লুকুৱাই ব্যক্তিগততা আৰু সুৰক্ষা দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The software or hardware that filters incoming and outgoing network traffic is called a ___",
+        "as": "আহা-যোৱা network traffic বাছি থকা ছফ্টৱেৰ/হাৰ্ডৱেৰক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Firewall",
+          "as": "Firewall"
+        },
+        {
+          "en": "Antivirus",
+          "as": "Antivirus"
+        },
+        {
+          "en": "Compiler",
+          "as": "Compiler"
+        },
+        {
+          "en": "Driver",
+          "as": "Driver"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A firewall blocks unauthorized access to and from a network.",
+        "as": "firewall য়ে অবৈধ প্রবেশ আৰু বাহিৰলৈ যোৱা প্রতিরোধ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The extension '.com' in a domain name usually stands for ___",
+        "as": "domain name ৰ '.com' extension সাধাৰণতে ___ বুজায়।"
+      },
+      "options": [
+        {
+          "en": "Commercial",
+          "as": "Commercial"
+        },
+        {
+          "en": "Computer",
+          "as": "Computer"
+        },
+        {
+          "en": "Common",
+          "as": "Common"
+        },
+        {
+          "en": "Communication",
+          "as": "Communication"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'.com' is used for commercial organizations.",
+        "as": "'.com' ব্যৱসায়িক সংস্থাৰ বাবে ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which domain extension is used for educational institutions in India?",
+        "as": "ভাৰতত শিক্ষানুষ্ঠানৰ বাবে কোন domain extension?"
+      },
+      "options": [
+        {
+          "en": ".ac.in",
+          "as": ".ac.in"
+        },
+        {
+          "en": ".com.in",
+          "as": ".com.in"
+        },
+        {
+          "en": ".edu.com",
+          "as": ".edu.com"
+        },
+        {
+          "en": ".sch.in",
+          "as": ".sch.in"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Indian academic institutions use '.ac.in' (or '.edu.in').",
+        "as": "ভাৰতীয় শিক্ষানুষ্ঠানে '.ac.in' (বা '.edu.in') ব্যৱহাৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which organization is called the 'web hosting' provider in internet terminology?",
+        "as": "ইন্টারনেট পৰিভাষাত 'web hosting' প্ৰদানকাৰীক কোনটো বোলে?"
+      },
+      "options": [
+        {
+          "en": "A company that stores your website's files on its servers",
+          "as": "আপোনাৰ website ৰ ফাইল নিজৰ server ত ৰখা কোম্পানী"
+        },
+        {
+          "en": "A company that makes CPUs",
+          "as": "CPU বনোৱা কোম্পানী"
+        },
+        {
+          "en": "A browser maker",
+          "as": "browser নির্মাতা"
+        },
+        {
+          "en": "A printer seller",
+          "as": "প্ৰিন্টাৰ বিক্রেতা"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Web hosting companies store and serve the files of your website.",
+        "as": "web hosting কোম্পানীয়ে আপোনাৰ website ৰ ফাইল সংৰক্ষণ আৰু সেৱা দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A computer connected to the internet that provides services to other computers is called a ___",
+        "as": "ইন্টারনেটত আন কম্পিউটাৰলৈ সেৱা দিয়া কম্পিউটাৰক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Server",
+          "as": "Server"
+        },
+        {
+          "en": "Client",
+          "as": "Client"
+        },
+        {
+          "en": "Node only",
+          "as": "Node only"
+        },
+        {
+          "en": "Router",
+          "as": "Router"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A server provides services (web pages, files) to client computers.",
+        "as": "server য়ে client কম্পিউটাৰলৈ সেৱা (web page, ফাইল) দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The computer that requests services from a server is called a ___",
+        "as": "server ৰ পৰা সেৱা বিচৰা কম্পিউটাৰক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Client",
+          "as": "Client"
+        },
+        {
+          "en": "Server",
+          "as": "Server"
+        },
+        {
+          "en": "Host",
+          "as": "Host"
+        },
+        {
+          "en": "Gateway",
+          "as": "Gateway"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A client is a computer that requests services from a server.",
+        "as": "client হৈছে server ৰ পৰা সেৱা বিচৰা কম্পিউটাৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following terms refers to 'network of networks'?",
+        "as": "তলৰ কোন শব্দই 'network ৰ network' বুজায়?"
+      },
+      "options": [
+        {
+          "en": "Internet",
+          "as": "Internet"
+        },
+        {
+          "en": "Intranet",
+          "as": "Intranet"
+        },
+        {
+          "en": "Ethernet",
+          "as": "Ethernet"
+        },
+        {
+          "en": "Internetwork node",
+          "as": "Internetwork node"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The Internet is a network of networks spanning the globe.",
+        "as": "ইন্টারনেট হৈছে বিশ্বব্যাপী network ৰ network।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the full form of HTTPs port 443 used for?",
+        "as": "HTTPS সাধাৰণতে কোন port ব্যৱহাৰ কৰে?"
+      },
+      "options": [
+        {
+          "en": "443",
+          "as": "443"
+        },
+        {
+          "en": "80",
+          "as": "80"
+        },
+        {
+          "en": "8080",
+          "as": "8080"
+        },
+        {
+          "en": "21",
+          "as": "21"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "HTTPS uses port 443; HTTP uses port 80.",
+        "as": "HTTPS এ port 443; HTTP এ port 80 ব্যৱহাৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which port is used by FTP for file transfer?",
+        "as": "ফাইল স্থানান্তৰৰ বাবে FTP কোন port ব্যৱহাৰ কৰে?"
+      },
+      "options": [
+        {
+          "en": "21",
+          "as": "21"
+        },
+        {
+          "en": "80",
+          "as": "80"
+        },
+        {
+          "en": "25",
+          "as": "25"
+        },
+        {
+          "en": "443",
+          "as": "443"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "FTP uses port 21 for control (and 20 for data).",
+        "as": "FTP য়ে নিয়ন্ত্ৰণৰ বাবে port 21 (তথ্যৰ বাবে 20) ব্যৱহাৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which protocol is used to check whether a remote computer is reachable?",
+        "as": "দূৰৱৰ্তী কম্পিউটাৰ উপলব্ধ নে পৰীক্ষা কৰা protocol কোনটো?"
+      },
+      "options": [
+        {
+          "en": "ICMP (ping)",
+          "as": "ICMP (ping)"
+        },
+        {
+          "en": "HTTP",
+          "as": "HTTP"
+        },
+        {
+          "en": "SMTP",
+          "as": "SMTP"
+        },
+        {
+          "en": "FTP",
+          "as": "FTP"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The ping command uses ICMP to test connectivity with a remote host.",
+        "as": "ping command য়ে ICMP যোগে দূৰৱৰ্তী host ৰ সংযোগ পৰীক্ষা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is used to represent a web resource in a browser: 'https://www.example.com/index.html'? Here 'index.html' is the ___",
+        "as": "browser ত web সম্পদ বুজোৱা 'https://www.example.com/index.html' ত 'index.html' হৈছে ___।"
+      },
+      "options": [
+        {
+          "en": "File name",
+          "as": "ফাইল নাম"
+        },
+        {
+          "en": "Domain",
+          "as": "domain"
+        },
+        {
+          "en": "Protocol",
+          "as": "protocol"
+        },
+        {
+          "en": "Server name",
+          "as": "server নাম"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'index.html' is the file name of the web page.",
+        "as": "'index.html' হৈছে web page ৰ ফাইল নাম।"
+      }
+    },
+    {
+      "q": {
+        "en": "A 'cookie' on the internet is a ___",
+        "as": "ইন্টারনেটত 'cookie' হৈছে ___।"
+      },
+      "options": [
+        {
+          "en": "Small data file stored by a website on your browser",
+          "as": "website য়ে browser ত ৰখা সৰু data ফাইল"
+        },
+        {
+          "en": "Virus that deletes files",
+          "as": "ফাইল মচা ভাইৰাছ"
+        },
+        {
+          "en": "Type of biscuit sold online",
+          "as": "অনলাইনত বেচা বিস্কুট"
+        },
+        {
+          "en": "Hardware part",
+          "as": "হাৰ্ডৱেৰ অংশ"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Cookies are small text files that store browsing information on the user's computer.",
+        "as": "cookie হৈছে ইউজাৰৰ কম্পিউটাৰত ব্ৰাউজিং তথ্য ৰখা সৰু text ফাইল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The process of hiding data inside another file (like an image) is called ___",
+        "as": "আন ফাইল (যেনে ছবি) ৰ ভিতৰত তথ্য লুকুওৱা প্রক্রিয়াক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Steganography",
+          "as": "Steganography"
+        },
+        {
+          "en": "Encryption",
+          "as": "Encryption"
+        },
+        {
+          "en": "Decryption",
+          "as": "Decryption"
+        },
+        {
+          "en": "Compression",
+          "as": "Compression"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Steganography hides secret data within ordinary files like images.",
+        "as": "steganography য়ে গোপন তথ্য ছবি আদি ফাইলৰ ভিতৰত লুকুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which network topology connects all devices to a single central cable?",
+        "as": "কোন network topology ত সকলো যন্ত্ৰ এটা কেন্দ্রীয় cable ৰ সৈতে সংযুক্ত থাকে?"
+      },
+      "options": [
+        {
+          "en": "Bus topology",
+          "as": "Bus topology"
+        },
+        {
+          "en": "Star topology",
+          "as": "Star topology"
+        },
+        {
+          "en": "Ring topology",
+          "as": "Ring topology"
+        },
+        {
+          "en": "Mesh topology",
+          "as": "Mesh topology"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "In bus topology all nodes connect to a single backbone cable.",
+        "as": "bus topology ত সকলো node এটা একক backbone cable ৰ সৈতে সংযুক্ত থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which network topology connects all devices to a central hub/switch?",
+        "as": "কোন network topology ত সকলো যন্ত্ৰ কেন্দ্রীয় hub/switch ৰ সৈতে সংযুক্ত থাকে?"
+      },
+      "options": [
+        {
+          "en": "Star topology",
+          "as": "Star topology"
+        },
+        {
+          "en": "Bus topology",
+          "as": "Bus topology"
+        },
+        {
+          "en": "Ring topology",
+          "as": "Ring topology"
+        },
+        {
+          "en": "Tree topology",
+          "as": "Tree topology"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "In star topology all nodes connect to one central device (hub/switch).",
+        "as": "star topology ত সকলো node এটা কেন্দ্রীয় যন্ত্ৰ (hub/switch) ৰ সৈতে সংযুক্ত থাকে।"
+      }
+    }
+  ]
 }
