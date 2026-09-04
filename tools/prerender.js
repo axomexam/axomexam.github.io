@@ -494,7 +494,7 @@ ${body}
   <script src="/js/config.js?v=20260902a"></script>
   <script src="/js/i18n.js?v=20260902a"></script>
   <script src="/js/api.js?v=20260902a"></script>
-  <script src="/js/app.js?v=20260902a"></script>
+  <script src="/js/app.js?v=20260904a"></script>
 </body>
 </html>
 `;

@@ -732,6 +732,9 @@
       state.mock = null;
     }
 
+    state.lang = isEnglishContent(segs) ? "en" : "as";
+    document.body.setAttribute("data-lang", state.lang);
+
     if (segs.length === 0) return renderHome(main);
     if (segs[0] === "category") {
       const cat = state.categories.find((c) => c.id === segs[1]);
@@ -2722,6 +2725,15 @@
     return cat.subcategories || [];
   }
 
+  function isEnglishContent(segs) {
+    if (!segs || !segs.length) return false;
+    if (segs[0] === "category" && segs[1] === "english") return true;
+    if (segs[0] === "topic" && segs[1] === "english") return true;
+    if (segs[0] === "mock-test" && segs[1] === "english") return true;
+    if (segs[0] === "category" && segs[1] === "articles" && segs[2] === "english") return true;
+    return false;
+  }
+
   function handleMockRouting(main, segs) {
     if (segs.length === 1) return renderMockCategoryPicker(main);
 
@@ -3081,7 +3093,7 @@
 
     state.mock = {
       cat, pool: fullPool, configured: false, count: defaultCount,
-      testLang: "as",
+      testLang: cat.id === "english" ? "en" : "as",
       setInfo: { setNumber, title: loaded.title }
     };
 
@@ -3205,7 +3217,7 @@
       return;
     }
 
-    state.mock = { cat, pool, configured: false, count: 0, testLang: "as" };
+    state.mock = { cat, pool, configured: false, count: 0, testLang: cat.id === "english" ? "en" : "as" };
     const counts = [10, 20, 50, 100].filter((n) => n <= pool.length);
     if (!counts.includes(pool.length)) counts.push(pool.length);
 
