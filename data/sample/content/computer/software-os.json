@@ -1,19 +1,2050 @@
 {
- "id": "software-os",
- "title": {
-  "en": "Software & Operating System",
-  "as": "চফ্টৱেৰ আৰু অপাৰেটিং ছিষ্টেম"
- },
- "description": {
-  "en": "Software types and operating system concepts for exams.",
-  "as": "পৰীক্ষাৰ বাবে চফ্টৱেৰৰ প্ৰকাৰ আৰু অপাৰেটিং ছিষ্টেমৰ ধাৰণা।"
- },
- "tags": [
-  "software",
-  "os",
-  "operating-system",
-  "চফ্টৱেৰ",
-  "অপাৰেটিং ছিষ্টেম"
- ],
- "questions": []
+  "id": 2,
+  "title": {
+    "en": "Software & Operating System",
+    "as": "ছফ্টৱেৰ আৰু অপাৰেটিং ছিষ্টেম"
+  },
+  "description": {
+    "en": "Questions on system/application software, operating systems, utilities, file systems and language processors.",
+    "as": "চিষ্টেম/এপ্লিকেচন ছফ্টৱেৰ, অপাৰেটিং ছিষ্টেম, ইউটিলিটি, ফাইল চিষ্টেম আৰু লেংগুৱেজ প্ৰচেছৰ সম্পৰ্কীয় প্ৰশ্ন।"
+  },
+  "tags": [
+    "software",
+    "operating-system",
+    "windows",
+    "linux",
+    "computer"
+  ],
+  "questions": [
+    {
+      "q": {
+        "en": "Which of the following is system software?",
+        "as": "তলৰ কোনটো system ছফ্টৱেৰ?"
+      },
+      "options": [
+        {
+          "en": "Operating system",
+          "as": "Operating system"
+        },
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "Tally",
+          "as": "Tally"
+        },
+        {
+          "en": "Photoshop",
+          "as": "Photoshop"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The operating system is system software that manages the computer hardware and software.",
+        "as": "Operating system হৈছে system ছফ্টৱেৰ, ই কম্পিউটাৰ হাৰ্ডৱেৰ আৰু ছফ্টৱেৰ পৰিচালনা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is application software?",
+        "as": "তলৰ কোনটো application ছফ্টৱেৰ?"
+      },
+      "options": [
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        },
+        {
+          "en": "Windows 11",
+          "as": "Windows 11"
+        },
+        {
+          "en": "Linux",
+          "as": "Linux"
+        },
+        {
+          "en": "MS-DOS",
+          "as": "MS-DOS"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "MS Excel is application software used for a specific task like making spreadsheets.",
+        "as": "MS Excel হৈছে application ছফ্টৱেৰ, স্প্রেডশিট বনাবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is an example of an operating system?",
+        "as": "তলৰ কোনটো অপাৰেটিং ছিষ্টেমৰ উদাহৰণ?"
+      },
+      "options": [
+        {
+          "en": "Ubuntu",
+          "as": "Ubuntu"
+        },
+        {
+          "en": "MS Paint",
+          "as": "MS Paint"
+        },
+        {
+          "en": "Google Chrome",
+          "as": "Google Chrome"
+        },
+        {
+          "en": "VLC Player",
+          "as": "VLC Player"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ubuntu is a Linux-based operating system.",
+        "as": "Ubuntu হৈছে Linux-ভিত্তিক অপাৰেটিং ছিষ্টেম।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which operating system is NOT a mobile operating system?",
+        "as": "কোনটো অপাৰেটিং ছিষ্টেম মোবাইল অপাৰেটিং ছিষ্টেম নহয়?"
+      },
+      "options": [
+        {
+          "en": "Ubuntu",
+          "as": "Ubuntu"
+        },
+        {
+          "en": "Android",
+          "as": "Android"
+        },
+        {
+          "en": "iOS",
+          "as": "iOS"
+        },
+        {
+          "en": "HarmonyOS",
+          "as": "HarmonyOS"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ubuntu is a desktop/server OS; Android, iOS and HarmonyOS are mobile operating systems.",
+        "as": "Ubuntu হৈছে ডেস্কটপ/ছার্ভার OS; Android, iOS আৰু HarmonyOS মোবাইল OS।"
+      }
+    },
+    {
+      "q": {
+        "en": "The operating system acts as an interface between ___ and ___",
+        "as": "অপাৰেটিং ছিষ্টেম ___ আৰু ___ ৰ মাজত interface ৰূপে কাম কৰে।"
+      },
+      "options": [
+        {
+          "en": "User and computer hardware",
+          "as": "ব্যৱহাৰকাৰী আৰু কম্পিউটাৰ হাৰ্ডৱেৰ"
+        },
+        {
+          "en": "User and internet",
+          "as": "ব্যৱহাৰকাৰী আৰু ইন্টাৰনেট"
+        },
+        {
+          "en": "Printer and scanner",
+          "as": "প্রিন্টাৰ আৰু স্ক্যানাৰ"
+        },
+        {
+          "en": "CPU and RAM only",
+          "as": "কেৱল CPU আৰু RAM"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The OS is an interface between the user and the computer hardware.",
+        "as": "OS হৈছে ব্যৱহাৰকাৰী আৰু কম্পিউটাৰ হাৰ্ডৱেৰৰ মাজৰ interface।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is NOT a function of the operating system?",
+        "as": "তলৰ কোনটো অপাৰেটিং ছিষ্টেমৰ কাম নহয়?"
+      },
+      "options": [
+        {
+          "en": "Creating documents",
+          "as": "ডকুমেন্ট সৃষ্টি"
+        },
+        {
+          "en": "Memory management",
+          "as": "মেম'ৰী ব্যৱস্থাপনা"
+        },
+        {
+          "en": "Process management",
+          "as": "প্রক্রিয়া ব্যৱস্থাপনা"
+        },
+        {
+          "en": "File management",
+          "as": "ফাইল ব্যৱস্থাপনা"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Creating documents is done by application software, not by the OS.",
+        "as": "ডকুমেন্ট সৃষ্টি application ছফ্টৱেৰে কৰে, OS য়ে নকৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Restarting a running computer without switching off the power is called ___",
+        "as": "বিদ্যুৎ বন্ধ নকৰাকৈ চলন্ত কম্পিউটাৰ পুনৰাৰম্ভ কৰাক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Warm booting",
+          "as": "Warm booting"
+        },
+        {
+          "en": "Cold booting",
+          "as": "Cold booting"
+        },
+        {
+          "en": "Soft booting",
+          "as": "Soft booting"
+        },
+        {
+          "en": "Hard booting",
+          "as": "Hard booting"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Restarting the computer (Ctrl+Alt+Del / Restart) without switching off power is warm booting.",
+        "as": "বিদ্যুৎ বন্ধ নকৰাকৈ কম্পিউটাৰ restart কৰা (Ctrl+Alt+Del / Restart) warm booting।"
+      }
+    },
+    {
+      "q": {
+        "en": "Switching on a computer from a completely powered-off state is called ___",
+        "as": "সম্পূৰ্ণ বিদ্যুৎ বন্ধ অৱস্থাৰ পৰা কম্পিউটাৰ অন কৰাক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Cold booting",
+          "as": "Cold booting"
+        },
+        {
+          "en": "Warm booting",
+          "as": "Warm booting"
+        },
+        {
+          "en": "Reloading",
+          "as": "Reloading"
+        },
+        {
+          "en": "Soft booting",
+          "as": "Soft booting"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Starting the computer from a power-off state is cold booting.",
+        "as": "বিদ্যুৎ বন্ধ অৱস্থাৰ পৰা কম্পিউটাৰ আৰম্ভ কৰা cold booting।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which part of the operating system is loaded first into memory during booting?",
+        "as": "বুটিংত অপাৰেটিং ছিষ্টেমৰ কোন অংশ প্ৰথমে memory ত ল'ড হয়?"
+      },
+      "options": [
+        {
+          "en": "Kernel",
+          "as": "Kernel"
+        },
+        {
+          "en": "Shell",
+          "as": "Shell"
+        },
+        {
+          "en": "Desktop",
+          "as": "Desktop"
+        },
+        {
+          "en": "Wallpaper",
+          "as": "Wallpaper"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The kernel is the core part of the OS loaded first; it manages memory, processes and hardware.",
+        "as": "Kernel হৈছে OS ৰ মূল অংশ, ই প্ৰথমে ল'ড হয় আৰু memory, process আৰু hardware পৰিচালনা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A file is stored inside a ___ in an operating system.",
+        "as": "অপাৰেটিং ছিষ্টেমত ফাইল এটা ___ ৰ ভিতৰত সংৰক্ষিত হয়।"
+      },
+      "options": [
+        {
+          "en": "Folder/Directory",
+          "as": "Folder/Directory"
+        },
+        {
+          "en": "Recycle bin",
+          "as": "Recycle bin"
+        },
+        {
+          "en": "Taskbar",
+          "as": "Taskbar"
+        },
+        {
+          "en": "Desktop icon",
+          "as": "Desktop icon"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Files are organized and stored inside folders, also called directories.",
+        "as": "ফাইলবোৰ folder (directory) ৰ ভিতৰত সজাই ৰখা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is the file extension of an executable program in Windows?",
+        "as": "Windows ত executable program ৰ ফাইল এক্সটেনশন কোনটো?"
+      },
+      "options": [
+        {
+          "en": ".exe",
+          "as": ".exe"
+        },
+        {
+          "en": ".txt",
+          "as": ".txt"
+        },
+        {
+          "en": ".docx",
+          "as": ".docx"
+        },
+        {
+          "en": ".jpg",
+          "as": ".jpg"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Executable programs in Windows have the extension '.exe'.",
+        "as": "Windows ত executable program ৰ extension '.exe'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which software translates a program written in a high-level language into machine code at once?",
+        "as": "কোন ছফ্টৱেৰে উচ্চ-স্তৰীয় ভাষাত লিখা program ক একেলগে machine code ত ৰূপান্তৰ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Compiler",
+          "as": "Compiler"
+        },
+        {
+          "en": "Interpreter",
+          "as": "Interpreter"
+        },
+        {
+          "en": "Assembler",
+          "as": "Assembler"
+        },
+        {
+          "en": "Loader",
+          "as": "Loader"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A compiler translates the whole high-level program into machine code at once.",
+        "as": "Compiler য়ে সম্পূৰ্ণ উচ্চ-স্তৰীয় program ক একেলগে machine code ত ৰূপান্তৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which software converts assembly language into machine code?",
+        "as": "কোন ছফ্টৱেৰে assembly language ক machine code ত ৰূপান্তৰ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Assembler",
+          "as": "Assembler"
+        },
+        {
+          "en": "Compiler",
+          "as": "Compiler"
+        },
+        {
+          "en": "Interpreter",
+          "as": "Interpreter"
+        },
+        {
+          "en": "Debugger",
+          "as": "Debugger"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "An assembler converts assembly language programs into machine code.",
+        "as": "Assembler য়ে assembly language program ক machine code ত ৰূপান্তৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which software translates high-level language line by line?",
+        "as": "কোন ছফ্টৱেৰে উচ্চ-স্তৰীয় ভাষা শাৰী-শাৰীকৈ ৰূপান্তৰ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Interpreter",
+          "as": "Interpreter"
+        },
+        {
+          "en": "Compiler",
+          "as": "Compiler"
+        },
+        {
+          "en": "Linker",
+          "as": "Linker"
+        },
+        {
+          "en": "Loader",
+          "as": "Loader"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "An interpreter translates and executes a program line by line.",
+        "as": "Interpreter য়ে program ক শাৰী-শাৰীকৈ ৰূপান্তৰ আৰু চলায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is NOT an operating system?",
+        "as": "তলৰ কোনটো অপাৰেটিং ছিষ্টেম নহয়?"
+      },
+      "options": [
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "Windows 10",
+          "as": "Windows 10"
+        },
+        {
+          "en": "macOS",
+          "as": "macOS"
+        },
+        {
+          "en": "Android",
+          "as": "Android"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "MS Word is application software, not an operating system.",
+        "as": "MS Word হৈছে application ছফ্টৱেৰ, অপাৰেটিং ছিষ্টেম নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which OS was developed by Apple for its Mac computers?",
+        "as": "Apple য়ে নিজৰ Mac কম্পিউটাৰৰ বাবে বনোৱা OS কোনটো?"
+      },
+      "options": [
+        {
+          "en": "macOS",
+          "as": "macOS"
+        },
+        {
+          "en": "Android",
+          "as": "Android"
+        },
+        {
+          "en": "MS-DOS",
+          "as": "MS-DOS"
+        },
+        {
+          "en": "Unix",
+          "as": "Unix"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Apple developed macOS for Mac computers.",
+        "as": "Apple য়ে Mac কম্পিউটাৰৰ বাবে macOS বনাইছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which OS is used in iPhones?",
+        "as": "iPhone ত কোন OS ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "iOS",
+          "as": "iOS"
+        },
+        {
+          "en": "Android",
+          "as": "Android"
+        },
+        {
+          "en": "Windows",
+          "as": "Windows"
+        },
+        {
+          "en": "Symbian",
+          "as": "Symbian"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "iPhones run on Apple's iOS operating system.",
+        "as": "iPhone ত Apple ৰ iOS অপাৰেটিং ছিষ্টেম চলি থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Android is owned and developed by which company?",
+        "as": "Android কোন কোম্পানীৰ মালিকানাধীন আৰু বিকশিত?"
+      },
+      "options": [
+        {
+          "en": "Google",
+          "as": "Google"
+        },
+        {
+          "en": "Microsoft",
+          "as": "Microsoft"
+        },
+        {
+          "en": "Apple",
+          "as": "Apple"
+        },
+        {
+          "en": "Amazon",
+          "as": "Amazon"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Android was developed by Google (initially Android Inc., acquired by Google).",
+        "as": "Android Google ৰ দ্বাৰা বিকশিত (আৰম্ভণিত Android Inc., Google য়ে কিনি লৈছিল)।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is an open-source operating system?",
+        "as": "তলৰ কোনটো open-source অপাৰেটিং ছিষ্টেম?"
+      },
+      "options": [
+        {
+          "en": "Linux",
+          "as": "Linux"
+        },
+        {
+          "en": "Windows",
+          "as": "Windows"
+        },
+        {
+          "en": "macOS",
+          "as": "macOS"
+        },
+        {
+          "en": "MS-DOS",
+          "as": "MS-DOS"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Linux is an open-source OS whose source code is freely available.",
+        "as": "Linux হৈছে open-source OS, ইয়াৰ source code বিনামূল্যে উপলব্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which software is used to manage the hardware and software resources of a computer?",
+        "as": "কম্পিউটাৰৰ হাৰ্ডৱেৰ আৰু ছফ্টৱেৰ সম্পদ পৰিচালনা কৰা ছফ্টৱেৰ কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Operating system",
+          "as": "Operating system"
+        },
+        {
+          "en": "Antivirus",
+          "as": "Antivirus"
+        },
+        {
+          "en": "Web browser",
+          "as": "Web browser"
+        },
+        {
+          "en": "Media player",
+          "as": "Media player"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The operating system manages all hardware and software resources of the computer.",
+        "as": "Operating system য়ে কম্পিউটাৰৰ সকলো হাৰ্ডৱেৰ আৰু ছফ্টৱেৰ সম্পদ পৰিচালনা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which OS is a single-user, single-tasking command-based OS from Microsoft?",
+        "as": "Microsoft ৰ কোনটো single-user, single-tasking আৰু command-ভিত্তিক OS?"
+      },
+      "options": [
+        {
+          "en": "MS-DOS",
+          "as": "MS-DOS"
+        },
+        {
+          "en": "Windows 11",
+          "as": "Windows 11"
+        },
+        {
+          "en": "Android",
+          "as": "Android"
+        },
+        {
+          "en": "iOS",
+          "as": "iOS"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "MS-DOS is a command-based, single-user single-tasking operating system from Microsoft.",
+        "as": "MS-DOS হৈছে Microsoft ৰ command-ভিত্তিক single-user single-tasking OS।"
+      }
+    },
+    {
+      "q": {
+        "en": "What type of user interface uses icons, windows and menus?",
+        "as": "কোন ধৰণৰ ইউজার ইন্টারফেসত icon, window আৰু menu ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "GUI",
+          "as": "GUI"
+        },
+        {
+          "en": "CUI",
+          "as": "CUI"
+        },
+        {
+          "en": "CLI",
+          "as": "CLI"
+        },
+        {
+          "en": "TUI",
+          "as": "TUI"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "GUI (Graphical User Interface) uses icons, windows, menus and a mouse.",
+        "as": "GUI (Graphical User Interface) ত icon, window, menu আৰু মাউছ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a command-based interface, users give instructions by ___",
+        "as": "command-ভিত্তিক ইন্টারফেসত ব্যৱহাৰকাৰীয়ে ___ ৰে নিৰ্দেশ দিয়ে।"
+      },
+      "options": [
+        {
+          "en": "Typing commands",
+          "as": "command টাইপ কৰি"
+        },
+        {
+          "en": "Clicking icons",
+          "as": "icon ক্লিক কৰি"
+        },
+        {
+          "en": "Dragging windows",
+          "as": "window টানি"
+        },
+        {
+          "en": "Touching the screen",
+          "as": "স্ক্রিন স্পর্শ কৰি"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "In CUI/CLI users type commands like 'dir', 'copy', etc.",
+        "as": "CUI/CLI ত ব্যৱহাৰকাৰীয়ে 'dir', 'copy' আদি command টাইপ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which OS version came after Windows 8.1?",
+        "as": "Windows 8.1 ৰ পিছত কোন OS version ওলাইছিল?"
+      },
+      "options": [
+        {
+          "en": "Windows 10",
+          "as": "Windows 10"
+        },
+        {
+          "en": "Windows 7",
+          "as": "Windows 7"
+        },
+        {
+          "en": "Windows Vista",
+          "as": "Windows Vista"
+        },
+        {
+          "en": "Windows XP",
+          "as": "Windows XP"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Windows 10 was released after Windows 8.1 (in 2015).",
+        "as": "Windows 8.1 ৰ পিছত Windows 10 (2015) ওলাইছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a file management tool in Windows?",
+        "as": "Windows ত তলৰ কোনটো ফাইল ব্যৱস্থাপনা সা-সঁজুলি?"
+      },
+      "options": [
+        {
+          "en": "File Explorer",
+          "as": "File Explorer"
+        },
+        {
+          "en": "Control Panel",
+          "as": "Control Panel"
+        },
+        {
+          "en": "Task Manager",
+          "as": "Task Manager"
+        },
+        {
+          "en": "Recycle Bin",
+          "as": "Recycle Bin"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "File Explorer (earlier Windows Explorer) is used to browse and manage files and folders.",
+        "as": "File Explorer (আগতে Windows Explorer) ফাইল আৰু folder চাবলৈ আৰু ব্যৱস্থাপনা কৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Where are deleted files temporarily stored in Windows?",
+        "as": "Windows ত মচি পেলোৱা ফাইলবোৰ সাময়িকভাৱে ক'ত থাকে?"
+      },
+      "options": [
+        {
+          "en": "Recycle Bin",
+          "as": "Recycle Bin"
+        },
+        {
+          "en": "My Documents",
+          "as": "My Documents"
+        },
+        {
+          "en": "Taskbar",
+          "as": "Taskbar"
+        },
+        {
+          "en": "Clipboard",
+          "as": "Clipboard"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Deleted files go to the Recycle Bin and can be restored until it is emptied.",
+        "as": "মচি পেলোৱা ফাইলবোৰ Recycle Bin ত থাকে আৰু ইয়াক খালী নকৰালৈকে ঘূৰাই আনিব পাৰি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which part of the Windows screen shows the Start button and open programs?",
+        "as": "Windows স্ক্রিনৰ কোন অংশত Start button আৰু চলি থকা program দেখা যায়?"
+      },
+      "options": [
+        {
+          "en": "Taskbar",
+          "as": "Taskbar"
+        },
+        {
+          "en": "Desktop",
+          "as": "Desktop"
+        },
+        {
+          "en": "Title bar",
+          "as": "Title bar"
+        },
+        {
+          "en": "Menu bar",
+          "as": "Menu bar"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The taskbar at the bottom shows the Start button and open programs.",
+        "as": "তলৰ taskbar ত Start button আৰু চলি থকা program দেখা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The small pictures on the Windows desktop are called ___",
+        "as": "Windows ডেস্কটপৰ সৰু ছবিবোৰক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Icons",
+          "as": "Icons"
+        },
+        {
+          "en": "Windows",
+          "as": "Windows"
+        },
+        {
+          "en": "Menus",
+          "as": "Menus"
+        },
+        {
+          "en": "Folders",
+          "as": "Folders"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Small pictures that represent programs, files or folders are called icons.",
+        "as": "Program, file বা folder প্ৰতিনিধিত্ব কৰা সৰু ছবিবোৰক icon বোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which keyboard shortcut opens the Task Manager in Windows?",
+        "as": "Windows ত Task Manager খোলা keyboard shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + Shift + Esc",
+          "as": "Ctrl + Shift + Esc"
+        },
+        {
+          "en": "Ctrl + Alt + Del",
+          "as": "Ctrl + Alt + Del"
+        },
+        {
+          "en": "Alt + F4",
+          "as": "Alt + F4"
+        },
+        {
+          "en": "Ctrl + Esc",
+          "as": "Ctrl + Esc"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + Shift + Esc directly opens the Task Manager in Windows.",
+        "as": "Ctrl + Shift + Esc য়ে Windows ত পোনপটীয়াকৈ Task Manager খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key combination is pressed to lock or switch user in Windows?",
+        "as": "Windows ত কম্পিউটাৰ লক বা ইউজার সলনি কৰিবলৈ কোন combination চাপা হয়?"
+      },
+      "options": [
+        {
+          "en": "Windows key + L",
+          "as": "Windows key + L"
+        },
+        {
+          "en": "Windows key + D",
+          "as": "Windows key + D"
+        },
+        {
+          "en": "Windows key + E",
+          "as": "Windows key + E"
+        },
+        {
+          "en": "Windows key + R",
+          "as": "Windows key + R"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Windows key + L locks the computer or switches the user.",
+        "as": "Windows key + L য়ে কম্পিউটাৰ লক বা ইউজার সলনি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut minimizes all windows and shows the desktop?",
+        "as": "কোন shortcut য়ে সকলো window সৰু কৰি ডেস্কটপ দেখুৱায়?"
+      },
+      "options": [
+        {
+          "en": "Windows key + D",
+          "as": "Windows key + D"
+        },
+        {
+          "en": "Windows key + L",
+          "as": "Windows key + L"
+        },
+        {
+          "en": "Windows key + R",
+          "as": "Windows key + R"
+        },
+        {
+          "en": "Windows key + S",
+          "as": "Windows key + S"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Windows key + D shows the desktop by minimizing all windows.",
+        "as": "Windows key + D য়ে সকলো window সৰু কৰি ডেস্কটপ দেখুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which utility software removes temporary and unnecessary files to free disk space?",
+        "as": "কোন utility ছফ্টৱেৰে অস্থায়ী আৰু অবাঞ্ছিত ফাইল মচি ডিস্ক ঠাই মুক্ত কৰে?"
+      },
+      "options": [
+        {
+          "en": "Disk Cleanup",
+          "as": "Disk Cleanup"
+        },
+        {
+          "en": "Antivirus",
+          "as": "Antivirus"
+        },
+        {
+          "en": "File Explorer",
+          "as": "File Explorer"
+        },
+        {
+          "en": "Notepad",
+          "as": "Notepad"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Disk Cleanup is a Windows utility that removes unnecessary files to free disk space.",
+        "as": "Disk Cleanup হৈছে Windows utility, ই অবাঞ্ছিত ফাইল মচি ডিস্ক ঠাই মুক্ত কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which tool rearranges scattered data on a hard disk to speed it up?",
+        "as": "কোন সা-সঁজুলি hard disk ৰ ডেটা সজাই দিয়ে বেগাবলৈ?"
+      },
+      "options": [
+        {
+          "en": "Disk Defragmenter",
+          "as": "Disk Defragmenter"
+        },
+        {
+          "en": "Disk Cleanup",
+          "as": "Disk Cleanup"
+        },
+        {
+          "en": "Task Scheduler",
+          "as": "Task Scheduler"
+        },
+        {
+          "en": "Registry Editor",
+          "as": "Registry Editor"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Disk Defragmenter rearranges scattered file pieces to speed up the hard disk.",
+        "as": "Disk Defragmenter য়ে বিচ্ছিন্ন ফাইল অংশ সজাই hard disk বেগায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Software that is free to use but with limited features is called ___",
+        "as": "ব্যৱহাৰত মুক্ত কিন্তু সীমিত বৈশিষ্ট্যৰ ছফ্টৱেৰক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Freeware",
+          "as": "Freeware"
+        },
+        {
+          "en": "Shareware",
+          "as": "Shareware"
+        },
+        {
+          "en": "Open source",
+          "as": "Open source"
+        },
+        {
+          "en": "Firmware",
+          "as": "Firmware"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Shareware is free to try, usually for a limited time, after which payment is needed.",
+        "as": "Shareware সীমিত সময়লৈ বিনামূল্যে চেষ্টা কৰিব পাৰি, তাৰ পিছত মূল্য দিব লাগে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Software provided free of cost to users is called ___",
+        "as": "ব্যৱহাৰকাৰীক বিনামূল্যে দিয়া ছফ্টৱেৰক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Freeware",
+          "as": "Freeware"
+        },
+        {
+          "en": "Shareware",
+          "as": "Shareware"
+        },
+        {
+          "en": "Commercial software",
+          "as": "Commercial ছফ্টৱেৰ"
+        },
+        {
+          "en": "Proprietary software",
+          "as": "Proprietary ছফ্টৱেৰ"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Freeware is software given to users free of cost, e.g., Adobe Reader.",
+        "as": "Freeware হৈছে ব্যৱহাৰকাৰীক বিনামূল্যে দিয়া ছফ্টৱেৰ, যেনে Adobe Reader।"
+      }
+    },
+    {
+      "q": {
+        "en": "Software whose source code is freely available for modification is called ___",
+        "as": "যি ছফ্টৱেৰৰ source code সলনি কৰিবলৈ মুক্তভাৱে উপলব্ধ তাক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Open source software",
+          "as": "Open source ছফ্টৱেৰ"
+        },
+        {
+          "en": "Shareware",
+          "as": "Shareware"
+        },
+        {
+          "en": "Freeware",
+          "as": "Freeware"
+        },
+        {
+          "en": "Firmware",
+          "as": "Firmware"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Open source software allows free access to its source code, e.g., Linux.",
+        "as": "Open source ছফ্টৱেৰত source code মুক্তভাৱে উপলব্ধ, যেনে Linux।"
+      }
+    },
+    {
+      "q": {
+        "en": "Software stored permanently on ROM or hardware devices is called ___",
+        "as": "ROM বা হাৰ্ডৱেৰ ডিভাইচত স্থায়ীভাৱে ৰখা ছফ্টৱেৰক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Firmware",
+          "as": "Firmware"
+        },
+        {
+          "en": "Freeware",
+          "as": "Freeware"
+        },
+        {
+          "en": "Groupware",
+          "as": "Groupware"
+        },
+        {
+          "en": "Malware",
+          "as": "Malware"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Firmware is permanent software stored in ROM, e.g., BIOS.",
+        "as": "Firmware হৈছে ROM ত ৰখা স্থায়ী ছফ্টৱেৰ, যেনে BIOS।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a text editor that comes free with Windows?",
+        "as": "Windows ৰ সৈতে বিনামূল্যে অহা text editor কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Notepad",
+          "as": "Notepad"
+        },
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "WordPad Pro",
+          "as": "WordPad Pro"
+        },
+        {
+          "en": "OneNote",
+          "as": "OneNote"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Notepad is a basic text editor that comes free with Windows.",
+        "as": "Notepad হৈছে Windows ৰ সৈতে অহা সহজ text editor।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which command in MS-DOS lists the files in a directory?",
+        "as": "MS-DOS ত directory ৰ ফাইল তালিকা দেখুওৱা command কোনটো?"
+      },
+      "options": [
+        {
+          "en": "DIR",
+          "as": "DIR"
+        },
+        {
+          "en": "DEL",
+          "as": "DEL"
+        },
+        {
+          "en": "REN",
+          "as": "REN"
+        },
+        {
+          "en": "CLS",
+          "as": "CLS"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The 'DIR' command lists the files and folders of a directory.",
+        "as": "'DIR' command য়ে directory ৰ ফাইল আৰু folder তালিকাভুক্ত কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which MS-DOS command is used to delete a file?",
+        "as": "ফাইল মচিবলৈ কোন MS-DOS command ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "DEL",
+          "as": "DEL"
+        },
+        {
+          "en": "DIR",
+          "as": "DIR"
+        },
+        {
+          "en": "CD",
+          "as": "CD"
+        },
+        {
+          "en": "MD",
+          "as": "MD"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'DEL' (or ERASE) deletes files in MS-DOS.",
+        "as": "'DEL' (বা ERASE) য়ে MS-DOS ত ফাইল মচে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which command clears the MS-DOS screen?",
+        "as": "কোন command য়ে MS-DOS স্ক্রিন পৰিষ্কাৰ কৰে?"
+      },
+      "options": [
+        {
+          "en": "CLS",
+          "as": "CLS"
+        },
+        {
+          "en": "CD",
+          "as": "CD"
+        },
+        {
+          "en": "COPY",
+          "as": "COPY"
+        },
+        {
+          "en": "DATE",
+          "as": "DATE"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The 'CLS' command clears the MS-DOS command screen.",
+        "as": "'CLS' command য়ে MS-DOS স্ক্রিন পৰিষ্কাৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a media player by Microsoft?",
+        "as": "Microsoft ৰ media player কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Windows Media Player",
+          "as": "Windows Media Player"
+        },
+        {
+          "en": "VLC Player",
+          "as": "VLC Player"
+        },
+        {
+          "en": "KMPlayer",
+          "as": "KMPlayer"
+        },
+        {
+          "en": "Winamp",
+          "as": "Winamp"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Windows Media Player is the media player included with Windows.",
+        "as": "Windows Media Player হৈছে Windows ৰ সৈতে থকা media player।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a Linux distribution (distro)?",
+        "as": "তলৰ কোনটো Linux distribution (distro)?"
+      },
+      "options": [
+        {
+          "en": "Fedora",
+          "as": "Fedora"
+        },
+        {
+          "en": "Windows",
+          "as": "Windows"
+        },
+        {
+          "en": "macOS",
+          "as": "macOS"
+        },
+        {
+          "en": "Android",
+          "as": "Android"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Fedora is a popular Linux distribution.",
+        "as": "Fedora হৈছে জনপ্ৰিয় Linux distribution।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which utility in Windows lets you uninstall programs?",
+        "as": "Windows ত program আঁতৰাবলৈ কোন utility ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Control Panel (Programs and Features)",
+          "as": "Control Panel (Programs and Features)"
+        },
+        {
+          "en": "Recycle Bin",
+          "as": "Recycle Bin"
+        },
+        {
+          "en": "Command Prompt",
+          "as": "Command Prompt"
+        },
+        {
+          "en": "Registry Editor",
+          "as": "Registry Editor"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Programs are uninstalled through 'Programs and Features' in the Control Panel.",
+        "as": "'Programs and Features' ৰ দ্বাৰা Control Panel ত program আঁতৰোৱা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The process of preparing a storage device for use by the OS is called ___",
+        "as": "OS ত ব্যৱহাৰৰ বাবে ষ্ট'ৰেজ ডিভাইচ প্ৰস্তুত কৰা প্রক্রিয়াক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Formatting",
+          "as": "Formatting"
+        },
+        {
+          "en": "Defragmenting",
+          "as": "Defragmenting"
+        },
+        {
+          "en": "Compiling",
+          "as": "Compiling"
+        },
+        {
+          "en": "Scanning",
+          "as": "Scanning"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Formatting prepares a disk by creating a file system so the OS can store data.",
+        "as": "Formatting য়ে file system সৃষ্টি কৰি ডিস্ক প্ৰস্তুত কৰে যাতে OS ত তথ্য ৰাখিব পাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is an operating system for mobile devices by Microsoft (now discontinued)?",
+        "as": "Microsoft ৰ মোবাইল OS (বৰ্তমান বন্ধ) কোনটো আছিল?"
+      },
+      "options": [
+        {
+          "en": "Windows Phone",
+          "as": "Windows Phone"
+        },
+        {
+          "en": "Android",
+          "as": "Android"
+        },
+        {
+          "en": "iOS",
+          "as": "iOS"
+        },
+        {
+          "en": "BlackBerry OS",
+          "as": "BlackBerry OS"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Windows Phone was Microsoft's discontinued mobile operating system.",
+        "as": "Windows Phone আছিল Microsoft ৰ বন্ধ হোৱা মোবাইল OS।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which OS feature allows multiple programs to run at the same time?",
+        "as": "কোন OS বৈশিষ্ট্যই একেলগে একাধিক program চলিবলৈ দিয়ে?"
+      },
+      "options": [
+        {
+          "en": "Multitasking",
+          "as": "Multitasking"
+        },
+        {
+          "en": "Batch processing",
+          "as": "Batch processing"
+        },
+        {
+          "en": "Real-time processing",
+          "as": "Real-time processing"
+        },
+        {
+          "en": "Time sharing",
+          "as": "Time sharing"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Multitasking allows the computer to run more than one program at the same time.",
+        "as": "Multitasking ত একেলগে একাধিক program চলিব পাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "An OS that responds to events instantly (e.g., in airline booking) is called a ___ OS.",
+        "as": "ঘটনাত লগে লগে সঁহাৰি দিয়া OS (যেনে বিমান বুকিং) ক ___ OS বোলে।"
+      },
+      "options": [
+        {
+          "en": "Real-time",
+          "as": "Real-time"
+        },
+        {
+          "en": "Batch",
+          "as": "Batch"
+        },
+        {
+          "en": "Single-user",
+          "as": "Single-user"
+        },
+        {
+          "en": "Distributed",
+          "as": "Distributed"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Real-time operating systems respond instantly, used in ticket booking and control systems.",
+        "as": "Real-time OS য়ে লগে লগে সঁহাৰি দিয়ে, টিকট বুকিং আৰু নিয়ন্ত্ৰণ ছিষ্টেমত ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which program translates the entire source code and produces an error list at once?",
+        "as": "কোন program য়ে সম্পূৰ্ণ source code ৰূপান্তৰ কৰি একেলগে ভুল তালিকা দিয়ে?"
+      },
+      "options": [
+        {
+          "en": "Compiler",
+          "as": "Compiler"
+        },
+        {
+          "en": "Interpreter",
+          "as": "Interpreter"
+        },
+        {
+          "en": "Assembler",
+          "as": "Assembler"
+        },
+        {
+          "en": "Editor",
+          "as": "Editor"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A compiler checks the whole program and shows all errors at once.",
+        "as": "Compiler য়ে সম্পূৰ্ণ program পৰীক্ষা কৰি সকলো ভুল একেলগে দেখুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The group of files with the extension '.dll' in Windows is known as:",
+        "as": "Windows ত '.dll' extension থকা ফাইলবোৰক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Dynamic Link Libraries",
+          "as": "Dynamic Link Libraries"
+        },
+        {
+          "en": "Direct Load Libraries",
+          "as": "Direct Load Libraries"
+        },
+        {
+          "en": "Data Link Lists",
+          "as": "Data Link Lists"
+        },
+        {
+          "en": "Desktop Link Logs",
+          "as": "Desktop Link Logs"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "DLL stands for Dynamic Link Library, shared code files used by multiple programs.",
+        "as": "DLL অৰ্থ Dynamic Link Library, একাধিক program ৰ ব্যৱহৃত ভাগ-বতৰা code ফাইল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following software is used for database management?",
+        "as": "তলৰ কোনটো ছফ্টৱেৰ ডেটাবেছ ব্যৱস্থাপনাৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Oracle",
+          "as": "Oracle"
+        },
+        {
+          "en": "VLC Player",
+          "as": "VLC Player"
+        },
+        {
+          "en": "Chrome",
+          "as": "Chrome"
+        },
+        {
+          "en": "Photoshop",
+          "as": "Photoshop"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Oracle is a database management system (DBMS).",
+        "as": "Oracle হৈছে ডেটাবেছ ব্যৱস্থাপনা ছিষ্টেম (DBMS)।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the full form of 'OS'?",
+        "as": "'OS' ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Operating System",
+          "as": "Operating System"
+        },
+        {
+          "en": "Open Source",
+          "as": "Open Source"
+        },
+        {
+          "en": "Output System",
+          "as": "Output System"
+        },
+        {
+          "en": "Operational Software",
+          "as": "Operational Software"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "OS stands for Operating System.",
+        "as": "OS ৰ অৰ্থ Operating System।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a web browser?",
+        "as": "তলৰ কোনটো web browser?"
+      },
+      "options": [
+        {
+          "en": "Mozilla Firefox",
+          "as": "Mozilla Firefox"
+        },
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        },
+        {
+          "en": "Adobe Photoshop",
+          "as": "Adobe Photoshop"
+        },
+        {
+          "en": "Linux",
+          "as": "Linux"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Mozilla Firefox is a web browser used to access the internet.",
+        "as": "Mozilla Firefox হৈছে ইন্টারনেট লৈ যাবলৈ ব্যৱহৃত web browser।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a programming language?",
+        "as": "তলৰ কোনটো programming language?"
+      },
+      "options": [
+        {
+          "en": "Python",
+          "as": "Python"
+        },
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "Windows",
+          "as": "Windows"
+        },
+        {
+          "en": "Google Chrome",
+          "as": "Google Chrome"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Python is a high-level programming language.",
+        "as": "Python হৈছে উচ্চ-স্তৰীয় programming language।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of these is NOT a programming language?",
+        "as": "এইবোৰৰ কোনটো programming language নহয়?"
+      },
+      "options": [
+        {
+          "en": "Windows",
+          "as": "Windows"
+        },
+        {
+          "en": "Java",
+          "as": "Java"
+        },
+        {
+          "en": "C++",
+          "as": "C++"
+        },
+        {
+          "en": "Python",
+          "as": "Python"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Windows is an operating system, not a programming language.",
+        "as": "Windows হৈছে operating system, programming language নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which software creates a 'virtual' extra memory from the hard disk when RAM is full?",
+        "as": "RAM পূৰ্ণ হ'লে hard disk ৰ পৰা 'ভার্চুয়াল' অতিৰিক্ত memory সৃষ্টি কৰা ছফ্টৱেৰ কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Virtual memory (OS feature)",
+          "as": "Virtual memory (OS feature)"
+        },
+        {
+          "en": "Antivirus",
+          "as": "Antivirus"
+        },
+        {
+          "en": "Firewall",
+          "as": "Firewall"
+        },
+        {
+          "en": "Cache cleaner",
+          "as": "Cache cleaner"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Virtual memory is an OS feature that uses part of the hard disk as extra RAM.",
+        "as": "Virtual memory হৈছে OS বৈশিষ্ট্য, ই hard disk ৰ অংশ RAM হিচাপে ব্যৱহাৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which command is used in Windows to run a program from the 'Run' dialog?",
+        "as": "Windows ৰ 'Run' dialog ত program চলাবলৈ কোন key combination ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Windows key + R",
+          "as": "Windows key + R"
+        },
+        {
+          "en": "Windows key + E",
+          "as": "Windows key + E"
+        },
+        {
+          "en": "Ctrl + R",
+          "as": "Ctrl + R"
+        },
+        {
+          "en": "Alt + R",
+          "as": "Alt + R"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Windows key + R opens the Run dialog.",
+        "as": "Windows key + R য়ে Run dialog খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The shortcut to permanently delete a file (skip Recycle Bin) is:",
+        "as": "ফাইল স্থায়ীভাৱে (Recycle Bin নোহোৱাকৈ) মচিবলৈ shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Shift + Delete",
+          "as": "Shift + Delete"
+        },
+        {
+          "en": "Ctrl + Delete",
+          "as": "Ctrl + Delete"
+        },
+        {
+          "en": "Alt + Delete",
+          "as": "Alt + Delete"
+        },
+        {
+          "en": "Ctrl + Alt + Delete",
+          "as": "Ctrl + Alt + Delete"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Shift + Delete deletes a file permanently without sending it to the Recycle Bin.",
+        "as": "Shift + Delete য়ে ফাইল Recycle Bin ত নপঠিয়াই স্থায়ীভাৱে মচে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which file extension indicates a text file in Windows?",
+        "as": "Windows ত text ফাইল বুজোৱা extension কোনটো?"
+      },
+      "options": [
+        {
+          "en": ".txt",
+          "as": ".txt"
+        },
+        {
+          "en": ".mp3",
+          "as": ".mp3"
+        },
+        {
+          "en": ".jpg",
+          "as": ".jpg"
+        },
+        {
+          "en": ".exe",
+          "as": ".exe"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Plain text files use the '.txt' extension.",
+        "as": "সাধাৰণ text ফাইল '.txt' extension ব্যৱহাৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following file extensions is used for an image?",
+        "as": "তলৰ কোনটো extension ছবিৰ বাবে?"
+      },
+      "options": [
+        {
+          "en": ".jpg",
+          "as": ".jpg"
+        },
+        {
+          "en": ".docx",
+          "as": ".docx"
+        },
+        {
+          "en": ".xlsx",
+          "as": ".xlsx"
+        },
+        {
+          "en": ".pptx",
+          "as": ".pptx"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": ".jpg (or .jpeg) is an image file extension.",
+        "as": ".jpg (বা .jpeg) হৈছে ছবি ফাইল extension।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which software is used to compress and decompress files?",
+        "as": "ফাইল সংকুচিত আৰু বিস্তাৰ কৰা ছফ্টৱেৰ কোনটো?"
+      },
+      "options": [
+        {
+          "en": "WinRAR",
+          "as": "WinRAR"
+        },
+        {
+          "en": "MS Access",
+          "as": "MS Access"
+        },
+        {
+          "en": "Outlook",
+          "as": "Outlook"
+        },
+        {
+          "en": "PowerPoint",
+          "as": "PowerPoint"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "WinRAR (or 7-Zip) is used to compress and decompress files.",
+        "as": "WinRAR (বা 7-Zip) ফাইল সংকুচিত আৰু বিস্তাৰ কৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A file with the extension '.zip' is a ___ file.",
+        "as": "'.zip' extension থকা ফাইল এটা ___ ফাইল।"
+      },
+      "options": [
+        {
+          "en": "Compressed",
+          "as": "Compressed"
+        },
+        {
+          "en": "Executable",
+          "as": "Executable"
+        },
+        {
+          "en": "Image",
+          "as": "Image"
+        },
+        {
+          "en": "Audio",
+          "as": "Audio"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'.zip' is a compressed (archive) file format.",
+        "as": "'.zip' হৈছে সংকুচিত (archive) ফাইল ফর্মেট।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of these is a 'browser' for Linux desktops?",
+        "as": "এইবোৰৰ কোনটো Linux ডেস্কটপৰ browser?"
+      },
+      "options": [
+        {
+          "en": "Mozilla Firefox",
+          "as": "Mozilla Firefox"
+        },
+        {
+          "en": "Microsoft Paint",
+          "as": "Microsoft Paint"
+        },
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "Adobe Reader",
+          "as": "Adobe Reader"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Firefox runs on Linux as well; others given are not browsers.",
+        "as": "Firefox Linux তো চলে; আনবোৰ browser নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which function key is used to refresh a window in Windows?",
+        "as": "Windows ত window refresh কৰিবলৈ কোন function key ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "F5",
+          "as": "F5"
+        },
+        {
+          "en": "F1",
+          "as": "F1"
+        },
+        {
+          "en": "F2",
+          "as": "F2"
+        },
+        {
+          "en": "F4",
+          "as": "F4"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "F5 refreshes the current window or page.",
+        "as": "F5 য়ে চলি থকা window বা page refresh কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The F2 key in Windows File Explorer is used to ___",
+        "as": "Windows File Explorer ত F2 key ___ বাবে ব্যৱহাৰ হয়।"
+      },
+      "options": [
+        {
+          "en": "Rename a file/folder",
+          "as": "ফাইল/folder নাম সলনি"
+        },
+        {
+          "en": "Delete a file",
+          "as": "ফাইল মচা"
+        },
+        {
+          "en": "Copy a file",
+          "as": "ফাইল কপি"
+        },
+        {
+          "en": "Open help",
+          "as": "সহায় খোলা"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "F2 renames the selected file or folder.",
+        "as": "F2 য়ে বাছনি কৰা ফাইল বা folder ৰ নাম সলনি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key opens the Help in most Windows programs?",
+        "as": "বেছিভাগ Windows program ত সহায় (Help) খোলা key কোনটো?"
+      },
+      "options": [
+        {
+          "en": "F1",
+          "as": "F1"
+        },
+        {
+          "en": "F2",
+          "as": "F2"
+        },
+        {
+          "en": "F3",
+          "as": "F3"
+        },
+        {
+          "en": "F5",
+          "as": "F5"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "F1 opens the Help window in most programs.",
+        "as": "F1 য়ে বেছিভাগ program ত Help window খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which feature of Windows shows the live thumbnail of an open window when the mouse is moved over the taskbar?",
+        "as": "Windows ৰ কোন বৈশিষ্ট্যই taskbar ৰ ওপৰত মাউছ নিলে চলি থকা window ৰ থাম্বনেইল দেখুৱায়?"
+      },
+      "options": [
+        {
+          "en": "Aero Peek",
+          "as": "Aero Peek"
+        },
+        {
+          "en": "Snap",
+          "as": "Snap"
+        },
+        {
+          "en": "Shake",
+          "as": "Shake"
+        },
+        {
+          "en": "Flip 3D",
+          "as": "Flip 3D"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Aero Peek shows a live preview of an open window from the taskbar.",
+        "as": "Aero Peek য়ে taskbar ৰ পৰা window ৰ live preview দেখুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following pairs are all operating systems?",
+        "as": "তলৰ কোনটো যোৰত সকলোটা অপাৰেটিং ছিষ্টেম?"
+      },
+      "options": [
+        {
+          "en": "Windows, Linux, macOS",
+          "as": "Windows, Linux, macOS"
+        },
+        {
+          "en": "Chrome, Firefox, Edge",
+          "as": "Chrome, Firefox, Edge"
+        },
+        {
+          "en": "Word, Excel, PowerPoint",
+          "as": "Word, Excel, PowerPoint"
+        },
+        {
+          "en": "Photoshop, VLC, Tally",
+          "as": "Photoshop, VLC, Tally"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Windows, Linux and macOS are operating systems.",
+        "as": "Windows, Linux আৰু macOS হৈছে অপাৰেটিং ছিষ্টেম।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a desktop Linux distribution famous for beginners?",
+        "as": "আৰম্ভণিৰ বাবে জনপ্ৰিয় ডেস্কটপ Linux distribution কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ubuntu",
+          "as": "Ubuntu"
+        },
+        {
+          "en": "Windows Server",
+          "as": "Windows Server"
+        },
+        {
+          "en": "iOS",
+          "as": "iOS"
+        },
+        {
+          "en": "Android",
+          "as": "Android"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ubuntu is beginner-friendly and based on Debian Linux.",
+        "as": "Ubuntu আৰম্ভণিৰ বাবে সহজ আৰু Debian Linux ভিত্তিক।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is NOT system software?",
+        "as": "তলৰ কোনটো system ছফ্টৱেৰ নহয়?"
+      },
+      "options": [
+        {
+          "en": "Photoshop",
+          "as": "Photoshop"
+        },
+        {
+          "en": "Device drivers",
+          "as": "Device drivers"
+        },
+        {
+          "en": "Compiler",
+          "as": "Compiler"
+        },
+        {
+          "en": "Operating system",
+          "as": "Operating system"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Photoshop is application software; drivers, compilers and OS are system software.",
+        "as": "Photoshop application ছফ্টৱেৰ; driver, compiler আৰু OS system ছফ্টৱেৰ।"
+      }
+    }
+  ]
 }
