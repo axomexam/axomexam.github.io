@@ -1,19 +1,1992 @@
 {
- "id": "dbms-number-shortcuts",
- "title": {
-  "en": "DBMS, Number System & Shortcuts",
-  "as": "DBMS, সংখ্যা পদ্ধতি আৰু চৰ্টকাট"
- },
- "description": {
-  "en": "DBMS, number system and exam shortcuts for competitive exams.",
-  "as": "প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে DBMS, সংখ্যা পদ্ধতি আৰু চৰ্টকাট।"
- },
- "tags": [
-  "dbms",
-  "number-system",
-  "shortcuts",
-  "dbms",
-  "সংখ্যা পদ্ধতি"
- ],
- "questions": []
+  "id": 6,
+  "title": {
+    "en": "DBMS, Number Systems & Shortcuts",
+    "as": "ডিবিএমএছ, সংখ্যা পদ্ধতি আৰু শ্বৰ্টকাট"
+  },
+  "description": {
+    "en": "Questions on database concepts, SQL, binary/octal/decimal/hexadecimal number systems, data units and keyboard shortcuts.",
+    "as": "ডেটাবেছ ধাৰণা, SQL, বাইনেৰী/অক্টাল/ডেচিমেল/হেক্সাডেচিমেল সংখ্যা পদ্ধতি, ডেটা একক আৰু কীবোৰ্ড শ্বৰ্টকাট সম্পৰ্কীয় প্ৰশ্ন।"
+  },
+  "tags": [
+    "dbms",
+    "sql",
+    "number-system",
+    "shortcuts",
+    "computer"
+  ],
+  "questions": [
+    {
+      "q": {
+        "en": "A structured collection of related data is called a ___",
+        "as": "সম্পর্কিত তথ্যৰ সুসংগঠিত সংগ্ৰহক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Database",
+          "as": "Database"
+        },
+        {
+          "en": "Spreadsheet",
+          "as": "Spreadsheet"
+        },
+        {
+          "en": "Document",
+          "as": "Document"
+        },
+        {
+          "en": "Presentation",
+          "as": "Presentation"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A database is an organized collection of related data.",
+        "as": "database হৈছে সম্পর্কিত তথ্যৰ সুসংগঠিত সংগ্ৰহ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Software that manages, stores and retrieves data from a database is called ___",
+        "as": "database ৰ তথ্য ব্যৱস্থাপনা, সংৰক্ষণ আৰু পুনৰুদ্ধাৰ কৰা ছফ্টৱেৰক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "DBMS",
+          "as": "DBMS"
+        },
+        {
+          "en": "OS",
+          "as": "OS"
+        },
+        {
+          "en": "Word processor",
+          "as": "Word processor"
+        },
+        {
+          "en": "Browser",
+          "as": "Browser"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "DBMS (Database Management System) manages databases.",
+        "as": "DBMS (Database Management System) য়ে database ব্যৱস্থাপনা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the full form of DBMS?",
+        "as": "DBMS ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Database Management System",
+          "as": "Database Management System"
+        },
+        {
+          "en": "Data Business Management System",
+          "as": "Data Business Management System"
+        },
+        {
+          "en": "Digital Base Management System",
+          "as": "Digital Base Management System"
+        },
+        {
+          "en": "Data Backup Management Software",
+          "as": "Data Backup Management Software"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "DBMS stands for Database Management System.",
+        "as": "DBMS ৰ অৰ্থ Database Management System।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the full form of RDBMS?",
+        "as": "RDBMS ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Relational Database Management System",
+          "as": "Relational Database Management System"
+        },
+        {
+          "en": "Real Database Management System",
+          "as": "Real Database Management System"
+        },
+        {
+          "en": "Remote Data Management System",
+          "as": "Remote Data Management System"
+        },
+        {
+          "en": "Rapid Database Management System",
+          "as": "Rapid Database Management System"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "RDBMS stands for Relational Database Management System.",
+        "as": "RDBMS ৰ অৰ্থ Relational Database Management System।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is an example of a database management system?",
+        "as": "তলৰ কোনটো database management system ৰ উদাহৰণ?"
+      },
+      "options": [
+        {
+          "en": "MySQL",
+          "as": "MySQL"
+        },
+        {
+          "en": "MS Paint",
+          "as": "MS Paint"
+        },
+        {
+          "en": "VLC Player",
+          "as": "VLC Player"
+        },
+        {
+          "en": "Notepad",
+          "as": "Notepad"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "MySQL is a popular relational DBMS.",
+        "as": "MySQL হৈছে জনপ্ৰিয় relational DBMS।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of these is also an RDBMS?",
+        "as": "এইবোৰৰ কোনটো RDBMS?"
+      },
+      "options": [
+        {
+          "en": "Oracle",
+          "as": "Oracle"
+        },
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "Google Chrome",
+          "as": "Google Chrome"
+        },
+        {
+          "en": "WinRAR",
+          "as": "WinRAR"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Oracle is a widely used relational database management system.",
+        "as": "Oracle বহুল ব্যৱহৃত relational database management system।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a database, a table's horizontal rows are called ___",
+        "as": "database ত table ৰ অনুভূমিক row বোৰক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Records / tuples",
+          "as": "Record / tuple"
+        },
+        {
+          "en": "Fields",
+          "as": "Field"
+        },
+        {
+          "en": "Attributes",
+          "as": "Attribute"
+        },
+        {
+          "en": "Keys",
+          "as": "Key"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Rows of a table are called records or tuples; each is one complete entry.",
+        "as": "table ৰ row বোৰক record বা tuple বোলে; প্ৰতিটো এটা সম্পূৰ্ণ প্ৰৱেশ।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a database table, the vertical columns are called ___",
+        "as": "database table ত উলম্ব column বোৰক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Fields / attributes",
+          "as": "Field / attribute"
+        },
+        {
+          "en": "Records",
+          "as": "Record"
+        },
+        {
+          "en": "Tuples",
+          "as": "Tuple"
+        },
+        {
+          "en": "Schemas",
+          "as": "Schema"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Columns are fields/attributes that store a single type of data.",
+        "as": "column বোৰক field/attribute বোলে, এটাত এটা ধৰণৰ তথ্য থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A field that uniquely identifies each record in a table is called a ___",
+        "as": "table ৰ প্ৰতিটো record অনন্যভাৱে চিনাক্ত কৰা field ক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Primary key",
+          "as": "Primary key"
+        },
+        {
+          "en": "Foreign key",
+          "as": "Foreign key"
+        },
+        {
+          "en": "Secondary key",
+          "as": "Secondary key"
+        },
+        {
+          "en": "Candidate index",
+          "as": "Candidate index"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The primary key uniquely identifies every record, e.g., student roll number.",
+        "as": "primary key য়ে প্ৰতিটো record চিনাক্ত কৰে, যেনে ছাত্রৰ ভর্তি নম্বৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "A field in one table that refers to the primary key of another table is called a ___",
+        "as": "এটা table ৰ আন table ৰ primary key লৈ নিৰ্দেশ কৰা field ক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Foreign key",
+          "as": "Foreign key"
+        },
+        {
+          "en": "Primary key",
+          "as": "Primary key"
+        },
+        {
+          "en": "Composite key",
+          "as": "Composite key"
+        },
+        {
+          "en": "Unique key",
+          "as": "Unique key"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A foreign key links two tables by referencing another table's primary key.",
+        "as": "foreign key য়ে আন table ৰ primary key উল্লেখ কৰি দুটা table সংযোগ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The language used to manage and query relational databases is ___",
+        "as": "relational database ব্যৱস্থাপনা আৰু query ৰ ভাষা ___।"
+      },
+      "options": [
+        {
+          "en": "SQL",
+          "as": "SQL"
+        },
+        {
+          "en": "HTML",
+          "as": "HTML"
+        },
+        {
+          "en": "XML",
+          "as": "XML"
+        },
+        {
+          "en": "COBOL",
+          "as": "COBOL"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "SQL (Structured Query Language) is used to query and manage databases.",
+        "as": "SQL (Structured Query Language) database query আৰু ব্যৱস্থাপনাৰ বাবে ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the full form of SQL?",
+        "as": "SQL ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Structured Query Language",
+          "as": "Structured Query Language"
+        },
+        {
+          "en": "Simple Query Language",
+          "as": "Simple Query Language"
+        },
+        {
+          "en": "System Query Language",
+          "as": "System Query Language"
+        },
+        {
+          "en": "Standard Question Language",
+          "as": "Standard Question Language"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "SQL stands for Structured Query Language.",
+        "as": "SQL ৰ অৰ্থ Structured Query Language।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which SQL command is used to retrieve data from a table?",
+        "as": "table ৰ পৰা তথ্য পুনৰুদ্ধাৰৰ SQL command কোনটো?"
+      },
+      "options": [
+        {
+          "en": "SELECT",
+          "as": "SELECT"
+        },
+        {
+          "en": "INSERT",
+          "as": "INSERT"
+        },
+        {
+          "en": "UPDATE",
+          "as": "UPDATE"
+        },
+        {
+          "en": "DELETE",
+          "as": "DELETE"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "SELECT retrieves (queries) data from a database table.",
+        "as": "SELECT য়ে database table ৰ পৰা তথ্য উদ্ধাৰ (query) কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which SQL command is used to add new records into a table?",
+        "as": "table ত নতুন record যোগ কৰা SQL command কোনটো?"
+      },
+      "options": [
+        {
+          "en": "INSERT",
+          "as": "INSERT"
+        },
+        {
+          "en": "SELECT",
+          "as": "SELECT"
+        },
+        {
+          "en": "UPDATE",
+          "as": "UPDATE"
+        },
+        {
+          "en": "DELETE",
+          "as": "DELETE"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "INSERT adds new rows (records) into a table.",
+        "as": "INSERT য়ে table ত নতুন row (record) যোগ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which SQL command is used to modify existing records?",
+        "as": "বৰ্তমান record সলনি কৰা SQL command কোনটো?"
+      },
+      "options": [
+        {
+          "en": "UPDATE",
+          "as": "UPDATE"
+        },
+        {
+          "en": "INSERT",
+          "as": "INSERT"
+        },
+        {
+          "en": "DELETE",
+          "as": "DELETE"
+        },
+        {
+          "en": "SELECT",
+          "as": "SELECT"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "UPDATE modifies existing data in a table.",
+        "as": "UPDATE য়ে table ৰ বৰ্তমান তথ্য সলনি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which SQL command removes records from a table?",
+        "as": "table ৰ পৰা record আঁতৰোৱা SQL command কোনটো?"
+      },
+      "options": [
+        {
+          "en": "DELETE",
+          "as": "DELETE"
+        },
+        {
+          "en": "SELECT",
+          "as": "SELECT"
+        },
+        {
+          "en": "INSERT",
+          "as": "INSERT"
+        },
+        {
+          "en": "UPDATE",
+          "as": "UPDATE"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "DELETE removes rows from a table.",
+        "as": "DELETE য়ে table ৰ পৰা row আঁতৰায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A row in the table of a relational database is also called a ___",
+        "as": "relational database ত table ৰ row ক ___ বুলিও কোৱা হয়।"
+      },
+      "options": [
+        {
+          "en": "Tuple",
+          "as": "Tuple"
+        },
+        {
+          "en": "Domain",
+          "as": "Domain"
+        },
+        {
+          "en": "Column",
+          "as": "Column"
+        },
+        {
+          "en": "Key",
+          "as": "Key"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "In relational terms a row is a tuple and a column is an attribute.",
+        "as": "relational পৰিভাষাত row ক tuple আৰু column ক attribute বোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A set of possible values that can be stored in a field is called its ___",
+        "as": "field ত ৰাখিব পৰা সম্ভাব্য মানসমূহক তাৰ ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Domain",
+          "as": "Domain"
+        },
+        {
+          "en": "Range cell",
+          "as": "Range cell"
+        },
+        {
+          "en": "View",
+          "as": "View"
+        },
+        {
+          "en": "Index",
+          "as": "Index"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The domain defines the valid set of values for an attribute/field.",
+        "as": "domain য়ে field ৰ বৈধ মানসমূহ নিৰ্ধাৰণ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is NOT a database management system?",
+        "as": "তলৰ কোনটো database management system নহয়?"
+      },
+      "options": [
+        {
+          "en": "MS Paint",
+          "as": "MS Paint"
+        },
+        {
+          "en": "Oracle",
+          "as": "Oracle"
+        },
+        {
+          "en": "SQL Server",
+          "as": "SQL Server"
+        },
+        {
+          "en": "PostgreSQL",
+          "as": "PostgreSQL"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "MS Paint is a drawing tool; the others are DBMS.",
+        "as": "MS Paint চিত্ৰাংকন সা-সঁজুলি; আনবোৰ DBMS।"
+      }
+    },
+    {
+      "q": {
+        "en": "The number system used by computers internally is the ___ system.",
+        "as": "কম্পিউটাৰে ভিতৰত ব্যৱহাৰ কৰা সংখ্যা পদ্ধতি ___।"
+      },
+      "options": [
+        {
+          "en": "Binary",
+          "as": "Binary"
+        },
+        {
+          "en": "Decimal",
+          "as": "Decimal"
+        },
+        {
+          "en": "Octal",
+          "as": "Octal"
+        },
+        {
+          "en": "Hexadecimal",
+          "as": "Hexadecimal"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Computers internally use the binary (base-2) number system with 0 and 1.",
+        "as": "কম্পিউটাৰে ভিতৰত 0 আৰু 1 থকা binary (base-2) সংখ্যা পদ্ধতি ব্যৱহাৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The base of the binary number system is ___",
+        "as": "binary সংখ্যা পদ্ধতিৰ base ___।"
+      },
+      "options": [
+        {
+          "en": "2",
+          "as": "2"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "10",
+          "as": "10"
+        },
+        {
+          "en": "16",
+          "as": "16"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Binary uses base 2, with digits 0 and 1.",
+        "as": "binary ত base 2, অংক 0 আৰু 1।"
+      }
+    },
+    {
+      "q": {
+        "en": "The base of the decimal number system is ___",
+        "as": "দশমিক সংখ্যা পদ্ধতিৰ base ___।"
+      },
+      "options": [
+        {
+          "en": "10",
+          "as": "10"
+        },
+        {
+          "en": "2",
+          "as": "2"
+        },
+        {
+          "en": "16",
+          "as": "16"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Decimal uses base 10, with digits 0 to 9.",
+        "as": "দশমিক ত base 10, অংক 0 ৰ পৰা 9।"
+      }
+    },
+    {
+      "q": {
+        "en": "The octal number system has a base of ___",
+        "as": "অক্টাল সংখ্যা পদ্ধতিৰ base ___।"
+      },
+      "options": [
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "2",
+          "as": "2"
+        },
+        {
+          "en": "10",
+          "as": "10"
+        },
+        {
+          "en": "16",
+          "as": "16"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Octal uses base 8 with digits 0 to 7.",
+        "as": "অক্টাল ত base 8, অংক 0 ৰ পৰা 7।"
+      }
+    },
+    {
+      "q": {
+        "en": "The hexadecimal number system has a base of ___",
+        "as": "হেক্সাডেসিমেল সংখ্যা পদ্ধতিৰ base ___।"
+      },
+      "options": [
+        {
+          "en": "16",
+          "as": "16"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "10",
+          "as": "10"
+        },
+        {
+          "en": "2",
+          "as": "2"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Hexadecimal uses base 16 with digits 0-9 and letters A-F.",
+        "as": "hexadecimal ত base 16, অংক 0-9 আৰু আখৰ A-F।"
+      }
+    },
+    {
+      "q": {
+        "en": "The decimal equivalent of binary 1010 is ___",
+        "as": "binary 1010 ৰ দশমিক মান ___।"
+      },
+      "options": [
+        {
+          "en": "10",
+          "as": "10"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "12",
+          "as": "12"
+        },
+        {
+          "en": "15",
+          "as": "15"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "1010 = 1×8 + 0×4 + 1×2 + 0×1 = 8+2 = 10.",
+        "as": "1010 = 1×8 + 0×4 + 1×2 + 0×1 = 8+2 = 10।"
+      }
+    },
+    {
+      "q": {
+        "en": "The decimal equivalent of binary 1111 is ___",
+        "as": "binary 1111 ৰ দশমিক মান ___।"
+      },
+      "options": [
+        {
+          "en": "15",
+          "as": "15"
+        },
+        {
+          "en": "7",
+          "as": "7"
+        },
+        {
+          "en": "16",
+          "as": "16"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "1111 = 8+4+2+1 = 15.",
+        "as": "1111 = 8+4+2+1 = 15।"
+      }
+    },
+    {
+      "q": {
+        "en": "The decimal equivalent of binary 1001 is ___",
+        "as": "binary 1001 ৰ দশমিক মান ___।"
+      },
+      "options": [
+        {
+          "en": "9",
+          "as": "9"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "10",
+          "as": "10"
+        },
+        {
+          "en": "11",
+          "as": "11"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "1001 = 8 + 1 = 9.",
+        "as": "1001 = 8 + 1 = 9।"
+      }
+    },
+    {
+      "q": {
+        "en": "The binary equivalent of decimal 5 is ___",
+        "as": "দশমিক 5 ৰ binary মান ___।"
+      },
+      "options": [
+        {
+          "en": "101",
+          "as": "101"
+        },
+        {
+          "en": "110",
+          "as": "110"
+        },
+        {
+          "en": "100",
+          "as": "100"
+        },
+        {
+          "en": "111",
+          "as": "111"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "5 = 4+1, written as 101 in binary.",
+        "as": "5 = 4+1, binary ত 101।"
+      }
+    },
+    {
+      "q": {
+        "en": "The binary equivalent of decimal 10 is ___",
+        "as": "দশমিক 10 ৰ binary মান ___।"
+      },
+      "options": [
+        {
+          "en": "1010",
+          "as": "1010"
+        },
+        {
+          "en": "1100",
+          "as": "1100"
+        },
+        {
+          "en": "1001",
+          "as": "1001"
+        },
+        {
+          "en": "1110",
+          "as": "1110"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "10 = 8+2, written as 1010 in binary.",
+        "as": "10 = 8+2, binary ত 1010।"
+      }
+    },
+    {
+      "q": {
+        "en": "The decimal equivalent of hexadecimal 'A' is ___",
+        "as": "hexadecimal 'A' ৰ দশমিক মান ___।"
+      },
+      "options": [
+        {
+          "en": "10",
+          "as": "10"
+        },
+        {
+          "en": "11",
+          "as": "11"
+        },
+        {
+          "en": "15",
+          "as": "15"
+        },
+        {
+          "en": "9",
+          "as": "9"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "In hexadecimal, A=10, B=11, C=12, D=13, E=14, F=15.",
+        "as": "hexadecimal ত A=10, B=11, C=12, D=13, E=14, F=15।"
+      }
+    },
+    {
+      "q": {
+        "en": "In hexadecimal, the value of 'F' is ___",
+        "as": "hexadecimal ত 'F' ৰ মান ___।"
+      },
+      "options": [
+        {
+          "en": "15",
+          "as": "15"
+        },
+        {
+          "en": "14",
+          "as": "14"
+        },
+        {
+          "en": "13",
+          "as": "13"
+        },
+        {
+          "en": "16",
+          "as": "16"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "F is the largest hex digit with a value of 15.",
+        "as": "F সবাতোকৈ ডাঙৰ hex অংক, মান 15।"
+      }
+    },
+    {
+      "q": {
+        "en": "The decimal equivalent of binary 1100 is ___",
+        "as": "binary 1100 ৰ দশমিক মান ___।"
+      },
+      "options": [
+        {
+          "en": "12",
+          "as": "12"
+        },
+        {
+          "en": "10",
+          "as": "10"
+        },
+        {
+          "en": "11",
+          "as": "11"
+        },
+        {
+          "en": "14",
+          "as": "14"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "1100 = 8+4 = 12.",
+        "as": "1100 = 8+4 = 12।"
+      }
+    },
+    {
+      "q": {
+        "en": "One nibble is equal to how many bits?",
+        "as": "এটা nibble কিমান bit ৰ সমান?"
+      },
+      "options": [
+        {
+          "en": "4",
+          "as": "4"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "16",
+          "as": "16"
+        },
+        {
+          "en": "2",
+          "as": "2"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A nibble is 4 bits; a byte is 8 bits.",
+        "as": "nibble 4 bit; byte 8 bit।"
+      }
+    },
+    {
+      "q": {
+        "en": "One byte is equal to how many bits?",
+        "as": "এটা byte কিমান bit ৰ সমান?"
+      },
+      "options": [
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "4",
+          "as": "4"
+        },
+        {
+          "en": "16",
+          "as": "16"
+        },
+        {
+          "en": "32",
+          "as": "32"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "1 byte = 8 bits.",
+        "as": "1 byte = 8 bit।"
+      }
+    },
+    {
+      "q": {
+        "en": "How many binary digits can a single hexadecimal digit represent?",
+        "as": "এটা hexadecimal অংকে কিমানটা binary অংক প্ৰতিনিধিত্ব কৰিব পাৰে?"
+      },
+      "options": [
+        {
+          "en": "4",
+          "as": "4"
+        },
+        {
+          "en": "2",
+          "as": "2"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "3",
+          "as": "3"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "One hex digit represents 4 bits (since 16 = 2^4).",
+        "as": "এটা hex অংকে 4 bit বুজায় (16 = 2^4)।"
+      }
+    },
+    {
+      "q": {
+        "en": "The octal equivalent of binary 111 is ___",
+        "as": "binary 111 ৰ octal মান ___।"
+      },
+      "options": [
+        {
+          "en": "7",
+          "as": "7"
+        },
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "5",
+          "as": "5"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "111 (binary) = 4+2+1 = 7 in octal.",
+        "as": "111 (binary) = 4+2+1 = octal ত 7।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which number system uses the digits 0 to 7?",
+        "as": "কোন সংখ্যা পদ্ধতিত অংক 0 ৰ পৰা 7 ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Octal",
+          "as": "Octal"
+        },
+        {
+          "en": "Binary",
+          "as": "Binary"
+        },
+        {
+          "en": "Decimal",
+          "as": "Decimal"
+        },
+        {
+          "en": "Hexadecimal",
+          "as": "Hexadecimal"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Octal uses only digits 0 to 7.",
+        "as": "octal ত কেৱল 0 ৰ পৰা 7 অংক ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The binary equivalent of decimal 2 is ___",
+        "as": "দশমিক 2 ৰ binary মান ___।"
+      },
+      "options": [
+        {
+          "en": "10",
+          "as": "10"
+        },
+        {
+          "en": "11",
+          "as": "11"
+        },
+        {
+          "en": "01",
+          "as": "01"
+        },
+        {
+          "en": "100",
+          "as": "100"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "2 is written as 10 in binary.",
+        "as": "2 binary ত 10 হিচাপে লিখা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The decimal equivalent of binary 0111 is ___",
+        "as": "binary 0111 ৰ দশমিক মান ___।"
+      },
+      "options": [
+        {
+          "en": "7",
+          "as": "7"
+        },
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "8",
+          "as": "8"
+        },
+        {
+          "en": "11",
+          "as": "11"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "0111 = 4+2+1 = 7.",
+        "as": "0111 = 4+2+1 = 7।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is NOT a valid binary number?",
+        "as": "তলৰ কোনটো বৈধ binary সংখ্যা নহয়?"
+      },
+      "options": [
+        {
+          "en": "1021",
+          "as": "1021"
+        },
+        {
+          "en": "1101",
+          "as": "1101"
+        },
+        {
+          "en": "0001",
+          "as": "0001"
+        },
+        {
+          "en": "1110",
+          "as": "1110"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Binary uses only 0 and 1, so 1021 is invalid.",
+        "as": "binary ত কেৱল 0 আৰু 1, গতিকে 1021 অবৈধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "1 KB (Kilobyte) is equal to ___ bytes.",
+        "as": "1 KB (কিলোবাইট) ___ byte ৰ সমান।"
+      },
+      "options": [
+        {
+          "en": "1024",
+          "as": "1024"
+        },
+        {
+          "en": "1000",
+          "as": "1000"
+        },
+        {
+          "en": "2048",
+          "as": "2048"
+        },
+        {
+          "en": "512",
+          "as": "512"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "1 KB = 1024 bytes (2^10).",
+        "as": "1 KB = 1024 byte (2^10)।"
+      }
+    },
+    {
+      "q": {
+        "en": "1 MB (Megabyte) is equal to ___ KB.",
+        "as": "1 MB (মেগাবাইট) ___ KB ৰ সমান।"
+      },
+      "options": [
+        {
+          "en": "1024",
+          "as": "1024"
+        },
+        {
+          "en": "1000",
+          "as": "1000"
+        },
+        {
+          "en": "2048",
+          "as": "2048"
+        },
+        {
+          "en": "5120",
+          "as": "5120"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "1 MB = 1024 KB.",
+        "as": "1 MB = 1024 KB।"
+      }
+    },
+    {
+      "q": {
+        "en": "The decimal number 8 in binary is ___",
+        "as": "দশমিক 8 ৰ binary মান ___।"
+      },
+      "options": [
+        {
+          "en": "1000",
+          "as": "1000"
+        },
+        {
+          "en": "1100",
+          "as": "1100"
+        },
+        {
+          "en": "1110",
+          "as": "1110"
+        },
+        {
+          "en": "1010",
+          "as": "1010"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "8 = 2^3, so it is 1000 in binary.",
+        "as": "8 = 2^3, গতিকে binary ত 1000।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut closes the active window in Windows?",
+        "as": "Windows ত active window বন্ধ কৰা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Alt + F4",
+          "as": "Alt + F4"
+        },
+        {
+          "en": "Ctrl + F4",
+          "as": "Ctrl + F4"
+        },
+        {
+          "en": "Shift + F4",
+          "as": "Shift + F4"
+        },
+        {
+          "en": "Alt + Tab",
+          "as": "Alt + Tab"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Alt + F4 closes the active window or program.",
+        "as": "Alt + F4 য়ে active window বা program বন্ধ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut switches between open windows/applications?",
+        "as": "খোলা window/application ৰ মাজত সলনি হোৱা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Alt + Tab",
+          "as": "Alt + Tab"
+        },
+        {
+          "en": "Alt + F4",
+          "as": "Alt + F4"
+        },
+        {
+          "en": "Ctrl + Tab",
+          "as": "Ctrl + Tab"
+        },
+        {
+          "en": "Shift + Tab",
+          "as": "Shift + Tab"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Alt + Tab switches between open applications.",
+        "as": "Alt + Tab য়ে খোলা application ৰ মাজত সলনি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key combination opens the Windows Start menu?",
+        "as": "Windows Start menu খোলা key combination কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Windows key",
+          "as": "Windows key"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Alt + S",
+          "as": "Alt + S"
+        },
+        {
+          "en": "Ctrl + M",
+          "as": "Ctrl + M"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Pressing the Windows key opens the Start menu.",
+        "as": "Windows key চাপিলে Start menu খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The shortcut for 'Copy' in Windows is ___",
+        "as": "Windows ত 'Copy' ৰ shortcut ___।"
+      },
+      "options": [
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        },
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        },
+        {
+          "en": "Ctrl + A",
+          "as": "Ctrl + A"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + C copies the selected item.",
+        "as": "Ctrl + C য়ে বাছনি বস্তু কপি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The shortcut for 'Paste' in Windows is ___",
+        "as": "Windows ত 'Paste' ৰ shortcut ___।"
+      },
+      "options": [
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        },
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        },
+        {
+          "en": "Ctrl + Y",
+          "as": "Ctrl + Y"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + V pastes the copied/cut content.",
+        "as": "Ctrl + V য়ে কপি/কটা content paste কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The shortcut for 'Cut' in Windows is ___",
+        "as": "Windows ত 'Cut' ৰ shortcut ___।"
+      },
+      "options": [
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        },
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        },
+        {
+          "en": "Ctrl + D",
+          "as": "Ctrl + D"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + X cuts (removes) the selected item to the clipboard.",
+        "as": "Ctrl + X য়ে বাছনি বস্তু কাটি clipboard লৈ আনে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The shortcut to select everything is ___",
+        "as": "সবকিছু বাছনিৰ shortcut ___।"
+      },
+      "options": [
+        {
+          "en": "Ctrl + A",
+          "as": "Ctrl + A"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + E",
+          "as": "Ctrl + E"
+        },
+        {
+          "en": "Ctrl + L",
+          "as": "Ctrl + L"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + A selects all items in a window or document.",
+        "as": "Ctrl + A য়ে window বা দলিলৰ সকলো বাছনি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The shortcut for 'Undo' is ___",
+        "as": "'Undo' ৰ shortcut ___।"
+      },
+      "options": [
+        {
+          "en": "Ctrl + Z",
+          "as": "Ctrl + Z"
+        },
+        {
+          "en": "Ctrl + Y",
+          "as": "Ctrl + Y"
+        },
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        },
+        {
+          "en": "Ctrl + U",
+          "as": "Ctrl + U"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + Z undoes the last action.",
+        "as": "Ctrl + Z য়ে শেষ কাৰ্য undo কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The shortcut for 'Redo' is ___",
+        "as": "'Redo' ৰ shortcut ___।"
+      },
+      "options": [
+        {
+          "en": "Ctrl + Y",
+          "as": "Ctrl + Y"
+        },
+        {
+          "en": "Ctrl + Z",
+          "as": "Ctrl + Z"
+        },
+        {
+          "en": "Ctrl + R",
+          "as": "Ctrl + R"
+        },
+        {
+          "en": "Ctrl + D",
+          "as": "Ctrl + D"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + Y redoes the last undone action.",
+        "as": "Ctrl + Y য়ে শেষ undo হোৱা কাৰ্য পুনৰায় কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used to print in most Windows programs?",
+        "as": "বেছিভাগ Windows program ত প্ৰিন্টৰ shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        },
+        {
+          "en": "Ctrl + O",
+          "as": "Ctrl + O"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + P opens the Print dialog.",
+        "as": "Ctrl + P য়ে Print dialog খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used to save a file in most programs?",
+        "as": "বেছিভাগ program ত ফাইল save ৰ shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        },
+        {
+          "en": "Ctrl + F",
+          "as": "Ctrl + F"
+        },
+        {
+          "en": "Ctrl + H",
+          "as": "Ctrl + H"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + S saves the current file.",
+        "as": "Ctrl + S য়ে বৰ্তমান ফাইল save কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used to open a file in most programs?",
+        "as": "বেছিভাগ program ত ফাইল খোলা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + O",
+          "as": "Ctrl + O"
+        },
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        },
+        {
+          "en": "Ctrl + W",
+          "as": "Ctrl + W"
+        },
+        {
+          "en": "Ctrl + T",
+          "as": "Ctrl + T"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + O opens the Open dialog.",
+        "as": "Ctrl + O য়ে Open dialog খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut creates a new file in most programs?",
+        "as": "বেছিভাগ program ত নতুন ফাইলৰ shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        },
+        {
+          "en": "Ctrl + O",
+          "as": "Ctrl + O"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + M",
+          "as": "Ctrl + M"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + N creates a new file/document.",
+        "as": "Ctrl + N য়ে নতুন ফাইল/দলিল সৃষ্টি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut opens the Find/Search box?",
+        "as": "Find/Search box খোলা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + F",
+          "as": "Ctrl + F"
+        },
+        {
+          "en": "Ctrl + G",
+          "as": "Ctrl + G"
+        },
+        {
+          "en": "Ctrl + H",
+          "as": "Ctrl + H"
+        },
+        {
+          "en": "Ctrl + B",
+          "as": "Ctrl + B"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + F opens find/search.",
+        "as": "Ctrl + F য়ে find/search খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key combination closes the current program completely?",
+        "as": "কোন key combination য়ে চলি থকা program সম্পূৰ্ণ বন্ধ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Alt + F4",
+          "as": "Alt + F4"
+        },
+        {
+          "en": "Ctrl + F4",
+          "as": "Ctrl + F4"
+        },
+        {
+          "en": "Alt + Tab",
+          "as": "Alt + Tab"
+        },
+        {
+          "en": "Ctrl + Esc",
+          "as": "Ctrl + Esc"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Alt + F4 closes the current program.",
+        "as": "Alt + F4 য়ে চলি থকা program বন্ধ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The shortcut Ctrl + Alt + Delete in Windows is used to ___",
+        "as": "Windows ত Ctrl + Alt + Delete ___ বাবে ব্যৱহাৰ হয়।"
+      },
+      "options": [
+        {
+          "en": "Open the security screen (lock, task manager)",
+          "as": "সুৰক্ষা স্ক্রিন খোলা (lock, task manager)"
+        },
+        {
+          "en": "Delete a file",
+          "as": "ফাইল মচা"
+        },
+        {
+          "en": "Restart the browser",
+          "as": "browser পুনৰায়"
+        },
+        {
+          "en": "Copy text",
+          "as": "text কপি"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + Alt + Delete opens the Windows security options screen.",
+        "as": "Ctrl + Alt + Delete য়ে Windows সুৰক্ষা বিকল্প স্ক্রিন খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Esc (Escape) key is used to ___",
+        "as": "Esc (Escape) key ___ বাবে ব্যৱহাৰ হয়।"
+      },
+      "options": [
+        {
+          "en": "Cancel the current operation / close a dialog",
+          "as": "বৰ্তমান কাৰ্য বাতিল / dialog বন্ধ"
+        },
+        {
+          "en": "Save the file",
+          "as": "ফাইল save"
+        },
+        {
+          "en": "Print the page",
+          "as": "পৃষ্ঠা প্ৰিন্ট"
+        },
+        {
+          "en": "Increase volume",
+          "as": "ভলিউম বৃদ্ধি"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Esc cancels the current task or closes menus/dialogs.",
+        "as": "Esc য়ে চলি থকা কাৰ্য বাতিল বা menu/dialog বন্ধ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Enter key is also known as the ___ key.",
+        "as": "Enter key ক ___ key বুলিও কোৱা হয়।"
+      },
+      "options": [
+        {
+          "en": "Return",
+          "as": "Return"
+        },
+        {
+          "en": "Escape",
+          "as": "Escape"
+        },
+        {
+          "en": "Shift",
+          "as": "Shift"
+        },
+        {
+          "en": "Space",
+          "as": "Space"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Enter is also called the Return key.",
+        "as": "Enter key ক Return key বুলিও কোৱা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Tab key is mainly used to ___",
+        "as": "Tab key মূলত ___ বাবে ব্যৱহাৰ হয়।"
+      },
+      "options": [
+        {
+          "en": "Move to the next field / add indentation",
+          "as": "পৰৱৰ্তী field লৈ যোৱা / indent দিয়া"
+        },
+        {
+          "en": "Delete text",
+          "as": "text মচা"
+        },
+        {
+          "en": "Change colour",
+          "as": "ৰং সলনি"
+        },
+        {
+          "en": "Lock the computer",
+          "as": "কম্পিউটাৰ লক"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Tab moves to the next field or inserts an indent.",
+        "as": "Tab য়ে পৰৱৰ্তী field লৈ নিয়ে বা indent দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key deletes the character to the left of the cursor?",
+        "as": "কোন key য়ে cursor ৰ বাঁওফালৰ আখৰ মচে?"
+      },
+      "options": [
+        {
+          "en": "Backspace",
+          "as": "Backspace"
+        },
+        {
+          "en": "Delete",
+          "as": "Delete"
+        },
+        {
+          "en": "Insert",
+          "as": "Insert"
+        },
+        {
+          "en": "Home",
+          "as": "Home"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Backspace deletes the character before (left of) the cursor.",
+        "as": "Backspace য়ে cursor ৰ আগত (বাঁওফালে) থকা আখৰ মচে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key deletes the character to the right of the cursor?",
+        "as": "কোন key য়ে cursor ৰ সোঁফালৰ আখৰ মচে?"
+      },
+      "options": [
+        {
+          "en": "Delete",
+          "as": "Delete"
+        },
+        {
+          "en": "Backspace",
+          "as": "Backspace"
+        },
+        {
+          "en": "Insert",
+          "as": "Insert"
+        },
+        {
+          "en": "End",
+          "as": "End"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Delete (Del) removes the character after (right of) the cursor.",
+        "as": "Delete (Del) য়ে cursor ৰ পিছত (সোঁফালে) থকা আখৰ মচে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Pressing the Caps Lock key makes the letters ___",
+        "as": "Caps Lock key চাপিলে আখৰ ___।"
+      },
+      "options": [
+        {
+          "en": "Uppercase (capital)",
+          "as": "ডাঙৰ আখৰ (কেপিটেল)"
+        },
+        {
+          "en": "Lowercase",
+          "as": "সৰু আখৰ"
+        },
+        {
+          "en": "Bold",
+          "as": "ডাঠ"
+        },
+        {
+          "en": "Italic",
+          "as": "ইটালিক"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Caps Lock makes all typed letters capital until turned off.",
+        "as": "Caps Lock অফ নকৰালৈকে টাইপ হোৱা আখৰ কেপিটেল থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The key used to type capital letters temporarily is ___",
+        "as": "সাময়িকভাৱে কেপিটেল আখৰ লিখা key ___।"
+      },
+      "options": [
+        {
+          "en": "Shift",
+          "as": "Shift"
+        },
+        {
+          "en": "Caps Lock",
+          "as": "Caps Lock"
+        },
+        {
+          "en": "Ctrl",
+          "as": "Ctrl"
+        },
+        {
+          "en": "Alt",
+          "as": "Alt"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Hold Shift while typing a letter to make it capital.",
+        "as": "কেপিটেল আখৰৰ বাবে আখৰ লিখোতে Shift চাপি ধৰক।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used to take a screenshot of the whole screen in Windows?",
+        "as": "Windows ত সম্পূৰ্ণ স্ক্রিনৰ screenshot লোৱা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "PrtScn (Print Screen)",
+          "as": "PrtScn (Print Screen)"
+        },
+        {
+          "en": "F12",
+          "as": "F12"
+        },
+        {
+          "en": "Scroll Lock",
+          "as": "Scroll Lock"
+        },
+        {
+          "en": "Pause",
+          "as": "Pause"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Press PrtScn to copy the whole screen to the clipboard.",
+        "as": "সম্পূৰ্ণ স্ক্রিন clipboard ত কপি কৰিবলৈ PrtScn চাপক।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Num Lock key controls the ___",
+        "as": "Num Lock key ___ নিয়ন্ত্ৰণ কৰে।"
+      },
+      "options": [
+        {
+          "en": "Numeric keypad on the right side",
+          "as": "সোঁফালৰ সংখ্যা keypad"
+        },
+        {
+          "en": "Mouse pointer",
+          "as": "মাউছ pointer"
+        },
+        {
+          "en": "Screen brightness",
+          "as": "স্ক্রিন উজ্জ্বলতা"
+        },
+        {
+          "en": "Speaker volume",
+          "as": "স্পীকাৰ ভলিউম"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Num Lock turns the numeric keypad numbers on or off.",
+        "as": "Num Lock য়ে সংখ্যা keypad ৰ সংখ্যা অন/অফ কৰে।"
+      }
+    }
+  ]
 }
