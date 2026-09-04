@@ -2850,7 +2850,7 @@
                   <span class="mock-ico">${catIconHTML(c.id)}</span>
                   <span>
                     <b>${escapeHtml(localized(c.name))}</b>
-                    <span class="mock-count">${mockSubcategories(c).length} practice papers</span>
+                    <span class="mock-count">${t("mock.practicing")}</span>
                   </span>
                 </div>
                 <div class="mock-go">
