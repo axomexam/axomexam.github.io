@@ -57,8 +57,8 @@ const API = (() => {
       return fetchJSON(url);
     }
     const rels = [];
-    if (subcategoryId) rels.push(`${categoryId}/${subcategoryId}/${topicId}.json`);
     if (subcategoryId && subcategoryId === topicId) rels.push(`${categoryId}/${subcategoryId}.json`);
+    if (subcategoryId) rels.push(`${categoryId}/${subcategoryId}/${topicId}.json`);
     rels.push(`${categoryId}/${topicId}.json`);
     let lastErr = null;
     for (const rel of rels) {
