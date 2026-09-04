@@ -1,19 +1,2891 @@
 {
- "id": "ms-office-suite",
- "title": {
-  "en": "MS Office Suite",
-  "as": "MS Office ছুট"
- },
- "description": {
-  "en": "Word, Excel, PowerPoint and MS Office shortcuts for exams.",
-  "as": "পৰীক্ষাৰ বাবে Word, Excel, PowerPoint আৰু MS Office চৰ্টকাট।"
- },
- "tags": [
-  "ms-office",
-  "word",
-  "excel",
-  "powerpoint",
-  "office"
- ],
- "questions": []
+  "id": 3,
+  "title": {
+    "en": "MS Office Suite",
+    "as": "এম এছ অফিচ চুইট"
+  },
+  "description": {
+    "en": "Questions on MS Word, Excel, PowerPoint, Access, Outlook and common MS Office shortcuts and file extensions.",
+    "as": "এম এছ ৱৰ্ড, এক্সেল, পাৱাৰ পইণ্ট, এক্সেছ, আউটলুক আৰু সাধাৰণ এম এছ অফিচ শ্বৰ্টকাট আৰু ফাইল এক্সটেনশন সম্পৰ্কীয় প্ৰশ্ন।"
+  },
+  "tags": [
+    "ms-office",
+    "word",
+    "excel",
+    "powerpoint",
+    "access"
+  ],
+  "questions": [
+    {
+      "q": {
+        "en": "Which application is used to create documents like letters and reports?",
+        "as": "চিঠি আৰু ৰিপোর্ট আদি দলিল সৃষ্টিৰ বাবে কোন application ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        },
+        {
+          "en": "MS PowerPoint",
+          "as": "MS PowerPoint"
+        },
+        {
+          "en": "MS Access",
+          "as": "MS Access"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "MS Word is a word processor used to create text documents.",
+        "as": "MS Word হৈছে word processor, ইয়াত text দলিল সৃষ্টি হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The default file extension of a Word 2019 document is:",
+        "as": "Word 2019 দলিলৰ আগতীয়া file extension কি?"
+      },
+      "options": [
+        {
+          "en": ".docx",
+          "as": ".docx"
+        },
+        {
+          "en": ".doc",
+          "as": ".doc"
+        },
+        {
+          "en": ".txt",
+          "as": ".txt"
+        },
+        {
+          "en": ".dotx",
+          "as": ".dotx"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Word 2007 onwards saves documents with the '.docx' extension.",
+        "as": "Word 2007 ৰ পৰা দলিল '.docx' extension ত সংৰক্ষিত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which component of MS Word shows the current page number, word count and language?",
+        "as": "MS Word ৰ কোন অংশত বৰ্তমান পৃষ্ঠা নম্বৰ, শব্দ গণনা আৰু ভাষা দেখা যায়?"
+      },
+      "options": [
+        {
+          "en": "Status bar",
+          "as": "Status bar"
+        },
+        {
+          "en": "Ribbon",
+          "as": "Ribbon"
+        },
+        {
+          "en": "Title bar",
+          "as": "Title bar"
+        },
+        {
+          "en": "Scroll bar",
+          "as": "Scroll bar"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The status bar at the bottom shows page number, word count and language.",
+        "as": "তলৰ status bar ত পৃষ্ঠা নম্বৰ, শব্দ গণনা আৰু ভাষা দেখা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The blinking vertical line that shows where text will be typed is called the ___",
+        "as": "য'ত text টাইপ হ'ব সেয়া দেখুওৱা জিলিকি থকা উলম্ব ৰেখাক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Insertion point / cursor",
+          "as": "Insertion point / cursor"
+        },
+        {
+          "en": "Pointer",
+          "as": "Pointer"
+        },
+        {
+          "en": "Anchor",
+          "as": "Anchor"
+        },
+        {
+          "en": "Caret bar",
+          "as": "Caret bar"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The blinking cursor is called the insertion point.",
+        "as": "জিলিকি থকা cursor ক insertion point বোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used to copy selected text in MS Word?",
+        "as": "MS Word ত বাছনি কৰা text কপি কৰিবলৈ কোন shortcut?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        },
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + C copies the selected text to the clipboard.",
+        "as": "Ctrl + C য়ে বাছনি কৰা text clipboard লৈ কপি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used to paste copied text in MS Word?",
+        "as": "MS Word ত কপি কৰা text paste কৰিবলৈ কোন shortcut?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        },
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        },
+        {
+          "en": "Ctrl + Z",
+          "as": "Ctrl + Z"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + V pastes the copied content at the cursor.",
+        "as": "Ctrl + V য়ে কপি কৰা content cursor ত paste কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut cuts (removes) the selected text in MS Word?",
+        "as": "MS Word ত বাছনি কৰা text কাটি আঁতৰাবলৈ কোন shortcut?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        },
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        },
+        {
+          "en": "Ctrl + B",
+          "as": "Ctrl + B"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + X cuts the selected text and stores it on the clipboard.",
+        "as": "Ctrl + X য়ে বাছনি কৰা text কাটি clipboard ত ৰাখে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut undoes the last action in MS Word?",
+        "as": "MS Word ত শেষ কাৰ্য undo কৰিবলৈ কোন shortcut?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + Z",
+          "as": "Ctrl + Z"
+        },
+        {
+          "en": "Ctrl + Y",
+          "as": "Ctrl + Y"
+        },
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        },
+        {
+          "en": "Ctrl + A",
+          "as": "Ctrl + A"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + Z undoes the last action.",
+        "as": "Ctrl + Z য়ে শেষ কাৰ্য undo কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut redoes (repeats) the undone action in MS Word?",
+        "as": "MS Word ত undo হোৱা কাৰ্য পুনৰাবৃত্তি (redo) কৰিবলৈ কোন shortcut?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + Y",
+          "as": "Ctrl + Y"
+        },
+        {
+          "en": "Ctrl + Z",
+          "as": "Ctrl + Z"
+        },
+        {
+          "en": "Ctrl + U",
+          "as": "Ctrl + U"
+        },
+        {
+          "en": "Ctrl + I",
+          "as": "Ctrl + I"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + Y redoes the last undone action.",
+        "as": "Ctrl + Y য়ে শেষ undo হোৱা কাৰ্য পুনৰায় কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut selects the entire document in MS Word?",
+        "as": "MS Word ত সম্পূৰ্ণ দলিল বাছনি কৰা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + A",
+          "as": "Ctrl + A"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + D",
+          "as": "Ctrl + D"
+        },
+        {
+          "en": "Ctrl + E",
+          "as": "Ctrl + E"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + A selects the whole document.",
+        "as": "Ctrl + A য়ে সম্পূৰ্ণ দলিল বাছনি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut makes selected text bold in MS Word?",
+        "as": "MS Word ত বাছনি কৰা text ডাঠ (bold) কৰা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + B",
+          "as": "Ctrl + B"
+        },
+        {
+          "en": "Ctrl + I",
+          "as": "Ctrl + I"
+        },
+        {
+          "en": "Ctrl + U",
+          "as": "Ctrl + U"
+        },
+        {
+          "en": "Ctrl + K",
+          "as": "Ctrl + K"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + B applies bold to the selected text.",
+        "as": "Ctrl + B য়ে text ত bold প্ৰয়োগ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut makes the selected text italic in MS Word?",
+        "as": "MS Word ত text ইটালিক (italic) কৰা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + I",
+          "as": "Ctrl + I"
+        },
+        {
+          "en": "Ctrl + B",
+          "as": "Ctrl + B"
+        },
+        {
+          "en": "Ctrl + U",
+          "as": "Ctrl + U"
+        },
+        {
+          "en": "Ctrl + G",
+          "as": "Ctrl + G"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + I makes the selected text italic.",
+        "as": "Ctrl + I য়ে text ইটালিক কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut underlines the selected text in MS Word?",
+        "as": "MS Word ত text ৰ তলত দাগ দিয়া shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + U",
+          "as": "Ctrl + U"
+        },
+        {
+          "en": "Ctrl + I",
+          "as": "Ctrl + I"
+        },
+        {
+          "en": "Ctrl + B",
+          "as": "Ctrl + B"
+        },
+        {
+          "en": "Ctrl + O",
+          "as": "Ctrl + O"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + U underlines the selected text.",
+        "as": "Ctrl + U য়ে text ৰ তলত দাগ দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used to print a document in MS Word?",
+        "as": "MS Word ত দলিল প্ৰিন্ট কৰা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        },
+        {
+          "en": "Ctrl + O",
+          "as": "Ctrl + O"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + P opens the print dialog.",
+        "as": "Ctrl + P য়ে print dialog খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut saves a document in MS Word?",
+        "as": "MS Word ত দলিল save কৰা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        },
+        {
+          "en": "Ctrl + F",
+          "as": "Ctrl + F"
+        },
+        {
+          "en": "Ctrl + W",
+          "as": "Ctrl + W"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + S saves the current document.",
+        "as": "Ctrl + S য়ে বৰ্তমান দলিল save কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut opens an existing document in MS Word?",
+        "as": "MS Word ত বৰ্তমান দলিল খোলা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + O",
+          "as": "Ctrl + O"
+        },
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + W",
+          "as": "Ctrl + W"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + O opens the Open dialog to open an existing file.",
+        "as": "Ctrl + O য়ে Open dialog খুলি আগৰ ফাইল খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut creates a new blank document in MS Word?",
+        "as": "MS Word ত নতুন খালী দলিল সৃষ্টিৰ shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        },
+        {
+          "en": "Ctrl + O",
+          "as": "Ctrl + O"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + N creates a new blank document.",
+        "as": "Ctrl + N য়ে নতুন খালী দলিল সৃষ্টি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut aligns the selected text to the center in MS Word?",
+        "as": "MS Word ত text মাজত (center) লগোৱা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + E",
+          "as": "Ctrl + E"
+        },
+        {
+          "en": "Ctrl + L",
+          "as": "Ctrl + L"
+        },
+        {
+          "en": "Ctrl + R",
+          "as": "Ctrl + R"
+        },
+        {
+          "en": "Ctrl + J",
+          "as": "Ctrl + J"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + E centers the selected text.",
+        "as": "Ctrl + E য়ে text মাজলৈ লগায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut aligns the selected text to the left in MS Word?",
+        "as": "MS Word ত text বাঁওফালে লগোৱা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + L",
+          "as": "Ctrl + L"
+        },
+        {
+          "en": "Ctrl + R",
+          "as": "Ctrl + R"
+        },
+        {
+          "en": "Ctrl + E",
+          "as": "Ctrl + E"
+        },
+        {
+          "en": "Ctrl + J",
+          "as": "Ctrl + J"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + L left-aligns the selected text.",
+        "as": "Ctrl + L য়ে text বাঁওফালে লগায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut aligns the selected text to the right in MS Word?",
+        "as": "MS Word ত text সোঁফালে লগোৱা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + R",
+          "as": "Ctrl + R"
+        },
+        {
+          "en": "Ctrl + L",
+          "as": "Ctrl + L"
+        },
+        {
+          "en": "Ctrl + E",
+          "as": "Ctrl + E"
+        },
+        {
+          "en": "Ctrl + M",
+          "as": "Ctrl + M"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + R right-aligns the selected text.",
+        "as": "Ctrl + R য়ে text সোঁফালে লগায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut justifies the selected text in MS Word?",
+        "as": "MS Word ত text justify (দুয়োফালে সমান) কৰা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + J",
+          "as": "Ctrl + J"
+        },
+        {
+          "en": "Ctrl + E",
+          "as": "Ctrl + E"
+        },
+        {
+          "en": "Ctrl + L",
+          "as": "Ctrl + L"
+        },
+        {
+          "en": "Ctrl + D",
+          "as": "Ctrl + D"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + J justifies text on both sides.",
+        "as": "Ctrl + J য়ে text দুয়োফালে সমানভাৱে লগায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used to find text in MS Word?",
+        "as": "MS Word ত text বিচাৰিবলৈ কোন shortcut ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + F",
+          "as": "Ctrl + F"
+        },
+        {
+          "en": "Ctrl + H",
+          "as": "Ctrl + H"
+        },
+        {
+          "en": "Ctrl + G",
+          "as": "Ctrl + G"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + F opens the Find feature.",
+        "as": "Ctrl + F য়ে Find বৈশিষ্ট্য খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used to open the Replace dialog in MS Word?",
+        "as": "MS Word ত Replace dialog খোলা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + H",
+          "as": "Ctrl + H"
+        },
+        {
+          "en": "Ctrl + F",
+          "as": "Ctrl + F"
+        },
+        {
+          "en": "Ctrl + G",
+          "as": "Ctrl + G"
+        },
+        {
+          "en": "Ctrl + R",
+          "as": "Ctrl + R"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + H opens the Replace dialog box.",
+        "as": "Ctrl + H য়ে Replace dialog box খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The toolbar at the top of MS Word that contains tabs like Home, Insert, Design is called the ___",
+        "as": "MS Word ৰ ওপৰত Home, Insert, Design আদি tab থকা পটীক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Ribbon",
+          "as": "Ribbon"
+        },
+        {
+          "en": "Status bar",
+          "as": "Status bar"
+        },
+        {
+          "en": "Taskbar",
+          "as": "Taskbar"
+        },
+        {
+          "en": "Menu box",
+          "as": "Menu box"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The Ribbon contains tabs (Home, Insert, etc.) and their command groups.",
+        "as": "Ribbon ত tab (Home, Insert আদি) আৰু command group থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "In MS Word, Ctrl + ] is used to ___",
+        "as": "MS Word ত Ctrl + ]  ___ বাবে ব্যৱহাৰ হয়।"
+      },
+      "options": [
+        {
+          "en": "Increase font size",
+          "as": "ফন্ট আকাৰ বৃদ্ধি"
+        },
+        {
+          "en": "Decrease font size",
+          "as": "ফন্ট আকাৰ হ্রাস"
+        },
+        {
+          "en": "Bold the text",
+          "as": "text ডাঠ কৰা"
+        },
+        {
+          "en": "Underline text",
+          "as": "text ৰ তলত দাগ দিয়া"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + ] increases font size; Ctrl + [ decreases it.",
+        "as": "Ctrl + ] য়ে ফন্ট আকাৰ বঢ়ায়; Ctrl + [ য়ে কমায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which MS Office application is used to create spreadsheets and perform calculations?",
+        "as": "স্প্রেডশিট সৃষ্টি আৰু গণনাৰ বাবে কোন MS Office application?"
+      },
+      "options": [
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        },
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "MS PowerPoint",
+          "as": "MS PowerPoint"
+        },
+        {
+          "en": "MS OneNote",
+          "as": "MS OneNote"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "MS Excel is a spreadsheet program for calculations and data analysis.",
+        "as": "MS Excel হৈছে গণনা আৰু তথ্য বিশ্লেষণৰ spreadsheet program।"
+      }
+    },
+    {
+      "q": {
+        "en": "The default file extension of an MS Excel workbook is:",
+        "as": "MS Excel workbook ৰ আগতীয়া file extension কি?"
+      },
+      "options": [
+        {
+          "en": ".xlsx",
+          "as": ".xlsx"
+        },
+        {
+          "en": ".xls",
+          "as": ".xls"
+        },
+        {
+          "en": ".csv",
+          "as": ".csv"
+        },
+        {
+          "en": ".xlw",
+          "as": ".xlw"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Excel 2007 onwards saves files with the '.xlsx' extension.",
+        "as": "Excel 2007 ৰ পৰা ফাইল '.xlsx' extension ত সংৰক্ষিত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "In Excel, the file is called a ___",
+        "as": "Excel ত ফাইলক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Workbook",
+          "as": "Workbook"
+        },
+        {
+          "en": "Worksheet",
+          "as": "Worksheet"
+        },
+        {
+          "en": "Workpaper",
+          "as": "Workpaper"
+        },
+        {
+          "en": "Workframe",
+          "as": "Workframe"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "An Excel file is called a workbook, which contains one or more worksheets.",
+        "as": "Excel ফাইলক workbook বোলে, ইয়াত এক বা একাধিক worksheet থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The intersection of a row and a column in Excel is called a ___",
+        "as": "Excel ত row আৰু column ৰ সংযোগস্থলক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Cell",
+          "as": "Cell"
+        },
+        {
+          "en": "Box",
+          "as": "Box"
+        },
+        {
+          "en": "Field",
+          "as": "Field"
+        },
+        {
+          "en": "Table",
+          "as": "Table"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The intersection of a row and column is called a cell.",
+        "as": "row আৰু column ৰ সংযোগস্থলক cell বোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The reference of the cell at column C and row 5 is:",
+        "as": "C column আৰু 5 row ৰ cell ৰ ঠিকনা (reference) কি?"
+      },
+      "options": [
+        {
+          "en": "C5",
+          "as": "C5"
+        },
+        {
+          "en": "5C",
+          "as": "5C"
+        },
+        {
+          "en": "R5C3",
+          "as": "R5C3"
+        },
+        {
+          "en": "C:R5",
+          "as": "C:R5"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Column letter comes first and row number after, so the cell is C5.",
+        "as": "আগে column আখৰ আৰু পিছত row সংখ্যা হয়, গতিকে cell C5।"
+      }
+    },
+    {
+      "q": {
+        "en": "In Excel, an Excel spreadsheet page is called a ___",
+        "as": "Excel ত spreadsheet পৃষ্ঠাক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Worksheet",
+          "as": "Worksheet"
+        },
+        {
+          "en": "Workbook",
+          "as": "Workbook"
+        },
+        {
+          "en": "Sheet set",
+          "as": "Sheet set"
+        },
+        {
+          "en": "Data page",
+          "as": "Data page"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Each spreadsheet page in a workbook is called a worksheet.",
+        "as": "workbook ৰ প্ৰতিটো spreadsheet পৃষ্ঠাক worksheet বোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which symbol is used to begin a formula in MS Excel?",
+        "as": "MS Excel ত formula আৰম্ভ কৰা চিহ্ন কোনটো?"
+      },
+      "options": [
+        {
+          "en": "=",
+          "as": "="
+        },
+        {
+          "en": "+",
+          "as": "+"
+        },
+        {
+          "en": "-",
+          "as": "-"
+        },
+        {
+          "en": "&",
+          "as": "&"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Every Excel formula begins with the equals sign (=).",
+        "as": "প্ৰতিটো Excel formula চিহ্ন (=) ৰে আৰম্ভ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Excel function adds all the numbers in a range?",
+        "as": "কোন Excel function য়ে range ৰ সকলো সংখ্যা যোগ কৰে?"
+      },
+      "options": [
+        {
+          "en": "SUM",
+          "as": "SUM"
+        },
+        {
+          "en": "COUNT",
+          "as": "COUNT"
+        },
+        {
+          "en": "AVERAGE",
+          "as": "AVERAGE"
+        },
+        {
+          "en": "MAX",
+          "as": "MAX"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The SUM function adds all numbers in a selected range.",
+        "as": "SUM function য়ে বাছনি range ৰ সকলো সংখ্যা যোগ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Excel function finds the largest value in a range?",
+        "as": "কোন Excel function য়ে range ৰ সবাতোকৈ ডাঙৰ মান বিচাৰে?"
+      },
+      "options": [
+        {
+          "en": "MAX",
+          "as": "MAX"
+        },
+        {
+          "en": "MIN",
+          "as": "MIN"
+        },
+        {
+          "en": "LARGE",
+          "as": "LARGE"
+        },
+        {
+          "en": "HIGH",
+          "as": "HIGH"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "MAX returns the largest value in a range of cells.",
+        "as": "MAX য়ে cell range ৰ সবাতোকৈ ডাঙৰ মান দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Excel function finds the smallest value in a range?",
+        "as": "কোন Excel function য়ে range ৰ সবাতোকৈ সৰু মান বিচাৰে?"
+      },
+      "options": [
+        {
+          "en": "MIN",
+          "as": "MIN"
+        },
+        {
+          "en": "MAX",
+          "as": "MAX"
+        },
+        {
+          "en": "SMALL",
+          "as": "SMALL"
+        },
+        {
+          "en": "LOW",
+          "as": "LOW"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "MIN returns the smallest value in a range of cells.",
+        "as": "MIN য়ে cell range ৰ সবাতোকৈ সৰু মান দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Excel function calculates the average of numbers?",
+        "as": "কোন Excel function য়ে সংখ্যাৰ গড় গণনা কৰে?"
+      },
+      "options": [
+        {
+          "en": "AVERAGE",
+          "as": "AVERAGE"
+        },
+        {
+          "en": "SUM",
+          "as": "SUM"
+        },
+        {
+          "en": "MEDIAN",
+          "as": "MEDIAN"
+        },
+        {
+          "en": "TOTAL",
+          "as": "TOTAL"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "AVERAGE calculates the arithmetic mean of the given numbers.",
+        "as": "AVERAGE য়ে দিয়া সংখ্যাৰ পাটীগণিতীয় গড় গণনা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Excel function counts the number of cells containing numbers?",
+        "as": "কোন Excel function য়ে সংখ্যা থকা cell ৰ গণনা কৰে?"
+      },
+      "options": [
+        {
+          "en": "COUNT",
+          "as": "COUNT"
+        },
+        {
+          "en": "SUM",
+          "as": "SUM"
+        },
+        {
+          "en": "COUNTA",
+          "as": "COUNTA"
+        },
+        {
+          "en": "TOTAL",
+          "as": "TOTAL"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "COUNT counts only the cells that contain numbers.",
+        "as": "COUNT য়ে কেৱল সংখ্যা থকা cell গণনা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which function checks a condition and returns one value if true and another if false?",
+        "as": "কোন function য়ে চৰ্ত পৰীক্ষা কৰি সঁচা হ'লে এটা আৰু মিছা হ'লে আনটো মান দিয়ে?"
+      },
+      "options": [
+        {
+          "en": "IF",
+          "as": "IF"
+        },
+        {
+          "en": "TRUE",
+          "as": "TRUE"
+        },
+        {
+          "en": "WHEN",
+          "as": "WHEN"
+        },
+        {
+          "en": "MATCH",
+          "as": "MATCH"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The IF function returns one value when a condition is true and another when false.",
+        "as": "IF function য়ে চৰ্ত সঁচা হ'লে এটা আৰু মিছা হ'লে আনটো মান দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Excel function joins (concatenates) text from multiple cells?",
+        "as": "কোন Excel function য়ে একাধিক cell ৰ text লগ লগায়?"
+      },
+      "options": [
+        {
+          "en": "CONCATENATE",
+          "as": "CONCATENATE"
+        },
+        {
+          "en": "JOIN",
+          "as": "JOIN"
+        },
+        {
+          "en": "MERGE",
+          "as": "MERGE"
+        },
+        {
+          "en": "LINK",
+          "as": "LINK"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "CONCATENATE joins two or more text strings into one.",
+        "as": "CONCATENATE য়ে দুই বা ততোধিক text string এক কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which function is used to look up a value in the first column of a table?",
+        "as": "তালিকাৰ প্ৰথম column ত মান বিচাৰিবলৈ কোন function ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "VLOOKUP",
+          "as": "VLOOKUP"
+        },
+        {
+          "en": "HLOOKUP",
+          "as": "HLOOKUP"
+        },
+        {
+          "en": "LOOKAT",
+          "as": "LOOKAT"
+        },
+        {
+          "en": "FIND",
+          "as": "FIND"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "VLOOKUP searches the first column of a table and returns a value from a given column.",
+        "as": "VLOOKUP য়ে তালিকাৰ প্ৰথম column ত বিচাৰি দিয়া column ৰ পৰা মান দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which function returns the current date in Excel?",
+        "as": "কোন function য়ে Excel ত বৰ্তমান তাৰিখ দিয়ে?"
+      },
+      "options": [
+        {
+          "en": "TODAY",
+          "as": "TODAY"
+        },
+        {
+          "en": "NOW",
+          "as": "NOW"
+        },
+        {
+          "en": "DATE",
+          "as": "DATE"
+        },
+        {
+          "en": "DAY",
+          "as": "DAY"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "TODAY returns the current date; NOW returns date and time.",
+        "as": "TODAY য়ে বৰ্তমান তাৰিখ; NOW য়ে তাৰিখ আৰু সময় দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which operator is used for multiplication in Excel formulas?",
+        "as": "Excel formula ত গুণনৰ বাবে কোন operator?"
+      },
+      "options": [
+        {
+          "en": "*",
+          "as": "*"
+        },
+        {
+          "en": "x",
+          "as": "x"
+        },
+        {
+          "en": "^",
+          "as": "^"
+        },
+        {
+          "en": "×",
+          "as": "×"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The asterisk (*) is used for multiplication in Excel.",
+        "as": "Excel ত গুণনৰ বাবে asterisk (*) ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which operator is used for division in Excel formulas?",
+        "as": "Excel formula ত ভাগৰ বাবে কোন operator?"
+      },
+      "options": [
+        {
+          "en": "/",
+          "as": "/"
+        },
+        {
+          "en": "\\",
+          "as": "\\"
+        },
+        {
+          "en": "%",
+          "as": "%"
+        },
+        {
+          "en": ": ",
+          "as": ": "
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The forward slash (/) is used for division in Excel.",
+        "as": "Excel ত ভাগৰ বাবে forward slash (/) ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The vertical grouping of cells in Excel is called a ___",
+        "as": "Excel ত cell ৰ উলম্ব সমষ্টিক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Column",
+          "as": "Column"
+        },
+        {
+          "en": "Row",
+          "as": "Row"
+        },
+        {
+          "en": "Chart",
+          "as": "Chart"
+        },
+        {
+          "en": "Range",
+          "as": "Range"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A vertical group of cells is a column; horizontal is a row.",
+        "as": "উলম্ব cell সমষ্টি column; অনুভূমিক সমষ্টি row।"
+      }
+    },
+    {
+      "q": {
+        "en": "In Excel, a range of cells from A1 to A10 is written as:",
+        "as": "Excel ত A1 ৰ পৰা A10 লৈ cell range লিখা হয়:"
+      },
+      "options": [
+        {
+          "en": "A1:A10",
+          "as": "A1:A10"
+        },
+        {
+          "en": "A1-A10",
+          "as": "A1-A10"
+        },
+        {
+          "en": "A1 to A10",
+          "as": "A1 to A10"
+        },
+        {
+          "en": "A1;A10",
+          "as": "A1;A10"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A range is written with a colon, e.g., A1:A10.",
+        "as": "Range colon ৰে লিখা হয়, যেনে A1:A10।"
+      }
+    },
+    {
+      "q": {
+        "en": "In Excel, $A$1 is an example of a(n) ___ reference.",
+        "as": "Excel ত $A$1 হৈছে ___ reference ৰ উদাহৰণ।"
+      },
+      "options": [
+        {
+          "en": "Absolute",
+          "as": "Absolute"
+        },
+        {
+          "en": "Relative",
+          "as": "Relative"
+        },
+        {
+          "en": "Mixed",
+          "as": "Mixed"
+        },
+        {
+          "en": "Circular",
+          "as": "Circular"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "In $A$1 both column and row are fixed, so it is an absolute reference.",
+        "as": "$A$1 ত column আৰু row দুয়োটা স্থিৰ, গতিকে ই absolute reference।"
+      }
+    },
+    {
+      "q": {
+        "en": "In Excel, A1 (without $) is a(n) ___ reference.",
+        "as": "Excel ত A1 ($ নোহোৱাকৈ) হৈছে ___ reference।"
+      },
+      "options": [
+        {
+          "en": "Relative",
+          "as": "Relative"
+        },
+        {
+          "en": "Absolute",
+          "as": "Absolute"
+        },
+        {
+          "en": "Fixed",
+          "as": "Fixed"
+        },
+        {
+          "en": "Global",
+          "as": "Global"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A1 without $ changes when copied, so it is a relative reference.",
+        "as": "$ নোহোৱা A1 কপি কৰিলে সলনি হয়, গতিকে ই relative reference।"
+      }
+    },
+    {
+      "q": {
+        "en": "In Excel, $A1 is an example of a(n) ___ reference.",
+        "as": "Excel ত $A1 হৈছে ___ reference ৰ উদাহৰণ।"
+      },
+      "options": [
+        {
+          "en": "Mixed",
+          "as": "Mixed"
+        },
+        {
+          "en": "Absolute",
+          "as": "Absolute"
+        },
+        {
+          "en": "Relative",
+          "as": "Relative"
+        },
+        {
+          "en": "Circular",
+          "as": "Circular"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "$A1 fixes only the column, so it is a mixed reference.",
+        "as": "$A1 ত কেৱল column স্থিৰ, গতিকে ই mixed reference।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key is pressed to edit the content of an active cell in Excel?",
+        "as": "Excel ত active cell ৰ content সম্পাদনা কৰিবলৈ কোন key চাপা হয়?"
+      },
+      "options": [
+        {
+          "en": "F2",
+          "as": "F2"
+        },
+        {
+          "en": "F4",
+          "as": "F4"
+        },
+        {
+          "en": "F5",
+          "as": "F5"
+        },
+        {
+          "en": "F6",
+          "as": "F6"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Pressing F2 lets you edit the active cell directly.",
+        "as": "F2 চাপিলে active cell পোনপটীয়াকৈ সম্পাদনা কৰিব পাৰি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key converts a cell reference to absolute form while entering a formula in Excel?",
+        "as": "Excel ত formula লিখোতে cell reference absolute কৰা key কোনটো?"
+      },
+      "options": [
+        {
+          "en": "F4",
+          "as": "F4"
+        },
+        {
+          "en": "F2",
+          "as": "F2"
+        },
+        {
+          "en": "F3",
+          "as": "F3"
+        },
+        {
+          "en": "F5",
+          "as": "F5"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "F4 toggles a reference between relative, absolute and mixed.",
+        "as": "F4 য়ে reference relative, absolute আৰু mixed ৰ মাজত সলনি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which MS Office application is used to create slide presentations?",
+        "as": "Slide উপস্থাপনা সৃষ্টিৰ বাবে কোন MS Office application?"
+      },
+      "options": [
+        {
+          "en": "MS PowerPoint",
+          "as": "MS PowerPoint"
+        },
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        },
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "MS Publisher",
+          "as": "MS Publisher"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "MS PowerPoint is used to create slide-based presentations.",
+        "as": "MS PowerPoint slide ভিত্তিক উপস্থাপনা সৃষ্টিৰ বাবে ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The default file extension of a PowerPoint presentation is:",
+        "as": "PowerPoint উপস্থাপনাৰ আগতীয়া file extension কি?"
+      },
+      "options": [
+        {
+          "en": ".pptx",
+          "as": ".pptx"
+        },
+        {
+          "en": ".ppt",
+          "as": ".ppt"
+        },
+        {
+          "en": ".pps",
+          "as": ".pps"
+        },
+        {
+          "en": ".ptx",
+          "as": ".ptx"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "PowerPoint 2007 onwards saves files with the '.pptx' extension.",
+        "as": "PowerPoint 2007 ৰ পৰা ফাইল '.pptx' extension ত সংৰক্ষিত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A single page of a PowerPoint presentation is called a ___",
+        "as": "PowerPoint উপস্থাপনাৰ এটা পৃষ্ঠাক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Slide",
+          "as": "Slide"
+        },
+        {
+          "en": "Sheet",
+          "as": "Sheet"
+        },
+        {
+          "en": "Frame",
+          "as": "Frame"
+        },
+        {
+          "en": "Panel",
+          "as": "Panel"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Each page of a presentation is called a slide.",
+        "as": "উপস্থাপনাৰ প্ৰতিটো পৃষ্ঠাক slide বোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key starts the slide show from the first slide in PowerPoint?",
+        "as": "PowerPoint ত প্ৰথম slide ৰ পৰা slide show আৰম্ভ কৰা key কোনটো?"
+      },
+      "options": [
+        {
+          "en": "F5",
+          "as": "F5"
+        },
+        {
+          "en": "F2",
+          "as": "F2"
+        },
+        {
+          "en": "F7",
+          "as": "F7"
+        },
+        {
+          "en": "F1",
+          "as": "F1"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Pressing F5 starts the slide show from the first slide.",
+        "as": "F5 চাপিলে প্ৰথম slide ৰ পৰা slide show আৰম্ভ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key starts the slide show from the current slide in PowerPoint?",
+        "as": "PowerPoint ত বৰ্তমান slide ৰ পৰা slide show আৰম্ভ কৰা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Shift + F5",
+          "as": "Shift + F5"
+        },
+        {
+          "en": "Ctrl + F5",
+          "as": "Ctrl + F5"
+        },
+        {
+          "en": "Alt + F5",
+          "as": "Alt + F5"
+        },
+        {
+          "en": "F5",
+          "as": "F5"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Shift + F5 starts the show from the current slide.",
+        "as": "Shift + F5 য়ে বৰ্তমান slide ৰ পৰা show আৰম্ভ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut creates a new slide in PowerPoint?",
+        "as": "PowerPoint ত নতুন slide সৃষ্টিৰ shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + M",
+          "as": "Ctrl + M"
+        },
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + D",
+          "as": "Ctrl + D"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + M inserts a new blank slide.",
+        "as": "Ctrl + M য়ে নতুন খালী slide সৃষ্টি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The special effects applied to text or objects in PowerPoint are called ___",
+        "as": "PowerPoint ত text বা object ত দিয়া বিশেষ প্রভাৱক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Animations",
+          "as": "Animations"
+        },
+        {
+          "en": "Transitions",
+          "as": "Transitions"
+        },
+        {
+          "en": "Designs",
+          "as": "Designs"
+        },
+        {
+          "en": "Effects",
+          "as": "Effects"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Animations are effects applied to objects within a slide.",
+        "as": "Animation হৈছে slide ৰ ভিতৰত object ত দিয়া প্রভাৱ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The motion effect applied between two slides is called ___",
+        "as": "দুটা slide ৰ মাজত দিয়া গতি প্রভাৱক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Transition",
+          "as": "Transition"
+        },
+        {
+          "en": "Animation",
+          "as": "Animation"
+        },
+        {
+          "en": "Slide design",
+          "as": "Slide design"
+        },
+        {
+          "en": "Slide layout",
+          "as": "Slide layout"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Transitions are motion effects applied between slides during the show.",
+        "as": "Transition হৈছে show চলোতে slide ৰ মাজত দিয়া গতি প্রভাৱ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The background design theme of a PowerPoint slide is set from the ___ tab.",
+        "as": "PowerPoint slide ৰ পটভূমি design theme কোন tab ৰ পৰা লোৱা হয়?"
+      },
+      "options": [
+        {
+          "en": "Design",
+          "as": "Design"
+        },
+        {
+          "en": "Home",
+          "as": "Home"
+        },
+        {
+          "en": "View",
+          "as": "View"
+        },
+        {
+          "en": "Review",
+          "as": "Review"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The Design tab provides themes and backgrounds for slides.",
+        "as": "Design tab ত slide ৰ theme আৰু পটভূমি থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "In PowerPoint, 'Normal', 'Outline' and 'Slide Sorter' are views available under which tab?",
+        "as": "PowerPoint ত 'Normal', 'Outline' আৰু 'Slide Sorter' কোন tab ৰ অধীনৰ view?"
+      },
+      "options": [
+        {
+          "en": "View",
+          "as": "View"
+        },
+        {
+          "en": "Home",
+          "as": "Home"
+        },
+        {
+          "en": "Insert",
+          "as": "Insert"
+        },
+        {
+          "en": "Slide Show",
+          "as": "Slide Show"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Different presentation views are available under the View tab.",
+        "as": "View tab ত বিভিন্ন উপস্থাপনা view থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which PowerPoint view shows all slides as small thumbnails?",
+        "as": "কোন PowerPoint view ত সকলো slide সৰু থাম্বনেইল হিচাপে দেখা যায়?"
+      },
+      "options": [
+        {
+          "en": "Slide Sorter",
+          "as": "Slide Sorter"
+        },
+        {
+          "en": "Normal",
+          "as": "Normal"
+        },
+        {
+          "en": "Outline",
+          "as": "Outline"
+        },
+        {
+          "en": "Reading",
+          "as": "Reading"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Slide Sorter view shows all slides as small thumbnails.",
+        "as": "Slide Sorter view ত সকলো slide সৰু থাম্বনেইল হিচাপে দেখা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "In PowerPoint, Ctrl + Shift + > is used to ___ font size.",
+        "as": "PowerPoint ত Ctrl + Shift + >  ফন্ট আকাৰ ___ বাবে।"
+      },
+      "options": [
+        {
+          "en": "Increase",
+          "as": "বঢ়াবলৈ"
+        },
+        {
+          "en": "Decrease",
+          "as": "কমাবলৈ"
+        },
+        {
+          "en": "Reset",
+          "as": "পুনৰায়"
+        },
+        {
+          "en": "Copy",
+          "as": "কপি"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + Shift + > increases the font size of selected text.",
+        "as": "Ctrl + Shift + > য়ে বাছনি text ৰ ফন্ট আকাৰ বঢ়ায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut duplicates the selected slide in PowerPoint?",
+        "as": "PowerPoint ত বাছনি slide দ্বিগুণ (duplicate) কৰা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + D",
+          "as": "Ctrl + D"
+        },
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + M",
+          "as": "Ctrl + M"
+        },
+        {
+          "en": "Ctrl + B",
+          "as": "Ctrl + B"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + D duplicates the selected slide.",
+        "as": "Ctrl + D য়ে বাছনি slide ৰ অনুলিপি সৃষ্টি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key moves to the next slide during a PowerPoint slide show?",
+        "as": "PowerPoint slide show ত পৰৱৰ্তী slide লৈ যোৱা key কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Spacebar / Page Down",
+          "as": "Spacebar / Page Down"
+        },
+        {
+          "en": "Backspace",
+          "as": "Backspace"
+        },
+        {
+          "en": "Page Up",
+          "as": "Page Up"
+        },
+        {
+          "en": "Home",
+          "as": "Home"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Spacebar or Page Down advances to the next slide.",
+        "as": "Spacebar বা Page Down য়ে পৰৱৰ্তী slide লৈ আগবঢ়ায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key ends a running slide show in PowerPoint?",
+        "as": "PowerPoint ত চলি থকা slide show শেষ কৰা key কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Esc",
+          "as": "Esc"
+        },
+        {
+          "en": "Enter",
+          "as": "Enter"
+        },
+        {
+          "en": "Tab",
+          "as": "Tab"
+        },
+        {
+          "en": "Ctrl + End",
+          "as": "Ctrl + End"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Pressing Esc exits the running slide show.",
+        "as": "Esc চাপিলে চলি থকা slide show ৰ পৰা ওলায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which MS Office application is used to manage databases?",
+        "as": "ডেটাবেছ ব্যৱস্থাপনাৰ বাবে কোন MS Office application?"
+      },
+      "options": [
+        {
+          "en": "MS Access",
+          "as": "MS Access"
+        },
+        {
+          "en": "MS Outlook",
+          "as": "MS Outlook"
+        },
+        {
+          "en": "MS OneNote",
+          "as": "MS OneNote"
+        },
+        {
+          "en": "MS Publisher",
+          "as": "MS Publisher"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "MS Access is the database management application of MS Office.",
+        "as": "MS Access হৈছে MS Office ৰ ডেটাবেছ ব্যৱস্থাপনা application।"
+      }
+    },
+    {
+      "q": {
+        "en": "The default file extension of an MS Access database is:",
+        "as": "MS Access ডেটাবেছৰ আগতীয়া file extension কি?"
+      },
+      "options": [
+        {
+          "en": ".accdb",
+          "as": ".accdb"
+        },
+        {
+          "en": ".mdb",
+          "as": ".mdb"
+        },
+        {
+          "en": ".adp",
+          "as": ".adp"
+        },
+        {
+          "en": ".adb",
+          "as": ".adb"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Access 2007 onwards uses the '.accdb' extension.",
+        "as": "Access 2007 ৰ পৰা '.accdb' extension ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a valid MS Access database object?",
+        "as": "তলৰ কোনটো বৈধ MS Access ডেটাবেছ অবজেক্ট?"
+      },
+      "options": [
+        {
+          "en": "Query",
+          "as": "Query"
+        },
+        {
+          "en": "Slide",
+          "as": "Slide"
+        },
+        {
+          "en": "Chart sheet",
+          "as": "Chart sheet"
+        },
+        {
+          "en": "Mail",
+          "as": "Mail"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Tables, Queries, Forms and Reports are the main Access objects.",
+        "as": "Table, Query, Form আৰু Report হৈছে Access ৰ মূল অবজেক্ট।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which MS Office application is used for email, contacts and calendar?",
+        "as": "ইমেইল, ঠিকনা আৰু calendar ৰ বাবে কোন MS Office application?"
+      },
+      "options": [
+        {
+          "en": "MS Outlook",
+          "as": "MS Outlook"
+        },
+        {
+          "en": "MS Access",
+          "as": "MS Access"
+        },
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        },
+        {
+          "en": "MS Publisher",
+          "as": "MS Publisher"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "MS Outlook manages email, contacts, tasks and calendar.",
+        "as": "MS Outlook য়ে ইমেইল, ঠিকনা, কাৰ্য আৰু calendar ব্যৱস্থাপনা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which MS Office application is used to create desktop publishing documents like newsletters and brochures?",
+        "as": "বাতৰি-কাকত আৰু brochure আদি desktop publishing দলিল সৃষ্টিৰ বাবে কোন application?"
+      },
+      "options": [
+        {
+          "en": "MS Publisher",
+          "as": "MS Publisher"
+        },
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "MS Paint",
+          "as": "MS Paint"
+        },
+        {
+          "en": "MS Notepad",
+          "as": "MS Notepad"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "MS Publisher is used for desktop publishing documents.",
+        "as": "MS Publisher desktop publishing দলিলৰ বাবে ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which MS Office application is used to take notes and organize information?",
+        "as": "টোকা ল'বলৈ আৰু তথ্য সজাবলৈ কোন MS Office application?"
+      },
+      "options": [
+        {
+          "en": "MS OneNote",
+          "as": "MS OneNote"
+        },
+        {
+          "en": "MS Teams",
+          "as": "MS Teams"
+        },
+        {
+          "en": "MS Visio",
+          "as": "MS Visio"
+        },
+        {
+          "en": "MS Project",
+          "as": "MS Project"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "MS OneNote is used to capture and organize notes.",
+        "as": "MS OneNote টোকা ধৰি সজাবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The small squares (dots) around a selected image/object in MS Word are called ___",
+        "as": "MS Word ত বাছনি image/object ৰ চাৰিওফালে থকা সৰু কোঠা (dot) বোৰক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Handles / sizing handles",
+          "as": "Handles / sizing handles"
+        },
+        {
+          "en": "Buttons",
+          "as": "Buttons"
+        },
+        {
+          "en": "Anchors",
+          "as": "Anchors"
+        },
+        {
+          "en": "Marks",
+          "as": "Marks"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Sizing handles are the small squares used to resize an object.",
+        "as": "sizing handle হৈছে object ৰ আকাৰ সলনি কৰা সৰু কোঠা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut opens the Font dialog box in MS Word?",
+        "as": "MS Word ত Font dialog box খোলা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + D",
+          "as": "Ctrl + D"
+        },
+        {
+          "en": "Ctrl + F",
+          "as": "Ctrl + F"
+        },
+        {
+          "en": "Ctrl + T",
+          "as": "Ctrl + T"
+        },
+        {
+          "en": "Ctrl + K",
+          "as": "Ctrl + K"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + D opens the Font dialog in MS Word.",
+        "as": "Ctrl + D য়ে MS Word ত Font dialog খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut inserts a hyperlink in MS Word?",
+        "as": "MS Word ত hyperlink সন্নিবেশ কৰা shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + K",
+          "as": "Ctrl + K"
+        },
+        {
+          "en": "Ctrl + H",
+          "as": "Ctrl + H"
+        },
+        {
+          "en": "Ctrl + L",
+          "as": "Ctrl + L"
+        },
+        {
+          "en": "Ctrl + J",
+          "as": "Ctrl + J"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + K inserts a hyperlink in MS Word.",
+        "as": "Ctrl + K য়ে MS Word ত hyperlink সন্নিবেশ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used to check spelling in MS Word?",
+        "as": "MS Word ত বানান পৰীক্ষা (spelling) ৰ shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "F7",
+          "as": "F7"
+        },
+        {
+          "en": "F5",
+          "as": "F5"
+        },
+        {
+          "en": "F9",
+          "as": "F9"
+        },
+        {
+          "en": "F11",
+          "as": "F11"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "F7 opens the Spelling and Grammar checker in MS Word.",
+        "as": "F7 য়ে MS Word ত বানান আৰু ব্যাকৰণ পৰীক্ষক খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "MS Word is an example of ___ software.",
+        "as": "MS Word হৈছে ___ ছফ্টৱেৰৰ উদাহৰণ।"
+      },
+      "options": [
+        {
+          "en": "Word processor",
+          "as": "Word processor"
+        },
+        {
+          "en": "Spreadsheet",
+          "as": "Spreadsheet"
+        },
+        {
+          "en": "Database",
+          "as": "Database"
+        },
+        {
+          "en": "Presentation",
+          "as": "Presentation"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "MS Word is word processing software.",
+        "as": "MS Word হৈছে word processing ছফ্টৱেৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which tab in MS Word is used to add page numbers?",
+        "as": "MS Word ত পৃষ্ঠা নম্বৰ যোগ কৰা tab কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Insert",
+          "as": "Insert"
+        },
+        {
+          "en": "Home",
+          "as": "Home"
+        },
+        {
+          "en": "File",
+          "as": "File"
+        },
+        {
+          "en": "Review",
+          "as": "Review"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Page numbers are inserted from the Insert tab.",
+        "as": "Insert tab ৰ পৰা পৃষ্ঠা নম্বৰ সন্নিবেশ কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Mail Merge feature is found in which application?",
+        "as": "Mail Merge বৈশিষ্ট্য কোন application ত পোৱা যায়?"
+      },
+      "options": [
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        },
+        {
+          "en": "MS PowerPoint",
+          "as": "MS PowerPoint"
+        },
+        {
+          "en": "MS Access",
+          "as": "MS Access"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Mail Merge is a feature of MS Word to send many letters with one template.",
+        "as": "Mail Merge হৈছে MS Word ৰ বৈশিষ্ট্য, এটা template ৰে বহু চিঠি পঠাবলৈ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The vertical scroll bar and horizontal scroll bar are part of which element in MS Word?",
+        "as": "MS Word ত উলম্ব আৰু অনুভূমিক scroll bar কোন উপাদানৰ অংশ?"
+      },
+      "options": [
+        {
+          "en": "Window",
+          "as": "Window"
+        },
+        {
+          "en": "Ribbon",
+          "as": "Ribbon"
+        },
+        {
+          "en": "Taskbar",
+          "as": "Taskbar"
+        },
+        {
+          "en": "Toolbox",
+          "as": "Toolbox"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Scroll bars are part of the document window.",
+        "as": "Scroll bar হৈছে document window ৰ অংশ।"
+      }
+    },
+    {
+      "q": {
+        "en": "In MS Word, which view shows the document as it will look when printed?",
+        "as": "MS Word ত কোন view ত দলিল প্ৰিন্ট হোৱাৰ দৰে দেখা যায়?"
+      },
+      "options": [
+        {
+          "en": "Print Layout",
+          "as": "Print Layout"
+        },
+        {
+          "en": "Web Layout",
+          "as": "Web Layout"
+        },
+        {
+          "en": "Draft",
+          "as": "Draft"
+        },
+        {
+          "en": "Outline",
+          "as": "Outline"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Print Layout view shows the document exactly as it will be printed.",
+        "as": "Print Layout view ত দলিল প্ৰিন্ট হোৱাৰ দৰে দেখা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used to add a line break without a new paragraph in MS Word?",
+        "as": "MS Word ত নতুন paragraph নোহোৱাকৈ line break দিয়া shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Shift + Enter",
+          "as": "Shift + Enter"
+        },
+        {
+          "en": "Ctrl + Enter",
+          "as": "Ctrl + Enter"
+        },
+        {
+          "en": "Alt + Enter",
+          "as": "Alt + Enter"
+        },
+        {
+          "en": "Enter",
+          "as": "Enter"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Shift + Enter inserts a soft line break within a paragraph.",
+        "as": "Shift + Enter য়ে paragraph ৰ ভিতৰত line break দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key moves the cursor to the beginning of the current line in MS Word?",
+        "as": "MS Word ত cursor বৰ্তমান ৰেখাৰ আৰম্ভণিলৈ নিয়া key কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Home",
+          "as": "Home"
+        },
+        {
+          "en": "End",
+          "as": "End"
+        },
+        {
+          "en": "Page Up",
+          "as": "Page Up"
+        },
+        {
+          "en": "Ctrl + Home",
+          "as": "Ctrl + Home"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Home moves the cursor to the start of the current line.",
+        "as": "Home য়ে cursor বৰ্তমান ৰেখাৰ আৰম্ভণিলৈ নিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut moves the cursor to the beginning of the document in MS Word?",
+        "as": "MS Word ত cursor দলিলৰ আৰম্ভণিলৈ নিয়া shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + Home",
+          "as": "Ctrl + Home"
+        },
+        {
+          "en": "Home",
+          "as": "Home"
+        },
+        {
+          "en": "Ctrl + End",
+          "as": "Ctrl + End"
+        },
+        {
+          "en": "Ctrl + Page Up",
+          "as": "Ctrl + Page Up"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + Home moves the cursor to the very beginning of the document.",
+        "as": "Ctrl + Home য়ে cursor দলিলৰ একদম আৰম্ভণিলৈ নিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut moves the cursor to the end of the document in MS Word?",
+        "as": "MS Word ত cursor দলিলৰ শেষলৈ নিয়া shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + End",
+          "as": "Ctrl + End"
+        },
+        {
+          "en": "End",
+          "as": "End"
+        },
+        {
+          "en": "Ctrl + Home",
+          "as": "Ctrl + Home"
+        },
+        {
+          "en": "Ctrl + Down",
+          "as": "Ctrl + Down"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ctrl + End moves the cursor to the end of the document.",
+        "as": "Ctrl + End য়ে cursor দলিলৰ শেষলৈ নিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Excel function rounds a number to a specified number of digits?",
+        "as": "কোন Excel function য়ে সংখ্যা নিৰ্দিষ্ট অংকলৈ ঘূৰণীয়া কৰে?"
+      },
+      "options": [
+        {
+          "en": "ROUND",
+          "as": "ROUND"
+        },
+        {
+          "en": "FLOOR",
+          "as": "FLOOR"
+        },
+        {
+          "en": "CEIL",
+          "as": "CEIL"
+        },
+        {
+          "en": "TRIM",
+          "as": "TRIM"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "ROUND rounds a number to the specified number of decimal places.",
+        "as": "ROUND য়ে সংখ্যা নিৰ্দিষ্ট দশমিক স্থানলৈ ঘূৰণীয়া কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Excel function returns the remainder after dividing two numbers?",
+        "as": "কোন Excel function য়ে দুটা সংখ্যা ভাগ কৰাৰ পিছত ভাগশেষ দিয়ে?"
+      },
+      "options": [
+        {
+          "en": "MOD",
+          "as": "MOD"
+        },
+        {
+          "en": "DIV",
+          "as": "DIV"
+        },
+        {
+          "en": "REMAIN",
+          "as": "REMAIN"
+        },
+        {
+          "en": "QUOTIENT",
+          "as": "QUOTIENT"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "MOD returns the remainder of a division, e.g., MOD(10,3) = 1.",
+        "as": "MOD য়ে ভাগৰ ভাগশেষ দিয়ে, যেনে MOD(10,3) = 1।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Excel function returns the square root of a number?",
+        "as": "কোন Excel function য়ে সংখ্যাৰ বৰ্গমূল দিয়ে?"
+      },
+      "options": [
+        {
+          "en": "SQRT",
+          "as": "SQRT"
+        },
+        {
+          "en": "ROOT",
+          "as": "ROOT"
+        },
+        {
+          "en": "POWER",
+          "as": "POWER"
+        },
+        {
+          "en": "ABS",
+          "as": "ABS"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "SQRT returns the square root, e.g., SQRT(16) = 4.",
+        "as": "SQRT য়ে বৰ্গমূল দিয়ে, যেনে SQRT(16) = 4।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Excel function returns the absolute value of a number?",
+        "as": "কোন Excel function য়ে সংখ্যাৰ পৰম মান দিয়ে?"
+      },
+      "options": [
+        {
+          "en": "ABS",
+          "as": "ABS"
+        },
+        {
+          "en": "MOD",
+          "as": "MOD"
+        },
+        {
+          "en": "INT",
+          "as": "INT"
+        },
+        {
+          "en": "SIGN",
+          "as": "SIGN"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "ABS returns the absolute value, e.g., ABS(-5) = 5.",
+        "as": "ABS য়ে পৰম মান দিয়ে, যেনে ABS(-5) = 5।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Excel function is used to sum values based on a condition?",
+        "as": "কোন Excel function য়ে চৰ্ত অনুযায়ী মান যোগ কৰে?"
+      },
+      "options": [
+        {
+          "en": "SUMIF",
+          "as": "SUMIF"
+        },
+        {
+          "en": "COUNTIF",
+          "as": "COUNTIF"
+        },
+        {
+          "en": "IFSUM",
+          "as": "IFSUM"
+        },
+        {
+          "en": "TOTALIF",
+          "as": "TOTALIF"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "SUMIF adds only the cells that meet a given condition.",
+        "as": "SUMIF য়ে কেৱল দিয়া চৰ্ত পূৰণ কৰা cell যোগ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Excel function counts cells that meet a given condition?",
+        "as": "কোন Excel function য়ে দিয়া চৰ্ত পূৰণ কৰা cell গণনা কৰে?"
+      },
+      "options": [
+        {
+          "en": "COUNTIF",
+          "as": "COUNTIF"
+        },
+        {
+          "en": "SUMIF",
+          "as": "SUMIF"
+        },
+        {
+          "en": "COUNT",
+          "as": "COUNT"
+        },
+        {
+          "en": "IFCOUNT",
+          "as": "IFCOUNT"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "COUNTIF counts cells that satisfy a given condition.",
+        "as": "COUNTIF য়ে দিয়া চৰ্ত পূৰণ কৰা cell গণনা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Excel function converts text from uppercase to lowercase?",
+        "as": "কোন Excel function য়ে text ডাঙৰ আখৰৰ পৰা সৰু আখৰলৈ কৰে?"
+      },
+      "options": [
+        {
+          "en": "LOWER",
+          "as": "LOWER"
+        },
+        {
+          "en": "UPPER",
+          "as": "UPPER"
+        },
+        {
+          "en": "PROPER",
+          "as": "PROPER"
+        },
+        {
+          "en": "CASE",
+          "as": "CASE"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "LOWER converts text to lowercase; UPPER to uppercase.",
+        "as": "LOWER য়ে text সৰু আখৰলৈ; UPPER য়ে ডাঙৰ আখৰলৈ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "In MS Excel, the default name of a newly inserted worksheet is usually:",
+        "as": "MS Excel ত নতুন worksheet ৰ আগতীয়া নাম সাধাৰণতে কি?"
+      },
+      "options": [
+        {
+          "en": "Sheet1",
+          "as": "Sheet1"
+        },
+        {
+          "en": "Work1",
+          "as": "Work1"
+        },
+        {
+          "en": "Book1",
+          "as": "Book1"
+        },
+        {
+          "en": "Page1",
+          "as": "Page1"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "New worksheets are named Sheet1, Sheet2 and so on.",
+        "as": "নতুন worksheet Sheet1, Sheet2 ইত্যাদি নামে থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut inserts the current date in MS Word?",
+        "as": "MS Word ত বৰ্তমান তাৰিখ সন্নিবেশৰ shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Alt + Shift + D",
+          "as": "Alt + Shift + D"
+        },
+        {
+          "en": "Ctrl + D",
+          "as": "Ctrl + D"
+        },
+        {
+          "en": "Alt + D",
+          "as": "Alt + D"
+        },
+        {
+          "en": "Ctrl + Shift + D",
+          "as": "Ctrl + Shift + D"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Alt + Shift + D inserts the current date in MS Word.",
+        "as": "Alt + Shift + D য়ে MS Word ত বৰ্তমান তাৰিখ সন্নিবেশ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut inserts the current time in MS Word?",
+        "as": "MS Word ত বৰ্তমান সময় সন্নিবেশৰ shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Alt + Shift + T",
+          "as": "Alt + Shift + T"
+        },
+        {
+          "en": "Ctrl + Shift + T",
+          "as": "Ctrl + Shift + T"
+        },
+        {
+          "en": "Alt + T",
+          "as": "Alt + T"
+        },
+        {
+          "en": "Ctrl + Alt + T",
+          "as": "Ctrl + Alt + T"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Alt + Shift + T inserts the current time in MS Word.",
+        "as": "Alt + Shift + T য়ে MS Word ত বৰ্তমান সময় সন্নিবেশ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "In MS Word, the ruler is used to set ___",
+        "as": "MS Word ত ruler ___ বাবে ব্যৱহাৰ হয়।"
+      },
+      "options": [
+        {
+          "en": "Margins and indents",
+          "as": "Margin আৰু indent"
+        },
+        {
+          "en": "Font color",
+          "as": "ফন্ট ৰং"
+        },
+        {
+          "en": "Spelling",
+          "as": "বানান"
+        },
+        {
+          "en": "Borders",
+          "as": "সীমাৰেখা"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The ruler helps set margins, indents and tab stops.",
+        "as": "ruler য়ে margin, indent আৰু tab stop ঠিক কৰাত সহায় কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Excel feature is used to display only data that meets certain criteria?",
+        "as": "কোন Excel বৈশিষ্ট্যই নিৰ্দিষ্ট চৰ্ত পূৰণ হোৱা data কেৱল দেখুৱায়?"
+      },
+      "options": [
+        {
+          "en": "Filter",
+          "as": "Filter"
+        },
+        {
+          "en": "Sort",
+          "as": "Sort"
+        },
+        {
+          "en": "Paste",
+          "as": "Paste"
+        },
+        {
+          "en": "Format",
+          "as": "Format"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Filter shows only the rows that meet the selected criteria.",
+        "as": "Filter য়ে কেৱল নিৰ্দিষ্ট চৰ্ত পূৰণ হোৱা row দেখুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which tool in Excel arranges data alphabetically or numerically?",
+        "as": "Excel ত data বৰ্ণানুক্ৰমে বা সংখ্যা অনুসৰি সজোৱা সা-সঁজুলি কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Sort",
+          "as": "Sort"
+        },
+        {
+          "en": "Filter",
+          "as": "Filter"
+        },
+        {
+          "en": "Group",
+          "as": "Group"
+        },
+        {
+          "en": "Format",
+          "as": "Format"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Sort arranges data in ascending or descending order.",
+        "as": "Sort য়ে data ঊর্ধ্ব বা অধঃক্রমত সজায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A 'pie chart' in Excel is best used to show ___",
+        "as": "Excel ত 'pie chart' ___ দেখুৱাবলৈ সবচেয়ে ভাল।"
+      },
+      "options": [
+        {
+          "en": "Proportions of a whole",
+          "as": "সম্পূৰ্ণৰ ভাগ"
+        },
+        {
+          "en": "Trends over time",
+          "as": "সময় অনুযায়ী পৰিৱর্তন"
+        },
+        {
+          "en": "Comparison of many series",
+          "as": "বহু শৃংখলাৰ তুলনা"
+        },
+        {
+          "en": "Relationship of variables",
+          "as": "চলকৰ সম্পর্ক"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A pie chart shows parts of a whole as slices.",
+        "as": "pie chart য়ে সম্পূৰ্ণৰ ভাগ slice হিচাপে দেখুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used to insert a new chart in MS Excel?",
+        "as": "MS Excel ত নতুন chart সন্নিবেশৰ shortcut কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Alt + F1",
+          "as": "Alt + F1"
+        },
+        {
+          "en": "Ctrl + F1",
+          "as": "Ctrl + F1"
+        },
+        {
+          "en": "Shift + F1",
+          "as": "Shift + F1"
+        },
+        {
+          "en": "F11",
+          "as": "F11"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Alt + F1 inserts a chart on the current sheet; F11 inserts it on a new sheet.",
+        "as": "Alt + F1 য়ে বৰ্তমান sheet ত; F11 য়ে নতুন sheet ত chart সন্নিবেশ কৰে।"
+      }
+    }
+  ]
 }
