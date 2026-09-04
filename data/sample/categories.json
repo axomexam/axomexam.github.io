@@ -578,15 +578,43 @@
     {
       "id": "english",
       "name": { "en": "General English", "as": "সাধাৰণ ইংৰাজী" },
-      "description": { "en": "Grammar, vocabulary and comprehension.", "as": "ইংৰাজী ব্যাকৰণ আৰু শব্দভাণ্ডাৰ।" },
+      "description": { "en": "Parts of Speech, Grammar, Sentence Structure and Vocabulary for competitive exams.", "as": "প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে পদ, ব্যাকৰণ, বাক্য গঠন আৰু শব্দভাণ্ডাৰ।" },
       "color": "#0d9488",
       "icon": "En",
       "subcategories": [
         {
-          "id": "grammar-vocab",
-          "name": { "en": "Grammar & Vocabulary", "as": "ব্যাকৰণ আৰু শব্দভাণ্ডাৰ" },
+          "id": "parts-of-speech",
+          "name": { "en": "Parts of Speech", "as": "পদ (Parts of Speech)" }
+        },
+        {
+          "id": "grammar",
+          "name": { "en": "Grammar", "as": "ব্যাকৰণ" },
           "topics": [
-            { "id": "tenses", "name": { "en": "Tenses & Prepositions", "as": "কাল আৰু পদান্বয়ী" }, "popularity": 7 }
+            { "id": "articles-and-determiners", "name": { "en": "Articles and Determiners", "as": "আৰ্টিকেল আৰু নিৰ্ধাৰক" }, "popularity": 8 },
+            { "id": "tenses", "name": { "en": "Tenses", "as": "কাল" }, "popularity": 9 },
+            { "id": "subject-verb-agreement", "name": { "en": "Subject Verb Agreement", "as": "কৰ্তা-ক্ৰিয়া মিল" }, "popularity": 9 },
+            { "id": "active-passive-voice", "name": { "en": "Active and Passive Voice", "as": "কৰ্তৃবাচ্য আৰু কৰ্মবাচ্য" }, "popularity": 8 },
+            { "id": "direct-indirect-speech", "name": { "en": "Direct and Indirect Speech", "as": "প্ৰত্যক্ষ আৰু পৰোক্ষ উক্তি" }, "popularity": 8 }
+          ]
+        },
+        {
+          "id": "sentence-structure",
+          "name": { "en": "Sentence Structure", "as": "বাক্য গঠন" },
+          "topics": [
+            { "id": "types-of-sentences", "name": { "en": "Types of Sentences", "as": "বাক্যৰ প্ৰকাৰ" }, "popularity": 8 },
+            { "id": "clauses", "name": { "en": "Clauses", "as": "খণ্ডবাক্য" }, "popularity": 8 },
+            { "id": "punctuation", "name": { "en": "Punctuation", "as": "যতিচিহ্ন" }, "popularity": 7 }
+          ]
+        },
+        {
+          "id": "vocabulary",
+          "name": { "en": "Vocabulary", "as": "শব্দভাণ্ডাৰ" },
+          "topics": [
+            { "id": "synonyms-antonyms", "name": { "en": "Synonyms and Antonyms", "as": "সমাৰ্থক আৰু বিপৰীতার্থক শব্দ" }, "popularity": 9 },
+            { "id": "idioms-phrases", "name": { "en": "Idioms and Phrases", "as": "বাগধাৰা আৰু খণ্ডবাক্য" }, "popularity": 8 },
+            { "id": "one-word-substitution", "name": { "en": "One Word Substitution", "as": "এটা শব্দৰে প্ৰকাশ" }, "popularity": 8 },
+            { "id": "error-spotting", "name": { "en": "Error Spotting", "as": "ত্ৰুটি নিৰ্ণয়" }, "popularity": 9 },
+            { "id": "sentence-rearrangement", "name": { "en": "Sentence Rearrangement", "as": "বাক্য পুনৰ্বিন্যাস" }, "popularity": 8 }
           ]
         }
       ]

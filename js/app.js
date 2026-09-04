@@ -379,8 +379,23 @@
               sec.name = sec.name || { en: sec.id, as: sec.id };
               (sec.topics || []).forEach((tp) => pushTopic(tp, cat, sub, sec));
             });
-          } else {
+          } else if ((sub.topics || []).length) {
             (sub.topics || []).forEach((tp) => pushTopic(tp, cat, sub, null));
+          } else {
+            const leaf = {
+              id: sub.id,
+              name: sub.name,
+              description: sub.description,
+              popularity: Number(sub.popularity) || 0
+            };
+            const path = [cat.id, sub.id].join("/");
+            const rec = {
+              path, cat, sub, section: null, topic: leaf,
+              title: leaf.name, desc: leaf.description, tags: [],
+              nQuestions: 0, pdf: null, popularity: leaf.popularity
+            };
+            topicMap[path] = rec;
+            topicIndex.push(rec);
           }
         });
       } else {
@@ -477,7 +492,9 @@
                 </div>
               </div>`;
           }
-          return `<a href="/category/${item.id}/${sub.id}">${escapeHtml(localized(sub.name))}</a>`;
+          const isLeaf = !(sub.topics && sub.topics.length);
+          const href = isLeaf ? `/topic/${item.id}/${sub.id}` : `/category/${item.id}/${sub.id}`;
+          return `<a href="${href}">${escapeHtml(localized(sub.name))}</a>`;
         }).join("")}
       </div>`;
   }
@@ -562,7 +579,9 @@
                   ${grand.map((sec) => `<a href="/category/${cat.id}/${sub.id}/${sec.id}"><span style="font-weight:600; font-size:0.87rem; color:var(--ink-soft,#475569);">${escapeHtml(localized(sec.name))}</span></a>`).join("")}
                 </div>`;
             }
-            return `<a href="/category/${cat.id}/${sub.id}"><span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(sub.name))}</span></a>`;
+            const isLeaf = !(sub.topics && sub.topics.length);
+            const href = isLeaf ? `/topic/${cat.id}/${sub.id}` : `/category/${cat.id}/${sub.id}`;
+            return `<a href="${href}"><span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(sub.name))}</span></a>`;
           }).join("")}</div>` : ""}
         </li>`;
     });
@@ -940,14 +959,23 @@
       <section class="section" style="padding-bottom:40px;">
         ${subs.length ? `
           <div class="sub-grid">
-            ${subs.map((s, i) => `
-              <a class="sub-card reveal" href="/category/${cat.id}/${s.id}${isArticlesCat ? "/read" : ""}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
+            ${subs.map((s, i) => {
+              const isLeaf = !isArticlesCat && !(s.sections && s.sections.length) && !(s.topics && s.topics.length);
+              const href = isArticlesCat
+                ? `/category/${cat.id}/${s.id}/read`
+                : (isLeaf ? `/topic/${cat.id}/${s.id}` : `/category/${cat.id}/${s.id}`);
+              const meta = isArticlesCat
+                ? (state.uiLang === "as" ? "প্ৰবন্ধ পঢ়ক →" : "Read Articles →")
+                : (isLeaf ? t("btn.practice") : `${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} ${s.sections ? t("cat.subsections") : t("cat.topics")}`);
+              return `
+              <a class="sub-card reveal" href="${href}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
                 <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
                 <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                   <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(s.name))}</span>
-                  <span style="font-size:0.75rem; font-weight:${isArticlesCat ? "700" : "400"}; color:${isArticlesCat ? catColor(cat.id) : "var(--ink-soft,#64748b)"};">${isArticlesCat ? (state.uiLang === "as" ? "প্ৰবন্ধ পঢ়ক →" : "Read Articles →") : `${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} ${s.sections ? t("cat.subsections") : t("cat.topics")}`}</span>
+                  <span style="font-size:0.75rem; font-weight:${isArticlesCat ? "700" : "400"}; color:${isArticlesCat ? catColor(cat.id) : "var(--ink-soft,#64748b)"};">${meta}</span>
                 </span>
-              </a>`).join("")}
+              </a>`;
+            }).join("")}
           </div>`
         : (directTopics.length ? topicListHTML(cat, null, null, directTopics) : emptyHTML())}
       </section>`;
@@ -968,6 +996,11 @@
       const sec = (sub.sections || []).find((s) => s.id === segs[3]);
       if (!sec) return render404(main);
       return renderSectionPage(main, cat, sub, sec);
+    }
+
+    if (!(sub.sections && sub.sections.length) && !(sub.topics && sub.topics.length)) {
+      const rec = state.topicMap[`${cat.id}/${sub.id}`];
+      if (rec) return renderTopicPage(main, rec);
     }
 
     const secs = sub.sections;
@@ -1103,7 +1136,7 @@
   async function renderTopicPage(main, rec) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
     try {
-      const data = await API.getTopic(rec.cat.id, rec.topic.id);
+      const data = await API.getTopic(rec.cat.id, rec.topic.id, rec.sub && rec.sub.id);
       if (data) {
         rec.topic = Object.assign({}, rec.topic, data);
         rec.topic.title = rec.topic.title || rec.title;
@@ -2037,7 +2070,7 @@
 
     if (!qs.length) {
       try {
-        const data = await API.getTopic(rec.cat.id, rec.topic.id);
+        const data = await API.getTopic(rec.cat.id, rec.topic.id, rec.sub && rec.sub.id);
         if (data) {
           qs = Array.isArray(data) ? data : (data.questions || []);
           rec.topic.questions = qs;
@@ -2612,7 +2645,7 @@
 
     const results = await Promise.all(
       matchedTopics.map((rec) =>
-        API.getTopic(rec.cat.id, rec.topic.id)
+        API.getTopic(rec.cat.id, rec.topic.id, rec.sub && rec.sub.id)
           .then((d) => ({ d, rec }))
           .catch(() => null)
       )
@@ -3582,7 +3615,7 @@
 
       state.topicIndex.forEach(async (rec) => {
         try {
-          const d = await API.getTopic(rec.cat.id, rec.topic.id);
+          const d = await API.getTopic(rec.cat.id, rec.topic.id, rec.sub && rec.sub.id);
           if (d) {
             const list = Array.isArray(d) ? d : (Array.isArray(d.questions) ? d.questions : []);
             rec.nQuestions = list.length;

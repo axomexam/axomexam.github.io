@@ -46,18 +46,30 @@ const API = (() => {
     return data; // { meta?, categories: [...] }
   }
 
-  /* ---- Topic content (JSON with bilingual Q&A + optional PDF) ---- */
-  async function getTopic(categoryId, topicId) {
+  /* ---- Topic content (JSON with bilingual Q&A + optional PDF) ----
+     Tries subcategory folder first: content/<cat>/<sub>/<topic>.json
+     then the flat path: content/<cat>/<topic>.json */
+  async function getTopic(categoryId, topicId, subcategoryId) {
     if (categoryId === "trending") {
       const url = CONFIG.USE_REMOTE
         ? rawUrl(`${P.TRENDING}/${topicId}.json`)
         : `${F.TRENDING_BASE}${topicId}.json`;
       return fetchJSON(url);
     }
-    const url = CONFIG.USE_REMOTE
-      ? rawUrl(`${P.CONTENT}/${categoryId}/${topicId}.json`)
-      : `${F.CONTENT_BASE}${categoryId}/${topicId}.json`;
-    return fetchJSON(url);
+    const rels = [];
+    if (subcategoryId) rels.push(`${categoryId}/${subcategoryId}/${topicId}.json`);
+    if (subcategoryId && subcategoryId === topicId) rels.push(`${categoryId}/${subcategoryId}.json`);
+    rels.push(`${categoryId}/${topicId}.json`);
+    let lastErr = null;
+    for (const rel of rels) {
+      const url = CONFIG.USE_REMOTE ? rawUrl(`${P.CONTENT}/${rel}`) : `${F.CONTENT_BASE}${rel}`;
+      try {
+        return await fetchJSON(url);
+      } catch (err) {
+        lastErr = err;
+      }
+    }
+    throw lastErr || new Error(`Topic not found: ${categoryId}/${topicId}`);
   }
 
   /* ---- Raw text topic (fallback for markdown content if ever used) ---- */
