@@ -1340,11 +1340,11 @@
                 ${n}. ${formatMath(qtext)}
               </div>
               ${options.length ? `
-                <div class="qa-options-inline" style="margin:0 0 12px 0; padding:0; font-size:0.92rem; color:var(--ink-soft,#334155); display:flex; flex-wrap:wrap; gap:16px; font-weight:500; text-align:left; justify-content:flex-start;">
+                <div class="qa-options-inline" style="margin:0 0 12px 0; padding:0; font-size:0.92rem; color:var(--ink-soft,#334155); display:flex; flex-direction:column; gap:6px; font-weight:500; text-align:left; align-items:flex-start;">
                   ${options.map((opt, optIdx) => {
                     const hasPrefix = /^\s*[\(\[]?[A-Za-zক-হ০-৯\d]/i.test(opt);
                     const optDisplay = hasPrefix ? opt : `(${String.fromCharCode(65 + optIdx)}) ${opt}`;
-                    return `<span style="white-space:nowrap;">${formatMath(optDisplay)}</span>`;
+                    return `<span>${formatMath(optDisplay)}</span>`;
                   }).join("")}
                 </div>` : ""
               }
@@ -1365,9 +1365,9 @@
                 <span class="qtext" style="flex:1; font-weight:500; font-size:0.96rem; color:var(--ink,#0f172a); line-height:1.55; text-align:left; margin:0; padding:0;">${formatMath(qtext)}</span>
               </div>
               ${options.length ? `
-                <div class="qa-options" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:8px; margin:0 0 12px 0; padding:0; text-align:left;">
+                <div class="qa-options" style="display:flex; flex-direction:column; gap:8px; margin:0 0 12px 0; padding:0; text-align:left;">
                   ${options.map((opt, optIdx) => `
-                    <div style="font-size:0.88rem; color:var(--ink-soft,#334155); background:var(--bg-subtle,#f8fafc); padding:8px 12px; border-radius:8px; border:1px solid var(--border,#e2e8f0); display:flex; align-items:center; gap:6px; text-align:left;">
+                    <div style="font-size:0.88rem; color:var(--ink-soft,#334155); background:var(--bg-subtle,#f8fafc); padding:8px 12px; border-radius:8px; border:1px solid var(--border,#e2e8f0); display:flex; align-items:flex-start; gap:6px; text-align:left;">
                       <b style="color:var(--primary,#2563eb); flex-shrink:0;">(${String.fromCharCode(65 + optIdx)})</b> 
                       <span style="flex:1; line-height:1.4;">${formatMath(opt)}</span>
                     </div>
@@ -1510,11 +1510,11 @@
               ${n}. ${formatMath(qtext)}
             </div>
             ${options.length ? `
-              <div class="qa-options-inline" style="margin:0 0 10px 0; padding:0; display:flex; flex-wrap:wrap; gap:14px; font-size:0.9rem; color:var(--ink-soft,#334155); font-weight:500; text-align:left; justify-content:flex-start;">
+              <div class="qa-options-inline" style="margin:0 0 10px 0; padding:0; display:flex; flex-direction:column; gap:6px; font-size:0.9rem; color:var(--ink-soft,#334155); font-weight:500; text-align:left; align-items:flex-start;">
                 ${options.map((opt, optIdx) => {
                   const hasPrefix = /^\s*[\(\[]?[A-Za-zক-হ০-৯\d]/i.test(opt);
                   const optDisplay = hasPrefix ? opt : `(${String.fromCharCode(65 + optIdx)}) ${opt}`;
-                  return `<span style="white-space:nowrap;">${formatMath(optDisplay)}</span>`;
+                  return `<span>${formatMath(optDisplay)}</span>`;
                 }).join("")}
               </div>` : ""
             }
@@ -1530,9 +1530,9 @@
               <span class="qtext" style="flex:1; font-weight:500; font-size:0.94rem; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">${formatMath(qtext)}</span>
             </div>
             ${options.length ? `
-              <div class="qa-options" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:8px; margin:0 0 12px 0; padding:0; text-align:left;">
+              <div class="qa-options" style="display:flex; flex-direction:column; gap:8px; margin:0 0 12px 0; padding:0; text-align:left;">
                 ${options.map((opt, optIdx) => `
-                  <div style="font-size:0.86rem; color:var(--ink-soft,#334155); background:var(--bg-subtle,#f8fafc); padding:7px 10px; border-radius:8px; border:1px solid var(--border,#e2e8f0); display:flex; align-items:center; gap:6px; text-align:left;">
+                  <div style="font-size:0.86rem; color:var(--ink-soft,#334155); background:var(--bg-subtle,#f8fafc); padding:7px 10px; border-radius:8px; border:1px solid var(--border,#e2e8f0); display:flex; align-items:flex-start; gap:6px; text-align:left;">
                     <b style="color:var(--primary,#2563eb); flex-shrink:0;">(${String.fromCharCode(65 + optIdx)})</b>
                     <span style="flex:1; line-height:1.4;">${formatMath(opt)}</span>
                   </div>
