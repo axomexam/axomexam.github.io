@@ -1,12 +1,668 @@
 {
   "id": "sentence-rearrangement",
-  "title": {
-    "en": "Sentence Rearrangement",
-    "as": "বাক্য পুনৰ্বিন্যাস"
-  },
-  "description": {
-    "en": "Upload questions here.",
-    "as": "ইয়াত প্ৰশ্ন আপলোড কৰক।"
-  },
-  "questions": []
+  "title": { "en": "Sentence Rearrangement", "as": "বাক্য সজ্জা" },
+  "description": { "en": "Arrange jumbled sentences in the correct order. English practice for Assam competitive exams.", "as": "এলমেলি বাক্যসমূহ সঠিক ক্ৰমত সজাওক। অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে ইংৰাজী অভ্যাস।" },
+  "tags": ["english", "sentence-rearrangement", "para-jumbles", "assam", "competitive", "ইংৰাজী", "বাক্য সজ্জা"],
+  "questions": [
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: He washed his face and brushed his teeth. Q: Then he went for a walk in the garden. R: Ali woke up early in the morning. S: After the walk he ate his breakfast.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "PRQS", "as": "PRQS" },
+        { "en": "RPQS", "as": "RPQS" },
+        { "en": "RQSP", "as": "RQSP" },
+        { "en": "PQRS", "as": "PQRS" }
+      ],
+      "correct": 1,
+      "a": { "en": "Correct order: RPQS. Ali woke up first (R), then washed up (P), went for a walk (Q), and finally had breakfast (S).", "as": "সঠিক ক্ৰম: RPQS। আলীয়ে প্ৰথমে শুই উঠিল (R), তাৰ পিছত মুখ-দাঁত ধুলে (P), খোজ কাঢ়িবলৈ গ'ল (Q), আৰু শেষত জলপান খালে (S)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: The leaves are weighed at the end of the day. Q: Every morning he plucks fresh tea leaves. R: His wages depend on the weight of the leaves. S: Mrinal works in a tea garden near Dibrugarh.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SQPR", "as": "SQPR" },
+        { "en": "QPSR", "as": "QPSR" },
+        { "en": "RSPQ", "as": "RSPQ" },
+        { "en": "PSRQ", "as": "PSRQ" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SQPR. Mrinal is introduced (S), he plucks leaves each morning (Q), the leaves are weighed (P), and his wages depend on that weight (R).", "as": "সঠিক ক্ৰম: SQPR। মৃণালৰ পৰিচয় দিয়া হৈছে (S), তেওঁ প্ৰতি পুৱা পাত তুলে (Q), পাতবোৰ ওজন কৰা হয় (P), আৰু তেওঁৰ মজুৰি সেই ওজনৰ ওপৰত নিৰ্ভৰ কৰে (R)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: The park also shelters tigers, elephants, and many birds. Q: Thousands of tourists visit it every year. R: It is famous for the one-horned rhinoceros. S: Kaziranga National Park lies beside the Brahmaputra.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "QSRP", "as": "QSRP" },
+        { "en": "SRQP", "as": "SRQP" },
+        { "en": "RSQP", "as": "RSQP" },
+        { "en": "SPRQ", "as": "SPRQ" }
+      ],
+      "correct": 1,
+      "a": { "en": "Correct order: SRQP. The park is introduced (S), it is famous for rhinos (R), tourists visit (Q), and it shelters other animals too (P).", "as": "সঠিক ক্ৰম: SRQP। উদ্যানখনৰ পৰিচয় (S), ই গঁড়ৰ বাবে বিখ্যাত (R), পৰ্যটক আহে (Q), আৰু ই আন জীৱ-জন্তুও আশ্ৰয় দিয়ে (P)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: It marks the coming of the Assamese new year. Q: During the festival people sing and dance together. R: Bihu is the most important festival of Assam. S: Farmers also prepare their fields for the new crop.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RQSP", "as": "RQSP" },
+        { "en": "PQRS", "as": "PQRS" },
+        { "en": "RPQS", "as": "RPQS" },
+        { "en": "QPRS", "as": "QPRS" }
+      ],
+      "correct": 2,
+      "a": { "en": "Correct order: RPQS. Bihu is introduced (R), it marks the new year (P), people celebrate by singing and dancing (Q), and farmers prepare fields (S).", "as": "সঠিক ক্ৰম: RPQS। বিহুৰ পৰিচয় (R), ই নৱবৰ্ষ সূচনা কৰে (P), লোকসকলে গীত-নাচেৰে উদযাপন কৰে (Q), আৰু কৃষকসকলে নতুন খেতিৰ বাবে পথাৰ সাজে (S)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: It connects the north and south banks of the river. Q: The bridge was opened to traffic in 2017. R: Travel across the river has become much faster now. S: The Bhupen Hazarika Setu spans the Brahmaputra.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "QSPR", "as": "QSPR" },
+        { "en": "PRSQ", "as": "PRSQ" },
+        { "en": "SPQR", "as": "SPQR" },
+        { "en": "RSPQ", "as": "RSPQ" }
+      ],
+      "correct": 2,
+      "a": { "en": "Correct order: SPQR. The bridge is introduced (S), it connects the two banks (P), it opened in 2017 (Q), and travel is now faster (R).", "as": "সঠিক ক্ৰম: SPQR। দলংখনৰ পৰিচয় (S), ই দুয়ো পাৰক সংযোগ কৰে (P), ২০১৭ চনত যান-বাহনৰ বাবে খোলা হৈছিল (Q), আৰু এতিয়া পাৰ হোৱাটো বহুত বেগী হৈছে (R)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: People ran to take shelter under the trees. Q: Soon heavy rain began to fall. R: After an hour the rain stopped and the sun came out. S: Dark clouds gathered in the sky.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SQPR", "as": "SQPR" },
+        { "en": "QSPR", "as": "QSPR" },
+        { "en": "PRQS", "as": "PRQS" },
+        { "en": "RQPS", "as": "RQPS" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SQPR. Clouds gathered (S), heavy rain fell (Q), people took shelter (P), and then the rain stopped (R).", "as": "সঠিক ক্ৰম: SQPR। ডাৱৰ গোট খালে (S), ধাৰাসাৰ বৰষুণ হ'ল (Q), মানুহে আশ্ৰয় ল'লে (P), তাৰ পিছত বৰষুণ বন্ধ হ'ল (R)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: The doctor gave him some medicine. Q: After taking the medicine Raju felt better. R: His mother took him to the doctor. S: Raju felt a sharp pain in his stomach.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RSPQ", "as": "RSPQ" },
+        { "en": "SRPQ", "as": "SRPQ" },
+        { "en": "QSRP", "as": "QSRP" },
+        { "en": "PRSQ", "as": "PRSQ" }
+      ],
+      "correct": 1,
+      "a": { "en": "Correct order: SRPQ. Raju felt pain (S), his mother took him to the doctor (R), the doctor gave medicine (P), and then he felt better (Q).", "as": "সঠিক ক্ৰম: SRPQ। ৰাজুৰ বিষ অনুভৱ হ'ল (S), মাকে তেওঁক ডাক্তৰৰ ওচৰলৈ লৈ গ'ল (R), ডাক্তৰে ঔষধ দিলে (P), তাৰ পিছত তেওঁ ভাল অনুভৱ কৰিলে (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: The first period was mathematics. Q: All the students stood in line for the prayer. R: The school bell rang at nine in the morning. S: Then they went into their classrooms.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RQSP", "as": "RQSP" },
+        { "en": "QRSP", "as": "QRSP" },
+        { "en": "SPRQ", "as": "SPRQ" },
+        { "en": "PQSR", "as": "PQSR" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: RQSP. The bell rang (R), students lined up for prayer (Q), then entered classrooms (S), and the first period was mathematics (P).", "as": "সঠিক ক্ৰম: RQSP। ঘণ্টা বাজিল (R), ছাত্ৰ-ছাত্ৰীসকলে প্ৰাৰ্থনাৰ বাবে শাৰী পাতিলে (Q), তাৰ পিছত শ্ৰেণীকোঠালৈ সোমালে (S), আৰু প্ৰথম পিৰিয়ড আছিল অংক (P)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Assam tea is exported to many countries. Q: Then it is packed in boxes and sent to markets. R: Tea is the most popular drink in Assam. S: The leaves are dried and processed in factories.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RSPQ", "as": "RSPQ" },
+        { "en": "SRPQ", "as": "SRPQ" },
+        { "en": "QPRS", "as": "QPRS" },
+        { "en": "PSQR", "as": "PSQR" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: RSPQ. Tea is introduced (R), leaves are processed (S), packed and sent to markets (Q), and Assam tea is exported (P).", "as": "সঠিক ক্ৰম: RSPQ। চাহৰ পৰিচয় (R), পাতবোৰ প্ৰক্ৰিয়াকৰণ হয় (S), বাকচত বান্ধি বজাৰলৈ পঠোৱা হয় (Q), আৰু অসমৰ চাহ বিদেশলৈ ৰপ্তানি হয় (P)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: The fish in the river are slowly dying. Q: Factories dump their waste into the water. R: The river near our village has become dirty. S: The villagers have asked the government for help.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "QRPS", "as": "QRPS" },
+        { "en": "SRPQ", "as": "SRPQ" },
+        { "en": "RQPS", "as": "RQPS" },
+        { "en": "PQSR", "as": "PQSR" }
+      ],
+      "correct": 2,
+      "a": { "en": "Correct order: RQPS. The river is dirty (R), factories dump waste (Q), so the fish are dying (P), and villagers seek help (S).", "as": "সঠিক ক্ৰম: RQPS। নদীখন পেলাই হৈছে (R), কল-কাৰখানাই আৱৰ্জনা পেলায় (Q), সেয়েহে মাছবোৰ মৰি আছে (P), আৰু গাঁৱলীয়াসকলে চৰকাৰৰ সহায় বিচাৰিছে (S)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: The opening batsmen scored many runs. Q: In the end the home team won the match. R: The captain won the toss and chose to bat. S: The two teams entered the field.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SRPQ", "as": "SRPQ" },
+        { "en": "QSRP", "as": "QSRP" },
+        { "en": "RSPQ", "as": "RSPQ" },
+        { "en": "PRQS", "as": "PRQS" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SRPQ. The teams entered the field (S), the captain won the toss (R), the openers scored runs (P), and the home team won (Q).", "as": "সঠিক ক্ৰম: SRPQ। দুয়ো দল পথাৰত সোমাল (S), অধিনায়কে টচ জিকিলে (R), উদ্বোধনী বেটছমেনে বহু ৰান কৰিলে (P), আৰু ঘৰুৱা দলখনে খেল জিকিলে (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Then she put the letter into an envelope. Q: She wrote about her school and her puppy. R: She took out a sheet of paper and a pen. S: Mina wanted to write to her friend.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SRQP", "as": "SRQP" },
+        { "en": "RSQP", "as": "RSQP" },
+        { "en": "PQRS", "as": "PQRS" },
+        { "en": "SPRQ", "as": "SPRQ" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SRQP. Mina wanted to write (S), she took out paper (R), wrote the letter (Q), and then put it in an envelope (P).", "as": "সঠিক ক্ৰম: SRQP। মীনাই চিঠি লিখিব বিচাৰিলে (S), তেওঁ কাগজ উলিয়ালে (R), চিঠিখন লিখিলে (Q), তাৰ পিছত খামত ভৰালে (P)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: The pot is kept on the fire till the rice is soft. Q: First the rice is washed in clean water. R: Then it is put into a pot with water. S: Finally the extra water is drained away.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "QPRS", "as": "QPRS" },
+        { "en": "QRPS", "as": "QRPS" },
+        { "en": "RPQS", "as": "RPQS" },
+        { "en": "SPQR", "as": "SPQR" }
+      ],
+      "correct": 1,
+      "a": { "en": "Correct order: QRPS. Rice is washed (Q), put in a pot with water (R), cooked till soft (P), and the extra water is drained (S).", "as": "সঠিক ক্ৰম: QRPS। ভাত ধোৱা হয় (Q), পানীসহ পাত্ৰত দিয়া হয় (R), নৰম নোহোৱালৈকে জুইত ৰখা হয় (P), আৰু শেষত অতিৰিক্ত পানী উলিয়াই দিয়া হয় (S)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Cups and plates fell from the shelves. Q: Everyone ran out to the open field. R: The shaking stopped after a few minutes. S: Suddenly the ground began to shake.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SPQR", "as": "SPQR" },
+        { "en": "PSQR", "as": "PSQR" },
+        { "en": "QRSP", "as": "QRSP" },
+        { "en": "RQPS", "as": "RQPS" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SPQR. The ground shook (S), cups and plates fell (P), people ran out (Q), and the shaking stopped (R).", "as": "সঠিক ক্ৰম: SPQR। মাটি কঁপিবলৈ ধৰিলে (S), বাচন-পাত্ৰ পৰি গ'ল (P), মানুহে দৌৰি ওলাই গ'ল (Q), আৰু কঁপনি বন্ধ হ'ল (R)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: These bags block the drains during rain. Q: People throw plastic bags on the roads. R: Plastic waste is a big problem in our towns. S: We should use cloth bags instead of plastic.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "QSPR", "as": "QSPR" },
+        { "en": "RQPS", "as": "RQPS" },
+        { "en": "PRSQ", "as": "PRSQ" },
+        { "en": "PQSR", "as": "PQSR" }
+      ],
+      "correct": 1,
+      "a": { "en": "Correct order: RQPS. Plastic waste is a problem (R), people throw bags (Q), these block drains (P), so we should use cloth bags (S).", "as": "সঠিক ক্ৰম: RQPS। প্লাষ্টিক আৱৰ্জনা এটা ডাঙৰ সমস্যা (R), মানুহে পথত বেগ পেলায় (Q), এইবোৰে নলা বন্ধ কৰে (P), সেয়েহে আমি কাপোৰৰ বেগ ব্যৱহাৰ কৰা উচিত (S)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: I read the book at home within two days. Q: The librarian was very helpful. R: I borrowed a book on the history of Assam. S: Last week I went to the town library.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SRQP", "as": "SRQP" },
+        { "en": "RSPQ", "as": "RSPQ" },
+        { "en": "PSQR", "as": "PSQR" },
+        { "en": "QPRS", "as": "QPRS" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SRQP. I went to the library (S), borrowed a book (R), the librarian helped (Q), and I read it at home (P).", "as": "সঠিক ক্ৰম: SRQP। মই পুথিভঁৰাললৈ গ'লোঁ (S), এখন কিতাপ ধাৰ কৰিলোঁ (R), পুথিভঁৰালীজনে সহায় কৰিলে (Q), আৰু ঘৰত সেইখন পঢ়িলোঁ (P)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Passengers quickly boarded the coaches. Q: Soon the train was speeding past green fields. R: The guard blew the whistle and the train moved. S: The train arrived at the station at noon.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SRPQ", "as": "SRPQ" },
+        { "en": "RSPQ", "as": "RSPQ" },
+        { "en": "SPRQ", "as": "SPRQ" },
+        { "en": "QPSR", "as": "QPSR" }
+      ],
+      "correct": 2,
+      "a": { "en": "Correct order: SPRQ. The train arrived (S), passengers boarded (P), the guard blew the whistle and it moved (R), then it sped away (Q).", "as": "সঠিক ক্ৰম: SPRQ। ৰেলখন ষ্টেচনত উপস্থিত হ'ল (S), যাত্ৰীসকল উঠিল (P), গাৰ্ডে হুইছিল বজাই ৰেলখন চলিল (R), তাৰ পিছত বেগেৰে গ'ল (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Children played in the puddles on the road. Q: The rivers rose but the villages stayed safe. R: Farmers were happy because their fields needed water. S: The monsoon rains began in early June.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "QSRP", "as": "QSRP" },
+        { "en": "SRPQ", "as": "SRPQ" },
+        { "en": "RPQS", "as": "RPQS" },
+        { "en": "PRSQ", "as": "PRSQ" }
+      ],
+      "correct": 1,
+      "a": { "en": "Correct order: SRPQ. The rains began (S), farmers were happy (R), children played in puddles (P), and the rivers rose but villages stayed safe (Q).", "as": "সঠিক ক্ৰম: SRPQ। বৰষুণ আৰম্ভ হ'ল (S), কৃষকসকল সন্তুষ্ট হ'ল (R), ল'ৰা-ছোৱালীয়ে পানীত খেলিলে (P), আৰু নদীবোৰ বাঢ়িল যদিও গাঁওবোৰ নিৰাপদে থাকিল (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Now we can call anyone from anywhere. Q: Even small shopkeepers use phones for business. R: Mobile phones have changed the way we talk. S: We can also send messages and photos quickly.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RPSQ", "as": "RPSQ" },
+        { "en": "PRSQ", "as": "PRSQ" },
+        { "en": "QRSP", "as": "QRSP" },
+        { "en": "SQPR", "as": "SQPR" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: RPSQ. Mobiles have changed talk (R), now we can call anyone (P), send messages and photos (S), and even shopkeepers use them (Q).", "as": "সঠিক ক্ৰম: RPSQ। ম'বাইলে কথা কোৱাৰ ধৰণ সলাইছে (R), এতিয়া আমি যিকোনো ঠাইৰ পৰা ফোন কৰিব পাৰোঁ (P), বাৰ্তা আৰু ফটো পঠাব পাৰোঁ (S), আনকি সৰু দোকানীসকলেও ব্যৱসাৰত ব্যৱহাৰ কৰে (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Doctors advise us to walk for half an hour daily. Q: Regular exercise also helps us sleep well. R: Exercise keeps our body strong and fit. S: Therefore everyone should make exercise a habit.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "PQRS", "as": "PQRS" },
+        { "en": "RQPS", "as": "RQPS" },
+        { "en": "RPQS", "as": "RPQS" },
+        { "en": "SPRQ", "as": "SPRQ" }
+      ],
+      "correct": 2,
+      "a": { "en": "Correct order: RPQS. Exercise keeps us fit (R), doctors advise walking (P), it also helps sleep (Q), so we should make it a habit (S).", "as": "সঠিক ক্ৰম: RPQS। ব্যায়ামে আমাক সুস্থ ৰাখে (R), ডাক্তৰে খোজ কাঢ়িবলৈ পৰামৰ্শ দিয়ে (P), ই ভাল টোপনিও সহায় কৰে (Q), সেয়েহে ইয়াক অভ্যাস কৰা উচিত (S)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Many houses now use solar power for lights. Q: Solar panels trap this light to make electricity. R: The sun gives us energy in the form of light. S: Solar energy is clean and does not pollute the air.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RQPS", "as": "RQPS" },
+        { "en": "QRSP", "as": "QRSP" },
+        { "en": "SRPQ", "as": "SRPQ" },
+        { "en": "PSQR", "as": "PSQR" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: RQPS. The sun gives light (R), solar panels trap it (Q), houses use solar power (P), and it is clean energy (S).", "as": "সঠিক ক্ৰম: RQPS। সূৰ্যই পোহৰ দিয়ে (R), সৌৰ ফলকে সেই পোহৰ ধৰি ৰাখি বিদ্যুৎ উৎপন্ন কৰে (Q), বহু ঘৰে সৌৰশক্তি ব্যৱহাৰ কৰে (P), আৰু ই পৰিৱেশ নষ্ট নকৰা পৰিষ্কাৰ শক্তি (S)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Some ants collect food while others build the nest. Q: Ants live together in large groups called colonies. R: Working together helps the whole colony survive. S: Each ant has a special job in the colony.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "QSPR", "as": "QSPR" },
+        { "en": "SQPR", "as": "SQPR" },
+        { "en": "PRQS", "as": "PRQS" },
+        { "en": "RQPS", "as": "RQPS" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: QSPR. Ants live in colonies (Q), each ant has a job (S), some collect food while others build (P), and teamwork helps them survive (R).", "as": "সঠিক ক্ৰম: QSPR। পৰুৱাবোৰ উপনিৱেশত বাস কৰে (Q), প্ৰতিটো পৰুৱাৰ বিশেষ কাম থাকে (S), কিছুমানে খাদ্য সংগ্ৰহ কৰে আনবোৰে বাহ সাজে (P), আৰু একেলগে কাম কৰিলেহে সিহঁত জীয়াই থাকে (R)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: First I look at the headlines on the first page. Q: Reading the paper keeps me informed about the world. R: I read the newspaper every morning. S: Then I read the sports and local news.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RPSQ", "as": "RPSQ" },
+        { "en": "SPRQ", "as": "SPRQ" },
+        { "en": "QRSP", "as": "QRSP" },
+        { "en": "PQSR", "as": "PQSR" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: RPSQ. I read the paper every morning (R), first the headlines (P), then sports and local news (S), and it keeps me informed (Q).", "as": "সঠিক ক্ৰম: RPSQ। মই প্ৰতি পুৱা বাতৰি কাকত পঢ়োঁ (R), প্ৰথমে প্ৰথম পৃষ্ঠাৰ শিৰোনামা (P), তাৰ পিছত ক্ৰীড়া আৰু স্থানীয় বাতৰি (S), আৰু ইয়াৰ দ্বাৰা মই জগতৰ খবৰ ৰাখোঁ (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: He spends some on biscuits and saves the rest. Q: Amit gets ten rupees as pocket money. R: After a year his piggy bank was full of coins. S: He keeps the saved money in his piggy bank.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SPRQ", "as": "SPRQ" },
+        { "en": "PQSR", "as": "PQSR" },
+        { "en": "QPSR", "as": "QPSR" },
+        { "en": "RSPQ", "as": "RSPQ" }
+      ],
+      "correct": 2,
+      "a": { "en": "Correct order: QPSR. Amit gets pocket money (Q), he spends some and saves the rest (P), keeps savings in the bank (S), and after a year it is full (R).", "as": "সঠিক ক্ৰম: QPSR। অমিতে পকেট খৰচৰ টকা পায় (Q), কিছুমান খৰচ কৰি বাকীখিনি জমায় (P), জমা টকা পিগি বেংকত ৰাখে (S), আৰু এবছৰৰ পিছত সেইটো মুদ্ৰাইৰে ভৰি যায় (R)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Students reached the school hall early. Q: The results were announced after two weeks. R: They answered the question papers quietly. S: The annual examinations began on Monday.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SPRQ", "as": "SPRQ" },
+        { "en": "QSRP", "as": "QSRP" },
+        { "en": "PRSQ", "as": "PRSQ" },
+        { "en": "RSPQ", "as": "RSPQ" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SPRQ. Exams began on Monday (S), students reached the hall (P), answered the papers (R), and results came after two weeks (Q).", "as": "সঠিক ক্ৰম: SPRQ। সোমবাৰে বাৰ্ষিক পৰীক্ষা আৰম্ভ হ'ল (S), ছাত্ৰ-ছাত্ৰীসকল হলত উপস্থিত হ'ল (P), তেওঁলোকে নিঃশব্দে প্ৰশ্নৰ উত্তৰ লিখিলে (R), আৰু দুসপ্তাহৰ পিছত ফলাফল ঘোষণা হ'ল (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: He cut the crop and stored the rice at home. Q: After four months the grains turned golden. R: The rains came and the plants began to grow. S: The farmer sowed paddy seeds in his field.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RSPQ", "as": "RSPQ" },
+        { "en": "SRQP", "as": "SRQP" },
+        { "en": "QPRS", "as": "QPRS" },
+        { "en": "PSQR", "as": "PSQR" }
+      ],
+      "correct": 1,
+      "a": { "en": "Correct order: SRQP. The farmer sowed seeds (S), rains made the plants grow (R), the grains turned golden (Q), and he cut and stored the rice (P).", "as": "সঠিক ক্ৰম: SRQP। কৃষকে পথাৰত ধান সিঁচিলে (S), বৰষুণত গছবোৰ গজিবলৈ ধৰিলে (R), চাৰি মাহৰ পিছত শস্য সোণপৰ্ণী হ'ল (Q), আৰু তেওঁ কাটি ঘৰত ভৰালে (P)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: She will give the finished painting to her mother. Q: Today she is painting a scene of the river. R: She mixes colours on a small plate. S: Reema loves to paint pictures.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "PQRS", "as": "PQRS" },
+        { "en": "RSQP", "as": "RSQP" },
+        { "en": "RQPS", "as": "RQPS" },
+        { "en": "SRQP", "as": "SRQP" }
+      ],
+      "correct": 3,
+      "a": { "en": "Correct order: SRQP. Reema loves painting (S), she mixes colours (R), today she paints the river (Q), and will give it to her mother (P).", "as": "সঠিক ক্ৰম: SRQP। ৰীমাই চিত্ৰ অঁকা ভাল পায় (S), তেওঁ সৰু প্লেটত ৰং মিহলায় (R), আজি তেওঁ নদীৰ দৃশ্য আঁকিছে (Q), আৰু শেষ হোৱা চিত্ৰখন মাকক দিব (P)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Birds flew over the water beside the boat. Q: The boatman rowed slowly against the current. R: The passengers reached the other bank safely. S: The ferryboat carried people across the Brahmaputra.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SQPR", "as": "SQPR" },
+        { "en": "QSPR", "as": "QSPR" },
+        { "en": "PRQS", "as": "PRQS" },
+        { "en": "RSPQ", "as": "RSPQ" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SQPR. The ferry carried people (S), the boatman rowed (Q), birds flew beside the boat (P), and they reached the bank safely (R).", "as": "সঠিক ক্ৰম: SQPR। নাৱখনে ব্ৰহ্মপুত্ৰ পাৰ কৰাই মানুহ কঢ়িয়াই নিছিল (S), নাৱৰীয়াই সোঁতৰ বিৰুদ্ধে লাহে লাহে বঠা মাৰিছিল (Q), নাৱৰ কাষত চৰাইবোৰ উৰিছিল (P), আৰু যাত্ৰীসকল নিৰাপদে পাৰ পালেগৈ (R)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Binu felt relieved after the tooth was out. Q: His father took him to a dentist. R: The dentist removed the bad tooth carefully. S: Binu had a toothache all night.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SQRP", "as": "SQRP" },
+        { "en": "QSRP", "as": "QSRP" },
+        { "en": "RQSP", "as": "RQSP" },
+        { "en": "PSQR", "as": "PSQR" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SQRP. Binu had a toothache (S), his father took him to a dentist (Q), the dentist removed the tooth (R), and Binu felt relieved (P).", "as": "সঠিক ক্ৰম: SQRP। বিনুৰ গোটেই ৰাতি দাঁতৰ বিষ আছিল (S), দেউতাকে তেওঁক দাঁতৰ ডাক্তৰৰ ওচৰলৈ লৈ গ'ল (Q), ডাক্তৰে বেয়া দাঁতটো আঁতৰালে (R), আৰু বিনুৱে উপশম পাই স্বস্তি পালে (P)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Learning computers is important for every student. Q: Letters and reports are typed on computers. R: Computers are used in almost every office today. S: They help us store and find information quickly.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RSQP", "as": "RSQP" },
+        { "en": "SRPQ", "as": "SRPQ" },
+        { "en": "QPSR", "as": "QPSR" },
+        { "en": "PQSR", "as": "PQSR" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: RSQP. Computers are used in offices (R), they help store and find information (S), letters are typed on them (Q), so learning them is important (P).", "as": "সঠিক ক্ৰম: RSQP। আজিকালি প্ৰায় প্ৰতিটো কাৰ্যালয়তে কম্পিউটাৰ ব্যৱহাৰ হয় (R), এইবোৰে তথ্য সংৰক্ষণ আৰু বিচাৰি উলিওৱাত সহায় কৰে (S), চিঠি-পত্ৰ কম্পিউটাৰত টাইপ কৰা হয় (Q), সেয়েহে প্ৰতিজন ছাত্ৰ-ছাত্ৰীৰ বাবে শিকাটো গুৰুত্বপূৰ্ণ (P)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Soon tiny chicks came out of the eggs. Q: The mother bird fed them worms all day. R: A sparrow built its nest under our roof. S: It laid three small eggs in the nest.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RSPQ", "as": "RSPQ" },
+        { "en": "RQSP", "as": "RQSP" },
+        { "en": "PSQR", "as": "PSQR" },
+        { "en": "QPRS", "as": "QPRS" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: RSPQ. A sparrow built a nest (R), laid eggs in it (S), the chicks came out (P), and the mother fed them (Q).", "as": "সঠিক ক্ৰম: RSPQ। আমাৰ ঘৰৰ তলিত ঘৰচিৰিকাই বাহ সাজিলে (R), বাহটোত তিনিটা সৰু কণী দিলে (S), কণীৰ পৰা সোনকালে পোৱালি ওলাল (P), আৰু মাকে গোটেই দিন পোক খুৱালে (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: In summer the tanks sometimes become dry. Q: Villagers must then fetch water from far away. R: Rain water is stored in big tanks in many villages. S: The water is used for washing and for cattle.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RSPQ", "as": "RSPQ" },
+        { "en": "SRPQ", "as": "SRPQ" },
+        { "en": "QSRP", "as": "QSRP" },
+        { "en": "PQRS", "as": "PQRS" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: RSPQ. Rain water is stored in tanks (R), it is used for washing and cattle (S), in summer the tanks dry up (P), so villagers fetch water from afar (Q).", "as": "সঠিক ক্ৰম: RSPQ। বহু গাঁৱত ডাঙৰ টেংকিত বৰষুণৰ পানী জমা হয় (R), সেই পানী ধোৱা আৰু গৰু-ছাগলীৰ বাবে ব্যৱহাৰ হয় (S), গ্ৰীষ্মকালত টেংকিবোৰ শুকাই যায় (P), সেয়েহে গাঁৱলীয়াসকলে দূৰৰ পৰা পানী আনে (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Each voter marks a vote on the ballot paper. Q: The candidate with the most votes becomes the leader. R: Elections are held to choose our leaders. S: People above eighteen years of age can vote.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RSPQ", "as": "RSPQ" },
+        { "en": "RPQS", "as": "RPQS" },
+        { "en": "SQPR", "as": "SQPR" },
+        { "en": "PQRS", "as": "PQRS" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: RSPQ. Elections choose leaders (R), adults can vote (S), each voter marks a ballot (P), and the one with most votes leads (Q).", "as": "সঠিক ক্ৰম: RSPQ। আমাৰ নেতা বাছনি কৰিবলৈ নিৰ্বাচন হয় (R), ওঠৰ বছৰৰ ওপৰৰ লোকসকলে ভোট দিব পাৰে (S), প্ৰতিজন ভোটাৰে ভোট পত্ৰত চিন দিয়ে (P), আৰু সৰ্বাধিক ভোট পোৱা প্ৰাৰ্থী নেতা হয় (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: The fibre is spun into threads. Q: Cotton fibre comes from the cotton plant. R: Clothes are made from many kinds of fibres. S: The threads are woven into cloth in mills.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "QPRS", "as": "QPRS" },
+        { "en": "PQSR", "as": "PQSR" },
+        { "en": "RQPS", "as": "RQPS" },
+        { "en": "RSPQ", "as": "RSPQ" }
+      ],
+      "correct": 2,
+      "a": { "en": "Correct order: RQPS. Clothes are made of fibres (R), cotton fibre comes from the plant (Q), it is spun into threads (P), and the threads are woven into cloth (S).", "as": "সঠিক ক্ৰম: RQPS। কাপোৰ বিভিন্ন ধৰণৰ আঁহেৰে তৈয়াৰ হয় (R), কপাহী আঁহ কপাহ গছৰ পৰা আহে (Q), সেই আঁহ সূতালৈ কটা হয় (P), আৰু সূতা কলত কাপোৰলৈ বোৱা হয় (S)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: The farmer woke up and caught the thief. Q: One night it barked loudly at a stranger. R: The dog guarded the house of an old farmer. S: Since that day the farmer trusted his dog fully.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RQPS", "as": "RQPS" },
+        { "en": "QSPR", "as": "QSPR" },
+        { "en": "PRQS", "as": "PRQS" },
+        { "en": "SRQP", "as": "SRQP" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: RQPS. The dog guarded the house (R), one night it barked (Q), the farmer caught the thief (P), and trusted the dog afterwards (S).", "as": "সঠিক ক্ৰম: RQPS। কুকুৰটোৱে বুঢ়া কৃষকৰ ঘৰ ৰাখিছিল (R), এৰাতি ই অচিনাকি মানুহলৈ জোৰেৰে ভুকিছিল (Q), কৃষকজনে সাৰ পাই চোৰটো ধৰিলে (P), আৰু সেইদিনৰ পৰা কুকুৰটোক সম্পূৰ্ণ বিশ্বাস কৰিলে (S)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: The squirrel ran to a higher branch. Q: A crow tried to snatch the nut from it. R: The clever squirrel saved its food from the crow. S: A squirrel sat on a branch eating a nut.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SQPR", "as": "SQPR" },
+        { "en": "QSPR", "as": "QSPR" },
+        { "en": "RPQS", "as": "RPQS" },
+        { "en": "PSRQ", "as": "PSRQ" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SQPR. A squirrel ate a nut (S), a crow tried to snatch it (Q), the squirrel ran higher (P), and so saved its food (R).", "as": "সঠিক ক্ৰম: SQPR। এটা ডালত বহি কেৰ্কেটুৱাই বাদাম খাই আছিল (S), এটা কাউৰীয়ে বাদামটো কাঢ়িবলৈ চেষ্টা কৰিলে (Q), কেৰ্কেটুৱাটো ওপৰৰ ডাললৈ দৌৰি গ'ল (P), আৰু এইদৰে চতুৰালিৰে খাদ্য ৰক্ষা কৰিলে (R)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Some children saw it and wanted to catch it. Q: It came out to the bank to warm in the sun. R: The turtle slipped quickly back into the water. S: A turtle lived in a small village pond.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "QSPR", "as": "QSPR" },
+        { "en": "SQPR", "as": "SQPR" },
+        { "en": "PRQS", "as": "PRQS" },
+        { "en": "RQPS", "as": "RQPS" }
+      ],
+      "correct": 1,
+      "a": { "en": "Correct order: SQPR. A turtle lived in a pond (S), it came to the bank (Q), some children tried to catch it (P), and it slipped back into the water (R).", "as": "সঠিক ক্ৰম: SQPR। এটা গাঁৱৰ পুখুৰীত কাছ এটা বাস কৰিছিল (S), ৰ'দত উমনি ল'বলৈ ই পাৰলৈ উঠি আহিল (Q), কিছুমান ল'ৰাই দেখি ধৰিব খুজিলে (P), আৰু কাছটো খৰধৰকৈ পানীত সোমাই গ'ল (R)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Fewer potatoes reached the town from the farms. Q: Housewives had to buy costlier vegetables. R: Heavy rain in the growing areas reduced the supply. S: Yesterday the price of potatoes rose in the market.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SRPQ", "as": "SRPQ" },
+        { "en": "RSPQ", "as": "RSPQ" },
+        { "en": "QPRS", "as": "QPRS" },
+        { "en": "PSQR", "as": "PSQR" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SRPQ. Potato prices rose (S), heavy rain reduced supply (R), fewer potatoes reached the town (P), so housewives paid more (Q).", "as": "সঠিক ক্ৰম: SRPQ। যোৱাকালি বজাৰত আলুৰ দাম বাঢ়িল (S), খেতি হোৱা অঞ্চলত ধাৰাসাৰ বৰষুণে যোগান কমালে (R), গাঁৱৰ পৰা চহৰলৈ কম আলু আহিল (P), সেয়েহে গৃহিণীসকলে দামী পাচলি কিনিব লগা হ'ল (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: He pushed the cycle to a nearby repair shop. Q: Dhanu reached school just before the bell rang. R: The mechanic mended the tube in a few minutes. S: Dhanu's bicycle got a flat tyre on the way to school.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SPRQ", "as": "SPRQ" },
+        { "en": "RQPS", "as": "RQPS" },
+        { "en": "QSRP", "as": "QSRP" },
+        { "en": "PSRQ", "as": "PSRQ" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SPRQ. The tyre went flat (S), Dhanu pushed it to the shop (P), the mechanic mended it (R), and he reached school in time (Q).", "as": "সঠিক ক্ৰম: SPRQ। স্কুললৈ যাওঁতে ধনুৰ চাইকেলৰ টায়াৰ পাংচাৰ হ'ল (S), তেওঁ চাইকেল ঠেলি ওচৰৰ মেৰামতিৰ দোকানলৈ গ'ল (P), মেকানিকে টিউবটো কিছু মিনিটতে ঠিক কৰি দিলে (R), আৰু ঘণ্টা বজাৰ আগতেই ধনু স্কুল পালেগৈ (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Many families lost their homes and crops. Q: The villagers slowly returned to rebuild their lives. R: The government sent boats with food and medicine. S: Heavy rain caused floods in lower Assam.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SPRQ", "as": "SPRQ" },
+        { "en": "QSRP", "as": "QSRP" },
+        { "en": "RSPQ", "as": "RSPQ" },
+        { "en": "PQRS", "as": "PQRS" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SPRQ. Heavy rain caused floods (S), families lost homes and crops (P), the government sent aid (R), and villagers slowly rebuilt their lives (Q).", "as": "সঠিক ক্ৰম: SPRQ। ধাৰাসাৰ বৰষুণত নামনি অসমত বানপানী হ'ল (S), বহু পৰিয়ালে ঘৰ-মাটি হেৰুৱালে (P), চৰকাৰে খাদ্য আৰু ঔষধসহ নাৱ পঠালে (R), আৰু গাঁৱলীয়াসকলে লাহে লাহে জীৱন পুনৰ গঢ়ি তুলিলে (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: The water rose and the crow drank happily. Q: The water was too low for its beak to reach. R: A thirsty crow found a pot with little water. S: The crow dropped small stones into the pot.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RQSP", "as": "RQSP" },
+        { "en": "QSRP", "as": "QSRP" },
+        { "en": "PRQS", "as": "PRQS" },
+        { "en": "SPRQ", "as": "SPRQ" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: RQSP. The crow found a pot (R), the water was too low (Q), it dropped stones (S), and the rising water let it drink (P).", "as": "সঠিক ক্ৰম: RQSP। পিয়াহত তৃষ্ণাৰ্ত কাউৰীয়ে অলপ পানী থকা কলহ এটা পালে (R), পানী তলত থাকি ঠোঁটেৰে নাপাইছিল (Q), কাউৰীয়ে কলহটোত সৰু শিলগুটি পেলালে (S), পানী ওপৰলৈ উঠাত সুখেৰে পানী খালে (P)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: The fair closed after a week of happy visitors. Q: Many publishers set up their stalls there. R: Students bought storybooks and dictionaries. S: A book fair was held in the town field last month.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SQRP", "as": "SQRP" },
+        { "en": "QSRP", "as": "QSRP" },
+        { "en": "RQSP", "as": "RQSP" },
+        { "en": "PRSQ", "as": "PRSQ" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SQRP. A book fair was held (S), publishers set up stalls (Q), students bought books (R), and the fair closed after a week (P).", "as": "সঠিক ক্ৰম: SQRP। যোৱা মাহত চহৰৰ পথাৰত এখন কিতাপৰ মেলা হৈছিল (S), বহু প্ৰকাশকে তাত ষ্টল পাতিছিল (Q), ছাত্ৰ-ছাত্ৰীসকলে সাধুকথা আৰু অভিধান কিনিছিল (R), আৰু এখন সপ্তাহৰ আনন্দময় দৰ্শনাৰ্থীৰ পিছত মেলা শেষ হৈছিল (P)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: By afternoon thick clouds covered the sun. Q: A cool wind began to blow from the hills. R: Soon light showers started to fall. S: The sky was clear in the morning.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SPQR", "as": "SPQR" },
+        { "en": "QSPR", "as": "QSPR" },
+        { "en": "RPQS", "as": "RPQS" },
+        { "en": "PSRQ", "as": "PSRQ" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SPQR. The sky was clear in the morning (S), clouds covered the sun by afternoon (P), a cool wind blew (Q), and light showers fell (R).", "as": "সঠিক ক্ৰম: SPQR। পুৱা আকাশখন পৰিষ্কাৰ আছিল (S), আবেলিৰ ভিতৰত ডাৱৰে সূৰ্য ঢাকিলে (P), পাহাৰৰ পৰা শীতল বতাহ বলিবলৈ ধৰিলে (Q), আৰু অলপতে বৰষুণ নামিল (R)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: She cooks fresh vegetables for the family. Q: Grandma grows vegetables in her small garden. R: The brinjals and chillies grow well in her soil. S: She waters the plants every evening.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "QSRP", "as": "QSRP" },
+        { "en": "SQPR", "as": "SQPR" },
+        { "en": "PRQS", "as": "PRQS" },
+        { "en": "RQPS", "as": "RQPS" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: QSRP. Grandma grows vegetables (Q), she waters them each evening (S), they grow well in her soil (R), and she cooks them fresh (P).", "as": "সঠিক ক্ৰম: QSRP। আইতাকে নিজৰ সৰু বাৰীত পাচলি উৎপন্ন কৰে (Q), তেওঁ প্ৰতি গধূলি গছবোৰত পানী দিয়ে (S), তেওঁৰ মাটিত বেঙেনা-জলকীয়া ভালকৈ গজে (R), আৰু পৰিয়ালৰ বাবে সদায় সতেজ পাচলি ৰান্ধে (P)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Ramesh returned the extra money politely. Q: Ramesh gave the shopkeeper a hundred-rupee note. R: The shopkeeper praised Ramesh for his honesty. S: The shopkeeper returned extra change by mistake.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "QSPR", "as": "QSPR" },
+        { "en": "SPRQ", "as": "SPRQ" },
+        { "en": "RQPS", "as": "RQPS" },
+        { "en": "PSRQ", "as": "PSRQ" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: QSPR. Ramesh paid a hundred-rupee note (Q), the shopkeeper returned too much change (S), Ramesh gave the extra money back (P), and was praised for his honesty (R).", "as": "সঠিক ক্ৰম: QSPR। ৰামেশে দোকানীক এশ টকা দিলে (Q), দোকানীয়ে ভুলত বেছি ভঙা ঘূৰাই দিলে (S), ৰামেশে বেছি টকাখিনি ভদ্ৰভাৱে ঘূৰাই দিলে (P), আৰু দোকানীয়ে তেওঁৰ সততাৰ বাবে প্ৰশংসা কৰিলে (R)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: The conductor calls out the stops on the way. Q: The bus to Guwahati leaves at six in the morning. R: The journey takes about three hours. S: Passengers buy their tickets before boarding.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "QSPR", "as": "QSPR" },
+        { "en": "PQRS", "as": "PQRS" },
+        { "en": "SRPQ", "as": "SRPQ" },
+        { "en": "RPSQ", "as": "RPSQ" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: QSPR. The bus leaves at six (Q), passengers buy tickets before boarding (S), the conductor calls out stops (P), and the journey lasts three hours (R).", "as": "সঠিক ক্ৰম: QSPR। গুৱাহাটীলৈ যোৱা বাছখন পুৱা ছয় বজাত ওলায় (Q), যাত্ৰীসকলে উঠাৰ আগতে টিকট কিনে (S), কণ্ডাক্টৰে বাটত ষ্টপ ঘোষণা কৰে (P), আৰু যাত্ৰাটো প্ৰায় তিনিঘণ্টা লাগে (R)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Big green leaves spread out at the top. Q: Their trunks are straight and without branches. R: The coconut tree gives us fruit, oil, and fibre. S: Coconut trees grow tall near the sea.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SQPR", "as": "SQPR" },
+        { "en": "QSPR", "as": "QSPR" },
+        { "en": "RPQS", "as": "RPQS" },
+        { "en": "PRSQ", "as": "PRSQ" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SQPR. Coconut trees grow tall near the sea (S), their trunks are straight (Q), big green leaves spread at the top (P), and the tree gives fruit, oil and fibre (R).", "as": "সঠিক ক্ৰম: SQPR। সাগৰৰ কাষত নাৰিকল গছ ওখকৈ বাঢ়ে (S), সিহঁতৰ গাত সিধা আৰু ডালবিহীন (Q), শিপৰ ওপৰত ডাঙৰ সেউজীয়া পাত মেলি যায় (P), আৰু গছজনে ফল, তেল আৰু আঁহ দিয়ে (R)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Dirty hands carry germs into our food. Q: We should wash our hands before eating. R: Cleanliness keeps diseases away from our home. S: Keeping our surroundings clean protects everyone's health.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RQPS", "as": "RQPS" },
+        { "en": "RQSP", "as": "RQSP" },
+        { "en": "SPQR", "as": "SPQR" },
+        { "en": "PQSR", "as": "PQSR" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: RQPS. Cleanliness keeps diseases away (R), we should wash our hands before eating (Q), dirty hands carry germs (P), and clean surroundings protect health (S).", "as": "সঠিক ক্ৰম: RQPS। পৰিষ্কাৰ-পৰিচ্ছন্নতাই ঘৰৰ পৰা ৰোগ দূৰে ৰাখে (R), খোৱাৰ আগত হাত ধোৱা উচিত (Q), বেয়া হাতে খাদ্যত জীৱাণু সোমোৱায় (P), আৰু চৌপাশ পৰিষ্কাৰ ৰখাই সকলোৰে স্বাস্থ্য ৰক্ষা কৰে (S)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: After some time he pulled up many silvery fish. Q: He rowed back to sell the fish in the market. R: Early in the morning he set out in his boat. S: He cast his net into the calm river.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RSPQ", "as": "RSPQ" },
+        { "en": "SRPQ", "as": "SRPQ" },
+        { "en": "QPSR", "as": "QPSR" },
+        { "en": "PRQS", "as": "PRQS" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: RSPQ. He set out early in the morning (R), cast his net (S), pulled up fish (P), and rowed back to sell them (Q).", "as": "সঠিক ক্ৰম: RSPQ। ৰাতিপুৱাই মাছমৰীয়াই নাৱত ওলাই গ'ল (R), শান্ত নদীত জাল পেলালে (S), কিছু সময়ৰ পিছত বহু ৰূপালী মাছ তুলিলে (P), আৰু বজাৰত বিক্ৰী কৰিবলৈ উভতি আহিল (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: The walls of brick were then raised higher. Q: By December the building was ready for students. R: Workers began the new school building in January. S: They first laid a strong concrete foundation.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RQSP", "as": "RQSP" },
+        { "en": "RSPQ", "as": "RSPQ" },
+        { "en": "PQRS", "as": "PQRS" },
+        { "en": "SPQR", "as": "SPQR" }
+      ],
+      "correct": 1,
+      "a": { "en": "Correct order: RSPQ. Work began in January (R), first the foundation was laid (S), then the brick walls were raised (P), and by December it was ready (Q).", "as": "সঠিক ক্ৰম: RSPQ। জানুৱাৰীত শ্ৰমিকসকলে নতুন বিদ্যালয় ঘৰ নিৰ্মাণ আৰম্ভ কৰিলে (R), প্ৰথমে শক্ত কংক্ৰিটৰ ভেটি দিলে (S), তাৰ পিছত ইটাৰ দেৱাল ওপৰলৈ তুলিলে (P), আৰু ডিচেম্বৰলৈ ছাত্ৰ-ছাত্ৰীৰ বাবে ঘৰ সাজু হ'ল (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: She made a timetable for study every day. Q: Her hard work helped her stand first in class. R: She practised sums and revised lessons regularly. S: Rita wanted to score well in her final exams.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SPRQ", "as": "SPRQ" },
+        { "en": "QSRP", "as": "QSRP" },
+        { "en": "PRQS", "as": "PRQS" },
+        { "en": "RQPS", "as": "RQPS" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SPRQ. Rita wanted to score well (S), she made a timetable (P), practised and revised regularly (R), and stood first in class (Q).", "as": "সঠিক ক্ৰম: SPRQ। ৰীতাই চূড়ান্ত পৰীক্ষাত ভাল নম্বৰ পাব বিচাৰিছিল (S), তেওঁ পঢ়াৰ সময়সূচী বনালে (P), নিয়মিতভাৱে হিচাপ আৰু পুনৰালোচনা কৰিলে (R), আৰু তেওঁৰ কঠোৰ পৰিশ্ৰমে শ্ৰেণীত প্ৰথম হ'বলৈ সহায় কৰিলে (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: In the evening lamps were lit around the fairground. Q: Farmers sold pots, baskets, and tools. R: The village held its annual fair with great joy. S: Children rode on merry-go-rounds and ate sweets.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RQSP", "as": "RQSP" },
+        { "en": "QSRP", "as": "QSRP" },
+        { "en": "PQRS", "as": "PQRS" },
+        { "en": "SPRQ", "as": "SPRQ" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: RQSP. The village held its fair (R), farmers sold goods (Q), children enjoyed rides and sweets (S), and lamps were lit in the evening (P).", "as": "সঠিক ক্ৰম: RQSP। গাঁৱখনে আনন্দেৰে বাৰ্ষিক মেলা পাতিলে (R), কৃষকসকলে কলহ, টুকুৰী আৰু সঁজুলি বিক্ৰী কৰিলে (Q), ল'ৰা-ছোৱালীয়ে নাগৰদোলাত উঠি মিঠাই খালে (S), আৰু গধূলি মেলাপথাৰত চাকি-বন্তি জ্বলিল (P)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Priya saw it near her school gate. Q: She wrapped it in her scarf and took it home. R: A small puppy was shivering in the cold rain. S: Now the puppy lives happily with her family.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RPQS", "as": "RPQS" },
+        { "en": "PRSQ", "as": "PRSQ" },
+        { "en": "RQSP", "as": "RQSP" },
+        { "en": "SPQR", "as": "SPQR" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: RPQS. A puppy shivered in the rain (R), Priya saw it (P), wrapped it in her scarf and took it home (Q), and now it lives happily (S).", "as": "সঠিক ক্ৰম: RPQS। শীতল বৰষুণত এটা সৰু কুকুৰ-পোৱালি কঁপি আছিল (R), প্ৰিয়াই স্কুলৰ ফটকৰ ওচৰত দেখিলে (P), তেওঁ ওৰণিখনেৰে মেৰিয়াই ঘৰলৈ আনিলে (Q), আৰু এতিয়া পোৱালিটো তেওঁৰ পৰিয়ালৰ সৈতে সুখেৰে আছে (S)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Bamboo baskets and mats are sold in the market. Q: Bamboo grows very fast in the moist soil of Assam. R: The plant is useful from its root to its tip. S: Villagers use bamboo to make houses and fences.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "QSPR", "as": "QSPR" },
+        { "en": "SQPR", "as": "SQPR" },
+        { "en": "PRQS", "as": "PRQS" },
+        { "en": "RQPS", "as": "RQPS" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: QSPR. Bamboo grows fast in Assam (Q), villagers make houses and fences with it (S), baskets and mats are sold in markets (P), and the whole plant is useful (R).", "as": "সঠিক ক্ৰম: QSPR। অসমৰ সেমেকা মাটিত বাঁহ দ্ৰুতগতিত বাঢ়ে (Q), গাঁৱলীয়াসকলে ঘৰ আৰু বেৰা সাজিবলৈ বাঁহ ব্যৱহাৰ কৰে (S), বজাৰত বাঁহৰ টুকুৰী আৰু মাকলি বিক্ৰী হয় (P), আৰু গছজোপা গুৰিৰ পৰা আগলৈকে উপযোগী (R)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: He carried his camera to take photographs. Q: We brought back many photos as memories. R: The tall walls and carved doors were beautiful. S: Today my uncle took us to see the old palace.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SPRQ", "as": "SPRQ" },
+        { "en": "RQPS", "as": "RQPS" },
+        { "en": "QSRP", "as": "QSRP" },
+        { "en": "PQSR", "as": "PQSR" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SPRQ. My uncle took us to the palace (S), he carried a camera (P), the walls and doors were beautiful (R), and we brought back photos (Q).", "as": "সঠিক ক্ৰম: SPRQ। আজি মামাই আমাক পুৰণি ৰাজপ্ৰসাদ চাবলৈ লৈ গ'ল (S), তেওঁ ফটো তোলাৰ বাবে কেমেৰা লৈছিল (P), ওখ দেৱাল আৰু খোদিত দুৱাৰবোৰ ধুনীয়া আছিল (R), আৰু আমি বহু ফটো স্মৃতি হিচাপে লৈ উভতি আহিলোঁ (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Mother made a list of things to buy. Q: We paid the bill and returned home. R: We went to the shop near our lane. S: The shopkeeper weighed the rice and the sugar.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "PRSQ", "as": "PRSQ" },
+        { "en": "RPQS", "as": "RPQS" },
+        { "en": "SQPR", "as": "SQPR" },
+        { "en": "QPSR", "as": "QPSR" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: PRSQ. Mother made a list (P), we went to the shop (R), the shopkeeper weighed the goods (S), and we paid and returned home (Q).", "as": "সঠিক ক্ৰম: PRSQ। মাকে কিনিবলগীয়া বস্তুৰ তালিকা বনালে (P), আমি ওচৰৰ দোকানলৈ গ'লোঁ (R), দোকানীয়ে চাউল-চেনি ওজন কৰিলে (S), আৰু আমি বিল পৰিশোধ কৰি ঘৰলৈ উভতি আহিলোঁ (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Dry leaves rose and swirled in the air. Q: A sudden gust shook the windows of the house. R: The wind blew strongly through the trees. S: Then the wind died down as suddenly as it had come.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "RPQS", "as": "RPQS" },
+        { "en": "RQPS", "as": "RQPS" },
+        { "en": "SPQR", "as": "SPQR" },
+        { "en": "PQRS", "as": "PQRS" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: RPQS. The wind blew strongly (R), dry leaves swirled in the air (P), a gust shook the windows (Q), and then the wind died down (S).", "as": "সঠিক ক্ৰম: RPQS। গছবোৰৰ মাজেৰে বতাহ জোৰেৰে বলিলে (R), শুকান পাতবোৰ ওপৰলৈ উঠি ঘূৰিবলৈ ধৰিলে (P), এটা ধুমুহাই ঘৰৰ খিৰিকী জোকাৰি দিলে (Q), আৰু আহিছিল যেনেকৈ হঠাৎ তেনেকৈয়ে বতাহ শান্ত হৈ গ'ল (S)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: Students ran races and played games. Q: The chief guest gave the opening speech. R: Winners received medals and prizes. S: The school celebrated its annual sports day.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SQPR", "as": "SQPR" },
+        { "en": "QSPR", "as": "QSPR" },
+        { "en": "RSPQ", "as": "RSPQ" },
+        { "en": "PRQS", "as": "PRQS" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SQPR. The school held its sports day (S), the chief guest spoke (Q), students ran races (P), and winners got medals (R).", "as": "সঠিক ক্ৰম: SQPR। বিদ্যালয়ে বাৰ্ষিক ক্ৰীড়া দিৱস পালন কৰিলে (S), মুখ্য অতিথিয়ে উদ্বোধনী ভাষণ দিলে (Q), ছাত্ৰ-ছাত্ৰীসকলে দৌৰ আৰু খেলত ভাগ ল'লে (P), আৰু বিজয়ীসকলে পদক আৰু বঁটা লাভ কৰিলে (R)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: The dried grain is stored in big bamboo bins. Q: From the bins rice is taken for daily cooking. R: The harvested paddy is spread out to dry in the sun. S: In autumn the farmers cut the ripe paddy.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "SRPQ", "as": "SRPQ" },
+        { "en": "RSPQ", "as": "RSPQ" },
+        { "en": "QPSR", "as": "QPSR" },
+        { "en": "PRQS", "as": "PRQS" }
+      ],
+      "correct": 0,
+      "a": { "en": "Correct order: SRPQ. Farmers cut the ripe paddy (S), it is dried in the sun (R), the dry grain is stored in bins (P), and rice is taken out for cooking (Q).", "as": "সঠিক ক্ৰম: SRPQ। শৰৎকালত কৃষকসকলে পকা ধান কাটে (S), কটা ধান ৰ'দত শুকাবলৈ মেলি দিয়ে (R), শুকান ধান ডাঙৰ বাঁহৰ ভৰালত জমা হয় (P), আৰু সেই ধানৰ পৰাই প্ৰতিদিনৰ ৰন্ধা চাউল উলিওৱা হয় (Q)।" }
+    },
+    {
+      "q": { "en": "Arrange the following sentences (P, Q, R, S) to form a meaningful paragraph and choose the correct order. P: It lands at LGBI airport in Guwahati. Q: On arrival the passengers collect their bags. R: The flight is often full of business travellers. S: A morning flight from Delhi leaves for Guwahati.", "as": "তলৰ বাক্যসমূহ (P, Q, R, S) অৰ্থপূৰ্ণ অনুচ্ছেদ গঠন হোৱাকৈ সজাই সঠিক ক্ৰম বাছনি কৰক।" },
+      "options": [
+        { "en": "QSRP", "as": "QSRP" },
+        { "en": "SRPQ", "as": "SRPQ" },
+        { "en": "PRQS", "as": "PRQS" },
+        { "en": "RQSP", "as": "RQSP" }
+      ],
+      "correct": 1,
+      "a": { "en": "Correct order: SRPQ. The morning flight leaves Delhi (S), it is often full of business travellers (R), it lands at LGBI airport (P), and passengers collect their bags on arrival (Q).", "as": "সঠিক ক্ৰম: SRPQ। দিল্লীৰ পৰা গুৱাহাটীলৈ যোৱা পুৱাৰ উৰাজাহাজখন যাত্ৰা আৰম্ভ কৰে (S), ই প্ৰায়ে ব্যৱসায়ী যাত্ৰীৰে ভৰি থাকে (R), ই লোকপ্ৰিয় গোপীনাথ বৰদলৈ আন্তঃৰাষ্ট্ৰীয় বিমানবন্দৰত নামে (P), আৰু গ'তে যাত্ৰীসকলে নিজৰ সামগ্ৰী লৈ যায় (Q)।" }
+    }
+  ]
 }
