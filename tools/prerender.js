@@ -494,7 +494,7 @@ ${body}
   <script src="/js/config.js?v=20260902a"></script>
   <script src="/js/i18n.js?v=20260902a"></script>
   <script src="/js/api.js?v=20260904e"></script>
-  <script src="/js/app.js?v=20260904d"></script>
+  <script src="/js/app.js?v=20260904f"></script>
 </body>
 </html>
 `;
@@ -680,12 +680,22 @@ function buildCategoryPage(cat) {
   let listing = "";
   if (subs.length) {
     listing = `<div class="sub-grid">${subs
-      .map(
-        (s) => `<a class="sub-card reveal" href="/category/${cat.id}/${s.id}" style="display:block; margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px; text-decoration:none;">
+      .map((s) => {
+        const secCount = (s.sections || []).length;
+        const topCount = (s.topics || []).length;
+        let meta;
+        if (secCount || topCount) {
+          meta = `${secCount || topCount} Topics`;
+        } else {
+          const c = readTopicContent(cat.id, s.id);
+          const q = (c && c.questions) ? c.questions.length : 0;
+          meta = q > 0 ? `${q} ${q === 1 ? "Question" : "Questions"}` : "Practice";
+        }
+        return `<a class="sub-card reveal" href="/category/${cat.id}/${s.id}" style="display:block; margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px; text-decoration:none;">
           <div style="font-weight:700; color:var(--ink,#0f172a);">${escapeHtml(loc(s.name))}</div>
-          <div style="font-size:0.8rem; color:#64748b;">${(s.sections || s.topics || []).length || 0} Topics</div>
-        </a>`
-      )
+          <div style="font-size:0.8rem; color:#64748b;">${meta}</div>
+        </a>`;
+      })
       .join("")}</div>`;
   } else if (secs.length) {
     listing = `<div class="sub-grid">${secs

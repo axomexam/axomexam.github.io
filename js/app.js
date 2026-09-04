@@ -961,12 +961,15 @@
           <div class="sub-grid">
             ${subs.map((s, i) => {
               const isLeaf = !isArticlesCat && !(s.sections && s.sections.length) && !(s.topics && s.topics.length);
+              const rec = isLeaf ? state.topicMap[`${cat.id}/${s.id}`] : null;
               const href = isArticlesCat
                 ? `/category/${cat.id}/${s.id}/read`
                 : (isLeaf ? `/topic/${cat.id}/${s.id}` : `/category/${cat.id}/${s.id}`);
               const meta = isArticlesCat
                 ? (state.uiLang === "as" ? "প্ৰবন্ধ পঢ়ক →" : "Read Articles →")
-                : (isLeaf ? t("btn.practice") : `${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} ${s.sections ? t("cat.subsections") : t("cat.topics")}`);
+                : isLeaf
+                  ? `<span id="count-${rec ? rec.path.replace(/\//g, '-') : `${cat.id}-${s.id}`}">${rec && rec.nQuestions > 0 ? `${rec.nQuestions} ${t("topic.questions")}` : t("btn.practice")}</span>`
+                  : `${(s.sections ? s.sections.length : 0) || (s.topics ? s.topics.length : 0)} ${s.sections ? t("cat.subsections") : t("cat.topics")}`;
               return `
               <a class="sub-card reveal" href="${href}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
                 <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
