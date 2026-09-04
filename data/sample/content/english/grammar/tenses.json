@@ -1,56 +1,1791 @@
 {
   "id": "tenses",
-  "title": { "en": "Tenses", "as": "কাল" },
-  "description": { "en": "Key tense rules for competitive exams.", "as": "প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে গুৰুত্বপূৰ্ণ কালৰ নিয়মসমূহ।" },
-  "tags": ["english", "grammar", "tense", "ইংৰাজী", "ব্যাকৰণ", "কাল"],
+  "title": {
+    "en": "Tenses",
+    "as": "Tenses (কাল)"
+  },
+  "description": {
+    "en": "English tenses - present, past and future forms with time markers and common errors asked in Assam competitive exams.",
+    "as": "ইংৰাজী কাল (Tenses) — বৰ্তমান, অতীত আৰু ভৱিষ্যত কালৰ ৰূপ, সময়সূচক শব্দ আৰু অসম প্ৰতিযোগিতামূলক পৰীক্ষাত অহা সাধাৰণ ভুল।"
+  },
+  "tags": [
+    "english",
+    "grammar",
+    "tenses",
+    "tense",
+    "ইংৰাজী",
+    "ব্যাকৰণ",
+    "কাল"
+  ],
   "questions": [
     {
-      "q": { "en": "Choose the correct sentence: 'She ___ to Guwahati yesterday.'", "as": "শুদ্ধ বাক্য বাছনি কৰক: 'She ___ to Guwahati yesterday.'" },
+      "q": {
+        "en": "Fill in the blank: 'She ___ to school every day.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'She ___ to school every day.'"
+      },
       "options": [
-        { "en": "went", "as": "went" },
-        { "en": "goes", "as": "goes" },
-        { "en": "has gone", "as": "has gone" },
-        { "en": "is going", "as": "is going" }
+        {
+          "en": "goes",
+          "as": "goes"
+        },
+        {
+          "en": "go",
+          "as": "go"
+        },
+        {
+          "en": "went",
+          "as": "went"
+        },
+        {
+          "en": "has gone",
+          "as": "has gone"
+        }
       ],
       "correct": 0,
-      "a": { "en": "'went' — simple past tense is used with 'yesterday'.", "as": "'went' — 'yesterday'ৰ সৈতে simple past tense ব্যৱহাৰ হয়।" }
+      "a": {
+        "en": "'Every day' shows a habit, so we use the simple present. With 'she' we add 's/es'.",
+        "as": "'every day' অভ্যাস বুজায়, গতিকে simple present হয়। 'she'ৰ লগত 's/es' যোগ হয়।"
+      }
     },
     {
-      "q": { "en": "I ___ my homework by the time you arrive.", "as": "আপুনি আহি পোৱাৰ সময়লৈ মই মোৰ গৃহকৰ্ম ___।" },
+      "q": {
+        "en": "Fill in the blank: 'The sun ___ in the east.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'The sun ___ in the east.'"
+      },
       "options": [
-        { "en": "will finish", "as": "will finish" },
-        { "en": "will have finished", "as": "will have finished" },
-        { "en": "finish", "as": "finish" },
-        { "en": "have finished", "as": "have finished" }
-      ],
-      "correct": 1,
-      "a": { "en": "'will have finished' — future perfect expresses an action completed before a future moment.", "as": "'will have finished' — ভৱিষ্যৎ ঘটনাৰ আগত সম্পূৰ্ণ হোৱা কাম বুজাবলৈ future perfect ব্যৱহাৰ হয়।" }
-    },
-    {
-      "q": { "en": "Which tense describes an action happening right now?", "as": "ঠিক এতিয়া চলি থকা কাম বুজাবলৈ কোন tense ব্যৱহাৰ হয়?" },
-      "options": [
-        { "en": "Present Continuous", "as": "Present Continuous" },
-        { "en": "Simple Past", "as": "Simple Past" },
-        { "en": "Future Perfect", "as": "Future Perfect" },
-        { "en": "Past Continuous", "as": "Past Continuous" }
+        {
+          "en": "rises",
+          "as": "rises"
+        },
+        {
+          "en": "rise",
+          "as": "rise"
+        },
+        {
+          "en": "rose",
+          "as": "rose"
+        },
+        {
+          "en": "has risen",
+          "as": "has risen"
+        }
       ],
       "correct": 0,
-      "a": { "en": "Present Continuous (e.g. 'I am studying').", "as": "Present Continuous (যেনে: 'I am studying')।" }
+      "a": {
+        "en": "A universal truth is always in the simple present tense.",
+        "as": "সৰ্বকালীন সত্য সদায় simple present tenseত থাকে।"
+      }
     },
     {
-      "q": { "en": "Fill the blank: 'They have lived in Assam ___ 2015.'", "as": "শূন্যস্থান পূৰণ কৰক: 'They have lived in Assam ___ 2015.'" },
-      "a": { "en": "'since' — used with a point of time; 'for' is used with a duration.", "as": "'since' — সময়ৰ বিন্দুৰ সৈতে ব্যৱহাৰ হয়; সময়ৰ পৰিসীমাৰ সৈতে 'for' ব্যৱহাৰ হয়।" }
-    },
-    {
-      "q": { "en": "Choose the past participle of 'begin'.", "as": "'begin'ৰ past participle বাছনি কৰক।" },
+      "q": {
+        "en": "Fill in the blank: 'Look! It ___ (rain) now.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'Look! It ___ (rain) now.'"
+      },
       "options": [
-        { "en": "began", "as": "began" },
-        { "en": "begun", "as": "begun" },
-        { "en": "beginning", "as": "beginning" },
-        { "en": "begins", "as": "begins" }
+        {
+          "en": "is raining",
+          "as": "is raining"
+        },
+        {
+          "en": "rains",
+          "as": "rains"
+        },
+        {
+          "en": "rained",
+          "as": "rained"
+        },
+        {
+          "en": "has rained",
+          "as": "has rained"
+        }
       ],
-      "correct": 1,
-      "a": { "en": "'begun' — begin, began, begun.", "as": "'begun' — begin, began, begun।" }
+      "correct": 0,
+      "a": {
+        "en": "An action happening now uses the present continuous (is + ing).",
+        "as": "এতিয়া চলি থকা কাৰ্য present continuous (is + ing)ত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'She ___ (cook) dinner at present.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'She ___ (cook) dinner at present.'"
+      },
+      "options": [
+        {
+          "en": "is cooking",
+          "as": "is cooking"
+        },
+        {
+          "en": "cooks",
+          "as": "cooks"
+        },
+        {
+          "en": "cooked",
+          "as": "cooked"
+        },
+        {
+          "en": "has cooked",
+          "as": "has cooked"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'At present' indicates an action going on now, so present continuous.",
+        "as": "'at present' এতিয়া চলি থকা কাৰ্য বুজায়, গতিকে present continuous।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'I ___ (finish) my homework just now.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'I ___ (finish) my homework just now.'"
+      },
+      "options": [
+        {
+          "en": "have finished",
+          "as": "have finished"
+        },
+        {
+          "en": "finish",
+          "as": "finish"
+        },
+        {
+          "en": "finished",
+          "as": "finished"
+        },
+        {
+          "en": "was finishing",
+          "as": "was finishing"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Just' suggests a recently completed action, so we use the present perfect.",
+        "as": "'just'য়ে শেহতীয়াকৈ সম্পন্ন কাৰ্য বুজায়, গতিকে present perfect হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'He ___ (live) here since 2005.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'He ___ (live) here since 2005.'"
+      },
+      "options": [
+        {
+          "en": "has lived",
+          "as": "has lived"
+        },
+        {
+          "en": "lives",
+          "as": "lives"
+        },
+        {
+          "en": "is living",
+          "as": "is living"
+        },
+        {
+          "en": "lived",
+          "as": "lived"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Since + a point of time' with an action still continuing takes the present perfect.",
+        "as": "'since + সময়ৰ বিন্দু' থাকিলে এতিয়াও চলি থকা কাৰ্য present perfect হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'They ___ (play) cricket for two hours.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'They ___ (play) cricket for two hours.'"
+      },
+      "options": [
+        {
+          "en": "have been playing",
+          "as": "have been playing"
+        },
+        {
+          "en": "are playing",
+          "as": "are playing"
+        },
+        {
+          "en": "played",
+          "as": "played"
+        },
+        {
+          "en": "play",
+          "as": "play"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'For + a period' with an action started in the past and still going on takes the present perfect continuous.",
+        "as": "'for + সময়ৰ দৈৰ্ঘ্য' আৰু অতীতত আৰম্ভ হৈ এতিয়াও চলি থকা কাৰ্য present perfect continuous হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'I ___ (visit) my uncle last week.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'I ___ (visit) my uncle last week.'"
+      },
+      "options": [
+        {
+          "en": "visited",
+          "as": "visited"
+        },
+        {
+          "en": "have visited",
+          "as": "have visited"
+        },
+        {
+          "en": "visit",
+          "as": "visit"
+        },
+        {
+          "en": "was visiting",
+          "as": "was visiting"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Last week' is a finished past time, so we use the simple past.",
+        "as": "'last week' সম্পন্ন অতীত সময়, গতিকে simple past হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'The baby ___ (cry) when I came in.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'The baby ___ (cry) when I came in.'"
+      },
+      "options": [
+        {
+          "en": "was crying",
+          "as": "was crying"
+        },
+        {
+          "en": "cried",
+          "as": "cried"
+        },
+        {
+          "en": "cries",
+          "as": "cries"
+        },
+        {
+          "en": "has cried",
+          "as": "has cried"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "An action going on when another past action happened uses the past continuous.",
+        "as": "অতীতৰ আন কাৰ্যৰ সময়ত চলি থকা কাৰ্য past continuous হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'The train ___ (leave) before we reached the station.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'The train ___ (leave) before we reached the station.'"
+      },
+      "options": [
+        {
+          "en": "had left",
+          "as": "had left"
+        },
+        {
+          "en": "left",
+          "as": "left"
+        },
+        {
+          "en": "leaves",
+          "as": "leaves"
+        },
+        {
+          "en": "was leaving",
+          "as": "was leaving"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "An action completed before another past action takes the past perfect.",
+        "as": "অতীতৰ আন কাৰ্যৰ আগত সম্পন্ন হোৱা কাৰ্য past perfect হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'He ___ (work) for three hours before the boss came.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'He ___ (work) for three hours before the boss came.'"
+      },
+      "options": [
+        {
+          "en": "had been working",
+          "as": "had been working"
+        },
+        {
+          "en": "has been working",
+          "as": "has been working"
+        },
+        {
+          "en": "was working",
+          "as": "was working"
+        },
+        {
+          "en": "worked",
+          "as": "worked"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "An action continuing up to a past point uses the past perfect continuous.",
+        "as": "অতীতৰ কোনো সময়লৈকে চলি থকা কাৰ্য past perfect continuous হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'I ___ (call) you tomorrow.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'I ___ (call) you tomorrow.'"
+      },
+      "options": [
+        {
+          "en": "will call",
+          "as": "will call"
+        },
+        {
+          "en": "call",
+          "as": "call"
+        },
+        {
+          "en": "called",
+          "as": "called"
+        },
+        {
+          "en": "have called",
+          "as": "have called"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Tomorrow' indicates a future action, so we use 'will + verb'.",
+        "as": "'tomorrow' ভৱিষ্যত বুজায়, গতিকে 'will + verb' হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'She ___ (finish) the work by evening.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'She ___ (finish) the work by evening.'"
+      },
+      "options": [
+        {
+          "en": "will have finished",
+          "as": "will have finished"
+        },
+        {
+          "en": "will finish",
+          "as": "will finish"
+        },
+        {
+          "en": "finishes",
+          "as": "finishes"
+        },
+        {
+          "en": "has finished",
+          "as": "has finished"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'By + a future time' showing completion takes the future perfect.",
+        "as": "'by + ভৱিষ্যত সময়'ত সম্পন্নতা বুজালে future perfect হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'This time next week I ___ (travel) to Delhi.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'This time next week I ___ (travel) to Delhi.'"
+      },
+      "options": [
+        {
+          "en": "will be travelling",
+          "as": "will be travelling"
+        },
+        {
+          "en": "will travel",
+          "as": "will travel"
+        },
+        {
+          "en": "am travelling",
+          "as": "am travelling"
+        },
+        {
+          "en": "have travelled",
+          "as": "have travelled"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "An action in progress at a certain future time uses the future continuous.",
+        "as": "ভৱিষ্যতৰ নিৰ্দিষ্ট সময়ত চলি থকা কাৰ্য future continuous হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Since morning' is a marker mainly used with which tense?",
+        "as": "'since morning' মূলত কোন কালৰ লগত ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Present perfect continuous",
+          "as": "Present perfect continuous"
+        },
+        {
+          "en": "Simple past",
+          "as": "Simple past"
+        },
+        {
+          "en": "Past perfect",
+          "as": "Past perfect"
+        },
+        {
+          "en": "Future simple",
+          "as": "Future simple"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Since + a starting point' is typical of the present perfect / present perfect continuous tense.",
+        "as": "'since + আৰম্ভণি বিন্দু' present perfect / present perfect continuous ৰ বৈশিষ্ট্যপূৰ্ণ।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Yesterday' is a marker mainly used with which tense?",
+        "as": "'yesterday' মূলত কোন কালৰ লগত ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Simple past",
+          "as": "Simple past"
+        },
+        {
+          "en": "Simple present",
+          "as": "Simple present"
+        },
+        {
+          "en": "Future perfect",
+          "as": "Future perfect"
+        },
+        {
+          "en": "Present continuous",
+          "as": "Present continuous"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Yesterday' points to a finished past time, so the simple past is used.",
+        "as": "'yesterday' সম্পন্ন অতীত সময়লৈ নিৰ্দেশ কৰে, গতিকে simple past হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'I met him two days ___.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'I met him two days ___.'"
+      },
+      "options": [
+        {
+          "en": "ago",
+          "as": "ago"
+        },
+        {
+          "en": "before",
+          "as": "before"
+        },
+        {
+          "en": "since",
+          "as": "since"
+        },
+        {
+          "en": "for",
+          "as": "for"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Ago' is used with a past time and the simple past tense.",
+        "as": "'ago' অতীত সময় আৰু simple past tenseৰ লগত ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'She has been working here ___ 2019.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'She has been working here ___ 2019.'"
+      },
+      "options": [
+        {
+          "en": "since",
+          "as": "since"
+        },
+        {
+          "en": "for",
+          "as": "for"
+        },
+        {
+          "en": "from",
+          "as": "from"
+        },
+        {
+          "en": "ago",
+          "as": "ago"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A point of time (2019) takes 'since' in the present perfect.",
+        "as": "সময়ৰ বিন্দু (২০১৯) present perfectত 'since' লয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which verb does not take the continuous form?",
+        "as": "কোনটো ক্রিয়া continuous ৰূপ নলয়?"
+      },
+      "options": [
+        {
+          "en": "know",
+          "as": "know"
+        },
+        {
+          "en": "run",
+          "as": "run"
+        },
+        {
+          "en": "sing",
+          "as": "sing"
+        },
+        {
+          "en": "dance",
+          "as": "dance"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Know' is a stative verb (state, not action), so we say 'I know', not 'I am knowing'.",
+        "as": "'know' এটা stative (অৱস্থাবোধক) ক্রিয়া; 'I know' হয়, 'I am knowing' নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'He ___ (know) the answer to this question.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'He ___ (know) the answer to this question.'"
+      },
+      "options": [
+        {
+          "en": "knows",
+          "as": "knows"
+        },
+        {
+          "en": "is knowing",
+          "as": "is knowing"
+        },
+        {
+          "en": "has been knowing",
+          "as": "has been knowing"
+        },
+        {
+          "en": "knew",
+          "as": "knew"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Stative verbs like 'know' are not used in the continuous form.",
+        "as": "'know'ৰ দৰে stative ক্রিয়া continuous ৰূপত নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Every day' is a marker mainly used with which tense?",
+        "as": "'every day' মূলত কোন কালৰ লগত ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Simple present",
+          "as": "Simple present"
+        },
+        {
+          "en": "Past perfect",
+          "as": "Past perfect"
+        },
+        {
+          "en": "Future continuous",
+          "as": "Future continuous"
+        },
+        {
+          "en": "Present perfect continuous",
+          "as": "Present perfect continuous"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Every day' shows a routine, so the simple present tense is used.",
+        "as": "'every day' নিয়মীয়া কাম বুজায়, গতিকে simple present হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'The earth ___ round the sun.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'The earth ___ round the sun.'"
+      },
+      "options": [
+        {
+          "en": "moves",
+          "as": "moves"
+        },
+        {
+          "en": "moved",
+          "as": "moved"
+        },
+        {
+          "en": "is moving",
+          "as": "is moving"
+        },
+        {
+          "en": "has moved",
+          "as": "has moved"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Scientific truths are expressed in the simple present tense.",
+        "as": "বৈজ্ঞানিক সত্য simple present tenseত প্ৰকাশ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'I ___ (see) him yesterday.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'I ___ (see) him yesterday.'"
+      },
+      "options": [
+        {
+          "en": "saw",
+          "as": "saw"
+        },
+        {
+          "en": "seen",
+          "as": "seen"
+        },
+        {
+          "en": "have seen",
+          "as": "have seen"
+        },
+        {
+          "en": "see",
+          "as": "see"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Yesterday' takes the simple past. The past of 'see' is 'saw'.",
+        "as": "'yesterday' simple past হয়। 'see'ৰ অতীত 'saw'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'She ___ (not, go) to Guwahati last month.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'She ___ (not, go) to Guwahati last month.'"
+      },
+      "options": [
+        {
+          "en": "did not go",
+          "as": "did not go"
+        },
+        {
+          "en": "does not go",
+          "as": "does not go"
+        },
+        {
+          "en": "has not gone",
+          "as": "has not gone"
+        },
+        {
+          "en": "was not going",
+          "as": "was not going"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The negative of the simple past is made with 'did not + base verb'.",
+        "as": "simple pastৰ নেতিবাচক ৰূপ 'did not + মূল ক্রিয়া'ৰে হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: '___ you ___ (eat) your breakfast yet?'",
+        "as": "খালী ঠাই পূৰণ কৰক: '___ you ___ (eat) your breakfast yet?'"
+      },
+      "options": [
+        {
+          "en": "Have ... eaten",
+          "as": "Have ... eaten"
+        },
+        {
+          "en": "Did ... ate",
+          "as": "Did ... ate"
+        },
+        {
+          "en": "Do ... ate",
+          "as": "Do ... ate"
+        },
+        {
+          "en": "Are ... eating",
+          "as": "Are ... eating"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Yet' is used with the present perfect: 'Have + past participle'.",
+        "as": "'yet' present perfectৰ লগত হয়: 'Have + past participle'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'He ___ (read) a book when the lights went out.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'He ___ (read) a book when the lights went out.'"
+      },
+      "options": [
+        {
+          "en": "was reading",
+          "as": "was reading"
+        },
+        {
+          "en": "read",
+          "as": "read"
+        },
+        {
+          "en": "reads",
+          "as": "reads"
+        },
+        {
+          "en": "had read",
+          "as": "had read"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "An action in progress in the past when another action interrupted it uses the past continuous.",
+        "as": "অতীতত চলি থকা কাৰ্যত আন কাৰ্যই বাধা দিলে past continuous হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'When I reached the hall, he ___ (already, leave).'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'When I reached the hall, he ___ (already, leave).'"
+      },
+      "options": [
+        {
+          "en": "had already left",
+          "as": "had already left"
+        },
+        {
+          "en": "has already left",
+          "as": "has already left"
+        },
+        {
+          "en": "already leaves",
+          "as": "already leaves"
+        },
+        {
+          "en": "was already leaving",
+          "as": "was already leaving"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "An action that happened before another past action is in the past perfect.",
+        "as": "অতীতৰ আন কাৰ্যৰ আগত হোৱা কাৰ্য past perfect হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'By next year I ___ (graduate).'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'By next year I ___ (graduate).'"
+      },
+      "options": [
+        {
+          "en": "will have graduated",
+          "as": "will have graduated"
+        },
+        {
+          "en": "will graduate",
+          "as": "will graduate"
+        },
+        {
+          "en": "graduate",
+          "as": "graduate"
+        },
+        {
+          "en": "have graduated",
+          "as": "have graduated"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'By + future time' takes the future perfect tense.",
+        "as": "'by + ভৱিষ্যত সময়'ত future perfect হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'They ___ (build) this bridge in 1990.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'They ___ (build) this bridge in 1990.'"
+      },
+      "options": [
+        {
+          "en": "built",
+          "as": "built"
+        },
+        {
+          "en": "build",
+          "as": "build"
+        },
+        {
+          "en": "have built",
+          "as": "have built"
+        },
+        {
+          "en": "were building",
+          "as": "were building"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'In 1990' is a finished past time, so we use the simple past 'built'.",
+        "as": "'in 1990' সম্পন্ন অতীত সময়, গতিকে simple past 'built' হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'The movie ___ (start) before we reached the hall.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'The movie ___ (start) before we reached the hall.'"
+      },
+      "options": [
+        {
+          "en": "had started",
+          "as": "had started"
+        },
+        {
+          "en": "started",
+          "as": "started"
+        },
+        {
+          "en": "starts",
+          "as": "starts"
+        },
+        {
+          "en": "has started",
+          "as": "has started"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The earlier of two past actions is in the past perfect.",
+        "as": "দুটা অতীত কাৰ্যৰ আগত হোৱাটো past perfect হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'I ___ (write) this letter since morning.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'I ___ (write) this letter since morning.'"
+      },
+      "options": [
+        {
+          "en": "have been writing",
+          "as": "have been writing"
+        },
+        {
+          "en": "am writing",
+          "as": "am writing"
+        },
+        {
+          "en": "wrote",
+          "as": "wrote"
+        },
+        {
+          "en": "write",
+          "as": "write"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Since morning' with an action still going on takes the present perfect continuous.",
+        "as": "'since morning' আৰু এতিয়াও চলি থকা কাৰ্য present perfect continuous হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'It ___ (not, rain) now.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'It ___ (not, rain) now.'"
+      },
+      "options": [
+        {
+          "en": "is not raining",
+          "as": "is not raining"
+        },
+        {
+          "en": "does not raining",
+          "as": "does not raining"
+        },
+        {
+          "en": "not raining",
+          "as": "not raining"
+        },
+        {
+          "en": "has not raining",
+          "as": "has not raining"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The negative of the present continuous is 'is/am/are + not + ing'.",
+        "as": "present continuousৰ নেতিবাচক ৰূপ 'is/am/are + not + ing'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'How long ___ you ___ (learn) English?'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'How long ___ you ___ (learn) English?'"
+      },
+      "options": [
+        {
+          "en": "have ... been learning",
+          "as": "have ... been learning"
+        },
+        {
+          "en": "are ... learning",
+          "as": "are ... learning"
+        },
+        {
+          "en": "do ... learn",
+          "as": "do ... learn"
+        },
+        {
+          "en": "did ... learn",
+          "as": "did ... learn"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'How long' asks about duration up to now, so the present perfect continuous is used.",
+        "as": "'how long'য়ে এতিয়ালৈকে সময় বিচাৰে, গতিকে present perfect continuous হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'My brother ___ (play) cricket every evening.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'My brother ___ (play) cricket every evening.'"
+      },
+      "options": [
+        {
+          "en": "plays",
+          "as": "plays"
+        },
+        {
+          "en": "play",
+          "as": "play"
+        },
+        {
+          "en": "is playing",
+          "as": "is playing"
+        },
+        {
+          "en": "has played",
+          "as": "has played"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A routine with a third-person subject takes 'plays' (adds s/es).",
+        "as": "তৃতীয় পুৰুষৰ নিয়মীয়া কামত 'plays' (s/es যোগ) হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'She ___ (wash) her clothes at present.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'She ___ (wash) her clothes at present.'"
+      },
+      "options": [
+        {
+          "en": "is washing",
+          "as": "is washing"
+        },
+        {
+          "en": "washes",
+          "as": "washes"
+        },
+        {
+          "en": "washed",
+          "as": "washed"
+        },
+        {
+          "en": "will wash",
+          "as": "will wash"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'At present' shows an action happening now, so present continuous.",
+        "as": "'at present' এতিয়া হোৱা কাৰ্য দেখুৱায়, গতিকে present continuous।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'The train ___ at 6 pm every day.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'The train ___ at 6 pm every day.'"
+      },
+      "options": [
+        {
+          "en": "leaves",
+          "as": "leaves"
+        },
+        {
+          "en": "is leaving",
+          "as": "is leaving"
+        },
+        {
+          "en": "has left",
+          "as": "has left"
+        },
+        {
+          "en": "left",
+          "as": "left"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Fixed timetables and schedules are expressed in the simple present.",
+        "as": "নিৰ্ধাৰিত সময়সূচী simple present tenseত প্ৰকাশ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'They ___ (not, watch) TV last night.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'They ___ (not, watch) TV last night.'"
+      },
+      "options": [
+        {
+          "en": "did not watch",
+          "as": "did not watch"
+        },
+        {
+          "en": "were not watch",
+          "as": "were not watch"
+        },
+        {
+          "en": "do not watch",
+          "as": "do not watch"
+        },
+        {
+          "en": "have not watched",
+          "as": "have not watched"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Last night' takes the simple past negative: 'did not + watch'.",
+        "as": "'last night' simple past নেতিবাচক হয়: 'did not + watch'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'We ___ (live) in Assam for ten years now.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'We ___ (live) in Assam for ten years now.'"
+      },
+      "options": [
+        {
+          "en": "have lived",
+          "as": "have lived"
+        },
+        {
+          "en": "live",
+          "as": "live"
+        },
+        {
+          "en": "lived",
+          "as": "lived"
+        },
+        {
+          "en": "are living",
+          "as": "are living"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'For + period + now' shows an action continuing to the present, so the present perfect is used.",
+        "as": "'for + সময় + now' বৰ্তমানলৈকে চলি থকা কাৰ্য দেখুৱায়, গতিকে present perfect হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'Look! The boy ___ (drown)!'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'Look! The boy ___ (drown)!'"
+      },
+      "options": [
+        {
+          "en": "is drowning",
+          "as": "is drowning"
+        },
+        {
+          "en": "drowns",
+          "as": "drowns"
+        },
+        {
+          "en": "drowned",
+          "as": "drowned"
+        },
+        {
+          "en": "has drowned",
+          "as": "has drowned"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Look!' points to an action happening at this moment, so present continuous.",
+        "as": "'look!' এতিয়া হোৱা কাৰ্য নিৰ্দেশ কৰে, গতিকে present continuous।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'I ___ (hear) a strange noise just now.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'I ___ (hear) a strange noise just now.'"
+      },
+      "options": [
+        {
+          "en": "heard",
+          "as": "heard"
+        },
+        {
+          "en": "hear",
+          "as": "hear"
+        },
+        {
+          "en": "am hearing",
+          "as": "am hearing"
+        },
+        {
+          "en": "have been hearing",
+          "as": "have been hearing"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Just now' means a moment ago, so the simple past 'heard' is used.",
+        "as": "'just now' অৰ্থাৎ অলপ আগতে, গতিকে simple past 'heard' হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'Water ___ at 100 degrees Celsius.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'Water ___ at 100 degrees Celsius.'"
+      },
+      "options": [
+        {
+          "en": "boils",
+          "as": "boils"
+        },
+        {
+          "en": "boiled",
+          "as": "boiled"
+        },
+        {
+          "en": "is boiling",
+          "as": "is boiling"
+        },
+        {
+          "en": "has boiled",
+          "as": "has boiled"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A scientific fact is in the simple present tense.",
+        "as": "বৈজ্ঞানিক তথ্য simple present tenseত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'He ___ (sleep) when the phone rang.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'He ___ (sleep) when the phone rang.'"
+      },
+      "options": [
+        {
+          "en": "was sleeping",
+          "as": "was sleeping"
+        },
+        {
+          "en": "slept",
+          "as": "slept"
+        },
+        {
+          "en": "sleeps",
+          "as": "sleeps"
+        },
+        {
+          "en": "has slept",
+          "as": "has slept"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "An action in progress in the past when interrupted uses the past continuous.",
+        "as": "অতীতত চলি থকা কাৰ্যত বাধা পৰিলে past continuous হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'She has been ill ___ Monday.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'She has been ill ___ Monday.'"
+      },
+      "options": [
+        {
+          "en": "since",
+          "as": "since"
+        },
+        {
+          "en": "for",
+          "as": "for"
+        },
+        {
+          "en": "from",
+          "as": "from"
+        },
+        {
+          "en": "to",
+          "as": "to"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A point of time (Monday) takes 'since' in the present perfect.",
+        "as": "সময়ৰ বিন্দু (সোমবাৰ) present perfectত 'since' লয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'By the time we arrived, they ___ (eat) everything.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'By the time we arrived, they ___ (eat) everything.'"
+      },
+      "options": [
+        {
+          "en": "had eaten",
+          "as": "had eaten"
+        },
+        {
+          "en": "ate",
+          "as": "ate"
+        },
+        {
+          "en": "have eaten",
+          "as": "have eaten"
+        },
+        {
+          "en": "were eating",
+          "as": "were eating"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'By the time + past' requires the past perfect for the earlier action.",
+        "as": "'by the time + অতীত'ত আগৰ কাৰ্যৰ বাবে past perfect লাগে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'This time tomorrow, I ___ (fly) over the clouds.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'This time tomorrow, I ___ (fly) over the clouds.'"
+      },
+      "options": [
+        {
+          "en": "will be flying",
+          "as": "will be flying"
+        },
+        {
+          "en": "will fly",
+          "as": "will fly"
+        },
+        {
+          "en": "am flying",
+          "as": "am flying"
+        },
+        {
+          "en": "flew",
+          "as": "flew"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'This time tomorrow' shows an action in progress at a future time, so the future continuous.",
+        "as": "'this time tomorrow' ভৱিষ্যতত চলি থকা কাৰ্য দেখুৱায়, গতিকে future continuous।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: '___ you ever ___ (see) the Taj Mahal?'",
+        "as": "খালী ঠাই পূৰণ কৰক: '___ you ever ___ (see) the Taj Mahal?'"
+      },
+      "options": [
+        {
+          "en": "Have ... seen",
+          "as": "Have ... seen"
+        },
+        {
+          "en": "Did ... saw",
+          "as": "Did ... saw"
+        },
+        {
+          "en": "Do ... saw",
+          "as": "Do ... saw"
+        },
+        {
+          "en": "Are ... seeing",
+          "as": "Are ... seeing"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Ever' is used with the present perfect: 'Have + past participle'.",
+        "as": "'ever' present perfectৰ লগত হয়: 'Have + past participle'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'They ___ (build) the road for several months.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'They ___ (build) the road for several months.'"
+      },
+      "options": [
+        {
+          "en": "have been building",
+          "as": "have been building"
+        },
+        {
+          "en": "build",
+          "as": "build"
+        },
+        {
+          "en": "built",
+          "as": "built"
+        },
+        {
+          "en": "had built",
+          "as": "had built"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'For + period' with an unfinished ongoing action takes the present perfect continuous.",
+        "as": "'for + সময়' আৰু সমাপ্ত নোহোৱা চলি থকা কাৰ্য present perfect continuous হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'I will call you as soon as I ___ (reach) home.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'I will call you as soon as I ___ (reach) home.'"
+      },
+      "options": [
+        {
+          "en": "reach",
+          "as": "reach"
+        },
+        {
+          "en": "will reach",
+          "as": "will reach"
+        },
+        {
+          "en": "reached",
+          "as": "reached"
+        },
+        {
+          "en": "have reached",
+          "as": "have reached"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "After 'as soon as / when / if' in a future sentence we use the present tense, not 'will'.",
+        "as": "'as soon as / when / if'ৰ পিছত ভৱিষ্যত বুজালেও present tense হয়, 'will' নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'If it ___ (rain) tomorrow, we will cancel the match.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'If it ___ (rain) tomorrow, we will cancel the match.'"
+      },
+      "options": [
+        {
+          "en": "rains",
+          "as": "rains"
+        },
+        {
+          "en": "will rain",
+          "as": "will rain"
+        },
+        {
+          "en": "rained",
+          "as": "rained"
+        },
+        {
+          "en": "would rain",
+          "as": "would rain"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "In the first conditional, the 'if' clause takes the simple present and the main clause takes 'will'.",
+        "as": "first conditionalত 'if' খণ্ডত simple present আৰু মূল বাক্যত 'will' হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'The earth ___ (be) round.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'The earth ___ (be) round.'"
+      },
+      "options": [
+        {
+          "en": "is",
+          "as": "is"
+        },
+        {
+          "en": "was",
+          "as": "was"
+        },
+        {
+          "en": "has been",
+          "as": "has been"
+        },
+        {
+          "en": "will be",
+          "as": "will be"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A universal truth always stays in the simple present.",
+        "as": "সাৰ্বজনীন সত্য সদায় simple present tenseত থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'He speaks as if he ___ everything.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'He speaks as if he ___ everything.'"
+      },
+      "options": [
+        {
+          "en": "knew",
+          "as": "knew"
+        },
+        {
+          "en": "knows",
+          "as": "knows"
+        },
+        {
+          "en": "know",
+          "as": "know"
+        },
+        {
+          "en": "is knowing",
+          "as": "is knowing"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "After 'as if / as though' we use a past tense for an unreal or imaginary comparison.",
+        "as": "'as if / as though'ৰ পিছত অবাস্তৱ বা কল্পনামূলক তুলনাত past tense হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'I wish I ___ (be) a bird.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'I wish I ___ (be) a bird.'"
+      },
+      "options": [
+        {
+          "en": "were",
+          "as": "were"
+        },
+        {
+          "en": "am",
+          "as": "am"
+        },
+        {
+          "en": "was",
+          "as": "was"
+        },
+        {
+          "en": "be",
+          "as": "be"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "After 'wish' we use the subjunctive past 'were' for unreal wishes.",
+        "as": "'wish'ৰ পিছত অবাস্তৱ ইচ্ছাত subjunctive 'were' হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'It is high time we ___ (go) home.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'It is high time we ___ (go) home.'"
+      },
+      "options": [
+        {
+          "en": "went",
+          "as": "went"
+        },
+        {
+          "en": "go",
+          "as": "go"
+        },
+        {
+          "en": "will go",
+          "as": "will go"
+        },
+        {
+          "en": "have gone",
+          "as": "have gone"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "After 'It is time / high time' we use a past tense.",
+        "as": "'It is time / high time'ৰ পিছত past tense হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'She talks as though she ___ (know) all the answers.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'She talks as though she ___ (know) all the answers.'"
+      },
+      "options": [
+        {
+          "en": "knew",
+          "as": "knew"
+        },
+        {
+          "en": "knows",
+          "as": "knows"
+        },
+        {
+          "en": "know",
+          "as": "know"
+        },
+        {
+          "en": "will know",
+          "as": "will know"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "After 'as though / as if' we use the past tense for an unreal situation.",
+        "as": "'as though / as if'ৰ পিছত অবাস্তৱ পৰিস্থিতিত past tense হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'He ___ (go) to Guwahati next month.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'He ___ (go) to Guwahati next month.'"
+      },
+      "options": [
+        {
+          "en": "will go",
+          "as": "will go"
+        },
+        {
+          "en": "goes",
+          "as": "goes"
+        },
+        {
+          "en": "went",
+          "as": "went"
+        },
+        {
+          "en": "has gone",
+          "as": "has gone"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Next month' is future time, so 'will + go' is used.",
+        "as": "'next month' ভৱিষ্যত সময়, গতিকে 'will + go' হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: '___ she ___ (like) black tea?'",
+        "as": "খালী ঠাই পূৰণ কৰক: '___ she ___ (like) black tea?'"
+      },
+      "options": [
+        {
+          "en": "Does ... like",
+          "as": "Does ... like"
+        },
+        {
+          "en": "Do ... like",
+          "as": "Do ... like"
+        },
+        {
+          "en": "Is ... liking",
+          "as": "Is ... liking"
+        },
+        {
+          "en": "Did ... liked",
+          "as": "Did ... liked"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The interrogative of the simple present with 'she' uses 'Does + base verb'.",
+        "as": "'she'ৰ simple present প্ৰশ্নত 'Does + মূল ক্রিয়া' হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'They ___ (not, come) back yet.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'They ___ (not, come) back yet.'"
+      },
+      "options": [
+        {
+          "en": "have not come",
+          "as": "have not come"
+        },
+        {
+          "en": "did not came",
+          "as": "did not came"
+        },
+        {
+          "en": "do not came",
+          "as": "do not came"
+        },
+        {
+          "en": "were not coming",
+          "as": "were not coming"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Yet' takes the present perfect negative: 'have not + past participle'.",
+        "as": "'yet' present perfect নেতিবাচক হয়: 'have not + past participle'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'The children ___ (play) in the park since 4 o'clock.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'The children ___ (play) in the park since 4 o'clock.'"
+      },
+      "options": [
+        {
+          "en": "have been playing",
+          "as": "have been playing"
+        },
+        {
+          "en": "are playing",
+          "as": "are playing"
+        },
+        {
+          "en": "played",
+          "as": "played"
+        },
+        {
+          "en": "play",
+          "as": "play"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Since + point of time' with a continuing action takes the present perfect continuous.",
+        "as": "'since + সময় বিন্দু' আৰু চলি থকা কাৰ্য present perfect continuous হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'I ___ (not, see) him since 2020.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'I ___ (not, see) him since 2020.'"
+      },
+      "options": [
+        {
+          "en": "have not seen",
+          "as": "have not seen"
+        },
+        {
+          "en": "did not see",
+          "as": "did not see"
+        },
+        {
+          "en": "do not see",
+          "as": "do not see"
+        },
+        {
+          "en": "was not seeing",
+          "as": "was not seeing"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Since + point of time' in a negative sense takes the present perfect negative.",
+        "as": "'since + সময় বিন্দু' নেতিবাচক অৰ্থত present perfect negative হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'We ___ (know) each other for many years.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'We ___ (know) each other for many years.'"
+      },
+      "options": [
+        {
+          "en": "have known",
+          "as": "have known"
+        },
+        {
+          "en": "are knowing",
+          "as": "are knowing"
+        },
+        {
+          "en": "knew",
+          "as": "knew"
+        },
+        {
+          "en": "know",
+          "as": "know"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'For + period' up to now takes the present perfect 'have known'.",
+        "as": "'for + সময়' এতিয়ালৈকে present perfect 'have known' হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'While I ___ (walk) on the road, I met an old friend.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'While I ___ (walk) on the road, I met an old friend.'"
+      },
+      "options": [
+        {
+          "en": "was walking",
+          "as": "was walking"
+        },
+        {
+          "en": "walked",
+          "as": "walked"
+        },
+        {
+          "en": "walk",
+          "as": "walk"
+        },
+        {
+          "en": "have walked",
+          "as": "have walked"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'While' introduces a longer background action, so the past continuous is used.",
+        "as": "'while'য়ে দীঘলীয়া পটভূমি কাৰ্য বুজায়, গতিকে past continuous হয়।"
+      }
     }
   ]
 }
