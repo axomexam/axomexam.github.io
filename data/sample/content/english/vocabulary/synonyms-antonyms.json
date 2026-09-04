@@ -1,49 +1,6173 @@
 {
   "id": "synonyms-antonyms",
-  "title": { "en": "Synonyms & Antonyms", "as": "সমাৰ্থক আৰু বিপৰীত শব্দ" },
-  "description": { "en": "High-frequency synonyms and antonyms for exams.", "as": "পৰীক্ষাৰ বাবে সঘনাই সোধা সমাৰ্থক আৰু বিপৰীত শব্দ।" },
-  "tags": ["english", "vocabulary", "synonym", "antonym", "ইংৰাজী", "শব্দভাণ্ডাৰ"],
+  "title": {
+    "en": "Synonyms & Antonyms",
+    "as": "সমাৰ্থক আৰু বিপৰীত শব্দ"
+  },
+  "description": {
+    "en": "High-frequency synonyms and antonyms for Assam competitive exams.",
+    "as": "অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে সঘনাই সোধা সমাৰ্থক আৰু বিপৰীত শব্দ।"
+  },
+  "tags": [
+    "english",
+    "vocabulary",
+    "synonym",
+    "antonym",
+    "assam",
+    "competitive",
+    "ইংৰাজী",
+    "শব্দভাণ্ডাৰ",
+    "সমাৰ্থক",
+    "বিপৰীত শব্দ"
+  ],
   "questions": [
     {
-      "q": { "en": "Choose the synonym of 'Abundant'.", "as": "'Abundant'ৰ সমাৰ্থক শব্দ বাছনি কৰক।" },
+      "q": {
+        "en": "Choose the antonym of 'Abandon'.",
+        "as": "'Abandon'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
       "options": [
-        { "en": "Scarce", "as": "Scarce" },
-        { "en": "Plentiful", "as": "Plentiful" },
-        { "en": "Rare", "as": "Rare" },
-        { "en": "Limited", "as": "Limited" }
+        {
+          "en": "Forsake",
+          "as": "Forsake"
+        },
+        {
+          "en": "Retain",
+          "as": "Retain"
+        },
+        {
+          "en": "Desert",
+          "as": "Desert"
+        },
+        {
+          "en": "Quit",
+          "as": "Quit"
+        }
       ],
       "correct": 1,
-      "a": { "en": "'Plentiful' means existing in large quantities.", "as": "'Plentiful' মানে প্ৰচুৰ পৰিমাণে থকা।" }
+      "a": {
+        "en": "'Retain' means to keep something; it is the opposite of 'abandon' (to give up).",
+        "as": "'Retain' মানে ৰাখি থোৱা; এইটো 'Abandon' (পৰিত্যাগ কৰা) ৰ বিপৰীত।"
+      }
     },
     {
-      "q": { "en": "Choose the antonym of 'Victory'.", "as": "'Victory'ৰ বিপৰীত শব্দ বাছনি কৰক।" },
+      "q": {
+        "en": "Choose the synonym of 'Abhor'.",
+        "as": "'Abhor'ৰ সমাৰ্থক শব্দ বাছনি কৰক।"
+      },
       "options": [
-        { "en": "Triumph", "as": "Triumph" },
-        { "en": "Success", "as": "Success" },
-        { "en": "Defeat", "as": "Defeat" },
-        { "en": "Win", "as": "Win" }
+        {
+          "en": "Detest",
+          "as": "Detest"
+        },
+        {
+          "en": "Admire",
+          "as": "Admire"
+        },
+        {
+          "en": "Cherish",
+          "as": "Cherish"
+        },
+        {
+          "en": "Love",
+          "as": "Love"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Detest' means to hate someone or something very much.",
+        "as": "'Detest' মানে কাকোবা কোনো বস্তুক অতি ঘৃণা কৰা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Abolish'.",
+        "as": "'Abolish'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Annul",
+          "as": "Annul"
+        },
+        {
+          "en": "Revoke",
+          "as": "Revoke"
+        },
+        {
+          "en": "Establish",
+          "as": "Establish"
+        },
+        {
+          "en": "Cancel",
+          "as": "Cancel"
+        }
       ],
       "correct": 2,
-      "a": { "en": "'Defeat' is the opposite of 'Victory'.", "as": "'Defeat' হৈছে 'Victory'ৰ বিপৰীত।" }
+      "a": {
+        "en": "'Establish' means to set up permanently; it is the opposite of 'abolish' (to do away with).",
+        "as": "'Establish' মানে স্থাপন কৰা; এইটো 'Abolish' (উচ্ছেদ কৰা) ৰ বিপৰীত।"
+      }
     },
     {
-      "q": { "en": "Synonym of 'Brave' is:", "as": "'Brave'ৰ সমাৰ্থক শব্দ হ'ল:" },
+      "q": {
+        "en": "Choose the antonym of 'Absurd'.",
+        "as": "'Absurd'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
       "options": [
-        { "en": "Cowardly", "as": "Cowardly" },
-        { "en": "Timid", "as": "Timid" },
-        { "en": "Courageous", "as": "Courageous" },
-        { "en": "Fearful", "as": "Fearful" }
+        {
+          "en": "Ridiculous",
+          "as": "Ridiculous"
+        },
+        {
+          "en": "Sensible",
+          "as": "Sensible"
+        },
+        {
+          "en": "Silly",
+          "as": "Silly"
+        },
+        {
+          "en": "Preposterous",
+          "as": "Preposterous"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Sensible' means reasonable and practical; it is the opposite of 'absurd'.",
+        "as": "'Sensible' মানে যুক্তিসংগত; এইটো 'Absurd' (অসংগত) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Accord'.",
+        "as": "'Accord'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Discord",
+          "as": "Discord"
+        },
+        {
+          "en": "Agreement",
+          "as": "Agreement"
+        },
+        {
+          "en": "Concord",
+          "as": "Concord"
+        },
+        {
+          "en": "Harmony",
+          "as": "Harmony"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Discord' means disagreement and conflict; it is the opposite of 'accord'.",
+        "as": "'Discord' মানে মতভেদ আৰু সংঘাত; এইটো 'Accord' (মতৈক্য) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Adhere'.",
+        "as": "'Adhere'ৰ সমাৰ্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Detach",
+          "as": "Detach"
+        },
+        {
+          "en": "Separate",
+          "as": "Separate"
+        },
+        {
+          "en": "Cling",
+          "as": "Cling"
+        },
+        {
+          "en": "Abandon",
+          "as": "Abandon"
+        }
       ],
       "correct": 2,
-      "a": { "en": "'Courageous' — showing courage.", "as": "'Courageous' — সাহস দেখুওৱা।" }
+      "a": {
+        "en": "'Cling' means to stick firmly to something, like 'adhere'.",
+        "as": "'Cling' মানে দৃঢ়ভাৱে লাগি থকা; 'Adhere'ৰ দৰেই।"
+      }
     },
     {
-      "q": { "en": "Antonym of 'Expand' is:", "as": "'Expand'ৰ বিপৰীত শব্দ হ'ল:" },
-      "a": { "en": "'Contract' or 'Shrink'.", "as": "'Contract' বা 'Shrink'।" }
+      "q": {
+        "en": "Choose the antonym of 'Adversity'.",
+        "as": "'Adversity'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Misfortune",
+          "as": "Misfortune"
+        },
+        {
+          "en": "Hardship",
+          "as": "Hardship"
+        },
+        {
+          "en": "Calamity",
+          "as": "Calamity"
+        },
+        {
+          "en": "Prosperity",
+          "as": "Prosperity"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Prosperity' means success and good fortune; it is the opposite of 'adversity'.",
+        "as": "'Prosperity' মানে সমৃদ্ধি আৰু সৌভাগ্য; এইটো 'Adversity' (দুৰ্ভাগ্য) ৰ বিপৰীত।"
+      }
     },
     {
-      "q": { "en": "Synonym of 'Obstinate' is:", "as": "'Obstinate'ৰ সমাৰ্থক শব্দ হ'ল:" },
-      "a": { "en": "'Stubborn'.", "as": "'Stubborn'।" }
+      "q": {
+        "en": "Choose the antonym of 'Agile'.",
+        "as": "'Agile'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Clumsy",
+          "as": "Clumsy"
+        },
+        {
+          "en": "Nimble",
+          "as": "Nimble"
+        },
+        {
+          "en": "Quick",
+          "as": "Quick"
+        },
+        {
+          "en": "Supple",
+          "as": "Supple"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Clumsy' means awkward in movement; it is the opposite of 'agile'.",
+        "as": "'Clumsy' মানে গতিৰ ক্ষেত্ৰত থেৰেগেৰা; এইটো 'Agile' (চপল) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Alien'.",
+        "as": "'Alien'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Foreign",
+          "as": "Foreign"
+        },
+        {
+          "en": "Strange",
+          "as": "Strange"
+        },
+        {
+          "en": "Native",
+          "as": "Native"
+        },
+        {
+          "en": "Exotic",
+          "as": "Exotic"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Native' means belonging to one's own place; it is the opposite of 'alien'.",
+        "as": "'Native' মানে নিজ ঠাইৰ; এইটো 'Alien' (বিদেশী) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Ambiguous'.",
+        "as": "'Ambiguous'ৰ সমাৰ্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Clear",
+          "as": "Clear"
+        },
+        {
+          "en": "Unclear",
+          "as": "Unclear"
+        },
+        {
+          "en": "Certain",
+          "as": "Certain"
+        },
+        {
+          "en": "Obvious",
+          "as": "Obvious"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Unclear' means open to more than one interpretation, like 'ambiguous'.",
+        "as": "'Unclear' মানে অস্পষ্ট বা একাধিক অৰ্থ দিব পৰা; 'Ambiguous'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Ample'.",
+        "as": "'Ample'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Insufficient",
+          "as": "Insufficient"
+        },
+        {
+          "en": "Enough",
+          "as": "Enough"
+        },
+        {
+          "en": "Abundant",
+          "as": "Abundant"
+        },
+        {
+          "en": "Sufficient",
+          "as": "Sufficient"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Insufficient' means not enough; it is the opposite of 'ample'.",
+        "as": "'Insufficient' মানে অৰ্যাপ্ত নহয়; এইটো 'Ample' (পৰ্যাপ্ত) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Ancient'.",
+        "as": "'Ancient'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Old",
+          "as": "Old"
+        },
+        {
+          "en": "Archaic",
+          "as": "Archaic"
+        },
+        {
+          "en": "Antique",
+          "as": "Antique"
+        },
+        {
+          "en": "Modern",
+          "as": "Modern"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Modern' means of the present time; it is the opposite of 'ancient'.",
+        "as": "'Modern' মানে বৰ্তমানৰ; এইটো 'Ancient' (পুৰণি) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Apathy'.",
+        "as": "'Apathy'ৰ সমাৰ্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Interest",
+          "as": "Interest"
+        },
+        {
+          "en": "Concern",
+          "as": "Concern"
+        },
+        {
+          "en": "Indifference",
+          "as": "Indifference"
+        },
+        {
+          "en": "Enthusiasm",
+          "as": "Enthusiasm"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Indifference' means lack of interest, like 'apathy'.",
+        "as": "'Indifference' মানে আগ্ৰহহীনতা; 'Apathy'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Apparent'.",
+        "as": "'Apparent'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Clear",
+          "as": "Clear"
+        },
+        {
+          "en": "Obvious",
+          "as": "Obvious"
+        },
+        {
+          "en": "Hidden",
+          "as": "Hidden"
+        },
+        {
+          "en": "Evident",
+          "as": "Evident"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Hidden' means not seen or not obvious; it is the opposite of 'apparent'.",
+        "as": "'Hidden' মানে লুকুৱাই থোৱা; এইটো 'Apparent' (স্পষ্ট) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Arduous'.",
+        "as": "'Arduous'ৰ সমাৰ্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Easy",
+          "as": "Easy"
+        },
+        {
+          "en": "Simple",
+          "as": "Simple"
+        },
+        {
+          "en": "Effortless",
+          "as": "Effortless"
+        },
+        {
+          "en": "Difficult",
+          "as": "Difficult"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Difficult' means needing much effort, like 'arduous'.",
+        "as": "'Difficult' মানে অধিক পৰিশ্রমৰ প্ৰয়োজন হোৱা; 'Arduous'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Arid'.",
+        "as": "'Arid'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Moist",
+          "as": "Moist"
+        },
+        {
+          "en": "Dry",
+          "as": "Dry"
+        },
+        {
+          "en": "Parched",
+          "as": "Parched"
+        },
+        {
+          "en": "Waterless",
+          "as": "Waterless"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Moist' means slightly wet; it is the opposite of 'arid' (very dry).",
+        "as": "'Moist' মানে কিছু আৰ্দ্র; এইটো 'Arid' (অতি শুকান) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Artificial'.",
+        "as": "'Artificial'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Synthetic",
+          "as": "Synthetic"
+        },
+        {
+          "en": "Natural",
+          "as": "Natural"
+        },
+        {
+          "en": "Fake",
+          "as": "Fake"
+        },
+        {
+          "en": "Man-made",
+          "as": "Man-made"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Natural' means produced by nature; it is the opposite of 'artificial'.",
+        "as": "'Natural' মানে প্ৰকৃতিজাত; এইটো 'Artificial' (কৃত্রিম) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Synonym of 'Audacious' is:",
+        "as": "'Audacious'ৰ সমাৰ্থক হ'ল:"
+      },
+      "options": [
+        {
+          "en": "Bold",
+          "as": "Bold"
+        },
+        {
+          "en": "Timid",
+          "as": "Timid"
+        },
+        {
+          "en": "Cowardly",
+          "as": "Cowardly"
+        },
+        {
+          "en": "Fearful",
+          "as": "Fearful"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Bold' means brave and daring, like 'audacious'.",
+        "as": "'Bold' মানে সাহসী আৰু দুঃসাহসী; 'Audacious'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Authentic'.",
+        "as": "'Authentic'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Genuine",
+          "as": "Genuine"
+        },
+        {
+          "en": "Real",
+          "as": "Real"
+        },
+        {
+          "en": "Fake",
+          "as": "Fake"
+        },
+        {
+          "en": "True",
+          "as": "True"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Fake' means not genuine; it is the opposite of 'authentic'.",
+        "as": "'Fake' মানে ভুৱা বা নকল; এইটো 'Authentic' (প্ৰকৃত) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Avarice'.",
+        "as": "'Avarice'ৰ সমাৰ্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Generosity",
+          "as": "Generosity"
+        },
+        {
+          "en": "Greed",
+          "as": "Greed"
+        },
+        {
+          "en": "Charity",
+          "as": "Charity"
+        },
+        {
+          "en": "Liberality",
+          "as": "Liberality"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Greed' means an intense desire for wealth, like 'avarice'.",
+        "as": "'Greed' মানে ধন-সম্পত্তিৰ প্ৰতি তীব্র লোভ; 'Avarice'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Awkward'.",
+        "as": "'Awkward'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Graceful",
+          "as": "Graceful"
+        },
+        {
+          "en": "Clumsy",
+          "as": "Clumsy"
+        },
+        {
+          "en": "Ungainly",
+          "as": "Ungainly"
+        },
+        {
+          "en": "Gauche",
+          "as": "Gauche"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Graceful' means elegant and smooth; it is the opposite of 'awkward'.",
+        "as": "'Graceful' মানে সাৱলীল আৰু সুন্দৰ; এইটো 'Awkward' (থেৰেগেৰা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Barbarous'.",
+        "as": "'Barbarous'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Cruel",
+          "as": "Cruel"
+        },
+        {
+          "en": "Savage",
+          "as": "Savage"
+        },
+        {
+          "en": "Civilized",
+          "as": "Civilized"
+        },
+        {
+          "en": "Brutal",
+          "as": "Brutal"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Civilized' means polite and advanced; it is the opposite of 'barbarous'.",
+        "as": "'Civilized' মানে সভ্য আৰু উন্নত; এইটো 'Barbarous' (বর্বৰ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Barren'.",
+        "as": "'Barren'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Fertile",
+          "as": "Fertile"
+        },
+        {
+          "en": "Sterile",
+          "as": "Sterile"
+        },
+        {
+          "en": "Desert",
+          "as": "Desert"
+        },
+        {
+          "en": "Unproductive",
+          "as": "Unproductive"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Fertile' means able to produce crops; it is the opposite of 'barren'.",
+        "as": "'Fertile' মানে উৰ্বৰ বা শস্য উৎপাদনক্ষম; এইটো 'Barren' (অনুৰ্বৰ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Benevolent'.",
+        "as": "'Benevolent'ৰ সমাৰ্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Cruel",
+          "as": "Cruel"
+        },
+        {
+          "en": "Unkind",
+          "as": "Unkind"
+        },
+        {
+          "en": "Kind",
+          "as": "Kind"
+        },
+        {
+          "en": "Malevolent",
+          "as": "Malevolent"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Kind' means gentle and helpful, like 'benevolent'.",
+        "as": "'Kind' মানে দয়ালু আৰু সহায়ক; 'Benevolent'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Bewilder'.",
+        "as": "'Bewilder'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Confuse",
+          "as": "Confuse"
+        },
+        {
+          "en": "Puzzle",
+          "as": "Puzzle"
+        },
+        {
+          "en": "Clarify",
+          "as": "Clarify"
+        },
+        {
+          "en": "Perplex",
+          "as": "Perplex"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Clarify' means to make clear; it is the opposite of 'bewilder'.",
+        "as": "'Clarify' মানে স্পষ্ট কৰা; এইটো 'Bewilder' (বিভ্রান্ত কৰা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Blatant'.",
+        "as": "'Blatant'ৰ সমাৰ্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Flagrant",
+          "as": "Flagrant"
+        },
+        {
+          "en": "Subtle",
+          "as": "Subtle"
+        },
+        {
+          "en": "Hidden",
+          "as": "Hidden"
+        },
+        {
+          "en": "Concealed",
+          "as": "Concealed"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Flagrant' means openly and obviously wrong, like 'blatant'.",
+        "as": "'Flagrant' মানে উলংঘনীয়াকৈ স্পষ্ট দোষপূর্ণ; 'Blatant'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Blunt'.",
+        "as": "'Blunt'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Dull",
+          "as": "Dull"
+        },
+        {
+          "en": "Sharp",
+          "as": "Sharp"
+        },
+        {
+          "en": "Pointless",
+          "as": "Pointless"
+        },
+        {
+          "en": "Unsharpened",
+          "as": "Unsharpened"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Sharp' means having a fine cutting edge; it is the opposite of 'blunt'.",
+        "as": "'Sharp' মানে ধাৰযুক্ত; এইটো 'Blunt' (ভোঁতা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Boisterous'.",
+        "as": "'Boisterous'ৰ সমাৰ্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Quiet",
+          "as": "Quiet"
+        },
+        {
+          "en": "Noisy",
+          "as": "Noisy"
+        },
+        {
+          "en": "Calm",
+          "as": "Calm"
+        },
+        {
+          "en": "Peaceful",
+          "as": "Peaceful"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Noisy' means making a lot of noise, like 'boisterous'.",
+        "as": "'Noisy' মানে উচ্চ শব্দ কৰা; 'Boisterous'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Bold'.",
+        "as": "'Bold'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Timid",
+          "as": "Timid"
+        },
+        {
+          "en": "Courageous",
+          "as": "Courageous"
+        },
+        {
+          "en": "Brave",
+          "as": "Brave"
+        },
+        {
+          "en": "Daring",
+          "as": "Daring"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Timid' means shy and fearful; it is the opposite of 'bold'.",
+        "as": "'Timid' মানে ভয়াতুৰ আৰু লাজুক; এইটো 'Bold' (সাহসী) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Brisk'.",
+        "as": "'Brisk'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Quick",
+          "as": "Quick"
+        },
+        {
+          "en": "Fast",
+          "as": "Fast"
+        },
+        {
+          "en": "Energetic",
+          "as": "Energetic"
+        },
+        {
+          "en": "Slow",
+          "as": "Slow"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Slow' means not fast; it is the opposite of 'brisk'.",
+        "as": "'Slow' মানে লেহেম; এইটো 'Brisk' (দ্রুত) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Brutal'.",
+        "as": "'Brutal'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Gentle",
+          "as": "Gentle"
+        },
+        {
+          "en": "Savage",
+          "as": "Savage"
+        },
+        {
+          "en": "Cruel",
+          "as": "Cruel"
+        },
+        {
+          "en": "Harsh",
+          "as": "Harsh"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Gentle' means kind and mild; it is the opposite of 'brutal'.",
+        "as": "'Gentle' মানে কোমল আৰু দয়ালু; এইটো 'Brutal' (নিষ্ঠুর) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Calamity'.",
+        "as": "'Calamity'ৰ সমাৰ্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Blessing",
+          "as": "Blessing"
+        },
+        {
+          "en": "Disaster",
+          "as": "Disaster"
+        },
+        {
+          "en": "Fortune",
+          "as": "Fortune"
+        },
+        {
+          "en": "Boon",
+          "as": "Boon"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Disaster' means a sudden great misfortune, like 'calamity'.",
+        "as": "'Disaster' মানে হঠাৎ ঘটে যোৱা ডাঙৰ দুর্ঘটনা বা বিপর্যয়; 'Calamity'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Candor'.",
+        "as": "'Candor'ৰ সমাৰ্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Deceit",
+          "as": "Deceit"
+        },
+        {
+          "en": "Dishonesty",
+          "as": "Dishonesty"
+        },
+        {
+          "en": "Frankness",
+          "as": "Frankness"
+        },
+        {
+          "en": "Secrecy",
+          "as": "Secrecy"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Frankness' means openness and honesty, like 'candor'.",
+        "as": "'Frankness' মানে খোলামেলা আৰু সততা; 'Candor'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Candid'.",
+        "as": "'Candid'ৰ সমাৰ্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Frank",
+          "as": "Frank"
+        },
+        {
+          "en": "Evasive",
+          "as": "Evasive"
+        },
+        {
+          "en": "Secretive",
+          "as": "Secretive"
+        },
+        {
+          "en": "Reserved",
+          "as": "Reserved"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Frank' means open and honest in speech, like 'candid'.",
+        "as": "'Frank' মানে খোলাখুলি আৰু সৎ কথা কোৱা; 'Candid'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Captivate'.",
+        "as": "'Captivate'ৰ সমাৰ্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Repel",
+          "as": "Repel"
+        },
+        {
+          "en": "Bore",
+          "as": "Bore"
+        },
+        {
+          "en": "Fascinate",
+          "as": "Fascinate"
+        },
+        {
+          "en": "Disgust",
+          "as": "Disgust"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Fascinate' means to attract and hold attention, like 'captivate'.",
+        "as": "'Fascinate' মানে আকর্ষিত আৰু মন্ত্রমুগ্ধ কৰা; 'Captivate'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Cautious'.",
+        "as": "'Cautious'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Wary",
+          "as": "Wary"
+        },
+        {
+          "en": "Careful",
+          "as": "Careful"
+        },
+        {
+          "en": "Prudent",
+          "as": "Prudent"
+        },
+        {
+          "en": "Reckless",
+          "as": "Reckless"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Reckless' means careless about danger; it is the opposite of 'cautious'.",
+        "as": "'Reckless' মানে বিপদৰ প্রতি ভ্রূক্ষেপ নকৰা; এইটো 'Cautious' (সতর্ক) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Cease'.",
+        "as": "'Cease'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Begin",
+          "as": "Begin"
+        },
+        {
+          "en": "Stop",
+          "as": "Stop"
+        },
+        {
+          "en": "End",
+          "as": "End"
+        },
+        {
+          "en": "Halt",
+          "as": "Halt"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Begin' means to start; it is the opposite of 'cease' (to stop).",
+        "as": "'Begin' মানে আৰম্ভ কৰা; এইটো 'Cease' (বন্ধ হোৱা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Celerity'.",
+        "as": "'Celerity'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Swiftness",
+          "as": "Swiftness"
+        },
+        {
+          "en": "Slowness",
+          "as": "Slowness"
+        },
+        {
+          "en": "Speed",
+          "as": "Speed"
+        },
+        {
+          "en": "Quickness",
+          "as": "Quickness"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Slowness' means lack of speed; it is the opposite of 'celerity'.",
+        "as": "'Slowness' মানে ধীৰতা; এইটো 'Celerity' (দ্রুতি) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Coarse'.",
+        "as": "'Coarse'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Rough",
+          "as": "Rough"
+        },
+        {
+          "en": "Rugged",
+          "as": "Rugged"
+        },
+        {
+          "en": "Smooth",
+          "as": "Smooth"
+        },
+        {
+          "en": "Uneven",
+          "as": "Uneven"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Smooth' means even and not rough; it is the opposite of 'coarse'.",
+        "as": "'Smooth' মানে মসৃণ; এইটো 'Coarse' (খহটা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Compassion'.",
+        "as": "'Compassion'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Sympathy",
+          "as": "Sympathy"
+        },
+        {
+          "en": "Pity",
+          "as": "Pity"
+        },
+        {
+          "en": "Cruelty",
+          "as": "Cruelty"
+        },
+        {
+          "en": "Mercy",
+          "as": "Mercy"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Cruelty' means causing pain to others; it is the opposite of 'compassion'.",
+        "as": "'Cruelty' মানে আনক কষ্ট দিয়া; এইটো 'Compassion' (সহানুভূতি) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Complex'.",
+        "as": "'Complex'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Simple",
+          "as": "Simple"
+        },
+        {
+          "en": "Complicated",
+          "as": "Complicated"
+        },
+        {
+          "en": "Involved",
+          "as": "Involved"
+        },
+        {
+          "en": "Intricate",
+          "as": "Intricate"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Simple' means easy to understand; it is the opposite of 'complex'.",
+        "as": "'Simple' মানে সহজ; এইটো 'Complex' (জটিল) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Comprehend'.",
+        "as": "'Comprehend'ৰ সমাৰ্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Misunderstand",
+          "as": "Misunderstand"
+        },
+        {
+          "en": "Understand",
+          "as": "Understand"
+        },
+        {
+          "en": "Confuse",
+          "as": "Confuse"
+        },
+        {
+          "en": "Ignore",
+          "as": "Ignore"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Understand' means to grasp the meaning, like 'comprehend'.",
+        "as": "'Understand' মানে অর্থ বুজি পোৱা; 'Comprehend'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Conceal'.",
+        "as": "'Conceal'ৰ সমাৰ্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Reveal",
+          "as": "Reveal"
+        },
+        {
+          "en": "Expose",
+          "as": "Expose"
+        },
+        {
+          "en": "Hide",
+          "as": "Hide"
+        },
+        {
+          "en": "Disclose",
+          "as": "Disclose"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Hide' means to keep out of sight, like 'conceal'.",
+        "as": "'Hide' মানে লুকুৱাই ৰখা; 'Conceal'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Condemn'.",
+        "as": "'Condemn'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Blame",
+          "as": "Blame"
+        },
+        {
+          "en": "Censure",
+          "as": "Censure"
+        },
+        {
+          "en": "Denounce",
+          "as": "Denounce"
+        },
+        {
+          "en": "Praise",
+          "as": "Praise"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Praise' means to express approval; it is the opposite of 'condemn'.",
+        "as": "'Praise' মানে প্রশংসা কৰা; এইটো 'Condemn' (নিন্দা কৰা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Confess'.",
+        "as": "'Confess'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Admit",
+          "as": "Admit"
+        },
+        {
+          "en": "Deny",
+          "as": "Deny"
+        },
+        {
+          "en": "Acknowledge",
+          "as": "Acknowledge"
+        },
+        {
+          "en": "Own",
+          "as": "Own"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Deny' means to refuse to admit; it is the opposite of 'confess'.",
+        "as": "'Deny' মানে অস্বীকাৰ কৰা; এইটো 'Confess' (স্বীকাৰ কৰা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Conquer'.",
+        "as": "'Conquer'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Vanquish",
+          "as": "Vanquish"
+        },
+        {
+          "en": "Defeat",
+          "as": "Defeat"
+        },
+        {
+          "en": "Surrender",
+          "as": "Surrender"
+        },
+        {
+          "en": "Overcome",
+          "as": "Overcome"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Surrender' means to give up; it is the opposite of 'conquer'.",
+        "as": "'Surrender' মানে আত্মসমর্পণ কৰা; এইটো 'Conquer' (জয় কৰা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Constant'.",
+        "as": "'Constant'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Steady",
+          "as": "Steady"
+        },
+        {
+          "en": "Stable",
+          "as": "Stable"
+        },
+        {
+          "en": "Fixed",
+          "as": "Fixed"
+        },
+        {
+          "en": "Changeable",
+          "as": "Changeable"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Changeable' means likely to change; it is the opposite of 'constant'.",
+        "as": "'Changeable' মানে পৰিৱৰ্তনশীল; এইটো 'Constant' (স্থিৰ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Corrupt'.",
+        "as": "'Corrupt'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Dishonest",
+          "as": "Dishonest"
+        },
+        {
+          "en": "Venal",
+          "as": "Venal"
+        },
+        {
+          "en": "Honest",
+          "as": "Honest"
+        },
+        {
+          "en": "Immoral",
+          "as": "Immoral"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Honest' means truthful and upright; it is the opposite of 'corrupt'.",
+        "as": "'Honest' মানে সৎ আৰু ন্যায়পৰায়ণ; এইটো 'Corrupt' (দুর্নীতিপৰায়ণ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Courteous'.",
+        "as": "'Courteous'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Polite",
+          "as": "Polite"
+        },
+        {
+          "en": "Gracious",
+          "as": "Gracious"
+        },
+        {
+          "en": "Rude",
+          "as": "Rude"
+        },
+        {
+          "en": "Civil",
+          "as": "Civil"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Rude' means impolite; it is the opposite of 'courteous'.",
+        "as": "'Rude' মানে অভদ্র; এইটো 'Courteous' (ভদ্র) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Credible'.",
+        "as": "'Credible'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Believable",
+          "as": "Believable"
+        },
+        {
+          "en": "Plausible",
+          "as": "Plausible"
+        },
+        {
+          "en": "Trustworthy",
+          "as": "Trustworthy"
+        },
+        {
+          "en": "Incredible",
+          "as": "Incredible"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Incredible' means hard to believe; it is the opposite of 'credible'.",
+        "as": "'Incredible' মানে বিশ্বাস কৰা কঠিন; এইটো 'Credible' (বিশ্বাসযোগ্য) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Crooked'.",
+        "as": "'Crooked'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Bent",
+          "as": "Bent"
+        },
+        {
+          "en": "Straight",
+          "as": "Straight"
+        },
+        {
+          "en": "Curved",
+          "as": "Curved"
+        },
+        {
+          "en": "Twisted",
+          "as": "Twisted"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Straight' means not bent or curved; it is the opposite of 'crooked'.",
+        "as": "'Straight' মানে বেঁকা নোহোৱা; এইটো 'Crooked' (বেঁকা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Daring'.",
+        "as": "'Daring'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Bold",
+          "as": "Bold"
+        },
+        {
+          "en": "Cowardly",
+          "as": "Cowardly"
+        },
+        {
+          "en": "Brave",
+          "as": "Brave"
+        },
+        {
+          "en": "Audacious",
+          "as": "Audacious"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Cowardly' means lacking courage; it is the opposite of 'daring'.",
+        "as": "'Cowardly' মানে সাহসহীন; এইটো 'Daring' (দুঃসাহসী) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Deceit'.",
+        "as": "'Deceit'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Fraud",
+          "as": "Fraud"
+        },
+        {
+          "en": "Trickery",
+          "as": "Trickery"
+        },
+        {
+          "en": "Honesty",
+          "as": "Honesty"
+        },
+        {
+          "en": "Deception",
+          "as": "Deception"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Honesty' means truthfulness; it is the opposite of 'deceit'.",
+        "as": "'Honesty' মানে সততা; এইটো 'Deceit' (প্রবঞ্চনা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Declare'.",
+        "as": "'Declare'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Announce",
+          "as": "Announce"
+        },
+        {
+          "en": "Proclaim",
+          "as": "Proclaim"
+        },
+        {
+          "en": "Conceal",
+          "as": "Conceal"
+        },
+        {
+          "en": "Assert",
+          "as": "Assert"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Conceal' means to hide; it is the opposite of 'declare' (to announce).",
+        "as": "'Conceal' মানে লুকুৱাই ৰখা; এইটো 'Declare' (ঘোষণা কৰা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Defiant'.",
+        "as": "'Defiant'ৰ সমাৰ্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Obedient",
+          "as": "Obedient"
+        },
+        {
+          "en": "Submissive",
+          "as": "Submissive"
+        },
+        {
+          "en": "Rebellious",
+          "as": "Rebellious"
+        },
+        {
+          "en": "Docile",
+          "as": "Docile"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Rebellious' means resisting authority, like 'defiant'.",
+        "as": "'Rebellious' মানে ক্ষমতাৰ বিৰুদ্ধে বিদ্রোহী; 'Defiant'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Dense'.",
+        "as": "'Dense'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Thick",
+          "as": "Thick"
+        },
+        {
+          "en": "Compact",
+          "as": "Compact"
+        },
+        {
+          "en": "Crowded",
+          "as": "Crowded"
+        },
+        {
+          "en": "Sparse",
+          "as": "Sparse"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Sparse' means thinly scattered; it is the opposite of 'dense'.",
+        "as": "'Sparse' মানে ঠায়ে ঠায়ে থকা; এইটো 'Dense' (ঘন) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Deprive'.",
+        "as": "'Deprive'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Deny",
+          "as": "Deny"
+        },
+        {
+          "en": "Grant",
+          "as": "Grant"
+        },
+        {
+          "en": "Rob",
+          "as": "Rob"
+        },
+        {
+          "en": "Strip",
+          "as": "Strip"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Grant' means to give; it is the opposite of 'deprive'.",
+        "as": "'Grant' মানে দিয়া বা প্ৰদান কৰা; এইটো 'Deprive' (বঞ্চিত কৰা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Despair'.",
+        "as": "'Despair'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Hopelessness",
+          "as": "Hopelessness"
+        },
+        {
+          "en": "Dejection",
+          "as": "Dejection"
+        },
+        {
+          "en": "Hope",
+          "as": "Hope"
+        },
+        {
+          "en": "Despondency",
+          "as": "Despondency"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Hope' means a feeling of expectation; it is the opposite of 'despair'.",
+        "as": "'Hope' মানে আশা; এইটো 'Despair' (নিৰাশা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Despise'.",
+        "as": "'Despise'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Scorn",
+          "as": "Scorn"
+        },
+        {
+          "en": "Admire",
+          "as": "Admire"
+        },
+        {
+          "en": "Hate",
+          "as": "Hate"
+        },
+        {
+          "en": "Detest",
+          "as": "Detest"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Admire' means to respect and look up to; it is the opposite of 'despise'.",
+        "as": "'Admire' মানে শ্রদ্ধা আৰু প্রশংসা কৰা; এইটো 'Despise' (তাচ্ছিল্য) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Diligent'.",
+        "as": "'Diligent'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Industrious",
+          "as": "Industrious"
+        },
+        {
+          "en": "Lazy",
+          "as": "Lazy"
+        },
+        {
+          "en": "Hardworking",
+          "as": "Hardworking"
+        },
+        {
+          "en": "Sedulous",
+          "as": "Sedulous"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Lazy' means unwilling to work; it is the opposite of 'diligent'.",
+        "as": "'Lazy' মানে কামত অমান্তি; এইটো 'Diligent' (পৰিশ্রমী) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Diminish'.",
+        "as": "'Diminish'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Reduce",
+          "as": "Reduce"
+        },
+        {
+          "en": "Decrease",
+          "as": "Decrease"
+        },
+        {
+          "en": "Lessen",
+          "as": "Lessen"
+        },
+        {
+          "en": "Increase",
+          "as": "Increase"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Increase' means to become larger; it is the opposite of 'diminish'.",
+        "as": "'Increase' মানে বৃদ্ধি হোৱা; এইটো 'Diminish' (হ্রাস হোৱা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Disclose'.",
+        "as": "'Disclose'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Reveal",
+          "as": "Reveal"
+        },
+        {
+          "en": "Conceal",
+          "as": "Conceal"
+        },
+        {
+          "en": "Expose",
+          "as": "Expose"
+        },
+        {
+          "en": "Uncover",
+          "as": "Uncover"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Conceal' means to keep secret; it is the opposite of 'disclose'.",
+        "as": "'Conceal' মানে গোপন ৰখা; এইটো 'Disclose' (প্রকাশ কৰা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Discord'.",
+        "as": "'Discord'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Strife",
+          "as": "Strife"
+        },
+        {
+          "en": "Conflict",
+          "as": "Conflict"
+        },
+        {
+          "en": "Harmony",
+          "as": "Harmony"
+        },
+        {
+          "en": "Friction",
+          "as": "Friction"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Harmony' means agreement and peace; it is the opposite of 'discord'.",
+        "as": "'Harmony' মানে শান্তি আৰু ঐক্য; এইটো 'Discord' (মনোমালিন্য) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Dismal'.",
+        "as": "'Dismal'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Dreary",
+          "as": "Dreary"
+        },
+        {
+          "en": "Gloomy",
+          "as": "Gloomy"
+        },
+        {
+          "en": "Mournful",
+          "as": "Mournful"
+        },
+        {
+          "en": "Cheerful",
+          "as": "Cheerful"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Cheerful' means happy and bright; it is the opposite of 'dismal'.",
+        "as": "'Cheerful' মানে প্রফুল্ল; এইটো 'Dismal' (বিষণ্ণ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Dull'.",
+        "as": "'Dull'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Boring",
+          "as": "Boring"
+        },
+        {
+          "en": "Interesting",
+          "as": "Interesting"
+        },
+        {
+          "en": "Tedious",
+          "as": "Tedious"
+        },
+        {
+          "en": "Monotonous",
+          "as": "Monotonous"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Interesting' means holding attention; it is the opposite of 'dull'.",
+        "as": "'Interesting' মানে আকর্ষণীয়; এইটো 'Dull' (একঘেয়া) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Durable'.",
+        "as": "'Durable'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Lasting",
+          "as": "Lasting"
+        },
+        {
+          "en": "Enduring",
+          "as": "Enduring"
+        },
+        {
+          "en": "Fragile",
+          "as": "Fragile"
+        },
+        {
+          "en": "Tough",
+          "as": "Tough"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Fragile' means easily broken; it is the opposite of 'durable'.",
+        "as": "'Fragile' মানে সহজে ভাগি যোৱা; এইটো 'Durable' (স্থায়ী) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Eager'.",
+        "as": "'Eager'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Keen",
+          "as": "Keen"
+        },
+        {
+          "en": "Enthusiastic",
+          "as": "Enthusiastic"
+        },
+        {
+          "en": "Reluctant",
+          "as": "Reluctant"
+        },
+        {
+          "en": "Anxious",
+          "as": "Anxious"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Reluctant' means unwilling; it is the opposite of 'eager'.",
+        "as": "'Reluctant' মানে অনিচ্ছুক; এইটো 'Eager' (উৎসুক) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Earnest'.",
+        "as": "'Earnest'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Serious",
+          "as": "Serious"
+        },
+        {
+          "en": "Solemn",
+          "as": "Solemn"
+        },
+        {
+          "en": "Grave",
+          "as": "Grave"
+        },
+        {
+          "en": "Frivolous",
+          "as": "Frivolous"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Frivolous' means not serious; it is the opposite of 'earnest'.",
+        "as": "'Frivolous' মানে গম্ভীৰ নোহোৱা; এইটো 'Earnest' (গহীন) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Eccentric'.",
+        "as": "'Eccentric'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Odd",
+          "as": "Odd"
+        },
+        {
+          "en": "Normal",
+          "as": "Normal"
+        },
+        {
+          "en": "Strange",
+          "as": "Strange"
+        },
+        {
+          "en": "Quirky",
+          "as": "Quirky"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Normal' means usual and conventional; it is the opposite of 'eccentric'.",
+        "as": "'Normal' মানে সাধাৰণ আৰু প্রচলিত; এইটো 'Eccentric' (অদ্ভুত) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Elated'.",
+        "as": "'Elated'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Overjoyed",
+          "as": "Overjoyed"
+        },
+        {
+          "en": "Delighted",
+          "as": "Delighted"
+        },
+        {
+          "en": "Depressed",
+          "as": "Depressed"
+        },
+        {
+          "en": "Jubilant",
+          "as": "Jubilant"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Depressed' means sad and low in spirits; it is the opposite of 'elated'.",
+        "as": "'Depressed' মানে বিষণ্ণ; এইটো 'Elated' (আনন্দত উৎফুল্ল) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Synonym of 'Elegant' is:",
+        "as": "'Elegant'ৰ সমার্থক হ'ল:"
+      },
+      "options": [
+        {
+          "en": "Clumsy",
+          "as": "Clumsy"
+        },
+        {
+          "en": "Awkward",
+          "as": "Awkward"
+        },
+        {
+          "en": "Graceful",
+          "as": "Graceful"
+        },
+        {
+          "en": "Coarse",
+          "as": "Coarse"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Graceful' means having elegance and beauty of movement, like 'elegant'.",
+        "as": "'Graceful' মানে সৌষ্ঠৱপূর্ণ আৰু সুন্দৰ; 'Elegant'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Elevate'.",
+        "as": "'Elevate'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Raise",
+          "as": "Raise"
+        },
+        {
+          "en": "Lift",
+          "as": "Lift"
+        },
+        {
+          "en": "Lower",
+          "as": "Lower"
+        },
+        {
+          "en": "Hoist",
+          "as": "Hoist"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Lower' means to move down; it is the opposite of 'elevate'.",
+        "as": "'Lower' মানে তললৈ নামোৱা; এইটো 'Elevate' (ওপৰলৈ তোলা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Eloquent'.",
+        "as": "'Eloquent'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Fluent",
+          "as": "Fluent"
+        },
+        {
+          "en": "Inarticulate",
+          "as": "Inarticulate"
+        },
+        {
+          "en": "Halting",
+          "as": "Halting"
+        },
+        {
+          "en": "Hesitant",
+          "as": "Hesitant"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Fluent' means able to speak smoothly and clearly, like 'eloquent'.",
+        "as": "'Fluent' মানে সাৱলীলভাৱে কোৱা; 'Eloquent'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Emit'.",
+        "as": "'Emit'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Absorb",
+          "as": "Absorb"
+        },
+        {
+          "en": "Retain",
+          "as": "Retain"
+        },
+        {
+          "en": "Receive",
+          "as": "Receive"
+        },
+        {
+          "en": "Discharge",
+          "as": "Discharge"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Discharge' means to send out or give off, like 'emit'.",
+        "as": "'Discharge' মানে নিৰ্গত কৰা; 'Emit'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Enormous'.",
+        "as": "'Enormous'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Tiny",
+          "as": "Tiny"
+        },
+        {
+          "en": "Gigantic",
+          "as": "Gigantic"
+        },
+        {
+          "en": "Vast",
+          "as": "Vast"
+        },
+        {
+          "en": "Colossal",
+          "as": "Colossal"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Tiny' means very small; it is the opposite of 'enormous'.",
+        "as": "'Tiny' মানে অতি সৰু; এইটো 'Enormous' (বিশাল) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Enmity'.",
+        "as": "'Enmity'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Hostility",
+          "as": "Hostility"
+        },
+        {
+          "en": "Hatred",
+          "as": "Hatred"
+        },
+        {
+          "en": "Friendship",
+          "as": "Friendship"
+        },
+        {
+          "en": "Ill will",
+          "as": "Ill will"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Friendship' means a friendly relation; it is the opposite of 'enmity'.",
+        "as": "'Friendship' মানে বন্ধুত্ব; এইটো 'Enmity' (শত্রুতা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Entangle'.",
+        "as": "'Entangle'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Free",
+          "as": "Free"
+        },
+        {
+          "en": "Tangle",
+          "as": "Tangle"
+        },
+        {
+          "en": "Release",
+          "as": "Release"
+        },
+        {
+          "en": "Untangle",
+          "as": "Untangle"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Tangle' means to twist together into a mess, like 'entangle'.",
+        "as": "'Tangle' মানে জঠিল বা জট লগোৱা; 'Entangle'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Envy'.",
+        "as": "'Envy'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Contentment",
+          "as": "Contentment"
+        },
+        {
+          "en": "Admiration",
+          "as": "Admiration"
+        },
+        {
+          "en": "Jealousy",
+          "as": "Jealousy"
+        },
+        {
+          "en": "Generosity",
+          "as": "Generosity"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Jealousy' means resentment of another's success, like 'envy'.",
+        "as": "'Jealousy' মানে আনৰ সাফল্যত হিংসা; 'Envy'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Ephemeral'.",
+        "as": "'Ephemeral'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Transient",
+          "as": "Transient"
+        },
+        {
+          "en": "Brief",
+          "as": "Brief"
+        },
+        {
+          "en": "Fleeting",
+          "as": "Fleeting"
+        },
+        {
+          "en": "Permanent",
+          "as": "Permanent"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Permanent' means lasting forever; it is the opposite of 'ephemeral'.",
+        "as": "'Permanent' মানে স্থায়ী; এইটো 'Ephemeral' (ক্ষণস্থায়ী) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Evident'.",
+        "as": "'Evident'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Obvious",
+          "as": "Obvious"
+        },
+        {
+          "en": "Clear",
+          "as": "Clear"
+        },
+        {
+          "en": "Hidden",
+          "as": "Hidden"
+        },
+        {
+          "en": "Plain",
+          "as": "Plain"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Hidden' means not easily seen; it is the opposite of 'evident'.",
+        "as": "'Hidden' মানে লুকুৱাই থকা; এইটো 'Evident' (সুস্পষ্ট) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Exalt'.",
+        "as": "'Exalt'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Glorify",
+          "as": "Glorify"
+        },
+        {
+          "en": "Praise",
+          "as": "Praise"
+        },
+        {
+          "en": "Honour",
+          "as": "Honour"
+        },
+        {
+          "en": "Humiliate",
+          "as": "Humiliate"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Humiliate' means to lower in dignity; it is the opposite of 'exalt'.",
+        "as": "'Humiliate' মানে অপমান কৰা; এইটো 'Exalt' (প্রশংসা বা উচ্চীকৃত) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Extravagant'.",
+        "as": "'Extravagant'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Wasteful",
+          "as": "Wasteful"
+        },
+        {
+          "en": "Spendthrift",
+          "as": "Spendthrift"
+        },
+        {
+          "en": "Prodigal",
+          "as": "Prodigal"
+        },
+        {
+          "en": "Frugal",
+          "as": "Frugal"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Frugal' means careful in spending; it is the opposite of 'extravagant'.",
+        "as": "'Frugal' মানে মিতব্যয়ী; এইটো 'Extravagant' (অপব্যয়ী) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Fabricate'.",
+        "as": "'Fabricate'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Dismantle",
+          "as": "Dismantle"
+        },
+        {
+          "en": "Destroy",
+          "as": "Destroy"
+        },
+        {
+          "en": "Invent",
+          "as": "Invent"
+        },
+        {
+          "en": "Break",
+          "as": "Break"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Invent' means to create or make up, like 'fabricate'.",
+        "as": "'Invent' মানে উদ্ভাৱন কৰা বা ৰচনা কৰা; 'Fabricate'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Feeble'.",
+        "as": "'Feeble'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Strong",
+          "as": "Strong"
+        },
+        {
+          "en": "Weak",
+          "as": "Weak"
+        },
+        {
+          "en": "Frail",
+          "as": "Frail"
+        },
+        {
+          "en": "Fragile",
+          "as": "Fragile"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Strong' means having great power; it is the opposite of 'feeble'.",
+        "as": "'Strong' মানে শক্তিশালী; এইটো 'Feeble' (দুর্বল) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Ferocious'.",
+        "as": "'Ferocious'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Fierce",
+          "as": "Fierce"
+        },
+        {
+          "en": "Wild",
+          "as": "Wild"
+        },
+        {
+          "en": "Gentle",
+          "as": "Gentle"
+        },
+        {
+          "en": "Savage",
+          "as": "Savage"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Gentle' means mild and kind; it is the opposite of 'ferocious'.",
+        "as": "'Gentle' মানে কোমল আৰু শান্ত; এইটো 'Ferocious' (হিংস্র) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Fertile'.",
+        "as": "'Fertile'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Productive",
+          "as": "Productive"
+        },
+        {
+          "en": "Fruitful",
+          "as": "Fruitful"
+        },
+        {
+          "en": "Rich",
+          "as": "Rich"
+        },
+        {
+          "en": "Barren",
+          "as": "Barren"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Barren' means unable to produce crops; it is the opposite of 'fertile'.",
+        "as": "'Barren' মানে অনুৰ্বৰ; এইটো 'Fertile' (উর্বর) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Fickle'.",
+        "as": "'Fickle'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Changeable",
+          "as": "Changeable"
+        },
+        {
+          "en": "Inconstant",
+          "as": "Inconstant"
+        },
+        {
+          "en": "Unstable",
+          "as": "Unstable"
+        },
+        {
+          "en": "Steady",
+          "as": "Steady"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Steady' means firm and unchanging; it is the opposite of 'fickle'.",
+        "as": "'Steady' মানে স্থিৰ; এইটো 'Fickle' (চপল বা পৰিৱর্তনশীল) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Firm'.",
+        "as": "'Firm'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Resolute",
+          "as": "Resolute"
+        },
+        {
+          "en": "Flexible",
+          "as": "Flexible"
+        },
+        {
+          "en": "Unyielding",
+          "as": "Unyielding"
+        },
+        {
+          "en": "Determined",
+          "as": "Determined"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Flexible' means able to bend or change; it is the opposite of 'firm'.",
+        "as": "'Flexible' মানে নমনীয়; এইটো 'Firm' (দৃঢ়) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Flee'.",
+        "as": "'Flee'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Escape",
+          "as": "Escape"
+        },
+        {
+          "en": "Run away",
+          "as": "Run away"
+        },
+        {
+          "en": "Stay",
+          "as": "Stay"
+        },
+        {
+          "en": "Retreat",
+          "as": "Retreat"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Stay' means to remain in one place; it is the opposite of 'flee'.",
+        "as": "'Stay' মানে থাকি যোৱা; এইটো 'Flee' (পলাই যোৱা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Folly'.",
+        "as": "'Folly'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Foolishness",
+          "as": "Foolishness"
+        },
+        {
+          "en": "Nonsense",
+          "as": "Nonsense"
+        },
+        {
+          "en": "Wisdom",
+          "as": "Wisdom"
+        },
+        {
+          "en": "Absurdity",
+          "as": "Absurdity"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Wisdom' means good judgement; it is the opposite of 'folly'.",
+        "as": "'Wisdom' মানে বিচক্ষণতা; এইটো 'Folly' (মূর্খতা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Fragile'.",
+        "as": "'Fragile'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Strong",
+          "as": "Strong"
+        },
+        {
+          "en": "Delicate",
+          "as": "Delicate"
+        },
+        {
+          "en": "Brittle",
+          "as": "Brittle"
+        },
+        {
+          "en": "Weak",
+          "as": "Weak"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "'Strong' means not easily broken; it is the opposite of 'fragile'.",
+        "as": "'Strong' মানে সহজে নাভগা; এইটো 'Fragile' (ভংগুৰ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Frugal'.",
+        "as": "'Frugal'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Economical",
+          "as": "Economical"
+        },
+        {
+          "en": "Thrifty",
+          "as": "Thrifty"
+        },
+        {
+          "en": "Saving",
+          "as": "Saving"
+        },
+        {
+          "en": "Extravagant",
+          "as": "Extravagant"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Extravagant' means spending too much; it is the opposite of 'frugal'.",
+        "as": "'Extravagant' মানে অপব্যয়ী; এইটো 'Frugal' (মিতব্যয়ী) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Generous'.",
+        "as": "'Generous'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Charitable",
+          "as": "Charitable"
+        },
+        {
+          "en": "Liberal",
+          "as": "Liberal"
+        },
+        {
+          "en": "Bountiful",
+          "as": "Bountiful"
+        },
+        {
+          "en": "Miserly",
+          "as": "Miserly"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Miserly' means unwilling to give; it is the opposite of 'generous'.",
+        "as": "'Miserly' মানে কৃপণ; এইটো 'Generous' (উদাৰ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Genuine'.",
+        "as": "'Genuine'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Fake",
+          "as": "Fake"
+        },
+        {
+          "en": "Authentic",
+          "as": "Authentic"
+        },
+        {
+          "en": "Counterfeit",
+          "as": "Counterfeit"
+        },
+        {
+          "en": "False",
+          "as": "False"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Authentic' means real and original, like 'genuine'.",
+        "as": "'Authentic' মানে প্ৰকৃত আৰু খাঁটি; 'Genuine'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Gloomy'.",
+        "as": "'Gloomy'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Dark",
+          "as": "Dark"
+        },
+        {
+          "en": "Cheerful",
+          "as": "Cheerful"
+        },
+        {
+          "en": "Dismal",
+          "as": "Dismal"
+        },
+        {
+          "en": "Dim",
+          "as": "Dim"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Cheerful' means bright and happy; it is the opposite of 'gloomy'.",
+        "as": "'Cheerful' মানে উজ্জ্বল আৰু আনন্দময়; এইটো 'Gloomy' (বিষণ্ণ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Gorgeous'.",
+        "as": "'Gorgeous'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Ugly",
+          "as": "Ugly"
+        },
+        {
+          "en": "Plain",
+          "as": "Plain"
+        },
+        {
+          "en": "Beautiful",
+          "as": "Beautiful"
+        },
+        {
+          "en": "Dull",
+          "as": "Dull"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Beautiful' means very pleasing to look at, like 'gorgeous'.",
+        "as": "'Beautiful' মানে অতি ধুনীয়া; 'Gorgeous'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Grim'.",
+        "as": "'Grim'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Stern",
+          "as": "Stern"
+        },
+        {
+          "en": "Severe",
+          "as": "Severe"
+        },
+        {
+          "en": "Pleasant",
+          "as": "Pleasant"
+        },
+        {
+          "en": "Forbidding",
+          "as": "Forbidding"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Pleasant' means giving pleasure; it is the opposite of 'grim'.",
+        "as": "'Pleasant' মানে আনন্দদায়ক; এইটো 'Grim' (ভীষণ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Guile'.",
+        "as": "'Guile'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Honesty",
+          "as": "Honesty"
+        },
+        {
+          "en": "Sincerity",
+          "as": "Sincerity"
+        },
+        {
+          "en": "Cunning",
+          "as": "Cunning"
+        },
+        {
+          "en": "Candor",
+          "as": "Candor"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Cunning' means craftiness and deceit, like 'guile'.",
+        "as": "'Cunning' মানে ধূর্ততা; 'Guile'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Harsh'.",
+        "as": "'Harsh'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Stern",
+          "as": "Stern"
+        },
+        {
+          "en": "Severe",
+          "as": "Severe"
+        },
+        {
+          "en": "Gentle",
+          "as": "Gentle"
+        },
+        {
+          "en": "Rough",
+          "as": "Rough"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Gentle' means soft and kind; it is the opposite of 'harsh'.",
+        "as": "'Gentle' মানে কোমল আৰু মৃদু; এইটো 'Harsh' (কঠোৰ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Hasty'.",
+        "as": "'Hasty'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Rash",
+          "as": "Rash"
+        },
+        {
+          "en": "Quick",
+          "as": "Quick"
+        },
+        {
+          "en": "Hurried",
+          "as": "Hurried"
+        },
+        {
+          "en": "Deliberate",
+          "as": "Deliberate"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Deliberate' means done slowly and carefully; it is the opposite of 'hasty'.",
+        "as": "'Deliberate' মানে সচেতনভাৱে আৰু ধীরে কৰা; এইটো 'Hasty' (খরখেদীয়া) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Haughty'.",
+        "as": "'Haughty'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Proud",
+          "as": "Proud"
+        },
+        {
+          "en": "Arrogant",
+          "as": "Arrogant"
+        },
+        {
+          "en": "Conceited",
+          "as": "Conceited"
+        },
+        {
+          "en": "Humble",
+          "as": "Humble"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Humble' means modest, not proud; it is the opposite of 'haughty'.",
+        "as": "'Humble' মানে নম্র; এইটো 'Haughty' (অহংকাৰী) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Hazy'.",
+        "as": "'Hazy'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Misty",
+          "as": "Misty"
+        },
+        {
+          "en": "Cloudy",
+          "as": "Cloudy"
+        },
+        {
+          "en": "Clear",
+          "as": "Clear"
+        },
+        {
+          "en": "Foggy",
+          "as": "Foggy"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Clear' means easy to see through; it is the opposite of 'hazy'.",
+        "as": "'Clear' মানে স্পষ্ট; এইটো 'Hazy' (কুয়াশাময়) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Hinder'.",
+        "as": "'Hinder'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Obstruct",
+          "as": "Obstruct"
+        },
+        {
+          "en": "Block",
+          "as": "Block"
+        },
+        {
+          "en": "Impede",
+          "as": "Impede"
+        },
+        {
+          "en": "Help",
+          "as": "Help"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Help' means to assist; it is the opposite of 'hinder'.",
+        "as": "'Help' মানে সহায় কৰা; এইটো 'Hinder' (বাধা দিয়া) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Huge'.",
+        "as": "'Huge'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Immense",
+          "as": "Immense"
+        },
+        {
+          "en": "Vast",
+          "as": "Vast"
+        },
+        {
+          "en": "Gigantic",
+          "as": "Gigantic"
+        },
+        {
+          "en": "Tiny",
+          "as": "Tiny"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Tiny' means extremely small; it is the opposite of 'huge'.",
+        "as": "'Tiny' মানে অতি সৰু; এইটো 'Huge' (বিশাল) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Humble'.",
+        "as": "'Humble'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Modest",
+          "as": "Modest"
+        },
+        {
+          "en": "Meek",
+          "as": "Meek"
+        },
+        {
+          "en": "Proud",
+          "as": "Proud"
+        },
+        {
+          "en": "Respectful",
+          "as": "Respectful"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Proud' means having too high an opinion of oneself; it is the opposite of 'humble'.",
+        "as": "'Proud' মানে গর্বিত; এইটো 'Humble' (বিনয়ী) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Idle'.",
+        "as": "'Idle'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Lazy",
+          "as": "Lazy"
+        },
+        {
+          "en": "Active",
+          "as": "Active"
+        },
+        {
+          "en": "Inactive",
+          "as": "Inactive"
+        },
+        {
+          "en": "Slothful",
+          "as": "Slothful"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Active' means busy and working; it is the opposite of 'idle'.",
+        "as": "'Active' মানে সক্ৰিয়; এইটো 'Idle' (নিষ্ক্রিয়) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Illumine'.",
+        "as": "'Illumine'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Light up",
+          "as": "Light up"
+        },
+        {
+          "en": "Illuminate",
+          "as": "Illuminate"
+        },
+        {
+          "en": "Brighten",
+          "as": "Brighten"
+        },
+        {
+          "en": "Darken",
+          "as": "Darken"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Darken' means to make dark; it is the opposite of 'illumine'.",
+        "as": "'Darken' মানে আন্ধাৰ কৰা; এইটো 'Illumine' (পোহৰ দিয়া) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Imitate'.",
+        "as": "'Imitate'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Originate",
+          "as": "Originate"
+        },
+        {
+          "en": "Create",
+          "as": "Create"
+        },
+        {
+          "en": "Mimic",
+          "as": "Mimic"
+        },
+        {
+          "en": "Invent",
+          "as": "Invent"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Mimic' means to copy someone's actions, like 'imitate'.",
+        "as": "'Mimic' মানে অনুকৰণ কৰা; 'Imitate'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Immense'.",
+        "as": "'Immense'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Tiny",
+          "as": "Tiny"
+        },
+        {
+          "en": "Colossal",
+          "as": "Colossal"
+        },
+        {
+          "en": "Narrow",
+          "as": "Narrow"
+        },
+        {
+          "en": "Small",
+          "as": "Small"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Colossal' means extremely large, like 'immense'.",
+        "as": "'Colossal' মানে অতি বিশাল; 'Immense'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Impartial'.",
+        "as": "'Impartial'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Fair",
+          "as": "Fair"
+        },
+        {
+          "en": "Neutral",
+          "as": "Neutral"
+        },
+        {
+          "en": "Biased",
+          "as": "Biased"
+        },
+        {
+          "en": "Just",
+          "as": "Just"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Biased' means showing favour to one side; it is the opposite of 'impartial'.",
+        "as": "'Biased' মানে পক্ষপাতী; এইটো 'Impartial' (নির্পেক্ষ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Impetuous'.",
+        "as": "'Impetuous'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Deliberate",
+          "as": "Deliberate"
+        },
+        {
+          "en": "Careful",
+          "as": "Careful"
+        },
+        {
+          "en": "Cautious",
+          "as": "Cautious"
+        },
+        {
+          "en": "Impulsive",
+          "as": "Impulsive"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Impulsive' means acting suddenly without thought, like 'impetuous'.",
+        "as": "'Impulsive' মানে নাভাৱি তৎক্ষণাৎ কাম কৰা; 'Impetuous'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Indolent'.",
+        "as": "'Indolent'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Lazy",
+          "as": "Lazy"
+        },
+        {
+          "en": "Active",
+          "as": "Active"
+        },
+        {
+          "en": "Idle",
+          "as": "Idle"
+        },
+        {
+          "en": "Sluggish",
+          "as": "Sluggish"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Active' means energetic and working; it is the opposite of 'indolent'.",
+        "as": "'Active' মানে সক্ৰিয়; এইটো 'Indolent' (অলস) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Inert'.",
+        "as": "'Inert'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Inactive",
+          "as": "Inactive"
+        },
+        {
+          "en": "Passive",
+          "as": "Passive"
+        },
+        {
+          "en": "Active",
+          "as": "Active"
+        },
+        {
+          "en": "Motionless",
+          "as": "Motionless"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Active' means moving and lively; it is the opposite of 'inert'.",
+        "as": "'Active' মানে চলমান আৰু সক্ৰিয়; এইটো 'Inert' (নিষ্ক্রিয়) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Innocent'.",
+        "as": "'Innocent'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Guilty",
+          "as": "Guilty"
+        },
+        {
+          "en": "Crafty",
+          "as": "Crafty"
+        },
+        {
+          "en": "Guileless",
+          "as": "Guileless"
+        },
+        {
+          "en": "Corrupt",
+          "as": "Corrupt"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Guileless' means free from deceit, like 'innocent'.",
+        "as": "'Guileless' মানে ছলাহীন; 'Innocent'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Intricate'.",
+        "as": "'Intricate'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Simple",
+          "as": "Simple"
+        },
+        {
+          "en": "Complicated",
+          "as": "Complicated"
+        },
+        {
+          "en": "Easy",
+          "as": "Easy"
+        },
+        {
+          "en": "Straightforward",
+          "as": "Straightforward"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Complicated' means having many parts, like 'intricate'.",
+        "as": "'Complicated' মানে জটিল; 'Intricate'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Jovial'.",
+        "as": "'Jovial'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Gloomy",
+          "as": "Gloomy"
+        },
+        {
+          "en": "Sad",
+          "as": "Sad"
+        },
+        {
+          "en": "Sullen",
+          "as": "Sullen"
+        },
+        {
+          "en": "Cheerful",
+          "as": "Cheerful"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Cheerful' means happy and friendly, like 'jovial'.",
+        "as": "'Cheerful' মানে প্রফুল্ল; 'Jovial'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Jumble'.",
+        "as": "'Jumble'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Order",
+          "as": "Order"
+        },
+        {
+          "en": "Arrangement",
+          "as": "Arrangement"
+        },
+        {
+          "en": "Mess",
+          "as": "Mess"
+        },
+        {
+          "en": "System",
+          "as": "System"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Mess' means a disordered mixture, like 'jumble'.",
+        "as": "'Mess' মানে এলোমেলো অৱস্থা; 'Jumble'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Lament'.",
+        "as": "'Lament'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Rejoice",
+          "as": "Rejoice"
+        },
+        {
+          "en": "Celebrate",
+          "as": "Celebrate"
+        },
+        {
+          "en": "Cheer",
+          "as": "Cheer"
+        },
+        {
+          "en": "Mourn",
+          "as": "Mourn"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Mourn' means to feel deep sorrow, like 'lament'.",
+        "as": "'Mourn' মানে শোক প্রকাশ কৰা; 'Lament'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Lethargic'.",
+        "as": "'Lethargic'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Sluggish",
+          "as": "Sluggish"
+        },
+        {
+          "en": "Energetic",
+          "as": "Energetic"
+        },
+        {
+          "en": "Drowsy",
+          "as": "Drowsy"
+        },
+        {
+          "en": "Inactive",
+          "as": "Inactive"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Energetic' means full of energy; it is the opposite of 'lethargic'.",
+        "as": "'Energetic' মানে শক্তিমান আৰু উদ্যমী; এইটো 'Lethargic' (নিস্তেজ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Synonym of 'Lucid' is:",
+        "as": "'Lucid'ৰ সমার্থক হ'ল:"
+      },
+      "options": [
+        {
+          "en": "Confusing",
+          "as": "Confusing"
+        },
+        {
+          "en": "Unclear",
+          "as": "Unclear"
+        },
+        {
+          "en": "Clear",
+          "as": "Clear"
+        },
+        {
+          "en": "Vague",
+          "as": "Vague"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Clear' means easy to understand, like 'lucid'.",
+        "as": "'Clear' মানে স্পষ্ট; 'Lucid'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Lure'.",
+        "as": "'Lure'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Repel",
+          "as": "Repel"
+        },
+        {
+          "en": "Deter",
+          "as": "Deter"
+        },
+        {
+          "en": "Discourage",
+          "as": "Discourage"
+        },
+        {
+          "en": "Tempt",
+          "as": "Tempt"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Tempt' means to attract or entice, like 'lure'.",
+        "as": "'Tempt' মানে প্রলোভিত কৰা; 'Lure'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Magnificent'.",
+        "as": "'Magnificent'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Ordinary",
+          "as": "Ordinary"
+        },
+        {
+          "en": "Mediocre",
+          "as": "Mediocre"
+        },
+        {
+          "en": "Plain",
+          "as": "Plain"
+        },
+        {
+          "en": "Splendid",
+          "as": "Splendid"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Splendid' means impressively beautiful, like 'magnificent'.",
+        "as": "'Splendid' মানে জাকজমকপূর্ণ; 'Magnificent'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Malice'.",
+        "as": "'Malice'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Spite",
+          "as": "Spite"
+        },
+        {
+          "en": "Ill will",
+          "as": "Ill will"
+        },
+        {
+          "en": "Goodwill",
+          "as": "Goodwill"
+        },
+        {
+          "en": "Hatred",
+          "as": "Hatred"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Goodwill' means friendly feeling; it is the opposite of 'malice'.",
+        "as": "'Goodwill' মানে সদ্ভাব; এইটো 'Malice' (বিদ্বেষ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Meager'.",
+        "as": "'Meager'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Scanty",
+          "as": "Scanty"
+        },
+        {
+          "en": "Sparse",
+          "as": "Sparse"
+        },
+        {
+          "en": "Insufficient",
+          "as": "Insufficient"
+        },
+        {
+          "en": "Ample",
+          "as": "Ample"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Ample' means more than enough; it is the opposite of 'meager'.",
+        "as": "'Ample' মানে পৰ্যাপ্ত; এইটো 'Meager' (তুচ্ছ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Meek'.",
+        "as": "'Meek'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Gentle",
+          "as": "Gentle"
+        },
+        {
+          "en": "Mild",
+          "as": "Mild"
+        },
+        {
+          "en": "Arrogant",
+          "as": "Arrogant"
+        },
+        {
+          "en": "Humble",
+          "as": "Humble"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Arrogant' means overbearingly proud; it is the opposite of 'meek'.",
+        "as": "'Arrogant' মানে দাম্ভিক; এইটো 'Meek' (নম্র) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Merciful'.",
+        "as": "'Merciful'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Compassionate",
+          "as": "Compassionate"
+        },
+        {
+          "en": "Forgiving",
+          "as": "Forgiving"
+        },
+        {
+          "en": "Ruthless",
+          "as": "Ruthless"
+        },
+        {
+          "en": "Lenient",
+          "as": "Lenient"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Ruthless' means without pity; it is the opposite of 'merciful'.",
+        "as": "'Ruthless' মানে নির্দয়; এইটো 'Merciful' (দয়ালু) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Miserable'.",
+        "as": "'Miserable'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Happy",
+          "as": "Happy"
+        },
+        {
+          "en": "Joyful",
+          "as": "Joyful"
+        },
+        {
+          "en": "Cheerful",
+          "as": "Cheerful"
+        },
+        {
+          "en": "Wretched",
+          "as": "Wretched"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Wretched' means extremely unhappy, like 'miserable'.",
+        "as": "'Wretched' মানে অতি দুখী; 'Miserable'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Miserly'.",
+        "as": "'Miserly'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Stingy",
+          "as": "Stingy"
+        },
+        {
+          "en": "Generous",
+          "as": "Generous"
+        },
+        {
+          "en": "Tightfisted",
+          "as": "Tightfisted"
+        },
+        {
+          "en": "Greedy",
+          "as": "Greedy"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Generous' means giving freely; it is the opposite of 'miserly'.",
+        "as": "'Generous' মানে উদাৰ; এইটো 'Miserly' (কৃপণ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Modest'.",
+        "as": "'Modest'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Humble",
+          "as": "Humble"
+        },
+        {
+          "en": "Meek",
+          "as": "Meek"
+        },
+        {
+          "en": "Conceited",
+          "as": "Conceited"
+        },
+        {
+          "en": "Reserved",
+          "as": "Reserved"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Conceited' means excessively proud of oneself; it is the opposite of 'modest'.",
+        "as": "'Conceited' মানে আত্মগর্বী; এইটো 'Modest' (বিনয়ী) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Mortal'.",
+        "as": "'Mortal'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Human",
+          "as": "Human"
+        },
+        {
+          "en": "Earthly",
+          "as": "Earthly"
+        },
+        {
+          "en": "Worldly",
+          "as": "Worldly"
+        },
+        {
+          "en": "Immortal",
+          "as": "Immortal"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Immortal' means living forever; it is the opposite of 'mortal'.",
+        "as": "'Immortal' মানে অমর; এইটো 'Mortal' (নশ্বর) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Naive'.",
+        "as": "'Naive'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Sly",
+          "as": "Sly"
+        },
+        {
+          "en": "Cunning",
+          "as": "Cunning"
+        },
+        {
+          "en": "Gullible",
+          "as": "Gullible"
+        },
+        {
+          "en": "Skeptical",
+          "as": "Skeptical"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Gullible' means easily deceived, like 'naive'.",
+        "as": "'Gullible' মানে সহজে বিশ্বাস কৰা; 'Naive'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Nimble'.",
+        "as": "'Nimble'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Agile",
+          "as": "Agile"
+        },
+        {
+          "en": "Quick",
+          "as": "Quick"
+        },
+        {
+          "en": "Sprightly",
+          "as": "Sprightly"
+        },
+        {
+          "en": "Stiff",
+          "as": "Stiff"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Stiff' means not flexible in movement; it is the opposite of 'nimble'.",
+        "as": "'Stiff' মানে টান বা জড়; এইটো 'Nimble' (চপল) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Notorious'.",
+        "as": "'Notorious'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Respected",
+          "as": "Respected"
+        },
+        {
+          "en": "Honourable",
+          "as": "Honourable"
+        },
+        {
+          "en": "Infamous",
+          "as": "Infamous"
+        },
+        {
+          "en": "Reputable",
+          "as": "Reputable"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Infamous' means well known for a bad reason, like 'notorious'.",
+        "as": "'Infamous' মানে কুখ্যাত; 'Notorious'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Numerous'.",
+        "as": "'Numerous'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Few",
+          "as": "Few"
+        },
+        {
+          "en": "Scarce",
+          "as": "Scarce"
+        },
+        {
+          "en": "Countless",
+          "as": "Countless"
+        },
+        {
+          "en": "Rare",
+          "as": "Rare"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Countless' means too many to count, like 'numerous'.",
+        "as": "'Countless' মানে অসংখ্য; 'Numerous'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Obedient'.",
+        "as": "'Obedient'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Compliant",
+          "as": "Compliant"
+        },
+        {
+          "en": "Disobedient",
+          "as": "Disobedient"
+        },
+        {
+          "en": "Submissive",
+          "as": "Submissive"
+        },
+        {
+          "en": "Dutiful",
+          "as": "Dutiful"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Disobedient' means refusing to obey; it is the opposite of 'obedient'.",
+        "as": "'Disobedient' মানে অবাধ্য; এইটো 'Obedient' (আজ্ঞাবহ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Obscure'.",
+        "as": "'Obscure'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Unknown",
+          "as": "Unknown"
+        },
+        {
+          "en": "Indistinct",
+          "as": "Indistinct"
+        },
+        {
+          "en": "Unclear",
+          "as": "Unclear"
+        },
+        {
+          "en": "Clear",
+          "as": "Clear"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Clear' means easy to see or understand; it is the opposite of 'obscure'.",
+        "as": "'Clear' মানে স্পষ্ট; এইটো 'Obscure' (অস্পষ্ট) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Obsolete'.",
+        "as": "'Obsolete'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Outdated",
+          "as": "Outdated"
+        },
+        {
+          "en": "Archaic",
+          "as": "Archaic"
+        },
+        {
+          "en": "Extinct",
+          "as": "Extinct"
+        },
+        {
+          "en": "Modern",
+          "as": "Modern"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Modern' means current and up to date; it is the opposite of 'obsolete'.",
+        "as": "'Modern' মানে বর্তমানৰ; এইটো 'Obsolete' (অপ্রচলিত) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Obstinate'.",
+        "as": "'Obstinate'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Stubborn",
+          "as": "Stubborn"
+        },
+        {
+          "en": "Headstrong",
+          "as": "Headstrong"
+        },
+        {
+          "en": "Yielding",
+          "as": "Yielding"
+        },
+        {
+          "en": "Inflexible",
+          "as": "Inflexible"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Yielding' means ready to give in; it is the opposite of 'obstinate'.",
+        "as": "'Yielding' মানে বশংবদ; এইটো 'Obstinate' (একগুঁয়ে) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Opaque'.",
+        "as": "'Opaque'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Cloudy",
+          "as": "Cloudy"
+        },
+        {
+          "en": "Murky",
+          "as": "Murky"
+        },
+        {
+          "en": "Thick",
+          "as": "Thick"
+        },
+        {
+          "en": "Transparent",
+          "as": "Transparent"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Transparent' means allowing light to pass through; it is the opposite of 'opaque'.",
+        "as": "'Transparent' মানে স্বচ্ছ; এইটো 'Opaque' (অস্বচ্ছ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Optimistic'.",
+        "as": "'Optimistic'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Hopeful",
+          "as": "Hopeful"
+        },
+        {
+          "en": "Positive",
+          "as": "Positive"
+        },
+        {
+          "en": "Cheerful",
+          "as": "Cheerful"
+        },
+        {
+          "en": "Pessimistic",
+          "as": "Pessimistic"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Pessimistic' means expecting the worst; it is the opposite of 'optimistic'.",
+        "as": "'Pessimistic' মানে হতাশাবাদী; এইটো 'Optimistic' (আশাবাদী) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Ornate'.",
+        "as": "'Ornate'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Decorated",
+          "as": "Decorated"
+        },
+        {
+          "en": "Fancy",
+          "as": "Fancy"
+        },
+        {
+          "en": "Elaborate",
+          "as": "Elaborate"
+        },
+        {
+          "en": "Plain",
+          "as": "Plain"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Plain' means simple without decoration; it is the opposite of 'ornate'.",
+        "as": "'Plain' মানে সাদা; এইটো 'Ornate' (অলংকৃত) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Outrage'.",
+        "as": "'Outrage'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Calm",
+          "as": "Calm"
+        },
+        {
+          "en": "Pleasure",
+          "as": "Pleasure"
+        },
+        {
+          "en": "Contentment",
+          "as": "Contentment"
+        },
+        {
+          "en": "Indignation",
+          "as": "Indignation"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Indignation' means strong anger at injustice, like 'outrage'.",
+        "as": "'Indignation' মানে অন্যায়ত ক্রোধ; 'Outrage'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Pacify'.",
+        "as": "'Pacify'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Calm",
+          "as": "Calm"
+        },
+        {
+          "en": "Soothe",
+          "as": "Soothe"
+        },
+        {
+          "en": "Appease",
+          "as": "Appease"
+        },
+        {
+          "en": "Provoke",
+          "as": "Provoke"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Provoke' means to stir up anger; it is the opposite of 'pacify'.",
+        "as": "'Provoke' মানে উত্তেজিত কৰা; এইটো 'Pacify' (শান্ত কৰা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Paltry'.",
+        "as": "'Paltry'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Trivial",
+          "as": "Trivial"
+        },
+        {
+          "en": "Minor",
+          "as": "Minor"
+        },
+        {
+          "en": "Petty",
+          "as": "Petty"
+        },
+        {
+          "en": "Significant",
+          "as": "Significant"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Significant' means important; it is the opposite of 'paltry'.",
+        "as": "'Significant' মানে গুরুত্বপূর্ণ; এইটো 'Paltry' (তুচ্ছ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Peculiar'.",
+        "as": "'Peculiar'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Ordinary",
+          "as": "Ordinary"
+        },
+        {
+          "en": "Common",
+          "as": "Common"
+        },
+        {
+          "en": "Normal",
+          "as": "Normal"
+        },
+        {
+          "en": "Strange",
+          "as": "Strange"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Strange' means unusual and odd, like 'peculiar'.",
+        "as": "'Strange' মানে অদ্ভুত; 'Peculiar'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Peril'.",
+        "as": "'Peril'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Safety",
+          "as": "Safety"
+        },
+        {
+          "en": "Security",
+          "as": "Security"
+        },
+        {
+          "en": "Protection",
+          "as": "Protection"
+        },
+        {
+          "en": "Danger",
+          "as": "Danger"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Danger' means risk of harm, like 'peril'.",
+        "as": "'Danger' মানে বিপদ; 'Peril'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Perpetual'.",
+        "as": "'Perpetual'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Temporary",
+          "as": "Temporary"
+        },
+        {
+          "en": "Brief",
+          "as": "Brief"
+        },
+        {
+          "en": "Everlasting",
+          "as": "Everlasting"
+        },
+        {
+          "en": "Finite",
+          "as": "Finite"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Everlasting' means never ending, like 'perpetual'.",
+        "as": "'Everlasting' মানে চিরস্থায়ী; 'Perpetual'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Pious'.",
+        "as": "'Pious'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Irreligious",
+          "as": "Irreligious"
+        },
+        {
+          "en": "Wicked",
+          "as": "Wicked"
+        },
+        {
+          "en": "Sinful",
+          "as": "Sinful"
+        },
+        {
+          "en": "Devout",
+          "as": "Devout"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Devout' means deeply religious, like 'pious'.",
+        "as": "'Devout' মানে ধর্মপ্রাণ; 'Pious'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Placid'.",
+        "as": "'Placid'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Agitated",
+          "as": "Agitated"
+        },
+        {
+          "en": "Stormy",
+          "as": "Stormy"
+        },
+        {
+          "en": "Turbulent",
+          "as": "Turbulent"
+        },
+        {
+          "en": "Calm",
+          "as": "Calm"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Calm' means peaceful and undisturbed, like 'placid'.",
+        "as": "'Calm' মানে শান্ত; 'Placid'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Plentiful'.",
+        "as": "'Plentiful'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Abundant",
+          "as": "Abundant"
+        },
+        {
+          "en": "Copious",
+          "as": "Copious"
+        },
+        {
+          "en": "Scarce",
+          "as": "Scarce"
+        },
+        {
+          "en": "Profuse",
+          "as": "Profuse"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Scarce' means insufficient in quantity; it is the opposite of 'plentiful'.",
+        "as": "'Scarce' মানে দুর্লভ; এইটো 'Plentiful' (প্রচুর) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Plunder'.",
+        "as": "'Plunder'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Protect",
+          "as": "Protect"
+        },
+        {
+          "en": "Guard",
+          "as": "Guard"
+        },
+        {
+          "en": "Loot",
+          "as": "Loot"
+        },
+        {
+          "en": "Return",
+          "as": "Return"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Loot' means to steal goods by force, like 'plunder'.",
+        "as": "'Loot' মানে বলপূর্বক লুট কৰা; 'Plunder'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Precise'.",
+        "as": "'Precise'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Vague",
+          "as": "Vague"
+        },
+        {
+          "en": "Approximate",
+          "as": "Approximate"
+        },
+        {
+          "en": "Exact",
+          "as": "Exact"
+        },
+        {
+          "en": "Loose",
+          "as": "Loose"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Exact' means accurate in every detail, like 'precise'.",
+        "as": "'Exact' মানে নির্ভুল; 'Precise'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Prodigal'.",
+        "as": "'Prodigal'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Wasteful",
+          "as": "Wasteful"
+        },
+        {
+          "en": "Extravagant",
+          "as": "Extravagant"
+        },
+        {
+          "en": "Economical",
+          "as": "Economical"
+        },
+        {
+          "en": "Spendthrift",
+          "as": "Spendthrift"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Economical' means avoiding waste; it is the opposite of 'prodigal'.",
+        "as": "'Economical' মানে মিতব্যয়ী; এইটো 'Prodigal' (অপব্যয়ী) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Profuse'.",
+        "as": "'Profuse'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Scarce",
+          "as": "Scarce"
+        },
+        {
+          "en": "Copious",
+          "as": "Copious"
+        },
+        {
+          "en": "Sparse",
+          "as": "Sparse"
+        },
+        {
+          "en": "Meager",
+          "as": "Meager"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Copious' means abundant in quantity, like 'profuse'.",
+        "as": "'Copious' মানে প্রচুর; 'Profuse'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Prompt'.",
+        "as": "'Prompt'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Late",
+          "as": "Late"
+        },
+        {
+          "en": "Tardy",
+          "as": "Tardy"
+        },
+        {
+          "en": "Delayed",
+          "as": "Delayed"
+        },
+        {
+          "en": "Punctual",
+          "as": "Punctual"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Punctual' means on time, like 'prompt'.",
+        "as": "'Punctual' মানে সময়নিষ্ঠ; 'Prompt'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Prosperous'.",
+        "as": "'Prosperous'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Poor",
+          "as": "Poor"
+        },
+        {
+          "en": "Needy",
+          "as": "Needy"
+        },
+        {
+          "en": "Affluent",
+          "as": "Affluent"
+        },
+        {
+          "en": "Impoverished",
+          "as": "Impoverished"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Affluent' means rich and successful, like 'prosperous'.",
+        "as": "'Affluent' মানে সমৃদ্ধ; 'Prosperous'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Proud'.",
+        "as": "'Proud'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Arrogant",
+          "as": "Arrogant"
+        },
+        {
+          "en": "Conceited",
+          "as": "Conceited"
+        },
+        {
+          "en": "Haughty",
+          "as": "Haughty"
+        },
+        {
+          "en": "Humble",
+          "as": "Humble"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Humble' means having a modest opinion of oneself; it is the opposite of 'proud'.",
+        "as": "'Humble' মানে নম্র; এইটো 'Proud' (গর্বিত) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Prudent'.",
+        "as": "'Prudent'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Reckless",
+          "as": "Reckless"
+        },
+        {
+          "en": "Foolish",
+          "as": "Foolish"
+        },
+        {
+          "en": "Discreet",
+          "as": "Discreet"
+        },
+        {
+          "en": "Rash",
+          "as": "Rash"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Discreet' means careful and sensible, like 'prudent'.",
+        "as": "'Discreet' মানে বিচক্ষণ; 'Prudent'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Quell'.",
+        "as": "'Quell'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Incite",
+          "as": "Incite"
+        },
+        {
+          "en": "Provoke",
+          "as": "Provoke"
+        },
+        {
+          "en": "Arouse",
+          "as": "Arouse"
+        },
+        {
+          "en": "Suppress",
+          "as": "Suppress"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Suppress' means to put down or stop, like 'quell'.",
+        "as": "'Suppress' মানে দমন কৰা; 'Quell'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Quench'.",
+        "as": "'Quench'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Ignite",
+          "as": "Ignite"
+        },
+        {
+          "en": "Kindle",
+          "as": "Kindle"
+        },
+        {
+          "en": "Light",
+          "as": "Light"
+        },
+        {
+          "en": "Extinguish",
+          "as": "Extinguish"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Extinguish' means to put out a fire or satisfy thirst, like 'quench'.",
+        "as": "'Extinguish' মানে নুমাই দিয়া; 'Quench'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Rapid'.",
+        "as": "'Rapid'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Slow",
+          "as": "Slow"
+        },
+        {
+          "en": "Fast",
+          "as": "Fast"
+        },
+        {
+          "en": "Gradual",
+          "as": "Gradual"
+        },
+        {
+          "en": "Leisurely",
+          "as": "Leisurely"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "'Fast' means quick in movement, like 'rapid'.",
+        "as": "'Fast' মানে দ্রুত; 'Rapid'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Rash'.",
+        "as": "'Rash'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Reckless",
+          "as": "Reckless"
+        },
+        {
+          "en": "Foolhardy",
+          "as": "Foolhardy"
+        },
+        {
+          "en": "Hasty",
+          "as": "Hasty"
+        },
+        {
+          "en": "Cautious",
+          "as": "Cautious"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Cautious' means careful to avoid danger; it is the opposite of 'rash'.",
+        "as": "'Cautious' মানে সতর্ক; এইটো 'Rash' (বে-পৰোৱা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Rebellious'.",
+        "as": "'Rebellious'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Defiant",
+          "as": "Defiant"
+        },
+        {
+          "en": "Disobedient",
+          "as": "Disobedient"
+        },
+        {
+          "en": "Obedient",
+          "as": "Obedient"
+        },
+        {
+          "en": "Insurgent",
+          "as": "Insurgent"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Obedient' means willing to obey; it is the opposite of 'rebellious'.",
+        "as": "'Obedient' মানে আজ্ঞাবহ; এইটো 'Rebellious' (বিদ্রোহী) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Reckless'.",
+        "as": "'Reckless'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Rash",
+          "as": "Rash"
+        },
+        {
+          "en": "Heedless",
+          "as": "Heedless"
+        },
+        {
+          "en": "Careless",
+          "as": "Careless"
+        },
+        {
+          "en": "Careful",
+          "as": "Careful"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Careful' means taking precautions; it is the opposite of 'reckless'.",
+        "as": "'Careful' মানে সাৱধান; এইটো 'Reckless' (অসাৱধান) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Refute'.",
+        "as": "'Refute'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Disprove",
+          "as": "Disprove"
+        },
+        {
+          "en": "Contradict",
+          "as": "Contradict"
+        },
+        {
+          "en": "Accept",
+          "as": "Accept"
+        },
+        {
+          "en": "Deny",
+          "as": "Deny"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Accept' means to agree with something; it is the opposite of 'refute'.",
+        "as": "'Accept' মানে গ্ৰহণ কৰা; এইটো 'Refute' (খণ্ডন) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Repel'.",
+        "as": "'Repel'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Attract",
+          "as": "Attract"
+        },
+        {
+          "en": "Welcome",
+          "as": "Welcome"
+        },
+        {
+          "en": "Accept",
+          "as": "Accept"
+        },
+        {
+          "en": "Repulse",
+          "as": "Repulse"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Repulse' means to drive back or refuse, like 'repel'.",
+        "as": "'Repulse' মানে পাছ হটি দিয়া; 'Repel'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Repulsive'.",
+        "as": "'Repulsive'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Disgusting",
+          "as": "Disgusting"
+        },
+        {
+          "en": "Revolting",
+          "as": "Revolting"
+        },
+        {
+          "en": "Offensive",
+          "as": "Offensive"
+        },
+        {
+          "en": "Attractive",
+          "as": "Attractive"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Attractive' means pleasing; it is the opposite of 'repulsive'.",
+        "as": "'Attractive' মানে আকর্ষণীয়; এইটো 'Repulsive' (ঘৃণনীয়) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Resolute'.",
+        "as": "'Resolute'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Wavering",
+          "as": "Wavering"
+        },
+        {
+          "en": "Irresolute",
+          "as": "Irresolute"
+        },
+        {
+          "en": "Determined",
+          "as": "Determined"
+        },
+        {
+          "en": "Uncertain",
+          "as": "Uncertain"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Determined' means firm in purpose, like 'resolute'.",
+        "as": "'Determined' মানে দৃঢ়সংকল্প; 'Resolute'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Restrain'.",
+        "as": "'Restrain'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Release",
+          "as": "Release"
+        },
+        {
+          "en": "Free",
+          "as": "Free"
+        },
+        {
+          "en": "Liberate",
+          "as": "Liberate"
+        },
+        {
+          "en": "Curb",
+          "as": "Curb"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Curb' means to hold back or control, like 'restrain'.",
+        "as": "'Curb' মানে সংযত কৰা; 'Restrain'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Reticent'.",
+        "as": "'Reticent'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Silent",
+          "as": "Silent"
+        },
+        {
+          "en": "Reserved",
+          "as": "Reserved"
+        },
+        {
+          "en": "Quiet",
+          "as": "Quiet"
+        },
+        {
+          "en": "Talkative",
+          "as": "Talkative"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Talkative' means fond of speaking a lot; it is the opposite of 'reticent'.",
+        "as": "'Talkative' মানে বাচাল; এইটো 'Reticent' (কম কথা কোৱা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Rigid'.",
+        "as": "'Rigid'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Stiff",
+          "as": "Stiff"
+        },
+        {
+          "en": "Inflexible",
+          "as": "Inflexible"
+        },
+        {
+          "en": "Unbending",
+          "as": "Unbending"
+        },
+        {
+          "en": "Flexible",
+          "as": "Flexible"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Flexible' means able to change or bend easily; it is the opposite of 'rigid'.",
+        "as": "'Flexible' মানে নমনীয়; এইটো 'Rigid' (কঠোৰ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Rigorous'.",
+        "as": "'Rigorous'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Lenient",
+          "as": "Lenient"
+        },
+        {
+          "en": "Lax",
+          "as": "Lax"
+        },
+        {
+          "en": "Strict",
+          "as": "Strict"
+        },
+        {
+          "en": "Easy",
+          "as": "Easy"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Strict' means demanding and thorough, like 'rigorous'.",
+        "as": "'Strict' মানে কঠোৰ; 'Rigorous'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Rival'.",
+        "as": "'Rival'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Ally",
+          "as": "Ally"
+        },
+        {
+          "en": "Friend",
+          "as": "Friend"
+        },
+        {
+          "en": "Partner",
+          "as": "Partner"
+        },
+        {
+          "en": "Competitor",
+          "as": "Competitor"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Competitor' means one who competes, like 'rival'.",
+        "as": "'Competitor' মানে প্রতিদ্বন্দ্বী; 'Rival'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Robust'.",
+        "as": "'Robust'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Frail",
+          "as": "Frail"
+        },
+        {
+          "en": "Weak",
+          "as": "Weak"
+        },
+        {
+          "en": "Sturdy",
+          "as": "Sturdy"
+        },
+        {
+          "en": "Delicate",
+          "as": "Delicate"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Sturdy' means strong and healthy, like 'robust'.",
+        "as": "'Sturdy' মানে সবল; 'Robust'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Ruthless'.",
+        "as": "'Ruthless'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Pitiless",
+          "as": "Pitiless"
+        },
+        {
+          "en": "Cruel",
+          "as": "Cruel"
+        },
+        {
+          "en": "Brutal",
+          "as": "Brutal"
+        },
+        {
+          "en": "Merciful",
+          "as": "Merciful"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Merciful' means showing kindness and forgiveness; it is the opposite of 'ruthless'.",
+        "as": "'Merciful' মানে দয়ালু; এইটো 'Ruthless' (নিষ্ঠুর) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Sagacious'.",
+        "as": "'Sagacious'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Foolish",
+          "as": "Foolish"
+        },
+        {
+          "en": "Stupid",
+          "as": "Stupid"
+        },
+        {
+          "en": "Ignorant",
+          "as": "Ignorant"
+        },
+        {
+          "en": "Wise",
+          "as": "Wise"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Wise' means having good judgement, like 'sagacious'.",
+        "as": "'Wise' মানে জ্ঞানী; 'Sagacious'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Savage'.",
+        "as": "'Savage'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Tame",
+          "as": "Tame"
+        },
+        {
+          "en": "Civilized",
+          "as": "Civilized"
+        },
+        {
+          "en": "Gentle",
+          "as": "Gentle"
+        },
+        {
+          "en": "Wild",
+          "as": "Wild"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Wild' means fierce and untamed, like 'savage'.",
+        "as": "'Wild' মানে বন্য আৰু হিংস্র; 'Savage'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Scarce'.",
+        "as": "'Scarce'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Rare",
+          "as": "Rare"
+        },
+        {
+          "en": "Sparse",
+          "as": "Sparse"
+        },
+        {
+          "en": "Plentiful",
+          "as": "Plentiful"
+        },
+        {
+          "en": "Deficient",
+          "as": "Deficient"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Plentiful' means available in large amounts; it is the opposite of 'scarce'.",
+        "as": "'Plentiful' মানে প্রচুর; এইটো 'Scarce' (দুর্লভ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Scorn'.",
+        "as": "'Scorn'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Respect",
+          "as": "Respect"
+        },
+        {
+          "en": "Admiration",
+          "as": "Admiration"
+        },
+        {
+          "en": "Contempt",
+          "as": "Contempt"
+        },
+        {
+          "en": "Praise",
+          "as": "Praise"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Contempt' means a feeling of disrespect, like 'scorn'.",
+        "as": "'Contempt' মানে অবজ্ঞা; 'Scorn'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Shrewd'.",
+        "as": "'Shrewd'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Foolish",
+          "as": "Foolish"
+        },
+        {
+          "en": "Naive",
+          "as": "Naive"
+        },
+        {
+          "en": "Gullible",
+          "as": "Gullible"
+        },
+        {
+          "en": "Astute",
+          "as": "Astute"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Astute' means clever in judgement, like 'shrewd'.",
+        "as": "'Astute' মানে বিচক্ষণ; 'Shrewd'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Sincere'.",
+        "as": "'Sincere'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Honest",
+          "as": "Honest"
+        },
+        {
+          "en": "Truthful",
+          "as": "Truthful"
+        },
+        {
+          "en": "Frank",
+          "as": "Frank"
+        },
+        {
+          "en": "Hypocritical",
+          "as": "Hypocritical"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Hypocritical' means pretending to be what one is not; it is the opposite of 'sincere'.",
+        "as": "'Hypocritical' মানে ভণ্ড; এইটো 'Sincere' (আন্তরিক) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Skeptical'.",
+        "as": "'Skeptical'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Doubtful",
+          "as": "Doubtful"
+        },
+        {
+          "en": "Suspicious",
+          "as": "Suspicious"
+        },
+        {
+          "en": "Cynical",
+          "as": "Cynical"
+        },
+        {
+          "en": "Gullible",
+          "as": "Gullible"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Gullible' means too ready to believe; it is the opposite of 'skeptical'.",
+        "as": "'Gullible' মানে সহজে বিশ্বাসী; এইটো 'Skeptical' (সন্দেহপ্রবণ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Sluggish'.",
+        "as": "'Sluggish'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Energetic",
+          "as": "Energetic"
+        },
+        {
+          "en": "Active",
+          "as": "Active"
+        },
+        {
+          "en": "Lethargic",
+          "as": "Lethargic"
+        },
+        {
+          "en": "Quick",
+          "as": "Quick"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Lethargic' means slow and lacking energy, like 'sluggish'.",
+        "as": "'Lethargic' মানে নিস্তেজ; 'Sluggish'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Sparse'.",
+        "as": "'Sparse'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Scattered",
+          "as": "Scattered"
+        },
+        {
+          "en": "Thin",
+          "as": "Thin"
+        },
+        {
+          "en": "Few",
+          "as": "Few"
+        },
+        {
+          "en": "Dense",
+          "as": "Dense"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Dense' means closely packed together; it is the opposite of 'sparse'.",
+        "as": "'Dense' মানে ঘন; এইটো 'Sparse' (ঠায়ে ঠায়ে থকা) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Stern'.",
+        "as": "'Stern'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Severe",
+          "as": "Severe"
+        },
+        {
+          "en": "Strict",
+          "as": "Strict"
+        },
+        {
+          "en": "Firm",
+          "as": "Firm"
+        },
+        {
+          "en": "Lenient",
+          "as": "Lenient"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Lenient' means merciful and not strict; it is the opposite of 'stern'.",
+        "as": "'Lenient' মানে ঢিলা বা সহনশীল; এইটো 'Stern' (কঠোৰ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Stubborn'.",
+        "as": "'Stubborn'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Flexible",
+          "as": "Flexible"
+        },
+        {
+          "en": "Docile",
+          "as": "Docile"
+        },
+        {
+          "en": "Submissive",
+          "as": "Submissive"
+        },
+        {
+          "en": "Headstrong",
+          "as": "Headstrong"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Headstrong' means obstinately self-willed, like 'stubborn'.",
+        "as": "'Headstrong' মানে একগুঁয়ে; 'Stubborn'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Subsequent'.",
+        "as": "'Subsequent'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Previous",
+          "as": "Previous"
+        },
+        {
+          "en": "Prior",
+          "as": "Prior"
+        },
+        {
+          "en": "Preceding",
+          "as": "Preceding"
+        },
+        {
+          "en": "Following",
+          "as": "Following"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Following' means coming after something, like 'subsequent'.",
+        "as": "'Following' মানে পৰবর্তী; 'Subsequent'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Subterfuge'.",
+        "as": "'Subterfuge'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Honesty",
+          "as": "Honesty"
+        },
+        {
+          "en": "Frankness",
+          "as": "Frankness"
+        },
+        {
+          "en": "Candor",
+          "as": "Candor"
+        },
+        {
+          "en": "Trick",
+          "as": "Trick"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Trick' means a deceitful device, like 'subterfuge'.",
+        "as": "'Trick' মানে ছল বা চাল; 'Subterfuge'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Succinct'.",
+        "as": "'Succinct'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Verbose",
+          "as": "Verbose"
+        },
+        {
+          "en": "Lengthy",
+          "as": "Lengthy"
+        },
+        {
+          "en": "Concise",
+          "as": "Concise"
+        },
+        {
+          "en": "Wordy",
+          "as": "Wordy"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Concise' means brief and to the point, like 'succinct'.",
+        "as": "'Concise' মানে সংক্ষিপ্ত; 'Succinct'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Sullen'.",
+        "as": "'Sullen'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Cheerful",
+          "as": "Cheerful"
+        },
+        {
+          "en": "Friendly",
+          "as": "Friendly"
+        },
+        {
+          "en": "Jovial",
+          "as": "Jovial"
+        },
+        {
+          "en": "Sulky",
+          "as": "Sulky"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Sulky' means silent and bad-tempered, like 'sullen'.",
+        "as": "'Sulky' মানে খিনখিনীয়া; 'Sullen'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Superficial'.",
+        "as": "'Superficial'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Shallow",
+          "as": "Shallow"
+        },
+        {
+          "en": "Surface",
+          "as": "Surface"
+        },
+        {
+          "en": "Outward",
+          "as": "Outward"
+        },
+        {
+          "en": "Deep",
+          "as": "Deep"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Deep' means thorough and profound; it is the opposite of 'superficial'.",
+        "as": "'Deep' মানে গভীৰ; এইটো 'Superficial' (উপরিস্থ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Swift'.",
+        "as": "'Swift'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Slow",
+          "as": "Slow"
+        },
+        {
+          "en": "Lethargic",
+          "as": "Lethargic"
+        },
+        {
+          "en": "Sluggish",
+          "as": "Sluggish"
+        },
+        {
+          "en": "Speedy",
+          "as": "Speedy"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Speedy' means moving quickly, like 'swift'.",
+        "as": "'Speedy' মানে দ্রুত; 'Swift'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Tedious'.",
+        "as": "'Tedious'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Interesting",
+          "as": "Interesting"
+        },
+        {
+          "en": "Exciting",
+          "as": "Exciting"
+        },
+        {
+          "en": "Monotonous",
+          "as": "Monotonous"
+        },
+        {
+          "en": "Engaging",
+          "as": "Engaging"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Monotonous' means dull and repetitive, like 'tedious'.",
+        "as": "'Monotonous' মানে একঘেয়া; 'Tedious'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Timid'.",
+        "as": "'Timid'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Shy",
+          "as": "Shy"
+        },
+        {
+          "en": "Fearful",
+          "as": "Fearful"
+        },
+        {
+          "en": "Cowardly",
+          "as": "Cowardly"
+        },
+        {
+          "en": "Bold",
+          "as": "Bold"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Bold' means brave and confident; it is the opposite of 'timid'.",
+        "as": "'Bold' মানে সাহসী; এইটো 'Timid' (ভয়াতুৰ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Tranquil'.",
+        "as": "'Tranquil'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Agitated",
+          "as": "Agitated"
+        },
+        {
+          "en": "Disturbed",
+          "as": "Disturbed"
+        },
+        {
+          "en": "Stormy",
+          "as": "Stormy"
+        },
+        {
+          "en": "Peaceful",
+          "as": "Peaceful"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Peaceful' means calm and quiet, like 'tranquil'.",
+        "as": "'Peaceful' মানে শান্ত; 'Tranquil'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Transparent'.",
+        "as": "'Transparent'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Clear",
+          "as": "Clear"
+        },
+        {
+          "en": "Bright",
+          "as": "Bright"
+        },
+        {
+          "en": "Crystal",
+          "as": "Crystal"
+        },
+        {
+          "en": "Opaque",
+          "as": "Opaque"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Opaque' means not allowing light to pass through; it is the opposite of 'transparent'.",
+        "as": "'Opaque' মানে অস্বচ্ছ; এইটো 'Transparent' (স্বচ্ছ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Tremendous'.",
+        "as": "'Tremendous'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Tiny",
+          "as": "Tiny"
+        },
+        {
+          "en": "Small",
+          "as": "Small"
+        },
+        {
+          "en": "Enormous",
+          "as": "Enormous"
+        },
+        {
+          "en": "Insignificant",
+          "as": "Insignificant"
+        }
+      ],
+      "correct": 2,
+      "a": {
+        "en": "'Enormous' means very large in size or amount, like 'tremendous'.",
+        "as": "'Enormous' মানে বিশাল; 'Tremendous'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Trivial'.",
+        "as": "'Trivial'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Petty",
+          "as": "Petty"
+        },
+        {
+          "en": "Minor",
+          "as": "Minor"
+        },
+        {
+          "en": "Insignificant",
+          "as": "Insignificant"
+        },
+        {
+          "en": "Important",
+          "as": "Important"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Important' means of great significance; it is the opposite of 'trivial'.",
+        "as": "'Important' মানে গুরুত্বপূর্ণ; এইটো 'Trivial' (তুচ্ছ) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Turbulent'.",
+        "as": "'Turbulent'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Calm",
+          "as": "Calm"
+        },
+        {
+          "en": "Peaceful",
+          "as": "Peaceful"
+        },
+        {
+          "en": "Tranquil",
+          "as": "Tranquil"
+        },
+        {
+          "en": "Stormy",
+          "as": "Stormy"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Stormy' means violent and disturbed, like 'turbulent'.",
+        "as": "'Stormy' মানে ঝড়-বতাহপূর্ণ; 'Turbulent'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Unanimous'.",
+        "as": "'Unanimous'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Agreed",
+          "as": "Agreed"
+        },
+        {
+          "en": "United",
+          "as": "United"
+        },
+        {
+          "en": "Solid",
+          "as": "Solid"
+        },
+        {
+          "en": "Divided",
+          "as": "Divided"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Divided' means not in agreement; it is the opposite of 'unanimous'.",
+        "as": "'Divided' মানে বিভক্ত; এইটো 'Unanimous' (সর্বসম্মত) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Vague'.",
+        "as": "'Vague'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Obscure",
+          "as": "Obscure"
+        },
+        {
+          "en": "Hazy",
+          "as": "Hazy"
+        },
+        {
+          "en": "Indefinite",
+          "as": "Indefinite"
+        },
+        {
+          "en": "Definite",
+          "as": "Definite"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Definite' means clear and precise; it is the opposite of 'vague'.",
+        "as": "'Definite' মানে সুনির্দিষ্ট; এইটো 'Vague' (অস্পষ্ট) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Vast'.",
+        "as": "'Vast'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Tiny",
+          "as": "Tiny"
+        },
+        {
+          "en": "Narrow",
+          "as": "Narrow"
+        },
+        {
+          "en": "Limited",
+          "as": "Limited"
+        },
+        {
+          "en": "Extensive",
+          "as": "Extensive"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Extensive' means covering a large area, like 'vast'.",
+        "as": "'Extensive' মানে বিস্তৃত; 'Vast'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Vehement'.",
+        "as": "'Vehement'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Mild",
+          "as": "Mild"
+        },
+        {
+          "en": "Feeble",
+          "as": "Feeble"
+        },
+        {
+          "en": "Weak",
+          "as": "Weak"
+        },
+        {
+          "en": "Intense",
+          "as": "Intense"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Intense' means showing strong feeling, like 'vehement'.",
+        "as": "'Intense' মানে প্রবল; 'Vehement'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Venerable'.",
+        "as": "'Venerable'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Disreputable",
+          "as": "Disreputable"
+        },
+        {
+          "en": "Ignoble",
+          "as": "Ignoble"
+        },
+        {
+          "en": "Contemptible",
+          "as": "Contemptible"
+        },
+        {
+          "en": "Respected",
+          "as": "Respected"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Respected' means held in high regard, like 'venerable'.",
+        "as": "'Respected' মানে শ্রদ্ধেয়; 'Venerable'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Vigilant'.",
+        "as": "'Vigilant'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Watchful",
+          "as": "Watchful"
+        },
+        {
+          "en": "Alert",
+          "as": "Alert"
+        },
+        {
+          "en": "Attentive",
+          "as": "Attentive"
+        },
+        {
+          "en": "Careless",
+          "as": "Careless"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Careless' means not paying attention; it is the opposite of 'vigilant'.",
+        "as": "'Careless' মানে অসতর্ক; এইটো 'Vigilant' (জাগ্রত) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Vigorous'.",
+        "as": "'Vigorous'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Weak",
+          "as": "Weak"
+        },
+        {
+          "en": "Feeble",
+          "as": "Feeble"
+        },
+        {
+          "en": "Lethargic",
+          "as": "Lethargic"
+        },
+        {
+          "en": "Energetic",
+          "as": "Energetic"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Energetic' means full of strength and activity, like 'vigorous'.",
+        "as": "'Energetic' মানে উদ্যমী; 'Vigorous'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Virtuous'.",
+        "as": "'Virtuous'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Righteous",
+          "as": "Righteous"
+        },
+        {
+          "en": "Noble",
+          "as": "Noble"
+        },
+        {
+          "en": "Upright",
+          "as": "Upright"
+        },
+        {
+          "en": "Wicked",
+          "as": "Wicked"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Wicked' means morally bad; it is the opposite of 'virtuous'.",
+        "as": "'Wicked' মানে দুশ্চরিত্র; এইটো 'Virtuous' (সদাচারী) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'Vivid'.",
+        "as": "'Vivid'ৰ সমার্থক শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Dull",
+          "as": "Dull"
+        },
+        {
+          "en": "Faint",
+          "as": "Faint"
+        },
+        {
+          "en": "Vague",
+          "as": "Vague"
+        },
+        {
+          "en": "Lively",
+          "as": "Lively"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Lively' means bright and full of life, like 'vivid'.",
+        "as": "'Lively' মানে জীবন্ত আৰু উজ্জ্বল; 'Vivid'ৰ দৰেই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Wary'.",
+        "as": "'Wary'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Cautious",
+          "as": "Cautious"
+        },
+        {
+          "en": "Careful",
+          "as": "Careful"
+        },
+        {
+          "en": "Vigilant",
+          "as": "Vigilant"
+        },
+        {
+          "en": "Heedless",
+          "as": "Heedless"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Heedless' means careless and inattentive; it is the opposite of 'wary'.",
+        "as": "'Heedless' মানে অসতর্ক; এইটো 'Wary' (সতর্ক) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Wasteful'.",
+        "as": "'Wasteful'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Extravagant",
+          "as": "Extravagant"
+        },
+        {
+          "en": "Prodigal",
+          "as": "Prodigal"
+        },
+        {
+          "en": "Spendthrift",
+          "as": "Spendthrift"
+        },
+        {
+          "en": "Thrifty",
+          "as": "Thrifty"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Thrifty' means careful with money; it is the opposite of 'wasteful'.",
+        "as": "'Thrifty' মানে মিতব্যয়ী; এইটো 'Wasteful' (অপব্যয়ী) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Wealthy'.",
+        "as": "'Wealthy'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Rich",
+          "as": "Rich"
+        },
+        {
+          "en": "Affluent",
+          "as": "Affluent"
+        },
+        {
+          "en": "Prosperous",
+          "as": "Prosperous"
+        },
+        {
+          "en": "Poor",
+          "as": "Poor"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Poor' means having little money; it is the opposite of 'wealthy'.",
+        "as": "'Poor' মানে দরিদ্র; এইটো 'Wealthy' (ধনী) ৰ বিপৰীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'Zealous'.",
+        "as": "'Zealous'ৰ বিপৰীত শব্দ বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Enthusiastic",
+          "as": "Enthusiastic"
+        },
+        {
+          "en": "Ardent",
+          "as": "Ardent"
+        },
+        {
+          "en": "Passionate",
+          "as": "Passionate"
+        },
+        {
+          "en": "Indifferent",
+          "as": "Indifferent"
+        }
+      ],
+      "correct": 3,
+      "a": {
+        "en": "'Indifferent' means having no interest; it is the opposite of 'zealous'.",
+        "as": "'Indifferent' মানে উদাসীন; এইটো 'Zealous' (উৎসাহী) ৰ বিপৰীত।"
+      }
     }
   ]
 }
