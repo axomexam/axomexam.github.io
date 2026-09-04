@@ -1,12 +1,368 @@
 {
-  "id": "articles-and-determiners",
-  "title": {
-    "en": "Articles and Determiners",
-    "as": "আৰ্টিকেল আৰু নিৰ্ধাৰক"
-  },
-  "description": {
-    "en": "Upload questions here.",
-    "as": "ইয়াত প্ৰশ্ন আপলোড কৰক।"
-  },
-  "questions": []
+  "id": "english-grammar-articles-determiners",
+  "title": { "en": "Articles & Determiners", "as": "আৰ্টিকল আৰু ডিটাৰমিনাৰ" },
+  "description": { "en": "Objective questions on articles (a, an, the) and determiners for Assam competitive exams (APSC, DME, Forest, etc.).", "as": "অসম প্ৰতিযোগিতামূলক পৰীক্ষা (APSC, DME, বন, আদি)ৰ বাবে আৰ্টিকল (a, an, the) আৰু ডিটাৰমিনাৰৰ ওপৰত গুৰুত্বপূৰ্ণ প্ৰশ্ন।" },
+  "tags": ["english", "grammar", "articles", "determiners", "competitive", "ইংৰাজী", "ব্যাকৰণ", "আৰ্টিকল", "ডিটাৰমিনাৰ"],
+  "questions": [
+    {
+      "q": { "en": "Fill in the blank with the correct article: 'He is ___ honest man.'", "as": "শুদ্ধ article বাছি উলিয়াওক: 'He is ___ honest man.'" },
+      "options": [
+        { "en": "a", "as": "a" },
+        { "en": "an", "as": "an" },
+        { "en": "the", "as": "the" },
+        { "en": "No article", "as": "কোনো article নাই" }
+      ],
+      "correct": 1,
+      "a": { "en": "'Honest' begins with a silent 'h', so 'an' is used.", "as": "'honest' শব্দৰ 'h' নীৰৱ, গতিকে 'an' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'She is ___ university student.'", "as": "শূন্যস্থান পূৰণ কৰক: 'She is ___ university student.'" },
+      "options": [
+        { "en": "a", "as": "a" },
+        { "en": "an", "as": "an" },
+        { "en": "the", "as": "the" },
+        { "en": "No article", "as": "কোনো article নাই" }
+      ],
+      "correct": 0,
+      "a": { "en": "'University' begins with the consonant sound /juː/, so 'a' is used.", "as": "'university' ব্যঞ্জনধ্বনি /juː/ ৰে আৰম্ভ হয়, সেয়ে 'a' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'He is ___ M.L.A.'", "as": "শূন্যস্থান পূৰণ কৰক: 'He is ___ M.L.A.'" },
+      "options": [
+        { "en": "a", "as": "a" },
+        { "en": "an", "as": "an" },
+        { "en": "the", "as": "the" },
+        { "en": "No article", "as": "কোনো article নাই" }
+      ],
+      "correct": 1,
+      "a": { "en": "'M' is pronounced 'em' (a vowel sound), so 'an M.L.A.' is correct.", "as": "M.L.A. উচ্চাৰণ 'em-el-ay' হয়; স্বৰধ্বনিৰে আৰম্ভ বাবে 'an' শুদ্ধ।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: '___ Ganges is a holy river.'", "as": "শূন্যস্থান পূৰণ কৰক: '___ Ganges is a holy river.'" },
+      "options": [
+        { "en": "a", "as": "a" },
+        { "en": "an", "as": "an" },
+        { "en": "the", "as": "the" },
+        { "en": "No article", "as": "কোনো article নাই" }
+      ],
+      "correct": 2,
+      "a": { "en": "Names of rivers take 'the'.", "as": "নদীৰ নামৰ আগত 'the' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'I saw ___ one-eyed man yesterday.'", "as": "শূন্যস্থান পূৰণ কৰক: 'I saw ___ one-eyed man yesterday.'" },
+      "options": [
+        { "en": "a", "as": "a" },
+        { "en": "an", "as": "an" },
+        { "en": "the", "as": "the" },
+        { "en": "No article", "as": "কোনো article নাই" }
+      ],
+      "correct": 0,
+      "a": { "en": "'One' is pronounced 'wun' (consonant sound), so 'a' is used.", "as": "'one' ৰ উচ্চাৰণ 'wun' (ব্যঞ্জনধ্বনি), গতিকে 'a' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'He plays ___ guitar very well.'", "as": "শূন্যস্থান পূৰণ কৰক: 'He plays ___ guitar very well.'" },
+      "options": [
+        { "en": "the", "as": "the" },
+        { "en": "a", "as": "a" },
+        { "en": "an", "as": "an" },
+        { "en": "No article", "as": "কোনো article নাই" }
+      ],
+      "correct": 0,
+      "a": { "en": "Musical instruments take 'the'.", "as": "বাদ্যযন্ত্ৰৰ নামৰ আগত 'the' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'We have ___ dinner at 8 p.m. every day.'", "as": "শূন্যস্থান পূৰণ কৰক: 'We have ___ dinner at 8 p.m. every day.'" },
+      "options": [
+        { "en": "a", "as": "a" },
+        { "en": "the", "as": "the" },
+        { "en": "an", "as": "an" },
+        { "en": "No article", "as": "কোনো article নাই" }
+      ],
+      "correct": 3,
+      "a": { "en": "Names of meals take no article when used in a general sense.", "as": "খাদ্য/আহাৰৰ নাম সাধাৰণ অৰ্থত ব্যৱহাৰ হ'লে কোনো article নলয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'She is ___ tallest girl in our class.'", "as": "শূন্যস্থান পূৰণ কৰক: 'She is ___ tallest girl in our class.'" },
+      "options": [
+        { "en": "a", "as": "a" },
+        { "en": "the", "as": "the" },
+        { "en": "an", "as": "an" },
+        { "en": "No article", "as": "কোনো article নাই" }
+      ],
+      "correct": 1,
+      "a": { "en": "Superlative degree always takes 'the'.", "as": "শ্ৰেষ্ঠ মাত্ৰা (superlative) ৰ আগত সদায় 'the' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'He is ___ taller of the two brothers.'", "as": "শূন্যস্থান পূৰণ কৰক: 'He is ___ taller of the two brothers.'" },
+      "options": [
+        { "en": "the", "as": "the" },
+        { "en": "a", "as": "a" },
+        { "en": "an", "as": "an" },
+        { "en": "No article", "as": "কোনো article নাই" }
+      ],
+      "correct": 0,
+      "a": { "en": "Comparative degree takes 'the' when followed by 'of the two'.", "as": "'of the two' ৰ পিছত অহা comparative মাত্ৰাৰ আগত 'the' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blanks: '___ rich should help ___ poor.'", "as": "শূন্যস্থান পূৰণ কৰক: '___ rich should help ___ poor.'" },
+      "options": [
+        { "en": "The ... the", "as": "The ... the" },
+        { "en": "A ... the", "as": "A ... the" },
+        { "en": "An ... a", "as": "An ... a" },
+        { "en": "No article ... no article", "as": "কোনো article নাই" }
+      ],
+      "correct": 0,
+      "a": { "en": "'The + adjective' is used to mean a class of people (the rich = rich people).", "as": "'The + বিশেষণ' এটা শ্ৰেণী বুজায় (the rich = ধনী লোক)।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'He is ___ European.'", "as": "শূন্যস্থান পূৰণ কৰক: 'He is ___ European.'" },
+      "options": [
+        { "en": "a", "as": "a" },
+        { "en": "an", "as": "an" },
+        { "en": "the", "as": "the" },
+        { "en": "No article", "as": "কোনো article নাই" }
+      ],
+      "correct": 0,
+      "a": { "en": "'European' begins with the sound /jʊə/, a consonant sound, so 'a' is used.", "as": "'European' ৰ আৰম্ভণি ব্যঞ্জনধ্বনি /jʊə/, গতিকে 'a' শুদ্ধ।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'What ___ lovely dress she is wearing!'", "as": "শূন্যস্থান পূৰণ কৰক: 'What ___ lovely dress she is wearing!'" },
+      "options": [
+        { "en": "a", "as": "a" },
+        { "en": "an", "as": "an" },
+        { "en": "the", "as": "the" },
+        { "en": "No article", "as": "কোনো article নাই" }
+      ],
+      "correct": 0,
+      "a": { "en": "Exclamatory 'What a + singular countable noun' pattern is used.", "as": "বিস্ময়সূচক 'What a + একবচন গণনাযোগ্য বিশেষ্য' ৰীতি ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'The Sun rises in ___ east.'", "as": "শূন্যস্থান পূৰণ কৰক: 'The Sun rises in ___ east.'" },
+      "options": [
+        { "en": "the", "as": "the" },
+        { "en": "a", "as": "a" },
+        { "en": "an", "as": "an" },
+        { "en": "No article", "as": "কোনো article নাই" }
+      ],
+      "correct": 0,
+      "a": { "en": "Directions (east, west, etc.) after a preposition take 'the'.", "as": "পূব, পশ্চিম আদি দিশৰ আগত 'the' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'I met him ___ hour ago.'", "as": "শূন্যস্থান পূৰণ কৰক: 'I met him ___ hour ago.'" },
+      "options": [
+        { "en": "a", "as": "a" },
+        { "en": "an", "as": "an" },
+        { "en": "the", "as": "the" },
+        { "en": "No article", "as": "কোনো article নাই" }
+      ],
+      "correct": 1,
+      "a": { "en": "'Hour' has a silent 'h', so 'an' is used.", "as": "'hour' ৰ 'h' নীৰৱ, গতিকে 'an' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Choose the grammatically correct sentence:", "as": "ব্যাকৰণগতভাৱে শুদ্ধ বাক্যটো বাছি উলিয়াওক:" },
+      "options": [
+        { "en": "He is an union leader.", "as": "He is an union leader." },
+        { "en": "He is a union leader.", "as": "He is a union leader." },
+        { "en": "He is union leader.", "as": "He is union leader." },
+        { "en": "He is the union leader of a worker.", "as": "He is the union leader of a worker." }
+      ],
+      "correct": 1,
+      "a": { "en": "'Union' begins with the consonant sound /juː/, so 'a' is correct.", "as": "'union' ব্যঞ্জনধ্বনি /juː/ ৰে আৰম্ভ হয়, সেয়ে 'a union' শুদ্ধ।" }
+    },
+    {
+      "q": { "en": "Fill in the blank with a suitable article: 'He will arrive in ___ hour.'", "as": "উপযুক্ত article দি শূন্যস্থান পূৰণ কৰক: 'He will arrive in ___ hour.'" },
+      "a": { "en": "'an' (because the 'h' in 'hour' is silent).", "as": "'an' (কাৰণ 'hour' ৰ 'h' নীৰৱ)।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'Would you like ___ tea?'", "as": "শূন্যস্থান পূৰণ কৰক: 'Would you like ___ tea?'" },
+      "options": [
+        { "en": "some", "as": "some" },
+        { "en": "any", "as": "any" },
+        { "en": "much", "as": "much" },
+        { "en": "many", "as": "many" }
+      ],
+      "correct": 0,
+      "a": { "en": "'Some' is used in offers and requests even in questions.", "as": "প্ৰস্তাৱ আৰু অনুৰোধত প্ৰশ্নবোধক বাক্যতো 'some' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'I don't have ___ money with me.'", "as": "শূন্যস্থান পূৰণ কৰক: 'I don't have ___ money with me.'" },
+      "options": [
+        { "en": "some", "as": "some" },
+        { "en": "any", "as": "any" },
+        { "en": "much", "as": "much" },
+        { "en": "many", "as": "many" }
+      ],
+      "correct": 1,
+      "a": { "en": "'Any' is used in negative sentences with uncountable nouns.", "as": "নকাৰাত্মক বাক্যত অগণনাযোগ্য বিশেষ্যৰ লগত 'any' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'Did you buy ___ vegetables from the market?'", "as": "শূন্যস্থান পূৰণ কৰক: 'Did you buy ___ vegetables from the market?'" },
+      "options": [
+        { "en": "some", "as": "some" },
+        { "en": "any", "as": "any" },
+        { "en": "much", "as": "much" },
+        { "en": "many", "as": "many" }
+      ],
+      "correct": 1,
+      "a": { "en": "'Any' is normally used in questions.", "as": "সাধাৰণ প্ৰশ্নবোধক বাক্যত 'any' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'How ___ chairs are there in the hall?'", "as": "শূন্যস্থান পূৰণ কৰক: 'How ___ chairs are there in the hall?'" },
+      "options": [
+        { "en": "much", "as": "much" },
+        { "en": "many", "as": "many" },
+        { "en": "some", "as": "some" },
+        { "en": "any", "as": "any" }
+      ],
+      "correct": 1,
+      "a": { "en": "'Many' is used with countable plural nouns like 'chairs'.", "as": "'chairs'ৰ দৰে গণনাযোগ্য বহুবচন বিশেষ্যৰ লগত 'many' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'How ___ water is left in the bottle?'", "as": "শূন্যস্থান পূৰণ কৰক: 'How ___ water is left in the bottle?'" },
+      "options": [
+        { "en": "many", "as": "many" },
+        { "en": "much", "as": "much" },
+        { "en": "some", "as": "some" },
+        { "en": "any", "as": "any" }
+      ],
+      "correct": 1,
+      "a": { "en": "'Much' is used with uncountable nouns like 'water'.", "as": "'water'ৰ দৰে অগণনাযোগ্য বিশেষ্যৰ লগত 'much' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: '___ knowledge is a dangerous thing.'", "as": "শূন্যস্থান পূৰণ কৰক: '___ knowledge is a dangerous thing.'" },
+      "options": [
+        { "en": "A little", "as": "A little" },
+        { "en": "Little", "as": "Little" },
+        { "en": "The little", "as": "The little" },
+        { "en": "Any", "as": "Any" }
+      ],
+      "correct": 0,
+      "a": { "en": "'A little' means some (positive); here it means some but not enough.", "as": "'A little' অৰ্থ অলপ (সকাৰাত্মক); ইয়াত সামান্য কিন্তু অসম্পূৰ্ণ বুজাইছে।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'He spent ___ money he had on books.'", "as": "শূন্যস্থান পূৰণ কৰক: 'He spent ___ money he had on books.'" },
+      "options": [
+        { "en": "A little", "as": "A little" },
+        { "en": "Little", "as": "Little" },
+        { "en": "The little", "as": "The little" },
+        { "en": "Any", "as": "Any" }
+      ],
+      "correct": 2,
+      "a": { "en": "'The little' means all that small amount (used when the noun is qualified).", "as": "'The little' অৰ্থ সেই সামান্যখিনিয়েই (যেতিয়া বিশেষ্যটো নিৰ্দিষ্ট হয়)।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'He has ___ friends, so he always feels lonely.'", "as": "শূন্যস্থান পূৰণ কৰক: 'He has ___ friends, so he always feels lonely.'" },
+      "options": [
+        { "en": "Few", "as": "Few" },
+        { "en": "A few", "as": "A few" },
+        { "en": "The few", "as": "The few" },
+        { "en": "A little", "as": "A little" }
+      ],
+      "correct": 0,
+      "a": { "en": "'Few' means hardly any (negative); the result 'lonely' shows a negative idea.", "as": "'Few' অৰ্থ প্ৰায় নাই (নকাৰাত্মক); 'lonely' ফলাফলটোৱে নকাৰাত্মক অৰ্থ বুজাইছে।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'She has ___ friends who always help her.'", "as": "শূন্যস্থান পূৰণ কৰক: 'She has ___ friends who always help her.'" },
+      "options": [
+        { "en": "Few", "as": "Few" },
+        { "en": "A few", "as": "A few" },
+        { "en": "The few", "as": "The few" },
+        { "en": "Little", "as": "Little" }
+      ],
+      "correct": 1,
+      "a": { "en": "'A few' means some (positive); she has some helpful friends.", "as": "'A few' অৰ্থ অলপমান (সকাৰাত্মক); তেওঁৰ সহায়ক বন্ধু অলপ আছে।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: '___ of the boys was given a prize.'", "as": "শূন্যস্থান পূৰণ কৰক: '___ of the boys was given a prize.'" },
+      "options": [
+        { "en": "Each", "as": "Each" },
+        { "en": "Every", "as": "Every" },
+        { "en": "All", "as": "All" },
+        { "en": "Some", "as": "Some" }
+      ],
+      "correct": 0,
+      "a": { "en": "'Every' cannot be followed by 'of'; 'each of' is used with a plural noun.", "as": "'Every' ৰ পিছত 'of' নাহে; বহুবচন বিশেষ্যৰ লগত 'each of' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'You may take ___ of the two books.'", "as": "শূন্যস্থান পূৰণ কৰক: 'You may take ___ of the two books.'" },
+      "options": [
+        { "en": "either", "as": "either" },
+        { "en": "neither", "as": "neither" },
+        { "en": "each", "as": "each" },
+        { "en": "every", "as": "every" }
+      ],
+      "correct": 0,
+      "a": { "en": "'Either' means any one of the two.", "as": "'Either' অৰ্থ দুটাৰ ভিতৰত যিকোনো এটা।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: '___ of the two brothers is honest.'", "as": "শূন্যস্থান পূৰণ কৰক: '___ of the two brothers is honest.'" },
+      "options": [
+        { "en": "Neither", "as": "Neither" },
+        { "en": "Either", "as": "Either" },
+        { "en": "None", "as": "None" },
+        { "en": "No", "as": "No" }
+      ],
+      "correct": 0,
+      "a": { "en": "'Neither' means not one of the two; 'none' is used for more than two.", "as": "'Neither' অৰ্থ দুটাৰ এটাও নহয়; দুটাতকৈ বেছিৰ বাবে 'none' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: '___ the two sisters are teachers.'", "as": "শূন্যস্থান পূৰণ কৰক: '___ the two sisters are teachers.'" },
+      "options": [
+        { "en": "Both", "as": "Both" },
+        { "en": "All", "as": "All" },
+        { "en": "Every", "as": "Every" },
+        { "en": "Each", "as": "Each" }
+      ],
+      "correct": 0,
+      "a": { "en": "'Both' is used for two persons or things together.", "as": "দুজন ব্যক্তি বা দুটা বস্তু একেলগে বুজাবলৈ 'both' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Choose the grammatically correct sentence:", "as": "ব্যাকৰণগতভাৱে শুদ্ধ বাক্যটো বাছি উলিয়াওক:" },
+      "options": [
+        { "en": "He gave me many informations.", "as": "He gave me many informations." },
+        { "en": "He gave me much informations.", "as": "He gave me much informations." },
+        { "en": "He gave me many information.", "as": "He gave me many information." },
+        { "en": "He gave me much information.", "as": "He gave me much information." }
+      ],
+      "correct": 3,
+      "a": { "en": "'Information' is an uncountable noun, so 'much' is correct.", "as": "'information' এটা অগণনাযোগ্য বিশেষ্য, সেয়ে 'much' শুদ্ধ।" }
+    },
+    {
+      "q": { "en": "Choose the grammatically correct sentence:", "as": "ব্যাকৰণগতভাৱে শুদ্ধ বাক্যটো বাছি উলিয়াওক:" },
+      "options": [
+        { "en": "These furnitures are old.", "as": "These furnitures are old." },
+        { "en": "This furniture is old.", "as": "This furniture is old." },
+        { "en": "These furniture are old.", "as": "These furniture are old." },
+        { "en": "A furniture is old.", "as": "A furniture is old." }
+      ],
+      "correct": 1,
+      "a": { "en": "'Furniture' is an uncountable noun and takes a singular verb.", "as": "'furniture' অগণনাযোগ্য বিশেষ্য; সেয়ে একবচন verb লয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'Many a soldier ___ died in the battle.'", "as": "শূন্যস্থান পূৰণ কৰক: 'Many a soldier ___ died in the battle.'" },
+      "options": [
+        { "en": "has", "as": "has" },
+        { "en": "have", "as": "have" },
+        { "en": "were", "as": "were" },
+        { "en": "are", "as": "are" }
+      ],
+      "correct": 0,
+      "a": { "en": "'Many a + singular noun' takes a singular verb.", "as": "'Many a + একবচন বিশেষ্য' ৰ লগত একবচন verb যায়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'The number of tigers in the park ___ decreasing.'", "as": "শূন্যস্থান পূৰণ কৰক: 'The number of tigers in the park ___ decreasing.'" },
+      "options": [
+        { "en": "is", "as": "is" },
+        { "en": "are", "as": "are" },
+        { "en": "were", "as": "were" },
+        { "en": "have", "as": "have" }
+      ],
+      "correct": 0,
+      "a": { "en": "'The number of' is followed by a singular verb.", "as": "'The number of' ৰ পিছত একবচন verb ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank with a suitable determiner: 'He did not have ___ money to lend me.'", "as": "উপযুক্ত determiner দি শূন্যস্থান পূৰণ কৰক: 'He did not have ___ money to lend me.'" },
+      "a": { "en": "'any' (used in negative sentences before uncountable nouns).", "as": "'any' (নকাৰাত্মক বাক্যত অগণনাযোগ্য বিশেষ্যৰ আগত ব্যৱহাৰ হয়)।" }
+    }
+  ]
 }
