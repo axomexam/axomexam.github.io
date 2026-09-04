@@ -1,12 +1,445 @@
 {
-  "id": "clauses",
-  "title": {
-    "en": "Clauses",
-    "as": "খণ্ডবাক্য"
-  },
-  "description": {
-    "en": "Upload questions here.",
-    "as": "ইয়াত প্ৰশ্ন আপলোড কৰক।"
-  },
-  "questions": []
+  "id": "english-grammar-clauses",
+  "title": { "en": "Clauses", "as": "Clause (উপবাক্য)" },
+  "description": { "en": "Objective questions on main and subordinate clauses (noun, adjective, adverb clauses) for Assam competitive exams.", "as": "অসম প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে main আৰু subordinate clause (noun, adjective, adverb clause)ৰ ওপৰত গুৰুত্বপূৰ্ণ প্ৰশ্ন।" },
+  "tags": ["english", "grammar", "clauses", "noun-clause", "adjective-clause", "adverb-clause", "competitive", "ইংৰাজী", "ব্যাকৰণ"],
+  "questions": [
+    {
+      "q": { "en": "A group of words that contains a subject and a finite verb and forms part of a sentence is a ___.", "as": "যি শব্দসমষ্টিত subject আৰু finite verb থাকে আৰু বাক্যৰ অংশ হয় তাক ___ বোলে।" },
+      "options": [
+        { "en": "Clause", "as": "উপবাক্য" },
+        { "en": "Phrase", "as": "বাক্যাংশ" },
+        { "en": "Sentence", "as": "বাক্য" },
+        { "en": "Word", "as": "শব্দ" }
+      ],
+      "correct": 0,
+      "a": { "en": "A clause has its own subject and verb.", "as": "Clause ৰ নিজস্ব subject আৰু verb থাকে।" }
+    },
+    {
+      "q": { "en": "A clause that can stand alone as a complete sentence is called the ___ clause.", "as": "যি clause অকলে থিয় হৈ সম্পূৰ্ণ বাক্য হ'ব পাৰে তাক ___ clause বোলে।" },
+      "options": [
+        { "en": "Main", "as": "মুখ্য" },
+        { "en": "Subordinate", "as": "অধীন" },
+        { "en": "Noun", "as": "Noun" },
+        { "en": "Adverb", "as": "Adverb" }
+      ],
+      "correct": 0,
+      "a": { "en": "A main (independent) clause makes complete sense by itself.", "as": "Main (independent) clause অকলে সম্পূৰ্ণ অৰ্থ দিয়ে।" }
+    },
+    {
+      "q": { "en": "A clause that cannot stand alone and depends on the main clause is a ___ clause.", "as": "যি clause অকলে থিয় হ'ব নোৱাৰে আৰু main clause ৰ ওপৰত নিৰ্ভৰ কৰে তাক ___ clause বোলে।" },
+      "options": [
+        { "en": "Main", "as": "মুখ্য" },
+        { "en": "Subordinate", "as": "অধীন" },
+        { "en": "Independent", "as": "স্বাধীন" },
+        { "en": "Principal", "as": "মূল" }
+      ],
+      "correct": 1,
+      "a": { "en": "A subordinate clause depends on the main clause for its meaning.", "as": "Subordinate clause অৰ্থৰ বাবে main clause ৰ ওপৰত নিৰ্ভৰশীল।" }
+    },
+    {
+      "q": { "en": "Identify the main clause: 'I know that he is honest.'", "as": "Main clause চিনাক্ত কৰক: 'I know that he is honest.'" },
+      "options": [
+        { "en": "I know", "as": "I know" },
+        { "en": "that he is honest", "as": "that he is honest" },
+        { "en": "I know that", "as": "I know that" },
+        { "en": "he is honest", "as": "he is honest" }
+      ],
+      "correct": 0,
+      "a": { "en": "'I know' can stand alone and carries the main idea.", "as": "'I know' অকলে থিয় হ'ব পাৰে আৰু মূল ভাৱ বহন কৰে।" }
+    },
+    {
+      "q": { "en": "Identify the subordinate clause: 'I know that he is honest.'", "as": "Subordinate clause চিনাক্ত কৰক: 'I know that he is honest.'" },
+      "options": [
+        { "en": "that he is honest", "as": "that he is honest" },
+        { "en": "I know", "as": "I know" },
+        { "en": "he is honest", "as": "he is honest" },
+        { "en": "honest", "as": "honest" }
+      ],
+      "correct": 0,
+      "a": { "en": "'That he is honest' cannot stand alone; it is the object of 'know'.", "as": "'That he is honest' অকলে থিয় নহয়; ই 'know' ৰ কৰ্ম।" }
+    },
+    {
+      "q": { "en": "Identify the main clause: 'He returned home before it rained.'", "as": "Main clause চিনাক্ত কৰক: 'He returned home before it rained.'" },
+      "options": [
+        { "en": "He returned home", "as": "He returned home" },
+        { "en": "before it rained", "as": "before it rained" },
+        { "en": "returned home", "as": "returned home" },
+        { "en": "it rained", "as": "it rained" }
+      ],
+      "correct": 0,
+      "a": { "en": "'He returned home' makes complete sense by itself.", "as": "'He returned home' অকলে সম্পূৰ্ণ অৰ্থ দিয়ে।" }
+    },
+    {
+      "q": { "en": "Which of the following contains a noun clause?", "as": "তলৰ কোন বাক্যত noun clause আছে?" },
+      "options": [
+        { "en": "I know that he is honest.", "as": "I know that he is honest." },
+        { "en": "This is the book that I bought.", "as": "This is the book that I bought." },
+        { "en": "He came when it rained.", "as": "He came when it rained." },
+        { "en": "The boy who came is my friend.", "as": "The boy who came is my friend." }
+      ],
+      "correct": 0,
+      "a": { "en": "'That he is honest' works as the object of 'know' (a noun clause).", "as": "'That he is honest'  noun clause হিচাপে 'know' ৰ কৰ্ম।" }
+    },
+    {
+      "q": { "en": "A clause that works as the subject or object of a verb is a ___ clause.", "as": "যি clause  verb ৰ subject বা object হিচাপে কাম কৰে তাক ___ clause বোলে।" },
+      "options": [
+        { "en": "Noun", "as": "Noun" },
+        { "en": "Adjective", "as": "Adjective" },
+        { "en": "Adverb", "as": "Adverb" },
+        { "en": "Main", "as": "মুখ্য" }
+      ],
+      "correct": 0,
+      "a": { "en": "A noun clause does the work of a noun.", "as": "Noun clause  noun ৰ দৰে কাম কৰে।" }
+    },
+    {
+      "q": { "en": "'That he is honest' in 'I know that he is honest' is a ___ clause.", "as": "'I know that he is honest' বাক্যটোত 'that he is honest' এটা ___ clause।" },
+      "options": [
+        { "en": "Noun", "as": "Noun" },
+        { "en": "Adjective", "as": "Adjective" },
+        { "en": "Adverb", "as": "Adverb" },
+        { "en": "Main", "as": "মুখ্য" }
+      ],
+      "correct": 0,
+      "a": { "en": "It is the object of the verb 'know'.", "as": "ই 'know' verb ৰ object।" }
+    },
+    {
+      "q": { "en": "A clause that qualifies (describes) a noun or pronoun is an ___ clause.", "as": "যি clause  noun বা pronoun ৰ বিশেষণ কৰে তাক ___ clause বোলে।" },
+      "options": [
+        { "en": "Adjective", "as": "Adjective" },
+        { "en": "Adverb", "as": "Adverb" },
+        { "en": "Noun", "as": "Noun" },
+        { "en": "Main", "as": "মুখ্য" }
+      ],
+      "correct": 0,
+      "a": { "en": "An adjective clause is also called a relative clause.", "as": "Adjective clause ক relative clause ও বোলে।" }
+    },
+    {
+      "q": { "en": "Identify the adjective clause: 'The boy who stood first is my friend.'", "as": "Adjective clause চিনাক্ত কৰক: 'The boy who stood first is my friend.'" },
+      "options": [
+        { "en": "who stood first", "as": "who stood first" },
+        { "en": "The boy", "as": "The boy" },
+        { "en": "is my friend", "as": "is my friend" },
+        { "en": "The boy who stood first", "as": "The boy who stood first" }
+      ],
+      "correct": 0,
+      "a": { "en": "The clause qualifies the noun 'boy'.", "as": "ই clause টোৱে 'boy' বিশেষ্যৰ বিশেষণ কৰিছে।" }
+    },
+    {
+      "q": { "en": "'Who stood first' in the above sentence is a ___ clause.", "as": "ওপৰৰ বাক্যটোত 'who stood first' এটা ___ clause।" },
+      "options": [
+        { "en": "Adjective (Relative)", "as": "Adjective (Relative)" },
+        { "en": "Noun", "as": "Noun" },
+        { "en": "Adverb", "as": "Adverb" },
+        { "en": "Main", "as": "মুখ্য" }
+      ],
+      "correct": 0,
+      "a": { "en": "It is introduced by the relative pronoun 'who'.", "as": "ই relative pronoun 'who' ৰে আৰম্ভ হৈছে।" }
+    },
+    {
+      "q": { "en": "A clause that modifies a verb, an adjective or another adverb is an ___ clause.", "as": "যি clause  verb, adjective বা আন adverb ৰ modification কৰে তাক ___ clause বোলে।" },
+      "options": [
+        { "en": "Adverb", "as": "Adverb" },
+        { "en": "Adjective", "as": "Adjective" },
+        { "en": "Noun", "as": "Noun" },
+        { "en": "Main", "as": "মুখ্য" }
+      ],
+      "correct": 0,
+      "a": { "en": "An adverb clause does the work of an adverb.", "as": "Adverb clause  adverb ৰ দৰে কাম কৰে।" }
+    },
+    {
+      "q": { "en": "Identify the adverb clause: 'He works hard so that he may pass.'", "as": "Adverb clause চিনাক্ত কৰক: 'He works hard so that he may pass.'" },
+      "options": [
+        { "en": "so that he may pass", "as": "so that he may pass" },
+        { "en": "He works hard", "as": "He works hard" },
+        { "en": "works hard", "as": "works hard" },
+        { "en": "he may pass", "as": "he may pass" }
+      ],
+      "correct": 0,
+      "a": { "en": "The clause shows the purpose of working hard.", "as": "clause টোৱে কঠোৰ পৰিশ্ৰমৰ উদ্দেশ্য দেখুৱাইছে।" }
+    },
+    {
+      "q": { "en": "The clause 'so that he may pass' shows ___.", "as": "'so that he may pass' clause টোৱে ___ প্ৰকাশ কৰে।" },
+      "options": [
+        { "en": "Purpose", "as": "উদ্দেশ্য" },
+        { "en": "Reason", "as": "কাৰণ" },
+        { "en": "Time", "as": "সময়" },
+        { "en": "Place", "as": "স্থান" }
+      ],
+      "correct": 0,
+      "a": { "en": "'So that' introduces an adverb clause of purpose.", "as": "'So that' উদ্দেশ্যবোধক adverb clause ৰ সূচনা কৰে।" }
+    },
+    {
+      "q": { "en": "In 'As he was ill, he did not come', the clause 'as he was ill' is an adverb clause of ___.", "as": "'As he was ill, he did not come' বাক্যটোত 'as he was ill' clause টো ___ ৰ adverb clause।" },
+      "options": [
+        { "en": "Time", "as": "সময়" },
+        { "en": "Reason", "as": "কাৰণ" },
+        { "en": "Place", "as": "স্থান" },
+        { "en": "Contrast", "as": "বিৰোধ" }
+      ],
+      "correct": 1,
+      "a": { "en": "'As' (meaning because) shows the reason.", "as": "'As' (অৰ্থ because) কাৰণ দেখুৱায়।" }
+    },
+    {
+      "q": { "en": "Identify the adverb clause of time: 'When the rain stopped, we went out.'", "as": "সময়বোধক adverb clause চিনাক্ত কৰক: 'When the rain stopped, we went out.'" },
+      "options": [
+        { "en": "When the rain stopped", "as": "When the rain stopped" },
+        { "en": "we went out", "as": "we went out" },
+        { "en": "the rain stopped", "as": "the rain stopped" },
+        { "en": "went out", "as": "went out" }
+      ],
+      "correct": 0,
+      "a": { "en": "'When' shows the time of the action.", "as": "'When' কাৰ্য্যটোৰ সময় দেখুৱায়।" }
+    },
+    {
+      "q": { "en": "Which sentence contains an adverb clause of place?", "as": "তলৰ কোন বাক্যত স্থানবোধক adverb clause আছে?" },
+      "options": [
+        { "en": "I will go where you go.", "as": "I will go where you go." },
+        { "en": "I will go after you come.", "as": "I will go after you come." },
+        { "en": "I will go because you go.", "as": "I will go because you go." },
+        { "en": "If you go, I will go.", "as": "If you go, I will go." }
+      ],
+      "correct": 0,
+      "a": { "en": "'Where you go' shows the place of going.", "as": "'Where you go' যোৱাৰ স্থান দেখুৱাইছে।" }
+    },
+    {
+      "q": { "en": "Identify the adverb clause of condition: 'If you work hard, you will succeed.'", "as": "শর্তবোধক adverb clause চিনাক্ত কৰক: 'If you work hard, you will succeed.'" },
+      "options": [
+        { "en": "If you work hard", "as": "If you work hard" },
+        { "en": "you will succeed", "as": "you will succeed" },
+        { "en": "you work hard", "as": "you work hard" },
+        { "en": "you will succeed if", "as": "you will succeed if" }
+      ],
+      "correct": 0,
+      "a": { "en": "'If' introduces a condition.", "as": "'If'  এটা শর্তৰ সূচনা কৰে।" }
+    },
+    {
+      "q": { "en": "Identify the adverb clause of result: 'He is so weak that he cannot walk.'", "as": "ফলবোধক adverb clause চিনাক্ত কৰক: 'He is so weak that he cannot walk.'" },
+      "options": [
+        { "en": "that he cannot walk", "as": "that he cannot walk" },
+        { "en": "He is so weak", "as": "He is so weak" },
+        { "en": "he cannot walk", "as": "he cannot walk" },
+        { "en": "so weak that", "as": "so weak that" }
+      ],
+      "correct": 0,
+      "a": { "en": "'So...that' expresses result/consequence.", "as": "'So...that' ফলাফল প্ৰকাশ কৰে।" }
+    },
+    {
+      "q": { "en": "Which sentence contains an adverb clause of comparison?", "as": "তলৰ কোন বাক্যত তুলনাবোধক adverb clause আছে?" },
+      "options": [
+        { "en": "She is not as clever as her sister.", "as": "She is not as clever as her sister." },
+        { "en": "She will come when she can.", "as": "She will come when she can." },
+        { "en": "He ran so fast that he won.", "as": "He ran so fast that he won." },
+        { "en": "He failed because he was careless.", "as": "He failed because he was careless." }
+      ],
+      "correct": 0,
+      "a": { "en": "'As...as' shows comparison.", "as": "'As...as' তুলনা দেখুৱায়।" }
+    },
+    {
+      "q": { "en": "Identify the adverb clause of concession: 'Although he is poor, he is honest.'", "as": "স্বীকৃতিবোধক (concession) adverb clause চিনাক্ত কৰক: 'Although he is poor, he is honest.'" },
+      "options": [
+        { "en": "Although he is poor", "as": "Although he is poor" },
+        { "en": "he is honest", "as": "he is honest" },
+        { "en": "he is poor", "as": "he is poor" },
+        { "en": "Although he is", "as": "Although he is" }
+      ],
+      "correct": 0,
+      "a": { "en": "'Although' introduces a clause of concession (contrast).", "as": "'Although'  বিৰোধ/স্বীকৃতি বুজোৱা clause আনে।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: '___ he will come is doubtful.'", "as": "শূন্যস্থান পূৰণ কৰক: '___ he will come is doubtful.'" },
+      "options": [
+        { "en": "That", "as": "That" },
+        { "en": "What", "as": "What" },
+        { "en": "Whether", "as": "Whether" },
+        { "en": "Who", "as": "Who" }
+      ],
+      "correct": 0,
+      "a": { "en": "Here the noun clause is the subject: 'That he will come'.", "as": "ইয়াত noun clause টো subject: 'That he will come'।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'The news ___ he has passed is true.'", "as": "শূন্যস্থান পূৰণ কৰক: 'The news ___ he has passed is true.'" },
+      "options": [
+        { "en": "that", "as": "that" },
+        { "en": "what", "as": "what" },
+        { "en": "which", "as": "which" },
+        { "en": "whom", "as": "whom" }
+      ],
+      "correct": 0,
+      "a": { "en": "The noun clause is in apposition to 'the news'.", "as": "noun clause টো 'the news' ৰ apposition ৰূপে আছে।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'I doubt ___ he will come.'", "as": "শূন্যস্থান পূৰণ কৰক: 'I doubt ___ he will come.'" },
+      "options": [
+        { "en": "whether", "as": "whether" },
+        { "en": "that", "as": "that" },
+        { "en": "who", "as": "who" },
+        { "en": "which", "as": "which" }
+      ],
+      "correct": 0,
+      "a": { "en": "After 'doubt' (in doubt), 'whether/if' is used.", "as": "'doubt' ৰ পিছত 'whether/if' ব্যৱহাৰ হয়।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'Tell me ___ you want.'", "as": "শূন্যস্থান পূৰণ কৰক: 'Tell me ___ you want.'" },
+      "options": [
+        { "en": "what", "as": "what" },
+        { "en": "who", "as": "who" },
+        { "en": "when", "as": "when" },
+        { "en": "where", "as": "where" }
+      ],
+      "correct": 0,
+      "a": { "en": "'What you want' is the object of 'tell'.", "as": "'What you want' 'tell' ৰ object।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'The man ___ helped me was my uncle.'", "as": "শূন্যস্থান পূৰণ কৰক: 'The man ___ helped me was my uncle.'" },
+      "options": [
+        { "en": "who", "as": "who" },
+        { "en": "whom", "as": "whom" },
+        { "en": "whose", "as": "whose" },
+        { "en": "which", "as": "which" }
+      ],
+      "correct": 0,
+      "a": { "en": "'Who' is the subject of the adjective clause.", "as": "adjective clause ৰ subject হৈছে 'who'।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'The man ___ I met yesterday is a doctor.'", "as": "শূন্যস্থান পূৰণ কৰক: 'The man ___ I met yesterday is a doctor.'" },
+      "options": [
+        { "en": "whom", "as": "whom" },
+        { "en": "who", "as": "who" },
+        { "en": "whose", "as": "whose" },
+        { "en": "which", "as": "which" }
+      ],
+      "correct": 0,
+      "a": { "en": "'Whom' is the object of 'met'.", "as": "'met' ৰ object হৈছে 'whom'।" }
+    },
+    {
+      "q": { "en": "Fill in the blank: 'The boy ___ father died is poor.'", "as": "শূন্যস্থান পূৰণ কৰক: 'The boy ___ father died is poor.'" },
+      "options": [
+        { "en": "whose", "as": "whose" },
+        { "en": "who", "as": "who" },
+        { "en": "whom", "as": "whom" },
+        { "en": "which", "as": "which" }
+      ],
+      "correct": 0,
+      "a": { "en": "'Whose' shows possession.", "as": "'Whose'  অধিকাৰ দেখুৱায়।" }
+    },
+    {
+      "q": { "en": "Combine using an adjective clause: 'I have a friend. He lives in Guwahati.'", "as": "Adjective clause  ব্যৱহাৰ কৰি বাক্য দুটা যুক্ত কৰক: 'I have a friend. He lives in Guwahati.'" },
+      "options": [
+        { "en": "I have a friend who lives in Guwahati.", "as": "I have a friend who lives in Guwahati." },
+        { "en": "I have a friend and he lives in Guwahati.", "as": "I have a friend and he lives in Guwahati." },
+        { "en": "I have a friend living in Guwahati and I have him.", "as": "I have a friend living in Guwahati and I have him." },
+        { "en": "I have a friend; he lives in Guwahati.", "as": "I have a friend; he lives in Guwahati." }
+      ],
+      "correct": 0,
+      "a": { "en": "The pronoun 'he' is replaced by the relative 'who'.", "as": "'he' সৰ্বনামটো relative 'who' ৰে সলনি হয়।" }
+    },
+    {
+      "q": { "en": "Combine using a relative clause: 'This is the house. Rabindranath was born here.'", "as": "Relative clause  ব্যৱহাৰ কৰি বাক্য দুটা যুক্ত কৰক: 'This is the house. Rabindranath was born here.'" },
+      "options": [
+        { "en": "This is the house where Rabindranath was born.", "as": "This is the house where Rabindranath was born." },
+        { "en": "This is the house who Rabindranath was born.", "as": "This is the house who Rabindranath was born." },
+        { "en": "This is the house when Rabindranath was born.", "as": "This is the house when Rabindranath was born." },
+        { "en": "This is the house whose Rabindranath was born.", "as": "This is the house whose Rabindranath was born." }
+      ],
+      "correct": 0,
+      "a": { "en": "The relative adverb 'where' joins the clauses.", "as": "relative adverb 'where'  ৰে clause দুটা যুক্ত হয়।" }
+    },
+    {
+      "q": { "en": "'Where I was born' in 'This is the house where I was born' is a/an ___ clause.", "as": "'This is the house where I was born' বাক্যটোত 'where I was born' এটা ___ clause।" },
+      "options": [
+        { "en": "Adjective", "as": "Adjective" },
+        { "en": "Adverb", "as": "Adverb" },
+        { "en": "Noun", "as": "Noun" },
+        { "en": "Main", "as": "মুখ্য" }
+      ],
+      "correct": 0,
+      "a": { "en": "It qualifies the noun 'house'.", "as": "ই 'house' বিশেষ্যটোৰ বিশেষণ কৰিছে।" }
+    },
+    {
+      "q": { "en": "'That she was ill' in 'She said that she was ill' is a ___ clause.", "as": "'She said that she was ill' বাক্যটোত 'that she was ill' এটা ___ clause।" },
+      "options": [
+        { "en": "Noun", "as": "Noun" },
+        { "en": "Adjective", "as": "Adjective" },
+        { "en": "Adverb", "as": "Adverb" },
+        { "en": "Main", "as": "মুখ্য" }
+      ],
+      "correct": 0,
+      "a": { "en": "It is the object of the verb 'said'.", "as": "ই 'said' verb ৰ object।" }
+    },
+    {
+      "q": { "en": "'Where he lives' in 'I don't know where he lives' is a ___ clause.", "as": "'I don't know where he lives' বাক্যটোত 'where he lives' এটা ___ clause।" },
+      "options": [
+        { "en": "Noun", "as": "Noun" },
+        { "en": "Adjective", "as": "Adjective" },
+        { "en": "Adverb", "as": "Adverb" },
+        { "en": "Main", "as": "মুখ্য" }
+      ],
+      "correct": 0,
+      "a": { "en": "It is the object of 'know' (indirect question).", "as": "ই 'know' ৰ object (indirect question)।" }
+    },
+    {
+      "q": { "en": "A sentence having one main clause and one or more subordinate clauses is a ___ sentence.", "as": "এটা main clause আৰু এটা বা বেছি subordinate clause থকা বাক্য এটা ___ বাক্য।" },
+      "options": [
+        { "en": "Complex", "as": "জটিল" },
+        { "en": "Compound", "as": "যৌগিক" },
+        { "en": "Simple", "as": "সৰল" },
+        { "en": "Phrase", "as": "বাক্যাংশ" }
+      ],
+      "correct": 0,
+      "a": { "en": "Complex sentences contain subordinate clauses.", "as": "জটিল বাক্যত subordinate clause থাকে।" }
+    },
+    {
+      "q": { "en": "Two or more main clauses joined by 'and', 'but' or 'or' make a ___ sentence.", "as": "'and', 'but' বা 'or'  ৰে যুক্ত দুটা বা বেছি main clause এটা ___ বাক্য গঠন কৰে।" },
+      "options": [
+        { "en": "Simple", "as": "সৰল" },
+        { "en": "Compound", "as": "যৌগিক" },
+        { "en": "Complex", "as": "জটিল" },
+        { "en": "Exclamatory", "as": "বিস্ময়সূচক" }
+      ],
+      "correct": 1,
+      "a": { "en": "Coordinating conjunctions make compound sentences.", "as": "Coordinating conjunction  য়ে compound sentence গঠন কৰে।" }
+    },
+    {
+      "q": { "en": "Combine using 'though': 'He is poor. He is happy.'", "as": "'though' ব্যৱহাৰ কৰি যুক্ত কৰক: 'He is poor. He is happy.'" },
+      "options": [
+        { "en": "Though he is poor, he is happy.", "as": "Though he is poor, he is happy." },
+        { "en": "Though he is happy, he is poor.", "as": "Though he is happy, he is poor." },
+        { "en": "He is poor though he is happy.", "as": "He is poor though he is happy." },
+        { "en": "Though he is poor and he is happy.", "as": "Though he is poor and he is happy." }
+      ],
+      "correct": 0,
+      "a": { "en": "'Though' joins them as an adverb clause of concession.", "as": "'though'  য়ে বিৰোধ বুজোৱা adverb clause ৰূপে যুক্ত কৰে।" }
+    },
+    {
+      "q": { "en": "Combine using 'because': 'He failed. He was careless.'", "as": "'because' ব্যৱহাৰ কৰি যুক্ত কৰক: 'He failed. He was careless.'" },
+      "options": [
+        { "en": "He failed because he was careless.", "as": "He failed because he was careless." },
+        { "en": "He was careless because he failed.", "as": "He was careless because he failed." },
+        { "en": "Because he failed he was careless.", "as": "Because he failed he was careless." },
+        { "en": "He failed and he was careless.", "as": "He failed and he was careless." }
+      ],
+      "correct": 0,
+      "a": { "en": "'Because' shows the reason for his failure.", "as": "'because'  য়ে ব্যৰ্থতাৰ কাৰণ দেখুৱায়।" }
+    },
+    {
+      "q": { "en": "Identify the kind of sentence: 'I called him but he did not come.'", "as": "বাক্যটোৰ প্ৰকাৰ চিনাক্ত কৰক: 'I called him but he did not come.'" },
+      "options": [
+        { "en": "Compound", "as": "যৌগিক" },
+        { "en": "Complex", "as": "জটিল" },
+        { "en": "Simple", "as": "সৰল" },
+        { "en": "Declarative", "as": "ঘোষণামূলক" }
+      ],
+      "correct": 0,
+      "a": { "en": "Two main clauses are joined by 'but'.", "as": "'but'  ৰে দুটা main clause যুক্ত হৈছে।" }
+    },
+    {
+      "q": { "en": "Name the clause: 'that he is honest' in 'The truth is that he is honest.'", "as": "Clause টোৰ নাম লিখক: 'The truth is that he is honest.' বাক্যটোত 'that he is honest'।" },
+      "a": { "en": "A noun clause (it is the complement of the verb 'is').", "as": "Noun clause (ই 'is' verb ৰ complement)।" }
+    },
+    {
+      "q": { "en": "'When he came' in 'I was sleeping when he came' is an adverb clause of ___.", "as": "'I was sleeping when he came' বাক্যটোত 'when he came' এটা ___ ৰ adverb clause।" },
+      "a": { "en": "Time (it shows when the action happened).", "as": "সময় (ই কেতিয়া কামটো হৈছিল দেখুৱায়)।" }
+    }
+  ]
 }
