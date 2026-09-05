@@ -1153,16 +1153,19 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 68px;
-  min-height: 68px;
+  flex: 0 0 auto;
+  width: 86px;
+  height: 86px;
   max-width: 100%;
   box-sizing: border-box;
 }
 .nv-fig-box svg,
-.nv-fig-box img { max-width: 68px; height: auto; }
-.nv-fig-grid-compact .nv-fig-box { min-width: 52px; min-height: 52px; padding: 5px; border-radius: 10px; }
-.nv-fig-grid-compact .nv-fig-box svg,
-.nv-fig-grid-compact .nv-fig-box img { max-width: 52px; }
+.nv-fig-box img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.nv-fig-grid-compact .nv-fig-box { width: 64px; height: 64px; padding: 5px; border-radius: 10px; }
 .nv-fig-cap { font-size: 0.8rem; color: var(--ink-soft, #475569); text-align: center; line-height: 1.4; max-width: 160px; }
 .nv-fig-textonly { color: var(--ink, #0f172a); font-size: 0.92rem; font-weight: 500; text-align: center; }
 
@@ -1209,12 +1212,8 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 [data-theme="dark"] .nv-table td { color: #1e293b; border-color: #e2e8f0; }
 
 @media (max-width: 560px) {
-  .nv-fig-box { min-width: 56px; min-height: 56px; padding: 5px; }
-  .nv-fig-box svg,
-  .nv-fig-box img { max-width: 56px; }
-  .nv-fig-grid-compact .nv-fig-box { min-width: 48px; min-height: 48px; }
-  .nv-fig-grid-compact .nv-fig-box svg,
-  .nv-fig-grid-compact .nv-fig-box img { max-width: 48px; }
+  .nv-fig-box { width: 68px; height: 68px; padding: 5px; }
+  .nv-fig-grid-compact .nv-fig-box { width: 60px; height: 60px; }
   .nv-fig-cap { max-width: 120px; }
   .nv-media { padding: 8px; }
   .nv-media svg,
@@ -1230,12 +1229,8 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 
 /* Even narrower phones: keep the option grid inside the card and avoid clipping */
 @media (max-width: 380px) {
-  .nv-fig-box { min-width: 48px; min-height: 48px; padding: 4px; }
-  .nv-fig-box svg,
-  .nv-fig-box img { max-width: 48px; }
-  .nv-fig-grid-compact .nv-fig-box { min-width: 42px; min-height: 42px; }
-  .nv-fig-grid-compact .nv-fig-box svg,
-  .nv-fig-grid-compact .nv-fig-box img { max-width: 42px; }
+  .nv-fig-box { width: 58px; height: 58px; padding: 4px; }
+  .nv-fig-grid-compact .nv-fig-box { width: 52px; height: 52px; }
   .opt-fig svg,
   .opt-fig img,
   .quiz-feedback .opt-fig svg,
