@@ -66,6 +66,71 @@ function locAs(obj) {
   return "";
 }
 
+/* ================= visual media (figures, shapes, data tables) =================
+   Mirrors js/app.js media support so figure-based reasoning questions
+   (image analogy, image classification, venn diagrams, data-table puzzles)
+   are also rendered in the static/SEO pages. */
+function sanitizeMedia(html) {
+  if (html == null) return "";
+  return String(html)
+    .replace(/<\s*script[\s\S]*?<\s*\/\s*script\s*>/gi, "")
+    .replace(/<\s*script[\s\S]*$/gi, "")
+    .replace(/\son[a-z]+\s*=\s*"[^"]*"/gi, "")
+    .replace(/\son[a-z]+\s*=\s*'[^']*'/gi, "")
+    .replace(/\son[a-z]+\s*=\s*[^\s>]+/gi, "")
+    .replace(/javascript\s*:/gi, "");
+}
+
+function tableHTML(tbl) {
+  if (!tbl) return "";
+  const obj = tbl && typeof tbl === "object" && !Array.isArray(tbl) ? tbl : { rows: tbl };
+  const head = Array.isArray(obj.head) ? obj.head : (Array.isArray(obj.headers) ? obj.headers : []);
+  const rows = Array.isArray(obj.rows) ? obj.rows : [];
+  if (!head.length && !rows.length) return "";
+  const cell = (v) => (v === undefined || v === null ? "" : escapeHtml(loc(v)));
+  const cap = obj.caption ? `<div class="nv-table-cap">${escapeHtml(loc(obj.caption))}</div>` : "";
+  return `
+    <div class="nv-table-wrap" style="margin:10px 0;">${cap}
+      <table class="nv-table" style="border-collapse:collapse; width:100%; font-size:0.9rem; margin:6px 0;">
+        ${head.length ? `<thead><tr>${head.map((h) => `<th style="border:1px solid #cbd5e1; background:#f1f5f9; padding:6px 10px; text-align:left;">${cell(h)}</th>`).join("")}</tr></thead>` : ""}
+        <tbody>${rows.map((r) => `<tr>${(Array.isArray(r) ? r : []).map((td) => `<td style="border:1px solid #e2e8f0; padding:6px 10px; text-align:left;">${cell(td)}</td>`).join("")}</tr>`).join("")}</tbody>
+      </table>
+    </div>`;
+}
+
+function questionMediaHTML(q) {
+  if (!q) return "";
+  const parts = [];
+  if (q.fig) parts.push(`<div class="nv-media" style="margin:8px 0;">${sanitizeMedia(q.fig)}</div>`);
+  if (q.table) parts.push(tableHTML(q.table));
+  return parts.join("");
+}
+
+function figOptionsList(q) {
+  if (!q || !Array.isArray(q.options)) return null;
+  if (!q.options.some((o) => o && typeof o === "object" && o.fig)) return null;
+  return q.options.map((o, i) => {
+    const letters = "ABCDEFGHIJ";
+    const letter = o && typeof o === "object" && o.option ? String(o.option) : letters[i] || "";
+    if (!o || typeof o !== "object") return { letter, fig: "", text: String(o || "") };
+    return { letter, fig: sanitizeMedia(o.fig || ""), text: loc(o) || "" };
+  });
+}
+
+function figOptionsHTML(q) {
+  const fops = figOptionsList(q);
+  if (!fops) return "";
+  return `
+    <div class="nv-fig-grid" style="display:flex; flex-wrap:wrap; gap:14px; margin:10px 0;">
+      ${fops.map((o) => `
+        <div class="nv-fig-item" style="display:flex; flex-direction:column; align-items:center; gap:4px;">
+          <div style="font-weight:800; color:#4f46e5; font-size:0.85rem;">(${o.letter})</div>
+          <div class="nv-fig-box" style="border:1px solid #e2e8f0; background:#f8fafc; border-radius:10px; padding:8px; display:flex; align-items:center; justify-content:center; min-width:88px; min-height:88px;">${o.fig || (o.text ? `<span>${escapeHtml(o.text)}</span>` : "")}</div>
+          ${o.fig && o.text ? `<div class="nv-fig-cap" style="font-size:0.8rem; color:#475569;">${escapeHtml(o.text)}</div>` : ""}
+        </div>`).join("")}
+    </div>`;
+}
+
 /* Convert multiline bullet-list description text into semantic HTML
    (matches the SPA's expandable "Read More" page-desc rendering). */
 function descHTML(desc) {
@@ -571,11 +636,13 @@ function topicQuestionsHTML(rec) {
       const aEn =
         (q.a && q.a.en) || (q.answer && q.answer.en) || (typeof q.a === "string" && q.a) || "";
       const aAs = (q.a && q.a.as) || (q.answer && q.answer.as);
+      const figOpts = figOptionsHTML(q);
       const options = Array.isArray(q.options) ? q.options : null;
       return `<div class="qa-item" style="margin-bottom:22px;">
         <div style="font-weight:800; font-size:1.02rem; line-height:1.5; margin-bottom:6px;">Q${i + 1}. ${escapeHtml(String(qEn))}</div>
         ${qAs ? `<div style="color:#64748b; font-size:0.9rem; line-height:1.6; margin-bottom:8px;">${escapeHtml(String(qAs))}</div>` : ""}
-        ${options ? `<div style="margin:8px 0;"><ul>${options.map((o) => `<li>${escapeHtml(loc(o))}</li>`).join("")}</ul></div>` : ""}
+        ${questionMediaHTML(q)}
+        ${figOpts ? figOpts : options ? `<div style="margin:8px 0;"><ul>${options.map((o) => `<li>${escapeHtml(loc(o))}</li>`).join("")}</ul></div>` : ""}
         <div style="margin-top:8px;"><strong>Answer:</strong> <span>${escapeHtml(String(aEn))}</span></div>
         ${aAs ? `<div style="color:#64748b; font-size:0.9rem;">${escapeHtml(String(aAs))}</div>` : ""}
       </div>`;

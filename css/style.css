@@ -1093,3 +1093,109 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 /* Footer and toast must remain dark in dark mode */
 [data-theme="dark"] .site-footer { background: #020617; }
 [data-theme="dark"] .toast { background: #1e293b; color: #e5e7eb; }
+
+/* ============================================================
+   Visual media (non-verbal reasoning) — figures, shapes & data tables
+   ============================================================ */
+
+/* Figure block shown under the question text */
+.nv-media {
+  margin: 12px 0;
+  padding: 12px;
+  background: #ffffff;
+  border: 1px solid var(--line, #e2e8f0);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+}
+.nv-media svg,
+.nv-media img { max-width: 100%; height: auto; }
+.nv-media svg { display: block; }
+.read-item .nv-media { margin: 8px 0; }
+.qa-row .nv-media { margin: 6px 0; }
+.qa-row .nv-media svg { max-height: 160px; }
+.quiz-qtext + .nv-media { margin-top: 8px; }
+
+/* Figure / shape answer options */
+.nv-fig-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 12px 0 4px 0;
+  justify-content: center;
+}
+.nv-fig-grid-compact { gap: 10px; }
+.nv-fig-item { display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 0; }
+.nv-fig-key { font-weight: 800; color: var(--primary, #4f46e5); font-size: 0.85rem; letter-spacing: .2px; }
+.nv-fig-box {
+  border: 1px solid var(--line, #e2e8f0);
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 96px;
+  min-height: 96px;
+}
+.nv-fig-box svg,
+.nv-fig-box img { max-width: 128px; height: auto; }
+.nv-fig-grid-compact .nv-fig-box { min-width: 70px; min-height: 70px; padding: 6px; border-radius: 10px; }
+.nv-fig-grid-compact .nv-fig-box svg,
+.nv-fig-grid-compact .nv-fig-box img { max-width: 92px; }
+.nv-fig-cap { font-size: 0.8rem; color: var(--ink-soft, #475569); text-align: center; line-height: 1.4; max-width: 160px; }
+.nv-fig-textonly { color: var(--ink, #0f172a); font-size: 0.92rem; font-weight: 500; text-align: center; }
+
+/* Data-table block */
+.nv-table-wrap {
+  margin: 12px 0;
+  overflow-x: auto;
+  border: 1px solid var(--line, #e2e8f0);
+  border-radius: 12px;
+  background: #ffffff;
+}
+.nv-table-cap {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--ink-soft, #475569);
+  padding: 8px 12px 0 12px;
+}
+.nv-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.nv-table th,
+.nv-table td { border: 1px solid var(--line, #e2e8f0); padding: 7px 12px; text-align: left; line-height: 1.45; }
+.nv-table th { background: var(--bg-tint, #eef2ff); color: var(--ink, #0f172a); font-weight: 700; white-space: nowrap; }
+.nv-table td { color: var(--ink-soft, #334155); }
+
+/* Mock-test figure options */
+.quiz-option-fig { align-items: stretch !important; }
+.quiz-option .opt-main { display: flex; flex-direction: column; align-items: center; gap: 4px; flex: 1; text-align: center; }
+.opt-fig { display: flex; justify-content: center; }
+.opt-fig svg,
+.opt-fig img { max-width: 96px; height: auto; }
+.quiz-feedback .opt-fig svg,
+.quiz-feedback .opt-fig img { max-width: 60px; }
+.rv-fig { display: inline-flex; vertical-align: middle; margin-right: 6px; }
+.rv-fig svg,
+.rv-fig img { max-width: 66px; height: auto; }
+.review-item .nv-media { margin: 6px 0; padding: 8px; }
+.review-item .nv-media svg { max-height: 90px; }
+.review-item .nv-fig-box svg { max-width: 70px; }
+
+/* Dark mode: keep figure boxes on a light surface so diagrams stay readable */
+[data-theme="dark"] .nv-media { background: #ffffff; border-color: rgba(148, 163, 184, .28); }
+[data-theme="dark"] .nv-fig-box { background: #ffffff; border-color: rgba(148, 163, 184, .28); }
+[data-theme="dark"] .nv-table-wrap { background: #ffffff; border-color: rgba(148, 163, 184, .28); }
+[data-theme="dark"] .nv-table th { background: #f1f5f9; color: #0f172a; border-color: #cbd5e1; }
+[data-theme="dark"] .nv-table td { color: #1e293b; border-color: #e2e8f0; }
+
+@media (max-width: 560px) {
+  .nv-fig-box { min-width: 78px; min-height: 78px; padding: 7px; }
+  .nv-fig-box svg,
+  .nv-fig-box img { max-width: 96px; }
+  .nv-fig-grid-compact .nv-fig-box { min-width: 62px; min-height: 62px; }
+  .nv-fig-grid-compact .nv-fig-box svg,
+  .nv-fig-grid-compact .nv-fig-box img { max-width: 74px; }
+  .nv-fig-cap { max-width: 120px; }
+}

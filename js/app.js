@@ -219,7 +219,96 @@
     return [];
   }
 
+  /* ================= Visual media support (figures, shapes & data tables) =================
+     Reasoning questions (esp. non-verbal reasoning) often carry a picture or a
+     diagram instead of plain text: image analogy, image classification, venn
+     diagrams, mirror/water images, figure series, counting of figures, shape
+     construction, and data-table based puzzles. A question may provide:
+
+       item.fig          -> trusted HTML (usually an inline <svg> shape diagram or
+                             an <img src="...">) shown under the question text.
+       item.table        -> structured data table { head?: [...], rows: [[...]],
+                             caption?: {...} } rendered as a real HTML table.
+       option.fig        -> a figure attached to an individual option (used when
+                             the choices themselves are pictures/shapes).
+
+   All SVG / image content is authored by the site owner (not end users); the
+   sanitizer below still strips script tags & event handlers as a safety net. */
+
+  function sanitizeMedia(html) {
+    if (html == null) return "";
+    return String(html)
+      .replace(/<\s*script[\s\S]*?<\s*\/\s*script\s*>/gi, "")
+      .replace(/<\s*script[\s\S]*$/gi, "")
+      .replace(/\son[a-z]+\s*=\s*"[^"]*"/gi, "")
+      .replace(/\son[a-z]+\s*=\s*'[^']*'/gi, "")
+      .replace(/\son[a-z]+\s*=\s*[^\s>]+/gi, "")
+      .replace(/javascript\s*:/gi, "");
+  }
+
+  function tableBlockHTML(tbl) {
+    if (!tbl) return "";
+    const obj = tbl && typeof tbl === "object" && !Array.isArray(tbl) ? tbl : { rows: tbl };
+    const head = Array.isArray(obj.head) ? obj.head : (Array.isArray(obj.headers) ? obj.headers : []);
+    const rows = Array.isArray(obj.rows) ? obj.rows : [];
+    if (!head.length && !rows.length) return "";
+    const cellHTML = (v) => (v === undefined || v === null ? "" : formatMath(localizeContent(v)));
+    const cap = obj.caption ? `<div class="nv-table-cap">${escapeHtml(localizeContent(obj.caption))}</div>` : "";
+    return `
+      <div class="nv-table-wrap">${cap}
+        <table class="nv-table">
+          ${head.length ? `<thead><tr>${head.map((h) => `<th>${cellHTML(h)}</th>`).join("")}</tr></thead>` : ""}
+          <tbody>${rows.map((r) => `<tr>${(Array.isArray(r) ? r : []).map((td) => `<td>${cellHTML(td)}</td>`).join("")}</tr>`).join("")}</tbody>
+        </table>
+      </div>`;
+  }
+
+  /* Block of media attached to one question (figure + optional data table). */
+  function mediaBlock(item) {
+    if (!item) return "";
+    const parts = [];
+    if (item.fig) parts.push(`<div class="nv-media">${sanitizeMedia(item.fig)}</div>`);
+    if (item.table) parts.push(tableBlockHTML(item.table));
+    return parts.join("");
+  }
+
+  /* Detect whether the options of a question are picture/shape choices. */
+  function figureOptions(item) {
+    if (!item || !Array.isArray(item.options)) return null;
+    if (!item.options.some((o) => o && typeof o === "object" && o.fig)) return null;
+    return item.options.map((o, i) => {
+      const letters = "ABCDEFGHIJ";
+      const letter = o && typeof o === "object" && o.option ? String(o.option) : letters[i] || "";
+      if (!o || typeof o !== "object") return { letter, fig: "", text: String(o || "") };
+      return { letter, fig: sanitizeMedia(o.fig || ""), text: localizeContent(o) || "" };
+    });
+  }
+
+  /* Option grid for picture/shape choices (each option = a labelled figure). */
+  function figureOptionsHTML(item, { compact } = {}) {
+    const fops = figureOptions(item);
+    if (!fops) return "";
+    return `
+      <div class="nv-fig-grid${compact ? " nv-fig-grid-compact" : ""}">
+        ${fops.map((o) => `
+          <div class="nv-fig-item">
+            <div class="nv-fig-key">(${o.letter})</div>
+            <div class="nv-fig-box">${o.fig || (o.text ? `<span class="nv-fig-textonly">${formatMath(o.text)}</span>` : "")}</div>
+            ${o.fig && o.text ? `<div class="nv-fig-cap">${formatMath(o.text)}</div>` : ""}
+          </div>`).join("")}
+      </div>`;
+  }
+
   /* ================= Pure White High-Contrast Stylish Footer ================= */
+
+  /* Mock-test option helpers (option text + optional figure). */
+  function mockOptText(opt) {
+    if (opt == null) return "";
+    return typeof opt === "object" ? localizeContent(opt) : String(opt);
+  }
+  function mockOptFig(opt) {
+    return opt && typeof opt === "object" && typeof opt.fig === "string" ? sanitizeMedia(opt.fig) : "";
+  }
   function renderDynamicFooter() {
     const footerContainer = $("footer.site-footer") || $("footer");
     if (!footerContainer) return;
@@ -1331,6 +1420,8 @@
         const atext = extractField(item, "answer");
         const options = getOptionsList(item);
         const explanation = extractField(item, "explanation");
+        const media = mediaBlock(item);
+        const fopts = figureOptions(item);
 
         const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
         const rawAns = (item.a && typeof item.a === "object" && item.a[targetLang]) || item.a || item.answer;
@@ -1342,7 +1433,8 @@
               <div class="qa-q" style="margin:0 0 10px 0; padding:0; font-size:1rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">
                 ${n}. ${formatMath(qtext)}
               </div>
-              ${options.length ? `
+              ${media}
+              ${fopts ? figureOptionsHTML(item, { compact: true }) : options.length ? `
                 <div class="qa-options-inline" style="margin:0 0 12px 0; padding:0; font-size:0.92rem; color:var(--ink-soft,#334155); display:flex; flex-direction:column; gap:6px; font-weight:500; text-align:left; align-items:flex-start;">
                   ${options.map((opt, optIdx) => {
                     const hasPrefix = /^\s*[\(\[]?[A-Za-zক-হ০-৯\d]/i.test(opt);
@@ -1367,7 +1459,8 @@
                 <span class="qno" style="flex-shrink:0; width:28px; height:28px; border-radius:8px; background:var(--primary-soft,#eff6ff); color:var(--primary,#2563eb); font-weight:800; font-size:0.88rem; display:inline-flex; align-items:center; justify-content:center; line-height:1; box-sizing:border-box; margin-top:1px;">${n}</span>
                 <span class="qtext" style="flex:1; font-weight:500; font-size:0.96rem; color:var(--ink,#0f172a); line-height:1.55; text-align:left; margin:0; padding:0;">${formatMath(qtext)}</span>
               </div>
-              ${options.length ? `
+              ${media}
+              ${fopts ? figureOptionsHTML(item) : options.length ? `
                 <div class="qa-options" style="display:flex; flex-direction:column; gap:8px; margin:0 0 12px 0; padding:0; text-align:left;">
                   ${options.map((opt, optIdx) => `
                     <div style="font-size:0.88rem; color:var(--ink-soft,#334155); background:var(--bg-subtle,#f8fafc); padding:8px 12px; border-radius:8px; border:1px solid var(--border,#e2e8f0); display:flex; align-items:flex-start; gap:6px; text-align:left;">
@@ -1501,6 +1594,8 @@
       const qtext = extractField(item, "question");
       const atext = extractField(item, "answer");
       const options = getOptionsList(item);
+      const media = mediaBlock(item);
+      const fopts = figureOptions(item);
 
       const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
       const rawAns = (item.a && typeof item.a === "object" && item.a[targetLang]) || item.a || item.answer;
@@ -1512,7 +1607,8 @@
             <div class="qa-q" style="margin:0 0 8px 0; padding:0; font-size:0.96rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">
               ${n}. ${formatMath(qtext)}
             </div>
-            ${options.length ? `
+            ${media}
+            ${fopts ? figureOptionsHTML(item, { compact: true }) : options.length ? `
               <div class="qa-options-inline" style="margin:0 0 10px 0; padding:0; display:flex; flex-direction:column; gap:6px; font-size:0.9rem; color:var(--ink-soft,#334155); font-weight:500; text-align:left; align-items:flex-start;">
                 ${options.map((opt, optIdx) => {
                   const hasPrefix = /^\s*[\(\[]?[A-Za-zক-হ০-৯\d]/i.test(opt);
@@ -1532,7 +1628,8 @@
               <span class="qno" style="flex-shrink:0; width:26px; height:26px; border-radius:6px; background:var(--primary-soft,#eff6ff); color:var(--primary,#2563eb); font-weight:800; font-size:0.84rem; display:inline-flex; align-items:center; justify-content:center; line-height:1; margin-top:1px;">${n}</span>
               <span class="qtext" style="flex:1; font-weight:500; font-size:0.94rem; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">${formatMath(qtext)}</span>
             </div>
-            ${options.length ? `
+            ${media}
+            ${fopts ? figureOptionsHTML(item) : options.length ? `
               <div class="qa-options" style="display:flex; flex-direction:column; gap:8px; margin:0 0 12px 0; padding:0; text-align:left;">
                 ${options.map((opt, optIdx) => `
                   <div style="font-size:0.86rem; color:var(--ink-soft,#334155); background:var(--bg-subtle,#f8fafc); padding:7px 10px; border-radius:8px; border:1px solid var(--border,#e2e8f0); display:flex; align-items:flex-start; gap:6px; text-align:left;">
@@ -2106,6 +2203,8 @@
       const aText = extractField(item, "answer", lang);
       const exp = extractField(item, "explanation", lang);
       const options = getOptionsList(item, lang);
+      const media = mediaBlock(item);
+      const fopts = figureOptions(item);
 
       const targetLang = lang;
       const rawAns = (item.a && typeof item.a === "object" && item.a[targetLang]) || item.a || item.answer;
@@ -2118,7 +2217,8 @@
       if (isStepArray) {
         row.innerHTML = `
           <div style="font-size:12.8px; font-weight:700; color:#0f172a; margin-bottom:1px; text-align:left;">${idx + 1}. ${formatMath(qText)}</div>
-          ${options.length ? `
+          ${media}
+          ${fopts ? figureOptionsHTML(item, { compact: true }) : options.length ? `
             <div style="font-size:11.2px; color:#475569; margin-bottom:3px; display:flex; flex-wrap:wrap; gap:12px; text-align:left; justify-content:flex-start;">
               ${options.map((opt, optIdx) => {
                 const hasPrefix = /^\s*[\(\[]?[A-Za-zক-হ০-৯\d]/i.test(opt);
@@ -2133,6 +2233,8 @@
       } else {
         row.innerHTML = `
           <div style="font-size:12.8px; font-weight:500; color:#0f172a; margin-bottom:1px; text-align:left;">${idx + 1}. ${formatMath(qText)}</div>
+          ${media}
+          ${fopts ? figureOptionsHTML(item, { compact: true }) : ""}
           <div style="font-size:12.2px; font-weight:600; color:#334155; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif; text-align:left;">${ansLabel}: ${formatMath(aText)}</div>
           ${exp ? `<div style="font-size:10.5px; color:#64748b; margin-top:1px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif; text-align:left;"><b>${expLabel}:</b> ${exp}</div>` : ""}
         `;
@@ -2671,18 +2773,28 @@
 
         const optsEn = getOptionsList(qItem, "en");
         const optsAs = getOptionsList(qItem, "as");
+        const rawOpts = Array.isArray(qItem.options) ? qItem.options : [];
         let optionsList = [];
 
         if (optsEn.length || optsAs.length) {
           const maxLen = Math.max(optsEn.length, optsAs.length);
           for (let i = 0; i < maxLen; i++) {
-            optionsList.push({ en: optsEn[i] || "", as: optsAs[i] || "" });
+            const src = rawOpts[i];
+            optionsList.push({
+              en: optsEn[i] || "",
+              as: optsAs[i] || "",
+              fig: src && typeof src === "object" && typeof src.fig === "string" ? src.fig : ""
+            });
           }
         }
 
         let correctIdx = 0;
         if (typeof qItem.correct === "string") {
           const letter = qItem.correct.trim().toLowerCase();
+          const charCode = letter.charCodeAt(0);
+          if (charCode >= 97 && charCode <= 101) correctIdx = charCode - 97;
+        } else if (typeof qItem.a === "string") {
+          const letter = qItem.a.trim().toLowerCase();
           const charCode = letter.charCodeAt(0);
           if (charCode >= 97 && charCode <= 101) correctIdx = charCode - 97;
         } else if (Number.isInteger(qItem.correct_index)) {
@@ -2696,6 +2808,8 @@
         rawList.push({
           q: qTextObj,
           a: aTextObj,
+          fig: typeof qItem.fig === "string" ? qItem.fig : "",
+          table: qItem.table || null,
           options: optionsList.length >= 2 ? optionsList : null,
           correct: correctIdx,
           topicTitle: r.rec.title,
@@ -2995,17 +3109,27 @@
 
     const optsEn = getOptionsList(item, "en");
     const optsAs = getOptionsList(item, "as");
+    const rawOpts = Array.isArray(item.options) ? item.options : [];
     let optionsList = [];
     if (optsEn.length || optsAs.length) {
       const maxLen = Math.max(optsEn.length, optsAs.length);
       for (let i = 0; i < maxLen; i++) {
-        optionsList.push({ en: optsEn[i] || "", as: optsAs[i] || "" });
+        const src = rawOpts[i];
+        optionsList.push({
+          en: optsEn[i] || "",
+          as: optsAs[i] || "",
+          fig: src && typeof src === "object" && typeof src.fig === "string" ? src.fig : ""
+        });
       }
     }
 
     let correctIdx = 0;
     if (typeof item.correct === "string") {
       const letter = item.correct.trim().toLowerCase();
+      const charCode = letter.charCodeAt(0);
+      if (charCode >= 97 && charCode <= 101) correctIdx = charCode - 97;
+    } else if (typeof item.a === "string") {
+      const letter = item.a.trim().toLowerCase();
       const charCode = letter.charCodeAt(0);
       if (charCode >= 97 && charCode <= 101) correctIdx = charCode - 97;
     } else if (Number.isInteger(item.correct_index)) {
@@ -3022,6 +3146,8 @@
     return {
       q: qTextObj,
       a: aTextObj,
+      fig: typeof item.fig === "string" ? item.fig : "",
+      table: item.table || null,
       options: optionsList.length >= 2 ? optionsList : null,
       correct: correctIdx,
       difficulty: difficulty
@@ -3339,7 +3465,8 @@
     const keys = ["A", "B", "C", "D", "E"];
 
     const qText = localizeContent(q.q);
-    const options = (q.options || []).map(opt => (typeof opt === "object" ? localizeContent(opt) : String(opt)));
+    const optList = q.options || [];
+    const qMedia = mediaBlock(q);
     const setLabel = m.setInfo
       ? `${escapeHtml(localized(m.cat.name))} • ${escapeHtml(m.setInfo.title)}`
       : `${escapeHtml(localized(m.cat.name))}`;
@@ -3355,13 +3482,18 @@
         <div class="quiz-card">
           <div class="quiz-qno">Question ${m.idx + 1}</div>
           <div class="quiz-qtext">${formatMath(qText)}</div>
+          ${qMedia}
 
           <div class="quiz-options" id="quiz-options">
-            ${options.map((opt, i) => `
-              <button class="quiz-option" data-opt="${i}" ${answered ? "disabled" : ""}>
+            ${optList.map((opt, i) => {
+              const tx = mockOptText(opt);
+              const fg = mockOptFig(opt);
+              return `
+              <button class="quiz-option${fg ? " quiz-option-fig" : ""}" data-opt="${i}" ${answered ? "disabled" : ""}>
                 <span class="opt-key">${keys[i]}</span>
-                <span>${formatMath(opt)}</span>
-              </button>`).join("")}
+                <span class="opt-main">${fg ? `<span class="opt-fig">${fg}</span>` : ""}${tx ? `<span class="opt-text">${formatMath(tx)}</span>` : ""}</span>
+              </button>`;
+            }).join("")}
           </div>
 
           <div class="quiz-feedback" id="quiz-feedback"></div>
@@ -3393,7 +3525,9 @@
           const fb = $("#quiz-feedback");
           fb.classList.add(sel === q.correct ? "good" : "bad");
           fb.style.display = "block";
-          fb.innerHTML = sel === q.correct ? t("mock.revealCorrect") : `${t("mock.correctAnswer")}: ${formatMath(options[q.correct] || "")}`;
+          const corrOpt = optList[q.correct];
+          const corrHTML = `${mockOptFig(corrOpt) ? `<span class="opt-fig fb-fig">${mockOptFig(corrOpt)}</span>` : ""}${mockOptText(corrOpt) ? formatMath(mockOptText(corrOpt)) : ""}`;
+          fb.innerHTML = sel === q.correct ? t("mock.revealCorrect") : `${t("mock.correctAnswer")}: ${corrHTML || keys[q.correct] || ""}`;
           renderMathJax(fb);
           const nextBtn = $("#quiz-next");
           if (nextBtn) {
@@ -3493,18 +3627,25 @@
             const badge = r.a === undefined
               ? `<span class="rv-badge" style="background:#f1f5f9;color:#64748b;">${t("mock.result.skipped")}</span>`
               : `<span class="rv-badge ${r.ok ? "good" : "bad"}">${r.ok ? "✓ " + t("mock.result.correct") : "✕ " + t("mock.result.wrong")}</span>`;
-            
-            const options = (q.options || []).map(opt => (typeof opt === "object" ? localizeContent(opt) : String(opt)));
+
+            const optList = q.options || [];
+            const rvOpt = (idx) => {
+              if (!optList[idx]) return "";
+              const fg = mockOptFig(optList[idx]);
+              const tx = mockOptText(optList[idx]);
+              return `${fg ? `<span class="rv-fig">${fg}</span>` : ""}${tx ? formatMath(tx) : (fg ? "" : "(No text)")}`;
+            };
             let ansLine = "";
-            if (r.a !== undefined && options.length) {
-              ansLine = `<div class="rv-ans"><b>${t("mock.answer")}:</b> ${formatMath(options[r.a] || "")}</div>`;
-              if (!r.ok) ansLine += `<div class="rv-ans correct-line"><b>${t("mock.correctAnswer")}:</b> ${formatMath(options[q.correct] || "")}</div>`;
-            } else if (options.length) {
-              ansLine = `<div class="rv-ans correct-line"><b>${t("mock.correctAnswer")}:</b> ${formatMath(options[q.correct] || "")}</div>`;
+            if (r.a !== undefined && optList.length) {
+              ansLine = `<div class="rv-ans"><b>${t("mock.answer")}:</b> ${rvOpt(r.a)}</div>`;
+              if (!r.ok) ansLine += `<div class="rv-ans correct-line"><b>${t("mock.correctAnswer")}:</b> ${rvOpt(q.correct)}</div>`;
+            } else if (optList.length) {
+              ansLine = `<div class="rv-ans correct-line"><b>${t("mock.correctAnswer")}:</b> ${rvOpt(q.correct)}</div>`;
             }
             return `
               <div class="review-item">
                 <div class="rv-q">Q${i + 1}. ${formatMath(localizeContent(q.q))}</div>
+                ${mediaBlock(q)}
                 ${badge}
                 ${ansLine}
               </div>`;

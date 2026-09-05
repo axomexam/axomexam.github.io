@@ -1,229 +1,651 @@
 {
   "id": "logical_venn",
-  "title": { "en": "Logical Venn Diagrams (Assam Competitive Exams)", "as": "লজিকেল ভেন ডায়াগ্রাম (অসম প্ৰতিযোগিতামূলক পৰীক্ষা)" },
-  "description": { "en": "Set-based reasoning: people playing sports, liking items, and representing relationships among categories using Venn concepts.", "as": "চেট-ভিত্তিক যুক্তি: খেল খেলা লোক, বস্তু ভালপোৱা লোক, আৰু শ্ৰেণীবোৰৰ মাজৰ সম্পৰ্ক ভেন ধাৰণাৰে প্ৰদৰ্শন।" },
-  "tags": ["reasoning", "venn", "set-theory", "যুক্তি", "ভেন"],
+  "title": {
+    "en": "Logical Venn Diagrams (Assam Competitive Exams)",
+    "as": "লজিকেল ভেন ডায়াগ্রাম (অসম প্ৰতিযোগিতামূলক পৰীক্ষা)"
+  },
+  "description": {
+    "en": "Set-based reasoning: people playing sports, liking items, and representing relationships among categories using Venn concepts.",
+    "as": "চেট-ভিত্তিক যুক্তি: খেল খেলা লোক, বস্তু ভালপোৱা লোক, আৰু শ্ৰেণীবোৰৰ মাজৰ সম্পৰ্ক ভেন ধাৰণাৰে প্ৰদৰ্শন।"
+  },
+  "tags": [
+    "reasoning",
+    "venn",
+    "set-theory",
+    "যুক্তি",
+    "ভেন"
+  ],
   "pdf": null,
   "questions": [
     {
       "type": "set_calculation",
-      "q": { "en": "In a class of 50 students, 30 play cricket, 25 play football, and 10 play both. How many play at least one game?", "as": "50 জন শিক্ষার্থীৰ শ্ৰেণীত 30 জন ক্ৰিকেট খেলে, 25 জন ফুটবল খেলে, আৰু 10 জন দুয়োখন খেলে। কমেও এখন খেল খেলা শিক্ষার্থী কিমানজন?" },
+      "q": {
+        "en": "In a class of 50 students, 30 play cricket, 25 play football, and 10 play both. How many play at least one game?",
+        "as": "50 জন শিক্ষার্থীৰ শ্ৰেণীত 30 জন ক্ৰিকেট খেলে, 25 জন ফুটবল খেলে, আৰু 10 জন দুয়োখন খেলে। কমেও এখন খেল খেলা শিক্ষার্থী কিমানজন?"
+      },
       "options": [
-        { "option": "A", "en": "40", "as": "৪০" },
-        { "option": "B", "en": "45", "as": "৪৫" },
-        { "option": "C", "en": "55", "as": "৫৫" },
-        { "option": "D", "en": "50", "as": "৫০" }
+        {
+          "option": "A",
+          "en": "40",
+          "as": "৪০"
+        },
+        {
+          "option": "B",
+          "en": "45",
+          "as": "৪৫"
+        },
+        {
+          "option": "C",
+          "en": "55",
+          "as": "৫৫"
+        },
+        {
+          "option": "D",
+          "en": "50",
+          "as": "৫০"
+        }
       ],
       "a": "B"
     },
     {
       "type": "set_calculation",
-      "q": { "en": "In a class of 60, 35 like tea, 28 like coffee, and 12 like both. How many like neither?", "as": "60 জনৰ শ্ৰেণীত 35 জন চাহ ভাল পায়, 28 জন কফি ভাল পায়, আৰু 12 জন দুয়োটাই ভাল পায়। কিমানজনে একোটাৱেই ভাল নাপায়?" },
+      "q": {
+        "en": "In a class of 60, 35 like tea, 28 like coffee, and 12 like both. How many like neither?",
+        "as": "60 জনৰ শ্ৰেণীত 35 জন চাহ ভাল পায়, 28 জন কফি ভাল পায়, আৰু 12 জন দুয়োটাই ভাল পায়। কিমানজনে একোটাৱেই ভাল নাপায়?"
+      },
       "options": [
-        { "option": "A", "en": "8", "as": "৮" },
-        { "option": "B", "en": "9", "as": "৯" },
-        { "option": "C", "en": "10", "as": "১০" },
-        { "option": "D", "en": "11", "as": "১১" }
+        {
+          "option": "A",
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "option": "B",
+          "en": "9",
+          "as": "৯"
+        },
+        {
+          "option": "C",
+          "en": "10",
+          "as": "১০"
+        },
+        {
+          "option": "D",
+          "en": "11",
+          "as": "১১"
+        }
       ],
       "a": "B"
     },
     {
       "type": "set_calculation",
-      "q": { "en": "In a group of 100, 70 read Assamese newspapers, 60 read English newspapers, and 40 read both. How many read at least one?", "as": "100 জনৰ গোটত 70 জনে অসমীয়া কাকত পঢ়ে, 60 জনে ইংৰাজী কাকত পঢ়ে, আৰু 40 জনে দুয়োখনেই পঢ়ে। কমেও এখন পঢ়া লোক কিমানজন?" },
+      "q": {
+        "en": "In a group of 100, 70 read Assamese newspapers, 60 read English newspapers, and 40 read both. How many read at least one?",
+        "as": "100 জনৰ গোটত 70 জনে অসমীয়া কাকত পঢ়ে, 60 জনে ইংৰাজী কাকত পঢ়ে, আৰু 40 জনে দুয়োখনেই পঢ়ে। কমেও এখন পঢ়া লোক কিমানজন?"
+      },
       "options": [
-        { "option": "A", "en": "80", "as": "৮০" },
-        { "option": "B", "en": "85", "as": "৮৫" },
-        { "option": "C", "en": "90", "as": "৯০" },
-        { "option": "D", "en": "95", "as": "৯৫" }
+        {
+          "option": "A",
+          "en": "80",
+          "as": "৮০"
+        },
+        {
+          "option": "B",
+          "en": "85",
+          "as": "৮৫"
+        },
+        {
+          "option": "C",
+          "en": "90",
+          "as": "৯০"
+        },
+        {
+          "option": "D",
+          "en": "95",
+          "as": "৯৫"
+        }
       ],
       "a": "C"
     },
     {
       "type": "set_calculation",
-      "q": { "en": "In a group of 30, 15 play hockey, 20 play football, and 7 play both. How many play only hockey?", "as": "30 জনৰ গোটত 15 জন হকী খেলে, 20 জন ফুটবল খেলে, আৰু 7 জন দুয়োখন খেলে। কিমানজনে কেৱল হকী খেলে?" },
+      "q": {
+        "en": "In a group of 30, 15 play hockey, 20 play football, and 7 play both. How many play only hockey?",
+        "as": "30 জনৰ গোটত 15 জন হকী খেলে, 20 জন ফুটবল খেলে, আৰু 7 জন দুয়োখন খেলে। কিমানজনে কেৱল হকী খেলে?"
+      },
       "options": [
-        { "option": "A", "en": "7", "as": "৭" },
-        { "option": "B", "en": "8", "as": "৮" },
-        { "option": "C", "en": "13", "as": "১৩" },
-        { "option": "D", "en": "15", "as": "১৫" }
+        {
+          "option": "A",
+          "en": "7",
+          "as": "৭"
+        },
+        {
+          "option": "B",
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "option": "C",
+          "en": "13",
+          "as": "১৩"
+        },
+        {
+          "option": "D",
+          "en": "15",
+          "as": "১৫"
+        }
       ],
       "a": "B"
     },
     {
       "type": "set_calculation",
-      "q": { "en": "In a school of 200, 120 passed Mathematics, 110 passed Science, and 80 passed both. How many passed at least one subject?", "as": "200 জনৰ বিদ্যালয়ত 120 জন গণিতত উত্তীর্ণ, 110 জন বিজ্ঞানত উত্তীর্ণ, আৰু 80 জন দুয়োটাতে উত্তীর্ণ। কমেও এটা বিষয়ত উত্তীর্ণ কিমানজন?" },
+      "q": {
+        "en": "In a school of 200, 120 passed Mathematics, 110 passed Science, and 80 passed both. How many passed at least one subject?",
+        "as": "200 জনৰ বিদ্যালয়ত 120 জন গণিতত উত্তীর্ণ, 110 জন বিজ্ঞানত উত্তীর্ণ, আৰু 80 জন দুয়োটাতে উত্তীর্ণ। কমেও এটা বিষয়ত উত্তীর্ণ কিমানজন?"
+      },
       "options": [
-        { "option": "A", "en": "130", "as": "১৩০" },
-        { "option": "B", "en": "140", "as": "১৪০" },
-        { "option": "C", "en": "150", "as": "১৫০" },
-        { "option": "D", "en": "160", "as": "১৬০" }
+        {
+          "option": "A",
+          "en": "130",
+          "as": "১৩০"
+        },
+        {
+          "option": "B",
+          "en": "140",
+          "as": "১৪০"
+        },
+        {
+          "option": "C",
+          "en": "150",
+          "as": "১৫০"
+        },
+        {
+          "option": "D",
+          "en": "160",
+          "as": "১৬০"
+        }
       ],
       "a": "C"
     },
     {
       "type": "set_calculation",
-      "q": { "en": "In a village of 500, 300 grow rice, 250 grow tea, and 100 grow both. How many grow neither rice nor tea?", "as": "500 জনৰ গাঁৱত 300 জনে ধান খেতি কৰে, 250 জনে চাহ খেতি কৰে, আৰু 100 জনে দুয়োটা খেতি কৰে। কিমানজনে ধানও চাহও খেতি নকৰে?" },
+      "q": {
+        "en": "In a village of 500, 300 grow rice, 250 grow tea, and 100 grow both. How many grow neither rice nor tea?",
+        "as": "500 জনৰ গাঁৱত 300 জনে ধান খেতি কৰে, 250 জনে চাহ খেতি কৰে, আৰু 100 জনে দুয়োটা খেতি কৰে। কিমানজনে ধানও চাহও খেতি নকৰে?"
+      },
       "options": [
-        { "option": "A", "en": "40", "as": "৪০" },
-        { "option": "B", "en": "50", "as": "৫০" },
-        { "option": "C", "en": "60", "as": "৬০" },
-        { "option": "D", "en": "70", "as": "৭০" }
+        {
+          "option": "A",
+          "en": "40",
+          "as": "৪০"
+        },
+        {
+          "option": "B",
+          "en": "50",
+          "as": "৫০"
+        },
+        {
+          "option": "C",
+          "en": "60",
+          "as": "৬০"
+        },
+        {
+          "option": "D",
+          "en": "70",
+          "as": "৭০"
+        }
       ],
       "a": "B"
     },
     {
       "type": "set_calculation",
-      "q": { "en": "Out of 80 students, 45 play badminton and 50 play chess. If 15 play neither, how many play both?", "as": "80 জন শিক্ষার্থীৰ ভিতৰত 45 জন বেডমিন্টন আৰু 50 জন দবা খেলে। 15 জনে একোখনেই নেখেলিলে কিমানজনে দুয়োখন খেলে?" },
+      "q": {
+        "en": "Out of 80 students, 45 play badminton and 50 play chess. If 15 play neither, how many play both?",
+        "as": "80 জন শিক্ষার্থীৰ ভিতৰত 45 জন বেডমিন্টন আৰু 50 জন দবা খেলে। 15 জনে একোখনেই নেখেলিলে কিমানজনে দুয়োখন খেলে?"
+      },
       "options": [
-        { "option": "A", "en": "25", "as": "২৫" },
-        { "option": "B", "en": "30", "as": "৩০" },
-        { "option": "C", "en": "35", "as": "৩৫" },
-        { "option": "D", "en": "40", "as": "৪০" }
+        {
+          "option": "A",
+          "en": "25",
+          "as": "২৫"
+        },
+        {
+          "option": "B",
+          "en": "30",
+          "as": "৩০"
+        },
+        {
+          "option": "C",
+          "en": "35",
+          "as": "৩৫"
+        },
+        {
+          "option": "D",
+          "en": "40",
+          "as": "৪০"
+        }
       ],
       "a": "B"
     },
     {
       "type": "set_calculation",
-      "q": { "en": "In a group of 40, 25 like mangoes and 20 like apples. If everyone likes at least one fruit, how many like both?", "as": "40 জনৰ গোটত 25 জনে আম ভাল পায় আৰু 20 জনে আপেল ভাল পায়। যদি সকলোৱে কমেও এটা ফল ভাল পায়, তেন্তে কিমানজনে দুয়োটা ফল ভাল পায়?" },
+      "q": {
+        "en": "In a group of 40, 25 like mangoes and 20 like apples. If everyone likes at least one fruit, how many like both?",
+        "as": "40 জনৰ গোটত 25 জনে আম ভাল পায় আৰু 20 জনে আপেল ভাল পায়। যদি সকলোৱে কমেও এটা ফল ভাল পায়, তেন্তে কিমানজনে দুয়োটা ফল ভাল পায়?"
+      },
       "options": [
-        { "option": "A", "en": "3", "as": "৩" },
-        { "option": "B", "en": "4", "as": "৪" },
-        { "option": "C", "en": "5", "as": "৫" },
-        { "option": "D", "en": "6", "as": "৬" }
+        {
+          "option": "A",
+          "en": "3",
+          "as": "৩"
+        },
+        {
+          "option": "B",
+          "en": "4",
+          "as": "৪"
+        },
+        {
+          "option": "C",
+          "en": "5",
+          "as": "৫"
+        },
+        {
+          "option": "D",
+          "en": "6",
+          "as": "৬"
+        }
       ],
       "a": "C"
     },
     {
       "type": "relationship",
-      "q": { "en": "Which relationship is represented by: Fruits, Apples, Bananas?", "as": "কোন সম্পৰ্কটো প্ৰদৰ্শিত হয়: Fruits, Apples, Bananas?" },
+      "q": {
+        "en": "Which relationship is represented by: Fruits, Apples, Bananas?",
+        "as": "কোন সম্পৰ্কটো প্ৰদৰ্শিত হয়: Fruits, Apples, Bananas?"
+      },
       "options": [
-        { "option": "A", "en": "Apples and Bananas are inside Fruits, separate from each other", "as": "Apples আৰু Bananas, Fruits ৰ ভিতৰত, ইটো-সিটোৰ পৰা পৃথক" },
-        { "option": "B", "en": "All three are completely separate", "as": "তিনিওটা সম্পূর্ণ পৃথক" },
-        { "option": "C", "en": "Apples inside Bananas inside Fruits", "as": "Apples, Bananas ৰ ভিতৰত; Bananas, Fruits ৰ ভিতৰত" },
-        { "option": "D", "en": "Fruits inside Apples, overlapping Bananas", "as": "Fruits, Apples ৰ ভিতৰত; Bananas ৰ সৈতে অতি-আচহুৱা" }
+        {
+          "option": "A",
+          "en": "Apples and Bananas are inside Fruits, separate from each other",
+          "as": "Apples আৰু Bananas, Fruits ৰ ভিতৰত, ইটো-সিটোৰ পৰা পৃথক"
+        },
+        {
+          "option": "B",
+          "en": "All three are completely separate",
+          "as": "তিনিওটা সম্পূর্ণ পৃথক"
+        },
+        {
+          "option": "C",
+          "en": "Apples inside Bananas inside Fruits",
+          "as": "Apples, Bananas ৰ ভিতৰত; Bananas, Fruits ৰ ভিতৰত"
+        },
+        {
+          "option": "D",
+          "en": "Fruits inside Apples, overlapping Bananas",
+          "as": "Fruits, Apples ৰ ভিতৰত; Bananas ৰ সৈতে অতি-আচহুৱা"
+        }
       ],
       "a": "A"
     },
     {
       "type": "relationship",
-      "q": { "en": "Which relationship is represented by: Students, Boys, Girls?", "as": "কোন সম্পৰ্কটো প্ৰদৰ্শিত হয়: Students, Boys, Girls?" },
+      "q": {
+        "en": "Which relationship is represented by: Students, Boys, Girls?",
+        "as": "কোন সম্পৰ্কটো প্ৰদৰ্শিত হয়: Students, Boys, Girls?"
+      },
       "options": [
-        { "option": "A", "en": "All three separate", "as": "তিনিওটা পৃথক" },
-        { "option": "B", "en": "Boys and Girls inside Students, separate from each other", "as": "Boys আৰু Girls, Students ৰ ভিতৰত, ইটো-সিটোৰ পৰা পৃথক" },
-        { "option": "C", "en": "Students inside Boys, overlapping Girls", "as": "Students, Boys ৰ ভিতৰত, Girls ৰ সৈতে অতি-আচহুৱা" },
-        { "option": "D", "en": "Girls inside Students, inside Boys", "as": "Girls, Students ৰ ভিতৰত; Students, Boys ৰ ভিতৰত" }
+        {
+          "option": "A",
+          "en": "All three separate",
+          "as": "তিনিওটা পৃথক"
+        },
+        {
+          "option": "B",
+          "en": "Boys and Girls inside Students, separate from each other",
+          "as": "Boys আৰু Girls, Students ৰ ভিতৰত, ইটো-সিটোৰ পৰা পৃথক"
+        },
+        {
+          "option": "C",
+          "en": "Students inside Boys, overlapping Girls",
+          "as": "Students, Boys ৰ ভিতৰত, Girls ৰ সৈতে অতি-আচহুৱা"
+        },
+        {
+          "option": "D",
+          "en": "Girls inside Students, inside Boys",
+          "as": "Girls, Students ৰ ভিতৰত; Students, Boys ৰ ভিতৰত"
+        }
       ],
       "a": "B"
     },
     {
       "type": "relationship",
-      "q": { "en": "Which relationship is represented by: Animals, Dogs, Cats?", "as": "কোন সম্পৰ্কটো প্ৰদৰ্শিত হয়: Animals, Dogs, Cats?" },
+      "q": {
+        "en": "Which relationship is represented by: Animals, Dogs, Cats?",
+        "as": "কোন সম্পৰ্কটো প্ৰদৰ্শিত হয়: Animals, Dogs, Cats?"
+      },
       "options": [
-        { "option": "A", "en": "All three separate", "as": "তিনিওটা পৃথক" },
-        { "option": "B", "en": "Cats inside Dogs inside Animals", "as": "Cats, Dogs ৰ ভিতৰত; Dogs, Animals ৰ ভিতৰত" },
-        { "option": "C", "en": "Dogs and Cats inside Animals, separate from each other", "as": "Dogs আৰু Cats, Animals ৰ ভিতৰত, ইটো-সিটোৰ পৰা পৃথক" },
-        { "option": "D", "en": "Animals inside Dogs, overlapping Cats", "as": "Animals, Dogs ৰ ভিতৰত, Cats ৰ সৈতে অতি-আচহুৱা" }
+        {
+          "option": "A",
+          "en": "All three separate",
+          "as": "তিনিওটা পৃথক"
+        },
+        {
+          "option": "B",
+          "en": "Cats inside Dogs inside Animals",
+          "as": "Cats, Dogs ৰ ভিতৰত; Dogs, Animals ৰ ভিতৰত"
+        },
+        {
+          "option": "C",
+          "en": "Dogs and Cats inside Animals, separate from each other",
+          "as": "Dogs আৰু Cats, Animals ৰ ভিতৰত, ইটো-সিটোৰ পৰা পৃথক"
+        },
+        {
+          "option": "D",
+          "en": "Animals inside Dogs, overlapping Cats",
+          "as": "Animals, Dogs ৰ ভিতৰত, Cats ৰ সৈতে অতি-আচহুৱা"
+        }
       ],
       "a": "C"
     },
     {
       "type": "relationship",
-      "q": { "en": "Which relationship is represented by: Country, State, City?", "as": "কোন সম্পৰ্কটো প্ৰদৰ্শিত হয়: Country, State, City?" },
+      "q": {
+        "en": "Which relationship is represented by: Country, State, City?",
+        "as": "কোন সম্পৰ্কটো প্ৰদৰ্শিত হয়: Country, State, City?"
+      },
       "options": [
-        { "option": "A", "en": "All three separate", "as": "তিনিওটা পৃথক" },
-        { "option": "B", "en": "City inside State, State inside Country", "as": "City, State ৰ ভিতৰত; State, Country ৰ ভিতৰত" },
-        { "option": "C", "en": "All three overlap equally", "as": "তিনিওটা সমানভাৱে অতি-আচহুৱা" },
-        { "option": "D", "en": "State inside City inside Country", "as": "State, City ৰ ভিতৰত; City, Country ৰ ভিতৰত" }
+        {
+          "option": "A",
+          "en": "All three separate",
+          "as": "তিনিওটা পৃথক"
+        },
+        {
+          "option": "B",
+          "en": "City inside State, State inside Country",
+          "as": "City, State ৰ ভিতৰত; State, Country ৰ ভিতৰত"
+        },
+        {
+          "option": "C",
+          "en": "All three overlap equally",
+          "as": "তিনিওটা সমানভাৱে অতি-আচহুৱা"
+        },
+        {
+          "option": "D",
+          "en": "State inside City inside Country",
+          "as": "State, City ৰ ভিতৰত; City, Country ৰ ভিতৰত"
+        }
       ],
       "a": "B"
     },
     {
       "type": "relationship",
-      "q": { "en": "Which relationship is represented by: Birds, Crows, Animals?", "as": "কোন সম্পৰ্কটো প্ৰদৰ্শিত হয়: Birds, Crows, Animals?" },
+      "q": {
+        "en": "Which relationship is represented by: Birds, Crows, Animals?",
+        "as": "কোন সম্পৰ্কটো প্ৰদৰ্শিত হয়: Birds, Crows, Animals?"
+      },
       "options": [
-        { "option": "A", "en": "All three separate", "as": "তিনিওটা পৃথক" },
-        { "option": "B", "en": "Crows inside Birds; Birds and Animals separate", "as": "Crows, Birds ৰ ভিতৰত; Birds আৰু Animals পৃথক" },
-        { "option": "C", "en": "All three overlap", "as": "তিনিওটা অতি-আচহুৱা" },
-        { "option": "D", "en": "Birds inside Animals, inside Crows", "as": "Birds, Animals ৰ ভিতৰত; Animals, Crows ৰ ভিতৰত" }
+        {
+          "option": "A",
+          "en": "All three separate",
+          "as": "তিনিওটা পৃথক"
+        },
+        {
+          "option": "B",
+          "en": "Crows inside Birds; Birds and Animals separate",
+          "as": "Crows, Birds ৰ ভিতৰত; Birds আৰু Animals পৃথক"
+        },
+        {
+          "option": "C",
+          "en": "All three overlap",
+          "as": "তিনিওটা অতি-আচহুৱা"
+        },
+        {
+          "option": "D",
+          "en": "Birds inside Animals, inside Crows",
+          "as": "Birds, Animals ৰ ভিতৰত; Animals, Crows ৰ ভিতৰত"
+        }
       ],
       "a": "B"
     },
     {
       "type": "relationship",
-      "q": { "en": "Which relationship is represented by: Doctors, Teachers, Men?", "as": "কোন সম্পৰ্কটো প্ৰদৰ্শিত হয়: Doctors, Teachers, Men?" },
+      "q": {
+        "en": "Which relationship is represented by: Doctors, Teachers, Men?",
+        "as": "কোন সম্পৰ্কটো প্ৰদৰ্শিত হয়: Doctors, Teachers, Men?"
+      },
       "options": [
-        { "option": "A", "en": "All three separate", "as": "তিনিওটা পৃথক" },
-        { "option": "B", "en": "One inside another", "as": "এটা আনটোৰ ভিতৰত" },
-        { "option": "C", "en": "All three overlapping each other", "as": "তিনিওটা ইটো-সিটোৰ সৈতে অতি-আচহুৱা" },
-        { "option": "D", "en": "Two inside one", "as": "দুটা এটাৰ ভিতৰত" }
+        {
+          "option": "A",
+          "en": "All three separate",
+          "as": "তিনিওটা পৃথক"
+        },
+        {
+          "option": "B",
+          "en": "One inside another",
+          "as": "এটা আনটোৰ ভিতৰত"
+        },
+        {
+          "option": "C",
+          "en": "All three overlapping each other",
+          "as": "তিনিওটা ইটো-সিটোৰ সৈতে অতি-আচহুৱা"
+        },
+        {
+          "option": "D",
+          "en": "Two inside one",
+          "as": "দুটা এটাৰ ভিতৰত"
+        }
       ],
       "a": "C"
     },
     {
       "type": "set_calculation",
-      "q": { "en": "In a survey of 90 people, 50 watch Assamese films, 40 watch Hindi films, and 20 watch both. How many watch only Assamese films?", "as": "90 জনৰ জৰীপত 50 জনে অসমীয়া ছবি চায়, 40 জনে হিন্দী ছবি চায়, আৰু 20 জনে দুয়োটা চায়। কিমানজনে কেৱল অসমীয়া ছবি চায়?" },
+      "q": {
+        "en": "In a survey of 90 people, 50 watch Assamese films, 40 watch Hindi films, and 20 watch both. How many watch only Assamese films?",
+        "as": "90 জনৰ জৰীপত 50 জনে অসমীয়া ছবি চায়, 40 জনে হিন্দী ছবি চায়, আৰু 20 জনে দুয়োটা চায়। কিমানজনে কেৱল অসমীয়া ছবি চায়?"
+      },
       "options": [
-        { "option": "A", "en": "30", "as": "৩০" },
-        { "option": "B", "en": "35", "as": "৩৫" },
-        { "option": "C", "en": "25", "as": "২৫" },
-        { "option": "D", "en": "40", "as": "৪০" }
+        {
+          "option": "A",
+          "en": "30",
+          "as": "৩০"
+        },
+        {
+          "option": "B",
+          "en": "35",
+          "as": "৩৫"
+        },
+        {
+          "option": "C",
+          "en": "25",
+          "as": "২৫"
+        },
+        {
+          "option": "D",
+          "en": "40",
+          "as": "৪০"
+        }
       ],
       "a": "A"
     },
     {
       "type": "set_calculation",
-      "q": { "en": "Of 70 students, 30 are in the science club, 25 are in the sports club, and 20 are in both clubs. How many are in exactly one club?", "as": "70 জন শিক্ষার্থীৰ ভিতৰত 30 জন বিজ্ঞান ক্লাবত, 25 জন ক্রীড়া ক্লাবত, আৰু 20 জন দুয়োটা ক্লাবত আছে। কিমানজন ঠিক এটা ক্লাবত আছে?" },
+      "q": {
+        "en": "Of 70 students, 30 are in the science club, 25 are in the sports club, and 20 are in both clubs. How many are in exactly one club?",
+        "as": "70 জন শিক্ষার্থীৰ ভিতৰত 30 জন বিজ্ঞান ক্লাবত, 25 জন ক্রীড়া ক্লাবত, আৰু 20 জন দুয়োটা ক্লাবত আছে। কিমানজন ঠিক এটা ক্লাবত আছে?"
+      },
       "options": [
-        { "option": "A", "en": "15", "as": "১৫" },
-        { "option": "B", "en": "25", "as": "২৫" },
-        { "option": "C", "en": "35", "as": "৩৫" },
-        { "option": "D", "en": "45", "as": "৪৫" }
+        {
+          "option": "A",
+          "en": "15",
+          "as": "১৫"
+        },
+        {
+          "option": "B",
+          "en": "25",
+          "as": "২৫"
+        },
+        {
+          "option": "C",
+          "en": "35",
+          "as": "৩৫"
+        },
+        {
+          "option": "D",
+          "en": "45",
+          "as": "৪৫"
+        }
       ],
       "a": "A"
     },
     {
       "type": "relationship",
-      "q": { "en": "Which relationship is represented by: Vehicles, Cars, Buses?", "as": "কোন সম্পৰ্কটো প্ৰদৰ্শিত হয়: Vehicles, Cars, Buses?" },
+      "q": {
+        "en": "Which relationship is represented by: Vehicles, Cars, Buses?",
+        "as": "কোন সম্পৰ্কটো প্ৰদৰ্শিত হয়: Vehicles, Cars, Buses?"
+      },
       "options": [
-        { "option": "A", "en": "Cars and Buses inside Vehicles, separate from each other", "as": "Cars আৰু Buses, Vehicles ৰ ভিতৰত, ইটো-সিটোৰ পৰা পৃথক" },
-        { "option": "B", "en": "All three separate", "as": "তিনিওটা পৃথক" },
-        { "option": "C", "en": "Vehicles inside Cars inside Buses", "as": "Vehicles, Cars ৰ ভিতৰত; Cars, Buses ৰ ভিতৰত" },
-        { "option": "D", "en": "All overlapping", "as": "সকলো অতি-আচহুৱা" }
+        {
+          "option": "A",
+          "en": "Cars and Buses inside Vehicles, separate from each other",
+          "as": "Cars আৰু Buses, Vehicles ৰ ভিতৰত, ইটো-সিটোৰ পৰা পৃথক"
+        },
+        {
+          "option": "B",
+          "en": "All three separate",
+          "as": "তিনিওটা পৃথক"
+        },
+        {
+          "option": "C",
+          "en": "Vehicles inside Cars inside Buses",
+          "as": "Vehicles, Cars ৰ ভিতৰত; Cars, Buses ৰ ভিতৰত"
+        },
+        {
+          "option": "D",
+          "en": "All overlapping",
+          "as": "সকলো অতি-আচহুৱা"
+        }
       ],
       "a": "A"
     },
     {
       "type": "relationship",
-      "q": { "en": "Which relationship is represented by: Teachers, Mothers, Women?", "as": "কোন সম্পৰ্কটো প্ৰদৰ্শিত হয়: Teachers, Mothers, Women?" },
+      "q": {
+        "en": "Which relationship is represented by: Teachers, Mothers, Women?",
+        "as": "কোন সম্পৰ্কটো প্ৰদৰ্শিত হয়: Teachers, Mothers, Women?"
+      },
       "options": [
-        { "option": "A", "en": "All separate", "as": "সকলো পৃথক" },
-        { "option": "B", "en": "Mothers inside Women; Teachers overlap Women", "as": "Mothers, Women ৰ ভিতৰত; Teachers, Women ৰ সৈতে অতি-আচহুৱা" },
-        { "option": "C", "en": "Teachers inside Mothers inside Women", "as": "Teachers, Mothers ৰ ভিতৰত; Mothers, Women ৰ ভিতৰত" },
-        { "option": "D", "en": "Women inside Teachers", "as": "Women, Teachers ৰ ভিতৰত" }
+        {
+          "option": "A",
+          "en": "All separate",
+          "as": "সকলো পৃথক"
+        },
+        {
+          "option": "B",
+          "en": "Mothers inside Women; Teachers overlap Women",
+          "as": "Mothers, Women ৰ ভিতৰত; Teachers, Women ৰ সৈতে অতি-আচহুৱা"
+        },
+        {
+          "option": "C",
+          "en": "Teachers inside Mothers inside Women",
+          "as": "Teachers, Mothers ৰ ভিতৰত; Mothers, Women ৰ ভিতৰত"
+        },
+        {
+          "option": "D",
+          "en": "Women inside Teachers",
+          "as": "Women, Teachers ৰ ভিতৰত"
+        }
       ],
       "a": "B"
     },
     {
       "type": "set_calculation",
-      "q": { "en": "In a batch of 120, 75 passed Hindi and 65 passed English. If 15 failed both, how many passed both?", "as": "120 জনৰ গোটত 75 জন হিন্দীত আৰু 65 জন ইংৰাজীত উত্তীর্ণ। 15 জন দুয়োটা বিষয়ত অনুত্তীর্ণ হ'লে কিমানজন দুয়োটা বিষয়ত উত্তীর্ণ?" },
+      "q": {
+        "en": "In a batch of 120, 75 passed Hindi and 65 passed English. If 15 failed both, how many passed both?",
+        "as": "120 জনৰ গোটত 75 জন হিন্দীত আৰু 65 জন ইংৰাজীত উত্তীর্ণ। 15 জন দুয়োটা বিষয়ত অনুত্তীর্ণ হ'লে কিমানজন দুয়োটা বিষয়ত উত্তীর্ণ?"
+      },
       "options": [
-        { "option": "A", "en": "30", "as": "৩০" },
-        { "option": "B", "en": "35", "as": "৩৫" },
-        { "option": "C", "en": "40", "as": "৪০" },
-        { "option": "D", "en": "25", "as": "২৫" }
+        {
+          "option": "A",
+          "en": "30",
+          "as": "৩০"
+        },
+        {
+          "option": "B",
+          "en": "35",
+          "as": "৩৫"
+        },
+        {
+          "option": "C",
+          "en": "40",
+          "as": "৪০"
+        },
+        {
+          "option": "D",
+          "en": "25",
+          "as": "২৫"
+        }
       ],
       "a": "B"
     },
     {
       "type": "relationship",
-      "q": { "en": "Which relationship is represented by: Rivers, Brahmaputra, Ganga?", "as": "কোন সম্পৰ্কটো প্ৰদৰ্শিত হয়: Rivers, Brahmaputra, Ganga?" },
+      "q": {
+        "en": "Which relationship is represented by: Rivers, Brahmaputra, Ganga?",
+        "as": "কোন সম্পৰ্কটো প্ৰদৰ্শিত হয়: Rivers, Brahmaputra, Ganga?"
+      },
       "options": [
-        { "option": "A", "en": "Brahmaputra and Ganga inside Rivers, separate from each other", "as": "Brahmaputra আৰু Ganga, Rivers ৰ ভিতৰত, ইটো-সিটোৰ পৰা পৃথক" },
-        { "option": "B", "en": "All three separate", "as": "তিনিওটা পৃথক" },
-        { "option": "C", "en": "Ganga inside Brahmaputra inside Rivers", "as": "Ganga, Brahmaputra ৰ ভিতৰত; Brahmaputra, Rivers ৰ ভিতৰত" },
-        { "option": "D", "en": "Rivers inside Brahmaputra", "as": "Rivers, Brahmaputra ৰ ভিতৰত" }
+        {
+          "option": "A",
+          "en": "Brahmaputra and Ganga inside Rivers, separate from each other",
+          "as": "Brahmaputra আৰু Ganga, Rivers ৰ ভিতৰত, ইটো-সিটোৰ পৰা পৃথক"
+        },
+        {
+          "option": "B",
+          "en": "All three separate",
+          "as": "তিনিওটা পৃথক"
+        },
+        {
+          "option": "C",
+          "en": "Ganga inside Brahmaputra inside Rivers",
+          "as": "Ganga, Brahmaputra ৰ ভিতৰত; Brahmaputra, Rivers ৰ ভিতৰত"
+        },
+        {
+          "option": "D",
+          "en": "Rivers inside Brahmaputra",
+          "as": "Rivers, Brahmaputra ৰ ভিতৰত"
+        }
       ],
       "a": "A"
+    },
+    {
+      "type": "figure_venn",
+      "q": {
+        "en": "Which one of the following diagrams correctly represents the relationship among Teachers, Doctors and Males?",
+        "as": "শিক্ষক, ডাক্তৰ আৰু পুৰুষৰ মাজৰ সম্পৰ্ক কোনটো চিত্ৰই শুদ্ধকৈ প্ৰকাশ কৰে?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 120 92\" width=\"120\" height=\"92\" role=\"img\" aria-hidden=\"true\"><circle cx=\"24.0\" cy=\"46.0\" r=\"16.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"24.0\" y=\"49.0\" font-size=\"8\" fill=\"#334155\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\" font-weight=\"700\">T</text><circle cx=\"60.0\" cy=\"46.0\" r=\"16.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"60.0\" y=\"49.0\" font-size=\"8\" fill=\"#334155\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\" font-weight=\"700\">D</text><circle cx=\"96.0\" cy=\"46.0\" r=\"16.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"96.0\" y=\"49.0\" font-size=\"8\" fill=\"#334155\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\" font-weight=\"700\">M</text></svg>"
+        },
+        {
+          "option": "B",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 120 92\" width=\"120\" height=\"92\" role=\"img\" aria-hidden=\"true\"><circle cx=\"32.0\" cy=\"46.0\" r=\"17.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"32.0\" y=\"49.0\" font-size=\"8\" fill=\"#334155\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\" font-weight=\"700\">T</text><circle cx=\"56.0\" cy=\"46.0\" r=\"17.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"56.0\" y=\"49.0\" font-size=\"8\" fill=\"#334155\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\" font-weight=\"700\">D</text><circle cx=\"94.0\" cy=\"46.0\" r=\"16.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"94.0\" y=\"49.0\" font-size=\"8\" fill=\"#334155\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\" font-weight=\"700\">M</text></svg>"
+        },
+        {
+          "option": "C",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 120 92\" width=\"120\" height=\"92\" role=\"img\" aria-hidden=\"true\"><circle cx=\"46\" cy=\"38\" r=\"20\" fill=\"none\" stroke=\"#4f46e5\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"38\" r=\"20\" fill=\"none\" stroke=\"#0ea5e9\" stroke-width=\"2\"/><circle cx=\"63\" cy=\"58\" r=\"26\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"40\" y=\"33\" font-size=\"8\" fill=\"#4f46e5\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\" font-weight=\"700\">T</text><text x=\"86\" y=\"33\" font-size=\"8\" fill=\"#0ea5e9\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\" font-weight=\"700\">D</text><text x=\"63\" y=\"78\" font-size=\"8\" fill=\"#334155\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\" font-weight=\"700\">M</text></svg>"
+        },
+        {
+          "option": "D",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 120 92\" width=\"120\" height=\"92\" role=\"img\" aria-hidden=\"true\"><circle cx=\"44.0\" cy=\"36.0\" r=\"20.0\" fill=\"none\" stroke=\"#4f46e5\" stroke-width=\"2\"/><circle cx=\"76.0\" cy=\"36.0\" r=\"20.0\" fill=\"none\" stroke=\"#0ea5e9\" stroke-width=\"2\"/><circle cx=\"60.0\" cy=\"60.0\" r=\"20.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"44\" y=\"29\" font-size=\"8\" fill=\"#4f46e5\" text-anchor=\"middle\" font-weight=\"700\">T</text><text x=\"76\" y=\"29\" font-size=\"8\" fill=\"#0ea5e9\" text-anchor=\"middle\" font-weight=\"700\">D</text><text x=\"60\" y=\"74\" font-size=\"8\" fill=\"#334155\" text-anchor=\"middle\" font-weight=\"700\">M</text></svg>"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "Teachers and Doctors are two separate professions — a person can belong to only one of the two. However, both Teachers and Doctors can be Males. So the Teachers-circle and the Doctors-circle must each overlap the Males-circle while remaining separate from each other = Option (C).",
+        "as": "শিক্ষক আৰু ডাক্তৰ দুটা সুকীয়া বৃত্তি — এজন ব্যক্তি দুয়োটাৰে এটাৰহে সদস্য হ'ব পাৰে। কিন্তু শিক্ষক আৰু ডাক্তৰ দুয়ো পুৰুষ হ'ব পাৰে। গতিকে শিক্ষক-বৃত্ত আৰু ডাক্তৰ-বৃত্ত দুয়োটা পুৰুষ-বৃত্তৰ লগত ছেদ হ'ব লাগে, কিন্তু ইটো-সিটোৰ পৰা সুকীয়া হৈ থাকিব লাগে = বিকল্প (C)।"
+      }
     }
   ]
 }

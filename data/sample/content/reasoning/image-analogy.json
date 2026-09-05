@@ -1,0 +1,83 @@
+{
+  "id": "image-analogy",
+  "title": {
+    "en": "Image Analogy",
+    "as": "চিত্ৰ সাদৃশ্য"
+  },
+  "description": {
+    "en": "Visual analogy questions where the relationship between two given figures must be applied to a third figure. Practice figure-based analogies (rotation, shading, counting) with image options.",
+    "as": "দুটা দিয়া চিত্ৰৰ মাজৰ সম্পৰ্কটো তৃতীয় এখন চিত্ৰত প্ৰয়োগ কৰিবলগীয়া দৃশ্য সাদৃশ্য প্ৰশ্ন। চিত্ৰ-ভিত্তিক সাদৃশ্য (ঘূৰ্ণন, ৰং, গণনা) বিকল্পচিত্ৰসহ অভ্যাস কৰক।"
+  },
+  "tags": [
+    "reasoning",
+    "non-verbal",
+    "image-analogy",
+    "figure-analogy",
+    "visual-reasoning"
+  ],
+  "pdf": null,
+  "questions": [
+    {
+      "type": "figure_analogy",
+      "q": {
+        "en": "Study how the first figure changes into the second. Apply the same rule to the third figure and choose the correct answer figure.",
+        "as": "প্ৰথম চিত্ৰখন কেনেদৰে দ্বিতীয় চিত্ৰলৈ সলনি হয় লক্ষ্য কৰক। একেই নিয়ম তৃতীয় চিত্ৰখনত প্ৰয়োগ কৰি শুদ্ধ উত্তৰ চিত্ৰটো বাছি উলিয়াওক।"
+      },
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 330 92\" width=\"330\" height=\"92\" role=\"img\" aria-hidden=\"true\"><polygon points=\"46,18 78,74 14,74\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"46\" cy=\"38\" r=\"4.2\" fill=\"#ef4444\"/><text x=\"86\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#334155\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">:</text><polygon points=\"126,18 158,74 94,74\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"126\" cy=\"29\" r=\"4.2\" fill=\"#ef4444\"/><circle cx=\"126\" cy=\"47\" r=\"4.2\" fill=\"#ef4444\"/><text x=\"166\" y=\"48\" font-size=\"18\" font-weight=\"800\" fill=\"#0f172a\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">::</text><rect x=\"180\" y=\"14\" width=\"52\" height=\"52\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/><circle cx=\"206\" cy=\"41\" r=\"4.2\" fill=\"#ef4444\"/><circle cx=\"206\" cy=\"59\" r=\"4.2\" fill=\"#ef4444\"/><text x=\"246\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#334155\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">:</text><rect x=\"260\" y=\"14\" width=\"52\" height=\"52\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"3\" stroke-dasharray=\"6 5\" rx=\"3\"/><text x=\"286\" y=\"54\" font-size=\"30\" font-weight=\"800\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">?</text></svg>",
+      "options": [
+        {
+          "option": "A",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 72 72\" width=\"72\" height=\"72\" role=\"img\" aria-hidden=\"true\"><rect x=\"11\" y=\"11\" width=\"50\" height=\"50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/><circle cx=\"36\" cy=\"24\" r=\"4\" fill=\"#ef4444\"/><circle cx=\"36\" cy=\"36\" r=\"4\" fill=\"#ef4444\"/><circle cx=\"36\" cy=\"48\" r=\"4\" fill=\"#ef4444\"/></svg>"
+        },
+        {
+          "option": "B",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 72 72\" width=\"72\" height=\"72\" role=\"img\" aria-hidden=\"true\"><rect x=\"11\" y=\"11\" width=\"50\" height=\"50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/><circle cx=\"36\" cy=\"36\" r=\"4\" fill=\"#ef4444\"/></svg>"
+        },
+        {
+          "option": "C",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 72 72\" width=\"72\" height=\"72\" role=\"img\" aria-hidden=\"true\"><rect x=\"11\" y=\"11\" width=\"50\" height=\"50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/><circle cx=\"36\" cy=\"23\" r=\"4\" fill=\"#ef4444\"/><circle cx=\"36\" cy=\"32\" r=\"4\" fill=\"#ef4444\"/><circle cx=\"36\" cy=\"40\" r=\"4\" fill=\"#ef4444\"/><circle cx=\"36\" cy=\"49\" r=\"4\" fill=\"#ef4444\"/></svg>"
+        },
+        {
+          "option": "D",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 72 72\" width=\"72\" height=\"72\" role=\"img\" aria-hidden=\"true\"><rect x=\"11\" y=\"11\" width=\"50\" height=\"50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/></svg>"
+        }
+      ],
+      "a": "A",
+      "explanation": {
+        "en": "Rule: one more dot is added inside the figure (1 dot becomes 2 dots). The square has 2 dots, so the answer must be the square with 3 dots = Option (A).",
+        "as": "নিয়ম: চিত্ৰটোৰ ভিতৰত এটা বিন্দু বেছি যোগ হয় (১টা বিন্দু হয় ২টা)। বৰ্গটোত ২টা বিন্দু আছে, সেয়ে উত্তৰ হ'ব ৩টা বিন্দু থকা বৰ্গটো = বিকল্প (A)।"
+      }
+    },
+    {
+      "type": "figure_analogy",
+      "q": {
+        "en": "The arrow is rotated clockwise by 90°. Apply the same rotation to the third figure and pick the correct option.",
+        "as": "কাঁড়টো ঘড়ীৰ কাঁটাৰ দিশত ৯০° ঘূৰোৱা হয়। একেই ঘূৰ্ণন তৃতীয় চিত্ৰখনত প্ৰয়োগ কৰি শুদ্ধ বিকল্পটো বাছক।"
+      },
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 470 90\" width=\"470\" height=\"90\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(60,4) scale(0.82)\"><polygon points=\"45,10 12,66 30,66 30,80 60,80 60,66 78,66\" fill=\"none\" stroke=\"#4f46e5\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><g transform=\"translate(150,4) scale(0.82)\"><polygon points=\"80,45 24,12 24,30 10,30 10,60 24,60 24,78\" fill=\"none\" stroke=\"#4f46e5\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><text x=\"230\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#334155\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">:</text><g transform=\"translate(262,4) scale(0.82)\"><polygon points=\"10,45 66,12 66,30 80,30 80,60 66,60 66,78\" fill=\"none\" stroke=\"#4f46e5\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><text x=\"345\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#334155\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">:</text><rect x=\"378\" y=\"10\" width=\"66\" height=\"66\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"3\" stroke-dasharray=\"6 5\" rx=\"6\"/><text x=\"411\" y=\"54\" font-size=\"34\" font-weight=\"800\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">?</text></svg>",
+      "options": [
+        {
+          "option": "A",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 90 90\" width=\"90\" height=\"90\" role=\"img\" aria-hidden=\"true\"><polygon points=\"45,10 12,66 30,66 30,80 60,80 60,66 78,66\" fill=\"none\" stroke=\"#4f46e5\" stroke-width=\"4\" stroke-linejoin=\"round\"/></svg>"
+        },
+        {
+          "option": "B",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 90 90\" width=\"90\" height=\"90\" role=\"img\" aria-hidden=\"true\"><polygon points=\"45,80 12,24 30,24 30,10 60,10 60,24 78,24\" fill=\"none\" stroke=\"#4f46e5\" stroke-width=\"4\" stroke-linejoin=\"round\"/></svg>"
+        },
+        {
+          "option": "C",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 90 90\" width=\"90\" height=\"90\" role=\"img\" aria-hidden=\"true\"><polygon points=\"80,45 24,12 24,30 10,30 10,60 24,60 24,78\" fill=\"none\" stroke=\"#4f46e5\" stroke-width=\"4\" stroke-linejoin=\"round\"/></svg>"
+        },
+        {
+          "option": "D",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 90 90\" width=\"90\" height=\"90\" role=\"img\" aria-hidden=\"true\"><polygon points=\"10,45 66,12 66,30 80,30 80,60 66,60 66,78\" fill=\"none\" stroke=\"#4f46e5\" stroke-width=\"4\" stroke-linejoin=\"round\"/></svg>"
+        }
+      ],
+      "a": "A",
+      "explanation": {
+        "en": "An arrow pointing up rotates 90° clockwise to point right. So an arrow pointing left rotates 90° clockwise to point up = Option (A).",
+        "as": "ওপৰলৈ থকা কাঁড়টো ঘড়ীৰ কাঁটাৰ দিশত ৯০° ঘূৰিলে সোঁফালে হয়। গতিকে বাওঁফালে থকা কাঁড়টো ৯০° ঘূৰিলে ওপৰলৈ হ'ব = বিকল্প (A)।"
+      }
+    }
+  ]
+}
