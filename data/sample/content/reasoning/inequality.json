@@ -1,0 +1,1401 @@
+{
+  "id": "inequality_coded_and_direct",
+  "title": {
+    "en": "Inequality (Coded & Direct) — Assam Competitive Exams",
+    "as": "অসমতা (ক'ডেড আৰু ডাইৰেক্ট) — অসম প্ৰতিযোগিতামূলক পৰীক্ষা"
+  },
+  "description": {
+    "en": "Solve inequality puzzles — direct symbolic inequalities and coded inequality relations using symbol-to-meaning decoding.",
+    "as": "অসমতা সমস্যাবোৰ সমাধান কৰক — পোনপটীয়া চিহ্নযুক্ত অসমতা আৰু চিহ্ন-অৰ্থ উদ্ধাৰেৰে ক'ডেড অসমতা সম্পৰ্ক।"
+  },
+  "tags": [
+    "reasoning",
+    "inequality",
+    "coded-inequality",
+    "যুক্তি",
+    "অসমতা"
+  ],
+  "pdf": null,
+  "questions": [
+    {
+      "type": "inequality_coded",
+      "q": {
+        "en": "In the following, '@' means '>', '#' means '<', '$' means '≥', '%' means '≤' and '&' means '='. Statements: P @ Q; Q @ R; R # S. Which of the following is definitely true?",
+        "as": "তলত, '@' অৰ্থ '>', '#' অৰ্থ '<', '$' অৰ্থ '≥', '%' অৰ্থ '≤' আৰু '&' অৰ্থ '='। উক্তি: P @ Q; Q @ R; R # S। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Q = R",
+          "as": "Q = R"
+        },
+        {
+          "option": "B",
+          "en": "Q < S",
+          "as": "Q < S"
+        },
+        {
+          "option": "C",
+          "en": "P > R",
+          "as": "P > R"
+        },
+        {
+          "option": "D",
+          "en": "P = S",
+          "as": "P = S"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "inequality_coded",
+      "q": {
+        "en": "In the following, '@' means '>', '#' means '<', '$' means '≥', '%' means '≤' and '&' means '='. Statements: A $ B; B # C; C & D. Which of the following is definitely true?",
+        "as": "তলত, '@' অৰ্থ '>', '#' অৰ্থ '<', '$' অৰ্থ '≥', '%' অৰ্থ '≤' আৰু '&' অৰ্থ '='। উক্তি: A $ B; B # C; C & D। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "A > C",
+          "as": "A > C"
+        },
+        {
+          "option": "B",
+          "en": "B > C",
+          "as": "B > C"
+        },
+        {
+          "option": "C",
+          "en": "A = C",
+          "as": "A = C"
+        },
+        {
+          "option": "D",
+          "en": "B < D",
+          "as": "B < D"
+        }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "inequality_coded",
+      "q": {
+        "en": "In the following, '@' means '>', '#' means '<', '$' means '≥', '%' means '≤' and '&' means '='. Statements: X % Y; Y # Z; Z & W. Which of the following is definitely true?",
+        "as": "তলত, '@' অৰ্থ '>', '#' অৰ্থ '<', '$' অৰ্থ '≥', '%' অৰ্থ '≤' আৰু '&' অৰ্থ '='। উক্তি: X % Y; Y # Z; Z & W। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "X = Y",
+          "as": "X = Y"
+        },
+        {
+          "option": "B",
+          "en": "Y > W",
+          "as": "Y > W"
+        },
+        {
+          "option": "C",
+          "en": "X < W",
+          "as": "X < W"
+        },
+        {
+          "option": "D",
+          "en": "X = W",
+          "as": "X = W"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "inequality_coded",
+      "q": {
+        "en": "In the following, '@' means '>', '#' means '<', '$' means '≥', '%' means '≤' and '&' means '='. Statements: M @ N; N @ O; O % P; P # Q. Which of the following is definitely true?",
+        "as": "তলত, '@' অৰ্থ '>', '#' অৰ্থ '<', '$' অৰ্থ '≥', '%' অৰ্থ '≤' আৰু '&' অৰ্থ '='। উক্তি: M @ N; N @ O; O % P; P # Q। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "M = O",
+          "as": "M = O"
+        },
+        {
+          "option": "B",
+          "en": "N > Q",
+          "as": "N > Q"
+        },
+        {
+          "option": "C",
+          "en": "O = P",
+          "as": "O = P"
+        },
+        {
+          "option": "D",
+          "en": "M > O",
+          "as": "M > O"
+        }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "inequality_coded",
+      "q": {
+        "en": "In the following, '@' means '>', '#' means '<', '$' means '≥', '%' means '≤' and '&' means '='. Statements: M # N; N $ O; O % P; P & Q. Which of the following is definitely true?",
+        "as": "তলত, '@' অৰ্থ '>', '#' অৰ্থ '<', '$' অৰ্থ '≥', '%' অৰ্থ '≤' আৰু '&' অৰ্থ '='। উক্তি: M # N; N $ O; O % P; P & Q। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "M > P",
+          "as": "M > P"
+        },
+        {
+          "option": "B",
+          "en": "Q ≥ O",
+          "as": "Q ≥ O"
+        },
+        {
+          "option": "C",
+          "en": "N = Q",
+          "as": "N = Q"
+        },
+        {
+          "option": "D",
+          "en": "M = Q",
+          "as": "M = Q"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "inequality_coded",
+      "q": {
+        "en": "In the following, '@' means '>', '#' means '<', '$' means '≥', '%' means '≤' and '&' means '='. Statements: A @ B; B $ C; C # D; D & E. Which of the following is definitely true?",
+        "as": "তলত, '@' অৰ্থ '>', '#' অৰ্থ '<', '$' অৰ্থ '≥', '%' অৰ্থ '≤' আৰু '&' অৰ্থ '='। উক্তি: A @ B; B $ C; C # D; D & E। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "B = D",
+          "as": "B = D"
+        },
+        {
+          "option": "B",
+          "en": "A = C",
+          "as": "A = C"
+        },
+        {
+          "option": "C",
+          "en": "A > C",
+          "as": "A > C"
+        },
+        {
+          "option": "D",
+          "en": "C = E",
+          "as": "C = E"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "inequality_coded",
+      "q": {
+        "en": "In the following, '@' means '>', '#' means '<', '$' means '≥', '%' means '≤' and '&' means '='. Statements: T @ U; U # V; V @ W; W & X. Which of the following is definitely true?",
+        "as": "তলত, '@' অৰ্থ '>', '#' অৰ্থ '<', '$' অৰ্থ '≥', '%' অৰ্থ '≤' আৰু '&' অৰ্থ '='। উক্তি: T @ U; U # V; V @ W; W & X। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "U > X",
+          "as": "U > X"
+        },
+        {
+          "option": "B",
+          "en": "V > X",
+          "as": "V > X"
+        },
+        {
+          "option": "C",
+          "en": "T > V",
+          "as": "T > V"
+        },
+        {
+          "option": "D",
+          "en": "T > X",
+          "as": "T > X"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "inequality_coded",
+      "q": {
+        "en": "In the following, '@' means '>', '#' means '<', '$' means '≥', '%' means '≤' and '&' means '='. Statements: P % Q; Q & R; R @ S; S # T. Which of the following is definitely true?",
+        "as": "তলত, '@' অৰ্থ '>', '#' অৰ্থ '<', '$' অৰ্থ '≥', '%' অৰ্থ '≤' আৰু '&' অৰ্থ '='। উক্তি: P % Q; Q & R; R @ S; S # T। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "P < R",
+          "as": "P < R"
+        },
+        {
+          "option": "B",
+          "en": "Q = S",
+          "as": "Q = S"
+        },
+        {
+          "option": "C",
+          "en": "S > P",
+          "as": "S > P"
+        },
+        {
+          "option": "D",
+          "en": "Q > S",
+          "as": "Q > S"
+        }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: P > Q; Q ≥ R; R = S. Which of the following is definitely true?",
+        "as": "উক্তি: P > Q; Q ≥ R; R = S। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "P > R",
+          "as": "P > R"
+        },
+        {
+          "option": "B",
+          "en": "Q > S",
+          "as": "Q > S"
+        },
+        {
+          "option": "C",
+          "en": "S = P",
+          "as": "S = P"
+        },
+        {
+          "option": "D",
+          "en": "Q = S",
+          "as": "Q = S"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: A = B; B > C; C ≥ D. Which of the following is definitely true?",
+        "as": "উক্তি: A = B; B > C; C ≥ D। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "A > C",
+          "as": "A > C"
+        },
+        {
+          "option": "B",
+          "en": "B = D",
+          "as": "B = D"
+        },
+        {
+          "option": "C",
+          "en": "A = C",
+          "as": "A = C"
+        },
+        {
+          "option": "D",
+          "en": "C = D",
+          "as": "C = D"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: R > S; S = T; T < U. Which of the following is definitely true?",
+        "as": "উক্তি: R > S; S = T; T < U। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "R = T",
+          "as": "R = T"
+        },
+        {
+          "option": "B",
+          "en": "T > S",
+          "as": "T > S"
+        },
+        {
+          "option": "C",
+          "en": "R > T",
+          "as": "R > T"
+        },
+        {
+          "option": "D",
+          "en": "R < U",
+          "as": "R < U"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: X ≥ Y; Y > Z; Z ≥ W. Which of the following is definitely true?",
+        "as": "উক্তি: X ≥ Y; Y > Z; Z ≥ W। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "X = W",
+          "as": "X = W"
+        },
+        {
+          "option": "B",
+          "en": "X > Z",
+          "as": "X > Z"
+        },
+        {
+          "option": "C",
+          "en": "Z > W",
+          "as": "Z > W"
+        },
+        {
+          "option": "D",
+          "en": "Y < W",
+          "as": "Y < W"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: P < Q; Q < R; R < S. Which of the following is definitely true?",
+        "as": "উক্তি: P < Q; Q < R; R < S। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "S < P",
+          "as": "S < P"
+        },
+        {
+          "option": "B",
+          "en": "Q = R",
+          "as": "Q = R"
+        },
+        {
+          "option": "C",
+          "en": "P = S",
+          "as": "P = S"
+        },
+        {
+          "option": "D",
+          "en": "P < S",
+          "as": "P < S"
+        }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: M = N; N > O; O > P; P ≥ Q. Which of the following is definitely true?",
+        "as": "উক্তি: M = N; N > O; O > P; P ≥ Q। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "M = P",
+          "as": "M = P"
+        },
+        {
+          "option": "B",
+          "en": "N = O",
+          "as": "N = O"
+        },
+        {
+          "option": "C",
+          "en": "M > P",
+          "as": "M > P"
+        },
+        {
+          "option": "D",
+          "en": "P = Q",
+          "as": "P = Q"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: A ≥ B; B = C; C ≥ D. Which of the following is definitely true?",
+        "as": "উক্তি: A ≥ B; B = C; C ≥ D। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "A > D",
+          "as": "A > D"
+        },
+        {
+          "option": "B",
+          "en": "A ≥ D",
+          "as": "A ≥ D"
+        },
+        {
+          "option": "C",
+          "en": "A = D",
+          "as": "A = D"
+        },
+        {
+          "option": "D",
+          "en": "B < D",
+          "as": "B < D"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "inequality_coded",
+      "q": {
+        "en": "In the following, '@' means '>', '#' means '<', '$' means '≥', '%' means '≤' and '&' means '='. Statements: K @ L; L & M; M $ N; N # O. Which of the following is definitely true?",
+        "as": "তলত, '@' অৰ্থ '>', '#' অৰ্থ '<', '$' অৰ্থ '≥', '%' অৰ্থ '≤' আৰু '&' অৰ্থ '='। উক্তি: K @ L; L & M; M $ N; N # O। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "K > N",
+          "as": "K > N"
+        },
+        {
+          "option": "B",
+          "en": "L = N",
+          "as": "L = N"
+        },
+        {
+          "option": "C",
+          "en": "M > N",
+          "as": "M > N"
+        },
+        {
+          "option": "D",
+          "en": "O < K",
+          "as": "O < K"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "inequality_coded",
+      "q": {
+        "en": "In the following, '@' means '>', '#' means '<', '$' means '≥', '%' means '≤' and '&' means '='. Statements: A $ B; B & C; C % D; D $ E; E # F. Which of the following is definitely true?",
+        "as": "তলত, '@' অৰ্থ '>', '#' অৰ্থ '<', '$' অৰ্থ '≥', '%' অৰ্থ '≤' আৰু '&' অৰ্থ '='। উক্তি: A $ B; B & C; C % D; D $ E; E # F। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "A > F",
+          "as": "A > F"
+        },
+        {
+          "option": "B",
+          "en": "C > E",
+          "as": "C > E"
+        },
+        {
+          "option": "C",
+          "en": "B ≤ D",
+          "as": "B ≤ D"
+        },
+        {
+          "option": "D",
+          "en": "A = D",
+          "as": "A = D"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "inequality_coded",
+      "q": {
+        "en": "In the following, '@' means '>', '#' means '<', '$' means '≥', '%' means '≤' and '&' means '='. Statements: X % Y; Y # Z; Z $ W; W % V; V & U. Which of the following is definitely true?",
+        "as": "তলত, '@' অৰ্থ '>', '#' অৰ্থ '<', '$' অৰ্থ '≥', '%' অৰ্থ '≤' আৰু '&' অৰ্থ '='। উক্তি: X % Y; Y # Z; Z $ W; W % V; V & U। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Y = W",
+          "as": "Y = W"
+        },
+        {
+          "option": "B",
+          "en": "X < Z",
+          "as": "X < Z"
+        },
+        {
+          "option": "C",
+          "en": "Z > U",
+          "as": "Z > U"
+        },
+        {
+          "option": "D",
+          "en": "X = Z",
+          "as": "X = Z"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "inequality_coded",
+      "q": {
+        "en": "In the following, '@' means '>', '#' means '<', '$' means '≥', '%' means '≤' and '&' means '='. Statements: M $ N; N # O; O & P; P % Q; Q # R. Which of the following is definitely true?",
+        "as": "তলত, '@' অৰ্থ '>', '#' অৰ্থ '<', '$' অৰ্থ '≥', '%' অৰ্থ '≤' আৰু '&' অৰ্থ '='। উক্তি: M $ N; N # O; O & P; P % Q; Q # R। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "M = R",
+          "as": "M = R"
+        },
+        {
+          "option": "B",
+          "en": "M > P",
+          "as": "M > P"
+        },
+        {
+          "option": "C",
+          "en": "N < P",
+          "as": "N < P"
+        },
+        {
+          "option": "D",
+          "en": "O > Q",
+          "as": "O > Q"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "inequality_coded",
+      "q": {
+        "en": "In the following, '@' means '>', '#' means '<', '$' means '≥', '%' means '≤' and '&' means '='. Statements: A @ B; B & C; C @ D; D # E; E @ F. Which of the following is definitely true?",
+        "as": "তলত, '@' অৰ্থ '>', '#' অৰ্থ '<', '$' অৰ্থ '≥', '%' অৰ্থ '≤' আৰু '&' অৰ্থ '='। উক্তি: A @ B; B & C; C @ D; D # E; E @ F। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "F > C",
+          "as": "F > C"
+        },
+        {
+          "option": "B",
+          "en": "D > E",
+          "as": "D > E"
+        },
+        {
+          "option": "C",
+          "en": "A > D",
+          "as": "A > D"
+        },
+        {
+          "option": "D",
+          "en": "A = C",
+          "as": "A = C"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "inequality_coded",
+      "q": {
+        "en": "In the following, '@' means '>', '#' means '<', '$' means '≥', '%' means '≤' and '&' means '='. Statements: P @ Q; Q $ R; R # S; S % T; T & U. Which of the following is definitely true?",
+        "as": "তলত, '@' অৰ্থ '>', '#' অৰ্থ '<', '$' অৰ্থ '≥', '%' অৰ্থ '≤' আৰু '&' অৰ্থ '='। উক্তি: P @ Q; Q $ R; R # S; S % T; T & U। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Q = S",
+          "as": "Q = S"
+        },
+        {
+          "option": "B",
+          "en": "P > R",
+          "as": "P > R"
+        },
+        {
+          "option": "C",
+          "en": "S = U",
+          "as": "S = U"
+        },
+        {
+          "option": "D",
+          "en": "P = R",
+          "as": "P = R"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "inequality_coded",
+      "q": {
+        "en": "In the following, '@' means '>', '#' means '<', '$' means '≥', '%' means '≤' and '&' means '='. Statements: M @ N; N $ O; O % P; P # Q; Q & R. Which of the following is definitely true?",
+        "as": "তলত, '@' অৰ্থ '>', '#' অৰ্থ '<', '$' অৰ্থ '≥', '%' অৰ্থ '≤' আৰু '&' অৰ্থ '='। উক্তি: M @ N; N $ O; O % P; P # Q; Q & R। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "N = P",
+          "as": "N = P"
+        },
+        {
+          "option": "B",
+          "en": "O > Q",
+          "as": "O > Q"
+        },
+        {
+          "option": "C",
+          "en": "M = O",
+          "as": "M = O"
+        },
+        {
+          "option": "D",
+          "en": "M > O",
+          "as": "M > O"
+        }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "inequality_coded",
+      "q": {
+        "en": "In the following, '@' means '>', '#' means '<', '$' means '≥', '%' means '≤' and '&' means '='. Statements: X $ Y; Y # Z; Z & W; W % V; V @ U. Which of the following is definitely true?",
+        "as": "তলত, '@' অৰ্থ '>', '#' অৰ্থ '<', '$' অৰ্থ '≥', '%' অৰ্থ '≤' আৰু '&' অৰ্থ '='। উক্তি: X $ Y; Y # Z; Z & W; W % V; V @ U। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "V < U",
+          "as": "V < U"
+        },
+        {
+          "option": "B",
+          "en": "Z < W",
+          "as": "Z < W"
+        },
+        {
+          "option": "C",
+          "en": "Y < W",
+          "as": "Y < W"
+        },
+        {
+          "option": "D",
+          "en": "X > Z",
+          "as": "X > Z"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: X < Y; Y ≤ Z; Z = W. Which of the following is definitely true?",
+        "as": "উক্তি: X < Y; Y ≤ Z; Z = W। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "X < W",
+          "as": "X < W"
+        },
+        {
+          "option": "B",
+          "en": "X = W",
+          "as": "X = W"
+        },
+        {
+          "option": "C",
+          "en": "Y > W",
+          "as": "Y > W"
+        },
+        {
+          "option": "D",
+          "en": "Y = Z",
+          "as": "Y = Z"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: P ≥ Q; Q > R; R = S. Which of the following is definitely true?",
+        "as": "উক্তি: P ≥ Q; Q > R; R = S। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Q = S",
+          "as": "Q = S"
+        },
+        {
+          "option": "B",
+          "en": "P = S",
+          "as": "P = S"
+        },
+        {
+          "option": "C",
+          "en": "P > R",
+          "as": "P > R"
+        },
+        {
+          "option": "D",
+          "en": "S > P",
+          "as": "S > P"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: A < B; B = C; C < D. Which of the following is definitely true?",
+        "as": "উক্তি: A < B; B = C; C < D। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "B = D",
+          "as": "B = D"
+        },
+        {
+          "option": "B",
+          "en": "A = C",
+          "as": "A = C"
+        },
+        {
+          "option": "C",
+          "en": "B = A",
+          "as": "B = A"
+        },
+        {
+          "option": "D",
+          "en": "A < C",
+          "as": "A < C"
+        }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: M ≤ N; N < O; O < P; P ≤ Q. Which of the following is definitely true?",
+        "as": "উক্তি: M ≤ N; N < O; O < P; P ≤ Q। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "M = Q",
+          "as": "M = Q"
+        },
+        {
+          "option": "B",
+          "en": "M < Q",
+          "as": "M < Q"
+        },
+        {
+          "option": "C",
+          "en": "N = P",
+          "as": "N = P"
+        },
+        {
+          "option": "D",
+          "en": "O = Q",
+          "as": "O = Q"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: P ≥ Q; Q ≥ R; R > S; S = T. Which of the following is definitely true?",
+        "as": "উক্তি: P ≥ Q; Q ≥ R; R > S; S = T। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "P > T",
+          "as": "P > T"
+        },
+        {
+          "option": "B",
+          "en": "Q = T",
+          "as": "Q = T"
+        },
+        {
+          "option": "C",
+          "en": "R = T",
+          "as": "R = T"
+        },
+        {
+          "option": "D",
+          "en": "P = T",
+          "as": "P = T"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: X ≥ Y; Y = Z; Z > W; W ≥ V. Which of the following is definitely true?",
+        "as": "উক্তি: X ≥ Y; Y = Z; Z > W; W ≥ V। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Y = V",
+          "as": "Y = V"
+        },
+        {
+          "option": "B",
+          "en": "X > W",
+          "as": "X > W"
+        },
+        {
+          "option": "C",
+          "en": "Z = V",
+          "as": "Z = V"
+        },
+        {
+          "option": "D",
+          "en": "X = W",
+          "as": "X = W"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: A > B; B ≥ C; C = D; D > E. Which of the following is definitely true?",
+        "as": "উক্তি: A > B; B ≥ C; C = D; D > E। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "A > D",
+          "as": "A > D"
+        },
+        {
+          "option": "B",
+          "en": "A = D",
+          "as": "A = D"
+        },
+        {
+          "option": "C",
+          "en": "B = E",
+          "as": "B = E"
+        },
+        {
+          "option": "D",
+          "en": "C = A",
+          "as": "C = A"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: P < Q; Q ≤ R; R = S; S < T. Which of the following is definitely true?",
+        "as": "উক্তি: P < Q; Q ≤ R; R = S; S < T। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Q = S",
+          "as": "Q = S"
+        },
+        {
+          "option": "B",
+          "en": "P = S",
+          "as": "P = S"
+        },
+        {
+          "option": "C",
+          "en": "P < S",
+          "as": "P < S"
+        },
+        {
+          "option": "D",
+          "en": "Q > S",
+          "as": "Q > S"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: M > N; N ≥ O; O = P; P < Q; Q ≤ R. Which of the following is definitely true?",
+        "as": "উক্তি: M > N; N ≥ O; O = P; P < Q; Q ≤ R। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "M > P",
+          "as": "M > P"
+        },
+        {
+          "option": "B",
+          "en": "M = P",
+          "as": "M = P"
+        },
+        {
+          "option": "C",
+          "en": "N = O",
+          "as": "N = O"
+        },
+        {
+          "option": "D",
+          "en": "N = P",
+          "as": "N = P"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: A = B; B ≥ C; C > D; D ≤ E. Which of the following is definitely true?",
+        "as": "উক্তি: A = B; B ≥ C; C > D; D ≤ E। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "E > A",
+          "as": "E > A"
+        },
+        {
+          "option": "B",
+          "en": "B = C",
+          "as": "B = C"
+        },
+        {
+          "option": "C",
+          "en": "A > D",
+          "as": "A > D"
+        },
+        {
+          "option": "D",
+          "en": "C = D",
+          "as": "C = D"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: X < Y; Y < Z; Z ≤ W; W = V. Which of the following is definitely true?",
+        "as": "উক্তি: X < Y; Y < Z; Z ≤ W; W = V। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "X < V",
+          "as": "X < V"
+        },
+        {
+          "option": "B",
+          "en": "X = V",
+          "as": "X = V"
+        },
+        {
+          "option": "C",
+          "en": "Z = V",
+          "as": "Z = V"
+        },
+        {
+          "option": "D",
+          "en": "Y = V",
+          "as": "Y = V"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: P ≥ Q; Q = R; R < S; S ≤ T; T > U. Which of the following is definitely true?",
+        "as": "উক্তি: P ≥ Q; Q = R; R < S; S ≤ T; T > U। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "P > R",
+          "as": "P > R"
+        },
+        {
+          "option": "B",
+          "en": "P ≥ R",
+          "as": "P ≥ R"
+        },
+        {
+          "option": "C",
+          "en": "P = R",
+          "as": "P = R"
+        },
+        {
+          "option": "D",
+          "en": "Q > S",
+          "as": "Q > S"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: M ≤ N; N < O; O ≥ P; P = Q. Which of the following is definitely true?",
+        "as": "উক্তি: M ≤ N; N < O; O ≥ P; P = Q। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "M < Q",
+          "as": "M < Q"
+        },
+        {
+          "option": "B",
+          "en": "N > Q",
+          "as": "N > Q"
+        },
+        {
+          "option": "C",
+          "en": "O > Q",
+          "as": "O > Q"
+        },
+        {
+          "option": "D",
+          "en": "O ≥ Q",
+          "as": "O ≥ Q"
+        }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: A > B; B > C; C ≥ D; D = E. Which of the following is definitely true?",
+        "as": "উক্তি: A > B; B > C; C ≥ D; D = E। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "B = C",
+          "as": "B = C"
+        },
+        {
+          "option": "B",
+          "en": "C = E",
+          "as": "C = E"
+        },
+        {
+          "option": "C",
+          "en": "B > E",
+          "as": "B > E"
+        },
+        {
+          "option": "D",
+          "en": "A = E",
+          "as": "A = E"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: X = Y; Y < Z; Z ≤ W; W = V; V > U. Which of the following is definitely true?",
+        "as": "উক্তি: X = Y; Y < Z; Z ≤ W; W = V; V > U। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "X < W",
+          "as": "X < W"
+        },
+        {
+          "option": "B",
+          "en": "X = W",
+          "as": "X = W"
+        },
+        {
+          "option": "C",
+          "en": "Z > U",
+          "as": "Z > U"
+        },
+        {
+          "option": "D",
+          "en": "Y = V",
+          "as": "Y = V"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: P > Q; Q ≥ R; R ≥ S; S > T; T = U. Which of the following is definitely true?",
+        "as": "উক্তি: P > Q; Q ≥ R; R ≥ S; S > T; T = U। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "P = S",
+          "as": "P = S"
+        },
+        {
+          "option": "B",
+          "en": "Q = S",
+          "as": "Q = S"
+        },
+        {
+          "option": "C",
+          "en": "P > S",
+          "as": "P > S"
+        },
+        {
+          "option": "D",
+          "en": "R = U",
+          "as": "R = U"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: A ≤ B; B ≤ C; C ≤ D; D = E. Which of the following is definitely true?",
+        "as": "উক্তি: A ≤ B; B ≤ C; C ≤ D; D = E। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "A < E",
+          "as": "A < E"
+        },
+        {
+          "option": "B",
+          "en": "A = E",
+          "as": "A = E"
+        },
+        {
+          "option": "C",
+          "en": "B > E",
+          "as": "B > E"
+        },
+        {
+          "option": "D",
+          "en": "A ≤ E",
+          "as": "A ≤ E"
+        }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: M = N; N = O; O = P; P > Q. Which of the following is definitely true?",
+        "as": "উক্তি: M = N; N = O; O = P; P > Q। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "M > P",
+          "as": "M > P"
+        },
+        {
+          "option": "B",
+          "en": "M = P",
+          "as": "M = P"
+        },
+        {
+          "option": "C",
+          "en": "Q = M",
+          "as": "Q = M"
+        },
+        {
+          "option": "D",
+          "en": "N > M",
+          "as": "N > M"
+        }
+      ],
+      "a": "B"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: X ≥ Y; Y ≤ Z; Z = W; W < V. Which of the following is definitely true?",
+        "as": "উক্তি: X ≥ Y; Y ≤ Z; Z = W; W < V। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "X > V",
+          "as": "X > V"
+        },
+        {
+          "option": "B",
+          "en": "X = V",
+          "as": "X = V"
+        },
+        {
+          "option": "C",
+          "en": "Y < V",
+          "as": "Y < V"
+        },
+        {
+          "option": "D",
+          "en": "Z > V",
+          "as": "Z > V"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: P ≤ Q; Q = R; R ≥ S; S = T. Which of the following is definitely true?",
+        "as": "উক্তি: P ≤ Q; Q = R; R ≥ S; S = T। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "Q = S",
+          "as": "Q = S"
+        },
+        {
+          "option": "B",
+          "en": "P = T",
+          "as": "P = T"
+        },
+        {
+          "option": "C",
+          "en": "P ≥ T",
+          "as": "P ≥ T"
+        },
+        {
+          "option": "D",
+          "en": "Q ≥ T",
+          "as": "Q ≥ T"
+        }
+      ],
+      "a": "D"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: A < B; B = C; C ≤ D; D = E. Which of the following is definitely true?",
+        "as": "উক্তি: A < B; B = C; C ≤ D; D = E। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "A < E",
+          "as": "A < E"
+        },
+        {
+          "option": "B",
+          "en": "A = E",
+          "as": "A = E"
+        },
+        {
+          "option": "C",
+          "en": "B = D",
+          "as": "B = D"
+        },
+        {
+          "option": "D",
+          "en": "C = E",
+          "as": "C = E"
+        }
+      ],
+      "a": "A"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: M > N; N = O; O < P; P = Q; Q ≥ R. Which of the following is definitely true?",
+        "as": "উক্তি: M > N; N = O; O < P; P = Q; Q ≥ R। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "M = O",
+          "as": "M = O"
+        },
+        {
+          "option": "B",
+          "en": "O = P",
+          "as": "O = P"
+        },
+        {
+          "option": "C",
+          "en": "M > O",
+          "as": "M > O"
+        },
+        {
+          "option": "D",
+          "en": "N = Q",
+          "as": "N = Q"
+        }
+      ],
+      "a": "C"
+    },
+    {
+      "type": "inequality_direct",
+      "q": {
+        "en": "Statements: X = Y; Y > Z; Z = W; W ≥ V; V > U. Which of the following is definitely true?",
+        "as": "উক্তি: X = Y; Y > Z; Z = W; W ≥ V; V > U। তলৰ কোনটো সঁচাকৈয়ে সত্য?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "X = W",
+          "as": "X = W"
+        },
+        {
+          "option": "B",
+          "en": "Z > V",
+          "as": "Z > V"
+        },
+        {
+          "option": "C",
+          "en": "Y = V",
+          "as": "Y = V"
+        },
+        {
+          "option": "D",
+          "en": "X > W",
+          "as": "X > W"
+        }
+      ],
+      "a": "D"
+    }
+  ]
+}
