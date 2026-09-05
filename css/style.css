@@ -1109,14 +1109,28 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   justify-content: center;
   align-items: center;
   overflow-x: auto;
+  max-width: 100%;
+  box-sizing: border-box;
 }
-.nv-media svg,
-.nv-media img { max-width: 100%; height: auto; }
+.nv-media > svg,
+.nv-media > img,
+.nv-media svg:only-child,
+.nv-media img:only-child { max-width: 100%; height: auto; width: auto; display: block; }
 .nv-media svg { display: block; }
 .read-item .nv-media { margin: 8px 0; }
 .qa-row .nv-media { margin: 6px 0; }
 .qa-row .nv-media svg { max-height: 160px; }
 .quiz-qtext + .nv-media { margin-top: 8px; }
+
+/* Make sure the svg never overflows its box: drop intrinsic px sizing,
+   let the shape fill the container while keeping aspect via viewBox. */
+.nv-media svg,
+.nv-fig-box svg,
+.nv-fig-box img,
+.opt-fig svg,
+.opt-fig img,
+.rv-fig svg,
+.rv-fig img { max-width: 100%; height: auto; }
 
 /* Figure / shape answer options */
 .nv-fig-grid {
@@ -1125,26 +1139,30 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   gap: 14px;
   margin: 12px 0 4px 0;
   justify-content: center;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 .nv-fig-grid-compact { gap: 10px; }
-.nv-fig-item { display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 0; }
+.nv-fig-item { display: flex; flex-direction: column; align-items: center; gap: 6px; min-width: 0; max-width: 100%; }
 .nv-fig-key { font-weight: 800; color: var(--primary, #4f46e5); font-size: 0.85rem; letter-spacing: .2px; }
 .nv-fig-box {
   border: 1px solid var(--line, #e2e8f0);
   background: #ffffff;
   border-radius: 12px;
-  padding: 10px;
+  padding: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 96px;
-  min-height: 96px;
+  min-width: 68px;
+  min-height: 68px;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 .nv-fig-box svg,
-.nv-fig-box img { max-width: 128px; height: auto; }
-.nv-fig-grid-compact .nv-fig-box { min-width: 70px; min-height: 70px; padding: 6px; border-radius: 10px; }
+.nv-fig-box img { max-width: 68px; height: auto; }
+.nv-fig-grid-compact .nv-fig-box { min-width: 52px; min-height: 52px; padding: 5px; border-radius: 10px; }
 .nv-fig-grid-compact .nv-fig-box svg,
-.nv-fig-grid-compact .nv-fig-box img { max-width: 92px; }
+.nv-fig-grid-compact .nv-fig-box img { max-width: 52px; }
 .nv-fig-cap { font-size: 0.8rem; color: var(--ink-soft, #475569); text-align: center; line-height: 1.4; max-width: 160px; }
 .nv-fig-textonly { color: var(--ink, #0f172a); font-size: 0.92rem; font-weight: 500; text-align: center; }
 
@@ -1173,9 +1191,9 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 .quiz-option .opt-main { display: flex; flex-direction: column; align-items: center; gap: 4px; flex: 1; text-align: center; }
 .opt-fig { display: flex; justify-content: center; }
 .opt-fig svg,
-.opt-fig img { max-width: 96px; height: auto; }
+.opt-fig img { max-width: 68px; height: auto; }
 .quiz-feedback .opt-fig svg,
-.quiz-feedback .opt-fig img { max-width: 60px; }
+.quiz-feedback .opt-fig img { max-width: 52px; }
 .rv-fig { display: inline-flex; vertical-align: middle; margin-right: 6px; }
 .rv-fig svg,
 .rv-fig img { max-width: 66px; height: auto; }
@@ -1191,11 +1209,35 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 [data-theme="dark"] .nv-table td { color: #1e293b; border-color: #e2e8f0; }
 
 @media (max-width: 560px) {
-  .nv-fig-box { min-width: 78px; min-height: 78px; padding: 7px; }
+  .nv-fig-box { min-width: 56px; min-height: 56px; padding: 5px; }
   .nv-fig-box svg,
-  .nv-fig-box img { max-width: 96px; }
-  .nv-fig-grid-compact .nv-fig-box { min-width: 62px; min-height: 62px; }
+  .nv-fig-box img { max-width: 56px; }
+  .nv-fig-grid-compact .nv-fig-box { min-width: 48px; min-height: 48px; }
   .nv-fig-grid-compact .nv-fig-box svg,
-  .nv-fig-grid-compact .nv-fig-box img { max-width: 74px; }
+  .nv-fig-grid-compact .nv-fig-box img { max-width: 48px; }
   .nv-fig-cap { max-width: 120px; }
+  .nv-media { padding: 8px; }
+  .nv-media svg,
+  .nv-media img { max-width: 100%; height: auto; }
+  .nv-fig-item { max-width: 100%; }
+  .nv-fig-grid,
+  .nv-fig-grid-compact { justify-content: center; }
+  .opt-fig svg,
+  .opt-fig img,
+  .quiz-feedback .opt-fig svg,
+  .quiz-feedback .opt-fig img { max-width: 52px; height: auto; }
+}
+
+/* Even narrower phones: keep the option grid inside the card and avoid clipping */
+@media (max-width: 380px) {
+  .nv-fig-box { min-width: 48px; min-height: 48px; padding: 4px; }
+  .nv-fig-box svg,
+  .nv-fig-box img { max-width: 48px; }
+  .nv-fig-grid-compact .nv-fig-box { min-width: 42px; min-height: 42px; }
+  .nv-fig-grid-compact .nv-fig-box svg,
+  .nv-fig-grid-compact .nv-fig-box img { max-width: 42px; }
+  .opt-fig svg,
+  .opt-fig img,
+  .quiz-feedback .opt-fig svg,
+  .quiz-feedback .opt-fig img { max-width: 44px; }
 }

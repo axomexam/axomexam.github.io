@@ -1,81 +1,81 @@
 {
-  "id": "image-classification",
-  "title": {
-    "en": "Image Classification",
-    "as": "চিত্ৰ শ্ৰেণীবিভাজন"
-  },
-  "description": {
-    "en": "Choose the figure which is different from the rest (odd one out) using visual properties like number of sides, symmetry and shape.",
-    "as": "দৃশ্যগত বৈশিষ্ট্য (বাহুৰ সংখ্যা, সুষমতা, আকৃতি) ব্যৱহাৰ কৰি আনবোৰতকৈ বেলেগ চিত্ৰটো বাছি উলিয়াওক (odd one out)।"
-  },
-  "tags": [
-    "reasoning",
-    "non-verbal",
-    "image-classification",
-    "odd-one-out",
-    "visual-reasoning"
-  ],
-  "pdf": null,
-  "questions": [
+ "id": "image-classification",
+ "title": {
+  "en": "Image Classification",
+  "as": "চিত্ৰ শ্ৰেণীবিভাজন"
+ },
+ "description": {
+  "en": "Choose the figure which is different from the rest (odd one out) using visual properties like number of sides, symmetry and shape.",
+  "as": "দৃশ্যগত বৈশিষ্ট্য (বাহুৰ সংখ্যা, সুষমতা, আকৃতি) ব্যৱহাৰ কৰি আনবোৰতকৈ বেলেগ চিত্ৰটো বাছি উলিয়াওক (odd one out)।"
+ },
+ "tags": [
+  "reasoning",
+  "non-verbal",
+  "image-classification",
+  "odd-one-out",
+  "visual-reasoning"
+ ],
+ "pdf": null,
+ "questions": [
+  {
+   "type": "figure_classification",
+   "q": {
+    "en": "Which of the following figures is the odd one out?",
+    "as": "তলৰ চিত্ৰবোৰৰ ভিতৰত কোনটো বেলেগ (odd one out)?"
+   },
+   "options": [
     {
-      "type": "figure_classification",
-      "q": {
-        "en": "Which of the following figures is the odd one out?",
-        "as": "তলৰ চিত্ৰবোৰৰ ভিতৰত কোনটো বেলেগ (odd one out)?"
-      },
-      "options": [
-        {
-          "option": "A",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 72 72\" width=\"72\" height=\"72\" role=\"img\" aria-hidden=\"true\"><rect x=\"13\" y=\"13\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/></svg>"
-        },
-        {
-          "option": "B",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 96 72\" width=\"96\" height=\"72\" role=\"img\" aria-hidden=\"true\"><rect x=\"12\" y=\"15\" width=\"72\" height=\"42\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/></svg>"
-        },
-        {
-          "option": "C",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 80 72\" width=\"80\" height=\"72\" role=\"img\" aria-hidden=\"true\"><polygon points=\"40,10 72,64 8,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>"
-        },
-        {
-          "option": "D",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 90 72\" width=\"90\" height=\"72\" role=\"img\" aria-hidden=\"true\"><polygon points=\"45,6 84,36 45,66 6,36\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>"
-        }
-      ],
-      "a": "C",
-      "explanation": {
-        "en": "Square, rectangle and rhombus each have 4 sides. The triangle has only 3 sides, so it is the odd one out = Option (C).",
-        "as": "বৰ্গ, আয়ত আৰু ৰম্বাছ — প্ৰতিটোৰে ৪টা বাহু আছে। ত্ৰিভুজটোৰ মাত্ৰ ৩টা বাহু আছে, সেয়ে ইয়েই বেলেগ = বিকল্প (C)।"
-      }
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 72 72\" width=\"72\" height=\"72\" role=\"img\" aria-hidden=\"true\"><rect x=\"13\" y=\"13\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/></svg>"
     },
     {
-      "type": "figure_classification",
-      "q": {
-        "en": "Four figures are given below. Three of them can be divided into two identical halves by a straight line (line of symmetry). Which figure does NOT have a line of symmetry?",
-        "as": "তলত চাৰিটা চিত্ৰ দিয়া হৈছে। ইয়াৰে তিনিটাক এডাল সৰল ৰেখাই দুটা একে ভাগত ভাগ কৰিব পাৰি (প্ৰতিসাম্য ৰেখা)। কোনটো চিত্ৰৰ প্ৰতিসাম্য ৰেখা নাই?"
-      },
-      "options": [
-        {
-          "option": "A",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 80 72\" width=\"80\" height=\"72\" role=\"img\" aria-hidden=\"true\"><polygon points=\"40,8 74,64 6,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>"
-        },
-        {
-          "option": "B",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 100 72\" width=\"100\" height=\"72\" role=\"img\" aria-hidden=\"true\"><rect x=\"10\" y=\"14\" width=\"80\" height=\"44\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/></svg>"
-        },
-        {
-          "option": "C",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 100 72\" width=\"100\" height=\"72\" role=\"img\" aria-hidden=\"true\"><polygon points=\"26,14 92,14 74,58 8,58\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>"
-        },
-        {
-          "option": "D",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 0 0 72 72\" width=\"72\" height=\"72\" role=\"img\" aria-hidden=\"true\"><circle cx=\"36\" cy=\"36\" r=\"26\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/></svg>"
-        }
-      ],
-      "a": "C",
-      "explanation": {
-        "en": "The isosceles triangle, rectangle and circle all have at least one line of symmetry. A (slanted) parallelogram has no line of symmetry = Option (C).",
-        "as": "সমদ্বিবাহু ত্ৰিভুজ, আয়ত আৰু বৃত্ত — প্ৰত্যেকৰে কমেও এডাল প্ৰতিসাম্য ৰেখা আছে। (বেঁকা) সামান্তৰিকৰ কোনো প্ৰতিসাম্য ৰেখা নাই = বিকল্প (C)।"
-      }
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 96 72\" width=\"96\" height=\"72\" role=\"img\" aria-hidden=\"true\"><rect x=\"12\" y=\"15\" width=\"72\" height=\"42\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 72\" width=\"80\" height=\"72\" role=\"img\" aria-hidden=\"true\"><polygon points=\"40,10 72,64 8,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 90 72\" width=\"90\" height=\"72\" role=\"img\" aria-hidden=\"true\"><polygon points=\"45,6 84,36 45,66 6,36\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>"
     }
-  ]
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "Square, rectangle and rhombus each have 4 sides. The triangle has only 3 sides, so it is the odd one out = Option (C).",
+    "as": "বৰ্গ, আয়ত আৰু ৰম্বাছ — প্ৰতিটোৰে ৪টা বাহু আছে। ত্ৰিভুজটোৰ মাত্ৰ ৩টা বাহু আছে, সেয়ে ইয়েই বেলেগ = বিকল্প (C)।"
+   }
+  },
+  {
+   "type": "figure_classification",
+   "q": {
+    "en": "Four figures are given below. Three of them can be divided into two identical halves by a straight line (line of symmetry). Which figure does NOT have a line of symmetry?",
+    "as": "তলত চাৰিটা চিত্ৰ দিয়া হৈছে। ইয়াৰে তিনিটাক এডাল সৰল ৰেখাই দুটা একে ভাগত ভাগ কৰিব পাৰি (প্ৰতিসাম্য ৰেখা)। কোনটো চিত্ৰৰ প্ৰতিসাম্য ৰেখা নাই?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 80 72\" width=\"80\" height=\"72\" role=\"img\" aria-hidden=\"true\"><polygon points=\"40,8 74,64 6,64\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 72\" width=\"100\" height=\"72\" role=\"img\" aria-hidden=\"true\"><rect x=\"10\" y=\"14\" width=\"80\" height=\"44\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 72\" width=\"100\" height=\"72\" role=\"img\" aria-hidden=\"true\"><polygon points=\"26,14 92,14 74,58 8,58\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 72 72\" width=\"72\" height=\"72\" role=\"img\" aria-hidden=\"true\"><circle cx=\"36\" cy=\"36\" r=\"26\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "The isosceles triangle, rectangle and circle all have at least one line of symmetry. A (slanted) parallelogram has no line of symmetry = Option (C).",
+    "as": "সমদ্বিবাহু ত্ৰিভুজ, আয়ত আৰু বৃত্ত — প্ৰত্যেকৰে কমেও এডাল প্ৰতিসাম্য ৰেখা আছে। (বেঁকা) সামান্তৰিকৰ কোনো প্ৰতিসাম্য ৰেখা নাই = বিকল্প (C)।"
+   }
+  }
+ ]
 }
