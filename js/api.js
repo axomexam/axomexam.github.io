@@ -47,9 +47,11 @@ const API = (() => {
   }
 
   /* ---- Topic content (JSON with bilingual Q&A + optional PDF) ----
-     Tries subcategory folder first: content/<cat>/<sub>/<topic>.json
-     then the flat path: content/<cat>/<topic>.json */
-  async function getTopic(categoryId, topicId, subcategoryId) {
+     Data layout is declared per category in categories.json:
+       contentLayout === "flat"  -> files live at content/<cat>/<topic>.json
+       otherwise (nested/mixed)  -> try content/<cat>/<sub>/<topic>.json
+                                    (or the direct sub file) then flat fallback */
+  async function getTopic(categoryId, topicId, subcategoryId, contentLayout) {
     if (categoryId === "trending") {
       const url = CONFIG.USE_REMOTE
         ? rawUrl(`${P.TRENDING}/${topicId}.json`)
@@ -57,9 +59,13 @@ const API = (() => {
       return fetchJSON(url);
     }
     const rels = [];
-    if (subcategoryId && subcategoryId === topicId) rels.push(`${categoryId}/${subcategoryId}.json`);
-    if (subcategoryId) rels.push(`${categoryId}/${subcategoryId}/${topicId}.json`);
-    rels.push(`${categoryId}/${topicId}.json`);
+    if (contentLayout === "flat") {
+      rels.push(`${categoryId}/${topicId}.json`);
+    } else {
+      if (subcategoryId && subcategoryId === topicId) rels.push(`${categoryId}/${subcategoryId}.json`);
+      if (subcategoryId) rels.push(`${categoryId}/${subcategoryId}/${topicId}.json`);
+      rels.push(`${categoryId}/${topicId}.json`);
+    }
     let lastErr = null;
     for (const rel of rels) {
       const url = CONFIG.USE_REMOTE ? rawUrl(`${P.CONTENT}/${rel}`) : `${F.CONTENT_BASE}${rel}`;

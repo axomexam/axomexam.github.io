@@ -1139,7 +1139,7 @@
   async function renderTopicPage(main, rec) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
     try {
-      const data = await API.getTopic(rec.cat.id, rec.topic.id, rec.sub && rec.sub.id);
+      const data = await API.getTopic(rec.cat.id, rec.topic.id, rec.sub && rec.sub.id, rec.cat && rec.cat.contentLayout);
       if (data) {
         rec.topic = Object.assign({}, rec.topic, data);
         rec.topic.title = rec.topic.title || rec.title;
@@ -2073,7 +2073,7 @@
 
     if (!qs.length) {
       try {
-        const data = await API.getTopic(rec.cat.id, rec.topic.id, rec.sub && rec.sub.id);
+        const data = await API.getTopic(rec.cat.id, rec.topic.id, rec.sub && rec.sub.id, rec.cat && rec.cat.contentLayout);
         if (data) {
           qs = Array.isArray(data) ? data : (data.questions || []);
           rec.topic.questions = qs;
@@ -2648,7 +2648,7 @@
 
     const results = await Promise.all(
       matchedTopics.map((rec) =>
-        API.getTopic(rec.cat.id, rec.topic.id, rec.sub && rec.sub.id)
+        API.getTopic(rec.cat.id, rec.topic.id, rec.sub && rec.sub.id, rec.cat && rec.cat.contentLayout)
           .then((d) => ({ d, rec }))
           .catch(() => null)
       )
@@ -3624,7 +3624,7 @@
 
       state.topicIndex.forEach(async (rec) => {
         try {
-          const d = await API.getTopic(rec.cat.id, rec.topic.id, rec.sub && rec.sub.id);
+          const d = await API.getTopic(rec.cat.id, rec.topic.id, rec.sub && rec.sub.id, rec.cat && rec.cat.contentLayout);
           if (d) {
             const list = Array.isArray(d) ? d : (Array.isArray(d.questions) ? d.questions : []);
             rec.nQuestions = list.length;
