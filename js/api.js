@@ -201,9 +201,45 @@ const API = (() => {
     return files.map((name) => ({ name, url: `${F.PYEAR_BASE}${examId}/${year}/${name}` }));
   }
 
+  /* ---- E-Books (read-only library, online reading only) ----
+     Each e-book is a single JSON file at data/books/<id>.json in the
+     deployed site repo. The library page lists every *.json inside that
+     folder through the public GitHub Contents API, so newly uploaded
+     books appear automatically without any code change. A bundled
+     fallback list (CONFIG.FALLBACK.BOOKS) is used when the API is
+     unavailable. */
+  async function getBook(bookId) {
+    const dir = (CONFIG.EBOOKS && CONFIG.EBOOKS.DIR) || "data/books";
+    const rel = `${dir}/${bookId}.json`;
+    const url = CONFIG.USE_REMOTE ? rawUrl(rel) : `/${rel}`;
+    const data = await fetchJSON(url);
+    if (data && !data.id) data.id = bookId;
+    return data;
+  }
+
+  async function listBooks() {
+    let files = [];
+    try {
+      const cfg = CONFIG.EBOOKS || {};
+      const url = `${API_BASE}/repos/${cfg.OWNER || "axomexam"}/${cfg.REPO || "axomexam.github.io"}/contents/${cfg.DIR || "data/books"}?ref=${cfg.BRANCH || "main"}`;
+      const items = await fetchJSON(url);
+      files = (Array.isArray(items) ? items : [])
+        .filter((i) => i.type === "file" && /\.json$/i.test(i.name))
+        .map((i) => i.name.replace(/\.json$/i, ""));
+    } catch (e) {
+      files = (F.BOOKS || []).slice();
+    }
+    const records = await Promise.all(files.map(async (id) => {
+      try {
+        return await getBook(id);
+      } catch { return null; }
+    }));
+    return records.filter(Boolean);
+  }
+
   return {
     getCategories, getTopic, getTopicMarkdown, listPdfDir, pdfUrl,
     listDownloads, getTrendingTopics, listPreviousYearYears, listPreviousYearPdfs,
-    getArticles, getMockSet,
+    getArticles, getMockSet, getBook, listBooks,
   };
 })();

@@ -45,6 +45,17 @@ const CONFIG = {
     PYEAR_BASE: "/data/sample/previous-year/",
     /* Mock test sets — /data/sample/mock-test/<category>/<subcategory>/set-<n>.json */
     MOCKSETS_BASE: "/data/sample/mock-test/",
+    /* E-Books — book JSON files live in /data/books/<id>.json (same repo).
+       This bundled list is used only when the GitHub Contents API is
+       unavailable, so the library still renders the known sample books. */
+    BOOKS: [
+      "assam-history",
+      "indian-history",
+      "assam-art-culture",
+      "indian-polity",
+      "indian-economy",
+      "assam-geography",
+    ],
     PYEAR: {
       ssc: { "2023": ["ssc-cgl-2023.pdf"], "2024": ["ssc-cgl-2024.pdf"] },
       railway: { "2023": ["rrb-2023.pdf"] },
@@ -86,6 +97,17 @@ const CONFIG = {
     /* Optional: fixed exam countdown shown in the hero (ISO date). */
     EXAM_NAME: "APSC CCE Prelims",
     EXAM_DATE: "2026-12-31T10:00:00",
+  },
+
+  /* E-Books library (online reading only).
+     Each e-book is one JSON file in DIR inside this same GitHub repo.
+     The library lists every *.json file in that folder through the public
+     GitHub Contents API, so newly uploaded books appear automatically. */
+  EBOOKS: {
+    OWNER: "axomexam",
+    REPO: "axomexam.github.io",
+    BRANCH: "main",
+    DIR: "data/books",
   },
 };
 

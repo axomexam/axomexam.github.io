@@ -613,12 +613,26 @@
 
   function moreDropdownHTML(rest, activePath) {
     const root = activePath.split("/")[0];
-    const isInside = rest.some((c) => c.id === root) || ["submit", "previous-year", "contact", "about", "privacy", "privacy-policy", "terms", "disclaimer"].includes(root);
-    const catLinks = rest.map((c) => {
+    const isInside = rest.some((c) => c.id === root) || ["submit", "previous-year", "ebooks", "contact", "about", "privacy", "privacy-policy", "terms", "disclaimer"].includes(root);
+
+    const links = rest.map((c) => {
       const on = root === c.id;
       return `<a class="${on ? "active" : ""}" href="/category/${c.id}">${escapeHtml(localized(c.name))}</a>`;
-    }).join("");
-    
+    });
+
+    /* E-Books sits directly below the Articles link inside "More ▸" */
+    const ebookOn = root === "ebooks";
+    const ebookLink = `
+      <a class="ebook-nav-link ${ebookOn ? "active" : ""}" href="/ebooks">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
+        <span>${escapeHtml(t("nav.ebooks"))}</span>
+      </a>`;
+    const artPos = rest.findIndex((c) => c.id === "articles");
+    if (artPos !== -1) links.splice(artPos + 1, 0, ebookLink);
+    else links.push(ebookLink);
+
+    const catLinks = links.join("");
+
     const extraLinks = [
       ["/previous-year", t("nav.previousYear")],
       ["/submit", t("nav.submit")],
@@ -677,6 +691,14 @@
 
     const mBtnStyle = `display:flex;align-items:center;gap:10px;padding:12px 14px;border-radius:12px;background:var(--bg-subtle,#f8fafc);color:var(--ink,#0f172a);font-weight:700;border:1px solid var(--border,#e2e8f0);box-shadow:0 1px 3px rgba(0,0,0,0.03);`;
 
+    const ebookItem = `
+      <li class="m-ebook" style="margin-top:8px;">
+        <a class="m-item ${activePath === "ebooks" ? "active" : ""}" href="/ebooks" style="${mBtnStyle}">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
+          ${escapeHtml(t("nav.ebooks"))}
+        </a>
+      </li>`;
+
     const downloadItem = `
       <li class="m-download" style="margin-top:8px;">
         <a class="m-item ${activePath === "downloads" ? "active" : ""}" href="/downloads" style="${mBtnStyle}">
@@ -721,9 +743,9 @@
     }
 
     if (insertPos !== -1) {
-      catParts.splice(insertPos + 1, 0, downloadItem, prevYearItem, submitItem, contactItem);
+      catParts.splice(insertPos + 1, 0, ebookItem, downloadItem, prevYearItem, submitItem, contactItem);
     } else {
-      catParts.push(downloadItem, prevYearItem, submitItem, contactItem);
+      catParts.push(ebookItem, downloadItem, prevYearItem, submitItem, contactItem);
     }
 
     nav.innerHTML = catParts.join("");
@@ -802,6 +824,9 @@
         title = "Trending Topics | axomexam";
       } else if (segs[0] === "downloads") {
         title = "Download Free PDF Notes | axomexam";
+      } else if (segs[0] === "ebooks") {
+        title = segs[1] ? "Read E-Book Online | axomexam" : "E-Books Library | axomexam";
+        desc = "Free online e-books for Assam competitive exams (ADRE, APSC, Assam Police) — Assam History, Indian History, Art & Culture, Polity, Economy and Geography. Read online in English and Assamese, no PDF download.";
       } else if (segs[0] === "categories") {
         title = "All Categories | axomexam";
       } else if (["about", "privacy", "privacy-policy", "terms", "disclaimer", "contact", "submit"].includes(segs[0])) {
@@ -868,6 +893,10 @@
     if (segs[0] === "categories") return renderCategoriesPage(main);
     if (segs[0] === "search") return renderSearchPage(main);
     if (segs[0] === "downloads") return renderDownloadsPage(main);
+    if (segs[0] === "ebooks") {
+      if (segs[1]) return renderEbookReaderPage(main, segs[1]);
+      return renderEbooksPage(main);
+    }
     if (segs[0] === "submit") return renderSubmitPage(main);
     if (segs[0] === "mock-test") {
       return handleMockRouting(main, segs);
@@ -894,6 +923,10 @@
           <div class="hero-actions">
             <a class="btn btn-primary" href="/category/${firstCat}">${t("hero.cta")}</a>
             <a class="btn btn-ghost" href="/mock-test">${t("hero.cta3")}</a>
+            <a class="btn btn-ebook" href="/ebooks">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
+              ${t("nav.ebooks")}
+            </a>
           </div>
           <div class="hero-stats">
             <div class="stat"><b id="stat-total-questions">${totalQuestions.toLocaleString()}+</b><span>${t("stat.questions")}</span></div>
@@ -2451,6 +2484,233 @@
       });
     }
     observeReveals();
+  }
+
+  /* ================= E-Books Library (read-only shelf) =================
+     Topic-wise online e-books for Assam competitive exams. Every book is a
+     JSON file uploaded to /data/books/<id>.json. Clicking a book opens it
+     directly in a reading view with topic-wise explanations. Books are
+     reading-only and are never offered as a PDF download. */
+  function ebkColor(book) {
+    const c = book && book.color;
+    return /^#[0-9a-fA-F]{3,8}$/.test(c || "") ? c : "#4f46e5";
+  }
+
+  function ebkLang(obj, lang) {
+    if (obj == null) return "";
+    if (typeof obj === "string") return obj;
+    const l = lang || state.lang || "en";
+    if (obj[l] && String(obj[l]).trim()) return obj[l];
+    return obj.en || obj.as || "";
+  }
+
+  function ebkContentHTML(text) {
+    if (text == null) return "";
+    const lines = String(text).split("\n");
+    let html = "";
+    let listOpen = false;
+    const closeList = () => { if (listOpen) { html += "</ul>"; listOpen = false; } };
+    lines.forEach((raw) => {
+      const line = (raw || "").trim();
+      if (!line) { closeList(); return; }
+      const bullet = line.match(/^[-•*]\s+(.*)$/);
+      if (bullet) {
+        if (!listOpen) { html += '<ul class="ebk-list">'; listOpen = true; }
+        html += `<li>${formatMath(bullet[1])}</li>`;
+      } else {
+        closeList();
+        html += `<p class="ebk-para">${formatMath(line)}</p>`;
+      }
+    });
+    closeList();
+    return html;
+  }
+
+  async function renderEbooksPage(main) {
+    main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
+    let books = [];
+    try {
+      books = await API.listBooks();
+    } catch (e) {
+      books = [];
+    }
+
+    const showEmpty = (extra) => {
+      main.innerHTML = `
+        <div class="page-head" style="text-align:center; max-width:760px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
+          <h1>${t("ebooks.title")}</h1>
+          <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${t("ebooks.sub")}</p>
+        </div>
+        <div class="qa-empty"><div class="big">
+          <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
+        </div><p>${escapeHtml(extra || t("ebooks.empty"))}</p></div>`;
+    };
+
+    if (!books.length) return showEmpty();
+
+    const groups = {};
+    books.forEach((b) => {
+      const key = (b.subjectKey && String(b.subjectKey).trim()) || "other";
+      (groups[key] = groups[key] || []).push(b);
+    });
+    const order = ["history", "polity", "economy", "geography", "art-culture", "science", "english", "other"];
+    const groupKeys = Object.keys(groups).sort((a, b) => {
+      const ia = order.indexOf(a), ib = order.indexOf(b);
+      return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+    });
+
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("nav.ebooks")}</span>
+        </nav>
+        <h1>${t("ebooks.title")}</h1>
+        <p class="page-desc">${t("ebooks.sub")}</p>
+        <div class="ebooks-note">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
+          ${t("ebooks.noPdf")}
+        </div>
+      </div>
+      <section class="section" style="padding-bottom:46px;">
+        ${groupKeys.map((key, gi) => {
+          const list = groups[key].sort((a, b) => ebkLang(a.title).localeCompare(ebkLang(b.title)));
+          const subjectName = ebkLang(list[0].subject) || ebkLang(list[0].title);
+          return `
+            <div class="ebook-group">
+              <div class="ebook-group-head reveal">
+                <h2>${escapeHtml(subjectName)}</h2>
+                <span class="sec-sub">${list.reduce((a, x) => a + (x.chapters ? x.chapters.length : 0), 0)} ${t("ebooks.chapters")}</span>
+              </div>
+              <div class="ebooks-grid">
+                ${list.map((book, bi) => {
+                  const chCount = (book.chapters || []).length;
+                  const title = ebkLang(book.title);
+                  const color = ebkColor(book);
+                  return `
+                    <a class="ebook-card reveal" href="/ebooks/${encodeURIComponent(book.id)}" style="--ebk:${color}" data-delay="${(gi * 3 + bi) * 60}">
+                      <span class="ebook-cover">
+                        <span class="ebook-cover-top">axomexam</span>
+                        <span class="ebook-cover-title">${escapeHtml(title)}</span>
+                      </span>
+                      <span class="ebook-meta">
+                        <b>${escapeHtml(title)}</b>
+                        <span>${chCount} ${t("ebooks.chapters")}</span>
+                        <span class="ebook-read-btn">
+                          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
+                          ${t("ebooks.readNow")}
+                        </span>
+                      </span>
+                    </a>`;
+                }).join("")}
+              </div>
+            </div>`;
+        }).join("")}
+      </section>`;
+    observeReveals();
+  }
+
+  /* ================= E-Book Reader (reading mode only) ================= */
+  function ebkReaderBodyHTML(book, lang) {
+    const chapters = book.chapters || [];
+    const toc = chapters.map((c, i) => `
+      <a class="ebk-toc-item" href="#ebk-ch-${i}">
+        <span class="ebk-toc-no">${i + 1}</span>
+        <span>${escapeHtml(ebkLang(c.title, lang))}</span>
+      </a>`).join("");
+    const list = chapters.map((c, i) => `
+      <section class="ebk-chapter" id="ebk-ch-${i}">
+        <h3 class="ebk-ch-title"><span class="ebk-ch-no">${i + 1}</span>${escapeHtml(ebkLang(c.title, lang))}</h3>
+        <div class="ebk-ch-body">${ebkContentHTML(ebkLang(c.content, lang))}</div>
+      </section>`).join("");
+    return `
+      ${chapters.length > 1 ? `<nav class="ebk-toc" aria-label="${escapeHtml(t("ebooks.toc"))}"><h4>${t("ebooks.toc")}</h4>${toc}</nav>` : ""}
+      <div class="ebk-chapters">${list}</div>`;
+  }
+
+  async function renderEbookReaderPage(main, bookId) {
+    const safeId = String(bookId || "").replace(/[^A-Za-z0-9_-]/g, "");
+    main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
+    if (!safeId) return render404(main);
+
+    let book = null;
+    try {
+      book = await API.getBook(safeId);
+    } catch (e) {
+      book = null;
+    }
+
+    if (!book || !book.title || !(book.chapters && book.chapters.length)) {
+      main.innerHTML = `
+        <div class="page-head" style="text-align:center; max-width:720px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
+          <h1>${t("ebooks.title")}</h1>
+          <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${t("ebooks.empty")}</p>
+          <div style="margin-top:20px;"><a class="btn btn-accent" href="/ebooks">${t("ebooks.backToLib")}</a></div>
+        </div>`;
+      return;
+    }
+
+    const hasAs = book.chapters.some((c) =>
+      c.content && typeof c.content === "object" && c.content.as && String(c.content.as).trim());
+    let readLang = (state.lang === "as" && hasAs) ? "as" : "en";
+
+    const chapters = book.chapters || [];
+    const title = ebkLang(book.title);
+    const color = ebkColor(book);
+
+    main.innerHTML = `
+      <div class="page-head ebk-page-head">
+        <nav class="breadcrumb">
+          <a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/ebooks">${t("nav.ebooks")}</a><span class="bc-sep">/</span>
+          <span>${escapeHtml(title)}</span>
+        </nav>
+      </div>
+      <div class="ebk-reader" style="--ebk:${color};">
+        <header class="ebk-head-card">
+          <span class="ebk-mini-cover" aria-hidden="true"><span class="ebk-mini-brand">axomexam</span><span class="ebk-mini-title">${escapeHtml(title)}</span></span>
+          <div class="ebk-head-info">
+            <div class="ebk-chips">
+              <span class="ebk-chip ebk-chip-solid">${escapeHtml(ebkLang(book.subject)) || escapeHtml(title)}</span>
+              <span class="ebk-chip">${t("ebooks.readingOnly")}</span>
+            </div>
+            <h2>${escapeHtml(title)}</h2>
+            ${book.description ? `<p class="ebk-desc">${escapeHtml(localized(book.description)).replace(/\n/g, "<br>")}</p>` : ""}
+            <div class="ebk-head-meta">
+              ${book.author ? `<span><b>${t("ebooks.subject")}:</b> ${escapeHtml(ebkLang(book.subject) || "-")}</span><span><b>${escapeHtml(localized(book.author))}</b></span>` : ""}
+              <span>${chapters.length} ${t("ebooks.chapters")}</span>
+              ${book.updated ? `<span>${t("ebooks.updated")}: ${escapeHtml(book.updated)}</span>` : ""}
+            </div>
+            ${hasAs ? `
+              <div class="ebk-lang-box" role="group" aria-label="Reading language">
+                <button type="button" class="ebk-lang-btn ${readLang === "as" ? "active" : ""}" data-ebklang="as">অসমীয়া</button>
+                <button type="button" class="ebk-lang-btn ${readLang === "en" ? "active" : ""}" data-ebklang="en">English</button>
+              </div>` : `<span class="ebk-lang-single">English</span>`}
+          </div>
+        </header>
+
+        <div id="ebk-body"></div>
+
+        <div class="ebk-reader-foot">
+          <a class="btn btn-outline btn-sm" href="/ebooks">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+            ${t("ebooks.backToLib")}
+          </a>
+          <p class="ebk-no-pdf">${t("ebooks.noPdf")}</p>
+        </div>
+      </div>`;
+
+    const body = $("#ebk-body");
+    if (body) body.innerHTML = ebkReaderBodyHTML(book, readLang);
+
+    $$(".ebk-lang-btn", main).forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const target = btn.dataset.ebklang;
+        if (readLang === target) return;
+        readLang = target;
+        $$(".ebk-lang-btn", main).forEach((x) => x.classList.toggle("active", x.dataset.ebklang === readLang));
+        if (body) body.innerHTML = ebkReaderBodyHTML(book, readLang);
+      });
+    });
   }
 
   /* ================= Previous Year Questions ================= */
