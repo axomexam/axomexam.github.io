@@ -376,6 +376,366 @@
     "en": "A, B and D are identical regular pentagons with all sides equal. C is a house-shaped pentagon whose sides are not all equal, so C is the odd one out.",
     "as": "A, B আৰু D — এইকেইটা সমান বাহুৰ সুষম পঞ্চভুজ। C এটা ঘৰৰ আকৃতিৰ পঞ্চভুজ, ইয়াৰ আটাইবোৰ বাহু সমান নহয়, সেয়ে C বেলেগ।"
    }
+  },
+  {
+   "type": "figure_classification",
+   "q": {
+    "en": "Four figures are given below. Three of them have 4 sides each. Which figure has only 3 sides?",
+    "as": "তলত চাৰিটা চিত্ৰ দিয়া হৈছে। ইয়াৰে তিনিটাৰ প্ৰতিটোতে ৪টা বাহু আছে। কোনটো চিত্ৰৰ মাত্ৰ ৩টা বাহু আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50,12 88,80 12,80\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"22\" y=\"22\" width=\"56\" height=\"56\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"12\" y=\"28\" width=\"76\" height=\"44\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"30,24 90,24 66,76 6,76\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "Square (B), rectangle (C) and parallelogram (D) have 4 sides each. The triangle (A) has only 3 sides, so A is the odd one out.",
+    "as": "বৰ্গ (B), আয়ত (C) আৰু সামান্তৰিক (D) — প্ৰত্যেকৰে ৪টা বাহু আছে। ত্ৰিভুজ (A) ৰ মাত্ৰ ৩টা বাহু আছে, সেয়ে A বেলেগ।"
+   }
+  },
+  {
+   "type": "figure_classification",
+   "q": {
+    "en": "Three of these figures can be divided into two identical halves by a straight line (line of symmetry). Which figure has NO line of symmetry?",
+    "as": "ইয়াৰে তিনিটা চিত্ৰক এডাল সৰল ৰেখাই দুটা একে ভাগত ভাগ কৰিব পাৰি (প্ৰতিসাম্য ৰেখা)। কোনটো চিত্ৰৰ কোনো প্ৰতিসাম্য ৰেখা নাই?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"30,25 70,25 88,80 12,80\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50,12 82.9,31 82.9,69 50,88 17.1,69 17.1,31\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"24\" y=\"24\" width=\"52\" height=\"52\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"18,78 30,25 80,20 60,75\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "The isosceles trapezium (A), regular hexagon (B) and square (C) each have a line of symmetry. The asymmetric quadrilateral (D) has no line of symmetry, so D is the odd one out.",
+    "as": "সমদ্বিবাহু ট্ৰেপিজিয়াম (A), সুষম ষড়ভুজ (B) আৰু বৰ্গ (C) — প্ৰত্যেকৰে প্ৰতিসাম্য ৰেখা আছে। অসমতীয় চতুৰ্ভুজ (D) ৰ কোনো প্ৰতিসাম্য ৰেখা নাই, সেয়ে D বেলেগ।"
+   }
+  },
+  {
+   "type": "figure_classification",
+   "q": {
+    "en": "Three of these figures are closed figures. Which figure is an open figure?",
+    "as": "ইয়াৰে তিনিটা চিত্ৰ বন্ধ চিত্ৰ। কোনটো চিত্ৰ খোলা?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50,12 88,80 12,80\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"25,25 75,25 25,75 75,75\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50,10 88,37.6 73.5,82.4 26.5,82.4 12,37.6\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "Triangle (A), square (C) and pentagon (D) are closed figures. Option B is an open zigzag line whose ends are not joined, so B is the odd one out.",
+    "as": "ত্ৰিভুজ (A), বৰ্গ (C) আৰু পঞ্চভুজ (D) — এইকেইটা বন্ধ চিত্ৰ। বিকল্প B এডাল খোলা বেঁকা-পটীয়া ৰেখা, ইয়াৰ মূৰ দুটা সংযুক্ত নহয়, সেয়ে B বেলেগ।"
+   }
+  },
+  {
+   "type": "figure_classification",
+   "q": {
+    "en": "Three figures below are made only of straight lines. Which figure is made of a curved line?",
+    "as": "তলৰ তিনিটা চিত্ৰ কেৱল সৰল ৰেখাৰে তৈয়াৰী। কোনটো চিত্ৰ বক্ৰ ৰেখাৰে তৈয়াৰী?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"15\" y=\"30\" width=\"70\" height=\"40\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50,10 88,37.6 73.5,82.4 26.5,82.4 12,37.6\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50,12 88,80 12,80\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><ellipse cx=\"50\" cy=\"50\" rx=\"30\" ry=\"42\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "Rectangle (A), pentagon (B) and triangle (C) have only straight sides. The oval (D) has only a curved outline, so D is the odd one out.",
+    "as": "আয়ত (A), পঞ্চভুজ (B) আৰু ত্ৰিভুজ (C) — কেৱল সৰল বাহু আছে। কণী আকৃতিৰ চিত্ৰ (D) ৰ আউটলাইন কেৱল বক্ৰ, সেয়ে D বেলেগ।"
+   }
+  },
+  {
+   "type": "figure_classification",
+   "q": {
+    "en": "Three of these figures have a line of symmetry. Which figure does NOT have a line of symmetry?",
+    "as": "ইয়াৰে তিনিটা চিত্ৰৰ প্ৰতিসাম্য ৰেখা আছে। কোনটো চিত্ৰৰ প্ৰতিসাম্য ৰেখা নাই?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50,19 85,80 15,80\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50,10 88,37.6 73.5,82.4 26.5,82.4 12,37.6\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"30,25 70,25 88,80 12,80\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"8,24 68,24 92,76 32,76\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "Equilateral triangle (A), regular pentagon (B) and isosceles trapezium (C) each have a line of symmetry. The slanted parallelogram (D) has none, so D is the odd one out.",
+    "as": "সমবাহু ত্ৰিভুজ (A), সুষম পঞ্চভুজ (B) আৰু সমদ্বিবাহু ট্ৰেপিজিয়াম (C) — প্ৰত্যেকৰে প্ৰতিসাম্য ৰেখা আছে। বেঁকা সামান্তৰিক (D) ৰ নাই, সেয়ে D বেলেগ।"
+   }
+  },
+  {
+   "type": "figure_classification",
+   "q": {
+    "en": "Three of these figures have four sides. Which figure has six sides?",
+    "as": "ইয়াৰে তিনিটা চিত্ৰৰ চাৰিটা বাহু আছে। কোনটো চিত্ৰৰ ছটা বাহু আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"20\" y=\"25\" width=\"60\" height=\"50\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50,12 82.9,31 82.9,69 50,88 17.1,69 17.1,31\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"25\" y=\"25\" width=\"50\" height=\"50\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50,10 90,50 50,90 10,50\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "Rectangle (A), square (C) and rhombus (D) are quadrilaterals (4 sides). Hexagon (B) has 6 sides, so B is the odd one out.",
+    "as": "আয়ত (A), বৰ্গ (C) আৰু ৰম্বাছ (D) — চতুৰ্ভুজ (৪টা বাহু)। ষড়ভুজ (B) ৰ ৬টা বাহু, সেয়ে B বেলেগ।"
+   }
+  },
+  {
+   "type": "figure_classification",
+   "q": {
+    "en": "Each square is divided by one diagonal. In three squares the diagonal slants from top-left to bottom-right. Which square is divided by the other diagonal?",
+    "as": "প্ৰতিটো বৰ্গ এডাল কৰ্ণেৰে ভাগ কৰা হৈছে। তিনিটা বৰ্গত কৰ্ণডাল ওপৰ-বাওঁফালৰ পৰা তল-সোঁফাললৈ গৈছে। কোনটো বৰ্গ আনটো কৰ্ণেৰে ভাগ কৰা হৈছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/><line x1=\"80\" y1=\"20\" x2=\"20\" y2=\"80\" stroke=\"#334155\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/><line x1=\"20\" y1=\"20\" x2=\"80\" y2=\"80\" stroke=\"#334155\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/><line x1=\"20\" y1=\"20\" x2=\"80\" y2=\"80\" stroke=\"#334155\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/><line x1=\"20\" y1=\"20\" x2=\"80\" y2=\"80\" stroke=\"#334155\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "B, C and D have the diagonal from top-left to bottom-right (\\). Only A has the diagonal from top-right to bottom-left (/), so A is the odd one out.",
+    "as": "B, C আৰু D ত কৰ্ণডাল ওপৰ-বাওঁফালৰ পৰা তল-সোঁফাললৈ (\\) গৈছে। কেৱল A ত ই ওপৰ-সোঁফালৰ পৰা তল-বাওঁফাললৈ (/) গৈছে, সেয়ে A বেলেগ।"
+   }
+  },
+  {
+   "type": "figure_classification",
+   "q": {
+    "en": "Four circles are divided by straight lines. Three are divided into two equal parts. Which circle is divided into four equal parts?",
+    "as": "চাৰিটা বৃত্তক সৰল ৰেখাই ভাগ কৰিছে। তিনিটা বৃত্তক দুটা সমান ভাগত ভাগ কৰা হৈছে। কোনটো বৃত্তক চাৰিটা সমান ভাগত ভাগ কৰা হৈছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"42\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/><line x1=\"50\" y1=\"8\" x2=\"50\" y2=\"92\" stroke=\"#334155\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"8\" y1=\"50\" x2=\"92\" y2=\"50\" stroke=\"#334155\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"42\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/><line x1=\"50\" y1=\"8\" x2=\"50\" y2=\"92\" stroke=\"#334155\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"42\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/><line x1=\"8\" y1=\"50\" x2=\"92\" y2=\"50\" stroke=\"#334155\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"42\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/><line x1=\"20.3\" y1=\"20.3\" x2=\"79.7\" y2=\"79.7\" stroke=\"#334155\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "Circle A is cut by one vertical and one horizontal diameter, giving 4 equal parts. B, C and D are divided into only 2 parts, so A is the odd one out.",
+    "as": "বৃত্ত A ক এডাল উলম্ব আৰু এডাল অনুভূমিক ব্যাসে কাটিলে ৪টা সমান ভাগ হয়। B, C আৰু D কেৱল ২টা ভাগত বিভক্ত, সেয়ে A বেলেগ।"
+   }
+  },
+  {
+   "type": "figure_classification",
+   "q": {
+    "en": "Three figures are divided into two equal halves. In which figure are the two parts NOT equal?",
+    "as": "তিনিটা চিত্ৰ দুটা সমান অৰ্ধত ভাগ কৰা হৈছে। কোনটো চিত্ৰত দুটা ভাগ সমান নহয়?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"15\" y=\"25\" width=\"70\" height=\"50\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/><line x1=\"50\" y1=\"25\" x2=\"50\" y2=\"75\" stroke=\"#334155\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"25\" y=\"15\" width=\"50\" height=\"70\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/><line x1=\"25\" y1=\"50\" x2=\"75\" y2=\"50\" stroke=\"#334155\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/><line x1=\"20\" y1=\"20\" x2=\"80\" y2=\"80\" stroke=\"#334155\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"15\" y=\"25\" width=\"70\" height=\"50\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/><line x1=\"62\" y1=\"25\" x2=\"62\" y2=\"75\" stroke=\"#334155\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "A, B and C are each cut into two equal halves by a line through the centre. In D the vertical line is not central, so the two parts are unequal; D is the odd one out.",
+    "as": "A, B আৰু C — প্ৰত্যেককে মাজেৰে যোৱা ৰেখাই দুটা সমান অৰ্ধত কাটিছে। D ত উলম্ব ৰেখাডাল মাজত নাই, সেয়ে দুটা ভাগ অসমান; D বেলেগ।"
+   }
+  },
+  {
+   "type": "figure_classification",
+   "q": {
+    "en": "Three triangles point in the same direction. Which triangle points in a different direction?",
+    "as": "তিনিটা ত্ৰিভুজ একে দিশলৈ আছে। কোনটো ত্ৰিভুজ বেলেগ দিশলৈ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50,12 88,80 12,80\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50,12 88,80 12,80\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50,12 88,80 12,80\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"12,20 88,20 50,88\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "Triangles A, B and C point upward. Triangle D points downward, so D is the odd one out.",
+    "as": "A, B আৰু C ত্ৰিভুজ ওপৰলৈ আছে। D ত্ৰিভুজটো তললৈ আছে, সেয়ে D বেলেগ।"
+   }
+  },
+  {
+   "type": "figure_classification",
+   "q": {
+    "en": "Three squares are of the same size. Which square is different in size?",
+    "as": "তিনিটা বৰ্গৰ আকাৰ একে। কোনটো বৰ্গৰ আকাৰ বেলেগ?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"12\" y=\"12\" width=\"76\" height=\"76\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"25\" y=\"25\" width=\"50\" height=\"50\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"25\" y=\"25\" width=\"50\" height=\"50\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"25\" y=\"25\" width=\"50\" height=\"50\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "Squares B, C and D are equal in size. Square A is bigger, so A is the odd one out.",
+    "as": "B, C আৰু D বৰ্গৰ আকাৰ সমান। A বৰ্গটো ডাঙৰ, সেয়ে A বেলেগ।"
+   }
+  },
+  {
+   "type": "figure_classification",
+   "q": {
+    "en": "Three of these figures are equilateral triangles (all sides equal). Which figure is NOT an equilateral triangle?",
+    "as": "ইয়াৰে তিনিটা চিত্ৰ সমবাহু ত্ৰিভুজ (আটাইবোৰ বাহু সমান)। কোনটো চিত্ৰ সমবাহু ত্ৰিভুজ নহয়?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50,19 85,80 15,80\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50,19 85,80 15,80\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"15,25 15,80 85,80\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50,19 85,80 15,80\" stroke=\"#334155\" stroke-width=\"3\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "A, B and D are equilateral triangles with all sides equal. C is a right-angled triangle whose sides are unequal, so C is the odd one out.",
+    "as": "A, B আৰু D — সমান বাহুৰ সমবাহু ত্ৰিভুজ। C এটা সমকোণী ত্ৰিভুজ, ইয়াৰ বাহুবোৰ অসমান, সেয়ে C বেলেগ।"
+   }
   }
  ]
 }
