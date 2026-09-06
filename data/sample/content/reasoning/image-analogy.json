@@ -1,17 +1,16 @@
 {
- "id": "image-analogy",
+ "id": "figure-analogy",
  "title": {
-  "en": "Image Analogy",
+  "en": "Figure Analogy",
   "as": "চিত্ৰ সাদৃশ্য"
  },
  "description": {
-  "en": "Visual analogy questions where the relationship between two given figures must be applied to a third figure. Practice figure-based analogies (rotation, shading, counting) with image options.",
-  "as": "দুটা দিয়া চিত্ৰৰ মাজৰ সম্পৰ্কটো তৃতীয় এখন চিত্ৰত প্ৰয়োগ কৰিবলগীয়া দৃশ্য সাদৃশ্য প্ৰশ্ন। চিত্ৰ-ভিত্তিক সাদৃশ্য (ঘূৰ্ণন, ৰং, গণনা) বিকল্পচিত্ৰসহ অভ্যাস কৰক।"
+  "en": "Observe how the second figure is obtained from the first and apply the same change to the third figure to pick the correct fourth figure.",
+  "as": "প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো কেনেকৈ পোৱা যায় লক্ষ্য কৰি, একেটা পৰিৱৰ্তন তৃতীয় চিত্ৰটোত প্ৰয়োগ কৰি শুদ্ধ চতুৰ্থ চিত্ৰটো বাছি উলিয়াওক।"
  },
  "tags": [
   "reasoning",
   "non-verbal",
-  "image-analogy",
   "figure-analogy",
   "visual-reasoning"
  ],
@@ -20,63 +19,751 @@
   {
    "type": "figure_analogy",
    "q": {
-    "en": "Study how the first figure changes into the second. Apply the same rule to the third figure and choose the correct answer figure.",
-    "as": "প্ৰথম চিত্ৰখন কেনেদৰে দ্বিতীয় চিত্ৰলৈ সলনি হয় লক্ষ্য কৰক। একেই নিয়ম তৃতীয় চিত্ৰখনত প্ৰয়োগ কৰি শুদ্ধ উত্তৰ চিত্ৰটো বাছি উলিয়াওক।"
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
    },
-   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 92\" width=\"330\" height=\"92\" role=\"img\" aria-hidden=\"true\"><polygon points=\"46,18 78,74 14,74\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"46\" cy=\"38\" r=\"4.2\" fill=\"#ef4444\"/><text x=\"86\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#334155\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">:</text><polygon points=\"126,18 158,74 94,74\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"126\" cy=\"29\" r=\"4.2\" fill=\"#ef4444\"/><circle cx=\"126\" cy=\"47\" r=\"4.2\" fill=\"#ef4444\"/><text x=\"166\" y=\"48\" font-size=\"18\" font-weight=\"800\" fill=\"#0f172a\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">::</text><rect x=\"180\" y=\"14\" width=\"52\" height=\"52\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/><circle cx=\"206\" cy=\"41\" r=\"4.2\" fill=\"#ef4444\"/><circle cx=\"206\" cy=\"59\" r=\"4.2\" fill=\"#ef4444\"/><text x=\"246\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#334155\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">:</text><rect x=\"260\" y=\"14\" width=\"52\" height=\"52\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"3\" stroke-dasharray=\"6 5\" rx=\"3\"/><text x=\"286\" y=\"54\" font-size=\"30\" font-weight=\"800\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">?</text></svg>",
    "options": [
     {
      "option": "A",
-     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 72 72\" width=\"72\" height=\"72\" role=\"img\" aria-hidden=\"true\"><rect x=\"11\" y=\"11\" width=\"50\" height=\"50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/><circle cx=\"36\" cy=\"24\" r=\"4\" fill=\"#ef4444\"/><circle cx=\"36\" cy=\"36\" r=\"4\" fill=\"#ef4444\"/><circle cx=\"36\" cy=\"48\" r=\"4\" fill=\"#ef4444\"/></svg>"
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"19.2,46.8 19.2,53.2 12.8,53.2 12.8,46.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"45.1,43.5 45.1,56.5 32.2,56.5 32.2,43.5\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"65.7,45.7 65.7,54.3 57.0,54.3 57.0,45.7\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"90.5,43.5 90.5,56.5 77.5,56.5 77.5,43.5\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
     },
     {
      "option": "B",
-     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 72 72\" width=\"72\" height=\"72\" role=\"img\" aria-hidden=\"true\"><rect x=\"11\" y=\"11\" width=\"50\" height=\"50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/><circle cx=\"36\" cy=\"36\" r=\"4\" fill=\"#ef4444\"/></svg>"
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"19.2,46.8 19.2,53.2 12.8,53.2 12.8,46.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"45.1,43.5 45.1,56.5 32.2,56.5 32.2,43.5\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"65.7,45.7 65.7,54.3 57.0,54.3 57.0,45.7\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"87.2,46.8 87.2,53.2 80.8,53.2 80.8,46.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
     },
     {
      "option": "C",
-     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 72 72\" width=\"72\" height=\"72\" role=\"img\" aria-hidden=\"true\"><rect x=\"11\" y=\"11\" width=\"50\" height=\"50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/><circle cx=\"36\" cy=\"23\" r=\"4\" fill=\"#ef4444\"/><circle cx=\"36\" cy=\"32\" r=\"4\" fill=\"#ef4444\"/><circle cx=\"36\" cy=\"40\" r=\"4\" fill=\"#ef4444\"/><circle cx=\"36\" cy=\"49\" r=\"4\" fill=\"#ef4444\"/></svg>"
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"19.2,46.8 19.2,53.2 12.8,53.2 12.8,46.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"45.1,43.5 45.1,56.5 32.2,56.5 32.2,43.5\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"65.7,45.7 65.7,54.3 57.0,54.3 57.0,45.7\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"88.3,45.7 88.3,54.3 79.7,54.3 79.7,45.7\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
     },
     {
      "option": "D",
-     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 72 72\" width=\"72\" height=\"72\" role=\"img\" aria-hidden=\"true\"><rect x=\"11\" y=\"11\" width=\"50\" height=\"50\" fill=\"none\" stroke=\"#334155\" stroke-width=\"3\"/></svg>"
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"19.2,46.8 19.2,53.2 12.8,53.2 12.8,46.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"45.1,43.5 45.1,56.5 32.2,56.5 32.2,43.5\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"65.7,45.7 65.7,54.3 57.0,54.3 57.0,45.7\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,40.9 91.9,45.4 91.9,54.6 84.0,59.1 76.1,54.6 76.1,45.4\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
     }
    ],
    "a": "A",
    "explanation": {
-    "en": "Rule: one more dot is added inside the figure (1 dot becomes 2 dots). The square has 2 dots, so the answer must be the square with 3 dots = Option (A).",
-    "as": "নিয়ম: চিত্ৰটোৰ ভিতৰত এটা বিন্দু বেছি যোগ হয় (১টা বিন্দু হয় ২টা)। বৰ্গটোত ২টা বিন্দু আছে, সেয়ে উত্তৰ হ'ব ৩টা বিন্দু থকা বৰ্গটো = বিকল্প (A)।"
+    "en": "A small a square grows into a large a square (the size increases). So a medium a square will also grow into a large a square.",
+    "as": "এটা সৰু এটা বৰ্গ আকাৰত ডাঙৰ এটা বৰ্গ হয়। সেয়ে মজলীয়া এটা বৰ্গ টোও ডাঙৰ এটা বৰ্গ হ'ব।"
    }
   },
   {
    "type": "figure_analogy",
    "q": {
-    "en": "The arrow is rotated clockwise by 90°. Apply the same rotation to the third figure and pick the correct option.",
-    "as": "কাঁড়টো ঘড়ীৰ কাঁটাৰ দিশত ৯০° ঘূৰোৱা হয়। একেই ঘূৰ্ণন তৃতীয় চিত্ৰখনত প্ৰয়োগ কৰি শুদ্ধ বিকল্পটো বাছক।"
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
    },
-   "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 470 90\" width=\"470\" height=\"90\" role=\"img\" aria-hidden=\"true\"><g transform=\"translate(60,4) scale(0.82)\"><polygon points=\"45,10 12,66 30,66 30,80 60,80 60,66 78,66\" fill=\"none\" stroke=\"#4f46e5\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><g transform=\"translate(150,4) scale(0.82)\"><polygon points=\"80,45 24,12 24,30 10,30 10,60 24,60 24,78\" fill=\"none\" stroke=\"#4f46e5\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><text x=\"230\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#334155\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">:</text><g transform=\"translate(262,4) scale(0.82)\"><polygon points=\"10,45 66,12 66,30 80,30 80,60 66,60 66,78\" fill=\"none\" stroke=\"#4f46e5\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><text x=\"345\" y=\"48\" font-size=\"20\" font-weight=\"700\" fill=\"#334155\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">:</text><rect x=\"378\" y=\"10\" width=\"66\" height=\"66\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"3\" stroke-dasharray=\"6 5\" rx=\"6\"/><text x=\"411\" y=\"54\" font-size=\"34\" font-weight=\"800\" fill=\"#64748b\" text-anchor=\"middle\" font-family=\"Inter, sans-serif\">?</text></svg>",
    "options": [
     {
      "option": "A",
-     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 90 90\" width=\"90\" height=\"90\" role=\"img\" aria-hidden=\"true\"><polygon points=\"45,10 12,66 30,66 30,80 60,80 60,66 78,66\" fill=\"none\" stroke=\"#4f46e5\" stroke-width=\"4\" stroke-linejoin=\"round\"/></svg>"
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,45.5 19.9,52.2 12.1,52.2\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,40.9 46.6,54.6 30.8,54.6\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 66.6,53.1 56.0,53.1\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,45.5 87.9,52.2 80.1,52.2\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
     },
     {
      "option": "B",
-     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 90 90\" width=\"90\" height=\"90\" role=\"img\" aria-hidden=\"true\"><polygon points=\"45,80 12,24 30,24 30,10 60,10 60,24 78,24\" fill=\"none\" stroke=\"#4f46e5\" stroke-width=\"4\" stroke-linejoin=\"round\"/></svg>"
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,45.5 19.9,52.2 12.1,52.2\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,40.9 46.6,54.6 30.8,54.6\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 66.6,53.1 56.0,53.1\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,40.9 91.9,54.6 76.1,54.6\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
     },
     {
      "option": "C",
-     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 90 90\" width=\"90\" height=\"90\" role=\"img\" aria-hidden=\"true\"><polygon points=\"80,45 24,12 24,30 10,30 10,60 24,60 24,78\" fill=\"none\" stroke=\"#4f46e5\" stroke-width=\"4\" stroke-linejoin=\"round\"/></svg>"
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,45.5 19.9,52.2 12.1,52.2\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,40.9 46.6,54.6 30.8,54.6\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 66.6,53.1 56.0,53.1\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,43.9 89.3,53.1 78.7,53.1\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
     },
     {
      "option": "D",
-     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 90 90\" width=\"90\" height=\"90\" role=\"img\" aria-hidden=\"true\"><polygon points=\"10,45 66,12 66,30 80,30 80,60 66,60 66,78\" fill=\"none\" stroke=\"#4f46e5\" stroke-width=\"4\" stroke-linejoin=\"round\"/></svg>"
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,45.5 19.9,52.2 12.1,52.2\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,40.9 46.6,54.6 30.8,54.6\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 66.6,53.1 56.0,53.1\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"8.94\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\"/></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "A small an upward-pointing triangle grows into a large an upward-pointing triangle (the size increases). So a medium an upward-pointing triangle will also grow into a large an upward-pointing triangle.",
+    "as": "এটা সৰু ওপৰলৈ মুখ কৰা এটা ত্ৰিভুজ আকাৰত ডাঙৰ ওপৰলৈ মুখ কৰা এটা ত্ৰিভুজ হয়। সেয়ে মজলীয়া ওপৰলৈ মুখ কৰা এটা ত্ৰিভুজ টোও ডাঙৰ ওপৰলৈ মুখ কৰা এটা ত্ৰিভুজ হ'ব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"4.40\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"8.94\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"6.01\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"4.40\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"4.40\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"8.94\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"6.01\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"6.01\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"4.40\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"8.94\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"6.01\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"8.94\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"4.40\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"8.94\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"6.01\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\"/><polygon points=\"84.0,40.9 91.9,45.4 91.9,54.6 84.0,59.1 76.1,54.6 76.1,45.4\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "A small a circle grows into a large a circle (the size increases). So a medium a circle will also grow into a large a circle.",
+    "as": "এটা সৰু এটা বৃত্ত আকাৰত ডাঙৰ এটা বৃত্ত হয়। সেয়ে মজলীয়া এটা বৃত্ত টোও ডাঙৰ এটা বৃত্ত হ'ব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,45.5 20.5,50.0 16.0,54.5 11.5,50.0\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,40.9 47.8,50.0 38.7,59.1 29.5,50.0\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 67.5,50.0 61.3,56.1 55.2,50.0\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,45.5 88.5,50.0 84.0,54.5 79.5,50.0\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,45.5 20.5,50.0 16.0,54.5 11.5,50.0\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,40.9 47.8,50.0 38.7,59.1 29.5,50.0\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 67.5,50.0 61.3,56.1 55.2,50.0\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,43.9 90.1,50.0 84.0,56.1 77.9,50.0\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,45.5 20.5,50.0 16.0,54.5 11.5,50.0\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,40.9 47.8,50.0 38.7,59.1 29.5,50.0\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 67.5,50.0 61.3,56.1 55.2,50.0\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"8.94\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,45.5 20.5,50.0 16.0,54.5 11.5,50.0\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,40.9 47.8,50.0 38.7,59.1 29.5,50.0\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 67.5,50.0 61.3,56.1 55.2,50.0\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,40.9 93.1,50.0 84.0,59.1 74.9,50.0\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "A small a diamond grows into a large a diamond (the size increases). So a medium a diamond will also grow into a large a diamond.",
+    "as": "এটা সৰু এটা ৰম্বাছ আকাৰত ডাঙৰ এটা ৰম্বাছ হয়। সেয়ে মজলীয়া এটা ৰম্বাছ টোও ডাঙৰ এটা ৰম্বাছ হ'ব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,45.5 20.3,48.6 18.6,53.6 13.4,53.6 11.7,48.6\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,40.9 47.3,47.2 44.0,57.4 33.3,57.4 30.0,47.2\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 67.2,48.1 64.9,55.0 57.7,55.0 55.5,48.1\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,40.9 92.7,47.2 89.4,57.4 78.6,57.4 75.3,47.2\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,45.5 20.3,48.6 18.6,53.6 13.4,53.6 11.7,48.6\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,40.9 47.3,47.2 44.0,57.4 33.3,57.4 30.0,47.2\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 67.2,48.1 64.9,55.0 57.7,55.0 55.5,48.1\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,45.5 88.3,48.6 86.6,53.6 81.4,53.6 79.7,48.6\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,45.5 20.3,48.6 18.6,53.6 13.4,53.6 11.7,48.6\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,40.9 47.3,47.2 44.0,57.4 33.3,57.4 30.0,47.2\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 67.2,48.1 64.9,55.0 57.7,55.0 55.5,48.1\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,43.9 89.8,48.1 87.6,55.0 80.4,55.0 78.2,48.1\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,45.5 20.3,48.6 18.6,53.6 13.4,53.6 11.7,48.6\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,40.9 47.3,47.2 44.0,57.4 33.3,57.4 30.0,47.2\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 67.2,48.1 64.9,55.0 57.7,55.0 55.5,48.1\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"8.94\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\"/></svg>"
     }
    ],
    "a": "A",
    "explanation": {
-    "en": "An arrow pointing up rotates 90° clockwise to point right. So an arrow pointing left rotates 90° clockwise to point up = Option (A).",
-    "as": "ওপৰলৈ থকা কাঁড়টো ঘড়ীৰ কাঁটাৰ দিশত ৯০° ঘূৰিলে সোঁফালে হয়। গতিকে বাওঁফালে থকা কাঁড়টো ৯০° ঘূৰিলে ওপৰলৈ হ'ব = বিকল্প (A)।"
+    "en": "A small a pentagon grows into a large a pentagon (the size increases). So a medium a pentagon will also grow into a large a pentagon.",
+    "as": "এটা সৰু এটা পঞ্চভুজ আকাৰত ডাঙৰ এটা পঞ্চভুজ হয়। সেয়ে মজলীয়া এটা পঞ্চভুজ টোও ডাঙৰ এটা পঞ্চভুজ হ'ব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,45.5 19.9,47.8 19.9,52.2 16.0,54.5 12.1,52.2 12.1,47.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,40.9 46.6,45.4 46.6,54.6 38.7,59.1 30.8,54.6 30.8,45.4\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 66.6,46.9 66.6,53.1 61.3,56.1 56.0,53.1 56.0,46.9\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,45.5 87.9,47.8 87.9,52.2 84.0,54.5 80.1,52.2 80.1,47.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,45.5 19.9,47.8 19.9,52.2 16.0,54.5 12.1,52.2 12.1,47.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,40.9 46.6,45.4 46.6,54.6 38.7,59.1 30.8,54.6 30.8,45.4\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 66.6,46.9 66.6,53.1 61.3,56.1 56.0,53.1 56.0,46.9\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,40.9 91.9,45.4 91.9,54.6 84.0,59.1 76.1,54.6 76.1,45.4\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,45.5 19.9,47.8 19.9,52.2 16.0,54.5 12.1,52.2 12.1,47.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,40.9 46.6,45.4 46.6,54.6 38.7,59.1 30.8,54.6 30.8,45.4\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 66.6,46.9 66.6,53.1 61.3,56.1 56.0,53.1 56.0,46.9\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,43.9 89.3,46.9 89.3,53.1 84.0,56.1 78.7,53.1 78.7,46.9\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,45.5 19.9,47.8 19.9,52.2 16.0,54.5 12.1,52.2 12.1,47.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,40.9 46.6,45.4 46.6,54.6 38.7,59.1 30.8,54.6 30.8,45.4\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 66.6,46.9 66.6,53.1 61.3,56.1 56.0,53.1 56.0,46.9\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"8.94\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\"/></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "A small a hexagon grows into a large a hexagon (the size increases). So a medium a hexagon will also grow into a large a hexagon.",
+    "as": "এটা সৰু এটা ষড়ভুজ আকাৰত ডাঙৰ এটা ষড়ভুজ হয়। সেয়ে মজলীয়া এটা ষড়ভুজ টোও ডাঙৰ এটা ষড়ভুজ হ'ব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"22.5,43.5 22.5,56.5 9.5,56.5 9.5,43.5\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"41.8,46.8 41.8,53.2 35.5,53.2 35.5,46.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"65.7,45.7 65.7,54.3 57.0,54.3 57.0,45.7\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"88.3,45.7 88.3,54.3 79.7,54.3 79.7,45.7\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"22.5,43.5 22.5,56.5 9.5,56.5 9.5,43.5\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"41.8,46.8 41.8,53.2 35.5,53.2 35.5,46.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"65.7,45.7 65.7,54.3 57.0,54.3 57.0,45.7\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"90.5,43.5 90.5,56.5 77.5,56.5 77.5,43.5\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"22.5,43.5 22.5,56.5 9.5,56.5 9.5,43.5\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"41.8,46.8 41.8,53.2 35.5,53.2 35.5,46.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"65.7,45.7 65.7,54.3 57.0,54.3 57.0,45.7\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"87.2,46.8 87.2,53.2 80.8,53.2 80.8,46.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"22.5,43.5 22.5,56.5 9.5,56.5 9.5,43.5\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"41.8,46.8 41.8,53.2 35.5,53.2 35.5,46.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"65.7,45.7 65.7,54.3 57.0,54.3 57.0,45.7\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,45.5 87.9,52.2 80.1,52.2\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "A large a square shrinks into a small a square (the size decreases). So a medium a square will also shrink to a small a square.",
+    "as": "এটা ডাঙৰ এটা বৰ্গ আকাৰত সৰু এটা বৰ্গ হয়। সেয়ে মজলীয়া এটা বৰ্গ টোও সৰু এটা বৰ্গ হ'ব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"8.94\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"4.40\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"6.01\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"6.01\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"8.94\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"4.40\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"6.01\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"8.94\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"8.94\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"4.40\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"6.01\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\"/><polygon points=\"84.0,45.5 87.9,52.2 80.1,52.2\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"8.94\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"4.40\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"6.01\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"4.40\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "A large a circle shrinks into a small a circle (the size decreases). So a medium a circle will also shrink to a small a circle.",
+    "as": "এটা ডাঙৰ এটা বৃত্ত আকাৰত সৰু এটা বৃত্ত হয়। সেয়ে মজলীয়া এটা বৃত্ত টোও সৰু এটা বৃত্ত হ'ব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,40.9 23.9,45.4 23.9,54.6 16.0,59.1 8.1,54.6 8.1,45.4\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,45.5 42.6,47.8 42.6,52.2 38.7,54.5 34.8,52.2 34.8,47.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 66.6,46.9 66.6,53.1 61.3,56.1 56.0,53.1 56.0,46.9\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,45.5 87.9,47.8 87.9,52.2 84.0,54.5 80.1,52.2 80.1,47.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,40.9 23.9,45.4 23.9,54.6 16.0,59.1 8.1,54.6 8.1,45.4\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,45.5 42.6,47.8 42.6,52.2 38.7,54.5 34.8,52.2 34.8,47.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 66.6,46.9 66.6,53.1 61.3,56.1 56.0,53.1 56.0,46.9\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,43.9 89.3,46.9 89.3,53.1 84.0,56.1 78.7,53.1 78.7,46.9\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,40.9 23.9,45.4 23.9,54.6 16.0,59.1 8.1,54.6 8.1,45.4\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,45.5 42.6,47.8 42.6,52.2 38.7,54.5 34.8,52.2 34.8,47.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 66.6,46.9 66.6,53.1 61.3,56.1 56.0,53.1 56.0,46.9\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,40.9 91.9,45.4 91.9,54.6 84.0,59.1 76.1,54.6 76.1,45.4\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,40.9 23.9,45.4 23.9,54.6 16.0,59.1 8.1,54.6 8.1,45.4\" stroke=\"#334155\" stroke-width=\"2.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,45.5 42.6,47.8 42.6,52.2 38.7,54.5 34.8,52.2 34.8,47.8\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,43.9 66.6,46.9 66.6,53.1 61.3,56.1 56.0,53.1 56.0,46.9\" stroke=\"#334155\" stroke-width=\"1.84\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,45.5 87.9,52.2 80.1,52.2\" stroke=\"#334155\" stroke-width=\"1.60\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "A large a hexagon shrinks into a small a hexagon (the size decreases). So a medium a hexagon will also shrink to a small a hexagon.",
+    "as": "এটা ডাঙৰ এটা ষড়ভুজ আকাৰত সৰু এটা ষড়ভুজ হয়। সেয়ে মজলীয়া এটা ষড়ভুজ টোও সৰু এটা ষড়ভুজ হ'ব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"36.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"41.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"56.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"66.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"36.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"41.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"56.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"66.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"76.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"81.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"86.4\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"91.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"36.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"41.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"56.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"66.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"81.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"86.4\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"36.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"41.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"56.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"66.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"74.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"79.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"88.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"93.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "In the first pair the number of dots changes from 1 to 2 (increase of 1). Applying the same rule, 3 dots become 4 dots.",
+    "as": "প্ৰথম যোৰাত বিন্দুৰ সংখ্যা ১ ৰ পৰা ২ লৈ সলনি হয় (১টাকৈ বাঢ়ে)। একেটা নিয়মত ৩টা বিন্দু ৪টা বিন্দু হ'ব."
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"13.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"18.4\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"33.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"43.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"54.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"58.9\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"63.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"68.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"13.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"18.4\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"33.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"43.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"54.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"58.9\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"63.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"68.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"79.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"88.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"13.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"18.4\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"33.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"43.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"54.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"58.9\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"63.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"68.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"74.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"79.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"88.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"93.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"13.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"18.4\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"33.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"43.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"54.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"58.9\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"63.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"68.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"76.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"81.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"86.4\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"91.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "In the first pair the number of dots changes from 2 to 3 (increase of 1). Applying the same rule, 4 dots become 5 dots.",
+    "as": "প্ৰথম যোৰাত বিন্দুৰ সংখ্যা ২ ৰ পৰা ৩ লৈ সলনি হয় (১টাকৈ বাঢ়ে)। একেটা নিয়মত ৪টা বিন্দু ৫টা বিন্দু হ'ব."
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"33.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"43.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"58.9\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"63.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"33.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"43.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"58.9\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"63.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"79.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"88.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"33.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"43.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"58.9\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"63.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"74.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"79.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"88.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"93.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"33.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"43.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"58.9\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"63.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"76.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"81.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"86.4\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"91.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "In the first pair the number of dots changes from 1 to 3 (increase of 2). Applying the same rule, 2 dots become 4 dots.",
+    "as": "প্ৰথম যোৰাত বিন্দুৰ সংখ্যা ১ ৰ পৰা ৩ লৈ সলনি হয় (২টাকৈ বাঢ়ে)। একেটা নিয়মত ২টা বিন্দু ৪টা বিন্দু হ'ব."
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"11.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"16.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"20.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"36.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"41.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"56.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"66.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"71.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"76.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"81.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"86.4\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"91.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"11.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"16.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"20.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"36.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"41.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"56.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"66.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"71.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"79.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"88.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"11.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"16.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"20.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"36.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"41.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"56.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"66.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"71.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"81.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"86.4\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"11.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"16.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"20.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"36.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"41.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"56.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"66.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"71.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "In the first pair the number of dots decreases by 1 (3 dots become 2 dots). Applying the same rule, 5 dots become 4 dots.",
+    "as": "প্ৰথম যোৰাত বিন্দুৰ সংখ্যা ১টাকৈ কমে (৩টা বিন্দু ২টা হয়)। একেটা নিয়মত ৫টা বিন্দু ৪টা হ'ব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,53.7 9.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,57.5 32.2,46.3 45.1,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"53.9,50.0 65.1,43.5 65.1,56.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 90.5,53.7 77.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,53.7 9.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,57.5 32.2,46.3 45.1,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"53.9,50.0 65.1,43.5 65.1,56.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"91.5,50.0 80.3,56.5 80.3,43.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,53.7 9.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,57.5 32.2,46.3 45.1,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"53.9,50.0 65.1,43.5 65.1,56.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,57.5 77.5,46.3 90.5,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,53.7 9.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,57.5 32.2,46.3 45.1,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"53.9,50.0 65.1,43.5 65.1,56.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"76.5,50.0 87.7,43.5 87.7,56.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "The triangle is rotated by 180°, so up becomes down and left becomes right. Hence the left-pointing triangle becomes a right-pointing triangle.",
+    "as": "ত্ৰিভুজটো ১৮০° ঘূৰে, সেয়ে ওপৰ তল হয় আৰু বাওঁ সোঁ হয়। সেয়ে বাওঁফাললৈ মুখ কৰা ত্ৰিভুজটো সোঁফাললৈ মুখ কৰিব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,57.5 9.5,46.3 22.5,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.1,53.7 32.2,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"68.8,50.0 57.6,56.5 57.6,43.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,57.5 77.5,46.3 90.5,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,57.5 9.5,46.3 22.5,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.1,53.7 32.2,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"68.8,50.0 57.6,56.5 57.6,43.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 90.5,53.7 77.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,57.5 9.5,46.3 22.5,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.1,53.7 32.2,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"68.8,50.0 57.6,56.5 57.6,43.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"76.5,50.0 87.7,43.5 87.7,56.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,57.5 9.5,46.3 22.5,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.1,53.7 32.2,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"68.8,50.0 57.6,56.5 57.6,43.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"91.5,50.0 80.3,56.5 80.3,43.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "The triangle is rotated by 180°, so down becomes up and right becomes left. Hence the right-pointing triangle becomes a left-pointing triangle.",
+    "as": "ত্ৰিভুজটো ১৮০° ঘূৰে, সেয়ে তল ওপৰ হয় আৰু সোঁ বাওঁ হয়। সেয়ে সোঁফাললৈ মুখ কৰা ত্ৰিভুজটো বাওঁফাললৈ মুখ কৰিব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"9.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"9.6\" y1=\"43.6\" x2=\"22.4\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"32.3\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"45.0\" y1=\"43.6\" x2=\"32.3\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"55.0\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"67.7\" y1=\"43.6\" x2=\"55.0\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"77.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"90.4\" y1=\"43.6\" x2=\"77.6\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"9.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"9.6\" y1=\"43.6\" x2=\"22.4\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"32.3\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"45.0\" y1=\"43.6\" x2=\"32.3\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"55.0\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"67.7\" y1=\"43.6\" x2=\"55.0\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"77.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"77.6\" y1=\"50.0\" x2=\"90.4\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.24\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"9.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"9.6\" y1=\"43.6\" x2=\"22.4\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"32.3\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"45.0\" y1=\"43.6\" x2=\"32.3\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"55.0\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"67.7\" y1=\"43.6\" x2=\"55.0\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"77.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"84.0\" y1=\"43.6\" x2=\"84.0\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"9.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"9.6\" y1=\"43.6\" x2=\"22.4\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"32.3\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"45.0\" y1=\"43.6\" x2=\"32.3\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"55.0\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"67.7\" y1=\"43.6\" x2=\"55.0\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"77.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"77.6\" y1=\"43.6\" x2=\"90.4\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "The diagonal is rotated by 90°: a backslash (\\) becomes a slash (/). So the slash square changes to the backslash square.",
+    "as": "কৰ্ণডাল ৯০° ঘূৰোৱা হয়: বেকস্লেছ (\\) স্লেছ (/) হয়। সেয়ে স্লেছ বৰ্গটো বেকস্লেছ বৰ্গলৈ সলনি হ'ব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"9.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"22.4\" y1=\"43.6\" x2=\"9.6\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"32.3\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"32.3\" y1=\"43.6\" x2=\"45.0\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"55.0\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"55.0\" y1=\"43.6\" x2=\"67.7\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"77.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"90.4\" y1=\"43.6\" x2=\"77.6\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"9.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"22.4\" y1=\"43.6\" x2=\"9.6\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"32.3\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"32.3\" y1=\"43.6\" x2=\"45.0\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"55.0\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"55.0\" y1=\"43.6\" x2=\"67.7\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"77.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"77.6\" y1=\"43.6\" x2=\"90.4\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"9.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"22.4\" y1=\"43.6\" x2=\"9.6\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"32.3\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"32.3\" y1=\"43.6\" x2=\"45.0\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"55.0\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"55.0\" y1=\"43.6\" x2=\"67.7\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"77.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"77.6\" y1=\"50.0\" x2=\"90.4\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.24\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"9.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"22.4\" y1=\"43.6\" x2=\"9.6\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"32.3\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"32.3\" y1=\"43.6\" x2=\"45.0\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"55.0\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"55.0\" y1=\"43.6\" x2=\"67.7\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"77.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"84.0\" y1=\"43.6\" x2=\"84.0\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "The diagonal is rotated by 90°: a slash (/) becomes a backslash (\\) and vice versa. So the backslash square changes to the slash square.",
+    "as": "কৰ্ণডাল ৯০° ঘূৰোৱা হয়: স্লেছ (/) বেকস্লেছ (\\) হয় আৰু উল্টোও হয়। সেয়ে বেকস্লেছ বৰ্গটো স্লেছ বৰ্গলৈ সলনি হ'ব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"9.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"9.6\" y1=\"50.0\" x2=\"22.4\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"32.3\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"38.7\" y1=\"43.6\" x2=\"38.7\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"55.0\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"61.3\" y1=\"43.6\" x2=\"61.3\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"77.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"84.0\" y1=\"43.6\" x2=\"84.0\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"9.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"9.6\" y1=\"50.0\" x2=\"22.4\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"32.3\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"38.7\" y1=\"43.6\" x2=\"38.7\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"55.0\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"61.3\" y1=\"43.6\" x2=\"61.3\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"77.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"77.6\" y1=\"50.0\" x2=\"90.4\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.24\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"9.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"9.6\" y1=\"50.0\" x2=\"22.4\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"32.3\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"38.7\" y1=\"43.6\" x2=\"38.7\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"55.0\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"61.3\" y1=\"43.6\" x2=\"61.3\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"77.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"90.4\" y1=\"43.6\" x2=\"77.6\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"9.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"9.6\" y1=\"50.0\" x2=\"22.4\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"32.3\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"38.7\" y1=\"43.6\" x2=\"38.7\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"55.0\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"61.3\" y1=\"43.6\" x2=\"61.3\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"77.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"77.6\" y1=\"43.6\" x2=\"90.4\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "The dividing line is rotated by 90°: a horizontal line becomes a vertical line. So a square divided by a vertical line becomes one divided by a horizontal line.",
+    "as": "ভাগ কৰা ৰেখাডাল ৯০° ঘূৰোৱা হয়: অনুভূমিক ৰেখা উলম্ব হয়। সেয়ে উলম্ব ৰেখাই ভাগ কৰা বৰ্গটো অনুভূমিক ৰেখাই ভাগ কৰা বৰ্গ হ'ব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"9.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"16.0\" y1=\"43.6\" x2=\"16.0\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"32.3\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"32.3\" y1=\"50.0\" x2=\"45.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"55.0\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"55.0\" y1=\"50.0\" x2=\"67.7\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"77.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"77.6\" y1=\"50.0\" x2=\"90.4\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.24\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"9.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"16.0\" y1=\"43.6\" x2=\"16.0\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"32.3\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"32.3\" y1=\"50.0\" x2=\"45.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"55.0\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"55.0\" y1=\"50.0\" x2=\"67.7\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"77.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"90.4\" y1=\"43.6\" x2=\"77.6\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"9.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"16.0\" y1=\"43.6\" x2=\"16.0\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"32.3\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"32.3\" y1=\"50.0\" x2=\"45.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"55.0\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"55.0\" y1=\"50.0\" x2=\"67.7\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"77.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"84.0\" y1=\"43.6\" x2=\"84.0\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"9.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"16.0\" y1=\"43.6\" x2=\"16.0\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"32.3\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"32.3\" y1=\"50.0\" x2=\"45.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"55.0\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"55.0\" y1=\"50.0\" x2=\"67.7\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.24\"/><rect x=\"77.6\" y=\"43.6\" width=\"12.72\" height=\"12.72\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/><line x1=\"77.6\" y1=\"43.6\" x2=\"90.4\" y2=\"56.4\" stroke=\"#334155\" stroke-width=\"2.24\"/></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "The dividing line is rotated by 90°: a vertical line becomes a horizontal line. So a square divided by a horizontal line becomes one divided by a vertical line.",
+    "as": "ভাগ কৰা ৰেখাডাল ৯০° ঘূৰোৱা হয়: উলম্ব ৰেখা অনুভূমিক হয়। সেয়ে অনুভূমিক ৰেখাই ভাগ কৰা বৰ্গটো উলম্ব ৰেখাই ভাগ কৰা বৰ্গ হ'ব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,53.7 9.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.7 44.0,55.3 33.4,55.3 33.4,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 68.4,47.7 65.7,56.1 56.9,56.1 54.2,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 91.1,47.7 88.4,56.1 79.6,56.1 76.9,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,53.7 9.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.7 44.0,55.3 33.4,55.3 33.4,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 68.4,47.7 65.7,56.1 56.9,56.1 54.2,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"89.3,44.7 89.3,55.3 78.7,55.3 78.7,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,53.7 9.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.7 44.0,55.3 33.4,55.3 33.4,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 68.4,47.7 65.7,56.1 56.9,56.1 54.2,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 90.5,53.7 77.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,53.7 9.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.7 44.0,55.3 33.4,55.3 33.4,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 68.4,47.7 65.7,56.1 56.9,56.1 54.2,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 90.5,46.3 90.5,53.7 84.0,57.5 77.5,53.7 77.5,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "The number of sides increases by 1 from the first figure to the second (triangle→square). So a pentagon (5 sides) becomes a hexagon (6 sides).",
+    "as": "প্ৰথম চিত্ৰৰ পৰা দ্বিতীয়লৈ বাহুৰ সংখ্যা ১টাকৈ বাঢ়ে (ত্ৰিভুজ→বৰ্গ)। সেয়ে পঞ্চভুজ (৫টা বাহু) ষড়ভুজ (৬টা বাহু) হ'ব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,53.7 9.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.8,47.7 43.1,56.1 34.3,56.1 31.6,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"66.6,44.7 66.6,55.3 56.0,55.3 56.0,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 90.5,46.3 90.5,53.7 84.0,57.5 77.5,53.7 77.5,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,53.7 9.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.8,47.7 43.1,56.1 34.3,56.1 31.6,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"66.6,44.7 66.6,55.3 56.0,55.3 56.0,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 90.5,53.7 77.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,53.7 9.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.8,47.7 43.1,56.1 34.3,56.1 31.6,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"66.6,44.7 66.6,55.3 56.0,55.3 56.0,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 91.1,47.7 88.4,56.1 79.6,56.1 76.9,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,53.7 9.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.8,47.7 43.1,56.1 34.3,56.1 31.6,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"66.6,44.7 66.6,55.3 56.0,55.3 56.0,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"7.33\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "The number of sides increases by 2 from the first figure to the second (triangle→pentagon). So a square (4 sides) becomes a hexagon (6 sides).",
+    "as": "প্ৰথম চিত্ৰৰ পৰা দ্বিতীয়লৈ বাহুৰ সংখ্যা ২টাকৈ বাঢ়ে (ত্ৰিভুজ→পঞ্চভুজ)। সেয়ে বৰ্গ (৪টা বাহু) ষড়ভুজ (৬টা বাহু) হ'ব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"21.3,44.7 21.3,55.3 10.7,55.3 10.7,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.1,53.7 32.2,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 67.8,46.3 67.8,53.7 61.3,57.5 54.9,53.7 54.9,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"89.3,44.7 89.3,55.3 78.7,55.3 78.7,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"21.3,44.7 21.3,55.3 10.7,55.3 10.7,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.1,53.7 32.2,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 67.8,46.3 67.8,53.7 61.3,57.5 54.9,53.7 54.9,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 91.1,47.7 88.4,56.1 79.6,56.1 76.9,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"21.3,44.7 21.3,55.3 10.7,55.3 10.7,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.1,53.7 32.2,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 67.8,46.3 67.8,53.7 61.3,57.5 54.9,53.7 54.9,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 90.5,53.7 77.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"21.3,44.7 21.3,55.3 10.7,55.3 10.7,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.1,53.7 32.2,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 67.8,46.3 67.8,53.7 61.3,57.5 54.9,53.7 54.9,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"7.33\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "The number of sides decreases by 1 from the first figure to the second (square→triangle). So a hexagon (6 sides) becomes a pentagon (5 sides).",
+    "as": "প্ৰথম চিত্ৰৰ পৰা দ্বিতীয়লৈ বাহুৰ সংখ্যা ১টাকৈ কমে (বৰ্গ→ত্ৰিভুজ)। সেয়ে ষড়ভুজ (৬টা বাহু) পঞ্চভুজ (৫টা বাহু) হ'ব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 23.1,47.7 20.4,56.1 11.6,56.1 8.9,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.7 44.0,55.3 33.4,55.3 33.4,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 68.8,50.0 61.3,57.5 53.9,50.0\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 91.1,47.7 88.4,56.1 79.6,56.1 76.9,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 23.1,47.7 20.4,56.1 11.6,56.1 8.9,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.7 44.0,55.3 33.4,55.3 33.4,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 68.8,50.0 61.3,57.5 53.9,50.0\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"89.3,44.7 89.3,55.3 78.7,55.3 78.7,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 23.1,47.7 20.4,56.1 11.6,56.1 8.9,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.7 44.0,55.3 33.4,55.3 33.4,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 68.8,50.0 61.3,57.5 53.9,50.0\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 90.5,53.7 77.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 23.1,47.7 20.4,56.1 11.6,56.1 8.9,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.7 44.0,55.3 33.4,55.3 33.4,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 68.8,50.0 61.3,57.5 53.9,50.0\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"7.33\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "The number of sides decreases by 1 from the first figure to the second (pentagon→square). So a rhombus (4 sides) becomes a triangle (3 sides).",
+    "as": "প্ৰথম চিত্ৰৰ পৰা দ্বিতীয়লৈ বাহুৰ সংখ্যা ১টাকৈ কমে (পঞ্চভুজ→বৰ্গ)। সেয়ে ৰম্বাছ (৪টা বাহু) ত্ৰিভুজ (৩টা বাহু) হ'ব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"8.5,43.9 23.5,50.0 8.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"32.5,42.5 38.7,57.5 44.8,42.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"68.8,43.9 53.9,50.0 68.8,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"76.5,43.9 91.5,50.0 76.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"8.5,43.9 23.5,50.0 8.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"32.5,42.5 38.7,57.5 44.8,42.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"68.8,43.9 53.9,50.0 68.8,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"77.9,42.5 84.0,57.5 90.1,42.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"8.5,43.9 23.5,50.0 8.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"32.5,42.5 38.7,57.5 44.8,42.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"68.8,43.9 53.9,50.0 68.8,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"91.5,43.9 76.5,50.0 91.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"8.5,43.9 23.5,50.0 8.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"32.5,42.5 38.7,57.5 44.8,42.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"68.8,43.9 53.9,50.0 68.8,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"77.9,57.5 84.0,42.5 90.1,57.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "The chevron rotates by 90° clockwise. So a left-pointing chevron becomes an upward-pointing chevron.",
+    "as": "কৌণিক চিহ্নটো ঘড়ীৰ কাঁটাৰ দিশে ৯০° ঘূৰে। সেয়ে বাওঁফাললৈ মুখ কৰা চিহ্নটো ওপৰলৈ মুখ কৰিব।"
+   }
+  },
+  {
+   "type": "figure_analogy",
+   "q": {
+    "en": "In the first two figures, the second figure is obtained from the first by a certain change. Select the figure that changes the third figure in the same way.",
+    "as": "প্ৰথম দুটা চিত্ৰত, প্ৰথম চিত্ৰৰ পৰা দ্বিতীয় চিত্ৰটো এটা নিৰ্দিষ্ট পৰিৱৰ্তনেৰে পোৱা যায়। একেটা নিয়মেৰে তৃতীয় চিত্ৰটো পৰিৱৰ্তন কৰা চিত্ৰটো বাছি উলিয়াওক।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"9.9,57.5 16.0,42.5 22.1,57.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"31.2,43.9 46.1,50.0 31.2,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"55.2,42.5 61.3,57.5 67.5,42.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"91.5,43.9 76.5,50.0 91.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"9.9,57.5 16.0,42.5 22.1,57.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"31.2,43.9 46.1,50.0 31.2,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"55.2,42.5 61.3,57.5 67.5,42.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"77.9,57.5 84.0,42.5 90.1,57.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"9.9,57.5 16.0,42.5 22.1,57.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"31.2,43.9 46.1,50.0 31.2,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"55.2,42.5 61.3,57.5 67.5,42.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"76.5,43.9 91.5,50.0 76.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"9.9,57.5 16.0,42.5 22.1,57.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"31.2,43.9 46.1,50.0 31.2,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"55.2,42.5 61.3,57.5 67.5,42.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"77.9,42.5 84.0,57.5 90.1,42.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "The chevron rotates by 90° clockwise. So a downward-pointing chevron becomes a left-pointing chevron.",
+    "as": "কৌণিক চিহ্নটো ঘড়ীৰ কাঁটাৰ দিশে ৯০° ঘূৰে। সেয়ে তললৈ মুখ কৰা চিহ্নটো বাওঁফাললৈ মুখ কৰিব।"
    }
   }
  ]
