@@ -1,0 +1,797 @@
+{
+ "id": "rule-detection",
+ "title": {
+  "en": "Rule Detection",
+  "as": "নিয়ম নিৰ্ণয়"
+ },
+ "description": {
+  "en": "Rule detection questions for reasoning: a specific rule is given and the candidate must pick the option (letter-groups, numbers, words or figures) that obeys it. Bilingual practice set for Assam competitive exams.",
+  "as": "যুক্তি পৰীক্ষণৰ নিয়ম নিৰ্ণয় প্ৰশ্ন: এটা নিৰ্দিষ্ট নিয়ম দিয়া হয় আৰু পৰীক্ষাৰ্থীয়ে সেই নিয়ম মানি চলা বিকল্পটো (আখৰ-গোট, সংখ্যা, শব্দ বা চিত্ৰ) বাছি উলিয়াব লাগে। অসম প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে দ্বিভাষিক অনুশীলন।"
+ },
+ "tags": [
+  "reasoning",
+  "rule-detection",
+  "verbal-reasoning",
+  "non-verbal",
+  "pattern-recognition",
+  "assam-exam"
+ ],
+ "pdf": null,
+ "questions": [
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following letter-groups follows the rule: the letters are consecutive in the alphabet?",
+    "as": "তলৰ কোনটো আখৰ-গোটে নিয়মটো মানি চলে: আখৰকেইটা বৰ্ণমালাত ধাৰাবাহিকভাৱে আছে?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">DEF</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">HIK</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">MOP</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">QRT</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "Option A (DEF) has letters in consecutive alphabetical order (D, E, F). The other groups are not consecutive, so the correct answer is A.",
+    "as": "বিকল্প A (DEF) ত আখৰবোৰ বৰ্ণমালাত ধাৰাবাহিক (D, E, F)। বাকী গোটবোৰ ধাৰাবাহিক নহয়, সেয়ে শুদ্ধ উত্তৰ হ'ব A।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following letter-groups follows the rule: the letters move forward with a constant gap of two letters?",
+    "as": "তলৰ কোনটো আখৰ-গোটে নিয়মটো মানি চলে: আখৰবোৰ দুটা আখৰৰ ব্যৱধানত আগবাঢ়ে?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">BEH</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">ACE</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">CIL</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">DJN</text></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "Option B (ACE) follows the rule since A→C→E each moves forward by two letters. The others do not keep this constant gap, so the correct answer is B.",
+    "as": "বিকল্প B (ACE) য়ে নিয়মটো মানি চলে কিয়নো A→C→E প্ৰতিটো দুটা আখৰকৈ আগবাঢ়ে। বাকীবোৰে এই সমান ব্যৱধান ৰাখা নাই, সেয়ে শুদ্ধ উত্তৰ হ'ব B।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following letter-groups follows the rule: the letters are in reverse alphabetical order?",
+    "as": "তলৰ কোনটো আখৰ-গোটে নিয়মটো মানি চলে: আখৰবোৰ বৰ্ণমালাৰ উলটা ক্ৰমত আছে?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">ZYX</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">VWX</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">LMN</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">RST</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "Option A (ZYX) is the only group written in reverse alphabetical order (Z, Y, X). The others are in normal order, so the correct answer is A.",
+    "as": "বিকল্প A (ZYX) কেৱল বৰ্ণমালাৰ উলটা ক্ৰমত আছে (Z, Y, X)। বাকীবোৰ সাধাৰণ ক্ৰমত, সেয়ে শুদ্ধ উত্তৰ হ'ব A।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following letter-groups follows the rule: the sum of the alphabet positions of the letters is divisible by 3?",
+    "as": "তলৰ কোনটো আখৰ-গোটে নিয়মটো মানি চলে: আখৰবোৰৰ বৰ্ণমালা স্থানৰ যোগফল ৩ ৰে বিভাজ্য?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">GIK</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">JLM</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">ABD</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">CEF</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "Option A: positions of GIK add to 27, which is divisible by 3. The others are not, so the correct answer is A.",
+    "as": "বিকল্প A: GIK ৰ স্থানসমূহৰ যোগফল 27, যিটো ৩ ৰে বিভাজ্য। বাকীবোৰ নহয়, সেয়ে শুদ্ধ উত্তৰ হ'ব A।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following letter-groups follows the rule: the group contains exactly two vowels?",
+    "as": "তলৰ কোনটো আখৰ-গোটে নিয়মটো মানি চলে: গোটটোত ঠিক দুটা স্বৰবৰ্ণ আছে?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">UVX</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">OPQ</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">AEP</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">EFG</text></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "Option C (AEP) contains exactly two vowels (A and E). The other groups do not, so the correct answer is C.",
+    "as": "বিকল্প C (AEP) ত ঠিক দুটা স্বৰবৰ্ণ আছে (A আৰু E)। বাকী গোটবোৰত নাই, সেয়ে শুদ্ধ উত্তৰ হ'ব C।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following numbers follows the rule: the number is completely divisible by 9?",
+    "as": "তলৰ কোনটো সংখ্যাই নিয়মটো মানি চলে: সংখ্যাটো ৯ ৰে সম্পূৰ্ণৰূপে বিভাজ্য?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">152</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">121</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">173</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">144</text></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "Option D (144) is divisible by 9 (1+4+4 = 9). The other numbers leave a remainder, so the correct answer is D.",
+    "as": "বিকল্প D (144) ৯ ৰে বিভাজ্য (1+4+4 = 9)। বাকী সংখ্যাবোৰে ভাগশেষ ৰাখে, সেয়ে শুদ্ধ উত্তৰ হ'ব D।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following numbers follows the rule: the sum of its digits is an odd number?",
+    "as": "তলৰ কোনটো সংখ্যাই নিয়মটো মানি চলে: সংখ্যাটোৰ অংকবোৰৰ যোগফল এটা অযুগ্ম সংখ্যা?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">145</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">234</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">345</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">561</text></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "Option B (234) has digit sum 2+3+4 = 9, which is odd. The other options give even sums, so the correct answer is B.",
+    "as": "বিকল্প B (234) ৰ অংক যোগফল 2+3+4 = 9, যিটো অযুগ্ম। বাকী বিকল্পবোৰৰ যোগফল যুগ্ম, সেয়ে শুদ্ধ উত্তৰ হ'ব B।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following two-digit numbers follows the rule: both the digits are odd?",
+    "as": "তলৰ কোনটো দুই-অংকীয় সংখ্যাই নিয়মটো মানি চলে: দুয়োটা অংকেই অযুগ্ম?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">27</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">83</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">49</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 54\" width=\"64\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"58\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.0\" y=\"27.0\" font-size=\"26\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">35</text></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "Option D (35) is the only number whose both digits (3 and 5) are odd. Hence the correct answer is D.",
+    "as": "বিকল্প D (35) কেৱল সেই সংখ্যা যাৰ দুয়োটা অংক (3 আৰু 5) অযুগ্ম। সেয়ে শুদ্ধ উত্তৰ হ'ব D।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following pairs follows the rule: the second number is the square of the first number?",
+    "as": "তলৰ কোনটো যুটিয়ে নিয়মটো মানি চলে: দ্বিতীয় সংখ্যাটো প্ৰথম সংখ্যাটোৰ বৰ্গ?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 65.6 54\" width=\"65.6\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"60\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.8\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5:26</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 65.6 54\" width=\"65.6\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"60\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.8\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6:35</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 65.6 54\" width=\"65.6\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"60\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.8\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">7:48</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 65.6 54\" width=\"65.6\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"60\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"32.8\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4:16</text></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "Option D (4:16): 4² = 16, so the pair follows the rule. The other pairs do not, hence the answer is D.",
+    "as": "বিকল্প D (4:16): 4² = 16, সেয়ে যুটিটোৱে নিয়ম মানি চলে। বাকী যুটিবোৰে নিয়ম মানি নচলে, সেয়ে উত্তৰ হ'ব D।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following number-groups follows the rule: each number is 4 more than the previous number?",
+    "as": "তলৰ কোনটো সংখ্যা-গোটে নিয়মটো মানি চলে: প্ৰতিটো সংখ্যা আগৰ সংখ্যাতকৈ ৪ বেছি?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 85.44 54\" width=\"85.44\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"79\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"42.7\" y=\"27.0\" font-size=\"14\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">4, 8, 11</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 85.44 54\" width=\"85.44\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"79\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"42.7\" y=\"27.0\" font-size=\"14\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">5, 9, 13</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 85.44 54\" width=\"85.44\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"79\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"42.7\" y=\"27.0\" font-size=\"14\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">3, 7, 10</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 94.12 54\" width=\"94.12\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"88\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"47.1\" y=\"27.0\" font-size=\"14\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">6, 10, 15</text></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "Option B (5, 9, 13) is the only group with a constant difference of 4 (5→9→13). Others have unequal gaps, so the correct answer is B.",
+    "as": "বিকল্প B (5, 9, 13) কেৱল সেই গোট যাৰ ব্যৱধান ৪ (5→9→13)। বাকীবোৰৰ ব্যৱধান সমান নহয়, সেয়ে শুদ্ধ উত্তৰ হ'ব B।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following words follows the rule: the letters of the word are in alphabetical order?",
+    "as": "তলৰ কোনটো শব্দই নিয়মটো মানি চলে: শব্দটোৰ আখৰবোৰ বৰ্ণমালা ক্ৰমত আছে?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 90.4 54\" width=\"90.4\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"84\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"45.2\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">almost</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 90.4 54\" width=\"90.4\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"84\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"45.2\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">orange</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 90.4 54\" width=\"90.4\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"84\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"45.2\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">candle</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 90.4 54\" width=\"90.4\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"84\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"45.2\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">yellow</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "Option A (almost) has its letters strictly in alphabetical order (a→l→m→o→s→t). The other words are not, so the correct answer is A.",
+    "as": "বিকল্প A (almost) ৰ আখৰবোৰ বৰ্ণমালা ক্ৰমত আছে (a→l→m→o→s→t)। বাকী শব্দবোৰ নহয়, সেয়ে শুদ্ধ উত্তৰ হ'ব A।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following words follows the rule: the word contains exactly three vowels?",
+    "as": "তলৰ কোনটো শব্দই নিয়মটো মানি চলে: শব্দটোত ঠিক তিনিটা স্বৰবৰ্ণ আছে?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 76.75999999999999 54\" width=\"76.75999999999999\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"71\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"38.4\" y=\"27.0\" font-size=\"14\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">workers</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 85.44 54\" width=\"85.44\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"79\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"42.7\" y=\"27.0\" font-size=\"14\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">computer</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 85.44 54\" width=\"85.44\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"79\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"42.7\" y=\"27.0\" font-size=\"14\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">brothers</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 85.44 54\" width=\"85.44\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"79\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"42.7\" y=\"27.0\" font-size=\"14\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">students</text></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "Option B (computer) contains exactly three vowels (o, u, e). The others have a different number of vowels, so the correct answer is B.",
+    "as": "বিকল্প B (computer) ত ঠিক তিনিটা স্বৰবৰ্ণ আছে (o, u, e)। বাকীবোৰত স্বৰবৰ্ণৰ সংখ্যা বেলেগ, সেয়ে শুদ্ধ উত্তৰ হ'ব B।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following words follows the rule: the word begins and ends with a vowel?",
+    "as": "তলৰ কোনটো শব্দই নিয়মটো মানি চলে: শব্দটো স্বৰবৰ্ণেৰে আৰম্ভ আৰু শেষ হয়?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 90.4 54\" width=\"90.4\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"84\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"45.2\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">school</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 90.4 54\" width=\"90.4\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"84\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"45.2\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">orange</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 90.4 54\" width=\"90.4\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"84\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"45.2\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">monkey</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 90.4 54\" width=\"90.4\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"84\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"45.2\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">pencil</text></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "Option B (orange) begins with a vowel and ends with a vowel. The others do not, so the correct answer is B.",
+    "as": "বিকল্প B (orange) স্বৰবৰ্ণেৰে আৰম্ভ আৰু স্বৰবৰ্ণেৰে শেষ হয়। বাকীবোৰ নহয়, সেয়ে শুদ্ধ উত্তৰ হ'ব B।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following words follows the rule: the difference between the alphabet positions of the first and last letters is 2?",
+    "as": "তলৰ কোনটো শব্দই নিয়মটো মানি চলে: প্ৰথম আৰু শেষ আখৰৰ বৰ্ণমালা স্থানৰ পাৰ্থক্য ২?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 78.0 54\" width=\"78.0\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"72\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"39.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">glass</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 78.0 54\" width=\"78.0\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"72\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"39.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">board</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 78.0 54\" width=\"78.0\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"72\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"39.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">table</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 78.0 54\" width=\"78.0\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"72\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"39.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">chair</text></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "Option B (board): the positions of its first and last letters differ by 2. Hence the correct answer is B.",
+    "as": "বিকল্প B (board): ইয়াৰ প্ৰথম আৰু শেষ আখৰৰ স্থানৰ পাৰ্থক্য ২। সেয়ে শুদ্ধ উত্তৰ হ'ব B।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following words follows the rule: the word has an even number of letters?",
+    "as": "তলৰ কোনটো শব্দই নিয়মটো মানি চলে: শব্দটোত যুগ্ম সংখ্যক আখৰ আছে?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 78.0 54\" width=\"78.0\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"72\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"39.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">grape</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 78.0 54\" width=\"78.0\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"72\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"39.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">mango</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 78.0 54\" width=\"78.0\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"72\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"39.0\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">lemon</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 90.4 54\" width=\"90.4\" height=\"54\" role=\"img\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"84\" height=\"48\" rx=\"9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.5\"/><text x=\"45.2\" y=\"27.0\" font-size=\"20\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"Inter, sans-serif\">papaya</text></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "Option D (papaya) is the only word with an even number of letters (6 letters). Others have odd lengths, so the correct answer is D.",
+    "as": "বিকল্প D (papaya) কেৱল সেই শব্দ যাৰ আখৰৰ সংখ্যা যুগ্ম (6 টা আখৰ)। বাকীবোৰৰ সংখ্যা অযুগ্ম, সেয়ে শুদ্ধ উত্তৰ হ'ব D।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following figures follows the rule: the number of sides of the figure is equal to the number of dots inside it?",
+    "as": "তলৰ কোনটো চিত্ৰই নিয়মটো মানি চলে: চিত্ৰটোৰ বাহুৰ সংখ্যা ভিতৰৰ বিন্দুৰ সংখ্যাৰ সমান?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 68.0,57.0 16.0,57.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 72.0,42.0 42.0,72.0 12.0,42.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 74.3,31.5 62.0,69.5 22.0,69.5 9.7,31.5\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"35.6\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 71.4,25.0 71.4,59.0 42.0,76.0 12.6,59.0 12.6,25.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "Option A is the only figure with 3 sides and 3 dots that satisfies the rule (sides = dots). The other figures do not follow it, so the correct answer is A.",
+    "as": "বিকল্প A কেৱল সেই চিত্ৰ যাৰ 3 টা বাহু আৰু 3 টা বিন্দু আছে আৰু যিটোৱে নিয়মটো (বাহু = বিন্দু) মানি চলে। বাকী চিত্ৰবোৰে নিয়মটো মানি নচলে, সেয়ে শুদ্ধ উত্তৰ হ'ব A।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following figures follows the rule: the figure has an even number of sides?",
+    "as": "তলৰ কোনটো চিত্ৰই নিয়মটো মানি চলে: চিত্ৰটোত যুগ্ম সংখ্যক বাহু আছে?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 72.0,42.0 42.0,72.0 12.0,42.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 74.3,31.5 62.0,69.5 22.0,69.5 9.7,31.5\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"35.6\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 68.0,57.0 16.0,57.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"47.0\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 74.3,31.5 62.0,69.5 22.0,69.5 9.7,31.5\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"42.0\" cy=\"42.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "Option A is the only figure with 4 sides and 3 dots that satisfies the rule (even number of sides). The other figures do not follow it, so the correct answer is A.",
+    "as": "বিকল্প A কেৱল সেই চিত্ৰ যাৰ 4 টা বাহু আৰু 3 টা বিন্দু আছে আৰু যিটোৱে নিয়মটো (যুগ্ম সংখ্যক বাহু) মানি চলে। বাকী চিত্ৰবোৰে নিয়মটো মানি নচলে, সেয়ে শুদ্ধ উত্তৰ হ'ব A।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following figures follows the rule: the figure contains an even number of dots?",
+    "as": "তলৰ কোনটো চিত্ৰই নিয়মটো মানি চলে: চিত্ৰটোত যুগ্ম সংখ্যক বিন্দু আছে?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 74.3,31.5 62.0,69.5 22.0,69.5 9.7,31.5\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"35.6\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"42.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 71.4,25.0 71.4,59.0 42.0,76.0 12.6,59.0 12.6,25.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 72.0,42.0 42.0,72.0 12.0,42.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"47.0\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 68.0,57.0 16.0,57.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "Option C is the only figure with 4 sides and 2 dots that satisfies the rule (even number of dots). The other figures do not follow it, so the correct answer is C.",
+    "as": "বিকল্প C কেৱল সেই চিত্ৰ যাৰ 4 টা বাহু আৰু 2 টা বিন্দু আছে আৰু যিটোৱে নিয়মটো (যুগ্ম সংখ্যক বিন্দু) মানি চলে। বাকী চিত্ৰবোৰে নিয়মটো মানি নচলে, সেয়ে শুদ্ধ উত্তৰ হ'ব C।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following figures follows the rule: the number of dots is one more than the number of sides?",
+    "as": "তলৰ কোনটো চিত্ৰই নিয়মটো মানি চলে: বিন্দুৰ সংখ্যা বাহুৰ সংখ্যাতকৈ এটা বেছি?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 71.4,25.0 71.4,59.0 42.0,76.0 12.6,59.0 12.6,25.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"35.6\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"42.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 68.0,57.0 16.0,57.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"36.3\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 72.0,42.0 42.0,72.0 12.0,42.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 74.3,31.5 62.0,69.5 22.0,69.5 9.7,31.5\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"35.6\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "Option B is the only figure with 3 sides and 4 dots that satisfies the rule (dots = sides + 1). The other figures do not follow it, so the correct answer is B.",
+    "as": "বিকল্প B কেৱল সেই চিত্ৰ যাৰ 3 টা বাহু আৰু 4 টা বিন্দু আছে আৰু যিটোৱে নিয়মটো (বিন্দু = বাহু + ১) মানি চলে। বাকী চিত্ৰবোৰে নিয়মটো মানি নচলে, সেয়ে শুদ্ধ উত্তৰ হ'ব B।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following figures follows the rule: the figure is a triangle?",
+    "as": "তলৰ কোনটো চিত্ৰই নিয়মটো মানি চলে: চিত্ৰটো এটা ত্ৰিভুজ?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 68.0,57.0 16.0,57.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"42.0\" cy=\"42.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 72.0,42.0 42.0,72.0 12.0,42.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"47.0\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 71.4,25.0 71.4,59.0 42.0,76.0 12.6,59.0 12.6,25.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 74.3,31.5 62.0,69.5 22.0,69.5 9.7,31.5\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "Option A is the only figure with 3 sides and 1 dots that satisfies the rule (the figure is a triangle). The other figures do not follow it, so the correct answer is A.",
+    "as": "বিকল্প A কেৱল সেই চিত্ৰ যাৰ 3 টা বাহু আৰু 1 টা বিন্দু আছে আৰু যিটোৱে নিয়মটো (চিত্ৰটো ত্ৰিভুজ) মানি চলে। বাকী চিত্ৰবোৰে নিয়মটো মানি নচলে, সেয়ে শুদ্ধ উত্তৰ হ'ব A।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following figures follows the rule: the figure is a pentagon containing 3 dots?",
+    "as": "তলৰ কোনটো চিত্ৰই নিয়মটো মানি চলে: চিত্ৰটো এটা পঞ্চভুজ যাৰ ভিতৰত ৩ টা বিন্দু আছে?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 72.0,42.0 42.0,72.0 12.0,42.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 71.4,25.0 71.4,59.0 42.0,76.0 12.6,59.0 12.6,25.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 74.3,31.5 62.0,69.5 22.0,69.5 9.7,31.5\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"35.6\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 74.3,31.5 62.0,69.5 22.0,69.5 9.7,31.5\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "Option D is the only figure with 5 sides and 3 dots that satisfies the rule (pentagon with 3 dots). The other figures do not follow it, so the correct answer is D.",
+    "as": "বিকল্প D কেৱল সেই চিত্ৰ যাৰ 5 টা বাহু আৰু 3 টা বিন্দু আছে আৰু যিটোৱে নিয়মটো (৩ টা বিন্দু থকা পঞ্চভুজ) মানি চলে। বাকী চিত্ৰবোৰে নিয়মটো মানি নচলে, সেয়ে শুদ্ধ উত্তৰ হ'ব D।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following figures follows the rule: the figure is a hexagon containing 4 dots?",
+    "as": "তলৰ কোনটো চিত্ৰই নিয়মটো মানি চলে: চিত্ৰটো এটা ষড়ভুজ যাৰ ভিতৰত ৪ টা বিন্দু আছে?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 71.4,25.0 71.4,59.0 42.0,76.0 12.6,59.0 12.6,25.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"35.6\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 74.3,31.5 62.0,69.5 22.0,69.5 9.7,31.5\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"35.6\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 71.4,25.0 71.4,59.0 42.0,76.0 12.6,59.0 12.6,25.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"35.6\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"42.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 72.0,42.0 42.0,72.0 12.0,42.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"36.3\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "Option A is the only figure with 6 sides and 4 dots that satisfies the rule (hexagon with 4 dots). The other figures do not follow it, so the correct answer is A.",
+    "as": "বিকল্প A কেৱল সেই চিত্ৰ যাৰ 6 টা বাহু আৰু 4 টা বিন্দু আছে আৰু যিটোৱে নিয়মটো (৪ টা বিন্দু থকা ষড়ভুজ) মানি চলে। বাকী চিত্ৰবোৰে নিয়মটো মানি নচলে, সেয়ে শুদ্ধ উত্তৰ হ'ব A।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following figures follows the rule: the number of dots is two more than the number of sides?",
+    "as": "তলৰ কোনটো চিত্ৰই নিয়মটো মানি চলে: বিন্দুৰ সংখ্যা বাহুৰ সংখ্যাতকৈ দুটা বেছি?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 74.3,31.5 62.0,69.5 22.0,69.5 9.7,31.5\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"35.6\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 68.0,57.0 16.0,57.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"47.0\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 72.0,42.0 42.0,72.0 12.0,42.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"36.3\" cy=\"42.0\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"42.0\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"36.3\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 71.4,25.0 71.4,59.0 42.0,76.0 12.6,59.0 12.6,25.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "Option C is the only figure with 4 sides and 6 dots that satisfies the rule (dots = sides + 2). The other figures do not follow it, so the correct answer is C.",
+    "as": "বিকল্প C কেৱল সেই চিত্ৰ যাৰ 4 টা বাহু আৰু 6 টা বিন্দু আছে আৰু যিটোৱে নিয়মটো (বিন্দু = বাহু + ২) মানি চলে। বাকী চিত্ৰবোৰে নিয়মটো মানি নচলে, সেয়ে শুদ্ধ উত্তৰ হ'ব C।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following figures follows the rule: the figure is a triangle and has an odd number of dots?",
+    "as": "তলৰ কোনটো চিত্ৰই নিয়মটো মানি চলে: চিত্ৰটো ত্ৰিভুজ আৰু ইয়াত অযুগ্ম সংখ্যক বিন্দু আছে?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 71.4,25.0 71.4,59.0 42.0,76.0 12.6,59.0 12.6,25.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 68.0,57.0 16.0,57.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"47.0\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 72.0,42.0 42.0,72.0 12.0,42.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 68.0,57.0 16.0,57.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"36.3\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"42.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "Option D is the only figure with 3 sides and 5 dots that satisfies the rule (triangle with an odd number of dots). The other figures do not follow it, so the correct answer is D.",
+    "as": "বিকল্প D কেৱল সেই চিত্ৰ যাৰ 3 টা বাহু আৰু 5 টা বিন্দু আছে আৰু যিটোৱে নিয়মটো (অযুগ্ম বিন্দু থকা ত্ৰিভুজ) মানি চলে। বাকী চিত্ৰবোৰে নিয়মটো মানি নচলে, সেয়ে শুদ্ধ উত্তৰ হ'ব D।"
+   }
+  },
+  {
+   "type": "rule_detection",
+   "q": {
+    "en": "Which of the following figures follows the rule: the figure is a quadrilateral (4 sides) containing 4 dots?",
+    "as": "তলৰ কোনটো চিত্ৰই নিয়মটো মানি চলে: চিত্ৰটো এটা চতুৰ্ভুজ (৪ টা বাহু) যাৰ ভিতৰত ৪ টা বিন্দু আছে?"
+   },
+   "fig": null,
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 68.0,57.0 16.0,57.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"36.3\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 72.0,42.0 42.0,72.0 12.0,42.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"36.3\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"36.3\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,12.0 72.0,42.0 42.0,72.0 12.0,42.0\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"36.3\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"42.0\" cy=\"47.7\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"47.7\" cy=\"37.0\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" role=\"img\" aria-hidden=\"true\"><polygon points=\"42.0,8.0 74.3,31.5 62.0,69.5 22.0,69.5 9.7,31.5\" fill=\"#ffffff\" stroke=\"#4338ca\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"35.6\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"35.6\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"35.6\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/><circle cx=\"48.4\" cy=\"48.4\" r=\"3.6\" fill=\"#ef4444\"/></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "Option B is the only figure with 4 sides and 4 dots that satisfies the rule (quadrilateral with 4 dots). The other figures do not follow it, so the correct answer is B.",
+    "as": "বিকল্প B কেৱল সেই চিত্ৰ যাৰ 4 টা বাহু আৰু 4 টা বিন্দু আছে আৰু যিটোৱে নিয়মটো (৪ টা বিন্দু থকা চতুৰ্ভুজ) মানি চলে। বাকী চিত্ৰবোৰে নিয়মটো মানি নচলে, সেয়ে শুদ্ধ উত্তৰ হ'ব B।"
+   }
+  }
+ ]
+}
