@@ -1,0 +1,771 @@
+{
+ "id": "counting-figures",
+ "title": {
+  "en": "Counting Figures",
+  "as": "চিত্ৰ গণনা"
+ },
+ "description": {
+  "en": "Count the total number of a particular figure (triangle or square) present in a given geometrical drawing, considering figures of all sizes.",
+  "as": "দিয়া জ্যামিতিক চিত্ৰত থকা এটা নিৰ্দিষ্ট চিত্ৰৰ (ত্রিভুজ বা বৰ্গ) মুঠ সংখ্যা গণনা কৰক, আটাইবোৰ আকাৰ ধৰি।"
+ },
+ "tags": [
+  "reasoning",
+  "non-verbal",
+  "counting-figures",
+  "figure-counting",
+  "visual-reasoning"
+ ],
+ "pdf": null,
+ "questions": [
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">1</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">2</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">3</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">4</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 1.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 1টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"30.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">1</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"30.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">3</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"30.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">2</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"30.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">4</text></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 3.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 3টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"70.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">1</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"70.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">2</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"70.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">3</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"70.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">4</text></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 3.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 3টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"22.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">1</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"22.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">2</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"22.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">4</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"22.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">3</text></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 3.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 3টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"78.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">3</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"78.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">1</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"78.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">2</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"78.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">4</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 3.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 3টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-8.286) scale(0.7143)\"><line x1=\"50.0\" y1=\"90.0\" x2=\"10.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"20.0\" x2=\"90.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"20.0\" x2=\"50.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"90.0\" x2=\"40.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">1</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-8.286) scale(0.7143)\"><line x1=\"50.0\" y1=\"90.0\" x2=\"10.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"20.0\" x2=\"90.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"20.0\" x2=\"50.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"90.0\" x2=\"40.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">3</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-8.286) scale(0.7143)\"><line x1=\"50.0\" y1=\"90.0\" x2=\"10.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"20.0\" x2=\"90.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"20.0\" x2=\"50.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"90.0\" x2=\"40.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">2</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-8.286) scale(0.7143)\"><line x1=\"50.0\" y1=\"90.0\" x2=\"10.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"20.0\" x2=\"90.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"20.0\" x2=\"50.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"90.0\" x2=\"40.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">4</text></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 3.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 3টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"30.0\" y1=\"45.0\" x2=\"50.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"80.0\" x2=\"70.0\" y2=\"45.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"70.0\" y1=\"45.0\" x2=\"30.0\" y2=\"45.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">2</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"30.0\" y1=\"45.0\" x2=\"50.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"80.0\" x2=\"70.0\" y2=\"45.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"70.0\" y1=\"45.0\" x2=\"30.0\" y2=\"45.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">3</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"30.0\" y1=\"45.0\" x2=\"50.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"80.0\" x2=\"70.0\" y2=\"45.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"70.0\" y1=\"45.0\" x2=\"30.0\" y2=\"45.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">5</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"30.0\" y1=\"45.0\" x2=\"50.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"80.0\" x2=\"70.0\" y2=\"45.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"70.0\" y1=\"45.0\" x2=\"30.0\" y2=\"45.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">4</text></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 5.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 5টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(11.538,-13.231) scale(0.7692)\"><line x1=\"50.0\" y1=\"90.0\" x2=\"12.0\" y2=\"25.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"12.0\" y1=\"25.0\" x2=\"88.0\" y2=\"25.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"88.0\" y1=\"25.0\" x2=\"50.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"31.0\" y1=\"57.5\" x2=\"50.0\" y2=\"25.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"25.0\" x2=\"69.0\" y2=\"57.5\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"69.0\" y1=\"57.5\" x2=\"31.0\" y2=\"57.5\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">2</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(11.538,-13.231) scale(0.7692)\"><line x1=\"50.0\" y1=\"90.0\" x2=\"12.0\" y2=\"25.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"12.0\" y1=\"25.0\" x2=\"88.0\" y2=\"25.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"88.0\" y1=\"25.0\" x2=\"50.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"31.0\" y1=\"57.5\" x2=\"50.0\" y2=\"25.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"25.0\" x2=\"69.0\" y2=\"57.5\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"69.0\" y1=\"57.5\" x2=\"31.0\" y2=\"57.5\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">3</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(11.538,-13.231) scale(0.7692)\"><line x1=\"50.0\" y1=\"90.0\" x2=\"12.0\" y2=\"25.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"12.0\" y1=\"25.0\" x2=\"88.0\" y2=\"25.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"88.0\" y1=\"25.0\" x2=\"50.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"31.0\" y1=\"57.5\" x2=\"50.0\" y2=\"25.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"25.0\" x2=\"69.0\" y2=\"57.5\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"69.0\" y1=\"57.5\" x2=\"31.0\" y2=\"57.5\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">4</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(11.538,-13.231) scale(0.7692)\"><line x1=\"50.0\" y1=\"90.0\" x2=\"12.0\" y2=\"25.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"12.0\" y1=\"25.0\" x2=\"88.0\" y2=\"25.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"88.0\" y1=\"25.0\" x2=\"50.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"31.0\" y1=\"57.5\" x2=\"50.0\" y2=\"25.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"25.0\" x2=\"69.0\" y2=\"57.5\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"69.0\" y1=\"57.5\" x2=\"31.0\" y2=\"57.5\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">5</text></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 5.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 5টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"30.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"65.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">6</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"30.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"65.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">3</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"30.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"65.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">4</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"30.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"65.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">5</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 6.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 6টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"25.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"60.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">3</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"25.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"60.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">6</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"25.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"60.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">4</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"25.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"60.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">5</text></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 6.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 6টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-8.286) scale(0.7143)\"><line x1=\"50.0\" y1=\"90.0\" x2=\"10.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"20.0\" x2=\"90.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"20.0\" x2=\"50.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"90.0\" x2=\"40.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"90.0\" x2=\"65.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">3</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-8.286) scale(0.7143)\"><line x1=\"50.0\" y1=\"90.0\" x2=\"10.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"20.0\" x2=\"90.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"20.0\" x2=\"50.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"90.0\" x2=\"40.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"90.0\" x2=\"65.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">4</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-8.286) scale(0.7143)\"><line x1=\"50.0\" y1=\"90.0\" x2=\"10.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"20.0\" x2=\"90.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"20.0\" x2=\"50.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"90.0\" x2=\"40.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"90.0\" x2=\"65.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">6</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-8.286) scale(0.7143)\"><line x1=\"50.0\" y1=\"90.0\" x2=\"10.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"20.0\" x2=\"90.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"20.0\" x2=\"50.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"90.0\" x2=\"40.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"90.0\" x2=\"65.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">5</text></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 6.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 6টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"25.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"50.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"75.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">7</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"25.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"50.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"75.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">8</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"25.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"50.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"75.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">9</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"25.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"50.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"75.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">10</text></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 10.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 10টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"20.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"45.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"70.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">10</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"20.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"45.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"70.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">7</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"20.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"45.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"70.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">8</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(14.286,-1.143) scale(0.7143)\"><line x1=\"50.0\" y1=\"10.0\" x2=\"10.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"80.0\" x2=\"90.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"80.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"20.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"45.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"10.0\" x2=\"70.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">9</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 10.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 10টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(18.750,-0.250) scale(0.6250)\"><line x1=\"10.0\" y1=\"10.0\" x2=\"90.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"10.0\" x2=\"90.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"90.0\" x2=\"10.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"90.0\" x2=\"10.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"10.0\" x2=\"90.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">1</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(18.750,-0.250) scale(0.6250)\"><line x1=\"10.0\" y1=\"10.0\" x2=\"90.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"10.0\" x2=\"90.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"90.0\" x2=\"10.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"90.0\" x2=\"10.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"10.0\" x2=\"90.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">2</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(18.750,-0.250) scale(0.6250)\"><line x1=\"10.0\" y1=\"10.0\" x2=\"90.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"10.0\" x2=\"90.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"90.0\" x2=\"10.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"90.0\" x2=\"10.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"10.0\" x2=\"90.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">3</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(18.750,-0.250) scale(0.6250)\"><line x1=\"10.0\" y1=\"10.0\" x2=\"90.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"10.0\" x2=\"90.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"90.0\" x2=\"10.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"90.0\" x2=\"10.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"10.0\" x2=\"90.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">4</text></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 2.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 2টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(5.357,-13.643) scale(0.8929)\"><line x1=\"5.0\" y1=\"22.0\" x2=\"95.0\" y2=\"22.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"22.0\" x2=\"95.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"78.0\" x2=\"5.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"5.0\" y1=\"78.0\" x2=\"5.0\" y2=\"22.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"5.0\" y1=\"22.0\" x2=\"95.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">1</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(5.357,-13.643) scale(0.8929)\"><line x1=\"5.0\" y1=\"22.0\" x2=\"95.0\" y2=\"22.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"22.0\" x2=\"95.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"78.0\" x2=\"5.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"5.0\" y1=\"78.0\" x2=\"5.0\" y2=\"22.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"5.0\" y1=\"22.0\" x2=\"95.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">3</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(5.357,-13.643) scale(0.8929)\"><line x1=\"5.0\" y1=\"22.0\" x2=\"95.0\" y2=\"22.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"22.0\" x2=\"95.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"78.0\" x2=\"5.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"5.0\" y1=\"78.0\" x2=\"5.0\" y2=\"22.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"5.0\" y1=\"22.0\" x2=\"95.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">2</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(5.357,-13.643) scale(0.8929)\"><line x1=\"5.0\" y1=\"22.0\" x2=\"95.0\" y2=\"22.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"22.0\" x2=\"95.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"78.0\" x2=\"5.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"5.0\" y1=\"78.0\" x2=\"5.0\" y2=\"22.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"5.0\" y1=\"22.0\" x2=\"95.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">4</text></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 2.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 2টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(20.238,1.238) scale(0.5952)\"><line x1=\"50.0\" y1=\"8.0\" x2=\"92.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"92.0\" y1=\"50.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"92.0\" x2=\"50.0\" y2=\"8.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"8.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"92.0\" x2=\"8.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"8.0\" y1=\"50.0\" x2=\"50.0\" y2=\"8.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"8.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">1</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(20.238,1.238) scale(0.5952)\"><line x1=\"50.0\" y1=\"8.0\" x2=\"92.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"92.0\" y1=\"50.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"92.0\" x2=\"50.0\" y2=\"8.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"8.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"92.0\" x2=\"8.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"8.0\" y1=\"50.0\" x2=\"50.0\" y2=\"8.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"8.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">3</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(20.238,1.238) scale(0.5952)\"><line x1=\"50.0\" y1=\"8.0\" x2=\"92.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"92.0\" y1=\"50.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"92.0\" x2=\"50.0\" y2=\"8.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"8.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"92.0\" x2=\"8.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"8.0\" y1=\"50.0\" x2=\"50.0\" y2=\"8.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"8.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">4</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(20.238,1.238) scale(0.5952)\"><line x1=\"50.0\" y1=\"8.0\" x2=\"92.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"92.0\" y1=\"50.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"92.0\" x2=\"50.0\" y2=\"8.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"8.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"92.0\" x2=\"8.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"8.0\" y1=\"50.0\" x2=\"50.0\" y2=\"8.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"8.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">2</text></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 2.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 2টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(18.750,-0.250) scale(0.6250)\"><line x1=\"10.0\" y1=\"10.0\" x2=\"90.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"10.0\" x2=\"90.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"90.0\" x2=\"10.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"90.0\" x2=\"10.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"10.0\" x2=\"90.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"10.0\" x2=\"10.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">8</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(18.750,-0.250) scale(0.6250)\"><line x1=\"10.0\" y1=\"10.0\" x2=\"90.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"10.0\" x2=\"90.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"90.0\" x2=\"10.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"90.0\" x2=\"10.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"10.0\" x2=\"90.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"10.0\" x2=\"10.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">5</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(18.750,-0.250) scale(0.6250)\"><line x1=\"10.0\" y1=\"10.0\" x2=\"90.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"10.0\" x2=\"90.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"90.0\" x2=\"10.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"90.0\" x2=\"10.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"10.0\" x2=\"90.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"10.0\" x2=\"10.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">6</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(18.750,-0.250) scale(0.6250)\"><line x1=\"10.0\" y1=\"10.0\" x2=\"90.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"10.0\" x2=\"90.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"90.0\" x2=\"10.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"90.0\" x2=\"10.0\" y2=\"10.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"10.0\" y1=\"10.0\" x2=\"90.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"90.0\" y1=\"10.0\" x2=\"10.0\" y2=\"90.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">7</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 8.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 8টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(5.357,-13.643) scale(0.8929)\"><line x1=\"5.0\" y1=\"22.0\" x2=\"95.0\" y2=\"22.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"22.0\" x2=\"95.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"78.0\" x2=\"5.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"5.0\" y1=\"78.0\" x2=\"5.0\" y2=\"22.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"5.0\" y1=\"22.0\" x2=\"95.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"22.0\" x2=\"5.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">5</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(5.357,-13.643) scale(0.8929)\"><line x1=\"5.0\" y1=\"22.0\" x2=\"95.0\" y2=\"22.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"22.0\" x2=\"95.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"78.0\" x2=\"5.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"5.0\" y1=\"78.0\" x2=\"5.0\" y2=\"22.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"5.0\" y1=\"22.0\" x2=\"95.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"22.0\" x2=\"5.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">8</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(5.357,-13.643) scale(0.8929)\"><line x1=\"5.0\" y1=\"22.0\" x2=\"95.0\" y2=\"22.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"22.0\" x2=\"95.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"78.0\" x2=\"5.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"5.0\" y1=\"78.0\" x2=\"5.0\" y2=\"22.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"5.0\" y1=\"22.0\" x2=\"95.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"22.0\" x2=\"5.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">6</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(5.357,-13.643) scale(0.8929)\"><line x1=\"5.0\" y1=\"22.0\" x2=\"95.0\" y2=\"22.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"22.0\" x2=\"95.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"78.0\" x2=\"5.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"5.0\" y1=\"78.0\" x2=\"5.0\" y2=\"22.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"5.0\" y1=\"22.0\" x2=\"95.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"95.0\" y1=\"22.0\" x2=\"5.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">7</text></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 8.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 8টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many triangles are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা ত্রিভুজ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(20.238,1.238) scale(0.5952)\"><line x1=\"50.0\" y1=\"8.0\" x2=\"92.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"92.0\" y1=\"50.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"92.0\" x2=\"50.0\" y2=\"8.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"8.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"92.0\" x2=\"8.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"8.0\" y1=\"50.0\" x2=\"50.0\" y2=\"8.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"8.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"8.0\" y1=\"50.0\" x2=\"92.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">5</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(20.238,1.238) scale(0.5952)\"><line x1=\"50.0\" y1=\"8.0\" x2=\"92.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"92.0\" y1=\"50.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"92.0\" x2=\"50.0\" y2=\"8.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"8.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"92.0\" x2=\"8.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"8.0\" y1=\"50.0\" x2=\"50.0\" y2=\"8.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"8.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"8.0\" y1=\"50.0\" x2=\"92.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">6</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(20.238,1.238) scale(0.5952)\"><line x1=\"50.0\" y1=\"8.0\" x2=\"92.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"92.0\" y1=\"50.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"92.0\" x2=\"50.0\" y2=\"8.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"8.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"92.0\" x2=\"8.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"8.0\" y1=\"50.0\" x2=\"50.0\" y2=\"8.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"8.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"8.0\" y1=\"50.0\" x2=\"92.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">8</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(20.238,1.238) scale(0.5952)\"><line x1=\"50.0\" y1=\"8.0\" x2=\"92.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"92.0\" y1=\"50.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"92.0\" x2=\"50.0\" y2=\"8.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"8.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"92.0\" x2=\"8.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"8.0\" y1=\"50.0\" x2=\"50.0\" y2=\"8.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"8.0\" x2=\"50.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"8.0\" y1=\"50.0\" x2=\"92.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">7</text></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "Counting all the triangles of every size, the total number of triangles in the figure is 8.",
+    "as": "আটাইবোৰ আকাৰৰ ত্রিভুজ গণনা কৰিলে চিত্ৰটোত মুঠ 8টা ত্রিভুজ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many squares are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা বৰ্গ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(-2.500,-9.000) scale(1.2500)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"62.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"32.0\" x2=\"62.0\" y2=\"32.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"52.0\" x2=\"62.0\" y2=\"52.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"52.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"12.0\" x2=\"42.0\" y2=\"52.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"62.0\" y1=\"12.0\" x2=\"62.0\" y2=\"52.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">2</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(-2.500,-9.000) scale(1.2500)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"62.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"32.0\" x2=\"62.0\" y2=\"32.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"52.0\" x2=\"62.0\" y2=\"52.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"52.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"12.0\" x2=\"42.0\" y2=\"52.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"62.0\" y1=\"12.0\" x2=\"62.0\" y2=\"52.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">3</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(-2.500,-9.000) scale(1.2500)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"62.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"32.0\" x2=\"62.0\" y2=\"32.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"52.0\" x2=\"62.0\" y2=\"52.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"52.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"12.0\" x2=\"42.0\" y2=\"52.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"62.0\" y1=\"12.0\" x2=\"62.0\" y2=\"52.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">4</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(-2.500,-9.000) scale(1.2500)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"62.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"32.0\" x2=\"62.0\" y2=\"32.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"52.0\" x2=\"62.0\" y2=\"52.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"52.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"12.0\" x2=\"42.0\" y2=\"52.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"62.0\" y1=\"12.0\" x2=\"62.0\" y2=\"52.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">5</text></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "Counting all the squares of every size, the total number of squares in the figure is 5.",
+    "as": "আটাইবোৰ আকাৰৰ বৰ্গ গণনা কৰিলে চিত্ৰটোত মুঠ 5টা বৰ্গ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many squares are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা বৰ্গ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(-19.853,-11.647) scale(1.4706)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"73.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"29.0\" x2=\"73.0\" y2=\"29.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"46.0\" x2=\"73.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"39.0\" y1=\"12.0\" x2=\"39.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"56.0\" y1=\"12.0\" x2=\"56.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"73.0\" y1=\"12.0\" x2=\"73.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">8</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(-19.853,-11.647) scale(1.4706)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"73.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"29.0\" x2=\"73.0\" y2=\"29.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"46.0\" x2=\"73.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"39.0\" y1=\"12.0\" x2=\"39.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"56.0\" y1=\"12.0\" x2=\"56.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"73.0\" y1=\"12.0\" x2=\"73.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">5</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(-19.853,-11.647) scale(1.4706)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"73.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"29.0\" x2=\"73.0\" y2=\"29.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"46.0\" x2=\"73.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"39.0\" y1=\"12.0\" x2=\"39.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"56.0\" y1=\"12.0\" x2=\"56.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"73.0\" y1=\"12.0\" x2=\"73.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">6</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(-19.853,-11.647) scale(1.4706)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"73.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"29.0\" x2=\"73.0\" y2=\"29.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"46.0\" x2=\"73.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"39.0\" y1=\"12.0\" x2=\"39.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"56.0\" y1=\"12.0\" x2=\"56.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"73.0\" y1=\"12.0\" x2=\"73.0\" y2=\"46.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">7</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "Counting all the squares of every size, the total number of squares in the figure is 8.",
+    "as": "আটাইবোৰ আকাৰৰ বৰ্গ গণনা কৰিলে চিত্ৰটোত মুঠ 8টা বৰ্গ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many squares are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা বৰ্গ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(0.556,-7.333) scale(1.1111)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"67.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"27.0\" x2=\"67.0\" y2=\"27.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"42.0\" x2=\"67.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"57.0\" x2=\"67.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"37.0\" y1=\"12.0\" x2=\"37.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"52.0\" y1=\"12.0\" x2=\"52.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"67.0\" y1=\"12.0\" x2=\"67.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">11</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(0.556,-7.333) scale(1.1111)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"67.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"27.0\" x2=\"67.0\" y2=\"27.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"42.0\" x2=\"67.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"57.0\" x2=\"67.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"37.0\" y1=\"12.0\" x2=\"37.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"52.0\" y1=\"12.0\" x2=\"52.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"67.0\" y1=\"12.0\" x2=\"67.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">14</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(0.556,-7.333) scale(1.1111)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"67.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"27.0\" x2=\"67.0\" y2=\"27.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"42.0\" x2=\"67.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"57.0\" x2=\"67.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"37.0\" y1=\"12.0\" x2=\"37.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"52.0\" y1=\"12.0\" x2=\"52.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"67.0\" y1=\"12.0\" x2=\"67.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">12</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(0.556,-7.333) scale(1.1111)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"67.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"27.0\" x2=\"67.0\" y2=\"27.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"42.0\" x2=\"67.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"57.0\" x2=\"67.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"37.0\" y1=\"12.0\" x2=\"37.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"52.0\" y1=\"12.0\" x2=\"52.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"67.0\" y1=\"12.0\" x2=\"67.0\" y2=\"57.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">13</text></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "Counting all the squares of every size, the total number of squares in the figure is 14.",
+    "as": "আটাইবোৰ আকাৰৰ বৰ্গ গণনা কৰিলে চিত্ৰটোত মুঠ 14টা বৰ্গ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many squares are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা বৰ্গ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(-9.524,-8.286) scale(1.1905)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"78.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"26.0\" x2=\"78.0\" y2=\"26.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"40.0\" x2=\"78.0\" y2=\"40.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"54.0\" x2=\"78.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"36.0\" y1=\"12.0\" x2=\"36.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"12.0\" x2=\"50.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"64.0\" y1=\"12.0\" x2=\"64.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"78.0\" y1=\"12.0\" x2=\"78.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">17</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(-9.524,-8.286) scale(1.1905)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"78.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"26.0\" x2=\"78.0\" y2=\"26.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"40.0\" x2=\"78.0\" y2=\"40.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"54.0\" x2=\"78.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"36.0\" y1=\"12.0\" x2=\"36.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"12.0\" x2=\"50.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"64.0\" y1=\"12.0\" x2=\"64.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"78.0\" y1=\"12.0\" x2=\"78.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">18</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(-9.524,-8.286) scale(1.1905)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"78.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"26.0\" x2=\"78.0\" y2=\"26.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"40.0\" x2=\"78.0\" y2=\"40.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"54.0\" x2=\"78.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"36.0\" y1=\"12.0\" x2=\"36.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"12.0\" x2=\"50.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"64.0\" y1=\"12.0\" x2=\"64.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"78.0\" y1=\"12.0\" x2=\"78.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">20</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(-9.524,-8.286) scale(1.1905)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"78.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"26.0\" x2=\"78.0\" y2=\"26.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"40.0\" x2=\"78.0\" y2=\"40.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"54.0\" x2=\"78.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"36.0\" y1=\"12.0\" x2=\"36.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"50.0\" y1=\"12.0\" x2=\"50.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"64.0\" y1=\"12.0\" x2=\"64.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"78.0\" y1=\"12.0\" x2=\"78.0\" y2=\"54.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">19</text></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "Counting all the squares of every size, the total number of squares in the figure is 20.",
+    "as": "আটাইবোৰ আকাৰৰ বৰ্গ গণনা কৰিলে চিত্ৰটোত মুঠ 20টা বৰ্গ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many squares are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা বৰ্গ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(2.083,-6.500) scale(1.0417)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"70.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"24.0\" x2=\"70.0\" y2=\"24.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"36.0\" x2=\"70.0\" y2=\"36.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"48.0\" x2=\"70.0\" y2=\"48.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"60.0\" x2=\"70.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"34.0\" y1=\"12.0\" x2=\"34.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"46.0\" y1=\"12.0\" x2=\"46.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"58.0\" y1=\"12.0\" x2=\"58.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"70.0\" y1=\"12.0\" x2=\"70.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">27</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(2.083,-6.500) scale(1.0417)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"70.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"24.0\" x2=\"70.0\" y2=\"24.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"36.0\" x2=\"70.0\" y2=\"36.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"48.0\" x2=\"70.0\" y2=\"48.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"60.0\" x2=\"70.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"34.0\" y1=\"12.0\" x2=\"34.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"46.0\" y1=\"12.0\" x2=\"46.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"58.0\" y1=\"12.0\" x2=\"58.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"70.0\" y1=\"12.0\" x2=\"70.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">28</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(2.083,-6.500) scale(1.0417)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"70.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"24.0\" x2=\"70.0\" y2=\"24.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"36.0\" x2=\"70.0\" y2=\"36.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"48.0\" x2=\"70.0\" y2=\"48.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"60.0\" x2=\"70.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"34.0\" y1=\"12.0\" x2=\"34.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"46.0\" y1=\"12.0\" x2=\"46.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"58.0\" y1=\"12.0\" x2=\"58.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"70.0\" y1=\"12.0\" x2=\"70.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">29</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(2.083,-6.500) scale(1.0417)\"><line x1=\"22.0\" y1=\"12.0\" x2=\"70.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"24.0\" x2=\"70.0\" y2=\"24.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"36.0\" x2=\"70.0\" y2=\"36.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"48.0\" x2=\"70.0\" y2=\"48.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"60.0\" x2=\"70.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"22.0\" y1=\"12.0\" x2=\"22.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"34.0\" y1=\"12.0\" x2=\"34.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"46.0\" y1=\"12.0\" x2=\"46.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"58.0\" y1=\"12.0\" x2=\"58.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"70.0\" y1=\"12.0\" x2=\"70.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">30</text></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "Counting all the squares of every size, the total number of squares in the figure is 30.",
+    "as": "আটাইবোৰ আকাৰৰ বৰ্গ গণনা কৰিলে চিত্ৰটোত মুঠ 30টা বৰ্গ আছে।"
+   }
+  },
+  {
+   "type": "counting_figures",
+   "q": {
+    "en": "How many squares are there in the given figure?",
+    "as": "দিয়া চিত্ৰটোত মুঠ কিমানটা বৰ্গ আছে?"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(15.000,-4.000) scale(0.8333)\"><line x1=\"12.0\" y1=\"12.0\" x2=\"42.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"12.0\" x2=\"42.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"42.0\" x2=\"12.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"12.0\" y1=\"42.0\" x2=\"12.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"12.0\" y1=\"42.0\" x2=\"42.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"42.0\" x2=\"42.0\" y2=\"72.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"72.0\" x2=\"12.0\" y2=\"72.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"12.0\" y1=\"72.0\" x2=\"12.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"42.0\" x2=\"72.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"72.0\" y1=\"42.0\" x2=\"72.0\" y2=\"72.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"72.0\" y1=\"72.0\" x2=\"42.0\" y2=\"72.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"72.0\" x2=\"42.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">3</text></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(15.000,-4.000) scale(0.8333)\"><line x1=\"12.0\" y1=\"12.0\" x2=\"42.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"12.0\" x2=\"42.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"42.0\" x2=\"12.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"12.0\" y1=\"42.0\" x2=\"12.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"12.0\" y1=\"42.0\" x2=\"42.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"42.0\" x2=\"42.0\" y2=\"72.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"72.0\" x2=\"12.0\" y2=\"72.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"12.0\" y1=\"72.0\" x2=\"12.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"42.0\" x2=\"72.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"72.0\" y1=\"42.0\" x2=\"72.0\" y2=\"72.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"72.0\" y1=\"72.0\" x2=\"42.0\" y2=\"72.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"72.0\" x2=\"42.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">1</text></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(15.000,-4.000) scale(0.8333)\"><line x1=\"12.0\" y1=\"12.0\" x2=\"42.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"12.0\" x2=\"42.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"42.0\" x2=\"12.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"12.0\" y1=\"42.0\" x2=\"12.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"12.0\" y1=\"42.0\" x2=\"42.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"42.0\" x2=\"42.0\" y2=\"72.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"72.0\" x2=\"12.0\" y2=\"72.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"12.0\" y1=\"72.0\" x2=\"12.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"42.0\" x2=\"72.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"72.0\" y1=\"42.0\" x2=\"72.0\" y2=\"72.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"72.0\" y1=\"72.0\" x2=\"42.0\" y2=\"72.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"72.0\" x2=\"42.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">2</text></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><g transform=\"translate(15.000,-4.000) scale(0.8333)\"><line x1=\"12.0\" y1=\"12.0\" x2=\"42.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"12.0\" x2=\"42.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"42.0\" x2=\"12.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"12.0\" y1=\"42.0\" x2=\"12.0\" y2=\"12.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"12.0\" y1=\"42.0\" x2=\"42.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"42.0\" x2=\"42.0\" y2=\"72.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"72.0\" x2=\"12.0\" y2=\"72.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"12.0\" y1=\"72.0\" x2=\"12.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"42.0\" x2=\"72.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"72.0\" y1=\"42.0\" x2=\"72.0\" y2=\"72.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"72.0\" y1=\"72.0\" x2=\"42.0\" y2=\"72.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /><line x1=\"42.0\" y1=\"72.0\" x2=\"42.0\" y2=\"42.0\" stroke=\"#334155\" stroke-width=\"2.0\" vector-effect=\"non-scaling-stroke\" /></g><text x=\"50\" y=\"90\" text-anchor=\"middle\" font-size=\"28\" font-family=\"DejaVu Sans, Arial, sans-serif\" font-weight=\"bold\" fill=\"#334155\">4</text></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "Counting all the squares of every size, the total number of squares in the figure is 3.",
+    "as": "আটাইবোৰ আকাৰৰ বৰ্গ গণনা কৰিলে চিত্ৰটোত মুঠ 3টা বৰ্গ আছে।"
+   }
+  }
+ ]
+}
