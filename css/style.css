@@ -1439,21 +1439,8 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   max-width: 440px; line-height: 1.5;
 }
 .ebk-instruct svg { flex-shrink: 0; color: var(--ebk, #4f46e5); }
-.ebk-lang-cap { font-size: .74rem; font-weight: 800; letter-spacing: .4px; text-transform: uppercase; color: var(--ink-soft, #64748b); margin-right: 2px; }
-.ebk-lang-box {
-  display: inline-flex; align-items: center; margin-left: auto; padding: 3px; gap: 2px;
-  background: var(--bg-soft, #f1f5f9);
-  border: 1px solid var(--line, #cbd5e1);
-  border-radius: 24px;
-}
-.ebk-lang-btn {
-  padding: 6px 16px; border-radius: 20px; border: none; cursor: pointer;
-  font-weight: 700; font-size: .82rem;
-  color: var(--ink-soft, #64748b); background: transparent;
-  transition: all var(--transition);
-}
-.ebk-lang-btn.active { background: var(--ebk, #4f46e5); color: #fff; }
-.ebk-lang-single { display: inline-flex; align-items: center; padding: 6px 16px; border-radius: 20px; font-weight: 700; font-size: .82rem; color: var(--ink-soft); background: var(--bg-soft, #f1f5f9); border: 1px solid var(--line, #cbd5e1); }
+.ebk-tswitch { margin-left: auto; }
+.ebk-tswitch .lang-btn { padding: 6px 16px; }
 
 /* Table of contents */
 .ebk-toc {
@@ -1528,7 +1515,6 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 [data-theme="dark"] .ebk-toc-no { background: color-mix(in srgb, var(--ebk, #4f46e5) 28%, #0f172a); }
 [data-theme="dark"] .ebooks-note { background: #16203a; border-color: var(--border, #2b3a55); }
 [data-theme="dark"] .ebook-card .ebook-meta { background: var(--bg-soft); }
-[data-theme="dark"] .ebk-lang-box { background: #16203a; border-color: var(--border, #2b3a55); }
 [data-theme="dark"] .ebk-head-title { color: var(--ink, #e5e7eb); }
 
 @media (max-width: 720px) {
@@ -1536,7 +1522,7 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   .ebk-head-card { padding: 20px 18px; }
   .ebk-head-title { font-size: 1.3rem; }
   .ebk-read-toolbar { flex-direction: column; align-items: stretch; }
-  .ebk-lang-box { margin-left: 0; align-self: flex-start; }
+  .ebk-tswitch { margin-left: 0; align-self: flex-start; }
   .ebk-ch-title { font-size: 1.16rem; }
   .ebk-ch-body { padding-left: 0; }
   .ebk-chapter { padding: 22px 18px; }

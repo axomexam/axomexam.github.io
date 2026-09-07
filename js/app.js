@@ -2665,11 +2665,8 @@
       return;
     }
 
-    const hasAs = book.chapters.some((c) =>
-      c.content && typeof c.content === "object" && c.content.as && String(c.content.as).trim());
-    let readLang = (state.lang === "as" && hasAs) ? "as" : "en";
-
     const chapters = book.chapters || [];
+    let readLang = (state.lang === "as") ? "as" : "en";
     const titleEn = ebkLang(book.title, "en");
     const titleAs = ebkLang(book.title, "as");
     const subjectEn = ebkLang(book.subject, "en");
@@ -2705,14 +2702,12 @@
         <div class="ebk-read-toolbar">
           <p class="ebk-instruct">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
-            ${t("ebooks.noPdf")} ${t("ebooks.langHint")}
+            ${t("ebooks.noPdf")}
           </p>
-          ${hasAs ? `
-            <div class="ebk-lang-box" role="group" aria-label="Reading language">
-              <span class="ebk-lang-cap">${t("ebooks.readLang")}</span>
-              <button type="button" class="ebk-lang-btn ${readLang === "en" ? "active" : ""}" data-ebklang="en">English</button>
-              <button type="button" class="ebk-lang-btn ${readLang === "as" ? "active" : ""}" data-ebklang="as">অসমীয়া</button>
-            </div>` : `<span class="ebk-lang-single">${t("topic.lang.en")}</span>`}
+          <div class="lang-switch ebk-tswitch" role="group" aria-label="Reading language">
+            <button type="button" class="lang-btn ${readLang === "as" ? "active" : ""}" data-ebklang="as">${t("topic.lang.as")}</button>
+            <button type="button" class="lang-btn ${readLang === "en" ? "active" : ""}" data-ebklang="en">${t("topic.lang.en")}</button>
+          </div>
         </div>
 
         <div id="ebk-body"></div>
@@ -2729,12 +2724,12 @@
     const body = $("#ebk-body");
     if (body) body.innerHTML = ebkReaderBodyHTML(book, readLang);
 
-    $$(".ebk-lang-btn", main).forEach((btn) => {
+    $$(".lang-btn", main).forEach((btn) => {
       btn.addEventListener("click", () => {
         const target = btn.dataset.ebklang;
         if (readLang === target) return;
         readLang = target;
-        $$(".ebk-lang-btn", main).forEach((x) => x.classList.toggle("active", x.dataset.ebklang === readLang));
+        $$(".lang-btn", main).forEach((x) => x.classList.toggle("active", x.dataset.ebklang === readLang));
         if (body) body.innerHTML = ebkReaderBodyHTML(book, readLang);
       });
     });
