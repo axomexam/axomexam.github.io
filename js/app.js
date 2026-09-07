@@ -2566,10 +2566,6 @@
         </nav>
         <h1>${t("ebooks.title")}</h1>
         <p class="page-desc">${t("ebooks.sub")}</p>
-        <div class="ebooks-note">
-          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
-          ${t("ebooks.noPdf")}
-        </div>
       </div>
       <section class="section" style="padding-bottom:46px;">
         ${groupKeys.map((key, gi) => {
@@ -2687,7 +2683,6 @@
           <div class="ebk-head-info">
             <div class="ebk-chips">
               <span class="ebk-chip ebk-chip-solid">${escapeHtml(subjectEn)}${subjectAs && subjectAs !== subjectEn ? `<span class="ebk-chip-as"> ${escapeHtml(subjectAs)}</span>` : ""}</span>
-              <span class="ebk-chip">${t("ebooks.readingOnly")}</span>
             </div>
             <h2 class="ebk-head-title">${escapeHtml(titleEn)}${hasAsTitle ? `<span class="ebk-head-title-as">${escapeHtml(titleAs)}</span>` : ""}</h2>
             ${book.description ? `<p class="ebk-desc">${escapeHtml(localized(book.description)).replace(/\n/g, "<br>")}</p>` : ""}
@@ -2700,10 +2695,6 @@
         </header>
 
         <div class="ebk-read-toolbar">
-          <p class="ebk-instruct">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
-            ${t("ebooks.noPdf")}
-          </p>
           <div class="lang-switch ebk-tswitch" role="group" aria-label="Reading language">
             <button type="button" class="lang-btn ${readLang === "as" ? "active" : ""}" data-ebklang="as">${t("topic.lang.as")}</button>
             <button type="button" class="lang-btn ${readLang === "en" ? "active" : ""}" data-ebklang="en">${t("topic.lang.en")}</button>
