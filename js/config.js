@@ -55,6 +55,9 @@ const CONFIG = {
       "indian-polity",
       "indian-economy",
       "assam-geography",
+      "indian-geography",
+      "indian-art-culture",
+      "assam-literature",
     ],
     PYEAR: {
       ssc: { "2023": ["ssc-cgl-2023.pdf"], "2024": ["ssc-cgl-2024.pdf"] },

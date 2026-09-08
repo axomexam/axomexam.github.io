@@ -2548,16 +2548,8 @@
 
     if (!books.length) return showEmpty();
 
-    const groups = {};
-    books.forEach((b) => {
-      const key = (b.subjectKey && String(b.subjectKey).trim()) || "other";
-      (groups[key] = groups[key] || []).push(b);
-    });
-    const order = ["history", "polity", "economy", "geography", "art-culture", "science", "english", "other"];
-    const groupKeys = Object.keys(groups).sort((a, b) => {
-      const ia = order.indexOf(a), ib = order.indexOf(b);
-      return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
-    });
+    const sorted = books.slice().sort((a, b) =>
+      ebkLang(a.title, "en").localeCompare(ebkLang(b.title, "en")));
 
     main.innerHTML = `
       <div class="page-head">
@@ -2568,55 +2560,36 @@
         <p class="page-desc">${t("ebooks.sub")}</p>
       </div>
       <section class="section" style="padding-bottom:46px;">
-        ${groupKeys.map((key, gi) => {
-          const list = groups[key].sort((a, b) => ebkLang(a.title, "en").localeCompare(ebkLang(b.title, "en")));
-          const subjEn = ebkLang(list[0].subject, "en") || ebkLang(list[0].title, "en");
-          const subjAs = ebkLang(list[0].subject, "as");
-          return `
-            <div class="ebook-group">
-              <div class="ebook-group-head reveal">
-                <h2>${escapeHtml(subjEn)}${subjAs && subjAs !== subjEn ? `<span class="ebk-group-head-as"> ${escapeHtml(subjAs)}</span>` : ""}</h2>
-                <span class="sec-sub">${list.reduce((a, x) => a + (x.chapters ? x.chapters.length : 0), 0)} ${t("ebooks.chapters")}</span>
-              </div>
-              <div class="ebooks-grid">
-                ${list.map((book, bi) => {
-                  const chCount = (book.chapters || []).length;
-                  const color = ebkColor(book);
-                  const titleEn = ebkLang(book.title, "en");
-                  const titleAs = ebkLang(book.title, "as");
-                  const subjectEn = ebkLang(book.subject, "en");
-                  const subjectAs = ebkLang(book.subject, "as");
-                  const isAsTitle = titleAs && titleAs !== titleEn;
-                  const showSubjAs = subjectAs && subjectAs !== subjectEn;
-                  return `
-                    <a class="ebook-card reveal" href="/ebooks/${encodeURIComponent(book.id)}" style="--ebk:${color}" data-delay="${(gi * 3 + bi) * 60}">
-                      <span class="ebook-cover">
-                        <span class="ebook-cover-frame" aria-hidden="true"></span>
-                        <span class="ebook-cover-top">
-                          <span class="ebook-cover-publisher">axomexam</span>
-                          <span class="ebook-cover-tag">ই-বুক</span>
-                        </span>
-                        <span class="ebook-cover-title">
-                          <span class="ebk-tt-en">${escapeHtml(titleEn)}</span>
-                          ${isAsTitle ? `<span class="ebk-tt-as">${escapeHtml(titleAs)}</span>` : ""}
-                        </span>
-                        <span class="ebook-cover-subject">
-                          ${escapeHtml(subjectEn)}${showSubjAs ? `<span class="ebk-cv-sub-as"> · ${escapeHtml(subjectAs)}</span>` : ""}
-                        </span>
-                      </span>
-                      <span class="ebook-meta">
-                        <b>${escapeHtml(titleEn)}</b>
-                        <span class="ebook-meta-sub">${isAsTitle ? `<span class="ebk-tt-as">${escapeHtml(titleAs)}</span>` : ""}<span>${chCount} ${t("ebooks.chapters")}</span></span>
-                        <span class="ebook-read-btn">
-                          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
-                          ${t("ebooks.readNow")}
-                        </span>
-                      </span>
-                    </a>`;
-                }).join("")}
-              </div>
-            </div>`;
-        }).join("")}
+        <div class="ebooks-grid">
+          ${sorted.map((book, bi) => {
+            const chCount = (book.chapters || []).length;
+            const color = ebkColor(book);
+            const titleEn = ebkLang(book.title, "en");
+            const subjectEn = ebkLang(book.subject, "en");
+            return `
+              <a class="ebook-card reveal" href="/ebooks/${encodeURIComponent(book.id)}" style="--ebk:${color}" data-delay="${bi * 60}">
+                <span class="ebook-cover">
+                  <span class="ebook-cover-frame" aria-hidden="true"></span>
+                  <span class="ebook-cover-top">
+                    <span class="ebook-cover-publisher">axomexam</span>
+                    <span class="ebook-cover-tag">E-Book</span>
+                  </span>
+                  <span class="ebook-cover-title">
+                    <span class="ebk-tt-en">${escapeHtml(titleEn)}</span>
+                  </span>
+                  <span class="ebook-cover-subject">${escapeHtml(subjectEn)}</span>
+                </span>
+                <span class="ebook-meta">
+                  <b>${escapeHtml(titleEn)}</b>
+                  <span class="ebook-meta-sub"><span>${chCount} ${t("ebooks.chapters")}</span></span>
+                  <span class="ebook-read-btn">
+                    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
+                    ${t("ebooks.readNow")}
+                  </span>
+                </span>
+              </a>`;
+          }).join("")}
+        </div>
       </section>`;
     observeReveals();
   }
