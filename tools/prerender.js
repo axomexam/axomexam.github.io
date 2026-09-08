@@ -37,6 +37,9 @@ const BASE = "https://axomexam.in";
 const SITE_NAME = "axomexam";
 const SITE_TAGLINE =
   "Free bilingual (Assamese & English) Q&A and PDF notes for competitive exams in Assam.";
+const VERSION = "20260909a";
+const OG_ALT =
+  "axomexam - Assam Exam Preparation - Mock Tests, Previous Papers & PDF Notes";
 
 /* Exam-name keyword mentions (used across Mathematics SEO pages). */
 const EXAM_TITLE = "APSC, ADRE 2.0, Assam Police, SSC & Railway";
@@ -258,6 +261,89 @@ const PYEAR_EXAMS =
 /* Downloads */
 const DOWNLOADS = (CONFIG.FALLBACK && CONFIG.FALLBACK.DOWNLOADS) || [];
 
+/* ================= E-Books (read-only online readers) ================= */
+
+function ebkColor(book) {
+  const c = book && book.color;
+  return /^#[0-9a-fA-F]{3,8}$/.test(c || "") ? c : "#4f46e5";
+}
+
+function ebkLang(obj, lang) {
+  if (obj == null) return "";
+  if (typeof obj === "string") return obj;
+  const l = lang || "en";
+  if (obj[l] && String(obj[l]).trim()) return obj[l];
+  return obj.en || obj.as || "";
+}
+
+function formatMath(str) {
+  if (str == null) return "";
+  let s = String(str);
+  const hasLatex = /\$[^$]+\$|\\\([^\\]+\\\)/.test(s);
+  if (!hasLatex) {
+    s = escapeHtml(s);
+    s = s.replace(/sqrt\(([^)]+)\)/gi, '&radic;<span style="text-decoration:overline;padding-left:1px;">$1</span>');
+    s = s.replace(/√\(([^)]+)\)/g, '&radic;<span style="text-decoration:overline;padding-left:1px;">$1</span>');
+    s = s.replace(/\^{([^}]+)}/g, '<sup>$1</sup>');
+    s = s.replace(/\^([\-\+]?[0-9০-৯a-zA-Z\u0980-\u09FF]+)/g, '<sup>$1</sup>');
+    s = s.replace(/_{([^}]+)}/g, '<sub>$1</sub>');
+    s = s.replace(/_([0-9০-৯a-zA-Z\u0980-\u09FF]+)/g, '<sub>$1</sub>');
+    s = s.replace(/\+\/-/g, '&plusmn;');
+    s = s.replace(/&lt;=/g, '&le;').replace(/&gt;=/g, '&ge;');
+  }
+  return s;
+}
+
+function ebkContentHTML(text) {
+  if (text == null) return "";
+  const lines = String(text).split("\n");
+  let html = "";
+  let listOpen = false;
+  const closeList = () => { if (listOpen) { html += "</ul>"; listOpen = false; } };
+  lines.forEach((raw) => {
+    const line = (raw || "").trim();
+    if (!line) { closeList(); return; }
+    const bullet = line.match(/^[-•*]\s+(.*)$/);
+    if (bullet) {
+      if (!listOpen) { html += '<ul class="ebk-list">'; listOpen = true; }
+      html += `<li>${formatMath(bullet[1])}</li>`;
+    } else {
+      closeList();
+      html += `<p class="ebk-para">${formatMath(line)}</p>`;
+    }
+  });
+  closeList();
+  return html;
+}
+
+function ebkReaderBodyHTML(book, lang) {
+  const chapters = book.chapters || [];
+  const toc = chapters.map((c, i) => `
+      <a class="ebk-toc-item" href="#ebk-ch-${i}">
+        <span class="ebk-toc-no">${i + 1}</span>
+        <span>${escapeHtml(ebkLang(c.title, lang))}</span>
+      </a>`).join("");
+  const list = chapters.map((c, i) => `
+      <section class="ebk-chapter" id="ebk-ch-${i}">
+        <h3 class="ebk-ch-title"><span class="ebk-ch-no">${i + 1}</span>${escapeHtml(ebkLang(c.title, lang))}</h3>
+        <div class="ebk-ch-body">${ebkContentHTML(ebkLang(c.content, lang))}</div>
+      </section>`).join("");
+  return `
+      ${chapters.length > 1 ? `<nav class="ebk-toc" aria-label="Contents"><h4>Contents</h4>${toc}</nav>` : ""}
+      <div class="ebk-chapters">${list}</div>`;
+}
+
+const EBOOKS = [];
+try {
+  for (const f of fs.readdirSync(path.join(ROOT, "data", "books"))) {
+    if (!f.endsWith(".json")) continue;
+    const d = readJSON(path.join(ROOT, "data", "books", f));
+    if (d && d.id && d.title && (d.chapters || []).length) EBOOKS.push(d);
+  }
+} catch (e) {}
+EBOOKS.sort((a, b) =>
+  ebkLang(a.title, "en").localeCompare(ebkLang(b.title, "en")));
+
 /* ================= build the route tree (mirrors app.js normalize) ================= */
 
 const categories = [];
@@ -332,7 +418,7 @@ for (const tp of trendingTopics) {
 
 /* ================= page shell ================= */
 
-function shellHTML({ route, title, description, canonical, keywords, body }) {
+function shellHTML({ route, title, description, canonical, keywords, ogImageAlt, body }) {
   const canonicalUrl = canonical || BASE + route;
   const ogTitle = escapeHtml(title);
   const ogDesc = escapeHtml(description);
@@ -356,18 +442,33 @@ function shellHTML({ route, title, description, canonical, keywords, body }) {
   <meta property="og:title" content="${ogTitle}" />
   <meta property="og:description" content="${ogDesc}" />
   <meta property="og:url" content="${canonicalUrl}" />
+
+  <meta property="og:image" content="${BASE}/og-image.png" />
+
+  <meta property="og:image:width" content="1200" />
+
+  <meta property="og:image:height" content="630" />
+
+  <meta property="og:image:alt" content="${escapeHtml(ogImageAlt || OG_ALT)}" />
+
+  <meta property="og:locale" content="en_IN" />
+
+  <meta name="twitter:image" content="${BASE}/og-image.png" />
+
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="${ogTitle}" />
   <meta name="twitter:description" content="${ogDesc}" />
 
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%234f46e5'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial'%3EA%3C/text%3E%3C/svg%3E" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Noto+Serif+Bengali:wght@500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
   <!-- Fixed Absolute CSS Path -->
-  <link rel="stylesheet" href="/css/style.css?v=20260902a" />
+  <link rel="stylesheet" href="/css/style.css?v=${VERSION}" />
 
   <!-- GitHub Pages / Netlify Clean URL Single Page App Redirection Handler -->
   <script>
@@ -416,7 +517,7 @@ function shellHTML({ route, title, description, canonical, keywords, body }) {
     <div class="container header-inner">
       <a href="/" class="brand" aria-label="axomexam home">
         <span class="brand-mark">A</span>
-        <span class="brand-text">axomexam</span>
+        <span class="brand-text">axomexam.in</span>
       </a>
 
       <!-- Master Search + theme toggle (desktop) -->
@@ -431,7 +532,7 @@ function shellHTML({ route, title, description, canonical, keywords, body }) {
         <!-- Theme toggle (desktop) -->
         <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
           <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
-          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 0 1 1-9-9z"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg>
         </button>
       </div>
 
@@ -480,7 +581,7 @@ function shellHTML({ route, title, description, canonical, keywords, body }) {
       <span class="brand-text">axomexam</span>
       <button class="theme-toggle m-theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
         <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
-        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 0 1 1-9-9z"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"/></svg>
       </button>
       <button id="mobile-close" class="m-close" type="button" aria-label="Close menu">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
@@ -556,10 +657,10 @@ ${body}
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
   <!-- Fixed Absolute JS Paths -->
-  <script src="/js/config.js?v=20260902a"></script>
-  <script src="/js/i18n.js?v=20260902a"></script>
-  <script src="/js/api.js?v=20260904e"></script>
-  <script src="/js/app.js?v=20260904f"></script>
+  <script src="/js/config.js?v=${VERSION}"></script>
+  <script src="/js/i18n.js?v=${VERSION}"></script>
+  <script src="/js/api.js?v=${VERSION}"></script>
+  <script src="/js/app.js?v=${VERSION}"></script>
 </body>
 </html>
 `;
@@ -1450,6 +1551,132 @@ function addSitemap(route, priority, changefreq) {
   </url>`);
 }
 
+function buildEbookLibrary() {
+  const cards = EBOOKS.map((book, bi) => {
+    const chCount = (book.chapters || []).length;
+    const color = ebkColor(book);
+    const titleEn = ebkLang(book.title, "en");
+    const subjectEn = ebkLang(book.subject, "en");
+    return `
+              <a class="ebook-card reveal" href="/ebooks/${encodeURIComponent(book.id)}" style="--ebk:${color}" data-delay="${bi * 60}">
+                <span class="ebook-cover">
+                  <span class="ebook-cover-frame" aria-hidden="true"></span>
+                  <span class="ebook-cover-top">
+                    <span class="ebook-cover-publisher">axomexam</span>
+                    <span class="ebook-cover-tag">E-Book</span>
+                  </span>
+                  <span class="ebook-cover-title">
+                    <span class="ebk-tt-en">${escapeHtml(titleEn)}</span>
+                  </span>
+                  <span class="ebook-cover-subject">${escapeHtml(subjectEn)}</span>
+                </span>
+                <span class="ebook-meta">
+                  <b>${escapeHtml(titleEn)}</b>
+                  <span class="ebook-meta-sub"><span>${chCount} chapters</span></span>
+                  <span class="ebook-read-btn">
+                    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
+                    Read E-Book
+                  </span>
+                </span>
+              </a>`;
+  }).join("");
+  const body = `
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">Home</a><span class="bc-sep">/</span><span>E-Books</span>
+        </nav>
+        <h1>E-Books Library</h1>
+        <p class="page-desc">Topic-wise online e-books for every Assam competitive exam — Assam History, Indian History, Art &amp; Culture, Polity, Economy, Geography and more. Read for free in your browser.</p>
+      </div>
+      <section class="section" style="padding-bottom:46px;">
+        <div class="ebooks-grid">${cards}</div>
+      </section>`;
+  return {
+    html: shellHTML({
+      route: "/ebooks",
+      title: "E-Book Library | axomexam",
+      description: "100% free bilingual (English & Assamese) topic-wise e-books for ADRE 2.0, Assam Police, APSC, SSC & Railway — Assam History, Indian History, Art & Culture, Polity, Economy and Geography reading guides. Read online anytime; no download needed.",
+      canonical: `${BASE}/ebooks`,
+      keywords: "axomexam ebooks, assam exam e-book, assam gk book online, apssc notes",
+      ogImageAlt: "axomexam - Free bilingual E-Book Library for Assam Exams",
+      body,
+    }),
+    jsonld: "",
+  };
+}
+
+function buildEbookReader(book) {
+  const chapters = book.chapters || [];
+  const titleEn = ebkLang(book.title, "en");
+  const titleAs = ebkLang(book.title, "as");
+  const subjectEn = ebkLang(book.subject, "en");
+  const subjectAs = ebkLang(book.subject, "as");
+  const color = ebkColor(book);
+  const desc = ebkLang(book.description, "en");
+  const author = ebkLang(book.author, "en");
+  const updated = book.updated || "";
+  const hasAsTitle = !!(titleAs && titleAs !== titleEn);
+
+  const body = `
+      <div class="page-head ebk-page-head">
+        <nav class="breadcrumb">
+          <a href="/">Home</a><span class="bc-sep">/</span>
+          <a href="/ebooks">E-Books</a><span class="bc-sep">/</span>
+          <span>${escapeHtml(titleEn)}</span>
+        </nav>
+      </div>
+      <div class="ebk-reader" style="--ebk:${color};">
+        <header class="ebk-head-card ebk-head-clean">
+          <div class="ebk-head-info">
+            <div class="ebk-chips">
+              <span class="ebk-chip ebk-chip-solid">${escapeHtml(subjectEn)}${subjectAs && subjectAs !== subjectEn ? `<span class="ebk-chip-as"> ${escapeHtml(subjectAs)}</span>` : ""}</span>
+            </div>
+            <h2 class="ebk-head-title">${escapeHtml(titleEn)}${hasAsTitle ? `<span class="ebk-head-title-as">${escapeHtml(titleAs)}</span>` : ""}</h2>
+            ${desc ? `<p class="ebk-desc">${escapeHtml(desc).replace(/\n/g, "<br>")}</p>` : ""}
+            <div class="ebk-head-meta">
+              ${author ? `<span><b>${escapeHtml(author)}</b></span>` : ""}
+              <span>${chapters.length} chapters</span>
+              ${updated ? `<span>Updated: ${escapeHtml(updated)}</span>` : ""}
+            </div>
+          </div>
+        </header>
+
+        <div class="ebk-read-toolbar">
+          <div class="lang-switch ebk-tswitch" role="group" aria-label="Reading language">
+            <button type="button" class="lang-btn" data-ebklang="as">অসমীয়া</button>
+            <button type="button" class="lang-btn active" data-ebklang="en">English</button>
+          </div>
+        </div>
+
+        <div id="ebk-body">${ebkReaderBodyHTML(book, "en")}</div>
+
+        <div class="ebk-reader-foot">
+          <a class="btn btn-outline btn-sm" href="/ebooks">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+            All E-Books
+          </a>
+          <p class="ebk-no-pdf">Online reading only — this e-book cannot be downloaded as a PDF.</p>
+        </div>
+      </div>`;
+
+  const descForMeta = (book.description ? ebkLang(book.description, "en") : "")
+    .replace(/\s+/g, " ").trim();
+  const description = `${titleEn} e-book for ${subjectEn || "Assam competitive exams"} — read all ${chapters.length} chapters online free${descForMeta ? `. ${descForMeta.slice(0, 170)}` : ""}.`;
+
+  return {
+    html: shellHTML({
+      route: `/ebooks/${book.id}`,
+      title: `${titleEn} - Free Online E-Book | axomexam`,
+      description,
+      canonical: `${BASE}/ebooks/${book.id}`,
+      keywords: `axomexam ebooks, ${titleEn} ebook, ${subjectEn} notes, assam competitive exam study material`,
+      ogImageAlt: `axomexam - ${titleEn} - Free bilingual E-Book`,
+      body,
+    }),
+    jsonld: "",
+  };
+}
+
 function main() {
   ensureCleanDir();
 
@@ -1588,6 +1815,14 @@ function main() {
   addSitemap("/categories", "0.85", "weekly");
   addPage("/downloads", buildDownloadsPage());
   addSitemap("/downloads", "0.9", "daily");
+
+  /* E-Books (library + per-book reader pages) */
+  addPage("/ebooks", buildEbookLibrary());
+  addSitemap("/ebooks", "0.9", "weekly");
+  for (const book of EBOOKS) {
+    addPage(`/ebooks/${book.id}`, buildEbookReader(book));
+    addSitemap(`/ebooks/${book.id}`, "0.8", "weekly");
+  }
 
   /* Static pages (search is prerendered but kept out of the sitemap) */
   for (const key of ["about", "contact", "privacy", "privacy-policy", "terms", "disclaimer"]) {
