@@ -1517,6 +1517,20 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 [data-theme="dark"] .ebook-card .ebook-meta { background: var(--bg-soft); }
 [data-theme="dark"] .ebk-head-title { color: var(--ink, #e5e7eb); }
 
+/* E-book reading progress bar (native scrollbar is hidden on mobile) */
+.ebk-progress {
+  position: fixed; top: 0; left: 0; right: 0; height: 6px;
+  z-index: 400; pointer-events: none;
+  background: color-mix(in srgb, var(--ebk, #4f46e5) 18%, transparent);
+}
+.ebk-progress > span {
+  display: block; height: 100%; width: 0%;
+  background: linear-gradient(90deg, var(--ebk, #4f46e5),
+    color-mix(in srgb, var(--ebk, #4f46e5) 55%, #22d3ee));
+  box-shadow: 0 0 8px color-mix(in srgb, var(--ebk, #4f46e5) 55%, transparent);
+  transition: width .08s linear;
+}
+
 @media (max-width: 720px) {
   .ebooks-grid { grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); gap: 14px; }
   .ebk-head-card { padding: 20px 18px; }

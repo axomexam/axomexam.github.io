@@ -859,6 +859,7 @@
     updateTabbar(segs);
     resetScroll();
     updateSEO();
+    clearEbookProgress();
 
     if (segs[0] !== "mock-test" && state.mock && state.mock.timerId) {
       stopMockTimer();
@@ -2612,6 +2613,45 @@
       <div class="ebk-chapters">${list}</div>`;
   }
 
+  /* Reading progress bar — mobile browsers hide the native scrollbar while
+     reading, so the reader shows a slim fixed progress strip at the top. */
+  let ebkRaf = null;
+  function scheduleEbkProgress() {
+    if (ebkRaf) return;
+    ebkRaf = requestAnimationFrame(drawEbkProgress);
+  }
+  function drawEbkProgress() {
+    ebkRaf = null;
+    const fill = document.getElementById("ebk-progress-fill");
+    if (!fill) return;
+    const doc = document.documentElement;
+    const max = doc.scrollHeight - window.innerHeight;
+    const top = window.pageYOffset || doc.scrollTop || 0;
+    const pct = max > 0 ? Math.min(100, Math.max(0, (top / max) * 100)) : 0;
+    fill.style.width = pct.toFixed(2) + "%";
+  }
+  function clearEbookProgress() {
+    const bar = document.getElementById("ebk-progress");
+    if (bar) bar.remove();
+    window.removeEventListener("scroll", scheduleEbkProgress);
+    window.removeEventListener("resize", scheduleEbkProgress);
+    if (ebkRaf) { cancelAnimationFrame(ebkRaf); ebkRaf = null; }
+  }
+  function showEbookProgress(color) {
+    clearEbookProgress();
+    const bar = document.createElement("div");
+    bar.id = "ebk-progress";
+    bar.className = "ebk-progress";
+    bar.style.setProperty("--ebk", color);
+    const fill = document.createElement("span");
+    fill.id = "ebk-progress-fill";
+    bar.appendChild(fill);
+    document.body.appendChild(bar);
+    window.addEventListener("scroll", scheduleEbkProgress, { passive: true });
+    window.addEventListener("resize", scheduleEbkProgress);
+    scheduleEbkProgress();
+  }
+
   async function renderEbookReaderPage(main, bookId) {
     const safeId = String(bookId || "").replace(/[^A-Za-z0-9_-]/g, "");
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
@@ -2687,6 +2727,7 @@
 
     const body = $("#ebk-body");
     if (body) body.innerHTML = ebkReaderBodyHTML(book, readLang);
+    showEbookProgress(color);
 
     $$(".lang-btn", main).forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -2694,7 +2735,10 @@
         if (readLang === target) return;
         readLang = target;
         $$(".lang-btn", main).forEach((x) => x.classList.toggle("active", x.dataset.ebklang === readLang));
-        if (body) body.innerHTML = ebkReaderBodyHTML(book, readLang);
+        if (body) {
+          body.innerHTML = ebkReaderBodyHTML(book, readLang);
+          scheduleEbkProgress();
+        }
       });
     });
   }
