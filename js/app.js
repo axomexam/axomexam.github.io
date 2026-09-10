@@ -2847,6 +2847,8 @@
           <b>Safety &amp; disclaimer:</b> For your security, download the app only from this official page (axomexam.in). axomexam is NOT an official app of APSC, Assam Police, SSC, Railway, ADRE or any government body. All exam names and trademarks belong to their respective owners. This is an independent study aid.
         </div>
       </section>`;
+    const dlLink = main.querySelector(".appdl-download");
+    if (dlLink) dlLink.addEventListener("click", markAppPromptDone);
     observeReveals();
   }
 
@@ -4129,6 +4131,7 @@
 
     document.body.setAttribute("data-lang", state.lang);
     applyStaticI18n();
+    initAppPrompt();
 
     try {
       const data = await API.getCategories();
@@ -4321,6 +4324,64 @@
       btn.innerHTML = iconHtml;
       btn.style.cssText = "display:inline-flex; align-items:center; justify-content:center; width:34px; height:34px; border-radius:10px; border:1px solid var(--border,#e2e8f0); background:var(--bg-subtle,#f8fafc); color:var(--ink,#0f172a); cursor:pointer; padding:0; outline:none; transition:all 0.2s ease;";
     });
+  }
+
+  /* ================= Mobile App Download Prompt ================= */
+  const APP_PROMPT_DONE_KEY = "axomexam-app-prompt-done";
+  let appPromptDismissed = false;
+
+  function appPromptDone() {
+    try { return localStorage.getItem(APP_PROMPT_DONE_KEY) === "1"; } catch (e) { return false; }
+  }
+
+  function dismissAppPrompt() {
+    appPromptDismissed = true;
+    const el = document.getElementById("app-prompt");
+    if (!el) return;
+    el.classList.remove("show");
+    window.setTimeout(() => { if (el) el.hidden = true; }, 300);
+  }
+
+  function markAppPromptDone() {
+    try { localStorage.setItem(APP_PROMPT_DONE_KEY, "1"); } catch (e) { }
+    dismissAppPrompt();
+  }
+
+  function initAppPrompt() {
+    if (window.matchMedia && !window.matchMedia("(max-width: 900px)").matches) return;
+    if (appPromptDone()) return;
+
+    const el = document.createElement("div");
+    el.id = "app-prompt";
+    el.className = "app-prompt";
+    el.hidden = true;
+    el.innerHTML = `
+      <a class="app-prompt-link" href="/download-app">
+        <img class="app-prompt-icon" src="/app/axomexam-icon.png" alt="" width="40" height="40" />
+        <span class="app-prompt-text">
+          <b>${escapeHtml(t("appPrompt.title"))}</b>
+          <span>${escapeHtml(t("appPrompt.msg"))}</span>
+        </span>
+      </a>
+      <button class="app-prompt-close" type="button" aria-label="${escapeHtml(t("appPrompt.close"))}" title="${escapeHtml(t("appPrompt.close"))}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>`;
+    document.body.appendChild(el);
+
+    el.querySelector(".app-prompt-close").addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      dismissAppPrompt();
+    });
+    el.querySelector(".app-prompt-link").addEventListener("click", () => {
+      dismissAppPrompt();
+    });
+
+    window.setTimeout(() => {
+      if (appPromptDismissed || appPromptDone()) return;
+      el.hidden = false;
+      el.classList.add("show");
+    }, 5000);
   }
 
   function initTheme() {

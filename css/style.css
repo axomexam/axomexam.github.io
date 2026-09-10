@@ -705,6 +705,54 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 }
 
 /* ============================================================
+   Mobile App Download Prompt (bottom-right, mobile only)
+   ============================================================ */
+.app-prompt {
+  position: fixed;
+  right: 12px;
+  bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+  z-index: 560;
+  display: none;
+  align-items: center;
+  gap: 9px;
+  max-width: min(80vw, 252px);
+  padding: 6px 8px 6px 6px;
+  background: #dcfce7;
+  border: 1px solid #a7e8bf;
+  border-radius: 999px;
+  box-shadow: 0 12px 30px -10px rgba(15, 23, 42, .4);
+}
+.app-prompt.show { display: flex; animation: appPromptIn .32s cubic-bezier(.34, 1.3, .64, 1) both; }
+.app-prompt-link { display: flex; align-items: center; gap: 9px; text-decoration: none; color: inherit; min-width: 0; }
+.app-prompt-icon {
+  width: 40px; height: 40px; border-radius: 50%; flex-shrink: 0;
+  display: block; object-fit: cover;
+  box-shadow: 0 3px 8px -2px rgba(15, 23, 42, .35);
+}
+.app-prompt-text { display: flex; flex-direction: column; min-width: 0; line-height: 1.25; }
+.app-prompt-text b { font-size: .78rem; font-weight: 800; color: var(--ink); }
+.app-prompt-text span {
+  margin-top: 2px; font-size: .67rem; font-weight: 600; color: var(--ink-faint);
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.app-prompt-close {
+  position: absolute; top: -11px; right: 6px;
+  width: 22px; height: 22px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--bg); color: var(--ink-soft);
+  border: 1px solid var(--line);
+  box-shadow: 0 2px 6px rgba(15, 23, 42, .25);
+  cursor: pointer; padding: 0;
+}
+.app-prompt-close svg { width: 11px; height: 11px; }
+@keyframes appPromptIn {
+  from { opacity: 0; transform: translateY(16px) scale(.9); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+@media (min-width: 901px) { .app-prompt { display: none !important; } }
+[data-theme="dark"] .app-prompt { background: var(--bg); border-color: var(--line); }
+
+/* ============================================================
    Mock Test UI
    ============================================================ */
 .mock-intro { text-align: center; padding: 18px 0 6px; }
