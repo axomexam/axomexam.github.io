@@ -1,282 +1,632 @@
 {
   "setNumber": 4,
-  "title": "Computer Awareness - MS Office Set 4",
+  "title": "Set 4",
   "subject": "MS Office",
   "questions": [
     {
-      "q": { "en": "What is the default file extension of MS PowerPoint 2007 and later versions?", "as": "MS PowerPoint 2007 আৰু পিছৰ সংস্কৰণৰ default file extension কি?" },
+      "q": {
+        "en": "Which view shows how the document will look when printed?",
+        "as": "প্ৰিন্ট কৰাৰ পিছত ডকুমেণ্ট কেনে দেখা যাব, তাক কোন ভিউৱে দেখুৱায়?"
+      },
       "options": [
-        { "en": ".ppt", "as": ".ppt" },
-        { "en": ".pptx", "as": ".pptx" },
-        { "en": ".docx", "as": ".docx" },
-        { "en": ".pps", "as": ".pps" }
+        {
+          "en": "Outline",
+          "as": "আউটলাইন"
+        },
+        {
+          "en": "Web Layout",
+          "as": "ৱেব লে'আউট"
+        },
+        {
+          "en": "Read Mode",
+          "as": "ৰিড ম'ড"
+        },
+        {
+          "en": "Print Layout",
+          "as": "প্ৰিন্ট লে'আউট"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 3
     },
     {
-      "q": { "en": "A single page in a PowerPoint presentation is called a?", "as": "PowerPoint presentation ত এটা পৃষ্ঠাক কি বোলা হয়?" },
+      "q": {
+        "en": "Which tool copies formatting from one part of text to another?",
+        "as": "এটা লিখনীৰ পৰা আন এটালৈ ফৰ্মেটিং কপি কৰা সঁজুলি কোনটো?"
+      },
       "options": [
-        { "en": "Sheet", "as": "Sheet" },
-        { "en": "Slide", "as": "Slide" },
-        { "en": "Page", "as": "Page" },
-        { "en": "Frame", "as": "Frame" }
+        {
+          "en": "Clipboard",
+          "as": "ক্লিপবৰ্ড"
+        },
+        {
+          "en": "Painter",
+          "as": "পেইণ্টাৰ"
+        },
+        {
+          "en": "Copy Style",
+          "as": "কপি ষ্টাইল"
+        },
+        {
+          "en": "Format Painter",
+          "as": "ফৰ্মেট পেইণ্টাৰ"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 3
     },
     {
-      "q": { "en": "Which function key starts a slide show from the beginning in PowerPoint?", "as": "PowerPoint ত আৰম্ভণিৰ পৰা slide show আৰম্ভ কৰিবলৈ কোনটো function key?" },
+      "q": {
+        "en": "Which shortcut is used to remove all formatting from selected text?",
+        "as": "নিৰ্বাচিত লিখনীৰ পৰা সকলো ফৰ্মেটিং আঁতৰাবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "F1", "as": "F1" },
-        { "en": "F5", "as": "F5" },
-        { "en": "F7", "as": "F7" },
-        { "en": "F12", "as": "F12" }
+        {
+          "en": "Ctrl + R",
+          "as": "Ctrl + R"
+        },
+        {
+          "en": "Ctrl + Shift + N",
+          "as": "Ctrl + Shift + N"
+        },
+        {
+          "en": "Ctrl + Space",
+          "as": "Ctrl + Space"
+        },
+        {
+          "en": "Ctrl + Del",
+          "as": "Ctrl + Del"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 2
     },
     {
-      "q": { "en": "Which shortcut starts a slide show from the current slide?", "as": "বৰ্তমান slide ৰ পৰা slide show আৰম্ভ কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which feature is used to check spelling and grammar?",
+        "as": "বানান আৰু ব্যাকৰণ পৰীক্ষা কৰিবলৈ কোন সুবিধা ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "F5", "as": "F5" },
-        { "en": "Shift + F5", "as": "Shift + F5" },
-        { "en": "Ctrl + F5", "as": "Ctrl + F5" },
-        { "en": "Alt + F5", "as": "Alt + F5" }
+        {
+          "en": "Translate",
+          "as": "অনুবাদ"
+        },
+        {
+          "en": "Spelling & Grammar",
+          "as": "স্পেলিং এণ্ড গ্ৰেমাৰ"
+        },
+        {
+          "en": "Thesaurus",
+          "as": "থেছ'ৰাছ"
+        },
+        {
+          "en": "Word Count",
+          "as": "ৱৰ্ড কাউণ্ট"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 1
     },
     {
-      "q": { "en": "Which shortcut creates a new slide in PowerPoint?", "as": "PowerPoint ত নতুন slide সৃষ্টি কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which shortcut is used to insert a comment?",
+        "as": "কমেণ্ট সন্নিবিষ্ট কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Ctrl + N", "as": "Ctrl + N" },
-        { "en": "Ctrl + M", "as": "Ctrl + M" },
-        { "en": "Ctrl + S", "as": "Ctrl + S" },
-        { "en": "Ctrl + D", "as": "Ctrl + D" }
+        {
+          "en": "Ctrl + Alt + M",
+          "as": "Ctrl + Alt + M"
+        },
+        {
+          "en": "Ctrl + Alt + C",
+          "as": "Ctrl + Alt + C"
+        },
+        {
+          "en": "Ctrl + M",
+          "as": "Ctrl + M"
+        },
+        {
+          "en": "Alt + M",
+          "as": "Alt + M"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "Which feature in PowerPoint adds movement to objects on a slide?", "as": "PowerPoint ত slide ৰ object ত গতি যোগ কৰা feature কোনটো?" },
+      "q": {
+        "en": "Which key opens the Help window in MS Office?",
+        "as": "MS Office-ত Help উইণ্ড' খুলিবলৈ কোন কি ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Animation", "as": "Animation" },
-        { "en": "Transition", "as": "Transition" },
-        { "en": "Design", "as": "Design" },
-        { "en": "Layout", "as": "Layout" }
+        {
+          "en": "F2",
+          "as": "F2"
+        },
+        {
+          "en": "F5",
+          "as": "F5"
+        },
+        {
+          "en": "F1",
+          "as": "F1"
+        },
+        {
+          "en": "F10",
+          "as": "F10"
+        }
       ],
-      "correct": 0,
-      "difficulty": "medium"
+      "correct": 2
     },
     {
-      "q": { "en": "Which feature controls how one slide moves to the next slide?", "as": "কোনটো feature ই এটা slide ৰ পৰা পৰৱৰ্তী slide লৈ যোৱাৰ ধৰণ নিয়ন্ত্ৰণ কৰে?" },
+      "q": {
+        "en": "Which feature is used to create a standard document from a ready-made design?",
+        "as": "সাজু ডিজাইনৰ পৰা মানক ডকুমেণ্ট সৃষ্টি কৰিবলৈ কোন সুবিধা ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Animation", "as": "Animation" },
-        { "en": "Transition", "as": "Transition" },
-        { "en": "Insert", "as": "Insert" },
-        { "en": "Format", "as": "Format" }
+        {
+          "en": "Theme",
+          "as": "থীম"
+        },
+        {
+          "en": "Style",
+          "as": "ষ্টাইল"
+        },
+        {
+          "en": "Format",
+          "as": "ফৰ্মেট"
+        },
+        {
+          "en": "Template",
+          "as": "টেমপ্লেট"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 3
     },
     {
-      "q": { "en": "Which view in PowerPoint shows thumbnails of all slides at once?", "as": "PowerPoint ত কোনটো view ত সকলো slide ৰ thumbnail একেলগে দেখুওৱা হয়?" },
+      "q": {
+        "en": "Office Clipboard can store up to how many items?",
+        "as": "Office ক্লিপবৰ্ডে সৰ্বাধিক কিমানটা বস্তু সংৰক্ষণ কৰিব পাৰে?"
+      },
       "options": [
-        { "en": "Normal", "as": "Normal" },
-        { "en": "Slide Sorter", "as": "Slide Sorter" },
-        { "en": "Reading", "as": "Reading" },
-        { "en": "Outline", "as": "Outline" }
+        {
+          "en": "24",
+          "as": "24"
+        },
+        {
+          "en": "100",
+          "as": "100"
+        },
+        {
+          "en": "10",
+          "as": "10"
+        },
+        {
+          "en": "12",
+          "as": "12"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "Which view is used to add speaker notes in PowerPoint?", "as": "PowerPoint ত speaker notes যোগ কৰিবলৈ কোনটো view ব্যৱহাৰ কৰা হয়?" },
+      "q": {
+        "en": "The Quick Access Toolbar is located at the?",
+        "as": "Quick Access Toolbar ক'ত অৱস্থিত?"
+      },
       "options": [
-        { "en": "Normal", "as": "Normal" },
-        { "en": "Notes Page", "as": "Notes Page" },
-        { "en": "Slide Sorter", "as": "Slide Sorter" },
-        { "en": "Outline", "as": "Outline" }
+        {
+          "en": "Center",
+          "as": "মাজত"
+        },
+        {
+          "en": "Bottom",
+          "as": "তলত"
+        },
+        {
+          "en": "Top-left corner",
+          "as": "ওপৰ বাওঁ কোণত"
+        },
+        {
+          "en": "Right side",
+          "as": "সোঁফালে"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 2
     },
     {
-      "q": { "en": "Which tab contains the New Slide option in PowerPoint?", "as": "PowerPoint ত New Slide option কোনটো tab ত থাকে?" },
+      "q": {
+        "en": "Mail Merge is used to?",
+        "as": "মেইল মাৰ্জ কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Insert", "as": "Insert" },
-        { "en": "Home", "as": "Home" },
-        { "en": "Design", "as": "Design" },
-        { "en": "View", "as": "View" }
+        {
+          "en": "Send the same letter to many people",
+          "as": "এটা চিঠি বহু লোকলৈ পঠোৱা"
+        },
+        {
+          "en": "Insert images",
+          "as": "ছবি সন্নিবিষ্ট কৰা"
+        },
+        {
+          "en": "Calculate totals",
+          "as": "যোগফল গণনা"
+        },
+        {
+          "en": "Create charts",
+          "as": "চাৰ্ট সৃষ্টি"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 0
     },
     {
-      "q": { "en": "What is the default layout of a new slide in PowerPoint?", "as": "PowerPoint ত নতুন slide ৰ default layout কি?" },
+      "q": {
+        "en": "Which file extension represents a PowerPoint template?",
+        "as": "PowerPoint টেমপ্লেটৰ এক্সটেনচন কোনটো?"
+      },
       "options": [
-        { "en": "Title Slide", "as": "Title Slide" },
-        { "en": "Title and Content", "as": "Title and Content" },
-        { "en": "Blank", "as": "Blank" },
-        { "en": "Two Content", "as": "Two Content" }
+        {
+          "en": ".potx",
+          "as": ".potx"
+        },
+        {
+          "en": ".pptx",
+          "as": ".pptx"
+        },
+        {
+          "en": ".ppsx",
+          "as": ".ppsx"
+        },
+        {
+          "en": ".docx",
+          "as": ".docx"
+        }
       ],
-      "correct": 1,
-      "difficulty": "hard"
+      "correct": 0
     },
     {
-      "q": { "en": "Which format is used to save a presentation that runs automatically as a slide show?", "as": "স্বয়ংক্ৰিয়ভাৱে slide show হিচাপে চলা presentation চেভ কৰিবলৈ কোনটো format ব্যৱহাৰ কৰা হয়?" },
+      "q": {
+        "en": "Which feature automatically corrects common typing errors?",
+        "as": "সাধাৰণ টাইপিং ভুল স্বয়ংক্ৰিয়ভাৱে সংশোধন কৰা সুবিধা কোনটো?"
+      },
       "options": [
-        { "en": ".pptx", "as": ".pptx" },
-        { "en": ".ppsx", "as": ".ppsx" },
-        { "en": ".potx", "as": ".potx" },
-        { "en": ".docx", "as": ".docx" }
+        {
+          "en": "AutoFormat",
+          "as": "অটোফৰ্মেট"
+        },
+        {
+          "en": "AutoCorrect",
+          "as": "অটো কৰেক্ট"
+        },
+        {
+          "en": "AutoText",
+          "as": "অটোটেক্সট"
+        },
+        {
+          "en": "AutoSave",
+          "as": "অটোচেভ"
+        }
       ],
-      "correct": 1,
-      "difficulty": "hard"
+      "correct": 1
     },
     {
-      "q": { "en": "Which shortcut duplicates the selected slide in PowerPoint?", "as": "PowerPoint ত selected slide duplicate কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which shortcut displays the Open dialog box?",
+        "as": "Open ডায়লগ বক্স দেখুওৱাবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Ctrl + D", "as": "Ctrl + D" },
-        { "en": "Ctrl + M", "as": "Ctrl + M" },
-        { "en": "Ctrl + C", "as": "Ctrl + C" },
-        { "en": "Ctrl + N", "as": "Ctrl + N" }
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        },
+        {
+          "en": "Ctrl + O",
+          "as": "Ctrl + O"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        }
       ],
-      "correct": 0,
-      "difficulty": "medium"
+      "correct": 1
     },
     {
-      "q": { "en": "Which tab contains the Slide Master option?", "as": "Slide Master option কোনটো tab ত থাকে?" },
+      "q": {
+        "en": "Which shortcut is used to close a document?",
+        "as": "ডকুমেণ্ট বন্ধ কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Home", "as": "Home" },
-        { "en": "Insert", "as": "Insert" },
-        { "en": "View", "as": "View" },
-        { "en": "Animation", "as": "Animation" }
+        {
+          "en": "Ctrl + W",
+          "as": "Ctrl + W"
+        },
+        {
+          "en": "Ctrl + Q",
+          "as": "Ctrl + Q"
+        },
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        }
       ],
-      "correct": 2,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "What is the full form of PPT?", "as": "PPT ৰ সম্পূৰ্ণ ৰূপ কি?" },
+      "q": {
+        "en": "Who developed MS Word?",
+        "as": "MS Word কোনে সৃষ্টি কৰিছে?"
+      },
       "options": [
-        { "en": "PowerPoint Presentation", "as": "PowerPoint Presentation" },
-        { "en": "Personal Presentation Tool", "as": "Personal Presentation Tool" },
-        { "en": "Power Print Tool", "as": "Power Print Tool" },
-        { "en": "Present Page Type", "as": "Present Page Type" }
+        {
+          "en": "IBM",
+          "as": "IBM"
+        },
+        {
+          "en": "Google",
+          "as": "গুগল"
+        },
+        {
+          "en": "Microsoft",
+          "as": "মাইক্ৰ'ছফ্ট"
+        },
+        {
+          "en": "Apple",
+          "as": "এপেল"
+        }
       ],
-      "correct": 0,
-      "difficulty": "easy"
+      "correct": 2
     },
     {
-      "q": { "en": "Which key is pressed to end a running slide show?", "as": "চলি থকা slide show শেষ কৰিবলৈ কোনটো key টিপা হয়?" },
+      "q": {
+        "en": "Ribbon is a part of the?",
+        "as": "ৰিবন কিৰ এটা অংশ?"
+      },
       "options": [
-        { "en": "Enter", "as": "Enter" },
-        { "en": "Esc", "as": "Esc" },
-        { "en": "Spacebar", "as": "Spacebar" },
-        { "en": "Tab", "as": "Tab" }
+        {
+          "en": "Printer",
+          "as": "প্ৰিণ্টাৰ"
+        },
+        {
+          "en": "CPU",
+          "as": "CPU"
+        },
+        {
+          "en": "Keyboard",
+          "as": "কীব'ৰ্ড"
+        },
+        {
+          "en": "User Interface",
+          "as": "ব্যৱহাৰকাৰী ইণ্টাৰফেচ"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 3
     },
     {
-      "q": { "en": "Which option is used to hide a slide in PowerPoint?", "as": "PowerPoint ত এটা slide লুকুৱাবলৈ কোনটো option ব্যৱহাৰ কৰা হয়?" },
+      "q": {
+        "en": "Which feature is used to search for commands in newer MS Office versions?",
+        "as": "নতুন MS Office সংস্কৰণত আদেশ বিচাৰিবলৈ কোন সুবিধা ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Delete Slide", "as": "Delete Slide" },
-        { "en": "Hide Slide", "as": "Hide Slide" },
-        { "en": "Reset Slide", "as": "Reset Slide" },
-        { "en": "New Slide", "as": "New Slide" }
+        {
+          "en": "Tell Me",
+          "as": "Tell Me"
+        },
+        {
+          "en": "Cortana",
+          "as": "কৰ্টানা"
+        },
+        {
+          "en": "Search Bar",
+          "as": "চাৰ্চ বাৰ"
+        },
+        {
+          "en": "Find",
+          "as": "ফাইণ্ড"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "Which feature applies the same design and layout to all slides?", "as": "কোনটো feature ই সকলো slide ত একে design আৰু layout প্ৰয়োগ কৰে?" },
+      "q": {
+        "en": "Which function counts the number of numeric cells?",
+        "as": "সংখ্যামূলক চেলৰ সংখ্যা গণনা কৰা ফলন কোনটো?"
+      },
       "options": [
-        { "en": "Slide Master", "as": "Slide Master" },
-        { "en": "Slide Sorter", "as": "Slide Sorter" },
-        { "en": "Animation Pane", "as": "Animation Pane" },
-        { "en": "Notes Page", "as": "Notes Page" }
+        {
+          "en": "TOTAL",
+          "as": "TOTAL"
+        },
+        {
+          "en": "NUMBER",
+          "as": "NUMBER"
+        },
+        {
+          "en": "COUNT",
+          "as": "COUNT"
+        },
+        {
+          "en": "COUNTA",
+          "as": "COUNTA"
+        }
       ],
-      "correct": 0,
-      "difficulty": "hard"
+      "correct": 2
     },
     {
-      "q": { "en": "Which shortcut saves the current presentation in PowerPoint?", "as": "PowerPoint ত বৰ্তমান presentation চেভ কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which key refreshes the current view or field in MS Office?",
+        "as": "MS Office-ত বৰ্তমান ভিউ বা ফিল্ড ৰিফ্ৰেশ কৰিবলৈ কোন কি ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Ctrl + S", "as": "Ctrl + S" },
-        { "en": "Ctrl + P", "as": "Ctrl + P" },
-        { "en": "Ctrl + N", "as": "Ctrl + N" },
-        { "en": "Ctrl + M", "as": "Ctrl + M" }
+        {
+          "en": "F3",
+          "as": "F3"
+        },
+        {
+          "en": "F5",
+          "as": "F5"
+        },
+        {
+          "en": "F8",
+          "as": "F8"
+        },
+        {
+          "en": "F2",
+          "as": "F2"
+        }
       ],
-      "correct": 0,
-      "difficulty": "easy"
+      "correct": 1
     },
     {
-      "q": { "en": "Which company developed and owns MS Office?", "as": "MS Office কোনটো কোম্পানীয়ে বিকশিত আৰু পৰিচালনা কৰে?" },
+      "q": {
+        "en": "Which function is used to add numbers in Excel?",
+        "as": "Excel-ত সংখ্যা যোগ কৰিবলৈ কোন ফলন ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Google", "as": "Google" },
-        { "en": "Microsoft", "as": "Microsoft" },
-        { "en": "Apple", "as": "Apple" },
-        { "en": "IBM", "as": "IBM" }
+        {
+          "en": "COUNT",
+          "as": "COUNT"
+        },
+        {
+          "en": "SUM",
+          "as": "SUM"
+        },
+        {
+          "en": "MAX",
+          "as": "MAX"
+        },
+        {
+          "en": "AVERAGE",
+          "as": "AVERAGE"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 1
     },
     {
-      "q": { "en": "Which function key generally opens Help in MS Office applications?", "as": "MS Office application ৰ Help সাধাৰণতে খুলিবলৈ কোনটো function key?" },
+      "q": {
+        "en": "Which shortcut is used to switch between open Office windows?",
+        "as": "খোলা Office উইণ্ড'বোৰৰ মাজত সলনি কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "F1", "as": "F1" },
-        { "en": "F2", "as": "F2" },
-        { "en": "F5", "as": "F5" },
-        { "en": "F10", "as": "F10" }
+        {
+          "en": "Alt + Tab",
+          "as": "Alt + Tab"
+        },
+        {
+          "en": "Ctrl + Tab",
+          "as": "Ctrl + Tab"
+        },
+        {
+          "en": "Shift + Tab",
+          "as": "Shift + Tab"
+        },
+        {
+          "en": "Ctrl + F6",
+          "as": "Ctrl + F6"
+        }
       ],
-      "correct": 0,
-      "difficulty": "easy"
+      "correct": 0
     },
     {
-      "q": { "en": "Which shortcut closes the active document window in MS Office?", "as": "MS Office ত সক্ৰিয় document window বন্ধ কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which feature is used to add speaker notes?",
+        "as": "বক্তাৰ টোকা যোগ কৰিবলৈ কোন সুবিধা ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Ctrl + W", "as": "Ctrl + W" },
-        { "en": "Ctrl + Q", "as": "Ctrl + Q" },
-        { "en": "Ctrl + E", "as": "Ctrl + E" },
-        { "en": "Ctrl + Z", "as": "Ctrl + Z" }
+        {
+          "en": "Comment",
+          "as": "কমেণ্ট"
+        },
+        {
+          "en": "Footnote",
+          "as": "ফুটনোট"
+        },
+        {
+          "en": "Caption",
+          "as": "কেপচন"
+        },
+        {
+          "en": "Notes pane",
+          "as": "নোটছ পেইন"
+        }
       ],
-      "correct": 0,
-      "difficulty": "medium"
+      "correct": 3
     },
     {
-      "q": { "en": "Which of the following is a presentation software in MS Office?", "as": "তলৰ কোনটো MS Office ৰ presentation software?" },
+      "q": {
+        "en": "The effect that occurs when moving from one slide to another is called?",
+        "as": "এটা স্লাইডৰ পৰা আন এটালৈ যাওঁতে হোৱা প্ৰভাৱক কি বুলি কোৱা হয়?"
+      },
       "options": [
-        { "en": "MS Word", "as": "MS Word" },
-        { "en": "MS Excel", "as": "MS Excel" },
-        { "en": "MS PowerPoint", "as": "MS PowerPoint" },
-        { "en": "MS Access", "as": "MS Access" }
+        {
+          "en": "Motion",
+          "as": "মোচন"
+        },
+        {
+          "en": "Action",
+          "as": "একচন"
+        },
+        {
+          "en": "Transition",
+          "as": "ট্ৰানজিচন"
+        },
+        {
+          "en": "Animation",
+          "as": "এনিমেচন"
+        }
       ],
-      "correct": 2,
-      "difficulty": "easy"
+      "correct": 2
     },
     {
-      "q": { "en": "Which MS Office application is mainly used to create spreadsheets?", "as": "spreadsheet তৈয়াৰ কৰিবলৈ মূলতঃ কোনটো MS Office application ব্যৱহাৰ কৰা হয়?" },
+      "q": {
+        "en": "A saved slide show that opens directly in show mode has the extension?",
+        "as": "পোনপটীয়াকৈ শ্ব' ম'ডত খোলা সংৰক্ষিত স্লাইড শ্ব'ৰ এক্সটেনচন কি?"
+      },
       "options": [
-        { "en": "MS Word", "as": "MS Word" },
-        { "en": "MS Excel", "as": "MS Excel" },
-        { "en": "MS PowerPoint", "as": "MS PowerPoint" },
-        { "en": "MS Outlook", "as": "MS Outlook" }
+        {
+          "en": ".potx",
+          "as": ".potx"
+        },
+        {
+          "en": ".ppt",
+          "as": ".ppt"
+        },
+        {
+          "en": ".pptx",
+          "as": ".pptx"
+        },
+        {
+          "en": ".ppsx",
+          "as": ".ppsx"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 3
     },
     {
-      "q": { "en": "Which shortcut inserts a hyperlink in MS PowerPoint?", "as": "MS PowerPoint ত hyperlink সুমুৱাবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which shortcut is used to insert a hyperlink in MS Word?",
+        "as": "MS Word-ত হাইপাৰলিংক সন্নিবিষ্ট কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Ctrl + K", "as": "Ctrl + K" },
-        { "en": "Ctrl + H", "as": "Ctrl + H" },
-        { "en": "Ctrl + L", "as": "Ctrl + L" },
-        { "en": "Ctrl + J", "as": "Ctrl + J" }
+        {
+          "en": "Ctrl + H",
+          "as": "Ctrl + H"
+        },
+        {
+          "en": "Ctrl + K",
+          "as": "Ctrl + K"
+        },
+        {
+          "en": "Ctrl + L",
+          "as": "Ctrl + L"
+        },
+        {
+          "en": "Ctrl + M",
+          "as": "Ctrl + M"
+        }
       ],
-      "correct": 0,
-      "difficulty": "medium"
+      "correct": 1
     }
   ]
 }

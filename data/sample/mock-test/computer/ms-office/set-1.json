@@ -1,282 +1,632 @@
 {
   "setNumber": 1,
-  "title": "Computer Awareness - MS Office Set 1",
+  "title": "Set 1",
   "subject": "MS Office",
   "questions": [
     {
-      "q": { "en": "Which shortcut is used to save a document in MS Word?", "as": "MS Word ত এখন document চেভ কৰিবলৈ কোনটো চৰ্টকাট ব্যৱহাৰ কৰা হয়?" },
+      "q": {
+        "en": "Ctrl + Z is used for?",
+        "as": "Ctrl + Z কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Ctrl + P", "as": "Ctrl + P" },
-        { "en": "Ctrl + S", "as": "Ctrl + S" },
-        { "en": "Ctrl + N", "as": "Ctrl + N" },
-        { "en": "Ctrl + O", "as": "Ctrl + O" }
+        {
+          "en": "Redo",
+          "as": "ৰিডু"
+        },
+        {
+          "en": "Undo",
+          "as": "আনডু"
+        },
+        {
+          "en": "Zoom",
+          "as": "জুম"
+        },
+        {
+          "en": "Close",
+          "as": "ক্ল'জ"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 1
     },
     {
-      "q": { "en": "What is the default file extension of MS Word 2007 and later versions?", "as": "MS Word 2007 আৰু পিছৰ সংস্কৰণৰ default file extension কি?" },
+      "q": {
+        "en": "What is the default slide orientation in PowerPoint?",
+        "as": "PowerPoint-ত স্লাইডৰ ডিফল্ট অভিমুখ কি?"
+      },
       "options": [
-        { "en": ".doc", "as": ".doc" },
-        { "en": ".pptx", "as": ".pptx" },
-        { "en": ".docx", "as": ".docx" },
-        { "en": ".txt", "as": ".txt" }
+        {
+          "en": "Square",
+          "as": "বৰ্গ"
+        },
+        {
+          "en": "Custom",
+          "as": "কাষ্টম"
+        },
+        {
+          "en": "Portrait",
+          "as": "পৰ্ট্ৰেট"
+        },
+        {
+          "en": "Landscape",
+          "as": "লেণ্ডস্কেপ"
+        }
       ],
-      "correct": 2,
-      "difficulty": "easy"
+      "correct": 3
     },
     {
-      "q": { "en": "Which key deletes the character to the left of the cursor?", "as": "কাৰ্চৰৰ বাওঁফালৰ আখৰটো কোনটো key ৰে মচা হয়?" },
+      "q": {
+        "en": "Which shortcut opens the Font dialog box in PowerPoint?",
+        "as": "PowerPoint-ত ফণ্ট ডায়লগ বক্স খুলিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Delete", "as": "Delete" },
-        { "en": "Enter", "as": "Enter" },
-        { "en": "Backspace", "as": "Backspace" },
-        { "en": "Insert", "as": "Insert" }
+        {
+          "en": "Ctrl + B",
+          "as": "Ctrl + B"
+        },
+        {
+          "en": "Ctrl + T",
+          "as": "Ctrl + T"
+        },
+        {
+          "en": "Ctrl + F",
+          "as": "Ctrl + F"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        }
       ],
-      "correct": 2,
-      "difficulty": "easy"
+      "correct": 1
     },
     {
-      "q": { "en": "Which shortcut copies the selected text?", "as": "টানি লোৱা বা selected text কপি কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which effect makes text appear one line at a time?",
+        "as": "লিখনী এটা এটা শাৰীকৈ দেখা দিয়াকৈ কৰা প্ৰভাৱ কোনটো?"
+      },
       "options": [
-        { "en": "Ctrl + C", "as": "Ctrl + C" },
-        { "en": "Ctrl + V", "as": "Ctrl + V" },
-        { "en": "Ctrl + X", "as": "Ctrl + X" },
-        { "en": "Ctrl + A", "as": "Ctrl + A" }
+        {
+          "en": "Zoom",
+          "as": "জুম"
+        },
+        {
+          "en": "Crop",
+          "as": "ক্ৰপ"
+        },
+        {
+          "en": "Animation",
+          "as": "এনিমেচন"
+        },
+        {
+          "en": "Transition",
+          "as": "ট্ৰানজিচন"
+        }
       ],
-      "correct": 0,
-      "difficulty": "easy"
+      "correct": 2
     },
     {
-      "q": { "en": "Which shortcut pastes the copied text?", "as": "কপি কৰা text পে'ষ্ট কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which shortcut is used to edit the active cell?",
+        "as": "সক্ৰিয় চেল সম্পাদনা কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Ctrl + P", "as": "Ctrl + P" },
-        { "en": "Ctrl + X", "as": "Ctrl + X" },
-        { "en": "Ctrl + V", "as": "Ctrl + V" },
-        { "en": "Ctrl + A", "as": "Ctrl + A" }
+        {
+          "en": "F7",
+          "as": "F7"
+        },
+        {
+          "en": "F1",
+          "as": "F1"
+        },
+        {
+          "en": "F5",
+          "as": "F5"
+        },
+        {
+          "en": "F2",
+          "as": "F2"
+        }
       ],
-      "correct": 2,
-      "difficulty": "easy"
+      "correct": 3
     },
     {
-      "q": { "en": "Which shortcut cuts the selected text?", "as": "selected text cut কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which of the following is a word processing software?",
+        "as": "তলৰ কোনটো ৱৰ্ড প্ৰচেছিং ছফটৱেৰ?"
+      },
       "options": [
-        { "en": "Ctrl + C", "as": "Ctrl + C" },
-        { "en": "Ctrl + X", "as": "Ctrl + X" },
-        { "en": "Ctrl + Z", "as": "Ctrl + Z" },
-        { "en": "Ctrl + V", "as": "Ctrl + V" }
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "MS PowerPoint",
+          "as": "MS PowerPoint"
+        },
+        {
+          "en": "MS Access",
+          "as": "MS Access"
+        },
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 0
     },
     {
-      "q": { "en": "Which shortcut is used to undo the last action?", "as": "শেষ কামটো undo কৰিবলৈ কোনটো চৰ্টকাট ব্যৱহাৰ কৰা হয়?" },
+      "q": {
+        "en": "Which function is used for a logical test?",
+        "as": "যুক্তি পৰীক্ষাৰ বাবে কোন ফলন ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Ctrl + Y", "as": "Ctrl + Y" },
-        { "en": "Ctrl + U", "as": "Ctrl + U" },
-        { "en": "Ctrl + Z", "as": "Ctrl + Z" },
-        { "en": "Ctrl + A", "as": "Ctrl + A" }
+        {
+          "en": "SUM",
+          "as": "SUM"
+        },
+        {
+          "en": "COUNT",
+          "as": "COUNT"
+        },
+        {
+          "en": "NOW",
+          "as": "NOW"
+        },
+        {
+          "en": "IF",
+          "as": "IF"
+        }
       ],
-      "correct": 2,
-      "difficulty": "easy"
+      "correct": 3
     },
     {
-      "q": { "en": "Which shortcut is used to redo an action in MS Word?", "as": "MS Word ত এটা কাম redo কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which feature adds a note at the bottom of the page?",
+        "as": "পৃষ্ঠাৰ তলত টোকা যোগ কৰা সুবিধা কোনটো?"
+      },
       "options": [
-        { "en": "Ctrl + Y", "as": "Ctrl + Y" },
-        { "en": "Ctrl + Z", "as": "Ctrl + Z" },
-        { "en": "Ctrl + R", "as": "Ctrl + R" },
-        { "en": "Ctrl + D", "as": "Ctrl + D" }
+        {
+          "en": "Footnote",
+          "as": "ফুটনোট"
+        },
+        {
+          "en": "Comment",
+          "as": "কমেণ্ট"
+        },
+        {
+          "en": "Hyperlink",
+          "as": "হাইপাৰলিংক"
+        },
+        {
+          "en": "Endnote",
+          "as": "ইণ্ডনোট"
+        }
       ],
-      "correct": 0,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "Which shortcut makes the selected text bold?", "as": "selected text bold কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which shortcut is common to save a file in all MS Office applications?",
+        "as": "সকলো MS Office এপ্লিকেচনত ফাইল চেভ কৰিবলৈ সাধাৰণতে কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Ctrl + I", "as": "Ctrl + I" },
-        { "en": "Ctrl + U", "as": "Ctrl + U" },
-        { "en": "Ctrl + B", "as": "Ctrl + B" },
-        { "en": "Ctrl + D", "as": "Ctrl + D" }
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        },
+        {
+          "en": "Ctrl + O",
+          "as": "Ctrl + O"
+        }
       ],
-      "correct": 2,
-      "difficulty": "easy"
+      "correct": 1
     },
     {
-      "q": { "en": "Which shortcut makes the selected text italic?", "as": "selected text italic কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which key ends a running slide show?",
+        "as": "চলি থকা স্লাইড শ্ব' কোন কিৰে শেষ কৰা হয়?"
+      },
       "options": [
-        { "en": "Ctrl + I", "as": "Ctrl + I" },
-        { "en": "Ctrl + B", "as": "Ctrl + B" },
-        { "en": "Ctrl + U", "as": "Ctrl + U" },
-        { "en": "Ctrl + E", "as": "Ctrl + E" }
+        {
+          "en": "Tab",
+          "as": "Tab"
+        },
+        {
+          "en": "Enter",
+          "as": "Enter"
+        },
+        {
+          "en": "Esc",
+          "as": "Esc"
+        },
+        {
+          "en": "Spacebar",
+          "as": "স্পেচবাৰ"
+        }
       ],
-      "correct": 0,
-      "difficulty": "easy"
+      "correct": 2
     },
     {
-      "q": { "en": "Which shortcut underlines the selected text?", "as": "selected text underline কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which feature shows only the rows that meet a condition?",
+        "as": "কেৱল চৰ্ত পূৰণ কৰা শাৰী দেখুওৱা সুবিধা কোনটো?"
+      },
       "options": [
-        { "en": "Ctrl + B", "as": "Ctrl + B" },
-        { "en": "Ctrl + I", "as": "Ctrl + I" },
-        { "en": "Ctrl + U", "as": "Ctrl + U" },
-        { "en": "Ctrl + N", "as": "Ctrl + N" }
+        {
+          "en": "Sort",
+          "as": "চৰ্ট"
+        },
+        {
+          "en": "Format",
+          "as": "ফৰ্মেট"
+        },
+        {
+          "en": "Merge",
+          "as": "মাৰ্জ"
+        },
+        {
+          "en": "Filter",
+          "as": "ফিল্টাৰ"
+        }
       ],
-      "correct": 2,
-      "difficulty": "easy"
+      "correct": 3
     },
     {
-      "q": { "en": "Which shortcut selects all the text in a document?", "as": "document ৰ গোটেই text select কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "The ruler in MS Word is used for?",
+        "as": "MS Word-ৰ ৰুলাৰ কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Ctrl + S", "as": "Ctrl + S" },
-        { "en": "Ctrl + A", "as": "Ctrl + A" },
-        { "en": "Ctrl + E", "as": "Ctrl + E" },
-        { "en": "Ctrl + L", "as": "Ctrl + L" }
+        {
+          "en": "Setting margins and indents",
+          "as": "মাৰ্জিন আৰু ইণ্ডেণ্ট নিৰ্ধাৰণ"
+        },
+        {
+          "en": "Printing",
+          "as": "প্ৰিন্ট কৰা"
+        },
+        {
+          "en": "Zooming",
+          "as": "জুম কৰা"
+        },
+        {
+          "en": "Saving the file",
+          "as": "ফাইল চেভ কৰা"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 0
     },
     {
-      "q": { "en": "Which shortcut opens the Find box in MS Word?", "as": "MS Word ত Find box খোলিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which feature records the changes made to a document?",
+        "as": "ডকুমেণ্টত কৰা পৰিৱৰ্তন ৰেকৰ্ড কৰা সুবিধা কোনটো?"
+      },
       "options": [
-        { "en": "Ctrl + F", "as": "Ctrl + F" },
-        { "en": "Ctrl + H", "as": "Ctrl + H" },
-        { "en": "Ctrl + G", "as": "Ctrl + G" },
-        { "en": "Ctrl + S", "as": "Ctrl + S" }
+        {
+          "en": "Protect",
+          "as": "সুৰক্ষা"
+        },
+        {
+          "en": "Word Count",
+          "as": "ৱৰ্ড কাউণ্ট"
+        },
+        {
+          "en": "Track Changes",
+          "as": "ট্ৰেক চেঞ্জেছ"
+        },
+        {
+          "en": "Compare",
+          "as": "তুলনা"
+        }
       ],
-      "correct": 0,
-      "difficulty": "easy"
+      "correct": 2
     },
     {
-      "q": { "en": "Which shortcut opens the Find and Replace dialog box?", "as": "Find আৰু Replace dialog box খোলিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which tab is used to add a new slide in PowerPoint?",
+        "as": "PowerPoint-ত নতুন স্লাইড যোগ কৰিবলৈ কোন টেব ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Ctrl + F", "as": "Ctrl + F" },
-        { "en": "Ctrl + R", "as": "Ctrl + R" },
-        { "en": "Ctrl + H", "as": "Ctrl + H" },
-        { "en": "Ctrl + G", "as": "Ctrl + G" }
+        {
+          "en": "Home",
+          "as": "Home"
+        },
+        {
+          "en": "View",
+          "as": "View"
+        },
+        {
+          "en": "Design",
+          "as": "ডিজাইন"
+        },
+        {
+          "en": "Slide Show",
+          "as": "স্লাইড শ্ব'"
+        }
       ],
-      "correct": 2,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "Which shortcut is used to print a document?", "as": "এখন document print কৰিবলৈ কোনটো চৰ্টকাট ব্যৱহাৰ কৰা হয়?" },
+      "q": {
+        "en": "The process of combining a main document with a data source is called?",
+        "as": "মূল ডকুমেণ্টৰ সৈতে ডেটা উৎস সংযুক্ত কৰা প্ৰক্ৰিয়াক কি বুলি কোৱা হয়?"
+      },
       "options": [
-        { "en": "Ctrl + N", "as": "Ctrl + N" },
-        { "en": "Ctrl + P", "as": "Ctrl + P" },
-        { "en": "Ctrl + S", "as": "Ctrl + S" },
-        { "en": "Ctrl + O", "as": "Ctrl + O" }
+        {
+          "en": "Merge Cells",
+          "as": "মাৰ্জ চেল"
+        },
+        {
+          "en": "Data Sort",
+          "as": "ডেটা চৰ্ট"
+        },
+        {
+          "en": "Mail Merge",
+          "as": "মেইল মাৰ্জ"
+        },
+        {
+          "en": "Filter",
+          "as": "ফিল্টাৰ"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 2
     },
     {
-      "q": { "en": "Which shortcut is used for center alignment in MS Word?", "as": "MS Word ত center alignment ৰ বাবে কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which function returns only the current date?",
+        "as": "কেৱল বৰ্তমান তাৰিখ ঘূৰাই দিয়া ফলন কোনটো?"
+      },
       "options": [
-        { "en": "Ctrl + L", "as": "Ctrl + L" },
-        { "en": "Ctrl + R", "as": "Ctrl + R" },
-        { "en": "Ctrl + E", "as": "Ctrl + E" },
-        { "en": "Ctrl + J", "as": "Ctrl + J" }
+        {
+          "en": "DATEVALUE",
+          "as": "DATEVALUE"
+        },
+        {
+          "en": "TODAY()",
+          "as": "TODAY()"
+        },
+        {
+          "en": "DAY",
+          "as": "DAY"
+        },
+        {
+          "en": "NOW()",
+          "as": "NOW()"
+        }
       ],
-      "correct": 2,
-      "difficulty": "medium"
+      "correct": 1
     },
     {
-      "q": { "en": "Which shortcut justifies the selected paragraph?", "as": "selected paragraph justify কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which key is used to move to the next cell to the right?",
+        "as": "সোঁফালৰ পৰৱৰ্তী চেললৈ যাবলৈ কোন কি ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Ctrl + L", "as": "Ctrl + L" },
-        { "en": "Ctrl + R", "as": "Ctrl + R" },
-        { "en": "Ctrl + E", "as": "Ctrl + E" },
-        { "en": "Ctrl + J", "as": "Ctrl + J" }
+        {
+          "en": "Enter",
+          "as": "Enter"
+        },
+        {
+          "en": "Shift",
+          "as": "Shift"
+        },
+        {
+          "en": "Esc",
+          "as": "Esc"
+        },
+        {
+          "en": "Tab",
+          "as": "Tab"
+        }
       ],
-      "correct": 3,
-      "difficulty": "medium"
+      "correct": 3
     },
     {
-      "q": { "en": "Which shortcut creates a new blank document?", "as": "নতুন এটা খালী document সৃষ্টি কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which of the following is a spreadsheet application?",
+        "as": "তলৰ কোনটো স্প্ৰেডশ্বীট এপ্লিকেচন?"
+      },
       "options": [
-        { "en": "Ctrl + N", "as": "Ctrl + N" },
-        { "en": "Ctrl + O", "as": "Ctrl + O" },
-        { "en": "Ctrl + S", "as": "Ctrl + S" },
-        { "en": "Ctrl + P", "as": "Ctrl + P" }
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "MS PowerPoint",
+          "as": "MS PowerPoint"
+        },
+        {
+          "en": "MS Outlook",
+          "as": "MS Outlook"
+        },
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        }
       ],
-      "correct": 0,
-      "difficulty": "easy"
+      "correct": 3
     },
     {
-      "q": { "en": "Which shortcut is used to make text superscript?", "as": "text superscript কৰিবলৈ কোনটো চৰ্টকাট ব্যৱহাৰ কৰা হয়?" },
+      "q": {
+        "en": "Which tab contains the Slide Show options?",
+        "as": "স্লাইড শ্ব' বিকল্প কোন টেবত আছে?"
+      },
       "options": [
-        { "en": "Ctrl + Shift + =", "as": "Ctrl + Shift + =" },
-        { "en": "Ctrl + =", "as": "Ctrl + =" },
-        { "en": "Ctrl + U", "as": "Ctrl + U" },
-        { "en": "Ctrl + Shift + U", "as": "Ctrl + Shift + U" }
+        {
+          "en": "View",
+          "as": "View"
+        },
+        {
+          "en": "Slide Show",
+          "as": "স্লাইড শ্ব'"
+        },
+        {
+          "en": "Home",
+          "as": "Home"
+        },
+        {
+          "en": "Insert",
+          "as": "Insert"
+        }
       ],
-      "correct": 0,
-      "difficulty": "hard"
+      "correct": 1
     },
     {
-      "q": { "en": "What is the default font in MS Word 2010?", "as": "MS Word 2010 ৰ default font কি?" },
+      "q": {
+        "en": "Which function returns the current date and time?",
+        "as": "বৰ্তমান তাৰিখ আৰু সময় ঘূৰাই দিয়া ফলন কোনটো?"
+      },
       "options": [
-        { "en": "Arial", "as": "Arial" },
-        { "en": "Times New Roman", "as": "Times New Roman" },
-        { "en": "Calibri", "as": "Calibri" },
-        { "en": "Verdana", "as": "Verdana" }
+        {
+          "en": "TIME()",
+          "as": "TIME()"
+        },
+        {
+          "en": "TODAY()",
+          "as": "TODAY()"
+        },
+        {
+          "en": "NOW()",
+          "as": "NOW()"
+        },
+        {
+          "en": "DATE()",
+          "as": "DATE()"
+        }
       ],
-      "correct": 2,
-      "difficulty": "medium"
+      "correct": 2
     },
     {
-      "q": { "en": "Which function key opens the Spelling and Grammar check in MS Word?", "as": "MS Word ত Spelling and Grammar check খুলিবলৈ কোনটো function key?" },
+      "q": {
+        "en": "Which function returns the smallest value?",
+        "as": "সৰ্বনিম্ন মান ঘূৰাই দিয়া ফলন কোনটো?"
+      },
       "options": [
-        { "en": "F5", "as": "F5" },
-        { "en": "F7", "as": "F7" },
-        { "en": "F9", "as": "F9" },
-        { "en": "F12", "as": "F12" }
+        {
+          "en": "MAX",
+          "as": "MAX"
+        },
+        {
+          "en": "MIN",
+          "as": "MIN"
+        },
+        {
+          "en": "SMALL",
+          "as": "SMALL"
+        },
+        {
+          "en": "AVERAGE",
+          "as": "AVERAGE"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 1
     },
     {
-      "q": { "en": "Which tab contains the Mail Merge option in MS Word?", "as": "MS Word ত Mail Merge option কোনটো tab ত থাকে?" },
+      "q": {
+        "en": "Which shortcut key is used to save a document?",
+        "as": "ডকুমেণ্ট চেভ কৰিবলৈ কোন চৰ্টকাট কি ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Insert", "as": "Insert" },
-        { "en": "References", "as": "References" },
-        { "en": "Mailings", "as": "Mailings" },
-        { "en": "Review", "as": "Review" }
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + O",
+          "as": "Ctrl + O"
+        },
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        }
       ],
-      "correct": 2,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "Which bar displays the page number and word count in MS Word?", "as": "MS Word ত page number আৰু word count কোনটো bar ত দেখুওৱা হয়?" },
+      "q": {
+        "en": "Which chart is best for showing parts of a whole?",
+        "as": "সম্পূৰ্ণৰ অংশ দেখুওৱাৰ বাবে কোন চাৰ্ট উত্তম?"
+      },
       "options": [
-        { "en": "Title bar", "as": "Title bar" },
-        { "en": "Status bar", "as": "Status bar" },
-        { "en": "Menu bar", "as": "Menu bar" },
-        { "en": "Ruler", "as": "Ruler" }
+        {
+          "en": "Pie chart",
+          "as": "পাই চাৰ্ট"
+        },
+        {
+          "en": "Scatter chart",
+          "as": "স্কেটাৰ চাৰ্ট"
+        },
+        {
+          "en": "Area chart",
+          "as": "এৰিয়া চাৰ্ট"
+        },
+        {
+          "en": "Line chart",
+          "as": "লাইন চাৰ্ট"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "Which feature automatically corrects common typing mistakes in MS Word?", "as": "MS Word ত সাধাৰণ টাইপিং ভুল স্বয়ংক্ৰিয়ভাৱে শুধৰণি কৰা feature কোনটো?" },
+      "q": {
+        "en": "Which shortcut starts a slide show from the beginning?",
+        "as": "আৰম্ভণিৰ পৰা স্লাইড শ্ব' আৰম্ভ কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "AutoText", "as": "AutoText" },
-        { "en": "AutoCorrect", "as": "AutoCorrect" },
-        { "en": "AutoFormat", "as": "AutoFormat" },
-        { "en": "AutoRecover", "as": "AutoRecover" }
+        {
+          "en": "F5",
+          "as": "F5"
+        },
+        {
+          "en": "F2",
+          "as": "F2"
+        },
+        {
+          "en": "F7",
+          "as": "F7"
+        },
+        {
+          "en": "F12",
+          "as": "F12"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "Which shortcut is used to change the case of selected text in MS Word?", "as": "MS Word ত selected text ৰ case সলনি কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which key deletes the character to the right of the cursor?",
+        "as": "কাৰ্ছৰৰ সোঁফালৰ আখৰ মচিবলৈ কোন কি ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Shift + F3", "as": "Shift + F3" },
-        { "en": "Ctrl + F3", "as": "Ctrl + F3" },
-        { "en": "Alt + F3", "as": "Alt + F3" },
-        { "en": "F3", "as": "F3" }
+        {
+          "en": "Insert",
+          "as": "Insert"
+        },
+        {
+          "en": "Escape",
+          "as": "Escape"
+        },
+        {
+          "en": "Delete",
+          "as": "Delete"
+        },
+        {
+          "en": "Backspace",
+          "as": "Backspace"
+        }
       ],
-      "correct": 0,
-      "difficulty": "hard"
+      "correct": 2
     }
   ]
 }

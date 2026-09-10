@@ -1,282 +1,632 @@
 {
   "setNumber": 5,
-  "title": "Computer Awareness - MS Office Set 5",
+  "title": "Set 5",
   "subject": "MS Office",
   "questions": [
     {
-      "q": { "en": "Which shortcut creates a new workbook in MS Excel?", "as": "MS Excel ত নতুন workbook সৃষ্টি কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which shortcut is used to insert a new worksheet?",
+        "as": "নতুন ৱৰ্কশ্বীট সন্নিবিষ্ট কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Ctrl + N", "as": "Ctrl + N" },
-        { "en": "Ctrl + W", "as": "Ctrl + W" },
-        { "en": "Ctrl + S", "as": "Ctrl + S" },
-        { "en": "Ctrl + O", "as": "Ctrl + O" }
+        {
+          "en": "Shift + F11",
+          "as": "Shift + F11"
+        },
+        {
+          "en": "Ctrl + F11",
+          "as": "Ctrl + F11"
+        },
+        {
+          "en": "Alt + F11",
+          "as": "Alt + F11"
+        },
+        {
+          "en": "F11",
+          "as": "F11"
+        }
       ],
-      "correct": 0,
-      "difficulty": "easy"
+      "correct": 0
     },
     {
-      "q": { "en": "Which shortcut selects an entire column in Excel?", "as": "Excel ত এটা সম্পূৰ্ণ column select কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which shortcut is used to undo an action?",
+        "as": "এটা কাৰ্য আনডু কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Ctrl + Space", "as": "Ctrl + Space" },
-        { "en": "Shift + Space", "as": "Shift + Space" },
-        { "en": "Ctrl + A", "as": "Ctrl + A" },
-        { "en": "Alt + Space", "as": "Alt + Space" }
+        {
+          "en": "Ctrl + U",
+          "as": "Ctrl + U"
+        },
+        {
+          "en": "Ctrl + B",
+          "as": "Ctrl + B"
+        },
+        {
+          "en": "Ctrl + Z",
+          "as": "Ctrl + Z"
+        },
+        {
+          "en": "Ctrl + Y",
+          "as": "Ctrl + Y"
+        }
       ],
-      "correct": 0,
-      "difficulty": "medium"
+      "correct": 2
     },
     {
-      "q": { "en": "Which shortcut selects an entire row in Excel?", "as": "Excel ত এটা সম্পূৰ্ণ row select কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "A single page of a presentation is called?",
+        "as": "প্ৰেজেণ্টেচনৰ এটা পৃষ্ঠাক কি বুলি কোৱা হয়?"
+      },
       "options": [
-        { "en": "Ctrl + Space", "as": "Ctrl + Space" },
-        { "en": "Shift + Space", "as": "Shift + Space" },
-        { "en": "Ctrl + R", "as": "Ctrl + R" },
-        { "en": "Alt + Space", "as": "Alt + Space" }
+        {
+          "en": "Slide",
+          "as": "স্লাইড"
+        },
+        {
+          "en": "Page",
+          "as": "পৃষ্ঠা"
+        },
+        {
+          "en": "Frame",
+          "as": "ফ্ৰেম"
+        },
+        {
+          "en": "Sheet",
+          "as": "শ্বীট"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "Which shortcut inserts a new worksheet in Excel?", "as": "Excel ত নতুন worksheet সুমুৱাবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which chart type shows trends over time?",
+        "as": "সময়ৰ লগত প্ৰৱণতা দেখুওৱা চাৰ্টৰ প্ৰকাৰ কোনটো?"
+      },
       "options": [
-        { "en": "Shift + F11", "as": "Shift + F11" },
-        { "en": "Ctrl + F11", "as": "Ctrl + F11" },
-        { "en": "Alt + F11", "as": "Alt + F11" },
-        { "en": "F11", "as": "F11" }
+        {
+          "en": "Bar chart",
+          "as": "বাৰ চাৰ্ট"
+        },
+        {
+          "en": "Doughnut chart",
+          "as": "ড'নাট চাৰ্ট"
+        },
+        {
+          "en": "Line chart",
+          "as": "লাইন চাৰ্ট"
+        },
+        {
+          "en": "Pie chart",
+          "as": "পাই চাৰ্ট"
+        }
       ],
-      "correct": 0,
-      "difficulty": "hard"
+      "correct": 2
     },
     {
-      "q": { "en": "Which shortcut opens the Format Cells dialog box in Excel?", "as": "Excel ত Format Cells dialog box খুলিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which shortcut opens the Print dialog box?",
+        "as": "প্ৰিন্ট ডায়লগ বক্স খুলিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Ctrl + 1", "as": "Ctrl + 1" },
-        { "en": "Ctrl + 2", "as": "Ctrl + 2" },
-        { "en": "Ctrl + F", "as": "Ctrl + F" },
-        { "en": "Ctrl + D", "as": "Ctrl + D" }
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        },
+        {
+          "en": "Ctrl + O",
+          "as": "Ctrl + O"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        }
       ],
-      "correct": 0,
-      "difficulty": "hard"
+      "correct": 1
     },
     {
-      "q": { "en": "Which shortcut opens the Go To dialog box in MS Word?", "as": "MS Word ত Go To dialog box খুলিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which feature is used to quickly apply professional formatting to a document?",
+        "as": "ডকুমেণ্টত দ্ৰুতভাৱে পেছাদাৰী ফৰ্মেটিং প্ৰয়োগ কৰিবলৈ কোন সুবিধা ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Ctrl + F", "as": "Ctrl + F" },
-        { "en": "Ctrl + G", "as": "Ctrl + G" },
-        { "en": "Ctrl + H", "as": "Ctrl + H" },
-        { "en": "Ctrl + T", "as": "Ctrl + T" }
+        {
+          "en": "Macro",
+          "as": "মেক্ৰ'"
+        },
+        {
+          "en": "Comment",
+          "as": "কমেণ্ট"
+        },
+        {
+          "en": "Footnote",
+          "as": "ফুটনোট"
+        },
+        {
+          "en": "Styles",
+          "as": "ষ্টাইল"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 3
     },
     {
-      "q": { "en": "Which key moves the cursor to the next cell in Excel?", "as": "Excel ত কাৰ্চৰক পৰৱৰ্তী cell লৈ লৈ যোৱা key কোনটো?" },
+      "q": {
+        "en": "A file created in MS Office can be protected using?",
+        "as": "MS Office-ত সৃষ্টি কৰা ফাইল কিৰে সুৰক্ষিত কৰিব পাৰি?"
+      },
       "options": [
-        { "en": "Enter", "as": "Enter" },
-        { "en": "Tab", "as": "Tab" },
-        { "en": "Shift", "as": "Shift" },
-        { "en": "Ctrl", "as": "Ctrl" }
+        {
+          "en": "Style",
+          "as": "ষ্টাইল"
+        },
+        {
+          "en": "Macro",
+          "as": "মেক্ৰ'"
+        },
+        {
+          "en": "Theme",
+          "as": "থীম"
+        },
+        {
+          "en": "Password",
+          "as": "পাছৱৰ্ড"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 3
     },
     {
-      "q": { "en": "Which Excel function joins text from multiple ranges using a delimiter?", "as": "কোনটো Excel function ই delimiter ব্যৱহাৰ কৰি একাধিক range ৰ text সংযুক্ত কৰে?" },
+      "q": {
+        "en": "What does the Office Clipboard store after a cut or copy operation?",
+        "as": "কাট বা কপিৰ পিছত Office ক্লিপবৰ্ডে কি সংৰক্ষণ কৰে?"
+      },
       "options": [
-        { "en": "CONCAT", "as": "CONCAT" },
-        { "en": "TEXTJOIN", "as": "TEXTJOIN" },
-        { "en": "JOIN", "as": "JOIN" },
-        { "en": "LINK", "as": "LINK" }
+        {
+          "en": "Printer settings",
+          "as": "প্ৰিণ্টাৰ ছেটিং"
+        },
+        {
+          "en": "Only images",
+          "as": "কেৱল ছবি"
+        },
+        {
+          "en": "Only text",
+          "as": "কেৱল লিখনী"
+        },
+        {
+          "en": "Data",
+          "as": "ডেটা"
+        }
       ],
-      "correct": 1,
-      "difficulty": "hard"
+      "correct": 3
     },
     {
-      "q": { "en": "Which Excel tool is used to summarize a large amount of data quickly?", "as": "বহু পৰিমাণৰ data সোনকালে সংক্ষেপ কৰিবলৈ কোনটো Excel tool ব্যৱহাৰ কৰা হয়?" },
+      "q": {
+        "en": "Which shortcut is used to create a new document?",
+        "as": "নতুন ডকুমেণ্ট সৃষ্টি কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "PivotTable", "as": "PivotTable" },
-        { "en": "WordArt", "as": "WordArt" },
-        { "en": "Sparkline", "as": "Sparkline" },
-        { "en": "Slicer", "as": "Slicer" }
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        },
+        {
+          "en": "Ctrl + M",
+          "as": "Ctrl + M"
+        },
+        {
+          "en": "Ctrl + O",
+          "as": "Ctrl + O"
+        },
+        {
+          "en": "Ctrl + D",
+          "as": "Ctrl + D"
+        }
       ],
-      "correct": 0,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "Which Excel tool finds the desired result by adjusting input cells?", "as": "কোনটো Excel tool ই input cell সলনি কৰি কাঙ্ক্ষিত ফলাফল বিচাৰি উলিয়ায়?" },
+      "q": {
+        "en": "Which function finds the average of values?",
+        "as": "মানসমূহৰ গড় নিৰ্ণয় কৰা ফলন কোনটো?"
+      },
       "options": [
-        { "en": "Goal Seek", "as": "Goal Seek" },
-        { "en": "Subtotal", "as": "Subtotal" },
-        { "en": "Group", "as": "Group" },
-        { "en": "Freeze Panes", "as": "Freeze Panes" }
+        {
+          "en": "MIN",
+          "as": "MIN"
+        },
+        {
+          "en": "AVERAGE",
+          "as": "AVERAGE"
+        },
+        {
+          "en": "SUM",
+          "as": "SUM"
+        },
+        {
+          "en": "MAX",
+          "as": "MAX"
+        }
       ],
-      "correct": 0,
-      "difficulty": "hard"
+      "correct": 1
     },
     {
-      "q": { "en": "Which Excel feature restricts the type of data that can be entered in a cell?", "as": "কোনটো Excel feature ই এটা cell ত কি ধৰণৰ data দিব পাৰি সেয়া নিয়ন্ত্ৰণ কৰে?" },
+      "q": {
+        "en": "MS PowerPoint is used to create?",
+        "as": "MS PowerPoint কি সৃষ্টি কৰিবলৈ ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Data Validation", "as": "Data Validation" },
-        { "en": "Conditional Formatting", "as": "Conditional Formatting" },
-        { "en": "Sort", "as": "Sort" },
-        { "en": "Filter", "as": "Filter" }
+        {
+          "en": "Databases",
+          "as": "ডেটাবেছ"
+        },
+        {
+          "en": "Spreadsheets",
+          "as": "স্প্ৰেডশ্বীট"
+        },
+        {
+          "en": "Documents",
+          "as": "ডকুমেণ্ট"
+        },
+        {
+          "en": "Presentations",
+          "as": "প্ৰেজেণ্টেচন"
+        }
       ],
-      "correct": 0,
-      "difficulty": "medium"
+      "correct": 3
     },
     {
-      "q": { "en": "Conditional Formatting in Excel changes the appearance of cells based on?", "as": "Excel ত Conditional Formatting এ cell ৰ ৰূপ কিসৰ ওপৰত ভিত্তি কৰি সলনি কৰে?" },
+      "q": {
+        "en": "What is the maximum font size available in MS Word?",
+        "as": "MS Word-ত উপলব্ধ সৰ্বাধিক ফণ্ট ছাইজ কি?"
+      },
       "options": [
-        { "en": "The cell colour", "as": "cell ৰ ৰং" },
-        { "en": "A specified condition or rule", "as": "নিৰ্দিষ্ট চৰ্ত বা নিয়ম" },
-        { "en": "The font size", "as": "font ৰ size" },
-        { "en": "The sheet name", "as": "sheet ৰ নাম" }
+        {
+          "en": "1638",
+          "as": "1638"
+        },
+        {
+          "en": "72",
+          "as": "72"
+        },
+        {
+          "en": "100",
+          "as": "100"
+        },
+        {
+          "en": "500",
+          "as": "500"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "Which Excel chart is best to show the parts of a whole?", "as": "সম্পূৰ্ণৰ অংশবোৰ দেখুৱাবলৈ কোনটো Excel chart আটাইতকৈ উপযুক্ত?" },
+      "q": {
+        "en": "A group of selected cells is called?",
+        "as": "নিৰ্বাচিত চেলৰ সমষ্টিক কি বুলি কোৱা হয়?"
+      },
       "options": [
-        { "en": "Line chart", "as": "Line chart" },
-        { "en": "Pie chart", "as": "Pie chart" },
-        { "en": "Bar chart", "as": "Bar chart" },
-        { "en": "Scatter chart", "as": "Scatter chart" }
+        {
+          "en": "Cell",
+          "as": "চেল"
+        },
+        {
+          "en": "Range",
+          "as": "ৰেঞ্জ"
+        },
+        {
+          "en": "Table",
+          "as": "টেবুল"
+        },
+        {
+          "en": "Chart",
+          "as": "চাৰ্ট"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 1
     },
     {
-      "q": { "en": "Which PowerPoint feature is used to record the time spent on each slide?", "as": "প্ৰতিটো slide ত ব্যয় কৰা সময় ৰেকৰ্ড কৰিবলৈ কোনটো PowerPoint feature ব্যৱহাৰ কৰা হয়?" },
+      "q": {
+        "en": "Which file format is widely used and keeps basic formatting across applications?",
+        "as": "কোনটো ফাইল ফৰ্মেট বহুলভাৱে ব্যৱহৃত আৰু এপ্লিকেচনৰ মাজত মৌলিক ফৰ্মেটিং ৰাখে?"
+      },
       "options": [
-        { "en": "Rehearse Timings", "as": "Rehearse Timings" },
-        { "en": "Slide Master", "as": "Slide Master" },
-        { "en": "Animation Pane", "as": "Animation Pane" },
-        { "en": "Presenter View", "as": "Presenter View" }
+        {
+          "en": "XLSX",
+          "as": "XLSX"
+        },
+        {
+          "en": "PPTX",
+          "as": "PPTX"
+        },
+        {
+          "en": "PDF",
+          "as": "PDF"
+        },
+        {
+          "en": "DOCX",
+          "as": "DOCX"
+        }
       ],
-      "correct": 0,
-      "difficulty": "hard"
+      "correct": 2
     },
     {
-      "q": { "en": "Which MS Office application is mainly used to send and receive emails?", "as": "ইমেইল পঠোৱা আৰু লোৱাৰ বাবে মূলতঃ কোনটো MS Office application ব্যৱহাৰ কৰা হয়?" },
+      "q": {
+        "en": "A predefined set of colors, fonts and effects is called?",
+        "as": "পূৰ্বনিৰ্ধাৰিত ৰং, ফণ্ট আৰু প্ৰভাৱৰ সংগ্ৰহক কি বুলি কোৱা হয়?"
+      },
       "options": [
-        { "en": "MS Word", "as": "MS Word" },
-        { "en": "MS Excel", "as": "MS Excel" },
-        { "en": "MS Outlook", "as": "MS Outlook" },
-        { "en": "MS Publisher", "as": "MS Publisher" }
+        {
+          "en": "Scheme",
+          "as": "স্কীম"
+        },
+        {
+          "en": "Theme",
+          "as": "থীম"
+        },
+        {
+          "en": "Layout",
+          "as": "লে'আউট"
+        },
+        {
+          "en": "Template",
+          "as": "টেমপ্লেট"
+        }
       ],
-      "correct": 2,
-      "difficulty": "easy"
+      "correct": 1
     },
     {
-      "q": { "en": "Which MS Office application is mainly used to create and manage databases?", "as": "database সৃষ্টি আৰু পৰিচালনা কৰিবলৈ মূলতঃ কোনটো MS Office application ব্যৱহাৰ কৰা হয়?" },
+      "q": {
+        "en": "Which key combination selects all text?",
+        "as": "সকলো লিখনী নিৰ্বাচন কৰিবলৈ কোন কি সংমিশ্ৰণ ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "MS Access", "as": "MS Access" },
-        { "en": "MS Word", "as": "MS Word" },
-        { "en": "MS Excel", "as": "MS Excel" },
-        { "en": "MS OneNote", "as": "MS OneNote" }
+        {
+          "en": "Ctrl + A",
+          "as": "Ctrl + A"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + E",
+          "as": "Ctrl + E"
+        },
+        {
+          "en": "Ctrl + Q",
+          "as": "Ctrl + Q"
+        }
       ],
-      "correct": 0,
-      "difficulty": "easy"
+      "correct": 0
     },
     {
-      "q": { "en": "Which key cancels the current entry in an Excel cell?", "as": "Excel cell ত বৰ্তমান entry বাতিল কৰিবলৈ কোনটো key?" },
+      "q": {
+        "en": "Which shortcut is used to center-align text?",
+        "as": "লিখনী কেন্দ্ৰত সজাবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Enter", "as": "Enter" },
-        { "en": "Esc", "as": "Esc" },
-        { "en": "Tab", "as": "Tab" },
-        { "en": "Delete", "as": "Delete" }
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + E",
+          "as": "Ctrl + E"
+        },
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 2
     },
     {
-      "q": { "en": "Which shortcut applies small caps formatting in MS Word?", "as": "MS Word ত small caps formatting প্ৰয়োগ কৰিবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "The header of a document appears at the?",
+        "as": "ডকুমেণ্টৰ হেডাৰ ক'ত দেখুৱা হয়?"
+      },
       "options": [
-        { "en": "Ctrl + Shift + K", "as": "Ctrl + Shift + K" },
-        { "en": "Ctrl + K", "as": "Ctrl + K" },
-        { "en": "Ctrl + Shift + C", "as": "Ctrl + Shift + C" },
-        { "en": "Ctrl + C", "as": "Ctrl + C" }
+        {
+          "en": "Bottom of the page",
+          "as": "পৃষ্ঠাৰ তলত"
+        },
+        {
+          "en": "Center of the page",
+          "as": "পৃষ্ঠাৰ মাজত"
+        },
+        {
+          "en": "Top of the page",
+          "as": "পৃষ্ঠাৰ ওপৰত"
+        },
+        {
+          "en": "Right side",
+          "as": "সোঁফালে"
+        }
       ],
-      "correct": 0,
-      "difficulty": "hard"
+      "correct": 2
     },
     {
-      "q": { "en": "By default, how many worksheets are present in a new Excel 2010 workbook?", "as": "default অনুসৰি নতুন Excel 2010 workbook এখনত কিমান worksheet থাকে?" },
+      "q": {
+        "en": "Which key combination inserts a page break?",
+        "as": "পেজ ব্ৰেক সন্নিবিষ্ট কৰিবলৈ কোন কি সংমিশ্ৰণ ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "1", "as": "1" },
-        { "en": "2", "as": "2" },
-        { "en": "3", "as": "3" },
-        { "en": "5", "as": "5" }
+        {
+          "en": "Shift + Enter",
+          "as": "Shift + Enter"
+        },
+        {
+          "en": "Ctrl + Enter",
+          "as": "Ctrl + Enter"
+        },
+        {
+          "en": "Ctrl + Shift + Enter",
+          "as": "Ctrl + Shift + Enter"
+        },
+        {
+          "en": "Alt + Enter",
+          "as": "Alt + Enter"
+        }
       ],
-      "correct": 2,
-      "difficulty": "medium"
+      "correct": 1
     },
     {
-      "q": { "en": "Which view in MS Word is designed for reading a document on screen?", "as": "MS Word ত screen ত document পঢ়িবলৈ কোনটো view ডিজাইন কৰা হৈছে?" },
+      "q": {
+        "en": "Which shortcut inserts the current date in MS Word?",
+        "as": "MS Word-ত বৰ্তমান তাৰিখ সন্নিবিষ্ট কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Read Mode", "as": "Read Mode" },
-        { "en": "Print Layout", "as": "Print Layout" },
-        { "en": "Web Layout", "as": "Web Layout" },
-        { "en": "Outline", "as": "Outline" }
+        {
+          "en": "Alt + D",
+          "as": "Alt + D"
+        },
+        {
+          "en": "Alt + Shift + D",
+          "as": "Alt + Shift + D"
+        },
+        {
+          "en": "Ctrl + D",
+          "as": "Ctrl + D"
+        },
+        {
+          "en": "Ctrl + Shift + D",
+          "as": "Ctrl + Shift + D"
+        }
       ],
-      "correct": 0,
-      "difficulty": "easy"
+      "correct": 1
     },
     {
-      "q": { "en": "Which file format preserves the layout of a document for easy sharing and printing?", "as": "সহজে share আৰু print কৰিবলৈ document ৰ layout সংৰক্ষণ কৰা file format কোনটো?" },
+      "q": {
+        "en": "Which file extension is used for a Word template?",
+        "as": "Word টেমপ্লেটৰ বাবে কোন ফাইল এক্সটেনচন ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "TXT", "as": "TXT" },
-        { "en": "PDF", "as": "PDF" },
-        { "en": "CSV", "as": "CSV" },
-        { "en": "BAT", "as": "BAT" }
+        {
+          "en": ".docx",
+          "as": ".docx"
+        },
+        {
+          "en": ".docm",
+          "as": ".docm"
+        },
+        {
+          "en": ".rtf",
+          "as": ".rtf"
+        },
+        {
+          "en": ".dotx",
+          "as": ".dotx"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 3
     },
     {
-      "q": { "en": "Which Excel function returns the number of days between two dates?", "as": "দুটা তাৰিখৰ মাজৰ দিনৰ সংখ্যা ঘূৰাই দিয়া Excel function কোনটো?" },
+      "q": {
+        "en": "Which object is used to enter text on a slide?",
+        "as": "স্লাইডত লিখনী লিখিবলৈ কোন বস্তু ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "DAY", "as": "DAY" },
-        { "en": "DAYS", "as": "DAYS" },
-        { "en": "DATE", "as": "DATE" },
-        { "en": "MONTH", "as": "MONTH" }
+        {
+          "en": "Chart",
+          "as": "চাৰ্ট"
+        },
+        {
+          "en": "Table",
+          "as": "টেবুল"
+        },
+        {
+          "en": "Picture",
+          "as": "ছবি"
+        },
+        {
+          "en": "Text Box",
+          "as": "টেক্সট বক্স"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 3
     },
     {
-      "q": { "en": "Which is NOT a function category in MS Excel?", "as": "তলৰ কোনটো MS Excel ৰ function category নহয়?" },
+      "q": {
+        "en": "Ctrl + P is used for?",
+        "as": "Ctrl + P কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Logical", "as": "Logical" },
-        { "en": "Text", "as": "Text" },
-        { "en": "Design", "as": "Design" },
-        { "en": "Date & Time", "as": "Date & Time" }
+        {
+          "en": "Print",
+          "as": "প্ৰিন্ট"
+        },
+        {
+          "en": "Preview",
+          "as": "প্ৰিৱিউ"
+        },
+        {
+          "en": "Pause",
+          "as": "পজ"
+        },
+        {
+          "en": "Paste",
+          "as": "পেইষ্ট"
+        }
       ],
-      "correct": 2,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "Which pane in PowerPoint lets you fine-tune the timing of animations?", "as": "PowerPoint ত animation ৰ সময় সূক্ষ্মভাৱে নিয়ন্ত্ৰণ কৰিবলৈ কোনটো pane ব্যৱহাৰ কৰা হয়?" },
+      "q": {
+        "en": "Ctrl + E is used for which alignment?",
+        "as": "Ctrl + E কোন এলাইনমেণ্টৰ বাবে ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Animation Pane", "as": "Animation Pane" },
-        { "en": "Selection Pane", "as": "Selection Pane" },
-        { "en": "Notes Pane", "as": "Notes Pane" },
-        { "en": "Task Pane", "as": "Task Pane" }
+        {
+          "en": "Center",
+          "as": "কেন্দ্ৰত"
+        },
+        {
+          "en": "Justify",
+          "as": "জাষ্টিফাই"
+        },
+        {
+          "en": "Left",
+          "as": "বাওঁফালে"
+        },
+        {
+          "en": "Right",
+          "as": "সোঁফালে"
+        }
       ],
-      "correct": 0,
-      "difficulty": "hard"
+      "correct": 0
     },
     {
-      "q": { "en": "Which shortcut inserts the current date in MS Word?", "as": "MS Word ত বৰ্তমান তাৰিখ সুমুৱাবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which view is used to rearrange the order of slides?",
+        "as": "স্লাইডৰ ক্ৰম সলনি কৰিবলৈ কোন ভিউ ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Alt + Shift + D", "as": "Alt + Shift + D" },
-        { "en": "Alt + Shift + T", "as": "Alt + Shift + T" },
-        { "en": "Ctrl + Shift + D", "as": "Ctrl + Shift + D" },
-        { "en": "Ctrl + D", "as": "Ctrl + D" }
+        {
+          "en": "Normal",
+          "as": "নৰ্মাল"
+        },
+        {
+          "en": "Slide Show",
+          "as": "স্লাইড শ্ব'"
+        },
+        {
+          "en": "Slide Sorter",
+          "as": "স্লাইড চৰ্টাৰ"
+        },
+        {
+          "en": "Outline",
+          "as": "আউটলাইন"
+        }
       ],
-      "correct": 0,
-      "difficulty": "hard"
+      "correct": 2
     }
   ]
 }

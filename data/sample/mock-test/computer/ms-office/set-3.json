@@ -1,282 +1,632 @@
 {
   "setNumber": 3,
-  "title": "Computer Awareness - MS Office Set 3",
+  "title": "Set 3",
   "subject": "MS Office",
   "questions": [
     {
-      "q": { "en": "Which Excel function is used to add a range of numbers?", "as": "সংখ্যাৰ এটা range যোগ কৰিবলৈ কোনটো Excel function ব্যৱহাৰ কৰা হয়?" },
+      "q": {
+        "en": "Which shortcut is used to duplicate a slide quickly?",
+        "as": "এটা স্লাইড দ্ৰুতভাৱে নকল কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "SUM", "as": "SUM" },
-        { "en": "AVERAGE", "as": "AVERAGE" },
-        { "en": "COUNT", "as": "COUNT" },
-        { "en": "TOTAL", "as": "TOTAL" }
+        {
+          "en": "Ctrl + D",
+          "as": "Ctrl + D"
+        },
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        },
+        {
+          "en": "Ctrl + M",
+          "as": "Ctrl + M"
+        }
       ],
-      "correct": 0,
-      "difficulty": "easy"
+      "correct": 0
     },
     {
-      "q": { "en": "Which Excel function returns the average of a range of numbers?", "as": "সংখ্যাৰ এটা range ৰ average ঘূৰাই দিয়া Excel function কোনটো?" },
+      "q": {
+        "en": "Bullets and Numbering are found under which tab?",
+        "as": "বুলেট আৰু নাম্বাৰিং কোন টেবৰ অধীনত থাকে?"
+      },
       "options": [
-        { "en": "SUM", "as": "SUM" },
-        { "en": "AVERAGE", "as": "AVERAGE" },
-        { "en": "MEAN", "as": "MEAN" },
-        { "en": "MID", "as": "MID" }
+        {
+          "en": "Home",
+          "as": "Home"
+        },
+        {
+          "en": "Insert",
+          "as": "Insert"
+        },
+        {
+          "en": "Layout",
+          "as": "Layout"
+        },
+        {
+          "en": "Design",
+          "as": "Design"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 0
     },
     {
-      "q": { "en": "Which Excel function returns the largest number in a range?", "as": "এটা range ৰ আটাইতকৈ ডাঙৰ সংখ্যা ঘূৰাই দিয়া Excel function কোনটো?" },
+      "q": {
+        "en": "Which tab is used to insert headers and footers?",
+        "as": "হেডাৰ আৰু ফুটৰ সন্নিবিষ্ট কৰিবলৈ কোন টেব ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "MIN", "as": "MIN" },
-        { "en": "MAX", "as": "MAX" },
-        { "en": "LARGE", "as": "LARGE" },
-        { "en": "TOP", "as": "TOP" }
+        {
+          "en": "Home",
+          "as": "Home"
+        },
+        {
+          "en": "Layout",
+          "as": "Layout"
+        },
+        {
+          "en": "Review",
+          "as": "Review"
+        },
+        {
+          "en": "Insert",
+          "as": "Insert"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 3
     },
     {
-      "q": { "en": "Which Excel function returns the smallest number in a range?", "as": "এটা range ৰ আটাইতকৈ সৰু সংখ্যা ঘূৰাই দিয়া Excel function কোনটো?" },
+      "q": {
+        "en": "Which function is used to join text strings?",
+        "as": "লিখনীৰ শৃংখলা সংযোগ কৰিবলৈ কোন ফলন ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "MIN", "as": "MIN" },
-        { "en": "MAX", "as": "MAX" },
-        { "en": "SMALL", "as": "SMALL" },
-        { "en": "LOW", "as": "LOW" }
+        {
+          "en": "CONCATENATE",
+          "as": "CONCATENATE"
+        },
+        {
+          "en": "SUM",
+          "as": "SUM"
+        },
+        {
+          "en": "JOIN",
+          "as": "JOIN"
+        },
+        {
+          "en": "MERGE",
+          "as": "MERGE"
+        }
       ],
-      "correct": 0,
-      "difficulty": "easy"
+      "correct": 0
     },
     {
-      "q": { "en": "Which Excel function counts the number of cells that contain numbers?", "as": "কোনটো Excel function ই সংখ্যা থকা cell ৰ সংখ্যা গণনা কৰে?" },
+      "q": {
+        "en": "Which shortcut is used to select all content?",
+        "as": "সকলো সমল নিৰ্বাচন কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "COUNTA", "as": "COUNTA" },
-        { "en": "COUNT", "as": "COUNT" },
-        { "en": "SUM", "as": "SUM" },
-        { "en": "LEN", "as": "LEN" }
+        {
+          "en": "Ctrl + A",
+          "as": "Ctrl + A"
+        },
+        {
+          "en": "Ctrl + E",
+          "as": "Ctrl + E"
+        },
+        {
+          "en": "Ctrl + Q",
+          "as": "Ctrl + Q"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "Which Excel function counts all non-empty cells?", "as": "কোনটো Excel function ই সকলো খালী নোহোৱা cell গণনা কৰে?" },
+      "q": {
+        "en": "Which feature is used to arrange data in a particular order?",
+        "as": "ডেটা এটা নিৰ্দিষ্ট ক্ৰমত সজাবলৈ কোন সুবিধা ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "COUNT", "as": "COUNT" },
-        { "en": "COUNTA", "as": "COUNTA" },
-        { "en": "COUNTIF", "as": "COUNTIF" },
-        { "en": "NUMBER", "as": "NUMBER" }
+        {
+          "en": "Filter",
+          "as": "ফিল্টাৰ"
+        },
+        {
+          "en": "Format",
+          "as": "ফৰ্মেট"
+        },
+        {
+          "en": "Sort",
+          "as": "চৰ্ট"
+        },
+        {
+          "en": "Find",
+          "as": "ফাইণ্ড"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 2
     },
     {
-      "q": { "en": "Which Excel function rounds a number to a specified number of digits?", "as": "কোনটো Excel function ই এটা সংখ্যাক নিৰ্দিষ্ট অংকলৈ ৰাউণ্ড কৰে?" },
+      "q": {
+        "en": "The Font group is found under which tab?",
+        "as": "ফণ্ট গ্ৰুপ কোন টেবৰ অধীনত থাকে?"
+      },
       "options": [
-        { "en": "ROUND", "as": "ROUND" },
-        { "en": "SUM", "as": "SUM" },
-        { "en": "ROUNDUP", "as": "ROUNDUP" },
-        { "en": "INT", "as": "INT" }
+        {
+          "en": "Home",
+          "as": "Home"
+        },
+        {
+          "en": "Review",
+          "as": "Review"
+        },
+        {
+          "en": "Insert",
+          "as": "Insert"
+        },
+        {
+          "en": "View",
+          "as": "View"
+        }
       ],
-      "correct": 0,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "Which Excel function returns the current date only?", "as": "কোনটো Excel function ই কেৱল আজিৰ তাৰিখ ঘূৰাই দিয়ে?" },
+      "q": {
+        "en": "Which function returns the largest value?",
+        "as": "সৰ্বাধিক মান ঘূৰাই দিয়া ফলন কোনটো?"
+      },
       "options": [
-        { "en": "NOW()", "as": "NOW()" },
-        { "en": "TODAY()", "as": "TODAY()" },
-        { "en": "DATE()", "as": "DATE()" },
-        { "en": "DAY()", "as": "DAY()" }
+        {
+          "en": "MAX",
+          "as": "MAX"
+        },
+        {
+          "en": "MIN",
+          "as": "MIN"
+        },
+        {
+          "en": "SUM",
+          "as": "SUM"
+        },
+        {
+          "en": "LARGE",
+          "as": "LARGE"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "Which Excel function returns the current date and time?", "as": "কোনটো Excel function ই বৰ্তমান তাৰিখ আৰু সময় ঘূৰাই দিয়ে?" },
+      "q": {
+        "en": "Which application is best for making a slide presentation?",
+        "as": "স্লাইড প্ৰেজেণ্টেচন বনোৱাৰ বাবে কোন এপ্লিকেচন উত্তম?"
+      },
       "options": [
-        { "en": "TODAY()", "as": "TODAY()" },
-        { "en": "NOW()", "as": "NOW()" },
-        { "en": "TIME()", "as": "TIME()" },
-        { "en": "DATE()", "as": "DATE()" }
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        },
+        {
+          "en": "MS PowerPoint",
+          "as": "MS PowerPoint"
+        },
+        {
+          "en": "MS Access",
+          "as": "MS Access"
+        },
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 1
     },
     {
-      "q": { "en": "Which Excel function searches a value in the first column of a table and returns a value from another column?", "as": "কোনটো Excel function ই টেবুলৰ প্ৰথম column ত এটা মান সন্ধান কৰি আন column ৰ পৰা মান ঘূৰাই দিয়ে?" },
+      "q": {
+        "en": "The arrangement of placeholders on a slide is called?",
+        "as": "স্লাইডত placeholders ৰ বিন্যাসক কি বুলি কোৱা হয়?"
+      },
       "options": [
-        { "en": "HLOOKUP", "as": "HLOOKUP" },
-        { "en": "VLOOKUP", "as": "VLOOKUP" },
-        { "en": "LOOKUP", "as": "LOOKUP" },
-        { "en": "MATCH", "as": "MATCH" }
+        {
+          "en": "Theme",
+          "as": "থীম"
+        },
+        {
+          "en": "Slide Design",
+          "as": "স্লাইড ডিজাইন"
+        },
+        {
+          "en": "Slide Master",
+          "as": "স্লাইড মাষ্টাৰ"
+        },
+        {
+          "en": "Slide Layout",
+          "as": "স্লাইড লে'আউট"
+        }
       ],
-      "correct": 1,
-      "difficulty": "hard"
+      "correct": 3
     },
     {
-      "q": { "en": "Which Excel function checks a condition and returns one value if TRUE and another if FALSE?", "as": "কোনটো Excel function ই এটা চৰ্ত পৰীক্ষা কৰি TRUE হ'লে এটা মান আৰু FALSE হ'লে আন এটা মান ঘূৰাই দিয়ে?" },
+      "q": {
+        "en": "Which application is used to send and receive emails?",
+        "as": "ইমেইল পঠোৱা আৰু গ্ৰহণ কৰিবলৈ কোন এপ্লিকেচন ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "IF", "as": "IF" },
-        { "en": "AND", "as": "AND" },
-        { "en": "OR", "as": "OR" },
-        { "en": "NOT", "as": "NOT" }
+        {
+          "en": "MS Outlook",
+          "as": "MS Outlook"
+        },
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        },
+        {
+          "en": "MS Access",
+          "as": "MS Access"
+        }
       ],
-      "correct": 0,
-      "difficulty": "easy"
+      "correct": 0
     },
     {
-      "q": { "en": "Which Excel function joins two or more text strings into one?", "as": "কোনটো Excel function ই দুটা বা অধিক text string এটালৈ সংযুক্ত কৰে?" },
+      "q": {
+        "en": "The footer of a document appears at the?",
+        "as": "ডকুমেণ্টৰ ফুটৰ ক'ত দেখুৱা হয়?"
+      },
       "options": [
-        { "en": "CONCATENATE", "as": "CONCATENATE" },
-        { "en": "SPLIT", "as": "SPLIT" },
-        { "en": "JOIN", "as": "JOIN" },
-        { "en": "MERGE", "as": "MERGE" }
+        {
+          "en": "Left side",
+          "as": "বাওঁফালে"
+        },
+        {
+          "en": "Bottom of the page",
+          "as": "পৃষ্ঠাৰ তলত"
+        },
+        {
+          "en": "Top of the page",
+          "as": "পৃষ্ঠাৰ ওপৰত"
+        },
+        {
+          "en": "Center of the page",
+          "as": "পৃষ্ঠাৰ মাজত"
+        }
       ],
-      "correct": 0,
-      "difficulty": "medium"
+      "correct": 1
     },
     {
-      "q": { "en": "Which symbol is used to make a cell reference absolute in Excel?", "as": "Excel ত এটা cell reference absolute কৰিবলৈ কোনটো symbol ব্যৱহাৰ কৰা হয়?" },
+      "q": {
+        "en": "In MS Excel, a file is known as a?",
+        "as": "MS Excel-ত এটা ফাইলক কি বুলি কোৱা হয়?"
+      },
       "options": [
-        { "en": "#", "as": "#" },
-        { "en": "$", "as": "$" },
-        { "en": "&", "as": "&" },
-        { "en": "@", "as": "@" }
+        {
+          "en": "Database",
+          "as": "ডেটাবেছ"
+        },
+        {
+          "en": "Document",
+          "as": "ডকুমেণ্ট"
+        },
+        {
+          "en": "Workbook",
+          "as": "ৱৰ্কবুক"
+        },
+        {
+          "en": "Presentation",
+          "as": "প্ৰেজেণ্টেচন"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 2
     },
     {
-      "q": { "en": "Which formula adds the values from cell A1 to A10?", "as": "A1 ৰ পৰা A10 লৈকে মান যোগ কৰা formula কোনটো?" },
+      "q": {
+        "en": "Which application is used to create and manage databases?",
+        "as": "ডেটাবেছ সৃষ্টি আৰু পৰিচালনা কৰিবলৈ কোন এপ্লিকেচন ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "=SUM(A1-A10)", "as": "=SUM(A1-A10)" },
-        { "en": "=SUM(A1:A10)", "as": "=SUM(A1:A10)" },
-        { "en": "=ADD(A1:A10)", "as": "=ADD(A1:A10)" },
-        { "en": "=TOTAL(A1:A10)", "as": "=TOTAL(A1:A10)" }
+        {
+          "en": "MS PowerPoint",
+          "as": "MS PowerPoint"
+        },
+        {
+          "en": "MS Access",
+          "as": "MS Access"
+        },
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 1
     },
     {
-      "q": { "en": "Which Excel function returns the number of characters in a text string?", "as": "কোনটো Excel function ই এটা text string ত থকা আখৰৰ সংখ্যা ঘূৰাই দিয়ে?" },
+      "q": {
+        "en": "Which symbol begins every formula in Excel?",
+        "as": "Excel-ত প্ৰতিটো ফৰ্মুলা কোন চিহ্নৰে আৰম্ভ হয়?"
+      },
       "options": [
-        { "en": "LEN", "as": "LEN" },
-        { "en": "COUNT", "as": "COUNT" },
-        { "en": "SIZE", "as": "SIZE" },
-        { "en": "LENGTH", "as": "LENGTH" }
+        {
+          "en": "@",
+          "as": "@"
+        },
+        {
+          "en": "+",
+          "as": "+"
+        },
+        {
+          "en": "-",
+          "as": "-"
+        },
+        {
+          "en": "=",
+          "as": "="
+        }
       ],
-      "correct": 0,
-      "difficulty": "medium"
+      "correct": 3
     },
     {
-      "q": { "en": "Which Excel function converts text to uppercase?", "as": "কোনটো Excel function ই text ক uppercase লৈ ৰূপান্তৰ কৰে?" },
+      "q": {
+        "en": "Ctrl + U is used for?",
+        "as": "Ctrl + U কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "LOWER", "as": "LOWER" },
-        { "en": "UPPER", "as": "UPPER" },
-        { "en": "PROPER", "as": "PROPER" },
-        { "en": "TEXT", "as": "TEXT" }
+        {
+          "en": "Uppercase",
+          "as": "আপাৰকেছ"
+        },
+        {
+          "en": "Update",
+          "as": "আপডেট"
+        },
+        {
+          "en": "Underline",
+          "as": "আণ্ডাৰলাইন"
+        },
+        {
+          "en": "Undo",
+          "as": "আনডু"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 2
     },
     {
-      "q": { "en": "Which Excel function converts text to lowercase?", "as": "কোনটো Excel function ই text ক lowercase লৈ ৰূপান্তৰ কৰে?" },
+      "q": {
+        "en": "Which shortcut is used to paste copied content?",
+        "as": "কপি কৰা সমল পেইষ্ট কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "LOWER", "as": "LOWER" },
-        { "en": "UPPER", "as": "UPPER" },
-        { "en": "PROPER", "as": "PROPER" },
-        { "en": "TEXT", "as": "TEXT" }
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        },
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        },
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        }
       ],
-      "correct": 0,
-      "difficulty": "easy"
+      "correct": 1
     },
     {
-      "q": { "en": "Which Excel function removes extra spaces from text?", "as": "কোনটো Excel function ই text ৰ পৰা অতিৰিক্ত space আঁতৰায়?" },
+      "q": {
+        "en": "The Word Count option is available under which tab?",
+        "as": "ৱৰ্ড কাউণ্ট বিকল্প কোন টেবত উপলব্ধ?"
+      },
       "options": [
-        { "en": "CLEAN", "as": "CLEAN" },
-        { "en": "TRIM", "as": "TRIM" },
-        { "en": "LEN", "as": "LEN" },
-        { "en": "SPACE", "as": "SPACE" }
+        {
+          "en": "View",
+          "as": "View"
+        },
+        {
+          "en": "Insert",
+          "as": "Insert"
+        },
+        {
+          "en": "Home",
+          "as": "Home"
+        },
+        {
+          "en": "Review",
+          "as": "Review"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 3
     },
     {
-      "q": { "en": "In Excel, which error is displayed when a number is divided by zero?", "as": "Excel ত শূন্যৰে ভাগ কৰিলে কোনটো error দেখুওৱা হয়?" },
+      "q": {
+        "en": "Which shortcut moves the cursor to the beginning of the document?",
+        "as": "কাৰ্ছৰক ডকুমেণ্টৰ আৰম্ভণিলৈ নিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "#VALUE!", "as": "#VALUE!" },
-        { "en": "#DIV/0!", "as": "#DIV/0!" },
-        { "en": "#NAME?", "as": "#NAME?" },
-        { "en": "#REF!", "as": "#REF!" }
+        {
+          "en": "Home",
+          "as": "Home"
+        },
+        {
+          "en": "Alt + Home",
+          "as": "Alt + Home"
+        },
+        {
+          "en": "Ctrl + Home",
+          "as": "Ctrl + Home"
+        },
+        {
+          "en": "Ctrl + End",
+          "as": "Ctrl + End"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 2
     },
     {
-      "q": { "en": "Which Excel function returns the row number of a reference?", "as": "কোনটো Excel function ই এটা reference ৰ row number ঘূৰাই দিয়ে?" },
+      "q": {
+        "en": "Which shortcut is used to redo an action?",
+        "as": "এটা কাৰ্য পুনৰ কৰিবলৈ (redo) কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "COLUMN", "as": "COLUMN" },
-        { "en": "ROW", "as": "ROW" },
-        { "en": "CELL", "as": "CELL" },
-        { "en": "INDEX", "as": "INDEX" }
+        {
+          "en": "Ctrl + U",
+          "as": "Ctrl + U"
+        },
+        {
+          "en": "Ctrl + Y",
+          "as": "Ctrl + Y"
+        },
+        {
+          "en": "Ctrl + R",
+          "as": "Ctrl + R"
+        },
+        {
+          "en": "Ctrl + Z",
+          "as": "Ctrl + Z"
+        }
       ],
-      "correct": 1,
-      "difficulty": "hard"
+      "correct": 1
     },
     {
-      "q": { "en": "What does the fill handle in Excel do when dragged?", "as": "Excel ত fill handle টানি নিলে কি কৰে?" },
+      "q": {
+        "en": "Which shortcut starts a slide show from the current slide?",
+        "as": "বৰ্তমান স্লাইডৰ পৰা স্লাইড শ্ব' আৰম্ভ কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Deletes the data", "as": "ডেটা মচি পেলায়" },
-        { "en": "Copies or continues a series", "as": "কপি কৰে বা এটা series আগবঢ়ায়" },
-        { "en": "Formats the cell", "as": "cell format কৰে" },
-        { "en": "Prints the sheet", "as": "sheet print কৰে" }
+        {
+          "en": "Alt + F5",
+          "as": "Alt + F5"
+        },
+        {
+          "en": "F6",
+          "as": "F6"
+        },
+        {
+          "en": "Shift + F5",
+          "as": "Shift + F5"
+        },
+        {
+          "en": "Ctrl + F5",
+          "as": "Ctrl + F5"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 2
     },
     {
-      "q": { "en": "Which chart type is best to show a trend over time?", "as": "সময়ৰ লগে লগে পৰিৱৰ্তন দেখুৱাবলৈ কোনটো chart type আটাইতকৈ উপযুক্ত?" },
+      "q": {
+        "en": "Ctrl + J is used for which alignment?",
+        "as": "Ctrl + J কোন এলাইনমেণ্টৰ বাবে ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Pie chart", "as": "Pie chart" },
-        { "en": "Line chart", "as": "Line chart" },
-        { "en": "Doughnut chart", "as": "Doughnut chart" },
-        { "en": "Radar chart", "as": "Radar chart" }
+        {
+          "en": "Join",
+          "as": "জয়েন"
+        },
+        {
+          "en": "Junk",
+          "as": "জাংক"
+        },
+        {
+          "en": "Justify",
+          "as": "জাষ্টিফাই"
+        },
+        {
+          "en": "Jump",
+          "as": "জাম্প"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 2
     },
     {
-      "q": { "en": "Which shortcut inserts the current date in an Excel cell?", "as": "Excel cell ত বৰ্তমান তাৰিখ সুমুৱাবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "The intersection of a row and a column is called?",
+        "as": "শাৰী আৰু স্তম্ভৰ ছেদবিন্দুক কি বুলি কোৱা হয়?"
+      },
       "options": [
-        { "en": "Ctrl + ;", "as": "Ctrl + ;" },
-        { "en": "Ctrl + Shift + ;", "as": "Ctrl + Shift + ;" },
-        { "en": "Ctrl + D", "as": "Ctrl + D" },
-        { "en": "Ctrl + T", "as": "Ctrl + T" }
+        {
+          "en": "Box",
+          "as": "বক্স"
+        },
+        {
+          "en": "Cell",
+          "as": "চেল"
+        },
+        {
+          "en": "Range",
+          "as": "ৰেঞ্জ"
+        },
+        {
+          "en": "Sheet",
+          "as": "শ্বীট"
+        }
       ],
-      "correct": 0,
-      "difficulty": "hard"
+      "correct": 1
     },
     {
-      "q": { "en": "Which shortcut inserts the current time in an Excel cell?", "as": "Excel cell ত বৰ্তমান সময় সুমুৱাবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "The cell reference that does not change when copied is called?",
+        "as": "কপি কৰিলে নসলনি হোৱা চেল ৰেফাৰেন্সক কি বুলি কোৱা হয়?"
+      },
       "options": [
-        { "en": "Ctrl + ;", "as": "Ctrl + ;" },
-        { "en": "Ctrl + Shift + ;", "as": "Ctrl + Shift + ;" },
-        { "en": "Ctrl + T", "as": "Ctrl + T" },
-        { "en": "Ctrl + Shift + T", "as": "Ctrl + Shift + T" }
+        {
+          "en": "Circular reference",
+          "as": "বৃত্তাকাৰ ৰেফাৰেন্স"
+        },
+        {
+          "en": "Relative reference",
+          "as": "আপেক্ষিক ৰেফাৰেন্স"
+        },
+        {
+          "en": "Mixed reference",
+          "as": "মিশ্ৰ ৰেফাৰেন্স"
+        },
+        {
+          "en": "Absolute reference",
+          "as": "পৰম ৰেফাৰেন্স"
+        }
       ],
-      "correct": 1,
-      "difficulty": "hard"
+      "correct": 3
     },
     {
-      "q": { "en": "In which tab is the Function Library group found in MS Excel?", "as": "MS Excel ত Function Library group কোনটো tab ত পোৱা যায়?" },
+      "q": {
+        "en": "Which shortcut is used for Find and Replace?",
+        "as": "ফাইণ্ড এণ্ড ৰিপ্লেইচ কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Home", "as": "Home" },
-        { "en": "Insert", "as": "Insert" },
-        { "en": "Formulas", "as": "Formulas" },
-        { "en": "Data", "as": "Data" }
+        {
+          "en": "Ctrl + G",
+          "as": "Ctrl + G"
+        },
+        {
+          "en": "Ctrl + R",
+          "as": "Ctrl + R"
+        },
+        {
+          "en": "Ctrl + F",
+          "as": "Ctrl + F"
+        },
+        {
+          "en": "Ctrl + H",
+          "as": "Ctrl + H"
+        }
       ],
-      "correct": 2,
-      "difficulty": "medium"
+      "correct": 3
     }
   ]
 }

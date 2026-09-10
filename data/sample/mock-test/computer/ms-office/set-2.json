@@ -1,282 +1,632 @@
 {
   "setNumber": 2,
-  "title": "Computer Awareness - MS Office Set 2",
+  "title": "Set 2",
   "subject": "MS Office",
   "questions": [
     {
-      "q": { "en": "Which view in MS Word shows margins, rulers and how the page will print?", "as": "MS Word ত কোনটো view ত margin, ruler আৰু পৃষ্ঠা কেনেকৈ print হ'ব সেয়া দেখুওৱা হয়?" },
+      "q": {
+        "en": "Which pane shows thumbnails of all slides?",
+        "as": "সকলো স্লাইডৰ থাম্বনেইল দেখুওৱা পেইন কোনটো?"
+      },
       "options": [
-        { "en": "Print Layout", "as": "Print Layout" },
-        { "en": "Web Layout", "as": "Web Layout" },
-        { "en": "Draft", "as": "Draft" },
-        { "en": "Outline", "as": "Outline" }
+        {
+          "en": "Status bar",
+          "as": "ষ্টেটাছ বাৰ"
+        },
+        {
+          "en": "Notes pane",
+          "as": "নোটছ পেইন"
+        },
+        {
+          "en": "Task pane",
+          "as": "টাস্ক পেইন"
+        },
+        {
+          "en": "Slide pane",
+          "as": "স্লাইড পেইন"
+        }
       ],
-      "correct": 0,
-      "difficulty": "easy"
+      "correct": 3
     },
     {
-      "q": { "en": "Which Word feature repeats the table header row on every page?", "as": "কোনটো Word feature ই প্ৰতিটো পৃষ্ঠাত টেবুলৰ header row পুনৰাবৃত্তি কৰে?" },
+      "q": {
+        "en": "Which shortcut makes the selected text bold?",
+        "as": "নিৰ্বাচিত লিখনী বোল্ড কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Repeat Header Rows", "as": "Repeat Header Rows" },
-        { "en": "Split Table", "as": "Split Table" },
-        { "en": "Merge Cells", "as": "Merge Cells" },
-        { "en": "AutoFit", "as": "AutoFit" }
+        {
+          "en": "Ctrl + D",
+          "as": "Ctrl + D"
+        },
+        {
+          "en": "Ctrl + B",
+          "as": "Ctrl + B"
+        },
+        {
+          "en": "Ctrl + I",
+          "as": "Ctrl + I"
+        },
+        {
+          "en": "Ctrl + U",
+          "as": "Ctrl + U"
+        }
       ],
-      "correct": 0,
-      "difficulty": "hard"
+      "correct": 1
     },
     {
-      "q": { "en": "A watermark in MS Word is found under which tab?", "as": "MS Word ত watermark কোনটো tab ত পোৱা যায়?" },
+      "q": {
+        "en": "What is the default file extension of an MS Word document?",
+        "as": "MS Word ডকুমেণ্টৰ ডিফল্ট ফাইল এক্সটেনচন কি?"
+      },
       "options": [
-        { "en": "Home", "as": "Home" },
-        { "en": "Insert", "as": "Insert" },
-        { "en": "Design", "as": "Design" },
-        { "en": "Layout", "as": "Layout" }
+        {
+          "en": ".xlsx",
+          "as": ".xlsx"
+        },
+        {
+          "en": ".pptx",
+          "as": ".pptx"
+        },
+        {
+          "en": ".docx",
+          "as": ".docx"
+        },
+        {
+          "en": ".txt",
+          "as": ".txt"
+        }
       ],
-      "correct": 2,
-      "difficulty": "medium"
+      "correct": 2
     },
     {
-      "q": { "en": "Which shortcut inserts a page break in MS Word?", "as": "MS Word ত page break সুমুৱাবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which shortcut is used to create a new slide?",
+        "as": "নতুন স্লাইড সৃষ্টি কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Ctrl + Enter", "as": "Ctrl + Enter" },
-        { "en": "Shift + Enter", "as": "Shift + Enter" },
-        { "en": "Alt + Enter", "as": "Alt + Enter" },
-        { "en": "Ctrl + Shift + Enter", "as": "Ctrl + Shift + Enter" }
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + K",
+          "as": "Ctrl + K"
+        },
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        },
+        {
+          "en": "Ctrl + M",
+          "as": "Ctrl + M"
+        }
       ],
-      "correct": 0,
-      "difficulty": "medium"
+      "correct": 3
     },
     {
-      "q": { "en": "What is the full form of RTF as used in MS Word?", "as": "MS Word ত ব্যৱহৃত RTF ৰ সম্পূৰ্ণ ৰূপ কি?" },
+      "q": {
+        "en": "In Excel, columns are labelled with?",
+        "as": "Excel-ত স্তম্ভবোৰ কিৰে লেবেল কৰা হয়?"
+      },
       "options": [
-        { "en": "Rich Text Format", "as": "Rich Text Format" },
-        { "en": "Real Text File", "as": "Real Text File" },
-        { "en": "Run Time Format", "as": "Run Time Format" },
-        { "en": "Ready Text Format", "as": "Ready Text Format" }
+        {
+          "en": "Colors",
+          "as": "ৰং"
+        },
+        {
+          "en": "Numbers",
+          "as": "সংখ্যা"
+        },
+        {
+          "en": "Letters",
+          "as": "আখৰ"
+        },
+        {
+          "en": "Symbols",
+          "as": "চিহ্ন"
+        }
       ],
-      "correct": 0,
-      "difficulty": "easy"
+      "correct": 2
     },
     {
-      "q": { "en": "Which key starts a new paragraph in MS Word?", "as": "MS Word ত নতুন এটা paragraph আৰম্ভ কৰিবলৈ কোনটো key?" },
+      "q": {
+        "en": "Which tab contains the Table option?",
+        "as": "টেবুল বিকল্প কোন টেবত আছে?"
+      },
       "options": [
-        { "en": "Shift", "as": "Shift" },
-        { "en": "Tab", "as": "Tab" },
-        { "en": "Enter", "as": "Enter" },
-        { "en": "Ctrl", "as": "Ctrl" }
+        {
+          "en": "View",
+          "as": "View"
+        },
+        {
+          "en": "Insert",
+          "as": "Insert"
+        },
+        {
+          "en": "Design",
+          "as": "Design"
+        },
+        {
+          "en": "Home",
+          "as": "Home"
+        }
       ],
-      "correct": 2,
-      "difficulty": "easy"
+      "correct": 1
     },
     {
-      "q": { "en": "Which function key opens the Save As dialog box in MS Word?", "as": "MS Word ত Save As dialog box খুলিবলৈ কোনটো function key?" },
+      "q": {
+        "en": "Which view allows editing of the overall design of all slides?",
+        "as": "সকলো স্লাইডৰ সামগ্ৰিক ডিজাইন সম্পাদনা কৰিবলৈ কোন ভিউৱে অনুমতি দিয়ে?"
+      },
       "options": [
-        { "en": "F5", "as": "F5" },
-        { "en": "F7", "as": "F7" },
-        { "en": "F10", "as": "F10" },
-        { "en": "F12", "as": "F12" }
+        {
+          "en": "Normal",
+          "as": "নৰ্মাল"
+        },
+        {
+          "en": "Reading",
+          "as": "ৰিডিং"
+        },
+        {
+          "en": "Slide Sorter",
+          "as": "স্লাইড চৰ্টাৰ"
+        },
+        {
+          "en": "Slide Master",
+          "as": "স্লাইড মাষ্টাৰ"
+        }
       ],
-      "correct": 3,
-      "difficulty": "medium"
+      "correct": 3
     },
     {
-      "q": { "en": "Which of the following is NOT a page orientation in MS Word?", "as": "তলৰ কোনটো MS Word ৰ page orientation নহয়?" },
+      "q": {
+        "en": "The formula bar displays the contents of?",
+        "as": "ফৰ্মুলা বাৰে কিৰ সমল দেখুৱায়?"
+      },
       "options": [
-        { "en": "Portrait", "as": "Portrait" },
-        { "en": "Landscape", "as": "Landscape" },
-        { "en": "Diagonal", "as": "Diagonal" },
-        { "en": "Both Portrait and Landscape", "as": "Portrait আৰু Landscape দুয়োটা" }
+        {
+          "en": "The active cell",
+          "as": "সক্ৰিয় চেল"
+        },
+        {
+          "en": "The toolbar",
+          "as": "টুলবাৰ"
+        },
+        {
+          "en": "The status bar",
+          "as": "ষ্টেটাছ বাৰ"
+        },
+        {
+          "en": "The whole sheet",
+          "as": "সমগ্ৰ শ্বীট"
+        }
       ],
-      "correct": 2,
-      "difficulty": "easy"
+      "correct": 0
     },
     {
-      "q": { "en": "What is the maximum font size available in MS Word?", "as": "MS Word ত উপলব্ধ সৰ্বোচ্চ font size কি?" },
+      "q": {
+        "en": "Which shortcut is used to cut the selected content?",
+        "as": "নিৰ্বাচিত সমল কাট কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "72", "as": "72" },
-        { "en": "1638", "as": "1638" },
-        { "en": "1000", "as": "1000" },
-        { "en": "500", "as": "500" }
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        },
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        },
+        {
+          "en": "Ctrl + Z",
+          "as": "Ctrl + Z"
+        },
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        }
       ],
-      "correct": 1,
-      "difficulty": "hard"
+      "correct": 1
     },
     {
-      "q": { "en": "Which Word feature shows the number of words, characters and paragraphs?", "as": "কোনটো Word feature ই word, character আৰু paragraph ৰ সংখ্যা দেখুৱায়?" },
+      "q": {
+        "en": "Which key advances to the next slide during a show?",
+        "as": "শ্ব' চলোঁতে পৰৱৰ্তী স্লাইডলৈ যাবলৈ কোন কি ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Word Count", "as": "Word Count" },
-        { "en": "Thesaurus", "as": "Thesaurus" },
-        { "en": "Word Art", "as": "Word Art" },
-        { "en": "Find and Replace", "as": "Find and Replace" }
+        {
+          "en": "Backspace",
+          "as": "Backspace"
+        },
+        {
+          "en": "Spacebar",
+          "as": "স্পেচবাৰ"
+        },
+        {
+          "en": "Tab",
+          "as": "Tab"
+        },
+        {
+          "en": "Esc",
+          "as": "Esc"
+        }
       ],
-      "correct": 0,
-      "difficulty": "medium"
+      "correct": 1
     },
     {
-      "q": { "en": "Which shortcut moves the cursor to the beginning of a document?", "as": "কাৰ্চৰক document ৰ আৰম্ভণিলৈ লৈ যাবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which key combination is used to close the active window?",
+        "as": "সক্ৰিয় উইণ্ড' বন্ধ কৰিবলৈ কোন কি সংমিশ্ৰণ ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Ctrl + Home", "as": "Ctrl + Home" },
-        { "en": "Ctrl + End", "as": "Ctrl + End" },
-        { "en": "Home", "as": "Home" },
-        { "en": "Alt + Home", "as": "Alt + Home" }
+        {
+          "en": "Ctrl + W",
+          "as": "Ctrl + W"
+        },
+        {
+          "en": "Ctrl + F4",
+          "as": "Ctrl + F4"
+        },
+        {
+          "en": "Alt + F4",
+          "as": "Alt + F4"
+        },
+        {
+          "en": "Shift + F4",
+          "as": "Shift + F4"
+        }
       ],
-      "correct": 0,
-      "difficulty": "medium"
+      "correct": 2
     },
     {
-      "q": { "en": "Which shortcut moves the cursor to the end of a document?", "as": "কাৰ্চৰক document ৰ শেষলৈ লৈ যাবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "A saved collection of formatting settings with a name is called?",
+        "as": "নামসহ সংৰক্ষিত ফৰ্মেটিং ছেটিংছৰ সংগ্ৰহক কি বুলি কোৱা হয়?"
+      },
       "options": [
-        { "en": "Ctrl + Home", "as": "Ctrl + Home" },
-        { "en": "Ctrl + End", "as": "Ctrl + End" },
-        { "en": "End", "as": "End" },
-        { "en": "Alt + End", "as": "Alt + End" }
+        {
+          "en": "Style",
+          "as": "ষ্টাইল"
+        },
+        {
+          "en": "Macro",
+          "as": "মেক্ৰ'"
+        },
+        {
+          "en": "Theme",
+          "as": "থীম"
+        },
+        {
+          "en": "Template",
+          "as": "টেমপ্লেট"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "Where does the header appear in a Word document?", "as": "Word document ত header ক'ত দেখা যায়?" },
+      "q": {
+        "en": "Which of the following is an MS Office application?",
+        "as": "তলৰ কোনটো MS Office এপ্লিকেচন?"
+      },
       "options": [
-        { "en": "Only on the first page", "as": "কেৱল প্ৰথম পৃষ্ঠাত" },
-        { "en": "At the top of every page", "as": "প্ৰতিটো পৃষ্ঠাৰ ওপৰত" },
-        { "en": "At the bottom of every page", "as": "প্ৰতিটো পৃষ্ঠাৰ তলত" },
-        { "en": "In the middle of the page", "as": "পৃষ্ঠাৰ মাজত" }
+        {
+          "en": "Google Chrome",
+          "as": "গুগল ক্ৰ'ম"
+        },
+        {
+          "en": "VLC Media Player",
+          "as": "VLC মিডিয়া প্লেয়াৰ"
+        },
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        },
+        {
+          "en": "Adobe Photoshop",
+          "as": "এড'বি ফট'শ্বপ"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 2
     },
     {
-      "q": { "en": "Which shortcut inserts a hyperlink in MS Word?", "as": "MS Word ত hyperlink সুমুৱাবলৈ কোনটো চৰ্টকাট?" },
+      "q": {
+        "en": "Which of the following is a standard paper size in MS Word?",
+        "as": "তলৰ কোনটো MS Word-ৰ এটা মানক কাগজৰ আকাৰ?"
+      },
       "options": [
-        { "en": "Ctrl + H", "as": "Ctrl + H" },
-        { "en": "Ctrl + K", "as": "Ctrl + K" },
-        { "en": "Ctrl + L", "as": "Ctrl + L" },
-        { "en": "Ctrl + J", "as": "Ctrl + J" }
+        {
+          "en": "A4",
+          "as": "A4"
+        },
+        {
+          "en": "M5",
+          "as": "M5"
+        },
+        {
+          "en": "Z5",
+          "as": "Z5"
+        },
+        {
+          "en": "B5",
+          "as": "B5"
+        }
       ],
-      "correct": 1,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "What is the file extension of a Word template file?", "as": "Word ৰ template file ৰ extension কি?" },
+      "q": {
+        "en": "What is the default file extension of an MS Excel workbook?",
+        "as": "MS Excel ৱৰ্কবুকৰ ডিফল্ট ফাইল এক্সটেনচন কি?"
+      },
       "options": [
-        { "en": ".docx", "as": ".docx" },
-        { "en": ".dotx", "as": ".dotx" },
-        { "en": ".dot", "as": ".dot" },
-        { "en": ".docm", "as": ".docm" }
+        {
+          "en": ".xlsx",
+          "as": ".xlsx"
+        },
+        {
+          "en": ".docx",
+          "as": ".docx"
+        },
+        {
+          "en": ".pptx",
+          "as": ".pptx"
+        },
+        {
+          "en": ".txt",
+          "as": ".txt"
+        }
       ],
-      "correct": 1,
-      "difficulty": "hard"
+      "correct": 0
     },
     {
-      "q": { "en": "Bullets and Numbering options are available in which tab?", "as": "Bullets আৰু Numbering option কোনটো tab ত উপলব্ধ?" },
+      "q": {
+        "en": "Which shortcut moves the cursor to the end of the document?",
+        "as": "কাৰ্ছৰক ডকুমেণ্টৰ শেষলৈ নিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Insert", "as": "Insert" },
-        { "en": "Home", "as": "Home" },
-        { "en": "Layout", "as": "Layout" },
-        { "en": "View", "as": "View" }
+        {
+          "en": "Ctrl + End",
+          "as": "Ctrl + End"
+        },
+        {
+          "en": "End",
+          "as": "End"
+        },
+        {
+          "en": "Alt + End",
+          "as": "Alt + End"
+        },
+        {
+          "en": "Ctrl + Home",
+          "as": "Ctrl + Home"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 0
     },
     {
-      "q": { "en": "Which option is used to add a password to a Word document?", "as": "Word document ত password যোগ কৰিবলৈ কোনটো option ব্যৱহাৰ কৰা হয়?" },
+      "q": {
+        "en": "The status bar is generally located at the?",
+        "as": "ষ্টেটাছ বাৰ সাধাৰণতে ক'ত অৱস্থিত?"
+      },
       "options": [
-        { "en": "File - Info - Protect Document", "as": "File - Info - Protect Document" },
-        { "en": "Insert - Object", "as": "Insert - Object" },
-        { "en": "Home - Styles", "as": "Home - Styles" },
-        { "en": "View - Zoom", "as": "View - Zoom" }
+        {
+          "en": "Left side",
+          "as": "বাওঁফালে"
+        },
+        {
+          "en": "Right side",
+          "as": "সোঁফালে"
+        },
+        {
+          "en": "Bottom of the window",
+          "as": "উইণ্ড'ৰ তলত"
+        },
+        {
+          "en": "Top of the window",
+          "as": "উইণ্ড'ৰ ওপৰত"
+        }
       ],
-      "correct": 0,
-      "difficulty": "hard"
+      "correct": 2
     },
     {
-      "q": { "en": "Which key combination selects text from the cursor to the end of the line?", "as": "কাৰ্চৰৰ পৰা line ৰ শেষলৈকে text select কৰিবলৈ কোনটো key combination?" },
+      "q": {
+        "en": "Which shortcut is used to make text italic?",
+        "as": "লিখনী ইটালিক কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "Shift + End", "as": "Shift + End" },
-        { "en": "Ctrl + End", "as": "Ctrl + End" },
-        { "en": "Shift + Home", "as": "Shift + Home" },
-        { "en": "Alt + End", "as": "Alt + End" }
+        {
+          "en": "Ctrl + I",
+          "as": "Ctrl + I"
+        },
+        {
+          "en": "Ctrl + U",
+          "as": "Ctrl + U"
+        },
+        {
+          "en": "Ctrl + T",
+          "as": "Ctrl + T"
+        },
+        {
+          "en": "Ctrl + B",
+          "as": "Ctrl + B"
+        }
       ],
-      "correct": 0,
-      "difficulty": "medium"
+      "correct": 0
     },
     {
-      "q": { "en": "What is the default file extension of MS Excel 2007 and later?", "as": "MS Excel 2007 আৰু পিছৰ সংস্কৰণৰ default file extension কি?" },
+      "q": {
+        "en": "Which feature adds movement to objects on a slide?",
+        "as": "স্লাইডৰ বস্তুত গতি যোগ কৰা সুবিধা কোনটো?"
+      },
       "options": [
-        { "en": ".xls", "as": ".xls" },
-        { "en": ".xlsx", "as": ".xlsx" },
-        { "en": ".csv", "as": ".csv" },
-        { "en": ".xlsm", "as": ".xlsm" }
+        {
+          "en": "Transition",
+          "as": "ট্ৰানজিচন"
+        },
+        {
+          "en": "Design",
+          "as": "ডিজাইন"
+        },
+        {
+          "en": "Layout",
+          "as": "লে'আউট"
+        },
+        {
+          "en": "Animation",
+          "as": "এনিমেচন"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 3
     },
     {
-      "q": { "en": "In MS Excel, the file in which we work is called a?", "as": "MS Excel ত আমি যি file ত কাম কৰো তাক কি বোলা হয়?" },
+      "q": {
+        "en": "What is the default file extension of a PowerPoint presentation?",
+        "as": "PowerPoint প্ৰেজেণ্টেচনৰ ডিফল্ট ফাইল এক্সটেনচন কি?"
+      },
       "options": [
-        { "en": "Document", "as": "Document" },
-        { "en": "Workbook", "as": "Workbook" },
-        { "en": "Worksheet", "as": "Worksheet" },
-        { "en": "Slide", "as": "Slide" }
+        {
+          "en": ".mdb",
+          "as": ".mdb"
+        },
+        {
+          "en": ".pptx",
+          "as": ".pptx"
+        },
+        {
+          "en": ".docx",
+          "as": ".docx"
+        },
+        {
+          "en": ".xlsx",
+          "as": ".xlsx"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 1
     },
     {
-      "q": { "en": "In MS Excel, the intersection of a row and a column is called a?", "as": "MS Excel ত এটা row আৰু এটা column ৰ সংযোগস্থলক কি বোলা হয়?" },
+      "q": {
+        "en": "The symbol $ in a cell reference indicates?",
+        "as": "চেল ৰেফাৰেন্সত $ চিহ্নে কি সূচাই?"
+      },
       "options": [
-        { "en": "Range", "as": "Range" },
-        { "en": "Cell", "as": "Cell" },
-        { "en": "Sheet", "as": "Sheet" },
-        { "en": "Box", "as": "Box" }
+        {
+          "en": "Text",
+          "as": "লিখনী"
+        },
+        {
+          "en": "Absolute reference",
+          "as": "পৰম ৰেফাৰেন্স"
+        },
+        {
+          "en": "Relative reference",
+          "as": "আপেক্ষিক ৰেফাৰেন্স"
+        },
+        {
+          "en": "Currency",
+          "as": "মুদ্ৰা"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 1
     },
     {
-      "q": { "en": "Every formula in MS Excel begins with which symbol?", "as": "MS Excel ত প্ৰতিটো formula কোনটো symbol ৰে আৰম্ভ হয়?" },
+      "q": {
+        "en": "The ribbon in MS Office is organised into a set of?",
+        "as": "MS Office-ৰ ৰিবন কেতবোৰ কিৰ সংগ্ৰহত সজ্জিত?"
+      },
       "options": [
-        { "en": "+", "as": "+" },
-        { "en": "=", "as": "=" },
-        { "en": "@", "as": "@" },
-        { "en": "#", "as": "#" }
+        {
+          "en": "Sections",
+          "as": "অংশ"
+        },
+        {
+          "en": "Sheets",
+          "as": "শ্বীট"
+        },
+        {
+          "en": "Tabs",
+          "as": "টেব"
+        },
+        {
+          "en": "Pages",
+          "as": "পৃষ্ঠা"
+        }
       ],
-      "correct": 1,
-      "difficulty": "easy"
+      "correct": 2
     },
     {
-      "q": { "en": "What is the total number of rows in an Excel 2010 worksheet?", "as": "Excel 2010 ৰ এখন worksheet ত মুঠ কিমান row থাকে?" },
+      "q": {
+        "en": "Which shortcut is used to print the active file?",
+        "as": "সক্ৰিয় ফাইল প্ৰিন্ট কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "65536", "as": "65536" },
-        { "en": "1048576", "as": "1048576" },
-        { "en": "16384", "as": "16384" },
-        { "en": "100000", "as": "100000" }
+        {
+          "en": "Ctrl + Q",
+          "as": "Ctrl + Q"
+        },
+        {
+          "en": "Ctrl + R",
+          "as": "Ctrl + R"
+        },
+        {
+          "en": "Ctrl + T",
+          "as": "Ctrl + T"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        }
       ],
-      "correct": 1,
-      "difficulty": "hard"
+      "correct": 3
     },
     {
-      "q": { "en": "What is the total number of columns in an Excel 2010 worksheet?", "as": "Excel 2010 ৰ এখন worksheet ত মুঠ কিমান column থাকে?" },
+      "q": {
+        "en": "Which feature is used to arrange text in a newspaper-like layout?",
+        "as": "বাতৰি কাকতৰ দৰে বিন্যাসত লিখনী সজাবলৈ কোন সুবিধা ব্যৱহাৰ হয়?"
+      },
       "options": [
-        { "en": "256", "as": "256" },
-        { "en": "16384", "as": "16384" },
-        { "en": "1024", "as": "1024" },
-        { "en": "65536", "as": "65536" }
+        {
+          "en": "Columns",
+          "as": "কলাম"
+        },
+        {
+          "en": "Borders",
+          "as": "বৰ্ডাৰ"
+        },
+        {
+          "en": "Shading",
+          "as": "শ্বেডিং"
+        },
+        {
+          "en": "Styles",
+          "as": "ষ্টাইল"
+        }
       ],
-      "correct": 1,
-      "difficulty": "hard"
+      "correct": 0
     },
     {
-      "q": { "en": "In Excel, a cell reference like A1 is called a?", "as": "Excel ত A1 ৰ দৰে cell reference ক কি বোলা হয়?" },
+      "q": {
+        "en": "In Excel, rows are labelled with?",
+        "as": "Excel-ত শাৰীবোৰ কিৰে লেবেল কৰা হয়?"
+      },
       "options": [
-        { "en": "Relative reference", "as": "Relative reference" },
-        { "en": "Mixed reference", "as": "Mixed reference" },
-        { "en": "Absolute reference", "as": "Absolute reference" },
-        { "en": "Fixed reference", "as": "Fixed reference" }
+        {
+          "en": "Colors",
+          "as": "ৰং"
+        },
+        {
+          "en": "Letters",
+          "as": "আখৰ"
+        },
+        {
+          "en": "Symbols",
+          "as": "চিহ্ন"
+        },
+        {
+          "en": "Numbers",
+          "as": "সংখ্যা"
+        }
       ],
-      "correct": 0,
-      "difficulty": "medium"
+      "correct": 3
     }
   ]
 }
