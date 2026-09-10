@@ -7,8 +7,204 @@
   "pdf": null,
   "questions": [
     {
-      "q": { "en": "When was Assam's biggest Assamese film award, the Jatiya Bhasma, instituted?", "as": "অসমৰ আটাইতকৈ ডাঙৰ অসমীয়া চলচ্চিত্ৰ বঁটা জ্যোতি চিত্ৰবনৰ বিষয়ে আপুনি কি জানে?" },
-      "a": { "en": "This is a sample trending topic question. Add your own questions here by uploading a JSON file to the trending-topics folder.", "as": "এইটো এটা নমুনা জনপ্ৰিয় বিষয়ৰ প্ৰশ্ন। আপুনি trending-topics ফ'ল্ডাৰত এটা JSON ফাইল আপলোড কৰি নিজৰ প্ৰশ্নসমূহ ইয়াত যোগ কৰিব পাৰে।" }
+      "q": { "en": "What is the capital of Assam?", "as": "অসমৰ ৰাজধানী কি?" },
+      "a": { "en": "Dispur", "as": "দিছপুৰ" }
+    },
+    {
+      "q": { "en": "On which date did Assam attain statehood?", "as": "অসমে কেতিয়া ৰাজ্যৰ মৰ্যাদা লাভ কৰিছিল?" },
+      "a": { "en": "26 January 1950", "as": "১৯৫০ চনৰ ২৬ জানুৱাৰী" }
+    },
+    {
+      "q": { "en": "Who was the first Chief Minister of Assam?", "as": "অসমৰ প্ৰথম মুখ্যমন্ত্ৰী কোন আছিল?" },
+      "a": { "en": "Gopinath Bordoloi", "as": "গোপীনাথ বৰদলৈ" }
+    },
+    {
+      "q": { "en": "Who was the first Governor of independent Assam?", "as": "স্বাধীন অসমৰ প্ৰথম ৰাজ্যপাল কোন আছিল?" },
+      "a": { "en": "Sir Akbar Hydari (1947)", "as": "ছাৰ আকবৰ হাইদৰী (১৯৪৭)" }
+    },
+    {
+      "q": { "en": "Who was the first Assamese Governor of Assam?", "as": "অসমৰ প্ৰথম অসমীয়া ৰাজ্যপাল কোন আছিল?" },
+      "a": { "en": "Bishnuram Medhi", "as": "বিষ্ণুৰাম মেধি" }
+    },
+    {
+      "q": { "en": "Which is the longest river of Assam?", "as": "অসমৰ আটাইতকৈ দীঘল নদী কোন?" },
+      "a": { "en": "The Brahmaputra", "as": "ব্ৰহ্মপুত্ৰ" }
+    },
+    {
+      "q": { "en": "By what name is the Brahmaputra known in Tibet?", "as": "তিব্বতত ব্ৰহ্মপুত্ৰ নদীক কি নামেৰে জনা যায়?" },
+      "a": { "en": "Tsangpo", "as": "চাংপো (Tsangpo)" }
+    },
+    {
+      "q": { "en": "At which place does the Brahmaputra enter Assam?", "as": "ব্ৰহ্মপুত্ৰ নদী অসমত ক'ত প্ৰৱেশ কৰে?" },
+      "a": { "en": "Sadiya", "as": "সদিয়া" }
+    },
+    {
+      "q": { "en": "Which is the largest river island in the world?", "as": "বিশ্বৰ আটাইতকৈ ডাঙৰ নদীদ্বীপ কোনখন?" },
+      "a": { "en": "Majuli", "as": "মাজুলী" }
+    },
+    {
+      "q": { "en": "Which is the first island district of India?", "as": "ভাৰতৰ প্ৰথম নদীদ্বীপ জিলা কোনখন?" },
+      "a": { "en": "Majuli (2016)", "as": "মাজুলী (২০১৬)" }
+    },
+    {
+      "q": { "en": "What is the state animal of Assam?", "as": "অসমৰ ৰাজ্যিক পশু কি?" },
+      "a": { "en": "One-horned rhinoceros", "as": "এশিঙীয়া গঁড়" }
+    },
+    {
+      "q": { "en": "What is the state bird of Assam?", "as": "অসমৰ ৰাজ্যিক চৰাই কি?" },
+      "a": { "en": "White-winged wood duck", "as": "বগা ডেউকা বনৰীয়া হাঁহ" }
+    },
+    {
+      "q": { "en": "What is the state tree of Assam?", "as": "অসমৰ ৰাজ্যিক গছ কি?" },
+      "a": { "en": "Hollong (Dipterocarpus macrocarpus)", "as": "হলং" }
+    },
+    {
+      "q": { "en": "What is the state flower of Assam?", "as": "অসমৰ ৰাজ্যিক ফুল কি?" },
+      "a": { "en": "Foxtail orchid (Kopou phool)", "as": "কপৌ ফুল" }
+    },
+    {
+      "q": { "en": "Which national park of Assam is famous for the one-horned rhinoceros?", "as": "এশিঙীয়া গঁড়ৰ বাবে বিখ্যাত অসমৰ ৰাষ্ট্ৰীয় উদ্যানখন কোন?" },
+      "a": { "en": "Kaziranga National Park", "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান" }
+    },
+    {
+      "q": { "en": "In which year was Kaziranga declared a UNESCO World Heritage Site?", "as": "কাজিৰঙাক কেতিয়া ইউনেস্ক' বিশ্ব ঐতিহ্য ক্ষেত্ৰ হিচাপে স্বীকৃতি দিয়া হৈছিল?" },
+      "a": { "en": "1985", "as": "১৯৮৫ চন" }
+    },
+    {
+      "q": { "en": "In which year was Manas National Park declared a UNESCO World Heritage Site?", "as": "মানস ৰাষ্ট্ৰীয় উদ্যানক কেতিয়া ইউনেস্ক' বিশ্ব ঐতিহ্য ক্ষেত্ৰ হিচাপে স্বীকৃতি দিয়া হৈছিল?" },
+      "a": { "en": "1985", "as": "১৯৮৫ চন" }
+    },
+    {
+      "q": { "en": "In which year did the Moidams of Charaideo get UNESCO World Heritage status?", "as": "চৰাইদেউৰ মৈদামে কেতিয়া ইউনেস্ক' বিশ্ব ঐতিহ্য ক্ষেত্ৰৰ স্বীকৃতি লাভ কৰে?" },
+      "a": { "en": "2024", "as": "২০২৪ চন" }
+    },
+    {
+      "q": { "en": "Who founded the Ahom kingdom in Assam?", "as": "অসমত আহোম ৰাজ্যৰ প্ৰতিষ্ঠা কোনে কৰিছিল?" },
+      "a": { "en": "Chaolung Sukapha (1228 CE)", "as": "চাওলুং চুকাফা (১২২৮ খ্ৰীষ্টাব্দ)" }
+    },
+    {
+      "q": { "en": "In which year was the Battle of Saraighat fought?", "as": "শৰাইঘাটৰ যুদ্ধ কেতিয়া হৈছিল?" },
+      "a": { "en": "1671", "as": "১৬৭১ চন" }
+    },
+    {
+      "q": { "en": "Who led the Ahom army in the Battle of Saraighat?", "as": "শৰাইঘাটৰ যুদ্ধত আহোম সেনাৰ নেতৃত্ব কোনে দিছিল?" },
+      "a": { "en": "Lachit Borphukan", "as": "লাচিত বৰফুকন" }
+    },
+    {
+      "q": { "en": "By which treaty of 1826 did Assam come under British control?", "as": "১৮২৬ চনৰ কোনখন সন্ধিৰ জৰিয়তে অসম ব্ৰিটিছৰ অধীনলৈ যায়?" },
+      "a": { "en": "Treaty of Yandabo", "as": "য়াণ্ডাবু সন্ধি" }
+    },
+    {
+      "q": { "en": "In which year was the Assam Accord signed?", "as": "অসম চুক্তি কেতিয়া স্বাক্ষৰিত হৈছিল?" },
+      "a": { "en": "1985", "as": "১৯৮৫ চন" }
+    },
+    {
+      "q": { "en": "Which are the three main Bihu festivals of Assam?", "as": "অসমৰ তিনিটা মূল বিহু উৎসৱ কোন?" },
+      "a": { "en": "Bohag (Rongali), Kati (Kongali) and Magh (Bhogali)", "as": "ব'হাগ (ৰঙালী), কাতি (কঙালী) আৰু মাঘ (ভোগালী)" }
+    },
+    {
+      "q": { "en": "Which Bihu marks the Assamese New Year?", "as": "অসমীয়া নৱবৰ্ষ কোনটো বিহুৰ সৈতে জড়িত?" },
+      "a": { "en": "Bohag Bihu (Rongali)", "as": "ব'হাগ বিহু (ৰঙালী)" }
+    },
+    {
+      "q": { "en": "Which Bihu is associated with the harvest festival?", "as": "শস্য চপোৱাৰ লগত জড়িত বিহু কোনটো?" },
+      "a": { "en": "Magh Bihu (Bhogali)", "as": "মাঘ বিহু (ভোগালী)" }
+    },
+    {
+      "q": { "en": "Who propagated Vaishnavism in Assam?", "as": "অসমত বৈষ্ণৱ ধৰ্মৰ প্ৰচাৰক কোন আছিল?" },
+      "a": { "en": "Srimanta Sankardeva", "as": "শ্ৰীমন্ত শংকৰদেৱ" }
+    },
+    {
+      "q": { "en": "In which year was Sattriya dance recognised as a classical dance?", "as": "সত্ৰীয়া নৃত্যক কেতিয়া শাস্ত্ৰীয় নৃত্য হিচাপে স্বীকৃতি দিয়া হয়?" },
+      "a": { "en": "2000", "as": "২০০০ চন" }
+    },
+    {
+      "q": { "en": "Who wrote the Assamese state song 'O Mur Apunar Desh'?", "as": "'ও মোৰ আপোনাৰ দেশ' গীতটি কাৰ ৰচনা?" },
+      "a": { "en": "Lakshminath Bezbaroa", "as": "লক্ষ্মীনাথ বেজবৰুৱা" }
+    },
+    {
+      "q": { "en": "In which year was the first Assamese film 'Joymoti' released?", "as": "প্ৰথম অসমীয়া চলচ্চিত্ৰ 'জয়মতী' কেতিয়া মুক্তি লাভ কৰিছিল?" },
+      "a": { "en": "1935", "as": "১৯৩৫ চন" }
+    },
+    {
+      "q": { "en": "Who directed the first Assamese film 'Joymoti'?", "as": "'জয়মতী' ছবিৰ পৰিচালক কোন আছিল?" },
+      "a": { "en": "Jyoti Prasad Agarwala", "as": "জ্যোতি প্ৰসাদ আগৰৱালা" }
+    },
+    {
+      "q": { "en": "Which was the first newspaper of Assam?", "as": "অসমৰ প্ৰথম বাতৰি কাকত কোন?" },
+      "a": { "en": "Arunodoi (1846)", "as": "অৰুণোদয় (১৮৪৬)" }
+    },
+    {
+      "q": { "en": "Who is known as 'Sahityarathi'?", "as": "'সাহিত্যৰথী' উপাধি কাৰ?" },
+      "a": { "en": "Lakshminath Bezbaroa", "as": "লক্ষ্মীনাথ বেজবৰুৱা" }
+    },
+    {
+      "q": { "en": "Who is known as 'Rupkonwar'?", "as": "'ৰূপকোঁৱৰ' উপাধি কাৰ?" },
+      "a": { "en": "Jyoti Prasad Agarwala", "as": "জ্যোতি প্ৰসাদ আগৰৱালা" }
+    },
+    {
+      "q": { "en": "Who is known as 'Kalaguru'?", "as": "'কলাগুৰু' উপাধি কাৰ?" },
+      "a": { "en": "Bishnu Prasad Rabha", "as": "বিষ্ণু প্ৰসাদ ৰাভা" }
+    },
+    {
+      "q": { "en": "Which artist is known as the 'Bard of Brahmaputra'?", "as": "'ব্ৰহ্মপুত্ৰৰ বাঁহী' (Bard of Brahmaputra) নামেৰে জনাজাত শিল্পী কোন?" },
+      "a": { "en": "Dr Bhupen Hazarika", "as": "ড০ ভূপেন হাজৰিকা" }
+    },
+    {
+      "q": { "en": "Who was the first Assamese to receive the Bharat Ratna?", "as": "ভাৰতৰত্ন লাভ কৰা প্ৰথম অসমীয়া কোন?" },
+      "a": { "en": "Gopinath Bordoloi (1999)", "as": "গোপীনাথ বৰদলৈ (১৯৯৯)" }
+    },
+    {
+      "q": { "en": "Where in Assam was Asia's first oil well discovered?", "as": "এছিয়াৰ প্ৰথম তৈল কূপ অসমৰ ক'ত আৱিষ্কৃত হৈছিল?" },
+      "a": { "en": "Digboi", "as": "ডিগবৈ" }
+    },
+    {
+      "q": { "en": "Which was the first oil refinery in India and when was it established?", "as": "ভাৰতৰ প্ৰথম তৈল শোধনাগাৰ কোন আৰু কেতিয়া স্থাপিত হয়?" },
+      "a": { "en": "Digboi Refinery (1901)", "as": "ডিগবৈ শোধনাগাৰ (১৯০১)" }
+    },
+    {
+      "q": { "en": "Who was the first Assamese tea planter and a martyr of 1857?", "as": "অসমৰ প্ৰথম অসমীয়া চাহ খেতিয়ক আৰু ১৮৫৭ চনৰ স্বাধীনতা সংগ্ৰামী কোন?" },
+      "a": { "en": "Maniram Dewan", "as": "মণিৰাম দেৱান" }
+    },
+    {
+      "q": { "en": "Which state is the largest tea-producing state of India?", "as": "ভাৰতৰ আটাইতকৈ বেছি চাহ উৎপাদন কৰা ৰাজ্য কোন?" },
+      "a": { "en": "Assam", "as": "অসম" }
+    },
+    {
+      "q": { "en": "Which silk of Assam is known as the 'Golden Silk'?", "as": "অসমৰ 'সোণালী ৰেচম' নামেৰে জনাজাত ৰেচম কোন?" },
+      "a": { "en": "Muga silk", "as": "মুগা ৰেচম" }
+    },
+    {
+      "q": { "en": "Where and when was the first session of the Assam Sahitya Sabha held?", "as": "অসম সাহিত্য সভাৰ প্ৰথম অধিবেশন ক'ত আৰু কেতিয়া অনুষ্ঠিত হৈছিল?" },
+      "a": { "en": "Sivasagar, 1917", "as": "শিৱসাগৰ, ১৯১৭ চন" }
+    },
+    {
+      "q": { "en": "Who was the first president of the Assam Sahitya Sabha?", "as": "অসম সাহিত্য সভাৰ প্ৰথম সভাপতি কোন আছিল?" },
+      "a": { "en": "Padmanath Gohain Baruah", "as": "পদ্মনাথ গোহাঞি বৰুৱা" }
+    },
+    {
+      "q": { "en": "In which year was Gauhati University established?", "as": "গুৱাহাটী বিশ্ববিদ্যালয় কেতিয়া স্থাপিত হৈছিল?" },
+      "a": { "en": "1948", "as": "১৯৪৮ চন" }
+    },
+    {
+      "q": { "en": "Which is the first medical college of Assam?", "as": "অসমৰ প্ৰথম চিকিৎসা মহাবিদ্যালয় কোন?" },
+      "a": { "en": "Assam Medical College, Dibrugarh (1947)", "as": "অসম চিকিৎসা মহাবিদ্যালয়, ডিব্ৰুগড় (১৯৪৭)" }
+    },
+    {
+      "q": { "en": "Before Dispur, which city was the capital of Assam?", "as": "দিছপুৰৰ পূৰ্বে অসমৰ ৰাজধানী কোনখন চহৰ আছিল?" },
+      "a": { "en": "Shillong", "as": "শ্বিলং" }
+    },
+    {
+      "q": { "en": "In which year did the capital of Assam shift to Dispur?", "as": "অসমৰ ৰাজধানী কেতিয়া দিছপুৰলৈ স্থানান্তৰিত হয়?" },
+      "a": { "en": "1973", "as": "১৯৭৩ চন" }
+    },
+    {
+      "q": { "en": "Which is the only Ramsar site of Assam?", "as": "অসমৰ একমাত্ৰ ৰামচাৰ ক্ষেত্ৰ কোন?" },
+      "a": { "en": "Deepor Beel", "as": "দীপৰ বিল" }
+    },
+    {
+      "q": { "en": "In which year was Assamese granted the status of a classical language?", "as": "অসমীয়া ভাষাই কেতিয়া ধ্ৰুপদী (Classical) ভাষাৰ স্বীকৃতি লাভ কৰে?" },
+      "a": { "en": "2024", "as": "২০২৪ চন" }
     }
   ]
 }
