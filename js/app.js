@@ -4347,7 +4347,21 @@
     dismissAppPrompt();
   }
 
+  /* The axomexam Android app is a WebView wrapper, so the promo popup must
+     never appear inside it. Detect the app via a JS bridge (if the app exposes
+     one), a custom "axomexam" user-agent, or the standard Android WebView "wv" marker. */
+  function isInAxomexamApp() {
+    try {
+      if (window.axomexamApp || window.__AXOMEXAM_APP__ || window.AxomexamApp) return true;
+      const ua = (navigator.userAgent || "").toLowerCase();
+      if (ua.indexOf("axomexam") !== -1) return true;
+      if (/(^|[;( ])wv([; )]|$)/.test(ua)) return true;
+    } catch (e) { }
+    return false;
+  }
+
   function initAppPrompt() {
+    if (isInAxomexamApp()) return;
     if (window.matchMedia && !window.matchMedia("(max-width: 900px)").matches) return;
     if (appPromptDone()) return;
 
