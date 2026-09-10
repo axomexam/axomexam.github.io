@@ -661,7 +661,17 @@
     const nav = $("#mobile-nav");
     if (!nav) return;
     const activePath = currentPath();
-    const catParts = homeCategoriesOrder().map((cat) => {
+    const orderedCats = homeCategoriesOrder();
+    /* Mobile-only order: keep Articles directly ABOVE Computer Awareness */
+    const mobileCats = orderedCats.slice();
+    const mArtIdx = mobileCats.findIndex((c) => c.id === "articles");
+    const mCompIdx = mobileCats.findIndex((c) => c.id === "computer");
+    if (mArtIdx !== -1 && mCompIdx !== -1 && mArtIdx !== mCompIdx - 1) {
+      const [art] = mobileCats.splice(mArtIdx, 1);
+      mobileCats.splice(mobileCats.findIndex((c) => c.id === "computer"), 0, art);
+    }
+
+    const catParts = mobileCats.map((cat) => {
       const kids = cat.subcategories || cat.sections || [];
       return `
         <li>
@@ -740,24 +750,7 @@
         </a>
       </li>`;
 
-    catParts.unshift(downloadAppItem);
-
-    const orderedCats = homeCategoriesOrder();
-    const targetIndex = orderedCats.findIndex((c) => c.id === "study-guides");
-    let insertPos = targetIndex !== -1 ? targetIndex : orderedCats.findIndex((c) => c.id === "computer");
-
-    /* When the Articles card directly follows Computer Awareness, insert the
-       extra items AFTER Articles so Articles stays right below Computer */
-    if (insertPos !== -1) {
-      const artIdx = orderedCats.findIndex((c) => c.id === "articles");
-      if (artIdx === insertPos + 1) insertPos = artIdx;
-    }
-
-    if (insertPos !== -1) {
-      catParts.splice(insertPos + 1, 0, ebookItem, downloadItem, prevYearItem, submitItem, contactItem);
-    } else {
-      catParts.push(ebookItem, downloadItem, prevYearItem, submitItem, contactItem);
-    }
+    catParts.push(ebookItem, downloadAppItem, downloadItem, prevYearItem, submitItem, contactItem);
 
     nav.innerHTML = catParts.join("");
 
