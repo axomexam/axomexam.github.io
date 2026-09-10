@@ -37,7 +37,7 @@ const BASE = "https://axomexam.in";
 const SITE_NAME = "axomexam";
 const SITE_TAGLINE =
   "Free bilingual (Assamese & English) Q&A and PDF notes for competitive exams in Assam.";
-const VERSION = "20260910a";
+const VERSION = "20260910b";
 const OG_ALT =
   "axomexam - Assam Exam Preparation - Mock Tests, Previous Papers & PDF Notes";
 
@@ -622,9 +622,12 @@ ${body}
           <h4 data-i18n="footer.quick">Quick Links</h4>
           <ul>
             <li><a href="/" data-i18n="footer.home">Home</a></li>
+            <li><a href="/category/articles" data-i18n="nav.articles">Articles</a></li>
             <li><a href="/mock-test" data-i18n="nav.mock">Mock Test</a></li>
             <li><a href="/previous-year">Previous Papers</a></li>
+            <li><a href="/ebooks" data-i18n="nav.ebooks">E-Books</a></li>
             <li><a href="/downloads" data-i18n="nav.downloads">Downloads</a></li>
+            <li><a href="/download-app" data-i18n="nav.downloadApp">Download App</a></li>
             <li><a href="/submit" data-i18n="nav.submit">Submit Q&A</a></li>
             <li><a href="/trending" data-i18n="footer.trending">Trending Topics</a></li>
           </ul>
