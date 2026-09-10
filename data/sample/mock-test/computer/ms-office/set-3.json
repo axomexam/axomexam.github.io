@@ -1,0 +1,282 @@
+{
+  "setNumber": 3,
+  "title": "Computer Awareness - MS Office Set 3",
+  "subject": "MS Office",
+  "questions": [
+    {
+      "q": { "en": "Which Excel function is used to add a range of numbers?", "as": "সংখ্যাৰ এটা range যোগ কৰিবলৈ কোনটো Excel function ব্যৱহাৰ কৰা হয়?" },
+      "options": [
+        { "en": "SUM", "as": "SUM" },
+        { "en": "AVERAGE", "as": "AVERAGE" },
+        { "en": "COUNT", "as": "COUNT" },
+        { "en": "TOTAL", "as": "TOTAL" }
+      ],
+      "correct": 0,
+      "difficulty": "easy"
+    },
+    {
+      "q": { "en": "Which Excel function returns the average of a range of numbers?", "as": "সংখ্যাৰ এটা range ৰ average ঘূৰাই দিয়া Excel function কোনটো?" },
+      "options": [
+        { "en": "SUM", "as": "SUM" },
+        { "en": "AVERAGE", "as": "AVERAGE" },
+        { "en": "MEAN", "as": "MEAN" },
+        { "en": "MID", "as": "MID" }
+      ],
+      "correct": 1,
+      "difficulty": "easy"
+    },
+    {
+      "q": { "en": "Which Excel function returns the largest number in a range?", "as": "এটা range ৰ আটাইতকৈ ডাঙৰ সংখ্যা ঘূৰাই দিয়া Excel function কোনটো?" },
+      "options": [
+        { "en": "MIN", "as": "MIN" },
+        { "en": "MAX", "as": "MAX" },
+        { "en": "LARGE", "as": "LARGE" },
+        { "en": "TOP", "as": "TOP" }
+      ],
+      "correct": 1,
+      "difficulty": "easy"
+    },
+    {
+      "q": { "en": "Which Excel function returns the smallest number in a range?", "as": "এটা range ৰ আটাইতকৈ সৰু সংখ্যা ঘূৰাই দিয়া Excel function কোনটো?" },
+      "options": [
+        { "en": "MIN", "as": "MIN" },
+        { "en": "MAX", "as": "MAX" },
+        { "en": "SMALL", "as": "SMALL" },
+        { "en": "LOW", "as": "LOW" }
+      ],
+      "correct": 0,
+      "difficulty": "easy"
+    },
+    {
+      "q": { "en": "Which Excel function counts the number of cells that contain numbers?", "as": "কোনটো Excel function ই সংখ্যা থকা cell ৰ সংখ্যা গণনা কৰে?" },
+      "options": [
+        { "en": "COUNTA", "as": "COUNTA" },
+        { "en": "COUNT", "as": "COUNT" },
+        { "en": "SUM", "as": "SUM" },
+        { "en": "LEN", "as": "LEN" }
+      ],
+      "correct": 1,
+      "difficulty": "medium"
+    },
+    {
+      "q": { "en": "Which Excel function counts all non-empty cells?", "as": "কোনটো Excel function ই সকলো খালী নোহোৱা cell গণনা কৰে?" },
+      "options": [
+        { "en": "COUNT", "as": "COUNT" },
+        { "en": "COUNTA", "as": "COUNTA" },
+        { "en": "COUNTIF", "as": "COUNTIF" },
+        { "en": "NUMBER", "as": "NUMBER" }
+      ],
+      "correct": 1,
+      "difficulty": "medium"
+    },
+    {
+      "q": { "en": "Which Excel function rounds a number to a specified number of digits?", "as": "কোনটো Excel function ই এটা সংখ্যাক নিৰ্দিষ্ট অংকলৈ ৰাউণ্ড কৰে?" },
+      "options": [
+        { "en": "ROUND", "as": "ROUND" },
+        { "en": "SUM", "as": "SUM" },
+        { "en": "ROUNDUP", "as": "ROUNDUP" },
+        { "en": "INT", "as": "INT" }
+      ],
+      "correct": 0,
+      "difficulty": "medium"
+    },
+    {
+      "q": { "en": "Which Excel function returns the current date only?", "as": "কোনটো Excel function ই কেৱল আজিৰ তাৰিখ ঘূৰাই দিয়ে?" },
+      "options": [
+        { "en": "NOW()", "as": "NOW()" },
+        { "en": "TODAY()", "as": "TODAY()" },
+        { "en": "DATE()", "as": "DATE()" },
+        { "en": "DAY()", "as": "DAY()" }
+      ],
+      "correct": 1,
+      "difficulty": "medium"
+    },
+    {
+      "q": { "en": "Which Excel function returns the current date and time?", "as": "কোনটো Excel function ই বৰ্তমান তাৰিখ আৰু সময় ঘূৰাই দিয়ে?" },
+      "options": [
+        { "en": "TODAY()", "as": "TODAY()" },
+        { "en": "NOW()", "as": "NOW()" },
+        { "en": "TIME()", "as": "TIME()" },
+        { "en": "DATE()", "as": "DATE()" }
+      ],
+      "correct": 1,
+      "difficulty": "medium"
+    },
+    {
+      "q": { "en": "Which Excel function searches a value in the first column of a table and returns a value from another column?", "as": "কোনটো Excel function ই টেবুলৰ প্ৰথম column ত এটা মান সন্ধান কৰি আন column ৰ পৰা মান ঘূৰাই দিয়ে?" },
+      "options": [
+        { "en": "HLOOKUP", "as": "HLOOKUP" },
+        { "en": "VLOOKUP", "as": "VLOOKUP" },
+        { "en": "LOOKUP", "as": "LOOKUP" },
+        { "en": "MATCH", "as": "MATCH" }
+      ],
+      "correct": 1,
+      "difficulty": "hard"
+    },
+    {
+      "q": { "en": "Which Excel function checks a condition and returns one value if TRUE and another if FALSE?", "as": "কোনটো Excel function ই এটা চৰ্ত পৰীক্ষা কৰি TRUE হ'লে এটা মান আৰু FALSE হ'লে আন এটা মান ঘূৰাই দিয়ে?" },
+      "options": [
+        { "en": "IF", "as": "IF" },
+        { "en": "AND", "as": "AND" },
+        { "en": "OR", "as": "OR" },
+        { "en": "NOT", "as": "NOT" }
+      ],
+      "correct": 0,
+      "difficulty": "easy"
+    },
+    {
+      "q": { "en": "Which Excel function joins two or more text strings into one?", "as": "কোনটো Excel function ই দুটা বা অধিক text string এটালৈ সংযুক্ত কৰে?" },
+      "options": [
+        { "en": "CONCATENATE", "as": "CONCATENATE" },
+        { "en": "SPLIT", "as": "SPLIT" },
+        { "en": "JOIN", "as": "JOIN" },
+        { "en": "MERGE", "as": "MERGE" }
+      ],
+      "correct": 0,
+      "difficulty": "medium"
+    },
+    {
+      "q": { "en": "Which symbol is used to make a cell reference absolute in Excel?", "as": "Excel ত এটা cell reference absolute কৰিবলৈ কোনটো symbol ব্যৱহাৰ কৰা হয়?" },
+      "options": [
+        { "en": "#", "as": "#" },
+        { "en": "$", "as": "$" },
+        { "en": "&", "as": "&" },
+        { "en": "@", "as": "@" }
+      ],
+      "correct": 1,
+      "difficulty": "medium"
+    },
+    {
+      "q": { "en": "Which formula adds the values from cell A1 to A10?", "as": "A1 ৰ পৰা A10 লৈকে মান যোগ কৰা formula কোনটো?" },
+      "options": [
+        { "en": "=SUM(A1-A10)", "as": "=SUM(A1-A10)" },
+        { "en": "=SUM(A1:A10)", "as": "=SUM(A1:A10)" },
+        { "en": "=ADD(A1:A10)", "as": "=ADD(A1:A10)" },
+        { "en": "=TOTAL(A1:A10)", "as": "=TOTAL(A1:A10)" }
+      ],
+      "correct": 1,
+      "difficulty": "easy"
+    },
+    {
+      "q": { "en": "Which Excel function returns the number of characters in a text string?", "as": "কোনটো Excel function ই এটা text string ত থকা আখৰৰ সংখ্যা ঘূৰাই দিয়ে?" },
+      "options": [
+        { "en": "LEN", "as": "LEN" },
+        { "en": "COUNT", "as": "COUNT" },
+        { "en": "SIZE", "as": "SIZE" },
+        { "en": "LENGTH", "as": "LENGTH" }
+      ],
+      "correct": 0,
+      "difficulty": "medium"
+    },
+    {
+      "q": { "en": "Which Excel function converts text to uppercase?", "as": "কোনটো Excel function ই text ক uppercase লৈ ৰূপান্তৰ কৰে?" },
+      "options": [
+        { "en": "LOWER", "as": "LOWER" },
+        { "en": "UPPER", "as": "UPPER" },
+        { "en": "PROPER", "as": "PROPER" },
+        { "en": "TEXT", "as": "TEXT" }
+      ],
+      "correct": 1,
+      "difficulty": "easy"
+    },
+    {
+      "q": { "en": "Which Excel function converts text to lowercase?", "as": "কোনটো Excel function ই text ক lowercase লৈ ৰূপান্তৰ কৰে?" },
+      "options": [
+        { "en": "LOWER", "as": "LOWER" },
+        { "en": "UPPER", "as": "UPPER" },
+        { "en": "PROPER", "as": "PROPER" },
+        { "en": "TEXT", "as": "TEXT" }
+      ],
+      "correct": 0,
+      "difficulty": "easy"
+    },
+    {
+      "q": { "en": "Which Excel function removes extra spaces from text?", "as": "কোনটো Excel function ই text ৰ পৰা অতিৰিক্ত space আঁতৰায়?" },
+      "options": [
+        { "en": "CLEAN", "as": "CLEAN" },
+        { "en": "TRIM", "as": "TRIM" },
+        { "en": "LEN", "as": "LEN" },
+        { "en": "SPACE", "as": "SPACE" }
+      ],
+      "correct": 1,
+      "difficulty": "medium"
+    },
+    {
+      "q": { "en": "In Excel, which error is displayed when a number is divided by zero?", "as": "Excel ত শূন্যৰে ভাগ কৰিলে কোনটো error দেখুওৱা হয়?" },
+      "options": [
+        { "en": "#VALUE!", "as": "#VALUE!" },
+        { "en": "#DIV/0!", "as": "#DIV/0!" },
+        { "en": "#NAME?", "as": "#NAME?" },
+        { "en": "#REF!", "as": "#REF!" }
+      ],
+      "correct": 1,
+      "difficulty": "medium"
+    },
+    {
+      "q": { "en": "Which Excel function returns the row number of a reference?", "as": "কোনটো Excel function ই এটা reference ৰ row number ঘূৰাই দিয়ে?" },
+      "options": [
+        { "en": "COLUMN", "as": "COLUMN" },
+        { "en": "ROW", "as": "ROW" },
+        { "en": "CELL", "as": "CELL" },
+        { "en": "INDEX", "as": "INDEX" }
+      ],
+      "correct": 1,
+      "difficulty": "hard"
+    },
+    {
+      "q": { "en": "What does the fill handle in Excel do when dragged?", "as": "Excel ত fill handle টানি নিলে কি কৰে?" },
+      "options": [
+        { "en": "Deletes the data", "as": "ডেটা মচি পেলায়" },
+        { "en": "Copies or continues a series", "as": "কপি কৰে বা এটা series আগবঢ়ায়" },
+        { "en": "Formats the cell", "as": "cell format কৰে" },
+        { "en": "Prints the sheet", "as": "sheet print কৰে" }
+      ],
+      "correct": 1,
+      "difficulty": "medium"
+    },
+    {
+      "q": { "en": "Which chart type is best to show a trend over time?", "as": "সময়ৰ লগে লগে পৰিৱৰ্তন দেখুৱাবলৈ কোনটো chart type আটাইতকৈ উপযুক্ত?" },
+      "options": [
+        { "en": "Pie chart", "as": "Pie chart" },
+        { "en": "Line chart", "as": "Line chart" },
+        { "en": "Doughnut chart", "as": "Doughnut chart" },
+        { "en": "Radar chart", "as": "Radar chart" }
+      ],
+      "correct": 1,
+      "difficulty": "medium"
+    },
+    {
+      "q": { "en": "Which shortcut inserts the current date in an Excel cell?", "as": "Excel cell ত বৰ্তমান তাৰিখ সুমুৱাবলৈ কোনটো চৰ্টকাট?" },
+      "options": [
+        { "en": "Ctrl + ;", "as": "Ctrl + ;" },
+        { "en": "Ctrl + Shift + ;", "as": "Ctrl + Shift + ;" },
+        { "en": "Ctrl + D", "as": "Ctrl + D" },
+        { "en": "Ctrl + T", "as": "Ctrl + T" }
+      ],
+      "correct": 0,
+      "difficulty": "hard"
+    },
+    {
+      "q": { "en": "Which shortcut inserts the current time in an Excel cell?", "as": "Excel cell ত বৰ্তমান সময় সুমুৱাবলৈ কোনটো চৰ্টকাট?" },
+      "options": [
+        { "en": "Ctrl + ;", "as": "Ctrl + ;" },
+        { "en": "Ctrl + Shift + ;", "as": "Ctrl + Shift + ;" },
+        { "en": "Ctrl + T", "as": "Ctrl + T" },
+        { "en": "Ctrl + Shift + T", "as": "Ctrl + Shift + T" }
+      ],
+      "correct": 1,
+      "difficulty": "hard"
+    },
+    {
+      "q": { "en": "In which tab is the Function Library group found in MS Excel?", "as": "MS Excel ত Function Library group কোনটো tab ত পোৱা যায়?" },
+      "options": [
+        { "en": "Home", "as": "Home" },
+        { "en": "Insert", "as": "Insert" },
+        { "en": "Formulas", "as": "Formulas" },
+        { "en": "Data", "as": "Data" }
+      ],
+      "correct": 2,
+      "difficulty": "medium"
+    }
+  ]
+}
