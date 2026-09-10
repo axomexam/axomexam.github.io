@@ -37,7 +37,7 @@ const BASE = "https://axomexam.in";
 const SITE_NAME = "axomexam";
 const SITE_TAGLINE =
   "Free bilingual (Assamese & English) Q&A and PDF notes for competitive exams in Assam.";
-const VERSION = "20260909a";
+const VERSION = "20260910a";
 const OG_ALT =
   "axomexam - Assam Exam Preparation - Mock Tests, Previous Papers & PDF Notes";
 
@@ -1677,6 +1677,116 @@ function buildEbookReader(book) {
   };
 }
 
+function buildDownloadAppPage() {
+  const features = [
+    ["All Mock Tests", "Timed chapter-wise mock tests with instant score and review, exactly like the real exam."],
+    ["Bilingual Q&A Practice", "Practice questions, answers and explanations in both English and Assamese."],
+    ["E-Books On the Go", "Read every subject e-book right inside the app — Assam History, Polity, Geography and more."],
+    ["Previous Year Papers", "Solved past papers organised by exam and year for focused revision."],
+    ["PDF Notes & Downloads", "Save study material and keep it ready for offline revision."],
+    ["Lightweight & Fast", "The complete axomexam experience in a tiny 389 KB app."]
+  ];
+  const feats = features.map(([title, text]) => `
+        <div class="appdl-feature">
+          <span class="appdl-ico"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+          <h3>${title}</h3>
+          <p>${text}</p>
+        </div>`).join("");
+
+  const faqs = [
+    ["Is the axomexam app free?", "Yes. The app is 100% free with no sign-up, subscription or hidden charges."],
+    ["Why is it not on the Google Play Store?", "We distribute the app as a direct APK download so it stays free for every aspirant. A Play Store release may come later."],
+    ["Do I need an internet connection?", "Yes. Study content, mock tests and notes are loaded online, so an active connection is required."],
+    ["Is it safe to install?", "Yes. This is our own official build. For your safety, download it only from this page (axomexam.in)."],
+    ["Which Android versions are supported?", "The app works on modern Android phones with an up-to-date Android System WebView."]
+  ];
+  const faqHTML = faqs.map(([q, a]) => `
+        <details class="appdl-faq">
+          <summary>${q}</summary>
+          <p>${a}</p>
+        </details>`).join("");
+
+  const body = `
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="/">Home</a><span class="bc-sep">/</span><span>Download App</span></nav>
+        <h1>Download the axomexam App</h1>
+        <p class="page-desc">Get the axomexam Android app — all mock tests, bilingual Q&amp;A practice, e-books and previous year papers in one lightweight app. Free, no sign-up.</p>
+      </div>
+
+      <section class="section appdl-hero">
+        <div class="appdl-card">
+          <img class="appdl-logo" src="/app/axomexam-icon.png" alt="axomexam app logo" width="104" height="104" />
+          <div class="appdl-body">
+            <h2 class="appdl-title">axomexam — Exam Prep App</h2>
+            <p class="appdl-tag">Assam competitive exam preparation, now on your phone.</p>
+            <ul class="appdl-meta">
+              <li><b>Version</b> 1.9</li>
+              <li><b>Size</b> 389 KB</li>
+              <li><b>Updated</b> 10 Sep 2026</li>
+              <li><b>Format</b> APK</li>
+              <li><b>Package</b> in.axomexam.app</li>
+              <li><b>Price</b> Free</li>
+            </ul>
+            <div class="appdl-actions">
+              <a class="btn btn-accent appdl-download" href="/app/axomexam-v1.9.apk" download>Download APK (389 KB)</a>
+              <a class="btn btn-outline" href="#install">How to install</a>
+            </div>
+            <p class="appdl-note">Direct download · No sign-up · 100% free</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="appdl-section-title">What's inside the app</h2>
+        <div class="appdl-grid">${feats}</div>
+      </section>
+
+      <section class="section" id="install">
+        <h2 class="appdl-section-title">How to install the APK</h2>
+        <ol class="appdl-steps">
+          <li><b>Download the APK.</b> Tap the Download button above. The file <code>axomexam-v1.9.apk</code> will be saved to your phone.</li>
+          <li><b>Allow the install.</b> If Android blocks it, open Settings and enable “Install unknown apps” (or “Unknown sources”) for your browser.</li>
+          <li><b>Install the app.</b> Open the downloaded file from Downloads or the notification, then tap <b>Install</b>.</li>
+          <li><b>Open and start learning.</b> Launch <b>axomexam</b> from your app drawer and begin practising.</li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2 class="appdl-section-title">System requirements</h2>
+        <ul class="appdl-meta">
+          <li><b>Platform</b> Android</li>
+          <li><b>App version</b> 1.9</li>
+          <li><b>File size</b> 389 KB</li>
+          <li><b>Internet</b> Required</li>
+          <li><b>Price</b> Free</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2 class="appdl-section-title">Frequently asked questions</h2>
+        <div class="appdl-faqs">${faqHTML}</div>
+      </section>
+
+      <section class="section">
+        <div class="appdl-safety">
+          <b>Safety &amp; disclaimer:</b> For your security, download the app only from this official page (axomexam.in). axomexam is NOT an official app of APSC, Assam Police, SSC, Railway, ADRE or any government body. All exam names and trademarks belong to their respective owners. This is an independent study aid.
+        </div>
+      </section>`;
+
+  return {
+    html: shellHTML({
+      route: "/download-app",
+      title: "Download axomexam App (APK) | axomexam",
+      description: "Download the free axomexam Android app (APK, v1.9) — mock tests, bilingual Q&A practice, e-books and previous year papers for ADRE, APSC, Assam Police, SSC & Railway exams.",
+      canonical: `${BASE}/download-app`,
+      keywords: "axomexam app download, axomexam apk, assam exam app, adre app download, apssc app",
+      ogImageAlt: "axomexam - Download the Assam Exam Prep App",
+      body,
+    }),
+    jsonld: "",
+  };
+}
+
 function main() {
   ensureCleanDir();
 
@@ -1823,6 +1933,10 @@ function main() {
     addPage(`/ebooks/${book.id}`, buildEbookReader(book));
     addSitemap(`/ebooks/${book.id}`, "0.8", "weekly");
   }
+
+  /* App download page (APK) */
+  addPage("/download-app", buildDownloadAppPage());
+  addSitemap("/download-app", "0.8", "monthly");
 
   /* Static pages (search is prerendered but kept out of the sitemap) */
   for (const key of ["about", "contact", "privacy", "privacy-policy", "terms", "disclaimer"]) {

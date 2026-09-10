@@ -1576,3 +1576,78 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 @media (max-width: 380px) {
   .ebooks-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
 }
+
+/* ===== App download (APK) page ===== */
+.appdl-hero { padding-top: 8px; }
+.appdl-card {
+  display: flex; gap: 26px; align-items: center; flex-wrap: wrap;
+  background: var(--card, #fff); border: 1px solid var(--border, #e2e8f0);
+  border-radius: 22px; padding: 28px;
+  box-shadow: 0 14px 44px rgba(15, 23, 42, .07);
+}
+.appdl-logo {
+  width: 104px; height: 104px; border-radius: 24px; flex-shrink: 0;
+  box-shadow: 0 14px 32px rgba(37, 99, 235, .28);
+}
+.appdl-body { flex: 1; min-width: 260px; }
+.appdl-title { font-size: 1.6rem; font-weight: 800; margin: 0 0 6px; color: var(--ink, #0f172a); }
+.appdl-tag { color: var(--ink-soft, #475569); margin: 0 0 16px; }
+.appdl-meta { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; padding: 0; margin: 0 0 18px; }
+.appdl-meta li {
+  background: var(--bg-subtle, #f8fafc); border: 1px solid var(--border, #e2e8f0);
+  border-radius: 10px; padding: 7px 12px; font-size: .8rem; color: var(--ink-soft, #475569);
+}
+.appdl-meta b { color: var(--ink, #0f172a); font-weight: 700; margin-right: 4px; }
+.appdl-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+.appdl-download { font-weight: 800; }
+.appdl-note { margin: 14px 0 0; font-size: .82rem; color: var(--ink-soft, #64748b); }
+.appdl-section-title { font-size: 1.25rem; font-weight: 800; margin: 0 0 16px; color: var(--ink, #0f172a); }
+.appdl-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; }
+.appdl-feature {
+  background: var(--card, #fff); border: 1px solid var(--border, #e2e8f0);
+  border-radius: 16px; padding: 20px;
+}
+.appdl-feature h3 { margin: 0 0 8px; font-size: 1rem; color: var(--ink, #0f172a); }
+.appdl-feature p { margin: 0; font-size: .88rem; color: var(--ink-soft, #475569); line-height: 1.65; }
+.appdl-ico {
+  width: 38px; height: 38px; border-radius: 11px; display: grid; place-items: center;
+  background: var(--primary-soft, #eff6ff); color: var(--primary, #2563eb); margin-bottom: 12px;
+}
+.appdl-steps { list-style: none; counter-reset: appdl; padding: 0; margin: 0; display: grid; gap: 14px; }
+.appdl-steps li {
+  counter-increment: appdl; position: relative; padding: 16px 18px 16px 62px;
+  background: var(--card, #fff); border: 1px solid var(--border, #e2e8f0);
+  border-radius: 14px; line-height: 1.7; color: var(--ink-soft, #475569);
+}
+.appdl-steps li::before {
+  content: counter(appdl); position: absolute; left: 18px; top: 16px;
+  width: 30px; height: 30px; border-radius: 50%; background: var(--primary, #2563eb);
+  color: #fff; font-weight: 800; display: grid; place-items: center; font-size: .9rem;
+}
+.appdl-steps code {
+  background: var(--bg-subtle, #f1f5f9); padding: 1px 6px; border-radius: 6px;
+  font-size: .85em; color: var(--ink, #0f172a);
+}
+.appdl-faqs { display: grid; gap: 12px; }
+.appdl-faq {
+  background: var(--card, #fff); border: 1px solid var(--border, #e2e8f0);
+  border-radius: 14px; padding: 4px 18px;
+}
+.appdl-faq summary {
+  cursor: pointer; font-weight: 700; color: var(--ink, #0f172a);
+  padding: 14px 0; list-style: none;
+}
+.appdl-faq summary::-webkit-details-marker { display: none; }
+.appdl-faq summary::after { content: "+"; float: right; font-weight: 800; color: var(--primary, #2563eb); }
+.appdl-faq[open] summary::after { content: "\2212"; }
+.appdl-faq p { margin: 0 0 14px; color: var(--ink-soft, #475569); line-height: 1.7; font-size: .9rem; }
+.appdl-safety {
+  background: var(--bg-subtle, #f8fafc); border: 1px solid var(--border, #e2e8f0);
+  border-left: 4px solid var(--primary, #2563eb); border-radius: 12px;
+  padding: 16px 18px; color: var(--ink-soft, #475569); font-size: .85rem; line-height: 1.75;
+}
+@media (max-width: 560px) {
+  .appdl-card { padding: 22px 18px; gap: 18px; }
+  .appdl-logo { width: 82px; height: 82px; border-radius: 20px; }
+  .appdl-title { font-size: 1.35rem; }
+}
