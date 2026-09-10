@@ -1316,6 +1316,42 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   .quiz-feedback .opt-fig img { max-width: 44px; }
 }
 
+/* Larger, analyzable figures ONLY on the "Image Series" and "Image Analogy"
+   topic pages. The .nv-fig-wide class is added to #qa-list only for these two
+   topics, so every other topic and view keeps its original sizing. */
+.nv-fig-wide .nv-media svg,
+.nv-fig-wide .nv-media img {
+  width: 100%;
+  max-width: min(440px, 100%);
+  height: auto;
+}
+.nv-fig-wide .nv-fig-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nv-fig-wide .nv-fig-box {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  max-width: 200px;
+  padding: 9px;
+  border-radius: 14px;
+}
+
+@media (max-width: 560px) {
+  .nv-fig-wide .nv-fig-grid { gap: 10px; max-width: 360px; }
+  .nv-fig-wide .nv-fig-box { max-width: 150px; padding: 8px; }
+}
+
+@media (max-width: 380px) {
+  .nv-fig-wide .nv-fig-grid { gap: 8px; }
+  .nv-fig-wide .nv-fig-box { max-width: 132px; padding: 6px; }
+}
+
 /* ============================================================
    E-Books Library & Reader
    ============================================================ */

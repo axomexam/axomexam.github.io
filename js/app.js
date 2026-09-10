@@ -1453,6 +1453,9 @@
 
     const list = $("#qa-list");
 
+    const wideFigTopic = /(?:^|\/)(image-series|image-analogy)$/.test(rec.path || "");
+    list.classList.toggle("nv-fig-wide", wideFigTopic);
+
     if (!slice.length) {
       list.innerHTML = `<div class="qa-empty"><div class="big">
         <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
