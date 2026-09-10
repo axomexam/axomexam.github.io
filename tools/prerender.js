@@ -37,7 +37,7 @@ const BASE = "https://axomexam.in";
 const SITE_NAME = "axomexam";
 const SITE_TAGLINE =
   "Free bilingual (Assamese & English) Q&A and PDF notes for competitive exams in Assam.";
-const VERSION = "20260910b";
+const VERSION = "20260910c";
 const OG_ALT =
   "axomexam - Assam Exam Preparation - Mock Tests, Previous Papers & PDF Notes";
 

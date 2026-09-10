@@ -341,9 +341,11 @@
               <span style="font-size:0.78rem; font-weight:800; text-transform:uppercase; letter-spacing:0.8px; color:#ffffff; display:block; margin-bottom:12px;">${isAs ? "দ্ৰুত লিংক" : "Quick Links"}</span>
               <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px; font-size:0.86rem;">
                 <li><a href="/mock-test" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "মক টেষ্ট" : "Mock Test"}</a></li>
+                <li><a href="/category/articles" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "প্ৰবন্ধসমূহ" : "Articles"}</a></li>
                 <li><a href="/previous-year" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "বিগত বৰ্ষৰ প্ৰশ্ন" : "Previous Papers"}</a></li>
+                <li><a href="/ebooks" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "ই-বুক" : "E-Books"}</a></li>
                 <li><a href="/downloads" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "নোটসমূহ ডাউনল'ড" : "Download Notes"}</a></li>
-                <li><a href="/category/study-guides" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "অধ্যয়ন নিৰ্দেশিকা" : "Study Guides"}</a></li>
+                <li><a href="/download-app" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "এপ ডাউনলোড" : "Download App"}</a></li>
                 <li><a href="/submit" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "প্ৰশ্ন প্ৰেৰণ কৰক" : "Submit Q&A"}</a></li>
               </ul>
             </div>
