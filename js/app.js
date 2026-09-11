@@ -2863,6 +2863,23 @@
     if (segs.length === 1) return renderPreviousYearExams(main);
     const exam = ((typeof CONFIG !== "undefined" && CONFIG.PYEAR_EXAMS) || []).find((e) => e.id === segs[1]);
     if (!exam) return render404(main);
+
+    const children = Array.isArray(exam.children) ? exam.children : [];
+    const hasChildren = children.length > 0;
+
+    if (hasChildren) {
+      if (segs.length === 2) return renderPreviousYearSubExams(main, exam, children);
+      const subExam = children.find((c) => c.id === segs[2]);
+      if (!subExam) return render404(main);
+      if (segs.length === 3) {
+        const years = await API.listPreviousYearYears(exam.id, subExam.id);
+        return renderPreviousYearYears(main, subExam, years, exam);
+      }
+      const year = segs[3];
+      const files = await API.listPreviousYearPdfs(exam.id, year, subExam.id);
+      return renderPreviousYearPapers(main, subExam, year, files, exam);
+    }
+
     if (segs.length === 2) {
       const years = await API.listPreviousYearYears(exam.id);
       return renderPreviousYearYears(main, exam, years);
@@ -2870,6 +2887,33 @@
     const year = segs[2];
     const files = await API.listPreviousYearPdfs(exam.id, year);
     renderPreviousYearPapers(main, exam, year, files);
+  }
+
+  function renderPreviousYearSubExams(main, exam, children) {
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/previous-year">${t("page.previous-year.title")}</a><span class="bc-sep">/</span>
+          <span>${escapeHtml(localized(exam.name))}</span>
+        </nav>
+        <h1>${escapeHtml(localized(exam.name))}</h1>
+        <p class="page-desc">${t("pyear.chooseSection.sub")}</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        <div class="section-head"><div><h2>${t("pyear.chooseSection")}</h2></div></div>
+        <div class="sub-grid">
+          ${children.map((c, i) => `
+            <a class="sub-card reveal" href="/previous-year/${exam.id}/${c.id}" style="--cat:${c.color || exam.color}" data-delay="${i * 40}">
+              <span class="sub-ico">${escapeHtml(c.icon || c.id.slice(0, 2).toUpperCase())}</span>
+              <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
+                <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(c.name))}</span>
+                <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${t("pyear.years")}</span>
+              </span>
+            </a>`).join("")}
+        </div>
+      </section>`;
+    observeReveals();
   }
 
   function renderPreviousYearExams(main) {
@@ -2897,12 +2941,16 @@
     observeReveals();
   }
 
-  function renderPreviousYearYears(main, exam, years) {
+  function renderPreviousYearYears(main, exam, years, parent) {
+    const parentCrumb = parent
+      ? `<a href="/previous-year/${parent.id}">${escapeHtml(localized(parent.name))}</a><span class="bc-sep">/</span>`
+      : "";
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb">
           <a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
           <a href="/previous-year">${t("page.previous-year.title")}</a><span class="bc-sep">/</span>
+          ${parentCrumb}
           <span>${escapeHtml(localized(exam.name))}</span>
         </nav>
         <h1>${escapeHtml(localized(exam.name))}</h1>
@@ -2912,7 +2960,7 @@
         ${years.length ? `
           <div class="sub-grid">
             ${years.map((yr, i) => `
-              <a class="sub-card reveal" href="/previous-year/${exam.id}/${yr}" style="--cat:${exam.color}" data-delay="${i * 50}">
+              <a class="sub-card reveal" href="/previous-year/${parent ? parent.id + "/" : ""}${exam.id}/${yr}" style="--cat:${exam.color}" data-delay="${i * 50}">
                 <span class="sub-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4"/><path d="M16 3v4"/><path d="M3 10h18"/></svg></span>
                 <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
                   <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(yr)}</span>
@@ -2924,7 +2972,11 @@
     observeReveals();
   }
 
-  function renderPreviousYearPapers(main, exam, year, files) {
+  function renderPreviousYearPapers(main, exam, year, files, parent) {
+    const examHref = parent ? `/previous-year/${parent.id}/${exam.id}` : `/previous-year/${exam.id}`;
+    const parentCrumb = parent
+      ? `<a href="/previous-year/${parent.id}">${escapeHtml(localized(parent.name))}</a><span class="bc-sep">/</span>`
+      : "";
     const card = (f) => `
       <div class="dl-item">
         <span class="dl-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg></span>
@@ -2937,7 +2989,8 @@
         <nav class="breadcrumb">
           <a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
           <a href="/previous-year">${t("page.previous-year.title")}</a><span class="bc-sep">/</span>
-          <a href="/previous-year/${exam.id}">${escapeHtml(localized(exam.name))}</a><span class="bc-sep">/</span>
+          ${parentCrumb}
+          <a href="${examHref}">${escapeHtml(localized(exam.name))}</a><span class="bc-sep">/</span>
           <span>${escapeHtml(year)}</span>
         </nav>
         <h1>${escapeHtml(localized(exam.name))} — ${escapeHtml(year)}</h1>

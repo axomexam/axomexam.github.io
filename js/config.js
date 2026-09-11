@@ -61,7 +61,11 @@ const CONFIG = {
     ],
     PYEAR: {
       ssc: { "2023": ["ssc-cgl-2023.pdf"], "2024": ["ssc-cgl-2024.pdf"] },
-      railway: { "2023": ["rrb-2023.pdf"] },
+      railway: {
+        "rrb-ntpc": { "2026": ["rrb-ntpc-2026.pdf"], "2025": ["rrb-ntpc-2025.pdf"] },
+        "rrb-group-d": { "2024": ["rrb-group-d-2024.pdf"], "2025": ["rrb-group-d-2025.pdf"] },
+        "rrb-alp": { "2024": ["rrb-alp-2024.pdf"], "2025": ["rrb-alp-2025.pdf"] },
+      },
       "guwahati-hc": { "2024": ["ghc-steno-2024.pdf"] },
       "dhs-dme": { "2023": ["dhs-dme-2023.pdf"] },
       "assam-police": { "2022": ["assam-police-ab-2022.pdf"] },
@@ -73,7 +77,11 @@ const CONFIG = {
      previous-year/<id>/<year>/<file>.pdf */
   PYEAR_EXAMS: [
     { id: "ssc", name: { en: "SSC", as: "SSC" }, color: "#ef4444", icon: "SSC" },
-    { id: "railway", name: { en: "Railway", as: "ৰে'লৱে" }, color: "#0ea5e9", icon: "Rly" },
+    { id: "railway", name: { en: "Railway", as: "ৰে'লৱে" }, color: "#0ea5e9", icon: "Rly", children: [
+      { id: "rrb-ntpc", name: { en: "RRB NTPC", as: "RRB NTPC" }, color: "#0ea5e9", icon: "NTPC" },
+      { id: "rrb-group-d", name: { en: "RRB Group D", as: "RRB গ্ৰুপ ডি" }, color: "#6366f1", icon: "GD" },
+      { id: "rrb-alp", name: { en: "RRB ALP", as: "RRB ALP" }, color: "#f59e0b", icon: "ALP" },
+    ] },
     { id: "guwahati-hc", name: { en: "Guwahati High Court", as: "গুৱাহাটী উচ্চ ন্যায়ালয়" }, color: "#8b5cf6", icon: "HC" },
     { id: "dhs-dme", name: { en: "DHS DME", as: "DHS DME" }, color: "#10b981", icon: "DHS" },
     { id: "assam-police", name: { en: "Assam Police", as: "অসম আৰক্ষী" }, color: "#2563eb", icon: "AP" },

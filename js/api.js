@@ -171,34 +171,41 @@ const API = (() => {
   }
 
   /* ---- Previous year questions ----
-     Repo layout: previous-year/<exam-id>/<year>/<file>.pdf ---- */
+     Repo layout: previous-year/<exam-id>/[<sub-exam-id>/]<year>/<file>.pdf ---- */
 
-  /* List the available years (4-digit folders) for an exam */
-  async function listPreviousYearYears(examId) {
+  /* List the available years (4-digit folders) for an exam (or sub-exam) */
+  async function listPreviousYearYears(examId, subId) {
+    const relDir = subId ? `${P.PYEAR}/${examId}/${subId}` : `${P.PYEAR}/${examId}`;
     if (CONFIG.USE_REMOTE) {
       try {
-        const items = await fetchJSON(apiDirUrl(`${P.PYEAR}/${examId}`));
+        const items = await fetchJSON(apiDirUrl(relDir));
         return (Array.isArray(items) ? items : [])
           .filter((i) => i.type === "dir" && /^\d{4}$/.test(i.name))
           .map((i) => i.name)
           .sort();
       } catch { return []; }
     }
-    return Object.keys((F.PYEAR || {})[examId] || {}).sort();
+    const node = (F.PYEAR || {})[examId] || {};
+    const scope = subId ? (node[subId] || {}) : node;
+    return Object.keys(scope).sort();
   }
 
-  /* List the PDF files inside an exam/year folder */
-  async function listPreviousYearPdfs(examId, year) {
+  /* List the PDF files inside an exam[/sub-exam]/year folder */
+  async function listPreviousYearPdfs(examId, year, subId) {
+    const relDir = subId ? `${P.PYEAR}/${examId}/${subId}/${year}` : `${P.PYEAR}/${examId}/${year}`;
     if (CONFIG.USE_REMOTE) {
       try {
-        const items = await fetchJSON(apiDirUrl(`${P.PYEAR}/${examId}/${year}`));
+        const items = await fetchJSON(apiDirUrl(relDir));
         return (Array.isArray(items) ? items : [])
           .filter((i) => /\.pdf$/i.test(i.name))
-          .map((i) => ({ name: i.name, url: i.download_url || rawUrl(`${P.PYEAR}/${examId}/${year}/${i.name}`) }));
+          .map((i) => ({ name: i.name, url: i.download_url || rawUrl(`${relDir}/${i.name}`) }));
       } catch { return []; }
     }
-    const files = ((F.PYEAR || {})[examId] || {})[year] || [];
-    return files.map((name) => ({ name, url: `${F.PYEAR_BASE}${examId}/${year}/${name}` }));
+    const node = (F.PYEAR || {})[examId] || {};
+    const scope = subId ? (node[subId] || {}) : node;
+    const files = scope[year] || [];
+    const relPath = subId ? `${examId}/${subId}/${year}` : `${examId}/${year}`;
+    return files.map((name) => ({ name, url: `${F.PYEAR_BASE}${relPath}/${name}` }));
   }
 
   /* ---- E-Books (read-only library, online reading only) ----
