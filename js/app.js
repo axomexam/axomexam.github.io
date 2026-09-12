@@ -4234,7 +4234,13 @@
     card.className = "report-card";
     card.innerHTML =
       '<div class="rc-top">' +
-        '<div class="rc-brand"><span class="rc-logo"><svg viewBox="0 0 34 34" width="34" height="34" aria-hidden="true"><text x="17" y="23.5" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="900" style="' + svgFont + '">A</text></svg></span> axomexam.in</div>' +
+        '<div class="rc-brand">' +
+          '<svg class="rc-brand-svg" width="186" height="34" viewBox="0 0 186 34" aria-hidden="true">' +
+            '<rect width="34" height="34" rx="9" fill="rgba(255,255,255,0.18)"/>' +
+            '<text x="17" y="23.5" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="900" style="' + svgFont + '">A</text>' +
+            '<text x="46" y="23.5" fill="#ffffff" font-size="21" font-weight="800" letter-spacing="-0.4" style="' + svgFont + '">axomexam.in</text>' +
+          '</svg>' +
+        '</div>' +
         '<div class="rc-badge"><span>' + escapeHtml(t("share.reportBadge")) + '</span></div>' +
       '</div>' +
       '<div class="rc-user">' +
