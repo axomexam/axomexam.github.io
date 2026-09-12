@@ -4220,7 +4220,10 @@
     const R = 52.5, C = 2 * Math.PI * R;
     const offset = C * (1 - Math.max(0, Math.min(100, S.pct)) / 100);
     const initial = (String(name || "").trim().charAt(0) || "A").toUpperCase();
-    const avatar = photo ? ('<img src="' + photo + '" alt="" />') : escapeHtml(initial);
+    const svgFont = "font-family:'Plus Jakarta Sans','Inter',Arial,sans-serif";
+    const avatar = photo
+      ? ('<img src="' + photo + '" alt="" />')
+      : ('<svg viewBox="0 0 84 84" width="84" height="84" aria-hidden="true"><text x="42" y="56.5" text-anchor="middle" fill="#ffffff" font-size="40" font-weight="800" style="' + svgFont + '">' + escapeHtml(initial) + '</text></svg>');
     const stats = [
       { v: S.correct, l: t("mock.result.correct") },
       { v: S.wrong, l: t("mock.result.wrong") },
@@ -4231,8 +4234,8 @@
     card.className = "report-card";
     card.innerHTML =
       '<div class="rc-top">' +
-        '<div class="rc-brand"><span class="rc-logo">A</span> axomexam.in</div>' +
-        '<div class="rc-badge">' + escapeHtml(t("share.reportBadge")) + '</div>' +
+        '<div class="rc-brand"><span class="rc-logo"><svg viewBox="0 0 34 34" width="34" height="34" aria-hidden="true"><text x="17" y="23.5" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="900" style="' + svgFont + '">A</text></svg></span> axomexam.in</div>' +
+        '<div class="rc-badge"><span>' + escapeHtml(t("share.reportBadge")) + '</span></div>' +
       '</div>' +
       '<div class="rc-user">' +
         '<div class="rc-avatar' + (photo ? ' has-photo' : '') + '">' + avatar + '</div>' +
@@ -4241,11 +4244,14 @@
       '</div>' +
       '<div class="rc-score-row">' +
         '<div class="rc-ring">' +
-          '<svg viewBox="0 0 120 120">' +
+          '<svg class="rc-ring-arc" viewBox="0 0 120 120">' +
             '<circle class="rc-r-bg" cx="60" cy="60" r="' + R + '"></circle>' +
             '<circle class="rc-r-fg" cx="60" cy="60" r="' + R + '" stroke-dasharray="' + C.toFixed(1) + '" stroke-dashoffset="' + offset.toFixed(1) + '"></circle>' +
           '</svg>' +
-          '<div class="rc-ring-num"><div><b>' + S.pct + '%</b><span>' + escapeHtml(t("share.score")) + '</span></div></div>' +
+          '<svg class="rc-ring-label" viewBox="0 0 120 120" aria-hidden="true">' +
+            '<text x="60" y="71" text-anchor="middle" fill="#ffffff" font-size="32" font-weight="800" style="' + svgFont + '">' + S.pct + '%</text>' +
+            '<text x="60" y="88" text-anchor="middle" fill="#ffffff" fill-opacity="0.85" font-size="9" font-weight="700" style="' + svgFont + '">' + escapeHtml(t("share.score")) + '</text>' +
+          '</svg>' +
         '</div>' +
         '<div class="rc-msg">' +
           '<div class="rc-msg-title">' + escapeHtml(t(S.msgKey)) + '</div>' +

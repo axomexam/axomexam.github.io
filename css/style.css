@@ -1042,22 +1042,22 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 .report-card * { box-sizing: border-box; }
 .rc-top { display: flex; align-items: center; justify-content: space-between; }
 .rc-brand { display: flex; align-items: center; gap: 10px; font-size: 21px; font-weight: 800; letter-spacing: -.4px; }
-.rc-logo { width: 34px; height: 34px; border-radius: 9px; background: rgba(255,255,255,.18); display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 900; line-height: 1; padding-top: 1px; }
-.rc-badge { padding: 7px 14px; border-radius: 99px; background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.28); font-size: 11px; font-weight: 800; letter-spacing: 1.4px; }
+.rc-logo { width: 34px; height: 34px; border-radius: 9px; background: rgba(255,255,255,.18); flex-shrink: 0; overflow: hidden; }
+.rc-logo svg { display: block; width: 34px; height: 34px; }
+.rc-badge { height: 28px; padding: 0 16px; border-radius: 99px; background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.28); font-size: 11px; font-weight: 800; line-height: 26px; text-align: center; }
+.rc-badge span { display: inline-block; letter-spacing: 1.4px; margin-right: -1.4px; line-height: 26px; }
 .rc-user { display: flex; align-items: center; gap: 20px; margin-top: 34px; }
-.rc-avatar { width: 92px; height: 92px; border-radius: 50%; background: rgba(255,255,255,.2); border: 4px solid rgba(255,255,255,.6); display: flex; align-items: center; justify-content: center; font-size: 40px; font-weight: 800; line-height: 1; overflow: hidden; flex-shrink: 0; padding-top: 2px; }
-.rc-avatar.has-photo { padding-top: 0; }
-.rc-avatar img { width: 100%; height: 100%; object-fit: cover; padding: 0; }
+.rc-avatar { width: 92px; height: 92px; border-radius: 50%; background: rgba(255,255,255,.2); border: 4px solid rgba(255,255,255,.6); overflow: hidden; flex-shrink: 0; }
+.rc-avatar svg { display: block; width: 84px; height: 84px; }
+.rc-avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .rc-name { font-size: 33px; font-weight: 800; line-height: 1.15; }
 .rc-test { margin-top: 6px; font-size: 15px; opacity: .9; font-weight: 600; }
 .rc-score-row { display: flex; align-items: center; gap: 26px; margin-top: 30px; }
 .rc-ring { position: relative; width: 150px; height: 150px; flex-shrink: 0; }
-.rc-ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+.rc-ring-arc { width: 100%; height: 100%; transform: rotate(-90deg); display: block; }
+.rc-ring-label { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
 .rc-ring .rc-r-bg { fill: none; stroke: rgba(255,255,255,.22); stroke-width: 11; }
 .rc-ring .rc-r-fg { fill: none; stroke: #fff; stroke-width: 11; stroke-linecap: round; }
-.rc-ring-num { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding-top: 2px; }
-.rc-ring-num b { font-size: 40px; font-weight: 800; line-height: 1; }
-.rc-ring-num span { display: block; font-size: 11px; letter-spacing: 1.4px; opacity: .85; margin-top: 4px; font-weight: 700; }
 .rc-msg { flex: 1; }
 .rc-msg-title { font-size: 19px; font-weight: 800; }
 .rc-msg-sub { margin-top: 8px; font-size: 14px; opacity: .9; line-height: 1.5; }
