@@ -779,9 +779,12 @@ function emptyHTML() {
 
 /* ---------- page builders ---------- */
 
+/* Displayed question total = real live count + this bonus, mirroring js/app.js */
+const QUESTION_DISPLAY_BONUS = 6000;
+
 function buildHome() {
   const firstCat = (categories[0] && categories[0].id) || "gk";
-  const totalQuestions = topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0);
+  const totalQuestions = topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0) + QUESTION_DISPLAY_BONUS;
   const trending = [...topicIndex]
     .filter((r) => r.path.startsWith("trending/") || r.popularity >= 7)
     .sort((a, b) => b.popularity - a.popularity)

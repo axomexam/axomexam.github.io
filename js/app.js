@@ -30,6 +30,9 @@
   const MAX_MOCK_SETS = 20;
   /* Minimum number of set cards to show once at least one set exists */
   const DEFAULT_VISIBLE_SETS = 5;
+  /* Displayed question total = real live count + this bonus, so the site
+     always shows a higher number while staying in sync as questions are added. */
+  const QUESTION_DISPLAY_BONUS = 6000;
 
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
@@ -917,7 +920,7 @@
 
   /* ================= Homepage ================= */
   function renderHome(main) {
-    const totalQuestions = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0);
+    const totalQuestions = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0) + QUESTION_DISPLAY_BONUS;
     const totalPdfs = state.topicIndex.length + (state.topicIndex.filter((r) => r.pdf).length);
     const trending = trendingTopics(state.topicIndex).slice(0, typeof CONFIG !== "undefined" ? CONFIG.TRENDING_COUNT : 6);
     const firstCat = state.categories[0]?.id || "gk";
@@ -4655,7 +4658,7 @@
             const dlEl = document.getElementById(`dl-count-${rec.path.replace(/\//g, '-')}`);
             if (dlEl) dlEl.textContent = `${rec.nQuestions}`;
 
-            const loadedTotal = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0);
+            const loadedTotal = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0) + QUESTION_DISPLAY_BONUS;
             const totalEl = $("#stat-total-questions");
             if (totalEl) totalEl.textContent = `${loadedTotal.toLocaleString()}+`;
 
