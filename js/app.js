@@ -4325,7 +4325,10 @@
         '<div><div class="rc-challenge-title">' + escapeHtml(t("share.challenge")) + '</div>' +
         '<div class="rc-challenge-link">' + escapeHtml(S.url) + '</div></div>' +
       '</div>' +
-      '<div class="rc-foot"><span>' + escapeHtml(t("share.siteLine")) + '</span><span>axomexam.in</span></div>';
+      '<div class="rc-foot">' +
+        '<div class="rc-foot-line">' + escapeHtml(t("share.cardLine1").replace("{p}", String(S.pct)).replace("{t}", S.title).replace("{site}", SHARE_SITE_ORIGIN + "/")) + '</div>' +
+        '<div class="rc-foot-line rc-foot-link">' + escapeHtml(S.url) + '</div>' +
+      '</div>';
 
     const holder = document.createElement("div");
     holder.className = "report-card-holder";
@@ -4498,7 +4501,9 @@
     const subEl = $("#share-modal-sub", modal);
     if (subEl) subEl.textContent = t("share.shareNow");
 
-    const file = dataUrlToBlob(dataUrl);
+    const blob = dataUrlToBlob(dataUrl);
+    let file = blob;
+    try { file = new File([blob], fileName, { type: "image/png" }); } catch (e) { file = blob; }
     const canFiles = !!(navigator.canShare && navigator.canShare({ files: [file] }));
 
     $("#share-back", modal).addEventListener("click", () => {
@@ -4511,18 +4516,22 @@
         const kind = btn.dataset.share;
         const enc = encodeURIComponent;
         if (kind === "whatsapp") {
+          if (canFiles && await nativeShareFile(file, text)) return;
           triggerDownload(dataUrl, fileName);
           toast(t("share.imageSaved"));
           window.open("https://wa.me/?text=" + enc(text), "_blank");
         } else if (kind === "facebook") {
+          if (canFiles && await nativeShareFile(file, text)) return;
           triggerDownload(dataUrl, fileName);
           toast(t("share.imageSaved"));
           window.open("https://www.facebook.com/sharer/sharer.php?u=" + enc(S.url) + "&quote=" + enc(text), "_blank");
         } else if (kind === "telegram") {
+          if (canFiles && await nativeShareFile(file, text)) return;
           triggerDownload(dataUrl, fileName);
           toast(t("share.imageSaved"));
           window.open("https://t.me/share/url?url=" + enc(S.url) + "&text=" + enc(text), "_blank");
         } else if (kind === "twitter") {
+          if (canFiles && await nativeShareFile(file, text)) return;
           triggerDownload(dataUrl, fileName);
           toast(t("share.imageSaved"));
           window.open("https://twitter.com/intent/tweet?url=" + enc(S.url) + "&text=" + enc(text), "_blank");

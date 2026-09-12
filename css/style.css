@@ -1069,7 +1069,9 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 .rc-challenge-ico svg { width: 22px; height: 22px; }
 .rc-challenge-title { font-size: 15px; font-weight: 800; }
 .rc-challenge-link { margin-top: 4px; font-size: 12.5px; color: #2563eb; font-weight: 700; word-break: break-all; }
-.rc-foot { margin-top: 24px; display: flex; align-items: center; justify-content: space-between; font-size: 12.5px; opacity: .88; font-weight: 600; }
+.rc-foot { margin-top: 24px; display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; font-size: 13px; opacity: .92; font-weight: 700; }
+.rc-foot-line { line-height: 1.45; word-break: break-word; }
+.rc-foot-link { font-size: 12.5px; opacity: .92; word-break: break-all; text-decoration: underline; }
 
 /* ============================================================
    Reveal-on-scroll animation
