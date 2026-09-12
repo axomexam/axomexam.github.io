@@ -4216,11 +4216,70 @@
     return new Blob([arr], { type: mime });
   }
 
+  function rcRoundRect(ctx, x, y, w, h, r) {
+    const rad = Math.min(r, w / 2, h / 2);
+    ctx.beginPath();
+    ctx.moveTo(x + rad, y);
+    ctx.arcTo(x + w, y, x + w, y + h, rad);
+    ctx.arcTo(x + w, y + h, x, y + h, rad);
+    ctx.arcTo(x, y + h, x, y, rad);
+    ctx.arcTo(x, y, x + w, y, rad);
+    ctx.closePath();
+  }
+
+  function drawShareBrandPng() {
+    const scale = 2, w = 186, h = 34, font = "'Plus Jakarta Sans','Inter',Arial,sans-serif";
+    const c = document.createElement("canvas");
+    c.width = w * scale;
+    c.height = h * scale;
+    const ctx = c.getContext("2d");
+    ctx.scale(scale, scale);
+    ctx.fillStyle = "rgba(255,255,255,0.18)";
+    rcRoundRect(ctx, 0, 0, 34, 34, 9);
+    ctx.fill();
+    ctx.fillStyle = "#ffffff";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.font = "900 18px " + font;
+    ctx.fillText("A", 17, 17);
+    ctx.textAlign = "left";
+    ctx.font = "800 21px " + font;
+    ctx.fillText("axomexam.in", 46, 17);
+    return c.toDataURL("image/png");
+  }
+
+  function drawShareBadgePng(label) {
+    const scale = 2, h = 28, padX = 16, font = "'Plus Jakarta Sans','Inter',Arial,sans-serif";
+    const measure = document.createElement("canvas").getContext("2d");
+    measure.font = "800 11px " + font;
+    const w = Math.ceil(measure.measureText(label).width + padX * 2);
+    const c = document.createElement("canvas");
+    c.width = w * scale;
+    c.height = h * scale;
+    const ctx = c.getContext("2d");
+    ctx.scale(scale, scale);
+    ctx.fillStyle = "rgba(255,255,255,0.16)";
+    rcRoundRect(ctx, 0.5, 0.5, w - 1, h - 1, 99);
+    ctx.fill();
+    ctx.strokeStyle = "rgba(255,255,255,0.28)";
+    ctx.lineWidth = 1;
+    ctx.stroke();
+    ctx.fillStyle = "#ffffff";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.font = "800 11px " + font;
+    ctx.fillText(label, w / 2, h / 2);
+    return c.toDataURL("image/png");
+  }
+
   async function generateReportImage(S, name, photo) {
+    try { await document.fonts.ready; } catch (e) {}
     const R = 52.5, C = 2 * Math.PI * R;
     const offset = C * (1 - Math.max(0, Math.min(100, S.pct)) / 100);
     const initial = (String(name || "").trim().charAt(0) || "A").toUpperCase();
     const svgFont = "font-family:'Plus Jakarta Sans','Inter',Arial,sans-serif";
+    const brandPng = drawShareBrandPng();
+    const badgePng = drawShareBadgePng(t("share.reportBadge"));
     const avatar = photo
       ? ('<img src="' + photo + '" alt="" />')
       : ('<svg viewBox="0 0 84 84" width="84" height="84" aria-hidden="true"><text x="42" y="56.5" text-anchor="middle" fill="#ffffff" font-size="40" font-weight="800" style="' + svgFont + '">' + escapeHtml(initial) + '</text></svg>');
@@ -4234,14 +4293,8 @@
     card.className = "report-card";
     card.innerHTML =
       '<div class="rc-top">' +
-        '<div class="rc-brand">' +
-          '<svg class="rc-brand-svg" width="186" height="34" viewBox="0 0 186 34" aria-hidden="true">' +
-            '<rect width="34" height="34" rx="9" fill="rgba(255,255,255,0.18)"/>' +
-            '<text x="17" y="23.5" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="900" style="' + svgFont + '">A</text>' +
-            '<text x="46" y="23.5" fill="#ffffff" font-size="21" font-weight="800" letter-spacing="-0.4" style="' + svgFont + '">axomexam.in</text>' +
-          '</svg>' +
-        '</div>' +
-        '<div class="rc-badge"><span>' + escapeHtml(t("share.reportBadge")) + '</span></div>' +
+        '<div class="rc-brand"><img src="' + brandPng + '" alt="" /></div>' +
+        '<div class="rc-badge"><img src="' + badgePng + '" alt="" /></div>' +
       '</div>' +
       '<div class="rc-user">' +
         '<div class="rc-avatar' + (photo ? ' has-photo' : '') + '">' + avatar + '</div>' +
