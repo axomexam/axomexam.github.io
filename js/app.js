@@ -3719,7 +3719,7 @@
     state.mock = {
       cat, pool: fullPool, configured: false, count: defaultCount,
       testLang: cat.id === "english" ? "en" : "as",
-      setInfo: { setNumber, title: loaded.title }
+      setInfo: { setNumber, title: loaded.title, subject: localized(sub.name) }
     };
 
     main.innerHTML = `
@@ -4072,7 +4072,8 @@
             <div class="rstat"><b>${fmtTime(timeTaken)}</b><span>Total Time Taken</span></div>
           </div>
           <div class="result-actions">
-            <button class="btn btn-primary" id="mock-retry">${t("mock.result.retry")}</button>
+            <button class="btn btn-accent" id="mock-share-btn">${svgShareIcon()} ${t("mock.result.share")}</button>
+            <button class="btn btn-outline" id="mock-retry">${t("mock.result.retry")}</button>
             <a class="btn btn-outline" href="/mock-test">${t("mock.result.changeCat")}</a>
             <button class="btn btn-outline" id="mock-review-toggle">${t("mock.result.review")}</button>
             <a class="btn btn-outline" href="/mock-test">${t("mock.result.exit")}</a>
@@ -4121,6 +4122,8 @@
     });
 
     $("#mock-retry").addEventListener("click", () => startMock(m.pool.length));
+    const shareBtn = $("#mock-share-btn");
+    if (shareBtn) shareBtn.addEventListener("click", openMockShareModal);
     const reviewBtn = $("#mock-review-toggle");
     reviewBtn.addEventListener("click", () => {
       const list = $("#review-list");
@@ -4130,6 +4133,346 @@
     });
 
     if (m.timerId) { clearInterval(m.timerId); m.timerId = null; }
+  }
+
+  /* ================= Share result as a report card ================= */
+  const SHARE_SITE_ORIGIN = "https://axomexam.in";
+
+  function svgShareIcon() {
+    return `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.59 13.51 6.83 3.98"/><path d="m15.41 6.51-6.82 3.98"/></svg>`;
+  }
+  function svgWhatsapp() {
+    return `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>`;
+  }
+  function svgFacebook() {
+    return `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>`;
+  }
+  function svgTelegram() {
+    return `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>`;
+  }
+  function svgTwitter() {
+    return `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>`;
+  }
+  function svgMoreApps() {
+    return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.59 13.51 6.83 3.98"/><path d="m15.41 6.51-6.82 3.98"/></svg>`;
+  }
+  function svgDownload() {
+    return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>`;
+  }
+  function svgCopy() {
+    return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>`;
+  }
+  function svgCamera() {
+    return `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>`;
+  }
+  function svgAvatarPlaceholder() {
+    return `<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>`;
+  }
+  function svgTrophy() {
+    return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>`;
+  }
+
+  function buildShareSummary() {
+    const m = state.mock;
+    if (!m) return null;
+    let correct = 0, wrong = 0, skipped = 0;
+    m.pool.forEach((q, i) => {
+      const a = m.answers[i];
+      if (a === undefined) skipped++;
+      else if (a === q.correct) correct++;
+      else wrong++;
+    });
+    const pct = m.pool.length ? Math.round((correct / m.pool.length) * 100) : 0;
+    const msgKey = pct >= 80 ? "mock.result.msgExcellent" : pct >= 55 ? "mock.result.msgGood" : pct >= 35 ? "mock.result.msgAverage" : "mock.result.msgPoor";
+    let path = "/mock-test";
+    if (location.pathname && location.pathname.indexOf("/mock-test/") === 0) path = location.pathname.replace(/\/index\.html$/, "");
+    const setTitle = (m.setInfo && m.setInfo.title) ? m.setInfo.title : "";
+    const subject = (m.setInfo && m.setInfo.subject) ? m.setInfo.subject : localized(m.cat && m.cat.name);
+    const title = setTitle ? (subject ? subject + " • " + setTitle : setTitle) : (localized(m.cat && m.cat.name) + " Mock Test");
+    return {
+      correct, wrong, skipped, pct, msgKey,
+      url: SHARE_SITE_ORIGIN + path,
+      title,
+      time: fmtTime(m.elapsedSec),
+      count: m.pool.length
+    };
+  }
+
+  function shareTextFor(S) {
+    return t("share.text")
+      .replace("{p}", String(S.pct))
+      .replace("{t}", S.title)
+      .replace("{url}", S.url)
+      .replace("{site}", SHARE_SITE_ORIGIN);
+  }
+
+  function dataUrlToBlob(dataUrl) {
+    const parts = String(dataUrl).split(",");
+    const mimeMatch = parts[0].match(/:(.*?);/);
+    const mime = mimeMatch ? mimeMatch[1] : "image/png";
+    const bin = atob(parts[1]);
+    const arr = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) arr[i] = bin.charCodeAt(i);
+    return new Blob([arr], { type: mime });
+  }
+
+  async function generateReportImage(S, name, photo) {
+    const R = 52.5, C = 2 * Math.PI * R;
+    const offset = C * (1 - Math.max(0, Math.min(100, S.pct)) / 100);
+    const initial = (String(name || "").trim().charAt(0) || "A").toUpperCase();
+    const avatar = photo ? ('<img src="' + photo + '" alt="" />') : escapeHtml(initial);
+    const stats = [
+      { v: S.correct, l: t("mock.result.correct") },
+      { v: S.wrong, l: t("mock.result.wrong") },
+      { v: S.skipped, l: t("mock.result.skipped") },
+      { v: S.time, l: t("mock.result.time") }
+    ];
+    const card = document.createElement("div");
+    card.className = "report-card";
+    card.innerHTML =
+      '<div class="rc-top">' +
+        '<div class="rc-brand"><span class="rc-logo">A</span> axomexam.in</div>' +
+        '<div class="rc-badge">' + escapeHtml(t("share.reportBadge")) + '</div>' +
+      '</div>' +
+      '<div class="rc-user">' +
+        '<div class="rc-avatar' + (photo ? ' has-photo' : '') + '">' + avatar + '</div>' +
+        '<div><div class="rc-name">' + escapeHtml(name) + '</div>' +
+        '<div class="rc-test">' + escapeHtml(S.title) + '</div></div>' +
+      '</div>' +
+      '<div class="rc-score-row">' +
+        '<div class="rc-ring">' +
+          '<svg viewBox="0 0 120 120">' +
+            '<circle class="rc-r-bg" cx="60" cy="60" r="' + R + '"></circle>' +
+            '<circle class="rc-r-fg" cx="60" cy="60" r="' + R + '" stroke-dasharray="' + C.toFixed(1) + '" stroke-dashoffset="' + offset.toFixed(1) + '"></circle>' +
+          '</svg>' +
+          '<div class="rc-ring-num"><div><b>' + S.pct + '%</b><span>' + escapeHtml(t("share.score")) + '</span></div></div>' +
+        '</div>' +
+        '<div class="rc-msg">' +
+          '<div class="rc-msg-title">' + escapeHtml(t(S.msgKey)) + '</div>' +
+          '<div class="rc-msg-sub">' + escapeHtml(S.correct + " " + t("mock.result.correct") + "  •  " + S.wrong + " " + t("mock.result.wrong") + "  •  " + S.skipped + " " + t("mock.result.skipped")) + '</div>' +
+        '</div>' +
+      '</div>' +
+      '<div class="rc-stats">' +
+        stats.map(function (st) { return '<div class="rc-stat"><b>' + escapeHtml(String(st.v)) + '</b><span>' + escapeHtml(st.l) + '</span></div>'; }).join("") +
+      '</div>' +
+      '<div class="rc-challenge">' +
+        '<div class="rc-challenge-ico">' + svgTrophy() + '</div>' +
+        '<div><div class="rc-challenge-title">' + escapeHtml(t("share.challenge")) + '</div>' +
+        '<div class="rc-challenge-link">' + escapeHtml(S.url) + '</div></div>' +
+      '</div>' +
+      '<div class="rc-foot"><span>' + escapeHtml(t("share.siteLine")) + '</span><span>axomexam.in</span></div>';
+
+    const holder = document.createElement("div");
+    holder.className = "report-card-holder";
+    holder.appendChild(card);
+    document.body.appendChild(holder);
+    try {
+      if (!window.html2canvas) throw new Error("html2canvas unavailable");
+      const canvas = await window.html2canvas(card, { scale: 2, useCORS: true, logging: false, backgroundColor: "#4f46e5" });
+      return canvas.toDataURL("image/png");
+    } finally {
+      holder.remove();
+    }
+  }
+
+  function triggerDownload(dataUrl, fileName) {
+    const a = document.createElement("a");
+    a.href = dataUrl;
+    a.download = fileName;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+  }
+
+  async function nativeShareFile(file, text) {
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      try {
+        await navigator.share({ files: [file], text: text, title: "axomexam Result" });
+        return true;
+      } catch (err) {
+        if (err && err.name === "AbortError") return true;
+      }
+    }
+    return false;
+  }
+
+  async function copyShareLink(url) {
+    try {
+      await navigator.clipboard.writeText(url);
+      toast(t("share.linkCopied"));
+    } catch (e) {
+      const ta = document.createElement("textarea");
+      ta.value = url;
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand("copy"); toast(t("share.linkCopied")); } catch (e2) {}
+      ta.remove();
+    }
+  }
+
+  function openMockShareModal() {
+    const S = buildShareSummary();
+    if (!S) return;
+    const existing = $("#share-modal");
+    if (existing) existing.remove();
+
+    const modal = document.createElement("div");
+    modal.id = "share-modal";
+    modal.className = "read-modal share-modal";
+    modal.innerHTML =
+      '<div class="read-modal-backdrop"></div>' +
+      '<div class="read-modal-box" role="dialog" aria-modal="true">' +
+        '<div class="read-modal-head">' +
+          '<div class="read-modal-titles">' +
+            '<span class="read-modal-title" id="share-modal-title">' + escapeHtml(t("share.title")) + '</span>' +
+            '<span class="read-modal-sub" id="share-modal-sub">' + escapeHtml(t("share.subtitle")) + '</span>' +
+          '</div>' +
+          '<button class="read-close" id="share-close" type="button" aria-label="Close">✕</button>' +
+        '</div>' +
+        '<div class="read-modal-body" id="share-body">' +
+          '<form class="share-form" id="share-form" novalidate>' +
+            '<div>' +
+              '<label for="share-name">' + escapeHtml(t("share.nameLabel")) + '</label>' +
+              '<input type="text" id="share-name" maxlength="40" autocomplete="name" placeholder="' + escapeHtml(t("share.namePlaceholder")) + '" />' +
+            '</div>' +
+            '<div>' +
+              '<label>' + escapeHtml(t("share.photoLabel")) + '</label>' +
+              '<div class="share-photo-row">' +
+                '<div class="share-photo-preview" id="share-photo-preview">' + svgAvatarPlaceholder() + '</div>' +
+                '<div class="share-photo-actions">' +
+                  '<label class="share-file-btn" for="share-photo-input">' + svgCamera() + ' ' + escapeHtml(t("share.photoChoose")) + '</label>' +
+                  '<input type="file" id="share-photo-input" accept="image/*" hidden />' +
+                  '<button type="button" class="share-photo-remove" id="share-photo-remove" hidden>' + escapeHtml(t("share.photoRemove")) + '</button>' +
+                '</div>' +
+              '</div>' +
+            '</div>' +
+            '<div style="display:flex; gap:10px; margin-top:6px;">' +
+              '<button type="button" class="btn btn-outline" id="share-cancel">' + escapeHtml(t("share.cancel")) + '</button>' +
+              '<button type="submit" class="btn btn-primary" id="share-generate">' + escapeHtml(t("share.generate")) + '</button>' +
+            '</div>' +
+          '</form>' +
+        '</div>' +
+      '</div>';
+    document.body.appendChild(modal);
+
+    let photoData = "";
+    const close = () => modal.remove();
+    $("#share-close", modal).addEventListener("click", close);
+    $(".read-modal-backdrop", modal).addEventListener("click", close);
+    $("#share-cancel", modal).addEventListener("click", close);
+
+    const photoInput = $("#share-photo-input", modal);
+    const photoPreview = $("#share-photo-preview", modal);
+    const photoRemove = $("#share-photo-remove", modal);
+    photoInput.addEventListener("change", () => {
+      const file = photoInput.files && photoInput.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        photoData = String(reader.result || "");
+        photoPreview.innerHTML = '<img src="' + photoData + '" alt="" />';
+        photoRemove.hidden = false;
+      };
+      reader.readAsDataURL(file);
+    });
+    photoRemove.addEventListener("click", () => {
+      photoData = "";
+      photoInput.value = "";
+      photoPreview.innerHTML = svgAvatarPlaceholder();
+      photoRemove.hidden = true;
+    });
+
+    $("#share-form", modal).addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const nameInput = $("#share-name", modal);
+      const name = (nameInput.value || "").trim();
+      if (!name) { toast(t("share.nameRequired")); nameInput.focus(); return; }
+      const genBtn = $("#share-generate", modal);
+      genBtn.disabled = true;
+      genBtn.textContent = t("share.generating");
+      let dataUrl = "";
+      try {
+        dataUrl = await generateReportImage(S, name, photoData);
+      } catch (err) {
+        console.error("Report card generation failed:", err);
+        genBtn.disabled = false;
+        genBtn.textContent = t("share.generate");
+        toast(t("share.error"));
+        return;
+      }
+      showSharePreview(modal, { S, name, dataUrl });
+    });
+  }
+
+  function showSharePreview(modal, payload) {
+    const S = payload.S;
+    const dataUrl = payload.dataUrl;
+    const text = shareTextFor(S);
+    const fileName = "axomexam-report-" + S.pct + "percent.png";
+    const body = $("#share-body", modal);
+    if (!body) return;
+
+    const target = (cls, kind, i18nKey, icon) =>
+      '<button type="button" class="share-target ' + cls + '" data-share="' + kind + '">' + icon + '<span>' + escapeHtml(t(i18nKey)) + '</span></button>';
+
+    body.innerHTML =
+      '<img class="share-preview-img" src="' + dataUrl + '" alt="' + escapeHtml(t("share.previewTitle")) + '" />' +
+      '<div class="share-targets">' +
+        target("wa", "whatsapp", "share.whatsapp", svgWhatsapp()) +
+        target("fb", "facebook", "share.facebook", svgFacebook()) +
+        target("tg", "telegram", "share.telegram", svgTelegram()) +
+        target("tw", "twitter", "share.twitter", svgTwitter()) +
+        target("more", "more", "share.more", svgMoreApps()) +
+        target("dl", "dl", "share.download", svgDownload()) +
+        target("copy", "copy", "share.copy", svgCopy()) +
+      '</div>' +
+      '<button type="button" class="btn btn-outline" id="share-back" style="width:100%;">← ' + escapeHtml(t("share.back")) + '</button>';
+
+    const titleEl = $("#share-modal-title", modal);
+    if (titleEl) titleEl.textContent = t("share.previewTitle");
+    const subEl = $("#share-modal-sub", modal);
+    if (subEl) subEl.textContent = t("share.shareNow");
+
+    const file = dataUrlToBlob(dataUrl);
+    const canFiles = !!(navigator.canShare && navigator.canShare({ files: [file] }));
+
+    $("#share-back", modal).addEventListener("click", () => {
+      modal.remove();
+      openMockShareModal();
+    });
+
+    $$("[data-share]", modal).forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const kind = btn.dataset.share;
+        const enc = encodeURIComponent;
+        if (kind === "whatsapp") {
+          triggerDownload(dataUrl, fileName);
+          toast(t("share.imageSaved"));
+          window.open("https://wa.me/?text=" + enc(text), "_blank");
+        } else if (kind === "facebook") {
+          triggerDownload(dataUrl, fileName);
+          toast(t("share.imageSaved"));
+          window.open("https://www.facebook.com/sharer/sharer.php?u=" + enc(S.url) + "&quote=" + enc(text), "_blank");
+        } else if (kind === "telegram") {
+          triggerDownload(dataUrl, fileName);
+          toast(t("share.imageSaved"));
+          window.open("https://t.me/share/url?url=" + enc(S.url) + "&text=" + enc(text), "_blank");
+        } else if (kind === "twitter") {
+          triggerDownload(dataUrl, fileName);
+          toast(t("share.imageSaved"));
+          window.open("https://twitter.com/intent/tweet?url=" + enc(S.url) + "&text=" + enc(text), "_blank");
+        } else if (kind === "more") {
+          if (canFiles) { if (await nativeShareFile(file, text)) return; }
+          triggerDownload(dataUrl, fileName);
+          await copyShareLink(text);
+        } else if (kind === "dl") {
+          triggerDownload(dataUrl, fileName);
+          toast(t("share.downloaded"));
+        } else if (kind === "copy") {
+          await copyShareLink(text);
+        }
+      });
+    });
   }
 
   /* ================= Extra trending topics ================= */
