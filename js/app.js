@@ -989,7 +989,7 @@
       m.content = desc;
 
       let p = window.location.pathname;
-      if (p.length > 1 && p.endsWith("/")) p = p.slice(0, -1);
+      if (!p.endsWith("/")) p += "/";
       const link = document.querySelector('link[rel="canonical"]');
       if (link) link.href = window.location.origin + p;
     } catch (e) { }

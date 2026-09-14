@@ -37,7 +37,7 @@ const BASE = "https://axomexam.in";
 const SITE_NAME = "axomexam";
 const SITE_TAGLINE =
   "Free bilingual (Assamese & English) Q&A and PDF notes for competitive exams in Assam.";
-const VERSION = "20260910c";
+const VERSION = "20260914a";
 const OG_ALT =
   "axomexam - Assam Exam Preparation - Mock Tests, Previous Papers & PDF Notes";
 
@@ -418,8 +418,12 @@ for (const tp of trendingTopics) {
 
 /* ================= page shell ================= */
 
-function shellHTML({ route, title, description, canonical, keywords, ogImageAlt, body }) {
-  const canonicalUrl = canonical || BASE + route;
+function shellHTML({ route, title, description, canonical, keywords, ogImageAlt, robots, body }) {
+  const rawCanonical = canonical || BASE + route;
+  /* GitHub Pages serves directory routes with a trailing slash and 301s the
+     slash-less variant, so the canonical must match the final URL. */
+  const canonicalUrl = rawCanonical.endsWith("/") ? rawCanonical : rawCanonical + "/";
+  const robotsContent = robots || "index, follow";
   const ogTitle = escapeHtml(title);
   const ogDesc = escapeHtml(description);
   return `<!DOCTYPE html>
@@ -428,7 +432,7 @@ function shellHTML({ route, title, description, canonical, keywords, ogImageAlt,
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="${ogDesc}" />
-  <meta name="robots" content="index, follow" />
+  <meta name="robots" content="${robotsContent}" />
   ${keywords ? `<meta name="keywords" content="${escapeHtml(keywords)}" />` : ""}
   <meta name="theme-color" content="#4f46e5" />
   <title>${ogTitle}</title>
@@ -462,6 +466,7 @@ function shellHTML({ route, title, description, canonical, keywords, ogImageAlt,
   <link rel="icon" href="/favicon.ico" sizes="any" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.webmanifest" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -612,10 +617,11 @@ ${body}
         <div>
           <h4 data-i18n="footer.exam">Exams</h4>
           <ul>
-            <li><a href="/category/gk">APSC</a></li>
-            <li><a href="/category/math">Assam Police</a></li>
-            <li><a href="/category/science">SSC & Railway</a></li>
-            <li><a href="/category/reasoning">DME / DTE</a></li>
+            <li><a href="/previous-year/ssc/">SSC</a></li>
+            <li><a href="/previous-year/railway/">Railway</a></li>
+            <li><a href="/previous-year/assam-police/">Assam Police</a></li>
+            <li><a href="/previous-year/guwahati-hc/">Guwahati High Court</a></li>
+            <li><a href="/previous-year/dhs-dme/">DHS / DME</a></li>
           </ul>
         </div>
         <div>
@@ -785,8 +791,9 @@ function buildHome() {
   const catCards = categories
     .map((c) => {
       const count = topicIndex.filter((r) => r.cat.id === c.id).length;
+      const metaLabel = c.id === "articles" ? "Study Articles" : `${count} ${count === 1 ? "Topic" : "Topics"}`;
       return `<a class="cat-card reveal" href="/category/${c.id}" style="--cat:${c.color || "#4f46e5"}">
-        <span class="cat-meta"><b>${escapeHtml(loc(c.name))}</b><span>${count} Topics</span></span>
+        <span class="cat-meta"><b>${escapeHtml(loc(c.name))}</b><span>${metaLabel}</span></span>
       </a>`;
     })
     .join("");
@@ -1510,12 +1517,15 @@ function buildStaticPage(key) {
     `<section class="section" style="padding-bottom:40px;">
       <div style="max-width:840px; margin:0 auto; line-height:1.8; color:#334155;">${page.content}</div>
     </section>`;
+  const isNoindex = key === "search" || key === "privacy-policy";
+  const canonicalRoute = key === "privacy-policy" ? "/privacy" : route;
   return {
     html: shellHTML({
       route,
       title: `${page.title} | axomexam`,
       description: `${page.title} for axomexam.in — free competitive exam preparation for Assam.`,
-      canonical: `${BASE}${route}`,
+      canonical: `${BASE}${canonicalRoute}`,
+      robots: isNoindex ? "noindex, follow" : undefined,
       body,
     }),
     jsonld: "",
@@ -1541,8 +1551,9 @@ function addPage(route, page) {
 }
 
 function addSitemap(route, priority, changefreq) {
+  const loc = route === "/" ? "/" : route.replace(/\/+$/, "") + "/";
   sitemapUrls.push(`  <url>
-    <loc>${BASE}${route === "/" ? "/" : route}</loc>
+    <loc>${BASE}${loc}</loc>
     <lastmod>${lastmod}</lastmod>
     <changefreq>${changefreq || "weekly"}</changefreq>
     <priority>${priority || "0.7"}</priority>
@@ -1913,6 +1924,9 @@ function main() {
     addPage(`/previous-year/${exam.id}`, buildPreviousYearYears(exam));
     addSitemap(`/previous-year/${exam.id}`, "0.8", "weekly");
     for (const year of Object.keys(FALLBACK_PYEAR[exam.id] || {}).sort()) {
+      /* Nested exams (e.g. Railway -> RRB NTPC / Group D / ALP) store an
+         object instead of a file array; skip them here rather than crash. */
+      if (!Array.isArray(FALLBACK_PYEAR[exam.id][year])) continue;
       addPage(`/previous-year/${exam.id}/${year}`, buildPreviousYearPapers(exam, year));
       addSitemap(`/previous-year/${exam.id}/${year}`, "0.7", "weekly");
     }
@@ -1939,7 +1953,8 @@ function main() {
   /* Static pages (search is prerendered but kept out of the sitemap) */
   for (const key of ["about", "contact", "privacy", "privacy-policy", "terms", "disclaimer"]) {
     addPage(key === "privacy-policy" ? "/privacy-policy" : `/${key}`, buildStaticPage(key));
-    addSitemap(key === "privacy-policy" ? "/privacy-policy" : `/${key}`, "0.6", "monthly");
+    /* privacy-policy duplicates /privacy, so keep it out of the sitemap */
+    if (key !== "privacy-policy") addSitemap(`/${key}`, "0.6", "monthly");
   }
   addPage("/search", buildStaticPage("search"));
   addPage("/submit", buildStaticPage("submit"));
