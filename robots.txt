@@ -1,10 +1,11 @@
 # ============================================================
 # robots.txt for axomexam.in
-# Optimized for Google Search, AdSense, and Fast Crawling
+# Optimized for Google Search, AdSense, AI search and fast crawling
 # ============================================================
 
 User-agent: *
 Allow: /
+Disallow: /dist/
 
 # Explicit permission for Google AdSense Crawler
 User-agent: Mediapartners-Google
@@ -20,6 +21,31 @@ Allow: /
 
 # Explicit permission for Google Image Crawler
 User-agent: Googlebot-Image
+Allow: /
+
+# AI / LLM crawlers - allowed so axomexam content can be cited in AI answers
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
 Allow: /
 
 # Sitemap Location

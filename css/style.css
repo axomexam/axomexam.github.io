@@ -1823,3 +1823,8 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   .appdl-logo { width: 82px; height: 82px; border-radius: 20px; }
   .appdl-title { font-size: 1.35rem; }
 }
+/* No-JS fallback heading (rendered only inside <noscript>) */
+.nojs-title {
+  font-size: 1.5rem; font-weight: 800; line-height: 1.3;
+  color: var(--ink, #0f172a); margin: 0 0 10px;
+}

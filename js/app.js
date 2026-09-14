@@ -84,6 +84,139 @@
     return obj[l] || obj.en || obj.as || "";
   }
 
+  /* ================= Deep content for thin hub pages =================
+     These blurbs describe the real scope of each subject. They are
+     combined with live data (topic names + real question counts) so that
+     every category, mock-test and previous-year page carries genuine,
+     page-specific study content instead of a bare list of links. */
+  const SUBJECT_INFO = {
+    gk: "General Knowledge carries a large weight in almost every Assam recruitment examination. It combines Assam-specific history, literature, geography, art and culture with Indian polity, history, geography and economics. Because the section is factual and predictable, consistent revision usually converts into a high, reliable score in ADRE, Assam Police and APSC papers.",
+    "assam-history": "Assam History covers the ancient Kamarupa kingdom and its rulers, the medieval Ahom and Koch dynasties, the Burmese invasions and the Treaty of Yandabo, and the colonial and freedom-struggle period. Questions generally test dynasties, capitals, battles, treaties and administrative reforms.",
+    "assam-literature": "Assam Literature spans the pre-Vaishnavite period, Sankaradeva and the Vaishnavite age, the Ahom-era chronicles, and the modern era from Arunodoi to Jonaki. Aspirants are asked about authors, works, literary movements and major awards.",
+    "indian-history": "Indian History covers ancient civilisations, the Mauryas and Guptas, medieval Sultanates and the Mughals, and the modern freedom movement. Questions focus on timelines, personalities, administrative systems and landmark events.",
+    polity: "Political Science covers the Indian Constitution, fundamental rights and duties, the Union and State machinery, panchayati raj, and Assam-specific provisions such as the Sixth Schedule and Article 371B. It is a high-scoring, factual section.",
+    geography: "Geography covers physical, economic and social geography with dedicated blocks on the rivers, hills, climate and resources of Assam, alongside Indian and world geography. Map-based and location questions are common.",
+    economics: "Economics covers basic economic concepts, Indian economic policy and planning, budgeting and banking, along with the agriculture and industry of Assam. Questions are mostly conceptual and current-affairs linked.",
+    "art-culture": "Art and Culture covers the festivals, dance, music, crafts, temples and heritage of Assam and India. Questions test classical dances, musical instruments, festivals, monuments and folk traditions.",
+    math: "Mathematics tests numerical ability and quantitative aptitude and is one of the biggest scoring areas in ADRE, Assam Police, SSC and Railway tests. It brings together arithmetic, advanced math and statistics with data interpretation.",
+    arithmetic: "Arithmetic covers percentages, profit and loss, ratio and proportion, averages, time-speed-distance, time and work, simple and compound interest, and mensuration. These topics carry the largest number of questions in state recruitment papers.",
+    "advanced-math": "Advanced Math covers algebra, geometry, trigonometry, number systems and higher-level problem solving. It is especially useful for APSC, SSC and technical posts.",
+    "statistics-and-data-interpretation": "Statistics and Data Interpretation covers averages, measures of central tendency, tables, bar and pie charts, and line graphs. The focus is on fast calculation and reading data accurately.",
+    science: "General Science covers Physics, Chemistry and Biology at a Class 6 to 10 level, which is the standard followed by Assam government recruitment tests. Questions test everyday science, definitions, units and simple applications.",
+    physics: "Physics covers motion, force, work and energy, gravitation, heat, light, sound, electricity and magnetism, and the basics of modern physics. Units, definitions and simple numericals are frequently asked.",
+    chemistry: "Chemistry covers matter, atoms and molecules, the periodic table, acids and bases, metals and non-metals, and everyday chemistry. Chemical formulae and common reactions are important.",
+    biology: "Biology covers the human body and its systems, nutrition and health, plants, cell biology, ecology and the environment. Health and disease questions are common in Assam Police and ADRE tests.",
+    reasoning: "Reasoning Ability tests logical and analytical thinking through verbal, non-verbal and critical reasoning questions. Because speed and accuracy decide the score, timed practice is essential.",
+    "verbal-reasoning": "Verbal Reasoning covers series, coding-decoding, blood relations, direction sense, analogy and classification. Most questions become quick to solve with regular practice.",
+    "analytical-critical-reasoning": "Analytical and Critical Reasoning covers statements and conclusions, assumptions, syllogism, seating arrangement and puzzles. It rewards careful reading over guesswork.",
+    "non-verbal-reasoning": "Non-Verbal Reasoning covers figure series, mirror and water images, paper folding, embedded figures and pattern completion. Spatial visualisation is the main skill tested.",
+    english: "General English tests grammar, vocabulary, sentence structure and comprehension. It appears in ADRE, Assam Police, SSC and Railway exams and is relatively easy to score with steady revision.",
+    "parts-of-speech": "Parts of Speech covers nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions and interjections, and how each of them functions inside a sentence.",
+    grammar: "Grammar covers tenses, articles, subject-verb agreement, active and passive voice, direct and indirect speech, and common error spotting.",
+    "sentence-structure": "Sentence Structure covers sentence types, phrases and clauses, sentence correction, and paragraph organisation and ordering.",
+    vocabulary: "Vocabulary covers synonyms, antonyms, one-word substitutions, idioms and phrases, and spelling. Regular reading and short word lists help the most.",
+    computer: "Computer Awareness tests the fundamentals of computers, software and operating systems, MS Office, networking and the internet, cyber security, DBMS and number systems. It is a quick-scoring section in ADRE and other state tests.",
+    "fundamentals-hardware": "Computer Fundamentals and Hardware covers input and output devices, memory, storage, the CPU and the generations of computers.",
+    "software-os": "Software and Operating Systems covers types of software, the functions of an operating system, file management, and common Windows and Linux features.",
+    "ms-office-suite": "MS Office Suite covers Microsoft Word, Excel and PowerPoint, including commonly used menu options, shortcuts and formulas.",
+    "networking-internet": "Networking and Internet covers network types and topologies, IP addresses, protocols such as HTTP and FTP, browsers, email and internet services.",
+    "cyber-security": "Cyber Security covers online threats such as viruses, malware, phishing and hacking, along with passwords, encryption and safe internet practices.",
+    "dbms-number-shortcuts": "DBMS, Number System and Shortcuts covers database basics, number system conversions, and keyboard shortcuts with their common uses.",
+    articles: "Articles are long-form, easy-reading study pieces that explain a topic in depth and in simple bilingual language, so you can build conceptual clarity before attempting questions.",
+    "assam-police": "Assam Police previous year papers help you understand the actual question pattern, difficulty level and frequently repeated topics for Sub-Inspector and Constable recruitment conducted by SLPRB.",
+    "dhs-dme": "DHS and DME previous year papers cover the question patterns for Directorate of Health Services and Directorate of Medical Education recruitment in Assam.",
+    "guwahati-hc": "Guwahati High Court previous year papers cover the pattern for Grade III, Grade IV, Steno and related recruitment under the High Court of Assam.",
+    railway: "Railway previous year papers cover NTPB, Group D, ALP and related central railway recruitment patterns, including the computer-based test structure.",
+    ssc: "SSC previous year papers cover CGL, CHSL, MTS and related central government recruitment patterns, useful for candidates preparing for both central and state posts."
+  };
+
+  function subjectInfo(id) {
+    return SUBJECT_INFO[id] || "";
+  }
+
+  function subjectTips(id) {
+    const quant = ["math", "arithmetic", "advanced-math", "statistics-and-data-interpretation", "science", "physics", "chemistry", "biology", "reasoning", "verbal-reasoning", "analytical-critical-reasoning", "non-verbal-reasoning", "computer", "dbms-number-shortcuts"];
+    if (quant.indexOf(id) !== -1) {
+      return [
+        "Revise the basic formulas and concepts of this section before you begin practising.",
+        "Attempt the questions under a timer so that you get used to the speed expected on exam day.",
+        "Read the explanation for every wrong answer and note down exactly why you missed it.",
+        "Return to the same sets after a few days and check whether your accuracy has improved."
+      ];
+    }
+    return [
+      "Read the topic notes once, then attempt the related questions to test your recall.",
+      "Mark the facts you keep forgetting and revise them in short, repeated sessions.",
+      "Practise in both languages so you can recognise the same fact in Assamese and English.",
+      "Review the explanations even for questions you answered correctly to strengthen retention."
+    ];
+  }
+
+  function seoFaqBlockHTML(spec) {
+    const info = spec.info || "";
+    const items = spec.items || [];
+    const tips = spec.tips || [];
+    const faqs = spec.faqs || [];
+    const listHTML = items.length
+      ? `<h3 style="color:var(--ink,#0f172a); margin-top:22px;">${escapeHtml("What is covered here")}</h3><ul style="margin:8px 0 0 20px; line-height:1.9;">${items.map((it) => `<li><strong>${escapeHtml(it.name)}</strong>${it.count ? ` &mdash; ${it.count} questions` : ""}</li>`).join("")}</ul>`
+      : "";
+    const tipsHTML = tips.length
+      ? `<h3 style="color:var(--ink,#0f172a); margin-top:22px;">${escapeHtml("How to prepare " + (spec.name || ""))}</h3><ul style="margin:8px 0 0 20px; line-height:1.9;">${tips.map((x) => `<li>${escapeHtml(x)}</li>`).join("")}</ul>`
+      : "";
+    const faqHTML = faqs.length
+      ? `<h3 style="color:var(--ink,#0f172a); margin-top:24px;">${escapeHtml("Frequently Asked Questions")}</h3><div class="seo-faq">${faqs.map((f) => `<details style="border-bottom:1px solid var(--border,#e2e8f0); padding:12px 0;"><summary style="cursor:pointer; font-weight:700; color:var(--ink,#0f172a);">${escapeHtml(f.q)}</summary><p style="margin:8px 0 0;">${escapeHtml(f.a)}</p></details>`).join("")}</div>`
+      : "";
+    return `
+      <section class="section seo-deep" style="padding-bottom:48px;">
+        <div class="info-panel" style="background:var(--bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:18px; padding:28px 24px; line-height:1.8; color:var(--ink-soft,#475569); max-width:900px; margin:0 auto; text-align:left;">
+          <h2 style="margin-top:0; color:var(--ink,#0f172a);">${escapeHtml(spec.h2 || spec.name || "")}</h2>
+          ${info ? `<p>${escapeHtml(info)}</p>` : ""}
+          ${listHTML}
+          ${tipsHTML}
+          ${faqHTML}
+        </div>
+      </section>`;
+  }
+
+  function appendSeoFaq(main, spec) {
+    if (!main || !spec) return;
+    const tmp = document.createElement("div");
+    tmp.innerHTML = seoFaqBlockHTML(spec);
+    if (tmp.firstElementChild) main.appendChild(tmp.firstElementChild);
+  }
+
+  function autoSeo(main, o) {
+    const name = o.name || "";
+    const info = o.info || subjectInfo(o.id) || "";
+    const faqs = (o.faqs || []).slice();
+    const count = o.count || 0;
+    const total = o.total || 0;
+    if (!o.noDefaults) {
+      faqs.push({
+        q: "Is " + name + " available for free on axomexam?",
+        a: "Yes. Every mock test, question bank, explanation and PDF note on axomexam.in is completely free. There is no login, subscription or hidden charge."
+      });
+      faqs.push({
+        q: "Can I study " + name + " in Assamese as well as English?",
+        a: "Yes. Questions and explanations are bilingual. You can switch between Assamese and English while reading so the same concept is reinforced in both languages."
+      });
+      if (count > 0) {
+        faqs.push({
+          q: "How much material is available for " + name + "?",
+          a: "This section currently offers " + count + " topics" + (total > 0 ? " with around " + total + " questions" : "") + " and is updated regularly as new questions are added."
+        });
+      }
+    }
+    appendSeoFaq(main, {
+      h2: o.h2 || (name + " - Overview"),
+      name: name,
+      info: info,
+      items: o.items || [],
+      tips: o.tips || subjectTips(o.id),
+      faqs: faqs
+    });
+  }
+
   /* ================= Math & Formula Formatter ================= */
   function formatMath(str) {
     if (str == null) return "";
@@ -1027,6 +1160,41 @@
           </div>
           <button id="seo-read-more-btn" type="button" style="margin-top:14px; padding:8px 18px; border-radius:99px; font-weight:800; font-size:0.85rem; cursor:pointer; color:var(--primary,#2563eb); background:var(--primary-soft,#eff6ff); border:1px solid var(--border,#cbd5e1);">Read More</button>
         </div>
+      </section>
+
+      <section class="section" style="padding-bottom:40px;">
+        <div class="section-head reveal">
+          <div>
+            <h2>Frequently Asked Questions</h2>
+            <p class="sec-sub">Everything you need to know about practising on axomexam</p>
+          </div>
+        </div>
+        <div style="max-width:860px; margin:0 auto; text-align:left;">
+          <details style="border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:16px 20px; margin-bottom:12px; background:var(--card-bg,#fff);">
+            <summary style="cursor:pointer; font-weight:700; color:var(--ink,#0f172a);">Is axomexam free to use?</summary>
+            <p style="margin:10px 0 0; color:var(--ink-soft,#334155); line-height:1.8;">Yes. axomexam is completely free. All mock tests, previous year solved papers and PDF notes are available without registration or payment.</p>
+          </details>
+          <details style="border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:16px 20px; margin-bottom:12px; background:var(--card-bg,#fff);">
+            <summary style="cursor:pointer; font-weight:700; color:var(--ink,#0f172a);">Which exams does axomexam cover?</summary>
+            <p style="margin:10px 0 0; color:var(--ink-soft,#334155); line-height:1.8;">axomexam covers Assam state exams such as ADRE (Assam Direct Recruitment Examination), APSC, Assam Police / SLPRB, DHS and DME/DTE, as well as central exams including SSC (CGL, CHSL, GD) and Railway (RRB NTPC, Group D).</p>
+          </details>
+          <details style="border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:16px 20px; margin-bottom:12px; background:var(--card-bg,#fff);">
+            <summary style="cursor:pointer; font-weight:700; color:var(--ink,#0f172a);">Are the questions available in Assamese as well as English?</summary>
+            <p style="margin:10px 0 0; color:var(--ink-soft,#334155); line-height:1.8;">Yes. Every question, answer and explanation on axomexam is bilingual, so you can practise in both Assamese and English.</p>
+          </details>
+          <details style="border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:16px 20px; margin-bottom:12px; background:var(--card-bg,#fff);">
+            <summary style="cursor:pointer; font-weight:700; color:var(--ink,#0f172a);">Does axomexam provide timed mock tests?</summary>
+            <p style="margin:10px 0 0; color:var(--ink-soft,#334155); line-height:1.8;">Yes. axomexam mock tests run on a live timer and follow the real exam pattern, with instant results and answer explanations.</p>
+          </details>
+          <details style="border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:16px 20px; margin-bottom:12px; background:var(--card-bg,#fff);">
+            <summary style="cursor:pointer; font-weight:700; color:var(--ink,#0f172a);">Can I download PDF notes and previous year papers?</summary>
+            <p style="margin:10px 0 0; color:var(--ink-soft,#334155); line-height:1.8;">Yes. PDF study notes, e-books and previous year solved papers can be downloaded for offline practice.</p>
+          </details>
+          <details style="border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:16px 20px; margin-bottom:12px; background:var(--card-bg,#fff);">
+            <summary style="cursor:pointer; font-weight:700; color:var(--ink,#0f172a);">Do I need an account to practise on axomexam?</summary>
+            <p style="margin:10px 0 0; color:var(--ink-soft,#334155); line-height:1.8;">No. You can start practising mock tests and questions immediately without creating an account.</p>
+          </details>
+        </div>
       </section>`;
 
     const seoBtn = $("#seo-read-more-btn");
@@ -1119,6 +1287,20 @@
         : (directTopics.length ? topicListHTML(cat, null, null, directTopics) : emptyHTML())}
       </section>`;
     observeReveals();
+    const catRecs = state.topicIndex.filter((r) => r.cat && r.cat.id === cat.id);
+    const catQuestions = catRecs.reduce((a, r) => a + (r.nQuestions || 0), 0);
+    const catItems = subs.map((s) => ({
+      name: localized(s.name),
+      count: (s.sections && s.sections.length) || (s.topics && s.topics.length) || 0
+    }));
+    autoSeo(main, {
+      id: cat.id,
+      name: localized(cat.name),
+      count: subs.length,
+      total: catQuestions,
+      h2: localized(cat.name) + " preparation for Assam exams",
+      items: catItems
+    });
   }
 
   function renderSubOrSection(main, segs) {
@@ -1169,6 +1351,20 @@
           </div>` : (topics && topics.length ? topicListHTML(cat, sub, null, topics) : emptyHTML())}
       </section>`;
     observeReveals();
+    const subRecs = state.topicIndex.filter((r) => r.cat && r.cat.id === cat.id && r.sub && r.sub.id === sub.id);
+    const subQuestions = subRecs.reduce((a, r) => a + (r.nQuestions || 0), 0);
+    const subItems = (secs && secs.length ? secs : (topics || [])).map((s) => ({
+      name: localized(s.name),
+      count: (s.topics && s.topics.length) || 0
+    }));
+    autoSeo(main, {
+      id: sub.id,
+      name: localized(sub.name),
+      count: subItems.length,
+      total: subQuestions,
+      h2: localized(sub.name) + " - topics and practice questions",
+      items: subItems
+    });
   }
 
   function renderSectionPage(main, cat, sub, sec) {
@@ -1189,6 +1385,16 @@
         ${topicListHTML(cat, sub, sec, sec.topics || [])}
       </section>`;
     observeReveals();
+    const secRecs = state.topicIndex.filter((r) => r.cat && r.cat.id === cat.id && r.sub && r.sub.id === sub.id && r.section && r.section.id === sec.id);
+    const secQuestions = secRecs.reduce((a, r) => a + (r.nQuestions || 0), 0);
+    autoSeo(main, {
+      id: sec.id,
+      name: localized(sec.name),
+      count: (sec.topics || []).length,
+      total: secQuestions,
+      h2: localized(sec.name) + " - practice questions and revision",
+      items: (sec.topics || []).map((tp) => ({ name: localized(tp.name), count: (state.topicMap[[cat.id, sub.id, sec.id, tp.id].join("/")] || {}).nQuestions || 0 }))
+    });
   }
 
   function topicListHTML(cat, sub, sec, topics) {
@@ -2917,6 +3123,13 @@
         </div>
       </section>`;
     observeReveals();
+    autoSeo(main, {
+      id: exam.id,
+      name: localized(exam.name) + " Previous Year Papers",
+      count: children.length,
+      h2: localized(exam.name) + " Previous Year Question Papers",
+      items: children.map((c) => ({ name: localized(c.name), count: 0 }))
+    });
   }
 
   function renderPreviousYearExams(main) {
@@ -2942,6 +3155,24 @@
           </div>` : `<div class="info-panel"><p>${t("downloads.none")}</p></div>`}
       </section>`;
     observeReveals();
+    autoSeo(main, {
+      name: "Previous Year Question Papers",
+      noDefaults: true,
+      h2: "Previous Year Question Papers for Assam and Central Exams",
+      info: "Solving previous year papers is the fastest way to understand the real difficulty of an examination. On this page you can download original question papers year by year for Assam Police, DHS and DME, Guwahati High Court, Railway and SSC recruitment. Use them to identify repeated topics, judge the weight of each section and plan your revision with evidence rather than guesswork.",
+      items: exams.map((ex) => ({ name: localized(ex.name), count: 0 })),
+      tips: [
+        "Attempt the paper once under a timer without looking at any notes.",
+        "Compare your answers with the official key and list every repeated topic.",
+        "Shortlist the two or three sections where you lost the most marks.",
+        "Reattempt the same paper after two weeks to confirm real improvement."
+      ],
+      faqs: [
+        { q: "Are these the original previous year question papers?", a: "Yes. Each PDF is a compiled question paper for the mentioned exam and year, provided for practice and revision." },
+        { q: "Can I download the papers for offline practice?", a: "Yes. Every paper can be downloaded as a PDF and used on a mobile or printed copy for offline practice." },
+        { q: "Do previous year papers repeat in the actual exam?", a: "Exact questions rarely repeat, but the topics, difficulty level and question style repeat often. That is why solving them is so useful." }
+      ]
+    });
   }
 
   function renderPreviousYearYears(main, exam, years, parent) {
@@ -2973,6 +3204,13 @@
           </div>` : `<div class="info-panel"><p>${t("pyear.noYears")}</p></div>`}
       </section>`;
     observeReveals();
+    autoSeo(main, {
+      id: exam.id,
+      name: localized(exam.name) + " previous year papers",
+      count: years.length,
+      h2: localized(exam.name) + " Previous Year Papers by Year",
+      items: years.map((yr) => ({ name: String(yr), count: 0 }))
+    });
   }
 
   function renderPreviousYearPapers(main, exam, year, files, parent) {
@@ -3002,6 +3240,17 @@
       <section class="section" style="padding-bottom:44px;">
         ${files.length ? `<div class="dl-list">${files.map(card).join("")}</div>` : `<div class="info-panel"><p>${t("pyear.none")}</p></div>`}
       </section>`;
+    autoSeo(main, {
+      id: exam.id,
+      name: localized(exam.name) + " " + year + " question paper",
+      count: files.length,
+      h2: localized(exam.name) + " " + year + " Question Paper",
+      items: files.map((f) => ({ name: f.name.replace(/\.pdf$/i, "").replace(/[-_]+/g, " "), count: 0 })),
+      faqs: [
+        { q: "Is the " + localized(exam.name) + " " + year + " paper a solved or unsolved paper?", a: "The PDF contains the question paper for practice. Attempt it first, then cross-check your answers with the relevant answer key or study notes on axomexam.in." },
+        { q: "Can I download the " + localized(exam.name) + " " + year + " paper?", a: "Yes. Use the download button beside the paper to save the PDF for offline practice." }
+      ]
+    });
   }
 
   /* ================= Submit Q&A page ================= */
@@ -3438,6 +3687,24 @@
         </div>
       </section>`;
     observeReveals();
+    autoSeo(main, {
+      name: "Mock Tests",
+      noDefaults: true,
+      h2: "Timed Mock Tests for Assam Competitive Exams",
+      info: "Each mock test on axomexam.in works like the real examination. A live timer runs while you attempt the questions, your score is calculated instantly, and every question is followed by a clear bilingual explanation. The sets are arranged subject-wise and paper-wise so you can practise exactly the section you are preparing for.",
+      items: mockCategories.map((c) => ({ name: localized(c.name), count: countTopics(c) })),
+      tips: [
+        "Start with the subject you find hardest, so you have the most time to improve it.",
+        "Attempt one full set under the timer before checking any answer.",
+        "Maintain an error log of every wrong answer and revise it weekly.",
+        "Increase the number of questions gradually once your accuracy is stable."
+      ],
+      faqs: [
+        { q: "How does the online mock test work?", a: "Choose a subject, pick a paper and attempt the questions within the timer. Once you submit, you immediately see your score along with the correct answers and explanations." },
+        { q: "Can I attempt the mock tests more than once?", a: "Yes. All mock tests are unlimited. You can reattempt any set as many times as you like at no cost." },
+        { q: "Are the mock tests suitable for ADRE and Assam Police?", a: "Yes. The subjects and question patterns follow the syllabus of ADRE 2.0, Assam Police, APSC, Gauhati High Court, SSC and Railway recruitment exams." }
+      ]
+    });
   }
 
   function renderMockSubcategoryPicker(main, cat) {
@@ -3465,6 +3732,15 @@
         </div>
       </section>`;
     observeReveals();
+    const mSubRecs = state.topicIndex.filter((r) => r.cat && r.cat.id === cat.id);
+    autoSeo(main, {
+      id: cat.id,
+      name: localized(cat.name) + " Mock Test",
+      count: subs.length,
+      total: mSubRecs.reduce((a, r) => a + (r.nQuestions || 0), 0),
+      h2: localized(cat.name) + " Mock Tests with Answers",
+      items: subs.map((s) => ({ name: localized(s.name), count: 0 }))
+    });
   }
 
   function renderMockSectionPicker(main, cat, sub) {
@@ -3493,6 +3769,13 @@
         </div>
       </section>`;
     observeReveals();
+    autoSeo(main, {
+      id: sub.id,
+      name: localized(sub.name) + " Mock Test",
+      count: secs.length,
+      h2: localized(sub.name) + " Mock Test - " + localized(cat.name),
+      items: secs.map((s) => ({ name: localized(s.name), count: (s.topics || []).length }))
+    });
   }
 
   function renderMockTopicPicker(main, cat, sub, sec) {
@@ -3522,6 +3805,13 @@
         </div>
       </section>`;
     observeReveals();
+    autoSeo(main, {
+      id: sec.id,
+      name: localized(sec.name) + " Mock Test",
+      count: topics.length,
+      h2: localized(sec.name) + " Mock Test Questions",
+      items: topics.map((tp) => ({ name: localized(tp.name), count: 0 }))
+    });
   }
 
   /* ================= Manual JSON Mock Test Sets ================= */
