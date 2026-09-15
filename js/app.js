@@ -158,7 +158,7 @@
     const tips = spec.tips || [];
     const faqs = spec.faqs || [];
     const listHTML = items.length
-      ? `<h3 style="color:var(--ink,#0f172a); margin-top:22px;">${escapeHtml("What is covered here")}</h3><ul style="margin:8px 0 0 20px; line-height:1.9;">${items.map((it) => `<li><strong>${escapeHtml(it.name)}</strong>${it.count ? ` &mdash; ${it.count} topics` : ""}</li>`).join("")}</ul>`
+      ? `<h3 style="color:var(--ink,#0f172a); margin-top:22px;">${escapeHtml("What is covered here")}</h3><ul style="margin:8px 0 0 20px; line-height:1.9;">${items.map((it) => `<li><strong>${escapeHtml(it.name)}</strong>${it.count ? ` &mdash; ${it.count} ${escapeHtml(it.unit || "topics")}` : ""}</li>`).join("")}</ul>`
       : "";
     const tipsHTML = tips.length
       ? `<h3 style="color:var(--ink,#0f172a); margin-top:22px;">${escapeHtml("How to prepare " + (spec.name || ""))}</h3><ul style="margin:8px 0 0 20px; line-height:1.9;">${tips.map((x) => `<li>${escapeHtml(x)}</li>`).join("")}</ul>`
@@ -1393,7 +1393,7 @@
       count: (sec.topics || []).length,
       total: secQuestions,
       h2: localized(sec.name) + " - practice questions and revision",
-      items: (sec.topics || []).map((tp) => ({ name: localized(tp.name), count: (state.topicMap[[cat.id, sub.id, sec.id, tp.id].join("/")] || {}).nQuestions || 0 }))
+      items: (sec.topics || []).map((tp) => ({ name: localized(tp.name), count: (state.topicMap[[cat.id, sub.id, sec.id, tp.id].join("/")] || {}).nQuestions || 0, unit: "questions" }))
     });
   }
 
