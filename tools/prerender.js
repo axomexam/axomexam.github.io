@@ -223,9 +223,48 @@ function contentFilesForCategory(catId) {
   return map;
 }
 
+/* Content files come in two shapes:
+     1) canonical bilingual: { title:{en,as}, description:{en,as}, tags:[...],
+        questions:[{ q:{en,as}, a:{en,as}, ... }] }
+     2) legacy flat: { title:"...", questions:[{ question_en, question_as,
+        answer_en, answer_as }] }
+   Normalise both into the canonical shape so every topic renders its
+   questions (and bilingual metadata) regardless of file age. */
+function normalizeQuestion(q) {
+  if (!q || typeof q !== "object") return q;
+  const pickEn = (v) => {
+    if (typeof v === "string") return v.trim() ? v : "";
+    if (v && typeof v === "object" && typeof v.en === "string") return v.en;
+    return "";
+  };
+  const pickAs = (v) => {
+    if (v && typeof v === "object" && typeof v.as === "string") return v.as;
+    return "";
+  };
+  const asString = (v) => (typeof v === "string" ? v : "");
+  const out = Object.assign({}, q);
+  out.q = {
+    en: pickEn(q.q) || asString(q.question_en),
+    as: pickAs(q.q) || asString(q.question_as),
+  };
+  out.a = {
+    en: pickEn(q.a) || asString(q.answer_en) || asString(q.answer),
+    as: pickAs(q.a) || asString(q.answer_as),
+  };
+  return out;
+}
+
+function normalizeTopicContent(data) {
+  if (!data || typeof data !== "object") return data;
+  const out = Object.assign({}, data);
+  if (Array.isArray(data.questions)) out.questions = data.questions.map(normalizeQuestion);
+  if (out.title == null && data.name != null) out.title = data.name;
+  return out;
+}
+
 function readTopicContent(catId, topicId) {
   const map = contentFilesForCategory(catId);
-  if (map[topicId]) return readJSON(map[topicId]);
+  if (map[topicId]) return normalizeTopicContent(readJSON(map[topicId]));
   return null;
 }
 
@@ -418,7 +457,7 @@ for (const tp of trendingTopics) {
 
 /* ================= page shell ================= */
 
-function shellHTML({ route, title, description, canonical, keywords, ogImageAlt, robots, body }) {
+function shellHTML({ route, title, description, descriptionAs, canonical, keywords, keywordsAs, ogImageAlt, robots, body }) {
   const rawCanonical = canonical || BASE + route;
   /* GitHub Pages serves directory routes with a trailing slash and 301s the
      slash-less variant, so the canonical must match the final URL. */
@@ -426,19 +465,40 @@ function shellHTML({ route, title, description, canonical, keywords, ogImageAlt,
   const robotsContent = robots || "index, follow";
   const ogTitle = escapeHtml(title);
   const ogDesc = escapeHtml(description);
+  const ogDescAs = descriptionAs ? escapeHtml(descriptionAs) : "";
+  /* Page-level node: tells Google/Bing (and AI crawlers) the page is
+     bilingual. hreflang is intentionally NOT used here because every page
+     serves both languages on one URL; on a single URL hreflang would just
+     point back to itself and be ignored, so the correct signals are
+     <html lang>, og:locale:alternate and schema inLanguage. */
+  const webpageJSONLD = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": canonicalUrl + "#webpage",
+    url: canonicalUrl,
+    name: title,
+    inLanguage: ["en", "as"],
+    isPartOf: { "@type": "WebSite", "@id": BASE + "/#website", url: BASE + "/", name: SITE_NAME },
+  }).replace(/</g, "\\u003c");
+  const allKeywords = keywordsAs ? [keywords, keywordsAs].filter(Boolean).join(", ") : keywords;
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="${ogDesc}" />
+  ${ogDescAs ? `<meta name="description" lang="as" content="${ogDescAs}" />` : ""}
   <meta name="robots" content="${robotsContent}" />
-  ${keywords ? `<meta name="keywords" content="${escapeHtml(keywords)}" />` : ""}
+  ${allKeywords ? `<meta name="keywords" content="${escapeHtml(allKeywords)}" />` : ""}
+  ${keywordsAs ? `<meta name="keywords" lang="as" content="${escapeHtml(keywordsAs)}" />` : ""}
   <meta name="theme-color" content="#4f46e5" />
   <title>${ogTitle}</title>
 
   <!-- Canonical URL (unique per page) -->
   <link rel="canonical" href="${canonicalUrl}" />
+
+  <!-- Bilingual page graph (English + Assamese) -->
+  <script type="application/ld+json">${webpageJSONLD}</script>
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
@@ -456,6 +516,8 @@ function shellHTML({ route, title, description, canonical, keywords, ogImageAlt,
   <meta property="og:image:alt" content="${escapeHtml(ogImageAlt || OG_ALT)}" />
 
   <meta property="og:locale" content="en_IN" />
+  <meta property="og:locale:alternate" content="as_IN" />
+
 
   <meta name="twitter:image" content="${BASE}/og-image.png" />
 
@@ -740,13 +802,13 @@ function topicQuestionsHTML(rec) {
       const aAs = (q.a && q.a.as) || (q.answer && q.answer.as);
       const figOpts = figOptionsHTML(q);
       const options = Array.isArray(q.options) ? q.options : null;
-      return `<div class="qa-item" style="margin-bottom:22px;">
-        <div style="font-weight:800; font-size:1.02rem; line-height:1.5; margin-bottom:6px;">Q${i + 1}. ${escapeHtml(String(qEn))}</div>
-        ${qAs ? `<div style="color:#64748b; font-size:0.9rem; line-height:1.6; margin-bottom:8px;">${escapeHtml(String(qAs))}</div>` : ""}
+      return `<div class="qa-item" id="q${i + 1}" style="margin-bottom:22px;">
+        <div lang="en" style="font-weight:800; font-size:1.02rem; line-height:1.5; margin-bottom:6px;">Q${i + 1}. ${escapeHtml(String(qEn))}</div>
+        ${qAs ? `<div lang="as" style="color:#64748b; font-size:0.9rem; line-height:1.6; margin-bottom:8px;">${escapeHtml(String(qAs))}</div>` : ""}
         ${questionMediaHTML(q)}
         ${figOpts ? figOpts : options ? `<div style="margin:8px 0;"><ul>${options.map((o) => `<li>${escapeHtml(loc(o))}</li>`).join("")}</ul></div>` : ""}
-        <div style="margin-top:8px;"><strong>Answer:</strong> <span>${escapeHtml(String(aEn))}</span></div>
-        ${aAs ? `<div style="color:#64748b; font-size:0.9rem;">${escapeHtml(String(aAs))}</div>` : ""}
+        <div lang="en" style="margin-top:8px;"><strong>Answer:</strong> <span>${escapeHtml(String(aEn))}</span></div>
+        ${aAs ? `<div lang="as" style="color:#64748b; font-size:0.9rem;">${escapeHtml(String(aAs))}</div>` : ""}
       </div>`;
     })
     .join("");
