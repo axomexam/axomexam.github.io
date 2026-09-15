@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "title": {
+      "en": "Your Exams",
+      "as": "আপোনাৰ পৰীক্ষা"
+    },
+    "note": "Online reading only. Add a new exam here and create data/exams/<exam-id>/<section-id>.json for each section."
+  },
+  "exams": [
+    {
+      "id": "assam-police",
+      "title": {
+        "en": "Assam Police",
+        "as": "অসম আৰক্ষী"
+      },
+      "subtitle": {
+        "en": "Constable & Sub-Inspector (SLPRB)",
+        "as": "কনিষ্টবল আৰু উপ-পৰিদৰ্শক (SLPRB)"
+      },
+      "color": "#2563eb",
+      "icon": "AP",
+      "status": "available",
+      "sections": [
+        {
+          "id": "syllabus",
+          "type": "syllabus",
+          "color": "#6366f1",
+          "title": { "en": "Syllabus", "as": "পাঠ্যক্ৰম" }
+        },
+        {
+          "id": "elementary-mathematics",
+          "type": "qa",
+          "color": "#f59e0b",
+          "title": { "en": "Elementary Mathematics", "as": "প্ৰাথমিক অংক" }
+        },
+        {
+          "id": "general-english",
+          "type": "qa",
+          "color": "#0d9488",
+          "title": { "en": "General English", "as": "সাধাৰণ ইংৰাজী" }
+        },
+        {
+          "id": "logical-reasoning",
+          "type": "qa",
+          "color": "#8b5cf6",
+          "title": { "en": "Logical Reasoning & Mental Ability", "as": "যৌক্তিক বিচাৰ আৰু মানসিক ক্ষমতা" }
+        },
+        {
+          "id": "assam-history-geography-culture",
+          "type": "qa",
+          "color": "#d97706",
+          "title": { "en": "Assam's History, Geography & Culture", "as": "অসমৰ ইতিহাস, ভূগোল আৰু সংস্কৃতি" }
+        },
+        {
+          "id": "general-knowledge-current-affairs",
+          "type": "qa",
+          "color": "#0ea5e9",
+          "title": { "en": "General Knowledge & Current Affairs", "as": "সাধাৰণ জ্ঞান আৰু চলিত ঘটনাৱলী" }
+        }
+      ]
+    },
+    {
+      "id": "adre",
+      "title": { "en": "ADRE", "as": "ADRE" },
+      "subtitle": { "en": "Assam Direct Recruitment Examination", "as": "অসম প্ৰত্যক্ষ নিযুক্তি পৰীক্ষা" },
+      "color": "#db2777",
+      "icon": "ADRE",
+      "status": "coming-soon",
+      "sections": []
+    },
+    {
+      "id": "apsc",
+      "title": { "en": "APSC", "as": "APSC" },
+      "subtitle": { "en": "Assam Public Service Commission", "as": "অসম লোক সেৱা আয়োগ" },
+      "color": "#d97706",
+      "icon": "APSC",
+      "status": "coming-soon",
+      "sections": []
+    },
+    {
+      "id": "dhs-dme",
+      "title": { "en": "DHS & DME", "as": "DHS আৰু DME" },
+      "subtitle": { "en": "Health Services & Medical Education", "as": "স্বাস্থ্য সেৱা আৰু চিকিৎসা শিক্ষা" },
+      "color": "#10b981",
+      "icon": "DHS",
+      "status": "coming-soon",
+      "sections": []
+    },
+    {
+      "id": "guwahati-hc",
+      "title": { "en": "Guwahati High Court", "as": "গুৱাহাটী উচ্চ ন্যায়ালয়" },
+      "subtitle": { "en": "Grade III, Grade IV & Steno", "as": "গ্ৰেড III, গ্ৰেড IV আৰু ষ্টেন'গ্ৰাফাৰ" },
+      "color": "#8b5cf6",
+      "icon": "HC",
+      "status": "coming-soon",
+      "sections": []
+    },
+    {
+      "id": "ssc",
+      "title": { "en": "SSC", "as": "SSC" },
+      "subtitle": { "en": "CGL, CHSL, MTS & GD", "as": "CGL, CHSL, MTS আৰু GD" },
+      "color": "#ef4444",
+      "icon": "SSC",
+      "status": "coming-soon",
+      "sections": []
+    },
+    {
+      "id": "railway",
+      "title": { "en": "Railway", "as": "ৰে'লৱে" },
+      "subtitle": { "en": "RRB NTPC, Group D & ALP", "as": "RRB NTPC, গ্ৰুপ D আৰু ALP" },
+      "color": "#0ea5e9",
+      "icon": "Rly",
+      "status": "coming-soon",
+      "sections": []
+    }
+  ]
+}

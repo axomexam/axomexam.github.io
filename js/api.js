@@ -244,9 +244,37 @@ const API = (() => {
     return records.filter(Boolean);
   }
 
+  /* ---- Your Exams (read-only exam library, online reading only) ----
+     data/exams/index.json lists every exam and its subjects. Each subject
+     is a single JSON file at data/exams/<exam-id>/<section-id>.json, so a
+     new exam can be added by editing index.json and uploading files. */
+  async function listExams() {
+    const cfg = CONFIG.EXAMS || {};
+    const rel = cfg.INDEX || "data/exams/index.json";
+    const url = CONFIG.USE_REMOTE ? rawUrl(rel) : `/${rel}`;
+    try {
+      const data = await fetchJSON(url);
+      const exams = Array.isArray(data) ? data : (data && Array.isArray(data.exams) ? data.exams : []);
+      return exams;
+    } catch (e) {
+      return [];
+    }
+  }
+
+  async function getExamSection(examId, sectionId) {
+    const cfg = CONFIG.EXAMS || {};
+    const dir = cfg.DIR || "data/exams";
+    const safeExam = String(examId || "").replace(/[^A-Za-z0-9_-]/g, "");
+    const safeSec = String(sectionId || "").replace(/[^A-Za-z0-9_-]/g, "");
+    if (!safeExam || !safeSec) throw new Error("Invalid exam section");
+    const rel = `${dir}/${safeExam}/${safeSec}.json`;
+    const url = CONFIG.USE_REMOTE ? rawUrl(rel) : `/${rel}`;
+    return fetchJSON(url);
+  }
+
   return {
     getCategories, getTopic, getTopicMarkdown, listPdfDir, pdfUrl,
     listDownloads, getTrendingTopics, listPreviousYearYears, listPreviousYearPdfs,
-    getArticles, getMockSet, getBook, listBooks,
+    getArticles, getMockSet, getBook, listBooks, listExams, getExamSection,
   };
 })();

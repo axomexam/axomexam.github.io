@@ -120,6 +120,17 @@ const CONFIG = {
     BRANCH: "main",
     DIR: "data/books",
   },
+
+  /* Your Exams library (online reading only, like e-books).
+     index.json lists every exam and its subjects. Each exam keeps one
+     JSON file per subject inside its own folder:
+       data/exams/index.json
+       data/exams/<exam-id>/<section-id>.json
+     To add an exam, add it to index.json and upload its subject files. */
+  EXAMS: {
+    DIR: "data/exams",
+    INDEX: "data/exams/index.json",
+  },
 };
 
 /* Colour palette used to tint category cards */

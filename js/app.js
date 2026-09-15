@@ -23,7 +23,8 @@
     uiLang: "en",          
     mock: null,            
     isGeneratingPdf: false,
-    mockSetCache: {}       
+    mockSetCache: {},
+    exams: null
   };
 
   /* Max mock test set number to probe per subcategory */
@@ -739,6 +740,7 @@
     items.push(extraLink("/", t("nav.home"), activePath));
     featured.forEach((c) => items.push(navLinkHTML(c, activePath)));
     items.push(extraLink("/mock-test", t("nav.mock"), activePath));
+    items.push(extraLink("/exams", t("nav.exams"), activePath));
     items.push(extraLink("/downloads", t("nav.downloads"), activePath));
     items.push(moreDropdownHTML(rest, activePath));
     list.innerHTML = items.join("");
@@ -751,23 +753,29 @@
 
   function moreDropdownHTML(rest, activePath) {
     const root = activePath.split("/")[0];
-    const isInside = rest.some((c) => c.id === root) || ["submit", "previous-year", "ebooks", "download-app", "contact", "about", "privacy", "privacy-policy", "terms", "disclaimer"].includes(root);
+    const isInside = rest.some((c) => c.id === root) || ["submit", "previous-year", "ebooks", "exams", "download-app", "contact", "about", "privacy", "privacy-policy", "terms", "disclaimer"].includes(root);
 
     const links = rest.map((c) => {
       const on = root === c.id;
       return `<a class="${on ? "active" : ""}" href="/category/${c.id}">${escapeHtml(localized(c.name))}</a>`;
     });
 
-    /* E-Books sits directly below the Articles link inside "More ▸" */
+    /* E-Books and Your Exams sit directly below the Articles link inside "More ▸" */
     const ebookOn = root === "ebooks";
     const ebookLink = `
       <a class="ebook-nav-link ${ebookOn ? "active" : ""}" href="/ebooks">
         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
         <span>${escapeHtml(t("nav.ebooks"))}</span>
       </a>`;
+    const examsOn = root === "exams";
+    const examsLink = `
+      <a class="ebook-nav-link ${examsOn ? "active" : ""}" href="/exams">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0;"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        <span>${escapeHtml(t("nav.exams"))}</span>
+      </a>`;
     const artPos = rest.findIndex((c) => c.id === "articles");
-    if (artPos !== -1) links.splice(artPos + 1, 0, ebookLink);
-    else links.push(ebookLink);
+    if (artPos !== -1) links.splice(artPos + 1, 0, ebookLink, examsLink);
+    else links.push(ebookLink, examsLink);
 
     const catLinks = links.join("");
 
@@ -848,6 +856,14 @@
         </a>
       </li>`;
 
+    const examItem = `
+      <li class="m-exam" style="margin-top:8px;">
+        <a class="m-item ${activePath === "exams" ? "active" : ""}" href="/exams" style="${mBtnStyle}">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          ${escapeHtml(t("nav.exams"))}
+        </a>
+      </li>`;
+
     const downloadItem = `
       <li class="m-download" style="margin-top:8px;">
         <a class="m-item ${activePath === "downloads" ? "active" : ""}" href="/downloads" style="${mBtnStyle}">
@@ -888,7 +904,7 @@
         </a>
       </li>`;
 
-    catParts.push(ebookItem, downloadAppItem, downloadItem, prevYearItem, submitItem, contactItem);
+    catParts.push(examItem, ebookItem, downloadAppItem, downloadItem, prevYearItem, submitItem, contactItem);
 
     nav.innerHTML = catParts.join("");
 
@@ -972,6 +988,17 @@
       } else if (segs[0] === "ebooks") {
         title = segs[1] ? "Read E-Book Online | axomexam" : "E-Books Library | axomexam";
         desc = "Free online e-books for Assam competitive exams (ADRE, APSC, Assam Police) — Assam History, Indian History, Art & Culture, Polity, Economy and Geography. Read online in English and Assamese, no PDF download.";
+      } else if (segs[0] === "exams") {
+        const exam = (state.exams || []).find((e) => e.id === segs[1]);
+        const exName = exam ? localized(exam.title) : "";
+        if (segs[1] && segs[2]) {
+          title = (exName ? exName + " — " : "") + "Exam Book | axomexam";
+        } else if (segs[1]) {
+          title = (exName ? exName + " " : "") + "Exam Book | axomexam";
+        } else {
+          title = "Your Exams | axomexam";
+        }
+        desc = "Choose your exam and prepare subject-wise — syllabus, Elementary Mathematics, General English, Logical Reasoning & Mental Ability, Assam's History, Geography & Culture and General Knowledge & Current Affairs. Read online in English and Assamese, no download.";
       } else if (segs[0] === "categories") {
         title = "All Categories | axomexam";
       } else if (["about", "privacy", "privacy-policy", "terms", "disclaimer", "contact", "submit"].includes(segs[0])) {
@@ -1044,6 +1071,11 @@
       if (segs[1]) return renderEbookReaderPage(main, segs[1]);
       return renderEbooksPage(main);
     }
+    if (segs[0] === "exams") {
+      if (segs[1] && segs[2]) return renderExamSectionPage(main, segs[1], segs[2]);
+      if (segs[1]) return renderExamPage(main, segs[1]);
+      return renderExamsPage(main);
+    }
     if (segs[0] === "submit") return renderSubmitPage(main);
     if (segs[0] === "mock-test") {
       return handleMockRouting(main, segs);
@@ -1073,6 +1105,10 @@
             <a class="btn btn-ebook" href="/ebooks">
               <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
               ${t("nav.ebooks")}
+            </a>
+            <a class="btn btn-exam" href="/exams">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              ${t("hero.ctaExams")}
             </a>
           </div>
           <div class="hero-stats">
@@ -2961,6 +2997,389 @@
           body.innerHTML = ebkReaderBodyHTML(book, readLang);
           scheduleEbkProgress();
         }
+      });
+    });
+  }
+
+  /* ================= Your Exams (read-only exam library) =================
+     Exam books work exactly like e-books: read-only, online only, never
+     downloadable as a PDF. data/exams/index.json lists every exam and its
+     sections. Each section is one JSON file at
+     data/exams/<exam-id>/<section-id>.json and is shown in a simple
+     reading view (Q&A question banks or syllabus notes). */
+  const EXAM_SECTION_ICONS = {
+    syllabus: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13"/><path d="M8 12h13"/><path d="M8 18h13"/><path d="M3.5 6h.01"/><path d="M3.5 12h.01"/><path d="M3.5 18h.01"/></svg>',
+    "elementary-mathematics": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8"/><path d="M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M16 14h.01M8 18h4"/></svg>',
+    "general-english": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><path d="M9 7h6"/><path d="M9 11h6"/></svg>',
+    "logical-reasoning": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.8.7 1.1 1.5 1.1 2.7h5c0-1.2.3-2 1.1-2.7A6 6 0 0 0 12 3z"/></svg>',
+    "assam-history-geography-culture": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V10l7-5 7 5v11"/><path d="M9.5 21v-6h5v6"/></svg>',
+    "general-knowledge-current-affairs": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18z"/></svg>',
+    default: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>',
+  };
+
+  function examSectionIcon(sec) {
+    const id = (sec && sec.id) || "";
+    if (EXAM_SECTION_ICONS[id]) return EXAM_SECTION_ICONS[id];
+    if (sec && sec.type === "syllabus") return EXAM_SECTION_ICONS.syllabus;
+    return EXAM_SECTION_ICONS.default;
+  }
+
+  function examColor(exam, section) {
+    const c = (section && section.color) || (exam && exam.color);
+    return /^#[0-9a-fA-F]{3,8}$/.test(c || "") ? c : "#4f46e5";
+  }
+
+  async function getExamsList() {
+    if (Array.isArray(state.exams)) return state.exams;
+    let exams = [];
+    try { exams = await API.listExams(); } catch (e) { exams = []; }
+    state.exams = Array.isArray(exams) ? exams : [];
+    return state.exams;
+  }
+
+  function findExam(examId) {
+    return (state.exams || []).find((e) => e.id === examId) || null;
+  }
+
+  function examIsAvailable(exam) {
+    return !!(exam && exam.status === "available" && (exam.sections || []).length);
+  }
+
+  function examBookCardHTML(exam, i) {
+    const color = examColor(exam);
+    const titleEn = ebkLang(exam.title, "en");
+    const titleAs = ebkLang(exam.title, "as");
+    const subEn = ebkLang(exam.subtitle, "en");
+    const available = examIsAvailable(exam);
+    const statusLabel = available ? t("exams.open") : t("exams.comingSoon");
+    const name = normalizeText(titleEn + " " + titleAs + " " + subEn);
+    return `
+      <a class="ebook-card reveal exam-card ${available ? "" : "is-soon"}" href="/exams/${encodeURIComponent(exam.id)}" style="--ebk:${color}" data-name="${escapeHtml(name)}" data-delay="${(i % 8) * 50}">
+        <span class="ebook-cover">
+          <span class="ebook-cover-frame" aria-hidden="true"></span>
+          <span class="ebook-cover-top">
+            <span class="ebook-cover-publisher">axomexam</span>
+            <span class="ebook-cover-tag">${escapeHtml(available ? t("nav.exams") : t("exams.comingSoon"))}</span>
+          </span>
+          <span class="ebook-cover-title">
+            <span class="ebk-tt-en">${escapeHtml(titleEn)}</span>
+            ${titleAs && titleAs !== titleEn ? `<span class="ebk-tt-as">${escapeHtml(titleAs)}</span>` : ""}
+          </span>
+          <span class="ebook-cover-subject">${escapeHtml(subEn)}</span>
+          ${available ? "" : `<span class="exam-soon-badge">${escapeHtml(t("exams.comingSoon"))}</span>`}
+        </span>
+        <span class="ebook-meta">
+          <b>${escapeHtml(titleEn)}</b>
+          <span class="ebook-meta-sub">${titleAs && titleAs !== titleEn ? `<span class="ebk-tt-as">${escapeHtml(titleAs)}</span>` : `<span>${escapeHtml(subEn)}</span>`}</span>
+          <span class="ebook-read-btn">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            ${escapeHtml(statusLabel)}
+          </span>
+        </span>
+      </a>`;
+  }
+
+  async function renderExamsPage(main) {
+    main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
+    const exams = await getExamsList();
+
+    if (!exams.length) {
+      main.innerHTML = `
+        <div class="page-head" style="text-align:center; max-width:760px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
+          <h1>${t("exams.title")}</h1>
+          <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${t("exams.sub")}</p>
+        </div>
+        <div class="qa-empty"><div class="big">
+          <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        </div><p>${escapeHtml(t("exams.empty"))}</p></div>`;
+      return;
+    }
+
+    const sorted = exams.slice().sort((a, b) => {
+      const av = examIsAvailable(a) ? 0 : 1;
+      const bv = examIsAvailable(b) ? 0 : 1;
+      if (av !== bv) return av - bv;
+      return ebkLang(a.title, "en").localeCompare(ebkLang(b.title, "en"));
+    });
+
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("nav.exams")}</span>
+        </nav>
+        <h1>${t("exams.title")}</h1>
+        <p class="page-desc">${t("exams.sub")}</p>
+        <p class="exams-choose">${t("exams.choose")}</p>
+        <div class="exams-search-wrap">
+          <svg class="exams-search-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input id="exam-search" type="search" autocomplete="off" spellcheck="false" placeholder="${escapeHtml(t("exams.search.ph"))}" aria-label="${escapeHtml(t("exams.search.ph"))}" />
+        </div>
+      </div>
+      <section class="section" style="padding-bottom:46px;">
+        <div class="ebooks-grid" id="exams-grid">${sorted.map((e, i) => examBookCardHTML(e, i)).join("")}</div>
+        <div id="exams-no-match" class="qa-empty" style="display:none; padding:30px 10px;"><p>${escapeHtml(t("exams.noMatch"))}</p></div>
+        <p class="ebooks-note">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+          ${escapeHtml(t("exams.readOnly"))}
+        </p>
+      </section>`;
+
+    const input = $("#exam-search");
+    const cards = $$(".exam-card", main);
+    const noMatch = $("#exams-no-match");
+    if (input) {
+      input.addEventListener("input", () => {
+        const q = normalizeText(input.value);
+        let visible = 0;
+        cards.forEach((card) => {
+          const match = !q || (card.dataset.name || "").indexOf(q) !== -1;
+          card.style.display = match ? "" : "none";
+          if (match) visible++;
+        });
+        if (noMatch) noMatch.style.display = visible ? "none" : "block";
+      });
+    }
+    observeReveals();
+  }
+
+  function examSectionCardHTML(exam, sec, i) {
+    const color = examColor(exam, sec);
+    const nameEn = ebkLang(sec.title, "en");
+    const nameAs = ebkLang(sec.title, "as");
+    return `
+      <a class="sub-card reveal exam-sec-card" href="/exams/${encodeURIComponent(exam.id)}/${encodeURIComponent(sec.id)}" style="--cat:${color}" data-delay="${(i % 8) * 40}">
+        <span class="sub-ico">${examSectionIcon(sec)}</span>
+        <span class="exam-sec-txt">
+          <b>${escapeHtml(nameEn)}</b>
+          ${nameAs && nameAs !== nameEn ? `<span class="exam-sec-as">${escapeHtml(nameAs)}</span>` : ""}
+        </span>
+        <span class="exam-sec-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </span>
+      </a>`;
+  }
+
+  async function renderExamPage(main, examId) {
+    main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
+    await getExamsList();
+    const exam = findExam(examId);
+
+    if (!exam) {
+      main.innerHTML = `
+        <div class="page-head" style="text-align:center; max-width:720px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
+          <h1>${t("exams.title")}</h1>
+          <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${escapeHtml(t("exams.noExam"))}</p>
+          <div style="margin-top:20px;"><a class="btn btn-accent" href="/exams">${t("exams.backToExams")}</a></div>
+        </div>`;
+      return;
+    }
+
+    const color = examColor(exam);
+    const titleEn = ebkLang(exam.title, "en");
+    const titleAs = ebkLang(exam.title, "as");
+    const subEn = ebkLang(exam.subtitle, "en");
+    const subAs = ebkLang(exam.subtitle, "as");
+    const available = examIsAvailable(exam);
+
+    if (!available) {
+      main.innerHTML = `
+        <div class="page-head">
+          <nav class="breadcrumb">
+            <a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
+            <a href="/exams">${t("nav.exams")}</a><span class="bc-sep">/</span>
+            <span>${escapeHtml(titleEn)}</span>
+          </nav>
+        </div>
+        <div class="exam-soon-panel" style="--ebk:${color}">
+          <span class="exam-soon-ico">${EXAM_SECTION_ICONS.default}</span>
+          <h1>${escapeHtml(titleEn)}${titleAs && titleAs !== titleEn ? ` <span class="exam-soon-as">${escapeHtml(titleAs)}</span>` : ""}</h1>
+          ${subEn ? `<p class="exam-soon-sub">${escapeHtml(subEn)}</p>` : ""}
+          <span class="exam-soon-chip">${t("exams.comingSoon")}</span>
+          <p class="exam-soon-msg">${escapeHtml(t("exams.comingSoonMsg"))}</p>
+          <a class="btn btn-accent" href="/exams">${t("exams.backToExams")}</a>
+        </div>`;
+      return;
+    }
+
+    const sections = exam.sections || [];
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/exams">${t("nav.exams")}</a><span class="bc-sep">/</span>
+          <span>${escapeHtml(titleEn)}</span>
+        </nav>
+        <h1>${escapeHtml(titleEn)}${titleAs && titleAs !== titleEn ? ` <span class="exam-head-as">${escapeHtml(titleAs)}</span>` : ""}</h1>
+        <p class="page-desc">${escapeHtml(subEn)}${subAs && subAs !== subEn ? ` &bull; ${escapeHtml(subAs)}` : ""}</p>
+        <p class="exams-choose">${t("exams.subjects")}</p>
+      </div>
+      <section class="section" style="padding-bottom:46px;">
+        <div class="sub-grid exam-sec-grid" style="--cat:${color}">
+          ${sections.map((sec, i) => examSectionCardHTML(exam, sec, i)).join("")}
+        </div>
+        <p class="ebooks-note">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+          ${escapeHtml(t("exams.readOnly"))}
+        </p>
+      </section>`;
+    observeReveals();
+  }
+
+  function examQField(q, base, lang) {
+    if (!q) return "";
+    if (q[base] && typeof q[base] === "object") return q[base][lang] || q[base].en || q[base].as || "";
+    const alt = lang === "en" ? "as" : "en";
+    return q[`${base}_${lang}`] || q[`${base}_${alt}`] || (typeof q[base] === "string" ? q[base] : "") || "";
+  }
+
+  function examOptionsHTML(q, lang) {
+    const opts = Array.isArray(q && q.options) ? q.options : null;
+    if (!opts || !opts.length) return "";
+    return `<ul class="exam-opts">${opts.map((o, idx) => {
+      const txt = (o && typeof o === "object") ? (o[lang] || o.en || o.as || "") : o;
+      const correct = (typeof q.correct === "number" && q.correct === idx);
+      return `<li class="${correct ? "is-correct" : ""}"><span class="exam-opt-no">${String.fromCharCode(65 + idx)}</span>${escapeHtml(txt)}</li>`;
+    }).join("")}</ul>`;
+  }
+
+  function examBodyHTML(data, sec, lang) {
+    const type = data.type || (sec && sec.type) || "qa";
+
+    if (type === "syllabus" || (data.chapters && data.chapters.length)) {
+      const chapters = data.chapters || [];
+      if (!chapters.length) return `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`;
+      return `<div class="ebk-chapters">${chapters.map((c, i) => `
+        <section class="ebk-chapter" id="exam-ch-${i}">
+          <h3 class="ebk-ch-title"><span class="ebk-ch-no">${i + 1}</span>${escapeHtml(ebkLang(c.title, lang))}</h3>
+          <div class="ebk-ch-body">${ebkContentHTML(ebkLang(c.content, lang))}</div>
+        </section>`).join("")}</div>`;
+    }
+
+    const qs = Array.isArray(data.questions) ? data.questions : [];
+    if (!qs.length) return `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`;
+
+    return `<div class="exam-qa-list">${qs.map((q, i) => {
+      const cat = ebkLang(q.category, lang);
+      const qText = examQField(q, "question", lang) || examQField(q, "q", lang);
+      const aText = examQField(q, "answer", lang) || examQField(q, "a", lang);
+      const exText = examQField(q, "explanation", lang);
+      return `
+        <article class="exam-qa">
+          <div class="exam-qa-head">
+            <span class="exam-qa-no">${i + 1}</span>
+            <div class="exam-qa-main">
+              ${cat ? `<span class="exam-qa-cat">${escapeHtml(cat)}</span>` : ""}
+              <p class="exam-qa-q">${escapeHtml(qText)}</p>
+              ${examOptionsHTML(q, lang)}
+            </div>
+          </div>
+          ${aText ? `<div class="exam-qa-ans"><span class="exam-qa-label">${t("topic.answer")}</span><p>${escapeHtml(aText)}</p></div>` : ""}
+          ${exText ? `<div class="exam-qa-expl"><span class="exam-qa-label">${escapeHtml(lang === "as" ? "ব্যাখ্যা" : "Explanation")}</span><p>${escapeHtml(exText)}</p></div>` : ""}
+        </article>`;
+    }).join("")}</div>`;
+  }
+
+  async function renderExamSectionPage(main, examId, sectionId) {
+    main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
+    await getExamsList();
+    const exam = findExam(examId);
+    const sec = exam ? (exam.sections || []).find((s) => s.id === sectionId) : null;
+
+    if (!exam || !sec) {
+      main.innerHTML = `
+        <div class="page-head" style="text-align:center; max-width:720px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
+          <h1>${t("exams.title")}</h1>
+          <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${escapeHtml(t("exams.noExam"))}</p>
+          <div style="margin-top:20px;"><a class="btn btn-accent" href="/exams">${t("exams.backToExams")}</a></div>
+        </div>`;
+      return;
+    }
+
+    let data = null;
+    try { data = await API.getExamSection(examId, sectionId); } catch (e) { data = null; }
+
+    const color = examColor(exam, sec);
+    const examEn = ebkLang(exam.title, "en");
+    const secEn = ebkLang(sec.title, "en");
+
+    if (!data) {
+      main.innerHTML = `
+        <div class="page-head">
+          <nav class="breadcrumb">
+            <a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
+            <a href="/exams">${t("nav.exams")}</a><span class="bc-sep">/</span>
+            <a href="/exams/${encodeURIComponent(examId)}">${escapeHtml(examEn)}</a><span class="bc-sep">/</span>
+            <span>${escapeHtml(secEn)}</span>
+          </nav>
+          <h1>${escapeHtml(secEn)}</h1>
+        </div>
+        <div class="qa-empty"><div class="big">
+          <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
+        </div><p>${escapeHtml(t("exams.noContent"))}</p>
+        <div style="margin-top:16px;"><a class="btn btn-outline btn-sm" href="/exams/${encodeURIComponent(examId)}">${t("exams.backToExams")}</a></div></div>`;
+      return;
+    }
+
+    const readLang = state.lang === "as" ? "as" : "en";
+    const titleD = ebkLang(data.title, "en") || secEn;
+    const titleDAs = ebkLang(data.title, "as") || ebkLang(sec.title, "as");
+    const descD = localized(data.description);
+    const isSyllabus = (data.type || sec.type) === "syllabus";
+
+    main.innerHTML = `
+      <div class="page-head ebk-page-head">
+        <nav class="breadcrumb">
+          <a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/exams">${t("nav.exams")}</a><span class="bc-sep">/</span>
+          <a href="/exams/${encodeURIComponent(examId)}">${escapeHtml(examEn)}</a><span class="bc-sep">/</span>
+          <span>${escapeHtml(titleD)}</span>
+        </nav>
+      </div>
+      <div class="ebk-reader" style="--ebk:${color};">
+        <header class="ebk-head-card ebk-head-clean">
+          <div class="ebk-head-info">
+            <div class="ebk-chips">
+              <span class="ebk-chip ebk-chip-solid">${escapeHtml(examEn)}</span>
+              <span class="ebk-chip">${escapeHtml(isSyllabus ? t("exams.syllabus") : t("exams.questions"))}</span>
+            </div>
+            <h2 class="ebk-head-title">${escapeHtml(titleD)}${titleDAs && titleDAs !== titleD ? `<span class="ebk-head-title-as">${escapeHtml(titleDAs)}</span>` : ""}</h2>
+            ${descD ? `<p class="ebk-desc">${escapeHtml(descD).replace(/\n/g, "<br>")}</p>` : ""}
+          </div>
+        </header>
+
+        <div class="ebk-read-toolbar">
+          <div class="ebk-instruct">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            ${escapeHtml(t("exams.readOnly"))}
+          </div>
+          <div class="lang-switch ebk-tswitch" role="group" aria-label="Reading language">
+            <button type="button" class="lang-btn ${readLang === "as" ? "active" : ""}" data-exlang="as">${t("topic.lang.as")}</button>
+            <button type="button" class="lang-btn ${readLang === "en" ? "active" : ""}" data-exlang="en">${t("topic.lang.en")}</button>
+          </div>
+        </div>
+
+        <div id="exam-body"></div>
+
+        <div class="ebk-reader-foot">
+          <a class="btn btn-outline btn-sm" href="/exams/${encodeURIComponent(examId)}">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+            ${t("exams.backToExams")}
+          </a>
+          <p class="ebk-no-pdf">${escapeHtml(t("exams.readOnly"))}</p>
+        </div>
+      </div>`;
+
+    const body = $("#exam-body");
+    const paint = (lang) => { if (body) body.innerHTML = examBodyHTML(data, sec, lang); };
+    paint(readLang);
+    showEbookProgress(color);
+
+    $$(".lang-btn", main).forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const target = btn.dataset.exlang;
+        $$(".lang-btn", main).forEach((x) => x.classList.toggle("active", x.dataset.exlang === target));
+        paint(target);
+        scheduleEbkProgress();
       });
     });
   }
