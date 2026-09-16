@@ -3064,7 +3064,7 @@
     const titleAs = ebkLang(exam.title, "as");
     const subEn = ebkLang(exam.subtitle, "en");
     const available = examIsAvailable(exam);
-    const statusLabel = available ? t("exams.open") : t("exams.comingSoon");
+    const statusLabel = available ? t("exams.readNow") : t("exams.comingSoon");
     const name = normalizeText(titleEn + " " + titleAs + " " + subEn);
     const cover = exam.cover ? String(exam.cover) : "";
     const soonBadge = available ? "" : `<span class="exam-soon-badge">${escapeHtml(t("exams.comingSoon"))}</span>`;
@@ -3087,10 +3087,7 @@
         <span class="ebook-meta">
           <b>${escapeHtml(titleEn)}</b>
           <span class="ebook-meta-sub">${titleAs && titleAs !== titleEn ? `<span class="ebk-tt-as">${escapeHtml(titleAs)}</span>` : `<span>${escapeHtml(subEn)}</span>`}</span>
-          <span class="ebook-read-btn">
-            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
-            ${escapeHtml(statusLabel)}
-          </span>
+          <span class="ebook-read-btn">${escapeHtml(statusLabel)}</span>
         </span>
       </a>`;
   }
