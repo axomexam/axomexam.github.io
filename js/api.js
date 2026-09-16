@@ -11,6 +11,9 @@ const API = (() => {
   const P = CONFIG.PATHS;
   const F = CONFIG.FALLBACK;
 
+  /* In-memory cache for auto-discovered exam question banks (per page load) */
+  const examQuestionCache = {};
+
   /* Build a raw.githubusercontent.com URL */
   function rawUrl(path) {
     return `${RAW}/${CONFIG.OWNER}/${CONFIG.REPO}/${CONFIG.BRANCH}/${path}`;
@@ -272,9 +275,79 @@ const API = (() => {
     return fetchJSON(url);
   }
 
+  /* ---- One sub-category question bank ----
+     Every *.json file inside the sub-category folder is ONE question with
+     bilingual text + 4 options (the "practice" layout). Files are discovered
+     from the public GitHub Contents API so newly uploaded questions appear
+     automatically. When that API is unavailable (offline / local preview),
+     the folder's index.json manifest lists the files to load. An index.json
+     manifest is never treated as a question. */
+  async function listExamQuestions(examId, sectionId, subId) {
+    const cfg = CONFIG.EXAMS || {};
+    const dir = cfg.DIR || "data/exams";
+    const safe = (s) => String(s || "").replace(/[^A-Za-z0-9_-]/g, "");
+    const safeExam = safe(examId);
+    const safeSec = safe(sectionId);
+    const safeSub = safe(subId);
+    if (!safeExam || !safeSec || !safeSub) throw new Error("Invalid exam sub-category");
+    const relDir = `${dir}/${safeExam}/${safeSec}/${safeSub}`;
+
+    const cacheKey = relDir;
+    if (examQuestionCache[cacheKey]) return examQuestionCache[cacheKey];
+
+    const relUrl = (name) => (CONFIG.USE_REMOTE ? rawUrl(`${relDir}/${name}`) : `/${relDir}/${name}`);
+    const isManifest = (name) => /^index\.json$/i.test(name);
+
+    let files = [];
+
+    /* 1) Discover question files from the GitHub Contents API */
+    try {
+      const owner = cfg.OWNER || "axomexam";
+      const repo = cfg.REPO || "axomexam.github.io";
+      const branch = cfg.BRANCH || "main";
+      const items = await fetchJSON(
+        `${API_BASE}/repos/${owner}/${repo}/contents/${relDir}?ref=${branch}`
+      );
+      files = (Array.isArray(items) ? items : [])
+        .filter((i) => i.type === "file" && /\.json$/i.test(i.name) && !isManifest(i.name))
+        .map((i) => ({ name: i.name, url: i.download_url || relUrl(i.name) }));
+    } catch (e) {
+      files = [];
+    }
+
+    /* 2) Fallback: the folder's index.json manifest (local preview / offline) */
+    if (!files.length) {
+      try {
+        const man = await fetchJSON(relUrl("index.json"));
+        const list = (man && Array.isArray(man.files)) ? man.files : [];
+        files = list
+          .filter((n) => typeof n === "string" && /\.json$/i.test(n) && !isManifest(n))
+          .map((name) => ({ name, url: relUrl(name) }));
+      } catch (e) {
+        files = [];
+      }
+    }
+
+    files.sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: "base" }));
+
+    const records = await Promise.all(files.map(async (f) => {
+      try {
+        const data = await fetchJSON(f.url);
+        if (data && typeof data === "object" && !Array.isArray(data) && !data.file) data.file = f.name;
+        return data;
+      } catch (e) {
+        return null;
+      }
+    }));
+    const result = records.filter(Boolean);
+    examQuestionCache[cacheKey] = result;
+    return result;
+  }
+
   return {
     getCategories, getTopic, getTopicMarkdown, listPdfDir, pdfUrl,
     listDownloads, getTrendingTopics, listPreviousYearYears, listPreviousYearPdfs,
     getArticles, getMockSet, getBook, listBooks, listExams, getExamSection,
+    listExamQuestions,
   };
 })();

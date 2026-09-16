@@ -1,0 +1,30 @@
+{
+  "id": "venn-diagrams-001",
+  "q": {
+    "en": "In a class of 40 students, 25 play football, 20 play cricket and 10 play both. How many play neither game?",
+    "as": "৪০ জন ছাত্ৰৰ এটা শ্ৰেণীত ২৫ জনে ফুটবল, ২০ জনে ক্ৰিকেট আৰু ১০ জনে দুয়োটা খেলে। কিমানজনে কোনো খেল নেখেলে?"
+  },
+  "options": [
+    {
+      "en": "5",
+      "as": "৫"
+    },
+    {
+      "en": "10",
+      "as": "১০"
+    },
+    {
+      "en": "15",
+      "as": "১৫"
+    },
+    {
+      "en": "0",
+      "as": "০"
+    }
+  ],
+  "correct": 0,
+  "explanation": {
+    "en": "n(F ∪ C) = 25 + 20 − 10 = 35; neither = 40 − 35 = 5.",
+    "as": "n(F ∪ C) = ২৫ + ২০ − ১০ = ৩৫; কোনো নেখেলে = ৪০ − ৩৫ = ৫।"
+  }
+}

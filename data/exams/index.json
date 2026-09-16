@@ -14,8 +14,12 @@
         "as": "অসম আৰক্ষী"
       },
       "subtitle": {
-        "en": "Constable & Sub-Inspector (SLPRB)",
-        "as": "কনিষ্টবল আৰু উপ-পৰিদৰ্শক (SLPRB)"
+        "en": "Constable AB & UB (SLPRB)",
+        "as": "কনিষ্টবল AB আৰু UB (SLPRB)"
+      },
+      "note": {
+        "en": "Choose a subject, then a sub-category to practise question-wise MCQs.",
+        "as": "এখন বিষয় বাছনি কৰক, তাৰ পিছত উপ-শ্ৰেণী এটা বাছি প্ৰশ্নভিত্তিক MCQ অনুশীলন কৰক।"
       },
       "color": "#2563eb",
       "icon": "AP",
@@ -31,31 +35,73 @@
           "id": "elementary-mathematics",
           "type": "qa",
           "color": "#f59e0b",
-          "title": { "en": "Elementary Mathematics", "as": "প্ৰাথমিক অংক" }
+          "title": { "en": "Elementary Mathematics", "as": "প্ৰাথমিক অংক" },
+          "subcategories": [
+            { "id": "number-system", "title": { "en": "Number System", "as": "সংখ্যা পদ্ধতি" } },
+            { "id": "lcm-hcf", "title": { "en": "LCM & HCF", "as": "ল.সা.গু. আৰু গ.সা.গু." } },
+            { "id": "percentage", "title": { "en": "Percentage", "as": "শতাংশ" } },
+            { "id": "profit-loss", "title": { "en": "Profit & Loss", "as": "লাভ আৰু লোকচান" } },
+            { "id": "ratio-proportion", "title": { "en": "Ratio & Proportion", "as": "অনুপাত আৰু সমানুপাত" } },
+            { "id": "average", "title": { "en": "Average", "as": "গড়" } },
+            { "id": "simple-compound-interest", "title": { "en": "Simple & Compound Interest", "as": "সৰল আৰু যৌগিক সূত" } },
+            { "id": "time-work", "title": { "en": "Time & Work", "as": "সময় আৰু কাম" } },
+            { "id": "time-speed-distance", "title": { "en": "Time, Speed & Distance", "as": "সময়, দূৰত্ব আৰু গতিবেগ" } },
+            { "id": "simplification-fractions", "title": { "en": "Simplification & Fractions", "as": "সৰলীকৰণ" } }
+          ]
         },
         {
           "id": "general-english",
           "type": "qa",
           "color": "#0d9488",
-          "title": { "en": "General English", "as": "সাধাৰণ ইংৰাজী" }
+          "title": { "en": "General English", "as": "সাধাৰণ ইংৰাজী" },
+          "subcategories": [
+            { "id": "vocabulary", "title": { "en": "Vocabulary (Synonyms & Antonyms)", "as": "শব্দভাণ্ডাৰ (Synonyms & Antonyms)" } },
+            { "id": "fill-in-the-blanks", "title": { "en": "Fill in the Blanks", "as": "ৰিক্ত স্থান পূৰণ" } },
+            { "id": "error-detection", "title": { "en": "Error Detection", "as": "ব্যাকৰণগত ভুল নিৰ্ণয়" } },
+            { "id": "idioms-phrases", "title": { "en": "Idioms & Phrases", "as": "বাক্যৰীতি আৰু খণ্ডবাক্য" } },
+            { "id": "sentence-rearrangement", "title": { "en": "Sentence Rearrangement", "as": "বাক্য সজোৱা" } },
+            { "id": "one-word-substitution", "title": { "en": "One Word Substitution", "as": "এটা শব্দত প্ৰকাশ কৰা" } }
+          ]
         },
         {
           "id": "logical-reasoning",
           "type": "qa",
           "color": "#8b5cf6",
-          "title": { "en": "Logical Reasoning & Mental Ability", "as": "যৌক্তিক বিচাৰ আৰু মানসিক ক্ষমতা" }
+          "title": { "en": "Logical Reasoning & Mental Ability", "as": "যৌক্তিক বিচাৰ আৰু মানসিক ক্ষমতা" },
+          "subcategories": [
+            { "id": "number-alphabet-series", "title": { "en": "Number & Alphabet Series", "as": "সংখ্যা আৰু বৰ্ণমালা শ্ৰেণী" } },
+            { "id": "analogy", "title": { "en": "Analogy", "as": "সাদৃশ্য বিচাৰ" } },
+            { "id": "odd-one-out", "title": { "en": "Odd One Out / Classification", "as": "শ্ৰেণীবিভাজন বা অসদৃশ নিৰ্ণয়" } },
+            { "id": "blood-relations", "title": { "en": "Blood Relations", "as": "তেজৰ সম্পৰ্ক" } },
+            { "id": "direction-distance", "title": { "en": "Direction & Distance Test", "as": "দিশ আৰু দূৰত্ব নিৰ্ণয়" } },
+            { "id": "coding-decoding", "title": { "en": "Coding-Decoding", "as": "ক'ডিং-ডিক'ডিং" } },
+            { "id": "venn-diagrams", "title": { "en": "Venn Diagrams", "as": "ভেন চিত্ৰ" } },
+            { "id": "non-verbal-reasoning", "title": { "en": "Non-Verbal Reasoning", "as": "অনা-মৌখিক যুক্তি" } }
+          ]
         },
         {
           "id": "assam-history-geography-culture",
           "type": "qa",
           "color": "#d97706",
-          "title": { "en": "Assam's History, Geography & Culture", "as": "অসমৰ ইতিহাস, ভূগোল আৰু সংস্কৃতি" }
+          "title": { "en": "Assam's History, Geography & Culture", "as": "অসমৰ ইতিহাস, ভূগোল আৰু সংস্কৃতি" },
+          "subcategories": [
+            { "id": "assam-history", "title": { "en": "Assam's History", "as": "অসমৰ ইতিহাস" } },
+            { "id": "assam-geography", "title": { "en": "Assam's Geography", "as": "অসমৰ ভূগোল" } },
+            { "id": "assam-culture", "title": { "en": "Assam's Culture", "as": "অসমৰ সংস্কৃতি" } }
+          ]
         },
         {
           "id": "general-knowledge-current-affairs",
           "type": "qa",
           "color": "#0ea5e9",
-          "title": { "en": "General Knowledge & Current Affairs", "as": "সাধাৰণ জ্ঞান আৰু চলিত ঘটনাৱলী" }
+          "title": { "en": "General Knowledge & Current Affairs", "as": "সাধাৰণ জ্ঞান আৰু চলিত ঘটনাৱলী" },
+          "subcategories": [
+            { "id": "indian-history-polity-economy", "title": { "en": "Indian History, Polity & Economy", "as": "ভাৰতৰ ইতিহাস, ৰাজনীতি আৰু অৰ্থনীতি" } },
+            { "id": "general-science", "title": { "en": "General Science", "as": "সাধাৰণ বিজ্ঞান" } },
+            { "id": "current-affairs", "title": { "en": "Current Affairs", "as": "চলিত ঘটনাৱলী" } },
+            { "id": "sports-awards", "title": { "en": "Sports & Awards", "as": "ক্ৰীড়া, বঁটা আৰু সন্মান" } },
+            { "id": "important-days-capitals-currencies", "title": { "en": "Important Days, Capitals & Currencies", "as": "গুৰুত্বপূৰ্ণ দিৱস, ৰাজধানী আৰু মুদ্ৰা" } }
+          ]
         }
       ]
     },

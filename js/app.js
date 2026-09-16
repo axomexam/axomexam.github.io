@@ -991,14 +991,21 @@
       } else if (segs[0] === "exams") {
         const exam = (state.exams || []).find((e) => e.id === segs[1]);
         const exName = exam ? localized(exam.title) : "";
-        if (segs[1] && segs[2]) {
-          title = (exName ? exName + " — " : "") + "Exam Book | axomexam";
+        const sec = exam && segs[2] ? (exam.sections || []).find((s) => s.id === segs[2]) : null;
+        const secName = sec ? localized(sec.title) : "";
+        const sub = sec && segs[3] ? (sec.subcategories || []).find((s) => s.id === segs[3]) : null;
+        const subName = sub ? localized(sub.title) : "";
+        if (subName) {
+          title = subName + (secName ? " — " + secName : "") + " | axomexam";
+          desc = "Practise " + subName + " MCQs with answers and explanations for Assam Police Constable (AB & UB) and other competitive exams in Assam.";
+        } else if (secName) {
+          title = secName + (exName ? " — " + exName : "") + " | axomexam";
         } else if (segs[1]) {
           title = (exName ? exName + " " : "") + "Exam Book | axomexam";
         } else {
           title = "Your Exams | axomexam";
         }
-        desc = "Choose your exam and prepare subject-wise — syllabus, Elementary Mathematics, General English, Logical Reasoning & Mental Ability, Assam's History, Geography & Culture and General Knowledge & Current Affairs. Read online in English and Assamese, no download.";
+        if (!subName) desc = "Choose your exam and prepare subject-wise — syllabus, Elementary Mathematics, General English, Logical Reasoning & Mental Ability, Assam's History, Geography & Culture and General Knowledge & Current Affairs. Read online in English and Assamese, no download.";
       } else if (segs[0] === "categories") {
         title = "All Categories | axomexam";
       } else if (["about", "privacy", "privacy-policy", "terms", "disclaimer", "contact", "submit"].includes(segs[0])) {
@@ -1072,6 +1079,7 @@
       return renderEbooksPage(main);
     }
     if (segs[0] === "exams") {
+      if (segs[1] && segs[2] && segs[3]) return renderExamSubcategoryPage(main, segs[1], segs[2], segs[3]);
       if (segs[1] && segs[2]) return renderExamSectionPage(main, segs[1], segs[2]);
       if (segs[1]) return renderExamPage(main, segs[1]);
       return renderExamsPage(main);
@@ -3159,6 +3167,36 @@
       </a>`;
   }
 
+  function examSubIcon(sub) {
+    const id = ((sub && sub.id) || "").toLowerCase();
+    const label = String(ebkLang(sub && sub.title, "en") || "").toLowerCase();
+    const hay = id + " " + label;
+    if (typeof TOPIC_ICON_RULES !== "undefined") {
+      for (const [re, svg] of TOPIC_ICON_RULES) {
+        if (re.test(hay)) return svg;
+      }
+    }
+    return EXAM_SECTION_ICONS.default;
+  }
+
+  function examSubcategoryCardHTML(exam, sec, sub, i) {
+    const color = examColor(exam, sec);
+    const nameEn = ebkLang(sub.title, "en");
+    const nameAs = ebkLang(sub.title, "as");
+    const href = `/exams/${encodeURIComponent(exam.id)}/${encodeURIComponent(sec.id)}/${encodeURIComponent(sub.id)}`;
+    return `
+      <a class="sub-card reveal exam-sec-card" href="${href}" style="--cat:${color}" data-delay="${(i % 8) * 40}">
+        <span class="sub-ico">${examSubIcon(sub)}</span>
+        <span class="exam-sec-txt">
+          <b>${escapeHtml(nameEn)}</b>
+          ${nameAs && nameAs !== nameEn ? `<span class="exam-sec-as">${escapeHtml(nameAs)}</span>` : ""}
+        </span>
+        <span class="exam-sec-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </span>
+      </a>`;
+  }
+
   async function renderExamPage(main, examId) {
     main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
     await getExamsList();
@@ -3338,6 +3376,36 @@
       return;
     }
 
+    const subs = Array.isArray(sec.subcategories) ? sec.subcategories : [];
+    if (subs.length) {
+      const color = examColor(exam, sec);
+      const examEn = ebkLang(exam.title, "en");
+      const secEn = ebkLang(sec.title, "en");
+      const secAs = ebkLang(sec.title, "as");
+      main.innerHTML = `
+        <div class="page-head">
+          <nav class="breadcrumb">
+            <a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
+            <a href="/exams">${t("nav.exams")}</a><span class="bc-sep">/</span>
+            <a href="/exams/${encodeURIComponent(examId)}">${escapeHtml(examEn)}</a><span class="bc-sep">/</span>
+            <span>${escapeHtml(secEn)}</span>
+          </nav>
+          <h1>${escapeHtml(secEn)}${secAs && secAs !== secEn ? ` <span class="exam-head-as">${escapeHtml(secAs)}</span>` : ""}</h1>
+          <p class="exams-choose">${t("exams.subCategories")}</p>
+        </div>
+        <section class="section" style="padding-bottom:46px;">
+          <div class="sub-grid exam-sec-grid" style="--cat:${color}">
+            ${subs.map((sub, i) => examSubcategoryCardHTML(exam, sec, sub, i)).join("")}
+          </div>
+          <p class="ebooks-note">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            ${escapeHtml(t("exams.readOnly"))}
+          </p>
+        </section>`;
+      observeReveals();
+      return;
+    }
+
     let data = null;
     try { data = await API.getExamSection(examId, sectionId); } catch (e) { data = null; }
 
@@ -3414,6 +3482,103 @@
 
     const body = $("#exam-body");
     const paint = (lang) => { if (body) body.innerHTML = examBodyHTML(data, sec, lang); };
+    paint(readLang);
+    showEbookProgress(color);
+
+    $$(".lang-btn", main).forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const target = btn.dataset.exlang;
+        $$(".lang-btn", main).forEach((x) => x.classList.toggle("active", x.dataset.exlang === target));
+        paint(target);
+        scheduleEbkProgress();
+      });
+    });
+  }
+
+  async function renderExamSubcategoryPage(main, examId, sectionId, subId) {
+    main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
+    await getExamsList();
+    const exam = findExam(examId);
+    const sec = exam ? (exam.sections || []).find((s) => s.id === sectionId) : null;
+    const sub = sec ? (sec.subcategories || []).find((s) => s.id === subId) : null;
+
+    if (!exam || !sec || !sub) {
+      main.innerHTML = `
+        <div class="page-head" style="text-align:center; max-width:720px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
+          <h1>${t("exams.title")}</h1>
+          <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${escapeHtml(t("exams.noExam"))}</p>
+          <div style="margin-top:20px;"><a class="btn btn-accent" href="/exams">${t("exams.backToExams")}</a></div>
+        </div>`;
+      return;
+    }
+
+    const color = examColor(exam, sec);
+    const examEn = ebkLang(exam.title, "en");
+    const secEn = ebkLang(sec.title, "en");
+    const subEn = ebkLang(sub.title, "en");
+    const subAs = ebkLang(sub.title, "as");
+    const secHref = `/exams/${encodeURIComponent(examId)}/${encodeURIComponent(sectionId)}`;
+
+    let questions = [];
+    try { questions = await API.listExamQuestions(examId, sectionId, subId); } catch (e) { questions = []; }
+    if (!Array.isArray(questions)) questions = [];
+
+    const readLang = state.lang === "as" ? "as" : "en";
+    const count = questions.length;
+
+    main.innerHTML = `
+      <div class="page-head ebk-page-head">
+        <nav class="breadcrumb">
+          <a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/exams">${t("nav.exams")}</a><span class="bc-sep">/</span>
+          <a href="/exams/${encodeURIComponent(examId)}">${escapeHtml(examEn)}</a><span class="bc-sep">/</span>
+          <a href="${secHref}">${escapeHtml(secEn)}</a><span class="bc-sep">/</span>
+          <span>${escapeHtml(subEn)}</span>
+        </nav>
+      </div>
+      <div class="ebk-reader" style="--ebk:${color};">
+        <header class="ebk-head-card ebk-head-clean">
+          <div class="ebk-head-info">
+            <div class="ebk-chips">
+              <span class="ebk-chip ebk-chip-solid">${escapeHtml(examEn)}</span>
+              <span class="ebk-chip">${escapeHtml(t("exams.practice"))}</span>
+            </div>
+            <h2 class="ebk-head-title">${escapeHtml(subEn)}${subAs && subAs !== subEn ? `<span class="ebk-head-title-as">${escapeHtml(subAs)}</span>` : ""}</h2>
+            ${count ? `<p class="ebk-desc">${count} ${escapeHtml(t("exams.questionCount"))}</p>` : ""}
+          </div>
+        </header>
+
+        <div class="ebk-read-toolbar">
+          <div class="ebk-instruct">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            ${escapeHtml(t("exams.readOnly"))}
+          </div>
+          <div class="lang-switch ebk-tswitch" role="group" aria-label="Reading language">
+            <button type="button" class="lang-btn ${readLang === "as" ? "active" : ""}" data-exlang="as">${t("topic.lang.as")}</button>
+            <button type="button" class="lang-btn ${readLang === "en" ? "active" : ""}" data-exlang="en">${t("topic.lang.en")}</button>
+          </div>
+        </div>
+
+        <div id="exam-body"></div>
+
+        <div class="ebk-reader-foot">
+          <a class="btn btn-outline btn-sm" href="${secHref}">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+            ${t("exams.backToSection")}
+          </a>
+          <p class="ebk-no-pdf">${escapeHtml(t("exams.readOnly"))}</p>
+        </div>
+      </div>`;
+
+    const body = $("#exam-body");
+    const paint = (lang) => {
+      if (!body) return;
+      if (!count) {
+        body.innerHTML = `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`;
+        return;
+      }
+      body.innerHTML = `<div class="qa-list">${questions.map((q, i) => examQACardHTML(q, i + 1, lang)).join("")}</div>`;
+    };
     paint(readLang);
     showEbookProgress(color);
 

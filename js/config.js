@@ -122,14 +122,20 @@ const CONFIG = {
   },
 
   /* Your Exams library (online reading only, like e-books).
-     index.json lists every exam and its subjects. Each exam keeps one
-     JSON file per subject inside its own folder:
-       data/exams/index.json
+     index.json lists every exam, its subjects and optional sub-categories.
+     Subjects without sub-categories keep one JSON file per subject:
        data/exams/<exam-id>/<section-id>.json
-     To add an exam, add it to index.json and upload its subject files. */
+     Subjects with sub-categories keep ONE JSON FILE PER QUESTION inside the
+     sub-category folder (auto-discovered from the repo, like e-books):
+       data/exams/<exam-id>/<section-id>/<sub-category-id>/<question-file>.json
+     A small index.json manifest inside the folder lists the files and is used
+     as an offline/local-preview fallback when the GitHub API is unavailable. */
   EXAMS: {
     DIR: "data/exams",
     INDEX: "data/exams/index.json",
+    OWNER: "axomexam",
+    REPO: "axomexam.github.io",
+    BRANCH: "main",
   },
 };
 
