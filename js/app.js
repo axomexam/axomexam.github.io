@@ -3053,6 +3053,11 @@
     return !!(exam && exam.status === "available" && (exam.sections || []).length);
   }
 
+  function examCoverAlt(exam, lang) {
+    const txt = ebkLang(exam && exam.coverAlt, lang) || ebkLang(exam && exam.title, lang);
+    return txt || "Exam book cover";
+  }
+
   function examBookCardHTML(exam, i) {
     const color = examColor(exam);
     const titleEn = ebkLang(exam.title, "en");
@@ -3061,10 +3066,11 @@
     const available = examIsAvailable(exam);
     const statusLabel = available ? t("exams.open") : t("exams.comingSoon");
     const name = normalizeText(titleEn + " " + titleAs + " " + subEn);
-    return `
-      <a class="ebook-card reveal exam-card ${available ? "" : "is-soon"}" href="/exams/${encodeURIComponent(exam.id)}" style="--ebk:${color}" data-name="${escapeHtml(name)}" data-delay="${(i % 8) * 50}">
-        <span class="ebook-cover">
-          <span class="ebook-cover-frame" aria-hidden="true"></span>
+    const cover = exam.cover ? String(exam.cover) : "";
+    const soonBadge = available ? "" : `<span class="exam-soon-badge">${escapeHtml(t("exams.comingSoon"))}</span>`;
+    const coverInner = cover
+      ? `<img class="ebook-cover-img" src="${escapeHtml(cover)}" alt="${escapeHtml(examCoverAlt(exam, state.lang))}" loading="lazy" decoding="async">${soonBadge}`
+      : `<span class="ebook-cover-frame" aria-hidden="true"></span>
           <span class="ebook-cover-top">
             <span class="ebook-cover-publisher">axomexam</span>
             <span class="ebook-cover-tag">${escapeHtml(available ? t("nav.exams") : t("exams.comingSoon"))}</span>
@@ -3074,8 +3080,10 @@
             ${titleAs && titleAs !== titleEn ? `<span class="ebk-tt-as">${escapeHtml(titleAs)}</span>` : ""}
           </span>
           <span class="ebook-cover-subject">${escapeHtml(subEn)}</span>
-          ${available ? "" : `<span class="exam-soon-badge">${escapeHtml(t("exams.comingSoon"))}</span>`}
-        </span>
+          ${soonBadge}`;
+    return `
+      <a class="ebook-card reveal exam-card ${available ? "" : "is-soon"}" href="/exams/${encodeURIComponent(exam.id)}" style="--ebk:${color}" data-name="${escapeHtml(name)}" data-delay="${(i % 8) * 50}">
+        <span class="ebook-cover${cover ? " has-photo" : ""}">${coverInner}</span>
         <span class="ebook-meta">
           <b>${escapeHtml(titleEn)}</b>
           <span class="ebook-meta-sub">${titleAs && titleAs !== titleEn ? `<span class="ebk-tt-as">${escapeHtml(titleAs)}</span>` : `<span>${escapeHtml(subEn)}</span>`}</span>
@@ -3240,17 +3248,36 @@
     }
 
     const sections = exam.sections || [];
-    main.innerHTML = `
-      <div class="page-head">
-        <nav class="breadcrumb">
+    const cover = exam.cover ? String(exam.cover) : "";
+    const titleHTML = `${escapeHtml(titleEn)}${titleAs && titleAs !== titleEn ? ` <span class="exam-head-as">${escapeHtml(titleAs)}</span>` : ""}`;
+    const descHTML = `${escapeHtml(subEn)}${subAs && subAs !== subEn ? ` &bull; ${escapeHtml(subAs)}` : ""}`;
+    const crumbHTML = `
           <a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
           <a href="/exams">${t("nav.exams")}</a><span class="bc-sep">/</span>
-          <span>${escapeHtml(titleEn)}</span>
-        </nav>
-        <h1>${escapeHtml(titleEn)}${titleAs && titleAs !== titleEn ? ` <span class="exam-head-as">${escapeHtml(titleAs)}</span>` : ""}</h1>
-        <p class="page-desc">${escapeHtml(subEn)}${subAs && subAs !== subEn ? ` &bull; ${escapeHtml(subAs)}` : ""}</p>
-        <p class="exams-choose">${t("exams.subjects")}</p>
-      </div>
+          <span>${escapeHtml(titleEn)}</span>`;
+    const headHTML = cover
+      ? `<div class="page-head">
+          <nav class="breadcrumb">${crumbHTML}</nav>
+        </div>
+        <section class="exam-cover-hero" style="--ebk:${color}">
+          <div class="exam-cover-hero-media">
+            <img src="${escapeHtml(cover)}" alt="${escapeHtml(examCoverAlt(exam, state.lang))}" width="912" height="1166" loading="eager" decoding="async">
+          </div>
+          <div class="exam-cover-hero-info">
+            <h1>${titleHTML}</h1>
+            <p class="page-desc">${descHTML}</p>
+            <p class="exams-choose">${t("exams.subjects")}</p>
+            <p class="exam-cover-hero-note">${escapeHtml(t("exams.readOnly"))}</p>
+          </div>
+        </section>`
+      : `<div class="page-head">
+          <nav class="breadcrumb">${crumbHTML}</nav>
+          <h1>${titleHTML}</h1>
+          <p class="page-desc">${descHTML}</p>
+          <p class="exams-choose">${t("exams.subjects")}</p>
+        </div>`;
+    main.innerHTML = `
+      ${headHTML}
       <section class="section" style="padding-bottom:46px;">
         <div class="sub-grid exam-sec-grid" style="--cat:${color}">
           ${sections.map((sec, i) => examSectionCardHTML(exam, sec, i)).join("")}
