@@ -3225,21 +3225,82 @@
     observeReveals();
   }
 
-  function examQField(q, base, lang) {
-    if (!q) return "";
-    if (q[base] && typeof q[base] === "object") return q[base][lang] || q[base].en || q[base].as || "";
-    const alt = lang === "en" ? "as" : "en";
-    return q[`${base}_${lang}`] || q[`${base}_${alt}`] || (typeof q[base] === "string" ? q[base] : "") || "";
+  /* Options list for an exam question — same 4-option view as the practice section. */
+  function examOptionsHTML(q, lang) {
+    const options = getOptionsList(q, lang);
+    if (!options.length) return "";
+    return `
+      <div class="qa-options" style="display:flex; flex-direction:column; gap:8px; margin:0 0 12px 0; padding:0; text-align:left;">
+        ${options.map((opt, optIdx) => `
+          <div style="font-size:0.88rem; color:var(--ink-soft,#334155); background:var(--bg-subtle,#f8fafc); padding:8px 12px; border-radius:8px; border:1px solid var(--border,#e2e8f0); display:flex; align-items:flex-start; gap:6px; text-align:left;">
+            <b style="color:var(--primary,#2563eb); flex-shrink:0;">(${String.fromCharCode(65 + optIdx)})</b>
+            <span style="flex:1; line-height:1.4;">${formatMath(opt)}</span>
+          </div>
+        `).join("")}
+      </div>`;
   }
 
-  function examOptionsHTML(q, lang) {
-    const opts = Array.isArray(q && q.options) ? q.options : null;
-    if (!opts || !opts.length) return "";
-    return `<ul class="exam-opts">${opts.map((o, idx) => {
-      const txt = (o && typeof o === "object") ? (o[lang] || o.en || o.as || "") : o;
-      const correct = (typeof q.correct === "number" && q.correct === idx);
-      return `<li class="${correct ? "is-correct" : ""}"><span class="exam-opt-no">${String.fromCharCode(65 + idx)}</span>${escapeHtml(txt)}</li>`;
-    }).join("")}</ul>`;
+  /* If the stored answer is only an option letter, resolve it to that option's text. */
+  function examResolveAnswer(q, lang, answerText) {
+    const plain = String(answerText || "").replace(/<[^>]+>/g, "").trim();
+    const m = /^[\(\[]?([a-eA-E])[\)\]]?[.)]?$/.exec(plain);
+    if (!m) return answerText;
+    const options = getOptionsList(q, lang);
+    const idx = m[1].toLowerCase().charCodeAt(0) - 97;
+    if (options[idx] === undefined || options[idx] === "") return answerText;
+    return `${m[1].toUpperCase()}) ${options[idx]}`;
+  }
+
+  function examQACardHTML(q, n, lang) {
+    const cat = ebkLang(q.category, lang);
+    const qtext = extractField(q, "question", lang);
+    const atext = examResolveAnswer(q, lang, extractField(q, "answer", lang));
+    const explanation = extractField(q, "explanation", lang);
+    const media = mediaBlock(q);
+    const fopts = figureOptions(q);
+
+    const rawAns = (q.a && typeof q.a === "object" && q.a[lang]) || q.a || q.answer;
+    const isStepArray = Array.isArray(rawAns) || atext.includes("qa-step-line");
+
+    const catChip = cat
+      ? `<span style="display:block; margin-bottom:4px; font-size:.68rem; font-weight:800; letter-spacing:.4px; text-transform:uppercase; color:var(--ebk,#4f46e5);">${escapeHtml(cat)}</span>`
+      : "";
+
+    if (isStepArray) {
+      return `
+        <article class="qa-card" data-n="${n}" style="box-sizing:border-box; width:100%; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:12px; padding:18px 20px; margin-bottom:0; box-shadow:0 2px 6px rgba(0,0,0,0.03); text-align:left;">
+          <div class="qa-q" style="margin:0 0 10px 0; padding:0; font-size:1rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">
+            ${catChip}${n}. ${formatMath(qtext)}
+          </div>
+          ${media}
+          ${fopts ? figureOptionsHTML(q, { compact: true }) : examOptionsHTML(q, lang)}
+          <div class="qa-solution" style="border-top:1px dashed var(--border,#e2e8f0); padding-top:10px; margin:0; font-size:0.9rem; line-height:1.6; color:var(--ink-soft,#334155); text-align:left;">
+            <div class="a-body" style="margin:0; padding:0; text-align:left;">${atext}</div>
+            ${explanation ? `
+              <div class="qa-exp" style="margin-top:8px; padding:0; font-size:0.86rem; color:var(--ink-muted,#64748b); text-align:left;">
+                <b style="color:var(--ink,#0f172a);">${lang === "as" ? "ব্যাখ্যা" : "Explanation"}:</b> ${explanation}
+              </div>` : ""}
+          </div>
+        </article>`;
+    }
+
+    return `
+      <article class="qa-card" data-n="${n}" style="box-sizing:border-box; width:100%; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:18px 20px; margin-bottom:0; box-shadow:0 2px 6px rgba(0,0,0,0.03); text-align:left;">
+        <div class="qa-q" style="display:flex; align-items:flex-start; gap:10px; margin:0 0 12px 0; padding:0; text-align:left;">
+          <span class="qno" style="flex-shrink:0; width:28px; height:28px; border-radius:8px; background:var(--primary-soft,#eff6ff); color:var(--primary,#2563eb); font-weight:800; font-size:0.88rem; display:inline-flex; align-items:center; justify-content:center; line-height:1; box-sizing:border-box; margin-top:1px;">${n}</span>
+          <span class="qtext" style="flex:1; font-weight:500; font-size:0.96rem; color:var(--ink,#0f172a); line-height:1.55; text-align:left; margin:0; padding:0;">${catChip}${formatMath(qtext)}</span>
+        </div>
+        ${media}
+        ${fopts ? figureOptionsHTML(q) : examOptionsHTML(q, lang)}
+        ${atext ? `<div class="qa-a" style="margin:10px 0 0 0; padding:0; display:flex; align-items:flex-start; gap:6px; text-align:left;">
+          <span class="a-label" style="font-weight:700; color:var(--primary,#2563eb); flex-shrink:0; font-size:0.92rem;">${t("topic.answer")}:</span>
+          <span class="a-body" style="font-weight:600; color:var(--ink,#0f172a); line-height:1.45; font-size:0.92rem; text-align:left;">${formatMath(atext)}</span>
+        </div>` : ""}
+        ${explanation ? `
+          <div class="qa-exp" style="margin-top:8px; padding:0; font-size:0.86rem; color:var(--ink-muted,#64748b); line-height:1.45; text-align:left;">
+            <b style="color:var(--ink,#0f172a);">${lang === "as" ? "ব্যাখ্যা" : "Explanation"}:</b> ${formatMath(explanation)}
+          </div>` : ""}
+      </article>`;
   }
 
   function examBodyHTML(data, sec, lang) {
@@ -3258,25 +3319,7 @@
     const qs = Array.isArray(data.questions) ? data.questions : [];
     if (!qs.length) return `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`;
 
-    return `<div class="exam-qa-list">${qs.map((q, i) => {
-      const cat = ebkLang(q.category, lang);
-      const qText = examQField(q, "question", lang) || examQField(q, "q", lang);
-      const aText = examQField(q, "answer", lang) || examQField(q, "a", lang);
-      const exText = examQField(q, "explanation", lang);
-      return `
-        <article class="exam-qa">
-          <div class="exam-qa-head">
-            <span class="exam-qa-no">${i + 1}</span>
-            <div class="exam-qa-main">
-              ${cat ? `<span class="exam-qa-cat">${escapeHtml(cat)}</span>` : ""}
-              <p class="exam-qa-q">${escapeHtml(qText)}</p>
-              ${examOptionsHTML(q, lang)}
-            </div>
-          </div>
-          ${aText ? `<div class="exam-qa-ans"><span class="exam-qa-label">${t("topic.answer")}</span><p>${escapeHtml(aText)}</p></div>` : ""}
-          ${exText ? `<div class="exam-qa-expl"><span class="exam-qa-label">${escapeHtml(lang === "as" ? "ব্যাখ্যা" : "Explanation")}</span><p>${escapeHtml(exText)}</p></div>` : ""}
-        </article>`;
-    }).join("")}</div>`;
+    return `<div class="qa-list">${qs.map((q, i) => examQACardHTML(q, i + 1, lang)).join("")}</div>`;
   }
 
   async function renderExamSectionPage(main, examId, sectionId) {
