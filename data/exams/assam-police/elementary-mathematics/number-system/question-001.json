@@ -1,30 +1,470 @@
-{
-  "id": "number-system-001",
-  "q": {
-    "en": "Which of the following is an irrational number?",
-    "as": "তলৰ কোনটো এটা অপৰিমেয় সংখ্যা?"
-  },
-  "options": [
-    {
-      "en": "√2",
-      "as": "√2"
+[
+  {
+    "id": "number-system-001",
+    "q": {
+      "en": "What is the smallest prime number?",
+      "as": "আটাইতকৈ সৰু মৌলিক সংখ্যা কি?"
     },
-    {
-      "en": "0.25",
-      "as": "0.25"
-    },
-    {
-      "en": "3/4",
-      "as": "3/4"
-    },
-    {
-      "en": "-5",
-      "as": "-5"
+    "options": [
+      { "en": "1", "as": "1" },
+      { "en": "2", "as": "2" },
+      { "en": "0", "as": "0" },
+      { "en": "3", "as": "3" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "1 is neither prime nor composite; 2 is the smallest prime number.",
+      "as": "1 মৌলিকো নহয় যৌগিকো নহয়; 2 হ'ল আটাইতকৈ সৰু মৌলিক সংখ্যা।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "√2 cannot be written as a fraction of two integers, so it is irrational.",
-    "as": "√2 ক দুটা পূৰ্ণসংখ্যাৰ ভগ্নাংশ হিচাপে লিখিব নোৱাৰি, গতিকে ই অপৰিমেয়।"
+  },
+  {
+    "id": "number-system-002",
+    "q": {
+      "en": "Which of the following is an irrational number?",
+      "as": "তলৰ কোনটো এটা অপৰিমেয় সংখ্যা?"
+    },
+    "options": [
+      { "en": "0.5", "as": "0.5" },
+      { "en": "22/7", "as": "22/7" },
+      { "en": "√5", "as": "√5" },
+      { "en": "-3", "as": "-3" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "√5 has a non-terminating, non-repeating decimal expansion, so it is irrational.",
+      "as": "√5 অসীম অনাবৃত্ত দশমিক, গতিকে ই অপৰিমেয়।"
+    }
+  },
+  {
+    "id": "number-system-003",
+    "q": {
+      "en": "Which of the following is a rational number?",
+      "as": "তলৰ কোনটো এটা পৰিমেয় সংখ্যা?"
+    },
+    "options": [
+      { "en": "√2", "as": "√2" },
+      { "en": "π", "as": "π" },
+      { "en": "0.333...", "as": "0.333..." },
+      { "en": "√7", "as": "√7" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "0.333... can be written as 1/3, so it is rational.",
+      "as": "0.333... ক 1/3 হিচাপে লিখিব পাৰি, গতিকে ই পৰিমেয়।"
+    }
+  },
+  {
+    "id": "number-system-004",
+    "q": {
+      "en": "The HCF of 12 and 18 is:",
+      "as": "12 আৰু 18 ৰ গৰিষ্ঠ সাধাৰণ গুণনীয়ক (HCF) হ'ল:"
+    },
+    "options": [
+      { "en": "2", "as": "2" },
+      { "en": "3", "as": "3" },
+      { "en": "6", "as": "6" },
+      { "en": "9", "as": "9" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Common factors are 1, 2, 3, 6, so HCF = 6.",
+      "as": "সাধাৰণ গুণনীয়কবোৰ 1, 2, 3, 6, গতিকে HCF = 6।"
+    }
+  },
+  {
+    "id": "number-system-005",
+    "q": {
+      "en": "The LCM of 12 and 18 is:",
+      "as": "12 আৰু 18 ৰ লঘিষ্ঠ সাধাৰণ গুণিতক (LCM) হ'ল:"
+    },
+    "options": [
+      { "en": "36", "as": "36" },
+      { "en": "48", "as": "48" },
+      { "en": "72", "as": "72" },
+      { "en": "108", "as": "108" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "LCM = (12 × 18) / HCF = (12 × 18) / 6 = 36.",
+      "as": "LCM = (12 × 18) / HCF = (12 × 18) / 6 = 36।"
+    }
+  },
+  {
+    "id": "number-system-006",
+    "q": {
+      "en": "The HCF of two numbers is 6 and their LCM is 36. If one number is 12, the other number is:",
+      "as": "দুটা সংখ্যাৰ HCF 6 আৰু LCM 36। এটা সংখ্যা 12 হ'লে আনটো সংখ্যা কিমান?"
+    },
+    "options": [
+      { "en": "18", "as": "18" },
+      { "en": "24", "as": "24" },
+      { "en": "16", "as": "16" },
+      { "en": "30", "as": "30" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Other number = (HCF × LCM) / 12 = (6 × 36) / 12 = 18.",
+      "as": "আনটো সংখ্যা = (HCF × LCM) / 12 = (6 × 36) / 12 = 18।"
+    }
+  },
+  {
+    "id": "number-system-007",
+    "q": {
+      "en": "How many prime numbers are there between 1 and 20?",
+      "as": "1 আৰু 20 ৰ মাজত কিমান মৌলিক সংখ্যা আছে?"
+    },
+    "options": [
+      { "en": "6", "as": "6" },
+      { "en": "7", "as": "7" },
+      { "en": "8", "as": "8" },
+      { "en": "9", "as": "9" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "2, 3, 5, 7, 11, 13, 17, 19 are the 8 prime numbers.",
+      "as": "2, 3, 5, 7, 11, 13, 17, 19 মুঠ 8 টা মৌলিক সংখ্যা।"
+    }
+  },
+  {
+    "id": "number-system-008",
+    "q": {
+      "en": "The number 1 is:",
+      "as": "1 সংখ্যাটো হ'ল:"
+    },
+    "options": [
+      { "en": "a prime number", "as": "এটা মৌলিক সংখ্যা" },
+      { "en": "a composite number", "as": "এটা যৌগিক সংখ্যা" },
+      { "en": "neither prime nor composite", "as": "মৌলিকো নহয় যৌগিকো নহয়" },
+      { "en": "an irrational number", "as": "এটা অপৰিমেয় সংখ্যা" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "1 has only one factor, so it is neither prime nor composite.",
+      "as": "1 ৰ কেৱল এটা গুণনীয়ক, গতিকে ই মৌলিকো নহয় যৌগিকো নহয়।"
+    }
+  },
+  {
+    "id": "number-system-009",
+    "q": {
+      "en": "The smallest whole number is:",
+      "as": "আটাইতকৈ সৰু পূৰ্ণসংখ্যা হ'ল:"
+    },
+    "options": [
+      { "en": "1", "as": "1" },
+      { "en": "0", "as": "0" },
+      { "en": "-1", "as": "-1" },
+      { "en": "2", "as": "2" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Whole numbers start from 0.",
+      "as": "পূৰ্ণসংখ্যা 0 ৰ পৰা আৰম্ভ হয়।"
+    }
+  },
+  {
+    "id": "number-system-010",
+    "q": {
+      "en": "The value of 2^10 is:",
+      "as": "2^10 ৰ মান হ'ল:"
+    },
+    "options": [
+      { "en": "512", "as": "512" },
+      { "en": "1024", "as": "1024" },
+      { "en": "2048", "as": "2048" },
+      { "en": "256", "as": "256" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2^10 = 1024.",
+      "as": "2^10 = 1024।"
+    }
+  },
+  {
+    "id": "number-system-011",
+    "q": {
+      "en": "The unit digit of 7^25 is:",
+      "as": "7^25 ৰ একক স্থানৰ অংক কিমান?"
+    },
+    "options": [
+      { "en": "1", "as": "1" },
+      { "en": "3", "as": "3" },
+      { "en": "7", "as": "7" },
+      { "en": "9", "as": "9" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Powers of 7 cycle 7, 9, 3, 1. 25 mod 4 = 1, so the unit digit is 7.",
+      "as": "7 ৰ ঘাতৰ চক্ৰ 7, 9, 3, 1। 25 mod 4 = 1, গতিকে একক অংক 7।"
+    }
+  },
+  {
+    "id": "number-system-012",
+    "q": {
+      "en": "The unit digit of 3^30 is:",
+      "as": "3^30 ৰ একক স্থানৰ অংক কিমান?"
+    },
+    "options": [
+      { "en": "1", "as": "1" },
+      { "en": "3", "as": "3" },
+      { "en": "9", "as": "9" },
+      { "en": "7", "as": "7" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Powers of 3 cycle 3, 9, 7, 1. 30 mod 4 = 2, so the unit digit is 9.",
+      "as": "3 ৰ ঘাতৰ চক্ৰ 3, 9, 7, 1। 30 mod 4 = 2, গতিকে একক অংক 9।"
+    }
+  },
+  {
+    "id": "number-system-013",
+    "q": {
+      "en": "The sum of the first 10 natural numbers is:",
+      "as": "প্ৰথম 10 টা স্বাভাৱিক সংখ্যাৰ যোগফল কিমান?"
+    },
+    "options": [
+      { "en": "45", "as": "45" },
+      { "en": "50", "as": "50" },
+      { "en": "55", "as": "55" },
+      { "en": "60", "as": "60" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = n(n + 1) / 2 = 10 × 11 / 2 = 55.",
+      "as": "যোগফল = n(n + 1) / 2 = 10 × 11 / 2 = 55।"
+    }
+  },
+  {
+    "id": "number-system-014",
+    "q": {
+      "en": "The decimal form of 3/4 is:",
+      "as": "3/4 ৰ দশমিক ৰূপ হ'ল:"
+    },
+    "options": [
+      { "en": "0.5", "as": "0.5" },
+      { "en": "0.75", "as": "0.75" },
+      { "en": "0.25", "as": "0.25" },
+      { "en": "0.34", "as": "0.34" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "3 ÷ 4 = 0.75.",
+      "as": "3 ÷ 4 = 0.75।"
+    }
+  },
+  {
+    "id": "number-system-015",
+    "q": {
+      "en": "The value of √(0.09) is:",
+      "as": "√(0.09) ৰ মান হ'ল:"
+    },
+    "options": [
+      { "en": "0.3", "as": "0.3" },
+      { "en": "0.03", "as": "0.03" },
+      { "en": "0.9", "as": "0.9" },
+      { "en": "3", "as": "3" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "0.3 × 0.3 = 0.09.",
+      "as": "0.3 × 0.3 = 0.09।"
+    }
+  },
+  {
+    "id": "number-system-016",
+    "q": {
+      "en": "Simplify: 3/4 + 1/2",
+      "as": "সৰল কৰা: 3/4 + 1/2"
+    },
+    "options": [
+      { "en": "1/2", "as": "1/2" },
+      { "en": "5/4", "as": "5/4" },
+      { "en": "4/6", "as": "4/6" },
+      { "en": "1", "as": "1" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LCM of 4 and 2 is 4; 3/4 + 2/4 = 5/4.",
+      "as": "4 আৰু 2 ৰ LCM 4; 3/4 + 2/4 = 5/4।"
+    }
+  },
+  {
+    "id": "number-system-017",
+    "q": {
+      "en": "A number is divisible by 3 if:",
+      "as": "এটা সংখ্যা 3 ৰে বিভাজ্য হ'ব যদি:"
+    },
+    "options": [
+      { "en": "its last digit is 3", "as": "তাৰ শেষ অংক 3 হয়" },
+      { "en": "the sum of its digits is divisible by 3", "as": "তাৰ অংকবোৰৰ যোগফল 3 ৰে বিভাজ্য হয়" },
+      { "en": "it is an even number", "as": "ই এটা যুগ্ম সংখ্যা হয়" },
+      { "en": "its last digit is 0", "as": "তাৰ শেষ অংক 0 হয়" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This is the divisibility rule for 3.",
+      "as": "এইটো 3 ৰ বিভাজ্যতাৰ নিয়ম।"
+    }
+  },
+  {
+    "id": "number-system-018",
+    "q": {
+      "en": "The number 12345 is divisible by:",
+      "as": "12345 সংখ্যাটো কেৰে বিভাজ্য?"
+    },
+    "options": [
+      { "en": "2", "as": "2" },
+      { "en": "3", "as": "3" },
+      { "en": "4", "as": "4" },
+      { "en": "9", "as": "9" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "1 + 2 + 3 + 4 + 5 = 15, which is divisible by 3, so 12345 is divisible by 3.",
+      "as": "1 + 2 + 3 + 4 + 5 = 15, যি 3 ৰে বিভাজ্য, গতিকে 12345 3 ৰে বিভাজ্য।"
+    }
+  },
+  {
+    "id": "number-system-019",
+    "q": {
+      "en": "The LCM of 8, 12 and 15 is:",
+      "as": "8, 12 আৰু 15 ৰ LCM হ'ল:"
+    },
+    "options": [
+      { "en": "60", "as": "60" },
+      { "en": "90", "as": "90" },
+      { "en": "120", "as": "120" },
+      { "en": "180", "as": "180" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "LCM of 8, 12, 15 = 120.",
+      "as": "8, 12, 15 ৰ LCM = 120।"
+    }
+  },
+  {
+    "id": "number-system-020",
+    "q": {
+      "en": "The HCF of 24, 36 and 60 is:",
+      "as": "24, 36 আৰু 60 ৰ HCF হ'ল:"
+    },
+    "options": [
+      { "en": "6", "as": "6" },
+      { "en": "12", "as": "12" },
+      { "en": "18", "as": "18" },
+      { "en": "24", "as": "24" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "HCF of 24, 36 and 60 = 12.",
+      "as": "24, 36 আৰু 60 ৰ HCF = 12।"
+    }
+  },
+  {
+    "id": "number-system-021",
+    "q": {
+      "en": "The HCF of two coprime numbers is always:",
+      "as": "দুটা সহ-মৌলিক সংখ্যাৰ HCF সদায়:"
+    },
+    "options": [
+      { "en": "0", "as": "0" },
+      { "en": "1", "as": "1" },
+      { "en": "the smaller number", "as": "সৰু সংখ্যাটো" },
+      { "en": "the larger number", "as": "ডাঙৰ সংখ্যাটো" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Coprime numbers have no common factor other than 1, so HCF = 1.",
+      "as": "সহ-মৌলিক সংখ্যাৰ 1 ৰ বাহিৰে সাধাৰণ গুণনীয়ক নাথাকে, গতিকে HCF = 1।"
+    }
+  },
+  {
+    "id": "number-system-022",
+    "q": {
+      "en": "Which of the following is a composite number?",
+      "as": "তলৰ কোনটো এটা যৌগিক সংখ্যা?"
+    },
+    "options": [
+      { "en": "2", "as": "2" },
+      { "en": "3", "as": "3" },
+      { "en": "4", "as": "4" },
+      { "en": "5", "as": "5" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "4 = 2 × 2, so 4 is a composite number.",
+      "as": "4 = 2 × 2, গতিকে 4 এটা যৌগিক সংখ্যা।"
+    }
+  },
+  {
+    "id": "number-system-023",
+    "q": {
+      "en": "The decimal expansion of 1/8 is:",
+      "as": "1/8 ৰ দশমিক সম্প্ৰসাৰণ হ'ল:"
+    },
+    "options": [
+      { "en": "0.125", "as": "0.125" },
+      { "en": "0.12", "as": "0.12" },
+      { "en": "0.15", "as": "0.15" },
+      { "en": "0.18", "as": "0.18" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "1 ÷ 8 = 0.125, a terminating decimal.",
+      "as": "1 ÷ 8 = 0.125, এটা অন্তবৰ্তী দশমিক।"
+    }
+  },
+  {
+    "id": "number-system-024",
+    "q": {
+      "en": "0 is a:",
+      "as": "0 হ'ল এটা:"
+    },
+    "options": [
+      { "en": "natural number", "as": "স্বাভাৱিক সংখ্যা" },
+      { "en": "whole number", "as": "পূৰ্ণসংখ্যা" },
+      { "en": "prime number", "as": "মৌলিক সংখ্যা" },
+      { "en": "irrational number", "as": "অপৰিমেয় সংখ্যা" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "0 is a whole number but not a natural number.",
+      "as": "0 এটা পূৰ্ণসংখ্যা কিন্তু স্বাভাৱিক সংখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "number-system-025",
+    "q": {
+      "en": "The smallest natural number is:",
+      "as": "আটাইতকৈ সৰু স্বাভাৱিক সংখ্যা হ'ল:"
+    },
+    "options": [
+      { "en": "0", "as": "0" },
+      { "en": "1", "as": "1" },
+      { "en": "-1", "as": "-1" },
+      { "en": "2", "as": "2" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Natural numbers start from 1.",
+      "as": "স্বাভাৱিক সংখ্যা 1 ৰ পৰা আৰম্ভ হয়।"
+    }
+  },
+  {
+    "id": "number-system-026",
+    "q": {
+      "en": "The product of a number and its reciprocal is:",
+      "as": "এটা সংখ্যা আৰু তাৰ প্ৰতিলোমৰ গুণফল হ'ল:"
+    },
+    "options": [
+      { "en": "0", "as": "0" },
+      { "en": "1", "as": "1" },
+      { "en": "the number itself", "as": "সংখ্যাটো নিজেই" },
+      { "en": "-1", "as": "-1" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "x × (1/x) = 1.",
+      "as": "x × (1/x) = 1।"
+    }
   }
-}
+]
