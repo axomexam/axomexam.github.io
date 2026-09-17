@@ -276,12 +276,13 @@ const API = (() => {
   }
 
   /* ---- One sub-category question bank ----
-     Every *.json file inside the sub-category folder is ONE question with
-     bilingual text + 4 options (the "practice" layout). Files are discovered
-     from the public GitHub Contents API so newly uploaded questions appear
-     automatically. When that API is unavailable (offline / local preview),
-     the folder's index.json manifest lists the files to load. An index.json
-     manifest is never treated as a question. */
+     Every *.json file inside the sub-category folder is either ONE question
+     object with bilingual text + 4 options, or an ARRAY of such question
+     objects (the "practice" layout). Files are discovered from the public
+     GitHub Contents API so newly uploaded questions appear automatically.
+     When that API is unavailable (offline / local preview), the folder's
+     index.json manifest lists the files to load. An index.json manifest is
+     never treated as a question. */
   async function listExamQuestions(examId, sectionId, subId) {
     const cfg = CONFIG.EXAMS || {};
     const dir = cfg.DIR || "data/exams";
@@ -333,13 +334,22 @@ const API = (() => {
     const records = await Promise.all(files.map(async (f) => {
       try {
         const data = await fetchJSON(f.url);
-        if (data && typeof data === "object" && !Array.isArray(data) && !data.file) data.file = f.name;
+        if (Array.isArray(data)) {
+          return data.map((item) => {
+            if (item && typeof item === "object" && !Array.isArray(item)) {
+              if (!item.file) item.file = f.name;
+              return item;
+            }
+            return null;
+          });
+        }
+        if (data && typeof data === "object" && !data.file) data.file = f.name;
         return data;
       } catch (e) {
         return null;
       }
     }));
-    const result = records.filter(Boolean);
+    const result = records.filter(Boolean).flat().filter(Boolean);
     examQuestionCache[cacheKey] = result;
     return result;
   }
