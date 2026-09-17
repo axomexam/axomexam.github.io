@@ -1,30 +1,842 @@
-{
-  "id": "average-001",
-  "q": {
-    "en": "What is the average of 5, 10, 15, 20 and 25?",
-    "as": "৫, ১০, ১৫, ২০ আৰু ২৫ ৰ গড় কিমান?"
-  },
-  "options": [
-    {
-      "en": "15",
-      "as": "১৫"
+[
+  {
+    "id": "average-001",
+    "q": {
+      "en": "Find the average of 5, 10, 15, 20 and 25.",
+      "as": "৫, ১০, ১৫, ২০ আৰু ২৫ ৰ গৰ নিৰ্ণয় কৰা।"
     },
-    {
-      "en": "12",
-      "as": "১২"
-    },
-    {
-      "en": "18",
-      "as": "১৮"
-    },
-    {
-      "en": "20",
-      "as": "২০"
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 5 + 10 + 15 + 20 + 25 = 75. Average = Sum / Count = 75 / 5 = 15.",
+      "as": "যোগফল = ৫ + ১০ + ১৫ + ২০ + ২৫ = ৭৫। গৰ = যোগফল / সংখ্যা = ৭৫ / ৫ = ১৫।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "Sum = 75; average = 75 / 5 = 15.",
-    "as": "সমষ্টি = ৭৫; গড় = ৭৫ / ৫ = ১৫।"
+  },
+  {
+    "id": "average-002",
+    "q": {
+      "en": "What is the average of the first 10 natural numbers?",
+      "as": "প্ৰথম ১০ টা স্বাভাৱিক সংখ্যাৰ গৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "5.5",
+        "as": "৫.৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "6.5",
+        "as": "৬.৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum of first n natural numbers = n(n+1)/2 = 10 × 11 / 2 = 55. Average = 55 / 10 = 5.5.",
+      "as": "প্ৰথম n টা স্বাভাৱিক সংখ্যাৰ যোগফল = n(n+১)/২ = ১০ × ১১ / ২ = ৫৫। গৰ = ৫৫ / ১০ = ৫.৫।"
+    }
+  },
+  {
+    "id": "average-003",
+    "q": {
+      "en": "Find the average of the first 5 even natural numbers.",
+      "as": "প্ৰথম ৫ টা যুগ্ম স্বাভাৱিক সংখ্যাৰ গৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "First 5 even numbers are 2, 4, 6, 8, 10. Sum = 30. Average = 30 / 5 = 6.",
+      "as": "প্ৰথম ৫ টা যুগ্ম সংখ্যা হ'ল ২, ৪, ৬, ৮, ১০। যোগফল = ৩০। গৰ = ৩০ / ৫ = ৬।"
+    }
+  },
+  {
+    "id": "average-004",
+    "q": {
+      "en": "Find the average of the first 5 odd natural numbers.",
+      "as": "প্ৰথম ৫ টা অযুগ্ম স্বাভাৱিক সংখ্যাৰ গৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "First 5 odd numbers are 1, 3, 5, 7, 9. Sum = 25. Average = 25 / 5 = 5.",
+      "as": "প্ৰথম ৫ টা অযুগ্ম সংখ্যা হ'ল ১, ৩, ৫, ৭, ৯। যোগফল = ২৫। গৰ = ২৫ / ৫ = ৫।"
+    }
+  },
+  {
+    "id": "average-005",
+    "q": {
+      "en": "The average of the first n natural numbers is 15. Find the value of n.",
+      "as": "প্ৰথম n টা স্বাভাৱিক সংখ্যাৰ গৰ ১৫। n ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Average of first n natural numbers = (n + 1) / 2 = 15, so n + 1 = 30 and n = 29.",
+      "as": "প্ৰথম n টা স্বাভাৱিক সংখ্যাৰ গৰ = (n + ১) / ২ = ১৫, গতিকে n + ১ = ৩০ আৰু n = ২৯।"
+    }
+  },
+  {
+    "id": "average-006",
+    "q": {
+      "en": "Find the average of the squares of the first 10 natural numbers.",
+      "as": "প্ৰথম ১০ টা স্বাভাৱিক সংখ্যাৰ বৰ্গৰ গৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "38.5",
+        "as": "৩৮.৫"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum of squares = n(n+1)(2n+1)/6 = 10 × 11 × 21 / 6 = 385. Average = 385 / 10 = 38.5.",
+      "as": "বৰ্গৰ যোগফল = n(n+১)(২n+১)/৬ = ১০ × ১১ × ২১ / ৬ = ৩৮৫। গৰ = ৩৮৫ / ১০ = ৩৮.৫।"
+    }
+  },
+  {
+    "id": "average-007",
+    "q": {
+      "en": "Find the average of all consecutive numbers from 1 to 20.",
+      "as": "১ ৰ পৰা ২০ লৈকে সকলো ক্ৰমিক সংখ্যাৰ গৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10.5",
+        "as": "১০.৫"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "11.5",
+        "as": "১১.৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Average of consecutive numbers from 1 to n = (1 + n) / 2 = (1 + 20) / 2 = 10.5.",
+      "as": "১ ৰ পৰা n লৈকে ক্ৰমিক সংখ্যাৰ গৰ = (১ + n) / ২ = (১ + ২০) / ২ = ১০.৫।"
+    }
+  },
+  {
+    "id": "average-008",
+    "q": {
+      "en": "Find the average of the first 10 even natural numbers (2, 4, 6, ..., 20).",
+      "as": "প্ৰথম ১০ টা যুগ্ম স্বাভাৱিক সংখ্যা (২, ৪, ৬, ..., ২০) ৰ গৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Average of first n even numbers = n + 1 = 10 + 1 = 11. Also (2 + 20) / 2 = 11.",
+      "as": "প্ৰথম n টা যুগ্ম সংখ্যাৰ গৰ = n + ১ = ১০ + ১ = ১১। আকৌ (২ + ২০) / ২ = ১১।"
+    }
+  },
+  {
+    "id": "average-009",
+    "q": {
+      "en": "The average age of 10 students is 15 years. When a new student joins, the average becomes 15.5 years. Find the age of the new student.",
+      "as": "১০ জন ছাত্ৰৰ গৰ বয়স ১৫ বছৰ। এজন নতুন ছাত্ৰ যোগ দিয়াৰ পিছত গৰ ১৫.৫ বছৰ হয়। নতুন ছাত্ৰজনৰ বয়স নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "20.5",
+        "as": "২০.৫"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total age of 10 students = 10 × 15 = 150. Total of 11 students = 11 × 15.5 = 170.5. Age of new student = 170.5 - 150 = 20.5 years.",
+      "as": "১০ জন ছাত্ৰৰ মুঠ বয়স = ১০ × ১৫ = ১৫০। ১১ জন ছাত্ৰৰ মুঠ = ১১ × ১৫.৫ = ১৭০.৫। নতুন ছাত্ৰজনৰ বয়স = ১৭০.৫ - ১৫০ = ২০.৫ বছৰ।"
+    }
+  },
+  {
+    "id": "average-010",
+    "q": {
+      "en": "The average of 11 numbers is 30. If the number 40 is removed, what is the new average?",
+      "as": "১১ টা সংখ্যাৰ গৰ ৩০। যদি ৪০ সংখ্যাটো বাদ দিয়া হয়, নতুন গৰ কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "29.5",
+        "as": "২৯.৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "30.5",
+        "as": "৩০.৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 11 × 30 = 330. After removing 40, remaining total = 330 - 40 = 290 and count = 10. New average = 290 / 10 = 29.",
+      "as": "মুঠ = ১১ × ৩০ = ৩৩০। ৪০ বাদ দিয়াৰ পিছত বাকী যোগফল = ৩৩০ - ৪০ = ২৯০, আৰু সংখ্যা = ১০। নতুন গৰ = ২৯০ / ১০ = ২৯।"
+    }
+  },
+  {
+    "id": "average-011",
+    "q": {
+      "en": "A batsman has an average of 45 runs in 10 innings. He scores 67 runs in the next innings. Find his new average.",
+      "as": "এজন বেটছমেনৰ ১০ টা ইনিংছত গৰ ৪৫ ৰান। পৰৱৰ্তী ইনিংছত তেওঁ ৬৭ ৰান কৰে। তেওঁৰ নতুন গৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "46",
+        "as": "৪৬"
+      },
+      {
+        "en": "47",
+        "as": "৪৭"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Runs in 10 innings = 10 × 45 = 450. Total after next innings = 450 + 67 = 517. New average = 517 / 11 = 47.",
+      "as": "১০ টা ইনিংছত ৰান = ১০ × ৪৫ = ৪৫০। পৰৱৰ্তী ইনিংছৰ পিছত মুঠ = ৪৫০ + ৬৭ = ৫১৭। নতুন গৰ = ৫১৭ / ১১ = ৪৭।"
+    }
+  },
+  {
+    "id": "average-012",
+    "q": {
+      "en": "A batsman has an average of 30 runs in 10 innings. How many runs must he score in the next innings to raise his average to 35?",
+      "as": "এজন বেটছমেনৰ ১০ টা ইনিংছত গৰ ৩০ ৰান। তেওঁৰ গৰ ৩৫ লৈ বৃদ্ধি কৰিবলৈ পৰৱৰ্তী ইনিংছত কিমান ৰান কৰিব লাগিব?"
+    },
+    "options": [
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "85",
+        "as": "৮৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Required total for 11 innings = 11 × 35 = 385. Current total = 10 × 30 = 300. Required runs = 385 - 300 = 85.",
+      "as": "১১ টা ইনিংছৰ প্ৰয়োজনীয় মুঠ = ১১ × ৩৫ = ৩৮৫। বৰ্তমান মুঠ = ১০ × ৩০ = ৩০০। প্ৰয়োজনীয় ৰান = ৩৮৫ - ৩০০ = ৮৫।"
+    }
+  },
+  {
+    "id": "average-013",
+    "q": {
+      "en": "The average of 5 numbers is 18. If one number is excluded, the average of the remaining numbers becomes 16. Find the excluded number.",
+      "as": "৫ টা সংখ্যাৰ গৰ ১৮। এটা সংখ্যা বাদ দিলে বাকী সংখ্যাবোৰৰ গৰ ১৬ হয়। বাদ দিয়া সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = 5 × 18 = 90. Total of remaining 4 = 4 × 16 = 64. Excluded number = 90 - 64 = 26.",
+      "as": "মুঠ = ৫ × ১৮ = ৯০। বাকী ৪ টাৰ মুঠ = ৪ × ১৬ = ৬৪। বাদ দিয়া সংখ্যা = ৯০ - ৬৪ = ২৬।"
+    }
+  },
+  {
+    "id": "average-014",
+    "q": {
+      "en": "In a class, 20 boys have an average mark of 60 and 30 girls have an average mark of 70. Find the average mark of the whole class.",
+      "as": "এখন শ্ৰেণীত ২০ জন ল'ৰাৰ গৰ নম্বৰ ৬০ আৰু ৩০ জনী ছোৱালীৰ গৰ নম্বৰ ৭০। গোটেই শ্ৰেণীৰ গৰ নম্বৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "68",
+        "as": "৬৮"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total marks = 20 × 60 + 30 × 70 = 1200 + 2100 = 3300. Total students = 50. Average = 3300 / 50 = 66.",
+      "as": "মুঠ নম্বৰ = ২০ × ৬০ + ৩০ × ৭০ = ১২০০ + ২১০০ = ৩৩০০। মুঠ ছাত্ৰ-ছাত্ৰী = ৫০। গৰ = ৩৩০০ / ৫০ = ৬৬।"
+    }
+  },
+  {
+    "id": "average-015",
+    "q": {
+      "en": "A car covers 60 km at 30 km/h and another 60 km at 60 km/h. Find its average speed for the whole journey.",
+      "as": "এখন গাৰীয়ে ৩০ কিমি/ঘণ্টা বেগেৰে ৬০ কিমি আৰু ৬০ কিমি/ঘণ্টা বেগেৰে ৬০ কিমি অতিক্ৰম কৰে। গোটেই যাত্ৰাৰ গৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Time = 60/30 + 60/60 = 2 + 1 = 3 hours. Total distance = 120 km. Average speed = 120 / 3 = 40 km/h.",
+      "as": "সময় = ৬০/৩০ + ৬০/৬০ = ২ + ১ = ৩ ঘণ্টা। মুঠ দুৰত্ব = ১২০ কিমি। গৰ বেগ = ১২০ / ৩ = ৪০ কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "average-016",
+    "q": {
+      "en": "The average of 4 numbers is 25. If every number is increased by 5, what is the new average?",
+      "as": "৪ টা সংখ্যাৰ গৰ ২৫। যদি প্ৰতিটো সংখ্যা ৫ ৰে বৃদ্ধি কৰা হয়, নতুন গৰ কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "When every number is increased by 5, the average also increases by 5. New average = 25 + 5 = 30.",
+      "as": "প্ৰতিটো সংখ্যা ৫ ৰে বৃদ্ধি কৰিলে গৰও ৫ ৰে বৃদ্ধি হয়। নতুন গৰ = ২৫ + ৫ = ৩০।"
+    }
+  },
+  {
+    "id": "average-017",
+    "q": {
+      "en": "The average of 8 numbers is 12. If every number is multiplied by 3, what is the new average?",
+      "as": "৮ টা সংখ্যাৰ গৰ ১২। যদি প্ৰতিটো সংখ্যাক ৩ ৰে পূৰণ কৰা হয়, নতুন গৰ কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "When every number is multiplied by 3, the average is also multiplied by 3. New average = 12 × 3 = 36.",
+      "as": "প্ৰতিটো সংখ্যাক ৩ ৰে পূৰণ কৰিলে গৰও ৩ ৰে পূৰণ হয়। নতুন গৰ = ১২ × ৩ = ৩৬।"
+    }
+  },
+  {
+    "id": "average-018",
+    "q": {
+      "en": "The average of 3 consecutive numbers is 20. Find the largest of them.",
+      "as": "৩ টা ক্ৰমিক সংখ্যাৰ গৰ ২০। ইয়াৰ ভিতৰৰ আটাইতকৈ ডাঙৰটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "For consecutive numbers the average is the middle number, so the numbers are 19, 20, 21. The largest is 21.",
+      "as": "ক্ৰমিক সংখ্যাৰ ক্ষেত্ৰত গৰটোওই মাজৰ সংখ্যা, গতিকে সংখ্যাকৈটা ১৯, ২০, ২১। আটাইতকৈ ডাঙৰটো ২১।"
+    }
+  },
+  {
+    "id": "average-019",
+    "q": {
+      "en": "The average of 5 consecutive even numbers is 24. Find the largest number.",
+      "as": "৫ টা ক্ৰমিক যুগ্ম সংখ্যাৰ গৰ ২৪। আটাইতকৈ ডাঙৰ সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The average is the middle number, so the numbers are 20, 22, 24, 26, 28. The largest is 28.",
+      "as": "গৰটোওই মাজৰ সংখ্যা, গতিকে সংখ্যাকৈটা ২০, ২২, ২৪, ২৬, ২৮। আটাইতকৈ ডাঙৰটো ২৮।"
+    }
+  },
+  {
+    "id": "average-020",
+    "q": {
+      "en": "The average of 11 results is 30. The average of the first 6 results is 28 and that of the last 6 is 32. Find the 6th result.",
+      "as": "১১ টা ফলাফলৰ গৰ ৩০। প্ৰথম ৬ টাৰ গৰ ২৮ আৰু শেষৰ ৬ টাৰ গৰ ৩২। ৬ নম্বৰ ফলাফলটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total of 11 = 11 × 30 = 330. Sum of first 6 = 6 × 28 = 168 and last 6 = 6 × 32 = 192, together 360. The 6th result is counted twice, so it is 360 - 330 = 30.",
+      "as": "১১ টাৰ মুঠ = ১১ × ৩০ = ৩৩০। প্ৰথম ৬ টাৰ যোগফল = ৬ × ২৮ = ১৬৮ আৰু শেষৰ ৬ টাৰ = ৬ × ৩২ = ১৯২, একেলগে ৩৬০। ৬ নম্বৰ ফলাফল দুবাৰ গণনা হয়, গতিকে ই ৩৬০ - ৩৩০ = ৩০।"
+    }
+  },
+  {
+    "id": "average-021",
+    "q": {
+      "en": "The average weight of 8 persons is 56 kg. When a new person joins, the average becomes 57 kg. Find the weight of the new person.",
+      "as": "৮ জন ব্যক্তিৰ গৰ ওজন ৫৬ কিলোগ্ৰাম। এজন নতুন ব্যক্তি যোগ দিলে গৰ ৫৭ কিলোগ্ৰাম হয়। নতুন ব্যক্তিজনৰ ওজন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "62",
+        "as": "৬২"
+      },
+      {
+        "en": "68",
+        "as": "৬৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total weight of 8 = 8 × 56 = 448. Total of 9 = 9 × 57 = 513. Weight of new person = 513 - 448 = 65 kg.",
+      "as": "৮ জনৰ মুঠ ওজন = ৮ × ৫৬ = ৪৪৮। ৯ জনৰ মুঠ = ৯ × ৫৭ = ৫১৩। নতুন ব্যক্তিজনৰ ওজন = ৫১৩ - ৪৪৮ = ৬৫ কিলোগ্ৰাম।"
+    }
+  },
+  {
+    "id": "average-022",
+    "q": {
+      "en": "The average of 20 numbers is 12. If the average of the first 10 numbers is 10, find the average of the remaining 10 numbers.",
+      "as": "২০ টা সংখ্যাৰ গৰ ১২। যদি প্ৰথম ১০ টা সংখ্যাৰ গৰ ১০, তেন্তে বাকী ১০ টা সংখ্যাৰ গৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = 20 × 12 = 240. Sum of first 10 = 10 × 10 = 100. Sum of remaining 10 = 240 - 100 = 140. Average = 140 / 10 = 14.",
+      "as": "মুঠ = ২০ × ১২ = ২৪০। প্ৰথম ১০ টাৰ যোগফল = ১০ × ১০ = ১০০। বাকী ১০ টাৰ যোগফল = ২৪০ - ১০০ = ১৪০। গৰ = ১৪০ / ১০ = ১৪।"
+    }
+  },
+  {
+    "id": "average-023",
+    "q": {
+      "en": "A student's average marks in 5 subjects is 72. He scores 84 in the 6th subject. Find his new average.",
+      "as": "এজন ছাত্ৰৰ ৫ টা বিষয়ত গৰ নম্বৰ ৭২। ৬ নম্বৰ বিষয়ত তেওঁ ৮৪ নম্বৰ পায়। তেওঁৰ নতুন গৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "73",
+        "as": "৭৩"
+      },
+      {
+        "en": "74",
+        "as": "৭৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total of 5 subjects = 5 × 72 = 360. Total of 6 subjects = 360 + 84 = 444. New average = 444 / 6 = 74.",
+      "as": "৫ টা বিষয়ৰ মুঠ = ৫ × ৭২ = ৩৬০। ৬ টা বিষয়ৰ মুঠ = ৩৬০ + ৮৪ = ৪৪৪। নতুন গৰ = ৪৪৪ / ৬ = ৭৪।"
+    }
+  },
+  {
+    "id": "average-024",
+    "q": {
+      "en": "The average of 7 numbers is 40. The average of the first 4 is 35 and that of the last 4 is 45. Find the 4th number.",
+      "as": "৭ টা সংখ্যাৰ গৰ ৪০। প্ৰথম ৪ টাৰ গৰ ৩৫ আৰু শেষৰ ৪ টাৰ গৰ ৪৫। ৪ নম্বৰ সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total of 7 = 7 × 40 = 280. Sum of first 4 = 4 × 35 = 140 and last 4 = 4 × 45 = 180, together 320. The 4th number is counted twice, so it is 320 - 280 = 40.",
+      "as": "৭ টাৰ মুঠ = ৭ × ৪০ = ২৮০। প্ৰথম ৪ টাৰ যোগফল = ৪ × ৩৫ = ১৪০ আৰু শেষৰ ৪ টাৰ = ৪ × ৪৫ = ১৮০, একেলগে ৩২০। ৪ নম্বৰ সংখ্যা দুবাৰ গণনা হয়, গতিকে ই ৩২০ - ২৮০ = ৪০।"
+    }
+  },
+  {
+    "id": "average-025",
+    "q": {
+      "en": "The average of 10 observations is 15. Later it was found that an observation 35 was misread as 53. Find the correct average.",
+      "as": "১০ টা পৰ্যবেক্ষণৰ গৰ ১৫। পিছত ধৰা পৰিল যে ৩৫ মান এটা পৰ্যবেক্ষণ ৫৩ বুলি ভুলকৈ পঢ়়া হৈছিল। শুদ্ধ গৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "13.5",
+        "as": "১৩.৫"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "13.2",
+        "as": "১৩.২"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Wrong total = 10 × 15 = 150. Correct total = 150 - 53 + 35 = 132. Correct average = 132 / 10 = 13.2.",
+      "as": "ভুল মুঠ = ১০ × ১৫ = ১৫০। শুদ্ধ মুঠ = ১৫০ - ৫৩ + ৩৫ = ১৩২। শুদ্ধ গৰ = ১৩২ / ১০ = ১৩.২।"
+    }
+  },
+  {
+    "id": "average-026",
+    "q": {
+      "en": "Find the average of all natural numbers from 1 to 100.",
+      "as": "১ ৰ পৰা ১০০ লৈকে সকলো স্বাভাৱিক সংখ্যাৰ গৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "50.5",
+        "as": "৫০.৫"
+      },
+      {
+        "en": "51",
+        "as": "৫১"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Average of numbers from 1 to n = (1 + n) / 2 = (1 + 100) / 2 = 50.5.",
+      "as": "১ ৰ পৰা n লৈকে সংখ্যাৰ গৰ = (১ + n) / ২ = (১ + ১০০) / ২ = ৫০.৫।"
+    }
+  },
+  {
+    "id": "average-027",
+    "q": {
+      "en": "The mean of 5 numbers is 27. If one number is excluded, the mean becomes 25. Find the excluded number.",
+      "as": "৫ টা সংখ্যাৰ মাধ্য ২৭। এটা সংখ্যা বাদ দিলে মাধ্য ২৫ হয়। বাদ দিয়া সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 5 × 27 = 135. Total of remaining 4 = 4 × 25 = 100. Excluded number = 135 - 100 = 35.",
+      "as": "মুঠ = ৫ × ২৭ = ১৩৫। বাকী ৪ টাৰ মুঠ = ৪ × ২৫ = ১০০। বাদ দিয়া সংখ্যা = ১৩৫ - ১০০ = ৩৫।"
+    }
+  },
+  {
+    "id": "average-028",
+    "q": {
+      "en": "Find the average of the first 20 natural numbers.",
+      "as": "প্ৰথম ২০ টা স্বাভাৱিক সংখ্যাৰ গৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "10.2",
+        "as": "১০.২"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "10.5",
+        "as": "১০.৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Average of first n natural numbers = (n + 1) / 2 = (20 + 1) / 2 = 21 / 2 = 10.5.",
+      "as": "প্ৰথম n টা স্বাভাৱিক সংখ্যাৰ গৰ = (n + ১) / ২ = (২০ + ১) / ২ = ২১ / ২ = ১০.৫।"
+    }
   }
-}
+]
