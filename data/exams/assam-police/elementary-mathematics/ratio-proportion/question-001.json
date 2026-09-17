@@ -1,30 +1,842 @@
-{
-  "id": "ratio-proportion-001",
-  "q": {
-    "en": "If a : b = 2 : 3 and b : c = 4 : 5, then a : c is —",
-    "as": "যদি a : b = 2 : 3 আৰু b : c = 4 : 5 হয়, তেন্তে a : c হ'ব —"
-  },
-  "options": [
-    {
-      "en": "8 : 15",
-      "as": "৮ : ১৫"
+[
+  {
+    "id": "ratio-proportion-001",
+    "q": {
+      "en": "Simplify the ratio 15 : 25.",
+      "as": "১৫ : ২৫ অনুপাতটো সৰল কৰা।"
     },
-    {
-      "en": "2 : 5",
-      "as": "২ : ৫"
-    },
-    {
-      "en": "3 : 4",
-      "as": "৩ : ৪"
-    },
-    {
-      "en": "5 : 8",
-      "as": "৫ : ৮"
+    "options": [
+      {
+        "en": "5 : 3",
+        "as": "৫ : ৩"
+      },
+      {
+        "en": "3 : 5",
+        "as": "৩ : ৫"
+      },
+      {
+        "en": "15 : 5",
+        "as": "১৫ : ৫"
+      },
+      {
+        "en": "1 : 5",
+        "as": "১ : ৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Divide both terms by their HCF 5: 15 / 5 : 25 / 5 = 3 : 5.",
+      "as": "উভয় পদক সৰ্বোচ্চ সাধাৰণ উৎপাদক ৫ ৰে ভাগ কৰা: ১৫ / ৫ : ২৫ / ৫ = ৩ : ৫।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "a : c = (2×4) : (3×5) = 8 : 15.",
-    "as": "a : c = (২×৪) : (৩×৫) = ৮ : ১৫।"
+  },
+  {
+    "id": "ratio-proportion-002",
+    "q": {
+      "en": "1200 rupees is divided between two persons in the ratio 2 : 3. Find the larger share.",
+      "as": "১২০০ টকা দুজন ব্যক্তিৰ মাজত ২ : ৩ অনুপাতত ভাগ কৰা হ'ল। ডাঙৰ অংশটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "480 rupees",
+        "as": "৪৮০ টকা"
+      },
+      {
+        "en": "600 rupees",
+        "as": "৬০০ টকা"
+      },
+      {
+        "en": "720 rupees",
+        "as": "৭২০ টকা"
+      },
+      {
+        "en": "800 rupees",
+        "as": "৮০০ টকা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total parts = 2 + 3 = 5. One part = 1200 / 5 = 240. Larger share = 3 × 240 = 720 rupees.",
+      "as": "মুঠ অংশ = ২ + ৩ = ৫। এটা অংশ = ১২০০ / ৫ = ২৪০। ডাঙৰ অংশ = ৩ × ২৪০ = ৭২০ টকা।"
+    }
+  },
+  {
+    "id": "ratio-proportion-003",
+    "q": {
+      "en": "Find the value of × if 4 : 5 = 12 : x.",
+      "as": "৪ : ৫ = ১২ : × হ'লে × ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In a proportion, product of extremes = product of means: 4 × x = 5 × 12, so × = 60 / 4 = 15.",
+      "as": "সমানুপাতত চৰম পদৰ গুণফল = মধ্য পদৰ গুণফল: ৪ × x = ৫ × ১২, গতিকে × = ৬০ / ৪ = ১৫।"
+    }
+  },
+  {
+    "id": "ratio-proportion-004",
+    "q": {
+      "en": "Find the fourth proportional to 3, 8 and 9.",
+      "as": "৩, ৮ আৰু ৯ ৰ চতুৰ্থ সমানুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Let the fourth proportional be x. Then 3 : 8 = 9 : x, so × = (8 × 9) / 3 = 24.",
+      "as": "চতুৰ্থ সমানুপাত × ধৰা হওক। তেন্তে ৩ : ৮ = ৯ : x, গতিকে × = (৮ × ৯) / ৩ = ২৪।"
+    }
+  },
+  {
+    "id": "ratio-proportion-005",
+    "q": {
+      "en": "Find the third proportional to 4 and 8.",
+      "as": "৪ আৰু ৮ ৰ তৃতীয় সমানুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Let the third proportional be x. Then 4 : 8 = 8 : x, so × = (8 × 8) / 4 = 16.",
+      "as": "তৃতীয় সমানুপাত × ধৰা হওক। তেন্তে ৪ : ৮ = ৮ : x, গতিকে × = (৮ × ৮) / ৪ = ১৬।"
+    }
+  },
+  {
+    "id": "ratio-proportion-006",
+    "q": {
+      "en": "Find the mean proportional between 9 and 16.",
+      "as": "৯ আৰু ১৬ ৰ মাজৰ মধ্যম সমানুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mean proportional = square root of (9 × 16) = square root of 144 = 12.",
+      "as": "মধ্যম সমানুপাত = √(৯ × ১৬) = √১৪৪ = ১২।"
+    }
+  },
+  {
+    "id": "ratio-proportion-007",
+    "q": {
+      "en": "Find the compound ratio of 2 : 3 and 4 : 5.",
+      "as": "২ : ৩ আৰু ৪ : ৫ ৰ মিশ্ৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8 : 15",
+        "as": "৮ : ১৫"
+      },
+      {
+        "en": "2 : 5",
+        "as": "২ : ৫"
+      },
+      {
+        "en": "6 : 15",
+        "as": "৬ : ১৫"
+      },
+      {
+        "en": "8 : 12",
+        "as": "৮ : ১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Compound ratio = (2 × 4) : (3 × 5) = 8 : 15.",
+      "as": "মিশ্ৰ অনুপাত = (২ × ৪) : (৩ × ৫) = ৮ : ১৫।"
+    }
+  },
+  {
+    "id": "ratio-proportion-008",
+    "q": {
+      "en": "Find the duplicate ratio of 3 : 4.",
+      "as": "৩ : ৪ ৰ বৰ্গ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6 : 8",
+        "as": "৬ : ৮"
+      },
+      {
+        "en": "9 : 16",
+        "as": "৯ : ১৬"
+      },
+      {
+        "en": "16 : 9",
+        "as": "১৬ : ৯"
+      },
+      {
+        "en": "3 : 8",
+        "as": "৩ : ৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Duplicate ratio of a : b is a squared : b squared = 3 squared : 4 squared = 9 : 16.",
+      "as": "a : b ৰ বৰ্গ অনুপাত = a² : b² = ৩² : ৪² = ৯ : ১৬।"
+    }
+  },
+  {
+    "id": "ratio-proportion-009",
+    "q": {
+      "en": "The ages of two persons are in the ratio 5 : 7 and the sum of their ages is 48 years. Find the age of the younger person.",
+      "as": "দুজন ব্যক্তিৰ বয়সৰ অনুপাত ৫ : ৭ আৰু তেওঁলোকৰ বয়সৰ যোগফল ৪৮ বছৰ। সৰু ব্যক্তিজনৰ বয়স নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24 years",
+        "as": "২৪ বছৰ"
+      },
+      {
+        "en": "28 years",
+        "as": "২৮ বছৰ"
+      },
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      },
+      {
+        "en": "18 years",
+        "as": "১৮ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total parts = 5 + 7 = 12. One part = 48 / 12 = 4. Younger age = 5 × 4 = 20 years.",
+      "as": "মুঠ অংশ = ৫ + ৭ = ১২। এটা অংশ = ৪৮ / ১২ = ৪। সৰু ব্যক্তিৰ বয়স = ৫ × ৪ = ২০ বছৰ।"
+    }
+  },
+  {
+    "id": "ratio-proportion-010",
+    "q": {
+      "en": "Two numbers are in the ratio 3 : 4 and their sum is 63. Find the larger number.",
+      "as": "দুটা সংখ্যাৰ অনুপাত ৩ : ৪ আৰু তেওঁলোকৰ যোগফল ৬৩। ডাঙৰ সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total parts = 3 + 4 = 7. One part = 63 / 7 = 9. Larger number = 4 × 9 = 36.",
+      "as": "মুঠ অংশ = ৩ + ৪ = ৭। এটা অংশ = ৬৩ / ৭ = ৯। ডাঙৰ সংখ্যা = ৪ × ৯ = ৩৬।"
+    }
+  },
+  {
+    "id": "ratio-proportion-011",
+    "q": {
+      "en": "Find × if × : 6 = 15 : 18.",
+      "as": "x : ৬ = ১৫ : ১৮ হ'লে × নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "x : 6 = 15 : 18 gives 18x = 90, so × = 90 / 18 = 5.",
+      "as": "x : ৬ = ১৫ : ১৮ ৰ পৰা ১৮x = ৯০, গতিকে × = ৯০ / ১৮ = ৫।"
+    }
+  },
+  {
+    "id": "ratio-proportion-012",
+    "q": {
+      "en": "Find the inverse ratio of 4 : 5.",
+      "as": "৪ : ৫ ৰ ব্যস্ত অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5 : 4",
+        "as": "৫ : ৪"
+      },
+      {
+        "en": "4 : 5",
+        "as": "৪ : ৫"
+      },
+      {
+        "en": "16 : 25",
+        "as": "১৬ : ২৫"
+      },
+      {
+        "en": "1 : 4",
+        "as": "১ : ৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Inverse ratio of 4 : 5 is obtained by interchanging the terms = 5 : 4.",
+      "as": "৪ : ৫ ৰ ব্যস্ত অনুপাত পদ দুটা পৰস্পৰ সলনি কৰি পোৱা যায় = ৫ : ৪।"
+    }
+  },
+  {
+    "id": "ratio-proportion-013",
+    "q": {
+      "en": "5000 rupees is divided among A, B and C in the ratio 2 : 3 : 5. Find C's share.",
+      "as": "৫০০০ টকা A, B আৰু C ৰ মাজত ২ : ৩ : ৫ অনুপাতত ভাগ কৰা হ'ল। C ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1000 rupees",
+        "as": "১০০০ টকা"
+      },
+      {
+        "en": "1500 rupees",
+        "as": "১৫০০ টকা"
+      },
+      {
+        "en": "2500 rupees",
+        "as": "২৫০০ টকা"
+      },
+      {
+        "en": "2000 rupees",
+        "as": "২০০০ টকা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total parts = 2 + 3 + 5 = 10. One part = 5000 / 10 = 500. C's share = 5 × 500 = 2500 rupees.",
+      "as": "মুঠ অংশ = ২ + ৩ + ৫ = ১০। এটা অংশ = ৫০০০ / ১০ = ৫০০। C ৰ অংশ = ৫ × ৫০০ = ২৫০০ টকা।"
+    }
+  },
+  {
+    "id": "ratio-proportion-014",
+    "q": {
+      "en": "Two numbers are in the ratio 5 : 8 and their difference is 27. Find the smaller number.",
+      "as": "দুটা সংখ্যাৰ অনুপাত ৫ : ৮ আৰু তেওঁলোকৰ পাৰ্থক্য ২৭। সৰু সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Difference of parts = 8 - 5 = 3. One part = 27 / 3 = 9. Smaller number = 5 × 9 = 45.",
+      "as": "অংশৰ পাৰ্থক্য = ৮ - ৫ = ৩। এটা অংশ = ২৭ / ৩ = ৯। সৰু সংখ্যা = ৫ × ৯ = ৪৫।"
+    }
+  },
+  {
+    "id": "ratio-proportion-015",
+    "q": {
+      "en": "Find the mean proportional between 4 and 25.",
+      "as": "৪ আৰু ২৫ ৰ মাজৰ মধ্যম সমানুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "14.5",
+        "as": "১৪.৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mean proportional = square root of (4 × 25) = square root of 100 = 10.",
+      "as": "মধ্যম সমানুপাত = √(৪ × ২৫) = √১০০ = ১০।"
+    }
+  },
+  {
+    "id": "ratio-proportion-016",
+    "q": {
+      "en": "Find the third proportional to 9 and 12.",
+      "as": "৯ আৰু ১২ ৰ তৃতীয় সমানুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Let the third proportional be x. Then 9 : 12 = 12 : x, so × = (12 × 12) / 9 = 16.",
+      "as": "তৃতীয় সমানুপাত × ধৰা হওক। তেন্তে ৯ : ১২ = ১২ : x, গতিকে × = (১২ × ১২) / ৯ = ১৬।"
+    }
+  },
+  {
+    "id": "ratio-proportion-017",
+    "q": {
+      "en": "Find the fourth proportional to 5, 7 and 15.",
+      "as": "৫, ৭ আৰু ১৫ ৰ চতুৰ্থ সমানুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Let the fourth proportional be x. Then 5 : 7 = 15 : x, so × = (7 × 15) / 5 = 21.",
+      "as": "চতুৰ্থ সমানুপাত × ধৰা হওক। তেন্তে ৫ : ৭ = ১৫ : x, গতিকে × = (৭ × ১৫) / ৫ = ২১।"
+    }
+  },
+  {
+    "id": "ratio-proportion-018",
+    "q": {
+      "en": "If A : B = 2 : 3 and B : C = 4 : 5, find A : C.",
+      "as": "যদি A : B = ২ : ৩ আৰু B : C = ৪ : ৫, তেন্তে A : C নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8 : 15",
+        "as": "৮ : ১৫"
+      },
+      {
+        "en": "2 : 5",
+        "as": "২ : ৫"
+      },
+      {
+        "en": "3 : 5",
+        "as": "৩ : ৫"
+      },
+      {
+        "en": "8 : 12",
+        "as": "৮ : ১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Make B common: A : B = 2 : 3 = 8 : 12 and B : C = 4 : 5 = 12 : 15. So A : C = 8 : 15.",
+      "as": "B ৰাশিক সমান কৰা: A : B = ২ : ৩ = ৮ : ১২ আৰু B : C = ৪ : ৫ = ১২ : ১৫। গতিকে A : C = ৮ : ১৫।"
+    }
+  },
+  {
+    "id": "ratio-proportion-019",
+    "q": {
+      "en": "What number must be added to each term of 3 : 5 so that the ratio becomes 5 : 7?",
+      "as": "৩ : ৫ ৰ প্ৰতিটো পদত কি সংখ্যা যোগ কৰিলে অনুপাত ৫ : ৭ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Let × be added: (3 + x) / (5 + x) = 5 / 7, so 21 + 7x = 25 + 5x, 2x = 4, × = 2.",
+      "as": "x যোগ কৰা হওক: (৩ + x) / (৫ + x) = ৫ / ৭, গতিকে ২১ + ৭x = ২৫ + ৫x, ২x = ৪, × = ২।"
+    }
+  },
+  {
+    "id": "ratio-proportion-020",
+    "q": {
+      "en": "In a class the ratio of boys to girls is 5 : 4 and the total number of students is 45. Find the number of girls.",
+      "as": "এখন শ্ৰেণীত ল'ৰা আৰু ছোৱালীৰ অনুপাত ৫ : ৪ আৰু মুঠ ছাত্ৰ-ছাত্ৰীৰ সংখ্যা ৪৫। ছোৱালীৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total parts = 5 + 4 = 9. One part = 45 / 9 = 5. Girls = 4 × 5 = 20.",
+      "as": "মুঠ অংশ = ৫ + ৪ = ৯। এটা অংশ = ৪৫ / ৯ = ৫। ছোৱালী = ৪ × ৫ = ২০।"
+    }
+  },
+  {
+    "id": "ratio-proportion-021",
+    "q": {
+      "en": "If a : b = 7 : 5, find (a + b) : (a - b).",
+      "as": "যদি a : b = ৭ : ৫, তেন্তে (a + b) : (a - b) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6 : 1",
+        "as": "৬ : ১"
+      },
+      {
+        "en": "1 : 6",
+        "as": "১ : ৬"
+      },
+      {
+        "en": "12 : 5",
+        "as": "১২ : ৫"
+      },
+      {
+        "en": "7 : 2",
+        "as": "৭ : ২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Take a = 7k and b = 5k. Then a + b = 12k and a - b = 2k, so the ratio = 12k : 2k = 6 : 1.",
+      "as": "a = ৭k আৰু b = ৫k ধৰা হওক। তেন্তে a + b = ১২k আৰু a - b = ২k, গতিকে অনুপাত = ১২k : ২k = ৬ : ১।"
+    }
+  },
+  {
+    "id": "ratio-proportion-022",
+    "q": {
+      "en": "The ratio of two numbers is 2 : 3. If 9 is added to each number, the ratio becomes 3 : 4. Find the smaller number.",
+      "as": "দুটা সংখ্যাৰ অনুপাত ২ : ৩। প্ৰতিটো সংখ্যাত ৯ যোগ কৰিলে অনুপাত ৩ : ৪ হয়। সৰু সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Let the numbers be 2x and 3x. (2x + 9) / (3x + 9) = 3 / 4 gives 8x + 36 = 9x + 27, so × = 9. Smaller number = 2 × 9 = 18.",
+      "as": "সংখ্যা দুটা ২x আৰু ৩x ধৰা হওক। (২x + ৯) / (৩x + ৯) = ৩ / ৪ ৰ পৰা ৮x + ৩৬ = ৯x + ২৭, গতিকে × = ৯। সৰু সংখ্যা = ২ × ৯ = ১৮।"
+    }
+  },
+  {
+    "id": "ratio-proportion-023",
+    "q": {
+      "en": "Find the sub-duplicate ratio of 81 : 49.",
+      "as": "৮১ : ৪৯ ৰ বৰ্গমূল অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7 : 9",
+        "as": "৭ : ৯"
+      },
+      {
+        "en": "40 : 5",
+        "as": "৪০ : ৫"
+      },
+      {
+        "en": "9 : 7",
+        "as": "৯ : ৭"
+      },
+      {
+        "en": "3 : 7",
+        "as": "৩ : ৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sub-duplicate ratio = square root of 81 : square root of 49 = 9 : 7.",
+      "as": "বৰ্গমূল অনুপাত = √৮১ : √৪৯ = ৯ : ৭।"
+    }
+  },
+  {
+    "id": "ratio-proportion-024",
+    "q": {
+      "en": "In a mixture of 40 litres the ratio of milk to water is 3 : 2. Find the quantity of milk.",
+      "as": "৪০ লিটাৰৰ এটা মিশ্ৰণত গাখীৰ আৰু পানীৰ অনুপাত ৩ : ২। গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "16 litres",
+        "as": "১৬ লিটাৰ"
+      },
+      {
+        "en": "24 litres",
+        "as": "২৪ লিটাৰ"
+      },
+      {
+        "en": "20 litres",
+        "as": "২০ লিটাৰ"
+      },
+      {
+        "en": "30 litres",
+        "as": "৩০ লিটাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total parts = 3 + 2 = 5. One part = 40 / 5 = 8. Milk = 3 × 8 = 24 litres.",
+      "as": "মুঠ অংশ = ৩ + ২ = ৫। এটা অংশ = ৪০ / ৫ = ৮। গাখীৰ = ৩ × ৮ = ২৪ লিটাৰ।"
+    }
+  },
+  {
+    "id": "ratio-proportion-025",
+    "q": {
+      "en": "Find the mean proportional between 0.4 and 0.9.",
+      "as": "০.৪ আৰু ০.৯ ৰ মাজৰ মধ্যম সমানুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "0.13",
+        "as": "০.১৩"
+      },
+      {
+        "en": "0.36",
+        "as": "০.৩৬"
+      },
+      {
+        "en": "1.3",
+        "as": "১.৩"
+      },
+      {
+        "en": "0.6",
+        "as": "০.৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mean proportional = square root of (0.4 × 0.9) = square root of 0.36 = 0.6.",
+      "as": "মধ্যম সমানুপাত = √(০.৪ × ০.৯) = √০.৩৬ = ০.৬।"
+    }
+  },
+  {
+    "id": "ratio-proportion-026",
+    "q": {
+      "en": "If × : y = 3 : 4, find (3x + 2y) : (5x - y).",
+      "as": "যদি × : y = ৩ : ৪, তেন্তে (৩x + ২y) : (৫x - y) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "11 : 17",
+        "as": "১১ : ১৭"
+      },
+      {
+        "en": "17 : 11",
+        "as": "১৭ : ১১"
+      },
+      {
+        "en": "17 : 12",
+        "as": "১৭ : ১২"
+      },
+      {
+        "en": "3 : 4",
+        "as": "৩ : ৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Take × = 3k and y = 4k. Then 3x + 2y = 9k + 8k = 17k and 5x - y = 15k - 4k = 11k, so the ratio = 17 : 11.",
+      "as": "x = ৩k আৰু y = ৪k ধৰা হওক। তেন্তে ৩x + ২y = ৯k + ৮k = ১৭k আৰু ৫x - y = ১৫k - ৪k = ১১k, গতিকে অনুপাত = ১৭ : ১১।"
+    }
+  },
+  {
+    "id": "ratio-proportion-027",
+    "q": {
+      "en": "810 rupees is divided among A, B and C in the ratio 2 : 3 : 4. Find B's share.",
+      "as": "৮১০ টকা A, B আৰু C ৰ মাজত ২ : ৩ : ৪ অনুপাতত ভাগ কৰা হ'ল। B ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "180 rupees",
+        "as": "১৮০ টকা"
+      },
+      {
+        "en": "270 rupees",
+        "as": "২৭০ টকা"
+      },
+      {
+        "en": "360 rupees",
+        "as": "৩৬০ টকা"
+      },
+      {
+        "en": "240 rupees",
+        "as": "২৪০ টকা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total parts = 2 + 3 + 4 = 9. One part = 810 / 9 = 90. B's share = 3 × 90 = 270 rupees.",
+      "as": "মুঠ অংশ = ২ + ৩ + ৪ = ৯। এটা অংশ = ৮১০ / ৯ = ৯০। B ৰ অংশ = ৩ × ৯০ = ২৭০ টকা।"
+    }
+  },
+  {
+    "id": "ratio-proportion-028",
+    "q": {
+      "en": "If 8, 12 and × are in continued proportion, find x.",
+      "as": "যদি ৮, ১২ আৰু × ক্ৰমিক সমানুপাতে থাকে, তেন্তে × নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "For continued proportion 8 : 12 = 12 : x, so × = (12 × 12) / 8 = 18.",
+      "as": "ক্ৰমিক সমানুপাতৰ বাবে ৮ : ১২ = ১২ : x, গতিকে × = (১২ × ১২) / ৮ = ১৮।"
+    }
   }
-}
+]
