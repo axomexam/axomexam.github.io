@@ -5707,8 +5707,8 @@
     const tabs = $$("#tabbar .tab-item");
     let active = "home";
     if (segs[0] === "mock-test") active = "mock";
-    else if (segs[0] === "categories") active = "categories";
-    else if (segs[0] === "search") active = "search";
+    else if (segs[0] === "categories" || segs[0] === "category" || segs[0] === "topic") active = "categories";
+    else if (segs[0] === "exams") active = "exams";
     else if (segs[0] && segs[0] !== "") active = "";
     tabs.forEach((el) => el.classList.toggle("active", el.dataset.tab === active));
   }

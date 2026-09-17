@@ -1973,3 +1973,207 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 @media (max-width: 560px) {
   .exams-search-wrap { max-width: 100%; }
 }
+
+/* ============================================================
+   MOBILE EXPERIENCE ENHANCEMENTS
+   Everything below is scoped to small screens only, so the
+   desktop layout/behaviour stays exactly the same.
+   ============================================================ */
+@media (max-width: 900px) {
+
+  /* Smoother taps, no grey flash */
+  html { -webkit-tap-highlight-color: transparent; }
+  a, button, .tab-item, .cat-card, .topic-card, .sub-card, .mock-card, .qa-card {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Content clears the fixed bottom tab bar + iOS home indicator */
+  body { padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px)); }
+
+  /* A little more usable width on phones */
+  .container { padding-left: 16px; padding-right: 16px; }
+
+  /* --------------------------------------------------------
+     Top app bar: brand + inline search + theme toggle
+     -------------------------------------------------------- */
+  .site-header { padding-top: env(safe-area-inset-top, 0px); }
+  .header-inner {
+    display: flex; align-items: center;
+    height: 56px; gap: 10px;
+  }
+  .header-inner .brand { display: inline-flex; flex: 0 0 auto; }
+  .header-inner .brand-mark { width: 32px; height: 32px; border-radius: 10px; font-size: 1.02rem; }
+  .header-inner .brand-text { font-size: 1.14rem; }
+  .hamburger { display: none; }
+  .main-nav { display: none; }
+
+  /* Search box now lives in the top bar (was in the bottom bar) */
+  .header-inner .header-center {
+    flex: 1 1 auto; margin-left: 0; gap: 8px; min-width: 0;
+  }
+  .header-inner .search-wrap {
+    display: block; position: relative;
+    flex: 1 1 auto; max-width: none; min-width: 0; margin: 0;
+  }
+  .header-inner #master-search {
+    height: 38px; border-radius: 12px;
+    padding: 0 12px 0 34px; font-size: .85rem;
+  }
+  .header-inner .search-wrap .search-icon { left: 11px; width: 15px; height: 15px; }
+  .header-inner .theme-toggle { flex: 0 0 auto; width: 38px; height: 38px; border-radius: 11px; }
+
+  /* Language switch stays available inside the menu; keep the bar clean */
+  .desktop-lang-toggle { display: none !important; }
+
+  /* Full-width, easy-to-tap search results under the top bar */
+  .search-results {
+    position: fixed;
+    top: calc(60px + env(safe-area-inset-top, 0px));
+    left: 12px; right: 12px; width: auto;
+    max-height: min(60vh, 420px);
+  }
+
+  /* --------------------------------------------------------
+     Bottom app navigation (Home / Mock / Practice / Exams / Menu)
+     -------------------------------------------------------- */
+  .tabbar {
+    position: fixed; left: 0; right: 0; bottom: 0; top: auto;
+    z-index: 450;
+    display: flex;
+    background: linear-gradient(180deg, #eef2ff 0%, #ffffff 60%);
+    -webkit-backdrop-filter: saturate(180%) blur(16px);
+    backdrop-filter: saturate(180%) blur(16px);
+    border-top: 1px solid rgba(79, 70, 229, .18);
+    box-shadow: 0 -12px 30px -16px rgba(79, 70, 229, .55);
+    padding: 8px 8px calc(8px + env(safe-area-inset-bottom, 0px));
+    gap: 5px;
+  }
+  /* Coloured accent line so the bar never looks plain white */
+  .tabbar::before {
+    content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: var(--grad);
+  }
+  [data-theme="dark"] .tabbar {
+    background: linear-gradient(180deg, #16203a 0%, #0e1526 100%);
+    border-top-color: rgba(129, 140, 248, .28);
+  }
+  .tab-item {
+    padding: 7px 2px 6px; gap: 3px; border-radius: 13px;
+    font-size: .63rem; color: var(--ink-soft);
+    background: rgba(79, 70, 229, .07);
+  }
+  .tab-item svg { width: 21px; height: 21px; }
+  [data-theme="dark"] .tab-item { background: rgba(129, 140, 248, .12); color: var(--ink-soft); }
+  .tab-item.active {
+    color: #fff;
+    background: var(--grad);
+    box-shadow: 0 10px 20px -8px rgba(79, 70, 229, .8);
+    transform: translateY(-2px);
+  }
+  .tab-item:active { transform: scale(.9); }
+
+  /* Floating promo + toast sit above the bottom navigation */
+  .app-prompt {
+    bottom: calc(84px + env(safe-area-inset-bottom, 0px));
+    right: 12px;
+    z-index: 440;
+  }
+  .toast { bottom: calc(92px + env(safe-area-inset-bottom, 0px)); }
+
+  /* --------------------------------------------------------
+     Section rhythm & headings
+     -------------------------------------------------------- */
+  .section { padding: 30px 0 6px; }
+  .section-head { margin-bottom: 16px; gap: 8px; }
+  .section-head h2 { font-size: 1.22rem; }
+  .section-head .sec-sub { font-size: .84rem; }
+
+  .page-head { padding: 18px 0 2px; }
+  .page-head h1 { font-size: clamp(1.4rem, 6.2vw, 1.85rem); }
+  .page-head .page-desc { font-size: .92rem; }
+  .breadcrumb { font-size: .76rem; margin-bottom: 10px; }
+
+  /* --------------------------------------------------------
+     Hero
+     -------------------------------------------------------- */
+  .hero { margin-top: 14px; border-radius: 20px; padding: 28px 20px 26px; }
+  .hero-badge { font-size: .66rem; letter-spacing: .9px; }
+  .hero h1 { font-size: clamp(1.5rem, 7vw, 1.9rem); letter-spacing: -.4px; }
+  .hero p.sub { font-size: .93rem; margin-top: 10px; }
+  .hero-actions {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 9px; margin-top: 18px;
+  }
+  .hero-actions .btn {
+    width: 100%; flex: none; min-width: 0;
+    padding: 11px 8px; font-size: .84rem; gap: 6px;
+    text-align: center; white-space: nowrap;
+  }
+  .hero-actions .btn svg { width: 15px; height: 15px; flex: 0 0 auto; }
+  .hero-stats {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    gap: 8px; margin-top: 20px; text-align: center;
+  }
+  .hero-stats .stat { background: rgba(255, 255, 255, .12); border: 1px solid rgba(255, 255, 255, .2); border-radius: 13px; padding: 10px 4px; }
+  .hero-stats .stat b { font-size: 1.08rem; }
+  .hero-stats .stat span { font-size: .68rem; letter-spacing: .3px; }
+
+  /* --------------------------------------------------------
+     Cards — comfier touch targets + press feedback
+     -------------------------------------------------------- */
+  .cat-card, .sub-card, .topic-card, .mock-card, .sp-topic, .ebook-card, .dl-item { border-radius: 16px; }
+  .cat-card { padding: 16px 15px; }
+  .sub-card, .topic-card { padding: 15px 15px; }
+  .cat-card:active, .sub-card:active, .topic-card:active, .mock-card:active, .sp-topic:active, .ebook-card:active, .set-card:active {
+    transform: scale(.985);
+    transition: transform .1s ease;
+  }
+  .topic-card { align-items: flex-start; }
+  .topic-card .trend-flame { margin-top: 2px; }
+
+  /* Downloads / previous-year rows: tidy two-row layout */
+  @media (max-width: 560px) {
+    .dl-item {
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      grid-template-areas: "ico meta" "btn btn";
+      gap: 10px 12px;
+      align-items: center;
+      padding: 14px;
+    }
+    .dl-ico { grid-area: ico; width: 42px; height: 42px; }
+    .dl-meta { grid-area: meta; }
+    .dl-meta b { font-size: .92rem; }
+    .dl-item > .dl-btn { grid-area: btn; width: 100%; text-align: center; padding: 10px 14px; font-size: .82rem; }
+  }
+
+  /* E-book read button: keep the label on one tidy line */
+  .ebook-read-btn { white-space: nowrap; font-size: .73rem; padding: 9px 8px; gap: 5px; letter-spacing: 0; }
+  .ebook-read-btn svg { width: 13px; height: 13px; }
+  .ebook-meta { padding: 12px 12px 14px; }
+
+  /* Topic Q&A cards a touch tighter */
+  .qa-card .qa-q { padding: 16px 16px; gap: 10px; }
+  .qa-a { padding-left: 16px; padding-right: 16px; }
+
+  /* Footer breathing room */
+  .site-footer { padding-bottom: 6px; }
+  .footer-inner { padding: 34px 20px 24px; }
+}
+
+/* Small phones only */
+@media (max-width: 420px) {
+  .hero-stats .stat span { font-size: .64rem; }
+  .hero-actions .btn { padding: 10px 6px; font-size: .8rem; }
+  .header-inner .brand-text { font-size: 1.06rem; }
+  .header-inner { gap: 8px; }
+  .tab-item { font-size: .6rem; }
+  .tab-item svg { width: 20px; height: 20px; }
+}
+
+/* Tiny phones: keep brand + search + theme on one line */
+@media (max-width: 360px) {
+  .header-inner .brand-text { display: none; }
+  .header-inner #master-search { padding-left: 30px; }
+  .header-inner .search-wrap .search-icon { left: 9px; }
+}
