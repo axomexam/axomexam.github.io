@@ -2833,10 +2833,11 @@
             const color = ebkColor(book);
             const titleEn = ebkLang(book.title, "en");
             const subjectEn = ebkLang(book.subject, "en");
-            return `
-              <a class="ebook-card reveal" href="/ebooks/${encodeURIComponent(book.id)}" style="--ebk:${color}" data-delay="${bi * 60}">
-                <span class="ebook-cover">
-                  <span class="ebook-cover-frame" aria-hidden="true"></span>
+            const cover = book.cover ? String(book.cover) : "";
+            const coverAlt = ebkLang(book.coverAlt, state.lang) || (titleEn + " e-book cover");
+            const coverInner = cover
+              ? `<img class="ebook-cover-img" src="${escapeHtml(cover)}" alt="${escapeHtml(coverAlt)}" loading="lazy" decoding="async">`
+              : `<span class="ebook-cover-frame" aria-hidden="true"></span>
                   <span class="ebook-cover-top">
                     <span class="ebook-cover-publisher">axomexam</span>
                     <span class="ebook-cover-tag">E-Book</span>
@@ -2844,8 +2845,10 @@
                   <span class="ebook-cover-title">
                     <span class="ebk-tt-en">${escapeHtml(titleEn)}</span>
                   </span>
-                  <span class="ebook-cover-subject">${escapeHtml(subjectEn)}</span>
-                </span>
+                  <span class="ebook-cover-subject">${escapeHtml(subjectEn)}</span>`;
+            return `
+              <a class="ebook-card reveal" href="/ebooks/${encodeURIComponent(book.id)}" style="--ebk:${color}" data-delay="${bi * 60}">
+                <span class="ebook-cover${cover ? " has-photo" : ""}">${coverInner}</span>
                 <span class="ebook-meta">
                   <b>${escapeHtml(titleEn)}</b>
                   <span class="ebook-meta-sub"><span>${chCount} ${t("ebooks.chapters")}</span></span>
