@@ -1,30 +1,1727 @@
-{
-  "id": "gender-001",
-  "q": {
-    "en": "What is the feminine form of 'Bull'?",
-    "as": "'Bull' ৰ স্ত্ৰীলিংগ ৰূপ কি?"
-  },
-  "options": [
-    {
-      "en": "Cow",
-      "as": "গাইগৰু"
-    },
-    {
-      "en": "Calf",
-      "as": "পোৱালি"
-    },
-    {
-      "en": "Mare",
-      "as": "ঘোঁৰী"
-    },
-    {
-      "en": "Doe",
-      "as": "হৰিণী"
+[
+  {
+    "id": "gender-001",
+    "q": { "en": "What is the feminine form of 'Bull'?", "as": "'Bull' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Cow", "as": "গাইগৰু" },
+      { "en": "Calf", "as": "পোৱালি" },
+      { "en": "Mare", "as": "ঘোঁৰী" },
+      { "en": "Doe", "as": "হৰিণী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'bull' is 'cow'; 'calf' is the young one.",
+      "as": "'bull' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'cow'; 'calf' হৈছে পোৱালি।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "The feminine of 'bull' is 'cow'; 'calf' is the young one.",
-    "as": "'bull' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'cow'; 'calf' হৈছে পোৱালি।"
+  },
+  {
+    "id": "gender-002",
+    "q": { "en": "What is the feminine form of 'Lion'?", "as": "'Lion' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Tigress", "as": "বাঘিনী" },
+      { "en": "Leopardess", "as": "মাইকী নাহৰফুটুকী" },
+      { "en": "Lioness", "as": "সিংহী" },
+      { "en": "Panther", "as": "নাহৰফুটুকী" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'lion' is 'lioness'.",
+      "as": "'lion' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'lioness'।"
+    }
+  },
+  {
+    "id": "gender-003",
+    "q": { "en": "What is the feminine form of 'Tiger'?", "as": "'Tiger' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Lioness", "as": "সিংহী" },
+      { "en": "Tigress", "as": "বাঘিনী" },
+      { "en": "Leopardess", "as": "মাইকী নাহৰফুটুকী" },
+      { "en": "Panther", "as": "নাহৰফুটুকী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'tiger' is 'tigress'.",
+      "as": "'tiger' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'tigress'।"
+    }
+  },
+  {
+    "id": "gender-004",
+    "q": { "en": "What is the feminine form of 'Horse'?", "as": "'Horse' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Filly", "as": "মাইকী ঘোঁৰা-পোৱালি" },
+      { "en": "Mare", "as": "ঘোঁৰী" },
+      { "en": "Colt", "as": "মতা ঘোঁৰা-পোৱালি" },
+      { "en": "Donkey", "as": "গাধ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'horse' is 'mare'.",
+      "as": "'horse' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'mare'।"
+    }
+  },
+  {
+    "id": "gender-005",
+    "q": { "en": "What is the feminine form of 'Cock'?", "as": "'Cock' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Hen", "as": "কুকুৰী" },
+      { "en": "Chick", "as": "কুকুৰা পোৱালি" },
+      { "en": "Duck", "as": "হাঁহ" },
+      { "en": "Goose", "as": "ৰাজহাঁহ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'cock' is 'hen'; 'chick' is the young one.",
+      "as": "'cock' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'hen'; 'chick' হৈছে পোৱালি।"
+    }
+  },
+  {
+    "id": "gender-006",
+    "q": { "en": "What is the feminine form of 'Dog'?", "as": "'Dog' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Cat", "as": "মেকুৰী" },
+      { "en": "Puppy", "as": "কুকুৰ-পোৱালি" },
+      { "en": "Vixen", "as": "মাইকী শিয়াল" },
+      { "en": "Bitch", "as": "মাইকী কুকুৰ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The feminine of 'dog' is 'bitch'; 'puppy' is the young one.",
+      "as": "'dog' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'bitch'; 'puppy' হৈছে পোৱালি।"
+    }
+  },
+  {
+    "id": "gender-007",
+    "q": { "en": "What is the feminine form of 'King'?", "as": "'King' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Princess", "as": "ৰাজকুমাৰী" },
+      { "en": "Queen", "as": "ৰাণী" },
+      { "en": "Empress", "as": "সম্ৰাজ্ঞী" },
+      { "en": "Lady", "as": "ভদ্ৰমহিলা" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'king' is 'queen'.",
+      "as": "'king' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'queen'।"
+    }
+  },
+  {
+    "id": "gender-008",
+    "q": { "en": "What is the feminine form of 'Prince'?", "as": "'Prince' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Princess", "as": "ৰাজকুমাৰী" },
+      { "en": "Queen", "as": "ৰাণী" },
+      { "en": "Duchess", "as": "ডাচেছ" },
+      { "en": "Countess", "as": "কাউণ্টেছ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'prince' is 'princess'.",
+      "as": "'prince' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'princess'।"
+    }
+  },
+  {
+    "id": "gender-009",
+    "q": { "en": "What is the feminine form of 'Man'?", "as": "'Man' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Lady", "as": "ভদ্ৰমহিলা" },
+      { "en": "Woman", "as": "মহিলা" },
+      { "en": "Girl", "as": "ছোৱালী" },
+      { "en": "Female", "as": "স্ত্ৰী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'man' is 'woman'.",
+      "as": "'man' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'woman'।"
+    }
+  },
+  {
+    "id": "gender-010",
+    "q": { "en": "What is the feminine form of 'Boy'?", "as": "'Boy' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Girl", "as": "ছোৱালী" },
+      { "en": "Lass", "as": "গাভৰু" },
+      { "en": "Woman", "as": "মহিলা" },
+      { "en": "Daughter", "as": "কন্যা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'boy' is 'girl'.",
+      "as": "'boy' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'girl'।"
+    }
+  },
+  {
+    "id": "gender-011",
+    "q": { "en": "What is the feminine form of 'Father'?", "as": "'Father' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Aunt", "as": "খুড়ী" },
+      { "en": "Sister", "as": "ভগ্নী" },
+      { "en": "Mother", "as": "মাতৃ" },
+      { "en": "Daughter", "as": "কন্যা" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'father' is 'mother'.",
+      "as": "'father' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'mother'।"
+    }
+  },
+  {
+    "id": "gender-012",
+    "q": { "en": "What is the feminine form of 'Brother'?", "as": "'Brother' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Mother", "as": "মাতৃ" },
+      { "en": "Sister", "as": "ভগ্নী" },
+      { "en": "Niece", "as": "ভতিজী" },
+      { "en": "Aunt", "as": "খুড়ী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'brother' is 'sister'.",
+      "as": "'brother' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'sister'।"
+    }
+  },
+  {
+    "id": "gender-013",
+    "q": { "en": "What is the feminine form of 'Uncle'?", "as": "'Uncle' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Aunt", "as": "খুড়ী" },
+      { "en": "Niece", "as": "ভতিজী" },
+      { "en": "Cousin", "as": "সম্বন্ধীয় ভাই-ভনী" },
+      { "en": "Mother", "as": "মাতৃ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'uncle' is 'aunt'.",
+      "as": "'uncle' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'aunt'।"
+    }
+  },
+  {
+    "id": "gender-014",
+    "q": { "en": "What is the feminine form of 'Nephew'?", "as": "'Nephew' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Cousin", "as": "সম্বন্ধীয় ভাই-ভনী" },
+      { "en": "Niece", "as": "ভতিজী" },
+      { "en": "Aunt", "as": "খুড়ী" },
+      { "en": "Daughter", "as": "কন্যা" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'nephew' is 'niece'.",
+      "as": "'nephew' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'niece'।"
+    }
+  },
+  {
+    "id": "gender-015",
+    "q": { "en": "What is the feminine form of 'Son'?", "as": "'Son' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Niece", "as": "ভতিজী" },
+      { "en": "Daughter", "as": "কন্যা" },
+      { "en": "Sister", "as": "ভগ্নী" },
+      { "en": "Girl", "as": "ছোৱালী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'son' is 'daughter'.",
+      "as": "'son' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'daughter'।"
+    }
+  },
+  {
+    "id": "gender-016",
+    "q": { "en": "What is the feminine form of 'Husband'?", "as": "'Husband' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Widow", "as": "বিধৱা" },
+      { "en": "Spinster", "as": "অবিবাহিতা নাৰী" },
+      { "en": "Wife", "as": "পত্নী" },
+      { "en": "Mother", "as": "মাতৃ" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'husband' is 'wife'.",
+      "as": "'husband' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'wife'।"
+    }
+  },
+  {
+    "id": "gender-017",
+    "q": { "en": "What is the feminine form of 'Grandfather'?", "as": "'Grandfather' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Grandmother", "as": "আইতাক" },
+      { "en": "Aunt", "as": "খুড়ী" },
+      { "en": "Mother", "as": "মাতৃ" },
+      { "en": "Sister", "as": "ভগ্নী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'grandfather' is 'grandmother'.",
+      "as": "'grandfather' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'grandmother'।"
+    }
+  },
+  {
+    "id": "gender-018",
+    "q": { "en": "What is the feminine form of 'Grandson'?", "as": "'Grandson' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Niece", "as": "ভতিজী" },
+      { "en": "Cousin", "as": "সম্বন্ধীয় ভাই-ভনী" },
+      { "en": "Granddaughter", "as": "নাতিনী" },
+      { "en": "Daughter", "as": "কন্যা" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'grandson' is 'granddaughter'.",
+      "as": "'grandson' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'granddaughter'।"
+    }
+  },
+  {
+    "id": "gender-019",
+    "q": { "en": "What is the feminine form of 'Widower'?", "as": "'Widower' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Spinster", "as": "অবিবাহিতা নাৰী" },
+      { "en": "Widow", "as": "বিধৱা" },
+      { "en": "Bachelor", "as": "অবিবাহিত পুৰুষ" },
+      { "en": "Wife", "as": "পত্নী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'widower' is 'widow'.",
+      "as": "'widower' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'widow'।"
+    }
+  },
+  {
+    "id": "gender-020",
+    "q": { "en": "What is the feminine form of 'Bachelor'?", "as": "'Bachelor' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Widow", "as": "বিধৱা" },
+      { "en": "Maid", "as": "দাসী" },
+      { "en": "Spinster", "as": "অবিবাহিতা নাৰী" },
+      { "en": "Nun", "as": "সন্ন্যাসিনী" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'bachelor' is 'spinster'.",
+      "as": "'bachelor' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'spinster'।"
+    }
+  },
+  {
+    "id": "gender-021",
+    "q": { "en": "What is the feminine form of 'Monk'?", "as": "'Monk' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Priestess", "as": "পুৰোহিতা (মহিলা)" },
+      { "en": "Nun", "as": "সন্ন্যাসিনী" },
+      { "en": "Witch", "as": "ডাইনী" },
+      { "en": "Lady", "as": "ভদ্ৰমহিলা" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'monk' is 'nun'.",
+      "as": "'monk' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'nun'।"
+    }
+  },
+  {
+    "id": "gender-022",
+    "q": { "en": "What is the feminine form of 'Wizard'?", "as": "'Wizard' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Fairy", "as": "পৰী" },
+      { "en": "Nun", "as": "সন্ন্যাসিনী" },
+      { "en": "Witch", "as": "ডাইনী" },
+      { "en": "Goddess", "as": "দেৱী" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'wizard' is 'witch'.",
+      "as": "'wizard' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'witch'।"
+    }
+  },
+  {
+    "id": "gender-023",
+    "q": { "en": "What is the feminine form of 'Emperor'?", "as": "'Emperor' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Empress", "as": "সম্ৰাজ্ঞী" },
+      { "en": "Queen", "as": "ৰাণী" },
+      { "en": "Princess", "as": "ৰাজকুমাৰী" },
+      { "en": "Duchess", "as": "ডাচেছ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'emperor' is 'empress'.",
+      "as": "'emperor' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'empress'।"
+    }
+  },
+  {
+    "id": "gender-024",
+    "q": { "en": "What is the feminine form of 'Duke'?", "as": "'Duke' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Countess", "as": "কাউণ্টেছ" },
+      { "en": "Duchess", "as": "ডাচেছ" },
+      { "en": "Baroness", "as": "বেৰনেছ" },
+      { "en": "Princess", "as": "ৰাজকুমাৰী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'duke' is 'duchess'.",
+      "as": "'duke' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'duchess'।"
+    }
+  },
+  {
+    "id": "gender-025",
+    "q": { "en": "What is the feminine form of 'Hero'?", "as": "'Hero' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Actress", "as": "অভিনেত্ৰী" },
+      { "en": "Queen", "as": "ৰাণী" },
+      { "en": "Heroine", "as": "নায়িকা" },
+      { "en": "Goddess", "as": "দেৱী" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'hero' is 'heroine'.",
+      "as": "'hero' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'heroine'।"
+    }
+  },
+  {
+    "id": "gender-026",
+    "q": { "en": "What is the feminine form of 'Actor'?", "as": "'Actor' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Heroine", "as": "নায়িকা" },
+      { "en": "Actress", "as": "অভিনেত্ৰী" },
+      { "en": "Dancer", "as": "নৰ্তকী" },
+      { "en": "Singer", "as": "গায়িকা" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'actor' is 'actress'.",
+      "as": "'actor' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'actress'।"
+    }
+  },
+  {
+    "id": "gender-027",
+    "q": { "en": "What is the feminine form of 'Waiter'?", "as": "'Waiter' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Hostess", "as": "আশ্ৰয়দাত্ৰী" },
+      { "en": "Cook", "as": "ৰান্ধনী" },
+      { "en": "Waitress", "as": "পৰিচাৰিকা" },
+      { "en": "Maid", "as": "দাসী" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'waiter' is 'waitress'.",
+      "as": "'waiter' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'waitress'।"
+    }
+  },
+  {
+    "id": "gender-028",
+    "q": { "en": "What is the feminine form of 'Host'?", "as": "'Host' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Waitress", "as": "পৰিচাৰিকা" },
+      { "en": "Hostess", "as": "আশ্ৰয়দাত্ৰী" },
+      { "en": "Guest", "as": "অতিথি" },
+      { "en": "Maid", "as": "দাসী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'host' is 'hostess'.",
+      "as": "'host' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'hostess'।"
+    }
+  },
+  {
+    "id": "gender-029",
+    "q": { "en": "What is the feminine form of 'Master'?", "as": "'Master' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Mistress", "as": "গৃহিণী" },
+      { "en": "Madam", "as": "ভদ্ৰমহিলা" },
+      { "en": "Lady", "as": "ভদ্ৰমহিলা" },
+      { "en": "Teacher", "as": "শিক্ষক" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'master' is 'mistress'.",
+      "as": "'master' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'mistress'।"
+    }
+  },
+  {
+    "id": "gender-030",
+    "q": { "en": "What is the feminine form of 'God'?", "as": "'God' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Fairy", "as": "পৰী" },
+      { "en": "Angel", "as": "দেৱদূত" },
+      { "en": "Goddess", "as": "দেৱী" },
+      { "en": "Queen", "as": "ৰাণী" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'god' is 'goddess'.",
+      "as": "'god' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'goddess'।"
+    }
+  },
+  {
+    "id": "gender-031",
+    "q": { "en": "What is the feminine form of 'Peacock'?", "as": "'Peacock' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Duck", "as": "হাঁহ" },
+      { "en": "Peahen", "as": "ময়ূৰী" },
+      { "en": "Swan", "as": "হংস" },
+      { "en": "Turkey", "as": "টাৰ্কি" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'peacock' is 'peahen'.",
+      "as": "'peacock' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'peahen'।"
+    }
+  },
+  {
+    "id": "gender-032",
+    "q": { "en": "What is the feminine form of 'Drake'?", "as": "'Drake' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Duck", "as": "হাঁহ" },
+      { "en": "Goose", "as": "ৰাজহাঁহ" },
+      { "en": "Swan", "as": "হংস" },
+      { "en": "Hen", "as": "কুকুৰী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'drake' is 'duck'.",
+      "as": "'drake' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'duck'।"
+    }
+  },
+  {
+    "id": "gender-033",
+    "q": { "en": "What is the feminine form of 'Gander'?", "as": "'Gander' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Duck", "as": "হাঁহ" },
+      { "en": "Swan", "as": "হংস" },
+      { "en": "Goose", "as": "ৰাজহাঁহ" },
+      { "en": "Hen", "as": "কুকুৰী" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'gander' is 'goose'.",
+      "as": "'gander' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'goose'।"
+    }
+  },
+  {
+    "id": "gender-034",
+    "q": { "en": "What is the feminine form of 'Ram'?", "as": "'Ram' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Doe", "as": "হৰিণী" },
+      { "en": "Ewe", "as": "মাইকী ভেড়া" },
+      { "en": "Mare", "as": "ঘোঁৰী" },
+      { "en": "Sow", "as": "মাইকী গাহৰি" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'ram' is 'ewe'.",
+      "as": "'ram' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'ewe'।"
+    }
+  },
+  {
+    "id": "gender-035",
+    "q": { "en": "What is the feminine form of 'Boar'?", "as": "'Boar' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Ewe", "as": "মাইকী ভেড়া" },
+      { "en": "Mare", "as": "ঘোঁৰী" },
+      { "en": "Sow", "as": "মাইকী গাহৰি" },
+      { "en": "Hind", "as": "মাইকী হৰিণ" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'boar' is 'sow'.",
+      "as": "'boar' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'sow'।"
+    }
+  },
+  {
+    "id": "gender-036",
+    "q": { "en": "What is the feminine form of 'Fox'?", "as": "'Fox' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Bitch", "as": "মাইকী কুকুৰ" },
+      { "en": "Vixen", "as": "মাইকী শিয়াল" },
+      { "en": "Doe", "as": "হৰিণী" },
+      { "en": "Mare", "as": "ঘোঁৰী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'fox' is 'vixen'.",
+      "as": "'fox' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'vixen'।"
+    }
+  },
+  {
+    "id": "gender-037",
+    "q": { "en": "What is the feminine form of 'Wolf'?", "as": "'Wolf' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Vixen", "as": "মাইকী শিয়াল" },
+      { "en": "Bitch", "as": "মাইকী কুকুৰ" },
+      { "en": "She-wolf", "as": "মাইকী কুকুৰনেচীয়া" },
+      { "en": "Lioness", "as": "সিংহী" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'wolf' is 'she-wolf'.",
+      "as": "'wolf' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'she-wolf'।"
+    }
+  },
+  {
+    "id": "gender-038",
+    "q": { "en": "What is the feminine form of 'Bridegroom'?", "as": "'Bridegroom' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Widow", "as": "বিধৱা" },
+      { "en": "Bride", "as": "কইনা" },
+      { "en": "Wife", "as": "পত্নী" },
+      { "en": "Maid", "as": "দাসী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'bridegroom' is 'bride'.",
+      "as": "'bridegroom' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'bride'।"
+    }
+  },
+  {
+    "id": "gender-039",
+    "q": { "en": "What is the feminine form of 'Landlord'?", "as": "'Landlord' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Landlady", "as": "ঘৰমালিকী" },
+      { "en": "Hostess", "as": "আশ্ৰয়দাত্ৰী" },
+      { "en": "Maid", "as": "দাসী" },
+      { "en": "Tenant", "as": "ভাৰাতীয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'landlord' is 'landlady'.",
+      "as": "'landlord' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'landlady'।"
+    }
+  },
+  {
+    "id": "gender-040",
+    "q": { "en": "What is the feminine form of 'Policeman'?", "as": "'Policeman' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Guard", "as": "প্ৰহৰী" },
+      { "en": "Policewoman", "as": "মহিলা আৰক্ষী" },
+      { "en": "Soldier", "as": "সৈনিক" },
+      { "en": "Officer", "as": "বিষয়া" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'policeman' is 'policewoman'.",
+      "as": "'policeman' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'policewoman'।"
+    }
+  },
+  {
+    "id": "gender-041",
+    "q": { "en": "What is the feminine form of 'Headmaster'?", "as": "'Headmaster' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Teacher", "as": "শিক্ষক" },
+      { "en": "Principal", "as": "অধ্যক্ষ" },
+      { "en": "Headmistress", "as": "প্ৰধান শিক্ষিকা" },
+      { "en": "Monitor", "as": "শ্ৰেণী নেতা" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'headmaster' is 'headmistress'.",
+      "as": "'headmaster' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'headmistress'।"
+    }
+  },
+  {
+    "id": "gender-042",
+    "q": { "en": "What is the feminine form of 'Poet'?", "as": "'Poet' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Poetess", "as": "মহিলা কবি" },
+      { "en": "Authoress", "as": "মহিলা লেখিকা" },
+      { "en": "Actress", "as": "অভিনেত্ৰী" },
+      { "en": "Singer", "as": "গায়িকা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'poet' is 'poetess'.",
+      "as": "'poet' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'poetess'।"
+    }
+  },
+  {
+    "id": "gender-043",
+    "q": { "en": "What is the feminine form of 'Author'?", "as": "'Author' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Poetess", "as": "মহিলা কবি" },
+      { "en": "Authoress", "as": "মহিলা লেখিকা" },
+      { "en": "Editor", "as": "সম্পাদক" },
+      { "en": "Writer", "as": "লেখিকা" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'author' is 'authoress'.",
+      "as": "'author' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'authoress'।"
+    }
+  },
+  {
+    "id": "gender-044",
+    "q": { "en": "What is the feminine form of 'Priest'?", "as": "'Priest' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Nun", "as": "সন্ন্যাসিনী" },
+      { "en": "Monk", "as": "সন্ন্যাসী" },
+      { "en": "Priestess", "as": "পুৰোহিতা (মহিলা)" },
+      { "en": "Goddess", "as": "দেৱী" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'priest' is 'priestess'.",
+      "as": "'priest' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'priestess'।"
+    }
+  },
+  {
+    "id": "gender-045",
+    "q": { "en": "What is the feminine form of 'Heir'?", "as": "'Heir' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Successor", "as": "উত্তৰসূৰী" },
+      { "en": "Owner", "as": "মালিক" },
+      { "en": "Heiress", "as": "উত্তৰাধিকাৰিণী" },
+      { "en": "Ruler", "as": "শাসক" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'heir' is 'heiress'.",
+      "as": "'heir' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'heiress'।"
+    }
+  },
+  {
+    "id": "gender-046",
+    "q": { "en": "What is the feminine form of 'Hunter'?", "as": "'Hunter' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Murderess", "as": "হত্যাকাৰিণী" },
+      { "en": "Huntress", "as": "চিকাৰিণী" },
+      { "en": "Traitress", "as": "বিশ্বাসঘাতকী" },
+      { "en": "Shepherdess", "as": "মেষপালিকা" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'hunter' is 'huntress'.",
+      "as": "'hunter' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'huntress'।"
+    }
+  },
+  {
+    "id": "gender-047",
+    "q": { "en": "What is the feminine form of 'Murderer'?", "as": "'Murderer' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Huntress", "as": "চিকাৰিণী" },
+      { "en": "Murderess", "as": "হত্যাকাৰিণী" },
+      { "en": "Traitor", "as": "বিশ্বাসঘাতক" },
+      { "en": "Thief", "as": "চোৰ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'murderer' is 'murderess'.",
+      "as": "'murderer' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'murderess'।"
+    }
+  },
+  {
+    "id": "gender-048",
+    "q": { "en": "What is the feminine form of 'Traitor'?", "as": "'Traitor' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Murderess", "as": "হত্যাকাৰিণী" },
+      { "en": "Traitress", "as": "বিশ্বাসঘাতকী" },
+      { "en": "Spy", "as": "গুপ্তচৰ" },
+      { "en": "Enemy", "as": "শত্ৰু" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'traitor' is 'traitress'.",
+      "as": "'traitor' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'traitress'।"
+    }
+  },
+  {
+    "id": "gender-049",
+    "q": { "en": "What is the feminine form of 'Fiance'?", "as": "'Fiance' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Bride", "as": "কইনা" },
+      { "en": "Fiancee", "as": "বাগদত্তা" },
+      { "en": "Wife", "as": "পত্নী" },
+      { "en": "Widow", "as": "বিধৱা" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'fiance' is 'fiancee'.",
+      "as": "'fiance' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'fiancee'।"
+    }
+  },
+  {
+    "id": "gender-050",
+    "q": { "en": "What is the feminine form of 'Lad'?", "as": "'Lad' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Lass", "as": "গাভৰু" },
+      { "en": "Girl", "as": "ছোৱালী" },
+      { "en": "Woman", "as": "মহিলা" },
+      { "en": "Bride", "as": "কইনা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'lad' is 'lass'.",
+      "as": "'lad' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'lass'।"
+    }
+  },
+  {
+    "id": "gender-051",
+    "q": { "en": "What is the feminine form of 'Male'?", "as": "'Male' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Woman", "as": "মহিলা" },
+      { "en": "Female", "as": "স্ত্ৰী" },
+      { "en": "Lady", "as": "ভদ্ৰমহিলা" },
+      { "en": "Girl", "as": "ছোৱালী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'male' is 'female'.",
+      "as": "'male' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'female'।"
+    }
+  },
+  {
+    "id": "gender-052",
+    "q": { "en": "What is the feminine form of 'Ox'?", "as": "'Ox' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Cow", "as": "গাইগৰু" },
+      { "en": "Bull", "as": "ষাঁড়" },
+      { "en": "Calf", "as": "পোৱালি" },
+      { "en": "Heifer", "as": "গাই-পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'ox' is 'cow'.",
+      "as": "'ox' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'cow'।"
+    }
+  },
+  {
+    "id": "gender-053",
+    "q": { "en": "What is the feminine form of 'Prophet'?", "as": "'Prophet' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Priestess", "as": "পুৰোহিতা (মহিলা)" },
+      { "en": "Prophetess", "as": "ভৱিষ্যতবক্ত্ৰী" },
+      { "en": "Saint", "as": "সন্ত" },
+      { "en": "Goddess", "as": "দেৱী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'prophet' is 'prophetess'.",
+      "as": "'prophet' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'prophetess'।"
+    }
+  },
+  {
+    "id": "gender-054",
+    "q": { "en": "What is the feminine form of 'Sultan'?", "as": "'Sultan' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Queen", "as": "ৰাণী" },
+      { "en": "Sultana", "as": "চুলতানা" },
+      { "en": "Empress", "as": "সম্ৰাজ্ঞী" },
+      { "en": "Princess", "as": "ৰাজকুমাৰী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'sultan' is 'sultana'.",
+      "as": "'sultan' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'sultana'।"
+    }
+  },
+  {
+    "id": "gender-055",
+    "q": { "en": "What is the feminine form of 'Shepherd'?", "as": "'Shepherd' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Shepherdess", "as": "মেষপালিকা" },
+      { "en": "Huntress", "as": "চিকাৰিণী" },
+      { "en": "Milkmaid", "as": "গোৱালী" },
+      { "en": "Maid", "as": "দাসী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'shepherd' is 'shepherdess'.",
+      "as": "'shepherd' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'shepherdess'।"
+    }
+  },
+  {
+    "id": "gender-056",
+    "q": { "en": "What is the feminine form of 'Songster'?", "as": "'Songster' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Actress", "as": "অভিনেত্ৰী" },
+      { "en": "Songstress", "as": "গায়িকা" },
+      { "en": "Singer", "as": "গায়িকা" },
+      { "en": "Poetess", "as": "মহিলা কবি" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'songster' is 'songstress'.",
+      "as": "'songster' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'songstress'।"
+    }
+  },
+  {
+    "id": "gender-057",
+    "q": { "en": "What is the feminine form of 'Seamster'?", "as": "'Seamster' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Weaver", "as": "তাঁতী" },
+      { "en": "Seamstress", "as": "দৰ্জিনী" },
+      { "en": "Tailor", "as": "চিলাই কৰা মানুহ" },
+      { "en": "Maid", "as": "দাসী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'seamster' is 'seamstress'.",
+      "as": "'seamster' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'seamstress'।"
+    }
+  },
+  {
+    "id": "gender-058",
+    "q": { "en": "What is the feminine form of 'Abbot'?", "as": "'Abbot' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Nun", "as": "সন্ন্যাসিনী" },
+      { "en": "Abbess", "as": "মহন্তী" },
+      { "en": "Priestess", "as": "পুৰোহিতা (মহিলা)" },
+      { "en": "Mother", "as": "মাতৃ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'abbot' is 'abbess'.",
+      "as": "'abbot' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'abbess'।"
+    }
+  },
+  {
+    "id": "gender-059",
+    "q": { "en": "What is the feminine form of 'Marquis'?", "as": "'Marquis' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Duchess", "as": "ডাচেছ" },
+      { "en": "Marchioness", "as": "মাৰ্কুইছী" },
+      { "en": "Countess", "as": "কাউণ্টেছ" },
+      { "en": "Baroness", "as": "বেৰনেছ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'marquis' is 'marchioness'.",
+      "as": "'marquis' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'marchioness'।"
+    }
+  },
+  {
+    "id": "gender-060",
+    "q": { "en": "What is the feminine form of 'Viscount'?", "as": "'Viscount' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Countess", "as": "কাউণ্টেছ" },
+      { "en": "Viscountess", "as": "ভিস্কাউণ্টেছ" },
+      { "en": "Duchess", "as": "ডাচেছ" },
+      { "en": "Baroness", "as": "বেৰনেছ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'viscount' is 'viscountess'.",
+      "as": "'viscount' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'viscountess'।"
+    }
+  },
+  {
+    "id": "gender-061",
+    "q": { "en": "What is the feminine form of 'Governor'?", "as": "'Governor' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Governess", "as": "গৃহশিক্ষয়িত্ৰী" },
+      { "en": "Queen", "as": "ৰাণী" },
+      { "en": "Ruler", "as": "শাসক" },
+      { "en": "Mayor", "as": "মেয়ৰ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'governor' is 'governess'.",
+      "as": "'governor' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'governess'।"
+    }
+  },
+  {
+    "id": "gender-062",
+    "q": { "en": "What is the feminine form of 'Instructor'?", "as": "'Instructor' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Teacher", "as": "শিক্ষক" },
+      { "en": "Instructress", "as": "প্ৰশিক্ষিকা" },
+      { "en": "Professor", "as": "অধ্যাপক" },
+      { "en": "Monitor", "as": "শ্ৰেণী নেতা" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'instructor' is 'instructress'.",
+      "as": "'instructor' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'instructress'।"
+    }
+  },
+  {
+    "id": "gender-063",
+    "q": { "en": "What is the feminine form of 'Editor'?", "as": "'Editor' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Editress", "as": "সম্পাদিকা" },
+      { "en": "Authoress", "as": "মহিলা লেখিকা" },
+      { "en": "Journalist", "as": "সাংবাদিক" },
+      { "en": "Reporter", "as": "সংবাদদাতা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'editor' is 'editress'.",
+      "as": "'editor' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'editress'।"
+    }
+  },
+  {
+    "id": "gender-064",
+    "q": { "en": "What is the feminine form of 'Testator'?", "as": "'Testator' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Executor", "as": "কাৰ্যনিবাহক" },
+      { "en": "Testatrix", "as": "উইলকাৰিণী" },
+      { "en": "Heir", "as": "উত্তৰাধিকাৰী" },
+      { "en": "Witness", "as": "সাক্ষী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'testator' is 'testatrix'.",
+      "as": "'testator' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'testatrix'।"
+    }
+  },
+  {
+    "id": "gender-065",
+    "q": { "en": "What is the feminine form of 'Executor'?", "as": "'Executor' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Testator", "as": "উইলকাৰী" },
+      { "en": "Executrix", "as": "কাৰ্যনিবাহিকা" },
+      { "en": "Trustee", "as": "ন্যাসৰক্ষী" },
+      { "en": "Heir", "as": "উত্তৰাধিকাৰী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'executor' is 'executrix'.",
+      "as": "'executor' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'executrix'।"
+    }
+  },
+  {
+    "id": "gender-066",
+    "q": { "en": "What is the feminine form of 'Baron'?", "as": "'Baron' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Duchess", "as": "ডাচেছ" },
+      { "en": "Countess", "as": "কাউণ্টেছ" },
+      { "en": "Baroness", "as": "বেৰনেছ" },
+      { "en": "Lady", "as": "ভদ্ৰমহিলা" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'baron' is 'baroness'.",
+      "as": "'baron' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'baroness'।"
+    }
+  },
+  {
+    "id": "gender-067",
+    "q": { "en": "What is the feminine form of 'Earl'?", "as": "'Earl' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Countess", "as": "কাউণ্টেছ" },
+      { "en": "Baroness", "as": "বেৰনেছ" },
+      { "en": "Duchess", "as": "ডাচেছ" },
+      { "en": "Lady", "as": "ভদ্ৰমহিলা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'earl' is 'countess'.",
+      "as": "'earl' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'countess'।"
+    }
+  },
+  {
+    "id": "gender-068",
+    "q": { "en": "What is the feminine form of 'Lord'?", "as": "'Lord' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Sir", "as": "ছাৰ" },
+      { "en": "Madam", "as": "ভদ্ৰমহিলা" },
+      { "en": "Lady", "as": "ভদ্ৰমহিলা" },
+      { "en": "Queen", "as": "ৰাণী" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'lord' is 'lady'.",
+      "as": "'lord' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'lady'।"
+    }
+  },
+  {
+    "id": "gender-069",
+    "q": { "en": "What is the feminine form of 'Sir'?", "as": "'Sir' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Lady", "as": "ভদ্ৰমহিলা" },
+      { "en": "Madam", "as": "মেডাম" },
+      { "en": "Queen", "as": "ৰাণী" },
+      { "en": "Miss", "as": "কুমাৰী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'sir' is 'madam'.",
+      "as": "'sir' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'madam'।"
+    }
+  },
+  {
+    "id": "gender-070",
+    "q": { "en": "What is the feminine form of 'Giant'?", "as": "'Giant' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Dwarf", "as": "বামন" },
+      { "en": "Giantess", "as": "দৈত্যৰী" },
+      { "en": "Witch", "as": "ডাইনী" },
+      { "en": "Ogre", "as": "ৰাক্ষস" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'giant' is 'giantess'.",
+      "as": "'giant' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'giantess'।"
+    }
+  },
+  {
+    "id": "gender-071",
+    "q": { "en": "What is the feminine form of 'Tempter'?", "as": "'Tempter' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Temptress", "as": "প্ৰলোভনকাৰিণী" },
+      { "en": "Witch", "as": "ডাইনী" },
+      { "en": "Sinner", "as": "পাপী" },
+      { "en": "Traitress", "as": "বিশ্বাসঘাতকী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'tempter' is 'temptress'.",
+      "as": "'tempter' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'temptress'।"
+    }
+  },
+  {
+    "id": "gender-072",
+    "q": { "en": "What is the feminine form of 'Enchanter'?", "as": "'Enchanter' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Witch", "as": "ডাইনী" },
+      { "en": "Enchantress", "as": "যাদুকৰী" },
+      { "en": "Fairy", "as": "পৰী" },
+      { "en": "Goddess", "as": "দেৱী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'enchanter' is 'enchantress'.",
+      "as": "'enchanter' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'enchantress'।"
+    }
+  },
+  {
+    "id": "gender-073",
+    "q": { "en": "What is the feminine form of 'Monitor'?", "as": "'Monitor' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Teacher", "as": "শিক্ষক" },
+      { "en": "Headmistress", "as": "প্ৰধান শিক্ষিকা" },
+      { "en": "Monitress", "as": "শ্ৰেণী নেত্ৰী" },
+      { "en": "Prefect", "as": "প্ৰিফেক্ট" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'monitor' is 'monitress'.",
+      "as": "'monitor' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'monitress'।"
+    }
+  },
+  {
+    "id": "gender-074",
+    "q": { "en": "What is the feminine form of 'Prosecutor'?", "as": "'Prosecutor' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Defendant", "as": "বিবাদী" },
+      { "en": "Prosecutrix", "as": "অভিযোগকাৰিণী" },
+      { "en": "Lawyer", "as": "ওকালতী" },
+      { "en": "Judge", "as": "ন্যায়াধীশ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'prosecutor' is 'prosecutrix'.",
+      "as": "'prosecutor' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'prosecutrix'।"
+    }
+  },
+  {
+    "id": "gender-075",
+    "q": { "en": "What is the feminine form of 'Beau'?", "as": "'Beau' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Fiancee", "as": "বাগদত্তা" },
+      { "en": "Belle", "as": "সৌন্দৰ্যৱতী" },
+      { "en": "Bride", "as": "কইনা" },
+      { "en": "Lady", "as": "ভদ্ৰমহিলা" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'beau' is 'belle'.",
+      "as": "'beau' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'belle'।"
+    }
+  },
+  {
+    "id": "gender-076",
+    "q": { "en": "What is the feminine form of 'He-goat'?", "as": "'He-goat' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "She-goat", "as": "মাইকী ছাগলী" },
+      { "en": "Ram", "as": "মতা ভেড়া" },
+      { "en": "Ewe", "as": "মাইকী ভেড়া" },
+      { "en": "Kid", "as": "ছাগলী পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'he-goat' is 'she-goat'.",
+      "as": "'he-goat' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'she-goat'।"
+    }
+  },
+  {
+    "id": "gender-077",
+    "q": { "en": "What is the feminine form of 'Bull-elephant'?", "as": "'Bull-elephant' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Tusker", "as": "দাঁতাল হাতী" },
+      { "en": "Cow-elephant", "as": "মাইকী হাতী" },
+      { "en": "Calf", "as": "পোৱালি" },
+      { "en": "Mare", "as": "ঘোঁৰী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'bull-elephant' is 'cow-elephant'.",
+      "as": "'bull-elephant' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'cow-elephant'।"
+    }
+  },
+  {
+    "id": "gender-078",
+    "q": { "en": "What is the feminine form of 'Jack-ass'?", "as": "'Jack-ass' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Mare", "as": "ঘোঁৰী" },
+      { "en": "Colt", "as": "মতা ঘোঁৰা-পোৱালি" },
+      { "en": "Jenny", "as": "মাইকী গাধ" },
+      { "en": "Filly", "as": "মাইকী ঘোঁৰা-পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'jack-ass' is 'jenny'.",
+      "as": "'jack-ass' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'jenny'।"
+    }
+  },
+  {
+    "id": "gender-079",
+    "q": { "en": "What is the feminine form of 'Hart'?", "as": "'Hart' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Doe", "as": "হৰিণী" },
+      { "en": "Roe", "as": "মাইকী হৰিণ" },
+      { "en": "Hind", "as": "মাইকী হৰিণ" },
+      { "en": "Stag", "as": "মতা হৰিণ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'hart' is 'roe'.",
+      "as": "'hart' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'roe'।"
+    }
+  },
+  {
+    "id": "gender-080",
+    "q": { "en": "What is the feminine form of 'Cock-sparrow'?", "as": "'Cock-sparrow' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Hen-sparrow", "as": "মাইকী চৰাই" },
+      { "en": "Peahen", "as": "ময়ূৰী" },
+      { "en": "Duck", "as": "হাঁহ" },
+      { "en": "Dove", "as": "পাৰ চৰাই" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The feminine of 'cock-sparrow' is 'hen-sparrow'.",
+      "as": "'cock-sparrow' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'hen-sparrow'।"
+    }
+  },
+  {
+    "id": "gender-081",
+    "q": { "en": "What is the feminine form of 'Drone'?", "as": "'Drone' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Worker", "as": "শ্ৰমিক মৌমাখি" },
+      { "en": "Queen bee", "as": "ৰাণী মৌমাখি" },
+      { "en": "Bee", "as": "মৌমাখি" },
+      { "en": "Wasp", "as": "বৰল" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The feminine of 'drone' is 'queen bee'.",
+      "as": "'drone' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'queen bee'।"
+    }
+  },
+  {
+    "id": "gender-082",
+    "q": { "en": "What is the feminine form of 'Gelding'?", "as": "'Gelding' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Colt", "as": "মতা ঘোঁৰা-পোৱালি" },
+      { "en": "Filly", "as": "মাইকী ঘোঁৰা-পোৱালি" },
+      { "en": "Mare", "as": "ঘোঁৰী" },
+      { "en": "Stallion", "as": "মতা ঘোঁৰা" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The feminine of 'gelding' is 'mare'.",
+      "as": "'gelding' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'mare'।"
+    }
+  },
+  {
+    "id": "gender-083",
+    "q": { "en": "What is the masculine form of 'Queen'?", "as": "'Queen' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "King", "as": "ৰজা" },
+      { "en": "Prince", "as": "ৰাজকুমাৰ" },
+      { "en": "Emperor", "as": "সম্ৰাট" },
+      { "en": "Lord", "as": "প্ৰভু" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'queen' is 'king'.",
+      "as": "'queen' ৰ পুৰুষলিংগ ৰূপ হৈছে 'king'।"
+    }
+  },
+  {
+    "id": "gender-084",
+    "q": { "en": "What is the masculine form of 'Lioness'?", "as": "'Lioness' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Tiger", "as": "বাঘ" },
+      { "en": "Lion", "as": "সিংহ" },
+      { "en": "Leopard", "as": "নাহৰফুটুকী" },
+      { "en": "Panther", "as": "নাহৰফুটুকী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The masculine of 'lioness' is 'lion'.",
+      "as": "'lioness' ৰ পুৰুষলিংগ ৰূপ হৈছে 'lion'।"
+    }
+  },
+  {
+    "id": "gender-085",
+    "q": { "en": "What is the masculine form of 'Cow'?", "as": "'Cow' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Ox", "as": "বলদ" },
+      { "en": "Bull", "as": "ষাঁড়" },
+      { "en": "Calf", "as": "পোৱালি" },
+      { "en": "Heifer", "as": "গাই-পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The masculine of 'cow' is 'bull'.",
+      "as": "'cow' ৰ পুৰুষলিংগ ৰূপ হৈছে 'bull'।"
+    }
+  },
+  {
+    "id": "gender-086",
+    "q": { "en": "What is the masculine form of 'Mare'?", "as": "'Mare' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Horse", "as": "ঘোঁৰা" },
+      { "en": "Colt", "as": "মতা ঘোঁৰা-পোৱালি" },
+      { "en": "Donkey", "as": "গাধ" },
+      { "en": "Stallion", "as": "মতা ঘোঁৰা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'mare' is 'horse'.",
+      "as": "'mare' ৰ পুৰুষলিংগ ৰূপ হৈছে 'horse'।"
+    }
+  },
+  {
+    "id": "gender-087",
+    "q": { "en": "What is the masculine form of 'Woman'?", "as": "'Woman' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Man", "as": "পুৰুষ" },
+      { "en": "Boy", "as": "ল'ৰা" },
+      { "en": "Male", "as": "পুৰুষ" },
+      { "en": "Lad", "as": "ডেকা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'woman' is 'man'.",
+      "as": "'woman' ৰ পুৰুষলিংগ ৰূপ হৈছে 'man'।"
+    }
+  },
+  {
+    "id": "gender-088",
+    "q": { "en": "What is the masculine form of 'Sister'?", "as": "'Sister' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Brother", "as": "ভাতৃ" },
+      { "en": "Father", "as": "পিতৃ" },
+      { "en": "Uncle", "as": "খুড়া" },
+      { "en": "Son", "as": "পুত্ৰ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'sister' is 'brother'.",
+      "as": "'sister' ৰ পুৰুষলিংগ ৰূপ হৈছে 'brother'।"
+    }
+  },
+  {
+    "id": "gender-089",
+    "q": { "en": "What is the masculine form of 'Daughter'?", "as": "'Daughter' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Son", "as": "পুত্ৰ" },
+      { "en": "Brother", "as": "ভাতৃ" },
+      { "en": "Nephew", "as": "ভতিজা" },
+      { "en": "Boy", "as": "ল'ৰা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'daughter' is 'son'.",
+      "as": "'daughter' ৰ পুৰুষলিংগ ৰূপ হৈছে 'son'।"
+    }
+  },
+  {
+    "id": "gender-090",
+    "q": { "en": "What is the masculine form of 'Wife'?", "as": "'Wife' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Husband", "as": "স্বামী" },
+      { "en": "Father", "as": "পিতৃ" },
+      { "en": "Brother", "as": "ভাতৃ" },
+      { "en": "Widower", "as": "বিধুৰ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'wife' is 'husband'.",
+      "as": "'wife' ৰ পুৰুষলিংগ ৰূপ হৈছে 'husband'।"
+    }
+  },
+  {
+    "id": "gender-091",
+    "q": { "en": "What is the masculine form of 'Widow'?", "as": "'Widow' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Widower", "as": "বিধুৰ" },
+      { "en": "Bachelor", "as": "অবিবাহিত পুৰুষ" },
+      { "en": "Husband", "as": "স্বামী" },
+      { "en": "Father", "as": "পিতৃ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'widow' is 'widower'.",
+      "as": "'widow' ৰ পুৰুষলিংগ ৰূপ হৈছে 'widower'।"
+    }
+  },
+  {
+    "id": "gender-092",
+    "q": { "en": "What is the masculine form of 'Spinster'?", "as": "'Spinster' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Widower", "as": "বিধুৰ" },
+      { "en": "Bachelor", "as": "অবিবাহিত পুৰুষ" },
+      { "en": "Groom", "as": "দৰা" },
+      { "en": "Monk", "as": "সন্ন্যাসী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The masculine of 'spinster' is 'bachelor'.",
+      "as": "'spinster' ৰ পুৰুষলিংগ ৰূপ হৈছে 'bachelor'।"
+    }
+  },
+  {
+    "id": "gender-093",
+    "q": { "en": "What is the masculine form of 'Nun'?", "as": "'Nun' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Priest", "as": "পুৰোহিত" },
+      { "en": "Monk", "as": "সন্ন্যাসী" },
+      { "en": "Abbot", "as": "মহন্ত" },
+      { "en": "Wizard", "as": "যাদুকৰ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The masculine of 'nun' is 'monk'.",
+      "as": "'nun' ৰ পুৰুষলিংগ ৰূপ হৈছে 'monk'।"
+    }
+  },
+  {
+    "id": "gender-094",
+    "q": { "en": "What is the masculine form of 'Witch'?", "as": "'Witch' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Wizard", "as": "যাদুকৰ" },
+      { "en": "Monk", "as": "সন্ন্যাসী" },
+      { "en": "Priest", "as": "পুৰোহিত" },
+      { "en": "Giant", "as": "দৈত্য" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'witch' is 'wizard'.",
+      "as": "'witch' ৰ পুৰুষলিংগ ৰূপ হৈছে 'wizard'।"
+    }
+  },
+  {
+    "id": "gender-095",
+    "q": { "en": "What is the masculine form of 'Empress'?", "as": "'Empress' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "King", "as": "ৰজা" },
+      { "en": "Emperor", "as": "সম্ৰাট" },
+      { "en": "Prince", "as": "ৰাজকুমাৰ" },
+      { "en": "Duke", "as": "ডিউক" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The masculine of 'empress' is 'emperor'.",
+      "as": "'empress' ৰ পুৰুষলিংগ ৰূপ হৈছে 'emperor'।"
+    }
+  },
+  {
+    "id": "gender-096",
+    "q": { "en": "What is the masculine form of 'Duchess'?", "as": "'Duchess' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Count", "as": "কাউণ্ট" },
+      { "en": "Duke", "as": "ডিউক" },
+      { "en": "Baron", "as": "বেৰন" },
+      { "en": "Earl", "as": "আৰ্ল" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The masculine of 'duchess' is 'duke'.",
+      "as": "'duchess' ৰ পুৰুষলিংগ ৰূপ হৈছে 'duke'।"
+    }
+  },
+  {
+    "id": "gender-097",
+    "q": { "en": "What is the masculine form of 'Heroine'?", "as": "'Heroine' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Actor", "as": "অভিনেতা" },
+      { "en": "Hero", "as": "বীৰ" },
+      { "en": "Warrior", "as": "যোদ্ধা" },
+      { "en": "King", "as": "ৰজা" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The masculine of 'heroine' is 'hero'.",
+      "as": "'heroine' ৰ পুৰুষলিংগ ৰূপ হৈছে 'hero'।"
+    }
+  },
+  {
+    "id": "gender-098",
+    "q": { "en": "What is the masculine form of 'Actress'?", "as": "'Actress' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Actor", "as": "অভিনেতা" },
+      { "en": "Hero", "as": "বীৰ" },
+      { "en": "Dancer", "as": "নৰ্তক" },
+      { "en": "Singer", "as": "গায়ক" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'actress' is 'actor'.",
+      "as": "'actress' ৰ পুৰুষলিংগ ৰূপ হৈছে 'actor'।"
+    }
+  },
+  {
+    "id": "gender-099",
+    "q": { "en": "What is the masculine form of 'Waitress'?", "as": "'Waitress' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Waiter", "as": "পৰিচাৰক" },
+      { "en": "Host", "as": "আশ্ৰয়দাতা" },
+      { "en": "Cook", "as": "ৰান্ধনি" },
+      { "en": "Butler", "as": "ভৃত্য" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'waitress' is 'waiter'.",
+      "as": "'waitress' ৰ পুৰুষলিংগ ৰূপ হৈছে 'waiter'।"
+    }
+  },
+  {
+    "id": "gender-100",
+    "q": { "en": "What is the masculine form of 'Goddess'?", "as": "'Goddess' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "God", "as": "ঈশ্বৰ" },
+      { "en": "Angel", "as": "দেৱদূত" },
+      { "en": "Priest", "as": "পুৰোহিত" },
+      { "en": "Monk", "as": "সন্ন্যাসী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'goddess' is 'god'.",
+      "as": "'goddess' ৰ পুৰুষলিংগ ৰূপ হৈছে 'god'।"
+    }
+  },
+  {
+    "id": "gender-101",
+    "q": { "en": "What is the masculine form of 'Peahen'?", "as": "'Peahen' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Duck", "as": "হাঁহ" },
+      { "en": "Peacock", "as": "ময়ূৰ" },
+      { "en": "Swan", "as": "হংস" },
+      { "en": "Turkey", "as": "টাৰ্কি" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The masculine of 'peahen' is 'peacock'.",
+      "as": "'peahen' ৰ পুৰুষলিংগ ৰূপ হৈছে 'peacock'।"
+    }
+  },
+  {
+    "id": "gender-102",
+    "q": { "en": "What is the masculine form of 'Duck'?", "as": "'Duck' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Drake", "as": "মতা হাঁহ" },
+      { "en": "Gander", "as": "মতা ৰাজহাঁহ" },
+      { "en": "Goose", "as": "ৰাজহাঁহ" },
+      { "en": "Cock", "as": "মতা কুকুৰা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'duck' is 'drake'.",
+      "as": "'duck' ৰ পুৰুষলিংগ ৰূপ হৈছে 'drake'।"
+    }
+  },
+  {
+    "id": "gender-103",
+    "q": { "en": "What is the masculine form of 'Goose'?", "as": "'Goose' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Duck", "as": "হাঁহ" },
+      { "en": "Drake", "as": "মতা হাঁহ" },
+      { "en": "Gander", "as": "মতা ৰাজহাঁহ" },
+      { "en": "Swan", "as": "হংস" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The masculine of 'goose' is 'gander'.",
+      "as": "'goose' ৰ পুৰুষলিংগ ৰূপ হৈছে 'gander'।"
+    }
+  },
+  {
+    "id": "gender-104",
+    "q": { "en": "What is the masculine form of 'Ewe'?", "as": "'Ewe' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Ram", "as": "মতা ভেড়া" },
+      { "en": "Boar", "as": "বৰাহ" },
+      { "en": "Buck", "as": "মতা হৰিণ" },
+      { "en": "Stag", "as": "মতা হৰিণ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'ewe' is 'ram'.",
+      "as": "'ewe' ৰ পুৰুষলিংগ ৰূপ হৈছে 'ram'।"
+    }
+  },
+  {
+    "id": "gender-105",
+    "q": { "en": "What is the masculine form of 'Sow'?", "as": "'Sow' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Boar", "as": "বৰাহ" },
+      { "en": "Ram", "as": "মতা ভেড়া" },
+      { "en": "Buck", "as": "মতা হৰিণ" },
+      { "en": "Fox", "as": "শিয়াল" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'sow' is 'boar'.",
+      "as": "'sow' ৰ পুৰুষলিংগ ৰূপ হৈছে 'boar'।"
+    }
+  },
+  {
+    "id": "gender-106",
+    "q": { "en": "What is the masculine form of 'Vixen'?", "as": "'Vixen' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Wolf", "as": "কুকুৰনেচীয়া বাঘ" },
+      { "en": "Fox", "as": "শিয়াল" },
+      { "en": "Dog", "as": "কুকুৰ" },
+      { "en": "Jackal", "as": "শিয়াল" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The masculine of 'vixen' is 'fox'.",
+      "as": "'vixen' ৰ পুৰুষলিংগ ৰূপ হৈছে 'fox'।"
+    }
+  },
+  {
+    "id": "gender-107",
+    "q": { "en": "What is the masculine form of 'Bride'?", "as": "'Bride' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Bridegroom", "as": "দৰা" },
+      { "en": "Widower", "as": "বিধুৰ" },
+      { "en": "Husband", "as": "স্বামী" },
+      { "en": "Fiance", "as": "বাগদত্ত" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'bride' is 'bridegroom'.",
+      "as": "'bride' ৰ পুৰুষলিংগ ৰূপ হৈছে 'bridegroom'।"
+    }
+  },
+  {
+    "id": "gender-108",
+    "q": { "en": "What is the masculine form of 'Landlady'?", "as": "'Landlady' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Landlord", "as": "ঘৰমালিক" },
+      { "en": "Host", "as": "আশ্ৰয়দাতা" },
+      { "en": "Owner", "as": "মালিক" },
+      { "en": "Tenant", "as": "ভাৰাতীয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'landlady' is 'landlord'.",
+      "as": "'landlady' ৰ পুৰুষলিংগ ৰূপ হৈছে 'landlord'।"
+    }
+  },
+  {
+    "id": "gender-109",
+    "q": { "en": "What is the masculine form of 'Headmistress'?", "as": "'Headmistress' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Teacher", "as": "শিক্ষক" },
+      { "en": "Principal", "as": "অধ্যক্ষ" },
+      { "en": "Headmaster", "as": "প্ৰধান শিক্ষক" },
+      { "en": "Monitor", "as": "শ্ৰেণী নেতা" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The masculine of 'headmistress' is 'headmaster'.",
+      "as": "'headmistress' ৰ পুৰুষলিংগ ৰূপ হৈছে 'headmaster'।"
+    }
+  },
+  {
+    "id": "gender-110",
+    "q": { "en": "What is the masculine form of 'Poetess'?", "as": "'Poetess' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Poet", "as": "কবি" },
+      { "en": "Author", "as": "লেখক" },
+      { "en": "Writer", "as": "লেখক" },
+      { "en": "Singer", "as": "গায়ক" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'poetess' is 'poet'.",
+      "as": "'poetess' ৰ পুৰুষলিংগ ৰূপ হৈছে 'poet'।"
+    }
+  },
+  {
+    "id": "gender-111",
+    "q": { "en": "What is the masculine form of 'Authoress'?", "as": "'Authoress' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Author", "as": "লেখক" },
+      { "en": "Poet", "as": "কবি" },
+      { "en": "Editor", "as": "সম্পাদক" },
+      { "en": "Writer", "as": "লেখক" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'authoress' is 'author'.",
+      "as": "'authoress' ৰ পুৰুষলিংগ ৰূপ হৈছে 'author'।"
+    }
+  },
+  {
+    "id": "gender-112",
+    "q": { "en": "What is the masculine form of 'Fiancee'?", "as": "'Fiancee' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Fiance", "as": "বাগদত্ত" },
+      { "en": "Bridegroom", "as": "দৰা" },
+      { "en": "Husband", "as": "স্বামী" },
+      { "en": "Beau", "as": "সৌন্দৰ্যপ্ৰেমী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'fiancee' is 'fiance'.",
+      "as": "'fiancee' ৰ পুৰুষলিংগ ৰূপ হৈছে 'fiance'।"
+    }
+  },
+  {
+    "id": "gender-113",
+    "q": { "en": "What is the masculine form of 'Lass'?", "as": "'Lass' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Lad", "as": "ডেকা" },
+      { "en": "Boy", "as": "ল'ৰা" },
+      { "en": "Man", "as": "পুৰুষ" },
+      { "en": "Male", "as": "পুৰুষ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'lass' is 'lad'.",
+      "as": "'lass' ৰ পুৰুষলিংগ ৰূপ হৈছে 'lad'।"
+    }
+  },
+  {
+    "id": "gender-114",
+    "q": { "en": "What is the masculine form of 'Female'?", "as": "'Female' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Male", "as": "পুৰুষ" },
+      { "en": "Man", "as": "মানুহ" },
+      { "en": "Boy", "as": "ল'ৰা" },
+      { "en": "Lad", "as": "ডেকা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'female' is 'male'.",
+      "as": "'female' ৰ পুৰুষলিংগ ৰূপ হৈছে 'male'।"
+    }
+  },
+  {
+    "id": "gender-115",
+    "q": { "en": "What is the masculine form of 'Abbess'?", "as": "'Abbess' ৰ পুৰুষলিংগ ৰূপ কি?" },
+    "options": [
+      { "en": "Abbot", "as": "মহন্ত" },
+      { "en": "Priest", "as": "পুৰোহিত" },
+      { "en": "Monk", "as": "সন্ন্যাসী" },
+      { "en": "Nun", "as": "সন্ন্যাসিনী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The masculine of 'abbess' is 'abbot'.",
+      "as": "'abbess' ৰ পুৰুষলিংগ ৰূপ হৈছে 'abbot'।"
+    }
   }
-}
+]
