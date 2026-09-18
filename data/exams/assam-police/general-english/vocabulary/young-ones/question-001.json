@@ -1,30 +1,1418 @@
-{
-  "id": "young-ones-001",
-  "q": {
-    "en": "What is a baby goat called?",
-    "as": "ছাগলীৰ পোৱালিক কি বোলা হয়?"
+[
+  {
+    "id": "young-ones-001",
+    "q": { "en": "What is a baby goat called?", "as": "ছাগলীৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" },
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Puppy", "as": "কুকুৰৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young goat is called a kid.", "as": "ছাগলীৰ পোৱালিক kid বোলা হয়।" }
   },
-  "options": [
-    {
-      "en": "Kid",
-      "as": "ছাগলীৰ পোৱালি"
-    },
-    {
-      "en": "Calf",
-      "as": "পোৱালি"
-    },
-    {
-      "en": "Cub",
-      "as": "শাবক"
-    },
-    {
-      "en": "Puppy",
-      "as": "কুকুৰৰ পোৱালি"
-    }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "A young goat is called a kid.",
-    "as": "ছাগলীৰ পোৱালিক kid বোলা হয়।"
+  {
+    "id": "young-ones-002",
+    "q": { "en": "What is a baby cow called?", "as": "গৰুৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" },
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" },
+      { "en": "Lamb", "as": "ভেড়াৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young cow is called a calf.", "as": "গৰুৰ পোৱালিক calf বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-003",
+    "q": { "en": "What is a baby horse called?", "as": "ঘোঁৰাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Puppy", "as": "কুকুৰৰ পোৱালি" },
+      { "en": "Kitten", "as": "মেকুৰীৰ পোৱালি" },
+      { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" },
+      { "en": "Lamb", "as": "ভেড়াৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young horse is called a foal.", "as": "ঘোঁৰাৰ পোৱালিক foal বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-004",
+    "q": { "en": "What is a baby dog called?", "as": "কুকুৰৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Kitten", "as": "মেকুৰীৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" },
+      { "en": "Puppy", "as": "কুকুৰৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young dog is called a puppy.", "as": "কুকুৰৰ পোৱালিক puppy বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-005",
+    "q": { "en": "What is a baby cat called?", "as": "মেকুৰীৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Kitten", "as": "মেকুৰীৰ পোৱালি" },
+      { "en": "Puppy", "as": "কুকুৰৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Fawn", "as": "হৰিণৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young cat is called a kitten.", "as": "মেকুৰীৰ পোৱালিক kitten বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-006",
+    "q": { "en": "What is a baby lion called?", "as": "সিংহৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young lion is called a cub.", "as": "সিংহৰ পোৱালিক cub বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-007",
+    "q": { "en": "What is a baby tiger called?", "as": "বাঘৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Puppy", "as": "কুকুৰৰ পোৱালি" },
+      { "en": "Lamb", "as": "ভেড়াৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young tiger is called a cub.", "as": "বাঘৰ পোৱালিক cub বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-008",
+    "q": { "en": "What is a baby bear called?", "as": "ভালুকৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Joey", "as": "কেংগেৰুৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young bear is called a cub.", "as": "ভালুকৰ পোৱালিক cub বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-009",
+    "q": { "en": "What is a baby fox called?", "as": "শিয়ালৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Puppy", "as": "কুকুৰৰ পোৱালি" },
+      { "en": "Kitten", "as": "মেকুৰীৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young fox is called a kit.", "as": "শিয়ালৰ পোৱালিক kit বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-010",
+    "q": { "en": "What is a baby wolf called?", "as": "কুকুৰনেচীয়া বাঘৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" },
+      { "en": "Fawn", "as": "হৰিণৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young wolf is called a pup.", "as": "কুকুৰনেচীয়া বাঘৰ পোৱালিক pup বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-011",
+    "q": { "en": "What is a baby sheep called?", "as": "ভেড়াৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" },
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Lamb", "as": "ভেড়াৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young sheep is called a lamb.", "as": "ভেড়াৰ পোৱালিক lamb বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-012",
+    "q": { "en": "What is a baby deer called?", "as": "হৰিণৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Lamb", "as": "ভেড়াৰ পোৱালি" },
+      { "en": "Fawn", "as": "হৰিণৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young deer is called a fawn.", "as": "হৰিণৰ পোৱালিক fawn বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-013",
+    "q": { "en": "What is a baby duck called?", "as": "হাঁহৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Duckling", "as": "হাঁহৰ পোৱালি" },
+      { "en": "Gosling", "as": "ৰাজহাঁহৰ পোৱালি" },
+      { "en": "Cygnet", "as": "হংসৰ পোৱালি" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young duck is called a duckling.", "as": "হাঁহৰ পোৱালিক duckling বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-014",
+    "q": { "en": "What is a baby goose called?", "as": "ৰাজহাঁহৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Duckling", "as": "হাঁহৰ পোৱালি" },
+      { "en": "Gosling", "as": "ৰাজহাঁহৰ পোৱালি" },
+      { "en": "Cygnet", "as": "হংসৰ পোৱালি" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young goose is called a gosling.", "as": "ৰাজহাঁহৰ পোৱালিক gosling বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-015",
+    "q": { "en": "What is a baby swan called?", "as": "হংসৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Gosling", "as": "ৰাজহাঁহৰ পোৱালি" },
+      { "en": "Duckling", "as": "হাঁহৰ পোৱালি" },
+      { "en": "Cygnet", "as": "হংসৰ পোৱালি" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young swan is called a cygnet.", "as": "হংসৰ পোৱালিক cygnet বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-016",
+    "q": { "en": "What is a baby hen called?", "as": "কুকুৰীৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Duckling", "as": "হাঁহৰ পোৱালি" },
+      { "en": "Gosling", "as": "ৰাজহাঁহৰ পোৱালি" },
+      { "en": "Cygnet", "as": "হংসৰ পোৱালি" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young hen is called a chick.", "as": "কুকুৰীৰ পোৱালিক chick বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-017",
+    "q": { "en": "What is a baby eagle called?", "as": "ঈগলৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Eaglet", "as": "ঈগলৰ পোৱালি" },
+      { "en": "Owlet", "as": "ফেঁচাৰ পোৱালি" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" },
+      { "en": "Squab", "as": "পাৰৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young eagle is called an eaglet.", "as": "ঈগলৰ পোৱালিক eaglet বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-018",
+    "q": { "en": "What is a baby owl called?", "as": "ফেঁচাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Eaglet", "as": "ঈগলৰ পোৱালি" },
+      { "en": "Owlet", "as": "ফেঁচাৰ পোৱালি" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" },
+      { "en": "Squab", "as": "পাৰৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young owl is called an owlet.", "as": "ফেঁচাৰ পোৱালিক owlet বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-019",
+    "q": { "en": "What is a baby frog called?", "as": "ভেকুলীৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Fry", "as": "মাছৰ পোৱালি" },
+      { "en": "Caterpillar", "as": "পখিলাৰ লেটা" },
+      { "en": "Tadpole", "as": "ভেকুলীৰ পোৱালি" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young frog is called a tadpole.", "as": "ভেকুলীৰ পোৱালিক tadpole বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-020",
+    "q": { "en": "What is a baby fish called?", "as": "মাছৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Tadpole", "as": "ভেকুলীৰ পোৱালি" },
+      { "en": "Spat", "as": "ষ্টাৰৰ পোৱালি" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" },
+      { "en": "Fry", "as": "মাছৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young fish is called a fry.", "as": "মাছৰ পোৱালিক fry বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-021",
+    "q": { "en": "What is a baby butterfly called?", "as": "পখিলাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Caterpillar", "as": "পখিলাৰ লেটা" },
+      { "en": "Tadpole", "as": "ভেকুলীৰ পোৱালি" },
+      { "en": "Nymph", "as": "নিম্ফ" },
+      { "en": "Maggot", "as": "মাখিৰ লেটা" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young butterfly is called a caterpillar.", "as": "পখিলাৰ পোৱালিক caterpillar বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-022",
+    "q": { "en": "What is a baby kangaroo called?", "as": "কেংগেৰুৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Joey", "as": "কেংগেৰুৰ পোৱালি" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Pup", "as": "পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young kangaroo is called a joey.", "as": "কেংগেৰুৰ পোৱালিক joey বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-023",
+    "q": { "en": "What is a baby elephant called?", "as": "হাতীৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" },
+      { "en": "Calf", "as": "হাতীৰ পোৱালি" },
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young elephant is called a calf.", "as": "হাতীৰ পোৱালিক calf বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-024",
+    "q": { "en": "What is a baby whale called?", "as": "তিমিৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Joey", "as": "কেংগেৰুৰ পোৱালি" },
+      { "en": "Calf", "as": "তিমিৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young whale is called a calf.", "as": "তিমিৰ পোৱালিক calf বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-025",
+    "q": { "en": "What is a baby seal called?", "as": "ছীলৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Pup", "as": "ছীলৰ পোৱালি" },
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Joey", "as": "কেংগেৰুৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young seal is called a pup.", "as": "ছীলৰ পোৱালিক pup বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-026",
+    "q": { "en": "What is a baby rabbit called?", "as": "শশকৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" },
+      { "en": "Bunny", "as": "শশকৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Fawn", "as": "হৰিণৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young rabbit is called a bunny.", "as": "শশকৰ পোৱালিক bunny বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-027",
+    "q": { "en": "What is a baby hare called?", "as": "শহাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bunny", "as": "শশকৰ পোৱালি" },
+      { "en": "Fawn", "as": "হৰিণৰ পোৱালি" },
+      { "en": "Leveret", "as": "শহাৰ পোৱালি" },
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young hare is called a leveret.", "as": "শহাৰ পোৱালিক leveret বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-028",
+    "q": { "en": "What is a baby pig called?", "as": "গাহৰিৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Lamb", "as": "ভেড়াৰ পোৱালি" },
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" },
+      { "en": "Piglet", "as": "গাহৰিৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young pig is called a piglet.", "as": "গাহৰিৰ পোৱালিক piglet বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-029",
+    "q": { "en": "What is a baby camel called?", "as": "উটৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Calf", "as": "উটৰ পোৱালি" },
+      { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Lamb", "as": "ভেড়াৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young camel is called a calf.", "as": "উটৰ পোৱালিক calf বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-030",
+    "q": { "en": "What is a baby giraffe called?", "as": "জিৰাফৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" },
+      { "en": "Calf", "as": "জিৰাফৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Joey", "as": "কেংগেৰুৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young giraffe is called a calf.", "as": "জিৰাফৰ পোৱালিক calf বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-031",
+    "q": { "en": "What is a baby zebra called?", "as": "জেব্ৰাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Foal", "as": "জেব্ৰাৰ পোৱালি" },
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young zebra is called a foal.", "as": "জেব্ৰাৰ পোৱালিক foal বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-032",
+    "q": { "en": "What is a baby monkey called?", "as": "বান্দৰৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Infant", "as": "শিশু" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young monkey is called an infant.", "as": "বান্দৰৰ পোৱালিক infant বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-033",
+    "q": { "en": "What is a baby rat called?", "as": "এন্দুৰৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Pup", "as": "এন্দুৰৰ পোৱালি" },
+      { "en": "Kitten", "as": "মেকুৰীৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young rat is called a pup.", "as": "এন্দুৰৰ পোৱালিক pup বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-034",
+    "q": { "en": "What is a baby mouse called?", "as": "নিগনিৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Kitten", "as": "মেকুৰীৰ পোৱালি" },
+      { "en": "Pinkie", "as": "নিগনিৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young mouse is called a pinkie.", "as": "নিগনিৰ পোৱালিক pinkie বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-035",
+    "q": { "en": "What is a baby squirrel called?", "as": "কেৰ্কেটুৱাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Kitten", "as": "কেৰ্কেটুৱাৰ পোৱালি" },
+      { "en": "Joey", "as": "কেংগেৰুৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young squirrel is called a kitten.", "as": "কেৰ্কেটুৱাৰ পোৱালিক kitten বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-036",
+    "q": { "en": "What is a baby beaver called?", "as": "বিভাৰৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Kitten", "as": "মেকুৰীৰ পোৱালি" },
+      { "en": "Kit", "as": "বিভাৰৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young beaver is called a kit.", "as": "বিভাৰৰ পোৱালিক kit বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-037",
+    "q": { "en": "What is a baby otter called?", "as": "উদৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Pup", "as": "উদৰ পোৱালি" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Kitten", "as": "মেকুৰীৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young otter is called a pup.", "as": "উদৰ পোৱালিক pup বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-038",
+    "q": { "en": "What is a baby badger called?", "as": "বেজাৰৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Kitten", "as": "মেকুৰীৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young badger is called a cub.", "as": "বেজাৰৰ পোৱালিক cub বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-039",
+    "q": { "en": "What is a baby skunk called?", "as": "স্কাংকৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Kit", "as": "স্কাংকৰ পোৱালি" },
+      { "en": "Kitten", "as": "মেকুৰীৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young skunk is called a kit.", "as": "স্কাংকৰ পোৱালিক kit বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-040",
+    "q": { "en": "What is a baby raccoon called?", "as": "ৰেকুনৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Kitten", "as": "মেকুৰীৰ পোৱালি" },
+      { "en": "Kit", "as": "ৰেকুনৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young raccoon is called a kit.", "as": "ৰেকুনৰ পোৱালিক kit বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-041",
+    "q": { "en": "What is a baby bat called?", "as": "বাদুলীৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Pup", "as": "বাদুলীৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young bat is called a pup.", "as": "বাদুলীৰ পোৱালিক pup বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-042",
+    "q": { "en": "What is a baby snake called?", "as": "সাপৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Hatchling", "as": "অণ্ডজ পোৱালি" },
+      { "en": "Snakelet", "as": "সাপৰ পোৱালি" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" },
+      { "en": "Fry", "as": "মাছৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young snake is called a snakelet.", "as": "সাপৰ পোৱালিক snakelet বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-043",
+    "q": { "en": "What is a baby crocodile called?", "as": "কুম্ভীৰৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Snakelet", "as": "সাপৰ পোৱালি" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" },
+      { "en": "Hatchling", "as": "কুম্ভীৰৰ পোৱালি" },
+      { "en": "Fry", "as": "মাছৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young crocodile is called a hatchling.", "as": "কুম্ভীৰৰ পোৱালিক hatchling বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-044",
+    "q": { "en": "What is a baby alligator called?", "as": "এলিগেটৰৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Snakelet", "as": "সাপৰ পোৱালি" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" },
+      { "en": "Fry", "as": "মাছৰ পোৱালি" },
+      { "en": "Hatchling", "as": "এলিগেটৰৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young alligator is called a hatchling.", "as": "এলিগেটৰৰ পোৱালিক hatchling বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-045",
+    "q": { "en": "What is a baby turtle called?", "as": "কাছৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Hatchling", "as": "কাছৰ পোৱালি" },
+      { "en": "Tadpole", "as": "ভেকুলীৰ পোৱালি" },
+      { "en": "Fry", "as": "মাছৰ পোৱালি" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young turtle is called a hatchling.", "as": "কাছৰ পোৱালিক hatchling বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-046",
+    "q": { "en": "What is a baby lizard called?", "as": "জেতুকাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Snakelet", "as": "সাপৰ পোৱালি" },
+      { "en": "Hatchling", "as": "জেতুকাৰ পোৱালি" },
+      { "en": "Tadpole", "as": "ভেকুলীৰ পোৱালি" },
+      { "en": "Fry", "as": "মাছৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young lizard is called a hatchling.", "as": "জেতুকাৰ পোৱালিক hatchling বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-047",
+    "q": { "en": "What is a baby penguin called?", "as": "পেংগুইনৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Duckling", "as": "হাঁহৰ পোৱালি" },
+      { "en": "Cygnet", "as": "হংসৰ পোৱালি" },
+      { "en": "Chick", "as": "পেংগুইনৰ পোৱালি" },
+      { "en": "Gosling", "as": "ৰাজহাঁহৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young penguin is called a chick.", "as": "পেংগুইনৰ পোৱালিক chick বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-048",
+    "q": { "en": "What is a baby ostrich called?", "as": "উটপাখীৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Duckling", "as": "হাঁহৰ পোৱালি" },
+      { "en": "Gosling", "as": "ৰাজহাঁহৰ পোৱালি" },
+      { "en": "Cygnet", "as": "হংসৰ পোৱালি" },
+      { "en": "Chick", "as": "উটপাখীৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young ostrich is called a chick.", "as": "উটপাখীৰ পোৱালিক chick বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-049",
+    "q": { "en": "What is a baby sparrow called?", "as": "চৰাইৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" },
+      { "en": "Duckling", "as": "হাঁহৰ পোৱালি" },
+      { "en": "Gosling", "as": "ৰাজহাঁহৰ পোৱালি" },
+      { "en": "Owlet", "as": "ফেঁচাৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young sparrow is called a chick.", "as": "চৰাইৰ পোৱালিক chick বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-050",
+    "q": { "en": "What is a baby crow called?", "as": "কাউৰীৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Owlet", "as": "ফেঁচাৰ পোৱালি" },
+      { "en": "Chick", "as": "কাউৰীৰ পোৱালি" },
+      { "en": "Eaglet", "as": "ঈগলৰ পোৱালি" },
+      { "en": "Gosling", "as": "ৰাজহাঁহৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young crow is called a chick.", "as": "কাউৰীৰ পোৱালিক chick বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-051",
+    "q": { "en": "What is a baby pigeon called?", "as": "পাৰৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" },
+      { "en": "Duckling", "as": "হাঁহৰ পোৱালি" },
+      { "en": "Squab", "as": "পাৰৰ পোৱালি" },
+      { "en": "Gosling", "as": "ৰাজহাঁহৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young pigeon is called a squab.", "as": "পাৰৰ পোৱালিক squab বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-052",
+    "q": { "en": "What is a baby peacock called?", "as": "ময়ূৰৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Poult", "as": "টাৰ্কিৰ পোৱালি" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" },
+      { "en": "Squab", "as": "পাৰৰ পোৱালি" },
+      { "en": "Peachick", "as": "ময়ূৰৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young peacock is called a peachick.", "as": "ময়ূৰৰ পোৱালিক peachick বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-053",
+    "q": { "en": "What is a baby turkey called?", "as": "টাৰ্কিৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Poult", "as": "টাৰ্কিৰ পোৱালি" },
+      { "en": "Peachick", "as": "ময়ূৰৰ পোৱালি" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" },
+      { "en": "Squab", "as": "পাৰৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young turkey is called a poult.", "as": "টাৰ্কিৰ পোৱালিক poult বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-054",
+    "q": { "en": "What is a baby parrot called?", "as": "ভাটৌৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Squab", "as": "পাৰৰ পোৱালি" },
+      { "en": "Chick", "as": "ভাটৌৰ পোৱালি" },
+      { "en": "Peachick", "as": "ময়ূৰৰ পোৱালি" },
+      { "en": "Poult", "as": "টাৰ্কিৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young parrot is called a chick.", "as": "ভাটৌৰ পোৱালিক chick বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-055",
+    "q": { "en": "What is a baby flamingo called?", "as": "ফ্লেমিংগৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cygnet", "as": "হংসৰ পোৱালি" },
+      { "en": "Gosling", "as": "ৰাজহাঁহৰ পোৱালি" },
+      { "en": "Chick", "as": "ফ্লেমিংগৰ পোৱালি" },
+      { "en": "Squab", "as": "পাৰৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young flamingo is called a chick.", "as": "ফ্লেমিংগৰ পোৱালিক chick বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-056",
+    "q": { "en": "What is a baby stork called?", "as": "বগলীৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Squab", "as": "পাৰৰ পোৱালি" },
+      { "en": "Cygnet", "as": "হংসৰ পোৱালি" },
+      { "en": "Gosling", "as": "ৰাজহাঁহৰ পোৱালি" },
+      { "en": "Chick", "as": "বগলীৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young stork is called a chick.", "as": "বগলীৰ পোৱালিক chick বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-057",
+    "q": { "en": "What is a baby hawk called?", "as": "চিলনীৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Eyas", "as": "চিলনীৰ পোৱালি" },
+      { "en": "Eaglet", "as": "ঈগলৰ পোৱালি" },
+      { "en": "Owlet", "as": "ফেঁচাৰ পোৱালি" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young hawk is called an eyas.", "as": "চিলনীৰ পোৱালিক eyas বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-058",
+    "q": { "en": "What is a baby falcon called?", "as": "ফেলকনৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Eaglet", "as": "ঈগলৰ পোৱালি" },
+      { "en": "Eyas", "as": "চিলনীৰ পোৱালি" },
+      { "en": "Owlet", "as": "ফেঁচাৰ পোৱালি" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young falcon is called an eyas.", "as": "ফেলকনৰ পোৱালিক eyas বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-059",
+    "q": { "en": "What is a baby donkey called?", "as": "গাধৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" },
+      { "en": "Foal", "as": "গাধৰ পোৱালি" },
+      { "en": "Lamb", "as": "ভেড়াৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young donkey is called a foal.", "as": "গাধৰ পোৱালিক foal বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-060",
+    "q": { "en": "What is a baby mule called?", "as": "খচ্চৰৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Foal", "as": "খচ্চৰৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young mule is called a foal.", "as": "খচ্চৰৰ পোৱালিক foal বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-061",
+    "q": { "en": "What is a baby llama called?", "as": "লামাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cria", "as": "লামাৰ পোৱালি" },
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" },
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young llama is called a cria.", "as": "লামাৰ পোৱালিক cria বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-062",
+    "q": { "en": "What is a baby alpaca called?", "as": "আলপাকাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Cria", "as": "আলপাকাৰ পোৱালি" },
+      { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" },
+      { "en": "Lamb", "as": "ভেড়াৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young alpaca is called a cria.", "as": "আলপাকাৰ পোৱালিক cria বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-063",
+    "q": { "en": "What is a baby yak called?", "as": "ইয়াকৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Calf", "as": "ইয়াকৰ পোৱালি" },
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young yak is called a calf.", "as": "ইয়াকৰ পোৱালিক calf বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-064",
+    "q": { "en": "What is a baby buffalo called?", "as": "ম'হৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Lamb", "as": "ভেড়াৰ পোৱালি" },
+      { "en": "Calf", "as": "ম'হৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young buffalo is called a calf.", "as": "ম'হৰ পোৱালিক calf বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-065",
+    "q": { "en": "What is a baby bison called?", "as": "বাইছনৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Calf", "as": "বাইছনৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" },
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young bison is called a calf.", "as": "বাইছনৰ পোৱালিক calf বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-066",
+    "q": { "en": "What is a baby moose called?", "as": "মুছৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Calf", "as": "মুছৰ পোৱালি" },
+      { "en": "Fawn", "as": "হৰিণৰ পোৱালি" },
+      { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young moose is called a calf.", "as": "মুছৰ পোৱালিক calf বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-067",
+    "q": { "en": "What is a baby elk called?", "as": "এল্কৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Fawn", "as": "হৰিণৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Calf", "as": "এল্কৰ পোৱালি" },
+      { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young elk is called a calf.", "as": "এল্কৰ পোৱালিক calf বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-068",
+    "q": { "en": "What is a baby antelope called?", "as": "এণ্টিল'পৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Fawn", "as": "হৰিণৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Lamb", "as": "ভেড়াৰ পোৱালি" },
+      { "en": "Calf", "as": "এণ্টিল'পৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young antelope is called a calf.", "as": "এণ্টিল'পৰ পোৱালিক calf বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-069",
+    "q": { "en": "What is a baby gazelle called?", "as": "গজেলৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Calf", "as": "গজেলৰ পোৱালি" },
+      { "en": "Fawn", "as": "হৰিণৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young gazelle is called a calf.", "as": "গজেলৰ পোৱালিক calf বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-070",
+    "q": { "en": "What is a baby rhinoceros called?", "as": "গণ্ডাৰৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Calf", "as": "গণ্ডাৰৰ পোৱালি" },
+      { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" },
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young rhinoceros is called a calf.", "as": "গণ্ডাৰৰ পোৱালিক calf বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-071",
+    "q": { "en": "What is a baby hippopotamus called?", "as": "জলহস্তীৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" },
+      { "en": "Calf", "as": "জলহস্তীৰ পোৱালি" },
+      { "en": "Pup", "as": "পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young hippopotamus is called a calf.", "as": "জলহস্তীৰ পোৱালিক calf বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-072",
+    "q": { "en": "What is a baby cheetah called?", "as": "চিতাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Cub", "as": "চিতাৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young cheetah is called a cub.", "as": "চিতাৰ পোৱালিক cub বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-073",
+    "q": { "en": "What is a baby leopard called?", "as": "নাহৰফুটুকীৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "নাহৰফুটুকীৰ পোৱালি" },
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Kid", "as": "ছাগলীৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young leopard is called a cub.", "as": "নাহৰফুটুকীৰ পোৱালিক cub বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-074",
+    "q": { "en": "What is a baby jaguar called?", "as": "জাগুৱাৰৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Cub", "as": "জাগুৱাৰৰ পোৱালি" },
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young jaguar is called a cub.", "as": "জাগুৱাৰৰ পোৱালিক cub বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-075",
+    "q": { "en": "What is a baby panther called?", "as": "পেন্থাৰৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Cub", "as": "পেন্থাৰৰ পোৱালি" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young panther is called a cub.", "as": "পেন্থাৰৰ পোৱালিক cub বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-076",
+    "q": { "en": "What is a baby hyena called?", "as": "হায়েনাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Cub", "as": "হায়েনাৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young hyena is called a cub.", "as": "হায়েনাৰ পোৱালিক cub বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-077",
+    "q": { "en": "What is a baby ferret called?", "as": "ফেৰেটৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Kit", "as": "ফেৰেটৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Hatchling", "as": "অণ্ডজ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young ferret is called a kit.", "as": "ফেৰেটৰ পোৱালিক kit বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-078",
+    "q": { "en": "What is a baby coyote called?", "as": "কয়োটৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Pup", "as": "কয়োটৰ পোৱালি" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young coyote is called a pup.", "as": "কয়োটৰ পোৱালিক pup বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-079",
+    "q": { "en": "What is a baby wombat called?", "as": "ৱম্বাটৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Joey", "as": "ৱম্বাটৰ পোৱালি" },
+      { "en": "Pup", "as": "পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young wombat is called a joey.", "as": "ৱম্বাটৰ পোৱালিক joey বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-080",
+    "q": { "en": "What is a baby koala called?", "as": "কোৱালাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Joey", "as": "কোৱালাৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young koala is called a joey.", "as": "কোৱালাৰ পোৱালিক joey বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-081",
+    "q": { "en": "What is a baby opossum called?", "as": "অপচামৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Joey", "as": "অপচামৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Pup", "as": "পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young opossum is called a joey.", "as": "অপচামৰ পোৱালিক joey বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-082",
+    "q": { "en": "What is a baby platypus called?", "as": "প্লেটিপাছৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Joey", "as": "কেংগেৰুৰ পোৱালি" },
+      { "en": "Puggle", "as": "প্লেটিপাছৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young platypus is called a puggle.", "as": "প্লেটিপাছৰ পোৱালিক puggle বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-083",
+    "q": { "en": "What is a baby echidna called?", "as": "একিডনাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Joey", "as": "কেংগেৰুৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Puggle", "as": "একিডনাৰ পোৱালি" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young echidna is called a puggle.", "as": "একিডনাৰ পোৱালিক puggle বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-084",
+    "q": { "en": "What is a baby hedgehog called?", "as": "হেজহগৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Hoglet", "as": "হেজহগৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young hedgehog is called a hoglet.", "as": "হেজহগৰ পোৱালিক hoglet বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-085",
+    "q": { "en": "What is a baby porcupine called?", "as": "শজাৰুৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Porcupette", "as": "শজাৰুৰ পোৱালি" },
+      { "en": "Hoglet", "as": "হেজহগৰ পোৱালি" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young porcupine is called a porcupette.", "as": "শজাৰুৰ পোৱালিক porcupette বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-086",
+    "q": { "en": "What is a baby armadillo called?", "as": "আৰ্মাডিলোৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Pup", "as": "আৰ্মাডিলোৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Joey", "as": "কেংগেৰুৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young armadillo is called a pup.", "as": "আৰ্মাডিলোৰ পোৱালিক pup বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-087",
+    "q": { "en": "What is a baby sloth called?", "as": "স্লথৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Infant", "as": "স্লথৰ পোৱালি" },
+      { "en": "Pup", "as": "পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young sloth is called an infant.", "as": "স্লথৰ পোৱালিক infant বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-088",
+    "q": { "en": "What is a baby chimpanzee called?", "as": "চিম্পাঞ্জীৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Infant", "as": "চিম্পাঞ্জীৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young chimpanzee is called an infant.", "as": "চিম্পাঞ্জীৰ পোৱালিক infant বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-089",
+    "q": { "en": "What is a baby gorilla called?", "as": "গৰিলাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Infant", "as": "গৰিলাৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Pup", "as": "পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young gorilla is called an infant.", "as": "গৰিলাৰ পোৱালিক infant বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-090",
+    "q": { "en": "What is a baby orangutan called?", "as": "ওৰাংগুটানৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Infant", "as": "ওৰাংগুটানৰ পোৱালি" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Pup", "as": "পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young orangutan is called an infant.", "as": "ওৰাংগুটানৰ পোৱালিক infant বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-091",
+    "q": { "en": "What is a baby lemur called?", "as": "লেমুৰৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Infant", "as": "লেমুৰৰ পোৱালি" },
+      { "en": "Joey", "as": "কেংগেৰুৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young lemur is called an infant.", "as": "লেমুৰৰ পোৱালিক infant বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-092",
+    "q": { "en": "What is a baby baboon called?", "as": "বেবুনৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Kit", "as": "শিয়ালৰ পোৱালি" },
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Infant", "as": "বেবুনৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young baboon is called an infant.", "as": "বেবুনৰ পোৱালিক infant বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-093",
+    "q": { "en": "What is a baby bee called?", "as": "মৌমাখিৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Larva", "as": "মৌমাখিৰ পোৱালি" },
+      { "en": "Nymph", "as": "নিম্ফ" },
+      { "en": "Maggot", "as": "মাখিৰ লেটা" },
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young bee is called a larva.", "as": "মৌমাখিৰ পোৱালিক larva বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-094",
+    "q": { "en": "What is a baby ant called?", "as": "পৰুৱাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Nymph", "as": "নিম্ফ" },
+      { "en": "Larva", "as": "পৰুৱাৰ পোৱালি" },
+      { "en": "Maggot", "as": "মাখিৰ লেটা" },
+      { "en": "Grub", "as": "কীটৰ লেটা" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young ant is called a larva.", "as": "পৰুৱাৰ পোৱালিক larva বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-095",
+    "q": { "en": "What is a baby termite called?", "as": "উইৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Larva", "as": "লেটা" },
+      { "en": "Maggot", "as": "মাখিৰ লেটা" },
+      { "en": "Nymph", "as": "উইৰ পোৱালি" },
+      { "en": "Grub", "as": "কীটৰ লেটা" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young termite is called a nymph.", "as": "উইৰ পোৱালিক nymph বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-096",
+    "q": { "en": "What is a baby spider called?", "as": "মকৰাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Scorpling", "as": "বিছাৰ পোৱালি" },
+      { "en": "Nymph", "as": "নিম্ফ" },
+      { "en": "Larva", "as": "লেটা" },
+      { "en": "Spiderling", "as": "মকৰাৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young spider is called a spiderling.", "as": "মকৰাৰ পোৱালিক spiderling বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-097",
+    "q": { "en": "What is a baby scorpion called?", "as": "বিছাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Scorpling", "as": "বিছাৰ পোৱালি" },
+      { "en": "Spiderling", "as": "মকৰাৰ পোৱালি" },
+      { "en": "Nymph", "as": "নিম্ফ" },
+      { "en": "Larva", "as": "লেটা" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young scorpion is called a scorpling.", "as": "বিছাৰ পোৱালিক scorpling বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-098",
+    "q": { "en": "What is a baby crab called?", "as": "কেঁকোৰাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Nymph", "as": "নিম্ফ" },
+      { "en": "Zoea", "as": "কেঁকোৰাৰ পোৱালি" },
+      { "en": "Larva", "as": "লেটা" },
+      { "en": "Spat", "as": "ষ্টাৰৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young crab is called a zoea.", "as": "কেঁকোৰাৰ পোৱালিক zoea বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-099",
+    "q": { "en": "What is a baby lobster called?", "as": "লবষ্টাৰৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Nymph", "as": "নিম্ফ" },
+      { "en": "Zoea", "as": "কেঁকোৰাৰ পোৱালি" },
+      { "en": "Larva", "as": "লবষ্টাৰৰ পোৱালি" },
+      { "en": "Spat", "as": "ষ্টাৰৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young lobster is called a larva.", "as": "লবষ্টাৰৰ পোৱালিক larva বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-100",
+    "q": { "en": "What is a baby shrimp called?", "as": "চিংৰীৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Zoea", "as": "কেঁকোৰাৰ পোৱালি" },
+      { "en": "Larva", "as": "লেটা" },
+      { "en": "Nymph", "as": "নিম্ফ" },
+      { "en": "Nauplius", "as": "চিংৰীৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young shrimp is called a nauplius.", "as": "চিংৰীৰ পোৱালিক nauplius বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-101",
+    "q": { "en": "What is a baby oyster called?", "as": "ষ্টাৰৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Spat", "as": "ষ্টাৰৰ পোৱালি" },
+      { "en": "Fry", "as": "মাছৰ পোৱালি" },
+      { "en": "Zoea", "as": "কেঁকোৰাৰ পোৱালি" },
+      { "en": "Larva", "as": "লেটা" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young oyster is called a spat.", "as": "ষ্টাৰৰ পোৱালিক spat বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-102",
+    "q": { "en": "What is a baby jellyfish called?", "as": "জেলিফিছৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Zoea", "as": "কেঁকোৰাৰ পোৱালি" },
+      { "en": "Ephyra", "as": "জেলিফিছৰ পোৱালি" },
+      { "en": "Larva", "as": "লেটা" },
+      { "en": "Fry", "as": "মাছৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young jellyfish is called an ephyra.", "as": "জেলিফিছৰ পোৱালিক ephyra বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-103",
+    "q": { "en": "What is a baby starfish called?", "as": "তাৰামাছৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Zoea", "as": "কেঁকোৰাৰ পোৱালি" },
+      { "en": "Spat", "as": "ষ্টাৰৰ পোৱালি" },
+      { "en": "Larva", "as": "তাৰামাছৰ পোৱালি" },
+      { "en": "Fry", "as": "মাছৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young starfish is called a larva.", "as": "তাৰামাছৰ পোৱালিক larva বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-104",
+    "q": { "en": "What is a baby earthworm called?", "as": "কেঁচুৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Larva", "as": "লেটা" },
+      { "en": "Nymph", "as": "নিম্ফ" },
+      { "en": "Grub", "as": "কীটৰ লেটা" },
+      { "en": "Hatchling", "as": "কেঁচুৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young earthworm is called a hatchling.", "as": "কেঁচুৰ পোৱালিক hatchling বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-105",
+    "q": { "en": "What is a baby dolphin called?", "as": "ডলফিনৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Calf", "as": "ডলফিনৰ পোৱালি" },
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young dolphin is called a calf.", "as": "ডলফিনৰ পোৱালিক calf বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-106",
+    "q": { "en": "What is a baby porpoise called?", "as": "পৰ্পইছৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Calf", "as": "পৰ্পইছৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Foal", "as": "ঘোঁৰাৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young porpoise is called a calf.", "as": "পৰ্পইছৰ পোৱালিক calf বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-107",
+    "q": { "en": "What is a baby manatee called?", "as": "মেনাটিৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Calf", "as": "মেনাটিৰ পোৱালি" },
+      { "en": "Joey", "as": "কেংগেৰুৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young manatee is called a calf.", "as": "মেনাটিৰ পোৱালিক calf বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-108",
+    "q": { "en": "What is a baby walrus called?", "as": "ৱালৰাছৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Pup", "as": "পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Joey", "as": "কেংগেৰুৰ পোৱালি" },
+      { "en": "Calf", "as": "ৱালৰাছৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young walrus is called a calf.", "as": "ৱালৰাছৰ পোৱালিক calf বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-109",
+    "q": { "en": "What is a baby sea lion called?", "as": "ছী লায়নৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Pup", "as": "ছী লায়নৰ পোৱালি" },
+      { "en": "Calf", "as": "গৰুৰ পোৱালি" },
+      { "en": "Cub", "as": "শাবক" },
+      { "en": "Joey", "as": "কেংগেৰুৰ পোৱালি" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young sea lion is called a pup.", "as": "ছী লায়নৰ পোৱালিক pup বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-110",
+    "q": { "en": "What is a baby dove called?", "as": "পাৰ চৰাইৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Chick", "as": "চৰাইৰ পোৱালি" },
+      { "en": "Squab", "as": "পাৰৰ পোৱালি" },
+      { "en": "Duckling", "as": "হাঁহৰ পোৱালি" },
+      { "en": "Gosling", "as": "ৰাজহাঁহৰ পোৱালি" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young dove is called a squab.", "as": "পাৰ চৰাইৰ পোৱালিক squab বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-111",
+    "q": { "en": "What is a baby chicken called?", "as": "কুকুৰাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Squab", "as": "পাৰৰ পোৱালি" },
+      { "en": "Poult", "as": "টাৰ্কিৰ পোৱালি" },
+      { "en": "Chick", "as": "কুকুৰাৰ পোৱালি" },
+      { "en": "Peachick", "as": "ময়ূৰৰ পোৱালি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young chicken is called a chick.", "as": "কুকুৰাৰ পোৱালিক chick বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-112",
+    "q": { "en": "What is a baby cockroach called?", "as": "পঁইতাচোৰাৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Larva", "as": "লেটা" },
+      { "en": "Grub", "as": "কীটৰ লেটা" },
+      { "en": "Maggot", "as": "মাখিৰ লেটা" },
+      { "en": "Nymph", "as": "পঁইতাচোৰাৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young cockroach is called a nymph.", "as": "পঁইতাচোৰাৰ পোৱালিক nymph বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-113",
+    "q": { "en": "What is a baby grasshopper called?", "as": "ঘাঁহফৰিংৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Nymph", "as": "ঘাঁহফৰিংৰ পোৱালি" },
+      { "en": "Larva", "as": "লেটা" },
+      { "en": "Grub", "as": "কীটৰ লেটা" },
+      { "en": "Maggot", "as": "মাখিৰ লেটা" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young grasshopper is called a nymph.", "as": "ঘাঁহফৰিংৰ পোৱালিক nymph বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-114",
+    "q": { "en": "What is a baby dragonfly called?", "as": "নীলাভ মাখিৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Larva", "as": "লেটা" },
+      { "en": "Nymph", "as": "নীলাভ মাখিৰ পোৱালি" },
+      { "en": "Grub", "as": "কীটৰ লেটা" },
+      { "en": "Maggot", "as": "মাখিৰ লেটা" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young dragonfly is called a nymph.", "as": "নীলাভ মাখিৰ পোৱালিক nymph বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-115",
+    "q": { "en": "What is a baby mosquito called?", "as": "মহৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Nymph", "as": "নিম্ফ" },
+      { "en": "Grub", "as": "কীটৰ লেটা" },
+      { "en": "Larva", "as": "মহৰ পোৱালি" },
+      { "en": "Maggot", "as": "মাখিৰ লেটা" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A young mosquito is called a larva.", "as": "মহৰ পোৱালিক larva বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-116",
+    "q": { "en": "What is a baby fly called?", "as": "মাখিৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Larva", "as": "লেটা" },
+      { "en": "Nymph", "as": "নিম্ফ" },
+      { "en": "Grub", "as": "কীটৰ লেটা" },
+      { "en": "Maggot", "as": "মাখিৰ পোৱালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A young fly is called a maggot.", "as": "মাখিৰ পোৱালিক maggot বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-117",
+    "q": { "en": "What is a baby toad called?", "as": "ভেঁকুলীৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Tadpole", "as": "ভেঁকুলীৰ পোৱালি" },
+      { "en": "Fry", "as": "মাছৰ পোৱালি" },
+      { "en": "Larva", "as": "লেটা" },
+      { "en": "Nymph", "as": "নিম্ফ" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A young toad is called a tadpole.", "as": "ভেঁকুলীৰ পোৱালিক tadpole বোলা হয়।" }
+  },
+  {
+    "id": "young-ones-118",
+    "q": { "en": "What is a baby newt called?", "as": "নিউটৰ পোৱালিক কি বোলা হয়?" },
+    "options": [
+      { "en": "Fry", "as": "মাছৰ পোৱালি" },
+      { "en": "Tadpole", "as": "নিউটৰ পোৱালি" },
+      { "en": "Larva", "as": "লেটা" },
+      { "en": "Nymph", "as": "নিম্ফ" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A young newt is called a tadpole.", "as": "নিউটৰ পোৱালিক tadpole বোলা হয়।" }
   }
-}
+]
