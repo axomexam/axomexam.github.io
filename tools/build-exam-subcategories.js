@@ -274,6 +274,104 @@ const QUESTIONS = {
       as: "সিংহৰ দলক pride বোলা হয়।",
     },
   },
+  "tenses-rules": {
+    q: { en: "Choose the correct option: She ___ to school every day.", as: "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ to school every day." },
+    options: [
+      { en: "goes", as: "goes" },
+      { en: "go", as: "go" },
+      { en: "going", as: "going" },
+      { en: "gone", as: "gone" },
+    ],
+    correct: 0,
+    explanation: {
+      en: "In the simple present tense a third-person singular subject (She) takes the verb form 'goes'.",
+      as: "Simple present tense ত তৃতীয় পুৰুষ একবচন কৰ্তা (She) ৰ সৈতে 'goes' ৰূপ ব্যৱহাৰ হয়।",
+    },
+  },
+  "prepositions": {
+    q: { en: "Fill in the blank: He is good ___ mathematics.", as: "ৰিক্ত স্থান পূৰণ কৰক: He is good ___ mathematics." },
+    options: [
+      { en: "at", as: "at" },
+      { en: "in", as: "in" },
+      { en: "on", as: "on" },
+      { en: "for", as: "for" },
+    ],
+    correct: 0,
+    explanation: {
+      en: "'Good at' is the correct fixed preposition used before a skill or subject.",
+      as: "দক্ষতা বা বিষয়ৰ আগত সঠিক নিৰ্দিষ্ট পূৰ্বসৰ্গ হৈছে 'good at'।",
+    },
+  },
+  "articles-determiners": {
+    q: { en: "Fill in the blank: I saw ___ elephant at the zoo.", as: "ৰিক্ত স্থান পূৰণ কৰক: I saw ___ elephant at the zoo." },
+    options: [
+      { en: "an", as: "an" },
+      { en: "a", as: "a" },
+      { en: "the", as: "the" },
+      { en: "no article", as: "কোনো article নহয়" },
+    ],
+    correct: 0,
+    explanation: {
+      en: "'Elephant' begins with a vowel sound, so the indefinite article 'an' is used.",
+      as: "'Elephant' স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে অনিৰ্দিষ্ট article 'an' ব্যৱহাৰ কৰা হয়।",
+    },
+  },
+  "parts-of-speech": {
+    q: { en: "Identify the part of speech of the word 'beautifully' in the sentence: She sings beautifully.", as: "বাক্যটোত 'beautifully' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: She sings beautifully." },
+    options: [
+      { en: "Adverb", as: "Adverb" },
+      { en: "Adjective", as: "Adjective" },
+      { en: "Noun", as: "Noun" },
+      { en: "Verb", as: "Verb" },
+    ],
+    correct: 0,
+    explanation: {
+      en: "'Beautifully' modifies the verb 'sings', so it is an adverb.",
+      as: "'Beautifully' এ 'sings' ক্ৰিয়াটোৰ বিষয়ে বৰ্ণনা কৰে, গতিকে ই এটা Adverb।",
+    },
+  },
+  "subject-verb-agreement": {
+    q: { en: "Choose the correct option: Each of the boys ___ a bag.", as: "শুদ্ধ বিকল্পটো বাছনি কৰক: Each of the boys ___ a bag." },
+    options: [
+      { en: "has", as: "has" },
+      { en: "have", as: "have" },
+      { en: "are", as: "are" },
+      { en: "were", as: "were" },
+    ],
+    correct: 0,
+    explanation: {
+      en: "'Each' is a singular subject, so it takes the singular verb 'has'.",
+      as: "'Each' এটা একবচন কৰ্তা, গতিকে ই একবচন ক্ৰিয়া 'has' লয়।",
+    },
+  },
+  "voice-change": {
+    q: { en: "Change into passive voice: She writes a letter.", as: "Passive voice লৈ সলনি কৰক: She writes a letter." },
+    options: [
+      { en: "A letter is written by her.", as: "A letter is written by her." },
+      { en: "A letter was written by her.", as: "A letter was written by her." },
+      { en: "A letter is wrote by her.", as: "A letter is wrote by her." },
+      { en: "A letter written by her.", as: "A letter written by her." },
+    ],
+    correct: 0,
+    explanation: {
+      en: "Simple present active becomes 'is/am/are + past participle'; 'writes' becomes 'is written'.",
+      as: "Simple present active ৰ passive হ'ল 'is/am/are + past participle'; 'writes' → 'is written'।",
+    },
+  },
+  "narration": {
+    q: { en: "Change into indirect speech: He said, \"I am tired.\"", as: "Indirect speech লৈ সলনি কৰক: He said, \"I am tired.\"" },
+    options: [
+      { en: "He said that he was tired.", as: "He said that he was tired." },
+      { en: "He said that I am tired.", as: "He said that I am tired." },
+      { en: "He says that he is tired.", as: "He says that he is tired." },
+      { en: "He said that he is tired.", as: "He said that he is tired." },
+    ],
+    correct: 0,
+    explanation: {
+      en: "In indirect speech the present 'am' changes to the past 'was' and 'I' changes to 'he'.",
+      as: "Indirect speech ত present 'am' এ past 'was' লৈ সলনি হয় আৰু 'I' এ 'he' লৈ সলনি হয়।",
+    },
+  },
   "fill-in-the-blanks": {
     q: { en: "Fill in the blank: She has been living here ___ 2010.", as: "ৰিক্ত স্থান পূৰণ কৰক: She has been living here ___ 2010." },
     options: [
