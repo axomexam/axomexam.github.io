@@ -190,6 +190,90 @@ const QUESTIONS = {
       as: "'Abundant' ৰ অৰ্থ হৈছে প্ৰচুৰ পৰিমাণত থকা; 'plentiful' ইয়াৰ সমাৰ্থক শব্দ।",
     },
   },
+  "synonyms-antonyms": {
+    q: { en: "Choose the word that is most similar in meaning to 'Abundant'.", as: "'Abundant' ৰ অৰ্থৰ সৈতে আটাইতকৈ মিল থকা শব্দটো বাছনি কৰক।" },
+    options: [
+      { en: "Plentiful", as: "প্ৰচুৰ" },
+      { en: "Scarce", as: "দুৰ্লভ" },
+      { en: "Tiny", as: "ক্ষুদ্ৰ" },
+      { en: "Rare", as: "বিৰল" },
+    ],
+    correct: 0,
+    explanation: {
+      en: "'Abundant' means existing in large quantity; 'plentiful' is its synonym.",
+      as: "'Abundant' ৰ অৰ্থ হৈছে প্ৰচুৰ পৰিমাণত থকা; 'plentiful' ইয়াৰ সমাৰ্থক শব্দ।",
+    },
+  },
+  "gender": {
+    q: { en: "What is the feminine form of 'Bull'?", as: "'Bull' ৰ স্ত্ৰীলিংগ ৰূপ কি?" },
+    options: [
+      { en: "Cow", as: "গাইগৰু" },
+      { en: "Calf", as: "পোৱালি" },
+      { en: "Mare", as: "ঘোঁৰী" },
+      { en: "Doe", as: "হৰিণী" },
+    ],
+    correct: 0,
+    explanation: {
+      en: "The feminine of 'bull' is 'cow'; 'calf' is the young one.",
+      as: "'bull' ৰ স্ত্ৰীলিংগ ৰূপ হৈছে 'cow'; 'calf' হৈছে পোৱালি।",
+    },
+  },
+  "young-ones": {
+    q: { en: "What is a baby goat called?", as: "ছাগলীৰ পোৱালিক কি বোলা হয়?" },
+    options: [
+      { en: "Kid", as: "ছাগলীৰ পোৱালি" },
+      { en: "Calf", as: "পোৱালি" },
+      { en: "Cub", as: "শাবক" },
+      { en: "Puppy", as: "কুকুৰৰ পোৱালি" },
+    ],
+    correct: 0,
+    explanation: {
+      en: "A young goat is called a kid.",
+      as: "ছাগলীৰ পোৱালিক kid বোলা হয়।",
+    },
+  },
+  "homes-habitats": {
+    q: { en: "Where does a bee live?", as: "মৌমাখি ক'ত থাকে?" },
+    options: [
+      { en: "Hive", as: "মৌচাক" },
+      { en: "Den", as: "গুহা" },
+      { en: "Nest", as: "বাহ" },
+      { en: "Burrow", as: "বিল" },
+    ],
+    correct: 0,
+    explanation: {
+      en: "Bees live in a hive.",
+      as: "মৌমাখিবোৰে মৌচাকত (hive) বাস কৰে।",
+    },
+  },
+  "sounds-calls": {
+    q: { en: "What is the sound made by a lion called?", as: "সিংহই কৰা শব্দক কি বোলা হয়?" },
+    options: [
+      { en: "Roar", as: "গৰ্জন" },
+      { en: "Bark", as: "ভৌ ভৌ" },
+      { en: "Bleat", as: "মেকুৰী" },
+      { en: "Hiss", as: "ফোঁচ" },
+    ],
+    correct: 0,
+    explanation: {
+      en: "A lion roars; its sound is called a roar.",
+      as: "সিংহই গৰ্জন কৰে; ইয়াৰ শব্দক roar বোলা হয়।",
+    },
+  },
+  "collective-nouns": {
+    q: { en: "What is a group of lions called?", as: "সিংহৰ এটা দলক কি বোলা হয়?" },
+    options: [
+      { en: "Pride", as: "গৰ্জন দল" },
+      { en: "Pack", as: "দল" },
+      { en: "Herd", as: "পশুৰ দল" },
+      { en: "Flock", as: "চৰাইৰ দল" },
+    ],
+    correct: 0,
+    explanation: {
+      en: "A group of lions is called a pride.",
+      as: "সিংহৰ দলক pride বোলা হয়।",
+    },
+  },
   "fill-in-the-blanks": {
     q: { en: "Fill in the blank: She has been living here ___ 2010.", as: "ৰিক্ত স্থান পূৰণ কৰক: She has been living here ___ 2010." },
     options: [
@@ -505,9 +589,12 @@ function write(rel, content) {
 }
 
 /* ---- Static SEO shell page (same shell as the subject page) ---- */
-function buildShellPage({ subEn, subAs, secEn, secAs, examEn, secHref, subHref, descEn, descAs }) {
+function buildShellPage({ subEn, subAs, secEn, secAs, examEn, secHref, subHref, descEn, descAs, parentSubEn, parentSubHref }) {
   const canonical = BASE + subHref + "/";
   const title = `${subEn} — ${secEn} — ${examEn} | axomexam`;
+  const parentCrumb = parentSubEn
+    ? `<a href="${parentSubHref}">${esc(parentSubEn)}</a><span class="bc-sep">/</span>`
+    : "";
   const jsonld = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -683,7 +770,7 @@ function buildShellPage({ subEn, subAs, secEn, secAs, examEn, secHref, subHref, 
   <!-- ===== Main Content Area ===== -->
   <main id="app" class="container main">
     <div class="page-head">
-      <nav class="breadcrumb"><a href="/">Home</a><span class="bc-sep">/</span><a href="/exams">Your Exams</a><span class="bc-sep">/</span><a href="/exams/${esc("assam-police")}">${esc(examEn)}</a><span class="bc-sep">/</span><a href="${secHref}">${esc(secEn)}</a><span class="bc-sep">/</span><span>${esc(subEn)}</span></nav>
+      <nav class="breadcrumb"><a href="/">Home</a><span class="bc-sep">/</span><a href="/exams">Your Exams</a><span class="bc-sep">/</span><a href="/exams/${esc("assam-police")}">${esc(examEn)}</a><span class="bc-sep">/</span><a href="${secHref}">${esc(secEn)}</a><span class="bc-sep">/</span>${parentCrumb}<span>${esc(subEn)}</span></nav>
       <h1>${esc(subEn)}</h1>
       <p class="page-desc">${esc(subAs)} &bull; ${esc(secEn)} &bull; ${esc(examEn)}</p>
       <p class="exams-choose">Online reading only</p>
@@ -809,9 +896,55 @@ function main() {
 
       created.push(sub.id);
       newUrls.push(subHref + "/");
+
+      /* ---- Nested sub-sub-categories (e.g. Vocabulary > Gender) ---- */
+      const childSubs = Array.isArray(sub.subcategories) ? sub.subcategories : [];
+      childSubs.forEach((child) => {
+        const childEn = child.title.en;
+        const childAs = child.title.as || childEn;
+        const childHref = `${subHref}/${child.id}`;
+        const childDir = `${baseDir}/${child.id}`;
+
+        const csample = QUESTIONS[child.id];
+        if (!csample) {
+          missing.push(child.id);
+        } else {
+          const crecord = {
+            id: `${child.id}-001`,
+            q: csample.q,
+            options: csample.options,
+            correct: csample.correct,
+            explanation: csample.explanation,
+          };
+          write(`${childDir}/${SAMPLE_FILE}`, JSON.stringify(crecord, null, 2) + "\n");
+        }
+
+        const cfiles = csample ? [SAMPLE_FILE] : [];
+        write(`${childDir}/index.json`, JSON.stringify({ subcategory: child.id, files: cfiles }, null, 2) + "\n");
+
+        const cdescEn = `Practise ${childEn} MCQs with answers and explanations for Assam Police Constable (AB & UB) — General English.`;
+        const cdescAs = `${childAs} ৰ প্ৰশ্ন-উত্তৰ অনুশীলন — ${subAs}, অসম আৰক্ষী কনিষ্টবল (AB & UB)।`;
+
+        write(`exams/assam-police/${sec.id}/${sub.id}/${child.id}/index.html`, buildShellPage({
+          subEn: childEn, subAs: childAs, secEn, secAs, examEn, secHref,
+          subHref: childHref, parentSubEn: subEn, parentSubHref: subHref,
+          descEn: cdescEn, descAs: cdescAs,
+        }));
+
+        created.push(child.id);
+        newUrls.push(childHref + "/");
+      });
+
+      if (childSubs.length) {
+        linkChildCardsOnPage(
+          `exams/assam-police/${sec.id}/${sub.id}/index.html`,
+          subHref,
+          childSubs
+        );
+      }
     });
 
-    linkSubcategoriesOnSectionPage(sec.id, secEn, subs);
+    linkChildCardsOnPage(`exams/assam-police/${sec.id}/index.html`, secHref, subs);
   });
 
   updateSitemap(newUrls);
@@ -820,18 +953,17 @@ function main() {
   if (missing.length) console.log(`Missing sample question for: ${missing.join(", ")}`);
 }
 
-function linkSubcategoriesOnSectionPage(secId, secEn, subs) {
-  const rel = `exams/assam-police/${secId}/index.html`;
+function linkChildCardsOnPage(rel, parentHref, items) {
   const abs = path.join(ROOT, rel);
   if (!fs.existsSync(abs)) return;
   let html = fs.readFileSync(abs, "utf8");
   if (html.indexOf("data-exam-subcats") !== -1) return;
 
-  const links = subs.map((s) => {
-    const subEn = esc(s.title.en);
-    const subAs = esc(s.title.as || s.title.en);
-    const href = `/exams/assam-police/${secId}/${s.id}`;
-    return `<a class="sub-card reveal" data-exam-subcats href="${href}" style="display:block; margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px; text-decoration:none;"><b style="color:var(--ink,#0f172a);">${subEn}</b><span style="display:block; color:var(--ink-muted,#64748b); font-size:0.86rem;">${subAs}</span></a>`;
+  const links = items.map((s) => {
+    const nameEn = esc(s.title.en);
+    const nameAs = esc(s.title.as || s.title.en);
+    const href = `${parentHref}/${s.id}`;
+    return `<a class="sub-card reveal" data-exam-subcats href="${href}" style="display:block; margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px; text-decoration:none;"><b style="color:var(--ink,#0f172a);">${nameEn}</b><span style="display:block; color:var(--ink-muted,#64748b); font-size:0.86rem;">${nameAs}</span></a>`;
   }).join("\n        ");
 
   const block = `\n      <section class="section" data-exam-subcats style="padding-bottom:40px;">\n        <h2 style="margin:0 0 6px;">Sub-categories</h2>\n        <div class="sub-grid">\n        ${links}\n        </div>\n      </section>\n    `;

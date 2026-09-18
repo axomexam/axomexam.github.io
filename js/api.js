@@ -283,15 +283,16 @@ const API = (() => {
      When that API is unavailable (offline / local preview), the folder's
      index.json manifest lists the files to load. An index.json manifest is
      never treated as a question. */
-  async function listExamQuestions(examId, sectionId, subId) {
+  async function listExamQuestions(examId, sectionId, subId, childId) {
     const cfg = CONFIG.EXAMS || {};
     const dir = cfg.DIR || "data/exams";
     const safe = (s) => String(s || "").replace(/[^A-Za-z0-9_-]/g, "");
     const safeExam = safe(examId);
     const safeSec = safe(sectionId);
     const safeSub = safe(subId);
+    const safeChild = safe(childId);
     if (!safeExam || !safeSec || !safeSub) throw new Error("Invalid exam sub-category");
-    const relDir = `${dir}/${safeExam}/${safeSec}/${safeSub}`;
+    const relDir = `${dir}/${safeExam}/${safeSec}/${safeSub}` + (safeChild ? `/${safeChild}` : "");
 
     const cacheKey = relDir;
     if (examQuestionCache[cacheKey]) return examQuestionCache[cacheKey];

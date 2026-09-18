@@ -60,7 +60,18 @@
           "color": "#0d9488",
           "title": { "en": "General English", "as": "সাধাৰণ ইংৰাজী" },
           "subcategories": [
-            { "id": "vocabulary", "title": { "en": "Vocabulary (Synonyms & Antonyms)", "as": "শব্দভাণ্ডাৰ (Synonyms & Antonyms)" } },
+            {
+              "id": "vocabulary",
+              "title": { "en": "Vocabulary", "as": "শব্দভাণ্ডাৰ" },
+              "subcategories": [
+                { "id": "synonyms-antonyms", "title": { "en": "Synonyms & Antonyms", "as": "সমাৰ্থক আৰু বিপৰীত শব্দ" } },
+                { "id": "gender", "title": { "en": "Gender (Masculine & Feminine)", "as": "লিংগ (পুংলিংগ আৰু স্ত্ৰীলিংগ)" } },
+                { "id": "young-ones", "title": { "en": "Young Ones (Babies)", "as": "পোৱালিৰ নাম" } },
+                { "id": "homes-habitats", "title": { "en": "Homes & Habitats", "as": "ঘৰ আৰু বাসস্থান" } },
+                { "id": "sounds-calls", "title": { "en": "Sounds & Calls", "as": "শব্দ আৰু ধ্বনি" } },
+                { "id": "collective-nouns", "title": { "en": "Collective Nouns (Groups/Fleets/Packs)", "as": "সমূহবাচক শব্দ (দল)" } }
+              ]
+            },
             { "id": "fill-in-the-blanks", "title": { "en": "Fill in the Blanks", "as": "ৰিক্ত স্থান পূৰণ" } },
             { "id": "error-detection", "title": { "en": "Error Detection", "as": "ব্যাকৰণগত ভুল নিৰ্ণয়" } },
             { "id": "idioms-phrases", "title": { "en": "Idioms & Phrases", "as": "বাক্যৰীতি আৰু খণ্ডবাক্য" } },
