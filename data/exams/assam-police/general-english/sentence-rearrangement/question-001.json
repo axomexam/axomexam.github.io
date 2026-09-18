@@ -1,30 +1,1952 @@
-{
-  "id": "sentence-rearrangement-001",
-  "q": {
-    "en": "Choose the correct arrangement: (1) is (2) my (3) this (4) book.",
-    "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) is (২) my (৩) this (৪) book।"
-  },
-  "options": [
-    {
-      "en": "3-2-1-4",
-      "as": "৩-২-১-৪"
+[
+  {
+    "id": "sentence-rearrangement-001",
+    "q": {
+      "en": "Choose the correct arrangement: (1) my (2) this (3) book (4) is.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) my (২) this (৩) book (৪) is।"
     },
-    {
-      "en": "1-2-3-4",
-      "as": "১-২-৩-৪"
-    },
-    {
-      "en": "3-1-2-4",
-      "as": "৩-১-২-৪"
-    },
-    {
-      "en": "2-3-1-4",
-      "as": "২-৩-১-৪"
+    "options": [
+      {
+        "en": "2-4-1-3",
+        "as": "২-৪-১-৩"
+      },
+      {
+        "en": "1-2-3-4",
+        "as": "১-২-৩-৪"
+      },
+      {
+        "en": "1-2-4-3",
+        "as": "১-২-৪-৩"
+      },
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct sentence is 'This is my book.', i.e. 2-4-1-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'This is my book.', অৰ্থাৎ ২-৪-১-৩।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "The correct sentence is 'This is my book', i.e. 3-2-1-4.",
-    "as": "শুদ্ধ বাক্য হ'ল 'This is my book', অৰ্থাৎ ৩-২-১-৪।"
+  },
+  {
+    "id": "sentence-rearrangement-002",
+    "q": {
+      "en": "Choose the correct arrangement: (1) is (2) teacher (3) she (4) a.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) is (২) teacher (৩) she (৪) a।"
+    },
+    "options": [
+      {
+        "en": "1-3-4-2",
+        "as": "১-৩-৪-২"
+      },
+      {
+        "en": "3-1-4-2",
+        "as": "৩-১-৪-২"
+      },
+      {
+        "en": "1-4-2-3",
+        "as": "১-৪-২-৩"
+      },
+      {
+        "en": "1-4-3-2",
+        "as": "১-৪-৩-২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct sentence is 'She is a teacher.', i.e. 3-1-4-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'She is a teacher.', অৰ্থাৎ ৩-১-৪-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-003",
+    "q": {
+      "en": "Choose the correct arrangement: (1) country (2) love (3) my (4) i.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) country (২) love (৩) my (৪) i।"
+    },
+    "options": [
+      {
+        "en": "2-1-3-4",
+        "as": "২-১-৩-৪"
+      },
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      },
+      {
+        "en": "4-2-3-1",
+        "as": "৪-২-৩-১"
+      },
+      {
+        "en": "2-3-1-4",
+        "as": "২-৩-১-৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct sentence is 'I love my country.', i.e. 4-2-3-1.",
+      "as": "শুদ্ধ বাক্য হ'ল 'I love my country.', অৰ্থাৎ ৪-২-৩-১।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-004",
+    "q": {
+      "en": "Choose the correct arrangement: (1) he (2) in (3) works (4) office.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) he (২) in (৩) works (৪) office।"
+    },
+    "options": [
+      {
+        "en": "2-4-1-3",
+        "as": "২-৪-১-৩"
+      },
+      {
+        "en": "2-4-3-1",
+        "as": "২-৪-৩-১"
+      },
+      {
+        "en": "3-1-2-4",
+        "as": "৩-১-২-৪"
+      },
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct sentence is 'He works in office.', i.e. 1-3-2-4.",
+      "as": "শুদ্ধ বাক্য হ'ল 'He works in office.', অৰ্থাৎ ১-৩-২-৪।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-005",
+    "q": {
+      "en": "Choose the correct arrangement: (1) playing (2) football (3) they (4) are.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) playing (২) football (৩) they (৪) are।"
+    },
+    "options": [
+      {
+        "en": "3-4-1-2",
+        "as": "৩-৪-১-২"
+      },
+      {
+        "en": "3-1-2-4",
+        "as": "৩-১-২-৪"
+      },
+      {
+        "en": "3-1-4-2",
+        "as": "৩-১-৪-২"
+      },
+      {
+        "en": "3-2-1-4",
+        "as": "৩-২-১-৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct sentence is 'They are playing football.', i.e. 3-4-1-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'They are playing football.', অৰ্থাৎ ৩-৪-১-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-006",
+    "q": {
+      "en": "Choose the correct arrangement: (1) sun (2) the (3) early (4) rises.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) sun (২) the (৩) early (৪) rises।"
+    },
+    "options": [
+      {
+        "en": "3-4-1-2",
+        "as": "৩-৪-১-২"
+      },
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      },
+      {
+        "en": "3-4-2-1",
+        "as": "৩-৪-২-১"
+      },
+      {
+        "en": "4-1-2-3",
+        "as": "৪-১-২-৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct sentence is 'The sun rises early.', i.e. 2-1-4-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'The sun rises early.', অৰ্থাৎ ২-১-৪-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-007",
+    "q": {
+      "en": "Choose the correct arrangement: (1) help (2) we (3) others (4) should.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) help (২) we (৩) others (৪) should।"
+    },
+    "options": [
+      {
+        "en": "4-1-3-2",
+        "as": "৪-১-৩-২"
+      },
+      {
+        "en": "4-2-1-3",
+        "as": "৪-২-১-৩"
+      },
+      {
+        "en": "2-4-1-3",
+        "as": "২-৪-১-৩"
+      },
+      {
+        "en": "4-2-3-1",
+        "as": "৪-২-৩-১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct sentence is 'We should help others.', i.e. 2-4-1-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'We should help others.', অৰ্থাৎ ২-৪-১-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-008",
+    "q": {
+      "en": "Choose the correct arrangement: (1) fly (2) sky (3) birds (4) in.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) fly (২) sky (৩) birds (৪) in।"
+    },
+    "options": [
+      {
+        "en": "4-3-1-2",
+        "as": "৪-৩-১-২"
+      },
+      {
+        "en": "4-3-2-1",
+        "as": "৪-৩-২-১"
+      },
+      {
+        "en": "1-2-3-4",
+        "as": "১-২-৩-৪"
+      },
+      {
+        "en": "3-1-4-2",
+        "as": "৩-১-৪-২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct sentence is 'Birds fly in sky.', i.e. 3-1-4-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Birds fly in sky.', অৰ্থাৎ ৩-১-৪-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-009",
+    "q": {
+      "en": "Choose the correct arrangement: (1) honest (2) is (3) very (4) he.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) honest (২) is (৩) very (৪) he।"
+    },
+    "options": [
+      {
+        "en": "4-2-3-1",
+        "as": "৪-২-৩-১"
+      },
+      {
+        "en": "1-2-4-3",
+        "as": "১-২-৪-৩"
+      },
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      },
+      {
+        "en": "1-3-4-2",
+        "as": "১-৩-৪-২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct sentence is 'He is very honest.', i.e. 4-2-3-1.",
+      "as": "শুদ্ধ বাক্য হ'ল 'He is very honest.', অৰ্থাৎ ৪-২-৩-১।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-010",
+    "q": {
+      "en": "Choose the correct arrangement: (1) my (2) is (3) father (4) doctor.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) my (২) is (৩) father (৪) doctor।"
+    },
+    "options": [
+      {
+        "en": "1-4-3-2",
+        "as": "১-৪-৩-২"
+      },
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      },
+      {
+        "en": "2-1-3-4",
+        "as": "২-১-৩-৪"
+      },
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct sentence is 'My father is doctor.', i.e. 1-3-2-4.",
+      "as": "শুদ্ধ বাক্য হ'ল 'My father is doctor.', অৰ্থাৎ ১-৩-২-৪।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-011",
+    "q": {
+      "en": "Choose the correct arrangement: (1) a (2) song (3) she (4) sings.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) a (২) song (৩) she (৪) sings।"
+    },
+    "options": [
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      },
+      {
+        "en": "2-3-1-4",
+        "as": "২-৩-১-৪"
+      },
+      {
+        "en": "3-4-1-2",
+        "as": "৩-৪-১-২"
+      },
+      {
+        "en": "2-3-4-1",
+        "as": "২-৩-৪-১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct sentence is 'She sings a song.', i.e. 3-4-1-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'She sings a song.', অৰ্থাৎ ৩-৪-১-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-012",
+    "q": {
+      "en": "Choose the correct arrangement: (1) have (2) i (3) brothers (4) two.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) have (২) i (৩) brothers (৪) two।"
+    },
+    "options": [
+      {
+        "en": "2-4-3-1",
+        "as": "২-৪-৩-১"
+      },
+      {
+        "en": "3-1-2-4",
+        "as": "৩-১-২-৪"
+      },
+      {
+        "en": "3-1-4-2",
+        "as": "৩-১-৪-২"
+      },
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct sentence is 'I have two brothers.', i.e. 2-1-4-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'I have two brothers.', অৰ্থাৎ ২-১-৪-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-013",
+    "q": {
+      "en": "Choose the correct arrangement: (1) is (2) the (3) clever (4) boy.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) is (২) the (৩) clever (৪) boy।"
+    },
+    "options": [
+      {
+        "en": "2-4-1-3",
+        "as": "২-৪-১-৩"
+      },
+      {
+        "en": "3-2-1-4",
+        "as": "৩-২-১-৪"
+      },
+      {
+        "en": "3-2-4-1",
+        "as": "৩-২-৪-১"
+      },
+      {
+        "en": "3-4-1-2",
+        "as": "৩-৪-১-২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct sentence is 'The boy is clever.', i.e. 2-4-1-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'The boy is clever.', অৰ্থাৎ ২-৪-১-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-014",
+    "q": {
+      "en": "Choose the correct arrangement: (1) go (2) school (3) we (4) to.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) go (২) school (৩) we (৪) to।"
+    },
+    "options": [
+      {
+        "en": "3-4-2-1",
+        "as": "৩-৪-২-১"
+      },
+      {
+        "en": "3-1-4-2",
+        "as": "৩-১-৪-২"
+      },
+      {
+        "en": "4-1-2-3",
+        "as": "৪-১-২-৩"
+      },
+      {
+        "en": "4-1-3-2",
+        "as": "৪-১-৩-২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct sentence is 'We go to school.', i.e. 3-1-4-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'We go to school.', অৰ্থাৎ ৩-১-৪-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-015",
+    "q": {
+      "en": "Choose the correct arrangement: (1) book (2) reads (3) a (4) he.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) book (২) reads (৩) a (৪) he।"
+    },
+    "options": [
+      {
+        "en": "4-1-3-2",
+        "as": "৪-১-৩-২"
+      },
+      {
+        "en": "4-2-1-3",
+        "as": "৪-২-১-৩"
+      },
+      {
+        "en": "4-2-3-1",
+        "as": "৪-২-৩-১"
+      },
+      {
+        "en": "4-3-1-2",
+        "as": "৪-৩-১-২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct sentence is 'He reads a book.', i.e. 4-2-3-1.",
+      "as": "শুদ্ধ বাক্য হ'ল 'He reads a book.', অৰ্থাৎ ৪-২-৩-১।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-016",
+    "q": {
+      "en": "Choose the correct arrangement: (1) they (2) in (3) live (4) delhi.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) they (২) in (৩) live (৪) delhi।"
+    },
+    "options": [
+      {
+        "en": "4-3-2-1",
+        "as": "৪-৩-২-১"
+      },
+      {
+        "en": "1-2-3-4",
+        "as": "১-২-৩-৪"
+      },
+      {
+        "en": "1-2-4-3",
+        "as": "১-২-৪-৩"
+      },
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct sentence is 'They live in delhi.', i.e. 1-3-2-4.",
+      "as": "শুদ্ধ বাক্য হ'ল 'They live in delhi.', অৰ্থাৎ ১-৩-২-৪।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-017",
+    "q": {
+      "en": "Choose the correct arrangement: (1) a (2) car (3) she (4) bought.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) a (২) car (৩) she (৪) bought।"
+    },
+    "options": [
+      {
+        "en": "3-4-1-2",
+        "as": "৩-৪-১-২"
+      },
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      },
+      {
+        "en": "1-3-4-2",
+        "as": "১-৩-৪-২"
+      },
+      {
+        "en": "1-4-2-3",
+        "as": "১-৪-২-৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct sentence is 'She bought a car.', i.e. 3-4-1-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'She bought a car.', অৰ্থাৎ ৩-৪-১-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-018",
+    "q": {
+      "en": "Choose the correct arrangement: (1) dog (2) the (3) loudly (4) barks.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) dog (২) the (৩) loudly (৪) barks।"
+    },
+    "options": [
+      {
+        "en": "1-4-3-2",
+        "as": "১-৪-৩-২"
+      },
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      },
+      {
+        "en": "2-1-3-4",
+        "as": "২-১-৩-৪"
+      },
+      {
+        "en": "2-3-1-4",
+        "as": "২-৩-১-৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct sentence is 'The dog barks loudly.', i.e. 2-1-4-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'The dog barks loudly.', অৰ্থাৎ ২-১-৪-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-019",
+    "q": {
+      "en": "Choose the correct arrangement: (1) sweet (2) i (3) mangoes (4) like.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) sweet (২) i (৩) mangoes (৪) like।"
+    },
+    "options": [
+      {
+        "en": "2-3-1-4",
+        "as": "২-৩-১-৪"
+      },
+      {
+        "en": "2-3-4-1",
+        "as": "২-৩-৪-১"
+      },
+      {
+        "en": "2-4-1-3",
+        "as": "২-৪-১-৩"
+      },
+      {
+        "en": "2-4-3-1",
+        "as": "২-৪-৩-১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct sentence is 'I like sweet mangoes.', i.e. 2-4-1-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'I like sweet mangoes.', অৰ্থাৎ ২-৪-১-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-020",
+    "q": {
+      "en": "Choose the correct arrangement: (1) smell (2) sweet (3) flowers (4) very.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) smell (২) sweet (৩) flowers (৪) very।"
+    },
+    "options": [
+      {
+        "en": "2-4-3-1",
+        "as": "২-৪-৩-১"
+      },
+      {
+        "en": "3-1-2-4",
+        "as": "৩-১-২-৪"
+      },
+      {
+        "en": "3-2-1-4",
+        "as": "৩-২-১-৪"
+      },
+      {
+        "en": "3-1-4-2",
+        "as": "৩-১-৪-২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct sentence is 'Flowers smell very sweet.', i.e. 3-1-4-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Flowers smell very sweet.', অৰ্থাৎ ৩-১-৪-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-021",
+    "q": {
+      "en": "Choose the correct arrangement: (1) lies (2) never (3) tells (4) he.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) lies (২) never (৩) tells (৪) he।"
+    },
+    "options": [
+      {
+        "en": "4-2-3-1",
+        "as": "৪-২-৩-১"
+      },
+      {
+        "en": "3-2-1-4",
+        "as": "৩-২-১-৪"
+      },
+      {
+        "en": "3-2-4-1",
+        "as": "৩-২-৪-১"
+      },
+      {
+        "en": "3-4-1-2",
+        "as": "৩-৪-১-২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct sentence is 'He never tells lies.', i.e. 4-2-3-1.",
+      "as": "শুদ্ধ বাক্য হ'ল 'He never tells lies.', অৰ্থাৎ ৪-২-৩-১।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-022",
+    "q": {
+      "en": "Choose the correct arrangement: (1) time (2) very (3) is (4) precious.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) time (২) very (৩) is (৪) precious।"
+    },
+    "options": [
+      {
+        "en": "4-1-2-3",
+        "as": "৪-১-২-৩"
+      },
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      },
+      {
+        "en": "4-1-3-2",
+        "as": "৪-১-৩-২"
+      },
+      {
+        "en": "4-2-1-3",
+        "as": "৪-২-১-৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct sentence is 'Time is very precious.', i.e. 1-3-2-4.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Time is very precious.', অৰ্থাৎ ১-৩-২-৪।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-023",
+    "q": {
+      "en": "Choose the correct arrangement: (1) real (2) power (3) knowledge (4) is.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) real (২) power (৩) knowledge (৪) is।"
+    },
+    "options": [
+      {
+        "en": "4-2-3-1",
+        "as": "৪-২-৩-১"
+      },
+      {
+        "en": "4-3-1-2",
+        "as": "৪-৩-১-২"
+      },
+      {
+        "en": "3-4-1-2",
+        "as": "৩-৪-১-২"
+      },
+      {
+        "en": "4-3-2-1",
+        "as": "৪-৩-২-১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct sentence is 'Knowledge is real power.', i.e. 3-4-1-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Knowledge is real power.', অৰ্থাৎ ৩-৪-১-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-024",
+    "q": {
+      "en": "Choose the correct arrangement: (1) are (2) where (3) going (4) you.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) are (২) where (৩) going (৪) you।"
+    },
+    "options": [
+      {
+        "en": "1-2-3-4",
+        "as": "১-২-৩-৪"
+      },
+      {
+        "en": "1-2-4-3",
+        "as": "১-২-৪-৩"
+      },
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      },
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct sentence is 'Where are you going.', i.e. 2-1-4-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Where are you going.', অৰ্থাৎ ২-১-৪-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-025",
+    "q": {
+      "en": "Choose the correct arrangement: (1) your (2) what (3) name (4) is.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) your (২) what (৩) name (৪) is।"
+    },
+    "options": [
+      {
+        "en": "2-4-1-3",
+        "as": "২-৪-১-৩"
+      },
+      {
+        "en": "1-3-4-2",
+        "as": "১-৩-৪-২"
+      },
+      {
+        "en": "1-4-2-3",
+        "as": "১-৪-২-৩"
+      },
+      {
+        "en": "1-4-3-2",
+        "as": "১-৪-৩-২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct sentence is 'What is your name.', i.e. 2-4-1-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'What is your name.', অৰ্থাৎ ২-৪-১-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-026",
+    "q": {
+      "en": "Choose the correct arrangement: (1) old (2) you (3) how (4) are.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) old (২) you (৩) how (৪) are।"
+    },
+    "options": [
+      {
+        "en": "2-1-3-4",
+        "as": "২-১-৩-৪"
+      },
+      {
+        "en": "3-1-4-2",
+        "as": "৩-১-৪-২"
+      },
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      },
+      {
+        "en": "2-3-1-4",
+        "as": "২-৩-১-৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct sentence is 'How old are you.', i.e. 3-1-4-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'How old are you.', অৰ্থাৎ ৩-১-৪-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-027",
+    "q": {
+      "en": "Choose the correct arrangement: (1) door (2) shut (3) the (4) please.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) door (২) shut (৩) the (৪) please।"
+    },
+    "options": [
+      {
+        "en": "2-3-4-1",
+        "as": "২-৩-৪-১"
+      },
+      {
+        "en": "2-4-1-3",
+        "as": "২-৪-১-৩"
+      },
+      {
+        "en": "4-2-3-1",
+        "as": "৪-২-৩-১"
+      },
+      {
+        "en": "2-4-3-1",
+        "as": "২-৪-৩-১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct sentence is 'Please shut the door.', i.e. 4-2-3-1.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Please shut the door.', অৰ্থাৎ ৪-২-৩-১।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-028",
+    "q": {
+      "en": "Choose the correct arrangement: (1) do (2) waste (3) not (4) time.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) do (২) waste (৩) not (৪) time।"
+    },
+    "options": [
+      {
+        "en": "3-1-4-2",
+        "as": "৩-১-৪-২"
+      },
+      {
+        "en": "3-2-1-4",
+        "as": "৩-২-১-৪"
+      },
+      {
+        "en": "3-2-4-1",
+        "as": "৩-২-৪-১"
+      },
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct sentence is 'Do not waste time.', i.e. 1-3-2-4.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Do not waste time.', অৰ্থাৎ ১-৩-২-৪।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-029",
+    "q": {
+      "en": "Choose the correct arrangement: (1) the (2) truth (3) always (4) speak.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) the (২) truth (৩) always (৪) speak।"
+    },
+    "options": [
+      {
+        "en": "3-4-1-2",
+        "as": "৩-৪-১-২"
+      },
+      {
+        "en": "3-2-4-1",
+        "as": "৩-২-৪-১"
+      },
+      {
+        "en": "3-4-2-1",
+        "as": "৩-৪-২-১"
+      },
+      {
+        "en": "4-1-2-3",
+        "as": "৪-১-২-৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct sentence is 'Always speak the truth.', i.e. 3-4-1-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Always speak the truth.', অৰ্থাৎ ৩-৪-১-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-030",
+    "q": {
+      "en": "Choose the correct arrangement: (1) tell (2) never (3) lie (4) a.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) tell (২) never (৩) lie (৪) a।"
+    },
+    "options": [
+      {
+        "en": "4-1-3-2",
+        "as": "৪-১-৩-২"
+      },
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      },
+      {
+        "en": "4-2-1-3",
+        "as": "৪-২-১-৩"
+      },
+      {
+        "en": "4-2-3-1",
+        "as": "৪-২-৩-১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct sentence is 'Never tell a lie.', i.e. 2-1-4-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Never tell a lie.', অৰ্থাৎ ২-১-৪-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-031",
+    "q": {
+      "en": "Choose the correct arrangement: (1) in (2) work (3) life (4) hard.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) in (২) work (৩) life (৪) hard।"
+    },
+    "options": [
+      {
+        "en": "4-3-1-2",
+        "as": "৪-৩-১-২"
+      },
+      {
+        "en": "4-3-2-1",
+        "as": "৪-৩-২-১"
+      },
+      {
+        "en": "2-4-1-3",
+        "as": "২-৪-১-৩"
+      },
+      {
+        "en": "1-2-3-4",
+        "as": "১-২-৩-৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct sentence is 'Work hard in life.', i.e. 2-4-1-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Work hard in life.', অৰ্থাৎ ২-৪-১-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-032",
+    "q": {
+      "en": "Choose the correct arrangement: (1) your (2) always (3) respect (4) elders.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) your (২) always (৩) respect (৪) elders।"
+    },
+    "options": [
+      {
+        "en": "1-2-4-3",
+        "as": "১-২-৪-৩"
+      },
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      },
+      {
+        "en": "1-3-4-2",
+        "as": "১-৩-৪-২"
+      },
+      {
+        "en": "3-1-4-2",
+        "as": "৩-১-৪-২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct sentence is 'Respect your elders always.', i.e. 3-1-4-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Respect your elders always.', অৰ্থাৎ ৩-১-৪-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-033",
+    "q": {
+      "en": "Choose the correct arrangement: (1) people (2) the (3) poor (4) help.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) people (২) the (৩) poor (৪) help।"
+    },
+    "options": [
+      {
+        "en": "4-2-3-1",
+        "as": "৪-২-৩-১"
+      },
+      {
+        "en": "1-4-2-3",
+        "as": "১-৪-২-৩"
+      },
+      {
+        "en": "1-4-3-2",
+        "as": "১-৪-৩-২"
+      },
+      {
+        "en": "2-1-3-4",
+        "as": "২-১-৩-৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct sentence is 'Help the poor people.', i.e. 4-2-3-1.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Help the poor people.', অৰ্থাৎ ৪-২-৩-১।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-034",
+    "q": {
+      "en": "Choose the correct arrangement: (1) i (2) to (3) go (4) temple.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) i (২) to (৩) go (৪) temple।"
+    },
+    "options": [
+      {
+        "en": "2-3-1-4",
+        "as": "২-৩-১-৪"
+      },
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      },
+      {
+        "en": "2-3-4-1",
+        "as": "২-৩-৪-১"
+      },
+      {
+        "en": "2-4-1-3",
+        "as": "২-৪-১-৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct sentence is 'I go to temple.', i.e. 1-3-2-4.",
+      "as": "শুদ্ধ বাক্য হ'ল 'I go to temple.', অৰ্থাৎ ১-৩-২-৪।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-035",
+    "q": {
+      "en": "Choose the correct arrangement: (1) here (2) yesterday (3) he (4) came.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) here (২) yesterday (৩) he (৪) came।"
+    },
+    "options": [
+      {
+        "en": "2-4-1-3",
+        "as": "২-৪-১-৩"
+      },
+      {
+        "en": "2-4-3-1",
+        "as": "২-৪-৩-১"
+      },
+      {
+        "en": "3-4-1-2",
+        "as": "৩-৪-১-২"
+      },
+      {
+        "en": "3-1-2-4",
+        "as": "৩-১-২-৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct sentence is 'He came here yesterday.', i.e. 3-4-1-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'He came here yesterday.', অৰ্থাৎ ৩-৪-১-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-036",
+    "q": {
+      "en": "Choose the correct arrangement: (1) will (2) she (3) tomorrow (4) come.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) will (২) she (৩) tomorrow (৪) come।"
+    },
+    "options": [
+      {
+        "en": "3-2-1-4",
+        "as": "৩-২-১-৪"
+      },
+      {
+        "en": "3-2-4-1",
+        "as": "৩-২-৪-১"
+      },
+      {
+        "en": "3-4-1-2",
+        "as": "৩-৪-১-২"
+      },
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct sentence is 'She will come tomorrow.', i.e. 2-1-4-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'She will come tomorrow.', অৰ্থাৎ ২-১-৪-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-037",
+    "q": {
+      "en": "Choose the correct arrangement: (1) the (2) we (3) match (4) won.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) the (২) we (৩) match (৪) won।"
+    },
+    "options": [
+      {
+        "en": "2-4-1-3",
+        "as": "২-৪-১-৩"
+      },
+      {
+        "en": "3-4-2-1",
+        "as": "৩-৪-২-১"
+      },
+      {
+        "en": "4-1-2-3",
+        "as": "৪-১-২-৩"
+      },
+      {
+        "en": "4-1-3-2",
+        "as": "৪-১-৩-২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct sentence is 'We won the match.', i.e. 2-4-1-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'We won the match.', অৰ্থাৎ ২-৪-১-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-038",
+    "q": {
+      "en": "Choose the correct arrangement: (1) finished (2) work (3) they (4) the.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) finished (২) work (৩) they (৪) the।"
+    },
+    "options": [
+      {
+        "en": "4-2-1-3",
+        "as": "৪-২-১-৩"
+      },
+      {
+        "en": "3-1-4-2",
+        "as": "৩-১-৪-২"
+      },
+      {
+        "en": "4-2-3-1",
+        "as": "৪-২-৩-১"
+      },
+      {
+        "en": "4-3-1-2",
+        "as": "৪-৩-১-২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct sentence is 'They finished the work.', i.e. 3-1-4-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'They finished the work.', অৰ্থাৎ ৩-১-৪-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-039",
+    "q": {
+      "en": "Choose the correct arrangement: (1) late (2) train (3) is (4) the.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) late (২) train (৩) is (৪) the।"
+    },
+    "options": [
+      {
+        "en": "4-3-2-1",
+        "as": "৪-৩-২-১"
+      },
+      {
+        "en": "1-2-3-4",
+        "as": "১-২-৩-৪"
+      },
+      {
+        "en": "4-2-3-1",
+        "as": "৪-২-৩-১"
+      },
+      {
+        "en": "1-2-4-3",
+        "as": "১-২-৪-৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct sentence is 'The train is late.', i.e. 4-2-3-1.",
+      "as": "শুদ্ধ বাক্য হ'ল 'The train is late.', অৰ্থাৎ ৪-২-৩-১।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-040",
+    "q": {
+      "en": "Choose the correct arrangement: (1) my (2) cooks (3) mother (4) food.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) my (২) cooks (৩) mother (৪) food।"
+    },
+    "options": [
+      {
+        "en": "1-3-4-2",
+        "as": "১-৩-৪-২"
+      },
+      {
+        "en": "1-4-2-3",
+        "as": "১-৪-২-৩"
+      },
+      {
+        "en": "1-4-3-2",
+        "as": "১-৪-৩-২"
+      },
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct sentence is 'My mother cooks food.', i.e. 1-3-2-4.",
+      "as": "শুদ্ধ বাক্য হ'ল 'My mother cooks food.', অৰ্থাৎ ১-৩-২-৪।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-041",
+    "q": {
+      "en": "Choose the correct arrangement: (1) to (2) play (3) children (4) love.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) to (২) play (৩) children (৪) love।"
+    },
+    "options": [
+      {
+        "en": "3-4-1-2",
+        "as": "৩-৪-১-২"
+      },
+      {
+        "en": "1-4-3-2",
+        "as": "১-৪-৩-২"
+      },
+      {
+        "en": "2-1-3-4",
+        "as": "২-১-৩-৪"
+      },
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct sentence is 'Children love to play.', i.e. 3-4-1-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Children love to play.', অৰ্থাৎ ৩-৪-১-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-042",
+    "q": {
+      "en": "Choose the correct arrangement: (1) baby (2) the (3) sleeping (4) is.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) baby (২) the (৩) sleeping (৪) is।"
+    },
+    "options": [
+      {
+        "en": "2-3-4-1",
+        "as": "২-৩-৪-১"
+      },
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      },
+      {
+        "en": "2-4-1-3",
+        "as": "২-৪-১-৩"
+      },
+      {
+        "en": "2-4-3-1",
+        "as": "২-৪-৩-১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct sentence is 'The baby is sleeping.', i.e. 2-1-4-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'The baby is sleeping.', অৰ্থাৎ ২-১-৪-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-043",
+    "q": {
+      "en": "Choose the correct arrangement: (1) reading (2) i (3) books (4) am.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) reading (২) i (৩) books (৪) am।"
+    },
+    "options": [
+      {
+        "en": "3-1-2-4",
+        "as": "৩-১-২-৪"
+      },
+      {
+        "en": "3-1-4-2",
+        "as": "৩-১-৪-২"
+      },
+      {
+        "en": "2-4-1-3",
+        "as": "২-৪-১-৩"
+      },
+      {
+        "en": "3-2-1-4",
+        "as": "৩-২-১-৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct sentence is 'I am reading books.', i.e. 2-4-1-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'I am reading books.', অৰ্থাৎ ২-৪-১-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-044",
+    "q": {
+      "en": "Choose the correct arrangement: (1) has (2) pens (3) she (4) two.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) has (২) pens (৩) she (৪) two।"
+    },
+    "options": [
+      {
+        "en": "3-2-4-1",
+        "as": "৩-২-৪-১"
+      },
+      {
+        "en": "3-4-1-2",
+        "as": "৩-৪-১-২"
+      },
+      {
+        "en": "3-4-2-1",
+        "as": "৩-৪-২-১"
+      },
+      {
+        "en": "3-1-4-2",
+        "as": "৩-১-৪-২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct sentence is 'She has two pens.', i.e. 3-1-4-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'She has two pens.', অৰ্থাৎ ৩-১-৪-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-045",
+    "q": {
+      "en": "Choose the correct arrangement: (1) friend (2) is (3) my (4) he.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) friend (২) is (৩) my (৪) he।"
+    },
+    "options": [
+      {
+        "en": "4-2-3-1",
+        "as": "৪-২-৩-১"
+      },
+      {
+        "en": "3-4-2-1",
+        "as": "৩-৪-২-১"
+      },
+      {
+        "en": "4-1-2-3",
+        "as": "৪-১-২-৩"
+      },
+      {
+        "en": "4-1-3-2",
+        "as": "৪-১-৩-২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct sentence is 'He is my friend.', i.e. 4-2-3-1.",
+      "as": "শুদ্ধ বাক্য হ'ল 'He is my friend.', অৰ্থাৎ ৪-২-৩-১।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-046",
+    "q": {
+      "en": "Choose the correct arrangement: (1) ravi (2) a (3) is (4) player.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) ravi (২) a (৩) is (৪) player।"
+    },
+    "options": [
+      {
+        "en": "4-2-3-1",
+        "as": "৪-২-৩-১"
+      },
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      },
+      {
+        "en": "4-3-1-2",
+        "as": "৪-৩-১-২"
+      },
+      {
+        "en": "4-3-2-1",
+        "as": "৪-৩-২-১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct sentence is 'Ravi is a player.', i.e. 1-3-2-4.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Ravi is a player.', অৰ্থাৎ ১-৩-২-৪।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-047",
+    "q": {
+      "en": "Choose the correct arrangement: (1) a (2) pen (3) this (4) is.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) a (২) pen (৩) this (৪) is।"
+    },
+    "options": [
+      {
+        "en": "1-2-3-4",
+        "as": "১-২-৩-৪"
+      },
+      {
+        "en": "1-2-4-3",
+        "as": "১-২-৪-৩"
+      },
+      {
+        "en": "3-4-1-2",
+        "as": "৩-৪-১-২"
+      },
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct sentence is 'This is a pen.', i.e. 3-4-1-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'This is a pen.', অৰ্থাৎ ৩-৪-১-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-048",
+    "q": {
+      "en": "Choose the correct arrangement: (1) is (2) that (3) bag (4) your.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) is (২) that (৩) bag (৪) your।"
+    },
+    "options": [
+      {
+        "en": "1-3-4-2",
+        "as": "১-৩-৪-২"
+      },
+      {
+        "en": "1-4-2-3",
+        "as": "১-৪-২-৩"
+      },
+      {
+        "en": "1-4-3-2",
+        "as": "১-৪-৩-২"
+      },
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct sentence is 'That is your bag.', i.e. 2-1-4-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'That is your bag.', অৰ্থাৎ ২-১-৪-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-049",
+    "q": {
+      "en": "Choose the correct arrangement: (1) my (2) these (3) books (4) are.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) my (২) these (৩) books (৪) are।"
+    },
+    "options": [
+      {
+        "en": "2-4-1-3",
+        "as": "২-৪-১-৩"
+      },
+      {
+        "en": "2-1-3-4",
+        "as": "২-১-৩-৪"
+      },
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      },
+      {
+        "en": "2-3-1-4",
+        "as": "২-৩-১-৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct sentence is 'These are my books.', i.e. 2-4-1-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'These are my books.', অৰ্থাৎ ২-৪-১-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-050",
+    "q": {
+      "en": "Choose the correct arrangement: (1) are (2) mangoes (3) those (4) sweet.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) are (২) mangoes (৩) those (৪) sweet।"
+    },
+    "options": [
+      {
+        "en": "2-3-4-1",
+        "as": "২-৩-৪-১"
+      },
+      {
+        "en": "3-1-4-2",
+        "as": "৩-১-৪-২"
+      },
+      {
+        "en": "2-4-1-3",
+        "as": "২-৪-১-৩"
+      },
+      {
+        "en": "2-4-3-1",
+        "as": "২-৪-৩-১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct sentence is 'Those are sweet mangoes.', i.e. 3-1-4-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Those are sweet mangoes.', অৰ্থাৎ ৩-১-৪-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-051",
+    "q": {
+      "en": "Choose the correct arrangement: (1) pen (2) me (3) a (4) give.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) pen (২) me (৩) a (৪) give।"
+    },
+    "options": [
+      {
+        "en": "3-1-2-4",
+        "as": "৩-১-২-৪"
+      },
+      {
+        "en": "3-1-4-2",
+        "as": "৩-১-৪-২"
+      },
+      {
+        "en": "4-2-3-1",
+        "as": "৪-২-৩-১"
+      },
+      {
+        "en": "3-2-1-4",
+        "as": "৩-২-১-৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct sentence is 'Give me a pen.', i.e. 4-2-3-1.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Give me a pen.', অৰ্থাৎ ৪-২-৩-১।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-052",
+    "q": {
+      "en": "Choose the correct arrangement: (1) bring (2) some (3) me (4) water.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) bring (২) some (৩) me (৪) water।"
+    },
+    "options": [
+      {
+        "en": "3-4-1-2",
+        "as": "৩-৪-১-২"
+      },
+      {
+        "en": "3-4-2-1",
+        "as": "৩-৪-২-১"
+      },
+      {
+        "en": "4-1-2-3",
+        "as": "৪-১-২-৩"
+      },
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct sentence is 'Bring me some water.', i.e. 1-3-2-4.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Bring me some water.', অৰ্থাৎ ১-৩-২-৪।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-053",
+    "q": {
+      "en": "Choose the correct arrangement: (1) your (2) help (3) i (4) want.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) your (২) help (৩) i (৪) want।"
+    },
+    "options": [
+      {
+        "en": "3-4-1-2",
+        "as": "৩-৪-১-২"
+      },
+      {
+        "en": "4-1-3-2",
+        "as": "৪-১-৩-২"
+      },
+      {
+        "en": "4-2-1-3",
+        "as": "৪-২-১-৩"
+      },
+      {
+        "en": "4-2-3-1",
+        "as": "৪-২-৩-১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct sentence is 'I want your help.', i.e. 3-4-1-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'I want your help.', অৰ্থাৎ ৩-৪-১-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-054",
+    "q": {
+      "en": "Choose the correct arrangement: (1) must (2) we (3) rules (4) obey.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) must (২) we (৩) rules (৪) obey।"
+    },
+    "options": [
+      {
+        "en": "4-3-1-2",
+        "as": "৪-৩-১-২"
+      },
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      },
+      {
+        "en": "4-3-2-1",
+        "as": "৪-৩-২-১"
+      },
+      {
+        "en": "1-2-3-4",
+        "as": "১-২-৩-৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct sentence is 'We must obey rules.', i.e. 2-1-4-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'We must obey rules.', অৰ্থাৎ ২-১-৪-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-055",
+    "q": {
+      "en": "Choose the correct arrangement: (1) very (2) she (3) kind (4) is.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) very (২) she (৩) kind (৪) is।"
+    },
+    "options": [
+      {
+        "en": "1-2-4-3",
+        "as": "১-২-৪-৩"
+      },
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      },
+      {
+        "en": "2-4-1-3",
+        "as": "২-৪-১-৩"
+      },
+      {
+        "en": "1-3-4-2",
+        "as": "১-৩-৪-২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct sentence is 'She is very kind.', i.e. 2-4-1-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'She is very kind.', অৰ্থাৎ ২-৪-১-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-056",
+    "q": {
+      "en": "Choose the correct arrangement: (1) is (2) doctor (3) he (4) a.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) is (২) doctor (৩) he (৪) a।"
+    },
+    "options": [
+      {
+        "en": "1-4-2-3",
+        "as": "১-৪-২-৩"
+      },
+      {
+        "en": "1-4-3-2",
+        "as": "১-৪-৩-২"
+      },
+      {
+        "en": "2-1-3-4",
+        "as": "২-১-৩-৪"
+      },
+      {
+        "en": "3-1-4-2",
+        "as": "৩-১-৪-২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct sentence is 'He is a doctor.', i.e. 3-1-4-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'He is a doctor.', অৰ্থাৎ ৩-১-৪-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-057",
+    "q": {
+      "en": "Choose the correct arrangement: (1) players (2) are (3) good (4) they.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) players (২) are (৩) good (৪) they।"
+    },
+    "options": [
+      {
+        "en": "4-2-3-1",
+        "as": "৪-২-৩-১"
+      },
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      },
+      {
+        "en": "2-3-1-4",
+        "as": "২-৩-১-৪"
+      },
+      {
+        "en": "2-3-4-1",
+        "as": "২-৩-৪-১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct sentence is 'They are good players.', i.e. 4-2-3-1.",
+      "as": "শুদ্ধ বাক্য হ'ল 'They are good players.', অৰ্থাৎ ৪-২-৩-১।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-058",
+    "q": {
+      "en": "Choose the correct arrangement: (1) i (2) him (3) met (4) yesterday.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) i (২) him (৩) met (৪) yesterday।"
+    },
+    "options": [
+      {
+        "en": "2-4-3-1",
+        "as": "২-৪-৩-১"
+      },
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      },
+      {
+        "en": "3-1-2-4",
+        "as": "৩-১-২-৪"
+      },
+      {
+        "en": "3-1-4-2",
+        "as": "৩-১-৪-২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct sentence is 'I met him yesterday.', i.e. 1-3-2-4.",
+      "as": "শুদ্ধ বাক্য হ'ল 'I met him yesterday.', অৰ্থাৎ ১-৩-২-৪।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-059",
+    "q": {
+      "en": "Choose the correct arrangement: (1) a (2) letter (3) she (4) wrote.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) a (২) letter (৩) she (৪) wrote।"
+    },
+    "options": [
+      {
+        "en": "3-1-4-2",
+        "as": "৩-১-৪-২"
+      },
+      {
+        "en": "3-2-1-4",
+        "as": "৩-২-১-৪"
+      },
+      {
+        "en": "3-4-1-2",
+        "as": "৩-৪-১-২"
+      },
+      {
+        "en": "3-2-4-1",
+        "as": "৩-২-৪-১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct sentence is 'She wrote a letter.', i.e. 3-4-1-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'She wrote a letter.', অৰ্থাৎ ৩-৪-১-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-060",
+    "q": {
+      "en": "Choose the correct arrangement: (1) watched (2) we (3) movie (4) a.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) watched (২) we (৩) movie (৪) a।"
+    },
+    "options": [
+      {
+        "en": "3-4-2-1",
+        "as": "৩-৪-২-১"
+      },
+      {
+        "en": "4-1-2-3",
+        "as": "৪-১-২-৩"
+      },
+      {
+        "en": "4-1-3-2",
+        "as": "৪-১-৩-২"
+      },
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct sentence is 'We watched a movie.', i.e. 2-1-4-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'We watched a movie.', অৰ্থাৎ ২-১-৪-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-061",
+    "q": {
+      "en": "Choose the correct arrangement: (1) is (2) the (3) round (4) earth.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) is (২) the (৩) round (৪) earth।"
+    },
+    "options": [
+      {
+        "en": "2-4-1-3",
+        "as": "২-৪-১-৩"
+      },
+      {
+        "en": "4-2-1-3",
+        "as": "৪-২-১-৩"
+      },
+      {
+        "en": "4-2-3-1",
+        "as": "৪-২-৩-১"
+      },
+      {
+        "en": "4-3-1-2",
+        "as": "৪-৩-১-২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct sentence is 'The earth is round.', i.e. 2-4-1-3.",
+      "as": "শুদ্ধ বাক্য হ'ল 'The earth is round.', অৰ্থাৎ ২-৪-১-৩।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-062",
+    "q": {
+      "en": "Choose the correct arrangement: (1) give (2) milk (3) cows (4) us.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) give (২) milk (৩) cows (৪) us।"
+    },
+    "options": [
+      {
+        "en": "4-3-2-1",
+        "as": "৪-৩-২-১"
+      },
+      {
+        "en": "3-1-4-2",
+        "as": "৩-১-৪-২"
+      },
+      {
+        "en": "1-2-3-4",
+        "as": "১-২-৩-৪"
+      },
+      {
+        "en": "1-2-4-3",
+        "as": "১-২-৪-৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct sentence is 'Cows give us milk.', i.e. 3-1-4-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Cows give us milk.', অৰ্থাৎ ৩-১-৪-২।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-063",
+    "q": {
+      "en": "Choose the correct arrangement: (1) sweet (2) rose (3) smells (4) the.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) sweet (২) rose (৩) smells (৪) the।"
+    },
+    "options": [
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      },
+      {
+        "en": "1-3-4-2",
+        "as": "১-৩-৪-২"
+      },
+      {
+        "en": "4-2-3-1",
+        "as": "৪-২-৩-১"
+      },
+      {
+        "en": "1-4-2-3",
+        "as": "১-৪-২-৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct sentence is 'The rose smells sweet.', i.e. 4-2-3-1.",
+      "as": "শুদ্ধ বাক্য হ'ল 'The rose smells sweet.', অৰ্থাৎ ৪-২-৩-১।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-064",
+    "q": {
+      "en": "Choose the correct arrangement: (1) he (2) very (3) runs (4) fast.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) he (২) very (৩) runs (৪) fast।"
+    },
+    "options": [
+      {
+        "en": "2-1-3-4",
+        "as": "২-১-৩-৪"
+      },
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      },
+      {
+        "en": "2-3-1-4",
+        "as": "২-৩-১-৪"
+      },
+      {
+        "en": "1-3-2-4",
+        "as": "১-৩-২-৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct sentence is 'He runs very fast.', i.e. 1-3-2-4.",
+      "as": "শুদ্ধ বাক্য হ'ল 'He runs very fast.', অৰ্থাৎ ১-৩-২-৪।"
+    }
+  },
+  {
+    "id": "sentence-rearrangement-065",
+    "q": {
+      "en": "Choose the correct arrangement: (1) us (2) oxygen (3) trees (4) give.",
+      "as": "শুদ্ধ সজ্জাটো বাছনি কৰক: (১) us (২) oxygen (৩) trees (৪) give।"
+    },
+    "options": [
+      {
+        "en": "3-4-1-2",
+        "as": "৩-৪-১-২"
+      },
+      {
+        "en": "2-3-1-4",
+        "as": "২-৩-১-৪"
+      },
+      {
+        "en": "2-3-4-1",
+        "as": "২-৩-৪-১"
+      },
+      {
+        "en": "2-4-1-3",
+        "as": "২-৪-১-৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct sentence is 'Trees give us oxygen.', i.e. 3-4-1-2.",
+      "as": "শুদ্ধ বাক্য হ'ল 'Trees give us oxygen.', অৰ্থাৎ ৩-৪-১-২।"
+    }
   }
-}
+]
