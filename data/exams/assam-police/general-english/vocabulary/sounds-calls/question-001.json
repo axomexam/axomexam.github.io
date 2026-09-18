@@ -1,30 +1,1262 @@
-{
-  "id": "sounds-calls-001",
-  "q": {
-    "en": "What is the sound made by a lion called?",
-    "as": "সিংহই কৰা শব্দক কি বোলা হয়?"
+[
+  {
+    "id": "sounds-calls-001",
+    "q": { "en": "What is the sound made by a lion called?", "as": "সিংহই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A lion roars; its sound is called a roar.", "as": "সিংহই গৰ্জন কৰে; ইয়াৰ শব্দক roar বোলা হয়।" }
   },
-  "options": [
-    {
-      "en": "Roar",
-      "as": "গৰ্জন"
-    },
-    {
-      "en": "Bark",
-      "as": "ভৌ ভৌ"
-    },
-    {
-      "en": "Bleat",
-      "as": "মেকুৰী"
-    },
-    {
-      "en": "Hiss",
-      "as": "ফোঁচ"
-    }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "A lion roars; its sound is called a roar.",
-    "as": "সিংহই গৰ্জন কৰে; ইয়াৰ শব্দক roar বোলা হয়।"
+  {
+    "id": "sounds-calls-002",
+    "q": { "en": "What is the sound made by a tiger called?", "as": "বাঘে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Growl", "as": "গোঁ-গোঁ" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A tiger growls; its sound is called a growl.", "as": "বাঘে গোঁ-গোঁ কৰে; ইয়াৰ শব্দক growl বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-003",
+    "q": { "en": "What is the sound made by a bear called?", "as": "ভালুকে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" },
+      { "en": "Growl", "as": "গোঁ-গোঁ" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A bear growls; its sound is called a growl.", "as": "ভালুকে গোঁ-গোঁ কৰে; ইয়াৰ শব্দক growl বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-004",
+    "q": { "en": "What is the sound made by a wolf called?", "as": "কুকুৰনেচীয়া বাঘে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Cluck", "as": "কট-কট" },
+      { "en": "Croak", "as": "তৰ-তৰ" },
+      { "en": "Howl", "as": "হুকহুকনি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A wolf howls; its sound is called a howl.", "as": "কুকুৰনেচীয়া বাঘে হুকহুকনি কৰে; ইয়াৰ শব্দক howl বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-005",
+    "q": { "en": "What is the sound made by a fox called?", "as": "শিয়ালে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Yelp", "as": "কেঁকনি" },
+      { "en": "Hoot", "as": "হু-হু" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A fox yelps; its sound is called a yelp.", "as": "শিয়ালে কেঁকনি কৰে; ইয়াৰ শব্দক yelp বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-006",
+    "q": { "en": "What is the sound made by a dog called?", "as": "কুকুৰে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bleat", "as": "ব্যা-ব্যা" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A dog barks; its sound is called a bark.", "as": "কুকুৰে ভৌ-ভৌ কৰে; ইয়াৰ শব্দক bark বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-007",
+    "q": { "en": "What is the sound made by a puppy called?", "as": "কুকুৰৰ পোৱালিয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Caw", "as": "কা-কা" },
+      { "en": "Yelp", "as": "কেঁকনি" },
+      { "en": "Quack", "as": "কোৱাক" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A puppy yelps; its sound is called a yelp.", "as": "কুকুৰৰ পোৱালিয়ে কেঁকনি কৰে; ইয়াৰ শব্দক yelp বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-008",
+    "q": { "en": "What is the sound made by a cat called?", "as": "মেকুৰীয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Hoot", "as": "হু-হু" },
+      { "en": "Grunt", "as": "ঘোঁৰ" },
+      { "en": "Meow", "as": "মিউ-মিউ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A cat meows; its sound is called a meow.", "as": "মেকুৰীয়ে মিউ-মিউ কৰে; ইয়াৰ শব্দক meow বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-009",
+    "q": { "en": "What is the sound made by a kitten called?", "as": "মেকুৰীৰ পোৱালিয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Mew", "as": "মিউ-মিউ" },
+      { "en": "Howl", "as": "হুকহুকনি" },
+      { "en": "Caw", "as": "কা-কা" },
+      { "en": "Neigh", "as": "হ্ৰেষ" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A kitten mews; its sound is called a mew.", "as": "মেকুৰীৰ পোৱালিয়ে মিউ-মিউ কৰে; ইয়াৰ শব্দক mew বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-010",
+    "q": { "en": "What is the sound made by a cow called?", "as": "গৰুৱে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A cow moos; its sound is called a moo.", "as": "গৰুৱে হাম্বা-হাম্বা কৰে; ইয়াৰ শব্দক moo বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-011",
+    "q": { "en": "What is the sound made by an ox called?", "as": "বলদে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Meow", "as": "মিউ-মিউ" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Bellow", "as": "ৰাৱ" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "An ox bellows; its sound is called a bellow.", "as": "বলদে ৰাৱ কৰে; ইয়াৰ শব্দক bellow বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-012",
+    "q": { "en": "What is the sound made by a sheep called?", "as": "ভেড়াই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A sheep bleats; its sound is called a bleat.", "as": "ভেড়াই ব্যা-ব্যা কৰে; ইয়াৰ শব্দক bleat বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-013",
+    "q": { "en": "What is the sound made by a goat called?", "as": "ছাগলীয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bleat", "as": "ব্যা-ব্যা" },
+      { "en": "Howl", "as": "হুকহুকনি" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" },
+      { "en": "Caw", "as": "কা-কা" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A goat bleats; its sound is called a bleat.", "as": "ছাগলীয়ে ব্যা-ব্যা কৰে; ইয়াৰ শব্দক bleat বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-014",
+    "q": { "en": "What is the sound made by a lamb called?", "as": "ভেড়াৰ পোৱালিয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Hoot", "as": "হু-হু" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A lamb bleats; its sound is called a bleat.", "as": "ভেড়াৰ পোৱালিয়ে ব্যা-ব্যা কৰে; ইয়াৰ শব্দক bleat বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-015",
+    "q": { "en": "What is the sound made by a horse called?", "as": "ঘোঁৰাই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bleat", "as": "ব্যা-ব্যা" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" },
+      { "en": "Neigh", "as": "হ্ৰেষ" },
+      { "en": "Grunt", "as": "ঘোঁৰ" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A horse neighs; its sound is called a neigh.", "as": "ঘোঁৰাই হ্ৰেষ কৰে; ইয়াৰ শব্দক neigh বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-016",
+    "q": { "en": "What is the sound made by a donkey called?", "as": "গাধে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hoot", "as": "হু-হু" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" },
+      { "en": "Bray", "as": "হ্ৰেঁ-হ্ৰেঁ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A donkey brays; its sound is called a bray.", "as": "গাধে হ্ৰেঁ-হ্ৰেঁ কৰে; ইয়াৰ শব্দক bray বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-017",
+    "q": { "en": "What is the sound made by a pig called?", "as": "গাহৰিয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Grunt", "as": "ঘোঁৰ" },
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Caw", "as": "কা-কা" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A pig grunts; its sound is called a grunt.", "as": "গাহৰিয়ে ঘোঁৰ-ঘোঁৰ কৰে; ইয়াৰ শব্দক grunt বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-018",
+    "q": { "en": "What is the sound made by an elephant called?", "as": "হাতীয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bleat", "as": "ব্যা-ব্যা" },
+      { "en": "Trumpet", "as": "পেঁ-পেঁ" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "An elephant trumpets; its sound is called a trumpet.", "as": "হাতীয়ে পেঁ-পেঁ কৰে; ইয়াৰ শব্দক trumpet বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-019",
+    "q": { "en": "What is the sound made by a monkey called?", "as": "বান্দৰে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Chatter", "as": "কিচি-কিচি" },
+      { "en": "Moo", "as": "হাম্বা" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A monkey chatters; its sound is called a chatter.", "as": "বান্দৰে কিচি-কিচি কৰে; ইয়াৰ শব্দক chatter বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-020",
+    "q": { "en": "What is the sound made by a snake called?", "as": "সাপে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hoot", "as": "হু-হু" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A snake hisses; its sound is called a hiss.", "as": "সাপে ফোঁচ কৰে; ইয়াৰ শব্দক hiss বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-021",
+    "q": { "en": "What is the sound made by a bee called?", "as": "মৌমাখিয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" },
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A bee buzzes; its sound is called a buzz.", "as": "মৌমাখিয়ে ভোঁ-ভোঁ কৰে; ইয়াৰ শব্দক buzz বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-022",
+    "q": { "en": "What is the sound made by a fly called?", "as": "মাখিয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" },
+      { "en": "Caw", "as": "কা-কা" },
+      { "en": "Neigh", "as": "হ্ৰেষ" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A fly buzzes; its sound is called a buzz.", "as": "মাখিয়ে ভোঁ-ভোঁ কৰে; ইয়াৰ শব্দক buzz বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-023",
+    "q": { "en": "What is the sound made by a mosquito called?", "as": "মহে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Cluck", "as": "কট-কট" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" },
+      { "en": "Croak", "as": "তৰ-তৰ" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A mosquito buzzes; its sound is called a buzz.", "as": "মহে ভোঁ-ভোঁ কৰে; ইয়াৰ শব্দক buzz বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-024",
+    "q": { "en": "What is the sound made by a wasp called?", "as": "বৰলে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hoot", "as": "হু-হু" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A wasp buzzes; its sound is called a buzz.", "as": "বৰলে ভোঁ-ভোঁ কৰে; ইয়াৰ শব্দক buzz বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-025",
+    "q": { "en": "What is the sound made by a frog called?", "as": "ভেকুলীয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Croak", "as": "তৰ-তৰ" },
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A frog croaks; its sound is called a croak.", "as": "ভেকুলীয়ে তৰ-তৰ কৰে; ইয়াৰ শব্দক croak বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-026",
+    "q": { "en": "What is the sound made by a toad called?", "as": "ভেঁকুলীয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Croak", "as": "তৰ-তৰ" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A toad croaks; its sound is called a croak.", "as": "ভেঁকুলীয়ে তৰ-তৰ কৰে; ইয়াৰ শব্দক croak বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-027",
+    "q": { "en": "What is the sound made by a crow called?", "as": "কাউৰীয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Caw", "as": "কা-কা" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A crow caws; its sound is called a caw.", "as": "কাউৰীয়ে কা-কা কৰে; ইয়াৰ শব্দক caw বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-028",
+    "q": { "en": "What is the sound made by a raven called?", "as": "ডাঙৰ কাউৰীয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Neigh", "as": "হ্ৰেষ" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" },
+      { "en": "Croak", "as": "তৰ-তৰ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A raven croaks; its sound is called a croak.", "as": "ডাঙৰ কাউৰীয়ে তৰ-তৰ কৰে; ইয়াৰ শব্দক croak বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-029",
+    "q": { "en": "What is the sound made by a duck called?", "as": "হাঁহে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Croak", "as": "তৰ-তৰ" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A duck quacks; its sound is called a quack.", "as": "হাঁহে কোৱাক-কোৱাক কৰে; ইয়াৰ শব্দক quack বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-030",
+    "q": { "en": "What is the sound made by a goose called?", "as": "ৰাজহাঁহে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Honk", "as": "হোঁ-হোঁ" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Croak", "as": "তৰ-তৰ" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A goose honks; its sound is called a honk.", "as": "ৰাজহাঁহে হোঁ-হোঁ কৰে; ইয়াৰ শব্দক honk বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-031",
+    "q": { "en": "What is the sound made by a hen called?", "as": "কুকুৰীয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Howl", "as": "হুকহুকনি" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Cluck", "as": "কট-কট" },
+      { "en": "Moo", "as": "হাম্বা" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A hen clucks; its sound is called a cluck.", "as": "কুকুৰীয়ে কট-কট কৰে; ইয়াৰ শব্দক cluck বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-032",
+    "q": { "en": "What is the sound made by a rooster called?", "as": "মতা কুকুৰাই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" },
+      { "en": "Crow", "as": "কুকুৰা-কোঁ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A rooster crows; its sound is called a crow.", "as": "মতা কুকুৰাই কুকুৰা-কোঁ কৰে; ইয়াৰ শব্দক crow বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-033",
+    "q": { "en": "What is the sound made by a chick called?", "as": "কুকুৰা পোৱালিয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Cheep", "as": "চি-চি" },
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Howl", "as": "হুকহুকনি" },
+      { "en": "Moo", "as": "হাম্বা" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A chick cheeps; its sound is called a cheep.", "as": "কুকুৰা পোৱালিয়ে চি-চি কৰে; ইয়াৰ শব্দক cheep বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-034",
+    "q": { "en": "What is the sound made by a turkey called?", "as": "টাৰ্কিয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Gobble", "as": "গবল-গবল" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A turkey gobbles; its sound is called a gobble.", "as": "টাৰ্কিয়ে গবল-গবল কৰে; ইয়াৰ শব্দক gobble বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-035",
+    "q": { "en": "What is the sound made by an owl called?", "as": "ফেঁচাই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Hoot", "as": "হু-হু" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "An owl hoots; its sound is called a hoot.", "as": "ফেঁচাই হু-হু কৰে; ইয়াৰ শব্দক hoot বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-036",
+    "q": { "en": "What is the sound made by a dove called?", "as": "পাৰ চৰাইয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Caw", "as": "কা-কা" },
+      { "en": "Coo", "as": "কু-কু" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A dove coos; its sound is called a coo.", "as": "পাৰ চৰাইয়ে কু-কু কৰে; ইয়াৰ শব্দক coo বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-037",
+    "q": { "en": "What is the sound made by a pigeon called?", "as": "পাৰে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Coo", "as": "কু-কু" },
+      { "en": "Howl", "as": "হুকহুকনি" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A pigeon coos; its sound is called a coo.", "as": "পাৰে কু-কু কৰে; ইয়াৰ শব্দক coo বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-038",
+    "q": { "en": "What is the sound made by a cuckoo called?", "as": "কুকুৱে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Cuckoo", "as": "কুকু" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A cuckoo cuckoos; its sound is called a cuckoo.", "as": "কুকুৱে কুকু-কুকু কৰে; ইয়াৰ শব্দক cuckoo বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-039",
+    "q": { "en": "What is the sound made by a sparrow called?", "as": "ঘৰচিৰিকাই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Chirp", "as": "চিৰ-চিৰ" },
+      { "en": "Moo", "as": "হাম্বা" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A sparrow chirps; its sound is called a chirp.", "as": "ঘৰচিৰিকাই চিৰ-চিৰ কৰে; ইয়াৰ শব্দক chirp বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-040",
+    "q": { "en": "What is the sound made by a parrot called?", "as": "ভাটৌৱে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Squawk", "as": "ক্ৰেঁ-ক্ৰেঁ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A parrot squawks; its sound is called a squawk.", "as": "ভাটৌৱে ক্ৰেঁ-ক্ৰেঁ কৰে; ইয়াৰ শব্দক squawk বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-041",
+    "q": { "en": "What is the sound made by a penguin called?", "as": "পেংগুইনে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Squawk", "as": "ক্ৰেঁ-ক্ৰেঁ" },
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A penguin squawks; its sound is called a squawk.", "as": "পেংগুইনে ক্ৰেঁ-ক্ৰেঁ কৰে; ইয়াৰ শব্দক squawk বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-042",
+    "q": { "en": "What is the sound made by a hyena called?", "as": "হায়েনাই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Laugh", "as": "হাঁহি" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A hyena laughs; its sound is called a laugh.", "as": "হায়েনাই হাঁহি মাৰে; ইয়াৰ শব্দক laugh বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-043",
+    "q": { "en": "What is the sound made by a whale called?", "as": "তিমিয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Song", "as": "গীত" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A whale sings; its sound is called a song.", "as": "তিমিয়ে গীত গায়; ইয়াৰ শব্দক song বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-044",
+    "q": { "en": "What is the sound made by a cicada called?", "as": "চিকাডাই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Song", "as": "গীত" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A cicada sings; its sound is called a song.", "as": "চিকাডাই গীত গায়; ইয়াৰ শব্দক song বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-045",
+    "q": { "en": "What is the sound made by a dolphin called?", "as": "ডলফিনে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Click", "as": "টিক-টিক" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A dolphin clicks; its sound is called a click.", "as": "ডলফিনে টিক-টিক কৰে; ইয়াৰ শব্দক click বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-046",
+    "q": { "en": "What is the sound made by a seal called?", "as": "ছীলে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A seal barks; its sound is called a bark.", "as": "ছীলে ভৌ-ভৌ কৰে; ইয়াৰ শব্দক bark বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-047",
+    "q": { "en": "What is the sound made by a mouse called?", "as": "নিগনিয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Squeak", "as": "চিঁ-চিঁ" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A mouse squeaks; its sound is called a squeak.", "as": "নিগনিয়ে চিঁ-চিঁ কৰে; ইয়াৰ শব্দক squeak বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-048",
+    "q": { "en": "What is the sound made by a rat called?", "as": "এন্দুৰে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Howl", "as": "হুকহুকনি" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" },
+      { "en": "Squeak", "as": "চিঁ-চিঁ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A rat squeaks; its sound is called a squeak.", "as": "এন্দুৰে চিঁ-চিঁ কৰে; ইয়াৰ শব্দক squeak বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-049",
+    "q": { "en": "What is the sound made by a rabbit called?", "as": "শশকে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Squeak", "as": "চিঁ-চিঁ" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A rabbit squeaks; its sound is called a squeak.", "as": "শশকে চিঁ-চিঁ কৰে; ইয়াৰ শব্দক squeak বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-050",
+    "q": { "en": "What is the sound made by a squirrel called?", "as": "কেৰ্কেটুৱাই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Chatter", "as": "কিচি-কিচি" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Quack", "as": "কোৱাক" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A squirrel chatters; its sound is called a chatter.", "as": "কেৰ্কেটুৱাই কিচি-কিচি কৰে; ইয়াৰ শব্দক chatter বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-051",
+    "q": { "en": "What is the sound made by a magpie called?", "as": "মেগপাইয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Chatter", "as": "কিচি-কিচি" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A magpie chatters; its sound is called a chatter.", "as": "মেগপাইয়ে কিচি-কিচি কৰে; ইয়াৰ শব্দক chatter বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-052",
+    "q": { "en": "What is the sound made by a chimpanzee called?", "as": "চিম্পাঞ্জীয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A chimpanzee hoots; its sound is called a hoot.", "as": "চিম্পাঞ্জীয়ে হু-হু কৰে; ইয়াৰ শব্দক hoot বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-053",
+    "q": { "en": "What is the sound made by a gorilla called?", "as": "গৰিলাই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Growl", "as": "গোঁ-গোঁ" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Quack", "as": "কোৱাক" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A gorilla growls; its sound is called a growl.", "as": "গৰিলাই গোঁ-গোঁ কৰে; ইয়াৰ শব্দক growl বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-054",
+    "q": { "en": "What is the sound made by a deer called?", "as": "হৰিণে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Bellow", "as": "ৰাৱ" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Quack", "as": "কোৱাক" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A deer bellows; its sound is called a bellow.", "as": "হৰিণে ৰাৱ কৰে; ইয়াৰ শব্দক bellow বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-055",
+    "q": { "en": "What is the sound made by a buffalo called?", "as": "ম'হে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" },
+      { "en": "Bellow", "as": "ৰাৱ" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A buffalo bellows; its sound is called a bellow.", "as": "ম'হে ৰাৱ কৰে; ইয়াৰ শব্দক bellow বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-056",
+    "q": { "en": "What is the sound made by a bison called?", "as": "বাইছনে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Caw", "as": "কা-কা" },
+      { "en": "Bellow", "as": "ৰাৱ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A bison bellows; its sound is called a bellow.", "as": "বাইছনে ৰাৱ কৰে; ইয়াৰ শব্দক bellow বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-057",
+    "q": { "en": "What is the sound made by an alligator called?", "as": "এলিগেটৰে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bellow", "as": "ৰাৱ" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "An alligator bellows; its sound is called a bellow.", "as": "এলিগেটৰে ৰাৱ কৰে; ইয়াৰ শব্দক bellow বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-058",
+    "q": { "en": "What is the sound made by a crocodile called?", "as": "কুম্ভীৰে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Bellow", "as": "ৰাৱ" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A crocodile bellows; its sound is called a bellow.", "as": "কুম্ভীৰে ৰাৱ কৰে; ইয়াৰ শব্দক bellow বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-059",
+    "q": { "en": "What is the sound made by a camel called?", "as": "উটে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Grunt", "as": "ঘোঁৰ" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A camel grunts; its sound is called a grunt.", "as": "উটে ঘোঁৰ-ঘোঁৰ কৰে; ইয়াৰ শব্দক grunt বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-060",
+    "q": { "en": "What is the sound made by a hippopotamus called?", "as": "জলহস্তীয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Grunt", "as": "ঘোঁৰ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A hippopotamus grunts; its sound is called a grunt.", "as": "জলহস্তীয়ে ঘোঁৰ-ঘোঁৰ কৰে; ইয়াৰ শব্দক grunt বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-061",
+    "q": { "en": "What is the sound made by a llama called?", "as": "লামাই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Hum", "as": "গুণগুণ" },
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Moo", "as": "হাম্বা" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A llama hums; its sound is called a hum.", "as": "লামাই গুণগুণ কৰে; ইয়াৰ শব্দক hum বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-062",
+    "q": { "en": "What is the sound made by a grasshopper called?", "as": "ঘাঁহফৰিঙে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Chirp", "as": "চিৰ-চিৰ" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A grasshopper chirps; its sound is called a chirp.", "as": "ঘাঁহফৰিঙে চিৰ-চিৰ কৰে; ইয়াৰ শব্দক chirp বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-063",
+    "q": { "en": "What is the sound made by a cricket called?", "as": "চিৰিঙে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Chirp", "as": "চিৰ-চিৰ" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A cricket chirps; its sound is called a chirp.", "as": "চিৰিঙে চিৰ-চিৰ কৰে; ইয়াৰ শব্দক chirp বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-064",
+    "q": { "en": "What is the sound made by a leopard called?", "as": "নাহৰফুটুকীয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" },
+      { "en": "Growl", "as": "গোঁ-গোঁ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A leopard growls; its sound is called a growl.", "as": "নাহৰফুটুকীয়ে গোঁ-গোঁ কৰে; ইয়াৰ শব্দক growl বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-065",
+    "q": { "en": "What is the sound made by a jaguar called?", "as": "জাগুৱাৰে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Growl", "as": "গোঁ-গোঁ" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A jaguar growls; its sound is called a growl.", "as": "জাগুৱাৰে গোঁ-গোঁ কৰে; ইয়াৰ শব্দক growl বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-066",
+    "q": { "en": "What is the sound made by a panther called?", "as": "পেন্থাৰে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Growl", "as": "গোঁ-গোঁ" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A panther growls; its sound is called a growl.", "as": "পেন্থাৰে গোঁ-গোঁ কৰে; ইয়াৰ শব্দক growl বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-067",
+    "q": { "en": "What is the sound made by a cheetah called?", "as": "চিতাই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Chirp", "as": "চিৰ-চিৰ" },
+      { "en": "Moo", "as": "হাম্বা" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A cheetah chirps; its sound is called a chirp.", "as": "চিতাই চিৰ-চিৰ কৰে; ইয়াৰ শব্দক chirp বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-068",
+    "q": { "en": "What is the sound made by a zebra called?", "as": "জেব্ৰাই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Bray", "as": "হ্ৰেঁ-হ্ৰেঁ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A zebra brays; its sound is called a bray.", "as": "জেব্ৰাই হ্ৰেঁ-হ্ৰেঁ কৰে; ইয়াৰ শব্দক bray বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-069",
+    "q": { "en": "What is the sound made by a hawk called?", "as": "চিলনীয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Screech", "as": "কৰ্কশ চিঞৰ" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A hawk screeches; its sound is called a screech.", "as": "চিলনীয়ে কৰ্কশ চিঞৰ মাৰে; ইয়াৰ শব্দক screech বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-070",
+    "q": { "en": "What is the sound made by an eagle called?", "as": "ঈগলে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Screech", "as": "কৰ্কশ চিঞৰ" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "An eagle screeches; its sound is called a screech.", "as": "ঈগলে কৰ্কশ চিঞৰ মাৰে; ইয়াৰ শব্দক screech বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-071",
+    "q": { "en": "What is the sound made by a falcon called?", "as": "ফেলকনে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Screech", "as": "কৰ্কশ চিঞৰ" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A falcon screeches; its sound is called a screech.", "as": "ফেলকনে কৰ্কশ চিঞৰ মাৰে; ইয়াৰ শব্দক screech বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-072",
+    "q": { "en": "What is the sound made by a vulture called?", "as": "শগুনে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A vulture hisses; its sound is called a hiss.", "as": "শগুনে ফোঁচ কৰে; ইয়াৰ শব্দক hiss বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-073",
+    "q": { "en": "What is the sound made by a peacock called?", "as": "ময়ূৰে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Scream", "as": "চিঞৰ" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Quack", "as": "কোৱাক" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A peacock screams; its sound is called a scream.", "as": "ময়ূৰে চিঞৰ মাৰে; ইয়াৰ শব্দক scream বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-074",
+    "q": { "en": "What is the sound made by a swan called?", "as": "হংসই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Honk", "as": "হোঁ-হোঁ" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A swan honks; its sound is called a honk.", "as": "হংসই হোঁ-হোঁ কৰে; ইয়াৰ শব্দক honk বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-075",
+    "q": { "en": "What is the sound made by a flamingo called?", "as": "ফ্লেমিংগে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Honk", "as": "হোঁ-হোঁ" },
+      { "en": "Croak", "as": "তৰ-তৰ" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A flamingo honks; its sound is called a honk.", "as": "ফ্লেমিংগে হোঁ-হোঁ কৰে; ইয়াৰ শব্দক honk বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-076",
+    "q": { "en": "What is the soft vibrating sound made by a cat called?", "as": "মেকুৰীয়ে কৰা কোমল কম্পনশীল শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Hoot", "as": "হু-হু" },
+      { "en": "Croak", "as": "তৰ-তৰ" },
+      { "en": "Purr", "as": "গুণগুণ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A cat purrs; its sound is called a purr.", "as": "মেকুৰীয়ে গুণগুণ শব্দ কৰে; ইয়াৰ শব্দক purr বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-077",
+    "q": { "en": "What is the low warning sound made by a dog called?", "as": "কুকুৰে কৰা নিম্ন সতৰ্কবাণী শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Growl", "as": "গোঁ-গোঁ" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A dog growls; its sound is called a growl.", "as": "কুকুৰে গোঁ-গোঁ কৰে; ইয়াৰ শব্দক growl বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-078",
+    "q": { "en": "What is the sad crying sound made by a dog called?", "as": "কুকুৰে কৰা দুখজনক কেঁকনি শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Whine", "as": "কেঁকনি" },
+      { "en": "Hoot", "as": "হু-হু" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A dog whines; its sound is called a whine.", "as": "কুকুৰে কেঁকনি কৰে; ইয়াৰ শব্দক whine বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-079",
+    "q": { "en": "What is the soft high-pitched sound made by a horse called?", "as": "ঘোঁৰাই কৰা কোমল উচ্চ শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Whinny", "as": "হেঁ-হেঁ" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A horse whinnies; its sound is called a whinny.", "as": "ঘোঁৰাই হেঁ-হেঁ কৰে; ইয়াৰ শব্দক whinny বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-080",
+    "q": { "en": "What is the sound made by a coyote called?", "as": "কয়োটে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Croak", "as": "তৰ-তৰ" },
+      { "en": "Howl", "as": "হুকহুকনি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A coyote howls; its sound is called a howl.", "as": "কয়োটে হুকহুকনি কৰে; ইয়াৰ শব্দক howl বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-081",
+    "q": { "en": "What is the sound made by a baboon called?", "as": "বেবুনে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A baboon barks; its sound is called a bark.", "as": "বেবুনে ভৌ-ভৌ কৰে; ইয়াৰ শব্দক bark বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-082",
+    "q": { "en": "What is the sound made by a bat called?", "as": "বাদুলীয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Screech", "as": "কৰ্কশ চিঞৰ" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A bat screeches; its sound is called a screech.", "as": "বাদুলীয়ে কৰ্কশ চিঞৰ মাৰে; ইয়াৰ শব্দক screech বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-083",
+    "q": { "en": "What is the sound made by a sea lion called?", "as": "ছী লায়নে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A sea lion barks; its sound is called a bark.", "as": "ছী লায়নে ভৌ-ভৌ কৰে; ইয়াৰ শব্দক bark বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-084",
+    "q": { "en": "What is the sound made by a koala called?", "as": "কোৱালাই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Bellow", "as": "ৰাৱ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A koala bellows; its sound is called a bellow.", "as": "কোৱালাই ৰাৱ কৰে; ইয়াৰ শব্দক bellow বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-085",
+    "q": { "en": "What is the sound made by a panda called?", "as": "পান্ডাই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bleat", "as": "ব্যা-ব্যা" },
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A panda bleats; its sound is called a bleat.", "as": "পান্ডাই ব্যা-ব্যা কৰে; ইয়াৰ শব্দক bleat বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-086",
+    "q": { "en": "What is the sound made by a moose called?", "as": "মুছে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Bellow", "as": "ৰাৱ" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A moose bellows; its sound is called a bellow.", "as": "মুছে ৰাৱ কৰে; ইয়াৰ শব্দক bellow বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-087",
+    "q": { "en": "What is the sound made by a rhinoceros called?", "as": "গণ্ডাৰে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Snort", "as": "ফোঁচ" },
+      { "en": "Howl", "as": "হুকহুকনি" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A rhinoceros snorts; its sound is called a snort.", "as": "গণ্ডাৰে ফোঁচ কৰে; ইয়াৰ শব্দক snort বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-088",
+    "q": { "en": "What is the sound made by a seagull called?", "as": "ছী গালে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Screech", "as": "কৰ্কশ চিঞৰ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A seagull screeches; its sound is called a screech.", "as": "ছী গালে কৰ্কশ চিঞৰ মাৰে; ইয়াৰ শব্দক screech বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-089",
+    "q": { "en": "What is the sound made by a canary called?", "as": "কেনেৰীয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Chirp", "as": "চিৰ-চিৰ" },
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A canary chirps; its sound is called a chirp.", "as": "কেনেৰীয়ে চিৰ-চিৰ কৰে; ইয়াৰ শব্দক chirp বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-090",
+    "q": { "en": "What is the sound made by a raccoon called?", "as": "ৰেকুনে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Chatter", "as": "কিচি-কিচি" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A raccoon chatters; its sound is called a chatter.", "as": "ৰেকুনে কিচি-কিচি কৰে; ইয়াৰ শব্দক chatter বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-091",
+    "q": { "en": "What is the sound made by a skunk called?", "as": "স্কাংকে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A skunk hisses; its sound is called a hiss.", "as": "স্কাংকে ফোঁচ কৰে; ইয়াৰ শব্দক hiss বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-092",
+    "q": { "en": "What is the sound made by a mule called?", "as": "খচ্চৰে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Bray", "as": "হ্ৰেঁ-হ্ৰেঁ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A mule brays; its sound is called a bray.", "as": "খচ্চৰে হ্ৰেঁ-হ্ৰেঁ কৰে; ইয়াৰ শব্দক bray বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-093",
+    "q": { "en": "What is the sound made by a ewe called?", "as": "মাইকী ভেড়াই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bleat", "as": "ব্যা-ব্যা" },
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A ewe bleats; its sound is called a bleat.", "as": "মাইকী ভেড়াই ব্যা-ব্যা কৰে; ইয়াৰ শব্দক bleat বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-094",
+    "q": { "en": "What is the sound made by a kid called?", "as": "ছাগলীৰ পোৱালিয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Croak", "as": "তৰ-তৰ" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A kid bleats; its sound is called a bleat.", "as": "ছাগলীৰ পোৱালিয়ে ব্যা-ব্যা কৰে; ইয়াৰ শব্দক bleat বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-095",
+    "q": { "en": "What is the sound made by a foal called?", "as": "ঘোঁৰাৰ পোৱালিয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Neigh", "as": "হ্ৰেষ" },
+      { "en": "Buzz", "as": "ভোঁ-ভোঁ" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A foal neighs; its sound is called a neigh.", "as": "ঘোঁৰাৰ পোৱালিয়ে হ্ৰেষ কৰে; ইয়াৰ শব্দক neigh বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-096",
+    "q": { "en": "What is the sound made by a calf called?", "as": "গৰুৰ পোৱালিয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Hoot", "as": "হু-হু" },
+      { "en": "Moo", "as": "হাম্বা" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A calf moos; its sound is called a moo.", "as": "গৰুৰ পোৱালিয়ে হাম্বা-হাম্বা কৰে; ইয়াৰ শব্দক moo বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-097",
+    "q": { "en": "What is the sound made by a duckling called?", "as": "হাঁহৰ পোৱালিয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A duckling quacks; its sound is called a quack.", "as": "হাঁহৰ পোৱালিয়ে কোৱাক-কোৱাক কৰে; ইয়াৰ শব্দক quack বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-098",
+    "q": { "en": "What is the sound made by a gosling called?", "as": "ৰাজহাঁহৰ পোৱালিয়ে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Honk", "as": "হোঁ-হোঁ" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Croak", "as": "তৰ-তৰ" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A gosling honks; its sound is called a honk.", "as": "ৰাজহাঁহৰ পোৱালিয়ে হোঁ-হোঁ কৰে; ইয়াৰ শব্দক honk বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-099",
+    "q": { "en": "What is the sound made by a gander called?", "as": "মতা ৰাজহাঁহে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Honk", "as": "হোঁ-হোঁ" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A gander honks; its sound is called a honk.", "as": "মতা ৰাজহাঁহে হোঁ-হোঁ কৰে; ইয়াৰ শব্দক honk বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-100",
+    "q": { "en": "What is the sound made by a cockroach called?", "as": "পঁইতাচোৰাই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A cockroach hisses; its sound is called a hiss.", "as": "পঁইতাচোৰাই ফোঁচ কৰে; ইয়াৰ শব্দক hiss বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-101",
+    "q": { "en": "What is the sound made by a locust called?", "as": "ফৰিঙে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Chirp", "as": "চিৰ-চিৰ" },
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hiss", "as": "ফোঁচ" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A locust chirps; its sound is called a chirp.", "as": "ফৰিঙে চিৰ-চিৰ কৰে; ইয়াৰ শব্দক chirp বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-102",
+    "q": { "en": "What is the sound made by a parakeet called?", "as": "টিয়াই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Squawk", "as": "ক্ৰেঁ-ক্ৰেঁ" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Hoot", "as": "হু-হু" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "A parakeet squawks; its sound is called a squawk.", "as": "টিয়াই ক্ৰেঁ-ক্ৰেঁ কৰে; ইয়াৰ শব্দক squawk বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-103",
+    "q": { "en": "What is the sound made by a macaw called?", "as": "মেকাওৱে কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Squawk", "as": "ক্ৰেঁ-ক্ৰেঁ" },
+      { "en": "Quack", "as": "কোৱাক" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "A macaw squawks; its sound is called a squawk.", "as": "মেকাওৱে ক্ৰেঁ-ক্ৰেঁ কৰে; ইয়াৰ শব্দক squawk বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-104",
+    "q": { "en": "What is the sound made by a myna called?", "as": "শালিকাই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Roar", "as": "গৰ্জন" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Bark", "as": "ভৌ-ভৌ" },
+      { "en": "Chatter", "as": "কিচি-কিচি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "A myna chatters; its sound is called a chatter.", "as": "শালিকাই কিচি-কিচি কৰে; ইয়াৰ শব্দক chatter বোলা হয়।" }
+  },
+  {
+    "id": "sounds-calls-105",
+    "q": { "en": "What is the sound made by a tortoise called?", "as": "কাছই কৰা শব্দক কি বোলা হয়?" },
+    "options": [
+      { "en": "Hiss", "as": "ফোঁচ" },
+      { "en": "Moo", "as": "হাম্বা" },
+      { "en": "Quack", "as": "কোৱাক" },
+      { "en": "Bleat", "as": "ব্যা-ব্যা" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "A tortoise hisses; its sound is called a hiss.", "as": "কাছই ফোঁচ কৰে; ইয়াৰ শব্দক hiss বোলা হয়।" }
   }
-}
+]
