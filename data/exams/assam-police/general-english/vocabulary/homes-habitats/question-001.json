@@ -1,30 +1,1430 @@
-{
-  "id": "homes-habitats-001",
-  "q": {
-    "en": "Where does a bee live?",
-    "as": "মৌমাখি ক'ত থাকে?"
+[
+  {
+    "id": "homes-habitats-001",
+    "q": { "en": "Where does a bee live?", "as": "মৌমাখি ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Bees live in a hive.", "as": "মৌমাখিবোৰে মৌচাকত (hive) বাস কৰে।" }
   },
-  "options": [
-    {
-      "en": "Hive",
-      "as": "মৌচাক"
-    },
-    {
-      "en": "Den",
-      "as": "গুহা"
-    },
-    {
-      "en": "Nest",
-      "as": "বাহ"
-    },
-    {
-      "en": "Burrow",
-      "as": "বিল"
-    }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "Bees live in a hive.",
-    "as": "মৌমাখিবোৰে মৌচাকত (hive) বাস কৰে।"
+  {
+    "id": "homes-habitats-002",
+    "q": { "en": "Where does an ant live?", "as": "পৰুৱা ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Anthill", "as": "পৰুৱাৰ বাহ" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Nest", "as": "বাহ" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Ants live in an anthill.", "as": "পৰুৱাবোৰে পৰুৱাৰ বাহত (anthill) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-003",
+    "q": { "en": "Where does a bird live?", "as": "চৰাই ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Birds live in a nest.", "as": "চৰাইবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-004",
+    "q": { "en": "Where does a spider live?", "as": "মকৰা ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Spiders live in a web.", "as": "মকৰাবোৰে মকৰাজালত (web) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-005",
+    "q": { "en": "Where does a fish live?", "as": "মাছ ক'ত থাকে?" },
+    "options": [
+      { "en": "Water", "as": "পানী" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Fish live in water.", "as": "মাছবোৰে পানীত (water) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-006",
+    "q": { "en": "Where does a lion live?", "as": "সিংহ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Lions live in a den.", "as": "সিংহবোৰে গুহাত (den) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-007",
+    "q": { "en": "Where does a tiger live?", "as": "বাঘ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Stable", "as": "আস্তাবল" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Tigers live in a den.", "as": "বাঘবোৰে গুহাত (den) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-008",
+    "q": { "en": "Where does a bear live?", "as": "ভালুক ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Den", "as": "গুহা" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Bears live in a den.", "as": "ভালুকবোৰে গুহাত (den) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-009",
+    "q": { "en": "Where does a fox live?", "as": "শিয়াল ক'ত থাকে?" },
+    "options": [
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Foxes live in a den.", "as": "শিয়ালবোৰে গুহাত (den) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-010",
+    "q": { "en": "Where does a rabbit live?", "as": "শশক ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Rabbits live in a burrow.", "as": "শশকবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-011",
+    "q": { "en": "Where does a mole live?", "as": "ম'ল ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Hive", "as": "মৌচাক" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Moles live in a burrow.", "as": "ম'লবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-012",
+    "q": { "en": "Where does a mouse live?", "as": "নিগনি ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Mice live in a burrow.", "as": "নিগনিবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-013",
+    "q": { "en": "Where does a rat live?", "as": "এন্দুৰ ক'ত থাকে?" },
+    "options": [
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Rats live in a burrow.", "as": "এন্দুৰবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-014",
+    "q": { "en": "Where does a dog live?", "as": "কুকুৰ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Kennel", "as": "কুকুৰৰ ঘৰ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Dogs live in a kennel.", "as": "কুকুৰবোৰে কুকুৰৰ ঘৰত (kennel) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-015",
+    "q": { "en": "Where does a horse live?", "as": "ঘোঁৰা ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Stable", "as": "আস্তাবল" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Horses live in a stable.", "as": "ঘোঁৰাবোৰে আস্তাবলত (stable) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-016",
+    "q": { "en": "Where does a cow live?", "as": "গৰু ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Byre", "as": "গোহালি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Cows live in a byre.", "as": "গৰুবোৰে গোহালিত (byre) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-017",
+    "q": { "en": "Where does a pig live?", "as": "গাহৰি ক'ত থাকে?" },
+    "options": [
+      { "en": "Sty", "as": "গাহৰিৰ ঘৰ" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Pigs live in a sty.", "as": "গাহৰিবোৰে গাহৰিৰ ঘৰত (sty) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-018",
+    "q": { "en": "Where does a hen live?", "as": "কুকুৰী ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Coop", "as": "কুকুৰাৰ ঘৰ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Hens live in a coop.", "as": "কুকুৰীবোৰে কুকুৰাৰ ঘৰত (coop) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-019",
+    "q": { "en": "Where does a sheep live?", "as": "ভেড়া ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Fold", "as": "ভেড়াৰ শালা" },
+      { "en": "Hive", "as": "মৌচাক" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Sheep live in a fold.", "as": "ভেড়াবোৰে ভেড়াৰ শালাত (fold) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-020",
+    "q": { "en": "Where does a goat live?", "as": "ছাগলী ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Shed", "as": "শালা" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Goats live in a shed.", "as": "ছাগলীবোৰে শালাত (shed) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-021",
+    "q": { "en": "Where does a duck live?", "as": "হাঁহ ক'ত থাকে?" },
+    "options": [
+      { "en": "Pond", "as": "পুখুৰী" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Ducks live in a pond.", "as": "হাঁহবোৰে পুখুৰীত (pond) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-022",
+    "q": { "en": "Where does a frog live?", "as": "ভেকুলী ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Pond", "as": "পুখুৰী" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Frogs live in a pond.", "as": "ভেকুলীবোৰে পুখুৰীত (pond) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-023",
+    "q": { "en": "Where does a snake live?", "as": "সাপ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Snakes live in a burrow.", "as": "সাপবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-024",
+    "q": { "en": "Where does an earthworm live?", "as": "কেঁচু ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Soil", "as": "মাটি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Earthworms live in the soil.", "as": "কেঁচুবোৰে মাটিত (soil) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-025",
+    "q": { "en": "Where does an eagle live?", "as": "ঈগল ক'ত থাকে?" },
+    "options": [
+      { "en": "Eyrie", "as": "ঈগলৰ বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Den", "as": "গুহা" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Eagles live in an eyrie.", "as": "ঈগলবোৰে ঈগলৰ বাহত (eyrie) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-026",
+    "q": { "en": "Where does a hawk live?", "as": "চিলনী ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Eyrie", "as": "ঈগলৰ বাহ" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Den", "as": "গুহা" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Hawks live in an eyrie.", "as": "চিলনীবোৰে ঈগলৰ বাহত (eyrie) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-027",
+    "q": { "en": "Where does an owl live?", "as": "ফেঁচা ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Owlery", "as": "ফেঁচাৰ বাহ" },
+      { "en": "Den", "as": "গুহা" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Owls live in an owlery.", "as": "ফেঁচাবোৰে ফেঁচাৰ বাহত (owlery) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-028",
+    "q": { "en": "Where does a bat live?", "as": "বাদুলী ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Den", "as": "গুহা" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Bats live in a den.", "as": "বাদুলীবোৰে গুহাত (den) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-029",
+    "q": { "en": "Where does a monkey live?", "as": "বান্দৰ ক'ত থাকে?" },
+    "options": [
+      { "en": "Tree", "as": "গছ" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Monkeys live in trees.", "as": "বান্দৰবোৰে গছত (tree) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-030",
+    "q": { "en": "Where does a squirrel live?", "as": "কেৰ্কেটুৱা ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Drey", "as": "কেৰ্কেটুৱাৰ বাহ" },
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Squirrels live in a drey.", "as": "কেৰ্কেটুৱাবোৰে কেৰ্কেটুৱাৰ বাহত (drey) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-031",
+    "q": { "en": "Where does a beaver live?", "as": "বিভাৰ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Lodge", "as": "বিভাৰৰ ঘৰ" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Beavers live in a lodge.", "as": "বিভাৰবোৰে বিভাৰৰ ঘৰত (lodge) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-032",
+    "q": { "en": "Where does an otter live?", "as": "উদ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Holt", "as": "উদৰ গাঁত" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Otters live in a holt.", "as": "উদবোৰে উদৰ গাঁতত (holt) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-033",
+    "q": { "en": "Where does a badger live?", "as": "বেজাৰ ক'ত থাকে?" },
+    "options": [
+      { "en": "Sett", "as": "বেজাৰ গাঁত" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Badgers live in a sett.", "as": "বেজাৰবোৰে বেজাৰ গাঁতত (sett) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-034",
+    "q": { "en": "Where does a deer live?", "as": "হৰিণ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Forest", "as": "হাবি" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Deer live in forests.", "as": "হৰিণবোৰে হাবিত (forest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-035",
+    "q": { "en": "Where does an elephant live?", "as": "হাতী ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Forest", "as": "হাবি" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Elephants live in forests.", "as": "হাতীবোৰে হাবিত (forest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-036",
+    "q": { "en": "Where does a camel live?", "as": "উট ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Desert", "as": "মৰুভূমি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Camels live in deserts.", "as": "উটবোৰে মৰুভূমিত (desert) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-037",
+    "q": { "en": "Where does a whale live?", "as": "তিমি ক'ত থাকে?" },
+    "options": [
+      { "en": "Ocean", "as": "সাগৰ" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Whales live in the ocean.", "as": "তিমিবোৰে সাগৰত (ocean) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-038",
+    "q": { "en": "Where does a dolphin live?", "as": "ডলফিন ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Ocean", "as": "সাগৰ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Dolphins live in the ocean.", "as": "ডলফিনবোৰে সাগৰত (ocean) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-039",
+    "q": { "en": "Where does a seal live?", "as": "ছীল ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Ocean", "as": "সাগৰ" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Seals live in the ocean.", "as": "ছীলবোৰে সাগৰত (ocean) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-040",
+    "q": { "en": "Where does a crocodile live?", "as": "কুম্ভীৰ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "River", "as": "নদী" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Crocodiles live in rivers.", "as": "কুম্ভীৰবোৰে নদীত (river) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-041",
+    "q": { "en": "Where does a turtle live?", "as": "কাছ ক'ত থাকে?" },
+    "options": [
+      { "en": "Ocean", "as": "সাগৰ" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Turtles live in the ocean.", "as": "কাছবোৰে সাগৰত (ocean) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-042",
+    "q": { "en": "Where does a snail live?", "as": "শামুক ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Shell", "as": "খোলা" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Snails live in a shell.", "as": "শামুকবোৰে খোলাত (shell) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-043",
+    "q": { "en": "Where does a tortoise live?", "as": "কাছ (tortoise) ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Shell", "as": "খোলা" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Tortoises live in a shell.", "as": "তৰ্কইছবোৰে খোলাত (shell) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-044",
+    "q": { "en": "Where does a butterfly live?", "as": "পখিলা ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Garden", "as": "বাগান" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Butterflies live in gardens.", "as": "পখিলাবোৰে বাগানত (garden) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-045",
+    "q": { "en": "Where does a termite live?", "as": "উই ক'ত থাকে?" },
+    "options": [
+      { "en": "Mound", "as": "উইমাৰ" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Hive", "as": "মৌচাক" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Termites live in a mound.", "as": "উইবোৰে উইমাৰত (mound) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-046",
+    "q": { "en": "Where does a wasp live?", "as": "বৰল ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Den", "as": "গুহা" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Wasps live in a nest.", "as": "বৰলবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-047",
+    "q": { "en": "Where does a sparrow live?", "as": "ঘৰচিৰিকা ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Sparrows live in a nest.", "as": "ঘৰচিৰিকাবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-048",
+    "q": { "en": "Where does a crow live?", "as": "কাউৰী ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Nest", "as": "বাহ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Crows live in a nest.", "as": "কাউৰীবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-049",
+    "q": { "en": "Where does a pigeon live?", "as": "পাৰ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Pigeons live in a nest.", "as": "পাৰবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-050",
+    "q": { "en": "Where does a peacock live?", "as": "ময়ূৰ ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Peacocks live in a nest.", "as": "ময়ূৰবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-051",
+    "q": { "en": "Where does a parrot live?", "as": "ভাটৌ ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Den", "as": "গুহা" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Parrots live in a nest.", "as": "ভাটৌবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-052",
+    "q": { "en": "Where does a woodpecker live?", "as": "কাঠৰোকা ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Nest", "as": "বাহ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Woodpeckers live in a nest.", "as": "কাঠৰোকাবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-053",
+    "q": { "en": "Where does a stork live?", "as": "বগলী ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Storks live in a nest.", "as": "বগলীবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-054",
+    "q": { "en": "Where does a flamingo live?", "as": "ফ্লেমিংগ ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Flamingos live in a nest.", "as": "ফ্লেমিংগবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-055",
+    "q": { "en": "Where does a hare live?", "as": "শহা ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Hares live in a burrow.", "as": "শহাবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-056",
+    "q": { "en": "Where does a buffalo live?", "as": "ম'হ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Shed", "as": "শালা" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Buffaloes live in a shed.", "as": "ম'হবোৰে শালাত (shed) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-057",
+    "q": { "en": "Where does a donkey live?", "as": "গাধ ক'ত থাকে?" },
+    "options": [
+      { "en": "Stable", "as": "আস্তাবল" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Donkeys live in a stable.", "as": "গাধবোৰে আস্তাবলত (stable) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-058",
+    "q": { "en": "Where does a rhinoceros live?", "as": "গণ্ডাৰ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Forest", "as": "হাবি" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Rhinoceroses live in forests.", "as": "গণ্ডাৰবোৰে হাবিত (forest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-059",
+    "q": { "en": "Where does a hippopotamus live?", "as": "জলহস্তী ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "River", "as": "নদী" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Hippopotamuses live in rivers.", "as": "জলহস্তীবোৰে নদীত (river) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-060",
+    "q": { "en": "Where does a giraffe live?", "as": "জিৰাফ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Savanna", "as": "তৃণভূমি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Giraffes live in the savanna.", "as": "জিৰাফবোৰে তৃণভূমিত (savanna) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-061",
+    "q": { "en": "Where does a zebra live?", "as": "জেব্ৰা ক'ত থাকে?" },
+    "options": [
+      { "en": "Savanna", "as": "তৃণভূমি" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Zebras live in the savanna.", "as": "জেব্ৰাবোৰে তৃণভূমিত (savanna) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-062",
+    "q": { "en": "Where does a cheetah live?", "as": "চিতা ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Cheetahs live in a den.", "as": "চিতাবোৰে গুহাত (den) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-063",
+    "q": { "en": "Where does a leopard live?", "as": "নাহৰফুটুকী ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Leopards live in a den.", "as": "নাহৰফুটুকীবোৰে গুহাত (den) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-064",
+    "q": { "en": "Where does a wolf live?", "as": "কুকুৰনেচীয়া বাঘ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Den", "as": "গুহা" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Wolves live in a den.", "as": "কুকুৰনেচীয়া বাঘবোৰে গুহাত (den) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-065",
+    "q": { "en": "Where does a coyote live?", "as": "কয়োট ক'ত থাকে?" },
+    "options": [
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Coyotes live in a den.", "as": "কয়োটবোৰে গুহাত (den) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-066",
+    "q": { "en": "Where does a hyena live?", "as": "হায়েনা ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Hyenas live in a den.", "as": "হায়েনাবোৰে গুহাত (den) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-067",
+    "q": { "en": "Where does a meerkat live?", "as": "মিৰকেট ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Meerkats live in a burrow.", "as": "মিৰকেটবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-068",
+    "q": { "en": "Where does a prairie dog live?", "as": "প্ৰেৰী কুকুৰ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Prairie dogs live in a burrow.", "as": "প্ৰেৰী কুকুৰবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-069",
+    "q": { "en": "Where does a groundhog live?", "as": "গ্ৰাউণ্ডহগ ক'ত থাকে?" },
+    "options": [
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Groundhogs live in a burrow.", "as": "গ্ৰাউণ্ডহগবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-070",
+    "q": { "en": "Where does a hamster live?", "as": "হামষ্টাৰ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Cage", "as": "খাঁচা" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Hamsters live in a cage.", "as": "হামষ্টাৰবোৰে খাঁচাত (cage) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-071",
+    "q": { "en": "Where does a guinea pig live?", "as": "গিনিপিগ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Cage", "as": "খাঁচা" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Guinea pigs live in a cage.", "as": "গিনিপিগবোৰে খাঁচাত (cage) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-072",
+    "q": { "en": "Where does a goldfish live?", "as": "গোল্ডফিছ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Aquarium", "as": "একুৱেৰিয়াম" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Goldfish live in an aquarium.", "as": "গোল্ডফিছবোৰে একুৱেৰিয়ামত (aquarium) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-073",
+    "q": { "en": "Where does a lizard live?", "as": "জেতুকা ক'ত থাকে?" },
+    "options": [
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Lizards live in a burrow.", "as": "জেতুকাবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-074",
+    "q": { "en": "Where does a scorpion live?", "as": "বিছা ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Scorpions live in a burrow.", "as": "বিছাবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-075",
+    "q": { "en": "Where does a crab live?", "as": "কেঁকোৰা ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Crabs live in a burrow.", "as": "কেঁকোৰাবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-076",
+    "q": { "en": "Where does a lobster live?", "as": "লবষ্টাৰ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Ocean", "as": "সাগৰ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Lobsters live in the ocean.", "as": "লবষ্টাৰবোৰে সাগৰত (ocean) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-077",
+    "q": { "en": "Where does an oyster live?", "as": "ষ্টাৰ ক'ত থাকে?" },
+    "options": [
+      { "en": "Ocean", "as": "সাগৰ" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Oysters live in the ocean.", "as": "ষ্টাৰবোৰে সাগৰত (ocean) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-078",
+    "q": { "en": "Where does a toad live?", "as": "ভেঁকুলী ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Toads live in a burrow.", "as": "ভেঁকুলীবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-079",
+    "q": { "en": "Where does a newt live?", "as": "নিউট ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Pond", "as": "পুখুৰী" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Newts live in a pond.", "as": "নিউটবোৰে পুখুৰীত (pond) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-080",
+    "q": { "en": "Where does a salamander live?", "as": "ছালামেণ্ডাৰ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Salamanders live in a burrow.", "as": "ছালামেণ্ডাৰবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-081",
+    "q": { "en": "Where does a gorilla live?", "as": "গৰিলা ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Gorillas live in a nest.", "as": "গৰিলাবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-082",
+    "q": { "en": "Where does a chimpanzee live?", "as": "চিম্পাঞ্জী ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Chimpanzees live in a nest.", "as": "চিম্পাঞ্জীবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-083",
+    "q": { "en": "Where does an orangutan live?", "as": "ওৰাংগুটান ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Orangutans live in a nest.", "as": "ওৰাংগুটানবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-084",
+    "q": { "en": "Where does a swan live?", "as": "হংস ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Nest", "as": "বাহ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Swans live in a nest.", "as": "হংসবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-085",
+    "q": { "en": "Where does a goose live?", "as": "ৰাজহাঁহ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Geese live in a nest.", "as": "ৰাজহাঁহবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-086",
+    "q": { "en": "Where does a turkey live?", "as": "টাৰ্কি ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Coop", "as": "কুকুৰাৰ ঘৰ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Turkeys live in a coop.", "as": "টাৰ্কিবোৰে কুকুৰাৰ ঘৰত (coop) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-087",
+    "q": { "en": "Where does a quail live?", "as": "কুৱাইল ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Quails live in a nest.", "as": "কুৱাইলবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-088",
+    "q": { "en": "Where does a raccoon live?", "as": "ৰেকুন ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Den", "as": "গুহা" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Raccoons live in a den.", "as": "ৰেকুনবোৰে গুহাত (den) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-089",
+    "q": { "en": "Where does a skunk live?", "as": "স্কাংক ক'ত থাকে?" },
+    "options": [
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Skunks live in a burrow.", "as": "স্কাংকবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-090",
+    "q": { "en": "Where does a porcupine live?", "as": "শজাৰু ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Porcupines live in a burrow.", "as": "শজাৰুবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-091",
+    "q": { "en": "Where does an armadillo live?", "as": "আৰ্মাডিলো ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Armadillos live in a burrow.", "as": "আৰ্মাডিলোবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-092",
+    "q": { "en": "Where does an opossum live?", "as": "অপচাম ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Tree", "as": "গছ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Opossums live in trees.", "as": "অপচামবোৰে গছত (tree) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-093",
+    "q": { "en": "Where does a koala live?", "as": "কোৱালা ক'ত থাকে?" },
+    "options": [
+      { "en": "Tree", "as": "গছ" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Koalas live in trees.", "as": "কোৱালাবোৰে গছত (tree) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-094",
+    "q": { "en": "Where does a wombat live?", "as": "ৱম্বাট ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Wombats live in a burrow.", "as": "ৱম্বাটবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-095",
+    "q": { "en": "Where does a platypus live?", "as": "প্লেটিপাছ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Platypuses live in a burrow.", "as": "প্লেটিপাছবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-096",
+    "q": { "en": "Where does an echidna live?", "as": "একিডনা ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Echidnas live in a burrow.", "as": "একিডনাবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-097",
+    "q": { "en": "Where does a hedgehog live?", "as": "হেজহগ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Hedgehogs live in a nest.", "as": "হেজহগবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-098",
+    "q": { "en": "Where does a mongoose live?", "as": "নেউল ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Mongooses live in a burrow.", "as": "নেউলবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-099",
+    "q": { "en": "Where does a weasel live?", "as": "ৱিজেল ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Weasels live in a burrow.", "as": "ৱিজেলবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-100",
+    "q": { "en": "Where does a ferret live?", "as": "ফেৰেট ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Cage", "as": "খাঁচা" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Ferrets live in a cage.", "as": "ফেৰেটবোৰে খাঁচাত (cage) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-101",
+    "q": { "en": "Where does a llama live?", "as": "লামা ক'ত থাকে?" },
+    "options": [
+      { "en": "Shed", "as": "শালা" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Llamas live in a shed.", "as": "লামাবোৰে শালাত (shed) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-102",
+    "q": { "en": "Where does an alpaca live?", "as": "আলপাকা ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Shed", "as": "শালা" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Alpacas live in a shed.", "as": "আলপাকাবোৰে শালাত (shed) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-103",
+    "q": { "en": "Where does a bison live?", "as": "বাইছন ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Forest", "as": "হাবি" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Bison live in forests.", "as": "বাইছনবোৰে হাবিত (forest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-104",
+    "q": { "en": "Where does a moose live?", "as": "মুছ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Forest", "as": "হাবি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Moose live in forests.", "as": "মুছবোৰে হাবিত (forest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-105",
+    "q": { "en": "Where does an elk live?", "as": "এল্ক ক'ত থাকে?" },
+    "options": [
+      { "en": "Forest", "as": "হাবি" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Elks live in forests.", "as": "এল্কবোৰে হাবিত (forest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-106",
+    "q": { "en": "Where does an antelope live?", "as": "এণ্টিল'প ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Savanna", "as": "তৃণভূমি" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Antelopes live in the savanna.", "as": "এণ্টিল'পবোৰে তৃণভূমিত (savanna) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-107",
+    "q": { "en": "Where does a gazelle live?", "as": "গজেল ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Savanna", "as": "তৃণভূমি" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Gazelles live in the savanna.", "as": "গজেলবোৰে তৃণভূমিত (savanna) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-108",
+    "q": { "en": "Where does a boar live?", "as": "বৰাহ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Forest", "as": "হাবি" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Boars live in forests.", "as": "বৰাহবোৰে হাবিত (forest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-109",
+    "q": { "en": "Where does a yak live?", "as": "ইয়াক ক'ত থাকে?" },
+    "options": [
+      { "en": "Shed", "as": "শালা" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Yaks live in a shed.", "as": "ইয়াকবোৰে শালাত (shed) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-110",
+    "q": { "en": "Where does a polar bear live?", "as": "ধ্ৰুৱীয় ভালুক ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Polar bears live in a den.", "as": "ধ্ৰুৱীয় ভালুকবোৰে গুহাত (den) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-111",
+    "q": { "en": "Where does a panda live?", "as": "পান্ডা ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Forest", "as": "হাবি" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Pandas live in forests.", "as": "পান্ডাবোৰে হাবিত (forest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-112",
+    "q": { "en": "Where does a sloth live?", "as": "স্লথ ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Tree", "as": "গছ" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Sloths live in trees.", "as": "স্লথবোৰে গছত (tree) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-113",
+    "q": { "en": "Where does a baboon live?", "as": "বেবুন ক'ত থাকে?" },
+    "options": [
+      { "en": "Tree", "as": "গছ" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Baboons live in trees.", "as": "বেবুনবোৰে গছত (tree) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-114",
+    "q": { "en": "Where does a kingfisher live?", "as": "মাছৰোকা ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Kingfishers live in a burrow.", "as": "মাছৰোকাবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-115",
+    "q": { "en": "Where does a puffin live?", "as": "পাফিন ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Burrow", "as": "গাঁত" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Puffins live in a burrow.", "as": "পাফিনবোৰে গাঁতত (burrow) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-116",
+    "q": { "en": "Where does a canary live?", "as": "কেনেৰী ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Cage", "as": "খাঁচা" }
+    ],
+    "correct": 3,
+    "explanation": { "en": "Canaries live in a cage.", "as": "কেনেৰীবোৰে খাঁচাত (cage) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-117",
+    "q": { "en": "Where does a pelican live?", "as": "পেলিকান ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Web", "as": "মকৰাজাল" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 0,
+    "explanation": { "en": "Pelicans live in a nest.", "as": "পেলিকানবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-118",
+    "q": { "en": "Where does a heron live?", "as": "বগলী (heron) ক'ত থাকে?" },
+    "options": [
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Den", "as": "গুহা" },
+      { "en": "Burrow", "as": "গাঁত" }
+    ],
+    "correct": 1,
+    "explanation": { "en": "Herons live in a nest.", "as": "বগলীবোৰে বাহত (nest) বাস কৰে।" }
+  },
+  {
+    "id": "homes-habitats-119",
+    "q": { "en": "Where does a chicken live?", "as": "কুকুৰা ক'ত থাকে?" },
+    "options": [
+      { "en": "Nest", "as": "বাহ" },
+      { "en": "Hive", "as": "মৌচাক" },
+      { "en": "Coop", "as": "কুকুৰাৰ ঘৰ" },
+      { "en": "Web", "as": "মকৰাজাল" }
+    ],
+    "correct": 2,
+    "explanation": { "en": "Chickens live in a coop.", "as": "কুকুৰাবোৰে কুকুৰাৰ ঘৰত (coop) বাস কৰে।" }
   }
-}
+]
