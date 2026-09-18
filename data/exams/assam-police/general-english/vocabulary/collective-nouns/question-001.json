@@ -1,30 +1,3662 @@
-{
-  "id": "collective-nouns-001",
-  "q": {
-    "en": "What is a group of lions called?",
-    "as": "সিংহৰ এটা দলক কি বোলা হয়?"
-  },
-  "options": [
-    {
-      "en": "Pride",
-      "as": "গৰ্জন দল"
+[
+  {
+    "id": "collective-nouns-001",
+    "q": {
+      "en": "What is a group of lions called?",
+      "as": "সিংহৰ এটা দলক কি বোলা হয়?"
     },
-    {
-      "en": "Pack",
-      "as": "দল"
-    },
-    {
-      "en": "Herd",
-      "as": "পশুৰ দল"
-    },
-    {
-      "en": "Flock",
-      "as": "চৰাইৰ দল"
+    "options": [
+      {
+        "en": "Pride",
+        "as": "গৰ্জন দল"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of lions is called a pride.",
+      "as": "সিংহৰ দলক pride বোলা হয়।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "A group of lions is called a pride.",
-    "as": "সিংহৰ দলক pride বোলা হয়।"
+  },
+  {
+    "id": "collective-nouns-002",
+    "q": {
+      "en": "What is a group of wolves called?",
+      "as": "কুকুৰনেছীয়া বাঘৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Pride",
+        "as": "গৰ্জন দল"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "School",
+        "as": "মাছৰ জাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of wolves is called a pack.",
+      "as": "কুকুৰনেছীয়া বাঘৰ দলক pack বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-003",
+    "q": {
+      "en": "What is a group of cattle called?",
+      "as": "গৰুৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Pride",
+        "as": "গৰ্জন দল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of cattle is called a herd.",
+      "as": "গৰুৰ দলক herd বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-004",
+    "q": {
+      "en": "What is a group of sheep called?",
+      "as": "ভেড়াৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Swarm",
+        "as": "পতংগৰ জাক"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of sheep is called a flock.",
+      "as": "ভেড়াৰ দলক flock বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-005",
+    "q": {
+      "en": "What is a group of fish called?",
+      "as": "মাছৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "School",
+        "as": "মাছৰ জাক"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of fish is called a school.",
+      "as": "মাছৰ দলক school বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-006",
+    "q": {
+      "en": "What is a group of bees called?",
+      "as": "মৌ-মাখিৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Swarm",
+        "as": "পতংগৰ জাক"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of bees is called a swarm.",
+      "as": "মৌ-মাখিৰ দলক swarm বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-007",
+    "q": {
+      "en": "What is a group of ants called?",
+      "as": "পৰুৱাৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Swarm",
+        "as": "পতংগৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of ants is called a colony.",
+      "as": "পৰুৱাৰ দলক colony বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-008",
+    "q": {
+      "en": "What is a group of elephants called?",
+      "as": "হাতীৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Swarm",
+        "as": "পতংগৰ জাক"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of elephants is called a herd.",
+      "as": "হাতীৰ দলক herd বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-009",
+    "q": {
+      "en": "What is a group of monkeys called?",
+      "as": "বান্দৰৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Troop",
+        "as": "সেনাদল"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of monkeys is called a troop.",
+      "as": "বান্দৰৰ দলক troop বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-010",
+    "q": {
+      "en": "What is a group of dolphins called?",
+      "as": "ডলফিনৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "School",
+        "as": "মাছৰ জাক"
+      },
+      {
+        "en": "Pod",
+        "as": "সাগৰীয় দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of dolphins is called a pod.",
+      "as": "ডলফিনৰ দলক pod বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-011",
+    "q": {
+      "en": "What is a group of whales called?",
+      "as": "তিমিৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "School",
+        "as": "মাছৰ জাক"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Pod",
+        "as": "সাগৰীয় দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of whales is called a pod.",
+      "as": "তিমিৰ দলক pod বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-012",
+    "q": {
+      "en": "What is a group of crows called?",
+      "as": "কাকৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Parliament",
+        "as": "সংসদ"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Murder",
+        "as": "হত্যা দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of crows is called a murder.",
+      "as": "কাকৰ দলক murder বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-013",
+    "q": {
+      "en": "What is a group of owls called?",
+      "as": "লেটাকুৰীৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Parliament",
+        "as": "সংসদ"
+      },
+      {
+        "en": "Murder",
+        "as": "হত্যা দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of owls is called a parliament.",
+      "as": "লেটাকুৰীৰ দলক parliament বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-014",
+    "q": {
+      "en": "What is a group of geese called?",
+      "as": "কাহৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Gaggle",
+        "as": "কাহৰ শাৰী"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of geese is called a gaggle.",
+      "as": "কাহৰ দলক gaggle বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-015",
+    "q": {
+      "en": "What is a group of chickens called?",
+      "as": "কুকুৰাৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Brood",
+        "as": "পোৱালি দল"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of chickens is called a brood.",
+      "as": "কুকুৰাৰ দলক brood বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-016",
+    "q": {
+      "en": "What is a group of puppies called?",
+      "as": "কুকুৰ-পোৱালিৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Litter",
+        "as": "পোৱালিৰ জাক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of puppies is called a litter.",
+      "as": "কুকুৰ-পোৱালিৰ দলক litter বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-017",
+    "q": {
+      "en": "What is a group of kittens called?",
+      "as": "মেকুৰী-পোৱালিৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Kindle",
+        "as": "মেকুৰী পোৱালি দল"
+      },
+      {
+        "en": "Litter",
+        "as": "পোৱালিৰ জাক"
+      },
+      {
+        "en": "Clowder",
+        "as": "মেকুৰী দল"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of kittens is called a kindle.",
+      "as": "মেকুৰী-পোৱালিৰ দলক kindle বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-018",
+    "q": {
+      "en": "What is a group of cats called?",
+      "as": "মেকুৰীৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Clowder",
+        "as": "মেকুৰী দল"
+      },
+      {
+        "en": "Litter",
+        "as": "পোৱালিৰ জাক"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of cats is called a clowder.",
+      "as": "মেকুৰীৰ দলক clowder বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-019",
+    "q": {
+      "en": "What is a group of dogs called?",
+      "as": "কুকুৰৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Pride",
+        "as": "গৰ্জন দল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of dogs is called a pack.",
+      "as": "কুকুৰৰ দলক pack বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-020",
+    "q": {
+      "en": "What is a group of tigers called?",
+      "as": "বাঘৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Pride",
+        "as": "গৰ্জন দল"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Leap",
+        "as": "নাহৰ দল"
+      },
+      {
+        "en": "Streak",
+        "as": "বাঘ দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of tigers is called a streak.",
+      "as": "বাঘৰ দলক streak বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-021",
+    "q": {
+      "en": "What is a group of leopards called?",
+      "as": "নাহৰফুটুকীৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Leap",
+        "as": "নাহৰ দল"
+      },
+      {
+        "en": "Streak",
+        "as": "বাঘ দল"
+      },
+      {
+        "en": "Pride",
+        "as": "গৰ্জন দল"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of leopards is called a leap.",
+      "as": "নাহৰফুটুকীৰ দলক leap বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-022",
+    "q": {
+      "en": "What is a group of cheetahs called?",
+      "as": "চিতা বাঘৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Streak",
+        "as": "বাঘ দল"
+      },
+      {
+        "en": "Coalition",
+        "as": "চিতা বাঘৰ দল"
+      },
+      {
+        "en": "Pride",
+        "as": "গৰ্জন দল"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of cheetahs is called a coalition.",
+      "as": "চিতা বাঘৰ দলক coalition বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-023",
+    "q": {
+      "en": "What is a group of zebras called?",
+      "as": "জেব্ৰাৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Zeal",
+        "as": "জেব্ৰা দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of zebras is called a zeal.",
+      "as": "জেব্ৰাৰ দলক zeal বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-024",
+    "q": {
+      "en": "What is a group of giraffes called?",
+      "as": "জিৰাফৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Zeal",
+        "as": "জেব্ৰা দল"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Tower",
+        "as": "জিৰাফ দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of giraffes is called a tower.",
+      "as": "জিৰাফৰ দলক tower বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-025",
+    "q": {
+      "en": "What is a group of rhinoceroses called?",
+      "as": "গঁড়ৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Crash",
+        "as": "গঁড় দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Tower",
+        "as": "জিৰাফ দল"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of rhinoceroses is called a crash.",
+      "as": "গঁড়ৰ দলক crash বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-026",
+    "q": {
+      "en": "What is a group of hippopotamuses called?",
+      "as": "জলহস্তীৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Bloat",
+        "as": "জলহস্তী দল"
+      },
+      {
+        "en": "Crash",
+        "as": "গঁড় দল"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of hippopotamuses is called a bloat.",
+      "as": "জলহস্তীৰ দলক bloat বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-027",
+    "q": {
+      "en": "What is a group of kangaroos called?",
+      "as": "কেংগেৰুৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Mob",
+        "as": "কেংগেৰু দল"
+      },
+      {
+        "en": "Troop",
+        "as": "সেনাদল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of kangaroos is called a mob.",
+      "as": "কেংগেৰুৰ দলক mob বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-028",
+    "q": {
+      "en": "What is a group of foxes called?",
+      "as": "শিয়ালৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Pride",
+        "as": "গৰ্জন দল"
+      },
+      {
+        "en": "Skulk",
+        "as": "শিয়াল দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of foxes is called a skulk.",
+      "as": "শিয়ালৰ দলক skulk বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-029",
+    "q": {
+      "en": "What is a group of bears called?",
+      "as": "ভালুকৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Sleuth",
+        "as": "ভালুক দল"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Pride",
+        "as": "গৰ্জন দল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of bears is called a sleuth.",
+      "as": "ভালুকৰ দলক sleuth বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-030",
+    "q": {
+      "en": "What is a group of otters called?",
+      "as": "উদৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Romp",
+        "as": "উদ দল"
+      },
+      {
+        "en": "Sleuth",
+        "as": "ভালুক দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of otters is called a romp.",
+      "as": "উদৰ দলক romp বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-031",
+    "q": {
+      "en": "What is a group of ferrets called?",
+      "as": "নেউলৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Skulk",
+        "as": "শিয়াল দল"
+      },
+      {
+        "en": "Business",
+        "as": "নেউল দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of ferrets is called a business.",
+      "as": "নেউলৰ দলক business বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-032",
+    "q": {
+      "en": "What is a group of badgers called?",
+      "as": "বেজীৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Cete",
+        "as": "বেজী দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of badgers is called a cete.",
+      "as": "বেজীৰ দলক cete বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-033",
+    "q": {
+      "en": "What is a group of squirrels called?",
+      "as": "কাঠবিড়ালীৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Scurry",
+        "as": "কাঠবিড়ালী দল"
+      },
+      {
+        "en": "Dray",
+        "as": "কাঠবিড়ালী বাহ"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of squirrels is called a scurry.",
+      "as": "কাঠবিড়ালীৰ দলক scurry বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-034",
+    "q": {
+      "en": "What is a group of mice called?",
+      "as": "নিগনিৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Mischief",
+        "as": "নিগনি দল"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of mice is called a mischief.",
+      "as": "নিগনিৰ দলক mischief বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-035",
+    "q": {
+      "en": "What is a group of rabbits called?",
+      "as": "শহাপহুৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Nest",
+        "as": "বাহ"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of rabbits is called a colony.",
+      "as": "শহাপহুৰ দলক colony বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-036",
+    "q": {
+      "en": "What is a group of apes called?",
+      "as": "বন-মানুহৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Troop",
+        "as": "সেনাদল"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Shrewdness",
+        "as": "বুদ্ধিমান দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of apes is called a shrewdness.",
+      "as": "বন-মানুহৰ দলক shrewdness বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-037",
+    "q": {
+      "en": "What is a group of baboons called?",
+      "as": "বেবুনৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Troop",
+        "as": "সেনাদল"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of baboons is called a troop.",
+      "as": "বেবুনৰ দলক troop বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-038",
+    "q": {
+      "en": "What is a group of gorillas called?",
+      "as": "গৰিলাৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Troop",
+        "as": "সেনাদল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of gorillas is called a troop.",
+      "as": "গৰিলাৰ দলক troop বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-039",
+    "q": {
+      "en": "What is a group of camels called?",
+      "as": "উটৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Train",
+        "as": "শাৰী"
+      },
+      {
+        "en": "Caravan",
+        "as": "কেফিলা"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of camels is called a caravan.",
+      "as": "উটৰ দলক caravan বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-040",
+    "q": {
+      "en": "What is a group of donkeys called?",
+      "as": "গাধৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Drove",
+        "as": "গৰু-গাহৰি দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of donkeys is called a drove.",
+      "as": "গাধৰ দলক drove বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-041",
+    "q": {
+      "en": "What is a group of goats called?",
+      "as": "ছাগলীৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Drove",
+        "as": "গৰু-গাহৰি দল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of goats is called a flock.",
+      "as": "ছাগলীৰ দলক flock বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-042",
+    "q": {
+      "en": "What is a group of horses called?",
+      "as": "ঘোঁৰাৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Stable",
+        "as": "ঘোঁৰাশালা"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of horses is called a herd.",
+      "as": "ঘোঁৰাৰ দলক herd বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-043",
+    "q": {
+      "en": "What is a group of pigs called?",
+      "as": "গাহৰিৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Sounder",
+        "as": "গাহৰি দল"
+      },
+      {
+        "en": "Drove",
+        "as": "গৰু-গাহৰি দল"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of pigs is called a drove.",
+      "as": "গাহৰিৰ দলক drove বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-044",
+    "q": {
+      "en": "What is a group of deer called?",
+      "as": "হৰিণৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Pride",
+        "as": "গৰ্জন দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of deer is called a herd.",
+      "as": "হৰিণৰ দলক herd বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-045",
+    "q": {
+      "en": "What is a group of elk called?",
+      "as": "এল্কৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Gang",
+        "as": "অপৰাধী দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of elk is called a gang.",
+      "as": "এল্কৰ দলক gang বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-046",
+    "q": {
+      "en": "What is a group of buffaloes called?",
+      "as": "ম'হৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Gang",
+        "as": "অপৰাধী দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of buffaloes is called a herd.",
+      "as": "ম'হৰ দলক herd বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-047",
+    "q": {
+      "en": "What is a group of porcupines called?",
+      "as": "কেটুৰাৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Array",
+        "as": "শাৰী দল"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Prickle",
+        "as": "কেটুৰা দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of porcupines is called a prickle.",
+      "as": "কেটুৰাৰ দলক prickle বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-048",
+    "q": {
+      "en": "What is a group of seals called?",
+      "as": "ছিলৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Pod",
+        "as": "সাগৰীয় দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of seals is called a pod.",
+      "as": "ছিলৰ দলক pod বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-049",
+    "q": {
+      "en": "What is a group of walruses called?",
+      "as": "ৱালৰাছৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Pod",
+        "as": "সাগৰীয় দল"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of walruses is called a herd.",
+      "as": "ৱালৰাছৰ দলক herd বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-050",
+    "q": {
+      "en": "What is a group of penguins called?",
+      "as": "পেংগুইনৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Waddle",
+        "as": "পেংগুইন দল"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Pod",
+        "as": "সাগৰীয় দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of penguins is called a colony.",
+      "as": "পেংগুইনৰ দলক colony বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-051",
+    "q": {
+      "en": "What is a group of flamingos called?",
+      "as": "ফ্লেমিংগোৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Flamboyance",
+        "as": "ফ্লেমিংগো দল"
+      },
+      {
+        "en": "Bevy",
+        "as": "হংসৰ দল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of flamingos is called a flamboyance.",
+      "as": "ফ্লেমিংগোৰ দলক flamboyance বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-052",
+    "q": {
+      "en": "What is a group of swans called?",
+      "as": "ৰাজহংসৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Gaggle",
+        "as": "কাহৰ শাৰী"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Bevy",
+        "as": "হংসৰ দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of swans is called a bevy.",
+      "as": "ৰাজহংসৰ দলক bevy বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-053",
+    "q": {
+      "en": "What is a group of ducks called?",
+      "as": "হাঁহৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Raft",
+        "as": "হাঁহ দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Gaggle",
+        "as": "কাহৰ শাৰী"
+      },
+      {
+        "en": "Skein",
+        "as": "উৰন্ত কাহ শাৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of ducks is called a raft.",
+      "as": "হাঁহৰ দলক raft বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-054",
+    "q": {
+      "en": "What is a group of eagles called?",
+      "as": "ঈগলৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Convocation",
+        "as": "ঈগল দল"
+      },
+      {
+        "en": "Venue",
+        "as": "শগুণ দল"
+      },
+      {
+        "en": "Murder",
+        "as": "হত্যা দল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of eagles is called a convocation.",
+      "as": "ঈগলৰ দলক convocation বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-055",
+    "q": {
+      "en": "What is a group of vultures called?",
+      "as": "শগুণৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Convocation",
+        "as": "ঈগল দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Venue",
+        "as": "শগুণ দল"
+      },
+      {
+        "en": "Murder",
+        "as": "হত্যা দল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of vultures is called a venue.",
+      "as": "শগুণৰ দলক venue বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-056",
+    "q": {
+      "en": "What is a group of hawks called?",
+      "as": "বাজৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Cast",
+        "as": "চিকাৰী চৰাইৰ দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Murder",
+        "as": "হত্যা দল"
+      },
+      {
+        "en": "Kettle",
+        "as": "বাজ দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of hawks is called a kettle.",
+      "as": "বাজৰ দলক kettle বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-057",
+    "q": {
+      "en": "What is a group of falcons called?",
+      "as": "চিকাৰী চৰাইৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Cast",
+        "as": "চিকাৰী চৰাইৰ দল"
+      },
+      {
+        "en": "Kettle",
+        "as": "বাজ দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Murder",
+        "as": "হত্যা দল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of falcons is called a cast.",
+      "as": "চিকাৰী চৰাইৰ দলক cast বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-058",
+    "q": {
+      "en": "What is a group of larks called?",
+      "as": "চাতকৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Charm",
+        "as": "মোহন দল"
+      },
+      {
+        "en": "Exaltation",
+        "as": "চাতক দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Murder",
+        "as": "হত্যা দল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of larks is called an exaltation.",
+      "as": "চাতকৰ দলক exaltation বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-059",
+    "q": {
+      "en": "What is a group of finches called?",
+      "as": "ফিঞ্চৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Exaltation",
+        "as": "চাতক দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Charm",
+        "as": "মোহন দল"
+      },
+      {
+        "en": "Murder",
+        "as": "হত্যা দল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of finches is called a charm.",
+      "as": "ফিঞ্চৰ দলক charm বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-060",
+    "q": {
+      "en": "What is a group of hummingbirds called?",
+      "as": "হামিংবাৰ্ডৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Exaltation",
+        "as": "চাতক দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Murder",
+        "as": "হত্যা দল"
+      },
+      {
+        "en": "Charm",
+        "as": "মোহন দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of hummingbirds is called a charm.",
+      "as": "হামিংবাৰ্ডৰ দলক charm বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-061",
+    "q": {
+      "en": "What is a group of magpies called?",
+      "as": "মগপাইৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Parliament",
+        "as": "সংসদ"
+      },
+      {
+        "en": "Murder",
+        "as": "হত্যা দল"
+      },
+      {
+        "en": "Tiding",
+        "as": "বাতৰি দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of magpies is called a parliament.",
+      "as": "মগপাইৰ দলক parliament বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-062",
+    "q": {
+      "en": "What is a group of sparrows called?",
+      "as": "ঘৰচিৰিকাৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Host",
+        "as": "বাহিনী"
+      },
+      {
+        "en": "Charm",
+        "as": "মোহন দল"
+      },
+      {
+        "en": "Murder",
+        "as": "হত্যা দল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of sparrows is called a host.",
+      "as": "ঘৰচিৰিকাৰ দলক host বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-063",
+    "q": {
+      "en": "What is a group of starlings called?",
+      "as": "স্তৰিং চৰাইৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Charm",
+        "as": "মোহন দল"
+      },
+      {
+        "en": "Murmuration",
+        "as": "স্তৰিং দল"
+      },
+      {
+        "en": "Host",
+        "as": "বাহিনী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of starlings is called a murmuration.",
+      "as": "স্তৰিং চৰাইৰ দলক murmuration বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-064",
+    "q": {
+      "en": "What is a group of parrots called?",
+      "as": "ভাটৌৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Company",
+        "as": "সঙ্গী দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Pandemonium",
+        "as": "ভাটৌ দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of parrots is called a pandemonium.",
+      "as": "ভাটৌৰ দলক pandemonium বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-065",
+    "q": {
+      "en": "What is a group of peacocks called?",
+      "as": "ময়ূৰৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Ostentation",
+        "as": "ময়ূৰ দল"
+      },
+      {
+        "en": "Muster",
+        "as": "সমাবেশ"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of peacocks is called an ostentation.",
+      "as": "ময়ূৰৰ দলক ostentation বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-066",
+    "q": {
+      "en": "What is a group of pigeons called?",
+      "as": "কবুতৰৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Kit",
+        "as": "কবুতৰ পোৱালি দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of pigeons is called a flock.",
+      "as": "কবুতৰৰ দলক flock বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-067",
+    "q": {
+      "en": "What is a group of doves called?",
+      "as": "পাৰ চৰাইৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Dole",
+        "as": "পাৰ দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of doves is called a dole.",
+      "as": "পাৰ চৰাইৰ দলক dole বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-068",
+    "q": {
+      "en": "What is a group of turkeys called?",
+      "as": "টাৰ্কিৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Gang",
+        "as": "অপৰাধী দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Rafter",
+        "as": "টাৰ্কি দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of turkeys is called a rafter.",
+      "as": "টাৰ্কিৰ দলক rafter বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-069",
+    "q": {
+      "en": "What is a group of quail called?",
+      "as": "বটৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Covey",
+        "as": "টিট্টিৰ জাক"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Bevy",
+        "as": "হংসৰ দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of quail is called a covey.",
+      "as": "বটৰ দলক covey বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-070",
+    "q": {
+      "en": "What is a group of grouse called?",
+      "as": "গ্ৰাউছৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Covey",
+        "as": "টিট্টিৰ জাক"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of grouse is called a covey.",
+      "as": "গ্ৰাউছৰ দলক covey বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-071",
+    "q": {
+      "en": "What is a group of partridges called?",
+      "as": "টিট্টিৰৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      },
+      {
+        "en": "Covey",
+        "as": "টিট্টিৰ জাক"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of partridges is called a covey.",
+      "as": "টিট্টিৰৰ দলক covey বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-072",
+    "q": {
+      "en": "What is a group of cranes called?",
+      "as": "ক্ৰেন চৰাইৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Sedge",
+        "as": "বগলী দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of cranes is called a sedge.",
+      "as": "ক্ৰেন চৰাইৰ দলক sedge বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-073",
+    "q": {
+      "en": "What is a group of herons called?",
+      "as": "বগলীৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Siege",
+        "as": "বগলী দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of herons is called a siege.",
+      "as": "বগলীৰ দলক siege বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-074",
+    "q": {
+      "en": "What is a group of frogs called?",
+      "as": "ভেঁকুলীৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Army",
+        "as": "সেনাবাহিনী"
+      },
+      {
+        "en": "Swarm",
+        "as": "পতংগৰ জাক"
+      },
+      {
+        "en": "Pack",
+        "as": "দল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of frogs is called an army.",
+      "as": "ভেঁকুলীৰ দলক army বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-075",
+    "q": {
+      "en": "What is a group of snakes called?",
+      "as": "সাপৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Den",
+        "as": "গুহা"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Nest",
+        "as": "বাহ"
+      },
+      {
+        "en": "Swarm",
+        "as": "পতংগৰ জাক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of snakes is called a nest.",
+      "as": "সাপৰ দলক nest বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-076",
+    "q": {
+      "en": "What is a group of lizards called?",
+      "as": "জিৰোজীৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Nest",
+        "as": "বাহ"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Swarm",
+        "as": "পতংগৰ জাক"
+      },
+      {
+        "en": "Lounge",
+        "as": "জিৰোজী দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of lizards is called a lounge.",
+      "as": "জিৰোজীৰ দলক lounge বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-077",
+    "q": {
+      "en": "What is a group of turtles called?",
+      "as": "কাছৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Bale",
+        "as": "কাছ দল"
+      },
+      {
+        "en": "Nest",
+        "as": "বাহ"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of turtles is called a bale.",
+      "as": "কাছৰ দলক bale বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-078",
+    "q": {
+      "en": "What is a group of crocodiles called?",
+      "as": "কুম্ভীৰৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Nest",
+        "as": "বাহ"
+      },
+      {
+        "en": "Bask",
+        "as": "কুম্ভীৰ দল"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of crocodiles is called a bask.",
+      "as": "কুম্ভীৰৰ দলক bask বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-079",
+    "q": {
+      "en": "What is a group of alligators called?",
+      "as": "এ্যালিগেটৰৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Bask",
+        "as": "কুম্ভীৰ দল"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Congregation",
+        "as": "সমবেত দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of alligators is called a congregation.",
+      "as": "এ্যালিগেটৰৰ দলক congregation বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-080",
+    "q": {
+      "en": "What is a group of sharks called?",
+      "as": "হাঙৰৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "School",
+        "as": "মাছৰ জাক"
+      },
+      {
+        "en": "Pod",
+        "as": "সাগৰীয় দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      },
+      {
+        "en": "Shiver",
+        "as": "হাঙৰ দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of sharks is called a shiver.",
+      "as": "হাঙৰৰ দলক shiver বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-081",
+    "q": {
+      "en": "What is a group of jellyfish called?",
+      "as": "জেলীফিছৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Smack",
+        "as": "জেলীফিছ দল"
+      },
+      {
+        "en": "School",
+        "as": "মাছৰ জাক"
+      },
+      {
+        "en": "Pod",
+        "as": "সাগৰীয় দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of jellyfish is called a smack.",
+      "as": "জেলীফিছৰ দলক smack বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-082",
+    "q": {
+      "en": "What is a group of oysters called?",
+      "as": "ঝিনুকৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Bed",
+        "as": "ঝিনুকৰ খাট"
+      },
+      {
+        "en": "Pod",
+        "as": "সাগৰীয় দল"
+      },
+      {
+        "en": "Herd",
+        "as": "পশুৰ জাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of oysters is called a bed.",
+      "as": "ঝিনুকৰ দলক bed বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-083",
+    "q": {
+      "en": "What is a group of crabs called?",
+      "as": "কেঁকোৰাৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Bed",
+        "as": "ঝিনুকৰ খাট"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Cast",
+        "as": "কেঁকোৰা দল"
+      },
+      {
+        "en": "School",
+        "as": "মাছৰ জাক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of crabs is called a cast.",
+      "as": "কেঁকোৰাৰ দলক cast বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-084",
+    "q": {
+      "en": "What is a group of lobsters called?",
+      "as": "লবষ্টাৰৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Cast",
+        "as": "কেঁকোৰা দল"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "School",
+        "as": "মাছৰ জাক"
+      },
+      {
+        "en": "Risk",
+        "as": "লবষ্টাৰ দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of lobsters is called a risk.",
+      "as": "লবষ্টাৰৰ দলক risk বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-085",
+    "q": {
+      "en": "What is a group of starfish called?",
+      "as": "তাৰামাছৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Constellation",
+        "as": "নক্ষত্ৰপুঞ্জ"
+      },
+      {
+        "en": "Galaxy",
+        "as": "তাৰকাৰাজ্য"
+      },
+      {
+        "en": "School",
+        "as": "মাছৰ জাক"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of starfish is called a constellation.",
+      "as": "তাৰামাছৰ দলক constellation বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-086",
+    "q": {
+      "en": "What is a group of butterflies called?",
+      "as": "পখিলাৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Swarm",
+        "as": "পতংগৰ জাক"
+      },
+      {
+        "en": "Kaleidoscope",
+        "as": "ৰঙীন দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of butterflies is called a kaleidoscope.",
+      "as": "পখিলাৰ দলক kaleidoscope বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-087",
+    "q": {
+      "en": "What is a group of grasshoppers called?",
+      "as": "ফৰিংৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Swarm",
+        "as": "পতংগৰ জাক"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Cloud",
+        "as": "মেঘ দল"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of grasshoppers is called a cloud.",
+      "as": "ফৰিংৰ দলক cloud বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-088",
+    "q": {
+      "en": "What is a group of crickets called?",
+      "as": "টিঁটৰাৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Choir",
+        "as": "গায়ক দল"
+      },
+      {
+        "en": "Swarm",
+        "as": "পতংগৰ জাক"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Orchestra",
+        "as": "বাদক দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of crickets is called an orchestra.",
+      "as": "টিঁটৰাৰ দলক orchestra বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-089",
+    "q": {
+      "en": "What is a group of wasps called?",
+      "as": "বৰলাৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Swarm",
+        "as": "পতংগৰ জাক"
+      },
+      {
+        "en": "Hive",
+        "as": "মৌচাক"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of wasps is called a colony.",
+      "as": "বৰলাৰ দলক colony বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-090",
+    "q": {
+      "en": "What is a group of spiders called?",
+      "as": "মকৰাৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Swarm",
+        "as": "পতংগৰ জাক"
+      },
+      {
+        "en": "Cluster",
+        "as": "গুচ্ছ"
+      },
+      {
+        "en": "Colony",
+        "as": "উপনিবেশ"
+      },
+      {
+        "en": "Nest",
+        "as": "বাহ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of spiders is called a cluster.",
+      "as": "মকৰাৰ দলক cluster বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-091",
+    "q": {
+      "en": "What is a group of ships called?",
+      "as": "জাহাজৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Army",
+        "as": "সেনাবাহিনী"
+      },
+      {
+        "en": "Crowd",
+        "as": "ভিৰ"
+      },
+      {
+        "en": "Fleet",
+        "as": "নৌবহৰ"
+      },
+      {
+        "en": "Flock",
+        "as": "চৰাইৰ জাক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of ships is called a fleet.",
+      "as": "জাহাজৰ দলক fleet বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-092",
+    "q": {
+      "en": "What is a group of airplanes called?",
+      "as": "বিমানৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Fleet",
+        "as": "নৌবহৰ"
+      },
+      {
+        "en": "Series",
+        "as": "শৃংখলা"
+      },
+      {
+        "en": "Crowd",
+        "as": "ভিৰ"
+      },
+      {
+        "en": "Squadron",
+        "as": "বিমান স্কোয়াড্ৰন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of airplanes is called a squadron.",
+      "as": "বিমানৰ দলক squadron বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-093",
+    "q": {
+      "en": "What is a group of soldiers called?",
+      "as": "সৈনিকৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Army",
+        "as": "সেনাবাহিনী"
+      },
+      {
+        "en": "Fleet",
+        "as": "নৌবহৰ"
+      },
+      {
+        "en": "Crowd",
+        "as": "ভিৰ"
+      },
+      {
+        "en": "Band",
+        "as": "বাদ্য দল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of soldiers is called an army.",
+      "as": "সৈনিকৰ দলক army বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-094",
+    "q": {
+      "en": "What is a group of people called?",
+      "as": "মানুহৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Throng",
+        "as": "জনতা"
+      },
+      {
+        "en": "Crowd",
+        "as": "ভিৰ"
+      },
+      {
+        "en": "Multitude",
+        "as": "জনসমূহ"
+      },
+      {
+        "en": "Class",
+        "as": "শ্ৰেণী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of people is called a crowd.",
+      "as": "মানুহৰ দলক crowd বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-095",
+    "q": {
+      "en": "What is a group of students called?",
+      "as": "শিক্ষাৰ্থীৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Crowd",
+        "as": "ভিৰ"
+      },
+      {
+        "en": "Team",
+        "as": "খেলুৱৈ দল"
+      },
+      {
+        "en": "Class",
+        "as": "শ্ৰেণী"
+      },
+      {
+        "en": "Panel",
+        "as": "পেনেল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of students is called a class.",
+      "as": "শিক্ষাৰ্থীৰ দলক class বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-096",
+    "q": {
+      "en": "What is a group of singers called?",
+      "as": "গায়কৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Orchestra",
+        "as": "বাদক দল"
+      },
+      {
+        "en": "Band",
+        "as": "বাদ্য দল"
+      },
+      {
+        "en": "Troupe",
+        "as": "নৃত্যদল"
+      },
+      {
+        "en": "Choir",
+        "as": "গায়ক দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of singers is called a choir.",
+      "as": "গায়কৰ দলক choir বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-097",
+    "q": {
+      "en": "What is a group of musicians called?",
+      "as": "বাদ্যকৰৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Orchestra",
+        "as": "বাদক দল"
+      },
+      {
+        "en": "Choir",
+        "as": "গায়ক দল"
+      },
+      {
+        "en": "Band",
+        "as": "বাদ্য দল"
+      },
+      {
+        "en": "Troupe",
+        "as": "নৃত্যদল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of musicians is called an orchestra.",
+      "as": "বাদ্যকৰৰ দলক orchestra বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-098",
+    "q": {
+      "en": "What is a group of dancers called?",
+      "as": "নৃত্যশিল্পীৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Choir",
+        "as": "গায়ক দল"
+      },
+      {
+        "en": "Troupe",
+        "as": "নৃত্যদল"
+      },
+      {
+        "en": "Orchestra",
+        "as": "বাদক দল"
+      },
+      {
+        "en": "Cast",
+        "as": "অভিনেতা দল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of dancers is called a troupe.",
+      "as": "নৃত্যশিল্পীৰ দলক troupe বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-099",
+    "q": {
+      "en": "What is a group of actors called?",
+      "as": "অভিনেতাৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Troupe",
+        "as": "নৃত্যদল"
+      },
+      {
+        "en": "Choir",
+        "as": "গায়ক দল"
+      },
+      {
+        "en": "Cast",
+        "as": "অভিনেতা দল"
+      },
+      {
+        "en": "Panel",
+        "as": "পেনেল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of actors is called a cast.",
+      "as": "অভিনেতাৰ দলক cast বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-100",
+    "q": {
+      "en": "What is a group of players called?",
+      "as": "খেলুৱৈৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Crowd",
+        "as": "ভিৰ"
+      },
+      {
+        "en": "Troupe",
+        "as": "নৃত্যদল"
+      },
+      {
+        "en": "Band",
+        "as": "বাদ্য দল"
+      },
+      {
+        "en": "Team",
+        "as": "খেলুৱৈ দল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of players is called a team.",
+      "as": "খেলুৱৈৰ দলক team বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-101",
+    "q": {
+      "en": "What is a group of sailors called?",
+      "as": "নাবিকৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Crew",
+        "as": "নাবিক দল"
+      },
+      {
+        "en": "Team",
+        "as": "খেলুৱৈ দল"
+      },
+      {
+        "en": "Staff",
+        "as": "কৰ্মচাৰী"
+      },
+      {
+        "en": "Army",
+        "as": "সেনাবাহিনী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of sailors is called a crew.",
+      "as": "নাবিকৰ দলক crew বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-102",
+    "q": {
+      "en": "What is a group of workers called?",
+      "as": "কৰ্মচাৰীৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Crew",
+        "as": "নাবিক দল"
+      },
+      {
+        "en": "Staff",
+        "as": "কৰ্মচাৰী"
+      },
+      {
+        "en": "Team",
+        "as": "খেলুৱৈ দল"
+      },
+      {
+        "en": "Gang",
+        "as": "অপৰাধী দল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of workers is called a staff.",
+      "as": "কৰ্মচাৰীৰ দলক staff বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-103",
+    "q": {
+      "en": "What is a group of thieves called?",
+      "as": "চোৰৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Crowd",
+        "as": "ভিৰ"
+      },
+      {
+        "en": "Team",
+        "as": "খেলুৱৈ দল"
+      },
+      {
+        "en": "Gang",
+        "as": "অপৰাধী দল"
+      },
+      {
+        "en": "Staff",
+        "as": "কৰ্মচাৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of thieves is called a gang.",
+      "as": "চোৰৰ দলক gang বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-104",
+    "q": {
+      "en": "What is a group of judges called?",
+      "as": "ন্যায়াধীশৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Board",
+        "as": "পৰিষদ"
+      },
+      {
+        "en": "Panel",
+        "as": "পেনেল"
+      },
+      {
+        "en": "Team",
+        "as": "খেলুৱৈ দল"
+      },
+      {
+        "en": "Bench",
+        "as": "বিচাৰপীঠ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of judges is called a bench.",
+      "as": "ন্যায়াধীশৰ দলক bench বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-105",
+    "q": {
+      "en": "What is a group of directors called?",
+      "as": "পৰিচালকৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Board",
+        "as": "পৰিষদ"
+      },
+      {
+        "en": "Bench",
+        "as": "বিচাৰপীঠ"
+      },
+      {
+        "en": "Panel",
+        "as": "পেনেল"
+      },
+      {
+        "en": "Team",
+        "as": "খেলুৱৈ দল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of directors is called a board.",
+      "as": "পৰিচালকৰ দলক board বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-106",
+    "q": {
+      "en": "What is a group of experts called?",
+      "as": "বিশেষজ্ঞৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Board",
+        "as": "পৰিষদ"
+      },
+      {
+        "en": "Panel",
+        "as": "পেনেল"
+      },
+      {
+        "en": "Bench",
+        "as": "বিচাৰপীঠ"
+      },
+      {
+        "en": "Team",
+        "as": "খেলুৱৈ দল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of experts is called a panel.",
+      "as": "বিশেষজ্ঞৰ দলক panel বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-107",
+    "q": {
+      "en": "What is a group of cards called?",
+      "as": "তাচৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Stack",
+        "as": "স্তূপ"
+      },
+      {
+        "en": "Bunch",
+        "as": "থোপা"
+      },
+      {
+        "en": "Deck",
+        "as": "তাচপেক"
+      },
+      {
+        "en": "Bundle",
+        "as": "বান্ধ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of cards is called a deck.",
+      "as": "তাচৰ দলক deck বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-108",
+    "q": {
+      "en": "What is a group of flowers called?",
+      "as": "ফুলৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Bunch",
+        "as": "থোপা"
+      },
+      {
+        "en": "Cluster",
+        "as": "গুচ্ছ"
+      },
+      {
+        "en": "Grove",
+        "as": "গছনি"
+      },
+      {
+        "en": "Bouquet",
+        "as": "ফুলৰ গুচ্ছ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of flowers is called a bouquet.",
+      "as": "ফুলৰ দলক bouquet বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-109",
+    "q": {
+      "en": "What is a group of grapes called?",
+      "as": "আঙুৰৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Bunch",
+        "as": "থোপা"
+      },
+      {
+        "en": "Cluster",
+        "as": "গুচ্ছ"
+      },
+      {
+        "en": "Bouquet",
+        "as": "ফুলৰ গুচ্ছ"
+      },
+      {
+        "en": "Bundle",
+        "as": "বান্ধ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of grapes is called a bunch.",
+      "as": "আঙুৰৰ দলক bunch বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-110",
+    "q": {
+      "en": "What is a group of bananas called?",
+      "as": "কলৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Hand",
+        "as": "কলৰ হাত"
+      },
+      {
+        "en": "Bunch",
+        "as": "থোপা"
+      },
+      {
+        "en": "Cluster",
+        "as": "গুচ্ছ"
+      },
+      {
+        "en": "Bundle",
+        "as": "বান্ধ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of bananas is called a bunch.",
+      "as": "কলৰ দলক bunch বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-111",
+    "q": {
+      "en": "What is a group of keys called?",
+      "as": "চাবিৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Bundle",
+        "as": "বান্ধ"
+      },
+      {
+        "en": "Set",
+        "as": "ছেট"
+      },
+      {
+        "en": "Bunch",
+        "as": "থোপা"
+      },
+      {
+        "en": "Stack",
+        "as": "স্তূপ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of keys is called a bunch.",
+      "as": "চাবিৰ দলক bunch বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-112",
+    "q": {
+      "en": "What is a group of pearls called?",
+      "as": "মুকুতাৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Bunch",
+        "as": "থোপা"
+      },
+      {
+        "en": "Cluster",
+        "as": "গুচ্ছ"
+      },
+      {
+        "en": "Bed",
+        "as": "ঝিনুকৰ খাট"
+      },
+      {
+        "en": "String",
+        "as": "মালা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of pearls is called a string.",
+      "as": "মুকুতাৰ দলক string বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-113",
+    "q": {
+      "en": "What is a group of stars called?",
+      "as": "তাৰকাৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Constellation",
+        "as": "নক্ষত্ৰপুঞ্জ"
+      },
+      {
+        "en": "Galaxy",
+        "as": "তাৰকাৰাজ্য"
+      },
+      {
+        "en": "Cluster",
+        "as": "গুচ্ছ"
+      },
+      {
+        "en": "Range",
+        "as": "পৰ্বতমালা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of stars is called a constellation.",
+      "as": "তাৰকাৰ দলক constellation বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-114",
+    "q": {
+      "en": "What is a group of mountains called?",
+      "as": "পৰ্বতৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Cluster",
+        "as": "গুচ্ছ"
+      },
+      {
+        "en": "Range",
+        "as": "পৰ্বতমালা"
+      },
+      {
+        "en": "Grove",
+        "as": "গছনি"
+      },
+      {
+        "en": "Fleet",
+        "as": "নৌবহৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of mountains is called a range.",
+      "as": "পৰ্বতৰ দলক range বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-115",
+    "q": {
+      "en": "What is a group of trees called?",
+      "as": "গছৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Forest",
+        "as": "বন"
+      },
+      {
+        "en": "Cluster",
+        "as": "গুচ্ছ"
+      },
+      {
+        "en": "Grove",
+        "as": "গছনি"
+      },
+      {
+        "en": "Thicket",
+        "as": "জোপোহা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of trees is called a grove.",
+      "as": "গছৰ দলক grove বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-116",
+    "q": {
+      "en": "What is a group of bushes called?",
+      "as": "জোপোহাৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Grove",
+        "as": "গছনি"
+      },
+      {
+        "en": "Cluster",
+        "as": "গুচ্ছ"
+      },
+      {
+        "en": "Forest",
+        "as": "বন"
+      },
+      {
+        "en": "Thicket",
+        "as": "জোপোহা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of bushes is called a thicket.",
+      "as": "জোপোহাৰ দলক thicket বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-117",
+    "q": {
+      "en": "What is a set of stairs called?",
+      "as": "খটখটীৰ এটা শাৰীক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Flight",
+        "as": "খটখটী শাৰী"
+      },
+      {
+        "en": "Series",
+        "as": "শৃংখলা"
+      },
+      {
+        "en": "Stack",
+        "as": "স্তূপ"
+      },
+      {
+        "en": "Range",
+        "as": "পৰ্বতমালা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A set of stairs is called a flight.",
+      "as": "খটখটীৰ শাৰীক flight বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-118",
+    "q": {
+      "en": "What is a group of books called?",
+      "as": "কিতাপৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Stack",
+        "as": "স্তূপ"
+      },
+      {
+        "en": "Library",
+        "as": "পুথিভঁৰাল"
+      },
+      {
+        "en": "Series",
+        "as": "শৃংখলা"
+      },
+      {
+        "en": "Collection",
+        "as": "সংগ্ৰহ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of books is called a library.",
+      "as": "কিতাপৰ দলক library বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-119",
+    "q": {
+      "en": "What is a group of poems called?",
+      "as": "কবিতাৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Library",
+        "as": "পুথিভঁৰাল"
+      },
+      {
+        "en": "Collection",
+        "as": "সংগ্ৰহ"
+      },
+      {
+        "en": "Anthology",
+        "as": "সংকলন"
+      },
+      {
+        "en": "Series",
+        "as": "শৃংখলা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of poems is called an anthology.",
+      "as": "কবিতাৰ দলক anthology বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-120",
+    "q": {
+      "en": "What is a group of songs called?",
+      "as": "গীতৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Series",
+        "as": "শৃংখলা"
+      },
+      {
+        "en": "Collection",
+        "as": "সংগ্ৰহ"
+      },
+      {
+        "en": "Choir",
+        "as": "গায়ক দল"
+      },
+      {
+        "en": "Album",
+        "as": "এ্যালবাম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of songs is called an album.",
+      "as": "গীতৰ দলক album বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-121",
+    "q": {
+      "en": "What is a group of paintings called?",
+      "as": "চিত্ৰৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Gallery",
+        "as": "কেলাশালা"
+      },
+      {
+        "en": "Collection",
+        "as": "সংগ্ৰহ"
+      },
+      {
+        "en": "Library",
+        "as": "পুথিভঁৰাল"
+      },
+      {
+        "en": "Series",
+        "as": "শৃংখলা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of paintings is called a gallery.",
+      "as": "চিত্ৰৰ দলক gallery বোলা হয়।"
+    }
+  },
+  {
+    "id": "collective-nouns-122",
+    "q": {
+      "en": "What is a group of eggs called?",
+      "as": "কণীৰ এটা দলক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Brood",
+        "as": "পোৱালি দল"
+      },
+      {
+        "en": "Clutch",
+        "as": "কণীৰ সমষ্টি"
+      },
+      {
+        "en": "Nest",
+        "as": "বাহ"
+      },
+      {
+        "en": "Litter",
+        "as": "পোৱালিৰ জাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of eggs is called a clutch.",
+      "as": "কণীৰ দলক clutch বোলা হয়।"
+    }
   }
-}
+]
