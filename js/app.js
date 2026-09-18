@@ -3163,12 +3163,14 @@
     const color = examColor(exam, sec);
     const nameEn = ebkLang(sec.title, "en");
     const nameAs = ebkLang(sec.title, "as");
+    const isSyllabus = (sec.type === "syllabus");
     return `
       <a class="sub-card reveal exam-sec-card" href="/exams/${encodeURIComponent(exam.id)}/${encodeURIComponent(sec.id)}" style="--cat:${color}" data-delay="${(i % 8) * 40}">
         <span class="sub-ico">${examSectionIcon(sec)}</span>
         <span class="exam-sec-txt">
           <b>${escapeHtml(nameEn)}</b>
           ${nameAs && nameAs !== nameEn ? `<span class="exam-sec-as">${escapeHtml(nameAs)}</span>` : ""}
+          ${isSyllabus ? "" : `<span class="exam-sec-count" data-count-exam="${escapeHtml(exam.id)}" data-count-section="${escapeHtml(sec.id)}" hidden></span>`}
         </span>
         <span class="exam-sec-arrow" aria-hidden="true">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
@@ -3193,17 +3195,85 @@
     const nameEn = ebkLang(sub.title, "en");
     const nameAs = ebkLang(sub.title, "as");
     const href = `/exams/${encodeURIComponent(exam.id)}/${encodeURIComponent(sec.id)}/${parentSubId ? encodeURIComponent(parentSubId) + "/" : ""}${encodeURIComponent(sub.id)}`;
+    const countPath = parentSubId ? `${parentSubId}/${sub.id}` : sub.id;
     return `
       <a class="sub-card reveal exam-sec-card" href="${href}" style="--cat:${color}" data-delay="${(i % 8) * 40}">
         <span class="sub-ico">${examSubIcon(sub)}</span>
         <span class="exam-sec-txt">
           <b>${escapeHtml(nameEn)}</b>
           ${nameAs && nameAs !== nameEn ? `<span class="exam-sec-as">${escapeHtml(nameAs)}</span>` : ""}
+          <span class="exam-sec-count" data-count-exam="${escapeHtml(exam.id)}" data-count-section="${escapeHtml(sec.id)}" data-count-path="${escapeHtml(countPath)}" hidden></span>
         </span>
         <span class="exam-sec-arrow" aria-hidden="true">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
         </span>
       </a>`;
+  }
+
+  /* ---- Question counts on exam cards ----
+     Counts resolve lazily after the grid renders so the page paints
+     immediately; each card's badge fills in as its folder is read. */
+  function examFindSubNode(subs, path) {
+    let list = subs || [];
+    let node = null;
+    for (const id of path) {
+      node = list.find((s) => s && s.id === id) || null;
+      if (!node) return null;
+      list = node.subcategories || [];
+    }
+    return node;
+  }
+
+  async function examSubtreeQuestionCount(examId, sectionId, path, node) {
+    const children = (node && Array.isArray(node.subcategories)) ? node.subcategories : [];
+    if (children.length) {
+      const sums = await Promise.all(
+        children.map((c) => examSubtreeQuestionCount(examId, sectionId, path.concat(c.id), c))
+      );
+      return sums.reduce((a, b) => a + b, 0);
+    }
+    const qs = await API.listExamQuestions(examId, sectionId, path[0], path[1]);
+    return qs.length;
+  }
+
+  async function examSectionQuestionCount(examId, sec) {
+    const subs = Array.isArray(sec.subcategories) ? sec.subcategories : [];
+    if (subs.length) {
+      const sums = await Promise.all(
+        subs.map((s) => examSubtreeQuestionCount(examId, sec.id, [s.id], s))
+      );
+      return sums.reduce((a, b) => a + b, 0);
+    }
+    const data = await API.getExamSection(examId, sec.id);
+    return ((data && data.questions) || []).length;
+  }
+
+  async function hydrateExamCardCounts(scope, exam) {
+    if (!scope || !exam) return;
+    const badges = Array.from(scope.querySelectorAll(".exam-sec-count"));
+    await Promise.all(badges.map(async (badge) => {
+      const examId = badge.dataset.countExam || exam.id;
+      const secId = badge.dataset.countSection;
+      const sec = (exam.sections || []).find((s) => s.id === secId);
+      if (!sec || sec.type === "syllabus") return;
+      let n = 0;
+      try {
+        const pathStr = badge.dataset.countPath || "";
+        if (pathStr) {
+          const path = pathStr.split("/").filter(Boolean);
+          const node = examFindSubNode(sec.subcategories || [], path);
+          n = await examSubtreeQuestionCount(examId, secId, path, node);
+        } else {
+          n = await examSectionQuestionCount(examId, sec);
+        }
+      } catch (e) {
+        n = 0;
+      }
+      if (n > 0) {
+        badge.textContent = `${n} ${t("topic.questions")}`;
+        badge.hidden = false;
+      }
+    }));
   }
 
   async function renderExamPage(main, examId) {
@@ -3289,6 +3359,7 @@
         </p>
       </section>`;
     observeReveals();
+    hydrateExamCardCounts(main, exam);
   }
 
   /* Options list for an exam question — same 4-option view as the practice section. */
@@ -3431,6 +3502,7 @@
           </p>
         </section>`;
       observeReveals();
+      hydrateExamCardCounts(main, exam);
       return;
     }
 
@@ -3570,6 +3642,7 @@
           </p>
         </section>`;
       observeReveals();
+      hydrateExamCardCounts(main, exam);
       return;
     }
 

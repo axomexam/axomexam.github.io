@@ -302,33 +302,41 @@ const API = (() => {
 
     let files = [];
 
-    /* 1) Discover question files from the GitHub Contents API */
-    try {
-      const owner = cfg.OWNER || "axomexam";
-      const repo = cfg.REPO || "axomexam.github.io";
-      const branch = cfg.BRANCH || "main";
-      const items = await fetchJSON(
-        `${API_BASE}/repos/${owner}/${repo}/contents/${relDir}?ref=${branch}`
-      );
-      files = (Array.isArray(items) ? items : [])
-        .filter((i) => i.type === "file" && /\.json$/i.test(i.name) && !isManifest(i.name))
-        .map((i) => ({ name: i.name, url: i.download_url || relUrl(i.name) }));
-    } catch (e) {
-      files = [];
-    }
+    /* Discover question files from the GitHub Contents API */
+    const loadFromApi = async () => {
+      try {
+        const owner = cfg.OWNER || "axomexam";
+        const repo = cfg.REPO || "axomexam.github.io";
+        const branch = cfg.BRANCH || "main";
+        const items = await fetchJSON(
+          `${API_BASE}/repos/${owner}/${repo}/contents/${relDir}?ref=${branch}`
+        );
+        return (Array.isArray(items) ? items : [])
+          .filter((i) => i.type === "file" && /\.json$/i.test(i.name) && !isManifest(i.name))
+          .map((i) => ({ name: i.name, url: i.download_url || relUrl(i.name) }));
+      } catch (e) {
+        return [];
+      }
+    };
 
-    /* 2) Fallback: the folder's index.json manifest (local preview / offline) */
-    if (!files.length) {
+    /* The folder's index.json manifest (works offline / local preview) */
+    const loadFromManifest = async () => {
       try {
         const man = await fetchJSON(relUrl("index.json"));
         const list = (man && Array.isArray(man.files)) ? man.files : [];
-        files = list
+        return list
           .filter((n) => typeof n === "string" && /\.json$/i.test(n) && !isManifest(n))
           .map((name) => ({ name, url: relUrl(name) }));
       } catch (e) {
-        files = [];
+        return [];
       }
-    }
+    };
+
+    /* Discover from the public GitHub Contents API first so newly uploaded
+       question files appear automatically; the folder's index.json manifest
+       is the offline / local-preview fallback. */
+    files = await loadFromApi();
+    if (!files.length) files = await loadFromManifest();
 
     files.sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: "base" }));
 

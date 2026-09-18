@@ -1929,6 +1929,7 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 .exam-sec-card .exam-sec-txt { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
 .exam-sec-card .exam-sec-txt b { color: var(--ink, #0f172a); }
 .exam-sec-as { font-family: var(--font-as); font-size: .82rem !important; color: var(--ink-faint, #64748b) !important; }
+.exam-sec-count { font-size: .78rem; font-weight: 700; color: var(--cat, var(--primary)); }
 .exam-sec-arrow { color: var(--cat, var(--primary)); opacity: .75; display: grid; place-items: center; flex-shrink: 0; }
 .exam-sec-card:hover .exam-sec-arrow { opacity: 1; }
 
