@@ -1,0 +1,30 @@
+{
+  "id": "syllogism-001",
+  "q": {
+    "en": "Statements: All roses are flowers. All flowers are plants. Conclusion: All roses are plants. Is the conclusion valid?",
+    "as": "বিবৃতি: সকলো গোলাপ ফুল। সকলো ফুল গছ। সিদ্ধান্ত: সকলো গোলাপ গছ। সিদ্ধান্তটো শুদ্ধ নেকি?"
+  },
+  "options": [
+    {
+      "en": "Yes, it logically follows",
+      "as": "হয়, ই যুক্তিসঙ্গতভাৱে সিদ্ধ হয়"
+    },
+    {
+      "en": "No, it does not follow",
+      "as": "নহয়, ই সিদ্ধ নহয়"
+    },
+    {
+      "en": "Cannot be determined",
+      "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+    },
+    {
+      "en": "Only some roses are plants",
+      "as": "কেৱল কিছুমান গোলাপ গছ"
+    }
+  ],
+  "correct": 0,
+  "explanation": {
+    "en": "Since all roses are flowers and all flowers are plants, all roses must be plants.",
+    "as": "যিহেতু সকলো গোলাপ ফুল আৰু সকলো ফুল গছ, গতিকে সকলো গোলাপ অৱশ্যেই গছ।"
+  }
+}

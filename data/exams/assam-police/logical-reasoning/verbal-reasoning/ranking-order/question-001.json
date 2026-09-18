@@ -1,0 +1,30 @@
+{
+  "id": "ranking-order-001",
+  "q": {
+    "en": "In a class, A is 7th from the top and 26th from the bottom. How many students are there in the class?",
+    "as": "এখন শ্ৰেণীত A ওপৰৰ পৰা ৭ম আৰু তলৰ পৰা ২৬তম। শ্ৰেণীত মুঠ কিমান ছাত্ৰ আছে?"
+  },
+  "options": [
+    {
+      "en": "32",
+      "as": "৩২"
+    },
+    {
+      "en": "33",
+      "as": "৩৩"
+    },
+    {
+      "en": "31",
+      "as": "৩১"
+    },
+    {
+      "en": "34",
+      "as": "৩৪"
+    }
+  ],
+  "correct": 0,
+  "explanation": {
+    "en": "Total = (position from top) + (position from bottom) − 1 = 7 + 26 − 1 = 32.",
+    "as": "মুঠ = (ওপৰৰ পৰা স্থান) + (তলৰ পৰা স্থান) − ১ = ৭ + ২৬ − ১ = ৩২।"
+  }
+}
