@@ -1,30 +1,2102 @@
-{
-  "id": "error-detection-001",
-  "q": {
-    "en": "Find the error in the sentence: He do not like tea.",
-    "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He do not like tea."
-  },
-  "options": [
-    {
-      "en": "do",
-      "as": "do"
+[
+  {
+    "id": "error-detection-001",
+    "q": {
+      "en": "Find the error in the sentence: He do not like tea.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He do not like tea."
     },
-    {
-      "en": "not",
-      "as": "not"
-    },
-    {
-      "en": "like",
-      "as": "like"
-    },
-    {
-      "en": "tea",
-      "as": "tea"
+    "options": [
+      {
+        "en": "do",
+        "as": "do"
+      },
+      {
+        "en": "not",
+        "as": "not"
+      },
+      {
+        "en": "like",
+        "as": "like"
+      },
+      {
+        "en": "tea",
+        "as": "tea"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'He' takes 'does', so the correct sentence is 'He does not like tea'.",
+      "as": "'He' ৰ সৈতে 'does' লাগে, গতিকে শুদ্ধ বাক্য হ'ল 'He does not like tea'।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "'He' takes 'does', so the correct sentence is 'He does not like tea'.",
-    "as": "'He' ৰ সৈতে 'does' লাগে, গতিকে শুদ্ধ বাক্য হ'ল 'He does not like tea'।"
+  },
+  {
+    "id": "error-detection-002",
+    "q": {
+      "en": "Find the error in the sentence: She have a new car.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She have a new car."
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "new",
+        "as": "new"
+      },
+      {
+        "en": "car",
+        "as": "car"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'She' takes 'has', so it should be 'She has a new car'.",
+      "as": "'She' ৰ সৈতে 'has' লাগে, গতিকে 'She has a new car' হ'ব।"
+    }
+  },
+  {
+    "id": "error-detection-003",
+    "q": {
+      "en": "Find the error in the sentence: They was late for school.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: They was late for school."
+    },
+    "options": [
+      {
+        "en": "late",
+        "as": "late"
+      },
+      {
+        "en": "for",
+        "as": "for"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "school",
+        "as": "school"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The plural subject 'They' takes 'were'.",
+      "as": "বহুবচন কৰ্তা 'They' ৰ সৈতে 'were' লাগে।"
+    }
+  },
+  {
+    "id": "error-detection-004",
+    "q": {
+      "en": "Find the error in the sentence: I is a student.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I is a student."
+    },
+    "options": [
+      {
+        "en": "I",
+        "as": "I"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "student",
+        "as": "student"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The subject 'I' takes 'am', so it should be 'I am a student'.",
+      "as": "'I' কৰ্তাৰ সৈতে 'am' লাগে, গতিকে 'I am a student' হ'ব।"
+    }
+  },
+  {
+    "id": "error-detection-005",
+    "q": {
+      "en": "Find the error in the sentence: The boys is playing football.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The boys is playing football."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "boys",
+        "as": "boys"
+      },
+      {
+        "en": "playing",
+        "as": "playing"
+      },
+      {
+        "en": "football",
+        "as": "football"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The plural subject 'boys' takes 'are', so it should be 'are playing'.",
+      "as": "বহুবচন কৰ্তা 'boys' ৰ সৈতে 'are' লাগে, গতিকে 'are playing' হ'ব।"
+    }
+  },
+  {
+    "id": "error-detection-006",
+    "q": {
+      "en": "Find the error in the sentence: He don't know the answer.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He don't know the answer."
+    },
+    "options": [
+      {
+        "en": "know",
+        "as": "know"
+      },
+      {
+        "en": "don't",
+        "as": "don't"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "answer",
+        "as": "answer"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'He' takes 'doesn't', so it should be 'He doesn't know the answer'.",
+      "as": "'He' ৰ সৈতে 'doesn't' লাগে, গতিকে 'He doesn't know the answer' হ'ব।"
+    }
+  },
+  {
+    "id": "error-detection-007",
+    "q": {
+      "en": "Find the error in the sentence: One of my friend is here.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: One of my friend is here."
+    },
+    "options": [
+      {
+        "en": "One",
+        "as": "One"
+      },
+      {
+        "en": "my",
+        "as": "my"
+      },
+      {
+        "en": "friend",
+        "as": "friend"
+      },
+      {
+        "en": "here",
+        "as": "here"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'One of' is followed by a plural noun, so 'friends' is correct.",
+      "as": "'One of' ৰ পিছত বহুবচন বিশেষ্য আহে, গতিকে 'friends' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-008",
+    "q": {
+      "en": "Find the error in the sentence: Each of the boys have a pen.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Each of the boys have a pen."
+    },
+    "options": [
+      {
+        "en": "boys",
+        "as": "boys"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "pen",
+        "as": "pen"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Each of' takes a singular verb 'has'.",
+      "as": "'Each of' ৰ সৈতে একবচন ক্ৰিয়া 'has' লাগে।"
+    }
+  },
+  {
+    "id": "error-detection-009",
+    "q": {
+      "en": "Find the error in the sentence: Neither of them are ready.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Neither of them are ready."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "of",
+        "as": "of"
+      },
+      {
+        "en": "them",
+        "as": "them"
+      },
+      {
+        "en": "ready",
+        "as": "ready"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Neither of' takes a singular verb, so 'is' is correct.",
+      "as": "'Neither of' ৰ সৈতে একবচন ক্ৰিয়া লাগে, গতিকে 'is' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-010",
+    "q": {
+      "en": "Find the error in the sentence: The number of students are large.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The number of students are large."
+    },
+    "options": [
+      {
+        "en": "number",
+        "as": "number"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "students",
+        "as": "students"
+      },
+      {
+        "en": "large",
+        "as": "large"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The subject 'number' is singular, so 'is' is correct.",
+      "as": "কৰ্তা 'number' একবচন, গতিকে 'is' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-011",
+    "q": {
+      "en": "Find the error in the sentence: Mathematics are my favourite subject.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Mathematics are my favourite subject."
+    },
+    "options": [
+      {
+        "en": "Mathematics",
+        "as": "Mathematics"
+      },
+      {
+        "en": "my",
+        "as": "my"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "subject",
+        "as": "subject"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Mathematics' is a singular subject and takes 'is'.",
+      "as": "'Mathematics' একবচন কৰ্তা, সেয়ে 'is' লাগে।"
+    }
+  },
+  {
+    "id": "error-detection-012",
+    "q": {
+      "en": "Find the error in the sentence: Ten years are a long time.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Ten years are a long time."
+    },
+    "options": [
+      {
+        "en": "Ten",
+        "as": "Ten"
+      },
+      {
+        "en": "years",
+        "as": "years"
+      },
+      {
+        "en": "time",
+        "as": "time"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A period of time is treated as singular, so 'is' is correct.",
+      "as": "সময়ৰ কালছোৱাক একবচন ধৰা হয়, গতিকে 'is' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-013",
+    "q": {
+      "en": "Find the error in the sentence: My hair are black.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: My hair are black."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "My",
+        "as": "My"
+      },
+      {
+        "en": "hair",
+        "as": "hair"
+      },
+      {
+        "en": "black",
+        "as": "black"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Hair' is an uncountable noun and takes a singular verb 'is'.",
+      "as": "'Hair' অগণনীয় বিশেষ্য, সেয়ে একবচন ক্ৰিয়া 'is' লাগে।"
+    }
+  },
+  {
+    "id": "error-detection-014",
+    "q": {
+      "en": "Find the error in the sentence: He gave me many informations.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He gave me many informations."
+    },
+    "options": [
+      {
+        "en": "gave",
+        "as": "gave"
+      },
+      {
+        "en": "informations",
+        "as": "informations"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "me",
+        "as": "me"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Information' is uncountable and has no plural form.",
+      "as": "'Information' অগণনীয়, ইয়াৰ বহুবচন ৰূপ নাই।"
+    }
+  },
+  {
+    "id": "error-detection-015",
+    "q": {
+      "en": "Find the error in the sentence: She is more taller than me.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is more taller than me."
+    },
+    "options": [
+      {
+        "en": "taller",
+        "as": "taller"
+      },
+      {
+        "en": "than",
+        "as": "than"
+      },
+      {
+        "en": "more",
+        "as": "more"
+      },
+      {
+        "en": "me",
+        "as": "me"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Taller' is already comparative, so 'more' is not needed.",
+      "as": "'Taller' নিজেই তুলনামূলক, সেয়ে 'more' প্ৰয়োজন নাই।"
+    }
+  },
+  {
+    "id": "error-detection-016",
+    "q": {
+      "en": "Find the error in the sentence: He is the most tallest boy.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is the most tallest boy."
+    },
+    "options": [
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "tallest",
+        "as": "tallest"
+      },
+      {
+        "en": "boy",
+        "as": "boy"
+      },
+      {
+        "en": "most",
+        "as": "most"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Tallest' is already superlative, so 'most' is not needed.",
+      "as": "'Tallest' নিজেই অতিশয়বাচক, সেয়ে 'most' প্ৰয়োজন নাই।"
+    }
+  },
+  {
+    "id": "error-detection-017",
+    "q": {
+      "en": "Find the error in the sentence: This is the bestest book.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: This is the bestest book."
+    },
+    "options": [
+      {
+        "en": "bestest",
+        "as": "bestest"
+      },
+      {
+        "en": "This",
+        "as": "This"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "book",
+        "as": "book"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The superlative of 'good' is 'best', not 'bestest'.",
+      "as": "'good' ৰ অতিশয়বাচক ৰূপ 'best', 'bestest' নহয়।"
+    }
+  },
+  {
+    "id": "error-detection-018",
+    "q": {
+      "en": "Find the error in the sentence: He runs very fastly.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He runs very fastly."
+    },
+    "options": [
+      {
+        "en": "runs",
+        "as": "runs"
+      },
+      {
+        "en": "fastly",
+        "as": "fastly"
+      },
+      {
+        "en": "very",
+        "as": "very"
+      },
+      {
+        "en": "He",
+        "as": "He"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The adverb is 'fast', not 'fastly'.",
+      "as": "ক্ৰিয়া-বিশেষণ 'fast', 'fastly' নহয়।"
+    }
+  },
+  {
+    "id": "error-detection-019",
+    "q": {
+      "en": "Find the error in the sentence: She sings very good.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She sings very good."
+    },
+    "options": [
+      {
+        "en": "sings",
+        "as": "sings"
+      },
+      {
+        "en": "very",
+        "as": "very"
+      },
+      {
+        "en": "good",
+        "as": "good"
+      },
+      {
+        "en": "She",
+        "as": "She"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Good' is an adjective; the adverb 'well' should be used.",
+      "as": "'Good' বিশেষণ; ইয়াৰ সলনি ক্ৰিয়া-বিশেষণ 'well' ব্যৱহাৰ হ'ব।"
+    }
+  },
+  {
+    "id": "error-detection-020",
+    "q": {
+      "en": "Find the error in the sentence: He is senior than me.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is senior than me."
+    },
+    "options": [
+      {
+        "en": "senior",
+        "as": "senior"
+      },
+      {
+        "en": "me",
+        "as": "me"
+      },
+      {
+        "en": "He",
+        "as": "He"
+      },
+      {
+        "en": "than",
+        "as": "than"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Senior' takes the preposition 'to', so 'senior to me' is correct.",
+      "as": "'Senior' ৰ সৈতে 'to' লাগে, গতিকে 'senior to me' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-021",
+    "q": {
+      "en": "Find the error in the sentence: She is different than her brother.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is different than her brother."
+    },
+    "options": [
+      {
+        "en": "than",
+        "as": "than"
+      },
+      {
+        "en": "different",
+        "as": "different"
+      },
+      {
+        "en": "her",
+        "as": "her"
+      },
+      {
+        "en": "brother",
+        "as": "brother"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Different' is followed by 'from', not 'than'.",
+      "as": "'Different' ৰ পিছত 'from' আহে, 'than' নহয়।"
+    }
+  },
+  {
+    "id": "error-detection-022",
+    "q": {
+      "en": "Find the error in the sentence: I prefer coffee than tea.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I prefer coffee than tea."
+    },
+    "options": [
+      {
+        "en": "prefer",
+        "as": "prefer"
+      },
+      {
+        "en": "than",
+        "as": "than"
+      },
+      {
+        "en": "coffee",
+        "as": "coffee"
+      },
+      {
+        "en": "tea",
+        "as": "tea"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Prefer' takes 'to', so 'prefer coffee to tea' is correct.",
+      "as": "'Prefer' ৰ সৈতে 'to' লাগে, গতিকে 'prefer coffee to tea' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-023",
+    "q": {
+      "en": "Find the error in the sentence: He is married with a doctor.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is married with a doctor."
+    },
+    "options": [
+      {
+        "en": "married",
+        "as": "married"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "with",
+        "as": "with"
+      },
+      {
+        "en": "doctor",
+        "as": "doctor"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Married' is followed by 'to', not 'with'.",
+      "as": "'Married' ৰ পিছত 'to' আহে, 'with' নহয়।"
+    }
+  },
+  {
+    "id": "error-detection-024",
+    "q": {
+      "en": "Find the error in the sentence: She is angry on me.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is angry on me."
+    },
+    "options": [
+      {
+        "en": "angry",
+        "as": "angry"
+      },
+      {
+        "en": "me",
+        "as": "me"
+      },
+      {
+        "en": "She",
+        "as": "She"
+      },
+      {
+        "en": "on",
+        "as": "on"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "We are angry 'with' a person, not 'on'.",
+      "as": "ব্যক্তিৰ ওপৰত 'angry with' হয়, 'on' নহয়।"
+    }
+  },
+  {
+    "id": "error-detection-025",
+    "q": {
+      "en": "Find the error in the sentence: He is good in English.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is good in English."
+    },
+    "options": [
+      {
+        "en": "in",
+        "as": "in"
+      },
+      {
+        "en": "good",
+        "as": "good"
+      },
+      {
+        "en": "English",
+        "as": "English"
+      },
+      {
+        "en": "He",
+        "as": "He"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Good at' is the correct phrase for a skill.",
+      "as": "দক্ষতাৰ বাবে 'good at' শুদ্ধ বাক্যাংশ।"
+    }
+  },
+  {
+    "id": "error-detection-026",
+    "q": {
+      "en": "Find the error in the sentence: He is afraid from dogs.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is afraid from dogs."
+    },
+    "options": [
+      {
+        "en": "afraid",
+        "as": "afraid"
+      },
+      {
+        "en": "from",
+        "as": "from"
+      },
+      {
+        "en": "dogs",
+        "as": "dogs"
+      },
+      {
+        "en": "He",
+        "as": "He"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Afraid of' is the correct phrase.",
+      "as": "'Afraid of' শুদ্ধ বাক্যাংশ।"
+    }
+  },
+  {
+    "id": "error-detection-027",
+    "q": {
+      "en": "Find the error in the sentence: He is suffering with fever.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is suffering with fever."
+    },
+    "options": [
+      {
+        "en": "suffering",
+        "as": "suffering"
+      },
+      {
+        "en": "fever",
+        "as": "fever"
+      },
+      {
+        "en": "with",
+        "as": "with"
+      },
+      {
+        "en": "He",
+        "as": "He"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Suffer from' is used for an illness.",
+      "as": "ৰোগৰ বাবে 'suffer from' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "error-detection-028",
+    "q": {
+      "en": "Find the error in the sentence: I am used to get up early.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I am used to get up early."
+    },
+    "options": [
+      {
+        "en": "used",
+        "as": "used"
+      },
+      {
+        "en": "up",
+        "as": "up"
+      },
+      {
+        "en": "early",
+        "as": "early"
+      },
+      {
+        "en": "get",
+        "as": "get"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Used to' as a habit takes a gerund, so 'getting' is correct.",
+      "as": "অভ্যাসৰ 'used to' ৰ পিছত gerund লাগে, গতিকে 'getting' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-029",
+    "q": {
+      "en": "Find the error in the sentence: He is looking forward to meet you.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is looking forward to meet you."
+    },
+    "options": [
+      {
+        "en": "meet",
+        "as": "meet"
+      },
+      {
+        "en": "looking",
+        "as": "looking"
+      },
+      {
+        "en": "forward",
+        "as": "forward"
+      },
+      {
+        "en": "you",
+        "as": "you"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Look forward to' is followed by a gerund, so 'meeting' is correct.",
+      "as": "'Look forward to' ৰ পিছত gerund আহে, গতিকে 'meeting' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-030",
+    "q": {
+      "en": "Find the error in the sentence: He avoided to answer the question.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He avoided to answer the question."
+    },
+    "options": [
+      {
+        "en": "avoided",
+        "as": "avoided"
+      },
+      {
+        "en": "to",
+        "as": "to"
+      },
+      {
+        "en": "answer",
+        "as": "answer"
+      },
+      {
+        "en": "question",
+        "as": "question"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Avoid' is followed by a gerund, so 'answering' is correct.",
+      "as": "'Avoid' ৰ পিছত gerund আহে, গতিকে 'answering' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-031",
+    "q": {
+      "en": "Find the error in the sentence: I have been living here since five years.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I have been living here since five years."
+    },
+    "options": [
+      {
+        "en": "living",
+        "as": "living"
+      },
+      {
+        "en": "here",
+        "as": "here"
+      },
+      {
+        "en": "since",
+        "as": "since"
+      },
+      {
+        "en": "years",
+        "as": "years"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'For' is used with a period of time, so 'for five years' is correct.",
+      "as": "সময়ৰ কালছোৱাৰ সৈতে 'for' লাগে, গতিকে 'for five years' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-032",
+    "q": {
+      "en": "Find the error in the sentence: He has been working here for 2010.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He has been working here for 2010."
+    },
+    "options": [
+      {
+        "en": "working",
+        "as": "working"
+      },
+      {
+        "en": "here",
+        "as": "here"
+      },
+      {
+        "en": "He",
+        "as": "He"
+      },
+      {
+        "en": "for",
+        "as": "for"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Since' is used with a point of time, so 'since 2010' is correct.",
+      "as": "নিৰ্দিষ্ট সময়ৰ বিন্দুৰ সৈতে 'since' লাগে, গতিকে 'since 2010' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-033",
+    "q": {
+      "en": "Find the error in the sentence: She returned back from Delhi.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She returned back from Delhi."
+    },
+    "options": [
+      {
+        "en": "back",
+        "as": "back"
+      },
+      {
+        "en": "returned",
+        "as": "returned"
+      },
+      {
+        "en": "from",
+        "as": "from"
+      },
+      {
+        "en": "Delhi",
+        "as": "Delhi"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Returned' already means 'came back', so 'back' is redundant.",
+      "as": "'Returned' ৰ অৰ্থই 'came back', সেয়ে 'back' অতিৰিক্ত।"
+    }
+  },
+  {
+    "id": "error-detection-034",
+    "q": {
+      "en": "Find the error in the sentence: Please repeat again the question.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Please repeat again the question."
+    },
+    "options": [
+      {
+        "en": "repeat",
+        "as": "repeat"
+      },
+      {
+        "en": "again",
+        "as": "again"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "question",
+        "as": "question"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Repeat' already means 'say again', so 'again' is redundant.",
+      "as": "'Repeat' ৰ অৰ্থই 'say again', সেয়ে 'again' অতিৰিক্ত।"
+    }
+  },
+  {
+    "id": "error-detection-035",
+    "q": {
+      "en": "Find the error in the sentence: He entered into the room.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He entered into the room."
+    },
+    "options": [
+      {
+        "en": "entered",
+        "as": "entered"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "into",
+        "as": "into"
+      },
+      {
+        "en": "room",
+        "as": "room"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Enter' does not take a preposition here, so 'entered the room' is correct.",
+      "as": "ইয়াত 'Enter' ৰ সৈতে preposition নালাগে, গতিকে 'entered the room' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-036",
+    "q": {
+      "en": "Find the error in the sentence: Let us discuss about the matter.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Let us discuss about the matter."
+    },
+    "options": [
+      {
+        "en": "discuss",
+        "as": "discuss"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "matter",
+        "as": "matter"
+      },
+      {
+        "en": "about",
+        "as": "about"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Discuss' does not take 'about', so 'discuss the matter' is correct.",
+      "as": "'Discuss' ৰ সৈতে 'about' নালাগে, গতিকে 'discuss the matter' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-037",
+    "q": {
+      "en": "Find the error in the sentence: I ordered for a pizza.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I ordered for a pizza."
+    },
+    "options": [
+      {
+        "en": "for",
+        "as": "for"
+      },
+      {
+        "en": "ordered",
+        "as": "ordered"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "pizza",
+        "as": "pizza"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Order' does not take 'for' here, so 'ordered a pizza' is correct.",
+      "as": "ইয়াত 'Order' ৰ সৈতে 'for' নালাগে, গতিকে 'ordered a pizza' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-038",
+    "q": {
+      "en": "Find the error in the sentence: He resembles to his father.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He resembles to his father."
+    },
+    "options": [
+      {
+        "en": "resembles",
+        "as": "resembles"
+      },
+      {
+        "en": "to",
+        "as": "to"
+      },
+      {
+        "en": "his",
+        "as": "his"
+      },
+      {
+        "en": "father",
+        "as": "father"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Resemble' does not take a preposition, so 'resembles his father' is correct.",
+      "as": "'Resemble' ৰ সৈতে preposition নালাগে, গতিকে 'resembles his father' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-039",
+    "q": {
+      "en": "Find the error in the sentence: I am going to home.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I am going to home."
+    },
+    "options": [
+      {
+        "en": "going",
+        "as": "going"
+      },
+      {
+        "en": "home",
+        "as": "home"
+      },
+      {
+        "en": "to",
+        "as": "to"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Home' is not preceded by 'to' in this sense, so 'going home' is correct.",
+      "as": "এই অৰ্থত 'home' ৰ আগত 'to' নালাগে, গতিকে 'going home' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-040",
+    "q": {
+      "en": "Find the error in the sentence: She has gone to abroad.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She has gone to abroad."
+    },
+    "options": [
+      {
+        "en": "gone",
+        "as": "gone"
+      },
+      {
+        "en": "abroad",
+        "as": "abroad"
+      },
+      {
+        "en": "She",
+        "as": "She"
+      },
+      {
+        "en": "to",
+        "as": "to"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Abroad' is not preceded by 'to', so 'gone abroad' is correct.",
+      "as": "'Abroad' ৰ আগত 'to' নালাগে, গতিকে 'gone abroad' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-041",
+    "q": {
+      "en": "Find the error in the sentence: I have less books than him.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I have less books than him."
+    },
+    "options": [
+      {
+        "en": "less",
+        "as": "less"
+      },
+      {
+        "en": "books",
+        "as": "books"
+      },
+      {
+        "en": "than",
+        "as": "than"
+      },
+      {
+        "en": "him",
+        "as": "him"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Fewer' is used with countable nouns, so 'fewer books' is correct.",
+      "as": "গণনীয় বিশেষ্যৰ সৈতে 'fewer' লাগে, গতিকে 'fewer books' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-042",
+    "q": {
+      "en": "Find the error in the sentence: She gave me some advices.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She gave me some advices."
+    },
+    "options": [
+      {
+        "en": "gave",
+        "as": "gave"
+      },
+      {
+        "en": "advices",
+        "as": "advices"
+      },
+      {
+        "en": "some",
+        "as": "some"
+      },
+      {
+        "en": "me",
+        "as": "me"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Advice' is uncountable and has no plural form.",
+      "as": "'Advice' অগণনীয়, ইয়াৰ বহুবচন ৰূপ নাই।"
+    }
+  },
+  {
+    "id": "error-detection-043",
+    "q": {
+      "en": "Find the error in the sentence: There is many people in the park.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: There is many people in the park."
+    },
+    "options": [
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "people",
+        "as": "people"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "park",
+        "as": "park"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'People' is plural, so 'are' is correct.",
+      "as": "'People' বহুবচন, গতিকে 'are' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-044",
+    "q": {
+      "en": "Find the error in the sentence: There are a book on the table.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: There are a book on the table."
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "book",
+        "as": "book"
+      },
+      {
+        "en": "table",
+        "as": "table"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'A book' is singular, so 'is' is correct.",
+      "as": "'A book' একবচন, গতিকে 'is' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-045",
+    "q": {
+      "en": "Find the error in the sentence: He do his homework daily.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He do his homework daily."
+    },
+    "options": [
+      {
+        "en": "do",
+        "as": "do"
+      },
+      {
+        "en": "his",
+        "as": "his"
+      },
+      {
+        "en": "homework",
+        "as": "homework"
+      },
+      {
+        "en": "daily",
+        "as": "daily"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'He' takes 'does', so 'does his homework' is correct.",
+      "as": "'He' ৰ সৈতে 'does' লাগে, গতিকে 'does his homework' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-046",
+    "q": {
+      "en": "Find the error in the sentence: She have been waiting for you.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She have been waiting for you."
+    },
+    "options": [
+      {
+        "en": "waiting",
+        "as": "waiting"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "for",
+        "as": "for"
+      },
+      {
+        "en": "you",
+        "as": "you"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'She' takes 'has', so 'has been waiting' is correct.",
+      "as": "'She' ৰ সৈতে 'has' লাগে, গতিকে 'has been waiting' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-047",
+    "q": {
+      "en": "Find the error in the sentence: They has finished the work.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: They has finished the work."
+    },
+    "options": [
+      {
+        "en": "finished",
+        "as": "finished"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "work",
+        "as": "work"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The plural subject 'They' takes 'have'.",
+      "as": "বহুবচন কৰ্তা 'They' ৰ সৈতে 'have' লাগে।"
+    }
+  },
+  {
+    "id": "error-detection-048",
+    "q": {
+      "en": "Find the error in the sentence: I has two brothers.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I has two brothers."
+    },
+    "options": [
+      {
+        "en": "two",
+        "as": "two"
+      },
+      {
+        "en": "brothers",
+        "as": "brothers"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The subject 'I' takes 'have'.",
+      "as": "'I' কৰ্তাৰ সৈতে 'have' লাগে।"
+    }
+  },
+  {
+    "id": "error-detection-049",
+    "q": {
+      "en": "Find the error in the sentence: He can plays the guitar.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He can plays the guitar."
+    },
+    "options": [
+      {
+        "en": "plays",
+        "as": "plays"
+      },
+      {
+        "en": "can",
+        "as": "can"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "guitar",
+        "as": "guitar"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "After a modal verb, the base form 'play' is used.",
+      "as": "Modal verb ৰ পিছত মূল ৰূপ 'play' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "error-detection-050",
+    "q": {
+      "en": "Find the error in the sentence: She must goes to school.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She must goes to school."
+    },
+    "options": [
+      {
+        "en": "must",
+        "as": "must"
+      },
+      {
+        "en": "goes",
+        "as": "goes"
+      },
+      {
+        "en": "school",
+        "as": "school"
+      },
+      {
+        "en": "She",
+        "as": "She"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "After 'must', the base form 'go' is used.",
+      "as": "'must' ৰ পিছত মূল ৰূপ 'go' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "error-detection-051",
+    "q": {
+      "en": "Find the error in the sentence: He did not went to the market.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He did not went to the market."
+    },
+    "options": [
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "market",
+        "as": "market"
+      },
+      {
+        "en": "went",
+        "as": "went"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "After 'did not', the base form 'go' is used.",
+      "as": "'did not' ৰ পিছত মূল ৰূপ 'go' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "error-detection-052",
+    "q": {
+      "en": "Find the error in the sentence: I have saw that film.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I have saw that film."
+    },
+    "options": [
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "that",
+        "as": "that"
+      },
+      {
+        "en": "film",
+        "as": "film"
+      },
+      {
+        "en": "saw",
+        "as": "saw"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The past participle 'seen' is used after 'have'.",
+      "as": "'have' ৰ পিছত past participle 'seen' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "error-detection-053",
+    "q": {
+      "en": "Find the error in the sentence: He has ate his lunch.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He has ate his lunch."
+    },
+    "options": [
+      {
+        "en": "ate",
+        "as": "ate"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "his",
+        "as": "his"
+      },
+      {
+        "en": "lunch",
+        "as": "lunch"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The past participle 'eaten' is used after 'has'.",
+      "as": "'has' ৰ পিছত past participle 'eaten' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "error-detection-054",
+    "q": {
+      "en": "Find the error in the sentence: She has wrote a letter.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She has wrote a letter."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "wrote",
+        "as": "wrote"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "letter",
+        "as": "letter"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The past participle 'written' is used after 'has'.",
+      "as": "'has' ৰ পিছত past participle 'written' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "error-detection-055",
+    "q": {
+      "en": "Find the error in the sentence: He had went home before I arrived.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He had went home before I arrived."
+    },
+    "options": [
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "home",
+        "as": "home"
+      },
+      {
+        "en": "went",
+        "as": "went"
+      },
+      {
+        "en": "before",
+        "as": "before"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The past participle 'gone' is used after 'had'.",
+      "as": "'had' ৰ পিছত past participle 'gone' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "error-detection-056",
+    "q": {
+      "en": "Find the error in the sentence: I am knowing the truth.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I am knowing the truth."
+    },
+    "options": [
+      {
+        "en": "am",
+        "as": "am"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "truth",
+        "as": "truth"
+      },
+      {
+        "en": "knowing",
+        "as": "knowing"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Know' is a stative verb and is not used in the continuous form.",
+      "as": "'Know' এটা stative verb, ইয়াক continuous ৰূপত ব্যৱহাৰ নকৰে।"
+    }
+  },
+  {
+    "id": "error-detection-057",
+    "q": {
+      "en": "Find the error in the sentence: She is having two cars.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She is having two cars."
+    },
+    "options": [
+      {
+        "en": "having",
+        "as": "having"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "two",
+        "as": "two"
+      },
+      {
+        "en": "cars",
+        "as": "cars"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Have' for possession is not used in the continuous form; 'has' is correct.",
+      "as": "অধিকাৰৰ 'have' continuous ৰূপত নহয়; 'has' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-058",
+    "q": {
+      "en": "Find the error in the sentence: We was watching a movie.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: We was watching a movie."
+    },
+    "options": [
+      {
+        "en": "watching",
+        "as": "watching"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "movie",
+        "as": "movie"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The plural subject 'We' takes 'were'.",
+      "as": "বহুবচন কৰ্তা 'We' ৰ সৈতে 'were' লাগে।"
+    }
+  },
+  {
+    "id": "error-detection-059",
+    "q": {
+      "en": "Find the error in the sentence: The flowers is beautiful.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: The flowers is beautiful."
+    },
+    "options": [
+      {
+        "en": "flowers",
+        "as": "flowers"
+      },
+      {
+        "en": "beautiful",
+        "as": "beautiful"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "The",
+        "as": "The"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The plural subject 'flowers' takes 'are'.",
+      "as": "বহুবচন কৰ্তা 'flowers' ৰ সৈতে 'are' লাগে।"
+    }
+  },
+  {
+    "id": "error-detection-060",
+    "q": {
+      "en": "Find the error in the sentence: He have a lot of money.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He have a lot of money."
+    },
+    "options": [
+      {
+        "en": "lot",
+        "as": "lot"
+      },
+      {
+        "en": "money",
+        "as": "money"
+      },
+      {
+        "en": "He",
+        "as": "He"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'He' takes 'has', so 'He has a lot of money' is correct.",
+      "as": "'He' ৰ সৈতে 'has' লাগে, গতিকে 'He has a lot of money' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-061",
+    "q": {
+      "en": "Find the error in the sentence: She don't like coffee.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She don't like coffee."
+    },
+    "options": [
+      {
+        "en": "don't",
+        "as": "don't"
+      },
+      {
+        "en": "like",
+        "as": "like"
+      },
+      {
+        "en": "coffee",
+        "as": "coffee"
+      },
+      {
+        "en": "She",
+        "as": "She"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'She' takes 'doesn't', so 'She doesn't like coffee' is correct.",
+      "as": "'She' ৰ সৈতে 'doesn't' লাগে, গতিকে 'She doesn't like coffee' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-062",
+    "q": {
+      "en": "Find the error in the sentence: I doesn't know his name.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I doesn't know his name."
+    },
+    "options": [
+      {
+        "en": "know",
+        "as": "know"
+      },
+      {
+        "en": "doesn't",
+        "as": "doesn't"
+      },
+      {
+        "en": "his",
+        "as": "his"
+      },
+      {
+        "en": "name",
+        "as": "name"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The subject 'I' takes 'don't', so 'I don't know his name' is correct.",
+      "as": "'I' কৰ্তাৰ সৈতে 'don't' লাগে, গতিকে 'I don't know his name' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-063",
+    "q": {
+      "en": "Find the error in the sentence: They doesn't play cricket.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: They doesn't play cricket."
+    },
+    "options": [
+      {
+        "en": "play",
+        "as": "play"
+      },
+      {
+        "en": "cricket",
+        "as": "cricket"
+      },
+      {
+        "en": "doesn't",
+        "as": "doesn't"
+      },
+      {
+        "en": "They",
+        "as": "They"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The plural subject 'They' takes 'don't'.",
+      "as": "বহুবচন কৰ্তা 'They' ৰ সৈতে 'don't' লাগে।"
+    }
+  },
+  {
+    "id": "error-detection-064",
+    "q": {
+      "en": "Find the error in the sentence: My hairs are very long.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: My hairs are very long."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "very",
+        "as": "very"
+      },
+      {
+        "en": "long",
+        "as": "long"
+      },
+      {
+        "en": "hairs",
+        "as": "hairs"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Hair' is uncountable and has no plural form here.",
+      "as": "ইয়াত 'Hair' অগণনীয়, ইয়াৰ বহুবচন ৰূপ নাই।"
+    }
+  },
+  {
+    "id": "error-detection-065",
+    "q": {
+      "en": "Find the error in the sentence: She gave me many information.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: She gave me many information."
+    },
+    "options": [
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "gave",
+        "as": "gave"
+      },
+      {
+        "en": "information",
+        "as": "information"
+      },
+      {
+        "en": "me",
+        "as": "me"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Information' is uncountable, so 'much' is used instead of 'many'.",
+      "as": "'Information' অগণনীয়, সেয়ে 'many' ৰ সলনি 'much' লাগে।"
+    }
+  },
+  {
+    "id": "error-detection-066",
+    "q": {
+      "en": "Find the error in the sentence: Neither he nor his friends was present.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: Neither he nor his friends was present."
+    },
+    "options": [
+      {
+        "en": "friends",
+        "as": "friends"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "nor",
+        "as": "nor"
+      },
+      {
+        "en": "present",
+        "as": "present"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "With 'neither...nor', the verb agrees with the nearer subject 'friends', so 'were' is correct.",
+      "as": "'neither...nor' ত ক্ৰিয়া নিকটৱৰ্তী কৰ্তা 'friends' ৰ লগত মিলে, গতিকে 'were' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-067",
+    "q": {
+      "en": "Find the error in the sentence: This is more worse than that.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: This is more worse than that."
+    },
+    "options": [
+      {
+        "en": "worse",
+        "as": "worse"
+      },
+      {
+        "en": "than",
+        "as": "than"
+      },
+      {
+        "en": "more",
+        "as": "more"
+      },
+      {
+        "en": "that",
+        "as": "that"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Worse' is already comparative, so 'more' is not needed.",
+      "as": "'Worse' নিজেই তুলনামূলক, সেয়ে 'more' প্ৰয়োজন নাই।"
+    }
+  },
+  {
+    "id": "error-detection-068",
+    "q": {
+      "en": "Find the error in the sentence: He is the eldest of the two brothers.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He is the eldest of the two brothers."
+    },
+    "options": [
+      {
+        "en": "two",
+        "as": "two"
+      },
+      {
+        "en": "brothers",
+        "as": "brothers"
+      },
+      {
+        "en": "He",
+        "as": "He"
+      },
+      {
+        "en": "eldest",
+        "as": "eldest"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "For two persons, 'elder' is used instead of 'eldest'.",
+      "as": "দুজনৰ বাবে 'eldest' ৰ সলনি 'elder' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "error-detection-069",
+    "q": {
+      "en": "Find the error in the sentence: I have been ill since two days.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: I have been ill since two days."
+    },
+    "options": [
+      {
+        "en": "since",
+        "as": "since"
+      },
+      {
+        "en": "ill",
+        "as": "ill"
+      },
+      {
+        "en": "two",
+        "as": "two"
+      },
+      {
+        "en": "days",
+        "as": "days"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'For' is used with a period of time, so 'for two days' is correct.",
+      "as": "সময়ৰ কালছোৱাৰ সৈতে 'for' লাগে, গতিকে 'for two days' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "error-detection-070",
+    "q": {
+      "en": "Find the error in the sentence: He did not came to the party.",
+      "as": "বাক্যটোত থকা ভুলটো বিচাৰি উলিয়াওক: He did not came to the party."
+    },
+    "options": [
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "came",
+        "as": "came"
+      },
+      {
+        "en": "party",
+        "as": "party"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "After 'did not', the base form 'come' is used.",
+      "as": "'did not' ৰ পিছত মূল ৰূপ 'come' ব্যৱহাৰ হয়।"
+    }
   }
-}
+]
