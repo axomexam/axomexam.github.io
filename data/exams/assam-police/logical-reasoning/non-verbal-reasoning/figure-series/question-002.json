@@ -1,0 +1,31 @@
+{
+  "id": "figure-series-002",
+  "q": {
+    "en": "Study the direction of the arrows. Which figure comes next in the series?",
+    "as": "কাঁড়বোৰৰ দিশটো মন কৰক। শৃংখলাটোত পৰৱৰ্তী চিত্ৰটো কি?"
+  },
+  "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 100\" width=\"330\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"326\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"112\" y1=\"16\" x2=\"112\" y2=\"84\" stroke=\"#e2e8f0\"/><line x1=\"222\" y1=\"16\" x2=\"222\" y2=\"84\" stroke=\"#e2e8f0\"/><g><line x1=\"20\" y1=\"50\" x2=\"68\" y2=\"50\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"78,50 62,40 62,60\" fill=\"#334155\"/></g><g><line x1=\"167\" y1=\"20\" x2=\"167\" y2=\"68\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"167,78 157,62 177,62\" fill=\"#334155\"/></g><g><line x1=\"312\" y1=\"50\" x2=\"264\" y2=\"50\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"254,50 270,40 270,60\" fill=\"#334155\"/></g></svg>",
+  "options": [
+    {
+      "option": "A",
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50\" y1=\"80\" x2=\"50\" y2=\"32\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"50,20 40,36 60,36\" fill=\"#334155\"/></svg>"
+    },
+    {
+      "option": "B",
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"68\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"50,80 40,64 60,64\" fill=\"#334155\"/></svg>"
+    },
+    {
+      "option": "C",
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"80\" y1=\"50\" x2=\"32\" y2=\"50\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"20,50 36,40 36,60\" fill=\"#334155\"/></svg>"
+    },
+    {
+      "option": "D",
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"20\" y1=\"50\" x2=\"68\" y2=\"50\" stroke=\"#334155\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"80,50 64,40 64,60\" fill=\"#334155\"/></svg>"
+    }
+  ],
+  "correct": 0,
+  "explanation": {
+    "en": "The arrow rotates 90 degrees clockwise each step: right, down, left, so the next one points up.",
+    "as": "কাঁড়টোৱে প্ৰতিটো পদত ৯০ ডিগ্ৰী ঘড়ীৰ কাঁটাৰ দিশত ঘূৰে: সোঁ, তল, বাওঁ, গতিকে পৰৱৰ্তীটো ওপৰলৈ।"
+  }
+}

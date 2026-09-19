@@ -3426,15 +3426,35 @@
       </div>`;
   }
 
-  /* If the stored answer is only an option letter, resolve it to that option's text. */
+  /* Resolve the stored answer to something readable.
+     - A text option is shown with its letter, e.g. "A) Forsake".
+     - Picture/shape options have no text, so the stored index (or letter)
+       is shown as the option letter instead, e.g. "A". */
   function examResolveAnswer(q, lang, answerText) {
     const plain = String(answerText || "").replace(/<[^>]+>/g, "").trim();
-    const m = /^[\(\[]?([a-eA-E])[\)\]]?[.)]?$/.exec(plain);
-    if (!m) return answerText;
-    const options = getOptionsList(q, lang);
-    const idx = m[1].toLowerCase().charCodeAt(0) - 97;
-    if (options[idx] === undefined || options[idx] === "") return answerText;
-    return `${m[1].toUpperCase()}) ${options[idx]}`;
+    if (plain) {
+      const m = /^[\(\[]?([a-eA-E])[\)\]]?[.)]?$/.exec(plain);
+      if (!m) return answerText;
+      const options = getOptionsList(q, lang);
+      const idx = m[1].toLowerCase().charCodeAt(0) - 97;
+      if (options[idx] === undefined || options[idx] === "") return answerText;
+      return `${m[1].toUpperCase()}) ${options[idx]}`;
+    }
+
+    /* No textual answer: for picture/shape choices fall back to the letter. */
+    const fops = figureOptions(q);
+    if (fops && fops.length) {
+      const raw = q && q.correct !== undefined ? q.correct : (q ? q.answer : undefined);
+      if (Number.isInteger(raw)) {
+        if (raw >= 0 && raw < fops.length) {
+          return fops[raw].letter || String.fromCharCode(65 + raw);
+        }
+      } else if (typeof raw === "string") {
+        const lm = /^[\(\[]?([a-eA-E])[\)\]]?[.)]?$/.exec(raw.trim());
+        if (lm) return lm[1].toUpperCase();
+      }
+    }
+    return answerText;
   }
 
   function examQACardHTML(q, n, lang) {
