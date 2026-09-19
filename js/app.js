@@ -24,7 +24,10 @@
     mock: null,            
     isGeneratingPdf: false,
     mockSetCache: {},
-    exams: null
+    exams: null,
+    examQuestionTotal: 0,
+    examTotalLoaded: false,
+    examTotalPromise: null
   };
 
   /* Max mock test set number to probe per subcategory */
@@ -1094,7 +1097,7 @@
 
   /* ================= Homepage ================= */
   function renderHome(main) {
-    const totalQuestions = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0) + QUESTION_DISPLAY_BONUS;
+    const totalQuestions = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0) + QUESTION_DISPLAY_BONUS + (state.examQuestionTotal || 0);
     const totalPdfs = state.topicIndex.length + (state.topicIndex.filter((r) => r.pdf).length);
     const trending = trendingTopics(state.topicIndex).slice(0, typeof CONFIG !== "undefined" ? CONFIG.TRENDING_COUNT : 6);
     const firstCat = state.categories[0]?.id || "gk";
@@ -1254,6 +1257,7 @@
     }
 
     observeReveals();
+    loadExamQuestionTotal();
   }
 
   function heroVisualHTML() {
@@ -3274,6 +3278,51 @@
         badge.hidden = false;
       }
     }));
+  }
+
+  /* Recompute the homepage hero counters (used live while counts load). */
+  function updateHeroTotals() {
+    const totalEl = $("#stat-total-questions");
+    if (totalEl) {
+      const total = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0)
+        + QUESTION_DISPLAY_BONUS + (state.examQuestionTotal || 0);
+      totalEl.textContent = `${total.toLocaleString()}+`;
+    }
+    const pdfEl = $("#stat-total-pdfs");
+    if (pdfEl) {
+      const totalPdfs = state.topicIndex.length + state.topicIndex.filter((r) => r.pdf).length;
+      pdfEl.textContent = `${totalPdfs}+`;
+    }
+  }
+
+  /* Sum every question in the "Your Exams" library and add it to the hero
+     counter. Runs once per page load; updates the counter as each exam loads. */
+  function loadExamQuestionTotal() {
+    if (state.examTotalPromise) return state.examTotalPromise;
+    state.examTotalPromise = (async () => {
+      try {
+        await getExamsList();
+        const exams = (state.exams || []).filter((e) => examIsAvailable(e));
+        let total = 0;
+        for (const exam of exams) {
+          const sections = Array.isArray(exam.sections) ? exam.sections : [];
+          const parts = await Promise.all(sections.map((sec) => {
+            if (!sec || sec.type === "syllabus") return Promise.resolve(0);
+            return examSectionQuestionCount(exam.id, sec).catch(() => 0);
+          }));
+          total += parts.reduce((a, b) => a + b, 0);
+          state.examQuestionTotal = total;
+          updateHeroTotals();
+        }
+        state.examQuestionTotal = total;
+        state.examTotalLoaded = true;
+      } catch (e) {
+        /* leave the counter as-is if exam data is unavailable */
+      }
+      updateHeroTotals();
+      return state.examQuestionTotal;
+    })();
+    return state.examTotalPromise;
   }
 
   async function renderExamPage(main, examId) {
@@ -5810,13 +5859,7 @@
             const dlEl = document.getElementById(`dl-count-${rec.path.replace(/\//g, '-')}`);
             if (dlEl) dlEl.textContent = `${rec.nQuestions}`;
 
-            const loadedTotal = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0) + QUESTION_DISPLAY_BONUS;
-            const totalEl = $("#stat-total-questions");
-            if (totalEl) totalEl.textContent = `${loadedTotal.toLocaleString()}+`;
-
-            const totalPdfNotes = state.topicIndex.length + (state.topicIndex.filter((r) => r.pdf).length);
-            const pdfEl = $("#stat-total-pdfs");
-            if (pdfEl) pdfEl.textContent = `${totalPdfNotes}+`;
+            updateHeroTotals();
           }
         } catch (e) { }
       });
