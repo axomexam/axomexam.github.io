@@ -6,27 +6,1167 @@
       "as": "Indirect speech লৈ সলনি কৰক: He said, \"I am tired.\""
     },
     "options": [
-      {
-        "en": "He said that he was tired.",
-        "as": "He said that he was tired."
-      },
-      {
-        "en": "He said that I am tired.",
-        "as": "He said that I am tired."
-      },
-      {
-        "en": "He says that he is tired.",
-        "as": "He says that he is tired."
-      },
-      {
-        "en": "He said that he is tired.",
-        "as": "He said that he is tired."
-      }
+      { "en": "He said that he was tired.", "as": "He said that he was tired." },
+      { "en": "He said that I am tired.", "as": "He said that I am tired." },
+      { "en": "He says that he is tired.", "as": "He says that he is tired." },
+      { "en": "He said that he is tired.", "as": "He said that he is tired." }
     ],
     "correct": 0,
     "explanation": {
       "en": "In indirect speech the present 'am' changes to the past 'was' and 'I' changes to 'he'.",
       "as": "Indirect speech ত present 'am' এ past 'was' লৈ সলনি হয় আৰু 'I' এ 'he' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-002",
+    "q": {
+      "en": "Change into indirect speech: She said, \"I will come tomorrow.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: She said, \"I will come tomorrow.\""
+    },
+    "options": [
+      { "en": "She said that she would come the next day.", "as": "She said that she would come the next day." },
+      { "en": "She said that she will come tomorrow.", "as": "She said that she will come tomorrow." },
+      { "en": "She said that I would come the next day.", "as": "She said that I would come the next day." },
+      { "en": "She says that she would come tomorrow.", "as": "She says that she would come tomorrow." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Will' changes to 'would', and 'tomorrow' changes to 'the next day'.",
+      "as": "'Will' এ 'would' লৈ সলনি হয়, আৰু 'tomorrow' এ 'the next day' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-003",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I am reading a book now.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I am reading a book now.\""
+    },
+    "options": [
+      { "en": "He said that he was reading a book then.", "as": "He said that he was reading a book then." },
+      { "en": "He said that he is reading a book now.", "as": "He said that he is reading a book now." },
+      { "en": "He said that I was reading a book then.", "as": "He said that I was reading a book then." },
+      { "en": "He says that he was reading a book then.", "as": "He says that he was reading a book then." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Am reading' changes to 'was reading', and 'now' changes to 'then'.",
+      "as": "'Am reading' এ 'was reading' লৈ সলনি হয়, আৰু 'now' এ 'then' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-004",
+    "q": {
+      "en": "Change into indirect speech: The teacher said, \"The earth revolves around the sun.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: The teacher said, \"The earth revolves around the sun.\""
+    },
+    "options": [
+      { "en": "The teacher said that the earth revolves around the sun.", "as": "The teacher said that the earth revolves around the sun." },
+      { "en": "The teacher said that the earth revolved around the sun.", "as": "The teacher said that the earth revolved around the sun." },
+      { "en": "The teacher says that the earth revolved around the sun.", "as": "The teacher says that the earth revolved around the sun." },
+      { "en": "The teacher said that earth revolve around the sun.", "as": "The teacher said that earth revolve around the sun." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Universal truths remain in the present tense even in indirect speech.",
+      "as": "সাৰ্বজনীন সত্য indirect speech তো present tense তেই থাকে।"
+    }
+  },
+  {
+    "id": "narration-005",
+    "q": {
+      "en": "Change into indirect speech: He said to me, \"Where do you live?\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said to me, \"Where do you live?\""
+    },
+    "options": [
+      { "en": "He asked me where I lived.", "as": "He asked me where I lived." },
+      { "en": "He asked me where did I live.", "as": "He asked me where did I live." },
+      { "en": "He said me where I lived.", "as": "He said me where I lived." },
+      { "en": "He asked me where do you live.", "as": "He asked me where do you live." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Said to' becomes 'asked'; in indirect questions the word order is subject + verb and no 'do' is used.",
+      "as": "'Said to' এ 'asked' লৈ সলনি হয়; indirect question ত শব্দ ক্ৰম subject + verb হয় আৰু 'do' ব্যৱহাৰ নহয়।"
+    }
+  },
+  {
+    "id": "narration-006",
+    "q": {
+      "en": "Change into indirect speech: She said, \"Do you like tea?\"",
+      "as": "Indirect speech লৈ সলনি কৰক: She said, \"Do you like tea?\""
+    },
+    "options": [
+      { "en": "She asked if I liked tea.", "as": "She asked if I liked tea." },
+      { "en": "She asked if did I like tea.", "as": "She asked if did I like tea." },
+      { "en": "She asked that I liked tea.", "as": "She asked that I liked tea." },
+      { "en": "She said if I like tea.", "as": "She said if I like tea." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Yes/no questions are joined with 'if' or 'whether', and the tense shifts back.",
+      "as": "Yes/no প্ৰশ্ন 'if' বা 'whether' ৰে সংযোগ কৰা হয়, আৰু tense পিছলৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-007",
+    "q": {
+      "en": "Change into indirect speech: He said to her, \"Please help me.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said to her, \"Please help me.\""
+    },
+    "options": [
+      { "en": "He requested her to help him.", "as": "He requested her to help him." },
+      { "en": "He said her to help him.", "as": "He said her to help him." },
+      { "en": "He asked her that she help him.", "as": "He asked her that she help him." },
+      { "en": "He requested her to help me.", "as": "He requested her to help me." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Requests with 'please' use 'requested' + object + 'to' + verb, and 'me' changes to 'him'.",
+      "as": "'Please' ৰ অনুৰোধত 'requested' + object + 'to' + verb ব্যৱহাৰ হয়, আৰু 'me' এ 'him' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-008",
+    "q": {
+      "en": "Change into indirect speech: The officer said, \"Go away at once!\"",
+      "as": "Indirect speech লৈ সলনি কৰক: The officer said, \"Go away at once!\""
+    },
+    "options": [
+      { "en": "The officer ordered us to go away at once.", "as": "The officer ordered us to go away at once." },
+      { "en": "The officer said us to go away at once.", "as": "The officer said us to go away at once." },
+      { "en": "The officer requested us to go away at once.", "as": "The officer requested us to go away at once." },
+      { "en": "The officer told that we go away at once.", "as": "The officer told that we go away at once." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Commands use 'ordered' + object + 'to' + verb.",
+      "as": "আদেশত 'ordered' + object + 'to' + verb ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "narration-009",
+    "q": {
+      "en": "Change into indirect speech: He said, \"What a beautiful garden!\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"What a beautiful garden!\""
+    },
+    "options": [
+      { "en": "He exclaimed that the garden was very beautiful.", "as": "He exclaimed that the garden was very beautiful." },
+      { "en": "He said that what a beautiful garden.", "as": "He said that what a beautiful garden." },
+      { "en": "He asked what a beautiful garden it was.", "as": "He asked what a beautiful garden it was." },
+      { "en": "He exclaimed that what a beautiful garden.", "as": "He exclaimed that what a beautiful garden." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Exclamatory sentences use 'exclaimed' and become statements, with 'what a' changing to 'very'.",
+      "as": "বিস্ময়বোধক বাক্যত 'exclaimed' ব্যৱহাৰ হয় আৰু ই বিবৃতিত পৰিণত হয়, 'what a' এ 'very' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-010",
+    "q": {
+      "en": "Change into indirect speech: He said, \"Hurrah! We have won the match.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"Hurrah! We have won the match.\""
+    },
+    "options": [
+      { "en": "He exclaimed with joy that they had won the match.", "as": "He exclaimed with joy that they had won the match." },
+      { "en": "He said with joy that we have won the match.", "as": "He said with joy that we have won the match." },
+      { "en": "He exclaimed with sorrow that they had won the match.", "as": "He exclaimed with sorrow that they had won the match." },
+      { "en": "He asked joyfully if they had won the match.", "as": "He asked joyfully if they had won the match." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Hurrah' shows joy, so 'exclaimed with joy' is used; 'have won' becomes 'had won'.",
+      "as": "'Hurrah' এ আনন্দ প্ৰকাশ কৰে, গতিকে 'exclaimed with joy' ব্যৱহাৰ হয়; 'have won' এ 'had won' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-011",
+    "q": {
+      "en": "Change into indirect speech: She said, \"Alas! I failed the exam.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: She said, \"Alas! I failed the exam.\""
+    },
+    "options": [
+      { "en": "She exclaimed with sorrow that she had failed the exam.", "as": "She exclaimed with sorrow that she had failed the exam." },
+      { "en": "She exclaimed with joy that she had failed the exam.", "as": "She exclaimed with joy that she had failed the exam." },
+      { "en": "She said sadly that I failed the exam.", "as": "She said sadly that I failed the exam." },
+      { "en": "She asked with sorrow if she had failed the exam.", "as": "She asked with sorrow if she had failed the exam." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Alas' expresses sorrow, so 'exclaimed with sorrow' is used.",
+      "as": "'Alas' এ দুখ প্ৰকাশ কৰে, গতিকে 'exclaimed with sorrow' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "narration-012",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I was ill yesterday.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I was ill yesterday.\""
+    },
+    "options": [
+      { "en": "He said that he had been ill the previous day.", "as": "He said that he had been ill the previous day." },
+      { "en": "He said that he was ill yesterday.", "as": "He said that he was ill yesterday." },
+      { "en": "He said that I had been ill the previous day.", "as": "He said that I had been ill the previous day." },
+      { "en": "He says that he had been ill yesterday.", "as": "He says that he had been ill yesterday." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Past simple 'was' becomes past perfect 'had been', and 'yesterday' becomes 'the previous day'.",
+      "as": "Past simple 'was' এ past perfect 'had been' লৈ সলনি হয়, আৰু 'yesterday' এ 'the previous day' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-013",
+    "q": {
+      "en": "Change into indirect speech: Mother said to me, \"Don't touch the wire.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: Mother said to me, \"Don't touch the wire.\""
+    },
+    "options": [
+      { "en": "Mother warned me not to touch the wire.", "as": "Mother warned me not to touch the wire." },
+      { "en": "Mother said me don't touch the wire.", "as": "Mother said me don't touch the wire." },
+      { "en": "Mother requested me to not touch the wire.", "as": "Mother requested me to not touch the wire." },
+      { "en": "Mother ordered me don't touch the wire.", "as": "Mother ordered me don't touch the wire." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Negative commands use 'warned/ordered' + object + 'not to' + verb.",
+      "as": "নেতিবাচক আদেশত 'warned/ordered' + object + 'not to' + verb ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "narration-014",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I can solve this problem.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I can solve this problem.\""
+    },
+    "options": [
+      { "en": "He said that he could solve that problem.", "as": "He said that he could solve that problem." },
+      { "en": "He said that he can solve this problem.", "as": "He said that he can solve this problem." },
+      { "en": "He said that I could solve that problem.", "as": "He said that I could solve that problem." },
+      { "en": "He says that he could solve this problem.", "as": "He says that he could solve this problem." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Can' becomes 'could' and 'this' becomes 'that' in indirect speech.",
+      "as": "'Can' এ 'could' লৈ আৰু 'this' এ 'that' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-015",
+    "q": {
+      "en": "Change into indirect speech: She said, \"I may go to Delhi.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: She said, \"I may go to Delhi.\""
+    },
+    "options": [
+      { "en": "She said that she might go to Delhi.", "as": "She said that she might go to Delhi." },
+      { "en": "She said that she may go to Delhi.", "as": "She said that she may go to Delhi." },
+      { "en": "She said that I might go to Delhi.", "as": "She said that I might go to Delhi." },
+      { "en": "She says that she might go to Delhi.", "as": "She says that she might go to Delhi." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'May' changes to 'might' in indirect speech.",
+      "as": "Indirect speech ত 'May' এ 'might' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-016",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I must finish this work today.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I must finish this work today.\""
+    },
+    "options": [
+      { "en": "He said that he had to finish that work that day.", "as": "He said that he had to finish that work that day." },
+      { "en": "He said that he must finish this work today.", "as": "He said that he must finish this work today." },
+      { "en": "He said that I had to finish that work that day.", "as": "He said that I had to finish that work that day." },
+      { "en": "He said that he must finished that work today.", "as": "He said that he must finished that work today." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Must' changes to 'had to', 'this' to 'that', and 'today' to 'that day'.",
+      "as": "'Must' এ 'had to' লৈ, 'this' এ 'that' লৈ, আৰু 'today' এ 'that day' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-017",
+    "q": {
+      "en": "Change into indirect speech: The boy said, \"I have a headache.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: The boy said, \"I have a headache.\""
+    },
+    "options": [
+      { "en": "The boy said that he had a headache.", "as": "The boy said that he had a headache." },
+      { "en": "The boy said that he has a headache.", "as": "The boy said that he has a headache." },
+      { "en": "The boy said that I had a headache.", "as": "The boy said that I had a headache." },
+      { "en": "The boy says that he had a headache.", "as": "The boy says that he had a headache." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Present simple 'have' becomes past simple 'had'.",
+      "as": "Present simple 'have' এ past simple 'had' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-018",
+    "q": {
+      "en": "Change into indirect speech: He said to me, \"Are you coming to the party?\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said to me, \"Are you coming to the party?\""
+    },
+    "options": [
+      { "en": "He asked me if I was coming to the party.", "as": "He asked me if I was coming to the party." },
+      { "en": "He asked me if are you coming to the party.", "as": "He asked me if are you coming to the party." },
+      { "en": "He asked me was I coming to the party.", "as": "He asked me was I coming to the party." },
+      { "en": "He said to me if I was coming to the party.", "as": "He said to me if I was coming to the party." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The auxiliary 'are' moves after the subject and becomes 'was'.",
+      "as": "Sahayak 'are' subject ৰ পিছত আহে আৰু 'was' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-019",
+    "q": {
+      "en": "Change into indirect speech: She said, \"I had already eaten.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: She said, \"I had already eaten.\""
+    },
+    "options": [
+      { "en": "She said that she had already eaten.", "as": "She said that she had already eaten." },
+      { "en": "She said that she has already eaten.", "as": "She said that she has already eaten." },
+      { "en": "She said that I had already eaten.", "as": "She said that I had already eaten." },
+      { "en": "She said that she already eats.", "as": "She said that she already eats." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Past perfect tense does not change in indirect speech.",
+      "as": "Past perfect tense indirect speech ত সলনি নহয়।"
+    }
+  },
+  {
+    "id": "narration-020",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I will be late.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I will be late.\""
+    },
+    "options": [
+      { "en": "He said that he would be late.", "as": "He said that he would be late." },
+      { "en": "He said that he will be late.", "as": "He said that he will be late." },
+      { "en": "He said that I would be late.", "as": "He said that I would be late." },
+      { "en": "He says that he would be late.", "as": "He says that he would be late." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Will' changes to 'would' in indirect speech.",
+      "as": "Indirect speech ত 'Will' এ 'would' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-021",
+    "q": {
+      "en": "Change into indirect speech: The teacher said to the students, \"Open your books.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: The teacher said to the students, \"Open your books.\""
+    },
+    "options": [
+      { "en": "The teacher told the students to open their books.", "as": "The teacher told the students to open their books." },
+      { "en": "The teacher said the students to open their books.", "as": "The teacher said the students to open their books." },
+      { "en": "The teacher asked the students that they open their books.", "as": "The teacher asked the students that they open their books." },
+      { "en": "The teacher requested the students open your books.", "as": "The teacher requested the students open your books." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Commands use 'told' + object + 'to' + verb, and 'your' changes to 'their'.",
+      "as": "আদেশত 'told' + object + 'to' + verb ব্যৱহাৰ হয়, আৰু 'your' এ 'their' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-022",
+    "q": {
+      "en": "Change into indirect speech: He said, \"Where is my pen?\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"Where is my pen?\""
+    },
+    "options": [
+      { "en": "He asked where his pen was.", "as": "He asked where his pen was." },
+      { "en": "He asked where was his pen.", "as": "He asked where was his pen." },
+      { "en": "He asked where my pen was.", "as": "He asked where my pen was." },
+      { "en": "He said where his pen was.", "as": "He said where his pen was." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In indirect questions the verb comes after the subject and 'my' changes to 'his'.",
+      "as": "Indirect question ত ক্ৰিয়া subject ৰ পিছত আহে আৰু 'my' এ 'his' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-023",
+    "q": {
+      "en": "Change into indirect speech: She said, \"I saw him here.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: She said, \"I saw him here.\""
+    },
+    "options": [
+      { "en": "She said that she had seen him there.", "as": "She said that she had seen him there." },
+      { "en": "She said that she saw him here.", "as": "She said that she saw him here." },
+      { "en": "She said that I had seen him there.", "as": "She said that I had seen him there." },
+      { "en": "She says that she had seen him here.", "as": "She says that she had seen him here." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Past simple 'saw' becomes past perfect 'had seen', and 'here' becomes 'there'.",
+      "as": "Past simple 'saw' এ past perfect 'had seen' লৈ, আৰু 'here' এ 'there' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-024",
+    "q": {
+      "en": "Change into indirect speech: He said, \"Do not waste your time.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"Do not waste your time.\""
+    },
+    "options": [
+      { "en": "He advised not to waste time.", "as": "He advised not to waste time." },
+      { "en": "He said not to waste your time.", "as": "He said not to waste your time." },
+      { "en": "He advised to not waste your time.", "as": "He advised to not waste your time." },
+      { "en": "He told that do not waste time.", "as": "He told that do not waste time." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Advice in negative form uses 'advised' + 'not to' + verb.",
+      "as": "নেতিবাচক পৰামৰ্শত 'advised' + 'not to' + verb ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "narration-025",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I shall return next week.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I shall return next week.\""
+    },
+    "options": [
+      { "en": "He said that he would return the following week.", "as": "He said that he would return the following week." },
+      { "en": "He said that he would return next week.", "as": "He said that he would return next week." },
+      { "en": "He said that I should return the following week.", "as": "He said that I should return the following week." },
+      { "en": "He says that he would return next week.", "as": "He says that he would return next week." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Next week' changes to 'the following week' in indirect speech.",
+      "as": "Indirect speech ত 'Next week' এ 'the following week' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-026",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I shall be there.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I shall be there.\""
+    },
+    "options": [
+      { "en": "He said that he would be there.", "as": "He said that he would be there." },
+      { "en": "He said that he shall be there.", "as": "He said that he shall be there." },
+      { "en": "He said that I would be there.", "as": "He said that I would be there." },
+      { "en": "He said that he will be there.", "as": "He said that he will be there." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Shall' becomes 'would' when the reporting verb is in the past.",
+      "as": "Reporting verb past ত থাকিলে 'Shall' এ 'would' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-027",
+    "q": {
+      "en": "Change into indirect speech: She said, \"What are you doing?\"",
+      "as": "Indirect speech লৈ সলনি কৰক: She said, \"What are you doing?\""
+    },
+    "options": [
+      { "en": "She asked what I was doing.", "as": "She asked what I was doing." },
+      { "en": "She asked what was I doing.", "as": "She asked what was I doing." },
+      { "en": "She asked what are you doing.", "as": "She asked what are you doing." },
+      { "en": "She said what I was doing.", "as": "She said what I was doing." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The auxiliary 'are' moves after the subject and becomes 'was'.",
+      "as": "Sahayak 'are' subject ৰ পিছত আহে আৰু 'was' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-028",
+    "q": {
+      "en": "Change into indirect speech: The doctor said to me, \"Take rest for two days.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: The doctor said to me, \"Take rest for two days.\""
+    },
+    "options": [
+      { "en": "The doctor advised me to take rest for two days.", "as": "The doctor advised me to take rest for two days." },
+      { "en": "The doctor said me to take rest for two days.", "as": "The doctor said me to take rest for two days." },
+      { "en": "The doctor advised me that take rest for two days.", "as": "The doctor advised me that take rest for two days." },
+      { "en": "The doctor ordered me take rest for two days.", "as": "The doctor ordered me take rest for two days." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Advice uses 'advised' + object + 'to' + verb.",
+      "as": "পৰামৰ্শত 'advised' + object + 'to' + verb ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "narration-029",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I am not feeling well.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I am not feeling well.\""
+    },
+    "options": [
+      { "en": "He said that he was not feeling well.", "as": "He said that he was not feeling well." },
+      { "en": "He said that he is not feeling well.", "as": "He said that he is not feeling well." },
+      { "en": "He said that I was not feeling well.", "as": "He said that I was not feeling well." },
+      { "en": "He says that he was not feeling well.", "as": "He says that he was not feeling well." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Present continuous 'am not feeling' becomes past continuous 'was not feeling'.",
+      "as": "Present continuous 'am not feeling' এ past continuous 'was not feeling' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-030",
+    "q": {
+      "en": "Change into indirect speech: He said, \"Let us go for a walk.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"Let us go for a walk.\""
+    },
+    "options": [
+      { "en": "He suggested that they should go for a walk.", "as": "He suggested that they should go for a walk." },
+      { "en": "He said that let us go for a walk.", "as": "He said that let us go for a walk." },
+      { "en": "He ordered them to go for a walk.", "as": "He ordered them to go for a walk." },
+      { "en": "He asked that we should go for a walk.", "as": "He asked that we should go for a walk." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Let us' expresses suggestion, so 'suggested' + 'that' + subject + 'should' is used.",
+      "as": "'Let us' এ পৰামৰ্শ প্ৰকাশ কৰে, গতিকে 'suggested' + 'that' + subject + 'should' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "narration-031",
+    "q": {
+      "en": "Change into indirect speech: The captain said, \"Bravo! You played well.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: The captain said, \"Bravo! You played well.\""
+    },
+    "options": [
+      { "en": "The captain applauded them, saying that they had played well.", "as": "The captain applauded them, saying that they had played well." },
+      { "en": "The captain exclaimed with joy that you played well.", "as": "The captain exclaimed with joy that you played well." },
+      { "en": "The captain said bravo that they played well.", "as": "The captain said bravo that they played well." },
+      { "en": "The captain asked if they had played well.", "as": "The captain asked if they had played well." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Bravo' shows applause, so 'applauded' is used and the tense shifts back.",
+      "as": "'Bravo' এ প্ৰশংসা প্ৰকাশ কৰে, গতিকে 'applauded' ব্যৱহাৰ হয় আৰু tense পিছলৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-032",
+    "q": {
+      "en": "Change into indirect speech: She said, \"I do not know the answer.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: She said, \"I do not know the answer.\""
+    },
+    "options": [
+      { "en": "She said that she did not know the answer.", "as": "She said that she did not know the answer." },
+      { "en": "She said that she does not know the answer.", "as": "She said that she does not know the answer." },
+      { "en": "She said that I did not know the answer.", "as": "She said that I did not know the answer." },
+      { "en": "She says that she did not know the answer.", "as": "She says that she did not know the answer." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Do not know' becomes 'did not know' in indirect speech.",
+      "as": "Indirect speech ত 'Do not know' এ 'did not know' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-033",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I have been waiting since morning.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I have been waiting since morning.\""
+    },
+    "options": [
+      { "en": "He said that he had been waiting since morning.", "as": "He said that he had been waiting since morning." },
+      { "en": "He said that he has been waiting since morning.", "as": "He said that he has been waiting since morning." },
+      { "en": "He said that I had been waiting since morning.", "as": "He said that I had been waiting since morning." },
+      { "en": "He says that he had been waiting since morning.", "as": "He says that he had been waiting since morning." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Present perfect continuous 'have been waiting' becomes past perfect continuous 'had been waiting'.",
+      "as": "Present perfect continuous 'have been waiting' এ past perfect continuous 'had been waiting' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-034",
+    "q": {
+      "en": "Change into indirect speech: He said to her, \"What can I do for you?\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said to her, \"What can I do for you?\""
+    },
+    "options": [
+      { "en": "He asked her what he could do for her.", "as": "He asked her what he could do for her." },
+      { "en": "He asked her what could he do for her.", "as": "He asked her what could he do for her." },
+      { "en": "He asked her what he can do for you.", "as": "He asked her what he can do for you." },
+      { "en": "He said her what he could do for her.", "as": "He said her what he could do for her." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In indirect questions the verb follows the subject; 'can' becomes 'could' and 'you' becomes 'her'.",
+      "as": "Indirect question ত ক্ৰিয়া subject ৰ পিছত আহে; 'can' এ 'could' লৈ আৰু 'you' এ 'her' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-035",
+    "q": {
+      "en": "Change into indirect speech: Father said to me, \"Bring me a glass of water.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: Father said to me, \"Bring me a glass of water.\""
+    },
+    "options": [
+      { "en": "Father ordered me to bring him a glass of water.", "as": "Father ordered me to bring him a glass of water." },
+      { "en": "Father said me to bring him a glass of water.", "as": "Father said me to bring him a glass of water." },
+      { "en": "Father ordered me to bring me a glass of water.", "as": "Father ordered me to bring me a glass of water." },
+      { "en": "Father asked me that I bring him a glass of water.", "as": "Father asked me that I bring him a glass of water." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Commands use 'ordered' + object + 'to' + verb, and 'me' (the speaker) becomes 'him'.",
+      "as": "আদেশত 'ordered' + object + 'to' + verb ব্যৱহাৰ হয়, আৰু 'me' (বক্তা) এ 'him' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-036",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I bought a new car last month.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I bought a new car last month.\""
+    },
+    "options": [
+      { "en": "He said that he had bought a new car the previous month.", "as": "He said that he had bought a new car the previous month." },
+      { "en": "He said that he bought a new car last month.", "as": "He said that he bought a new car last month." },
+      { "en": "He said that I had bought a new car the previous month.", "as": "He said that I had bought a new car the previous month." },
+      { "en": "He says that he had bought a new car last month.", "as": "He says that he had bought a new car last month." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Bought' becomes 'had bought', and 'last month' becomes 'the previous month'.",
+      "as": "'Bought' এ 'had bought' লৈ, আৰু 'last month' এ 'the previous month' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-037",
+    "q": {
+      "en": "Change into indirect speech: She said, \"I shall have finished the work by evening.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: She said, \"I shall have finished the work by evening.\""
+    },
+    "options": [
+      { "en": "She said that she would have finished the work by evening.", "as": "She said that she would have finished the work by evening." },
+      { "en": "She said that she will have finished the work by evening.", "as": "She said that she will have finished the work by evening." },
+      { "en": "She said that I would have finished the work by evening.", "as": "She said that I would have finished the work by evening." },
+      { "en": "She says that she would have finished the work by evening.", "as": "She says that she would have finished the work by evening." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Shall have finished' becomes 'would have finished'.",
+      "as": "'Shall have finished' এ 'would have finished' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-038",
+    "q": {
+      "en": "Change into indirect speech: He said to me, \"You should work hard.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said to me, \"You should work hard.\""
+    },
+    "options": [
+      { "en": "He advised me to work hard.", "as": "He advised me to work hard." },
+      { "en": "He said me that I should work hard.", "as": "He said me that I should work hard." },
+      { "en": "He advised me that work hard.", "as": "He advised me that work hard." },
+      { "en": "He ordered me work hard.", "as": "He ordered me work hard." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Should' expressing advice becomes 'advised' + object + 'to' + verb.",
+      "as": "পৰামৰ্শমূলক 'Should' এ 'advised' + object + 'to' + verb লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-039",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I wish I were rich.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I wish I were rich.\""
+    },
+    "options": [
+      { "en": "He wished that he had been rich.", "as": "He wished that he had been rich." },
+      { "en": "He said that he wishes he were rich.", "as": "He said that he wishes he were rich." },
+      { "en": "He wished that I had been rich.", "as": "He wished that I had been rich." },
+      { "en": "He says that he wished he were rich.", "as": "He says that he wished he were rich." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A wish starting with 'I wish' uses 'wished that' and the verb shifts to the past perfect.",
+      "as": "'I wish' ৰে আৰম্ভ হোৱা ইচ্ছাত 'wished that' ব্যৱহাৰ হয় আৰু ক্ৰিয়া past perfect লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-040",
+    "q": {
+      "en": "Change into indirect speech: He said, \"May you live long!\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"May you live long!\""
+    },
+    "options": [
+      { "en": "He prayed that I might live long.", "as": "He prayed that I might live long." },
+      { "en": "He said that I may live long.", "as": "He said that I may live long." },
+      { "en": "He wished that you may live long.", "as": "He wished that you may live long." },
+      { "en": "He prayed that I may live long.", "as": "He prayed that I may live long." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Optative sentences use 'prayed' or 'wished' and 'may' shifts to 'might'.",
+      "as": "Optative বাক্যত 'prayed' বা 'wished' ব্যৱহাৰ হয় আৰু 'may' এ 'might' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-041",
+    "q": {
+      "en": "Change into indirect speech: The stranger said to me, \"Who are you?\"",
+      "as": "Indirect speech লৈ সলনি কৰক: The stranger said to me, \"Who are you?\""
+    },
+    "options": [
+      { "en": "The stranger asked me who I was.", "as": "The stranger asked me who I was." },
+      { "en": "The stranger asked me who was I.", "as": "The stranger asked me who was I." },
+      { "en": "The stranger asked me who are you.", "as": "The stranger asked me who are you." },
+      { "en": "The stranger asked to me who I was.", "as": "The stranger asked to me who I was." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In indirect questions the verb follows the subject, and 'are' becomes 'was'.",
+      "as": "Indirect question ত ক্ৰিয়া subject ৰ পিছত আহে, আৰু 'are' এ 'was' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-042",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I cannot help you.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I cannot help you.\""
+    },
+    "options": [
+      { "en": "He said that he could not help me.", "as": "He said that he could not help me." },
+      { "en": "He said that he cannot help me.", "as": "He said that he cannot help me." },
+      { "en": "He said that I could not help you.", "as": "He said that I could not help you." },
+      { "en": "He says that he could not help me.", "as": "He says that he could not help me." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Cannot' becomes 'could not', and 'you' changes according to the listener (me).",
+      "as": "'Cannot' এ 'could not' লৈ সলনি হয়, আৰু 'you' শ্ৰোতা অনুসৰি (me) সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-043",
+    "q": {
+      "en": "Change into indirect speech: She said, \"I have finished my homework.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: She said, \"I have finished my homework.\""
+    },
+    "options": [
+      { "en": "She said that she had finished her homework.", "as": "She said that she had finished her homework." },
+      { "en": "She said that she has finished her homework.", "as": "She said that she has finished her homework." },
+      { "en": "She said that I had finished my homework.", "as": "She said that I had finished my homework." },
+      { "en": "She says that she had finished her homework.", "as": "She says that she had finished her homework." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Present perfect 'have finished' becomes past perfect 'had finished', and 'my' becomes 'her'.",
+      "as": "Present perfect 'have finished' এ past perfect 'had finished' লৈ, আৰু 'my' এ 'her' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-044",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I did not see her yesterday.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I did not see her yesterday.\""
+    },
+    "options": [
+      { "en": "He said that he had not seen her the day before.", "as": "He said that he had not seen her the day before." },
+      { "en": "He said that he did not see her yesterday.", "as": "He said that he did not see her yesterday." },
+      { "en": "He said that I had not seen her the day before.", "as": "He said that I had not seen her the day before." },
+      { "en": "He says that he had not seen her yesterday.", "as": "He says that he had not seen her yesterday." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Did not see' becomes 'had not seen', and 'yesterday' becomes 'the day before'.",
+      "as": "'Did not see' এ 'had not seen' লৈ, আৰু 'yesterday' এ 'the day before' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-045",
+    "q": {
+      "en": "Change into indirect speech: He said to me, \"Wait here till I return.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said to me, \"Wait here till I return.\""
+    },
+    "options": [
+      { "en": "He told me to wait there till he returned.", "as": "He told me to wait there till he returned." },
+      { "en": "He told me to wait here till I return.", "as": "He told me to wait here till I return." },
+      { "en": "He said me to wait there till he returned.", "as": "He said me to wait there till he returned." },
+      { "en": "He ordered me wait there till he returned.", "as": "He ordered me wait there till he returned." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Commands use 'told' + object + 'to' + verb; 'here' becomes 'there' and the verb shifts back.",
+      "as": "আদেশত 'told' + object + 'to' + verb ব্যৱহাৰ হয়; 'here' এ 'there' লৈ সলনি হয় আৰু ক্ৰিয়া পিছলৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-046",
+    "q": {
+      "en": "Change into indirect speech: The teacher said, \"Water boils at 100 degrees Celsius.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: The teacher said, \"Water boils at 100 degrees Celsius.\""
+    },
+    "options": [
+      { "en": "The teacher said that water boils at 100 degrees Celsius.", "as": "The teacher said that water boils at 100 degrees Celsius." },
+      { "en": "The teacher said that water boiled at 100 degrees Celsius.", "as": "The teacher said that water boiled at 100 degrees Celsius." },
+      { "en": "The teacher says that water boiled at 100 degrees Celsius.", "as": "The teacher says that water boiled at 100 degrees Celsius." },
+      { "en": "The teacher said that water boil at 100 degrees Celsius.", "as": "The teacher said that water boil at 100 degrees Celsius." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Universal truths keep the present tense in indirect speech.",
+      "as": "সাৰ্বজনীন সত্য indirect speech ত present tense তেই থাকে।"
+    }
+  },
+  {
+    "id": "narration-047",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I am going to Delhi tomorrow.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I am going to Delhi tomorrow.\""
+    },
+    "options": [
+      { "en": "He said that he was going to Delhi the next day.", "as": "He said that he was going to Delhi the next day." },
+      { "en": "He said that he is going to Delhi tomorrow.", "as": "He said that he is going to Delhi tomorrow." },
+      { "en": "He said that I was going to Delhi the next day.", "as": "He said that I was going to Delhi the next day." },
+      { "en": "He says that he was going to Delhi tomorrow.", "as": "He says that he was going to Delhi tomorrow." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Am going' becomes 'was going', and 'tomorrow' becomes 'the next day'.",
+      "as": "'Am going' এ 'was going' লৈ, আৰু 'tomorrow' এ 'the next day' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-048",
+    "q": {
+      "en": "Change into indirect speech: She said to him, \"Will you help me?\"",
+      "as": "Indirect speech লৈ সলনি কৰক: She said to him, \"Will you help me?\""
+    },
+    "options": [
+      { "en": "She asked him if he would help her.", "as": "She asked him if he would help her." },
+      { "en": "She asked him if will he help her.", "as": "She asked him if will he help her." },
+      { "en": "She asked him if he will help me.", "as": "She asked him if he will help me." },
+      { "en": "She said him if he would help her.", "as": "She said him if he would help her." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Will' becomes 'would' and 'me' (the speaker) becomes 'her'.",
+      "as": "'Will' এ 'would' লৈ আৰু 'me' (বক্তা) এ 'her' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-049",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I would rather die than beg.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I would rather die than beg.\""
+    },
+    "options": [
+      { "en": "He said that he would rather die than beg.", "as": "He said that he would rather die than beg." },
+      { "en": "He said that he will rather die than beg.", "as": "He said that he will rather die than beg." },
+      { "en": "He said that I would rather die than beg.", "as": "He said that I would rather die than beg." },
+      { "en": "He says that he would rather die than beg.", "as": "He says that he would rather die than beg." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Would rather' does not change in indirect speech.",
+      "as": "'Would rather' indirect speech ত সলনি নহয়।"
+    }
+  },
+  {
+    "id": "narration-050",
+    "q": {
+      "en": "Change into indirect speech: He said, \"How clever you are!\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"How clever you are!\""
+    },
+    "options": [
+      { "en": "He exclaimed that I was very clever.", "as": "He exclaimed that I was very clever." },
+      { "en": "He asked how clever I was.", "as": "He asked how clever I was." },
+      { "en": "He said that how clever you are.", "as": "He said that how clever you are." },
+      { "en": "He exclaimed that you are very clever.", "as": "He exclaimed that you are very clever." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In exclamations 'how' + adjective changes to 'very' + adjective, and the verb shifts back.",
+      "as": "বিস্ময়বোধকত 'how' + adjective এ 'very' + adjective লৈ সলনি হয়, আৰু ক্ৰিয়া পিছলৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-051",
+    "q": {
+      "en": "Change into indirect speech: The judge said to the witness, \"Tell the truth.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: The judge said to the witness, \"Tell the truth.\""
+    },
+    "options": [
+      { "en": "The judge ordered the witness to tell the truth.", "as": "The judge ordered the witness to tell the truth." },
+      { "en": "The judge said the witness to tell the truth.", "as": "The judge said the witness to tell the truth." },
+      { "en": "The judge requested the witness tell the truth.", "as": "The judge requested the witness tell the truth." },
+      { "en": "The judge asked that witness tell the truth.", "as": "The judge asked that witness tell the truth." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A command from an authority uses 'ordered' + object + 'to' + verb.",
+      "as": "কৰ্তৃপক্ষৰ আদেশত 'ordered' + object + 'to' + verb ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "narration-052",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I was watching TV when the phone rang.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I was watching TV when the phone rang.\""
+    },
+    "options": [
+      { "en": "He said that he had been watching TV when the phone rang.", "as": "He said that he had been watching TV when the phone rang." },
+      { "en": "He said that he was watching TV when the phone rang.", "as": "He said that he was watching TV when the phone rang." },
+      { "en": "He said that I had been watching TV when the phone rang.", "as": "He said that I had been watching TV when the phone rang." },
+      { "en": "He says that he had been watching TV when the phone rang.", "as": "He says that he had been watching TV when the phone rang." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Past continuous 'was watching' becomes past perfect continuous 'had been watching'.",
+      "as": "Past continuous 'was watching' এ past perfect continuous 'had been watching' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-053",
+    "q": {
+      "en": "Change into indirect speech: She said, \"I have never been to London.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: She said, \"I have never been to London.\""
+    },
+    "options": [
+      { "en": "She said that she had never been to London.", "as": "She said that she had never been to London." },
+      { "en": "She said that she has never been to London.", "as": "She said that she has never been to London." },
+      { "en": "She said that I had never been to London.", "as": "She said that I had never been to London." },
+      { "en": "She says that she had never been to London.", "as": "She says that she had never been to London." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Have never been' becomes 'had never been'.",
+      "as": "'Have never been' এ 'had never been' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-054",
+    "q": {
+      "en": "Change into indirect speech: He said to me, \"Do sit down.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said to me, \"Do sit down.\""
+    },
+    "options": [
+      { "en": "He asked me to sit down.", "as": "He asked me to sit down." },
+      { "en": "He said me to sit down.", "as": "He said me to sit down." },
+      { "en": "He asked me that do sit down.", "as": "He asked me that do sit down." },
+      { "en": "He ordered me that I sit down.", "as": "He ordered me that I sit down." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The emphatic 'do' in a request is dropped, and 'asked' + object + 'to' + verb is used.",
+      "as": "অনুৰোধত ৱাচক 'do' বাদ পৰে, আৰু 'asked' + object + 'to' + verb ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "narration-055",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I met her two days ago.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I met her two days ago.\""
+    },
+    "options": [
+      { "en": "He said that he had met her two days before.", "as": "He said that he had met her two days before." },
+      { "en": "He said that he met her two days ago.", "as": "He said that he met her two days ago." },
+      { "en": "He said that I had met her two days before.", "as": "He said that I had met her two days before." },
+      { "en": "He says that he had met her two days ago.", "as": "He says that he had met her two days ago." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Met' becomes 'had met', and 'ago' becomes 'before'.",
+      "as": "'Met' এ 'had met' লৈ, আৰু 'ago' এ 'before' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-056",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I shall see you here tomorrow.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I shall see you here tomorrow.\""
+    },
+    "options": [
+      { "en": "He said that he would see me there the next day.", "as": "He said that he would see me there the next day." },
+      { "en": "He said that he would see you here tomorrow.", "as": "He said that he would see you here tomorrow." },
+      { "en": "He said that he shall see me there the next day.", "as": "He said that he shall see me there the next day." },
+      { "en": "He says that he would see me there tomorrow.", "as": "He says that he would see me there tomorrow." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Shall' becomes 'would', 'you' becomes 'me', 'here' becomes 'there', and 'tomorrow' becomes 'the next day'.",
+      "as": "'Shall' এ 'would' লৈ, 'you' এ 'me' লৈ, 'here' এ 'there' লৈ, আৰু 'tomorrow' এ 'the next day' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-057",
+    "q": {
+      "en": "Change into indirect speech: The teacher said to him, \"Why are you late?\"",
+      "as": "Indirect speech লৈ সলনি কৰক: The teacher said to him, \"Why are you late?\""
+    },
+    "options": [
+      { "en": "The teacher asked him why he was late.", "as": "The teacher asked him why he was late." },
+      { "en": "The teacher asked him why was he late.", "as": "The teacher asked him why was he late." },
+      { "en": "The teacher asked him why are you late.", "as": "The teacher asked him why are you late." },
+      { "en": "The teacher said him why he was late.", "as": "The teacher said him why he was late." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In indirect questions the verb follows the subject, and 'you' becomes 'he'.",
+      "as": "Indirect question ত ক্ৰিয়া subject ৰ পিছত আহে, আৰু 'you' এ 'he' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-058",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I need not go there.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I need not go there.\""
+    },
+    "options": [
+      { "en": "He said that he did not need to go there.", "as": "He said that he did not need to go there." },
+      { "en": "He said that he need not go there.", "as": "He said that he need not go there." },
+      { "en": "He said that I did not need to go there.", "as": "He said that I did not need to go there." },
+      { "en": "He says that he did not need to go there.", "as": "He says that he did not need to go there." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Need not' becomes 'did not need to', and 'there' stays 'there'.",
+      "as": "'Need not' এ 'did not need to' লৈ সলনি হয়, আৰু 'there' 'there' হৈয়ে থাকে।"
+    }
+  },
+  {
+    "id": "narration-059",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I am doing my duty.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I am doing my duty.\""
+    },
+    "options": [
+      { "en": "He said that he was doing his duty.", "as": "He said that he was doing his duty." },
+      { "en": "He said that he is doing his duty.", "as": "He said that he is doing his duty." },
+      { "en": "He said that I was doing my duty.", "as": "He said that I was doing my duty." },
+      { "en": "He says that he was doing his duty.", "as": "He says that he was doing his duty." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Present continuous 'am doing' becomes past continuous 'was doing', and 'my' becomes 'his'.",
+      "as": "Present continuous 'am doing' এ past continuous 'was doing' লৈ, আৰু 'my' এ 'his' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-060",
+    "q": {
+      "en": "Change into indirect speech: He said to me, \"Let me go home.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said to me, \"Let me go home.\""
+    },
+    "options": [
+      { "en": "He asked me to let him go home.", "as": "He asked me to let him go home." },
+      { "en": "He said to let me go home.", "as": "He said to let me go home." },
+      { "en": "He ordered me let him go home.", "as": "He ordered me let him go home." },
+      { "en": "He requested that I go home.", "as": "He requested that I go home." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Let me' expresses a request for permission, so 'asked' + 'to let' + object + verb is used.",
+      "as": "'Let me' এ অনুমতিৰ অনুৰোধ প্ৰকাশ কৰে, গতিকে 'asked' + 'to let' + object + verb ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "narration-061",
+    "q": {
+      "en": "Change into indirect speech: She said, \"I have a lot of work to do.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: She said, \"I have a lot of work to do.\""
+    },
+    "options": [
+      { "en": "She said that she had a lot of work to do.", "as": "She said that she had a lot of work to do." },
+      { "en": "She said that she has a lot of work to do.", "as": "She said that she has a lot of work to do." },
+      { "en": "She said that I had a lot of work to do.", "as": "She said that I had a lot of work to do." },
+      { "en": "She says that she had a lot of work to do.", "as": "She says that she had a lot of work to do." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Present simple 'have' becomes past simple 'had'.",
+      "as": "Present simple 'have' এ past simple 'had' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-062",
+    "q": {
+      "en": "Change into indirect speech: He said, \"Are you ready?\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"Are you ready?\""
+    },
+    "options": [
+      { "en": "He asked if I was ready.", "as": "He asked if I was ready." },
+      { "en": "He asked if are you ready.", "as": "He asked if are you ready." },
+      { "en": "He asked that I was ready.", "as": "He asked that I was ready." },
+      { "en": "He said if I was ready.", "as": "He said if I was ready." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Yes/no questions are reported with 'if' and a changed word order.",
+      "as": "Yes/no প্ৰশ্ন 'if' ৰ সৈতে আৰু সলনি হোৱা শব্দ ক্ৰমেৰে প্ৰকাশ কৰা হয়।"
+    }
+  },
+  {
+    "id": "narration-063",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I shall not forgive him.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I shall not forgive him.\""
+    },
+    "options": [
+      { "en": "He said that he would not forgive him.", "as": "He said that he would not forgive him." },
+      { "en": "He said that he shall not forgive him.", "as": "He said that he shall not forgive him." },
+      { "en": "He said that I would not forgive him.", "as": "He said that I would not forgive him." },
+      { "en": "He says that he would not forgive him.", "as": "He says that he would not forgive him." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Shall not' becomes 'would not' in indirect speech.",
+      "as": "Indirect speech ত 'Shall not' এ 'would not' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-064",
+    "q": {
+      "en": "Change into indirect speech: The teacher said, \"You must obey your parents.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: The teacher said, \"You must obey your parents.\""
+    },
+    "options": [
+      { "en": "The teacher said that we must obey our parents.", "as": "The teacher said that we must obey our parents." },
+      { "en": "The teacher said that you must obey your parents.", "as": "The teacher said that you must obey your parents." },
+      { "en": "The teacher said that they must obey their parents.", "as": "The teacher said that they must obey their parents." },
+      { "en": "The teacher said that we had to obeyed our parents.", "as": "The teacher said that we had to obeyed our parents." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Must' expressing a permanent rule may stay 'must'; 'you' becomes 'we' and 'your' becomes 'our'.",
+      "as": "চিৰস্থায়ী নিয়ম বুজোৱা 'must' 'must' হৈয়ে থাকিব পাৰে; 'you' এ 'we' লৈ আৰু 'your' এ 'our' লৈ সলনি হয়।"
+    }
+  },
+  {
+    "id": "narration-065",
+    "q": {
+      "en": "Change into indirect speech: He said, \"I hope you will pass.\"",
+      "as": "Indirect speech লৈ সলনি কৰক: He said, \"I hope you will pass.\""
+    },
+    "options": [
+      { "en": "He said that he hoped I would pass.", "as": "He said that he hoped I would pass." },
+      { "en": "He said that he hope you will pass.", "as": "He said that he hope you will pass." },
+      { "en": "He said that he hoped you will pass.", "as": "He said that he hoped you will pass." },
+      { "en": "He says that he hoped I would pass.", "as": "He says that he hoped I would pass." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Hope' becomes 'hoped', 'you' becomes 'I', and 'will' becomes 'would'.",
+      "as": "'Hope' এ 'hoped' লৈ, 'you' এ 'I' লৈ, আৰু 'will' এ 'would' লৈ সলনি হয়।"
     }
   }
 ]
