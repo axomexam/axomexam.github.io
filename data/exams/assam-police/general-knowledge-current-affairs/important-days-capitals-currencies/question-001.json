@@ -1,30 +1,8582 @@
-{
-  "id": "important-days-capitals-currencies-001",
-  "q": {
-    "en": "What is the currency of Japan?",
-    "as": "জাপানৰ মুদ্ৰা কি?"
-  },
-  "options": [
-    {
-      "en": "Yen",
-      "as": "য়েন"
+[
+  {
+    "id": "important-days-001",
+    "q": {
+      "en": "New Year's Day is celebrated on —",
+      "as": "নতুন বছৰৰ দিন কেতিয়া পালন কৰা হয় —"
     },
-    {
-      "en": "Yuan",
-      "as": "ইউয়ান"
-    },
-    {
-      "en": "Won",
-      "as": "ৱন"
-    },
-    {
-      "en": "Dollar",
-      "as": "ডলাৰ"
+    "options": [
+      {
+        "en": "January 9",
+        "as": "৯ জানুৱাৰী"
+      },
+      {
+        "en": "January 1",
+        "as": "১ জানুৱাৰী"
+      },
+      {
+        "en": "December 31",
+        "as": "৩১ ডিচেম্বৰ"
+      },
+      {
+        "en": "February 1",
+        "as": "১ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "New Year's Day is celebrated on January 1.",
+      "as": "নতুন বছৰৰ দিন ১ জানুৱাৰীত পালন কৰা হয়।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "The Japanese currency is the yen (¥).",
-    "as": "জাপানৰ মুদ্ৰা হৈছে য়েন (¥)।"
+  },
+  {
+    "id": "important-days-002",
+    "q": {
+      "en": "Pravasi Bharatiya Divas (NRI Day) is observed on —",
+      "as": "প্ৰৱাসী ভাৰতীয় দিৱস (এনআৰআই দিৱস) কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "January 15",
+        "as": "১৫ জানুৱাৰী"
+      },
+      {
+        "en": "January 1",
+        "as": "১ জানুৱাৰী"
+      },
+      {
+        "en": "January 9",
+        "as": "৯ জানুৱাৰী"
+      },
+      {
+        "en": "January 26",
+        "as": "২৬ জানুৱাৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Pravasi Bharatiya Divas is observed on January 9.",
+      "as": "প্ৰৱাসী ভাৰতীয় দিৱস ৯ জানুৱাৰীত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-003",
+    "q": {
+      "en": "National Youth Day in India is celebrated on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় যুৱ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "January 15",
+        "as": "১৫ জানুৱাৰী"
+      },
+      {
+        "en": "January 12",
+        "as": "১২ জানুৱাৰী"
+      },
+      {
+        "en": "January 23",
+        "as": "২৩ জানুৱাৰী"
+      },
+      {
+        "en": "January 30",
+        "as": "৩০ জানুৱাৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "National Youth Day is on January 12, Swami Vivekananda's birthday.",
+      "as": "ৰাষ্ট্ৰীয় যুৱ দিৱস ১২ জানুৱাৰীত, স্বামী বিবেকানন্দৰ জন্মদিন।"
+    }
+  },
+  {
+    "id": "important-days-004",
+    "q": {
+      "en": "Army Day in India is observed on —",
+      "as": "ভাৰতত সেনা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "January 15",
+        "as": "১৫ জানুৱাৰী"
+      },
+      {
+        "en": "January 12",
+        "as": "১২ জানুৱাৰী"
+      },
+      {
+        "en": "January 24",
+        "as": "২৪ জানুৱাৰী"
+      },
+      {
+        "en": "January 26",
+        "as": "২৬ জানুৱাৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Army Day is observed on January 15.",
+      "as": "সেনা দিৱস ১৫ জানুৱাৰীত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-005",
+    "q": {
+      "en": "Parakram Diwas is celebrated on the birth anniversary of —",
+      "as": "পৰাক্ৰম দিৱস কাৰ জন্মজয়ন্তীত পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "Bhagat Singh",
+        "as": "ভগত সিং"
+      },
+      {
+        "en": "Mahatma Gandhi",
+        "as": "মহাত্মা গান্ধী"
+      },
+      {
+        "en": "Netaji Subhas Chandra Bose",
+        "as": "নেতাজী সুভাষ চন্দ্ৰ বসু"
+      },
+      {
+        "en": "Sardar Patel",
+        "as": "ছৰ্দাৰ পেটেল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Parakram Diwas, on January 23, marks Netaji's birth anniversary.",
+      "as": "২৩ জানুৱাৰীত পৰাক্ৰম দিৱস নেতাজীৰ জন্মজয়ন্তী উপলক্ষে পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-006",
+    "q": {
+      "en": "National Girl Child Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় কন্যা শিশু দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "January 26",
+        "as": "২৬ জানুৱাৰী"
+      },
+      {
+        "en": "January 12",
+        "as": "১২ জানুৱাৰী"
+      },
+      {
+        "en": "January 24",
+        "as": "২৪ জানুৱাৰী"
+      },
+      {
+        "en": "March 8",
+        "as": "৮ মাৰ্চ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "National Girl Child Day is on January 24.",
+      "as": "ৰাষ্ট্ৰীয় কন্যা শিশু দিৱস ২৪ জানুৱাৰীত।"
+    }
+  },
+  {
+    "id": "important-days-007",
+    "q": {
+      "en": "National Voters' Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় ভোটাৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "February 25",
+        "as": "২৫ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "January 15",
+        "as": "১৫ জানুৱাৰী"
+      },
+      {
+        "en": "January 26",
+        "as": "২৬ জানুৱাৰী"
+      },
+      {
+        "en": "January 25",
+        "as": "২৫ জানুৱাৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "National Voters' Day is on January 25.",
+      "as": "ৰাষ্ট্ৰীয় ভোটাৰ দিৱস ২৫ জানুৱাৰীত।"
+    }
+  },
+  {
+    "id": "important-days-008",
+    "q": {
+      "en": "Republic Day in India is celebrated on —",
+      "as": "ভাৰতত গণৰাজ্য দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "January 1",
+        "as": "১ জানুৱাৰী"
+      },
+      {
+        "en": "August 15",
+        "as": "১৫ আগষ্ট"
+      },
+      {
+        "en": "January 26",
+        "as": "২৬ জানুৱাৰী"
+      },
+      {
+        "en": "November 26",
+        "as": "২৬ নৱেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Republic Day is celebrated on January 26.",
+      "as": "গণৰাজ্য দিৱস ২৬ জানুৱাৰীত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-009",
+    "q": {
+      "en": "Martyrs' Day (Shaheed Diwas) is observed on —",
+      "as": "শ্বহীদ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "January 30",
+        "as": "৩০ জানুৱাৰী"
+      },
+      {
+        "en": "January 26",
+        "as": "২৬ জানুৱাৰী"
+      },
+      {
+        "en": "March 23",
+        "as": "২৩ মাৰ্চ"
+      },
+      {
+        "en": "November 26",
+        "as": "২৬ নৱেম্বৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Martyrs' Day is observed on January 30.",
+      "as": "শ্বহীদ দিৱস ৩০ জানুৱাৰীত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-010",
+    "q": {
+      "en": "World Wetlands Day is observed on —",
+      "as": "বিশ্ব জলাশয় দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "February 20",
+        "as": "২০ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "February 4",
+        "as": "৪ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "March 22",
+        "as": "২২ মাৰ্চ"
+      },
+      {
+        "en": "February 2",
+        "as": "২ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Wetlands Day is on February 2.",
+      "as": "বিশ্ব জলাশয় দিৱস ২ ফেব্ৰুৱাৰীত।"
+    }
+  },
+  {
+    "id": "important-days-011",
+    "q": {
+      "en": "World Cancer Day is observed on —",
+      "as": "বিশ্ব কৰ্কট ৰোগ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "November 7",
+        "as": "৭ নৱেম্বৰ"
+      },
+      {
+        "en": "February 2",
+        "as": "২ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "February 28",
+        "as": "২৮ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "February 4",
+        "as": "৪ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Cancer Day is on February 4.",
+      "as": "বিশ্ব কৰ্কট ৰোগ দিৱস ৪ ফেব্ৰুৱাৰীত।"
+    }
+  },
+  {
+    "id": "important-days-012",
+    "q": {
+      "en": "World Radio Day is observed on —",
+      "as": "বিশ্ব ৰেডিঅ' দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "February 20",
+        "as": "২০ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "February 14",
+        "as": "১৪ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "February 13",
+        "as": "১৩ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "February 21",
+        "as": "২১ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Radio Day is on February 13.",
+      "as": "বিশ্ব ৰেডিঅ' দিৱস ১৩ ফেব্ৰুৱাৰীত।"
+    }
+  },
+  {
+    "id": "important-days-013",
+    "q": {
+      "en": "World Day of Social Justice is observed on —",
+      "as": "বিশ্ব সামাজিক ন্যায় দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "February 22",
+        "as": "২২ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "February 21",
+        "as": "২১ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "February 20",
+        "as": "২০ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "February 28",
+        "as": "২৮ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Day of Social Justice is on February 20.",
+      "as": "বিশ্ব সামাজিক ন্যায় দিৱস ২০ ফেব্ৰুৱাৰীত।"
+    }
+  },
+  {
+    "id": "important-days-014",
+    "q": {
+      "en": "International Mother Language Day is observed on —",
+      "as": "আন্তৰ্জাতিক মাতৃভাষা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "February 13",
+        "as": "১৩ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "February 20",
+        "as": "২০ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "February 21",
+        "as": "২১ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "September 14",
+        "as": "১৪ ছেপ্টেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "International Mother Language Day is on February 21.",
+      "as": "আন্তৰ্জাতিক মাতৃভাষা দিৱস ২১ ফেব্ৰুৱাৰীত।"
+    }
+  },
+  {
+    "id": "important-days-015",
+    "q": {
+      "en": "National Science Day in India is celebrated on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় বিজ্ঞান দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "January 12",
+        "as": "১২ জানুৱাৰী"
+      },
+      {
+        "en": "February 21",
+        "as": "২১ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "February 28",
+        "as": "২৮ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "May 11",
+        "as": "১১ মে'"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "National Science Day is on February 28, marking Raman's discovery.",
+      "as": "ৰাষ্ট্ৰীয় বিজ্ঞান দিৱস ২৮ ফেব্ৰুৱাৰীত, ৰমণৰ আৱিষ্কাৰক স্মৰণ কৰি।"
+    }
+  },
+  {
+    "id": "important-days-016",
+    "q": {
+      "en": "World Civil Defence Day is observed on —",
+      "as": "বিশ্ব অসামৰিক সুৰক্ষা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "March 3",
+        "as": "৩ মাৰ্চ"
+      },
+      {
+        "en": "March 1",
+        "as": "১ মাৰ্চ"
+      },
+      {
+        "en": "March 4",
+        "as": "৪ মাৰ্চ"
+      },
+      {
+        "en": "March 8",
+        "as": "৮ মাৰ্চ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Civil Defence Day is on March 1.",
+      "as": "বিশ্ব অসামৰিক সুৰক্ষা দিৱস ১ মাৰ্চত।"
+    }
+  },
+  {
+    "id": "important-days-017",
+    "q": {
+      "en": "World Wildlife Day is observed on —",
+      "as": "বিশ্ব বন্যপ্ৰাণী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "March 22",
+        "as": "২২ মাৰ্চ"
+      },
+      {
+        "en": "March 1",
+        "as": "১ মাৰ্চ"
+      },
+      {
+        "en": "March 21",
+        "as": "২১ মাৰ্চ"
+      },
+      {
+        "en": "March 3",
+        "as": "৩ মাৰ্চ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Wildlife Day is on March 3.",
+      "as": "বিশ্ব বন্যপ্ৰাণী দিৱস ৩ মাৰ্চত।"
+    }
+  },
+  {
+    "id": "important-days-018",
+    "q": {
+      "en": "National Safety Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় সুৰক্ষা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "March 4",
+        "as": "৪ মাৰ্চ"
+      },
+      {
+        "en": "March 1",
+        "as": "১ মাৰ্চ"
+      },
+      {
+        "en": "March 3",
+        "as": "৩ মাৰ্চ"
+      },
+      {
+        "en": "March 8",
+        "as": "৮ মাৰ্চ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "National Safety Day is on March 4.",
+      "as": "ৰাষ্ট্ৰীয় সুৰক্ষা দিৱস ৪ মাৰ্চত।"
+    }
+  },
+  {
+    "id": "important-days-019",
+    "q": {
+      "en": "International Women's Day is celebrated on —",
+      "as": "আন্তৰ্জাতিক নাৰী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "March 8",
+        "as": "৮ মাৰ্চ"
+      },
+      {
+        "en": "March 4",
+        "as": "৪ মাৰ্চ"
+      },
+      {
+        "en": "January 24",
+        "as": "২৪ জানুৱাৰী"
+      },
+      {
+        "en": "October 11",
+        "as": "১১ অক্টোবৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "International Women's Day is on March 8.",
+      "as": "আন্তৰ্জাতিক নাৰী দিৱস ৮ মাৰ্চত।"
+    }
+  },
+  {
+    "id": "important-days-020",
+    "q": {
+      "en": "World Consumer Rights Day is observed on —",
+      "as": "বিশ্ব গ্ৰাহক অধিকাৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "March 24",
+        "as": "২৪ মাৰ্চ"
+      },
+      {
+        "en": "March 14",
+        "as": "১৪ মাৰ্চ"
+      },
+      {
+        "en": "March 20",
+        "as": "২০ মাৰ্চ"
+      },
+      {
+        "en": "March 15",
+        "as": "১৫ মাৰ্চ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Consumer Rights Day is on March 15.",
+      "as": "বিশ্ব গ্ৰাহক অধিকাৰ দিৱস ১৫ মাৰ্চত।"
+    }
+  },
+  {
+    "id": "important-days-021",
+    "q": {
+      "en": "International Day of Happiness is observed on —",
+      "as": "আন্তৰ্জাতিক সুখ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "March 22",
+        "as": "২২ মাৰ্চ"
+      },
+      {
+        "en": "March 21",
+        "as": "২১ মাৰ্চ"
+      },
+      {
+        "en": "March 20",
+        "as": "২০ মাৰ্চ"
+      },
+      {
+        "en": "March 8",
+        "as": "৮ মাৰ্চ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "International Day of Happiness is on March 20.",
+      "as": "আন্তৰ্জাতিক সুখ দিৱস ২০ মাৰ্চত।"
+    }
+  },
+  {
+    "id": "important-days-022",
+    "q": {
+      "en": "World Forestry Day is observed on —",
+      "as": "বিশ্ব বনানী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "March 3",
+        "as": "৩ মাৰ্চ"
+      },
+      {
+        "en": "March 20",
+        "as": "২০ মাৰ্চ"
+      },
+      {
+        "en": "March 22",
+        "as": "২২ মাৰ্চ"
+      },
+      {
+        "en": "March 21",
+        "as": "২১ মাৰ্চ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Forestry Day is on March 21.",
+      "as": "বিশ্ব বনানী দিৱস ২১ মাৰ্চত।"
+    }
+  },
+  {
+    "id": "important-days-023",
+    "q": {
+      "en": "World Water Day is observed on —",
+      "as": "বিশ্ব জল দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "March 22",
+        "as": "২২ মাৰ্চ"
+      },
+      {
+        "en": "March 21",
+        "as": "২১ মাৰ্চ"
+      },
+      {
+        "en": "March 23",
+        "as": "২৩ মাৰ্চ"
+      },
+      {
+        "en": "February 2",
+        "as": "২ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Water Day is on March 22.",
+      "as": "বিশ্ব জল দিৱস ২২ মাৰ্চত।"
+    }
+  },
+  {
+    "id": "important-days-024",
+    "q": {
+      "en": "World Meteorological Day is observed on —",
+      "as": "বিশ্ব বতৰ বিজ্ঞান দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "March 24",
+        "as": "২৪ মাৰ্চ"
+      },
+      {
+        "en": "March 22",
+        "as": "২২ মাৰ্চ"
+      },
+      {
+        "en": "March 23",
+        "as": "২৩ মাৰ্চ"
+      },
+      {
+        "en": "March 21",
+        "as": "২১ মাৰ্চ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Meteorological Day is on March 23.",
+      "as": "বিশ্ব বতৰ বিজ্ঞান দিৱস ২৩ মাৰ্চত।"
+    }
+  },
+  {
+    "id": "important-days-025",
+    "q": {
+      "en": "World Tuberculosis (TB) Day is observed on —",
+      "as": "বিশ্ব যক্ষ্মা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "March 27",
+        "as": "২৭ মাৰ্চ"
+      },
+      {
+        "en": "March 23",
+        "as": "২৩ মাৰ্চ"
+      },
+      {
+        "en": "March 24",
+        "as": "২৪ মাৰ্চ"
+      },
+      {
+        "en": "April 7",
+        "as": "৭ এপ্ৰিল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World TB Day is on March 24.",
+      "as": "বিশ্ব যক্ষ্মা দিৱস ২৪ মাৰ্চত।"
+    }
+  },
+  {
+    "id": "important-days-026",
+    "q": {
+      "en": "World Theatre Day is observed on —",
+      "as": "বিশ্ব নাট্য দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "April 1",
+        "as": "১ এপ্ৰিল"
+      },
+      {
+        "en": "March 24",
+        "as": "২৪ মাৰ্চ"
+      },
+      {
+        "en": "March 23",
+        "as": "২৩ মাৰ্চ"
+      },
+      {
+        "en": "March 27",
+        "as": "২৭ মাৰ্চ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Theatre Day is on March 27.",
+      "as": "বিশ্ব নাট্য দিৱস ২৭ মাৰ্চত।"
+    }
+  },
+  {
+    "id": "important-days-027",
+    "q": {
+      "en": "Odisha Day (Utkal Divas) is celebrated on —",
+      "as": "ওড়িশা দিৱস (উৎকল দিৱস) কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "April 1",
+        "as": "১ এপ্ৰিল"
+      },
+      {
+        "en": "April 2",
+        "as": "২ এপ্ৰিল"
+      },
+      {
+        "en": "April 5",
+        "as": "৫ এপ্ৰিল"
+      },
+      {
+        "en": "April 14",
+        "as": "১৪ এপ্ৰিল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Odisha Day is celebrated on April 1.",
+      "as": "ওড়িশা দিৱস ১ এপ্ৰিলত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-028",
+    "q": {
+      "en": "World Autism Awareness Day is observed on —",
+      "as": "বিশ্ব অটিজম সজাগতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "April 1",
+        "as": "১ এপ্ৰিল"
+      },
+      {
+        "en": "April 2",
+        "as": "২ এপ্ৰিল"
+      },
+      {
+        "en": "April 5",
+        "as": "৫ এপ্ৰিল"
+      },
+      {
+        "en": "April 7",
+        "as": "৭ এপ্ৰিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Autism Awareness Day is on April 2.",
+      "as": "বিশ্ব অটিজম সজাগতা দিৱস ২ এপ্ৰিলত।"
+    }
+  },
+  {
+    "id": "important-days-029",
+    "q": {
+      "en": "National Maritime Day of India is observed on —",
+      "as": "ভাৰতৰ ৰাষ্ট্ৰীয় সামুদ্ৰিক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "April 14",
+        "as": "১৪ এপ্ৰিল"
+      },
+      {
+        "en": "April 2",
+        "as": "২ এপ্ৰিল"
+      },
+      {
+        "en": "April 7",
+        "as": "৭ এপ্ৰিল"
+      },
+      {
+        "en": "April 5",
+        "as": "৫ এপ্ৰিল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "National Maritime Day is on April 5.",
+      "as": "ৰাষ্ট্ৰীয় সামুদ্ৰিক দিৱস ৫ এপ্ৰিলত।"
+    }
+  },
+  {
+    "id": "important-days-030",
+    "q": {
+      "en": "World Health Day is observed on —",
+      "as": "বিশ্ব স্বাস্থ্য দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "April 11",
+        "as": "১১ এপ্ৰিল"
+      },
+      {
+        "en": "April 5",
+        "as": "৫ এপ্ৰিল"
+      },
+      {
+        "en": "April 7",
+        "as": "৭ এপ্ৰিল"
+      },
+      {
+        "en": "April 22",
+        "as": "২২ এপ্ৰিল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Health Day is on April 7.",
+      "as": "বিশ্ব স্বাস্থ্য দিৱস ৭ এপ্ৰিলত।"
+    }
+  },
+  {
+    "id": "important-days-031",
+    "q": {
+      "en": "National Safe Motherhood Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় সুৰক্ষিত মাতৃত্ব দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "May 12",
+        "as": "১২ মে'"
+      },
+      {
+        "en": "April 7",
+        "as": "৭ এপ্ৰিল"
+      },
+      {
+        "en": "April 14",
+        "as": "১৪ এপ্ৰিল"
+      },
+      {
+        "en": "April 11",
+        "as": "১১ এপ্ৰিল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "National Safe Motherhood Day is on April 11.",
+      "as": "ৰাষ্ট্ৰীয় সুৰক্ষিত মাতৃত্ব দিৱস ১১ এপ্ৰিলত।"
+    }
+  },
+  {
+    "id": "important-days-032",
+    "q": {
+      "en": "Jallianwala Bagh Massacre Day is observed on —",
+      "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ড দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "April 17",
+        "as": "১৭ এপ্ৰিল"
+      },
+      {
+        "en": "April 11",
+        "as": "১১ এপ্ৰিল"
+      },
+      {
+        "en": "April 14",
+        "as": "১৪ এপ্ৰিল"
+      },
+      {
+        "en": "April 13",
+        "as": "১৩ এপ্ৰিল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Jallianwala Bagh Massacre Day is on April 13.",
+      "as": "জালিয়ানৱালা বাগ হত্যাকাণ্ড দিৱস ১৩ এপ্ৰিলত।"
+    }
+  },
+  {
+    "id": "important-days-033",
+    "q": {
+      "en": "Ambedkar Jayanti is celebrated on —",
+      "as": "আম্বেদকৰ জয়ন্তী কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "April 14",
+        "as": "১৪ এপ্ৰিল"
+      },
+      {
+        "en": "April 13",
+        "as": "১৩ এপ্ৰিল"
+      },
+      {
+        "en": "April 17",
+        "as": "১৭ এপ্ৰিল"
+      },
+      {
+        "en": "April 22",
+        "as": "২২ এপ্ৰিল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ambedkar Jayanti is on April 14.",
+      "as": "আম্বেদকৰ জয়ন্তী ১৪ এপ্ৰিলত।"
+    }
+  },
+  {
+    "id": "important-days-034",
+    "q": {
+      "en": "World Haemophilia Day is observed on —",
+      "as": "বিশ্ব হিম'ফিলিয়া দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "April 17",
+        "as": "১৭ এপ্ৰিল"
+      },
+      {
+        "en": "April 14",
+        "as": "১৪ এপ্ৰিল"
+      },
+      {
+        "en": "April 18",
+        "as": "১৮ এপ্ৰিল"
+      },
+      {
+        "en": "April 22",
+        "as": "২২ এপ্ৰিল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Haemophilia Day is on April 17.",
+      "as": "বিশ্ব হিম'ফিলিয়া দিৱস ১৭ এপ্ৰিলত।"
+    }
+  },
+  {
+    "id": "important-days-035",
+    "q": {
+      "en": "World Heritage Day is observed on —",
+      "as": "বিশ্ব ঐতিহ্য দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "April 22",
+        "as": "২২ এপ্ৰিল"
+      },
+      {
+        "en": "April 17",
+        "as": "১৭ এপ্ৰিল"
+      },
+      {
+        "en": "April 18",
+        "as": "১৮ এপ্ৰিল"
+      },
+      {
+        "en": "April 23",
+        "as": "২৩ এপ্ৰিল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Heritage Day is on April 18.",
+      "as": "বিশ্ব ঐতিহ্য দিৱস ১৮ এপ্ৰিলত।"
+    }
+  },
+  {
+    "id": "important-days-036",
+    "q": {
+      "en": "World Earth Day is observed on —",
+      "as": "বিশ্ব পৃথিৱী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "April 23",
+        "as": "২৩ এপ্ৰিল"
+      },
+      {
+        "en": "April 18",
+        "as": "১৮ এপ্ৰিল"
+      },
+      {
+        "en": "April 22",
+        "as": "২২ এপ্ৰিল"
+      },
+      {
+        "en": "May 1",
+        "as": "১ মে'"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Earth Day is on April 22.",
+      "as": "বিশ্ব পৃথিৱী দিৱস ২২ এপ্ৰিলত।"
+    }
+  },
+  {
+    "id": "important-days-037",
+    "q": {
+      "en": "World Book and Copyright Day is observed on —",
+      "as": "বিশ্ব গ্ৰন্থ আৰু কপিৰাইট দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "April 23",
+        "as": "২৩ এপ্ৰিল"
+      },
+      {
+        "en": "April 22",
+        "as": "২২ এপ্ৰিল"
+      },
+      {
+        "en": "April 25",
+        "as": "২৫ এপ্ৰিল"
+      },
+      {
+        "en": "April 26",
+        "as": "২৬ এপ্ৰিল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Book Day is on April 23.",
+      "as": "বিশ্ব গ্ৰন্থ দিৱস ২৩ এপ্ৰিলত।"
+    }
+  },
+  {
+    "id": "important-days-038",
+    "q": {
+      "en": "World Malaria Day is observed on —",
+      "as": "বিশ্ব মেলেৰিয়া দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "April 23",
+        "as": "২৩ এপ্ৰিল"
+      },
+      {
+        "en": "April 25",
+        "as": "২৫ এপ্ৰিল"
+      },
+      {
+        "en": "April 26",
+        "as": "২৬ এপ্ৰিল"
+      },
+      {
+        "en": "April 22",
+        "as": "২২ এপ্ৰিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Malaria Day is on April 25.",
+      "as": "বিশ্ব মেলেৰিয়া দিৱস ২৫ এপ্ৰিলত।"
+    }
+  },
+  {
+    "id": "important-days-039",
+    "q": {
+      "en": "World Intellectual Property Day is observed on —",
+      "as": "বিশ্ব বৌদ্ধিক সম্পত্তি দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "April 23",
+        "as": "২৩ এপ্ৰিল"
+      },
+      {
+        "en": "April 25",
+        "as": "২৫ এপ্ৰিল"
+      },
+      {
+        "en": "April 26",
+        "as": "২৬ এপ্ৰিল"
+      },
+      {
+        "en": "May 1",
+        "as": "১ মে'"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Intellectual Property Day is on April 26.",
+      "as": "বিশ্ব বৌদ্ধিক সম্পত্তি দিৱস ২৬ এপ্ৰিলত।"
+    }
+  },
+  {
+    "id": "important-days-040",
+    "q": {
+      "en": "International Labour Day is celebrated on —",
+      "as": "আন্তৰ্জাতিক শ্ৰমিক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "May 11",
+        "as": "১১ মে'"
+      },
+      {
+        "en": "May 3",
+        "as": "৩ মে'"
+      },
+      {
+        "en": "May 8",
+        "as": "৮ মে'"
+      },
+      {
+        "en": "May 1",
+        "as": "১ মে'"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "International Labour Day is on May 1.",
+      "as": "আন্তৰ্জাতিক শ্ৰমিক দিৱস ১ মে'ত।"
+    }
+  },
+  {
+    "id": "important-days-041",
+    "q": {
+      "en": "World Press Freedom Day is observed on —",
+      "as": "বিশ্ব সংবাদ মাধ্যম স্বাধীনতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "May 1",
+        "as": "১ মে'"
+      },
+      {
+        "en": "May 3",
+        "as": "৩ মে'"
+      },
+      {
+        "en": "May 11",
+        "as": "১১ মে'"
+      },
+      {
+        "en": "May 8",
+        "as": "৮ মে'"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Press Freedom Day is on May 3.",
+      "as": "বিশ্ব সংবাদ মাধ্যম স্বাধীনতা দিৱস ৩ মে'ত।"
+    }
+  },
+  {
+    "id": "important-days-042",
+    "q": {
+      "en": "World Red Cross Day is observed on —",
+      "as": "বিশ্ব ৰেড ক্ৰছ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "May 17",
+        "as": "১৭ মে'"
+      },
+      {
+        "en": "May 3",
+        "as": "৩ মে'"
+      },
+      {
+        "en": "May 12",
+        "as": "১২ মে'"
+      },
+      {
+        "en": "May 8",
+        "as": "৮ মে'"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Red Cross Day is on May 8.",
+      "as": "বিশ্ব ৰেড ক্ৰছ দিৱস ৮ মে'ত।"
+    }
+  },
+  {
+    "id": "important-days-043",
+    "q": {
+      "en": "National Technology Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় প্ৰযুক্তি দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "May 8",
+        "as": "৮ মে'"
+      },
+      {
+        "en": "May 11",
+        "as": "১১ মে'"
+      },
+      {
+        "en": "May 12",
+        "as": "১২ মে'"
+      },
+      {
+        "en": "May 21",
+        "as": "২১ মে'"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "National Technology Day is on May 11.",
+      "as": "ৰাষ্ট্ৰীয় প্ৰযুক্তি দিৱস ১১ মে'ত।"
+    }
+  },
+  {
+    "id": "important-days-044",
+    "q": {
+      "en": "International Nurses Day is observed on —",
+      "as": "আন্তৰ্জাতিক নাৰ্ছ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "May 11",
+        "as": "১১ মে'"
+      },
+      {
+        "en": "May 12",
+        "as": "১২ মে'"
+      },
+      {
+        "en": "May 8",
+        "as": "৮ মে'"
+      },
+      {
+        "en": "May 17",
+        "as": "১৭ মে'"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "International Nurses Day is on May 12.",
+      "as": "আন্তৰ্জাতিক নাৰ্ছ দিৱস ১২ মে'ত।"
+    }
+  },
+  {
+    "id": "important-days-045",
+    "q": {
+      "en": "World Telecommunication Day is observed on —",
+      "as": "বিশ্ব দূৰসংযোগ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "May 12",
+        "as": "১২ মে'"
+      },
+      {
+        "en": "May 17",
+        "as": "১৭ মে'"
+      },
+      {
+        "en": "May 21",
+        "as": "২১ মে'"
+      },
+      {
+        "en": "May 31",
+        "as": "৩১ মে'"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Telecommunication Day is on May 17.",
+      "as": "বিশ্ব দূৰসংযোগ দিৱস ১৭ মে'ত।"
+    }
+  },
+  {
+    "id": "important-days-046",
+    "q": {
+      "en": "Anti-Terrorism Day in India is observed on —",
+      "as": "ভাৰতত সন্ত্ৰাসবাদ বিৰোধী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "May 1",
+        "as": "১ মে'"
+      },
+      {
+        "en": "May 17",
+        "as": "১৭ মে'"
+      },
+      {
+        "en": "May 31",
+        "as": "৩১ মে'"
+      },
+      {
+        "en": "May 21",
+        "as": "২১ মে'"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Anti-Terrorism Day is on May 21.",
+      "as": "সন্ত্ৰাসবাদ বিৰোধী দিৱস ২১ মে'ত।"
+    }
+  },
+  {
+    "id": "important-days-047",
+    "q": {
+      "en": "World No Tobacco Day is observed on —",
+      "as": "বিশ্ব টেমাকু বিৰোধী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "May 21",
+        "as": "২১ মে'"
+      },
+      {
+        "en": "May 31",
+        "as": "৩১ মে'"
+      },
+      {
+        "en": "May 17",
+        "as": "১৭ মে'"
+      },
+      {
+        "en": "June 1",
+        "as": "১ জুন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World No Tobacco Day is on May 31.",
+      "as": "বিশ্ব টেমাকু বিৰোধী দিৱস ৩১ মে'ত।"
+    }
+  },
+  {
+    "id": "important-days-048",
+    "q": {
+      "en": "World Milk Day is observed on —",
+      "as": "বিশ্ব গাখীৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "June 3",
+        "as": "৩ জুন"
+      },
+      {
+        "en": "May 31",
+        "as": "৩১ মে'"
+      },
+      {
+        "en": "June 5",
+        "as": "৫ জুন"
+      },
+      {
+        "en": "June 1",
+        "as": "১ জুন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Milk Day is on June 1.",
+      "as": "বিশ্ব গাখীৰ দিৱস ১ জুনত।"
+    }
+  },
+  {
+    "id": "important-days-049",
+    "q": {
+      "en": "World Environment Day is observed on —",
+      "as": "বিশ্ব পৰিৱেশ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "June 1",
+        "as": "১ জুন"
+      },
+      {
+        "en": "June 5",
+        "as": "৫ জুন"
+      },
+      {
+        "en": "June 8",
+        "as": "৮ জুন"
+      },
+      {
+        "en": "April 22",
+        "as": "২২ এপ্ৰিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Environment Day is on June 5.",
+      "as": "বিশ্ব পৰিৱেশ দিৱস ৫ জুনত।"
+    }
+  },
+  {
+    "id": "important-days-050",
+    "q": {
+      "en": "World Oceans Day is observed on —",
+      "as": "বিশ্ব মহাসাগৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "June 5",
+        "as": "৫ জুন"
+      },
+      {
+        "en": "June 8",
+        "as": "৮ জুন"
+      },
+      {
+        "en": "June 12",
+        "as": "১২ জুন"
+      },
+      {
+        "en": "June 14",
+        "as": "১৪ জুন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Oceans Day is on June 8.",
+      "as": "বিশ্ব মহাসাগৰ দিৱস ৮ জুনত।"
+    }
+  },
+  {
+    "id": "important-days-051",
+    "q": {
+      "en": "World Day Against Child Labour is observed on —",
+      "as": "শিশু শ্ৰমৰ বিৰুদ্ধে বিশ্ব দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "June 8",
+        "as": "৮ জুন"
+      },
+      {
+        "en": "June 12",
+        "as": "১২ জুন"
+      },
+      {
+        "en": "June 14",
+        "as": "১৪ জুন"
+      },
+      {
+        "en": "June 20",
+        "as": "২০ জুন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Day Against Child Labour is on June 12.",
+      "as": "শিশু শ্ৰমৰ বিৰুদ্ধে বিশ্ব দিৱস ১২ জুনত।"
+    }
+  },
+  {
+    "id": "important-days-052",
+    "q": {
+      "en": "World Blood Donor Day is observed on —",
+      "as": "বিশ্ব ৰক্তদান দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "June 14",
+        "as": "১৪ জুন"
+      },
+      {
+        "en": "June 12",
+        "as": "১২ জুন"
+      },
+      {
+        "en": "June 20",
+        "as": "২০ জুন"
+      },
+      {
+        "en": "June 21",
+        "as": "২১ জুন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Blood Donor Day is on June 14.",
+      "as": "বিশ্ব ৰক্তদান দিৱস ১৪ জুনত।"
+    }
+  },
+  {
+    "id": "important-days-053",
+    "q": {
+      "en": "World Refugee Day is observed on —",
+      "as": "বিশ্ব শৰণাৰ্থী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "June 26",
+        "as": "২৬ জুন"
+      },
+      {
+        "en": "June 14",
+        "as": "১৪ জুন"
+      },
+      {
+        "en": "June 21",
+        "as": "২১ জুন"
+      },
+      {
+        "en": "June 20",
+        "as": "২০ জুন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Refugee Day is on June 20.",
+      "as": "বিশ্ব শৰণাৰ্থী দিৱস ২০ জুনত।"
+    }
+  },
+  {
+    "id": "important-days-054",
+    "q": {
+      "en": "International Yoga Day is celebrated on —",
+      "as": "আন্তৰ্জাতিক যোগ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "June 20",
+        "as": "২০ জুন"
+      },
+      {
+        "en": "June 21",
+        "as": "২১ জুন"
+      },
+      {
+        "en": "June 26",
+        "as": "২৬ জুন"
+      },
+      {
+        "en": "July 1",
+        "as": "১ জুলাই"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "International Yoga Day is on June 21.",
+      "as": "আন্তৰ্জাতিক যোগ দিৱস ২১ জুনত।"
+    }
+  },
+  {
+    "id": "important-days-055",
+    "q": {
+      "en": "International Day against Drug Abuse and Illicit Trafficking is observed on —",
+      "as": "মাদক দ্ৰব্যৰ অপব্যৱহাৰ আৰু চোৰাচলনৰ বিৰুদ্ধে আন্তৰ্জাতিক দিৱস কেতিয়া —"
+    },
+    "options": [
+      {
+        "en": "July 1",
+        "as": "১ জুলাই"
+      },
+      {
+        "en": "June 21",
+        "as": "২১ জুন"
+      },
+      {
+        "en": "June 20",
+        "as": "২০ জুন"
+      },
+      {
+        "en": "June 26",
+        "as": "২৬ জুন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "It is observed on June 26.",
+      "as": "ই ২৬ জুনত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-056",
+    "q": {
+      "en": "National Doctor's Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় চিকিৎসক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "July 1",
+        "as": "১ জুলাই"
+      },
+      {
+        "en": "June 26",
+        "as": "২৬ জুন"
+      },
+      {
+        "en": "July 11",
+        "as": "১১ জুলাই"
+      },
+      {
+        "en": "July 6",
+        "as": "৬ জুলাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "National Doctor's Day is on July 1.",
+      "as": "ৰাষ্ট্ৰীয় চিকিৎসক দিৱস ১ জুলাইত।"
+    }
+  },
+  {
+    "id": "important-days-057",
+    "q": {
+      "en": "World Population Day is observed on —",
+      "as": "বিশ্ব জনসংখ্যা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "July 1",
+        "as": "১ জুলাই"
+      },
+      {
+        "en": "July 11",
+        "as": "১১ জুলাই"
+      },
+      {
+        "en": "July 18",
+        "as": "১৮ জুলাই"
+      },
+      {
+        "en": "July 17",
+        "as": "১৭ জুলাই"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Population Day is on July 11.",
+      "as": "বিশ্ব জনসংখ্যা দিৱস ১১ জুলাইত।"
+    }
+  },
+  {
+    "id": "important-days-058",
+    "q": {
+      "en": "Nelson Mandela International Day is observed on —",
+      "as": "নেলছন মেণ্ডেলা আন্তৰ্জাতিক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "July 18",
+        "as": "১৮ জুলাই"
+      },
+      {
+        "en": "July 11",
+        "as": "১১ জুলাই"
+      },
+      {
+        "en": "July 17",
+        "as": "১৭ জুলাই"
+      },
+      {
+        "en": "July 28",
+        "as": "২৮ জুলাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Nelson Mandela Day is on July 18.",
+      "as": "নেলছন মেণ্ডেলা দিৱস ১৮ জুলাইত।"
+    }
+  },
+  {
+    "id": "important-days-059",
+    "q": {
+      "en": "World Hepatitis Day is observed on —",
+      "as": "বিশ্ব হেপাটাইটিছ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "July 29",
+        "as": "২৯ জুলাই"
+      },
+      {
+        "en": "July 18",
+        "as": "১৮ জুলাই"
+      },
+      {
+        "en": "July 28",
+        "as": "২৮ জুলাই"
+      },
+      {
+        "en": "July 11",
+        "as": "১১ জুলাই"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Hepatitis Day is on July 28.",
+      "as": "বিশ্ব হেপাটাইটিছ দিৱস ২৮ জুলাইত।"
+    }
+  },
+  {
+    "id": "important-days-060",
+    "q": {
+      "en": "Global Tiger Day (World Tiger Day) is observed on —",
+      "as": "বিশ্ব বাঘ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "July 29",
+        "as": "২৯ জুলাই"
+      },
+      {
+        "en": "July 28",
+        "as": "২৮ জুলাই"
+      },
+      {
+        "en": "July 18",
+        "as": "১৮ জুলাই"
+      },
+      {
+        "en": "August 7",
+        "as": "৭ আগষ্ট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Global Tiger Day is on July 29.",
+      "as": "বিশ্ব বাঘ দিৱস ২৯ জুলাইত।"
+    }
+  },
+  {
+    "id": "important-days-061",
+    "q": {
+      "en": "World Braille Day is observed on —",
+      "as": "বিশ্ব ব্ৰেইল দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "January 4",
+        "as": "৪ জানুৱাৰী"
+      },
+      {
+        "en": "January 1",
+        "as": "১ জানুৱাৰী"
+      },
+      {
+        "en": "February 4",
+        "as": "৪ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "January 9",
+        "as": "৯ জানুৱাৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Braille Day is on January 4.",
+      "as": "বিশ্ব ব্ৰেইল দিৱস ৪ জানুৱাৰীত।"
+    }
+  },
+  {
+    "id": "important-days-062",
+    "q": {
+      "en": "World Scout Day (Thinking Day) is observed on —",
+      "as": "বিশ্ব স্কাউট দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "February 22",
+        "as": "২২ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "February 21",
+        "as": "২১ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "February 20",
+        "as": "২০ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "February 28",
+        "as": "২৮ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Scout Day is on February 22.",
+      "as": "বিশ্ব স্কাউট দিৱস ২২ ফেব্ৰুৱাৰীত।"
+    }
+  },
+  {
+    "id": "important-days-063",
+    "q": {
+      "en": "Ordnance Factory Day in India is observed on —",
+      "as": "ভাৰতত অস্ত্ৰ কাৰখানা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "March 15",
+        "as": "১৫ মাৰ্চ"
+      },
+      {
+        "en": "March 18",
+        "as": "১৮ মাৰ্চ"
+      },
+      {
+        "en": "March 20",
+        "as": "২০ মাৰ্চ"
+      },
+      {
+        "en": "March 1",
+        "as": "১ মাৰ্চ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ordnance Factory Day is on March 18.",
+      "as": "অস্ত্ৰ কাৰখানা দিৱস ১৮ মাৰ্চত।"
+    }
+  },
+  {
+    "id": "important-days-064",
+    "q": {
+      "en": "National Civil Services Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় অসামৰিক সেৱা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "April 18",
+        "as": "১৮ এপ্ৰিল"
+      },
+      {
+        "en": "April 21",
+        "as": "২১ এপ্ৰিল"
+      },
+      {
+        "en": "April 22",
+        "as": "২২ এপ্ৰিল"
+      },
+      {
+        "en": "April 26",
+        "as": "২৬ এপ্ৰিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "National Civil Services Day is on April 21.",
+      "as": "ৰাষ্ট্ৰীয় অসামৰিক সেৱা দিৱস ২১ এপ্ৰিলত।"
+    }
+  },
+  {
+    "id": "important-days-065",
+    "q": {
+      "en": "National Panchayati Raj Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় পঞ্চায়তী ৰাজ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "April 21",
+        "as": "২১ এপ্ৰিল"
+      },
+      {
+        "en": "April 24",
+        "as": "২৪ এপ্ৰিল"
+      },
+      {
+        "en": "April 22",
+        "as": "২২ এপ্ৰিল"
+      },
+      {
+        "en": "April 26",
+        "as": "২৬ এপ্ৰিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "National Panchayati Raj Day is on April 24.",
+      "as": "ৰাষ্ট্ৰীয় পঞ্চায়তী ৰাজ দিৱস ২৪ এপ্ৰিলত।"
+    }
+  },
+  {
+    "id": "important-days-066",
+    "q": {
+      "en": "World Bicycle Day is observed on —",
+      "as": "বিশ্ব চাইকেল দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "June 8",
+        "as": "৮ জুন"
+      },
+      {
+        "en": "June 1",
+        "as": "১ জুন"
+      },
+      {
+        "en": "June 5",
+        "as": "৫ জুন"
+      },
+      {
+        "en": "June 3",
+        "as": "৩ জুন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Bicycle Day is on June 3.",
+      "as": "বিশ্ব চাইকেল দিৱস ৩ জুনত।"
+    }
+  },
+  {
+    "id": "important-days-067",
+    "q": {
+      "en": "World Zoonoses Day is observed on —",
+      "as": "বিশ্ব জুন'ছিছ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "June 26",
+        "as": "২৬ জুন"
+      },
+      {
+        "en": "July 1",
+        "as": "১ জুলাই"
+      },
+      {
+        "en": "July 11",
+        "as": "১১ জুলাই"
+      },
+      {
+        "en": "July 6",
+        "as": "৬ জুলাই"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Zoonoses Day is on July 6.",
+      "as": "বিশ্ব জুন'ছিছ দিৱস ৬ জুলাইত।"
+    }
+  },
+  {
+    "id": "important-days-068",
+    "q": {
+      "en": "World Day for International Justice is observed on —",
+      "as": "আন্তৰ্জাতিক ন্যায়ৰ বিশ্ব দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "July 6",
+        "as": "৬ জুলাই"
+      },
+      {
+        "en": "July 18",
+        "as": "১৮ জুলাই"
+      },
+      {
+        "en": "July 17",
+        "as": "১৭ জুলাই"
+      },
+      {
+        "en": "July 11",
+        "as": "১১ জুলাই"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Day for International Justice is on July 17.",
+      "as": "আন্তৰ্জাতিক ন্যায়ৰ বিশ্ব দিৱস ১৭ জুলাইত।"
+    }
+  },
+  {
+    "id": "important-days-069",
+    "q": {
+      "en": "Hiroshima Day is observed on —",
+      "as": "হিৰ'ছিমা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "August 15",
+        "as": "১৫ আগষ্ট"
+      },
+      {
+        "en": "August 9",
+        "as": "৯ আগষ্ট"
+      },
+      {
+        "en": "August 7",
+        "as": "৭ আগষ্ট"
+      },
+      {
+        "en": "August 6",
+        "as": "৬ আগষ্ট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Hiroshima Day is observed on August 6.",
+      "as": "হিৰ'ছিমা দিৱস ৬ আগষ্টত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-070",
+    "q": {
+      "en": "National Handloom Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় হস্ততাঁত দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "August 6",
+        "as": "৬ আগষ্ট"
+      },
+      {
+        "en": "August 7",
+        "as": "৭ আগষ্ট"
+      },
+      {
+        "en": "August 9",
+        "as": "৯ আগষ্ট"
+      },
+      {
+        "en": "August 15",
+        "as": "১৫ আগষ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "National Handloom Day is on August 7.",
+      "as": "ৰাষ্ট্ৰীয় হস্ততাঁত দিৱস ৭ আগষ্টত।"
+    }
+  },
+  {
+    "id": "important-days-071",
+    "q": {
+      "en": "Quit India Movement Day is observed on —",
+      "as": "ভাৰত ত্যাগ আন্দোলন দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "August 6",
+        "as": "৬ আগষ্ট"
+      },
+      {
+        "en": "August 9",
+        "as": "৯ আগষ্ট"
+      },
+      {
+        "en": "August 8",
+        "as": "৮ আগষ্ট"
+      },
+      {
+        "en": "August 15",
+        "as": "১৫ আগষ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Quit India Movement Day is on August 8.",
+      "as": "ভাৰত ত্যাগ আন্দোলন দিৱস ৮ আগষ্টত।"
+    }
+  },
+  {
+    "id": "important-days-072",
+    "q": {
+      "en": "International Youth Day is observed on —",
+      "as": "আন্তৰ্জাতিক যুৱ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "August 15",
+        "as": "১৫ আগষ্ট"
+      },
+      {
+        "en": "August 7",
+        "as": "৭ আগষ্ট"
+      },
+      {
+        "en": "August 12",
+        "as": "১২ আগষ্ট"
+      },
+      {
+        "en": "August 19",
+        "as": "১৯ আগষ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "International Youth Day is on August 12.",
+      "as": "আন্তৰ্জাতিক যুৱ দিৱস ১২ আগষ্টত।"
+    }
+  },
+  {
+    "id": "important-days-073",
+    "q": {
+      "en": "Independence Day in India is celebrated on —",
+      "as": "ভাৰতত স্বাধীনতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "August 12",
+        "as": "১২ আগষ্ট"
+      },
+      {
+        "en": "January 26",
+        "as": "২৬ জানুৱাৰী"
+      },
+      {
+        "en": "August 15",
+        "as": "১৫ আগষ্ট"
+      },
+      {
+        "en": "October 2",
+        "as": "২ অক্টোবৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Independence Day is celebrated on August 15.",
+      "as": "স্বাধীনতা দিৱস ১৫ আগষ্টত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-074",
+    "q": {
+      "en": "World Photography Day is observed on —",
+      "as": "বিশ্ব ফটোগ্ৰাফী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "August 19",
+        "as": "১৯ আগষ্ট"
+      },
+      {
+        "en": "August 12",
+        "as": "১২ আগষ্ট"
+      },
+      {
+        "en": "August 15",
+        "as": "১৫ আগষ্ট"
+      },
+      {
+        "en": "August 20",
+        "as": "২০ আগষ্ট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Photography Day is on August 19.",
+      "as": "বিশ্ব ফটোগ্ৰাফী দিৱস ১৯ আগষ্টত।"
+    }
+  },
+  {
+    "id": "important-days-075",
+    "q": {
+      "en": "Sadbhavana Diwas is observed on the birth anniversary of —",
+      "as": "সদ্ভাৱনা দিৱস কাৰ জন্মজয়ন্তীত পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "Rajiv Gandhi",
+        "as": "ৰাজীৱ গান্ধী"
+      },
+      {
+        "en": "Indira Gandhi",
+        "as": "ইন্দিৰা গান্ধী"
+      },
+      {
+        "en": "Jawaharlal Nehru",
+        "as": "জৱাহৰলাল নেহৰু"
+      },
+      {
+        "en": "Lal Bahadur Shastri",
+        "as": "লাল বাহাদুৰ শাস্ত্ৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sadbhavana Diwas, on August 20, is Rajiv Gandhi's birth anniversary.",
+      "as": "২০ আগষ্টত সদ্ভাৱনা দিৱস, ৰাজীৱ গান্ধীৰ জন্মজয়ন্তী।"
+    }
+  },
+  {
+    "id": "important-days-076",
+    "q": {
+      "en": "National Sports Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় ক্ৰীড়া দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "August 29",
+        "as": "২৯ আগষ্ট"
+      },
+      {
+        "en": "August 20",
+        "as": "২০ আগষ্ট"
+      },
+      {
+        "en": "August 19",
+        "as": "১৯ আগষ্ট"
+      },
+      {
+        "en": "August 15",
+        "as": "১৫ আগষ্ট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "National Sports Day is on August 29, Dhyan Chand's birthday.",
+      "as": "ৰাষ্ট্ৰীয় ক্ৰীড়া দিৱস ২৯ আগষ্টত, ধ্যানচান্দৰ জন্মদিন।"
+    }
+  },
+  {
+    "id": "important-days-077",
+    "q": {
+      "en": "Teacher's Day in India is celebrated on —",
+      "as": "ভাৰতত শিক্ষক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "September 14",
+        "as": "১৪ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 8",
+        "as": "৮ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "November 14",
+        "as": "১৪ নৱেম্বৰ"
+      },
+      {
+        "en": "September 5",
+        "as": "৫ ছেপ্টেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Teacher's Day is on September 5, Dr. Radhakrishnan's birthday.",
+      "as": "শিক্ষক দিৱস ৫ ছেপ্টেম্বৰত, ড° ৰাধাকৃষ্ণনৰ জন্মদিন।"
+    }
+  },
+  {
+    "id": "important-days-078",
+    "q": {
+      "en": "International Literacy Day is observed on —",
+      "as": "আন্তৰ্জাতিক সাক্ষৰতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "September 5",
+        "as": "৫ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 8",
+        "as": "৮ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 14",
+        "as": "১৪ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 15",
+        "as": "১৫ ছেপ্টেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "International Literacy Day is on September 8.",
+      "as": "আন্তৰ্জাতিক সাক্ষৰতা দিৱস ৮ ছেপ্টেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-079",
+    "q": {
+      "en": "Hindi Diwas is celebrated in India on —",
+      "as": "ভাৰতত হিন্দী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "September 5",
+        "as": "৫ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 8",
+        "as": "৮ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 15",
+        "as": "১৫ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 14",
+        "as": "১৪ ছেপ্টেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Hindi Diwas is celebrated on September 14.",
+      "as": "হিন্দী দিৱস ১৪ ছেপ্টেম্বৰত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-080",
+    "q": {
+      "en": "International Day of Democracy is observed on —",
+      "as": "আন্তৰ্জাতিক গণতন্ত্ৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "September 8",
+        "as": "৮ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 14",
+        "as": "১৪ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 16",
+        "as": "১৬ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 15",
+        "as": "১৫ ছেপ্টেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "International Day of Democracy is on September 15.",
+      "as": "আন্তৰ্জাতিক গণতন্ত্ৰ দিৱস ১৫ ছেপ্টেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-081",
+    "q": {
+      "en": "World Ozone Day is observed on —",
+      "as": "বিশ্ব ওজোন দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "September 21",
+        "as": "২১ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 15",
+        "as": "১৫ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 16",
+        "as": "১৬ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 27",
+        "as": "২৭ ছেপ্টেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Ozone Day is on September 16.",
+      "as": "বিশ্ব ওজোন দিৱস ১৬ ছেপ্টেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-082",
+    "q": {
+      "en": "World Alzheimer's Day is observed on —",
+      "as": "বিশ্ব আলঝাইমাৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "September 16",
+        "as": "১৬ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 21",
+        "as": "২১ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 22",
+        "as": "২২ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 30",
+        "as": "৩০ ছেপ্টেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Alzheimer's Day is on September 21.",
+      "as": "বিশ্ব আলঝাইমাৰ দিৱস ২১ ছেপ্টেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-083",
+    "q": {
+      "en": "World Rose Day (for cancer patients) is observed on —",
+      "as": "বিশ্ব গোলাপ দিৱস (কৰ্কট ৰোগীৰ বাবে) কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "September 21",
+        "as": "২১ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 22",
+        "as": "২২ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 27",
+        "as": "২৭ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 30",
+        "as": "৩০ ছেপ্টেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Rose Day is on September 22.",
+      "as": "বিশ্ব গোলাপ দিৱস ২২ ছেপ্টেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-084",
+    "q": {
+      "en": "World Tourism Day is observed on —",
+      "as": "বিশ্ব পৰ্যটন দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "September 22",
+        "as": "২২ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 27",
+        "as": "২৭ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 30",
+        "as": "৩০ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "October 1",
+        "as": "১ অক্টোবৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Tourism Day is on September 27.",
+      "as": "বিশ্ব পৰ্যটন দিৱস ২৭ ছেপ্টেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-085",
+    "q": {
+      "en": "World Heart Day is observed on —",
+      "as": "বিশ্ব হৃদয় দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "October 1",
+        "as": "১ অক্টোবৰ"
+      },
+      {
+        "en": "September 27",
+        "as": "২৭ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "September 30",
+        "as": "৩০ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "October 10",
+        "as": "১০ অক্টোবৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Heart Day is on September 30.",
+      "as": "বিশ্ব হৃদয় দিৱস ৩০ ছেপ্টেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-086",
+    "q": {
+      "en": "International Day of Older Persons is observed on —",
+      "as": "আন্তৰ্জাতিক বয়োজ্যেষ্ঠ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "October 1",
+        "as": "১ অক্টোবৰ"
+      },
+      {
+        "en": "September 30",
+        "as": "৩০ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "October 2",
+        "as": "২ অক্টোবৰ"
+      },
+      {
+        "en": "October 4",
+        "as": "৪ অক্টোবৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "International Day of Older Persons is on October 1.",
+      "as": "আন্তৰ্জাতিক বয়োজ্যেষ্ঠ দিৱস ১ অক্টোবৰত।"
+    }
+  },
+  {
+    "id": "important-days-087",
+    "q": {
+      "en": "Gandhi Jayanti is celebrated on —",
+      "as": "গান্ধী জয়ন্তী কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "October 1",
+        "as": "১ অক্টোবৰ"
+      },
+      {
+        "en": "October 2",
+        "as": "২ অক্টোবৰ"
+      },
+      {
+        "en": "October 4",
+        "as": "৪ অক্টোবৰ"
+      },
+      {
+        "en": "January 30",
+        "as": "৩০ জানুৱাৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Gandhi Jayanti is celebrated on October 2.",
+      "as": "গান্ধী জয়ন্তী ২ অক্টোবৰত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-088",
+    "q": {
+      "en": "World Animal Welfare Day is observed on —",
+      "as": "বিশ্ব পশু কল্যাণ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "October 5",
+        "as": "৫ অক্টোবৰ"
+      },
+      {
+        "en": "October 2",
+        "as": "২ অক্টোবৰ"
+      },
+      {
+        "en": "October 4",
+        "as": "৪ অক্টোবৰ"
+      },
+      {
+        "en": "October 8",
+        "as": "৮ অক্টোবৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Animal Welfare Day is on October 4.",
+      "as": "বিশ্ব পশু কল্যাণ দিৱস ৪ অক্টোবৰত।"
+    }
+  },
+  {
+    "id": "important-days-089",
+    "q": {
+      "en": "World Teachers' Day is observed on —",
+      "as": "বিশ্ব শিক্ষক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "October 5",
+        "as": "৫ অক্টোবৰ"
+      },
+      {
+        "en": "September 5",
+        "as": "৫ ছেপ্টেম্বৰ"
+      },
+      {
+        "en": "October 4",
+        "as": "৪ অক্টোবৰ"
+      },
+      {
+        "en": "October 8",
+        "as": "৮ অক্টোবৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Teachers' Day is on October 5.",
+      "as": "বিশ্ব শিক্ষক দিৱস ৫ অক্টোবৰত।"
+    }
+  },
+  {
+    "id": "important-days-090",
+    "q": {
+      "en": "Indian Air Force Day is observed on —",
+      "as": "ভাৰতীয় বায়ুসেনা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "October 8",
+        "as": "৮ অক্টোবৰ"
+      },
+      {
+        "en": "October 5",
+        "as": "৫ অক্টোবৰ"
+      },
+      {
+        "en": "December 4",
+        "as": "৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "October 10",
+        "as": "১০ অক্টোবৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Indian Air Force Day is on October 8.",
+      "as": "ভাৰতীয় বায়ুসেনা দিৱস ৮ অক্টোবৰত।"
+    }
+  },
+  {
+    "id": "important-days-091",
+    "q": {
+      "en": "World Mental Health Day is observed on —",
+      "as": "বিশ্ব মানসিক স্বাস্থ্য দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "October 10",
+        "as": "১০ অক্টোবৰ"
+      },
+      {
+        "en": "October 8",
+        "as": "৮ অক্টোবৰ"
+      },
+      {
+        "en": "October 11",
+        "as": "১১ অক্টোবৰ"
+      },
+      {
+        "en": "October 13",
+        "as": "১৩ অক্টোবৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Mental Health Day is on October 10.",
+      "as": "বিশ্ব মানসিক স্বাস্থ্য দিৱস ১০ অক্টোবৰত।"
+    }
+  },
+  {
+    "id": "important-days-092",
+    "q": {
+      "en": "International Day of the Girl Child is observed on —",
+      "as": "আন্তৰ্জাতিক কন্যা শিশু দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "October 11",
+        "as": "১১ অক্টোবৰ"
+      },
+      {
+        "en": "October 10",
+        "as": "১০ অক্টোবৰ"
+      },
+      {
+        "en": "January 24",
+        "as": "২৪ জানুৱাৰী"
+      },
+      {
+        "en": "October 13",
+        "as": "১৩ অক্টোবৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "International Day of the Girl Child is on October 11.",
+      "as": "আন্তৰ্জাতিক কন্যা শিশু দিৱস ১১ অক্টোবৰত।"
+    }
+  },
+  {
+    "id": "important-days-093",
+    "q": {
+      "en": "International Day for Disaster Reduction is observed on —",
+      "as": "আন্তৰ্জাতিক দুৰ্যোগ হ্ৰাস দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "October 20",
+        "as": "২০ অক্টোবৰ"
+      },
+      {
+        "en": "October 11",
+        "as": "১১ অক্টোবৰ"
+      },
+      {
+        "en": "October 16",
+        "as": "১৬ অক্টোবৰ"
+      },
+      {
+        "en": "October 13",
+        "as": "১৩ অক্টোবৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "International Day for Disaster Reduction is on October 13.",
+      "as": "আন্তৰ্জাতিক দুৰ্যোগ হ্ৰাস দিৱস ১৩ অক্টোবৰত।"
+    }
+  },
+  {
+    "id": "important-days-094",
+    "q": {
+      "en": "World Food Day is observed on —",
+      "as": "বিশ্ব খাদ্য দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "October 20",
+        "as": "২০ অক্টোবৰ"
+      },
+      {
+        "en": "October 13",
+        "as": "১৩ অক্টোবৰ"
+      },
+      {
+        "en": "October 16",
+        "as": "১৬ অক্টোবৰ"
+      },
+      {
+        "en": "October 24",
+        "as": "২৪ অক্টোবৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Food Day is on October 16.",
+      "as": "বিশ্ব খাদ্য দিৱস ১৬ অক্টোবৰত।"
+    }
+  },
+  {
+    "id": "important-days-095",
+    "q": {
+      "en": "National Solidarity Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় সংহতি দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "October 20",
+        "as": "২০ অক্টোবৰ"
+      },
+      {
+        "en": "October 16",
+        "as": "১৬ অক্টোবৰ"
+      },
+      {
+        "en": "October 24",
+        "as": "২৪ অক্টোবৰ"
+      },
+      {
+        "en": "October 31",
+        "as": "৩১ অক্টোবৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "National Solidarity Day is on October 20.",
+      "as": "ৰাষ্ট্ৰীয় সংহতি দিৱস ২০ অক্টোবৰত।"
+    }
+  },
+  {
+    "id": "important-days-096",
+    "q": {
+      "en": "United Nations Day is observed on —",
+      "as": "ৰাষ্ট্ৰসংঘ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "November 1",
+        "as": "১ নৱেম্বৰ"
+      },
+      {
+        "en": "October 20",
+        "as": "২০ অক্টোবৰ"
+      },
+      {
+        "en": "October 31",
+        "as": "৩১ অক্টোবৰ"
+      },
+      {
+        "en": "October 24",
+        "as": "২৪ অক্টোবৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "United Nations Day is on October 24.",
+      "as": "ৰাষ্ট্ৰসংঘ দিৱস ২৪ অক্টোবৰত।"
+    }
+  },
+  {
+    "id": "important-days-097",
+    "q": {
+      "en": "National Unity Day (Rashtriya Ekta Diwas) is observed on —",
+      "as": "ৰাষ্ট্ৰীয় একতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "October 24",
+        "as": "২৪ অক্টোবৰ"
+      },
+      {
+        "en": "October 31",
+        "as": "৩১ অক্টোবৰ"
+      },
+      {
+        "en": "October 20",
+        "as": "২০ অক্টোবৰ"
+      },
+      {
+        "en": "November 1",
+        "as": "১ নৱেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "National Unity Day, Sardar Patel's birthday, is on October 31.",
+      "as": "ৰাষ্ট্ৰীয় একতা দিৱস, ছৰ্দাৰ পেটেলৰ জন্মদিন, ৩১ অক্টোবৰত।"
+    }
+  },
+  {
+    "id": "important-days-098",
+    "q": {
+      "en": "World Vegan Day is observed on —",
+      "as": "বিশ্ব ভেগান দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "November 5",
+        "as": "৫ নৱেম্বৰ"
+      },
+      {
+        "en": "October 31",
+        "as": "৩১ অক্টোবৰ"
+      },
+      {
+        "en": "November 1",
+        "as": "১ নৱেম্বৰ"
+      },
+      {
+        "en": "November 7",
+        "as": "৭ নৱেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Vegan Day is on November 1.",
+      "as": "বিশ্ব ভেগান দিৱস ১ নৱেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-099",
+    "q": {
+      "en": "World Tsunami Awareness Day is observed on —",
+      "as": "বিশ্ব ছুনামি সজাগতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "November 1",
+        "as": "১ নৱেম্বৰ"
+      },
+      {
+        "en": "November 5",
+        "as": "৫ নৱেম্বৰ"
+      },
+      {
+        "en": "November 7",
+        "as": "৭ নৱেম্বৰ"
+      },
+      {
+        "en": "November 8",
+        "as": "৮ নৱেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Tsunami Awareness Day is on November 5.",
+      "as": "বিশ্ব ছুনামি সজাগতা দিৱস ৫ নৱেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-100",
+    "q": {
+      "en": "National Cancer Awareness Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় কৰ্কট সজাগতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "November 7",
+        "as": "৭ নৱেম্বৰ"
+      },
+      {
+        "en": "November 5",
+        "as": "৫ নৱেম্বৰ"
+      },
+      {
+        "en": "February 4",
+        "as": "৪ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "November 8",
+        "as": "৮ নৱেম্বৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "National Cancer Awareness Day is on November 7.",
+      "as": "ৰাষ্ট্ৰীয় কৰ্কট সজাগতা দিৱস ৭ নৱেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-101",
+    "q": {
+      "en": "World Radiography Day is observed on —",
+      "as": "বিশ্ব ৰেডিঅ'গ্ৰাফী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "November 7",
+        "as": "৭ নৱেম্বৰ"
+      },
+      {
+        "en": "November 8",
+        "as": "৮ নৱেম্বৰ"
+      },
+      {
+        "en": "November 10",
+        "as": "১০ নৱেম্বৰ"
+      },
+      {
+        "en": "November 11",
+        "as": "১১ নৱেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Radiography Day is on November 8.",
+      "as": "বিশ্ব ৰেডিঅ'গ্ৰাফী দিৱস ৮ নৱেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-102",
+    "q": {
+      "en": "World Science Day for Peace and Development is observed on —",
+      "as": "শান্তি আৰু উন্নয়নৰ বাবে বিশ্ব বিজ্ঞান দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "November 11",
+        "as": "১১ নৱেম্বৰ"
+      },
+      {
+        "en": "November 8",
+        "as": "৮ নৱেম্বৰ"
+      },
+      {
+        "en": "November 10",
+        "as": "১০ নৱেম্বৰ"
+      },
+      {
+        "en": "February 28",
+        "as": "২৮ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Science Day is on November 10.",
+      "as": "বিশ্ব বিজ্ঞান দিৱস ১০ নৱেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-103",
+    "q": {
+      "en": "National Education Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় শিক্ষা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "November 10",
+        "as": "১০ নৱেম্বৰ"
+      },
+      {
+        "en": "November 11",
+        "as": "১১ নৱেম্বৰ"
+      },
+      {
+        "en": "November 14",
+        "as": "১৪ নৱেম্বৰ"
+      },
+      {
+        "en": "September 5",
+        "as": "৫ ছেপ্টেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "National Education Day, Maulana Azad's birthday, is on November 11.",
+      "as": "ৰাষ্ট্ৰীয় শিক্ষা দিৱস, মৌলানা আজাদৰ জন্মদিন, ১১ নৱেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-104",
+    "q": {
+      "en": "World Pneumonia Day is observed on —",
+      "as": "বিশ্ব নিউমোনিয়া দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "November 14",
+        "as": "১৪ নৱেম্বৰ"
+      },
+      {
+        "en": "November 11",
+        "as": "১১ নৱেম্বৰ"
+      },
+      {
+        "en": "November 12",
+        "as": "১২ নৱেম্বৰ"
+      },
+      {
+        "en": "November 16",
+        "as": "১৬ নৱেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Pneumonia Day is on November 12.",
+      "as": "বিশ্ব নিউমোনিয়া দিৱস ১২ নৱেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-105",
+    "q": {
+      "en": "Children's Day in India is celebrated on —",
+      "as": "ভাৰতত শিশু দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "November 20",
+        "as": "২০ নৱেম্বৰ"
+      },
+      {
+        "en": "November 12",
+        "as": "১২ নৱেম্বৰ"
+      },
+      {
+        "en": "November 14",
+        "as": "১৪ নৱেম্বৰ"
+      },
+      {
+        "en": "November 11",
+        "as": "১১ নৱেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Children's Day, Nehru's birthday, is on November 14.",
+      "as": "শিশু দিৱস, নেহৰুৰ জন্মদিন, ১৪ নৱেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-106",
+    "q": {
+      "en": "International Day for Tolerance is observed on —",
+      "as": "আন্তৰ্জাতিক সহনশীলতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "November 19",
+        "as": "১৯ নৱেম্বৰ"
+      },
+      {
+        "en": "November 14",
+        "as": "১৪ নৱেম্বৰ"
+      },
+      {
+        "en": "November 17",
+        "as": "১৭ নৱেম্বৰ"
+      },
+      {
+        "en": "November 16",
+        "as": "১৬ নৱেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "International Day for Tolerance is on November 16.",
+      "as": "আন্তৰ্জাতিক সহনশীলতা দিৱস ১৬ নৱেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-107",
+    "q": {
+      "en": "World Students' Day is observed on —",
+      "as": "বিশ্ব ছাত্ৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "October 15",
+        "as": "১৫ অক্টোবৰ"
+      },
+      {
+        "en": "November 17",
+        "as": "১৭ নৱেম্বৰ"
+      },
+      {
+        "en": "November 14",
+        "as": "১৪ নৱেম্বৰ"
+      },
+      {
+        "en": "November 19",
+        "as": "১৯ নৱেম্বৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Students' Day is on October 15, Dr. Kalam's birthday.",
+      "as": "বিশ্ব ছাত্ৰ দিৱস ১৫ অক্টোবৰত, ড° কালামৰ জন্মদিন।"
+    }
+  },
+  {
+    "id": "important-days-108",
+    "q": {
+      "en": "World Toilet Day is observed on —",
+      "as": "বিশ্ব শৌচালয় দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "November 16",
+        "as": "১৬ নৱেম্বৰ"
+      },
+      {
+        "en": "November 17",
+        "as": "১৭ নৱেম্বৰ"
+      },
+      {
+        "en": "November 19",
+        "as": "১৯ নৱেম্বৰ"
+      },
+      {
+        "en": "November 21",
+        "as": "২১ নৱেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Toilet Day is on November 19.",
+      "as": "বিশ্ব শৌচালয় দিৱস ১৯ নৱেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-109",
+    "q": {
+      "en": "Universal Children's Day is observed on —",
+      "as": "সৰ্বজনীন শিশু দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "November 21",
+        "as": "২১ নৱেম্বৰ"
+      },
+      {
+        "en": "November 14",
+        "as": "১৪ নৱেম্বৰ"
+      },
+      {
+        "en": "November 19",
+        "as": "১৯ নৱেম্বৰ"
+      },
+      {
+        "en": "November 20",
+        "as": "২০ নৱেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Universal Children's Day is on November 20.",
+      "as": "সৰ্বজনীন শিশু দিৱস ২০ নৱেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-110",
+    "q": {
+      "en": "World Fisheries Day is observed on —",
+      "as": "বিশ্ব মৎস্য দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "November 21",
+        "as": "২১ নৱেম্বৰ"
+      },
+      {
+        "en": "November 20",
+        "as": "২০ নৱেম্বৰ"
+      },
+      {
+        "en": "November 19",
+        "as": "১৯ নৱেম্বৰ"
+      },
+      {
+        "en": "November 25",
+        "as": "২৫ নৱেম্বৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Fisheries Day is on November 21.",
+      "as": "বিশ্ব মৎস্য দিৱস ২১ নৱেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-111",
+    "q": {
+      "en": "International Day for the Elimination of Violence against Women is observed on —",
+      "as": "নাৰীৰ বিৰুদ্ধে হিংসা নিৰ্মূলকৰণৰ আন্তৰ্জাতিক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "November 26",
+        "as": "২৬ নৱেম্বৰ"
+      },
+      {
+        "en": "November 21",
+        "as": "২১ নৱেম্বৰ"
+      },
+      {
+        "en": "November 25",
+        "as": "২৫ নৱেম্বৰ"
+      },
+      {
+        "en": "December 10",
+        "as": "১০ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "It is observed on November 25.",
+      "as": "ই ২৫ নৱেম্বৰত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-112",
+    "q": {
+      "en": "Constitution Day of India is observed on —",
+      "as": "ভাৰতৰ সংবিধান দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "December 10",
+        "as": "১০ ডিচেম্বৰ"
+      },
+      {
+        "en": "January 26",
+        "as": "২৬ জানুৱাৰী"
+      },
+      {
+        "en": "November 25",
+        "as": "২৫ নৱেম্বৰ"
+      },
+      {
+        "en": "November 26",
+        "as": "২৬ নৱেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Constitution Day is observed on November 26.",
+      "as": "সংবিধান দিৱস ২৬ নৱেম্বৰত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-113",
+    "q": {
+      "en": "Janjatiya Gaurav Divas is celebrated on the birth anniversary of —",
+      "as": "জন্মজাতীয় গৌৰৱ দিৱস কাৰ জন্মজয়ন্তীত পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "Birsa Munda",
+        "as": "বীৰছা মুণ্ডা"
+      },
+      {
+        "en": "Bhagat Singh",
+        "as": "ভগত সিং"
+      },
+      {
+        "en": "Sardar Patel",
+        "as": "ছৰ্দাৰ পেটেল"
+      },
+      {
+        "en": "Subhas Chandra Bose",
+        "as": "সুভাষ চন্দ্ৰ বসু"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Janjatiya Gaurav Divas, on November 15, honours Birsa Munda.",
+      "as": "১৫ নৱেম্বৰত জন্মজাতীয় গৌৰৱ দিৱস, বীৰছা মুণ্ডাক সন্মান জনায়।"
+    }
+  },
+  {
+    "id": "important-days-114",
+    "q": {
+      "en": "Armed Forces Flag Day in India is observed on —",
+      "as": "ভাৰতত সশস্ত্ৰ বাহিনী পতাকা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "December 7",
+        "as": "৭ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 4",
+        "as": "৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 1",
+        "as": "১ ডিচেম্বৰ"
+      },
+      {
+        "en": "November 30",
+        "as": "৩০ নৱেম্বৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Armed Forces Flag Day is on December 7.",
+      "as": "সশস্ত্ৰ বাহিনী পতাকা দিৱস ৭ ডিচেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-115",
+    "q": {
+      "en": "World AIDS Day is observed on —",
+      "as": "বিশ্ব এইডছ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "December 2",
+        "as": "২ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 1",
+        "as": "১ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 5",
+        "as": "৫ ডিচেম্বৰ"
+      },
+      {
+        "en": "November 30",
+        "as": "৩০ নৱেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World AIDS Day is on December 1.",
+      "as": "বিশ্ব এইডছ দিৱস ১ ডিচেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-116",
+    "q": {
+      "en": "National Pollution Control Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় প্ৰদূষণ নিয়ন্ত্ৰণ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "December 3",
+        "as": "৩ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 1",
+        "as": "১ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 2",
+        "as": "২ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 5",
+        "as": "৫ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "National Pollution Control Day is on December 2.",
+      "as": "ৰাষ্ট্ৰীয় প্ৰদূষণ নিয়ন্ত্ৰণ দিৱস ২ ডিচেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-117",
+    "q": {
+      "en": "International Day of Persons with Disabilities is observed on —",
+      "as": "আন্তৰ্জাতিক বিকলাঙ্গ ব্যক্তি দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "December 2",
+        "as": "২ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 3",
+        "as": "৩ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 5",
+        "as": "৫ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 7",
+        "as": "৭ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "It is observed on December 3.",
+      "as": "ই ৩ ডিচেম্বৰত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-118",
+    "q": {
+      "en": "Indian Navy Day is observed on —",
+      "as": "ভাৰতীয় নৌসেনা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "December 4",
+        "as": "৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 3",
+        "as": "৩ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 7",
+        "as": "৭ ডিচেম্বৰ"
+      },
+      {
+        "en": "October 8",
+        "as": "৮ অক্টোবৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Indian Navy Day is on December 4.",
+      "as": "ভাৰতীয় নৌসেনা দিৱস ৪ ডিচেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-119",
+    "q": {
+      "en": "International Volunteer Day is observed on —",
+      "as": "আন্তৰ্জাতিক স্বেচ্ছাসেৱক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "December 5",
+        "as": "৫ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 4",
+        "as": "৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 7",
+        "as": "৭ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 9",
+        "as": "৯ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "International Volunteer Day is on December 5.",
+      "as": "আন্তৰ্জাতিক স্বেচ্ছাসেৱক দিৱস ৫ ডিচেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-120",
+    "q": {
+      "en": "Dr. B. R. Ambedkar's Mahaparinirvan Diwas is observed on —",
+      "as": "ড° বি. আৰ. আম্বেদকৰৰ মহাপৰিনিৰ্বাণ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "April 14",
+        "as": "১৪ এপ্ৰিল"
+      },
+      {
+        "en": "December 5",
+        "as": "৫ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 14",
+        "as": "১৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 6",
+        "as": "৬ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mahaparinirvan Diwas is observed on December 6.",
+      "as": "মহাপৰিনিৰ্বাণ দিৱস ৬ ডিচেম্বৰত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-121",
+    "q": {
+      "en": "International Anti-Corruption Day is observed on —",
+      "as": "আন্তৰ্জাতিক দুৰ্নীতি বিৰোধী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "December 9",
+        "as": "৯ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 5",
+        "as": "৫ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 10",
+        "as": "১০ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 14",
+        "as": "১৪ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "International Anti-Corruption Day is on December 9.",
+      "as": "আন্তৰ্জাতিক দুৰ্নীতি বিৰোধী দিৱস ৯ ডিচেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-122",
+    "q": {
+      "en": "Human Rights Day is observed on —",
+      "as": "মানৱ অধিকাৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "December 14",
+        "as": "১৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 9",
+        "as": "৯ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 10",
+        "as": "১০ ডিচেম্বৰ"
+      },
+      {
+        "en": "November 26",
+        "as": "২৬ নৱেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Human Rights Day is on December 10.",
+      "as": "মানৱ অধিকাৰ দিৱস ১০ ডিচেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-123",
+    "q": {
+      "en": "International Mountain Day is observed on —",
+      "as": "আন্তৰ্জাতিক পৰ্বত দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "December 10",
+        "as": "১০ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 11",
+        "as": "১১ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 14",
+        "as": "১৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 16",
+        "as": "১৬ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "International Mountain Day is on December 11.",
+      "as": "আন্তৰ্জাতিক পৰ্বত দিৱস ১১ ডিচেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-124",
+    "q": {
+      "en": "National Energy Conservation Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় শক্তি সংৰক্ষণ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "December 14",
+        "as": "১৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 11",
+        "as": "১১ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 16",
+        "as": "১৬ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 18",
+        "as": "১৮ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "National Energy Conservation Day is on December 14.",
+      "as": "ৰাষ্ট্ৰীয় শক্তি সংৰক্ষণ দিৱস ১৪ ডিচেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-125",
+    "q": {
+      "en": "Vijay Diwas (India) is observed on —",
+      "as": "বিজয় দিৱস (ভাৰত) কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "December 14",
+        "as": "১৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 16",
+        "as": "১৬ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 18",
+        "as": "১৮ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 7",
+        "as": "৭ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Vijay Diwas is observed on December 16.",
+      "as": "বিজয় দিৱস ১৬ ডিচেম্বৰত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-126",
+    "q": {
+      "en": "Minorities Rights Day in India is observed on —",
+      "as": "ভাৰতত সংখ্যালঘু অধিকাৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "December 22",
+        "as": "২২ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 16",
+        "as": "১৬ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 14",
+        "as": "১৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 18",
+        "as": "১৮ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Minorities Rights Day is on December 18.",
+      "as": "সংখ্যালঘু অধিকাৰ দিৱস ১৮ ডিচেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-127",
+    "q": {
+      "en": "National Mathematics Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় গণিত দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "December 24",
+        "as": "২৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 18",
+        "as": "১৮ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 23",
+        "as": "২৩ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 22",
+        "as": "২২ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "National Mathematics Day, Ramanujan's birthday, is on December 22.",
+      "as": "ৰাষ্ট্ৰীয় গণিত দিৱস, ৰামানুজানৰ জন্মদিন, ২২ ডিচেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-128",
+    "q": {
+      "en": "Kisan Diwas (National Farmers' Day) is observed on —",
+      "as": "কিষাণ দিৱস (ৰাষ্ট্ৰীয় কৃষক দিৱস) কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "December 25",
+        "as": "২৫ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 22",
+        "as": "২২ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 24",
+        "as": "২৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 23",
+        "as": "২৩ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Kisan Diwas, Chaudhary Charan Singh's birthday, is on December 23.",
+      "as": "কিষাণ দিৱস, চৌধুৰী চৰণ সিংহৰ জন্মদিন, ২৩ ডিচেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-129",
+    "q": {
+      "en": "National Consumers Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় উপভোক্তা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "December 23",
+        "as": "২৩ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 24",
+        "as": "২৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "March 15",
+        "as": "১৫ মাৰ্চ"
+      },
+      {
+        "en": "December 25",
+        "as": "২৫ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "National Consumers Day is on December 24.",
+      "as": "ৰাষ্ট্ৰীয় উপভোক্তা দিৱস ২৪ ডিচেম্বৰত।"
+    }
+  },
+  {
+    "id": "important-days-130",
+    "q": {
+      "en": "Christmas is celebrated on —",
+      "as": "বৰদিন কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "December 31",
+        "as": "৩১ ডিচেম্বৰ"
+      },
+      {
+        "en": "December 24",
+        "as": "২৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "January 1",
+        "as": "১ জানুৱাৰী"
+      },
+      {
+        "en": "December 25",
+        "as": "২৫ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Christmas is celebrated on December 25.",
+      "as": "বৰদিন ২৫ ডিচেম্বৰত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-131",
+    "q": {
+      "en": "National Broadcasting Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় সম্প্ৰচাৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "July 18",
+        "as": "১৮ জুলাই"
+      },
+      {
+        "en": "July 17",
+        "as": "১৭ জুলাই"
+      },
+      {
+        "en": "July 23",
+        "as": "২৩ জুলাই"
+      },
+      {
+        "en": "July 28",
+        "as": "২৮ জুলাই"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "National Broadcasting Day is on July 23.",
+      "as": "ৰাষ্ট্ৰীয় সম্প্ৰচাৰ দিৱস ২৩ জুলাইত।"
+    }
+  },
+  {
+    "id": "important-days-132",
+    "q": {
+      "en": "Ayushman Bharat Diwas is observed on —",
+      "as": "আয়ুষ্মান ভাৰত দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "April 30",
+        "as": "৩০ এপ্ৰিল"
+      },
+      {
+        "en": "April 24",
+        "as": "২৪ এপ্ৰিল"
+      },
+      {
+        "en": "April 21",
+        "as": "২১ এপ্ৰিল"
+      },
+      {
+        "en": "May 1",
+        "as": "১ মে'"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ayushman Bharat Diwas is observed on April 30.",
+      "as": "আয়ুষ্মান ভাৰত দিৱস ৩০ এপ্ৰিলত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-133",
+    "q": {
+      "en": "Which day is observed as World Asthma Day?",
+      "as": "কোন দিনটো বিশ্ব এজমা দিৱস হিচাপে পালন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "May 31",
+        "as": "৩১ মে'"
+      },
+      {
+        "en": "May 1",
+        "as": "১ মে'"
+      },
+      {
+        "en": "May 17",
+        "as": "১৭ মে'"
+      },
+      {
+        "en": "May 7",
+        "as": "৭ মে'"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Asthma Day is observed on the first Tuesday of May, commonly May 7.",
+      "as": "বিশ্ব এজমা দিৱস মে' মাহৰ প্ৰথম মঙ্গলবাৰে পালন কৰা হয়, সাধাৰণতে ৭ মে'।"
+    }
+  },
+  {
+    "id": "important-days-134",
+    "q": {
+      "en": "World Music Day is celebrated on —",
+      "as": "বিশ্ব সংগীত দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "June 20",
+        "as": "২০ জুন"
+      },
+      {
+        "en": "June 21",
+        "as": "২১ জুন"
+      },
+      {
+        "en": "June 14",
+        "as": "১৪ জুন"
+      },
+      {
+        "en": "June 12",
+        "as": "১২ জুন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Music Day is celebrated on June 21.",
+      "as": "বিশ্ব সংগীত দিৱস ২১ জুনত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "capitals-currencies-001",
+    "q": {
+      "en": "The capital of India is —",
+      "as": "ভাৰতৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Mumbai",
+        "as": "মুম্বাই"
+      },
+      {
+        "en": "New Delhi",
+        "as": "নতুন দিল্লী"
+      },
+      {
+        "en": "Kolkata",
+        "as": "কলকাতা"
+      },
+      {
+        "en": "Chennai",
+        "as": "চেন্নাই"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of India is New Delhi.",
+      "as": "ভাৰতৰ ৰাজধানী নতুন দিল্লী।"
+    }
+  },
+  {
+    "id": "capitals-currencies-002",
+    "q": {
+      "en": "The capital of the United States of America is —",
+      "as": "আমেৰিকা যুক্তৰাষ্ট্ৰৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Los Angeles",
+        "as": "লছ এঞ্জেলছ"
+      },
+      {
+        "en": "New York",
+        "as": "নিউয়ৰ্ক"
+      },
+      {
+        "en": "Washington D.C.",
+        "as": "ৱাশিংটন ডি. চি."
+      },
+      {
+        "en": "Chicago",
+        "as": "চিকাগো"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of the USA is Washington D.C.",
+      "as": "আমেৰিকাৰ ৰাজধানী ৱাশিংটন ডি. চি.।"
+    }
+  },
+  {
+    "id": "capitals-currencies-003",
+    "q": {
+      "en": "The capital of the United Kingdom is —",
+      "as": "যুক্তৰাজ্যৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "London",
+        "as": "লণ্ডন"
+      },
+      {
+        "en": "Manchester",
+        "as": "মাঞ্চেষ্টাৰ"
+      },
+      {
+        "en": "Edinburgh",
+        "as": "এডিনবৰা"
+      },
+      {
+        "en": "Dublin",
+        "as": "ডাবলিন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of the UK is London.",
+      "as": "যুক্তৰাজ্যৰ ৰাজধানী লণ্ডন।"
+    }
+  },
+  {
+    "id": "capitals-currencies-004",
+    "q": {
+      "en": "The capital of Japan is —",
+      "as": "জাপানৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Nagoya",
+        "as": "নাগয়া"
+      },
+      {
+        "en": "Osaka",
+        "as": "অছাকা"
+      },
+      {
+        "en": "Kyoto",
+        "as": "কিয়'ট'"
+      },
+      {
+        "en": "Tokyo",
+        "as": "টকিঅ'"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of Japan is Tokyo.",
+      "as": "জাপানৰ ৰাজধানী টকিঅ'।"
+    }
+  },
+  {
+    "id": "capitals-currencies-005",
+    "q": {
+      "en": "The capital of China is —",
+      "as": "চীনৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Hong Kong",
+        "as": "হংকং"
+      },
+      {
+        "en": "Shanghai",
+        "as": "ছাংহাই"
+      },
+      {
+        "en": "Beijing",
+        "as": "বেইজিং"
+      },
+      {
+        "en": "Guangzhou",
+        "as": "গুৱাংঝৌ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of China is Beijing.",
+      "as": "চীনৰ ৰাজধানী বেইজিং।"
+    }
+  },
+  {
+    "id": "capitals-currencies-006",
+    "q": {
+      "en": "The capital of Russia is —",
+      "as": "ৰাছিয়াৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Sochi",
+        "as": "ছ'চি"
+      },
+      {
+        "en": "St. Petersburg",
+        "as": "ছেইণ্ট পিটাৰ্ছবাৰ্গ"
+      },
+      {
+        "en": "Kazan",
+        "as": "কাজান"
+      },
+      {
+        "en": "Moscow",
+        "as": "মস্কো"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of Russia is Moscow.",
+      "as": "ৰাছিয়াৰ ৰাজধানী মস্কো।"
+    }
+  },
+  {
+    "id": "capitals-currencies-007",
+    "q": {
+      "en": "The capital of France is —",
+      "as": "ফ্ৰান্সৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Marseille",
+        "as": "মাৰ্চেইল"
+      },
+      {
+        "en": "Lyon",
+        "as": "লিয়ন"
+      },
+      {
+        "en": "Paris",
+        "as": "পেৰিছ"
+      },
+      {
+        "en": "Nice",
+        "as": "নিছ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of France is Paris.",
+      "as": "ফ্ৰান্সৰ ৰাজধানী পেৰিছ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-008",
+    "q": {
+      "en": "The capital of Germany is —",
+      "as": "জাৰ্মানীৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Frankfurt",
+        "as": "ফ্ৰাংকফৰ্ট"
+      },
+      {
+        "en": "Munich",
+        "as": "মিউনিখ"
+      },
+      {
+        "en": "Hamburg",
+        "as": "হামবাৰ্গ"
+      },
+      {
+        "en": "Berlin",
+        "as": "বাৰ্লিন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of Germany is Berlin.",
+      "as": "জাৰ্মানীৰ ৰাজধানী বাৰ্লিন।"
+    }
+  },
+  {
+    "id": "capitals-currencies-009",
+    "q": {
+      "en": "The capital of Italy is —",
+      "as": "ইটালীৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Rome",
+        "as": "ৰোম"
+      },
+      {
+        "en": "Milan",
+        "as": "মিলান"
+      },
+      {
+        "en": "Venice",
+        "as": "ভেনিছ"
+      },
+      {
+        "en": "Naples",
+        "as": "নেপলছ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Italy is Rome.",
+      "as": "ইটালীৰ ৰাজধানী ৰোম।"
+    }
+  },
+  {
+    "id": "capitals-currencies-010",
+    "q": {
+      "en": "The capital of Australia is —",
+      "as": "অষ্ট্ৰেলিয়াৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Perth",
+        "as": "পাৰ্থ"
+      },
+      {
+        "en": "Sydney",
+        "as": "ছিডনী"
+      },
+      {
+        "en": "Melbourne",
+        "as": "মেলবৰ্ণ"
+      },
+      {
+        "en": "Canberra",
+        "as": "কানবেৰা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of Australia is Canberra.",
+      "as": "অষ্ট্ৰেলিয়াৰ ৰাজধানী কানবেৰা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-011",
+    "q": {
+      "en": "The capital of Canada is —",
+      "as": "কানাডাৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Montreal",
+        "as": "মণ্ট্ৰিয়েল"
+      },
+      {
+        "en": "Toronto",
+        "as": "টৰণ্ট'"
+      },
+      {
+        "en": "Vancouver",
+        "as": "ভেনকুভাৰ"
+      },
+      {
+        "en": "Ottawa",
+        "as": "অটৱা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of Canada is Ottawa.",
+      "as": "কানাডাৰ ৰাজধানী অটৱা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-012",
+    "q": {
+      "en": "The capital of Brazil is —",
+      "as": "ব্ৰাজিলৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Salvador",
+        "as": "ছালভাডৰ"
+      },
+      {
+        "en": "Rio de Janeiro",
+        "as": "ৰিঅ' দে জেনেৰ'"
+      },
+      {
+        "en": "Sao Paulo",
+        "as": "চাও পাওল'"
+      },
+      {
+        "en": "Brasilia",
+        "as": "ব্ৰাছিলিয়া"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of Brazil is Brasilia.",
+      "as": "ব্ৰাজিলৰ ৰাজধানী ব্ৰাছিলিয়া।"
+    }
+  },
+  {
+    "id": "capitals-currencies-013",
+    "q": {
+      "en": "The capital of Bangladesh is —",
+      "as": "বাংলাদেশৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Chittagong",
+        "as": "চিটাগাং"
+      },
+      {
+        "en": "Dhaka",
+        "as": "ঢাকা"
+      },
+      {
+        "en": "Khulna",
+        "as": "খুলনা"
+      },
+      {
+        "en": "Sylhet",
+        "as": "ছিলেট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Bangladesh is Dhaka.",
+      "as": "বাংলাদেশৰ ৰাজধানী ঢাকা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-014",
+    "q": {
+      "en": "The capital of Nepal is —",
+      "as": "নেপালৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Pokhara",
+        "as": "পোখাৰা"
+      },
+      {
+        "en": "Kathmandu",
+        "as": "কাঠমাণ্ডু"
+      },
+      {
+        "en": "Lalitpur",
+        "as": "ললিতপুৰ"
+      },
+      {
+        "en": "Biratnagar",
+        "as": "বীৰাটনগৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Nepal is Kathmandu.",
+      "as": "নেপালৰ ৰাজধানী কাঠমাণ্ডু।"
+    }
+  },
+  {
+    "id": "capitals-currencies-015",
+    "q": {
+      "en": "The capital of Bhutan is —",
+      "as": "ভূটানৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Paro",
+        "as": "পাৰ'"
+      },
+      {
+        "en": "Thimphu",
+        "as": "থিম্পু"
+      },
+      {
+        "en": "Punakha",
+        "as": "পুনাখা"
+      },
+      {
+        "en": "Phuentsholing",
+        "as": "ফুয়েণ্টশ্ব'লিং"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Bhutan is Thimphu.",
+      "as": "ভূটানৰ ৰাজধানী থিম্পু।"
+    }
+  },
+  {
+    "id": "capitals-currencies-016",
+    "q": {
+      "en": "The capital of Sri Lanka is —",
+      "as": "শ্ৰীলংকাৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Colombo",
+        "as": "কলম্বো"
+      },
+      {
+        "en": "Sri Jayawardenepura Kotte",
+        "as": "শ্ৰী জয়ৱৰ্ধনেপুৰা ক'ট্টে"
+      },
+      {
+        "en": "Kandy",
+        "as": "কেণ্ডি"
+      },
+      {
+        "en": "Galle",
+        "as": "গালে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The official capital of Sri Lanka is Sri Jayawardenepura Kotte.",
+      "as": "শ্ৰীলংকাৰ চৰকাৰী ৰাজধানী শ্ৰী জয়ৱৰ্ধনেপুৰা ক'ট্টে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-017",
+    "q": {
+      "en": "The capital of Myanmar is —",
+      "as": "ম্যানমাৰৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Bago",
+        "as": "বাগো"
+      },
+      {
+        "en": "Yangon",
+        "as": "য়াংগন"
+      },
+      {
+        "en": "Mandalay",
+        "as": "মাণ্ডালে"
+      },
+      {
+        "en": "Naypyidaw",
+        "as": "নেপিড'"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of Myanmar is Naypyidaw.",
+      "as": "ম্যানমাৰৰ ৰাজধানী নেপিড'।"
+    }
+  },
+  {
+    "id": "capitals-currencies-018",
+    "q": {
+      "en": "The capital of Afghanistan is —",
+      "as": "আফগানিস্তানৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Mazar-i-Sharif",
+        "as": "মজাৰ-ই-শ্বৰীফ"
+      },
+      {
+        "en": "Kandahar",
+        "as": "কান্দাহাৰ"
+      },
+      {
+        "en": "Herat",
+        "as": "হেৰাত"
+      },
+      {
+        "en": "Kabul",
+        "as": "কাবুল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of Afghanistan is Kabul.",
+      "as": "আফগানিস্তানৰ ৰাজধানী কাবুল।"
+    }
+  },
+  {
+    "id": "capitals-currencies-019",
+    "q": {
+      "en": "The capital of Pakistan is —",
+      "as": "পাকিস্তানৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Islamabad",
+        "as": "ইছলামাবাদ"
+      },
+      {
+        "en": "Karachi",
+        "as": "কৰাচী"
+      },
+      {
+        "en": "Lahore",
+        "as": "লাহোৰ"
+      },
+      {
+        "en": "Rawalpindi",
+        "as": "ৰাৱালপিণ্ডি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Pakistan is Islamabad.",
+      "as": "পাকিস্তানৰ ৰাজধানী ইছলামাবাদ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-020",
+    "q": {
+      "en": "The capital of Maldives is —",
+      "as": "মালদ্বীপৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Male",
+        "as": "মালে"
+      },
+      {
+        "en": "Addu",
+        "as": "আদ্দু"
+      },
+      {
+        "en": "Fuvahmulah",
+        "as": "ফুভাহমুলাহ"
+      },
+      {
+        "en": "Hulhumale",
+        "as": "হুলহুমালে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Maldives is Male.",
+      "as": "মালদ্বীপৰ ৰাজধানী মালে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-021",
+    "q": {
+      "en": "The capital of Thailand is —",
+      "as": "থাইলেণ্ডৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Phuket",
+        "as": "ফুকেট"
+      },
+      {
+        "en": "Chiang Mai",
+        "as": "চিয়াং মাই"
+      },
+      {
+        "en": "Bangkok",
+        "as": "বেংকক"
+      },
+      {
+        "en": "Pattaya",
+        "as": "পাটায়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of Thailand is Bangkok.",
+      "as": "থাইলেণ্ডৰ ৰাজধানী বেংকক।"
+    }
+  },
+  {
+    "id": "capitals-currencies-022",
+    "q": {
+      "en": "The capital of Malaysia is —",
+      "as": "মালয়েছিয়াৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Putrajaya",
+        "as": "পুট্ৰাজায়া"
+      },
+      {
+        "en": "Kuala Lumpur",
+        "as": "কুৱালা লামপুৰ"
+      },
+      {
+        "en": "Penang",
+        "as": "পেনাং"
+      },
+      {
+        "en": "Johor Bahru",
+        "as": "জহৰ বাৰু"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Malaysia is Kuala Lumpur.",
+      "as": "মালয়েছিয়াৰ ৰাজধানী কুৱালা লামপুৰ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-023",
+    "q": {
+      "en": "The capital of Singapore is —",
+      "as": "ছিংগাপুৰৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Singapore City",
+        "as": "ছিংগাপুৰ চহৰ"
+      },
+      {
+        "en": "Jurong",
+        "as": "জুৰং"
+      },
+      {
+        "en": "Woodlands",
+        "as": "ৱুডলেণ্ডছ"
+      },
+      {
+        "en": "Sentosa",
+        "as": "চেণ্ট'ছা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Singapore is a city-state; its capital is Singapore City.",
+      "as": "ছিংগাপুৰ এটা চহৰ-ৰাষ্ট্ৰ; ৰাজধানী ছিংগাপুৰ চহৰ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-024",
+    "q": {
+      "en": "The capital of Indonesia is —",
+      "as": "ইণ্ডোনেছিয়াৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Jakarta",
+        "as": "জাকাৰ্টা"
+      },
+      {
+        "en": "Bali",
+        "as": "বালি"
+      },
+      {
+        "en": "Surabaya",
+        "as": "ছুৰাবায়া"
+      },
+      {
+        "en": "Bandung",
+        "as": "বান্দুং"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Indonesia is Jakarta.",
+      "as": "ইণ্ডোনেছিয়াৰ ৰাজধানী জাকাৰ্টা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-025",
+    "q": {
+      "en": "The capital of South Korea is —",
+      "as": "দক্ষিণ কোৰিয়াৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Incheon",
+        "as": "ইঞ্চিয়ন"
+      },
+      {
+        "en": "Busan",
+        "as": "বুছান"
+      },
+      {
+        "en": "Seoul",
+        "as": "ছিউল"
+      },
+      {
+        "en": "Daegu",
+        "as": "ডায়েগু"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of South Korea is Seoul.",
+      "as": "দক্ষিণ কোৰিয়াৰ ৰাজধানী ছিউল।"
+    }
+  },
+  {
+    "id": "capitals-currencies-026",
+    "q": {
+      "en": "The capital of North Korea is —",
+      "as": "উত্তৰ কোৰিয়াৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Kaesong",
+        "as": "কায়েচং"
+      },
+      {
+        "en": "Seoul",
+        "as": "ছিউল"
+      },
+      {
+        "en": "Pyongyang",
+        "as": "পিয়ংইয়াং"
+      },
+      {
+        "en": "Hamhung",
+        "as": "হামহুং"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of North Korea is Pyongyang.",
+      "as": "উত্তৰ কোৰিয়াৰ ৰাজধানী পিয়ংইয়াং।"
+    }
+  },
+  {
+    "id": "capitals-currencies-027",
+    "q": {
+      "en": "The capital of Saudi Arabia is —",
+      "as": "ছৌদি আৰবৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Medina",
+        "as": "মদিনা"
+      },
+      {
+        "en": "Mecca",
+        "as": "মক্কা"
+      },
+      {
+        "en": "Jeddah",
+        "as": "জেদ্দা"
+      },
+      {
+        "en": "Riyadh",
+        "as": "ৰিয়াদ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of Saudi Arabia is Riyadh.",
+      "as": "ছৌদি আৰবৰ ৰাজধানী ৰিয়াদ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-028",
+    "q": {
+      "en": "The capital of the United Arab Emirates is —",
+      "as": "সংযুক্ত আৰব আমিৰশাহীৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Dubai",
+        "as": "দুবাই"
+      },
+      {
+        "en": "Abu Dhabi",
+        "as": "আবু ধাবি"
+      },
+      {
+        "en": "Sharjah",
+        "as": "শাৰজাহ"
+      },
+      {
+        "en": "Ajman",
+        "as": "আজমান"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of the UAE is Abu Dhabi.",
+      "as": "সংযুক্ত আৰব আমিৰশাহীৰ ৰাজধানী আবু ধাবি।"
+    }
+  },
+  {
+    "id": "capitals-currencies-029",
+    "q": {
+      "en": "The capital of Qatar is —",
+      "as": "কাটাৰৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Manama",
+        "as": "মানামা"
+      },
+      {
+        "en": "Dubai",
+        "as": "দুবাই"
+      },
+      {
+        "en": "Doha",
+        "as": "দোহা"
+      },
+      {
+        "en": "Muscat",
+        "as": "মাস্কাট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of Qatar is Doha.",
+      "as": "কাটাৰৰ ৰাজধানী দোহা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-030",
+    "q": {
+      "en": "The capital of Kuwait is —",
+      "as": "কুৱেইটৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Riyadh",
+        "as": "ৰিয়াদ"
+      },
+      {
+        "en": "Doha",
+        "as": "দোহা"
+      },
+      {
+        "en": "Kuwait City",
+        "as": "কুৱেইট চহৰ"
+      },
+      {
+        "en": "Manama",
+        "as": "মানামা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of Kuwait is Kuwait City.",
+      "as": "কুৱেইটৰ ৰাজধানী কুৱেইট চহৰ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-031",
+    "q": {
+      "en": "The capital of Iran is —",
+      "as": "ইৰাণৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Tehran",
+        "as": "তেহৰাণ"
+      },
+      {
+        "en": "Baghdad",
+        "as": "বাগদাদ"
+      },
+      {
+        "en": "Isfahan",
+        "as": "ইছফাহান"
+      },
+      {
+        "en": "Shiraz",
+        "as": "শিৰাজ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Iran is Tehran.",
+      "as": "ইৰাণৰ ৰাজধানী তেহৰাণ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-032",
+    "q": {
+      "en": "The capital of Iraq is —",
+      "as": "ইৰাকৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Basra",
+        "as": "বাছৰা"
+      },
+      {
+        "en": "Tehran",
+        "as": "তেহৰাণ"
+      },
+      {
+        "en": "Mosul",
+        "as": "মচুল"
+      },
+      {
+        "en": "Baghdad",
+        "as": "বাগদাদ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of Iraq is Baghdad.",
+      "as": "ইৰাকৰ ৰাজধানী বাগদাদ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-033",
+    "q": {
+      "en": "The capital of Israel is —",
+      "as": "ইজৰাইলৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Tel Aviv",
+        "as": "তেল আভিভ"
+      },
+      {
+        "en": "Jerusalem",
+        "as": "জেৰুজালেম"
+      },
+      {
+        "en": "Haifa",
+        "as": "হাইফা"
+      },
+      {
+        "en": "Eilat",
+        "as": "এলাট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Israel's declared capital is Jerusalem.",
+      "as": "ইজৰাইলৰ ঘোষিত ৰাজধানী জেৰুজালেম।"
+    }
+  },
+  {
+    "id": "capitals-currencies-034",
+    "q": {
+      "en": "The capital of Turkey is —",
+      "as": "তুৰস্কৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Izmir",
+        "as": "ইজমিৰ"
+      },
+      {
+        "en": "Istanbul",
+        "as": "ইস্তাম্বুল"
+      },
+      {
+        "en": "Ankara",
+        "as": "আংকাৰা"
+      },
+      {
+        "en": "Bursa",
+        "as": "বুৰ্ছা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of Turkey is Ankara.",
+      "as": "তুৰস্কৰ ৰাজধানী আংকাৰা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-035",
+    "q": {
+      "en": "The capital of Egypt is —",
+      "as": "ইজিপ্তৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Luxor",
+        "as": "লাক্সৰ"
+      },
+      {
+        "en": "Alexandria",
+        "as": "আলেকজান্দ্ৰিয়া"
+      },
+      {
+        "en": "Giza",
+        "as": "গিজা"
+      },
+      {
+        "en": "Cairo",
+        "as": "কাইৰ'"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of Egypt is Cairo.",
+      "as": "ইজিপ্তৰ ৰাজধানী কাইৰ'।"
+    }
+  },
+  {
+    "id": "capitals-currencies-036",
+    "q": {
+      "en": "The administrative capital of South Africa is —",
+      "as": "দক্ষিণ আফ্ৰিকাৰ প্ৰশাসনিক ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Cape Town",
+        "as": "কেপ টাউন"
+      },
+      {
+        "en": "Pretoria",
+        "as": "প্ৰিট'ৰিয়া"
+      },
+      {
+        "en": "Johannesburg",
+        "as": "জোহান্সবাৰ্গ"
+      },
+      {
+        "en": "Durban",
+        "as": "ডাৰবান"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Pretoria is the administrative capital of South Africa.",
+      "as": "দক্ষিণ আফ্ৰিকাৰ প্ৰশাসনিক ৰাজধানী প্ৰিট'ৰিয়া।"
+    }
+  },
+  {
+    "id": "capitals-currencies-037",
+    "q": {
+      "en": "The capital of Nigeria is —",
+      "as": "নাইজেৰিয়াৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Kano",
+        "as": "কানো"
+      },
+      {
+        "en": "Lagos",
+        "as": "লাগোছ"
+      },
+      {
+        "en": "Abuja",
+        "as": "আবুজা"
+      },
+      {
+        "en": "Ibadan",
+        "as": "ইবাডান"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of Nigeria is Abuja.",
+      "as": "নাইজেৰিয়াৰ ৰাজধানী আবুজা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-038",
+    "q": {
+      "en": "The capital of Kenya is —",
+      "as": "কেনিয়াৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Nairobi",
+        "as": "নাইৰ'বি"
+      },
+      {
+        "en": "Mombasa",
+        "as": "মম্বাছা"
+      },
+      {
+        "en": "Kisumu",
+        "as": "কিছুমু"
+      },
+      {
+        "en": "Nakuru",
+        "as": "নাকুৰু"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Kenya is Nairobi.",
+      "as": "কেনিয়াৰ ৰাজধানী নাইৰ'বি।"
+    }
+  },
+  {
+    "id": "capitals-currencies-039",
+    "q": {
+      "en": "The capital of Switzerland is —",
+      "as": "ছুইজাৰলেণ্ডৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Bern",
+        "as": "বাৰ্ন"
+      },
+      {
+        "en": "Zurich",
+        "as": "জুৰিখ"
+      },
+      {
+        "en": "Geneva",
+        "as": "জেনেভা"
+      },
+      {
+        "en": "Basel",
+        "as": "বাছেল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Switzerland is Bern.",
+      "as": "ছুইজাৰলেণ্ডৰ ৰাজধানী বাৰ্ন।"
+    }
+  },
+  {
+    "id": "capitals-currencies-040",
+    "q": {
+      "en": "The capital of Sweden is —",
+      "as": "ছুইডেনৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Gothenburg",
+        "as": "গথেনবাৰ্গ"
+      },
+      {
+        "en": "Stockholm",
+        "as": "ষ্টকহ'ম"
+      },
+      {
+        "en": "Malmo",
+        "as": "মালম'"
+      },
+      {
+        "en": "Uppsala",
+        "as": "আপছালা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Sweden is Stockholm.",
+      "as": "ছুইডেনৰ ৰাজধানী ষ্টকহ'ম।"
+    }
+  },
+  {
+    "id": "capitals-currencies-041",
+    "q": {
+      "en": "The capital of Norway is —",
+      "as": "নৰৱেৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Stavanger",
+        "as": "ষ্টাভাঞ্জাৰ"
+      },
+      {
+        "en": "Bergen",
+        "as": "বাৰ্গেন"
+      },
+      {
+        "en": "Trondheim",
+        "as": "ট্ৰনহাইম"
+      },
+      {
+        "en": "Oslo",
+        "as": "অছল'"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of Norway is Oslo.",
+      "as": "নৰৱেৰ ৰাজধানী অছল'।"
+    }
+  },
+  {
+    "id": "capitals-currencies-042",
+    "q": {
+      "en": "The capital of Denmark is —",
+      "as": "ডেনমাৰ্কৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Aalborg",
+        "as": "আলবৰ্গ"
+      },
+      {
+        "en": "Aarhus",
+        "as": "আৰহাছ"
+      },
+      {
+        "en": "Odense",
+        "as": "ওডেন্সে"
+      },
+      {
+        "en": "Copenhagen",
+        "as": "কোপেনহেগেন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of Denmark is Copenhagen.",
+      "as": "ডেনমাৰ্কৰ ৰাজধানী কোপেনহেগেন।"
+    }
+  },
+  {
+    "id": "capitals-currencies-043",
+    "q": {
+      "en": "The capital of the Netherlands is —",
+      "as": "নেডাৰলেণ্ডছৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Rotterdam",
+        "as": "ৰটাৰডাম"
+      },
+      {
+        "en": "The Hague",
+        "as": "দ্য হেগ"
+      },
+      {
+        "en": "Amsterdam",
+        "as": "আমষ্টাৰডাম"
+      },
+      {
+        "en": "Utrecht",
+        "as": "উট্ৰেখট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of the Netherlands is Amsterdam.",
+      "as": "নেডাৰলেণ্ডছৰ ৰাজধানী আমষ্টাৰডাম।"
+    }
+  },
+  {
+    "id": "capitals-currencies-044",
+    "q": {
+      "en": "The capital of Spain is —",
+      "as": "স্পেইনৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Seville",
+        "as": "চেভিল"
+      },
+      {
+        "en": "Barcelona",
+        "as": "বাৰ্চিলোনা"
+      },
+      {
+        "en": "Madrid",
+        "as": "মাদ্ৰিদ"
+      },
+      {
+        "en": "Valencia",
+        "as": "ভালেন্সিয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of Spain is Madrid.",
+      "as": "স্পেইনৰ ৰাজধানী মাদ্ৰিদ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-045",
+    "q": {
+      "en": "The capital of Portugal is —",
+      "as": "পৰ্তুগালৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Lisbon",
+        "as": "লিছবন"
+      },
+      {
+        "en": "Porto",
+        "as": "পৰ্ট'"
+      },
+      {
+        "en": "Faro",
+        "as": "ফাৰ'"
+      },
+      {
+        "en": "Coimbra",
+        "as": "কইম্ব্ৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Portugal is Lisbon.",
+      "as": "পৰ্তুগালৰ ৰাজধানী লিছবন।"
+    }
+  },
+  {
+    "id": "capitals-currencies-046",
+    "q": {
+      "en": "The capital of Greece is —",
+      "as": "গ্ৰীছৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Thessaloniki",
+        "as": "থেছালনিকি"
+      },
+      {
+        "en": "Sparta",
+        "as": "স্পাৰ্টা"
+      },
+      {
+        "en": "Athens",
+        "as": "এথেন্স"
+      },
+      {
+        "en": "Crete",
+        "as": "ক্ৰীট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of Greece is Athens.",
+      "as": "গ্ৰীছৰ ৰাজধানী এথেন্স।"
+    }
+  },
+  {
+    "id": "capitals-currencies-047",
+    "q": {
+      "en": "The capital of Poland is —",
+      "as": "পোলেণ্ডৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Warsaw",
+        "as": "ৱাৰ্ছ'"
+      },
+      {
+        "en": "Krakow",
+        "as": "ক্ৰাক'"
+      },
+      {
+        "en": "Gdansk",
+        "as": "গডান্স্ক"
+      },
+      {
+        "en": "Lodz",
+        "as": "লজ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Poland is Warsaw.",
+      "as": "পোলেণ্ডৰ ৰাজধানী ৱাৰ্ছ'।"
+    }
+  },
+  {
+    "id": "capitals-currencies-048",
+    "q": {
+      "en": "The capital of Ukraine is —",
+      "as": "ইউক্ৰেইনৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Lviv",
+        "as": "লভিভ"
+      },
+      {
+        "en": "Kharkiv",
+        "as": "খাৰকিভ"
+      },
+      {
+        "en": "Odesa",
+        "as": "অডেছা"
+      },
+      {
+        "en": "Kyiv",
+        "as": "কিভ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of Ukraine is Kyiv.",
+      "as": "ইউক্ৰেইনৰ ৰাজধানী কিভ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-049",
+    "q": {
+      "en": "The capital of Argentina is —",
+      "as": "আৰ্জেণ্টিনাৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Buenos Aires",
+        "as": "বুৱেনছ আইৰিছ"
+      },
+      {
+        "en": "Cordoba",
+        "as": "কৰ্ড'বা"
+      },
+      {
+        "en": "Rosario",
+        "as": "ৰ'ছাৰিঅ'"
+      },
+      {
+        "en": "Mendoza",
+        "as": "মেণ্ডোজা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Argentina is Buenos Aires.",
+      "as": "আৰ্জেণ্টিনাৰ ৰাজধানী বুৱেনছ আইৰিছ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-050",
+    "q": {
+      "en": "The capital of Mexico is —",
+      "as": "মেক্সিকোৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Guadalajara",
+        "as": "গুৱাডালাহাৰা"
+      },
+      {
+        "en": "Mexico City",
+        "as": "মেক্সিকো চহৰ"
+      },
+      {
+        "en": "Monterrey",
+        "as": "মণ্টেৰী"
+      },
+      {
+        "en": "Cancun",
+        "as": "কানকুন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Mexico is Mexico City.",
+      "as": "মেক্সিকোৰ ৰাজধানী মেক্সিকো চহৰ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-051",
+    "q": {
+      "en": "The capital of Cuba is —",
+      "as": "কিউবাৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Havana",
+        "as": "হাভানা"
+      },
+      {
+        "en": "Santiago de Cuba",
+        "as": "চাণ্টিয়াগো দে কিউবা"
+      },
+      {
+        "en": "Camaguey",
+        "as": "কামাগুৱে"
+      },
+      {
+        "en": "Varadero",
+        "as": "ভাৰাডেৰ'"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Cuba is Havana.",
+      "as": "কিউবাৰ ৰাজধানী হাভানা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-052",
+    "q": {
+      "en": "The capital of New Zealand is —",
+      "as": "নিউজিলেণ্ডৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Christchurch",
+        "as": "খ্ৰীষ্টচাৰ্চ"
+      },
+      {
+        "en": "Auckland",
+        "as": "অকলেণ্ড"
+      },
+      {
+        "en": "Wellington",
+        "as": "ৱেলিংটন"
+      },
+      {
+        "en": "Hamilton",
+        "as": "হেমিলটন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of New Zealand is Wellington.",
+      "as": "নিউজিলেণ্ডৰ ৰাজধানী ৱেলিংটন।"
+    }
+  },
+  {
+    "id": "capitals-currencies-053",
+    "q": {
+      "en": "The capital of Fiji is —",
+      "as": "ফিজিৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Nadi",
+        "as": "নাদি"
+      },
+      {
+        "en": "Suva",
+        "as": "চুভা"
+      },
+      {
+        "en": "Lautoka",
+        "as": "লাউটোকা"
+      },
+      {
+        "en": "Labasa",
+        "as": "লাবাছা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Fiji is Suva.",
+      "as": "ফিজিৰ ৰাজধানী চুভা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-054",
+    "q": {
+      "en": "The capital of Vietnam is —",
+      "as": "ভিয়েটনামৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Da Nang",
+        "as": "ডা নাং"
+      },
+      {
+        "en": "Ho Chi Minh City",
+        "as": "হো চি মিন চহৰ"
+      },
+      {
+        "en": "Hanoi",
+        "as": "হানয়"
+      },
+      {
+        "en": "Hue",
+        "as": "হুয়ে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of Vietnam is Hanoi.",
+      "as": "ভিয়েটনামৰ ৰাজধানী হানয়।"
+    }
+  },
+  {
+    "id": "capitals-currencies-055",
+    "q": {
+      "en": "The capital of the Philippines is —",
+      "as": "ফিলিপাইনছৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Quezon City",
+        "as": "কুইজন চহৰ"
+      },
+      {
+        "en": "Cebu",
+        "as": "চেবু"
+      },
+      {
+        "en": "Davao",
+        "as": "ডাভাও"
+      },
+      {
+        "en": "Manila",
+        "as": "মেনিলা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of the Philippines is Manila.",
+      "as": "ফিলিপাইনছৰ ৰাজধানী মেনিলা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-056",
+    "q": {
+      "en": "The capital of Cambodia is —",
+      "as": "কম্বোডিয়াৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Siem Reap",
+        "as": "চিয়েম ৰিপ"
+      },
+      {
+        "en": "Phnom Penh",
+        "as": "নম পেন"
+      },
+      {
+        "en": "Battambang",
+        "as": "বাটামবাং"
+      },
+      {
+        "en": "Sihanoukville",
+        "as": "ছিহানুকভিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Cambodia is Phnom Penh.",
+      "as": "কম্বোডিয়াৰ ৰাজধানী নম পেন।"
+    }
+  },
+  {
+    "id": "capitals-currencies-057",
+    "q": {
+      "en": "The capital of Mongolia is —",
+      "as": "মংগোলিয়াৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Choibalsan",
+        "as": "চয়বালছান"
+      },
+      {
+        "en": "Erdenet",
+        "as": "এৰ্ডেনেট"
+      },
+      {
+        "en": "Darkhan",
+        "as": "ডাৰখান"
+      },
+      {
+        "en": "Ulaanbaatar",
+        "as": "উলানবাটৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of Mongolia is Ulaanbaatar.",
+      "as": "মংগোলিয়াৰ ৰাজধানী উলানবাটৰ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-058",
+    "q": {
+      "en": "The capital of Kazakhstan is —",
+      "as": "কাজাখস্তানৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Astana",
+        "as": "আস্তানা"
+      },
+      {
+        "en": "Almaty",
+        "as": "আলমাটি"
+      },
+      {
+        "en": "Shymkent",
+        "as": "শিমকেণ্ট"
+      },
+      {
+        "en": "Karaganda",
+        "as": "কাৰাগান্দা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Kazakhstan is Astana.",
+      "as": "কাজাখস্তানৰ ৰাজধানী আস্তানা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-059",
+    "q": {
+      "en": "The capital of Uzbekistan is —",
+      "as": "উজবেকিস্তানৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Bukhara",
+        "as": "বুখাৰা"
+      },
+      {
+        "en": "Samarkand",
+        "as": "ছামাৰকান্দ"
+      },
+      {
+        "en": "Tashkent",
+        "as": "তাশখন্দ"
+      },
+      {
+        "en": "Namangan",
+        "as": "নামানগান"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of Uzbekistan is Tashkent.",
+      "as": "উজবেকিস্তানৰ ৰাজধানী তাশখন্দ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-060",
+    "q": {
+      "en": "The capital of Azerbaijan is —",
+      "as": "আজাৰবাইজানৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Ganja",
+        "as": "গানজা"
+      },
+      {
+        "en": "Baku",
+        "as": "বাকু"
+      },
+      {
+        "en": "Sumqayit",
+        "as": "ছুমকায়িত"
+      },
+      {
+        "en": "Lankaran",
+        "as": "লাংকাৰান"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Azerbaijan is Baku.",
+      "as": "আজাৰবাইজানৰ ৰাজধানী বাকু।"
+    }
+  },
+  {
+    "id": "capitals-currencies-061",
+    "q": {
+      "en": "The capital of Georgia is —",
+      "as": "জৰ্জিয়াৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Batumi",
+        "as": "বাটুমি"
+      },
+      {
+        "en": "Tbilisi",
+        "as": "তিবিলিছি"
+      },
+      {
+        "en": "Kutaisi",
+        "as": "কুটাইছি"
+      },
+      {
+        "en": "Rustavi",
+        "as": "ৰুস্তাভি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Georgia is Tbilisi.",
+      "as": "জৰ্জিয়াৰ ৰাজধানী তিবিলিছি।"
+    }
+  },
+  {
+    "id": "capitals-currencies-062",
+    "q": {
+      "en": "The capital of Belarus is —",
+      "as": "বেলাৰুছৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Minsk",
+        "as": "মিন্স্ক"
+      },
+      {
+        "en": "Gomel",
+        "as": "গ'মেল"
+      },
+      {
+        "en": "Brest",
+        "as": "ব্ৰেষ্ট"
+      },
+      {
+        "en": "Vitebsk",
+        "as": "ভিটেব্স্ক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Belarus is Minsk.",
+      "as": "বেলাৰুছৰ ৰাজধানী মিন্স্ক।"
+    }
+  },
+  {
+    "id": "capitals-currencies-063",
+    "q": {
+      "en": "The capital of Romania is —",
+      "as": "ৰোমানিয়াৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Cluj-Napoca",
+        "as": "ক্লুজ-নাপোকা"
+      },
+      {
+        "en": "Bucharest",
+        "as": "বুখাৰেষ্ট"
+      },
+      {
+        "en": "Timisoara",
+        "as": "টিমিছ'ৱাৰা"
+      },
+      {
+        "en": "Iasi",
+        "as": "ইয়াছি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Romania is Bucharest.",
+      "as": "ৰোমানিয়াৰ ৰাজধানী বুখাৰেষ্ট।"
+    }
+  },
+  {
+    "id": "capitals-currencies-064",
+    "q": {
+      "en": "The capital of Hungary is —",
+      "as": "হাংগেৰীৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Debrecen",
+        "as": "ডেব্ৰেচেন"
+      },
+      {
+        "en": "Budapest",
+        "as": "বুডাপেষ্ট"
+      },
+      {
+        "en": "Szeged",
+        "as": "ছেজেড"
+      },
+      {
+        "en": "Miskolc",
+        "as": "মিস্কল্ক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Hungary is Budapest.",
+      "as": "হাংগেৰীৰ ৰাজধানী বুডাপেষ্ট।"
+    }
+  },
+  {
+    "id": "capitals-currencies-065",
+    "q": {
+      "en": "The capital of the Czech Republic is —",
+      "as": "চেক গণৰাজ্যৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Brno",
+        "as": "বাৰ্ন'"
+      },
+      {
+        "en": "Prague",
+        "as": "প্ৰাগ"
+      },
+      {
+        "en": "Ostrava",
+        "as": "অষ্ট্ৰাভা"
+      },
+      {
+        "en": "Plzen",
+        "as": "প্লজেন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of the Czech Republic is Prague.",
+      "as": "চেক গণৰাজ্যৰ ৰাজধানী প্ৰাগ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-066",
+    "q": {
+      "en": "The currency of India is —",
+      "as": "ভাৰতৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Dollar",
+        "as": "ডলাৰ"
+      },
+      {
+        "en": "Taka",
+        "as": "টাকা"
+      },
+      {
+        "en": "Rupee",
+        "as": "ৰুপী"
+      },
+      {
+        "en": "Yen",
+        "as": "য়েন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The currency of India is the Rupee.",
+      "as": "ভাৰতৰ মুদ্ৰা হৈছে ৰুপী।"
+    }
+  },
+  {
+    "id": "capitals-currencies-067",
+    "q": {
+      "en": "The currency of the United States is —",
+      "as": "আমেৰিকা যুক্তৰাষ্ট্ৰৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Yen",
+        "as": "য়েন"
+      },
+      {
+        "en": "Pound",
+        "as": "পাউণ্ড"
+      },
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "Dollar",
+        "as": "ডলাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The currency of the USA is the Dollar.",
+      "as": "আমেৰিকাৰ মুদ্ৰা হৈছে ডলাৰ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-068",
+    "q": {
+      "en": "The currency of the United Kingdom is —",
+      "as": "যুক্তৰাজ্যৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Franc",
+        "as": "ফ্ৰাংক"
+      },
+      {
+        "en": "Dollar",
+        "as": "ডলাৰ"
+      },
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "Pound Sterling",
+        "as": "পাউণ্ড ষ্টাৰলিং"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The UK currency is the Pound Sterling.",
+      "as": "যুক্তৰাজ্যৰ মুদ্ৰা পাউণ্ড ষ্টাৰলিং।"
+    }
+  },
+  {
+    "id": "capitals-currencies-069",
+    "q": {
+      "en": "The currency of Japan is —",
+      "as": "জাপানৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Yen",
+        "as": "য়েন"
+      },
+      {
+        "en": "Yuan",
+        "as": "য়ুৱান"
+      },
+      {
+        "en": "Won",
+        "as": "ৱন"
+      },
+      {
+        "en": "Baht",
+        "as": "বাট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The currency of Japan is the Yen.",
+      "as": "জাপানৰ মুদ্ৰা য়েন।"
+    }
+  },
+  {
+    "id": "capitals-currencies-070",
+    "q": {
+      "en": "The currency of China is —",
+      "as": "চীনৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Yuan (Renminbi)",
+        "as": "য়ুৱান (ৰেনমিনবি)"
+      },
+      {
+        "en": "Yen",
+        "as": "য়েন"
+      },
+      {
+        "en": "Won",
+        "as": "ৱন"
+      },
+      {
+        "en": "Ringgit",
+        "as": "ৰিংগিট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The currency of China is the Yuan (Renminbi).",
+      "as": "চীনৰ মুদ্ৰা য়ুৱান (ৰেনমিনবি)।"
+    }
+  },
+  {
+    "id": "capitals-currencies-071",
+    "q": {
+      "en": "The currency of Russia is —",
+      "as": "ৰাছিয়াৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Dollar",
+        "as": "ডলাৰ"
+      },
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "Rouble",
+        "as": "ৰুবল"
+      },
+      {
+        "en": "Tenge",
+        "as": "টেংগে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The currency of Russia is the Rouble.",
+      "as": "ৰাছিয়াৰ মুদ্ৰা ৰুবল।"
+    }
+  },
+  {
+    "id": "capitals-currencies-072",
+    "q": {
+      "en": "The currency of France is —",
+      "as": "ফ্ৰান্সৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Franc",
+        "as": "ফ্ৰাংক"
+      },
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "Pound",
+        "as": "পাউণ্ড"
+      },
+      {
+        "en": "Lira",
+        "as": "লিৰা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "France uses the Euro.",
+      "as": "ফ্ৰান্সে ইউৰ' ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-073",
+    "q": {
+      "en": "The currency of Germany is —",
+      "as": "জাৰ্মানীৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Franc",
+        "as": "ফ্ৰাংক"
+      },
+      {
+        "en": "Mark",
+        "as": "মাৰ্ক"
+      },
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "Krone",
+        "as": "ক্ৰ'ন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Germany uses the Euro.",
+      "as": "জাৰ্মানীয়ে ইউৰ' ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-074",
+    "q": {
+      "en": "The currency of Italy is —",
+      "as": "ইটালীৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "Lira",
+        "as": "লিৰা"
+      },
+      {
+        "en": "Franc",
+        "as": "ফ্ৰাংক"
+      },
+      {
+        "en": "Peso",
+        "as": "পেছ'"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Italy uses the Euro.",
+      "as": "ইটালীয়ে ইউৰ' ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-075",
+    "q": {
+      "en": "The currency of Australia is —",
+      "as": "অষ্ট্ৰেলিয়াৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Australian Dollar",
+        "as": "অষ্ট্ৰেলিয়ান ডলাৰ"
+      },
+      {
+        "en": "Pound",
+        "as": "পাউণ্ড"
+      },
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "Yen",
+        "as": "য়েন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Australia uses the Australian Dollar.",
+      "as": "অষ্ট্ৰেলিয়াই অষ্ট্ৰেলিয়ান ডলাৰ ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-076",
+    "q": {
+      "en": "The currency of Canada is —",
+      "as": "কানাডাৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "US Dollar",
+        "as": "আমেৰিকান ডলাৰ"
+      },
+      {
+        "en": "Pound",
+        "as": "পাউণ্ড"
+      },
+      {
+        "en": "Canadian Dollar",
+        "as": "কেনাডিয়ান ডলাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Canada uses the Canadian Dollar.",
+      "as": "কানাডাই কেনাডিয়ান ডলাৰ ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-077",
+    "q": {
+      "en": "The currency of Brazil is —",
+      "as": "ব্ৰাজিলৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Dollar",
+        "as": "ডলাৰ"
+      },
+      {
+        "en": "Peso",
+        "as": "পেছ'"
+      },
+      {
+        "en": "Real",
+        "as": "ৰিয়েল"
+      },
+      {
+        "en": "Escudo",
+        "as": "এস্কুড'"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The currency of Brazil is the Real.",
+      "as": "ব্ৰাজিলৰ মুদ্ৰা ৰিয়েল।"
+    }
+  },
+  {
+    "id": "capitals-currencies-078",
+    "q": {
+      "en": "The currency of Bangladesh is —",
+      "as": "বাংলাদেশৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Kyat",
+        "as": "ক্যাট"
+      },
+      {
+        "en": "Rupee",
+        "as": "ৰুপী"
+      },
+      {
+        "en": "Taka",
+        "as": "টাকা"
+      },
+      {
+        "en": "Riel",
+        "as": "ৰিয়েল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The currency of Bangladesh is the Taka.",
+      "as": "বাংলাদেশৰ মুদ্ৰা টাকা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-079",
+    "q": {
+      "en": "The currency of Nepal is —",
+      "as": "নেপালৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Yuan",
+        "as": "য়ুৱান"
+      },
+      {
+        "en": "Taka",
+        "as": "টাকা"
+      },
+      {
+        "en": "Ngultrum",
+        "as": "গুলট্ৰাম"
+      },
+      {
+        "en": "Nepalese Rupee",
+        "as": "নেপালী ৰুপী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Nepal uses the Nepalese Rupee.",
+      "as": "নেপালে নেপালী ৰুপী ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-080",
+    "q": {
+      "en": "The currency of Bhutan is —",
+      "as": "ভূটানৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Kyat",
+        "as": "ক্যাট"
+      },
+      {
+        "en": "Rupee",
+        "as": "ৰুপী"
+      },
+      {
+        "en": "Taka",
+        "as": "টাকা"
+      },
+      {
+        "en": "Ngultrum",
+        "as": "গুলট্ৰাম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The currency of Bhutan is the Ngultrum.",
+      "as": "ভূটানৰ মুদ্ৰা গুলট্ৰাম।"
+    }
+  },
+  {
+    "id": "capitals-currencies-081",
+    "q": {
+      "en": "The currency of Sri Lanka is —",
+      "as": "শ্ৰীলংকাৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Kyat",
+        "as": "ক্যাট"
+      },
+      {
+        "en": "Taka",
+        "as": "টাকা"
+      },
+      {
+        "en": "Rufiyaa",
+        "as": "ৰুফিয়া"
+      },
+      {
+        "en": "Sri Lankan Rupee",
+        "as": "শ্ৰীলংকান ৰুপী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sri Lanka uses the Sri Lankan Rupee.",
+      "as": "শ্ৰীলংকাই শ্ৰীলংকান ৰুপী ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-082",
+    "q": {
+      "en": "The currency of Myanmar is —",
+      "as": "ম্যানমাৰৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Kyat",
+        "as": "ক্যাট"
+      },
+      {
+        "en": "Baht",
+        "as": "বাট"
+      },
+      {
+        "en": "Riel",
+        "as": "ৰিয়েল"
+      },
+      {
+        "en": "Dong",
+        "as": "ডং"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The currency of Myanmar is the Kyat.",
+      "as": "ম্যানমাৰৰ মুদ্ৰা ক্যাট।"
+    }
+  },
+  {
+    "id": "capitals-currencies-083",
+    "q": {
+      "en": "The currency of Afghanistan is —",
+      "as": "আফগানিস্তানৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Afghani",
+        "as": "আফগানী"
+      },
+      {
+        "en": "Rial",
+        "as": "ৰিয়াল"
+      },
+      {
+        "en": "Dinar",
+        "as": "দিনাৰ"
+      },
+      {
+        "en": "Dirham",
+        "as": "দিৰহাম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The currency of Afghanistan is the Afghani.",
+      "as": "আফগানিস্তানৰ মুদ্ৰা আফগানী।"
+    }
+  },
+  {
+    "id": "capitals-currencies-084",
+    "q": {
+      "en": "The currency of Pakistan is —",
+      "as": "পাকিস্তানৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Pakistani Rupee",
+        "as": "পাকিস্তানী ৰুপী"
+      },
+      {
+        "en": "Taka",
+        "as": "টাকা"
+      },
+      {
+        "en": "Afghani",
+        "as": "আফগানী"
+      },
+      {
+        "en": "Riyal",
+        "as": "ৰিয়াল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Pakistan uses the Pakistani Rupee.",
+      "as": "পাকিস্তানে পাকিস্তানী ৰুপী ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-085",
+    "q": {
+      "en": "The currency of Maldives is —",
+      "as": "মালদ্বীপৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Rial",
+        "as": "ৰিয়াল"
+      },
+      {
+        "en": "Rupee",
+        "as": "ৰুপী"
+      },
+      {
+        "en": "Rufiyaa",
+        "as": "ৰুফিয়া"
+      },
+      {
+        "en": "Dinar",
+        "as": "দিনাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The currency of Maldives is the Rufiyaa.",
+      "as": "মালদ্বীপৰ মুদ্ৰা ৰুফিয়া।"
+    }
+  },
+  {
+    "id": "capitals-currencies-086",
+    "q": {
+      "en": "The currency of Thailand is —",
+      "as": "থাইলেণ্ডৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Kyat",
+        "as": "ক্যাট"
+      },
+      {
+        "en": "Baht",
+        "as": "বাট"
+      },
+      {
+        "en": "Ringgit",
+        "as": "ৰিংগিট"
+      },
+      {
+        "en": "Dong",
+        "as": "ডং"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The currency of Thailand is the Baht.",
+      "as": "থাইলেণ্ডৰ মুদ্ৰা বাট।"
+    }
+  },
+  {
+    "id": "capitals-currencies-087",
+    "q": {
+      "en": "The currency of Malaysia is —",
+      "as": "মালয়েছিয়াৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Rupiah",
+        "as": "ৰুপিয়া"
+      },
+      {
+        "en": "Baht",
+        "as": "বাট"
+      },
+      {
+        "en": "Ringgit",
+        "as": "ৰিংগিট"
+      },
+      {
+        "en": "Peso",
+        "as": "পেছ'"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The currency of Malaysia is the Ringgit.",
+      "as": "মালয়েছিয়াৰ মুদ্ৰা ৰিংগিট।"
+    }
+  },
+  {
+    "id": "capitals-currencies-088",
+    "q": {
+      "en": "The currency of Singapore is —",
+      "as": "ছিংগাপুৰৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Baht",
+        "as": "বাট"
+      },
+      {
+        "en": "Ringgit",
+        "as": "ৰিংগিট"
+      },
+      {
+        "en": "Singapore Dollar",
+        "as": "ছিংগাপুৰ ডলাৰ"
+      },
+      {
+        "en": "Rupiah",
+        "as": "ৰুপিয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Singapore uses the Singapore Dollar.",
+      "as": "ছিংগাপুৰে ছিংগাপুৰ ডলাৰ ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-089",
+    "q": {
+      "en": "The currency of Indonesia is —",
+      "as": "ইণ্ডোনেছিয়াৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Rupiah",
+        "as": "ৰুপিয়া"
+      },
+      {
+        "en": "Ringgit",
+        "as": "ৰিংগিট"
+      },
+      {
+        "en": "Peso",
+        "as": "পেছ'"
+      },
+      {
+        "en": "Baht",
+        "as": "বাট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The currency of Indonesia is the Rupiah.",
+      "as": "ইণ্ডোনেছিয়াৰ মুদ্ৰা ৰুপিয়া।"
+    }
+  },
+  {
+    "id": "capitals-currencies-090",
+    "q": {
+      "en": "The currency of South Korea is —",
+      "as": "দক্ষিণ কোৰিয়াৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Yuan",
+        "as": "য়ুৱান"
+      },
+      {
+        "en": "Yen",
+        "as": "য়েন"
+      },
+      {
+        "en": "Won",
+        "as": "ৱন"
+      },
+      {
+        "en": "Dong",
+        "as": "ডং"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The currency of South Korea is the Won.",
+      "as": "দক্ষিণ কোৰিয়াৰ মুদ্ৰা ৱন।"
+    }
+  },
+  {
+    "id": "capitals-currencies-091",
+    "q": {
+      "en": "The currency of North Korea is —",
+      "as": "উত্তৰ কোৰিয়াৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Yen",
+        "as": "য়েন"
+      },
+      {
+        "en": "Won",
+        "as": "ৱন"
+      },
+      {
+        "en": "Yuan",
+        "as": "য়ুৱান"
+      },
+      {
+        "en": "Ruble",
+        "as": "ৰুবল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The currency of North Korea is the Won.",
+      "as": "উত্তৰ কোৰিয়াৰ মুদ্ৰা ৱন।"
+    }
+  },
+  {
+    "id": "capitals-currencies-092",
+    "q": {
+      "en": "The currency of Saudi Arabia is —",
+      "as": "ছৌদি আৰবৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Rial",
+        "as": "ৰিয়েল"
+      },
+      {
+        "en": "Dinar",
+        "as": "দিনাৰ"
+      },
+      {
+        "en": "Dirham",
+        "as": "দিৰহাম"
+      },
+      {
+        "en": "Riyal",
+        "as": "ৰিয়াল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The currency of Saudi Arabia is the Riyal.",
+      "as": "ছৌদি আৰবৰ মুদ্ৰা ৰিয়াল।"
+    }
+  },
+  {
+    "id": "capitals-currencies-093",
+    "q": {
+      "en": "The currency of the United Arab Emirates is —",
+      "as": "সংযুক্ত আৰব আমিৰশাহীৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Dirham",
+        "as": "দিৰহাম"
+      },
+      {
+        "en": "Dinar",
+        "as": "দিনাৰ"
+      },
+      {
+        "en": "Riyal",
+        "as": "ৰিয়াল"
+      },
+      {
+        "en": "Rial",
+        "as": "ৰিয়েল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The currency of the UAE is the Dirham.",
+      "as": "সংযুক্ত আৰব আমিৰশাহীৰ মুদ্ৰা দিৰহাম।"
+    }
+  },
+  {
+    "id": "capitals-currencies-094",
+    "q": {
+      "en": "The currency of Qatar is —",
+      "as": "কাটাৰৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Rial",
+        "as": "ৰিয়েল"
+      },
+      {
+        "en": "Dinar",
+        "as": "দিনাৰ"
+      },
+      {
+        "en": "Dirham",
+        "as": "দিৰহাম"
+      },
+      {
+        "en": "Riyal",
+        "as": "ৰিয়াল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The currency of Qatar is the Riyal.",
+      "as": "কাটাৰৰ মুদ্ৰা ৰিয়াল।"
+    }
+  },
+  {
+    "id": "capitals-currencies-095",
+    "q": {
+      "en": "The currency of Kuwait is —",
+      "as": "কুৱেইটৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Dirham",
+        "as": "দিৰহাম"
+      },
+      {
+        "en": "Riyal",
+        "as": "ৰিয়াল"
+      },
+      {
+        "en": "Dinar",
+        "as": "দিনাৰ"
+      },
+      {
+        "en": "Rial",
+        "as": "ৰিয়েল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The currency of Kuwait is the Dinar.",
+      "as": "কুৱেইটৰ মুদ্ৰা দিনাৰ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-096",
+    "q": {
+      "en": "The currency of Iran is —",
+      "as": "ইৰাণৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Riyal",
+        "as": "ৰিয়াল"
+      },
+      {
+        "en": "Rial",
+        "as": "ৰিয়েল"
+      },
+      {
+        "en": "Dinar",
+        "as": "দিনাৰ"
+      },
+      {
+        "en": "Dirham",
+        "as": "দিৰহাম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The currency of Iran is the Rial.",
+      "as": "ইৰাণৰ মুদ্ৰা ৰিয়েল।"
+    }
+  },
+  {
+    "id": "capitals-currencies-097",
+    "q": {
+      "en": "The currency of Iraq is —",
+      "as": "ইৰাকৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Dirham",
+        "as": "দিৰহাম"
+      },
+      {
+        "en": "Rial",
+        "as": "ৰিয়েল"
+      },
+      {
+        "en": "Riyal",
+        "as": "ৰিয়াল"
+      },
+      {
+        "en": "Dinar",
+        "as": "দিনাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The currency of Iraq is the Dinar.",
+      "as": "ইৰাকৰ মুদ্ৰা দিনাৰ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-098",
+    "q": {
+      "en": "The currency of Israel is —",
+      "as": "ইজৰাইলৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Shekel",
+        "as": "শেকেল"
+      },
+      {
+        "en": "Dinar",
+        "as": "দিনাৰ"
+      },
+      {
+        "en": "Pound",
+        "as": "পাউণ্ড"
+      },
+      {
+        "en": "Rial",
+        "as": "ৰিয়েল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The currency of Israel is the Shekel.",
+      "as": "ইজৰাইলৰ মুদ্ৰা শেকেল।"
+    }
+  },
+  {
+    "id": "capitals-currencies-099",
+    "q": {
+      "en": "The currency of Turkey is —",
+      "as": "তুৰস্কৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Dinar",
+        "as": "দিনাৰ"
+      },
+      {
+        "en": "Lira",
+        "as": "লিৰা"
+      },
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "Dirham",
+        "as": "দিৰহাম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The currency of Turkey is the Lira.",
+      "as": "তুৰস্কৰ মুদ্ৰা লিৰা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-100",
+    "q": {
+      "en": "The currency of Egypt is —",
+      "as": "ইজিপ্তৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Dirham",
+        "as": "দিৰহাম"
+      },
+      {
+        "en": "Dinar",
+        "as": "দিনাৰ"
+      },
+      {
+        "en": "Rial",
+        "as": "ৰিয়েল"
+      },
+      {
+        "en": "Egyptian Pound",
+        "as": "ইজিপ্তিয়ান পাউণ্ড"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The currency of Egypt is the Egyptian Pound.",
+      "as": "ইজিপ্তৰ মুদ্ৰা ইজিপ্তিয়ান পাউণ্ড।"
+    }
+  },
+  {
+    "id": "capitals-currencies-101",
+    "q": {
+      "en": "The currency of South Africa is —",
+      "as": "দক্ষিণ আফ্ৰিকাৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Rand",
+        "as": "ৰাণ্ড"
+      },
+      {
+        "en": "Dollar",
+        "as": "ডলাৰ"
+      },
+      {
+        "en": "Pound",
+        "as": "পাউণ্ড"
+      },
+      {
+        "en": "Naira",
+        "as": "নাইৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The currency of South Africa is the Rand.",
+      "as": "দক্ষিণ আফ্ৰিকাৰ মুদ্ৰা ৰাণ্ড।"
+    }
+  },
+  {
+    "id": "capitals-currencies-102",
+    "q": {
+      "en": "The currency of Nigeria is —",
+      "as": "নাইজেৰিয়াৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Cedi",
+        "as": "ছেডি"
+      },
+      {
+        "en": "Rand",
+        "as": "ৰাণ্ড"
+      },
+      {
+        "en": "Naira",
+        "as": "নাইৰা"
+      },
+      {
+        "en": "Shilling",
+        "as": "শিলিং"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The currency of Nigeria is the Naira.",
+      "as": "নাইজেৰিয়াৰ মুদ্ৰা নাইৰা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-103",
+    "q": {
+      "en": "The currency of Kenya is —",
+      "as": "কেনিয়াৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Naira",
+        "as": "নাইৰা"
+      },
+      {
+        "en": "Shilling",
+        "as": "শিলিং"
+      },
+      {
+        "en": "Rand",
+        "as": "ৰাণ্ড"
+      },
+      {
+        "en": "Birr",
+        "as": "বিৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The currency of Kenya is the Shilling.",
+      "as": "কেনিয়াৰ মুদ্ৰা শিলিং।"
+    }
+  },
+  {
+    "id": "capitals-currencies-104",
+    "q": {
+      "en": "The currency of Switzerland is —",
+      "as": "ছুইজাৰলেণ্ডৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Pound",
+        "as": "পাউণ্ড"
+      },
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "Krone",
+        "as": "ক্ৰ'ন"
+      },
+      {
+        "en": "Swiss Franc",
+        "as": "ছুইছ ফ্ৰাংক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Switzerland uses the Swiss Franc.",
+      "as": "ছুইজাৰলেণ্ডে ছুইছ ফ্ৰাংক ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-105",
+    "q": {
+      "en": "The currency of Sweden is —",
+      "as": "ছুইডেনৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Krona",
+        "as": "ক্ৰ'না"
+      },
+      {
+        "en": "Krone",
+        "as": "ক্ৰ'ন"
+      },
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "Mark",
+        "as": "মাৰ্ক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The currency of Sweden is the Krona.",
+      "as": "ছুইডেনৰ মুদ্ৰা ক্ৰ'না।"
+    }
+  },
+  {
+    "id": "capitals-currencies-106",
+    "q": {
+      "en": "The currency of Norway is —",
+      "as": "নৰৱেৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Krone",
+        "as": "ক্ৰ'ন"
+      },
+      {
+        "en": "Krona",
+        "as": "ক্ৰ'না"
+      },
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "Franc",
+        "as": "ফ্ৰাংক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The currency of Norway is the Krone.",
+      "as": "নৰৱেৰ মুদ্ৰা ক্ৰ'ন।"
+    }
+  },
+  {
+    "id": "capitals-currencies-107",
+    "q": {
+      "en": "The currency of Denmark is —",
+      "as": "ডেনমাৰ্কৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "Krona",
+        "as": "ক্ৰ'না"
+      },
+      {
+        "en": "Krone",
+        "as": "ক্ৰ'ন"
+      },
+      {
+        "en": "Mark",
+        "as": "মাৰ্ক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The currency of Denmark is the Krone.",
+      "as": "ডেনমাৰ্কৰ মুদ্ৰা ক্ৰ'ন।"
+    }
+  },
+  {
+    "id": "capitals-currencies-108",
+    "q": {
+      "en": "The currency of the Netherlands is —",
+      "as": "নেডাৰলেণ্ডছৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "Guilder",
+        "as": "গিল্ডাৰ"
+      },
+      {
+        "en": "Franc",
+        "as": "ফ্ৰাংক"
+      },
+      {
+        "en": "Krone",
+        "as": "ক্ৰ'ন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Netherlands uses the Euro.",
+      "as": "নেডাৰলেণ্ডছে ইউৰ' ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-109",
+    "q": {
+      "en": "The currency of Spain is —",
+      "as": "স্পেইনৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Franc",
+        "as": "ফ্ৰাংক"
+      },
+      {
+        "en": "Peseta",
+        "as": "পেছেটা"
+      },
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "Pound",
+        "as": "পাউণ্ড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Spain uses the Euro.",
+      "as": "স্পেইনে ইউৰ' ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-110",
+    "q": {
+      "en": "The currency of Portugal is —",
+      "as": "পৰ্তুগালৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Escudo",
+        "as": "এস্কুড'"
+      },
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "Franc",
+        "as": "ফ্ৰাংক"
+      },
+      {
+        "en": "Peso",
+        "as": "পেছ'"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Portugal uses the Euro.",
+      "as": "পৰ্তুগালে ইউৰ' ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-111",
+    "q": {
+      "en": "The currency of Greece is —",
+      "as": "গ্ৰীছৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "Drachma",
+        "as": "ড্ৰাকমা"
+      },
+      {
+        "en": "Lira",
+        "as": "লিৰা"
+      },
+      {
+        "en": "Franc",
+        "as": "ফ্ৰাংক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Greece uses the Euro.",
+      "as": "গ্ৰীছে ইউৰ' ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-112",
+    "q": {
+      "en": "The currency of Poland is —",
+      "as": "পোলেণ্ডৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Koruna",
+        "as": "ক'ৰুনা"
+      },
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "Zloty",
+        "as": "জ্লটি"
+      },
+      {
+        "en": "Forint",
+        "as": "ফৰিণ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The currency of Poland is the Zloty.",
+      "as": "পোলেণ্ডৰ মুদ্ৰা জ্লটি।"
+    }
+  },
+  {
+    "id": "capitals-currencies-113",
+    "q": {
+      "en": "The currency of Ukraine is —",
+      "as": "ইউক্ৰেইনৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Zloty",
+        "as": "জ্লটি"
+      },
+      {
+        "en": "Ruble",
+        "as": "ৰুবল"
+      },
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      },
+      {
+        "en": "Hryvnia",
+        "as": "হ্ৰিভনিয়া"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The currency of Ukraine is the Hryvnia.",
+      "as": "ইউক্ৰেইনৰ মুদ্ৰা হ্ৰিভনিয়া।"
+    }
+  },
+  {
+    "id": "capitals-currencies-114",
+    "q": {
+      "en": "The currency of Argentina is —",
+      "as": "আৰ্জেণ্টিনাৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Bolivar",
+        "as": "বলিভাৰ"
+      },
+      {
+        "en": "Real",
+        "as": "ৰিয়েল"
+      },
+      {
+        "en": "Dollar",
+        "as": "ডলাৰ"
+      },
+      {
+        "en": "Peso",
+        "as": "পেছ'"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The currency of Argentina is the Peso.",
+      "as": "আৰ্জেণ্টিনাৰ মুদ্ৰা পেছ'।"
+    }
+  },
+  {
+    "id": "capitals-currencies-115",
+    "q": {
+      "en": "The currency of Mexico is —",
+      "as": "মেক্সিকোৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Cordoba",
+        "as": "কৰ্ড'বা"
+      },
+      {
+        "en": "Real",
+        "as": "ৰিয়েল"
+      },
+      {
+        "en": "Dollar",
+        "as": "ডলাৰ"
+      },
+      {
+        "en": "Peso",
+        "as": "পেছ'"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The currency of Mexico is the Peso.",
+      "as": "মেক্সিকোৰ মুদ্ৰা পেছ'।"
+    }
+  },
+  {
+    "id": "capitals-currencies-116",
+    "q": {
+      "en": "The currency of Cuba is —",
+      "as": "কিউবাৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Dollar",
+        "as": "ডলাৰ"
+      },
+      {
+        "en": "Cuban Peso",
+        "as": "কিউবান পেছ'"
+      },
+      {
+        "en": "Real",
+        "as": "ৰিয়েল"
+      },
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The currency of Cuba is the Cuban Peso.",
+      "as": "কিউবাৰ মুদ্ৰা কিউবান পেছ'।"
+    }
+  },
+  {
+    "id": "capitals-currencies-117",
+    "q": {
+      "en": "The currency of New Zealand is —",
+      "as": "নিউজিলেণ্ডৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Australian Dollar",
+        "as": "অষ্ট্ৰেলিয়ান ডলাৰ"
+      },
+      {
+        "en": "New Zealand Dollar",
+        "as": "নিউজিলেণ্ড ডলাৰ"
+      },
+      {
+        "en": "Pound",
+        "as": "পাউণ্ড"
+      },
+      {
+        "en": "Euro",
+        "as": "ইউৰ'"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "New Zealand uses the New Zealand Dollar.",
+      "as": "নিউজিলেণ্ডে নিউজিলেণ্ড ডলাৰ ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-118",
+    "q": {
+      "en": "The currency of Vietnam is —",
+      "as": "ভিয়েটনামৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Baht",
+        "as": "বাট"
+      },
+      {
+        "en": "Kyat",
+        "as": "ক্যাট"
+      },
+      {
+        "en": "Riel",
+        "as": "ৰিয়েল"
+      },
+      {
+        "en": "Dong",
+        "as": "ডং"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The currency of Vietnam is the Dong.",
+      "as": "ভিয়েটনামৰ মুদ্ৰা ডং।"
+    }
+  },
+  {
+    "id": "capitals-currencies-119",
+    "q": {
+      "en": "The currency of the Philippines is —",
+      "as": "ফিলিপাইনছৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Dong",
+        "as": "ডং"
+      },
+      {
+        "en": "Ringgit",
+        "as": "ৰিংগিট"
+      },
+      {
+        "en": "Baht",
+        "as": "বাট"
+      },
+      {
+        "en": "Peso",
+        "as": "পেছ'"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The currency of the Philippines is the Peso.",
+      "as": "ফিলিপাইনছৰ মুদ্ৰা পেছ'।"
+    }
+  },
+  {
+    "id": "capitals-currencies-120",
+    "q": {
+      "en": "The currency of Cambodia is —",
+      "as": "কম্বোডিয়াৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Baht",
+        "as": "বাট"
+      },
+      {
+        "en": "Riel",
+        "as": "ৰিয়েল"
+      },
+      {
+        "en": "Dong",
+        "as": "ডং"
+      },
+      {
+        "en": "Kyat",
+        "as": "ক্যাট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The currency of Cambodia is the Riel.",
+      "as": "কম্বোডিয়াৰ মুদ্ৰা ৰিয়েল।"
+    }
+  },
+  {
+    "id": "capitals-currencies-121",
+    "q": {
+      "en": "The currency of Mongolia is —",
+      "as": "মংগোলিয়াৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Som",
+        "as": "ছম"
+      },
+      {
+        "en": "Tenge",
+        "as": "টেংগে"
+      },
+      {
+        "en": "Tugrik",
+        "as": "টুগ্ৰিক"
+      },
+      {
+        "en": "Yuan",
+        "as": "য়ুৱান"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The currency of Mongolia is the Tugrik.",
+      "as": "মংগোলিয়াৰ মুদ্ৰা টুগ্ৰিক।"
+    }
+  },
+  {
+    "id": "capitals-currencies-122",
+    "q": {
+      "en": "The currency of Kazakhstan is —",
+      "as": "কাজাখস্তানৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Ruble",
+        "as": "ৰুবল"
+      },
+      {
+        "en": "Tugrik",
+        "as": "টুগ্ৰিক"
+      },
+      {
+        "en": "Som",
+        "as": "ছম"
+      },
+      {
+        "en": "Tenge",
+        "as": "টেংগে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The currency of Kazakhstan is the Tenge.",
+      "as": "কাজাখস্তানৰ মুদ্ৰা টেংগে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-123",
+    "q": {
+      "en": "The currency of Uzbekistan is —",
+      "as": "উজবেকিস্তানৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Manat",
+        "as": "মানাত"
+      },
+      {
+        "en": "Tenge",
+        "as": "টেংগে"
+      },
+      {
+        "en": "Tugrik",
+        "as": "টুগ্ৰিক"
+      },
+      {
+        "en": "Som",
+        "as": "ছম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The currency of Uzbekistan is the Som.",
+      "as": "উজবেকিস্তানৰ মুদ্ৰা ছম।"
+    }
+  },
+  {
+    "id": "capitals-currencies-124",
+    "q": {
+      "en": "The currency of Azerbaijan is —",
+      "as": "আজাৰবাইজানৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Som",
+        "as": "ছম"
+      },
+      {
+        "en": "Manat",
+        "as": "মানাত"
+      },
+      {
+        "en": "Tenge",
+        "as": "টেংগে"
+      },
+      {
+        "en": "Lari",
+        "as": "লাৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The currency of Azerbaijan is the Manat.",
+      "as": "আজাৰবাইজানৰ মুদ্ৰা মানাত।"
+    }
+  },
+  {
+    "id": "capitals-currencies-125",
+    "q": {
+      "en": "The currency of Georgia is —",
+      "as": "জৰ্জিয়াৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Hryvnia",
+        "as": "হ্ৰিভনিয়া"
+      },
+      {
+        "en": "Manat",
+        "as": "মানাত"
+      },
+      {
+        "en": "Dram",
+        "as": "ড্ৰাম"
+      },
+      {
+        "en": "Lari",
+        "as": "লাৰি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The currency of Georgia is the Lari.",
+      "as": "জৰ্জিয়াৰ মুদ্ৰা লাৰি।"
+    }
+  },
+  {
+    "id": "capitals-currencies-126",
+    "q": {
+      "en": "The currency of Armenia is —",
+      "as": "আৰ্মেনিয়াৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Manat",
+        "as": "মানাত"
+      },
+      {
+        "en": "Lari",
+        "as": "লাৰি"
+      },
+      {
+        "en": "Dram",
+        "as": "ড্ৰাম"
+      },
+      {
+        "en": "Ruble",
+        "as": "ৰুবল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The currency of Armenia is the Dram.",
+      "as": "আৰ্মেনিয়াৰ মুদ্ৰা ড্ৰাম।"
+    }
+  },
+  {
+    "id": "capitals-currencies-127",
+    "q": {
+      "en": "The currency of Belarus is —",
+      "as": "বেলাৰুছৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Manat",
+        "as": "মানাত"
+      },
+      {
+        "en": "Lari",
+        "as": "লাৰি"
+      },
+      {
+        "en": "Belarusian Ruble",
+        "as": "বেলাৰুছিয়ান ৰুবল"
+      },
+      {
+        "en": "Zloty",
+        "as": "জ্লটি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Belarus uses the Belarusian Ruble.",
+      "as": "বেলাৰুছে বেলাৰুছিয়ান ৰুবল ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "capitals-currencies-128",
+    "q": {
+      "en": "The currency of Romania is —",
+      "as": "ৰোমানিয়াৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Koruna",
+        "as": "ক'ৰুনা"
+      },
+      {
+        "en": "Forint",
+        "as": "ফৰিণ্ট"
+      },
+      {
+        "en": "Leu",
+        "as": "লিউ"
+      },
+      {
+        "en": "Lev",
+        "as": "লেভ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The currency of Romania is the Leu.",
+      "as": "ৰোমানিয়াৰ মুদ্ৰা লিউ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-129",
+    "q": {
+      "en": "The currency of Hungary is —",
+      "as": "হাংগেৰীৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Leu",
+        "as": "লিউ"
+      },
+      {
+        "en": "Forint",
+        "as": "ফৰিণ্ট"
+      },
+      {
+        "en": "Koruna",
+        "as": "ক'ৰুনা"
+      },
+      {
+        "en": "Zloty",
+        "as": "জ্লটি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The currency of Hungary is the Forint.",
+      "as": "হাংগেৰীৰ মুদ্ৰা ফৰিণ্ট।"
+    }
+  },
+  {
+    "id": "capitals-currencies-130",
+    "q": {
+      "en": "The currency of the Czech Republic is —",
+      "as": "চেক গণৰাজ্যৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Leu",
+        "as": "লিউ"
+      },
+      {
+        "en": "Forint",
+        "as": "ফৰিণ্ট"
+      },
+      {
+        "en": "Koruna",
+        "as": "ক'ৰুনা"
+      },
+      {
+        "en": "Zloty",
+        "as": "জ্লটি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The currency of the Czech Republic is the Koruna.",
+      "as": "চেক গণৰাজ্যৰ মুদ্ৰা ক'ৰুনা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-131",
+    "q": {
+      "en": "The currency of Jordan is —",
+      "as": "জৰ্ডনৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Riyal",
+        "as": "ৰিয়াল"
+      },
+      {
+        "en": "Dinar",
+        "as": "দিনাৰ"
+      },
+      {
+        "en": "Dirham",
+        "as": "দিৰহাম"
+      },
+      {
+        "en": "Shekel",
+        "as": "শেকেল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The currency of Jordan is the Dinar.",
+      "as": "জৰ্ডনৰ মুদ্ৰা দিনাৰ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-132",
+    "q": {
+      "en": "The currency of Ghana is —",
+      "as": "ঘানাৰ মুদ্ৰা কি —"
+    },
+    "options": [
+      {
+        "en": "Cedi",
+        "as": "ছেডি"
+      },
+      {
+        "en": "Naira",
+        "as": "নাইৰা"
+      },
+      {
+        "en": "Rand",
+        "as": "ৰাণ্ড"
+      },
+      {
+        "en": "Shilling",
+        "as": "শিলিং"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The currency of Ghana is the Cedi.",
+      "as": "ঘানাৰ মুদ্ৰা ছেডি।"
+    }
+  },
+  {
+    "id": "capitals-currencies-133",
+    "q": {
+      "en": "The capital of Assam is —",
+      "as": "অসমৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Dispur",
+        "as": "দিছপুৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of Assam is Dispur.",
+      "as": "অসমৰ ৰাজধানী দিছপুৰ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-134",
+    "q": {
+      "en": "The capital of Arunachal Pradesh is —",
+      "as": "অৰুণাচল প্ৰদেশৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Itanagar",
+        "as": "ইটানগৰ"
+      },
+      {
+        "en": "Tawang",
+        "as": "তৱাং"
+      },
+      {
+        "en": "Ziro",
+        "as": "জিৰ'"
+      },
+      {
+        "en": "Pasighat",
+        "as": "পাছিঘাট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Arunachal Pradesh is Itanagar.",
+      "as": "অৰুণাচল প্ৰদেশৰ ৰাজধানী ইটানগৰ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-135",
+    "q": {
+      "en": "The capital of Manipur is —",
+      "as": "মণিপুৰৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Churachandpur",
+        "as": "চুৰাচান্দপুৰ"
+      },
+      {
+        "en": "Imphal",
+        "as": "ইম্ফাল"
+      },
+      {
+        "en": "Thoubal",
+        "as": "থৌবাল"
+      },
+      {
+        "en": "Bishnupur",
+        "as": "বিষ্ণুপুৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Manipur is Imphal.",
+      "as": "মণিপুৰৰ ৰাজধানী ইম্ফাল।"
+    }
+  },
+  {
+    "id": "capitals-currencies-136",
+    "q": {
+      "en": "The capital of Meghalaya is —",
+      "as": "মেঘালয়ৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Shillong",
+        "as": "শ্বিলং"
+      },
+      {
+        "en": "Tura",
+        "as": "তুৰা"
+      },
+      {
+        "en": "Cherrapunji",
+        "as": "চেৰাপুঞ্জী"
+      },
+      {
+        "en": "Jowai",
+        "as": "জৱাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Meghalaya is Shillong.",
+      "as": "মেঘালয়ৰ ৰাজধানী শ্বিলং।"
+    }
+  },
+  {
+    "id": "capitals-currencies-137",
+    "q": {
+      "en": "The capital of Mizoram is —",
+      "as": "মিজোৰামৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Kolasib",
+        "as": "কলাছিব"
+      },
+      {
+        "en": "Lunglei",
+        "as": "লুংলে"
+      },
+      {
+        "en": "Champhai",
+        "as": "চামফাই"
+      },
+      {
+        "en": "Aizawl",
+        "as": "আইজল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of Mizoram is Aizawl.",
+      "as": "মিজোৰামৰ ৰাজধানী আইজল।"
+    }
+  },
+  {
+    "id": "capitals-currencies-138",
+    "q": {
+      "en": "The capital of Nagaland is —",
+      "as": "নাগালেণ্ডৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Dimapur",
+        "as": "ডিমাপুৰ"
+      },
+      {
+        "en": "Kohima",
+        "as": "কোহিমা"
+      },
+      {
+        "en": "Mokokchung",
+        "as": "মোককচুং"
+      },
+      {
+        "en": "Tuensang",
+        "as": "টুয়েনছাং"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Nagaland is Kohima.",
+      "as": "নাগালেণ্ডৰ ৰাজধানী কোহিমা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-139",
+    "q": {
+      "en": "The capital of Tripura is —",
+      "as": "ত্ৰিপুৰাৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Agartala",
+        "as": "আগৰতলা"
+      },
+      {
+        "en": "Udaipur",
+        "as": "উদয়পুৰ"
+      },
+      {
+        "en": "Dharmanagar",
+        "as": "ধৰ্মনগৰ"
+      },
+      {
+        "en": "Kailashahar",
+        "as": "কৈলাশহৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Tripura is Agartala.",
+      "as": "ত্ৰিপুৰাৰ ৰাজধানী আগৰতলা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-140",
+    "q": {
+      "en": "The capital of Sikkim is —",
+      "as": "ছিক্কিমৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Gyalshing",
+        "as": "গ্যালশিং"
+      },
+      {
+        "en": "Namchi",
+        "as": "নামচি"
+      },
+      {
+        "en": "Gangtok",
+        "as": "গাংটক"
+      },
+      {
+        "en": "Mangan",
+        "as": "মানগান"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of Sikkim is Gangtok.",
+      "as": "ছিক্কিমৰ ৰাজধানী গাংটক।"
+    }
+  },
+  {
+    "id": "capitals-currencies-141",
+    "q": {
+      "en": "The capital of West Bengal is —",
+      "as": "পশ্চিমবংগৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Kolkata",
+        "as": "কলকাতা"
+      },
+      {
+        "en": "Howrah",
+        "as": "হাওৰা"
+      },
+      {
+        "en": "Darjeeling",
+        "as": "দাৰ্জিলিং"
+      },
+      {
+        "en": "Siliguri",
+        "as": "শিলিগুড়ি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of West Bengal is Kolkata.",
+      "as": "পশ্চিমবংগৰ ৰাজধানী কলকাতা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-142",
+    "q": {
+      "en": "The capital of Bihar is —",
+      "as": "বিহাৰৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Muzaffarpur",
+        "as": "মুজাফ্ফৰপুৰ"
+      },
+      {
+        "en": "Gaya",
+        "as": "গয়া"
+      },
+      {
+        "en": "Patna",
+        "as": "পাটনা"
+      },
+      {
+        "en": "Bhagalpur",
+        "as": "ভাগলপুৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of Bihar is Patna.",
+      "as": "বিহাৰৰ ৰাজধানী পাটনা।"
+    }
+  },
+  {
+    "id": "capitals-currencies-143",
+    "q": {
+      "en": "The capital of Jharkhand is —",
+      "as": "ঝাৰখণ্ডৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Jamshedpur",
+        "as": "জামশেদপুৰ"
+      },
+      {
+        "en": "Ranchi",
+        "as": "ৰাঁচী"
+      },
+      {
+        "en": "Dhanbad",
+        "as": "ধনবਾਦ"
+      },
+      {
+        "en": "Bokaro",
+        "as": "ব'কাৰ'"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Jharkhand is Ranchi.",
+      "as": "ঝাৰখণ্ডৰ ৰাজধানী ৰাঁচী।"
+    }
+  },
+  {
+    "id": "capitals-currencies-144",
+    "q": {
+      "en": "The capital of Odisha is —",
+      "as": "ওড়িশাৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Cuttack",
+        "as": "কটক"
+      },
+      {
+        "en": "Bhubaneswar",
+        "as": "ভুৱনেশ্বৰ"
+      },
+      {
+        "en": "Puri",
+        "as": "পুৰী"
+      },
+      {
+        "en": "Rourkela",
+        "as": "ৰাউৰকেলা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Odisha is Bhubaneswar.",
+      "as": "ওড়িশাৰ ৰাজধানী ভুৱনেশ্বৰ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-145",
+    "q": {
+      "en": "The capital of Uttar Pradesh is —",
+      "as": "উত্তৰ প্ৰদেশৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Varanasi",
+        "as": "বাৰাণসী"
+      },
+      {
+        "en": "Kanpur",
+        "as": "কানপুৰ"
+      },
+      {
+        "en": "Lucknow",
+        "as": "লক্ষ্ণৌ"
+      },
+      {
+        "en": "Agra",
+        "as": "আগ্ৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capital of Uttar Pradesh is Lucknow.",
+      "as": "উত্তৰ প্ৰদেশৰ ৰাজধানী লক্ষ্ণৌ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-146",
+    "q": {
+      "en": "The capital of Madhya Pradesh is —",
+      "as": "মধ্য প্ৰদেশৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Bhopal",
+        "as": "ভোপাল"
+      },
+      {
+        "en": "Indore",
+        "as": "ইন্দোৰ"
+      },
+      {
+        "en": "Gwalior",
+        "as": "গোৱালিয়ৰ"
+      },
+      {
+        "en": "Jabalpur",
+        "as": "জবলপুৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Madhya Pradesh is Bhopal.",
+      "as": "মধ্য প্ৰদেশৰ ৰাজধানী ভোপাল।"
+    }
+  },
+  {
+    "id": "capitals-currencies-147",
+    "q": {
+      "en": "The capital of Rajasthan is —",
+      "as": "ৰাজস্থানৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Jodhpur",
+        "as": "যোধপুৰ"
+      },
+      {
+        "en": "Jaipur",
+        "as": "জয়পুৰ"
+      },
+      {
+        "en": "Udaipur",
+        "as": "উদয়পুৰ"
+      },
+      {
+        "en": "Ajmer",
+        "as": "আজমেৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Rajasthan is Jaipur.",
+      "as": "ৰাজস্থানৰ ৰাজধানী জয়পুৰ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-148",
+    "q": {
+      "en": "The capital of Gujarat is —",
+      "as": "গুজৰাটৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Ahmedabad",
+        "as": "আহমেদাবাদ"
+      },
+      {
+        "en": "Gandhinagar",
+        "as": "গান্ধীনগৰ"
+      },
+      {
+        "en": "Surat",
+        "as": "ছুৰাট"
+      },
+      {
+        "en": "Vadodara",
+        "as": "ভাডোদৰা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Gujarat is Gandhinagar.",
+      "as": "গুজৰাটৰ ৰাজধানী গান্ধীনগৰ।"
+    }
+  },
+  {
+    "id": "capitals-currencies-149",
+    "q": {
+      "en": "The capital of Maharashtra is —",
+      "as": "মহাৰাষ্ট্ৰৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Mumbai",
+        "as": "মুম্বাই"
+      },
+      {
+        "en": "Pune",
+        "as": "পুনে"
+      },
+      {
+        "en": "Nagpur",
+        "as": "নাগপুৰ"
+      },
+      {
+        "en": "Nashik",
+        "as": "নাছিক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Maharashtra is Mumbai.",
+      "as": "মহাৰাষ্ট্ৰৰ ৰাজধানী মুম্বাই।"
+    }
+  },
+  {
+    "id": "capitals-currencies-150",
+    "q": {
+      "en": "The capital of Karnataka is —",
+      "as": "কৰ্ণাটকৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Mysuru",
+        "as": "মহীশূৰ"
+      },
+      {
+        "en": "Bengaluru",
+        "as": "বেংগালুৰু"
+      },
+      {
+        "en": "Mangaluru",
+        "as": "মাংগালুৰু"
+      },
+      {
+        "en": "Hubballi",
+        "as": "হুব্বালী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capital of Karnataka is Bengaluru.",
+      "as": "কৰ্ণাটকৰ ৰাজধানী বেংগালুৰু।"
+    }
+  },
+  {
+    "id": "capitals-currencies-151",
+    "q": {
+      "en": "The capital of Kerala is —",
+      "as": "কেৰালাৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Thiruvananthapuram",
+        "as": "তিৰুৱনন্তপুৰম"
+      },
+      {
+        "en": "Kochi",
+        "as": "কচি"
+      },
+      {
+        "en": "Kozhikode",
+        "as": "কোঝিকোড়"
+      },
+      {
+        "en": "Thrissur",
+        "as": "থ্ৰিছুৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of Kerala is Thiruvananthapuram.",
+      "as": "কেৰালাৰ ৰাজধানী তিৰুৱনন্তপুৰম।"
+    }
+  },
+  {
+    "id": "capitals-currencies-152",
+    "q": {
+      "en": "The capital of Tamil Nadu is —",
+      "as": "তামিলনাডুৰ ৰাজধানী কি —"
+    },
+    "options": [
+      {
+        "en": "Salem",
+        "as": "চেলেম"
+      },
+      {
+        "en": "Coimbatore",
+        "as": "কইম্বাটুৰ"
+      },
+      {
+        "en": "Madurai",
+        "as": "মাদুৰাই"
+      },
+      {
+        "en": "Chennai",
+        "as": "চেন্নাই"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capital of Tamil Nadu is Chennai.",
+      "as": "তামিলনাডুৰ ৰাজধানী চেন্নাই।"
+    }
   }
-}
+]
