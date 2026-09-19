@@ -6,27 +6,1167 @@
       "as": "ৰিক্ত স্থান পূৰণ কৰক: I saw ___ elephant at the zoo."
     },
     "options": [
-      {
-        "en": "an",
-        "as": "an"
-      },
-      {
-        "en": "a",
-        "as": "a"
-      },
-      {
-        "en": "the",
-        "as": "the"
-      },
-      {
-        "en": "no article",
-        "as": "কোনো article নহয়"
-      }
+      { "en": "an", "as": "an" },
+      { "en": "a", "as": "a" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "কোনো article নহয়" }
     ],
     "correct": 0,
     "explanation": {
       "en": "'Elephant' begins with a vowel sound, so the indefinite article 'an' is used.",
       "as": "'Elephant' স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে অনিৰ্দিষ্ট article 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-002",
+    "q": {
+      "en": "Fill in the blank: He is ___ honest man.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ honest man."
+    },
+    "options": [
+      { "en": "an", "as": "an" },
+      { "en": "a", "as": "a" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Honest' begins with a vowel sound because the 'h' is silent, so 'an' is used.",
+      "as": "'Honest' স্বৰধ্বনিৰে আৰম্ভ হয় কাৰণ 'h' উচ্চাৰিত নহয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-003",
+    "q": {
+      "en": "Fill in the blank: She bought ___ umbrella yesterday.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She bought ___ umbrella yesterday."
+    },
+    "options": [
+      { "en": "an", "as": "an" },
+      { "en": "a", "as": "a" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Umbrella' begins with the vowel sound /ʌ/, so 'an' is used.",
+      "as": "'Umbrella' /ʌ/ স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-004",
+    "q": {
+      "en": "Fill in the blank: Ram is ___ university student.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: Ram is ___ university student."
+    },
+    "options": [
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'University' begins with the consonant sound /j/, so 'a' is used.",
+      "as": "'University' /j/ ব্যঞ্জনধ্বনিৰে আৰম্ভ হয়, গতিকে 'a' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-005",
+    "q": {
+      "en": "Fill in the blank: It took me ___ hour to finish the work.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: It took me ___ hour to finish the work."
+    },
+    "options": [
+      { "en": "an", "as": "an" },
+      { "en": "a", "as": "a" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Hour' begins with a vowel sound because 'h' is silent, so 'an' is used.",
+      "as": "'Hour' স্বৰধ্বনিৰে আৰম্ভ হয় কাৰণ 'h' উচ্চাৰিত নহয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-006",
+    "q": {
+      "en": "Fill in the blank: Please give me ___ glass of water.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: Please give me ___ glass of water."
+    },
+    "options": [
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Glass' begins with a consonant sound, so 'a' is used.",
+      "as": "'Glass' ব্যঞ্জনধ্বনিৰে আৰম্ভ হয়, গতিকে 'a' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-007",
+    "q": {
+      "en": "Fill in the blank: Dispur is ___ capital of Assam.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: Dispur is ___ capital of Assam."
+    },
+    "options": [
+      { "en": "no article", "as": "কোনো article নহয়" },
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "the", "as": "the" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Dispur is the capital of Assam; with a unique post like this, the definite article 'the' is used.",
+      "as": "Dispur অসমৰ ৰাজধানী; এনে অদ্বিতীয় পদৰ সৈতে নিৰ্দিষ্ট article 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-008",
+    "q": {
+      "en": "Fill in the blank: ___ Ganga is a holy river.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ Ganga is a holy river."
+    },
+    "options": [
+      { "en": "The", "as": "The" },
+      { "en": "A", "as": "A" },
+      { "en": "An", "as": "An" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Names of rivers take the definite article 'the'.",
+      "as": "নদীৰ নামৰ সৈতে নিৰ্দিষ্ট article 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-009",
+    "q": {
+      "en": "Fill in the blank: He plays ___ guitar very well.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He plays ___ guitar very well."
+    },
+    "options": [
+      { "en": "the", "as": "the" },
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The definite article 'the' is used before names of musical instruments.",
+      "as": "বাদ্যযন্ত্ৰৰ নামৰ আগত নিৰ্দিষ্ট article 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-010",
+    "q": {
+      "en": "Fill in the blank: She goes to ___ school every morning.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She goes to ___ school every morning."
+    },
+    "options": [
+      { "en": "no article", "as": "কোনো article নহয়" },
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "the", "as": "the" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "When 'school' is used for its primary purpose, no article is used.",
+      "as": "যেতিয়া 'school' তাৰ মূল উদ্দেশ্যত ব্যৱহাৰ হয়, তেতিয়া কোনো article নহয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-011",
+    "q": {
+      "en": "Fill in the blank: The police caught ___ thief last night.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: The police caught ___ thief last night."
+    },
+    "options": [
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An unspecified singular countable noun takes the indefinite article 'a'.",
+      "as": "অনিৰ্দিষ্ট একবচন গণনাযোগ্য noun ৰ সৈতে অনিৰ্দিষ্ট article 'a' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-012",
+    "q": {
+      "en": "Fill in the blank: He is ___ best player in the team.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ best player in the team."
+    },
+    "options": [
+      { "en": "the", "as": "the" },
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Superlative degree adjectives take the definite article 'the'.",
+      "as": "উত্তমতাৱাচক (superlative) বিশেষণৰ সৈতে নিৰ্দিষ্ট article 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-013",
+    "q": {
+      "en": "Fill in the blank: I have ___ apple and ___ orange.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I have ___ apple and ___ orange."
+    },
+    "options": [
+      { "en": "an, an", "as": "an, an" },
+      { "en": "a, an", "as": "a, an" },
+      { "en": "an, a", "as": "an, a" },
+      { "en": "a, a", "as": "a, a" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Both 'apple' and 'orange' begin with vowel sounds, so 'an' is used with each.",
+      "as": "'Apple' আৰু 'orange' দুয়োটা স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে দুয়োটাৰে সৈতে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-014",
+    "q": {
+      "en": "Fill in the blank: ___ Himalayas lie to the north of India.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ Himalayas lie to the north of India."
+    },
+    "options": [
+      { "en": "The", "as": "The" },
+      { "en": "A", "as": "A" },
+      { "en": "An", "as": "An" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Names of mountain ranges take the definite article 'the'.",
+      "as": "পৰ্বতমালাৰ নামৰ সৈতে নিৰ্দিষ্ট article 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-015",
+    "q": {
+      "en": "Fill in the blank: He is ___ M.A. in English.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ M.A. in English."
+    },
+    "options": [
+      { "en": "an", "as": "an" },
+      { "en": "a", "as": "a" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'M' is pronounced /em/, which begins with a vowel sound, so 'an' is used.",
+      "as": "'M' /em/ ৰূপত উচ্চাৰিত হয়, যি স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-016",
+    "q": {
+      "en": "Fill in the blank: Would you like ___ cup of tea?",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: Would you like ___ cup of tea?"
+    },
+    "options": [
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The indefinite article 'a' is used before a singular countable noun.",
+      "as": "একবচন গণনাযোগ্য noun ৰ আগত অনিৰ্দিষ্ট article 'a' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-017",
+    "q": {
+      "en": "Fill in the blank: I have ___ money, so I cannot buy the book.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I have ___ money, so I cannot buy the book."
+    },
+    "options": [
+      { "en": "little", "as": "little" },
+      { "en": "a little", "as": "a little" },
+      { "en": "few", "as": "few" },
+      { "en": "a few", "as": "a few" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Little' means hardly any and has a negative sense, which fits the meaning here. 'Money' is uncountable.",
+      "as": "'Little' ৰ অৰ্থ 'প্ৰায় নাই' আৰু ই নেতিবাচক অৰ্থ দিয়ে, যি ইয়াত খাপ খায়। 'Money' অগণনীয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-018",
+    "q": {
+      "en": "Fill in the blank: There are only ___ students present in the class.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: There are only ___ students present in the class."
+    },
+    "options": [
+      { "en": "a few", "as": "a few" },
+      { "en": "a little", "as": "a little" },
+      { "en": "little", "as": "little" },
+      { "en": "much", "as": "much" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'A few' is used with countable plural nouns and means a small number. 'Students' is countable.",
+      "as": "'A few' গণনাযোগ্য বহুবচন noun ৰ সৈতে ব্যৱহাৰ হয় আৰু অলপ সংখ্যা বুজায়। 'Students' গণনাযোগ্য।"
+    }
+  },
+  {
+    "id": "articles-determiners-019",
+    "q": {
+      "en": "Fill in the blank: How ___ sugar do you need?",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: How ___ sugar do you need?"
+    },
+    "options": [
+      { "en": "much", "as": "much" },
+      { "en": "many", "as": "many" },
+      { "en": "few", "as": "few" },
+      { "en": "a few", "as": "a few" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Much' is used with uncountable nouns like 'sugar'.",
+      "as": "'Sugar' দৰে অগণনীয় noun ৰ সৈতে 'much' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-020",
+    "q": {
+      "en": "Fill in the blank: How ___ books did you read?",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: How ___ books did you read?"
+    },
+    "options": [
+      { "en": "many", "as": "many" },
+      { "en": "much", "as": "much" },
+      { "en": "little", "as": "little" },
+      { "en": "a little", "as": "a little" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Many' is used with countable plural nouns like 'books'.",
+      "as": "'Books' দৰে গণনাযোগ্য বহুবচন noun ৰ সৈতে 'many' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-021",
+    "q": {
+      "en": "Fill in the blank: I don't have ___ pen to write with.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I don't have ___ pen to write with."
+    },
+    "options": [
+      { "en": "any", "as": "any" },
+      { "en": "some", "as": "some" },
+      { "en": "much", "as": "much" },
+      { "en": "a few", "as": "a few" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Any' is used in negative sentences with countable or uncountable nouns.",
+      "as": "নেতিবাচক বাক্যত গণনাযোগ্য বা অগণনীয় noun ৰ সৈতে 'any' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-022",
+    "q": {
+      "en": "Fill in the blank: Would you like ___ more rice?",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: Would you like ___ more rice?"
+    },
+    "options": [
+      { "en": "some", "as": "some" },
+      { "en": "any", "as": "any" },
+      { "en": "many", "as": "many" },
+      { "en": "few", "as": "few" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Some' is generally used in offers and requests.",
+      "as": "সাধাৰণতে আগবঢ়োৱা (offer) আৰু অনুৰোধত 'some' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-023",
+    "q": {
+      "en": "Fill in the blank: ___ of the two boys is guilty.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ of the two boys is guilty."
+    },
+    "options": [
+      { "en": "Either", "as": "Either" },
+      { "en": "Any", "as": "Any" },
+      { "en": "Some", "as": "Some" },
+      { "en": "All", "as": "All" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Either' means one of two, which fits 'the two boys'.",
+      "as": "'Either' ৰ অৰ্থ দুটাৰ এটা, যি 'the two boys' ৰ সৈতে খাপ খায়।"
+    }
+  },
+  {
+    "id": "articles-determiners-024",
+    "q": {
+      "en": "Fill in the blank: ___ of the two answers is correct.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ of the two answers is correct."
+    },
+    "options": [
+      { "en": "Neither", "as": "Neither" },
+      { "en": "None", "as": "None" },
+      { "en": "Either", "as": "Either" },
+      { "en": "Any", "as": "Any" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Neither' is a negative determiner meaning not either of two.",
+      "as": "'Neither' এটা নেতিবাচক determiner, যাৰ অৰ্থ দুটাৰ এটাও নহয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-025",
+    "q": {
+      "en": "Fill in the blank: ___ student must carry an identity card.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ student must carry an identity card."
+    },
+    "options": [
+      { "en": "Every", "as": "Every" },
+      { "en": "All", "as": "All" },
+      { "en": "Much", "as": "Much" },
+      { "en": "Both", "as": "Both" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Every' is used with a singular countable noun to mean each one without exception.",
+      "as": "'Every' ব্যৱহাৰ হয় একবচন গণনাযোগ্য noun ৰ সৈতে, যাৰ অৰ্থ প্ৰতিজন ব্যতিক্ৰম নোহোৱাকৈ।"
+    }
+  },
+  {
+    "id": "articles-determiners-026",
+    "q": {
+      "en": "Fill in the blank: I have ___ friends in Delhi.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I have ___ friends in Delhi."
+    },
+    "options": [
+      { "en": "many", "as": "many" },
+      { "en": "much", "as": "much" },
+      { "en": "little", "as": "little" },
+      { "en": "a little", "as": "a little" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Many' is used with countable plural nouns like 'friends'.",
+      "as": "'Friends' দৰে গণনাযোগ্য বহুবচন noun ৰ সৈতে 'many' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-027",
+    "q": {
+      "en": "Fill in the blank: He has ___ patience.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He has ___ patience."
+    },
+    "options": [
+      { "en": "much", "as": "much" },
+      { "en": "many", "as": "many" },
+      { "en": "few", "as": "few" },
+      { "en": "a few", "as": "a few" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Patience' is uncountable, so 'much' is used.",
+      "as": "'Patience' অগণনীয়, গতিকে 'much' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-028",
+    "q": {
+      "en": "Fill in the blank: ___ children were playing in the field.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ children were playing in the field."
+    },
+    "options": [
+      { "en": "Some", "as": "Some" },
+      { "en": "Much", "as": "Much" },
+      { "en": "A little", "as": "A little" },
+      { "en": "Little", "as": "Little" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Some' can be used with countable plural nouns in affirmative sentences.",
+      "as": "সদৰ্থক বাক্যত গণনাযোগ্য বহুবচন noun ৰ সৈতে 'some' ব্যৱহাৰ কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "articles-determiners-029",
+    "q": {
+      "en": "Fill in the blank: This is ___ unique opportunity for us.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: This is ___ unique opportunity for us."
+    },
+    "options": [
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Unique' begins with the consonant sound /j/, so 'a' is used.",
+      "as": "'Unique' /j/ ব্যঞ্জনধ্বনিৰে আৰম্ভ হয়, গতিকে 'a' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-030",
+    "q": {
+      "en": "Fill in the blank: The sun rises in ___ east.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: The sun rises in ___ east."
+    },
+    "options": [
+      { "en": "the", "as": "the" },
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The definite article 'the' is used with directions like east, west, north, and south.",
+      "as": "east, west, north, south দৰে দিশৰ সৈতে নিৰ্দিষ্ট article 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-031",
+    "q": {
+      "en": "Fill in the blank: We had ___ lunch at 2 p.m.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: We had ___ lunch at 2 p.m."
+    },
+    "options": [
+      { "en": "no article", "as": "কোনো article নহয়" },
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "the", "as": "the" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Names of meals taken in the normal sense take no article.",
+      "as": "সাধাৰণ অৰ্থত খোৱা ভোজৰ নামৰ সৈতে কোনো article ব্যৱহাৰ নহয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-032",
+    "q": {
+      "en": "Fill in the blank: He is ___ European tourist.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ European tourist."
+    },
+    "options": [
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'European' begins with the consonant sound /j/, so 'a' is used.",
+      "as": "'European' /j/ ব্যঞ্জনধ্বনিৰে আৰম্ভ হয়, গতিকে 'a' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-033",
+    "q": {
+      "en": "Fill in the blank: ___ rich should help the poor.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ rich should help the poor."
+    },
+    "options": [
+      { "en": "The", "as": "The" },
+      { "en": "A", "as": "A" },
+      { "en": "An", "as": "An" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'The' is used with adjectives to refer to a whole class of people, like 'the rich'.",
+      "as": "বিশেষণৰ সৈতে 'the' ব্যৱহাৰ কৰি এটা শ্ৰেণীৰ মানুহ বুজোৱা হয়, যেনে 'the rich'।"
+    }
+  },
+  {
+    "id": "articles-determiners-034",
+    "q": {
+      "en": "Fill in the blank: I bought ___ new mobile phone.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I bought ___ new mobile phone."
+    },
+    "options": [
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An indefinite singular countable noun is preceded by 'a' before a consonant sound.",
+      "as": "ব্যঞ্জনধ্বনিৰ আগত অনিৰ্দিষ্ট একবচন গণনাযোগ্য noun ৰ আগত 'a' আহে।"
+    }
+  },
+  {
+    "id": "articles-determiners-035",
+    "q": {
+      "en": "Fill in the blank: She is ___ tallest girl in the class.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She is ___ tallest girl in the class."
+    },
+    "options": [
+      { "en": "the", "as": "the" },
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Superlative degree adjectives take the definite article 'the'.",
+      "as": "উত্তমতাৱাচক (superlative) বিশেষণৰ সৈতে নিৰ্দিষ্ট article 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-036",
+    "q": {
+      "en": "Fill in the blank: ___ of the students passed the exam.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ of the students passed the exam."
+    },
+    "options": [
+      { "en": "All", "as": "All" },
+      { "en": "Every", "as": "Every" },
+      { "en": "Each", "as": "Each" },
+      { "en": "Either", "as": "Either" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'All' is used with a plural noun or pronoun to mean the whole number.",
+      "as": "'All' বহুবচন noun বা pronoun ৰ সৈতে ব্যৱহাৰ হয় আৰু সমগ্ৰ সংখ্যা বুজায়।"
+    }
+  },
+  {
+    "id": "articles-determiners-037",
+    "q": {
+      "en": "Fill in the blank: ___ of my shoes is torn.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ of my shoes is torn."
+    },
+    "options": [
+      { "en": "Each", "as": "Each" },
+      { "en": "All", "as": "All" },
+      { "en": "Many", "as": "Many" },
+      { "en": "Some", "as": "Some" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Each' refers to every single one of a group taken separately and takes a singular verb.",
+      "as": "'Each' এটা এটা কৰি গোটৰ প্ৰতিটোকে বুজায় আৰু ইয়াৰ সৈতে একবচন ক্ৰিয়া ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-038",
+    "q": {
+      "en": "Fill in the blank: I have read ___ book you gave me.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I have read ___ book you gave me."
+    },
+    "options": [
+      { "en": "the", "as": "the" },
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The definite article 'the' is used when the noun is made specific by a following clause.",
+      "as": "যেতিয়া পাছৰ clause দ্বাৰা noun নিৰ্দিষ্ট হয়, তেতিয়া নিৰ্দিষ্ট article 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-039",
+    "q": {
+      "en": "Fill in the blank: There is ___ water in the bottle.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: There is ___ water in the bottle."
+    },
+    "options": [
+      { "en": "a little", "as": "a little" },
+      { "en": "a few", "as": "a few" },
+      { "en": "many", "as": "many" },
+      { "en": "few", "as": "few" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'A little' means some (a small quantity) and is used with uncountable nouns like 'water'.",
+      "as": "'A little' ৰ অৰ্থ অলপ (সৰু পৰিমাণ) আৰু 'water' দৰে অগণনীয় noun ৰ সৈতে ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-040",
+    "q": {
+      "en": "Fill in the blank: He is ___ first person to arrive.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ first person to arrive."
+    },
+    "options": [
+      { "en": "the", "as": "the" },
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ordinal numbers like 'first' take the definite article 'the'.",
+      "as": "'First' দৰে ক্ৰমবাচক সংখ্যাৰ সৈতে নিৰ্দিষ্ট article 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-041",
+    "q": {
+      "en": "Fill in the blank: He gave me ___ advice.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He gave me ___ advice."
+    },
+    "options": [
+      { "en": "some", "as": "some" },
+      { "en": "an", "as": "an" },
+      { "en": "many", "as": "many" },
+      { "en": "a few", "as": "a few" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Advice' is uncountable, so 'some' is used instead of 'a' or 'many'.",
+      "as": "'Advice' অগণনীয়, গতিকে 'a' বা 'many' ৰ পৰিৱৰ্তে 'some' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-042",
+    "q": {
+      "en": "Fill in the blank: She has ___ long hair and a beautiful smile.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She has ___ long hair and a beautiful smile."
+    },
+    "options": [
+      { "en": "no article", "as": "কোনো article নহয়" },
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "the", "as": "the" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Hair' is uncountable here, so no article is used before it.",
+      "as": "ইয়াত 'hair' অগণনীয়, গতিকে ইয়াৰ আগত কোনো article ব্যৱহাৰ নহয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-043",
+    "q": {
+      "en": "Fill in the blank: I met ___ old friend of mine.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I met ___ old friend of mine."
+    },
+    "options": [
+      { "en": "an", "as": "an" },
+      { "en": "a", "as": "a" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Old' begins with a vowel sound, so 'an' is used.",
+      "as": "'Old' স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-044",
+    "q": {
+      "en": "Fill in the blank: ___ Everest is the highest peak in the world.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ Everest is the highest peak in the world."
+    },
+    "options": [
+      { "en": "no article", "as": "কোনো article নহয়" },
+      { "en": "The", "as": "The" },
+      { "en": "A", "as": "A" },
+      { "en": "An", "as": "An" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Names of individual mountains take no article, so 'Everest' stands alone.",
+      "as": "একক পৰ্বতৰ নামৰ সৈতে কোনো article ব্যৱহাৰ নহয়, গতিকে 'Everest' অকলে থাকে।"
+    }
+  },
+  {
+    "id": "articles-determiners-045",
+    "q": {
+      "en": "Fill in the blank: He is ___ NCC cadet.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ NCC cadet."
+    },
+    "options": [
+      { "en": "an", "as": "an" },
+      { "en": "a", "as": "a" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'N' is pronounced /en/, beginning with a vowel sound, so 'an' is used.",
+      "as": "'N' /en/ ৰূপত উচ্চাৰিত হয়, যি স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-046",
+    "q": {
+      "en": "Fill in the blank: I need ___ information about the exam.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I need ___ information about the exam."
+    },
+    "options": [
+      { "en": "some", "as": "some" },
+      { "en": "an", "as": "an" },
+      { "en": "many", "as": "many" },
+      { "en": "a few", "as": "a few" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Information' is uncountable, so 'some' is correct.",
+      "as": "'Information' অগণনীয়, গতিকে 'some' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "articles-determiners-047",
+    "q": {
+      "en": "Fill in the blank: ___ of the two roads leads to the temple.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ of the two roads leads to the temple."
+    },
+    "options": [
+      { "en": "Either", "as": "Either" },
+      { "en": "Every", "as": "Every" },
+      { "en": "All", "as": "All" },
+      { "en": "Some", "as": "Some" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Either' refers to one of two things and takes a singular verb.",
+      "as": "'Either' দুটাৰ এটাক বুজায় আৰু ইয়াৰ সৈতে একবচন ক্ৰিয়া ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-048",
+    "q": {
+      "en": "Fill in the blank: There are ___ people in the hall.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: There are ___ people in the hall."
+    },
+    "options": [
+      { "en": "many", "as": "many" },
+      { "en": "much", "as": "much" },
+      { "en": "little", "as": "little" },
+      { "en": "a little", "as": "a little" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'People' is a countable plural noun, so 'many' is used.",
+      "as": "'People' গণনাযোগ্য বহুবচন noun, গতিকে 'many' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-049",
+    "q": {
+      "en": "Fill in the blank: She gave me ___ useful suggestion.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She gave me ___ useful suggestion."
+    },
+    "options": [
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Useful' begins with the consonant sound /j/, so 'a' is used.",
+      "as": "'Useful' /j/ ব্যঞ্জনধ্বনিৰে আৰম্ভ হয়, গতিকে 'a' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-050",
+    "q": {
+      "en": "Fill in the blank: I like ___ flowers in your garden.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I like ___ flowers in your garden."
+    },
+    "options": [
+      { "en": "the", "as": "the" },
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'The' is used because the flowers are particular ones in your garden.",
+      "as": "'The' ব্যৱহাৰ কৰা হয় কাৰণ ফুলবোৰ তোমাৰ বাৰীৰ নিৰ্দিষ্ট ফুল।"
+    }
+  },
+  {
+    "id": "articles-determiners-051",
+    "q": {
+      "en": "Fill in the blank: He did not have ___ difficulty in the exam.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He did not have ___ difficulty in the exam."
+    },
+    "options": [
+      { "en": "much", "as": "much" },
+      { "en": "many", "as": "many" },
+      { "en": "few", "as": "few" },
+      { "en": "a few", "as": "a few" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Difficulty' is uncountable here, so 'much' is used.",
+      "as": "ইয়াত 'Difficulty' অগণনীয়, গতিকে 'much' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-052",
+    "q": {
+      "en": "Fill in the blank: ___ boy in the class has a book.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ boy in the class has a book."
+    },
+    "options": [
+      { "en": "Every", "as": "Every" },
+      { "en": "All", "as": "All" },
+      { "en": "Many", "as": "Many" },
+      { "en": "Both", "as": "Both" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Every' + singular noun takes a singular verb 'has'.",
+      "as": "'Every' + একবচন noun ৰ সৈতে একবচন ক্ৰিয়া 'has' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-053",
+    "q": {
+      "en": "Fill in the blank: I have ___ money to buy a car.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I have ___ money to buy a car."
+    },
+    "options": [
+      { "en": "enough", "as": "enough" },
+      { "en": "many", "as": "many" },
+      { "en": "few", "as": "few" },
+      { "en": "a few", "as": "a few" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Enough' is a determiner meaning a sufficient quantity and is used with uncountable nouns.",
+      "as": "'Enough' এটা determiner, যাৰ অৰ্থ পৰ্যাপ্ত পৰিমাণ, আৰু অগণনীয় noun ৰ সৈতে ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-054",
+    "q": {
+      "en": "Fill in the blank: ___ of them were present at the meeting.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ of them were present at the meeting."
+    },
+    "options": [
+      { "en": "Both", "as": "Both" },
+      { "en": "Every", "as": "Every" },
+      { "en": "Each", "as": "Each" },
+      { "en": "Either", "as": "Either" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Both' is used for two persons or things and takes a plural verb 'were'.",
+      "as": "'Both' দুজন ব্যক্তি বা দুটা বস্তুৰ বাবে ব্যৱহাৰ হয় আৰু বহুবচন ক্ৰিয়া 'were' লয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-055",
+    "q": {
+      "en": "Fill in the blank: This is ___ same book I lost.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: This is ___ same book I lost."
+    },
+    "options": [
+      { "en": "the", "as": "the" },
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'The' is used with 'same', 'wrong', and 'right'.",
+      "as": "'Same', 'wrong' আৰু 'right' ৰ সৈতে 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-056",
+    "q": {
+      "en": "Fill in the blank: He earns ___ money but spends little.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He earns ___ money but spends little."
+    },
+    "options": [
+      { "en": "much", "as": "much" },
+      { "en": "many", "as": "many" },
+      { "en": "few", "as": "few" },
+      { "en": "a few", "as": "a few" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Money' is uncountable, so 'much' is correct.",
+      "as": "'Money' অগণনীয়, গতিকে 'much' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "articles-determiners-057",
+    "q": {
+      "en": "Fill in the blank: I waited for ___ hour at the bus stop.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I waited for ___ hour at the bus stop."
+    },
+    "options": [
+      { "en": "an", "as": "an" },
+      { "en": "a", "as": "a" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Hour' begins with a vowel sound because 'h' is silent, so 'an' is used.",
+      "as": "'Hour' স্বৰধ্বনিৰে আৰম্ভ হয় কাৰণ 'h' উচ্চাৰিত নহয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-058",
+    "q": {
+      "en": "Fill in the blank: ___ Assam is known for its tea gardens.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ Assam is known for its tea gardens."
+    },
+    "options": [
+      { "en": "no article", "as": "কোনো article নহয়" },
+      { "en": "The", "as": "The" },
+      { "en": "A", "as": "A" },
+      { "en": "An", "as": "An" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Names of states and countries take no article.",
+      "as": "ৰাজ্য আৰু দেশৰ নামৰ সৈতে কোনো article ব্যৱহাৰ নহয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-059",
+    "q": {
+      "en": "Fill in the blank: I do not know ___ about the new rule.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I do not know ___ about the new rule."
+    },
+    "options": [
+      { "en": "anything", "as": "anything" },
+      { "en": "something", "as": "something" },
+      { "en": "everything", "as": "everything" },
+      { "en": "nothing", "as": "nothing" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Anything' is used in negative sentences.",
+      "as": "নেতিবাচক বাক্যত 'Anything' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-060",
+    "q": {
+      "en": "Fill in the blank: She is ___ better singer than her sister.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She is ___ better singer than her sister."
+    },
+    "options": [
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The indefinite article 'a' is used before a singular countable noun with a comparative adjective.",
+      "as": "তুলনামূলক বিশেষণৰ সৈতে একবচন গণনাযোগ্য noun ৰ আগত অনিৰ্দিষ্ট article 'a' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-061",
+    "q": {
+      "en": "Fill in the blank: He is ___ MLA from this constituency.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ MLA from this constituency."
+    },
+    "options": [
+      { "en": "an", "as": "an" },
+      { "en": "a", "as": "a" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'M' is pronounced /em/, beginning with a vowel sound, so 'an' is used.",
+      "as": "'M' /em/ ৰূপত উচ্চাৰিত হয়, যি স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-062",
+    "q": {
+      "en": "Fill in the blank: ___ of the milk was wasted.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ of the milk was wasted."
+    },
+    "options": [
+      { "en": "Some", "as": "Some" },
+      { "en": "Many", "as": "Many" },
+      { "en": "Few", "as": "Few" },
+      { "en": "A few", "as": "A few" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Milk' is uncountable, so 'some' is used instead of 'many' or 'few'.",
+      "as": "'Milk' অগণনীয়, গতিকে 'many' বা 'few' ৰ পৰিৱৰ্তে 'some' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-063",
+    "q": {
+      "en": "Fill in the blank: I have ___ idea about this topic.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I have ___ idea about this topic."
+    },
+    "options": [
+      { "en": "no", "as": "no" },
+      { "en": "any", "as": "any" },
+      { "en": "much", "as": "much" },
+      { "en": "many", "as": "many" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'No' is a determiner used before a noun to mean 'not any'.",
+      "as": "'No' এটা determiner, noun ৰ আগত ব্যৱহাৰ কৰি 'একো নহয়' বুজায়।"
+    }
+  },
+  {
+    "id": "articles-determiners-064",
+    "q": {
+      "en": "Fill in the blank: ___ are my books; please return them.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ are my books; please return them."
+    },
+    "options": [
+      { "en": "These", "as": "These" },
+      { "en": "This", "as": "This" },
+      { "en": "That", "as": "That" },
+      { "en": "It", "as": "It" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'These' is the plural demonstrative determiner used for things nearby.",
+      "as": "'These' বহুবচন নিৰ্দেশক determiner, ওচৰৰ বস্তুৰ বাবে ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-065",
+    "q": {
+      "en": "Fill in the blank: He is ___ only son of his parents.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ only son of his parents."
+    },
+    "options": [
+      { "en": "the", "as": "the" },
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "no article", "as": "কোনো article নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'The' is used with 'only' before a noun.",
+      "as": "noun ৰ আগত 'only' ৰ সৈতে 'the' ব্যৱহাৰ কৰা হয়।"
     }
   }
 ]
