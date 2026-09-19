@@ -1,30 +1,4502 @@
-{
-  "id": "general-science-001",
-  "q": {
-    "en": "What is the chemical formula of water?",
-    "as": "পানীৰ ৰাসায়নিক সংকেত কি?"
-  },
-  "options": [
-    {
-      "en": "H₂O",
-      "as": "H₂O"
+[
+  {
+    "id": "general-science-001",
+    "q": {
+      "en": "The SI unit of force is —",
+      "as": "বলৰ এছ আই একক কি —"
     },
-    {
-      "en": "CO₂",
-      "as": "CO₂"
-    },
-    {
-      "en": "O₂",
-      "as": "O₂"
-    },
-    {
-      "en": "NaCl",
-      "as": "NaCl"
+    "options": [
+      {
+        "en": "Watt",
+        "as": "ৱাট"
+      },
+      {
+        "en": "Joule",
+        "as": "জুল"
+      },
+      {
+        "en": "Newton",
+        "as": "নিউটন"
+      },
+      {
+        "en": "Pascal",
+        "as": "পাস্কেল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The SI unit of force is the Newton.",
+      "as": "বলৰ এছ আই একক হৈছে নিউটন।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "A water molecule has two hydrogen atoms and one oxygen atom.",
-    "as": "এটা পানীৰ অণুত দুটা হাইড্ৰজেন আৰু এটা অক্সিজেন পৰমাণু থাকে।"
+  },
+  {
+    "id": "general-science-002",
+    "q": {
+      "en": "The SI unit of work and energy is —",
+      "as": "কাৰ্য আৰু শক্তিৰ এছ আই একক কি —"
+    },
+    "options": [
+      {
+        "en": "Newton",
+        "as": "নিউটন"
+      },
+      {
+        "en": "Watt",
+        "as": "ৱাট"
+      },
+      {
+        "en": "Joule",
+        "as": "জুল"
+      },
+      {
+        "en": "Ampere",
+        "as": "এম্পিয়াৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Work and energy are measured in joules.",
+      "as": "কাৰ্য আৰু শক্তি জুলত জোখা হয়।"
+    }
+  },
+  {
+    "id": "general-science-003",
+    "q": {
+      "en": "The SI unit of power is —",
+      "as": "ক্ষমতাৰ এছ আই একক কি —"
+    },
+    "options": [
+      {
+        "en": "Watt",
+        "as": "ৱাট"
+      },
+      {
+        "en": "Joule",
+        "as": "জুল"
+      },
+      {
+        "en": "Newton",
+        "as": "নিউটন"
+      },
+      {
+        "en": "Volt",
+        "as": "ভল্ট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Power is measured in watts.",
+      "as": "ক্ষমতা ৱাটত জোখা হয়।"
+    }
+  },
+  {
+    "id": "general-science-004",
+    "q": {
+      "en": "The SI unit of pressure is —",
+      "as": "চাপৰ এছ আই একক কি —"
+    },
+    "options": [
+      {
+        "en": "Watt",
+        "as": "ৱাট"
+      },
+      {
+        "en": "Newton",
+        "as": "নিউটন"
+      },
+      {
+        "en": "Joule",
+        "as": "জুল"
+      },
+      {
+        "en": "Pascal",
+        "as": "পাস্কেল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Pressure is measured in pascals.",
+      "as": "চাপ পাস্কেলত জোখা হয়।"
+    }
+  },
+  {
+    "id": "general-science-005",
+    "q": {
+      "en": "The speed of light in vacuum is approximately —",
+      "as": "শূন্যত পোহৰৰ গতি প্ৰায় —"
+    },
+    "options": [
+      {
+        "en": "3 x 10^6 m/s",
+        "as": "৩ x ১০^৬ মি/ছে"
+      },
+      {
+        "en": "3 x 10^5 m/s",
+        "as": "৩ x ১০^৫ মি/ছে"
+      },
+      {
+        "en": "3 x 10^10 m/s",
+        "as": "৩ x ১০^১০ মি/ছে"
+      },
+      {
+        "en": "3 x 10^8 m/s",
+        "as": "৩ x ১০^৮ মি/ছে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Light travels at about 3 x 10^8 m/s in vacuum.",
+      "as": "পোহৰে শূন্যত প্ৰায় ৩ x ১০^৮ মি/ছে গতি কৰে।"
+    }
+  },
+  {
+    "id": "general-science-006",
+    "q": {
+      "en": "The SI unit of electric current is —",
+      "as": "বিদ্যুৎ প্ৰৱাহৰ এছ আই একক কি —"
+    },
+    "options": [
+      {
+        "en": "Ampere",
+        "as": "এম্পিয়াৰ"
+      },
+      {
+        "en": "Volt",
+        "as": "ভল্ট"
+      },
+      {
+        "en": "Ohm",
+        "as": "ওহম"
+      },
+      {
+        "en": "Watt",
+        "as": "ৱাট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Electric current is measured in amperes.",
+      "as": "বিদ্যুৎ প্ৰৱাহ এম্পিয়াৰত জোখা হয়।"
+    }
+  },
+  {
+    "id": "general-science-007",
+    "q": {
+      "en": "The SI unit of electrical resistance is —",
+      "as": "বিদ্যুৎ ৰোধৰ এছ আই একক কি —"
+    },
+    "options": [
+      {
+        "en": "Ohm",
+        "as": "ওহম"
+      },
+      {
+        "en": "Ampere",
+        "as": "এম্পিয়াৰ"
+      },
+      {
+        "en": "Volt",
+        "as": "ভল্ট"
+      },
+      {
+        "en": "Coulomb",
+        "as": "কুলম্ব"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Resistance is measured in ohms.",
+      "as": "ৰোধ ওহমত জোখা হয়।"
+    }
+  },
+  {
+    "id": "general-science-008",
+    "q": {
+      "en": "The SI unit of frequency is —",
+      "as": "কম্পনাংকৰ এছ আই একক কি —"
+    },
+    "options": [
+      {
+        "en": "Watt",
+        "as": "ৱাট"
+      },
+      {
+        "en": "Second",
+        "as": "ছেকেণ্ড"
+      },
+      {
+        "en": "Hertz",
+        "as": "হাৰ্টজ"
+      },
+      {
+        "en": "Decibel",
+        "as": "ডেচিবেল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Frequency is measured in hertz.",
+      "as": "কম্পনাংক হাৰ্টজত জোখা হয়।"
+    }
+  },
+  {
+    "id": "general-science-009",
+    "q": {
+      "en": "Atmospheric pressure is measured using a —",
+      "as": "বায়ুমণ্ডলীয় চাপ জোখা হয় কাৰ দ্বাৰা —"
+    },
+    "options": [
+      {
+        "en": "Barometer",
+        "as": "বেৰ'মিটাৰ"
+      },
+      {
+        "en": "Thermometer",
+        "as": "থাৰ্ম'মিটাৰ"
+      },
+      {
+        "en": "Hygrometer",
+        "as": "হাইগ্ৰ'মিটাৰ"
+      },
+      {
+        "en": "Ammeter",
+        "as": "এমিটাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A barometer measures atmospheric pressure.",
+      "as": "বেৰ'মিটাৰে বায়ুমণ্ডলীয় চাপ জোখে।"
+    }
+  },
+  {
+    "id": "general-science-010",
+    "q": {
+      "en": "Temperature is measured using a —",
+      "as": "তাপমাত্ৰা জোখা হয় কাৰ দ্বাৰা —"
+    },
+    "options": [
+      {
+        "en": "Barometer",
+        "as": "বেৰ'মিটাৰ"
+      },
+      {
+        "en": "Speedometer",
+        "as": "স্পিড'মিটাৰ"
+      },
+      {
+        "en": "Thermometer",
+        "as": "থাৰ্ম'মিটাৰ"
+      },
+      {
+        "en": "Odometer",
+        "as": "অড'মিটাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A thermometer measures temperature.",
+      "as": "থাৰ্ম'মিটাৰে তাপমাত্ৰা জোখে।"
+    }
+  },
+  {
+    "id": "general-science-011",
+    "q": {
+      "en": "The acceleration due to gravity on Earth is about —",
+      "as": "পৃথিৱীত মাধ্যাকৰ্ষণৰ ত্বৰণ প্ৰায় —"
+    },
+    "options": [
+      {
+        "en": "6.7 m/s^2",
+        "as": "৬.৭ মি/ছে^২"
+      },
+      {
+        "en": "9.8 m/s^2",
+        "as": "৯.৮ মি/ছে^২"
+      },
+      {
+        "en": "12.5 m/s^2",
+        "as": "১২.৫ মি/ছে^২"
+      },
+      {
+        "en": "3.0 m/s^2",
+        "as": "৩.০ মি/ছে^২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The value of g is about 9.8 m/s^2.",
+      "as": "g ৰ মান প্ৰায় ৯.৮ মি/ছে^২।"
+    }
+  },
+  {
+    "id": "general-science-012",
+    "q": {
+      "en": "Which of the following is a scalar quantity?",
+      "as": "তলৰ কোনটো স্কেলাৰ ৰাশি?"
+    },
+    "options": [
+      {
+        "en": "Velocity",
+        "as": "বেগ"
+      },
+      {
+        "en": "Mass",
+        "as": "ভৰ"
+      },
+      {
+        "en": "Force",
+        "as": "বল"
+      },
+      {
+        "en": "Acceleration",
+        "as": "ত্বৰণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mass has magnitude only, so it is a scalar quantity.",
+      "as": "ভৰৰ কেৱল মান থাকে, সেয়ে ই স্কেলাৰ ৰাশি।"
+    }
+  },
+  {
+    "id": "general-science-013",
+    "q": {
+      "en": "Which of the following is a vector quantity?",
+      "as": "তলৰ কোনটো ভেক্টৰ ৰাশি?"
+    },
+    "options": [
+      {
+        "en": "Speed",
+        "as": "দ্ৰুতি"
+      },
+      {
+        "en": "Distance",
+        "as": "দূৰত্ব"
+      },
+      {
+        "en": "Velocity",
+        "as": "বেগ"
+      },
+      {
+        "en": "Mass",
+        "as": "ভৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Velocity has both magnitude and direction.",
+      "as": "বেগৰ মান আৰু দিশ দুয়ো থাকে।"
+    }
+  },
+  {
+    "id": "general-science-014",
+    "q": {
+      "en": "Newton's first law of motion is also called the law of —",
+      "as": "নিউটনৰ গতিৰ প্ৰথম সূত্ৰক কি বুলি কোৱা হয় —"
+    },
+    "options": [
+      {
+        "en": "Gravitation",
+        "as": "মহাকৰ্ষণ"
+      },
+      {
+        "en": "Momentum",
+        "as": "ভৰবেগ"
+      },
+      {
+        "en": "Inertia",
+        "as": "জড়তা"
+      },
+      {
+        "en": "Action",
+        "as": "ক্ৰিয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Newton's first law is the law of inertia.",
+      "as": "নিউটনৰ প্ৰথম সূত্ৰ হৈছে জড়তাৰ সূত্ৰ।"
+    }
+  },
+  {
+    "id": "general-science-015",
+    "q": {
+      "en": "Newton's third law states that —",
+      "as": "নিউটনৰ তৃতীয় সূত্ৰত কোৱা হৈছে —"
+    },
+    "options": [
+      {
+        "en": "every action has an equal and opposite reaction",
+        "as": "প্ৰতিটো ক্ৰিয়াৰ সমান আৰু বিপৰীত প্ৰতিক্ৰিয়া থাকে"
+      },
+      {
+        "en": "force equals mass times acceleration",
+        "as": "বল = ভৰ x ত্বৰণ"
+      },
+      {
+        "en": "a body remains at rest unless acted upon",
+        "as": "বল প্ৰয়োগ নকৰালৈকে বস্তু স্থিৰ থাকে"
+      },
+      {
+        "en": "energy can be created",
+        "as": "শক্তি সৃষ্টি কৰিব পাৰি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "For every action there is an equal and opposite reaction.",
+      "as": "প্ৰতিটো ক্ৰিয়াৰ সমান আৰু বিপৰীত প্ৰতিক্ৰিয়া থাকে।"
+    }
+  },
+  {
+    "id": "general-science-016",
+    "q": {
+      "en": "Momentum of a body is the product of —",
+      "as": "বস্তুৰ ভৰবেগ কিৰ গুণফল —"
+    },
+    "options": [
+      {
+        "en": "mass and force",
+        "as": "ভৰ আৰু বল"
+      },
+      {
+        "en": "mass and acceleration",
+        "as": "ভৰ আৰু ত্বৰণ"
+      },
+      {
+        "en": "force and time",
+        "as": "বল আৰু সময়"
+      },
+      {
+        "en": "mass and velocity",
+        "as": "ভৰ আৰু বেগ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Momentum = mass x velocity.",
+      "as": "ভৰবেগ = ভৰ x বেগ।"
+    }
+  },
+  {
+    "id": "general-science-017",
+    "q": {
+      "en": "The energy possessed by a moving body is called —",
+      "as": "গতিশীল বস্তুৰ শক্তিক কি বুলি কোৱা হয় —"
+    },
+    "options": [
+      {
+        "en": "Potential energy",
+        "as": "স্থিতিজ শক্তি"
+      },
+      {
+        "en": "Kinetic energy",
+        "as": "গতিজ শক্তি"
+      },
+      {
+        "en": "Nuclear energy",
+        "as": "পাৰমাণৱিক শক্তি"
+      },
+      {
+        "en": "Chemical energy",
+        "as": "ৰাসায়নিক শক্তি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A moving body possesses kinetic energy.",
+      "as": "গতিশীল বস্তুত গতিজ শক্তি থাকে।"
+    }
+  },
+  {
+    "id": "general-science-018",
+    "q": {
+      "en": "The energy stored in a stretched rubber band is —",
+      "as": "টনা ৰবৰৰ বেণ্ডত সঞ্চিত শক্তি কি —"
+    },
+    "options": [
+      {
+        "en": "Kinetic energy",
+        "as": "গতিজ শক্তি"
+      },
+      {
+        "en": "Potential energy",
+        "as": "স্থিতিজ শক্তি"
+      },
+      {
+        "en": "Heat energy",
+        "as": "তাপ শক্তি"
+      },
+      {
+        "en": "Sound energy",
+        "as": "শব্দ শক্তি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A stretched rubber band stores potential energy.",
+      "as": "টনা ৰবৰৰ বেণ্ডত স্থিতিজ শক্তি সঞ্চিত হয়।"
+    }
+  },
+  {
+    "id": "general-science-019",
+    "q": {
+      "en": "The source of solar energy is —",
+      "as": "সৌৰ শক্তিৰ উৎস কি —"
+    },
+    "options": [
+      {
+        "en": "Nuclear fusion",
+        "as": "পাৰমাণৱিক সংযোজন"
+      },
+      {
+        "en": "Nuclear fission",
+        "as": "পাৰমাণৱিক বিভাজন"
+      },
+      {
+        "en": "Combustion",
+        "as": "দহন"
+      },
+      {
+        "en": "Chemical reaction",
+        "as": "ৰাসায়নিক বিক্ৰিয়া"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Sun produces energy by nuclear fusion.",
+      "as": "সূৰ্যই পাৰমাণৱিক সংযোজনৰ জৰিয়তে শক্তি উৎপাদন কৰে।"
+    }
+  },
+  {
+    "id": "general-science-020",
+    "q": {
+      "en": "Sound travels fastest in —",
+      "as": "শব্দই আটাইতকৈ দ্ৰুত গতি কৰে —"
+    },
+    "options": [
+      {
+        "en": "Liquids",
+        "as": "তৰল পদাৰ্থত"
+      },
+      {
+        "en": "Solids",
+        "as": "কঠিন পদাৰ্থত"
+      },
+      {
+        "en": "Gases",
+        "as": "গেছত"
+      },
+      {
+        "en": "Vacuum",
+        "as": "শূন্যত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sound travels fastest in solids.",
+      "as": "শব্দই কঠিন পদাৰ্থত আটাইতকৈ দ্ৰুত গতি কৰে।"
+    }
+  },
+  {
+    "id": "general-science-021",
+    "q": {
+      "en": "Sound cannot travel through —",
+      "as": "শব্দই কিৰ মাজেৰে গতি কৰিব নোৱাৰে —"
+    },
+    "options": [
+      {
+        "en": "Iron",
+        "as": "লো"
+      },
+      {
+        "en": "Water",
+        "as": "পানী"
+      },
+      {
+        "en": "Vacuum",
+        "as": "শূন্য"
+      },
+      {
+        "en": "Air",
+        "as": "বায়ু"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sound needs a medium and cannot travel through vacuum.",
+      "as": "শব্দৰ মাধ্যমৰ প্ৰয়োজন আৰু শূন্যৰ মাজেৰে যাব নোৱাৰে।"
+    }
+  },
+  {
+    "id": "general-science-022",
+    "q": {
+      "en": "The speed of sound in air is approximately —",
+      "as": "বায়ুত শব্দৰ গতি প্ৰায় —"
+    },
+    "options": [
+      {
+        "en": "1500 m/s",
+        "as": "১৫০০ মি/ছে"
+      },
+      {
+        "en": "3 x 10^8 m/s",
+        "as": "৩ x ১০^৮ মি/ছে"
+      },
+      {
+        "en": "343 m/s",
+        "as": "৩৪৩ মি/ছে"
+      },
+      {
+        "en": "34 m/s",
+        "as": "৩৪ মি/ছে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sound travels at about 343 m/s in air.",
+      "as": "বায়ুত শব্দই প্ৰায় ৩৪৩ মি/ছে গতি কৰে।"
+    }
+  },
+  {
+    "id": "general-science-023",
+    "q": {
+      "en": "Light travels in a —",
+      "as": "পোহৰ কি পথত গতি কৰে —"
+    },
+    "options": [
+      {
+        "en": "curved path",
+        "as": "বক্ৰ পথত"
+      },
+      {
+        "en": "straight line",
+        "as": "সৰলৰেখাত"
+      },
+      {
+        "en": "circular path",
+        "as": "বৃত্তাকাৰ পথত"
+      },
+      {
+        "en": "zig-zag path",
+        "as": "জিগজাগ পথত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Light travels in a straight line.",
+      "as": "পোহৰ সৰলৰেখাত গতি কৰে।"
+    }
+  },
+  {
+    "id": "general-science-024",
+    "q": {
+      "en": "The bending of light when it passes from one medium to another is called —",
+      "as": "এটা মাধ্যমৰপৰা আন এটা মাধ্যমলৈ যাওঁতে পোহৰৰ বেঁকা হোৱাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Dispersion",
+        "as": "বিচ্ছুৰণ"
+      },
+      {
+        "en": "Reflection",
+        "as": "প্ৰতিফলন"
+      },
+      {
+        "en": "Refraction",
+        "as": "প্ৰতিসৰণ"
+      },
+      {
+        "en": "Scattering",
+        "as": "বিক্ষেপণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This phenomenon is called refraction.",
+      "as": "এই পৰিঘটনাক প্ৰতিসৰণ বোলা হয়।"
+    }
+  },
+  {
+    "id": "general-science-025",
+    "q": {
+      "en": "The bouncing back of light from a surface is called —",
+      "as": "পৃষ্ঠৰপৰা পোহৰ ঘূৰি অহাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Dispersion",
+        "as": "বিচ্ছুৰণ"
+      },
+      {
+        "en": "Refraction",
+        "as": "প্ৰতিসৰণ"
+      },
+      {
+        "en": "Reflection",
+        "as": "প্ৰতিফলন"
+      },
+      {
+        "en": "Absorption",
+        "as": "শোষণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This is called reflection of light.",
+      "as": "ইয়াক পোহৰৰ প্ৰতিফলন বোলা হয়।"
+    }
+  },
+  {
+    "id": "general-science-026",
+    "q": {
+      "en": "Which mirror is used as a rear-view mirror in vehicles?",
+      "as": "বাহনৰ পিছৰ দৰ্শন দাপোণ হিচাপে কোনটো দাপোণ ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Cylindrical mirror",
+        "as": "বেলনাকাৰ দাপোণ"
+      },
+      {
+        "en": "Concave mirror",
+        "as": "অৱতল দাপোণ"
+      },
+      {
+        "en": "Plane mirror",
+        "as": "সমতল দাপোণ"
+      },
+      {
+        "en": "Convex mirror",
+        "as": "উত্তল দাপোণ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A convex mirror gives a wide field of view.",
+      "as": "উত্তল দাপোণে বহল দৃশ্যপট দিয়ে।"
+    }
+  },
+  {
+    "id": "general-science-027",
+    "q": {
+      "en": "Which mirror is used by a dentist to see an enlarged image of teeth?",
+      "as": "দন্ত চিকিৎসকে দাঁতৰ ডাঙৰ প্ৰতিবিম্ব চাবলৈ কোনটো দাপোণ ব্যৱহাৰ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Concave mirror",
+        "as": "অৱতল দাপোণ"
+      },
+      {
+        "en": "Convex mirror",
+        "as": "উত্তল দাপোণ"
+      },
+      {
+        "en": "Plane mirror",
+        "as": "সমতল দাপোণ"
+      },
+      {
+        "en": "Prism",
+        "as": "প্ৰিজম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A concave mirror forms a magnified image.",
+      "as": "অৱতল দাপোণে ডাঙৰ প্ৰতিবিম্ব গঠন কৰে।"
+    }
+  },
+  {
+    "id": "general-science-028",
+    "q": {
+      "en": "The lens present in the human eye is —",
+      "as": "মানুহৰ চকুত থকা লেন্স কি ধৰণৰ —"
+    },
+    "options": [
+      {
+        "en": "Cylindrical lens",
+        "as": "বেলনাকাৰ লেন্স"
+      },
+      {
+        "en": "Concave lens",
+        "as": "অৱতল লেন্স"
+      },
+      {
+        "en": "Convex lens",
+        "as": "উত্তল লেন্স"
+      },
+      {
+        "en": "Plane lens",
+        "as": "সমতল লেন্স"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The human eye has a convex lens.",
+      "as": "মানুহৰ চকুত উত্তল লেন্স থাকে।"
+    }
+  },
+  {
+    "id": "general-science-029",
+    "q": {
+      "en": "The power of a lens is measured in —",
+      "as": "লেন্সৰ ক্ষমতা কি এককত জোখা হয় —"
+    },
+    "options": [
+      {
+        "en": "Newton",
+        "as": "নিউটন"
+      },
+      {
+        "en": "Watt",
+        "as": "ৱাট"
+      },
+      {
+        "en": "Dioptre",
+        "as": "ডায়প্টাৰ"
+      },
+      {
+        "en": "Hertz",
+        "as": "হাৰ্টজ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Lens power is measured in dioptres.",
+      "as": "লেন্সৰ ক্ষমতা ডায়প্টাৰত জোখা হয়।"
+    }
+  },
+  {
+    "id": "general-science-030",
+    "q": {
+      "en": "A rainbow is formed due to —",
+      "as": "ৰংধনু কিৰ বাবে গঠন হয় —"
+    },
+    "options": [
+      {
+        "en": "scattering of light",
+        "as": "পোহৰৰ বিক্ষেপণ"
+      },
+      {
+        "en": "reflection of light",
+        "as": "পোহৰৰ প্ৰতিফলন"
+      },
+      {
+        "en": "absorption of light",
+        "as": "পোহৰৰ শোষণ"
+      },
+      {
+        "en": "dispersion of light",
+        "as": "পোহৰৰ বিচ্ছুৰণ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A rainbow is formed by dispersion of sunlight by water droplets.",
+      "as": "পানীৰ টোপালে সূৰ্যৰ পোহৰ বিচ্ছুৰিত কৰি ৰংধনু গঠন কৰে।"
+    }
+  },
+  {
+    "id": "general-science-031",
+    "q": {
+      "en": "The sky appears blue due to —",
+      "as": "আকাশ নীলা দেখা যায় কিৰ বাবে —"
+    },
+    "options": [
+      {
+        "en": "reflection of light",
+        "as": "পোহৰৰ প্ৰতিফলন"
+      },
+      {
+        "en": "scattering of light",
+        "as": "পোহৰৰ বিক্ষেপণ"
+      },
+      {
+        "en": "dispersion of light",
+        "as": "পোহৰৰ বিচ্ছুৰণ"
+      },
+      {
+        "en": "refraction of light",
+        "as": "পোহৰৰ প্ৰতিসৰণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Blue light is scattered more, making the sky look blue.",
+      "as": "নীলা পোহৰ বেছি বিক্ষিপ্ত হয়, সেয়ে আকাশ নীলা দেখা যায়।"
+    }
+  },
+  {
+    "id": "general-science-032",
+    "q": {
+      "en": "The three primary colours of light are —",
+      "as": "পোহৰৰ তিনি প্ৰাথমিক ৰং কি —"
+    },
+    "options": [
+      {
+        "en": "Red, green, blue",
+        "as": "ৰঙা, সেউজীয়া, নীলা"
+      },
+      {
+        "en": "Red, yellow, blue",
+        "as": "ৰঙা, হালধীয়া, নীলা"
+      },
+      {
+        "en": "Red, green, yellow",
+        "as": "ৰঙা, সেউজীয়া, হালধীয়া"
+      },
+      {
+        "en": "Blue, green, black",
+        "as": "নীলা, সেউজীয়া, ক'লা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Red, green and blue are the primary colours of light.",
+      "as": "ৰঙা, সেউজীয়া আৰু নীলা পোহৰৰ প্ৰাথমিক ৰং।"
+    }
+  },
+  {
+    "id": "general-science-033",
+    "q": {
+      "en": "The filament of an electric bulb is made of —",
+      "as": "বিদ্যুৎ বাল্বৰ ফিলামেণ্ট কিৰে তৈয়াৰী —"
+    },
+    "options": [
+      {
+        "en": "Aluminium",
+        "as": "এলুমিনিয়াম"
+      },
+      {
+        "en": "Copper",
+        "as": "তাম"
+      },
+      {
+        "en": "Tungsten",
+        "as": "টাংষ্টেন"
+      },
+      {
+        "en": "Iron",
+        "as": "লো"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Tungsten has a very high melting point.",
+      "as": "টাংষ্টেনৰ গলনাংক অতি উচ্চ।"
+    }
+  },
+  {
+    "id": "general-science-034",
+    "q": {
+      "en": "A fuse wire is made of an alloy of —",
+      "as": "ফিউজ তাঁৰ কিৰ সংকৰ ধাতুৰে তৈয়াৰী —"
+    },
+    "options": [
+      {
+        "en": "tin and lead",
+        "as": "টিন আৰু সীহ"
+      },
+      {
+        "en": "copper and zinc",
+        "as": "তাম আৰু দস্তা"
+      },
+      {
+        "en": "iron and carbon",
+        "as": "লো আৰু কাৰ্বন"
+      },
+      {
+        "en": "copper and tin",
+        "as": "তাম আৰু টিন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Fuse wire is made of a tin-lead alloy.",
+      "as": "ফিউজ তাঁৰ টিন-সীহ সংকৰ ধাতুৰে তৈয়াৰী।"
+    }
+  },
+  {
+    "id": "general-science-035",
+    "q": {
+      "en": "Which of the following is a good conductor of electricity?",
+      "as": "তলৰ কোনটো বিদ্যুৎৰ উত্তম পৰিবাহী?"
+    },
+    "options": [
+      {
+        "en": "Rubber",
+        "as": "ৰবৰ"
+      },
+      {
+        "en": "Copper",
+        "as": "তাম"
+      },
+      {
+        "en": "Wood",
+        "as": "কাঠ"
+      },
+      {
+        "en": "Plastic",
+        "as": "প্লাষ্টিক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Copper is a good conductor of electricity.",
+      "as": "তাম বিদ্যুৎৰ উত্তম পৰিবাহী।"
+    }
+  },
+  {
+    "id": "general-science-036",
+    "q": {
+      "en": "Which of the following is an insulator?",
+      "as": "তলৰ কোনটো অৱৰোধক?"
+    },
+    "options": [
+      {
+        "en": "Aluminium",
+        "as": "এলুমিনিয়াম"
+      },
+      {
+        "en": "Copper",
+        "as": "তাম"
+      },
+      {
+        "en": "Rubber",
+        "as": "ৰবৰ"
+      },
+      {
+        "en": "Silver",
+        "as": "ৰূপ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rubber does not conduct electricity.",
+      "as": "ৰবৰে বিদ্যুৎ পৰিবাহ কৰিব নোৱাৰে।"
+    }
+  },
+  {
+    "id": "general-science-037",
+    "q": {
+      "en": "A device that converts mechanical energy into electrical energy is a —",
+      "as": "যান্ত্ৰিক শক্তিক বিদ্যুৎ শক্তিলৈ ৰূপান্তৰ কৰা যন্ত্ৰ কি —"
+    },
+    "options": [
+      {
+        "en": "Battery",
+        "as": "বেটেৰী"
+      },
+      {
+        "en": "Motor",
+        "as": "মটৰ"
+      },
+      {
+        "en": "Transformer",
+        "as": "ট্ৰান্সফৰ্মাৰ"
+      },
+      {
+        "en": "Generator",
+        "as": "জেনেৰেটৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A generator converts mechanical energy to electrical energy.",
+      "as": "জেনেৰেটৰে যান্ত্ৰিক শক্তিক বিদ্যুৎ শক্তিলৈ ৰূপান্তৰ কৰে।"
+    }
+  },
+  {
+    "id": "general-science-038",
+    "q": {
+      "en": "A device that converts electrical energy into mechanical energy is a —",
+      "as": "বিদ্যুৎ শক্তিক যান্ত্ৰিক শক্তিলৈ ৰূপান্তৰ কৰা যন্ত্ৰ কি —"
+    },
+    "options": [
+      {
+        "en": "Rectifier",
+        "as": "ৰেক্টিফায়াৰ"
+      },
+      {
+        "en": "Generator",
+        "as": "জেনেৰেটৰ"
+      },
+      {
+        "en": "Transformer",
+        "as": "ট্ৰান্সফৰ্মাৰ"
+      },
+      {
+        "en": "Electric motor",
+        "as": "বিদ্যুৎ মটৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An electric motor converts electrical energy to mechanical energy.",
+      "as": "বিদ্যুৎ মটৰে বিদ্যুৎ শক্তিক যান্ত্ৰিক শক্তিলৈ ৰূপান্তৰ কৰে।"
+    }
+  },
+  {
+    "id": "general-science-039",
+    "q": {
+      "en": "The earth wire in an electric circuit is used for —",
+      "as": "বিদ্যুৎ বৰ্তনীত আৰ্থ ৱায়াৰ কিৰ বাবে ব্যৱহাৰ হয় —"
+    },
+    "options": [
+      {
+        "en": "increasing current",
+        "as": "প্ৰৱাহ বৃদ্ধি"
+      },
+      {
+        "en": "safety",
+        "as": "সুৰক্ষা"
+      },
+      {
+        "en": "decreasing voltage",
+        "as": "ভল্টেজ হ্ৰাস"
+      },
+      {
+        "en": "storing charge",
+        "as": "আধান সঞ্চয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The earth wire provides safety from electric shock.",
+      "as": "আৰ্থ ৱায়াৰে বিদ্যুৎ আঘাতৰপৰা সুৰক্ষা দিয়ে।"
+    }
+  },
+  {
+    "id": "general-science-040",
+    "q": {
+      "en": "The SI unit of electric charge is —",
+      "as": "বিদ্যুৎ আধানৰ এছ আই একক কি —"
+    },
+    "options": [
+      {
+        "en": "Ohm",
+        "as": "ওহম"
+      },
+      {
+        "en": "Ampere",
+        "as": "এম্পিয়াৰ"
+      },
+      {
+        "en": "Volt",
+        "as": "ভল্ট"
+      },
+      {
+        "en": "Coulomb",
+        "as": "কুলম্ব"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Electric charge is measured in coulombs.",
+      "as": "বিদ্যুৎ আধান কুলম্বত জোখা হয়।"
+    }
+  },
+  {
+    "id": "general-science-041",
+    "q": {
+      "en": "Ohm's law states that —",
+      "as": "ওহমৰ সূত্ৰত কোৱা হৈছে —"
+    },
+    "options": [
+      {
+        "en": "V = IR",
+        "as": "V = IR"
+      },
+      {
+        "en": "V = I/R",
+        "as": "V = I/R"
+      },
+      {
+        "en": "I = VR",
+        "as": "I = VR"
+      },
+      {
+        "en": "R = VI",
+        "as": "R = VI"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ohm's law: Voltage = Current x Resistance.",
+      "as": "ওহমৰ সূত্ৰ: ভল্টেজ = প্ৰৱাহ x ৰোধ।"
+    }
+  },
+  {
+    "id": "general-science-042",
+    "q": {
+      "en": "Electric current is measured using an —",
+      "as": "বিদ্যুৎ প্ৰৱাহ জোখা হয় কাৰ দ্বাৰা —"
+    },
+    "options": [
+      {
+        "en": "Voltmeter",
+        "as": "ভল্টমিটাৰ"
+      },
+      {
+        "en": "Ammeter",
+        "as": "এমিটাৰ"
+      },
+      {
+        "en": "Barometer",
+        "as": "বেৰ'মিটাৰ"
+      },
+      {
+        "en": "Thermometer",
+        "as": "থাৰ্ম'মিটাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An ammeter measures electric current.",
+      "as": "এমিটাৰে বিদ্যুৎ প্ৰৱাহ জোখে।"
+    }
+  },
+  {
+    "id": "general-science-043",
+    "q": {
+      "en": "Potential difference is measured using a —",
+      "as": "বিভৱ পাৰ্থক্য জোখা হয় কাৰ দ্বাৰা —"
+    },
+    "options": [
+      {
+        "en": "Voltmeter",
+        "as": "ভল্টমিটাৰ"
+      },
+      {
+        "en": "Ammeter",
+        "as": "এমিটাৰ"
+      },
+      {
+        "en": "Galvanometer",
+        "as": "গেলভান'মিটাৰ"
+      },
+      {
+        "en": "Multimeter only",
+        "as": "কেৱল মাল্টিমিটাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A voltmeter measures potential difference.",
+      "as": "ভল্টমিটাৰে বিভৱ পাৰ্থক্য জোখে।"
+    }
+  },
+  {
+    "id": "general-science-044",
+    "q": {
+      "en": "A magnet attracts —",
+      "as": "চুম্বকে কি আকৰ্ষণ কৰে —"
+    },
+    "options": [
+      {
+        "en": "Plastic",
+        "as": "প্লাষ্টিক"
+      },
+      {
+        "en": "Copper",
+        "as": "তাম"
+      },
+      {
+        "en": "Wood",
+        "as": "কাঠ"
+      },
+      {
+        "en": "Iron",
+        "as": "লো"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Magnets attract magnetic materials like iron.",
+      "as": "চুম্বকে লোৰ দৰে চুম্বকীয় পদাৰ্থ আকৰ্ষণ কৰে।"
+    }
+  },
+  {
+    "id": "general-science-045",
+    "q": {
+      "en": "A freely suspended bar magnet always points towards —",
+      "as": "মুক্তভাৱে ওলমাই ৰখা চুম্বক শিলা সদায় কি দিশলৈ মুখ কৰে —"
+    },
+    "options": [
+      {
+        "en": "south-west",
+        "as": "দক্ষিণ-পশ্চিম"
+      },
+      {
+        "en": "east-west",
+        "as": "পূব-পশ্চিম"
+      },
+      {
+        "en": "north-east",
+        "as": "উত্তৰ-পূব"
+      },
+      {
+        "en": "north-south",
+        "as": "উত্তৰ-দক্ষিণ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A freely suspended magnet aligns north-south.",
+      "as": "মুক্তভাৱে ওলমোৱা চুম্বক উত্তৰ-দক্ষিণ দিশত থাকে।"
+    }
+  },
+  {
+    "id": "general-science-046",
+    "q": {
+      "en": "An electric bell works on the —",
+      "as": "বিদ্যুৎ ঘণ্টা কি নীতিত কাম কৰে —"
+    },
+    "options": [
+      {
+        "en": "chemical effect of current",
+        "as": "প্ৰৱাহৰ ৰাসায়নিক প্ৰভাৱ"
+      },
+      {
+        "en": "heating effect of current",
+        "as": "প্ৰৱাহৰ তাপীয় প্ৰভাৱ"
+      },
+      {
+        "en": "magnetic effect of current",
+        "as": "প্ৰৱাহৰ চুম্বকীয় প্ৰভাৱ"
+      },
+      {
+        "en": "light effect of current",
+        "as": "প্ৰৱাহৰ পোহৰ প্ৰভাৱ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An electric bell uses the magnetic effect of current.",
+      "as": "বিদ্যুৎ ঘণ্টাই প্ৰৱাহৰ চুম্বকীয় প্ৰভাৱ ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "general-science-047",
+    "q": {
+      "en": "Heat transfer in liquids mainly takes place by —",
+      "as": "তৰল পদাৰ্থত তাপ স্থানান্তৰণ মূলতঃ কিৰ দ্বাৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "Convection",
+        "as": "পৰিচলন"
+      },
+      {
+        "en": "Conduction",
+        "as": "পৰিবাহন"
+      },
+      {
+        "en": "Radiation",
+        "as": "বিকিৰণ"
+      },
+      {
+        "en": "Evaporation",
+        "as": "বাষ্পীভৱন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Liquids transfer heat mainly by convection.",
+      "as": "তৰলে মূলতঃ পৰিচলনৰ দ্বাৰা তাপ স্থানান্তৰ কৰে।"
+    }
+  },
+  {
+    "id": "general-science-048",
+    "q": {
+      "en": "Heat from the Sun reaches the Earth by —",
+      "as": "সূৰ্যৰ তাপে পৃথিৱীত কিৰ দ্বাৰা উপনীত হয় —"
+    },
+    "options": [
+      {
+        "en": "Induction",
+        "as": "আৱেশ"
+      },
+      {
+        "en": "Conduction",
+        "as": "পৰিবাহন"
+      },
+      {
+        "en": "Convection",
+        "as": "পৰিচলন"
+      },
+      {
+        "en": "Radiation",
+        "as": "বিকিৰণ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Heat reaches the Earth by radiation.",
+      "as": "তাপ বিকিৰণৰ দ্বাৰা পৃথিৱীত উপনীত হয়।"
+    }
+  },
+  {
+    "id": "general-science-049",
+    "q": {
+      "en": "The SI unit of heat is —",
+      "as": "তাপৰ এছ আই একক কি —"
+    },
+    "options": [
+      {
+        "en": "Watt",
+        "as": "ৱাট"
+      },
+      {
+        "en": "Newton",
+        "as": "নিউটন"
+      },
+      {
+        "en": "Joule",
+        "as": "জুল"
+      },
+      {
+        "en": "Pascal",
+        "as": "পাস্কেল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The SI unit of heat is the joule.",
+      "as": "তাপৰ এছ আই একক হৈছে জুল।"
+    }
+  },
+  {
+    "id": "general-science-050",
+    "q": {
+      "en": "One horsepower is approximately equal to —",
+      "as": "এক অশ্বশক্তি প্ৰায় কিৰ সমান —"
+    },
+    "options": [
+      {
+        "en": "1000 watts",
+        "as": "১০০০ ৱাট"
+      },
+      {
+        "en": "100 watts",
+        "as": "১০০ ৱাট"
+      },
+      {
+        "en": "746 watts",
+        "as": "৭৪৬ ৱাট"
+      },
+      {
+        "en": "500 watts",
+        "as": "৫০০ ৱাট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One horsepower is about 746 watts.",
+      "as": "এক অশ্বশক্তি প্ৰায় ৭৪৬ ৱাট।"
+    }
+  },
+  {
+    "id": "general-science-051",
+    "q": {
+      "en": "The branch of science that deals with the study of matter is —",
+      "as": "পদাৰ্থৰ অধ্যয়ন কৰা বিজ্ঞানৰ শাখাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Geology",
+        "as": "ভূতত্ত্ব"
+      },
+      {
+        "en": "Physics",
+        "as": "পদাৰ্থ বিজ্ঞান"
+      },
+      {
+        "en": "Biology",
+        "as": "জীৱ বিজ্ঞান"
+      },
+      {
+        "en": "Chemistry",
+        "as": "ৰসায়ন বিজ্ঞান"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Chemistry is the study of matter and its changes.",
+      "as": "ৰসায়ন বিজ্ঞান হৈছে পদাৰ্থ আৰু ইয়াৰ পৰিৱৰ্তনৰ অধ্যয়ন।"
+    }
+  },
+  {
+    "id": "general-science-052",
+    "q": {
+      "en": "The smallest particle of an element is —",
+      "as": "মৌলৰ আটাইতকৈ সৰু কণিকা কি —"
+    },
+    "options": [
+      {
+        "en": "Molecule",
+        "as": "অণু"
+      },
+      {
+        "en": "Atom",
+        "as": "পৰমাণু"
+      },
+      {
+        "en": "Electron",
+        "as": "ইলেক্ট্ৰন"
+      },
+      {
+        "en": "Ion",
+        "as": "আয়ন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An atom is the smallest particle of an element.",
+      "as": "পৰমাণু হৈছে মৌলৰ আটাইতকৈ সৰু কণিকা।"
+    }
+  },
+  {
+    "id": "general-science-053",
+    "q": {
+      "en": "The nucleus of an atom contains —",
+      "as": "পৰমাণুৰ নিউক্লিয়াছত কি থাকে —"
+    },
+    "options": [
+      {
+        "en": "electrons and neutrons",
+        "as": "ইলেক্ট্ৰন আৰু নিউট্ৰন"
+      },
+      {
+        "en": "protons and electrons",
+        "as": "প্ৰ'টন আৰু ইলেক্ট্ৰন"
+      },
+      {
+        "en": "protons and neutrons",
+        "as": "প্ৰ'টন আৰু নিউট্ৰন"
+      },
+      {
+        "en": "only electrons",
+        "as": "কেৱল ইলেক্ট্ৰন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The nucleus contains protons and neutrons.",
+      "as": "নিউক্লিয়াছত প্ৰ'টন আৰু নিউট্ৰন থাকে।"
+    }
+  },
+  {
+    "id": "general-science-054",
+    "q": {
+      "en": "The charge of an electron is —",
+      "as": "ইলেক্ট্ৰনৰ আধান কি —"
+    },
+    "options": [
+      {
+        "en": "Negative",
+        "as": "ঋণাত্মক"
+      },
+      {
+        "en": "Positive",
+        "as": "ধনাত্মক"
+      },
+      {
+        "en": "Neutral",
+        "as": "প্ৰশম"
+      },
+      {
+        "en": "Both positive and negative",
+        "as": "ধনাত্মক আৰু ঋণাত্মক দুয়ো"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An electron carries a negative charge.",
+      "as": "ইলেক্ট্ৰনে ঋণাত্মক আধান বহন কৰে।"
+    }
+  },
+  {
+    "id": "general-science-055",
+    "q": {
+      "en": "The charge of a proton is —",
+      "as": "প্ৰ'টনৰ আধান কি —"
+    },
+    "options": [
+      {
+        "en": "Negative",
+        "as": "ঋণাত্মক"
+      },
+      {
+        "en": "Positive",
+        "as": "ধনাত্মক"
+      },
+      {
+        "en": "Neutral",
+        "as": "প্ৰশম"
+      },
+      {
+        "en": "Zero",
+        "as": "শূন্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A proton carries a positive charge.",
+      "as": "প্ৰ'টনে ধনাত্মক আধান বহন কৰে।"
+    }
+  },
+  {
+    "id": "general-science-056",
+    "q": {
+      "en": "A neutron carries —",
+      "as": "নিউট্ৰনে কি আধান বহন কৰে —"
+    },
+    "options": [
+      {
+        "en": "double charge",
+        "as": "দুগুণ আধান"
+      },
+      {
+        "en": "positive charge",
+        "as": "ধনাত্মক আধান"
+      },
+      {
+        "en": "negative charge",
+        "as": "ঋণাত্মক আধান"
+      },
+      {
+        "en": "no charge",
+        "as": "কোনো আধান নাই"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A neutron is electrically neutral.",
+      "as": "নিউট্ৰন বিদ্যুৎ নিৰপেক্ষ।"
+    }
+  },
+  {
+    "id": "general-science-057",
+    "q": {
+      "en": "The atomic number of an element is equal to the number of —",
+      "as": "মৌলৰ পাৰমাণৱিক সংখ্যা কিৰ সমান —"
+    },
+    "options": [
+      {
+        "en": "electrons plus neutrons",
+        "as": "ইলেক্ট্ৰন যোগ নিউট্ৰন"
+      },
+      {
+        "en": "neutrons",
+        "as": "নিউট্ৰন"
+      },
+      {
+        "en": "protons",
+        "as": "প্ৰ'টন"
+      },
+      {
+        "en": "molecules",
+        "as": "অণু"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Atomic number equals the number of protons.",
+      "as": "পাৰমাণৱিক সংখ্যা প্ৰ'টনৰ সংখ্যাৰ সমান।"
+    }
+  },
+  {
+    "id": "general-science-058",
+    "q": {
+      "en": "The chemical symbol of gold is —",
+      "as": "সোণৰ ৰাসায়নিক সংকেত কি —"
+    },
+    "options": [
+      {
+        "en": "Au",
+        "as": "Au"
+      },
+      {
+        "en": "Ag",
+        "as": "Ag"
+      },
+      {
+        "en": "Gd",
+        "as": "Gd"
+      },
+      {
+        "en": "Go",
+        "as": "Go"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The symbol of gold is Au (from aurum).",
+      "as": "সোণৰ সংকেত Au (aurum ৰপৰা)।"
+    }
+  },
+  {
+    "id": "general-science-059",
+    "q": {
+      "en": "The chemical symbol of sodium is —",
+      "as": "ছডিয়ামৰ ৰাসায়নিক সংকেত কি —"
+    },
+    "options": [
+      {
+        "en": "So",
+        "as": "So"
+      },
+      {
+        "en": "Na",
+        "as": "Na"
+      },
+      {
+        "en": "Sd",
+        "as": "Sd"
+      },
+      {
+        "en": "Sn",
+        "as": "Sn"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The symbol of sodium is Na (from natrium).",
+      "as": "ছডিয়ামৰ সংকেত Na (natrium ৰপৰা)।"
+    }
+  },
+  {
+    "id": "general-science-060",
+    "q": {
+      "en": "The chemical symbol of iron is —",
+      "as": "লোৰ ৰাসায়নিক সংকেত কি —"
+    },
+    "options": [
+      {
+        "en": "Fe",
+        "as": "Fe"
+      },
+      {
+        "en": "Ir",
+        "as": "Ir"
+      },
+      {
+        "en": "In",
+        "as": "In"
+      },
+      {
+        "en": "Fr",
+        "as": "Fr"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The symbol of iron is Fe (from ferrum).",
+      "as": "লোৰ সংকেত Fe (ferrum ৰপৰা)।"
+    }
+  },
+  {
+    "id": "general-science-061",
+    "q": {
+      "en": "The chemical formula of water is —",
+      "as": "পানীৰ ৰাসায়নিক সংকেত কি —"
+    },
+    "options": [
+      {
+        "en": "CO2",
+        "as": "CO2"
+      },
+      {
+        "en": "H2O",
+        "as": "H2O"
+      },
+      {
+        "en": "O2",
+        "as": "O2"
+      },
+      {
+        "en": "H2O2",
+        "as": "H2O2"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Water is H2O.",
+      "as": "পানী হৈছে H2O।"
+    }
+  },
+  {
+    "id": "general-science-062",
+    "q": {
+      "en": "The chemical formula of common salt is —",
+      "as": "সাধাৰণ নিমখৰ ৰাসায়নিক সংকেত কি —"
+    },
+    "options": [
+      {
+        "en": "Na2CO3",
+        "as": "Na2CO3"
+      },
+      {
+        "en": "KCl",
+        "as": "KCl"
+      },
+      {
+        "en": "CaCl2",
+        "as": "CaCl2"
+      },
+      {
+        "en": "NaCl",
+        "as": "NaCl"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Common salt is sodium chloride (NaCl).",
+      "as": "সাধাৰণ নিমখ হৈছে ছডিয়াম ক্লৰাইড (NaCl)।"
+    }
+  },
+  {
+    "id": "general-science-063",
+    "q": {
+      "en": "The chemical formula of carbon dioxide is —",
+      "as": "কাৰ্বন ডাই অক্সাইডৰ ৰাসায়নিক সংকেত কি —"
+    },
+    "options": [
+      {
+        "en": "CO2",
+        "as": "CO2"
+      },
+      {
+        "en": "CO",
+        "as": "CO"
+      },
+      {
+        "en": "C2O",
+        "as": "C2O"
+      },
+      {
+        "en": "O2",
+        "as": "O2"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Carbon dioxide is CO2.",
+      "as": "কাৰ্বন ডাই অক্সাইড হৈছে CO2।"
+    }
+  },
+  {
+    "id": "general-science-064",
+    "q": {
+      "en": "The gas essential for combustion is —",
+      "as": "দহনৰ বাবে প্ৰয়োজনীয় গেছ কি —"
+    },
+    "options": [
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰ'জেন"
+      },
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Hydrogen",
+        "as": "হাইড্ৰ'জেন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Combustion requires oxygen.",
+      "as": "দহনৰ বাবে অক্সিজেনৰ প্ৰয়োজন।"
+    }
+  },
+  {
+    "id": "general-science-065",
+    "q": {
+      "en": "The gas absorbed by plants during photosynthesis is —",
+      "as": "সালোক সংশ্লেষণত উদ্ভিদে কোন গেছ শোষণ কৰে —"
+    },
+    "options": [
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰ'জেন"
+      },
+      {
+        "en": "Hydrogen",
+        "as": "হাইড্ৰ'জেন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Plants absorb CO2 for photosynthesis.",
+      "as": "উদ্ভিদে সালোক সংশ্লেষণৰ বাবে CO2 শোষণ কৰে।"
+    }
+  },
+  {
+    "id": "general-science-066",
+    "q": {
+      "en": "The most abundant gas in the Earth's atmosphere is —",
+      "as": "পৃথিৱীৰ বায়ুমণ্ডলত আটাইতকৈ বেছি পোৱা গেছ কি —"
+    },
+    "options": [
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰ'জেন"
+      },
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Argon",
+        "as": "আৰ্গন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Nitrogen makes up about 78% of the atmosphere.",
+      "as": "নাইট্ৰ'জেনে বায়ুমণ্ডলৰ প্ৰায় ৭৮% গঠন কৰে।"
+    }
+  },
+  {
+    "id": "general-science-067",
+    "q": {
+      "en": "The gas used to fill balloons that float in air is —",
+      "as": "বায়ুত ওপঙি থকা বেলুন ভৰাবলৈ কোন গেছ ব্যৱহাৰ কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      },
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰ'জেন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Helium is lighter than air.",
+      "as": "হিলিয়াম বায়ুতকৈ পাতল।"
+    }
+  },
+  {
+    "id": "general-science-068",
+    "q": {
+      "en": "Laughing gas is —",
+      "as": "হাঁহিৰ গেছ কি —"
+    },
+    "options": [
+      {
+        "en": "Nitrous oxide",
+        "as": "নাইট্ৰাছ অক্সাইড"
+      },
+      {
+        "en": "Nitric oxide",
+        "as": "নাইট্ৰিক অক্সাইড"
+      },
+      {
+        "en": "Carbon monoxide",
+        "as": "কাৰ্বন মনোক্সাইড"
+      },
+      {
+        "en": "Sulphur dioxide",
+        "as": "ছালফাৰ ডাই অক্সাইড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Nitrous oxide (N2O) is called laughing gas.",
+      "as": "নাইট্ৰাছ অক্সাইড (N2O) ক হাঁহিৰ গেছ বোলা হয়।"
+    }
+  },
+  {
+    "id": "general-science-069",
+    "q": {
+      "en": "Baking soda is chemically known as —",
+      "as": "বেকিং ছ'ডা ৰাসায়নিকভাৱে কি নামেৰে জনা যায় —"
+    },
+    "options": [
+      {
+        "en": "Sodium chloride",
+        "as": "ছডিয়াম ক্লৰাইড"
+      },
+      {
+        "en": "Sodium carbonate",
+        "as": "ছডিয়াম কাৰ্বনেট"
+      },
+      {
+        "en": "Calcium carbonate",
+        "as": "কেলচিয়াম কাৰ্বনেট"
+      },
+      {
+        "en": "Sodium bicarbonate",
+        "as": "ছডিয়াম বাইকাৰ্বনেট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Baking soda is sodium bicarbonate (NaHCO3).",
+      "as": "বেকিং ছ'ডা হৈছে ছডিয়াম বাইকাৰ্বনেট (NaHCO3)।"
+    }
+  },
+  {
+    "id": "general-science-070",
+    "q": {
+      "en": "Washing soda is chemically known as —",
+      "as": "ৱাছিং ছ'ডা ৰাসায়নিকভাৱে কি নামেৰে জনা যায় —"
+    },
+    "options": [
+      {
+        "en": "Sodium bicarbonate",
+        "as": "ছডিয়াম বাইকাৰ্বনেট"
+      },
+      {
+        "en": "Sodium carbonate",
+        "as": "ছডিয়াম কাৰ্বনেট"
+      },
+      {
+        "en": "Calcium oxide",
+        "as": "কেলচিয়াম অক্সাইড"
+      },
+      {
+        "en": "Sodium chloride",
+        "as": "ছডিয়াম ক্লৰাইড"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Washing soda is sodium carbonate (Na2CO3).",
+      "as": "ৱাছিং ছ'ডা হৈছে ছডিয়াম কাৰ্বনেট (Na2CO3)।"
+    }
+  },
+  {
+    "id": "general-science-071",
+    "q": {
+      "en": "Plaster of Paris is chemically —",
+      "as": "প্লাষ্টাৰ অফ পেৰিছ ৰাসায়নিকভাৱে কি —"
+    },
+    "options": [
+      {
+        "en": "sodium sulphate",
+        "as": "ছডিয়াম ছালফেট"
+      },
+      {
+        "en": "calcium carbonate",
+        "as": "কেলচিয়াম কাৰ্বনেট"
+      },
+      {
+        "en": "calcium oxide",
+        "as": "কেলচিয়াম অক্সাইড"
+      },
+      {
+        "en": "calcium sulphate",
+        "as": "কেলচিয়াম ছালফেট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Plaster of Paris is hydrated calcium sulphate.",
+      "as": "প্লাষ্টাৰ অফ পেৰিছ হৈছে জলযোজিত কেলচিয়াম ছালফেট।"
+    }
+  },
+  {
+    "id": "general-science-072",
+    "q": {
+      "en": "Quick lime is —",
+      "as": "কুইক লাইম কি —"
+    },
+    "options": [
+      {
+        "en": "Calcium sulphate",
+        "as": "কেলচিয়াম ছালফেট"
+      },
+      {
+        "en": "Calcium carbonate",
+        "as": "কেলচিয়াম কাৰ্বনেট"
+      },
+      {
+        "en": "Calcium hydroxide",
+        "as": "কেলচিয়াম হাইড্ৰ'ক্সাইড"
+      },
+      {
+        "en": "Calcium oxide",
+        "as": "কেলচিয়াম অক্সাইড"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Quick lime is calcium oxide (CaO).",
+      "as": "কুইক লাইম হৈছে কেলচিয়াম অক্সাইড (CaO)।"
+    }
+  },
+  {
+    "id": "general-science-073",
+    "q": {
+      "en": "The pH value of a neutral solution is —",
+      "as": "প্ৰশম দ্ৰৱৰ pH মান কি —"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A neutral solution has a pH of 7.",
+      "as": "প্ৰশম দ্ৰৱৰ pH হৈছে ৭।"
+    }
+  },
+  {
+    "id": "general-science-074",
+    "q": {
+      "en": "An acid turns blue litmus paper —",
+      "as": "এচিডে নীলা লিটমাছ কাগজক কি ৰং কৰে —"
+    },
+    "options": [
+      {
+        "en": "colourless",
+        "as": "বৰণহীন"
+      },
+      {
+        "en": "blue",
+        "as": "নীলা"
+      },
+      {
+        "en": "green",
+        "as": "সেউজীয়া"
+      },
+      {
+        "en": "red",
+        "as": "ৰঙা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Acids turn blue litmus red.",
+      "as": "এচিডে নীলা লিটমাছক ৰঙা কৰে।"
+    }
+  },
+  {
+    "id": "general-science-075",
+    "q": {
+      "en": "A base turns red litmus paper —",
+      "as": "ক্ষাৰকে ৰঙা লিটমাছ কাগজক কি ৰং কৰে —"
+    },
+    "options": [
+      {
+        "en": "red",
+        "as": "ৰঙা"
+      },
+      {
+        "en": "blue",
+        "as": "নীলা"
+      },
+      {
+        "en": "yellow",
+        "as": "হালধীয়া"
+      },
+      {
+        "en": "black",
+        "as": "ক'লা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bases turn red litmus blue.",
+      "as": "ক্ষাৰকে ৰঙা লিটমাছক নীলা কৰে।"
+    }
+  },
+  {
+    "id": "general-science-076",
+    "q": {
+      "en": "The acid present in lemon is —",
+      "as": "নেমুৱে থকা এচিড কি —"
+    },
+    "options": [
+      {
+        "en": "Lactic acid",
+        "as": "লেক্টিক এচিড"
+      },
+      {
+        "en": "Acetic acid",
+        "as": "এচিটিক এচিড"
+      },
+      {
+        "en": "Citric acid",
+        "as": "চিট্ৰিক এচিড"
+      },
+      {
+        "en": "Nitric acid",
+        "as": "নাইট্ৰিক এচিড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Lemon contains citric acid.",
+      "as": "নেমুৱে চিট্ৰিক এচিড থাকে।"
+    }
+  },
+  {
+    "id": "general-science-077",
+    "q": {
+      "en": "The acid present in vinegar is —",
+      "as": "ভিনিগাৰত থকা এচিড কি —"
+    },
+    "options": [
+      {
+        "en": "Citric acid",
+        "as": "চিট্ৰিক এচিড"
+      },
+      {
+        "en": "Acetic acid",
+        "as": "এচিটিক এচিড"
+      },
+      {
+        "en": "Lactic acid",
+        "as": "লেক্টিক এচিড"
+      },
+      {
+        "en": "Sulphuric acid",
+        "as": "ছালফিউৰিক এচিড"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Vinegar contains acetic acid.",
+      "as": "ভিনিগাৰত এচিটিক এচিড থাকে।"
+    }
+  },
+  {
+    "id": "general-science-078",
+    "q": {
+      "en": "The acid present in the human stomach is —",
+      "as": "মানুহৰ পেটত থকা এচিড কি —"
+    },
+    "options": [
+      {
+        "en": "Citric acid",
+        "as": "চিট্ৰিক এচিড"
+      },
+      {
+        "en": "Sulphuric acid",
+        "as": "ছালফিউৰিক এচিড"
+      },
+      {
+        "en": "Hydrochloric acid",
+        "as": "হাইড্ৰ'ক্লৰিক এচিড"
+      },
+      {
+        "en": "Acetic acid",
+        "as": "এচিটিক এচিড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The stomach contains hydrochloric acid.",
+      "as": "পেটত হাইড্ৰ'ক্লৰিক এচিড থাকে।"
+    }
+  },
+  {
+    "id": "general-science-079",
+    "q": {
+      "en": "The acid present in curd is —",
+      "as": "দৈত থকা এচিড কি —"
+    },
+    "options": [
+      {
+        "en": "Formic acid",
+        "as": "ফৰ্মিক এচিড"
+      },
+      {
+        "en": "Citric acid",
+        "as": "চিট্ৰিক এচিড"
+      },
+      {
+        "en": "Acetic acid",
+        "as": "এচিটিক এচিড"
+      },
+      {
+        "en": "Lactic acid",
+        "as": "লেক্টিক এচিড"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Curd contains lactic acid.",
+      "as": "দৈত লেক্টিক এচিড থাকে।"
+    }
+  },
+  {
+    "id": "general-science-080",
+    "q": {
+      "en": "The hardest naturally occurring substance is —",
+      "as": "প্ৰাকৃতিকভাৱে পোৱা আটাইতকৈ কঠিন পদাৰ্থ কি —"
+    },
+    "options": [
+      {
+        "en": "Diamond",
+        "as": "হীৰা"
+      },
+      {
+        "en": "Graphite",
+        "as": "গ্ৰেফাইট"
+      },
+      {
+        "en": "Iron",
+        "as": "লো"
+      },
+      {
+        "en": "Quartz",
+        "as": "কোৱাৰ্টজ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Diamond is the hardest natural substance.",
+      "as": "হীৰা হৈছে আটাইতকৈ কঠিন প্ৰাকৃতিক পদাৰ্থ।"
+    }
+  },
+  {
+    "id": "general-science-081",
+    "q": {
+      "en": "Graphite is a form of —",
+      "as": "গ্ৰেফাইট কিৰ এটা ৰূপ —"
+    },
+    "options": [
+      {
+        "en": "Calcium",
+        "as": "কেলচিয়াম"
+      },
+      {
+        "en": "Silicon",
+        "as": "ছিলিকন"
+      },
+      {
+        "en": "Sulphur",
+        "as": "ছালফাৰ"
+      },
+      {
+        "en": "Carbon",
+        "as": "কাৰ্বন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Graphite is an allotrope of carbon.",
+      "as": "গ্ৰেফাইট কাৰ্বনৰ এটা ৰূপভেদ।"
+    }
+  },
+  {
+    "id": "general-science-082",
+    "q": {
+      "en": "The metal that is liquid at room temperature is —",
+      "as": "সাধাৰণ উষ্ণতাত তৰল অৱস্থাত থকা ধাতু কি —"
+    },
+    "options": [
+      {
+        "en": "Iron",
+        "as": "লো"
+      },
+      {
+        "en": "Sodium",
+        "as": "ছডিয়াম"
+      },
+      {
+        "en": "Aluminium",
+        "as": "এলুমিনিয়াম"
+      },
+      {
+        "en": "Mercury",
+        "as": "পাদদেশ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mercury is liquid at room temperature.",
+      "as": "পাদদেশ সাধাৰণ উষ্ণতাত তৰল।"
+    }
+  },
+  {
+    "id": "general-science-083",
+    "q": {
+      "en": "The non-metal that is liquid at room temperature is —",
+      "as": "সাধাৰণ উষ্ণতাত তৰল অৱস্থাত থকা অধাতু কি —"
+    },
+    "options": [
+      {
+        "en": "Sulphur",
+        "as": "ছালফাৰ"
+      },
+      {
+        "en": "Iodine",
+        "as": "আয়'ডিন"
+      },
+      {
+        "en": "Chlorine",
+        "as": "ক্লৰিন"
+      },
+      {
+        "en": "Bromine",
+        "as": "ব্ৰমিন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bromine is a liquid non-metal.",
+      "as": "ব্ৰমিন এটা তৰল অধাতু।"
+    }
+  },
+  {
+    "id": "general-science-084",
+    "q": {
+      "en": "The lightest gas known is —",
+      "as": "জনা আটাইতকৈ পাতল গেছ কি —"
+    },
+    "options": [
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰ'জেন"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      },
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Hydrogen",
+        "as": "হাইড্ৰ'জেন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Hydrogen is the lightest gas.",
+      "as": "হাইড্ৰ'জেন আটাইতকৈ পাতল গেছ।"
+    }
+  },
+  {
+    "id": "general-science-085",
+    "q": {
+      "en": "The gas commonly used in fire extinguishers is —",
+      "as": "অগ্নি নিৰ্বাপকত সাধাৰণতে ব্যৱহাৰ হোৱা গেছ কি —"
+    },
+    "options": [
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰ'জেন"
+      },
+      {
+        "en": "Hydrogen",
+        "as": "হাইড্ৰ'জেন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Carbon dioxide is used to extinguish fires.",
+      "as": "অগ্নি নিৰ্বাপন কৰিবলৈ কাৰ্বন ডাই অক্সাইড ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "general-science-086",
+    "q": {
+      "en": "The main constituent of LPG is —",
+      "as": "এলপিজিৰ মূল উপাদান কি —"
+    },
+    "options": [
+      {
+        "en": "Methane",
+        "as": "মিথেন"
+      },
+      {
+        "en": "Butane",
+        "as": "বিউটেন"
+      },
+      {
+        "en": "Ethane",
+        "as": "ইথেন"
+      },
+      {
+        "en": "Hydrogen",
+        "as": "হাইড্ৰ'জেন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LPG mainly contains butane and propane.",
+      "as": "এলপিজিত মূলতঃ বিউটেন আৰু প্ৰ'পেন থাকে।"
+    }
+  },
+  {
+    "id": "general-science-087",
+    "q": {
+      "en": "The main constituent of CNG is —",
+      "as": "চিএনজিৰ মূল উপাদান কি —"
+    },
+    "options": [
+      {
+        "en": "Propane",
+        "as": "প্ৰ'পেন"
+      },
+      {
+        "en": "Butane",
+        "as": "বিউটেন"
+      },
+      {
+        "en": "Methane",
+        "as": "মিথেন"
+      },
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "CNG is mainly methane.",
+      "as": "চিএনজি মূলতঃ মিথেন।"
+    }
+  },
+  {
+    "id": "general-science-088",
+    "q": {
+      "en": "The chemical name of vitamin C is —",
+      "as": "ভিটামিন চিৰ ৰাসায়নিক নাম কি —"
+    },
+    "options": [
+      {
+        "en": "Citric acid",
+        "as": "চিট্ৰিক এচিড"
+      },
+      {
+        "en": "Ascorbic acid",
+        "as": "এছকৰ্বিক এচিড"
+      },
+      {
+        "en": "Lactic acid",
+        "as": "লেক্টিক এচিড"
+      },
+      {
+        "en": "Acetic acid",
+        "as": "এচিটিক এচিড"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Vitamin C is ascorbic acid.",
+      "as": "ভিটামিন চি হৈছে এছকৰ্বিক এচিড।"
+    }
+  },
+  {
+    "id": "general-science-089",
+    "q": {
+      "en": "Rusting of iron requires —",
+      "as": "লোত মামৰে ধৰাৰ বাবে কিৰ প্ৰয়োজন —"
+    },
+    "options": [
+      {
+        "en": "only oxygen",
+        "as": "কেৱল অক্সিজেন"
+      },
+      {
+        "en": "oxygen and moisture",
+        "as": "অক্সিজেন আৰু আৰ্দ্ৰতা"
+      },
+      {
+        "en": "only nitrogen",
+        "as": "কেৱল নাইট্ৰ'জেন"
+      },
+      {
+        "en": "carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Iron rusts in the presence of oxygen and moisture.",
+      "as": "অক্সিজেন আৰু আৰ্দ্ৰতাৰ উপস্থিতিত লোত মামৰ ধৰে।"
+    }
+  },
+  {
+    "id": "general-science-090",
+    "q": {
+      "en": "Galvanisation is the process of coating iron with —",
+      "as": "গেলভানাইজেশ্যনত লোৰ ওপৰত কিৰ প্ৰলেপ দিয়া হয় —"
+    },
+    "options": [
+      {
+        "en": "Silver",
+        "as": "ৰূপ"
+      },
+      {
+        "en": "Copper",
+        "as": "তাম"
+      },
+      {
+        "en": "Tin",
+        "as": "টিন"
+      },
+      {
+        "en": "Zinc",
+        "as": "দস্তা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Galvanisation coats iron with zinc to prevent rust.",
+      "as": "মামৰ প্ৰতিৰোধ কৰিবলৈ গেলভানাইজেশ্যনত লোত দস্তাৰ প্ৰলেপ দিয়া হয়।"
+    }
+  },
+  {
+    "id": "general-science-091",
+    "q": {
+      "en": "Brass is an alloy of —",
+      "as": "পিতল কিৰ সংকৰ ধাতু —"
+    },
+    "options": [
+      {
+        "en": "copper and tin",
+        "as": "তাম আৰু টিন"
+      },
+      {
+        "en": "copper and zinc",
+        "as": "তাম আৰু দস্তা"
+      },
+      {
+        "en": "iron and carbon",
+        "as": "লো আৰু কাৰ্বন"
+      },
+      {
+        "en": "lead and tin",
+        "as": "সীহ আৰু টিন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Brass is an alloy of copper and zinc.",
+      "as": "পিতল তাম আৰু দস্তাৰ সংকৰ ধাতু।"
+    }
+  },
+  {
+    "id": "general-science-092",
+    "q": {
+      "en": "Bronze is an alloy of —",
+      "as": "ব্ৰঞ্জ কিৰ সংকৰ ধাতু —"
+    },
+    "options": [
+      {
+        "en": "zinc and lead",
+        "as": "দস্তা আৰু সীহ"
+      },
+      {
+        "en": "copper and zinc",
+        "as": "তাম আৰু দস্তা"
+      },
+      {
+        "en": "iron and carbon",
+        "as": "লো আৰু কাৰ্বন"
+      },
+      {
+        "en": "copper and tin",
+        "as": "তাম আৰু টিন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bronze is an alloy of copper and tin.",
+      "as": "ব্ৰঞ্জ তাম আৰু টিনৰ সংকৰ ধাতু।"
+    }
+  },
+  {
+    "id": "general-science-093",
+    "q": {
+      "en": "Steel is an alloy of —",
+      "as": "ইস্পাত কিৰ সংকৰ ধাতু —"
+    },
+    "options": [
+      {
+        "en": "copper and zinc",
+        "as": "তাম আৰু দস্তা"
+      },
+      {
+        "en": "iron and carbon",
+        "as": "লো আৰু কাৰ্বন"
+      },
+      {
+        "en": "copper and tin",
+        "as": "তাম আৰু টিন"
+      },
+      {
+        "en": "iron and zinc",
+        "as": "লো আৰু দস্তা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Steel is an alloy of iron and carbon.",
+      "as": "ইস্পাত লো আৰু কাৰ্বনৰ সংকৰ ধাতু।"
+    }
+  },
+  {
+    "id": "general-science-094",
+    "q": {
+      "en": "Which of the following is a noble gas?",
+      "as": "তলৰ কোনটো নিষ্ক্ৰিয় গেছ?"
+    },
+    "options": [
+      {
+        "en": "Argon",
+        "as": "আৰ্গন"
+      },
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰ'জেন"
+      },
+      {
+        "en": "Hydrogen",
+        "as": "হাইড্ৰ'জেন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Argon is a noble (inert) gas.",
+      "as": "আৰ্গন এটা নিষ্ক্ৰিয় গেছ।"
+    }
+  },
+  {
+    "id": "general-science-095",
+    "q": {
+      "en": "The atomic number of hydrogen is —",
+      "as": "হাইড্ৰ'জেনৰ পাৰমাণৱিক সংখ্যা কি —"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hydrogen has atomic number 1.",
+      "as": "হাইড্ৰ'জেনৰ পাৰমাণৱিক সংখ্যা ১।"
+    }
+  },
+  {
+    "id": "general-science-096",
+    "q": {
+      "en": "Water is composed of —",
+      "as": "পানী কিৰে গঠিত —"
+    },
+    "options": [
+      {
+        "en": "hydrogen and oxygen",
+        "as": "হাইড্ৰ'জেন আৰু অক্সিজেন"
+      },
+      {
+        "en": "hydrogen and nitrogen",
+        "as": "হাইড্ৰ'জেন আৰু নাইট্ৰ'জেন"
+      },
+      {
+        "en": "oxygen and nitrogen",
+        "as": "অক্সিজেন আৰু নাইট্ৰ'জেন"
+      },
+      {
+        "en": "carbon and oxygen",
+        "as": "কাৰ্বন আৰু অক্সিজেন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Water is made of hydrogen and oxygen.",
+      "as": "পানী হাইড্ৰ'জেন আৰু অক্সিজেনেৰে গঠিত।"
+    }
+  },
+  {
+    "id": "general-science-097",
+    "q": {
+      "en": "The change of water into vapour is called —",
+      "as": "পানী বাষ্পলৈ পৰিৱৰ্তন হোৱাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Condensation",
+        "as": "ঘনীভৱন"
+      },
+      {
+        "en": "Evaporation",
+        "as": "বাষ্পীভৱন"
+      },
+      {
+        "en": "Sublimation",
+        "as": "ঊৰ্ধ্বপাতন"
+      },
+      {
+        "en": "Filtration",
+        "as": "পৰিস্ৰাৱন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Water changes to vapour by evaporation.",
+      "as": "পানী বাষ্পীভৱনৰ দ্বাৰা বাষ্পলৈ পৰিৱৰ্তিত হয়।"
+    }
+  },
+  {
+    "id": "general-science-098",
+    "q": {
+      "en": "The change of vapour into water is called —",
+      "as": "বাষ্প পানীলৈ পৰিৱৰ্তন হোৱাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Condensation",
+        "as": "ঘনীভৱন"
+      },
+      {
+        "en": "Evaporation",
+        "as": "বাষ্পীভৱন"
+      },
+      {
+        "en": "Sublimation",
+        "as": "ঊৰ্ধ্বপাতন"
+      },
+      {
+        "en": "Melting",
+        "as": "গলন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Vapour changes to water by condensation.",
+      "as": "বাষ্প ঘনীভৱনৰ দ্বাৰা পানীলৈ পৰিৱৰ্তিত হয়।"
+    }
+  },
+  {
+    "id": "general-science-099",
+    "q": {
+      "en": "A substance that speeds up a chemical reaction without being consumed is called a —",
+      "as": "নিজে ব্যয় নহৈ ৰাসায়নিক বিক্ৰিয়াৰ গতি বঢ়োৱা পদাৰ্থক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Product",
+        "as": "উৎপাদ"
+      },
+      {
+        "en": "Reactant",
+        "as": "বিক্ৰিয়ক"
+      },
+      {
+        "en": "Catalyst",
+        "as": "অনুঘটক"
+      },
+      {
+        "en": "Solvent",
+        "as": "দ্ৰাৱক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Such a substance is called a catalyst.",
+      "as": "এনে পদাৰ্থক অনুঘটক বোলা হয়।"
+    }
+  },
+  {
+    "id": "general-science-100",
+    "q": {
+      "en": "The process in which a solid changes directly into gas is called —",
+      "as": "কঠিন পদাৰ্থ পোনপটীয়াকৈ গেছলৈ পৰিৱৰ্তন হোৱা প্ৰক্ৰিয়াক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Evaporation",
+        "as": "বাষ্পীভৱন"
+      },
+      {
+        "en": "Sublimation",
+        "as": "ঊৰ্ধ্বপাতন"
+      },
+      {
+        "en": "Condensation",
+        "as": "ঘনীভৱন"
+      },
+      {
+        "en": "Melting",
+        "as": "গলন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A solid changing directly to gas is called sublimation.",
+      "as": "কঠিন পদাৰ্থ পোনপটীয়াকৈ গেছলৈ সলনি হোৱাক ঊৰ্ধ্বপাতন বোলা হয়।"
+    }
+  },
+  {
+    "id": "general-science-101",
+    "q": {
+      "en": "The branch of science that studies living organisms is —",
+      "as": "জীৱিত জীৱৰ অধ্যয়ন কৰা বিজ্ঞানৰ শাখাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Geology",
+        "as": "ভূতত্ত্ব"
+      },
+      {
+        "en": "Physics",
+        "as": "পদাৰ্থ বিজ্ঞান"
+      },
+      {
+        "en": "Chemistry",
+        "as": "ৰসায়ন বিজ্ঞান"
+      },
+      {
+        "en": "Biology",
+        "as": "জীৱ বিজ্ঞান"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Biology is the study of living organisms.",
+      "as": "জীৱ বিজ্ঞান হৈছে জীৱিত জীৱৰ অধ্যয়ন।"
+    }
+  },
+  {
+    "id": "general-science-102",
+    "q": {
+      "en": "The basic structural and functional unit of life is the —",
+      "as": "জীৱনৰ মৌলিক গাঠনিক আৰু কাৰ্যকৰী একক কি —"
+    },
+    "options": [
+      {
+        "en": "Tissue",
+        "as": "কলা"
+      },
+      {
+        "en": "Cell",
+        "as": "কোষ"
+      },
+      {
+        "en": "Organ",
+        "as": "অংগ"
+      },
+      {
+        "en": "Molecule",
+        "as": "অণু"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The cell is the basic unit of life.",
+      "as": "কোষ হৈছে জীৱনৰ মৌলিক একক।"
+    }
+  },
+  {
+    "id": "general-science-103",
+    "q": {
+      "en": "The powerhouse of the cell is —",
+      "as": "কোষৰ শক্তি ঘৰ কি —"
+    },
+    "options": [
+      {
+        "en": "Chloroplast",
+        "as": "ক্ল'ৰ'প্লাষ্ট"
+      },
+      {
+        "en": "Nucleus",
+        "as": "নিউক্লিয়াছ"
+      },
+      {
+        "en": "Ribosome",
+        "as": "ৰাইব'ছ'ম"
+      },
+      {
+        "en": "Mitochondria",
+        "as": "মাইট'কণ্ড্ৰিয়া"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mitochondria produce energy for the cell.",
+      "as": "মাইট'কণ্ড্ৰিয়াই কোষৰ বাবে শক্তি উৎপাদন কৰে।"
+    }
+  },
+  {
+    "id": "general-science-104",
+    "q": {
+      "en": "The control centre of the cell is the —",
+      "as": "কোষৰ নিয়ন্ত্ৰণ কেন্দ্ৰ কি —"
+    },
+    "options": [
+      {
+        "en": "Cell wall",
+        "as": "কোষ প্ৰাচীৰ"
+      },
+      {
+        "en": "Mitochondria",
+        "as": "মাইট'কণ্ড্ৰিয়া"
+      },
+      {
+        "en": "Nucleus",
+        "as": "নিউক্লিয়াছ"
+      },
+      {
+        "en": "Cytoplasm",
+        "as": "চাইট'প্লাজম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The nucleus controls the activities of the cell.",
+      "as": "নিউক্লিয়াছে কোষৰ কাৰ্যকলাপ নিয়ন্ত্ৰণ কৰে।"
+    }
+  },
+  {
+    "id": "general-science-105",
+    "q": {
+      "en": "The cell wall is present in —",
+      "as": "কোষ প্ৰাচীৰ ক'ত থাকে —"
+    },
+    "options": [
+      {
+        "en": "blood cells",
+        "as": "ৰক্ত কোষত"
+      },
+      {
+        "en": "animal cells",
+        "as": "প্ৰাণী কোষত"
+      },
+      {
+        "en": "plant cells",
+        "as": "উদ্ভিদ কোষত"
+      },
+      {
+        "en": "nerve cells",
+        "as": "স্নায়ু কোষত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Plant cells have a rigid cell wall.",
+      "as": "উদ্ভিদ কোষত কঠিন কোষ প্ৰাচীৰ থাকে।"
+    }
+  },
+  {
+    "id": "general-science-106",
+    "q": {
+      "en": "Who discovered the cell?",
+      "as": "কোষ কোনে আৱিষ্কাৰ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Gregor Mendel",
+        "as": "গ্ৰেগৰ মেণ্ডেল"
+      },
+      {
+        "en": "Charles Darwin",
+        "as": "চাৰ্লছ ডাৰউইন"
+      },
+      {
+        "en": "Louis Pasteur",
+        "as": "লুই পাষ্টাৰ"
+      },
+      {
+        "en": "Robert Hooke",
+        "as": "ৰবাৰ্ট হুক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Robert Hooke discovered the cell in 1665.",
+      "as": "ৰবাৰ্ট হুকে ১৬৬৫ চনত কোষ আৱিষ্কাৰ কৰিছিল।"
+    }
+  },
+  {
+    "id": "general-science-107",
+    "q": {
+      "en": "The largest organ of the human body is the —",
+      "as": "মানৱ শৰীৰৰ আটাইতকৈ ডাঙৰ অংগ কি —"
+    },
+    "options": [
+      {
+        "en": "Skin",
+        "as": "ছাল"
+      },
+      {
+        "en": "Liver",
+        "as": "যকৃত"
+      },
+      {
+        "en": "Heart",
+        "as": "হৃদয়"
+      },
+      {
+        "en": "Lungs",
+        "as": "হাওঁফাওঁ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The skin is the largest organ of the human body.",
+      "as": "ছাল মানৱ শৰীৰৰ আটাইতকৈ ডাঙৰ অংগ।"
+    }
+  },
+  {
+    "id": "general-science-108",
+    "q": {
+      "en": "The largest gland in the human body is the —",
+      "as": "মানৱ শৰীৰৰ আটাইতকৈ ডাঙৰ গ্ৰন্থি কি —"
+    },
+    "options": [
+      {
+        "en": "Pituitary",
+        "as": "পিটুইটাৰী"
+      },
+      {
+        "en": "Pancreas",
+        "as": "অগ্ন্যাশয়"
+      },
+      {
+        "en": "Thyroid",
+        "as": "থাইৰয়ড"
+      },
+      {
+        "en": "Liver",
+        "as": "যকৃত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The liver is the largest gland in the body.",
+      "as": "যকৃত শৰীৰৰ আটাইতকৈ ডাঙৰ গ্ৰন্থি।"
+    }
+  },
+  {
+    "id": "general-science-109",
+    "q": {
+      "en": "The longest bone in the human body is the —",
+      "as": "মানৱ শৰীৰৰ আটাইতকৈ দীঘল হাড় কি —"
+    },
+    "options": [
+      {
+        "en": "Humerus",
+        "as": "হিউমেৰাছ"
+      },
+      {
+        "en": "Tibia",
+        "as": "টিবিয়া"
+      },
+      {
+        "en": "Femur",
+        "as": "ফিমাৰ (উৰুৰ হাড়)"
+      },
+      {
+        "en": "Radius",
+        "as": "ৰেডিয়াছ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The femur (thigh bone) is the longest bone.",
+      "as": "ফিমাৰ (উৰুৰ হাড়) আটাইতকৈ দীঘল হাড়।"
+    }
+  },
+  {
+    "id": "general-science-110",
+    "q": {
+      "en": "The smallest bone in the human body is the —",
+      "as": "মানৱ শৰীৰৰ আটাইতকৈ সৰু হাড় কি —"
+    },
+    "options": [
+      {
+        "en": "Radius",
+        "as": "ৰেডিয়াছ"
+      },
+      {
+        "en": "Femur",
+        "as": "ফিমাৰ"
+      },
+      {
+        "en": "Stapes",
+        "as": "ষ্টেপিছ"
+      },
+      {
+        "en": "Ulna",
+        "as": "আলনা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The stapes, in the ear, is the smallest bone.",
+      "as": "কাণত থকা ষ্টেপিছ আটাইতকৈ সৰু হাড়।"
+    }
+  },
+  {
+    "id": "general-science-111",
+    "q": {
+      "en": "The number of bones in an adult human body is —",
+      "as": "প্ৰাপ্তবয়স্ক মানৱ শৰীৰত হাড়ৰ সংখ্যা কিমান —"
+    },
+    "options": [
+      {
+        "en": "250",
+        "as": "২৫০"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "206",
+        "as": "২০৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An adult human has 206 bones.",
+      "as": "প্ৰাপ্তবয়স্ক মানুহৰ ২০৬ খন হাড় থাকে।"
+    }
+  },
+  {
+    "id": "general-science-112",
+    "q": {
+      "en": "The number of teeth in an adult human is —",
+      "as": "প্ৰাপ্তবয়স্ক মানুহৰ দাঁতৰ সংখ্যা কিমান —"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An adult has 32 teeth.",
+      "as": "প্ৰাপ্তবয়স্ক মানুহৰ ৩২ টা দাঁত থাকে।"
+    }
+  },
+  {
+    "id": "general-science-113",
+    "q": {
+      "en": "The organ that pumps blood throughout the body is the —",
+      "as": "শৰীৰত ৰক্ত প্ৰৱাহ কৰা অংগ কি —"
+    },
+    "options": [
+      {
+        "en": "Kidney",
+        "as": "বৃক্ক"
+      },
+      {
+        "en": "Lungs",
+        "as": "হাওঁফাওঁ"
+      },
+      {
+        "en": "Liver",
+        "as": "যকৃত"
+      },
+      {
+        "en": "Heart",
+        "as": "হৃদয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The heart pumps blood through the body.",
+      "as": "হৃদয়ে শৰীৰত ৰক্ত প্ৰৱাহ কৰে।"
+    }
+  },
+  {
+    "id": "general-science-114",
+    "q": {
+      "en": "The human heart has how many chambers?",
+      "as": "মানুহৰ হৃদয়ত কিমানটা কোঠা থাকে?"
+    },
+    "options": [
+      {
+        "en": "Five",
+        "as": "পাঁচটা"
+      },
+      {
+        "en": "Two",
+        "as": "দুটা"
+      },
+      {
+        "en": "Three",
+        "as": "তিনিটা"
+      },
+      {
+        "en": "Four",
+        "as": "চাৰিটা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The human heart has four chambers.",
+      "as": "মানুহৰ হৃদয়ত চাৰিটা কোঠা থাকে।"
+    }
+  },
+  {
+    "id": "general-science-115",
+    "q": {
+      "en": "Blood groups were discovered by —",
+      "as": "ৰক্ত শ্ৰেণী কোনে আৱিষ্কাৰ কৰিছিল —"
+    },
+    "options": [
+      {
+        "en": "William Harvey",
+        "as": "ৱিলিয়াম হাৰ্ভে"
+      },
+      {
+        "en": "Karl Landsteiner",
+        "as": "কাৰ্ল লেণ্ডষ্টাইনাৰ"
+      },
+      {
+        "en": "Louis Pasteur",
+        "as": "লুই পাষ্টাৰ"
+      },
+      {
+        "en": "Alexander Fleming",
+        "as": "আলেকজেণ্ডাৰ ফ্লেমিং"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Karl Landsteiner discovered blood groups.",
+      "as": "কাৰ্ল লেণ্ডষ্টাইনাইৰে ৰক্ত শ্ৰেণী আৱিষ্কাৰ কৰিছিল।"
+    }
+  },
+  {
+    "id": "general-science-116",
+    "q": {
+      "en": "The universal donor blood group is —",
+      "as": "সৰ্বজনীন দাতা ৰক্ত শ্ৰেণী কি —"
+    },
+    "options": [
+      {
+        "en": "B positive",
+        "as": "B ধনাত্মক"
+      },
+      {
+        "en": "AB positive",
+        "as": "AB ধনাত্মক"
+      },
+      {
+        "en": "A positive",
+        "as": "A ধনাত্মক"
+      },
+      {
+        "en": "O negative",
+        "as": "O ঋণাত্মক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "O negative is the universal donor.",
+      "as": "O ঋণাত্মক সৰ্বজনীন দাতা।"
+    }
+  },
+  {
+    "id": "general-science-117",
+    "q": {
+      "en": "The universal recipient blood group is —",
+      "as": "সৰ্বজনীন গ্ৰহণকৰ্তা ৰক্ত শ্ৰেণী কি —"
+    },
+    "options": [
+      {
+        "en": "O negative",
+        "as": "O ঋণাত্মক"
+      },
+      {
+        "en": "AB positive",
+        "as": "AB ধনাত্মক"
+      },
+      {
+        "en": "A negative",
+        "as": "A ঋণাত্মক"
+      },
+      {
+        "en": "B negative",
+        "as": "B ঋণাত্মক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "AB positive is the universal recipient.",
+      "as": "AB ধনাত্মক সৰ্বজনীন গ্ৰহণকৰ্তা।"
+    }
+  },
+  {
+    "id": "general-science-118",
+    "q": {
+      "en": "The lifespan of red blood cells in humans is about —",
+      "as": "মানুহত ৰঙা ৰক্ত কোষৰ আয়ুস প্ৰায় —"
+    },
+    "options": [
+      {
+        "en": "120 days",
+        "as": "১২০ দিন"
+      },
+      {
+        "en": "30 days",
+        "as": "৩০ দিন"
+      },
+      {
+        "en": "365 days",
+        "as": "৩৬৫ দিন"
+      },
+      {
+        "en": "10 days",
+        "as": "১০ দিন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "RBCs live for about 120 days.",
+      "as": "ৰঙা ৰক্ত কোষ প্ৰায় ১২০ দিন জীয়াই থাকে।"
+    }
+  },
+  {
+    "id": "general-science-119",
+    "q": {
+      "en": "The pigment that carries oxygen in blood is —",
+      "as": "ৰক্তত অক্সিজেন বহন কৰা ৰঞ্জক কি —"
+    },
+    "options": [
+      {
+        "en": "Carotene",
+        "as": "কেৰটিন"
+      },
+      {
+        "en": "Chlorophyll",
+        "as": "ক্ল'ৰ'ফিল"
+      },
+      {
+        "en": "Melanin",
+        "as": "মেলানিন"
+      },
+      {
+        "en": "Haemoglobin",
+        "as": "হিম'গ্লবিন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Haemoglobin carries oxygen in blood.",
+      "as": "হিম'গ্লবিনে ৰক্তত অক্সিজেন বহন কৰে।"
+    }
+  },
+  {
+    "id": "general-science-120",
+    "q": {
+      "en": "The vitamin essential for blood clotting is —",
+      "as": "ৰক্ত জমাট বন্ধাৰ বাবে প্ৰয়োজনীয় ভিটামিন কি —"
+    },
+    "options": [
+      {
+        "en": "Vitamin C",
+        "as": "ভিটামিন C"
+      },
+      {
+        "en": "Vitamin A",
+        "as": "ভিটামিন A"
+      },
+      {
+        "en": "Vitamin K",
+        "as": "ভিটামিন K"
+      },
+      {
+        "en": "Vitamin D",
+        "as": "ভিটামিন D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Vitamin K is needed for blood clotting.",
+      "as": "ৰক্ত জমাট বন্ধাৰ বাবে ভিটামিন K প্ৰয়োজন।"
+    }
+  },
+  {
+    "id": "general-science-121",
+    "q": {
+      "en": "Deficiency of vitamin A causes —",
+      "as": "ভিটামিন A ৰ অভাৱে কি ৰোগ কৰে —"
+    },
+    "options": [
+      {
+        "en": "Scurvy",
+        "as": "স্কাৰ্ভি"
+      },
+      {
+        "en": "Night blindness",
+        "as": "ৰাতি অন্ধতা"
+      },
+      {
+        "en": "Rickets",
+        "as": "ৰিকেটছ"
+      },
+      {
+        "en": "Beri-beri",
+        "as": "বেৰি-বেৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Vitamin A deficiency causes night blindness.",
+      "as": "ভিটামিন A ৰ অভাৱে ৰাতি অন্ধতা কৰে।"
+    }
+  },
+  {
+    "id": "general-science-122",
+    "q": {
+      "en": "Deficiency of vitamin B1 causes —",
+      "as": "ভিটামিন B1 ৰ অভাৱে কি ৰোগ কৰে —"
+    },
+    "options": [
+      {
+        "en": "Beri-beri",
+        "as": "বেৰি-বেৰি"
+      },
+      {
+        "en": "Scurvy",
+        "as": "স্কাৰ্ভি"
+      },
+      {
+        "en": "Rickets",
+        "as": "ৰিকেটছ"
+      },
+      {
+        "en": "Goitre",
+        "as": "গলগণ্ড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Vitamin B1 deficiency causes beri-beri.",
+      "as": "ভিটামিন B1 ৰ অভাৱে বেৰি-বেৰি কৰে।"
+    }
+  },
+  {
+    "id": "general-science-123",
+    "q": {
+      "en": "Deficiency of vitamin C causes —",
+      "as": "ভিটামিন C ৰ অভাৱে কি ৰোগ কৰে —"
+    },
+    "options": [
+      {
+        "en": "Scurvy",
+        "as": "স্কাৰ্ভি"
+      },
+      {
+        "en": "Rickets",
+        "as": "ৰিকেটছ"
+      },
+      {
+        "en": "Beri-beri",
+        "as": "বেৰি-বেৰি"
+      },
+      {
+        "en": "Night blindness",
+        "as": "ৰাতি অন্ধতা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Vitamin C deficiency causes scurvy.",
+      "as": "ভিটামিন C ৰ অভাৱে স্কাৰ্ভি কৰে।"
+    }
+  },
+  {
+    "id": "general-science-124",
+    "q": {
+      "en": "Deficiency of vitamin D causes —",
+      "as": "ভিটামিন D ৰ অভাৱে কি ৰোগ কৰে —"
+    },
+    "options": [
+      {
+        "en": "Rickets",
+        "as": "ৰিকেটছ"
+      },
+      {
+        "en": "Scurvy",
+        "as": "স্কাৰ্ভি"
+      },
+      {
+        "en": "Beri-beri",
+        "as": "বেৰি-বেৰি"
+      },
+      {
+        "en": "Anaemia",
+        "as": "ৰক্তহীনতা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Vitamin D deficiency causes rickets.",
+      "as": "ভিটামিন D ৰ অভাৱে ৰিকেটছ কৰে।"
+    }
+  },
+  {
+    "id": "general-science-125",
+    "q": {
+      "en": "The main natural source of vitamin D is —",
+      "as": "ভিটামিন D ৰ মূল প্ৰাকৃতিক উৎস কি —"
+    },
+    "options": [
+      {
+        "en": "Milk",
+        "as": "গাখীৰ"
+      },
+      {
+        "en": "Sunlight",
+        "as": "সূৰ্যৰ পোহৰ"
+      },
+      {
+        "en": "Rice",
+        "as": "চাউল"
+      },
+      {
+        "en": "Salt",
+        "as": "নিমখ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sunlight helps the body make vitamin D.",
+      "as": "সূৰ্যৰ পোহৰে শৰীৰক ভিটামিন D তৈয়াৰ কৰাত সহায় কৰে।"
+    }
+  },
+  {
+    "id": "general-science-126",
+    "q": {
+      "en": "Deficiency of iron in the body causes —",
+      "as": "শৰীৰত লোৰ অভাৱে কি ৰোগ কৰে —"
+    },
+    "options": [
+      {
+        "en": "Goitre",
+        "as": "গলগণ্ড"
+      },
+      {
+        "en": "Anaemia",
+        "as": "ৰক্তহীনতা"
+      },
+      {
+        "en": "Rickets",
+        "as": "ৰিকেটছ"
+      },
+      {
+        "en": "Scurvy",
+        "as": "স্কাৰ্ভি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Iron deficiency causes anaemia.",
+      "as": "লোৰ অভাৱে ৰক্তহীনতা কৰে।"
+    }
+  },
+  {
+    "id": "general-science-127",
+    "q": {
+      "en": "Deficiency of iodine causes —",
+      "as": "আয়'ডিনৰ অভাৱে কি ৰোগ কৰে —"
+    },
+    "options": [
+      {
+        "en": "Anaemia",
+        "as": "ৰক্তহীনতা"
+      },
+      {
+        "en": "Goitre",
+        "as": "গলগণ্ড"
+      },
+      {
+        "en": "Rickets",
+        "as": "ৰিকেটছ"
+      },
+      {
+        "en": "Beri-beri",
+        "as": "বেৰি-বেৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Iodine deficiency causes goitre.",
+      "as": "আয়'ডিনৰ অভাৱে গলগণ্ড কৰে।"
+    }
+  },
+  {
+    "id": "general-science-128",
+    "q": {
+      "en": "Calcium is essential for —",
+      "as": "কেলচিয়াম কিৰ বাবে প্ৰয়োজনীয় —"
+    },
+    "options": [
+      {
+        "en": "skin only",
+        "as": "কেৱল ছাল"
+      },
+      {
+        "en": "blood only",
+        "as": "কেৱল ৰক্ত"
+      },
+      {
+        "en": "eyes only",
+        "as": "কেৱল চকু"
+      },
+      {
+        "en": "bones and teeth",
+        "as": "হাড় আৰু দাঁত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Calcium is needed for strong bones and teeth.",
+      "as": "দৃঢ় হাড় আৰু দাঁতৰ বাবে কেলচিয়াম প্ৰয়োজন।"
+    }
+  },
+  {
+    "id": "general-science-129",
+    "q": {
+      "en": "The largest part of the human brain is the —",
+      "as": "মানুহৰ মগজুৰ আটাইতকৈ ডাঙৰ অংশ কি —"
+    },
+    "options": [
+      {
+        "en": "Cerebellum",
+        "as": "ছেৰিবেলাম"
+      },
+      {
+        "en": "Cerebrum",
+        "as": "ছেৰিব্ৰাম"
+      },
+      {
+        "en": "Medulla",
+        "as": "মেডুলা"
+      },
+      {
+        "en": "Pons",
+        "as": "পনছ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The cerebrum is the largest part of the brain.",
+      "as": "ছেৰিব্ৰাম মগজুৰ আটাইতকৈ ডাঙৰ অংশ।"
+    }
+  },
+  {
+    "id": "general-science-130",
+    "q": {
+      "en": "The main organs of respiration in humans are the —",
+      "as": "মানুহৰ শ্বাস-প্ৰশ্বাসৰ মূল অংগ কি —"
+    },
+    "options": [
+      {
+        "en": "Lungs",
+        "as": "হাওঁফাওঁ"
+      },
+      {
+        "en": "Kidneys",
+        "as": "বৃক্ক"
+      },
+      {
+        "en": "Liver",
+        "as": "যকৃত"
+      },
+      {
+        "en": "Heart",
+        "as": "হৃদয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The lungs are the main organs of respiration.",
+      "as": "হাওঁফাওঁ শ্বাস-প্ৰশ্বাসৰ মূল অংগ।"
+    }
+  },
+  {
+    "id": "general-science-131",
+    "q": {
+      "en": "Exchange of gases in the lungs takes place in the —",
+      "as": "হাওঁফাওঁত গেছৰ বিনিময় ক'ত হয় —"
+    },
+    "options": [
+      {
+        "en": "alveoli",
+        "as": "এলভিঅ'লাইত"
+      },
+      {
+        "en": "bronchi",
+        "as": "ব্ৰংকাইত"
+      },
+      {
+        "en": "trachea",
+        "as": "ট্ৰেকিয়াত"
+      },
+      {
+        "en": "diaphragm",
+        "as": "ডায়াফ্ৰামত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Gas exchange occurs in the alveoli.",
+      "as": "গেছৰ বিনিময় এলভিঅ'লাইত হয়।"
+    }
+  },
+  {
+    "id": "general-science-132",
+    "q": {
+      "en": "The digestive juice present in the mouth is —",
+      "as": "মুখত থকা পাচক ৰস কি —"
+    },
+    "options": [
+      {
+        "en": "Gastric juice",
+        "as": "জঠৰ ৰস"
+      },
+      {
+        "en": "Bile",
+        "as": "পিত্ত"
+      },
+      {
+        "en": "Saliva",
+        "as": "লালা"
+      },
+      {
+        "en": "Pancreatic juice",
+        "as": "অগ্ন্যাশয় ৰস"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Saliva is present in the mouth.",
+      "as": "মুখত লালা থাকে।"
+    }
+  },
+  {
+    "id": "general-science-133",
+    "q": {
+      "en": "The enzyme present in saliva is —",
+      "as": "লালাত থকা উৎসেচক কি —"
+    },
+    "options": [
+      {
+        "en": "Amylase (ptyalin)",
+        "as": "এমাইলেজ (টায়েলিন)"
+      },
+      {
+        "en": "Pepsin",
+        "as": "পেপচিন"
+      },
+      {
+        "en": "Trypsin",
+        "as": "ট্ৰিপচিন"
+      },
+      {
+        "en": "Lipase",
+        "as": "লাইপেজ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Saliva contains amylase, which digests starch.",
+      "as": "লালাত এমাইলেজ থাকে, যিয়ে শ্বেতসাৰ পাচন কৰে।"
+    }
+  },
+  {
+    "id": "general-science-134",
+    "q": {
+      "en": "The longest part of the human digestive system is the —",
+      "as": "মানৱ পাচন তন্ত্ৰৰ আটাইতকৈ দীঘল অংশ কি —"
+    },
+    "options": [
+      {
+        "en": "Large intestine",
+        "as": "বৃহদান্ত্ৰ"
+      },
+      {
+        "en": "Small intestine",
+        "as": "ক্ষুদ্ৰান্ত্ৰ"
+      },
+      {
+        "en": "Stomach",
+        "as": "জঠৰ"
+      },
+      {
+        "en": "Oesophagus",
+        "as": "খাদ্যনলী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The small intestine is the longest part.",
+      "as": "ক্ষুদ্ৰান্ত্ৰ আটাইতকৈ দীঘল অংশ।"
+    }
+  },
+  {
+    "id": "general-science-135",
+    "q": {
+      "en": "The organ that filters waste from the blood is the —",
+      "as": "ৰক্তৰপৰা বৰ্জ্য পদাৰ্থ পৰিশোধন কৰা অংগ কি —"
+    },
+    "options": [
+      {
+        "en": "Kidney",
+        "as": "বৃক্ক"
+      },
+      {
+        "en": "Liver",
+        "as": "যকৃত"
+      },
+      {
+        "en": "Heart",
+        "as": "হৃদয়"
+      },
+      {
+        "en": "Spleen",
+        "as": "প্লীহা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The kidneys filter waste from the blood.",
+      "as": "বৃক্কই ৰক্তৰপৰা বৰ্জ্য পদাৰ্থ পৰিশোধন কৰে।"
+    }
+  },
+  {
+    "id": "general-science-136",
+    "q": {
+      "en": "The number of kidneys in the human body is —",
+      "as": "মানৱ শৰীৰত বৃক্কৰ সংখ্যা কিমান —"
+    },
+    "options": [
+      {
+        "en": "Three",
+        "as": "তিনিটা"
+      },
+      {
+        "en": "One",
+        "as": "এটা"
+      },
+      {
+        "en": "Two",
+        "as": "দুটা"
+      },
+      {
+        "en": "Four",
+        "as": "চাৰিটা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Humans have two kidneys.",
+      "as": "মানুহৰ দুটা বৃক্ক থাকে।"
+    }
+  },
+  {
+    "id": "general-science-137",
+    "q": {
+      "en": "The functional unit of the kidney is the —",
+      "as": "বৃক্কৰ কাৰ্যকৰী একক কি —"
+    },
+    "options": [
+      {
+        "en": "Alveolus",
+        "as": "এলভিঅ'লাছ"
+      },
+      {
+        "en": "Neuron",
+        "as": "নিউৰন"
+      },
+      {
+        "en": "Nephron",
+        "as": "নেফ্ৰন"
+      },
+      {
+        "en": "Villus",
+        "as": "ভিলাছ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The nephron is the functional unit of the kidney.",
+      "as": "নেফ্ৰন বৃক্কৰ কাৰ্যকৰী একক।"
+    }
+  },
+  {
+    "id": "general-science-138",
+    "q": {
+      "en": "The basic unit of the nervous system is the —",
+      "as": "স্নায়ু তন্ত্ৰৰ মৌলিক একক কি —"
+    },
+    "options": [
+      {
+        "en": "Neuron",
+        "as": "নিউৰন"
+      },
+      {
+        "en": "Nephron",
+        "as": "নেফ্ৰন"
+      },
+      {
+        "en": "Axon",
+        "as": "এক্সন"
+      },
+      {
+        "en": "Synapse",
+        "as": "চিনাপ্স"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The neuron is the basic unit of the nervous system.",
+      "as": "নিউৰন স্নায়ু তন্ত্ৰৰ মৌলিক একক।"
+    }
+  },
+  {
+    "id": "general-science-139",
+    "q": {
+      "en": "The hormone that controls blood sugar level is —",
+      "as": "ৰক্তত চেনিৰ মাত্ৰা নিয়ন্ত্ৰণ কৰা হৰম'ন কি —"
+    },
+    "options": [
+      {
+        "en": "Insulin",
+        "as": "ইনচুলিন"
+      },
+      {
+        "en": "Thyroxine",
+        "as": "থাইৰক্সিন"
+      },
+      {
+        "en": "Adrenaline",
+        "as": "এড্ৰিনালিন"
+      },
+      {
+        "en": "Testosterone",
+        "as": "টেষ্ট'ষ্টেৰ'ন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Insulin controls blood sugar levels.",
+      "as": "ইনচুলিনে ৰক্তত চেনিৰ মাত্ৰা নিয়ন্ত্ৰণ কৰে।"
+    }
+  },
+  {
+    "id": "general-science-140",
+    "q": {
+      "en": "Insulin is secreted by the —",
+      "as": "ইনচুলিন কোনে নিঃসৰণ কৰে —"
+    },
+    "options": [
+      {
+        "en": "Liver",
+        "as": "যকৃত"
+      },
+      {
+        "en": "Pancreas",
+        "as": "অগ্ন্যাশয়"
+      },
+      {
+        "en": "Thyroid",
+        "as": "থাইৰয়ড"
+      },
+      {
+        "en": "Kidney",
+        "as": "বৃক্ক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The pancreas secretes insulin.",
+      "as": "অগ্ন্যাশয়ে ইনচুলিন নিঃসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "general-science-141",
+    "q": {
+      "en": "Which gland is called the master gland of the human body?",
+      "as": "কোন গ্ৰন্থিক মানৱ শৰীৰৰ প্ৰধান গ্ৰন্থি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Pancreas",
+        "as": "অগ্ন্যাশয়"
+      },
+      {
+        "en": "Thyroid",
+        "as": "থাইৰয়ড"
+      },
+      {
+        "en": "Adrenal",
+        "as": "এড্ৰিনাল"
+      },
+      {
+        "en": "Pituitary",
+        "as": "পিটুইটাৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The pituitary is called the master gland.",
+      "as": "পিটুইটাৰীক প্ৰধান গ্ৰন্থি বোলা হয়।"
+    }
+  },
+  {
+    "id": "general-science-142",
+    "q": {
+      "en": "The hormone secreted by the thyroid gland is —",
+      "as": "থাইৰয়ড গ্ৰন্থিয়ে নিঃসৰণ কৰা হৰম'ন কি —"
+    },
+    "options": [
+      {
+        "en": "Thyroxine",
+        "as": "থাইৰক্সিন"
+      },
+      {
+        "en": "Insulin",
+        "as": "ইনচুলিন"
+      },
+      {
+        "en": "Adrenaline",
+        "as": "এড্ৰিনালিন"
+      },
+      {
+        "en": "Oestrogen",
+        "as": "ইষ্ট্ৰ'জেন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The thyroid secretes thyroxine.",
+      "as": "থাইৰয়ডে থাইৰক্সিন নিঃসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "general-science-143",
+    "q": {
+      "en": "The male reproductive cell in humans is the —",
+      "as": "মানুহত পুৰুষ প্ৰজনন কোষ কি —"
+    },
+    "options": [
+      {
+        "en": "Zygote",
+        "as": "জাইগ'ট"
+      },
+      {
+        "en": "Ovum",
+        "as": "ডিম্বাণু"
+      },
+      {
+        "en": "Sperm",
+        "as": "শুক্ৰাণু"
+      },
+      {
+        "en": "Embryo",
+        "as": "ভ্ৰূণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The sperm is the male reproductive cell.",
+      "as": "শুক্ৰাণু পুৰুষ প্ৰজনন কোষ।"
+    }
+  },
+  {
+    "id": "general-science-144",
+    "q": {
+      "en": "The female reproductive cell in humans is the —",
+      "as": "মানুহত নাৰী প্ৰজনন কোষ কি —"
+    },
+    "options": [
+      {
+        "en": "Ovum",
+        "as": "ডিম্বাণু"
+      },
+      {
+        "en": "Sperm",
+        "as": "শুক্ৰাণু"
+      },
+      {
+        "en": "Zygote",
+        "as": "জাইগ'ট"
+      },
+      {
+        "en": "Embryo",
+        "as": "ভ্ৰূণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The ovum is the female reproductive cell.",
+      "as": "ডিম্বাণু নাৰী প্ৰজনন কোষ।"
+    }
+  },
+  {
+    "id": "general-science-145",
+    "q": {
+      "en": "The green pigment in plants that helps in photosynthesis is —",
+      "as": "সালোক সংশ্লেষণত সহায় কৰা উদ্ভিদৰ সেউজীয়া ৰঞ্জক কি —"
+    },
+    "options": [
+      {
+        "en": "Melanin",
+        "as": "মেলানিন"
+      },
+      {
+        "en": "Haemoglobin",
+        "as": "হিম'গ্লবিন"
+      },
+      {
+        "en": "Carotene",
+        "as": "কেৰটিন"
+      },
+      {
+        "en": "Chlorophyll",
+        "as": "ক্ল'ৰ'ফিল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Chlorophyll is the green pigment in plants.",
+      "as": "ক্ল'ৰ'ফিল উদ্ভিদৰ সেউজীয়া ৰঞ্জক।"
+    }
+  },
+  {
+    "id": "general-science-146",
+    "q": {
+      "en": "The gas released during photosynthesis is —",
+      "as": "সালোক সংশ্লেষণত কোন গেছ নিৰ্গত হয় —"
+    },
+    "options": [
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰ'জেন"
+      },
+      {
+        "en": "Hydrogen",
+        "as": "হাইড্ৰ'জেন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Photosynthesis releases oxygen.",
+      "as": "সালোক সংশ্লেষণে অক্সিজেন নিৰ্গত কৰে।"
+    }
+  },
+  {
+    "id": "general-science-147",
+    "q": {
+      "en": "Plants store food mainly in the form of —",
+      "as": "উদ্ভিদে মূলতঃ কি ৰূপত খাদ্য সঞ্চয় কৰে —"
+    },
+    "options": [
+      {
+        "en": "Starch",
+        "as": "শ্বেতসাৰ"
+      },
+      {
+        "en": "Protein",
+        "as": "প্ৰ'টিন"
+      },
+      {
+        "en": "Fat",
+        "as": "চৰ্বি"
+      },
+      {
+        "en": "Sugar only",
+        "as": "কেৱল চেনি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Plants store food as starch.",
+      "as": "উদ্ভিদে শ্বেতসাৰ হিচাপে খাদ্য সঞ্চয় কৰে।"
+    }
+  },
+  {
+    "id": "general-science-148",
+    "q": {
+      "en": "The bacterium that fixes nitrogen in leguminous plants is —",
+      "as": "মাহজাতীয় উদ্ভিদত নাইট্ৰ'জেন স্থিৰীকৰণ কৰা বেক্টেৰিয়া কি —"
+    },
+    "options": [
+      {
+        "en": "Lactobacillus",
+        "as": "লেক্ট'বেচিলাছ"
+      },
+      {
+        "en": "E. coli",
+        "as": "ই. ক'লাই"
+      },
+      {
+        "en": "Rhizobium",
+        "as": "ৰাইজ'বিয়াম"
+      },
+      {
+        "en": "Salmonella",
+        "as": "ছেলম'নেলা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rhizobium fixes nitrogen in legume roots.",
+      "as": "ৰাইজ'বিয়ামে মাহজাতীয় গছৰ শিপাত নাইট্ৰ'জেন স্থিৰ কৰে।"
+    }
+  },
+  {
+    "id": "general-science-149",
+    "q": {
+      "en": "Malaria is transmitted by the bite of —",
+      "as": "মেলেৰিয়া কিৰ কামোৰত বিয়পে —"
+    },
+    "options": [
+      {
+        "en": "Aedes mosquito",
+        "as": "এইডিছ মছা"
+      },
+      {
+        "en": "female Anopheles mosquito",
+        "as": "মাইকী এন'ফিলিছ মছা"
+      },
+      {
+        "en": "housefly",
+        "as": "ঘৰুৱা মাখি"
+      },
+      {
+        "en": "sandfly",
+        "as": "বালি মাখি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Malaria spreads by the female Anopheles mosquito.",
+      "as": "মেলেৰিয়া মাইকী এন'ফিলিছ মছাৰ কামোৰত বিয়পে।"
+    }
+  },
+  {
+    "id": "general-science-150",
+    "q": {
+      "en": "Dengue is transmitted by the bite of —",
+      "as": "ডেংগু কিৰ কামোৰত বিয়পে —"
+    },
+    "options": [
+      {
+        "en": "housefly",
+        "as": "ঘৰুৱা মাখি"
+      },
+      {
+        "en": "Anopheles mosquito",
+        "as": "এন'ফিলিছ মছা"
+      },
+      {
+        "en": "Aedes mosquito",
+        "as": "এইডিছ মছা"
+      },
+      {
+        "en": "tick",
+        "as": "মকিছা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Dengue spreads by the Aedes mosquito.",
+      "as": "ডেংগু এইডিছ মছাৰ কামোৰত বিয়পে।"
+    }
   }
-}
+]
