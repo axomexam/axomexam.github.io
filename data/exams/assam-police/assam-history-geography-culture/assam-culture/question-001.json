@@ -1,30 +1,5102 @@
-{
-  "id": "assam-culture-001",
-  "q": {
-    "en": "Bihu is the main festival of which people?",
-    "as": "বিহু কোনসকলৰ প্ৰধান উৎসৱ?"
-  },
-  "options": [
-    {
-      "en": "Assamese people",
-      "as": "অসমীয়া লোক"
+[
+  {
+    "id": "assam-culture-001",
+    "q": {
+      "en": "Who is regarded as the founder of the Assamese Vaishnavite movement?",
+      "as": "অসমীয়া বৈষ্ণৱ আন্দোলনৰ প্ৰৱৰ্তক কাক বুলি গণ্য কৰা হয়?"
     },
-    {
-      "en": "Only tea tribes",
-      "as": "কেৱল চাহ জনজাতি"
-    },
-    {
-      "en": "Only Bodos",
-      "as": "কেৱল বড়ো"
-    },
-    {
-      "en": "Only Rabhas",
-      "as": "কেৱল ৰাভা"
+    "options": [
+      {
+        "en": "Madhavdeva",
+        "as": "মাধৱদেৱ"
+      },
+      {
+        "en": "Harideva",
+        "as": "হৰিদেৱ"
+      },
+      {
+        "en": "Srimanta Sankardeva",
+        "as": "শ্ৰীমন্ত শংকৰদেৱ"
+      },
+      {
+        "en": "Damodardeva",
+        "as": "দামোদৰদেৱ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Srimanta Sankardeva founded the neo-Vaishnavite movement in Assam.",
+      "as": "শ্ৰীমন্ত শংকৰদেৱে অসমত নৱ-বৈষ্ণৱ আন্দোলন প্ৰৱৰ্তন কৰিছিল।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "Bihu is the principal festival of the Assamese people.",
-    "as": "বিহু অসমীয়া লোকসকলৰ প্ৰধান উৎসৱ।"
+  },
+  {
+    "id": "assam-culture-002",
+    "q": {
+      "en": "Srimanta Sankardeva was born at which place?",
+      "as": "শ্ৰীমন্ত শংকৰদেৱৰ জন্ম ক'ত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Bheladanga",
+        "as": "ভেলাদাংগা"
+      },
+      {
+        "en": "Dhuwahat",
+        "as": "ধুৱাহাট"
+      },
+      {
+        "en": "Bordowa",
+        "as": "বৰদোৱা"
+      },
+      {
+        "en": "Patbausi",
+        "as": "পাটবাউসী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Srimanta Sankardeva was born at Bordowa in the Nagaon district of Assam.",
+      "as": "শ্ৰীমন্ত শংকৰদেৱৰ জন্ম অসমৰ নগাঁও জিলাৰ বৰদোৱাত হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-003",
+    "q": {
+      "en": "Who was the principal disciple of Srimanta Sankardeva?",
+      "as": "শ্ৰীমন্ত শংকৰদেৱৰ প্ৰধান শিষ্য কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Damodardeva",
+        "as": "দামোদৰদেৱ"
+      },
+      {
+        "en": "Madhavdeva",
+        "as": "মাধৱদেৱ"
+      },
+      {
+        "en": "Gopal Ata",
+        "as": "গোপাল আতা"
+      },
+      {
+        "en": "Narottam Das",
+        "as": "নৰোত্তম দাস"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Madhavdeva was the chief disciple and close associate of Sankardeva.",
+      "as": "মাধৱদেৱ শংকৰদেৱৰ প্ৰধান শিষ্য আৰু ঘনিষ্ঠ সহযোগী আছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-004",
+    "q": {
+      "en": "What is a Namghar?",
+      "as": "নামঘৰ কি?"
+    },
+    "options": [
+      {
+        "en": "A grain store",
+        "as": "শস্য ভঁৰাল"
+      },
+      {
+        "en": "A Buddhist temple",
+        "as": "বৌদ্ধ মন্দিৰ"
+      },
+      {
+        "en": "A Vaishnavite prayer hall",
+        "as": "বৈষ্ণৱ প্ৰাৰ্থনা গৃহ"
+      },
+      {
+        "en": "A royal court",
+        "as": "ৰাজদৰবাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A Namghar is the community prayer hall of Assamese Vaishnavites.",
+      "as": "নামঘৰ হৈছে অসমীয়া বৈষ্ণৱসকলৰ সমাজিক প্ৰাৰ্থনা গৃহ।"
+    }
+  },
+  {
+    "id": "assam-culture-005",
+    "q": {
+      "en": "What is a Satra in Assam?",
+      "as": "অসমত সত্ৰ কি?"
+    },
+    "options": [
+      {
+        "en": "A market place",
+        "as": "বজাৰ স্থান"
+      },
+      {
+        "en": "A river port",
+        "as": "নদী বন্দৰ"
+      },
+      {
+        "en": "A hill fort",
+        "as": "পাহাৰীয়া দুৰ্গ"
+      },
+      {
+        "en": "A Vaishnavite monastery",
+        "as": "বৈষ্ণৱ মঠ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A Satra is a Vaishnavite monastic institution established by Sankardeva and his followers.",
+      "as": "সত্ৰ হৈছে শংকৰদেৱ আৰু তেওঁৰ অনুগামীসকলে প্ৰতিষ্ঠা কৰা বৈষ্ণৱ মঠ অনুস্থান।"
+    }
+  },
+  {
+    "id": "assam-culture-006",
+    "q": {
+      "en": "Who is the head of a Satra called?",
+      "as": "সত্ৰৰ মুৰব্বীক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Barpujari",
+        "as": "বৰপূজাৰী"
+      },
+      {
+        "en": "Doloi",
+        "as": "ডলৈ"
+      },
+      {
+        "en": "Satradhikar",
+        "as": "সত্ৰাধিকাৰ"
+      },
+      {
+        "en": "Satradhipati",
+        "as": "সত্ৰাধিপতি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The head of a Satra is known as the Satradhikar.",
+      "as": "সত্ৰৰ মুৰব্বীক সত্ৰাধিকাৰ বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-007",
+    "q": {
+      "en": "Which sacred book is regarded as the primary scripture of Assamese Vaishnavism?",
+      "as": "কোন পৱিত্ৰ গ্ৰন্থক অসমীয়া বৈষ্ণৱ ধৰ্মৰ প্ৰধান ধৰ্মগ্ৰন্থ বুলি গণ্য কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Ratnavali",
+        "as": "ৰত্নাৱলী"
+      },
+      {
+        "en": "Bhagavata",
+        "as": "ভাগৱত"
+      },
+      {
+        "en": "Kirtan Ghosha",
+        "as": "কীৰ্তন ঘোষা"
+      },
+      {
+        "en": "Naam Ghosha",
+        "as": "নাম ঘোষা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Kirtan Ghosha, composed by Sankardeva and completed by Madhavdeva, is the primary scripture.",
+      "as": "শংকৰদেৱে ৰচনা কৰি মাধৱদেৱে সম্পূৰ্ণ কৰা কীৰ্তন ঘোষা প্ৰধান ধৰ্মগ্ৰন্থ।"
+    }
+  },
+  {
+    "id": "assam-culture-008",
+    "q": {
+      "en": "Who composed the Naam Ghosha?",
+      "as": "নাম ঘোষা কে ৰচনা কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Sankardeva",
+        "as": "শংকৰদেৱ"
+      },
+      {
+        "en": "Aniruddhadeva",
+        "as": "অনিৰুদ্ধদেৱ"
+      },
+      {
+        "en": "Damodardeva",
+        "as": "দামোদৰদেৱ"
+      },
+      {
+        "en": "Madhavdeva",
+        "as": "মাধৱদেৱ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Madhavdeva composed the Naam Ghosha.",
+      "as": "নাম ঘোষা মাধৱদেৱে ৰচনা কৰিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-009",
+    "q": {
+      "en": "The Bargeet devotional songs were composed mainly by which two saints?",
+      "as": "বৰগীত ভক্তিমূলক গীত মূলতঃ কোন দুজন সাধুৱে ৰচনা কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Sankardeva and Gopal Ata",
+        "as": "শংকৰদেৱ আৰু গোপাল আতা"
+      },
+      {
+        "en": "Damodardeva and Harideva",
+        "as": "দামোদৰদেৱ আৰু হৰিদেৱ"
+      },
+      {
+        "en": "Aniruddhadeva and Narottam Das",
+        "as": "অনিৰুদ্ধদেৱ আৰু নৰোত্তম দাস"
+      },
+      {
+        "en": "Sankardeva and Madhavdeva",
+        "as": "শংকৰদেৱ আৰু মাধৱদেৱ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bargeet were composed mainly by Srimanta Sankardeva and Madhavdeva.",
+      "as": "বৰগীত মূলতঃ শ্ৰীমন্ত শংকৰদেৱ আৰু মাধৱদেৱে ৰচনা কৰিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-010",
+    "q": {
+      "en": "What is the literary language used by Sankardeva and his followers called?",
+      "as": "শংকৰদেৱ আৰু তেওঁৰ অনুগামীসকলে ব্যৱহাৰ কৰা সাহিত্যিক ভাষাক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Goalpariya",
+        "as": "গোৱালপাৰীয়া"
+      },
+      {
+        "en": "Kamrupi",
+        "as": "কামৰূপী"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Brajavali",
+        "as": "ব্ৰজাৱলী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sankardeva used Brajavali, a literary mixture of Maithili and Assamese, in his works.",
+      "as": "শংকৰদেৱে তেওঁৰ ৰচনাত ব্ৰজাৱলী ভাষা ব্যৱহাৰ কৰিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-011",
+    "q": {
+      "en": "Which Koch king became a disciple and patron of Srimanta Sankardeva?",
+      "as": "কোন কোচ ৰজা শ্ৰীমন্ত শংকৰদেৱৰ শিষ্য আৰু পৃষ্ঠপোষক হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Rudra Singha",
+        "as": "ৰুদ্ৰ সিংহ"
+      },
+      {
+        "en": "Nara Narayan",
+        "as": "নৰ নাৰায়ণ"
+      },
+      {
+        "en": "SuHungmung",
+        "as": "চুহুংমুং"
+      },
+      {
+        "en": "Pratap Singha",
+        "as": "প্ৰতাপ সিংহ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Koch king Nara Narayan became a disciple and patron of Sankardeva.",
+      "as": "কোচ ৰজা নৰ নাৰায়ণ শংকৰদেৱৰ শিষ্য আৰু পৃষ্ঠপোষক হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-012",
+    "q": {
+      "en": "Which classical dance form of India originated in the Satras of Assam?",
+      "as": "অসমৰ সত্ৰত উৎপত্তি হোৱা ভাৰতীয় শাস্ত্ৰীয় নৃত্যৰ নাম কি?"
+    },
+    "options": [
+      {
+        "en": "Odissi",
+        "as": "ওড়িশী"
+      },
+      {
+        "en": "Bharatanatyam",
+        "as": "ভৰতনাট্যম"
+      },
+      {
+        "en": "Sattriya",
+        "as": "সত্ৰীয়া"
+      },
+      {
+        "en": "Kuchipudi",
+        "as": "কুচিপুডি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sattriya dance originated in the Vaishnavite Satras of Assam.",
+      "as": "সত্ৰীয়া নৃত্য অসমৰ বৈষ্ণৱ সত্ৰত উৎপত্তি হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-013",
+    "q": {
+      "en": "In which year was Sattriya dance recognised as a classical dance of India?",
+      "as": "কোন বছৰত সত্ৰীয়া নৃত্যক ভাৰতৰ শাস্ত্ৰীয় নৃত্য হিচাপে স্বীকৃতি দিয়া হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1995",
+        "as": "১৯৯৫"
+      },
+      {
+        "en": "2000",
+        "as": "২০০০"
+      },
+      {
+        "en": "2010",
+        "as": "২০১০"
+      },
+      {
+        "en": "2005",
+        "as": "২০০৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sattriya was recognised as a classical dance of India in the year 2000.",
+      "as": "২০০০ চনত সত্ৰীয়া নৃত্যক ভাৰতৰ শাস্ত্ৰীয় নৃত্য হিচাপে স্বীকৃতি দিয়া হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-014",
+    "q": {
+      "en": "Srimanta Sankaradeva Kalakshetra is located in which city?",
+      "as": "শ্ৰীমন্ত শংকৰদেৱ কলাক্ষেত্ৰ কোন চহৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Srimanta Sankaradeva Kalakshetra is located at Panjabari in Guwahati.",
+      "as": "শ্ৰীমন্ত শংকৰদেৱ কলাক্ষেত্ৰ গুৱাহাটীৰ পাঞ্জাবাৰীত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-culture-015",
+    "q": {
+      "en": "Which religious order was spread across Assam by Sankardeva and Madhavdeva?",
+      "as": "শংকৰদেৱ আৰু মাধৱদেৱে অসমত কোন ধৰ্মীয় ধাৰা প্ৰচাৰ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Shaivism",
+        "as": "শৈৱ ধৰ্ম"
+      },
+      {
+        "en": "Buddhism",
+        "as": "বৌদ্ধ ধৰ্ম"
+      },
+      {
+        "en": "Vaishnavism",
+        "as": "বৈষ্ণৱ ধৰ্ম"
+      },
+      {
+        "en": "Jainism",
+        "as": "জৈন ধৰ্ম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sankardeva and Madhavdeva spread neo-Vaishnavism across Assam.",
+      "as": "শংকৰদেৱ আৰু মাধৱদেৱে অসমত নৱ-বৈষ্ণৱ ধৰ্ম প্ৰচাৰ কৰিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-016",
+    "q": {
+      "en": "What does the term 'Nam-Prasanga' refer to?",
+      "as": "নাম-প্ৰসংগ শব্দটোৱে কি বুজায়?"
+    },
+    "options": [
+      {
+        "en": "Congregational chanting of God's name",
+        "as": "বিষ্ণুৰ নামৰ সমবেত কীৰ্তন"
+      },
+      {
+        "en": "A royal ceremony",
+        "as": "ৰাজকীয় অনুষ্ঠান"
+      },
+      {
+        "en": "A harvest festival",
+        "as": "শস্য চপোৱা উৎসৱ"
+      },
+      {
+        "en": "A folk wrestling match",
+        "as": "লোক কুস্তি খেল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Nam-Prasanga means congregational devotional chanting in a Namghar.",
+      "as": "নাম-প্ৰসংগ মানে নামঘৰত সমবেতভাৱে ভগৱানৰ নাম লোৱা।"
+    }
+  },
+  {
+    "id": "assam-culture-017",
+    "q": {
+      "en": "Which structure in a Namghar is used to place the sacred scripture?",
+      "as": "নামঘৰত পৱিত্ৰ ধৰ্মগ্ৰন্থ ৰাখিবলৈ কোনটো ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Mandapa",
+        "as": "মণ্ডপ"
+      },
+      {
+        "en": "Manikut",
+        "as": "মণিকূট"
+      },
+      {
+        "en": "Naubatkhana",
+        "as": "নৌবতখানা"
+      },
+      {
+        "en": "Garbhagriha",
+        "as": "গৰ্ভগৃহ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Manikut is the sanctum of a Namghar where the scripture is kept.",
+      "as": "মণিকূট হৈছে নামঘৰৰ পৱিত্ৰ স্থান য'ত ধৰ্মগ্ৰন্থ ৰখা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-018",
+    "q": {
+      "en": "Which community institution served as a centre of Assamese village life and justice?",
+      "as": "কোন সমাজিক অনুস্থান অসমীয়া গাঁৱৰ জীৱন আৰু ন্যায়ৰ কেন্দ্ৰ হিচাপে কাম কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Darbar",
+        "as": "দৰবাৰ"
+      },
+      {
+        "en": "Khel",
+        "as": "খেল"
+      },
+      {
+        "en": "Namghar",
+        "as": "নামঘৰ"
+      },
+      {
+        "en": "Rajya Sabha",
+        "as": "ৰাজ্য সভা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Namghar was the centre of religious, social and cultural life of an Assamese village.",
+      "as": "নামঘৰ অসমীয়া গাঁৱৰ ধৰ্মীয়, সামাজিক আৰু সাংস্কৃতিক জীৱনৰ কেন্দ্ৰ আছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-019",
+    "q": {
+      "en": "Which saint is also known as 'Jagadguru' in Assamese tradition?",
+      "as": "অসমীয়া পৰম্পৰাত কোন সাধুক 'জগদগুৰু' বুলিও জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Srimanta Sankardeva",
+        "as": "শ্ৰীমন্ত শংকৰদেৱ"
+      },
+      {
+        "en": "Madhavdeva",
+        "as": "মাধৱদেৱ"
+      },
+      {
+        "en": "Damodardeva",
+        "as": "দামোদৰদেৱ"
+      },
+      {
+        "en": "Sankardeva's father",
+        "as": "শংকৰদেৱৰ পিতৃ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Srimanta Sankardeva is revered as Jagadguru in Assamese tradition.",
+      "as": "শ্ৰীমন্ত শংকৰদেৱক অসমীয়া পৰম্পৰাত জগদগুৰু বুলি শ্ৰদ্ধা কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-020",
+    "q": {
+      "en": "The 'Kirtan Ghar' is another name for which cultural institution?",
+      "as": "কীৰ্তন ঘৰ কোন সাংস্কৃতিক অনুস্থানৰ আন নাম?"
+    },
+    "options": [
+      {
+        "en": "Namghar",
+        "as": "নামঘৰ"
+      },
+      {
+        "en": "Rajghar",
+        "as": "ৰাজঘৰ"
+      },
+      {
+        "en": "Satra",
+        "as": "সত্ৰ"
+      },
+      {
+        "en": "Puja Ghar",
+        "as": "পূজা ঘৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Namghar is also called Kirtan Ghar as devotional songs are sung there.",
+      "as": "ভক্তিমূলক গীত গোৱা হয় বাবে নামঘৰক কীৰ্তন ঘৰ বুলিও কোৱা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-021",
+    "q": {
+      "en": "Which form of Assamese devotional performance was introduced by Sankardeva?",
+      "as": "শংকৰদেৱে প্ৰৱৰ্তন কৰা অসমীয়া ভক্তিমূলক পৰিৱেশনৰ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Yatra",
+        "as": "যাত্ৰা"
+      },
+      {
+        "en": "Tamasha",
+        "as": "তামাশা"
+      },
+      {
+        "en": "Ankiya Naat",
+        "as": "অংকীয়া নাট"
+      },
+      {
+        "en": "Nautanki",
+        "as": "নৌটংকী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ankiya Naat is a one-act devotional play form introduced by Sankardeva.",
+      "as": "অংকীয়া নাট শংকৰদেৱে প্ৰৱৰ্তন কৰা একাঙ্ক ভক্তিমূলক নাট্য ৰূপ।"
+    }
+  },
+  {
+    "id": "assam-culture-022",
+    "q": {
+      "en": "Which play written by Srimanta Sankardeva is considered his first Ankiya Naat?",
+      "as": "শ্ৰীমন্ত শংকৰদেৱে লিখা কোনখন নাটক তেওঁৰ প্ৰথম অংকীয়া নাট বুলি গণ্য কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Rukmini Haran",
+        "as": "ৰুক্মিণী হৰণ"
+      },
+      {
+        "en": "Chihna Yatra",
+        "as": "চিহ্ন যাত্ৰা"
+      },
+      {
+        "en": "Keli Gopal",
+        "as": "কেলি গোপাল"
+      },
+      {
+        "en": "Parijat Haran",
+        "as": "পাৰিজাত হৰণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Chihna Yatra, also called Chinha Yatra, is regarded as Sankardeva's first Ankiya Naat.",
+      "as": "চিহ্ন যাত্ৰাক শংকৰদেৱৰ প্ৰথম অংকীয়া নাট বুলি গণ্য কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-023",
+    "q": {
+      "en": "Which musical instrument ensemble accompanies Ankiya Naat performance?",
+      "as": "অংকীয়া নাট পৰিৱেশনত কোন সংগীত বাদ্যযন্ত্ৰৰ দল থাকে?"
+    },
+    "options": [
+      {
+        "en": "Chhenda",
+        "as": "ছেণ্ডা"
+      },
+      {
+        "en": "Melam",
+        "as": "মেলম"
+      },
+      {
+        "en": "Panchavadyam",
+        "as": "পঞ্চবাদ্যম"
+      },
+      {
+        "en": "Gayan-Bayan",
+        "as": "গায়ন-বায়ন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Gayan (singers) and Bayan (instrumentalists) accompany Ankiya Naat.",
+      "as": "গায়ন (গায়ক) আৰু বায়ন (বাদ্যকাৰ)অংকীয়া নাটত সংগত কৰে।"
+    }
+  },
+  {
+    "id": "assam-culture-024",
+    "q": {
+      "en": "Husori is a group song performed mainly during which Bihu?",
+      "as": "হুঁচৰি কোন বিহুত মুখ্যতঃ পৰিৱেশন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Magh Bihu",
+        "as": "মাঘ বিহু"
+      },
+      {
+        "en": "Bhogali Bihu",
+        "as": "ভোগালী বিহু"
+      },
+      {
+        "en": "Kati Bihu",
+        "as": "কাতি বিহু"
+      },
+      {
+        "en": "Bohag Bihu",
+        "as": "ব'হাগ বিহু"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Husori is a popular group song and dance of the Bohag (Rongali) Bihu.",
+      "as": "হুঁচৰি ব'হাগ (ৰঙালী) বিহুৰ জনপ্ৰিয় সমবেত গীত আৰু নৃত্য।"
+    }
+  },
+  {
+    "id": "assam-culture-025",
+    "q": {
+      "en": "Sankardeva's teachings are collectively known as which order?",
+      "as": "শংকৰদেৱৰ শিক্ষাক সামূহিকভাৱে কোন ধাৰা বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Dasnama",
+        "as": "দশনাম"
+      },
+      {
+        "en": "Tantra",
+        "as": "তন্ত্ৰ"
+      },
+      {
+        "en": "Eksarana Dharma",
+        "as": "একশৰণ ধৰ্ম"
+      },
+      {
+        "en": "Sahajiya",
+        "as": "সহজিয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sankardeva's neo-Vaishnavite teachings are known as Eksarana Dharma.",
+      "as": "শংকৰদেৱৰ নৱ-বৈষ্ণৱ শিক্ষাক একশৰণ ধৰ্ম বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-026",
+    "q": {
+      "en": "Which historic poet-saint inspired Srimanta Sankardeva's Vaishnavite order?",
+      "as": "কোন ঐতিহাসিক কবি-সাধুৱে শ্ৰীমন্ত শংকৰদেৱৰ বৈষ্ণৱ ধাৰাক অনুপ্ৰাণিত কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Vidyapati",
+        "as": "বিদ্যাপতি"
+      },
+      {
+        "en": "Chandidas",
+        "as": "চণ্ডীদাস"
+      },
+      {
+        "en": "Jayadeva",
+        "as": "জয়দেৱ"
+      },
+      {
+        "en": "Madhavdeva",
+        "as": "মাধৱদেৱ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Madhavdeva provided strong leadership and inspiration to the order after Sankardeva.",
+      "as": "শংকৰদেৱৰ পিছত মাধৱদেৱে ধাৰাটোক শক্তিশালী নেতৃত্ব আৰু প্ৰেৰণা দিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-027",
+    "q": {
+      "en": "How many Bihu festivals are celebrated in Assam in a year?",
+      "as": "অসমত বছৰত কেইটা বিহু উৎসৱ পালন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "One",
+        "as": "এক"
+      },
+      {
+        "en": "Four",
+        "as": "চাৰি"
+      },
+      {
+        "en": "Two",
+        "as": "দুই"
+      },
+      {
+        "en": "Three",
+        "as": "তিনি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assam celebrates three Bihu festivals: Bohag, Kati and Magh.",
+      "as": "অসমত তিনি বিহু উৎসৱ পালন কৰা হয়: ব'হাগ, কাতি আৰু মাঘ।"
+    }
+  },
+  {
+    "id": "assam-culture-028",
+    "q": {
+      "en": "Bohag Bihu is also known as which Bihu?",
+      "as": "ব'হাগ বিহুক আন কোন বিহু বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Kongali Bihu",
+        "as": "কঙালী বিহু"
+      },
+      {
+        "en": "Bhogali Bihu",
+        "as": "ভোগালী বিহু"
+      },
+      {
+        "en": "Rongali Bihu",
+        "as": "ৰঙালী বিহু"
+      },
+      {
+        "en": "Kati Bihu",
+        "as": "কাতি বিহু"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bohag Bihu is called Rongali Bihu as it is full of joy and colour.",
+      "as": "ব'হাগ বিহুক ৰঙালী বিহু বোলা হয় কাৰণ ই আনন্দ আৰু ৰঙেৰে ভৰা।"
+    }
+  },
+  {
+    "id": "assam-culture-029",
+    "q": {
+      "en": "Bohag Bihu marks the beginning of what?",
+      "as": "ব'হাগ বিহুৱে কিৰ আৰম্ভণি সূচায়?"
+    },
+    "options": [
+      {
+        "en": "The winter season",
+        "as": "শীতকাল"
+      },
+      {
+        "en": "The Assamese New Year",
+        "as": "অসমীয়া নৱবৰ্ষ"
+      },
+      {
+        "en": "The monsoon season",
+        "as": "বৰ্ষাকাল"
+      },
+      {
+        "en": "The harvest season",
+        "as": "শস্য চপোৱা কাল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bohag Bihu marks the beginning of the Assamese New Year.",
+      "as": "ব'হাগ বিহুৱে অসমীয়া নৱবৰ্ষৰ আৰম্ভণি সূচায়।"
+    }
+  },
+  {
+    "id": "assam-culture-030",
+    "q": {
+      "en": "Magh Bihu is also known as which Bihu?",
+      "as": "মাঘ বিহুক আন কোন বিহু বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Bhogali Bihu",
+        "as": "ভোগালী বিহু"
+      },
+      {
+        "en": "Rongali Bihu",
+        "as": "ৰঙালী বিহু"
+      },
+      {
+        "en": "Kongali Bihu",
+        "as": "কঙালী বিহু"
+      },
+      {
+        "en": "Bohag Bihu",
+        "as": "ব'হাগ বিহু"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Magh Bihu is called Bhogali Bihu as it is associated with feasting.",
+      "as": "মাঘ বিহুক ভোগালী বিহু বোলা হয় কাৰণ ই ভোজৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "assam-culture-031",
+    "q": {
+      "en": "Kati Bihu is also known as which Bihu?",
+      "as": "কাতি বিহুক আন কোন বিহু বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Rongali Bihu",
+        "as": "ৰঙালী বিহু"
+      },
+      {
+        "en": "Kongali Bihu",
+        "as": "কঙালী বিহু"
+      },
+      {
+        "en": "Bohag Bihu",
+        "as": "ব'হাগ বিহু"
+      },
+      {
+        "en": "Bhogali Bihu",
+        "as": "ভোগালী বিহু"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kati Bihu is called Kongali Bihu because it falls in a lean period.",
+      "as": "কাতি বিহুক কঙালী বিহু বোলা হয় কাৰণ ই অভাৱৰ সময়ত পৰে।"
+    }
+  },
+  {
+    "id": "assam-culture-032",
+    "q": {
+      "en": "Magh Bihu is celebrated in which month?",
+      "as": "মাঘ বিহু কোন মাহত পালন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "October",
+        "as": "অক্টোবৰ"
+      },
+      {
+        "en": "July",
+        "as": "জুলাই"
+      },
+      {
+        "en": "April",
+        "as": "এপ্ৰিল"
+      },
+      {
+        "en": "January",
+        "as": "জানুৱাৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Magh Bihu is celebrated in mid-January.",
+      "as": "মাঘ বিহু জানুৱাৰী মাহৰ মাজভাগত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-033",
+    "q": {
+      "en": "Kati Bihu is celebrated in which month?",
+      "as": "কাতি বিহু কোন মাহত পালন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "October",
+        "as": "অক্টোবৰ"
+      },
+      {
+        "en": "January",
+        "as": "জানুৱাৰী"
+      },
+      {
+        "en": "April",
+        "as": "এপ্ৰিল"
+      },
+      {
+        "en": "December",
+        "as": "ডিচেম্বৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kati Bihu is celebrated in mid-October.",
+      "as": "কাতি বিহু অক্টোবৰ মাহৰ মাজভাগত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-034",
+    "q": {
+      "en": "What is a Meji in Magh Bihu?",
+      "as": "মাঘ বিহুত মেজি কি?"
+    },
+    "options": [
+      {
+        "en": "A bonfire",
+        "as": "জুইৰ স্তূপ"
+      },
+      {
+        "en": "A rice cake",
+        "as": "চাউলৰ পিঠা"
+      },
+      {
+        "en": "A folk song",
+        "as": "লোক গীত"
+      },
+      {
+        "en": "A bamboo hat",
+        "as": "বাঁহৰ টুপী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A Meji is a large bonfire built and burnt during Magh Bihu.",
+      "as": "মেজি হৈছে মাঘ বিহুত সজা আৰু জ্বলোৱা ডাঙৰ জুই।"
+    }
+  },
+  {
+    "id": "assam-culture-035",
+    "q": {
+      "en": "Bhelaghar is associated with which festival?",
+      "as": "ভেলাঘৰ কোন উৎসৱৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Magh Bihu",
+        "as": "মাঘ বিহু"
+      },
+      {
+        "en": "Kati Bihu",
+        "as": "কাতি বিহু"
+      },
+      {
+        "en": "Ambubachi",
+        "as": "অম্বুবাচী"
+      },
+      {
+        "en": "Bohag Bihu",
+        "as": "ব'হাগ বিহু"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bhelaghar is a temporary hut built during Magh Bihu.",
+      "as": "ভেলাঘৰ মাঘ বিহুত সজা অস্থায়ী ঘৰ।"
+    }
+  },
+  {
+    "id": "assam-culture-036",
+    "q": {
+      "en": "Uruka is associated with which Bihu?",
+      "as": "উৰুকা কোন বিহুৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Magh Bihu",
+        "as": "মাঘ বিহু"
+      },
+      {
+        "en": "Kati Bihu",
+        "as": "কাতি বিহু"
+      },
+      {
+        "en": "Baisagu",
+        "as": "বাইচাগু"
+      },
+      {
+        "en": "Bohag Bihu",
+        "as": "ব'হাগ বিহু"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Uruka is the eve of Magh Bihu when feasts are held.",
+      "as": "উৰুকা হৈছে মাঘ বিহুৰ আগৰ ৰাতি যেতিয়া ভোজ দিয়া হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-037",
+    "q": {
+      "en": "Bihu dance is mainly performed during which Bihu?",
+      "as": "বিহু নৃত্য মূলতঃ কোন বিহুত পৰিৱেশন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Kati Bihu",
+        "as": "কাতি বিহু"
+      },
+      {
+        "en": "Kongali Bihu",
+        "as": "কঙালী বিহু"
+      },
+      {
+        "en": "Magh Bihu",
+        "as": "মাঘ বিহু"
+      },
+      {
+        "en": "Bohag Bihu",
+        "as": "ব'হাগ বিহু"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The energetic Bihu dance is mainly performed during Bohag Bihu.",
+      "as": "উদ্যমী বিহু নৃত্য মূলতঃ ব'হাগ বিহুত পৰিৱেশন কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-038",
+    "q": {
+      "en": "During Kati Bihu, a lamp is lit on a bamboo pole in the paddy field. What is it called?",
+      "as": "কাতি বিহুত ধাননি পথাৰত বাঁহৰ খুঁটাত চাকি জ্বলোৱা হয়। ইয়াক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Meji",
+        "as": "মেজি"
+      },
+      {
+        "en": "Akash Banti",
+        "as": "আকাশ বন্তি"
+      },
+      {
+        "en": "Sorai",
+        "as": "চৰাই"
+      },
+      {
+        "en": "Bhelaghar",
+        "as": "ভেলাঘৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An Akash Banti is a lamp lit atop a bamboo pole during Kati Bihu.",
+      "as": "আকাশ বন্তি হৈছে কাতি বিহুত বাঁহৰ খুঁটাত জ্বলোৱা চাকি।"
+    }
+  },
+  {
+    "id": "assam-culture-039",
+    "q": {
+      "en": "Which Bihu is known as the harvest festival of Assam?",
+      "as": "কোন বিহুক অসমৰ শস্য চপোৱা উৎসৱ বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Rongali Bihu",
+        "as": "ৰঙালী বিহু"
+      },
+      {
+        "en": "Kati Bihu",
+        "as": "কাতি বিহু"
+      },
+      {
+        "en": "Magh Bihu",
+        "as": "মাঘ বিহু"
+      },
+      {
+        "en": "Bohag Bihu",
+        "as": "ব'হাগ বিহু"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Magh Bihu is celebrated after the harvest and is known as the harvest festival.",
+      "as": "মাঘ বিহু শস্য চপোৱাৰ পিছত পালন কৰা হয় আৰু ইয়াক শস্য চপোৱা উৎসৱ বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-040",
+    "q": {
+      "en": "Bwisagu is the Bihu-equivalent festival of which community?",
+      "as": "বাইচাগু কোন সম্প্ৰদায়ৰ বিহু-সমতুল্য উৎসৱ?"
+    },
+    "options": [
+      {
+        "en": "Rabha",
+        "as": "ৰাভা"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bwisagu is the New Year festival of the Bodo community.",
+      "as": "বাইচাগু বড়ো সম্প্ৰদায়ৰ নৱবৰ্ষ উৎসৱ।"
+    }
+  },
+  {
+    "id": "assam-culture-041",
+    "q": {
+      "en": "Ambubachi Mela is held at which temple?",
+      "as": "অম্বুবাচী মেলা কোন মন্দিৰত অনুষ্ঠিত হয়?"
+    },
+    "options": [
+      {
+        "en": "Navagraha Temple",
+        "as": "নৱগ্ৰহ মন্দিৰ"
+      },
+      {
+        "en": "Kamakhya Temple",
+        "as": "কামাখ্যা মন্দিৰ"
+      },
+      {
+        "en": "Umananda Temple",
+        "as": "উমানন্দ মন্দিৰ"
+      },
+      {
+        "en": "Doul Govinda",
+        "as": "দৌল গোবিন্দ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ambubachi Mela is held at the Kamakhya Temple in Guwahati.",
+      "as": "অম্বুবাচী মেলা গুৱাহাটীৰ কামাখ্যা মন্দিৰত অনুষ্ঠিত হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-042",
+    "q": {
+      "en": "Ambubachi Mela is celebrated in which month?",
+      "as": "অম্বুবাচী মেলা কোন মাহত পালন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "January",
+        "as": "জানুৱাৰী"
+      },
+      {
+        "en": "March",
+        "as": "মাৰ্চ"
+      },
+      {
+        "en": "October",
+        "as": "অক্টোবৰ"
+      },
+      {
+        "en": "June",
+        "as": "জুন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ambubachi Mela is celebrated in June (Ahaar).",
+      "as": "অম্বুবাচী মেলা জুন (আহাৰ) মাহত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-043",
+    "q": {
+      "en": "Jonbeel Mela is held in which district of Assam?",
+      "as": "জোনবিল মেলা অসমৰ কোন জিলাত অনুষ্ঠিত হয়?"
+    },
+    "options": [
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Barpeta",
+        "as": "বৰপেটা"
+      },
+      {
+        "en": "Morigaon",
+        "as": "মৰিগাঁও"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Jonbeel Mela is held at Jonbeel in the Morigaon district.",
+      "as": "জোনবিল মেলা মৰিগাঁও জিলাৰ জোনবিলত অনুষ্ঠিত হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-044",
+    "q": {
+      "en": "The Jonbeel Mela is famous for which tradition?",
+      "as": "জোনবিল মেলা কোন পৰম্পৰাৰ বাবে জনাজাত?"
+    },
+    "options": [
+      {
+        "en": "Barter trade and community feast",
+        "as": "বিনিময় বাণিজ্য আৰু সমূহীয়া ভোজ"
+      },
+      {
+        "en": "Mask dance",
+        "as": "মুখা নৃত্য"
+      },
+      {
+        "en": "Elephant worship",
+        "as": "হাতী পূজা"
+      },
+      {
+        "en": "Boat racing",
+        "as": "নাও দৌৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Jonbeel Mela is famous for its barter system and community feast.",
+      "as": "জোনবিল মেলা ইয়াৰ বিনিময় প্ৰথা আৰু সমূহীয়া ভোজৰ বাবে জনাজাত।"
+    }
+  },
+  {
+    "id": "assam-culture-045",
+    "q": {
+      "en": "Bathou is a traditional festival of which community?",
+      "as": "বাথৌ কোন সম্প্ৰদায়ৰ পৰম্পৰাগত উৎসৱ?"
+    },
+    "options": [
+      {
+        "en": "Tiwa",
+        "as": "তিওৱা"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Deori",
+        "as": "দেউৰী"
+      },
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bathou is the traditional worship festival of the Bodo community.",
+      "as": "বাথৌ বড়ো সম্প্ৰদায়ৰ পৰম্পৰাগত পূজা উৎসৱ।"
+    }
+  },
+  {
+    "id": "assam-culture-046",
+    "q": {
+      "en": "Ali-Ai-Ligang is the spring festival of which community?",
+      "as": "আলি-আই-লিগাং কোন সম্প্ৰদায়ৰ বসন্ত উৎসৱ?"
+    },
+    "options": [
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      },
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Rabha",
+        "as": "ৰাভা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ali-Ai-Ligang is the sowing festival of the Mising community.",
+      "as": "আলি-আই-লিগাং মিচিং সম্প্ৰদায়ৰ সিঁচনী উৎসৱ।"
+    }
+  },
+  {
+    "id": "assam-culture-047",
+    "q": {
+      "en": "Wangala is the harvest festival of which community?",
+      "as": "ৱাংগালা কোন সম্প্ৰদায়ৰ শস্য চপোৱা উৎসৱ?"
+    },
+    "options": [
+      {
+        "en": "Garo",
+        "as": "গাৰো"
+      },
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      },
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Wangala is the harvest festival of the Garo community.",
+      "as": "ৱাংগালা গাৰো সম্প্ৰদায়ৰ শস্য চপোৱা উৎসৱ।"
+    }
+  },
+  {
+    "id": "assam-culture-048",
+    "q": {
+      "en": "Sangken is the water festival of which community?",
+      "as": "চাংকেন কোন সম্প্ৰদায়ৰ জল উৎসৱ?"
+    },
+    "options": [
+      {
+        "en": "Tai-Khamti",
+        "as": "তাই-খামটি"
+      },
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Rabha",
+        "as": "ৰাভা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sangken is the water festival of the Tai-Khamti community.",
+      "as": "চাংকেন তাই-খামটি সম্প্ৰদায়ৰ জল উৎসৱ।"
+    }
+  },
+  {
+    "id": "assam-culture-049",
+    "q": {
+      "en": "Which festival is celebrated as the New Year by many communities of Assam in mid-April?",
+      "as": "অসমৰ বহু সম্প্ৰদায়ে এপ্ৰিল মাজভাগত কোন উৎসৱ নৱবৰ্ষ হিচাপে পালন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Kati Bihu",
+        "as": "কাতি বিহু"
+      },
+      {
+        "en": "Bohag Bihu",
+        "as": "ব'হাগ বিহু"
+      },
+      {
+        "en": "Magh Bihu",
+        "as": "মাঘ বিহু"
+      },
+      {
+        "en": "Ambubachi",
+        "as": "অম্বুবাচী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bohag Bihu is celebrated as the New Year in mid-April.",
+      "as": "ব'হাগ বিহু এপ্ৰিল মাজভাগত নৱবৰ্ষ হিচাপে পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-050",
+    "q": {
+      "en": "Which folk dance is an inseparable part of the Bihu celebration?",
+      "as": "কোন লোক নৃত্য বিহু উৎসৱৰ অবিচ্ছেদ্য অংশ?"
+    },
+    "options": [
+      {
+        "en": "Chhau",
+        "as": "ছৌ"
+      },
+      {
+        "en": "Bihu dance",
+        "as": "বিহু নৃত্য"
+      },
+      {
+        "en": "Garba",
+        "as": "গৰবা"
+      },
+      {
+        "en": "Kathak",
+        "as": "কথক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Bihu dance is inseparable from the Bihu festival.",
+      "as": "বিহু নৃত্য বিহু উৎসৱৰ অবিচ্ছেদ্য অংশ।"
+    }
+  },
+  {
+    "id": "assam-culture-051",
+    "q": {
+      "en": "What is the traditional Assamese greeting exchanged during Bihu?",
+      "as": "বিহুৰ সময়ত বিনিময় কৰা পৰম্পৰাগত অসমীয়া সম্ভাষণ কি?"
+    },
+    "options": [
+      {
+        "en": "Khublei",
+        "as": "খুবলেই"
+      },
+      {
+        "en": "Nomoskar",
+        "as": "নমস্কাৰ"
+      },
+      {
+        "en": "Bihur Xubhechha",
+        "as": "বিহুৰ শুভেচ্ছা"
+      },
+      {
+        "en": "Namaste",
+        "as": "নমস্তে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "People greet each other with Bihur Xubhechha during Bihu.",
+      "as": "বিহুৰ সময়ত লোকে বিহুৰ শুভেচ্ছা জনাই।"
+    }
+  },
+  {
+    "id": "assam-culture-052",
+    "q": {
+      "en": "Which festival is associated with the worship of the serpent goddess Manasa in Assam?",
+      "as": "অসমত কোন উৎসৱ সৰ্প দেৱী মনসাৰ পূজাৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Sangken",
+        "as": "চাংকেন"
+      },
+      {
+        "en": "Wangala",
+        "as": "ৱাংগালা"
+      },
+      {
+        "en": "Manasa Puja",
+        "as": "মনসা পূজা"
+      },
+      {
+        "en": "Bathou",
+        "as": "বাথৌ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Manasa Puja is performed for the worship of the serpent goddess in Assam.",
+      "as": "মনসা পূজা অসমত সৰ্প দেৱীৰ পূজাৰ বাবে কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-053",
+    "q": {
+      "en": "Which festival is marked by the 'Doul Utsav' in Assam?",
+      "as": "অসমত 'দৌল উৎসৱ'ৰ সৈতে কোন উৎসৱ জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Bihu",
+        "as": "বিহু"
+      },
+      {
+        "en": "Diwali",
+        "as": "দীপাৱলী"
+      },
+      {
+        "en": "Holi",
+        "as": "হোলী"
+      },
+      {
+        "en": "Eid",
+        "as": "ঈদ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Doul Utsav, associated with Holi, is celebrated in Assam in the Barpeta region.",
+      "as": "হোলীৰ সৈতে জড়িত দৌল উৎসৱ অসমৰ বৰপেটা অঞ্চলত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-054",
+    "q": {
+      "en": "The Pepa is a traditional Assamese musical instrument made from what?",
+      "as": "পেঁপা অসমৰ পৰম্পৰাগত বাদ্যযন্ত্ৰ, ই কিৰ পৰা তৈয়াৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Wood",
+        "as": "কাঠ"
+      },
+      {
+        "en": "Buffalo horn",
+        "as": "ম'হৰ শিং"
+      },
+      {
+        "en": "Clay",
+        "as": "মাটি"
+      },
+      {
+        "en": "Bamboo",
+        "as": "বাঁহ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Pepa is a wind instrument made from a buffalo horn.",
+      "as": "পেঁপা ম'হৰ শিঙৰ পৰা তৈয়াৰী বায়ু বাদ্যযন্ত্ৰ।"
+    }
+  },
+  {
+    "id": "assam-culture-055",
+    "q": {
+      "en": "The Gogona is made of which material?",
+      "as": "গগনা কোন বস্তুৰে তৈয়াৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Clay",
+        "as": "মাটি"
+      },
+      {
+        "en": "Brass",
+        "as": "পিতল"
+      },
+      {
+        "en": "Iron",
+        "as": "লোহা"
+      },
+      {
+        "en": "Bamboo",
+        "as": "বাঁহ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Gogona is a bamboo jaw harp used in Bihu.",
+      "as": "গগনা ব'হাগ বিহুত ব্যৱহৃত বাঁহৰ বাদ্যযন্ত্ৰ।"
+    }
+  },
+  {
+    "id": "assam-culture-056",
+    "q": {
+      "en": "The Xutuli is traditionally made of what?",
+      "as": "শুতুলি পৰম্পৰাগতভাৱে কিৰে তৈয়াৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Cane",
+        "as": "বেত"
+      },
+      {
+        "en": "Bamboo",
+        "as": "বাঁহ"
+      },
+      {
+        "en": "Brass",
+        "as": "পিতল"
+      },
+      {
+        "en": "Clay",
+        "as": "মাটি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Xutuli is a small clay whistle used in Assamese folk music.",
+      "as": "শুতুলি অসমীয়া লোক সংগীতত ব্যৱহৃত সৰু মাটিৰ বাদ্যযন্ত্ৰ।"
+    }
+  },
+  {
+    "id": "assam-culture-057",
+    "q": {
+      "en": "The Khol is which type of musical instrument?",
+      "as": "খোল কোন ধৰণৰ বাদ্যযন্ত্ৰ?"
+    },
+    "options": [
+      {
+        "en": "A string instrument",
+        "as": "তাৰৰ বাদ্যযন্ত্ৰ"
+      },
+      {
+        "en": "A cymbal",
+        "as": "তাল"
+      },
+      {
+        "en": "A wind instrument",
+        "as": "বায়ু বাদ্যযন্ত্ৰ"
+      },
+      {
+        "en": "A two-faced drum",
+        "as": "দুইমুখীয়া ঢোল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Khol is a two-faced drum central to Vaishnavite music.",
+      "as": "খোল বৈষ্ণৱ সংগীতৰ মূল দুইমুখীয়া ঢোল।"
+    }
+  },
+  {
+    "id": "assam-culture-058",
+    "q": {
+      "en": "The Taal used in Namghar is a type of what?",
+      "as": "নামঘৰত ব্যৱহৃত তাল কি প্ৰকাৰৰ?"
+    },
+    "options": [
+      {
+        "en": "Drum",
+        "as": "ঢোল"
+      },
+      {
+        "en": "String instrument",
+        "as": "তাৰৰ যন্ত্ৰ"
+      },
+      {
+        "en": "Flute",
+        "as": "বাঁহী"
+      },
+      {
+        "en": "Cymbal",
+        "as": "তাল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Taal is a pair of metal cymbals used in devotional music.",
+      "as": "তাল ভক্তিমূলক সংগীতত ব্যৱহৃত ধাতুৰ তালৰ যোৰ।"
+    }
+  },
+  {
+    "id": "assam-culture-059",
+    "q": {
+      "en": "Which instrument is a traditional Assamese bamboo flute?",
+      "as": "কোনটো অসমৰ পৰম্পৰাগত বাঁহৰ বাঁহী?"
+    },
+    "options": [
+      {
+        "en": "Khol",
+        "as": "খোল"
+      },
+      {
+        "en": "Dhol",
+        "as": "ঢোল"
+      },
+      {
+        "en": "Bahi",
+        "as": "বাঁহী"
+      },
+      {
+        "en": "Taal",
+        "as": "তাল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Bahi is the traditional Assamese bamboo flute.",
+      "as": "বাঁহী অসমৰ পৰম্পৰাগত বাঁহৰ বাঁহী।"
+    }
+  },
+  {
+    "id": "assam-culture-060",
+    "q": {
+      "en": "Ojapali is a traditional Assamese form of what?",
+      "as": "ওজাপালি অসমৰ পৰম্পৰাগত কি ৰূপ?"
+    },
+    "options": [
+      {
+        "en": "Painting",
+        "as": "চিত্ৰকলা"
+      },
+      {
+        "en": "Wrestling",
+        "as": "কুস্তি"
+      },
+      {
+        "en": "Pottery",
+        "as": "কুম্ভকৰ্ম"
+      },
+      {
+        "en": "Narrative song and dance",
+        "as": "নাট্য গীত আৰু নৃত্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ojapali is a traditional narrative song and dance form of Assam.",
+      "as": "ওজাপালি অসমৰ পৰম্পৰাগত আখ্যানমূলক গীত আৰু নৃত্যৰ ৰূপ।"
+    }
+  },
+  {
+    "id": "assam-culture-061",
+    "q": {
+      "en": "Bagurumba is the traditional dance of which community?",
+      "as": "বাগৰুম্বা কোন সম্প্ৰদায়ৰ পৰম্পৰাগত নৃত্য?"
+    },
+    "options": [
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Rabha",
+        "as": "ৰাভা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bagurumba is the traditional dance of the Bodo community.",
+      "as": "বাগৰুম্বা বড়ো সম্প্ৰদায়ৰ পৰম্পৰাগত নৃত্য।"
+    }
+  },
+  {
+    "id": "assam-culture-062",
+    "q": {
+      "en": "The Deodhani dance is associated with which deity?",
+      "as": "দেৱধনী নৃত্য কোন দেৱতাৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Durga",
+        "as": "দুৰ্গা"
+      },
+      {
+        "en": "Saraswati",
+        "as": "সৰস্বতী"
+      },
+      {
+        "en": "Lakshmi",
+        "as": "লক্ষ্মী"
+      },
+      {
+        "en": "Manasa",
+        "as": "মনসা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Deodhani dance is performed in worship of the serpent goddess Manasa.",
+      "as": "দেৱধনী নৃত্য সৰ্প দেৱী মনসাৰ পূজাত পৰিৱেশন কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-063",
+    "q": {
+      "en": "Jhumur is a popular dance form of which group?",
+      "as": "ঝুমুৰ কোন গোটৰ জনপ্ৰিয় নৃত্যৰ ৰূপ?"
+    },
+    "options": [
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Tea garden communities",
+        "as": "চাহ বাগিচা সম্প্ৰদায়"
+      },
+      {
+        "en": "Garo",
+        "as": "গাৰো"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Jhumur is popular among the tea garden communities of Assam.",
+      "as": "ঝুমুৰ অসমৰ চাহ বাগিচা সম্প্ৰদায়ৰ মাজত জনপ্ৰিয়।"
+    }
+  },
+  {
+    "id": "assam-culture-064",
+    "q": {
+      "en": "Bhortal Nritya is a devotional dance performed using which instrument?",
+      "as": "ভোৰতাল নৃত্য কোন বাদ্যযন্ত্ৰ ব্যৱহাৰ কৰি পৰিৱেশন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Flute",
+        "as": "বাঁহী"
+      },
+      {
+        "en": "Khol",
+        "as": "খোল"
+      },
+      {
+        "en": "Dhol",
+        "as": "ঢোল"
+      },
+      {
+        "en": "Cymbals",
+        "as": "তাল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bhortal Nritya is performed with cymbals (bhortal).",
+      "as": "ভোৰতাল নৃত্য তাল (ভোৰতাল) লৈ পৰিৱেশন কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-065",
+    "q": {
+      "en": "Which Assamese singer is popularly known as the 'Bihu Samrat'?",
+      "as": "কোন অসমীয়া গায়কক 'বিহু সম্ৰাট' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Zubeen Garg",
+        "as": "জুবিন গাৰ্গ"
+      },
+      {
+        "en": "Dwijen Baruah",
+        "as": "দ্বিজেন বৰুৱা"
+      },
+      {
+        "en": "Khagen Mahanta",
+        "as": "খগেন মহন্ত"
+      },
+      {
+        "en": "Bhupen Hazarika",
+        "as": "ভূপেন হাজৰিকা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Khagen Mahanta is popularly known as the Bihu Samrat.",
+      "as": "খগেন মহন্তক বিহু সম্ৰাট বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "assam-culture-066",
+    "q": {
+      "en": "Who is known as the 'Xudha Kontho' of Assam?",
+      "as": "কাক অসমৰ 'সুধাকণ্ঠ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Bishnu Prasad Rabha",
+        "as": "বিষ্ণুপ্ৰসাদ ৰাভা"
+      },
+      {
+        "en": "Jyoti Prasad Agarwala",
+        "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+      },
+      {
+        "en": "Khagen Mahanta",
+        "as": "খগেন মহন্ত"
+      },
+      {
+        "en": "Bhupen Hazarika",
+        "as": "ভূপেন হাজৰিকা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bhupen Hazarika is popularly known as the Xudha Kontho of Assam.",
+      "as": "ভূপেন হাজৰিকাক অসমৰ সুধাকণ্ঠ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "assam-culture-067",
+    "q": {
+      "en": "Which institution is regarded as the oldest cultural organisation of Assam?",
+      "as": "কোন অনুস্থানক অসমৰ আটাইতকৈ পুৰণি সাংস্কৃতিক সংগঠন বুলি গণ্য কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Srimanta Sankaradeva Kalakshetra",
+        "as": "শ্ৰীমন্ত শংকৰদেৱ কলাক্ষেত্ৰ"
+      },
+      {
+        "en": "Assam Academy",
+        "as": "অসম একাডেমী"
+      },
+      {
+        "en": "Gauhati Artists' Guild",
+        "as": "গুৱাহাটী আৰ্টিষ্টছ গিল্ড"
+      },
+      {
+        "en": "Assam Sahitya Sabha",
+        "as": "অসম সাহিত্য সভা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Assam Sahitya Sabha, founded in 1917, is a leading cultural and literary organisation.",
+      "as": "১৯১৭ চনত প্ৰতিষ্ঠা হোৱা অসম সাহিত্য সভা এটা আগশাৰীৰ সাংস্কৃতিক আৰু সাহিত্যিক সংগঠন।"
+    }
+  },
+  {
+    "id": "assam-culture-068",
+    "q": {
+      "en": "Which traditional Assamese instrument is a string instrument?",
+      "as": "অসমৰ কোন পৰম্পৰাগত বাদ্যযন্ত্ৰ এটা তাৰৰ যন্ত্ৰ?"
+    },
+    "options": [
+      {
+        "en": "Dotara",
+        "as": "দোতাৰা"
+      },
+      {
+        "en": "Xutuli",
+        "as": "শুতুলি"
+      },
+      {
+        "en": "Pepa",
+        "as": "পেঁপা"
+      },
+      {
+        "en": "Dhol",
+        "as": "ঢোল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Dotara is a traditional string instrument played in Assam.",
+      "as": "দোতাৰা অসমত বজোৱা পৰম্পৰাগত তাৰৰ বাদ্যযন্ত্ৰ।"
+    }
+  },
+  {
+    "id": "assam-culture-069",
+    "q": {
+      "en": "Which dance form is performed by men in circles during Holi in Barpeta?",
+      "as": "বৰপেটাত হোলীৰ সময়ত পুৰুষে বৃত্তাকাৰে কোন নৃত্য পৰিৱেশন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Deodhani",
+        "as": "দেৱধনী"
+      },
+      {
+        "en": "Bihu",
+        "as": "বিহু"
+      },
+      {
+        "en": "Bhortal Nritya",
+        "as": "ভোৰতাল নৃত্য"
+      },
+      {
+        "en": "Bagurumba",
+        "as": "বাগৰুম্বা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bhortal Nritya is performed in circles, notably in the Barpeta region.",
+      "as": "ভোৰতাল নৃত্য বৃত্তাকাৰে পৰিৱেশন কৰা হয়, বিশেষকৈ বৰপেটা অঞ্চলত।"
+    }
+  },
+  {
+    "id": "assam-culture-070",
+    "q": {
+      "en": "The 'Doba' is a traditional Assamese instrument of which type?",
+      "as": "দবা অসমৰ কোন ধৰণৰ পৰম্পৰাগত বাদ্যযন্ত্ৰ?"
+    },
+    "options": [
+      {
+        "en": "A flute",
+        "as": "বাঁহী"
+      },
+      {
+        "en": "A cymbal",
+        "as": "তাল"
+      },
+      {
+        "en": "A string instrument",
+        "as": "তাৰৰ যন্ত্ৰ"
+      },
+      {
+        "en": "A drum",
+        "as": "ঢোল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Doba is a traditional Assamese drum.",
+      "as": "দবা অসমৰ পৰম্পৰাগত ঢোল।"
+    }
+  },
+  {
+    "id": "assam-culture-071",
+    "q": {
+      "en": "The Sarinda is a traditional Assamese instrument of which type?",
+      "as": "চাৰিন্দা অসমৰ কোন ধৰণৰ পৰম্পৰাগত বাদ্যযন্ত্ৰ?"
+    },
+    "options": [
+      {
+        "en": "A string instrument",
+        "as": "তাৰৰ যন্ত্ৰ"
+      },
+      {
+        "en": "A cymbal",
+        "as": "তাল"
+      },
+      {
+        "en": "A flute",
+        "as": "বাঁহী"
+      },
+      {
+        "en": "A drum",
+        "as": "ঢোল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Sarinda is a bowed string instrument used in Assamese folk music.",
+      "as": "চাৰিন্দা অসমীয়া লোক সংগীতত ব্যৱহৃত তাৰৰ বাদ্যযন্ত্ৰ।"
+    }
+  },
+  {
+    "id": "assam-culture-072",
+    "q": {
+      "en": "Sattriya dance performances in Satras are usually held in which structure?",
+      "as": "সত্ৰত সত্ৰীয়া নৃত্য প্ৰদৰ্শন সাধাৰণতে কোন স্থানত অনুষ্ঠিত হয়?"
+    },
+    "options": [
+      {
+        "en": "Rajghar",
+        "as": "ৰাজঘৰ"
+      },
+      {
+        "en": "Namghar",
+        "as": "নামঘৰ"
+      },
+      {
+        "en": "Ghat",
+        "as": "ঘাট"
+      },
+      {
+        "en": "Bazar",
+        "as": "বজাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sattriya dance is traditionally performed in the Namghar of a Satra.",
+      "as": "সত্ৰীয়া নৃত্য পৰম্পৰাগতভাৱে সত্ৰৰ নামঘৰত পৰিৱেশন কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-073",
+    "q": {
+      "en": "The Bihu dance is performed by which group of people traditionally?",
+      "as": "বিহু নৃত্য পৰম্পৰাগতভাৱে কোনসকলে পৰিৱেশন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Only men",
+        "as": "কেৱল পুৰুষ"
+      },
+      {
+        "en": "Only women",
+        "as": "কেৱল মহিলা"
+      },
+      {
+        "en": "Only children",
+        "as": "কেৱল শিশু"
+      },
+      {
+        "en": "Young men and women",
+        "as": "যুৱক-যুৱতী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bihu dance is performed by young men and women together.",
+      "as": "বিহু নৃত্য যুৱক-যুৱতীয়ে একেলগে পৰিৱেশন কৰে।"
+    }
+  },
+  {
+    "id": "assam-culture-074",
+    "q": {
+      "en": "Which Assamese cultural figure is known as 'Rupkonwar'?",
+      "as": "কোন অসমীয়া সাংস্কৃতিক ব্যক্তিক 'ৰূপকোঁৱৰ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Phani Sarma",
+        "as": "ফণী শৰ্মা"
+      },
+      {
+        "en": "Bishnu Prasad Rabha",
+        "as": "বিষ্ণুপ্ৰসাদ ৰাভা"
+      },
+      {
+        "en": "Lakshminath Bezbaroa",
+        "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+      },
+      {
+        "en": "Jyoti Prasad Agarwala",
+        "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Jyoti Prasad Agarwala is known as Rupkonwar.",
+      "as": "জ্যোতিপ্ৰসাদ আগৰৱালাক ৰূপকোঁৱৰ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "assam-culture-075",
+    "q": {
+      "en": "Which Assamese cultural figure is known as 'Kalaguru'?",
+      "as": "কোন অসমীয়া সাংস্কৃতিক ব্যক্তিক 'কালাগুৰু' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Bhupen Hazarika",
+        "as": "ভূপেন হাজৰিকা"
+      },
+      {
+        "en": "Jyoti Prasad Agarwala",
+        "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+      },
+      {
+        "en": "Bishnu Prasad Rabha",
+        "as": "বিষ্ণুপ্ৰসাদ ৰাভা"
+      },
+      {
+        "en": "Phani Sarma",
+        "as": "ফণী শৰ্মা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bishnu Prasad Rabha is known as Kalaguru.",
+      "as": "বিষ্ণুপ্ৰসাদ ৰাভাক কালাগুৰু বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "assam-culture-076",
+    "q": {
+      "en": "Which Assamese personality is known as 'Natasurya'?",
+      "as": "কোন অসমীয়া ব্যক্তিক 'নটসূৰ্য' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Phani Sarma",
+        "as": "ফণী শৰ্মা"
+      },
+      {
+        "en": "Bhupen Hazarika",
+        "as": "ভূপেন হাজৰিকা"
+      },
+      {
+        "en": "Jyoti Prasad Agarwala",
+        "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+      },
+      {
+        "en": "Bishnu Prasad Rabha",
+        "as": "বিষ্ণুপ্ৰসাদ ৰাভা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Phani Sarma is known as Natasurya for his contributions to Assamese theatre.",
+      "as": "অসমীয়া নাট্য জগতলৈ অৱদানৰ বাবে ফণী শৰ্মাক নটসূৰ্য বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "assam-culture-077",
+    "q": {
+      "en": "Which musical instrument is central to Vaishnavite devotional music of Assam?",
+      "as": "অসমৰ বৈষ্ণৱ ভক্তিমূলক সংগীতৰ কেন্দ্ৰীয় বাদ্যযন্ত্ৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Dhol",
+        "as": "ঢোল"
+      },
+      {
+        "en": "Khol",
+        "as": "খোল"
+      },
+      {
+        "en": "Pepa",
+        "as": "পেঁপা"
+      },
+      {
+        "en": "Gogona",
+        "as": "গগনা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Khol is central to Vaishnavite devotional music in Assam.",
+      "as": "খোল অসমৰ বৈষ্ণৱ ভক্তিমূলক সংগীতৰ কেন্দ্ৰীয় বাদ্যযন্ত্ৰ।"
+    }
+  },
+  {
+    "id": "assam-culture-078",
+    "q": {
+      "en": "Which folk instrument is played by blowing and is made from a buffalo horn?",
+      "as": "কোন লোক বাদ্যযন্ত্ৰ ফুঁ মাৰি বজোৱা হয় আৰু ম'হৰ শিঙৰ পৰা তৈয়াৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Xutuli",
+        "as": "শুতুলি"
+      },
+      {
+        "en": "Pepa",
+        "as": "পেঁপা"
+      },
+      {
+        "en": "Taal",
+        "as": "তাল"
+      },
+      {
+        "en": "Gogona",
+        "as": "গগনা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Pepa is a buffalo-horn wind instrument.",
+      "as": "পেঁপা ম'হৰ শিঙৰ বায়ু বাদ্যযন্ত্ৰ।"
+    }
+  },
+  {
+    "id": "assam-culture-079",
+    "q": {
+      "en": "Muga silk of Assam is famous for which colour?",
+      "as": "অসমৰ মুগা ৰেচম কোন ৰঙৰ বাবে জনাজাত?"
+    },
+    "options": [
+      {
+        "en": "White",
+        "as": "বগা"
+      },
+      {
+        "en": "Black",
+        "as": "ক'লা"
+      },
+      {
+        "en": "Golden",
+        "as": "সোণালী"
+      },
+      {
+        "en": "Blue",
+        "as": "নীলা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Muga silk is famous for its natural golden colour.",
+      "as": "মুগা ৰেচম ইয়াৰ প্ৰাকৃতিক সোণালী ৰঙৰ বাবে জনাজাত।"
+    }
+  },
+  {
+    "id": "assam-culture-080",
+    "q": {
+      "en": "Which silk variety is produced almost exclusively in Assam?",
+      "as": "কোন ৰেচম প্ৰকাৰ প্ৰায় কেৱল অসমত উৎপাদন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Mulberry",
+        "as": "মালবেৰী"
+      },
+      {
+        "en": "Muga",
+        "as": "মুগা"
+      },
+      {
+        "en": "Tussar",
+        "as": "তছৰ"
+      },
+      {
+        "en": "Kosa",
+        "as": "কোষা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Muga silk is produced almost exclusively in Assam.",
+      "as": "মুগা ৰেচম প্ৰায় কেৱল অসমত উৎপাদন কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-081",
+    "q": {
+      "en": "Which silk is popularly known as the 'golden silk' of Assam?",
+      "as": "কোন ৰেচমক অসমৰ 'সোণালী ৰেচম' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Eri",
+        "as": "এৰী"
+      },
+      {
+        "en": "Mulberry",
+        "as": "মালবেৰী"
+      },
+      {
+        "en": "Pat",
+        "as": "পাট"
+      },
+      {
+        "en": "Muga",
+        "as": "মুগা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Muga silk is popularly known as the golden silk of Assam.",
+      "as": "মুগা ৰেচমক অসমৰ সোণালী ৰেচম বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "assam-culture-082",
+    "q": {
+      "en": "Eri silk is also known by which name?",
+      "as": "এৰী ৰেচমক আন কোন নামেৰে জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Golden silk",
+        "as": "সোণালী ৰেচম"
+      },
+      {
+        "en": "Sea silk",
+        "as": "সাগৰীয় ৰেচম"
+      },
+      {
+        "en": "Spider silk",
+        "as": "মকৰা ৰেচম"
+      },
+      {
+        "en": "Ahimsa silk",
+        "as": "অহিংসা ৰেচম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Eri silk is also known as Ahimsa silk as it is obtained without killing the silkworm.",
+      "as": "পলু নমৰাকৈ পোৱা বাবে এৰী ৰেচমক অহিংসা ৰেচম বুলিও জনা যায়।"
+    }
+  },
+  {
+    "id": "assam-culture-083",
+    "q": {
+      "en": "Which town of Assam is known as the 'Silk City'?",
+      "as": "অসমৰ কোন চহৰক 'ৰেচম নগৰ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Barpeta",
+        "as": "বৰপেটা"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Sualkuchi",
+        "as": "শুৱালকুছি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sualkuchi is known as the Silk City of Assam.",
+      "as": "শুৱালকুছিক অসমৰ ৰেচম নগৰ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "assam-culture-084",
+    "q": {
+      "en": "Sualkuchi, the Silk City, is located in which district?",
+      "as": "ৰেচম নগৰ শুৱালকুছি কোন জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Kamrup",
+        "as": "কামৰূপ"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sualkuchi is located in the Kamrup district of Assam.",
+      "as": "শুৱালকুছি অসমৰ কামৰূপ জিলাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-culture-085",
+    "q": {
+      "en": "Which Assamese silk received the Geographical Indication (GI) tag first?",
+      "as": "কোন অসমীয়া ৰেচমে প্ৰথমে ভৌগোলিক সংকেত (জি আই) টেগ পাইছিল?"
+    },
+    "options": [
+      {
+        "en": "Tussar silk",
+        "as": "তছৰ ৰেচম"
+      },
+      {
+        "en": "Pat silk",
+        "as": "পাট ৰেচম"
+      },
+      {
+        "en": "Eri silk",
+        "as": "এৰী ৰেচম"
+      },
+      {
+        "en": "Muga silk",
+        "as": "মুগা ৰেচম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assam Muga silk received the GI tag.",
+      "as": "অসমৰ মুগা ৰেচমে জি আই টেগ লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-086",
+    "q": {
+      "en": "What is a 'Japi' in Assamese culture?",
+      "as": "অসমীয়া সংস্কৃতিত 'জাপি' কি?"
+    },
+    "options": [
+      {
+        "en": "A river boat",
+        "as": "নদীৰ নাও"
+      },
+      {
+        "en": "A musical instrument",
+        "as": "বাদ্যযন্ত্ৰ"
+      },
+      {
+        "en": "A traditional headgear",
+        "as": "পৰম্পৰাগত মূৰৰ টুপী"
+      },
+      {
+        "en": "A sweet dish",
+        "as": "মিঠাই"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Japi is a traditional conical headgear of Assam.",
+      "as": "জাপি অসমৰ পৰম্পৰাগত শঙ্কু আকৃতিৰ মূৰৰ টুপী।"
+    }
+  },
+  {
+    "id": "assam-culture-087",
+    "q": {
+      "en": "The Japi is traditionally made from what?",
+      "as": "জাপি পৰম্পৰাগতভাৱে কিৰে তৈয়াৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Clay and wood",
+        "as": "মাটি আৰু কাঠ"
+      },
+      {
+        "en": "Cotton and silk",
+        "as": "কপাহ আৰু ৰেচম"
+      },
+      {
+        "en": "Brass and bell metal",
+        "as": "পিতল আৰু কাঁহ"
+      },
+      {
+        "en": "Bamboo and cane",
+        "as": "বাঁহ আৰু বেত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Japi is woven from bamboo and cane.",
+      "as": "জাপি বাঁহ আৰু বেতৰ পৰা বোৱা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-088",
+    "q": {
+      "en": "What is a 'Gamosa'?",
+      "as": "গামোচা কি?"
+    },
+    "options": [
+      {
+        "en": "A rice dish",
+        "as": "চাউলৰ খাদ্য"
+      },
+      {
+        "en": "A folk dance",
+        "as": "লোক নৃত্য"
+      },
+      {
+        "en": "A festival",
+        "as": "উৎসৱ"
+      },
+      {
+        "en": "A traditional Assamese woven cloth",
+        "as": "পৰম্পৰাগত অসমীয়া বোৱা কাপোৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Gamosa is a traditional Assamese woven towel offered as a mark of respect.",
+      "as": "গামোচা সন্মানৰ চিন হিচাপে আগবঢ়োৱা পৰম্পৰাগত অসমীয়া বোৱা কাপোৰ।"
+    }
+  },
+  {
+    "id": "assam-culture-089",
+    "q": {
+      "en": "A Gamosa with red woven motifs is called what?",
+      "as": "ৰঙা বুটাবহন কৰা গামোচাক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Pitha Gamosa",
+        "as": "পিঠা গামোচা"
+      },
+      {
+        "en": "Xorai Gamosa",
+        "as": "চৰাই গামোচা"
+      },
+      {
+        "en": "Phulam Gamosa",
+        "as": "ফুলাম গামোচা"
+      },
+      {
+        "en": "Bihu Gamosa",
+        "as": "বিহু গামোচা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A Gamosa with floral designs is called Phulam Gamosa.",
+      "as": "ফুলৰ ডিজাইন থকা গামোচাক ফুলাম গামোচা বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-090",
+    "q": {
+      "en": "The 'Xorai' is a traditional Assamese vessel used for what?",
+      "as": "চৰাই অসমৰ পৰম্পৰাগত পাত্ৰ কি কামত ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Offering betel nut and showing respect",
+        "as": "চুপাৰি আগবঢ়াই সন্মান জনোৱা"
+      },
+      {
+        "en": "Carrying water",
+        "as": "পানী কঢ়িওৱা"
+      },
+      {
+        "en": "Cooking rice",
+        "as": "চাউল ৰন্ধা"
+      },
+      {
+        "en": "Storing grain",
+        "as": "ধান ভঁৰাল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Xorai is a bell-metal stand used to offer betel nut and show respect.",
+      "as": "চৰাই কাঁহৰ পাত্ৰ যি চুপাৰি আগবঢ়াই সন্মান জনাবলৈ ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-091",
+    "q": {
+      "en": "Which place in Assam is famous for bell metal and brass industry?",
+      "as": "অসমৰ কোন স্থান কাঁহ আৰু পিতল উদ্যোগৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Sarthebari",
+        "as": "সৰ্থেবাৰী"
+      },
+      {
+        "en": "Sualkuchi",
+        "as": "শুৱালকুছি"
+      },
+      {
+        "en": "Majuli",
+        "as": "মাজুলী"
+      },
+      {
+        "en": "Asharikandi",
+        "as": "আশাৰীকান্দি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sarthebari in Barpeta district is famous for the bell metal and brass industry.",
+      "as": "বৰপেটা জিলাৰ সৰ্থেবাৰী কাঁহ-পিতল উদ্যোগৰ বাবে বিখ্যাত।"
+    }
+  },
+  {
+    "id": "assam-culture-092",
+    "q": {
+      "en": "Sarthebari is located in which district of Assam?",
+      "as": "সৰ্থেবাৰী অসমৰ কোন জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Barpeta",
+        "as": "বৰপেটা"
+      },
+      {
+        "en": "Kamrup",
+        "as": "কামৰূপ"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sarthebari is located in the Barpeta district.",
+      "as": "সৰ্থেবাৰী বৰপেটা জিলাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-culture-093",
+    "q": {
+      "en": "Which place is famous for traditional mask making in Assam?",
+      "as": "অসমৰ কোন স্থান পৰম্পৰাগত মুখা নিৰ্মাণৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Sualkuchi",
+        "as": "শুৱালকুছি"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Barpeta",
+        "as": "বৰপেটা"
+      },
+      {
+        "en": "Majuli",
+        "as": "মাজুলী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Majuli is famous for the traditional mask-making craft of the Satras.",
+      "as": "মাজুলী সত্ৰসমূহৰ পৰম্পৰাগত মুখা নিৰ্মাণ শিল্পৰ বাবে বিখ্যাত।"
+    }
+  },
+  {
+    "id": "assam-culture-094",
+    "q": {
+      "en": "The traditional mask-making art of Majuli is associated with which institution?",
+      "as": "মাজুলীৰ পৰম্পৰাগত মুখা নিৰ্মাণ কলা কোন অনুস্থানৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Rajghar",
+        "as": "ৰাজঘৰ"
+      },
+      {
+        "en": "Satra",
+        "as": "সত্ৰ"
+      },
+      {
+        "en": "Namghar",
+        "as": "নামঘৰ"
+      },
+      {
+        "en": "Pathshala",
+        "as": "পাঠশালা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Masks in Majuli are traditionally made in the Satras for Ankiya Naat performances.",
+      "as": "মাজুলীৰ মুখা পৰম্পৰাগতভাৱে সত্ৰত অংকীয়া নাট পৰিৱেশনাৰ বাবে নিৰ্মাণ কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-095",
+    "q": {
+      "en": "Asharikandi in Assam is famous for which craft?",
+      "as": "অসমৰ আশাৰীকান্দি কোন শিল্পৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Bell metal",
+        "as": "কাঁহ শিল্প"
+      },
+      {
+        "en": "Terracotta",
+        "as": "টেৰাকোটা"
+      },
+      {
+        "en": "Silk weaving",
+        "as": "ৰেচম বোৱা"
+      },
+      {
+        "en": "Mask making",
+        "as": "মুখা নিৰ্মাণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Asharikandi in Dhubri district is famous for terracotta craft.",
+      "as": "ধুবুৰী জিলাৰ আশাৰীকান্দি টেৰাকোটা শিল্পৰ বাবে বিখ্যাত।"
+    }
+  },
+  {
+    "id": "assam-culture-096",
+    "q": {
+      "en": "The traditional Assamese women's attire 'Mekhela Chador' is made of which fabric?",
+      "as": "পৰম্পৰাগত অসমীয়া মহিলাৰ পোছাক 'মেখেলা চাদৰ' কোন কাপোৰৰ পৰা তৈয়াৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Silk",
+        "as": "ৰেচম"
+      },
+      {
+        "en": "Leather",
+        "as": "চামৰা"
+      },
+      {
+        "en": "Jute",
+        "as": "পাট"
+      },
+      {
+        "en": "Wool",
+        "as": "ঊণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mekhela Chador is traditionally woven from silk.",
+      "as": "মেখেলা চাদৰ পৰম্পৰাগতভাৱে ৰেচমৰ পৰা বোৱা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-097",
+    "q": {
+      "en": "Which article is regarded as a symbol of Assamese culture and is worn on the head?",
+      "as": "কোন বস্তুক অসমীয়া সংস্কৃতিৰ প্ৰতীক বুলি গণ্য কৰা হয় আৰু মূৰত পিন্ধা হয়?"
+    },
+    "options": [
+      {
+        "en": "Japi",
+        "as": "জাপি"
+      },
+      {
+        "en": "Mekhela",
+        "as": "মেখেলা"
+      },
+      {
+        "en": "Gamosa",
+        "as": "গামোচা"
+      },
+      {
+        "en": "Xorai",
+        "as": "চৰাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Japi is a symbol of Assamese culture worn on the head.",
+      "as": "জাপি অসমীয়া সংস্কৃতিৰ প্ৰতীক যি মূৰত পিন্ধা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-098",
+    "q": {
+      "en": "Which Assamese craft involves making decorative items from bamboo and cane?",
+      "as": "কোন অসমীয়া শিল্পত বাঁহ আৰু বেতৰ পৰা সজ্জামূলক বস্তু তৈয়াৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Metal craft",
+        "as": "ধাতু শিল্প"
+      },
+      {
+        "en": "Pottery",
+        "as": "কুম্ভকৰ্ম"
+      },
+      {
+        "en": "Bamboo and cane craft",
+        "as": "বাঁহ-বেত শিল্প"
+      },
+      {
+        "en": "Weaving",
+        "as": "বোৱা শিল্প"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bamboo and cane craft is a major traditional handicraft of Assam.",
+      "as": "বাঁহ-বেত শিল্প অসমৰ এটা প্ৰধান পৰম্পৰাগত হস্তশিল্প।"
+    }
+  },
+  {
+    "id": "assam-culture-099",
+    "q": {
+      "en": "The 'Taal' used in Assamese culture is mainly made of which metal?",
+      "as": "অসমীয়া সংস্কৃতিত ব্যৱহৃত তাল মূলতঃ কোন ধাতুৰে তৈয়াৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Bell metal",
+        "as": "কাঁহ"
+      },
+      {
+        "en": "Gold",
+        "as": "সোণ"
+      },
+      {
+        "en": "Iron",
+        "as": "লোহা"
+      },
+      {
+        "en": "Silver",
+        "as": "ৰূপ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Taal is made of bell metal.",
+      "as": "তাল কাঁহ ধাতুৰে তৈয়াৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-100",
+    "q": {
+      "en": "Which Assamese traditional craft uses lac or resin?",
+      "as": "কোন অসমীয়া পৰম্পৰাগত শিল্পত লাখ বা ৰেজিন ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Lac bangle making",
+        "as": "লাখৰ খাৰু নিৰ্মাণ"
+      },
+      {
+        "en": "Mask making",
+        "as": "মুখা নিৰ্মাণ"
+      },
+      {
+        "en": "Bell metal",
+        "as": "কাঁহ শিল্প"
+      },
+      {
+        "en": "Terracotta",
+        "as": "টেৰাকোটা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Lac bangle making is a traditional craft of Assam.",
+      "as": "লাখৰ খাৰু নিৰ্মাণ অসমৰ এটা পৰম্পৰাগত শিল্প।"
+    }
+  },
+  {
+    "id": "assam-culture-101",
+    "q": {
+      "en": "Muga, Eri and Pat are varieties of what in Assam?",
+      "as": "মুগা, এৰী আৰু পাট অসমত কিৰ প্ৰকাৰ?"
+    },
+    "options": [
+      {
+        "en": "Silk",
+        "as": "ৰেচম"
+      },
+      {
+        "en": "Tea",
+        "as": "চাহ"
+      },
+      {
+        "en": "Rice",
+        "as": "চাউল"
+      },
+      {
+        "en": "Bamboo",
+        "as": "বাঁহ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Muga, Eri and Pat are the three main silk varieties of Assam.",
+      "as": "মুগা, এৰী আৰু পাট অসমৰ তিনিটা প্ৰধান ৰেচম প্ৰকাৰ।"
+    }
+  },
+  {
+    "id": "assam-culture-102",
+    "q": {
+      "en": "Which Assamese textile is known for its durability and is often called the 'golden thread'?",
+      "as": "কোন অসমীয়া বস্ত্ৰ ইয়াৰ দীৰ্ঘস্থায়িত্বৰ বাবে জনাজাত আৰু প্ৰায়ে 'সোণালী সূতা' বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Muga silk",
+        "as": "মুগা ৰেচম"
+      },
+      {
+        "en": "Eri silk",
+        "as": "এৰী ৰেচম"
+      },
+      {
+        "en": "Pat silk",
+        "as": "পাট ৰেচম"
+      },
+      {
+        "en": "Cotton",
+        "as": "কপাহ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Muga silk is noted for its durability and golden colour.",
+      "as": "মুগা ৰেচম ইয়াৰ দীৰ্ঘস্থায়িত্ব আৰু সোণালী ৰঙৰ বাবে বিখ্যাত।"
+    }
+  },
+  {
+    "id": "assam-culture-103",
+    "q": {
+      "en": "Which small hand-woven fan-shaped article is an Assamese cultural symbol?",
+      "as": "কোন সৰু হাতেৰে বোৱা পাখাৰ আকৃতিৰ বস্তু অসমীয়া সংস্কৃতিৰ প্ৰতীক?"
+    },
+    "options": [
+      {
+        "en": "Taal",
+        "as": "তাল"
+      },
+      {
+        "en": "Gamosa",
+        "as": "গামোচা"
+      },
+      {
+        "en": "Xorai",
+        "as": "চৰাই"
+      },
+      {
+        "en": "Japi",
+        "as": "জাপি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Japi is a hand-woven cultural symbol of Assam.",
+      "as": "জাপি অসমৰ হাতেৰে বোৱা সাংস্কৃতিক প্ৰতীক।"
+    }
+  },
+  {
+    "id": "assam-culture-104",
+    "q": {
+      "en": "The Assamese language belongs to which language family?",
+      "as": "অসমীয়া ভাষা কোন ভাষা পৰিয়ালৰ অন্তৰ্গত?"
+    },
+    "options": [
+      {
+        "en": "Dravidian",
+        "as": "দ্ৰাবিড়"
+      },
+      {
+        "en": "Indo-Aryan",
+        "as": "ইন্দো-আৰ্য"
+      },
+      {
+        "en": "Tibeto-Burman",
+        "as": "তিব্বত-বাৰ্মা"
+      },
+      {
+        "en": "Austro-Asiatic",
+        "as": "অষ্ট্ৰো-এছিয়াটিক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assamese is an Indo-Aryan language.",
+      "as": "অসমীয়া এটা ইন্দো-আৰ্য ভাষা।"
+    }
+  },
+  {
+    "id": "assam-culture-105",
+    "q": {
+      "en": "Which is the official language of Assam?",
+      "as": "অসমৰ চৰকাৰী ভাষা কোন?"
+    },
+    "options": [
+      {
+        "en": "Assamese",
+        "as": "অসমীয়া"
+      },
+      {
+        "en": "Bengali",
+        "as": "বাংলা"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Hindi",
+        "as": "হিন্দী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assamese is the official language of Assam.",
+      "as": "অসমীয়া অসমৰ চৰকাৰী ভাষা।"
+    }
+  },
+  {
+    "id": "assam-culture-106",
+    "q": {
+      "en": "The Assamese script is a variant of which script?",
+      "as": "অসমীয়া লিপি কোন লিপিৰ এটা ৰূপ?"
+    },
+    "options": [
+      {
+        "en": "Bengali-Assamese script",
+        "as": "বাংলা-অসমীয়া লিপি"
+      },
+      {
+        "en": "Devanagari",
+        "as": "দেৱনাগৰী"
+      },
+      {
+        "en": "Gurmukhi",
+        "as": "গুৰুমুখী"
+      },
+      {
+        "en": "Tamil",
+        "as": "তামিল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Assamese script belongs to the Bengali-Assamese (Eastern Nagari) script family.",
+      "as": "অসমীয়া লিপি বাংলা-অসমীয়া (পূব নাগৰী) লিপি পৰিয়ালৰ অন্তৰ্গত।"
+    }
+  },
+  {
+    "id": "assam-culture-107",
+    "q": {
+      "en": "Which was the first Assamese newspaper?",
+      "as": "প্ৰথম অসমীয়া বাতৰি কাকত কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Assam Tribune",
+        "as": "আছাম ট্ৰিবিউন"
+      },
+      {
+        "en": "Orunodoi",
+        "as": "অৰুণোদয়"
+      },
+      {
+        "en": "Sadhu",
+        "as": "সাধু"
+      },
+      {
+        "en": "Jonaki",
+        "as": "জোনাকী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Orunodoi, first published in 1846, was the first Assamese newspaper.",
+      "as": "১৮৪৬ চনত প্ৰকাশিত অৰুণোদয় প্ৰথম অসমীয়া বাতৰি কাকত আছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-108",
+    "q": {
+      "en": "Orunodoi was published by which organisation?",
+      "as": "অৰুণোদয় কোন সংস্থাই প্ৰকাশ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Assam Sahitya Sabha",
+        "as": "অসম সাহিত্য সভা"
+      },
+      {
+        "en": "American Baptist Mission",
+        "as": "আমেৰিকান বেপ্টিষ্ট মিছন"
+      },
+      {
+        "en": "British Government",
+        "as": "ব্ৰিটিছ চৰকাৰ"
+      },
+      {
+        "en": "Asam Bangiya Sabha",
+        "as": "অসম বঙ্গীয় সভা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Orunodoi was published by the American Baptist Mission.",
+      "as": "অৰুণোদয় আমেৰিকান বেপ্টিষ্ট মিছনে প্ৰকাশ কৰিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-109",
+    "q": {
+      "en": "In which year was the Orunodoi first published?",
+      "as": "অৰুণোদয় প্ৰথম কোন বছৰত প্ৰকাশিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1856",
+        "as": "১৮৫৬"
+      },
+      {
+        "en": "1836",
+        "as": "১৮৩৬"
+      },
+      {
+        "en": "1846",
+        "as": "১৮৪৬"
+      },
+      {
+        "en": "1866",
+        "as": "১৮৬৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Orunodoi was first published in 1846.",
+      "as": "অৰুণোদয় ১৮৪৬ চনত প্ৰথম প্ৰকাশিত হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-110",
+    "q": {
+      "en": "Who compiled the Assamese dictionary 'Hemkosh'?",
+      "as": "অসমীয়া অভিধান 'হেমকোষ' কে সংকলন কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Padmanath Gohain Baruah",
+        "as": "পদ্মনাথ গোহাঞিবৰুৱা"
+      },
+      {
+        "en": "Gunabhiram Barua",
+        "as": "গুণাভিৰাম বৰুৱা"
+      },
+      {
+        "en": "Hemchandra Barua",
+        "as": "হেমচন্দ্ৰ বৰুৱা"
+      },
+      {
+        "en": "Lakshminath Bezbaroa",
+        "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hemchandra Barua compiled the Hemkosh dictionary.",
+      "as": "হেমচন্দ্ৰ বৰুৱাই হেমকোষ অভিধান সংকলন কৰিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-111",
+    "q": {
+      "en": "Who wrote the first Assamese novel 'Bhanumati'?",
+      "as": "প্ৰথম অসমীয়া উপন্যাস 'ভানুমতী' কে লিখিছিল?"
+    },
+    "options": [
+      {
+        "en": "Hemchandra Barua",
+        "as": "হেমচন্দ্ৰ বৰুৱা"
+      },
+      {
+        "en": "Rajanikanta Bordoloi",
+        "as": "ৰজনীকান্ত বৰদলৈ"
+      },
+      {
+        "en": "Padmanath Gohain Baruah",
+        "as": "পদ্মনাথ গোহাঞিবৰুৱা"
+      },
+      {
+        "en": "Lakshminath Bezbaroa",
+        "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Padmanath Gohain Baruah wrote Bhanumati, the first Assamese novel.",
+      "as": "পদ্মনাথ গোহাঞিবৰুৱাই প্ৰথম অসমীয়া উপন্যাস ভানুমতী লিখিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-112",
+    "q": {
+      "en": "Who wrote the Assamese folk-tale collection 'Burhi Aair Sadhu'?",
+      "as": "অসমীয়া লোককথা সংকলন 'বুঢ়ী আইৰ সাধু' কে লিখিছিল?"
+    },
+    "options": [
+      {
+        "en": "Padmanath Gohain Baruah",
+        "as": "পদ্মনাথ গোহাঞিবৰুৱা"
+      },
+      {
+        "en": "Gunabhiram Barua",
+        "as": "গুণাভিৰাম বৰুৱা"
+      },
+      {
+        "en": "Lakshminath Bezbaroa",
+        "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+      },
+      {
+        "en": "Rajanikanta Bordoloi",
+        "as": "ৰজনীকান্ত বৰদলৈ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Lakshminath Bezbaroa wrote Burhi Aair Sadhu.",
+      "as": "লক্ষ্মীনাথ বেজবৰুৱাই বুঢ়ী আইৰ সাধু লিখিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-113",
+    "q": {
+      "en": "'Burhi Aair Sadhu' is a collection of what?",
+      "as": "'বুঢ়ী আইৰ সাধু' কিৰ সংকলন?"
+    },
+    "options": [
+      {
+        "en": "Devotional songs",
+        "as": "ভক্তিমূলক গীত"
+      },
+      {
+        "en": "Assamese folk tales",
+        "as": "অসমীয়া লোককথা"
+      },
+      {
+        "en": "Poems",
+        "as": "কবিতা"
+      },
+      {
+        "en": "Historical records",
+        "as": "ঐতিহাসিক নথি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Burhi Aair Sadhu is a collection of Assamese folk tales.",
+      "as": "বুঢ়ী আইৰ সাধু অসমীয়া লোককথাৰ সংকলন।"
+    }
+  },
+  {
+    "id": "assam-culture-114",
+    "q": {
+      "en": "Which Assamese writer is known by the title 'Sahityarathi'?",
+      "as": "কোন অসমীয়া লেখকক 'সাহিত্যৰথী' উপাধিৰে জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Rajanikanta Bordoloi",
+        "as": "ৰজনীকান্ত বৰদলৈ"
+      },
+      {
+        "en": "Lakshminath Bezbaroa",
+        "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+      },
+      {
+        "en": "Padmanath Gohain Baruah",
+        "as": "পদ্মনাথ গোহাঞিবৰুৱা"
+      },
+      {
+        "en": "Hemchandra Barua",
+        "as": "হেমচন্দ্ৰ বৰুৱা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Lakshminath Bezbaroa is known as Sahityarathi.",
+      "as": "লক্ষ্মীনাথ বেজবৰুৱাক সাহিত্যৰথী বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "assam-culture-115",
+    "q": {
+      "en": "Who wrote the Assamese state song 'O Mur Apunar Dex'?",
+      "as": "অসমীয়া ৰাজ্যিক গীত 'ও মোৰ আপোনাৰ দেশ' কে লিখিছিল?"
+    },
+    "options": [
+      {
+        "en": "Ambikagiri Raichoudhury",
+        "as": "অম্বিকাগিৰী ৰায়চৌধুৰী"
+      },
+      {
+        "en": "Jyoti Prasad Agarwala",
+        "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+      },
+      {
+        "en": "Lakshminath Bezbaroa",
+        "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+      },
+      {
+        "en": "Bishnu Prasad Rabha",
+        "as": "বিষ্ণুপ্ৰসাদ ৰাভা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Lakshminath Bezbaroa wrote O Mur Apunar Dex.",
+      "as": "লক্ষ্মীনাথ বেজবৰুৱাই ও মোৰ আপোনাৰ দেশ লিখিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-116",
+    "q": {
+      "en": "In which year was the Assam Sahitya Sabha founded?",
+      "as": "অসম সাহিত্য সভা কোন বছৰত প্ৰতিষ্ঠা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1927",
+        "as": "১৯২৭"
+      },
+      {
+        "en": "1937",
+        "as": "১৯৩৭"
+      },
+      {
+        "en": "1917",
+        "as": "১৯১৭"
+      },
+      {
+        "en": "1907",
+        "as": "১৯০৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Assam Sahitya Sabha was founded in 1917.",
+      "as": "অসম সাহিত্য সভা ১৯১৭ চনত প্ৰতিষ্ঠা হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-117",
+    "q": {
+      "en": "Who was the first president of the Assam Sahitya Sabha?",
+      "as": "অসম সাহিত্য সভাৰ প্ৰথম সভাপতি কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Lakshminath Bezbaroa",
+        "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+      },
+      {
+        "en": "Padmanath Gohain Baruah",
+        "as": "পদ্মনাথ গোহাঞিবৰুৱা"
+      },
+      {
+        "en": "Hemchandra Barua",
+        "as": "হেমচন্দ্ৰ বৰুৱা"
+      },
+      {
+        "en": "Rajanikanta Bordoloi",
+        "as": "ৰজনীকান্ত বৰদলৈ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Padmanath Gohain Baruah was the first president of the Assam Sahitya Sabha.",
+      "as": "পদ্মনাথ গোহাঞিবৰুৱা অসম সাহিত্য সভাৰ প্ৰথম সভাপতি আছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-118",
+    "q": {
+      "en": "The first session of the Assam Sahitya Sabha was held at which place?",
+      "as": "অসম সাহিত্য সভাৰ প্ৰথম অধিৱেশন ক'ত অনুষ্ঠিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The first session of the Assam Sahitya Sabha was held at Sivasagar.",
+      "as": "অসম সাহিত্য সভাৰ প্ৰথম অধিৱেশন শিৱসাগৰত অনুষ্ঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-119",
+    "q": {
+      "en": "Who wrote the Assamese novel 'Miri Jiyori'?",
+      "as": "অসমীয়া উপন্যাস 'মিৰি জীয়ৰী' কে লিখিছিল?"
+    },
+    "options": [
+      {
+        "en": "Padmanath Gohain Baruah",
+        "as": "পদ্মনাথ গোহাঞিবৰুৱা"
+      },
+      {
+        "en": "Lakshminath Bezbaroa",
+        "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+      },
+      {
+        "en": "Gunabhiram Barua",
+        "as": "গুণাভিৰাম বৰুৱা"
+      },
+      {
+        "en": "Rajanikanta Bordoloi",
+        "as": "ৰজনীকান্ত বৰদলৈ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rajanikanta Bordoloi wrote Miri Jiyori.",
+      "as": "ৰজনীকান্ত বৰদলৈয়ে মিৰি জীয়ৰী লিখিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-120",
+    "q": {
+      "en": "Who wrote the Assamese novel 'Manomati'?",
+      "as": "অসমীয়া উপন্যাস 'মনোমতী' কে লিখিছিল?"
+    },
+    "options": [
+      {
+        "en": "Rajanikanta Bordoloi",
+        "as": "ৰজনীকান্ত বৰদলৈ"
+      },
+      {
+        "en": "Lakshminath Bezbaroa",
+        "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+      },
+      {
+        "en": "Padmanath Gohain Baruah",
+        "as": "পদ্মনাথ গোহাঞিবৰুৱা"
+      },
+      {
+        "en": "Hemchandra Barua",
+        "as": "হেমচন্দ্ৰ বৰুৱা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Rajanikanta Bordoloi wrote Manomati.",
+      "as": "ৰজনীকান্ত বৰদলৈয়ে মনোমতী লিখিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-121",
+    "q": {
+      "en": "Who was the first Assamese to win the Jnanpith Award?",
+      "as": "জ্ঞানপীঠ বঁটা লাভ কৰা প্ৰথম অসমীয়া কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Indira Goswami",
+        "as": "ইন্দিৰা গোস্বামী"
+      },
+      {
+        "en": "Lakshminath Bezbaroa",
+        "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+      },
+      {
+        "en": "Homen Borgohain",
+        "as": "হোমেন বৰগোহাঞি"
+      },
+      {
+        "en": "Birendra Kumar Bhattacharya",
+        "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Birendra Kumar Bhattacharya was the first Assamese to win the Jnanpith Award.",
+      "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য জ্ঞানপীঠ বঁটা লাভ কৰা প্ৰথম অসমীয়া আছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-122",
+    "q": {
+      "en": "For which novel did Birendra Kumar Bhattacharya win the Jnanpith Award?",
+      "as": "কোন উপন্যাসৰ বাবে বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যই জ্ঞানপীঠ বঁটা লাভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Bhanumati",
+        "as": "ভানুমতী"
+      },
+      {
+        "en": "Miri Jiyori",
+        "as": "মিৰি জীয়ৰী"
+      },
+      {
+        "en": "Mrityunjay",
+        "as": "মৃত্যুঞ্জয়"
+      },
+      {
+        "en": "Manomati",
+        "as": "মনোমতী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Birendra Kumar Bhattacharya won the Jnanpith Award for Mrityunjay.",
+      "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যই মৃত্যুঞ্জয়ৰ বাবে জ্ঞানপীঠ বঁটা লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-123",
+    "q": {
+      "en": "Which Assamese literary magazine began the 'Jonaki era'?",
+      "as": "কোন অসমীয়া সাহিত্য আলোচনীয়ে 'জোনাকী যুগ'ৰ আৰম্ভণি কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Ramdhenu",
+        "as": "ৰামধেনু"
+      },
+      {
+        "en": "Jonaki",
+        "as": "জোনাকী"
+      },
+      {
+        "en": "Sadhu",
+        "as": "সাধু"
+      },
+      {
+        "en": "Orunodoi",
+        "as": "অৰুণোদয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The magazine Jonaki, started in 1889, began the Jonaki era of Assamese literature.",
+      "as": "১৮৮৯ চনত আৰম্ভ হোৱা জোনাকী আলোচনীয়ে অসমীয়া সাহিত্যৰ জোনাকী যুগ আৰম্ভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-124",
+    "q": {
+      "en": "Which Assamese personality is known as 'Assam Kesari'?",
+      "as": "কোন অসমীয়া ব্যক্তিক 'অসম কেশৰী' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Ambikagiri Raichoudhury",
+        "as": "অম্বিকাগিৰী ৰায়চৌধুৰী"
+      },
+      {
+        "en": "Bishnu Prasad Rabha",
+        "as": "বিষ্ণুপ্ৰসাদ ৰাভা"
+      },
+      {
+        "en": "Lakshminath Bezbaroa",
+        "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+      },
+      {
+        "en": "Hemchandra Barua",
+        "as": "হেমচন্দ্ৰ বৰুৱা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ambikagiri Raichoudhury is known as Assam Kesari.",
+      "as": "অম্বিকাগিৰী ৰায়চৌধুৰীক অসম কেশৰী বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "assam-culture-125",
+    "q": {
+      "en": "Who wrote the early Assamese drama 'Ram Navami'?",
+      "as": "প্ৰাৰম্ভিক অসমীয়া নাট 'ৰাম নৱমী' কে লিখিছিল?"
+    },
+    "options": [
+      {
+        "en": "Rajanikanta Bordoloi",
+        "as": "ৰজনীকান্ত বৰদলৈ"
+      },
+      {
+        "en": "Gunabhiram Barua",
+        "as": "গুণাভিৰাম বৰুৱা"
+      },
+      {
+        "en": "Hemchandra Barua",
+        "as": "হেমচন্দ্ৰ বৰুৱা"
+      },
+      {
+        "en": "Padmanath Gohain Baruah",
+        "as": "পদ্মনাথ গোহাঞিবৰুৱা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Gunabhiram Barua wrote the drama Ram Navami.",
+      "as": "গুণাভিৰাম বৰুৱাই ৰাম নৱমী নাট লিখিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-126",
+    "q": {
+      "en": "Who wrote the biography 'Anandaram Dhekial Phukanor Jibani'?",
+      "as": "জীৱনী 'আনন্দৰাম ঢেকিয়াল ফুকনৰ জীৱনী' কে লিখিছিল?"
+    },
+    "options": [
+      {
+        "en": "Hemchandra Barua",
+        "as": "হেমচন্দ্ৰ বৰুৱা"
+      },
+      {
+        "en": "Lakshminath Bezbaroa",
+        "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+      },
+      {
+        "en": "Rajanikanta Bordoloi",
+        "as": "ৰজনীকান্ত বৰদলৈ"
+      },
+      {
+        "en": "Gunabhiram Barua",
+        "as": "গুণাভিৰাম বৰুৱা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Gunabhiram Barua wrote Anandaram Dhekial Phukanor Jibani.",
+      "as": "গুণাভিৰাম বৰুৱাই আনন্দৰাম ঢেকিয়াল ফুকনৰ জীৱনী লিখিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-127",
+    "q": {
+      "en": "Assamese is recognised as a scheduled language of India under which schedule?",
+      "as": "অসমীয়া ভাষা ভাৰতৰ কোন অনুসূচীত অন্তৰ্ভুক্ত এটা অনুসূচিত ভাষা?"
+    },
+    "options": [
+      {
+        "en": "Seventh Schedule",
+        "as": "সপ্তম অনুসূচী"
+      },
+      {
+        "en": "Sixth Schedule",
+        "as": "ষষ্ঠ অনুসূচী"
+      },
+      {
+        "en": "Ninth Schedule",
+        "as": "নৱম অনুসূচী"
+      },
+      {
+        "en": "Eighth Schedule",
+        "as": "অষ্টম অনুসূচী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assamese is listed in the Eighth Schedule of the Indian Constitution.",
+      "as": "অসমীয়া ভাৰতীয় সংবিধানৰ অষ্টম অনুসূচীত অন্তৰ্ভুক্ত।"
+    }
+  },
+  {
+    "id": "assam-culture-128",
+    "q": {
+      "en": "Which is the largest tribal community of Assam?",
+      "as": "অসমৰ আটাইতকৈ ডাঙৰ জনজাতীয় সম্প্ৰদায় কোন?"
+    },
+    "options": [
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Rabha",
+        "as": "ৰাভা"
+      },
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Bodo community is the largest tribal community of Assam.",
+      "as": "বড়ো সম্প্ৰদায় অসমৰ আটাইতকৈ ডাঙৰ জনজাতীয় সম্প্ৰদায়।"
+    }
+  },
+  {
+    "id": "assam-culture-129",
+    "q": {
+      "en": "The Bodo language is included in which schedule of the Indian Constitution?",
+      "as": "বড়ো ভাষা ভাৰতীয় সংবিধানৰ কোন অনুসূচীত অন্তৰ্ভুক্ত?"
+    },
+    "options": [
+      {
+        "en": "Seventh Schedule",
+        "as": "সপ্তম অনুসূচী"
+      },
+      {
+        "en": "Eighth Schedule",
+        "as": "অষ্টম অনুসূচী"
+      },
+      {
+        "en": "Sixth Schedule",
+        "as": "ষষ্ঠ অনুসূচী"
+      },
+      {
+        "en": "Ninth Schedule",
+        "as": "নৱম অনুসূচী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bodo is included in the Eighth Schedule of the Indian Constitution.",
+      "as": "বড়ো ভাষা ভাৰতীয় সংবিধানৰ অষ্টম অনুসূচীত অন্তৰ্ভুক্ত।"
+    }
+  },
+  {
+    "id": "assam-culture-130",
+    "q": {
+      "en": "The Mising community is also known by which name?",
+      "as": "মিচিং সম্প্ৰদায়ক আন কোন নামেৰে জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Kachari",
+        "as": "কছাৰী"
+      },
+      {
+        "en": "Lalung",
+        "as": "লালুং"
+      },
+      {
+        "en": "Miri",
+        "as": "মিৰি"
+      },
+      {
+        "en": "Mech",
+        "as": "মেছ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Mising community is also known as Miri.",
+      "as": "মিচিং সম্প্ৰদায়ক মিৰি বুলিও জনা যায়।"
+    }
+  },
+  {
+    "id": "assam-culture-131",
+    "q": {
+      "en": "Ali-Ai-Ligang is the festival of which community?",
+      "as": "আলি-আই-লিগাং কোন সম্প্ৰদায়ৰ উৎসৱ?"
+    },
+    "options": [
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      },
+      {
+        "en": "Dimasa",
+        "as": "ডিমাছা"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ali-Ai-Ligang is the principal festival of the Mising community.",
+      "as": "আলি-আই-লিগাং মিচিং সম্প্ৰদায়ৰ প্ৰধান উৎসৱ।"
+    }
+  },
+  {
+    "id": "assam-culture-132",
+    "q": {
+      "en": "The Gumrag dance belongs to which community?",
+      "as": "গুম্ৰাগ নৃত্য কোন সম্প্ৰদায়ৰ?"
+    },
+    "options": [
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      },
+      {
+        "en": "Garo",
+        "as": "গাৰো"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Gumrag dance is a traditional dance of the Mising community.",
+      "as": "গুম্ৰাগ নৃত্য মিচিং সম্প্ৰদায়ৰ পৰম্পৰাগত নৃত্য।"
+    }
+  },
+  {
+    "id": "assam-culture-133",
+    "q": {
+      "en": "The Karbi community mainly inhabits which district of Assam?",
+      "as": "কাৰ্বি সম্প্ৰদায়ে মূলতঃ অসমৰ কোন জিলাত বাস কৰে?"
+    },
+    "options": [
+      {
+        "en": "Karbi Anglong",
+        "as": "কাৰ্বি আংলং"
+      },
+      {
+        "en": "Barpeta",
+        "as": "বৰপেটা"
+      },
+      {
+        "en": "Dima Hasao",
+        "as": "ডিমা হাছাও"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Karbi community mainly inhabits the Karbi Anglong district.",
+      "as": "কাৰ্বি সম্প্ৰদায়ে মূলতঃ কাৰ্বি আংলং জিলাত বাস কৰে।"
+    }
+  },
+  {
+    "id": "assam-culture-134",
+    "q": {
+      "en": "The 'Chomangkan' ceremony is associated with which community?",
+      "as": "চোমাংকান অনুষ্ঠান কোন সম্প্ৰদায়ৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      },
+      {
+        "en": "Rabha",
+        "as": "ৰাভা"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Chomangkan is the death ceremony of the Karbi community.",
+      "as": "চোমাংকান কাৰ্বি সম্প্ৰদায়ৰ মৃত্যু অনুষ্ঠান।"
+    }
+  },
+  {
+    "id": "assam-culture-135",
+    "q": {
+      "en": "The Dimasa community mainly lives in which district of Assam?",
+      "as": "ডিমাছা সম্প্ৰদায়ে মূলতঃ অসমৰ কোন জিলাত বাস কৰে?"
+    },
+    "options": [
+      {
+        "en": "Karbi Anglong",
+        "as": "কাৰ্বি আংলং"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Dima Hasao",
+        "as": "ডিমা হাছাও"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Dimasa community mainly lives in the Dima Hasao district.",
+      "as": "ডিমাছা সম্প্ৰদায়ে মূলতঃ ডিমা হাছাও জিলাত বাস কৰে।"
+    }
+  },
+  {
+    "id": "assam-culture-136",
+    "q": {
+      "en": "Which community celebrates the Wangala festival?",
+      "as": "ৱাংগালা উৎসৱ কোন সম্প্ৰদায়ে পালন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Garo",
+        "as": "গাৰো"
+      },
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Wangala is celebrated by the Garo community.",
+      "as": "ৱাংগালা গাৰো সম্প্ৰদায়ে পালন কৰে।"
+    }
+  },
+  {
+    "id": "assam-culture-137",
+    "q": {
+      "en": "The Rabha community mainly inhabits which district of Assam?",
+      "as": "ৰাভা সম্প্ৰদায়ে মূলতঃ অসমৰ কোন জিলাত বাস কৰে?"
+    },
+    "options": [
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Goalpara",
+        "as": "গোৱালপাৰা"
+      },
+      {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Rabha community mainly inhabits the Goalpara region.",
+      "as": "ৰাভা সম্প্ৰদায়ে মূলতঃ গোৱালপাৰা অঞ্চলত বাস কৰে।"
+    }
+  },
+  {
+    "id": "assam-culture-138",
+    "q": {
+      "en": "'Baikho' is a festival celebrated by which community?",
+      "as": "'বাইখো' কোন সম্প্ৰদায়ে পালন কৰা উৎসৱ?"
+    },
+    "options": [
+      {
+        "en": "Rabha",
+        "as": "ৰাভা"
+      },
+      {
+        "en": "Garo",
+        "as": "গাৰো"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Baikho is a festival of the Rabha community.",
+      "as": "বাইখো ৰাভা সম্প্ৰদায়ৰ উৎসৱ।"
+    }
+  },
+  {
+    "id": "assam-culture-139",
+    "q": {
+      "en": "The Tiwa community is also known by which name?",
+      "as": "তিওৱা সম্প্ৰদায়ক আন কোন নামেৰে জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Kachari",
+        "as": "কছাৰী"
+      },
+      {
+        "en": "Lalung",
+        "as": "লালুং"
+      },
+      {
+        "en": "Mech",
+        "as": "মেছ"
+      },
+      {
+        "en": "Miri",
+        "as": "মিৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Tiwa community is also known as Lalung.",
+      "as": "তিওৱা সম্প্ৰদায়ক লালুং বুলিও জনা যায়।"
+    }
+  },
+  {
+    "id": "assam-culture-140",
+    "q": {
+      "en": "The Tiwa community mainly lives in which district of Assam?",
+      "as": "তিওৱা সম্প্ৰদায়ে মূলতঃ অসমৰ কোন জিলাত বাস কৰে?"
+    },
+    "options": [
+      {
+        "en": "Karimganj",
+        "as": "কৰিমগঞ্জ"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Morigaon",
+        "as": "মৰিগাঁও"
+      },
+      {
+        "en": "Tinsukia",
+        "as": "তিনিচুকীয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Tiwa community mainly lives in the Morigaon district.",
+      "as": "তিওৱা সম্প্ৰদায়ে মূলতঃ মৰিগাঁও জিলাত বাস কৰে।"
+    }
+  },
+  {
+    "id": "assam-culture-141",
+    "q": {
+      "en": "The Deori community is mainly found in which part of Assam?",
+      "as": "দেউৰী সম্প্ৰদায় মূলতঃ অসমৰ কোন অংশত পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Upper Assam",
+        "as": "উজনি অসম"
+      },
+      {
+        "en": "Karbi Anglong",
+        "as": "কাৰ্বি আংলং"
+      },
+      {
+        "en": "Barak Valley",
+        "as": "বৰাক উপত্যকা"
+      },
+      {
+        "en": "Lower Assam",
+        "as": "নামনি অসম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Deori community is mainly found in Upper Assam.",
+      "as": "দেউৰী সম্প্ৰদায় মূলতঃ উজনি অসমত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "assam-culture-142",
+    "q": {
+      "en": "The Sonowal Kachari community is mainly found in which region?",
+      "as": "ছোনোৱাল কছাৰী সম্প্ৰদায় মূলতঃ কোন অঞ্চলত পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Barak Valley",
+        "as": "বৰাক উপত্যকা"
+      },
+      {
+        "en": "Lower Assam",
+        "as": "নামনি অসম"
+      },
+      {
+        "en": "Dima Hasao",
+        "as": "ডিমা হাছাও"
+      },
+      {
+        "en": "Upper Assam",
+        "as": "উজনি অসম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Sonowal Kachari community is mainly found in Upper Assam.",
+      "as": "ছোনোৱাল কছাৰী সম্প্ৰদায় মূলতঃ উজনি অসমত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "assam-culture-143",
+    "q": {
+      "en": "The 'Dokhona' is the traditional dress of the women of which community?",
+      "as": "ডখনা কোন সম্প্ৰদায়ৰ মহিলাৰ পৰম্পৰাগত পোছাক?"
+    },
+    "options": [
+      {
+        "en": "Rabha",
+        "as": "ৰাভা"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      },
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dokhona is the traditional dress of Bodo women.",
+      "as": "ডখনা বড়ো মহিলাৰ পৰম্পৰাগত পোছাক।"
+    }
+  },
+  {
+    "id": "assam-culture-144",
+    "q": {
+      "en": "The 'Aronai' is a traditional scarf of which community?",
+      "as": "'অৰনাই' কোন সম্প্ৰদায়ৰ পৰম্পৰাগত চাদৰ?"
+    },
+    "options": [
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Garo",
+        "as": "গাৰো"
+      },
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Aronai is a traditional scarf woven by Bodo women.",
+      "as": "অৰনাই বড়ো মহিলাই বোৱা পৰম্পৰাগত চাদৰ।"
+    }
+  },
+  {
+    "id": "assam-culture-145",
+    "q": {
+      "en": "The Bagurumba dance is performed by women of which community?",
+      "as": "বাগৰুম্বা নৃত্য কোন সম্প্ৰদায়ৰ মহিলাই পৰিৱেশন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Rabha",
+        "as": "ৰাভা"
+      },
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      },
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bagurumba is performed by Bodo women.",
+      "as": "বাগৰুম্বা বড়ো মহিলাই পৰিৱেশন কৰে।"
+    }
+  },
+  {
+    "id": "assam-culture-146",
+    "q": {
+      "en": "The tea garden workers of Assam largely belong to which group of communities?",
+      "as": "অসমৰ চাহ বাগিচাৰ শ্ৰমিকসকল মূলতঃ কোন সম্প্ৰদায় গোটৰ?"
+    },
+    "options": [
+      {
+        "en": "Garo community",
+        "as": "গাৰো সম্প্ৰদায়"
+      },
+      {
+        "en": "Bodo community",
+        "as": "বড়ো সম্প্ৰদায়"
+      },
+      {
+        "en": "Adivasi communities",
+        "as": "আদিবাসী সম্প্ৰদায়"
+      },
+      {
+        "en": "Mising community",
+        "as": "মিচিং সম্প্ৰদায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The tea garden workers of Assam largely belong to Adivasi communities.",
+      "as": "অসমৰ চাহ বাগিচাৰ শ্ৰমিকসকল মূলতঃ আদিবাসী সম্প্ৰদায়ৰ।"
+    }
+  },
+  {
+    "id": "assam-culture-147",
+    "q": {
+      "en": "Which of these communities traditionally practises Jhum cultivation in the hills of Assam?",
+      "as": "অসমৰ পাহাৰত কোন সম্প্ৰদায়ে পৰম্পৰাগতভাৱে ঝুম খেতি কৰে?"
+    },
+    "options": [
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Bengali",
+        "as": "বাংলা"
+      },
+      {
+        "en": "Assamese",
+        "as": "অসমীয়া"
+      },
+      {
+        "en": "Nepali",
+        "as": "নেপালী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Hill communities such as the Karbi traditionally practise Jhum cultivation.",
+      "as": "কাৰ্বিৰ দৰে পাহাৰীয়া সম্প্ৰদায়ে পৰম্পৰাগতভাৱে ঝুম খেতি কৰে।"
+    }
+  },
+  {
+    "id": "assam-culture-148",
+    "q": {
+      "en": "The 'Mekhela Chador' is the traditional dress of which group?",
+      "as": "মেখেলা চাদৰ কোন গোটৰ পৰম্পৰাগত পোছাক?"
+    },
+    "options": [
+      {
+        "en": "Assamese women",
+        "as": "অসমীয়া মহিলা"
+      },
+      {
+        "en": "Mising women",
+        "as": "মিচিং মহিলা"
+      },
+      {
+        "en": "Bodo women",
+        "as": "বড়ো মহিলা"
+      },
+      {
+        "en": "Garo women",
+        "as": "গাৰো মহিলা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mekhela Chador is the traditional dress of Assamese women.",
+      "as": "মেখেলা চাদৰ অসমীয়া মহিলাৰ পৰম্পৰাগত পোছাক।"
+    }
+  },
+  {
+    "id": "assam-culture-149",
+    "q": {
+      "en": "The 'Rongker' festival is celebrated by which community?",
+      "as": "ৰংকেৰ উৎসৱ কোন সম্প্ৰদায়ে পালন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Garo",
+        "as": "গাৰো"
+      },
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Rongker is a festival celebrated by the Karbi community.",
+      "as": "ৰংকেৰ কাৰ্বি সম্প্ৰদায়ে পালন কৰা উৎসৱ।"
+    }
+  },
+  {
+    "id": "assam-culture-150",
+    "q": {
+      "en": "The 'Bisu' festival is celebrated by which community?",
+      "as": "বিছু উৎসৱ কোন সম্প্ৰদায়ে পালন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Rabha",
+        "as": "ৰাভা"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Dimasa",
+        "as": "ডিমাছা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bisu is the New Year festival of the Dimasa community.",
+      "as": "বিছু ডিমাছা সম্প্ৰদায়ৰ নৱবৰ্ষ উৎসৱ।"
+    }
+  },
+  {
+    "id": "assam-culture-151",
+    "q": {
+      "en": "Which tribal community of Assam has its own autonomous council in the Karbi Anglong region?",
+      "as": "অসমৰ কোন জনজাতীয় সম্প্ৰদায়ৰ কাৰ্বি আংলং অঞ্চলত নিজৰ স্বায়ত্তশাসিত পৰিষদ আছে?"
+    },
+    "options": [
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      },
+      {
+        "en": "Rabha",
+        "as": "ৰাভা"
+      },
+      {
+        "en": "Garo",
+        "as": "গাৰো"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Karbi community has an autonomous council in the Karbi Anglong region.",
+      "as": "কাৰ্বি সম্প্ৰদায়ৰ কাৰ্বি আংলং অঞ্চলত স্বায়ত্তশাসিত পৰিষদ আছে।"
+    }
+  },
+  {
+    "id": "assam-culture-152",
+    "q": {
+      "en": "The 'Hajong' community is mainly found in which part of Assam?",
+      "as": "হাজং সম্প্ৰদায় মূলতঃ অসমৰ কোন অংশত পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Lower Assam",
+        "as": "নামনি অসম"
+      },
+      {
+        "en": "Karbi Anglong",
+        "as": "কাৰ্বি আংলং"
+      },
+      {
+        "en": "Barak Valley",
+        "as": "বৰাক উপত্যকা"
+      },
+      {
+        "en": "Upper Assam",
+        "as": "উজনি অসম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Hajong community is mainly found in Lower Assam.",
+      "as": "হাজং সম্প্ৰদায় মূলতঃ নামনি অসমত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "assam-culture-153",
+    "q": {
+      "en": "'Khar' is a traditional Assamese what?",
+      "as": "'খাৰ' অসমৰ পৰম্পৰাগত কি?"
+    },
+    "options": [
+      {
+        "en": "Instrument",
+        "as": "বাদ্যযন্ত্ৰ"
+      },
+      {
+        "en": "Festival",
+        "as": "উৎসৱ"
+      },
+      {
+        "en": "Dish",
+        "as": "ব্যঞ্জন"
+      },
+      {
+        "en": "Dance",
+        "as": "নৃত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Khar is a traditional Assamese dish, usually prepared with alkaline water.",
+      "as": "খাৰ এটা পৰম্পৰাগত অসমীয়া ব্যঞ্জন, সাধাৰণতে ক্ষাৰীয় পানীৰ সৈতে ৰন্ধা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-154",
+    "q": {
+      "en": "The souring agent used in the Assamese dish 'Masor Tenga' is called what?",
+      "as": "অসমীয়া ব্যঞ্জন 'মাছৰ টেঙা'ত ব্যৱহৃত টেঙা উপাদানক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Xaak",
+        "as": "শাক"
+      },
+      {
+        "en": "Tenga",
+        "as": "টেঙা"
+      },
+      {
+        "en": "Pitha",
+        "as": "পিঠা"
+      },
+      {
+        "en": "Khar",
+        "as": "খাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The word 'tenga' refers to the souring agent used in the dish.",
+      "as": "টেঙা শব্দই ব্যঞ্জনত ব্যৱহৃত টেঙা উপাদানক বুজায়।"
+    }
+  },
+  {
+    "id": "assam-culture-155",
+    "q": {
+      "en": "'Pitha' is a traditional Assamese what?",
+      "as": "'পিঠা' অসমৰ পৰম্পৰাগত কি?"
+    },
+    "options": [
+      {
+        "en": "Rice cake",
+        "as": "চাউলৰ পিঠা"
+      },
+      {
+        "en": "Dance",
+        "as": "নৃত্য"
+      },
+      {
+        "en": "Silk",
+        "as": "ৰেচম"
+      },
+      {
+        "en": "Boat",
+        "as": "নাও"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Pitha is a traditional Assamese rice cake.",
+      "as": "পিঠা এটা পৰম্পৰাগত অসমীয়া চাউলৰ পিঠা।"
+    }
+  },
+  {
+    "id": "assam-culture-156",
+    "q": {
+      "en": "'Til Pitha' is traditionally prepared during which festival?",
+      "as": "'তিল পিঠা' পৰম্পৰাগতভাৱে কোন উৎসৱত প্ৰস্তুত কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Kati Bihu",
+        "as": "কাতি বিহু"
+      },
+      {
+        "en": "Magh Bihu",
+        "as": "মাঘ বিহু"
+      },
+      {
+        "en": "Ambubachi",
+        "as": "অম্বুবাচী"
+      },
+      {
+        "en": "Bohag Bihu",
+        "as": "ব'হাগ বিহু"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Til Pitha is traditionally prepared during Magh Bihu.",
+      "as": "তিল পিঠা পৰম্পৰাগতভাৱে মাঘ বিহুত প্ৰস্তুত কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-157",
+    "q": {
+      "en": "'Apong' is the traditional rice beer of which community?",
+      "as": "'আপং' কোন সম্প্ৰদায়ৰ পৰম্পৰাগত চাউলৰ মদ?"
+    },
+    "options": [
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Mising",
+        "as": "মিচিং"
+      },
+      {
+        "en": "Garo",
+        "as": "গাৰো"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Apong is the traditional rice beer of the Mising community.",
+      "as": "আপং মিচিং সম্প্ৰদায়ৰ পৰম্পৰাগত চাউলৰ মদ।"
+    }
+  },
+  {
+    "id": "assam-culture-158",
+    "q": {
+      "en": "Which was the first Assamese feature film?",
+      "as": "প্ৰথম অসমীয়া বৈশিষ্ট্যপূৰ্ণ ছবিখন কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Ganga Silonir Pakhi",
+        "as": "গঙ্গা শিলনীৰ পাখী"
+      },
+      {
+        "en": "Joymoti",
+        "as": "জয়মতী"
+      },
+      {
+        "en": "Bhanumati",
+        "as": "ভানুমতী"
+      },
+      {
+        "en": "Manomati",
+        "as": "মনোমতী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Joymoti, released in 1935, was the first Assamese feature film.",
+      "as": "১৯৩৫ চনত মুক্তিপ্ৰাপ্ত জয়মতী প্ৰথম অসমীয়া বৈশিষ্ট্যপূৰ্ণ ছবি আছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-159",
+    "q": {
+      "en": "Who directed the first Assamese film 'Joymoti'?",
+      "as": "প্ৰথম অসমীয়া ছবি 'জয়মতী' কে পৰিচালনা কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Bhupen Hazarika",
+        "as": "ভূপেন হাজৰিকা"
+      },
+      {
+        "en": "Bishnu Prasad Rabha",
+        "as": "বিষ্ণুপ্ৰসাদ ৰাভা"
+      },
+      {
+        "en": "Phani Sarma",
+        "as": "ফণী শৰ্মা"
+      },
+      {
+        "en": "Jyoti Prasad Agarwala",
+        "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Jyoti Prasad Agarwala directed Joymoti.",
+      "as": "জ্যোতিপ্ৰসাদ আগৰৱালাই জয়মতী পৰিচালনা কৰিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-160",
+    "q": {
+      "en": "In which year was the first Assamese film 'Joymoti' released?",
+      "as": "প্ৰথম অসমীয়া ছবি 'জয়মতী' কোন বছৰত মুক্তি পাইছিল?"
+    },
+    "options": [
+      {
+        "en": "1945",
+        "as": "১৯৪৫"
+      },
+      {
+        "en": "1925",
+        "as": "১৯২৫"
+      },
+      {
+        "en": "1935",
+        "as": "১৯৩৫"
+      },
+      {
+        "en": "1950",
+        "as": "১৯৫০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Joymoti was released in 1935.",
+      "as": "জয়মতী ১৯৩৫ চনত মুক্তি পাইছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-161",
+    "q": {
+      "en": "Who is known as the father of Assamese cinema?",
+      "as": "কাক অসমীয়া চলচ্চিত্ৰৰ পিতৃ বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Bishnu Prasad Rabha",
+        "as": "বিষ্ণুপ্ৰসাদ ৰাভা"
+      },
+      {
+        "en": "Bhupen Hazarika",
+        "as": "ভূপেন হাজৰিকা"
+      },
+      {
+        "en": "Phani Sarma",
+        "as": "ফণী শৰ্মা"
+      },
+      {
+        "en": "Jyoti Prasad Agarwala",
+        "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Jyoti Prasad Agarwala is known as the father of Assamese cinema.",
+      "as": "জ্যোতিপ্ৰসাদ আগৰৱালাক অসমীয়া চলচ্চিত্ৰৰ পিতৃ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "assam-culture-162",
+    "q": {
+      "en": "Which festival is the official state festival of Assam?",
+      "as": "কোন উৎসৱ অসমৰ চৰকাৰী ৰাজ্যিক উৎসৱ?"
+    },
+    "options": [
+      {
+        "en": "Wangala",
+        "as": "ৱাংগালা"
+      },
+      {
+        "en": "Bihu",
+        "as": "বিহু"
+      },
+      {
+        "en": "Ambubachi",
+        "as": "অম্বুবাচী"
+      },
+      {
+        "en": "Doul Utsav",
+        "as": "দৌল উৎসৱ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bihu is the official state festival of Assam.",
+      "as": "বিহু অসমৰ চৰকাৰী ৰাজ্যিক উৎসৱ।"
+    }
+  },
+  {
+    "id": "assam-culture-163",
+    "q": {
+      "en": "Which city of Assam is popularly known as its cultural capital?",
+      "as": "অসমৰ কোন চহৰক ইয়াৰ সাংস্কৃতিক ৰাজধানী বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Jorhat is popularly known as the cultural capital of Assam.",
+      "as": "যোৰহাটক অসমৰ সাংস্কৃতিক ৰাজধানী বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "assam-culture-164",
+    "q": {
+      "en": "The 'Assam Tribune' newspaper was founded by whom?",
+      "as": "'আছাম ট্ৰিবিউন' বাতৰি কাকত কে প্ৰতিষ্ঠা কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Radha Gobinda Baruah",
+        "as": "ৰাধা গোবিন্দ বৰুৱা"
+      },
+      {
+        "en": "Hemchandra Barua",
+        "as": "হেমচন্দ্ৰ বৰুৱা"
+      },
+      {
+        "en": "Jyoti Prasad Agarwala",
+        "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+      },
+      {
+        "en": "Lakshminath Bezbaroa",
+        "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Assam Tribune was founded by Radha Gobinda Baruah.",
+      "as": "আছাম ট্ৰিবিউন ৰাধা গোবিন্দ বৰুৱাই প্ৰতিষ্ঠা কৰিছিল।"
+    }
+  },
+  {
+    "id": "assam-culture-165",
+    "q": {
+      "en": "'Kharisa' is a traditional Assamese dish made mainly from what?",
+      "as": "'খাৰিচা' মূলতঃ কিৰ পৰা তৈয়াৰী পৰম্পৰাগত অসমীয়া ব্যঞ্জন?"
+    },
+    "options": [
+      {
+        "en": "Milk",
+        "as": "গাখীৰ"
+      },
+      {
+        "en": "Bamboo shoot",
+        "as": "বাঁহৰ গজাল"
+      },
+      {
+        "en": "Rice",
+        "as": "চাউল"
+      },
+      {
+        "en": "Fish",
+        "as": "মাছ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kharisa is prepared mainly from bamboo shoot.",
+      "as": "খাৰিচা মূলতঃ বাঁহৰ গজালৰ পৰা প্ৰস্তুত কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-culture-166",
+    "q": {
+      "en": "'Haria' is a traditional Assamese drink prepared from what?",
+      "as": "'হৰিয়া' পৰম্পৰাগত অসমীয়া পানীয় কিনো বস্তুৰ পৰা প্ৰস্তুত কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Tea",
+        "as": "চাহ"
+      },
+      {
+        "en": "Sugarcane",
+        "as": "কুঁহিয়াৰ"
+      },
+      {
+        "en": "Rice",
+        "as": "চাউল"
+      },
+      {
+        "en": "Milk",
+        "as": "গাখীৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Haria is a traditional rice-based drink.",
+      "as": "হৰিয়া চাউলৰ পৰা প্ৰস্তুত পৰম্পৰাগত পানীয়।"
+    }
+  },
+  {
+    "id": "assam-culture-167",
+    "q": {
+      "en": "Which Assamese dish is a mashed preparation of vegetables or fish?",
+      "as": "কোন অসমীয়া ব্যঞ্জন পাচলি বা মাছ মোহাৰি তৈয়াৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Pitha",
+        "as": "পিঠা"
+      },
+      {
+        "en": "Tenga",
+        "as": "টেঙা"
+      },
+      {
+        "en": "Bhorta",
+        "as": "ভৰ্তা"
+      },
+      {
+        "en": "Khar",
+        "as": "খাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bhorta is a mashed Assamese preparation.",
+      "as": "ভৰ্তা এটা মোহাৰি তৈয়াৰী অসমীয়া ব্যঞ্জন।"
+    }
+  },
+  {
+    "id": "assam-culture-168",
+    "q": {
+      "en": "The traditional Assamese dish 'Xaak' refers to what?",
+      "as": "পৰম্পৰাগত অসমীয়া 'শাক' শব্দই কি বুজায়?"
+    },
+    "options": [
+      {
+        "en": "Fish",
+        "as": "মাছ"
+      },
+      {
+        "en": "Sweet",
+        "as": "মিঠাই"
+      },
+      {
+        "en": "Green leafy vegetables",
+        "as": "পাচলি শাক"
+      },
+      {
+        "en": "Rice",
+        "as": "চাউল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Xaak refers to green leafy vegetables in Assamese cuisine.",
+      "as": "শাক অসমীয়া ৰন্ধনশৈলীত পাচলি শাকক বুজায়।"
+    }
+  },
+  {
+    "id": "assam-culture-169",
+    "q": {
+      "en": "What is 'Bhaona' in Assamese culture?",
+      "as": "অসমীয়া সংস্কৃতিত 'ভাওনা' কি?"
+    },
+    "options": [
+      {
+        "en": "A traditional theatrical performance",
+        "as": "পৰম্পৰাগত নাট্য পৰিৱেশনা"
+      },
+      {
+        "en": "A sweet dish",
+        "as": "মিঠাই"
+      },
+      {
+        "en": "A folk dance",
+        "as": "লোক নৃত্য"
+      },
+      {
+        "en": "A river festival",
+        "as": "নদী উৎসৱ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bhaona is the traditional theatrical performance of Ankiya Naat plays.",
+      "as": "ভাওনা অংকীয়া নাটৰ পৰম্পৰাগত নাট্য পৰিৱেশনা।"
+    }
+  },
+  {
+    "id": "assam-culture-170",
+    "q": {
+      "en": "Who wrote the Ankiya Naat 'Rukmini Haran'?",
+      "as": "অংকীয়া নাট 'ৰুক্মিণী হৰণ' কে লিখিছিল?"
+    },
+    "options": [
+      {
+        "en": "Damodardeva",
+        "as": "দামোদৰদেৱ"
+      },
+      {
+        "en": "Gopal Ata",
+        "as": "গোপাল আতা"
+      },
+      {
+        "en": "Srimanta Sankardeva",
+        "as": "শ্ৰীমন্ত শংকৰদেৱ"
+      },
+      {
+        "en": "Madhavdeva",
+        "as": "মাধৱদেৱ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Srimanta Sankardeva wrote the Ankiya Naat Rukmini Haran.",
+      "as": "শ্ৰীমন্ত শংকৰদেৱে ৰুক্মিণী হৰণ অংকীয়া নাট লিখিছিল।"
+    }
   }
-}
+]
