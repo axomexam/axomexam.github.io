@@ -1,30 +1,7592 @@
-{
-  "id": "assam-geography-001",
-  "q": {
-    "en": "Which is the longest river of Assam?",
-    "as": "অসমৰ আটাইতকৈ দীঘল নদী কোনখন?"
-  },
-  "options": [
-    {
-      "en": "Brahmaputra",
-      "as": "ব্ৰহ্মপুত্ৰ"
+[
+  {
+    "id": "assam-geography-001",
+    "q": {
+      "en": "What is the total area of Assam?",
+      "as": "অসমৰ মুঠ মাটিকালি কিমান?"
     },
-    {
-      "en": "Barak",
-      "as": "বৰাক"
-    },
-    {
-      "en": "Subansiri",
-      "as": "সুবনশিৰি"
-    },
-    {
-      "en": "Dhansiri",
-      "as": "ধনশিৰি"
+    "options": [
+      {
+        "en": "68,438 sq km",
+        "as": "৬৮,৪৩৮ বৰ্গ কিলোমিটাৰ"
+      },
+      {
+        "en": "98,438 sq km",
+        "as": "৯৮,৪৩৮ বৰ্গ কিলোমিটাৰ"
+      },
+      {
+        "en": "78,438 sq km",
+        "as": "৭৮,৪৩৮ বৰ্গ কিলোমিটাৰ"
+      },
+      {
+        "en": "88,438 sq km",
+        "as": "৮৮,৪৩৮ বৰ্গ কিলোমিটাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assam covers an area of 78,438 square kilometres.",
+      "as": "অসমৰ মুঠ মাটিকালি ৭৮,৪৩৮ বৰ্গ কিলোমিটাৰ।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "The Brahmaputra is the longest river of Assam.",
-    "as": "ব্ৰহ্মপুত্ৰ অসমৰ আটাইতকৈ দীঘল নদী।"
+  },
+  {
+    "id": "assam-geography-002",
+    "q": {
+      "en": "Assam is located in which part of India?",
+      "as": "অসম ভাৰতৰ কোন অংশত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "South-East",
+        "as": "দক্ষিণ-পূৱ"
+      },
+      {
+        "en": "North-West",
+        "as": "উত্তৰ-পশ্চিম"
+      },
+      {
+        "en": "North-East",
+        "as": "উত্তৰ-পূৱ"
+      },
+      {
+        "en": "Central",
+        "as": "মধ্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assam lies in the North-Eastern part of India.",
+      "as": "অসম ভাৰতৰ উত্তৰ-পূৱ অংশত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-003",
+    "q": {
+      "en": "Assam is roughly located between which latitudes?",
+      "as": "অসম প্ৰায় কোন অক্ষাংশৰ মাজত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "20 degrees N and 24 degrees N",
+        "as": "২০ আৰু ২৪ ডিগ্ৰী উত্তৰ"
+      },
+      {
+        "en": "24 degrees N and 28 degrees N",
+        "as": "২৪ আৰু ২৮ ডিগ্ৰী উত্তৰ অক্ষাংশ"
+      },
+      {
+        "en": "28 degrees N and 32 degrees N",
+        "as": "২৮ আৰু ৩২ ডিগ্ৰী উত্তৰ"
+      },
+      {
+        "en": "16 degrees N and 20 degrees N",
+        "as": "১৬ আৰু ২০ ডিগ্ৰী উত্তৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam extends roughly from 24 degrees N to 28 degrees N latitude.",
+      "as": "অসম প্ৰায় ২৪ ডিগ্ৰীৰ পৰা ২৮ ডিগ্ৰী উত্তৰ অক্ষাংশলৈ বিস্তৃত।"
+    }
+  },
+  {
+    "id": "assam-geography-004",
+    "q": {
+      "en": "Assam is roughly located between which longitudes?",
+      "as": "অসম প্ৰায় কোন দ্ৰাঘিমাংশৰ মাজত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "84 degrees E and 92 degrees E",
+        "as": "৮৪ আৰু ৯২ ডিগ্ৰী পূব"
+      },
+      {
+        "en": "96 degrees E and 104 degrees E",
+        "as": "৯৬ আৰু ১০৪ ডিগ্ৰী পূব"
+      },
+      {
+        "en": "89 degrees E and 96 degrees E",
+        "as": "৮৯ আৰু ৯৬ ডিগ্ৰী পূব দ্ৰাঘিমাংশ"
+      },
+      {
+        "en": "76 degrees E and 84 degrees E",
+        "as": "৭৬ আৰু ৮৪ ডিগ্ৰী পূব"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assam extends roughly from 89 degrees E to 96 degrees E longitude.",
+      "as": "অসম প্ৰায় ৮৯ ডিগ্ৰীৰ পৰা ৯৬ ডিগ্ৰী পূব দ্ৰাঘিমাংশলৈ বিস্তৃত।"
+    }
+  },
+  {
+    "id": "assam-geography-005",
+    "q": {
+      "en": "Which country lies to the north of Assam?",
+      "as": "অসমৰ উত্তৰে কোন দেশ অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Nepal",
+        "as": "নেপাল"
+      },
+      {
+        "en": "China",
+        "as": "চীন"
+      },
+      {
+        "en": "Myanmar",
+        "as": "ম্যানমাৰ"
+      },
+      {
+        "en": "Bhutan",
+        "as": "ভুটান"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bhutan lies to the north of Assam.",
+      "as": "অসমৰ উত্তৰে ভুটান অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-006",
+    "q": {
+      "en": "Which country lies to the south-west of Assam?",
+      "as": "অসমৰ দক্ষিণ-পশ্চিমে কোন দেশ অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Nepal",
+        "as": "নেপাল"
+      },
+      {
+        "en": "China",
+        "as": "চীন"
+      },
+      {
+        "en": "Bangladesh",
+        "as": "বাংলাদেশ"
+      },
+      {
+        "en": "Bhutan",
+        "as": "ভুটান"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bangladesh lies to the south-west of Assam.",
+      "as": "অসমৰ দক্ষিণ-পশ্চিমে বাংলাদেশ অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-007",
+    "q": {
+      "en": "Which Indian state lies to the north of Assam along with Bhutan?",
+      "as": "ভুটানৰ লগতে অসমৰ উত্তৰে কোন ভাৰতীয় ৰাজ্য অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Arunachal Pradesh lies to the north-east and north of Assam.",
+      "as": "অৰুণাচল প্ৰদেশ অসমৰ উত্তৰ-পূৱ আৰু উত্তৰে অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-008",
+    "q": {
+      "en": "Which Indian state lies to the east of Assam?",
+      "as": "অসমৰ পূবে কোন ভাৰতীয় ৰাজ্য অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Tripura",
+        "as": "ত্ৰিপুৰা"
+      },
+      {
+        "en": "Bihar",
+        "as": "বিহাৰ"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Nagaland lies to the east of Assam.",
+      "as": "অসমৰ পূবে নাগালেণ্ড অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-009",
+    "q": {
+      "en": "Which Indian state lies to the south of Assam?",
+      "as": "অসমৰ দক্ষিণে কোন ভাৰতীয় ৰাজ্য অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Sikkim",
+        "as": "ছিক্কিম"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "Bihar",
+        "as": "বিহাৰ"
+      },
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Meghalaya lies to the south of Assam.",
+      "as": "অসমৰ দক্ষিণে মেঘালয় অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-010",
+    "q": {
+      "en": "Which Indian state lies to the west of Assam?",
+      "as": "অসমৰ পশ্চিমে কোন ভাৰতীয় ৰাজ্য অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Odisha",
+        "as": "ওড়িশা"
+      },
+      {
+        "en": "Bihar",
+        "as": "বিহাৰ"
+      },
+      {
+        "en": "Jharkhand",
+        "as": "ঝাৰখণ্ড"
+      },
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "West Bengal lies to the west of Assam.",
+      "as": "অসমৰ পশ্চিমে পশ্চিম বংগ অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-011",
+    "q": {
+      "en": "How many Indian states share a boundary with Assam?",
+      "as": "কিমানখন ভাৰতীয় ৰাজ্যই অসমৰ সৈতে সীমা ভাগ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Six",
+        "as": "ছয়"
+      },
+      {
+        "en": "Seven",
+        "as": "সাত"
+      },
+      {
+        "en": "Five",
+        "as": "পাঁচ"
+      },
+      {
+        "en": "Eight",
+        "as": "আঠ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam borders seven Indian states.",
+      "as": "অসমে সাতখন ভাৰতীয় ৰাজ্যৰ সৈতে সীমা ভাগ কৰে।"
+    }
+  },
+  {
+    "id": "assam-geography-012",
+    "q": {
+      "en": "Which of these states does NOT share a boundary with Assam?",
+      "as": "তলৰ কোনখন ৰাজ্যই অসমৰ সৈতে সীমা ভাগ নকৰে?"
+    },
+    "options": [
+      {
+        "en": "Tripura",
+        "as": "ত্ৰিপুৰা"
+      },
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Sikkim",
+        "as": "ছিক্কিম"
+      },
+      {
+        "en": "Mizoram",
+        "as": "মিজোৰাম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sikkim does not share a boundary with Assam.",
+      "as": "ছিক্কিমে অসমৰ সৈতে সীমা ভাগ নকৰে।"
+    }
+  },
+  {
+    "id": "assam-geography-013",
+    "q": {
+      "en": "Assam can be broadly divided into how many major physiographic regions?",
+      "as": "অসমক মুঠতে কেইটা প্ৰধান ভৌগোলিক অঞ্চলত বিভক্ত কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "Two",
+        "as": "দুইটা"
+      },
+      {
+        "en": "Three",
+        "as": "তিনিটা"
+      },
+      {
+        "en": "Five",
+        "as": "পাঁচটা"
+      },
+      {
+        "en": "Four",
+        "as": "চাৰিটা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam has three main regions: the Brahmaputra valley, the Barak valley and the hills.",
+      "as": "অসমৰ তিনিটা প্ৰধান অঞ্চল: ব্ৰহ্মপুত্ৰ উপত্যকা, বৰাক উপত্যকা আৰু পাহাৰ।"
+    }
+  },
+  {
+    "id": "assam-geography-014",
+    "q": {
+      "en": "Which physiographic region covers the largest part of Assam?",
+      "as": "কোন ভৌগোলিক অঞ্চলে অসমৰ আটাইতকৈ বেছি অংশ আৱৰি আছে?"
+    },
+    "options": [
+      {
+        "en": "Barak valley",
+        "as": "বৰাক উপত্যকা"
+      },
+      {
+        "en": "Brahmaputra valley",
+        "as": "ব্ৰহ্মপুত্ৰ উপত্যকা"
+      },
+      {
+        "en": "Karbi Anglong hills",
+        "as": "কাৰ্বি আংলং পাহাৰ"
+      },
+      {
+        "en": "Dima Hasao hills",
+        "as": "ডিমা হাছাও পাহাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Brahmaputra valley is the largest physiographic region of Assam.",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকা অসমৰ আটাইতকৈ বৃহৎ ভৌগোলিক অঞ্চল।"
+    }
+  },
+  {
+    "id": "assam-geography-015",
+    "q": {
+      "en": "The Brahmaputra valley of Assam is mainly made up of what?",
+      "as": "অসমৰ ব্ৰহ্মপুত্ৰ উপত্যকা মূলতঃ কিৰে গঠিত?"
+    },
+    "options": [
+      {
+        "en": "Plateaus",
+        "as": "মালভূমি"
+      },
+      {
+        "en": "Deserts",
+        "as": "মৰুভূমি"
+      },
+      {
+        "en": "Alluvial plains",
+        "as": "পলসুৱা সমভূমি"
+      },
+      {
+        "en": "Coastal plains",
+        "as": "উপকূলীয় সমভূমি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Brahmaputra valley consists of alluvial plains.",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকা পলসুৱা সমভূমিৰে গঠিত।"
+    }
+  },
+  {
+    "id": "assam-geography-016",
+    "q": {
+      "en": "The Barak valley of Assam is located in which part of the state?",
+      "as": "অসমৰ বৰাক উপত্যকা ৰাজ্যখনৰ কোন অংশত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Southern Assam",
+        "as": "দক্ষিণ অসম"
+      },
+      {
+        "en": "Eastern Assam",
+        "as": "পূৱ অসম"
+      },
+      {
+        "en": "Northern Assam",
+        "as": "উত্তৰ অসম"
+      },
+      {
+        "en": "Western Assam",
+        "as": "পশ্চিম অসম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Barak valley lies in southern Assam.",
+      "as": "বৰাক উপত্যকা দক্ষিণ অসমত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-017",
+    "q": {
+      "en": "The Karbi Anglong plateau is a detached part of which larger plateau?",
+      "as": "কাৰ্বি আংলং মালভূমি কোন বৃহত্তৰ মালভূমিৰ বিচ্ছিন্ন অংশ?"
+    },
+    "options": [
+      {
+        "en": "Tibetan Plateau",
+        "as": "তিব্বতীয় মালভূমি"
+      },
+      {
+        "en": "Peninsular Plateau",
+        "as": "উপদ্বীপীয় মালভূমি"
+      },
+      {
+        "en": "Chotanagpur Plateau",
+        "as": "ছোটনাগপুৰ মালভূমি"
+      },
+      {
+        "en": "Deccan Trap",
+        "as": "দাক্ষিণাত্য লাভা মালভূমি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Karbi Anglong plateau is a detached part of the Peninsular Plateau.",
+      "as": "কাৰ্বি আংলং মালভূমি উপদ্বীপীয় মালভূমিৰ বিচ্ছিন্ন অংশ।"
+    }
+  },
+  {
+    "id": "assam-geography-018",
+    "q": {
+      "en": "The Barail Range is located in which part of Assam?",
+      "as": "বৰাইল শ্ৰেণী অসমৰ কোন অংশত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Barpeta",
+        "as": "বৰপেটা"
+      },
+      {
+        "en": "Lakhimpur",
+        "as": "লখিমপুৰ"
+      },
+      {
+        "en": "Dima Hasao",
+        "as": "ডিমা হাছাও"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Barail Range lies in the Dima Hasao district of Assam.",
+      "as": "বৰাইল শ্ৰেণী অসমৰ ডিমা হাছাও জিলাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-019",
+    "q": {
+      "en": "Which range forms the boundary between Assam and Nagaland in the south-east?",
+      "as": "কোন শ্ৰেণীয়ে দক্ষিণ-পূৱত অসম আৰু নাগালেণ্ডৰ মাজত সীমা গঠন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Barail Range",
+        "as": "বৰাইল শ্ৰেণী"
+      },
+      {
+        "en": "Himalayas",
+        "as": "হিমালয়"
+      },
+      {
+        "en": "Vindhya",
+        "as": "বিন্ধ্য"
+      },
+      {
+        "en": "Aravalli",
+        "as": "আৰাৱলী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Barail Range forms part of the Assam-Nagaland boundary.",
+      "as": "বৰাইল শ্ৰেণীয়ে অসম-নাগালেণ্ড সীমাৰ অংশ গঠন কৰে।"
+    }
+  },
+  {
+    "id": "assam-geography-020",
+    "q": {
+      "en": "Which hills in Assam are also known as the Mikir Hills?",
+      "as": "অসমৰ কোন পাহাৰক মিকিৰ পাহাৰ বুলিও জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Karbi Anglong hills",
+        "as": "কাৰ্বি আংলং পাহাৰ"
+      },
+      {
+        "en": "Khasi Hills",
+        "as": "খাছী পাহাৰ"
+      },
+      {
+        "en": "Dima Hasao hills",
+        "as": "ডিমা হাছাও পাহাৰ"
+      },
+      {
+        "en": "Jaintia Hills",
+        "as": "জয়ন্তীয়া পাহাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Karbi Anglong hills were historically called the Mikir Hills.",
+      "as": "কাৰ্বি আংলং পাহাৰক ঐতিহাসিকভাৱে মিকিৰ পাহাৰ বুলি কোৱা হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-021",
+    "q": {
+      "en": "Which is the only hill station of Assam?",
+      "as": "অসমৰ একমাত্ৰ পাহাৰীয়া ষ্টেচন কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Shillong",
+        "as": "শ্বিলং"
+      },
+      {
+        "en": "Kokrajhar",
+        "as": "কোকৰাঝাৰ"
+      },
+      {
+        "en": "Haflong",
+        "as": "হাফলং"
+      },
+      {
+        "en": "Diphu",
+        "as": "ডিফু"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Haflong in Dima Hasao is the only hill station of Assam.",
+      "as": "ডিমা হাছাওৰ হাফলং অসমৰ একমাত্ৰ পাহাৰীয়া ষ্টেচন।"
+    }
+  },
+  {
+    "id": "assam-geography-022",
+    "q": {
+      "en": "Which river is the lifeline of Assam?",
+      "as": "কোন নদী অসমৰ জীৱন-ৰেখা?"
+    },
+    "options": [
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Ganges",
+        "as": "গংগা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Brahmaputra is the lifeline of Assam.",
+      "as": "ব্ৰহ্মপুত্ৰ অসমৰ জীৱন-ৰেখা।"
+    }
+  },
+  {
+    "id": "assam-geography-023",
+    "q": {
+      "en": "The Brahmaputra is known by which name in Tibet?",
+      "as": "ব্ৰহ্মপুত্ৰক তিব্বতত কোন নামেৰে জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Padma",
+        "as": "পদ্মা"
+      },
+      {
+        "en": "Jamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Dihang",
+        "as": "দিহাং"
+      },
+      {
+        "en": "Yarlung Tsangpo",
+        "as": "য়ালুং চাংপো"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In Tibet the Brahmaputra is called the Yarlung Tsangpo.",
+      "as": "তিব্বতত ব্ৰহ্মপুত্ৰক য়ালুং চাংপো বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-024",
+    "q": {
+      "en": "The Brahmaputra is known by which name in Bangladesh?",
+      "as": "ব্ৰহ্মপুত্ৰক বাংলাদেশত কোন নামেৰে জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Meghna",
+        "as": "মেঘনা"
+      },
+      {
+        "en": "Karnaphuli",
+        "as": "কৰ্ণফুলী"
+      },
+      {
+        "en": "Padma",
+        "as": "পদ্মা"
+      },
+      {
+        "en": "Jamuna",
+        "as": "যমুনা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In Bangladesh the Brahmaputra is known as the Jamuna.",
+      "as": "বাংলাদেশত ব্ৰহ্মপুত্ৰক যমুনা বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-025",
+    "q": {
+      "en": "The Brahmaputra is called by which name in Arunachal Pradesh?",
+      "as": "ব্ৰহ্মপুত্ৰক অৰুণাচল প্ৰদেশত কোন নামেৰে জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Lohit",
+        "as": "লোহিত"
+      },
+      {
+        "en": "Manas",
+        "as": "মনাহ"
+      },
+      {
+        "en": "Siang or Dihang",
+        "as": "সিয়াং বা দিহাং"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In Arunachal Pradesh the river is called Siang or Dihang.",
+      "as": "অৰুণাচল প্ৰদেশত নদীখনক সিয়াং বা দিহাং বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-026",
+    "q": {
+      "en": "At which place does the Brahmaputra enter Assam?",
+      "as": "ব্ৰহ্মপুত্ৰ কোন স্থানত অসমত প্ৰৱেশ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Sadiya",
+        "as": "শদিয়া"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Brahmaputra enters Assam near Sadiya.",
+      "as": "ব্ৰহ্মপুত্ৰ শদিয়াৰ ওচৰত অসমত প্ৰৱেশ কৰে।"
+    }
+  },
+  {
+    "id": "assam-geography-027",
+    "q": {
+      "en": "At which place does the Brahmaputra leave Assam?",
+      "as": "ব্ৰহ্মপুত্ৰ কোন স্থানত অসম এৰি যায়?"
+    },
+    "options": [
+      {
+        "en": "Sadiya",
+        "as": "শদিয়া"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Brahmaputra leaves Assam near Dhubri and enters Bangladesh.",
+      "as": "ব্ৰহ্মপুত্ৰ ধুবুৰীৰ ওচৰত অসম এৰি বাংলাদেশত প্ৰৱেশ কৰে।"
+    }
+  },
+  {
+    "id": "assam-geography-028",
+    "q": {
+      "en": "Which three rivers join to form the Brahmaputra near Sadiya?",
+      "as": "কোন তিনিখন নদী শদিয়াৰ ওচৰত লগ হৈ ব্ৰহ্মপুত্ৰ গঠন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Ganga, Yamuna and Saraswati",
+        "as": "গংগা, যমুনা আৰু সৰস্বতী"
+      },
+      {
+        "en": "Barak, Surma and Kushiyara",
+        "as": "বৰাক, সূৰ্মা আৰু কুশীয়াৰা"
+      },
+      {
+        "en": "Siang, Dibang and Lohit",
+        "as": "সিয়াং, দিবাং আৰু লোহিত"
+      },
+      {
+        "en": "Manas, Beki and Sankosh",
+        "as": "মনাহ, বেকী আৰু সংকোষ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Siang, Dibang and Lohit rivers unite to form the Brahmaputra.",
+      "as": "সিয়াং, দিবাং আৰু লোহিত নদী লগ হৈ ব্ৰহ্মপুত্ৰ গঠন কৰে।"
+    }
+  },
+  {
+    "id": "assam-geography-029",
+    "q": {
+      "en": "Which is the largest north-bank tributary of the Brahmaputra in Assam?",
+      "as": "অসমত ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰৰ আটাইতকৈ বৃহৎ উপনদী কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Kopili",
+        "as": "কপিলী"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Burhi Dihing",
+        "as": "বুঢ়ী দিহিং"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Subansiri is the largest north-bank tributary of the Brahmaputra.",
+      "as": "সুবনশিৰি ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰৰ আটাইতকৈ বৃহৎ উপনদী।"
+    }
+  },
+  {
+    "id": "assam-geography-030",
+    "q": {
+      "en": "The Manas river is a tributary of which river?",
+      "as": "মনাহ নদী কোন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Ganges",
+        "as": "গংগা"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Manas is a north-bank tributary of the Brahmaputra.",
+      "as": "মনাহ ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰৰ উপনদী।"
+    }
+  },
+  {
+    "id": "assam-geography-031",
+    "q": {
+      "en": "Which river forms the boundary between Assam and Bhutan in part?",
+      "as": "কোন নদীয়ে অংশত অসম আৰু ভুটানৰ সীমা গঠন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Kopili",
+        "as": "কপিলী"
+      },
+      {
+        "en": "Manas",
+        "as": "মনাহ"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Manas river partly forms the Assam-Bhutan boundary.",
+      "as": "মনাহ নদীয়ে অংশত অসম-ভুটান সীমা গঠন কৰে।"
+    }
+  },
+  {
+    "id": "assam-geography-032",
+    "q": {
+      "en": "Which is a major south-bank tributary of the Brahmaputra?",
+      "as": "ব্ৰহ্মপুত্ৰৰ এটা প্ৰধান দক্ষিণ পাৰৰ উপনদী কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Manas",
+        "as": "মনাহ"
+      },
+      {
+        "en": "Jia Bharali",
+        "as": "জীয়া ভৰালী"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Kopili",
+        "as": "কপিলী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Kopili is a major south-bank tributary of the Brahmaputra.",
+      "as": "কপিলী ব্ৰহ্মপুত্ৰৰ এটা প্ৰধান দক্ষিণ পাৰৰ উপনদী।"
+    }
+  },
+  {
+    "id": "assam-geography-033",
+    "q": {
+      "en": "The Burhi Dihing is a tributary of which river?",
+      "as": "বুঢ়ী দিহিং কোন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Manas",
+        "as": "মনাহ"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Burhi Dihing is a south-bank tributary of the Brahmaputra.",
+      "as": "বুঢ়ী দিহিং ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰৰ উপনদী।"
+    }
+  },
+  {
+    "id": "assam-geography-034",
+    "q": {
+      "en": "Which river is known as the 'Sorrow of Assam' for causing floods?",
+      "as": "বানপানীৰ বাবে কোন নদীক 'অসমৰ দুখ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Manas",
+        "as": "মনাহ"
+      },
+      {
+        "en": "Kopili",
+        "as": "কপিলী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra is called the Sorrow of Assam due to floods.",
+      "as": "বানপানীৰ বাবে ব্ৰহ্মপুত্ৰক অসমৰ দুখ বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-035",
+    "q": {
+      "en": "The Barak river flows through which region of Assam?",
+      "as": "বৰাক নদী অসমৰ কোন অঞ্চলৰ মাজেৰে বৈ যায়?"
+    },
+    "options": [
+      {
+        "en": "Southern Assam",
+        "as": "দক্ষিণ অসম"
+      },
+      {
+        "en": "Central Assam",
+        "as": "মধ্য অসম"
+      },
+      {
+        "en": "Western Assam",
+        "as": "পশ্চিম অসম"
+      },
+      {
+        "en": "Northern Assam",
+        "as": "উত্তৰ অসম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Barak river flows through southern Assam.",
+      "as": "বৰাক নদী দক্ষিণ অসমৰ মাজেৰে বৈ যায়।"
+    }
+  },
+  {
+    "id": "assam-geography-036",
+    "q": {
+      "en": "In which state does the Barak river originate?",
+      "as": "বৰাক নদী কোন ৰাজ্যত উৎপত্তি হয়?"
+    },
+    "options": [
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Mizoram",
+        "as": "মিজোৰাম"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Barak river originates in the hills of Manipur.",
+      "as": "বৰাক নদী মণিপুৰৰ পাহাৰত উৎপত্তি হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-037",
+    "q": {
+      "en": "The Barak valley of Assam comprises how many districts?",
+      "as": "অসমৰ বৰাক উপত্যকাত কিমানখন জিলা আছে?"
+    },
+    "options": [
+      {
+        "en": "Four",
+        "as": "চাৰিখন"
+      },
+      {
+        "en": "Five",
+        "as": "পাঁচখন"
+      },
+      {
+        "en": "Two",
+        "as": "দুইখন"
+      },
+      {
+        "en": "Three",
+        "as": "তিনিখন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Barak valley comprises Cachar, Karimganj and Hailakandi.",
+      "as": "বৰাক উপত্যকাত কাছাৰ, কৰিমগঞ্জ আৰু হাইলাকান্দি আছে।"
+    }
+  },
+  {
+    "id": "assam-geography-038",
+    "q": {
+      "en": "Which of these districts is part of the Barak valley?",
+      "as": "তলৰ কোনখন জিলা বৰাক উপত্যকাৰ অংশ?"
+    },
+    "options": [
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Cachar is one of the three Barak valley districts.",
+      "as": "কাছাৰ বৰাক উপত্যকাৰ তিনিখন জিলাৰ এখন।"
+    }
+  },
+  {
+    "id": "assam-geography-039",
+    "q": {
+      "en": "The Barak river finally splits in Bangladesh into which two rivers?",
+      "as": "বৰাক নদী শেষত বাংলাদেশত কোন দুখন নদীত বিভক্ত হয়?"
+    },
+    "options": [
+      {
+        "en": "Teesta and Torsa",
+        "as": "তিস্তা আৰু তোৰ্শা"
+      },
+      {
+        "en": "Ganga and Yamuna",
+        "as": "গংগা আৰু যমুনা"
+      },
+      {
+        "en": "Surma and Kushiyara",
+        "as": "সূৰ্মা আৰু কুশীয়াৰা"
+      },
+      {
+        "en": "Padma and Meghna",
+        "as": "পদ্মা আৰু মেঘনা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Barak splits into the Surma and Kushiyara rivers.",
+      "as": "বৰাক নদী সূৰ্মা আৰু কুশীয়াৰাত বিভক্ত হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-040",
+    "q": {
+      "en": "Which river is the main river of the Barak valley system?",
+      "as": "বৰাক উপত্যকা প্ৰণালীৰ প্ৰধান নদী কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Manas",
+        "as": "মনাহ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Kopili",
+        "as": "কপিলী"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Barak is the main river of the Barak valley.",
+      "as": "বৰাক বৰাক উপত্যকাৰ প্ৰধান নদী।"
+    }
+  },
+  {
+    "id": "assam-geography-041",
+    "q": {
+      "en": "Which is a major tributary of the Barak river?",
+      "as": "বৰাক নদীৰ এটা প্ৰধান উপনদী কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Jiri",
+        "as": "জিৰি"
+      },
+      {
+        "en": "Kopili",
+        "as": "কপিলী"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Jiri is a tributary of the Barak river.",
+      "as": "জিৰি বৰাক নদীৰ এটা উপনদী।"
+    }
+  },
+  {
+    "id": "assam-geography-042",
+    "q": {
+      "en": "Which river forms the boundary between Karbi Anglong and Nagaon districts in part?",
+      "as": "কোন নদীয়ে অংশত কাৰ্বি আংলং আৰু নগাঁও জিলাৰ সীমা গঠন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Manas",
+        "as": "মনাহ"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Dhansiri (north) flows between Karbi Anglong and Nagaon.",
+      "as": "ধনশিৰি (উত্তৰ) কাৰ্বি আংলং আৰু নগাঁওৰ মাজেৰে বৈ যায়।"
+    }
+  },
+  {
+    "id": "assam-geography-043",
+    "q": {
+      "en": "The Jia Bharali river is a tributary of which river?",
+      "as": "জীয়া ভৰালী নদী কোন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Kopili",
+        "as": "কপিলী"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Jia Bharali is a north-bank tributary of the Brahmaputra.",
+      "as": "জীয়া ভৰালী ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰৰ উপনদী।"
+    }
+  },
+  {
+    "id": "assam-geography-044",
+    "q": {
+      "en": "Which river is associated with the Nameri National Park?",
+      "as": "কোন নদী নামেৰী ৰাষ্ট্ৰীয় উদ্যানৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Jia Bharali",
+        "as": "জীয়া ভৰালী"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Manas",
+        "as": "মনাহ"
+      },
+      {
+        "en": "Kopili",
+        "as": "কপিলী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Nameri National Park lies along the Jia Bharali river.",
+      "as": "নামেৰী ৰাষ্ট্ৰীয় উদ্যান জীয়া ভৰালী নদীৰ কাষত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-045",
+    "q": {
+      "en": "The Sankosh river is a tributary of which river?",
+      "as": "সংকোষ নদী কোন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Kopili",
+        "as": "কপিলী"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Ganges",
+        "as": "গংগা"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Sankosh is a north-bank tributary of the Brahmaputra.",
+      "as": "সংকোষ ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰৰ উপনদী।"
+    }
+  },
+  {
+    "id": "assam-geography-046",
+    "q": {
+      "en": "Which river is famous for the Jatinga bird mystery?",
+      "as": "জটিঙ্গা চৰাই ৰহস্যৰ বাবে কোন নদী জনাজাত?"
+    },
+    "options": [
+      {
+        "en": "Jatinga river",
+        "as": "জটিঙ্গা নদী"
+      },
+      {
+        "en": "Manas river",
+        "as": "মনাহ নদী"
+      },
+      {
+        "en": "Kopili river",
+        "as": "কপিলী নদী"
+      },
+      {
+        "en": "Barak river",
+        "as": "বৰাক নদী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Jatinga in Dima Hasao is famous for its mysterious bird behaviour.",
+      "as": "ডিমা হাছাওৰ জটিঙ্গা চৰাইৰ ৰহস্যজনক আচৰণৰ বাবে জনাজাত।"
+    }
+  },
+  {
+    "id": "assam-geography-047",
+    "q": {
+      "en": "Which river is the longest in Assam?",
+      "as": "অসমৰ আটাইতকৈ দীঘল নদী কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Manas",
+        "as": "মনাহ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra is the longest river in Assam.",
+      "as": "ব্ৰহ্মপুত্ৰ অসমৰ আটাইতকৈ দীঘল নদী।"
+    }
+  },
+  {
+    "id": "assam-geography-048",
+    "q": {
+      "en": "The Brahmaputra is a National Waterway numbered how?",
+      "as": "ব্ৰহ্মপুত্ৰ কোন সংখ্যক ৰাষ্ট্ৰীয় জলপথ?"
+    },
+    "options": [
+      {
+        "en": "National Waterway 2",
+        "as": "ৰাষ্ট্ৰীয় জলপথ ২"
+      },
+      {
+        "en": "National Waterway 16",
+        "as": "ৰাষ্ট্ৰীয় জলপথ ১৬"
+      },
+      {
+        "en": "National Waterway 1",
+        "as": "ৰাষ্ট্ৰীয় জলপথ ১"
+      },
+      {
+        "en": "National Waterway 5",
+        "as": "ৰাষ্ট্ৰীয় জলপথ ৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra is National Waterway 2.",
+      "as": "ব্ৰহ্মপুত্ৰ ৰাষ্ট্ৰীয় জলপথ ২।"
+    }
+  },
+  {
+    "id": "assam-geography-049",
+    "q": {
+      "en": "The Barak river is declared as which National Waterway?",
+      "as": "বৰাক নদীক কোন ৰাষ্ট্ৰীয় জলপথ হিচাপে ঘোষণা কৰা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "National Waterway 1",
+        "as": "ৰাষ্ট্ৰীয় জলপথ ১"
+      },
+      {
+        "en": "National Waterway 16",
+        "as": "ৰাষ্ট্ৰীয় জলপথ ১৬"
+      },
+      {
+        "en": "National Waterway 2",
+        "as": "ৰাষ্ট্ৰীয় জলপথ ২"
+      },
+      {
+        "en": "National Waterway 5",
+        "as": "ৰাষ্ট্ৰীয় জলপথ ৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Barak river is National Waterway 16.",
+      "as": "বৰাক নদী ৰাষ্ট্ৰীয় জলপথ ১৬।"
+    }
+  },
+  {
+    "id": "assam-geography-050",
+    "q": {
+      "en": "Which river is called 'Luit' in Assamese?",
+      "as": "কোন নদীক অসমীয়াত 'লুইত' বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Kopili",
+        "as": "কপিলী"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Brahmaputra is affectionately called Luit in Assamese.",
+      "as": "ব্ৰহ্মপুত্ৰক অসমীয়াত মৰমসহকাৰে লুইত বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-051",
+    "q": {
+      "en": "Which of these is a north-bank tributary of the Brahmaputra?",
+      "as": "তলৰ কোনটো ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Jatinga",
+        "as": "জটিঙ্গা"
+      },
+      {
+        "en": "Kopili",
+        "as": "কপিলী"
+      },
+      {
+        "en": "Beki",
+        "as": "বেকী"
+      },
+      {
+        "en": "Burhi Dihing",
+        "as": "বুঢ়ী দিহিং"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Beki is a north-bank tributary of the Brahmaputra.",
+      "as": "বেকী ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰৰ উপনদী।"
+    }
+  },
+  {
+    "id": "assam-geography-052",
+    "q": {
+      "en": "Which of these is a south-bank tributary of the Brahmaputra?",
+      "as": "তলৰ কোনটো ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Sankosh",
+        "as": "সংকোষ"
+      },
+      {
+        "en": "Manas",
+        "as": "মনাহ"
+      },
+      {
+        "en": "Digaru",
+        "as": "দিগাৰু"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Digaru is a south-bank tributary of the Brahmaputra.",
+      "as": "দিগাৰু ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰৰ উপনদী।"
+    }
+  },
+  {
+    "id": "assam-geography-053",
+    "q": {
+      "en": "The Brahmaputra valley is surrounded by hills on how many sides?",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকা কেইফালৰ পৰা পাহাৰে আগুৰি আছে?"
+    },
+    "options": [
+      {
+        "en": "Two sides",
+        "as": "দুইফাল"
+      },
+      {
+        "en": "One side",
+        "as": "এফাল"
+      },
+      {
+        "en": "Three sides",
+        "as": "তিনিফাল"
+      },
+      {
+        "en": "Four sides",
+        "as": "চাৰিফাল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Brahmaputra valley is enclosed by hills on three sides.",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকা তিনিফালৰ পৰা পাহাৰে আগুৰি আছে।"
+    }
+  },
+  {
+    "id": "assam-geography-054",
+    "q": {
+      "en": "What type of climate does Assam have?",
+      "as": "অসমৰ জলবায়ু কি ধৰণৰ?"
+    },
+    "options": [
+      {
+        "en": "Mediterranean",
+        "as": "ভূমধ্য সাগৰীয়"
+      },
+      {
+        "en": "Humid subtropical",
+        "as": "আৰ্দ্ৰ উপ-গ্ৰীষ্মমণ্ডলীয়"
+      },
+      {
+        "en": "Tundra",
+        "as": "টুণ্ড্ৰা"
+      },
+      {
+        "en": "Hot desert",
+        "as": "উষ্ণ মৰু"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam has a humid subtropical climate.",
+      "as": "অসমৰ জলবায়ু আৰ্দ্ৰ উপ-গ্ৰীষ্মমণ্ডলীয়।"
+    }
+  },
+  {
+    "id": "assam-geography-055",
+    "q": {
+      "en": "Assam receives most of its rainfall from which monsoon?",
+      "as": "অসমে বৰষুণৰ বেছিভাগ কোন মৌসুমী বায়ুৰ পৰা পায়?"
+    },
+    "options": [
+      {
+        "en": "Western disturbances",
+        "as": "পশ্চিমীয়া বতাহ"
+      },
+      {
+        "en": "North-East monsoon",
+        "as": "উত্তৰ-পূব মৌসুমী বায়ু"
+      },
+      {
+        "en": "Local winds",
+        "as": "স্থানীয় বতাহ"
+      },
+      {
+        "en": "South-West monsoon",
+        "as": "দক্ষিণ-পশ্চিম মৌসুমী বায়ু"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The South-West monsoon brings heavy rain to Assam.",
+      "as": "দক্ষিণ-পশ্চিম মৌসুমী বায়ুৱে অসমত ধাৰাসাৰ বৰষুণ আনে।"
+    }
+  },
+  {
+    "id": "assam-geography-056",
+    "q": {
+      "en": "The rainy season in Assam generally lasts from which months?",
+      "as": "অসমত বৰ্ষাকাল সাধাৰণতে কোন মাহৰ পৰা থাকে?"
+    },
+    "options": [
+      {
+        "en": "March to May",
+        "as": "মাৰ্চৰ পৰা মে'"
+      },
+      {
+        "en": "December to February",
+        "as": "ডিচেম্বৰৰ পৰা ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "October to December",
+        "as": "অক্টোবৰৰ পৰা ডিচেম্বৰ"
+      },
+      {
+        "en": "June to September",
+        "as": "জুনৰ পৰা ছেপ্তেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The rainy season in Assam runs from June to September.",
+      "as": "অসমত বৰ্ষাকাল জুনৰ পৰা ছেপ্তেম্বৰলৈ থাকে।"
+    }
+  },
+  {
+    "id": "assam-geography-057",
+    "q": {
+      "en": "The winter season in Assam generally lasts from which months?",
+      "as": "অসমত শীতকাল সাধাৰণতে কোন মাহৰ পৰা থাকে?"
+    },
+    "options": [
+      {
+        "en": "June to September",
+        "as": "জুনৰ পৰা ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "September to November",
+        "as": "ছেপ্তেম্বৰৰ পৰা নৱেম্বৰ"
+      },
+      {
+        "en": "March to May",
+        "as": "মাৰ্চৰ পৰা মে'"
+      },
+      {
+        "en": "November to February",
+        "as": "নৱেম্বৰৰ পৰা ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The winter season in Assam lasts from November to February.",
+      "as": "অসমত শীতকাল নৱেম্বৰৰ পৰা ফেব্ৰুৱাৰীলৈ থাকে।"
+    }
+  },
+  {
+    "id": "assam-geography-058",
+    "q": {
+      "en": "Which soil is most widely found in the Brahmaputra valley of Assam?",
+      "as": "অসমৰ ব্ৰহ্মপুত্ৰ উপত্যকাত আটাইতকৈ বেছি কোন মাটি পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Laterite soil",
+        "as": "লেটেৰাইট মাটি"
+      },
+      {
+        "en": "Sandy desert soil",
+        "as": "বালিময় মৰু মাটি"
+      },
+      {
+        "en": "Black soil",
+        "as": "ক'লা মাটি"
+      },
+      {
+        "en": "Alluvial soil",
+        "as": "পলসুৱা মাটি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Alluvial soil dominates the Brahmaputra valley.",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকাত পলসুৱা মাটিৰ প্ৰাধান্য।"
+    }
+  },
+  {
+    "id": "assam-geography-059",
+    "q": {
+      "en": "Which soil is generally found in the hill districts of Assam?",
+      "as": "অসমৰ পাহাৰীয়া জিলাসমূহত সাধাৰণতে কোন মাটি পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Alluvial soil",
+        "as": "পলসুৱা মাটি"
+      },
+      {
+        "en": "Black soil",
+        "as": "ক'লা মাটি"
+      },
+      {
+        "en": "Red soil",
+        "as": "ৰঙা মাটি"
+      },
+      {
+        "en": "Peaty soil",
+        "as": "পিটনীয় মাটি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Red soil is common in the hill areas of Assam.",
+      "as": "অসমৰ পাহাৰীয়া অঞ্চলত ৰঙা মাটি সাধাৰণ।"
+    }
+  },
+  {
+    "id": "assam-geography-060",
+    "q": {
+      "en": "New alluvium deposited by rivers is known as what?",
+      "as": "নদীয়ে জমা কৰা নতুন পলসুকি কি বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Regur",
+        "as": "ৰেগুৰ"
+      },
+      {
+        "en": "Bhanger",
+        "as": "ভাঙৰ"
+      },
+      {
+        "en": "Laterite",
+        "as": "লেটেৰাইট"
+      },
+      {
+        "en": "Khadar",
+        "as": "খাদৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "New alluvium is called Khadar and old alluvium is called Bhanger.",
+      "as": "নতুন পলসুকিক খাদৰ আৰু পুৰণি পলসুকিক ভাঙৰ বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-061",
+    "q": {
+      "en": "Which soil is rich in iron and aluminium but poor in fertility?",
+      "as": "কোন মাটি লোহা আৰু এলুমিনিয়ামত চহকী কিন্তু উৰ্বৰতাত দুৰ্বল?"
+    },
+    "options": [
+      {
+        "en": "Loamy soil",
+        "as": "দোমোজা মাটি"
+      },
+      {
+        "en": "Alluvial soil",
+        "as": "পলসুৱা মাটি"
+      },
+      {
+        "en": "Laterite soil",
+        "as": "লেটেৰাইট মাটি"
+      },
+      {
+        "en": "Black soil",
+        "as": "ক'লা মাটি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Laterite soil is rich in iron and aluminium but not very fertile.",
+      "as": "লেটেৰাইট মাটি লোহা আৰু এলুমিনিয়ামত চহকী কিন্তু অতি উৰ্বৰ নহয়।"
+    }
+  },
+  {
+    "id": "assam-geography-062",
+    "q": {
+      "en": "Which crop is the main food crop of Assam?",
+      "as": "অসমৰ প্ৰধান খাদ্য শস্য কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Wheat",
+        "as": "গম"
+      },
+      {
+        "en": "Millet",
+        "as": "বাজৰা"
+      },
+      {
+        "en": "Maize",
+        "as": "মাকৈ"
+      },
+      {
+        "en": "Rice",
+        "as": "ধান"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rice is the main food crop of Assam.",
+      "as": "ধান অসমৰ প্ৰধান খাদ্য শস্য।"
+    }
+  },
+  {
+    "id": "assam-geography-063",
+    "q": {
+      "en": "Tea in Assam grows best in which type of soil?",
+      "as": "অসমত চাহ কোন ধৰণৰ মাটিত ভালে জন্মে?"
+    },
+    "options": [
+      {
+        "en": "Rocky soil",
+        "as": "শিলাময় মাটি"
+      },
+      {
+        "en": "Waterlogged clay",
+        "as": "পানী জমা বোকা মাটি"
+      },
+      {
+        "en": "Well-drained alluvial soil",
+        "as": "ভালে নিষ্কাশিত পলসুৱা মাটি"
+      },
+      {
+        "en": "Saline soil",
+        "as": "লোণাক্ত মাটি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Tea requires well-drained, slightly acidic alluvial soil.",
+      "as": "চাহৰ বাবে ভালে নিষ্কাশিত, অলপ আম্লিক পলসুৱা মাটি প্ৰয়োজন।"
+    }
+  },
+  {
+    "id": "assam-geography-064",
+    "q": {
+      "en": "What is the approximate average annual rainfall of Assam?",
+      "as": "অসমৰ বছৰেকীয়া গড় বৰষুণ প্ৰায় কিমান?"
+    },
+    "options": [
+      {
+        "en": "About 5,500 mm",
+        "as": "প্ৰায় ৫,৫০০ মিলিমিটাৰ"
+      },
+      {
+        "en": "About 400 mm",
+        "as": "প্ৰায় ৪০০ মিলিমিটাৰ"
+      },
+      {
+        "en": "About 800 mm",
+        "as": "প্ৰায় ৮০০ মিলিমিটাৰ"
+      },
+      {
+        "en": "About 2,800 mm",
+        "as": "প্ৰায় ২,৮০০ মিলিমিটাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assam receives about 2,800 mm of rainfall annually on average.",
+      "as": "অসমে বছৰি গড়ে প্ৰায় ২,৮০০ মিমি বৰষুণ পায়।"
+    }
+  },
+  {
+    "id": "assam-geography-065",
+    "q": {
+      "en": "Which type of natural vegetation is found in areas of Assam with heavy rainfall?",
+      "as": "অতি বেছি বৰষুণ হোৱা অসমৰ অঞ্চলত কোন ধৰণৰ প্ৰাকৃতিক উদ্ভিদ পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Alpine forest",
+        "as": "আলপাইন বন"
+      },
+      {
+        "en": "Mangrove forest",
+        "as": "মেংগ্ৰ'ভ বন"
+      },
+      {
+        "en": "Tropical evergreen forest",
+        "as": "ক্ৰান্তীয় চিৰসেউজ বন"
+      },
+      {
+        "en": "Thorn forest",
+        "as": "কণ্টকময় বন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Tropical evergreen forests grow in high-rainfall areas of Assam.",
+      "as": "অসমৰ উচ্চ বৰষুণৰ অঞ্চলত ক্ৰান্তীয় চিৰসেউজ বন জন্মে।"
+    }
+  },
+  {
+    "id": "assam-geography-066",
+    "q": {
+      "en": "Assam forms part of which global biodiversity hotspot?",
+      "as": "অসম কোন গোলকীয় জীৱবৈচিত্ৰ্য হটস্পটৰ অংশ?"
+    },
+    "options": [
+      {
+        "en": "Sundaland",
+        "as": "ছুণ্ডালেণ্ড"
+      },
+      {
+        "en": "Himalaya",
+        "as": "হিমালয়"
+      },
+      {
+        "en": "Western Ghats",
+        "as": "পশ্চিম ঘাট"
+      },
+      {
+        "en": "Indo-Burma",
+        "as": "ইণ্ডো-বাৰ্মা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assam lies within the Indo-Burma biodiversity hotspot.",
+      "as": "অসম ইণ্ডো-বাৰ্মা জীৱবৈচিত্ৰ্য হটস্পটৰ অন্তৰ্গত।"
+    }
+  },
+  {
+    "id": "assam-geography-067",
+    "q": {
+      "en": "How many National Parks are there in Assam at present?",
+      "as": "বৰ্তমান অসমত কিমানটা ৰাষ্ট্ৰীয় উদ্যান আছে?"
+    },
+    "options": [
+      {
+        "en": "Five",
+        "as": "পাঁচটা"
+      },
+      {
+        "en": "Eight",
+        "as": "আঠটা"
+      },
+      {
+        "en": "Six",
+        "as": "ছয়টা"
+      },
+      {
+        "en": "Seven",
+        "as": "সাতটা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assam has seven National Parks.",
+      "as": "অসমত সাতটা ৰাষ্ট্ৰীয় উদ্যান আছে।"
+    }
+  },
+  {
+    "id": "assam-geography-068",
+    "q": {
+      "en": "Which was the first National Park of Assam?",
+      "as": "অসমৰ প্ৰথম ৰাষ্ট্ৰীয় উদ্যান কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Kaziranga",
+        "as": "কাজিৰঙা"
+      },
+      {
+        "en": "Orang",
+        "as": "ওৰাং"
+      },
+      {
+        "en": "Nameri",
+        "as": "নামেৰী"
+      },
+      {
+        "en": "Manas",
+        "as": "মানাহ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kaziranga was declared a National Park in 1974.",
+      "as": "কাজিৰঙাক ১৯৭৪ চনত ৰাষ্ট্ৰীয় উদ্যান ঘোষণা কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-069",
+    "q": {
+      "en": "Kaziranga National Park is best known for which animal?",
+      "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান কোন প্ৰাণীৰ বাবে আটাইতকৈ পৰিচিত?"
+    },
+    "options": [
+      {
+        "en": "Polar bear",
+        "as": "পোলাৰ ভালুক"
+      },
+      {
+        "en": "Lion",
+        "as": "সিংহ"
+      },
+      {
+        "en": "One-horned rhinoceros",
+        "as": "এশিঙীয়া গঁড়"
+      },
+      {
+        "en": "Snow leopard",
+        "as": "হিম তেন্দুৱা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Kaziranga is famous for the one-horned rhinoceros.",
+      "as": "কাজিৰঙা এশিঙীয়া গঁড়ৰ বাবে বিখ্যাত।"
+    }
+  },
+  {
+    "id": "assam-geography-070",
+    "q": {
+      "en": "Which two National Parks of Assam are UNESCO World Heritage Sites?",
+      "as": "অসমৰ কোন দুটা ৰাষ্ট্ৰীয় উদ্যান ইউনেস্কো বিশ্ব ঐতিহ্য স্থান?"
+    },
+    "options": [
+      {
+        "en": "Nameri and Orang",
+        "as": "নামেৰী আৰু ওৰাং"
+      },
+      {
+        "en": "Dibru-Saikhowa and Raimona",
+        "as": "ডিব্ৰু-শইকোৱা আৰু ৰাইমনা"
+      },
+      {
+        "en": "Orang and Pobitora",
+        "as": "ওৰাং আৰু পবিতৰা"
+      },
+      {
+        "en": "Kaziranga and Manas",
+        "as": "কাজিৰঙা আৰু মানাহ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Kaziranga and Manas are both UNESCO World Heritage Sites.",
+      "as": "কাজিৰঙা আৰু মানাহ দুয়োটা ইউনেস্কো বিশ্ব ঐতিহ্য স্থান।"
+    }
+  },
+  {
+    "id": "assam-geography-071",
+    "q": {
+      "en": "Manas National Park lies on the bank of which river?",
+      "as": "মানাহ ৰাষ্ট্ৰীয় উদ্যান কোন নদীৰ পাৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Manas",
+        "as": "মনাহ"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Kopili",
+        "as": "কপিলী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Manas National Park lies on the Manas river.",
+      "as": "মানাহ ৰাষ্ট্ৰীয় উদ্যান মনাহ নদীৰ পাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-072",
+    "q": {
+      "en": "Manas National Park is located on the border with which country?",
+      "as": "মানাহ ৰাষ্ট্ৰীয় উদ্যান কোন দেশৰ সীমাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Nepal",
+        "as": "নেপাল"
+      },
+      {
+        "en": "Bhutan",
+        "as": "ভুটান"
+      },
+      {
+        "en": "Myanmar",
+        "as": "ম্যানমাৰ"
+      },
+      {
+        "en": "Bangladesh",
+        "as": "বাংলাদেশ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Manas National Park is on the Bhutan border.",
+      "as": "মানাহ ৰাষ্ট্ৰীয় উদ্যান ভুটান সীমাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-073",
+    "q": {
+      "en": "Manas National Park is famous for which rare wild pig?",
+      "as": "মানাহ ৰাষ্ট্ৰীয় উদ্যান কোন বিৰল বনৰীয়া গাহৰিৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Wild boar",
+        "as": "বনৰীয়া গাহৰি"
+      },
+      {
+        "en": "Babirusa",
+        "as": "বেবিৰুছা"
+      },
+      {
+        "en": "Peccary",
+        "as": "পেকাৰী"
+      },
+      {
+        "en": "Pygmy hog",
+        "as": "পিগমি হগ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Manas is famous for the endangered pygmy hog.",
+      "as": "মানাহ বিপন্ন পিগমি হগৰ বাবে বিখ্যাত।"
+    }
+  },
+  {
+    "id": "assam-geography-074",
+    "q": {
+      "en": "Which National Park of Assam is known as 'Mini Kaziranga'?",
+      "as": "অসমৰ কোন ৰাষ্ট্ৰীয় উদ্যানক 'মিনি কাজিৰঙা' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Dibru-Saikhowa",
+        "as": "ডিব্ৰু-শইকোৱা"
+      },
+      {
+        "en": "Nameri",
+        "as": "নামেৰী"
+      },
+      {
+        "en": "Raimona",
+        "as": "ৰাইমনা"
+      },
+      {
+        "en": "Orang",
+        "as": "ওৰাং"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Orang National Park is called Mini Kaziranga.",
+      "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যানক মিনি কাজিৰঙা বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-075",
+    "q": {
+      "en": "Orang National Park is located in which districts?",
+      "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান কোন জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Kokrajhar and Chirang",
+        "as": "কোকৰাঝাৰ আৰু চিৰাং"
+      },
+      {
+        "en": "Dibrugarh and Tinsukia",
+        "as": "ডিব্ৰুগড় আৰু তিনিচুকীয়া"
+      },
+      {
+        "en": "Darrang and Sonitpur",
+        "as": "দৰং আৰু শোণিতপুৰ"
+      },
+      {
+        "en": "Cachar and Karimganj",
+        "as": "কাছাৰ আৰু কৰিমগঞ্জ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Orang National Park lies in Darrang and Sonitpur districts.",
+      "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান দৰং আৰু শোণিতপুৰ জিলাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-076",
+    "q": {
+      "en": "Nameri National Park is located in which district?",
+      "as": "নামেৰী ৰাষ্ট্ৰীয় উদ্যান কোন জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Sonitpur",
+        "as": "শোণিতপুৰ"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Golaghat",
+        "as": "গোলাঘাট"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Nameri National Park is in Sonitpur district.",
+      "as": "নামেৰী ৰাষ্ট্ৰীয় উদ্যান শোণিতপুৰ জিলাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-077",
+    "q": {
+      "en": "Dibru-Saikhowa National Park lies between which two rivers?",
+      "as": "ডিব্ৰু-শইকোৱা ৰাষ্ট্ৰীয় উদ্যান কোন দুখন নদীৰ মাজত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Barak and Surma",
+        "as": "বৰাক আৰু সূৰ্মা"
+      },
+      {
+        "en": "Dibru and Lohit",
+        "as": "ডিব্ৰু আৰু লোহিত"
+      },
+      {
+        "en": "Ganga and Yamuna",
+        "as": "গংগা আৰু যমুনা"
+      },
+      {
+        "en": "Manas and Beki",
+        "as": "মনাহ আৰু বেকী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dibru-Saikhowa lies between the Dibru and Lohit rivers.",
+      "as": "ডিব্ৰু-শইকোৱা ডিব্ৰু আৰু লোহিত নদীৰ মাজত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-078",
+    "q": {
+      "en": "Dibru-Saikhowa National Park is famous for which feral animal?",
+      "as": "ডিব্ৰু-শইকোৱা ৰাষ্ট্ৰীয় উদ্যান কোন বন্যপ্ৰাণীৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Wild ass",
+        "as": "বনৰীয়া গাধ"
+      },
+      {
+        "en": "Feral horses",
+        "as": "বনৰীয়া ঘোঁৰা"
+      },
+      {
+        "en": "Zebras",
+        "as": "জেব্ৰা"
+      },
+      {
+        "en": "Feral camels",
+        "as": "বনৰীয়া উট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dibru-Saikhowa is known for its feral horses.",
+      "as": "ডিব্ৰু-শইকোৱা বনৰীয়া ঘোঁৰাৰ বাবে জনাজাত।"
+    }
+  },
+  {
+    "id": "assam-geography-079",
+    "q": {
+      "en": "Which National Park of Assam was created in 2021 in Kokrajhar district?",
+      "as": "কোকৰাঝাৰ জিলাত ২০২১ চনত কোন ৰাষ্ট্ৰীয় উদ্যান সৃষ্টি কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Dehing Patkai",
+        "as": "ডিহিং পাটকাই"
+      },
+      {
+        "en": "Orang",
+        "as": "ওৰাং"
+      },
+      {
+        "en": "Raimona",
+        "as": "ৰাইমনা"
+      },
+      {
+        "en": "Nameri",
+        "as": "নামেৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Raimona National Park was created in Kokrajhar in 2021.",
+      "as": "২০২১ চনত কোকৰাঝাৰত ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান সৃষ্টি কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-080",
+    "q": {
+      "en": "Which National Park of Assam is known for its rainforest?",
+      "as": "অসমৰ কোন ৰাষ্ট্ৰীয় উদ্যান বৰ্ষাৰণ্যৰ বাবে জনাজাত?"
+    },
+    "options": [
+      {
+        "en": "Orang",
+        "as": "ওৰাং"
+      },
+      {
+        "en": "Dehing Patkai",
+        "as": "ডিহিং পাটকাই"
+      },
+      {
+        "en": "Nameri",
+        "as": "নামেৰী"
+      },
+      {
+        "en": "Raimona",
+        "as": "ৰাইমনা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dehing Patkai is called the Amazon of the East for its rainforest.",
+      "as": "ডিহিং পাটকাইক বৰ্ষাৰণ্যৰ বাবে পূৱৰ আমাজন বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-081",
+    "q": {
+      "en": "Pobitora Wildlife Sanctuary is located in which district?",
+      "as": "পবিতৰা বন্যপ্ৰাণী অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Barpeta",
+        "as": "বৰপেটা"
+      },
+      {
+        "en": "Golaghat",
+        "as": "গোলাঘাট"
+      },
+      {
+        "en": "Morigaon",
+        "as": "মৰিগাঁও"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Pobitora Wildlife Sanctuary is in Morigaon district.",
+      "as": "পবিতৰা বন্যপ্ৰাণী অভয়াৰণ্য মৰিগাঁও জিলাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-082",
+    "q": {
+      "en": "Pobitora is known for having the highest density of which animal?",
+      "as": "পবিতৰা কোন প্ৰাণীৰ সৰ্বাধিক ঘনত্বৰ বাবে জনাজাত?"
+    },
+    "options": [
+      {
+        "en": "Elephant",
+        "as": "হাতী"
+      },
+      {
+        "en": "Tiger",
+        "as": "বাঘ"
+      },
+      {
+        "en": "Deer",
+        "as": "হৰিণ"
+      },
+      {
+        "en": "One-horned rhinoceros",
+        "as": "এশিঙীয়া গঁড়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Pobitora has a very high density of one-horned rhinos.",
+      "as": "পবিতৰাত এশিঙীয়া গঁড়ৰ ঘনত্ব অতি উচ্চ।"
+    }
+  },
+  {
+    "id": "assam-geography-083",
+    "q": {
+      "en": "Chakrashila Wildlife Sanctuary is famous for which primate?",
+      "as": "চক্ৰশিলা বন্যপ্ৰাণী অভয়াৰণ্য কোন প্ৰাইমেটৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Hoolock gibbon",
+        "as": "হুলুক গিবন"
+      },
+      {
+        "en": "Rhesus macaque",
+        "as": "ৰিছুচ মেকাক"
+      },
+      {
+        "en": "Slow loris",
+        "as": "লাজুকী বান্দৰ"
+      },
+      {
+        "en": "Golden langur",
+        "as": "সোণালী বান্দৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Chakrashila is famous for the golden langur.",
+      "as": "চক্ৰশিলা সোণালী বান্দৰৰ বাবে বিখ্যাত।"
+    }
+  },
+  {
+    "id": "assam-geography-084",
+    "q": {
+      "en": "Chakrashila Wildlife Sanctuary is located in which part of Assam?",
+      "as": "চক্ৰশিলা বন্যপ্ৰাণী অভয়াৰণ্য অসমৰ কোন অংশত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Western Assam",
+        "as": "পশ্চিম অসম"
+      },
+      {
+        "en": "Central Assam",
+        "as": "মধ্য অসম"
+      },
+      {
+        "en": "Eastern Assam",
+        "as": "পূৱ অসম"
+      },
+      {
+        "en": "Barak valley",
+        "as": "বৰাক উপত্যকা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Chakrashila is in western Assam, near Kokrajhar and Dhubri.",
+      "as": "চক্ৰশিলা পশ্চিম অসমত, কোকৰাঝাৰ আৰু ধুবুৰীৰ ওচৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-085",
+    "q": {
+      "en": "The Hollongapar Gibbon Sanctuary is located near which town?",
+      "as": "হলোঙাপাৰ গিবন অভয়াৰণ্য কোন চহৰৰ ওচৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Hollongapar Gibbon Sanctuary is near Jorhat.",
+      "as": "হলোঙাপাৰ গিবন অভয়াৰণ্য যোৰহাটৰ ওচৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-086",
+    "q": {
+      "en": "Which is the only ape found in India?",
+      "as": "ভাৰতত পোৱা একমাত্ৰ এপ (নৰবান্দৰ) কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Gorilla",
+        "as": "গৰিলা"
+      },
+      {
+        "en": "Chimpanzee",
+        "as": "শিম্পাঞ্জী"
+      },
+      {
+        "en": "Hoolock gibbon",
+        "as": "হুলুক গিবন"
+      },
+      {
+        "en": "Orangutan",
+        "as": "ওৰাংগুটান"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The hoolock gibbon is the only ape found in India.",
+      "as": "হুলুক গিবন ভাৰতত পোৱা একমাত্ৰ এপ।"
+    }
+  },
+  {
+    "id": "assam-geography-087",
+    "q": {
+      "en": "Which is the largest wetland of Assam?",
+      "as": "অসমৰ আটাইতকৈ বৃহৎ জলাশয় কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Sivasagar tank",
+        "as": "শিৱসাগৰ পুখুৰী"
+      },
+      {
+        "en": "Deepor Beel",
+        "as": "দীপৰ বিল"
+      },
+      {
+        "en": "Chandubi",
+        "as": "চান্দুবি"
+      },
+      {
+        "en": "Sonbeel",
+        "as": "সোণবিল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sonbeel in Karimganj is the largest wetland of Assam.",
+      "as": "কৰিমগঞ্জৰ সোণবিল অসমৰ আটাইতকৈ বৃহৎ জলাশয়।"
+    }
+  },
+  {
+    "id": "assam-geography-088",
+    "q": {
+      "en": "Deepor Beel, a Ramsar site, is located near which city?",
+      "as": "ৰামচৰ স্থান দীপৰ বিল কোন নগৰৰ ওচৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Deepor Beel is a Ramsar wetland near Guwahati.",
+      "as": "দীপৰ বিল গুৱাহাটীৰ ওচৰৰ এটা ৰামচৰ জলাশয়।"
+    }
+  },
+  {
+    "id": "assam-geography-089",
+    "q": {
+      "en": "In which year was Deepor Beel declared a Ramsar site?",
+      "as": "দীপৰ বিলক কোন বছৰত ৰামচৰ স্থান ঘোষণা কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2010",
+        "as": "২০১০"
+      },
+      {
+        "en": "1990",
+        "as": "১৯৯০"
+      },
+      {
+        "en": "2002",
+        "as": "২০০২"
+      },
+      {
+        "en": "1985",
+        "as": "১৯৮৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Deepor Beel was declared a Ramsar site in 2002.",
+      "as": "দীপৰ বিলক ২০০২ চনত ৰামচৰ স্থান ঘোষণা কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-090",
+    "q": {
+      "en": "Chandubi Lake was formed as a result of which event?",
+      "as": "চান্দুবি হ্ৰদ কোন ঘটনাৰ ফলত সৃষ্টি হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "The 1897 earthquake",
+        "as": "১৮৯৭ চনৰ ভূমিকম্প"
+      },
+      {
+        "en": "A volcanic eruption",
+        "as": "আগ্নেয়গিৰি উদ্গিৰণ"
+      },
+      {
+        "en": "A flood",
+        "as": "বানপানী"
+      },
+      {
+        "en": "A cyclone",
+        "as": "ঘূৰ্ণীবতাহ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Chandubi Lake was formed after the Great Assam Earthquake of 1897.",
+      "as": "১৮৯৭ চনৰ মহা অসম ভূমিকম্পৰ পিছত চান্দুবি হ্ৰদ সৃষ্টি হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-091",
+    "q": {
+      "en": "Which sanctuary is associated with the pygmy hog in Assam?",
+      "as": "অসমত পিগমি হগৰ সৈতে কোন অভয়াৰণ্য জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Manas National Park",
+        "as": "মানাহ ৰাষ্ট্ৰীয় উদ্যান"
+      },
+      {
+        "en": "Orang National Park",
+        "as": "ওৰাং ৰাষ্ট্ৰীয় উদ্যান"
+      },
+      {
+        "en": "Nameri National Park",
+        "as": "নামেৰী ৰাষ্ট্ৰীয় উদ্যান"
+      },
+      {
+        "en": "Raimona National Park",
+        "as": "ৰাইমনা ৰাষ্ট্ৰীয় উদ্যান"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Manas is the main habitat of the pygmy hog in Assam.",
+      "as": "মানাহ অসমত পিগমি হগৰ প্ৰধান বাসস্থান।"
+    }
+  },
+  {
+    "id": "assam-geography-092",
+    "q": {
+      "en": "Assam lies in which seismic zone of India?",
+      "as": "অসম ভাৰতৰ কোন ভূমিকম্প অঞ্চলত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Zone I",
+        "as": "অঞ্চল ১"
+      },
+      {
+        "en": "Zone V",
+        "as": "অঞ্চল ৫"
+      },
+      {
+        "en": "Zone II",
+        "as": "অঞ্চল ২"
+      },
+      {
+        "en": "Zone III",
+        "as": "অঞ্চল ৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam lies in the highest seismic risk zone, Zone V.",
+      "as": "অসম সৰ্বোচ্চ ভূমিকম্প আশংকা অঞ্চল ৫ ত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-093",
+    "q": {
+      "en": "The Great Assam Earthquake occurred in which year?",
+      "as": "মহা অসম ভূমিকম্প কোন বছৰত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1934",
+        "as": "১৯৩৪"
+      },
+      {
+        "en": "1905",
+        "as": "১৯০৫"
+      },
+      {
+        "en": "1950",
+        "as": "১৯৫০"
+      },
+      {
+        "en": "1897",
+        "as": "১৮৯৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Great Assam Earthquake occurred in 1897.",
+      "as": "মহা অসম ভূমিকম্প ১৮৯৭ চনত হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-094",
+    "q": {
+      "en": "The Assam-Tibet earthquake occurred in which year?",
+      "as": "অসম-তিব্বত ভূমিকম্প কোন বছৰত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1934",
+        "as": "১৯৩৪"
+      },
+      {
+        "en": "1950",
+        "as": "১৯৫০"
+      },
+      {
+        "en": "1897",
+        "as": "১৮৯৭"
+      },
+      {
+        "en": "1960",
+        "as": "১৯৬০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Assam-Tibet earthquake occurred in 1950.",
+      "as": "অসম-তিব্বত ভূমিকম্প ১৯৫০ চনত হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-095",
+    "q": {
+      "en": "Majuli is a river island on which river?",
+      "as": "মাজুলী কোন নদীৰ এটা নদী দ্বীপ?"
+    },
+    "options": [
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Manas",
+        "as": "মনাহ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Majuli is a large river island in the Brahmaputra.",
+      "as": "মাজুলী ব্ৰহ্মপুত্ৰৰ এটা বৃহৎ নদী দ্বীপ।"
+    }
+  },
+  {
+    "id": "assam-geography-096",
+    "q": {
+      "en": "Majuli was declared a district in which year?",
+      "as": "মাজুলীক কোন বছৰত জিলা ঘোষণা কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      },
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2011",
+        "as": "২০১১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Majuli became a district in 2016.",
+      "as": "মাজুলী ২০১৬ চনত জিলা হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-097",
+    "q": {
+      "en": "Which is the smallest inhabited river island in the world, located in Assam?",
+      "as": "অসমত অৱস্থিত বিশ্বৰ আটাইতকৈ সৰু জনবসতিপূৰ্ণ নদী দ্বীপ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Umananda",
+        "as": "উমানন্দ"
+      },
+      {
+        "en": "Peacock Island",
+        "as": "পিকক আইলেণ্ড"
+      },
+      {
+        "en": "Majuli",
+        "as": "মাজুলী"
+      },
+      {
+        "en": "Bhupen Dwip",
+        "as": "ভূপেন দ্বীপ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Umananda in the Brahmaputra at Guwahati is the smallest inhabited river island.",
+      "as": "গুৱাহাটীত ব্ৰহ্মপুত্ৰৰ উমানন্দ বিশ্বৰ আটাইতকৈ সৰু জনবসতিপূৰ্ণ নদী দ্বীপ।"
+    }
+  },
+  {
+    "id": "assam-geography-098",
+    "q": {
+      "en": "Which national park has the largest population of one-horned rhinoceros?",
+      "as": "এশিঙীয়া গঁড়ৰ আটাইতকৈ বৃহৎ জনসংখ্যা কোন ৰাষ্ট্ৰীয় উদ্যানত আছে?"
+    },
+    "options": [
+      {
+        "en": "Manas",
+        "as": "মানাহ"
+      },
+      {
+        "en": "Orang",
+        "as": "ওৰাং"
+      },
+      {
+        "en": "Kaziranga",
+        "as": "কাজিৰঙা"
+      },
+      {
+        "en": "Pobitora",
+        "as": "পবিতৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Kaziranga holds the largest population of one-horned rhinos.",
+      "as": "কাজিৰঙাত এশিঙীয়া গঁড়ৰ আটাইতকৈ বৃহৎ জনসংখ্যা আছে।"
+    }
+  },
+  {
+    "id": "assam-geography-099",
+    "q": {
+      "en": "Which is the state tree of Assam?",
+      "as": "অসমৰ ৰাজ্যিক গছ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Hollong",
+        "as": "হলোঙ"
+      },
+      {
+        "en": "Teak",
+        "as": "চেগুন"
+      },
+      {
+        "en": "Sal",
+        "as": "শাল"
+      },
+      {
+        "en": "Mango",
+        "as": "আম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Hollong is the state tree of Assam.",
+      "as": "হলোঙ অসমৰ ৰাজ্যিক গছ।"
+    }
+  },
+  {
+    "id": "assam-geography-100",
+    "q": {
+      "en": "Assam loses land every year mainly due to what?",
+      "as": "অসমে প্ৰতি বছৰে মুখ্যতঃ কিহৰ বাবে মাটি হেৰুৱায়?"
+    },
+    "options": [
+      {
+        "en": "River bank erosion",
+        "as": "নদীৰ পাৰ ক্ষয়"
+      },
+      {
+        "en": "Desertification",
+        "as": "মৰুকৰণ"
+      },
+      {
+        "en": "Glacier melt",
+        "as": "হিমবাহ গলন"
+      },
+      {
+        "en": "Volcanic activity",
+        "as": "আগ্নেয়গিৰি কাৰ্যকলাপ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bank erosion by the Brahmaputra causes major land loss in Assam.",
+      "as": "ব্ৰহ্মপুত্ৰৰ পাৰ ক্ষয়ে অসমত ডাঙৰ মাটি হেৰুৱাৰ কাৰণ।"
+    }
+  },
+  {
+    "id": "assam-geography-101",
+    "q": {
+      "en": "Majuli is facing a serious threat from what?",
+      "as": "মাজুলী কোন গুৰুতৰ ভাবুকিৰ সন্মুখীন হৈছে?"
+    },
+    "options": [
+      {
+        "en": "River erosion",
+        "as": "নদী ক্ষয়"
+      },
+      {
+        "en": "Deforestation only",
+        "as": "কেৱল বনধ্বংস"
+      },
+      {
+        "en": "Desertification",
+        "as": "মৰুকৰণ"
+      },
+      {
+        "en": "Air pollution",
+        "as": "বায়ু প্ৰদূষণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Majuli is shrinking because of Brahmaputra erosion.",
+      "as": "ব্ৰহ্মপুত্ৰৰ ক্ষয়ৰ বাবে মাজুলী সৰু হৈ আহিছে।"
+    }
+  },
+  {
+    "id": "assam-geography-102",
+    "q": {
+      "en": "Which bird sanctuary is located in Sivasagar district?",
+      "as": "কোন চৰাই অভয়াৰণ্য শিৱসাগৰ জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Panidihing",
+        "as": "পানীদিহিং"
+      },
+      {
+        "en": "Deepor Beel",
+        "as": "দীপৰ বিল"
+      },
+      {
+        "en": "Chakrashila",
+        "as": "চক্ৰশিলা"
+      },
+      {
+        "en": "Bornadi",
+        "as": "বৰনদী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Panidihing Bird Sanctuary is in Sivasagar district.",
+      "as": "পানীদিহিং চৰাই অভয়াৰণ্য শিৱসাগৰ জিলাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-103",
+    "q": {
+      "en": "Which wildlife sanctuary is associated with the pygmy hog in Udalguri area?",
+      "as": "উদালগুৰি অঞ্চলত পিগমি হগৰ সৈতে কোন বন্যপ্ৰাণী অভয়াৰণ্য জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Garampani",
+        "as": "গৰমপানী"
+      },
+      {
+        "en": "Panidihing",
+        "as": "পানীদিহিং"
+      },
+      {
+        "en": "Chakrashila",
+        "as": "চক্ৰশিলা"
+      },
+      {
+        "en": "Bornadi",
+        "as": "বৰনদী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bornadi Wildlife Sanctuary is known for the pygmy hog.",
+      "as": "বৰনদী বন্যপ্ৰাণী অভয়াৰণ্য পিগমি হগৰ বাবে জনাজাত।"
+    }
+  },
+  {
+    "id": "assam-geography-104",
+    "q": {
+      "en": "Assam is the largest producer of which variety of silk in India?",
+      "as": "অসম ভাৰতত কোন ধৰণৰ ৰেচমৰ আটাইতকৈ বৃহৎ উৎপাদক?"
+    },
+    "options": [
+      {
+        "en": "Tussar silk",
+        "as": "তচৰ ৰেচম"
+      },
+      {
+        "en": "Muga silk",
+        "as": "মুগা ৰেচম"
+      },
+      {
+        "en": "Mulberry silk",
+        "as": "মালবেৰী ৰেচম"
+      },
+      {
+        "en": "Eri silk only",
+        "as": "কেৱল এৰি ৰেচম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam is the largest producer of golden Muga silk.",
+      "as": "অসম সোণালী মুগা ৰেচমৰ আটাইতকৈ বৃহৎ উৎপাদক।"
+    }
+  },
+  {
+    "id": "assam-geography-105",
+    "q": {
+      "en": "Which are the three main rice crops of Assam?",
+      "as": "অসমৰ তিনিটা প্ৰধান ধান শস্য কোনবোৰ?"
+    },
+    "options": [
+      {
+        "en": "Ahu, Sali and Boro",
+        "as": "আহু, শালি আৰু বৰো"
+      },
+      {
+        "en": "Wheat, maize and barley",
+        "as": "গম, মাকৈ আৰু বাৰ্লি"
+      },
+      {
+        "en": "Millet, gram and pea",
+        "as": "বাজৰা, মাহ আৰু মটৰ"
+      },
+      {
+        "en": "Jute, cotton and sugarcane",
+        "as": "পাট, কপাহ আৰু ইখৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assam grows three main rice crops: Ahu, Sali and Boro.",
+      "as": "অসমত তিনিটা প্ৰধান ধান শস্য জন্মে: আহু, শালি আৰু বৰো।"
+    }
+  },
+  {
+    "id": "assam-geography-106",
+    "q": {
+      "en": "Which rice crop of Assam is sown in low-lying areas and harvested in summer?",
+      "as": "অসমৰ কোন ধান শস্য নীচ অঞ্চলত সিঁচি গ্ৰীষ্মকালত চপোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Boro",
+        "as": "বৰো"
+      },
+      {
+        "en": "Ahu",
+        "as": "আহু"
+      },
+      {
+        "en": "Bao",
+        "as": "বাও"
+      },
+      {
+        "en": "Sali",
+        "as": "শালি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Boro rice is grown in low-lying fields.",
+      "as": "বৰো ধান নীচ পথাৰত জন্মোৱা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-107",
+    "q": {
+      "en": "Assam is the largest producer of which beverage crop in India?",
+      "as": "অসম ভাৰতত কোন পানীয় শস্যৰ আটাইতকৈ বৃহৎ উৎপাদক?"
+    },
+    "options": [
+      {
+        "en": "Cocoa",
+        "as": "ককো"
+      },
+      {
+        "en": "Tea",
+        "as": "চাহ"
+      },
+      {
+        "en": "Rubber",
+        "as": "ৰবৰ"
+      },
+      {
+        "en": "Coffee",
+        "as": "কফি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam is the largest tea-producing state in India.",
+      "as": "অসম ভাৰতৰ আটাইতকৈ বৃহৎ চাহ উৎপাদনকাৰী ৰাজ্য।"
+    }
+  },
+  {
+    "id": "assam-geography-108",
+    "q": {
+      "en": "Assam tea is famous for which characteristic taste?",
+      "as": "অসমৰ চাহ কোন বৈশিষ্ট্যপূৰ্ণ সোৱাদৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Very sweet",
+        "as": "অতি মিঠা"
+      },
+      {
+        "en": "Strong malty flavour",
+        "as": "শক্তিশালী মল্ট সোৱাদ"
+      },
+      {
+        "en": "Salty",
+        "as": "লোণাক্ত"
+      },
+      {
+        "en": "Sour",
+        "as": "টেঙা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam tea is known for its strong malty flavour.",
+      "as": "অসমৰ চাহ ইয়াৰ শক্তিশালী মল্ট সোৱাদৰ বাবে জনাজাত।"
+    }
+  },
+  {
+    "id": "assam-geography-109",
+    "q": {
+      "en": "The Tocklai Tea Research Institute is located at which place?",
+      "as": "টকলাই চাহ গৱেষণা প্ৰতিষ্ঠান কোন স্থানত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Tocklai Tea Research Institute is in Jorhat.",
+      "as": "টকলাই চাহ গৱেষণা প্ৰতিষ্ঠান যোৰহাটত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-110",
+    "q": {
+      "en": "Assam Agricultural University is located at which place?",
+      "as": "অসম কৃষি বিশ্ববিদ্যালয় কোন স্থানত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assam Agricultural University is in Jorhat.",
+      "as": "অসম কৃষি বিশ্ববিদ্যালয় যোৰহাটত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-111",
+    "q": {
+      "en": "Which golden silk is uniquely produced in Assam?",
+      "as": "অসমত অনন্যভাৱে উৎপাদিত সোণালী ৰেচম কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Angora",
+        "as": "আঙোৰা"
+      },
+      {
+        "en": "Tussar",
+        "as": "তচৰ"
+      },
+      {
+        "en": "Muga",
+        "as": "মুগা"
+      },
+      {
+        "en": "Mulberry",
+        "as": "মালবেৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Muga is the golden silk unique to Assam.",
+      "as": "মুগা অসমৰ অনন্য সোণালী ৰেচম।"
+    }
+  },
+  {
+    "id": "assam-geography-112",
+    "q": {
+      "en": "Eri silk is also known by which name?",
+      "as": "এৰি ৰেচমক আন কি নামেৰেও জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Golden silk",
+        "as": "সোণালী ৰেচম"
+      },
+      {
+        "en": "Sea silk",
+        "as": "সাগৰীয় ৰেচম"
+      },
+      {
+        "en": "Ahimsa silk",
+        "as": "অহিংস ৰেচম"
+      },
+      {
+        "en": "Royal silk",
+        "as": "ৰাজকীয় ৰেচম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Eri silk is called Ahimsa silk as the worm is not killed.",
+      "as": "এৰি ৰেচমক অহিংস ৰেচম বোলা হয় কাৰণ পোকটো হত্যা কৰা নহয়।"
+    }
+  },
+  {
+    "id": "assam-geography-113",
+    "q": {
+      "en": "Sualkuchi, famous for silk weaving, is located in which district?",
+      "as": "ৰেচম বোৱনৰ বাবে বিখ্যাত শুৱালকুছি কোন জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Kamrup",
+        "as": "কামৰূপ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sualkuchi is in Kamrup district.",
+      "as": "শুৱালকুছি কামৰূপ জিলাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-114",
+    "q": {
+      "en": "Assam is a leading producer of which nut and leaf combination?",
+      "as": "অসম কোন বাদাম আৰু পাতৰ সংমিশ্ৰণৰ আগশাৰীৰ উৎপাদক?"
+    },
+    "options": [
+      {
+        "en": "Coconut and palm",
+        "as": "নাৰিকল আৰু তাল"
+      },
+      {
+        "en": "Areca nut and betel leaf",
+        "as": "তামোল আৰু পাণ"
+      },
+      {
+        "en": "Groundnut and tobacco",
+        "as": "বাদাম আৰু তামাক"
+      },
+      {
+        "en": "Cashew and tea",
+        "as": "কাজু আৰু চাহ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Areca nut (tamul) and betel leaf (paan) are widely grown in Assam.",
+      "as": "তামোল আৰু পাণ অসমত বহুলভাৱে খেতি কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-115",
+    "q": {
+      "en": "Which crop is an important cash crop of the Barak valley?",
+      "as": "বৰাক উপত্যকাৰ এটা গুৰুত্বপূর্ণ নগদীয়া শস্য কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Saffron",
+        "as": "জাফ্ৰান"
+      },
+      {
+        "en": "Coffee",
+        "as": "কফি"
+      },
+      {
+        "en": "Jute",
+        "as": "পাট"
+      },
+      {
+        "en": "Rubber",
+        "as": "ৰবৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Jute is an important cash crop of the Barak valley.",
+      "as": "পাট বৰাক উপত্যকাৰ এটা গুৰুত্বপূর্ণ নগদীয়া শস্য।"
+    }
+  },
+  {
+    "id": "assam-geography-116",
+    "q": {
+      "en": "The first oil well in India was drilled at which Assam place?",
+      "as": "ভাৰতৰ প্ৰথম তেল কুৱা কোন অসম স্থানত খন্দা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Moran",
+        "as": "মৰাণ"
+      },
+      {
+        "en": "Duliajan",
+        "as": "দুলীয়াজান"
+      },
+      {
+        "en": "Digboi",
+        "as": "ডিগবৈ"
+      },
+      {
+        "en": "Naharkatia",
+        "as": "নাহৰকটীয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Digboi is home to the first oil well in India.",
+      "as": "ডিগবৈ ভাৰতৰ প্ৰথম তেল কুৱাৰ স্থান।"
+    }
+  },
+  {
+    "id": "assam-geography-117",
+    "q": {
+      "en": "Oil India Limited has its headquarters at which place?",
+      "as": "অইল ইণ্ডিয়া লিমিটেডৰ মুখ্য কাৰ্যালয় কোন স্থানত?"
+    },
+    "options": [
+      {
+        "en": "Digboi",
+        "as": "ডিগবৈ"
+      },
+      {
+        "en": "Duliajan",
+        "as": "দুলীয়াজান"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Oil India Limited is headquartered at Duliajan.",
+      "as": "অইল ইণ্ডিয়া লিমিটেডৰ মুখ্য কাৰ্যালয় দুলীয়াজানত।"
+    }
+  },
+  {
+    "id": "assam-geography-118",
+    "q": {
+      "en": "Naharkatia in Assam is associated with which resource?",
+      "as": "অসমৰ নাহৰকটীয়া কোন সম্পদৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Iron ore",
+        "as": "লোহা আকর"
+      },
+      {
+        "en": "Coal",
+        "as": "কয়লা"
+      },
+      {
+        "en": "Limestone",
+        "as": "চূণশিল"
+      },
+      {
+        "en": "Petroleum and natural gas",
+        "as": "পেট্ৰলিয়াম আৰু প্ৰাকৃতিক গেছ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Naharkatia is associated with petroleum and natural gas.",
+      "as": "নাহৰকটীয়া পেট্ৰলিয়াম আৰু প্ৰাকৃতিক গেছৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "assam-geography-119",
+    "q": {
+      "en": "Ledo and Margherita in Assam are known for which mineral?",
+      "as": "অসমৰ লেড' আৰু মাৰ্ঘেৰিটা কোন খনিজৰ বাবে জনাজাত?"
+    },
+    "options": [
+      {
+        "en": "Copper",
+        "as": "তাম"
+      },
+      {
+        "en": "Gold",
+        "as": "সোণ"
+      },
+      {
+        "en": "Mica",
+        "as": "অভ্ৰক"
+      },
+      {
+        "en": "Coal",
+        "as": "কয়লা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ledo and Margherita are known for coal mining.",
+      "as": "লেড' আৰু মাৰ্ঘেৰিটা কয়লা খননৰ বাবে জনাজাত।"
+    }
+  },
+  {
+    "id": "assam-geography-120",
+    "q": {
+      "en": "At which place in Assam is limestone found in large quantities?",
+      "as": "অসমৰ কোন স্থানত চূণশিল বহু পৰিমাণে পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Umrangso",
+        "as": "উমৰাংছ"
+      },
+      {
+        "en": "Nalbari",
+        "as": "নলবাৰী"
+      },
+      {
+        "en": "Sualkuchi",
+        "as": "শুৱালকুছি"
+      },
+      {
+        "en": "Barpeta",
+        "as": "বৰপেটা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Umrangso in Dima Hasao has large limestone deposits.",
+      "as": "ডিমা হাছাওৰ উমৰাংছত চূণশিলৰ বৃহৎ ভাণ্ডাৰ আছে।"
+    }
+  },
+  {
+    "id": "assam-geography-121",
+    "q": {
+      "en": "Which refinery is located at Bongaigaon?",
+      "as": "বঙাইগাঁওত কোন শোধনাগাৰ অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Digboi Refinery",
+        "as": "ডিগবৈ শোধনাগাৰ"
+      },
+      {
+        "en": "Numaligarh Refinery",
+        "as": "নুমলীগড় শোধনাগাৰ"
+      },
+      {
+        "en": "Guwahati Refinery",
+        "as": "গুৱাহাটী শোধনাগাৰ"
+      },
+      {
+        "en": "Bongaigaon Refinery",
+        "as": "বঙাইগাঁও শোধনাগাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bongaigaon Refinery is located at Bongaigaon.",
+      "as": "বঙাইগাঁও শোধনাগাৰ বঙাইগাঁওত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-122",
+    "q": {
+      "en": "Numaligarh Refinery is located in which district?",
+      "as": "নুমলীগড় শোধনাগাৰ কোন জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+      },
+      {
+        "en": "Golaghat",
+        "as": "গোলাঘাট"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Numaligarh Refinery is in Golaghat district.",
+      "as": "নুমলীগড় শোধনাগাৰ গোলাঘাট জিলাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-123",
+    "q": {
+      "en": "The Namrup fertiliser plant is located in which district?",
+      "as": "নামৰূপ সাৰ কাৰখানা কোন জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Bongaigaon",
+        "as": "বঙাইগাঁও"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Namrup fertiliser plant is in Dibrugarh district.",
+      "as": "নামৰূপ সাৰ কাৰখানা ডিব্ৰুগড় জিলাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-124",
+    "q": {
+      "en": "The Cachar Paper Mill is located at which place?",
+      "as": "কাছাৰ কাগজ কল কোন স্থানত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Panchgram",
+        "as": "পাঁচগ্ৰাম"
+      },
+      {
+        "en": "Duliajan",
+        "as": "দুলীয়াজান"
+      },
+      {
+        "en": "Jagiroad",
+        "as": "জাগীৰোড"
+      },
+      {
+        "en": "Namrup",
+        "as": "নামৰূপ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Cachar Paper Mill is at Panchgram.",
+      "as": "কাছাৰ কাগজ কল পাঁচগ্ৰামত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-125",
+    "q": {
+      "en": "The Nagaon Paper Mill is located at which place?",
+      "as": "নগাঁও কাগজ কল কোন স্থানত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Numaligarh",
+        "as": "নুমলীগড়"
+      },
+      {
+        "en": "Jagiroad",
+        "as": "জাগীৰোড"
+      },
+      {
+        "en": "Panchgram",
+        "as": "পাঁচগ্ৰাম"
+      },
+      {
+        "en": "Bongaigaon",
+        "as": "বঙাইগাঁও"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Nagaon Paper Mill is at Jagiroad.",
+      "as": "নগাঁও কাগজ কল জাগীৰোডত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-126",
+    "q": {
+      "en": "The cement plant of Assam is located at which place?",
+      "as": "অসমৰ চিমেণ্ট কাৰখানা কোন স্থানত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Jagiroad",
+        "as": "জাগীৰোড"
+      },
+      {
+        "en": "Umrangso",
+        "as": "উমৰাংছ"
+      },
+      {
+        "en": "Namrup",
+        "as": "নামৰূপ"
+      },
+      {
+        "en": "Bokajan",
+        "as": "বোকাজান"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The cement plant is at Bokajan in Karbi Anglong.",
+      "as": "চিমেণ্ট কাৰখানা কাৰ্বি আংলঙৰ বোকাজানত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-127",
+    "q": {
+      "en": "Which national highway is the principal east-west highway of Assam?",
+      "as": "কোন ৰাষ্ট্ৰীয় ঘাইপথ অসমৰ প্ৰধান পূৱ-পশ্চিম ঘাইপথ?"
+    },
+    "options": [
+      {
+        "en": "NH-15",
+        "as": "এন এইচ-১৫"
+      },
+      {
+        "en": "NH-37",
+        "as": "এন এইচ-৩৭"
+      },
+      {
+        "en": "NH-17",
+        "as": "এন এইচ-১৭"
+      },
+      {
+        "en": "NH-27",
+        "as": "এন এইচ-২৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "NH-27 is the main east-west national highway of Assam.",
+      "as": "এন এইচ-২৭ অসমৰ প্ৰধান পূৱ-পশ্চিম ৰাষ্ট্ৰীয় ঘাইপথ।"
+    }
+  },
+  {
+    "id": "assam-geography-128",
+    "q": {
+      "en": "Which airport serves Guwahati?",
+      "as": "গুৱাহাটীলৈ কোন বিমানবন্দৰে সেৱা আগবঢ়ায়?"
+    },
+    "options": [
+      {
+        "en": "Lokpriya Gopinath Bordoloi International Airport",
+        "as": "লোকপ্ৰিয় গোপীনাথ বৰদলৈ আন্তঃৰাষ্ট্ৰীয় বিমানবন্দৰ"
+      },
+      {
+        "en": "Kumbhirgram Airport",
+        "as": "কুম্ভীৰগ্ৰাম বিমানবন্দৰ"
+      },
+      {
+        "en": "Rowriah Airport",
+        "as": "ৰৌৰীয়া বিমানবন্দৰ"
+      },
+      {
+        "en": "Mohanbari Airport",
+        "as": "মোহনবাৰী বিমানবন্দৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Guwahati is served by Lokpriya Gopinath Bordoloi International Airport.",
+      "as": "গুৱাহাটীলৈ লোকপ্ৰিয় গোপীনাথ বৰদলৈ আন্তঃৰাষ্ট্ৰীয় বিমানবন্দৰে সেৱা আগবঢ়ায়।"
+    }
+  },
+  {
+    "id": "assam-geography-129",
+    "q": {
+      "en": "The Dibrugarh airport is located at which place?",
+      "as": "ডিব্ৰুগড় বিমানবন্দৰ কোন স্থানত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Borjhar",
+        "as": "বৰঝাৰ"
+      },
+      {
+        "en": "Mohanbari",
+        "as": "মোহনবাৰী"
+      },
+      {
+        "en": "Kumbhirgram",
+        "as": "কুম্ভীৰগ্ৰাম"
+      },
+      {
+        "en": "Salonibari",
+        "as": "চালনীবাৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dibrugarh airport is at Mohanbari.",
+      "as": "ডিব্ৰুগড় বিমানবন্দৰ মোহনবাৰীত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-130",
+    "q": {
+      "en": "The Silchar airport is located at which place?",
+      "as": "শিলচৰ বিমানবন্দৰ কোন স্থানত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Rowriah",
+        "as": "ৰৌৰীয়া"
+      },
+      {
+        "en": "Mohanbari",
+        "as": "মোহনবাৰী"
+      },
+      {
+        "en": "Kumbhirgram",
+        "as": "কুম্ভীৰগ্ৰাম"
+      },
+      {
+        "en": "Borjhar",
+        "as": "বৰঝাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Silchar airport is at Kumbhirgram.",
+      "as": "শিলচৰ বিমানবন্দৰ কুম্ভীৰগ্ৰামত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-131",
+    "q": {
+      "en": "Which bridge was the first rail-cum-road bridge over the Brahmaputra?",
+      "as": "ব্ৰহ্মপুত্ৰৰ ওপৰত প্ৰথম ৰেল-পথ পুল কোনটো আছিল?"
+    },
+    "options": [
+      {
+        "en": "Saraighat Bridge",
+        "as": "শৰাইঘাট পুল"
+      },
+      {
+        "en": "Kolia Bhomora Setu",
+        "as": "কলিয়া ভোমোৰা সেতু"
+      },
+      {
+        "en": "Bogibeel Bridge",
+        "as": "বগীবিল পুল"
+      },
+      {
+        "en": "Naranarayan Setu",
+        "as": "নৰনাৰায়ণ সেতু"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Saraighat Bridge was the first rail-cum-road bridge over the Brahmaputra.",
+      "as": "শৰাইঘাট পুল ব্ৰহ্মপুত্ৰৰ ওপৰত প্ৰথম ৰেল-পথ পুল আছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-132",
+    "q": {
+      "en": "The Saraighat Bridge is located near which city?",
+      "as": "শৰাইঘাট পুল কোন নগৰৰ ওচৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Saraighat Bridge is near Guwahati.",
+      "as": "শৰাইঘাট পুল গুৱাহাটীৰ ওচৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-133",
+    "q": {
+      "en": "The Bogibeel Bridge connects Dibrugarh with which district?",
+      "as": "বগীবিল পুলে ডিব্ৰুগড়ক কোন জিলাৰ সৈতে সংযুক্ত কৰে?"
+    },
+    "options": [
+      {
+        "en": "Dhemaji",
+        "as": "ধেমাজি"
+      },
+      {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+      },
+      {
+        "en": "Tinsukia",
+        "as": "তিনিচুকীয়া"
+      },
+      {
+        "en": "Lakhimpur",
+        "as": "লখিমপুৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Bogibeel Bridge connects Dibrugarh and Dhemaji.",
+      "as": "বগীবিল পুলে ডিব্ৰুগড় আৰু ধেমাজিক সংযুক্ত কৰে।"
+    }
+  },
+  {
+    "id": "assam-geography-134",
+    "q": {
+      "en": "The Bogibeel Bridge is India's longest what?",
+      "as": "বগীবিল পুল ভাৰতৰ আটাইতকৈ দীঘল কি?"
+    },
+    "options": [
+      {
+        "en": "Rail-road bridge",
+        "as": "ৰেল-পথ পুল"
+      },
+      {
+        "en": "Cable bridge",
+        "as": "কেবল পুল"
+      },
+      {
+        "en": "Footbridge",
+        "as": "খোজ কাঢ়া পুল"
+      },
+      {
+        "en": "Suspension bridge",
+        "as": "ঝুলন্ত পুল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bogibeel is India's longest rail-road bridge.",
+      "as": "বগীবিল ভাৰতৰ আটাইতকৈ দীঘল ৰেল-পথ পুল।"
+    }
+  },
+  {
+    "id": "assam-geography-135",
+    "q": {
+      "en": "The Dhola-Sadiya bridge is named after which personality?",
+      "as": "ধোলা-শদিয়া পুল কোন ব্যক্তিৰ নামেৰে নামাকৰণ কৰা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Lachit Borphukan",
+        "as": "লাচিত বৰফুকন"
+      },
+      {
+        "en": "Jyoti Prasad Agarwala",
+        "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
+      },
+      {
+        "en": "Bhupen Hazarika",
+        "as": "ভূপেন হাজৰিকা"
+      },
+      {
+        "en": "Gopinath Bordoloi",
+        "as": "গোপীনাথ বৰদলৈ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Dhola-Sadiya bridge is named Bhupen Hazarika Setu.",
+      "as": "ধোলা-শদিয়া পুল ভূপেন হাজৰিকা সেতু নামেৰে নামাকৰণ কৰা হৈছে।"
+    }
+  },
+  {
+    "id": "assam-geography-136",
+    "q": {
+      "en": "The Naranarayan Setu is located at which place?",
+      "as": "নৰনাৰায়ণ সেতু কোন স্থানত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Jogighopa",
+        "as": "জোগীঘোপা"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Naranarayan Setu is at Jogighopa over the Brahmaputra.",
+      "as": "নৰনাৰায়ণ সেতু ব্ৰহ্মপুত্ৰৰ ওপৰত জোগীঘোপাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-137",
+    "q": {
+      "en": "The Kolia Bhomora Setu connects Tezpur with which place?",
+      "as": "কলিয়া ভোমোৰা সেতুৱে তেজপুৰক কোন স্থানৰ সৈতে সংযুক্ত কৰে?"
+    },
+    "options": [
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Kolia Bhomora Setu connects Tezpur and Nagaon across the Brahmaputra.",
+      "as": "কলিয়া ভোমোৰা সেতুৱে ব্ৰহ্মপুত্ৰৰ ওপৰত তেজপুৰ আৰু নগাঁও সংযুক্ত কৰে।"
+    }
+  },
+  {
+    "id": "assam-geography-138",
+    "q": {
+      "en": "In which year did Assam get a direct rail link with the rest of India?",
+      "as": "অসমে কোন বছৰত বাকী ভাৰতৰ সৈতে পোনপটীয়া ৰেল সংযোগ লাভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "1962",
+        "as": "১৯৬২"
+      },
+      {
+        "en": "1972",
+        "as": "১৯৭২"
+      },
+      {
+        "en": "1947",
+        "as": "১৯৪৭"
+      },
+      {
+        "en": "1950",
+        "as": "১৯৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assam got a direct rail link with the rest of India in 1962.",
+      "as": "অসমে ১৯৬২ চনত বাকী ভাৰতৰ সৈতে পোনপটীয়া ৰেল সংযোগ লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-139",
+    "q": {
+      "en": "The first railway line in Assam ran between Dibrugarh and which place?",
+      "as": "অসমৰ প্ৰথম ৰেলপথ ডিব্ৰুগড় আৰু কোন স্থানৰ মাজত চলিছিল?"
+    },
+    "options": [
+      {
+        "en": "Tinsukia",
+        "as": "তিনিচুকীয়া"
+      },
+      {
+        "en": "Margherita",
+        "as": "মাৰ্ঘেৰিটা"
+      },
+      {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The first Assam railway line ran from Dibrugarh to Margherita.",
+      "as": "অসমৰ প্ৰথম ৰেলপথ ডিব্ৰুগড়ৰ পৰা মাৰ্ঘেৰিটালৈ চলিছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-140",
+    "q": {
+      "en": "In which year was the first railway line of Assam opened?",
+      "as": "অসমৰ প্ৰথম ৰেলপথ কোন বছৰত মুকলি কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1921",
+        "as": "১৯২১"
+      },
+      {
+        "en": "1861",
+        "as": "১৮৬১"
+      },
+      {
+        "en": "1881",
+        "as": "১৮৮১"
+      },
+      {
+        "en": "1901",
+        "as": "১৯০১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The first railway line in Assam opened in 1881.",
+      "as": "অসমৰ প্ৰথম ৰেলপথ ১৮৮১ চনত মুকলি কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-141",
+    "q": {
+      "en": "Guwahati is often called the gateway to which region?",
+      "as": "গুৱাহাটীক প্ৰায়ে কোন অঞ্চলৰ প্ৰৱেশদ্বাৰ বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "North-East India",
+        "as": "উত্তৰ-পূৱ ভাৰত"
+      },
+      {
+        "en": "West India",
+        "as": "পশ্চিম ভাৰত"
+      },
+      {
+        "en": "Central India",
+        "as": "মধ্য ভাৰত"
+      },
+      {
+        "en": "South India",
+        "as": "দক্ষিণ ভাৰত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Guwahati is called the gateway to North-East India.",
+      "as": "গুৱাহাটীক উত্তৰ-পূৱ ভাৰতৰ প্ৰৱেশদ্বাৰ বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-142",
+    "q": {
+      "en": "Which is the largest city of Assam by population?",
+      "as": "জনসংখ্যাৰে অসমৰ আটাইতকৈ বৃহৎ নগৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Guwahati is the largest city of Assam.",
+      "as": "গুৱাহাটী অসমৰ আটাইতকৈ বৃহৎ নগৰ।"
+    }
+  },
+  {
+    "id": "assam-geography-143",
+    "q": {
+      "en": "Which city is the second largest urban centre of Assam?",
+      "as": "অসমৰ দ্বিতীয় বৃহত্তম নগৰীয়া কেন্দ্ৰ কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Silchar is generally regarded as the second largest city of Assam.",
+      "as": "শিলচৰক সাধাৰণতে অসমৰ দ্বিতীয় বৃহত্তম নগৰ হিচাপে গণ্য কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-144",
+    "q": {
+      "en": "Which town is the headquarters of the Barak valley's Cachar district?",
+      "as": "বৰাক উপত্যকাৰ কাছাৰ জিলাৰ সদৰ ঠাই কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Hailakandi",
+        "as": "হাইলাকান্দি"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Karimganj",
+        "as": "কৰিমগঞ্জ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Silchar is the headquarters of Cachar district.",
+      "as": "শিলচৰ কাছাৰ জিলাৰ সদৰ ঠাই।"
+    }
+  },
+  {
+    "id": "assam-geography-145",
+    "q": {
+      "en": "Assam University is located at which place?",
+      "as": "অসম বিশ্ববিদ্যালয় কোন স্থানত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assam University is located at Silchar.",
+      "as": "অসম বিশ্ববিদ্যালয় শিলচৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-146",
+    "q": {
+      "en": "Which river port is important for inland water transport in Assam?",
+      "as": "অসমত অন্তঃস্থল জল পৰিবহণৰ বাবে কোন নদী বন্দৰ গুৰুত্বপূর্ণ?"
+    },
+    "options": [
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Pandu",
+        "as": "পাণ্ডু"
+      },
+      {
+        "en": "Sadiya",
+        "as": "শদিয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Pandu near Guwahati is an important river port.",
+      "as": "গুৱাহাটীৰ ওচৰৰ পাণ্ডু এটা গুৰুত্বপূর্ণ নদী বন্দৰ।"
+    }
+  },
+  {
+    "id": "assam-geography-147",
+    "q": {
+      "en": "Which is the main mode of transport in the hill districts of Assam?",
+      "as": "অসমৰ পাহাৰীয়া জিলাসমূহত পৰিবহণৰ প্ৰধান মাধ্যম কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Road transport",
+        "as": "পথ পৰিবহণ"
+      },
+      {
+        "en": "Water transport only",
+        "as": "কেৱল জল পৰিবহণ"
+      },
+      {
+        "en": "Air transport only",
+        "as": "কেৱল বিমান পৰিবহণ"
+      },
+      {
+        "en": "Rail transport only",
+        "as": "কেৱল ৰেল পৰিবহণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Road transport is the main mode in the hill districts.",
+      "as": "পাহাৰীয়া জিলাসমূহত পথ পৰিবহণ প্ৰধান মাধ্যম।"
+    }
+  },
+  {
+    "id": "assam-geography-148",
+    "q": {
+      "en": "Which crop is grown in the char areas of the Brahmaputra?",
+      "as": "ব্ৰহ্মপুত্ৰৰ চৰ অঞ্চলত কোন শস্য খেতি কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Rice and vegetables",
+        "as": "ধান আৰু পাচলি"
+      },
+      {
+        "en": "Coffee only",
+        "as": "কেৱল কফি"
+      },
+      {
+        "en": "Tea only",
+        "as": "কেৱল চাহ"
+      },
+      {
+        "en": "Rubber only",
+        "as": "কেৱল ৰবৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Char lands are used for rice, vegetables and other crops.",
+      "as": "চৰ মাটিত ধান, পাচলি আৰু আন শস্য খেতি কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-149",
+    "q": {
+      "en": "Which district is known as the 'Rice Bowl' of Assam?",
+      "as": "কোন জিলাক অসমৰ 'ধানৰ ভঁৰাল' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Karbi Anglong",
+        "as": "কাৰ্বি আংলং"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Nagaon is known as the Rice Bowl of Assam.",
+      "as": "নগাঁওক অসমৰ ধানৰ ভঁৰাল বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-150",
+    "q": {
+      "en": "Which district is the largest producer of tea in Assam?",
+      "as": "অসমত কোন জিলা চাহৰ আটাইতকৈ বৃহৎ উৎপাদক?"
+    },
+    "options": [
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Dibrugarh is a leading tea-producing district of Assam.",
+      "as": "ডিব্ৰুগড় অসমৰ আগশাৰীৰ চাহ উৎপাদনকাৰী জিলা।"
+    }
+  },
+  {
+    "id": "assam-geography-151",
+    "q": {
+      "en": "The 'Polashbari' and 'Naharkatia' fields are associated with which resource?",
+      "as": "'পলাশবাৰী' আৰু 'নাহৰকটীয়া' ক্ষেত্ৰ কোন সম্পদৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Oil and gas",
+        "as": "তেল আৰু গেছ"
+      },
+      {
+        "en": "Coal",
+        "as": "কয়লা"
+      },
+      {
+        "en": "Limestone",
+        "as": "চূণশিল"
+      },
+      {
+        "en": "Iron",
+        "as": "লোহা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Polashbari and Naharkatia are oil and gas fields.",
+      "as": "পলাশবাৰী আৰু নাহৰকটীয়া তেল আৰু গেছ ক্ষেত্ৰ।"
+    }
+  },
+  {
+    "id": "assam-geography-152",
+    "q": {
+      "en": "Which is the oldest oil refinery in India, located in Assam?",
+      "as": "অসমত অৱস্থিত ভাৰতৰ আটাইতকৈ পুৰণি তেল শোধনাগাৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Digboi Refinery",
+        "as": "ডিগবৈ শোধনাগাৰ"
+      },
+      {
+        "en": "Numaligarh Refinery",
+        "as": "নুমলীগড় শোধনাগাৰ"
+      },
+      {
+        "en": "Bongaigaon Refinery",
+        "as": "বঙাইগাঁও শোধনাগাৰ"
+      },
+      {
+        "en": "Guwahati Refinery",
+        "as": "গুৱাহাটী শোধনাগাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Digboi Refinery is the oldest oil refinery in India.",
+      "as": "ডিগবৈ শোধনাগাৰ ভাৰতৰ আটাইতকৈ পুৰণি তেল শোধনাগাৰ।"
+    }
+  },
+  {
+    "id": "assam-geography-153",
+    "q": {
+      "en": "How many districts did Assam have at the time of the 2011 Census?",
+      "as": "২০১১ চনৰ জনগণনাৰ সময়ত অসমত কিমানখন জিলা আছিল?"
+    },
+    "options": [
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assam had 27 districts at the time of the 2011 Census.",
+      "as": "২০১১ চনৰ জনগণনাৰ সময়ত অসমত ২৭খন জিলা আছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-154",
+    "q": {
+      "en": "After the 2015-16 reorganisation, Assam was divided into how many districts?",
+      "as": "২০১৫-১৬ চনৰ পুনৰ্গঠনৰ পিছত অসম কিমানখন জিলাত বিভক্ত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam was reorganised into 33 districts by 2016.",
+      "as": "২০১৬ চনলৈ অসম ৩৩খন জিলাত পুনৰ্গঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-155",
+    "q": {
+      "en": "What was the population of Assam according to the 2011 Census?",
+      "as": "২০১১ চনৰ জনগণনা অনুসৰি অসমৰ জনসংখ্যা কিমান আছিল?"
+    },
+    "options": [
+      {
+        "en": "About 3.12 crore",
+        "as": "প্ৰায় ৩.১২ কোটি"
+      },
+      {
+        "en": "About 5 crore",
+        "as": "প্ৰায় ৫ কোটি"
+      },
+      {
+        "en": "About 2.5 crore",
+        "as": "প্ৰায় ২.৫ কোটি"
+      },
+      {
+        "en": "About 1.5 crore",
+        "as": "প্ৰায় ১.৫ কোটি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assam's population in 2011 was about 3.12 crore.",
+      "as": "২০১১ চনত অসমৰ জনসংখ্যা প্ৰায় ৩.১২ কোটি আছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-156",
+    "q": {
+      "en": "What was the sex ratio of Assam according to the 2011 Census?",
+      "as": "২০১১ চনৰ জনগণনা অনুসৰি অসমৰ লিংগ অনুপাত কিমান আছিল?"
+    },
+    "options": [
+      {
+        "en": "1000 females per 1000 males",
+        "as": "১০০০ পুৰুষত ১০০০ মহিলা"
+      },
+      {
+        "en": "958 females per 1000 males",
+        "as": "১০০০ পুৰুষত ৯৫৮ মহিলা"
+      },
+      {
+        "en": "900 females per 1000 males",
+        "as": "১০০০ পুৰুষত ৯০০ মহিলা"
+      },
+      {
+        "en": "940 females per 1000 males",
+        "as": "১০০০ পুৰুষত ৯৪০ মহিলা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam's sex ratio in 2011 was 958 females per 1000 males.",
+      "as": "২০১১ চনত অসমৰ লিংগ অনুপাত ১০০০ পুৰুষত ৯৫৮ মহিলা আছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-157",
+    "q": {
+      "en": "What was the literacy rate of Assam according to the 2011 Census?",
+      "as": "২০১১ চনৰ জনগণনা অনুসৰি অসমৰ সাক্ষৰতাৰ হাৰ কিমান আছিল?"
+    },
+    "options": [
+      {
+        "en": "65 percent",
+        "as": "৬৫ শতাংশ"
+      },
+      {
+        "en": "80 percent",
+        "as": "৮০ শতাংশ"
+      },
+      {
+        "en": "72.19 percent",
+        "as": "৭২.১৯ শতাংশ"
+      },
+      {
+        "en": "55 percent",
+        "as": "৫৫ শতাংশ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assam's literacy rate in 2011 was 72.19 percent.",
+      "as": "২০১১ চনত অসমৰ সাক্ষৰতাৰ হাৰ ৭২.১৯ শতাংশ আছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-158",
+    "q": {
+      "en": "What was the population density of Assam in 2011?",
+      "as": "২০১১ চনত অসমৰ জনসংখ্যাৰ ঘনত্ব কিমান আছিল?"
+    },
+    "options": [
+      {
+        "en": "250 persons per sq km",
+        "as": "প্ৰতি বৰ্গ কিমিটাৰত ২৫০ জন"
+      },
+      {
+        "en": "398 persons per sq km",
+        "as": "প্ৰতি বৰ্গ কিলোমিটাৰত ৩৯৮ জন"
+      },
+      {
+        "en": "500 persons per sq km",
+        "as": "প্ৰতি বৰ্গ কিমিটাৰত ৫০০ জন"
+      },
+      {
+        "en": "300 persons per sq km",
+        "as": "প্ৰতি বৰ্গ কিমিটাৰত ৩০০ জন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam's population density in 2011 was 398 per sq km.",
+      "as": "২০১১ চনত অসমৰ জনসংখ্যাৰ ঘনত্ব প্ৰতি বৰ্গ কিমি ৩৯৮ আছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-159",
+    "q": {
+      "en": "Which was the most populous district of Assam in 2011?",
+      "as": "২০১১ চনত অসমৰ আটাইতকৈ জনবহুল জিলা কোনখন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Kamrup Metropolitan",
+        "as": "কামৰূপ মহানগৰ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Nagaon was the most populous district of Assam in 2011.",
+      "as": "২০১১ চনত নগাঁও অসমৰ আটাইতকৈ জনবহুল জিলা আছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-160",
+    "q": {
+      "en": "Which was the least populous district of Assam in 2011?",
+      "as": "২০১১ চনত অসমৰ আটাইতকৈ কম জনবহুল জিলা কোনখন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Chirang",
+        "as": "চিৰাং"
+      },
+      {
+        "en": "Majuli",
+        "as": "মাজুলী"
+      },
+      {
+        "en": "Dima Hasao",
+        "as": "ডিমা হাছাও"
+      },
+      {
+        "en": "Baksa",
+        "as": "বাক্সা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Dima Hasao was the least populous district of Assam in 2011.",
+      "as": "২০১১ চনত ডিমা হাছাও অসমৰ আটাইতকৈ কম জনবহুল জিলা আছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-161",
+    "q": {
+      "en": "Which is the largest district of Assam by area?",
+      "as": "মাটিকালিৰে অসমৰ আটাইতকৈ বৃহৎ জিলা কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Sonitpur",
+        "as": "শোণিতপুৰ"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Karbi Anglong",
+        "as": "কাৰ্বি আংলং"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Karbi Anglong is the largest district of Assam by area.",
+      "as": "মাটিকালিৰে কাৰ্বি আংলং অসমৰ আটাইতকৈ বৃহৎ জিলা।"
+    }
+  },
+  {
+    "id": "assam-geography-162",
+    "q": {
+      "en": "Which district of Assam has the highest literacy rate?",
+      "as": "অসমৰ কোন জিলাৰ সাক্ষৰতাৰ হাৰ আটাইতকৈ উচ্চ?"
+    },
+    "options": [
+      {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+      },
+      {
+        "en": "Kamrup Metropolitan",
+        "as": "কামৰূপ মহানগৰ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kamrup Metropolitan has the highest literacy rate in Assam.",
+      "as": "কামৰূপ মহানগৰ অসমৰ আটাইতকৈ উচ্চ সাক্ষৰতাৰ জিলা।"
+    }
+  },
+  {
+    "id": "assam-geography-163",
+    "q": {
+      "en": "Which two districts of Assam are hill districts with autonomous councils?",
+      "as": "অসমৰ কোন দুখন জিলা স্বায়ত্তশাসিত পৰিষদ থকা পাহাৰীয়া জিলা?"
+    },
+    "options": [
+      {
+        "en": "Dibrugarh and Tinsukia",
+        "as": "ডিব্ৰুগড় আৰু তিনিচুকীয়া"
+      },
+      {
+        "en": "Nagaon and Morigaon",
+        "as": "নগাঁও আৰু মৰিগাঁও"
+      },
+      {
+        "en": "Cachar and Karimganj",
+        "as": "কাছাৰ আৰু কৰিমগঞ্জ"
+      },
+      {
+        "en": "Karbi Anglong and Dima Hasao",
+        "as": "কাৰ্বি আংলং আৰু ডিমা হাছাও"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Karbi Anglong and Dima Hasao are the two hill districts.",
+      "as": "কাৰ্বি আংলং আৰু ডিমা হাছাও দুখন পাহাৰীয়া জিলা।"
+    }
+  },
+  {
+    "id": "assam-geography-164",
+    "q": {
+      "en": "The headquarters of the Karbi Anglong Autonomous Council is at which place?",
+      "as": "কাৰ্বি আংলং স্বায়ত্তশাসিত পৰিষদৰ সদৰ ঠাই কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Diphu",
+        "as": "ডিফু"
+      },
+      {
+        "en": "Kokrajhar",
+        "as": "কোকৰাঝাৰ"
+      },
+      {
+        "en": "Haflong",
+        "as": "হাফলং"
+      },
+      {
+        "en": "Hamren",
+        "as": "হামৰেণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Karbi Anglong Autonomous Council is headquartered at Diphu.",
+      "as": "কাৰ্বি আংলং স্বায়ত্তশাসিত পৰিষদৰ সদৰ ঠাই ডিফু।"
+    }
+  },
+  {
+    "id": "assam-geography-165",
+    "q": {
+      "en": "Which district has its headquarters at Haflong?",
+      "as": "কোন জিলাৰ সদৰ ঠাই হাফলং?"
+    },
+    "options": [
+      {
+        "en": "Kokrajhar",
+        "as": "কোকৰাঝাৰ"
+      },
+      {
+        "en": "Dima Hasao",
+        "as": "ডিমা হাছাও"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Karbi Anglong",
+        "as": "কাৰ্বি আংলং"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Haflong is the headquarters of Dima Hasao district.",
+      "as": "হাফলং ডিমা হাছাও জিলাৰ সদৰ ঠাই।"
+    }
+  },
+  {
+    "id": "assam-geography-166",
+    "q": {
+      "en": "Which district has its headquarters at Sonari?",
+      "as": "কোন জিলাৰ সদৰ ঠাই সোণাৰি?"
+    },
+    "options": [
+      {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+      },
+      {
+        "en": "Tinsukia",
+        "as": "তিনিচুকীয়া"
+      },
+      {
+        "en": "Charaideo",
+        "as": "চৰাইদেউ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sonari is the headquarters of Charaideo district.",
+      "as": "সোণাৰি চৰাইদেউ জিলাৰ সদৰ ঠাই।"
+    }
+  },
+  {
+    "id": "assam-geography-167",
+    "q": {
+      "en": "Which district has its headquarters at Hamren?",
+      "as": "কোন জিলাৰ সদৰ ঠাই হামৰেণ?"
+    },
+    "options": [
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Dima Hasao",
+        "as": "ডিমা হাছাও"
+      },
+      {
+        "en": "West Karbi Anglong",
+        "as": "পশ্চিম কাৰ্বি আংলং"
+      },
+      {
+        "en": "Karbi Anglong",
+        "as": "কাৰ্বি আংলং"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hamren is the headquarters of West Karbi Anglong district.",
+      "as": "হামৰেণ পশ্চিম কাৰ্বি আংলং জিলাৰ সদৰ ঠাই।"
+    }
+  },
+  {
+    "id": "assam-geography-168",
+    "q": {
+      "en": "Which district has its headquarters at Mushalpur?",
+      "as": "কোন জিলাৰ সদৰ ঠাই মুছলপুৰ?"
+    },
+    "options": [
+      {
+        "en": "Udalguri",
+        "as": "উদালগুৰি"
+      },
+      {
+        "en": "Kokrajhar",
+        "as": "কোকৰাঝাৰ"
+      },
+      {
+        "en": "Baksa",
+        "as": "বাক্সা"
+      },
+      {
+        "en": "Chirang",
+        "as": "চিৰাং"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Mushalpur is the headquarters of Baksa district.",
+      "as": "মুছলপুৰ বাক্সা জিলাৰ সদৰ ঠাই।"
+    }
+  },
+  {
+    "id": "assam-geography-169",
+    "q": {
+      "en": "Which district has its headquarters at Kajalgaon?",
+      "as": "কোন জিলাৰ সদৰ ঠাই কাজলগাঁও?"
+    },
+    "options": [
+      {
+        "en": "Chirang",
+        "as": "চিৰাং"
+      },
+      {
+        "en": "Udalguri",
+        "as": "উদালগুৰি"
+      },
+      {
+        "en": "Baksa",
+        "as": "বাক্সা"
+      },
+      {
+        "en": "Kokrajhar",
+        "as": "কোকৰাঝাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kajalgaon is the headquarters of Chirang district.",
+      "as": "কাজলগাঁও চিৰাং জিলাৰ সদৰ ঠাই।"
+    }
+  },
+  {
+    "id": "assam-geography-170",
+    "q": {
+      "en": "Which district has its headquarters at Hatsingimari?",
+      "as": "কোন জিলাৰ সদৰ ঠাই হাটশিঙিমাৰি?"
+    },
+    "options": [
+      {
+        "en": "Bongaigaon",
+        "as": "বঙাইগাঁও"
+      },
+      {
+        "en": "Goalpara",
+        "as": "গোৱালপাৰা"
+      },
+      {
+        "en": "South Salmara-Mankachar",
+        "as": "দক্ষিণ ছালমাৰা-মণকাচাৰ"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hatsingimari is the headquarters of South Salmara-Mankachar.",
+      "as": "হাটশিঙিমাৰি দক্ষিণ ছালমাৰা-মণকাচাৰৰ সদৰ ঠাই।"
+    }
+  },
+  {
+    "id": "assam-geography-171",
+    "q": {
+      "en": "Which district has its headquarters at Nagaon town?",
+      "as": "কোন জিলাৰ সদৰ ঠাই নগাঁও চহৰ?"
+    },
+    "options": [
+      {
+        "en": "Sonitpur",
+        "as": "শোণিতপুৰ"
+      },
+      {
+        "en": "Morigaon",
+        "as": "মৰিগাঁও"
+      },
+      {
+        "en": "Hojai",
+        "as": "হোজাই"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Nagaon town is the headquarters of Nagaon district.",
+      "as": "নগাঁও চহৰ নগাঁও জিলাৰ সদৰ ঠাই।"
+    }
+  },
+  {
+    "id": "assam-geography-172",
+    "q": {
+      "en": "The Bodoland Territorial Region comprises how many districts?",
+      "as": "বড়োলেণ্ড টেৰিটৰিয়েল ৰিজিয়ন কিমানখন জিলাৰে গঠিত?"
+    },
+    "options": [
+      {
+        "en": "Three",
+        "as": "তিনিখন"
+      },
+      {
+        "en": "Five",
+        "as": "পাঁচখন"
+      },
+      {
+        "en": "Six",
+        "as": "ছখন"
+      },
+      {
+        "en": "Four",
+        "as": "চাৰিখন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "BTR comprises Kokrajhar, Chirang, Baksa and Udalguri.",
+      "as": "বিটিআৰ কোকৰাঝাৰ, চিৰাং, বাক্সা আৰু উদালগুৰিৰে গঠিত।"
+    }
+  },
+  {
+    "id": "assam-geography-173",
+    "q": {
+      "en": "The headquarters of the Bodoland Territorial Region is at which place?",
+      "as": "বড়োলেণ্ড টেৰিটৰিয়েল ৰিজিয়নৰ সদৰ ঠাই কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Baksa",
+        "as": "বাক্সা"
+      },
+      {
+        "en": "Kokrajhar",
+        "as": "কোকৰাঝাৰ"
+      },
+      {
+        "en": "Udalguri",
+        "as": "উদালগুৰি"
+      },
+      {
+        "en": "Chirang",
+        "as": "চিৰাং"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kokrajhar is the headquarters of the BTR.",
+      "as": "কোকৰাঝাৰ বিটিআৰৰ সদৰ ঠাই।"
+    }
+  },
+  {
+    "id": "assam-geography-174",
+    "q": {
+      "en": "The Bodoland Territorial Region was renamed from which earlier body?",
+      "as": "বড়োলেণ্ড টেৰিটৰিয়েল ৰিজিয়নক কোন পূৰ্বৰ সংস্থাৰ পৰা পুনৰ্নামাকৰণ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Karbi Anglong Council",
+        "as": "কাৰ্বি আংলং পৰিষদ"
+      },
+      {
+        "en": "Dima Hasao Council",
+        "as": "ডিমা হাছাও পৰিষদ"
+      },
+      {
+        "en": "Bodoland Territorial Area Districts",
+        "as": "বড়োলেণ্ড টেৰিটৰিয়েল এৰিয়া ডিষ্ট্ৰিক্ট"
+      },
+      {
+        "en": "North Cachar Hills",
+        "as": "উত্তৰ কাছাৰ পাহাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "BTAD was renamed Bodoland Territorial Region in 2020.",
+      "as": "বিটিএডিক ২০২০ চনত বড়োলেণ্ড টেৰিটৰিয়েল ৰিজিয়ন নাম দিয়া হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-175",
+    "q": {
+      "en": "Which is the largest tribal community of Assam?",
+      "as": "অসমৰ আটাইতকৈ বৃহৎ জনজাতীয় সমাজ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Mishing",
+        "as": "মিচিং"
+      },
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Rabha",
+        "as": "ৰাভা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Bodo is the largest tribal community of Assam.",
+      "as": "বড়ো অসমৰ আটাইতকৈ বৃহৎ জনজাতীয় সমাজ।"
+    }
+  },
+  {
+    "id": "assam-geography-176",
+    "q": {
+      "en": "The Karbi tribe is mainly concentrated in which district?",
+      "as": "কাৰ্বি জনজাতি মুখ্যতঃ কোন জিলাত কেন্দ্ৰীভূত?"
+    },
+    "options": [
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Karbi Anglong",
+        "as": "কাৰ্বি আংলং"
+      },
+      {
+        "en": "Goalpara",
+        "as": "গোৱালপাৰা"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Karbi tribe is concentrated in Karbi Anglong.",
+      "as": "কাৰ্বি জনজাতি কাৰ্বি আংলঙত কেন্দ্ৰীভূত।"
+    }
+  },
+  {
+    "id": "assam-geography-177",
+    "q": {
+      "en": "The Dimasa tribe is mainly found in which districts?",
+      "as": "ডিমাছা জনজাতি মুখ্যতঃ কোন জিলাত পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Golaghat and Jorhat",
+        "as": "গোলাঘাট আৰু যোৰহাট"
+      },
+      {
+        "en": "Dhubri and Kokrajhar",
+        "as": "ধুবুৰী আৰু কোকৰাঝাৰ"
+      },
+      {
+        "en": "Dima Hasao and Cachar",
+        "as": "ডিমা হাছাও আৰু কাছাৰ"
+      },
+      {
+        "en": "Dhemaji and Lakhimpur",
+        "as": "ধেমাজি আৰু লখিমপুৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Dimasa tribe is mainly found in Dima Hasao and Cachar.",
+      "as": "ডিমাছা জনজাতি মুখ্যতঃ ডিমা হাছাও আৰু কাছাৰত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "assam-geography-178",
+    "q": {
+      "en": "The Mishing tribe is mainly found in which part of Assam?",
+      "as": "মিচিং জনজাতি মুখ্যতঃ অসমৰ কোন অংশত পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Western Assam",
+        "as": "পশ্চিম অসম"
+      },
+      {
+        "en": "Barak valley",
+        "as": "বৰাক উপত্যকা"
+      },
+      {
+        "en": "Dima Hasao",
+        "as": "ডিমা হাছাও"
+      },
+      {
+        "en": "Upper Assam",
+        "as": "ঊৰ্ধ্ব অসম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Mishing tribe is mainly found in Upper Assam.",
+      "as": "মিচিং জনজাতি মুখ্যতঃ ঊৰ্ধ্ব অসমত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "assam-geography-179",
+    "q": {
+      "en": "The Rabha tribe is mainly found in which part of Assam?",
+      "as": "ৰাভা জনজাতি মুখ্যতঃ অসমৰ কোন অংশত পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Goalpara and Kamrup",
+        "as": "গোৱালপাৰা আৰু কামৰূপ"
+      },
+      {
+        "en": "Dibrugarh and Tinsukia",
+        "as": "ডিব্ৰুগড় আৰু তিনিচুকীয়া"
+      },
+      {
+        "en": "Karbi Anglong and Dima Hasao",
+        "as": "কাৰ্বি আংলং আৰু ডিমা হাছাও"
+      },
+      {
+        "en": "Cachar and Karimganj",
+        "as": "কাছাৰ আৰু কৰিমগঞ্জ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Rabha tribe is mainly found in Goalpara and Kamrup.",
+      "as": "ৰাভা জনজাতি মুখ্যতঃ গোৱালপাৰা আৰু কামৰূপত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "assam-geography-180",
+    "q": {
+      "en": "The Deori tribe is mainly found in which districts of Assam?",
+      "as": "দেউৰী জনজাতি মুখ্যতঃ অসমৰ কোন জিলাত পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Cachar and Hailakandi",
+        "as": "কাছাৰ আৰু হাইলাকান্দি"
+      },
+      {
+        "en": "Sivasagar and Lakhimpur",
+        "as": "শিৱসাগৰ আৰু লখিমপুৰ"
+      },
+      {
+        "en": "Dhubri and Bongaigaon",
+        "as": "ধুবুৰী আৰু বঙাইগাঁও"
+      },
+      {
+        "en": "Karbi Anglong and Dima Hasao",
+        "as": "কাৰ্বি আংলং আৰু ডিমা হাছাও"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Deori tribe is mainly found in Sivasagar and Lakhimpur.",
+      "as": "দেউৰী জনজাতি মুখ্যতঃ শিৱসাগৰ আৰু লখিমপুৰত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "assam-geography-181",
+    "q": {
+      "en": "Which language was added to the Eighth Schedule from Assam in 2003?",
+      "as": "২০০৩ চনত অসমৰ পৰা কোন ভাষা অষ্টম অনুসূচীত অন্তৰ্ভুক্ত কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Mishing",
+        "as": "মিচিং"
+      },
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Rabha",
+        "as": "ৰাভা"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bodo was added to the Eighth Schedule in 2003.",
+      "as": "২০০৩ চনত বড়ো ভাষা অষ্টম অনুসূচীত অন্তৰ্ভুক্ত কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-182",
+    "q": {
+      "en": "Which is the official language of Assam?",
+      "as": "অসমৰ চৰকাৰী ভাষা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Assamese",
+        "as": "অসমীয়া"
+      },
+      {
+        "en": "Bengali",
+        "as": "বাংলা"
+      },
+      {
+        "en": "Hindi",
+        "as": "হিন্দী"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assamese is the official language of Assam.",
+      "as": "অসমীয়া অসমৰ চৰকাৰী ভাষা।"
+    }
+  },
+  {
+    "id": "assam-geography-183",
+    "q": {
+      "en": "Which language has the status of associate official language in Assam?",
+      "as": "অসমত কোন ভাষাৰ সহযোগী চৰকাৰী ভাষাৰ মৰ্যাদা আছে?"
+    },
+    "options": [
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Nepali",
+        "as": "নেপালী"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Mishing",
+        "as": "মিচিং"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bodo is an associate official language of Assam.",
+      "as": "বড়ো অসমৰ সহযোগী চৰকাৰী ভাষা।"
+    }
+  },
+  {
+    "id": "assam-geography-184",
+    "q": {
+      "en": "The tea tribes of Assam are also known as what?",
+      "as": "অসমৰ চাহ জনজাতিক আৰু কি বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Adivasi",
+        "as": "আদিবাসী"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Rabha",
+        "as": "ৰাভা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The tea tribes are also called Adivasi.",
+      "as": "চাহ জনজাতিক আদিবাসী বুলিও কোৱা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-185",
+    "q": {
+      "en": "The tea tribes were brought to Assam mainly during which period?",
+      "as": "চাহ জনজাতিক মুখ্যতঃ কোন সময়ত অসমলৈ অনা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Post-independence",
+        "as": "স্বাধীনতাৰ পিছত"
+      },
+      {
+        "en": "Mughal rule",
+        "as": "মোগল শাসন"
+      },
+      {
+        "en": "Ahom rule",
+        "as": "আহোম শাসন"
+      },
+      {
+        "en": "British rule",
+        "as": "ব্ৰিটিছ শাসনকাল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The tea tribes were brought by the British for tea plantations.",
+      "as": "ব্ৰিটিছে চাহ বাগিচাৰ বাবে চাহ জনজাতিক আনিছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-186",
+    "q": {
+      "en": "Which town is the headquarters of Sonitpur district?",
+      "as": "শোণিতপুৰ জিলাৰ সদৰ ঠাই কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Biswanath Chariali",
+        "as": "বিশ্বনাথ চাৰিআলি"
+      },
+      {
+        "en": "Golaghat",
+        "as": "গোলাঘাট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Tezpur is the headquarters of Sonitpur district.",
+      "as": "তেজপুৰ শোণিতপুৰ জিলাৰ সদৰ ঠাই।"
+    }
+  },
+  {
+    "id": "assam-geography-187",
+    "q": {
+      "en": "Which town is the headquarters of Golaghat district?",
+      "as": "গোলাঘাট জিলাৰ সদৰ ঠাই কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+      },
+      {
+        "en": "Golaghat",
+        "as": "গোলাঘাট"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Golaghat town is the headquarters of Golaghat district.",
+      "as": "গোলাঘাট চহৰ গোলাঘাট জিলাৰ সদৰ ঠাই।"
+    }
+  },
+  {
+    "id": "assam-geography-188",
+    "q": {
+      "en": "Which town is the headquarters of Lakhimpur district?",
+      "as": "লখিমপুৰ জিলাৰ সদৰ ঠাই কোনখন?"
+    },
+    "options": [
+      {
+        "en": "North Lakhimpur",
+        "as": "উত্তৰ লখিমপুৰ"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Dhemaji",
+        "as": "ধেমাজি"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "North Lakhimpur is the headquarters of Lakhimpur district.",
+      "as": "উত্তৰ লখিমপুৰ লখিমপুৰ জিলাৰ সদৰ ঠাই।"
+    }
+  },
+  {
+    "id": "assam-geography-189",
+    "q": {
+      "en": "Which district has its headquarters at Mangaldoi?",
+      "as": "কোন জিলাৰ সদৰ ঠাই মঙ্গলদৈ?"
+    },
+    "options": [
+      {
+        "en": "Udalguri",
+        "as": "উদালগুৰি"
+      },
+      {
+        "en": "Baksa",
+        "as": "বাক্সা"
+      },
+      {
+        "en": "Sonitpur",
+        "as": "শোণিতপুৰ"
+      },
+      {
+        "en": "Darrang",
+        "as": "দৰং"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mangaldoi is the headquarters of Darrang district.",
+      "as": "মঙ্গলদৈ দৰং জিলাৰ সদৰ ঠাই।"
+    }
+  },
+  {
+    "id": "assam-geography-190",
+    "q": {
+      "en": "Which district has its headquarters at Biswanath Chariali?",
+      "as": "কোন জিলাৰ সদৰ ঠাই বিশ্বনাথ চাৰিআলি?"
+    },
+    "options": [
+      {
+        "en": "Biswanath",
+        "as": "বিশ্বনাথ"
+      },
+      {
+        "en": "Lakhimpur",
+        "as": "লখিমপুৰ"
+      },
+      {
+        "en": "Darrang",
+        "as": "দৰং"
+      },
+      {
+        "en": "Sonitpur",
+        "as": "শোণিতপুৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Biswanath Chariali is the headquarters of Biswanath district.",
+      "as": "বিশ্বনাথ চাৰিআলি বিশ্বনাথ জিলাৰ সদৰ ঠাই।"
+    }
+  },
+  {
+    "id": "assam-geography-191",
+    "q": {
+      "en": "Which district has its headquarters at Hojai?",
+      "as": "কোন জিলাৰ সদৰ ঠাই হোজাই?"
+    },
+    "options": [
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Karbi Anglong",
+        "as": "কাৰ্বি আংলং"
+      },
+      {
+        "en": "Morigaon",
+        "as": "মৰিগাঁও"
+      },
+      {
+        "en": "Hojai",
+        "as": "হোজাই"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Hojai town is the headquarters of Hojai district.",
+      "as": "হোজাই চহৰ হোজাই জিলাৰ সদৰ ঠাই।"
+    }
+  },
+  {
+    "id": "assam-geography-192",
+    "q": {
+      "en": "Which community forms the majority in the Barak valley?",
+      "as": "বৰাক উপত্যকাত কোন সম্প্ৰদায় সংখ্যাগৰিষ্ঠ?"
+    },
+    "options": [
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Karbi",
+        "as": "কাৰ্বি"
+      },
+      {
+        "en": "Bengali-speaking people",
+        "as": "বাংলাভাষী লোক"
+      },
+      {
+        "en": "Mishing",
+        "as": "মিচিং"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bengali speakers form the majority in the Barak valley.",
+      "as": "বৰাক উপত্যকাত বাংলাভাষী লোকে সংখ্যাগৰিষ্ঠতা কৰে।"
+    }
+  },
+  {
+    "id": "assam-geography-193",
+    "q": {
+      "en": "Which is the most widely spoken language of the Brahmaputra valley?",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকাৰ আটাইতকৈ বেছি কোৱা ভাষা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Hindi",
+        "as": "হিন্দী"
+      },
+      {
+        "en": "Bodo",
+        "as": "বড়ো"
+      },
+      {
+        "en": "Bengali",
+        "as": "বাংলা"
+      },
+      {
+        "en": "Assamese",
+        "as": "অসমীয়া"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assamese is the most widely spoken language of the Brahmaputra valley.",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকাৰ আটাইতকৈ বেছি কোৱা ভাষা অসমীয়া।"
+    }
+  },
+  {
+    "id": "assam-geography-194",
+    "q": {
+      "en": "Which community is known as 'Sonowal Kachari' mainly found in?",
+      "as": "'সোণোৱাল কছাৰী' নামেৰে জনাজাত সমাজ মুখ্যতঃ ক'ত পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Karbi Anglong and Dima Hasao",
+        "as": "কাৰ্বি আংলং আৰু ডিমা হাছাও"
+      },
+      {
+        "en": "Cachar and Karimganj",
+        "as": "কাছাৰ আৰু কৰিমগঞ্জ"
+      },
+      {
+        "en": "Goalpara and Dhubri",
+        "as": "গোৱালপাৰা আৰু ধুবুৰী"
+      },
+      {
+        "en": "Dibrugarh and Tinsukia",
+        "as": "ডিব্ৰুগড় আৰু তিনিচুকীয়া"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Sonowal Kachari community is found in Dibrugarh and Tinsukia.",
+      "as": "সোণোৱাল কছাৰী সমাজ ডিব্ৰুগড় আৰু তিনিচুকীয়াত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "assam-geography-195",
+    "q": {
+      "en": "Which district is the smallest by population among the BTR districts?",
+      "as": "বিটিআৰ জিলাসমূহৰ ভিতৰত জনসংখ্যাৰে আটাইতকৈ সৰু জিলা কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Baksa",
+        "as": "বাক্সা"
+      },
+      {
+        "en": "Kokrajhar",
+        "as": "কোকৰাঝাৰ"
+      },
+      {
+        "en": "Udalguri",
+        "as": "উদালগুৰি"
+      },
+      {
+        "en": "Chirang",
+        "as": "চিৰাং"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Chirang is the least populous among the BTR districts.",
+      "as": "বিটিআৰ জিলাসমূহৰ ভিতৰত চিৰাং আটাইতকৈ কম জনবহুল।"
+    }
+  },
+  {
+    "id": "assam-geography-196",
+    "q": {
+      "en": "Which of these does NOT pass through Assam?",
+      "as": "তলৰ কোনটো অসমৰ মাজেৰে নাযায়?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra river",
+        "as": "ব্ৰহ্মপুত্ৰ নদী"
+      },
+      {
+        "en": "National Highway 27",
+        "as": "ৰাষ্ট্ৰীয় ঘাইপথ ২৭"
+      },
+      {
+        "en": "Tropic of Cancer",
+        "as": "কৰ্কটক্ৰান্তি ৰেখা"
+      },
+      {
+        "en": "Assam-Trunk Road",
+        "as": "অসম ট্ৰাংক ৰোড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assam lies north of the Tropic of Cancer, so it does not pass through the state.",
+      "as": "অসম কৰ্কটক্ৰান্তি ৰেখাৰ উত্তৰত, সেয়ে ই ৰাজ্যখনৰ মাজেৰে নাযায়।"
+    }
+  },
+  {
+    "id": "assam-geography-197",
+    "q": {
+      "en": "Which is the largest state of North-East India by area?",
+      "as": "মাটিকালিৰে উত্তৰ-পূৱ ভাৰতৰ আটাইতকৈ বৃহৎ ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Arunachal Pradesh is the largest state of the North-East by area.",
+      "as": "মাটিকালিৰে অৰুণাচল প্ৰদেশ উত্তৰ-পূৱৰ আটাইতকৈ বৃহৎ ৰাজ্য।"
+    }
+  },
+  {
+    "id": "assam-geography-198",
+    "q": {
+      "en": "Which is the most populous state of North-East India?",
+      "as": "জনসংখ্যাৰে উত্তৰ-পূৱ ভাৰতৰ আটাইতকৈ জনবহুল ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam is the most populous state of the North-East.",
+      "as": "জনসংখ্যাৰে অসম উত্তৰ-পূৱৰ আটাইতকৈ জনবহুল ৰাজ্য।"
+    }
+  },
+  {
+    "id": "assam-geography-199",
+    "q": {
+      "en": "From where does the Brahmaputra river originate?",
+      "as": "ব্ৰহ্মপুত্ৰ নদী ক'ৰ পৰা উৎপত্তি হয়?"
+    },
+    "options": [
+      {
+        "en": "Angsi Glacier in Tibet",
+        "as": "তিব্বতৰ আংচি হিমবাহ"
+      },
+      {
+        "en": "Amu Darya",
+        "as": "আমু দৰিয়া"
+      },
+      {
+        "en": "Mansarovar Lake in Nepal",
+        "as": "নেপালৰ মানসসৰোবৰ"
+      },
+      {
+        "en": "Lake Baikal",
+        "as": "বৈকাল হ্ৰদ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra originates from the Angsi Glacier in Tibet.",
+      "as": "ব্ৰহ্মপুত্ৰ তিব্বতৰ আংচি হিমবাহৰ পৰা উৎপত্তি হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-200",
+    "q": {
+      "en": "What is the approximate length of the Brahmaputra within Assam?",
+      "as": "অসমৰ ভিতৰত ব্ৰহ্মপুত্ৰৰ দৈৰ্ঘ্য প্ৰায় কিমান?"
+    },
+    "options": [
+      {
+        "en": "About 100 km",
+        "as": "প্ৰায় ১০০ কিলোমিটাৰ"
+      },
+      {
+        "en": "About 300 km",
+        "as": "প্ৰায় ৩০০ কিলোমিটাৰ"
+      },
+      {
+        "en": "About 720 km",
+        "as": "প্ৰায় ৭২০ কিলোমিটাৰ"
+      },
+      {
+        "en": "About 1,500 km",
+        "as": "প্ৰায় ১,৫০০ কিলোমিটাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Brahmaputra flows for about 720 km within Assam.",
+      "as": "ব্ৰহ্মপুত্ৰ অসমৰ ভিতৰত প্ৰায় ৭২০ কিমি বৈ যায়।"
+    }
+  },
+  {
+    "id": "assam-geography-201",
+    "q": {
+      "en": "Which is regarded as the largest river island in the world?",
+      "as": "বিশ্বৰ আটাইতকৈ বৃহৎ নদী দ্বীপ হিচাপে কাক গণ্য কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Diwari",
+        "as": "দীৱাৰী"
+      },
+      {
+        "en": "Umananda",
+        "as": "উমানন্দ"
+      },
+      {
+        "en": "Bhupen Dwip",
+        "as": "ভূপেন দ্বীপ"
+      },
+      {
+        "en": "Majuli",
+        "as": "মাজুলী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Majuli in the Brahmaputra is regarded as the world's largest river island.",
+      "as": "ব্ৰহ্মপুত্ৰৰ মাজুলীক বিশ্বৰ আটাইতকৈ বৃহৎ নদী দ্বীপ হিচাপে গণ্য কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-202",
+    "q": {
+      "en": "National Waterway 2 connects Sadiya with which place?",
+      "as": "ৰাষ্ট্ৰীয় জলপথ ২-এ শদিয়াক কোন স্থানৰ সৈতে সংযুক্ত কৰে?"
+    },
+    "options": [
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "National Waterway 2 runs from Sadiya to Dhubri on the Brahmaputra.",
+      "as": "ৰাষ্ট্ৰীয় জলপথ ২ ব্ৰহ্মপুত্ৰৰ শদিয়াৰ পৰা ধুবুৰীলৈ বিস্তৃত।"
+    }
+  },
+  {
+    "id": "assam-geography-203",
+    "q": {
+      "en": "Which is the largest National Park of Assam by area?",
+      "as": "মাটিকালিৰে অসমৰ আটাইতকৈ বৃহৎ ৰাষ্ট্ৰীয় উদ্যান কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Manas",
+        "as": "মানাহ"
+      },
+      {
+        "en": "Kaziranga",
+        "as": "কাজিৰঙা"
+      },
+      {
+        "en": "Orang",
+        "as": "ওৰাং"
+      },
+      {
+        "en": "Nameri",
+        "as": "নামেৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kaziranga is the largest National Park of Assam by area.",
+      "as": "মাটিকালিৰে কাজিৰঙা অসমৰ আটাইতকৈ বৃহৎ ৰাষ্ট্ৰীয় উদ্যান।"
+    }
+  },
+  {
+    "id": "assam-geography-204",
+    "q": {
+      "en": "Which is the smallest National Park of Assam by area?",
+      "as": "মাটিকালিৰে অসমৰ আটাইতকৈ সৰু ৰাষ্ট্ৰীয় উদ্যান কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Orang",
+        "as": "ওৰাং"
+      },
+      {
+        "en": "Manas",
+        "as": "মানাহ"
+      },
+      {
+        "en": "Nameri",
+        "as": "নামেৰী"
+      },
+      {
+        "en": "Kaziranga",
+        "as": "কাজিৰঙা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Orang is the smallest National Park of Assam by area.",
+      "as": "মাটিকালিৰে ওৰাং অসমৰ আটাইতকৈ সৰু ৰাষ্ট্ৰীয় উদ্যান।"
+    }
+  },
+  {
+    "id": "assam-geography-205",
+    "q": {
+      "en": "Which was the first biosphere reserve of Assam?",
+      "as": "অসমৰ প্ৰথম জীৱমণ্ডল সংৰক্ষিত অঞ্চল কোনটো আছিল?"
+    },
+    "options": [
+      {
+        "en": "Nameri",
+        "as": "নামেৰী"
+      },
+      {
+        "en": "Kaziranga",
+        "as": "কাজিৰঙা"
+      },
+      {
+        "en": "Manas",
+        "as": "মানাহ"
+      },
+      {
+        "en": "Dibru-Saikhowa",
+        "as": "ডিব্ৰু-শইকোৱা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Manas was declared a biosphere reserve in 1989.",
+      "as": "মানাহক ১৯৮৯ চনত জীৱমণ্ডল সংৰক্ষিত অঞ্চল ঘোষণা কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-206",
+    "q": {
+      "en": "In which year was Manas declared a biosphere reserve?",
+      "as": "মানাহক কোন বছৰত জীৱমণ্ডল সংৰক্ষিত অঞ্চল ঘোষণা কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1997",
+        "as": "১৯৯৭"
+      },
+      {
+        "en": "1989",
+        "as": "১৯৮৯"
+      },
+      {
+        "en": "1985",
+        "as": "১৯৮৫"
+      },
+      {
+        "en": "2002",
+        "as": "২০০২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Manas became a biosphere reserve in 1989.",
+      "as": "মানাহ ১৯৮৯ চনত জীৱমণ্ডল সংৰক্ষিত অঞ্চল হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-207",
+    "q": {
+      "en": "Dibru-Saikhowa was declared a biosphere reserve in which year?",
+      "as": "ডিব্ৰু-শইকোৱাক কোন বছৰত জীৱমণ্ডল সংৰক্ষিত অঞ্চল ঘোষণা কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2002",
+        "as": "২০০২"
+      },
+      {
+        "en": "1985",
+        "as": "১৯৮৫"
+      },
+      {
+        "en": "1989",
+        "as": "১৯৮৯"
+      },
+      {
+        "en": "1997",
+        "as": "১৯৯৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Dibru-Saikhowa became a biosphere reserve in 1997.",
+      "as": "ডিব্ৰু-শইকোৱা ১৯৯৭ চনত জীৱমণ্ডল সংৰক্ষিত অঞ্চল হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-208",
+    "q": {
+      "en": "In which year was Manas removed from the list of World Heritage in Danger?",
+      "as": "মানাহক কোন বছৰত বিপদাপন্ন বিশ্ব ঐতিহ্যৰ তালিকাৰ পৰা বাদ দিয়া হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2005",
+        "as": "২০০৫"
+      },
+      {
+        "en": "2011",
+        "as": "২০১১"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "1995",
+        "as": "১৯৯৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Manas was removed from the danger list in 2011.",
+      "as": "মানাহক ২০১১ চনত বিপদাপন্ন তালিকাৰ পৰা বাদ দিয়া হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-209",
+    "q": {
+      "en": "Which town of Assam is known as the 'Silk City'?",
+      "as": "অসমৰ কোন চহৰক 'ৰেচম নগৰ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Sualkuchi",
+        "as": "শুৱালকুছি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sualkuchi is known as the Silk City of Assam.",
+      "as": "শুৱালকুছিক অসমৰ ৰেচম নগৰ বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-210",
+    "q": {
+      "en": "Which town of Assam is known as the 'Oil City'?",
+      "as": "অসমৰ কোন চহৰক 'তেল নগৰ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Digboi",
+        "as": "ডিগবৈ"
+      },
+      {
+        "en": "Naharkatia",
+        "as": "নাহৰকটীয়া"
+      },
+      {
+        "en": "Duliajan",
+        "as": "দুলীয়াজান"
+      },
+      {
+        "en": "Bongaigaon",
+        "as": "বঙাইগাঁও"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Digboi is known as the Oil City of Assam.",
+      "as": "ডিগবৈক অসমৰ তেল নগৰ বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-211",
+    "q": {
+      "en": "Which town of Assam is known as the 'Tea City'?",
+      "as": "অসমৰ কোন চহৰক 'চাহ নগৰ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Dibrugarh is known as the Tea City of Assam.",
+      "as": "ডিব্ৰুগড়ক অসমৰ চাহ নগৰ বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-212",
+    "q": {
+      "en": "Which city of Assam is called the 'Gateway to North-East India'?",
+      "as": "অসমৰ কোন নগৰক 'উত্তৰ-পূৱ ভাৰতৰ প্ৰৱেশদ্বাৰ' বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Guwahati is the Gateway to North-East India.",
+      "as": "গুৱাহাটী উত্তৰ-পূৱ ভাৰতৰ প্ৰৱেশদ্বাৰ।"
+    }
+  },
+  {
+    "id": "assam-geography-213",
+    "q": {
+      "en": "Which city is the commercial capital of Assam?",
+      "as": "অসমৰ বাণিজ্যিক ৰাজধানী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Guwahati is the commercial capital of Assam.",
+      "as": "গুৱাহাটী অসমৰ বাণিজ্যিক ৰাজধানী।"
+    }
+  },
+  {
+    "id": "assam-geography-214",
+    "q": {
+      "en": "The Brahmaputra Board has its headquarters at which place?",
+      "as": "ব্ৰহ্মপুত্ৰ ব'ৰ্ডৰ মুখ্য কাৰ্যালয় কোন স্থানত?"
+    },
+    "options": [
+      {
+        "en": "Kolkata",
+        "as": "কলকাতা"
+      },
+      {
+        "en": "Shillong",
+        "as": "শ্বিলং"
+      },
+      {
+        "en": "Delhi",
+        "as": "দিল্লী"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Brahmaputra Board is headquartered at Guwahati.",
+      "as": "ব্ৰহ্মপুত্ৰ ব'ৰ্ডৰ মুখ্য কাৰ্যালয় গুৱাহাটীত।"
+    }
+  },
+  {
+    "id": "assam-geography-215",
+    "q": {
+      "en": "On which bank of the Brahmaputra is Guwahati situated?",
+      "as": "গুৱাহাটী ব্ৰহ্মপুত্ৰৰ কোন পাৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "East bank",
+        "as": "পূৱ পাৰ"
+      },
+      {
+        "en": "North bank",
+        "as": "উত্তৰ পাৰ"
+      },
+      {
+        "en": "South bank",
+        "as": "দক্ষিণ পাৰ"
+      },
+      {
+        "en": "Both banks equally",
+        "as": "দুয়ো পাৰ সমান"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Guwahati is situated on the south bank of the Brahmaputra.",
+      "as": "গুৱাহাটী ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-216",
+    "q": {
+      "en": "Which is the longest bridge over the Brahmaputra river?",
+      "as": "ব্ৰহ্মপুত্ৰ নদীৰ ওপৰত আটাইতকৈ দীঘল পুল কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Bhupen Hazarika Setu",
+        "as": "ভূপেন হাজৰিকা সেতু"
+      },
+      {
+        "en": "Kolia Bhomora Setu",
+        "as": "কলিয়া ভোমোৰা সেতু"
+      },
+      {
+        "en": "Saraighat Bridge",
+        "as": "শৰাইঘাট পুল"
+      },
+      {
+        "en": "Naranarayan Setu",
+        "as": "নৰনাৰায়ণ সেতু"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Dhola-Sadiya bridge, or Bhupen Hazarika Setu, is the longest over the Brahmaputra.",
+      "as": "ধোলা-শদিয়া পুল বা ভূপেন হাজৰিকা সেতু ব্ৰহ্মপুত্ৰৰ ওপৰত আটাইতকৈ দীঘল।"
+    }
+  },
+  {
+    "id": "assam-geography-217",
+    "q": {
+      "en": "The Bhupen Hazarika Setu connects Dhola with which place?",
+      "as": "ভূপেন হাজৰিকা সেতুৱে ধোলাক কোন স্থানৰ সৈতে সংযুক্ত কৰে?"
+    },
+    "options": [
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Sadiya",
+        "as": "শদিয়া"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Bhupen Hazarika Setu connects Dhola and Sadiya.",
+      "as": "ভূপেন হাজৰিকা সেতুৱে ধোলা আৰু শদিয়াক সংযুক্ত কৰে।"
+    }
+  },
+  {
+    "id": "assam-geography-218",
+    "q": {
+      "en": "The 'Char' areas of Assam are found in which river?",
+      "as": "অসমৰ 'চৰ' অঞ্চল কোন নদীত পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Manas",
+        "as": "মনাহ"
+      },
+      {
+        "en": "Kopili",
+        "as": "কপিলী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Char areas are riverine sandbars in the Brahmaputra.",
+      "as": "চৰ অঞ্চল ব্ৰহ্মপুত্ৰৰ বালিচাপৰি।"
+    }
+  },
+  {
+    "id": "assam-geography-219",
+    "q": {
+      "en": "The Kopili Hydro Electric Project is located in which district?",
+      "as": "কপিলী জলবিদ্যুৎ প্ৰকল্প কোন জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Karbi Anglong",
+        "as": "কাৰ্বি আংলং"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Dima Hasao",
+        "as": "ডিমা হাছাও"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Kopili Hydro Electric Project is in Karbi Anglong.",
+      "as": "কপিলী জলবিদ্যুৎ প্ৰকল্প কাৰ্বি আংলঙত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-220",
+    "q": {
+      "en": "Which district of Assam has the largest forest cover?",
+      "as": "অসমৰ কোন জিলাত আটাইতকৈ বেছি বন আচ্ছাদন আছে?"
+    },
+    "options": [
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Kamrup Metropolitan",
+        "as": "কামৰূপ মহানগৰ"
+      },
+      {
+        "en": "Karbi Anglong",
+        "as": "কাৰ্বি আংলং"
+      },
+      {
+        "en": "Barpeta",
+        "as": "বৰপেটা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Karbi Anglong has the largest forest cover in Assam.",
+      "as": "কাৰ্বি আংলঙত অসমৰ আটাইতকৈ বেছি বন আচ্ছাদন আছে।"
+    }
+  },
+  {
+    "id": "assam-geography-221",
+    "q": {
+      "en": "What is the approximate forest cover of Assam as a share of its area?",
+      "as": "অসমৰ মুঠ মাটিকালিৰ প্ৰায় কিমান শতাংশ বন আচ্ছাদন?"
+    },
+    "options": [
+      {
+        "en": "About 36 percent",
+        "as": "প্ৰায় ৩৬ শতাংশ"
+      },
+      {
+        "en": "About 60 percent",
+        "as": "প্ৰায় ৬০ শতাংশ"
+      },
+      {
+        "en": "About 10 percent",
+        "as": "প্ৰায় ১০ শতাংশ"
+      },
+      {
+        "en": "About 80 percent",
+        "as": "প্ৰায় ৮০ শতাংশ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assam's forest cover is about 36 percent of its geographical area.",
+      "as": "অসমৰ ভৌগোলিক মাটিকালিৰ প্ৰায় ৩৬ শতাংশ বন আচ্ছাদন।"
+    }
+  },
+  {
+    "id": "assam-geography-222",
+    "q": {
+      "en": "Which type of forest covers most of the plains of Assam?",
+      "as": "অসমৰ বেছিভাগ সমভূমি কোন ধৰণৰ বনে আৱৰি আছে?"
+    },
+    "options": [
+      {
+        "en": "Tropical moist deciduous",
+        "as": "ক্ৰান্তীয় আৰ্দ্ৰ পৰ্ণপাতী"
+      },
+      {
+        "en": "Mangrove",
+        "as": "মেংগ্ৰ'ভ"
+      },
+      {
+        "en": "Thorn",
+        "as": "কণ্টকময়"
+      },
+      {
+        "en": "Alpine",
+        "as": "আলপাইন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Tropical moist deciduous forests are common in the Assam plains.",
+      "as": "অসমৰ সমভূমিত ক্ৰান্তীয় আৰ্দ্ৰ পৰ্ণপাতী বন সাধাৰণ।"
+    }
+  },
+  {
+    "id": "assam-geography-223",
+    "q": {
+      "en": "Which river is associated with the town of Tezpur?",
+      "as": "কোন নদী তেজপুৰ চহৰৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Kopili",
+        "as": "কপিলী"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Tezpur lies on the bank of the Brahmaputra.",
+      "as": "তেজপুৰ ব্ৰহ্মপুত্ৰৰ পাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-224",
+    "q": {
+      "en": "Which river is associated with the town of Silchar?",
+      "as": "কোন নদী শিলচৰ চহৰৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Manas",
+        "as": "মনাহ"
+      },
+      {
+        "en": "Kopili",
+        "as": "কপিলী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Silchar lies on the bank of the Barak river.",
+      "as": "শিলচৰ বৰাক নদীৰ পাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-225",
+    "q": {
+      "en": "Which is the largest tributary of the Barak river?",
+      "as": "বৰাক নদীৰ আটাইতকৈ বৃহৎ উপনদী কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      },
+      {
+        "en": "Jiri",
+        "as": "জিৰি"
+      },
+      {
+        "en": "Kopili",
+        "as": "কপিলী"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Jiri is the largest tributary of the Barak river.",
+      "as": "জিৰি বৰাক নদীৰ আটাইতকৈ বৃহৎ উপনদী।"
+    }
+  },
+  {
+    "id": "assam-geography-226",
+    "q": {
+      "en": "Which is the largest haor of the Barak valley?",
+      "as": "বৰাক উপত্যকাৰ আটাইতকৈ বৃহৎ হাওৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Sonbeel",
+        "as": "সোণবিল"
+      },
+      {
+        "en": "Deepor Beel",
+        "as": "দীপৰ বিল"
+      },
+      {
+        "en": "Chatla Haor",
+        "as": "চাতলা হাওৰ"
+      },
+      {
+        "en": "Chandubi",
+        "as": "চান্দুবি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Chatla Haor in Cachar is a large wetland of the Barak valley.",
+      "as": "কাছাৰৰ চাতলা হাওৰ বৰাক উপত্যকাৰ এটা বৃহৎ জলাশয়।"
+    }
+  },
+  {
+    "id": "assam-geography-227",
+    "q": {
+      "en": "Which river is called the 'Sorrow of Cachar'?",
+      "as": "কোন নদীক 'কাছাৰৰ দুখ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Jatinga",
+        "as": "জটিঙ্গা"
+      },
+      {
+        "en": "Kopili",
+        "as": "কপিলী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Barak river is called the Sorrow of Cachar due to floods.",
+      "as": "বানপানীৰ বাবে বৰাক নদীক কাছাৰৰ দুখ বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-228",
+    "q": {
+      "en": "The 'Peacock Island' is another name for which Assam island?",
+      "as": "'পিকক আইলেণ্ড' অসমৰ কোন দ্বীপৰ আন নাম?"
+    },
+    "options": [
+      {
+        "en": "Umananda",
+        "as": "উমানন্দ"
+      },
+      {
+        "en": "Diwari",
+        "as": "দীৱাৰী"
+      },
+      {
+        "en": "Bhupen Dwip",
+        "as": "ভূপেন দ্বীপ"
+      },
+      {
+        "en": "Majuli",
+        "as": "মাজুলী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Umananda island is also known as Peacock Island.",
+      "as": "উমানন্দ দ্বীপক পিকক আইলেণ্ড বুলিও জনা যায়।"
+    }
+  },
+  {
+    "id": "assam-geography-229",
+    "q": {
+      "en": "Assam shares international boundaries with which two countries?",
+      "as": "অসম কোন দুখন দেশৰ সৈতে আন্তঃৰাষ্ট্ৰীয় সীমা ভাগ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Nepal and China",
+        "as": "নেপাল আৰু চীন"
+      },
+      {
+        "en": "Myanmar and Bangladesh",
+        "as": "ম্যানমাৰ আৰু বাংলাদেশ"
+      },
+      {
+        "en": "Bhutan and Bangladesh",
+        "as": "ভুটান আৰু বাংলাদেশ"
+      },
+      {
+        "en": "China and Myanmar",
+        "as": "চীন আৰু ম্যানমাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assam shares international borders with Bhutan and Bangladesh.",
+      "as": "অসমে ভুটান আৰু বাংলাদেশৰ সৈতে আন্তঃৰাষ্ট্ৰীয় সীমা ভাগ কৰে।"
+    }
+  },
+  {
+    "id": "assam-geography-230",
+    "q": {
+      "en": "Assam shares its longest inter-state boundary with which state?",
+      "as": "অসমে আটাইতকৈ দীঘল আন্তঃৰাজ্যিক সীমা কোন ৰাজ্যৰ সৈতে ভাগ কৰে?"
+    },
+    "options": [
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam shares its longest inter-state boundary with Meghalaya.",
+      "as": "অসমে আটাইতকৈ দীঘল আন্তঃৰাজ্যিক সীমা মেঘালয়ৰ সৈতে ভাগ কৰে।"
+    }
+  },
+  {
+    "id": "assam-geography-231",
+    "q": {
+      "en": "The hills to the south of the Brahmaputra valley belong to which plateau?",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকাৰ দক্ষিণৰ পাহাৰ কোন মালভূমিৰ অন্তৰ্গত?"
+    },
+    "options": [
+      {
+        "en": "Deccan plateau",
+        "as": "দাক্ষিণাত্য মালভূমি"
+      },
+      {
+        "en": "Tibetan plateau",
+        "as": "তিব্বতীয় মালভূমি"
+      },
+      {
+        "en": "Malwa plateau",
+        "as": "মালৱা মালভূমি"
+      },
+      {
+        "en": "Shillong plateau",
+        "as": "শ্বিলং মালভূমি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Shillong plateau and Barail range lie south of the Brahmaputra valley.",
+      "as": "শ্বিলং মালভূমি আৰু বৰাইল শ্ৰেণী ব্ৰহ্মপুত্ৰ উপত্যকাৰ দক্ষিণে অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-geography-232",
+    "q": {
+      "en": "Which is the main tributary of the Brahmaputra flowing through Karbi Anglong?",
+      "as": "কাৰ্বি আংলঙৰ মাজেৰে বৈ যোৱা ব্ৰহ্মপুত্ৰৰ প্ৰধান উপনদী কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Manas",
+        "as": "মনাহ"
+      },
+      {
+        "en": "Kopili",
+        "as": "কপিলী"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Sankosh",
+        "as": "সংকোষ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Kopili flows through Karbi Anglong before joining the Brahmaputra.",
+      "as": "কপিলী ব্ৰহ্মপুত্ৰত মিলিত হোৱাৰ আগত কাৰ্বি আংলঙৰ মাজেৰে বৈ যায়।"
+    }
+  },
+  {
+    "id": "assam-geography-233",
+    "q": {
+      "en": "The Kopili river originates in which state?",
+      "as": "কপিলী নদী কোন ৰাজ্যত উৎপত্তি হয়?"
+    },
+    "options": [
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Kopili originates in the Meghalaya hills.",
+      "as": "কপিলী মেঘালয়ৰ পাহাৰত উৎপত্তি হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-234",
+    "q": {
+      "en": "Which district of Assam is known as the 'Land of Red Rivers and Blue Hills'?",
+      "as": "অসমৰ কোন জিলাক 'ৰঙা নদী আৰু নীলা পাহাৰৰ দেশ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Barpeta",
+        "as": "বৰপেটা"
+      },
+      {
+        "en": "Dima Hasao",
+        "as": "ডিমা হাছাও"
+      },
+      {
+        "en": "Goalpara",
+        "as": "গোৱালপাৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Dima Hasao is called the Land of Red Rivers and Blue Hills.",
+      "as": "ডিমা হাছাওক ৰঙা নদী আৰু নীলা পাহাৰৰ দেশ বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-235",
+    "q": {
+      "en": "Which district of Assam is famous for the Jatinga bird phenomenon?",
+      "as": "অসমৰ কোন জিলা জটিঙ্গা চৰাই পৰিঘটনাৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Dima Hasao",
+        "as": "ডিমা হাছাও"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Golaghat",
+        "as": "গোলাঘাট"
+      },
+      {
+        "en": "Karbi Anglong",
+        "as": "কাৰ্বি আংলং"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Jatinga bird phenomenon occurs in Dima Hasao district.",
+      "as": "জটিঙ্গা চৰাই পৰিঘটনা ডিমা হাছাও জিলাত সংঘটিত হয়।"
+    }
+  },
+  {
+    "id": "assam-geography-236",
+    "q": {
+      "en": "Which district is the largest producer of coal in Assam?",
+      "as": "অসমত কোন জিলা কয়লাৰ আটাইতকৈ বৃহৎ উৎপাদক?"
+    },
+    "options": [
+      {
+        "en": "Tinsukia",
+        "as": "তিনিচুকীয়া"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Most of Assam's coal comes from the Tinsukia area.",
+      "as": "অসমৰ বেছিভাগ কয়লা তিনিচুকীয়া অঞ্চলৰ পৰা আহে।"
+    }
+  },
+  {
+    "id": "assam-geography-237",
+    "q": {
+      "en": "Which is the main forest-based industry of Assam?",
+      "as": "অসমৰ প্ৰধান বনভিত্তিক উদ্যোগ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Aluminium",
+        "as": "এলুমিনিয়াম"
+      },
+      {
+        "en": "Plywood and paper",
+        "as": "প্লাইউড আৰু কাগজ"
+      },
+      {
+        "en": "Iron and steel",
+        "as": "লোহা আৰু ইস্পাত"
+      },
+      {
+        "en": "Shipbuilding",
+        "as": "জাহাজ নিৰ্মাণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Plywood and paper are major forest-based industries of Assam.",
+      "as": "প্লাইউড আৰু কাগজ অসমৰ প্ৰধান বনভিত্তিক উদ্যোগ।"
+    }
+  },
+  {
+    "id": "assam-geography-238",
+    "q": {
+      "en": "Which is the largest tea auction centre of Assam?",
+      "as": "অসমৰ আটাইতকৈ বৃহৎ চাহ নিলাম কেন্দ্ৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Guwahati is the major tea auction centre of Assam.",
+      "as": "গুৱাহাটী অসমৰ প্ৰধান চাহ নিলাম কেন্দ্ৰ।"
+    }
+  },
+  {
+    "id": "assam-geography-239",
+    "q": {
+      "en": "Which two divisions together form the Barak valley?",
+      "as": "কোন দুখন বিভাগে একেলগে বৰাক উপত্যকা গঠন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Goalpara and Dhubri",
+        "as": "গোৱালপাৰা আৰু ধুবুৰী"
+      },
+      {
+        "en": "Cachar and Karimganj-Hailakandi",
+        "as": "কাছাৰ আৰু কৰিমগঞ্জ-হাইলাকান্দি"
+      },
+      {
+        "en": "Nagaon and Morigaon",
+        "as": "নগাঁও আৰু মৰিগাঁও"
+      },
+      {
+        "en": "Dibrugarh and Tinsukia",
+        "as": "ডিব্ৰুগড় আৰু তিনিচুকীয়া"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Barak valley consists of Cachar, Karimganj and Hailakandi.",
+      "as": "বৰাক উপত্যকা কাছাৰ, কৰিমগঞ্জ আৰু হাইলাকান্দিৰে গঠিত।"
+    }
+  },
+  {
+    "id": "assam-geography-240",
+    "q": {
+      "en": "Which is the largest town of the Brahmaputra valley besides Guwahati?",
+      "as": "গুৱাহাটীৰ বাহিৰে ব্ৰহ্মপুত্ৰ উপত্যকাৰ আটাইতকৈ বৃহৎ নগৰ কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dibrugarh is a major city of the Brahmaputra valley.",
+      "as": "ডিব্ৰুগড় ব্ৰহ্মপুত্ৰ উপত্যকাৰ এটা প্ৰধান নগৰ।"
+    }
+  },
+  {
+    "id": "assam-geography-241",
+    "q": {
+      "en": "Assam is well known for which kind of tea-growing landscape?",
+      "as": "অসম কোন ধৰণৰ চাহ খেতিৰ ভূদৃশ্যৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Rice terraces",
+        "as": "ধান খেতিৰ চিৰি"
+      },
+      {
+        "en": "Extensive tea gardens",
+        "as": "বিস্তৃত চাহ বাগিচা"
+      },
+      {
+        "en": "Coffee estates",
+        "as": "কফি বাগিচা"
+      },
+      {
+        "en": "Rubber plantations",
+        "as": "ৰবৰ বাগিচা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam is known for its extensive tea gardens.",
+      "as": "অসম ইয়াৰ বিস্তৃত চাহ বাগিচাৰ বাবে বিখ্যাত।"
+    }
+  },
+  {
+    "id": "assam-geography-242",
+    "q": {
+      "en": "Which of these is a natural lake of Assam?",
+      "as": "তলৰ কোনটো অসমৰ প্ৰাকৃতিক হ্ৰদ?"
+    },
+    "options": [
+      {
+        "en": "Rang Ghar pond",
+        "as": "ৰংঘৰ পুখুৰী"
+      },
+      {
+        "en": "Joysagar tank",
+        "as": "জয়সাগৰ পুখুৰী"
+      },
+      {
+        "en": "Chandubi",
+        "as": "চান্দুবি"
+      },
+      {
+        "en": "Sivasagar tank",
+        "as": "শিৱসাগৰ পুখুৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Chandubi is a natural lake, while the Sivasagar tanks are man-made.",
+      "as": "চান্দুবি এটা প্ৰাকৃতিক হ্ৰদ, আনহাতে শিৱসাগৰৰ পুখুৰীসমূহ মানৱ নিৰ্মিত।"
+    }
+  },
+  {
+    "id": "assam-geography-243",
+    "q": {
+      "en": "Which of these is a man-made tank of Assam?",
+      "as": "তলৰ কোনটো অসমৰ মানৱ নিৰ্মিত পুখুৰী?"
+    },
+    "options": [
+      {
+        "en": "Chandubi",
+        "as": "চান্দুবি"
+      },
+      {
+        "en": "Deepor Beel",
+        "as": "দীপৰ বিল"
+      },
+      {
+        "en": "Sonbeel",
+        "as": "সোণবিল"
+      },
+      {
+        "en": "Joysagar",
+        "as": "জয়সাগৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Joysagar is a man-made tank built by Rudra Singha.",
+      "as": "জয়সাগৰ ৰুদ্ৰ সিংহই খন্দুৱাই কৰা মানৱ নিৰ্মিত পুখুৰী।"
+    }
+  },
+  {
+    "id": "assam-geography-244",
+    "q": {
+      "en": "Which natural region of Assam is most affected by annual floods?",
+      "as": "অসমৰ কোন প্ৰাকৃতিক অঞ্চল বছৰেকীয়া বানপানীত আটাইতকৈ বেছি প্ৰভাৱিত হয়?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra valley",
+        "as": "ব্ৰহ্মপুত্ৰ উপত্যকা"
+      },
+      {
+        "en": "Barail range",
+        "as": "বৰাইল শ্ৰেণী"
+      },
+      {
+        "en": "Karbi Anglong plateau",
+        "as": "কাৰ্বি আংলং মালভূমি"
+      },
+      {
+        "en": "Dima Hasao hills",
+        "as": "ডিমা হাছাও পাহাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra valley is the most flood-affected region of Assam.",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকা অসমৰ আটাইতকৈ বানপ্ৰবণ অঞ্চল।"
+    }
+  },
+  {
+    "id": "assam-geography-245",
+    "q": {
+      "en": "Which natural hazard besides floods commonly affects Assam?",
+      "as": "বানপানীৰ বাহিৰেও কোন প্ৰাকৃতিক দুৰ্যোগে অসমক সঘনাই প্ৰভাৱিত কৰে?"
+    },
+    "options": [
+      {
+        "en": "Blizzards",
+        "as": "বৰফৰ ধুমুহা"
+      },
+      {
+        "en": "Earthquakes",
+        "as": "ভূমিকম্প"
+      },
+      {
+        "en": "Volcanic eruptions",
+        "as": "আগ্নেয়গিৰি উদ্গিৰণ"
+      },
+      {
+        "en": "Tsunamis",
+        "as": "চুনামি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam is highly prone to earthquakes along with floods.",
+      "as": "অসম বানপানীৰ লগতে ভূমিকম্পৰ প্ৰতিও অতি সংবেদনশীল।"
+    }
+  },
+  {
+    "id": "assam-geography-246",
+    "q": {
+      "en": "Which river of Assam is famous for causing rapid bank erosion?",
+      "as": "অসমৰ কোন নদী দ্ৰুত পাৰ ক্ষয়ৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Jiri",
+        "as": "জিৰি"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra causes severe bank erosion in Assam.",
+      "as": "ব্ৰহ্মপুত্ৰই অসমত তীব্ৰ পাৰ ক্ষয় ঘটায়।"
+    }
+  },
+  {
+    "id": "assam-geography-247",
+    "q": {
+      "en": "Which town is known as the headquarters of the tea research in Assam?",
+      "as": "অসমত চাহ গৱেষণাৰ সদৰ হিচাপে কোন চহৰ পৰিচিত?"
+    },
+    "options": [
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Jorhat hosts the Tocklai Tea Research Institute.",
+      "as": "যোৰহাটত টকলাই চাহ গৱেষণা প্ৰতিষ্ঠান আছে।"
+    }
+  },
+  {
+    "id": "assam-geography-248",
+    "q": {
+      "en": "Which is the largest island district of India?",
+      "as": "ভাৰতৰ আটাইতকৈ বৃহৎ দ্বীপ জিলা কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Srirangapatna",
+        "as": "শ্ৰীৰঙ্গপাটনা"
+      },
+      {
+        "en": "Majuli",
+        "as": "মাজুলী"
+      },
+      {
+        "en": "Diu",
+        "as": "দিউ"
+      },
+      {
+        "en": "Umananda",
+        "as": "উমানন্দ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Majuli in Assam is the largest island district of India.",
+      "as": "অসমৰ মাজুলী ভাৰতৰ আটাইতকৈ বৃহৎ দ্বীপ জিলা।"
+    }
+  },
+  {
+    "id": "assam-geography-249",
+    "q": {
+      "en": "Which district of Assam was formed as the first island district of India?",
+      "as": "ভাৰতৰ প্ৰথম দ্বীপ জিলা হিচাপে অসমৰ কোনখন জিলা গঠিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Hojai",
+        "as": "হোজাই"
+      },
+      {
+        "en": "Majuli",
+        "as": "মাজুলী"
+      },
+      {
+        "en": "Dima Hasao",
+        "as": "ডিমা হাছাও"
+      },
+      {
+        "en": "Charaideo",
+        "as": "চৰাইদেউ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Majuli became India's first island district in 2016.",
+      "as": "মাজুলী ২০১৬ চনত ভাৰতৰ প্ৰথম দ্বীপ জিলা হৈছিল।"
+    }
+  },
+  {
+    "id": "assam-geography-250",
+    "q": {
+      "en": "Which hill range lies between the Brahmaputra and Barak valleys?",
+      "as": "ব্ৰহ্মপুত্ৰ আৰু বৰাক উপত্যকাৰ মাজত কোন পাহাৰ শ্ৰেণী অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Himalayas",
+        "as": "হিমালয়"
+      },
+      {
+        "en": "Aravalli",
+        "as": "আৰাৱলী"
+      },
+      {
+        "en": "Barail and Karbi Anglong hills",
+        "as": "বৰাইল আৰু কাৰ্বি আংলং পাহাৰ"
+      },
+      {
+        "en": "Satpura",
+        "as": "সৎপুৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Barail and Karbi Anglong hills separate the two valleys.",
+      "as": "বৰাইল আৰু কাৰ্বি আংলং পাহাৰে দুয়ো উপত্যকা পৃথক কৰে।"
+    }
+  },
+  {
+    "id": "assam-geography-251",
+    "q": {
+      "en": "Which is the main crop grown in the tea gardens of Assam?",
+      "as": "অসমৰ চাহ বাগিচাত প্ৰধানকৈ কোন শস্য খেতি কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Cocoa",
+        "as": "ককো"
+      },
+      {
+        "en": "Tea",
+        "as": "চাহ"
+      },
+      {
+        "en": "Rubber",
+        "as": "ৰবৰ"
+      },
+      {
+        "en": "Coffee",
+        "as": "কফি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Tea is the main plantation crop of Assam.",
+      "as": "চাহ অসমৰ প্ৰধান বাগিচা শস্য।"
+    }
+  },
+  {
+    "id": "assam-geography-252",
+    "q": {
+      "en": "Which district of Assam has the longest international border with Bangladesh?",
+      "as": "অসমৰ কোন জিলাৰ বাংলাদেশৰ সৈতে আটাইতকৈ দীঘল আন্তঃৰাষ্ট্ৰীয় সীমা আছে?"
+    },
+    "options": [
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Goalpara",
+        "as": "গোৱালপাৰা"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Karimganj",
+        "as": "কৰিমগঞ্জ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Dhubri shares a long international border with Bangladesh.",
+      "as": "ধুবুৰীয়ে বাংলাদেশৰ সৈতে দীঘল আন্তঃৰাষ্ট্ৰীয় সীমা ভাগ কৰে।"
+    }
+  },
+  {
+    "id": "assam-geography-253",
+    "q": {
+      "en": "Which is the main reason for the high biodiversity of Assam?",
+      "as": "অসমৰ উচ্চ জীৱবৈচিত্ৰ্যৰ প্ৰধান কাৰণ কি?"
+    },
+    "options": [
+      {
+        "en": "Low rainfall",
+        "as": "কম বৰষুণ"
+      },
+      {
+        "en": "Desert conditions",
+        "as": "মৰু অৱস্থা"
+      },
+      {
+        "en": "Varied climate and topography",
+        "as": "বিভিন্ন জলবায়ু আৰু ভূগঠন"
+      },
+      {
+        "en": "High altitude",
+        "as": "উচ্চ উচ্চতা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assam's varied climate, rainfall and terrain support rich biodiversity.",
+      "as": "অসমৰ বিভিন্ন জলবায়ু, বৰষুণ আৰু ভূগঠনে সমৃদ্ধ জীৱবৈচিত্ৰ্যক সহায় কৰে।"
+    }
   }
-}
+]
