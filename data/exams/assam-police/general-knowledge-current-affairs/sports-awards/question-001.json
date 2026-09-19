@@ -1,30 +1,2972 @@
-{
-  "id": "sports-awards-001",
-  "q": {
-    "en": "What is the highest sporting honour of India?",
-    "as": "ভাৰতৰ সৰ্বোচ্চ ক্ৰীড়া সন্মান কি?"
-  },
-  "options": [
-    {
-      "en": "Major Dhyan Chand Khel Ratna Award",
-      "as": "মেজৰ ধ্যানচান্দ খেলৰত্ন বঁটা"
+[
+  {
+    "id": "sports-awards-001",
+    "q": {
+      "en": "How many players are there in a football team on the field?",
+      "as": "পথাৰত এটা ফুটবল দলত কিমানজন খেলুৱৈ থাকে?"
     },
-    {
-      "en": "Arjuna Award",
-      "as": "অৰ্জুন বঁটা"
-    },
-    {
-      "en": "Dronacharya Award",
-      "as": "দ্ৰোণাচাৰ্য বঁটা"
-    },
-    {
-      "en": "Padma Shri",
-      "as": "পদ্মশ্ৰী"
+    "options": [
+      { "en": "9", "as": "৯" },
+      { "en": "10", "as": "১০" },
+      { "en": "11", "as": "১১" },
+      { "en": "12", "as": "১২" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A football team has 11 players on the field, including the goalkeeper.",
+      "as": "গ'লকীপাৰকে ধৰি এটা ফুটবল দলত পথাৰত ১১ জন খেলুৱৈ থাকে।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "The Khel Ratna is India's highest sporting honour.",
-    "as": "খেলৰত্ন ভাৰতৰ সৰ্বোচ্চ ক্ৰীড়া সন্মান।"
+  },
+  {
+    "id": "sports-awards-002",
+    "q": {
+      "en": "How many players are there in a cricket team?",
+      "as": "এটা ক্ৰিকেট দলত কিমানজন খেলুৱৈ থাকে?"
+    },
+    "options": [
+      { "en": "10", "as": "১০" },
+      { "en": "11", "as": "১১" },
+      { "en": "12", "as": "১২" },
+      { "en": "13", "as": "১৩" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A cricket team consists of 11 players.",
+      "as": "এটা ক্ৰিকেট দলত ১১ জন খেলুৱৈ থাকে।"
+    }
+  },
+  {
+    "id": "sports-awards-003",
+    "q": {
+      "en": "How many players are there in a hockey team?",
+      "as": "এটা হকী দলত কিমানজন খেলুৱৈ থাকে?"
+    },
+    "options": [
+      { "en": "9", "as": "৯" },
+      { "en": "10", "as": "১০" },
+      { "en": "11", "as": "১১" },
+      { "en": "12", "as": "১২" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A field hockey team has 11 players, including the goalkeeper.",
+      "as": "ফিল্ড হকী দলত গ'লকীপাৰকে ধৰি ১১ জন খেলুৱৈ থাকে।"
+    }
+  },
+  {
+    "id": "sports-awards-004",
+    "q": {
+      "en": "How many players are there in a basketball team on the court?",
+      "as": "ক'ৰ্টত এটা বাস্কেটবল দলত কিমানজন খেলুৱৈ থাকে?"
+    },
+    "options": [
+      { "en": "5", "as": "৫" },
+      { "en": "6", "as": "৬" },
+      { "en": "7", "as": "৭" },
+      { "en": "8", "as": "৮" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A basketball team has 5 players on the court at a time.",
+      "as": "বাস্কেটবল দলত একে সময়ত ক'ৰ্টত ৫ জন খেলুৱৈ থাকে।"
+    }
+  },
+  {
+    "id": "sports-awards-005",
+    "q": {
+      "en": "How many players are there in a volleyball team on the court?",
+      "as": "ক'ৰ্টত এটা ভলীবল দলত কিমানজন খেলুৱৈ থাকে?"
+    },
+    "options": [
+      { "en": "5", "as": "৫" },
+      { "en": "6", "as": "৬" },
+      { "en": "7", "as": "৭" },
+      { "en": "8", "as": "৮" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A volleyball team has 6 players on the court.",
+      "as": "ভলীবল দলত ক'ৰ্টত ৬ জন খেলুৱৈ থাকে।"
+    }
+  },
+  {
+    "id": "sports-awards-006",
+    "q": {
+      "en": "How many players are there in a kabaddi team on the court?",
+      "as": "ক'ৰ্টত এটা কবাডী দলত কিমানজন খেলুৱৈ থাকে?"
+    },
+    "options": [
+      { "en": "5", "as": "৫" },
+      { "en": "6", "as": "৬" },
+      { "en": "7", "as": "৭" },
+      { "en": "9", "as": "৯" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A kabaddi team has 7 players on the court.",
+      "as": "কবাডী দলত ক'ৰ্টত ৭ জন খেলুৱৈ থাকে।"
+    }
+  },
+  {
+    "id": "sports-awards-007",
+    "q": {
+      "en": "Which country hosted the 2024 Summer Olympics?",
+      "as": "২০২৪ চনৰ গ্ৰীষ্মকালীন অলিম্পিক কোনখন দেশে আয়োজন কৰিছিল?"
+    },
+    "options": [
+      { "en": "Japan", "as": "জাপান" },
+      { "en": "France", "as": "ফ্ৰান্স" },
+      { "en": "USA", "as": "আমেৰিকা যুক্তৰাষ্ট্ৰ" },
+      { "en": "Australia", "as": "অষ্ট্ৰেলিয়া" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The 2024 Summer Olympics were held in Paris, France.",
+      "as": "২০২৪ চনৰ গ্ৰীষ্মকালীন অলিম্পিক ফ্ৰান্সৰ পেৰিছত অনুষ্ঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-008",
+    "q": {
+      "en": "Which country hosted the 2020 Summer Olympics?",
+      "as": "২০২০ চনৰ গ্ৰীষ্মকালীন অলিম্পিক কোনখন দেশে আয়োজন কৰিছিল?"
+    },
+    "options": [
+      { "en": "China", "as": "চীন" },
+      { "en": "Japan", "as": "জাপান" },
+      { "en": "Brazil", "as": "ব্ৰাজিল" },
+      { "en": "UK", "as": "যুক্তৰাজ্য" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The 2020 Summer Olympics, postponed to 2021, were held in Tokyo, Japan.",
+      "as": "২০২১ লৈ পিছুৱাই দিয়া ২০২০ চনৰ গ্ৰীষ্মকালীন অলিম্পিক জাপানৰ টকিঅ'ত অনুষ্ঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-009",
+    "q": {
+      "en": "Which country will host the 2028 Summer Olympics?",
+      "as": "২০২৮ চনৰ গ্ৰীষ্মকালীন অলিম্পিক কোনখন দেশে আয়োজন কৰিব?"
+    },
+    "options": [
+      { "en": "USA", "as": "আমেৰিকা যুক্তৰাষ্ট্ৰ" },
+      { "en": "Australia", "as": "অষ্ট্ৰেলিয়া" },
+      { "en": "France", "as": "ফ্ৰান্স" },
+      { "en": "Japan", "as": "জাপান" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The 2028 Summer Olympics will be held in Los Angeles, USA.",
+      "as": "২০২৮ চনৰ গ্ৰীষ্মকালীন অলিম্পিক আমেৰিকাৰ লছ এঞ্জেলেছত অনুষ্ঠিত হ'ব।"
+    }
+  },
+  {
+    "id": "sports-awards-010",
+    "q": {
+      "en": "Who won the gold medal in javelin throw at the Tokyo Olympics 2020?",
+      "as": "টকিঅ' অলিম্পিক ২০২০-ত জেভলিন থ্ৰ'ত স্বৰ্ণ পদক কোনে জিকিছিল?"
+    },
+    "options": [
+      { "en": "Neeraj Chopra", "as": "নীৰজ চোপ্ৰা" },
+      { "en": "Johannes Vetter", "as": "জোহানেছ ভেটাৰ" },
+      { "en": "Jakub Vadlejch", "as": "জাকুব ভাডলেজ" },
+      { "en": "Arshad Nadeem", "as": "আৰ্শাদ নাদিম" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Neeraj Chopra won India's first-ever Olympic gold in athletics at Tokyo 2020.",
+      "as": "নীৰজ চোপ্ৰাই টকিঅ' ২০২০-ত এথলেটিকছত ভাৰতৰ প্ৰথম অলিম্পিক স্বৰ্ণ জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-011",
+    "q": {
+      "en": "Who won the silver medal in javelin throw at the Paris Olympics 2024?",
+      "as": "পেৰিছ অলিম্পিক ২০২৪-ত জেভলিন থ্ৰ'ত ৰূপৰ পদক কোনে জিকিছিল?"
+    },
+    "options": [
+      { "en": "Neeraj Chopra", "as": "নীৰজ চোপ্ৰা" },
+      { "en": "Arshad Nadeem", "as": "আৰ্শাদ নাদিম" },
+      { "en": "Jakub Vadlejch", "as": "জাকুব ভাডলেজ" },
+      { "en": "Anderson Peters", "as": "এণ্ডাৰছন পিটাৰ্ছ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Neeraj Chopra won the silver medal in javelin throw at the Paris Olympics 2024.",
+      "as": "নীৰজ চোপ্ৰাই পেৰিছ অলিম্পিক ২০২৪-ত জেভলিন থ্ৰ'ত ৰূপৰ পদক জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-012",
+    "q": {
+      "en": "Who won the gold medal in javelin throw at the Paris Olympics 2024?",
+      "as": "পেৰিছ অলিম্পিক ২০২৪-ত জেভলিন থ্ৰ'ত স্বৰ্ণ পদক কোনে জিকিছিল?"
+    },
+    "options": [
+      { "en": "Neeraj Chopra", "as": "নীৰজ চোপ্ৰা" },
+      { "en": "Arshad Nadeem", "as": "আৰ্শাদ নাদিম" },
+      { "en": "Julian Weber", "as": "জুলিয়ান ৱেবাৰ" },
+      { "en": "Keshorn Walcott", "as": "কেশৰ্ণ ৱালকট" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Arshad Nadeem of Pakistan won gold in javelin throw at Paris 2024.",
+      "as": "পাকিস্তানৰ আৰ্শাদ নাদিমে পেৰিছ ২০২৪-ত জেভলিন থ্ৰ'ত স্বৰ্ণ জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-013",
+    "q": {
+      "en": "How many medals did India win at the Tokyo Olympics 2020?",
+      "as": "টকিঅ' অলিম্পিক ২০২০-ত ভাৰতে কিমানখন পদক জিকিছিল?"
+    },
+    "options": [
+      { "en": "5", "as": "৫" },
+      { "en": "6", "as": "৬" },
+      { "en": "7", "as": "৭" },
+      { "en": "8", "as": "৮" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "India won 7 medals (1 gold, 2 silver, 4 bronze) at the Tokyo Olympics 2020.",
+      "as": "ভাৰতে টকিঅ' অলিম্পিক ২০২০-ত ৭খন পদক (১ স্বৰ্ণ, ২ ৰূপ, ৪ ব্ৰঞ্জ) জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-014",
+    "q": {
+      "en": "How many medals did India win at the Paris Olympics 2024?",
+      "as": "পেৰিছ অলিম্পিক ২০২৪-ত ভাৰতে কিমানখন পদক জিকিছিল?"
+    },
+    "options": [
+      { "en": "5", "as": "৫" },
+      { "en": "6", "as": "৬" },
+      { "en": "7", "as": "৭" },
+      { "en": "8", "as": "৮" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "India won 6 medals at the Paris Olympics 2024 (1 silver, 5 bronze).",
+      "as": "ভাৰতে পেৰিছ অলিম্পিক ২০২৪-ত ৬খন পদক (১ ৰূপ, ৫ ব্ৰঞ্জ) জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-015",
+    "q": {
+      "en": "Who is known as the 'Flying Sikh of India'?",
+      "as": "ভাৰতৰ 'উৰন্ত শিখ' হিচাপে কোন জনাজাত?"
+    },
+    "options": [
+      { "en": "Milkha Singh", "as": "মিলখা সিং" },
+      { "en": "P.T. Usha", "as": "পি.টি. ঊষা" },
+      { "en": "Neeraj Chopra", "as": "নীৰজ চোপ্ৰা" },
+      { "en": "Dhyan Chand", "as": "ধ্যানচাঁদ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Milkha Singh, the legendary Indian sprinter, is known as the Flying Sikh.",
+      "as": "কিংবদন্তি ভাৰতীয় দৌৰবিদ মিলখা সিং উৰন্ত শিখ হিচাপে জনাজাত।"
+    }
+  },
+  {
+    "id": "sports-awards-016",
+    "q": {
+      "en": "Who is known as the 'Wizard of Hockey'?",
+      "as": "কোন 'হকীৰ যাদুকৰ' হিচাপে জনাজাত?"
+    },
+    "options": [
+      { "en": "Dhyan Chand", "as": "ধ্যানচাঁদ" },
+      { "en": "Balbir Singh", "as": "বলবীৰ সিং" },
+      { "en": "Leslie Claudius", "as": "লেছলী ক্লডিয়াছ" },
+      { "en": "Ajitpal Singh", "as": "অজিতপাল সিং" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Dhyan Chand is known as the Wizard of Hockey for his extraordinary skills.",
+      "as": "অসাধাৰণ দক্ষতাৰ বাবে ধ্যানচাঁদ হকীৰ যাদুকৰ হিচাপে জনাজাত।"
+    }
+  },
+  {
+    "id": "sports-awards-017",
+    "q": {
+      "en": "When is National Sports Day celebrated in India?",
+      "as": "ভাৰতত জাতীয় ক্ৰীড়া দিৱস কেতিয়া পালন কৰা হয়?"
+    },
+    "options": [
+      { "en": "29 August", "as": "২৯ আগষ্ট" },
+      { "en": "15 August", "as": "১৫ আগষ্ট" },
+      { "en": "5 September", "as": "৫ ছেপ্তেম্বৰ" },
+      { "en": "2 October", "as": "২ অক্টোবৰ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "National Sports Day is celebrated on 29 August, the birthday of Dhyan Chand.",
+      "as": "ধ্যানচাঁদৰ জন্মদিন ২৯ আগষ্টত জাতীয় ক্ৰীড়া দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "sports-awards-018",
+    "q": {
+      "en": "Which is the highest sporting honour of India?",
+      "as": "ভাৰতৰ সৰ্বোচ্চ ক্ৰীড়া সন্মান কোনটো?"
+    },
+    "options": [
+      { "en": "Arjuna Award", "as": "অৰ্জুন বঁটা" },
+      { "en": "Major Dhyan Chand Khel Ratna Award", "as": "মেজৰ ধ্যানচাঁদ খেল ৰত্ন বঁটা" },
+      { "en": "Dronacharya Award", "as": "দ্ৰোণাচাৰ্য বঁটা" },
+      { "en": "Tenzing Norgay Award", "as": "তেনজিং নৰ্গে বঁটা" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Major Dhyan Chand Khel Ratna Award is India's highest sporting honour.",
+      "as": "মেজৰ ধ্যানচাঁদ খেল ৰত্ন বঁটা ভাৰতৰ সৰ্বোচ্চ ক্ৰীড়া সন্মান।"
+    }
+  },
+  {
+    "id": "sports-awards-019",
+    "q": {
+      "en": "The Arjuna Award is given for excellence in which field?",
+      "as": "অৰ্জুন বঁটা কোন ক্ষেত্ৰত উৎকৰ্ষতাৰ বাবে প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      { "en": "Literature", "as": "সাহিত্য" },
+      { "en": "Sports", "as": "ক্ৰীড়া" },
+      { "en": "Science", "as": "বিজ্ঞান" },
+      { "en": "Cinema", "as": "চলচ্চিত্ৰ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Arjuna Award is given for outstanding achievement in sports.",
+      "as": "অৰ্জুন বঁটা ক্ৰীড়াত অসাধাৰণ কৃতিত্বৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "sports-awards-020",
+    "q": {
+      "en": "The Dronacharya Award is given to whom?",
+      "as": "দ্ৰোণাচাৰ্য বঁটা কাক প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      { "en": "Players", "as": "খেলুৱৈ" },
+      { "en": "Coaches", "as": "প্ৰশিক্ষক" },
+      { "en": "Referees", "as": "ৰিফাৰী" },
+      { "en": "Journalists", "as": "সাংবাদিক" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Dronacharya Award is given to outstanding coaches in sports.",
+      "as": "দ্ৰোণাচাৰ্য বঁটা ক্ৰীড়াৰ অসাধাৰণ প্ৰশিক্ষকসকলক প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "sports-awards-021",
+    "q": {
+      "en": "Which award is given for lifetime achievement in sports in India?",
+      "as": "ভাৰতত ক্ৰীড়াত জীৱনজোৰা অৱদানৰ বাবে কোনটো বঁটা প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      { "en": "Arjuna Award", "as": "অৰ্জুন বঁটা" },
+      { "en": "Dhyan Chand Award", "as": "ধ্যানচাঁদ বঁটা" },
+      { "en": "Khel Ratna", "as": "খেল ৰত্ন" },
+      { "en": "Dronacharya Award", "as": "দ্ৰোণাচাৰ্য বঁটা" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Dhyan Chand Award is given for lifetime achievement in sports.",
+      "as": "ধ্যানচাঁদ বঁটা ক্ৰীড়াত জীৱনজোৰা কৃতিত্বৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "sports-awards-022",
+    "q": {
+      "en": "Which Indian state is known as the 'Sports Capital of India'?",
+      "as": "কোনখন ভাৰতীয় ৰাজ্যক 'ভাৰতৰ ক্ৰীড়া ৰাজধানী' বুলি কোৱা হয়?"
+    },
+    "options": [
+      { "en": "Punjab", "as": "পাঞ্জাব" },
+      { "en": "Haryana", "as": "হাৰিয়ানা" },
+      { "en": "Kerala", "as": "কেৰালা" },
+      { "en": "Manipur", "as": "মণিপুৰ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Haryana is often called the Sports Capital of India for producing many athletes.",
+      "as": "অনেক খেলুৱৈ সৃষ্টি কৰাৰ বাবে হাৰিয়ানাক প্ৰায়ে ভাৰতৰ ক্ৰীড়া ৰাজধানী বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "sports-awards-023",
+    "q": {
+      "en": "Which Indian state is famous for producing boxers like Mary Kom?",
+      "as": "মেৰী কমৰ দৰে বক্সাৰ সৃষ্টিৰ বাবে কোনখন ভাৰতীয় ৰাজ্য বিখ্যাত?"
+    },
+    "options": [
+      { "en": "Manipur", "as": "মণিপুৰ" },
+      { "en": "Mizoram", "as": "মিজোৰাম" },
+      { "en": "Nagaland", "as": "নাগালেণ্ড" },
+      { "en": "Assam", "as": "অসম" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Manipur is famous for producing boxers, including M.C. Mary Kom.",
+      "as": "মণিপুৰ এম.চি. মেৰী কমকে ধৰি বক্সাৰ সৃষ্টিৰ বাবে বিখ্যাত।"
+    }
+  },
+  {
+    "id": "sports-awards-024",
+    "q": {
+      "en": "How many rings are there in the Olympic symbol?",
+      "as": "অলিম্পিক প্ৰতীকত কিমানটা আঙুঠি থাকে?"
+    },
+    "options": [
+      { "en": "4", "as": "৪" },
+      { "en": "5", "as": "৫" },
+      { "en": "6", "as": "৬" },
+      { "en": "7", "as": "৭" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Olympic symbol has five interlocking rings representing the five continents.",
+      "as": "অলিম্পিক প্ৰতীকত পাঁচটা আন্তঃসংযুক্ত আঙুঠি থাকে যি পাঁচখন মহাদেশক প্ৰতিনিধিত্ব কৰে।"
+    }
+  },
+  {
+    "id": "sports-awards-025",
+    "q": {
+      "en": "What is the motto of the Olympic Games?",
+      "as": "অলিম্পিক ক্ৰীড়াৰ মূলমন্ত্ৰ কি?"
+    },
+    "options": [
+      { "en": "Faster, Higher, Stronger", "as": "দ্ৰুত, উচ্চ, সবল" },
+      { "en": "Win or Lose", "as": "জিকা বা হাৰা" },
+      { "en": "Play Fair", "as": "ন্যায়ভাৱে খেলা" },
+      { "en": "Unity in Diversity", "as": "বৈচিত্ৰত ঐক্য" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Olympic motto is 'Citius, Altius, Fortius' meaning Faster, Higher, Stronger.",
+      "as": "অলিম্পিকৰ মূলমন্ত্ৰ হ'ল 'চিটিয়াছ, আলটিয়াছ, ফৰ্টিয়াছ' অৰ্থাৎ দ্ৰুত, উচ্চ, সবল।"
+    }
+  },
+  {
+    "id": "sports-awards-026",
+    "q": {
+      "en": "Which country has won the most Olympic gold medals in field hockey?",
+      "as": "ফিল্ড হকীত আটাইতকৈ বেছি অলিম্পিক স্বৰ্ণ পদক কোনখন দেশে জিকিছে?"
+    },
+    "options": [
+      { "en": "Pakistan", "as": "পাকিস্তান" },
+      { "en": "India", "as": "ভাৰত" },
+      { "en": "Netherlands", "as": "নেডাৰলেণ্ড" },
+      { "en": "Australia", "as": "অষ্ট্ৰেলিয়া" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "India has won the most Olympic gold medals in field hockey (8 golds).",
+      "as": "ভাৰতে ফিল্ড হকীত আটাইতকৈ বেছি অলিম্পিক স্বৰ্ণ পদক (৮টা) জিকিছে।"
+    }
+  },
+  {
+    "id": "sports-awards-027",
+    "q": {
+      "en": "Who is the first Indian to win an individual Olympic gold medal?",
+      "as": "ব্যক্তিগত অলিম্পিক স্বৰ্ণ পদক জিকা প্ৰথম ভাৰতীয় কোন?"
+    },
+    "options": [
+      { "en": "Abhinav Bindra", "as": "অভিনৱ বিন্দ্ৰা" },
+      { "en": "Neeraj Chopra", "as": "নীৰজ চোপ্ৰা" },
+      { "en": "Rajyavardhan Rathore", "as": "ৰাজ্যৱৰ্ধন ৰাঠোৰ" },
+      { "en": "Vijender Singh", "as": "বিজেন্দৰ সিং" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Abhinav Bindra won India's first individual Olympic gold in shooting at Beijing 2008.",
+      "as": "অভিনৱ বিন্দ্ৰাই বেইজিং ২০০৮-ত শ্বুটিংত ভাৰতৰ প্ৰথম ব্যক্তিগত অলিম্পিক স্বৰ্ণ জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-028",
+    "q": {
+      "en": "In which sport did Abhinav Bindra win an Olympic gold medal?",
+      "as": "অভিনৱ বিন্দ্ৰাই কোন খেলত অলিম্পিক স্বৰ্ণ পদক জিকিছিল?"
+    },
+    "options": [
+      { "en": "Archery", "as": "ধনু-কাঁড়" },
+      { "en": "Shooting", "as": "শ্বুটিং" },
+      { "en": "Wrestling", "as": "মল্লযুদ্ধ" },
+      { "en": "Boxing", "as": "বক্সিং" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Abhinav Bindra won gold in the 10m air rifle shooting event.",
+      "as": "অভিনৱ বিন্দ্ৰাই ১০ মিটাৰ এয়াৰ ৰাইফল শ্বুটিং ইভেণ্টত স্বৰ্ণ জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-029",
+    "q": {
+      "en": "Who won the bronze medal in boxing at the Beijing Olympics 2008?",
+      "as": "বেইজিং অলিম্পিক ২০০৮-ত বক্সিংত ব্ৰঞ্জ পদক কোনে জিকিছিল?"
+    },
+    "options": [
+      { "en": "Vijender Singh", "as": "বিজেন্দৰ সিং" },
+      { "en": "M.C. Mary Kom", "as": "এম.চি. মেৰী কম" },
+      { "en": "Sushil Kumar", "as": "সুশীল কুমাৰ" },
+      { "en": "Akhil Kumar", "as": "অখিল কুমাৰ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Vijender Singh won a bronze medal in boxing at the Beijing Olympics 2008.",
+      "as": "বিজেন্দৰ সিঙে বেইজিং অলিম্পিক ২০০৮-ত বক্সিঙত ব্ৰঞ্জ পদক জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-030",
+    "q": {
+      "en": "Which Indian woman won a silver medal in weightlifting at the Tokyo Olympics 2020?",
+      "as": "টকিঅ' অলিম্পিক ২০২০-ত ভাৰতৰ কোন মহিলাই ৱেইটলিফ্টিঙত ৰূপৰ পদক জিকিছিল?"
+    },
+    "options": [
+      { "en": "Mirabai Chanu", "as": "মীৰাবাই চানু" },
+      { "en": "Karnam Malleswari", "as": "কৰ্ণম মল্লেশ্বৰী" },
+      { "en": "P.V. Sindhu", "as": "পি.ভি. সিন্ধু" },
+      { "en": "Sakshi Malik", "as": "সাক্ষী মালিক" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mirabai Chanu won a silver medal in weightlifting at the Tokyo Olympics 2020.",
+      "as": "মীৰাবাই চানুৱে টকিঅ' অলিম্পিক ২০২০-ত ৱেইটলিফ্টিঙত ৰূপৰ পদক জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-031",
+    "q": {
+      "en": "Who was the first Indian woman to win an Olympic medal?",
+      "as": "অলিম্পিক পদক জিকা প্ৰথম ভাৰতীয় মহিলা কোন?"
+    },
+    "options": [
+      { "en": "Karnam Malleswari", "as": "কৰ্ণম মল্লেশ্বৰী" },
+      { "en": "P.T. Usha", "as": "পি.টি. ঊষা" },
+      { "en": "Sakshi Malik", "as": "সাক্ষী মালিক" },
+      { "en": "P.V. Sindhu", "as": "পি.ভি. সিন্ধু" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Karnam Malleswari won a bronze in weightlifting at Sydney 2000, the first Indian woman to win an Olympic medal.",
+      "as": "কৰ্ণম মল্লেশ্বৰীয়ে চিডনী ২০০০-ত ৱেইটলিফ্টিঙত ব্ৰঞ্জ জিকিছিল, অলিম্পিক পদক জিকা প্ৰথম ভাৰতীয় মহিলা।"
+    }
+  },
+  {
+    "id": "sports-awards-032",
+    "q": {
+      "en": "Which sport is Saina Nehwal and P.V. Sindhu associated with?",
+      "as": "সাইনা নেহৱাল আৰু পি.ভি. সিন্ধু কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      { "en": "Tennis", "as": "টেনিছ" },
+      { "en": "Badminton", "as": "বেডমিণ্টন" },
+      { "en": "Squash", "as": "স্কোৱাছ" },
+      { "en": "Table Tennis", "as": "টেবুল টেনিছ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Saina Nehwal and P.V. Sindhu are famous Indian badminton players.",
+      "as": "সাইনা নেহৱাল আৰু পি.ভি. সিন্ধু বিখ্যাত ভাৰতীয় বেডমিণ্টন খেলুৱৈ।"
+    }
+  },
+  {
+    "id": "sports-awards-033",
+    "q": {
+      "en": "Which Indian city is the home of the Board of Control for Cricket in India (BCCI)?",
+      "as": "ভাৰতীয় ক্ৰিকেট নিয়ন্ত্ৰণ ব'ৰ্ড (বিচিচিআই)ৰ মুখ্য কাৰ্যালয় কোনখন ভাৰতীয় চহৰত?"
+    },
+    "options": [
+      { "en": "Mumbai", "as": "মুম্বাই" },
+      { "en": "New Delhi", "as": "নতুন দিল্লী" },
+      { "en": "Kolkata", "as": "কলকাতা" },
+      { "en": "Chennai", "as": "চেন্নাই" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The BCCI headquarters is located in Mumbai.",
+      "as": "বিচিচিআইৰ মুখ্য কাৰ্যালয় মুম্বাইত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "sports-awards-034",
+    "q": {
+      "en": "Which country won the ICC Men's Cricket World Cup 2023?",
+      "as": "২০২৩ চনৰ আইচিচি পুৰুষ ক্ৰিকেট বিশ্বকাপ কোনখন দেশে জিকিছিল?"
+    },
+    "options": [
+      { "en": "India", "as": "ভাৰত" },
+      { "en": "Australia", "as": "অষ্ট্ৰেলিয়া" },
+      { "en": "England", "as": "ইংলেণ্ড" },
+      { "en": "New Zealand", "as": "নিউজিলেণ্ড" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Australia won the ICC Men's Cricket World Cup 2023 held in India.",
+      "as": "ভাৰতত অনুষ্ঠিত ২০২৩ চনৰ আইচিচি পুৰুষ ক্ৰিকেট বিশ্বকাপ অষ্ট্ৰেলিয়াই জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-035",
+    "q": {
+      "en": "Which country won the ICC Men's Cricket World Cup 2011?",
+      "as": "২০১১ চনৰ আইচিচি পুৰুষ ক্ৰিকেট বিশ্বকাপ কোনখন দেশে জিকিছিল?"
+    },
+    "options": [
+      { "en": "Sri Lanka", "as": "শ্ৰীলংকা" },
+      { "en": "India", "as": "ভাৰত" },
+      { "en": "Australia", "as": "অষ্ট্ৰেলিয়া" },
+      { "en": "Pakistan", "as": "পাকিস্তান" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "India won the 2011 Cricket World Cup, defeating Sri Lanka in the final at Mumbai.",
+      "as": "ভাৰতে মুম্বাইত ফাইনেলত শ্ৰীলংকাক পৰাস্ত কৰি ২০১১ চনৰ ক্ৰিকেট বিশ্বকাপ জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-036",
+    "q": {
+      "en": "Who captained India to victory in the 2011 Cricket World Cup?",
+      "as": "২০১১ চনৰ ক্ৰিকেট বিশ্বকাপত ভাৰতক নেতৃত্ব দি জিকোৱা কোন?"
+    },
+    "options": [
+      { "en": "Sourav Ganguly", "as": "সৌৰভ গাংগুলী" },
+      { "en": "Rahul Dravid", "as": "ৰাহুল দ্ৰাবিড়" },
+      { "en": "M.S. Dhoni", "as": "এম.এছ. ধোনি" },
+      { "en": "Virat Kohli", "as": "বীৰাট কোহলি" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "M.S. Dhoni captained India to victory in the 2011 Cricket World Cup.",
+      "as": "এম.এছ. ধোনিয়ে ২০১১ চনৰ ক্ৰিকেট বিশ্বকাপত ভাৰতক নেতৃত্ব দি জিকাইছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-037",
+    "q": {
+      "en": "Who was the captain of India's 1983 Cricket World Cup winning team?",
+      "as": "১৯৮৩ চনৰ ক্ৰিকেট বিশ্বকাপ জিকা ভাৰতীয় দলৰ অধিনায়ক কোন আছিল?"
+    },
+    "options": [
+      { "en": "Kapil Dev", "as": "কপিল দেৱ" },
+      { "en": "Sunil Gavaskar", "as": "সুনীল গাভাস্কাৰ" },
+      { "en": "Ravi Shastri", "as": "ৰবি শাস্ত্ৰী" },
+      { "en": "Mohinder Amarnath", "as": "মহিন্দ্ৰ অমৰনাথ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kapil Dev captained India to its first Cricket World Cup victory in 1983.",
+      "as": "কপিল দেৱে ১৯৮৩ চনত ভাৰতৰ প্ৰথম ক্ৰিকেট বিশ্বকাপ জয়ত নেতৃত্ব দিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-038",
+    "q": {
+      "en": "Which country won the ICC Men's T20 World Cup 2024?",
+      "as": "২০২৪ চনৰ আইচিচি পুৰুষ টি-২০ বিশ্বকাপ কোনে জিকিছিল?"
+    },
+    "options": [
+      { "en": "South Africa", "as": "দক্ষিণ আফ্ৰিকা" },
+      { "en": "India", "as": "ভাৰত" },
+      { "en": "England", "as": "ইংলেণ্ড" },
+      { "en": "Australia", "as": "অষ্ট্ৰেলিয়া" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "India won the ICC Men's T20 World Cup 2024 by defeating South Africa in the final.",
+      "as": "ভাৰতে ফাইনেলত দক্ষিণ আফ্ৰিকাক পৰাস্ত কৰি ২০২৪ চনৰ আইচিচি পুৰুষ টি-২০ বিশ্বকাপ জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-039",
+    "q": {
+      "en": "Which country won the ICC Champions Trophy 2025?",
+      "as": "২০২৫ চনৰ আইচিচি চেম্পিয়নছ ট্ৰফী কোনে জিকিছিল?"
+    },
+    "options": [
+      { "en": "New Zealand", "as": "নিউজিলেণ্ড" },
+      { "en": "India", "as": "ভাৰত" },
+      { "en": "Pakistan", "as": "পাকিস্তান" },
+      { "en": "Australia", "as": "অষ্ট্ৰেলিয়া" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "India won the ICC Champions Trophy 2025 by defeating New Zealand in the final.",
+      "as": "ভাৰতে ফাইনেলত নিউজিলেণ্ডক পৰাস্ত কৰি ২০২৫ চনৰ আইচিচি চেম্পিয়নছ ট্ৰফী জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-040",
+    "q": {
+      "en": "Who is the highest run scorer in international cricket?",
+      "as": "আন্তৰ্জাতিক ক্ৰিকেটত আটাইতকৈ বেছি ৰান সংগ্ৰাহক কোন?"
+    },
+    "options": [
+      { "en": "Sachin Tendulkar", "as": "সচিন তেন্দুলকৰ" },
+      { "en": "Virat Kohli", "as": "বীৰাট কোহলি" },
+      { "en": "Ricky Ponting", "as": "ৰিকি পণ্টিং" },
+      { "en": "Rohit Sharma", "as": "ৰোহিত শৰ্মা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sachin Tendulkar holds the record for most runs in international cricket.",
+      "as": "আন্তৰ্জাতিক ক্ৰিকেটত আটাইতকৈ বেছি ৰানৰ ৰেকৰ্ড সচিন তেন্দুলকৰৰ নামত আছে।"
+    }
+  },
+  {
+    "id": "sports-awards-041",
+    "q": {
+      "en": "Who is known as the 'God of Cricket'?",
+      "as": "'ক্ৰিকেটৰ ভগৱান' হিচাপে কোন জনাজাত?"
+    },
+    "options": [
+      { "en": "Kapil Dev", "as": "কপিল দেৱ" },
+      { "en": "Sachin Tendulkar", "as": "সচিন তেন্দুলকৰ" },
+      { "en": "Sunil Gavaskar", "as": "সুনীল গাভাস্কাৰ" },
+      { "en": "Rahul Dravid", "as": "ৰাহুল দ্ৰাবিড়" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sachin Tendulkar is popularly known as the God of Cricket.",
+      "as": "সচিন তেন্দুলকৰ ক্ৰিকেটৰ ভগৱান হিচাপে জনপ্ৰিয়ভাৱে জনাজাত।"
+    }
+  },
+  {
+    "id": "sports-awards-042",
+    "q": {
+      "en": "Who has scored the most centuries in international cricket?",
+      "as": "আন্তৰ্জাতিক ক্ৰিকেটত আটাইতকৈ বেছি শতক কোনে কৰিছে?"
+    },
+    "options": [
+      { "en": "Virat Kohli", "as": "বীৰাট কোহলি" },
+      { "en": "Sachin Tendulkar", "as": "সচিন তেন্দুলকৰ" },
+      { "en": "Ricky Ponting", "as": "ৰিকি পণ্টিং" },
+      { "en": "Jacques Kallis", "as": "জেক কেলিছ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sachin Tendulkar scored 100 international centuries, the most by any player.",
+      "as": "সচিন তেন্দুলকৰে ১০০খন আন্তৰ্জাতিক শতক কৰিছে, যি যিকোনো খেলুৱৈৰ ভিতৰত সৰ্বাধিক।"
+    }
+  },
+  {
+    "id": "sports-awards-043",
+    "q": {
+      "en": "How many players are there in a baseball team?",
+      "as": "এটা বেছবল দলত কিমানজন খেলুৱৈ থাকে?"
+    },
+    "options": [
+      { "en": "8", "as": "৮" },
+      { "en": "9", "as": "৯" },
+      { "en": "10", "as": "১০" },
+      { "en": "11", "as": "১১" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A baseball team has 9 players on the field.",
+      "as": "বেছবল দলত পথাৰত ৯ জন খেলুৱৈ থাকে।"
+    }
+  },
+  {
+    "id": "sports-awards-044",
+    "q": {
+      "en": "How many players are there in a water polo team?",
+      "as": "এটা ৱাটাৰ প'ল' দলত কিমানজন খেলুৱৈ থাকে?"
+    },
+    "options": [
+      { "en": "5", "as": "৫" },
+      { "en": "6", "as": "৬" },
+      { "en": "7", "as": "৭" },
+      { "en": "11", "as": "১১" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A water polo team has 7 players in the pool at a time.",
+      "as": "ৱাটাৰ প'ল' দলত একে সময়ত পুলত ৭ জন খেলুৱৈ থাকে।"
+    }
+  },
+  {
+    "id": "sports-awards-045",
+    "q": {
+      "en": "In which sport is the Davis Cup played?",
+      "as": "ডেভিছ কাপ কোন খেলত খেলা হয়?"
+    },
+    "options": [
+      { "en": "Tennis", "as": "টেনিছ" },
+      { "en": "Badminton", "as": "বেডমিণ্টন" },
+      { "en": "Squash", "as": "স্কোৱাছ" },
+      { "en": "Table Tennis", "as": "টেবুল টেনিছ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Davis Cup is the premier international men's team tennis competition.",
+      "as": "ডেভিছ কাপ হ'ল প্ৰধান আন্তৰ্জাতিক পুৰুষ দলীয় টেনিছ প্ৰতিযোগিতা।"
+    }
+  },
+  {
+    "id": "sports-awards-046",
+    "q": {
+      "en": "In which sport is the Ashes series played?",
+      "as": "এছেজ শৃংখলা কোন খেলত খেলা হয়?"
+    },
+    "options": [
+      { "en": "Cricket", "as": "ক্ৰিকেট" },
+      { "en": "Football", "as": "ফুটবল" },
+      { "en": "Hockey", "as": "হকী" },
+      { "en": "Rugby", "as": "ৰাগবী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Ashes is a Test cricket series played between England and Australia.",
+      "as": "এছেজ ইংলেণ্ড আৰু অষ্ট্ৰেলিয়াৰ মাজত খেলা টেষ্ট ক্ৰিকেট শৃংখলা।"
+    }
+  },
+  {
+    "id": "sports-awards-047",
+    "q": {
+      "en": "In which sport is the Ranji Trophy played?",
+      "as": "ৰঞ্জী ট্ৰফী কোন খেলত খেলা হয়?"
+    },
+    "options": [
+      { "en": "Cricket", "as": "ক্ৰিকেট" },
+      { "en": "Football", "as": "ফুটবল" },
+      { "en": "Hockey", "as": "হকী" },
+      { "en": "Kabaddi", "as": "কবাডী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Ranji Trophy is India's premier domestic first-class cricket championship.",
+      "as": "ৰঞ্জী ট্ৰফী ভাৰতৰ প্ৰধান ঘৰুৱা প্ৰথম শ্ৰেণীৰ ক্ৰিকেট চেম্পিয়নশ্বিপ।"
+    }
+  },
+  {
+    "id": "sports-awards-048",
+    "q": {
+      "en": "In which sport is the Santosh Trophy played?",
+      "as": "সন্তোষ ট্ৰফী কোন খেলত খেলা হয়?"
+    },
+    "options": [
+      { "en": "Football", "as": "ফুটবল" },
+      { "en": "Hockey", "as": "হকী" },
+      { "en": "Cricket", "as": "ক্ৰিকেট" },
+      { "en": "Basketball", "as": "বাস্কেটবল" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Santosh Trophy is a football competition among Indian states.",
+      "as": "সন্তোষ ট্ৰফী ভাৰতীয় ৰাজ্যসমূহৰ মাজত অনুষ্ঠিত ফুটবল প্ৰতিযোগিতা।"
+    }
+  },
+  {
+    "id": "sports-awards-049",
+    "q": {
+      "en": "In which sport is the Duleep Trophy played?",
+      "as": "দলীপ ট্ৰফী কোন খেলত খেলা হয়?"
+    },
+    "options": [
+      { "en": "Cricket", "as": "ক্ৰিকেট" },
+      { "en": "Hockey", "as": "হকী" },
+      { "en": "Football", "as": "ফুটবল" },
+      { "en": "Tennis", "as": "টেনিছ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Duleep Trophy is a domestic first-class cricket competition in India.",
+      "as": "দলীপ ট্ৰফী ভাৰতৰ ঘৰুৱা প্ৰথম শ্ৰেণীৰ ক্ৰিকেট প্ৰতিযোগিতা।"
+    }
+  },
+  {
+    "id": "sports-awards-050",
+    "q": {
+      "en": "In which sport is the Thomas Cup associated?",
+      "as": "থমাছ কাপ কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      { "en": "Tennis", "as": "টেনিছ" },
+      { "en": "Badminton", "as": "বেডমিণ্টন" },
+      { "en": "Table Tennis", "as": "টেবুল টেনিছ" },
+      { "en": "Hockey", "as": "হকী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Thomas Cup is the premier international men's team badminton championship.",
+      "as": "থমাছ কাপ হ'ল প্ৰধান আন্তৰ্জাতিক পুৰুষ দলীয় বেডমিণ্টন চেম্পিয়নশ্বিপ।"
+    }
+  },
+  {
+    "id": "sports-awards-051",
+    "q": {
+      "en": "In which sport is the Uber Cup associated?",
+      "as": "উবাৰ কাপ কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      { "en": "Badminton", "as": "বেডমিণ্টন" },
+      { "en": "Tennis", "as": "টেনিছ" },
+      { "en": "Hockey", "as": "হকী" },
+      { "en": "Squash", "as": "স্কোৱাছ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Uber Cup is the premier international women's team badminton championship.",
+      "as": "উবাৰ কাপ হ'ল প্ৰধান আন্তৰ্জাতিক মহিলা দলীয় বেডমিণ্টন চেম্পিয়নশ্বিপ।"
+    }
+  },
+  {
+    "id": "sports-awards-052",
+    "q": {
+      "en": "In which sport is the Ryder Cup played?",
+      "as": "ৰাইডাৰ কাপ কোন খেলত খেলা হয়?"
+    },
+    "options": [
+      { "en": "Golf", "as": "গলফ" },
+      { "en": "Tennis", "as": "টেনিছ" },
+      { "en": "Polo", "as": "প'ল'" },
+      { "en": "Hockey", "as": "হকী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Ryder Cup is a biennial men's golf competition between the USA and Europe.",
+      "as": "ৰাইডাৰ কাপ আমেৰিকা আৰু ইউৰোপৰ মাজত দ্বিবাৰ্ষিক পুৰুষ গলফ প্ৰতিযোগিতা।"
+    }
+  },
+  {
+    "id": "sports-awards-053",
+    "q": {
+      "en": "In which sport is the Grand Slam associated?",
+      "as": "গ্ৰেণ্ড শ্লেম কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      { "en": "Tennis", "as": "টেনিছ" },
+      { "en": "Cricket", "as": "ক্ৰিকেট" },
+      { "en": "Football", "as": "ফুটবল" },
+      { "en": "Hockey", "as": "হকী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Grand Slam refers to the four major tennis tournaments: Australian Open, French Open, Wimbledon, and US Open.",
+      "as": "গ্ৰেণ্ড শ্লেমে চাৰিটা প্ৰধান টেনিছ প্ৰতিযোগিতাক বুজায়: অষ্ট্ৰেলিয়ান, ফ্ৰেঞ্চ, ৱিম্বলডন আৰু ইউএছ ওপেন।"
+    }
+  },
+  {
+    "id": "sports-awards-054",
+    "q": {
+      "en": "Which is the oldest tennis tournament in the world?",
+      "as": "বিশ্বৰ আটাইতকৈ পুৰণি টেনিছ প্ৰতিযোগিতা কোনটো?"
+    },
+    "options": [
+      { "en": "Wimbledon", "as": "ৱিম্বলডন" },
+      { "en": "US Open", "as": "ইউএছ ওপেন" },
+      { "en": "French Open", "as": "ফ্ৰেঞ্চ ওপেন" },
+      { "en": "Australian Open", "as": "অষ্ট্ৰেলিয়ান ওপেন" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Wimbledon is the oldest tennis tournament in the world, first held in 1877.",
+      "as": "ৱিম্বলডন বিশ্বৰ আটাইতকৈ পুৰণি টেনিছ প্ৰতিযোগিতা, ১৮৭৭ চনত প্ৰথম অনুষ্ঠিত।"
+    }
+  },
+  {
+    "id": "sports-awards-055",
+    "q": {
+      "en": "Which Indian tennis player won the mixed doubles at the French Open 2012?",
+      "as": "কোন ভাৰতীয় টেনিছ খেলুৱৈয়ে ফ্ৰেঞ্চ ওপেন ২০১২-ত মিক্সড ডাবলছ জিকিছিল?"
+    },
+    "options": [
+      { "en": "Sania Mirza", "as": "ছানিয়া মিৰ্জা" },
+      { "en": "Leander Paes", "as": "লিয়েণ্ডাৰ পায়েছ" },
+      { "en": "Mahesh Bhupathi", "as": "মহেশ ভূপতি" },
+      { "en": "Rohan Bopanna", "as": "ৰোহন ব'পান্না" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sania Mirza won the mixed doubles title at the French Open 2012.",
+      "as": "ছানিয়া মিৰ্জাই ফ্ৰেঞ্চ ওপেন ২০১২-ত মিক্সড ডাবলছ খিতাপ জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-056",
+    "q": {
+      "en": "Which Indian won a bronze medal in tennis at the 1996 Atlanta Olympics?",
+      "as": "১৯৯৬ চনৰ আটলাণ্টা অলিম্পিকত টেনিছত ব্ৰঞ্জ পদক জিকা ভাৰতীয় কোন?"
+    },
+    "options": [
+      { "en": "Leander Paes", "as": "লিয়েণ্ডাৰ পায়েছ" },
+      { "en": "Mahesh Bhupathi", "as": "মহেশ ভূপতি" },
+      { "en": "Sania Mirza", "as": "ছানিয়া মিৰ্জা" },
+      { "en": "Rohan Bopanna", "as": "ৰোহন ব'পান্না" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Leander Paes won a bronze medal in tennis at the 1996 Atlanta Olympics.",
+      "as": "লিয়েণ্ডাৰ পায়েছে ১৯৯৬ চনৰ আটলাণ্টা অলিম্পিকত টেনিছত ব্ৰঞ্জ পদক জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-057",
+    "q": {
+      "en": "Which Indian city is known as the 'Mecca of Indian Football'?",
+      "as": "কোনখন ভাৰতীয় চহৰক 'ভাৰতীয় ফুটবলৰ মক্কা' বুলি কোৱা হয়?"
+    },
+    "options": [
+      { "en": "Kolkata", "as": "কলকাতা" },
+      { "en": "Goa", "as": "গোৱা" },
+      { "en": "Kerala", "as": "কেৰালা" },
+      { "en": "Mumbai", "as": "মুম্বাই" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kolkata is known as the Mecca of Indian Football.",
+      "as": "কলকাতাক ভাৰতীয় ফুটবলৰ মক্কা বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "sports-awards-058",
+    "q": {
+      "en": "Which Indian football club is one of the oldest in the world outside Europe?",
+      "as": "ইউৰোপৰ বাহিৰে বিশ্বৰ আটাইতকৈ পুৰণি ভাৰতীয় ফুটবল ক্লাব কোনটো?"
+    },
+    "options": [
+      { "en": "Mohun Bagan", "as": "মোহন বাগান" },
+      { "en": "East Bengal", "as": "ইষ্ট বেংগল" },
+      { "en": "Mohammedan SC", "as": "মহম্মদান এছচি" },
+      { "en": "Dempo", "as": "ডেম্পো" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mohun Bagan, established in 1889, is one of the oldest football clubs in the world.",
+      "as": "১৮৮৯ চনত প্ৰতিষ্ঠিত মোহন বাগান বিশ্বৰ আটাইতকৈ পুৰণি ফুটবল ক্লাবসমূহৰ এটা।"
+    }
+  },
+  {
+    "id": "sports-awards-059",
+    "q": {
+      "en": "Which country won the FIFA World Cup 2022?",
+      "as": "২০২২ চনৰ ফিফা বিশ্বকাপ কোনখন দেশে জিকিছিল?"
+    },
+    "options": [
+      { "en": "France", "as": "ফ্ৰান্স" },
+      { "en": "Argentina", "as": "আৰ্জেণ্টিনা" },
+      { "en": "Brazil", "as": "ব্ৰাজিল" },
+      { "en": "Croatia", "as": "ক্ৰোৱেছিয়া" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Argentina won the FIFA World Cup 2022, defeating France in the final.",
+      "as": "আৰ্জেণ্টিনাই ফাইনেলত ফ্ৰান্সক পৰাস্ত কৰি ২০২২ চনৰ ফিফা বিশ্বকাপ জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-060",
+    "q": {
+      "en": "Which country has won the most FIFA World Cups?",
+      "as": "আটাইতকৈ বেছি ফিফা বিশ্বকাপ কোনখন দেশে জিকিছে?"
+    },
+    "options": [
+      { "en": "Germany", "as": "জাৰ্মানী" },
+      { "en": "Italy", "as": "ইটালী" },
+      { "en": "Brazil", "as": "ব্ৰাজিল" },
+      { "en": "Argentina", "as": "আৰ্জেণ্টিনা" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Brazil has won the FIFA World Cup a record 5 times.",
+      "as": "ব্ৰাজিলে ৰেকৰ্ড ৫ বাৰ ফিফা বিশ্বকাপ জিকিছে।"
+    }
+  },
+  {
+    "id": "sports-awards-061",
+    "q": {
+      "en": "Who has won the most Ballon d'Or awards?",
+      "as": "আটাইতকৈ বেছি বেলন ডি'অৰ বঁটা কোনে জিকিছে?"
+    },
+    "options": [
+      { "en": "Cristiano Ronaldo", "as": "ক্ৰিষ্টিয়ানো ৰোনাল্ডো" },
+      { "en": "Lionel Messi", "as": "লিঅ'নেল মেছি" },
+      { "en": "Michel Platini", "as": "মিচেল প্লেটিনি" },
+      { "en": "Johan Cruyff", "as": "জোহান ক্ৰুইফ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Lionel Messi has won the Ballon d'Or a record 8 times.",
+      "as": "লিঅ'নেল মেছিয়ে ৰেকৰ্ড ৮ বাৰ বেলন ডি'অৰ জিকিছে।"
+    }
+  },
+  {
+    "id": "sports-awards-062",
+    "q": {
+      "en": "Which Indian state will host the 2026 Asian Games?",
+      "as": "২০২৬ চনৰ এছিয়ান গেমছ কোনখন ভাৰতীয় ৰাজ্যই আয়োজন কৰিব?"
+    },
+    "options": [
+      { "en": "Maharashtra", "as": "মহাৰাষ্ট্ৰ" },
+      { "en": "Delhi", "as": "দিল্লী" },
+      { "en": "Gujarat", "as": "গুজৰাট" },
+      { "en": "None of these", "as": "ইয়াৰ কোনোটো নহয়" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "No Indian state is hosting the 2026 Asian Games; they are scheduled in Aichi-Nagoya, Japan.",
+      "as": "২০২৬ চনৰ এছিয়ান গেমছ কোনো ভাৰতীয় ৰাজ্যই আয়োজন নকৰে; জাপানৰ আইচি-নাগোয়াত হ'ব।"
+    }
+  },
+  {
+    "id": "sports-awards-063",
+    "q": {
+      "en": "Which Indian state hosted the 2024 Khelo India Youth Games?",
+      "as": "২০২৪ চনৰ খেলো ইণ্ডিয়া যুৱ গেমছ কোনখন ভাৰতীয় ৰাজ্যই আয়োজন কৰিছিল?"
+    },
+    "options": [
+      { "en": "Tamil Nadu", "as": "তামিলনাডু" },
+      { "en": "Kerala", "as": "কেৰালা" },
+      { "en": "Madhya Pradesh", "as": "মধ্যপ্ৰদেশ" },
+      { "en": "Assam", "as": "অসম" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The 2024 Khelo India Youth Games were held in Tamil Nadu.",
+      "as": "২০২৪ চনৰ খেলো ইণ্ডিয়া যুৱ গেমছ তামিলনাডুত অনুষ্ঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-064",
+    "q": {
+      "en": "Which Indian state hosted the 2025 Khelo India Youth Games?",
+      "as": "২০২৫ চনৰ খেলো ইণ্ডিয়া যুৱ গেমছ কোনখন ভাৰতীয় ৰাজ্যই আয়োজন কৰিছিল?"
+    },
+    "options": [
+      { "en": "Bihar", "as": "বিহাৰ" },
+      { "en": "Assam", "as": "অসম" },
+      { "en": "Odisha", "as": "ওড়িশা" },
+      { "en": "Uttar Pradesh", "as": "উত্তৰ প্ৰদেশ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The 2025 Khelo India Youth Games were held in Bihar.",
+      "as": "২০২৫ চনৰ খেলো ইণ্ডিয়া যুৱ গেমছ বিহাৰত অনুষ্ঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-065",
+    "q": {
+      "en": "Which Indian chess player became the world's youngest Grandmaster in 2024?",
+      "as": "২০২৪ চনত বিশ্বৰ সৰ্বকনিষ্ঠ গ্ৰেণ্ডমাষ্টাৰ হোৱা ভাৰতীয় দবা খেলুৱৈ কোন?"
+    },
+    "options": [
+      { "en": "R. Praggnanandhaa", "as": "আৰ. প্ৰজ্ঞানানন্দা" },
+      { "en": "Gukesh D", "as": "গুকেশ ডি" },
+      { "en": "Nihal Sarin", "as": "নিহাল সাৰিন" },
+      { "en": "Arjun Erigaisi", "as": "অৰ্জুন এৰিগাইছি" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "R. Praggnanandhaa was India's youngest Grandmaster; Gukesh became the youngest World Champion in 2024.",
+      "as": "আৰ. প্ৰজ্ঞানানন্দা ভাৰতৰ সৰ্বকনিষ্ঠ গ্ৰেণ্ডমাষ্টাৰ আছিল; গুকেশ ২০২৪ চনত সৰ্বকনিষ্ঠ বিশ্ব চেম্পিয়ন হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-066",
+    "q": {
+      "en": "Who won the World Chess Championship 2024?",
+      "as": "২০২৪ চনৰ বিশ্ব দবা চেম্পিয়নশ্বিপ কোনে জিকিছিল?"
+    },
+    "options": [
+      { "en": "Ding Liren", "as": "ডিং লিৰেন" },
+      { "en": "Gukesh D", "as": "গুকেশ ডি" },
+      { "en": "Magnus Carlsen", "as": "মেগনাছ কাৰ্লচেন" },
+      { "en": "Ian Nepomniachtchi", "as": "ইয়ান নেপমনিয়াচ্চি" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Gukesh D became the youngest World Chess Champion in 2024 by defeating Ding Liren.",
+      "as": "গুকেশ ডিয়ে ডিং লিৰেনক পৰাস্ত কৰি ২০২৪ চনত সৰ্বকনিষ্ঠ বিশ্ব দবা চেম্পিয়ন হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-067",
+    "q": {
+      "en": "Which Indian became the World Chess Champion in 2000?",
+      "as": "কোন ভাৰতীয় ২০০০ চনত বিশ্ব দবা চেম্পিয়ন হৈছিল?"
+    },
+    "options": [
+      { "en": "Viswanathan Anand", "as": "বিশ্বনাথন আনন্দ" },
+      { "en": "Pentala Harikrishna", "as": "পেণ্টালা হৰিকৃষ্ণ" },
+      { "en": "Koneru Humpy", "as": "কোনেৰু হাম্পি" },
+      { "en": "Sasikiran", "as": "শশীকিৰণ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Viswanathan Anand became the World Chess Champion in 2000.",
+      "as": "বিশ্বনাথন আনন্দ ২০০০ চনত বিশ্ব দবা চেম্পিয়ন হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-068",
+    "q": {
+      "en": "Which is the national sport of Japan?",
+      "as": "জাপানৰ ৰাষ্ট্ৰীয় খেল কোনটো?"
+    },
+    "options": [
+      { "en": "Judo", "as": "জুড'" },
+      { "en": "Sumo Wrestling", "as": "চুমো মল্লযুদ্ধ" },
+      { "en": "Karate", "as": "কাৰাটে" },
+      { "en": "Baseball", "as": "বেছবল" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sumo wrestling is regarded as the national sport of Japan.",
+      "as": "চুমো মল্লযুদ্ধক জাপানৰ ৰাষ্ট্ৰীয় খেল হিচাপে গণ্য কৰা হয়।"
+    }
+  },
+  {
+    "id": "sports-awards-069",
+    "q": {
+      "en": "Which is the national sport of China?",
+      "as": "চীনৰ ৰাষ্ট্ৰীয় খেল কোনটো?"
+    },
+    "options": [
+      { "en": "Table Tennis", "as": "টেবুল টেনিছ" },
+      { "en": "Badminton", "as": "বেডমিণ্টন" },
+      { "en": "Wushu", "as": "ৱুশু" },
+      { "en": "Basketball", "as": "বাস্কেটবল" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Table tennis is regarded as the national sport of China.",
+      "as": "টেবুল টেনিছক চীনৰ ৰাষ্ট্ৰীয় খেল হিচাপে গণ্য কৰা হয়।"
+    }
+  },
+  {
+    "id": "sports-awards-070",
+    "q": {
+      "en": "Which Indian sportsperson is known as the 'Queen of Indian Track and Field'?",
+      "as": "কোন ভাৰতীয় খেলুৱৈক 'ভাৰতীয় এথলেটিকছৰ ৰাণী' বুলি জনা যায়?"
+    },
+    "options": [
+      { "en": "P.T. Usha", "as": "পি.টি. ঊষা" },
+      { "en": "Hima Das", "as": "হিমা দাস" },
+      { "en": "Dutee Chand", "as": "দূতী চান্দ" },
+      { "en": "Anju Bobby George", "as": "অঞ্জু ববি জৰ্জ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "P.T. Usha is known as the Queen of Indian Track and Field.",
+      "as": "পি.টি. ঊষা ভাৰতীয় এথলেটিকছৰ ৰাণী হিচাপে জনাজাত।"
+    }
+  },
+  {
+    "id": "sports-awards-071",
+    "q": {
+      "en": "Hima Das is associated with which sport?",
+      "as": "হিমা দাস কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      { "en": "Athletics", "as": "এথলেটিকছ" },
+      { "en": "Boxing", "as": "বক্সিং" },
+      { "en": "Wrestling", "as": "মল্লযুদ্ধ" },
+      { "en": "Weightlifting", "as": "ৱেইটলিফ্টিং" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Hima Das is an Indian sprinter who won gold at the World U20 Championships.",
+      "as": "হিমা দাস এগৰাকী ভাৰতীয় দৌৰবিদ যিয়ে বিশ্ব U20 চেম্পিয়নশ্বিপত স্বৰ্ণ জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-072",
+    "q": {
+      "en": "Which Indian sprinter is known as the 'Dhing Express'?",
+      "as": "কোন ভাৰতীয় দৌৰবিদক 'ধিং এক্সপ্ৰেছ' বুলি জনা যায়?"
+    },
+    "options": [
+      { "en": "Hima Das", "as": "হিমা দাস" },
+      { "en": "Dutee Chand", "as": "দূতী চান্দ" },
+      { "en": "P.T. Usha", "as": "পি.টি. ঊষা" },
+      { "en": "Saraswati Saha", "as": "সৰস্বতী সাহা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Hima Das is known as the Dhing Express, named after her hometown Dhing in Assam.",
+      "as": "হিমা দাস ধিং এক্সপ্ৰেছ হিচাপে জনাজাত, তেওঁৰ জন্মস্থান অসমৰ ধিঙৰ নামেৰে।"
+    }
+  },
+  {
+    "id": "sports-awards-073",
+    "q": {
+      "en": "Which sport is associated with the term 'Love'?",
+      "as": "'লাভ' শব্দটো কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      { "en": "Tennis", "as": "টেনিছ" },
+      { "en": "Cricket", "as": "ক্ৰিকেট" },
+      { "en": "Hockey", "as": "হকী" },
+      { "en": "Football", "as": "ফুটবল" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In tennis, 'Love' means zero score.",
+      "as": "টেনিছত 'লাভ' অৰ্থাৎ শূন্য স্ক'ৰ।"
+    }
+  },
+  {
+    "id": "sports-awards-074",
+    "q": {
+      "en": "Which sport is associated with the term 'Checkmate'?",
+      "as": "'চেকমেট' শব্দটো কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      { "en": "Chess", "as": "দবা" },
+      { "en": "Carrom", "as": "কেৰাম" },
+      { "en": "Polo", "as": "প'ল'" },
+      { "en": "Golf", "as": "গলফ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Checkmate is a term used in the game of chess.",
+      "as": "চেকমেট দবা খেলত ব্যৱহৃত এটা শব্দ।"
+    }
+  },
+  {
+    "id": "sports-awards-075",
+    "q": {
+      "en": "Which sport is associated with the term 'Birdie'?",
+      "as": "'বাৰ্ডি' শব্দটো কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      { "en": "Golf", "as": "গলফ" },
+      { "en": "Tennis", "as": "টেনিছ" },
+      { "en": "Hockey", "as": "হকী" },
+      { "en": "Cricket", "as": "ক্ৰিকেট" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Birdie is a golf term for completing a hole in one stroke under par.",
+      "as": "বাৰ্ডি হ'ল গলফৰ এটা শব্দ, পাৰৰ তলত এটা ষ্ট্ৰ'কত হ'ল সম্পূৰ্ণ কৰা।"
+    }
+  },
+  {
+    "id": "sports-awards-076",
+    "q": {
+      "en": "Which sport is associated with the term 'Slam Dunk'?",
+      "as": "'শ্লেম ডাংক' শব্দটো কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      { "en": "Basketball", "as": "বাস্কেটবল" },
+      { "en": "Volleyball", "as": "ভলীবল" },
+      { "en": "Handball", "as": "হেণ্ডবল" },
+      { "en": "Football", "as": "ফুটবল" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Slam dunk is a term used in basketball.",
+      "as": "শ্লেম ডাংক বাস্কেটবলত ব্যৱহৃত এটা শব্দ।"
+    }
+  },
+  {
+    "id": "sports-awards-077",
+    "q": {
+      "en": "Which sport is associated with the term 'Hat-trick'?",
+      "as": "'হেট-ট্ৰিক' শব্দটো কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      { "en": "Hockey and Football", "as": "হকী আৰু ফুটবল" },
+      { "en": "Chess", "as": "দবা" },
+      { "en": "Swimming", "as": "সাঁতোৰ" },
+      { "en": "Boxing", "as": "বক্সিং" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A hat-trick, scoring three goals, is common in hockey and football.",
+      "as": "তিনিটা গ'ল কৰা হেট-ট্ৰিক হকী আৰু ফুটবলত সাধাৰণ।"
+    }
+  },
+  {
+    "id": "sports-awards-078",
+    "q": {
+      "en": "Which sport is associated with 'Grab' and 'Smash'?",
+      "as": "'গ্ৰাব' আৰু 'স্মেশ' কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      { "en": "Badminton", "as": "বেডমিণ্টন" },
+      { "en": "Cricket", "as": "ক্ৰিকেট" },
+      { "en": "Football", "as": "ফুটবল" },
+      { "en": "Hockey", "as": "হকী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Smash is a common term in badminton.",
+      "as": "স্মেশ বেডমিণ্টনত এটা সাধাৰণ শব্দ।"
+    }
+  },
+  {
+    "id": "sports-awards-079",
+    "q": {
+      "en": "How many players are there in a rugby team on the field?",
+      "as": "পথাৰত এটা ৰাগবী দলত কিমানজন খেলুৱৈ থাকে?"
+    },
+    "options": [
+      { "en": "13", "as": "১৩" },
+      { "en": "15", "as": "১৫" },
+      { "en": "11", "as": "১১" },
+      { "en": "17", "as": "১৭" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A rugby union team has 15 players on the field.",
+      "as": "ৰাগবী ইউনিয়ন দলত পথাৰত ১৫ জন খেলুৱৈ থাকে।"
+    }
+  },
+  {
+    "id": "sports-awards-080",
+    "q": {
+      "en": "Which Indian won the first individual Olympic medal in women's boxing?",
+      "as": "মহিলা বক্সিঙত প্ৰথম ব্যক্তিগত অলিম্পিক পদক কোন ভাৰতীয়ই জিকিছিল?"
+    },
+    "options": [
+      { "en": "M.C. Mary Kom", "as": "এম.চি. মেৰী কম" },
+      { "en": "Lovlina Borgohain", "as": "লাভলীনা বৰগোহাঁই" },
+      { "en": "Nikhat Zareen", "as": "নিকহত জাৰিন" },
+      { "en": "Sarita Devi", "as": "সৰিতা দেৱী" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Lovlina Borgohain of Assam won a bronze medal in boxing at Tokyo Olympics 2020.",
+      "as": "অসমৰ লাভলীনা বৰগোহাঁয়ে টকিঅ' অলিম্পিক ২০২০-ত বক্সিঙত ব্ৰঞ্জ পদক জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-081",
+    "q": {
+      "en": "Lovlina Borgohain belongs to which Indian state?",
+      "as": "লাভলীনা বৰগোহাঁই কোনখন ভাৰতীয় ৰাজ্যৰ?"
+    },
+    "options": [
+      { "en": "Manipur", "as": "মণিপুৰ" },
+      { "en": "Assam", "as": "অসম" },
+      { "en": "Nagaland", "as": "নাগালেণ্ড" },
+      { "en": "Mizoram", "as": "মিজোৰাম" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Lovlina Borgohain is from Assam and won an Olympic bronze in boxing.",
+      "as": "লাভলীনা বৰগোহাঁই অসমৰ আৰু বক্সিঙত অলিম্পিক ব্ৰঞ্জ জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-082",
+    "q": {
+      "en": "Which Assamese sportsperson won a gold medal at the Commonwealth Games 2022 in lawn bowls?",
+      "as": "লন বলছত ২০২২ কমনৱেলথ গেমছত স্বৰ্ণ পদক জিকা অসমীয়া খেলুৱৈ কোন?"
+    },
+    "options": [
+      { "en": "Nayanmoni Saikia", "as": "নয়নমণি শইকীয়া" },
+      { "en": "Lovlina Borgohain", "as": "লাভলীনা বৰগোহাঁই" },
+      { "en": "Hima Das", "as": "হিমা দাস" },
+      { "en": "Shiva Thapa", "as": "শিৱ থাপা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Nayanmoni Saikia of Assam won gold in lawn bowls at the Commonwealth Games 2022.",
+      "as": "অসমৰ নয়নমণি শইকীয়াই ২০২২ কমনৱেলথ গেমছত লন বলছত স্বৰ্ণ জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-083",
+    "q": {
+      "en": "Which Indian state is Nayanmoni Saikia from?",
+      "as": "নয়নমণি শইকীয়া কোনখন ভাৰতীয় ৰাজ্যৰ?"
+    },
+    "options": [
+      { "en": "Assam", "as": "অসম" },
+      { "en": "Manipur", "as": "মণিপুৰ" },
+      { "en": "Meghalaya", "as": "মেঘালয়" },
+      { "en": "Tripura", "as": "ত্ৰিপুৰা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Nayanmoni Saikia is from Assam and won gold in lawn bowls at CWG 2022.",
+      "as": "নয়নমণি শইকীয়া অসমৰ আৰু CWG ২০২২-ত লন বলছত স্বৰ্ণ জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-084",
+    "q": {
+      "en": "Which Indian state has produced the most Olympic medalists in hockey?",
+      "as": "হকীত আটাইতকৈ বেছি অলিম্পিক পদক বিজেতা সৃষ্টি কৰা ভাৰতীয় ৰাজ্য কোনখন?"
+    },
+    "options": [
+      { "en": "Punjab", "as": "পাঞ্জাব" },
+      { "en": "Odisha", "as": "ওড়িশা" },
+      { "en": "Jharkhand", "as": "ঝাৰখণ্ড" },
+      { "en": "Kerala", "as": "কেৰালা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Punjab has produced many Olympic hockey medalists for India.",
+      "as": "পাঞ্জাবে ভাৰতৰ বাবে বহু অলিম্পিক হকী পদক বিজেতা সৃষ্টি কৰিছে।"
+    }
+  },
+  {
+    "id": "sports-awards-085",
+    "q": {
+      "en": "Which Indian city hosted the 2010 Commonwealth Games?",
+      "as": "২০১০ চনৰ কমনৱেলথ গেমছ কোনখন ভাৰতীয় চহৰে আয়োজন কৰিছিল?"
+    },
+    "options": [
+      { "en": "New Delhi", "as": "নতুন দিল্লী" },
+      { "en": "Mumbai", "as": "মুম্বাই" },
+      { "en": "Chennai", "as": "চেন্নাই" },
+      { "en": "Kolkata", "as": "কলকাতা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "New Delhi hosted the 2010 Commonwealth Games.",
+      "as": "নতুন দিল্লীয়ে ২০১০ চনৰ কমনৱেলথ গেমছ আয়োজন কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-086",
+    "q": {
+      "en": "Which Indian city hosted the 2017 FIFA U-17 World Cup?",
+      "as": "২০১৭ ফিফা অনুৰ্ধ-১৭ বিশ্বকাপ কোনখন ভাৰতীয় চহৰে আয়োজন কৰিছিল?"
+    },
+    "options": [
+      { "en": "Kolkata", "as": "কলকাতা" },
+      { "en": "New Delhi", "as": "নতুন দিল্লী" },
+      { "en": "Mumbai", "as": "মুম্বাই" },
+      { "en": "Multiple cities", "as": "একাধিক চহৰ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The 2017 FIFA U-17 World Cup was held across multiple Indian cities.",
+      "as": "২০১৭ ফিফা অনুৰ্ধ-১৭ বিশ্বকাপ ভাৰতৰ একাধিক চহৰত অনুষ্ঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-087",
+    "q": {
+      "en": "Who is the first Indian woman to win an Olympic silver medal in badminton?",
+      "as": "বেডমিণ্টনত অলিম্পিক ৰূপৰ পদক জিকা প্ৰথম ভাৰতীয় মহিলা কোন?"
+    },
+    "options": [
+      { "en": "Saina Nehwal", "as": "সাইনা নেহৱাল" },
+      { "en": "P.V. Sindhu", "as": "পি.ভি. সিন্ধু" },
+      { "en": "Jwala Gutta", "as": "জ্বালা গুত্তা" },
+      { "en": "Ashwini Ponnappa", "as": "অশ্বিনী পন্নাপ্পা" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "P.V. Sindhu won a silver medal in badminton at the Rio Olympics 2016.",
+      "as": "পি.ভি. সিন্ধুৱে ৰিঅ' অলিম্পিক ২০১৬-ত বেডমিণ্টনত ৰূপৰ পদক জিকিছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-088",
+    "q": {
+      "en": "Which is the oldest football tournament in India?",
+      "as": "ভাৰতৰ আটাইতকৈ পুৰণি ফুটবল প্ৰতিযোগিতা কোনটো?"
+    },
+    "options": [
+      { "en": "Durand Cup", "as": "ডুৰাণ্ড কাপ" },
+      { "en": "Santosh Trophy", "as": "সন্তোষ ট্ৰফী" },
+      { "en": "Federation Cup", "as": "ফেডাৰেচন কাপ" },
+      { "en": "I-League", "as": "আই-লীগ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Durand Cup, started in 1888, is one of the oldest football tournaments in India.",
+      "as": "১৮৮৮ চনত আৰম্ভ হোৱা ডুৰাণ্ড কাপ ভাৰতৰ আটাইতকৈ পুৰণি ফুটবল প্ৰতিযোগিতাসমূহৰ এটা।"
+    }
+  },
+  {
+    "id": "sports-awards-089",
+    "q": {
+      "en": "Who is the first Indian to win the World Badminton Championship gold?",
+      "as": "বিশ্ব বেডমিণ্টন চেম্পিয়নশ্বিপ স্বৰ্ণ জিকা প্ৰথম ভাৰতীয় কোন?"
+    },
+    "options": [
+      { "en": "P.V. Sindhu", "as": "পি.ভি. সিন্ধু" },
+      { "en": "Saina Nehwal", "as": "সাইনা নেহৱাল" },
+      { "en": "Prakash Padukone", "as": "প্ৰকাশ পাডুকনে" },
+      { "en": "Kidambi Srikanth", "as": "কিদাম্বী শ্ৰীকান্ত" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "P.V. Sindhu became the first Indian to win the BWF World Championships gold in 2019.",
+      "as": "পি.ভি. সিন্ধু ২০১৯ চনত BWF বিশ্ব চেম্পিয়নশ্বিপ স্বৰ্ণ জিকা প্ৰথম ভাৰতীয় হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-awards-090",
+    "q": {
+      "en": "Which Indian badminton player won the All England Open in 1980?",
+      "as": "১৯৮০ চনত অল ইংলেণ্ড ওপেন জিকা ভাৰতীয় বেডমিণ্টন খেলুৱৈ কোন?"
+    },
+    "options": [
+      { "en": "Prakash Padukone", "as": "প্ৰকাশ পাডুকনে" },
+      { "en": "Pullela Gopichand", "as": "পুল্লেলা গোপীচান্দ" },
+      { "en": "Saina Nehwal", "as": "সাইনা নেহৱাল" },
+      { "en": "P.V. Sindhu", "as": "পি.ভি. সিন্ধু" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Prakash Padukone won the All England Open in 1980, the first Indian to do so.",
+      "as": "প্ৰকাশ পাডুকনে ১৯৮০ চনত অল ইংলেণ্ড ওপেন জিকিছিল, তেওঁ প্ৰথম ভাৰতীয়।"
+    }
+  },
+  {
+    "id": "awards-091",
+    "q": {
+      "en": "Which is the highest civilian award of India?",
+      "as": "ভাৰতৰ সৰ্বোচ্চ অসামৰিক বঁটা কোনটো?"
+    },
+    "options": [
+      { "en": "Padma Vibhushan", "as": "পদ্ম বিভূষণ" },
+      { "en": "Bharat Ratna", "as": "ভাৰত ৰত্ন" },
+      { "en": "Padma Bhushan", "as": "পদ্ম ভূষণ" },
+      { "en": "Param Vir Chakra", "as": "পৰম বীৰ চক্ৰ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bharat Ratna is the highest civilian award of India.",
+      "as": "ভাৰত ৰত্ন ভাৰতৰ সৰ্বোচ্চ অসামৰিক বঁটা।"
+    }
+  },
+  {
+    "id": "awards-092",
+    "q": {
+      "en": "In which year was the Bharat Ratna instituted?",
+      "as": "ভাৰত ৰত্ন কেতিয়া প্ৰৱৰ্তন কৰা হৈছিল?"
+    },
+    "options": [
+      { "en": "1950", "as": "১৯৫০" },
+      { "en": "1954", "as": "১৯৫৪" },
+      { "en": "1947", "as": "১৯৪৭" },
+      { "en": "1960", "as": "১৯৬০" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Bharat Ratna was instituted in 1954.",
+      "as": "ভাৰত ৰত্ন ১৯৫৪ চনত প্ৰৱৰ্তন কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-093",
+    "q": {
+      "en": "Who was the first recipient of the Bharat Ratna?",
+      "as": "ভাৰত ৰত্নৰ প্ৰথম গ্ৰহণকৰ্তা কোন আছিল?"
+    },
+    "options": [
+      { "en": "C. Rajagopalachari", "as": "চি. ৰাজাগোপালাচাৰী" },
+      { "en": "C.V. Raman", "as": "চি.ভি. ৰমন" },
+      { "en": "S. Radhakrishnan", "as": "এছ. ৰাধাকৃষ্ণন" },
+      { "en": "Jawaharlal Nehru", "as": "জৱাহৰলাল নেহৰু" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "C. Rajagopalachari was one of the first recipients of the Bharat Ratna in 1954.",
+      "as": "চি. ৰাজাগোপালাচাৰী ১৯৫৪ চনত ভাৰত ৰত্নৰ প্ৰথম গ্ৰহণকৰ্তাসকলৰ এজন আছিল।"
+    }
+  },
+  {
+    "id": "awards-094",
+    "q": {
+      "en": "Which Bharat Ratna awardee is known as the 'Missile Man of India'?",
+      "as": "কোন ভাৰত ৰত্ন বঁটা বিজয়ীক 'ভাৰতৰ ক্ষেপণাস্ত্ৰ মানৱ' বুলি জনা যায়?"
+    },
+    "options": [
+      { "en": "Homi Bhabha", "as": "হোমি ভাবা" },
+      { "en": "A.P.J. Abdul Kalam", "as": "এ.পি.জে. আব্দুল কালাম" },
+      { "en": "Vikram Sarabhai", "as": "বিক্ৰম সাৰাভাই" },
+      { "en": "C.V. Raman", "as": "চি.ভি. ৰমন" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dr. A.P.J. Abdul Kalam, a Bharat Ratna awardee, is known as the Missile Man of India.",
+      "as": "ভাৰত ৰত্ন বিজয়ী ড০ এ.পি.জে. আব্দুল কালাম ভাৰতৰ ক্ষেপণাস্ত্ৰ মানৱ হিচাপে জনাজাত।"
+    }
+  },
+  {
+    "id": "awards-095",
+    "q": {
+      "en": "Which is the second-highest civilian award of India?",
+      "as": "ভাৰতৰ দ্বিতীয় সৰ্বোচ্চ অসামৰিক বঁটা কোনটো?"
+    },
+    "options": [
+      { "en": "Padma Bhushan", "as": "পদ্ম ভূষণ" },
+      { "en": "Padma Vibhushan", "as": "পদ্ম বিভূষণ" },
+      { "en": "Padma Shri", "as": "পদ্ম শ্ৰী" },
+      { "en": "Bharat Ratna", "as": "ভাৰত ৰত্ন" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Padma Vibhushan is the second-highest civilian award of India.",
+      "as": "পদ্ম বিভূষণ ভাৰতৰ দ্বিতীয় সৰ্বোচ্চ অসামৰিক বঁটা।"
+    }
+  },
+  {
+    "id": "awards-096",
+    "q": {
+      "en": "Which is the third-highest civilian award of India?",
+      "as": "ভাৰতৰ তৃতীয় সৰ্বোচ্চ অসামৰিক বঁটা কোনটো?"
+    },
+    "options": [
+      { "en": "Padma Shri", "as": "পদ্ম শ্ৰী" },
+      { "en": "Padma Bhushan", "as": "পদ্ম ভূষণ" },
+      { "en": "Padma Vibhushan", "as": "পদ্ম বিভূষণ" },
+      { "en": "Bharat Ratna", "as": "ভাৰত ৰত্ন" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Padma Bhushan is the third-highest civilian award of India.",
+      "as": "পদ্ম ভূষণ ভাৰতৰ তৃতীয় সৰ্বোচ্চ অসামৰিক বঁটা।"
+    }
+  },
+  {
+    "id": "awards-097",
+    "q": {
+      "en": "When are the Padma Awards announced every year?",
+      "as": "প্ৰতি বছৰে পদ্ম বঁটা কেতিয়া ঘোষণা কৰা হয়?"
+    },
+    "options": [
+      { "en": "26 January", "as": "২৬ জানুৱাৰী" },
+      { "en": "15 August", "as": "১৫ আগষ্ট" },
+      { "en": "2 October", "as": "২ অক্টোবৰ" },
+      { "en": "25 December", "as": "২৫ ডিচেম্বৰ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Padma Awards are announced on the eve of Republic Day, 26 January.",
+      "as": "পদ্ম বঁটা গণৰাজ্য দিৱসৰ পূৰ্বসন্ধ্যা ২৬ জানুৱাৰীত ঘোষণা কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-098",
+    "q": {
+      "en": "Which award is known as the 'Nobel Prize of Asia'?",
+      "as": "কোনটো বঁটাক 'এছিয়াৰ নোবেল বঁটা' বুলি কোৱা হয়?"
+    },
+    "options": [
+      { "en": "Ramon Magsaysay Award", "as": "ৰেমন মেগছেছে বঁটা" },
+      { "en": "Gandhi Peace Prize", "as": "গান্ধী শান্তি বঁটা" },
+      { "en": "Indira Gandhi Peace Prize", "as": "ইন্দিৰা গান্ধী শান্তি বঁটা" },
+      { "en": "Saraswati Samman", "as": "সৰস্বতী সন্মান" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Ramon Magsaysay Award is often called the Nobel Prize of Asia.",
+      "as": "ৰেমন মেগছেছে বঁটাক প্ৰায়ে এছিয়াৰ নোবেল বঁটা বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "awards-099",
+    "q": {
+      "en": "The Gandhi Peace Prize is awarded for contributions in which field?",
+      "as": "গান্ধী শান্তি বঁটা কোন ক্ষেত্ৰত অৱদানৰ বাবে প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      { "en": "Sports", "as": "ক্ৰীড়া" },
+      { "en": "Social, economic and political transformation", "as": "সামাজিক, অৰ্থনৈতিক আৰু ৰাজনৈতিক ৰূপান্তৰ" },
+      { "en": "Literature", "as": "সাহিত্য" },
+      { "en": "Science", "as": "বিজ্ঞান" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Gandhi Peace Prize is awarded for social, economic and political transformation through non-violence.",
+      "as": "গান্ধী শান্তি বঁটা অহিংসাৰ জৰিয়তে সামাজিক, অৰ্থনৈতিক আৰু ৰাজনৈতিক ৰূপান্তৰৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-100",
+    "q": {
+      "en": "Which award is given for the best feature film in India?",
+      "as": "ভাৰতত শ্ৰেষ্ঠ পূৰ্ণদৈৰ্ঘ্য চলচ্চিত্ৰৰ বাবে কোনটো বঁটা দিয়া হয়?"
+    },
+    "options": [
+      { "en": "Dadasaheb Phalke Award", "as": "দাদাচাহেব ফাল্কে বঁটা" },
+      { "en": "National Film Award", "as": "ৰাষ্ট্ৰীয় চলচ্চিত্ৰ বঁটা" },
+      { "en": "Filmfare Award", "as": "ফিল্মফেয়াৰ বঁটা" },
+      { "en": "Oscar", "as": "অস্কাৰ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The National Film Award for Best Feature Film is India's highest film honour for a film.",
+      "as": "শ্ৰেষ্ঠ পূৰ্ণদৈৰ্ঘ্য চলচ্চিত্ৰৰ ৰাষ্ট্ৰীয় চলচ্চিত্ৰ বঁটা ভাৰতৰ চলচ্চিত্ৰৰ সৰ্বোচ্চ সন্মান।"
+    }
+  },
+  {
+    "id": "awards-101",
+    "q": {
+      "en": "The Dadasaheb Phalke Award is given for contribution to which field?",
+      "as": "দাদাচাহেব ফাল্কে বঁটা কোন ক্ষেত্ৰলৈ অৱদানৰ বাবে প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      { "en": "Cinema", "as": "চলচ্চিত্ৰ" },
+      { "en": "Music", "as": "সংগীত" },
+      { "en": "Literature", "as": "সাহিত্য" },
+      { "en": "Dance", "as": "নৃত্য" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Dadasaheb Phalke Award is given for lifetime contribution to Indian cinema.",
+      "as": "দাদাচাহেব ফাল্কে বঁটা ভাৰতীয় চলচ্চিত্ৰলৈ জীৱনজোৰা অৱদানৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-102",
+    "q": {
+      "en": "Who was the first recipient of the Dadasaheb Phalke Award?",
+      "as": "দাদাচাহেব ফাল্কে বঁটাৰ প্ৰথম গ্ৰহণকৰ্তা কোন আছিল?"
+    },
+    "options": [
+      { "en": "Devika Rani", "as": "দেৱিকা ৰাণী" },
+      { "en": "Prithviraj Kapoor", "as": "পৃথ্বীৰাজ কাপুৰ" },
+      { "en": "Satyajit Ray", "as": "সত্যজিত ৰায়" },
+      { "en": "Raj Kapoor", "as": "ৰাজ কাপুৰ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Devika Rani was the first recipient of the Dadasaheb Phalke Award in 1969.",
+      "as": "দেৱিকা ৰাণী ১৯৬৯ চনত দাদাচাহেব ফাল্কে বঁটাৰ প্ৰথম গ্ৰহণকৰ্তা আছিল।"
+    }
+  },
+  {
+    "id": "awards-103",
+    "q": {
+      "en": "Which Indian film won the Oscar for Best Original Song in 2023?",
+      "as": "২০২৩ চনত শ্ৰেষ্ঠ মৌলিক গীতৰ অস্কাৰ জিকা ভাৰতীয় চলচ্চিত্ৰখন কোনখন?"
+    },
+    "options": [
+      { "en": "RRR", "as": "আৰআৰআৰ" },
+      { "en": "Baahubali", "as": "বাহুবলী" },
+      { "en": "KGF", "as": "কেজিএফ" },
+      { "en": "Pushpa", "as": "পুষ্পা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The song 'Naatu Naatu' from RRR won the Oscar for Best Original Song in 2023.",
+      "as": "আৰআৰআৰৰ 'নাটু নাটু' গীতটোৱে ২০২৩ চনত শ্ৰেষ্ঠ মৌলিক গীতৰ অস্কাৰ জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-104",
+    "q": {
+      "en": "Which Indian film won the Academy Award for Best Documentary Short in 2024?",
+      "as": "২০২৪ চনত শ্ৰেষ্ঠ তথ্যচিত্ৰ চুটিৰ একাডেমী বঁটা কোন ভাৰতীয় চলচ্চিত্ৰই জিকিছিল?"
+    },
+    "options": [
+      { "en": "The Elephant Whisperers", "as": "দ্য এলিফেণ্ট হুইছপাৰাৰ্ছ" },
+      { "en": "Period. End of Sentence", "as": "পিৰিয়ড. এণ্ড অৱ ছেণ্টেন্স" },
+      { "en": "Writing with Fire", "as": "ৰাইটিং ৱিথ ফায়াৰ" },
+      { "en": "All That Breathes", "as": "অল দেট ব্ৰিদছ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Elephant Whisperers won the Oscar for Best Documentary Short in 2023.",
+      "as": "দ্য এলিফেণ্ট হুইছপাৰাৰ্ছে ২০২৩ চনত শ্ৰেষ্ঠ তথ্যচিত্ৰ চুটিৰ অস্কাৰ জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-105",
+    "q": {
+      "en": "Who was the first Indian to win an Oscar?",
+      "as": "অস্কাৰ জিকা প্ৰথম ভাৰতীয় কোন?"
+    },
+    "options": [
+      { "en": "Bhanu Athaiya", "as": "ভানু আথাইয়া" },
+      { "en": "A.R. Rahman", "as": "এ.আৰ. ৰহমান" },
+      { "en": "Resul Pookutty", "as": "ৰেছুল পুকুট্টি" },
+      { "en": "Satyajit Ray", "as": "সত্যজিত ৰায়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bhanu Athaiya won the Oscar for Best Costume Design for Gandhi in 1983.",
+      "as": "ভানু আথাইয়াই ১৯৮৩ চনত গান্ধী চলচ্চিত্ৰৰ বাবে শ্ৰেষ্ঠ কষ্টিউম ডিজাইনৰ অস্কাৰ জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-106",
+    "q": {
+      "en": "Which Indian received an honorary Oscar in 1992?",
+      "as": "১৯৯২ চনত কোন ভাৰতীয়ই সন্মানীয় অস্কাৰ লাভ কৰিছিল?"
+    },
+    "options": [
+      { "en": "Satyajit Ray", "as": "সত্যজিত ৰায়" },
+      { "en": "A.R. Rahman", "as": "এ.আৰ. ৰহমান" },
+      { "en": "Mrinal Sen", "as": "মৃণাল সেন" },
+      { "en": "Adoor Gopalakrishnan", "as": "অড'ৰ গোপালকৃষ্ণন" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Satyajit Ray received an honorary Oscar in 1992 for his lifetime achievement in cinema.",
+      "as": "সত্যজিত ৰায়ে ১৯৯২ চনত চলচ্চিত্ৰত জীৱনজোৰা কৃতিত্বৰ বাবে সন্মানীয় অস্কাৰ লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-107",
+    "q": {
+      "en": "Who won the Nobel Prize in Literature in 1913?",
+      "as": "১৯১৩ চনত সাহিত্যত নোবেল বঁটা কোনে জিকিছিল?"
+    },
+    "options": [
+      { "en": "Rabindranath Tagore", "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ" },
+      { "en": "Rudyard Kipling", "as": "ৰাডয়াৰ্ড কিপলিং" },
+      { "en": "W.B. Yeats", "as": "ডব্লিউ.বি. য়েটছ" },
+      { "en": "George Bernard Shaw", "as": "জৰ্জ বাৰ্নাৰ্ড শ্ব'" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Rabindranath Tagore won the Nobel Prize in Literature in 1913, the first Asian to do so.",
+      "as": "ৰবীন্দ্ৰনাথ ঠাকুৰে ১৯১৩ চনত সাহিত্যত নোবেল বঁটা জিকিছিল, তেওঁ প্ৰথম এছীয়।"
+    }
+  },
+  {
+    "id": "awards-108",
+    "q": {
+      "en": "In which field did Rabindranath Tagore win the Nobel Prize?",
+      "as": "ৰবীন্দ্ৰনাথ ঠাকুৰে কোন ক্ষেত্ৰত নোবেল বঁটা জিকিছিল?"
+    },
+    "options": [
+      { "en": "Physics", "as": "পদাৰ্থ বিজ্ঞান" },
+      { "en": "Literature", "as": "সাহিত্য" },
+      { "en": "Peace", "as": "শান্তি" },
+      { "en": "Chemistry", "as": "ৰসায়ন বিজ্ঞান" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rabindranath Tagore won the Nobel Prize in Literature for Gitanjali.",
+      "as": "ৰবীন্দ্ৰনাথ ঠাকুৰে গীতাঞ্জলিৰ বাবে সাহিত্যত নোবেল বঁটা জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-109",
+    "q": {
+      "en": "Who was the first Indian woman to win the Nobel Peace Prize?",
+      "as": "নোবেল শান্তি বঁটা জিকা প্ৰথম ভাৰতীয় মহিলা কোন?"
+    },
+    "options": [
+      { "en": "Mother Teresa", "as": "মাদাৰ টেৰেছা" },
+      { "en": "Malala Yousafzai", "as": "মালালা ইউছাফজাই" },
+      { "en": "Aung San Suu Kyi", "as": "আঙ চান চু কি" },
+      { "en": "Berkha Dutt", "as": "বেৰ্খা দত্ত" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mother Teresa won the Nobel Peace Prize in 1979 for her work with the poor.",
+      "as": "মাদাৰ টেৰেছাই দুখীয়াসকলৰ বাবে কাম কৰাৰ বাবে ১৯৭৯ চনত নোবেল শান্তি বঁটা জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-110",
+    "q": {
+      "en": "In which year did Mother Teresa win the Nobel Peace Prize?",
+      "as": "মাদাৰ টেৰেছাই কোন বছৰত নোবেল শান্তি বঁটা জিকিছিল?"
+    },
+    "options": [
+      { "en": "1975", "as": "১৯৭৫" },
+      { "en": "1979", "as": "১৯৭৯" },
+      { "en": "1985", "as": "১৯৮৫" },
+      { "en": "1990", "as": "১৯৯০" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mother Teresa won the Nobel Peace Prize in 1979.",
+      "as": "মাদাৰ টেৰেছাই ১৯৭৯ চনত নোবেল শান্তি বঁটা জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-111",
+    "q": {
+      "en": "Which Indian economist won the Nobel Prize in Economics in 1998?",
+      "as": "১৯৯৮ চনত অৰ্থনীতিত নোবেল বঁটা জিকা ভাৰতীয় অৰ্থনীতিবিদ কোন?"
+    },
+    "options": [
+      { "en": "Amartya Sen", "as": "অমৰ্ত্য সেন" },
+      { "en": "Abhijit Banerjee", "as": "অভিজিৎ বেনাৰ্জী" },
+      { "en": "Jagdish Bhagwati", "as": "জগদীশ ভাগৱতী" },
+      { "en": "Manmohan Singh", "as": "মনমোহন সিং" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Amartya Sen won the Nobel Prize in Economic Sciences in 1998.",
+      "as": "অমৰ্ত্য সেনে ১৯৯৮ চনত অৰ্থনৈতিক বিজ্ঞানত নোবেল বঁটা জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-112",
+    "q": {
+      "en": "Which Indian-origin economist won the Nobel Prize in Economics in 2019?",
+      "as": "২০১৯ চনত অৰ্থনীতিত নোবেল বঁটা জিকা ভাৰতীয় মূলৰ অৰ্থনীতিবিদ কোন?"
+    },
+    "options": [
+      { "en": "Abhijit Banerjee", "as": "অভিজিৎ বেনাৰ্জী" },
+      { "en": "Amartya Sen", "as": "অমৰ্ত্য সেন" },
+      { "en": "Raghuram Rajan", "as": "ৰঘুৰাম ৰাজন" },
+      { "en": "Kaushik Basu", "as": "কৌশিক বসু" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Abhijit Banerjee won the Nobel Prize in Economics in 2019.",
+      "as": "অভিজিৎ বেনাৰ্জীয়ে ২০১৯ চনত অৰ্থনীতিত নোবেল বঁটা জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-113",
+    "q": {
+      "en": "Which award is given for the best book in the Assamese language by the Sahitya Akademi?",
+      "as": "সাহিত্য অকাডেমীয়ে অসমীয়া ভাষাৰ শ্ৰেষ্ঠ কিতাপৰ বাবে কোনটো বঁটা দিয়ে?"
+    },
+    "options": [
+      { "en": "Sahitya Akademi Award", "as": "সাহিত্য অকাডেমী বঁটা" },
+      { "en": "Jnanpith Award", "as": "জ্ঞানপীঠ বঁটা" },
+      { "en": "Saraswati Samman", "as": "সৰস্বতী সন্মান" },
+      { "en": "Vyas Samman", "as": "ব্যাস সন্মান" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Sahitya Akademi Award is given for the best literary work in Indian languages.",
+      "as": "সাহিত্য অকাডেমী বঁটা ভাৰতীয় ভাষাসমূহৰ শ্ৰেষ্ঠ সাহিত্যিক কৰ্মৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-114",
+    "q": {
+      "en": "Which is the highest literary award of India?",
+      "as": "ভাৰতৰ সৰ্বোচ্চ সাহিত্যিক বঁটা কোনটো?"
+    },
+    "options": [
+      { "en": "Sahitya Akademi Award", "as": "সাহিত্য অকাডেমী বঁটা" },
+      { "en": "Jnanpith Award", "as": "জ্ঞানপীঠ বঁটা" },
+      { "en": "Saraswati Samman", "as": "সৰস্বতী সন্মান" },
+      { "en": "Bharatiya Jnanpith", "as": "ভাৰতীয় জ্ঞানপীঠ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Jnanpith Award is the highest literary award of India.",
+      "as": "জ্ঞানপীঠ বঁটা ভাৰতৰ সৰ্বোচ্চ সাহিত্যিক বঁটা।"
+    }
+  },
+  {
+    "id": "awards-115",
+    "q": {
+      "en": "Which Assamese writer won the Jnanpith Award in 1979?",
+      "as": "১৯৭৯ চনত কোন অসমীয়া লেখকে জ্ঞানপীঠ বঁটা জিকিছিল?"
+    },
+    "options": [
+      { "en": "Birendra Kumar Bhattacharya", "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য্য" },
+      { "en": "Mamoni Raisom Goswami", "as": "মামণি ৰয়ছম গোস্বামী" },
+      { "en": "Homen Borgohain", "as": "হোমেন বৰগোহাঞি" },
+      { "en": "Syed Abdul Malik", "as": "চৈয়দ আব্দুল মালিক" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Birendra Kumar Bhattacharya won the Jnanpith Award in 1979 for Mrityunjay.",
+      "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যই ১৯৭৯ চনত মৃত্যুঞ্জয়ৰ বাবে জ্ঞানপীঠ বঁটা জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-116",
+    "q": {
+      "en": "Which Assamese writer won the Jnanpith Award in 2000?",
+      "as": "২০০০ চনত কোন অসমীয়া লেখকে জ্ঞানপীঠ বঁটা জিকিছিল?"
+    },
+    "options": [
+      { "en": "Mamoni Raisom Goswami", "as": "মামণি ৰয়ছম গোস্বামী" },
+      { "en": "Birendra Kumar Bhattacharya", "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য্য" },
+      { "en": "Nirmal Prabha Bordoloi", "as": "নিৰ্মল প্ৰভা বৰদলৈ" },
+      { "en": "Homen Borgohain", "as": "হোমেন বৰগোহাঞি" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mamoni Raisom Goswami won the Jnanpith Award in 2000.",
+      "as": "মামণি ৰয়ছম গোস্বামীয়ে ২০০০ চনত জ্ঞানপীঠ বঁটা জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-117",
+    "q": {
+      "en": "Who won the Nobel Prize in Physics in 1930?",
+      "as": "১৯৩০ চনত পদাৰ্থ বিজ্ঞানত নোবেল বঁটা কোনে জিকিছিল?"
+    },
+    "options": [
+      { "en": "C.V. Raman", "as": "চি.ভি. ৰমন" },
+      { "en": "Albert Einstein", "as": "আলবাৰ্ট আইনষ্টাইন" },
+      { "en": "Niels Bohr", "as": "নীলছ বৰ" },
+      { "en": "Marie Curie", "as": "মেৰী কুৰি" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "C.V. Raman won the Nobel Prize in Physics in 1930 for the Raman Effect.",
+      "as": "চি.ভি. ৰমনে ৰমন প্ৰভাৱৰ বাবে ১৯৩০ চনত পদাৰ্থ বিজ্ঞানত নোবেল বঁটা জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-118",
+    "q": {
+      "en": "Which Indian scientist is known as the 'Father of the Indian Nuclear Programme'?",
+      "as": "কোন ভাৰতীয় বিজ্ঞানীক 'ভাৰতীয় পাৰমাণবিক কাৰ্যসূচীৰ পিতা' বুলি জনা যায়?"
+    },
+    "options": [
+      { "en": "Homi J. Bhabha", "as": "হোমি জে. ভাবা" },
+      { "en": "Vikram Sarabhai", "as": "বিক্ৰম সাৰাভাই" },
+      { "en": "A.P.J. Abdul Kalam", "as": "এ.পি.জে. আব্দুল কালাম" },
+      { "en": "C.V. Raman", "as": "চি.ভি. ৰমন" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Homi J. Bhabha is known as the Father of the Indian Nuclear Programme.",
+      "as": "হোমি জে. ভাবা ভাৰতীয় পাৰমাণবিক কাৰ্যসূচীৰ পিতা হিচাপে জনাজাত।"
+    }
+  },
+  {
+    "id": "awards-119",
+    "q": {
+      "en": "Which Indian scientist is known as the 'Father of the Indian Space Programme'?",
+      "as": "কোন ভাৰতীয় বিজ্ঞানীক 'ভাৰতীয় মহাকাশ কাৰ্যসূচীৰ পিতা' বুলি জনা যায়?"
+    },
+    "options": [
+      { "en": "Vikram Sarabhai", "as": "বিক্ৰম সাৰাভাই" },
+      { "en": "Homi Bhabha", "as": "হোমি ভাবা" },
+      { "en": "A.P.J. Abdul Kalam", "as": "এ.পি.জে. আব্দুল কালাম" },
+      { "en": "Satish Dhawan", "as": "সতীশ ধৱন" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Vikram Sarabhai is known as the Father of the Indian Space Programme.",
+      "as": "বিক্ৰম সাৰাভাই ভাৰতীয় মহাকাশ কাৰ্যসূচীৰ পিতা হিচাপে জনাজাত।"
+    }
+  },
+  {
+    "id": "awards-120",
+    "q": {
+      "en": "Which award is given by the Sangeet Natak Akademi?",
+      "as": "সংগীত নাটক অকাডেমীয়ে কোনটো বঁটা প্ৰদান কৰে?"
+    },
+    "options": [
+      { "en": "For performing arts", "as": "পৰিবেশন কলাৰ বাবে" },
+      { "en": "For literature", "as": "সাহিত্যৰ বাবে" },
+      { "en": "For science", "as": "বিজ্ঞানৰ বাবে" },
+      { "en": "For sports", "as": "ক্ৰীড়াৰ বাবে" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Sangeet Natak Akademi Awards are given for excellence in performing arts.",
+      "as": "সংগীত নাটক অকাডেমী বঁটা পৰিবেশন কলাত উৎকৰ্ষতাৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-121",
+    "q": {
+      "en": "Which is the highest award in the field of Indian science?",
+      "as": "ভাৰতীয় বিজ্ঞানৰ ক্ষেত্ৰত সৰ্বোচ্চ বঁটা কোনটো?"
+    },
+    "options": [
+      { "en": "Shanti Swarup Bhatnagar Prize", "as": "শান্তি স্বৰূপ ভাটনাগৰ বঁটা" },
+      { "en": "Bharat Ratna", "as": "ভাৰত ৰত্ন" },
+      { "en": "Padma Shri", "as": "পদ্ম শ্ৰী" },
+      { "en": "National Science Award", "as": "ৰাষ্ট্ৰীয় বিজ্ঞান বঁটা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Shanti Swarup Bhatnagar Prize is a prestigious Indian science award.",
+      "as": "শান্তি স্বৰূপ ভাটনাগৰ বঁটা এটা সন্মানীয় ভাৰতীয় বিজ্ঞান বঁটা।"
+    }
+  },
+  {
+    "id": "awards-122",
+    "q": {
+      "en": "The Pulitzer Prize is associated with which field?",
+      "as": "পুলিৎজাৰ বঁটা কোন ক্ষেত্ৰৰ সৈতে জড়িত?"
+    },
+    "options": [
+      { "en": "Journalism", "as": "সাংবাদিকতা" },
+      { "en": "Sports", "as": "ক্ৰীড়া" },
+      { "en": "Science", "as": "বিজ্ঞান" },
+      { "en": "Music", "as": "সংগীত" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Pulitzer Prize is awarded for achievements in journalism, literature and music.",
+      "as": "পুলিৎজাৰ বঁটা সাংবাদিকতা, সাহিত্য আৰু সংগীতত কৃতিত্বৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-123",
+    "q": {
+      "en": "The Booker Prize is associated with which field?",
+      "as": "বুকাৰ বঁটা কোন ক্ষেত্ৰৰ সৈতে জড়িত?"
+    },
+    "options": [
+      { "en": "Literature", "as": "সাহিত্য" },
+      { "en": "Cinema", "as": "চলচ্চিত্ৰ" },
+      { "en": "Science", "as": "বিজ্ঞান" },
+      { "en": "Sports", "as": "ক্ৰীড়া" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Booker Prize is a prestigious literary award for the best novel.",
+      "as": "বুকাৰ বঁটা শ্ৰেষ্ঠ উপন্যাসৰ বাবে এটা সন্মানীয় সাহিত্য বঁটা।"
+    }
+  },
+  {
+    "id": "awards-124",
+    "q": {
+      "en": "Who was the first Indian to win the Booker Prize?",
+      "as": "বুকাৰ বঁটা জিকা প্ৰথম ভাৰতীয় কোন?"
+    },
+    "options": [
+      { "en": "Arundhati Roy", "as": "অৰুন্ধতী ৰয়" },
+      { "en": "Salman Rushdie", "as": "ছলমান ৰুশ্বদী" },
+      { "en": "Kiran Desai", "as": "কিৰণ দেসাই" },
+      { "en": "Aravind Adiga", "as": "অৰবিন্দ আদিগা" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Salman Rushdie won the Booker Prize in 1981 for Midnight's Children.",
+      "as": "ছলমান ৰুশ্বদীয়ে ১৯৮১ চনত মিডনাইটছ চিলড্ৰেনৰ বাবে বুকাৰ বঁটা জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-125",
+    "q": {
+      "en": "Which Indian won the Booker Prize in 1997?",
+      "as": "১৯৯৭ চনত কোন ভাৰতীয়ই বুকাৰ বঁটা জিকিছিল?"
+    },
+    "options": [
+      { "en": "Arundhati Roy", "as": "অৰুন্ধতী ৰয়" },
+      { "en": "Kiran Desai", "as": "কিৰণ দেসাই" },
+      { "en": "Aravind Adiga", "as": "অৰবিন্দ আদিগা" },
+      { "en": "Salman Rushdie", "as": "ছলমান ৰুশ্বদী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Arundhati Roy won the Booker Prize in 1997 for The God of Small Things.",
+      "as": "অৰুন্ধতী ৰয়ে ১৯৯৭ চনত দ্য গড অৱ স্মল থিংছৰ বাবে বুকাৰ বঁটা জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-126",
+    "q": {
+      "en": "Which Indian won the Booker Prize in 2008?",
+      "as": "২০০৮ চনত কোন ভাৰতীয়ই বুকাৰ বঁটা জিকিছিল?"
+    },
+    "options": [
+      { "en": "Aravind Adiga", "as": "অৰবিন্দ আদিগা" },
+      { "en": "Kiran Desai", "as": "কিৰণ দেসাই" },
+      { "en": "Arundhati Roy", "as": "অৰুন্ধতী ৰয়" },
+      { "en": "Vikram Seth", "as": "বিক্ৰম শেঠ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Aravind Adiga won the Booker Prize in 2008 for The White Tiger.",
+      "as": "অৰবিন্দ আদিগাই ২০০৮ চনত দ্য ৱাইট টাইগাৰৰ বাবে বুকাৰ বঁটা জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-127",
+    "q": {
+      "en": "Who won the Nobel Peace Prize in 2014?",
+      "as": "২০১৪ চনত নোবেল শান্তি বঁটা কোনে জিকিছিল?"
+    },
+    "options": [
+      { "en": "Kailash Satyarthi", "as": "কৈলাশ সত্যাৰ্থী" },
+      { "en": "Malala Yousafzai", "as": "মালালা ইউছাফজাই" },
+      { "en": "Both Kailash Satyarthi and Malala Yousafzai", "as": "কৈলাশ সত্যাৰ্থী আৰু মালালা ইউছাফজাই দুয়ো" },
+      { "en": "Barack Obama", "as": "বাৰাক ওবামা" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Kailash Satyarthi and Malala Yousafzai jointly won the Nobel Peace Prize in 2014.",
+      "as": "কৈলাশ সত্যাৰ্থী আৰু মালালা ইউছাফজাইয়ে যুটীয়াভাৱে ২০১৪ চনত নোবেল শান্তি বঁটা জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-128",
+    "q": {
+      "en": "Kailash Satyarthi is known for his work against what?",
+      "as": "কৈলাশ সত্যাৰ্থী কিৰ বিৰুদ্ধে কামৰ বাবে জনাজাত?"
+    },
+    "options": [
+      { "en": "Child labour", "as": "শিশু শ্ৰম" },
+      { "en": "Climate change", "as": "জলবায়ু পৰিৱৰ্তন" },
+      { "en": "Poverty", "as": "দৰিদ্ৰতা" },
+      { "en": "Corruption", "as": "দুৰ্নীতি" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kailash Satyarthi won the Nobel Peace Prize for his work against child labour.",
+      "as": "কৈলাশ সত্যাৰ্থীয়ে শিশু শ্ৰমৰ বিৰুদ্ধে কামৰ বাবে নোবেল শান্তি বঁটা জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-129",
+    "q": {
+      "en": "The Fields Medal is associated with which field?",
+      "as": "ফিল্ডছ মেডেল কোন ক্ষেত্ৰৰ সৈতে জড়িত?"
+    },
+    "options": [
+      { "en": "Mathematics", "as": "গণিত" },
+      { "en": "Physics", "as": "পদাৰ্থ বিজ্ঞান" },
+      { "en": "Chemistry", "as": "ৰসায়ন বিজ্ঞান" },
+      { "en": "Medicine", "as": "চিকিৎসা বিজ্ঞান" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Fields Medal is a prestigious award in mathematics, often called the mathematician's Nobel Prize.",
+      "as": "ফিল্ডছ মেডেল গণিতৰ এটা সন্মানীয় বঁটা, যাক প্ৰায়ে গণিতবিদৰ নোবেল বঁটা বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "awards-130",
+    "q": {
+      "en": "The Abel Prize is associated with which field?",
+      "as": "আবেল বঁটা কোন ক্ষেত্ৰৰ সৈতে জড়িত?"
+    },
+    "options": [
+      { "en": "Mathematics", "as": "গণিত" },
+      { "en": "Literature", "as": "সাহিত্য" },
+      { "en": "Peace", "as": "শান্তি" },
+      { "en": "Economics", "as": "অৰ্থনীতি" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Abel Prize is awarded annually for outstanding contributions to mathematics.",
+      "as": "আবেল বঁটা গণিতলৈ অসাধাৰণ অৱদানৰ বাবে বছৰি প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-131",
+    "q": {
+      "en": "Which award is known as the 'Green Nobel'?",
+      "as": "কোনটো বঁটাক 'সেউজ নোবেল' বুলি জনা যায়?"
+    },
+    "options": [
+      { "en": "Goldman Environmental Prize", "as": "গোল্ডমেন পৰিৱেশ বঁটা" },
+      { "en": "Ramon Magsaysay Award", "as": "ৰেমন মেগছেছে বঁটা" },
+      { "en": "Right Livelihood Award", "as": "ৰাইট লাইভলিহুড বঁটা" },
+      { "en": "Gandhi Peace Prize", "as": "গান্ধী শান্তি বঁটা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Goldman Environmental Prize is popularly known as the Green Nobel.",
+      "as": "গোল্ডমেন পৰিৱেশ বঁটাক জনপ্ৰিয়ভাৱে সেউজ নোবেল বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "awards-132",
+    "q": {
+      "en": "Which award is given to recognise the contribution of unsung heroes in India?",
+      "as": "ভাৰতত অচিনবীৰসকলৰ অৱদান স্বীকৃতি দিবলৈ কোনটো বঁটা দিয়া হয়?"
+    },
+    "options": [
+      { "en": "Padma Awards", "as": "পদ্ম বঁটা" },
+      { "en": "Bharat Ratna", "as": "ভাৰত ৰত্ন" },
+      { "en": "Param Vir Chakra", "as": "পৰম বীৰ চক্ৰ" },
+      { "en": "Shaurya Chakra", "as": "শৌৰ্য চক্ৰ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Padma Awards recognise distinguished contributions from all sections of society.",
+      "as": "পদ্ম বঁটাই সমাজৰ সকলো শ্ৰেণীৰ বিশিষ্ট অৱদান স্বীকৃতি দিয়ে।"
+    }
+  },
+  {
+    "id": "awards-133",
+    "q": {
+      "en": "Which is the highest gallantry award in peacetime in India?",
+      "as": "ভাৰতত শান্তিকালীন সৰ্বোচ্চ বীৰত্ব বঁটা কোনটো?"
+    },
+    "options": [
+      { "en": "Ashoka Chakra", "as": "অশোক চক্ৰ" },
+      { "en": "Param Vir Chakra", "as": "পৰম বীৰ চক্ৰ" },
+      { "en": "Maha Vir Chakra", "as": "মহা বীৰ চক্ৰ" },
+      { "en": "Kirti Chakra", "as": "কীৰ্তি চক্ৰ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Ashoka Chakra is India's highest peacetime gallantry award.",
+      "as": "অশোক চক্ৰ ভাৰতৰ শান্তিকালীন সৰ্বোচ্চ বীৰত্ব বঁটা।"
+    }
+  },
+  {
+    "id": "awards-134",
+    "q": {
+      "en": "Which is the highest military gallantry award of India?",
+      "as": "ভাৰতৰ সৰ্বোচ্চ সামৰিক বীৰত্ব বঁটা কোনটো?"
+    },
+    "options": [
+      { "en": "Param Vir Chakra", "as": "পৰম বীৰ চক্ৰ" },
+      { "en": "Ashoka Chakra", "as": "অশোক চক্ৰ" },
+      { "en": "Maha Vir Chakra", "as": "মহা বীৰ চক্ৰ" },
+      { "en": "Vir Chakra", "as": "বীৰ চক্ৰ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Param Vir Chakra is India's highest military decoration.",
+      "as": "পৰম বীৰ চক্ৰ ভাৰতৰ সৰ্বোচ্চ সামৰিক সজ্জা।"
+    }
+  },
+  {
+    "id": "awards-135",
+    "q": {
+      "en": "The Bharat Ratna is awarded by whom?",
+      "as": "ভাৰত ৰত্ন কাক প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      { "en": "Prime Minister", "as": "প্ৰধানমন্ত্ৰী" },
+      { "en": "President of India", "as": "ভাৰতৰ ৰাষ্ট্ৰপতি" },
+      { "en": "Chief Justice", "as": "মুখ্য ন্যায়াধিপতি" },
+      { "en": "Parliament", "as": "সংসদ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Bharat Ratna is awarded by the President of India.",
+      "as": "ভাৰত ৰত্ন ভাৰতৰ ৰাষ্ট্ৰপতিয়ে প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "awards-136",
+    "q": {
+      "en": "Which award was instituted in memory of soldiers who died in the 1962 war?",
+      "as": "১৯৬২ চনৰ যুদ্ধত নিহত সৈনিকসকলৰ স্মৃতিত কোনটো বঁটা প্ৰৱৰ্তন কৰা হৈছিল?"
+    },
+    "options": [
+      { "en": "Param Vir Chakra", "as": "পৰম বীৰ চক্ৰ" },
+      { "en": "Ashoka Chakra", "as": "অশোক চক্ৰ" },
+      { "en": "Vir Chakra", "as": "বীৰ চক্ৰ" },
+      { "en": "Shaurya Chakra", "as": "শৌৰ্য চক্ৰ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Param Vir Chakra was instituted in 1950; it is India's highest wartime gallantry award.",
+      "as": "পৰম বীৰ চক্ৰ ১৯৫০ চনত প্ৰৱৰ্তন কৰা হৈছিল; এয়া ভাৰতৰ সৰ্বোচ্চ যুদ্ধকালীন বীৰত্ব বঁটা।"
+    }
+  },
+  {
+    "id": "awards-137",
+    "q": {
+      "en": "Who was the first woman to receive the Bharat Ratna?",
+      "as": "ভাৰত ৰত্ন লাভ কৰা প্ৰথম মহিলা কোন?"
+    },
+    "options": [
+      { "en": "Indira Gandhi", "as": "ইন্দিৰা গান্ধী" },
+      { "en": "Mother Teresa", "as": "মাদাৰ টেৰেছা" },
+      { "en": "Sarojini Naidu", "as": "সৰোজিনী নাইডু" },
+      { "en": "Droupadi Murmu", "as": "দ্ৰৌপদী মুৰ্মু" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Indira Gandhi was the first woman to receive the Bharat Ratna in 1971.",
+      "as": "ইন্দিৰা গান্ধী ১৯৭১ চনত ভাৰত ৰত্ন লাভ কৰা প্ৰথম মহিলা আছিল।"
+    }
+  },
+  {
+    "id": "awards-138",
+    "q": {
+      "en": "Which award is known as the 'Asian Nobel Prize'?",
+      "as": "কোনটো বঁটাক 'এছীয় নোবেল বঁটা' বুলি জনা যায়?"
+    },
+    "options": [
+      { "en": "Ramon Magsaysay Award", "as": "ৰেমন মেগছেছে বঁটা" },
+      { "en": "Jnanpith Award", "as": "জ্ঞানপীঠ বঁটা" },
+      { "en": "Gandhi Peace Prize", "as": "গান্ধী শান্তি বঁটা" },
+      { "en": "Sahitya Akademi Award", "as": "সাহিত্য অকাডেমী বঁটা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Ramon Magsaysay Award is often described as Asia's Nobel Prize.",
+      "as": "ৰেমন মেগছেছে বঁটাক প্ৰায়ে এছিয়াৰ নোবেল বঁটা বুলি বৰ্ণনা কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-139",
+    "q": {
+      "en": "The Oscar award is associated with which field?",
+      "as": "অস্কাৰ বঁটা কোন ক্ষেত্ৰৰ সৈতে জড়িত?"
+    },
+    "options": [
+      { "en": "Cinema", "as": "চলচ্চিত্ৰ" },
+      { "en": "Music", "as": "সংগীত" },
+      { "en": "Literature", "as": "সাহিত্য" },
+      { "en": "Journalism", "as": "সাংবাদিকতা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Oscar, or Academy Award, is the most prestigious award in cinema.",
+      "as": "অস্কাৰ বা একাডেমী বঁটা চলচ্চিত্ৰৰ আটাইতকৈ সন্মানীয় বঁটা।"
+    }
+  },
+  {
+    "id": "awards-140",
+    "q": {
+      "en": "The Grammy Award is associated with which field?",
+      "as": "গ্ৰেমী বঁটা কোন ক্ষেত্ৰৰ সৈতে জড়িত?"
+    },
+    "options": [
+      { "en": "Music", "as": "সংগীত" },
+      { "en": "Cinema", "as": "চলচ্চিত্ৰ" },
+      { "en": "Literature", "as": "সাহিত্য" },
+      { "en": "Sports", "as": "ক্ৰীড়া" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Grammy Award recognises outstanding achievements in music.",
+      "as": "গ্ৰেমী বঁটাই সংগীতত অসাধাৰণ কৃতিত্ব স্বীকৃতি দিয়ে।"
+    }
+  },
+  {
+    "id": "awards-141",
+    "q": {
+      "en": "Which Indian musician won multiple Grammy Awards?",
+      "as": "কোন ভাৰতীয় সংগীতশিল্পীয়ে একাধিক গ্ৰেমী বঁটা জিকিছিল?"
+    },
+    "options": [
+      { "en": "A.R. Rahman", "as": "এ.আৰ. ৰহমান" },
+      { "en": "Ravi Shankar", "as": "ৰবি শংকৰ" },
+      { "en": "Zakir Hussain", "as": "জাকিৰ হুছেইন" },
+      { "en": "All of these", "as": "এই সকলো" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A.R. Rahman, Ravi Shankar and Zakir Hussain have all won Grammy Awards.",
+      "as": "এ.আৰ. ৰহমান, ৰবি শংকৰ আৰু জাকিৰ হুছেইনে গ্ৰেমী বঁটা জিকিছে।"
+    }
+  },
+  {
+    "id": "awards-142",
+    "q": {
+      "en": "Which award is given for courage and bravery by children in India?",
+      "as": "ভাৰতত শিশুসকলৰ সাহস আৰু বীৰত্বৰ বাবে কোনটো বঁটা দিয়া হয়?"
+    },
+    "options": [
+      { "en": "National Bravery Award", "as": "ৰাষ্ট্ৰীয় বীৰত্ব বঁটা" },
+      { "en": "Ashoka Chakra", "as": "অশোক চক্ৰ" },
+      { "en": "Param Vir Chakra", "as": "পৰম বীৰ চক্ৰ" },
+      { "en": "Shaurya Chakra", "as": "শৌৰ্য চক্ৰ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The National Bravery Award is given to children for acts of courage.",
+      "as": "ৰাষ্ট্ৰীয় বীৰত্ব বঁটা সাহসৰ কামৰ বাবে শিশুসকলক প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-143",
+    "q": {
+      "en": "Which Indian won the Miss World title in 1994?",
+      "as": "১৯৯৪ চনত মিছ ৱৰ্ল্ড খিতাপ কোন ভাৰতীয়ই জিকিছিল?"
+    },
+    "options": [
+      { "en": "Aishwarya Rai", "as": "ঐশ্বৰ্যা ৰায়" },
+      { "en": "Sushmita Sen", "as": "সুস্মিতা সেন" },
+      { "en": "Priyanka Chopra", "as": "প্ৰিয়াঙ্কা চোপ্ৰা" },
+      { "en": "Yukta Mookhey", "as": "যুক্তা মুখী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Aishwarya Rai won the Miss World title in 1994.",
+      "as": "ঐশ্বৰ্যা ৰায়ে ১৯৯৪ চনত মিছ ৱৰ্ল্ড খিতাপ জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-144",
+    "q": {
+      "en": "Which Indian won the Miss Universe title in 1994?",
+      "as": "১৯৯৪ চনত মিছ ইউনিভাৰ্ছ খিতাপ কোন ভাৰতীয়ই জিকিছিল?"
+    },
+    "options": [
+      { "en": "Sushmita Sen", "as": "সুস্মিতা সেন" },
+      { "en": "Aishwarya Rai", "as": "ঐশ্বৰ্যা ৰায়" },
+      { "en": "Lara Dutta", "as": "লাৰা দত্ত" },
+      { "en": "Priyanka Chopra", "as": "প্ৰিয়াঙ্কা চোপ্ৰা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sushmita Sen won the Miss Universe title in 1994.",
+      "as": "সুস্মিতা সেনে ১৯৯৪ চনত মিছ ইউনিভাৰ্ছ খিতাপ জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-145",
+    "q": {
+      "en": "Which Indian won the Miss World title in 2000?",
+      "as": "২০০০ চনত মিছ ৱৰ্ল্ড খিতাপ কোন ভাৰতীয়ই জিকিছিল?"
+    },
+    "options": [
+      { "en": "Priyanka Chopra", "as": "প্ৰিয়াঙ্কা চোপ্ৰা" },
+      { "en": "Aishwarya Rai", "as": "ঐশ্বৰ্যা ৰায়" },
+      { "en": "Yukta Mookhey", "as": "যুক্তা মুখী" },
+      { "en": "Diana Hayden", "as": "ডায়েনা হেডেন" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Priyanka Chopra won the Miss World title in 2000.",
+      "as": "প্ৰিয়াঙ্কা চোপ্ৰাই ২০০০ চনত মিছ ৱৰ্ল্ড খিতাপ জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-146",
+    "q": {
+      "en": "Which Indian won the Miss Universe title in 2000?",
+      "as": "২০০০ চনত মিছ ইউনিভাৰ্ছ খিতাপ কোন ভাৰতীয়ই জিকিছিল?"
+    },
+    "options": [
+      { "en": "Lara Dutta", "as": "লাৰা দত্ত" },
+      { "en": "Sushmita Sen", "as": "সুস্মিতা সেন" },
+      { "en": "Priyanka Chopra", "as": "প্ৰিয়াঙ্কা চোপ্ৰা" },
+      { "en": "Diana Hayden", "as": "ডায়েনা হেডেন" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Lara Dutta won the Miss Universe title in 2000.",
+      "as": "লাৰা দত্তই ২০০০ চনত মিছ ইউনিভাৰ্ছ খিতাপ জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-147",
+    "q": {
+      "en": "Which award is presented to the best actor at the National Film Awards?",
+      "as": "ৰাষ্ট্ৰীয় চলচ্চিত্ৰ বঁটাত শ্ৰেষ্ঠ অভিনেতাৰ বাবে কোনটো বঁটা প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      { "en": "Rajat Kamal", "as": "ৰজত কমল" },
+      { "en": "Swarna Kamal", "as": "স্বৰ্ণ কমল" },
+      { "en": "Dadasaheb Phalke", "as": "দাদাচাহেব ফাল্কে" },
+      { "en": "Golden Peacock", "as": "সোণালী ময়ূৰ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Rajat Kamal (silver lotus) is awarded to the Best Actor at the National Film Awards.",
+      "as": "ৰাষ্ট্ৰীয় চলচ্চিত্ৰ বঁটাত শ্ৰেষ্ঠ অভিনেতাক ৰজত কমল (ৰূপৰ পদুম) প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-148",
+    "q": {
+      "en": "Which is the highest award at the National Film Awards?",
+      "as": "ৰাষ্ট্ৰীয় চলচ্চিত্ৰ বঁটাত সৰ্বোচ্চ সন্মান কোনটো?"
+    },
+    "options": [
+      { "en": "Swarna Kamal", "as": "স্বৰ্ণ কমল" },
+      { "en": "Rajat Kamal", "as": "ৰজত কমল" },
+      { "en": "Dadasaheb Phalke", "as": "দাদাচাহেব ফাল্কে" },
+      { "en": "Special Jury Award", "as": "বিশেষ জুৰি বঁটা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Swarna Kamal (golden lotus) is the highest award at the National Film Awards.",
+      "as": "স্বৰ্ণ কমল (সোণালী পদুম) ৰাষ্ট্ৰীয় চলচ্চিত্ৰ বঁটাত সৰ্বোচ্চ সন্মান।"
+    }
+  },
+  {
+    "id": "awards-149",
+    "q": {
+      "en": "Which Indian state gives the 'Sahitya Akademi Award'?",
+      "as": "'সাহিত্য অকাডেমী বঁটা' কোনে প্ৰদান কৰে?"
+    },
+    "options": [
+      { "en": "Sahitya Akademi, New Delhi", "as": "সাহিত্য অকাডেমী, নতুন দিল্লী" },
+      { "en": "Government of Assam", "as": "অসম চৰকাৰ" },
+      { "en": "University Grants Commission", "as": "বিশ্ববিদ্যালয় অনুদান আয়োগ" },
+      { "en": "Ministry of Culture", "as": "সংস্কৃতি মন্ত্ৰালয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Sahitya Akademi, based in New Delhi, gives the Sahitya Akademi Awards.",
+      "as": "নতুন দিল্লীস্থিত সাহিত্য অকাডেমীয়ে সাহিত্য অকাডেমী বঁটা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "awards-150",
+    "q": {
+      "en": "Who was the first Assamese to win the Sahitya Akademi Award?",
+      "as": "সাহিত্য অকাডেমী বঁটা জিকা প্ৰথম অসমীয়া কোন?"
+    },
+    "options": [
+      { "en": "Lakshminath Bezbaroa", "as": "লক্ষ্মীনাথ বেজবৰুৱা" },
+      { "en": "Hem Barua", "as": "হেম বৰুৱা" },
+      { "en": "Birendra Kumar Bhattacharya", "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য্য" },
+      { "en": "Jyoti Prasad Agarwala", "as": "জ্যোতি প্ৰসাদ আগৰৱালা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Lakshminath Bezbaroa was among the early Assamese recipients of the Sahitya Akademi Award.",
+      "as": "লক্ষ্মীনাথ বেজবৰুৱা সাহিত্য অকাডেমী বঁটা লাভ কৰা প্ৰাৰম্ভিক অসমীয়াসকলৰ এজন আছিল।"
+    }
+  },
+  {
+    "id": "awards-151",
+    "q": {
+      "en": "Which award is given for excellence in the field of classical music and dance in Assam?",
+      "as": "অসমত শাস্ত্ৰীয় সংগীত আৰু নৃত্যৰ ক্ষেত্ৰত উৎকৰ্ষতাৰ বাবে কোনটো বঁটা দিয়া হয়?"
+    },
+    "options": [
+      { "en": "Sangeet Natak Akademi Award", "as": "সংগীত নাটক অকাডেমী বঁটা" },
+      { "en": "Sahitya Akademi Award", "as": "সাহিত্য অকাডেমী বঁটা" },
+      { "en": "Lalit Kala Akademi Award", "as": "ললিত কলা অকাডেমী বঁটা" },
+      { "en": "Jnanpith Award", "as": "জ্ঞানপীঠ বঁটা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Sangeet Natak Akademi Award is given for excellence in music, dance and drama.",
+      "as": "সংগীত নাটক অকাডেমী বঁটা সংগীত, নৃত্য আৰু নাটকত উৎকৰ্ষতাৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-152",
+    "q": {
+      "en": "The Khel Ratna Award was renamed after which sportsperson in 2021?",
+      "as": "২০২১ চনত খেল ৰত্ন বঁটাৰ নাম কোন খেলুৱৈৰ নামেৰে সলনি কৰা হৈছিল?"
+    },
+    "options": [
+      { "en": "Major Dhyan Chand", "as": "মেজৰ ধ্যানচাঁদ" },
+      { "en": "Milkha Singh", "as": "মিলখা সিং" },
+      { "en": "Sachin Tendulkar", "as": "সচিন তেন্দুলকৰ" },
+      { "en": "Kapil Dev", "as": "কপিল দেৱ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In 2021, the Khel Ratna Award was renamed the Major Dhyan Chand Khel Ratna Award.",
+      "as": "২০২১ চনত খেল ৰত্ন বঁটাৰ নাম সলনি কৰি মেজৰ ধ্যানচাঁদ খেল ৰত্ন বঁটা কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-153",
+    "q": {
+      "en": "Who was the first recipient of the Major Dhyan Chand Khel Ratna Award?",
+      "as": "মেজৰ ধ্যানচাঁদ খেল ৰত্ন বঁটাৰ প্ৰথম গ্ৰহণকৰ্তা কোন?"
+    },
+    "options": [
+      { "en": "Viswanathan Anand", "as": "বিশ্বনাথন আনন্দ" },
+      { "en": "Sachin Tendulkar", "as": "সচিন তেন্দুলকৰ" },
+      { "en": "Leander Paes", "as": "লিয়েণ্ডাৰ পায়েছ" },
+      { "en": "M.S. Dhoni", "as": "এম.এছ. ধোনি" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Viswanathan Anand was the first recipient of the Khel Ratna Award in 1991-92.",
+      "as": "বিশ্বনাথন আনন্দ ১৯৯১-৯২ চনত খেল ৰত্ন বঁটাৰ প্ৰথম গ্ৰহণকৰ্তা আছিল।"
+    }
+  },
+  {
+    "id": "awards-154",
+    "q": {
+      "en": "Which Indian sportsperson received the Bharat Ratna in 2014?",
+      "as": "২০১৪ চনত কোন ভাৰতীয় খেলুৱৈয়ে ভাৰত ৰত্ন লাভ কৰিছিল?"
+    },
+    "options": [
+      { "en": "Sachin Tendulkar", "as": "সচিন তেন্দুলকৰ" },
+      { "en": "Milkha Singh", "as": "মিলখা সিং" },
+      { "en": "Dhyan Chand", "as": "ধ্যানচাঁদ" },
+      { "en": "Kapil Dev", "as": "কপিল দেৱ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sachin Tendulkar received the Bharat Ratna in 2014, the first sportsperson to do so.",
+      "as": "সচিন তেন্দুলকৰে ২০১৪ চনত ভাৰত ৰত্ন লাভ কৰিছিল, তেওঁ প্ৰথম খেলুৱৈ।"
+    }
+  },
+  {
+    "id": "awards-155",
+    "q": {
+      "en": "Which sportsperson received the Bharat Ratna in 2015?",
+      "as": "২০১৫ চনত কোন খেলুৱৈয়ে ভাৰত ৰত্ন লাভ কৰিছিল?"
+    },
+    "options": [
+      { "en": "Dhyan Chand", "as": "ধ্যানচাঁদ" },
+      { "en": "Sachin Tendulkar", "as": "সচিন তেন্দুলকৰ" },
+      { "en": "Milkha Singh", "as": "মিলখা সিং" },
+      { "en": "P.T. Usha", "as": "পি.টি. ঊষা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The legendary hockey player Major Dhyan Chand received the Bharat Ratna in 2015.",
+      "as": "কিংবদন্তি হকী খেলুৱৈ মেজৰ ধ্যানচাঁদে ২০১৫ চনত ভাৰত ৰত্ন লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-156",
+    "q": {
+      "en": "The Saraswati Samman is given for excellence in which field?",
+      "as": "সৰস্বতী সন্মান কোন ক্ষেত্ৰত উৎকৰ্ষতাৰ বাবে দিয়া হয়?"
+    },
+    "options": [
+      { "en": "Literature", "as": "সাহিত্য" },
+      { "en": "Music", "as": "সংগীত" },
+      { "en": "Science", "as": "বিজ্ঞান" },
+      { "en": "Sports", "as": "ক্ৰীড়া" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Saraswati Samman is a literary award for outstanding prose or poetry in Indian languages.",
+      "as": "সৰস্বতী সন্মান ভাৰতীয় ভাষাসমূহৰ উৎকৃষ্ট গদ্য বা পদ্যৰ বাবে এটা সাহিত্য বঁটা।"
+    }
+  },
+  {
+    "id": "awards-157",
+    "q": {
+      "en": "Which award is given to honour exceptional contribution to Indian music?",
+      "as": "ভাৰতীয় সংগীতলৈ অসাধাৰণ অৱদান সন্মানিত কৰিবলৈ কোনটো বঁটা দিয়া হয়?"
+    },
+    "options": [
+      { "en": "Sangeet Natak Akademi Award", "as": "সংগীত নাটক অকাডেমী বঁটা" },
+      { "en": "Sahitya Akademi Award", "as": "সাহিত্য অকাডেমী বঁটা" },
+      { "en": "Lalit Kala Akademi Award", "as": "ললিত কলা অকাডেমী বঁটা" },
+      { "en": "Jnanpith Award", "as": "জ্ঞানপীঠ বঁটা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Sangeet Natak Akademi Award honours contributions to Indian music, dance and drama.",
+      "as": "সংগীত নাটক অকাডেমী বঁটাই ভাৰতীয় সংগীত, নৃত্য আৰু নাটকলৈ অৱদান সন্মানিত কৰে।"
+    }
+  },
+  {
+    "id": "awards-158",
+    "q": {
+      "en": "Which award is given by the Lalit Kala Akademi?",
+      "as": "ললিত কলা অকাডেমীয়ে কোনটো বঁটা প্ৰদান কৰে?"
+    },
+    "options": [
+      { "en": "For visual arts", "as": "ভিজুৱেল আৰ্টৰ বাবে" },
+      { "en": "For literature", "as": "সাহিত্যৰ বাবে" },
+      { "en": "For music", "as": "সংগীতৰ বাবে" },
+      { "en": "For sports", "as": "ক্ৰীড়াৰ বাবে" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Lalit Kala Akademi Awards are given for excellence in visual arts.",
+      "as": "ললিত কলা অকাডেমী বঁটা ভিজুৱেল আৰ্টত উৎকৰ্ষতাৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-159",
+    "q": {
+      "en": "Who was the first Indian to receive the Ramon Magsaysay Award?",
+      "as": "ৰেমন মেগছেছে বঁটা লাভ কৰা প্ৰথম ভাৰতীয় কোন?"
+    },
+    "options": [
+      { "en": "Acharya Vinoba Bhave", "as": "আচাৰ্য বিনোবা ভাৱে" },
+      { "en": "Mother Teresa", "as": "মাদাৰ টেৰেছা" },
+      { "en": "Satyajit Ray", "as": "সত্যজিত ৰায়" },
+      { "en": "Aruna Roy", "as": "অৰুণা ৰয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Acharya Vinoba Bhave was the first Indian to receive the Ramon Magsaysay Award in 1958.",
+      "as": "আচাৰ্য বিনোবা ভাৱে ১৯৫৮ চনত ৰেমন মেগছেছে বঁটা লাভ কৰা প্ৰথম ভাৰতীয় আছিল।"
+    }
+  },
+  {
+    "id": "awards-160",
+    "q": {
+      "en": "Which Indian won the Nobel Peace Prize for the microfinance movement?",
+      "as": "ক্ষুদ্ৰঋণ আন্দোলনৰ বাবে কোন ভাৰতীয়ই নোবেল শান্তি বঁটা জিকিছিল?"
+    },
+    "options": [
+      { "en": "Muhammad Yunus", "as": "মহম্মদ ইউনুছ" },
+      { "en": "Amartya Sen", "as": "অমৰ্ত্য সেন" },
+      { "en": "Kailash Satyarthi", "as": "কৈলাশ সত্যাৰ্থী" },
+      { "en": "Ela Bhatt", "as": "এলা ভাট" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Muhammad Yunus of Bangladesh won the Nobel Peace Prize in 2006 for the microfinance movement.",
+      "as": "বাংলাদেশৰ মহম্মদ ইউনুছে ২০০৬ চনত ক্ষুদ্ৰঋণ আন্দোলনৰ বাবে নোবেল শান্তি বঁটা জিকিছিল।"
+    }
+  },
+  {
+    "id": "awards-161",
+    "q": {
+      "en": "Which award is conferred on the best woman cricketer in India?",
+      "as": "ভাৰতৰ শ্ৰেষ্ঠ মহিলা ক্ৰিকেটাৰক কোনটো বঁটা প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      { "en": "Rachael Heyhoe Flint Award", "as": "ৰেচেল হেহো ফ্লিণ্ট বঁটা" },
+      { "en": "Arjuna Award", "as": "অৰ্জুন বঁটা" },
+      { "en": "Khel Ratna", "as": "খেল ৰত্ন" },
+      { "en": "Dhyan Chand Award", "as": "ধ্যানচাঁদ বঁটা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Rachael Heyhoe Flint Award is given to the ICC Women's Cricketer of the Year.",
+      "as": "ৰেচেল হেহো ফ্লিণ্ট বঁটা বছৰৰ শ্ৰেষ্ঠ আইচিচি মহিলা ক্ৰিকেটাৰক প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-162",
+    "q": {
+      "en": "Which award was instituted by the Government of Assam for excellence in sports?",
+      "as": "অসম চৰকাৰে ক্ৰীড়াত উৎকৰ্ষতাৰ বাবে কোনটো বঁটা প্ৰৱৰ্তন কৰিছিল?"
+    },
+    "options": [
+      { "en": "Sarbananda Sonowal Award", "as": "সৰ্বানন্দ সোণোৱাল বঁটা" },
+      { "en": "Bishnu Rabha Award", "as": "বিষ্ণু ৰাভা বঁটা" },
+      { "en": "Srimanta Sankardeva Award", "as": "শ্ৰীমন্ত শংকৰদেৱ বঁটা" },
+      { "en": "Kabi Nabin Chandra Bardoloi Award", "as": "কবি নৱীন চন্দ্ৰ বৰদলৈ বঁটা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Government of Assam instituted the Sarbananda Sonowal Award for sports excellence.",
+      "as": "অসম চৰকাৰে ক্ৰীড়া উৎকৰ্ষতাৰ বাবে সৰ্বানন্দ সোণোৱাল বঁটা প্ৰৱৰ্তন কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-163",
+    "q": {
+      "en": "Which is the highest award given by the Government of Assam in the field of literature?",
+      "as": "সাহিত্যৰ ক্ষেত্ৰত অসম চৰকাৰে দিয়া সৰ্বোচ্চ বঁটা কোনটো?"
+    },
+    "options": [
+      { "en": "Srimanta Sankardeva Award", "as": "শ্ৰীমন্ত শংকৰদেৱ বঁটা" },
+      { "en": "Assam Sahitya Sabha Award", "as": "অসম সাহিত্য সভা বঁটা" },
+      { "en": "Bishnu Rabha Award", "as": "বিষ্ণু ৰাভা বঁটা" },
+      { "en": "Sahitya Akademi Award", "as": "সাহিত্য অকাডেমী বঁটা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Srimanta Sankardeva Award is a prestigious literary and cultural award of Assam.",
+      "as": "শ্ৰীমন্ত শংকৰদেৱ বঁটা অসমৰ এটা সন্মানীয় সাহিত্যিক আৰু সাংস্কৃতিক বঁটা।"
+    }
+  },
+  {
+    "id": "awards-164",
+    "q": {
+      "en": "Who is known as the 'Father of the Indian Constitution' and received the Bharat Ratna?",
+      "as": "'ভাৰতীয় সংবিধানৰ পিতা' হিচাপে জনাজাত আৰু ভাৰত ৰত্ন লাভ কৰা ব্যক্তি কোন?"
+    },
+    "options": [
+      { "en": "B.R. Ambedkar", "as": "বি.আৰ. আম্বেদকাৰ" },
+      { "en": "Jawaharlal Nehru", "as": "জৱাহৰলাল নেহৰু" },
+      { "en": "Rajendra Prasad", "as": "ৰাজেন্দ্ৰ প্ৰসাদ" },
+      { "en": "Sardar Patel", "as": "সৰ্দাৰ পেটেল" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Dr. B.R. Ambedkar, the architect of the Indian Constitution, was awarded the Bharat Ratna posthumously in 1990.",
+      "as": "ভাৰতীয় সংবিধানৰ স্থপতি ড০ বি.আৰ. আম্বেদকাৰক ১৯৯০ চনত মৰণোত্তৰভাৱে ভাৰত ৰত্ন প্ৰদান কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-165",
+    "q": {
+      "en": "Which Indian state instituted the 'Tenzing Norgay Adventure Award'?",
+      "as": "'তেনজিং নৰ্গে এডভেঞ্চাৰ বঁটা' কোনে প্ৰৱৰ্তন কৰিছিল?"
+    },
+    "options": [
+      { "en": "Government of India", "as": "ভাৰত চৰকাৰ" },
+      { "en": "Government of Sikkim", "as": "ছিক্কিম চৰকাৰ" },
+      { "en": "Government of Assam", "as": "অসম চৰকাৰ" },
+      { "en": "Government of West Bengal", "as": "পশ্চিম বংগ চৰকাৰ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Tenzing Norgay National Adventure Award is given by the Government of India.",
+      "as": "তেনজিং নৰ্গে ৰাষ্ট্ৰীয় এডভেঞ্চাৰ বঁটা ভাৰত চৰকাৰে প্ৰদান কৰে।"
+    }
   }
-}
+]
