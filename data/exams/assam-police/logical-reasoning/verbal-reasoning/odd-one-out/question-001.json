@@ -1,30 +1,1082 @@
-{
-  "id": "odd-one-out-001",
-  "q": {
-    "en": "Choose the odd one out: 3, 5, 7, 9",
-    "as": "অসদৃশটো বাছনি কৰক: ৩, ৫, ৭, ৯"
-  },
-  "options": [
-    {
-      "en": "9",
-      "as": "৯"
+[
+  {
+    "id": "odd-one-out-001",
+    "q": {
+      "en": "Choose the odd one out: 3, 5, 7, 9",
+      "as": "অসদৃশটো বাছনি কৰক: ৩, ৫, ৭, ৯"
     },
-    {
-      "en": "3",
-      "as": "৩"
-    },
-    {
-      "en": "5",
-      "as": "৫"
-    },
-    {
-      "en": "7",
-      "as": "৭"
+    "options": [
+      { "en": "9", "as": "৯" },
+      { "en": "3", "as": "৩" },
+      { "en": "5", "as": "৫" },
+      { "en": "7", "as": "৭" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "3, 5 and 7 are prime numbers, but 9 is not a prime number.",
+      "as": "৩, ৫ আৰু ৭ মৌলিক সংখ্যা, কিন্তু ৯ মৌলিক সংখ্যা নহয়।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "3, 5 and 7 are prime numbers, but 9 is not a prime number.",
-    "as": "৩, ৫ আৰু ৭ মৌলিক সংখ্যা, কিন্তু ৯ মৌলিক সংখ্যা নহয়।"
+  },
+  {
+    "id": "odd-one-out-002",
+    "q": {
+      "en": "Choose the odd one out: 4, 9, 16, 20",
+      "as": "অসদৃশটো বাছনি কৰক: ৪, ৯, ১৬, ২০"
+    },
+    "options": [
+      { "en": "20", "as": "২০" },
+      { "en": "4", "as": "৪" },
+      { "en": "9", "as": "৯" },
+      { "en": "16", "as": "১৬" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "4, 9 and 16 are perfect squares, but 20 is not a perfect square.",
+      "as": "৪, ৯ আৰু ১৬ পূৰ্ণ বৰ্গ, কিন্তু ২০ পূৰ্ণ বৰ্গ নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-003",
+    "q": {
+      "en": "Choose the odd one out: 2, 4, 6, 9",
+      "as": "অসদৃশটো বাছনি কৰক: ২, ৪, ৬, ৯"
+    },
+    "options": [
+      { "en": "9", "as": "৯" },
+      { "en": "2", "as": "২" },
+      { "en": "4", "as": "৪" },
+      { "en": "6", "as": "৬" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "2, 4 and 6 are even numbers, but 9 is an odd number.",
+      "as": "২, ৪ আৰু ৬ যুগ্ম সংখ্যা, কিন্তু ৯ অযুগ্ম সংখ্যা।"
+    }
+  },
+  {
+    "id": "odd-one-out-004",
+    "q": {
+      "en": "Choose the odd one out: 8, 27, 64, 100",
+      "as": "অসদৃশটো বাছনি কৰক: ৮, ২৭, ৬৪, ১০০"
+    },
+    "options": [
+      { "en": "100", "as": "১০০" },
+      { "en": "8", "as": "৮" },
+      { "en": "27", "as": "২৭" },
+      { "en": "64", "as": "৬৪" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "8, 27 and 64 are perfect cubes, but 100 is not a perfect cube.",
+      "as": "৮, ২৭ আৰু ৬৪ পূৰ্ণ ঘন, কিন্তু ১০০ পূৰ্ণ ঘন নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-005",
+    "q": {
+      "en": "Choose the odd one out: 121, 144, 169, 180",
+      "as": "অসদৃশটো বাছনি কৰক: ১২১, ১৪৪, ১৬৯, ১৮০"
+    },
+    "options": [
+      { "en": "180", "as": "১৮০" },
+      { "en": "121", "as": "১২১" },
+      { "en": "144", "as": "১৪৪" },
+      { "en": "169", "as": "১৬৯" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "121, 144 and 169 are perfect squares, but 180 is not a perfect square.",
+      "as": "১২১, ১৪৪ আৰু ১৬৯ পূৰ্ণ বৰ্গ, কিন্তু ১৮০ পূৰ্ণ বৰ্গ নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-006",
+    "q": {
+      "en": "Choose the odd one out: 11, 13, 17, 21",
+      "as": "অসদৃশটো বাছনি কৰক: ১১, ১৩, ১৭, ২১"
+    },
+    "options": [
+      { "en": "21", "as": "২১" },
+      { "en": "11", "as": "১১" },
+      { "en": "13", "as": "১৩" },
+      { "en": "17", "as": "১৭" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "11, 13 and 17 are prime numbers, but 21 is not a prime number.",
+      "as": "১১, ১৩ আৰু ১৭ মৌলিক সংখ্যা, কিন্তু ২১ মৌলিক সংখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-007",
+    "q": {
+      "en": "Choose the odd one out: 6, 10, 15, 18",
+      "as": "অসদৃশটো বাছনি কৰক: ৬, ১০, ১৫, ১৮"
+    },
+    "options": [
+      { "en": "15", "as": "১৫" },
+      { "en": "6", "as": "৬" },
+      { "en": "10", "as": "১০" },
+      { "en": "18", "as": "১৮" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "6, 10 and 18 are even numbers, but 15 is an odd number.",
+      "as": "৬, ১০ আৰু ১৮ যুগ্ম সংখ্যা, কিন্তু ১৫ অযুগ্ম সংখ্যা।"
+    }
+  },
+  {
+    "id": "odd-one-out-008",
+    "q": {
+      "en": "Choose the odd one out: 1, 4, 9, 12",
+      "as": "অসদৃশটো বাছনি কৰক: ১, ৪, ৯, ১২"
+    },
+    "options": [
+      { "en": "12", "as": "১২" },
+      { "en": "1", "as": "১" },
+      { "en": "4", "as": "৪" },
+      { "en": "9", "as": "৯" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "1, 4 and 9 are perfect squares, but 12 is not a perfect square.",
+      "as": "১, ৪ আৰু ৯ পূৰ্ণ বৰ্গ, কিন্তু ১২ পূৰ্ণ বৰ্গ নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-009",
+    "q": {
+      "en": "Choose the odd one out: 2, 3, 5, 9",
+      "as": "অসদৃশটো বাছনি কৰক: ২, ৩, ৫, ৯"
+    },
+    "options": [
+      { "en": "9", "as": "৯" },
+      { "en": "2", "as": "২" },
+      { "en": "3", "as": "৩" },
+      { "en": "5", "as": "৫" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "2, 3 and 5 are prime numbers, but 9 is not a prime number.",
+      "as": "২, ৩ আৰু ৫ মৌলিক সংখ্যা, কিন্তু ৯ মৌলিক সংখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-010",
+    "q": {
+      "en": "Choose the odd one out: 16, 24, 32, 36",
+      "as": "অসদৃশটো বাছনি কৰক: ১৬, ২৪, ৩২, ৩৬"
+    },
+    "options": [
+      { "en": "36", "as": "৩৬" },
+      { "en": "16", "as": "১৬" },
+      { "en": "24", "as": "২৪" },
+      { "en": "32", "as": "৩২" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "16, 24 and 32 are multiples of 8, but 36 is not a multiple of 8.",
+      "as": "১৬, ২৪ আৰু ৩২ ৮ ৰ গুণিতক, কিন্তু ৩৬ ৮ ৰ গুণিতক নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-011",
+    "q": {
+      "en": "Choose the odd one out: 25, 49, 64, 81",
+      "as": "অসদৃশটো বাছনি কৰক: ২৫, ৪৯, ৬৪, ৮১"
+    },
+    "options": [
+      { "en": "64", "as": "৬৪" },
+      { "en": "25", "as": "২৫" },
+      { "en": "49", "as": "৪৯" },
+      { "en": "81", "as": "৮১" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "25, 49 and 81 are odd perfect squares, but 64 is an even perfect square.",
+      "as": "২৫, ৪৯ আৰু ৮১ অযুগ্ম পূৰ্ণ বৰ্গ, কিন্তু ৬৪ যুগ্ম পূৰ্ণ বৰ্গ।"
+    }
+  },
+  {
+    "id": "odd-one-out-012",
+    "q": {
+      "en": "Choose the odd one out: 5, 10, 15, 22",
+      "as": "অসদৃশটো বাছনি কৰক: ৫, ১০, ১৫, ২২"
+    },
+    "options": [
+      { "en": "22", "as": "২২" },
+      { "en": "5", "as": "৫" },
+      { "en": "10", "as": "১০" },
+      { "en": "15", "as": "১৫" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "5, 10 and 15 are multiples of 5, but 22 is not a multiple of 5.",
+      "as": "৫, ১০ আৰু ১৫ ৫ ৰ গুণিতক, কিন্তু ২২ ৫ ৰ গুণিতক নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-013",
+    "q": {
+      "en": "Choose the odd one out: 1, 8, 27, 36",
+      "as": "অসদৃশটো বাছনি কৰক: ১, ৮, ২৭, ৩৬"
+    },
+    "options": [
+      { "en": "36", "as": "৩৬" },
+      { "en": "1", "as": "১" },
+      { "en": "8", "as": "৮" },
+      { "en": "27", "as": "২৭" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "1, 8 and 27 are perfect cubes, but 36 is not a perfect cube.",
+      "as": "১, ৮ আৰু ২৭ পূৰ্ণ ঘন, কিন্তু ৩৬ পূৰ্ণ ঘন নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-014",
+    "q": {
+      "en": "Choose the odd one out: 30, 42, 56, 65",
+      "as": "অসদৃশটো বাছনি কৰক: ৩০, ৪২, ৫৬, ৬৫"
+    },
+    "options": [
+      { "en": "65", "as": "৬৫" },
+      { "en": "30", "as": "৩০" },
+      { "en": "42", "as": "৪২" },
+      { "en": "56", "as": "৫৬" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "30, 42 and 56 are even numbers, but 65 is an odd number.",
+      "as": "৩০, ৪২ আৰু ৫৬ যুগ্ম সংখ্যা, কিন্তু ৬৫ অযুগ্ম সংখ্যা।"
+    }
+  },
+  {
+    "id": "odd-one-out-015",
+    "q": {
+      "en": "Choose the odd one out: 7, 14, 21, 25",
+      "as": "অসদৃশটো বাছনি কৰক: ৭, ১৪, ২১, ২৫"
+    },
+    "options": [
+      { "en": "25", "as": "২৫" },
+      { "en": "7", "as": "৭" },
+      { "en": "14", "as": "১৪" },
+      { "en": "21", "as": "২১" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "7, 14 and 21 are multiples of 7, but 25 is not a multiple of 7.",
+      "as": "৭, ১৪ আৰু ২১ ৭ ৰ গুণিতক, কিন্তু ২৫ ৭ ৰ গুণিতক নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-016",
+    "q": {
+      "en": "Choose the odd one out: 100, 225, 289, 300",
+      "as": "অসদৃশটো বাছনি কৰক: ১০০, ২২৫, ২৮৯, ৩০০"
+    },
+    "options": [
+      { "en": "300", "as": "৩০০" },
+      { "en": "100", "as": "১০০" },
+      { "en": "225", "as": "২২৫" },
+      { "en": "289", "as": "২৮৯" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "100, 225 and 289 are perfect squares, but 300 is not a perfect square.",
+      "as": "১০০, ২২৫ আৰু ২৮৯ পূৰ্ণ বৰ্গ, কিন্তু ৩০০ পূৰ্ণ বৰ্গ নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-017",
+    "q": {
+      "en": "Choose the odd one out: 15, 2, 5, 13",
+      "as": "অসদৃশটো বাছনি কৰক: ১৫, ২, ৫, ১৩"
+    },
+    "options": [
+      { "en": "15", "as": "১৫" },
+      { "en": "2", "as": "২" },
+      { "en": "5", "as": "৫" },
+      { "en": "13", "as": "১৩" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "2, 5 and 13 are prime numbers, but 15 is not a prime number.",
+      "as": "২, ৫ আৰু ১৩ মৌলিক সংখ্যা, কিন্তু ১৫ মৌলিক সংখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-018",
+    "q": {
+      "en": "Choose the odd one out: 12, 18, 24, 28",
+      "as": "অসদৃশটো বাছনি কৰক: ১২, ১৮, ২৪, ২৮"
+    },
+    "options": [
+      { "en": "28", "as": "২৮" },
+      { "en": "12", "as": "১২" },
+      { "en": "18", "as": "১৮" },
+      { "en": "24", "as": "২৪" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "12, 18 and 24 are multiples of 6, but 28 is not a multiple of 6.",
+      "as": "১২, ১৮ আৰু ২৪ ৬ ৰ গুণিতক, কিন্তু ২৮ ৬ ৰ গুণিতক নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-019",
+    "q": {
+      "en": "Choose the odd one out: 16, 3, 6, 9",
+      "as": "অসদৃশটো বাছনি কৰক: ১৬, ৩, ৬, ৯"
+    },
+    "options": [
+      { "en": "16", "as": "১৬" },
+      { "en": "3", "as": "৩" },
+      { "en": "6", "as": "৬" },
+      { "en": "9", "as": "৯" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "3, 6 and 9 are multiples of 3, but 16 is not a multiple of 3.",
+      "as": "৩, ৬ আৰু ৯ ৩ ৰ গুণিতক, কিন্তু ১৬ ৩ ৰ গুণিতক নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-020",
+    "q": {
+      "en": "Choose the odd one out: 49, 4, 16, 36",
+      "as": "অসদৃশটো বাছনি কৰক: ৪৯, ৪, ১৬, ৩৬"
+    },
+    "options": [
+      { "en": "49", "as": "৪৯" },
+      { "en": "4", "as": "৪" },
+      { "en": "16", "as": "১৬" },
+      { "en": "36", "as": "৩৬" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "4, 16 and 36 are even perfect squares, but 49 is an odd perfect square.",
+      "as": "৪, ১৬ আৰু ৩৬ যুগ্ম পূৰ্ণ বৰ্গ, কিন্তু ৪৯ অযুগ্ম পূৰ্ণ বৰ্গ।"
+    }
+  },
+  {
+    "id": "odd-one-out-021",
+    "q": {
+      "en": "Choose the odd one out: B, A, E, I",
+      "as": "অসদৃশটো বাছনি কৰক: B, A, E, I"
+    },
+    "options": [
+      { "en": "B", "as": "B" },
+      { "en": "A", "as": "A" },
+      { "en": "E", "as": "E" },
+      { "en": "I", "as": "I" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A, E and I are vowels, but B is a consonant.",
+      "as": "A, E আৰু I স্বৰবৰ্ণ, কিন্তু B ব্যঞ্জনবৰ্ণ।"
+    }
+  },
+  {
+    "id": "odd-one-out-022",
+    "q": {
+      "en": "Choose the odd one out: E, B, C, D",
+      "as": "অসদৃশটো বাছনি কৰক: E, B, C, D"
+    },
+    "options": [
+      { "en": "E", "as": "E" },
+      { "en": "B", "as": "B" },
+      { "en": "C", "as": "C" },
+      { "en": "D", "as": "D" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "B, C and D are consonants, but E is a vowel.",
+      "as": "B, C আৰু D ব্যঞ্জনবৰ্ণ, কিন্তু E স্বৰবৰ্ণ।"
+    }
+  },
+  {
+    "id": "odd-one-out-023",
+    "q": {
+      "en": "Choose the odd one out: K, A, E, I",
+      "as": "অসদৃশটো বাছনি কৰক: K, A, E, I"
+    },
+    "options": [
+      { "en": "K", "as": "K" },
+      { "en": "A", "as": "A" },
+      { "en": "E", "as": "E" },
+      { "en": "I", "as": "I" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A, E and I are vowels, but K is a consonant.",
+      "as": "A, E আৰু I স্বৰবৰ্ণ, কিন্তু K ব্যঞ্জনবৰ্ণ।"
+    }
+  },
+  {
+    "id": "odd-one-out-024",
+    "q": {
+      "en": "Choose the odd one out: O, A, M, T",
+      "as": "অসদৃশটো বাছনি কৰক: O, A, M, T"
+    },
+    "options": [
+      { "en": "O", "as": "O" },
+      { "en": "A", "as": "A" },
+      { "en": "M", "as": "M" },
+      { "en": "T", "as": "T" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A, M and T are made of straight lines only, but O is curved.",
+      "as": "A, M আৰু T কেৱল পোন ৰেখাৰে গঠিত, কিন্তু O বক্ৰ।"
+    }
+  },
+  {
+    "id": "odd-one-out-025",
+    "q": {
+      "en": "Choose the odd one out: X, C, O, S",
+      "as": "অসদৃশটো বাছনি কৰক: X, C, O, S"
+    },
+    "options": [
+      { "en": "X", "as": "X" },
+      { "en": "C", "as": "C" },
+      { "en": "O", "as": "O" },
+      { "en": "S", "as": "S" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "C, O and S are curved letters, but X is made of straight lines.",
+      "as": "C, O আৰু S বক্ৰ আখৰ, কিন্তু X পোন ৰেখাৰে গঠিত।"
+    }
+  },
+  {
+    "id": "odd-one-out-026",
+    "q": {
+      "en": "Choose the odd one out: I, B, D, F",
+      "as": "অসদৃশটো বাছনি কৰক: I, B, D, F"
+    },
+    "options": [
+      { "en": "I", "as": "I" },
+      { "en": "B", "as": "B" },
+      { "en": "D", "as": "D" },
+      { "en": "F", "as": "F" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "B, D and F are at even positions in the alphabet, but I is at an odd position.",
+      "as": "বৰ্ণমালাত B, D আৰু F যুগ্ম স্থানত, কিন্তু I অযুগ্ম স্থানত।"
+    }
+  },
+  {
+    "id": "odd-one-out-027",
+    "q": {
+      "en": "Choose the odd one out: H, A, C, E",
+      "as": "অসদৃশটো বাছনি কৰক: H, A, C, E"
+    },
+    "options": [
+      { "en": "H", "as": "H" },
+      { "en": "A", "as": "A" },
+      { "en": "C", "as": "C" },
+      { "en": "E", "as": "E" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A, C and E are at odd positions in the alphabet, but H is at an even position.",
+      "as": "বৰ্ণমালাত A, C আৰু E অযুগ্ম স্থানত, কিন্তু H যুগ্ম স্থানত।"
+    }
+  },
+  {
+    "id": "odd-one-out-028",
+    "q": {
+      "en": "Choose the odd one out: K, B, D, F",
+      "as": "অসদৃশটো বাছনি কৰক: K, B, D, F"
+    },
+    "options": [
+      { "en": "K", "as": "K" },
+      { "en": "B", "as": "B" },
+      { "en": "D", "as": "D" },
+      { "en": "F", "as": "F" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "B, D and F are at even positions in the alphabet, but K is at an odd position.",
+      "as": "বৰ্ণমালাত B, D আৰু F যুগ্ম স্থানত, কিন্তু K অযুগ্ম স্থানত।"
+    }
+  },
+  {
+    "id": "odd-one-out-029",
+    "q": {
+      "en": "Choose the odd one out: G, A, E, U",
+      "as": "অসদৃশটো বাছনি কৰক: G, A, E, U"
+    },
+    "options": [
+      { "en": "G", "as": "G" },
+      { "en": "A", "as": "A" },
+      { "en": "E", "as": "E" },
+      { "en": "U", "as": "U" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A, E and U are vowels, but G is a consonant.",
+      "as": "A, E আৰু U স্বৰবৰ্ণ, কিন্তু G ব্যঞ্জনবৰ্ণ।"
+    }
+  },
+  {
+    "id": "odd-one-out-030",
+    "q": {
+      "en": "Choose the odd one out: O, M, N, P",
+      "as": "অসদৃশটো বাছনি কৰক: O, M, N, P"
+    },
+    "options": [
+      { "en": "O", "as": "O" },
+      { "en": "M", "as": "M" },
+      { "en": "N", "as": "N" },
+      { "en": "P", "as": "P" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "M, N and P are consonants, but O is a vowel.",
+      "as": "M, N আৰু P ব্যঞ্জনবৰ্ণ, কিন্তু O স্বৰবৰ্ণ।"
+    }
+  },
+  {
+    "id": "odd-one-out-031",
+    "q": {
+      "en": "Choose the odd one out: Carrot, Apple, Banana, Mango",
+      "as": "অসদৃশটো বাছনি কৰক: গাজৰ, আপেল, কল, আম"
+    },
+    "options": [
+      { "en": "Carrot", "as": "গাজৰ" },
+      { "en": "Apple", "as": "আপেল" },
+      { "en": "Banana", "as": "কল" },
+      { "en": "Mango", "as": "আম" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Apple, Banana and Mango are fruits, but Carrot is a vegetable.",
+      "as": "আপেল, কল আৰু আম ফল, কিন্তু গাজৰ পাচলি।"
+    }
+  },
+  {
+    "id": "odd-one-out-032",
+    "q": {
+      "en": "Choose the odd one out: Apple, Potato, Tomato, Onion",
+      "as": "অসদৃশটো বাছনি কৰক: আপেল, আলু, টমেটো, পিয়াঁজ"
+    },
+    "options": [
+      { "en": "Apple", "as": "আপেল" },
+      { "en": "Potato", "as": "আলু" },
+      { "en": "Tomato", "as": "টমেটো" },
+      { "en": "Onion", "as": "পিয়াঁজ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Potato, Tomato and Onion are vegetables, but Apple is a fruit.",
+      "as": "আলু, টমেটো আৰু পিয়াঁজ পাচলি, কিন্তু আপেল ফল।"
+    }
+  },
+  {
+    "id": "odd-one-out-033",
+    "q": {
+      "en": "Choose the odd one out: Brinjal, Grape, Orange, Papaya",
+      "as": "অসদৃশটো বাছনি কৰক: বেঙেনা, আঙুৰ, কমলা, অমিতা"
+    },
+    "options": [
+      { "en": "Brinjal", "as": "বেঙেনা" },
+      { "en": "Grape", "as": "আঙুৰ" },
+      { "en": "Orange", "as": "কমলা" },
+      { "en": "Papaya", "as": "অমিতা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Grape, Orange and Papaya are fruits, but Brinjal is a vegetable.",
+      "as": "আঙুৰ, কমলা আৰু অমিতা ফল, কিন্তু বেঙেনা পাচলি।"
+    }
+  },
+  {
+    "id": "odd-one-out-034",
+    "q": {
+      "en": "Choose the odd one out: Banana, Cabbage, Cauliflower, Radish",
+      "as": "অসদৃশটো বাছনি কৰক: কল, বন্ধাকবি, ফুলকবি, মূলা"
+    },
+    "options": [
+      { "en": "Banana", "as": "কল" },
+      { "en": "Cabbage", "as": "বন্ধাকবি" },
+      { "en": "Cauliflower", "as": "ফুলকবি" },
+      { "en": "Radish", "as": "মূলা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cabbage, Cauliflower and Radish are vegetables, but Banana is a fruit.",
+      "as": "বন্ধাকবি, ফুলকবি আৰু মূলা পাচলি, কিন্তু কল ফল।"
+    }
+  },
+  {
+    "id": "odd-one-out-035",
+    "q": {
+      "en": "Choose the odd one out: Rose, Mango, Apple, Guava",
+      "as": "অসদৃশটো বাছনি কৰক: গোলাপ, আম, আপেল, আমৰলু"
+    },
+    "options": [
+      { "en": "Rose", "as": "গোলাপ" },
+      { "en": "Mango", "as": "আম" },
+      { "en": "Apple", "as": "আপেল" },
+      { "en": "Guava", "as": "আমৰলু" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mango, Apple and Guava are fruits, but Rose is a flower.",
+      "as": "আম, আপেল আৰু আমৰলু ফল, কিন্তু গোলাপ ফুল।"
+    }
+  },
+  {
+    "id": "odd-one-out-036",
+    "q": {
+      "en": "Choose the odd one out: Mango, Rose, Lotus, Marigold",
+      "as": "অসদৃশটো বাছনি কৰক: আম, গোলাপ, পদুম, গেঁদুলি"
+    },
+    "options": [
+      { "en": "Mango", "as": "আম" },
+      { "en": "Rose", "as": "গোলাপ" },
+      { "en": "Lotus", "as": "পদুম" },
+      { "en": "Marigold", "as": "গেঁদুলি" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Rose, Lotus and Marigold are flowers, but Mango is a fruit.",
+      "as": "গোলাপ, পদুম আৰু গেঁদুলি ফুল, কিন্তু আম ফল।"
+    }
+  },
+  {
+    "id": "odd-one-out-037",
+    "q": {
+      "en": "Choose the odd one out: Neem, Lily, Jasmine, Sunflower",
+      "as": "অসদৃশটো বাছনি কৰক: নিম, লিলি, যুঁইফুল, সূৰ্যমুখী"
+    },
+    "options": [
+      { "en": "Neem", "as": "নিম" },
+      { "en": "Lily", "as": "লিলি" },
+      { "en": "Jasmine", "as": "যুঁইফুল" },
+      { "en": "Sunflower", "as": "সূৰ্যমুখী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Lily, Jasmine and Sunflower are flowers, but Neem is a tree.",
+      "as": "লিলি, যুঁইফুল আৰু সূৰ্যমুখী ফুল, কিন্তু নিম গছ।"
+    }
+  },
+  {
+    "id": "odd-one-out-038",
+    "q": {
+      "en": "Choose the odd one out: Lion, Dog, Cat, Cow",
+      "as": "অসদৃশটো বাছনি কৰক: সিংহ, কুকুৰ, মেকুৰী, গৰু"
+    },
+    "options": [
+      { "en": "Lion", "as": "সিংহ" },
+      { "en": "Dog", "as": "কুকুৰ" },
+      { "en": "Cat", "as": "মেকুৰী" },
+      { "en": "Cow", "as": "গৰু" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Dog, Cat and Cow are domestic animals, but Lion is a wild animal.",
+      "as": "কুকুৰ, মেকুৰী আৰু গৰু পোহনীয়া জন্তু, কিন্তু সিংহ বনৰীয়া জন্তু।"
+    }
+  },
+  {
+    "id": "odd-one-out-039",
+    "q": {
+      "en": "Choose the odd one out: Deer, Tiger, Lion, Leopard",
+      "as": "অসদৃশটো বাছনি কৰক: হৰিণ, বাঘ, সিংহ, নাহৰফুটুকী"
+    },
+    "options": [
+      { "en": "Deer", "as": "হৰিণ" },
+      { "en": "Tiger", "as": "বাঘ" },
+      { "en": "Lion", "as": "সিংহ" },
+      { "en": "Leopard", "as": "নাহৰফুটুকী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Tiger, Lion and Leopard are carnivores, but Deer is a herbivore.",
+      "as": "বাঘ, সিংহ আৰু নাহৰফুটুকী মাংসভোজী, কিন্তু হৰিণ তৃণভোজী।"
+    }
+  },
+  {
+    "id": "odd-one-out-040",
+    "q": {
+      "en": "Choose the odd one out: Wolf, Cow, Goat, Horse",
+      "as": "অসদৃশটো বাছনি কৰক: কুকুৰনেছীয়া বাঘ, গৰু, ছাগলী, ঘোঁৰা"
+    },
+    "options": [
+      { "en": "Wolf", "as": "কুকুৰনেছীয়া বাঘ" },
+      { "en": "Cow", "as": "গৰু" },
+      { "en": "Goat", "as": "ছাগলী" },
+      { "en": "Horse", "as": "ঘোঁৰা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cow, Goat and Horse are herbivores, but Wolf is a carnivore.",
+      "as": "গৰু, ছাগলী আৰু ঘোঁৰা তৃণভোজী, কিন্তু কুকুৰনেছীয়া বাঘ মাংসভোজী।"
+    }
+  },
+  {
+    "id": "odd-one-out-041",
+    "q": {
+      "en": "Choose the odd one out: Frog, Snake, Lizard, Crocodile",
+      "as": "অসদৃশটো বাছনি কৰক: ভেকুলী, সাপ, জেঠী, ঘঁৰিয়াল"
+    },
+    "options": [
+      { "en": "Frog", "as": "ভেকুলী" },
+      { "en": "Snake", "as": "সাপ" },
+      { "en": "Lizard", "as": "জেঠী" },
+      { "en": "Crocodile", "as": "ঘঁৰিয়াল" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Snake, Lizard and Crocodile are reptiles, but Frog is an amphibian.",
+      "as": "সাপ, জেঠী আৰু ঘঁৰিয়াল সৰীসৃপ, কিন্তু ভেকুলী উভচৰ।"
+    }
+  },
+  {
+    "id": "odd-one-out-042",
+    "q": {
+      "en": "Choose the odd one out: Whale, Cow, Dog, Goat",
+      "as": "অসদৃশটো বাছনি কৰক: তিমি, গৰু, কুকুৰ, ছাগলী"
+    },
+    "options": [
+      { "en": "Whale", "as": "তিমি" },
+      { "en": "Cow", "as": "গৰু" },
+      { "en": "Dog", "as": "কুকুৰ" },
+      { "en": "Goat", "as": "ছাগলী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cow, Dog and Goat are land animals, but Whale is an aquatic animal.",
+      "as": "গৰু, কুকুৰ আৰু ছাগলী স্থলজ জন্তু, কিন্তু তিমি জলজ জন্তু।"
+    }
+  },
+  {
+    "id": "odd-one-out-043",
+    "q": {
+      "en": "Choose the odd one out: Bat, Crow, Sparrow, Pigeon",
+      "as": "অসদৃশটো বাছনি কৰক: বাদুলি, কাউৰী, ঘৰচিৰিকা, কপৌ"
+    },
+    "options": [
+      { "en": "Bat", "as": "বাদুলি" },
+      { "en": "Crow", "as": "কাউৰী" },
+      { "en": "Sparrow", "as": "ঘৰচিৰিকা" },
+      { "en": "Pigeon", "as": "কপৌ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Crow, Sparrow and Pigeon are birds, but Bat is not a bird.",
+      "as": "কাউৰী, ঘৰচিৰিকা আৰু কপৌ চৰাই, কিন্তু বাদুলি চৰাই নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-044",
+    "q": {
+      "en": "Choose the odd one out: Eagle, Penguin, Ostrich, Kiwi",
+      "as": "অসদৃশটো বাছনি কৰক: ঈগল, পেংগুইন, উটপক্ষী, কিউই"
+    },
+    "options": [
+      { "en": "Eagle", "as": "ঈগল" },
+      { "en": "Penguin", "as": "পেংগুইন" },
+      { "en": "Ostrich", "as": "উটপক্ষী" },
+      { "en": "Kiwi", "as": "কিউই" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Penguin, Ostrich and Kiwi cannot fly, but Eagle can fly.",
+      "as": "পেংগুইন, উটপক্ষী আৰু কিউই উৰিব নোৱাৰে, কিন্তু ঈগলে উৰিব পাৰে।"
+    }
+  },
+  {
+    "id": "odd-one-out-045",
+    "q": {
+      "en": "Choose the odd one out: Lion, Cow, Buffalo, Sheep",
+      "as": "অসদৃশটো বাছনি কৰক: সিংহ, গৰু, ম'হ, ভেড়া"
+    },
+    "options": [
+      { "en": "Lion", "as": "সিংহ" },
+      { "en": "Cow", "as": "গৰু" },
+      { "en": "Buffalo", "as": "ম'হ" },
+      { "en": "Sheep", "as": "ভেড়া" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cow, Buffalo and Sheep are herbivores, but Lion is a carnivore.",
+      "as": "গৰু, ম'হ আৰু ভেড়া তৃণভোজী, কিন্তু সিংহ মাংসভোজী।"
+    }
+  },
+  {
+    "id": "odd-one-out-046",
+    "q": {
+      "en": "Choose the odd one out: Finger, Eye, Ear, Nose",
+      "as": "অসদৃশটো বাছনি কৰক: আঙুলি, চকু, কাণ, নাক"
+    },
+    "options": [
+      { "en": "Finger", "as": "আঙুলি" },
+      { "en": "Eye", "as": "চকু" },
+      { "en": "Ear", "as": "কাণ" },
+      { "en": "Nose", "as": "নাক" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Eye, Ear and Nose are sense organs, but Finger is not a sense organ.",
+      "as": "চকু, কাণ আৰু নাক জ্ঞানেন্দ্ৰিয়, কিন্তু আঙুলি জ্ঞানেন্দ্ৰিয় নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-047",
+    "q": {
+      "en": "Choose the odd one out: Hand, Ear, Eye, Nose",
+      "as": "অসদৃশটো বাছনি কৰক: হাত, কাণ, চকু, নাক"
+    },
+    "options": [
+      { "en": "Hand", "as": "হাত" },
+      { "en": "Ear", "as": "কাণ" },
+      { "en": "Eye", "as": "চকু" },
+      { "en": "Nose", "as": "নাক" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ear, Eye and Nose are sense organs, but Hand is not a sense organ.",
+      "as": "কাণ, চকু আৰু নাক জ্ঞানেন্দ্ৰিয়, কিন্তু হাত জ্ঞানেন্দ্ৰিয় নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-048",
+    "q": {
+      "en": "Choose the odd one out: Sweet, Red, Blue, Green",
+      "as": "অসদৃশটো বাছনি কৰক: মিঠা, ৰঙা, নীলা, সেউজীয়া"
+    },
+    "options": [
+      { "en": "Sweet", "as": "মিঠা" },
+      { "en": "Red", "as": "ৰঙা" },
+      { "en": "Blue", "as": "নীলা" },
+      { "en": "Green", "as": "সেউজীয়া" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Red, Blue and Green are colours, but Sweet is a taste.",
+      "as": "ৰঙা, নীলা আৰু সেউজীয়া ৰং, কিন্তু মিঠা এটা স্বাদ।"
+    }
+  },
+  {
+    "id": "odd-one-out-049",
+    "q": {
+      "en": "Choose the odd one out: Black, Red, Yellow, Blue",
+      "as": "অসদৃশটো বাছনি কৰক: ক'লা, ৰঙা, হালধীয়া, নীলা"
+    },
+    "options": [
+      { "en": "Black", "as": "ক'লা" },
+      { "en": "Red", "as": "ৰঙা" },
+      { "en": "Yellow", "as": "হালধীয়া" },
+      { "en": "Blue", "as": "নীলা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Red, Yellow and Blue are primary colours, but Black is not a primary colour.",
+      "as": "ৰঙা, হালধীয়া আৰু নীলা প্ৰাথমিক ৰং, কিন্তু ক'লা প্ৰাথমিক ৰং নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-050",
+    "q": {
+      "en": "Choose the odd one out: Hospital, Doctor, Engineer, Teacher",
+      "as": "অসদৃশটো বাছনি কৰক: চিকিৎসালয়, ডাক্তৰ, অভিযন্তা, শিক্ষক"
+    },
+    "options": [
+      { "en": "Hospital", "as": "চিকিৎসালয়" },
+      { "en": "Doctor", "as": "ডাক্তৰ" },
+      { "en": "Engineer", "as": "অভিযন্তা" },
+      { "en": "Teacher", "as": "শিক্ষক" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Doctor, Engineer and Teacher are professions, but Hospital is a place.",
+      "as": "ডাক্তৰ, অভিযন্তা আৰু শিক্ষক পেছা, কিন্তু চিকিৎসালয় এখন ঠাই।"
+    }
+  },
+  {
+    "id": "odd-one-out-051",
+    "q": {
+      "en": "Choose the odd one out: Table, Pen, Pencil, Eraser",
+      "as": "অসদৃশটো বাছনি কৰক: মেজ, কলম, পেঞ্চিল, ৰবৰ"
+    },
+    "options": [
+      { "en": "Table", "as": "মেজ" },
+      { "en": "Pen", "as": "কলম" },
+      { "en": "Pencil", "as": "পেঞ্চিল" },
+      { "en": "Eraser", "as": "ৰবৰ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Pen, Pencil and Eraser are stationery items, but Table is furniture.",
+      "as": "কলম, পেঞ্চিল আৰু ৰবৰ লিখা সামগ্ৰী, কিন্তু মেজ আসবাব।"
+    }
+  },
+  {
+    "id": "odd-one-out-052",
+    "q": {
+      "en": "Choose the odd one out: Plate, Chair, Table, Sofa",
+      "as": "অসদৃশটো বাছনি কৰক: থাল, চকী, মেজ, চোফা"
+    },
+    "options": [
+      { "en": "Plate", "as": "থাল" },
+      { "en": "Chair", "as": "চকী" },
+      { "en": "Table", "as": "মেজ" },
+      { "en": "Sofa", "as": "চোফা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Chair, Table and Sofa are furniture, but Plate is a utensil.",
+      "as": "চকী, মেজ আৰু চোফা আসবাব, কিন্তু থাল বাচন।"
+    }
+  },
+  {
+    "id": "odd-one-out-053",
+    "q": {
+      "en": "Choose the odd one out: Aeroplane, Bus, Car, Train",
+      "as": "অসদৃশটো বাছনি কৰক: বিমান, বাছ, গাড়ী, ৰেল"
+    },
+    "options": [
+      { "en": "Aeroplane", "as": "বিমান" },
+      { "en": "Bus", "as": "বাছ" },
+      { "en": "Car", "as": "গাড়ী" },
+      { "en": "Train", "as": "ৰেল" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bus, Car and Train run on land, but Aeroplane flies in the air.",
+      "as": "বাছ, গাড়ী আৰু ৰেল স্থলপথে চলে, কিন্তু বিমান আকাশত উৰে।"
+    }
+  },
+  {
+    "id": "odd-one-out-054",
+    "q": {
+      "en": "Choose the odd one out: Gun, Knife, Sword, Axe",
+      "as": "অসদৃশটো বাছনি কৰক: বন্দুক, ছুৰী, তৰোৱাল, কুঠাৰ"
+    },
+    "options": [
+      { "en": "Gun", "as": "বন্দুক" },
+      { "en": "Knife", "as": "ছুৰী" },
+      { "en": "Sword", "as": "তৰোৱাল" },
+      { "en": "Axe", "as": "কুঠাৰ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Knife, Sword and Axe are cutting weapons, but Gun is a firearm.",
+      "as": "ছুৰী, তৰোৱাল আৰু কুঠাৰ কটা অস্ত্ৰ, কিন্তু বন্দুক এটা আগ্নেয়াস্ত্ৰ।"
+    }
+  },
+  {
+    "id": "odd-one-out-055",
+    "q": {
+      "en": "Choose the odd one out: Mirror, Clock, Watch, Calendar",
+      "as": "অসদৃশটো বাছনি কৰক: দাপোণ, ঘড়ী, হাতঘড়ী, পাঞ্জিকা"
+    },
+    "options": [
+      { "en": "Mirror", "as": "দাপোণ" },
+      { "en": "Clock", "as": "ঘড়ী" },
+      { "en": "Watch", "as": "হাতঘড়ী" },
+      { "en": "Calendar", "as": "পাঞ্জিকা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Clock, Watch and Calendar show time or dates, but Mirror is not related to time.",
+      "as": "ঘড়ী, হাতঘড়ী আৰু পাঞ্জিকাই সময় বা তাৰিখ দেখুৱায়, কিন্তু দাপোণৰ সময়ৰ লগত সম্পৰ্ক নাই।"
+    }
+  },
+  {
+    "id": "odd-one-out-056",
+    "q": {
+      "en": "Choose the odd one out: Water, Gold, Silver, Iron",
+      "as": "অসদৃশটো বাছনি কৰক: পানী, সোণ, ৰূপ, লো"
+    },
+    "options": [
+      { "en": "Water", "as": "পানী" },
+      { "en": "Gold", "as": "সোণ" },
+      { "en": "Silver", "as": "ৰূপ" },
+      { "en": "Iron", "as": "লো" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Gold, Silver and Iron are metals, but Water is not a metal.",
+      "as": "সোণ, ৰূপ আৰু লো ধাতু, কিন্তু পানী ধাতু নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-057",
+    "q": {
+      "en": "Choose the odd one out: Cloud, Sun, Moon, Star",
+      "as": "অসদৃশটো বাছনি কৰক: ডাৱৰ, সূৰ্য, চন্দ্ৰ, তৰা"
+    },
+    "options": [
+      { "en": "Cloud", "as": "ডাৱৰ" },
+      { "en": "Sun", "as": "সূৰ্য" },
+      { "en": "Moon", "as": "চন্দ্ৰ" },
+      { "en": "Star", "as": "তৰা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sun, Moon and Star are celestial bodies, but Cloud is not a celestial body.",
+      "as": "সূৰ্য, চন্দ্ৰ আৰু তৰা মহাজাগতিক বস্তু, কিন্তু ডাৱৰ মহাজাগতিক বস্তু নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-058",
+    "q": {
+      "en": "Choose the odd one out: Mountain, River, Lake, Pond",
+      "as": "অসদৃশটো বাছনি কৰক: পৰ্বত, নদী, হ্ৰদ, পুখুৰী"
+    },
+    "options": [
+      { "en": "Mountain", "as": "পৰ্বত" },
+      { "en": "River", "as": "নদী" },
+      { "en": "Lake", "as": "হ্ৰদ" },
+      { "en": "Pond", "as": "পুখুৰী" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "River, Lake and Pond are water bodies, but Mountain is not a water body.",
+      "as": "নদী, হ্ৰদ আৰু পুখুৰী জলাশয়, কিন্তু পৰ্বত জলাশয় নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-059",
+    "q": {
+      "en": "Choose the odd one out: March, Monday, Tuesday, Friday",
+      "as": "অসদৃশটো বাছনি কৰক: মাৰ্চ, সোমবাৰ, মঙ্গলবাৰ, শুক্ৰবাৰ"
+    },
+    "options": [
+      { "en": "March", "as": "মাৰ্চ" },
+      { "en": "Monday", "as": "সোমবাৰ" },
+      { "en": "Tuesday", "as": "মঙ্গলবাৰ" },
+      { "en": "Friday", "as": "শুক্ৰবাৰ" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Monday, Tuesday and Friday are days of the week, but March is a month.",
+      "as": "সোমবাৰ, মঙ্গলবাৰ আৰু শুক্ৰবাৰ সপ্তাহৰ দিন, কিন্তু মাৰ্চ এটা মাহ।"
+    }
+  },
+  {
+    "id": "odd-one-out-060",
+    "q": {
+      "en": "Choose the odd one out: Monday, January, June, July",
+      "as": "অসদৃশটো বাছনি কৰক: সোমবাৰ, জানুৱাৰী, জুন, জুলাই"
+    },
+    "options": [
+      { "en": "Monday", "as": "সোমবাৰ" },
+      { "en": "January", "as": "জানুৱাৰী" },
+      { "en": "June", "as": "জুন" },
+      { "en": "July", "as": "জুলাই" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "January, June and July are months, but Monday is a day of the week.",
+      "as": "জানুৱাৰী, জুন আৰু জুলাই মাহ, কিন্তু সোমবাৰ সপ্তাহৰ এটা দিন।"
+    }
   }
-}
+]
