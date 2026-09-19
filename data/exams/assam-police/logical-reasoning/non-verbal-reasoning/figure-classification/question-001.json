@@ -1,30 +1,1397 @@
-{
-  "id": "figure-classification-001",
-  "q": {
-    "en": "Choose the odd figure: three of the figures are triangles and one is a circle.",
-    "as": "অমিল চিত্ৰটো বাছনি কৰক: তিনিাটা চিত্ৰ ত্ৰিভুজ আৰু এটা বৃত্ত।"
-  },
-  "options": [
-    {
-      "en": "Circle",
-      "as": "বৃত্ত"
+[
+  {
+    "id": "figure-classification-001",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
     },
-    {
-      "en": "Equilateral triangle",
-      "as": "সমবাহু ত্ৰিভুজ"
-    },
-    {
-      "en": "Right-angled triangle",
-      "as": "সমকোণী ত্ৰিভুজ"
-    },
-    {
-      "en": "Isosceles triangle",
-      "as": "সমদ্বিবাহু ত্ৰিভুজ"
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"105.0,60.0 41.0,24.0 41.0,96.0\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"175.0,20.0 139.0,84.0 211.0,84.0\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"285.0,100.0 249.0,36.0 321.0,36.0\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"395.0,20.0 359.0,84.0 431.0,84.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"90.0,50.0 26.0,14.0 26.0,86.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,10.0 14.0,74.0 86.0,74.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,90.0 14.0,26.0 86.0,26.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,10.0 14.0,74.0 86.0,74.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Figures ABC are filled, while figure D is empty.",
+      "as": "ABC চিত্ৰবোৰ ভৰা, কিন্তু D চিত্ৰখন ৰিক্ত।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "The circle has no sides or vertices, while the other three are triangles, so the circle is odd.",
-    "as": "বৃত্তৰ কোনো বাহু বা শীৰ্ষবিন্দু নাই, আনহাতে বাকী তিনিটা ত্ৰিভুজ, গতিকে বৃত্তটো অমিল।"
+  },
+  {
+    "id": "figure-classification-002",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"65\" cy=\"60\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"175\" cy=\"60\" r=\"34\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"285\" cy=\"60\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"395\" cy=\"60\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Figures ACD are empty circles, while figure B is a filled circle.",
+      "as": "ACD চিত্ৰবোৰ ৰিক্ত বৃত্ত, কিন্তু B চিত্ৰখন ভৰা বৃত্ত।"
+    }
+  },
+  {
+    "id": "figure-classification-003",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"38.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"148.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"258.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"368.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Figures BCD are filled squares, while figure A is an empty square.",
+      "as": "BCD চিত্ৰবোৰ ভৰা বৰ্গ, কিন্তু A চিত্ৰখন ৰিক্ত বৰ্গ।"
+    }
+  },
+  {
+    "id": "figure-classification-004",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"65\" cy=\"60\" r=\"34\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"175\" cy=\"60\" r=\"34\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"258.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"395\" cy=\"60\" r=\"34\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Figures ABD are circles (curved), while figure C is a square (straight sides).",
+      "as": "ABD চিত্ৰবোৰ বৃত্ত (বক্ৰ), কিন্তু C চিত্ৰখন বৰ্গ (সৰল বাহু)।"
+    }
+  },
+  {
+    "id": "figure-classification-005",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"38.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"148.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"258.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"395\" cy=\"60\" r=\"34\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Figures ABC are squares, while figure D is a circle.",
+      "as": "ABC চিত্ৰবোৰ বৰ্গ, কিন্তু D চিত্ৰখন বৃত্ত।"
+    }
+  },
+  {
+    "id": "figure-classification-006",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"105.0,60.0 41.0,24.0 41.0,96.0\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"175.0,24.0 209.2,48.9 196.2,89.1 153.8,89.1 140.8,48.9\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"285.0,20.0 249.0,84.0 321.0,84.0\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"395.0,100.0 359.0,36.0 431.0,36.0\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"90.0,50.0 26.0,14.0 26.0,86.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 84.2,38.9 71.2,79.1 28.8,79.1 15.8,38.9\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,10.0 14.0,74.0 86.0,74.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,90.0 14.0,26.0 86.0,26.0\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Figures ACD are triangles, while figure B is a pentagon.",
+      "as": "ACD চিত্ৰবোৰ ত্ৰিভুজ, কিন্তু B চিত্ৰখন পঞ্চভুজ।"
+    }
+  },
+  {
+    "id": "figure-classification-007",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"65.0,24.0 96.2,42.0 96.2,78.0 65.0,96.0 33.8,78.0 33.8,42.0\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"175.0,24.0 209.2,48.9 196.2,89.1 153.8,89.1 140.8,48.9\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"285.0,24.0 319.2,48.9 306.2,89.1 263.8,89.1 250.8,48.9\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"395.0,24.0 429.2,48.9 416.2,89.1 373.8,89.1 360.8,48.9\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 81.2,32.0 81.2,68.0 50.0,86.0 18.8,68.0 18.8,32.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 84.2,38.9 71.2,79.1 28.8,79.1 15.8,38.9\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 84.2,38.9 71.2,79.1 28.8,79.1 15.8,38.9\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 84.2,38.9 71.2,79.1 28.8,79.1 15.8,38.9\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Figures BCD are pentagons (5 sides), while figure A is a hexagon (6 sides).",
+      "as": "BCD চিত্ৰবোৰ পঞ্চভুজ (৫ বাহু), কিন্তু A চিত্ৰখন ষড়ভুজ (৬ বাহু)।"
+    }
+  },
+  {
+    "id": "figure-classification-008",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"38.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"148.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"285.0,20.0 249.0,84.0 321.0,84.0\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"368.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,10.0 14.0,74.0 86.0,74.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Figures ABD are quadrilaterals, while figure C is a triangle.",
+      "as": "ABD চিত্ৰবোৰ চতুৰ্ভুজ, কিন্তু C চিত্ৰখন ত্ৰিভুজ।"
+    }
+  },
+  {
+    "id": "figure-classification-009",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"65.0,24.0 96.2,42.0 96.2,78.0 65.0,96.0 33.8,78.0 33.8,42.0\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"175.0,24.0 209.2,48.9 196.2,89.1 153.8,89.1 140.8,48.9\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"285.0,24.0 316.2,42.0 316.2,78.0 285.0,96.0 253.8,78.0 253.8,42.0\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"395.0,24.0 426.2,42.0 426.2,78.0 395.0,96.0 363.8,78.0 363.8,42.0\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 81.2,32.0 81.2,68.0 50.0,86.0 18.8,68.0 18.8,32.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 84.2,38.9 71.2,79.1 28.8,79.1 15.8,38.9\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 81.2,32.0 81.2,68.0 50.0,86.0 18.8,68.0 18.8,32.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 81.2,32.0 81.2,68.0 50.0,86.0 18.8,68.0 18.8,32.0\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Figures ACD are hexagons, while figure B is a pentagon.",
+      "as": "ACD চিত্ৰবোৰ ষড়ভুজ, কিন্তু B চিত্ৰখন পঞ্চভুজ।"
+    }
+  },
+  {
+    "id": "figure-classification-010",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"65.0,24.0 101.0,60.0 65.0,96.0 29.0,60.0\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"175.0,24.0 200.5,34.5 211.0,60.0 200.5,85.5 175.0,96.0 149.5,85.5 139.0,60.0 149.5,34.5\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"285.0,24.0 316.2,78.0 253.8,78.0\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"395.0,24.0 426.2,42.0 426.2,78.0 395.0,96.0 363.8,78.0 363.8,42.0\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 86.0,50.0 50.0,86.0 14.0,50.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 75.5,24.5 86.0,50.0 75.5,75.5 50.0,86.0 24.5,75.5 14.0,50.0 24.5,24.5\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 81.2,68.0 18.8,68.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 81.2,32.0 81.2,68.0 50.0,86.0 18.8,68.0 18.8,32.0\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Figures ABD are polygons with an even number of sides, while figure C is a triangle (odd number of sides).",
+      "as": "ABD চিত্ৰবোৰ যুগ্ম সংখ্যক বাহুৰ বহুভুজ, কিন্তু C চিত্ৰখন ত্ৰিভুজ (অযুগ্ম সংখ্যক বাহু)।"
+    }
+  },
+  {
+    "id": "figure-classification-011",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"65.0,24.0 101.0,60.0 65.0,96.0 29.0,60.0\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"175.0,24.0 206.2,78.0 143.8,78.0\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"285.0,24.0 313.1,37.6 320.1,68.0 300.6,92.4 269.4,92.4 249.9,68.0 256.9,37.6\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"395.0,24.0 429.2,48.9 416.2,89.1 373.8,89.1 360.8,48.9\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 86.0,50.0 50.0,86.0 14.0,50.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 81.2,68.0 18.8,68.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 78.1,27.6 85.1,58.0 65.6,82.4 34.4,82.4 14.9,58.0 21.9,27.6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 84.2,38.9 71.2,79.1 28.8,79.1 15.8,38.9\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Figures BCD are polygons with an odd number of sides, while figure A is a square (even number of sides).",
+      "as": "BCD চিত্ৰবোৰ অযুগ্ম সংখ্যক বাহুৰ বহুভুজ, কিন্তু A চিত্ৰখন বৰ্গ (যুগ্ম সংখ্যক বাহু)।"
+    }
+  },
+  {
+    "id": "figure-classification-012",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"65.0,20.0 29.0,84.0 101.0,84.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linejoin=\"round\"/><circle cx=\"65\" cy=\"60\" r=\"8\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"175\" cy=\"60\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><circle cx=\"175\" cy=\"60\" r=\"8\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"258.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><circle cx=\"285\" cy=\"60\" r=\"8\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"395\" cy=\"60\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,10.0 14.0,74.0 86.0,74.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linejoin=\"round\"/><circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Figures ABC are figures with a dot inside, while figure D is a figure without a dot.",
+      "as": "ABC চিত্ৰবোৰ ভিতৰত বিন্দু থকা চিত্ৰ, কিন্তু D চিত্ৰখন বিন্দু নথকা চিত্ৰ।"
+    }
+  },
+  {
+    "id": "figure-classification-013",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"65\" cy=\"60\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"175\" cy=\"60\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><circle cx=\"175\" cy=\"60\" r=\"8\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"285.0,20.0 249.0,84.0 321.0,84.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"368.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,10.0 14.0,74.0 86.0,74.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Figures ACD are figures without a dot inside, while figure B is a figure with a dot inside.",
+      "as": "ACD চিত্ৰবোৰ বিন্দু নথকা চিত্ৰ, কিন্তু B চিত্ৰখন ভিতৰত বিন্দু থকা চিত্ৰ।"
+    }
+  },
+  {
+    "id": "figure-classification-014",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"56.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"74.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"166.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"184.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"276.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"294.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"377.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"395.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"413.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"41.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"59.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"41.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"59.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"41.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"59.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"32.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"68.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Figures ABC are figures with two dots, while figure D is a figure with three dots.",
+      "as": "ABC চিত্ৰবোৰ দুটা বিন্দু থকা চিত্ৰ, কিন্তু D চিত্ৰখন তিনিটা বিন্দু থকা চিত্ৰ।"
+    }
+  },
+  {
+    "id": "figure-classification-015",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"38.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"56.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"74.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"92.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"148.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"166.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"184.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"202.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"267.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"285.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"303.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"368.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"386.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"404.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"422.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"23.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"41.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"59.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"77.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"23.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"41.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"59.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"77.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"32.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"68.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"23.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"41.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"59.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"77.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Figures ABD are figures with four dots, while figure C is a figure with three dots.",
+      "as": "ABD চিত্ৰবোৰ চাৰিটা বিন্দু থকা চিত্ৰ, কিন্তু C চিত্ৰখন তিনিটা বিন্দু থকা চিত্ৰ।"
+    }
+  },
+  {
+    "id": "figure-classification-016",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"65.0,24.0 74.4,47.1 99.2,48.9 80.2,64.9 86.2,89.1 65.0,76.0 43.8,89.1 49.8,64.9 30.8,48.9 55.6,47.1\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"175.0,24.0 209.2,48.9 196.2,89.1 153.8,89.1 140.8,48.9\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"285.0,24.0 316.2,78.0 253.8,78.0\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"395.0,24.0 431.0,60.0 395.0,96.0 359.0,60.0\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 59.4,37.1 84.2,38.9 65.2,54.9 71.2,79.1 50.0,66.0 28.8,79.1 34.8,54.9 15.8,38.9 40.6,37.1\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 84.2,38.9 71.2,79.1 28.8,79.1 15.8,38.9\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 81.2,68.0 18.8,68.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 86.0,50.0 50.0,86.0 14.0,50.0\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Figures BCD are convex polygons, while figure A is a star (concave).",
+      "as": "BCD চিত্ৰবোৰ উত্তল বহুভুজ, কিন্তু A চিত্ৰখন তৰা (অৱতল)।"
+    }
+  },
+  {
+    "id": "figure-classification-017",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"65\" cy=\"60\" r=\"34\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"148.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"251.0,78.0 275.0,42.0 319.0,42.0 295.0,78.0\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"368.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,68.0 40.0,32.0 84.0,32.0 60.0,68.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Figures ABD are symmetric figures, while figure C is a parallelogram (no line of symmetry).",
+      "as": "ABD চিত্ৰবোৰ প্ৰতিসম চিত্ৰ, কিন্তু C চিত্ৰখন সামান্তৰিক (প্ৰতিসমতা ৰেখা নাই)।"
+    }
+  },
+  {
+    "id": "figure-classification-018",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"38.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"175\" cy=\"60\" r=\"34\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"285.0,24.0 316.2,42.0 316.2,78.0 285.0,96.0 253.8,78.0 253.8,42.0\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"373.0,82.0 373.0,38.0 417.0,82.0\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 81.2,32.0 81.2,68.0 50.0,86.0 18.8,68.0 18.8,32.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"28.0,72.0 28.0,28.0 72.0,72.0\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Figures ABC are symmetric figures, while figure D is a right-angled triangle (asymmetric).",
+      "as": "ABC চিত্ৰবোৰ প্ৰতিসম চিত্ৰ, কিন্তু D চিত্ৰখন সমকোণী ত্ৰিভুজ (অপ্ৰতিসম)।"
+    }
+  },
+  {
+    "id": "figure-classification-019",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"38.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"175\" cy=\"60\" r=\"34\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"285.0,24.0 319.2,48.9 306.2,89.1 263.8,89.1 250.8,48.9\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"395.0,24.0 426.2,78.0 363.8,78.0\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 84.2,38.9 71.2,79.1 28.8,79.1 15.8,38.9\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 81.2,68.0 18.8,68.0\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Figures ACD are figures with corners, while figure B is a circle (no corners).",
+      "as": "ACD চিত্ৰবোৰ কোণ থকা চিত্ৰ, কিন্তু B চিত্ৰখন বৃত্ত (কোণ নাই)।"
+    }
+  },
+  {
+    "id": "figure-classification-020",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"38.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"175\" cy=\"60\" r=\"34\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"285\" cy=\"60\" r=\"34\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"395\" cy=\"60\" r=\"34\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Figures BCD are figures with curved edges, while figure A is a figure with only straight edges.",
+      "as": "BCD চিত্ৰবোৰ বক্ৰ ধাৰ থকা চিত্ৰ, কিন্তু A চিত্ৰখন কেৱল সৰল ধাৰ থকা চিত্ৰ।"
+    }
+  },
+  {
+    "id": "figure-classification-021",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polyline points=\"45.0,42.0 65.0,78.0 85.0,42.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polyline points=\"155.0,42.0 175.0,78.0 195.0,42.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"258.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polyline points=\"375.0,42.0 395.0,78.0 415.0,42.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"30.0,32.0 50.0,68.0 70.0,32.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"30.0,32.0 50.0,68.0 70.0,32.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"30.0,32.0 50.0,68.0 70.0,32.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Figures ABD are open figures, while figure C is a closed figure.",
+      "as": "ABD চিত্ৰবোৰ খুলা চিত্ৰ, কিন্তু C চিত্ৰখন বন্ধ চিত্ৰ।"
+    }
+  },
+  {
+    "id": "figure-classification-022",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"65.0,24.0 96.2,78.0 33.8,78.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"148.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"285\" cy=\"60\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><path d=\"M 367.0 68.0 A 28 28 0 0 1 423.0 68.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 81.2,68.0 18.8,68.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><path d=\"M 22.0 58.0 A 28 28 0 0 1 78.0 58.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Figures ABC are closed figures, while figure D is an open figure.",
+      "as": "ABC চিত্ৰবোৰ বন্ধ চিত্ৰ, কিন্তু D চিত্ৰখন খুলা চিত্ৰ।"
+    }
+  },
+  {
+    "id": "figure-classification-023",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"65.0\" y1=\"80.0\" x2=\"65.0\" y2=\"58.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"65.0,40.0 78.6,58.0 51.4,58.0\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"175.0\" y1=\"40.0\" x2=\"175.0\" y2=\"62.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"175.0,80.0 161.4,62.0 188.6,62.0\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"285.0\" y1=\"80.0\" x2=\"285.0\" y2=\"58.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"285.0,40.0 298.6,58.0 271.4,58.0\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"395.0\" y1=\"80.0\" x2=\"395.0\" y2=\"58.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"395.0,40.0 408.6,58.0 381.4,58.0\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"70.0\" x2=\"50.0\" y2=\"48.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,30.0 63.6,48.0 36.4,48.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"30.0\" x2=\"50.0\" y2=\"52.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,70.0 36.4,52.0 63.6,52.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"70.0\" x2=\"50.0\" y2=\"48.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,30.0 63.6,48.0 36.4,48.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"70.0\" x2=\"50.0\" y2=\"48.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,30.0 63.6,48.0 36.4,48.0\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Figures ACD are arrows pointing up, while figure B is an arrow pointing down.",
+      "as": "ACD চিত্ৰবোৰ ওপৰলৈ কাঁড়, কিন্তু B চিত্ৰখন তললৈ কাঁড়।"
+    }
+  },
+  {
+    "id": "figure-classification-024",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"65.0\" y1=\"80.0\" x2=\"65.0\" y2=\"58.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"65.0,40.0 78.6,58.0 51.4,58.0\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"195.0\" y1=\"60.0\" x2=\"173.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"155.0,60.0 173.0,46.4 173.0,73.6\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"305.0\" y1=\"60.0\" x2=\"283.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"265.0,60.0 283.0,46.4 283.0,73.6\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"415.0\" y1=\"60.0\" x2=\"393.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"375.0,60.0 393.0,46.4 393.0,73.6\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"70.0\" x2=\"50.0\" y2=\"48.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,30.0 63.6,48.0 36.4,48.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"70.0\" y1=\"50.0\" x2=\"48.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"30.0,50.0 48.0,36.4 48.0,63.6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"70.0\" y1=\"50.0\" x2=\"48.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"30.0,50.0 48.0,36.4 48.0,63.6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"70.0\" y1=\"50.0\" x2=\"48.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"30.0,50.0 48.0,36.4 48.0,63.6\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Figures BCD are arrows pointing left, while figure A is an arrow pointing up.",
+      "as": "BCD চিত্ৰবোৰ বাওঁলৈ কাঁড়, কিন্তু A চিত্ৰখন ওপৰলৈ কাঁড়।"
+    }
+  },
+  {
+    "id": "figure-classification-025",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"45.0\" y1=\"60.0\" x2=\"67.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"85.0,60.0 67.0,73.6 67.0,46.4\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"155.0\" y1=\"60.0\" x2=\"177.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"195.0,60.0 177.0,73.6 177.0,46.4\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"265.0\" y1=\"60.0\" x2=\"287.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"305.0,60.0 287.0,73.6 287.0,46.4\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"415.0\" y1=\"60.0\" x2=\"393.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"375.0,60.0 393.0,46.4 393.0,73.6\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"30.0\" y1=\"50.0\" x2=\"52.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"70.0,50.0 52.0,63.6 52.0,36.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"30.0\" y1=\"50.0\" x2=\"52.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"70.0,50.0 52.0,63.6 52.0,36.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"30.0\" y1=\"50.0\" x2=\"52.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"70.0,50.0 52.0,63.6 52.0,36.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"70.0\" y1=\"50.0\" x2=\"48.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"30.0,50.0 48.0,36.4 48.0,63.6\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Figures ABC are arrows pointing right, while figure D is an arrow pointing left.",
+      "as": "ABC চিত্ৰবোৰ সোঁলৈ কাঁড়, কিন্তু D চিত্ৰখন বাওঁলৈ কাঁড়।"
+    }
+  },
+  {
+    "id": "figure-classification-026",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"65.0,20.0 29.0,84.0 101.0,84.0\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"175.0,100.0 139.0,36.0 211.0,36.0\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"285.0,20.0 249.0,84.0 321.0,84.0\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"395.0,20.0 359.0,84.0 431.0,84.0\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,10.0 14.0,74.0 86.0,74.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,90.0 14.0,26.0 86.0,26.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,10.0 14.0,74.0 86.0,74.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,10.0 14.0,74.0 86.0,74.0\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Figures ACD are triangles pointing up, while figure B is a triangle pointing down.",
+      "as": "ACD চিত্ৰবোৰ ওপৰমুৱা ত্ৰিভুজ, কিন্তু B চিত্ৰখন তলমুৱা ত্ৰিভুজ।"
+    }
+  },
+  {
+    "id": "figure-classification-027",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"65.0\" y1=\"80.0\" x2=\"65.0\" y2=\"58.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"65.0,40.0 78.6,58.0 51.4,58.0\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"175.0\" y1=\"40.0\" x2=\"175.0\" y2=\"62.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"175.0,80.0 161.4,62.0 188.6,62.0\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"265.0\" y1=\"60.0\" x2=\"287.0\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"305.0,60.0 287.0,73.6 287.0,46.4\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"395.0\" y1=\"80.0\" x2=\"395.0\" y2=\"58.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"395.0,40.0 408.6,58.0 381.4,58.0\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"70.0\" x2=\"50.0\" y2=\"48.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,30.0 63.6,48.0 36.4,48.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"30.0\" x2=\"50.0\" y2=\"52.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,70.0 36.4,52.0 63.6,52.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"30.0\" y1=\"50.0\" x2=\"52.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"70.0,50.0 52.0,63.6 52.0,36.4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"70.0\" x2=\"50.0\" y2=\"48.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,30.0 63.6,48.0 36.4,48.0\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Figures ABD are vertical arrows, while figure C is a horizontal arrow.",
+      "as": "ABD চিত্ৰবোৰ উলম্ব কাঁড়, কিন্তু C চিত্ৰখন আনুভূমিক কাঁড়।"
+    }
+  },
+  {
+    "id": "figure-classification-028",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"65\" cy=\"60\" r=\"34\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"175\" cy=\"60\" r=\"20\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"285\" cy=\"60\" r=\"20\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"395\" cy=\"60\" r=\"20\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Figures BCD are small circles, while figure A is a large circle.",
+      "as": "BCD চিত্ৰবোৰ সৰু বৃত্ত, কিন্তু A চিত্ৰখন ডাঙৰ বৃত্ত।"
+    }
+  },
+  {
+    "id": "figure-classification-029",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"50.0\" y=\"45.0\" width=\"30\" height=\"30\" rx=\"4\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"148.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"270.0\" y=\"45.0\" width=\"30\" height=\"30\" rx=\"4\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"380.0\" y=\"45.0\" width=\"30\" height=\"30\" rx=\"4\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"35.0\" y=\"35.0\" width=\"30\" height=\"30\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"35.0\" y=\"35.0\" width=\"30\" height=\"30\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"35.0\" y=\"35.0\" width=\"30\" height=\"30\" rx=\"4\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Figures ACD are small squares, while figure B is a large square.",
+      "as": "ACD চিত্ৰবোৰ সৰু বৰ্গ, কিন্তু B চিত্ৰখন ডাঙৰ বৰ্গ।"
+    }
+  },
+  {
+    "id": "figure-classification-030",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"38.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"148.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"258.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"395.0,24.0 431.0,60.0 395.0,96.0 359.0,60.0\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 86.0,50.0 50.0,86.0 14.0,50.0\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Figures ABC are squares with horizontal and vertical sides, while figure D is a diamond (rotated square).",
+      "as": "ABC চিত্ৰবোৰ আনুভূমিক-উলম্ব বাহুৰ বৰ্গ, কিন্তু D চিত্ৰখন ৰম্বাছ (ঘূৰোৱা বৰ্গ)।"
+    }
+  },
+  {
+    "id": "figure-classification-031",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"38.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"175.0,24.0 211.0,60.0 175.0,96.0 139.0,60.0\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"285.0,24.0 321.0,60.0 285.0,96.0 249.0,60.0\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"395.0,24.0 431.0,60.0 395.0,96.0 359.0,60.0\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 86.0,50.0 50.0,86.0 14.0,50.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 86.0,50.0 50.0,86.0 14.0,50.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 86.0,50.0 50.0,86.0 14.0,50.0\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Figures BCD are diamonds, while figure A is a square.",
+      "as": "BCD চিত্ৰবোৰ ৰম্বাছ, কিন্তু A চিত্ৰখন বৰ্গ।"
+    }
+  },
+  {
+    "id": "figure-classification-032",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"65.0\" y1=\"47.0\" x2=\"65.0\" y2=\"61.3\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"65.0,73.0 56.2,61.3 73.8,61.3\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"175.0\" y1=\"73.0\" x2=\"175.0\" y2=\"58.7\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"175.0,47.0 183.8,58.7 166.2,58.7\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"285.0\" y1=\"83.0\" x2=\"285.0\" y2=\"57.7\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"285.0,37.0 300.6,57.7 269.4,57.7\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"408.0\" y1=\"60.0\" x2=\"393.7\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"382.0,60.0 393.7,51.2 393.7,68.8\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"37.0\" x2=\"50.0\" y2=\"51.3\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,63.0 41.2,51.3 58.8,51.3\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"63.0\" x2=\"50.0\" y2=\"48.7\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,37.0 58.8,48.7 41.2,48.7\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"73.0\" x2=\"50.0\" y2=\"47.7\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,27.0 65.6,47.7 34.4,47.7\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"63.0\" y1=\"50.0\" x2=\"48.7\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"37.0,50.0 48.7,41.2 48.7,58.8\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Figures ABD are arrows of the same length, while figure C is a longer arrow.",
+      "as": "ABD চিত্ৰবোৰ একে দীঘল কাঁড়, কিন্তু C চিত্ৰখন দীঘল কাঁড়।"
+    }
+  },
+  {
+    "id": "figure-classification-033",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"65.0\" y1=\"73.0\" x2=\"65.0\" y2=\"58.7\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"65.0,47.0 73.8,58.7 56.2,58.7\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"198.0\" y1=\"60.0\" x2=\"172.7\" y2=\"60.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"152.0,60.0 172.7,44.4 172.7,75.6\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"285.0\" y1=\"83.0\" x2=\"285.0\" y2=\"57.7\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"285.0,37.0 300.6,57.7 269.4,57.7\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"395.0\" y1=\"37.0\" x2=\"395.0\" y2=\"62.3\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"395.0,83.0 379.4,62.3 410.6,62.3\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"63.0\" x2=\"50.0\" y2=\"48.7\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,37.0 58.8,48.7 41.2,48.7\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"73.0\" y1=\"50.0\" x2=\"47.7\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"27.0,50.0 47.7,34.4 47.7,65.6\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"73.0\" x2=\"50.0\" y2=\"47.7\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,27.0 65.6,47.7 34.4,47.7\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"27.0\" x2=\"50.0\" y2=\"52.3\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,73.0 34.4,52.3 65.6,52.3\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Figures BCD are long arrows, while figure A is a short arrow.",
+      "as": "BCD চিত্ৰবোৰ দীঘল কাঁড়, কিন্তু A চিত্ৰখন চুটি কাঁড়।"
+    }
+  },
+  {
+    "id": "figure-classification-034",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"65.0,24.0 96.2,78.0 33.8,78.0\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"141.0,78.0 165.0,42.0 209.0,42.0 185.0,78.0\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"285.0,24.0 319.2,48.9 306.2,89.1 263.8,89.1 250.8,48.9\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"395.0,24.0 426.2,42.0 426.2,78.0 395.0,96.0 363.8,78.0 363.8,42.0\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 81.2,68.0 18.8,68.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,68.0 40.0,32.0 84.0,32.0 60.0,68.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 84.2,38.9 71.2,79.1 28.8,79.1 15.8,38.9\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 81.2,32.0 81.2,68.0 50.0,86.0 18.8,68.0 18.8,32.0\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Figures ACD are regular polygons, while figure B is a parallelogram (not regular).",
+      "as": "ACD চিত্ৰবোৰ নিয়মিত বহুভুজ, কিন্তু B চিত্ৰখন সামান্তৰিক (নিয়মিত নহয়)।"
+    }
+  },
+  {
+    "id": "figure-classification-035",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"31.0,78.0 55.0,42.0 99.0,42.0 75.0,78.0\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"141.0,78.0 165.0,42.0 209.0,42.0 185.0,78.0\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"251.0,78.0 269.0,42.0 301.0,42.0 319.0,78.0\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"361.0,78.0 385.0,42.0 429.0,42.0 405.0,78.0\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,68.0 40.0,32.0 84.0,32.0 60.0,68.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,68.0 40.0,32.0 84.0,32.0 60.0,68.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,68.0 34.0,32.0 66.0,32.0 84.0,68.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,68.0 40.0,32.0 84.0,32.0 60.0,68.0\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Figures ABD are parallelograms, while figure C is a trapezium.",
+      "as": "ABD চিত্ৰবোৰ সামান্তৰিক, কিন্তু C চিত্ৰখন ট্ৰেপিজিয়াম।"
+    }
+  },
+  {
+    "id": "figure-classification-036",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"31.0,78.0 49.0,42.0 81.0,42.0 99.0,78.0\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"141.0,78.0 159.0,42.0 191.0,42.0 209.0,78.0\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"251.0,78.0 269.0,42.0 301.0,42.0 319.0,78.0\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"361.0,78.0 385.0,42.0 429.0,42.0 405.0,78.0\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,68.0 34.0,32.0 66.0,32.0 84.0,68.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,68.0 34.0,32.0 66.0,32.0 84.0,68.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,68.0 34.0,32.0 66.0,32.0 84.0,68.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,68.0 40.0,32.0 84.0,32.0 60.0,68.0\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Figures ABC are trapeziums, while figure D is a parallelogram.",
+      "as": "ABC চিত্ৰবোৰ ট্ৰেপিজিয়াম, কিন্তু D চিত্ৰখন সামান্তৰিক।"
+    }
+  },
+  {
+    "id": "figure-classification-037",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"65\" cy=\"60\" r=\"33\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><rect x=\"52.0\" y=\"47.0\" width=\"26\" height=\"26\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"175\" cy=\"60\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"254.0\" y=\"29.0\" width=\"62\" height=\"62\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><circle cx=\"285\" cy=\"60\" r=\"16\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"364.0\" y=\"29.0\" width=\"62\" height=\"62\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><circle cx=\"395\" cy=\"60\" r=\"16\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"33\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><rect x=\"37.0\" y=\"37.0\" width=\"26\" height=\"26\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"19.0\" y=\"19.0\" width=\"62\" height=\"62\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><circle cx=\"50\" cy=\"50\" r=\"16\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"19.0\" y=\"19.0\" width=\"62\" height=\"62\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><circle cx=\"50\" cy=\"50\" r=\"16\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Figures ACD are figures with a shape inside another shape, while figure B is a single shape.",
+      "as": "ACD চিত্ৰবোৰ এটা আকৃতিৰ ভিতৰত আন এটা আকৃতি, কিন্তু B চিত্ৰখন এটা মাত্ৰ আকৃতি।"
+    }
+  },
+  {
+    "id": "figure-classification-038",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"34.0\" y=\"29.0\" width=\"62\" height=\"62\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><circle cx=\"65\" cy=\"60\" r=\"16\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"175.0,20.0 139.0,84.0 211.0,84.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"285\" cy=\"60\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"368.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"19.0\" y=\"19.0\" width=\"62\" height=\"62\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><circle cx=\"50\" cy=\"50\" r=\"16\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,10.0 14.0,74.0 86.0,74.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Figures BCD are single simple shapes, while figure A is a figure with a shape inside another shape.",
+      "as": "BCD চিত্ৰবোৰ এটা মাত্ৰ আকৃতি, কিন্তু A চিত্ৰখন এটা আকৃতিৰ ভিতৰত আন এটা আকৃতি।"
+    }
+  },
+  {
+    "id": "figure-classification-039",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><ellipse cx=\"65\" cy=\"60\" rx=\"38\" ry=\"22\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><path d=\"M 147.0 68.0 A 28 28 0 0 1 203.0 68.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"258.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"395\" cy=\"60\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><ellipse cx=\"50\" cy=\"50\" rx=\"38\" ry=\"22\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><path d=\"M 22.0 58.0 A 28 28 0 0 1 78.0 58.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Figures ABD are figures with curved edges, while figure C is a figure with only straight edges.",
+      "as": "ABD চিত্ৰবোৰ বক্ৰ ধাৰ থকা চিত্ৰ, কিন্তু C চিত্ৰখন কেৱল সৰল ধাৰ থকা চিত্ৰ।"
+    }
+  },
+  {
+    "id": "figure-classification-040",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"65.0,24.0 96.2,42.0 96.2,78.0 65.0,96.0 33.8,78.0 33.8,42.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"148.0\" y=\"33.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"285.0,24.0 316.2,78.0 253.8,78.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"395\" cy=\"60\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 81.2,32.0 81.2,68.0 50.0,86.0 18.8,68.0 18.8,32.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"23.0\" y=\"23.0\" width=\"54\" height=\"54\" rx=\"4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 81.2,68.0 18.8,68.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Figures ABC are figures with only straight edges, while figure D is a figure with a curved edge.",
+      "as": "ABC চিত্ৰবোৰ কেৱল সৰল ধাৰ থকা চিত্ৰ, কিন্তু D চিত্ৰখন বক্ৰ ধাৰ থকা চিত্ৰ।"
+    }
+  },
+  {
+    "id": "figure-classification-041",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"65.0\" cy=\"42.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"65.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"65.0\" cy=\"78.0\" r=\"8\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"175.0\" cy=\"42.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"175.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"175.0\" cy=\"78.0\" r=\"8\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"285.0\" cy=\"42.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"285.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"285.0\" cy=\"78.0\" r=\"8\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"377.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"395.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"413.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"32.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"50.0\" cy=\"68.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"32.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"50.0\" cy=\"68.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"32.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"50.0\" cy=\"68.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"32.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"68.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Figures ABC are dots arranged in a vertical line, while figure D is dots arranged in a horizontal line.",
+      "as": "ABC চিত্ৰবোৰ উলম্ব শাৰীত সজোৱা বিন্দু, কিন্তু D চিত্ৰখন আনুভূমিক শাৰীত সজোৱা বিন্দু।"
+    }
+  },
+  {
+    "id": "figure-classification-042",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"65.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"166.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"184.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"285.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"395.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"41.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"59.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Figures ACD are figures with a single dot, while figure B is a figure with two dots.",
+      "as": "ACD চিত্ৰবোৰ এটা বিন্দু থকা চিত্ৰ, কিন্তু B চিত্ৰখন দুটা বিন্দু থকা চিত্ৰ।"
+    }
+  },
+  {
+    "id": "figure-classification-043",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"38.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"56.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"74.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"92.0\" cy=\"60.0\" r=\"8\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"157.0\" cy=\"51.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"175.0\" cy=\"51.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"193.0\" cy=\"51.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"166.0\" cy=\"69.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"184.0\" cy=\"69.0\" r=\"8\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"267.0\" cy=\"51.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"285.0\" cy=\"51.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"303.0\" cy=\"51.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"276.0\" cy=\"69.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"294.0\" cy=\"69.0\" r=\"8\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"377.0\" cy=\"51.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"395.0\" cy=\"51.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"413.0\" cy=\"51.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"386.0\" cy=\"69.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"404.0\" cy=\"69.0\" r=\"8\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"23.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"41.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"59.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"77.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"32.0\" cy=\"41.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"50.0\" cy=\"41.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"68.0\" cy=\"41.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"41.0\" cy=\"59.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"59.0\" cy=\"59.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"32.0\" cy=\"41.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"50.0\" cy=\"41.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"68.0\" cy=\"41.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"41.0\" cy=\"59.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"59.0\" cy=\"59.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"32.0\" cy=\"41.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"50.0\" cy=\"41.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"68.0\" cy=\"41.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"41.0\" cy=\"59.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"59.0\" cy=\"59.0\" r=\"8\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Figures BCD are figures with five dots, while figure A is a figure with four dots.",
+      "as": "BCD চিত্ৰবোৰ পাঁচটা বিন্দু থকা চিত্ৰ, কিন্তু A চিত্ৰখন চাৰিটা বিন্দু থকা চিত্ৰ।"
+    }
+  },
+  {
+    "id": "figure-classification-044",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"65.0,24.0 99.2,48.9 86.2,89.1 43.8,89.1 30.8,48.9\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"175.0,24.0 211.0,60.0 175.0,96.0 139.0,60.0\" fill=\"#334155\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"285.0,24.0 316.2,42.0 316.2,78.0 285.0,96.0 253.8,78.0 253.8,42.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"395.0,24.0 426.2,42.0 426.2,78.0 395.0,96.0 363.8,78.0 363.8,42.0\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 84.2,38.9 71.2,79.1 28.8,79.1 15.8,38.9\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 86.0,50.0 50.0,86.0 14.0,50.0\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 81.2,32.0 81.2,68.0 50.0,86.0 18.8,68.0 18.8,32.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,14.0 81.2,32.0 81.2,68.0 50.0,86.0 18.8,68.0 18.8,32.0\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Figures ABD are filled polygons, while figure C is an empty polygon.",
+      "as": "ABD চিত্ৰবোৰ ভৰা বহুভুজ, কিন্তু C চিত্ৰখন ৰিক্ত বহুভুজ।"
+    }
+  },
+  {
+    "id": "figure-classification-045",
+    "q": {
+      "en": "Find the odd one out among the four figures.",
+      "as": "চাৰিখন চিত্ৰৰ মাজৰ অসম চিত্ৰটো বিচাৰি উলিয়াওক।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 134\" width=\"460\" height=\"134\"><rect x=\"15\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><ellipse cx=\"65\" cy=\"60\" rx=\"38\" ry=\"22\" fill=\"#334155\"/><text x=\"65\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">A</text><rect x=\"125\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><ellipse cx=\"175\" cy=\"60\" rx=\"38\" ry=\"22\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/><text x=\"175\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">B</text><rect x=\"235\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><ellipse cx=\"285\" cy=\"60\" rx=\"38\" ry=\"22\" fill=\"#334155\"/><text x=\"285\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">C</text><rect x=\"345\" y=\"10\" width=\"100\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"395\" cy=\"60\" r=\"34\" fill=\"#334155\"/><text x=\"395\" y=\"127\" font-size=\"16\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#64748b\">D</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><ellipse cx=\"50\" cy=\"50\" rx=\"38\" ry=\"22\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><ellipse cx=\"50\" cy=\"50\" rx=\"38\" ry=\"22\" fill=\"none\" stroke=\"#334155\" stroke-width=\"5\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><ellipse cx=\"50\" cy=\"50\" rx=\"38\" ry=\"22\" fill=\"#334155\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"34\" fill=\"#334155\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Figures ACD are filled circles/ovals, while figure B is an empty oval.",
+      "as": "ACD চিত্ৰবোৰ ভৰা বৃত্ত/অণ্ডাকৃতি, কিন্তু B চিত্ৰখন ৰিক্ত অণ্ডাকৃতি।"
+    }
   }
-}
+]
