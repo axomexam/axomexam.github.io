@@ -4916,6 +4916,11 @@
     let difficulty = String(item.difficulty || "medium").toLowerCase().trim();
     if (difficulty !== "easy" && difficulty !== "hard") difficulty = "medium";
 
+    const expTextObj = {
+      en: extractField(item, "explanation", "en"),
+      as: extractField(item, "explanation", "as")
+    };
+
     return {
       q: qTextObj,
       a: aTextObj,
@@ -4923,7 +4928,8 @@
       table: item.table || null,
       options: optionsList.length >= 2 ? optionsList : null,
       correct: correctIdx,
-      difficulty: difficulty
+      difficulty: difficulty,
+      explanation: { en: expTextObj.en, as: expTextObj.as }
     };
   }
 
@@ -5416,12 +5422,16 @@
             } else if (optList.length) {
               ansLine = `<div class="rv-ans correct-line"><b>${t("mock.correctAnswer")}:</b> ${rvOpt(q.correct)}</div>`;
             }
+            const expText = localizeContent(q.explanation);
+            const expLabel = (state.mock && state.mock.testLang === "as") ? "ব্যাখ্যা" : "Explanation";
+            const expLine = expText ? `<div class="rv-exp"><b>${expLabel}:</b> ${formatMath(expText)}</div>` : "";
             return `
               <div class="review-item">
                 <div class="rv-q">Q${i + 1}. ${formatMath(localizeContent(q.q))}</div>
                 ${mediaBlock(q)}
                 ${badge}
                 ${ansLine}
+                ${expLine}
               </div>`;
           }).join("")}
         </div>

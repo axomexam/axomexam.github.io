@@ -984,6 +984,8 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 .review-item .rv-ans { margin-top: 8px; font-size: .88rem; color: var(--ink-soft); }
 .review-item .rv-ans b { color: var(--ink); }
 .review-item .rv-ans.correct-line { color: #059669; }
+.review-item .rv-exp { margin-top: 10px; padding: 10px 12px; border-left: 3px solid var(--primary, #2563eb); background: var(--primary-soft, #eff6ff); border-radius: 8px; font-size: .86rem; line-height: 1.6; color: var(--ink-soft, #334155); }
+.review-item .rv-exp b { color: var(--ink, #0f172a); }
 
 /* ============================================================
    Share result / report card
