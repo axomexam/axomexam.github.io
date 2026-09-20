@@ -1999,36 +1999,74 @@
   function renderStatic(main, key) {
     const isAs = state.uiLang === "as";
     let title = "";
+    let desc = "";
     let content = "";
 
     if (key === "about") {
-      title = isAs ? "আমাৰ বিষয়ে" : "About Us";
+      title = isAs ? "axomexam সম্পৰ্কে" : "About axomexam";
+      desc = isAs ? "আমি কোন, আমাৰ অধ্যয়ন সামগ্ৰী কেনেদৰে প্ৰস্তুত কৰা হয়, আৰু অসমৰ প্ৰতিজন পৰীক্ষাৰ্থীৰ বাবে ইয়াক কেনেদৰে বিনামূলীয়া আৰু নিৰ্ভুল ৰখা হয়।" : "Who we are, how our study material is prepared, and how we keep it free and accurate for every Assam exam aspirant.";
       content = isAs ? `
-        <p><strong>axomexam.in</strong> লৈ আপোনাক স্বাগতম। এইখন অসমৰ বিভিন্ন প্ৰতিযোগিতামূলক পৰীক্ষাৰ শিক্ষাৰ্থীসকলক সৰ্বাংগীনভাৱে সহায় কৰাৰ উদ্দেশ্যে গঢ়ি তোলা এক নিৰ্ভৰযোগ্য আৰু বিনামূলীয়া শিক্ষামূলক ৱেবছাইট।</p>
-        <h3>আমাৰ উদ্দেশ্য আৰু লক্ষ্য</h3>
-        <p>অসম চৰকাৰৰ বিভিন্ন বিভাগীয় পৰীক্ষা যেনে ADRE (Assam Direct Recruitment Examination), অসম আৰক্ষী (Assam Police SI & Constable), APSC CCE, পঞ্চায়ত আৰু গ্ৰামোন্নয়ন বিভাগ (PNRD), বন বিভাগ, আৰু কেন্দ্ৰীয় ৰে'লৱে (RRB) পৰীক্ষাসমূহৰ বাবে মানসম্পন্ন অধ্যয়ন সমল প্ৰদান কৰাই আমাৰ মূল উদ্দেশ্য।</p>
-        <h3>আমি কি কি আগবঢ়াওঁ?</h3>
-        <ul style="margin-left:20px; line-height:1.8;">
-          <li><strong>দ্বিভাষিক প্ৰশ্নোত্তৰ:</strong> সকলো বিষয়ৰ প্ৰশ্ন আৰু সমাধান অসমীয়া আৰু ইংৰাজী দুয়োটা ভাষাতে উপলব্ধ।</li>
-          <li><strong>অধ্যায়ভিত্তিক মক টেষ্ট:</strong> সময় নিৰূপণ ব্যৱস্থাৰে সৈতে আত্ম-মূল্যায়নৰ সুবিধা।</li>
-          <li><strong>বিনামূলীয়া প্ৰশ্ন-উত্তৰ PDF:</strong> ম’বাইল আৰু প্ৰিন্ট ফ্ৰেণ্ডলী ফৰ্মেটত নোটসমূহ ডাউনল’ড কৰাৰ ব্যৱস্থা।</li>
-          <li><strong>বিগত বৰ্ষৰ প্ৰশ্নকাকত:</strong> পূৰ্বৰ পৰীক্ষাৰ প্ৰশ্নসমূহ উত্তৰসহ অধ্যয়নৰ সুবিধা।</li>
+        <p><strong>axomexam.in</strong> হৈছে অসমৰ চৰকাৰী নিযুক্তি পৰীক্ষা আৰু ৰাজ্যখনত জনপ্ৰিয় কেন্দ্ৰীয় পৰীক্ষাসমূহৰ বাবে প্ৰস্তুতি চলাই থকা প্ৰাৰ্থীসকলৰ বাবে এখন স্বতন্ত্ৰ, বিনামূলীয়া অধ্যয়ন মঞ্চ। ই দ্বিভাষিক অনুশীলন প্ৰশ্নৰ এখন সৰু সংগ্ৰহ হিচাপে আৰম্ভ হৈছিল আৰু এতিয়া সাধাৰণ জ্ঞান, গণিত, সাধাৰণ বিজ্ঞান, যুক্তি, সাধাৰণ ইংৰাজী আৰু কম্পিউটাৰ সজাগতা সামৰি এটা সংগঠিত লাইব্ৰেৰী হৈ পৰিছে — য'ত প্ৰতিটো প্ৰশ্ন, উত্তৰ আৰু ব্যাখ্যা ইংৰাজী আৰু অসমীয়া দুয়োটা ভাষাত উপলব্ধ।</p>
+
+        <h2>আমাৰ লক্ষ্য</h2>
+        <p>আমাৰ বিশ্বাস যে সৰু চহৰত পঢ়া এজন প্ৰাৰ্থীয়ে চহৰৰ কোচিং কেন্দ্ৰৰ প্ৰাৰ্থীৰ দৰেই একে মানৰ অনুশীলন সমল পোৱা উচিত — কোনো মাচুল নিদিয়াকৈ আৰু একাউণ্ট নখুলাকৈ। axomexam.in ৰ প্ৰতিটো অংশ পঢ়া, অনুশীলন কৰা আৰু ডাউনল'ড কৰা বিনামূলীয়া, আৰু ভাষা কেতিয়াও প্ৰস্তুতিৰ বাধা নহয়।</p>
+
+        <h2>আমি কি আগবঢ়াওঁ</h2>
+        <ul>
+          <li><strong>বিষয়ভিত্তিক প্ৰশ্ন-সংগ্ৰহ:</strong> সাধাৰণ জ্ঞান, গণিত, সাধাৰণ বিজ্ঞান, যুক্তি আৰু ইংৰাজীত, প্ৰতিটোৰ উত্তৰ আৰু প্ৰয়োজনত ধাপে ধাপে সমাধানসহ।</li>
+          <li><strong>সময় নিৰ্ধাৰিত মক টেষ্ট:</strong> প্ৰকৃত প্ৰশ্নকাকতৰ আৰ্হি অনুসৰি, লাইভ কাউণ্টডাউন, তৎক্ষণাত ফলাফল আৰু উত্তৰ পুনৰীক্ষণসহ।</li>
+          <li><strong>বিগত বৰ্ষৰ সমাধান কৰা প্ৰশ্নকাকত:</strong> SSC, ৰে'লৱে, অসম আৰক্ষী, গুৱাহাটী উচ্চ ন্যায়ালয়, DHS আৰু DME আদি পৰীক্ষাৰ বাবে।</li>
+          <li><strong>ই-বুক আৰু PDF নোট:</strong> পুনৰাবৃত্তিৰ বাবে, অসমৰ ইতিহাস, ভাৰতীয় ৰাজনীতি, ভূগোল, অৰ্থনীতি, কলা আৰু সংস্কৃতি আদি সামৰি।</li>
+          <li><strong>এখন বিনামূলীয়া Android এপ:</strong> যাতে অনুশীলন সামগ্ৰী য'ত-ত'ৱে অফলাইনত ব্যৱহাৰ কৰিব পাৰি।</li>
         </ul>
-        <h3>যোগাযোগ</h3>
-        <p>আপোনাৰ যিকোনো অনুসন্ধান, পৰামৰ্শ বা অভিযোগৰ বাবে আমাৰ অফিচিয়েল ইমেইল <a href="mailto:axomexam@outlook.com" style="color:#2563eb; font-weight:700;">axomexam@outlook.com</a>-ত পোনপটীয়াকৈ যোগাযোগ কৰিব পাৰে।</p>
+
+        <h2>আমাৰ সমল কেনেদৰে প্ৰস্তুত কৰা হয়</h2>
+        <p>প্ৰতিটো বিষয় প্ৰথমে সংশ্লিষ্ট পৰীক্ষাৰ চৰকাৰী পাঠ্যক্ৰম অনুসৰি শিতান আৰু বিষয়ত ভাগ কৰা হয়। তাৰ পিছত বিষয় অনুসৰি প্ৰশ্ন যোগ কৰি সত্যতা, বানান আৰু স্পষ্টতা পৰীক্ষা কৰা হয়। যি প্ৰাৰ্থীয়ে এটা প্ৰশ্ন ভুল কৰিছে তেওঁ উত্তৰটো মুখস্থ নকৰি ধাৰণাটো বুজি পোৱাৰ বাবে সহজ ভাষাত ব্যাখ্যা লিখা হয়। প্ৰকাশৰ আগতে তথ্যসমূহ চৰকাৰী জাননী, মানক প্ৰসংগ পুথি আৰু ৰাজহুৱাভাৱে উপলব্ধ চৰকাৰী উৎসৰ সৈতে মিলাই পৰীক্ষা কৰা হয়।</p>
+
+        <h2>সম্পাদকীয় মান</h2>
+        <p>সকলো সামগ্ৰী axomexam সম্পাদকীয় দলৰ দ্বাৰা প্ৰস্তুত আৰু পৰ্যালোচনা কৰা হয়, যিয়ে কেৱল এই মঞ্চৰ অধ্যয়ন সমলত কাম কৰে। কোনো পৰীক্ষা, কোচিং প্ৰতিষ্ঠান বা সামগ্ৰী অন্তৰ্ভুক্ত কৰাৰ বাবে আমি ধন লোৱা নাই, আৰু পৃষ্ঠপোষকতা কৰা সামগ্ৰী কেতিয়াও অধ্যয়ন সমল হিচাপে প্ৰকাশ নকৰা হয়। পাঠ্যক্ৰম, পৰীক্ষাৰ আৰ্হি বা তথ্য সলনি হ'লে পৃষ্ঠাসমূহ নিয়মীয়াকৈ পৰ্যালোচনা আৰু হালনাগাদ কৰা হয়।</p>
+
+        <h2>শুদ্ধতা আৰু সংশোধন</h2>
+        <p>আমি প্ৰতিটো তথ্য সঠিক ৰাখিবলৈ চেষ্টা কৰোঁ, কিন্তু পৰীক্ষাৰ আৰ্হি, পাঠ্যক্ৰমৰ বিৱৰণ আৰু চৰকাৰী জাননী সলনি হ'ব পাৰে। axomexam.in এখন স্বতন্ত্ৰ অধ্যয়ন সহায়িকা, চৰকাৰী প'ৰ্টেল নহয় — তাৰিখ, যোগ্যতা আৰু পৰীক্ষাৰ আৰ্হি সদায় চৰকাৰী জাননীৰ পৰা নিশ্চিত কৰক। আপুনি কিবা ভুল বা ভাঙা লিংক পালে পৃষ্ঠাৰ লিংক আৰু সঠিক তথ্যসহ আমালৈ লিখক, আমি যাচাই কৰি সংশোধন কৰিম। সংশোধন আৰু অৱদান কেতিয়াও কোনো বাণিজ্যিক উদ্দেশ্যত ব্যৱহাৰ কৰা নহয়।</p>
+
+        <h2>এই ছাইট কাৰ বাবে</h2>
+        <p>এই সামগ্ৰী ADRE তৃতীয় আৰু চতুৰ্থ শ্ৰেণী, অসম আৰক্ষী উপ-পৰিদৰ্শক আৰু কনিষ্টবল, APSC, পঞ্চায়ত আৰু গ্ৰামোন্নয়ন, বন বিভাগ, DHS আৰু DME, লগতে SSC CGL, CHSL আৰু GD, আৰু RRB NTPC আৰু Group D ৰ দৰে কেন্দ্ৰীয় পৰীক্ষাৰ প্ৰাৰ্থীসকলৰ বাবে ডিজাইন কৰা হৈছে। আপুনি আৰম্ভণিৰ পৰা শিকিছে নে চূড়ান্ত পুনৰাবৃত্তি কৰিছে, বিষয়ভিত্তিক গাঁথনিয়ে আপোনাক নিজৰ গতিত অধ্যয়ন কৰিবলৈ দিয়ে।</p>
+
+        <h2>যোগাযোগ কৰক</h2>
+        <p>প্ৰশ্ন, সংশোধন আৰু পৰামৰ্শ সদায় স্বাগতম। <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a> লৈ ইমেইল কৰক বা আমাৰ <a href="/contact/">যোগাযোগ পৃষ্ঠা</a> ব্যৱহাৰ কৰক। আমি সাধাৰণতে দুৰৰ পৰা তিনি কৰ্মদিৱসৰ ভিতৰত উত্তৰ দিওঁ।</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২০ ছেপ্তেম্বৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
       ` : `
-        <p>Welcome to <strong>axomexam.in</strong>, your premier online destination for comprehensive and accessible preparation for all competitive examinations in Assam.</p>
-        <h3>Our Mission & Vision</h3>
-        <p>We are committed to democratizing quality exam resources for candidates preparing for state and national recruitments, including ADRE (Grade III & IV), Assam Police (Sub-Inspector & Constables), APSC, PNRD, Forest Department, and Central RRB examinations.</p>
-        <h3>What We Provide</h3>
-        <ul style="margin-left:20px; line-height:1.8;">
-          <li><strong>Bilingual Repository:</strong> Complete Q&A, chapter-wise notes and explanations translated in both Assamese and English.</li>
-          <li><strong>Interactive Mock Exams:</strong> Real-time timed practice mock tests designed to simulate exact examination environments.</li>
-          <li><strong>Print-Ready PDF Notes:</strong> High-quality, clutter-free natural-flow PDFs downloadable for offline revisions.</li>
-          <li><strong>Previous Year Papers:</strong> Systematically organized past question papers with verified solutions.</li>
+        <p><strong>axomexam.in</strong> is an independent, free study platform for candidates preparing for government recruitment examinations in Assam and for central examinations that are popular in the state. It began as a small collection of bilingual practice questions and has grown into a structured library that covers General Knowledge, Mathematics, General Science, Reasoning Ability, General English and Computer Awareness — with every question, answer and explanation available in both English and Assamese.</p>
+
+        <h2>Our Mission</h2>
+        <p>We believe that a candidate studying in a small town should have access to the same quality of practice material as a candidate in a city coaching centre — without paying a fee and without creating an account. Every part of axomexam.in is free to read, practise and download, and language is never a barrier to preparation.</p>
+
+        <h2>What We Offer</h2>
+        <ul>
+          <li><strong>Topic-wise question banks</strong> in General Knowledge, Mathematics, General Science, Reasoning and English, each with answers and, wherever needed, step-by-step working.</li>
+          <li><strong>Timed mock tests</strong> that follow the real paper pattern, with a live countdown, instant results and answer review.</li>
+          <li><strong>Previous year solved papers</strong> for exams such as SSC, Railway, Assam Police, Guwahati High Court, DHS and DME.</li>
+          <li><strong>E-books and PDF notes</strong> for revision, covering Assam History, Indian Polity, Geography, Economy, Art and Culture, and more.</li>
+          <li><strong>A free Android app</strong> so practice material can be used offline on the go.</li>
         </ul>
-        <h3>Contact & Support</h3>
-        <p>We value community feedback and continuous improvement. Reach out to our academic support team at <a href="mailto:axomexam@outlook.com" style="color:#2563eb; font-weight:700;">axomexam@outlook.com</a>.</p>
+
+        <h2>How Our Content Is Prepared</h2>
+        <p>Each subject is first divided into sections and topics that follow the official syllabus of the relevant examination. Questions are then added topic by topic and checked for factual accuracy, spelling and clarity. Explanations are written in plain language so that a candidate who answered a question incorrectly can understand the concept instead of simply memorising the answer. Facts are cross-checked against official notifications, standard reference books and publicly available government sources before publishing.</p>
+
+        <h2>Editorial Standards</h2>
+        <p>All material is prepared and reviewed by the axomexam editorial team, which works only on study content for this platform. We do not accept payment for including any exam, coaching institute or product, and sponsored material is never published as study content. Pages are reviewed periodically and updated whenever a syllabus, exam pattern or fact changes.</p>
+
+        <h2>Accuracy and Corrections</h2>
+        <p>We try to keep every fact correct, but examination patterns, syllabus details and official notifications can change. axomexam.in is an independent study aid and not a government portal — always confirm dates, eligibility and exam patterns from the official notification. If you find an error or a broken link, write to us with the page link and the correct information, and we will verify it and make the correction. Corrections and contributions are never used for any commercial purpose.</p>
+
+        <h2>Who This Site Is For</h2>
+        <p>The material is designed for aspirants of ADRE Grade III and IV, Assam Police Sub-Inspector and Constable, APSC, Panchayat and Rural Development, Forest Department, DHS and DME, and for central exams such as SSC CGL, CHSL and GD, and RRB NTPC and Group D. Whether you are starting from the basics or doing a final revision, the topic-wise structure lets you study at your own pace.</p>
+
+        <h2>Contact Us</h2>
+        <p>Questions, corrections and suggestions are always welcome. Email <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a> or use our <a href="/contact/">contact page</a>. We usually reply within two to three working days.</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 20 September 2026 &middot; Publisher: axomexam.in</p>
       `;
     } else if (key === "privacy" || key === "privacy-policy") {
       title = isAs ? "গোপনীয়তা নীতি" : "Privacy Policy";
@@ -2095,9 +2133,10 @@
       <div class="page-head">
         <nav class="breadcrumb"><a href="/">${isAs ? "গৃহপৃষ্ঠা" : "Home"}</a><span class="bc-sep">/</span><span>${escapeHtml(title)}</span></nav>
         <h1>${escapeHtml(title)}</h1>
+        ${desc ? `<p class="page-desc">${escapeHtml(desc)}</p>` : ""}
       </div>
       <section class="section" style="padding-bottom:40px;">
-        <div class="info-panel" style="background:var(--bg,#ffffff); padding:28px 24px; border-radius:18px; border:1px solid var(--border,#e2e8f0); line-height:1.75; color:var(--ink-soft,#475569); box-shadow:0 8px 24px -4px rgba(15,23,42,0.03); max-width:840px; margin:0 auto; text-align:left;">
+        <div class="info-panel" style="background:var(--bg,#ffffff); padding:28px 24px; border-radius:18px; border:1px solid var(--border,#e2e8f0); line-height:1.75; color:var(--ink-soft,#475569); box-shadow:0 8px 24px -4px rgba(15,23,42,0.03); max-width:860px; margin:0 auto; text-align:left;">
           ${content}
         </div>
       </section>`;
@@ -2109,35 +2148,88 @@
   /* ================= Contact Us Page ================= */
   function renderContactPage(main) {
     const isAs = state.uiLang === "as";
+    const subjectOptions = isAs
+      ? ["সমল সংশোধন", "ভাঙা লিংক বা ডাউনল'ড সমস্যা", "নতুন বিষয়ৰ অনুৰোধ", "প্ৰশ্ন আগবঢ়াওক", "কপিৰাইট / টেকডাউন অনুৰোধ", "অন্যান্য"]
+      : ["Content correction", "Broken link or download problem", "New topic request", "Contribute questions", "Copyright / takedown request", "Other"];
     main.innerHTML = `
-      <div class="contact-wrapper" style="width:100%;max-width:520px;margin:10px auto 30px;background:var(--bg,#ffffff);color:var(--ink,#0f172a);border-radius:20px;border:1px solid var(--line,#e2e8f0);box-shadow:var(--card-shadow, 0 10px 30px -6px rgba(15,23,42,0.06));padding:28px 20px;display:flex;flex-direction:column;align-items:center;text-align:center;box-sizing:border-box;">
-        
-        <div style="width:58px; height:58px; border-radius:16px; background:rgba(37,99,235,0.1); color:#2563eb; display:flex; align-items:center; justify-content:center; margin-bottom:12px;">
-          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-            <polyline points="22,6 12,13 2,6"/>
-          </svg>
-        </div>
-
-        <h1 style="font-size:1.38rem; font-weight:800; color:var(--ink,#0f172a); margin:0 0 4px 0; letter-spacing:-0.3px;">${isAs ? "যোগাযোগ কৰক" : "Contact Us"}</h1>
-        <p style="font-size:0.84rem; color:var(--ink-soft,#64748b); line-height:1.45; margin:0 0 20px 0; max-width:380px;">
-          ${isAs ? "যিকোনো প্ৰশ্ন, পৰামৰ্শ বা সহায়ৰ বাবে আমাৰ লগত যোগাযোগ কৰিব পাৰে।" : "We’d love to hear from you. Reach out for any questions, study materials, or suggestions."}
-        </p>
-
-        <div style="width:100%; background:var(--bg-soft,#f8fafc); border:1.5px solid var(--line,#e2e8f0); border-radius:14px; padding:16px 12px; margin-bottom:20px; box-sizing:border-box;">
-          <span style="font-size:0.72rem; font-weight:700; color:var(--ink-soft,#64748b); text-transform:uppercase; letter-spacing:0.6px; display:block; margin-bottom:3px;">${isAs ? "অফিচিয়েল ইমেইল" : "Official Support Email"}</span>
-          <a href="mailto:axomexam@outlook.com" style="font-size:1.1rem; font-weight:800; color:#2563eb; text-decoration:none; word-break:break-all;">axomexam@outlook.com</a>
-        </div>
-
-        <a href="mailto:axomexam@outlook.com" style="width:100%; max-width:260px; padding:12px 18px; font-size:0.92rem; font-weight:700; border-radius:12px; border:none; background:#2563eb; color:#ffffff; text-decoration:none; display:inline-flex; align-items:center; justify-content:center; gap:8px; box-shadow:0 5px 14px -3px rgba(37,99,235,0.4); transition:all 0.2s ease;">
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
-          </svg>
-          ${isAs ? "ইমেইল প্ৰেৰণ কৰক" : "Send an Email"}
-        </a>
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="/">${isAs ? "গৃহপৃষ্ঠা" : "Home"}</a><span class="bc-sep">/</span><span>${isAs ? "যোগাযোগ কৰক" : "Contact Us"}</span></nav>
+        <h1>${isAs ? "যোগাযোগ কৰক" : "Contact Us"}</h1>
+        <p class="page-desc">${isAs ? "ভুল উত্তৰ জনাওক, নতুন বিষয় বিচাৰক, প্ৰশ্ন আগবঢ়াওক, বা পৰীক্ষাৰ প্ৰস্তুতিত সহায় বিচাৰক।" : "Report a wrong answer, request a topic, contribute questions, or ask for help with your exam preparation."}</p>
       </div>
+
+      <section class="section" style="padding-bottom:40px;">
+        <article style="max-width:860px; margin:0 auto; line-height:1.85; color:var(--ink-soft,#475569); text-align:left;">
+          <p>${isAs ? "আমি লাভ কৰা প্ৰতিটো বাৰ্তা পঢ়োঁ আৰু সেই প্ৰতিক্ৰিয়া axomexam.in ৰ প্ৰশ্ন-সংগ্ৰহ, নোট আৰু মক টেষ্ট উন্নত কৰিবলৈ ব্যৱহাৰ কৰোঁ। আপুনি এটা ভুল উত্তৰ জনাব, নতুন এটা বিষয়ৰ পৰামৰ্শ দিব, প্ৰশ্ন আগবঢ়াব বা অধ্যয়ন সামগ্ৰীৰ বিষয়ে সোধা-পোছা কৰিব বিচাৰে নে নাই — এই পৃষ্ঠাই আমাৰ সৈতে যোগাযোগ কৰাৰ আটাইতকৈ ভাল উপায় ব্যাখ্যা কৰে।" : "We read every message we receive and use the feedback to improve the question banks, notes and mock tests on axomexam.in. Whether you want to report a wrong answer, suggest a new topic, contribute questions or ask about study material, this page explains the best way to reach us."}</p>
+
+          <h2>${isAs ? "ইমেইল সহায়" : "Email Support"}</h2>
+          <p>${isAs ? "যোগাযোগৰ আটাইতকৈ দ্ৰুত উপায় হ'ল" : "The fastest way to contact us is by email at"} <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a>${isAs ? " লৈ ইমেইল। আমাক উত্তৰ দিবলৈ অনুগ্ৰহ কৰি এটা বৈধ ইমেইল ঠিকনাৰ পৰা লিখক। আমি সাধাৰণতে" : ". Please write from a valid email address so that we can reply. We usually respond within"} <strong>${isAs ? "দুৰৰ পৰা তিনি কৰ্মদিৱসৰ" : "two to three working days"}</strong>${isAs ? " ভিতৰত উত্তৰ দিওঁ।" : "."}</p>
+
+          <form id="contact-form" action="mailto:axomexam@outlook.com" method="post" enctype="text/plain" style="margin:22px 0 10px; padding:22px; border:1px solid var(--border,#e2e8f0); border-radius:16px; background:var(--card-bg,#fff);">
+            <h3 style="margin-top:0; color:var(--ink,#0f172a);">${isAs ? "আমাক এটা বাৰ্তা পঠিয়াওক" : "Send us a message"}</h3>
+            <div style="margin-bottom:12px;">
+              <label for="c-name" style="display:block; font-weight:700; margin-bottom:6px; color:var(--ink,#0f172a);">${isAs ? "আপোনাৰ নাম" : "Your name"}</label>
+              <input id="c-name" name="name" type="text" required style="width:100%; padding:10px 12px; border:1px solid var(--border,#cbd5e1); border-radius:10px; font:inherit; box-sizing:border-box;" />
+            </div>
+            <div style="margin-bottom:12px;">
+              <label for="c-email" style="display:block; font-weight:700; margin-bottom:6px; color:var(--ink,#0f172a);">${isAs ? "আপোনাৰ ইমেইল" : "Your email"}</label>
+              <input id="c-email" name="email" type="email" required style="width:100%; padding:10px 12px; border:1px solid var(--border,#cbd5e1); border-radius:10px; font:inherit; box-sizing:border-box;" />
+            </div>
+            <div style="margin-bottom:12px;">
+              <label for="c-subject" style="display:block; font-weight:700; margin-bottom:6px; color:var(--ink,#0f172a);">${isAs ? "বিষয়" : "Subject"}</label>
+              <select id="c-subject" name="subject" style="width:100%; padding:10px 12px; border:1px solid var(--border,#cbd5e1); border-radius:10px; font:inherit; box-sizing:border-box;">
+                ${subjectOptions.map((o) => `<option>${o}</option>`).join("")}
+              </select>
+            </div>
+            <div style="margin-bottom:16px;">
+              <label for="c-message" style="display:block; font-weight:700; margin-bottom:6px; color:var(--ink,#0f172a);">${isAs ? "বাৰ্তা" : "Message"}</label>
+              <textarea id="c-message" name="message" rows="5" required style="width:100%; padding:10px 12px; border:1px solid var(--border,#cbd5e1); border-radius:10px; font:inherit; box-sizing:border-box;"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">${isAs ? "বাৰ্তা পঠিয়াওক" : "Send message"}</button>
+            <p style="font-size:0.82rem; color:#64748b; margin:10px 0 0;">${isAs ? "ই আপোনাৰ ইমেইল এপটো তথ্য ভৰাই খুলিব। যদি নুখুলে, তেন্তে পোনপটীয়াকৈ" : "This opens your email app with the details filled in. If it does not open, simply email us directly at"} <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a>${isAs ? " লৈ ইমেইল কৰক।" : "."}</p>
+          </form>
+
+          <h2>${isAs ? "আপোনাৰ বাৰ্তাত কি অন্তৰ্ভুক্ত কৰিব" : "What to Include in Your Message"}</h2>
+          <ul>
+            <li>${isAs ? "<strong>সমল সংশোধনৰ বাবে:</strong> পৃষ্ঠাৰ সঠিক লিংক, প্ৰশ্ন নম্বৰ, আপুনি ভুল বুলি ভবা কথাটো, আৰু এটা চুটি কাৰণ বা উৎসসহ সঠিক উত্তৰ।" : "<strong>For a content correction:</strong> the exact page link, the question number, what you believe is wrong, and the correct answer with a short reason or source."}</li>
+            <li>${isAs ? "<strong>ভাঙা লিংক বা ডাউনল'ড সমস্যাৰ বাবে:</strong> লিংকটো দেখা পোৱা পৃষ্ঠা আৰু ফাইল বা প্ৰশ্নকাকতৰ নাম।" : "<strong>For a broken link or download problem:</strong> the page where the link appears and the name of the file or paper."}</li>
+            <li>${isAs ? "<strong>নতুন বিষয় অনুৰোধৰ বাবে:</strong> পৰীক্ষাৰ নাম, বিষয় আৰু আমি যোগ কৰিবলগীয়া নিৰ্দিষ্ট বিষয়টো।" : "<strong>For a new topic request:</strong> the exam name, subject and the specific topic you would like us to add."}</li>
+            <li>${isAs ? "<strong>প্ৰশ্ন আগবঢ়োৱাৰ বাবে:</strong> বিষয়, প্ৰশ্ন চাৰিটা বিকল্পসহ, সঠিক বিকল্প আৰু এটা চুটি ব্যাখ্যা।" : "<strong>For contributing questions:</strong> the subject, topic, questions with four options, the correct option and a brief explanation."}</li>
+          </ul>
+
+          <h2>${isAs ? "উত্তৰৰ সময়" : "Response Time"}</h2>
+          <p>${isAs ? "আমি প্ৰতিটো প্ৰামাণিক বাৰ্তাৰ উত্তৰ দুৰৰ পৰা তিনি কৰ্মদিৱসৰ ভিতৰত দিবলৈ চেষ্টা কৰোঁ। বাৰ্তাসমূহ অহা ক্ৰমত পৰিচালনা কৰা হয়, আৰু যাচাইযোগ্য উৎসসহ সমল সংশোধনসমূহ সাধাৰণতে আগতে প্ৰক্ৰিয়া কৰা হয়।" : "We aim to reply to every genuine message within two to three working days. Messages are handled in the order they arrive, and content corrections that include a verifiable source are usually processed first."}</p>
+
+          <h2>${isAs ? "কপিৰাইট সমল জনাওক" : "Report Copyright Content"}</h2>
+          <p>${isAs ? "যদি আপুনি বিশ্বাস কৰে যে axomexam.in ৰ কোনো সামগ্ৰীয়ে আপোনাৰ কপিৰাইট উলংঘা কৰিছে, পৃষ্ঠাৰ লিংক আৰু মালিকীস্বত্বৰ প্ৰমাণসহ আমালৈ ইমেইল কৰক। আমি অনুৰোধ পৰ্যালোচনা কৰি প্ৰয়োজন হ'লে সামগ্ৰী আঁতৰাব। আমি বৌদ্ধিক সম্পত্তিক সন্মান কৰোঁ আৰু বৈধ টেকডাউন অনুৰোধসমূহ তৎক্ষণাত পালন কৰোঁ।" : "If you believe any material on axomexam.in infringes your copyright, email us with the page link and proof of ownership. We will review the request and remove the material if required. We respect intellectual property and act on valid takedown requests promptly."}</p>
+
+          <h2>${isAs ? "সাধাৰণ প্ৰশ্ন" : "Common Questions"}</h2>
+          <p>${isAs ? "<strong>ফোন নম্বৰ বা লাইভ চেট আছে নেকি?</strong> নাই। মঞ্চখন বিনামূলীয়া আৰু সমল-কেন্দ্ৰিত ৰাখিবলৈ সহায় সম্পূৰ্ণৰূপে ইমেইলৰ জৰিয়তে কৰা হয়।" : "<strong>Is there a phone number or live chat?</strong> No. To keep the platform free and focused on content, support is handled by email only."}</p>
+          <p>${isAs ? "<strong>মই অধ্যয়ন পৰিকল্পনা বিচাৰিব পাৰোঁ নেকি?</strong> হয়। আপুনি যি পৰীক্ষাৰ বাবে প্ৰস্তুতি চলাইছে আৰু পৰীক্ষাৰ তাৰিখ কওক, আমি আপোনাক আটাইতকৈ প্ৰাসংগিক শিতান আৰু অধ্যয়নৰ পৰামৰ্শিত ক্ৰমলৈ নিৰ্দেশ কৰিম।" : "<strong>Can I request a study plan?</strong> Yes. Tell us the exam you are preparing for and the date of the exam, and we will point you to the most relevant sections and a suggested order of study."}</p>
+          <p>${isAs ? "<strong>আপোনালোকে মোৰ তথ্য শ্বেয়াৰ বা বিক্ৰী কৰে নেকি?</strong> কেতিয়াও নহয়। আপোনাৰ ইমেইল কেৱল আপোনাৰ অনুসন্ধানৰ উত্তৰ দিবলৈ ব্যৱহাৰ কৰা হয়, আমাৰ <a href=\"/privacy/\">গোপনীয়তা নীতি</a>ত ব্যাখ্যা কৰাৰ দৰে।" : "<strong>Do you share or sell my details?</strong> Never. Your email is used only to reply to your query, as explained in our <a href=\"/privacy/\">Privacy Policy</a>."}</p>
+          <p>${isAs ? "<strong>মই ছাইটলৈ প্ৰশ্ন আগবঢ়াব পাৰোঁ নেকি?</strong> হয়। চাৰিটা বিকল্প আৰু এটা চুটি ব্যাখ্যাসহ পঠিয়াওক, আমাৰ দলে প্ৰকাশৰ আগতে পৰ্যালোচনা কৰিব।" : "<strong>Can I contribute questions to the site?</strong> Yes. Send them with four options and a short explanation, and our team will review them before publishing."}</p>
+
+          <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>${isAs ? "শেষ হালনাগাদ:" : "Last updated:"}</strong> ${isAs ? "২০ ছেপ্তেম্বৰ ২০২৬" : "20 September 2026"} &middot; ${isAs ? "প্ৰকাশক:" : "Publisher:"} axomexam.in</p>
+        </article>
+      </section>
     `;
+
+    const form = document.getElementById("contact-form");
+    if (form) {
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const name = (document.getElementById("c-name") || {}).value || "";
+        const email = (document.getElementById("c-email") || {}).value || "";
+        const subject = (document.getElementById("c-subject") || {}).value || "Website enquiry";
+        const message = (document.getElementById("c-message") || {}).value || "";
+        const body = "Name: " + name + "\nEmail: " + email + "\n\n" + message;
+        window.location.href = "mailto:axomexam@outlook.com?subject=" + encodeURIComponent("[axomexam] " + subject) + "&body=" + encodeURIComponent(body);
+      });
+    }
+
     applyStaticI18n();
     observeReveals();
+    window.scrollTo(0, 0);
   }
 
   /* ================= Master Search ================= */
