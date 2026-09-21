@@ -3,30 +3,730 @@
   "title": "Set 5",
   "subject": "Physics",
   "questions": [
-    {"q": {"en": "The SI unit of potential difference is?", "as": "বিভৱান্তৰৰ SI একক কি?"}, "options": [{"en": "Volt", "as": "ভল্ট"}, {"en": "Ampere", "as": "এম্পিয়াৰ"}, {"en": "Ohm", "as": "ওম"}, {"en": "Coulomb", "as": "কুলম"}], "correct": 0},
-    {"q": {"en": "In a series combination of resistors, the current is?", "as": "প্ৰতিৰোধকৰ শৃংখল সংযোগত প্ৰবাহ কেনেকুৱা?"}, "options": [{"en": "Different in each resistor", "as": "প্ৰতিটোত বেলেগ"}, {"en": "Same through each resistor", "as": "প্ৰতিটোতে একে"}, {"en": "Always zero", "as": "সদায় শূন্য"}, {"en": "Infinite", "as": "অসীম"}], "correct": 1},
-    {"q": {"en": "In a parallel combination of resistors, the voltage is?", "as": "প্ৰতিৰোধকৰ সমান্তৰাল সংযোগত ভল্টেজ কেনেকুৱা?"}, "options": [{"en": "Different across each", "as": "প্ৰতিটোত বেলেগ"}, {"en": "Zero across each", "as": "প্ৰতিটোতে শূন্য"}, {"en": "Same across each resistor", "as": "প্ৰতিটোতে একে"}, {"en": "Infinite", "as": "অসীম"}], "correct": 2},
-    {"q": {"en": "The commercial unit of electrical energy is?", "as": "বিদ্যুৎ শক্তিৰ ব্যৱসায়িক একক কি?"}, "options": [{"en": "Joule", "as": "জুল"}, {"en": "Watt", "as": "ৱাট"}, {"en": "Newton", "as": "নিউটন"}, {"en": "Kilowatt-hour", "as": "কিলোৱাট-ঘণ্টা"}], "correct": 3},
-    {"q": {"en": "1 kWh is equal to?", "as": "১ কিলোৱাট-ঘণ্টা কিমানৰ সমান?"}, "options": [{"en": "3.6 × 10^6 J", "as": "৩.৬ × ১০^৬ জুল"}, {"en": "1000 J", "as": "১০০০ জুল"}, {"en": "360 J", "as": "৩৬০ জুল"}, {"en": "3.6 × 10^3 J", "as": "৩.৬ × ১০^৩ জুল"}], "correct": 0},
-    {"q": {"en": "The heating effect of current is given by?", "as": "প্ৰবাহৰ তাপীয় প্ৰভাৱ কোন সূত্ৰৰে দিয়া হয়?"}, "options": [{"en": "F = ma", "as": "F = ma"}, {"en": "H = I²Rt", "as": "H = I²Rt"}, {"en": "V = IR only", "as": "কেৱল V = IR"}, {"en": "P = mv", "as": "P = mv"}], "correct": 1},
-    {"q": {"en": "Which of the following is used in electric heater coils?", "as": "বিদ্যুৎ হিটাৰৰ কুণ্ডলীত তলৰ কোনটো ব্যৱহাৰ হয়?"}, "options": [{"en": "Copper", "as": "তাম"}, {"en": "Silver", "as": "ৰূপ"}, {"en": "Nichrome", "as": "নাইক্ৰোম"}, {"en": "Aluminium", "as": "এলুমিনিয়াম"}], "correct": 2},
-    {"q": {"en": "The earth wire in household wiring is usually?", "as": "ঘৰুৱা বিদ্যুৎ সংযোগত আৰ্থ তাঁৰ সাধাৰণতে কি ৰঙৰ?"}, "options": [{"en": "Red", "as": "ৰঙা"}, {"en": "Black", "as": "ক’লা"}, {"en": "Blue", "as": "নীলা"}, {"en": "Green or green-yellow", "as": "সেউজীয়া বা সেউজীয়া-হালধীয়া"}], "correct": 3},
-    {"q": {"en": "AC used in Indian household supply has frequency?", "as": "ভাৰতীয় ঘৰুৱা বিদ্যুৎ যোগানৰ AC-ৰ কম্পাংক কিমান?"}, "options": [{"en": "50 Hz", "as": "৫০ হাৰ্টজ"}, {"en": "60 Hz", "as": "৬০ হাৰ্টজ"}, {"en": "100 Hz", "as": "১০০ হাৰ্টজ"}, {"en": "220 Hz", "as": "২২০ হাৰ্টজ"}], "correct": 0},
-    {"q": {"en": "The voltage of household AC supply in India is about?", "as": "ভাৰতত ঘৰুৱা AC যোগানৰ ভল্টেজ প্ৰায় কিমান?"}, "options": [{"en": "110 V", "as": "১১০ ভল্ট"}, {"en": "220 V", "as": "২২০ ভল্ট"}, {"en": "440 V only for homes", "as": "ঘৰৰ বাবে কেৱল ৪৪০ ভল্ট"}, {"en": "12 V", "as": "১২ ভল্ট"}], "correct": 1},
-    {"q": {"en": "Which of the following is a semiconductor?", "as": "তলৰ কোনটো অৰ্ধপৰিবাহী?"}, "options": [{"en": "Copper", "as": "তাম"}, {"en": "Silver", "as": "ৰূপ"}, {"en": "Germanium", "as": "জাৰ্মেনিয়াম"}, {"en": "Gold", "as": "সোণ"}], "correct": 2},
-    {"q": {"en": "LED stands for?", "as": "LED-ৰ সম্পূৰ্ণ অৰ্থ কি?"}, "options": [{"en": "Light Energy Device", "as": "লাইট এনাৰ্জি ডিভাইচ"}, {"en": "Low Electric Diode", "as": "ল’ ইলেক্ট্ৰিক ডায়’ড"}, {"en": "Long Emission Display", "as": "লং এমিছন ডিছপ্লে"}, {"en": "Light Emitting Diode", "as": "লাইট এমিটিং ডায়’ড"}], "correct": 3},
-    {"q": {"en": "The first Indian satellite was?", "as": "প্ৰথম ভাৰতীয় উপগ্ৰহ কোনটো আছিল?"}, "options": [{"en": "Aryabhata", "as": "আৰ্যভট্ট"}, {"en": "INSAT-1A", "as": "ইনচেট-১এ"}, {"en": "Rohini", "as": "ৰোহিনী"}, {"en": "Chandrayaan-1", "as": "চন্দ্ৰযান-১"}], "correct": 0},
-    {"q": {"en": "ISRO was established in which year?", "as": "ইছৰো কোন চনত প্ৰতিষ্ঠা হৈছিল?"}, "options": [{"en": "1962", "as": "১৯৬২"}, {"en": "1969", "as": "১৯৬৯"}, {"en": "1975", "as": "১৯৭৫"}, {"en": "1984", "as": "১৯৮৪"}], "correct": 1},
-    {"q": {"en": "Geostationary satellites have a time period of about?", "as": "ভূস্থিৰ উপগ্ৰহৰ পৰ্যায়কাল প্ৰায় কিমান?"}, "options": [{"en": "12 hours", "as": "১২ ঘণ্টা"}, {"en": "1 hour", "as": "১ ঘণ্টা"}, {"en": "24 hours", "as": "২৪ ঘণ্টা"}, {"en": "365 days", "as": "৩৬৫ দিন"}], "correct": 2},
-    {"q": {"en": "Which force is responsible for falling of objects towards Earth?", "as": "বস্তু পৃথিৱীৰ ফালে পৰাৰ কাৰণ কোন বল?"}, "options": [{"en": "Magnetic force", "as": "চুম্বকীয় বল"}, {"en": "Frictional force", "as": "ঘৰ্ষণ বল"}, {"en": "Nuclear force", "as": "নিউক্লীয় বল"}, {"en": "Gravitational force", "as": "মহাকৰ্ষণ বল"}], "correct": 3},
-    {"q": {"en": "Friction can be reduced by?", "as": "ঘৰ্ষণ কিৰে কমাব পাৰি?"}, "options": [{"en": "Using lubricants", "as": "লুব্ৰিকেণ্ট ব্যৱহাৰ কৰি"}, {"en": "Making surfaces more rough", "as": "পৃষ্ঠ অধিক খহটা কৰি"}, {"en": "Increasing load always", "as": "সদায় ভাৰ বৃদ্ধি কৰি"}, {"en": "Removing wheels", "as": "চকা আঁতৰাই"}], "correct": 0},
-    {"q": {"en": "Inertia of a body depends on its?", "as": "বস্তুৰ জড়তা কিৰ ওপৰত নিৰ্ভৰ কৰে?"}, "options": [{"en": "Speed", "as": "দ্ৰুতি"}, {"en": "Mass", "as": "ভৰ"}, {"en": "Colour", "as": "ৰং"}, {"en": "Temperature", "as": "উষ্ণতা"}], "correct": 1},
-    {"q": {"en": "The momentum of a body at rest is?", "as": "বিশ্ৰামত থকা বস্তুৰ ভৰবেগ কিমান?"}, "options": [{"en": "Maximum", "as": "সৰ্বাধিক"}, {"en": "Infinite", "as": "অসীম"}, {"en": "Zero", "as": "শূন্য"}, {"en": "Equal to mass", "as": "ভৰৰ সমান"}], "correct": 2},
-    {"q": {"en": "Which of the following is not a unit of energy?", "as": "তলৰ কোনটো শক্তিৰ একক নহয়?"}, "options": [{"en": "Joule", "as": "জুল"}, {"en": "Calorie", "as": "কেলৰি"}, {"en": "Kilowatt-hour", "as": "কিলোৱাট-ঘণ্টা"}, {"en": "Newton", "as": "নিউটন"}], "correct": 3},
-    {"q": {"en": "The instrument used to measure humidity is?", "as": "আৰ্দ্ৰতা জুখিবলৈ ব্যৱহাৰ কৰা যন্ত্ৰ কি?"}, "options": [{"en": "Hygrometer", "as": "হাইগ্ৰোমিটাৰ"}, {"en": "Barometer", "as": "বেৰোমিটাৰ"}, {"en": "Ammeter", "as": "এমিটাৰ"}, {"en": "Manometer", "as": "মেনোমিতাৰ"}], "correct": 0},
-    {"q": {"en": "Manometer is used to measure?", "as": "মেনোমিতাৰে কি জুখে?"}, "options": [{"en": "Temperature", "as": "উষ্ণতা"}, {"en": "Pressure of a gas or liquid", "as": "গেছ বা তৰলৰ চাপ"}, {"en": "Current", "as": "প্ৰবাহ"}, {"en": "Humidity", "as": "আৰ্দ্ৰতা"}], "correct": 1},
-    {"q": {"en": "The first law of thermodynamics is based on?", "as": "তাপগতিবিজ্ঞানৰ প্ৰথম সূত্ৰ কিৰ ওপৰত ভিত্তি কৰা?"}, "options": [{"en": "Conservation of mass", "as": "ভৰ সংৰক্ষণ"}, {"en": "Conservation of charge", "as": "আধান সংৰক্ষণ"}, {"en": "Conservation of energy", "as": "শক্তি সংৰক্ষণ"}, {"en": "Conservation of momentum", "as": "ভৰবেগ সংৰক্ষণ"}], "correct": 2},
-    {"q": {"en": "Which of the following has the highest specific heat?", "as": "তলৰ কোনটোৰ আপেক্ষিক তাপ সৰ্বাধিক?"}, "options": [{"en": "Iron", "as": "লো"}, {"en": "Copper", "as": "তাম"}, {"en": "Mercury", "as": "পাৰা"}, {"en": "Water", "as": "পানী"}], "correct": 3},
-    {"q": {"en": "A clinical thermometer is used to measure?", "as": "ক্লিনিকেল থাৰ্মোমিটাৰে কি জুখে?"}, "options": [{"en": "Human body temperature", "as": "মানৱ দেহৰ উষ্ণতা"}, {"en": "Boiling point of water only", "as": "কেৱল পানীৰ উতলাংক"}, {"en": "Atmospheric pressure", "as": "বায়ুমণ্ডলীয় চাপ"}, {"en": "Electric current", "as": "বিদ্যুৎ প্ৰবাহ"}], "correct": 0}
+    {
+      "q": {
+        "en": "The SI unit of potential difference is?",
+        "as": "বিভৱান্তৰৰ SI একক কি?"
+      },
+      "options": [
+        {
+          "en": "Volt",
+          "as": "ভল্ট"
+        },
+        {
+          "en": "Ampere",
+          "as": "এম্পিয়াৰ"
+        },
+        {
+          "en": "Ohm",
+          "as": "ওম"
+        },
+        {
+          "en": "Coulomb",
+          "as": "কুলম"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Potential difference is the work done per unit charge in moving a charge between two points, and its SI unit is the volt (1 V = 1 J/C). Hence 'Volt' is correct.",
+        "as": "বিভৱান্তৰ হৈছে একক আধান এটা দুই বিন্দুৰ মাজত স্থানান্তৰ কৰিবলৈ কৰা কাৰ্য, আৰু ইয়াৰ SI একক ভল্ট (১ V = ১ জুল/কুলম)। সেয়ে 'ভল্ট' শুদ্ধ উত্তৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a series combination of resistors, the current is?",
+        "as": "প্ৰতিৰোধকৰ শৃংখল সংযোগত প্ৰবাহ কেনেকুৱা?"
+      },
+      "options": [
+        {
+          "en": "Different in each resistor",
+          "as": "প্ৰতিটোত বেলেগ"
+        },
+        {
+          "en": "Same through each resistor",
+          "as": "প্ৰতিটোতে একে"
+        },
+        {
+          "en": "Always zero",
+          "as": "সদায় শূন্য"
+        },
+        {
+          "en": "Infinite",
+          "as": "অসীম"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "In a series circuit there is only one path for the current, so the same current flows through every resistor while the voltage divides across them. Hence 'Same through each resistor' is correct.",
+        "as": "শৃংখল বৰ্তনীত প্ৰবাহৰ বাবে কেৱল এটা পথ থাকে, সেয়ে প্ৰতিটো প্ৰতিৰোধৰ মাজেৰে একেই প্ৰবাহ প্ৰৱাহিত হয় আৰু ভল্টেজ বিভাজিত হয়। সেয়ে 'প্ৰতিটোতে একে' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a parallel combination of resistors, the voltage is?",
+        "as": "প্ৰতিৰোধকৰ সমান্তৰাল সংযোগত ভল্টেজ কেনেকুৱা?"
+      },
+      "options": [
+        {
+          "en": "Different across each",
+          "as": "প্ৰতিটোত বেলেগ"
+        },
+        {
+          "en": "Zero across each",
+          "as": "প্ৰতিটোতে শূন্য"
+        },
+        {
+          "en": "Same across each resistor",
+          "as": "প্ৰতিটোতে একে"
+        },
+        {
+          "en": "Infinite",
+          "as": "অসীম"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "In a parallel combination all resistors are connected across the same two nodes, so the potential difference (voltage) across each resistor is the same while the current divides. Hence 'Same across each resistor' is correct.",
+        "as": "সমান্তৰাল সংযোগত সকলো প্ৰতিৰোধ একেই দুটা বিন্দুৰ মাজত সংযুক্ত থাকে, সেয়ে প্ৰতিটো প্ৰতিৰোধৰ দুই প্ৰান্তত ভল্টেজ একে হয় আৰু প্ৰবাহ বিভাজিত হয়। সেয়ে 'প্ৰতিটোতে একে' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The commercial unit of electrical energy is?",
+        "as": "বিদ্যুৎ শক্তিৰ ব্যৱসায়িক একক কি?"
+      },
+      "options": [
+        {
+          "en": "Joule",
+          "as": "জুল"
+        },
+        {
+          "en": "Watt",
+          "as": "ৱাট"
+        },
+        {
+          "en": "Newton",
+          "as": "নিউটন"
+        },
+        {
+          "en": "Kilowatt-hour",
+          "as": "কিলোৱাট-ঘণ্টা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Electrical energy is sold commercially in kilowatt-hour (kWh), the energy consumed by a 1 kW appliance in 1 hour. Hence 'Kilowatt-hour' is correct.",
+        "as": "বিদ্যুৎ শক্তি ব্যৱসায়িকভাৱে কিলোৱাট-ঘণ্টা (kWh) এককত বিক্ৰী কৰা হয়, যি ১ কি.ৱা. সৰঞ্জামে ১ ঘণ্টাত খৰচ কৰা শক্তি। সেয়ে 'কিলোৱাট-ঘণ্টা' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "1 kWh is equal to?",
+        "as": "১ কিলোৱাট-ঘণ্টা কিমানৰ সমান?"
+      },
+      "options": [
+        {
+          "en": "3.6 × 10^6 J",
+          "as": "৩.৬ × ১০^৬ জুল"
+        },
+        {
+          "en": "1000 J",
+          "as": "১০০০ জুল"
+        },
+        {
+          "en": "360 J",
+          "as": "৩৬০ জুল"
+        },
+        {
+          "en": "3.6 × 10^3 J",
+          "as": "৩.৬ × ১০^৩ জুল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "1 kWh = 1000 W × 3600 s = 3.6 × 10^6 J. Hence '3.6 × 10^6 J' is correct.",
+        "as": "১ kWh = ১০০০ ৱাট × ৩৬০০ ছেকেণ্ড = ৩.৬ × ১০^৬ জুল। সেয়ে '৩.৬ × ১০^৬ জুল' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The heating effect of current is given by?",
+        "as": "প্ৰবাহৰ তাপীয় প্ৰভাৱ কোন সূত্ৰৰে দিয়া হয়?"
+      },
+      "options": [
+        {
+          "en": "F = ma",
+          "as": "F = ma"
+        },
+        {
+          "en": "H = I²Rt",
+          "as": "H = I²Rt"
+        },
+        {
+          "en": "V = IR only",
+          "as": "কেৱল V = IR"
+        },
+        {
+          "en": "P = mv",
+          "as": "P = mv"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Joule's law of heating states H = I²Rt, the heat produced in a resistor of resistance R carrying current I for time t. Hence 'H = I²Rt' is correct.",
+        "as": "জুলৰ তাপীয় সূত্ৰ অনুসৰি H = I²Rt, অৰ্থাৎ R প্ৰতিৰোধৰ মাজেৰে t সময় ধৰি I প্ৰবাহ চলিলে উৎপন্ন হোৱা তাপ। সেয়ে 'H = I²Rt' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is used in electric heater coils?",
+        "as": "বিদ্যুৎ হিটাৰৰ কুণ্ডলীত তলৰ কোনটো ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Copper",
+          "as": "তাম"
+        },
+        {
+          "en": "Silver",
+          "as": "ৰূপ"
+        },
+        {
+          "en": "Nichrome",
+          "as": "নাইক্ৰোম"
+        },
+        {
+          "en": "Aluminium",
+          "as": "এলুমিনিয়াম"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Nichrome has high resistivity, a high melting point and does not oxidise easily, so it is used in electric heater coils. Hence 'Nichrome' is correct.",
+        "as": "নাইক্ৰোমৰ ৰোধাঙ্ক আৰু গলনাংক উচ্চ আৰু ই সহজে জাৰিত নহয়, সেয়ে বিদ্যুৎ হিটাৰৰ কুণ্ডলীত ব্যৱহাৰ হয়। সেয়ে 'নাইক্ৰোম' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The earth wire in household wiring is usually?",
+        "as": "ঘৰুৱা বিদ্যুৎ সংযোগত আৰ্থ তাঁৰ সাধাৰণতে কি ৰঙৰ?"
+      },
+      "options": [
+        {
+          "en": "Red",
+          "as": "ৰঙা"
+        },
+        {
+          "en": "Black",
+          "as": "ক’লা"
+        },
+        {
+          "en": "Blue",
+          "as": "নীলা"
+        },
+        {
+          "en": "Green or green-yellow",
+          "as": "সেউজীয়া বা সেউজীয়া-হালধীয়া"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The earth wire provides a low-resistance path to the ground and is usually green or green-yellow in colour. Hence 'Green or green-yellow' is correct.",
+        "as": "আৰ্থ তাঁৰে ভূমিলৈ কম প্ৰতিৰোধৰ পথ প্ৰদান কৰে আৰু সাধাৰণতে সেউজীয়া বা সেউজীয়া-হালধীয়া ৰঙৰ হয়। সেয়ে 'সেউজীয়া বা সেউজীয়া-হালধীয়া' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "AC used in Indian household supply has frequency?",
+        "as": "ভাৰতীয় ঘৰুৱা বিদ্যুৎ যোগানৰ AC-ৰ কম্পাংক কিমান?"
+      },
+      "options": [
+        {
+          "en": "50 Hz",
+          "as": "৫০ হাৰ্টজ"
+        },
+        {
+          "en": "60 Hz",
+          "as": "৬০ হাৰ্টজ"
+        },
+        {
+          "en": "100 Hz",
+          "as": "১০০ হাৰ্টজ"
+        },
+        {
+          "en": "220 Hz",
+          "as": "২২০ হাৰ্টজ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The alternating current supplied for domestic use in India has a frequency of 50 Hz, i.e. it reverses direction 100 times per second. Hence '50 Hz' is correct.",
+        "as": "ভাৰতত ঘৰুৱা ব্যৱহাৰৰ পৰিবৰ্তী প্ৰবাহৰ কম্পাংক ৫০ হাৰ্টজ, অৰ্থাৎ ই ছেকেণ্ডত ১০০ বাৰ দিশ সলনি কৰে। সেয়ে '৫০ হাৰ্টজ' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The voltage of household AC supply in India is about?",
+        "as": "ভাৰতত ঘৰুৱা AC যোগানৰ ভল্টেজ প্ৰায় কিমান?"
+      },
+      "options": [
+        {
+          "en": "110 V",
+          "as": "১১০ ভল্ট"
+        },
+        {
+          "en": "220 V",
+          "as": "২২০ ভল্ট"
+        },
+        {
+          "en": "440 V only for homes",
+          "as": "ঘৰৰ বাবে কেৱল ৪৪০ ভল্ট"
+        },
+        {
+          "en": "12 V",
+          "as": "১২ ভল্ট"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The domestic AC supply voltage in India is about 220 V with a frequency of 50 Hz. Hence '220 V' is correct.",
+        "as": "ভাৰতত ঘৰুৱা AC যোগানৰ ভল্টেজ প্ৰায় ২২০ ভল্ট আৰু কম্পাংক ৫০ হাৰ্টজ। সেয়ে '২২০ ভল্ট' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a semiconductor?",
+        "as": "তলৰ কোনটো অৰ্ধপৰিবাহী?"
+      },
+      "options": [
+        {
+          "en": "Copper",
+          "as": "তাম"
+        },
+        {
+          "en": "Silver",
+          "as": "ৰূপ"
+        },
+        {
+          "en": "Germanium",
+          "as": "জাৰ্মেনিয়াম"
+        },
+        {
+          "en": "Gold",
+          "as": "সোণ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Germanium (like silicon) is a semiconductor whose resistivity lies between that of conductors and insulators, whereas copper, silver and gold are conductors. Hence 'Germanium' is correct.",
+        "as": "জাৰ্মেনিয়াম (ছিলিকনৰ দৰে) অৰ্ধপৰিবাহী, ইয়াৰ ৰোধাঙ্ক পৰিবাহী আৰু অৱৰোধকৰ মাজত থাকে; তাম, ৰূপ আৰু সোণ পৰিবাহী। সেয়ে 'জাৰ্মেনিয়াম' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "LED stands for?",
+        "as": "LED-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Light Energy Device",
+          "as": "লাইট এনাৰ্জি ডিভাইচ"
+        },
+        {
+          "en": "Low Electric Diode",
+          "as": "ল’ ইলেক্ট্ৰিক ডায়’ড"
+        },
+        {
+          "en": "Long Emission Display",
+          "as": "লং এমিছন ডিছপ্লে"
+        },
+        {
+          "en": "Light Emitting Diode",
+          "as": "লাইট এমিটিং ডায়’ড"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "LED stands for Light Emitting Diode, a semiconductor diode that emits light when forward biased. Hence 'Light Emitting Diode' is correct.",
+        "as": "LED ৰ সম্পূৰ্ণ ৰূপ লাইট এমিটিং ডায়'ড, যি এক অৰ্ধপৰিবাহী ডায়'ড আৰু অগ্ৰগামী বায়াছত পোহৰ নিৰ্গত কৰে। সেয়ে 'লাইট এমিটিং ডায়'ড' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The first Indian satellite was?",
+        "as": "প্ৰথম ভাৰতীয় উপগ্ৰহ কোনটো আছিল?"
+      },
+      "options": [
+        {
+          "en": "Aryabhata",
+          "as": "আৰ্যভট্ট"
+        },
+        {
+          "en": "INSAT-1A",
+          "as": "ইনচেট-১এ"
+        },
+        {
+          "en": "Rohini",
+          "as": "ৰোহিনী"
+        },
+        {
+          "en": "Chandrayaan-1",
+          "as": "চন্দ্ৰযান-১"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Aryabhata, launched on 19 April 1975, was India's first satellite. Hence 'Aryabhata' is correct.",
+        "as": "১৯ এপ্ৰিল ১৯৭৫ চনত উৎক্ষেপিত আৰ্যভট্ট ভাৰতৰ প্ৰথম উপগ্ৰহ আছিল। সেয়ে 'আৰ্যভট্ট' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "ISRO was established in which year?",
+        "as": "ইছৰো কোন চনত প্ৰতিষ্ঠা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1962",
+          "as": "১৯৬২"
+        },
+        {
+          "en": "1969",
+          "as": "১৯৬৯"
+        },
+        {
+          "en": "1975",
+          "as": "১৯৭৫"
+        },
+        {
+          "en": "1984",
+          "as": "১৯৮৪"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "ISRO (Indian Space Research Organisation) was established on 15 August 1969. Hence '1969' is correct.",
+        "as": "ইছৰো (ভাৰতীয় মহাকাশ গৱেষণা সংস্থা) ১৫ আগষ্ট ১৯৬৯ চনত প্ৰতিষ্ঠা হৈছিল। সেয়ে '১৯৬৯' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Geostationary satellites have a time period of about?",
+        "as": "ভূস্থিৰ উপগ্ৰহৰ পৰ্যায়কাল প্ৰায় কিমান?"
+      },
+      "options": [
+        {
+          "en": "12 hours",
+          "as": "১২ ঘণ্টা"
+        },
+        {
+          "en": "1 hour",
+          "as": "১ ঘণ্টা"
+        },
+        {
+          "en": "24 hours",
+          "as": "২৪ ঘণ্টা"
+        },
+        {
+          "en": "365 days",
+          "as": "৩৬৫ দিন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A geostationary satellite revolves around the Earth once in 24 hours in the equatorial plane, so it appears stationary over one point. Hence '24 hours' is correct.",
+        "as": "ভূস্থিৰ উপগ্ৰহে বিষুৱৰীয় সমতলত ২৪ ঘণ্টাত এবাৰ পৃথিৱীক প্ৰদক্ষিণ কৰে, সেয়ে ই এটা বিন্দুৰ ওপৰত স্থিৰ দেখা যায়। সেয়ে '২৪ ঘণ্টা' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which force is responsible for falling of objects towards Earth?",
+        "as": "বস্তু পৃথিৱীৰ ফালে পৰাৰ কাৰণ কোন বল?"
+      },
+      "options": [
+        {
+          "en": "Magnetic force",
+          "as": "চুম্বকীয় বল"
+        },
+        {
+          "en": "Frictional force",
+          "as": "ঘৰ্ষণ বল"
+        },
+        {
+          "en": "Nuclear force",
+          "as": "নিউক্লীয় বল"
+        },
+        {
+          "en": "Gravitational force",
+          "as": "মহাকৰ্ষণ বল"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The gravitational force of the Earth attracts objects towards its centre, which causes them to fall. Hence 'Gravitational force' is correct.",
+        "as": "পৃথিৱীৰ মহাকৰ্ষণ বলে বস্তুবোৰক ইয়াৰ কেন্দ্ৰৰ ফালে আকৰ্ষণ কৰে, যাৰ ফলত বস্তু তললৈ পৰে। সেয়ে 'মহাকৰ্ষণ বল' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Friction can be reduced by?",
+        "as": "ঘৰ্ষণ কিৰে কমাব পাৰি?"
+      },
+      "options": [
+        {
+          "en": "Using lubricants",
+          "as": "লুব্ৰিকেণ্ট ব্যৱহাৰ কৰি"
+        },
+        {
+          "en": "Making surfaces more rough",
+          "as": "পৃষ্ঠ অধিক খহটা কৰি"
+        },
+        {
+          "en": "Increasing load always",
+          "as": "সদায় ভাৰ বৃদ্ধি কৰি"
+        },
+        {
+          "en": "Removing wheels",
+          "as": "চকা আঁতৰাই"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Lubricants form a thin layer between surfaces, reducing interlocking of irregularities and hence friction. Hence 'Using lubricants' is correct.",
+        "as": "লুব্ৰিকেণ্টে পৃষ্ঠৰ মাজত পাতল আৱৰণ সৃষ্টি কৰি অসমতাৰ অংগুৰি মিলন কমায় আৰু ঘৰ্ষণ হ্ৰাস কৰে। সেয়ে 'লুব্ৰিকেণ্ট ব্যৱহাৰ কৰি' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Inertia of a body depends on its?",
+        "as": "বস্তুৰ জড়তা কিৰ ওপৰত নিৰ্ভৰ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Speed",
+          "as": "দ্ৰুতি"
+        },
+        {
+          "en": "Mass",
+          "as": "ভৰ"
+        },
+        {
+          "en": "Colour",
+          "as": "ৰং"
+        },
+        {
+          "en": "Temperature",
+          "as": "উষ্ণতা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Inertia is the inability of a body to change by itself its state of rest or uniform motion, and it is directly proportional to the mass of the body. Hence 'Mass' is correct.",
+        "as": "জড়তা হৈছে বস্তু এটাই নিজে নিজে নিজৰ বিশ্ৰাম বা সুষম গতিৰ অৱস্থা সলনি কৰিব নোৱাৰা ধৰ্ম, আৰু ই বস্তুৰ ভৰৰ সমানুপাতিক। সেয়ে 'ভৰ' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The momentum of a body at rest is?",
+        "as": "বিশ্ৰামত থকা বস্তুৰ ভৰবেগ কিমান?"
+      },
+      "options": [
+        {
+          "en": "Maximum",
+          "as": "সৰ্বাধিক"
+        },
+        {
+          "en": "Infinite",
+          "as": "অসীম"
+        },
+        {
+          "en": "Zero",
+          "as": "শূন্য"
+        },
+        {
+          "en": "Equal to mass",
+          "as": "ভৰৰ সমান"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Momentum p = mv; for a body at rest the velocity v = 0, so its momentum is zero. Hence 'Zero' is correct.",
+        "as": "ভৰবেগ p = mv; বিশ্ৰামত থকা বস্তুৰ বেগ v = ০, সেয়ে ইয়াৰ ভৰবেগ শূন্য হয়। সেয়ে 'শূন্য' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is not a unit of energy?",
+        "as": "তলৰ কোনটো শক্তিৰ একক নহয়?"
+      },
+      "options": [
+        {
+          "en": "Joule",
+          "as": "জুল"
+        },
+        {
+          "en": "Calorie",
+          "as": "কেলৰি"
+        },
+        {
+          "en": "Kilowatt-hour",
+          "as": "কিলোৱাট-ঘণ্টা"
+        },
+        {
+          "en": "Newton",
+          "as": "নিউটন"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Newton is the SI unit of force, not of energy; joule, calorie and kilowatt-hour are all units of energy. Hence 'Newton' is correct.",
+        "as": "নিউটন বলৰ SI একক, শক্তিৰ নহয়; জুল, কেলৰি আৰু কিলোৱাট-ঘণ্টা সকলো শক্তিৰ একক। সেয়ে 'নিউটন' শুদ্ধ উত্তৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The instrument used to measure humidity is?",
+        "as": "আৰ্দ্ৰতা জুখিবলৈ ব্যৱহাৰ কৰা যন্ত্ৰ কি?"
+      },
+      "options": [
+        {
+          "en": "Hygrometer",
+          "as": "হাইগ্ৰোমিটাৰ"
+        },
+        {
+          "en": "Barometer",
+          "as": "বেৰোমিটাৰ"
+        },
+        {
+          "en": "Ammeter",
+          "as": "এমিটাৰ"
+        },
+        {
+          "en": "Manometer",
+          "as": "মেনোমিতাৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A hygrometer measures the humidity (moisture content) of air, while a barometer measures atmospheric pressure. Hence 'Hygrometer' is correct.",
+        "as": "হাইগ্ৰোমিটাৰে বায়ুৰ আৰ্দ্ৰতা জুখে, আনহাতে বেৰোমিটাৰে বায়ুমণ্ডলীয় চাপ জুখে। সেয়ে 'হাইগ্ৰোমিটাৰ' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Manometer is used to measure?",
+        "as": "মেনোমিতাৰে কি জুখে?"
+      },
+      "options": [
+        {
+          "en": "Temperature",
+          "as": "উষ্ণতা"
+        },
+        {
+          "en": "Pressure of a gas or liquid",
+          "as": "গেছ বা তৰলৰ চাপ"
+        },
+        {
+          "en": "Current",
+          "as": "প্ৰবাহ"
+        },
+        {
+          "en": "Humidity",
+          "as": "আৰ্দ্ৰতা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A manometer measures the pressure of a gas or liquid from the difference in liquid levels in its two limbs. Hence 'Pressure of a gas or liquid' is correct.",
+        "as": "মেনোমিতাৰে ইয়াৰ দুটা শাখাত তৰলৰ উচ্চতাৰ পাৰ্থক্যৰ সহায়ত গেছ বা তৰলৰ চাপ জুখে। সেয়ে 'গেছ বা তৰলৰ চাপ' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The first law of thermodynamics is based on?",
+        "as": "তাপগতিবিজ্ঞানৰ প্ৰথম সূত্ৰ কিৰ ওপৰত ভিত্তি কৰা?"
+      },
+      "options": [
+        {
+          "en": "Conservation of mass",
+          "as": "ভৰ সংৰক্ষণ"
+        },
+        {
+          "en": "Conservation of charge",
+          "as": "আধান সংৰক্ষণ"
+        },
+        {
+          "en": "Conservation of energy",
+          "as": "শক্তি সংৰক্ষণ"
+        },
+        {
+          "en": "Conservation of momentum",
+          "as": "ভৰবেগ সংৰক্ষণ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The first law of thermodynamics is the law of conservation of energy applied to heat processes, written as ΔQ = ΔU + ΔW. Hence 'Conservation of energy' is correct.",
+        "as": "তাপগতিবিজ্ঞানৰ প্ৰথম সূত্ৰ হৈছে তাপ প্ৰক্ৰিয়াত প্ৰয়োগ কৰা শক্তি সংৰক্ষণৰ সূত্ৰ, যি ΔQ = ΔU + ΔW হিচাপে প্ৰকাশ কৰা হয়। সেয়ে 'শক্তি সংৰক্ষণ' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following has the highest specific heat?",
+        "as": "তলৰ কোনটোৰ আপেক্ষিক তাপ সৰ্বাধিক?"
+      },
+      "options": [
+        {
+          "en": "Iron",
+          "as": "লো"
+        },
+        {
+          "en": "Copper",
+          "as": "তাম"
+        },
+        {
+          "en": "Mercury",
+          "as": "পাৰা"
+        },
+        {
+          "en": "Water",
+          "as": "পানী"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Among the given substances water has the highest specific heat capacity (about 4186 J/kg·°C), so it heats up and cools down slowly. Hence 'Water' is correct.",
+        "as": "দিয়া পদাৰ্থসমূহৰ ভিতৰত পানীৰ আপেক্ষিক তাপ ধাৰকতা সৰ্বাধিক (প্ৰায় ৪১৮৬ জুল/কি.গ্ৰা.°C), সেয়ে ই লাহে লাহে গৰম আৰু ঠাণ্ডা হয়। সেয়ে 'পানী' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "A clinical thermometer is used to measure?",
+        "as": "ক্লিনিকেল থাৰ্মোমিটাৰে কি জুখে?"
+      },
+      "options": [
+        {
+          "en": "Human body temperature",
+          "as": "মানৱ দেহৰ উষ্ণতা"
+        },
+        {
+          "en": "Boiling point of water only",
+          "as": "কেৱল পানীৰ উতলাংক"
+        },
+        {
+          "en": "Atmospheric pressure",
+          "as": "বায়ুমণ্ডলীয় চাপ"
+        },
+        {
+          "en": "Electric current",
+          "as": "বিদ্যুৎ প্ৰবাহ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A clinical thermometer is designed with a small range (about 35–42 °C) to measure human body temperature accurately. Hence 'Human body temperature' is correct.",
+        "as": "ক্লিনিকেল থাৰ্মোমিটাৰ সৰু পৰিসৰ (প্ৰায় ৩৫–৪২ °C) সহ বিশেষভাৱে সজোৱা হয় মানৱ দেহৰ উষ্ণতা সঠিকভাৱে জুখিবলৈ। সেয়ে 'মানৱ দেহৰ উষ্ণতা' শুদ্ধ।"
+      }
+    }
   ]
 }

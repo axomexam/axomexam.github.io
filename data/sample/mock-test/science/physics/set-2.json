@@ -3,30 +3,730 @@
   "title": "Set 2",
   "subject": "Physics",
   "questions": [
-    {"q": {"en": "Newton's second law of motion is expressed as?", "as": "নিউটনৰ গতিৰ দ্বিতীয় সূত্ৰ কেনেকৈ প্ৰকাশ কৰা হয়?"}, "options": [{"en": "F = ma", "as": "F = ma"}, {"en": "F = mv", "as": "F = mv"}, {"en": "F = m/a", "as": "F = m/a"}, {"en": "F = a/m", "as": "F = a/m"}], "correct": 0},
-    {"q": {"en": "The product of mass and velocity is called?", "as": "ভৰ আৰু বেগৰ গুণফলক কি বোলে?"}, "options": [{"en": "Force", "as": "বল"}, {"en": "Momentum", "as": "ভৰবেগ"}, {"en": "Power", "as": "ক্ষমতা"}, {"en": "Pressure", "as": "চাপ"}], "correct": 1},
-    {"q": {"en": "Kinetic energy of a body is given by?", "as": "এটা বস্তুৰ গতিশক্তিৰ সূত্ৰ কি?"}, "options": [{"en": "mgh", "as": "mgh"}, {"en": "mv", "as": "mv"}, {"en": "½ mv²", "as": "½ mv²"}, {"en": "ma", "as": "ma"}], "correct": 2},
-    {"q": {"en": "Potential energy of a body at height h is?", "as": "h উচ্চতাত থকা বস্তুৰ স্থিতিশক্তি কি?"}, "options": [{"en": "½ mv²", "as": "½ mv²"}, {"en": "mv", "as": "mv"}, {"en": "ma", "as": "ma"}, {"en": "mgh", "as": "mgh"}], "correct": 3},
-    {"q": {"en": "The SI unit of frequency is?", "as": "কম্পাংকৰ SI একক কি?"}, "options": [{"en": "Hertz", "as": "হাৰ্টজ"}, {"en": "Decibel", "as": "ডেচিবেল"}, {"en": "Watt", "as": "ৱাট"}, {"en": "Ohm", "as": "ওম"}], "correct": 0},
-    {"q": {"en": "Which colour of light has the longest wavelength?", "as": "পোহৰৰ কোনটো ৰঙৰ তৰংগদৈৰ্ঘ্য সৰ্বাধিক?"}, "options": [{"en": "Violet", "as": "বেঙুনীয়া"}, {"en": "Red", "as": "ৰঙা"}, {"en": "Blue", "as": "নীলা"}, {"en": "Green", "as": "সেউজীয়া"}], "correct": 1},
-    {"q": {"en": "Which colour of visible light has the highest frequency?", "as": "দৃশ্যমান পোহৰৰ কোনটো ৰঙৰ কম্পাংক সৰ্বাধিক?"}, "options": [{"en": "Red", "as": "ৰঙা"}, {"en": "Yellow", "as": "হালধীয়া"}, {"en": "Violet", "as": "বেঙুনীয়া"}, {"en": "Green", "as": "সেউজীয়া"}], "correct": 2},
-    {"q": {"en": "A concave lens is also known as?", "as": "অৱতল লেন্সক আন কি নামেৰে জনা যায়?"}, "options": [{"en": "Converging lens", "as": "অভিসৰী লেন্স"}, {"en": "Plane lens", "as": "সমতল লেন্স"}, {"en": "Cylindrical lens", "as": "চিলিণ্ড্ৰীয় লেন্স"}, {"en": "Diverging lens", "as": "অপসৰী লেন্স"}], "correct": 3},
-    {"q": {"en": "The image formed by a plane mirror is?", "as": "সমতল দৰ্পণত গঠিত প্ৰতিবিম্ব কেনেকুৱা?"}, "options": [{"en": "Virtual and erect", "as": "অবাস্তৱ আৰু সৰল"}, {"en": "Real and inverted", "as": "বাস্তৱ আৰু ওলোটা"}, {"en": "Real and erect", "as": "বাস্তৱ আৰু সৰল"}, {"en": "Virtual and inverted", "as": "অবাস্তৱ আৰু ওলোটা"}], "correct": 0},
-    {"q": {"en": "The SI unit of electric charge is?", "as": "বিদ্যুৎ আধানৰ SI একক কি?"}, "options": [{"en": "Ampere", "as": "এম্পিয়াৰ"}, {"en": "Coulomb", "as": "কুলম"}, {"en": "Volt", "as": "ভল্ট"}, {"en": "Ohm", "as": "ওম"}], "correct": 1},
-    {"q": {"en": "The SI unit of resistance is?", "as": "প্ৰতিৰোধৰ SI একক কি?"}, "options": [{"en": "Volt", "as": "ভল্ট"}, {"en": "Ampere", "as": "এম্পিয়াৰ"}, {"en": "Ohm", "as": "ওম"}, {"en": "Watt", "as": "ৱাট"}], "correct": 2},
-    {"q": {"en": "A fuse wire is used in an electric circuit to?", "as": "বিদ্যুৎ বৰ্তনীত ফিউজ তাঁৰ কি কাৰণে ব্যৱহাৰ কৰা হয়?"}, "options": [{"en": "Increase voltage", "as": "ভল্টেজ বৃদ্ধি কৰা"}, {"en": "Increase current", "as": "প্ৰবাহ বৃদ্ধি কৰা"}, {"en": "Decorate the circuit", "as": "বৰ্তনী সজোৱা"}, {"en": "Protect from excess current", "as": "অতিৰিক্ত প্ৰবাহৰ পৰা ৰক্ষা কৰা"}], "correct": 3},
-    {"q": {"en": "Which of the following is a renewable source of energy?", "as": "তলৰ কোনটো নবীকৰণযোগ্য শক্তিৰ উৎস?"}, "options": [{"en": "Solar energy", "as": "সৌৰ শক্তি"}, {"en": "Coal", "as": "কয়লা"}, {"en": "Petroleum", "as": "পেট্ৰলিয়াম"}, {"en": "Natural gas", "as": "প্ৰাকৃতিক গেছ"}], "correct": 0},
-    {"q": {"en": "The process by which a liquid changes into vapour at any temperature is?", "as": "যিকোনো উষ্ণতাত তৰল বাষ্পলৈ পৰিণত হোৱা প্ৰক্ৰিয়া কি?"}, "options": [{"en": "Condensation", "as": "ঘনীভৱন"}, {"en": "Evaporation", "as": "বাষ্পীভৱন"}, {"en": "Freezing", "as": "হিমাংকন"}, {"en": "Melting", "as": "গলন"}], "correct": 1},
-    {"q": {"en": "Absolute zero temperature is?", "as": "পৰম শূন্য উষ্ণতা কিমান?"}, "options": [{"en": "0°C", "as": "০°C"}, {"en": "100°C", "as": "১০০°C"}, {"en": "–273.15°C", "as": "–২৭৩.১৫°C"}, {"en": "273°C", "as": "২৭৩°C"}], "correct": 2},
-    {"q": {"en": "The thermometer used to measure high temperature of furnaces is?", "as": "চুলিৰ উচ্চ উষ্ণতা জুখিবলৈ ব্যৱহাৰ কৰা থাৰ্মোমিটাৰ কি?"}, "options": [{"en": "Clinical thermometer", "as": "ক্লিনিকেল থাৰ্মোমিটাৰ"}, {"en": "Barometer", "as": "বেৰোমিটাৰ"}, {"en": "Hygrometer", "as": "হাইগ্ৰোমিটাৰ"}, {"en": "Pyrometer", "as": "পাইৰোমিটাৰ"}], "correct": 3},
-    {"q": {"en": "Which law states that energy can neither be created nor destroyed?", "as": "শক্তি সৃষ্টি বা ধ্বংস কৰিব নোৱাৰি বুলি কোন সূত্ৰই কয়?"}, "options": [{"en": "Law of conservation of energy", "as": "শক্তি সংৰক্ষণৰ সূত্ৰ"}, {"en": "Ohm's law", "as": "ওমৰ সূত্ৰ"}, {"en": "Newton's third law", "as": "নিউটনৰ তৃতীয় সূত্ৰ"}, {"en": "Boyle's law", "as": "বয়েলৰ সূত্ৰ"}], "correct": 0},
-    {"q": {"en": "Newton's third law of motion states that?", "as": "নিউটনৰ গতিৰ তৃতীয় সূত্ৰই কি কয়?"}, "options": [{"en": "F = ma", "as": "F = ma"}, {"en": "Every action has an equal and opposite reaction", "as": "প্ৰতিটো ক্ৰিয়াৰ সমান আৰু বিপৰীত প্ৰতিক্ৰিয়া থাকে"}, {"en": "Energy is conserved", "as": "শক্তি সংৰক্ষিত"}, {"en": "Mass is conserved", "as": "ভৰ সংৰক্ষিত"}], "correct": 1},
-    {"q": {"en": "The weight of a body is maximum at?", "as": "এটা বস্তুৰ ওজন ক’ত সৰ্বাধিক?"}, "options": [{"en": "The equator", "as": "বিষুৱৰেখা"}, {"en": "The poles", "as": "মেৰু"}, {"en": "The centre of Earth", "as": "পৃথিৱীৰ কেন্দ্ৰ"}, {"en": "On the Moon", "as": "চন্দ্ৰত"}], "correct": 1},
-    {"q": {"en": "The value of g is zero at?", "as": "g-ৰ মান ক’ত শূন্য?"}, "options": [{"en": "Sea level", "as": "সাগৰ পৃষ্ঠ"}, {"en": "Poles", "as": "মেৰু"}, {"en": "Centre of the Earth", "as": "পৃথিৱীৰ কেন্দ্ৰ"}, {"en": "Mount Everest", "as": "মাউণ্ট এভাৰেষ্ট"}], "correct": 2},
-    {"q": {"en": "Which particle has no charge?", "as": "কোন কণিকাৰ আধান নাই?"}, "options": [{"en": "Proton", "as": "প্ৰটন"}, {"en": "Electron", "as": "ইলেক্ট্ৰন"}, {"en": "Alpha particle", "as": "আলফা কণিকা"}, {"en": "Neutron", "as": "নিউট্ৰন"}], "correct": 3},
-    {"q": {"en": "The number of electrons in a neutral atom is equal to?", "as": "নিরপেক্ষ পৰমাণুত ইলেক্ট্ৰনৰ সংখ্যা কিৰ সমান?"}, "options": [{"en": "Number of protons", "as": "প্ৰটনৰ সংখ্যা"}, {"en": "Number of neutrons", "as": "নিউট্ৰনৰ সংখ্যা"}, {"en": "Mass number", "as": "ভৰ সংখ্যা"}, {"en": "Atomic mass only", "as": "কেৱল পাৰমাণৱিক ভৰ"}], "correct": 0},
-    {"q": {"en": "Radioactivity was discovered by?", "as": "তেজস্ক্ৰিয়তা আৱিষ্কাৰ কৰিছিল কোনে?"}, "options": [{"en": "Roentgen", "as": "ৰণ্টজেন"}, {"en": "Henri Becquerel", "as": "হেনৰি বেকৰেল"}, {"en": "Einstein", "as": "আইনষ্টাইন"}, {"en": "Newton", "as": "নিউটন"}], "correct": 1},
-    {"q": {"en": "The unit of radioactivity is?", "as": "তেজস্ক্ৰিয়তাৰ একক কি?"}, "options": [{"en": "Newton", "as": "নিউটন"}, {"en": "Joule", "as": "জুল"}, {"en": "Becquerel", "as": "বেকৰেল"}, {"en": "Pascal", "as": "পাস্কেল"}], "correct": 2},
-    {"q": {"en": "Which of the following is used in a nuclear reactor as a moderator?", "as": "নিউক্লীয় ৰিয়েক্টৰত মডাৰেটৰ হিচাপে তলৰ কোনটো ব্যৱহাৰ হয়?"}, "options": [{"en": "Uranium-235 only as fuel", "as": "কেৱল ইন্ধন হিচাপে ইউৰেনিয়াম-২৩৫"}, {"en": "Lead", "as": "চিহ্ন"}, {"en": "Gold", "as": "সোণ"}, {"en": "Heavy water", "as": "গধুৰ পানী"}], "correct": 3}
+    {
+      "q": {
+        "en": "Newton's second law of motion is expressed as?",
+        "as": "নিউটনৰ গতিৰ দ্বিতীয় সূত্ৰ কেনেকৈ প্ৰকাশ কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "F = ma",
+          "as": "F = ma"
+        },
+        {
+          "en": "F = mv",
+          "as": "F = mv"
+        },
+        {
+          "en": "F = m/a",
+          "as": "F = m/a"
+        },
+        {
+          "en": "F = a/m",
+          "as": "F = a/m"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Newton's second law states that the net force on a body equals the rate of change of its momentum, giving F = ma for constant mass. Hence the correct expression is F = ma.",
+        "as": "নিউটনৰ দ্বিতীয় সূত্ৰ অনুসৰি বস্তু এটাৰ ওপৰত প্ৰযুক্ত মুঠ বল তাৰ ভৰবেগৰ পৰিৱৰ্তনৰ হাৰৰ সমান, স্থিৰ ভৰৰ বাবে F = ma। সেয়ে শুদ্ধ ৰাশি F = ma।"
+      }
+    },
+    {
+      "q": {
+        "en": "The product of mass and velocity is called?",
+        "as": "ভৰ আৰু বেগৰ গুণফলক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Force",
+          "as": "বল"
+        },
+        {
+          "en": "Momentum",
+          "as": "ভৰবেগ"
+        },
+        {
+          "en": "Power",
+          "as": "ক্ষমতা"
+        },
+        {
+          "en": "Pressure",
+          "as": "চাপ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Momentum is defined as the product of mass and velocity (p = mv), and it is a vector quantity. Therefore the product of mass and velocity is called momentum.",
+        "as": "ভৰবেগ হ'ল ভৰ আৰু বেগৰ গুণফল (p = mv), ই এটা ভেক্টৰ ৰাশি। সেয়ে ভৰ আৰু বেগৰ গুণফলক ভৰবেগ বোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Kinetic energy of a body is given by?",
+        "as": "এটা বস্তুৰ গতিশক্তিৰ সূত্ৰ কি?"
+      },
+      "options": [
+        {
+          "en": "mgh",
+          "as": "mgh"
+        },
+        {
+          "en": "mv",
+          "as": "mv"
+        },
+        {
+          "en": "½ mv²",
+          "as": "½ mv²"
+        },
+        {
+          "en": "ma",
+          "as": "ma"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The kinetic energy of a moving body is given by KE = ½ mv², where m is mass and v is velocity. Thus ½ mv² is the correct formula.",
+        "as": "গতিশীল বস্তু এটাৰ গতিশক্তি KE = ½ mv², য'ত m হ'ল ভৰ আৰু v হ'ল বেগ। সেয়ে ½ mv² শুদ্ধ সূত্ৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Potential energy of a body at height h is?",
+        "as": "h উচ্চতাত থকা বস্তুৰ স্থিতিশক্তি কি?"
+      },
+      "options": [
+        {
+          "en": "½ mv²",
+          "as": "½ mv²"
+        },
+        {
+          "en": "mv",
+          "as": "mv"
+        },
+        {
+          "en": "ma",
+          "as": "ma"
+        },
+        {
+          "en": "mgh",
+          "as": "mgh"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Gravitational potential energy of a body raised to height h is PE = mgh, where g is acceleration due to gravity. Hence mgh is correct.",
+        "as": "h উচ্চতালৈ তোলা বস্তু এটাৰ মহাকৰ্ষণীয় স্থিতিশক্তি PE = mgh, য'ত g হ'ল মহাকৰ্ষণজনিত ত্বৰণ। সেয়ে mgh শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The SI unit of frequency is?",
+        "as": "কম্পাংকৰ SI একক কি?"
+      },
+      "options": [
+        {
+          "en": "Hertz",
+          "as": "হাৰ্টজ"
+        },
+        {
+          "en": "Decibel",
+          "as": "ডেচিবেল"
+        },
+        {
+          "en": "Watt",
+          "as": "ৱাট"
+        },
+        {
+          "en": "Ohm",
+          "as": "ওম"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Frequency is the number of oscillations per second, and its SI unit is the hertz (Hz). One hertz equals one cycle per second.",
+        "as": "কম্পাংক হ'ল প্ৰতি ছেকেণ্ডত হোৱা কম্পনৰ সংখ্যা, ইয়াৰ SI একক হাৰ্টজ (Hz)। এক হাৰ্টজ = প্ৰতি ছেকেণ্ডত এটা চক্ৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which colour of light has the longest wavelength?",
+        "as": "পোহৰৰ কোনটো ৰঙৰ তৰংগদৈৰ্ঘ্য সৰ্বাধিক?"
+      },
+      "options": [
+        {
+          "en": "Violet",
+          "as": "বেঙুনীয়া"
+        },
+        {
+          "en": "Red",
+          "as": "ৰঙা"
+        },
+        {
+          "en": "Blue",
+          "as": "নীলা"
+        },
+        {
+          "en": "Green",
+          "as": "সেউজীয়া"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "In the visible spectrum, red light has the longest wavelength (about 700 nm) and the lowest frequency. Therefore red has the greatest wavelength.",
+        "as": "দৃশ্যমান স্পেক্ট্ৰামত ৰঙা পোহৰৰ তৰংগদৈৰ্ঘ্য সৰ্বাধিক (প্ৰায় ৭০০ nm) আৰু কম্পাংক সৰ্বনিম্ন। সেয়ে ৰঙা ৰঙৰ তৰংগদৈৰ্ঘ্য সৰ্বাধিক।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which colour of visible light has the highest frequency?",
+        "as": "দৃশ্যমান পোহৰৰ কোনটো ৰঙৰ কম্পাংক সৰ্বাধিক?"
+      },
+      "options": [
+        {
+          "en": "Red",
+          "as": "ৰঙা"
+        },
+        {
+          "en": "Yellow",
+          "as": "হালধীয়া"
+        },
+        {
+          "en": "Violet",
+          "as": "বেঙুনীয়া"
+        },
+        {
+          "en": "Green",
+          "as": "সেউজীয়া"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Violet light lies at the short-wavelength end of the visible spectrum (about 400 nm), giving it the highest frequency among visible colours.",
+        "as": "বেঙুনীয়া পোহৰ দৃশ্যমান স্পেক্ট্ৰামৰ চুটি তৰংগদৈৰ্ঘ্যৰ মূৰত থাকে (প্ৰায় ৪০০ nm), সেয়ে ইয়াৰ কম্পাংক দৃশ্যমান ৰঙসমূহৰ ভিতৰত সৰ্বাধিক।"
+      }
+    },
+    {
+      "q": {
+        "en": "A concave lens is also known as?",
+        "as": "অৱতল লেন্সক আন কি নামেৰে জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Converging lens",
+          "as": "অভিসৰী লেন্স"
+        },
+        {
+          "en": "Plane lens",
+          "as": "সমতল লেন্স"
+        },
+        {
+          "en": "Cylindrical lens",
+          "as": "চিলিণ্ড্ৰীয় লেন্স"
+        },
+        {
+          "en": "Diverging lens",
+          "as": "অপসৰী লেন্স"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A concave lens is thinner at the centre and diverges parallel rays of light, so it is called a diverging lens. A convex lens, by contrast, is converging.",
+        "as": "অৱতল লেন্স কেন্দ্ৰত পাতল আৰু সমান্তৰাল পোহৰ ৰশ্মিক অপসৰণ কৰে, সেয়ে ইয়াক অপসৰী লেন্স বোলে। ইয়াৰ বিপৰীতে উত্তল লেন্স অভিসৰী।"
+      }
+    },
+    {
+      "q": {
+        "en": "The image formed by a plane mirror is?",
+        "as": "সমতল দৰ্পণত গঠিত প্ৰতিবিম্ব কেনেকুৱা?"
+      },
+      "options": [
+        {
+          "en": "Virtual and erect",
+          "as": "অবাস্তৱ আৰু সৰল"
+        },
+        {
+          "en": "Real and inverted",
+          "as": "বাস্তৱ আৰু ওলোটা"
+        },
+        {
+          "en": "Real and erect",
+          "as": "বাস্তৱ আৰু সৰল"
+        },
+        {
+          "en": "Virtual and inverted",
+          "as": "অবাস্তৱ আৰু ওলোটা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A plane mirror always forms a virtual, erect image of the same size as the object, located as far behind the mirror as the object is in front.",
+        "as": "সমতল দৰ্পণে সদায় বস্তুৰ সমান আকাৰৰ এক অবাস্তৱ আৰু সৰল প্ৰতিবিম্ব গঠন কৰে, যি দৰ্পণৰ পিছফালে বস্তুৰ সমান দূৰত্বত থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The SI unit of electric charge is?",
+        "as": "বিদ্যুৎ আধানৰ SI একক কি?"
+      },
+      "options": [
+        {
+          "en": "Ampere",
+          "as": "এম্পিয়াৰ"
+        },
+        {
+          "en": "Coulomb",
+          "as": "কুলম"
+        },
+        {
+          "en": "Volt",
+          "as": "ভল্ট"
+        },
+        {
+          "en": "Ohm",
+          "as": "ওম"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Electric charge is measured in coulombs (C); one coulomb is the charge transported by a current of one ampere in one second. Hence the SI unit is coulomb.",
+        "as": "বিদ্যুৎ আধান কুলম (C) এককত জোখা হয়; এক এম্পিয়াৰ প্ৰবাহে এক ছেকেণ্ডত যি আধান বহন কৰে সেয়া এক কুলম। সেয়ে SI একক কুলম।"
+      }
+    },
+    {
+      "q": {
+        "en": "The SI unit of resistance is?",
+        "as": "প্ৰতিৰোধৰ SI একক কি?"
+      },
+      "options": [
+        {
+          "en": "Volt",
+          "as": "ভল্ট"
+        },
+        {
+          "en": "Ampere",
+          "as": "এম্পিয়াৰ"
+        },
+        {
+          "en": "Ohm",
+          "as": "ওম"
+        },
+        {
+          "en": "Watt",
+          "as": "ৱাট"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Resistance is the opposition to the flow of current and its SI unit is the ohm (Ω), defined by Ohm's law R = V/I. Thus the correct unit is ohm.",
+        "as": "প্ৰতিৰোধ হ'ল প্ৰবাহৰ বাধা, ইয়াৰ SI একক ওম (Ω), ওমৰ সূত্ৰ R = V/I ৰ দ্বাৰা নিৰূপিত। সেয়ে শুদ্ধ একক ওম।"
+      }
+    },
+    {
+      "q": {
+        "en": "A fuse wire is used in an electric circuit to?",
+        "as": "বিদ্যুৎ বৰ্তনীত ফিউজ তাঁৰ কি কাৰণে ব্যৱহাৰ কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Increase voltage",
+          "as": "ভল্টেজ বৃদ্ধি কৰা"
+        },
+        {
+          "en": "Increase current",
+          "as": "প্ৰবাহ বৃদ্ধি কৰা"
+        },
+        {
+          "en": "Decorate the circuit",
+          "as": "বৰ্তনী সজোৱা"
+        },
+        {
+          "en": "Protect from excess current",
+          "as": "অতিৰিক্ত প্ৰবাহৰ পৰা ৰক্ষা কৰা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A fuse wire has low melting point and high resistance; it melts and breaks the circuit when current exceeds a safe limit, protecting appliances from excess current.",
+        "as": "ফিউজ তাঁৰৰ গলনাংক কম আৰু প্ৰতিৰোধ বেছি; প্ৰবাহ নিৰাপদ সীমা অতিক্ৰম কৰিলে ই গলি বৰ্তনী বিচ্ছিন্ন কৰে, যাৰ দ্বাৰা অতিৰিক্ত প্ৰবাহৰ পৰা সুৰক্ষা মিলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a renewable source of energy?",
+        "as": "তলৰ কোনটো নবীকৰণযোগ্য শক্তিৰ উৎস?"
+      },
+      "options": [
+        {
+          "en": "Solar energy",
+          "as": "সৌৰ শক্তি"
+        },
+        {
+          "en": "Coal",
+          "as": "কয়লা"
+        },
+        {
+          "en": "Petroleum",
+          "as": "পেট্ৰলিয়াম"
+        },
+        {
+          "en": "Natural gas",
+          "as": "প্ৰাকৃতিক গেছ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Solar energy is renewable because it is continuously replenished by the Sun, whereas coal, petroleum and natural gas are finite fossil fuels. Hence solar energy is renewable.",
+        "as": "সৌৰ শক্তি নবীকৰণযোগ্য কাৰণ সূৰ্যই ইয়াক নিৰন্তৰ পুনৰায় যোগান ধৰে, আনহাতে কয়লা, পেট্ৰলিয়াম আৰু প্ৰাকৃতিক গেছ সীমিত জীৱাশ্ম ইন্ধন। সেয়ে সৌৰ শক্তি নবীকৰণযোগ্য।"
+      }
+    },
+    {
+      "q": {
+        "en": "The process by which a liquid changes into vapour at any temperature is?",
+        "as": "যিকোনো উষ্ণতাত তৰল বাষ্পলৈ পৰিণত হোৱা প্ৰক্ৰিয়া কি?"
+      },
+      "options": [
+        {
+          "en": "Condensation",
+          "as": "ঘনীভৱন"
+        },
+        {
+          "en": "Evaporation",
+          "as": "বাষ্পীভৱন"
+        },
+        {
+          "en": "Freezing",
+          "as": "হিমাংকন"
+        },
+        {
+          "en": "Melting",
+          "as": "গলন"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Evaporation is the change of a liquid into vapour at any temperature from its surface, without reaching the boiling point. Hence the correct process is evaporation.",
+        "as": "বাষ্পীভৱন হ'ল যিকোনো উষ্ণতাত তৰলৰ পৃষ্ঠৰ পৰা বাষ্পলৈ পৰিণতি, উতলাংকত নাপায়ো। সেয়ে শুদ্ধ প্ৰক্ৰিয়া বাষ্পীভৱন।"
+      }
+    },
+    {
+      "q": {
+        "en": "Absolute zero temperature is?",
+        "as": "পৰম শূন্য উষ্ণতা কিমান?"
+      },
+      "options": [
+        {
+          "en": "0°C",
+          "as": "০°C"
+        },
+        {
+          "en": "100°C",
+          "as": "১০০°C"
+        },
+        {
+          "en": "–273.15°C",
+          "as": "–২৭৩.১৫°C"
+        },
+        {
+          "en": "273°C",
+          "as": "২৭৩°C"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Absolute zero is the lowest possible temperature, 0 K = –273.15°C, at which molecular motion is minimum. Therefore the correct value is –273.15°C.",
+        "as": "পৰম শূন্য হ'ল সম্ভৱপৰ সৰ্বনিম্ন উষ্ণতা, 0 K = –২৭৩.১৫°C, য'ত অণুৰ গতি ন্যূনতম। সেয়ে শুদ্ধ মান –২৭৩.১৫°C।"
+      }
+    },
+    {
+      "q": {
+        "en": "The thermometer used to measure high temperature of furnaces is?",
+        "as": "চুলিৰ উচ্চ উষ্ণতা জুখিবলৈ ব্যৱহাৰ কৰা থাৰ্মোমিটাৰ কি?"
+      },
+      "options": [
+        {
+          "en": "Clinical thermometer",
+          "as": "ক্লিনিকেল থাৰ্মোমিটাৰ"
+        },
+        {
+          "en": "Barometer",
+          "as": "বেৰোমিটাৰ"
+        },
+        {
+          "en": "Hygrometer",
+          "as": "হাইগ্ৰোমিটাৰ"
+        },
+        {
+          "en": "Pyrometer",
+          "as": "পাইৰোমিটাৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A pyrometer is used to measure very high temperatures such as those of furnaces by detecting the radiation emitted. Clinical thermometers cannot measure such high temperatures.",
+        "as": "পাইৰোমিটাৰে বিকিৰণ ধৰা পেলাই চুলিৰ দৰে অতি উচ্চ উষ্ণতা জুখিবলৈ ব্যৱহাৰ হয়। ক্লিনিকেল থাৰ্মোমিটাৰে এনে উচ্চ উষ্ণতা জুখিব নোৱাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which law states that energy can neither be created nor destroyed?",
+        "as": "শক্তি সৃষ্টি বা ধ্বংস কৰিব নোৱাৰি বুলি কোন সূত্ৰই কয়?"
+      },
+      "options": [
+        {
+          "en": "Law of conservation of energy",
+          "as": "শক্তি সংৰক্ষণৰ সূত্ৰ"
+        },
+        {
+          "en": "Ohm's law",
+          "as": "ওমৰ সূত্ৰ"
+        },
+        {
+          "en": "Newton's third law",
+          "as": "নিউটনৰ তৃতীয় সূত্ৰ"
+        },
+        {
+          "en": "Boyle's law",
+          "as": "বয়েলৰ সূত্ৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The law of conservation of energy states that energy can neither be created nor destroyed, only converted from one form to another. Hence this is the correct law.",
+        "as": "শক্তি সংৰক্ষণৰ সূত্ৰ অনুসৰি শক্তি সৃষ্টি বা ধ্বংস কৰিব নোৱাৰি, কেৱল এটা ৰূপৰ পৰা আন ৰূপলৈ ৰূপান্তৰিত হয়। সেয়ে এইটোৱে শুদ্ধ সূত্ৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Newton's third law of motion states that?",
+        "as": "নিউটনৰ গতিৰ তৃতীয় সূত্ৰই কি কয়?"
+      },
+      "options": [
+        {
+          "en": "F = ma",
+          "as": "F = ma"
+        },
+        {
+          "en": "Every action has an equal and opposite reaction",
+          "as": "প্ৰতিটো ক্ৰিয়াৰ সমান আৰু বিপৰীত প্ৰতিক্ৰিয়া থাকে"
+        },
+        {
+          "en": "Energy is conserved",
+          "as": "শক্তি সংৰক্ষিত"
+        },
+        {
+          "en": "Mass is conserved",
+          "as": "ভৰ সংৰক্ষিত"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Newton's third law states that for every action there is an equal and opposite reaction, acting on two different bodies simultaneously.",
+        "as": "নিউটনৰ তৃতীয় সূত্ৰই কয় যে প্ৰতিটো ক্ৰিয়াৰ সমান আৰু বিপৰীত প্ৰতিক্ৰিয়া থাকে, যি দুটা পৃথক বস্তুৰ ওপৰত একে সময়তে ক্ৰিয়া কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The weight of a body is maximum at?",
+        "as": "এটা বস্তুৰ ওজন ক’ত সৰ্বাধিক?"
+      },
+      "options": [
+        {
+          "en": "The equator",
+          "as": "বিষুৱৰেখা"
+        },
+        {
+          "en": "The poles",
+          "as": "মেৰু"
+        },
+        {
+          "en": "The centre of Earth",
+          "as": "পৃথিৱীৰ কেন্দ্ৰ"
+        },
+        {
+          "en": "On the Moon",
+          "as": "চন্দ্ৰত"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Weight W = mg, and g is maximum at the poles because Earth is flattened at the poles and the polar radius is least. Thus weight is maximum at the poles.",
+        "as": "ওজন W = mg, আৰু মেৰুত g সৰ্বাধিক কাৰণ পৃথিৱী মেৰুত চেপেটা আৰু মেৰুৰ ব্যাসাৰ্ধ সৰ্বনিম্ন। সেয়ে ওজন মেৰুত সৰ্বাধিক হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The value of g is zero at?",
+        "as": "g-ৰ মান ক’ত শূন্য?"
+      },
+      "options": [
+        {
+          "en": "Sea level",
+          "as": "সাগৰ পৃষ্ঠ"
+        },
+        {
+          "en": "Poles",
+          "as": "মেৰু"
+        },
+        {
+          "en": "Centre of the Earth",
+          "as": "পৃথিৱীৰ কেন্দ্ৰ"
+        },
+        {
+          "en": "Mount Everest",
+          "as": "মাউণ্ট এভাৰেষ্ট"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "At the centre of the Earth the mass of the outer shell exerts no net gravitational force, so the effective value of g is zero there. Hence g is zero at the centre.",
+        "as": "পৃথিৱীৰ কেন্দ্ৰত বাহিৰৰ আৱৰণৰ ভৰে মুঠ মহাকৰ্ষণ বল নিদিয়ে, সেয়ে তাত g-ৰ কাৰ্যকৰী মান শূন্য। সেয়ে পৃথিৱীৰ কেন্দ্ৰত g শূন্য।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which particle has no charge?",
+        "as": "কোন কণিকাৰ আধান নাই?"
+      },
+      "options": [
+        {
+          "en": "Proton",
+          "as": "প্ৰটন"
+        },
+        {
+          "en": "Electron",
+          "as": "ইলেক্ট্ৰন"
+        },
+        {
+          "en": "Alpha particle",
+          "as": "আলফা কণিকা"
+        },
+        {
+          "en": "Neutron",
+          "as": "নিউট্ৰন"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A neutron is electrically neutral, having no charge, while protons are positive and electrons are negative. Hence the neutron is the chargeless particle.",
+        "as": "নিউট্ৰন বিদ্যুৎভাৱে নিৰপেক্ষ, ইয়াৰ আধান নাই, আনহাতে প্ৰটন ধনাত্মক আৰু ইলেক্ট্ৰন ঋণাত্মক। সেয়ে নিউট্ৰন আধানহীন কণিকা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The number of electrons in a neutral atom is equal to?",
+        "as": "নিরপেক্ষ পৰমাণুত ইলেক্ট্ৰনৰ সংখ্যা কিৰ সমান?"
+      },
+      "options": [
+        {
+          "en": "Number of protons",
+          "as": "প্ৰটনৰ সংখ্যা"
+        },
+        {
+          "en": "Number of neutrons",
+          "as": "নিউট্ৰনৰ সংখ্যা"
+        },
+        {
+          "en": "Mass number",
+          "as": "ভৰ সংখ্যা"
+        },
+        {
+          "en": "Atomic mass only",
+          "as": "কেৱল পাৰমাণৱিক ভৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A neutral atom has equal numbers of protons and electrons, so the total positive and negative charges balance. Thus electrons equal the number of protons.",
+        "as": "নিরপেক্ষ পৰমাণুত প্ৰটন আৰু ইলেক্ট্ৰনৰ সংখ্যা সমান, সেয়ে ধনাত্মক আৰু ঋণাত্মক আধানৰ মুঠ মান সমতা ৰাখে। সেয়ে ইলেক্ট্ৰনৰ সংখ্যা প্ৰটনৰ সংখ্যাৰ সমান।"
+      }
+    },
+    {
+      "q": {
+        "en": "Radioactivity was discovered by?",
+        "as": "তেজস্ক্ৰিয়তা আৱিষ্কাৰ কৰিছিল কোনে?"
+      },
+      "options": [
+        {
+          "en": "Roentgen",
+          "as": "ৰণ্টজেন"
+        },
+        {
+          "en": "Henri Becquerel",
+          "as": "হেনৰি বেকৰেল"
+        },
+        {
+          "en": "Einstein",
+          "as": "আইনষ্টাইন"
+        },
+        {
+          "en": "Newton",
+          "as": "নিউটন"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Radioactivity was discovered by Henri Becquerel in 1896 through his experiments on uranium salts. Hence he is credited with the discovery.",
+        "as": "তেজস্ক্ৰিয়তা ১৮৯৬ চনত হেনৰি বেকৰেলে ইউৰেনিয়াম লৱণৰ পৰীক্ষাৰ জৰিয়তে আৱিষ্কাৰ কৰিছিল। সেয়ে তেওঁক এই আৱিষ্কাৰৰ কৃতিত্ব দিয়া হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The unit of radioactivity is?",
+        "as": "তেজস্ক্ৰিয়তাৰ একক কি?"
+      },
+      "options": [
+        {
+          "en": "Newton",
+          "as": "নিউটন"
+        },
+        {
+          "en": "Joule",
+          "as": "জুল"
+        },
+        {
+          "en": "Becquerel",
+          "as": "বেকৰেল"
+        },
+        {
+          "en": "Pascal",
+          "as": "পাস্কেল"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The SI unit of radioactivity is the becquerel (Bq), which equals one nuclear decay per second. Therefore the correct unit is becquerel.",
+        "as": "তেজস্ক্ৰিয়তাৰ SI একক বেকৰেল (Bq), যি প্ৰতি ছেকেণ্ডত এটা নিউক্লীয় ক্ষয়ৰ সমান। সেয়ে শুদ্ধ একক বেকৰেল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is used in a nuclear reactor as a moderator?",
+        "as": "নিউক্লীয় ৰিয়েক্টৰত মডাৰেটৰ হিচাপে তলৰ কোনটো ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Uranium-235 only as fuel",
+          "as": "কেৱল ইন্ধন হিচাপে ইউৰেনিয়াম-২৩৫"
+        },
+        {
+          "en": "Lead",
+          "as": "চিহ্ন"
+        },
+        {
+          "en": "Gold",
+          "as": "সোণ"
+        },
+        {
+          "en": "Heavy water",
+          "as": "গধুৰ পানী"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "In a nuclear reactor heavy water (D2O) is used as a moderator to slow down fast neutrons without absorbing them, sustaining the chain reaction. Hence heavy water is correct.",
+        "as": "নিউক্লীয় ৰিয়েক্টৰত গধুৰ পানী (D2O) মডাৰেটৰ হিচাপে ব্যৱহাৰ কৰা হয় যাতে দ্ৰুত নিউট্ৰন শোষণ নকৰি মন্থৰ কৰে আৰু শৃংখল প্ৰতিক্ৰিয়া চলি থাকে। সেয়ে গধুৰ পানী শুদ্ধ।"
+      }
+    }
   ]
 }
