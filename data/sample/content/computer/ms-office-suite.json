@@ -43,6 +43,10 @@
       "a": {
         "en": "MS Word is a word processor used to create text documents.",
         "as": "MS Word হৈছে word processor, ইয়াত text দলিল সৃষ্টি হয়।"
+      },
+      "explanation": {
+        "en": "MS Word is a word processor used to create, edit, format and print text documents such as letters, reports and resumes. Excel handles numbers, PowerPoint makes slides and Access manages databases.",
+        "as": "MS Word এটা word processor, যি চিঠি, ৰিপোৰ্ট আৰু ৰেজুমেৰ দৰে text দলিল সৃষ্টি, সম্পাদনা, ফৰ্মেট আৰু print কৰিবলৈ ব্যৱহৃত। Excel য়ে সংখ্যা, PowerPoint য়ে slide আৰু Access য়ে database পৰিচালনা কৰে।"
       }
     },
     {
@@ -72,6 +76,10 @@
       "a": {
         "en": "Word 2007 onwards saves documents with the '.docx' extension.",
         "as": "Word 2007 ৰ পৰা দলিল '.docx' extension ত সংৰক্ষিত হয়।"
+      },
+      "explanation": {
+        "en": "From Office 2007 onwards Word saves documents in the XML-based '.docx' format; '.doc' was used by older versions.",
+        "as": "Office 2007 ৰ পৰা Word য়ে দলিল XML-ভিত্তিক '.docx' format ত save কৰে; পুৰণি সংস্কৰণে '.doc' ব্যৱহাৰ কৰিছিল।"
       }
     },
     {
@@ -101,6 +109,10 @@
       "a": {
         "en": "The status bar at the bottom shows page number, word count and language.",
         "as": "তলৰ status bar ত পৃষ্ঠা নম্বৰ, শব্দ গণনা আৰু ভাষা দেখা যায়।"
+      },
+      "explanation": {
+        "en": "The status bar at the bottom of the Word window shows useful information such as the current page number, word count, language and zoom level.",
+        "as": "Word window ৰ তলত থকা status bar য়ে বৰ্তমান পৃষ্ঠা নম্বৰ, শব্দ সংখ্যা, ভাষা আৰু zoom level ৰ দৰে তথ্য দেখুৱায়।"
       }
     },
     {
@@ -130,6 +142,10 @@
       "a": {
         "en": "The blinking cursor is called the insertion point.",
         "as": "জিলিকি থকা cursor ক insertion point বোলে।"
+      },
+      "explanation": {
+        "en": "The blinking vertical line is the insertion point, also called the cursor. It shows the exact position where typed or pasted text will appear.",
+        "as": "জিলিকি থকা খূব-ৰেখাডাল insertion point, যাক cursor বুলিও কোৱা হয়। টাইপ বা paste কৰা text ক'ত ওলাব সেয়া ই দেখুৱায়।"
       }
     },
     {
@@ -159,6 +175,10 @@
       "a": {
         "en": "Ctrl + C copies the selected text to the clipboard.",
         "as": "Ctrl + C য়ে বাছনি কৰা text clipboard লৈ কপি কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + C copies the selected text or object to the clipboard while keeping the original unchanged.",
+        "as": "Ctrl + C য়ে বাছনি কৰা text বা object মূল অৱস্থাতে ৰাখি clipboard-লৈ কপি কৰে।"
       }
     },
     {
@@ -188,6 +208,10 @@
       "a": {
         "en": "Ctrl + V pastes the copied content at the cursor.",
         "as": "Ctrl + V য়ে কপি কৰা content cursor ত paste কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + V pastes the clipboard content at the position of the insertion point.",
+        "as": "Ctrl + V য়ে insertion point ৰ স্থানত clipboard ৰ content paste কৰে।"
       }
     },
     {
@@ -217,6 +241,10 @@
       "a": {
         "en": "Ctrl + X cuts the selected text and stores it on the clipboard.",
         "as": "Ctrl + X য়ে বাছনি কৰা text কাটি clipboard ত ৰাখে।"
+      },
+      "explanation": {
+        "en": "Ctrl + X cuts the selected text, meaning it is removed from its place and placed on the clipboard so it can be pasted elsewhere.",
+        "as": "Ctrl + X য়ে বাছনি কৰা text কাটে, অৰ্থাৎ ইয়াৰ স্থানৰ পৰা আঁতৰাই clipboard-ত ৰাখে, যাতে আন ঠাইত paste কৰিব পাৰি।"
       }
     },
     {
@@ -246,6 +274,10 @@
       "a": {
         "en": "Ctrl + Z undoes the last action.",
         "as": "Ctrl + Z য়ে শেষ কাৰ্য undo কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + Z undoes the last action performed in Word, such as typing, deleting or formatting.",
+        "as": "Ctrl + Z য়ে Word ত কৰা শেহতীয়া কাৰ্য, যেনে টাইপিং, মচা বা ফৰ্মেটিং, ওলোটা কৰে।"
       }
     },
     {
@@ -275,6 +307,10 @@
       "a": {
         "en": "Ctrl + Y redoes the last undone action.",
         "as": "Ctrl + Y য়ে শেষ undo হোৱা কাৰ্য পুনৰায় কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + Y redoes an action that was just undone with Ctrl + Z, repeating it again.",
+        "as": "Ctrl + Y য়ে Ctrl + Z ৰে ওলোটা কৰা কাৰ্য পুনৰায় কৰে।"
       }
     },
     {
@@ -304,6 +340,10 @@
       "a": {
         "en": "Ctrl + A selects the whole document.",
         "as": "Ctrl + A য়ে সম্পূৰ্ণ দলিল বাছনি কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + A selects all the text and objects in the whole document in one step.",
+        "as": "Ctrl + A য়ে গোটেই দলিলৰ সকলো text আৰু object এক পদক্ষেপতে বাছনি কৰে।"
       }
     },
     {
@@ -333,6 +373,10 @@
       "a": {
         "en": "Ctrl + B applies bold to the selected text.",
         "as": "Ctrl + B য়ে text ত bold প্ৰয়োগ কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + B toggles bold formatting on the selected text, making it appear thicker and darker.",
+        "as": "Ctrl + B য়ে বাছনি কৰা text ত bold ফৰ্মেটিং অন-অফ কৰে, ফলত আখৰ ডাঠ আৰু গাঢ় দেখা যায়।"
       }
     },
     {
@@ -362,6 +406,10 @@
       "a": {
         "en": "Ctrl + I makes the selected text italic.",
         "as": "Ctrl + I য়ে text ইটালিক কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + I makes the selected text italic, that is, slanted to the right for emphasis.",
+        "as": "Ctrl + I য়ে বাছনি কৰা text ক italic কৰে, অৰ্থাৎ গুৰুত্ব দিবলৈ সোঁফালে হালি যায়।"
       }
     },
     {
@@ -391,6 +439,10 @@
       "a": {
         "en": "Ctrl + U underlines the selected text.",
         "as": "Ctrl + U য়ে text ৰ তলত দাগ দিয়ে।"
+      },
+      "explanation": {
+        "en": "Ctrl + U underlines the selected text with a line drawn below the characters.",
+        "as": "Ctrl + U য়ে বাছনি কৰা text ৰ আখৰবোৰৰ তলত এডাল ৰেখা টানি underline কৰে।"
       }
     },
     {
@@ -420,6 +472,10 @@
       "a": {
         "en": "Ctrl + P opens the print dialog.",
         "as": "Ctrl + P য়ে print dialog খোলে।"
+      },
+      "explanation": {
+        "en": "Ctrl + P opens the print settings to print the document or to open a print preview.",
+        "as": "Ctrl + P য়ে দলিল print কৰিবলৈ বা print preview খুলিবলৈ print setting খোলে।"
       }
     },
     {
@@ -449,6 +505,10 @@
       "a": {
         "en": "Ctrl + S saves the current document.",
         "as": "Ctrl + S য়ে বৰ্তমান দলিল save কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + S saves the current document to disk. If it is a new file, the Save As dialog appears.",
+        "as": "Ctrl + S য়ে বৰ্তমান দলিল disk ত save কৰে। নতুন ফাইল হ'লে Save As dialog ওলায়।"
       }
     },
     {
@@ -478,6 +538,10 @@
       "a": {
         "en": "Ctrl + O opens the Open dialog to open an existing file.",
         "as": "Ctrl + O য়ে Open dialog খুলি আগৰ ফাইল খোলে।"
+      },
+      "explanation": {
+        "en": "Ctrl + O opens the Open dialog from which an existing document can be selected and opened.",
+        "as": "Ctrl + O য়ে Open dialog খোলে, য'ৰ পৰা বৰ্তমান থকা দলিল বাছনি কৰি খুলিব পাৰি।"
       }
     },
     {
@@ -507,6 +571,10 @@
       "a": {
         "en": "Ctrl + N creates a new blank document.",
         "as": "Ctrl + N য়ে নতুন খালী দলিল সৃষ্টি কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + N creates a new blank document based on the default Word template.",
+        "as": "Ctrl + N য়ে ডিফল্ট Word template ৰ ওপৰত নতুন খালী দলিল সৃষ্টি কৰে।"
       }
     },
     {
@@ -536,6 +604,10 @@
       "a": {
         "en": "Ctrl + E centers the selected text.",
         "as": "Ctrl + E য়ে text মাজলৈ লগায়।"
+      },
+      "explanation": {
+        "en": "Ctrl + E centers the selected paragraph horizontally between the left and right margins.",
+        "as": "Ctrl + E য়ে বাছনি কৰা অনুচ্ছেদক বাঁও আৰু সোঁ margin ৰ মাজত অনুভূমিকভাৱে মাজত ৰাখে।"
       }
     },
     {
@@ -565,6 +637,10 @@
       "a": {
         "en": "Ctrl + L left-aligns the selected text.",
         "as": "Ctrl + L য়ে text বাঁওফালে লগায়।"
+      },
+      "explanation": {
+        "en": "Ctrl + L aligns the selected paragraph to the left margin, which is the default alignment in Word.",
+        "as": "Ctrl + L য়ে বাছনি কৰা অনুচ্ছেদক বাঁও margin লৈ সজায়, যি Word ৰ ডিফল্ট alignment।"
       }
     },
     {
@@ -594,6 +670,10 @@
       "a": {
         "en": "Ctrl + R right-aligns the selected text.",
         "as": "Ctrl + R য়ে text সোঁফালে লগায়।"
+      },
+      "explanation": {
+        "en": "Ctrl + R aligns the selected paragraph to the right margin.",
+        "as": "Ctrl + R য়ে বাছনি কৰা অনুচ্ছেদক সোঁ margin লৈ সজায়।"
       }
     },
     {
@@ -623,6 +703,10 @@
       "a": {
         "en": "Ctrl + J justifies text on both sides.",
         "as": "Ctrl + J য়ে text দুয়োফালে সমানভাৱে লগায়।"
+      },
+      "explanation": {
+        "en": "Ctrl + J justifies the selected paragraph, spreading it evenly so that both the left and right edges are straight.",
+        "as": "Ctrl + J য়ে বাছনি কৰা অনুচ্ছেদক justify কৰি সমানভাৱে বিতৰণ কৰে, ফলত বাঁও আৰু সোঁ দুয়ো কাষ সোজা হয়।"
       }
     },
     {
@@ -652,6 +736,10 @@
       "a": {
         "en": "Ctrl + F opens the Find feature.",
         "as": "Ctrl + F য়ে Find বৈশিষ্ট্য খোলে।"
+      },
+      "explanation": {
+        "en": "Ctrl + F opens the Navigation pane to find a word or phrase in the document.",
+        "as": "Ctrl + F য়ে Navigation pane খোলে, দলিলত শব্দ বা বাক্যাংশ বিচাৰিবলৈ।"
       }
     },
     {
@@ -681,6 +769,10 @@
       "a": {
         "en": "Ctrl + H opens the Replace dialog box.",
         "as": "Ctrl + H য়ে Replace dialog box খোলে।"
+      },
+      "explanation": {
+        "en": "Ctrl + H opens the Find and Replace dialog, which can also replace every occurrence of a word.",
+        "as": "Ctrl + H য়ে Find and Replace dialog খোলে, যিয়ে এটা শব্দৰ সকলো occurrence প্ৰতিস্থাপনও কৰিব পাৰে।"
       }
     },
     {
@@ -710,6 +802,10 @@
       "a": {
         "en": "The Ribbon contains tabs (Home, Insert, etc.) and their command groups.",
         "as": "Ribbon ত tab (Home, Insert আদি) আৰু command group থাকে।"
+      },
+      "explanation": {
+        "en": "The Ribbon is the band of tabs (File, Home, Insert, Design, etc.) at the top of Office applications that holds commands grouped by purpose.",
+        "as": "Ribbon হৈছে Office এপ্লিকেশ্যনৰ ওপৰত থকা tab ৰ শাৰী (File, Home, Insert, Design আদি), য'ত উদ্দেশ্য অনুসৰি গোট কৰা command থাকে।"
       }
     },
     {
@@ -739,6 +835,10 @@
       "a": {
         "en": "Ctrl + ] increases font size; Ctrl + [ decreases it.",
         "as": "Ctrl + ] য়ে ফন্ট আকাৰ বঢ়ায়; Ctrl + [ য়ে কমায়।"
+      },
+      "explanation": {
+        "en": "Ctrl + ] increases the font size of the selected text by one point, while Ctrl + [ decreases it.",
+        "as": "Ctrl + ] য়ে বাছনি কৰা text ৰ font size এটা point বৃদ্ধি কৰে, আনহাতে Ctrl + [ য়ে কমায়।"
       }
     },
     {
@@ -768,6 +868,10 @@
       "a": {
         "en": "MS Excel is a spreadsheet program for calculations and data analysis.",
         "as": "MS Excel হৈছে গণনা আৰু তথ্য বিশ্লেষণৰ spreadsheet program।"
+      },
+      "explanation": {
+        "en": "MS Excel is a spreadsheet application used for calculations, formulas, charts and data analysis using rows and columns.",
+        "as": "MS Excel এটা spreadsheet এপ্লিকেশ্যন, যি row আৰু column ব্যৱহাৰ কৰি গণনা, formula, chart আৰু data analysis ৰ বাবে ব্যৱহৃত।"
       }
     },
     {
@@ -797,6 +901,10 @@
       "a": {
         "en": "Excel 2007 onwards saves files with the '.xlsx' extension.",
         "as": "Excel 2007 ৰ পৰা ফাইল '.xlsx' extension ত সংৰক্ষিত হয়।"
+      },
+      "explanation": {
+        "en": "From Excel 2007 onwards workbooks are saved with the '.xlsx' extension; the older versions used '.xls'.",
+        "as": "Excel 2007 ৰ পৰা workbook '.xlsx' extension ৰে save হয়; পুৰণি সংস্কৰণে '.xls' ব্যৱহাৰ কৰিছিল।"
       }
     },
     {
@@ -826,6 +934,10 @@
       "a": {
         "en": "An Excel file is called a workbook, which contains one or more worksheets.",
         "as": "Excel ফাইলক workbook বোলে, ইয়াত এক বা একাধিক worksheet থাকে।"
+      },
+      "explanation": {
+        "en": "An Excel file is called a workbook. One workbook can contain many worksheets (sheets).",
+        "as": "Excel ফাইলক workbook বোলে। এটা workbook ত বহু worksheet (sheet) থাকিব পাৰে।"
       }
     },
     {
@@ -855,6 +967,10 @@
       "a": {
         "en": "The intersection of a row and column is called a cell.",
         "as": "row আৰু column ৰ সংযোগস্থলক cell বোলে।"
+      },
+      "explanation": {
+        "en": "The cell is the basic unit of a worksheet, formed by the intersection of a row and a column, where data is entered.",
+        "as": "Cell হৈছে worksheet ৰ মৌলিক একক, যি row আৰু column ৰ ছেদত গঠিত, য'ত তথ্য দিয়া হয়।"
       }
     },
     {
@@ -884,6 +1000,10 @@
       "a": {
         "en": "Column letter comes first and row number after, so the cell is C5.",
         "as": "আগে column আখৰ আৰু পিছত row সংখ্যা হয়, গতিকে cell C5।"
+      },
+      "explanation": {
+        "en": "A cell reference is written with the column letter first and then the row number, so column C and row 5 give C5.",
+        "as": "Cell reference ত আগে column আখৰ আৰু পিছত row নম্বৰ লিখা হয়, সেয়ে column C আৰু row 5 ৰ বাবে C5।"
       }
     },
     {
@@ -913,6 +1033,10 @@
       "a": {
         "en": "Each spreadsheet page in a workbook is called a worksheet.",
         "as": "workbook ৰ প্ৰতিটো spreadsheet পৃষ্ঠাক worksheet বোলে।"
+      },
+      "explanation": {
+        "en": "Each individual spreadsheet page inside a workbook is called a worksheet, and it is made of a grid of cells.",
+        "as": "Workbook ৰ ভিতৰত থকা প্ৰতিটো spreadsheet পৃষ্ঠাক worksheet বোলে, যি cell ৰ জালিকাৰে গঠিত।"
       }
     },
     {
@@ -942,6 +1066,10 @@
       "a": {
         "en": "Every Excel formula begins with the equals sign (=).",
         "as": "প্ৰতিটো Excel formula চিহ্ন (=) ৰে আৰম্ভ হয়।"
+      },
+      "explanation": {
+        "en": "Every formula in Excel must begin with the equals sign (=), for example =A1+B1. Without it Excel treats the entry as text.",
+        "as": "Excel ত প্ৰতিটো formula '=' চিনৰে আৰম্ভ হ'ব লাগে, যেনে =A1+B1। নহ'লে Excel য়ে ইয়াক text হিচাপে ধৰে।"
       }
     },
     {
@@ -971,6 +1099,10 @@
       "a": {
         "en": "The SUM function adds all numbers in a selected range.",
         "as": "SUM function য়ে বাছনি range ৰ সকলো সংখ্যা যোগ কৰে।"
+      },
+      "explanation": {
+        "en": "The SUM function adds all the numbers in the given range, for example =SUM(A1:A10).",
+        "as": "SUM function য়ে দিয়া range ৰ সকলো সংখ্যা যোগ কৰে, যেনে =SUM(A1:A10)।"
       }
     },
     {
@@ -1000,6 +1132,10 @@
       "a": {
         "en": "MAX returns the largest value in a range of cells.",
         "as": "MAX য়ে cell range ৰ সবাতোকৈ ডাঙৰ মান দিয়ে।"
+      },
+      "explanation": {
+        "en": "The MAX function returns the largest numeric value from a range, for example =MAX(A1:A10).",
+        "as": "MAX function য়ে range ৰ পৰা সৰ্বাধিক সংখ্যা ঘূৰাই দিয়ে, যেনে =MAX(A1:A10)।"
       }
     },
     {
@@ -1029,6 +1165,10 @@
       "a": {
         "en": "MIN returns the smallest value in a range of cells.",
         "as": "MIN য়ে cell range ৰ সবাতোকৈ সৰু মান দিয়ে।"
+      },
+      "explanation": {
+        "en": "The MIN function returns the smallest numeric value from a range.",
+        "as": "MIN function য়ে range ৰ পৰা সৰ্বনিম্ন সংখ্যা ঘূৰাই দিয়ে।"
       }
     },
     {
@@ -1058,6 +1198,10 @@
       "a": {
         "en": "AVERAGE calculates the arithmetic mean of the given numbers.",
         "as": "AVERAGE য়ে দিয়া সংখ্যাৰ পাটীগণিতীয় গড় গণনা কৰে।"
+      },
+      "explanation": {
+        "en": "The AVERAGE function calculates the arithmetic mean by adding the numbers and dividing by their count.",
+        "as": "AVERAGE function য়ে সংখ্যাবোৰ যোগ কৰি সিহঁতৰ সংখ্যাৰে হৰণ কৰি গাণিতিক গড় নিৰ্ণয় কৰে।"
       }
     },
     {
@@ -1087,6 +1231,10 @@
       "a": {
         "en": "COUNT counts only the cells that contain numbers.",
         "as": "COUNT য়ে কেৱল সংখ্যা থকা cell গণনা কৰে।"
+      },
+      "explanation": {
+        "en": "COUNT counts only the cells that contain numbers, ignoring blank cells and text. COUNTA counts all non-empty cells.",
+        "as": "COUNT য়ে কেৱল সংখ্যা থকা cell গণে, খালী cell আৰু text উপেক্ষা কৰে। COUNTA য়ে সকলো অখালী cell গণে।"
       }
     },
     {
@@ -1116,6 +1264,10 @@
       "a": {
         "en": "The IF function returns one value when a condition is true and another when false.",
         "as": "IF function য়ে চৰ্ত সঁচা হ'লে এটা আৰু মিছা হ'লে আনটো মান দিয়ে।"
+      },
+      "explanation": {
+        "en": "The IF function tests a condition and returns one value if it is true and another if it is false, for example =IF(A1>50,\"Pass\",\"Fail\").",
+        "as": "IF function য়ে এটা চৰ্ত পৰীক্ষা কৰি সত্য হ'লে এটা মান আৰু মিছা হ'লে আন এটা মান ঘূৰাই দিয়ে, যেনে =IF(A1>50,\"Pass\",\"Fail\")।"
       }
     },
     {
@@ -1145,6 +1297,10 @@
       "a": {
         "en": "CONCATENATE joins two or more text strings into one.",
         "as": "CONCATENATE য়ে দুই বা ততোধিক text string এক কৰে।"
+      },
+      "explanation": {
+        "en": "CONCATENATE joins two or more text strings from different cells into a single string, for example =CONCATENATE(A1,\" \",B1).",
+        "as": "CONCATENATE য়ে বিভিন্ন cell ৰ দুটা বা অধিক text string এক কৰি এটা string বনায়, যেনে =CONCATENATE(A1,\" \",B1)।"
       }
     },
     {
@@ -1174,6 +1330,10 @@
       "a": {
         "en": "VLOOKUP searches the first column of a table and returns a value from a given column.",
         "as": "VLOOKUP য়ে তালিকাৰ প্ৰথম column ত বিচাৰি দিয়া column ৰ পৰা মান দিয়ে।"
+      },
+      "explanation": {
+        "en": "VLOOKUP searches for a value in the first column of a table and returns a value from a specified column of the same row.",
+        "as": "VLOOKUP য়ে table ৰ প্ৰথম column ত এটা মান বিচাৰি একে row ৰ নিৰ্দিষ্ট column ৰ পৰা মান ঘূৰাই দিয়ে।"
       }
     },
     {
@@ -1203,6 +1363,10 @@
       "a": {
         "en": "TODAY returns the current date; NOW returns date and time.",
         "as": "TODAY য়ে বৰ্তমান তাৰিখ; NOW য়ে তাৰিখ আৰু সময় দিয়ে।"
+      },
+      "explanation": {
+        "en": "TODAY returns the current date (which updates automatically), while NOW returns the current date and time.",
+        "as": "TODAY য়ে বৰ্তমান তাৰিখ ঘূৰাই দিয়ে (স্বয়ংক্ৰিয়ভাৱে আপডেট হয়), আনহাতে NOW য়ে বৰ্তমান তাৰিখ আৰু সময় দিয়ে।"
       }
     },
     {
@@ -1232,6 +1396,10 @@
       "a": {
         "en": "The asterisk (*) is used for multiplication in Excel.",
         "as": "Excel ত গুণনৰ বাবে asterisk (*) ব্যৱহাৰ হয়।"
+      },
+      "explanation": {
+        "en": "The asterisk (*) is the multiplication operator in Excel, for example =A1*B1.",
+        "as": "Excel ত asterisk (*) হৈছে গুণৰ operator, যেনে =A1*B1।"
       }
     },
     {
@@ -1261,6 +1429,10 @@
       "a": {
         "en": "The forward slash (/) is used for division in Excel.",
         "as": "Excel ত ভাগৰ বাবে forward slash (/) ব্যৱহাৰ হয়।"
+      },
+      "explanation": {
+        "en": "The forward slash (/) is the division operator in Excel, for example =A1/B1.",
+        "as": "Excel ত forward slash (/) হৈছে হৰণৰ operator, যেনে =A1/B1।"
       }
     },
     {
@@ -1290,6 +1462,10 @@
       "a": {
         "en": "A vertical group of cells is a column; horizontal is a row.",
         "as": "উলম্ব cell সমষ্টি column; অনুভূমিক সমষ্টি row।"
+      },
+      "explanation": {
+        "en": "A column is a vertical group of cells identified by letters (A, B, C...), while a row is a horizontal group identified by numbers.",
+        "as": "Column হৈছে আখৰেৰে (A, B, C...) চিনাক্ত কৰা cell ৰ উলম্ব গোট, আনহাতে row হৈছে সংখ্যাৰে চিনাক্ত কৰা অনুভূমিক গোট।"
       }
     },
     {
@@ -1319,6 +1495,10 @@
       "a": {
         "en": "A range is written with a colon, e.g., A1:A10.",
         "as": "Range colon ৰে লিখা হয়, যেনে A1:A10।"
+      },
+      "explanation": {
+        "en": "A range is written using a colon between the first and last cell, so A1 to A10 is written as A1:A10.",
+        "as": "Range ত প্ৰথম আৰু শেষ cell ৰ মাজত colon দি লিখা হয়, সেয়ে A1 ৰ পৰা A10 ক A1:A10 লিখা হয়।"
       }
     },
     {
@@ -1348,6 +1528,10 @@
       "a": {
         "en": "In $A$1 both column and row are fixed, so it is an absolute reference.",
         "as": "$A$1 ত column আৰু row দুয়োটা স্থিৰ, গতিকে ই absolute reference।"
+      },
+      "explanation": {
+        "en": "In $A$1 both the column (A) and the row (1) are locked with dollar signs, so the reference does not change when copied; this is an absolute reference.",
+        "as": "$A$1 ত column (A) আৰু row (1) দুয়োটা dollar চিনেৰে locked, সেয়ে copy কৰিলেও reference নসলনি; এইটো absolute reference।"
       }
     },
     {
@@ -1377,6 +1561,10 @@
       "a": {
         "en": "A1 without $ changes when copied, so it is a relative reference.",
         "as": "$ নোহোৱা A1 কপি কৰিলে সলনি হয়, গতিকে ই relative reference।"
+      },
+      "explanation": {
+        "en": "A1 without any dollar sign is a relative reference; it changes automatically when the formula is copied to another cell.",
+        "as": "কোনো dollar চিন নথকা A1 এটা relative reference; formula আন cell লৈ copy কৰিলে ই স্বয়ংক্ৰিয়ভাৱে সলনি হয়।"
       }
     },
     {
@@ -1406,6 +1594,10 @@
       "a": {
         "en": "$A1 fixes only the column, so it is a mixed reference.",
         "as": "$A1 ত কেৱল column স্থিৰ, গতিকে ই mixed reference।"
+      },
+      "explanation": {
+        "en": "In $A1 only the column is fixed with the dollar sign while the row remains relative, so it is a mixed reference.",
+        "as": "$A1 ত কেৱল column dollar চিনেৰে স্থিৰ, আনহাতে row relative ৰয়, সেয়ে ই mixed reference।"
       }
     },
     {
@@ -1435,6 +1627,10 @@
       "a": {
         "en": "Pressing F2 lets you edit the active cell directly.",
         "as": "F2 চাপিলে active cell পোনপটীয়াকৈ সম্পাদনা কৰিব পাৰি।"
+      },
+      "explanation": {
+        "en": "Pressing F2 while a cell is selected puts Excel into edit mode so the cell content can be changed directly.",
+        "as": "cell বাছনি কৰি F2 চাপিলে Excel edit mode লৈ যায়, যাতে cell ৰ content পোনপটীয়াকৈ সলনি কৰিব পাৰি।"
       }
     },
     {
@@ -1464,6 +1660,10 @@
       "a": {
         "en": "F4 toggles a reference between relative, absolute and mixed.",
         "as": "F4 য়ে reference relative, absolute আৰু mixed ৰ মাজত সলনি কৰে।"
+      },
+      "explanation": {
+        "en": "While typing a formula, F4 toggles a cell reference through relative (A1), absolute ($A$1) and mixed ($A1, A$1) forms.",
+        "as": "Formula টাইপ কৰি থকাৰ সময়ত F4 য়ে cell reference ক relative (A1), absolute ($A$1) আৰু mixed ($A1, A$1) ৰূপৰ মাজত সলনি কৰে।"
       }
     },
     {
@@ -1493,6 +1693,10 @@
       "a": {
         "en": "MS PowerPoint is used to create slide-based presentations.",
         "as": "MS PowerPoint slide ভিত্তিক উপস্থাপনা সৃষ্টিৰ বাবে ব্যৱহাৰ হয়।"
+      },
+      "explanation": {
+        "en": "MS PowerPoint is a presentation program used to create slide shows with text, images, charts, animation and transitions.",
+        "as": "MS PowerPoint এটা presentation program, যি text, ছবি, chart, animation আৰু transition থকা slide show সৃষ্টি কৰিবলৈ ব্যৱহৃত।"
       }
     },
     {
@@ -1522,6 +1726,10 @@
       "a": {
         "en": "PowerPoint 2007 onwards saves files with the '.pptx' extension.",
         "as": "PowerPoint 2007 ৰ পৰা ফাইল '.pptx' extension ত সংৰক্ষিত হয়।"
+      },
+      "explanation": {
+        "en": "From PowerPoint 2007 onwards presentations are saved with the '.pptx' extension; older versions used '.ppt'.",
+        "as": "PowerPoint 2007 ৰ পৰা presentation '.pptx' extension ৰে save হয়; পুৰণি সংস্কৰণে '.ppt' ব্যৱহাৰ কৰিছিল।"
       }
     },
     {
@@ -1551,6 +1759,10 @@
       "a": {
         "en": "Each page of a presentation is called a slide.",
         "as": "উপস্থাপনাৰ প্ৰতিটো পৃষ্ঠাক slide বোলে।"
+      },
+      "explanation": {
+        "en": "Each individual page of a PowerPoint presentation is called a slide; a presentation is a collection of slides.",
+        "as": "PowerPoint presentation ৰ প্ৰতিটো পৃথক পৃষ্ঠাক slide বোলে; এটা presentation হৈছে slide ৰ সমষ্টি।"
       }
     },
     {
@@ -1580,6 +1792,10 @@
       "a": {
         "en": "Pressing F5 starts the slide show from the first slide.",
         "as": "F5 চাপিলে প্ৰথম slide ৰ পৰা slide show আৰম্ভ হয়।"
+      },
+      "explanation": {
+        "en": "F5 starts the slide show from the very first slide, while Shift + F5 starts it from the currently selected slide.",
+        "as": "F5 য়ে প্ৰথম slide ৰ পৰা slide show আৰম্ভ কৰে, আনহাতে Shift + F5 য়ে বৰ্তমান বাছনি কৰা slide ৰ পৰা আৰম্ভ কৰে।"
       }
     },
     {
@@ -1609,6 +1825,10 @@
       "a": {
         "en": "Shift + F5 starts the show from the current slide.",
         "as": "Shift + F5 য়ে বৰ্তমান slide ৰ পৰা show আৰম্ভ কৰে।"
+      },
+      "explanation": {
+        "en": "Shift + F5 starts the slide show from the currently selected slide instead of the beginning.",
+        "as": "Shift + F5 য়ে আৰম্ভণিৰ পৰিৱৰ্তে বৰ্তমান বাছনি কৰা slide ৰ পৰা slide show আৰম্ভ কৰে।"
       }
     },
     {
@@ -1638,6 +1858,10 @@
       "a": {
         "en": "Ctrl + M inserts a new blank slide.",
         "as": "Ctrl + M য়ে নতুন খালী slide সৃষ্টি কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + M inserts a new blank slide after the currently selected slide in PowerPoint.",
+        "as": "Ctrl + M য়ে PowerPoint ত বৰ্তমান বাছনি কৰা slide ৰ পিছত নতুন খালী slide সুমুৱায়।"
       }
     },
     {
@@ -1667,6 +1891,10 @@
       "a": {
         "en": "Animations are effects applied to objects within a slide.",
         "as": "Animation হৈছে slide ৰ ভিতৰত object ত দিয়া প্রভাৱ।"
+      },
+      "explanation": {
+        "en": "Animations are effects applied to text or objects within a slide, such as an object flying in or text fading, used to add movement.",
+        "as": "Animation হৈছে slide ৰ ভিতৰত text বা object ত প্ৰয়োগ কৰা effect, যেনে object উৰি অহা বা text ম্লান হোৱা, গতি যোগ কৰিবলৈ।"
       }
     },
     {
@@ -1696,6 +1924,10 @@
       "a": {
         "en": "Transitions are motion effects applied between slides during the show.",
         "as": "Transition হৈছে show চলোতে slide ৰ মাজত দিয়া গতি প্রভাৱ।"
+      },
+      "explanation": {
+        "en": "A transition is the motion effect that plays between two slides when moving from one slide to the next during a slide show.",
+        "as": "Transition হৈছে slide show ৰ সময়ত এটা slide ৰ পৰা আনটো slide লৈ যাওঁতে দুটা slide ৰ মাজত চলা গতিৰ effect।"
       }
     },
     {
@@ -1725,6 +1957,10 @@
       "a": {
         "en": "The Design tab provides themes and backgrounds for slides.",
         "as": "Design tab ত slide ৰ theme আৰু পটভূমি থাকে।"
+      },
+      "explanation": {
+        "en": "The Design tab provides themes, colour variants, fonts and background styles that set the overall look of the slides.",
+        "as": "Design tab য়ে theme, ৰঙৰ variant, font আৰু background style দিয়ে, যিয়ে slide ৰ সামগ্ৰিক ৰূপ নিৰ্ধাৰণ কৰে।"
       }
     },
     {
@@ -1754,6 +1990,10 @@
       "a": {
         "en": "Different presentation views are available under the View tab.",
         "as": "View tab ত বিভিন্ন উপস্থাপনা view থাকে।"
+      },
+      "explanation": {
+        "en": "Normal, Outline, Slide Sorter, Notes Page and Reading views are all available under the View tab.",
+        "as": "Normal, Outline, Slide Sorter, Notes Page আৰু Reading view সকলো View tab ৰ অধীনত উপলব্ধ।"
       }
     },
     {
@@ -1783,6 +2023,10 @@
       "a": {
         "en": "Slide Sorter view shows all slides as small thumbnails.",
         "as": "Slide Sorter view ত সকলো slide সৰু থাম্বনেইল হিচাপে দেখা যায়।"
+      },
+      "explanation": {
+        "en": "Slide Sorter view displays all slides as small thumbnails in order, making it easy to rearrange, copy or delete slides.",
+        "as": "Slide Sorter view য়ে সকলো slide ক্ৰমে সৰু thumbnail হিচাপে দেখুৱায়, যাৰ ফলত slide সজোৱা, কপি বা মচা সহজ হয়।"
       }
     },
     {
@@ -1812,6 +2056,10 @@
       "a": {
         "en": "Ctrl + Shift + > increases the font size of selected text.",
         "as": "Ctrl + Shift + > য়ে বাছনি text ৰ ফন্ট আকাৰ বঢ়ায়।"
+      },
+      "explanation": {
+        "en": "Ctrl + Shift + > increases the font size of the selected text by one step, and Ctrl + Shift + < decreases it.",
+        "as": "Ctrl + Shift + > য়ে বাছনি কৰা text ৰ font size এটা স্তৰ বৃদ্ধি কৰে, আৰু Ctrl + Shift + < য়ে হ্ৰাস কৰে।"
       }
     },
     {
@@ -1841,6 +2089,10 @@
       "a": {
         "en": "Ctrl + D duplicates the selected slide.",
         "as": "Ctrl + D য়ে বাছনি slide ৰ অনুলিপি সৃষ্টি কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + D duplicates the selected slide (or object) immediately after it.",
+        "as": "Ctrl + D য়ে বাছনি কৰা slide (বা object) ৰ ঠিক পিছতেই নকল সৃষ্টি কৰে।"
       }
     },
     {
@@ -1870,6 +2122,10 @@
       "a": {
         "en": "Spacebar or Page Down advances to the next slide.",
         "as": "Spacebar বা Page Down য়ে পৰৱৰ্তী slide লৈ আগবঢ়ায়।"
+      },
+      "explanation": {
+        "en": "During a slide show, pressing the spacebar, Enter, the right arrow or Page Down advances to the next slide.",
+        "as": "Slide show চলি থকাৰ সময়ত spacebar, Enter, সোঁ arrow বা Page Down চাপিলে পৰৱৰ্তী slide লৈ যায়।"
       }
     },
     {
@@ -1899,6 +2155,10 @@
       "a": {
         "en": "Pressing Esc exits the running slide show.",
         "as": "Esc চাপিলে চলি থকা slide show ৰ পৰা ওলায়।"
+      },
+      "explanation": {
+        "en": "Pressing Esc ends the running slide show and returns to the normal editing view.",
+        "as": "Esc চাপিলে চলি থকা slide show বন্ধ হৈ স্বাভাৱিক editing view লৈ উভতি যায়।"
       }
     },
     {
@@ -1928,6 +2188,10 @@
       "a": {
         "en": "MS Access is the database management application of MS Office.",
         "as": "MS Access হৈছে MS Office ৰ ডেটাবেছ ব্যৱস্থাপনা application।"
+      },
+      "explanation": {
+        "en": "MS Access is the relational database application of the MS Office suite, used to store, query and report on data.",
+        "as": "MS Access হৈছে MS Office suite ৰ relational database এপ্লিকেশ্যন, তথ্য সংৰক্ষণ, query আৰু report কৰিবলৈ ব্যৱহৃত।"
       }
     },
     {
@@ -1957,6 +2221,10 @@
       "a": {
         "en": "Access 2007 onwards uses the '.accdb' extension.",
         "as": "Access 2007 ৰ পৰা '.accdb' extension ব্যৱহাৰ হয়।"
+      },
+      "explanation": {
+        "en": "From Access 2007 onwards databases are saved with the '.accdb' extension; older versions used '.mdb'.",
+        "as": "Access 2007 ৰ পৰা database '.accdb' extension ৰে save হয়; পুৰণি সংস্কৰণে '.mdb' ব্যৱহাৰ কৰিছিল।"
       }
     },
     {
@@ -1986,6 +2254,10 @@
       "a": {
         "en": "Tables, Queries, Forms and Reports are the main Access objects.",
         "as": "Table, Query, Form আৰু Report হৈছে Access ৰ মূল অবজেক্ট।"
+      },
+      "explanation": {
+        "en": "Tables, Queries, Forms and Reports are the main objects of an Access database. A query asks a question of the stored data.",
+        "as": "Table, Query, Form আৰু Report Access database ৰ প্ৰধান object। Query য়ে সংৰক্ষিত তথ্যৰ পৰা এটা প্ৰশ্নৰ উত্তৰ বিচাৰে।"
       }
     },
     {
@@ -2015,6 +2287,10 @@
       "a": {
         "en": "MS Outlook manages email, contacts, tasks and calendar.",
         "as": "MS Outlook য়ে ইমেইল, ঠিকনা, কাৰ্য আৰু calendar ব্যৱস্থাপনা কৰে।"
+      },
+      "explanation": {
+        "en": "MS Outlook is the personal information manager of Office, used for email, contacts, calendars, tasks and meetings.",
+        "as": "MS Outlook হৈছে Office ৰ personal information manager, ইমেইল, contact, calendar, task আৰু meeting ৰ বাবে ব্যৱহৃত।"
       }
     },
     {
@@ -2044,6 +2320,10 @@
       "a": {
         "en": "MS Publisher is used for desktop publishing documents.",
         "as": "MS Publisher desktop publishing দলিলৰ বাবে ব্যৱহাৰ হয়।"
+      },
+      "explanation": {
+        "en": "MS Publisher is desktop publishing software used to design newsletters, brochures, posters, cards and other print publications.",
+        "as": "MS Publisher হৈছে desktop publishing ছফ্টৱেৰ, newsletter, brochure, poster, card আৰু অন্য print প্ৰকাশন ডিজাইন কৰিবলৈ ব্যৱহৃত।"
       }
     },
     {
@@ -2073,6 +2353,10 @@
       "a": {
         "en": "MS OneNote is used to capture and organize notes.",
         "as": "MS OneNote টোকা ধৰি সজাবলৈ ব্যৱহাৰ হয়।"
+      },
+      "explanation": {
+        "en": "MS OneNote is a digital note-taking application that stores notes in notebooks with sections and pages, and can include images, audio and drawings.",
+        "as": "MS OneNote এটা ডিজিটেল note-taking এপ্লিকেশ্যন, যি notebook-ত section আৰু page হিচাপে note ৰাখে, লগতে ছবি, audio আৰু drawing সুমুৱাব পাৰে।"
       }
     },
     {
@@ -2102,6 +2386,10 @@
       "a": {
         "en": "Sizing handles are the small squares used to resize an object.",
         "as": "sizing handle হৈছে object ৰ আকাৰ সলনি কৰা সৰু কোঠা।"
+      },
+      "explanation": {
+        "en": "Sizing handles are the small squares shown around a selected picture or object; dragging them resizes the object.",
+        "as": "Sizing handle হৈছে বাছনি কৰা ছবি বা object ৰ চাৰিওফালে দেখা সৰু বৰ্গ; ইয়াক টানিলে object ৰ আকাৰ সলনি হয়।"
       }
     },
     {
@@ -2131,6 +2419,10 @@
       "a": {
         "en": "Ctrl + D opens the Font dialog in MS Word.",
         "as": "Ctrl + D য়ে MS Word ত Font dialog খোলে।"
+      },
+      "explanation": {
+        "en": "In MS Word Ctrl + D opens the Font dialog box for changing font, style, size and effects.",
+        "as": "MS Word ত Ctrl + D য়ে ফন্ট, style, size আৰু effect সলনি কৰিবলৈ Font dialog box খোলে।"
       }
     },
     {
@@ -2160,6 +2452,10 @@
       "a": {
         "en": "Ctrl + K inserts a hyperlink in MS Word.",
         "as": "Ctrl + K য়ে MS Word ত hyperlink সন্নিবেশ কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + K inserts a hyperlink in MS Word, linking the selected text to a web page, file or location.",
+        "as": "Ctrl + K য়ে MS Word ত hyperlink সুমুৱায়, বাছনি কৰা text ক ৱেব পৃষ্ঠা, ফাইল বা স্থানৰ সৈতে সংযোগ কৰে।"
       }
     },
     {
@@ -2189,6 +2485,10 @@
       "a": {
         "en": "F7 opens the Spelling and Grammar checker in MS Word.",
         "as": "F7 য়ে MS Word ত বানান আৰু ব্যাকৰণ পৰীক্ষক খোলে।"
+      },
+      "explanation": {
+        "en": "F7 starts the Spelling and Grammar check in MS Word, highlighting possible errors.",
+        "as": "F7 য়ে MS Word ত Spelling and Grammar check আৰম্ভ কৰি সম্ভাব্য ভুল দেখুৱায়।"
       }
     },
     {
@@ -2218,6 +2518,10 @@
       "a": {
         "en": "MS Word is word processing software.",
         "as": "MS Word হৈছে word processing ছফ্টৱেৰ।"
+      },
+      "explanation": {
+        "en": "MS Word is word processing software designed mainly for creating and formatting text-based documents.",
+        "as": "MS Word হৈছে word processing ছফ্টৱেৰ, মূলতঃ text-ভিত্তিক দলিল সৃষ্টি আৰু ফৰ্মেট কৰিবলৈ ডিজাইন কৰা।"
       }
     },
     {
@@ -2247,6 +2551,10 @@
       "a": {
         "en": "Page numbers are inserted from the Insert tab.",
         "as": "Insert tab ৰ পৰা পৃষ্ঠা নম্বৰ সন্নিবেশ কৰা হয়।"
+      },
+      "explanation": {
+        "en": "Page numbers, headers, footers, tables, pictures and symbols are added from the Insert tab.",
+        "as": "পৃষ্ঠা নম্বৰ, header, footer, table, ছবি আৰু symbol Insert tab ৰ পৰা যোগ কৰা হয়।"
       }
     },
     {
@@ -2276,6 +2584,10 @@
       "a": {
         "en": "Mail Merge is a feature of MS Word to send many letters with one template.",
         "as": "Mail Merge হৈছে MS Word ৰ বৈশিষ্ট্য, এটা template ৰে বহু চিঠি পঠাবলৈ।"
+      },
+      "explanation": {
+        "en": "Mail Merge is a feature of MS Word that combines a main document with a data source to produce many personalised letters, labels or envelopes.",
+        "as": "Mail Merge হৈছে MS Word ৰ এটা বৈশিষ্ট্য, যি main document ক data source সৈতে মিলাই বহু ব্যক্তিগতকৃত চিঠি, label বা envelope তৈয়াৰ কৰে।"
       }
     },
     {
@@ -2305,6 +2617,10 @@
       "a": {
         "en": "Scroll bars are part of the document window.",
         "as": "Scroll bar হৈছে document window ৰ অংশ।"
+      },
+      "explanation": {
+        "en": "Vertical and horizontal scroll bars belong to the document window; they are used to move the view up, down, left or right.",
+        "as": "Vertical আৰু horizontal scroll bar দলিল window ৰ অংশ; ইয়াৰে view ক ওপৰ-তল বা বাঁও-সোঁ লৈ যাব পাৰি।"
       }
     },
     {
@@ -2334,6 +2650,10 @@
       "a": {
         "en": "Print Layout view shows the document exactly as it will be printed.",
         "as": "Print Layout view ত দলিল প্ৰিন্ট হোৱাৰ দৰে দেখা যায়।"
+      },
+      "explanation": {
+        "en": "Print Layout view shows the document exactly as it will appear on paper, including margins, headers and page breaks.",
+        "as": "Print Layout view য়ে দলিল কাগজত যেনেকৈ ওলাব তেনেকৈ দেখুৱায়, margin, header আৰু page break সহ।"
       }
     },
     {
@@ -2363,6 +2683,10 @@
       "a": {
         "en": "Shift + Enter inserts a soft line break within a paragraph.",
         "as": "Shift + Enter য়ে paragraph ৰ ভিতৰত line break দিয়ে।"
+      },
+      "explanation": {
+        "en": "Shift + Enter inserts a soft line break, starting a new line within the same paragraph without creating a new paragraph.",
+        "as": "Shift + Enter য়ে soft line break দিয়ে, নতুন অনুচ্ছেদ নবনাই একেই অনুচ্ছেদৰ ভিতৰতে নতুন শাৰী আৰম্ভ কৰে।"
       }
     },
     {
@@ -2392,6 +2716,10 @@
       "a": {
         "en": "Home moves the cursor to the start of the current line.",
         "as": "Home য়ে cursor বৰ্তমান ৰেখাৰ আৰম্ভণিলৈ নিয়ে।"
+      },
+      "explanation": {
+        "en": "The Home key moves the cursor to the beginning of the current line.",
+        "as": "Home key য়ে cursor ক বৰ্তমান শাৰীৰ আৰম্ভণিলৈ নিয়ে।"
       }
     },
     {
@@ -2421,6 +2749,10 @@
       "a": {
         "en": "Ctrl + Home moves the cursor to the very beginning of the document.",
         "as": "Ctrl + Home য়ে cursor দলিলৰ একদম আৰম্ভণিলৈ নিয়ে।"
+      },
+      "explanation": {
+        "en": "Ctrl + Home moves the cursor directly to the very beginning of the document.",
+        "as": "Ctrl + Home য়ে cursor ক পোনপটীয়াকৈ দলিলৰ একেবাৰে আৰম্ভণিলৈ নিয়ে।"
       }
     },
     {
@@ -2450,6 +2782,10 @@
       "a": {
         "en": "Ctrl + End moves the cursor to the end of the document.",
         "as": "Ctrl + End য়ে cursor দলিলৰ শেষলৈ নিয়ে।"
+      },
+      "explanation": {
+        "en": "Ctrl + End moves the cursor to the very end of the document.",
+        "as": "Ctrl + End য়ে cursor ক দলিলৰ একেবাৰে শেষলৈ নিয়ে।"
       }
     },
     {
@@ -2479,6 +2815,10 @@
       "a": {
         "en": "ROUND rounds a number to the specified number of decimal places.",
         "as": "ROUND য়ে সংখ্যা নিৰ্দিষ্ট দশমিক স্থানলৈ ঘূৰণীয়া কৰে।"
+      },
+      "explanation": {
+        "en": "ROUND rounds a number to a specified number of digits, for example =ROUND(3.14159,2) gives 3.14.",
+        "as": "ROUND য়ে এটা সংখ্যাক নিৰ্দিষ্ট অংকসংখ্যালৈ ঘূৰাই দিয়ে, যেনে =ROUND(3.14159,2) এ 3.14 দিয়ে।"
       }
     },
     {
@@ -2508,6 +2848,10 @@
       "a": {
         "en": "MOD returns the remainder of a division, e.g., MOD(10,3) = 1.",
         "as": "MOD য়ে ভাগৰ ভাগশেষ দিয়ে, যেনে MOD(10,3) = 1।"
+      },
+      "explanation": {
+        "en": "MOD returns the remainder after one number is divided by another, for example MOD(10,3) = 1.",
+        "as": "MOD য়ে এটা সংখ্যাক আন এটাৰে হৰণ কৰাৰ পিছৰ ভাগশেষ ঘূৰাই দিয়ে, যেনে MOD(10,3) = 1।"
       }
     },
     {
@@ -2537,6 +2881,10 @@
       "a": {
         "en": "SQRT returns the square root, e.g., SQRT(16) = 4.",
         "as": "SQRT য়ে বৰ্গমূল দিয়ে, যেনে SQRT(16) = 4।"
+      },
+      "explanation": {
+        "en": "SQRT returns the square root of a non-negative number, for example SQRT(16) = 4.",
+        "as": "SQRT য়ে এটা অ-ঋণাত্মক সংখ্যাৰ বৰ্গমূল ঘূৰাই দিয়ে, যেনে SQRT(16) = 4।"
       }
     },
     {
@@ -2566,6 +2914,10 @@
       "a": {
         "en": "ABS returns the absolute value, e.g., ABS(-5) = 5.",
         "as": "ABS য়ে পৰম মান দিয়ে, যেনে ABS(-5) = 5।"
+      },
+      "explanation": {
+        "en": "ABS returns the absolute (positive) value of a number, removing its sign, for example ABS(-5) = 5.",
+        "as": "ABS য়ে এটা সংখ্যাৰ নিখুঁত (ধনাত্মক) মান ঘূৰাই দিয়ে, চিন আঁতৰাই, যেনে ABS(-5) = 5।"
       }
     },
     {
@@ -2595,6 +2947,10 @@
       "a": {
         "en": "SUMIF adds only the cells that meet a given condition.",
         "as": "SUMIF য়ে কেৱল দিয়া চৰ্ত পূৰণ কৰা cell যোগ কৰে।"
+      },
+      "explanation": {
+        "en": "SUMIF adds only those cells in a range that meet a given condition, for example =SUMIF(A1:A10,\">50\").",
+        "as": "SUMIF য়ে range ৰ কেৱল নিৰ্দিষ্ট চৰ্ত পূৰণ কৰা cell যোগ কৰে, যেনে =SUMIF(A1:A10,\">50\")।"
       }
     },
     {
@@ -2624,6 +2980,10 @@
       "a": {
         "en": "COUNTIF counts cells that satisfy a given condition.",
         "as": "COUNTIF য়ে দিয়া চৰ্ত পূৰণ কৰা cell গণনা কৰে।"
+      },
+      "explanation": {
+        "en": "COUNTIF counts the number of cells in a range that satisfy a given condition, for example =COUNTIF(A1:A10,\">50\").",
+        "as": "COUNTIF য়ে range ৰ নিৰ্দিষ্ট চৰ্ত পূৰণ কৰা cell ৰ সংখ্যা গণে, যেনে =COUNTIF(A1:A10,\">50\")।"
       }
     },
     {
@@ -2653,6 +3013,10 @@
       "a": {
         "en": "LOWER converts text to lowercase; UPPER to uppercase.",
         "as": "LOWER য়ে text সৰু আখৰলৈ; UPPER য়ে ডাঙৰ আখৰলৈ কৰে।"
+      },
+      "explanation": {
+        "en": "LOWER converts all letters in a text string to lowercase, while UPPER converts them to uppercase.",
+        "as": "LOWER য়ে text string ৰ সকলো আখৰ lowercase লৈ ৰূপান্তৰ কৰে, আনহাতে UPPER য়ে uppercase লৈ।"
       }
     },
     {
@@ -2682,6 +3046,10 @@
       "a": {
         "en": "New worksheets are named Sheet1, Sheet2 and so on.",
         "as": "নতুন worksheet Sheet1, Sheet2 ইত্যাদি নামে থাকে।"
+      },
+      "explanation": {
+        "en": "When a new workbook is created, Excel names its worksheets Sheet1, Sheet2, Sheet3 and so on by default.",
+        "as": "নতুন workbook সৃষ্টি কৰিলে Excel য়ে ইয়াৰ worksheet বোৰক ডিফল্টভাৱে Sheet1, Sheet2, Sheet3 আদি নাম দিয়ে।"
       }
     },
     {
@@ -2711,6 +3079,10 @@
       "a": {
         "en": "Alt + Shift + D inserts the current date in MS Word.",
         "as": "Alt + Shift + D য়ে MS Word ত বৰ্তমান তাৰিখ সন্নিবেশ কৰে।"
+      },
+      "explanation": {
+        "en": "Alt + Shift + D inserts the current date as a field, which updates automatically.",
+        "as": "Alt + Shift + D য়ে বৰ্তমান তাৰিখ field হিচাপে সুমুৱায়, যি স্বয়ংক্ৰিয়ভাৱে আপডেট হয়।"
       }
     },
     {
@@ -2740,6 +3112,10 @@
       "a": {
         "en": "Alt + Shift + T inserts the current time in MS Word.",
         "as": "Alt + Shift + T য়ে MS Word ত বৰ্তমান সময় সন্নিবেশ কৰে।"
+      },
+      "explanation": {
+        "en": "Alt + Shift + T inserts the current time as a field in the document.",
+        "as": "Alt + Shift + T য়ে বৰ্তমান সময় দলিলত field হিচাপে সুমুৱায়।"
       }
     },
     {
@@ -2769,6 +3145,10 @@
       "a": {
         "en": "The ruler helps set margins, indents and tab stops.",
         "as": "ruler য়ে margin, indent আৰু tab stop ঠিক কৰাত সহায় কৰে।"
+      },
+      "explanation": {
+        "en": "The horizontal ruler at the top of the page is used to set margins, paragraph indents and tab stops by dragging its markers.",
+        "as": "পৃষ্ঠাৰ ওপৰত থকা অনুভূমিক ruler য়ে ইয়াৰ marker টানি margin, অনুচ্ছেদৰ indent আৰু tab stop নিৰ্ধাৰণ কৰে।"
       }
     },
     {
@@ -2798,6 +3178,10 @@
       "a": {
         "en": "Filter shows only the rows that meet the selected criteria.",
         "as": "Filter য়ে কেৱল নিৰ্দিষ্ট চৰ্ত পূৰণ হোৱা row দেখুৱায়।"
+      },
+      "explanation": {
+        "en": "The Filter feature temporarily hides rows that do not meet the given criteria, showing only the matching data.",
+        "as": "Filter বৈশিষ্ট্যই নিৰ্দিষ্ট চৰ্ত পূৰণ নকৰা row অস্থায়ীভাৱে লুকুৱাই কেৱল মিলা তথ্য দেখুৱায়।"
       }
     },
     {
@@ -2827,6 +3211,10 @@
       "a": {
         "en": "Sort arranges data in ascending or descending order.",
         "as": "Sort য়ে data ঊর্ধ্ব বা অধঃক্রমত সজায়।"
+      },
+      "explanation": {
+        "en": "Sort arranges the rows of data in ascending or descending order based on one or more columns.",
+        "as": "Sort য়ে এটা বা অধিক column ৰ ভিত্তিত তথ্যৰ row বোৰক বৰ্ধমান বা হ্ৰাসমান ক্ৰমত সজায়।"
       }
     },
     {
@@ -2856,6 +3244,10 @@
       "a": {
         "en": "A pie chart shows parts of a whole as slices.",
         "as": "pie chart য়ে সম্পূৰ্ণৰ ভাগ slice হিচাপে দেখুৱায়।"
+      },
+      "explanation": {
+        "en": "A pie chart shows the parts of a whole as slices of a circle, so it is best for showing proportions or percentages.",
+        "as": "Pie chart য়ে এটা বৃত্তৰ টুকুৰা হিচাপে সমগ্ৰৰ অংশ দেখুৱায়, সেয়ে অনুপাত বা শতকৰা হাৰ দেখুৱাবলৈ আটাইতকৈ উপযুক্ত।"
       }
     },
     {
@@ -2885,6 +3277,10 @@
       "a": {
         "en": "Alt + F1 inserts a chart on the current sheet; F11 inserts it on a new sheet.",
         "as": "Alt + F1 য়ে বৰ্তমান sheet ত; F11 য়ে নতুন sheet ত chart সন্নিবেশ কৰে।"
+      },
+      "explanation": {
+        "en": "Alt + F1 inserts a chart on the current worksheet using the selected data, while F11 creates the chart on a separate chart sheet.",
+        "as": "Alt + F1 য়ে বাছনি কৰা data ব্যৱহাৰ কৰি বৰ্তমান worksheet ত chart সুমুৱায়, আনহাতে F11 য়ে পৃথক chart sheet ত chart বনায়।"
       }
     }
   ]

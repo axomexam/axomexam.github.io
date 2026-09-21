@@ -43,6 +43,10 @@
       "a": {
         "en": "A database is an organized collection of related data.",
         "as": "database হৈছে সম্পর্কিত তথ্যৰ সুসংগঠিত সংগ্ৰহ।"
+      },
+      "explanation": {
+        "en": "A database is an organised collection of related data stored so that it can be easily accessed, managed and updated. A spreadsheet, document or presentation does not provide this kind of structured, queryable storage.",
+        "as": "database হৈছে সম্পর্কিত তথ্যৰ সুসংগঠিত সংগ্ৰহ, যিটো সহজে সংৰক্ষণ, ব্যৱস্থাপনা আৰু আপডেট কৰিব পৰা যায়। spreadsheet, document বা presentation-এ এনে সুসংগঠিত তথ্যভাণ্ডাৰ নিদিয়ে।"
       }
     },
     {
@@ -72,6 +76,10 @@
       "a": {
         "en": "DBMS (Database Management System) manages databases.",
         "as": "DBMS (Database Management System) য়ে database ব্যৱস্থাপনা কৰে।"
+      },
+      "explanation": {
+        "en": "A DBMS (Database Management System) is software that stores, retrieves and manages data in a database, for example MySQL or Oracle. An operating system, word processor or browser does not manage databases.",
+        "as": "DBMS (Database Management System) হৈছে এনে ছফ্টৱেৰ যিয়ে database ৰ তথ্য সংৰক্ষণ, উদ্ধাৰ আৰু ব্যৱস্থাপনা কৰে, যেনে MySQL বা Oracle। Operating system, word processor বা browser-এ database ব্যৱস্থাপনা নকৰে।"
       }
     },
     {
@@ -101,6 +109,10 @@
       "a": {
         "en": "DBMS stands for Database Management System.",
         "as": "DBMS ৰ অৰ্থ Database Management System।"
+      },
+      "explanation": {
+        "en": "DBMS stands for Database Management System. It is the software layer that sits between the user and the actual database.",
+        "as": "DBMS ৰ অৰ্থ Database Management System। এইটো ব্যৱহাৰকাৰী আৰু প্ৰকৃত database ৰ মাজত থকা ছফ্টৱেৰ স্তৰ।"
       }
     },
     {
@@ -130,6 +142,10 @@
       "a": {
         "en": "RDBMS stands for Relational Database Management System.",
         "as": "RDBMS ৰ অৰ্থ Relational Database Management System।"
+      },
+      "explanation": {
+        "en": "RDBMS stands for Relational Database Management System. It stores data in tables (relations) and links the tables using keys such as primary and foreign keys.",
+        "as": "RDBMS ৰ অৰ্থ Relational Database Management System। ই তথ্য table (relation) হিচাপে সংৰক্ষণ কৰে আৰু primary key, foreign key আদি ব্যৱহাৰ কৰি table-বোৰ সংযোগ কৰে।"
       }
     },
     {
@@ -159,6 +175,10 @@
       "a": {
         "en": "MySQL is a popular relational DBMS.",
         "as": "MySQL হৈছে জনপ্ৰিয় relational DBMS।"
+      },
+      "explanation": {
+        "en": "MySQL is a free, open-source relational DBMS widely used with web applications. MS Paint, VLC Player and Notepad are not database systems.",
+        "as": "MySQL হৈছে বিনামূলীয়া, open-source relational DBMS, ৱেব এপ্লিকেশ্যনত বহুলভাৱে ব্যৱহৃত। MS Paint, VLC Player আৰু Notepad database system নহয়।"
       }
     },
     {
@@ -188,6 +208,10 @@
       "a": {
         "en": "Oracle is a widely used relational database management system.",
         "as": "Oracle বহুল ব্যৱহৃত relational database management system।"
+      },
+      "explanation": {
+        "en": "Oracle is a powerful commercial RDBMS used by large enterprises. MS Word, Google Chrome and WinRAR are not database management systems.",
+        "as": "Oracle হৈছে ডাঙৰ প্ৰতিষ্ঠানত ব্যৱহৃত শক্তিশালী commercial RDBMS। MS Word, Google Chrome আৰু WinRAR database management system নহয়।"
       }
     },
     {
@@ -217,6 +241,10 @@
       "a": {
         "en": "Rows of a table are called records or tuples; each is one complete entry.",
         "as": "table ৰ row বোৰক record বা tuple বোলে; প্ৰতিটো এটা সম্পূৰ্ণ প্ৰৱেশ।"
+      },
+      "explanation": {
+        "en": "Each horizontal row of a table is one complete record, also called a tuple. Columns, on the other hand, are fields or attributes.",
+        "as": "table ৰ প্ৰতিটো অনুভূমিক row এটা সম্পূৰ্ণ record, যাক tuple বুলিও কোৱা হয়। আনহাতে column হৈছে field বা attribute।"
       }
     },
     {
@@ -246,6 +274,10 @@
       "a": {
         "en": "Columns are fields/attributes that store a single type of data.",
         "as": "column বোৰক field/attribute বোলে, এটাত এটা ধৰণৰ তথ্য থাকে।"
+      },
+      "explanation": {
+        "en": "A column stores one particular type of information for every record, so it is called a field or attribute. Rows are records or tuples.",
+        "as": "এটা column-ত সকলো record ৰ বাবে এটা নিৰ্দিষ্ট ধৰণৰ তথ্য থাকে, সেয়ে একে field বা attribute বোলে। row হৈছে record বা tuple।"
       }
     },
     {
@@ -275,6 +307,10 @@
       "a": {
         "en": "The primary key uniquely identifies every record, e.g., student roll number.",
         "as": "primary key য়ে প্ৰতিটো record চিনাক্ত কৰে, যেনে ছাত্রৰ ভর্তি নম্বৰ।"
+      },
+      "explanation": {
+        "en": "A primary key is a column whose value is unique for every row, such as a roll number. It uniquely identifies each record and cannot be NULL or duplicated.",
+        "as": "primary key হৈছে এনে column যাৰ মান প্ৰতিটো row ৰ বাবে অদ্বিতীয়, যেনে ভর্তি নম্বৰ। ই প্ৰতিটো record অদ্বিতীয়ভাৱে চিনাক্ত কৰে আৰু NULL বা পুনৰাবৃত্তি হ'ব নোৱাৰে।"
       }
     },
     {
@@ -304,6 +340,10 @@
       "a": {
         "en": "A foreign key links two tables by referencing another table's primary key.",
         "as": "foreign key য়ে আন table ৰ primary key উল্লেখ কৰি দুটা table সংযোগ কৰে।"
+      },
+      "explanation": {
+        "en": "A foreign key is a column in one table that stores the primary key value of another table, creating a link between the two tables.",
+        "as": "foreign key হৈছে এটা table ৰ column যিয়ে আন এটা table ৰ primary key মান সংৰক্ষণ কৰে, ফলত দুটা table ৰ মাজত সংযোগ সৃষ্টি হয়।"
       }
     },
     {
@@ -333,6 +373,10 @@
       "a": {
         "en": "SQL (Structured Query Language) is used to query and manage databases.",
         "as": "SQL (Structured Query Language) database query আৰু ব্যৱস্থাপনাৰ বাবে ব্যৱহাৰ হয়।"
+      },
+      "explanation": {
+        "en": "SQL (Structured Query Language) is the standard language for creating, querying and managing relational databases. HTML and XML mark up content, while COBOL is a programming language.",
+        "as": "SQL (Structured Query Language) হৈছে relational database সৃষ্টি, query আৰু ব্যৱস্থাপনাৰ মানক ভাষা। HTML আৰু XML য়ে content mark up কৰে, আনহাতে COBOL এটা programming ভাষা।"
       }
     },
     {
@@ -362,6 +406,10 @@
       "a": {
         "en": "SQL stands for Structured Query Language.",
         "as": "SQL ৰ অৰ্থ Structured Query Language।"
+      },
+      "explanation": {
+        "en": "SQL stands for Structured Query Language. It is used to communicate with relational databases.",
+        "as": "SQL ৰ অৰ্থ Structured Query Language। relational database ৰ সৈতে যোগাযোগ কৰিবলৈ ইয়াক ব্যৱহাৰ কৰা হয়।"
       }
     },
     {
@@ -391,6 +439,10 @@
       "a": {
         "en": "SELECT retrieves (queries) data from a database table.",
         "as": "SELECT য়ে database table ৰ পৰা তথ্য উদ্ধাৰ (query) কৰে।"
+      },
+      "explanation": {
+        "en": "SELECT is a DQL command that retrieves (queries) rows from one or more tables, for example SELECT * FROM students.",
+        "as": "SELECT এটা DQL command যিয়ে এটা বা একাধিক table ৰ পৰা row উদ্ধাৰ (query) কৰে, যেনে SELECT * FROM students।"
       }
     },
     {
@@ -420,6 +472,10 @@
       "a": {
         "en": "INSERT adds new rows (records) into a table.",
         "as": "INSERT য়ে table ত নতুন row (record) যোগ কৰে।"
+      },
+      "explanation": {
+        "en": "INSERT is used to add new rows (records) to a table, for example INSERT INTO students VALUES (...).",
+        "as": "INSERT য়ে table-ত নতুন row (record) যোগ কৰে, যেনে INSERT INTO students VALUES (...)।"
       }
     },
     {
@@ -449,6 +505,10 @@
       "a": {
         "en": "UPDATE modifies existing data in a table.",
         "as": "UPDATE য়ে table ৰ বৰ্তমান তথ্য সলনি কৰে।"
+      },
+      "explanation": {
+        "en": "UPDATE modifies existing rows in a table. It is usually written with a WHERE clause so that only the intended records are changed.",
+        "as": "UPDATE য়ে table ৰ বৰ্তমান row সলনি কৰে। সাধাৰণতে WHERE clause সৈতে লিখা হয়, যাতে কেৱল নিৰ্দিষ্ট record সলনি হয়।"
       }
     },
     {
@@ -478,6 +538,10 @@
       "a": {
         "en": "DELETE removes rows from a table.",
         "as": "DELETE য়ে table ৰ পৰা row আঁতৰায়।"
+      },
+      "explanation": {
+        "en": "DELETE removes rows from a table. With a WHERE clause only the selected rows are removed; without it all rows are deleted.",
+        "as": "DELETE য়ে table ৰ পৰা row আঁতৰায়। WHERE clause থাকিলে কেৱল বাছনি কৰা row আঁতৰে; নাথাকিলে সকলো row আঁতৰে।"
       }
     },
     {
@@ -507,6 +571,10 @@
       "a": {
         "en": "In relational terms a row is a tuple and a column is an attribute.",
         "as": "relational পৰিভাষাত row ক tuple আৰু column ক attribute বোলে।"
+      },
+      "explanation": {
+        "en": "In relational database theory a row is called a tuple and a column is called an attribute. The whole table is called a relation.",
+        "as": "relational database তত্ত্বত row ক tuple আৰু column ক attribute বোলে। গোটেই table ক relation বোলে।"
       }
     },
     {
@@ -536,6 +604,10 @@
       "a": {
         "en": "The domain defines the valid set of values for an attribute/field.",
         "as": "domain য়ে field ৰ বৈধ মানসমূহ নিৰ্ধাৰণ কৰে।"
+      },
+      "explanation": {
+        "en": "The domain of a field is the set of all valid values that the field is allowed to store, for example a month field accepts only values 1 to 12.",
+        "as": "field ৰ domain হৈছে সেই field-ত সংৰক্ষণ কৰিব পৰা সকলো বৈধ মানৰ সংহতি, যেনে month field-ত কেৱল ১ ৰ পৰা ১২ লৈ মানহে চলিব।"
       }
     },
     {
@@ -565,6 +637,10 @@
       "a": {
         "en": "MS Paint is a drawing tool; the others are DBMS.",
         "as": "MS Paint চিত্ৰাংকন সা-সঁজুলি; আনবোৰ DBMS।"
+      },
+      "explanation": {
+        "en": "MS Paint is an image and drawing tool. Oracle, SQL Server and PostgreSQL are all relational database management systems.",
+        "as": "MS Paint এটা ছবি আৰু চিত্ৰাংকন সঁজুলি। Oracle, SQL Server আৰু PostgreSQL সবো relational database management system।"
       }
     },
     {
@@ -594,6 +670,10 @@
       "a": {
         "en": "Computers internally use the binary (base-2) number system with 0 and 1.",
         "as": "কম্পিউটাৰে ভিতৰত 0 আৰু 1 থকা binary (base-2) সংখ্যা পদ্ধতি ব্যৱহাৰ কৰে।"
+      },
+      "explanation": {
+        "en": "Computers use the binary system internally because digital circuits have two stable states, ON (1) and OFF (0).",
+        "as": "কম্পিউটাৰে ভিতৰত binary পদ্ধতি ব্যৱহাৰ কৰে কাৰণ ডিজিটেল circuit-ত দুটা স্থিৰ অৱস্থা থাকে, ON (১) আৰু OFF (০)।"
       }
     },
     {
@@ -623,6 +703,10 @@
       "a": {
         "en": "Binary uses base 2, with digits 0 and 1.",
         "as": "binary ত base 2, অংক 0 আৰু 1।"
+      },
+      "explanation": {
+        "en": "The binary system has base 2; only two digits (0 and 1) are used, so each place value is a power of 2.",
+        "as": "binary পদ্ধতিৰ base ২; কেৱল দুটা অংক (০ আৰু ১) ব্যৱহাৰ হয়, সেয়ে প্ৰতিটো স্থান-মান ২ ৰ ঘাত।"
       }
     },
     {
@@ -652,6 +736,10 @@
       "a": {
         "en": "Decimal uses base 10, with digits 0 to 9.",
         "as": "দশমিক ত base 10, অংক 0 ৰ পৰা 9।"
+      },
+      "explanation": {
+        "en": "The decimal system has base 10 and uses ten digits from 0 to 9, which is why each place represents a power of 10.",
+        "as": "দশমিক পদ্ধতিৰ base ১০ আৰু ই ০ ৰ পৰা ৯ লৈ দহটা অংক ব্যৱহাৰ কৰে, সেয়ে প্ৰতিটো স্থান ১০ ৰ ঘাত বুজায়।"
       }
     },
     {
@@ -681,6 +769,10 @@
       "a": {
         "en": "Octal uses base 8 with digits 0 to 7.",
         "as": "অক্টাল ত base 8, অংক 0 ৰ পৰা 7।"
+      },
+      "explanation": {
+        "en": "Octal has base 8 and uses only the digits 0 to 7.",
+        "as": "octal ৰ base ৮ আৰু ই কেৱল ০ ৰ পৰা ৭ লৈ অংক ব্যৱহাৰ কৰে।"
       }
     },
     {
@@ -710,6 +802,10 @@
       "a": {
         "en": "Hexadecimal uses base 16 with digits 0-9 and letters A-F.",
         "as": "hexadecimal ত base 16, অংক 0-9 আৰু আখৰ A-F।"
+      },
+      "explanation": {
+        "en": "Hexadecimal has base 16 and uses digits 0-9 along with the letters A-F to represent values 10 to 15.",
+        "as": "hexadecimal ৰ base ১৬ আৰু ই ০-৯ অংকৰ লগতে A-F আখৰ ব্যৱহাৰ কৰি ১০ ৰ পৰা ১৫ লৈ মান সূচায়।"
       }
     },
     {
@@ -739,6 +835,10 @@
       "a": {
         "en": "1010 = 1×8 + 0×4 + 1×2 + 0×1 = 8+2 = 10.",
         "as": "1010 = 1×8 + 0×4 + 1×2 + 0×1 = 8+2 = 10।"
+      },
+      "explanation": {
+        "en": "Multiply each bit by its place value: 1010 = 1x8 + 0x4 + 1x2 + 0x1 = 8 + 2 = 10.",
+        "as": "প্ৰতিটো bit-ক স্থান-মানৰে পূৰণ কৰক: 1010 = ১x৮ + ০x৪ + ১x২ + ০x১ = ৮ + ২ = ১০।"
       }
     },
     {
@@ -768,6 +868,10 @@
       "a": {
         "en": "1111 = 8+4+2+1 = 15.",
         "as": "1111 = 8+4+2+1 = 15।"
+      },
+      "explanation": {
+        "en": "1111 = 8 + 4 + 2 + 1 = 15, which is the largest number that can be written with four bits.",
+        "as": "1111 = ৮ + ৪ + ২ + ১ = ১৫, যি চাৰিটা bit ৰে লিখিব পৰা সৰ্বাধিক সংখ্যা।"
       }
     },
     {
@@ -797,6 +901,10 @@
       "a": {
         "en": "1001 = 8 + 1 = 9.",
         "as": "1001 = 8 + 1 = 9।"
+      },
+      "explanation": {
+        "en": "1001 = 1x8 + 0x4 + 0x2 + 1x1 = 8 + 1 = 9.",
+        "as": "1001 = ১x৮ + ০x৪ + ০x২ + ১x১ = ৮ + ১ = ৯।"
       }
     },
     {
@@ -826,6 +934,10 @@
       "a": {
         "en": "5 = 4+1, written as 101 in binary.",
         "as": "5 = 4+1, binary ত 101।"
+      },
+      "explanation": {
+        "en": "Divide 5 repeatedly by 2: 5 = 4 + 1, so the binary form is 101.",
+        "as": "৫ ক বাৰে বাৰে ২ ৰে ভাগ কৰক: ৫ = ৪ + ১, গতিকে binary ৰূপ ১০১।"
       }
     },
     {
@@ -855,6 +967,10 @@
       "a": {
         "en": "10 = 8+2, written as 1010 in binary.",
         "as": "10 = 8+2, binary ত 1010।"
+      },
+      "explanation": {
+        "en": "10 = 8 + 2 = 2 to the power 3 plus 2 to the power 1, so it is written as 1010 in binary.",
+        "as": "১০ = ৮ + ২ = ২ৰ ঘাত ৩ যোগ ২ৰ ঘাত ১, গতিকে binary-ত ১০১০ লিখা হয়।"
       }
     },
     {
@@ -884,6 +1000,10 @@
       "a": {
         "en": "In hexadecimal, A=10, B=11, C=12, D=13, E=14, F=15.",
         "as": "hexadecimal ত A=10, B=11, C=12, D=13, E=14, F=15।"
+      },
+      "explanation": {
+        "en": "Hexadecimal digits continue after 9 using letters: A = 10, B = 11, C = 12, D = 13, E = 14 and F = 15.",
+        "as": "hexadecimal অংক ৯ ৰ পিছত আখৰেৰে আগবাঢ়ে: A = ১০, B = ১১, C = ১২, D = ১৩, E = ১৪ আৰু F = ১৫।"
       }
     },
     {
@@ -913,6 +1033,10 @@
       "a": {
         "en": "F is the largest hex digit with a value of 15.",
         "as": "F সবাতোকৈ ডাঙৰ hex অংক, মান 15।"
+      },
+      "explanation": {
+        "en": "F is the highest hexadecimal digit and represents the decimal value 15.",
+        "as": "F হৈছে সৰ্বোচ্চ hexadecimal অংক আৰু ই দশমিক মান ১৫ সূচায়।"
       }
     },
     {
@@ -942,6 +1066,10 @@
       "a": {
         "en": "1100 = 8+4 = 12.",
         "as": "1100 = 8+4 = 12।"
+      },
+      "explanation": {
+        "en": "1100 = 1x8 + 1x4 = 8 + 4 = 12.",
+        "as": "1100 = ১x৮ + ১x৪ = ৮ + ৪ = ১২।"
       }
     },
     {
@@ -971,6 +1099,10 @@
       "a": {
         "en": "A nibble is 4 bits; a byte is 8 bits.",
         "as": "nibble 4 bit; byte 8 bit।"
+      },
+      "explanation": {
+        "en": "A nibble is a group of 4 bits, that is half of a byte. One hexadecimal digit also equals one nibble.",
+        "as": "nibble হৈছে ৪ bit ৰ গোট, অৰ্থাৎ এটা byte ৰ আধা। এটা hexadecimal অংকও এটা nibble ৰ সমান।"
       }
     },
     {
@@ -1000,6 +1132,10 @@
       "a": {
         "en": "1 byte = 8 bits.",
         "as": "1 byte = 8 bit।"
+      },
+      "explanation": {
+        "en": "One byte consists of 8 bits and can represent 256 different values (2 to the power 8).",
+        "as": "এটা byte-ত ৮ bit থাকে আৰু ই ২৫৬ টা ভিন্ন মান (২ৰ ঘাত ৮) সূচাব পাৰে।"
       }
     },
     {
@@ -1029,6 +1165,10 @@
       "a": {
         "en": "One hex digit represents 4 bits (since 16 = 2^4).",
         "as": "এটা hex অংকে 4 bit বুজায় (16 = 2^4)।"
+      },
+      "explanation": {
+        "en": "Since 16 = 2 to the power 4, a single hexadecimal digit maps exactly to 4 binary bits.",
+        "as": "১৬ = ২ৰ ঘাত ৪ হোৱাৰ বাবে এটা hexadecimal অংক ঠিক ৪ টা binary bit ৰ সমান।"
       }
     },
     {
@@ -1058,6 +1198,10 @@
       "a": {
         "en": "111 (binary) = 4+2+1 = 7 in octal.",
         "as": "111 (binary) = 4+2+1 = octal ত 7।"
+      },
+      "explanation": {
+        "en": "Binary 111 = 4 + 2 + 1 = 7, which is the same digit 7 in octal because 7 is less than the base 8.",
+        "as": "binary ১১১ = ৪ + ২ + ১ = ৭, যি octal-ত ৭ অংক হিচাপে একেই, কাৰণ ৭ base ৮ তকৈ সৰু।"
       }
     },
     {
@@ -1087,6 +1231,10 @@
       "a": {
         "en": "Octal uses only digits 0 to 7.",
         "as": "octal ত কেৱল 0 ৰ পৰা 7 অংক ব্যৱহাৰ হয়।"
+      },
+      "explanation": {
+        "en": "The octal system has base 8, so it uses only the digits 0, 1, 2, 3, 4, 5, 6 and 7.",
+        "as": "octal পদ্ধতিৰ base ৮, সেয়ে ই কেৱল ০, ১, ২, ৩, ৪, ৫, ৬ আৰু ৭ অংক ব্যৱহাৰ কৰে।"
       }
     },
     {
@@ -1116,6 +1264,10 @@
       "a": {
         "en": "2 is written as 10 in binary.",
         "as": "2 binary ত 10 হিচাপে লিখা হয়।"
+      },
+      "explanation": {
+        "en": "2 = 2 to the power 1, so in binary it is written as 10 (one two and zero ones).",
+        "as": "২ = ২ৰ ঘাত ১, গতিকে binary-ত ই ১০ হিচাপে লিখা হয় (এটা দুই আৰু শূন্য এক)।"
       }
     },
     {
@@ -1145,6 +1297,10 @@
       "a": {
         "en": "0111 = 4+2+1 = 7.",
         "as": "0111 = 4+2+1 = 7।"
+      },
+      "explanation": {
+        "en": "0111 = 4 + 2 + 1 = 7. The leading zero does not change the value.",
+        "as": "0111 = ৪ + ২ + ১ = ৭। আগত থকা শূন্য য়ে মান সলনি নকৰে।"
       }
     },
     {
@@ -1174,6 +1330,10 @@
       "a": {
         "en": "Binary uses only 0 and 1, so 1021 is invalid.",
         "as": "binary ত কেৱল 0 আৰু 1, গতিকে 1021 অবৈধ।"
+      },
+      "explanation": {
+        "en": "A binary number may contain only the digits 0 and 1, so 1021 is not a valid binary number.",
+        "as": "binary সংখ্যাত কেৱল ০ আৰু ১ অংক থাকিব পাৰে, গতিকে 1021 বৈধ binary সংখ্যা নহয়।"
       }
     },
     {
@@ -1203,6 +1363,10 @@
       "a": {
         "en": "1 KB = 1024 bytes (2^10).",
         "as": "1 KB = 1024 byte (2^10)।"
+      },
+      "explanation": {
+        "en": "In computing 1 KB = 2 to the power 10 = 1024 bytes. Storage manufacturers sometimes use 1000, but the exam answer is 1024.",
+        "as": "কম্পিউটাৰত ১ KB = ২ৰ ঘাত ১০ = ১০২৪ byte। নিৰ্মাতাই কেতিয়াবা ১০০০ ব্যৱহাৰ কৰে, কিন্তু পৰীক্ষাৰ উত্তৰ ১০২৪।"
       }
     },
     {
@@ -1232,6 +1396,10 @@
       "a": {
         "en": "1 MB = 1024 KB.",
         "as": "1 MB = 1024 KB।"
+      },
+      "explanation": {
+        "en": "1 MB = 1024 KB, 1 GB = 1024 MB and 1 TB = 1024 GB; each step is a factor of 1024.",
+        "as": "১ MB = ১০২৪ KB, ১ GB = ১০২৪ MB আৰু ১ TB = ১০২৪ GB; প্ৰতিটো স্তৰ ১০২৪ গুণ।"
       }
     },
     {
@@ -1261,6 +1429,10 @@
       "a": {
         "en": "8 = 2^3, so it is 1000 in binary.",
         "as": "8 = 2^3, গতিকে binary ত 1000।"
+      },
+      "explanation": {
+        "en": "8 = 2 to the power 3, so it needs a 1 in the place of 8 followed by three zeros, giving 1000.",
+        "as": "৮ = ২ৰ ঘাত ৩, সেয়ে ৮ ৰ স্থানত ১ আৰু পিছত তিনি শূন্য, ফলত ১০০০।"
       }
     },
     {
@@ -1290,6 +1462,10 @@
       "a": {
         "en": "Alt + F4 closes the active window or program.",
         "as": "Alt + F4 য়ে active window বা program বন্ধ কৰে।"
+      },
+      "explanation": {
+        "en": "Alt + F4 sends a close command to the active window or application.",
+        "as": "Alt + F4 য়ে সক্ৰিয় window বা application লৈ বন্ধ কৰাৰ আদেশ পঠিয়ায়।"
       }
     },
     {
@@ -1319,6 +1495,10 @@
       "a": {
         "en": "Alt + Tab switches between open applications.",
         "as": "Alt + Tab য়ে খোলা application ৰ মাজত সলনি কৰে।"
+      },
+      "explanation": {
+        "en": "Alt + Tab shows a task switcher and moves between the open applications or windows.",
+        "as": "Alt + Tab য়ে task switcher দেখুৱাই খোলা application বা window-বোৰৰ মাজত সলনি কৰে।"
       }
     },
     {
@@ -1348,6 +1528,10 @@
       "a": {
         "en": "Pressing the Windows key opens the Start menu.",
         "as": "Windows key চাপিলে Start menu খোলে।"
+      },
+      "explanation": {
+        "en": "The Windows logo key opens the Start menu; on older keyboards Ctrl + Esc does the same.",
+        "as": "Windows logo key য়ে Start menu খোলে; পুৰণি keyboard-ত Ctrl + Esc য়েও একেই কাম কৰে।"
       }
     },
     {
@@ -1377,6 +1561,10 @@
       "a": {
         "en": "Ctrl + C copies the selected item.",
         "as": "Ctrl + C য়ে বাছনি বস্তু কপি কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + C copies the selected item to the clipboard while keeping the original in place.",
+        "as": "Ctrl + C য়ে বাছনি কৰা বস্তু মূল ঠাইতে ৰাখি clipboard-লৈ কপি কৰে।"
       }
     },
     {
@@ -1406,6 +1594,10 @@
       "a": {
         "en": "Ctrl + V pastes the copied/cut content.",
         "as": "Ctrl + V য়ে কপি/কটা content paste কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + V inserts (pastes) the clipboard content at the current cursor position.",
+        "as": "Ctrl + V য়ে cursor ৰ বৰ্তমান স্থানত clipboard ৰ content প্ৰতিষ্ঠাপন (paste) কৰে।"
       }
     },
     {
@@ -1435,6 +1627,10 @@
       "a": {
         "en": "Ctrl + X cuts (removes) the selected item to the clipboard.",
         "as": "Ctrl + X য়ে বাছনি বস্তু কাটি clipboard লৈ আনে।"
+      },
+      "explanation": {
+        "en": "Ctrl + X removes the selected item and places it on the clipboard so that it can be pasted elsewhere.",
+        "as": "Ctrl + X য়ে বাছনি কৰা বস্তু আঁতৰাই clipboard-ত ৰাখে, যাতে আন ঠাইত paste কৰিব পাৰি।"
       }
     },
     {
@@ -1464,6 +1660,10 @@
       "a": {
         "en": "Ctrl + A selects all items in a window or document.",
         "as": "Ctrl + A য়ে window বা দলিলৰ সকলো বাছনি কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + A selects all items or all the text in the current window or document.",
+        "as": "Ctrl + A য়ে বৰ্তমান window বা দলিলৰ সকলো বস্তু বা text বাছনি কৰে।"
       }
     },
     {
@@ -1493,6 +1693,10 @@
       "a": {
         "en": "Ctrl + Z undoes the last action.",
         "as": "Ctrl + Z য়ে শেষ কাৰ্য undo কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + Z reverses (undoes) the most recent action, such as a typing or formatting change.",
+        "as": "Ctrl + Z য়ে শেহতীয়া কাৰ্য (যেনে টাইপিং বা ফৰ্মেটিং পৰিবৰ্তন) ওলোটা কৰে।"
       }
     },
     {
@@ -1522,6 +1726,10 @@
       "a": {
         "en": "Ctrl + Y redoes the last undone action.",
         "as": "Ctrl + Y য়ে শেষ undo হোৱা কাৰ্য পুনৰায় কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + Y re-applies an action that was just undone with Ctrl + Z.",
+        "as": "Ctrl + Y য়ে Ctrl + Z ৰে ওলোটা কৰা কাৰ্য পুনৰায় প্ৰয়োগ কৰে।"
       }
     },
     {
@@ -1551,6 +1759,10 @@
       "a": {
         "en": "Ctrl + P opens the Print dialog.",
         "as": "Ctrl + P য়ে Print dialog খোলে।"
+      },
+      "explanation": {
+        "en": "Ctrl + P opens the Print dialog in most Windows applications.",
+        "as": "Ctrl + P য়ে বেছিভাগ Windows এপ্লিকেশ্যনত Print dialog খোলে।"
       }
     },
     {
@@ -1580,6 +1792,10 @@
       "a": {
         "en": "Ctrl + S saves the current file.",
         "as": "Ctrl + S য়ে বৰ্তমান ফাইল save কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + S saves the current document or file.",
+        "as": "Ctrl + S য়ে বৰ্তমান দলিল বা ফাইল save কৰে।"
       }
     },
     {
@@ -1609,6 +1825,10 @@
       "a": {
         "en": "Ctrl + O opens the Open dialog.",
         "as": "Ctrl + O য়ে Open dialog খোলে।"
+      },
+      "explanation": {
+        "en": "Ctrl + O opens the Open dialog so that a file can be chosen and loaded.",
+        "as": "Ctrl + O য়ে Open dialog খোলে, যাতে ফাইল বাছনি কৰি লোড কৰিব পাৰি।"
       }
     },
     {
@@ -1638,6 +1858,10 @@
       "a": {
         "en": "Ctrl + N creates a new file/document.",
         "as": "Ctrl + N য়ে নতুন ফাইল/দলিল সৃষ্টি কৰে।"
+      },
+      "explanation": {
+        "en": "Ctrl + N creates a new document, file or window depending on the program.",
+        "as": "Ctrl + N য়ে program অনুসৰি নতুন দলিল, ফাইল বা window সৃষ্টি কৰে।"
       }
     },
     {
@@ -1667,6 +1891,10 @@
       "a": {
         "en": "Ctrl + F opens find/search.",
         "as": "Ctrl + F য়ে find/search খোলে।"
+      },
+      "explanation": {
+        "en": "Ctrl + F opens the Find or Search box to locate text in a document or page.",
+        "as": "Ctrl + F য়ে Find বা Search বক্স খোলে, দলিল বা পৃষ্ঠাত text বিচাৰিবলৈ।"
       }
     },
     {
@@ -1696,6 +1924,10 @@
       "a": {
         "en": "Alt + F4 closes the current program.",
         "as": "Alt + F4 য়ে চলি থকা program বন্ধ কৰে।"
+      },
+      "explanation": {
+        "en": "Alt + F4 closes the active program completely, whereas Ctrl + F4 closes only a document window.",
+        "as": "Alt + F4 য়ে সক্ৰিয় program সম্পূৰ্ণে বন্ধ কৰে, আনহাতে Ctrl + F4 য়ে কেৱল দলিল window বন্ধ কৰে।"
       }
     },
     {
@@ -1725,6 +1957,10 @@
       "a": {
         "en": "Ctrl + Alt + Delete opens the Windows security options screen.",
         "as": "Ctrl + Alt + Delete য়ে Windows সুৰক্ষা বিকল্প স্ক্রিন খোলে।"
+      },
+      "explanation": {
+        "en": "Ctrl + Alt + Delete opens the Windows security screen, from where the computer can be locked or Task Manager opened.",
+        "as": "Ctrl + Alt + Delete য়ে Windows সুৰক্ষা স্ক্রিন খোলে, য'ৰ পৰা কম্পিউটাৰ lock কৰিব বা Task Manager খুলিব পাৰি।"
       }
     },
     {
@@ -1754,6 +1990,10 @@
       "a": {
         "en": "Esc cancels the current task or closes menus/dialogs.",
         "as": "Esc য়ে চলি থকা কাৰ্য বাতিল বা menu/dialog বন্ধ কৰে।"
+      },
+      "explanation": {
+        "en": "Esc (Escape) cancels the current operation or closes a menu or dialog box without saving.",
+        "as": "Esc (Escape) য়ে চলি থকা কাৰ্য বাতিল কৰে বা save নকৰাকৈ menu বা dialog box বন্ধ কৰে।"
       }
     },
     {
@@ -1783,6 +2023,10 @@
       "a": {
         "en": "Enter is also called the Return key.",
         "as": "Enter key ক Return key বুলিও কোৱা হয়।"
+      },
+      "explanation": {
+        "en": "The Enter key is also called the Return key; it confirms a command or starts a new line.",
+        "as": "Enter key ক Return key বুলিও কোৱা হয়; ই আদেশ নিশ্চিত কৰে বা নতুন শাৰী আৰম্ভ কৰে।"
       }
     },
     {
@@ -1812,6 +2056,10 @@
       "a": {
         "en": "Tab moves to the next field or inserts an indent.",
         "as": "Tab য়ে পৰৱৰ্তী field লৈ নিয়ে বা indent দিয়ে।"
+      },
+      "explanation": {
+        "en": "Tab moves the cursor to the next field or tab stop, and in a word processor it inserts an indent.",
+        "as": "Tab য়ে cursor ক পৰৱৰ্তী field বা tab stop লৈ নিয়ে, আৰু word processor-ত indent দিয়ে।"
       }
     },
     {
@@ -1841,6 +2089,10 @@
       "a": {
         "en": "Backspace deletes the character before (left of) the cursor.",
         "as": "Backspace য়ে cursor ৰ আগত (বাঁওফালে) থকা আখৰ মচে।"
+      },
+      "explanation": {
+        "en": "Backspace deletes the character immediately to the left of the cursor.",
+        "as": "Backspace য়ে cursor ৰ লগে লগে বাঁওফালে থকা আখৰ মচে।"
       }
     },
     {
@@ -1870,6 +2122,10 @@
       "a": {
         "en": "Delete (Del) removes the character after (right of) the cursor.",
         "as": "Delete (Del) য়ে cursor ৰ পিছত (সোঁফালে) থকা আখৰ মচে।"
+      },
+      "explanation": {
+        "en": "The Delete key removes the character to the right of the cursor, and in Windows it also deletes selected items.",
+        "as": "Delete key য়ে cursor ৰ সোঁফালে থকা আখৰ মচে, আৰু Windows-ত বাছনি কৰা বস্তুও মচে।"
       }
     },
     {
@@ -1899,6 +2155,10 @@
       "a": {
         "en": "Caps Lock makes all typed letters capital until turned off.",
         "as": "Caps Lock অফ নকৰালৈকে টাইপ হোৱা আখৰ কেপিটেল থাকে।"
+      },
+      "explanation": {
+        "en": "Caps Lock toggles typing between uppercase and lowercase; while it is on, every letter is typed in capitals.",
+        "as": "Caps Lock য়ে uppercase আৰু lowercase টাইপিং সলনি কৰে; অন থাকিলে প্ৰতিটো আখৰ কেপিটেল টাইপ হয়।"
       }
     },
     {
@@ -1928,6 +2188,10 @@
       "a": {
         "en": "Hold Shift while typing a letter to make it capital.",
         "as": "কেপিটেল আখৰৰ বাবে আখৰ লিখোতে Shift চাপি ধৰক।"
+      },
+      "explanation": {
+        "en": "Holding Shift and pressing a letter types its capital form for that single character only.",
+        "as": "Shift চাপি ধৰি আখৰ লিখিলে কেৱল সেই এটাই আখৰ কেপিটেল ৰূপত টাইপ হয়।"
       }
     },
     {
@@ -1957,6 +2221,10 @@
       "a": {
         "en": "Press PrtScn to copy the whole screen to the clipboard.",
         "as": "সম্পূৰ্ণ স্ক্রিন clipboard ত কপি কৰিবলৈ PrtScn চাপক।"
+      },
+      "explanation": {
+        "en": "Print Screen (PrtScn) copies an image of the whole screen to the clipboard; Alt + PrtScn copies only the active window.",
+        "as": "Print Screen (PrtScn) য়ে গোটেই স্ক্রিনৰ ছবি clipboard-লৈ কপি কৰে; Alt + PrtScn য়ে কেৱল সক্ৰিয় window কপি কৰে।"
       }
     },
     {
@@ -1986,6 +2254,10 @@
       "a": {
         "en": "Num Lock turns the numeric keypad numbers on or off.",
         "as": "Num Lock য়ে সংখ্যা keypad ৰ সংখ্যা অন/অফ কৰে।"
+      },
+      "explanation": {
+        "en": "Num Lock enables or disables the numeric keypad on the right side of the keyboard.",
+        "as": "Num Lock য়ে keyboard ৰ সোঁফালে থকা সংখ্যা keypad সক্ৰিয় বা নিষ্ক্ৰিয় কৰে।"
       }
     }
   ]
