@@ -26,7 +26,11 @@
           "as": "3"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "2 is the smallest prime number (1 is not a prime number).",
+        "as": "2 আটাইতকৈ সৰু মৌলিক সংখ্যা (1 মৌলিক সংখ্যা নহয়)।"
+      }
     },
     {
       "q": {
@@ -51,7 +55,11 @@
           "as": "24"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "36 = 2² × 3² and 84 = 2² × 3 × 7, so HCF = 2² × 3 = 12.",
+        "as": "36 = 2² × 3² আৰু 84 = 2² × 3 × 7, গতিকে HCF = 2² × 3 = 12।"
+      }
     },
     {
       "q": {
@@ -76,7 +84,11 @@
           "as": "96"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "12 = 2² × 3, 18 = 2 × 3², 24 = 2³ × 3, so LCM = 2³ × 3² = 72.",
+        "as": "12 = 2² × 3, 18 = 2 × 3², 24 = 2³ × 3, গতিকে LCM = 2³ × 3² = 72।"
+      }
     },
     {
       "q": {
@@ -101,7 +113,11 @@
           "as": "5/8"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "0.75 = 75/100 = 3/4 in lowest terms.",
+        "as": "0.75 = 75/100 = 3/4 (আটাইতকৈ সৰল ৰূপ)।"
+      }
     },
     {
       "q": {
@@ -126,7 +142,11 @@
           "as": "625"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "25² = 25 × 25 = 625.",
+        "as": "25² = 25 × 25 = 625।"
+      }
     },
     {
       "q": {
@@ -151,7 +171,11 @@
           "as": "9"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "7³ = 343, so the cube root of 343 is 7.",
+        "as": "7³ = 343, গতিকে 343 ৰ ঘনমূল 7।"
+      }
     },
     {
       "q": {
@@ -176,7 +200,11 @@
           "as": "∛3"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "2/5 is a rational number (a ratio of two integers), while √2, π and ∛3 are irrational.",
+        "as": "2/5 এটা পৰিমেয় সংখ্যা (দুটা অখণ্ড সংখ্যাৰ অনুপাত), কিন্তু √2, π আৰু ∛3 অপৰিমেয়।"
+      }
     },
     {
       "q": {
@@ -201,7 +229,11 @@
           "as": "7"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "In 57032, the digit 7 is in the thousands place, so its place value is 7000.",
+        "as": "57032 ত 7 অংকটো হাজাৰৰ স্থানত আছে, গতিকে ইয়াৰ স্থানীয় মান 7000।"
+      }
     },
     {
       "q": {
@@ -226,7 +258,11 @@
           "as": "19"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "By BODMAS, 15 + 3 × 4 = 15 + 12 = 27.",
+        "as": "BODMAS অনুসৰি 15 + 3 × 4 = 15 + 12 = 27।"
+      }
     },
     {
       "q": {
@@ -251,7 +287,11 @@
           "as": "100"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "2/5 of 250 = (2/5) × 250 = 100.",
+        "as": "250 ৰ 2/5 = (2/5) × 250 = 100।"
+      }
     },
     {
       "q": {
@@ -276,7 +316,11 @@
           "as": "80"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "LCM of 12, 15, 20 is 60; the required number = 60 + 5 = 65.",
+        "as": "12, 15, 20 ৰ LCM 60; প্ৰয়োজনীয় সংখ্যা = 60 + 5 = 65।"
+      }
     },
     {
       "q": {
@@ -301,7 +345,11 @@
           "as": "144"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "LCM = product of the numbers / HCF = 2160/12 = 180.",
+        "as": "LCM = সংখ্যাৰ গুণফল / HCF = 2160/12 = 180।"
+      }
     },
     {
       "q": {
@@ -326,7 +374,11 @@
           "as": "975"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "999 ÷ 13 leaves remainder 11; 999 − 11 = 988, which is divisible by 13.",
+        "as": "999 ÷ 13 ৰ ভাগশেষ 11; 999 − 11 = 988, যি 13 ৰে বিভাজ্য।"
+      }
     },
     {
       "q": {
@@ -351,7 +403,11 @@
           "as": "91"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "91 = 7 × 13, so it is not a prime number.",
+        "as": "91 = 7 × 13, গতিকে ই মৌলিক সংখ্যা নহয়।"
+      }
     },
     {
       "q": {
@@ -376,7 +432,11 @@
           "as": "15/32"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "3/4 + 5/8 = 6/8 + 5/8 = 11/8.",
+        "as": "3/4 + 5/8 = 6/8 + 5/8 = 11/8।"
+      }
     },
     {
       "q": {
@@ -401,7 +461,11 @@
           "as": "0.0008"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "0.2 × 0.2 × 0.2 = 0.008.",
+        "as": "0.2 × 0.2 × 0.2 = 0.008।"
+      }
     },
     {
       "q": {
@@ -426,7 +490,11 @@
           "as": "1111"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "The smallest 4-digit number is 1000.",
+        "as": "আটাইতকৈ সৰু 4-অংকৰ সংখ্যা 1000।"
+      }
     },
     {
       "q": {
@@ -451,7 +519,11 @@
           "as": "0.375"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "3/8 = 3 ÷ 8 = 0.375.",
+        "as": "3/8 = 3 ÷ 8 = 0.375।"
+      }
     },
     {
       "q": {
@@ -476,7 +548,11 @@
           "as": "96"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "12² − 8² = 144 − 64 = 80.",
+        "as": "12² − 8² = 144 − 64 = 80।"
+      }
     },
     {
       "q": {
@@ -501,7 +577,11 @@
           "as": "1"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "The unit digits of powers of 7 cycle as 7, 9, 3, 1; since 7⁵ = 7⁴ × 7, the unit digit is 7.",
+        "as": "7 ৰ ঘাতৰ একক অংক 7, 9, 3, 1 ক্ৰমত ঘূৰে; 7⁵ = 7⁴ × 7 হোৱাত একক অংক 7।"
+      }
     },
     {
       "q": {
@@ -526,7 +606,11 @@
           "as": "8"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "A number divisible by both 3 and 4 is divisible by their LCM 12.",
+        "as": "3 আৰু 4 দুয়োটাৰে বিভাজ্য সংখ্যা সিহঁতৰ LCM 12 ৰে বিভাজ্য।"
+      }
     },
     {
       "q": {
@@ -551,7 +635,11 @@
           "as": "22"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "48 ÷ 12 × 4 + 6 = 4 × 4 + 6 = 16 + 6 = 22.",
+        "as": "48 ÷ 12 × 4 + 6 = 4 × 4 + 6 = 16 + 6 = 22।"
+      }
     },
     {
       "q": {
@@ -576,7 +664,11 @@
           "as": "7"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "The reciprocal of 5/7 is 7/5.",
+        "as": "5/7 ৰ প্ৰতিক্ৰম 7/5।"
+      }
     },
     {
       "q": {
@@ -601,7 +693,11 @@
           "as": "10"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "36 = 2² × 3², so the number of factors = (2 + 1)(2 + 1) = 9.",
+        "as": "36 = 2² × 3², গতিকে উৎপাদকৰ সংখ্যা = (2 + 1)(2 + 1) = 9।"
+      }
     },
     {
       "q": {
@@ -626,7 +722,11 @@
           "as": "1"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "Smallest 5-digit number = 10000 and largest 4-digit number = 9999; difference = 1.",
+        "as": "আটাইতকৈ সৰু 5-অংকৰ সংখ্যা = 10000 আৰু আটাইতকৈ ডাঙৰ 4-অংকৰ সংখ্যা = 9999; অন্তৰ = 1।"
+      }
     }
   ]
 }

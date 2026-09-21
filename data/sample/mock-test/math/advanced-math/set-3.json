@@ -26,7 +26,11 @@
           "as": "√3/2"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "sin 90° = 1.",
+        "as": "sin 90° = 1।"
+      }
     },
     {
       "q": {
@@ -51,7 +55,11 @@
           "as": "√3/2"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "cos 0° = 1.",
+        "as": "cos 0° = 1।"
+      }
     },
     {
       "q": {
@@ -76,7 +84,11 @@
           "as": "1"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "tan 45° = 1.",
+        "as": "tan 45° = 1।"
+      }
     },
     {
       "q": {
@@ -101,7 +113,11 @@
           "as": "sin 2θ"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "sin²θ + cos²θ = 1, the fundamental trigonometric identity.",
+        "as": "sin²θ + cos²θ = 1, এয়া মূল ত্ৰিকোণমিতিক অভেদ।"
+      }
     },
     {
       "q": {
@@ -126,7 +142,11 @@
           "as": "0"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "sin 30° = 1/2.",
+        "as": "sin 30° = 1/2।"
+      }
     },
     {
       "q": {
@@ -151,7 +171,11 @@
           "as": "0"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "cos 60° = 1/2.",
+        "as": "cos 60° = 1/2।"
+      }
     },
     {
       "q": {
@@ -176,7 +200,11 @@
           "as": "cot²θ"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "1 + tan²θ = sec²θ.",
+        "as": "1 + tan²θ = sec²θ।"
+      }
     },
     {
       "q": {
@@ -201,7 +229,11 @@
           "as": "0"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "tan 60° = √3.",
+        "as": "tan 60° = √3।"
+      }
     },
     {
       "q": {
@@ -226,7 +258,11 @@
           "as": "cot θ"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "sin(90° − θ) = cos θ.",
+        "as": "sin(90° − θ) = cos θ।"
+      }
     },
     {
       "q": {
@@ -251,7 +287,11 @@
           "as": "1/√3"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "cot 45° = 1.",
+        "as": "cot 45° = 1।"
+      }
     },
     {
       "q": {
@@ -276,7 +316,11 @@
           "as": "5/4"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "If sin θ = 3/5, then cos θ = √(1 − 9/25) = √(16/25) = 4/5.",
+        "as": "sin θ = 3/5 হ'লে cos θ = √(1 − 9/25) = √(16/25) = 4/5।"
+      }
     },
     {
       "q": {
@@ -301,7 +345,11 @@
           "as": "∞"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "sec 0° = 1.",
+        "as": "sec 0° = 1।"
+      }
     },
     {
       "q": {
@@ -326,7 +374,11 @@
           "as": "tan θ"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "cos(90° − θ) = sin θ.",
+        "as": "cos(90° − θ) = sin θ।"
+      }
     },
     {
       "q": {
@@ -351,7 +403,11 @@
           "as": "√2"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "The maximum value of sin θ is 1.",
+        "as": "sin θ ৰ সৰ্বোচ্চ মান 1।"
+      }
     },
     {
       "q": {
@@ -376,7 +432,11 @@
           "as": "90°"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "tan 45° = 1, so θ = 45°.",
+        "as": "tan 45° = 1, গতিকে θ = 45°।"
+      }
     },
     {
       "q": {
@@ -401,7 +461,11 @@
           "as": "sin²θ"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "1 + cot²θ = cosec²θ.",
+        "as": "1 + cot²θ = cosec²θ।"
+      }
     },
     {
       "q": {
@@ -426,7 +490,11 @@
           "as": "1/2"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "sin 0° + cos 90° = 0 + 0 = 0.",
+        "as": "sin 0° + cos 90° = 0 + 0 = 0।"
+      }
     },
     {
       "q": {
@@ -451,7 +519,11 @@
           "as": "5/12"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "If cos θ = 12/13, then sin θ = √(1 − 144/169) = √(25/169) = 5/13.",
+        "as": "cos θ = 12/13 হ'লে sin θ = √(1 − 144/169) = √(25/169) = 5/13।"
+      }
     },
     {
       "q": {
@@ -476,7 +548,11 @@
           "as": "√3"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "2 sin 30° cos 30° = sin 60° = √3/2.",
+        "as": "2 sin 30° cos 30° = sin 60° = √3/2।"
+      }
     },
     {
       "q": {
@@ -501,7 +577,11 @@
           "as": "1 / cos θ"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "tan θ = sin θ / cos θ.",
+        "as": "tan θ = sin θ / cos θ।"
+      }
     },
     {
       "q": {
@@ -526,7 +606,11 @@
           "as": "0"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "cos 30° = √3/2.",
+        "as": "cos 30° = √3/2।"
+      }
     },
     {
       "q": {
@@ -551,7 +635,11 @@
           "as": "90°"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "In the first quadrant, sin A = cos A only when A = 45°.",
+        "as": "প্ৰথম চতুৰ্থাংশত sin A = cos A কেৱল A = 45° হ'লেহে হয়।"
+      }
     },
     {
       "q": {
@@ -576,7 +664,11 @@
           "as": "1"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "tan 30° × tan 60° = (1/√3) × √3 = 1.",
+        "as": "tan 30° × tan 60° = (1/√3) × √3 = 1।"
+      }
     },
     {
       "q": {
@@ -601,7 +693,11 @@
           "as": "sin θ / cos θ"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "cosec θ = 1 / sin θ.",
+        "as": "cosec θ = 1 / sin θ।"
+      }
     },
     {
       "q": {
@@ -626,7 +722,11 @@
           "as": "1/2"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "sin 60° + cos 30° = √3/2 + √3/2 = √3.",
+        "as": "sin 60° + cos 30° = √3/2 + √3/2 = √3।"
+      }
     }
   ]
 }

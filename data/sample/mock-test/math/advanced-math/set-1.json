@@ -26,7 +26,11 @@
           "as": "11"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "x² + 1/x² = (x + 1/x)² − 2 = 3² − 2 = 7.",
+        "as": "x² + 1/x² = (x + 1/x)² − 2 = 3² − 2 = 7।"
+      }
     },
     {
       "q": {
@@ -51,7 +55,11 @@
           "as": "5 আৰু 1"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "x² − 5x + 6 = (x − 2)(x − 3), so the roots are 2 and 3.",
+        "as": "x² − 5x + 6 = (x − 2)(x − 3), গতিকে মূল দুটা 2 আৰু 3।"
+      }
     },
     {
       "q": {
@@ -76,7 +84,11 @@
           "as": "2abc"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "Using a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca); since a + b + c = 0, we get a³ + b³ + c³ = 3abc.",
+        "as": "a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca) সূত্ৰ ব্যৱহাৰ কৰি, a + b + c = 0 হোৱাত a³ + b³ + c³ = 3abc।"
+      }
     },
     {
       "q": {
@@ -101,7 +113,11 @@
           "as": "x² − 10x + 7 = 0"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "Sum of roots = 7 and product = 10, so the equation is x² − 7x + 10 = 0.",
+        "as": "মূলৰ যোগফল 7 আৰু গুণফল 10, গতিকে সমীকৰণ x² − 7x + 10 = 0।"
+      }
     },
     {
       "q": {
@@ -126,7 +142,11 @@
           "as": "7"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "Adding the two equations: 5x + 5y = 25, hence x + y = 5.",
+        "as": "দুয়োটা সমীকৰণ যোগ কৰি: 5x + 5y = 25, গতিকে x + y = 5।"
+      }
     },
     {
       "q": {
@@ -151,7 +171,11 @@
           "as": "0"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "(a + b)² − (a − b)² = 4ab.",
+        "as": "(a + b)² − (a − b)² = 4ab।"
+      }
     },
     {
       "q": {
@@ -176,7 +200,11 @@
           "as": "7"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "For x² − 7x + 12 = 0, the sum of roots α + β = −(−7)/1 = 7.",
+        "as": "x² − 7x + 12 = 0 ৰ বাবে মূলৰ যোগফল α + β = 7।"
+      }
     },
     {
       "q": {
@@ -201,7 +229,11 @@
           "as": "−1"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "By the remainder theorem, put x = 1: 1 − 2 + 3 − 4 = −2.",
+        "as": "ভাগশেষ উপপাদ্য অনুসৰি x = 1 বহুৱাই: 1 − 2 + 3 − 4 = −2।"
+      }
     },
     {
       "q": {
@@ -226,7 +258,11 @@
           "as": "√3"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Since x = 2 + √3, 1/x = 2 − √3, so x + 1/x = 4.",
+        "as": "x = 2 + √3 হোৱাত 1/x = 2 − √3, গতিকে x + 1/x = 4।"
+      }
     },
     {
       "q": {
@@ -251,7 +287,11 @@
           "as": "5"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "The degree is the highest power of x, which is 3.",
+        "as": "বহুপদটোৰ ঘাত x ৰ সৰ্বোচ্চ ঘাত, অৰ্থাৎ 3।"
+      }
     },
     {
       "q": {
@@ -276,7 +316,11 @@
           "as": "0"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "Discriminant D = b² − 4ac = (−4)² − 4(1)(4) = 16 − 16 = 0.",
+        "as": "নিৰ্ণায়ক D = b² − 4ac = (−4)² − 4(1)(4) = 16 − 16 = 0।"
+      }
     },
     {
       "q": {
@@ -301,7 +345,11 @@
           "as": "10"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Put x = 2: 4 − 16 + k = 0, so k = 12.",
+        "as": "x = 2 বহুৱাই: 4 − 16 + k = 0, গতিকে k = 12।"
+      }
     },
     {
       "q": {
@@ -326,7 +374,11 @@
           "as": "8"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "32 = 2⁵, so x = 5.",
+        "as": "32 = 2⁵, গতিকে x = 5।"
+      }
     },
     {
       "q": {
@@ -351,7 +403,11 @@
           "as": "79"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "x² + y² = (x + y)² − 2xy = 100 − 42 = 58.",
+        "as": "x² + y² = (x + y)² − 2xy = 100 − 42 = 58।"
+      }
     },
     {
       "q": {
@@ -376,7 +432,11 @@
           "as": "(x + 9)(x − 1)"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Using a² − b² = (a − b)(a + b), x² − 9 = (x − 3)(x + 3).",
+        "as": "a² − b² = (a − b)(a + b) সূত্ৰৰপৰা x² − 9 = (x − 3)(x + 3)।"
+      }
     },
     {
       "q": {
@@ -401,7 +461,11 @@
           "as": "a³ − b³ + 3ab(a − b)"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "(a + b)³ = a³ + b³ + 3ab(a + b).",
+        "as": "(a + b)³ = a³ + b³ + 3ab(a + b)।"
+      }
     },
     {
       "q": {
@@ -426,7 +490,11 @@
           "as": "8"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "Product of roots = c/a = k/1 = k, so k = 8.",
+        "as": "মূলৰ গুণফল = k/1 = k, গতিকে k = 8।"
+      }
     },
     {
       "q": {
@@ -451,7 +519,11 @@
           "as": "বিন্দু"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "The graph of a linear equation in two variables is always a straight line.",
+        "as": "দুটা চলকৰ ৰৈখিক সমীকৰণৰ লেখ সদায় এডাল সৰলৰেখা।"
+      }
     },
     {
       "q": {
@@ -476,7 +548,11 @@
           "as": "63"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "x³ − y³ = (x − y)³ + 3xy(x − y) = 27 + 3 × 10 × 3 = 117.",
+        "as": "x³ − y³ = (x − y)³ + 3xy(x − y) = 27 + 3 × 10 × 3 = 117।"
+      }
     },
     {
       "q": {
@@ -501,7 +577,11 @@
           "as": "2"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "2x − 8 = 0 gives x = 4.",
+        "as": "2x − 8 = 0 ৰপৰা x = 4।"
+      }
     },
     {
       "q": {
@@ -526,7 +606,11 @@
           "as": "8 : 9"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "Put a = 3, b = 4: (3a + 2b) : (4a + 3b) = (9 + 8) : (12 + 12) = 17 : 24.",
+        "as": "a = 3, b = 4 বহুৱাই: (3a + 2b) : (4a + 3b) = (9 + 8) : (12 + 12) = 17 : 24।"
+      }
     },
     {
       "q": {
@@ -551,7 +635,11 @@
           "as": "পৰিমেয় আৰু সমান"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "D = 4² − 4(1)(5) = −4 < 0, so the roots are not real.",
+        "as": "D = 4² − 4(1)(5) = −4 < 0, গতিকে মূলবোৰ অবাস্তৱ।"
+      }
     },
     {
       "q": {
@@ -576,7 +664,11 @@
           "as": "3"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "81 = 3⁴, so x + 1 = 4 and x = 3.",
+        "as": "81 = 3⁴, গতিকে x + 1 = 4 আৰু x = 3।"
+      }
     },
     {
       "q": {
@@ -601,7 +693,11 @@
           "as": "x² − 8"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "(x + 4)(x − 4) = x² − 16.",
+        "as": "(x + 4)(x − 4) = x² − 16।"
+      }
     },
     {
       "q": {
@@ -626,7 +722,11 @@
           "as": "x² + 6x + 5 = 0"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "The equation is x² − (sum)x + product = 0, i.e. x² − 5x + 6 = 0.",
+        "as": "সমীকৰণ x² − (যোগফল)x + গুণফল = 0, অৰ্থাৎ x² − 5x + 6 = 0।"
+      }
     }
   ]
 }

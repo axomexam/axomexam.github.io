@@ -26,7 +26,11 @@
           "as": "360°"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "The sum of the interior angles of a triangle is 180°.",
+        "as": "ত্ৰিভুজৰ অন্তঃকোণসমূহৰ যোগফল 180°।"
+      }
     },
     {
       "q": {
@@ -51,7 +55,11 @@
           "as": "মধ্যমা"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "In a right-angled triangle, the side opposite the right angle is the hypotenuse.",
+        "as": "সমকোণী ত্ৰিভুজত সমকোণৰ বিপৰীত বাহুক কৰ্ণ (hypotenuse) বোলে।"
+      }
     },
     {
       "q": {
@@ -76,7 +84,11 @@
           "as": "সমদ্বিবাহু ত্ৰিভুজ"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "3² + 4² = 9 + 16 = 25 = 5², so by the converse of the Pythagoras theorem it is a right-angled triangle.",
+        "as": "3² + 4² = 9 + 16 = 25 = 5², গতিকে পাইথাগোৰাছ উপপাদ্যৰ বিপৰীতৰপৰা ই সমকোণী ত্ৰিভুজ।"
+      }
     },
     {
       "q": {
@@ -101,7 +113,11 @@
           "as": "6"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "A regular hexagon has 6 sides.",
+        "as": "সুষম ষট্ভুজৰ 6 টা বাহু থাকে।"
+      }
     },
     {
       "q": {
@@ -126,7 +142,11 @@
           "as": "150°"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Each interior angle of a regular polygon = (n − 2) × 180°/n = (6 − 2) × 180°/6 = 120°.",
+        "as": "সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ = (n − 2) × 180°/n = (6 − 2) × 180°/6 = 120°।"
+      }
     },
     {
       "q": {
@@ -151,7 +171,11 @@
           "as": "180°"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "The angle in a semicircle is a right angle (90°) by Thales' theorem.",
+        "as": "থেলিছৰ উপপাদ্য অনুসৰি অৰ্ধবৃত্তত অংকিত কোণ 90° (সমকোণ)।"
+      }
     },
     {
       "q": {
@@ -176,7 +200,11 @@
           "as": "270°"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "Two complementary angles add up to 90°.",
+        "as": "দুটা পৰিপূৰক কোণৰ যোগফল 90°।"
+      }
     },
     {
       "q": {
@@ -201,7 +229,11 @@
           "as": "70°"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Third angle = 180° − 50° − 70° = 60°.",
+        "as": "তৃতীয় কোণ = 180° − 50° − 70° = 60°।"
+      }
     },
     {
       "q": {
@@ -226,7 +258,11 @@
           "as": "অসমান আৰু সমদ্বিখণ্ডিত নহয়"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "The diagonals of a rhombus bisect each other at right angles.",
+        "as": "ৰম্বাছৰ কৰ্ণ দুডালে পৰস্পৰক সমকোণত দ্বিখণ্ডিত কৰে।"
+      }
     },
     {
       "q": {
@@ -251,7 +287,11 @@
           "as": "100"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "An infinite number of radii can be drawn in a circle.",
+        "as": "বৃত্তত অসীম সংখ্যক ব্যাসাৰ্ধ আঁকিব পাৰি।"
+      }
     },
     {
       "q": {
@@ -276,7 +316,11 @@
           "as": "ব্যাস"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "A tangent is perpendicular to the radius at the point of contact.",
+        "as": "স্পৰ্শক স্পৰ্শবিন্দুত ব্যাসাৰ্ধৰ লম্ব।"
+      }
     },
     {
       "q": {
@@ -301,7 +345,11 @@
           "as": "কেৱল সমদ্বিবাহু ত্ৰিভুজত"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "The Pythagoras theorem applies only to right-angled triangles.",
+        "as": "পাইথাগোৰাছ উপপাদ্য কেৱল সমকোণী ত্ৰিভুজত প্ৰযোজ্য।"
+      }
     },
     {
       "q": {
@@ -326,7 +374,11 @@
           "as": "9 ছেমি"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Other side = √(13² − 5²) = √(169 − 25) = √144 = 12 cm.",
+        "as": "অন্য বাহু = √(13² − 5²) = √(169 − 25) = √144 = 12 ছে.মি.।"
+      }
     },
     {
       "q": {
@@ -351,7 +403,11 @@
           "as": "360°"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "The sum of opposite angles of a cyclic quadrilateral is 180°.",
+        "as": "চক্ৰীয় চতুৰ্ভুজৰ বিপৰীত কোণসমূহৰ যোগফল 180°।"
+      }
     },
     {
       "q": {
@@ -376,7 +432,11 @@
           "as": "3 : 2"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "The centroid divides each median in the ratio 2 : 1.",
+        "as": "ভৰকেন্দ্ৰই প্ৰতিটো মধ্যমাক 2 : 1 অনুপাতত বিভক্ত কৰে।"
+      }
     },
     {
       "q": {
@@ -401,7 +461,11 @@
           "as": "সদায় সমান্তৰাল"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "In similar triangles, corresponding sides are proportional.",
+        "as": "সদৃশ ত্ৰিভুজত অনুৰূপ বাহুবোৰ সমানুপাতিক।"
+      }
     },
     {
       "q": {
@@ -426,7 +490,11 @@
           "as": "বিপৰীত কোণৰ আধাৰ"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "An exterior angle of a triangle equals the sum of the two opposite interior angles.",
+        "as": "ত্ৰিভুজৰ বাহ্যিক কোণ ইয়াৰ দুটা বিপৰীত অন্তঃকোণৰ যোগফলৰ সমান।"
+      }
     },
     {
       "q": {
@@ -451,7 +519,11 @@
           "as": "চাপ"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "The longest chord of a circle is its diameter.",
+        "as": "বৃত্তৰ আটাইতকৈ দীঘল জ্যা হৈছে ব্যাস।"
+      }
     },
     {
       "q": {
@@ -476,7 +548,11 @@
           "as": "শূন্য"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "If two circles touch internally, the distance between their centres equals the difference of their radii.",
+        "as": "দুটা বৃত্ত অন্তঃস্পৰ্শী হ'লে তেওঁলোকৰ কেন্দ্ৰৰ দূৰত্ব ব্যাসাৰ্ধ দুটাৰ অন্তৰৰ সমান।"
+      }
     },
     {
       "q": {
@@ -501,7 +577,11 @@
           "as": "12"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Number of triangles = ⁶C₃ = 6!/(3! × 3!) = 20.",
+        "as": "ত্ৰিভুজৰ সংখ্যা = ⁶C₃ = 6!/(3! × 3!) = 20।"
+      }
     },
     {
       "q": {
@@ -526,7 +606,11 @@
           "as": "4√3 ছেমি"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "Height of an equilateral triangle = (√3/2) × side = (√3/2) × 6 = 3√3 cm.",
+        "as": "সমবাহু ত্ৰিভুজৰ উচ্চতা = (√3/2) × বাহু = (√3/2) × 6 = 3√3 ছে.মি.।"
+      }
     },
     {
       "q": {
@@ -551,7 +635,11 @@
           "as": "30 ছেমি²"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "Area of a parallelogram = base × height = 10 × 6 = 60 cm².",
+        "as": "সামান্তৰিকৰ কালি = ভূমি × উচ্চতা = 10 × 6 = 60 ছে.মি.²।"
+      }
     },
     {
       "q": {
@@ -576,7 +664,11 @@
           "as": "36 ছেমি²"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Area of a rhombus = ½ × d₁ × d₂ = ½ × 8 × 6 = 24 cm².",
+        "as": "ৰম্বাছৰ কালি = ½ × d₁ × d₂ = ½ × 8 × 6 = 24 ছে.মি.²।"
+      }
     },
     {
       "q": {
@@ -601,7 +693,11 @@
           "as": "45°"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Two supplementary angles add up to 180°.",
+        "as": "দুটা সম্পূৰক কোণৰ যোগফল 180°।"
+      }
     },
     {
       "q": {
@@ -626,7 +722,11 @@
           "as": "লম্বকেন্দ্ৰ"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "The point of intersection of the altitudes of a triangle is called the orthocentre.",
+        "as": "ত্ৰিভুজৰ উচ্চতাসমূহৰ ছেদবিন্দুক লম্বকেন্দ্ৰ (orthocentre) বোলে।"
+      }
     }
   ]
 }
