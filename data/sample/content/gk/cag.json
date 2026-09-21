@@ -8,257 +8,741 @@
     "en": "Important questions on the Comptroller and Auditor General of India (CAG) for Assam competitive exams.",
     "as": "ভাৰতৰ নিয়ন্ত্ৰক-মহানিৰীক্ষক (CAG) সম্পৰ্কে গুৰুত্বপূৰ্ণ প্ৰশ্ন — অসম প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে।"
   },
-  "tags": ["cag", "comptroller-auditor-general", "audit", "accounts", "polity", "assam-exam", "নিয়ন্ত্ৰক-মহানিৰীক্ষক", "অডিট"],
+  "tags": [
+    "cag",
+    "comptroller-auditor-general",
+    "audit",
+    "accounts",
+    "polity",
+    "assam-exam",
+    "নিয়ন্ত্ৰক-মহানিৰীক্ষক",
+    "অডিট"
+  ],
   "pdf": null,
   "questions": [
     {
-      "q": {
-        "en": "Under which Article of the Constitution is the Comptroller and Auditor General of India established?",
-        "as": "সংবিধানৰ কোন অনুচ্ছেদ অনুযায়ী ভাৰতৰ নিয়ন্ত্ৰক-মহানিৰীক্ষক স্থাপিত?"
-      },
-      "a": {
-        "en": "Article 148.",
-        "as": "অনুচ্ছেদ ১৪৮।"
+      "question_en": "Under which Article of the Constitution is the Comptroller and Auditor General of India established?",
+      "question_as": "সংবিধানৰ কোন অনুচ্ছেদ অনুযায়ী ভাৰতৰ নিয়ন্ত্ৰক-মহানিৰীক্ষক স্থাপিত?",
+      "answer_en": "Article 148",
+      "answer_as": "অনুচ্ছেদ ১৪৮",
+      "options": [
+        {
+          "en": "Article 148",
+          "as": "অনুচ্ছেদ ১৪৮"
+        },
+        {
+          "en": "Article 149",
+          "as": "অনুচ্ছেদ ১৪৯"
+        },
+        {
+          "en": "Article 150",
+          "as": "অনুচ্ছেদ ১৫০"
+        },
+        {
+          "en": "Article 151",
+          "as": "অনুচ্ছেদ ১৫১"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Comptroller and Auditor General of India is established under Article 148.",
+        "as": "ভাৰতৰ নিয়ন্ত্ৰক-মহানিৰীক্ষক অনুচ্ছেদ ১৪৮ অধীনত স্থাপিত।"
       }
     },
     {
-      "q": {
-        "en": "Who appoints the Comptroller and Auditor General of India?",
-        "as": "ভাৰতৰ নিয়ন্ত্ৰক-মহানিৰীক্ষকক কোনে নিযুক্তি দিয়ে?"
-      },
-      "a": {
-        "en": "The President of India.",
-        "as": "ভাৰতৰ ৰাষ্ট্ৰপতিয়ে।"
+      "question_en": "Who appoints the Comptroller and Auditor General of India?",
+      "question_as": "ভাৰতৰ নিয়ন্ত্ৰক-মহানিৰীক্ষকক কোনে নিযুক্তি দিয়ে?",
+      "answer_en": "The President of India",
+      "answer_as": "ভাৰতৰ ৰাষ্ট্ৰপতি",
+      "options": [
+        {
+          "en": "The Prime Minister",
+          "as": "প্ৰধানমন্ত্ৰী"
+        },
+        {
+          "en": "The President of India",
+          "as": "ভাৰতৰ ৰাষ্ট্ৰপতি"
+        },
+        {
+          "en": "The Parliament",
+          "as": "সংসদ"
+        },
+        {
+          "en": "The Chief Justice of India",
+          "as": "ভাৰতৰ প্ৰধান ন্যায়াধীশ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Comptroller and Auditor General of India is appointed by the President of India.",
+        "as": "ভাৰতৰ নিয়ন্ত্ৰক-মহানিৰীক্ষক ভাৰতৰ ৰাষ্ট্ৰপতিয়ে নিযুক্তি দিয়ে।"
       }
     },
     {
-      "q": {
-        "en": "What is the main function of the CAG?",
-        "as": "CAG ৰ মূল কাৰ্য কি?"
-      },
-      "a": {
-        "en": "To audit the accounts of the Union Government, State Governments and public corporations.",
-        "as": "কেন্দ্ৰীয় চৰকাৰ, ৰাজ্য চৰকাৰ আৰু ৰাজহুৱা নিগমসমূহৰ হিচাপ-নিকাচ পৰীক্ষা (অডিট) কৰা।"
+      "question_en": "What is the main function of the CAG?",
+      "question_as": "CAG ৰ মূল কাৰ্য কি?",
+      "answer_en": "Auditing the accounts of the Union, State Governments and public corporations",
+      "answer_as": "কেন্দ্ৰ, ৰাজ্য চৰকাৰ আৰু ৰাজহুৱা নিগমসমূহৰ হিচাপ-নিকাচ পৰীক্ষা",
+      "options": [
+        {
+          "en": "Making laws",
+          "as": "আইন প্ৰণয়ন"
+        },
+        {
+          "en": "Auditing the accounts of the Union, State Governments and public corporations",
+          "as": "কেন্দ্ৰ, ৰাজ্য চৰকাৰ আৰু ৰাজহুৱা নিগমসমূহৰ হিচাপ-নিকাচ পৰীক্ষা"
+        },
+        {
+          "en": "Conducting elections",
+          "as": "নিৰ্বাচন পৰিচালনা"
+        },
+        {
+          "en": "Collecting taxes",
+          "as": "কৰ সংগ্ৰহ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The main function of the CAG is to audit the accounts of the Union Government, State Governments and public corporations.",
+        "as": "চিএজিৰ মূল কাৰ্য হৈছে কেন্দ্ৰীয় চৰকাৰ, ৰাজ্য চৰকাৰ আৰু ৰাজহুৱা নিগমসমূহৰ হিচাপ-নিকাচ পৰীক্ষা কৰা।"
       }
     },
     {
-      "q": {
-        "en": "For how long does the CAG hold office?",
-        "as": "CAG য়ে কিমান সময়লৈ কাৰ্যভাৰ গ্ৰহণ কৰে?"
-      },
-      "a": {
-        "en": "Six years or till the age of 65 years, whichever is earlier.",
-        "as": "ছয় বছৰ বা ৬৫ বছৰ বয়সলৈ, যিটো আগে হয়।"
+      "question_en": "For how long does the CAG hold office?",
+      "question_as": "CAG য়ে কিমান সময়লৈ কাৰ্যভাৰ গ্ৰহণ কৰে?",
+      "answer_en": "Six years or till the age of 65, whichever is earlier",
+      "answer_as": "ছয় বছৰ বা ৬৫ বছৰ বয়সলৈ, যিটো আগে হয়",
+      "options": [
+        {
+          "en": "Five years or till the age of 60",
+          "as": "পাঁচ বছৰ বা ৬০ বছৰ বয়সলৈ"
+        },
+        {
+          "en": "Six years or till the age of 65",
+          "as": "ছয় বছৰ বা ৬৫ বছৰ বয়সলৈ"
+        },
+        {
+          "en": "Seven years or till the age of 70",
+          "as": "সাত বছৰ বা ৭০ বছৰ বয়সলৈ"
+        },
+        {
+          "en": "Till the age of 62",
+          "as": "৬২ বছৰ বয়সলৈ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The CAG holds office for six years or till the age of 65 years, whichever is earlier.",
+        "as": "চিএজিয়ে ছয় বছৰ বা ৬৫ বছৰ বয়সলৈ, যিটো আগে হয়, কাৰ্যভাৰ গ্ৰহণ কৰে।"
       }
     },
     {
-      "q": {
-        "en": "How can the CAG be removed?",
-        "as": "CAG ক কেনেকৈ অপসাৰণ কৰিব পাৰি?"
-      },
-      "a": {
-        "en": "In the same manner as a judge of the Supreme Court, i.e., by impeachment.",
-        "as": "উচ্চতম ন্যায়ালয়ৰ ন্যায়াধীশৰ দৰে, অৰ্থাৎ মহা-অভিযোগ পদ্ধতিৰ দ্বাৰা।"
+      "question_en": "How can the CAG be removed?",
+      "question_as": "CAG ক কেনেকৈ অপসাৰণ কৰিব পাৰি?",
+      "answer_en": "In the same manner as a judge of the Supreme Court",
+      "answer_as": "উচ্চতম ন্যায়ালয়ৰ ন্যায়াধীশৰ দৰে",
+      "options": [
+        {
+          "en": "By the President at will",
+          "as": "ৰাষ্ট্ৰপতিয়ে ইচ্ছামতে"
+        },
+        {
+          "en": "In the same manner as a judge of the Supreme Court",
+          "as": "উচ্চতম ন্যায়ালয়ৰ ন্যায়াধীশৰ দৰে"
+        },
+        {
+          "en": "By the Prime Minister",
+          "as": "প্ৰধানমন্ত্ৰীয়ে"
+        },
+        {
+          "en": "By a simple majority of Parliament",
+          "as": "সংসদৰ সৰল সংখ্যাগৰিষ্ঠতাৰে"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The CAG can be removed in the same manner as a judge of the Supreme Court, i.e., by impeachment.",
+        "as": "চিএজিক উচ্চতম ন্যায়ালয়ৰ ন্যায়াধীশৰ দৰে, অৰ্থাৎ মহা-অভিযোগ পদ্ধতিৰ দ্বাৰা আঁতৰাব পাৰি।"
       }
     },
     {
-      "q": {
-        "en": "Who administers the oath of office to the CAG?",
-        "as": "CAG ক শপত কোনে গ্ৰহণ কৰায়?"
-      },
-      "a": {
-        "en": "The President of India.",
-        "as": "ভাৰতৰ ৰাষ্ট্ৰপতিয়ে।"
+      "question_en": "Who administers the oath of office to the CAG?",
+      "question_as": "CAG ক শপত কোনে গ্ৰহণ কৰায়?",
+      "answer_en": "The President of India",
+      "answer_as": "ভাৰতৰ ৰাষ্ট্ৰপতি",
+      "options": [
+        {
+          "en": "The President of India",
+          "as": "ভাৰতৰ ৰাষ্ট্ৰপতি"
+        },
+        {
+          "en": "The Chief Justice of India",
+          "as": "ভাৰতৰ প্ৰধান ন্যায়াধীশ"
+        },
+        {
+          "en": "The Vice-President",
+          "as": "উপ-ৰাষ্ট্ৰপতি"
+        },
+        {
+          "en": "The Speaker",
+          "as": "অধ্যক্ষ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The President of India administers the oath of office to the CAG.",
+        "as": "ভাৰতৰ ৰাষ্ট্ৰপতিয়ে চিএজিক কাৰ্যভাৰৰ শপত বাক্য পাঠ কৰায়।"
       }
     },
     {
-      "q": {
-        "en": "To whom does the CAG submit his report?",
-        "as": "CAG য়ে তেওঁৰ প্ৰতিবেদন কাক দাখিল কৰে?"
-      },
-      "a": {
-        "en": "The President of India in respect of the Union, and the Governors in respect of the states.",
-        "as": "কেন্দ্ৰৰ ক্ষেত্ৰত ভাৰতৰ ৰাষ্ট্ৰপতিক, আৰু ৰাজ্যসমূহৰ ক্ষেত্ৰত ৰাজ্যপালসকলক।"
+      "question_en": "To whom does the CAG submit his report?",
+      "question_as": "CAG য়ে তেওঁৰ প্ৰতিবেদন কাক দাখিল কৰে?",
+      "answer_en": "The President for the Union and the Governors for the states",
+      "answer_as": "কেন্দ্ৰৰ বাবে ৰাষ্ট্ৰপতি আৰু ৰাজ্যসমূহৰ বাবে ৰাজ্যপাল",
+      "options": [
+        {
+          "en": "The President for the Union and the Governors for the states",
+          "as": "কেন্দ্ৰৰ বাবে ৰাষ্ট্ৰপতি আৰু ৰাজ্যসমূহৰ বাবে ৰাজ্যপাল"
+        },
+        {
+          "en": "Only the Parliament",
+          "as": "কেৱল সংসদ"
+        },
+        {
+          "en": "The Prime Minister",
+          "as": "প্ৰধানমন্ত্ৰী"
+        },
+        {
+          "en": "The Finance Minister",
+          "as": "বিত্তমন্ত্ৰী"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The CAG submits his report to the President for the Union and to the Governors for the states.",
+        "as": "চিএজিয়ে কেন্দ্ৰৰ বাবে ৰাষ্ট্ৰপতিক আৰু ৰাজ্যসমূহৰ বাবে ৰাজ্যপালসকলক নিজৰ প্ৰতিবেদন দাখিল কৰে।"
       }
     },
     {
-      "q": {
-        "en": "Which Committee of the Parliament examines the CAG report on the Union accounts?",
-        "as": "কেন্দ্ৰীয় হিচাপ-নিকাচ সম্পৰ্কীয় CAG প্ৰতিবেদন সংসদৰ কোন সমিতিয়ে পৰীক্ষা কৰে?"
-      },
-      "a": {
-        "en": "The Public Accounts Committee (PAC).",
-        "as": "ৰাজহুৱা হিচাপ-নিকাচ সমিতিয়ে (PAC)।"
+      "question_en": "Which Committee of the Parliament examines the CAG report on the Union accounts?",
+      "question_as": "কেন্দ্ৰীয় হিচাপ-নিকাচ সম্পৰ্কীয় CAG প্ৰতিবেদন সংসদৰ কোন সমিতিয়ে পৰীক্ষা কৰে?",
+      "answer_en": "The Public Accounts Committee (PAC)",
+      "answer_as": "ৰাজহুৱা হিচাপ-নিকাচ সমিতি (পিএচি)",
+      "options": [
+        {
+          "en": "The Public Accounts Committee (PAC)",
+          "as": "ৰাজহুৱা হিচাপ-নিকাচ সমিতি (পিএচি)"
+        },
+        {
+          "en": "The Estimates Committee",
+          "as": "প্ৰাক্কলন সমিতি"
+        },
+        {
+          "en": "The Committee on Public Undertakings",
+          "as": "ৰাজহুৱা উদ্যোগ সমিতি"
+        },
+        {
+          "en": "The Business Advisory Committee",
+          "as": "ব্যৱসায়িক পৰামৰ্শদাতা সমিতি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Public Accounts Committee (PAC) of Parliament examines the CAG report on the Union accounts.",
+        "as": "সংসদৰ ৰাজহুৱা হিচাপ-নিকাচ সমিতি (পিএচি)য়ে কেন্দ্ৰীয় হিচাপৰ চিএজি প্ৰতিবেদন পৰীক্ষা কৰে।"
       }
     },
     {
-      "q": {
-        "en": "Who is the guardian of the public purse in India?",
-        "as": "ভাৰতত ৰাজহুৱা ধনৰ ৰক্ষক কোন?"
-      },
-      "a": {
-        "en": "The Comptroller and Auditor General of India.",
-        "as": "ভাৰতৰ নিয়ন্ত্ৰক-মহানিৰীক্ষক।"
+      "question_en": "Who is the guardian of the public purse in India?",
+      "question_as": "ভাৰতত ৰাজহুৱা ধনৰ ৰক্ষক কোন?",
+      "answer_en": "The Comptroller and Auditor General of India",
+      "answer_as": "ভাৰতৰ নিয়ন্ত্ৰক-মহানিৰীক্ষক",
+      "options": [
+        {
+          "en": "The RBI Governor",
+          "as": "আৰবিআই গৱৰ্ণৰ"
+        },
+        {
+          "en": "The Comptroller and Auditor General",
+          "as": "নিয়ন্ত্ৰক-মহানিৰীক্ষক"
+        },
+        {
+          "en": "The Finance Minister",
+          "as": "বিত্তমন্ত্ৰী"
+        },
+        {
+          "en": "The President",
+          "as": "ৰাষ্ট্ৰপতি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The CAG is known as the guardian of the public purse in India.",
+        "as": "চিএজিক ভাৰতত ৰাজহুৱা ধনৰক্ষক বুলি জনা যায়।"
       }
     },
     {
-      "q": {
-        "en": "What is the salary of the CAG?",
-        "as": "CAG ৰ দৰমহা কিমান?"
-      },
-      "a": {
-        "en": "It is equal to the salary of a judge of the Supreme Court.",
-        "as": "ই উচ্চতম ন্যায়ালয়ৰ ন্যায়াধীশৰ দৰমহাৰ সমান।"
+      "question_en": "What is the salary of the CAG?",
+      "question_as": "CAG ৰ দৰমহা কিমান?",
+      "answer_en": "It is equal to the salary of a judge of the Supreme Court",
+      "answer_as": "ই উচ্চতম ন্যায়ালয়ৰ ন্যায়াধীশৰ দৰমহাৰ সমান",
+      "options": [
+        {
+          "en": "Equal to the Chief Justice of India",
+          "as": "ভাৰতৰ প্ৰধান ন্যায়াধীশৰ সমান"
+        },
+        {
+          "en": "Equal to a judge of the Supreme Court",
+          "as": "উচ্চতম ন্যায়ালয়ৰ ন্যায়াধীশৰ সমান"
+        },
+        {
+          "en": "Equal to a High Court judge",
+          "as": "উচ্চ ন্যায়ালয়ৰ ন্যায়াধীশৰ সমান"
+        },
+        {
+          "en": "Equal to a Cabinet Secretary",
+          "as": "কেবিনেট সচিবৰ সমান"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The salary of the CAG is equal to the salary of a judge of the Supreme Court.",
+        "as": "চিএজিৰ দৰমহা উচ্চতম ন্যায়ালয়ৰ ন্যায়াধীশৰ দৰমহাৰ সমান।"
       }
     },
     {
-      "q": {
-        "en": "Who was the first Comptroller and Auditor General of India?",
-        "as": "ভাৰতৰ প্ৰথম নিয়ন্ত্ৰক-মহানিৰীক্ষক কোন আছিল?"
-      },
-      "a": {
-        "en": "V. Narahari Rao.",
-        "as": "ভি. নাৰহৰি ৰাও।"
+      "question_en": "Who was the first Comptroller and Auditor General of India?",
+      "question_as": "ভাৰতৰ প্ৰথম নিয়ন্ত্ৰক-মহানিৰীক্ষক কোন আছিল?",
+      "answer_en": "V. Narahari Rao",
+      "answer_as": "ভি. নাৰহৰি ৰাও",
+      "options": [
+        {
+          "en": "V. Narahari Rao",
+          "as": "ভি. নাৰহৰি ৰাও"
+        },
+        {
+          "en": "T.N. Chaturvedi",
+          "as": "টি.এন. চতুৰ্বেদী"
+        },
+        {
+          "en": "A.K. Roy",
+          "as": "এ.কে. ৰয়"
+        },
+        {
+          "en": "C. Subramaniam",
+          "as": "চি. সুব্ৰমণ্যম"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "V. Narahari Rao was the first Comptroller and Auditor General of India.",
+        "as": "ভি. নাৰহৰি ৰাও ভাৰতৰ প্ৰথম নিয়ন্ত্ৰক-মহানিৰীক্ষক আছিল।"
       }
     },
     {
-      "q": {
-        "en": "Is the CAG eligible for further government employment after his term?",
-        "as": "CAG তেওঁৰ কাৰ্যকালৰ পিছত অধিক চৰকাৰী নিয়োগৰ যোগ্য হয় নেকি?"
-      },
-      "a": {
-        "en": "No, he is not eligible for any further office under the Government of India or a state.",
-        "as": "নাই, তেওঁ ভাৰত চৰকাৰ বা ৰাজ্যৰ অধীনত অধিক কোনো পদৰ যোগ্য নহয়।"
+      "question_en": "Is the CAG eligible for further government employment after his term?",
+      "question_as": "CAG তেওঁৰ কাৰ্যকালৰ পিছত অধিক চৰকাৰী নিয়োগৰ যোগ্য হয় নেকি?",
+      "answer_en": "No, he is not eligible for any further office under the Government of India or a state",
+      "answer_as": "নাই, তেওঁ ভাৰত চৰকাৰ বা ৰাজ্যৰ অধীনত অধিক কোনো পদৰ যোগ্য নহয়",
+      "options": [
+        {
+          "en": "Yes, any post",
+          "as": "হয়, যিকোনো পদ"
+        },
+        {
+          "en": "No, he is not eligible for any further office under the Government of India or a state",
+          "as": "নাই, ভাৰত চৰকাৰ বা ৰাজ্যৰ অধীনত অধিক কোনো পদৰ যোগ্য নহয়"
+        },
+        {
+          "en": "Only as Governor",
+          "as": "কেৱল ৰাজ্যপাল হিচাপে"
+        },
+        {
+          "en": "Only as Ambassador",
+          "as": "কেৱল ৰাষ্ট্ৰদূত হিচাপে"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "After his term the CAG is not eligible for any further office under the Government of India or a state.",
+        "as": "কাৰ্যকাল শেষ হোৱাৰ পিছত চিএজি ভাৰত চৰকাৰ বা ৰাজ্যৰ অধীনত অধিক কোনো পদৰ যোগ্য নহয়।"
       }
     },
     {
-      "q": {
-        "en": "Who audits the accounts of the State Governments?",
-        "as": "ৰাজ্য চৰকাৰসমূহৰ হিচাপ-নিকাচ কোনে পৰীক্ষা কৰে?"
-      },
-      "a": {
-        "en": "The Comptroller and Auditor General of India.",
-        "as": "ভাৰতৰ নিয়ন্ত্ৰক-মহানিৰীক্ষকে।"
+      "question_en": "Who audits the accounts of the State Governments?",
+      "question_as": "ৰাজ্য চৰকাৰসমূহৰ হিচাপ-নিকাচ কোনে পৰীক্ষা কৰে?",
+      "answer_en": "The Comptroller and Auditor General of India",
+      "answer_as": "ভাৰতৰ নিয়ন্ত্ৰক-মহানিৰীক্ষক",
+      "options": [
+        {
+          "en": "The State Finance Minister",
+          "as": "ৰাজ্যৰ বিত্তমন্ত্ৰী"
+        },
+        {
+          "en": "The Comptroller and Auditor General",
+          "as": "নিয়ন্ত্ৰক-মহানিৰীক্ষক"
+        },
+        {
+          "en": "The Governor",
+          "as": "ৰাজ্যপাল"
+        },
+        {
+          "en": "The RBI",
+          "as": "আৰবিআই"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The accounts of the State Governments are audited by the Comptroller and Auditor General of India.",
+        "as": "ৰাজ্য চৰকাৰসমূহৰ হিচাপ ভাৰতৰ নিয়ন্ত্ৰক-মহানিৰীক্ষকে পৰীক্ষা কৰে।"
       }
     },
     {
-      "q": {
-        "en": "What is the constitutional status of the CAG?",
-        "as": "CAG ৰ সাংবিধানিক মৰ্যাদা কি?"
-      },
-      "a": {
-        "en": "It is an independent constitutional authority established under Article 148.",
-        "as": "ই অনুচ্ছেদ ১৪৮ অধীনত স্থাপিত স্বাধীন সাংবিধানিক কৰ্তৃপক্ষ।"
+      "question_en": "What is the constitutional status of the CAG?",
+      "question_as": "CAG ৰ সাংবিধানিক মৰ্যাদা কি?",
+      "answer_en": "It is an independent constitutional authority established under Article 148",
+      "answer_as": "ই অনুচ্ছেদ ১৪৮ অধীনত স্থাপিত স্বাধীন সাংবিধানিক কৰ্তৃপক্ষ",
+      "options": [
+        {
+          "en": "A statutory body",
+          "as": "এটা বিধিবদ্ধ সংস্থা"
+        },
+        {
+          "en": "An independent constitutional authority under Article 148",
+          "as": "অনুচ্ছেদ ১৪৮ অধীনত স্বাধীন সাংবিধানিক কৰ্তৃপক্ষ"
+        },
+        {
+          "en": "A department of the Finance Ministry",
+          "as": "বিত্ত মন্ত্ৰালয়ৰ এটা বিভাগ"
+        },
+        {
+          "en": "A committee of Parliament",
+          "as": "সংসদৰ এটা সমিতি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The CAG is an independent constitutional authority established under Article 148.",
+        "as": "চিএজি হৈছে অনুচ্ছেদ ১৪৮ অধীনত স্থাপিত এটা স্বাধীন সাংবিধানিক কৰ্তৃপক্ষ।"
       }
     },
     {
-      "q": {
-        "en": "What is the term of office of the CAG?",
-        "as": "CAG ৰ কাৰ্যকাল কিমান?"
-      },
-      "a": {
-        "en": "Six years from the date of assuming office, or till the age of 65, whichever is earlier.",
-        "as": "কাৰ্যভাৰ গ্ৰহণৰ তাৰিখৰ পৰা ছয় বছৰ, বা ৬৫ বছৰ বয়সলৈ, যিটো আগে হয়।"
+      "question_en": "What is the term of office of the CAG?",
+      "question_as": "CAG ৰ কাৰ্যকাল কিমান?",
+      "answer_en": "Six years from the date of assuming office, or till the age of 65, whichever is earlier",
+      "answer_as": "কাৰ্যভাৰ গ্ৰহণৰ তাৰিখৰ পৰা ছয় বছৰ, বা ৬৫ বছৰ বয়সলৈ, যিটো আগে হয়",
+      "options": [
+        {
+          "en": "Five years",
+          "as": "পাঁচ বছৰ"
+        },
+        {
+          "en": "Six years or till the age of 65, whichever is earlier",
+          "as": "ছয় বছৰ বা ৬৫ বছৰ বয়সলৈ, যিটো আগে হয়"
+        },
+        {
+          "en": "Till the age of 60",
+          "as": "৬০ বছৰ বয়সলৈ"
+        },
+        {
+          "en": "Seven years",
+          "as": "সাত বছৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The term of office of the CAG is six years from the date of assuming office, or till the age of 65, whichever is earlier.",
+        "as": "চিএজিৰ কাৰ্যকাল কাৰ্যভাৰ গ্ৰহণৰ তাৰিখৰ পৰা ছয় বছৰ, বা ৬৫ বছৰ বয়সলৈ, যিটো আগে হয়।"
       }
     },
     {
-      "q": {
-        "en": "Can the CAG audit the accounts of local bodies?",
-        "as": "CAG য়ে স্থানীয় সংস্থাসমূহৰ হিচাপ-নিকাচ পৰীক্ষা কৰিব পাৰে নেকি?"
-      },
-      "a": {
-        "en": "Yes, he can audit the accounts of local bodies as well.",
-        "as": "হয়, তেওঁ স্থানীয় সংস্থাসমূহৰ হিচাপ-নিকাচও পৰীক্ষা কৰিব পাৰে।"
+      "question_en": "Can the CAG audit the accounts of local bodies?",
+      "question_as": "CAG য়ে স্থানীয় সংস্থাসমূহৰ হিচাপ-নিকাচ পৰীক্ষা কৰিব পাৰে নেকি?",
+      "answer_en": "Yes, he can audit the accounts of local bodies as well",
+      "answer_as": "হয়, তেওঁ স্থানীয় সংস্থাসমূহৰ হিচাপ-নিকাচও পৰীক্ষা কৰিব পাৰে",
+      "options": [
+        {
+          "en": "Yes",
+          "as": "হয়"
+        },
+        {
+          "en": "No",
+          "as": "নহয়"
+        },
+        {
+          "en": "Only with state consent",
+          "as": "কেৱল ৰাজ্যৰ সন্মতি সাপেক্ষে"
+        },
+        {
+          "en": "Only municipal corporations",
+          "as": "কেৱল নগৰ নিগমসমূহ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The CAG can audit the accounts of local bodies as well.",
+        "as": "চিএজিয়ে স্থানীয় সংস্থাসমূহৰ হিচাপ-নিকাচও পৰীক্ষা কৰিব পাৰে।"
       }
     },
     {
-      "q": {
-        "en": "Who presents the CAG report on state accounts in the State Legislature?",
-        "as": "ৰাজ্য হিচাপ-নিকাচ সম্পৰ্কীয় CAG প্ৰতিবেদন ৰাজ্য বিধানমণ্ডলত কোনে দাখিল কৰে?"
-      },
-      "a": {
-        "en": "The Governor of the state.",
-        "as": "ৰাজ্যপালে।"
+      "question_en": "Who presents the CAG report on state accounts in the State Legislature?",
+      "question_as": "ৰাজ্য হিচাপ-নিকাচ সম্পৰ্কীয় CAG প্ৰতিবেদন ৰাজ্য বিধানমণ্ডলত কোনে দাখিল কৰে?",
+      "answer_en": "The Governor of the state",
+      "answer_as": "ৰাজ্যপালে",
+      "options": [
+        {
+          "en": "The Governor of the state",
+          "as": "ৰাজ্যৰ ৰাজ্যপাল"
+        },
+        {
+          "en": "The Chief Minister",
+          "as": "মুখ্যমন্ত্ৰী"
+        },
+        {
+          "en": "The Speaker",
+          "as": "অধ্যক্ষ"
+        },
+        {
+          "en": "The Chief Justice",
+          "as": "প্ৰধান ন্যায়াধীশ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Governor presents the CAG report on state accounts in the State Legislature.",
+        "as": "ৰাজ্যপালে ৰাজ্যৰ হিচাপৰ চিএজি প্ৰতিবেদন ৰাজ্য বিধানমণ্ডলত দাখিল কৰে।"
       }
     },
     {
-      "q": {
-        "en": "Which committee examines the CAG report in the State Legislature?",
-        "as": "ৰাজ্য বিধানমণ্ডলত CAG প্ৰতিবেদন কোন সমিতিয়ে পৰীক্ষা কৰে?"
-      },
-      "a": {
-        "en": "The Public Accounts Committee of the state.",
-        "as": "ৰাজ্যৰ ৰাজহুৱা হিচাপ-নিকাচ সমিতিয়ে।"
+      "question_en": "Which committee examines the CAG report in the State Legislature?",
+      "question_as": "ৰাজ্য বিধানমণ্ডলত CAG প্ৰতিবেদন কোন সমিতিয়ে পৰীক্ষা কৰে?",
+      "answer_en": "The Public Accounts Committee of the state",
+      "answer_as": "ৰাজ্যৰ ৰাজহুৱা হিচাপ-নিকাচ সমিতি",
+      "options": [
+        {
+          "en": "The Public Accounts Committee of the state",
+          "as": "ৰাজ্যৰ ৰাজহুৱা হিচাপ-নিকাচ সমিতি"
+        },
+        {
+          "en": "The Lok Sabha",
+          "as": "লোকসভা"
+        },
+        {
+          "en": "The Rajya Sabha",
+          "as": "ৰাজ্যসভা"
+        },
+        {
+          "en": "The Supreme Court",
+          "as": "উচ্চতম ন্যায়ালয়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Public Accounts Committee of the state examines the CAG report in the State Legislature.",
+        "as": "ৰাজ্যৰ ৰাজহুৱা হিচাপ-নিকাচ সমিতিয়ে ৰাজ্য বিধানমণ্ডলত চিএজি প্ৰতিবেদন পৰীক্ষা কৰে।"
       }
     },
     {
-      "q": {
-        "en": "What are the three types of audit conducted by the CAG?",
-        "as": "CAG য়ে পৰিচালনা কৰা তিনিটা ধৰণৰ অডিট কি কি?"
-      },
-      "a": {
-        "en": "Financial audit, compliance audit and performance audit.",
-        "as": "আৰ্থিক অডিট, অনুপালন অডিট আৰু কাৰ্য্যদক্ষতা অডিট।"
+      "question_en": "What are the three types of audit conducted by the CAG?",
+      "question_as": "CAG য়ে পৰিচালনা কৰা তিনিটা ধৰণৰ অডিট কি কি?",
+      "answer_en": "Financial audit, compliance audit and performance audit",
+      "answer_as": "আৰ্থিক অডিট, অনুপালন অডিট আৰু কাৰ্য্যদক্ষতা অডিট",
+      "options": [
+        {
+          "en": "Internal, external and secret audit",
+          "as": "আভ্যন্তৰীণ, বাহ্যিক আৰু গোপন অডিট"
+        },
+        {
+          "en": "Financial, compliance and performance audit",
+          "as": "আৰ্থিক, অনুপালন আৰু কাৰ্য্যদক্ষতা অডিট"
+        },
+        {
+          "en": "Cash, accrual and hybrid audit",
+          "as": "নগদ, উপচিতি আৰু সংকৰ অডিট"
+        },
+        {
+          "en": "Annual, half-yearly and quarterly audit",
+          "as": "বাৰ্ষিক, ষান্মাসিক আৰু ত্ৰৈমাসিক অডিট"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The CAG conducts financial audit, compliance audit and performance audit.",
+        "as": "চিএজিয়ে আৰ্থিক অডিট, অনুপালন অডিট আৰু কাৰ্য্যদক্ষতা অডিট চলায়।"
       }
     },
     {
-      "q": {
-        "en": "Is the CAG a member of the Parliament?",
-        "as": "CAG সংসদৰ সদস্য হয় নেকি?"
-      },
-      "a": {
-        "en": "No, the CAG is not a member of the Parliament.",
-        "as": "নাই, CAG সংসদৰ সদস্য নহয়।"
+      "question_en": "Is the CAG a member of the Parliament?",
+      "question_as": "CAG সংসদৰ সদস্য হয় নেকি?",
+      "answer_en": "No, the CAG is not a member of the Parliament",
+      "answer_as": "নাই, চিএজি সংসদৰ সদস্য নহয়",
+      "options": [
+        {
+          "en": "Yes, of the Lok Sabha",
+          "as": "হয়, লোকসভাৰ"
+        },
+        {
+          "en": "Yes, of the Rajya Sabha",
+          "as": "হয়, ৰাজ্যসভাৰ"
+        },
+        {
+          "en": "No",
+          "as": "নহয়"
+        },
+        {
+          "en": "Only during the budget session",
+          "as": "কেৱল বাজেট অধিৱেশনত"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The CAG is not a member of the Parliament.",
+        "as": "চিএজি সংসদৰ সদস্য নহয়।"
       }
     },
     {
-      "q": {
-        "en": "What is the role of the CAG in relation to the government companies?",
-        "as": "চৰকাৰী কোম্পানীসমূহৰ সৈতে CAG ৰ ভূমিকা কি?"
-      },
-      "a": {
-        "en": "He audits the accounts of government companies and corporations.",
-        "as": "তেওঁ চৰকাৰী কোম্পানী আৰু নিগমসমূহৰ হিচাপ-নিকাচ পৰীক্ষা কৰে।"
+      "question_en": "What is the role of the CAG in relation to the government companies?",
+      "question_as": "চৰকাৰী কোম্পানীসমূহৰ সৈতে CAG ৰ ভূমিকা কি?",
+      "answer_en": "He audits the accounts of government companies and corporations",
+      "answer_as": "তেওঁ চৰকাৰী কোম্পানী আৰু নিগমসমূহৰ হিচাপ-নিকাচ পৰীক্ষা কৰে",
+      "options": [
+        {
+          "en": "He audits the accounts of government companies and corporations",
+          "as": "তেওঁ চৰকাৰী কোম্পানী আৰু নিগমসমূহৰ হিচাপ-নিকাচ পৰীক্ষা কৰে"
+        },
+        {
+          "en": "He manages them",
+          "as": "তেওঁ সেইবোৰ পৰিচালনা কৰে"
+        },
+        {
+          "en": "He appoints their boards",
+          "as": "তেওঁ সেইবোৰৰ পৰিচালনা পৰিষদ নিযুক্তি দিয়ে"
+        },
+        {
+          "en": "He has no role",
+          "as": "তেওঁৰ কোনো ভূমিকা নাই"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The CAG audits the accounts of government companies and corporations.",
+        "as": "চিএজিয়ে চৰকাৰী কোম্পানী আৰু নিগমসমূহৰ হিচাপ পৰীক্ষা কৰে।"
       }
     },
     {
-      "q": {
-        "en": "Who is known as the 'Watchdog of the Public Purse'?",
-        "as": "'ৰাজহুৱা ধনৰ প্ৰহৰী' নামে কোন জনাজাত?"
-      },
-      "a": {
-        "en": "The Comptroller and Auditor General of India.",
-        "as": "ভাৰতৰ নিয়ন্ত্ৰক-মহানিৰীক্ষক।"
+      "question_en": "Who is known as the 'Watchdog of the Public Purse'?",
+      "question_as": "'ৰাজহুৱা ধনৰ প্ৰহৰী' নামে কোন জনাজাত?",
+      "answer_en": "The Comptroller and Auditor General of India",
+      "answer_as": "ভাৰতৰ নিয়ন্ত্ৰক-মহানিৰীক্ষক",
+      "options": [
+        {
+          "en": "The President",
+          "as": "ৰাষ্ট্ৰপতি"
+        },
+        {
+          "en": "The Comptroller and Auditor General",
+          "as": "নিয়ন্ত্ৰক-মহানিৰীক্ষক"
+        },
+        {
+          "en": "The Prime Minister",
+          "as": "প্ৰধানমন্ত্ৰী"
+        },
+        {
+          "en": "The RBI",
+          "as": "আৰবিআই"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The CAG is known as the 'Watchdog of the Public Purse'.",
+        "as": "চিএজিক 'ৰাজহুৱা ধনৰ প্ৰহৰী' বুলি জনা যায়।"
       }
     },
     {
-      "q": {
-        "en": "What happens to the CAG report after it is submitted to the President?",
-        "as": "ৰাষ্ট্ৰপতিক দাখিল কৰাৰ পিছত CAG প্ৰতিবেদনৰ কি হয়?"
-      },
-      "a": {
-        "en": "It is laid before the Parliament for examination.",
-        "as": "ই পৰীক্ষাৰ বাবে সংসদত দাখিল কৰা হয়।"
+      "question_en": "What happens to the CAG report after it is submitted to the President?",
+      "question_as": "ৰাষ্ট্ৰপতিক দাখিল কৰাৰ পিছত CAG প্ৰতিবেদনৰ কি হয়?",
+      "answer_en": "It is laid before the Parliament for examination",
+      "answer_as": "ই পৰীক্ষাৰ বাবে সংসদত দাখিল কৰা হয়",
+      "options": [
+        {
+          "en": "It is laid before the Parliament for examination",
+          "as": "ই পৰীক্ষাৰ বাবে সংসদত দাখিল কৰা হয়"
+        },
+        {
+          "en": "It is kept secret",
+          "as": "ই গোপন ৰখা হয়"
+        },
+        {
+          "en": "It is sent to the PM only",
+          "as": "ই কেৱল প্ৰধানমন্ত্ৰীলৈ পঠিওৱা হয়"
+        },
+        {
+          "en": "It is published in the Gazette only",
+          "as": "ই কেৱল ৰাজপত্ৰত প্ৰকাশ কৰা হয়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "After submission to the President the CAG report is laid before the Parliament for examination.",
+        "as": "ৰাষ্ট্ৰপতিক দাখিল কৰাৰ পিছত চিএজি প্ৰতিবেদন পৰীক্ষাৰ বাবে সংসদত দাখিল কৰা হয়।"
       }
     },
     {
-      "q": {
-        "en": "Does the CAG require the consent of any authority to audit the government accounts?",
-        "as": "চৰকাৰী হিচাপ-নিকাচ পৰীক্ষা কৰিবলৈ CAG য়ে কোনো কৰ্তৃপক্ষৰ অনুমতি ল'ব লাগে নেকি?"
-      },
-      "a": {
-        "en": "No, the CAG can audit the accounts of the government on his own authority.",
-        "as": "নাই, CAG য়ে নিজ ক্ষমতাত চৰকাৰী হিচাপ-নিকাচ পৰীক্ষা কৰিব পাৰে।"
+      "question_en": "Does the CAG require the consent of any authority to audit the government accounts?",
+      "question_as": "চৰকাৰী হিচাপ-নিকাচ পৰীক্ষা কৰিবলৈ CAG য়ে কোনো কৰ্তৃপক্ষৰ অনুমতি ল'ব লাগে নেকি?",
+      "answer_en": "No, the CAG can audit on his own authority",
+      "answer_as": "নাই, চিএজিয়ে নিজ ক্ষমতাত অডিট কৰিব পাৰে",
+      "options": [
+        {
+          "en": "Yes, of the President",
+          "as": "হয়, ৰাষ্ট্ৰপতিৰ"
+        },
+        {
+          "en": "Yes, of Parliament",
+          "as": "হয়, সংসদৰ"
+        },
+        {
+          "en": "No, on his own authority",
+          "as": "নাই, তেওঁৰ নিজ ক্ষমতাত"
+        },
+        {
+          "en": "Yes, of the Finance Ministry",
+          "as": "হয়, বিত্ত মন্ত্ৰালয়ৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The CAG does not require the consent of any authority to audit government accounts.",
+        "as": "চৰকাৰী হিচাপ অডিট কৰিবলৈ চিএজিয়ে কোনো কৰ্তৃপক্ষৰ সন্মতিৰ প্ৰয়োজন নাই।"
       }
     },
     {
-      "q": {
-        "en": "Which Article empowers the CAG to audit the accounts of the states?",
-        "as": "কোন অনুচ্ছেদে ৰাজ্যসমূহৰ হিচাপ-নিকাচ পৰীক্ষা কৰিবলৈ CAG ক ক্ষমতা দিয়ে?"
-      },
-      "a": {
-        "en": "Article 149.",
-        "as": "অনুচ্ছেদ ১৪৯।"
+      "question_en": "Which Article empowers the CAG to audit the accounts of the states?",
+      "question_as": "কোন অনুচ্ছেদে ৰাজ্যসমূহৰ হিচাপ-নিকাচ পৰীক্ষা কৰিবলৈ CAG ক ক্ষমতা দিয়ে?",
+      "answer_en": "Article 149",
+      "answer_as": "অনুচ্ছেদ ১৪৯",
+      "options": [
+        {
+          "en": "Article 148",
+          "as": "অনুচ্ছেদ ১৪৮"
+        },
+        {
+          "en": "Article 149",
+          "as": "অনুচ্ছেদ ১৪৯"
+        },
+        {
+          "en": "Article 150",
+          "as": "অনুচ্ছেদ ১৫০"
+        },
+        {
+          "en": "Article 151",
+          "as": "অনুচ্ছেদ ১৫১"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Article 149 empowers the CAG to audit the accounts of the states.",
+        "as": "অনুচ্ছেদ ১৪৯-য়ে চিএজিক ৰাজ্যসমূহৰ হিচাপ অডিট কৰাৰ ক্ষমতা দিয়ে।"
       }
     }
   ]

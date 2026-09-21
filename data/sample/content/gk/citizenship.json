@@ -1,185 +1,763 @@
 {
   "title": "Citizenship - Indian Constitution (Bilingual English & Assamese)",
   "subject": "Political Science - Constitution & Rights",
-  "language_pair": ["English", "Assamese"],
+  "language_pair": [
+    "English",
+    "Assamese"
+  ],
   "total_questions": 25,
   "question_format": "Simple question and answer",
   "generated": "2026-08-18",
   "questions": [
     {
-      "category": "Citizenship",
       "question_en": "In which Part of the Indian Constitution are the provisions relating to citizenship found?",
       "question_as": "ভাৰতীয় সংবিধানৰ নাগৰিকত্ব সম্পৰ্কীয় বিধানসমূহ কোনটো ভাগত আছে?",
-      "answer_en": "Part II (Articles 5 to 11).",
-      "answer_as": "দ্বিতীয় ভাগত (ধাৰা ৫ ৰ পৰা ১১)।"
+      "answer_en": "Part II (Articles 5 to 11)",
+      "answer_as": "দ্বিতীয় ভাগ (অনুচ্ছেদ ৫ ৰ পৰা ১১)",
+      "options": [
+        {
+          "en": "Part I",
+          "as": "প্ৰথম ভাগ"
+        },
+        {
+          "en": "Part II",
+          "as": "দ্বিতীয় ভাগ"
+        },
+        {
+          "en": "Part III",
+          "as": "তৃতীয় ভাগ"
+        },
+        {
+          "en": "Part IV",
+          "as": "চতুৰ্থ ভাগ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Citizenship provisions are found in Part II of the Constitution (Articles 5 to 11).",
+        "as": "নাগৰিকত্বৰ বিধানসমূহ সংবিধানৰ দ্বিতীয় ভাগত (অনুচ্ছেদ ৫ ৰ পৰা ১১) আছে।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "Which Articles of the Constitution deal with citizenship?",
       "question_as": "সংবিধানৰ নাগৰিকত্ব সম্পৰ্কীয় ধাৰাসমূহ কোনবোৰ?",
-      "answer_en": "Articles 5 to 11.",
-      "answer_as": "ধাৰা ৫ ৰ পৰা ধাৰা ১১ লৈ।"
+      "answer_en": "Articles 5 to 11",
+      "answer_as": "অনুচ্ছেদ ৫ ৰ পৰা ১১",
+      "options": [
+        {
+          "en": "Articles 5 to 11",
+          "as": "অনুচ্ছেদ ৫ ৰ পৰা ১১"
+        },
+        {
+          "en": "Articles 12 to 35",
+          "as": "অনুচ্ছেদ ১২ ৰ পৰা ৩৫"
+        },
+        {
+          "en": "Articles 36 to 51",
+          "as": "অনুচ্ছেদ ৩৬ ৰ পৰা ৫১"
+        },
+        {
+          "en": "Articles 1 to 4",
+          "as": "অনুচ্ছেদ ১ ৰ পৰা ৪"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Articles 5 to 11 of the Constitution deal with citizenship.",
+        "as": "সংবিধানৰ অনুচ্ছেদ ৫ ৰ পৰা ১১-য়ে নাগৰিকত্বৰ বিষয়ে আলোচনা কৰে।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "From which country's constitution did India adopt the idea of single citizenship?",
       "question_as": "একক নাগৰিকত্বৰ ধাৰণা ভাৰতে কোন দেশৰ সংবিধানৰ পৰা গ্ৰহণ কৰিছিল?",
-      "answer_en": "Britain (British Constitution).",
-      "answer_as": "ব্ৰিটেইনৰ পৰা (ব্ৰিটিছ সংবিধান)।"
+      "answer_en": "Britain (British Constitution)",
+      "answer_as": "ব্ৰিটেইন (ব্ৰিটিছ সংবিধান)",
+      "options": [
+        {
+          "en": "The USA",
+          "as": "আমেৰিকা"
+        },
+        {
+          "en": "Britain (British Constitution)",
+          "as": "ব্ৰিটেইন (ব্ৰিটিছ সংবিধান)"
+        },
+        {
+          "en": "Canada",
+          "as": "কানাডা"
+        },
+        {
+          "en": "Australia",
+          "as": "অষ্ট্ৰেলিয়া"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "India adopted the idea of single citizenship from the British Constitution.",
+        "as": "ভাৰতে একক নাগৰিকত্বৰ ধাৰণা ব্ৰিটিছ সংবিধানৰ পৰা গ্ৰহণ কৰিছে।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "What kind of citizenship does India provide?",
       "question_as": "ভাৰতে কি ধৰণৰ নাগৰিকত্ব ব্যৱস্থা প্ৰদান কৰে?",
-      "answer_en": "Single citizenship.",
-      "answer_as": "একক নাগৰিকত্ব।"
+      "answer_en": "Single citizenship",
+      "answer_as": "একক নাগৰিকত্ব",
+      "options": [
+        {
+          "en": "Single citizenship",
+          "as": "একক নাগৰিকত্ব"
+        },
+        {
+          "en": "Dual citizenship",
+          "as": "দ্বৈত নাগৰিকত্ব"
+        },
+        {
+          "en": "Triple citizenship",
+          "as": "ত্ৰৈত নাগৰিকত্ব"
+        },
+        {
+          "en": "No citizenship",
+          "as": "নাগৰিকত্ব নাই"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "India provides single citizenship; there is no separate state citizenship.",
+        "as": "ভাৰতত একক নাগৰিকত্ব আছে; পৃথক ৰাজ্য নাগৰিকত্ব নাই।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "Which Article deals with citizenship at the commencement of the Constitution (26 January 1950)?",
       "question_as": "সংবিধান আৰম্ভণিৰ সময়ত (১৯৫০ চনৰ ২৬ জানুৱাৰী) নাগৰিকত্ব সম্পৰ্কীয় বিধান কোন ধাৰাত আছে?",
-      "answer_en": "Article 5.",
-      "answer_as": "ধাৰা ৫।"
+      "answer_en": "Article 5",
+      "answer_as": "অনুচ্ছেদ ৫",
+      "options": [
+        {
+          "en": "Article 5",
+          "as": "অনুচ্ছেদ ৫"
+        },
+        {
+          "en": "Article 6",
+          "as": "অনুচ্ছেদ ৬"
+        },
+        {
+          "en": "Article 7",
+          "as": "অনুচ্ছেদ ৭"
+        },
+        {
+          "en": "Article 8",
+          "as": "অনুচ্ছেদ ৮"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Article 5 deals with citizenship at the commencement of the Constitution (26 January 1950).",
+        "as": "অনুচ্ছেদ ৫-য়ে সংবিধান প্ৰৱৰ্তনৰ সময়ত (১৯৫০ চনৰ ২৬ জানুৱাৰী) নাগৰিকত্বৰ বিষয়ে আলোচনা কৰে।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "Which Articles deal with the citizenship of migrants to India from Pakistan?",
       "question_as": "পাকিস্তানৰ পৰা ভাৰতলৈ অহা পৰিযাতাসকলৰ নাগৰিকত্ব কোনবোৰ ধাৰাত উল্লেখ আছে?",
-      "answer_en": "Articles 6 and 7.",
-      "answer_as": "ধাৰা ৬ আৰু ধাৰা ৭।"
+      "answer_en": "Articles 6 and 7",
+      "answer_as": "অনুচ্ছেদ ৬ আৰু ৭",
+      "options": [
+        {
+          "en": "Articles 5 and 6",
+          "as": "অনুচ্ছেদ ৫ আৰু ৬"
+        },
+        {
+          "en": "Articles 6 and 7",
+          "as": "অনুচ্ছেদ ৬ আৰু ৭"
+        },
+        {
+          "en": "Articles 7 and 8",
+          "as": "অনুচ্ছেদ ৭ আৰু ৮"
+        },
+        {
+          "en": "Articles 9 and 10",
+          "as": "অনুচ্ছেদ ৯ আৰু ১০"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Articles 6 and 7 deal with the citizenship of migrants to India from Pakistan.",
+        "as": "অনুচ্ছেদ ৬ আৰু ৭-য়ে পাকিস্তানৰ পৰা ভাৰতলৈ অহা প্ৰব্ৰজনকাৰীসকলৰ নাগৰিকত্বৰ বিষয়ে আলোচনা কৰে।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "Which Article deals with the citizenship of persons of Indian origin residing outside India?",
       "question_as": "ভাৰতৰ বাহিৰত বাস কৰা ভাৰতীয় মূলৰ ব্যক্তিসকলৰ নাগৰিকত্ব কোন ধাৰাত উল্লেখ আছে?",
-      "answer_en": "Article 8.",
-      "answer_as": "ধাৰা ৮।"
+      "answer_en": "Article 8",
+      "answer_as": "অনুচ্ছেদ ৮",
+      "options": [
+        {
+          "en": "Article 6",
+          "as": "অনুচ্ছেদ ৬"
+        },
+        {
+          "en": "Article 7",
+          "as": "অনুচ্ছেদ ৭"
+        },
+        {
+          "en": "Article 8",
+          "as": "অনুচ্ছেদ ৮"
+        },
+        {
+          "en": "Article 9",
+          "as": "অনুচ্ছেদ ৯"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Article 8 deals with the citizenship of persons of Indian origin residing outside India.",
+        "as": "অনুচ্ছেদ ৮-য়ে ভাৰতৰ বাহিৰত বাস কৰা ভাৰতীয় মূলৰ লোকসকলৰ নাগৰিকত্বৰ বিষয়ে আলোচনা কৰে।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "Which Article says that a person who voluntarily acquires the citizenship of a foreign state shall not be a citizen of India?",
       "question_as": "স্বেচ্ছাই বিদেশী ৰাষ্ট্ৰৰ নাগৰিকত্ব গ্ৰহণ কৰা ব্যক্তি ভাৰতীয় নাগৰিক নহ'ব বুলি কোন ধাৰাত কোৱা হৈছে?",
-      "answer_en": "Article 9.",
-      "answer_as": "ধাৰা ৯।"
+      "answer_en": "Article 9",
+      "answer_as": "অনুচ্ছেদ ৯",
+      "options": [
+        {
+          "en": "Article 8",
+          "as": "অনুচ্ছেদ ৮"
+        },
+        {
+          "en": "Article 9",
+          "as": "অনুচ্ছেদ ৯"
+        },
+        {
+          "en": "Article 10",
+          "as": "অনুচ্ছেদ ১০"
+        },
+        {
+          "en": "Article 11",
+          "as": "অনুচ্ছেদ ১১"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Article 9 says a person who voluntarily acquires foreign citizenship shall not be a citizen of India.",
+        "as": "অনুচ্ছেদ ৯-য়ে কয় যে স্বেচ্ছাই বিদেশী ৰাষ্ট্ৰৰ নাগৰিকত্ব গ্ৰহণ কৰা ব্যক্তি ভাৰতৰ নাগৰিক নহ'ব।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "Which Article deals with the continuance of the rights of citizenship?",
       "question_as": "নাগৰিকত্বৰ অধিকাৰ অব্যাহত থাকিব বুলি কোন ধাৰাত কোৱা হৈছে?",
-      "answer_en": "Article 10.",
-      "answer_as": "ধাৰা ১০।"
+      "answer_en": "Article 10",
+      "answer_as": "অনুচ্ছেদ ১০",
+      "options": [
+        {
+          "en": "Article 9",
+          "as": "অনুচ্ছেদ ৯"
+        },
+        {
+          "en": "Article 10",
+          "as": "অনুচ্ছেদ ১০"
+        },
+        {
+          "en": "Article 11",
+          "as": "অনুচ্ছেদ ১১"
+        },
+        {
+          "en": "Article 5",
+          "as": "অনুচ্ছেদ ৫"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Article 10 deals with the continuance of the rights of citizenship.",
+        "as": "অনুচ্ছেদ ১০-য়ে নাগৰিকত্বৰ অধিকাৰৰ ধাৰাবাহিকতাৰ বিষয়ে আলোচনা কৰে।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "Which Article gives Parliament the power to regulate the right of citizenship by law?",
       "question_as": "আইনদ্বাৰা নাগৰিকত্বৰ অধিকাৰ নিয়ন্ত্ৰণ কৰাৰ ক্ষমতা সংসদক কোন ধাৰাই প্ৰদান কৰে?",
-      "answer_en": "Article 11.",
-      "answer_as": "ধাৰা ১১।"
+      "answer_en": "Article 11",
+      "answer_as": "অনুচ্ছেদ ১১",
+      "options": [
+        {
+          "en": "Article 10",
+          "as": "অনুচ্ছেদ ১০"
+        },
+        {
+          "en": "Article 11",
+          "as": "অনুচ্ছেদ ১১"
+        },
+        {
+          "en": "Article 12",
+          "as": "অনুচ্ছেদ ১২"
+        },
+        {
+          "en": "Article 13",
+          "as": "অনুচ্ছেদ ১৩"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Article 11 gives Parliament the power to regulate the right of citizenship by law.",
+        "as": "অনুচ্ছেদ ১১-য়ে আইনৰ দ্বাৰা নাগৰিকত্বৰ অধিকাৰ নিয়ন্ত্ৰণ কৰাৰ ক্ষমতা সংসদক দিয়ে।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "Which Act governs the acquisition and termination of citizenship in India?",
       "question_as": "ভাৰতত নাগৰিকত্ব অৰ্জন আৰু সমাপ্তি কোনখন আইনৰ দ্বাৰা নিয়ন্ত্ৰিত হয়?",
-      "answer_en": "The Citizenship Act, 1955.",
-      "answer_as": "নাগৰিকত্ব আইন, ১৯৫৫।"
+      "answer_en": "The Citizenship Act, 1955",
+      "answer_as": "নাগৰিকত্ব আইন, ১৯৫৫",
+      "options": [
+        {
+          "en": "The Citizenship Act, 1950",
+          "as": "নাগৰিকত্ব আইন, ১৯৫০"
+        },
+        {
+          "en": "The Citizenship Act, 1955",
+          "as": "নাগৰিকত্ব আইন, ১৯৫৫"
+        },
+        {
+          "en": "The Citizenship Act, 1986",
+          "as": "নাগৰিকত্ব আইন, ১৯৮৬"
+        },
+        {
+          "en": "The Citizenship Act, 2003",
+          "as": "নাগৰিকত্ব আইন, ২০০৩"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Citizenship Act, 1955 governs the acquisition and termination of citizenship in India.",
+        "as": "নাগৰিকত্ব আইন, ১৯৫৫-য়ে ভাৰতত নাগৰিকত্বৰ আহৰণ আৰু সমাপ্তি নিয়ন্ত্ৰণ কৰে।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "What are the five ways of acquiring citizenship under the Citizenship Act, 1955?",
       "question_as": "নাগৰিকত্ব আইন, ১৯৫৫ অনুসৰি নাগৰিকত্ব অৰ্জনৰ পাঁচটা উপায় কি কি?",
-      "answer_en": "By birth, by descent, by registration, by naturalisation, and by incorporation of territory.",
-      "answer_as": "জন্মসূত্ৰে, বংশসূত্ৰে, পঞ্জীয়নৰ দ্বাৰা, স্বাভাৱিকীকৰণৰ দ্বাৰা আৰু অঞ্চল সংযোজনৰ দ্বাৰা।"
+      "answer_en": "By birth, descent, registration, naturalisation and incorporation of territory",
+      "answer_as": "জন্মসূত্ৰে, বংশসূত্ৰে, পঞ্জীয়নৰ দ্বাৰা, স্বাভাৱিকীকৰণৰ দ্বাৰা আৰু অঞ্চল সংযোজনৰ দ্বাৰা",
+      "options": [
+        {
+          "en": "By birth, descent, registration, naturalisation and incorporation of territory",
+          "as": "জন্মসূত্ৰে, বংশসূত্ৰে, পঞ্জীয়নৰ দ্বাৰা, স্বাভাৱিকীকৰণৰ দ্বাৰা আৰু অঞ্চল সংযোজনৰ দ্বাৰা"
+        },
+        {
+          "en": "By birth, marriage, work, land and vote",
+          "as": "জন্ম, বিবাহ, কাম, ভূমি আৰু ভোটৰ দ্বাৰা"
+        },
+        {
+          "en": "By descent, purchase, gift, treaty and war",
+          "as": "বংশ, ক্ৰয়, দান, সন্ধি আৰু যুদ্ধৰ দ্বাৰা"
+        },
+        {
+          "en": "By registration, election, appointment, migration and census",
+          "as": "পঞ্জীয়ন, নিৰ্বাচন, নিয়োগ, প্ৰব্ৰজন আৰু জনগণনাৰ দ্বাৰা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Under the Citizenship Act, 1955 citizenship may be acquired by birth, descent, registration, naturalisation and incorporation of territory.",
+        "as": "নাগৰিকত্ব আইন, ১৯৫৫ অনুসৰি জন্ম, বংশ, পঞ্জীয়ন, স্বাভাৱিকীকৰণ আৰু অঞ্চল সংযোজনৰ দ্বাৰা নাগৰিকত্ব লাভ কৰিব পাৰি।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "What are the three ways of losing citizenship under the Citizenship Act, 1955?",
       "question_as": "নাগৰিকত্ব আইন, ১৯৫৫ অনুসৰি নাগৰিকত্ব হেৰুৱাব পৰা তিনিটা উপায় কি কি?",
-      "answer_en": "Renunciation, termination, and deprivation.",
-      "answer_as": "ত্যাগ, সমাপ্তি আৰু বঞ্চনা।"
+      "answer_en": "Renunciation, termination and deprivation",
+      "answer_as": "ত্যাগ, সমাপ্তি আৰু বঞ্চনা",
+      "options": [
+        {
+          "en": "Renunciation, termination and deprivation",
+          "as": "ত্যাগ, সমাপ্তি আৰু বঞ্চনা"
+        },
+        {
+          "en": "Birth, death and marriage",
+          "as": "জন্ম, মৃত্যু আৰু বিবাহ"
+        },
+        {
+          "en": "Sale, gift and will",
+          "as": "বিক্ৰয়, দান আৰু উইল"
+        },
+        {
+          "en": "Exit, entry and return",
+          "as": "প্ৰস্থান, প্ৰৱেশ আৰু প্ৰত্যাৱৰ্তন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Citizenship may be lost by renunciation, termination and deprivation under the Citizenship Act, 1955.",
+        "as": "নাগৰিকত্ব আইন, ১৯৫৫ অনুসৰি ত্যাগ, সমাপ্তি আৰু বঞ্চনাৰ দ্বাৰা নাগৰিকত্ব হেৰুৱাব পাৰি।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "When was the Citizenship Act first amended to restrict citizenship by birth?",
       "question_as": "জন্মসূত্ৰে নাগৰিকত্ব সীমিত কৰিবলৈ নাগৰিকত্ব আইন কেতিয়া প্ৰথম সংশোধন কৰা হৈছিল?",
-      "answer_en": "In 1986.",
-      "answer_as": "১৯৮৬ চনত।"
+      "answer_en": "In 1986",
+      "answer_as": "১৯৮৬ চনত",
+      "options": [
+        {
+          "en": "In 1955",
+          "as": "১৯৫৫ চনত"
+        },
+        {
+          "en": "In 1986",
+          "as": "১৯৮৬ চনত"
+        },
+        {
+          "en": "In 2003",
+          "as": "২০০৩ চনত"
+        },
+        {
+          "en": "In 2019",
+          "as": "২০১৯ চনত"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Citizenship Act was first amended in 1986 to restrict citizenship by birth.",
+        "as": "জন্মসূত্ৰে নাগৰিকত্ব সীমাবদ্ধ কৰিবলৈ নাগৰিকত্ব আইন প্ৰথমে ১৯৮৬ চনত সংশোধন কৰা হৈছিল।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "What condition did the 1986 amendment impose for citizenship by birth?",
       "question_as": "১৯৮৬ চনৰ সংশোধনী অনুসৰি জন্মসূত্ৰে নাগৰিকত্বৰ ক্ষেত্ৰত কি চৰ্ত আৰোপ কৰা হৈছিল?",
-      "answer_en": "For those born on or after 1 July 1987, at least one parent must be an Indian citizen.",
-      "answer_as": "১৯৮৭ চনৰ ১ জুলাই বা তাৰ পিছত জন্ম হোৱা ব্যক্তিৰ অন্ততঃ এজন পিতৃ-মাতৃ ভাৰতীয় নাগৰিক হ'ব লাগিব।"
+      "answer_en": "At least one parent must be an Indian citizen",
+      "answer_as": "অন্ততঃ এজন পিতৃ-মাতৃ ভাৰতীয় নাগৰিক হ'ব লাগিব",
+      "options": [
+        {
+          "en": "Both parents must be citizens",
+          "as": "দুয়োজন পিতৃ-মাতৃ নাগৰিক হ'ব লাগিব"
+        },
+        {
+          "en": "At least one parent must be an Indian citizen",
+          "as": "অন্ততঃ এজন পিতৃ-মাতৃ ভাৰতীয় নাগৰিক হ'ব লাগিব"
+        },
+        {
+          "en": "One parent must not be an illegal migrant",
+          "as": "এজন পিতৃ-মাতৃ অবৈধ অনুপ্ৰৱেশকাৰী নহ'ব লাগিব"
+        },
+        {
+          "en": "Seven years of residence",
+          "as": "সাত বছৰ বাসস্থান"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Under the 1986 amendment, for those born on or after 1 July 1987 at least one parent had to be an Indian citizen.",
+        "as": "১৯৮৬ চনৰ সংশোধনী অনুসৰি ১৯৮৭ চনৰ ১ জুলাই বা তাৰ পিছত জন্ম হোৱা লোকৰ অন্ততঃ এজন পিতৃ-মাতৃ ভাৰতীয় নাগৰিক হ'ব লাগিছিল।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "What condition did the 2003 amendment impose for citizenship by birth?",
       "question_as": "২০০৩ চনৰ সংশোধনী অনুসৰি জন্মসূত্ৰে নাগৰিকত্বৰ ক্ষেত্ৰত কি চৰ্ত আছে?",
-      "answer_en": "For those born on or after 3 December 2004, both parents must be citizens, or one parent must be a citizen and the other not an illegal migrant.",
-      "answer_as": "২০০৪ চনৰ ৩ ডিচেম্বৰ বা তাৰ পিছত জন্ম হোৱা ব্যক্তিৰ দুয়োজন পিতৃ-মাতৃ ভাৰতীয় নাগৰিক হ'ব লাগিব, বা এজন নাগৰিক আৰু আনজন অবৈধ অনুপ্ৰৱেশকাৰী নহ'ব লাগিব।"
+      "answer_en": "Both parents must be citizens, or one parent a citizen and the other not an illegal migrant",
+      "answer_as": "দুয়োজন পিতৃ-মাতৃ নাগৰিক, বা এজন নাগৰিক আৰু আনজন অবৈধ অনুপ্ৰৱেশকাৰী নহয়",
+      "options": [
+        {
+          "en": "At least one parent must be a citizen",
+          "as": "অন্ততঃ এজন পিতৃ-মাতৃ নাগৰিক হ'ব লাগিব"
+        },
+        {
+          "en": "Both parents must be citizens, or one parent a citizen and the other not an illegal migrant",
+          "as": "দুয়োজন পিতৃ-মাতৃ নাগৰিক, বা এজন নাগৰিক আৰু আনজন অবৈধ অনুপ্ৰৱেশকাৰী নহয়"
+        },
+        {
+          "en": "Birth in India is enough",
+          "as": "ভাৰতত জন্ম হ'লেই যথেষ্ট"
+        },
+        {
+          "en": "Ten years of residence",
+          "as": "দহ বছৰ বাসস্থান"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The 2003 amendment required that for those born on or after 3 December 2004, both parents be citizens, or one parent a citizen and the other not an illegal migrant.",
+        "as": "২০০৩ চনৰ সংশোধনীয়ে নিৰ্ধাৰণ কৰিছিল যে ২০০৪ চনৰ ৩ ডিচেম্বৰ বা তাৰ পিছত জন্ম হোৱা লোকৰ দুয়োজন পিতৃ-মাতৃ নাগৰিক, বা এজন নাগৰিক আৰু আনজন অবৈধ অনুপ্ৰৱেশকাৰী নহ'ব লাগিব।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "In which year was the Overseas Citizen of India (OCI) scheme introduced?",
       "question_as": "ভাৰতীয় বিদেশী নাগৰিক (ওচিআই) ব্যৱস্থা কোন চনত প্ৰৱৰ্তন কৰা হৈছিল?",
-      "answer_en": "In 2005.",
-      "answer_as": "২০০৫ চনত।"
+      "answer_en": "In 2005",
+      "answer_as": "২০০৫ চনত",
+      "options": [
+        {
+          "en": "In 1999",
+          "as": "১৯৯৯ চনত"
+        },
+        {
+          "en": "In 2003",
+          "as": "২০০৩ চনত"
+        },
+        {
+          "en": "In 2005",
+          "as": "২০০৫ চনত"
+        },
+        {
+          "en": "In 2019",
+          "as": "২০১৯ চনত"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Overseas Citizen of India (OCI) scheme was introduced in 2005.",
+        "as": "প্ৰবাসী ভাৰতীয় নাগৰিক (ওচিআই) আঁচনি ২০০৫ চনত প্ৰৱৰ্তন কৰা হৈছিল।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "Is OCI (Overseas Citizen of India) full citizenship of India?",
       "question_as": "ওচিআই (ভাৰতীয় বিদেশী নাগৰিক) ভাৰতৰ সম্পূৰ্ণ নাগৰিকত্ব হয়নে?",
-      "answer_en": "No. OCIs cannot vote and cannot hold constitutional offices.",
-      "answer_as": "নহয়। ওচিআই ধাৰকসকলে ভোট দিব নোৱাৰে আৰু সাংবিধানিক পদত অধিষ্ঠিত হ'ব নোৱাৰে।"
+      "answer_en": "No; OCIs cannot vote and cannot hold constitutional offices",
+      "answer_as": "নহয়; ওচিআই ধাৰকসকলে ভোট দিব নোৱাৰে আৰু সাংবিধানিক পদত অধিষ্ঠিত হ'ব নোৱাৰে",
+      "options": [
+        {
+          "en": "Yes, it is full citizenship",
+          "as": "হয়, এয়া পূৰ্ণ নাগৰিকত্ব"
+        },
+        {
+          "en": "No; OCIs cannot vote and cannot hold constitutional offices",
+          "as": "নহয়; ওচিআই ধাৰকসকলে ভোট দিব নোৱাৰে আৰু সাংবিধানিক পদত থাকিব নোৱাৰে"
+        },
+        {
+          "en": "Yes, but without a passport",
+          "as": "হয়, কিন্তু পাছপৰ্ট নোহোৱাকৈ"
+        },
+        {
+          "en": "It is the same as NRI",
+          "as": "এয়া এনআৰআইৰ সৈতে একেই"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "OCI is not full citizenship; OCI holders cannot vote and cannot hold constitutional offices.",
+        "as": "ওচিআই পূৰ্ণ নাগৰিকত্ব নহয়; ওচিআই ধাৰকসকলে ভোট দিব নোৱাৰে আৰু সাংবিধানিক পদত থাকিব নোৱাৰে।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "Can an OCI (Overseas Citizen of India) holder vote in Indian elections?",
       "question_as": "ওচিআই (ভাৰতীয় বিদেশী নাগৰিক) ধাৰকে ভাৰতীয় নিৰ্বাচনত ভোট দিব পাৰেনে?",
-      "answer_en": "No, OCI holders cannot vote.",
-      "answer_as": "নোৱাৰে, ওচিআই ধাৰকসকলে ভোট দিব নোৱাৰে।"
+      "answer_en": "No, OCI holders cannot vote",
+      "answer_as": "নোৱাৰে, ওচিআই ধাৰকসকলে ভোট দিব নোৱাৰে",
+      "options": [
+        {
+          "en": "Yes",
+          "as": "হয়"
+        },
+        {
+          "en": "No, OCI holders cannot vote",
+          "as": "নহয়, ওচিআই ধাৰকসকলে ভোট দিব নোৱাৰে"
+        },
+        {
+          "en": "Only in local elections",
+          "as": "কেৱল স্থানীয় নিৰ্বাচনত"
+        },
+        {
+          "en": "Only in referendums",
+          "as": "কেৱল গণভোটত"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "OCI holders cannot vote in Indian elections.",
+        "as": "ওচিআই ধাৰকসকলে ভাৰতীয় নিৰ্বাচনত ভোট দিব নোৱাৰে।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "To which people does the Citizenship (Amendment) Act, 2019 grant citizenship?",
       "question_as": "নাগৰিকত্ব (সংশোধনী) আইন, ২০১৯-এ কোনবোৰ লোকক নাগৰিকত্ব প্ৰদান কৰে?",
-      "answer_en": "Persecuted religious minorities - Hindus, Sikhs, Buddhists, Jains, Parsis and Christians - from Pakistan, Bangladesh and Afghanistan.",
-      "answer_as": "পাকিস্তান, বাংলাদেশ আৰু আফগানিস্তানৰ পৰা অহা ধৰ্মীয় নিৰ্যাতনৰ চিকাৰ হোৱা হিন্দু, শিখ, বৌদ্ধ, জৈন, পাৰ্চী আৰু খ্ৰীষ্টান সম্প্ৰদায়ৰ লোকসকলক।"
+      "answer_en": "Persecuted religious minorities from Pakistan, Bangladesh and Afghanistan",
+      "answer_as": "পাকিস্তান, বাংলাদেশ আৰু আফগানিস্তানৰ পৰা অহা ধৰ্মীয় নিৰ্যাতনৰ চিকাৰ লোক",
+      "options": [
+        {
+          "en": "Persecuted religious minorities from Pakistan, Bangladesh and Afghanistan",
+          "as": "পাকিস্তান, বাংলাদেশ আৰু আফগানিস্তানৰ পৰা অহা ধৰ্মীয় নিৰ্যাতনৰ চিকাৰ লোক"
+        },
+        {
+          "en": "All migrants from neighbouring countries",
+          "as": "চুবুৰীয়া দেশৰ সকলো প্ৰব্ৰজনকাৰী"
+        },
+        {
+          "en": "Only Hindus from Bangladesh",
+          "as": "কেৱল বাংলাদেশৰ হিন্দুসকল"
+        },
+        {
+          "en": "Refugees from any country",
+          "as": "যিকোনো দেশৰ আশ্ৰয়প্ৰাৰ্থী"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The CAA, 2019 grants citizenship to persecuted Hindu, Sikh, Buddhist, Jain, Parsi and Christian minorities from Pakistan, Bangladesh and Afghanistan.",
+        "as": "নাগৰিকত্ব (সংশোধনী) আইন, ২০১৯-য়ে পাকিস্তান, বাংলাদেশ আৰু আফগানিস্তানৰ পৰা অহা নিৰ্যাতিত হিন্দু, শিখ, বৌদ্ধ, জৈন, পাৰ্চী আৰু খ্ৰীষ্টান সংখ্যালঘুসকলক নাগৰিকত্ব দিয়ে।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "What is the cut-off date fixed under the Citizenship (Amendment) Act, 2019?",
       "question_as": "নাগৰিকত্ব (সংশোধনী) আইন, ২০১৯-ৰ অধীনত চূড়ান্ত তাৰিখ (কাট-অফ) কি?",
-      "answer_en": "31 December 2014.",
-      "answer_as": "২০১৪ চনৰ ৩১ ডিচেম্বৰ।"
+      "answer_en": "31 December 2014",
+      "answer_as": "২০১৪ চনৰ ৩১ ডিচেম্বৰ",
+      "options": [
+        {
+          "en": "25 March 1971",
+          "as": "১৯৭১ চনৰ ২৫ মাৰ্চ"
+        },
+        {
+          "en": "31 December 2014",
+          "as": "২০১৪ চনৰ ৩১ ডিচেম্বৰ"
+        },
+        {
+          "en": "1 January 2015",
+          "as": "২০১৫ চনৰ ১ জানুৱাৰী"
+        },
+        {
+          "en": "15 August 1985",
+          "as": "১৯৮৫ চনৰ ১৫ আগষ্ট"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The cut-off date fixed under the Citizenship (Amendment) Act, 2019 is 31 December 2014.",
+        "as": "নাগৰিকত্ব (সংশোধনী) আইন, ২০১৯-ত নিৰ্ধাৰিত কাট-অফ তাৰিখ ২০১৪ চনৰ ৩১ ডিচেম্বৰ।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "How many religious communities are covered by the Citizenship (Amendment) Act, 2019?",
       "question_as": "নাগৰিকত্ব (সংশোধনী) আইন, ২০১৯-এ কিমানটা ধৰ্মীয় সম্প্ৰদায়ক সামৰি লৈছে?",
-      "answer_en": "Six - Hindus, Sikhs, Buddhists, Jains, Parsis and Christians.",
-      "answer_as": "ছয়টা - হিন্দু, শিখ, বৌদ্ধ, জৈন, পাৰ্চী আৰু খ্ৰীষ্টান।"
+      "answer_en": "Six",
+      "answer_as": "ছয়টা",
+      "options": [
+        {
+          "en": "Four",
+          "as": "চাৰিটা"
+        },
+        {
+          "en": "Five",
+          "as": "পাঁচটা"
+        },
+        {
+          "en": "Six",
+          "as": "ছয়টা"
+        },
+        {
+          "en": "Seven",
+          "as": "সাতটা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Six religious communities are covered by the CAA, 2019: Hindus, Sikhs, Buddhists, Jains, Parsis and Christians.",
+        "as": "চিএএ, ২০১৯-য়ে ছয়টা ধৰ্মীয় সম্প্ৰদায় সামৰে: হিন্দু, শিখ, বৌদ্ধ, জৈন, পাৰ্চী আৰু খ্ৰীষ্টান।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "From how many countries does the Citizenship (Amendment) Act, 2019 cover migrants?",
       "question_as": "নাগৰিকত্ব (সংশোধনী) আইন, ২০১৯-এ কিমানখন দেশৰ পৰিৱাসীসকলক সামৰি লৈছে?",
-      "answer_en": "Three - Pakistan, Bangladesh and Afghanistan.",
-      "answer_as": "তিনিখন - পাকিস্তান, বাংলাদেশ আৰু আফগানিস্তান।"
+      "answer_en": "Three",
+      "answer_as": "তিনিখন",
+      "options": [
+        {
+          "en": "Two",
+          "as": "দুখন"
+        },
+        {
+          "en": "Three",
+          "as": "তিনিখন"
+        },
+        {
+          "en": "Four",
+          "as": "চাৰিখন"
+        },
+        {
+          "en": "Five",
+          "as": "পাঁচখন"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The CAA, 2019 covers migrants from three countries: Pakistan, Bangladesh and Afghanistan.",
+        "as": "চিএএ, ২০১৯-য়ে তিনিখন দেশৰ পৰা অহা প্ৰব্ৰজনকাৰীক সামৰে: পাকিস্তান, বাংলাদেশ আৰু আফগানিস্তান।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "What cut-off date was fixed by the Assam Accord (1985) for the detection and deportation of foreigners?",
       "question_as": "অসম চুক্তি (১৯৮৫) অনুসৰি বিদেশী চিনাক্তকৰণ আৰু নিৰ্বাসনৰ বাবে চূড়ান্ত তাৰিখ কি?",
-      "answer_en": "25 March 1971.",
-      "answer_as": "১৯৭১ চনৰ ২৫ মাৰ্চ।"
+      "answer_en": "25 March 1971",
+      "answer_as": "১৯৭১ চনৰ ২৫ মাৰ্চ",
+      "options": [
+        {
+          "en": "31 December 2014",
+          "as": "২০১৪ চনৰ ৩১ ডিচেম্বৰ"
+        },
+        {
+          "en": "25 March 1971",
+          "as": "১৯৭১ চনৰ ২৫ মাৰ্চ"
+        },
+        {
+          "en": "1 January 1966",
+          "as": "১৯৬৬ চনৰ ১ জানুৱাৰী"
+        },
+        {
+          "en": "15 August 1985",
+          "as": "১৯৮৫ চনৰ ১৫ আগষ্ট"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Assam Accord (1985) fixed 25 March 1971 as the cut-off date for the detection and deportation of foreigners.",
+        "as": "অসম চুক্তি (১৯৮৫)-য়ে বিদেশী চিনাক্ত আৰু দেশান্তৰণৰ কাট-অফ তাৰিখ ১৯৭১ চনৰ ২৫ মাৰ্চ নিৰ্ধাৰণ কৰিছিল।"
+      },
+      "category": "Citizenship"
     },
     {
-      "category": "Citizenship",
       "question_en": "Who supervised the updating of the National Register of Citizens (NRC) in Assam?",
       "question_as": "অসমত ৰাষ্ট্ৰীয় নাগৰিক পঞ্জী (এনআৰচি) আপডেটৰ তত্ত্বাৱধান কোনে কৰিছিল?",
-      "answer_en": "The Supreme Court of India.",
-      "answer_as": "ভাৰতৰ উচ্চতম ন্যায়ালয়ে।"
+      "answer_en": "The Supreme Court of India",
+      "answer_as": "ভাৰতৰ উচ্চতম ন্যায়ালয়",
+      "options": [
+        {
+          "en": "The Election Commission",
+          "as": "নিৰ্বাচন আয়োগ"
+        },
+        {
+          "en": "The Supreme Court of India",
+          "as": "ভাৰতৰ উচ্চতম ন্যায়ালয়"
+        },
+        {
+          "en": "The President",
+          "as": "ৰাষ্ট্ৰপতি"
+        },
+        {
+          "en": "The Assam Government",
+          "as": "অসম চৰকাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The updating of the National Register of Citizens (NRC) in Assam was supervised by the Supreme Court of India.",
+        "as": "অসমত ৰাষ্ট্ৰীয় নাগৰিক পঞ্জী (এনআৰচি) হালনাগাদ ভাৰতৰ উচ্চতম ন্যায়ালয়ে তত্ত্বাৱধান কৰিছিল।"
+      },
+      "category": "Citizenship"
     }
   ]
 }

@@ -21,253 +21,728 @@
   "pdf": null,
   "questions": [
     {
-      "q": {
-        "en": "Under which Article of the Constitution is the Election Commission of India established?",
-        "as": "সংবিধানৰ কোন অনুচ্ছেদ অনুযায়ী ভাৰত নিৰ্বাচন আয়োগ স্থাপিত?"
-      },
-      "a": {
-        "en": "Article 324.",
-        "as": "অনুচ্ছেদ ৩২৪।"
+      "question_en": "Under which Article of the Constitution is the Election Commission of India established?",
+      "question_as": "সংবিধানৰ কোন অনুচ্ছেদ অনুযায়ী ভাৰত নিৰ্বাচন আয়োগ স্থাপিত?",
+      "answer_en": "Article 324",
+      "answer_as": "অনুচ্ছেদ ৩২৪",
+      "options": [
+        {
+          "en": "Article 324",
+          "as": "অনুচ্ছেদ ৩২৪"
+        },
+        {
+          "en": "Article 315",
+          "as": "অনুচ্ছেদ ৩১৫"
+        },
+        {
+          "en": "Article 148",
+          "as": "অনুচ্ছেদ ১৪৮"
+        },
+        {
+          "en": "Article 243K",
+          "as": "অনুচ্ছেদ ২৪৩কে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Election Commission of India is established under Article 324.",
+        "as": "ভাৰত নিৰ্বাচন আয়োগ অনুচ্ছেদ ৩২৪ অধীনত স্থাপিত।"
       }
     },
     {
-      "q": {
-        "en": "Who appoints the Chief Election Commissioner of India?",
-        "as": "ভাৰতৰ মুখ্য নিৰ্বাচন আয়ুক্তক কোনে নিযুক্তি দিয়ে?"
-      },
-      "a": {
-        "en": "The President of India.",
-        "as": "ভাৰতৰ ৰাষ্ট্ৰপতিয়ে।"
+      "question_en": "Who appoints the Chief Election Commissioner of India?",
+      "question_as": "ভাৰতৰ মুখ্য নিৰ্বাচন আয়ুক্তক কোনে নিযুক্তি দিয়ে?",
+      "answer_en": "The President of India",
+      "answer_as": "ভাৰতৰ ৰাষ্ট্ৰপতি",
+      "options": [
+        {
+          "en": "The Prime Minister",
+          "as": "প্ৰধানমন্ত্ৰী"
+        },
+        {
+          "en": "The President of India",
+          "as": "ভাৰতৰ ৰাষ্ট্ৰপতি"
+        },
+        {
+          "en": "The Chief Justice",
+          "as": "প্ৰধান ন্যায়াধীশ"
+        },
+        {
+          "en": "The Parliament",
+          "as": "সংসদ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Chief Election Commissioner is appointed by the President of India.",
+        "as": "মুখ্য নিৰ্বাচন আয়ুক্তক ভাৰতৰ ৰাষ্ট্ৰপতিয়ে নিযুক্তি দিয়ে।"
       }
     },
     {
-      "q": {
-        "en": "What is the composition of the Election Commission of India?",
-        "as": "ভাৰত নিৰ্বাচন আয়োগৰ গঠন কেনেকুৱা?"
-      },
-      "a": {
-        "en": "The Chief Election Commissioner and two Election Commissioners.",
-        "as": "মুখ্য নিৰ্বাচন আয়ুক্ত আৰু দুজন নিৰ্বাচন আয়ুক্ত।"
+      "question_en": "What is the composition of the Election Commission of India?",
+      "question_as": "ভাৰত নিৰ্বাচন আয়োগৰ গঠন কেনেকুৱা?",
+      "answer_en": "The Chief Election Commissioner and two Election Commissioners",
+      "answer_as": "মুখ্য নিৰ্বাচন আয়ুক্ত আৰু দুজন নিৰ্বাচন আয়ুক্ত",
+      "options": [
+        {
+          "en": "Only the Chief Election Commissioner",
+          "as": "কেৱল মুখ্য নিৰ্বাচন আয়ুক্ত"
+        },
+        {
+          "en": "The Chief Election Commissioner and two Election Commissioners",
+          "as": "মুখ্য নিৰ্বাচন আয়ুক্ত আৰু দুজন নিৰ্বাচন আয়ুক্ত"
+        },
+        {
+          "en": "Five members",
+          "as": "পাঁচজন সদস্য"
+        },
+        {
+          "en": "The President and two Governors",
+          "as": "ৰাষ্ট্ৰপতি আৰু দুজন ৰাজ্যপাল"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Election Commission of India consists of the Chief Election Commissioner and two Election Commissioners.",
+        "as": "ভাৰত নিৰ্বাচন আয়োগত মুখ্য নিৰ্বাচন আয়ুক্ত আৰু দুজন নিৰ্বাচন আয়ুক্ত থাকে।"
       }
     },
     {
-      "q": {
-        "en": "For how long does the Chief Election Commissioner hold office?",
-        "as": "মুখ্য নিৰ্বাচন আয়ুক্তয়ে কিমান সময়লৈ কাৰ্যভাৰ গ্ৰহণ কৰে?"
-      },
-      "a": {
-        "en": "Six years or till the age of 65 years, whichever is earlier.",
-        "as": "ছয় বছৰ বা ৬৫ বছৰ বয়সলৈ, যিটো আগে হয়।"
+      "question_en": "For how long does the Chief Election Commissioner hold office?",
+      "question_as": "মুখ্য নিৰ্বাচন আয়ুক্তয়ে কিমান সময়লৈ কাৰ্যভাৰ গ্ৰহণ কৰে?",
+      "answer_en": "Six years or till the age of 65 years, whichever is earlier",
+      "answer_as": "ছয় বছৰ বা ৬৫ বছৰ বয়সলৈ, যিটো আগে হয়",
+      "options": [
+        {
+          "en": "Five years or till 60",
+          "as": "পাঁচ বছৰ বা ৬০ লৈ"
+        },
+        {
+          "en": "Six years or till the age of 65",
+          "as": "ছয় বছৰ বা ৬৫ বছৰ বয়সলৈ"
+        },
+        {
+          "en": "Seven years or till 70",
+          "as": "সাত বছৰ বা ৭০ লৈ"
+        },
+        {
+          "en": "Till 62 years",
+          "as": "৬২ বছৰলৈ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Chief Election Commissioner holds office for six years or till the age of 65 years, whichever is earlier.",
+        "as": "মুখ্য নিৰ্বাচন আয়ুক্তে ছয় বছৰ বা ৬৫ বছৰ বয়সলৈ, যিটো আগে হয়, কাৰ্যভাৰ গ্ৰহণ কৰে।"
       }
     },
     {
-      "q": {
-        "en": "How can the Chief Election Commissioner be removed?",
-        "as": "মুখ্য নিৰ্বাচন আয়ুক্তক কেনেকৈ অপসাৰণ কৰিব পাৰি?"
-      },
-      "a": {
-        "en": "Only by impeachment in the same manner as a judge of the Supreme Court.",
-        "as": "উচ্চতম ন্যায়ালয়ৰ ন্যায়াধীশৰ দৰে মহা-অভিযোগ পদ্ধতিৰ দ্বাৰাহে।"
+      "question_en": "How can the Chief Election Commissioner be removed?",
+      "question_as": "মুখ্য নিৰ্বাচন আয়ুক্তক কেনেকৈ অপসাৰণ কৰিব পাৰি?",
+      "answer_en": "Only by impeachment, like a judge of the Supreme Court",
+      "answer_as": "উচ্চতম ন্যায়ালয়ৰ ন্যায়াধীশৰ দৰে কেৱল মহা-অভিযোগ পদ্ধতিৰ দ্বাৰা",
+      "options": [
+        {
+          "en": "By the President at will",
+          "as": "ৰাষ্ট্ৰপতিয়ে ইচ্ছামতে"
+        },
+        {
+          "en": "Only by impeachment, like a judge of the Supreme Court",
+          "as": "উচ্চতম ন্যায়ালয়ৰ ন্যায়াধীশৰ দৰে কেৱল মহা-অভিযোগ পদ্ধতিৰ দ্বাৰা"
+        },
+        {
+          "en": "By the Prime Minister",
+          "as": "প্ৰধানমন্ত্ৰীয়ে"
+        },
+        {
+          "en": "By a simple majority of Parliament",
+          "as": "সংসদৰ সৰল সংখ্যাগৰিষ্ঠতাৰে"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Chief Election Commissioner can be removed only by impeachment in the same manner as a judge of the Supreme Court.",
+        "as": "মুখ্য নিৰ্বাচন আয়ুক্তক উচ্চতম ন্যায়ালয়ৰ ন্যায়াধীশৰ দৰে মহা-অভিযোগ পদ্ধতিৰ দ্বাৰাহে অপসাৰণ কৰিব পাৰি।"
       }
     },
     {
-      "q": {
-        "en": "Who conducts elections to the office of the President and the Vice-President of India?",
-        "as": "ভাৰতৰ ৰাষ্ট্ৰপতি আৰু উপ-ৰাষ্ট্ৰপতিৰ নিৰ্বাচন কোনে পৰিচালনা কৰে?"
-      },
-      "a": {
-        "en": "The Election Commission of India.",
-        "as": "ভাৰত নিৰ্বাচন আয়োগে।"
+      "question_en": "Who conducts elections to the office of the President and the Vice-President of India?",
+      "question_as": "ভাৰতৰ ৰাষ্ট্ৰপতি আৰু উপ-ৰাষ্ট্ৰপতিৰ নিৰ্বাচন কোনে পৰিচালনা কৰে?",
+      "answer_en": "The Election Commission of India",
+      "answer_as": "ভাৰত নিৰ্বাচন আয়োগ",
+      "options": [
+        {
+          "en": "The Election Commission of India",
+          "as": "ভাৰত নিৰ্বাচন আয়োগ"
+        },
+        {
+          "en": "The Supreme Court",
+          "as": "উচ্চতম ন্যায়ালয়"
+        },
+        {
+          "en": "The Parliament",
+          "as": "সংসদ"
+        },
+        {
+          "en": "The President alone",
+          "as": "কেৱল ৰাষ্ট্ৰপতি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Election Commission of India conducts elections to the office of the President and the Vice-President.",
+        "as": "ভাৰত নিৰ্বাচন আয়োগে ৰাষ্ট্ৰপতি আৰু উপ-ৰাষ্ট্ৰপতি পদৰ নিৰ্বাচন পৰিচালনা কৰে।"
       }
     },
     {
-      "q": {
-        "en": "Who conducts elections to the Parliament and the State Legislatures?",
-        "as": "সংসদ আৰু ৰাজ্য বিধানমণ্ডলৰ নিৰ্বাচন কোনে পৰিচালনা কৰে?"
-      },
-      "a": {
-        "en": "The Election Commission of India.",
-        "as": "ভাৰত নিৰ্বাচন আয়োগে।"
+      "question_en": "Who conducts elections to the Parliament and the State Legislatures?",
+      "question_as": "সংসদ আৰু ৰাজ্য বিধানমণ্ডলৰ নিৰ্বাচন কোনে পৰিচালনা কৰে?",
+      "answer_en": "The Election Commission of India",
+      "answer_as": "ভাৰত নিৰ্বাচন আয়োগ",
+      "options": [
+        {
+          "en": "The Election Commission of India",
+          "as": "ভাৰত নিৰ্বাচন আয়োগ"
+        },
+        {
+          "en": "The State Election Commission",
+          "as": "ৰাজ্য নিৰ্বাচন আয়োগ"
+        },
+        {
+          "en": "The Supreme Court",
+          "as": "উচ্চতম ন্যায়ালয়"
+        },
+        {
+          "en": "The Union Cabinet",
+          "as": "কেন্দ্ৰীয় মন্ত্ৰিপৰিষদ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Election Commission of India conducts elections to the Parliament and the State Legislatures.",
+        "as": "ভাৰত নিৰ্বাচন আয়োগে সংসদ আৰু ৰাজ্য বিধানমণ্ডলৰ নিৰ্বাচন পৰিচালনা কৰে।"
       }
     },
     {
-      "q": {
-        "en": "Who is the first Chief Election Commissioner of India?",
-        "as": "ভাৰতৰ প্ৰথম মুখ্য নিৰ্বাচন আয়ুক্ত কোন?"
-      },
-      "a": {
-        "en": "Sukumar Sen.",
-        "as": "সুকুমাৰ সেন।"
+      "question_en": "Who is the first Chief Election Commissioner of India?",
+      "question_as": "ভাৰতৰ প্ৰথম মুখ্য নিৰ্বাচন আয়ুক্ত কোন?",
+      "answer_en": "Sukumar Sen",
+      "answer_as": "সুকুমাৰ সেন",
+      "options": [
+        {
+          "en": "Sukumar Sen",
+          "as": "সুকুমাৰ সেন"
+        },
+        {
+          "en": "T.N. Seshan",
+          "as": "টি.এন. শেষান"
+        },
+        {
+          "en": "M.S. Gill",
+          "as": "এম.এছ. গিল"
+        },
+        {
+          "en": "Navin Chawla",
+          "as": "নৱিন চাৱলা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sukumar Sen was the first Chief Election Commissioner of India.",
+        "as": "সুকুমাৰ সেন ভাৰতৰ প্ৰথম মুখ্য নিৰ্বাচন আয়ুক্ত আছিল।"
       }
     },
     {
-      "q": {
-        "en": "When was the Election Commission of India established?",
-        "as": "ভাৰত নিৰ্বাচন আয়োগ কেতিয়া স্থাপিত হৈছিল?"
-      },
-      "a": {
-        "en": "On 25 January 1950.",
-        "as": "১৯৫০ চনৰ ২৫ জানুৱাৰীত।"
+      "question_en": "When was the Election Commission of India established?",
+      "question_as": "ভাৰত নিৰ্বাচন আয়োগ কেতিয়া স্থাপিত হৈছিল?",
+      "answer_en": "On 25 January 1950",
+      "answer_as": "১৯৫০ চনৰ ২৫ জানুৱাৰীত",
+      "options": [
+        {
+          "en": "On 26 January 1950",
+          "as": "১৯৫০ চনৰ ২৬ জানুৱাৰীত"
+        },
+        {
+          "en": "On 25 January 1950",
+          "as": "১৯৫০ চনৰ ২৫ জানুৱাৰীত"
+        },
+        {
+          "en": "On 15 August 1947",
+          "as": "১৯৪৭ চনৰ ১৫ আগষ্টত"
+        },
+        {
+          "en": "On 1 November 1956",
+          "as": "১৯৫৬ চনৰ ১ নৱেম্বৰত"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Election Commission of India was established on 25 January 1950.",
+        "as": "ভাৰত নিৰ্বাচন আয়োগ ১৯৫০ চনৰ ২৫ জানুৱাৰীত স্থাপিত হৈছিল।"
       }
     },
     {
-      "q": {
-        "en": "Which day is celebrated as National Voters' Day in India?",
-        "as": "ভাৰতত ৰাষ্ট্ৰীয় ভোটাৰ দিৱস কোন দিনটো পালন কৰা হয়?"
-      },
-      "a": {
-        "en": "25 January, to mark the establishment of the Election Commission.",
-        "as": "২৫ জানুৱাৰী, নিৰ্বাচন আয়োগ স্থাপন উপলক্ষে।"
+      "question_en": "Which day is celebrated as National Voters' Day in India?",
+      "question_as": "ভাৰতত ৰাষ্ট্ৰীয় ভোটাৰ দিৱস কোন দিনটো পালন কৰা হয়?",
+      "answer_en": "25 January",
+      "answer_as": "২৫ জানুৱাৰী",
+      "options": [
+        {
+          "en": "26 January",
+          "as": "২৬ জানুৱাৰী"
+        },
+        {
+          "en": "15 August",
+          "as": "১৫ আগষ্ট"
+        },
+        {
+          "en": "25 January",
+          "as": "২৫ জানুৱাৰী"
+        },
+        {
+          "en": "2 October",
+          "as": "২ অক্টোবৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "National Voters' Day is celebrated on 25 January to mark the establishment of the Election Commission.",
+        "as": "ৰাষ্ট্ৰীয় ভোটাৰ দিৱস ২৫ জানুৱাৰীত নিৰ্বাচন আয়োগ স্থাপন উপলক্ষে পালন কৰা হয়।"
       }
     },
     {
-      "q": {
-        "en": "Under which Article is the State Election Commission established?",
-        "as": "কোন অনুচ্ছেদ অনুযায়ী ৰাজ্য নিৰ্বাচন আয়োগ স্থাপিত?"
-      },
-      "a": {
-        "en": "Article 243K.",
-        "as": "অনুচ্ছেদ ২৪৩কে।"
+      "question_en": "Under which Article is the State Election Commission established?",
+      "question_as": "কোন অনুচ্ছেদ অনুযায়ী ৰাজ্য নিৰ্বাচন আয়োগ স্থাপিত?",
+      "answer_en": "Article 243K",
+      "answer_as": "অনুচ্ছেদ ২৪৩কে",
+      "options": [
+        {
+          "en": "Article 324",
+          "as": "অনুচ্ছেদ ৩২৪"
+        },
+        {
+          "en": "Article 243K",
+          "as": "অনুচ্ছেদ ২৪৩কে"
+        },
+        {
+          "en": "Article 148",
+          "as": "অনুচ্ছেদ ১৪৮"
+        },
+        {
+          "en": "Article 315",
+          "as": "অনুচ্ছেদ ৩১৫"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The State Election Commission is established under Article 243K.",
+        "as": "ৰাজ্য নিৰ্বাচন আয়োগ অনুচ্ছেদ ২৪৩কে অধীনত স্থাপিত।"
       }
     },
     {
-      "q": {
-        "en": "Who appoints the State Election Commissioner?",
-        "as": "ৰাজ্য নিৰ্বাচন আয়ুক্তক কোনে নিযুক্তি দিয়ে?"
-      },
-      "a": {
-        "en": "The Governor of the state.",
-        "as": "ৰাজ্যপালে।"
+      "question_en": "Who appoints the State Election Commissioner?",
+      "question_as": "ৰাজ্য নিৰ্বাচন আয়ুক্তক কোনে নিযুক্তি দিয়ে?",
+      "answer_en": "The Governor of the state",
+      "answer_as": "ৰাজ্যপাল",
+      "options": [
+        {
+          "en": "The President",
+          "as": "ৰাষ্ট্ৰপতি"
+        },
+        {
+          "en": "The Governor of the state",
+          "as": "ৰাজ্যৰ ৰাজ্যপাল"
+        },
+        {
+          "en": "The Chief Minister",
+          "as": "মুখ্যমন্ত্ৰী"
+        },
+        {
+          "en": "The Chief Election Commissioner",
+          "as": "মুখ্য নিৰ্বাচন আয়ুক্ত"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The State Election Commissioner is appointed by the Governor of the state.",
+        "as": "ৰাজ্য নিৰ্বাচন আয়ুক্তক ৰাজ্যপালে নিযুক্তি দিয়ে।"
       }
     },
     {
-      "q": {
-        "en": "What are the elections conducted by the State Election Commission?",
-        "as": "ৰাজ্য নিৰ্বাচন আয়োগে কি কি নিৰ্বাচন পৰিচালনা কৰে?"
-      },
-      "a": {
-        "en": "Elections to the Panchayats and Municipalities.",
-        "as": "পঞ্চায়ত আৰু পৌৰসভা নিৰ্বাচনসমূহ।"
+      "question_en": "What are the elections conducted by the State Election Commission?",
+      "question_as": "ৰাজ্য নিৰ্বাচন আয়োগে কি কি নিৰ্বাচন পৰিচালনা কৰে?",
+      "answer_en": "Elections to the Panchayats and Municipalities",
+      "answer_as": "পঞ্চায়ত আৰু পৌৰসভাৰ নিৰ্বাচন",
+      "options": [
+        {
+          "en": "Elections to the Panchayats and Municipalities",
+          "as": "পঞ্চায়ত আৰু পৌৰসভাৰ নিৰ্বাচন"
+        },
+        {
+          "en": "Lok Sabha elections",
+          "as": "লোকসভা নিৰ্বাচন"
+        },
+        {
+          "en": "Presidential elections",
+          "as": "ৰাষ্ট্ৰপতি নিৰ্বাচন"
+        },
+        {
+          "en": "Rajya Sabha elections",
+          "as": "ৰাজ্যসভা নিৰ্বাচন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The State Election Commission conducts elections to the Panchayats and Municipalities.",
+        "as": "ৰাজ্য নিৰ্বাচন আয়োগে পঞ্চায়ত আৰু পৌৰসভাৰ নিৰ্বাচন পৰিচালনা কৰে।"
       }
     },
     {
-      "q": {
-        "en": "What is the Model Code of Conduct?",
-        "as": "আচৰণ বিধি কাক বোলে?"
-      },
-      "a": {
-        "en": "Guidelines issued by the Election Commission to ensure free and fair elections.",
-        "as": "সু-নিয়মিত নিৰ্বাচন নিশ্চিত কৰিবলৈ নিৰ্বাচন আয়োগে জাৰি কৰা নিৰ্দেশনা।"
+      "question_en": "What is the Model Code of Conduct?",
+      "question_as": "আচৰণ বিধি কাক বোলে?",
+      "answer_en": "Guidelines to ensure free and fair elections",
+      "answer_as": "সু-নিয়মিত নিৰ্বাচন নিশ্চিত কৰাৰ নিৰ্দেশনা",
+      "options": [
+        {
+          "en": "Guidelines to ensure free and fair elections",
+          "as": "সু-নিয়মিত নিৰ্বাচন নিশ্চিত কৰাৰ নিৰ্দেশনা"
+        },
+        {
+          "en": "A law passed by Parliament",
+          "as": "সংসদে প্ৰণয়ন কৰা আইন"
+        },
+        {
+          "en": "A court order",
+          "as": "আদালতৰ আদেশ"
+        },
+        {
+          "en": "A party's manifesto",
+          "as": "দলৰ ইস্তাহাৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Model Code of Conduct is a set of guidelines issued by the Election Commission to ensure free and fair elections.",
+        "as": "আদৰ্শ আচৰণ বিধি হৈছে সু-নিয়মিত নিৰ্বাচন নিশ্চিত কৰিবলৈ নিৰ্বাচন আয়োগে জাৰি কৰা নিৰ্দেশনাসমূহ।"
       }
     },
     {
-      "q": {
-        "en": "When was the Electronic Voting Machine (EVM) first used in India?",
-        "as": "ভাৰতত ইলেকট্ৰনিক ভোটিং মেছিন (EVM) প্ৰথম কেতিয়া ব্যৱহাৰ হৈছিল?"
-      },
-      "a": {
-        "en": "First used experimentally in 1982, and used on a large scale from 1999.",
-        "as": "১৯৮২ চনত পৰীক্ষামূলকভাৱে প্ৰথম ব্যৱহাৰ, আৰু ১৯৯৯ চনৰ পৰা বৃহৎ পৰিসৰত ব্যৱহৃত।"
+      "question_en": "When was the Electronic Voting Machine (EVM) first used in India?",
+      "question_as": "ভাৰতত ইলেকট্ৰনিক ভোটিং মেছিন (EVM) প্ৰথম কেতিয়া ব্যৱহাৰ হৈছিল?",
+      "answer_en": "First experimentally in 1982, large scale from 1999",
+      "answer_as": "১৯৮২ চনত পৰীক্ষামূলকভাৱে, ১৯৯৯ চনৰ পৰা বৃহৎ পৰিসৰত",
+      "options": [
+        {
+          "en": "First experimentally in 1982, large scale from 1999",
+          "as": "১৯৮২ চনত পৰীক্ষামূলকভাৱে, ১৯৯৯ চনৰ পৰা বৃহৎ পৰিসৰত"
+        },
+        {
+          "en": "Only after 2010",
+          "as": "কেৱল ২০১০ চনৰ পিছত"
+        },
+        {
+          "en": "First in 1950",
+          "as": "১৯৫০ চনত প্ৰথম"
+        },
+        {
+          "en": "Only in 2014",
+          "as": "কেৱল ২০১৪ চনত"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The EVM was first used experimentally in 1982 and on a large scale from 1999.",
+        "as": "ইভিএম প্ৰথম ১৯৮২ চনত পৰীক্ষামূলকভাৱে আৰু ১৯৯৯ চনৰ পৰা বৃহৎ পৰিসৰত ব্যৱহাৰ কৰা হৈছিল।"
       }
     },
     {
-      "q": {
-        "en": "What is VVPAT?",
-        "as": "ভিভিপিএটি (VVPAT) কি?"
-      },
-      "a": {
-        "en": "Voter Verifiable Paper Audit Trail, which allows voters to verify their vote.",
-        "as": "ভোটাৰ ভেৰিফায়েবল পেপাৰ অডিট ট্ৰেইল, যাৰ দ্বাৰা ভোটাৰে নিজৰ ভোট পৰীক্ষা কৰিব পাৰে।"
+      "question_en": "What is VVPAT?",
+      "question_as": "ভিভিপিএটি (VVPAT) কি?",
+      "answer_en": "Voter Verifiable Paper Audit Trail",
+      "answer_as": "ভোটাৰ ভেৰিফায়েবল পেপাৰ অডিট ট্ৰেইল",
+      "options": [
+        {
+          "en": "Voter Verifiable Paper Audit Trail",
+          "as": "ভোটাৰ ভেৰিফায়েবল পেপাৰ অডিট ট্ৰেইল"
+        },
+        {
+          "en": "Voting Verification and Polling Audit Team",
+          "as": "ভোটিং ভেৰিফিকেশন এণ্ড প'লিং অডিট টিম"
+        },
+        {
+          "en": "Voter Validity and Poll Authentication",
+          "as": "ভোটাৰ ভেলিডিটি এণ্ড প'ল অথেণ্টিকেশন"
+        },
+        {
+          "en": "Verified Vote Paper Account",
+          "as": "ভেৰিফাইড ভোট পেপাৰ একাউণ্ট"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "VVPAT stands for Voter Verifiable Paper Audit Trail, which lets voters verify their vote.",
+        "as": "ভিভিপিএটি মানে ভোটাৰ ভেৰিফায়েবল পেপাৰ অডিট ট্ৰেইল, যাৰ দ্বাৰা ভোটাৰে নিজৰ ভোট পৰীক্ষা কৰিব পাৰে।"
       }
     },
     {
-      "q": {
-        "en": "What is the minimum age of voting in India?",
-        "as": "ভাৰতত ভোট দিয়াৰ ন্যূনতম বয়স কিমান?"
-      },
-      "a": {
-        "en": "18 years.",
-        "as": "১৮ বছৰ।"
+      "question_en": "What is the minimum age of voting in India?",
+      "question_as": "ভাৰতত ভোট দিয়াৰ ন্যূনতম বয়স কিমান?",
+      "answer_en": "18 years",
+      "answer_as": "১৮ বছৰ",
+      "options": [
+        {
+          "en": "16 years",
+          "as": "১৬ বছৰ"
+        },
+        {
+          "en": "18 years",
+          "as": "১৮ বছৰ"
+        },
+        {
+          "en": "21 years",
+          "as": "২১ বছৰ"
+        },
+        {
+          "en": "25 years",
+          "as": "২৫ বছৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The minimum age of voting in India is 18 years.",
+        "as": "ভাৰতত ভোট দিয়াৰ ন্যূনতম বয়স ১৮ বছৰ।"
       }
     },
     {
-      "q": {
-        "en": "Which Amendment lowered the voting age from 21 to 18 years?",
-        "as": "কোন সংশোধনীয়ে ভোট দিয়াৰ বয়স ২১ৰ পৰা ১৮ বছৰলৈ হ্ৰাস কৰিছিল?"
-      },
-      "a": {
-        "en": "The 61st Constitutional Amendment Act, 1988.",
-        "as": "৬১তম সাংবিধানিক সংশোধনী আইন, ১৯৮৮।"
+      "question_en": "Which Amendment lowered the voting age from 21 to 18 years?",
+      "question_as": "কোন সংশোধনীয়ে ভোট দিয়াৰ বয়স ২১ৰ পৰা ১৮ বছৰলৈ হ্ৰাস কৰিছিল?",
+      "answer_en": "The 61st Constitutional Amendment Act, 1988",
+      "answer_as": "৬১তম সাংবিধানিক সংশোধনী আইন, ১৯৮৮",
+      "options": [
+        {
+          "en": "The 42nd Amendment Act, 1976",
+          "as": "৪২তম সংশোধনী আইন, ১৯৭৬"
+        },
+        {
+          "en": "The 61st Constitutional Amendment Act, 1988",
+          "as": "৬১তম সাংবিধানিক সংশোধনী আইন, ১৯৮৮"
+        },
+        {
+          "en": "The 44th Amendment Act, 1978",
+          "as": "৪৪তম সংশোধনী আইন, ১৯৭৮"
+        },
+        {
+          "en": "The 73rd Amendment Act, 1992",
+          "as": "৭৩তম সংশোধনী আইন, ১৯৯২"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The 61st Constitutional Amendment Act, 1988 lowered the voting age from 21 to 18 years.",
+        "as": "৬১তম সাংবিধানিক সংশোধনী আইন, ১৯৮৮-য়ে ভোটদানৰ বয়স ২১ ৰ পৰা ১৮ বছৰলৈ কমাইছিল।"
       }
     },
     {
-      "q": {
-        "en": "What is the Election Symbol?",
-        "as": "নিৰ্বাচনী চিহ্ন কি?"
-      },
-      "a": {
-        "en": "A symbol allotted to a political party or candidate for identification in elections.",
-        "as": "নিৰ্বাচনত চিনাক্তকৰণৰ বাবে ৰাজনৈতিক দল বা প্ৰাৰ্থীক বৰাদ্দ দিয়া চিহ্ন।"
+      "question_en": "What is the Election Symbol?",
+      "question_as": "নিৰ্বাচনী চিহ্ন কি?",
+      "answer_en": "A symbol allotted to a party or candidate for identification",
+      "answer_as": "চিনাক্তকৰণৰ বাবে দল বা প্ৰাৰ্থীক বৰাদ্দ দিয়া চিহ্ন",
+      "options": [
+        {
+          "en": "A symbol allotted to a party or candidate for identification",
+          "as": "চিনাক্তকৰণৰ বাবে দল বা প্ৰাৰ্থীক বৰাদ্দ দিয়া চিহ্ন"
+        },
+        {
+          "en": "A type of ballot paper",
+          "as": "এক প্ৰকাৰৰ বেলট পেপাৰ"
+        },
+        {
+          "en": "A government seal",
+          "as": "চৰকাৰী মোহৰ"
+        },
+        {
+          "en": "A currency note",
+          "as": "এখন মুদ্ৰা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "An election symbol is allotted to a political party or candidate for identification in elections.",
+        "as": "নিৰ্বাচনী প্ৰতীক নিৰ্বাচনত চিনাক্তকৰণৰ বাবে ৰাজনৈতিক দল বা প্ৰাৰ্থীক বৰাদ্দ দিয়া হয়।"
       }
     },
     {
-      "q": {
-        "en": "Who allots election symbols to political parties?",
-        "as": "ৰাজনৈতিক দলসমূহক নিৰ্বাচনী চিহ্ন কোনে বৰাদ্দ দিয়ে?"
-      },
-      "a": {
-        "en": "The Election Commission of India.",
-        "as": "ভাৰত নিৰ্বাচন আয়োগে।"
+      "question_en": "Who allots election symbols to political parties?",
+      "question_as": "ৰাজনৈতিক দলসমূহক নিৰ্বাচনী চিহ্ন কোনে বৰাদ্দ দিয়ে?",
+      "answer_en": "The Election Commission of India",
+      "answer_as": "ভাৰত নিৰ্বাচন আয়োগ",
+      "options": [
+        {
+          "en": "The Election Commission of India",
+          "as": "ভাৰত নিৰ্বাচন আয়োগ"
+        },
+        {
+          "en": "The President",
+          "as": "ৰাষ্ট্ৰপতি"
+        },
+        {
+          "en": "The Parliament",
+          "as": "সংসদ"
+        },
+        {
+          "en": "The Supreme Court",
+          "as": "উচ্চতম ন্যায়ালয়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Election Commission of India allots election symbols to political parties.",
+        "as": "ভাৰত নিৰ্বাচন আয়োগে ৰাজনৈতিক দলসমূহক নিৰ্বাচনী প্ৰতীক বৰাদ্দ দিয়ে।"
       }
     },
     {
-      "q": {
-        "en": "What is the tenure of the Election Commission members?",
-        "as": "নিৰ্বাচন আয়োগৰ সদস্যসকলৰ কাৰ্যকাল কিমান?"
-      },
-      "a": {
-        "en": "The CEC serves six years or till 65 years; the term of the Election Commissioners is determined by the President.",
-        "as": "মুখ্য নিৰ্বাচন আয়ুক্ত ছয় বছৰ বা ৬৫ বছৰলৈ; নিৰ্বাচন আয়ুক্তসকলৰ কাৰ্যকাল ৰাষ্ট্ৰপতিয়ে নিৰ্ধাৰণ কৰে।"
+      "question_en": "What is the tenure of the Election Commission members?",
+      "question_as": "নিৰ্বাচন আয়োগৰ সদস্যসকলৰ কাৰ্যকাল কিমান?",
+      "answer_en": "The CEC serves six years or till 65; Election Commissioners' term is determined by the President",
+      "answer_as": "মুখ্য আয়ুক্ত ছয় বছৰ বা ৬৫ লৈ; নিৰ্বাচন আয়ুক্তসকলৰ কাৰ্যকাল ৰাষ্ট্ৰপতিয়ে নিৰ্ধাৰণ কৰে",
+      "options": [
+        {
+          "en": "The CEC serves six years or till 65; Election Commissioners' term is determined by the President",
+          "as": "মুখ্য আয়ুক্ত ছয় বছৰ বা ৬৫ লৈ; নিৰ্বাচন আয়ুক্তসকলৰ কাৰ্যকাল ৰাষ্ট্ৰপতিয়ে নিৰ্ধাৰণ কৰে"
+        },
+        {
+          "en": "All serve for life",
+          "as": "সকলোৱে আজীৱন কাৰ্যকাল"
+        },
+        {
+          "en": "All serve for two years",
+          "as": "সকলোৱে দুবছৰ"
+        },
+        {
+          "en": "The term is decided by the Prime Minister",
+          "as": "কাৰ্যকাল প্ৰধানমন্ত্ৰীয়ে নিৰ্ধাৰণ কৰে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The CEC serves six years or till 65, while the term of the Election Commissioners is determined by the President.",
+        "as": "মুখ্য নিৰ্বাচন আয়ুক্ত ছয় বছৰ বা ৬৫ বছৰলৈ কাৰ্যকাল; নিৰ্বাচন আয়ুক্তসকলৰ কাৰ্যকাল ৰাষ্ট্ৰপতিয়ে নিৰ্ধাৰণ কৰে।"
       }
     },
     {
-      "q": {
-        "en": "Can the Election Commissioners be removed on the recommendation of the Chief Election Commissioner?",
-        "as": "মুখ্য নিৰ্বাচন আয়ুক্তৰ পৰামৰ্শত নিৰ্বাচন আয়ুক্তসকলক অপসাৰণ কৰিব পাৰি নেকি?"
-      },
-      "a": {
-        "en": "Yes, they can be removed by the President on the recommendation of the CEC.",
-        "as": "হয়, মুখ্য নিৰ্বাচন আয়ুক্তৰ পৰামৰ্শত ৰাষ্ট্ৰপতিয়ে তেওঁলোকক অপসাৰণ কৰিব পাৰে।"
+      "question_en": "Can the Election Commissioners be removed on the recommendation of the Chief Election Commissioner?",
+      "question_as": "মুখ্য নিৰ্বাচন আয়ুক্তৰ পৰামৰ্শত নিৰ্বাচন আয়ুক্তসকলক অপসাৰণ কৰিব পাৰি নেকি?",
+      "answer_en": "Yes, on the recommendation of the Chief Election Commissioner",
+      "answer_as": "হয়, মুখ্য নিৰ্বাচন আয়ুক্তৰ পৰামৰ্শত",
+      "options": [
+        {
+          "en": "Yes, on the recommendation of the Chief Election Commissioner",
+          "as": "হয়, মুখ্য নিৰ্বাচন আয়ুক্তৰ পৰামৰ্শত"
+        },
+        {
+          "en": "No, never",
+          "as": "নহয়, কেতিয়াও নহয়"
+        },
+        {
+          "en": "Only by the Supreme Court",
+          "as": "কেৱল উচ্চতম ন্যায়ালয়ে"
+        },
+        {
+          "en": "Only by the Prime Minister",
+          "as": "কেৱল প্ৰধানমন্ত্ৰীয়ে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Election Commissioners can be removed by the President on the recommendation of the Chief Election Commissioner.",
+        "as": "মুখ্য নিৰ্বাচন আয়ুক্তৰ পৰামৰ্শত ৰাষ্ট্ৰপতিয়ে নিৰ্বাচন আয়ুক্তসকলক অপসাৰণ কৰিব পাৰে।"
       }
     },
     {
-      "q": {
-        "en": "Who is responsible for the preparation of electoral rolls in India?",
-        "as": "ভাৰতত ভোটদাতা তালিকা প্ৰস্তুত কৰাৰ দায়িত্ব কোনৰ?"
-      },
-      "a": {
-        "en": "The Election Commission of India.",
-        "as": "ভাৰত নিৰ্বাচন আয়োগৰ।"
+      "question_en": "Who is responsible for the preparation of electoral rolls in India?",
+      "question_as": "ভাৰতত ভোটদাতা তালিকা প্ৰস্তুত কৰাৰ দায়িত্ব কোনৰ?",
+      "answer_en": "The Election Commission of India",
+      "answer_as": "ভাৰত নিৰ্বাচন আয়োগ",
+      "options": [
+        {
+          "en": "The Election Commission of India",
+          "as": "ভাৰত নিৰ্বাচন আয়োগ"
+        },
+        {
+          "en": "The State Government",
+          "as": "ৰাজ্য চৰকাৰ"
+        },
+        {
+          "en": "The Registrar General",
+          "as": "মহাপঞ্জীয়ক"
+        },
+        {
+          "en": "The Planning Commission",
+          "as": "পৰিকল্পনা আয়োগ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Election Commission of India is responsible for the preparation of electoral rolls.",
+        "as": "ভোটাৰ তালিকা প্ৰস্তুত কৰাৰ দায়িত্ব ভাৰত নিৰ্বাচন আয়োগৰ।"
       }
     },
     {
-      "q": {
-        "en": "What is the function of the Election Commission regarding political parties?",
-        "as": "ৰাজনৈতিক দলসমূহৰ বিষয়ে নিৰ্বাচন আয়োগৰ কাৰ্য কি?"
-      },
-      "a": {
-        "en": "It registers political parties and grants recognition to them.",
-        "as": "ই ৰাজনৈতিক দলসমূহ নিবন্ধন আৰু স্বীকৃতি দিয়ে।"
+      "question_en": "What is the function of the Election Commission regarding political parties?",
+      "question_as": "ৰাজনৈতিক দলসমূহৰ বিষয়ে নিৰ্বাচন আয়োগৰ কাৰ্য কি?",
+      "answer_en": "It registers political parties and grants recognition to them",
+      "answer_as": "ই ৰাজনৈতিক দলসমূহ নিবন্ধন আৰু স্বীকৃতি দিয়ে",
+      "options": [
+        {
+          "en": "It registers political parties and grants recognition to them",
+          "as": "ই ৰাজনৈতিক দলসমূহ নিবন্ধন আৰু স্বীকৃতি দিয়ে"
+        },
+        {
+          "en": "It forms political parties",
+          "as": "ই ৰাজনৈতিক দল গঠন কৰে"
+        },
+        {
+          "en": "It funds political parties",
+          "as": "ই দলসমূহক ধন দিয়ে"
+        },
+        {
+          "en": "It bans all parties",
+          "as": "ই সকলো দল নিষিদ্ধ কৰে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Election Commission registers political parties and grants recognition to them.",
+        "as": "নিৰ্বাচন আয়োগে ৰাজনৈতিক দলসমূহ নিবন্ধন আৰু স্বীকৃতি দিয়ে।"
       }
     },
     {
-      "q": {
-        "en": "Who is the Chief Election Commissioner who introduced the use of EVMs on a large scale?",
-        "as": "বৃহৎ পৰিসৰত EVM ব্যৱহাৰ চালু কৰা মুখ্য নিৰ্বাচন আয়ুক্ত কোন?"
-      },
-      "a": {
-        "en": "M.S. Gill.",
-        "as": "এম.এছ. গিল।"
+      "question_en": "Who is the Chief Election Commissioner who introduced the use of EVMs on a large scale?",
+      "question_as": "বৃহৎ পৰিসৰত EVM ব্যৱহাৰ চালু কৰা মুখ্য নিৰ্বাচন আয়ুক্ত কোন?",
+      "answer_en": "M.S. Gill",
+      "answer_as": "এম.এছ. গিল",
+      "options": [
+        {
+          "en": "T.N. Seshan",
+          "as": "টি.এন. শেষান"
+        },
+        {
+          "en": "M.S. Gill",
+          "as": "এম.এছ. গিল"
+        },
+        {
+          "en": "Sukumar Sen",
+          "as": "সুকুমাৰ সেন"
+        },
+        {
+          "en": "S.Y. Quraishi",
+          "as": "এছ.ৱাই. কুৰেশ্বী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "M.S. Gill was the Chief Election Commissioner who introduced the large-scale use of EVMs.",
+        "as": "এম.এছ. গিল মুখ্য নিৰ্বাচন আয়ুক্ত আছিল, যিয়ে ইভিএমৰ বৃহৎ পৰিসৰ ব্যৱহাৰ আৰম্ভ কৰিছিল।"
       }
     }
   ]

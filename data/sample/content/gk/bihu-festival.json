@@ -1,25 +1,139 @@
 {
   "id": "bihu-festival",
-  "title": { "en": "Bihu Festival", "as": "বিহু উৎসৱ" },
-  "description": { "en": "The three Bihu festivals of Assam — Bohag, Kati and Magh.", "as": "অসমৰ তিনি বিহু — ৰঙালী, কাতি আৰু মাঘ।" },
-  "tags": ["bihu", "culture", "festival", "assam", "বিহু", "সংস্কৃতি", "উৎসৱ"],
+  "title": {
+    "en": "Bihu Festival",
+    "as": "বিহু উৎসৱ"
+  },
+  "description": {
+    "en": "The three Bihu festivals of Assam — Bohag, Kati and Magh.",
+    "as": "অসমৰ তিনি বিহু — ৰঙালী, কাতি আৰু মাঘ।"
+  },
+  "tags": [
+    "bihu",
+    "culture",
+    "festival",
+    "assam",
+    "বিহু",
+    "সংস্কৃতি",
+    "উৎসৱ"
+  ],
   "pdf": null,
   "questions": [
     {
-      "q": { "en": "How many Bihus are celebrated in Assam?", "as": "অসমত কিমানটা বিহু পালন কৰা হয়?" },
-      "a": { "en": "Three — Bohag (Rongali), Kati (Kongali) and Magh (Bhogali).", "as": "তিনিটা — ৰঙালী বিহু, কাতি (কঙালী) বিহু আৰু মাঘ (ভোগালী) বিহু।" }
+      "question_en": "How many Bihus are celebrated in Assam?",
+      "question_as": "অসমত কিমানটা বিহু পালন কৰা হয়?",
+      "answer_en": "Three",
+      "answer_as": "তিনিটা",
+      "options": [
+        {
+          "en": "Two",
+          "as": "দুটা"
+        },
+        {
+          "en": "Three",
+          "as": "তিনিটা"
+        },
+        {
+          "en": "Four",
+          "as": "চাৰিটা"
+        },
+        {
+          "en": "Five",
+          "as": "পাঁচটা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Assam celebrates three Bihus: Bohag (Rongali) in mid-April, Kati (Kongali) in mid-October and Magh (Bhogali) in mid-January, each tied to a stage of the farming calendar.",
+        "as": "অসমত তিনিটা বিহু পালন কৰা হয়: বহাগ (ৰঙালী) এপ্ৰিলৰ মাজভাগত, কাতি (কঙালী) অক্টোবৰৰ মাজভাগত আৰু মাঘ (ভোগালী) জানুৱাৰীৰ মাজভাগত; প্ৰতিটোৱে কৃষি বৰ্ষপঞ্জীৰ এটা পৰ্যায়ৰ সৈতে জড়িত।"
+      }
     },
     {
-      "q": { "en": "Which Bihu marks the Assamese New Year and the beginning of the farming season?", "as": "অসমীয়া নৱবৰ্ষ আৰু কৃষি ঋতুৰ আৰম্ভণি কোনটো বিহুত হয়?" },
-      "a": { "en": "Bohag Bihu (Rongali Bihu), celebrated in the month of Bohag (mid-April).", "as": "বহাগ বিহু (ৰঙালী বিহু), বহাগ মাহত (এপ্ৰিলৰ মাজভাগ) পালন কৰা হয়।" }
+      "question_en": "Which Bihu marks the Assamese New Year and the beginning of the farming season?",
+      "question_as": "অসমীয়া নৱবৰ্ষ আৰু কৃষি ঋতুৰ আৰম্ভণি কোনটো বিহুত হয়?",
+      "answer_en": "Bohag Bihu (Rongali Bihu)",
+      "answer_as": "বহাগ বিহু (ৰঙালী বিহু)",
+      "options": [
+        {
+          "en": "Magh Bihu",
+          "as": "মাঘ বিহু"
+        },
+        {
+          "en": "Kati Bihu",
+          "as": "কাতি বিহু"
+        },
+        {
+          "en": "Bohag Bihu (Rongali)",
+          "as": "বহাগ বিহু (ৰঙালী)"
+        },
+        {
+          "en": "Ali-Ai-Ligang",
+          "as": "আলি-আই-লিগাং"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Bohag Bihu, also called Rongali Bihu, is celebrated in mid-April (the month of Bohag). It marks the Assamese New Year and the beginning of the agricultural season.",
+        "as": "বহাগ বিহু, যাক ৰঙালী বিহু বুলিও কোৱা হয়, এপ্ৰিলৰ মাজভাগত (বহাগ মাহ) পালন কৰা হয়। ই অসমীয়া নৱবৰ্ষ আৰু কৃষি ঋতুৰ আৰম্ভণি সূচায়।"
+      }
     },
     {
-      "q": { "en": "With which festival is the Uruka night associated?", "as": "উৰুকা নিশা কোনটো উৎসৱৰ লগত জড়িত?" },
-      "a": { "en": "Magh Bihu (Bhogali Bihu).", "as": "মাঘ বিহু (ভোগালী বিহু)।" }
+      "question_en": "With which festival is the Uruka night associated?",
+      "question_as": "উৰুকা নিশা কোনটো উৎসৱৰ লগত জড়িত?",
+      "answer_en": "Magh Bihu (Bhogali Bihu)",
+      "answer_as": "মাঘ বিহু (ভোগালী বিহু)",
+      "options": [
+        {
+          "en": "Bohag Bihu",
+          "as": "বহাগ বিহু"
+        },
+        {
+          "en": "Kati Bihu",
+          "as": "কাতি বিহু"
+        },
+        {
+          "en": "Magh Bihu (Bhogali)",
+          "as": "মাঘ বিহু (ভোগালী)"
+        },
+        {
+          "en": "Raas Mahotsav",
+          "as": "ৰাস মহোৎসৱ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Uruka is the night before Magh Bihu (Bhogali Bihu), celebrated in mid-January. People build Meji and Bhelaghar, and gather for a community feast on Uruka night.",
+        "as": "উৰুকা মাঘ বিহু (ভোগালী বিহু)ৰ আগৰ নিশা, যিটো জানুৱাৰীৰ মাজভাগত পালন কৰা হয়। লোকে মেজি আৰু ভেলাঘৰ সাজে আৰু উৰুকা নিশা মিলিতভাৱে ভোজ খায়।"
+      }
     },
     {
-      "q": { "en": "Which Bihu is called 'Kongali' and is observed at the time of transplantation of paddy?", "as": "কোনটো বিহুক 'কঙালী' বোলা হয় আৰু ধান ৰোৱা সময়ত পালন কৰা হয়?" },
-      "a": { "en": "Kati Bihu, observed in the month of Kati (mid-October).", "as": "কাতি বিহু, কাতি মাহত (অক্টোবৰৰ মাজভাগ) পালন কৰা হয়।" }
+      "question_en": "Which Bihu is called 'Kongali' and is observed at the time of transplantation of paddy?",
+      "question_as": "কোনটো বিহুক 'কঙালী' বোলা হয় আৰু ধান ৰোৱা সময়ত পালন কৰা হয়?",
+      "answer_en": "Kati Bihu (Kongali Bihu)",
+      "answer_as": "কাতি বিহু (কঙালী বিহু)",
+      "options": [
+        {
+          "en": "Magh Bihu",
+          "as": "মাঘ বিহু"
+        },
+        {
+          "en": "Kati Bihu (Kongali)",
+          "as": "কাতি বিহু (কঙালী)"
+        },
+        {
+          "en": "Bohag Bihu",
+          "as": "বহাগ বিহু"
+        },
+        {
+          "en": "Ali-Ai-Ligang",
+          "as": "আলি-আই-লিগাং"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Kati Bihu, called Kongali (meaning poor) Bihu, falls in mid-October when paddy is transplanted and granaries are nearly empty. Lamps are lit at the foot of the tulsi plant and in the paddy fields.",
+        "as": "কাতি বিহু, যাক কঙালী বিহু বুলি কোৱা হয়, অক্টোবৰৰ মাজভাগত হয় যেতিয়া ধান ৰোৱা হয় আৰু ভঁৰাল প্ৰায় খালী থাকে। তুলসী গছৰ গুৰিত আৰু ধাননি পথাৰত চাকি জ্বলোৱা হয়।"
+      }
     }
   ]
 }

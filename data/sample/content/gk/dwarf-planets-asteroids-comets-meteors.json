@@ -18,253 +18,728 @@
   "pdf": null,
   "questions": [
     {
-      "q": {
-        "en": "What is a dwarf planet?",
-        "as": "বামন গ্ৰহ (dwarf planet) কি?"
-      },
-      "a": {
-        "en": "A dwarf planet is a celestial body that orbits the Sun, has enough mass for a round shape, but has not cleared its orbit of other objects.",
-        "as": "বামন গ্ৰহ হৈছে এনে এটা মহাজাগতিক বস্তু যি সূৰ্যক পৰিক্রমা কৰে, গোলাকাৰ আকৃতি বজাই ৰাখিবলৈ পৰ্যাপ্ত ভৰ আছে, কিন্তু নিজৰ কক্ষপথ আন বস্তুবোৰৰ পৰা পৰিষ্কাৰ কৰিব পৰা নাই।"
+      "question_en": "What is a dwarf planet?",
+      "question_as": "বামন গ্ৰহ (dwarf planet) কি?",
+      "answer_en": "A body that orbits the Sun, is round, but has not cleared its orbit",
+      "answer_as": "সূৰ্যক পৰিক্ৰমা কৰা, গোলাকাৰ কিন্তু কক্ষপথ পৰিষ্কাৰ নকৰা বস্তু",
+      "options": [
+        {
+          "en": "A body that orbits the Sun, is round, but has not cleared its orbit",
+          "as": "সূৰ্যক পৰিক্ৰমা কৰা, গোলাকাৰ কিন্তু কক্ষপথ পৰিষ্কাৰ নকৰা বস্তু"
+        },
+        {
+          "en": "Any moon of a planet",
+          "as": "গ্ৰহ এটাৰ যিকোনো উপগ্ৰহ"
+        },
+        {
+          "en": "A star smaller than the Sun",
+          "as": "সূৰ্যতকৈ সৰু তৰা"
+        },
+        {
+          "en": "A rock that falls to Earth",
+          "as": "পৃথিৱীত পৰা শিল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A dwarf planet orbits the Sun, has enough mass for a round shape, but has not cleared its orbit of other objects.",
+        "as": "বামন গ্ৰহে সূৰ্যক পৰিক্ৰমা কৰে, গোলাকাৰ হ'বলৈ পৰ্যাপ্ত ভৰ আছে, কিন্তু কক্ষপথ আন বস্তুৰ পৰা পৰিষ্কাৰ কৰা নাই।"
       }
     },
     {
-      "q": {
-        "en": "Who defined the term 'dwarf planet'?",
-        "as": "'বামন গ্ৰহ' শব্দটো কোনে সংজ্ঞায়িত কৰিছিল?"
-      },
-      "a": {
-        "en": "The International Astronomical Union (IAU) defined the term 'dwarf planet' in 2006.",
-        "as": "আন্তৰ্জাতিক জ্যোতির্বিজ্ঞান সংঘ (IAU)-এ ২০০৬ চনত 'বামন গ্ৰহ' শব্দটো সংজ্ঞায়িত কৰিছিল।"
+      "question_en": "Who defined the term 'dwarf planet'?",
+      "question_as": "'বামন গ্ৰহ' শব্দটো কোনে সংজ্ঞায়িত কৰিছিল?",
+      "answer_en": "The International Astronomical Union (IAU)",
+      "answer_as": "আন্তৰ্জাতিক জ্যোতির্বিজ্ঞান সংঘ (IAU)",
+      "options": [
+        {
+          "en": "NASA",
+          "as": "নাছা"
+        },
+        {
+          "en": "The International Astronomical Union (IAU)",
+          "as": "আন্তৰ্জাতিক জ্যোতির্বিজ্ঞান সংঘ (IAU)"
+        },
+        {
+          "en": "ISRO",
+          "as": "ইছৰো"
+        },
+        {
+          "en": "The Royal Society",
+          "as": "ৰয়েল ছ'চাইটি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The term 'dwarf planet' was defined by the International Astronomical Union (IAU) in 2006.",
+        "as": "'বামন গ্ৰহ' শব্দটো আন্তৰ্জাতিক জ্যোতির্বিজ্ঞান সংঘ (IAU)-এ ২০০৬ চনত সংজ্ঞায়িত কৰিছিল।"
       }
     },
     {
-      "q": {
-        "en": "Name the five recognized dwarf planets.",
-        "as": "পাঁচটা স্বীকৃত বামন গ্ৰহৰ নাম কোৱা।"
-      },
-      "a": {
-        "en": "The five recognized dwarf planets are Ceres, Pluto, Haumea, Makemake, and Eris.",
-        "as": "পাঁচটা স্বীকৃত বামন গ্ৰহ হৈছে চেৰেচ, প্লুটো, হাউমিয়া, মেকমেক আৰু এৰিছ।"
+      "question_en": "Name the five recognized dwarf planets.",
+      "question_as": "পাঁচটা স্বীকৃত বামন গ্ৰহৰ নাম কোৱা।",
+      "answer_en": "Ceres, Pluto, Haumea, Makemake and Eris",
+      "answer_as": "চেৰেচ, প্লুটো, হাউমিয়া, মেকমেক আৰু এৰিছ",
+      "options": [
+        {
+          "en": "Ceres, Pluto, Haumea, Makemake and Eris",
+          "as": "চেৰেচ, প্লুটো, হাউমিয়া, মেকমেক আৰু এৰিছ"
+        },
+        {
+          "en": "Mercury, Venus, Earth, Mars and Jupiter",
+          "as": "বুধ, শুক্ৰ, পৃথিৱী, মঙ্গল আৰু বৃহস্পতি"
+        },
+        {
+          "en": "Titan, Europa, Io, Ganymede and Callisto",
+          "as": "টাইটান, ইউৰোপা, আইঅ', গেনিমিড আৰু কেলিষ্টো"
+        },
+        {
+          "en": "Halley, Hale-Bopp, Swift-Tuttle, Encke and Borrelly",
+          "as": "হেলি, হেল-বপ, স্বিফ্ট-টাটল, এন্কে আৰু ব'ৰেলি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The five recognized dwarf planets are Ceres, Pluto, Haumea, Makemake and Eris.",
+        "as": "স্বীকৃত পাঁচটা বামন গ্ৰহ হৈছে চেৰেচ, প্লুটো, হাউমিয়া, মেকমেক আৰু এৰিছ।"
       }
     },
     {
-      "q": {
-        "en": "Where is Pluto located?",
-        "as": "প্লুটো ক'ত অৱস্থিত?"
-      },
-      "a": {
+      "question_en": "Where is Pluto located?",
+      "question_as": "প্লুটো ক'ত অৱস্থিত?",
+      "answer_en": "In the Kuiper Belt beyond Neptune's orbit",
+      "answer_as": "নেপচুনৰ কক্ষপথৰ বাহিৰত কুইপাৰ বেল্টত",
+      "options": [
+        {
+          "en": "In the Kuiper Belt beyond Neptune's orbit",
+          "as": "নেপচুনৰ কক্ষপথৰ বাহিৰত কুইপাৰ বেল্টত"
+        },
+        {
+          "en": "In the asteroid belt between Mars and Jupiter",
+          "as": "মঙ্গল আৰু বৃহস্পতিৰ মাজৰ উল্কাপিণ্ড মেঢ়েকিত"
+        },
+        {
+          "en": "In the Oort Cloud",
+          "as": "অ'ৰ্ট মেঘত"
+        },
+        {
+          "en": "Between Earth and Venus",
+          "as": "পৃথিৱী আৰু শুক্ৰৰ মাজত"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
         "en": "Pluto is located in the Kuiper Belt, a region beyond Neptune's orbit.",
         "as": "প্লুটো নেপচুনৰ কক্ষপথৰ বাহিৰত থকা কুইপাৰ বেল্ট অঞ্চলত অৱস্থিত।"
       }
     },
     {
-      "q": {
-        "en": "When was Pluto reclassified from a planet to a dwarf planet?",
-        "as": "প্লুটোক কেতিয়া গ্ৰহৰ পৰা বামন গ্ৰহলৈ পুনঃশ্রেণীভুক্ত কৰা হৈছিল?"
-      },
-      "a": {
-        "en": "Pluto was reclassified as a dwarf planet in 2006 by the IAU.",
-        "as": "IAU-এ ২০০৬ চনত প্লুটোক বামন গ্ৰহ হিচাপে পুনঃশ্রেণীভুক্ত কৰিছিল।"
+      "question_en": "When was Pluto reclassified from a planet to a dwarf planet?",
+      "question_as": "প্লুটোক কেতিয়া গ্ৰহৰ পৰা বামন গ্ৰহলৈ পুনঃশ্রেণীভুক্ত কৰা হৈছিল?",
+      "answer_en": "In 2006",
+      "answer_as": "২০০৬ চনত",
+      "options": [
+        {
+          "en": "In 1930",
+          "as": "১৯৩০ চনত"
+        },
+        {
+          "en": "In 1992",
+          "as": "১৯৯২ চনত"
+        },
+        {
+          "en": "In 2006",
+          "as": "২০০৬ চনত"
+        },
+        {
+          "en": "In 2015",
+          "as": "২০১৫ চনত"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Pluto was reclassified from a planet to a dwarf planet in 2006 by the IAU.",
+        "as": "IAU-এ ২০০৬ চনত প্লুটোক গ্ৰহৰ পৰা বামন গ্ৰহ হিচাপে পুনঃশ্ৰেণীভুক্ত কৰিছিল।"
       }
     },
     {
-      "q": {
-        "en": "Who discovered Pluto?",
-        "as": "প্লুটো কোনে আৱিষ্কাৰ কৰিছিল?"
-      },
-      "a": {
+      "question_en": "Who discovered Pluto?",
+      "question_as": "প্লুটো কোনে আৱিষ্কাৰ কৰিছিল?",
+      "answer_en": "Clyde Tombaugh",
+      "answer_as": "ক্লাইড টম্বাফ",
+      "options": [
+        {
+          "en": "Clyde Tombaugh",
+          "as": "ক্লাইড টম্বাফ"
+        },
+        {
+          "en": "Galileo",
+          "as": "গেলিলিও"
+        },
+        {
+          "en": "Edwin Hubble",
+          "as": "এডউইন হাবল"
+        },
+        {
+          "en": "Percival Lowell",
+          "as": "পাৰ্চিভাল ল'ৱেল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
         "en": "Pluto was discovered by Clyde Tombaugh in 1930.",
         "as": "১৯৩০ চনত ক্লাইড টম্বাফে প্লুটো আৱিষ্কাৰ কৰিছিল।"
       }
     },
     {
-      "q": {
-        "en": "What is the Kuiper Belt?",
-        "as": "কুইপাৰ বেল্ট কি?"
-      },
-      "a": {
-        "en": "The Kuiper Belt is a disc-shaped region beyond Neptune's orbit containing icy bodies, dwarf planets, and short-period comets.",
-        "as": "কুইপাৰ বেল্ট হৈছে নেপচুনৰ কক্ষপথৰ বাহিৰত থকা চকতী-আকৃতিৰ অঞ্চল, য'ত বৰফীয়া বস্তু, বামন গ্ৰহ আৰু চুটি-কালৰ ধূমকেতু আছে।"
+      "question_en": "What is the Kuiper Belt?",
+      "question_as": "কুইপাৰ বেল্ট কি?",
+      "answer_en": "A disc-shaped region beyond Neptune containing icy bodies and dwarf planets",
+      "answer_as": "নেপচুনৰ বাহিৰত বৰফীয়া বস্তু আৰু বামন গ্ৰহ থকা চকতী-আকৃতিৰ অঞ্চল",
+      "options": [
+        {
+          "en": "A disc-shaped region beyond Neptune containing icy bodies and dwarf planets",
+          "as": "নেপচুনৰ বাহিৰত বৰফীয়া বস্তু আৰু বামন গ্ৰহ থকা চকতী-আকৃতিৰ অঞ্চল"
+        },
+        {
+          "en": "A cloud of gas inside the Sun",
+          "as": "সূৰ্যৰ ভিতৰত থকা গেছৰ মেঘ"
+        },
+        {
+          "en": "The ring around Saturn",
+          "as": "শনিগ্ৰহৰ চাৰিওফালৰ বলয়"
+        },
+        {
+          "en": "The asteroid belt between Mars and Jupiter",
+          "as": "মঙ্গল আৰু বৃহস্পতিৰ মাজৰ উল্কাপিণ্ড মেঢ়েকি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Kuiper Belt is a disc-shaped region beyond Neptune's orbit with icy bodies, dwarf planets and short-period comets.",
+        "as": "কুইপাৰ বেল্ট নেপচুনৰ কক্ষপথৰ বাহিৰত থকা চকতী-আকৃতিৰ অঞ্চল, য'ত বৰফীয়া বস্তু, বামন গ্ৰহ আৰু চুটি-কালৰ ধূমকেতু আছে।"
       }
     },
     {
-      "q": {
-        "en": "What is an asteroid?",
-        "as": "উল্কাপিণ্ড (asteroid) কি?"
-      },
-      "a": {
-        "en": "An asteroid is a small rocky body that orbits the Sun, mainly found in the asteroid belt between Mars and Jupiter.",
-        "as": "উল্কাপিণ্ড হৈছে সূৰ্যক পৰিক্রমা কৰা সৰু শিলাময় বস্তু, যিটো মূলতঃ মঙ্গল আৰু বৃহস্পতিৰ মাজৰ উল্কাপিণ্ড মেঢ়েকিত পোৱা যায়।"
+      "question_en": "What is an asteroid?",
+      "question_as": "উল্কাপিণ্ড (asteroid) কি?",
+      "answer_en": "A small rocky body orbiting the Sun, mainly in the belt between Mars and Jupiter",
+      "answer_as": "সূৰ্যক পৰিক্ৰমা কৰা সৰু শিলাময় বস্তু, মূলতঃ মঙ্গল আৰু বৃহস্পতিৰ মাজৰ মেঢ়েকিত",
+      "options": [
+        {
+          "en": "A small rocky body orbiting the Sun, mainly in the belt between Mars and Jupiter",
+          "as": "সূৰ্যক পৰিক্ৰমা কৰা সৰু শিলাময় বস্তু, মূলতঃ মঙ্গল আৰু বৃহস্পতিৰ মাজৰ মেঢ়েকিত"
+        },
+        {
+          "en": "A moon of Jupiter",
+          "as": "বৃহস্পতিৰ এটা উপগ্ৰহ"
+        },
+        {
+          "en": "A distant star",
+          "as": "এটা দূৰৱৰ্তী তৰা"
+        },
+        {
+          "en": "A cloud of gas",
+          "as": "গেছৰ এটা মেঘ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "An asteroid is a small rocky body orbiting the Sun, mainly found in the asteroid belt between Mars and Jupiter.",
+        "as": "উল্কাপিণ্ড হৈছে সূৰ্যক পৰিক্ৰমা কৰা সৰু শিলাময় বস্তু, মূলতঃ মঙ্গল আৰু বৃহস্পতিৰ মাজৰ উল্কাপিণ্ড মেঢ়েকিত পোৱা যায়।"
       }
     },
     {
-      "q": {
-        "en": "What is the largest asteroid?",
-        "as": "আটাইতকৈ ডাঙৰ উল্কাপিণ্ড কোনটো?"
-      },
-      "a": {
-        "en": "Ceres is the largest object in the asteroid belt, so large that it is classified as a dwarf planet.",
-        "as": "চেৰেচ হৈছে উল্কাপিণ্ড মেঢ়েকিৰ আটাইতকৈ ডাঙৰ বস্তু, ইমান ডাঙৰ যে ইয়াক বামন গ্ৰহ হিচাপে শ্রেণীভুক্ত কৰা হৈছে।"
+      "question_en": "What is the largest asteroid?",
+      "question_as": "আটাইতকৈ ডাঙৰ উল্কাপিণ্ড কোনটো?",
+      "answer_en": "Ceres",
+      "answer_as": "চেৰেচ",
+      "options": [
+        {
+          "en": "Vesta",
+          "as": "ভেষ্টা"
+        },
+        {
+          "en": "Pallas",
+          "as": "পালাছ"
+        },
+        {
+          "en": "Ceres",
+          "as": "চেৰেচ"
+        },
+        {
+          "en": "Juno",
+          "as": "জুন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Ceres is the largest object in the asteroid belt and is classified as a dwarf planet.",
+        "as": "চেৰেচ উল্কাপিণ্ড মেঢ়েকিৰ আটাইতকৈ ডাঙৰ বস্তু আৰু ইয়াক বামন গ্ৰহ হিচাপে শ্ৰেণীভুক্ত কৰা হয়।"
       }
     },
     {
-      "q": {
-        "en": "What is a comet?",
-        "as": "ধূমকেতু (comet) কি?"
-      },
-      "a": {
-        "en": "A comet is an icy body that, when near the Sun, develops a glowing coma and tail from evaporating ice and dust.",
-        "as": "ধূমকেতু হৈছে এটা বৰফীয়া বস্তু যি সূৰ্যৰ ওচৰত আহিলে তাৰ বৰফ আৰু ধূলি বাষ্পীভূত হৈ উজ্জ্বল ক'মা আৰু নেজ গঠন হয়।"
+      "question_en": "What is a comet?",
+      "question_as": "ধূমকেতু (comet) কি?",
+      "answer_en": "An icy body that develops a glowing coma and tail near the Sun",
+      "answer_as": "সূৰ্যৰ ওচৰত উজ্জ্বল ক'মা আৰু নেজ গঠন কৰা বৰফীয়া বস্তু",
+      "options": [
+        {
+          "en": "An icy body that develops a glowing coma and tail near the Sun",
+          "as": "সূৰ্যৰ ওচৰত উজ্জ্বল ক'মা আৰু নেজ গঠন কৰা বৰফীয়া বস্তু"
+        },
+        {
+          "en": "A rocky body with no tail",
+          "as": "নেজ নথকা শিলাময় বস্তু"
+        },
+        {
+          "en": "A moon made of ice",
+          "as": "বৰফেৰে গঠিত এটা উপগ্ৰহ"
+        },
+        {
+          "en": "A star that moves across the sky",
+          "as": "আকাশত গতি কৰা এটা তৰা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A comet is an icy body that develops a glowing coma and tail from evaporating ice and dust when near the Sun.",
+        "as": "ধূমকেতু হৈছে বৰফীয়া বস্তু, যি সূৰ্যৰ ওচৰত আহিলে বাষ্পীভূত বৰফ আৰু ধূলিৰ পৰা উজ্জ্বল ক'মা আৰু নেজ গঠন কৰে।"
       }
     },
     {
-      "q": {
-        "en": "What are the parts of a comet?",
-        "as": "ধূমকেতুৰ অংশসমূহ কি কি?"
-      },
-      "a": {
-        "en": "A comet consists of a nucleus, coma, hydrogen envelope, and two tails - the dust tail and ion tail.",
-        "as": "ধূমকেতু এটাৰ গঠনত নিউক্লিয়াছ, ক'মা, হাইড্রজেন আৱৰণ আৰু দুটা নেজ - ধূলি নেজ আৰু আয়ন নেজ আছে।"
+      "question_en": "What are the parts of a comet?",
+      "question_as": "ধূমকেতুৰ অংশসমূহ কি কি?",
+      "answer_en": "Nucleus, coma, hydrogen envelope and two tails",
+      "answer_as": "নিউক্লিয়াছ, ক'মা, হাইড্ৰজেন আৱৰণ আৰু দুটা নেজ",
+      "options": [
+        {
+          "en": "Nucleus, coma, hydrogen envelope and two tails",
+          "as": "নিউক্লিয়াছ, ক'মা, হাইড্ৰজেন আৱৰণ আৰু দুটা নেজ"
+        },
+        {
+          "en": "Only a nucleus and one tail",
+          "as": "কেৱল নিউক্লিয়াছ আৰু এটা নেজ"
+        },
+        {
+          "en": "Core, mantle and crust",
+          "as": "কোৰ, মেণ্টল আৰু ভূত্বক"
+        },
+        {
+          "en": "Head, body and legs",
+          "as": "মূৰ, শৰীৰ আৰু ঠেং"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A comet consists of a nucleus, coma, hydrogen envelope and two tails (dust tail and ion tail).",
+        "as": "ধূমকেতু এটাৰ গঠনত নিউক্লিয়াছ, ক'মা, হাইড্ৰজেন আৱৰণ আৰু দুটা নেজ (ধূলি নেজ আৰু আয়ন নেজ) আছে।"
       }
     },
     {
-      "q": {
-        "en": "What is Halley's Comet's orbital period?",
-        "as": "হেলিৰ ধূমকেতুৰ কক্ষীয় কাল কিমান?"
-      },
-      "a": {
+      "question_en": "What is Halley's Comet's orbital period?",
+      "question_as": "হেলিৰ ধূমকেতুৰ কক্ষীয় কাল কিমান?",
+      "answer_en": "About 76 years",
+      "answer_as": "প্ৰায় ৭৬ বছৰ",
+      "options": [
+        {
+          "en": "About 1 year",
+          "as": "প্ৰায় ১ বছৰ"
+        },
+        {
+          "en": "About 24 years",
+          "as": "প্ৰায় ২৪ বছৰ"
+        },
+        {
+          "en": "About 76 years",
+          "as": "প্ৰায় ৭৬ বছৰ"
+        },
+        {
+          "en": "About 200 years",
+          "as": "প্ৰায় ২০০ বছৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
         "en": "Halley's Comet has an orbital period of about 76 years.",
         "as": "হেলিৰ ধূমকেতুৰ কক্ষীয় কাল প্ৰায় ৭৬ বছৰ।"
       }
     },
     {
-      "q": {
-        "en": "Where do long-period comets come from?",
-        "as": "দীঘল-কালৰ ধূমকেতুবোৰ ক'ৰ পৰা আহে?"
-      },
-      "a": {
-        "en": "Long-period comets are believed to come from the Oort Cloud, a distant spherical shell of icy bodies surrounding the solar system.",
-        "as": "দীঘল-কালৰ ধূমকেতুবোৰ অ'ৰ্ট মেঘৰ পৰা আহে বুলি বিশ্বাস কৰা হয়, যিটো সৌৰজগতক বেৰি থকা বৰফীয়া বস্তুৰ দূৰৱৰ্তী গোলাকাৰ আৱৰণ।"
+      "question_en": "Where do long-period comets come from?",
+      "question_as": "দীঘল-কালৰ ধূমকেতুবোৰ ক'ৰ পৰা আহে?",
+      "answer_en": "The Oort Cloud",
+      "answer_as": "অ'ৰ্ট মেঘ",
+      "options": [
+        {
+          "en": "The Kuiper Belt",
+          "as": "কুইপাৰ বেল্ট"
+        },
+        {
+          "en": "The Oort Cloud",
+          "as": "অ'ৰ্ট মেঘ"
+        },
+        {
+          "en": "The asteroid belt",
+          "as": "উল্কাপিণ্ড মেঢ়েকি"
+        },
+        {
+          "en": "The Milky Way",
+          "as": "আকাশগংগা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Long-period comets are believed to come from the Oort Cloud, a distant spherical shell of icy bodies.",
+        "as": "দীঘল-কালৰ ধূমকেতুবোৰ অ'ৰ্ট মেঘৰ পৰা আহে বুলি বিশ্বাস কৰা হয়, যিটো বৰফীয়া বস্তুৰ দূৰৱৰ্তী গোলাকাৰ আৱৰণ।"
       }
     },
     {
-      "q": {
-        "en": "What is the difference between a meteoroid, meteor, and meteorite?",
-        "as": "মিটিঅ'ৰ'ইড, মিটিঅ'ৰ আৰু মিটিঅ'ৰাইটৰ মাজৰ পাৰ্থক্য কি?"
-      },
-      "a": {
-        "en": "A meteoroid is a small rock in space; a meteor is the streak of light when it burns in the atmosphere; a meteorite is the piece that survives and lands on Earth.",
-        "as": "মিটিঅ'ৰ'ইড হৈছে মহাকাশত থকা সৰু শিল; মিটিঅ'ৰ হৈছে বায়ুমণ্ডলত জ্বলি যোৱা সময়ত দেখা পোহৰৰ ৰেখা; মিটিঅ'ৰাইট হৈছে জীয়াই থাকি পৃথিৱীত পৰা টুকুৰাটো।"
+      "question_en": "What is the difference between a meteoroid, meteor, and meteorite?",
+      "question_as": "মিটিঅ'ৰ'ইড, মিটিঅ'ৰ আৰু মিটিঅ'ৰাইটৰ মাজৰ পাৰ্থক্য কি?",
+      "answer_en": "A meteoroid is a space rock, a meteor is its burning streak, and a meteorite lands on Earth",
+      "answer_as": "মিটিঅ'ৰ'ইড মহাকাশৰ শিল, মিটিঅ'ৰ ইয়াৰ জ্বলন্ত ৰেখা, মিটিঅ'ৰাইট পৃথিৱীত পৰে",
+      "options": [
+        {
+          "en": "A meteoroid is a space rock, a meteor is its burning streak, and a meteorite lands on Earth",
+          "as": "মিটিঅ'ৰ'ইড মহাকাশৰ শিল, মিটিঅ'ৰ ইয়াৰ জ্বলন্ত ৰেখা, মিটিঅ'ৰাইট পৃথিৱীত পৰে"
+        },
+        {
+          "en": "They are all the same thing",
+          "as": "এইবোৰ একেই বস্তু"
+        },
+        {
+          "en": "Meteorite is in space, meteoroid is on Earth",
+          "as": "মিটিঅ'ৰাইট মহাকাশত, মিটিঅ'ৰ'ইড পৃথিৱীত"
+        },
+        {
+          "en": "Meteor is a planet",
+          "as": "মিটিঅ'ৰ এটা গ্ৰহ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A meteoroid is a small rock in space; a meteor is the streak of light when it burns; a meteorite is the piece that lands on Earth.",
+        "as": "মিটিঅ'ৰ'ইড মহাকাশৰ সৰু শিল; মিটিঅ'ৰ ই জ্বলি যাওঁতে দেখা পোহৰৰ ৰেখা; মিটিঅ'ৰাইট পৃথিৱীত পৰা টুকুৰা।"
       }
     },
     {
-      "q": {
-        "en": "What is a meteor shower?",
-        "as": "উল্কাবৃষ্টি (meteor shower) কি?"
-      },
-      "a": {
-        "en": "A meteor shower occurs when Earth passes through the debris trail left by a comet, causing many meteors to appear.",
-        "as": "উল্কাবৃষ্টি হয় যেতিয়া পৃথিৱী এটা ধূমকেতুৱে এৰি যোৱা ধ্বংসাৱশেষৰ মাজেৰে পাৰ হয়, যাৰ ফলত বহু উল্কা দেখা যায়।"
+      "question_en": "What is a meteor shower?",
+      "question_as": "উল্কাবৃষ্টি (meteor shower) কি?",
+      "answer_en": "Earth passing through the debris trail of a comet",
+      "answer_as": "পৃথিৱী এটা ধূমকেতুৰ ধ্বংসাৱশেষৰ মাজেৰে পাৰ হোৱা",
+      "options": [
+        {
+          "en": "Earth passing through the debris trail of a comet",
+          "as": "পৃথিৱী এটা ধূমকেতুৰ ধ্বংসাৱশেষৰ মাজেৰে পাৰ হোৱা"
+        },
+        {
+          "en": "A star exploding",
+          "as": "তৰা এটা বিস্ফোৰিত হোৱা"
+        },
+        {
+          "en": "The Moon blocking the Sun",
+          "as": "চন্দ্ৰই সূৰ্যক ঢাকি ধৰা"
+        },
+        {
+          "en": "Volcanic eruption",
+          "as": "আগ্নেয়গিৰিৰ উদগীৰণ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A meteor shower occurs when Earth passes through the debris trail left by a comet.",
+        "as": "উল্কাবৃষ্টি হয় যেতিয়া পৃথিৱী এটা ধূমকেতুৱে এৰি যোৱা ধ্বংসাৱশেষৰ মাজেৰে পাৰ হয়।"
       }
     },
     {
-      "q": {
-        "en": "What is the Perseid meteor shower associated with?",
-        "as": "পাৰচিড উল্কাবৃষ্টি কিৰ সৈতে জড়িত?"
-      },
-      "a": {
+      "question_en": "What is the Perseid meteor shower associated with?",
+      "question_as": "পাৰচিড উল্কাবৃষ্টি কিৰ সৈতে জড়িত?",
+      "answer_en": "Comet Swift-Tuttle",
+      "answer_as": "স্বিফ্ট-টাটল ধূমকেতু",
+      "options": [
+        {
+          "en": "Halley's Comet",
+          "as": "হেলিৰ ধূমকেতু"
+        },
+        {
+          "en": "Comet Swift-Tuttle",
+          "as": "স্বিফ্ট-টাটল ধূমকেতু"
+        },
+        {
+          "en": "Comet Hale-Bopp",
+          "as": "হেল-বপ ধূমকেতু"
+        },
+        {
+          "en": "Comet NEOWISE",
+          "as": "নিঅ'ৱাইজ ধূমকেতু"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
         "en": "The Perseid meteor shower is associated with comet Swift-Tuttle.",
         "as": "পাৰচিড উল্কাবৃষ্টি স্বিফ্ট-টাটল ধূমকেতুৰ সৈতে জড়িত।"
       }
     },
     {
-      "q": {
-        "en": "What is the Oort Cloud?",
-        "as": "অ'ৰ্ট মেঘ (Oort Cloud) কি?"
-      },
-      "a": {
-        "en": "The Oort Cloud is a hypothesized spherical cloud of icy objects surrounding the solar system, the source of long-period comets.",
-        "as": "অ'ৰ্ট মেঘ হৈছে সৌৰজগতক বেৰি থকা বৰফীয়া বস্তুৰ এক কল্পিত গোলাকাৰ মেঘ, যিটো দীঘল-কালৰ ধূমকেতুৰ উৎস।"
+      "question_en": "What is the Oort Cloud?",
+      "question_as": "অ'ৰ্ট মেঘ (Oort Cloud) কি?",
+      "answer_en": "A spherical cloud of icy objects surrounding the solar system",
+      "answer_as": "সৌৰজগতক বেৰি থকা বৰফীয়া বস্তুৰ গোলাকাৰ মেঘ",
+      "options": [
+        {
+          "en": "A spherical cloud of icy objects surrounding the solar system",
+          "as": "সৌৰজগতক বেৰি থকা বৰফীয়া বস্তুৰ গোলাকাৰ মেঘ"
+        },
+        {
+          "en": "A ring around Saturn",
+          "as": "শনিগ্ৰহৰ চাৰিওফালৰ বলয়"
+        },
+        {
+          "en": "A galaxy near the Milky Way",
+          "as": "আকাশগংগাৰ ওচৰৰ এটা তাৰকাৰাজ্য"
+        },
+        {
+          "en": "The surface of the Moon",
+          "as": "চন্দ্ৰৰ পৃষ্ঠ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Oort Cloud is a hypothesized spherical cloud of icy objects surrounding the solar system and the source of long-period comets.",
+        "as": "অ'ৰ্ট মেঘ হৈছে সৌৰজগতক বেৰি থকা বৰফীয়া বস্তুৰ কল্পিত গোলাকাৰ মেঘ আৰু দীঘল-কালৰ ধূমকেতুৰ উৎস।"
       }
     },
     {
-      "q": {
-        "en": "What is Eris?",
-        "as": "এৰিছ (Eris) কি?"
-      },
-      "a": {
-        "en": "Eris is a dwarf planet in the scattered disc beyond the Kuiper Belt, and is the most massive known dwarf planet.",
-        "as": "এৰিছ হৈছে কুইপাৰ বেল্টৰ বাহিৰত ছ্যাটাৰড ডিস্কত থকা এটা বামন গ্ৰহ, আৰু এইখন জ্ঞাত আটাইতকৈ ভৰযুক্ত বামন গ্ৰহ।"
+      "question_en": "What is Eris?",
+      "question_as": "এৰিছ (Eris) কি?",
+      "answer_en": "The most massive known dwarf planet, in the scattered disc",
+      "answer_as": "ছ্যাটাৰড ডিস্কত থকা জ্ঞাত আটাইতকৈ ভৰযুক্ত বামন গ্ৰহ",
+      "options": [
+        {
+          "en": "The most massive known dwarf planet, in the scattered disc",
+          "as": "ছ্যাটাৰড ডিস্কত থকা জ্ঞাত আটাইতকৈ ভৰযুক্ত বামন গ্ৰহ"
+        },
+        {
+          "en": "A moon of Mars",
+          "as": "মঙ্গলৰ এটা উপগ্ৰহ"
+        },
+        {
+          "en": "The largest planet",
+          "as": "আটাইতকৈ ডাঙৰ গ্ৰহ"
+        },
+        {
+          "en": "A comet",
+          "as": "এটা ধূমকেতু"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Eris is a dwarf planet in the scattered disc beyond the Kuiper Belt and the most massive known dwarf planet.",
+        "as": "এৰিছ কুইপাৰ বেল্টৰ বাহিৰত ছ্যাটাৰড ডিস্কত থকা এটা বামন গ্ৰহ আৰু জ্ঞাত আটাইতকৈ ভৰযুক্ত বামন গ্ৰহ।"
       }
     },
     {
-      "q": {
-        "en": "What is Ceres?",
-        "as": "চেৰেচ (Ceres) কি?"
-      },
-      "a": {
-        "en": "Ceres is the largest object in the asteroid belt and the only dwarf planet located in the inner solar system.",
-        "as": "চেৰেচ হৈছে উল্কাপিণ্ড মেঢ়েকিৰ আটাইতকৈ ডাঙৰ বস্তু আৰু ভিতৰৰ সৌৰজগতত অৱস্থিত একমাত্ৰ বামন গ্ৰহ।"
+      "question_en": "What is Ceres?",
+      "question_as": "চেৰেচ (Ceres) কি?",
+      "answer_en": "The largest object in the asteroid belt and the only inner-solar-system dwarf planet",
+      "answer_as": "উল্কাপিণ্ড মেঢ়েকিৰ আটাইতকৈ ডাঙৰ বস্তু আৰু ভিতৰৰ সৌৰজগতৰ একমাত্ৰ বামন গ্ৰহ",
+      "options": [
+        {
+          "en": "The largest object in the asteroid belt and the only inner-solar-system dwarf planet",
+          "as": "উল্কাপিণ্ড মেঢ়েকিৰ আটাইতকৈ ডাঙৰ বস্তু আৰু ভিতৰৰ সৌৰজগতৰ একমাত্ৰ বামন গ্ৰহ"
+        },
+        {
+          "en": "A moon of Jupiter",
+          "as": "বৃহস্পতিৰ এটা উপগ্ৰহ"
+        },
+        {
+          "en": "The farthest planet",
+          "as": "আটাইতকৈ দূৰৰ গ্ৰহ"
+        },
+        {
+          "en": "A comet with a tail",
+          "as": "নেজ থকা ধূমকেতু"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ceres is the largest object in the asteroid belt and the only dwarf planet in the inner solar system.",
+        "as": "চেৰেচ উল্কাপিণ্ড মেঢ়েকিৰ আটাইতকৈ ডাঙৰ বস্তু আৰু ভিতৰৰ সৌৰজগতত অৱস্থিত একমাত্ৰ বামন গ্ৰহ।"
       }
     },
     {
-      "q": {
-        "en": "What is a near-Earth object (NEO)?",
-        "as": "নিকট-পৃথিৱী বস্তু (NEO) কি?"
-      },
-      "a": {
-        "en": "A near-Earth object is an asteroid or comet whose orbit brings it close to Earth's orbit.",
-        "as": "নিকট-পৃথিৱী বস্তু হৈছে এনে এটা উল্কাপিণ্ড বা ধূমকেতু যাৰ কক্ষপথ ইয়াক পৃথিৱীৰ কক্ষপথৰ ওচৰলৈ আনে।"
+      "question_en": "What is a near-Earth object (NEO)?",
+      "question_as": "নিকট-পৃথিৱী বস্তু (NEO) কি?",
+      "answer_en": "An asteroid or comet whose orbit brings it close to Earth",
+      "answer_as": "কক্ষপথে পৃথিৱীৰ ওচৰলৈ অনা উল্কাপিণ্ড বা ধূমকেতু",
+      "options": [
+        {
+          "en": "An asteroid or comet whose orbit brings it close to Earth",
+          "as": "কক্ষপথে পৃথিৱীৰ ওচৰলৈ অনা উল্কাপিণ্ড বা ধূমকেতু"
+        },
+        {
+          "en": "Any object in the Kuiper Belt",
+          "as": "কুইপাৰ বেল্টৰ যিকোনো বস্তু"
+        },
+        {
+          "en": "A moon of Earth",
+          "as": "পৃথিৱীৰ এটা উপগ্ৰহ"
+        },
+        {
+          "en": "A distant star",
+          "as": "এটা দূৰৱৰ্তী তৰা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A near-Earth object (NEO) is an asteroid or comet whose orbit brings it close to Earth's orbit.",
+        "as": "নিকট-পৃথিৱী বস্তু (এনইঅ') হৈছে এনে উল্কাপিণ্ড বা ধূমকেতু যাৰ কক্ষপথে ইয়াক পৃথিৱীৰ কক্ষপথৰ ওচৰলৈ আনে।"
       }
     },
     {
-      "q": {
-        "en": "What is a fireball?",
-        "as": "অগ্নিগোলক (fireball) কি?"
-      },
-      "a": {
-        "en": "A fireball is an unusually bright meteor, brighter than Venus, that explodes or streaks across the sky.",
-        "as": "অগ্নিগোলক হৈছে এটা অস্বাভাৱিকভাৱে উজ্জ্বল উল্কা, শুক্ৰতকৈও উজ্জ্বল, যি আকাশত বিস্ফোৰিত হয় বা ৰেখা টানি যায়।"
+      "question_en": "What is a fireball?",
+      "question_as": "অগ্নিগোলক (fireball) কি?",
+      "answer_en": "An unusually bright meteor brighter than Venus",
+      "answer_as": "শুক্ৰতকৈও উজ্জ্বল অস্বাভাৱিক উল্কা",
+      "options": [
+        {
+          "en": "An unusually bright meteor brighter than Venus",
+          "as": "শুক্ৰতকৈও উজ্জ্বল অস্বাভাৱিক উল্কা"
+        },
+        {
+          "en": "A planet",
+          "as": "এটা গ্ৰহ"
+        },
+        {
+          "en": "A type of comet",
+          "as": "এক প্ৰকাৰৰ ধূমকেতু"
+        },
+        {
+          "en": "A solar flare",
+          "as": "সৌৰ জ্বালা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A fireball is an unusually bright meteor, brighter than Venus, that may explode or streak across the sky.",
+        "as": "অগ্নিগোলক হৈছে অস্বাভাৱিকভাৱে উজ্জ্বল উল্কা, শুক্ৰতকৈও উজ্জ্বল, যি বিস্ফোৰিত হ'ব পাৰে বা ৰেখা টানি যায়।"
       }
     },
     {
-      "q": {
-        "en": "What is the Chicxulub crater linked to?",
-        "as": "চিক্সুলুব গর্তটো কিৰ সৈতে জড়িত?"
-      },
-      "a": {
-        "en": "The Chicxulub crater in Mexico is linked to the asteroid impact that is believed to have caused the extinction of the dinosaurs about 66 million years ago.",
-        "as": "মেক্সিকোৰ চিক্সুলুব গর্তটো সেই উল্কাপিণ্ড আঘাতৰ সৈতে জড়িত যা প্ৰায় ৬.৬ কোটি বছৰ আগতে ডাইন'ছৰবোৰৰ বিলুপ্তি ঘটালে বুলি বিশ্বাস কৰা হয়।"
+      "question_en": "What is the Chicxulub crater linked to?",
+      "question_as": "চিক্সুলুব গর্তটো কিৰ সৈতে জড়িত?",
+      "answer_en": "The asteroid impact believed to have caused the extinction of the dinosaurs",
+      "answer_as": "ডাইন'ছৰৰ বিলুপ্তি ঘটোৱা বুলি বিশ্বাস কৰা উল্কাপিণ্ড আঘাত",
+      "options": [
+        {
+          "en": "The asteroid impact believed to have caused the extinction of the dinosaurs",
+          "as": "ডাইন'ছৰৰ বিলুপ্তি ঘটোৱা বুলি বিশ্বাস কৰা উল্কাপিণ্ড আঘাত"
+        },
+        {
+          "en": "A volcanic crater on the Moon",
+          "as": "চন্দ্ৰৰ আগ্নেয়গিৰিৰ গৰ্ত"
+        },
+        {
+          "en": "A comet's tail",
+          "as": "ধূমকেতুৰ নেজ"
+        },
+        {
+          "en": "An earthquake fault",
+          "as": "ভূমিকম্পৰ চ্যুতি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Chicxulub crater in Mexico is linked to the asteroid impact believed to have caused the extinction of the dinosaurs about 66 million years ago.",
+        "as": "মেক্সিকোৰ চিক্সুলুব গৰ্ত প্ৰায় ৬.৬ কোটি বছৰ আগতে ডাইন'ছৰৰ বিলুপ্তি ঘটোৱা উল্কাপিণ্ড আঘাতৰ সৈতে জড়িত।"
       }
     },
     {
-      "q": {
-        "en": "What are the names of the inner and outer asteroid zones?",
-        "as": "ভিতৰ আৰু বাহিৰ উল্কাপিণ্ড অঞ্চলসমূহৰ নাম কি?"
-      },
-      "a": {
-        "en": "The main asteroid belt lies between Mars and Jupiter, and the Trojan asteroids share Jupiter's orbit; the Kuiper Belt lies beyond Neptune.",
-        "as": "মূল উল্কাপিণ্ড মেঢ়েকি মঙ্গল আৰু বৃহস্পতিৰ মাজত আছে, ট্র'জান উল্কাপিণ্ডবোৰ বৃহস্পতিৰ কক্ষপথ ভাগ কৰে; কুইপাৰ বেল্ট নেপচুনৰ বাহিৰত আছে।"
+      "question_en": "What are the names of the inner and outer asteroid zones?",
+      "question_as": "ভিতৰ আৰু বাহিৰ উল্কাপিণ্ড অঞ্চলসমূহৰ নাম কি?",
+      "answer_en": "The main belt between Mars and Jupiter and the Trojans sharing Jupiter's orbit",
+      "answer_as": "মঙ্গল-বৃহস্পতিৰ মাজৰ মূল মেঢ়েকি আৰু বৃহস্পতিৰ কক্ষপথ ভগোৱা ট্ৰ'জান",
+      "options": [
+        {
+          "en": "The main belt between Mars and Jupiter and the Trojans sharing Jupiter's orbit",
+          "as": "মঙ্গল-বৃহস্পতিৰ মাজৰ মূল মেঢ়েকি আৰু বৃহস্পতিৰ কক্ষপথ ভগোৱা ট্ৰ'জান"
+        },
+        {
+          "en": "The Oort Cloud and the Kuiper Belt",
+          "as": "অ'ৰ্ট মেঘ আৰু কুইপাৰ বেল্ট"
+        },
+        {
+          "en": "The Milky Way and Andromeda",
+          "as": "আকাশগংগা আৰু এণ্ড্ৰ'মিডা"
+        },
+        {
+          "en": "The Sun and the Moon",
+          "as": "সূৰ্য আৰু চন্দ্ৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The main asteroid belt lies between Mars and Jupiter, the Trojan asteroids share Jupiter's orbit, and the Kuiper Belt lies beyond Neptune.",
+        "as": "মূল উল্কাপিণ্ড মেঢ়েকি মঙ্গল আৰু বৃহস্পতিৰ মাজত, ট্ৰ'জান উল্কাপিণ্ড বৃহস্পতিৰ কক্ষপথ ভাগ কৰে, আৰু কুইপাৰ বেল্ট নেপচুনৰ বাহিৰত।"
       }
     },
     {
-      "q": {
-        "en": "What is the Tunguska event?",
-        "as": "টুংগুস্কা ঘটনা কি?"
-      },
-      "a": {
+      "question_en": "What is the Tunguska event?",
+      "question_as": "টুংগুস্কা ঘটনা কি?",
+      "answer_en": "A massive explosion in Siberia in 1908, likely an airburst",
+      "answer_as": "১৯০৮ চনত চাইবেৰিয়াত হোৱা বিশাল বিস্ফোৰণ, সম্ভৱতঃ বায়ু বিস্ফোৰণ",
+      "options": [
+        {
+          "en": "A massive explosion in Siberia in 1908, likely an airburst",
+          "as": "১৯০৮ চনত চাইবেৰিয়াত হোৱা বিশাল বিস্ফোৰণ, সম্ভৱতঃ বায়ু বিস্ফোৰণ"
+        },
+        {
+          "en": "A solar eclipse",
+          "as": "সূৰ্য গ্ৰহণ"
+        },
+        {
+          "en": "The birth of a star",
+          "as": "তৰা এটাৰ জন্ম"
+        },
+        {
+          "en": "A volcanic island formation",
+          "as": "আগ্নেয়গিৰিৰ দ্বীপ গঠন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
         "en": "The Tunguska event was a massive explosion in Siberia in 1908, believed to be caused by an asteroid or comet airburst.",
-        "as": "টুংগুস্কা ঘটনা হৈছে ১৯০৮ চনত চাইবেৰিয়াত হোৱা এক বিশাল বিস্ফোৰণ, যিটো উল্কাপিণ্ড বা ধূমকেতুৰ বায়ু বিস্ফোৰণৰ ফলত হৈছিল বুলি বিশ্বাস কৰা হয়।"
+        "as": "টুংগুস্কা ঘটনা ১৯০৮ চনত চাইবেৰিয়াত হোৱা বিশাল বিস্ফোৰণ, উল্কাপিণ্ড বা ধূমকেতুৰ বায়ু বিস্ফোৰণৰ ফলত হৈছিল বুলি বিশ্বাস কৰা হয়।"
       }
     },
     {
-      "q": {
-        "en": "What is the difference between an asteroid and a comet?",
-        "as": "উল্কাপিণ্ড আৰু ধূমকেতুৰ মাজৰ পাৰ্থক্য কি?"
-      },
-      "a": {
-        "en": "An asteroid is mostly rocky and found in the inner solar system, while a comet is mostly icy and develops a tail when near the Sun.",
-        "as": "উল্কাপিণ্ড মূলতঃ শিলাময় আৰু ভিতৰৰ সৌৰজগতত পোৱা যায়, আনহাতে ধূমকেতু মূলতঃ বৰফীয়া আৰু সূৰ্যৰ ওচৰত আহিলে নেজ গঠন হয়।"
+      "question_en": "What is the difference between an asteroid and a comet?",
+      "question_as": "উল্কাপিণ্ড আৰু ধূমকেতুৰ মাজৰ পাৰ্থক্য কি?",
+      "answer_en": "An asteroid is rocky and inner; a comet is icy and develops a tail near the Sun",
+      "answer_as": "উল্কাপিণ্ড শিলাময় আৰু ভিতৰত; ধূমকেতু বৰফীয়া আৰু সূৰ্যৰ ওচৰত নেজ গঠন কৰে",
+      "options": [
+        {
+          "en": "An asteroid is rocky and inner; a comet is icy and develops a tail near the Sun",
+          "as": "উল্কাপিণ্ড শিলাময় আৰু ভিতৰত; ধূমকেতু বৰফীয়া আৰু সূৰ্যৰ ওচৰত নেজ গঠন কৰে"
+        },
+        {
+          "en": "An asteroid is icy and a comet is rocky",
+          "as": "উল্কাপিণ্ড বৰফীয়া আৰু ধূমকেতু শিলাময়"
+        },
+        {
+          "en": "Both are exactly the same",
+          "as": "দুয়োটাই একেই"
+        },
+        {
+          "en": "A comet is a moon and an asteroid is a star",
+          "as": "ধূমকেতু এটা উপগ্ৰহ আৰু উল্কাপিণ্ড এটা তৰা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "An asteroid is mostly rocky and found in the inner solar system, while a comet is mostly icy and develops a tail near the Sun.",
+        "as": "উল্কাপিণ্ড মূলতঃ শিলাময় আৰু ভিতৰৰ সৌৰজগতত, আনহাতে ধূমকেতু মূলতঃ বৰফীয়া আৰু সূৰ্যৰ ওচৰত নেজ গঠন কৰে।"
       }
     }
   ]
