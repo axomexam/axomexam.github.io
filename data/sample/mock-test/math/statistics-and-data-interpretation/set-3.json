@@ -26,7 +26,11 @@
           "as": "15"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Class width = upper limit - lower limit = 20 - 10 = 10. The frequency (8) does not affect the width.",
+        "as": "শ্ৰেণী প্ৰস্থ = উচ্চ সীমা - নিম্ন সীমা = 20 - 10 = 10। কম্পাঙ্ক (8)এ প্ৰস্থত প্ৰভাৱ নেপেলায়।"
+      }
     },
     {
       "q": {
@@ -51,7 +55,11 @@
           "as": "35"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "Class mark = (lower limit + upper limit) / 2 = (30 + 40) / 2 = 35.",
+        "as": "শ্ৰেণী চিহ্ন = (নিম্ন সীমা + উচ্চ সীমা) / 2 = (30 + 40) / 2 = 35।"
+      }
     },
     {
       "q": {
@@ -76,7 +84,11 @@
           "as": "কেৱল সময় শ্ৰেণী"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "A histogram displays grouped continuous data using adjacent bars whose heights equal the class frequencies.",
+        "as": "হিষ্টোগ্ৰামে গোটৱা অবিচ্ছিন্ন তথ্য দেখুৱায়, য'ত সংলগ্ন দণ্ডৰ উচ্চতা শ্ৰেণী কম্পাঙ্কৰ সমান হয়।"
+      }
     },
     {
       "q": {
@@ -101,7 +113,11 @@
           "as": "শ্ৰেণী প্ৰস্থ"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "A frequency polygon is formed by joining the mid-points of the tops of adjacent histogram bars by straight lines.",
+        "as": "কম্পাঙ্ক বহুভুজ গঠন হয় হিষ্টোগ্ৰাম দণ্ডৰ শীৰ্ষৰ মধ্যবিন্দুবোৰ চৰিয়াৰেখাৰে সংযোগ কৰি।"
+      }
     },
     {
       "q": {
@@ -126,7 +142,11 @@
           "as": "শ্ৰেণী ব্যৱধান"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "An ogive is the graph of cumulative frequency plotted against class limits.",
+        "as": "অ'জাইভ হৈছে শ্ৰেণী সীমাৰ বিপৰীতে অংকন কৰা সঞ্চিত কম্পাঙ্কৰ লেখ।"
+      }
     },
     {
       "q": {
@@ -151,7 +171,11 @@
           "as": "অ'জাইভৰ পৰা"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "The median of grouped data is read from the ogive as the value corresponding to cumulative frequency N/2.",
+        "as": "গোটৱা তথ্যৰ মধ্যমা অ'জাইভৰ পৰা N/2 সঞ্চিত কম্পাঙ্কৰ সংশ্লিষ্ট মান হিচাপে পঢ়া হয়।"
+      }
     },
     {
       "q": {
@@ -176,7 +200,11 @@
           "as": "10 বৰ্জন, 20 অন্তৰ্ভুক্ত"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "In an exclusive interval 10–20, the lower limit 10 is included while the upper limit 20 is excluded.",
+        "as": "বৰ্জনমূলক ব্যৱধান 10–20 ত নিম্ন সীমা 10 অন্তৰ্ভুক্ত আৰু উচ্চ সীমা 20 বৰ্জিত হয়।"
+      }
     },
     {
       "q": {
@@ -201,7 +229,11 @@
           "as": "পৰিসৰ"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "The sum of all frequencies gives the total number of observations, denoted by N or Σf.",
+        "as": "সকলো কম্পাঙ্কৰ যোগফলে মুঠ নিৰীক্ষণ সংখ্যা দিয়ে, যাক N বা Σf ৰে সূচোৱা হয়।"
+      }
     },
     {
       "q": {
@@ -226,7 +258,11 @@
           "as": "20"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "Cumulative frequency of 10–20 = 5 + 8 = 13, adding all frequencies up to and including that class.",
+        "as": "10–20 ৰ সঞ্চিত কম্পাঙ্ক = 5 + 8 = 13, সেই শ্ৰেণীলৈকে সকলো কম্পাঙ্ক যোগ কৰি পোৱা যায়।"
+      }
     },
     {
       "q": {
@@ -251,7 +287,11 @@
           "as": "শূন্য কম্পাঙ্ক"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "The modal class is the class having the maximum (highest) frequency in the distribution.",
+        "as": "প্ৰচলক শ্ৰেণী হৈছে বণ্টনৰ সৰ্বোচ্চ কম্পাঙ্ক থকা শ্ৰেণী।"
+      }
     },
     {
       "q": {
@@ -276,7 +316,11 @@
           "as": "নিৰ্ধাৰণ কৰিব নোৱাৰি"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "The highest frequency is 10, which belongs to class 10–20, so 10–20 is the modal class.",
+        "as": "সৰ্বোচ্চ কম্পাঙ্ক 10, যি 10–20 শ্ৰেণীৰ, সেয়ে 10–20 প্ৰচলক শ্ৰেণী।"
+      }
     },
     {
       "q": {
@@ -301,7 +345,11 @@
           "as": "ৰেখা"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "A pie chart represents data as sectors (slices) of a circle, each sector proportional to its value.",
+        "as": "পাই চাৰ্টে তথ্য বৃত্তৰ খণ্ড (ছেক্টৰ) হিচাপে প্ৰতিনিধিত্ব কৰে, প্ৰতিটো খণ্ড তাৰ মানৰ সমানুপাতিক।"
+      }
     },
     {
       "q": {
@@ -326,7 +374,11 @@
           "as": "360°"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "A pie chart is a full circle, so its total angle is 360°.",
+        "as": "পাই চাৰ্ট এটা সম্পূৰ্ণ বৃত্ত, সেয়ে ইয়াৰ মুঠ কোণ 360°।"
+      }
     },
     {
       "q": {
@@ -351,7 +403,11 @@
           "as": "100°"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "Angle = (25/100) × 360° = 90°.",
+        "as": "কোণ = (25/100) × 360° = 90°।"
+      }
     },
     {
       "q": {
@@ -376,7 +432,11 @@
           "as": "মানক বিচ্যুতি উলিয়াবলৈ"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "A bar diagram is best suited for comparing the magnitudes of different categories side by side.",
+        "as": "দণ্ডচিত্ৰ বিভিন্ন শ্ৰেণীৰ মান পাশাপাশি তুলনা কৰিবলৈ সৰ্বাধিক উপযোগী।"
+      }
     },
     {
       "q": {
@@ -401,7 +461,11 @@
           "as": "Σf / n"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "For grouped data by the direct method, mean = Σfx / Σf, where x is the class mark.",
+        "as": "প্ৰত্যক্ষ পদ্ধতিৰে গোটৱা তথ্যৰ গড় = Σfx / Σf, য'ত x হৈছে শ্ৰেণী চিহ্ন।"
+      }
     },
     {
       "q": {
@@ -426,7 +490,11 @@
           "as": "10"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Class marks are 5, 15, 25. Mean = (2×5 + 3×15 + 5×25) / (2+3+5) = 180/10 = 18.",
+        "as": "শ্ৰেণী চিহ্ন 5, 15, 25। গড় = (2×5 + 3×15 + 5×25) / (2+3+5) = 180/10 = 18।"
+      }
     },
     {
       "q": {
@@ -451,7 +519,11 @@
           "as": "মধ্যমা"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "Relative frequency = class frequency / total frequency (Σf).",
+        "as": "আপেক্ষিক কম্পাঙ্ক = শ্ৰেণী কম্পাঙ্ক / মুঠ কম্পাঙ্ক (Σf)।"
+      }
     },
     {
       "q": {
@@ -476,7 +548,11 @@
           "as": "কম্পাঙ্কৰ বিপৰীতে"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "In a less-than ogive, cumulative frequencies are plotted against the upper class limits and joined.",
+        "as": "কম-তকৈ অ'জাইভত সঞ্চিত কম্পাঙ্ক উচ্চ শ্ৰেণী সীমাৰ বিপৰীতে অংকন কৰি সংযোগ কৰা হয়।"
+      }
     },
     {
       "q": {
@@ -501,7 +577,11 @@
           "as": "শ্ৰেণী ব্যৱধান (প্ৰস্থ)"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "Class interval (width) = upper class limit − lower class limit.",
+        "as": "শ্ৰেণী ব্যৱধান (প্ৰস্থ) = উচ্চ শ্ৰেণী সীমা − নিম্ন শ্ৰেণী সীমা।"
+      }
     },
     {
       "q": {
@@ -526,7 +606,11 @@
           "as": "গোটৱা তথ্য"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Data already collected and published by others (reports, records) are called secondary data.",
+        "as": "আনৰ দ্বাৰা আগতে সংগ্ৰহ আৰু প্ৰকাশ কৰা তথ্যক (প্ৰতিবেদন, অভিলেখ) গৌণ তথ্য বোলে।"
+      }
     },
     {
       "q": {
@@ -551,7 +635,11 @@
           "as": "কেৱল ঋণাত্মক মান"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "A discrete variable takes only isolated (distinct) values and cannot take every value in an interval.",
+        "as": "বিচ্ছিন্ন চলকে কেৱল পৃথক (স্পষ্ট) মান লয়, ব্যৱধানৰ প্ৰতিটো মান ল'ব নোৱাৰে।"
+      }
     },
     {
       "q": {
@@ -576,7 +664,11 @@
           "as": "কেৱল ধ্ৰুৱকৰ"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "The number of students is a count that takes only whole isolated values, so it is a discrete variable.",
+        "as": "ছাত্ৰৰ সংখ্যা এটা গণনা যি কেৱল পূৰ্ণসংখ্যা মান লয়, সেয়ে ই বিচ্ছিন্ন চলক।"
+      }
     },
     {
       "q": {
@@ -601,7 +693,11 @@
           "as": "ধ্ৰুৱকৰ"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Height can take any value within a range, so it is a continuous variable.",
+        "as": "উচ্চতাই এটা পৰিসৰৰ ভিতৰত যিকোনো মান ল'ব পাৰে, সেয়ে ই অবিচ্ছিন্ন চলক।"
+      }
     },
     {
       "q": {
@@ -626,7 +722,11 @@
           "as": "10%"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "Percentage = (90/360) × 100 = 25%.",
+        "as": "শতাংশ = (90/360) × 100 = 25%।"
+      }
     }
   ]
 }

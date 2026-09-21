@@ -26,7 +26,11 @@
           "as": "15"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "Range = Maximum − Minimum = 40 − 10 = 30.",
+        "as": "পৰিসৰ = সৰ্বাধিক − সৰ্বনিম্ন = 40 − 10 = 30।"
+      }
     },
     {
       "q": {
@@ -51,7 +55,11 @@
           "as": "6"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Mean = 30/5 = 6. Variance = Σ(x − x̄)²/N = (16+4+0+4+16)/5 = 40/5 = 8.",
+        "as": "গড় = 30/5 = 6। ভেদ = Σ(x − x̄)²/N = (16+4+0+4+16)/5 = 40/5 = 8।"
+      }
     },
     {
       "q": {
@@ -76,7 +84,11 @@
           "as": "8"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "Standard deviation = √Variance = √8.",
+        "as": "মানক বিচ্যুতি = √ভেদ = √8।"
+      }
     },
     {
       "q": {
@@ -101,7 +113,11 @@
           "as": "625"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "Standard deviation = √Variance = √25 = 5.",
+        "as": "মানক বিচ্যুতি = √ভেদ = √25 = 5।"
+      }
     },
     {
       "q": {
@@ -126,7 +142,11 @@
           "as": "মানক বিচ্যুতি"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "Variance is the square of the standard deviation, i.e. Variance = (SD)².",
+        "as": "ভেদ হৈছে মানক বিচ্যুতিৰ বৰ্গ, অৰ্থাৎ ভেদ = (মানক বিচ্যুতি)²।"
+      }
     },
     {
       "q": {
@@ -151,7 +171,11 @@
           "as": "আধা"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "Multiplying every observation by k multiplies the variance by k²; here k = 2, so variance becomes 2² = 4 times.",
+        "as": "প্ৰতিটো পৰ্যবেক্ষণ k ৰে গুণ কৰিলে ভেদ k² গুণ হয়; ইয়াত k = 2, গতিকে ভেদ 2² = 4 গুণ হয়।"
+      }
     },
     {
       "q": {
@@ -176,7 +200,11 @@
           "as": "3 হ্ৰাস হয়"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Adding a constant to every observation shifts all values equally, so the spread does not change and the standard deviation remains the same.",
+        "as": "প্ৰতিটো পৰ্যবেক্ষণত এটা ধ্ৰুৱক যোগ কৰিলে সকলো মান সমানে স্থানান্তৰিত হয়, গতিকে বিস্তাৰ নসলনি আৰু মানক বিচ্যুতি একে থাকে।"
+      }
     },
     {
       "q": {
@@ -201,7 +229,11 @@
           "as": "মানক বিচ্যুতি − গড়"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Coefficient of variation = (Standard deviation / Mean) × 100.",
+        "as": "ভেদাংক = (মানক বিচ্যুতি / গড়) × 100।"
+      }
     },
     {
       "q": {
@@ -226,7 +258,11 @@
           "as": "5%"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "CV = (SD/Mean) × 100 = (4/20) × 100 = 20%.",
+        "as": "ভেদাংক = (মানক বিচ্যুতি/গড়) × 100 = (4/20) × 100 = 20%।"
+      }
     },
     {
       "q": {
@@ -251,7 +287,11 @@
           "as": "তলত 10% আৰু ওপৰত 90%"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Q1 is the lower quartile, below which 25% of the data lie and above which 75% lie.",
+        "as": "Q1 হৈছে নিম্ন চতুৰ্থাংশ, যাৰ তলত তথ্যৰ 25% আৰু ওপৰত 75% থাকে।"
+      }
     },
     {
       "q": {
@@ -276,7 +316,11 @@
           "as": "মধ্যমাৰ সৈতে"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "The second quartile Q2 is the value below which 50% of the data lie, which is the median.",
+        "as": "দ্বিতীয় চতুৰ্থাংশ Q2 হৈছে সেই মান যাৰ তলত তথ্যৰ 50% থাকে, অৰ্থাৎ মধ্যমা।"
+      }
     },
     {
       "q": {
@@ -301,7 +345,11 @@
           "as": "Q3 / Q1"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Quartile deviation (semi-interquartile range) = (Q3 − Q1) / 2.",
+        "as": "চতুৰ্থাংশ বিচ্যুতি (অৰ্ধ-আন্তঃচতুৰ্থাংশ পৰিসৰ) = (Q3 − Q1) / 2।"
+      }
     },
     {
       "q": {
@@ -326,7 +374,11 @@
           "as": "60"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "Quartile deviation = (Q3 − Q1)/2 = (40 − 20)/2 = 10.",
+        "as": "চতুৰ্থাংশ বিচ্যুতি = (Q3 − Q1)/2 = (40 − 20)/2 = 10।"
+      }
     },
     {
       "q": {
@@ -351,7 +403,11 @@
           "as": "Q3 / Q1"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "Interquartile range = Q3 − Q1.",
+        "as": "আন্তঃচতুৰ্থাংশ পৰিসৰ = Q3 − Q1।"
+      }
     },
     {
       "q": {
@@ -376,7 +432,11 @@
           "as": "পৰিসৰ"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "The 50th percentile divides the data with 50% below and 50% above, so it equals the median.",
+        "as": "50 তম শতকৰাংশই তথ্যক 50% তলত আৰু 50% ওপৰত ভাগ কৰে, গতিকে ই মধ্যমাৰ সমান।"
+      }
     },
     {
       "q": {
@@ -401,7 +461,11 @@
           "as": "মানক বিচ্যুতি"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "Standard deviation is an absolute measure of dispersion, expressed in the same units as the data; the coefficient of variation, range and quartile deviation coefficients are relative measures.",
+        "as": "মানক বিচ্যুতি হৈছে বিস্তাৰৰ এটা নিৰপেক্ষ জোখ, তথ্যৰ এককতে প্ৰকাশ কৰা হয়; ভেদাংক, পৰিসৰাংক আৰু চতুৰ্থাংশ বিচ্যুতাংক আপেক্ষিক জোখ।"
+      }
     },
     {
       "q": {
@@ -426,7 +490,11 @@
           "as": "মূলবিন্দু"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "Mean deviation is minimum when measured from the median, since the median minimises the sum of absolute deviations.",
+        "as": "মধ্যমাৰ পৰা জুখিলে গড় বিচ্যুতি সৰ্বনিম্ন হয়, কাৰণ মধ্যমাই নিৰপেক্ষ বিচ্যুতিৰ যোগফল ন্যূনতম কৰে।"
+      }
     },
     {
       "q": {
@@ -451,7 +519,11 @@
           "as": "8"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "Mean = 40/5 = 8. Mean deviation = Σ|x − x̄|/N = (4+2+0+2+4)/5 = 12/5 = 2.4.",
+        "as": "গড় = 40/5 = 8। গড় বিচ্যুতি = Σ|x − x̄|/N = (4+2+0+2+4)/5 = 12/5 = 2.4।"
+      }
     },
     {
       "q": {
@@ -476,7 +548,11 @@
           "as": "7"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "SD is independent of the constant added: SD(ax + b) = |a|·SD(x) = 3 × 5 = 15.",
+        "as": "মানক বিচ্যুতি যোগ কৰা ধ্ৰুৱকৰ ওপৰত নিৰ্ভৰ নকৰে: SD(ax + b) = |a|·SD(x) = 3 × 5 = 15।"
+      }
     },
     {
       "q": {
@@ -501,7 +577,11 @@
           "as": "1"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Coefficient of range = (L − S)/(L + S) = (80 − 20)/(80 + 20) = 60/100 = 0.6.",
+        "as": "পৰিসৰাংক = (L − S)/(L + S) = (80 − 20)/(80 + 20) = 60/100 = 0.6।"
+      }
     },
     {
       "q": {
@@ -526,7 +606,11 @@
           "as": "নিম্ন গড়"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "A smaller coefficient of variation means less relative dispersion, i.e. the data are more consistent and stable.",
+        "as": "সৰু ভেদাংকৰ অৰ্থ হৈছে কম আপেক্ষিক বিস্তাৰ, অৰ্থাৎ তথ্য অধিক সামঞ্জস্যপূৰ্ণ আৰু স্থিৰ।"
+      }
     },
     {
       "q": {
@@ -551,7 +635,11 @@
           "as": "প্ৰচলক / গড়"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "Karl Pearson's coefficient of skewness for a moderately skewed distribution is (Mean − Mode) / SD.",
+        "as": "মধ্যমভাবে বক্র বণ্টনৰ বাবে কাৰ্ল পিয়াৰছনৰ বক্রতাংক = (গড় − প্ৰচলক) / মানক বিচ্যুতি।"
+      }
     },
     {
       "q": {
@@ -576,7 +664,11 @@
           "as": "প্ৰচলক > মধ্যমা > গড়"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "In a symmetrical distribution the mean, median and mode coincide, so Mean = Median = Mode.",
+        "as": "সমমিত বণ্টনত গড়, মধ্যমা আৰু প্ৰচলক একে বিন্দুত মিলে, গতিকে গড় = মধ্যমা = প্ৰচলক।"
+      }
     },
     {
       "q": {
@@ -601,7 +693,11 @@
           "as": "প্ৰচলক > গড় > মধ্যমা"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "In a positively (right) skewed distribution, Mean > Median > Mode.",
+        "as": "ধনাত্মক (সোঁ) বক্র বণ্টনত গড় > মধ্যমা > প্ৰচলক।"
+      }
     },
     {
       "q": {
@@ -626,7 +722,11 @@
           "as": "প্ৰচলক"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Deciles divide the data into ten equal parts; the 10th percentile is the first decile (D1).",
+        "as": "দশমাংশই তথ্যক দহটা সমান ভাগত ভাগ কৰে; 10 তম শতকৰাংশ হৈছে প্ৰথম দশমাংশ (D1)।"
+      }
     }
   ]
 }

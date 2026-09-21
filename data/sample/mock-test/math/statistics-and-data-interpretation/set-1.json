@@ -26,7 +26,11 @@
           "as": "40"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "Arithmetic mean = sum of observations / number of observations = (10+20+30+40+50)/5 = 150/5 = 30.",
+        "as": "পাটিগাণিতিক গড় = পৰ্যবেক্ষণৰ যোগফল / পৰ্যবেক্ষণৰ সংখ্যা = (10+20+30+40+50)/5 = 150/5 = 30।"
+      }
     },
     {
       "q": {
@@ -51,7 +55,11 @@
           "as": "15"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "The data is already in ascending order and n = 5 (odd), so median = ((n+1)/2)th term = 3rd term = 9.",
+        "as": "তথ্য উৰ্দ্ধক্ৰমত আছে আৰু n = 5 (অযুগ্ম), সেয়ে মধ্যমা = ((n+1)/2)তম পদ = তৃতীয় পদ = 9।"
+      }
     },
     {
       "q": {
@@ -76,7 +84,11 @@
           "as": "5"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "Mode is the most frequently occurring value. Here 6 appears three times, more than any other value, so mode = 6.",
+        "as": "প্ৰচলক হৈছে সৰ্বাধিকবাৰ ঘটা মান। ইয়াত 6 তিনিবাৰ ঘটিছে, আন যিকোনো মানতকৈ বেছি, সেয়ে প্ৰচলক = 6।"
+      }
     },
     {
       "q": {
@@ -101,7 +113,11 @@
           "as": "8"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "Range = maximum - minimum = 30 - 8 = 22.",
+        "as": "পৰিসৰ = সৰ্বাধিক - সৰ্বনিম্ন = 30 - 8 = 22।"
+      }
     },
     {
       "q": {
@@ -126,7 +142,11 @@
           "as": "5"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "The first 5 odd numbers are 1, 3, 5, 7, 9. Their mean = (1+3+5+7+9)/5 = 25/5 = 5.",
+        "as": "প্ৰথম 5 টা অযুগ্ম সংখ্যা হ'ল 1, 3, 5, 7, 9। সিহঁতৰ গড় = (1+3+5+7+9)/5 = 25/5 = 5।"
+      }
     },
     {
       "q": {
@@ -151,7 +171,11 @@
           "as": "19"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Mean = sum/number, so sum = mean x number = 15 x 4 = 60.",
+        "as": "গড় = যোগফল/সংখ্যা, সেয়ে যোগফল = গড় x সংখ্যা = 15 x 4 = 60।"
+      }
     },
     {
       "q": {
@@ -176,7 +200,11 @@
           "as": "7"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "n = 4 (even), so median = average of the 2nd and 3rd terms = (5+8)/2 = 6.5.",
+        "as": "n = 4 (যুগ্ম), সেয়ে মধ্যমা = দ্বিতীয় আৰু তৃতীয় পদৰ গড় = (5+8)/2 = 6.5।"
+      }
     },
     {
       "q": {
@@ -201,7 +229,11 @@
           "as": "22"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Mean = 16, so total = 16 x 5 = 80. Sum of the four known numbers = 8+12+16+20 = 56, hence x = 80 - 56 = 24.",
+        "as": "গড় = 16, সেয়ে মুঠ = 16 x 5 = 80। জনা চাৰিটা সংখ্যাৰ যোগফল = 8+12+16+20 = 56, সেয়ে x = 80 - 56 = 24।"
+      }
     },
     {
       "q": {
@@ -226,7 +258,11 @@
           "as": "60"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "Average = (40+50+60+70+80)/5 = 300/5 = 60 runs.",
+        "as": "গড় = (40+50+60+70+80)/5 = 300/5 = 60 ৰাণ।"
+      }
     },
     {
       "q": {
@@ -251,7 +287,11 @@
           "as": "75"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "Combined average = (n1x1 + n2x2)/(n1+n2) = (20x60 + 30x80)/50 = (1200+2400)/50 = 3600/50 = 72.",
+        "as": "সংযুক্ত গড় = (n1x1 + n2x2)/(n1+n2) = (20x60 + 30x80)/50 = (1200+2400)/50 = 3600/50 = 72।"
+      }
     },
     {
       "q": {
@@ -276,7 +316,11 @@
           "as": "15"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Total of 5 numbers = 20 x 5 = 100. After excluding 30, sum = 100 - 30 = 70 and count = 4, so new average = 70/4 = 17.5.",
+        "as": "5 টা সংখ্যাৰ মুঠ = 20 x 5 = 100। 30 বাদ দিলে যোগফল = 100 - 30 = 70 আৰু সংখ্যা = 4, সেয়ে নতুন গড় = 70/4 = 17.5।"
+      }
     },
     {
       "q": {
@@ -301,7 +345,11 @@
           "as": "13"
         }
       ],
-      "correct": 0
+      "correct": 0,
+      "explanation": {
+        "en": "Geometric mean of two numbers = sqrt(a x b) = sqrt(9 x 16) = sqrt(144) = 12.",
+        "as": "দুটা সংখ্যাৰ গুণোত্তৰ গড় = sqrt(a x b) = sqrt(9 x 16) = sqrt(144) = 12।"
+      }
     },
     {
       "q": {
@@ -326,7 +374,11 @@
           "as": "3.5"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "Harmonic mean of two numbers = 2ab/(a+b) = (2 x 3 x 6)/(3+6) = 36/9 = 4.",
+        "as": "দুটা সংখ্যাৰ সমঞ্জন গড় = 2ab/(a+b) = (2 x 3 x 6)/(3+6) = 36/9 = 4।"
+      }
     },
     {
       "q": {
@@ -351,7 +403,11 @@
           "as": "52"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "Weighted average = (w1x1 + w2x2)/(w1+w2) = (2x40 + 3x60)/(2+3) = (80+180)/5 = 260/5 = 52.",
+        "as": "ওজনযুক্ত গড় = (w1x1 + w2x2)/(w1+w2) = (2x40 + 3x60)/(2+3) = (80+180)/5 = 260/5 = 52।"
+      }
     },
     {
       "q": {
@@ -376,7 +432,11 @@
           "as": "11"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "Mean = (6+8+10+12+14)/5 = 50/5 = 10.",
+        "as": "গড় = (6+8+10+12+14)/5 = 50/5 = 10।"
+      }
     },
     {
       "q": {
@@ -401,7 +461,11 @@
           "as": "5 বৃদ্ধি হয়"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "Adding a constant c to every observation increases the mean by the same constant c. Adding 5 therefore increases the mean by 5.",
+        "as": "প্ৰতিটো পৰ্যবেক্ষণত ধ্ৰুৱক c যোগ কৰিলে গড়ও c ৰ সমান বৃদ্ধি পায়। সেয়ে 5 যোগ কৰিলে গড় 5 বৃদ্ধি হয়।"
+      }
     },
     {
       "q": {
@@ -426,7 +490,11 @@
           "as": "ধনাত্মক"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "The arithmetic mean is the balance point of the data, so the sum of deviations of observations from the mean is always zero.",
+        "as": "পাটিগাণিতিক গড় হৈছে তথ্যৰ ভাৰসাম্য বিন্দু, সেয়ে গড়ৰ পৰা পৰ্যবেক্ষণবোৰৰ বিচ্যুতিৰ যোগফল সদায় শূন্য হয়।"
+      }
     },
     {
       "q": {
@@ -451,7 +519,11 @@
           "as": "24"
         }
       ],
-      "correct": 1
+      "correct": 1,
+      "explanation": {
+        "en": "Adding a constant 3 to each of the 15 numbers increases the mean by 3, so the new average = 18 + 3 = 21.",
+        "as": "15 টা সংখ্যাৰ প্ৰতিটোত 3 যোগ কৰিলে গড় 3 বৃদ্ধি পায়, সেয়ে নতুন গড় = 18 + 3 = 21।"
+      }
     },
     {
       "q": {
@@ -476,7 +548,11 @@
           "as": "25"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "Mid-value of a class interval = (lower limit + upper limit)/2 = (20+30)/2 = 25.",
+        "as": "শ্ৰেণী ব্যৱধানৰ মধ্যমান = (নিম্ন সীমা + উৰ্ধ সীমা)/2 = (20+30)/2 = 25।"
+      }
     },
     {
       "q": {
@@ -501,7 +577,11 @@
           "as": "পৰিসৰ"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "The mean uses every observation in its calculation, so it is affected most by extreme values; the median and mode are more resistant.",
+        "as": "গড়ে গণনাত প্ৰতিটো পৰ্যবেক্ষণ ব্যৱহাৰ কৰে, সেয়ে চৰম মানৰ দ্বাৰা ই সৰ্বাধিক প্ৰভাৱিত হয়; মধ্যমা আৰু প্ৰচলক তুলনামূলকভাৱে কম প্ৰভাৱিত হয়।"
+      }
     },
     {
       "q": {
@@ -526,7 +606,11 @@
           "as": "7"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "Mean = (3+5+7+9+11)/5 = 35/5 = 7.",
+        "as": "গড় = (3+5+7+9+11)/5 = 35/5 = 7।"
+      }
     },
     {
       "q": {
@@ -551,7 +635,11 @@
           "as": "65"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "For an average of 60 in 4 tests, total required = 60 x 4 = 240. Current total = 45+55+65 = 165, so fourth test score = 240 - 165 = 75.",
+        "as": "4 টা পৰীক্ষাত গড় 60 পাবলৈ প্ৰয়োজনীয় মুঠ = 60 x 4 = 240। বৰ্তমান মুঠ = 45+55+65 = 165, সেয়ে চতুৰ্থ পৰীক্ষাৰ নম্বৰ = 240 - 165 = 75।"
+      }
     },
     {
       "q": {
@@ -576,7 +664,11 @@
           "as": "5.5"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "Mean = (2.5+3.5+4.5+5.5+6.5)/5 = 22.5/5 = 4.5.",
+        "as": "গড় = (2.5+3.5+4.5+5.5+6.5)/5 = 22.5/5 = 4.5।"
+      }
     },
     {
       "q": {
@@ -601,7 +693,11 @@
           "as": "14"
         }
       ],
-      "correct": 2
+      "correct": 2,
+      "explanation": {
+        "en": "Mean = (x + x+2 + x+4)/3 = 12, so 3x + 6 = 36, giving 3x = 30 and x = 10.",
+        "as": "গড় = (x + x+2 + x+4)/3 = 12, সেয়ে 3x + 6 = 36, অৰ্থাৎ 3x = 30 আৰু x = 10।"
+      }
     },
     {
       "q": {
@@ -626,7 +722,11 @@
           "as": "5"
         }
       ],
-      "correct": 3
+      "correct": 3,
+      "explanation": {
+        "en": "The first 9 natural numbers are 1 to 9. With n = 9 (odd), median = 5th term = 5.",
+        "as": "প্ৰথম 9 টা স্বাভাৱিক সংখ্যা 1 ৰ পৰা 9 লৈকে। n = 9 (অযুগ্ম), সেয়ে মধ্যমা = পঞ্চম পদ = 5।"
+      }
     }
   ]
 }
