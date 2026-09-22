@@ -1128,6 +1128,8 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   .footer-inner { grid-template-columns: 1fr; gap: 26px; }
   .footer-links { grid-template-columns: repeat(2, 1fr); }
   .qa-a { padding-left: 20px; }
+  .qa-toolbar { justify-content: space-between; }
+  .qa-actions { flex: 1 1 100%; justify-content: space-between; }
   .qa-card .qa-q .qtext { font-size: .88rem; line-height: 1.5; }
   .qa-a .a-body { font-size: .85rem; line-height: 1.6; }
   .read-modal-box { inset: 0; max-height: none; border-radius: 0; }
