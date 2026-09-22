@@ -14,7 +14,11 @@
         { "option": "C", "en": "C", "as": "C" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "Correct option D (Cannot be determined). A is on the 6th (top) floor and F is two floors below A, so F is on the 4th floor; D is on the 2nd floor. The occupant of the 3rd floor, immediately above D, is not fixed, so it cannot be determined.",
+        "as": "শুদ্ধ উত্তৰ D (নিৰ্ণয় কৰিব নোৱাৰি)। A ষষ্ঠ (ওপৰ) মহলাত আৰু F, A ৰ তলত দুটা মহলাত, অৰ্থাৎ F চতুৰ্থ মহলাত থাকে; D দ্বিতীয় মহলাত থাকে। D ৰ ঠিক ওপৰৰ (তৃতীয়) মহলাৰ ব্যক্তি নিৰ্দিষ্ট নহয়, সেয়ে নিৰ্ণয় কৰিব নোৱাৰি।"
+      }
     },
     {
       "type": "floor",
@@ -25,7 +29,11 @@
         { "option": "C", "en": "S", "as": "S" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (T). P is on the 5th floor and Q immediately below on the 4th; S is on the 2nd, so R is on the 3rd. The remaining bottom floor (1st) is occupied by T.",
+        "as": "শুদ্ধ উত্তৰ A (T)। P পঞ্চম মহলাত, Q তাৰ ঠিক তলত চতুৰ্থত; S দ্বিতীয়ত, সেয়ে R তৃতীয়ত। বাকী থকা প্ৰথম (তলৰ) মহলাত T থাকে।"
+      }
     },
     {
       "type": "floor",
@@ -36,7 +44,11 @@
         { "option": "C", "en": "2", "as": "২" },
         { "option": "D", "en": "5", "as": "৫" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (3). Three persons live above C, so C is on the 4th floor of the seven-storey building; hence 3 persons live below C.",
+        "as": "শুদ্ধ উত্তৰ A (৩)। C ৰ ওপৰত তিনিজন থাকে, গতিকে C সাতমহলীয়া ভৱনৰ চতুৰ্থ মহলাত; সেয়ে C ৰ তলত ৩ জন থাকে।"
+      }
     },
     {
       "type": "floor",
@@ -47,7 +59,11 @@
         { "option": "C", "en": "2nd", "as": "২য়" },
         { "option": "D", "en": "6th", "as": "৬ষ্ঠ" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Correct option B (4th). A is on the 3rd floor, so B, two floors above A, is on the 5th; C is immediately below B, i.e. on the 4th floor.",
+        "as": "শুদ্ধ উত্তৰ B (৪ৰ্থ)। A তৃতীয় মহলাত, সেয়ে A ৰ দুটা মহলা ওপৰত থকা B পঞ্চমত; C, B ৰ ঠিক তলত অৰ্থাৎ চতুৰ্থ মহলাত।"
+      }
     },
     {
       "type": "floor",
@@ -58,7 +74,11 @@
         { "option": "C", "en": "2", "as": "২" },
         { "option": "D", "en": "1", "as": "১" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Correct option C (2). A is on the ground floor and two persons are between A and B, so B is on the 4th floor; the floors above B (5th and 6th) number 2.",
+        "as": "শুদ্ধ উত্তৰ C (২)। A তলৰ মহলাত আৰু A-B ৰ মাজত দুজন, সেয়ে B চতুৰ্থ মহলাত; B ৰ ওপৰত (৫ম আৰু ৬ষ্ঠ) ২টা মহলা।"
+      }
     },
     {
       "type": "floor",
@@ -69,7 +89,11 @@
         { "option": "C", "en": "5", "as": "৫" },
         { "option": "D", "en": "2", "as": "২" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (4). P is on the 4th floor from the bottom; Q is immediately above P on the 5th floor, so 4 persons live below Q.",
+        "as": "শুদ্ধ উত্তৰ A (৪)। P তলৰ পৰা চতুৰ্থ মহলাত; Q, P ৰ ঠিক ওপৰত পঞ্চম মহলাত, সেয়ে Q ৰ তলত ৪ জন থাকে।"
+      }
     },
     {
       "type": "floor",
@@ -80,7 +104,11 @@
         { "option": "C", "en": "D", "as": "D" },
         { "option": "D", "en": "A", "as": "A" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Correct option B (C). A is on the top (4th) floor. Since C is below B and D lies between B and C, the order from bottom is C, D, B, A; hence C lives on the ground floor.",
+        "as": "শুদ্ধ উত্তৰ B (C)। A ওপৰত (৪ৰ্থ) মহলাত। C, B ৰ তলত আৰু D, B আৰু C ৰ মাজত, সেয়ে তলৰ পৰা ক্ৰম C, D, B, A; গতিকে তলৰ মহলাত C থাকে।"
+      }
     },
     {
       "type": "floor",
@@ -91,7 +119,11 @@
         { "option": "C", "en": "3rd", "as": "৩য়" },
         { "option": "D", "en": "6th", "as": "৬ষ্ঠ" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Correct option B (5th). X is on the 7th floor; Y, three floors below X, is on the 4th, and Z immediately above Y is on the 5th floor.",
+        "as": "শুদ্ধ উত্তৰ B (৫ম)। X সপ্তম মহলাত; X ৰ তিনিটা মহলা তলত Y চতুৰ্থত, আৰু Y ৰ ঠিক ওপৰত Z পঞ্চম মহলাত।"
+      }
     },
     {
       "type": "floor",
@@ -102,7 +134,11 @@
         { "option": "C", "en": "P", "as": "P" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "Correct option D (Cannot be determined). M is on the 2nd, N on the 5th, O on the 4th and P on the 3rd. The occupant of the 6th floor is not fixed by the clues.",
+        "as": "শুদ্ধ উত্তৰ D (নিৰ্ণয় কৰিব নোৱাৰি)। M দ্বিতীয়ত, N পঞ্চমত, O চতুৰ্থত আৰু P তৃতীয়ত। ষষ্ঠ মহলাৰ ব্যক্তি তথ্যই নিৰ্ধাৰণ নকৰে।"
+      }
     },
     {
       "type": "floor",
@@ -113,7 +149,11 @@
         { "option": "C", "en": "C", "as": "C" },
         { "option": "D", "en": "D", "as": "D" }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "Correct option D. The order from bottom is E, B, A, C, D; as D is above C, who is above A, D lives on the top floor.",
+        "as": "শুদ্ধ উত্তৰ D। তলৰ পৰা ক্ৰম E, B, A, C, D; D, C ৰ ওপৰত আৰু C, A ৰ ওপৰত, সেয়ে D আটাইতকৈ ওপৰৰ মহলাত থাকে।"
+      }
     },
     {
       "type": "floor",
@@ -124,7 +164,11 @@
         { "option": "C", "en": "5th", "as": "৫ম" },
         { "option": "D", "en": "4th", "as": "৪র্থ" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (3rd). K is on an odd floor above the 2nd, i.e. the 3rd or the 5th; since K is not on the 5th, K lives on the 3rd floor.",
+        "as": "শুদ্ধ উত্তৰ A (৩য়)। K দ্বিতীয়ৰ ওপৰৰ বিজোড় মহলাত অৰ্থাৎ ৩য় বা ৫ম; K ৫মত নথকা বাবে K তৃতীয় মহলাত থাকে।"
+      }
     },
     {
       "type": "floor",
@@ -135,7 +179,11 @@
         { "option": "C", "en": "4", "as": "৪" },
         { "option": "D", "en": "1", "as": "১" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (2). A is on the 4th floor, so C is immediately above on the 5th; the persons above C (on the 6th and 7th) number 2.",
+        "as": "শুদ্ধ উত্তৰ A (২)। A চতুৰ্থ মহলাত, সেয়ে C তাৰ ঠিক ওপৰত পঞ্চমত; C ৰ ওপৰত (৬ষ্ঠ আৰু ৭ম) ২ জন থাকে।"
+      }
     },
     {
       "type": "box",
@@ -146,7 +194,11 @@
         { "option": "C", "en": "D and E", "as": "D আৰু E" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (B and C). Box A is at the bottom and C just above it; the two central positions of a six-box stack are the 3rd and 4th, and these are B and C.",
+        "as": "শুদ্ধ উত্তৰ A (B আৰু C)। বাকচ A তলত আৰু C তাৰ ঠিক ওপৰত; ছটা বাকচৰ স্তুপৰ মাজৰ দুটা স্থান ৩য় আৰু ৪ৰ্থ, আৰু সেইবোৰ B আৰু C।"
+      }
     },
     {
       "type": "box",
@@ -157,7 +209,11 @@
         { "option": "C", "en": "Q", "as": "Q" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "Correct option D (Cannot be determined). P and Q fix the top and T the bottom, but the positions of the middle boxes are not uniquely fixed, so the box immediately above T cannot be determined.",
+        "as": "শুদ্ধ উত্তৰ D (নিৰ্ণয় কৰিব নোৱাৰি)। P আৰু Q ওপৰত, T তলত নিৰ্ধাৰিত, কিন্তু মাজৰ বাকচবোৰৰ স্থান এককভাৱে নিৰ্ধাৰণ নহয়, সেয়ে T ৰ ঠিক ওপৰৰ বাকচ নিৰ্ণয় কৰিব নোৱাৰি।"
+      }
     },
     {
       "type": "box",
@@ -168,7 +224,11 @@
         { "option": "C", "en": "4", "as": "৪" },
         { "option": "D", "en": "1", "as": "১" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Correct option B (3). X is 3rd from the top, so Y immediately below is 4th from the top; therefore 3 boxes are above Y.",
+        "as": "শুদ্ধ উত্তৰ B (৩)। X ওপৰৰ পৰা ৩য়, সেয়ে ঠিক তলত থকা Y ওপৰৰ পৰা ৪ৰ্থ; গতিকে Y ৰ ওপৰত ৩টা বাকচ।"
+      }
     },
     {
       "type": "box",
@@ -179,7 +239,11 @@
         { "option": "C", "en": "4th", "as": "৪র্থ" },
         { "option": "D", "en": "1st", "as": "১ম" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (2nd). A is 2nd from the top and two places above B, so C immediately below B is at the 2nd position from the bottom.",
+        "as": "শুদ্ধ উত্তৰ A (২য়)। A ওপৰৰ পৰা ২য় আৰু B ৰ দুটা স্থান ওপৰত; B ৰ ঠিক তলত থকা C তলৰ পৰা ২য় স্থানত।"
+      }
     },
     {
       "type": "box",
@@ -190,7 +254,11 @@
         { "option": "C", "en": "2", "as": "২" },
         { "option": "D", "en": "5", "as": "৫" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (3). R is exactly in the middle (4th from the top) and Q is at the bottom (8th); the boxes between them are the 5th, 6th and 7th, i.e. 3.",
+        "as": "শুদ্ধ উত্তৰ A (৩)। R ঠিক মাজত (ওপৰৰ পৰা ৪ৰ্থ) আৰু Q আটাইতকৈ তলত (৮ম); সিহঁতৰ মাজত ৫ম, ৬ষ্ঠ আৰু ৭ম অৰ্থাৎ ৩টা বাকচ।"
+      }
     },
     {
       "type": "box",
@@ -201,7 +269,11 @@
         { "option": "C", "en": "N and P", "as": "N আৰু P" },
         { "option": "D", "en": "M and N", "as": "M আৰু N" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Correct option B (O and Q). In the given stack M, N, P, R, O, Q, the boxes O and Q appear next to each other, so they are adjacent.",
+        "as": "শুদ্ধ উত্তৰ B (O আৰু Q)। দিয়া স্তুপ M, N, P, R, O, Q ত O আৰু Q ওচৰা-ওচৰিকৈ আছে, সেয়ে সিহঁত ওচৰা-ওচৰি।"
+      }
     },
     {
       "type": "box",
@@ -212,7 +284,11 @@
         { "option": "C", "en": "1", "as": "১" },
         { "option": "D", "en": "4", "as": "৪" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Correct option B (3). A is at the top and two boxes are between A and B, so B is 4th from the top; boxes above B number 3.",
+        "as": "শুদ্ধ উত্তৰ B (৩)। A আটাইতকৈ ওপৰত আৰু A-B ৰ মাজত দুটা বাকচ, সেয়ে B ওপৰৰ পৰা ৪ৰ্থ; B ৰ ওপৰত ৩টা বাকচ।"
+      }
     },
     {
       "type": "box",
@@ -223,7 +299,11 @@
         { "option": "C", "en": "4", "as": "৪" },
         { "option": "D", "en": "1", "as": "১" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (2). G is 4th from the bottom, so H immediately above is 5th; the boxes above H (6th and 7th) number 2.",
+        "as": "শুদ্ধ উত্তৰ A (২)। G তলৰ পৰা ৪ৰ্থ, সেয়ে ঠিক ওপৰৰ H ৫ম; H ৰ ওপৰত (৬ষ্ঠ আৰু ৭ম) ২টা বাকচ।"
+      }
     },
     {
       "type": "box",
@@ -234,7 +314,11 @@
         { "option": "C", "en": "X", "as": "X" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (Y). X is at the bottom, Z is two places above X and Y is immediately above Z; hence the 3rd box from the top is Y.",
+        "as": "শুদ্ধ উত্তৰ A (Y)। X আটাইতকৈ তলত, Z, X ৰ দুটা স্থান ওপৰত আৰু Y, Z ৰ ঠিক ওপৰত; সেয়ে ওপৰৰ পৰা ৩য় বাকচ Y।"
+      }
     },
     {
       "type": "box",
@@ -245,7 +329,11 @@
         { "option": "C", "en": "R", "as": "R" },
         { "option": "D", "en": "S", "as": "S" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Correct option C (R). The order from bottom is S, P, Q, R, so R is at the top of the stack.",
+        "as": "শুদ্ধ উত্তৰ C (R)। তলৰ পৰা ক্ৰম S, P, Q, R, সেয়ে আটাইতকৈ ওপৰত R থাকে।"
+      }
     },
     {
       "type": "scheduling",
@@ -256,7 +344,11 @@
         { "option": "C", "en": "Tuesday", "as": "মঙ্গলবাৰ" },
         { "option": "D", "en": "Friday", "as": "শুকুৰবাৰ" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (Wednesday). A is on Monday and B is two days after A, so B is on Wednesday.",
+        "as": "শুদ্ধ উত্তৰ A (বুধবাৰ)। A সোমবাৰে আৰু B, A ৰ দুদিন পিছত, সেয়ে B বুধবাৰে।"
+      }
     },
     {
       "type": "scheduling",
@@ -267,7 +359,11 @@
         { "option": "C", "en": "Thursday", "as": "বৃহস্পতিবাৰ" },
         { "option": "D", "en": "Sunday", "as": "দেওবাৰ" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (Saturday). P works on Monday, so Q on the 4th day after works on Friday and R immediately after Q on Saturday.",
+        "as": "শুদ্ধ উত্তৰ A (শনিবাৰ)। P সোমবাৰে, সেয়ে P ৰ ৪ৰ্থ দিনত Q শুকুৰবাৰে আৰু Q ৰ ঠিক পিছত R শনিবাৰে কাম কৰে।"
+      }
     },
     {
       "type": "scheduling",
@@ -278,7 +374,11 @@
         { "option": "C", "en": "Friday", "as": "শুকুৰবাৰ" },
         { "option": "D", "en": "Tuesday", "as": "মঙ্গলবাৰ" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Correct option C (Friday). Maths is on Monday and Science is two days after it; English is taken immediately after Science, which fixes English on Friday.",
+        "as": "শুদ্ধ উত্তৰ C (শুকুৰবাৰ)। গণিত সোমবাৰে আৰু বিজ্ঞান তাৰ দুদিন পিছত; ইংৰাজী বিজ্ঞানৰ ঠিক পিছত, সেয়ে ইংৰাজী শুকুৰবাৰে পঢ়োৱা হয়।"
+      }
     },
     {
       "type": "scheduling",
@@ -289,7 +389,11 @@
         { "option": "C", "en": "4", "as": "৪" },
         { "option": "D", "en": "1", "as": "১" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (2). A attends on Tuesday and B three days after on Friday; the days between them, Wednesday and Thursday, number 2.",
+        "as": "শুদ্ধ উত্তৰ A (২)। A মঙ্গলবাৰে আৰু B তিন দিন পিছত শুকুৰবাৰে; সিহঁতৰ মাজত বুধ আৰু বৃহস্পতি ২ দিন।"
+      }
     },
     {
       "type": "scheduling",
@@ -300,7 +404,11 @@
         { "option": "C", "en": "Sunday", "as": "দেওবাৰ" },
         { "option": "D", "en": "Monday", "as": "সোমবাৰ" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (Tuesday). Ravi goes on Monday and Sita goes on the day immediately after Ravi, i.e. Tuesday.",
+        "as": "শুদ্ধ উত্তৰ A (মঙ্গলবাৰ)। ৰবি সোমবাৰে যায় আৰু সীতা ৰবিৰ ঠিক পিছৰ দিনটো অৰ্থাৎ মঙ্গলবাৰে যায়।"
+      }
     },
     {
       "type": "scheduling",
@@ -311,7 +419,11 @@
         { "option": "C", "en": "P and Q", "as": "P আৰু Q" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (R and Q). P is on Wednesday; R immediately before P is on Tuesday and Q immediately after P is on Thursday.",
+        "as": "শুদ্ধ উত্তৰ A (R আৰু Q)। P বুধবাৰে; P ৰ ঠিক আগত R মঙ্গলবাৰে আৰু P ৰ ঠিক পিছত Q বৃহস্পতিবাৰে থাকে।"
+      }
     },
     {
       "type": "scheduling",
@@ -322,7 +434,11 @@
         { "option": "C", "en": "Friday", "as": "শুকুৰবাৰ" },
         { "option": "D", "en": "Saturday", "as": "শনিবাৰ" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (Thursday). A works on the 1st day (Monday) and B on the 7th (Sunday); the exact middle is the 4th day, Thursday.",
+        "as": "শুদ্ধ উত্তৰ A (বৃহস্পতিবাৰ)। A প্ৰথম দিন (সোমবাৰ) আৰু B সপ্তম দিন (দেওবাৰ); ঠিক মাজ হ'ল চতুৰ্থ দিন বৃহস্পতিবাৰ।"
+      }
     },
     {
       "type": "scheduling",
@@ -333,7 +449,11 @@
         { "option": "C", "en": "4th day", "as": "৪র্থ দিন" },
         { "option": "D", "en": "5th day", "as": "৫ম দিন" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (1st day). P speaks on the 2nd day and R speaks immediately before P, so R speaks on the 1st day.",
+        "as": "শুদ্ধ উত্তৰ A (১ম দিন)। P দ্বিতীয় দিনত আৰু R, P ৰ ঠিক আগত, সেয়ে R প্ৰথম দিনত ভাষণ দিয়ে।"
+      }
     },
     {
       "type": "scheduling",
@@ -344,7 +464,11 @@
         { "option": "C", "en": "4", "as": "৪" },
         { "option": "D", "en": "1", "as": "১" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Correct option B (3). Train Z leaves on Saturday, so Y two days before is on Thursday; from X (Monday) up to the days before Y there are 3 days.",
+        "as": "শুদ্ধ উত্তৰ B (৩)। ৰেল Z শনিবাৰে, সেয়ে দুদিন আগত Y বৃহস্পতিবাৰে; X (সোমবাৰ) ৰ পৰা Y ৰ আগলৈ ৩ দিন।"
+      }
     },
     {
       "type": "scheduling",
@@ -355,7 +479,11 @@
         { "option": "C", "en": "3", "as": "৩" },
         { "option": "D", "en": "0", "as": "০" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (2). A presents on Tuesday, B on Thursday (the 3rd day counting from A) and C immediately after on Friday; 2 students present after C.",
+        "as": "শুদ্ধ উত্তৰ A (২)। A মঙ্গলবাৰে, B বৃহস্পতিবাৰে (A ৰ পৰা ৩য় দিন) আৰু C, B ৰ ঠিক পিছত শুকুৰবাৰে; C ৰ পিছত ২ জনে প্ৰেজেণ্টেচন দিয়ে।"
+      }
     },
     {
       "type": "scheduling",
@@ -366,7 +494,11 @@
         { "option": "C", "en": "P", "as": "P" },
         { "option": "D", "en": "S", "as": "S" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (R). Task P is on day 1, Q two days after on day 3 and R immediately after Q; as per the schedule R is the task on the last day.",
+        "as": "শুদ্ধ উত্তৰ A (R)। কাম P প্ৰথম দিনত, Q দুদিন পিছত তৃতীয় দিনত আৰু R, Q ৰ ঠিক পিছত; সময়সূচী অনুসৰি শেষ দিনত R কাম হয়।"
+      }
     },
     {
       "type": "scheduling",
@@ -377,7 +509,11 @@
         { "option": "C", "en": "1", "as": "১" },
         { "option": "D", "en": "4", "as": "৪" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (2). A is on Monday and C two days after on Wednesday; F is on Saturday, so the meetings between Wednesday and Saturday are 2.",
+        "as": "শুদ্ধ উত্তৰ A (২)। A সোমবাৰে আৰু C দুদিন পিছত বুধবাৰে; F শনিবাৰে, সেয়ে বুধ আৰু শনিৰ মাজত ২টা সভা।"
+      }
     },
     {
       "type": "floor",
@@ -388,7 +524,11 @@
         { "option": "C", "en": "2nd", "as": "২য়" },
         { "option": "D", "en": "5th", "as": "৫ম" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (3rd). M is on the top (6th) floor and two floors are between M and P, so P lives on the 3rd floor.",
+        "as": "শুদ্ধ উত্তৰ A (৩য়)। M ওপৰৰ (৬ষ্ঠ) মহলাত আৰু M-P ৰ মাজত দুটা মহলা, সেয়ে P তৃতীয় মহলাত থাকে।"
+      }
     },
     {
       "type": "floor",
@@ -399,7 +539,11 @@
         { "option": "C", "en": "4", "as": "৪" },
         { "option": "D", "en": "1", "as": "১" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (3). R is on the 5th floor and S three floors below on the 2nd; T immediately above S is on the 3rd, with 3 persons above T.",
+        "as": "শুদ্ধ উত্তৰ A (৩)। R পঞ্চম মহলাত আৰু S তিনিটা মহলা তলত দ্বিতীয়ত; S ৰ ঠিক ওপৰত T তৃতীয়, সেয়ে T ৰ ওপৰত ৩ জন।"
+      }
     },
     {
       "type": "box",
@@ -410,7 +554,11 @@
         { "option": "C", "en": "4th", "as": "৪র্থ" },
         { "option": "D", "en": "5th", "as": "৫ম" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (3rd). B is 3rd from the top and A is two places below B, placing A at the 4th position from the top; from the bottom A is 3rd.",
+        "as": "শুদ্ধ উত্তৰ A (৩য়)। B ওপৰৰ পৰা ৩য় আৰু A, B ৰ দুটা স্থান তলত অৰ্থাৎ ওপৰৰ পৰা ৪ৰ্থ; তলৰ পৰা A ৩য়।"
+      }
     },
     {
       "type": "box",
@@ -421,7 +569,11 @@
         { "option": "C", "en": "R", "as": "R" },
         { "option": "D", "en": "S", "as": "S" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Correct option C (R). The order from top is P, Q, R, S, T, so the box exactly in the middle is R.",
+        "as": "শুদ্ধ উত্তৰ C (R)। ওপৰৰ পৰা ক্ৰম P, Q, R, S, T, সেয়ে ঠিক মাজৰ বাকচ R।"
+      }
     },
     {
       "type": "scheduling",
@@ -432,7 +584,11 @@
         { "option": "C", "en": "Thursday", "as": "বৃহস্পতিবাৰ" },
         { "option": "D", "en": "Wednesday", "as": "বুধবাৰ" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (Friday). Arjun goes on Tuesday and Binoy goes three days after Arjun, i.e. on Friday.",
+        "as": "শুদ্ধ উত্তৰ A (শুকুৰবাৰ)। অৰ্জুন মঙ্গলবাৰে আৰু বিনয় অৰ্জুনৰ তিন দিন পিছত অৰ্থাৎ শুকুৰবাৰে যায়।"
+      }
     },
     {
       "type": "scheduling",
@@ -443,7 +599,11 @@
         { "option": "C", "en": "Friday", "as": "শুকুৰবাৰ" },
         { "option": "D", "en": "Monday", "as": "সোমবাৰ" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (Sunday). P takes leave on Monday and Q on the 5th day after, Saturday; R immediately after Q takes leave on Sunday.",
+        "as": "শুদ্ধ উত্তৰ A (দেওবাৰ)। P সোমবাৰে আৰু Q পাঁচ দিন পিছত শনিবাৰে ছুটি লয়; Q ৰ ঠিক পিছত R দেওবাৰে ছুটি লয়।"
+      }
     },
     {
       "type": "box",
@@ -454,7 +614,11 @@
         { "option": "C", "en": "5th", "as": "৫ম" },
         { "option": "D", "en": "2nd", "as": "২য়" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (4th). M is at the bottom, L immediately above M on the 2nd and K two places above L on the 4th; from the top K is 4th in a seven-box stack.",
+        "as": "শুদ্ধ উত্তৰ A (৪ৰ্থ)। M তলত, L, M ৰ ঠিক ওপৰত দ্বিতীয় আৰু K, L ৰ দুটা স্থান ওপৰত চতুৰ্থ; সাতটা বাকচত ওপৰৰ পৰা K ৪ৰ্থ।"
+      }
     },
     {
       "type": "floor",
@@ -465,7 +629,11 @@
         { "option": "C", "en": "3rd", "as": "৩য়" },
         { "option": "D", "en": "6th", "as": "৬ষ্ঠ" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (5th). J is on the 6th floor and K two floors below on the 4th; L immediately above K is on the 5th floor.",
+        "as": "শুদ্ধ উত্তৰ A (৫ম)। J ষষ্ঠ মহলাত আৰু K দুটা মহলা তলত চতুৰ্থত; K ৰ ঠিক ওপৰত L পঞ্চম মহলাত থাকে।"
+      }
     },
     {
       "type": "scheduling",
@@ -476,7 +644,11 @@
         { "option": "C", "en": "Dr. D", "as": "ডা. D" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Correct option A (Dr. B). Dr. A visits on Monday and Dr. B two days after Dr. A; as per the schedule, Dr. B is the doctor who visits on Friday.",
+        "as": "শুদ্ধ উত্তৰ A (ডা. B)। ডা. A সোমবাৰে আৰু ডা. B, ডা. A ৰ দুদিন পিছত; সময়সূচী অনুসৰি শুকুৰবাৰে ডা. B আহে।"
+      }
     }
   ]
 }
