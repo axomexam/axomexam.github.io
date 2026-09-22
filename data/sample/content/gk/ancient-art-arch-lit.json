@@ -1,60 +1,1508 @@
 {
   "id": "ancient-indian-art-architecture-literature",
-  "title": { "en": "Ancient Indian Art, Architecture & Literature", "as": "প্ৰাচীন ভাৰতীয় শিল্প, স্থাপত্য আৰু সাহিত্য" },
-  "description": { "en": "Schools of art, stupas, cave temples, temple styles and the great literature of ancient India.", "as": "শিল্পশৈলী, স্তূপ, গুহা মন্দিৰ, মন্দিৰ স্থাপত্যৰ শৈলী আৰু প্ৰাচীন ভাৰতৰ মহান সাহিত্য।" },
-  "tags": ["art", "architecture", "literature", "gandhara", "mathura", "ajanta", "ellora", "sanskrit", "ancient-india", "assam-exam", "শিল্প", "স্থাপত্য", "সাহিত্য"],
+  "title": {
+    "en": "Ancient Indian Art, Architecture & Literature",
+    "as": "প্ৰাচীন ভাৰতীয় শিল্প, স্থাপত্য আৰু সাহিত্য"
+  },
+  "description": {
+    "en": "Schools of art, stupas, cave temples, temple styles and the great literature of ancient India.",
+    "as": "শিল্পশৈলী, স্তূপ, গুহা মন্দিৰ, মন্দিৰ স্থাপত্যৰ শৈলী আৰু প্ৰাচীন ভাৰতৰ মহান সাহিত্য।"
+  },
+  "tags": [
+    "art",
+    "architecture",
+    "literature",
+    "gandhara",
+    "mathura",
+    "ajanta",
+    "ellora",
+    "sanskrit",
+    "ancient-india",
+    "assam-exam",
+    "শিল্প",
+    "স্থাপত্য",
+    "সাহিত্য"
+  ],
   "pdf": null,
   "questions": [
-    { "q": { "en": "Who originally built the famous Sanchi stupa?", "as": "বিখ্যাত সাঁচী স্তূপ পোনপটীয়াকৈ কোনে নিৰ্মাণ কৰিছিল?" }, "a": { "en": "Ashoka the Great, as a brick stupa.", "as": "সম্ৰাট অশোকে, ইটাৰ স্তূপ হিচাপে।" } },
-    { "q": { "en": "Which is the most famous and best-preserved stupa of India?", "as": "ভাৰতৰ আটাইতকৈ বিখ্যাত আৰু উত্তমভাবে সংৰক্ষিত স্তূপ কোনটো?" }, "a": { "en": "The Great Stupa at Sanchi (Madhya Pradesh).", "as": "সাঁচীৰ মহাস্তূপ (মধ্য প্ৰদেশ)।" } },
-    { "q": { "en": "Which dynasty enlarged and renovated the Sanchi stupa?", "as": "কোন বংশই সাঁচী স্তূপ সম্প্ৰসাৰণ আৰু সংস্কাৰ কৰিছিল?" }, "a": { "en": "The Sungas, who added the stone railing and the gateways.", "as": "শুঙ্গসকলে, যি শিলৰ বেৰা আৰু প্ৰৱেশদ্বাৰ যোগ কৰিছিল।" } },
-    { "q": { "en": "What are the four toranas (gateways) of Sanchi famous for?", "as": "সাঁচীৰ চাৰিখন তোৰণ (প্ৰৱেশদ্বাৰ) কিৰ বাবে বিখ্যাত?" }, "a": { "en": "Their exquisite narrative sculptures depicting Jataka stories.", "as": "জাতক কাহিনী চিত্ৰিত কৰা তেওঁলোকৰ মনোমোহা ভাস্কৰ্যৰ বাবে।" } },
-    { "q": { "en": "The sculptures of the Bharhut stupa belong to which period?", "as": "ভৰহুত স্তূপৰ ভাস্কৰ্যসমূহ কোন যুগৰ?" }, "a": { "en": "The Sunga period (2nd century BC).", "as": "শুঙ্গ যুগ (খ্ৰীষ্টপূৰ্ব দ্বিতীয় শতাব্দী)।" } },
-    { "q": { "en": "Which famous stupa of Andhra Pradesh was built in the Satavahana period?", "as": "আন্ধ্ৰ প্ৰদেশৰ কোন বিখ্যাত স্তূপ সাতবাহন যুগত নিৰ্মিত?" }, "a": { "en": "The Amaravati stupa.", "as": "অমৰাৱতী স্তূপ।" } },
-    { "q": { "en": "Which school of art is known for its Greco-Roman influence?", "as": "কোন শিল্পশৈলী গ্ৰীক-ৰোমান প্ৰভাৱৰ বাবে জনাজাত?" }, "a": { "en": "The Gandhara school.", "as": "গান্ধাৰ শিল্পশৈলী।" } },
-    { "q": { "en": "Where did the Gandhara school of art flourish?", "as": "গান্ধাৰ শিল্পশৈলী ক'ত বিকশিত হৈছিল?" }, "a": { "en": "In the north-western region - Taxila, Peshawar and the Kabul valley.", "as": "উত্তৰ-পশ্চিম অঞ্চলত — তক্ষশিলা, পেছাৱাৰ আৰু কাবুল উপত্যকাত।" } },
-    { "q": { "en": "Which stone was used by the artists of the Gandhara school?", "as": "গান্ধাৰ শিল্পীসকলে কোন শিল ব্যৱহাৰ কৰিছিল?" }, "a": { "en": "Grey-blue schist stone.", "as": "ধূসৰ-নীল শিষ্ট (schist) শিল।" } },
-    { "q": { "en": "Which school of art was indigenous and used red sandstone?", "as": "কোন শিল্পশৈলী স্বদেশীয় আছিল আৰু ৰঙা বালি শিল ব্যৱহাৰ কৰিছিল?" }, "a": { "en": "The Mathura school of art.", "as": "মথুৰা শিল্পশৈলী।" } },
-    { "q": { "en": "Where was the Mathura school of art centred?", "as": "মথুৰা শিল্পশৈলী ক'ত কেন্দ্ৰীভূত আছিল?" }, "a": { "en": "At Mathura (Uttar Pradesh).", "as": "মথুৰাত (উত্তৰ প্ৰদেশ)।" } },
-    { "q": { "en": "Which Kushan ruler patronised both the Gandhara and Mathura schools?", "as": "কোন কুশান শাসকে গান্ধাৰ আৰু মথুৰা দুয়ো শিল্পশৈলীকে পৃষ্ঠপোষকতা দিছিল?" }, "a": { "en": "Kanishka.", "as": "কনিষ্কই।" } },
-    { "q": { "en": "Which school of art flourished in the Andhra region?", "as": "আন্ধ্ৰ অঞ্চলত কোন শিল্পশৈলী বিকশিত হৈছিল?" }, "a": { "en": "The Amravati school (at Amaravati and Nagarjunakonda).", "as": "অমৰাৱতী শিল্পশৈলী (অমৰাৱতী আৰু নাগাৰ্জুনকোণ্ডাত)।" } },
-    { "q": { "en": "What are the Ajanta caves famous for?", "as": "অজন্তা গুহাসমূহ কিৰ বাবে বিখ্যাত?" }, "a": { "en": "Their magnificent Buddhist paintings (frescoes) and sculptures.", "as": "তেওঁলোকৰ অপূৰ্ব বৌদ্ধ চিত্ৰকলা (ফ্ৰেস্কো) আৰু ভাস্কৰ্যৰ বাবে।" } },
-    { "q": { "en": "When were the Ajanta caves discovered by the British?", "as": "ব্ৰিটিছসকলে অজন্তা গুহা কেতিয়া আৱিষ্কাৰ কৰিছিল?" }, "a": { "en": "In 1819, by a British army officer John Smith.", "as": "১৮১৯ চনত, ব্ৰিটিছ সেনা বিষয়া জন স্মিথে।" } },
-    { "q": { "en": "Which painting of Ajanta cave 1 is world-famous?", "as": "অজন্তা গুহা ১-ৰ কোন চিত্ৰ বিশ্ববিখ্যাত?" }, "a": { "en": "The Padmapani (Bodhisattva) painting.", "as": "পদ্মপাণি (বোধিসত্ত্ব) চিত্ৰ।" } },
-    { "q": { "en": "Where are the Bagh caves located and what are they famous for?", "as": "বাঘ গুহাসমূহ ক'ত অৱস্থিত আৰু কিৰ বাবে বিখ্যাত?" }, "a": { "en": "In Madhya Pradesh, famous for their ancient Buddhist paintings.", "as": "মধ্য প্ৰদেশত, প্ৰাচীন বৌদ্ধ চিত্ৰকলাৰ বাবে বিখ্যাত।" } },
-    { "q": { "en": "Which cave in Tamil Nadu is famous for its Jaina paintings?", "as": "তামিলনাডুৰ কোন গুহা জৈন চিত্ৰকলাৰ বাবে বিখ্যাত?" }, "a": { "en": "The Sittanavasal cave.", "as": "চিত্তনাবাসল গুহা।" } },
-    { "q": { "en": "Who built the Kailasa temple at Ellora?", "as": "এলোৰাত কৈলাস মন্দিৰ কোনে নিৰ্মাণ কৰিছিল?" }, "a": { "en": "The Rashtrakuta ruler Krishna I (8th century AD).", "as": "ৰাষ্ট্ৰকূট শাসক কৃষ্ণ প্ৰথমে (খ্ৰীষ্টাব্দ অষ্টম শতাব্দী)।" } },
-    { "q": { "en": "What makes the Kailasa temple at Ellora unique?", "as": "এলোৰাৰ কৈলাস মন্দিৰক অনন্য কি কৰিছে?" }, "a": { "en": "It is a monolithic rock-cut temple - the largest such temple in the world, carved out of a single rock.", "as": "ই এটা মনোলিথিক শিলা-খোদিত মন্দিৰ — এটা একক শিলৰ পৰা খোদিত পৃথিৱীৰ আটাইতকৈ ডাঙৰ মন্দিৰ।" } },
-    { "q": { "en": "Where is the famous Trimurti sculpture located?", "as": "বিখ্যাত ত্ৰিমূৰ্তি ভাস্কৰ্য ক'ত অৱস্থিত?" }, "a": { "en": "In the Elephanta caves (near Mumbai).", "as": "এলিফেণ্টা গুহাত (মুম্বাইৰ ওচৰত)।" } },
-    { "q": { "en": "What does the Elephanta Trimurti depict?", "as": "এলিফেণ্টা ত্ৰিমূৰ্তিয়ে কি চিত্ৰিত কৰে?" }, "a": { "en": "The three-faced figure of Shiva (Mahesh), showing his three aspects.", "as": "শিৱৰ (মহেশ) তিনিমুখী মূৰ্তি, তেওঁৰ তিনিটা ৰূপ প্ৰকাশ কৰা।" } },
-    { "q": { "en": "Which are the two main styles of Indian temple architecture?", "as": "ভাৰতীয় মন্দিৰ স্থাপত্যৰ দুটা মূল শৈলী কি কি?" }, "a": { "en": "The Nagara style (northern) and the Dravida style (southern); the Vesara is the hybrid Chalukyan style.", "as": "নাগৰ শৈলী (উত্তৰীয়) আৰু দ্ৰাবিড় শৈলী (দাক্ষিণাত্য); ভেসৰ চালুক্যৰ সংমিশ্ৰিত শৈলী।" } },
-    { "q": { "en": "Which Gupta temple at Deogarh represents the Nagara style?", "as": "দেওগড়ৰ কোন গুপ্ত মন্দিৰে নাগৰ শৈলী প্ৰতিনিধিত্ব কৰে?" }, "a": { "en": "The Dashavatara temple.", "as": "দশাৱতাৰ মন্দিৰ।" } },
-    { "q": { "en": "Which style does the Shore Temple at Mahabalipuram represent?", "as": "মামল্লপুৰমৰ শোৰ মন্দিৰে কোন শৈলী প্ৰতিনিধিত্ব কৰে?" }, "a": { "en": "The Dravida style.", "as": "দ্ৰাবিড় শৈলী।" } },
-    { "q": { "en": "What is the basic feature of a Dravida temple?", "as": "দ্ৰাবিড় মন্দিৰৰ মূল বৈশিষ্ট্য কি?" }, "a": { "en": "The pyramidal storeyed tower called the Vimana, above the sanctum.", "as": "গৰ্ভগৃহৰ ওপৰত পিৰামিড আকৃতিৰ বহুতল বেউঁথা টাৱাৰ, যাক বিমান বোলা হয়।" } },
-    { "q": { "en": "Which Jaina caves of Odisha are associated with king Kharavela?", "as": "ওড়িশাৰ কোন জৈন গুহা ৰজা খাৰবেলৰ লগত জড়িত?" }, "a": { "en": "The Udayagiri and Khandagiri caves.", "as": "উদয়গিৰি আৰু খণ্ডগিৰি গুহা।" } },
-    { "q": { "en": "Who wrote the Ramayana?", "as": "ৰামায়ণ ৰচনা কোনে কৰিছিল?" }, "a": { "en": "Maharshi Valmiki.", "as": "মহৰ্ষি বাল্মীকি।" } },
-    { "q": { "en": "Why is the Ramayana called the 'Adi Kavya'?", "as": "ৰামায়ণক 'আদি কাব্য' কিয় বোলা হয়?" }, "a": { "en": "Because it is regarded as the first poem (Kavya) of Sanskrit literature.", "as": "কাৰণ ইয়াক সংস্কৃত সাহিত্যৰ প্ৰথম কাব্য বুলি গণ্য কৰা হয়।" } },
-    { "q": { "en": "Who wrote the Mahabharata?", "as": "মহাভাৰত ৰচনা কোনে কৰিছিল?" }, "a": { "en": "Maharshi Vyasa (Vedavyasa).", "as": "মহৰ্ষি বেদব্যাসে।" } },
-    { "q": { "en": "How many parvas does the Mahabharata contain?", "as": "মহাভাৰতত কিমানটা পৰ্ব আছে?" }, "a": { "en": "Eighteen (18) parvas.", "as": "অঠাৰ (১৮) টা পৰ্ব।" } },
-    { "q": { "en": "What is the Mahabharata sometimes called?", "as": "মহাভাৰতক মাজে মাজে কি বোলা হয়?" }, "a": { "en": "The fifth Veda, because of its immense size and importance.", "as": "পঞ্চম বেদ, ইয়াৰ বিশালতা আৰু গুৰুত্বৰ বাবে।" } },
-    { "q": { "en": "Who wrote the Natyashastra, the treatise on drama?", "as": "নাট্যশাস্ত্ৰ ৰচনা কোনে কৰিছিল?" }, "a": { "en": "Bharata Muni.", "as": "ভৰত মুনিয়ে।" } },
-    { "q": { "en": "Who wrote the Ashtadhyayi, the famous Sanskrit grammar?", "as": "বিখ্যাত সংস্কৃত ব্যাকৰণ অষ্টাধ্যায়ী ৰচনা কোনে কৰিছিল?" }, "a": { "en": "Panini.", "as": "পাণিনিয়ে।" } },
-    { "q": { "en": "Who is the traditional author of the Manusmriti?", "as": "মনুস্মৃতিৰ পৰম্পৰাগত ৰচয়িতা কোন?" }, "a": { "en": "Manu.", "as": "মনু।" } },
-    { "q": { "en": "What are the Jataka tales?", "as": "জাতক কাহিনী কি?" }, "a": { "en": "Buddhist stories about the previous births of the Buddha, which teach moral lessons.", "as": "বুদ্ধৰ পূৰ্বজন্মৰ বিষয়ে বৌদ্ধ কাহিনী, যিবোৰে নৈতিক শিক্ষা দিয়ে।" } },
-    { "q": { "en": "Who wrote the Arthashastra?", "as": "অৰ্থশাস্ত্ৰ ৰচনা কোনে কৰিছিল?" }, "a": { "en": "Kautilya (Chanakya).", "as": "কৌটিল্য (চাণক্য)য়ে।" } },
-    { "q": { "en": "Who wrote the Charaka Samhita?", "as": "চৰক সংহিতা ৰচনা কোনে কৰিছিল?" }, "a": { "en": "Charaka, the ancient physician.", "as": "প্ৰাচীন চিকিৎসক চৰকে।" } },
-    { "q": { "en": "Who is regarded as the father of Indian surgery?", "as": "ভাৰতীয় শল্য চিকিৎসাৰ জনক কোন বুলি গণ্য কৰা হয়?" }, "a": { "en": "Sushruta.", "as": "সুশ্ৰুত।" } },
-    { "q": { "en": "Which text did Sushruta write?", "as": "সুশ্ৰুতে ৰচনা কৰা গ্ৰন্থখন কোনখন?" }, "a": { "en": "The Sushruta Samhita, dealing with surgery.", "as": "সুশ্ৰুত সংহিতা, শল্য চিকিৎসা বিষয়ক।" } },
-    { "q": { "en": "Who wrote the Panchatantra?", "as": "পঞ্চতন্ত্ৰ ৰচনা কোনে কৰিছিল?" }, "a": { "en": "Vishnusharma.", "as": "বিষ্ণুশৰ্মাই।" } },
-    { "q": { "en": "What is the Sangam literature?", "as": "সংগম সাহিত্য কি?" }, "a": { "en": "Ancient Tamil literature composed in the assemblies (Sangams) at Madurai, between about 300 BC and 300 AD.", "as": "মাদুৰাইৰ সংগম সভাসমূহত ৰচিত প্ৰাচীন তামিল সাহিত্য, প্ৰায় খ্ৰীষ্টপূৰ্ব ৩০০ ৰ পৰা খ্ৰীষ্টাব্দ ৩০০ চনলৈ।" } },
-    { "q": { "en": "What are the two famous Tamil epics?", "as": "দুখন বিখ্যাত তামিল মহাকাব্য কোনকোনখন?" }, "a": { "en": "Shilappadikaram by Ilango Adigal and Manimekalai by Sattanar.", "as": "ইলাঙ্গো আদিগল ৰচিত শিলপ্পাদিকৰম আৰু সত্তনাৰ ৰচিত মণিমেকলাই।" } },
-    { "q": { "en": "Who wrote the Mrichchakatika (The Little Clay Cart)?", "as": "মৃচ্ছকটিক (মাটিৰ গাড়ী) ৰচনা কোনে কৰিছিল?" }, "a": { "en": "King Shudraka.", "as": "ৰজা শূদ্ৰকে।" } },
-    { "q": { "en": "Who wrote the Swapnavasavadatta?", "as": "স্বপ্নবাসৱদত্ত ৰচনা কোনে কৰিছিল?" }, "a": { "en": "Bhasa, one of the earliest Sanskrit dramatists.", "as": "আটাইতকৈ পুৰণি সংস্কৃত নাট্যকাৰসকলৰ এজন ভাসে।" } },
-    { "q": { "en": "Which is the most celebrated play of Kalidasa?", "as": "কালিদাসৰ আটাইতকৈ বিখ্যাত নাটকখন কোনখন?" }, "a": { "en": "Abhijnanasakuntalam.", "as": "অভিজ্ঞানশকুন্তলম।" } },
-    { "q": { "en": "Who wrote the Kiratarjuniya?", "as": "কিৰাতাৰ্জুনীয় ৰচনা কোনে কৰিছিল?" }, "a": { "en": "Bharavi.", "as": "ভাৰৱীয়ে।" } },
-    { "q": { "en": "Who wrote the Dashakumaracharita?", "as": "দশকুমাৰচৰিত ৰচনা কোনে কৰিছিল?" }, "a": { "en": "Dandin.", "as": "দণ্ডিনে।" } },
-    { "q": { "en": "Which great Indian contribution in mathematics is world-renowned?", "as": "গণিতত ভাৰতৰ কোন মহান অৱদান বিশ্ববিখ্যাত?" }, "a": { "en": "The invention of the zero and the decimal place-value system.", "as": "শূন্য আৰু দশমিক স্থান-মান পদ্ধতিৰ আৱিষ্কাৰ।" } },
-    { "q": { "en": "Who wrote the Brahmasphutasiddhanta?", "as": "ব্ৰহ্মস্ফুটসিদ্ধান্ত ৰচনা কোনে কৰিছিল?" }, "a": { "en": "Brahmagupta (in 628 AD).", "as": "ব্ৰহ্মগুপ্তই (৬২৮ খ্ৰীষ্টাব্দত)।" } },
-    { "q": { "en": "Who wrote the Gita Govinda?", "as": "গীতগোবিন্দ ৰচনা কোনে কৰিছিল?" }, "a": { "en": "Jayadeva, a poet of the 12th century, depicting the love of Krishna and Radha.", "as": "দ্বাদশ শতিকাৰ কবি জয়দেৱে, যি কৃষ্ণ-ৰাধাৰ প্ৰেম চিত্ৰিত কৰিছে।" } }
+    {
+      "q": {
+        "en": "Who originally built the famous Sanchi stupa?",
+        "as": "বিখ্যাত সাঁচী স্তূপ পোনপটীয়াকৈ কোনে নিৰ্মাণ কৰিছিল?"
+      },
+      "a": {
+        "en": "Ashoka the Great, as a brick stupa.",
+        "as": "সম্ৰাট অশোকে, ইটাৰ স্তূপ হিচাপে।"
+      },
+      "options": {
+        "en": [
+          "Chandragupta Maurya",
+          "Kanishka",
+          "Ashoka the Great",
+          "Harshavardhana"
+        ],
+        "as": [
+          "চন্দ্ৰগুপ্ত মৌৰ্য",
+          "কনিষ্ক",
+          "সম্ৰাট অশোক",
+          "হৰ্ষবৰ্ধন"
+        ]
+      },
+      "correct": 2,
+      "explanation": {
+        "en": "Emperor Ashoka originally built the Sanchi stupa as a brick structure in the 3rd century BC.",
+        "as": "সম্ৰাট অশোকে খ্ৰীষ্টপূৰ্ব তৃতীয় শতাব্দীত সাঁচী স্তূপ ইটাৰ গঠন হিচাপে পোনপটীয়াকৈ নিৰ্মাণ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which is the most famous and best-preserved stupa of India?",
+        "as": "ভাৰতৰ আটাইতকৈ বিখ্যাত আৰু উত্তমভাবে সংৰক্ষিত স্তূপ কোনটো?"
+      },
+      "a": {
+        "en": "The Great Stupa at Sanchi (Madhya Pradesh).",
+        "as": "সাঁচীৰ মহাস্তূপ (মধ্য প্ৰদেশ)।"
+      },
+      "options": {
+        "en": [
+          "The Great Stupa at Sanchi (Madhya Pradesh)",
+          "Amaravati Stupa (Andhra Pradesh)",
+          "Bharhut Stupa (Madhya Pradesh)",
+          "Dhamek Stupa (Sarnath)"
+        ],
+        "as": [
+          "সাঁচীৰ মহাস্তূপ (মধ্য প্ৰদেশ)",
+          "অমৰাৱতী স্তূপ (আন্ধ্ৰ প্ৰদেশ)",
+          "ভৰহুত স্তূপ (মধ্য প্ৰদেশ)",
+          "ধামেক স্তূপ (সাৰনাথ)"
+        ]
+      },
+      "correct": 0,
+      "explanation": {
+        "en": "The Great Stupa at Sanchi is the most famous and best-preserved stupa in India.",
+        "as": "সাঁচীৰ মহাস্তূপ ভাৰতৰ আটাইতকৈ বিখ্যাত আৰু উত্তমভাবে সংৰক্ষিত স্তূপ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which dynasty enlarged and renovated the Sanchi stupa?",
+        "as": "কোন বংশই সাঁচী স্তূপ সম্প্ৰসাৰণ আৰু সংস্কাৰ কৰিছিল?"
+      },
+      "a": {
+        "en": "The Sungas, who added the stone railing and the gateways.",
+        "as": "শুঙ্গসকলে, যি শিলৰ বেৰা আৰু প্ৰৱেশদ্বাৰ যোগ কৰিছিল।"
+      },
+      "options": {
+        "en": [
+          "The Mauryas",
+          "The Kushanas",
+          "The Satavahanas",
+          "The Sungas"
+        ],
+        "as": [
+          "মৌৰ্য",
+          "কুশান",
+          "সাতবাহন",
+          "শুঙ্গ"
+        ]
+      },
+      "correct": 3,
+      "explanation": {
+        "en": "The Sungas enlarged the Sanchi stupa and added its stone railing and gateways.",
+        "as": "শুঙ্গসকলে সাঁচী স্তূপ সম্প্ৰসাৰণ কৰি শিলৰ বেৰা আৰু প্ৰৱেশদ্বাৰ যোগ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "What are the four toranas (gateways) of Sanchi famous for?",
+        "as": "সাঁচীৰ চাৰিখন তোৰণ (প্ৰৱেশদ্বাৰ) কিৰ বাবে বিখ্যাত?"
+      },
+      "a": {
+        "en": "Their exquisite narrative sculptures depicting Jataka stories.",
+        "as": "জাতক কাহিনী চিত্ৰিত কৰা তেওঁলোকৰ মনোমোহা ভাস্কৰ্যৰ বাবে।"
+      },
+      "options": {
+        "en": [
+          "Their tall stone pillars",
+          "Their exquisite narrative sculptures depicting Jataka stories",
+          "Their underground chambers",
+          "Their gold-plated domes"
+        ],
+        "as": [
+          "তেওঁলোকৰ ওখ শিলৰ স্তম্ভ",
+          "জাতক কাহিনী চিত্ৰিত কৰা মনোমোহা ভাস্কৰ্য",
+          "তেওঁলোকৰ ভূগৰ্ভস্থ কোঠা",
+          "তেওঁলোকৰ সোণৰ প্ৰলেপ লগা গম্বুজ"
+        ]
+      },
+      "correct": 1,
+      "explanation": {
+        "en": "The four toranas of Sanchi are famous for narrative sculptures illustrating Jataka stories.",
+        "as": "সাঁচীৰ চাৰিখন তোৰণ জাতক কাহিনী বৰ্ণনা কৰা ভাস্কৰ্যৰ বাবে বিখ্যাত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The sculptures of the Bharhut stupa belong to which period?",
+        "as": "ভৰহুত স্তূপৰ ভাস্কৰ্যসমূহ কোন যুগৰ?"
+      },
+      "a": {
+        "en": "The Sunga period (2nd century BC).",
+        "as": "শুঙ্গ যুগ (খ্ৰীষ্টপূৰ্ব দ্বিতীয় শতাব্দী)।"
+      },
+      "options": {
+        "en": [
+          "The Maurya period",
+          "The Kushana period",
+          "The Sunga period (2nd century BC)",
+          "The Gupta period"
+        ],
+        "as": [
+          "মৌৰ্য যুগ",
+          "কুশান যুগ",
+          "শুঙ্গ যুগ (খ্ৰীষ্টপূৰ্ব দ্বিতীয় শতাব্দী)",
+          "গুপ্ত যুগ"
+        ]
+      },
+      "correct": 2,
+      "explanation": {
+        "en": "The sculptures of the Bharhut stupa date to the Sunga period of the 2nd century BC.",
+        "as": "ভৰহুত স্তূপৰ ভাস্কৰ্যসমূহ খ্ৰীষ্টপূৰ্ব দ্বিতীয় শতাব্দীৰ শুঙ্গ যুগৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which famous stupa of Andhra Pradesh was built in the Satavahana period?",
+        "as": "আন্ধ্ৰ প্ৰদেশৰ কোন বিখ্যাত স্তূপ সাতবাহন যুগত নিৰ্মিত?"
+      },
+      "a": {
+        "en": "The Amaravati stupa.",
+        "as": "অমৰাৱতী স্তূপ।"
+      },
+      "options": {
+        "en": [
+          "The Amaravati stupa",
+          "The Sanchi stupa",
+          "The Bharhut stupa",
+          "The Dhamek stupa"
+        ],
+        "as": [
+          "অমৰাৱতী স্তূপ",
+          "সাঁচী স্তূপ",
+          "ভৰহুত স্তূপ",
+          "ধামেক স্তূপ"
+        ]
+      },
+      "correct": 0,
+      "explanation": {
+        "en": "The Amaravati stupa in Andhra Pradesh was built during the Satavahana period.",
+        "as": "আন্ধ্ৰ প্ৰদেশৰ অমৰাৱতী স্তূপ সাতবাহন যুগত নিৰ্মিত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which school of art is known for its Greco-Roman influence?",
+        "as": "কোন শিল্পশৈলী গ্ৰীক-ৰোমান প্ৰভাৱৰ বাবে জনাজাত?"
+      },
+      "a": {
+        "en": "The Gandhara school.",
+        "as": "গান্ধাৰ শিল্পশৈলী।"
+      },
+      "options": {
+        "en": [
+          "The Mathura school",
+          "The Amravati school",
+          "The Pala school",
+          "The Gandhara school"
+        ],
+        "as": [
+          "মথুৰা শিল্পশৈলী",
+          "অমৰাৱতী শিল্পশৈলী",
+          "পাল শিল্পশৈলী",
+          "গান্ধাৰ শিল্পশৈলী"
+        ]
+      },
+      "correct": 3,
+      "explanation": {
+        "en": "The Gandhara school is known for its Greco-Roman influence on Buddhist art.",
+        "as": "গান্ধাৰ শিল্পশৈলী বৌদ্ধ শিল্পত গ্ৰীক-ৰোমান প্ৰভাৱৰ বাবে জনাজাত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Where did the Gandhara school of art flourish?",
+        "as": "গান্ধাৰ শিল্পশৈলী ক'ত বিকশিত হৈছিল?"
+      },
+      "a": {
+        "en": "In the north-western region - Taxila, Peshawar and the Kabul valley.",
+        "as": "উত্তৰ-পশ্চিম অঞ্চলত — তক্ষশিলা, পেছাৱাৰ আৰু কাবুল উপত্যকাত।"
+      },
+      "options": {
+        "en": [
+          "In the Deccan plateau",
+          "In the north-western region - Taxila, Peshawar and the Kabul valley",
+          "In the Andhra region",
+          "In the Gangetic plains"
+        ],
+        "as": [
+          "দাক্ষিণাত্য মালভূমিত",
+          "উত্তৰ-পশ্চিম অঞ্চলত — তক্ষশিলা, পেছাৱাৰ আৰু কাবুল উপত্যকাত",
+          "আন্ধ্ৰ অঞ্চলত",
+          "গংগা সমভূমিত"
+        ]
+      },
+      "correct": 1,
+      "explanation": {
+        "en": "The Gandhara school flourished in the north-west, centred on Taxila, Peshawar and the Kabul valley.",
+        "as": "গান্ধাৰ শিল্পশৈলী উত্তৰ-পশ্চিমত, তক্ষশিলা, পেছাৱাৰ আৰু কাবুল উপত্যকাক কেন্দ্ৰ কৰি বিকশিত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which stone was used by the artists of the Gandhara school?",
+        "as": "গান্ধাৰ শিল্পীসকলে কোন শিল ব্যৱহাৰ কৰিছিল?"
+      },
+      "a": {
+        "en": "Grey-blue schist stone.",
+        "as": "ধূসৰ-নীল শিষ্ট (schist) শিল।"
+      },
+      "options": {
+        "en": [
+          "White marble",
+          "Red sandstone",
+          "Grey-blue schist stone",
+          "Black granite"
+        ],
+        "as": [
+          "বগা মাৰ্বল",
+          "ৰঙা বালি শিল",
+          "ধূসৰ-নীল শিষ্ট (schist) শিল",
+          "ক’লা গ্ৰেনাইট"
+        ]
+      },
+      "correct": 2,
+      "explanation": {
+        "en": "Artists of the Gandhara school used grey-blue schist stone.",
+        "as": "গান্ধাৰ শিল্পীসকলে ধূসৰ-নীল শিষ্ট শিল ব্যৱহাৰ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which school of art was indigenous and used red sandstone?",
+        "as": "কোন শিল্পশৈলী স্বদেশীয় আছিল আৰু ৰঙা বালি শিল ব্যৱহাৰ কৰিছিল?"
+      },
+      "a": {
+        "en": "The Mathura school of art.",
+        "as": "মথুৰা শিল্পশৈলী।"
+      },
+      "options": {
+        "en": [
+          "The Mathura school of art",
+          "The Gandhara school of art",
+          "The Amravati school of art",
+          "The Pala school of art"
+        ],
+        "as": [
+          "মথুৰা শিল্পশৈলী",
+          "গান্ধাৰ শিল্পশৈলী",
+          "অমৰাৱতী শিল্পশৈলী",
+          "পাল শিল্পশৈলী"
+        ]
+      },
+      "correct": 0,
+      "explanation": {
+        "en": "The Mathura school was indigenous and used red sandstone.",
+        "as": "মথুৰা শিল্পশৈলী স্বদেশীয় আছিল আৰু ৰঙা বালি শিল ব্যৱহাৰ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Where was the Mathura school of art centred?",
+        "as": "মথুৰা শিল্পশৈলী ক'ত কেন্দ্ৰীভূত আছিল?"
+      },
+      "a": {
+        "en": "At Mathura (Uttar Pradesh).",
+        "as": "মথুৰাত (উত্তৰ প্ৰদেশ)।"
+      },
+      "options": {
+        "en": [
+          "At Taxila",
+          "At Amaravati",
+          "At Pataliputra",
+          "At Mathura (Uttar Pradesh)"
+        ],
+        "as": [
+          "তক্ষশিলাত",
+          "অমৰাৱতীত",
+          "পাটলিপুত্ৰত",
+          "মথুৰাত (উত্তৰ প্ৰদেশ)"
+        ]
+      },
+      "correct": 3,
+      "explanation": {
+        "en": "The Mathura school of art was centred at Mathura in Uttar Pradesh.",
+        "as": "মথুৰা শিল্পশৈলী উত্তৰ প্ৰদেশৰ মথুৰাত কেন্দ্ৰীভূত আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Kushan ruler patronised both the Gandhara and Mathura schools?",
+        "as": "কোন কুশান শাসকে গান্ধাৰ আৰু মথুৰা দুয়ো শিল্পশৈলীকে পৃষ্ঠপোষকতা দিছিল?"
+      },
+      "a": {
+        "en": "Kanishka.",
+        "as": "কনিষ্কই।"
+      },
+      "options": {
+        "en": [
+          "Ashoka",
+          "Kanishka",
+          "Huvishka",
+          "Menander"
+        ],
+        "as": [
+          "অশোক",
+          "কনিষ্ক",
+          "হুবিষ্ক",
+          "মেনাণ্ডাৰ"
+        ]
+      },
+      "correct": 1,
+      "explanation": {
+        "en": "The Kushan ruler Kanishka patronised both the Gandhara and Mathura schools of art.",
+        "as": "কুশান শাসক কনিষ্কই গান্ধাৰ আৰু মথুৰা দুয়ো শিল্পশৈলীকে পৃষ্ঠপোষকতা দিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which school of art flourished in the Andhra region?",
+        "as": "আন্ধ্ৰ অঞ্চলত কোন শিল্পশৈলী বিকশিত হৈছিল?"
+      },
+      "a": {
+        "en": "The Amravati school (at Amaravati and Nagarjunakonda).",
+        "as": "অমৰাৱতী শিল্পশৈলী (অমৰাৱতী আৰু নাগাৰ্জুনকোণ্ডাত)।"
+      },
+      "options": {
+        "en": [
+          "The Gandhara school",
+          "The Mathura school",
+          "The Amravati school (at Amaravati and Nagarjunakonda)",
+          "The Nagara school"
+        ],
+        "as": [
+          "গান্ধাৰ শিল্পশৈলী",
+          "মথুৰা শিল্পশৈলী",
+          "অমৰাৱতী শিল্পশৈলী (অমৰাৱতী আৰু নাগাৰ্জুনকোণ্ডাত)",
+          "নাগৰ শিল্পশৈলী"
+        ]
+      },
+      "correct": 2,
+      "explanation": {
+        "en": "The Amravati school flourished in the Andhra region at Amaravati and Nagarjunakonda.",
+        "as": "অমৰাৱতী শিল্পশৈলী আন্ধ্ৰ অঞ্চলত অমৰাৱতী আৰু নাগাৰ্জুনকোণ্ডাত বিকশিত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "What are the Ajanta caves famous for?",
+        "as": "অজন্তা গুহাসমূহ কিৰ বাবে বিখ্যাত?"
+      },
+      "a": {
+        "en": "Their magnificent Buddhist paintings (frescoes) and sculptures.",
+        "as": "তেওঁলোকৰ অপূৰ্ব বৌদ্ধ চিত্ৰকলা (ফ্ৰেস্কো) আৰু ভাস্কৰ্যৰ বাবে।"
+      },
+      "options": {
+        "en": [
+          "Their magnificent Buddhist paintings (frescoes) and sculptures",
+          "Their Jaina rock inscriptions",
+          "Their monolithic stone pillars",
+          "Their Islamic tile work"
+        ],
+        "as": [
+          "তেওঁলোকৰ অপূৰ্ব বৌদ্ধ চিত্ৰকলা (ফ্ৰেস্কো) আৰু ভাস্কৰ্য",
+          "তেওঁলোকৰ জৈন শিলালিপি",
+          "তেওঁলোকৰ মনোলিথিক শিলৰ স্তম্ভ",
+          "তেওঁলোকৰ ইছলামী টাইল কাৰ্য"
+        ]
+      },
+      "correct": 0,
+      "explanation": {
+        "en": "The Ajanta caves are famous for their magnificent Buddhist frescoes and sculptures.",
+        "as": "অজন্তা গুহাসমূহ তেওঁলোকৰ অপূৰ্ব বৌদ্ধ ফ্ৰেস্কো আৰু ভাস্কৰ্যৰ বাবে বিখ্যাত।"
+      }
+    },
+    {
+      "q": {
+        "en": "When were the Ajanta caves discovered by the British?",
+        "as": "ব্ৰিটিছসকলে অজন্তা গুহা কেতিয়া আৱিষ্কাৰ কৰিছিল?"
+      },
+      "a": {
+        "en": "In 1819, by a British army officer John Smith.",
+        "as": "১৮১৯ চনত, ব্ৰিটিছ সেনা বিষয়া জন স্মিথে।"
+      },
+      "options": {
+        "en": [
+          "In 1719, by James Prinsep",
+          "In 1789, by Lord Curzon",
+          "In 1861, by John Marshall",
+          "In 1819, by a British army officer John Smith"
+        ],
+        "as": [
+          "১৭১৯ চনত, জেমছ প্ৰিন্সেপে",
+          "১৭৮৯ চনত, লৰ্ড কাৰ্জনে",
+          "১৮৬১ চনত, জন মাৰ্শ্বলে",
+          "১৮১৯ চনত, ব্ৰিটিছ সেনা বিষয়া জন স্মিথে"
+        ]
+      },
+      "correct": 3,
+      "explanation": {
+        "en": "The Ajanta caves were discovered in 1819 by the British army officer John Smith.",
+        "as": "ব্ৰিটিছ সেনা বিষয়া জন স্মিথে ১৮১৯ চনত অজন্তা গুহা আৱিষ্কাৰ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which painting of Ajanta cave 1 is world-famous?",
+        "as": "অজন্তা গুহা ১-ৰ কোন চিত্ৰ বিশ্ববিখ্যাত?"
+      },
+      "a": {
+        "en": "The Padmapani (Bodhisattva) painting.",
+        "as": "পদ্মপাণি (বোধিসত্ত্ব) চিত্ৰ।"
+      },
+      "options": {
+        "en": [
+          "The Mahaparinirvana painting",
+          "The Padmapani (Bodhisattva) painting",
+          "The Bodhi tree painting",
+          "The Great Departure painting"
+        ],
+        "as": [
+          "মহাপৰিনিৰ্বাণ চিত্ৰ",
+          "পদ্মপাণি (বোধিসত্ত্ব) চিত্ৰ",
+          "বোধি বৃক্ষ চিত্ৰ",
+          "মহাপ্ৰয়াণ চিত্ৰ"
+        ]
+      },
+      "correct": 1,
+      "explanation": {
+        "en": "The Padmapani Bodhisattva painting in Ajanta cave 1 is world-famous.",
+        "as": "অজন্তা গুহা ১-ৰ পদ্মপাণি বোধিসত্ত্ব চিত্ৰ বিশ্ববিখ্যাত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Where are the Bagh caves located and what are they famous for?",
+        "as": "বাঘ গুহাসমূহ ক'ত অৱস্থিত আৰু কিৰ বাবে বিখ্যাত?"
+      },
+      "a": {
+        "en": "In Madhya Pradesh, famous for their ancient Buddhist paintings.",
+        "as": "মধ্য প্ৰদেশত, প্ৰাচীন বৌদ্ধ চিত্ৰকলাৰ বাবে বিখ্যাত।"
+      },
+      "options": {
+        "en": [
+          "In Tamil Nadu, famous for Jaina paintings",
+          "In Odisha, famous for rock-cut temples",
+          "In Madhya Pradesh, famous for their ancient Buddhist paintings",
+          "In Maharashtra, famous for Hindu sculptures"
+        ],
+        "as": [
+          "তামিলনাডুত, জৈন চিত্ৰৰ বাবে বিখ্যাত",
+          "ওড়িশাত, শিলা-খোদিত মন্দিৰৰ বাবে বিখ্যাত",
+          "মধ্য প্ৰদেশত, প্ৰাচীন বৌদ্ধ চিত্ৰকলাৰ বাবে বিখ্যাত",
+          "মহাৰাষ্ট্ৰত, হিন্দু ভাস্কৰ্যৰ বাবে বিখ্যাত"
+        ]
+      },
+      "correct": 2,
+      "explanation": {
+        "en": "The Bagh caves in Madhya Pradesh are famous for their ancient Buddhist paintings.",
+        "as": "মধ্য প্ৰদেশৰ বাঘ গুহাসমূহ প্ৰাচীন বৌদ্ধ চিত্ৰকলাৰ বাবে বিখ্যাত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which cave in Tamil Nadu is famous for its Jaina paintings?",
+        "as": "তামিলনাডুৰ কোন গুহা জৈন চিত্ৰকলাৰ বাবে বিখ্যাত?"
+      },
+      "a": {
+        "en": "The Sittanavasal cave.",
+        "as": "চিত্তনাবাসল গুহা।"
+      },
+      "options": {
+        "en": [
+          "The Sittanavasal cave",
+          "The Ellora cave",
+          "The Elephanta cave",
+          "The Udayagiri cave"
+        ],
+        "as": [
+          "চিত্তনাবাসল গুহা",
+          "এলোৰা গুহা",
+          "এলিফেণ্টা গুহা",
+          "উদয়গিৰি গুহা"
+        ]
+      },
+      "correct": 0,
+      "explanation": {
+        "en": "The Sittanavasal cave in Tamil Nadu is famous for its Jaina paintings.",
+        "as": "তামিলনাডুৰ চিত্তনাবাসল গুহা জৈন চিত্ৰকলাৰ বাবে বিখ্যাত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who built the Kailasa temple at Ellora?",
+        "as": "এলোৰাত কৈলাস মন্দিৰ কোনে নিৰ্মাণ কৰিছিল?"
+      },
+      "a": {
+        "en": "The Rashtrakuta ruler Krishna I (8th century AD).",
+        "as": "ৰাষ্ট্ৰকূট শাসক কৃষ্ণ প্ৰথমে (খ্ৰীষ্টাব্দ অষ্টম শতাব্দী)।"
+      },
+      "options": {
+        "en": [
+          "The Chalukya ruler Pulakeshin II",
+          "The Pallava ruler Narasimhavarman",
+          "The Gupta ruler Samudragupta",
+          "The Rashtrakuta ruler Krishna I (8th century AD)"
+        ],
+        "as": [
+          "চালুক্য শাসক পুলকেশিন দ্বিতীয়",
+          "পল্লৱ শাসক নৰসিংহবৰ্মন",
+          "গুপ্ত শাসক সমুদ্ৰগুপ্ত",
+          "ৰাষ্ট্ৰকূট শাসক কৃষ্ণ প্ৰথম (খ্ৰীষ্টাব্দ অষ্টম শতাব্দী)"
+        ]
+      },
+      "correct": 3,
+      "explanation": {
+        "en": "The Kailasa temple at Ellora was built by the Rashtrakuta ruler Krishna I in the 8th century AD.",
+        "as": "এলোৰাৰ কৈলাস মন্দিৰ ৰাষ্ট্ৰকূট শাসক কৃষ্ণ প্ৰথমে খ্ৰীষ্টাব্দ অষ্টম শতাব্দীত নিৰ্মাণ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "What makes the Kailasa temple at Ellora unique?",
+        "as": "এলোৰাৰ কৈলাস মন্দিৰক অনন্য কি কৰিছে?"
+      },
+      "a": {
+        "en": "It is a monolithic rock-cut temple - the largest such temple in the world, carved out of a single rock.",
+        "as": "ই এটা মনোলিথিক শিলা-খোদিত মন্দিৰ — এটা একক শিলৰ পৰা খোদিত পৃথিৱীৰ আটাইতকৈ ডাঙৰ মন্দিৰ।"
+      },
+      "options": {
+        "en": [
+          "It is built entirely of marble",
+          "It is a monolithic rock-cut temple - the largest such temple in the world, carved out of a single rock",
+          "It is the oldest wooden temple in India",
+          "It is a temple floating on a lake"
+        ],
+        "as": [
+          "ই সম্পূৰ্ণৰূপে মাৰ্বলৰে নিৰ্মিত",
+          "ই এটা মনোলিথিক শিলা-খোদিত মন্দিৰ — এটা একক শিলৰ পৰা খোদিত পৃথিৱীৰ আটাইতকৈ ডাঙৰ মন্দিৰ",
+          "ই ভাৰতৰ আটাইতকৈ পুৰণি কাঠৰ মন্দিৰ",
+          "ই এটা হ্ৰদত ভাহি থকা মন্দিৰ"
+        ]
+      },
+      "correct": 1,
+      "explanation": {
+        "en": "The Kailasa temple is unique as a monolithic rock-cut temple carved from a single rock.",
+        "as": "কৈলাস মন্দিৰ এটা একক শিলৰ পৰা খোদিত মনোলিথিক মন্দিৰ হিচাপে অনন্য।"
+      }
+    },
+    {
+      "q": {
+        "en": "Where is the famous Trimurti sculpture located?",
+        "as": "বিখ্যাত ত্ৰিমূৰ্তি ভাস্কৰ্য ক'ত অৱস্থিত?"
+      },
+      "a": {
+        "en": "In the Elephanta caves (near Mumbai).",
+        "as": "এলিফেণ্টা গুহাত (মুম্বাইৰ ওচৰত)।"
+      },
+      "options": {
+        "en": [
+          "In the Ellora caves",
+          "In the Ajanta caves",
+          "In the Elephanta caves (near Mumbai)",
+          "In the Bagh caves"
+        ],
+        "as": [
+          "এলোৰা গুহাত",
+          "অজন্তা গুহাত",
+          "এলিফেণ্টা গুহাত (মুম্বাইৰ ওচৰত)",
+          "বাঘ গুহাত"
+        ]
+      },
+      "correct": 2,
+      "explanation": {
+        "en": "The famous Trimurti sculpture is located in the Elephanta caves near Mumbai.",
+        "as": "বিখ্যাত ত্ৰিমূৰ্তি ভাস্কৰ্য মুম্বাইৰ ওচৰৰ এলিফেণ্টা গুহাত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does the Elephanta Trimurti depict?",
+        "as": "এলিফেণ্টা ত্ৰিমূৰ্তিয়ে কি চিত্ৰিত কৰে?"
+      },
+      "a": {
+        "en": "The three-faced figure of Shiva (Mahesh), showing his three aspects.",
+        "as": "শিৱৰ (মহেশ) তিনিমুখী মূৰ্তি, তেওঁৰ তিনিটা ৰূপ প্ৰকাশ কৰা।"
+      },
+      "options": {
+        "en": [
+          "The three-faced figure of Shiva (Mahesh), showing his three aspects",
+          "The three-faced figure of Brahma",
+          "The three-faced figure of Vishnu",
+          "The three-faced figure of Buddha"
+        ],
+        "as": [
+          "শিৱৰ (মহেশ) তিনিমুখী মূৰ্তি, তেওঁৰ তিনিটা ৰূপ প্ৰকাশ কৰা",
+          "ব্ৰহ্মাৰ তিনিমুখী মূৰ্তি",
+          "বিষ্ণুৰ তিনিমুখী মূৰ্তি",
+          "বুদ্ধৰ তিনিমুখী মূৰ্তি"
+        ]
+      },
+      "correct": 0,
+      "explanation": {
+        "en": "The Elephanta Trimurti depicts the three-faced Shiva (Mahesh) representing his three aspects.",
+        "as": "এলিফেণ্টা ত্ৰিমূৰ্তিয়ে শিৱৰ (মহেশ) তিনিমুখী ৰূপ, তেওঁৰ তিনিটা দিশ প্ৰকাশ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which are the two main styles of Indian temple architecture?",
+        "as": "ভাৰতীয় মন্দিৰ স্থাপত্যৰ দুটা মূল শৈলী কি কি?"
+      },
+      "a": {
+        "en": "The Nagara style (northern) and the Dravida style (southern); the Vesara is the hybrid Chalukyan style.",
+        "as": "নাগৰ শৈলী (উত্তৰীয়) আৰু দ্ৰাবিড় শৈলী (দাক্ষিণাত্য); ভেসৰ চালুক্যৰ সংমিশ্ৰিত শৈলী।"
+      },
+      "options": {
+        "en": [
+          "The Gandhara and Mathura styles",
+          "The Pala and Sena styles",
+          "The Indo-Saracenic and Mughal styles",
+          "The Nagara style (northern) and the Dravida style (southern); the Vesara is the hybrid Chalukyan style"
+        ],
+        "as": [
+          "গান্ধাৰ আৰু মথুৰা শৈলী",
+          "পাল আৰু সেন শৈলী",
+          "ইন্দো-চাৰাচেনিক আৰু মোগল শৈলী",
+          "নাগৰ শৈলী (উত্তৰীয়) আৰু দ্ৰাবিড় শৈলী (দাক্ষিণাত্য); ভেসৰ চালুক্যৰ সংমিশ্ৰিত শৈলী"
+        ]
+      },
+      "correct": 3,
+      "explanation": {
+        "en": "The two main styles of Indian temple architecture are the Nagara (north) and Dravida (south), with Vesara as a hybrid.",
+        "as": "ভাৰতীয় মন্দিৰ স্থাপত্যৰ দুটা মূল শৈলী হ'ল নাগৰ (উত্তৰ) আৰু দ্ৰাবিড় (দক্ষিণ), ভেসৰ ইয়াৰ সংমিশ্ৰিত ৰূপ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Gupta temple at Deogarh represents the Nagara style?",
+        "as": "দেওগড়ৰ কোন গুপ্ত মন্দিৰে নাগৰ শৈলী প্ৰতিনিধিত্ব কৰে?"
+      },
+      "a": {
+        "en": "The Dashavatara temple.",
+        "as": "দশাৱতাৰ মন্দিৰ।"
+      },
+      "options": {
+        "en": [
+          "The Kailasa temple",
+          "The Dashavatara temple",
+          "The Shore temple",
+          "The Kandariya Mahadeva temple"
+        ],
+        "as": [
+          "কৈলাস মন্দিৰ",
+          "দশাৱতাৰ মন্দিৰ",
+          "শোৰ মন্দিৰ",
+          "কন্দাৰিয়া মহাদেৱ মন্দিৰ"
+        ]
+      },
+      "correct": 1,
+      "explanation": {
+        "en": "The Dashavatara temple at Deogarh is an early example of the Nagara style.",
+        "as": "দেওগড়ৰ দশাৱতাৰ মন্দিৰ নাগৰ শৈলীৰ এটা প্ৰাৰম্ভিক উদাহৰণ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which style does the Shore Temple at Mahabalipuram represent?",
+        "as": "মামল্লপুৰমৰ শোৰ মন্দিৰে কোন শৈলী প্ৰতিনিধিত্ব কৰে?"
+      },
+      "a": {
+        "en": "The Dravida style.",
+        "as": "দ্ৰাবিড় শৈলী।"
+      },
+      "options": {
+        "en": [
+          "The Nagara style",
+          "The Vesara style",
+          "The Dravida style",
+          "The Gandhara style"
+        ],
+        "as": [
+          "নাগৰ শৈলী",
+          "ভেসৰ শৈলী",
+          "দ্ৰাবিড় শৈলী",
+          "গান্ধাৰ শৈলী"
+        ]
+      },
+      "correct": 2,
+      "explanation": {
+        "en": "The Shore Temple at Mahabalipuram represents the Dravida style of temple architecture.",
+        "as": "মামল্লপুৰমৰ শোৰ মন্দিৰে দ্ৰাবিড় মন্দিৰ স্থাপত্য শৈলী প্ৰতিনিধিত্ব কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the basic feature of a Dravida temple?",
+        "as": "দ্ৰাবিড় মন্দিৰৰ মূল বৈশিষ্ট্য কি?"
+      },
+      "a": {
+        "en": "The pyramidal storeyed tower called the Vimana, above the sanctum.",
+        "as": "গৰ্ভগৃহৰ ওপৰত পিৰামিড আকৃতিৰ বহুতল বেউঁথা টাৱাৰ, যাক বিমান বোলা হয়।"
+      },
+      "options": {
+        "en": [
+          "The pyramidal storeyed tower called the Vimana, above the sanctum",
+          "The curved tower called the Shikhara, above the sanctum",
+          "A large water tank in front of the temple",
+          "A tall entrance gateway called the Gopuram only"
+        ],
+        "as": [
+          "গৰ্ভগৃহৰ ওপৰত পিৰামিড আকৃতিৰ বহুতল বেউঁথা টাৱাৰ, যাক বিমান বোলা হয়",
+          "গৰ্ভগৃহৰ ওপৰত বক্ৰ টাৱাৰ, যাক শিখৰ বোলা হয়",
+          "মন্দিৰৰ সন্মুখত এটা ডাঙৰ পানীৰ টেংকি",
+          "কেৱল এটা ওখ প্ৰৱেশদ্বাৰ, যাক গোপুৰম বোলা হয়"
+        ]
+      },
+      "correct": 0,
+      "explanation": {
+        "en": "The basic feature of a Dravida temple is the pyramidal storeyed Vimana above the sanctum.",
+        "as": "দ্ৰাবিড় মন্দিৰৰ মূল বৈশিষ্ট্য হ'ল গৰ্ভগৃহৰ ওপৰত পিৰামিড আকৃতিৰ বহুতল বিমান।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Jaina caves of Odisha are associated with king Kharavela?",
+        "as": "ওড়িশাৰ কোন জৈন গুহা ৰজা খাৰবেলৰ লগত জড়িত?"
+      },
+      "a": {
+        "en": "The Udayagiri and Khandagiri caves.",
+        "as": "উদয়গিৰি আৰু খণ্ডগিৰি গুহা।"
+      },
+      "options": {
+        "en": [
+          "The Ajanta and Ellora caves",
+          "The Elephanta and Bagh caves",
+          "The Sittanavasal and Badami caves",
+          "The Udayagiri and Khandagiri caves"
+        ],
+        "as": [
+          "অজন্তা আৰু এলোৰা গুহা",
+          "এলিফেণ্টা আৰু বাঘ গুহা",
+          "চিত্তনাবাসল আৰু বাদামী গুহা",
+          "উদয়গিৰি আৰু খণ্ডগিৰি গুহা"
+        ]
+      },
+      "correct": 3,
+      "explanation": {
+        "en": "The Udayagiri and Khandagiri caves of Odisha are associated with king Kharavela.",
+        "as": "ওড়িশাৰ উদয়গিৰি আৰু খণ্ডগিৰি গুহা ৰজা খাৰবেলৰ লগত জড়িত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the Ramayana?",
+        "as": "ৰামায়ণ ৰচনা কোনে কৰিছিল?"
+      },
+      "a": {
+        "en": "Maharshi Valmiki.",
+        "as": "মহৰ্ষি বাল্মীকি।"
+      },
+      "options": {
+        "en": [
+          "Maharshi Vyasa",
+          "Maharshi Valmiki",
+          "Bharata Muni",
+          "Kalidasa"
+        ],
+        "as": [
+          "মহৰ্ষি ব্যাস",
+          "মহৰ্ষি বাল্মীকি",
+          "ভৰত মুনি",
+          "কালিদাস"
+        ]
+      },
+      "correct": 1,
+      "explanation": {
+        "en": "The Ramayana was composed by Maharshi Valmiki.",
+        "as": "ৰামায়ণ মহৰ্ষি বাল্মীকিয়ে ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Why is the Ramayana called the 'Adi Kavya'?",
+        "as": "ৰামায়ণক 'আদি কাব্য' কিয় বোলা হয়?"
+      },
+      "a": {
+        "en": "Because it is regarded as the first poem (Kavya) of Sanskrit literature.",
+        "as": "কাৰণ ইয়াক সংস্কৃত সাহিত্যৰ প্ৰথম কাব্য বুলি গণ্য কৰা হয়।"
+      },
+      "options": {
+        "en": [
+          "Because it is the longest poem ever written",
+          "Because it tells the story of a king",
+          "Because it is regarded as the first poem (Kavya) of Sanskrit literature",
+          "Because it was written in Prakrit"
+        ],
+        "as": [
+          "কাৰণ ই এতিয়ালৈকে লিখা আটাইতকৈ দীঘল কবিতা",
+          "কাৰণ ই এজন ৰজাৰ কাহিনী কয়",
+          "কাৰণ ইয়াক সংস্কৃত সাহিত্যৰ প্ৰথম কাব্য বুলি গণ্য কৰা হয়",
+          "কাৰণ ই প্ৰাকৃতত লিখা হৈছিল"
+        ]
+      },
+      "correct": 2,
+      "explanation": {
+        "en": "The Ramayana is called the Adi Kavya as it is regarded as the first poem of Sanskrit literature.",
+        "as": "ৰামায়ণক আদি কাব্য বোলা হয় কাৰণ ইয়াক সংস্কৃত সাহিত্যৰ প্ৰথম কাব্য বুলি গণ্য কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the Mahabharata?",
+        "as": "মহাভাৰত ৰচনা কোনে কৰিছিল?"
+      },
+      "a": {
+        "en": "Maharshi Vyasa (Vedavyasa).",
+        "as": "মহৰ্ষি বেদব্যাসে।"
+      },
+      "options": {
+        "en": [
+          "Maharshi Vyasa (Vedavyasa)",
+          "Maharshi Valmiki",
+          "Tulsidas",
+          "Suka, son of Vedavyasa"
+        ],
+        "as": [
+          "মহৰ্ষি ব্যাস (বেদব্যাস)",
+          "মহৰ্ষি বাল্মীকি",
+          "তুলসীদাস",
+          "বেদব্যাসৰ পুত্ৰ শুক"
+        ]
+      },
+      "correct": 0,
+      "explanation": {
+        "en": "The Mahabharata was composed by Maharshi Vyasa (Vedavyasa).",
+        "as": "মহাভাৰত মহৰ্ষি ব্যাসে (বেদব্যাসে) ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "How many parvas does the Mahabharata contain?",
+        "as": "মহাভাৰতত কিমানটা পৰ্ব আছে?"
+      },
+      "a": {
+        "en": "Eighteen (18) parvas.",
+        "as": "অঠাৰ (১৮) টা পৰ্ব।"
+      },
+      "options": {
+        "en": [
+          "Twelve (12) parvas",
+          "Fifteen (15) parvas",
+          "Twenty-four (24) parvas",
+          "Eighteen (18) parvas"
+        ],
+        "as": [
+          "বাৰ (১২) টা পৰ্ব",
+          "পোন্ধৰ (১৫) টা পৰ্ব",
+          "চৌবিশ (২৪) টা পৰ্ব",
+          "অঠাৰ (১৮) টা পৰ্ব"
+        ]
+      },
+      "correct": 3,
+      "explanation": {
+        "en": "The Mahabharata contains eighteen parvas (books).",
+        "as": "মহাভাৰতত অঠাৰটা পৰ্ব আছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the Mahabharata sometimes called?",
+        "as": "মহাভাৰতক মাজে মাজে কি বোলা হয়?"
+      },
+      "a": {
+        "en": "The fifth Veda, because of its immense size and importance.",
+        "as": "পঞ্চম বেদ, ইয়াৰ বিশালতা আৰু গুৰুত্বৰ বাবে।"
+      },
+      "options": {
+        "en": [
+          "The first Purana",
+          "The fifth Veda, because of its immense size and importance",
+          "The Adi Kavya",
+          "The Upaveda"
+        ],
+        "as": [
+          "প্ৰথম পুৰাণ",
+          "পঞ্চম বেদ, ইয়াৰ বিশালতা আৰু গুৰুত্বৰ বাবে",
+          "আদি কাব্য",
+          "উপবেদ"
+        ]
+      },
+      "correct": 1,
+      "explanation": {
+        "en": "Because of its immense size and importance, the Mahabharata is sometimes called the fifth Veda.",
+        "as": "বিশালতা আৰু গুৰুত্বৰ বাবে মহাভাৰতক মাজে মাজে পঞ্চম বেদ বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the Natyashastra, the treatise on drama?",
+        "as": "নাট্যশাস্ত্ৰ ৰচনা কোনে কৰিছিল?"
+      },
+      "a": {
+        "en": "Bharata Muni.",
+        "as": "ভৰত মুনিয়ে।"
+      },
+      "options": {
+        "en": [
+          "Panini",
+          "Kautilya",
+          "Bharata Muni",
+          "Kalidasa"
+        ],
+        "as": [
+          "পাণিনি",
+          "কৌটিল্য",
+          "ভৰত মুনি",
+          "কালিদাস"
+        ]
+      },
+      "correct": 2,
+      "explanation": {
+        "en": "The Natyashastra, the treatise on drama, was written by Bharata Muni.",
+        "as": "নাট্যশাস্ত্ৰ ভৰত মুনিয়ে ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the Ashtadhyayi, the famous Sanskrit grammar?",
+        "as": "বিখ্যাত সংস্কৃত ব্যাকৰণ অষ্টাধ্যায়ী ৰচনা কোনে কৰিছিল?"
+      },
+      "a": {
+        "en": "Panini.",
+        "as": "পাণিনিয়ে।"
+      },
+      "options": {
+        "en": [
+          "Panini",
+          "Patanjali",
+          "Katyayana",
+          "Bharata Muni"
+        ],
+        "as": [
+          "পাণিনি",
+          "পতঞ্জলি",
+          "কাত্যায়ন",
+          "ভৰত মুনি"
+        ]
+      },
+      "correct": 0,
+      "explanation": {
+        "en": "The Ashtadhyayi, the famous Sanskrit grammar, was written by Panini.",
+        "as": "বিখ্যাত সংস্কৃত ব্যাকৰণ অষ্টাধ্যায়ী পাণিনিয়ে ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is the traditional author of the Manusmriti?",
+        "as": "মনুস্মৃতিৰ পৰম্পৰাগত ৰচয়িতা কোন?"
+      },
+      "a": {
+        "en": "Manu.",
+        "as": "মনু।"
+      },
+      "options": {
+        "en": [
+          "Yajnavalkya",
+          "Narada",
+          "Brihaspati",
+          "Manu"
+        ],
+        "as": [
+          "যজ্ঞৱল্ক্য",
+          "নাৰদ",
+          "বৃহস্পতি",
+          "মনু"
+        ]
+      },
+      "correct": 3,
+      "explanation": {
+        "en": "Manu is the traditional author of the Manusmriti.",
+        "as": "মনু মনুস্মৃতিৰ পৰম্পৰাগত ৰচয়িতা।"
+      }
+    },
+    {
+      "q": {
+        "en": "What are the Jataka tales?",
+        "as": "জাতক কাহিনী কি?"
+      },
+      "a": {
+        "en": "Buddhist stories about the previous births of the Buddha, which teach moral lessons.",
+        "as": "বুদ্ধৰ পূৰ্বজন্মৰ বিষয়ে বৌদ্ধ কাহিনী, যিবোৰে নৈতিক শিক্ষা দিয়ে।"
+      },
+      "options": {
+        "en": [
+          "Jaina stories about Tirthankaras",
+          "Buddhist stories about the previous births of the Buddha, which teach moral lessons",
+          "Hindu stories about the avatars of Vishnu",
+          "Tamil stories about the Sangam kings"
+        ],
+        "as": [
+          "তীৰ্থংকৰসকলৰ জৈন কাহিনী",
+          "বুদ্ধৰ পূৰ্বজন্মৰ বিষয়ে বৌদ্ধ কাহিনী, যিবোৰে নৈতিক শিক্ষা দিয়ে",
+          "বিষ্ণুৰ অৱতাৰৰ হিন্দু কাহিনী",
+          "সংগম ৰজাসকলৰ তামিল কাহিনী"
+        ]
+      },
+      "correct": 1,
+      "explanation": {
+        "en": "The Jataka tales are Buddhist stories about the previous births of the Buddha that teach moral lessons.",
+        "as": "জাতক কাহিনী হ'ল বুদ্ধৰ পূৰ্বজন্মৰ বিষয়ে বৌদ্ধ কাহিনী, যিবোৰে নৈতিক শিক্ষা দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the Arthashastra?",
+        "as": "অৰ্থশাস্ত্ৰ ৰচনা কোনে কৰিছিল?"
+      },
+      "a": {
+        "en": "Kautilya (Chanakya).",
+        "as": "কৌটিল্য (চাণক্য)য়ে।"
+      },
+      "options": {
+        "en": [
+          "Charaka",
+          "Panini",
+          "Kautilya (Chanakya)",
+          "Vishnusharma"
+        ],
+        "as": [
+          "চৰক",
+          "পাণিনি",
+          "কৌটিল্য (চাণক্য)",
+          "বিষ্ণুশৰ্মা"
+        ]
+      },
+      "correct": 2,
+      "explanation": {
+        "en": "The Arthashastra was written by Kautilya, also known as Chanakya.",
+        "as": "অৰ্থশাস্ত্ৰ কৌটিল্যই (চাণক্য) ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the Charaka Samhita?",
+        "as": "চৰক সংহিতা ৰচনা কোনে কৰিছিল?"
+      },
+      "a": {
+        "en": "Charaka, the ancient physician.",
+        "as": "প্ৰাচীন চিকিৎসক চৰকে।"
+      },
+      "options": {
+        "en": [
+          "Charaka, the ancient physician",
+          "Sushruta, the surgeon",
+          "Brahmagupta, the mathematician",
+          "Aryabhata, the astronomer"
+        ],
+        "as": [
+          "প্ৰাচীন চিকিৎসক চৰক",
+          "শল্য চিকিৎসক সুশ্ৰুত",
+          "গণিতজ্ঞ ব্ৰহ্মগুপ্ত",
+          "জ্যোতিৰ্বিজ্ঞানী আৰ্যভট্ট"
+        ]
+      },
+      "correct": 0,
+      "explanation": {
+        "en": "The Charaka Samhita was written by Charaka, the ancient physician.",
+        "as": "চৰক সংহিতা প্ৰাচীন চিকিৎসক চৰকে ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is regarded as the father of Indian surgery?",
+        "as": "ভাৰতীয় শল্য চিকিৎসাৰ জনক কোন বুলি গণ্য কৰা হয়?"
+      },
+      "a": {
+        "en": "Sushruta.",
+        "as": "সুশ্ৰুত।"
+      },
+      "options": {
+        "en": [
+          "Charaka",
+          "Patanjali",
+          "Dhanvantari",
+          "Sushruta"
+        ],
+        "as": [
+          "চৰক",
+          "পতঞ্জলি",
+          "ধন্বন্তৰি",
+          "সুশ্ৰুত"
+        ]
+      },
+      "correct": 3,
+      "explanation": {
+        "en": "Sushruta is regarded as the father of Indian surgery.",
+        "as": "সুশ্ৰুতক ভাৰতীয় শল্য চিকিৎসাৰ জনক বুলি গণ্য কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which text did Sushruta write?",
+        "as": "সুশ্ৰুতে ৰচনা কৰা গ্ৰন্থখন কোনখন?"
+      },
+      "a": {
+        "en": "The Sushruta Samhita, dealing with surgery.",
+        "as": "সুশ্ৰুত সংহিতা, শল্য চিকিৎসা বিষয়ক।"
+      },
+      "options": {
+        "en": [
+          "The Charaka Samhita, dealing with medicine",
+          "The Sushruta Samhita, dealing with surgery",
+          "The Ashtadhyayi, dealing with grammar",
+          "The Natyashastra, dealing with drama"
+        ],
+        "as": [
+          "চৰক সংহিতা, ঔষধ বিষয়ক",
+          "সুশ্ৰুত সংহিতা, শল্য চিকিৎসা বিষয়ক",
+          "অষ্টাধ্যায়ী, ব্যাকৰণ বিষয়ক",
+          "নাট্যশাস্ত্ৰ, নাটক বিষয়ক"
+        ]
+      },
+      "correct": 1,
+      "explanation": {
+        "en": "Sushruta wrote the Sushruta Samhita, a text dealing with surgery.",
+        "as": "সুশ্ৰুতে শল্য চিকিৎসা বিষয়ক সুশ্ৰুত সংহিতা ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the Panchatantra?",
+        "as": "পঞ্চতন্ত্ৰ ৰচনা কোনে কৰিছিল?"
+      },
+      "a": {
+        "en": "Vishnusharma.",
+        "as": "বিষ্ণুশৰ্মাই।"
+      },
+      "options": {
+        "en": [
+          "Kalidasa",
+          "Bhasa",
+          "Vishnusharma",
+          "Dandin"
+        ],
+        "as": [
+          "কালিদাস",
+          "ভাস",
+          "বিষ্ণুশৰ্মা",
+          "দণ্ডিন"
+        ]
+      },
+      "correct": 2,
+      "explanation": {
+        "en": "The Panchatantra was written by Vishnusharma.",
+        "as": "পঞ্চতন্ত্ৰ বিষ্ণুশৰ্মাই ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the Sangam literature?",
+        "as": "সংগম সাহিত্য কি?"
+      },
+      "a": {
+        "en": "Ancient Tamil literature composed in the assemblies (Sangams) at Madurai, between about 300 BC and 300 AD.",
+        "as": "মাদুৰাইৰ সংগম সভাসমূহত ৰচিত প্ৰাচীন তামিল সাহিত্য, প্ৰায় খ্ৰীষ্টপূৰ্ব ৩০০ ৰ পৰা খ্ৰীষ্টাব্দ ৩০০ চনলৈ।"
+      },
+      "options": {
+        "en": [
+          "Ancient Tamil literature composed in the assemblies (Sangams) at Madurai, between about 300 BC and 300 AD",
+          "Ancient Sanskrit literature composed in royal courts",
+          "Ancient Kannada literature composed in the Chalukya court",
+          "Ancient Assamese literature composed in sattras"
+        ],
+        "as": [
+          "মাদুৰাইৰ সংগম সভাসমূহত ৰচিত প্ৰাচীন তামিল সাহিত্য, প্ৰায় খ্ৰীষ্টপূৰ্ব ৩০০ ৰ পৰা খ্ৰীষ্টাব্দ ৩০০ চনলৈ",
+          "ৰাজদৰবাৰত ৰচিত প্ৰাচীন সংস্কৃত সাহিত্য",
+          "চালুক্য দৰবাৰত ৰচিত প্ৰাচীন কন্নড় সাহিত্য",
+          "সত্ৰত ৰচিত প্ৰাচীন অসমীয়া সাহিত্য"
+        ]
+      },
+      "correct": 0,
+      "explanation": {
+        "en": "Sangam literature is ancient Tamil literature composed in the Sangam assemblies at Madurai between c. 300 BC and 300 AD.",
+        "as": "সংগম সাহিত্য হ'ল মাদুৰাইৰ সংগম সভাত প্ৰায় খ্ৰীষ্টপূৰ্ব ৩০০ ৰ পৰা খ্ৰীষ্টাব্দ ৩০০ লৈ ৰচিত প্ৰাচীন তামিল সাহিত্য।"
+      }
+    },
+    {
+      "q": {
+        "en": "What are the two famous Tamil epics?",
+        "as": "দুখন বিখ্যাত তামিল মহাকাব্য কোনকোনখন?"
+      },
+      "a": {
+        "en": "Shilappadikaram by Ilango Adigal and Manimekalai by Sattanar.",
+        "as": "ইলাঙ্গো আদিগল ৰচিত শিলপ্পাদিকৰম আৰু সত্তনাৰ ৰচিত মণিমেকলাই।"
+      },
+      "options": {
+        "en": [
+          "Ramayana and Mahabharata",
+          "Kiratarjuniya and Dashakumaracharita",
+          "Abhijnanasakuntalam and Mrichchakatika",
+          "Shilappadikaram by Ilango Adigal and Manimekalai by Sattanar"
+        ],
+        "as": [
+          "ৰামায়ণ আৰু মহাভাৰত",
+          "কিৰাতাৰ্জুনীয় আৰু দশকুমাৰচৰিত",
+          "অভিজ্ঞানশকুন্তলম আৰু মৃচ্ছকটিক",
+          "ইলাঙ্গো আদিগল ৰচিত শিলপ্পাদিকৰম আৰু সত্তনাৰ ৰচিত মণিমেকলাই"
+        ]
+      },
+      "correct": 3,
+      "explanation": {
+        "en": "The two famous Tamil epics are Shilappadikaram by Ilango Adigal and Manimekalai by Sattanar.",
+        "as": "দুখন বিখ্যাত তামিল মহাকাব্য হ'ল ইলাঙ্গো আদিগল ৰচিত শিলপ্পাদিকৰম আৰু সত্তনাৰ ৰচিত মণিমেকলাই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the Mrichchakatika (The Little Clay Cart)?",
+        "as": "মৃচ্ছকটিক (মাটিৰ গাড়ী) ৰচনা কোনে কৰিছিল?"
+      },
+      "a": {
+        "en": "King Shudraka.",
+        "as": "ৰজা শূদ্ৰকে।"
+      },
+      "options": {
+        "en": [
+          "Kalidasa",
+          "King Shudraka",
+          "Bhasa",
+          "Bharavi"
+        ],
+        "as": [
+          "কালিদাস",
+          "ৰজা শূদ্ৰক",
+          "ভাস",
+          "ভাৰৱি"
+        ]
+      },
+      "correct": 1,
+      "explanation": {
+        "en": "The Mrichchakatika (The Little Clay Cart) was written by King Shudraka.",
+        "as": "মৃচ্ছকটিক ৰজা শূদ্ৰকে ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the Swapnavasavadatta?",
+        "as": "স্বপ্নবাসৱদত্ত ৰচনা কোনে কৰিছিল?"
+      },
+      "a": {
+        "en": "Bhasa, one of the earliest Sanskrit dramatists.",
+        "as": "আটাইতকৈ পুৰণি সংস্কৃত নাট্যকাৰসকলৰ এজন ভাসে।"
+      },
+      "options": {
+        "en": [
+          "Kalidasa",
+          "Shudraka",
+          "Bhasa, one of the earliest Sanskrit dramatists",
+          "Dandin"
+        ],
+        "as": [
+          "কালিদাস",
+          "শূদ্ৰক",
+          "আটাইতকৈ পুৰণি সংস্কৃত নাট্যকাৰসকলৰ এজন ভাস",
+          "দণ্ডিন"
+        ]
+      },
+      "correct": 2,
+      "explanation": {
+        "en": "The Swapnavasavadatta was written by Bhasa, one of the earliest Sanskrit dramatists.",
+        "as": "স্বপ্নবাসৱদত্ত আটাইতকৈ পুৰণি সংস্কৃত নাট্যকাৰসকলৰ এজন ভাসে ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which is the most celebrated play of Kalidasa?",
+        "as": "কালিদাসৰ আটাইতকৈ বিখ্যাত নাটকখন কোনখন?"
+      },
+      "a": {
+        "en": "Abhijnanasakuntalam.",
+        "as": "অভিজ্ঞানশকুন্তলম।"
+      },
+      "options": {
+        "en": [
+          "Abhijnanasakuntalam",
+          "Malavikagnimitram",
+          "Vikramorvashiyam",
+          "Meghaduta"
+        ],
+        "as": [
+          "অভিজ্ঞানশকুন্তলম",
+          "মালৱিকাগ্নিমিত্ৰম",
+          "ৱিক্ৰমোৰ্বশীয়ম",
+          "মেঘদূত"
+        ]
+      },
+      "correct": 0,
+      "explanation": {
+        "en": "Abhijnanasakuntalam is the most celebrated play of Kalidasa.",
+        "as": "অভিজ্ঞানশকুন্তলম কালিদাসৰ আটাইতকৈ বিখ্যাত নাটক।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the Kiratarjuniya?",
+        "as": "কিৰাতাৰ্জুনীয় ৰচনা কোনে কৰিছিল?"
+      },
+      "a": {
+        "en": "Bharavi.",
+        "as": "ভাৰৱীয়ে।"
+      },
+      "options": {
+        "en": [
+          "Kalidasa",
+          "Magha",
+          "Dandin",
+          "Bharavi"
+        ],
+        "as": [
+          "কালিদাস",
+          "মাঘ",
+          "দণ্ডিন",
+          "ভাৰৱি"
+        ]
+      },
+      "correct": 3,
+      "explanation": {
+        "en": "The Kiratarjuniya was written by Bharavi.",
+        "as": "কিৰাতাৰ্জুনীয় ভাৰৱীয়ে ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the Dashakumaracharita?",
+        "as": "দশকুমাৰচৰিত ৰচনা কোনে কৰিছিল?"
+      },
+      "a": {
+        "en": "Dandin.",
+        "as": "দণ্ডিনে।"
+      },
+      "options": {
+        "en": [
+          "Bhasa",
+          "Dandin",
+          "Bana",
+          "Shudraka"
+        ],
+        "as": [
+          "ভাস",
+          "দণ্ডিন",
+          "বাণ",
+          "শূদ্ৰক"
+        ]
+      },
+      "correct": 1,
+      "explanation": {
+        "en": "The Dashakumaracharita was written by Dandin.",
+        "as": "দশকুমাৰচৰিত দণ্ডিনে ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which great Indian contribution in mathematics is world-renowned?",
+        "as": "গণিতত ভাৰতৰ কোন মহান অৱদান বিশ্ববিখ্যাত?"
+      },
+      "a": {
+        "en": "The invention of the zero and the decimal place-value system.",
+        "as": "শূন্য আৰু দশমিক স্থান-মান পদ্ধতিৰ আৱিষ্কাৰ।"
+      },
+      "options": {
+        "en": [
+          "The invention of the printing press",
+          "The discovery of gunpowder",
+          "The invention of the zero and the decimal place-value system",
+          "The invention of the magnetic compass"
+        ],
+        "as": [
+          "ছপা যন্ত্ৰৰ আৱিষ্কাৰ",
+          "বাৰুদৰ আৱিষ্কাৰ",
+          "শূন্য আৰু দশমিক স্থান-মান পদ্ধতিৰ আৱিষ্কাৰ",
+          "চুম্বক কম্পাছৰ আৱিষ্কাৰ"
+        ]
+      },
+      "correct": 2,
+      "explanation": {
+        "en": "India's world-renowned contribution to mathematics is the invention of zero and the decimal place-value system.",
+        "as": "গণিতত ভাৰতৰ বিশ্ববিখ্যাত অৱদান হ'ল শূন্য আৰু দশমিক স্থান-মান পদ্ধতিৰ আৱিষ্কাৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the Brahmasphutasiddhanta?",
+        "as": "ব্ৰহ্মস্ফুটসিদ্ধান্ত ৰচনা কোনে কৰিছিল?"
+      },
+      "a": {
+        "en": "Brahmagupta (in 628 AD).",
+        "as": "ব্ৰহ্মগুপ্তই (৬২৮ খ্ৰীষ্টাব্দত)।"
+      },
+      "options": {
+        "en": [
+          "Brahmagupta (in 628 AD)",
+          "Aryabhata (in 499 AD)",
+          "Bhaskara I (in 629 AD)",
+          "Varahamihira (in 505 AD)"
+        ],
+        "as": [
+          "ব্ৰহ্মগুপ্ত (৬২৮ খ্ৰীষ্টাব্দত)",
+          "আৰ্যভট্ট (৪৯৯ খ্ৰীষ্টাব্দত)",
+          "ভাস্কৰ প্ৰথম (৬২৯ খ্ৰীষ্টাব্দত)",
+          "বৰাহমিহিৰ (৫০৫ খ্ৰীষ্টাব্দত)"
+        ]
+      },
+      "correct": 0,
+      "explanation": {
+        "en": "The Brahmasphutasiddhanta was written by Brahmagupta in 628 AD.",
+        "as": "ব্ৰহ্মস্ফুটসিদ্ধান্ত ব্ৰহ্মগুপ্তই ৬২৮ খ্ৰীষ্টাব্দত ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the Gita Govinda?",
+        "as": "গীতগোবিন্দ ৰচনা কোনে কৰিছিল?"
+      },
+      "a": {
+        "en": "Jayadeva, a poet of the 12th century, depicting the love of Krishna and Radha.",
+        "as": "দ্বাদশ শতিকাৰ কবি জয়দেৱে, যি কৃষ্ণ-ৰাধাৰ প্ৰেম চিত্ৰিত কৰিছে।"
+      },
+      "options": {
+        "en": [
+          "Kalidasa, depicting the love of Shiva and Parvati",
+          "Vishnusharma, depicting animal fables",
+          "Bharavi, depicting the Mahabharata war",
+          "Jayadeva, a poet of the 12th century, depicting the love of Krishna and Radha"
+        ],
+        "as": [
+          "কালিদাস, শিৱ-পাৰ্বতীৰ প্ৰেম চিত্ৰিত কৰি",
+          "বিষ্ণুশৰ্মা, পশু ৰূপক চিত্ৰিত কৰি",
+          "ভাৰৱি, মহাভাৰত যুদ্ধ চিত্ৰিত কৰি",
+          "দ্বাদশ শতিকাৰ কবি জয়দেৱ, কৃষ্ণ-ৰাধাৰ প্ৰেম চিত্ৰিত কৰি"
+        ]
+      },
+      "correct": 3,
+      "explanation": {
+        "en": "The Gita Govinda was written by Jayadeva, a 12th-century poet, depicting the love of Krishna and Radha.",
+        "as": "গীতগোবিন্দ দ্বাদশ শতিকাৰ কবি জয়দেৱে ৰচনা কৰিছিল, যি কৃষ্ণ-ৰাধাৰ প্ৰেম চিত্ৰিত কৰে।"
+      }
+    }
   ]
 }
