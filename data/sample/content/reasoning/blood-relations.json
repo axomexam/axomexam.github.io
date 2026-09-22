@@ -45,7 +45,11 @@
           "as": "ককাই-ভাই"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "'My father's only son' is Ramesh himself, so the boy in the photo is Ramesh's son.",
+        "as": "'মোৰ পিতৃৰ একমাত্র পুত্র' হৈছে ৰামেশ্ব নিজেই, গতিকে ফটোত থকা ল'ৰাটো ৰামেশ্বৰ পুত্র।"
+      }
     },
     {
       "type": "statement",
@@ -75,7 +79,11 @@
           "as": "ভনী"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Since B is C's sister, they share the same mother; A is B's mother, so A is also C's mother.",
+        "as": "B, C ৰ ভনী হোৱাৰ বাবে দুয়োজনৰে মাতৃ একে; A হৈছে B ৰ মাতৃ, গতিকে A, C ৰো মাতৃ।"
+      }
     },
     {
       "type": "statement",
@@ -105,7 +113,11 @@
           "as": "ভাই"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "X is the brother of Y, and Y is Z's daughter, so X is also a child of Z — specifically Z's son.",
+        "as": "X হৈছে Y ৰ ভাই, আৰু Y হৈছে Z ৰ জীয়ৰী, গতিকে X ৰো Z এজন পিতৃ/মাতৃ — X হৈছে Z ৰ পুত্র।"
+      }
     },
     {
       "type": "pointing",
@@ -135,7 +147,11 @@
           "as": "আইতা"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "A brother's mother is also one's own mother, so the lady is Raju's mother.",
+        "as": "ভাইৰ মাতৃ নিজৰো মাতৃ হয়, গতিকে মহিলাগৰাকী ৰাজুৰ মাতৃ।"
+      }
     },
     {
       "type": "statement",
@@ -165,7 +181,11 @@
           "as": "ভাই"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "B is C's husband and A is B's son, so A is the son of C as well.",
+        "as": "B হৈছে C ৰ স্বামী আৰু A হৈছে B ৰ পুত্র, গতিকে A, C ৰো পুত্র।"
+      }
     },
     {
       "type": "chain",
@@ -195,7 +215,11 @@
           "as": "নাতি"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Rohan and Sita are siblings, and Sita is the daughter of Meena and Ramesh; hence Rohan is Ramesh's son.",
+        "as": "ৰোহন আৰু সীতা একে মাক-দেউতাৰ সন্তান, আৰু সীতা মীনা আৰু ৰামেশ্বৰৰ জীয়ৰী; গতিকে ৰোহন ৰামেশ্বৰৰ পুত্র।"
+      }
     },
     {
       "type": "pointing",
@@ -225,7 +249,11 @@
           "as": "শহুৰ"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "The mother's sister is one's aunt, so her husband is one's uncle by marriage.",
+        "as": "মাতৃৰ ভনী হৈছে খুড়ী/মাহী, গতিকে তেওঁৰ স্বামী হৈছে মামা/খুড়া (বিবাহসূত্ৰে)।"
+      }
     },
     {
       "type": "pointing",
@@ -255,7 +283,11 @@
           "as": "ভিনিহি"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "My father's wife is my mother, and her brother is my maternal uncle.",
+        "as": "মোৰ পিতৃৰ স্ত্রী হৈছে মোৰ মাতৃ, আৰু তেওঁৰ ভাই হৈছে মোৰ মামা।"
+      }
     },
     {
       "type": "pointing",
@@ -285,7 +317,11 @@
           "as": "আইতা"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The sister of one's father is one's paternal aunt.",
+        "as": "পিতৃৰ ভনী হৈছে মোৰ পেহী (পিতৃফালৰ জেঠাই/পেহী)।"
+      }
     },
     {
       "type": "statement",
@@ -315,7 +351,11 @@
           "as": "ককা"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "A is the brother of C's mother B, so A is C's maternal uncle.",
+        "as": "A হৈছে C ৰ মাতৃ B ৰ ভাই, গতিকে A, C ৰ মামা।"
+      }
     },
     {
       "type": "pointing",
@@ -345,7 +385,11 @@
           "as": "স্ত্রী"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "'My father's son' is Amar himself or his brother, so the woman who is that person's mother is Amar's mother.",
+        "as": "'মোৰ পিতৃৰ পুত্র' হৈছে অমৰ নিজেই বা তেওঁৰ ভাই, গতিকে সেইজনৰ মাতৃ অমৰৰো মাতৃ।"
+      }
     },
     {
       "type": "pointing",
@@ -375,7 +419,11 @@
           "as": "মামা"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "One's grandfather's father is one's great-grandfather.",
+        "as": "ককাদেউতাৰ পিতৃ হৈছে মোৰ বুঢ়াককা।"
+      }
     },
     {
       "type": "chain",
@@ -405,7 +453,11 @@
           "as": "ভাই"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Z is the wife of W, so W is the father of Z's daughter Y; X is Y's son, making X the grandson of W.",
+        "as": "Z হৈছে W ৰ স্ত্রী, গতিকে W হৈছে Z ৰ জীয়ৰী Y ৰ পিতৃ; X হৈছে Y ৰ পুত্র, গতিকে X, W ৰ নাতি।"
+      }
     },
     {
       "type": "statement",
@@ -435,7 +487,11 @@
           "as": "স্ত্রী"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "A is B's father and C is B's daughter, so C is A's granddaughter.",
+        "as": "A হৈছে B ৰ পিতৃ আৰু C হৈছে B ৰ জীয়ৰী, গতিকে C, A ৰ নাতনি।"
+      }
     },
     {
       "type": "pointing",
@@ -465,7 +521,11 @@
           "as": "পুত্র"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The son of one's uncle is one's cousin.",
+        "as": "মামাৰ পুত্র হৈছে মোৰ ককাই-ভাই (cousin)।"
+      }
     },
     {
       "type": "statement",
@@ -495,7 +555,11 @@
           "as": "ভতিজা"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "R is the child of P and the mother of S, so S is the grandchild of P.",
+        "as": "R হৈছে P ৰ সন্তান আৰু S ৰ মাতৃ, গতিকে S, P ৰ নাতি/নাতনি।"
+      }
     },
     {
       "type": "statement",
@@ -525,7 +589,11 @@
           "as": "পিতৃ"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The woman's mother's husband is her father, who is also the man's father; sharing the same father makes the man her brother.",
+        "as": "মহিলাগৰাকীৰ মাতৃৰ স্বামী হৈছে তাইৰ পিতৃ, যি পুৰুষজনৰো পিতৃ; একে পিতৃ থকাৰ বাবে পুৰুষজন তাইৰ ভাই।"
+      }
     },
     {
       "type": "chain",
@@ -555,7 +623,11 @@
           "as": "খুড়ী"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "B is C's daughter and A is B's daughter, so A is C's granddaughter.",
+        "as": "B হৈছে C ৰ জীয়ৰী আৰু A হৈছে B ৰ জীয়ৰী, গতিকে A, C ৰ নাতনি।"
+      }
     },
     {
       "type": "pointing",
@@ -585,7 +657,11 @@
           "as": "খুড়ী"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "'My daughter's mother' is Rekha herself, and that person's mother is Rekha's mother.",
+        "as": "'মোৰ জীয়ৰীৰ মাতৃ' হৈছে ৰেখা নিজেই, আৰু সেইজনীৰ মাতৃ হৈছে ৰেখাৰ মাতৃ।"
+      }
     },
     {
       "type": "chain",
@@ -615,7 +691,11 @@
           "as": "ভাই"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "N is the father of L, and M is L's child, so M is N's grandson.",
+        "as": "N হৈছে L ৰ পিতৃ আৰু M হৈছে L ৰ সন্তান, গতিকে M, N ৰ নাতি।"
+      }
     },
     {
       "type": "chain",
@@ -645,7 +725,11 @@
           "as": "মাতৃ"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Q and R are siblings; P is Q's father and S is R's parent, so S is P's wife.",
+        "as": "Q আৰু R একে মাক-দেউতাৰ সন্তান; P হৈছে Q ৰ পিতৃ আৰু S হৈছে R ৰ পিতৃ/মাতৃ, গতিকে S, P ৰ স্ত্রী।"
+      }
     },
     {
       "type": "statement",
@@ -675,7 +759,11 @@
           "as": "পুত্র"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "C is the mother of A and B, and D is C's father, so D is A's grandfather.",
+        "as": "C হৈছে A আৰু B ৰ মাতৃ, আৰু D হৈছে C ৰ পিতৃ, গতিকে D, A ৰ ককা।"
+      }
     },
     {
       "type": "pointing",
@@ -705,7 +793,11 @@
           "as": "স্বামী"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "'My father's daughter' is Anita herself or her sister, so the man's mother is Anita, making him her son.",
+        "as": "'মোৰ পিতৃৰ জীয়ৰী' হৈছে অনিতা নিজেই বা তাইৰ ভনী, গতিকে লোকজনৰ মাতৃ অনিতা, তেওঁ তাইৰ পুত্র।"
+      }
     },
     {
       "type": "pointing",
@@ -735,7 +827,11 @@
           "as": "Son"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The son of one's uncle is one's cousin.",
+        "as": "মামাৰ পুত্র হৈছে মোৰ ককাই-ভাই (cousin)।"
+      }
     },
     {
       "type": "statement",
@@ -765,7 +861,11 @@
           "as": "Mother"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "B is the daughter of A and also of C, so C is the mother of B and A's wife.",
+        "as": "B হৈছে A ৰ জীয়ৰী আৰু C ৰো জীয়ৰী, গতিকে C, B ৰ মাতৃ আৰু A ৰ স্ত্রী।"
+      }
     },
     {
       "type": "pointing",
@@ -795,7 +895,11 @@
           "as": "Sister"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The sister of one's mother is one's aunt (maternal aunt).",
+        "as": "মাতৃৰ ভনী হৈছে মোৰ খুড়ী/মাহী (aunt)।"
+      }
     },
     {
       "type": "pointing",
@@ -825,7 +929,11 @@
           "as": "Cousin"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The brother of one's father is one's uncle (paternal uncle).",
+        "as": "পিতৃৰ ভাই হৈছে মোৰ খুড়া/জেঠা (uncle)।"
+      }
     },
     {
       "type": "pointing",
@@ -855,7 +963,11 @@
           "as": "Mother-in-law"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "One's brother's wife is one's sister-in-law.",
+        "as": "ভাইৰ পত্নী হৈছে মোৰ বাৱৰীয়েক (sister-in-law)।"
+      }
     },
     {
       "type": "pointing",
@@ -885,7 +997,11 @@
           "as": "Cousin"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "One's sister's husband is one's brother-in-law.",
+        "as": "ভনীৰ স্বামী হৈছে মোৰ ভিনিহি (brother-in-law)।"
+      }
     },
     {
       "type": "statement",
@@ -915,7 +1031,11 @@
           "as": "Brother"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "A is the brother of C's father B, so A is C's uncle.",
+        "as": "A হৈছে C ৰ পিতৃ B ৰ ভাই, গতিকে A, C ৰ খুড়া/জেঠা (uncle)।"
+      }
     },
     {
       "type": "pointing",
@@ -945,7 +1065,11 @@
           "as": "Uncle"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The father of one's son is one's husband.",
+        "as": "মোৰ পুত্রৰ পিতৃ হৈছে মোৰ স্বামী।"
+      }
     },
     {
       "type": "chain",
@@ -975,7 +1099,11 @@
           "as": "Niece"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Geeta is the sister of Ravi's mother, and Rekha is Geeta's daughter, so Rekha is Ravi's cousin.",
+        "as": "গীতা হৈছে ৰবিৰ মাতৃৰ ভনী, আৰু ৰেখা হৈছে গীতাৰ জীয়ৰী, গতিকে ৰেখা ৰবিৰ ককাই-ভাই (cousin)।"
+      }
     },
     {
       "type": "statement",
@@ -1005,7 +1133,11 @@
           "as": "Paternal uncle"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "C is the brother of B's mother A, so C is B's maternal uncle.",
+        "as": "C হৈছে B ৰ মাতৃ A ৰ ভাই, গতিকে C, B ৰ মামা।"
+      }
     },
     {
       "type": "statement",
@@ -1035,7 +1167,11 @@
           "as": "Paternal uncle"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "P is the brother of Q's mother, so P is Q's maternal uncle.",
+        "as": "P হৈছে Q ৰ মাতৃৰ ভাই, গতিকে P, Q ৰ মামা।"
+      }
     },
     {
       "type": "pointing",
@@ -1065,7 +1201,11 @@
           "as": "Sister"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "One's father's mother is one's grandmother.",
+        "as": "মোৰ পিতৃৰ মাতৃ হৈছে মোৰ আইতা।"
+      }
     },
     {
       "type": "statement",
@@ -1095,7 +1235,11 @@
           "as": "Brother"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "As A is B's grandfather, one of A's sons is B's father; C is A's son, so C is B's father.",
+        "as": "A হৈছে B ৰ ককা, গতিকে A ৰ এজন পুত্র B ৰ পিতৃ; C হৈছে A ৰ পুত্র, গতিকে C, B ৰ পিতৃ।"
+      }
     },
     {
       "type": "chain",
@@ -1125,7 +1269,11 @@
           "as": "Brother"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "N is M's mother and O is N's husband, so O is M's father.",
+        "as": "N হৈছে M ৰ মাতৃ আৰু O হৈছে N ৰ স্বামী, গতিকে O, M ৰ পিতৃ।"
+      }
     },
     {
       "type": "pointing",
@@ -1155,7 +1303,11 @@
           "as": "Grandmother"
         }
       ],
-      "a": "A"
+      "a": "B",
+      "explanation": {
+        "en": "The woman's brother is Rakesh's father, so she is the sister of Rakesh's father — his aunt.",
+        "as": "মহিলাগৰাকীৰ ভাই হৈছে ৰাকেশৰ পিতৃ, গতিকে তেওঁ ৰাকেশৰ পিতৃৰ ভনী — তেওঁৰ পেহী/খুড়ী।"
+      }
     },
     {
       "type": "statement",
@@ -1185,7 +1337,11 @@
           "as": "Brother"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "A is B's daughter, so B is A's father; C is B's brother, so C is A's uncle.",
+        "as": "A হৈছে B ৰ জীয়ৰী, গতিকে B, A ৰ পিতৃ; C হৈছে B ৰ ভাই, গতিকে C, A ৰ খুড়া/জেঠা।"
+      }
     },
     {
       "type": "pointing",
@@ -1215,7 +1371,11 @@
           "as": "Nephew"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "My father's son can be myself or my brother; among the options, the correct relation is brother.",
+        "as": "মোৰ পিতৃৰ পুত্র মই নিজেই বা মোৰ ভাই; বিকল্পসমূহৰ ভিতৰত শুদ্ধ সম্পৰ্কটো হৈছে ভাই।"
+      }
     }
   ]
 }

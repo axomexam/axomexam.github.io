@@ -45,7 +45,11 @@
           "as": "FOI"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter moves one step forward (CAT -> DBU), so DOG -> EPH (D->E, O->P, G->H).",
+        "as": "প্ৰতিটো বৰ্ণ এটা স্থান আগুৱায় (CAT -> DBU)। সেয়ে DOG -> EPH (D->E, O->P, G->H)।"
+      }
     },
     {
       "type": "letter_shift",
@@ -75,7 +79,11 @@
           "as": "HKTN"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Every letter is shifted +1 (BOY -> CPZ). GIRL -> HJSM (G->H, I->J, R->S, L->M).",
+        "as": "প্ৰতিটো বৰ্ণ এটা স্থান আগুৱাই কোড কৰা হয় (BOY -> CPZ)। GIRL -> HJSM (G->H, I->J, R->S, L->M)।"
+      }
     },
     {
       "type": "letter_shift",
@@ -105,7 +113,11 @@
           "as": "GMPXGS"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Each letter is shifted +1: HOUSE -> IPVTF, so FLOWER -> GMPXFS (option B).",
+        "as": "প্ৰতিটো বৰ্ণ +1 কৰা হয়: HOUSE -> IPVTF, সেয়ে FLOWER -> GMPXFS, উত্তৰ B।"
+      }
     },
     {
       "type": "letter_shift",
@@ -135,7 +147,11 @@
           "as": "UINF"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter is shifted +1 (GOOD -> HPPE), so TIME -> UJNF (T->U, I->J, M->N, E->F).",
+        "as": "প্ৰতিটো বৰ্ণ +1 কৰা হয় (GOOD -> HPPE), সেয়ে TIME -> UJNF (T->U, I->J, M->N, E->F)।"
+      }
     },
     {
       "type": "letter_shift",
@@ -165,7 +181,11 @@
           "as": "NBPHP"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Each letter is shifted +1; MANGO -> NBOHP (M->N, A->B, N->O, G->H, O->P).",
+        "as": "প্ৰতিটো বৰ্ণ +1 কৰা হয়; MANGO -> NBOHP (M->N, A->B, N->O, G->H, O->P)।"
+      }
     },
     {
       "type": "letter_shift",
@@ -195,7 +215,11 @@
           "as": "EQIIGG"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter is shifted +2 (TEA -> VGC), so COFFEE -> EQHHGG (C->E, O->Q, F->H, F->H, E->G, E->G).",
+        "as": "প্ৰতিটো বৰ্ণ দুটা স্থান আগুৱাই (+2) কোড কৰা হয় (TEA -> VGC), সেয়ে COFFEE -> EQHHGG।"
+      }
     },
     {
       "type": "letter_shift",
@@ -225,7 +249,11 @@
           "as": "HSJBGFG"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter is shifted +1 (MONKEY -> NPOLFZ), so GIRAFFE -> HJSBGGF.",
+        "as": "প্ৰতিটো বৰ্ণ +1 কৰা হয় (MONKEY -> NPOLFZ), সেয়ে GIRAFFE -> HJSBGGF।"
+      }
     },
     {
       "type": "reverse",
@@ -255,7 +283,11 @@
           "as": "OVLE"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "The reverse alphabet is used (A<->Z); DEAR -> WVIZ, so LOVE -> OLEV (L->O, O->L, V->E, E->V).",
+        "as": "বিপৰীত বৰ্ণমালা ব্যৱহাৰ কৰা হয় (A<->Z); DEAR -> WVIZ, সেয়ে LOVE -> OLEV (L->O, O->L, V->E, E->V)।"
+      }
     },
     {
       "type": "reverse",
@@ -285,7 +317,11 @@
           "as": "XZW"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter is replaced by its opposite (A<->Z): DOG -> WLT, so CAT -> XZG.",
+        "as": "প্ৰতিটো বৰ্ণৰ বিপৰীত বৰ্ণ লোৱা হয় (A<->Z): DOG -> WLT, সেয়ে CAT -> XZG।"
+      }
     },
     {
       "type": "position",
@@ -315,7 +351,11 @@
           "as": "321"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Letters are written by their positions: C=3, A=1, T=20, so CAT -> 3120.",
+        "as": "আখৰবোৰৰ স্থান সংখ্যা লিখা হয়: C=3, A=1, T=20, সেয়ে CAT -> 3120।"
+      }
     },
     {
       "type": "position",
@@ -345,7 +385,11 @@
           "as": "1815196"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Positions of letters are written in order: R=18, O=15, S=19, E=5, so ROSE -> 1815195.",
+        "as": "আখৰবোৰৰ স্থান সংখ্যা ক্ৰমে লিখা হয়: R=18, O=15, S=19, E=5, সেয়ে ROSE -> 1815195।"
+      }
     },
     {
       "type": "position",
@@ -375,7 +419,11 @@
           "as": "৫৫"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "The positions are added: SUN = 19+21+14 = 54, so MOON = 13+15+15+14 = 57.",
+        "as": "স্থান সংখ্যাবোৰ যোগ কৰা হয়: SUN = 19+21+14 = 54, সেয়ে MOON = 13+15+15+14 = 57।"
+      }
     },
     {
       "type": "position",
@@ -405,7 +453,11 @@
           "as": "245"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Using A=1, B=2, ..., BED -> B=2, E=5, D=4, i.e. 254.",
+        "as": "A=1, B=2 ধৰি, BED -> B=2, E=5, D=4, অৰ্থাৎ 254।"
+      }
     },
     {
       "type": "position",
@@ -435,7 +487,11 @@
           "as": "615"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Using letter positions, G=7 and O=15, so GO -> 715.",
+        "as": "আখৰৰ স্থান অনুসৰি G=7 আৰু O=15, সেয়ে GO -> 715।"
+      }
     },
     {
       "type": "reverse_position",
@@ -465,7 +521,11 @@
           "as": "24122"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Reverse positions are used (A=26, B=25, ...): BOY -> B=25, O=12, Y=2 = 25122.",
+        "as": "বিপৰীত স্থান ব্যৱহাৰ কৰা হয় (A=26, B=25, ...): BOY -> B=25, O=12, Y=2 = 25122।"
+      }
     },
     {
       "type": "jumbled",
@@ -495,7 +555,11 @@
           "as": "TELANP"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The word is simply reversed; PLANET -> TENALP.",
+        "as": "শব্দটো কেৱল ওলোটাই লিখা হয়; PLANET -> TENALP।"
+      }
     },
     {
       "type": "jumbled",
@@ -525,7 +589,11 @@
           "as": "GNINOMR"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The letters are reversed; MORNING -> GNINROM.",
+        "as": "বৰ্ণবোৰ ওলোটাই দিয়া হয়; MORNING -> GNINROM।"
+      }
     },
     {
       "type": "word_code",
@@ -555,7 +623,11 @@
           "as": "KOL"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter is shifted +1 (PEN -> QFO); INK -> JOL (I->J, N->O, K->L).",
+        "as": "প্ৰতিটো বৰ্ণ +1 কৰা হয় (PEN -> QFO); INK -> JOL (I->J, N->O, K->L)।"
+      }
     },
     {
       "type": "word_code",
@@ -585,7 +657,11 @@
           "as": "MBEF"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter is shifted +1 (BOOK -> CPPL); MADE -> NBEF (M->N, A->B, D->E, E->F).",
+        "as": "প্ৰতিটো বৰ্ণ +1 কৰা হয় (BOOK -> CPPL); MADE -> NBEF (M->N, A->B, D->E, E->F)।"
+      }
     },
     {
       "type": "word_code",
@@ -615,7 +691,11 @@
           "as": "SQPD"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Each letter is shifted -1 (ROSE -> QNRD); TREE -> SQDD (T->S, R->Q, E->D, E->D).",
+        "as": "প্ৰতিটো বৰ্ণ -1 কৰা হয় (ROSE -> QNRD); TREE -> SQDD (T->S, R->Q, E->D, E->D)।"
+      }
     },
     {
       "type": "word_code",
@@ -645,7 +725,11 @@
           "as": "3161"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Letters are coded by position (B=2, A=1, G=7); CAP -> C=3, A=1, P=16 = 3116.",
+        "as": "আখৰবোৰ স্থান অনুসৰি কোড কৰা হয় (B=2, A=1, G=7); CAP -> C=3, A=1, P=16 = 3116।"
+      }
     },
     {
       "type": "letter_shift",
@@ -675,7 +759,11 @@
           "as": "CMUF"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter is shifted +1 (RED -> SFE); BLUE -> CMVF.",
+        "as": "প্ৰতিটো বৰ্ণ +1 কৰা হয় (RED -> SFE); BLUE -> CMVF।"
+      }
     },
     {
       "type": "letter_shift",
@@ -705,7 +793,11 @@
           "as": "QMBY"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter is shifted +1 (WORK -> XPSL); PLAY -> QMBZ (P->Q, L->M, A->B, Y->Z).",
+        "as": "প্ৰতিটো বৰ্ণ +1 কৰা হয় (WORK -> XPSL); PLAY -> QMBZ (P->Q, L->M, A->B, Y->Z)।"
+      }
     },
     {
       "type": "letter_shift",
@@ -735,7 +827,11 @@
           "as": "VIMC"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter is shifted -1 (GAME -> FZLD); WIND -> VHMC.",
+        "as": "প্ৰতিটো বৰ্ণ -1 কৰা হয় (GAME -> FZLD); WIND -> VHMC।"
+      }
     },
     {
       "type": "letter_shift",
@@ -765,7 +861,11 @@
           "as": "XQSMF"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter is shifted +1 (HELLO -> IFMMP); WORLD -> XPSME.",
+        "as": "প্ৰতিটো বৰ্ণ +1 কৰা হয় (HELLO -> IFMMP); WORLD -> XPSME।"
+      }
     },
     {
       "type": "letter_shift",
@@ -795,7 +895,11 @@
           "as": "NQPFZ"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter is shifted +1 (FLOWER -> GMPXFS); MONEY -> NPOFZ.",
+        "as": "প্ৰতিটো বৰ্ণ +1 কৰা হয় (FLOWER -> GMPXFS); MONEY -> NPOFZ।"
+      }
     },
     {
       "type": "position",
@@ -825,7 +929,11 @@
           "as": "41"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The position values are added: C+A+N+D+L+E = 3+1+14+4+12+5 = 39.",
+        "as": "স্থান সংখ্যাবোৰ যোগ কৰা হয়: C+A+N+D+L+E = 3+1+14+4+12+5 = 39।"
+      }
     },
     {
       "type": "position",
@@ -855,7 +963,11 @@
           "as": "4158"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Letters are coded by position (M=13, A=1, T=20); DOG -> 4, 15, 7 = 4157.",
+        "as": "আখৰবোৰ স্থান অনুসৰি কোড কৰা হয় (M=13, A=1, T=20); DOG -> 4, 15, 7 = 4157।"
+      }
     },
     {
       "type": "position",
@@ -885,7 +997,11 @@
           "as": "245"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Letters are coded by position (P=16, E=5, N=14); BED -> 2, 5, 4 = 254.",
+        "as": "আখৰবোৰ স্থান অনুসৰি কোড কৰা হয় (P=16, E=5, N=14); BED -> 2, 5, 4 = 254।"
+      }
     },
     {
       "type": "letter_shift",
@@ -915,7 +1031,11 @@
           "as": "ERIHH"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter is shifted +3 (TEA -> WHD); COFFEE -> FRIHH.",
+        "as": "প্ৰতিটো বৰ্ণ +3 কৰা হয় (TEA -> WHD); COFFEE -> FRIHH।"
+      }
     },
     {
       "type": "letter_shift",
@@ -945,7 +1065,11 @@
           "as": "NPROJOH"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter is shifted +1; MORNING -> NPSOJOH.",
+        "as": "প্ৰতিটো বৰ্ণ +1 কৰা হয়; MORNING -> NPSOJOH।"
+      }
     },
     {
       "type": "letter_shift",
@@ -975,7 +1099,11 @@
           "as": "DQUUPO"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter is shifted +1 (SILK -> TLML); COTTON -> DPUUPO.",
+        "as": "প্ৰতিটো বৰ্ণ +1 কৰা হয় (SILK -> TLML); COTTON -> DPUUPO।"
+      }
     },
     {
       "type": "reverse",
@@ -1005,7 +1133,11 @@
           "as": "DTRGV"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The reverse alphabet is used (A<->Z): BLACK -> YOZXP, so WHITE -> DSRGV.",
+        "as": "বিপৰীত বৰ্ণমালা ব্যৱহাৰ কৰা হয় (A<->Z): BLACK -> YOZXP, সেয়ে WHITE -> DSRGV।"
+      }
     },
     {
       "type": "reverse",
@@ -1035,7 +1167,11 @@
           "as": "TMLW"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter is replaced by its opposite (A=Z, B=Y): GOOD -> TLLW.",
+        "as": "প্ৰতিটো বৰ্ণৰ বিপৰীত বৰ্ণ লোৱা হয় (A=Z, B=Y): GOOD -> TLLW।"
+      }
     },
     {
       "type": "position",
@@ -1065,7 +1201,11 @@
           "as": "86"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The letter positions are added: SPORT = 19+16+15+18+20 = 88.",
+        "as": "আখৰৰ স্থান সংখ্যাবোৰ যোগ কৰা হয়: SPORT = 19+16+15+18+20 = 88।"
+      }
     },
     {
       "type": "position",
@@ -1095,7 +1235,11 @@
           "as": "26"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The positions are added (RAT = 18+1+20 = 39); CAT -> 3+1+20 = 24.",
+        "as": "স্থান সংখ্যাবোৰ যোগ কৰা হয় (RAT = 18+1+20 = 39); CAT -> 3+1+20 = 24।"
+      }
     },
     {
       "type": "letter_shift",
@@ -1125,7 +1269,11 @@
           "as": "GFDSVBZ"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter is shifted +1 (JANUARY -> KBOVBSZ); FEBRUARY -> GFCSVBZ.",
+        "as": "প্ৰতিটো বৰ্ণ +1 কৰা হয় (JANUARY -> KBOVBSZ); FEBRUARY -> GFCSVBZ।"
+      }
     }
   ]
 }

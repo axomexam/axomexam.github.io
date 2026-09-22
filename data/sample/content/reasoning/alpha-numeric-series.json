@@ -45,7 +45,11 @@
           "as": "D5"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The letters increase by one (A, B, C, D, E) and the numbers increase by one (1, 2, 3, 4, 5), so the next term is E5.",
+        "as": "বৰ্ণবোৰ এটা এটাকৈ বাঢ়িছে (A, B, C, D, E) আৰু সংখ্যাবোৰো এটা এটাকৈ বাঢ়িছে (1, 2, 3, 4, 5), গতিকে পৰৱৰ্তী পদটো E5।"
+      }
     },
     {
       "type": "letter_number",
@@ -75,7 +79,11 @@
           "as": "J10"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Both the letters and the numbers increase by 2 (A, C, E, G, I and 2, 4, 6, 8, 10), so the next term is I10.",
+        "as": "বৰ্ণ আৰু সংখ্যা দুয়োটা 2 কৰি বাঢ়িছে (A, C, E, G, I আৰু 2, 4, 6, 8, 10), গতিকে পৰৱৰ্তী পদটো I10।"
+      }
     },
     {
       "type": "letter_number",
@@ -105,7 +113,11 @@
           "as": "U21"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The letters move one step backward (Z, Y, X, W, V) and the numbers decrease by 1 (26, 25, 24, 23, 22), so the next term is V22.",
+        "as": "বৰ্ণবোৰ এটা এটাকৈ পিছলৈ গৈছে (Z, Y, X, W, V) আৰু সংখ্যাবোৰ 1 কৰি কমিছে (26, 25, 24, 23, 22), গতিকে পৰৱৰ্তী পদটো V22।"
+      }
     },
     {
       "type": "letter_number",
@@ -135,7 +147,11 @@
           "as": "6F"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "The number increases by 1 and the letter moves one step forward (1A, 2B, 3C, 4D, 5E), so the next term is 5E.",
+        "as": "সংখ্যাটো 1 কৰি বাঢ়িছে আৰু বৰ্ণটো এটা আগবাঢ়িছে (1A, 2B, 3C, 4D, 5E), গতিকে পৰৱৰ্তী পদটো 5E।"
+      }
     },
     {
       "type": "letter_number",
@@ -165,7 +181,11 @@
           "as": "6U"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "The number increases by 1 while the letter moves one step backward (1Z, 2Y, 3X, 4W, 5V), so the next term is 5V.",
+        "as": "সংখ্যাটো 1 কৰি বাঢ়িছে কিন্তু বৰ্ণটো এটা পিছলৈ গৈছে (1Z, 2Y, 3X, 4W, 5V), গতিকে পৰৱৰ্তী পদটো 5V।"
+      }
     },
     {
       "type": "letter_number",
@@ -195,7 +215,11 @@
           "as": "R18"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Both the letter and the number increase by 1 (M13, N14, O15, P16, Q17), so the next term is Q17.",
+        "as": "বৰ্ণ আৰু সংখ্যা দুয়োটা 1 কৰি বাঢ়িছে (M13, N14, O15, P16, Q17), গতিকে পৰৱৰ্তী পদটো Q17।"
+      }
     },
     {
       "type": "mixed",
@@ -225,7 +249,11 @@
           "as": "E10"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The letters increase by 1 while the numbers increase by 2, giving the odd numbers (1, 3, 5, 7, 9), so the next term is E9.",
+        "as": "বৰ্ণবোৰ 1 কৰি বাঢ়িছে আৰু সংখ্যাবোৰ 2 কৰি বাঢ়ি অযুগ্ম সংখ্যা হৈছে (1, 3, 5, 7, 9), গতিকে পৰৱৰ্তী পদটো E9।"
+      }
     },
     {
       "type": "mixed",
@@ -255,7 +283,11 @@
           "as": "J12"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "The letters jump by 2 (B, D, F, H, J) and the numbers also increase by 2 (2, 4, 6, 8, 10), so the next term is J10.",
+        "as": "বৰ্ণবোৰ 2 কৰি আগবাঢ়িছে (B, D, F, H, J) আৰু সংখ্যাবোৰো 2 কৰি বাঢ়িছে (2, 4, 6, 8, 10), গতিকে পৰৱৰ্তী পদটো J10।"
+      }
     },
     {
       "type": "mixed",
@@ -285,7 +317,11 @@
           "as": "H9I"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "In each term the first letter, the number and the last letter all increase by 2 (A1B, C3D, E5F, G7H, I9J), so the next term is I9J.",
+        "as": "প্ৰতিটো পদত প্ৰথম বৰ্ণ, সংখ্যা আৰু শেষৰ বৰ্ণ তিনিওটা 2 কৰি বাঢ়িছে (A1B, C3D, E5F, G7H, I9J), গতিকে পৰৱৰ্তী পদটো I9J।"
+      }
     },
     {
       "type": "mixed",
@@ -315,7 +351,11 @@
           "as": "7D9"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The first and last numbers increase by 2 while the middle letter moves one step forward (1A2, 3B4, 5C6, 7D8), so the next term is 7D8.",
+        "as": "প্ৰথম আৰু শেষৰ সংখ্যা 2 কৰি বাঢ়িছে আৰু মাজৰ বৰ্ণটো এটা আগবাঢ়িছে (1A2, 3B4, 5C6, 7D8), গতিকে পৰৱৰ্তী পদটো 7D8।"
+      }
     },
     {
       "type": "mixed",
@@ -345,7 +385,11 @@
           "as": "J25"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The letters increase by 2 and the numbers are perfect squares (1, 4, 9, 16, 25), so the next term is I25.",
+        "as": "বৰ্ণবোৰ 2 কৰি বাঢ়িছে আৰু সংখ্যাবোৰ পূৰ্ণবৰ্গ (1, 4, 9, 16, 25), গতিকে পৰৱৰ্তী পদটো I25।"
+      }
     },
     {
       "type": "mixed",
@@ -375,7 +419,11 @@
           "as": "9I"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The numbers increase by 2 and the letters jump by 2 (2A, 4C, 6E, 8G, 10I), so the next term is 10I.",
+        "as": "সংখ্যাবোৰ 2 কৰি বাঢ়িছে আৰু বৰ্ণবোৰ 2 কৰি আগবাঢ়িছে (2A, 4C, 6E, 8G, 10I), গতিকে পৰৱৰ্তী পদটো 10I।"
+      }
     },
     {
       "type": "pattern",
@@ -405,7 +453,11 @@
           "as": "L11"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The letters gain one more step each time (A, B, D, G, K) and the numbers differ by 1, 2, 3, 4 (1, 2, 4, 7, 11), so the next term is K11.",
+        "as": "বৰ্ণবোৰৰ জাঁপ ক্ৰমে এটা বাঢ়িছে (A, B, D, G, K) আৰু সংখ্যাবোৰৰ পাৰ্থক্য 1, 2, 3, 4 (1, 2, 4, 7, 11), গতিকে পৰৱৰ্তী পদটো K11।"
+      }
     },
     {
       "type": "pattern",
@@ -435,7 +487,11 @@
           "as": "Q5"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The letters move two steps backward (Z, X, V, T, R) and the numbers decrease by 1 (9, 8, 7, 6, 5), so the next term is R5.",
+        "as": "বৰ্ণবোৰ দুটা কৰি পিছলৈ গৈছে (Z, X, V, T, R) আৰু সংখ্যাবোৰ 1 কৰি কমিছে (9, 8, 7, 6, 5), গতিকে পৰৱৰ্তী পদটো R5।"
+      }
     },
     {
       "type": "pattern",
@@ -465,7 +521,11 @@
           "as": "G18"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "The letters decrease by 2 (P, N, L, J, H) while the numbers increase by 4 (4, 8, 12, 16, 20), so the next term is H20.",
+        "as": "বৰ্ণবোৰ 2 কৰি কমিছে (P, N, L, J, H) আৰু সংখ্যাবোৰ 4 কৰি বাঢ়িছে (4, 8, 12, 16, 20), গতিকে পৰৱৰ্তী পদটো H20।"
+      }
     },
     {
       "type": "mixed",
@@ -495,7 +555,11 @@
           "as": "D25"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The letters move one step forward and the numbers are perfect squares (A1, B4, C9, D16, E25), so the next term is E25.",
+        "as": "বৰ্ণবোৰ এটা আগবাঢ়িছে আৰু সংখ্যাবোৰ পূৰ্ণবৰ্গ (A1, B4, C9, D16, E25), গতিকে পৰৱৰ্তী পদটো E25।"
+      }
     },
     {
       "type": "mixed",
@@ -525,7 +589,11 @@
           "as": "M12"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "The letters increase by 3 (A, D, G, J, M) and the numbers increase by 2 (2, 4, 6, 8, 10), so the next term is M10.",
+        "as": "বৰ্ণবোৰ 3 কৰি বাঢ়িছে (A, D, G, J, M) আৰু সংখ্যাবোৰ 2 কৰি বাঢ়িছে (2, 4, 6, 8, 10), গতিকে পৰৱৰ্তী পদটো M10।"
+      }
     },
     {
       "type": "mixed",
@@ -555,7 +623,11 @@
           "as": "8S"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "The numbers increase by 2 (1, 3, 5, 7, 9) while the letters move two steps backward (Z, X, V, T, R), so the next term is 9R.",
+        "as": "সংখ্যাবোৰ 2 কৰি বাঢ়িছে (1, 3, 5, 7, 9) আৰু বৰ্ণবোৰ দুটা কৰি পিছলৈ গৈছে (Z, X, V, T, R), গতিকে পৰৱৰ্তী পদটো 9R।"
+      }
     },
     {
       "type": "mixed",
@@ -585,7 +657,11 @@
           "as": "M15"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Both the letters and the numbers increase by 3 (B2, E5, H8, K11, N14), so the next term is N14.",
+        "as": "বৰ্ণ আৰু সংখ্যা দুয়োটা 3 কৰি বাঢ়িছে (B2, E5, H8, K11, N14), গতিকে পৰৱৰ্তী পদটো N14।"
+      }
     },
     {
       "type": "mixed",
@@ -615,7 +691,11 @@
           "as": "H6"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The letters jump by 2 (A, C, E, G, I) and the numbers increase by 1 (1, 2, 3, 4, 5), so the next term is I5.",
+        "as": "বৰ্ণবোৰ 2 কৰি আগবাঢ়িছে (A, C, E, G, I) আৰু সংখ্যাবোৰ 1 কৰি বাঢ়িছে (1, 2, 3, 4, 5), গতিকে পৰৱৰ্তী পদটো I5।"
+      }
     },
     {
       "type": "mixed",
@@ -645,7 +725,11 @@
           "as": "U6"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The letters move one step backward (Z, Y, X, W, V) and the numbers increase by 1 (1, 2, 3, 4, 5), so the next term is V5.",
+        "as": "বৰ্ণবোৰ এটা এটাকৈ পিছলৈ গৈছে (Z, Y, X, W, V) আৰু সংখ্যাবোৰ 1 কৰি বাঢ়িছে (1, 2, 3, 4, 5), গতিকে পৰৱৰ্তী পদটো V5।"
+      }
     },
     {
       "type": "mixed",
@@ -675,7 +759,11 @@
           "as": "6H"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The numbers increase by 1 (1, 2, 3, 4, 5) and the letters jump by 2 (A, C, E, G, I), so the next term is 5I.",
+        "as": "সংখ্যাবোৰ 1 কৰি বাঢ়িছে (1, 2, 3, 4, 5) আৰু বৰ্ণবোৰ 2 কৰি আগবাঢ়িছে (A, C, E, G, I), গতিকে পৰৱৰ্তী পদটো 5I।"
+      }
     },
     {
       "type": "mixed",
@@ -705,7 +793,11 @@
           "as": "E16"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The letters increase by 1 while the numbers grow by 2, 3, 4, 5 (1, 3, 6, 10, 15), so the next term is E15.",
+        "as": "বৰ্ণবোৰ 1 কৰি বাঢ়িছে আৰু সংখ্যাবোৰ 2, 3, 4, 5 কৰি বাঢ়িছে (1, 3, 6, 10, 15), গতিকে পৰৱৰ্তী পদটো E15।"
+      }
     },
     {
       "type": "mixed",
@@ -735,7 +827,11 @@
           "as": "V8"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "The letters gain one more step each time (M, N, P, S, W) and the numbers increase by 2 (1, 3, 5, 7, 9), so the next term is W9.",
+        "as": "বৰ্ণবোৰৰ জাঁপ ক্ৰমে এটা বাঢ়িছে (M, N, P, S, W) আৰু সংখ্যাবোৰ 2 কৰি বাঢ়িছে (1, 3, 5, 7, 9), গতিকে পৰৱৰ্তী পদটো W9।"
+      }
     },
     {
       "type": "mixed",
@@ -765,7 +861,11 @@
           "as": "J6"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The letters jump by 2 (A, C, E, G, I) and the numbers decrease by 1 (10, 9, 8, 7, 6), so the next term is I6.",
+        "as": "বৰ্ণবোৰ 2 কৰি আগবাঢ়িছে (A, C, E, G, I) আৰু সংখ্যাবোৰ 1 কৰি কমিছে (10, 9, 8, 7, 6), গতিকে পৰৱৰ্তী পদটো I6।"
+      }
     },
     {
       "type": "letter_number",
@@ -795,7 +895,11 @@
           "as": "F8"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The letters increase by 1 and the numbers increase by 2, giving the odd numbers (A1, B3, C5, D7, E9), so the next term is E9.",
+        "as": "বৰ্ণবোৰ 1 কৰি বাঢ়িছে আৰু সংখ্যাবোৰ 2 কৰি বাঢ়ি অযুগ্ম সংখ্যা হৈছে (A1, B3, C5, D7, E9), গতিকে পৰৱৰ্তী পদটো E9।"
+      }
     },
     {
       "type": "letter_number",
@@ -825,7 +929,11 @@
           "as": "6I"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The number increases by 1 and the letter jumps by 2 (1B, 2D, 3F, 4H, 5J), so the next term is 5J.",
+        "as": "সংখ্যাটো 1 কৰি বাঢ়িছে আৰু বৰ্ণটো 2 কৰি আগবাঢ়িছে (1B, 2D, 3F, 4H, 5J), গতিকে পৰৱৰ্তী পদটো 5J।"
+      }
     },
     {
       "type": "letter_number",
@@ -855,7 +963,11 @@
           "as": "U8"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The letters move one step backward (Z, Y, X, W, V) while the numbers increase by 2 (1, 3, 5, 7, 9), so the next term is V9.",
+        "as": "বৰ্ণবোৰ এটা এটাকৈ পিছলৈ গৈছে (Z, Y, X, W, V) আৰু সংখ্যাবোৰ 2 কৰি বাঢ়িছে (1, 3, 5, 7, 9), গতিকে পৰৱৰ্তী পদটো V9।"
+      }
     },
     {
       "type": "pattern",
@@ -885,7 +997,11 @@
           "as": "J30"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The letters gain one extra step each time (A, B, D, G, K) and the numbers double (2, 4, 8, 16, 32), so the next term is K32.",
+        "as": "বৰ্ণবোৰৰ জাঁপ ক্ৰমে এটা বাঢ়িছে (A, B, D, G, K) আৰু সংখ্যাবোৰ দুগুণ হৈছে (2, 4, 8, 16, 32), গতিকে পৰৱৰ্তী পদটো K32।"
+      }
     }
   ]
 }

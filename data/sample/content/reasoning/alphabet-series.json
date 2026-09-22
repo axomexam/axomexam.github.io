@@ -45,7 +45,11 @@
           "as": "K"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Each letter skips one letter and moves two steps forward (A, C, E, G, I), so the next letter is I.",
+        "as": "প্ৰতিটো বৰ্ণে এটা বৰ্ণ এৰি দুটা আগবাঢ়িছে (A, C, E, G, I), গতিকে পৰৱৰ্তী বৰ্ণটো I।"
+      }
     },
     {
       "type": "forward",
@@ -75,7 +79,11 @@
           "as": "L"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Each letter moves two steps forward (B, D, F, H, J), so the next letter is J.",
+        "as": "প্ৰতিটো বৰ্ণ দুটা কৰি আগবাঢ়িছে (B, D, F, H, J), গতিকে পৰৱৰ্তী বৰ্ণটো J।"
+      }
     },
     {
       "type": "forward",
@@ -105,7 +113,11 @@
           "as": "N"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter moves three steps forward (A, D, G, J, M), so the next letter is M.",
+        "as": "প্ৰতিটো বৰ্ণ তিনিটা কৰি আগবাঢ়িছে (A, D, G, J, M), গতিকে পৰৱৰ্তী বৰ্ণটো M।"
+      }
     },
     {
       "type": "forward",
@@ -135,7 +147,11 @@
           "as": "P"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Each letter moves three steps forward (C, F, I, L, O), so the next letter is O.",
+        "as": "প্ৰতিটো বৰ্ণ তিনিটা কৰি আগবাঢ়িছে (C, F, I, L, O), গতিকে পৰৱৰ্তী বৰ্ণটো O।"
+      }
     },
     {
       "type": "forward",
@@ -165,7 +181,11 @@
           "as": "T"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter moves two steps forward (J, L, N, P, R), so the next letter is R.",
+        "as": "প্ৰতিটো বৰ্ণ দুটা কৰি আগবাঢ়িছে (J, L, N, P, R), গতিকে পৰৱৰ্তী বৰ্ণটো R।"
+      }
     },
     {
       "type": "backward",
@@ -195,7 +215,11 @@
           "as": "P"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Each letter moves two steps backward (Z, X, V, T, R), so the next letter is R.",
+        "as": "প্ৰতিটো বৰ্ণ দুটা কৰি পিছলৈ গৈছে (Z, X, V, T, R), গতিকে পৰৱৰ্তী বৰ্ণটো R।"
+      }
     },
     {
       "type": "backward",
@@ -225,7 +249,11 @@
           "as": "S"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter moves one step backward (Z, Y, X, W, V), so the next letter is V.",
+        "as": "প্ৰতিটো বৰ্ণ এটা কৰি পিছলৈ গৈছে (Z, Y, X, W, V), গতিকে পৰৱৰ্তী বৰ্ণটো V।"
+      }
     },
     {
       "type": "backward",
@@ -255,7 +283,11 @@
           "as": "L"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Each letter moves four steps backward (Z, V, R, N, J), so the next letter is J.",
+        "as": "প্ৰতিটো বৰ্ণ চাৰিটা কৰি পিছলৈ গৈছে (Z, V, R, N, J), গতিকে পৰৱৰ্তী বৰ্ণটো J।"
+      }
     },
     {
       "type": "mixed",
@@ -285,7 +317,11 @@
           "as": "V"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "The series alternates: A, B, C move forward while Z, Y move backward, so after C comes X.",
+        "as": "শৃংখলাটোৱে পৰ্যায়ক্ৰমে চলে: A, B, C আগবাঢ়ে আৰু Z, Y পিছলৈ যায়, গতিকে C ৰ পিছত X আহে।"
+      }
     },
     {
       "type": "mixed",
@@ -315,7 +351,11 @@
           "as": "U"
         }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "The gaps increase by one each time (+2, +3, +4, +5, +6), so after O comes U.",
+        "as": "পাৰ্থক্য প্ৰতিবাৰে এটা বাঢ়িছে (+2, +3, +4, +5, +6), গতিকে O ৰ পিছত U আহে।"
+      }
     },
     {
       "type": "mixed",
@@ -345,7 +385,11 @@
           "as": "M"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "The gaps increase by one each time (+1, +2, +3, +4, +5), so after K comes P.",
+        "as": "পাৰ্থক্য প্ৰতিবাৰে এটা বাঢ়িছে (+1, +2, +3, +4, +5), গতিকে K ৰ পিছত P আহে।"
+      }
     },
     {
       "type": "mixed",
@@ -375,7 +419,11 @@
           "as": "O"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Each letter moves three steps forward (B, E, H, K, N), so the next letter is N.",
+        "as": "প্ৰতিটো বৰ্ণ তিনিটা কৰি আগবাঢ়িছে (B, E, H, K, N), গতিকে পৰৱৰ্তী বৰ্ণটো N।"
+      }
     },
     {
       "type": "mixed",
@@ -405,7 +453,11 @@
           "as": "U"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Each letter moves four steps forward (D, H, L, P, T), so the next letter is T.",
+        "as": "প্ৰতিটো বৰ্ণ চাৰিটা কৰি আগবাঢ়িছে (D, H, L, P, T), গতিকে পৰৱৰ্তী বৰ্ণটো T।"
+      }
     },
     {
       "type": "pair",
@@ -435,7 +487,11 @@
           "as": "EX"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "In each pair the first letter moves one step forward while the second moves one step backward (AZ, BY, CX, DW, EV), so the next pair is EV.",
+        "as": "প্ৰতিটো যোড়ত প্ৰথম বৰ্ণ এটা আগবাঢ়ে আৰু দ্বিতীয়টো এটা পিছলৈ যায় (AZ, BY, CX, DW, EV), গতিকে পৰৱৰ্তী যোড়টো EV।"
+      }
     },
     {
       "type": "triplet",
@@ -465,7 +521,11 @@
           "as": "EHJ"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "In each triplet every letter is one step ahead of the same letter in the previous triplet, so after DFH comes EGI.",
+        "as": "প্ৰতিটো ত্ৰি-বৰ্ণত প্ৰতিটো আখৰ আগৰ ত্ৰি-বৰ্ণৰ একে আখৰতকৈ এটা আগত, গতিকে DFH ৰ পিছত EGI আহে।"
+      }
     },
     {
       "type": "triplet",
@@ -495,7 +555,11 @@
           "as": "IK"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "The pairs are consecutive letters advancing by two (AB, CD, EF, GH, IJ), so the next pair is IJ.",
+        "as": "যোড়বোৰ ক্ৰমিক বৰ্ণ আৰু দুটা কৰি আগবাঢ়িছে (AB, CD, EF, GH, IJ), গতিকে পৰৱৰ্তী যোড়টো IJ।"
+      }
     },
     {
       "type": "triplet",
@@ -525,7 +589,11 @@
           "as": "RQP"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each triplet is three consecutive letters in reverse, and each new triplet starts three letters before the previous one (ZYX, WVU, TSR, QPO).",
+        "as": "প্ৰতিটো ত্ৰি-বৰ্ণ ওলোটা ক্ৰমত তিনিটা ক্ৰমিক বৰ্ণ, আৰু প্ৰতিটো নতুন ত্ৰি-বৰ্ণ আগৰটোতকৈ তিনি আখৰ আগত আৰম্ভ হয় (ZYX, WVU, TSR, QPO)।"
+      }
     },
     {
       "type": "position",
@@ -555,7 +623,11 @@
           "as": "W"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "The gaps are +4, +5, +7 and +9 (A to E to J to Q to Z), so the next letter is Z.",
+        "as": "পাৰ্থক্যবোৰ +4, +5, +7 আৰু +9 (A ৰ পৰা E, J, Q, Z), গতিকে পৰৱৰ্তী বৰ্ণটো Z।"
+      }
     },
     {
       "type": "position",
@@ -585,7 +657,11 @@
           "as": "T"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter moves one step forward (M, N, O, P, Q), so the next letter is Q.",
+        "as": "প্ৰতিটো বৰ্ণ এটা কৰি আগবাঢ়িছে (M, N, O, P, Q), গতিকে পৰৱৰ্তী বৰ্ণটো Q।"
+      }
     },
     {
       "type": "skip",
@@ -615,7 +691,11 @@
           "as": "F"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "The letters move two steps forward (A, C, E, G, I), so the missing letter is C.",
+        "as": "বৰ্ণবোৰ দুটা কৰি আগবাঢ়িছে (A, C, E, G, I), গতিকে অনুপস্থিত বৰ্ণটো C।"
+      }
     },
     {
       "type": "skip",
@@ -645,7 +725,11 @@
           "as": "DE"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Each pair's second letter is two steps after the first (A to C, C to E, F to H, G to J), so the missing pair between AC and FH is CE.",
+        "as": "প্ৰতিটো যোড়ৰ দ্বিতীয় বৰ্ণ প্ৰথমটোৰ দুটা পিছত (A ৰ পৰা C, C ৰ পৰা E, F ৰ পৰা H, G ৰ পৰা J), গতিকে AC আৰু FH ৰ মাজৰ অনুপস্থিত যোড়টো CE।"
+      }
     },
     {
       "type": "backward",
@@ -675,7 +759,11 @@
           "as": "T"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter moves two steps backward (Y, W, U, S, Q), so the next letter is Q.",
+        "as": "প্ৰতিটো বৰ্ণ দুটা কৰি পিছলৈ গৈছে (Y, W, U, S, Q), গতিকে পৰৱৰ্তী বৰ্ণটো Q।"
+      }
     },
     {
       "type": "forward",
@@ -705,7 +793,11 @@
           "as": "U"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Each letter moves four steps forward (D, H, L, P, T), so the next letter is T.",
+        "as": "প্ৰতিটো বৰ্ণ চাৰিটা কৰি আগবাঢ়িছে (D, H, L, P, T), গতিকে পৰৱৰ্তী বৰ্ণটো T।"
+      }
     },
     {
       "type": "forward",
@@ -735,7 +827,11 @@
           "as": "W"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Each letter moves five steps forward (E, J, O, T, Y), so the next letter is Y.",
+        "as": "প্ৰতিটো বৰ্ণ পাঁচটা কৰি আগবাঢ়িছে (E, J, O, T, Y), গতিকে পৰৱৰ্তী বৰ্ণটো Y।"
+      }
     },
     {
       "type": "forward",
@@ -765,7 +861,11 @@
           "as": "S"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Each letter moves five steps forward (A, F, K, P, U), so the next letter is U.",
+        "as": "প্ৰতিটো বৰ্ণ পাঁচটা কৰি আগবাঢ়িছে (A, F, K, P, U), গতিকে পৰৱৰ্তী বৰ্ণটো U।"
+      }
     },
     {
       "type": "forward",
@@ -795,7 +895,11 @@
           "as": "Y"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Each letter moves four steps forward (H, L, P, T, X), so the next letter is X.",
+        "as": "প্ৰতিটো বৰ্ণ চাৰিটা কৰি আগবাঢ়িছে (H, L, P, T, X), গতিকে পৰৱৰ্তী বৰ্ণটো X।"
+      }
     },
     {
       "type": "forward",
@@ -825,7 +929,11 @@
           "as": "X"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Each letter moves two steps forward (N, P, R, T, V), so the next letter is V.",
+        "as": "প্ৰতিটো বৰ্ণ দুটা কৰি আগবাঢ়িছে (N, P, R, T, V), গতিকে পৰৱৰ্তী বৰ্ণটো V।"
+      }
     },
     {
       "type": "backward",
@@ -855,7 +963,11 @@
           "as": "D"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter moves three steps backward (Q, N, K, H, E), so the next letter is E.",
+        "as": "প্ৰতিটো বৰ্ণ তিনিটা কৰি পিছলৈ গৈছে (Q, N, K, H, E), গতিকে পৰৱৰ্তী বৰ্ণটো E।"
+      }
     },
     {
       "type": "forward",
@@ -885,7 +997,11 @@
           "as": "W"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Each letter moves five steps forward (F, K, P, U, Z), so the next letter is Z.",
+        "as": "প্ৰতিটো বৰ্ণ পাঁচটা কৰি আগবাঢ়িছে (F, K, P, U, Z), গতিকে পৰৱৰ্তী বৰ্ণটো Z।"
+      }
     },
     {
       "type": "pair",
@@ -915,7 +1031,11 @@
           "as": "MK"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each pair is two consecutive letters and every term starts four letters after the previous one (AB, EF, IJ, MN), so the next pair is MN.",
+        "as": "প্ৰতিটো যোড় দুটা ক্ৰমিক বৰ্ণ আৰু প্ৰতিটো পদ আগৰটোতকৈ চাৰি আখৰ পিছত আৰম্ভ হয় (AB, EF, IJ, MN), গতিকে পৰৱৰ্তী যোড়টো MN।"
+      }
     },
     {
       "type": "pair",
@@ -945,7 +1065,11 @@
           "as": "OQ"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Every letter of each pair moves five steps forward (A to F to K to P and C to H to M to R), so the next pair is PR.",
+        "as": "প্ৰতিটো যোড়ৰ প্ৰতিটো বৰ্ণ পাঁচটা কৰি আগবাঢ়িছে (A ৰ পৰা F, K, P আৰু C ৰ পৰা H, M, R), গতিকে পৰৱৰ্তী যোড়টো PR।"
+      }
     },
     {
       "type": "pair",
@@ -975,7 +1099,11 @@
           "as": "MS"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The first letters gain alternately 3 and 4 steps (D, G, K, N) while the second letters always gain 4 (F, J, N, R), so the next pair is NR.",
+        "as": "প্ৰথম বৰ্ণবোৰে পৰ্যায়ক্ৰমে 3 আৰু 4 কৰি বাঢ়িছে (D, G, K, N) আৰু দ্বিতীয় বৰ্ণবোৰে সদায় 4 কৰি বাঢ়িছে (F, J, N, R), গতিকে পৰৱৰ্তী যোড়টো NR।"
+      }
     },
     {
       "type": "triplet",
@@ -1005,7 +1133,11 @@
           "as": "DEH"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter of a triplet is one step ahead of the corresponding letter in the previous triplet, so after CDF comes DEG.",
+        "as": "প্ৰতিটো ত্ৰি-বৰ্ণৰ প্ৰতিটো আখৰ আগৰ ত্ৰি-বৰ্ণৰ সম্বন্ধীয় আখৰতকৈ এটা আগত, গতিকে CDF ৰ পিছত DEG আহে।"
+      }
     },
     {
       "type": "triplet",
@@ -1035,7 +1167,11 @@
           "as": "WFC"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The first letter moves one step backward (Z, Y, X, W) while the second and third move one step forward (BA, CB, DC, ED), so the next term is WED.",
+        "as": "প্ৰথম বৰ্ণটো এটা কৰি পিছলৈ যায় (Z, Y, X, W) আৰু দ্বিতীয়-তৃতীয় বৰ্ণ এটা কৰি আগবাঢ়ে (BA, CB, DC, ED), গতিকে পৰৱৰ্তী পদটো WED।"
+      }
     },
     {
       "type": "pair",
@@ -1065,7 +1201,11 @@
           "as": "TU"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each pair has consecutive letters and each new pair starts two letters after the previous one (MN, OP, QR, ST), so the next pair is ST.",
+        "as": "প্ৰতিটো যোড় ক্ৰমিক বৰ্ণৰ আৰু প্ৰতিটো নতুন যোড় আগৰটোৰ পৰা দুটা আখৰ পিছত আৰম্ভ হয় (MN, OP, QR, ST), গতিকে পৰৱৰ্তী যোড়টো ST।"
+      }
     },
     {
       "type": "forward",
@@ -1095,7 +1235,11 @@
           "as": "W"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Each letter moves one step forward (P, Q, R, S, T), so the next letter is T.",
+        "as": "প্ৰতিটো বৰ্ণ এটা কৰি আগবাঢ়িছে (P, Q, R, S, T), গতিকে পৰৱৰ্তী বৰ্ণটো T।"
+      }
     },
     {
       "type": "backward",
@@ -1125,7 +1269,11 @@
           "as": "C"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Each letter moves two steps backward (M, K, I, G, E), so the next letter is E.",
+        "as": "প্ৰতিটো বৰ্ণ দুটা কৰি পিছলৈ গৈছে (M, K, I, G, E), গতিকে পৰৱৰ্তী বৰ্ণটো E।"
+      }
     }
   ]
 }

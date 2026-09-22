@@ -14,7 +14,11 @@
         { "option": "C", "en": "6", "as": "৬" },
         { "option": "D", "en": "10", "as": "১০" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Replacing the signs gives 8 + 3 − 4 × 2. By BODMAS, 4 × 2 = 8, so 8 + 3 − 8 = 3; hence option B.",
+        "as": "চিহ্ন সলনি কৰিলে হয় 8 + 3 − 4 × 2। BODMAS অনুসৰি 4 × 2 = 8, গতিকে 8 + 3 − 8 = 3; সেয়ে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "symbol-substitution",
@@ -25,7 +29,11 @@
         { "option": "C", "en": "5", "as": "৫" },
         { "option": "D", "en": "4", "as": "৪" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "After substitution: 16 ÷ 4 − 2 × 3 + 5. BODMAS gives 4 − 6 + 5 = 3, so option B is correct.",
+        "as": "প্ৰতিস্থাপন কৰিলে: 16 ÷ 4 − 2 × 3 + 5। BODMAS অনুসৰি 4 − 6 + 5 = 3, গতিকে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "symbol-substitution",
@@ -36,7 +44,11 @@
         { "option": "C", "en": "8", "as": "৮" },
         { "option": "D", "en": "12", "as": "১২" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Substituting gives 12 − 2 × 4 + 8 ÷ 2. By BODMAS, 12 − 8 + 4 = 8, so option C.",
+        "as": "প্ৰতিস্থাপন কৰিলে হয় 12 − 2 × 4 + 8 ÷ 2। BODMAS অনুসৰি 12 − 8 + 4 = 8, গতিকে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "symbol-substitution",
@@ -47,7 +59,11 @@
         { "option": "C", "en": "15", "as": "১৫" },
         { "option": "D", "en": "20", "as": "২০" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "After substitution: 18 − 6 × 2 ÷ 3 + 4. BODMAS gives 18 − 4 + 4 = 18, hence option B.",
+        "as": "প্ৰতিস্থাপন কৰিলে: 18 − 6 × 2 ÷ 3 + 4। BODMAS অনুসৰি 18 − 4 + 4 = 18, গতিকে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "symbol-substitution",
@@ -58,7 +74,11 @@
         { "option": "C", "en": "8", "as": "৮" },
         { "option": "D", "en": "6", "as": "৬" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Substituting gives 20 ÷ 4 × 2 − 5 + 3. Evaluating × and ÷ left to right, 5 × 2 = 10, then 10 − 5 + 3 = 8, so option C.",
+        "as": "প্ৰতিস্থাপন কৰিলে হয় 20 ÷ 4 × 2 − 5 + 3। × আৰু ÷ বাওঁৰ পৰা সোঁলৈ কৰিলে 5 × 2 = 10, তাৰ পিছত 10 − 5 + 3 = 8, গতিকে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "symbol-substitution",
@@ -69,7 +89,11 @@
         { "option": "C", "en": "9", "as": "৯" },
         { "option": "D", "en": "3", "as": "৩" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "After substitution: 24 ÷ 4 − 2 × 3 + 5. BODMAS gives 6 − 6 + 5 = 5, hence option A.",
+        "as": "প্ৰতিস্থাপন কৰিলে: 24 ÷ 4 − 2 × 3 + 5। BODMAS অনুসৰি 6 − 6 + 5 = 5, গতিকে শুদ্ধ উত্তৰ A।"
+      }
     },
     {
       "type": "symbol-substitution",
@@ -80,7 +104,11 @@
         { "option": "C", "en": "52", "as": "৫২" },
         { "option": "D", "en": "56", "as": "৫৬" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Substituting gives 20 × 5 ÷ 2 − 4 + 6. Left to right: 100 ÷ 2 = 50, then 50 − 4 + 6 = 52, so option C.",
+        "as": "প্ৰতিস্থাপন কৰিলে হয় 20 × 5 ÷ 2 − 4 + 6। বাওঁৰ পৰা সোঁলৈ: 100 ÷ 2 = 50, তাৰ পিছত 50 − 4 + 6 = 52, গতিকে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "symbol-substitution",
@@ -91,7 +119,11 @@
         { "option": "C", "en": "18", "as": "১৮" },
         { "option": "D", "en": "24", "as": "২৪" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "After substitution: 24 + 8 × 2 ÷ 4 − 6. BODMAS gives 24 + 4 − 6 = 22, hence option B.",
+        "as": "প্ৰতিস্থাপন কৰিলে: 24 + 8 × 2 ÷ 4 − 6। BODMAS অনুসৰি 24 + 4 − 6 = 22, গতিকে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "symbol-substitution",
@@ -102,7 +134,11 @@
         { "option": "C", "en": "10", "as": "১০" },
         { "option": "D", "en": "4", "as": "৪" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Substituting gives 9 − 3 × 4 ÷ 2 + 5. BODMAS: 3 × 4 ÷ 2 = 6, so 9 − 6 + 5 = 8, hence option A.",
+        "as": "প্ৰতিস্থাপন কৰিলে হয় 9 − 3 × 4 ÷ 2 + 5। BODMAS: 3 × 4 ÷ 2 = 6, গতিকে 9 − 6 + 5 = 8, সেয়ে শুদ্ধ উত্তৰ A।"
+      }
     },
     {
       "type": "symbol-substitution",
@@ -113,7 +149,11 @@
         { "option": "C", "en": "8", "as": "৮" },
         { "option": "D", "en": "2", "as": "২" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "After substitution: 24 ÷ 6 × 2 + 4 − 8. BODMAS gives 8 + 4 − 8 = 4, so option B.",
+        "as": "প্ৰতিস্থাপন কৰিলে: 24 ÷ 6 × 2 + 4 − 8। BODMAS অনুসৰি 8 + 4 − 8 = 4, গতিকে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "interchange",
@@ -124,7 +164,11 @@
         { "option": "C", "en": "16", "as": "১৬" },
         { "option": "D", "en": "18", "as": "১৮" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Interchanging 2 and 4 gives 2 + 4 × 6, then interchanging '+' and '×' gives 2 × 4 + 6 = 8 + 6 = 14, so option B.",
+        "as": "2 আৰু 4 বিনিময় কৰিলে হয় 2 + 4 × 6, তাৰ পিছত '+' আৰু '×' বিনিময় কৰিলে হয় 2 × 4 + 6 = 8 + 6 = 14, গতিকে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "interchange",
@@ -135,7 +179,11 @@
         { "option": "C", "en": "11", "as": "১১" },
         { "option": "D", "en": "12", "as": "১২" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Interchanging 5 and 8 gives 5 − 8 + 2, then interchanging '+' and '−' gives 5 + 8 − 2 = 11, hence option C.",
+        "as": "5 আৰু 8 বিনিময় কৰিলে হয় 5 − 8 + 2, তাৰ পিছত '+' আৰু '−' বিনিময় কৰিলে হয় 5 + 8 − 2 = 11, গতিকে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "interchange",
@@ -146,7 +194,11 @@
         { "option": "C", "en": "1", "as": "১" },
         { "option": "D", "en": "4", "as": "৪" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Interchanging 6 and 3 gives 3 × 6 ÷ 2, then interchanging '×' and '÷' gives 3 ÷ 6 × 2 = 1, so option C.",
+        "as": "6 আৰু 3 বিনিময় কৰিলে হয় 3 × 6 ÷ 2, তাৰ পিছত '×' আৰু '÷' বিনিময় কৰিলে হয় 3 ÷ 6 × 2 = 1, গতিকে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "interchange",
@@ -157,7 +209,11 @@
         { "option": "C", "en": "15", "as": "১৫" },
         { "option": "D", "en": "24", "as": "২৪" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Interchanging 3 and 6 gives 6 + 3 × 2, then interchanging '+' and '×' gives 6 × 3 + 2 = 18 + 2 = 20, hence option B.",
+        "as": "3 আৰু 6 বিনিময় কৰিলে হয় 6 + 3 × 2, তাৰ পিছত '+' আৰু '×' বিনিময় কৰিলে হয় 6 × 3 + 2 = 18 + 2 = 20, গতিকে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "coded-operation",
@@ -168,7 +224,11 @@
         { "option": "C", "en": "11", "as": "১১" },
         { "option": "D", "en": "12", "as": "১২" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Given a × b = a + b + ab, so 2 × 3 = 2 + 3 + (2×3) = 2 + 3 + 6 = 11, hence option C.",
+        "as": "দিয়া আছে a × b = a + b + ab, গতিকে 2 × 3 = 2 + 3 + (2×3) = 2 + 3 + 6 = 11, সেয়ে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "coded-operation",
@@ -179,7 +239,11 @@
         { "option": "C", "en": "23", "as": "২৩" },
         { "option": "D", "en": "29", "as": "২৯" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Here a × b = a² + b, so 5 × 2 = 5² + 2 = 25 + 2 = 27, hence option B.",
+        "as": "ইয়াত a × b = a² + b, গতিকে 5 × 2 = 5² + 2 = 25 + 2 = 27, সেয়ে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "coded-operation",
@@ -190,7 +254,11 @@
         { "option": "C", "en": "20", "as": "২০" },
         { "option": "D", "en": "12", "as": "১২" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "a @ b = a² − b², so 5 @ 3 = 5² − 3² = 25 − 9 = 16, hence option B.",
+        "as": "a @ b = a² − b², গতিকে 5 @ 3 = 5² − 3² = 25 − 9 = 16, সেয়ে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "coded-operation",
@@ -201,7 +269,11 @@
         { "option": "C", "en": "36", "as": "৩৬" },
         { "option": "D", "en": "38", "as": "৩৮" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "4 # 6 = (4×6) + 2 = 26 and 8 $ 5 = 8 + 5 − 3 = 10; adding gives 26 + 10 = 36, hence option C.",
+        "as": "4 # 6 = (4×6) + 2 = 26 আৰু 8 $ 5 = 8 + 5 − 3 = 10; যোগ কৰিলে 26 + 10 = 36, সেয়ে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "coded-operation",
@@ -212,7 +284,11 @@
         { "option": "C", "en": "6", "as": "৬" },
         { "option": "D", "en": "7", "as": "৭" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "a ⇒ b = a ÷ b + 1, so 12 ⇒ 3 = 12 ÷ 3 + 1 = 4 + 1 = 5, hence option B.",
+        "as": "a ⇒ b = a ÷ b + 1, গতিকে 12 ⇒ 3 = 12 ÷ 3 + 1 = 4 + 1 = 5, সেয়ে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "coded-operation",
@@ -223,7 +299,11 @@
         { "option": "C", "en": "16", "as": "১৬" },
         { "option": "D", "en": "10", "as": "১০" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "a ⊕ b = (a × b) − (a + b), so 6 ⊕ 4 = (6×4) − (6+4) = 24 − 10 = 14, hence option B.",
+        "as": "a ⊕ b = (a × b) − (a + b), গতিকে 6 ⊕ 4 = (6×4) − (6+4) = 24 − 10 = 14, সেয়ে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "equation-correct",
@@ -234,7 +314,11 @@
         { "option": "C", "en": "4 + 2 − 3 × 1 = 5", "as": "4 + 2 − 3 × 1 = 5" },
         { "option": "D", "en": "2 × 4 + 2 − 1 = 9", "as": "2 × 4 + 2 − 1 = 9" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Substituting in A: 2 × 3 − 4 ÷ 2 = 6 − 2 = 4, which is true, so option A.",
+        "as": "A ত প্ৰতিস্থাপন কৰিলে: 2 × 3 − 4 ÷ 2 = 6 − 2 = 4, যি শুদ্ধ, গতিকে শুদ্ধ উত্তৰ A।"
+      }
     },
     {
       "type": "equation-correct",
@@ -245,7 +329,11 @@
         { "option": "C", "en": "8 + 2 − 3 × 1 = 7", "as": "8 + 2 − 3 × 1 = 7" },
         { "option": "D", "en": "6 × 2 + 4 − 1 = 10", "as": "6 × 2 + 4 − 1 = 10" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Checking A after substitution: 9 ÷ 3 − 2 + 1 = 3 − 2 + 1 = 2, which holds, so option A.",
+        "as": "প্ৰতিস্থাপনৰ পিছত A পৰীক্ষা কৰিলে: 9 ÷ 3 − 2 + 1 = 3 − 2 + 1 = 2, যি শুদ্ধ, গতিকে শুদ্ধ উত্তৰ A।"
+      }
     },
     {
       "type": "equation-correct",
@@ -256,7 +344,11 @@
         { "option": "C", "en": "9 − 3 × 2 = 4", "as": "9 − 3 × 2 = 4" },
         { "option": "D", "en": "12 − 6 × 1 = 3", "as": "12 − 6 × 1 = 3" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "After substitution, A becomes 6 × 2 ÷ 3 = 12 ÷ 3 = 4, which is correct, so option A.",
+        "as": "প্ৰতিস্থাপনৰ পিছত A হয় 6 × 2 ÷ 3 = 12 ÷ 3 = 4, যি শুদ্ধ, গতিকে শুদ্ধ উত্তৰ A।"
+      }
     },
     {
       "type": "equation-correct",
@@ -267,7 +359,11 @@
         { "option": "C", "en": "6 + 2 × 3 = 20", "as": "6 + 2 × 3 = 20" },
         { "option": "D", "en": "6 × 2 + 4 = 16", "as": "6 × 2 + 4 = 16" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "In A, interchanging 2 and 6 gives 2 + 6 × 1, then interchanging '+' and '×' gives 2 × 6 + 1 = 13, so option A.",
+        "as": "A ত, 2 আৰু 6 বিনিময় কৰিলে হয় 2 + 6 × 1, তাৰ পিছত '+' আৰু '×' বিনিময় কৰিলে হয় 2 × 6 + 1 = 13, গতিকে শুদ্ধ উত্তৰ A।"
+      }
     },
     {
       "type": "bodmas",
@@ -278,7 +374,11 @@
         { "option": "C", "en": "10", "as": "১০" },
         { "option": "D", "en": "16", "as": "১৬" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "By BODMAS, 6 × 2 ÷ 3 = 4, so 12 + 4 − 4 = 12; hence option A.",
+        "as": "BODMAS অনুসৰি 6 × 2 ÷ 3 = 4, গতিকে 12 + 4 − 4 = 12; সেয়ে শুদ্ধ উত্তৰ A।"
+      }
     },
     {
       "type": "bodmas",
@@ -289,7 +389,11 @@
         { "option": "C", "en": "12", "as": "১২" },
         { "option": "D", "en": "18", "as": "১৮" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Evaluating × and ÷ left to right: 18 ÷ 3 × 2 = 12, then 12 + 5 − 1 = 16; hence option B.",
+        "as": "× আৰু ÷ বাওঁৰ পৰা সোঁলৈ কৰিলে: 18 ÷ 3 × 2 = 12, তাৰ পিছত 12 + 5 − 1 = 16; সেয়ে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "bodmas",
@@ -300,7 +404,11 @@
         { "option": "C", "en": "38", "as": "৩৮" },
         { "option": "D", "en": "42", "as": "৪২" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "7 × 6 = 42 and 24 ÷ 6 = 4, so 42 + 4 − 8 = 38; hence option C.",
+        "as": "7 × 6 = 42 আৰু 24 ÷ 6 = 4, গতিকে 42 + 4 − 8 = 38; সেয়ে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "bodmas",
@@ -311,7 +419,11 @@
         { "option": "C", "en": "56", "as": "৫৬" },
         { "option": "D", "en": "62", "as": "৬২" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "4 × 12 = 48 and 30 ÷ 5 = 6, so 100 − 48 + 6 = 58; hence option B.",
+        "as": "4 × 12 = 48 আৰু 30 ÷ 5 = 6, গতিকে 100 − 48 + 6 = 58; সেয়ে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "bodmas",
@@ -322,7 +434,11 @@
         { "option": "C", "en": "47", "as": "৪৭" },
         { "option": "D", "en": "52", "as": "৫২" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "48 ÷ 6 × 5 = 8 × 5 = 40, then 40 + 12 − 3 = 49; hence option B.",
+        "as": "48 ÷ 6 × 5 = 8 × 5 = 40, তাৰ পিছত 40 + 12 − 3 = 49; সেয়ে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "bodmas",
@@ -333,7 +449,11 @@
         { "option": "C", "en": "94", "as": "৯৪" },
         { "option": "D", "en": "98", "as": "৯৮" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "25 × 4 = 100 and 108 ÷ 9 = 12, so 100 − 12 + 6 = 94; hence option C.",
+        "as": "25 × 4 = 100 আৰু 108 ÷ 9 = 12, গতিকে 100 − 12 + 6 = 94; সেয়ে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "conditional-operation",
@@ -344,7 +464,11 @@
         { "option": "C", "en": "8", "as": "৮" },
         { "option": "D", "en": "24", "as": "২৪" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Since 8 > 3, use a + b: 8 ⊕ 3 = 8 + 3 = 11, hence option B.",
+        "as": "যিহেতু 8 > 3, a + b ব্যৱহাৰ কৰা হয়: 8 ⊕ 3 = 8 + 3 = 11, সেয়ে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "conditional-operation",
@@ -355,7 +479,11 @@
         { "option": "C", "en": "24", "as": "২৪" },
         { "option": "D", "en": "12", "as": "১২" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Since a = 6 is even, use a × b: 6 ⊙ 4 = 6 × 4 = 24, hence option C.",
+        "as": "যিহেতু a = 6 যুগ্ম, a × b ব্যৱহাৰ কৰা হয়: 6 ⊙ 4 = 6 × 4 = 24, সেয়ে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "conditional-operation",
@@ -366,7 +494,11 @@
         { "option": "C", "en": "4", "as": "৪" },
         { "option": "D", "en": "8", "as": "৮" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Both 4 and 6 are even, so use a + b: 4 ⊛ 6 = 4 + 6 = 10, hence option A.",
+        "as": "4 আৰু 6 দুয়োটাই যুগ্ম, গতিকে a + b ব্যৱহাৰ কৰা হয়: 4 ⊛ 6 = 4 + 6 = 10, সেয়ে শুদ্ধ উত্তৰ A।"
+      }
     },
     {
       "type": "conditional-operation",
@@ -377,7 +509,11 @@
         { "option": "C", "en": "5", "as": "৫" },
         { "option": "D", "en": "12", "as": "১২" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Since a = 5 is odd, use a + b: 5 © 3 = 5 + 3 = 8, hence option A.",
+        "as": "যিহেতু a = 5 অযুগ্ম, a + b ব্যৱহাৰ কৰা হয়: 5 © 3 = 5 + 3 = 8, সেয়ে শুদ্ধ উত্তৰ A।"
+      }
     },
     {
       "type": "mixed",
@@ -388,7 +524,11 @@
         { "option": "C", "en": "14", "as": "১৪" },
         { "option": "D", "en": "20", "as": "২০" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Substituting inside the bracket: (6 + 3) ÷ 2 × 4 = 9 ÷ 2 × 4 = 18, hence option B.",
+        "as": "বন্ধনীৰ ভিতৰত প্ৰতিস্থাপন কৰিলে: (6 + 3) ÷ 2 × 4 = 9 ÷ 2 × 4 = 18, সেয়ে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "mixed",
@@ -399,7 +539,11 @@
         { "option": "C", "en": "41", "as": "৪১" },
         { "option": "D", "en": "35", "as": "৩৫" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "After substitution: 36 + 4 − 2 ÷ 6 × 3. BODMAS gives 2 ÷ 6 × 3 = 1, so 36 + 4 − 1 = 39, hence option B.",
+        "as": "প্ৰতিস্থাপনৰ পিছত: 36 + 4 − 2 ÷ 6 × 3। BODMAS অনুসৰি 2 ÷ 6 × 3 = 1, গতিকে 36 + 4 − 1 = 39, সেয়ে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "coded-operation",
@@ -410,7 +554,11 @@
         { "option": "C", "en": "50", "as": "৫০" },
         { "option": "D", "en": "44", "as": "৪৪" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "5 ^ 3 = 5² + 3² = 34 and 4 & 1 = 4² − 1² = 15; total 34 + 15 = 49, hence option B.",
+        "as": "5 ^ 3 = 5² + 3² = 34 আৰু 4 & 1 = 4² − 1² = 15; মুঠ 34 + 15 = 49, সেয়ে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "interchange",
@@ -421,7 +569,11 @@
         { "option": "C", "en": "15", "as": "১৫" },
         { "option": "D", "en": "10", "as": "১০" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Interchanging 2 and 5 gives 2 + 5 × 3, then interchanging '+' and '×' gives 2 × 5 + 3 = 13, hence option A.",
+        "as": "2 আৰু 5 বিনিময় কৰিলে হয় 2 + 5 × 3, তাৰ পিছত '+' আৰু '×' বিনিময় কৰিলে হয় 2 × 5 + 3 = 13, সেয়ে শুদ্ধ উত্তৰ A।"
+      }
     },
     {
       "type": "equation-correct",
@@ -432,7 +584,11 @@
         { "option": "C", "en": "+, ÷", "as": "+, ÷" },
         { "option": "D", "en": "−, ×", "as": "−, ×" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "With '÷' and '+' in order: 12 ÷ 4 + 5 = 3 + 5 = 8, so option A is correct.",
+        "as": "ক্ৰমে '÷' আৰু '+' দিলে: 12 ÷ 4 + 5 = 3 + 5 = 8, গতিকে শুদ্ধ উত্তৰ A।"
+      }
     },
     {
       "type": "mixed",
@@ -443,7 +599,11 @@
         { "option": "C", "en": "50", "as": "৫০" },
         { "option": "D", "en": "46", "as": "৪৬" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "After substitution: 30 − 6 ÷ 3 + 4 × 5 = 30 − 2 + 20 = 48, hence option A.",
+        "as": "প্ৰতিস্থাপনৰ পিছত: 30 − 6 ÷ 3 + 4 × 5 = 30 − 2 + 20 = 48, সেয়ে শুদ্ধ উত্তৰ A।"
+      }
     },
     {
       "type": "coded-operation",
@@ -454,7 +614,11 @@
         { "option": "C", "en": "28", "as": "২৮" },
         { "option": "D", "en": "20", "as": "২০" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "a # b = (a × b) ÷ 2, so 6 # 8 = (6 × 8) ÷ 2 = 48 ÷ 2 = 24, hence option B.",
+        "as": "a # b = (a × b) ÷ 2, গতিকে 6 # 8 = (6 × 8) ÷ 2 = 48 ÷ 2 = 24, সেয়ে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "coded-operation",
@@ -465,7 +629,11 @@
         { "option": "C", "en": "8", "as": "৮" },
         { "option": "D", "en": "12", "as": "১২" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "First 6 # 4 = 6 + 4 = 10, then 10 $ 2 = 10 − 2 = 8, hence option C.",
+        "as": "প্ৰথমে 6 # 4 = 6 + 4 = 10, তাৰ পিছত 10 $ 2 = 10 − 2 = 8, সেয়ে শুদ্ধ উত্তৰ C।"
+      }
     }
   ]
 }
