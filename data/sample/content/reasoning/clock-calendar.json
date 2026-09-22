@@ -14,7 +14,11 @@
         { "option": "C", "en": "45°", "as": "৪৫°" },
         { "option": "D", "en": "120°", "as": "১২০°" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "For time H:M the angle between the hands is |30H - 5.5M|. At 3:00, |30×3 - 5.5×0| = 90°, so option B.",
+        "as": "ঘড়ীৰ কাঁটাৰ মাজৰ কোণ = |30H - 5.5M|। 3:00 বজাত |30×3 - 5.5×0| = 90°, গতিকে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "angle",
@@ -25,7 +29,11 @@
         { "option": "C", "en": "180°", "as": "১৮০°" },
         { "option": "D", "en": "120°", "as": "১২০°" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Using angle = |30H - 5.5M|, at 6:00 we get |30×6 - 0| = 180°, so option C.",
+        "as": "কোণ = |30H - 5.5M| সূত্ৰমতে 6:00 বজাত |30×6 - 0| = 180°, গতিকে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "angle",
@@ -36,7 +44,11 @@
         { "option": "C", "en": "80°", "as": "৮০°" },
         { "option": "D", "en": "110°", "as": "১১০°" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Formula |30H - 5.5M| gives |30×9 - 0| = 270°; the smaller angle is 360 - 270 = 90°, so option A.",
+        "as": "|30H - 5.5M| ৰে |30×9 - 0| = 270°; সৰু কোণটো 360 - 270 = 90°, গতিকে শুদ্ধ উত্তৰ A।"
+      }
     },
     {
       "type": "angle",
@@ -47,7 +59,11 @@
         { "option": "C", "en": "30°", "as": "৩০°" },
         { "option": "D", "en": "60°", "as": "৬০°" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "At 1:00, |30×1 - 5.5×0| = 30°, so the correct option is C.",
+        "as": "1:00 বজাত |30×1 - 5.5×0| = 30°, গতিকে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "angle",
@@ -58,7 +74,11 @@
         { "option": "C", "en": "130°", "as": "১৩০°" },
         { "option": "D", "en": "160°", "as": "১৬০°" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "At 5:00, |30×5 - 0| = 150°, so option B.",
+        "as": "5:00 বজাত |30×5 - 0| = 150°, গতিকে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "angle",
@@ -69,7 +89,11 @@
         { "option": "C", "en": "120°", "as": "১২০°" },
         { "option": "D", "en": "130°", "as": "১৩০°" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "At 8:00, |30×8 - 0| = 240°; the smaller angle is 360 - 240 = 120°, so option C.",
+        "as": "8:00 বজাত |30×8 - 0| = 240°; সৰু কোণ = 360 - 240 = 120°, গতিকে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "angle",
@@ -80,7 +104,11 @@
         { "option": "C", "en": "110°", "as": "১১০°" },
         { "option": "D", "en": "95°", "as": "৯৫°" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "At 2:30, angle = |30×2 - 5.5×30| = |60 - 165| = 105°, so option A.",
+        "as": "2:30 বজাত কোণ = |30×2 - 5.5×30| = |60 - 165| = 105°, গতিকে শুদ্ধ উত্তৰ A।"
+      }
     },
     {
       "type": "angle",
@@ -91,7 +119,11 @@
         { "option": "C", "en": "180°", "as": "১৮০°" },
         { "option": "D", "en": "155°", "as": "১৫৫°" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "At 12:30 take H = 12: |30×12 - 5.5×30| = |360 - 165| = 195°; smaller angle = 360 - 195 = 165°, so option B.",
+        "as": "12:30 বজাত H = 12 ধৰি |30×12 - 5.5×30| = |360 - 165| = 195°; সৰু কোণ = 360 - 195 = 165°, গতিকে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "angle",
@@ -102,7 +134,11 @@
         { "option": "C", "en": "60°", "as": "৬০°" },
         { "option": "D", "en": "65°", "as": "৬৫°" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "At 10:00, |30×10 - 0| = 300°; the smaller angle is 360 - 300 = 60°, so option C.",
+        "as": "10:00 বজাত |30×10 - 0| = 300°; সৰু কোণ = 360 - 300 = 60°, গতিকে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "angle",
@@ -113,7 +149,11 @@
         { "option": "C", "en": "6°", "as": "৬°" },
         { "option": "D", "en": "9°", "as": "৯°" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "At 3:15, |30×3 - 5.5×15| = |90 - 82.5| = 7.5°, so option A.",
+        "as": "3:15 বজাত |30×3 - 5.5×15| = |90 - 82.5| = 7.5°, গতিকে শুদ্ধ উত্তৰ A।"
+      }
     },
     {
       "type": "coincide",
@@ -124,7 +164,11 @@
         { "option": "C", "en": "11", "as": "১১" },
         { "option": "D", "en": "9", "as": "৯" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "The two hands coincide 11 times in 12 hours (once every 12/11 hours), so option C.",
+        "as": "12 ঘণ্টাত কাঁটা দুটা 11 বাৰ লগ লাগে (প্ৰতি 12/11 ঘণ্টাত এবাৰ), গতিকে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "coincide",
@@ -135,7 +179,11 @@
         { "option": "C", "en": "23", "as": "২৩" },
         { "option": "D", "en": "21", "as": "২১" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Coincidences in a full day = 11 × 2 = 22 times, so option B.",
+        "as": "পূর্ণ এদিনত লগ লাগে 11 × 2 = 22 বাৰ, গতিকে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "coincide",
@@ -146,7 +194,11 @@
         { "option": "C", "en": "44", "as": "৪৪" },
         { "option": "D", "en": "40", "as": "৪০" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "The hands are at right angles 22 times in 12 hours, hence 22 × 2 = 44 times in a day, so option C.",
+        "as": "কাঁটা দুটা 12 ঘণ্টাত 22 বাৰ সোঁকোণত থাকে, সেয়ে এদিনত 22 × 2 = 44 বাৰ, গতিকে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "coincide",
@@ -157,7 +209,11 @@
         { "option": "C", "en": "20", "as": "২০" },
         { "option": "D", "en": "11", "as": "১১" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Directly opposite (180°) happens 11 times in 12 hours, so 11 × 2 = 22 times a day, option A.",
+        "as": "একেবাৰে বিপৰীত (180°) 12 ঘণ্টাত 11 বাৰ হয়, সেয়ে এদিনত 11 × 2 = 22 বাৰ, গতিকে শুদ্ধ উত্তৰ A।"
+      }
     },
     {
       "type": "coincide",
@@ -168,7 +224,11 @@
         { "option": "C", "en": "4:23", "as": "4:23" },
         { "option": "D", "en": "4:20", "as": "4:20" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Between 4 and 5 the gap at 4:00 is 120° and the relative speed is 5.5°/min, so they meet after 120/5.5 ≈ 21.8 min, i.e. about 4:21 (4:21 9/11 min), option A.",
+        "as": "4 আৰু 5 ৰ মাজত 4:00 বজাত ব্যৱধান 120° আৰু আপেক্ষিক গতি 5.5°/মিনিট, সেয়ে 120/5.5 ≈ 21.8 মিনিটৰ পিছত লগ লাগে, অৰ্থাৎ প্ৰায় 4:21 (4:21 9/11 মিনিট), গতিকে শুদ্ধ উত্তৰ A।"
+      }
     },
     {
       "type": "day",
@@ -179,7 +239,11 @@
         { "option": "C", "en": "Wednesday", "as": "বুধবাৰ" },
         { "option": "D", "en": "Thursday", "as": "বৃহস্পতিবাৰ" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "15 days after Monday: 15 mod 7 = 1, so Monday + 1 = Tuesday, option B.",
+        "as": "সোমবাৰৰ পৰা 15 দিন পিছত: 15 mod 7 = 1, সেয়ে সোমবাৰ + 1 = মঙলবাৰ, গতিকে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "day",
@@ -190,7 +254,11 @@
         { "option": "C", "en": "Tuesday", "as": "মঙলবাৰ" },
         { "option": "D", "en": "Wednesday", "as": "বুধবাৰ" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "20 days after Wednesday: 20 mod 7 = 6, so Wednesday + 6 = Tuesday, option C.",
+        "as": "বুধবাৰৰ পৰা 20 দিন পিছত: 20 mod 7 = 6, সেয়ে বুধবাৰ + 6 = মঙলবাৰ, গতিকে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "day",
@@ -201,7 +269,11 @@
         { "option": "C", "en": "Tuesday", "as": "মঙলবাৰ" },
         { "option": "D", "en": "Wednesday", "as": "বুধবাৰ" }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "10 days before Saturday: 10 mod 7 = 3, so Saturday − 3 = Wednesday, option D.",
+        "as": "শনিবাৰৰ 10 দিন আগত: 10 mod 7 = 3, সেয়ে শনিবাৰ − 3 = বুধবাৰ, গতিকে শুদ্ধ উত্তৰ D।"
+      }
     },
     {
       "type": "day",
@@ -212,7 +284,11 @@
         { "option": "C", "en": "Sunday", "as": "দেওবাৰ" },
         { "option": "D", "en": "Monday", "as": "সোমবাৰ" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "100 days after Friday: 100 mod 7 = 2, so Friday + 2 = Sunday, option C.",
+        "as": "শুকুৰবাৰৰ পৰা 100 দিন পিছত: 100 mod 7 = 2, সেয়ে শুকুৰবাৰ + 2 = দেওবাৰ, গতিকে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "calendar",
@@ -223,7 +299,11 @@
         { "option": "C", "en": "Saturday", "as": "শনিবাৰ" },
         { "option": "D", "en": "Wednesday", "as": "বুধবাৰ" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "From the 1st to the 25th is 24 days; 24 mod 7 = 3, so Tuesday + 3 = Friday, option B.",
+        "as": "১ তাৰিখৰ পৰা ২৫ তাৰিখলৈ 24 দিন; 24 mod 7 = 3, সেয়ে মঙলবাৰ + 3 = শুকুৰবাৰ, গতিকে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "calendar",
@@ -234,7 +314,11 @@
         { "option": "C", "en": "Wednesday", "as": "বুধবাৰ" },
         { "option": "D", "en": "Thursday", "as": "বৃহস্পতিবাৰ" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "March 1 to March 31 is 30 days; 30 mod 7 = 2, so Sunday + 2 = Tuesday, option B.",
+        "as": "মার্চ ১ৰ পৰা মার্চ ৩১লৈ 30 দিন; 30 mod 7 = 2, সেয়ে দেওবাৰ + 2 = মঙলবাৰ, গতিকে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "calendar",
@@ -245,7 +329,11 @@
         { "option": "C", "en": "Monday", "as": "সোমবাৰ" },
         { "option": "D", "en": "Wednesday", "as": "বুধবাৰ" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "January 1, 2024 is a fixed known date and it fell on Monday, so option C.",
+        "as": "2024 চনৰ ১ জানুৱাৰী এটা জনা স্থিৰ তাৰিখ আৰু ই সোমবাৰ আছিল, গতিকে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "calendar",
@@ -256,7 +344,11 @@
         { "option": "C", "en": "Saturday", "as": "শনিবাৰ" },
         { "option": "D", "en": "Wednesday", "as": "বুধবাৰ" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "From 15 August 2024 to 15 August 2025 is 365 days (2025 is not a leap year); 365 mod 7 = 1, so Thursday + 1 = Friday, option B.",
+        "as": "১৫ আগষ্ট 2024 ৰ পৰা ১৫ আগষ্ট 2025 লৈ 365 দিন (2025 লিপ ইয়াৰ নহয়); 365 mod 7 = 1, সেয়ে বৃহস্পতিবাৰ + 1 = শুকুৰবাৰ, গতিকে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "calendar",
@@ -267,7 +359,11 @@
         { "option": "C", "en": "2025", "as": "২০২৫" },
         { "option": "D", "en": "2026", "as": "২০২৬" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "A leap year is divisible by 4 (century years by 400); 2024 ÷ 4 = 506 exactly, so option B.",
+        "as": "লিপ ইয়াৰ 4 ৰে বিভাজ্য (শতিকাৰ বৰ্ষ 400 ৰে); 2024 ÷ 4 = 506 সম্পূর্ণভাৱে, গতিকে শুদ্ধ উত্তৰ B।"
+      }
     },
     {
       "type": "calendar",
@@ -278,7 +374,11 @@
         { "option": "C", "en": "2010", "as": "২০১০" },
         { "option": "D", "en": "2020", "as": "২০২০" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "2000 is divisible by 400 and 2004, 2020 by 4, but 2010 is not divisible by 4, so it is not a leap year, option C.",
+        "as": "2000, 400 ৰে বিভাজ্য আৰু 2004, 2020, 4 ৰে বিভাজ্য; কিন্তু 2010, 4 ৰে বিভাজ্য নহয়, সেয়ে লিপ ইয়াৰ নহয়, গতিকে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "calendar",
@@ -289,7 +389,11 @@
         { "option": "C", "en": "31", "as": "৩১" },
         { "option": "D", "en": "29", "as": "২৯" }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "2024 is a leap year (divisible by 4), so February 2024 has 29 days, option D.",
+        "as": "2024 লিপ ইয়াৰ (4 ৰে বিভাজ্য), সেয়ে ফেব্রুৱাৰী 2024 ত 29 দিন, গতিকে শুদ্ধ উত্তৰ D।"
+      }
     },
     {
       "type": "calendar",
@@ -300,7 +404,11 @@
         { "option": "C", "en": "6", "as": "৬" },
         { "option": "D", "en": "8", "as": "৮" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Leap years from 2000 to 2020 inclusive are 2000, 2004, 2008, 2012, 2016, 2020 = 6 years, option C.",
+        "as": "2000 ৰ পৰা 2020 লৈ (দুয়োটা সৈতে) লিপ ইয়াৰ: 2000, 2004, 2008, 2012, 2016, 2020 = 6 টা, গতিকে শুদ্ধ উত্তৰ C।"
+      }
     },
     {
       "type": "calendar",
@@ -311,7 +419,11 @@
         { "option": "C", "en": "51 weeks 3 days", "as": "৫১ সপ্তাহ ৩ দিন" },
         { "option": "D", "en": "53 weeks", "as": "৫৩ সপ্তাহ" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "A non-leap year has 365 days = 52 weeks + 1 day (365 = 52 × 7 + 1), option A.",
+        "as": "অ-লিপ ইয়াৰত 365 দিন = 52 সপ্তাহ + 1 দিন (365 = 52 × 7 + 1), গতিকে শুদ্ধ উত্তৰ A।"
+      }
     }
   ]
 }

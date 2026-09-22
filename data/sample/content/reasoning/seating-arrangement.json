@@ -14,7 +14,11 @@
         { "option": "C", "en": "C", "as": "C" },
         { "option": "D", "en": "D", "as": "D" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "The clues that B is immediately right of A and C is immediately left of A lock the three seats into the block C-A-B. Because the row has five seats, this block starts at the left end, placing B on the third seat, which is the middle of the row. The remaining options would either split the block or push A away from both neighbours, so B is correct.",
+        "as": "B, A ৰ সোঁফালে ওচৰত আৰু C, A ৰ বাওঁফালে ওচৰত থকাৰ বাবে তিনিওটা আসন C-A-B গোটত বান্ধ খায়। শাৰীত পাঁচটা আসন থকাৰ বাবে গোটটো বাওঁমূৰৰ পৰা আৰম্ভ হয়, ফলত B তৃতীয় আসনত, অৰ্থাৎ শাৰীৰ মাজত পৰে। বাকী বিকল্পবোৰে গোটটো ভাঙে বা A ক দুয়ো ওচৰৰ পৰা আঁতৰায়, সেয়ে B শুদ্ধ।"
+      }
     },
     {
       "type": "linear",
@@ -25,7 +29,11 @@
         { "option": "C", "en": "Q and R", "as": "Q আৰু R" },
         { "option": "D", "en": "T and U", "as": "T আৰু U" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "P is fixed at the extreme left and Q is second to its right, so the left portion of the row is settled. The middle of a six-seat row is formed by the third and fourth seats, which are occupied by S and T. The other pairs either include an end seat or upset the fixed places of P and Q, so S and T is correct.",
+        "as": "P আটাইতকৈ বাওঁমূৰত আৰু Q তাৰ সোঁফালে দ্বিতীয় স্থানত, সেয়ে শাৰীৰ বাওঁ অংশ নিৰ্দিষ্ট। ছখন আসনৰ মাজৰ অংশ তৃতীয় আৰু চতুৰ্থ আসনেৰে গঠিত, য'ত S আৰু T বহে। বাকী যোৰবোৰে মূৰৰ আসন সামৰে বা P আৰু Q ৰ স্থান নষ্ট কৰে, সেয়ে S আৰু T শুদ্ধ।"
+      }
     },
     {
       "type": "linear",
@@ -36,7 +44,11 @@
         { "option": "C", "en": "Immediate right of D", "as": "D ৰ সোঁ ফালে ওচৰত" },
         { "option": "D", "en": "Third from the right end", "as": "সোঁ মূৰৰ পৰা তৃতীয়" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "D is in the middle of the seven seats, that is the fourth seat. Counting three seats to the left of D reaches the first seat, the extreme left end of the row. So B sits at the extreme left end; the other options describe seats only one or two places from the middle and cannot hold B.",
+        "as": "D সাতখন আসনৰ মাজত, অৰ্থাৎ চতুৰ্থ আসনত বহে। D ৰ পৰা বাওঁফালে তিনিটা আসন গণিলে প্ৰথম আসন পোৱা যায়, যিটো শাৰীৰ আটাইতকৈ বাওঁমূৰ। সেয়ে B আটাইতকৈ বাওঁমূৰত বহে; বাকী বিকল্পবোৰে মাজৰ পৰা এক বা দুই আসনৰ দূৰত্ব বুজায় আৰু B ৰ স্থান হ'ব নোৱাৰে।"
+      }
     },
     {
       "type": "linear",
@@ -47,7 +59,11 @@
         { "option": "C", "en": "Gita", "as": "গীতা" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Ravi is at the extreme left and Sita occupies the second seat, while Gita holds the exact middle seat. The extreme right seat lies well beyond Sita, so the named person sitting between Sita and that right end is Gita. Ravi lies outside this span, so the answer cannot be 'cannot be determined'.",
+        "as": "ৰবি আটাইতকৈ বাওঁমূৰত আৰু সীতা দ্বিতীয় আসনত, আনহাতে গীতা ঠিক মাজত বহে। আটাইতকৈ সোঁমূৰৰ আসন সীতাতকৈ বহু আঁতৰত, সেয়ে সীতা আৰু সেই সোঁমূৰৰ মাজত থকা নাম থকা ব্যক্তিজন গীতা। ৰবি এই পৰিসৰৰ বাহিৰত, সেয়ে 'নিৰ্ণয় কৰিব নোৱাৰি' নহয়।"
+      }
     },
     {
       "type": "linear",
@@ -58,7 +74,11 @@
         { "option": "C", "en": "4", "as": "৪" },
         { "option": "D", "en": "5", "as": "৫" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "A occupies an extreme end and F is the third seat from that end, leaving four seats between F and the opposite extreme. Thus exactly four persons sit between F and the other end. The smaller numbers would leave some of these seats unaccounted, so four is correct.",
+        "as": "A এটা মূৰত আৰু F সেই মূৰৰ পৰা তৃতীয় আসনত বহে, ফলত F আৰু বিপৰীত মূৰৰ মাজত চাৰিটা আসন ৰয়। সেয়ে F আৰু আনটো মূৰৰ মাজত ঠিক চাৰিজন বহে। সৰু সংখ্যাবোৰে কিছুমান আসন হিচাপত নধৰে, সেয়ে চাৰি শুদ্ধ।"
+      }
     },
     {
       "type": "linear",
@@ -69,7 +89,11 @@
         { "option": "C", "en": "1", "as": "১" },
         { "option": "D", "en": "4", "as": "৪" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Bhaskar sits at the extreme right and exactly two persons sit between him and Amit, so Amit is three seats to Bhaskar's left. In a five-seat row that leaves two persons on Amit's left. The other counts would either put Amit at an end or destroy the required two-person gap.",
+        "as": "ভাস্কৰ আটাইতকৈ সোঁমূৰত আৰু তেওঁ আৰু অমিতৰ মাজত ঠিক দুজন বহে, সেয়ে অমিত ভাস্কৰৰ পৰা বাওঁফালে তিনিটা আসন আঁতৰত। পাঁচখন আসনৰ শাৰীত ইয়াৰ ফলত অমিতৰ বাওঁফালে দুজন ৰয়। বাকী সংখ্যাবোৰে অমিতক মূৰত ৰাখে বা দুজনৰ ব্যৱধান নষ্ট কৰে।"
+      }
     },
     {
       "type": "linear",
@@ -80,7 +104,11 @@
         { "option": "C", "en": "3", "as": "৩" },
         { "option": "D", "en": "0", "as": "০" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "In a seven-seat row P is third from the left, that is seat 3, and Q is third from the right, that is seat 5. The only seat between them is seat 4, so exactly one person sits between P and Q. Both are fixed three seats in from their ends, so no other count can arise.",
+        "as": "সাতখন আসনৰ শাৰীত P বাওঁমূৰৰ পৰা তৃতীয়, অৰ্থাৎ আসন ৩, আৰু Q সোঁমূৰৰ পৰা তৃতীয়, অৰ্থাৎ আসন ৫। তেওঁলোকৰ মাজত কেৱল আসন ৪ থাকে, সেয়ে P আৰু Q ৰ মাজত ঠিক এজন বহে। দুয়ো নিজৰ মূৰৰ পৰা তিনিটা আসনত নিৰ্দিষ্ট, সেয়ে আন কোনো গণনা সম্ভৱ নহয়।"
+      }
     },
     {
       "type": "linear",
@@ -91,7 +119,11 @@
         { "option": "C", "en": "D", "as": "D" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "C occupies the extreme left seat and D is second from the right, so the seating runs from C at the left towards D on the right side. A is immediately right of B, and the only free seat beside this pair belongs to D, making D the person at A's immediate right. The other names are already fixed in their seats.",
+        "as": "C আটাইতকৈ বাওঁমূৰৰ আসনত আৰু D সোঁমূৰৰ পৰা দ্বিতীয়, সেয়ে বহা-ব্যৱস্থা বাওঁফালৰ C ৰ পৰা সোঁফালৰ D লৈ যায়। A, B ৰ সোঁফালে ওচৰত, আৰু এই যোৰৰ কাষৰ একমাত্ৰ খালী আসন D ৰ, সেয়ে A ৰ সোঁফালে ওচৰত D বহে। বাকী নামবোৰ ইতিমধ্যে নিজৰ আসনত নিৰ্দিষ্ট।"
+      }
     },
     {
       "type": "linear",
@@ -102,7 +134,11 @@
         { "option": "C", "en": "Y and X", "as": "Y আৰু X" },
         { "option": "D", "en": "R and P", "as": "R আৰু P" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Y and Z sit immediately on either side of X, making the consecutive block Y-X-Z. In a row of six this central block places X on one of the two middle seats, the other being occupied by P. The remaining pairs include an end seat or break the block, so X and P is the middle pair.",
+        "as": "Y আৰু Z, X ৰ দুয়োকাষে ওচৰত বহাৰ বাবে Y-X-Z ক্ৰমিক গোট গঠন হয়। ছখনৰ শাৰীত এই কেন্দ্ৰীয় গোটে X ক দুটা মাজৰ আসনৰ এটাত ৰাখে, আনটোত P বহে। বাকী যোৰবোৰে মূৰৰ আসন সামৰে বা গোটটো ভাঙে, সেয়ে X আৰু P মাজৰ যোৰ।"
+      }
     },
     {
       "type": "linear",
@@ -113,7 +149,11 @@
         { "option": "C", "en": "4th", "as": "৪র্থ" },
         { "option": "D", "en": "5th", "as": "৫ম" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "A is at the extreme left and C is second to its right, fixing C at the third seat. E is placed exactly midway between C and the person at the extreme right (seat 6), which falls on seat 5, that is second from the right end. So E's position is 2nd from the right.",
+        "as": "A আটাইতকৈ বাওঁমূৰত আৰু C তাৰ সোঁফালে দ্বিতীয়, সেয়ে C তৃতীয় আসনত নিৰ্দিষ্ট হয়। E, C আৰু আটাইতকৈ সোঁমূৰৰ ব্যক্তি (আসন ৬) ৰ ঠিক মাজত, যিটো আসন ৫, অৰ্থাৎ সোঁমূৰৰ পৰা দ্বিতীয়ত পৰে। সেয়ে সোঁমূৰৰ পৰা E ৰ স্থান দ্বিতীয়।"
+      }
     },
     {
       "type": "linear",
@@ -124,7 +164,11 @@
         { "option": "C", "en": "No one", "as": "কোনো নাই" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Rekha sits in the middle, seat 3, and Meena is immediately to her left, seat 2, while Sita is at the extreme left, seat 1. Meena and Sita are therefore neighbours with no seat between them. Since Rekha lies to Meena's right, 'no one' is the only possible answer.",
+        "as": "ৰেখা মাজত, অৰ্থাৎ আসন ৩ ত, আৰু মীনা তেওঁৰ বাওঁফালে ওচৰত, আসন ২ ত, আনহাতে সীতা আটাইতকৈ বাওঁমূৰত, আসন ১ ত বহে। সেয়ে মীনা আৰু সীতা ওচৰা-উচৰি, মাজত কোনো আসন নাই। ৰেখা মীনাৰ সোঁফালে থকাৰ বাবে 'কোনো নাই' একমাত্ৰ শুদ্ধ উত্তৰ।"
+      }
     },
     {
       "type": "linear",
@@ -135,7 +179,11 @@
         { "option": "C", "en": "4", "as": "৪" },
         { "option": "D", "en": "1", "as": "১" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "A and B occupy the two extreme ends and C is exactly in the middle, the fourth seat of the seven. With B at the right end, the seats lying between C and B are counted along the row, giving three persons. The other numbers ignore the fixed middle position of C.",
+        "as": "A আৰু B দুয়ো মূৰত আৰু C সাতখনৰ ঠিক মাজত, অৰ্থাৎ চতুৰ্থ আসনত বহে। B সোঁমূৰত থকাত C ৰ পৰা B লৈ শাৰীৰ মাজৰ আসনবোৰ গণিলে তিনিজন পোৱা যায়। বাকী সংখ্যাবোৰে C ৰ নিৰ্দিষ্ট মাজৰ স্থানক অৱহেলা কৰে।"
+      }
     },
     {
       "type": "linear",
@@ -146,7 +194,11 @@
         { "option": "C", "en": "6th", "as": "৬ষ্ঠ" },
         { "option": "D", "en": "3rd", "as": "৩য়" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "The man is fourth from the left in a nine-person row, so three persons are to his left. His position from the right is therefore 9 minus 4 plus 1, which is sixth. The other options reverse or misplace this simple symmetry.",
+        "as": "নিজনীয়া শাৰীত মানুহজন বাওঁমূৰৰ পৰা চতুৰ্থ, সেয়ে তেওঁৰ বাওঁফালে তিনিজন। সোঁমূৰৰ পৰা তেওঁৰ স্থান ৯ বিয়োগ ৪ যোগ ১, অৰ্থাৎ ৬ষ্ঠ। বাকী বিকল্পবোৰে এই সৰল সমান-ভাৰসাম্যক ওলোটা বা ভুল কৰে।"
+      }
     },
     {
       "type": "linear",
@@ -157,7 +209,11 @@
         { "option": "C", "en": "Immediate right of D", "as": "D ৰ সোঁ ফালে ওচৰত" },
         { "option": "D", "en": "Extreme left end", "as": "আটাইতকৈ বাওঁ মূৰত" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "The row from left to right reads D, A, E, C with C at the right end, so the only remaining seat is next to D. B must sit there, which makes B the person immediately to the right of D. The other placements would contradict either the given order or the neighbour clue.",
+        "as": "বাওঁৰ পৰা সোঁলৈ শাৰীটো D, A, E, C, আৰু C সোঁমূৰত, সেয়ে ৰোৱা একমাত্ৰ আসন D ৰ কাষত। B তাতে বহিব লাগে, ফলত B, D ৰ সোঁফালে ওচৰত হয়। বাকী স্থানবোৰে দিয়া ক্ৰম বা ওচৰৰ চৰ্তৰ সৈতে বিৰোধ কৰে।"
+      }
     },
     {
       "type": "linear",
@@ -168,7 +224,11 @@
         { "option": "C", "en": "4", "as": "৪" },
         { "option": "D", "en": "5", "as": "৫" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Mohan is seventh from the left in a ten-person row, so six people are on his left. The remaining people, 10 minus 7 which is 3, sit on his right. Any other number would misplace Mohan's fixed seat.",
+        "as": "দহজনীয়া শাৰীত মোহন বাওঁমূৰৰ পৰা সপ্তম, সেয়ে তেওঁৰ বাওঁফালে ছয়জন। বাকী ১০ বিয়োগ ৭, অৰ্থাৎ ৩ জন তেওঁৰ সোঁফালে বহে। আন যিকোনো সংখ্যাই মোহনৰ নিৰ্দিষ্ট আসনক ভুল ঠাইত ৰাখে।"
+      }
     },
     {
       "type": "linear",
@@ -179,7 +239,11 @@
         { "option": "C", "en": "6th", "as": "৬ষ্ঠ" },
         { "option": "D", "en": "3rd", "as": "৩য়" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Ramesh is third from the left, seat 3, and Suresh is second to his right, seat 5, in an eight-person row. Suresh's position from the right is 8 minus 5 plus 1, that is fourth. So 4th is correct; the other values shift the seat by one or more.",
+        "as": "আঠজনীয়া শাৰীত ৰমেশ বাওঁমূৰৰ পৰা তৃতীয়, আসন ৩, আৰু সুরেশ তেওঁৰ সোঁফালে দ্বিতীয়, আসন ৫। সোঁমূৰৰ পৰা সুরেশৰ স্থান ৮ বিয়োগ ৫ যোগ ১, অৰ্থাৎ ৪র্থ। সেয়ে ৪র্থ শুদ্ধ; বাকী মানবোৰে আসন এটাবা অধিক পিছলায়।"
+      }
     },
     {
       "type": "circular",
@@ -190,7 +254,11 @@
         { "option": "C", "en": "A", "as": "A" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "A and B are opposite each other and C sits next to A, which leaves D in the final seat. The clue, however, does not fix which side of A is treated as the 'right', so B's immediate-left neighbour can flip between C and D. Because the left and right sense around the circle is not determined, the answer is 'cannot be determined'.",
+        "as": "A আৰু B পৰস্পৰৰ বিপৰীতত আৰু C, A ৰ কাষত, ফলত D ৰোৱা আসনত পৰে। কিন্তু A ৰ কোনটো ফাল 'সোঁ' হিচাপে ধৰা হ'ব সেইটো সংকেতে নিৰ্ধাৰণ নকৰে, সেয়ে B ৰ বাওঁফালে ওচৰৰ ব্যক্তিজন C বা D ৰ মাজত সলনি হ'ব পাৰে। বৃত্তত বাওঁ-সোঁ দিশ নিৰ্দিষ্ট নোহোৱাৰ বাবে উত্তৰ 'নিৰ্ণয় কৰিব নোৱাৰি'।"
+      }
     },
     {
       "type": "circular",
@@ -201,7 +269,11 @@
         { "option": "C", "en": "Q and U", "as": "Q আৰু U" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "P and R are fixed as one opposite pair, and S sits next to P, but the remaining persons Q, T and U can occupy the other seats in more than one way. Depending on which of these seats is used, the person opposite S changes, so the opposite pair cannot be identified uniquely.",
+        "as": "P আৰু R এটা নিৰ্দিষ্ট বিপৰীত যোৰ, আৰু S, P ৰ কাষত, কিন্তু বাকী Q, T আৰু U য়ে আন আসনবোৰ একাধিক ধৰণে ল'ব পাৰে। কোনটো আসনত কোন বহে তাৰ ওপৰত নিৰ্ভৰ কৰি S ৰ বিপৰীত ব্যক্তিজন সলনি হয়, সেয়ে বিপৰীত যোৰ নিৰ্দিষ্টভাৱে চিনাক্ত কৰিব নোৱাৰি।"
+      }
     },
     {
       "type": "circular",
@@ -212,7 +284,11 @@
         { "option": "C", "en": "Shyam's immediate right", "as": "শ্যামৰ সোঁ ফালে ওচৰত" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "The clue says Ram is second to the left of Shyam, that is Ram occupies the seat immediately beside Shyam on the left. When two people sit in adjacent seats there is no person between them on that arc, so 'there is no one between them' is correct. The direction Shyam faces does not add a person to the space between them.",
+        "as": "সংকেত অনুসৰি ৰাম শ্যামৰ বাওঁফালে দ্বিতীয়, অৰ্থাৎ ৰাম শ্যামৰ বাওঁফালে থকা কাষৰ আসনত বহে। দুজন লোকে কাষৰ আসনত বহিলে সেই আৰ্কত তেওঁলোকৰ মাজত কোনো ব্যক্তি নাথাকে, সেয়ে 'দুয়োৰে মাজত কোনো নাই' শুদ্ধ। শ্যামে মুখ কৰা দিশে তেওঁলোকৰ মাজৰ ঠাইত কোনো ব্যক্তি যোগ নকৰে।"
+      }
     },
     {
       "type": "circular",
@@ -223,7 +299,11 @@
         { "option": "C", "en": "4", "as": "৪" },
         { "option": "D", "en": "5", "as": "৫" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Around a circle of eight, if A is third to the right of B then two seats lie on the arc between B and A. Counting clockwise from B, exactly two persons separate them. Larger numbers would place A opposite B rather than third to the right.",
+        "as": "আঠজনৰ বৃত্তত A যদি B ৰ সোঁফালে তৃতীয় হয় তেন্তে B আৰু A ৰ মাজৰ আৰ্কত দুটা আসন থাকে। B ৰ পৰা ঘড়ীৰ কাঁটাৰ দিশে গণিলে ঠিক দুজন ব্যক্তিয়েহে তেওঁলোকক পৃথক কৰে। ডাঙৰ সংখ্যাই A ক তৃতীয়ৰ সলনি B ৰ বিপৰীতত ৰাখিব।"
+      }
     },
     {
       "type": "circular",
@@ -234,7 +314,11 @@
         { "option": "C", "en": "Y", "as": "Y" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "X and Y are opposite, so with six seats they occupy positions three apart. Z next to X and W next to Y then force the remaining two seats; the seat opposite Z falls exactly where W sits. Hence W sits opposite Z, and no other named person can occupy that seat.",
+        "as": "X আৰু Y বিপৰীত, সেয়ে ছখন আসনত তেওঁলোক তিনিটা আসন আঁতৰত। X ৰ কাষত Z আৰু Y ৰ কাষত W এ বাকী দুটা আসন নিৰ্ধাৰণ কৰে; Z ৰ বিপৰীত আসন W ৰ ঠিক য'ত পৰে। সেয়ে W, Z ৰ বিপৰীতত বহে, আন কোনো নাম থকা ব্যক্তিয়ে সেই আসন ল'ব নোৱাৰে।"
+      }
     },
     {
       "type": "circular",
@@ -245,7 +329,11 @@
         { "option": "C", "en": "Another woman", "as": "আন এগৰাকী মহিলা" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Since every husband sits opposite his own wife, the two people immediately beside Mr. A must be the wives of the two men seated next to his wife. Those neighbours are therefore women from other couples, so 'another woman' is the only correct description. Mr. A's own wife is opposite him, not beside him.",
+        "as": "প্ৰতিজন স্বামীয়ে নিজৰ পত্নীৰ বিপৰীতত বহাৰ বাবে শ্ৰী A ৰ কাষৰ দুজন তেওঁৰ পত্নীৰ কাষত বহা দুজন পুৰুষৰ পত্নী হ'ব লাগে। সেয়ে সেই ওচৰৰ ব্যক্তিসকল আন দম্পতীৰ মহিলা, অৰ্থাৎ 'আন এগৰাকী মহিলা' একমাত্ৰ শুদ্ধ বৰ্ণনা। শ্ৰী A ৰ নিজৰ পত্নী তেওঁৰ কাষত নহয়, বিপৰীতত।"
+      }
     },
     {
       "type": "circular",
@@ -256,7 +344,11 @@
         { "option": "C", "en": "Ekta", "as": "একতা" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Fixing Bimal at one seat, Anil is on his right and Chitra on his left, so only two seats remain. Dinesh opposite Anil forces the seat next to Chitra, leaving the last seat for Ekta, which lies two places from Bimal. The consistent arrangement therefore puts Ekta opposite Bimal.",
+        "as": "বিমলক এটা আসনত ৰাখিলে অনিল তেওঁৰ সোঁফালে আৰু চিত্ৰা বাওঁফালে, ফলত কেৱল দুটা আসন ৰয়। অনিলৰ বিপৰীতত দিনেশ থকাৰ বাবে চিত্ৰাৰ কাষৰ আসন নিৰ্দিষ্ট হয়, আৰু শেষৰ আসনত একতা, যিটো বিমলৰ পৰা দুটা স্থান আঁতৰত। সেয়ে সুনিৰ্দিষ্ট ব্যৱস্থাত একতা বিমলৰ বিপৰীতত পৰে।"
+      }
     },
     {
       "type": "circular",
@@ -267,7 +359,11 @@
         { "option": "C", "en": "8", "as": "৮" },
         { "option": "D", "en": "5", "as": "৫" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Two people lie between A and B on the clockwise arc, and two more on the anticlockwise arc. Adding A and B themselves gives 2 plus 2 plus 2, that is 6 people around the table. The other numbers either omit the two endpoints or miscount one arc.",
+        "as": "ঘড়ীৰ কাঁটাৰ দিশে A আৰু B ৰ মাজত দুজন আৰু বিপৰীত দিশে আন দুজন। A আৰু B যোগ কৰিলে ২ যোগ ২ যোগ ২, অৰ্থাৎ ৬ জন লোকে টেবুলৰ চাৰিওফালে থাকে। বাকী সংখ্যাবোৰে দুয়ো মূৰ বাদ দিয়ে বা এটা আৰ্ক ভুল গণে।"
+      }
     },
     {
       "type": "circular",
@@ -278,7 +374,11 @@
         { "option": "C", "en": "2", "as": "২" },
         { "option": "D", "en": "5", "as": "৫" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "In a circle of eight, 'fourth to the right' means P is four seats away from Q, so exactly three seats lie on that arc between them. Therefore three people sit between P and Q; the other options confuse the gap with the full circle or the number of steps.",
+        "as": "আঠজনৰ বৃত্তত 'সোঁফালে চতুৰ্থ' মানে P, Q ৰ পৰা চাৰিটা আসন আঁতৰত, সেয়ে তেওঁলোকৰ মাজৰ আৰ্কত ঠিক তিনিটা আসন থাকে। সেয়ে P আৰু Q ৰ মাজত তিনিজন বহে; বাকী বিকল্পবোৰে ব্যৱধানক গোট বৃত্ত বা পদক্ষেপৰ সংখ্যাৰ সৈতে মিহলায়।"
+      }
     },
     {
       "type": "circular",
@@ -289,7 +389,11 @@
         { "option": "C", "en": "D", "as": "D" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "A and C are opposite, and B sits to A's left, so D must be on the other side of A. Working around the four seats, the person to the immediate right of C is the one on the side opposite B's side of the table, namely D. Hence D is the answer.",
+        "as": "A আৰু C বিপৰীত, আৰু B, A ৰ বাওঁফালে, সেয়ে D, A ৰ আনটো ফালে থাকিব লাগে। চাৰিওটা আসনৰ পৰা বিচাৰি চালে C ৰ সোঁফালে ওচৰত থকা ব্যক্তিজন B ৰ ফালৰ বিপৰীত ফালৰ, অৰ্থাৎ D। সেয়ে D উত্তৰ।"
+      }
     },
     {
       "type": "circular",
@@ -300,7 +404,11 @@
         { "option": "C", "en": "8", "as": "৮" },
         { "option": "D", "en": "9", "as": "৯" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "The two opposite persons are separated by three people on each side, so the count is 3 plus 3 on the two arcs plus the opposite pair themselves. That gives 3 plus 3 plus 2, that is 8 people around the table. The stated seven is only the number of seats initially mentioned, not the derived total.",
+        "as": "বিপৰীত দুজনৰ প্ৰতিখন ফালে তিনিজনকৈ থাকে, সেয়ে দুয়ো আৰ্কত ৩ যোগ ৩ আৰু বিপৰীত যোৰ দুজন যোগ হয়। ফলত ৩ যোগ ৩ যোগ ২, অৰ্থাৎ ৮ জন লোকে টেবুলৰ চাৰিওফালে থাকে। কোৱা সাতজন কেৱল প্ৰাৰম্ভিকভাৱে উল্লেখ কৰা আসনৰ সংখ্যা, উলিওৱা মুঠ নহয়।"
+      }
     },
     {
       "type": "circular",
@@ -311,7 +419,11 @@
         { "option": "C", "en": "Q", "as": "Q" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Placing Q as reference, P is two seats to Q's left, R is next to Q on the right and T is next to P on the left; the single remaining seat is S. Moving clockwise from R to T, S is the person met in between, so S sits between R and T.",
+        "as": "Q ক সূচক ধৰিলে P, Q ৰ বাওঁফালে দুটা আসনত, R, Q ৰ সোঁফালে কাষত আৰু T, P ৰ বাওঁফালে কাষত; ৰোৱা এটাই আসন S ৰ। R ৰ পৰা ঘড়ীৰ কাঁটাৰ দিশে T লৈ গ'লে S মাজত পোৱা যায়, সেয়ে R আৰু T ৰ মাজত S বহে।"
+      }
     },
     {
       "type": "circular",
@@ -322,7 +434,11 @@
         { "option": "C", "en": "B and C", "as": "B আৰু C" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "With A opposite B, the other two seats hold C and D, one on each side. Since C is to A's immediate left and D to B's immediate right, the seats next to C are A on one side and D on the other. Thus the persons to C's immediate right and left are A and D respectively.",
+        "as": "A, B ৰ বিপৰীত হ'লে বাকী দুটা আসনত C আৰু D, এজনকৈ প্ৰতিখন ফালে। C, A ৰ বাওঁফালে ওচৰত আৰু D, B ৰ সোঁফালে ওচৰত থকাৰ বাবে C ৰ এফালে A আৰু আনফালে D থাকে। সেয়ে C ৰ সোঁ আৰু বাওঁফালে ওচৰত ক্ৰমে A আৰু D।"
+      }
     },
     {
       "type": "square",
@@ -333,7 +449,11 @@
         { "option": "C", "en": "C", "as": "C" },
         { "option": "D", "en": "D", "as": "D" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Taking the corners in order, B is next to A and C is next to A on the other side, so going around the square the sequence is B, A, C and then the last person D. The corner immediately to the right of D therefore falls back on B, making B the answer.",
+        "as": "কোনাবোৰ ক্ৰমে ধৰিলে B, A ৰ কাষত আৰু C, A ৰ আনফালে কাষত, সেয়ে বৰ্গটোৰ চাৰিওফালে ক্ৰম B, A, C আৰু শেষত D। সেয়ে D ৰ সোঁফালে ওচৰৰ কোণ আকৌ B লৈ ঘূৰি আহে, অৰ্থাৎ B উত্তৰ।"
+      }
     },
     {
       "type": "square",
@@ -344,7 +464,11 @@
         { "option": "C", "en": "They sit on adjacent sides", "as": "তেওঁলোক ওচৰা-উচৰি ফালে বহে" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "For two persons to have one at the other's immediate right, they must be seated shoulder to shoulder along one side of the square. Hence A and B occupy two seats of the same side, and they are not opposite or on different sides.",
+        "as": "দুজনৰ এজন আনজনৰ সোঁফালে ওচৰত হ'বলৈ তেওঁলোক বৰ্গৰ এখন ফালে কান্ধ-কান্ধি বহিব লাগে। সেয়ে A আৰু B একেখন ফালৰ দুটা আসনত বহে, তেওঁলোক বিপৰীত বা বেলেগ বেলেগ ফালে নহয়।"
+      }
     },
     {
       "type": "square",
@@ -355,7 +479,11 @@
         { "option": "C", "en": "The person opposite A", "as": "A ৰ বিপৰীতত থকা ব্যক্তিজন" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "In a four-person square each person is opposite the person two seats away. The immediate neighbour on A's left is two seats from A's immediate right, so the seat opposite that left neighbour is none other than A. Thus A is the person who sits opposite the one to the left of A.",
+        "as": "চাৰিজনৰ বৰ্গত প্ৰতিজন ব্যক্তি দুটা আসন আঁতৰৰ ব্যক্তিৰ বিপৰীতত। A ৰ বাওঁফালে ওচৰৰ ব্যক্তিজন A ৰ সোঁফালে ওচৰৰ পৰা দুটা আসন আঁতৰত, সেয়ে সেই বাওঁ ওচৰৰ ব্যক্তিৰ বিপৰীত আসনত A ৰ বাহিৰে আন কোনো নহয়। সেয়ে A ৰ বাওঁফালে থকা ব্যক্তিৰ বিপৰীতত A বহে।"
+      }
     },
     {
       "type": "square",
@@ -366,7 +494,11 @@
         { "option": "C", "en": "North", "as": "উত্তৰ" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "The question states that all four men face outside, away from the centre. Since everyone faces the same outward direction, B also faces away from the centre, and no positional clue can change that. Hence 'away from centre' is certain.",
+        "as": "প্ৰশ্নত কোৱা হৈছে চাৰিওজন পুৰুষ কেন্দ্ৰৰ পৰা বাহিৰলৈ মুখ কৰি বহে। সকলোৱে একে বাহিৰমুখী দিশে মুখ কৰা বাবে B য়েও কেন্দ্ৰৰ পৰা বাহিৰলৈ মুখ কৰে, কোনো স্থান-সংকেতে ইয়াক সলাব নোৱাৰে। সেয়ে 'কেন্দ্ৰৰ পৰা বাহিৰলৈ' নিশ্চিত।"
+      }
     },
     {
       "type": "square",
@@ -377,7 +509,11 @@
         { "option": "C", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" },
         { "option": "D", "en": "R", "as": "R" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "P and Q sit side by side on one side and R at the corner to P's right, but the actual side and the seats of the other four are not given. Q's opposite seat therefore depends on the unknown orientation, so it cannot be determined uniquely.",
+        "as": "P আৰু Q এখন ফালে কাষে-কাষে আৰু R, P ৰ সোঁফালে থকা কোণত, কিন্তু প্ৰকৃত ফাল আৰু বাকী চাৰিজনৰ আসন দিয়া নাই। সেয়ে Q ৰ বিপৰীত আসন অজ্ঞাত দিশৰ ওপৰত নিৰ্ভৰশীল, সেয়ে নিশ্চিতভাৱে নিৰ্ণয় কৰিব নোৱাৰি।"
+      }
     },
     {
       "type": "square",
@@ -388,7 +524,11 @@
         { "option": "C", "en": "D", "as": "D" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "A at the north-west corner faces the centre, so the corners to its immediate right and left are taken by B and C. The only corner left for D is the south-east, and the corner lying diagonally across from B is occupied by D. So D is the person opposite B.",
+        "as": "উত্তৰ-পশ্চিম কোনাত A থকাৰ বাবে তাৰ সোঁ আৰু বাওঁফালে ওচৰৰ কোণ দুটা B আৰু C ৰ, আৰু বাকী দক্ষিণ-পূব কোণ D ৰ। B ৰ তিৰ্যকভাৱে আঁৰত থকা কোণত D থাকে, সেয়ে B ৰ বিপৰীতত D।"
+      }
     },
     {
       "type": "square",
@@ -399,7 +539,11 @@
         { "option": "C", "en": "The person at the bottom-left corner", "as": "তল-বাওঁ কোনাত থকা ব্যক্তিজন" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "M is at the top-left corner and N is beside it on the right. The corner diagonally opposite the top-left corner is the bottom-right one, and that is the only seat lying fully across the square from M. So the bottom-right occupant is diagonally opposite M.",
+        "as": "M ওপৰ-বাওঁ কোনাত আৰু N তেওঁৰ সোঁফালে কাষত। ওপৰ-বাওঁ কোনাৰ তিৰ্যকভাৱে বিপৰীত কোণটো তল-সোঁ, আৰু সেয়াই M ৰ পৰা বৰ্গৰ আৰ-পাৰত থকা একমাত্ৰ আসন। সেয়ে তল-সোঁ কোনাৰ ব্যক্তিজন M ৰ তিৰ্যকভাৱে বিপৰীতত।"
+      }
     },
     {
       "type": "square",
@@ -410,7 +554,11 @@
         { "option": "C", "en": "D", "as": "D" },
         { "option": "D", "en": "No one", "as": "কোনো নাই" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "A and C are opposite, so B next to A and D next to C must fill the two remaining adjacent seats. Whether B is on one side or the other, the seat facing B is always D's seat. Hence D sits opposite B.",
+        "as": "A আৰু C বিপৰীত, সেয়ে A ৰ কাষৰ B আৰু C ৰ কাষৰ D এ বাকী দুটা কাষৰ আসন ল'ব লাগে। B যিকোনো ফালে থাকক, B ৰ বিপৰীত আসন সদায় D ৰ। সেয়ে D, B ৰ বিপৰীতত বহে।"
+      }
     },
     {
       "type": "square",
@@ -421,7 +569,11 @@
         { "option": "C", "en": "2", "as": "২" },
         { "option": "D", "en": "1", "as": "১" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "In an eight-seat square with two persons per side, the corners are four seats apart around the perimeter. Walking from one corner to the diagonally opposite corner along a side passes the two side seats plus the next corner's neighbour, giving three people in between.",
+        "as": "দুইজনকৈ প্ৰতিখন ফালে থকা আঠজনৰ বৰ্গত কোনাবোৰ পৰিধিৰ চাৰিটা আসন আঁতৰত। এটা কোনাৰ পৰা তিৰ্যকভাৱে বিপৰীত কোনালৈ এখন ফালেদি গ'লে দুটা কাষৰ আসন আৰু পিছৰ কোনাৰ ওচৰৰ এজন পাৰ হয়, ফলত মাজত তিনিজন।"
+      }
     },
     {
       "type": "square",
@@ -432,7 +584,11 @@
         { "option": "C", "en": "D sits to the immediate left of B", "as": "D, B ৰ বাওঁ ফালে ওচৰত বহে" },
         { "option": "D", "en": "All of the above are true", "as": "ওপৰৰ সকলোবোৰ সত্য" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "A is opposite B, and C is next to A on the left, so the fourth seat D is next to A on the other side and necessarily opposite C. Hence 'D sits opposite C' is true, while the other statements misplace D relative to A and B.",
+        "as": "A, B ৰ বিপৰীত আৰু C, A ৰ বাওঁফালে কাষত, সেয়ে চতুৰ্থ আসন D, A ৰ আনফালে কাষত আৰু অবশ্যই C ৰ বিপৰীতত। সেয়ে 'D, C ৰ বিপৰীতত বহে' সত্য, আন বক্তব্যই D ক A আৰু B ৰ সাপেক্ষে ভুল ঠাইত ৰাখে।"
+      }
     },
     {
       "type": "square",
@@ -443,7 +599,11 @@
         { "option": "C", "en": "A person on the opposite side", "as": "বিপৰীত ফালে থকা এজন ব্যক্তি" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "X sits at the end of one long side and Y faces it from the other long side. The seat immediately to X's left, from X's view towards the centre, is the next seat along X's own long side, so the neighbour is a person on the same side, not on the opposite side.",
+        "as": "X এখন দীঘল ফালৰ মূৰত আৰু Y আনখন দীঘল ফালৰ পৰা তাৰ বিপৰীতত। X ৰ (কেন্দ্ৰলৈ চাই) বাওঁফালে ওচৰৰ আসন X ৰ নিজৰ দীঘল ফালৰ পিছৰ আসন, সেয়ে ওচৰৰ ব্যক্তিজন একে ফালে থকা, বিপৰীত ফালৰ নহয়।"
+      }
     },
     {
       "type": "square",
@@ -454,7 +614,11 @@
         { "option": "C", "en": "C", "as": "C" },
         { "option": "D", "en": "D", "as": "D" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "With A opposite B and C next to A, D must sit next to B. Working around the four seats, the person to D's immediate left is A, since A and D are adjacent on that side. The other names are either opposite or already placed elsewhere.",
+        "as": "A, B ৰ বিপৰীত আৰু C, A ৰ কাষত হ'লে D, B ৰ কাষত বহিব লাগে। চাৰিওটা আসনৰ পৰা চালে D ৰ বাওঁফালে ওচৰত A, কাৰণ সেই ফালে A আৰু D কাষে-কাষে। আন নামবোৰ বিপৰীতত বা ইতিমধ্যে আন ঠাইত।"
+      }
     },
     {
       "type": "square",
@@ -465,7 +629,11 @@
         { "option": "C", "en": "C", "as": "C" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "A is at a corner and B and C are its two neighbours, but the position immediately to the right of C and the seat facing it depend on how C is oriented and which corner A occupies. Since these are not fixed, the person opposite C's right-hand neighbour cannot be determined.",
+        "as": "A এটা কোনাত আৰু B, C তাৰ দুটা ওচৰৰ, কিন্তু C ৰ সোঁফালে ওচৰত ক'ত আৰু তাৰ বিপৰীত আসন কোনটো C ৰ দিশ আৰু A ৰ কোনাৰ ওপৰত নিৰ্ভৰশীল। এইবোৰ নিৰ্দিষ্ট নহ'ৱাৰ বাবে C ৰ সোঁ ওচৰৰ ব্যক্তিৰ বিপৰীত ব্যক্তিজন নিৰ্ণয় কৰিব নোৱাৰি।"
+      }
     },
     {
       "type": "square",
@@ -476,7 +644,11 @@
         { "option": "C", "en": "C", "as": "C" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "A at the north-west corner faces the centre and its right-hand neighbour B is placed accordingly, while the remaining corners hold C and D. Following the seating around the square, the seat to the immediate left of the south-east occupant turns out to be A's corner, so A is the answer.",
+        "as": "উত্তৰ-পশ্চিম কোনাত A কেন্দ্ৰলৈ মুখ কৰি আৰু তাৰ সোঁফালে ওচৰৰ B সেই অনুসৰি ৰখা হয়; বাকী কোনাত C আৰু D। বৰ্গৰ চাৰিওফালে বহা-ব্যৱস্থা অনুসৰণ কৰিলে দক্ষিণ-পূবৰ ব্যক্তিৰ বাওঁফালে ওচৰৰ আসন A ৰ কোনা হয়, সেয়ে A উত্তৰ।"
+      }
     },
     {
       "type": "circular",
@@ -487,7 +659,11 @@
         { "option": "C", "en": "F", "as": "F" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "A sits between B and C with B on its left and C on its right, and D is opposite B, but the positions of the remaining two friends E and F are free. Depending on where E and F sit, the person exactly opposite A changes, so it cannot be determined.",
+        "as": "A, B আৰু C ৰ মাজত, B বাওঁফালে আৰু C সোঁফালে, আৰু D, B ৰ বিপৰীতত, কিন্তু বাকী দুই বন্ধু E আৰু F ৰ স্থান খালী। E আৰু F ক'ত বহে তাৰ ওপৰত নিৰ্ভৰ কৰি A ৰ ঠিক বিপৰীত ব্যক্তিজন সলনি হয়, সেয়ে নিৰ্ণয় কৰিব নোৱাৰি।"
+      }
     },
     {
       "type": "circular",
@@ -498,7 +674,11 @@
         { "option": "C", "en": "4", "as": "৪" },
         { "option": "D", "en": "1", "as": "১" }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "A is three seats to B's left, and C is one seat to A's right, so along the anticlockwise arc from C to B four persons lie in between. The clockwise route would give a different, shorter distance, so counting must follow the stated anticlockwise direction.",
+        "as": "A, B ৰ বাওঁফালে তিনিটা আসনত আৰু C, A ৰ সোঁফালে এটা আসনত, সেয়ে C ৰ পৰা B লৈ ঘড়ীৰ বিপৰীত দিশে চাৰিজন ব্যক্তি মাজত পৰে। ঘড়ীৰ কাঁটাৰ দিশে ধৰিলে ভিন্ন, চুটি দূৰত্ব পোৱা যায়, সেয়ে গণনা কোৱা বিপৰীত দিশে কৰিব লাগে।"
+      }
     },
     {
       "type": "linear",
@@ -509,7 +689,11 @@
         { "option": "C", "en": "1", "as": "১" },
         { "option": "D", "en": "4", "as": "৪" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "A is at the third seat and B at the sixth seat of an eight-seat row. The seats strictly between them are the fourth and the fifth, so exactly two seats lie between A and B. The other counts would ignore one of these two seats.",
+        "as": "আঠখন আসনৰ শাৰীত A তৃতীয় আৰু B ষষ্ঠ আসনত। তেওঁলোকৰ মাজত থকা আসন দুটা চতুৰ্থ আৰু পঞ্চম, সেয়ে A আৰু B ৰ মাজত ঠিক দুটা আসন। বাকী সংখ্যাই এই দুটাৰ এটা অৱহেলা কৰে।"
+      }
     },
     {
       "type": "linear",
@@ -520,7 +704,11 @@
         { "option": "C", "en": "T", "as": "T" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "Q is fixed in the middle seat, P is two seats to its left and R immediately to its right, leaving the second and fifth seats for S and T. Since S and T can be interchanged without any further clue, the occupant of the extreme right seat is not fixed, hence cannot be determined.",
+        "as": "Q মাজৰ আসনত নিৰ্দিষ্ট, P তাৰ বাওঁফালে দুটা আসনত আৰু R সোঁফালে ওচৰত, ফলত দ্বিতীয় আৰু পঞ্চম আসন S আৰু T ৰ। কোনো অতিৰিক্ত সংকেত নথকাৰ বাবে S আৰু T পৰস্পৰে সলনি হ'ব পাৰে, সেয়ে আটাইতকৈ সোঁমূৰৰ আসন নিৰ্দিষ্ট নহয়, অৰ্থাৎ নিৰ্ণয় কৰিব নোৱাৰি।"
+      }
     },
     {
       "type": "circular",
@@ -531,7 +719,11 @@
         { "option": "C", "en": "C", "as": "C" },
         { "option": "D", "en": "Cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "A is opposite D, while B and E flank A; with six seats this fixes the pair beside A. The seat exactly opposite B is then occupied by F, as the remaining friend C takes the other free seat. Thus F sits opposite B.",
+        "as": "A, D ৰ বিপৰীত আৰু B, E A ৰ দুয়োকাষে, সেয়ে ছখন আসনত A ৰ কাষৰ যোৰ নিৰ্দিষ্ট হয়। B ৰ ঠিক বিপৰীত আসনত F থাকে, কাৰণ ৰোৱা বন্ধু C য়ে আনটো খালী আসন লয়। সেয়ে F, B ৰ বিপৰীতত বহে।"
+      }
     },
     {
       "type": "square",
@@ -542,7 +734,11 @@
         { "option": "C", "en": "A", "as": "A" },
         { "option": "D", "en": "No one", "as": "কোনো নাই" }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "The clues give the consecutive order C-A-B, and D sits immediately right of B, completing the four corners. C and B are two seats apart, so they face each other across the table. Therefore B sits opposite C.",
+        "as": "সংকেতবোৰে C-A-B ক্ৰমিক ক্ৰম দিয়ে আৰু D, B ৰ সোঁফালে ওচৰত বহি চাৰিওটা কোণ পূৰ্ণ কৰে। C আৰু B দুটা আসন আঁতৰত, সেয়ে তেওঁলোক টেবুলৰ আৰ-পাৰে মুখামুখি। সেয়ে B, C ৰ বিপৰীতত বহে।"
+      }
     }
   ]
 }

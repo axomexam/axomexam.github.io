@@ -45,7 +45,11 @@
           "as": "P = S"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Decode the symbols: '@' is '>', '#' is '<'. So P > Q > R < S. From P > Q and Q > R we get P > R, so option C holds. Q = R is false because Q > R; Q < S and P = S cannot be fixed since only R < S is known.",
+        "as": "চিহ্ন উদ্ধাৰ কৰিলে '@' অৰ্থ '>' আৰু '#' অৰ্থ '<'। সেয়ে P > Q > R < S। P > Q আৰু Q > R ৰ পৰা P > R পোৱা যায়, গতিকে C শুদ্ধ। Q > R হোৱাৰ বাবে Q = R অসত্য; কেৱল R < S জনা যায়, সেয়ে Q < S আৰু P = S নিশ্চিত নহয়।"
+      }
     },
     {
       "type": "inequality_coded",
@@ -75,7 +79,11 @@
           "as": "B < D"
         }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "Decode: '$' is '≥', '#' is '<', '&' is '='. Thus A ≥ B < C = D. Since B < C and C = D, we get B < D, so D is correct. A > C, B > C and A = C are ruled out because A ≥ B and B < C leave A's relation to C undetermined.",
+        "as": "'$' অৰ্থ '≥', '#' অৰ্থ '<' আৰু '&' অৰ্থ '='। সেয়ে A ≥ B < C = D। B < C আৰু C = D ৰ পৰা B < D পোৱা যায়, গতিকে D শুদ্ধ। A ≥ B আৰু B < C ৰ পৰা C ৰ সৈতে A ৰ সম্পৰ্ক নিৰ্ণয় নহয়, সেয়ে A > C, B > C আৰু A = C অসত্য।"
+      }
     },
     {
       "type": "inequality_coded",
@@ -105,7 +113,11 @@
           "as": "X = W"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Decode: '%' is '≤', '#' is '<', '&' is '='. So X ≤ Y < Z = W. Chaining gives X < W, hence C. Y > W is wrong since Y < Z = W; X = Y and X = W are impossible because X ≤ Y and X < W.",
+        "as": "'%' অৰ্থ '≤', '#' অৰ্থ '<', '&' অৰ্থ '='। সেয়ে X ≤ Y < Z = W। শৃংখলাবদ্ধ কৰি X < W পোৱা যায়, গতিকে C। Y < Z = W হোৱাৰ বাবে Y > W অসত্য; X ≤ Y আৰু X < W ৰ বাবে X = Y আৰু X = W অসম্ভৱ।"
+      }
     },
     {
       "type": "inequality_coded",
@@ -135,7 +147,11 @@
           "as": "M > O"
         }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "Decode: '@' is '>', '%' is '≤', '#' is '<'. Thus M > N > O ≤ P < Q. From M > N and N > O we get M > O, so D is definite. M = O and O = P are false (strict inequalities), and N's relation to Q cannot be fixed.",
+        "as": "'@' অৰ্থ '>', '%' অৰ্থ '≤', '#' অৰ্থ '<'। সেয়ে M > N > O ≤ P < Q। M > N আৰু N > O ৰ পৰা M > O পোৱা যায়, গতিকে D নিশ্চিত। M = O আৰু O = P অসত্য (কঠোৰ অসমতা), আৰু Q ৰ সৈতে N ৰ সম্পৰ্ক নিৰ্ণয় কৰিব নোৱাৰি।"
+      }
     },
     {
       "type": "inequality_coded",
@@ -165,7 +181,11 @@
           "as": "M = Q"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Decode: '#' is '<', '$' is '≥', '%' is '≤', '&' is '='. So M < N ≥ O ≤ P = Q. Because Q = P ≥ O, we get Q ≥ O, so B holds. M > P cannot be decided, and N = Q, M = Q are not implied.",
+        "as": "'#' অৰ্থ '<', '$' অৰ্থ '≥', '%' অৰ্থ '≤', '&' অৰ্থ '='। সেয়ে M < N ≥ O ≤ P = Q। Q = P ≥ O হোৱাৰ বাবে Q ≥ O পোৱা যায়, গতিকে B শুদ্ধ। M > P নিৰ্ণয় কৰিব নোৱাৰি, আৰু N = Q, M = Qও প্ৰমাণিত নহয়।"
+      }
     },
     {
       "type": "inequality_coded",
@@ -195,7 +215,11 @@
           "as": "C = E"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Decode: '@' is '>', '$' is '≥', '#' is '<', '&' is '='. Thus A > B ≥ C < D = E. From A > B ≥ C we get A > C, so C is correct. B = D is impossible because B ≥ C < D; A = C and C = E contradict the strict relations.",
+        "as": "'@' অৰ্থ '>', '$' অৰ্থ '≥', '#' অৰ্থ '<', '&' অৰ্থ '='। সেয়ে A > B ≥ C < D = E। A > B ≥ C ৰ পৰা A > C পোৱা যায়, গতিকে C শুদ্ধ। B ≥ C < D ৰ বাবে B = D অসম্ভৱ; A = C আৰু C = E কঠোৰ সম্পৰ্কৰ বিৰোধী।"
+      }
     },
     {
       "type": "inequality_coded",
@@ -225,7 +249,11 @@
           "as": "T > X"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Decode: '@' is '>', '#' is '<', '&' is '='. So T > U < V > W = X. Since V > W = X, V > X is definite, hence B. U > X and T > V, T > X cannot be concluded because U and T sit on the smaller side of V.",
+        "as": "'@' অৰ্থ '>', '#' অৰ্থ '<', '&' অৰ্থ '='। সেয়ে T > U < V > W = X। V > W = X হোৱাৰ বাবে V > X নিশ্চিত, গতিকে B। V ৰ সৰু ফালে U আৰু T থকাৰ বাবে U > X, T > V আৰু T > X সিদ্ধান্ত কৰিব নোৱাৰি।"
+      }
     },
     {
       "type": "inequality_coded",
@@ -255,7 +283,11 @@
           "as": "Q > S"
         }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "Decode: '%' is '≤', '&' is '=', '@' is '>', '#' is '<'. Thus P ≤ Q = R > S < T. Since Q = R > S, Q > S is definite, so D. P < R is not certain (P may equal R), Q = S is false, and S > P cannot be determined.",
+        "as": "'%' অৰ্থ '≤', '&' অৰ্থ '=', '@' অৰ্থ '>', '#' অৰ্থ '<'। সেয়ে P ≤ Q = R > S < T। Q = R > S হোৱাৰ বাবে Q > S নিশ্চিত, গতিকে D। P = R হ'বও পাৰে, সেয়ে P < R নিশ্চিত নহয়; Q = S অসত্য আৰু S > P নিৰ্ণয় কৰিব নোৱাৰি।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -285,7 +317,11 @@
           "as": "Q = S"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Direct reading: P > Q ≥ R = S. Combining P > Q and Q ≥ R gives P > R, so A is correct. Q > S is not certain since Q ≥ S could be equal; S = P and Q = S are clearly false.",
+        "as": "পোনপটীয়াভাৱে: P > Q ≥ R = S। P > Q আৰু Q ≥ R একলগ কৰি P > R পোৱা যায়, গতিকে A শুদ্ধ। Q ≥ S সমানও হ'ব পাৰে, সেয়ে Q > S নিশ্চিত নহয়; S = P আৰু Q = S স্পষ্টভাৱে অসত্য।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -315,7 +351,11 @@
           "as": "C = D"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Given A = B > C ≥ D. Since A = B and B > C, we get A > C, hence A. B = D is false because B > C ≥ D makes B > D, and A = C, C = D contradict the inequalities.",
+        "as": "দিয়া আছে A = B > C ≥ D। A = B আৰু B > C ৰ পৰা A > C পোৱা যায়, গতিকে A। B > C ≥ D ৰ বাবে B > D হয়, সেয়ে B = D অসত্য; A = C আৰু C = D অসমতাৰ বিৰোধী।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -345,7 +385,11 @@
           "as": "R < U"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Statements: R > S = T < U. Because R > S and S = T, we get R > T, so C holds. T > S is false (T = S), R = T is false, and R < U cannot be decided from R > S = T < U.",
+        "as": "উক্তি: R > S = T < U। R > S আৰু S = T ৰ পৰা R > T পোৱা যায়, গতিকে C শুদ্ধ। T = S হোৱাৰ বাবে T > S অসত্য, R = T অসত্য, আৰু R > S = T < U ৰ পৰা R < U নিৰ্ণয় কৰিব নোৱাৰি।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -375,7 +419,11 @@
           "as": "Y < W"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Statements: X ≥ Y > Z ≥ W. Combining X ≥ Y and Y > Z gives X > Z, so B. X = W is not implied, Z > W is not certain (Z ≥ W), and Y < W is impossible since Y > Z ≥ W gives Y > W.",
+        "as": "উক্তি: X ≥ Y > Z ≥ W। X ≥ Y আৰু Y > Z ৰ পৰা X > Z পোৱা যায়, গতিকে B। X = W প্ৰমাণিত নহয়, Z ≥ W হোৱাৰ বাবে Z > W নিশ্চিত নহয়, আৰু Y > Z ≥ W ৰ পৰা Y > W হয় সেয়ে Y < W অসম্ভৱ।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -405,7 +453,11 @@
           "as": "P < S"
         }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "Statements: P < Q < R < S. Chaining the three inequalities gives P < S, so D. S < P, Q = R and P = S all reverse or deny the given strict order.",
+        "as": "উক্তি: P < Q < R < S। তিনিওটা অসমতা শৃংখলাবদ্ধ কৰি P < S পোৱা যায়, গতিকে D। S < P, Q = R আৰু P = S দিয়া কঠোৰ ক্ৰমক ওলোটা বা অস্বীকাৰ কৰে।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -435,7 +487,11 @@
           "as": "P = Q"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Statements: M = N > O > P ≥ Q. From M = N and N > O > P we get M > P, so C. M = P, N = O and P = Q are all false because the relevant relations are strict (or the last is ≥).",
+        "as": "উক্তি: M = N > O > P ≥ Q। M = N আৰু N > O > P ৰ পৰা M > P পোৱা যায়, গতিকে C। M = P, N = O আৰু P = Q অসত্য কাৰণ প্ৰাসংগিক সম্পৰ্কবোৰ কঠোৰ (বা শেষটো ≥)।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -465,7 +521,11 @@
           "as": "B < D"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Statements: A ≥ B = C ≥ D. Chaining the non-strict inequalities gives A ≥ D, so B. A > D and A = D are not forced individually, and B < D is false because B = C ≥ D.",
+        "as": "উক্তি: A ≥ B = C ≥ D। অ-কঠোৰ অসমতাবোৰ শৃংখলাবদ্ধ কৰি A ≥ D পোৱা যায়, গতিকে B। A > D আৰু A = D পৃথকে বাধ্যতামূলক নহয়, আৰু B = C ≥ D ৰ বাবে B < D অসত্য।"
+      }
     },
     {
       "type": "inequality_coded",
@@ -495,7 +555,11 @@
           "as": "O < K"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Decode: '@' >, '&' =, '$' ≥, '#' <. So K > L = M ≥ N < O. From K > L = M ≥ N we get K > N, hence A. L = N is not forced (M ≥ N), M > N is not certain, and O < K cannot be fixed.",
+        "as": "'@' >, '&' =, '$' ≥, '#' <। সেয়ে K > L = M ≥ N < O। K > L = M ≥ N ৰ পৰা K > N পোৱা যায়, গতিকে A। M ≥ N হোৱাৰ বাবে L = N বাধ্যতামূলক নহয়, M > N নিশ্চিত নহয়, আৰু O < K নিৰ্ণয় কৰিব নোৱাৰি।"
+      }
     },
     {
       "type": "inequality_coded",
@@ -525,7 +589,11 @@
           "as": "A = D"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Decode: '$' ≥, '&' =, '%' ≤, '#' <. Thus A ≥ B = C ≤ D ≥ E < F. Since B = C ≤ D, B ≤ D is definite, so C. A > F, C > E and A = D cannot be determined from the given chain.",
+        "as": "'$' ≥, '&' =, '%' ≤, '#' <। সেয়ে A ≥ B = C ≤ D ≥ E < F। B = C ≤ D হোৱাৰ বাবে B ≤ D নিশ্চিত, গতিকে C। দিয়া শৃংখলাৰ পৰা A > F, C > E আৰু A = D নিৰ্ণয় কৰিব নোৱাৰি।"
+      }
     },
     {
       "type": "inequality_coded",
@@ -555,7 +623,11 @@
           "as": "X = Z"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Decode: '%' ≤, '#' <, '$' ≥, '&' =. So X ≤ Y < Z ≥ W ≤ V = U. From X ≤ Y < Z we get X < Z, hence B. Y = W, Z > U and X = Z do not follow because the chain changes direction at Z.",
+        "as": "'%' ≤, '#' <, '$' ≥, '&' =। সেয়ে X ≤ Y < Z ≥ W ≤ V = U। X ≤ Y < Z ৰ পৰা X < Z পোৱা যায়, গতিকে B। Z ত শৃংখলাৰ দিশ সলনি হোৱাৰ বাবে Y = W, Z > U আৰু X = Z অনুসৰণ নকৰে।"
+      }
     },
     {
       "type": "inequality_coded",
@@ -585,7 +657,11 @@
           "as": "O > Q"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Decode: '$' ≥, '#' <, '&' =, '%' ≤. So M ≥ N < O = P ≤ Q < R. Because N < O = P, we get N < P, so C. M = R, M > P and O > Q are not supported by the chain.",
+        "as": "'$' ≥, '#' <, '&' =, '%' ≤। সেয়ে M ≥ N < O = P ≤ Q < R। N < O = P হোৱাৰ বাবে N < P পোৱা যায়, গতিকে C। শৃংখলাই M = R, M > P আৰু O > Q সমৰ্থন নকৰে।"
+      }
     },
     {
       "type": "inequality_coded",
@@ -615,7 +691,11 @@
           "as": "A = C"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Decode: '@' >, '&' =, '#' <. So A > B = C > D < E > F. From A > B = C > D we get A > D, hence C. F > C, D > E and A = C contradict or cannot be derived from the strict chain.",
+        "as": "'@' >, '&' =, '#' <। সেয়ে A > B = C > D < E > F। A > B = C > D ৰ পৰা A > D পোৱা যায়, গতিকে C। F > C, D > E আৰু A = C কঠোৰ শৃংখলাৰ পৰা ওলোৱা নাই বা বিৰোধী।"
+      }
     },
     {
       "type": "inequality_coded",
@@ -645,7 +725,11 @@
           "as": "P = R"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Decode: '@' >, '$' ≥, '#' <, '%' ≤, '&' =. Thus P > Q ≥ R < S ≤ T = U. From P > Q ≥ R we get P > R, so B. Q = S, S = U and P = R cannot be concluded.",
+        "as": "'@' >, '$' ≥, '#' <, '%' ≤, '&' =। সেয়ে P > Q ≥ R < S ≤ T = U। P > Q ≥ R ৰ পৰা P > R পোৱা যায়, গতিকে B। Q = S, S = U আৰু P = R সিদ্ধান্ত কৰিব নোৱাৰি।"
+      }
     },
     {
       "type": "inequality_coded",
@@ -675,7 +759,11 @@
           "as": "M > O"
         }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "Decode: '@' >, '$' ≥, '%' ≤, '#' <, '&' =. So M > N ≥ O ≤ P < Q = R. Combining M > N and N ≥ O gives M > O, hence D. N = P, O > Q and M = O are not implied.",
+        "as": "'@' >, '$' ≥, '%' ≤, '#' <, '&' =। সেয়ে M > N ≥ O ≤ P < Q = R। M > N আৰু N ≥ O একলগ কৰি M > O পোৱা যায়, গতিকে D। N = P, O > Q আৰু M = O প্ৰমাণিত নহয়।"
+      }
     },
     {
       "type": "inequality_coded",
@@ -705,7 +793,11 @@
           "as": "X > Z"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Decode: '$' ≥, '#' <, '&' =, '%' ≤, '@' >. So X ≥ Y < Z = W ≤ V > U. Since Y < Z = W, we get Y < W, so C. V < U is impossible, Z < W is false, and X > Z cannot be decided.",
+        "as": "'$' ≥, '#' <, '&' =, '%' ≤, '@' >। সেয়ে X ≥ Y < Z = W ≤ V > U। Y < Z = W হোৱাৰ বাবে Y < W পোৱা যায়, গতিকে C। V < U অসম্ভৱ, Z < W অসত্য, আৰু X > Z নিৰ্ণয় কৰিব নোৱাৰি।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -735,7 +827,11 @@
           "as": "Y = Z"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Statements: X < Y ≤ Z = W. Chaining gives X < W, so A. X = W contradicts X < W, Y > W is wrong since Y ≤ W, and Y = Z is not certain because Y ≤ Z.",
+        "as": "উক্তি: X < Y ≤ Z = W। শৃংখলাবদ্ধ কৰি X < W পোৱা যায়, গতিকে A। X < W ৰ বিপৰীত X = W, Y ≤ W হোৱাৰ বাবে Y > W ভুল, আৰু Y ≤ Z হোৱাৰ বাবে Y = Z নিশ্চিত নহয়।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -765,7 +861,11 @@
           "as": "S > P"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Statements: P ≥ Q > R = S. From P ≥ Q and Q > R we get P > R, so C. Q = S is false because Q > R = S; P = S and S > P are not supported.",
+        "as": "উক্তি: P ≥ Q > R = S। P ≥ Q আৰু Q > R ৰ পৰা P > R পোৱা যায়, গতিকে C। Q > R = S ৰ বাবে Q = S অসত্য; P = S আৰু S > P সমৰ্থিত নহয়।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -795,7 +895,11 @@
           "as": "A < C"
         }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "Statements: A < B = C < D. Since A < B and B = C, we get A < C, hence D. B = D and A = C are false, and B = A reverses the strict inequality A < B.",
+        "as": "উক্তি: A < B = C < D। A < B আৰু B = C ৰ পৰা A < C পোৱা যায়, গতিকে D। B = D আৰু A = C অসত্য, আৰু B = A এ কঠোৰ অসমতা A < B ওলোটা কৰে।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -825,7 +929,11 @@
           "as": "O = Q"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Statements: M ≤ N < O < P ≤ Q. Chaining all gives M < Q, so B. M = Q, N = P and O = Q are ruled out by the strict inequalities in the chain.",
+        "as": "উক্তি: M ≤ N < O < P ≤ Q। আটাইবোৰ শৃংখলাবদ্ধ কৰি M < Q পোৱা যায়, গতিকে B। শৃংখলাৰ কঠোৰ অসমতাবোৰৰ বাবে M = Q, N = P আৰু O = Q অসম্ভৱ।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -855,7 +963,11 @@
           "as": "P = T"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Statements: P ≥ Q ≥ R > S = T. Combining gives P > T, so A. Q = T, R = T and P = T are false because the chain ends with the strict step R > S = T.",
+        "as": "উক্তি: P ≥ Q ≥ R > S = T। একলগ কৰি P > T পোৱা যায়, গতিকে A। শৃংখলাৰ শেষত কঠোৰ স্তৰ R > S = T থকাৰ বাবে Q = T, R = T আৰু P = T অসত্য।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -885,7 +997,11 @@
           "as": "X = W"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Statements: X ≥ Y = Z > W ≥ V. From X ≥ Y = Z and Z > W we get X > W, hence B. Y = V, Z = V and X = W contradict the strict relation Z > W ≥ V.",
+        "as": "উক্তি: X ≥ Y = Z > W ≥ V। X ≥ Y = Z আৰু Z > W ৰ পৰা X > W পোৱা যায়, গতিকে B। Y = V, Z = V আৰু X = W এ কঠোৰ সম্পৰ্ক Z > W ≥ V ৰ বিৰোধ কৰে।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -915,7 +1031,11 @@
           "as": "C = A"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Statements: A > B ≥ C = D > E. Since A > B and B ≥ C = D, we get A > D, so A. A = D, B = E and C = A are ruled out by the strict inequalities.",
+        "as": "উক্তি: A > B ≥ C = D > E। A > B আৰু B ≥ C = D হোৱাৰ বাবে A > D পোৱা যায়, গতিকে A। কঠোৰ অসমতাবোৰৰ বাবে A = D, B = E আৰু C = A অসম্ভৱ।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -945,7 +1065,11 @@
           "as": "Q > S"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Statements: P < Q ≤ R = S < T. Chaining gives P < S, so C. Q = S is not certain since Q ≤ S; P = S is false, and Q > S is impossible because Q ≤ S.",
+        "as": "উক্তি: P < Q ≤ R = S < T। শৃংখলাবদ্ধ কৰি P < S পোৱা যায়, গতিকে C। Q ≤ S হোৱাৰ বাবে Q = S নিশ্চিত নহয়; P = S অসত্য, আৰু Q ≤ S হোৱাৰ বাবে Q > S অসম্ভৱ।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -975,7 +1099,11 @@
           "as": "N = P"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Statements: M > N ≥ O = P < Q ≤ R. From M > N and N ≥ O = P we get M > P, so A. M = P, N = O and N = P are not implied, since N ≥ O may be strict or equal but M > P stays strict.",
+        "as": "উক্তি: M > N ≥ O = P < Q ≤ R। M > N আৰু N ≥ O = P ৰ পৰা M > P পোৱা যায়, গতিকে A। M = P, N = O আৰু N = P প্ৰমাণিত নহয়, কাৰণ N ≥ O সমান বা কঠোৰ হ'ব পাৰে কিন্তু M > P সদায় কঠোৰ।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -1005,7 +1133,11 @@
           "as": "C = D"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Statements: A = B ≥ C > D ≤ E. Since A = B and B ≥ C > D, we get A > D, so C. E > A cannot be decided, B = C is not certain (≥), and C = D is false.",
+        "as": "উক্তি: A = B ≥ C > D ≤ E। A = B আৰু B ≥ C > D হোৱাৰ বাবে A > D পোৱা যায়, গতিকে C। E > A নিৰ্ণয় কৰিব নোৱাৰি, B ≥ C হোৱাৰ বাবে B = C নিশ্চিত নহয়, আৰু C = D অসত্য।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -1035,7 +1167,11 @@
           "as": "Y = V"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Statements: X < Y < Z ≤ W = V. Chaining gives X < V, so A. X = V is false, Z = V is not certain (Z ≤ V), and Y = V is clearly wrong.",
+        "as": "উক্তি: X < Y < Z ≤ W = V। শৃংখলাবদ্ধ কৰি X < V পোৱা যায়, গতিকে A। X = V অসত্য, Z ≤ V হোৱাৰ বাবে Z = V নিশ্চিত নহয়, আৰু Y = V স্পষ্টভাৱে ভুল।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -1065,7 +1201,11 @@
           "as": "Q > S"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Statements: P ≥ Q = R < S ≤ T > U. Since P ≥ Q and Q = R, we have P ≥ R, so B. P > R is not forced (could be equal), P = R is not forced, and Q > S is false because Q = R < S.",
+        "as": "উক্তি: P ≥ Q = R < S ≤ T > U। P ≥ Q আৰু Q = R হোৱাৰ বাবে P ≥ R, গতিকে B। P > R বাধ্যতামূলক নহয় (সমানও হ'ব পাৰে), P = R বাধ্যতামূলক নহয়, আৰু Q = R < S ৰ বাবে Q > S অসত্য।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -1095,7 +1235,11 @@
           "as": "O ≥ Q"
         }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "Statements: M ≤ N < O ≥ P = Q. Since O ≥ P and P = Q, we get O ≥ Q, so D. M < Q and N > Q cannot be decided, and O > Q is not certain because O ≥ Q allows equality.",
+        "as": "উক্তি: M ≤ N < O ≥ P = Q। O ≥ P আৰু P = Q হোৱাৰ বাবে O ≥ Q পোৱা যায়, গতিকে D। M < Q আৰু N > Q নিৰ্ণয় কৰিব নোৱাৰি, আৰু O ≥ Q সমান হ'ব পাৰে সেয়ে O > Q নিশ্চিত নহয়।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -1125,7 +1269,11 @@
           "as": "A = E"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Statements: A > B > C ≥ D = E. Combining A > B > C and C ≥ D = E gives B > E, so C. B = C is false, C = E is not forced (C ≥ E), and A = E is false.",
+        "as": "উক্তি: A > B > C ≥ D = E। A > B > C আৰু C ≥ D = E একলগ কৰি B > E পোৱা যায়, গতিকে C। B = C অসত্য, C ≥ E হোৱাৰ বাবে C = E বাধ্যতামূলক নহয়, আৰু A = E অসত্য।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -1155,7 +1303,11 @@
           "as": "Y = V"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Statements: X = Y < Z ≤ W = V > U. From X = Y < Z ≤ W we get X < W, so A. X = W is false, Z > U cannot be fixed, and Y = V is not implied.",
+        "as": "উক্তি: X = Y < Z ≤ W = V > U। X = Y < Z ≤ W ৰ পৰা X < W পোৱা যায়, গতিকে A। X = W অসত্য, Z > U নিৰ্ণয় কৰিব নোৱাৰি, আৰু Y = V প্ৰমাণিত নহয়।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -1185,7 +1337,11 @@
           "as": "R = U"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Statements: P > Q ≥ R ≥ S > T = U. Chaining the strict and non-strict relations gives P > S, so C. P = S and R = U are false, and Q = S is not certain because Q ≥ S.",
+        "as": "উক্তি: P > Q ≥ R ≥ S > T = U। কঠোৰ আৰু অ-কঠোৰ সম্পৰ্কবোৰ শৃংখলাবদ্ধ কৰি P > S পোৱা যায়, গতিকে C। P = S আৰু R = U অসত্য, আৰু Q ≥ S হোৱাৰ বাবে Q = S নিশ্চিত নহয়।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -1215,7 +1371,11 @@
           "as": "A ≤ E"
         }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "Statements: A ≤ B ≤ C ≤ D = E. Chaining the non-strict inequalities gives A ≤ E, so D. A < E and A = E are not individually certain, and B > E contradicts B ≤ E.",
+        "as": "উক্তি: A ≤ B ≤ C ≤ D = E। অ-কঠোৰ অসমতাবোৰ শৃংখলাবদ্ধ কৰি A ≤ E পোৱা যায়, গতিকে D। A < E আৰু A = E পৃথকে নিশ্চিত নহয়, আৰু B > E এ B ≤ E ৰ বিৰোধ কৰে।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -1245,7 +1405,11 @@
           "as": "N > M"
         }
       ],
-      "a": "B"
+      "a": "B",
+      "explanation": {
+        "en": "Statements: M = N = O = P > Q. All of M, N, O, P are equal, so M = P is definite, hence B. M > P, Q = M and N > M contradict the equalities.",
+        "as": "উক্তি: M = N = O = P > Q। M, N, O, P আটাইবোৰ সমান, সেয়ে M = P নিশ্চিত, গতিকে B। M > P, Q = M আৰু N > M সমতাবোৰৰ বিৰোধী।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -1275,7 +1439,11 @@
           "as": "Z > V"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Statements: X ≥ Y ≤ Z = W < V. Since Y ≤ Z = W and W < V, we get Y < V, so C. X > V cannot be decided, X = V is false, and Z > V is impossible because Z = W < V.",
+        "as": "উক্তি: X ≥ Y ≤ Z = W < V। Y ≤ Z = W আৰু W < V হোৱাৰ বাবে Y < V পোৱা যায়, গতিকে C। X > V নিৰ্ণয় কৰিব নোৱাৰি, X = V অসত্য, আৰু Z = W < V হোৱাৰ বাবে Z > V অসম্ভৱ।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -1305,7 +1473,11 @@
           "as": "Q ≥ T"
         }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "Statements: P ≤ Q = R ≥ S = T. Since Q = R and R ≥ S = T, we get Q ≥ T, so D. Q = S is not certain, P = T is false, and P ≥ T cannot be decided.",
+        "as": "উক্তি: P ≤ Q = R ≥ S = T। Q = R আৰু R ≥ S = T হোৱাৰ বাবে Q ≥ T পোৱা যায়, গতিকে D। Q = S নিশ্চিত নহয়, P = T অসত্য, আৰু P ≥ T নিৰ্ণয় কৰিব নোৱাৰি।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -1335,7 +1507,11 @@
           "as": "C = E"
         }
       ],
-      "a": "A"
+      "a": "A",
+      "explanation": {
+        "en": "Statements: A < B = C ≤ D = E. From A < B and B ≤ D = E we get A < E, so A. A = E is false, B = D is not certain (B ≤ D), and C = E is not certain (C ≤ E).",
+        "as": "উক্তি: A < B = C ≤ D = E। A < B আৰু B ≤ D = E ৰ পৰা A < E পোৱা যায়, গতিকে A। A = E অসত্য, B ≤ D হোৱাৰ বাবে B = D নিশ্চিত নহয়, আৰু C ≤ E হোৱাৰ বাবে C = E নিশ্চিত নহয়।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -1365,7 +1541,11 @@
           "as": "N = Q"
         }
       ],
-      "a": "C"
+      "a": "C",
+      "explanation": {
+        "en": "Statements: M > N = O < P = Q ≥ R. From M > N and N = O we get M > O, so C. M = O, O = P and N = Q are false or not implied by the chain.",
+        "as": "উক্তি: M > N = O < P = Q ≥ R। M > N আৰু N = O ৰ পৰা M > O পোৱা যায়, গতিকে C। M = O, O = P আৰু N = Q অসত্য বা শৃংখলাৰ পৰা পোৱা নাযায়।"
+      }
     },
     {
       "type": "inequality_direct",
@@ -1395,7 +1575,11 @@
           "as": "X > W"
         }
       ],
-      "a": "D"
+      "a": "D",
+      "explanation": {
+        "en": "Statements: X = Y > Z = W ≥ V > U. Since X = Y and Y > Z = W, we get X > W, so D. X = W is false, Z > V is not certain (Z ≥ V), and Y = V is false.",
+        "as": "উক্তি: X = Y > Z = W ≥ V > U। X = Y আৰু Y > Z = W হোৱাৰ বাবে X > W পোৱা যায়, গতিকে D। X = W অসত্য, Z ≥ V হোৱাৰ বাবে Z > V নিশ্চিত নহয়, আৰু Y = V অসত্য।"
+      }
     }
   ]
 }
