@@ -1,209 +1,1773 @@
 {
   "id": "brahmaputra-river",
-  "title": { "en": "Brahmaputra River", "as": "ব্ৰহ্মপুত্ৰ নদী" },
-  "description": { "en": "Key facts about the Brahmaputra — origin, tributaries and geography of Assam.", "as": "ব্ৰহ্মপুত্ৰ নদীৰ মূল তথ্য — উৎপত্তি, উপনদী আৰু অসমৰ ভূগোল।" },
-  "tags": ["river", "geography", "assam", "brahmaputra", "নদী", "ব্ৰহ্মপুত্ৰ", "ভূগোল"],
+  "title": {
+    "en": "Brahmaputra River",
+    "as": "ব্ৰহ্মপুত্ৰ নদী"
+  },
+  "description": {
+    "en": "Key facts about the Brahmaputra — origin, tributaries and geography of Assam.",
+    "as": "ব্ৰহ্মপুত্ৰ নদীৰ মূল তথ্য — উৎপত্তি, উপনদী আৰু অসমৰ ভূগোল।"
+  },
+  "tags": [
+    "river",
+    "geography",
+    "assam",
+    "brahmaputra",
+    "নদী",
+    "ব্ৰহ্মপুত্ৰ",
+    "ভূগোল"
+  ],
   "pdf": "brahmaputra-river.pdf",
   "questions": [
     {
-      "q": { "en": "Where is the source of the Brahmaputra river?", "as": "ব্ৰহ্মপুত্ৰ নদীৰ উৎপত্তি ক'ৰ পৰা হৈছে?" },
-      "a": { "en": "Chemayungdung Glacier near Lake Mansarovar in Tibet.", "as": "তিব্বতৰ মানস সৰোবৰৰ ওচৰৰ চেমায়ুংদুং (Chemayungdung) হিমবাহৰ পৰা।" }
+      "q": {
+        "en": "Where is the source of the Brahmaputra river?",
+        "as": "ব্ৰহ্মপুত্ৰ নদীৰ উৎপত্তি ক'ৰ পৰা হৈছে?"
+      },
+      "options": {
+        "en": [
+          "(a) Chemayungdung Glacier near Lake Mansarovar in Tibet.",
+          "(b) Gangotri Glacier in Uttarakhand.",
+          "(c) Amarkantak Plateau in Madhya Pradesh.",
+          "(d) The hills of Manipur."
+        ],
+        "as": [
+          "(ক) তিব্বতৰ মানস সৰোবৰৰ ওচৰৰ চেমায়ুংদুং হিমবাহৰ পৰা।",
+          "(খ) উত্তৰাখণ্ডৰ গংগোত্ৰী হিমবাহৰ পৰা।",
+          "(গ) মধ্যপ্ৰদেশৰ অমৰকণ্টক মালভূমিৰ পৰা।",
+          "(ঘ) মণিপুৰৰ পাহাৰৰ পৰা।"
+        ]
+      },
+      "correct": "a",
+      "a": {
+        "en": [
+          "The Brahmaputra originates in the Chemayungdung glacier near Lake Mansarovar in Tibet.",
+          "Answer: (a) Chemayungdung Glacier near Lake Mansarovar in Tibet."
+        ],
+        "as": [
+          "ব্ৰহ্মপুত্ৰ তিব্বতৰ মানস সৰোবৰৰ ওচৰৰ চেমায়ুংদুং হিমবাহত উৎপত্তি হয়।",
+          "উত্তৰ: (ক) তিব্বতৰ মানস সৰোবৰৰ ওচৰৰ চেমায়ুংদুং হিমবাহৰ পৰা।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Brahmaputra originates in the Chemayungdung glacier near Lake Mansarovar in Tibet. Therefore, the correct option is (a).",
+        "as": "ধাপে-ধাপে: ব্ৰহ্মপুত্ৰ তিব্বতৰ মানস সৰোবৰৰ ওচৰৰ চেমায়ুংদুং হিমবাহত উৎপত্তি হয়। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ক)।"
+      }
     },
     {
-      "q": { "en": "By what name is the Brahmaputra river known in Tibet?", "as": "তিব্বতত ব্ৰহ্মপুত্ৰ নদীক কি নামেৰে জনা যায়?" },
-      "a": { "en": "Yarlung Tsangpo.", "as": "য়াৰ্লুং চাংপো (Yarlung Tsangpo)।" }
+      "q": {
+        "en": "By what name is the Brahmaputra river known in Tibet?",
+        "as": "তিব্বতত ব্ৰহ্মপুত্ৰ নদীক কি নামেৰে জনা যায়?"
+      },
+      "options": {
+        "en": [
+          "(a) Siang.",
+          "(b) Yarlung Tsangpo.",
+          "(c) Jamuna.",
+          "(d) Lauhitya."
+        ],
+        "as": [
+          "(ক) ছিয়াং।",
+          "(খ) য়াৰ্লুং চাংপো।",
+          "(গ) যমুনা।",
+          "(ঘ) লৌহিত্য।"
+        ]
+      },
+      "correct": "b",
+      "a": {
+        "en": [
+          "In Tibet the Brahmaputra is called the Yarlung Tsangpo.",
+          "Answer: (b) Yarlung Tsangpo."
+        ],
+        "as": [
+          "তিব্বতত ব্ৰহ্মপুত্ৰক য়াৰ্লুং চাংপো বোলা হয়।",
+          "উত্তৰ: (খ) য়াৰ্লুং চাংপো।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: In Tibet the Brahmaputra is called the Yarlung Tsangpo. Therefore, the correct option is (b).",
+        "as": "ধাপে-ধাপে: তিব্বতত ব্ৰহ্মপুত্ৰক য়াৰ্লুং চাংপো বোলা হয়। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (খ)।"
+      }
     },
     {
-      "q": { "en": "What is the meaning of the word 'Tsangpo'?", "as": "চাংপো (Tsangpo) শব্দৰ অৰ্থ কি?" },
-      "a": { "en": "The Purifier.", "as": "পবিত্ৰকাৰী বা শোধনকাৰী (The Purifier)।" }
+      "q": {
+        "en": "What is the meaning of the word 'Tsangpo'?",
+        "as": "চাংপো শব্দৰ অৰ্থ কি?"
+      },
+      "options": {
+        "en": [
+          "(a) The Great River.",
+          "(b) The Holy Water.",
+          "(c) The Purifier.",
+          "(d) The Blue River."
+        ],
+        "as": [
+          "(ক) মহানদী।",
+          "(খ) পবিত্ৰ জল।",
+          "(গ) পবিত্ৰকাৰী বা শোধনকাৰী।",
+          "(ঘ) নীল নদী।"
+        ]
+      },
+      "correct": "c",
+      "a": {
+        "en": [
+          "Tsangpo literally means 'the purifier'.",
+          "Answer: (c) The Purifier."
+        ],
+        "as": [
+          "চাংপোৰ আক্ষৰিক অৰ্থ হৈছে 'পবিত্ৰকাৰী'।",
+          "উত্তৰ: (গ) পবিত্ৰকাৰী বা শোধনকাৰী।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: Tsangpo literally means 'the purifier'. Therefore, the correct option is (c).",
+        "as": "ধাপে-ধাপে: চাংপোৰ আক্ষৰিক অৰ্থ হৈছে 'পবিত্ৰকাৰী'। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (গ)।"
+      }
     },
     {
-      "q": { "en": "By what name is the Brahmaputra known when it enters Arunachal Pradesh?", "as": "অৰুণাচল প্ৰদেশত প্ৰৱেশ কৰাৰ সময়ত ব্ৰহ্মপুত্ৰক কি নামেৰে জনা যায়?" },
-      "a": { "en": "Siang and later Dihang.", "as": "ছিয়াং (Siang) আৰু পাছত দিহাং (Dihang)।" }
+      "q": {
+        "en": "By what name is the Brahmaputra known when it enters Arunachal Pradesh?",
+        "as": "অৰুণাচল প্ৰদেশত প্ৰৱেশ কৰাৰ সময়ত ব্ৰহ্মপুত্ৰক কি নামেৰে জনা যায়?"
+      },
+      "options": {
+        "en": [
+          "(a) Jamuna.",
+          "(b) Padma.",
+          "(c) Meghna.",
+          "(d) Siang and later Dihang."
+        ],
+        "as": [
+          "(ক) যমুনা।",
+          "(খ) পদ্মা।",
+          "(গ) মেঘনা।",
+          "(ঘ) ছিয়াং আৰু পাছত দিহাং।"
+        ]
+      },
+      "correct": "d",
+      "a": {
+        "en": [
+          "On entering Arunachal Pradesh the river is called the Siang and then the Dihang.",
+          "Answer: (d) Siang and later Dihang."
+        ],
+        "as": [
+          "অৰুণাচল প্ৰদেশত প্ৰৱেশ কৰিলে নদীখনক ছিয়াং আৰু পিছত দিহাং বোলা হয়।",
+          "উত্তৰ: (ঘ) ছিয়াং আৰু পাছত দিহাং।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: On entering Arunachal Pradesh the river is called the Siang and then the Dihang. Therefore, the correct option is (d).",
+        "as": "ধাপে-ধাপে: অৰুণাচল প্ৰদেশত প্ৰৱেশ কৰিলে নদীখনক ছিয়াং আৰু পিছত দিহাং বোলা হয়। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ঘ)।"
+      }
     },
     {
-      "q": { "en": "Through which gorge does the Brahmaputra enter India?", "as": "ব্ৰহ্মপুত্ৰ নদীয়ে কোনটো গিৰিখাতেৰে (Gorge) ভাৰতত প্ৰৱেশ কৰিছে?" },
-      "a": { "en": "Dihang Gorge near Namcha Barwa peak (Great Bend).", "as": "নামচা বাৰ্বা শৃংগৰ ওচৰৰ দিহাং গিৰিখাত (Great Bend)।" }
+      "q": {
+        "en": "Through which gorge does the Brahmaputra enter India?",
+        "as": "ব্ৰহ্মপুত্ৰ নদীয়ে কোন গিৰিখাতেৰে ভাৰতত প্ৰৱেশ কৰিছে?"
+      },
+      "options": {
+        "en": [
+          "(a) The Dihang Gorge near Namcha Barwa peak.",
+          "(b) The Bhor Ghat.",
+          "(c) The Palghat Gap.",
+          "(d) The Zojila Pass."
+        ],
+        "as": [
+          "(ক) নামচা বাৰ্বা শৃংগৰ ওচৰৰ দিহাং গিৰিখাত।",
+          "(খ) ভোৰ ঘাট।",
+          "(গ) পালঘাট ফাঁট।",
+          "(ঘ) জোজিলা গিৰিপথ।"
+        ]
+      },
+      "correct": "a",
+      "a": {
+        "en": [
+          "The Brahmaputra cuts through the Dihang Gorge near Namcha Barwa in a great bend to enter India.",
+          "Answer: (a) The Dihang Gorge near Namcha Barwa peak."
+        ],
+        "as": [
+          "ব্ৰহ্মপুত্ৰে নামচা বাৰ্বাৰ ওচৰৰ দিহাং গিৰিখাত এটা বৃহৎ বেঁকাৰ মাজেৰে কাটি ভাৰতত সোমায়।",
+          "উত্তৰ: (ক) নামচা বাৰ্বা শৃংগৰ ওচৰৰ দিহাং গিৰিখাত।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Brahmaputra cuts through the Dihang Gorge near Namcha Barwa in a great bend to enter India. Therefore, the correct option is (a).",
+        "as": "ধাপে-ধাপে: ব্ৰহ্মপুত্ৰে নামচা বাৰ্বাৰ ওচৰৰ দিহাং গিৰিখাত এটা বৃহৎ বেঁকাৰ মাজেৰে কাটি ভাৰতত সোমায়। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ক)।"
+      }
     },
     {
-      "q": { "en": "What are the three main headstreams that form the Brahmaputra in Assam?", "as": "অসমত ব্ৰহ্মপুত্ৰ নদীৰ প্ৰধান তিনিটা উৎস নদী কি কি?" },
-      "a": { "en": "Dihang, Dibang and Lohit.", "as": "দিহাং, দিবাং আৰু লোহিত।" }
+      "q": {
+        "en": "What are the three main headstreams that form the Brahmaputra in Assam?",
+        "as": "অসমত ব্ৰহ্মপুত্ৰ গঠন কৰা প্ৰধান তিনিটা উৎস নদী কি কি?"
+      },
+      "options": {
+        "en": [
+          "(a) Ganga, Yamuna and Saraswati.",
+          "(b) Dihang, Dibang and Lohit.",
+          "(c) Subansiri, Manas and Sankosh.",
+          "(d) Barak, Surma and Kushiyara."
+        ],
+        "as": [
+          "(ক) গংগা, যমুনা আৰু সৰস্বতী।",
+          "(খ) দিহাং, দিবাং আৰু লোহিত।",
+          "(গ) সুবনশিৰি, মানস আৰু শঙ্কোশ।",
+          "(ঘ) বৰাক, শুৰ্মা আৰু কুশিয়ৰা।"
+        ]
+      },
+      "correct": "b",
+      "a": {
+        "en": [
+          "The Dihang, Dibang and Lohit streams unite to form the Brahmaputra in Assam.",
+          "Answer: (b) Dihang, Dibang and Lohit."
+        ],
+        "as": [
+          "দিহাং, দিবাং আৰু লোহিত নদী মিলি অসমত ব্ৰহ্মপুত্ৰ গঠন কৰে।",
+          "উত্তৰ: (খ) দিহাং, দিবাং আৰু লোহিত।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Dihang, Dibang and Lohit streams unite to form the Brahmaputra in Assam. Therefore, the correct option is (b).",
+        "as": "ধাপে-ধাপে: দিহাং, দিবাং আৰু লোহিত নদী মিলি অসমত ব্ৰহ্মপুত্ৰ গঠন কৰে। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (খ)।"
+      }
     },
     {
-      "q": { "en": "Where do the Dihang, Dibang, and Lohit rivers meet to form the Brahmaputra?", "as": "কোন ঠাইত দিহাং, দিবাং আৰু লোহিত মিলিত হৈ 'ব্ৰহ্মপুত্ৰ' নাম লৈছে?" },
-      "a": { "en": "At Kobo Chapori near Sadiya.", "as": "শদিয়াৰ ওচৰৰ কোবো চাপৰিত।" }
+      "q": {
+        "en": "Where do the Dihang, Dibang and Lohit rivers meet to form the Brahmaputra?",
+        "as": "কোন ঠাইত দিহাং, দিবাং আৰু লোহিত মিলিত হৈ ব্ৰহ্মপুত্ৰ নাম লৈছে?"
+      },
+      "options": {
+        "en": [
+          "(a) At Guwahati.",
+          "(b) At Tezpur.",
+          "(c) At Kobo Chapori near Sadiya.",
+          "(d) At Dhubri."
+        ],
+        "as": [
+          "(ক) গুৱাহাটীত।",
+          "(খ) তেজপুৰত।",
+          "(গ) সদিয়াৰ ওচৰৰ কোবো চাপৰিত।",
+          "(ঘ) ধুবুৰীত।"
+        ]
+      },
+      "correct": "c",
+      "a": {
+        "en": [
+          "The three streams meet at Kobo Chapori near Sadiya to form the Brahmaputra.",
+          "Answer: (c) At Kobo Chapori near Sadiya."
+        ],
+        "as": [
+          "তিনিওটা নদীয়ে সদিয়াৰ ওচৰৰ কোবো চাপৰিত মিলি ব্ৰহ্মপুত্ৰ গঠন কৰে।",
+          "উত্তৰ: (গ) সদিয়াৰ ওচৰৰ কোবো চাপৰিত।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The three streams meet at Kobo Chapori near Sadiya to form the Brahmaputra. Therefore, the correct option is (c).",
+        "as": "ধাপে-ধাপে: তিনিওটা নদীয়ে সদিয়াৰ ওচৰৰ কোবো চাপৰিত মিলি ব্ৰহ্মপুত্ৰ গঠন কৰে। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (গ)।"
+      }
     },
     {
-      "q": { "en": "By what name is the Brahmaputra known in Bangladesh?", "as": "বাংলাদেশত ব্ৰহ্মপুত্ৰ নদী কি নামেৰে জনাজাত?" },
-      "a": { "en": "Jamuna.", "as": "যমুনা (Jamuna)।" }
+      "q": {
+        "en": "By what name is the Brahmaputra known in Bangladesh?",
+        "as": "বাংলাদেশত ব্ৰহ্মপুত্ৰ নদী কি নামেৰে জনাজাত?"
+      },
+      "options": {
+        "en": [
+          "(a) Padma.",
+          "(b) Meghna.",
+          "(c) Karnaphuli.",
+          "(d) Jamuna."
+        ],
+        "as": [
+          "(ক) পদ্মা।",
+          "(খ) মেঘনা।",
+          "(গ) কৰ্ণফুলী।",
+          "(ঘ) যমুনা।"
+        ]
+      },
+      "correct": "d",
+      "a": {
+        "en": [
+          "In Bangladesh the Brahmaputra is called the Jamuna.",
+          "Answer: (d) Jamuna."
+        ],
+        "as": [
+          "বাংলাদেশত ব্ৰহ্মপুত্ৰক যমুনা বোলা হয়।",
+          "উত্তৰ: (ঘ) যমুনা।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: In Bangladesh the Brahmaputra is called the Jamuna. Therefore, the correct option is (d).",
+        "as": "ধাপে-ধাপে: বাংলাদেশত ব্ৰহ্মপুত্ৰক যমুনা বোলা হয়। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ঘ)।"
+      }
     },
     {
-      "q": { "en": "What is the confluence of the Brahmaputra and Ganga called in Bangladesh?", "as": "ব্ৰহ্মপুত্ৰ আৰু গংগা নদীৰ মিলনস্থলক বাংলাদেশত কি বোলা হয়?" },
-      "a": { "en": "Padma.", "as": "পদ্মা (Padma)।" }
+      "q": {
+        "en": "What is the confluence of the Brahmaputra and Ganga called in Bangladesh?",
+        "as": "ব্ৰহ্মপুত্ৰ আৰু গংগাৰ মিলনস্থলক বাংলাদেশত কি বোলা হয়?"
+      },
+      "options": {
+        "en": [
+          "(a) Padma.",
+          "(b) Jamuna.",
+          "(c) Surma.",
+          "(d) Kushiyara."
+        ],
+        "as": [
+          "(ক) পদ্মা।",
+          "(খ) যমুনা।",
+          "(গ) শুৰ্মা।",
+          "(ঘ) কুশিয়ৰা।"
+        ]
+      },
+      "correct": "a",
+      "a": {
+        "en": [
+          "Where the Brahmaputra (Jamuna) meets the Ganga it forms the Padma river.",
+          "Answer: (a) Padma."
+        ],
+        "as": [
+          "য'ত ব্ৰহ্মপুত্ৰ (যমুনা) গংগাৰ লগত মিলে তাত পদ্মা নদী গঠন হয়।",
+          "উত্তৰ: (ক) পদ্মা।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: Where the Brahmaputra (Jamuna) meets the Ganga it forms the Padma river. Therefore, the correct option is (a).",
+        "as": "ধাপে-ধাপে: য'ত ব্ৰহ্মপুত্ৰ (যমুনা) গংগাৰ লগত মিলে তাত পদ্মা নদী গঠন হয়। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ক)।"
+      }
     },
     {
-      "q": { "en": "Under what name do the Padma and Meghna rivers merge to flow into the Bay of Bengal?", "as": "পদ্মা আৰু মেঘনা নদী মিলিত হৈ বঙ্গোপসাগৰত কি নামেৰে পৰে?" },
-      "a": { "en": "Meghna.", "as": "মেঘনা (Meghna)।" }
+      "q": {
+        "en": "Under what name do the Padma and Meghna rivers finally flow into the Bay of Bengal?",
+        "as": "পদ্মা আৰু মেঘনা নদী শেষত কি নামেৰে বঙ্গোপসাগৰত পৰে?"
+      },
+      "options": {
+        "en": [
+          "(a) Jamuna.",
+          "(b) Meghna.",
+          "(c) Padma.",
+          "(d) Brahmaputra."
+        ],
+        "as": [
+          "(ক) যমুনা।",
+          "(খ) মেঘনা।",
+          "(গ) পদ্মা।",
+          "(ঘ) ব্ৰহ্মপুত্ৰ।"
+        ]
+      },
+      "correct": "b",
+      "a": {
+        "en": [
+          "After the Padma and Meghna unite, the combined stream is called the Meghna before entering the Bay of Bengal.",
+          "Answer: (b) Meghna."
+        ],
+        "as": [
+          "পদ্মা আৰু মেঘনা মিলাৰ পিছত একত্ৰিত ধাৰাক বঙ্গোপসাগৰত প্ৰৱেশ কৰাৰ আগতে মেঘনা বোলা হয়।",
+          "উত্তৰ: (খ) মেঘনা।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: After the Padma and Meghna unite, the combined stream is called the Meghna before entering the Bay of Bengal. Therefore, the correct option is (b).",
+        "as": "ধাপে-ধাপে: পদ্মা আৰু মেঘনা মিলাৰ পিছত একত্ৰিত ধাৰাক বঙ্গোপসাগৰত প্ৰৱেশ কৰাৰ আগতে মেঘনা বোলা হয়। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (খ)।"
+      }
     },
     {
-      "q": { "en": "What is the total length of the Brahmaputra river?", "as": "ব্ৰহ্মপুত্ৰ নদীৰ মুঠ দৈৰ্ঘ্য কিমান?" },
-      "a": { "en": "Approximately 2,900 km (around 916 km in India).", "as": "প্ৰায় ২,৯০০ কিলোমিটাৰ (ভাৰতত প্ৰায় ৯১৬ কিঃমিঃ)।" }
+      "q": {
+        "en": "What is the total length of the Brahmaputra river?",
+        "as": "ব্ৰহ্মপুত্ৰ নদীৰ মুঠ দৈৰ্ঘ্য কিমান?"
+      },
+      "options": {
+        "en": [
+          "(a) About 1,200 km.",
+          "(b) About 4,500 km.",
+          "(c) Approximately 2,900 km, of which around 916 km is in India.",
+          "(d) About 800 km."
+        ],
+        "as": [
+          "(ক) প্ৰায় ১,২০০ কিলোমিটাৰ।",
+          "(খ) প্ৰায় ৪,৫০০ কিলোমিটাৰ।",
+          "(গ) প্ৰায় ২,৯০০ কিলোমিটাৰ, যাৰ প্ৰায় ৯১৬ কিলোমিটাৰ ভাৰতত।",
+          "(ঘ) প্ৰায় ৮০০ কিলোমিটাৰ।"
+        ]
+      },
+      "correct": "c",
+      "a": {
+        "en": [
+          "The Brahmaputra is about 2,900 kilometres long in total, with about 916 kilometres in India.",
+          "Answer: (c) Approximately 2,900 km, of which around 916 km is in India."
+        ],
+        "as": [
+          "ব্ৰহ্মপুত্ৰ মুঠ প্ৰায় ২,৯০০ কিলোমিটাৰ দীঘল, যাৰ প্ৰায় ৯১৬ কিলোমিটাৰ ভাৰতত।",
+          "উত্তৰ: (গ) প্ৰায় ২,৯০০ কিলোমিটাৰ, যাৰ প্ৰায় ৯১৬ কিলোমিটাৰ ভাৰতত।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Brahmaputra is about 2,900 kilometres long in total, with about 916 kilometres in India. Therefore, the correct option is (c).",
+        "as": "ধাপে-ধাপে: ব্ৰহ্মপুত্ৰ মুঠ প্ৰায় ২,৯০০ কিলোমিটাৰ দীঘল, যাৰ প্ৰায় ৯১৬ কিলোমিটাৰ ভাৰতত। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (গ)।"
+      }
     },
     {
-      "q": { "en": "What is the length of the Brahmaputra river in the Assam valley?", "as": "অসম উপত্যকাত ব্ৰহ্মপুত্ৰ নদীৰ দৈৰ্ঘ্য কিমান?" },
-      "a": { "en": "Around 640 to 720 km.", "as": "প্ৰায় ৬৪০ৰ পৰা ৭২০ কিলোমিটাৰ।" }
+      "q": {
+        "en": "What is the length of the Brahmaputra river in the Assam valley?",
+        "as": "অসম উপত্যকাত ব্ৰহ্মপুত্ৰ নদীৰ দৈৰ্ঘ্য কিমান?"
+      },
+      "options": {
+        "en": [
+          "(a) About 100 km.",
+          "(b) About 300 km.",
+          "(c) About 1,000 km.",
+          "(d) Around 640 to 720 km."
+        ],
+        "as": [
+          "(ক) প্ৰায় ১০০ কিলোমিটাৰ।",
+          "(খ) প্ৰায় ৩০০ কিলোমিটাৰ।",
+          "(গ) প্ৰায় ১,০০০ কিলোমিটাৰ।",
+          "(ঘ) প্ৰায় ৬৪০ৰ পৰা ৭২০ কিলোমিটাৰ।"
+        ]
+      },
+      "correct": "d",
+      "a": {
+        "en": [
+          "Within the Assam valley the Brahmaputra flows for about 640 to 720 kilometres.",
+          "Answer: (d) Around 640 to 720 km."
+        ],
+        "as": [
+          "অসম উপত্যকাৰ ভিতৰত ব্ৰহ্মপুত্ৰ প্ৰায় ৬৪০ৰ পৰা ৭২০ কিলোমিটাৰ বয়।",
+          "উত্তৰ: (ঘ) প্ৰায় ৬৪০ৰ পৰা ৭২০ কিলোমিটাৰ।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: Within the Assam valley the Brahmaputra flows for about 640 to 720 kilometres. Therefore, the correct option is (d).",
+        "as": "ধাপে-ধাপে: অসম উপত্যকাৰ ভিতৰত ব্ৰহ্মপুত্ৰ প্ৰায় ৬৪০ৰ পৰা ৭২০ কিলোমিটাৰ বয়। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ঘ)।"
+      }
     },
     {
-      "q": { "en": "Which is the largest river island in the world formed by the Brahmaputra?", "as": "ব্ৰহ্মপুত্ৰ নদীয়ে কঢ়িয়াই অনা বিশ্বৰ বৃহত্তম নদীদ্বীপ কোনটো?" },
-      "a": { "en": "Majuli.", "as": "মাজুলী।" }
+      "q": {
+        "en": "Which is the largest river island in the world formed by the Brahmaputra?",
+        "as": "ব্ৰহ্মপুত্ৰই গঠন কৰা বিশ্বৰ বৃহত্তম নদীদ্বীপ কোনটো?"
+      },
+      "options": {
+        "en": [
+          "(a) Majuli.",
+          "(b) Umananda.",
+          "(c) Bhashan Char.",
+          "(d) Peacock Island."
+        ],
+        "as": [
+          "(ক) মাজুলী।",
+          "(খ) উমানন্দ।",
+          "(গ) ভাসান চৰ।",
+          "(ঘ) পিকক আইলেণ্ড।"
+        ]
+      },
+      "correct": "a",
+      "a": {
+        "en": [
+          "Majuli is recognised as the largest river island in the world.",
+          "Answer: (a) Majuli."
+        ],
+        "as": [
+          "মাজুলীক বিশ্বৰ বৃহত্তম নদীদ্বীপ বুলি স্বীকৃতি দিয়া হয়।",
+          "উত্তৰ: (ক) মাজুলী।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: Majuli is recognised as the largest river island in the world. Therefore, the correct option is (a).",
+        "as": "ধাপে-ধাপে: মাজুলীক বিশ্বৰ বৃহত্তম নদীদ্বীপ বুলি স্বীকৃতি দিয়া হয়। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ক)।"
+      }
     },
     {
-      "q": { "en": "What is the smallest inhabited river island in the world and where is it located?", "as": "বিশ্বৰ আটাইতকৈ সৰু বসতিপূৰ্ণ নদীদ্বীপটো কি আৰু ই ক'ত অৱস্থিত?" },
-      "a": { "en": "Umananda (Peacock Island) in Guwahati.", "as": "উমানন্দ (ময়ূৰ দ্বীপ/Peacock Island), গুৱাহাটীত।" }
+      "q": {
+        "en": "Which is the smallest inhabited river island in the world, located in Assam?",
+        "as": "অসমত অৱস্থিত বিশ্বৰ আটাইতকৈ সৰু বসতিপূৰ্ণ নদীদ্বীপ কোনটো?"
+      },
+      "options": {
+        "en": [
+          "(a) Majuli.",
+          "(b) Umananda (Peacock Island) in Guwahati.",
+          "(c) Dibru-Saikhowa.",
+          "(d) Bhashan Char."
+        ],
+        "as": [
+          "(ক) মাজুলী।",
+          "(খ) উমানন্দ (ময়ূৰ দ্বীপ), গুৱাহাটীত।",
+          "(গ) ডিব্ৰু-শৈখোৱা।",
+          "(ঘ) ভাসান চৰ।"
+        ]
+      },
+      "correct": "b",
+      "a": {
+        "en": [
+          "Umananda, also called Peacock Island, in the Brahmaputra at Guwahati is regarded as the smallest inhabited river island.",
+          "Answer: (b) Umananda (Peacock Island) in Guwahati."
+        ],
+        "as": [
+          "গুৱাহাটীত ব্ৰহ্মপুত্ৰৰ মাজত থকা উমানন্দ, যাক ময়ূৰ দ্বীপ বোলা হয়, আটাইতকৈ সৰু বসতিপূৰ্ণ নদীদ্বীপ হিচাপে গণ্য কৰা হয়।",
+          "উত্তৰ: (খ) উমানন্দ (ময়ূৰ দ্বীপ), গুৱাহাটীত।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: Umananda, also called Peacock Island, in the Brahmaputra at Guwahati is regarded as the smallest inhabited river island. Therefore, the correct option is (b).",
+        "as": "ধাপে-ধাপে: গুৱাহাটীত ব্ৰহ্মপুত্ৰৰ মাজত থকা উমানন্দ, যাক ময়ূৰ দ্বীপ বোলা হয়, আটাইতকৈ সৰু বসতিপূৰ্ণ নদীদ্বীপ হিচাপে গণ্য কৰা হয়। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (খ)।"
+      }
     },
     {
-      "q": { "en": "In which year was Majuli officially declared a district of Assam?", "as": "মাজুলীক কোন চনত আনুষ্ঠানিকভাৱে অসমৰ জিলা হিচাপে ঘোষণা কৰা হয়?" },
-      "a": { "en": "8 September 2016 (India's first river island district).", "as": "২০১৬ চনৰ ৮ ছেপ্টেম্বৰত (ভাৰতৰ প্ৰথম নদীদ্বীপ জিলা)।" }
+      "q": {
+        "en": "In which year was Majuli officially declared a district of Assam?",
+        "as": "মাজুলীক কোন চনত অসমৰ জিলা হিচাপে ঘোষণা কৰা হয়?"
+      },
+      "options": {
+        "en": [
+          "(a) 2001.",
+          "(b) 2011.",
+          "(c) 2016.",
+          "(d) 2019."
+        ],
+        "as": [
+          "(ক) ২০০১।",
+          "(খ) ২০১১।",
+          "(গ) ২০১৬।",
+          "(ঘ) ২০১৯।"
+        ]
+      },
+      "correct": "c",
+      "a": {
+        "en": [
+          "Majuli was declared a district on 8 September 2016, becoming India's first river island district.",
+          "Answer: (c) 2016."
+        ],
+        "as": [
+          "মাজুলীক ২০১৬ চনৰ ৮ ছেপ্টেম্বৰত জিলা ঘোষণা কৰা হয়, যি ভাৰতৰ প্ৰথম নদীদ্বীপ জিলা হৈ পৰে।",
+          "উত্তৰ: (গ) ২০১৬।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: Majuli was declared a district on 8 September 2016, becoming India's first river island district. Therefore, the correct option is (c).",
+        "as": "ধাপে-ধাপে: মাজুলীক ২০১৬ চনৰ ৮ ছেপ্টেম্বৰত জিলা ঘোষণা কৰা হয়, যি ভাৰতৰ প্ৰথম নদীদ্বীপ জিলা হৈ পৰে। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (গ)।"
+      }
     },
     {
-      "q": { "en": "What was the first bridge built over the Brahmaputra river?", "as": "ব্ৰহ্মপুত্ৰ নদীৰ ওপৰত নিৰ্মাণ কৰা প্ৰথমখন দলং কি?" },
-      "a": { "en": "Saraighat Bridge (completed in 1962).", "as": "শৰাইঘাট দলং (১৯৬২ চনত সম্পূৰ্ণ হয়)।" }
+      "q": {
+        "en": "What was the first bridge built over the Brahmaputra river?",
+        "as": "ব্ৰহ্মপুত্ৰ নদীৰ ওপৰত নিৰ্মাণ কৰা প্ৰথমখন দলং কি?"
+      },
+      "options": {
+        "en": [
+          "(a) Bogibeel Bridge.",
+          "(b) Naranarayan Setu.",
+          "(c) Kolia Bhomora Setu.",
+          "(d) Saraighat Bridge."
+        ],
+        "as": [
+          "(ক) বগীবিল দলং।",
+          "(খ) নৰনাৰায়ণ সেতু।",
+          "(গ) কলীয়াভোমোৰা সেতু।",
+          "(ঘ) শৰাইঘাট দলং।"
+        ]
+      },
+      "correct": "d",
+      "a": {
+        "en": [
+          "The Saraighat Bridge, completed in 1962, was the first bridge built across the Brahmaputra.",
+          "Answer: (d) Saraighat Bridge."
+        ],
+        "as": [
+          "১৯৬২ চনত সম্পূৰ্ণ হোৱা শৰাইঘাট দলং ব্ৰহ্মপুত্ৰৰ ওপৰত নিৰ্মিত প্ৰথমখন দলং।",
+          "উত্তৰ: (ঘ) শৰাইঘাট দলং।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Saraighat Bridge, completed in 1962, was the first bridge built across the Brahmaputra. Therefore, the correct option is (d).",
+        "as": "ধাপে-ধাপে: ১৯৬২ চনত সম্পূৰ্ণ হোৱা শৰাইঘাট দলং ব্ৰহ্মপুত্ৰৰ ওপৰত নিৰ্মিত প্ৰথমখন দলং। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ঘ)।"
+      }
     },
     {
-      "q": { "en": "Who officially inaugurated the Saraighat Bridge and when?", "as": "শৰাইঘাট দলং আনুষ্ঠানিকভাৱে কোনে আৰু কেতিয়া উদ্বোধন কৰিছিল?" },
-      "a": { "en": "Prime Minister Jawaharlal Nehru on 7 June 1963.", "as": "প্ৰধানমন্ত্ৰী জৱাহৰলাল নেহৰুৱে, ১৯৬৩ চনৰ ৭ জুনত।" }
+      "q": {
+        "en": "Who officially inaugurated the Saraighat Bridge and when?",
+        "as": "শৰাইঘাট দলং আনুষ্ঠানিকভাৱে কোনে আৰু কেতিয়া উদ্বোধন কৰিছিল?"
+      },
+      "options": {
+        "en": [
+          "(a) Prime Minister Jawaharlal Nehru on 7 June 1963.",
+          "(b) Prime Minister Indira Gandhi in 1971.",
+          "(c) President Rajendra Prasad in 1955.",
+          "(d) Sardar Vallabhbhai Patel in 1950."
+        ],
+        "as": [
+          "(ক) প্ৰধানমন্ত্ৰী জৱাহৰলাল নেহৰুৱে, ১৯৬৩ চনৰ ৭ জুনত।",
+          "(খ) প্ৰধানমন্ত্ৰী ইন্দিৰা গান্ধীয়ে ১৯৭১ চনত।",
+          "(গ) ৰাষ্ট্ৰপতি ৰাজেন্দ্ৰ প্ৰসাদে ১৯৫৫ চনত।",
+          "(ঘ) সৰদাৰ বল্লভভাই পেটেলে ১৯৫০ চনত।"
+        ]
+      },
+      "correct": "a",
+      "a": {
+        "en": [
+          "The Saraighat Bridge was inaugurated by Prime Minister Jawaharlal Nehru on 7 June 1963.",
+          "Answer: (a) Prime Minister Jawaharlal Nehru on 7 June 1963."
+        ],
+        "as": [
+          "শৰাইঘাট দলং প্ৰধানমন্ত্ৰী জৱাহৰলাল নেহৰুৱে ১৯৬৩ চনৰ ৭ জুনত উদ্বোধন কৰিছিল।",
+          "উত্তৰ: (ক) প্ৰধানমন্ত্ৰী জৱাহৰলাল নেহৰুৱে, ১৯৬৩ চনৰ ৭ জুনত।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Saraighat Bridge was inaugurated by Prime Minister Jawaharlal Nehru on 7 June 1963. Therefore, the correct option is (a).",
+        "as": "ধাপে-ধাপে: শৰাইঘাট দলং প্ৰধানমন্ত্ৰী জৱাহৰলাল নেহৰুৱে ১৯৬৩ চনৰ ৭ জুনত উদ্বোধন কৰিছিল। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ক)।"
+      }
     },
     {
-      "q": { "en": "Which is the longest river bridge in India?", "as": "ভাৰতৰ আটাইতকৈ দীঘল নদী দলং কোনখন?" },
-      "a": { "en": "Bhupen Hazarika Setu / Dhola-Sadiya Bridge (length 9.15 km).", "as": "ভূপেন হাজৰিকা সেতু বা ঢলা-শদিয়া দলং (দৈৰ্ঘ্য ৯.১৫ কিঃমিঃ)।" }
+      "q": {
+        "en": "Which is the longest river bridge in India?",
+        "as": "ভাৰতৰ আটাইতকৈ দীঘল নদী দলং কোনখন?"
+      },
+      "options": {
+        "en": [
+          "(a) Bogibeel Bridge.",
+          "(b) Bhupen Hazarika Setu (Dhola-Sadiya Bridge), 9.15 km.",
+          "(c) Naranarayan Setu.",
+          "(d) Saraighat Bridge."
+        ],
+        "as": [
+          "(ক) বগীবিল দলং।",
+          "(খ) ভূপেন হাজৰিকা সেতু (ঢলা-শদিয়া দলং), ৯.১৫ কিঃমিঃ।",
+          "(গ) নৰনাৰায়ণ সেতু।",
+          "(ঘ) শৰাইঘাট দলং।"
+        ]
+      },
+      "correct": "b",
+      "a": {
+        "en": [
+          "The Bhupen Hazarika Setu, or Dhola-Sadiya Bridge, at 9.15 km is the longest river bridge in India.",
+          "Answer: (b) Bhupen Hazarika Setu (Dhola-Sadiya Bridge), 9.15 km."
+        ],
+        "as": [
+          "ভূপেন হাজৰিকা সেতু, অৰ্থাৎ ঢলা-শদিয়া দলং, ৯.১৫ কিলোমিটাৰেৰে ভাৰতৰ আটাইতকৈ দীঘল নদী দলং।",
+          "উত্তৰ: (খ) ভূপেন হাজৰিকা সেতু (ঢলা-শদিয়া দলং), ৯.১৫ কিঃমিঃ।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Bhupen Hazarika Setu, or Dhola-Sadiya Bridge, at 9.15 km is the longest river bridge in India. Therefore, the correct option is (b).",
+        "as": "ধাপে-ধাপে: ভূপেন হাজৰিকা সেতু, অৰ্থাৎ ঢলা-শদিয়া দলং, ৯.১৫ কিলোমিটাৰেৰে ভাৰতৰ আটাইতকৈ দীঘল নদী দলং। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (খ)।"
+      }
     },
     {
-      "q": { "en": "Over which river is the Dhola-Sadiya bridge constructed?", "as": "ঢলা-শদিয়া দলং কোন নদীৰ ওপৰত নিৰ্মাণ কৰা হৈছে?" },
-      "a": { "en": "Lohit River (a tributary of Brahmaputra).", "as": "লোহিত নদীৰ ওপৰত (ব্ৰহ্মপুত্ৰৰ উপনৈ)।" }
+      "q": {
+        "en": "Over which river is the Dhola-Sadiya bridge constructed?",
+        "as": "ঢলা-শদিয়া দলং কোন নদীৰ ওপৰত নিৰ্মাণ কৰা হৈছে?"
+      },
+      "options": {
+        "en": [
+          "(a) The Brahmaputra.",
+          "(b) The Subansiri.",
+          "(c) The Lohit, a tributary of the Brahmaputra.",
+          "(d) The Barak."
+        ],
+        "as": [
+          "(ক) ব্ৰহ্মপুত্ৰ।",
+          "(খ) সোৱণশিৰি।",
+          "(গ) লোহিত, ব্ৰহ্মপুত্ৰৰ উপনৈ।",
+          "(ঘ) বৰাক।"
+        ]
+      },
+      "correct": "c",
+      "a": {
+        "en": [
+          "The Dhola-Sadiya bridge spans the Lohit river, a major tributary of the Brahmaputra.",
+          "Answer: (c) The Lohit, a tributary of the Brahmaputra."
+        ],
+        "as": [
+          "ঢলা-শদিয়া দলং লোহিত নদীৰ ওপৰত, যি ব্ৰহ্মপুত্ৰৰ এটা মুখ্য উপনৈ।",
+          "উত্তৰ: (গ) লোহিত, ব্ৰহ্মপুত্ৰৰ উপনৈ।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Dhola-Sadiya bridge spans the Lohit river, a major tributary of the Brahmaputra. Therefore, the correct option is (c).",
+        "as": "ধাপে-ধাপে: ঢলা-শদিয়া দলং লোহিত নদীৰ ওপৰত, যি ব্ৰহ্মপুত্ৰৰ এটা মুখ্য উপনৈ। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (গ)।"
+      }
     },
     {
-      "q": { "en": "Which is the longest rail-cum-road bridge in India?", "as": "ভাৰতৰ আটাইতকৈ দীঘল ৰে'ল-কাম-ৰোড দলং কোনখন?" },
-      "a": { "en": "Bogibeel Bridge (length 4.94 km).", "as": "বগীবিল দলং (Bogibeel Bridge, দৈৰ্ঘ্য ৪.৯৪ কিঃমিঃ)।" }
+      "q": {
+        "en": "Which is the longest rail-cum-road bridge in India?",
+        "as": "ভাৰতৰ আটাইতকৈ দীঘল ৰে'ল-কাম-ৰোড দলং কোনখন?"
+      },
+      "options": {
+        "en": [
+          "(a) Saraighat Bridge.",
+          "(b) Dhola-Sadiya Bridge.",
+          "(c) Naranarayan Setu.",
+          "(d) Bogibeel Bridge, 4.94 km."
+        ],
+        "as": [
+          "(ক) শৰাইঘাট দলং।",
+          "(খ) ঢলা-শদিয়া দলং।",
+          "(গ) নৰনাৰায়ণ সেতু।",
+          "(ঘ) বগীবিল দলং, ৪.৯৪ কিঃমিঃ।"
+        ]
+      },
+      "correct": "d",
+      "a": {
+        "en": [
+          "The Bogibeel Bridge, 4.94 km long, is India's longest rail-cum-road bridge.",
+          "Answer: (d) Bogibeel Bridge, 4.94 km."
+        ],
+        "as": [
+          "বগীবিল দলং, ৪.৯৪ কিলোমিটাৰ দীঘল, ভাৰতৰ আটাইতকৈ দীঘল ৰে'ল-কাম-ৰোড দলং।",
+          "উত্তৰ: (ঘ) বগীবিল দলং, ৪.৯৪ কিঃমিঃ।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Bogibeel Bridge, 4.94 km long, is India's longest rail-cum-road bridge. Therefore, the correct option is (d).",
+        "as": "ধাপে-ধাপে: বগীবিল দলং, ৪.৯৪ কিলোমিটাৰ দীঘল, ভাৰতৰ আটাইতকৈ দীঘল ৰে'ল-কাম-ৰোড দলং। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ঘ)।"
+      }
     },
     {
-      "q": { "en": "Which two districts of Assam are connected by the Bogibeel Bridge?", "as": "বগীবিল দলঙে অসমৰ কোন দুখন জিলাক সংযোগ কৰিছে?" },
-      "a": { "en": "Dibrugarh and Dhemaji.", "as": "ডিব্ৰুগড় আৰু ধেমাজি।" }
+      "q": {
+        "en": "Which two districts of Assam are connected by the Bogibeel Bridge?",
+        "as": "বগীবিল দলঙে অসমৰ কোন দুখন জিলাক সংযোগ কৰিছে?"
+      },
+      "options": {
+        "en": [
+          "(a) Dibrugarh and Dhemaji.",
+          "(b) Tezpur and Nagaon.",
+          "(c) Guwahati and Goalpara.",
+          "(d) Jorhat and Sivasagar."
+        ],
+        "as": [
+          "(ক) ডিব্ৰুগড় আৰু ধেমাজি।",
+          "(খ) তেজপুৰ আৰু নগাঁও।",
+          "(গ) গুৱাহাটী আৰু গোৱালপাৰা।",
+          "(ঘ) যোৰহাট আৰু শিৱসাগৰ।"
+        ]
+      },
+      "correct": "a",
+      "a": {
+        "en": [
+          "The Bogibeel Bridge links Dibrugarh on the south bank with Dhemaji on the north bank.",
+          "Answer: (a) Dibrugarh and Dhemaji."
+        ],
+        "as": [
+          "বগীবিল দলঙে দক্ষিণ পাৰৰ ডিব্ৰুগড়ক উত্তৰ পাৰৰ ধেমাজিৰ সৈতে সংযোগ কৰে।",
+          "উত্তৰ: (ক) ডিব্ৰুগড় আৰু ধেমাজি।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Bogibeel Bridge links Dibrugarh on the south bank with Dhemaji on the north bank. Therefore, the correct option is (a).",
+        "as": "ধাপে-ধাপে: বগীবিল দলঙে দক্ষিণ পাৰৰ ডিব্ৰুগড়ক উত্তৰ পাৰৰ ধেমাজিৰ সৈতে সংযোগ কৰে। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ক)।"
+      }
     },
     {
-      "q": { "en": "Which two places are connected by the Kolia Bhomora Setu?", "as": "কলীয়াভোমোৰা দলঙে কোন দুখন ঠাইক সংযোগ কৰে?" },
-      "a": { "en": "Tezpur and Silghat (Nagaon).", "as": "তেজপুৰ আৰু শিলঘাট (নগাঁও)।" }
+      "q": {
+        "en": "Which two places are connected by the Kolia Bhomora Setu?",
+        "as": "কলীয়াভোমোৰা দলঙে কোন দুখন ঠাইক সংযোগ কৰে?"
+      },
+      "options": {
+        "en": [
+          "(a) Dibrugarh and Dhemaji.",
+          "(b) Tezpur and Silghat (Nagaon).",
+          "(c) Guwahati and North Guwahati.",
+          "(d) Jogighopa and Pancharatna."
+        ],
+        "as": [
+          "(ক) ডিব্ৰুগড় আৰু ধেমাজি।",
+          "(খ) তেজপুৰ আৰু শিলঘাট (নগাঁও)।",
+          "(গ) গুৱাহাটী আৰু উত্তৰ গুৱাহাটী।",
+          "(ঘ) যোগীঘোপা আৰু পঞ্চৰত্ন।"
+        ]
+      },
+      "correct": "b",
+      "a": {
+        "en": [
+          "The Kolia Bhomora Setu connects Tezpur with Silghat in Nagaon district.",
+          "Answer: (b) Tezpur and Silghat (Nagaon)."
+        ],
+        "as": [
+          "কলীয়াভোমোৰা সেতুৱে তেজপুৰক নগাঁও জিলাৰ শিলঘাটৰ সৈতে সংযোগ কৰে।",
+          "উত্তৰ: (খ) তেজপুৰ আৰু শিলঘাট (নগাঁও)।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Kolia Bhomora Setu connects Tezpur with Silghat in Nagaon district. Therefore, the correct option is (b).",
+        "as": "ধাপে-ধাপে: কলীয়াভোমোৰা সেতুৱে তেজপুৰক নগাঁও জিলাৰ শিলঘাটৰ সৈতে সংযোগ কৰে। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (খ)।"
+      }
     },
     {
-      "q": { "en": "After whom is the Kolia Bhomora Setu named?", "as": "কলীয়াভোমোৰা দলঙৰ নামকৰণ কাৰ নামত কৰা হৈছে?" },
-      "a": { "en": "Ahom General Kolia Bhomora Borphukan.", "as": "আহোম সেনাপতি কলীয়াভোমোৰা বৰফুকনৰ নামত।" }
+      "q": {
+        "en": "After whom is the Kolia Bhomora Setu named?",
+        "as": "কলীয়াভোমোৰা দলঙৰ নামকৰণ কাৰ নামত কৰা হৈছে?"
+      },
+      "options": {
+        "en": [
+          "(a) Lachit Borphukan.",
+          "(b) Rudra Singha.",
+          "(c) Ahom General Kolia Bhomora Borphukan.",
+          "(d) Sukapha."
+        ],
+        "as": [
+          "(ক) লাচিত বৰফুকন।",
+          "(খ) ৰুদ্ৰ সিংহ।",
+          "(গ) আহোম সেনাপতি কলীয়াভোমোৰা বৰফুকন।",
+          "(ঘ) চুকাফা।"
+        ]
+      },
+      "correct": "c",
+      "a": {
+        "en": [
+          "The bridge is named after the Ahom general Kolia Bhomora Borphukan.",
+          "Answer: (c) Ahom General Kolia Bhomora Borphukan."
+        ],
+        "as": [
+          "দলংখন আহোম সেনাপতি কলীয়াভোমোৰা বৰফুকনৰ নামেৰে নামাকৰণ কৰা হৈছে।",
+          "উত্তৰ: (গ) আহোম সেনাপতি কলীয়াভোমোৰা বৰফুকন।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The bridge is named after the Ahom general Kolia Bhomora Borphukan. Therefore, the correct option is (c).",
+        "as": "ধাপে-ধাপে: দলংখন আহোম সেনাপতি কলীয়াভোমোৰা বৰফুকনৰ নামেৰে নামাকৰণ কৰা হৈছে। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (গ)।"
+      }
     },
     {
-      "q": { "en": "Between which two locations is the Naranarayan Setu situated?", "as": "নৰনাৰায়ণ সেতু কোন দুখন ঠাইৰ মাজত অৱস্থিত?" },
-      "a": { "en": "Jogighopa and Pancharatna (Goalpara).", "as": "যোগীঘোপা আৰু পঞ্চৰত্ন (গোৱালপাৰা)।" }
+      "q": {
+        "en": "Between which two locations is the Naranarayan Setu situated?",
+        "as": "নৰনাৰায়ণ সেতু কোন দুখন ঠাইৰ মাজত অৱস্থিত?"
+      },
+      "options": {
+        "en": [
+          "(a) Tezpur and Silghat.",
+          "(b) Dibrugarh and Dhemaji.",
+          "(c) Guwahati and North Guwahati.",
+          "(d) Jogighopa and Pancharatna (Goalpara)."
+        ],
+        "as": [
+          "(ক) তেজপুৰ আৰু শিলঘাট।",
+          "(খ) ডিব্ৰুগড় আৰু ধেমাজি।",
+          "(গ) গুৱাহাটী আৰু উত্তৰ গুৱাহাটী।",
+          "(ঘ) যোগীঘোপা আৰু পঞ্চৰত্ন (গোৱালপাৰা)।"
+        ]
+      },
+      "correct": "d",
+      "a": {
+        "en": [
+          "The Naranarayan Setu spans the Brahmaputra between Jogighopa and Pancharatna in Goalpara district.",
+          "Answer: (d) Jogighopa and Pancharatna (Goalpara)."
+        ],
+        "as": [
+          "নৰনাৰায়ণ সেতু গোৱালপাৰা জিলাৰ যোগীঘোপা আৰু পঞ্চৰত্নৰ মাজত ব্ৰহ্মপুত্ৰৰ ওপৰত অৱস্থিত।",
+          "উত্তৰ: (ঘ) যোগীঘোপা আৰু পঞ্চৰত্ন (গোৱালপাৰা)।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Naranarayan Setu spans the Brahmaputra between Jogighopa and Pancharatna in Goalpara district. Therefore, the correct option is (d).",
+        "as": "ধাপে-ধাপে: নৰনাৰায়ণ সেতু গোৱালপাৰা জিলাৰ যোগীঘোপা আৰু পঞ্চৰত্নৰ মাজত ব্ৰহ্মপুত্ৰৰ ওপৰত অৱস্থিত। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ঘ)।"
+      }
     },
     {
-      "q": { "en": "Name 5 major North Bank tributaries of the Brahmaputra.", "as": "ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰৰ (North Bank) ৫খন প্ৰধান উপনৈ কি কি?" },
-      "a": { "en": "Subansiri, Jia Bharali (Kameng), Manas, Puthimari and Sankosh.", "as": "সোৱণশিৰি, জিয়াভৰলী (কামেং), মানাহ, পুঠিমাৰী আৰু সোণকোষ।" }
+      "q": {
+        "en": "Which of the following are major North Bank tributaries of the Brahmaputra?",
+        "as": "তলৰ কোনবোৰ ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰৰ প্ৰধান উপনৈ?"
+      },
+      "options": {
+        "en": [
+          "(a) Subansiri, Jia Bharali (Kameng), Manas, Puthimari and Sankosh.",
+          "(b) Dihing, Disang, Dhansiri and Kopili.",
+          "(c) Ganga, Yamuna and Godavari.",
+          "(d) Narmada, Tapti and Sabarmati."
+        ],
+        "as": [
+          "(ক) সোৱণশিৰি, জিয়াভৰলী (কামেং), মানাহ, পুঠিমাৰী আৰু সোণকোষ।",
+          "(খ) দিহিং, দিখৌ, ধনশিৰি আৰু কপিলী।",
+          "(গ) গংগা, যমুনা আৰু গোদাবৰী।",
+          "(ঘ) নৰ্মদা, তাপ্তী আৰু সাবৰমতী।"
+        ]
+      },
+      "correct": "a",
+      "a": {
+        "en": [
+          "The Subansiri, Jia Bharali, Manas, Puthimari and Sankosh are major north bank tributaries.",
+          "Answer: (a) Subansiri, Jia Bharali (Kameng), Manas, Puthimari and Sankosh."
+        ],
+        "as": [
+          "সোৱণশিৰি, জিয়াভৰলী, মানাহ, পুঠিমাৰী আৰু সোণকোষ উত্তৰ পাৰৰ প্ৰধান উপনৈ।",
+          "উত্তৰ: (ক) সোৱণশিৰি, জিয়াভৰলী (কামেং), মানাহ, পুঠিমাৰী আৰু সোণকোষ।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Subansiri, Jia Bharali, Manas, Puthimari and Sankosh are major north bank tributaries. Therefore, the correct option is (a).",
+        "as": "ধাপে-ধাপে: সোৱণশিৰি, জিয়াভৰলী, মানাহ, পুঠিমাৰী আৰু সোণকোষ উত্তৰ পাৰৰ প্ৰধান উপনৈ। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ক)।"
+      }
     },
     {
-      "q": { "en": "Name 5 major South Bank tributaries of the Brahmaputra.", "as": "ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰৰ (South Bank) ৫খন প্ৰধান উপনৈ কি কি?" },
-      "a": { "en": "Dihing, Disang, Dhansiri (South), Kopili and Kulsi.", "as": "দিহিং, দিখৌ, ধনশিৰি (দক্ষিণ), কপিলী আৰু কুলশী।" }
+      "q": {
+        "en": "Which of the following are major South Bank tributaries of the Brahmaputra?",
+        "as": "তলৰ কোনবোৰ ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰৰ প্ৰধান উপনৈ?"
+      },
+      "options": {
+        "en": [
+          "(a) Subansiri, Manas and Sankosh.",
+          "(b) Dihing, Disang, Dhansiri (South), Kopili and Kulsi.",
+          "(c) Ganga, Yamuna and Narmada.",
+          "(d) Lohit, Dibang and Siang."
+        ],
+        "as": [
+          "(ক) সোৱণশিৰি, মানস আৰু সোণকোষ।",
+          "(খ) দিহিং, দিখৌ, ধনশিৰি (দক্ষিণ), কপিলী আৰু কুলশী।",
+          "(গ) গংগা, যমুনা আৰু নৰ্মদা।",
+          "(ঘ) লোহিত, দিবাং আৰু ছিয়াং।"
+        ]
+      },
+      "correct": "b",
+      "a": {
+        "en": [
+          "The Dihing, Disang, Dhansiri, Kopili and Kulsi are major south bank tributaries.",
+          "Answer: (b) Dihing, Disang, Dhansiri (South), Kopili and Kulsi."
+        ],
+        "as": [
+          "দিহিং, দিখৌ, ধনশিৰি, কপিলী আৰু কুলশী দক্ষিণ পাৰৰ প্ৰধান উপনৈ।",
+          "উত্তৰ: (খ) দিহিং, দিখৌ, ধনশিৰি (দক্ষিণ), কপিলী আৰু কুলশী।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Dihing, Disang, Dhansiri, Kopili and Kulsi are major south bank tributaries. Therefore, the correct option is (b).",
+        "as": "ধাপে-ধাপে: দিহিং, দিখৌ, ধনশিৰি, কপিলী আৰু কুলশী দক্ষিণ পাৰৰ প্ৰধান উপনৈ। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (খ)।"
+      }
     },
     {
-      "q": { "en": "Which is the largest tributary of the Brahmaputra?", "as": "ব্ৰহ্মপুত্ৰৰ আটাইতকৈ ডাঙৰ উপনৈ কোনখন?" },
-      "a": { "en": "Subansiri.", "as": "সোৱণশিৰি (Subansiri)।" }
+      "q": {
+        "en": "Which is the largest tributary of the Brahmaputra?",
+        "as": "ব্ৰহ্মপুত্ৰৰ আটাইতকৈ ডাঙৰ উপনৈ কোনখন?"
+      },
+      "options": {
+        "en": [
+          "(a) The Manas.",
+          "(b) The Kopili.",
+          "(c) The Subansiri.",
+          "(d) The Dhansiri."
+        ],
+        "as": [
+          "(ক) মানাহ।",
+          "(খ) কপিলী।",
+          "(গ) সোৱণশিৰি।",
+          "(ঘ) ধনশিৰি।"
+        ]
+      },
+      "correct": "c",
+      "a": {
+        "en": [
+          "The Subansiri is the largest tributary of the Brahmaputra.",
+          "Answer: (c) The Subansiri."
+        ],
+        "as": [
+          "সোৱণশিৰি ব্ৰহ্মপুত্ৰৰ আটাইতকৈ ডাঙৰ উপনৈ।",
+          "উত্তৰ: (গ) সোৱণশিৰি।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Subansiri is the largest tributary of the Brahmaputra. Therefore, the correct option is (c).",
+        "as": "ধাপে-ধাপে: সোৱণশিৰি ব্ৰহ্মপুত্ৰৰ আটাইতকৈ ডাঙৰ উপনৈ। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (গ)।"
+      }
     },
     {
-      "q": { "en": "Where does the Subansiri River originate?", "as": "সোৱণশিৰি নদীৰ উৎপত্তি ক'ৰ পৰা হৈছে?" },
-      "a": { "en": "The Himalayan region of Tibet.", "as": "তিব্বতৰ হিমালয় অঞ্চলৰ পৰা।" }
+      "q": {
+        "en": "Where does the Subansiri River originate?",
+        "as": "সোৱণশিৰি নদীৰ উৎপত্তি ক'ৰ পৰা হৈছে?"
+      },
+      "options": {
+        "en": [
+          "(a) The hills of Manipur.",
+          "(b) The Amarkantak plateau.",
+          "(c) The Gangotri glacier.",
+          "(d) The Himalayan region of Tibet."
+        ],
+        "as": [
+          "(ক) মণিপুৰৰ পাহাৰৰ পৰা।",
+          "(খ) অমৰকণ্টক মালভূমিৰ পৰা।",
+          "(গ) গংগোত্ৰী হিমবাহৰ পৰা।",
+          "(ঘ) তিব্বতৰ হিমালয় অঞ্চলৰ পৰা।"
+        ]
+      },
+      "correct": "d",
+      "a": {
+        "en": [
+          "The Subansiri rises in the Himalayan region of Tibet before entering Arunachal Pradesh and Assam.",
+          "Answer: (d) The Himalayan region of Tibet."
+        ],
+        "as": [
+          "সোৱণশিৰি তিব্বতৰ হিমালয় অঞ্চলত উৎপত্তি হৈ অৰুণাচল প্ৰদেশ আৰু অসমত প্ৰৱেশ কৰে।",
+          "উত্তৰ: (ঘ) তিব্বতৰ হিমালয় অঞ্চলৰ পৰা।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Subansiri rises in the Himalayan region of Tibet before entering Arunachal Pradesh and Assam. Therefore, the correct option is (d).",
+        "as": "ধাপে-ধাপে: সোৱণশিৰি তিব্বতৰ হিমালয় অঞ্চলত উৎপত্তি হৈ অৰুণাচল প্ৰদেশ আৰু অসমত প্ৰৱেশ কৰে। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ঘ)।"
+      }
     },
     {
-      "q": { "en": "Which river forms the boundary between Assam and West Bengal?", "as": "সোণকোষ (Sankosh) নদীয়ে কোন দুখন ৰাজ্যৰ সীমা নিৰ্ধাৰণ কৰে?" },
-      "a": { "en": "Sankosh River (Assam and West Bengal border).", "as": "অসম আৰু পশ্চিমবংগ।" }
+      "q": {
+        "en": "Which river forms the boundary between Assam and West Bengal?",
+        "as": "কোন নদীয়ে অসম আৰু পশ্চিমবংগৰ সীমা নিৰ্ধাৰণ কৰে?"
+      },
+      "options": {
+        "en": [
+          "(a) The Sankosh River.",
+          "(b) The Manas River.",
+          "(c) The Subansiri River.",
+          "(d) The Teesta River."
+        ],
+        "as": [
+          "(ক) সোণকোষ নদী।",
+          "(খ) মানাহ নদী।",
+          "(গ) সোৱণশিৰি নদী।",
+          "(ঘ) তিস্তা নদী।"
+        ]
+      },
+      "correct": "a",
+      "a": {
+        "en": [
+          "The Sankosh river forms part of the boundary between Assam and West Bengal.",
+          "Answer: (a) The Sankosh River."
+        ],
+        "as": [
+          "সোণকোষ নদীয়ে অসম আৰু পশ্চিমবংগৰ সীমাৰ এটা অংশ গঠন কৰে।",
+          "উত্তৰ: (ক) সোণকোষ নদী।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Sankosh river forms part of the boundary between Assam and West Bengal. Therefore, the correct option is (a).",
+        "as": "ধাপে-ধাপে: সোণকোষ নদীয়ে অসম আৰু পশ্চিমবংগৰ সীমাৰ এটা অংশ গঠন কৰে। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ক)।"
+      }
     },
     {
-      "q": { "en": "Which river is known as the 'River of Gold'?", "as": "কোনখন নদীক 'সোণৰ নদী' (River of Gold) বুলিও জনা যায়?" },
-      "a": { "en": "Subansiri River (gold dust was historically panned from its sands).", "as": "সোৱণশিৰি নদী (পুৰণি কালত ইয়াৰ বালিত সোণ পোৱা গৈছিল)।" }
+      "q": {
+        "en": "Which river is known as the 'River of Gold'?",
+        "as": "কোনখন নদীক 'সোণৰ নদী' বুলিও জনা যায়?"
+      },
+      "options": {
+        "en": [
+          "(a) The Manas.",
+          "(b) The Subansiri.",
+          "(c) The Kopili.",
+          "(d) The Dhansiri."
+        ],
+        "as": [
+          "(ক) মানাহ।",
+          "(খ) সোৱণশিৰি।",
+          "(গ) কপিলী।",
+          "(ঘ) ধনশিৰি।"
+        ]
+      },
+      "correct": "b",
+      "a": {
+        "en": [
+          "The Subansiri is called the River of Gold because gold dust was historically panned from its sands.",
+          "Answer: (b) The Subansiri."
+        ],
+        "as": [
+          "সোৱণশিৰিক সোণৰ নদী বোলা হয়, কাৰণ পুৰণি কালত ইয়াৰ বালিৰ পৰা সোণ ধুই উলিওৱা হৈছিল।",
+          "উত্তৰ: (খ) সোৱণশিৰি।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Subansiri is called the River of Gold because gold dust was historically panned from its sands. Therefore, the correct option is (b).",
+        "as": "ধাপে-ধাপে: সোৱণশিৰিক সোণৰ নদী বোলা হয়, কাৰণ পুৰণি কালত ইয়াৰ বালিৰ পৰা সোণ ধুই উলিওৱা হৈছিল। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (খ)।"
+      }
     },
     {
-      "q": { "en": "Which stretch of the Brahmaputra has been declared National Waterway-2 (NW-2)?", "as": "ব্ৰহ্মপুত্ৰৰ কোনটো জলভাগক ৰাষ্ট্ৰীয় জলপথ-২ (National Waterway-2) হিচাপে ঘোষণা কৰা হৈছে?" },
-      "a": { "en": "The 891 km stretch from Sadiya to Dhubri (declared in 1988).", "as": "শদিয়াৰ পৰা ধুবুৰী সংযোগী ৮৯১ কিলোমিটাৰ জলপথ (১৯৮৮ চনত)।" }
+      "q": {
+        "en": "Which stretch of the Brahmaputra has been declared National Waterway-2 (NW-2)?",
+        "as": "ব্ৰহ্মপুত্ৰৰ কোন জলভাগক ৰাষ্ট্ৰীয় জলপথ-২ হিচাপে ঘোষণা কৰা হৈছে?"
+      },
+      "options": {
+        "en": [
+          "(a) The 100 km stretch near Guwahati.",
+          "(b) The Barak valley stretch.",
+          "(c) The 891 km stretch from Sadiya to Dhubri.",
+          "(d) The Ganga stretch from Prayagraj to Haldia."
+        ],
+        "as": [
+          "(ক) গুৱাহাটীৰ ওচৰৰ ১০০ কিলোমিটাৰ জলপথ।",
+          "(খ) বৰাক উপত্যকাৰ জলপথ।",
+          "(গ) শদিয়াৰ পৰা ধুবুৰী সংযোগী ৮৯১ কিলোমিটাৰ জলপথ।",
+          "(ঘ) প্ৰয়াগৰাজৰ পৰা হলদিয়া সংযোগী গংগা জলপথ।"
+        ]
+      },
+      "correct": "c",
+      "a": {
+        "en": [
+          "The 891 km Sadiya-Dhubri stretch of the Brahmaputra was declared National Waterway-2 in 1988.",
+          "Answer: (c) The 891 km stretch from Sadiya to Dhubri."
+        ],
+        "as": [
+          "ব্ৰহ্মপুত্ৰৰ শদিয়া-ধুবুৰী ৮৯১ কিলোমিটাৰ জলপথ ১৯৮৮ চনত ৰাষ্ট্ৰীয় জলপথ-২ হিচাপে ঘোষণা কৰা হৈছিল।",
+          "উত্তৰ: (গ) শদিয়াৰ পৰা ধুবুৰী সংযোগী ৮৯১ কিলোমিটাৰ জলপথ।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The 891 km Sadiya-Dhubri stretch of the Brahmaputra was declared National Waterway-2 in 1988. Therefore, the correct option is (c).",
+        "as": "ধাপে-ধাপে: ব্ৰহ্মপুত্ৰৰ শদিয়া-ধুবুৰী ৮৯১ কিলোমিটাৰ জলপথ ১৯৮৮ চনত ৰাষ্ট্ৰীয় জলপথ-২ হিচাপে ঘোষণা কৰা হৈছিল। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (গ)।"
+      }
     },
     {
-      "q": { "en": "Between whom was the historic Battle of Saraighat (1671) fought on the Brahmaputra?", "as": "অসমৰ ঐতিহাসিক 'শৰাইঘাটৰ ৰণ' (১৬৭১) কাৰ কাৰ মাজত হৈছিল?" },
-      "a": { "en": "Ahoms (led by Lachit Borphukan) and Mughals (led by Ram Singh).", "as": "আহোম (লাচিত বৰফুকন) আৰু মোগল (ৰাম সিংহ)ৰ মাজত, ব্ৰহ্মপুত্ৰ নদীত।" }
+      "q": {
+        "en": "Between whom was the historic Battle of Saraighat (1671) fought?",
+        "as": "ঐতিহাসিক শৰাইঘাটৰ ৰণ (১৬৭১) কাৰ কাৰ মাজত হৈছিল?"
+      },
+      "options": {
+        "en": [
+          "(a) The British and the Ahoms.",
+          "(b) The Mughals and the Koch.",
+          "(c) The Burmese and the Ahoms.",
+          "(d) The Ahoms led by Lachit Borphukan and the Mughals led by Ram Singh."
+        ],
+        "as": [
+          "(ক) ব্ৰিটিছ আৰু আহোম।",
+          "(খ) মোগল আৰু কোচ।",
+          "(গ) বৰ্মী আৰু আহোম।",
+          "(ঘ) লাচিত বৰফুকনৰ নেতৃত্বত আহোম আৰু ৰাম সিংহৰ নেতৃত্বত মোগল।"
+        ]
+      },
+      "correct": "d",
+      "a": {
+        "en": [
+          "The Battle of Saraighat in 1671 was fought on the Brahmaputra between the Ahoms under Lachit Borphukan and the Mughals under Ram Singh.",
+          "Answer: (d) The Ahoms led by Lachit Borphukan and the Mughals led by Ram Singh."
+        ],
+        "as": [
+          "১৬৭১ চনৰ শৰাইঘাটৰ ৰণ ব্ৰহ্মপুত্ৰত লাচিত বৰফুকনৰ নেতৃত্বত আহোম আৰু ৰাম সিংহৰ নেতৃত্বত মোগলৰ মাজত হৈছিল।",
+          "উত্তৰ: (ঘ) লাচিত বৰফুকনৰ নেতৃত্বত আহোম আৰু ৰাম সিংহৰ নেতৃত্বত মোগল।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Battle of Saraighat in 1671 was fought on the Brahmaputra between the Ahoms under Lachit Borphukan and the Mughals under Ram Singh. Therefore, the correct option is (d).",
+        "as": "ধাপে-ধাপে: ১৬৭১ চনৰ শৰাইঘাটৰ ৰণ ব্ৰহ্মপুত্ৰত লাচিত বৰফুকনৰ নেতৃত্বত আহোম আৰু ৰাম সিংহৰ নেতৃত্বত মোগলৰ মাজত হৈছিল। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ঘ)।"
+      }
     },
     {
-      "q": { "en": "By what name is the Brahmaputra mentioned in the Puranas and ancient literature?", "as": "ব্ৰহ্মপুত্ৰ নদীক পুৰাণ বা প্ৰাচীন সাহিত্যত কি নামেৰে উল্লেখ কৰা হৈছে?" },
-      "a": { "en": "Lauhitya.", "as": "লৌহিত্য (Lauhitya)।" }
+      "q": {
+        "en": "By what name is the Brahmaputra mentioned in the Puranas and ancient literature?",
+        "as": "ব্ৰহ্মপুত্ৰ নদীক পুৰাণ বা প্ৰাচীন সাহিত্যত কি নামেৰে উল্লেখ কৰা হৈছে?"
+      },
+      "options": {
+        "en": [
+          "(a) Lauhitya.",
+          "(b) Saraswati.",
+          "(c) Ganga.",
+          "(d) Kaveri."
+        ],
+        "as": [
+          "(ক) লৌহিত্য।",
+          "(খ) সৰস্বতী।",
+          "(গ) গংগা।",
+          "(ঘ) কাবেৰী।"
+        ]
+      },
+      "correct": "a",
+      "a": {
+        "en": [
+          "Ancient texts such as the Puranas refer to the Brahmaputra as the Lauhitya.",
+          "Answer: (a) Lauhitya."
+        ],
+        "as": [
+          "পুৰাণ আদি প্ৰাচীন গ্ৰন্থত ব্ৰহ্মপুত্ৰক লৌহিত্য হিচাপে উল্লেখ কৰা হৈছে।",
+          "উত্তৰ: (ক) লৌহিত্য।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: Ancient texts such as the Puranas refer to the Brahmaputra as the Lauhitya. Therefore, the correct option is (a).",
+        "as": "ধাপে-ধাপে: পুৰাণ আদি প্ৰাচীন গ্ৰন্থত ব্ৰহ্মপুত্ৰক লৌহিত্য হিচাপে উল্লেখ কৰা হৈছে। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ক)।"
+      }
     },
     {
-      "q": { "en": "According to Hindu mythology, whose son is the Brahmaputra believed to be?", "as": "হিন্দু পৌৰাণিক কাহিনী অনুসৰি ব্ৰহ্মপুত্ৰ নদী কাৰ পুত্ৰ বুলি বিশ্বাস কৰা হয়?" },
-      "a": { "en": "Son of Lord Brahma and Amogha.", "as": "ব্ৰহ্মা আৰু অমোঘাৰ পুত্ৰ।" }
+      "q": {
+        "en": "According to Hindu mythology, whose son is the Brahmaputra believed to be?",
+        "as": "হিন্দু পৌৰাণিক কাহিনী অনুসৰি ব্ৰহ্মপুত্ৰ কাৰ পুত্ৰ বুলি বিশ্বাস কৰা হয়?"
+      },
+      "options": {
+        "en": [
+          "(a) Lord Shiva and Parvati.",
+          "(b) Lord Brahma and Amogha.",
+          "(c) Lord Vishnu and Lakshmi.",
+          "(d) Lord Indra and Shachi."
+        ],
+        "as": [
+          "(ক) শিৱ আৰু পাৰ্বতী।",
+          "(খ) ব্ৰহ্মা আৰু অমোঘা।",
+          "(গ) বিষ্ণু আৰু লক্ষ্মী।",
+          "(ঘ) ইন্দ্ৰ আৰু শচী।"
+        ]
+      },
+      "correct": "b",
+      "a": {
+        "en": [
+          "According to Hindu mythology the Brahmaputra is believed to be the son of Lord Brahma and Amogha.",
+          "Answer: (b) Lord Brahma and Amogha."
+        ],
+        "as": [
+          "হিন্দু পৌৰাণিক কাহিনী অনুসৰি ব্ৰহ্মপুত্ৰক ব্ৰহ্মা আৰু অমোঘাৰ পুত্ৰ বুলি বিশ্বাস কৰা হয়।",
+          "উত্তৰ: (খ) ব্ৰহ্মা আৰু অমোঘা।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: According to Hindu mythology the Brahmaputra is believed to be the son of Lord Brahma and Amogha. Therefore, the correct option is (b).",
+        "as": "ধাপে-ধাপে: হিন্দু পৌৰাণিক কাহিনী অনুসৰি ব্ৰহ্মপুত্ৰক ব্ৰহ্মা আৰু অমোঘাৰ পুত্ৰ বুলি বিশ্বাস কৰা হয়। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (খ)।"
+      }
     },
     {
-      "q": { "en": "Which famous temple is located in the middle of the Brahmaputra river?", "as": "ব্ৰহ্মপুত্ৰ নদীৰ মাজত থকা প্ৰসিদ্ধ শক্তিপীঠ/মন্দিৰটো কি?" },
-      "a": { "en": "Umananda Temple (built by Ahom King Gadadhar Singha).", "as": "উমানন্দ মন্দিৰ (শিৱ মন্দিৰ, গদাধৰ সিংহই নিৰ্মাণ কৰাইছিল)।" }
+      "q": {
+        "en": "Which famous temple is located in the middle of the Brahmaputra river?",
+        "as": "ব্ৰহ্মপুত্ৰ নদীৰ মাজত থকা প্ৰসিদ্ধ মন্দিৰটো কি?"
+      },
+      "options": {
+        "en": [
+          "(a) Kamakhya Temple.",
+          "(b) Hayagriva Madhava Temple.",
+          "(c) Umananda Temple.",
+          "(d) Doul Govinda Temple."
+        ],
+        "as": [
+          "(ক) কামাখ্যা মন্দিৰ।",
+          "(খ) হয়গ্ৰীৱ মাধৱ মন্দিৰ।",
+          "(গ) উমানন্দ মন্দিৰ।",
+          "(ঘ) দৌল গোবিন্দ মন্দিৰ।"
+        ]
+      },
+      "correct": "c",
+      "a": {
+        "en": [
+          "The Umananda Temple, a Shiva temple built by Ahom King Gadadhar Singha, stands on an island in the Brahmaputra.",
+          "Answer: (c) Umananda Temple."
+        ],
+        "as": [
+          "আহোম ৰজা গদাধৰ সিংহই নিৰ্মাণ কৰোৱা উমানন্দ মন্দিৰ, এটা শিৱ মন্দিৰ, ব্ৰহ্মপুত্ৰৰ এটা দ্বীপত অৱস্থিত।",
+          "উত্তৰ: (গ) উমানন্দ মন্দিৰ।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Umananda Temple, a Shiva temple built by Ahom King Gadadhar Singha, stands on an island in the Brahmaputra. Therefore, the correct option is (c).",
+        "as": "ধাপে-ধাপে: আহোম ৰজা গদাধৰ সিংহই নিৰ্মাণ কৰোৱা উমানন্দ মন্দিৰ, এটা শিৱ মন্দিৰ, ব্ৰহ্মপুত্ৰৰ এটা দ্বীপত অৱস্থিত। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (গ)।"
+      }
     },
     {
-      "q": { "en": "Which two places are connected by the Guwahati Brahmaputra Ropeway?", "as": "গুৱাহাটীৰ ব্ৰহ্মপুত্ৰ ৰ'পৱে (Brahmaputra Ropeway) কোন দুটা স্থানক সংযোগ কৰে?" },
-      "a": { "en": "Panbazar (South Guwahati) and North Guwahati (1.82 km).", "as": "পাণবজাৰ (দক্ষিণ গুৱাহাটী) আৰু উত্তৰ গুৱাহাটী (১.৮২ কিঃমিঃ)।" }
+      "q": {
+        "en": "Which two places are connected by the Guwahati Brahmaputra Ropeway?",
+        "as": "গুৱাহাটীৰ ব্ৰহ্মপুত্ৰ ৰ'পৱে কোন দুটা স্থানক সংযোগ কৰে?"
+      },
+      "options": {
+        "en": [
+          "(a) Umananda and Kamakhya.",
+          "(b) Tezpur and Silghat.",
+          "(c) Dibrugarh and Dhemaji.",
+          "(d) Panbazar (South Guwahati) and North Guwahati."
+        ],
+        "as": [
+          "(ক) উমানন্দ আৰু কামাখ্যা।",
+          "(খ) তেজপুৰ আৰু শিলঘাট।",
+          "(গ) ডিব্ৰুগড় আৰু ধেমাজি।",
+          "(ঘ) পাণবজাৰ (দক্ষিণ গুৱাহাটী) আৰু উত্তৰ গুৱাহাটী।"
+        ]
+      },
+      "correct": "d",
+      "a": {
+        "en": [
+          "The Brahmaputra Ropeway links Panbazar in south Guwahati with North Guwahati over 1.82 km.",
+          "Answer: (d) Panbazar (South Guwahati) and North Guwahati."
+        ],
+        "as": [
+          "ব্ৰহ্মপুত্ৰ ৰ'পৱে ১.৮২ কিলোমিটাৰ জুৰি দক্ষিণ গুৱাহাটীৰ পাণবজাৰক উত্তৰ গুৱাহাটীৰ সৈতে সংযোগ কৰে।",
+          "উত্তৰ: (ঘ) পাণবজাৰ (দক্ষিণ গুৱাহাটী) আৰু উত্তৰ গুৱাহাটী।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Brahmaputra Ropeway links Panbazar in south Guwahati with North Guwahati over 1.82 km. Therefore, the correct option is (d).",
+        "as": "ধাপে-ধাপে: ব্ৰহ্মপুত্ৰ ৰ'পৱে ১.৮২ কিলোমিটাৰ জুৰি দক্ষিণ গুৱাহাটীৰ পাণবজাৰক উত্তৰ গুৱাহাটীৰ সৈতে সংযোগ কৰে। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ঘ)।"
+      }
     },
     {
-      "q": { "en": "Which is the main aquatic mammal of the Brahmaputra river?", "as": "ব্ৰহ্মপুত্ৰ উপত্যকাৰ প্ৰধান জলজ স্তন্যপায়ী প্ৰাণীবিধ কি?" },
-      "a": { "en": "Ganges River Dolphin (Platanista gangetica / Xihu).", "as": "শিহু বা গংগা ডলফিন (Ganges River Dolphin / Platanista gangetica)।" }
+      "q": {
+        "en": "Which is the main aquatic mammal of the Brahmaputra river?",
+        "as": "ব্ৰহ্মপুত্ৰ নদীৰ প্ৰধান জলজ স্তন্যপায়ী প্ৰাণীবিধ কি?"
+      },
+      "options": {
+        "en": [
+          "(a) The Ganges River Dolphin (Xihu).",
+          "(b) The blue whale.",
+          "(c) The sea otter.",
+          "(d) The dugong."
+        ],
+        "as": [
+          "(ক) শিহু বা গংগা ডলফিন।",
+          "(খ) নীল তিমি।",
+          "(গ) সমুদ্ৰ ওটাৰ।",
+          "(ঘ) ডুগং।"
+        ]
+      },
+      "correct": "a",
+      "a": {
+        "en": [
+          "The Ganges River Dolphin, locally called Xihu, is the main aquatic mammal of the Brahmaputra.",
+          "Answer: (a) The Ganges River Dolphin (Xihu)."
+        ],
+        "as": [
+          "গংগা ডলফিন, স্থানীয়ভাৱে শিহু নামে জনাজাত, ব্ৰহ্মপুত্ৰৰ প্ৰধান জলজ স্তন্যপায়ী।",
+          "উত্তৰ: (ক) শিহু বা গংগা ডলফিন।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Ganges River Dolphin, locally called Xihu, is the main aquatic mammal of the Brahmaputra. Therefore, the correct option is (a).",
+        "as": "ধাপে-ধাপে: গংগা ডলফিন, স্থানীয়ভাৱে শিহু নামে জনাজাত, ব্ৰহ্মপুত্ৰৰ প্ৰধান জলজ স্তন্যপায়ী। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ক)।"
+      }
     },
     {
-      "q": { "en": "Through which three countries does the Brahmaputra river flow?", "as": "ব্ৰহ্মপুত্ৰ নদী কোনখন আন্তঃৰাষ্ট্ৰীয় সীমাত প্ৰাকৃতিক সীমা গঠন কৰে?" },
-      "a": { "en": "China, India and Bangladesh.", "as": "ভাৰত, চীন আৰু বাংলাদেশৰ মাজেৰে বৈ গৈছে।" }
+      "q": {
+        "en": "Through which three countries does the Brahmaputra river flow?",
+        "as": "ব্ৰহ্মপুত্ৰ নদী কোন তিনিখন দেশৰ মাজেৰে বৈ গৈছে?"
+      },
+      "options": {
+        "en": [
+          "(a) India, Nepal and Bhutan.",
+          "(b) China, India and Bangladesh.",
+          "(c) China, Nepal and India.",
+          "(d) Bangladesh, Myanmar and India."
+        ],
+        "as": [
+          "(ক) ভাৰত, নেপাল আৰু ভূটান।",
+          "(খ) চীন, ভাৰত আৰু বাংলাদেশ।",
+          "(গ) চীন, নেপাল আৰু ভাৰত।",
+          "(ঘ) বাংলাদেশ, ম্যানমাৰ আৰু ভাৰত।"
+        ]
+      },
+      "correct": "b",
+      "a": {
+        "en": [
+          "The Brahmaputra flows through China (Tibet), India and Bangladesh.",
+          "Answer: (b) China, India and Bangladesh."
+        ],
+        "as": [
+          "ব্ৰহ্মপুত্ৰ চীন (তিব্বত), ভাৰত আৰু বাংলাদেশৰ মাজেৰে বৈ যায়।",
+          "উত্তৰ: (খ) চীন, ভাৰত আৰু বাংলাদেশ।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Brahmaputra flows through China (Tibet), India and Bangladesh. Therefore, the correct option is (b).",
+        "as": "ধাপে-ধাপে: ব্ৰহ্মপুত্ৰ চীন (তিব্বত), ভাৰত আৰু বাংলাদেশৰ মাজেৰে বৈ যায়। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (খ)।"
+      }
     },
     {
-      "q": { "en": "On which bank of the Brahmaputra is Kaziranga National Park situated?", "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?" },
-      "a": { "en": "South Bank.", "as": "দক্ষিণ পাৰে (South Bank)।" }
+      "q": {
+        "en": "On which bank of the Brahmaputra is Kaziranga National Park situated?",
+        "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ কোন পাৰে অৱস্থিত?"
+      },
+      "options": {
+        "en": [
+          "(a) North Bank.",
+          "(b) Both banks equally.",
+          "(c) South Bank.",
+          "(d) On an island in the river."
+        ],
+        "as": [
+          "(ক) উত্তৰ পাৰ।",
+          "(খ) দুয়ো পাৰ সমানে।",
+          "(গ) দক্ষিণ পাৰ।",
+          "(ঘ) নদীৰ এটা দ্বীপত।"
+        ]
+      },
+      "correct": "c",
+      "a": {
+        "en": [
+          "Kaziranga National Park lies on the south bank of the Brahmaputra.",
+          "Answer: (c) South Bank."
+        ],
+        "as": [
+          "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে অৱস্থিত।",
+          "উত্তৰ: (গ) দক্ষিণ পাৰ।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: Kaziranga National Park lies on the south bank of the Brahmaputra. Therefore, the correct option is (c).",
+        "as": "ধাপে-ধাপে: কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে অৱস্থিত। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (গ)।"
+      }
     },
     {
-      "q": { "en": "Which major tributary flows through Manas National Park before joining the Brahmaputra?", "as": "মানাহ ৰাষ্ট্ৰীয় উদ্যানৰ মাজেৰে বৈ যোৱা ব্ৰহ্মপুত্ৰৰ প্ৰধান উপনৈখন কি?" },
-      "a": { "en": "Manas River.", "as": "মানাহ নদী (Manas River)।" }
+      "q": {
+        "en": "Which major tributary flows through Manas National Park before joining the Brahmaputra?",
+        "as": "মানাহ ৰাষ্ট্ৰীয় উদ্যানৰ মাজেৰে বৈ যোৱা ব্ৰহ্মপুত্ৰৰ প্ৰধান উপনৈখন কি?"
+      },
+      "options": {
+        "en": [
+          "(a) The Subansiri.",
+          "(b) The Kopili.",
+          "(c) The Sankosh.",
+          "(d) The Manas River."
+        ],
+        "as": [
+          "(ক) সোৱণশিৰি।",
+          "(খ) কপিলী।",
+          "(গ) সোণকোষ।",
+          "(ঘ) মানাহ নদী।"
+        ]
+      },
+      "correct": "d",
+      "a": {
+        "en": [
+          "The Manas River flows through Manas National Park before joining the Brahmaputra.",
+          "Answer: (d) The Manas River."
+        ],
+        "as": [
+          "মানাহ নদী মানাহ ৰাষ্ট্ৰীয় উদ্যানৰ মাজেৰে বৈ ব্ৰহ্মপুত্ৰত মিলে।",
+          "উত্তৰ: (ঘ) মানাহ নদী।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Manas River flows through Manas National Park before joining the Brahmaputra. Therefore, the correct option is (d).",
+        "as": "ধাপে-ধাপে: মানাহ নদী মানাহ ৰাষ্ট্ৰীয় উদ্যানৰ মাজেৰে বৈ ব্ৰহ্মপুত্ৰত মিলে। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ঘ)।"
+      }
     },
     {
-      "q": { "en": "When was the Brahmaputra Board established?", "as": "ব্ৰহ্মপুত্ৰ ব'ৰ্ড (Brahmaputra Board) কেতিয়া গঠন কৰা হৈছিল?" },
-      "a": { "en": "In 1980 (under the Brahmaputra Board Act, 1980, headquartered in Guwahati).", "as": "১৯৮০ চনত (Brahmaputra Board Act, 1980 অনুসৰি, মুখ্য কাৰ্যালয় গুৱাহাটীত)।" }
+      "q": {
+        "en": "When was the Brahmaputra Board established?",
+        "as": "ব্ৰহ্মপুত্ৰ ব'ৰ্ড কেতিয়া গঠন কৰা হৈছিল?"
+      },
+      "options": {
+        "en": [
+          "(a) In 1980.",
+          "(b) In 1991.",
+          "(c) In 1972.",
+          "(d) In 2001."
+        ],
+        "as": [
+          "(ক) ১৯৮০ চনত।",
+          "(খ) ১৯৯১ চনত।",
+          "(গ) ১৯৭২ চনত।",
+          "(ঘ) ২০০১ চনত।"
+        ]
+      },
+      "correct": "a",
+      "a": {
+        "en": [
+          "The Brahmaputra Board was constituted in 1980 under the Brahmaputra Board Act, with its headquarters at Guwahati.",
+          "Answer: (a) In 1980."
+        ],
+        "as": [
+          "ব্ৰহ্মপুত্ৰ ব'ৰ্ড ১৯৮০ চনত ব্ৰহ্মপুত্ৰ ব'ৰ্ড আইনৰ অধীনত গঠন কৰা হৈছিল, যাৰ মুখ্য কাৰ্যালয় গুৱাহাটীত।",
+          "উত্তৰ: (ক) ১৯৮০ চনত।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Brahmaputra Board was constituted in 1980 under the Brahmaputra Board Act, with its headquarters at Guwahati. Therefore, the correct option is (a).",
+        "as": "ধাপে-ধাপে: ব্ৰহ্মপুত্ৰ ব'ৰ্ড ১৯৮০ চনত ব্ৰহ্মপুত্ৰ ব'ৰ্ড আইনৰ অধীনত গঠন কৰা হৈছিল, যাৰ মুখ্য কাৰ্যালয় গুৱাহাটীত। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ক)।"
+      }
     },
     {
-      "q": { "en": "Which is the largest delta in the world formed by the Brahmaputra and Ganga?", "as": "ব্ৰহ্মপুত্ৰ আৰু গংগা নদীয়ে সৃষ্টি কৰা বিশ্বৰ সৰ্ববৃহৎ ব-দ্বীপ (Delta) কোনটো?" },
-      "a": { "en": "Sundarbans Delta.", "as": "সুন্দৰবন ব-দ্বীপ (Sundarbans Delta)।" }
+      "q": {
+        "en": "Which is the largest delta in the world, formed by the Brahmaputra and Ganga?",
+        "as": "ব্ৰহ্মপুত্ৰ আৰু গংগাই সৃষ্টি কৰা বিশ্বৰ সৰ্ববৃহৎ ব-দ্বীপ কোনটো?"
+      },
+      "options": {
+        "en": [
+          "(a) The Nile Delta.",
+          "(b) The Sundarbans Delta.",
+          "(c) The Mekong Delta.",
+          "(d) The Mississippi Delta."
+        ],
+        "as": [
+          "(ক) নীল নদীৰ ব-দ্বীপ।",
+          "(খ) সুন্দৰবন ব-দ্বীপ।",
+          "(গ) মেকং ব-দ্বীপ।",
+          "(ঘ) মিছিছিপি ব-দ্বীপ।"
+        ]
+      },
+      "correct": "b",
+      "a": {
+        "en": [
+          "The Sundarbans is the largest delta in the world, formed by the Ganga-Brahmaputra river system.",
+          "Answer: (b) The Sundarbans Delta."
+        ],
+        "as": [
+          "সুন্দৰবন বিশ্বৰ সৰ্ববৃহৎ ব-দ্বীপ, যি গংগা-ব্ৰহ্মপুত্ৰ নদী ব্যৱস্থাই গঠন কৰিছে।",
+          "উত্তৰ: (খ) সুন্দৰবন ব-দ্বীপ।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Sundarbans is the largest delta in the world, formed by the Ganga-Brahmaputra river system. Therefore, the correct option is (b).",
+        "as": "ধাপে-ধাপে: সুন্দৰবন বিশ্বৰ সৰ্ববৃহৎ ব-দ্বীপ, যি গংগা-ব্ৰহ্মপুত্ৰ নদী ব্যৱস্থাই গঠন কৰিছে। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (খ)।"
+      }
     },
     {
-      "q": { "en": "Through which district's border does the Brahmaputra enter Bangladesh from Assam?", "as": "ব্ৰহ্মপুত্ৰ নদী অসমৰ কোনখন জিলাৰ সীমাৰে বাংলাদেশত প্ৰৱেশ কৰিছে?" },
-      "a": { "en": "Dhubri District.", "as": "ধুবুৰী জিলাৰ মাজেৰে।" }
+      "q": {
+        "en": "Through which district does the Brahmaputra enter Bangladesh from Assam?",
+        "as": "ব্ৰহ্মপুত্ৰ অসমৰ কোনখন জিলাৰ মাজেৰে বাংলাদেশত প্ৰৱেশ কৰিছে?"
+      },
+      "options": {
+        "en": [
+          "(a) Karimganj.",
+          "(b) Cachar.",
+          "(c) Dhubri.",
+          "(d) Kokrajhar."
+        ],
+        "as": [
+          "(ক) কৰিমগঞ্জ।",
+          "(খ) কাছাৰ।",
+          "(গ) ধুবুৰী।",
+          "(ঘ) কোকৰাঝাৰ।"
+        ]
+      },
+      "correct": "c",
+      "a": {
+        "en": [
+          "The Brahmaputra leaves Assam through Dhubri district and enters Bangladesh.",
+          "Answer: (c) Dhubri."
+        ],
+        "as": [
+          "ব্ৰহ্মপুত্ৰ ধুবুৰী জিলাৰ মাজেৰে অসম এৰি বাংলাদেশত সোমায়।",
+          "উত্তৰ: (গ) ধুবুৰী।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Brahmaputra leaves Assam through Dhubri district and enters Bangladesh. Therefore, the correct option is (c).",
+        "as": "ধাপে-ধাপে: ব্ৰহ্মপুত্ৰ ধুবুৰী জিলাৰ মাজেৰে অসম এৰি বাংলাদেশত সোমায়। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (গ)।"
+      }
     },
     {
-      "q": { "en": "Which longest river bridge connecting Assam and Meghalaya is under construction in Lower Assam?", "as": "নামনি অসমৰ আটাইতকৈ দীঘল নদী দলংখন কোন দুখন জিলাৰ মাজত নিৰ্মাণৰ কাম চলি আছে?" },
-      "a": { "en": "Dhubri-Phulbari Bridge (approx. 19 km).", "as": "ধুবুৰী-ফুলবাৰী দলং (প্ৰায় ১৯ কিঃমিঃ, অসম আৰু মেঘালয় সংযোগী)।" }
+      "q": {
+        "en": "Which longest river bridge connecting Assam and Meghalaya is under construction in Lower Assam?",
+        "as": "নামনি অসমত নিৰ্মাণৰ কাম চলি থকা অসম আৰু মেঘালয় সংযোগী দীঘল নদী দলংখন কোনখন?"
+      },
+      "options": {
+        "en": [
+          "(a) Bogibeel Bridge.",
+          "(b) Saraighat Bridge.",
+          "(c) Naranarayan Setu.",
+          "(d) The Dhubri-Phulbari Bridge, about 19 km long."
+        ],
+        "as": [
+          "(ক) বগীবিল দলং।",
+          "(খ) শৰাইঘাট দলং।",
+          "(গ) নৰনাৰায়ণ সেতু।",
+          "(ঘ) ধুবুৰী-ফুলবাৰী দলং, প্ৰায় ১৯ কিঃমিঃ দীঘল।"
+        ]
+      },
+      "correct": "d",
+      "a": {
+        "en": [
+          "The Dhubri-Phulbari Bridge, around 19 km long, is being built across the Brahmaputra to link Assam and Meghalaya.",
+          "Answer: (d) The Dhubri-Phulbari Bridge, about 19 km long."
+        ],
+        "as": [
+          "প্ৰায় ১৯ কিলোমিটাৰ দীঘল ধুবুৰী-ফুলবাৰী দলং অসম আৰু মেঘালয় সংযোগ কৰিবলৈ ব্ৰহ্মপুত্ৰৰ ওপৰত নিৰ্মাণ কৰা হৈছে।",
+          "উত্তৰ: (ঘ) ধুবুৰী-ফুলবাৰী দলং, প্ৰায় ১৯ কিঃমিঃ দীঘল।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Dhubri-Phulbari Bridge, around 19 km long, is being built across the Brahmaputra to link Assam and Meghalaya. Therefore, the correct option is (d).",
+        "as": "ধাপে-ধাপে: প্ৰায় ১৯ কিলোমিটাৰ দীঘল ধুবুৰী-ফুলবাৰী দলং অসম আৰু মেঘালয় সংযোগ কৰিবলৈ ব্ৰহ্মপুত্ৰৰ ওপৰত নিৰ্মাণ কৰা হৈছে। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ঘ)।"
+      }
     },
     {
-      "q": { "en": "Which tributaries of the Brahmaputra enter Assam from Bhutan?", "as": "ব্ৰহ্মপুত্ৰৰ কোনখন উপনৈ ভূটানৰ পৰা আহি অসমত প্ৰৱেশ কৰিছে?" },
-      "a": { "en": "Manas, Pagladiya and Sankosh.", "as": "মানাহ, পাগলাদিয়া আৰু সোণকোষ।" }
+      "q": {
+        "en": "Which tributaries of the Brahmaputra enter Assam from Bhutan?",
+        "as": "ব্ৰহ্মপুত্ৰৰ কোনবোৰ উপনৈ ভূটানৰ পৰা আহি অসমত প্ৰৱেশ কৰিছে?"
+      },
+      "options": {
+        "en": [
+          "(a) Manas, Pagladiya and Sankosh.",
+          "(b) Subansiri, Siang and Dibang.",
+          "(c) Dihing, Disang and Kopili.",
+          "(d) Ganga, Yamuna and Saraswati."
+        ],
+        "as": [
+          "(ক) মানাহ, পাগলাদিয়া আৰু সোণকোষ।",
+          "(খ) সোৱণশিৰি, ছিয়াং আৰু দিবাং।",
+          "(গ) দিহিং, দিখৌ আৰু কপিলী।",
+          "(ঘ) গংগা, যমুনা আৰু সৰস্বতী।"
+        ]
+      },
+      "correct": "a",
+      "a": {
+        "en": [
+          "The Manas, Pagladiya and Sankosh are among the tributaries that come from Bhutan into Assam.",
+          "Answer: (a) Manas, Pagladiya and Sankosh."
+        ],
+        "as": [
+          "মানাহ, পাগলাদিয়া আৰু সোণকোষ ভূটানৰ পৰা অসমত অহা উপনৈসমূহৰ ভিতৰত অন্যতম।",
+          "উত্তৰ: (ক) মানাহ, পাগলাদিয়া আৰু সোণকোষ।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Manas, Pagladiya and Sankosh are among the tributaries that come from Bhutan into Assam. Therefore, the correct option is (a).",
+        "as": "ধাপে-ধাপে: মানাহ, পাগলাদিয়া আৰু সোণকোষ ভূটানৰ পৰা অসমত অহা উপনৈসমূহৰ ভিতৰত অন্যতম। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ক)।"
+      }
     },
     {
-      "q": { "en": "What are the temporary sandy river islands frequently formed in the Brahmaputra called?", "as": "ব্ৰহ্মপুত্ৰ নদীত সততে সৃষ্টি হোৱা অস্থায়ী বালিময় চৰ-চাপৰিসমূহক কি বোলা হয়?" },
-      "a": { "en": "Riverine Islands / Chars.", "as": "নদী চৰ (Riverine Islands/Chars)।" }
+      "q": {
+        "en": "What are the temporary sandy river islands frequently formed in the Brahmaputra called?",
+        "as": "ব্ৰহ্মপুত্ৰত সততে সৃষ্টি হোৱা অস্থায়ী বালিময় দ্বীপসমূহক কি বোলা হয়?"
+      },
+      "options": {
+        "en": [
+          "(a) Deltas.",
+          "(b) Chars (riverine islands).",
+          "(c) Gorges.",
+          "(d) Meanders."
+        ],
+        "as": [
+          "(ক) ব-দ্বীপ।",
+          "(খ) চৰ (নদী দ্বীপ)।",
+          "(গ) গিৰিখাত।",
+          "(ঘ) বেঁকা।"
+        ]
+      },
+      "correct": "b",
+      "a": {
+        "en": [
+          "Temporary sandy islands formed by shifting channels in the Brahmaputra are called chars.",
+          "Answer: (b) Chars (riverine islands)."
+        ],
+        "as": [
+          "ব্ৰহ্মপুত্ৰত সলনশীল শাখাৰ ফলত সৃষ্টি হোৱা অস্থায়ী বালিময় দ্বীপসমূহক চৰ বোলা হয়।",
+          "উত্তৰ: (খ) চৰ (নদী দ্বীপ)।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: Temporary sandy islands formed by shifting channels in the Brahmaputra are called chars. Therefore, the correct option is (b).",
+        "as": "ধাপে-ধাপে: ব্ৰহ্মপুত্ৰত সলনশীল শাখাৰ ফলত সৃষ্টি হোৱা অস্থায়ী বালিময় দ্বীপসমূহক চৰ বোলা হয়। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (খ)।"
+      }
     },
     {
-      "q": { "en": "Why is the Brahmaputra river called the 'Red River'?", "as": "ব্ৰহ্মপুত্ৰ নদীক কিয় 'ৰেড ৰিভাৰ' (Red River বা ৰঙা নদী) বুলি কোৱা হয়?" },
-      "a": { "en": "Due to high concentration of red soil and iron oxide sediments carried during monsoons.", "as": "বাৰিষা কালত ইয়াৰ পানীত উচ্চ মাত্ৰাত ৰঙা মাটি আৰু লোৰ অক্সাইড (Iron oxide) মিহলি হৈ পানীৰ ৰং ৰঙচুৱা হোৱাৰ বাবে।" }
+      "q": {
+        "en": "Why is the Brahmaputra river sometimes called the 'Red River'?",
+        "as": "ব্ৰহ্মপুত্ৰ নদীক কেতিয়াবা 'ৰঙা নদী' বুলি কিয় কোৱা হয়?"
+      },
+      "options": {
+        "en": [
+          "(a) Because of red-coloured fish in it.",
+          "(b) Because it flows through lava fields.",
+          "(c) Due to red soil and iron oxide sediments carried during the monsoon.",
+          "(d) Because it reflects the red sunrise."
+        ],
+        "as": [
+          "(ক) ইয়াত থকা ৰঙা ৰঙৰ মাছৰ বাবে।",
+          "(খ) ই লাভা পথাৰৰ মাজেৰে বৈ যোৱাৰ বাবে।",
+          "(গ) বাৰিষা কালত কঢ়িয়াই অনা ৰঙা মাটি আৰু লো-অক্সাইডৰ পলসৰ বাবে।",
+          "(ঘ) ই ৰঙা সূৰ্যোদয় প্ৰতিফলিত কৰাৰ বাবে।"
+        ]
+      },
+      "correct": "c",
+      "a": {
+        "en": [
+          "During the monsoon the Brahmaputra carries a high load of red soil and iron oxide, turning its water reddish.",
+          "Answer: (c) Due to red soil and iron oxide sediments carried during the monsoon."
+        ],
+        "as": [
+          "বাৰিষাকালত ব্ৰহ্মপুত্ৰই অধিক পৰিমাণৰ ৰঙা মাটি আৰু লো-অক্সাইড কঢ়িয়াই আনে, যাৰ ফলত পানী ৰঙচুৱা হয়।",
+          "উত্তৰ: (গ) বাৰিষা কালত কঢ়িয়াই অনা ৰঙা মাটি আৰু লো-অক্সাইডৰ পলসৰ বাবে।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: During the monsoon the Brahmaputra carries a high load of red soil and iron oxide, turning its water reddish. Therefore, the correct option is (c).",
+        "as": "ধাপে-ধাপে: বাৰিষাকালত ব্ৰহ্মপুত্ৰই অধিক পৰিমাণৰ ৰঙা মাটি আৰু লো-অক্সাইড কঢ়িয়াই আনে, যাৰ ফলত পানী ৰঙচুৱা হয়। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (গ)।"
+      }
     },
     {
-      "q": { "en": "Which is the major hydroelectric project located on the Kopili River in Assam?", "as": "কপিলী নদীৰ ওপৰত থকা অসমৰ প্ৰধান জলবিদ্যুৎ প্ৰকল্পটো কি?" },
-      "a": { "en": "Kopili Hydro Electric Project (on Karbi Anglong & Dima Hasao border).", "as": "কপিলী জলবিদ্যুৎ প্ৰকল্প (কাৰ্বি আংলং আৰু ডিমা হাচাও সীমান্তত)।" }
+      "q": {
+        "en": "Which is the major hydroelectric project located on the Kopili River in Assam?",
+        "as": "কপিলী নদীৰ ওপৰত থকা অসমৰ প্ৰধান জলবিদ্যুৎ প্ৰকল্পটো কি?"
+      },
+      "options": {
+        "en": [
+          "(a) Subansiri Lower Project.",
+          "(b) Karbi Langpi Project.",
+          "(c) Doyang Project.",
+          "(d) The Kopili Hydro Electric Project."
+        ],
+        "as": [
+          "(ক) সোৱণশিৰি ল'ৱাৰ প্ৰকল্প।",
+          "(খ) কাৰ্বি লাংপি প্ৰকল্প।",
+          "(গ) দোয়াং প্ৰকল্প।",
+          "(ঘ) কপিলী জলবিদ্যুৎ প্ৰকল্প।"
+        ]
+      },
+      "correct": "d",
+      "a": {
+        "en": [
+          "The Kopili Hydro Electric Project lies on the Kopili river along the Karbi Anglong and Dima Hasao border.",
+          "Answer: (d) The Kopili Hydro Electric Project."
+        ],
+        "as": [
+          "কপিলী জলবিদ্যুৎ প্ৰকল্প কাৰ্বি আংলং আৰু ডিমা হাচাও সীমান্তত কপিলী নদীৰ ওপৰত অৱস্থিত।",
+          "উত্তৰ: (ঘ) কপিলী জলবিদ্যুৎ প্ৰকল্প।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Kopili Hydro Electric Project lies on the Kopili river along the Karbi Anglong and Dima Hasao border. Therefore, the correct option is (d).",
+        "as": "ধাপে-ধাপে: কপিলী জলবিদ্যুৎ প্ৰকল্প কাৰ্বি আংলং আৰু ডিমা হাচাও সীমান্তত কপিলী নদীৰ ওপৰত অৱস্থিত। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ঘ)।"
+      }
     },
     {
-      "q": { "en": "Which river stream joins near the Brahmaputra around the Pobitora Wildlife Sanctuary?", "as": "কোনখন উপনৈ ব্ৰহ্মপুত্ৰৰ সৈতে মিলি বিখ্যাত পবিতৰা অভয়াৰণ্যৰ কাষেৰে বৈ গৈছে?" },
-      "a": { "en": "Garanga and Mayong river basin channels.", "as": "গৰঙা আৰু মায়ং নদী অঞ্চলৰ জলপ্ৰবাহ।" }
+      "q": {
+        "en": "Which river channels join the Brahmaputra around the Pobitora Wildlife Sanctuary?",
+        "as": "কোন নদী জলপ্ৰবাহে ব্ৰহ্মপুত্ৰৰ সৈতে মিলি পবিতৰা অভয়াৰণ্যৰ কাষেৰে বৈ গৈছে?"
+      },
+      "options": {
+        "en": [
+          "(a) The Garanga and Mayong river basin channels.",
+          "(b) The Subansiri and Manas.",
+          "(c) The Dhansiri and Kopili.",
+          "(d) The Barak and Surma."
+        ],
+        "as": [
+          "(ক) গৰঙা আৰু মায়ং নদী অঞ্চলৰ জলপ্ৰবাহ।",
+          "(খ) সোৱণশিৰি আৰু মানাহ।",
+          "(গ) ধনশিৰি আৰু কপিলী।",
+          "(ঘ) বৰাক আৰু শুৰ্মা।"
+        ]
+      },
+      "correct": "a",
+      "a": {
+        "en": [
+          "The Garanga and Mayong river basin channels flow beside the Pobitora Wildlife Sanctuary near the Brahmaputra.",
+          "Answer: (a) The Garanga and Mayong river basin channels."
+        ],
+        "as": [
+          "গৰঙা আৰু মায়ং নদী অঞ্চলৰ জলপ্ৰবাহে ব্ৰহ্মপুত্ৰৰ ওচৰত পবিতৰা অভয়াৰণ্যৰ কাষেৰে বৈ যায়।",
+          "উত্তৰ: (ক) গৰঙা আৰু মায়ং নদী অঞ্চলৰ জলপ্ৰবাহ।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Garanga and Mayong river basin channels flow beside the Pobitora Wildlife Sanctuary near the Brahmaputra. Therefore, the correct option is (a).",
+        "as": "ধাপে-ধাপে: গৰঙা আৰু মায়ং নদী অঞ্চলৰ জলপ্ৰবাহে ব্ৰহ্মপুত্ৰৰ ওচৰত পবিতৰা অভয়াৰণ্যৰ কাষেৰে বৈ যায়। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (ক)।"
+      }
     },
     {
-      "q": { "en": "What is the channel pattern/nature of the Brahmaputra River?", "as": "ব্ৰহ্মপুত্ৰ নদীৰ প্ৰবাহৰ প্ৰকৃতি কিধৰণৰ?" },
-      "a": { "en": "Braided River Channel.", "as": "ব্ৰেইডেড বা বিন্যাসিত নদী (Braided River Channel)।" }
+      "q": {
+        "en": "What is the channel pattern of the Brahmaputra River?",
+        "as": "ব্ৰহ্মপুত্ৰ নদীৰ প্ৰবাহৰ প্ৰকৃতি কিধৰণৰ?"
+      },
+      "options": {
+        "en": [
+          "(a) A straight single channel.",
+          "(b) A braided river channel.",
+          "(c) An underground channel.",
+          "(d) A canal-like channel."
+        ],
+        "as": [
+          "(ক) এটা পোন একক শাখা।",
+          "(খ) ব্ৰেইডেড বা বিন্যাসিত নদী শাখা।",
+          "(গ) ভূগৰ্ভস্থ শাখা।",
+          "(ঘ) খালৰ দৰে শাখা।"
+        ]
+      },
+      "correct": "b",
+      "a": {
+        "en": [
+          "The Brahmaputra has a braided channel pattern with multiple shifting streams divided by sandbars.",
+          "Answer: (b) A braided river channel."
+        ],
+        "as": [
+          "ব্ৰহ্মপুত্ৰৰ ব্ৰেইডেড শাখা বিন্যাস আছে, য'ত বালি-চৰৰ দ্বাৰা বিভক্ত বহু সলনশীল ধাৰা থাকে।",
+          "উত্তৰ: (খ) ব্ৰেইডেড বা বিন্যাসিত নদী শাখা।"
+        ]
+      },
+      "explanation": {
+        "en": "Step-by-step: The Brahmaputra has a braided channel pattern with multiple shifting streams divided by sandbars. Therefore, the correct option is (b).",
+        "as": "ধাপে-ধাপে: ব্ৰহ্মপুত্ৰৰ ব্ৰেইডেড শাখা বিন্যাস আছে, য'ত বালি-চৰৰ দ্বাৰা বিভক্ত বহু সলনশীল ধাৰা থাকে। সেয়ে, শুদ্ধ বিকল্পটো হ'ল (খ)।"
+      }
     }
   ]
 }
