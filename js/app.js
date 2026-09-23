@@ -274,19 +274,38 @@
       return String(v);
     };
 
+    const maybeResolveAnswer = (val) =>
+      fieldName === "answer" ? resolveOptionAnswer(item, val, targetLang) : val;
+
+    /* For multiple-choice questions the answer must clearly point to the
+       correct option (A/B/C/D). When options + a correct option key exist,
+       prefer "(Letter) option text" over a free-form descriptive answer so
+       the reader can see exactly which choice is right. Step-by-step array
+       answers are left untouched. */
+    if (fieldName === "answer") {
+      const idx = getCorrectOptionIndex(item);
+      const opts = getOptionsList(item, targetLang);
+      const rawAnsVal = item.answer !== undefined ? item.answer : item.a;
+      const isStepAnswer = Array.isArray(rawAnsVal)
+        || (rawAnsVal && typeof rawAnsVal === "object" && Object.keys(rawAnsVal).some((k) => Array.isArray(rawAnsVal[k])));
+      if (idx >= 0 && idx < opts.length && opts[idx] !== undefined && String(opts[idx]).trim() !== "" && !isStepAnswer) {
+        return processVal(resolveOptionAnswer(item, idx, targetLang));
+      }
+    }
+
     if (item[longLang] && typeof item[longLang] === "object") {
-      if (item[longLang][fieldName] !== undefined) return processVal(item[longLang][fieldName]);
+      if (item[longLang][fieldName] !== undefined) return processVal(maybeResolveAnswer(item[longLang][fieldName]));
       const shortF = fieldName === "question" ? "q" : fieldName === "answer" ? "a" : fieldName === "explanation" ? "exp" : "";
-      if (shortF && item[longLang][shortF] !== undefined) return processVal(item[longLang][shortF]);
+      if (shortF && item[longLang][shortF] !== undefined) return processVal(maybeResolveAnswer(item[longLang][shortF]));
     }
 
     const directKey = `${fieldName}_${targetLang}`;
-    if (item[directKey] !== undefined && item[directKey] !== null) return processVal(item[directKey]);
+    if (item[directKey] !== undefined && item[directKey] !== null) return processVal(maybeResolveAnswer(item[directKey]));
 
     const shortFieldName = fieldName === "question" ? "q" : fieldName === "answer" ? "a" : fieldName === "explanation" ? "exp" : "";
     if (shortFieldName) {
       const shortDirect = `${shortFieldName}_${targetLang}`;
-      if (item[shortDirect] !== undefined && item[shortDirect] !== null) return processVal(item[shortDirect]);
+      if (item[shortDirect] !== undefined && item[shortDirect] !== null) return processVal(maybeResolveAnswer(item[shortDirect]));
     }
 
     const candidateKeys = [fieldName];
@@ -297,7 +316,7 @@
     for (const k of candidateKeys) {
       const val = item[k];
       if (val !== undefined && val !== null) {
-        return processVal(val);
+        return processVal(maybeResolveAnswer(val));
       }
     }
 
@@ -308,7 +327,7 @@
                    : -1;
       if (idx >= 0) {
         const opts = getOptionsList(item, targetLang);
-        if (opts[idx] !== undefined) return processVal(opts[idx]);
+        if (opts[idx] !== undefined) return processVal(resolveOptionAnswer(item, idx, targetLang));
       }
     }
 
@@ -357,6 +376,50 @@
     if (Array.isArray(item.options_en) && item.options_en.length) return item.options_en.map(String);
 
     return [];
+  }
+
+  /* Resolve a stored answer (option letter like "A" / "b)" or a 0-based
+     option index) into a readable "letter + option text" form, e.g.
+     "(B) 7.2 days". Non-option answers (plain text, arrays, localized
+     objects) are returned untouched so normal Q&A content is unaffected. */
+  function resolveOptionAnswer(item, rawVal, forcedLang) {
+    const opts = getOptionsList(item, forcedLang);
+    if (!opts || !opts.length) return rawVal;
+
+    const letters = "ABCDEFGHIJ";
+    let idx = -1;
+
+    if (Number.isInteger(rawVal)) {
+      idx = rawVal;
+    } else if (typeof rawVal === "string") {
+      const m = /^[\(\[]?\s*([a-jA-J])\s*[\)\]]?[.)]?$/.exec(rawVal.trim());
+      if (m) idx = letters.indexOf(m[1].toUpperCase());
+    }
+
+    if (idx < 0 || idx >= opts.length) return rawVal;
+
+    const letter = letters[idx] || "";
+    const optText = opts[idx];
+    if (optText === undefined || optText === null || String(optText).trim() === "") {
+      return letter || rawVal;
+    }
+    return letter ? `(${letter}) ${optText}` : String(optText);
+  }
+
+  /* Detect the 0-based correct option index from any of the common keys
+     (an integer index, or a letter such as "a" / "(B)"). Returns -1 when
+     no usable option key is present. */
+  function getCorrectOptionIndex(item) {
+    if (!item) return -1;
+    const candidates = [item.correct, item.correct_index, item.answer, item.a];
+    for (const c of candidates) {
+      if (Number.isInteger(c)) return c;
+      if (typeof c === "string") {
+        const m = /^[\(\[]?\s*([a-jA-J])\s*[\)\]]?[.)]?$/.exec(c.trim());
+        if (m) return "ABCDEFGHIJ".indexOf(m[1].toUpperCase());
+      }
+    }
+    return -1;
   }
 
   /* ================= Visual media support (figures, shapes & data tables) =================
@@ -5302,8 +5365,11 @@
           fb.classList.add(sel === q.correct ? "good" : "bad");
           fb.style.display = "block";
           const corrOpt = optList[q.correct];
-          const corrHTML = `${mockOptFig(corrOpt) ? `<span class="opt-fig fb-fig">${mockOptFig(corrOpt)}</span>` : ""}${mockOptText(corrOpt) ? formatMath(mockOptText(corrOpt)) : ""}`;
-          fb.innerHTML = sel === q.correct ? t("mock.revealCorrect") : `${t("mock.correctAnswer")}: ${corrHTML || keys[q.correct] || ""}`;
+          const corrLetter = corrOpt && typeof corrOpt === "object" && corrOpt.option
+            ? String(corrOpt.option)
+            : (keys[q.correct] || "");
+          const corrHTML = `${corrLetter ? `<b>(${corrLetter})</b> ` : ""}${mockOptFig(corrOpt) ? `<span class="opt-fig fb-fig">${mockOptFig(corrOpt)}</span>` : ""}${mockOptText(corrOpt) ? formatMath(mockOptText(corrOpt)) : ""}`;
+          fb.innerHTML = sel === q.correct ? t("mock.revealCorrect") : `${t("mock.correctAnswer")}: ${corrHTML || corrLetter || ""}`;
           renderMathJax(fb);
           const nextBtn = $("#quiz-next");
           if (nextBtn) {
@@ -5408,9 +5474,10 @@
             const optList = q.options || [];
             const rvOpt = (idx) => {
               if (!optList[idx]) return "";
+              const letter = String.fromCharCode(65 + idx);
               const fg = mockOptFig(optList[idx]);
               const tx = mockOptText(optList[idx]);
-              return `${fg ? `<span class="rv-fig">${fg}</span>` : ""}${tx ? formatMath(tx) : (fg ? "" : "(No text)")}`;
+              return `<b>(${letter})</b> ${fg ? `<span class="rv-fig">${fg}</span>` : ""}${tx ? formatMath(tx) : (fg ? "" : "(No text)")}`;
             };
             let ansLine = "";
             if (r.a !== undefined && optList.length) {
