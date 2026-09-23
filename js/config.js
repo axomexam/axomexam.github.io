@@ -205,3 +205,24 @@ const TOPIC_ICON_RULES = [
   [/english|grammar|tense|preposition|synonym|antonym|idiom|phrase|vocabulary|word|spelling|essay/i, '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l1-4L16.5 4.5a2.1 2.1 0 0 1 3 3L8 19l-4 1z"/><path d="M14 6l4 4"/></svg>'],
   [/computer|software|hardware|ms-word|ms-excel|excel|word|spreadsheet|office|internet|network|fundamentals/i, '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>'],
 ];
+
+/* ------------------------------------------------------------
+   Google Analytics 4 auto-load (G-PBPXK2Q799)
+   Loads the GA tag on any page that does not already include the
+   gtag snippet in its <head>. New pages that load config.js are
+   therefore tracked automatically. Pages that already have the
+   snippet are skipped, so page views are never double-counted.
+   ------------------------------------------------------------ */
+(function () {
+  var GA_ID = "G-PBPXK2Q799";
+  if (document.querySelector('script[src*="googletagmanager.com/gtag/js"]')) return;
+  var tag = document.createElement("script");
+  tag.async = true;
+  tag.src = "https://www.googletagmanager.com/gtag/js?id=" + GA_ID;
+  document.head.appendChild(tag);
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { window.dataLayer.push(arguments); }
+  window.gtag = window.gtag || gtag;
+  gtag("js", new Date());
+  gtag("config", GA_ID);
+})();
