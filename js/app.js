@@ -1742,8 +1742,7 @@
               ${fopts ? figureOptionsHTML(item, { compact: true }) : options.length ? `
                 <div class="qa-options-inline" style="margin:0 0 12px 0; padding:0; font-size:0.92rem; color:var(--ink-soft,#334155); display:flex; flex-direction:column; gap:6px; font-weight:500; text-align:left; align-items:flex-start;">
                   ${options.map((opt, optIdx) => {
-                    const hasPrefix = /^\s*[\(\[]?[A-Za-zক-হ০-৯\d]/i.test(opt);
-                    const optDisplay = hasPrefix ? opt : `(${String.fromCharCode(65 + optIdx)}) ${opt}`;
+                    const optDisplay = `(${String.fromCharCode(65 + optIdx)}) ${opt}`;
                     return `<span>${formatMath(optDisplay)}</span>`;
                   }).join("")}
                 </div>` : ""
@@ -1916,8 +1915,7 @@
             ${fopts ? figureOptionsHTML(item, { compact: true }) : options.length ? `
               <div class="qa-options-inline" style="margin:0 0 10px 0; padding:0; display:flex; flex-direction:column; gap:6px; font-size:0.9rem; color:var(--ink-soft,#334155); font-weight:500; text-align:left; align-items:flex-start;">
                 ${options.map((opt, optIdx) => {
-                  const hasPrefix = /^\s*[\(\[]?[A-Za-zক-হ০-৯\d]/i.test(opt);
-                  const optDisplay = hasPrefix ? opt : `(${String.fromCharCode(65 + optIdx)}) ${opt}`;
+                  const optDisplay = `(${String.fromCharCode(65 + optIdx)}) ${opt}`;
                   return `<span>${formatMath(optDisplay)}</span>`;
                 }).join("")}
               </div>` : ""
@@ -2618,8 +2616,7 @@
           ${fopts ? figureOptionsHTML(item, { compact: true }) : options.length ? `
             <div style="font-size:11.2px; color:#475569; margin-bottom:3px; display:flex; flex-wrap:wrap; gap:12px; text-align:left; justify-content:flex-start;">
               ${options.map((opt, optIdx) => {
-                const hasPrefix = /^\s*[\(\[]?[A-Za-zক-হ০-৯\d]/i.test(opt);
-                const optDisplay = hasPrefix ? opt : `(${String.fromCharCode(65 + optIdx)}) ${opt}`;
+                const optDisplay = `(${String.fromCharCode(65 + optIdx)}) ${opt}`;
                 return `<span>${formatMath(optDisplay)}</span>`;
               }).join("")}
             </div>` : ""
