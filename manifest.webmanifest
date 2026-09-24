@@ -1,10 +1,23 @@
 {
+  "id": "/",
   "name": "axomexam — Assam Exam Preparation",
   "short_name": "axomexam",
   "description": "Free bilingual (Assamese & English) mock tests, previous year papers and PDF notes for Assam competitive exams.",
+  "lang": "en",
+  "dir": "ltr",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "portrait-primary",
+  "categories": [
+    "education",
+    "books",
+    "reference"
+  ],
   "background_color": "#ffffff",
   "theme_color": "#4f46e5",
   "icons": [
