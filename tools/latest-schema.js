@@ -115,6 +115,39 @@ function readPageTypes(html) {
   return types;
 }
 
+/* Some noindex duplicate pages declare a canonical that points to the
+   real page. When such a page carries no breadcrumb of its own, reuse
+   the canonical target's breadcrumb so the schema matches the page it
+   canonicalises to. */
+function readBreadcrumbFromCanonical(canonical) {
+  if (!canonical || !canonical.startsWith(BASE)) return [];
+  let rel = canonical.slice(BASE.length).replace(/^\/+/, "").replace(/\/+$/, "");
+  const file = rel ? path.join(ROOT, rel, "index.html") : path.join(ROOT, "index.html");
+  if (!fs.existsSync(file)) return [];
+  try {
+    return readBreadcrumb(fs.readFileSync(file, "utf8"));
+  } catch (e) {
+    return [];
+  }
+}
+
+/* sitemap.xml <lastmod> is the only reliable publish date in the build;
+   read it once so Article nodes can carry a real datePublished. */
+let _sitemapDates = null;
+function sitemapDates() {
+  if (_sitemapDates) return _sitemapDates;
+  _sitemapDates = {};
+  try {
+    const xml = fs.readFileSync(path.join(ROOT, "sitemap.xml"), "utf8");
+    const re = /<url>[\s\S]*?<loc>([^<]+)<\/loc>[\s\S]*?<lastmod>([^<]+)<\/lastmod>[\s\S]*?<\/url>/g;
+    let m;
+    while ((m = re.exec(xml))) _sitemapDates[normUrl(m[1].trim())] = m[2].trim();
+  } catch (e) {
+    /* no sitemap -> no dates */
+  }
+  return _sitemapDates;
+}
+
 /* ---------------- visible content extraction ---------------- */
 
 /* Education Q&A flashcards: the topic pages render every Q/A in
@@ -134,20 +167,51 @@ function extractFlashcards(html) {
   return cards;
 }
 
-/* Child page links visible on a listing page -> ItemList */
-const CHILD_PREFIXES = ["/category/", "/topic/", "/mock-test/", "/exams/", "/ebooks/", "/previous-year/", "/trending/"];
+/* Child page links visible on a listing page -> ItemList.
+   A listing hub links to its children through a different section
+   prefix than its own (e.g. /category/gk/assam-history/x-sec/ links
+   to /topic/gk/assam-history/x-sec/<slug>/), so children are matched
+   on the route path after the section prefix, not on the raw prefix. */
+const SECTION_PREFIXES = ["category", "categories", "topic", "mock-test", "exams", "ebooks", "previous-year", "trending"];
+/* Sections that mirror the same subject tree; a hub in one of them may
+   list the matching child in another (category -> topic, etc.). */
+const SUBJECT_PREFIXES = new Set(["category", "categories", "topic", "mock-test"]);
+function pathSegments(p) {
+  return String(p || "").replace(/^\/+/, "").replace(/\/+$/, "").split("/").filter(Boolean);
+}
 function extractChildItems(html, route) {
   const seen = new Set();
   const items = [];
+  const routeSegs = pathSegments(route);
+  const routeSection = routeSegs[0] || "";
+  const routeRest = routeSegs.slice(1);
   const re = /<a[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g;
   let m;
   while ((m = re.exec(html))) {
     let href = m[1];
     if (!href.startsWith("/") || href.startsWith("//")) continue;
     const clean = href.split("#")[0].split("?")[0];
-    if (!CHILD_PREFIXES.some((p) => clean.startsWith(p))) continue;
-    if (route !== "/" && !clean.startsWith(route + "/")) continue;
-    if (clean === route || clean === route + "/") continue;
+    const cleanSegs = pathSegments(clean);
+    if (!cleanSegs.length || !SECTION_PREFIXES.includes(cleanSegs[0])) continue;
+    if (route !== "/") {
+      if (normUrl(clean) === normUrl(route)) continue;
+      let isChild = false;
+      if (clean.startsWith(route + "/")) {
+        /* Same section prefix: keep the original any-depth behaviour so
+           existing lists (e.g. /category/articles/ -> /read/ pages) are
+           not lost. */
+        isChild = true;
+      } else if (SUBJECT_PREFIXES.has(routeSection) && SUBJECT_PREFIXES.has(cleanSegs[0])) {
+        /* Cross section prefix within the same subject tree
+           (category <-> topic <-> mock-test): accept when the path after
+           the prefix is exactly one level deeper than the route's path. */
+        const cleanRest = cleanSegs.slice(1);
+        isChild =
+          cleanRest.length === routeRest.length + 1 &&
+          routeRest.every((s, i) => cleanRest[i] === s);
+      }
+      if (!isChild) continue;
+    }
     const key = normUrl(clean);
     if (seen.has(key)) continue;
     seen.add(key);
@@ -188,6 +252,12 @@ function pageKind(route) {
     default:
       return "page";
   }
+}
+
+/* /category/articles/<subject>/read/ pages are long-form article
+   readers, not listing pages, and must be typed as Article. */
+function isArticleRead(route) {
+  return /^\/category\/articles\/[^/]+\/read\/?$/.test(route);
 }
 
 function subjectFromBreadcrumb(bc) {
@@ -325,6 +395,25 @@ function bookNode(url, title, description, image, updated) {
   };
 }
 
+function articleNode(url, title, description, image, updated) {
+  const date = updated || sitemapDates()[url] || undefined;
+  return {
+    "@type": "Article",
+    "@id": url + "#article",
+    headline: truncate(title, 110),
+    name: title,
+    description: description || undefined,
+    inLanguage: ["en", "as"],
+    isPartOf: { "@id": SITE_ID },
+    mainEntityOfPage: { "@id": url + "#webpage" },
+    publisher: { "@id": ORG_ID },
+    author: { "@type": "Organization", name: "axomexam Study Team", url: BASE + "/about/" },
+    image: image ? { "@type": "ImageObject", url: image } : undefined,
+    datePublished: date || undefined,
+    dateModified: date || undefined,
+  };
+}
+
 function appNode(url, html, title, description) {
   const apk = (html.match(/href="([^"]+\.apk)"/i) || [])[1] || "";
   const ver = (apk.match(/v?(\d+\.\d+(?:\.\d+)?)/) || [])[1] || "";
@@ -354,7 +443,7 @@ function itemListNode(url, title, children) {
       "@type": "ListItem",
       position: i + 1,
       name: c.name,
-      url: c.url,
+      url: absUrl(c.url),
     })),
   };
 }
@@ -370,7 +459,8 @@ function buildGraph(html, rel) {
   const description = getAttr(html, /<meta name="description" content="([^"]*)"/);
   const image = getAttr(html, /<meta property="og:image" content="([^"]*)"/);
   const updated = extractUpdated(html);
-  const bc = readBreadcrumb(html);
+  let bc = readBreadcrumb(html);
+  if (!bc.length) bc = readBreadcrumbFromCanonical(canonical);
   const kind = pageKind(route);
   const existingTypes = readPageTypes(html);
 
@@ -386,11 +476,17 @@ function buildGraph(html, rel) {
     let pageType = "WebPage";
 
     if (kind === "listing") {
-      pageType = "CollectionPage";
-      const children = extractChildItems(html, route);
-      if (children.length) {
-        graphIfItemList(graph, url, title, children, (id) => (mainId = id));
-        mainId = url + "#itemlist";
+      if (isArticleRead(route)) {
+        pageType = "WebPage";
+        graph.push(articleNode(url, title, description, image, updated));
+        mainId = url + "#article";
+      } else {
+        pageType = "CollectionPage";
+        const children = extractChildItems(html, route);
+        if (children.length) {
+          graphIfItemList(graph, url, title, children, (id) => (mainId = id));
+          mainId = url + "#itemlist";
+        }
       }
     } else if (kind === "topic") {
       const cards = extractFlashcards(html);
