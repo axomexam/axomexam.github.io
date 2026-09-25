@@ -1,29 +1,100 @@
 {
-  "id": "human-body",
-  "title": { "en": "Human Body", "as": "মানৱ শৰীৰ" },
-  "description": { "en": "Important organs, systems and functions of the human body.", "as": "মানৱ শৰীৰৰ গুৰুত্বপূৰ্ণ অংগ, তন্ত্ৰ আৰু কাৰ্য।" },
-  "tags": ["biology", "human body", "organs", "science", "জীৱ বিজ্ঞান", "মানৱ শৰীৰ"],
-  "pdf": null,
+  "title": "Biology - Human Body Question Bank (5 Questions, Bilingual English & Assamese)",
+  "subject": "General Science - Biology (Human Body)",
+  "language_pair": ["English", "Assamese"],
+  "total_questions": 5,
+  "question_format": "Simple question and answer",
+  "generated": "2026-09-25",
   "questions": [
     {
-      "q": { "en": "Which is the largest organ of the human body?", "as": "মানৱ শৰীৰৰ বৃহত্তম অংগটো কোনটো?" },
-      "a": { "en": "The skin.", "as": "ছাল।" }
+      "category": "Human Body",
+      "question_en": "Which is the largest organ of the human body?",
+      "question_as": "মানৱ শৰীৰৰ বৃহত্তম অংগটো কোনটো?",
+      "answer_en": "The skin.",
+      "answer_as": "ছাল।",
+      "options": [
+        { "en": "The liver", "as": "যকৃত" },
+        { "en": "The skin", "as": "ছাল" },
+        { "en": "The heart", "as": "হৃদয়" },
+        { "en": "The brain", "as": "মগজু" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The skin is the largest organ of the human body by surface area and weight.",
+        "as": "ছাল হৈছে পৃষ্ঠকালি আৰু ওজনৰ হিচাপত মানৱ শৰীৰৰ বৃহত্তম অংগ।"
+      }
     },
     {
-      "q": { "en": "Which is the largest gland of the human body?", "as": "মানৱ শৰীৰৰ বৃহত্তম গ্ৰন্থি কোনটো?" },
-      "a": { "en": "The liver.", "as": "যকৃত।" }
+      "category": "Human Body",
+      "question_en": "Which is the largest gland of the human body?",
+      "question_as": "মানৱ শৰীৰৰ বৃহত্তম গ্ৰন্থি কোনটো?",
+      "answer_en": "The liver.",
+      "answer_as": "যকৃত।",
+      "options": [
+        { "en": "The pancreas", "as": "অগ্ন্যাশয়" },
+        { "en": "The thyroid", "as": "থাইৰয়ড" },
+        { "en": "The liver", "as": "যকৃত" },
+        { "en": "The pituitary", "as": "পিটুইটাৰী" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The liver is the largest gland in the human body.",
+        "as": "যকৃত হৈছে মানৱ শৰীৰৰ বৃহত্তম গ্ৰন্থি।"
+      }
     },
     {
-      "q": { "en": "How many bones are there in an adult human body?", "as": "পূৰ্ণবয়স্ক মানুহৰ শৰীৰত কিমানটা হাড় থাকে?" },
-      "a": { "en": "206 bones.", "as": "২০৬টা হাড়।" }
+      "category": "Human Body",
+      "question_en": "How many bones are there in an adult human body?",
+      "question_as": "পূৰ্ণবয়স্ক মানুহৰ শৰীৰত কিমানটা হাড় থাকে?",
+      "answer_en": "206 bones.",
+      "answer_as": "২০৬টা হাড়।",
+      "options": [
+        { "en": "300", "as": "৩০০" },
+        { "en": "206", "as": "২০৬" },
+        { "en": "208", "as": "২০৮" },
+        { "en": "226", "as": "২২৬" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "An adult human skeleton is made up of 206 bones.",
+        "as": "পূৰ্ণবয়স্ক মানুহৰ কংকাল ২০৬টা হাড়েৰে গঠিত।"
+      }
     },
     {
-      "q": { "en": "Which blood cells fight against infections?", "as": "সংক্ৰমণৰ বিৰুদ্ধে যুঁজা তেজৰ কোষবোৰ কোনবোৰ?" },
-      "a": { "en": "White blood cells (WBC / leukocytes).", "as": "শ্বেত ৰক্তকণিকা (WBC / লিউক'চাইট)।" }
+      "category": "Human Body",
+      "question_en": "Which blood cells fight against infections?",
+      "question_as": "সংক্ৰমণৰ বিৰুদ্ধে যুঁজা তেজৰ কোষবোৰ কোনবোৰ?",
+      "answer_en": "White blood cells (WBC / leukocytes).",
+      "answer_as": "শ্বেত ৰক্তকণিকা (WBC / লিউক'চাইট)।",
+      "options": [
+        { "en": "Red blood cells (RBC / erythrocytes)", "as": "ৰক্তকণিকা (RBC / ইৰিথ্ৰ'চাইট)" },
+        { "en": "Platelets (thrombocytes)", "as": "অণুচক্ৰিকা (থ্ৰম্ব'চাইট)" },
+        { "en": "Blood plasma proteins", "as": "ৰক্ত প্লাজমা প্ৰ'টিন" },
+        { "en": "White blood cells (WBC / leukocytes)", "as": "শ্বেত ৰক্তকণিকা (WBC / লিউক'চাইট)" }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "White blood cells (leukocytes) defend the body against infections and foreign particles.",
+        "as": "শ্বেত ৰক্তকণিকা (লিউক'চাইট) য়ে সংক্ৰমণ আৰু বাহিৰা কণাৰ পৰা শৰীৰক ৰক্ষা কৰে।"
+      }
     },
     {
-      "q": { "en": "Which part of the brain controls balance and coordination?", "as": "ভাৰসাম্য আৰু সমন্বয় নিয়ন্ত্ৰণ কৰা মগজুৰ অংশটো কোনটো?" },
-      "a": { "en": "The cerebellum.", "as": "চেৰিবেলাম।" }
+      "category": "Human Body",
+      "question_en": "Which part of the brain controls balance and coordination?",
+      "question_as": "ভাৰসাম্য আৰু সমন্বয় নিয়ন্ত্ৰণ কৰা মগজুৰ অংশটো কোনটো?",
+      "answer_en": "The cerebellum.",
+      "answer_as": "চেৰিবেলাম।",
+      "options": [
+        { "en": "The cerebrum", "as": "চেৰিব্ৰাম" },
+        { "en": "The medulla oblongata", "as": "মেডুলা অ'ব্লংগাটা" },
+        { "en": "The cerebellum", "as": "চেৰিবেলাম" },
+        { "en": "The hypothalamus", "as": "হাইপ'থেলামাছ" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The cerebellum controls balance, posture and coordination of voluntary movements.",
+        "as": "চেৰিবেলামে ভাৰসাম্য, শৰীৰৰ অৱস্থান আৰু ইচ্ছাকৃত গতিৰ সমন্বয় নিয়ন্ত্ৰণ কৰে।"
+      }
     }
   ]
 }
