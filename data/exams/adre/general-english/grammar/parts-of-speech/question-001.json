@@ -1,30 +1,2882 @@
-{
-  "id": "parts-of-speech-001",
-  "q": {
-    "en": "Identify the part of speech of the word 'beautifully' in the sentence: She sings beautifully.",
-    "as": "বাক্যটোত 'beautifully' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: She sings beautifully."
-  },
-  "options": [
-    {
-      "en": "Adjective",
-      "as": "Adjective"
+[
+  {
+    "id": "pos-001",
+    "q": {
+      "en": "Identify the part of speech of the word 'beautifully' in the sentence: She sings beautifully.",
+      "as": "বাক্যটোত 'beautifully' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: She sings beautifully."
     },
-    {
-      "en": "Adverb",
-      "as": "Adverb"
-    },
-    {
-      "en": "Noun",
-      "as": "Noun"
-    },
-    {
-      "en": "Verb",
-      "as": "Verb"
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Beautifully' modifies the verb 'sings', so it is an adverb.",
+      "as": "'Beautifully' এ 'sings' ক্ৰিয়াটোৰ বিষয়ে বৰ্ণনা কৰে, গতিকে ই এটা Adverb।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "'Beautifully' modifies the verb 'sings', so it is an adverb.",
-    "as": "'Beautifully' এ 'sings' ক্ৰিয়াটোৰ বিষয়ে বৰ্ণনা কৰে, গতিকে ই এটা Adverb।"
+  },
+  {
+    "id": "pos-002",
+    "q": {
+      "en": "Identify the part of speech of the word 'play' in the sentence: The children play in the park.",
+      "as": "বাক্যটোত 'play' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: The children play in the park."
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Verb", "as": "Verb" },
+      { "en": "Noun", "as": "Noun" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Play' shows the action of the children, so it is a verb.",
+      "as": "'Play' এ শিশুবোৰৰ কাৰ্য প্ৰকাশ কৰে, গতিকে ই এটা Verb।"
+    }
+  },
+  {
+    "id": "pos-003",
+    "q": {
+      "en": "Identify the part of speech of the word 'talented' in the sentence: Rina is a talented singer.",
+      "as": "বাক্যটোত 'talented' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: Rina is a talented singer."
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Talented' describes the noun 'singer', so it is an adjective.",
+      "as": "'Talented' এ 'singer' বিশেষ্যটোৰ গুণ বৰ্ণনা কৰে, গতিকে ই এটা Adjective।"
+    }
+  },
+  {
+    "id": "pos-004",
+    "q": {
+      "en": "Identify the part of speech of the word 'on' in the sentence: The cat sat on the mat.",
+      "as": "বাক্যটোত 'on' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: The cat sat on the mat."
+    },
+    "options": [
+      { "en": "Conjunction", "as": "Conjunction" },
+      { "en": "Preposition", "as": "Preposition" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Adjective", "as": "Adjective" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'On' shows the relation between 'sat' and 'mat', so it is a preposition.",
+      "as": "'On' এ 'sat' আৰু 'mat' ৰ মাজৰ সম্বন্ধ দেখুৱায়, গতিকে ই এটা Preposition।"
+    }
+  },
+  {
+    "id": "pos-005",
+    "q": {
+      "en": "Identify the part of speech of the word 'and' in the sentence: He and his brother went out.",
+      "as": "বাক্যটোত 'and' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: He and his brother went out."
+    },
+    "options": [
+      { "en": "Preposition", "as": "Preposition" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Conjunction", "as": "Conjunction" },
+      { "en": "Interjection", "as": "Interjection" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'And' joins two words, so it is a conjunction.",
+      "as": "'And' এ দুটা শব্দ সংযোগ কৰে, গতিকে ই এটা Conjunction।"
+    }
+  },
+  {
+    "id": "pos-006",
+    "q": {
+      "en": "Identify the part of speech of the word 'Alas' in the sentence: Alas! He failed the exam.",
+      "as": "বাক্যটোত 'Alas' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: Alas! He failed the exam."
+    },
+    "options": [
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Interjection", "as": "Interjection" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Alas' expresses sudden sorrow, so it is an interjection.",
+      "as": "'Alas' এ হঠাৎ দুখ প্ৰকাশ কৰে, গতিকে ই এটা Interjection।"
+    }
+  },
+  {
+    "id": "pos-007",
+    "q": {
+      "en": "Identify the part of speech of the word 'tall' in the sentence: I saw a tall man.",
+      "as": "বাক্যটোত 'tall' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: I saw a tall man."
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Tall' describes the noun 'man', so it is an adjective.",
+      "as": "'Tall' এ 'man' বিশেষ্যটোৰ গুণ বৰ্ণনা কৰে, গতিকে ই এটা Adjective।"
+    }
+  },
+  {
+    "id": "pos-008",
+    "q": {
+      "en": "Identify the part of speech of the word 'bitterly' in the sentence: The baby cried bitterly.",
+      "as": "বাক্যটোত 'bitterly' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: The baby cried bitterly."
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Bitterly' modifies the verb 'cried', so it is an adverb.",
+      "as": "'Bitterly' এ 'cried' ক্ৰিয়াটো বৰ্ণনা কৰে, গতিকে ই এটা Adverb।"
+    }
+  },
+  {
+    "id": "pos-009",
+    "q": {
+      "en": "Identify the part of speech of the word 'football' in the sentence: They are playing football.",
+      "as": "বাক্যটোত 'football' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: They are playing football."
+    },
+    "options": [
+      { "en": "Verb", "as": "Verb" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Adjective", "as": "Adjective" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Football' is the name of a thing, so it is a noun.",
+      "as": "'Football' এ এটা বস্তুৰ নাম, গতিকে ই এটা Noun।"
+    }
+  },
+  {
+    "id": "pos-010",
+    "q": {
+      "en": "Identify the part of speech of the word 'very' in the sentence: She is very intelligent.",
+      "as": "বাক্যটোত 'very' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: She is very intelligent."
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" },
+      { "en": "Adverb", "as": "Adverb" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Very' modifies the adjective 'intelligent', so it is an adverb.",
+      "as": "'Very' এ 'intelligent' বিশেষণটো বৰ্ণনা কৰে, গতিকে ই এটা Adverb।"
+    }
+  },
+  {
+    "id": "pos-011",
+    "q": {
+      "en": "Identify the part of speech of the word 'interesting' in the sentence: This is an interesting story.",
+      "as": "বাক্যটোত 'interesting' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: This is an interesting story."
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Interesting' describes the noun 'story', so it is an adjective.",
+      "as": "'Interesting' এ 'story' বিশেষ্যটো বৰ্ণনা কৰে, গতিকে ই এটা Adjective।"
+    }
+  },
+  {
+    "id": "pos-012",
+    "q": {
+      "en": "Identify the part of speech of the word 'slowly' in the sentence: He walked slowly towards the door.",
+      "as": "বাক্যটোত 'slowly' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: He walked slowly towards the door."
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Slowly' modifies the verb 'walked', so it is an adverb.",
+      "as": "'Slowly' এ 'walked' ক্ৰিয়াটো বৰ্ণনা কৰে, গতিকে ই এটা Adverb।"
+    }
+  },
+  {
+    "id": "pos-013",
+    "q": {
+      "en": "Identify the part of speech of the word 'Honesty' in the sentence: Honesty pays in the long run.",
+      "as": "বাক্যটোত 'Honesty' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: Honesty pays in the long run."
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Honesty' is the name of a quality, so it is a noun.",
+      "as": "'Honesty' এ এটা গুণৰ নাম, গতিকে ই এটা Noun।"
+    }
+  },
+  {
+    "id": "pos-014",
+    "q": {
+      "en": "Identify the part of speech of the word 'Wow' in the sentence: Wow! That is amazing.",
+      "as": "বাক্যটোত 'Wow' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: Wow! That is amazing."
+    },
+    "options": [
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Interjection", "as": "Interjection" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Wow' expresses sudden joy, so it is an interjection.",
+      "as": "'Wow' এ হঠাৎ আনন্দ প্ৰকাশ কৰে, গতিকে ই এটা Interjection।"
+    }
+  },
+  {
+    "id": "pos-015",
+    "q": {
+      "en": "Identify the part of speech of the word 'clearly' in the sentence: The teacher explained the lesson clearly.",
+      "as": "বাক্যটোত 'clearly' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: The teacher explained the lesson clearly."
+    },
+    "options": [
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Clearly' modifies the verb 'explained', so it is an adverb.",
+      "as": "'Clearly' এ 'explained' ক্ৰিয়াটো বৰ্ণনা কৰে, গতিকে ই এটা Adverb।"
+    }
+  },
+  {
+    "id": "pos-016",
+    "q": {
+      "en": "Identify the part of speech of the word 'She' in the sentence: She is my sister.",
+      "as": "বাক্যটোত 'She' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: She is my sister."
+    },
+    "options": [
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Pronoun", "as": "Pronoun" },
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'She' is used in place of a noun, so it is a pronoun.",
+      "as": "'She' এ এটা নামৰ সলনি ব্যৱহাৰ হয়, গতিকে ই এটা Pronoun।"
+    }
+  },
+  {
+    "id": "pos-017",
+    "q": {
+      "en": "Identify the part of speech of the word 'brave' in the sentence: He is a brave soldier.",
+      "as": "বাক্যটোত 'brave' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: He is a brave soldier."
+    },
+    "options": [
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Verb", "as": "Verb" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Brave' describes the noun 'soldier', so it is an adjective.",
+      "as": "'Brave' এ 'soldier' বিশেষ্যটো বৰ্ণনা কৰে, গতিকে ই এটা Adjective।"
+    }
+  },
+  {
+    "id": "pos-018",
+    "q": {
+      "en": "Identify the part of speech of the word 'outside' in the sentence: The boys are playing outside.",
+      "as": "বাক্যটোত 'outside' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: The boys are playing outside."
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Preposition", "as": "Preposition" },
+      { "en": "Adverb", "as": "Adverb" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Here 'outside' answers the question 'where' about 'playing', so it is an adverb.",
+      "as": "ইয়াত 'outside' এ 'playing' ৰ 'ক'ত' প্ৰশ্নৰ উত্তৰ দিয়ে, গতিকে ই এটা Adverb।"
+    }
+  },
+  {
+    "id": "pos-019",
+    "q": {
+      "en": "Identify the part of speech of the word 'close' in the sentence: Please close the door.",
+      "as": "বাক্যটোত 'close' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: Please close the door."
+    },
+    "options": [
+      { "en": "Verb", "as": "Verb" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Close' shows the action of shutting, so it is a verb.",
+      "as": "'Close' এ বন্ধ কৰাৰ কাৰ্য প্ৰকাশ কৰে, গতিকে ই এটা Verb।"
+    }
+  },
+  {
+    "id": "pos-020",
+    "q": {
+      "en": "Identify the part of speech of the word 'lovely' in the sentence: She has a lovely voice.",
+      "as": "বাক্যটোত 'lovely' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: She has a lovely voice."
+    },
+    "options": [
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Verb", "as": "Verb" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Lovely' describes the noun 'voice', so it is an adjective.",
+      "as": "'Lovely' এ 'voice' বিশেষ্যটো বৰ্ণনা কৰে, গতিকে ই এটা Adjective।"
+    }
+  },
+  {
+    "id": "pos-021",
+    "q": {
+      "en": "Identify the part of speech of the word 'late' in the sentence: The train arrived late.",
+      "as": "বাক্যটোত 'late' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: The train arrived late."
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" },
+      { "en": "Adverb", "as": "Adverb" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Late' modifies the verb 'arrived', so it is an adverb.",
+      "as": "'Late' এ 'arrived' ক্ৰিয়াটো বৰ্ণনা কৰে, গতিকে ই এটা Adverb।"
+    }
+  },
+  {
+    "id": "pos-022",
+    "q": {
+      "en": "Identify the part of speech of the word 'yesterday' in the sentence: We went to the museum yesterday.",
+      "as": "বাক্যটোত 'yesterday' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: We went to the museum yesterday."
+    },
+    "options": [
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Preposition", "as": "Preposition" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Yesterday' tells the time of the action, so it is an adverb of time.",
+      "as": "'Yesterday' এ কাৰ্যৰ সময় প্ৰকাশ কৰে, গতিকে ই এটা Adverb of time।"
+    }
+  },
+  {
+    "id": "pos-023",
+    "q": {
+      "en": "Identify the part of speech of the word 'than' in the sentence: He is taller than his brother.",
+      "as": "বাক্যটোত 'than' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: He is taller than his brother."
+    },
+    "options": [
+      { "en": "Preposition", "as": "Preposition" },
+      { "en": "Conjunction", "as": "Conjunction" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Adjective", "as": "Adjective" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Than' joins clauses in a comparison, so it is a conjunction.",
+      "as": "'Than' এ তুলনা কৰোঁতে দুটা অংশ সংযোগ কৰে, গতিকে ই এটা Conjunction।"
+    }
+  },
+  {
+    "id": "pos-024",
+    "q": {
+      "en": "Identify the part of speech of the word 'reads' in the sentence: She reads books daily.",
+      "as": "বাক্যটোত 'reads' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: She reads books daily."
+    },
+    "options": [
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Verb", "as": "Verb" },
+      { "en": "Adverb", "as": "Adverb" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Reads' shows the action of the subject, so it is a verb.",
+      "as": "'Reads' এ কৰ্তাৰ কাৰ্য প্ৰকাশ কৰে, গতিকে ই এটা Verb।"
+    }
+  },
+  {
+    "id": "pos-025",
+    "q": {
+      "en": "Identify the part of speech of the word 'sweetly' in the sentence: The little girl sang sweetly.",
+      "as": "বাক্যটোত 'sweetly' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: The little girl sang sweetly."
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" },
+      { "en": "Adverb", "as": "Adverb" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Sweetly' modifies the verb 'sang', so it is an adverb.",
+      "as": "'Sweetly' এ 'sang' ক্ৰিয়াটো বৰ্ণনা কৰে, গতিকে ই এটা Adverb।"
+    }
+  },
+  {
+    "id": "pos-026",
+    "q": {
+      "en": "Identify the part of speech of the word 'honest' in the sentence: He is an honest man.",
+      "as": "বাক্যটোত 'honest' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: He is an honest man."
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Honest' describes the noun 'man', so it is an adjective.",
+      "as": "'Honest' এ 'man' বিশেষ্যটো বৰ্ণনা কৰে, গতিকে ই এটা Adjective।"
+    }
+  },
+  {
+    "id": "pos-027",
+    "q": {
+      "en": "Identify the part of speech of the word 'quickly' in the sentence: He quickly finished his work.",
+      "as": "বাক্যটোত 'quickly' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: He quickly finished his work."
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Quickly' modifies the verb 'finished', so it is an adverb.",
+      "as": "'Quickly' এ 'finished' ক্ৰিয়াটো বৰ্ণনা কৰে, গতিকে ই এটা Adverb।"
+    }
+  },
+  {
+    "id": "pos-028",
+    "q": {
+      "en": "Identify the part of speech of the word 'We' in the sentence: We are going to school.",
+      "as": "বাক্যটোত 'We' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: We are going to school."
+    },
+    "options": [
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Pronoun", "as": "Pronoun" },
+      { "en": "Adverb", "as": "Adverb" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'We' is used in place of the names of the speakers, so it is a pronoun.",
+      "as": "'We' এ কওঁতাসকলৰ নামৰ সলনি ব্যৱহাৰ হয়, গতিকে ই এটা Pronoun।"
+    }
+  },
+  {
+    "id": "pos-029",
+    "q": {
+      "en": "Identify the part of speech of the word 'in' in the sentence: The pen is in the box.",
+      "as": "বাক্যটোত 'in' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: The pen is in the box."
+    },
+    "options": [
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Conjunction", "as": "Conjunction" },
+      { "en": "Interjection", "as": "Interjection" },
+      { "en": "Preposition", "as": "Preposition" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'In' shows the relation between 'pen' and 'box', so it is a preposition.",
+      "as": "'In' এ 'pen' আৰু 'box' ৰ সম্বন্ধ দেখুৱায়, গতিকে ই এটা Preposition।"
+    }
+  },
+  {
+    "id": "pos-030",
+    "q": {
+      "en": "Identify the part of speech of the word 'because' in the sentence: He was absent because he was ill.",
+      "as": "বাক্যটোত 'because' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: He was absent because he was ill."
+    },
+    "options": [
+      { "en": "Conjunction", "as": "Conjunction" },
+      { "en": "Preposition", "as": "Preposition" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Interjection", "as": "Interjection" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Because' joins two clauses showing cause, so it is a conjunction.",
+      "as": "'Because' এ কাৰণ দেখুৱাই দুটা খণ্ডবাক্য সংযোগ কৰে, গতিকে ই এটা Conjunction।"
+    }
+  },
+  {
+    "id": "pos-031",
+    "q": {
+      "en": "Identify the part of speech of the word 'Hurry' in the sentence: Hurry! The bus is leaving.",
+      "as": "বাক্যটোত 'Hurry' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: Hurry! The bus is leaving."
+    },
+    "options": [
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Interjection", "as": "Interjection" },
+      { "en": "Verb", "as": "Verb" },
+      { "en": "Adverb", "as": "Adverb" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Hurry' here expresses a sudden emotion, so it is an interjection.",
+      "as": "ইয়াত 'Hurry' এ হঠাৎ আবেগ প্ৰকাশ কৰে, গতিকে ই এটা Interjection।"
+    }
+  },
+  {
+    "id": "pos-032",
+    "q": {
+      "en": "Identify the part of speech of the word 'children' in the sentence: The children are happy.",
+      "as": "বাক্যটোত 'children' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: The children are happy."
+    },
+    "options": [
+      { "en": "Verb", "as": "Verb" },
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Adverb", "as": "Adverb" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Children' is the name of persons, so it is a noun.",
+      "as": "'Children' এ ব্যক্তিৰ নাম, গতিকে ই এটা Noun।"
+    }
+  },
+  {
+    "id": "pos-033",
+    "q": {
+      "en": "Identify the part of speech of the word 'carefully' in the sentence: Drive carefully on this road.",
+      "as": "বাক্যটোত 'carefully' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: Drive carefully on this road."
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" },
+      { "en": "Adverb", "as": "Adverb" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Carefully' modifies the verb 'drive', so it is an adverb.",
+      "as": "'Carefully' এ 'drive' ক্ৰিয়াটো বৰ্ণনা কৰে, গতিকে ই এটা Adverb।"
+    }
+  },
+  {
+    "id": "pos-034",
+    "q": {
+      "en": "Identify the part of speech of the word 'but' in the sentence: He is poor but honest.",
+      "as": "বাক্যটোত 'but' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: He is poor but honest."
+    },
+    "options": [
+      { "en": "Conjunction", "as": "Conjunction" },
+      { "en": "Preposition", "as": "Preposition" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Interjection", "as": "Interjection" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'But' joins two contrasting words, so it is a conjunction.",
+      "as": "'But' এ বিপৰীত অৰ্থৰ দুটা শব্দ সংযোগ কৰে, গতিকে ই এটা Conjunction।"
+    }
+  },
+  {
+    "id": "pos-035",
+    "q": {
+      "en": "Identify the part of speech of the word 'they' in the sentence: They have done their work.",
+      "as": "বাক্যটোত 'they' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: They have done their work."
+    },
+    "options": [
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Pronoun", "as": "Pronoun" },
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'They' is used in place of nouns, so it is a pronoun.",
+      "as": "'They' এ বিশেষ্যৰ সলনি ব্যৱহাৰ হয়, গতিকে ই এটা Pronoun।"
+    }
+  },
+  {
+    "id": "pos-036",
+    "q": {
+      "en": "Identify the part of speech of the word 'golden' in the sentence: She has golden hair.",
+      "as": "বাক্যটোত 'golden' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: She has golden hair."
+    },
+    "options": [
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Verb", "as": "Verb" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Golden' describes the noun 'hair', so it is an adjective.",
+      "as": "'Golden' এ 'hair' বিশেষ্যটো বৰ্ণনা কৰে, গতিকে ই এটা Adjective।"
+    }
+  },
+  {
+    "id": "pos-037",
+    "q": {
+      "en": "Identify the part of speech of the word 'often' in the sentence: She often visits her grandmother.",
+      "as": "বাক্যটোত 'often' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: She often visits her grandmother."
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" },
+      { "en": "Adverb", "as": "Adverb" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Often' tells how frequently the action happens, so it is an adverb of frequency.",
+      "as": "'Often' এ কাৰ্য কিমান বাৰ ঘটে তাক জনায়, গতিকে ই এটা Adverb of frequency।"
+    }
+  },
+  {
+    "id": "pos-038",
+    "q": {
+      "en": "Identify the part of speech of the word 'below' in the sentence: The cat is hiding below the table.",
+      "as": "বাক্যটোত 'below' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: The cat is hiding below the table."
+    },
+    "options": [
+      { "en": "Preposition", "as": "Preposition" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Conjunction", "as": "Conjunction" },
+      { "en": "Adjective", "as": "Adjective" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Below' shows the relation between 'hiding' and 'table', so it is a preposition.",
+      "as": "'Below' এ 'hiding' আৰু 'table' ৰ সম্বন্ধ দেখুৱায়, গতিকে ই এটা Preposition।"
+    }
+  },
+  {
+    "id": "pos-039",
+    "q": {
+      "en": "Identify the part of speech of the word 'sing' in the sentence: Birds sing in the morning.",
+      "as": "বাক্যটোত 'sing' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: Birds sing in the morning."
+    },
+    "options": [
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" },
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Sing' shows the action of the birds, so it is a verb.",
+      "as": "'Sing' এ চৰাইবোৰৰ কাৰ্য প্ৰকাশ কৰে, গতিকে ই এটা Verb।"
+    }
+  },
+  {
+    "id": "pos-040",
+    "q": {
+      "en": "Identify the part of speech of the word 'these' in the sentence: These mangoes are sweet.",
+      "as": "বাক্যটোত 'these' শব্দটোৰ Parts of Speech চিনাক্ত কৰক: These mangoes are sweet."
+    },
+    "options": [
+      { "en": "Pronoun", "as": "Pronoun" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'These' points out the noun 'mangoes', so it is a demonstrative adjective.",
+      "as": "'These' এ 'mangoes' বিশেষ্যটো দেখুৱায়, গতিকে ই এটা Demonstrative Adjective।"
+    }
+  },
+  {
+    "id": "pos-041",
+    "q": {
+      "en": "What kind of noun is 'Dhaka' in the sentence: Dhaka is a big city.",
+      "as": "বাক্যটোত 'Dhaka' কি ধৰণৰ Noun?: Dhaka is a big city."
+    },
+    "options": [
+      { "en": "Common Noun", "as": "Common Noun" },
+      { "en": "Proper Noun", "as": "Proper Noun" },
+      { "en": "Collective Noun", "as": "Collective Noun" },
+      { "en": "Abstract Noun", "as": "Abstract Noun" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A proper noun is the special name of a particular person or place. 'Dhaka' is a particular place.",
+      "as": "Proper Noun এ নিৰ্দিষ্ট ব্যক্তি বা স্থানৰ বিশেষ নাম। 'Dhaka' এ এটা নিৰ্দিষ্ট স্থান।"
+    }
+  },
+  {
+    "id": "pos-042",
+    "q": {
+      "en": "What kind of noun is 'city' in the sentence: Dhaka is a big city.",
+      "as": "বাক্যটোত 'city' কি ধৰণৰ Noun?: Dhaka is a big city."
+    },
+    "options": [
+      { "en": "Proper Noun", "as": "Proper Noun" },
+      { "en": "Collective Noun", "as": "Collective Noun" },
+      { "en": "Common Noun", "as": "Common Noun" },
+      { "en": "Abstract Noun", "as": "Abstract Noun" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A common noun is a general name given to every person or place of the same kind. 'City' is a general name.",
+      "as": "Common Noun এ একে ধৰণৰ প্ৰতিটো ব্যক্তি বা স্থানৰ সাধাৰণ নাম। 'City' এ এটা সাধাৰণ নাম।"
+    }
+  },
+  {
+    "id": "pos-043",
+    "q": {
+      "en": "What kind of noun is 'flock' in the sentence: A flock of birds flew over the field.",
+      "as": "বাক্যটোত 'flock' কি ধৰণৰ Noun?: A flock of birds flew over the field."
+    },
+    "options": [
+      { "en": "Abstract Noun", "as": "Abstract Noun" },
+      { "en": "Common Noun", "as": "Common Noun" },
+      { "en": "Collective Noun", "as": "Collective Noun" },
+      { "en": "Material Noun", "as": "Material Noun" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A collective noun names a group of persons or things taken as one. 'Flock' means a group of birds.",
+      "as": "Collective Noun এ একতা হিচাপে লোৱা ব্যক্তি বা বস্তুৰ দলৰ নাম। 'Flock' মানে চৰাইৰ দল।"
+    }
+  },
+  {
+    "id": "pos-044",
+    "q": {
+      "en": "What kind of noun is 'Honesty' in the sentence: Honesty is the best policy.",
+      "as": "বাক্যটোত 'Honesty' কি ধৰণৰ Noun?: Honesty is the best policy."
+    },
+    "options": [
+      { "en": "Common Noun", "as": "Common Noun" },
+      { "en": "Proper Noun", "as": "Proper Noun" },
+      { "en": "Collective Noun", "as": "Collective Noun" },
+      { "en": "Abstract Noun", "as": "Abstract Noun" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An abstract noun names a quality, feeling or idea which cannot be seen. 'Honesty' is a quality.",
+      "as": "Abstract Noun এ চাব নোৱাৰা গুণ, ভাব বা ধাৰণাৰ নাম। 'Honesty' এ এটা গুণ।"
+    }
+  },
+  {
+    "id": "pos-045",
+    "q": {
+      "en": "What kind of noun is 'gold' in the sentence: This ring is made of gold.",
+      "as": "বাক্যটোত 'gold' কি ধৰণৰ Noun?: This ring is made of gold."
+    },
+    "options": [
+      { "en": "Proper Noun", "as": "Proper Noun" },
+      { "en": "Common Noun", "as": "Common Noun" },
+      { "en": "Collective Noun", "as": "Collective Noun" },
+      { "en": "Material Noun", "as": "Material Noun" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A material noun names a substance or material. 'Gold' is a metal.",
+      "as": "Material Noun এ কোনো পদাৰ্থ বা বস্তুৰ নাম। 'Gold' এ এটা ধাতু।"
+    }
+  },
+  {
+    "id": "pos-046",
+    "q": {
+      "en": "What kind of noun is 'team' in the sentence: Our team won the match.",
+      "as": "বাক্যটোত 'team' কি ধৰণৰ Noun?: Our team won the match."
+    },
+    "options": [
+      { "en": "Collective Noun", "as": "Collective Noun" },
+      { "en": "Abstract Noun", "as": "Abstract Noun" },
+      { "en": "Proper Noun", "as": "Proper Noun" },
+      { "en": "Common Noun", "as": "Common Noun" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Team' names a group of players taken as one unit, so it is a collective noun.",
+      "as": "'Team' এ এটা একক হিচাপে লোৱা খেলুৱৈৰ দলৰ নাম, গতিকে ই এটা Collective Noun।"
+    }
+  },
+  {
+    "id": "pos-047",
+    "q": {
+      "en": "What kind of noun is 'beauty' in the sentence: The beauty of the valley amazed us.",
+      "as": "বাক্যটোত 'beauty' কি ধৰণৰ Noun?: The beauty of the valley amazed us."
+    },
+    "options": [
+      { "en": "Common Noun", "as": "Common Noun" },
+      { "en": "Abstract Noun", "as": "Abstract Noun" },
+      { "en": "Collective Noun", "as": "Collective Noun" },
+      { "en": "Material Noun", "as": "Material Noun" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Beauty' is a quality which cannot be seen or touched, so it is an abstract noun.",
+      "as": "'Beauty' এ এটা গুণ যাক চাব বা স্পৰ্শ কৰিব নোৱাৰি, গতিকে ই এটা Abstract Noun।"
+    }
+  },
+  {
+    "id": "pos-048",
+    "q": {
+      "en": "What kind of noun is 'Assam' in the sentence: Assam is famous for tea.",
+      "as": "বাক্যটোত 'Assam' কি ধৰণৰ Noun?: Assam is famous for tea."
+    },
+    "options": [
+      { "en": "Common Noun", "as": "Common Noun" },
+      { "en": "Collective Noun", "as": "Collective Noun" },
+      { "en": "Proper Noun", "as": "Proper Noun" },
+      { "en": "Abstract Noun", "as": "Abstract Noun" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Assam' is the special name of a particular place, so it is a proper noun.",
+      "as": "'Assam' এ এটা নিৰ্দিষ্ট স্থানৰ বিশেষ নাম, গতিকে ই এটা Proper Noun।"
+    }
+  },
+  {
+    "id": "pos-049",
+    "q": {
+      "en": "What kind of noun is 'student' in the sentence: Every student must attend the class.",
+      "as": "বাক্যটোত 'student' কি ধৰণৰ Noun?: Every student must attend the class."
+    },
+    "options": [
+      { "en": "Proper Noun", "as": "Proper Noun" },
+      { "en": "Common Noun", "as": "Common Noun" },
+      { "en": "Collective Noun", "as": "Collective Noun" },
+      { "en": "Material Noun", "as": "Material Noun" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Student' is a general name for any person of that kind, so it is a common noun.",
+      "as": "'Student' এ সেই ধৰণৰ যিকোনো ব্যক্তিৰ সাধাৰণ নাম, গতিকে ই এটা Common Noun।"
+    }
+  },
+  {
+    "id": "pos-050",
+    "q": {
+      "en": "What kind of noun is 'iron' in the sentence: The gate is made of iron.",
+      "as": "বাক্যটোত 'iron' কি ধৰণৰ Noun?: The gate is made of iron."
+    },
+    "options": [
+      { "en": "Abstract Noun", "as": "Abstract Noun" },
+      { "en": "Proper Noun", "as": "Proper Noun" },
+      { "en": "Collective Noun", "as": "Collective Noun" },
+      { "en": "Material Noun", "as": "Material Noun" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Iron' names a metal or material, so it is a material noun.",
+      "as": "'Iron' এ এটা ধাতু বা পদাৰ্থৰ নাম, গতিকে ই এটা Material Noun।"
+    }
+  },
+  {
+    "id": "pos-051",
+    "q": {
+      "en": "What kind of noun is 'crowd' in the sentence: A large crowd gathered in the market.",
+      "as": "বাক্যটোত 'crowd' কি ধৰণৰ Noun?: A large crowd gathered in the market."
+    },
+    "options": [
+      { "en": "Collective Noun", "as": "Collective Noun" },
+      { "en": "Common Noun", "as": "Common Noun" },
+      { "en": "Abstract Noun", "as": "Abstract Noun" },
+      { "en": "Material Noun", "as": "Material Noun" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Crowd' names a group of people taken as one, so it is a collective noun.",
+      "as": "'Crowd' এ এটা একক হিচাপে লোৱা মানুহৰ দলৰ নাম, গতিকে ই এটা Collective Noun।"
+    }
+  },
+  {
+    "id": "pos-052",
+    "q": {
+      "en": "What kind of noun is 'childhood' in the sentence: He spent his childhood in the village.",
+      "as": "বাক্যটোত 'childhood' কি ধৰণৰ Noun?: He spent his childhood in the village."
+    },
+    "options": [
+      { "en": "Common Noun", "as": "Common Noun" },
+      { "en": "Abstract Noun", "as": "Abstract Noun" },
+      { "en": "Proper Noun", "as": "Proper Noun" },
+      { "en": "Collective Noun", "as": "Collective Noun" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Childhood' names a state or period of life, which is an idea, so it is an abstract noun.",
+      "as": "'Childhood' এ জীৱনৰ এটা অৱস্থা বা কাল, যি এটা ভাব, গতিকে ই এটা Abstract Noun।"
+    }
+  },
+  {
+    "id": "pos-053",
+    "q": {
+      "en": "What kind of noun is 'Ganga' in the sentence: The Ganga flows into the Bay of Bengal.",
+      "as": "বাক্যটোত 'Ganga' কি ধৰণৰ Noun?: The Ganga flows into the Bay of Bengal."
+    },
+    "options": [
+      { "en": "Common Noun", "as": "Common Noun" },
+      { "en": "Collective Noun", "as": "Collective Noun" },
+      { "en": "Proper Noun", "as": "Proper Noun" },
+      { "en": "Abstract Noun", "as": "Abstract Noun" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Ganga' is the special name of a particular river, so it is a proper noun.",
+      "as": "'Ganga' এ এটা নিৰ্দিষ্ট নদীৰ বিশেষ নাম, গতিকে ই এটা Proper Noun।"
+    }
+  },
+  {
+    "id": "pos-054",
+    "q": {
+      "en": "What kind of noun is 'book' in the sentence: She bought a new book.",
+      "as": "বাক্যটোত 'book' কি ধৰণৰ Noun?: She bought a new book."
+    },
+    "options": [
+      { "en": "Proper Noun", "as": "Proper Noun" },
+      { "en": "Abstract Noun", "as": "Abstract Noun" },
+      { "en": "Collective Noun", "as": "Collective Noun" },
+      { "en": "Common Noun", "as": "Common Noun" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Book' is a general name for any book, so it is a common noun.",
+      "as": "'Book' এ যিকোনো কিতাপৰ সাধাৰণ নাম, গতিকে ই এটা Common Noun।"
+    }
+  },
+  {
+    "id": "pos-055",
+    "q": {
+      "en": "What kind of noun is 'bunch' in the sentence: He gave me a bunch of grapes.",
+      "as": "বাক্যটোত 'bunch' কি ধৰণৰ Noun?: He gave me a bunch of grapes."
+    },
+    "options": [
+      { "en": "Collective Noun", "as": "Collective Noun" },
+      { "en": "Common Noun", "as": "Common Noun" },
+      { "en": "Material Noun", "as": "Material Noun" },
+      { "en": "Abstract Noun", "as": "Abstract Noun" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Bunch' names a group of grapes taken as one, so it is a collective noun.",
+      "as": "'Bunch' এ একতা হিচাপে লোৱা আঙুৰৰ গুচ্ছৰ নাম, গতিকে ই এটা Collective Noun।"
+    }
+  },
+  {
+    "id": "pos-056",
+    "q": {
+      "en": "What kind of noun is 'freedom' in the sentence: We fought for freedom.",
+      "as": "বাক্যটোত 'freedom' কি ধৰণৰ Noun?: We fought for freedom."
+    },
+    "options": [
+      { "en": "Common Noun", "as": "Common Noun" },
+      { "en": "Abstract Noun", "as": "Abstract Noun" },
+      { "en": "Collective Noun", "as": "Collective Noun" },
+      { "en": "Proper Noun", "as": "Proper Noun" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Freedom' names a state or quality which cannot be seen, so it is an abstract noun.",
+      "as": "'Freedom' এ এটা অৱস্থা বা গুণ যাক চাব নোৱাৰি, গতিকে ই এটা Abstract Noun।"
+    }
+  },
+  {
+    "id": "pos-057",
+    "q": {
+      "en": "What kind of noun is 'silver' in the sentence: The cup is made of silver.",
+      "as": "বাক্যটোত 'silver' কি ধৰণৰ Noun?: The cup is made of silver."
+    },
+    "options": [
+      { "en": "Abstract Noun", "as": "Abstract Noun" },
+      { "en": "Proper Noun", "as": "Proper Noun" },
+      { "en": "Material Noun", "as": "Material Noun" },
+      { "en": "Collective Noun", "as": "Collective Noun" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Silver' names a metal or material, so it is a material noun.",
+      "as": "'Silver' এ এটা ধাতু বা পদাৰ্থৰ নাম, গতিকে ই এটা Material Noun।"
+    }
+  },
+  {
+    "id": "pos-058",
+    "q": {
+      "en": "What kind of noun is 'teacher' in the sentence: Our teacher is very kind.",
+      "as": "বাক্যটোত 'teacher' কি ধৰণৰ Noun?: Our teacher is very kind."
+    },
+    "options": [
+      { "en": "Proper Noun", "as": "Proper Noun" },
+      { "en": "Collective Noun", "as": "Collective Noun" },
+      { "en": "Abstract Noun", "as": "Abstract Noun" },
+      { "en": "Common Noun", "as": "Common Noun" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Teacher' is a general name for any teacher, so it is a common noun.",
+      "as": "'Teacher' এ যিকোনো শিক্ষকৰ সাধাৰণ নাম, গতিকে ই এটা Common Noun।"
+    }
+  },
+  {
+    "id": "pos-059",
+    "q": {
+      "en": "What kind of noun is 'Monday' in the sentence: We have a holiday on Monday.",
+      "as": "বাক্যটোত 'Monday' কি ধৰণৰ Noun?: We have a holiday on Monday."
+    },
+    "options": [
+      { "en": "Proper Noun", "as": "Proper Noun" },
+      { "en": "Common Noun", "as": "Common Noun" },
+      { "en": "Collective Noun", "as": "Collective Noun" },
+      { "en": "Abstract Noun", "as": "Abstract Noun" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Monday' is the special name of a particular day, so it is a proper noun.",
+      "as": "'Monday' এ এটা নিৰ্দিষ্ট দিনৰ বিশেষ নাম, গতিকে ই এটা Proper Noun।"
+    }
+  },
+  {
+    "id": "pos-060",
+    "q": {
+      "en": "What kind of noun is 'kindness' in the sentence: Kindness costs nothing.",
+      "as": "বাক্যটোত 'kindness' কি ধৰণৰ Noun?: Kindness costs nothing."
+    },
+    "options": [
+      { "en": "Common Noun", "as": "Common Noun" },
+      { "en": "Abstract Noun", "as": "Abstract Noun" },
+      { "en": "Proper Noun", "as": "Proper Noun" },
+      { "en": "Material Noun", "as": "Material Noun" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Kindness' is a quality which cannot be seen, so it is an abstract noun.",
+      "as": "'Kindness' এ এটা গুণ যাক চাব নোৱাৰি, গতিকে ই এটা Abstract Noun।"
+    }
+  },
+  {
+    "id": "pos-061",
+    "q": {
+      "en": "What kind of pronoun is 'I' in the sentence: I am a student.",
+      "as": "বাক্যটোত 'I' কি ধৰণৰ Pronoun?: I am a student."
+    },
+    "options": [
+      { "en": "Personal Pronoun", "as": "Personal Pronoun" },
+      { "en": "Possessive Pronoun", "as": "Possessive Pronoun" },
+      { "en": "Reflexive Pronoun", "as": "Reflexive Pronoun" },
+      { "en": "Demonstrative Pronoun", "as": "Demonstrative Pronoun" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'I' stands for the person speaking, so it is a personal pronoun.",
+      "as": "'I' এ কওঁতা ব্যক্তিক বুজায়, গতিকে ই এটা Personal Pronoun।"
+    }
+  },
+  {
+    "id": "pos-062",
+    "q": {
+      "en": "What kind of pronoun is 'mine' in the sentence: This book is mine.",
+      "as": "বাক্যটোত 'mine' কি ধৰণৰ Pronoun?: This book is mine."
+    },
+    "options": [
+      { "en": "Personal Pronoun", "as": "Personal Pronoun" },
+      { "en": "Possessive Pronoun", "as": "Possessive Pronoun" },
+      { "en": "Relative Pronoun", "as": "Relative Pronoun" },
+      { "en": "Interrogative Pronoun", "as": "Interrogative Pronoun" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Mine' shows possession, so it is a possessive pronoun.",
+      "as": "'Mine' এ অধিকাৰ দেখুৱায়, গতিকে ই এটা Possessive Pronoun।"
+    }
+  },
+  {
+    "id": "pos-063",
+    "q": {
+      "en": "What kind of pronoun is 'himself' in the sentence: He hurt himself.",
+      "as": "বাক্যটোত 'himself' কি ধৰণৰ Pronoun?: He hurt himself."
+    },
+    "options": [
+      { "en": "Demonstrative Pronoun", "as": "Demonstrative Pronoun" },
+      { "en": "Personal Pronoun", "as": "Personal Pronoun" },
+      { "en": "Reflexive Pronoun", "as": "Reflexive Pronoun" },
+      { "en": "Indefinite Pronoun", "as": "Indefinite Pronoun" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Himself' refers back to the subject 'he', so it is a reflexive pronoun.",
+      "as": "'Himself' এ কৰ্তা 'he' লৈ ঘূৰি নির্দেশ কৰে, গতিকে ই এটা Reflexive Pronoun।"
+    }
+  },
+  {
+    "id": "pos-064",
+    "q": {
+      "en": "What kind of pronoun is 'This' in the sentence: This is my house.",
+      "as": "বাক্যটোত 'This' কি ধৰণৰ Pronoun?: This is my house."
+    },
+    "options": [
+      { "en": "Personal Pronoun", "as": "Personal Pronoun" },
+      { "en": "Relative Pronoun", "as": "Relative Pronoun" },
+      { "en": "Possessive Pronoun", "as": "Possessive Pronoun" },
+      { "en": "Demonstrative Pronoun", "as": "Demonstrative Pronoun" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'This' points out a particular thing, so it is a demonstrative pronoun.",
+      "as": "'This' এ এটা নিৰ্দিষ্ট বস্তু দেখুৱায়, গতিকে ই এটা Demonstrative Pronoun।"
+    }
+  },
+  {
+    "id": "pos-065",
+    "q": {
+      "en": "What kind of pronoun is 'Who' in the sentence: Who is at the door?",
+      "as": "বাক্যটোত 'Who' কি ধৰণৰ Pronoun?: Who is at the door?"
+    },
+    "options": [
+      { "en": "Interrogative Pronoun", "as": "Interrogative Pronoun" },
+      { "en": "Relative Pronoun", "as": "Relative Pronoun" },
+      { "en": "Personal Pronoun", "as": "Personal Pronoun" },
+      { "en": "Reflexive Pronoun", "as": "Reflexive Pronoun" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Who' is used to ask a question, so it is an interrogative pronoun.",
+      "as": "'Who' এ প্ৰশ্ন সোধাৰ বাবে ব্যৱহাৰ হয়, গতিকে ই এটা Interrogative Pronoun।"
+    }
+  },
+  {
+    "id": "pos-066",
+    "q": {
+      "en": "What kind of pronoun is 'who' in the sentence: The man who came here is my uncle.",
+      "as": "বাক্যটোত 'who' কি ধৰণৰ Pronoun?: The man who came here is my uncle."
+    },
+    "options": [
+      { "en": "Interrogative Pronoun", "as": "Interrogative Pronoun" },
+      { "en": "Relative Pronoun", "as": "Relative Pronoun" },
+      { "en": "Demonstrative Pronoun", "as": "Demonstrative Pronoun" },
+      { "en": "Indefinite Pronoun", "as": "Indefinite Pronoun" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Who' relates the clause 'who came here' to the noun 'man', so it is a relative pronoun.",
+      "as": "'Who' এ 'who came here' খণ্ডবাক্যটোক 'man' বিশেষ্যৰ সৈতে সংযোজিত কৰে, গতিকে ই এটা Relative Pronoun।"
+    }
+  },
+  {
+    "id": "pos-067",
+    "q": {
+      "en": "What kind of pronoun is 'someone' in the sentence: Someone has taken my pen.",
+      "as": "বাক্যটোত 'someone' কি ধৰণৰ Pronoun?: Someone has taken my pen."
+    },
+    "options": [
+      { "en": "Personal Pronoun", "as": "Personal Pronoun" },
+      { "en": "Reflexive Pronoun", "as": "Reflexive Pronoun" },
+      { "en": "Indefinite Pronoun", "as": "Indefinite Pronoun" },
+      { "en": "Possessive Pronoun", "as": "Possessive Pronoun" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Someone' refers to an unspecified person, so it is an indefinite pronoun.",
+      "as": "'Someone' এ অনির্দিষ্ট ব্যক্তিক বুজায়, গতিকে ই এটা Indefinite Pronoun।"
+    }
+  },
+  {
+    "id": "pos-068",
+    "q": {
+      "en": "What kind of pronoun is 'they' in the sentence: They are playing cricket.",
+      "as": "বাক্যটোত 'they' কি ধৰণৰ Pronoun?: They are playing cricket."
+    },
+    "options": [
+      { "en": "Demonstrative Pronoun", "as": "Demonstrative Pronoun" },
+      { "en": "Personal Pronoun", "as": "Personal Pronoun" },
+      { "en": "Relative Pronoun", "as": "Relative Pronoun" },
+      { "en": "Interrogative Pronoun", "as": "Interrogative Pronoun" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'They' stands for persons already mentioned, so it is a personal pronoun.",
+      "as": "'They' এ আগতে উল্লেখ কৰা ব্যক্তিসকলক বুজায়, গতিকে ই এটা Personal Pronoun।"
+    }
+  },
+  {
+    "id": "pos-069",
+    "q": {
+      "en": "What kind of pronoun is 'yours' in the sentence: This pen is yours.",
+      "as": "বাক্যটোত 'yours' কি ধৰণৰ Pronoun?: This pen is yours."
+    },
+    "options": [
+      { "en": "Personal Pronoun", "as": "Personal Pronoun" },
+      { "en": "Reflexive Pronoun", "as": "Reflexive Pronoun" },
+      { "en": "Possessive Pronoun", "as": "Possessive Pronoun" },
+      { "en": "Demonstrative Pronoun", "as": "Demonstrative Pronoun" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Yours' shows ownership, so it is a possessive pronoun.",
+      "as": "'Yours' এ অধিকাৰ দেখুৱায়, গতিকে ই এটা Possessive Pronoun।"
+    }
+  },
+  {
+    "id": "pos-070",
+    "q": {
+      "en": "What kind of pronoun is 'themselves' in the sentence: They enjoyed themselves at the party.",
+      "as": "বাক্যটোত 'themselves' কি ধৰণৰ Pronoun?: They enjoyed themselves at the party."
+    },
+    "options": [
+      { "en": "Personal Pronoun", "as": "Personal Pronoun" },
+      { "en": "Possessive Pronoun", "as": "Possessive Pronoun" },
+      { "en": "Interrogative Pronoun", "as": "Interrogative Pronoun" },
+      { "en": "Reflexive Pronoun", "as": "Reflexive Pronoun" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Themselves' refers back to the subject 'they', so it is a reflexive pronoun.",
+      "as": "'Themselves' এ কৰ্তা 'they' লৈ ঘূৰি নির্দেশ কৰে, গতিকে ই এটা Reflexive Pronoun।"
+    }
+  },
+  {
+    "id": "pos-071",
+    "q": {
+      "en": "What kind of pronoun is 'Those' in the sentence: Those are my books.",
+      "as": "বাক্যটোত 'Those' কি ধৰণৰ Pronoun?: Those are my books."
+    },
+    "options": [
+      { "en": "Demonstrative Pronoun", "as": "Demonstrative Pronoun" },
+      { "en": "Relative Pronoun", "as": "Relative Pronoun" },
+      { "en": "Indefinite Pronoun", "as": "Indefinite Pronoun" },
+      { "en": "Personal Pronoun", "as": "Personal Pronoun" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Those' points out particular things, so it is a demonstrative pronoun.",
+      "as": "'Those' এ নিৰ্দিষ্ট বস্তুবোৰ দেখুৱায়, গতিকে ই এটা Demonstrative Pronoun।"
+    }
+  },
+  {
+    "id": "pos-072",
+    "q": {
+      "en": "What kind of pronoun is 'Whom' in the sentence: Whom did you meet?",
+      "as": "বাক্যটোত 'Whom' কি ধৰণৰ Pronoun?: Whom did you meet?"
+    },
+    "options": [
+      { "en": "Relative Pronoun", "as": "Relative Pronoun" },
+      { "en": "Interrogative Pronoun", "as": "Interrogative Pronoun" },
+      { "en": "Demonstrative Pronoun", "as": "Demonstrative Pronoun" },
+      { "en": "Reflexive Pronoun", "as": "Reflexive Pronoun" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Whom' is used to ask a question, so it is an interrogative pronoun.",
+      "as": "'Whom' এ প্ৰশ্ন সোধাৰ বাবে ব্যৱহাৰ হয়, গতিকে ই এটা Interrogative Pronoun।"
+    }
+  },
+  {
+    "id": "pos-073",
+    "q": {
+      "en": "What kind of pronoun is 'which' in the sentence: The book which I bought is costly.",
+      "as": "বাক্যটোত 'which' কি ধৰণৰ Pronoun?: The book which I bought is costly."
+    },
+    "options": [
+      { "en": "Interrogative Pronoun", "as": "Interrogative Pronoun" },
+      { "en": "Indefinite Pronoun", "as": "Indefinite Pronoun" },
+      { "en": "Relative Pronoun", "as": "Relative Pronoun" },
+      { "en": "Personal Pronoun", "as": "Personal Pronoun" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Which' relates the clause to the noun 'book', so it is a relative pronoun.",
+      "as": "'Which' এ খণ্ডবাক্যটোক 'book' বিশেষ্যৰ সৈতে সংযোজিত কৰে, গতিকে ই এটা Relative Pronoun।"
+    }
+  },
+  {
+    "id": "pos-074",
+    "q": {
+      "en": "What kind of pronoun is 'nobody' in the sentence: Nobody was present in the class.",
+      "as": "বাক্যটোত 'nobody' কি ধৰণৰ Pronoun?: Nobody was present in the class."
+    },
+    "options": [
+      { "en": "Personal Pronoun", "as": "Personal Pronoun" },
+      { "en": "Demonstrative Pronoun", "as": "Demonstrative Pronoun" },
+      { "en": "Possessive Pronoun", "as": "Possessive Pronoun" },
+      { "en": "Indefinite Pronoun", "as": "Indefinite Pronoun" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Nobody' refers to no particular person, so it is an indefinite pronoun.",
+      "as": "'Nobody' এ কোনো নিৰ্দিষ্ট ব্যক্তিক নুবুজায়, গতিকে ই এটা Indefinite Pronoun।"
+    }
+  },
+  {
+    "id": "pos-075",
+    "q": {
+      "en": "What kind of pronoun is 'He' in the sentence: He is my elder brother.",
+      "as": "বাক্যটোত 'He' কি ধৰণৰ Pronoun?: He is my elder brother."
+    },
+    "options": [
+      { "en": "Personal Pronoun", "as": "Personal Pronoun" },
+      { "en": "Reflexive Pronoun", "as": "Reflexive Pronoun" },
+      { "en": "Relative Pronoun", "as": "Relative Pronoun" },
+      { "en": "Indefinite Pronoun", "as": "Indefinite Pronoun" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'He' stands for a person already mentioned, so it is a personal pronoun.",
+      "as": "'He' এ আগতে উল্লেখ কৰা ব্যক্তিক বুজায়, গতিকে ই এটা Personal Pronoun।"
+    }
+  },
+  {
+    "id": "pos-076",
+    "q": {
+      "en": "What kind of pronoun is 'ours' in the sentence: That house is ours.",
+      "as": "বাক্যটোত 'ours' কি ধৰণৰ Pronoun?: That house is ours."
+    },
+    "options": [
+      { "en": "Personal Pronoun", "as": "Personal Pronoun" },
+      { "en": "Possessive Pronoun", "as": "Possessive Pronoun" },
+      { "en": "Demonstrative Pronoun", "as": "Demonstrative Pronoun" },
+      { "en": "Interrogative Pronoun", "as": "Interrogative Pronoun" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Ours' shows ownership, so it is a possessive pronoun.",
+      "as": "'Ours' এ অধিকাৰ দেখুৱায়, গতিকে ই এটা Possessive Pronoun।"
+    }
+  },
+  {
+    "id": "pos-077",
+    "q": {
+      "en": "What kind of pronoun is 'myself' in the sentence: I will do it myself.",
+      "as": "বাক্যটোত 'myself' কি ধৰণৰ Pronoun?: I will do it myself."
+    },
+    "options": [
+      { "en": "Personal Pronoun", "as": "Personal Pronoun" },
+      { "en": "Possessive Pronoun", "as": "Possessive Pronoun" },
+      { "en": "Reflexive Pronoun", "as": "Reflexive Pronoun" },
+      { "en": "Relative Pronoun", "as": "Relative Pronoun" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Myself' refers back to the subject 'I', so it is a reflexive pronoun.",
+      "as": "'Myself' এ কৰ্তা 'I' লৈ ঘূৰি নির্দেশ কৰে, গতিকে ই এটা Reflexive Pronoun।"
+    }
+  },
+  {
+    "id": "pos-078",
+    "q": {
+      "en": "What kind of pronoun is 'That' in the sentence: That is a beautiful flower.",
+      "as": "বাক্যটোত 'That' কি ধৰণৰ Pronoun?: That is a beautiful flower."
+    },
+    "options": [
+      { "en": "Relative Pronoun", "as": "Relative Pronoun" },
+      { "en": "Personal Pronoun", "as": "Personal Pronoun" },
+      { "en": "Reflexive Pronoun", "as": "Reflexive Pronoun" },
+      { "en": "Demonstrative Pronoun", "as": "Demonstrative Pronoun" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'That' points out a particular thing, so it is a demonstrative pronoun.",
+      "as": "'That' এ এটা নিৰ্দিষ্ট বস্তু দেখুৱায়, গতিকে ই এটা Demonstrative Pronoun।"
+    }
+  },
+  {
+    "id": "pos-079",
+    "q": {
+      "en": "What kind of pronoun is 'that' in the sentence: This is the boy that won the prize.",
+      "as": "বাক্যটোত 'that' কি ধৰণৰ Pronoun?: This is the boy that won the prize."
+    },
+    "options": [
+      { "en": "Relative Pronoun", "as": "Relative Pronoun" },
+      { "en": "Demonstrative Pronoun", "as": "Demonstrative Pronoun" },
+      { "en": "Interrogative Pronoun", "as": "Interrogative Pronoun" },
+      { "en": "Indefinite Pronoun", "as": "Indefinite Pronoun" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'That' relates the clause to the noun 'boy', so it is a relative pronoun.",
+      "as": "'That' এ খণ্ডবাক্যটোক 'boy' বিশেষ্যৰ সৈতে সংযোজিত কৰে, গতিকে ই এটা Relative Pronoun।"
+    }
+  },
+  {
+    "id": "pos-080",
+    "q": {
+      "en": "What kind of pronoun is 'everyone' in the sentence: Everyone likes sweets.",
+      "as": "বাক্যটোত 'everyone' কি ধৰণৰ Pronoun?: Everyone likes sweets."
+    },
+    "options": [
+      { "en": "Personal Pronoun", "as": "Personal Pronoun" },
+      { "en": "Indefinite Pronoun", "as": "Indefinite Pronoun" },
+      { "en": "Possessive Pronoun", "as": "Possessive Pronoun" },
+      { "en": "Reflexive Pronoun", "as": "Reflexive Pronoun" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Everyone' refers to people in general without naming anyone, so it is an indefinite pronoun.",
+      "as": "'Everyone' এ কাকো নাম নোলোৱাকৈ সাধাৰণভাৱে মানুহক বুজায়, গতিকে ই এটা Indefinite Pronoun।"
+    }
+  },
+  {
+    "id": "pos-081",
+    "q": {
+      "en": "What kind of adjective is 'beautiful' in the sentence: She has a beautiful garden.",
+      "as": "বাক্যটোত 'beautiful' কি ধৰণৰ Adjective?: She has a beautiful garden."
+    },
+    "options": [
+      { "en": "Adjective of Quality", "as": "Adjective of Quality" },
+      { "en": "Adjective of Quantity", "as": "Adjective of Quantity" },
+      { "en": "Adjective of Number", "as": "Adjective of Number" },
+      { "en": "Demonstrative Adjective", "as": "Demonstrative Adjective" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Beautiful' shows the quality of the noun 'garden', so it is an adjective of quality.",
+      "as": "'Beautiful' এ 'garden' বিশেষ্যৰ গুণ দেখুৱায়, গতিকে ই এটা Adjective of Quality।"
+    }
+  },
+  {
+    "id": "pos-082",
+    "q": {
+      "en": "What kind of adjective is 'some' in the sentence: There is some water in the pot.",
+      "as": "বাক্যটোত 'some' কি ধৰণৰ Adjective?: There is some water in the pot."
+    },
+    "options": [
+      { "en": "Adjective of Quality", "as": "Adjective of Quality" },
+      { "en": "Adjective of Quantity", "as": "Adjective of Quantity" },
+      { "en": "Adjective of Number", "as": "Adjective of Number" },
+      { "en": "Interrogative Adjective", "as": "Interrogative Adjective" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Some' shows how much water there is, so it is an adjective of quantity.",
+      "as": "'Some' এ কিমান পানী আছে তাক দেখুৱায়, গতিকে ই এটা Adjective of Quantity।"
+    }
+  },
+  {
+    "id": "pos-083",
+    "q": {
+      "en": "What kind of adjective is 'five' in the sentence: He has five pencils.",
+      "as": "বাক্যটোত 'five' কি ধৰণৰ Adjective?: He has five pencils."
+    },
+    "options": [
+      { "en": "Adjective of Quantity", "as": "Adjective of Quantity" },
+      { "en": "Adjective of Quality", "as": "Adjective of Quality" },
+      { "en": "Adjective of Number", "as": "Adjective of Number" },
+      { "en": "Possessive Adjective", "as": "Possessive Adjective" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Five' shows how many pencils, so it is an adjective of number.",
+      "as": "'Five' এ কিমান পেঞ্চিল আছে তাক দেখুৱায়, গতিকে ই এটা Adjective of Number।"
+    }
+  },
+  {
+    "id": "pos-084",
+    "q": {
+      "en": "What kind of adjective is 'this' in the sentence: This book is very useful.",
+      "as": "বাক্যটোত 'this' কি ধৰণৰ Adjective?: This book is very useful."
+    },
+    "options": [
+      { "en": "Adjective of Quality", "as": "Adjective of Quality" },
+      { "en": "Adjective of Number", "as": "Adjective of Number" },
+      { "en": "Interrogative Adjective", "as": "Interrogative Adjective" },
+      { "en": "Demonstrative Adjective", "as": "Demonstrative Adjective" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'This' points out the noun 'book', so it is a demonstrative adjective.",
+      "as": "'This' এ 'book' বিশেষ্যটো দেখুৱায়, গতিকে ই এটা Demonstrative Adjective।"
+    }
+  },
+  {
+    "id": "pos-085",
+    "q": {
+      "en": "What kind of adjective is 'my' in the sentence: My father is a doctor.",
+      "as": "বাক্যটোত 'my' কি ধৰণৰ Adjective?: My father is a doctor."
+    },
+    "options": [
+      { "en": "Possessive Adjective", "as": "Possessive Adjective" },
+      { "en": "Demonstrative Adjective", "as": "Demonstrative Adjective" },
+      { "en": "Adjective of Quality", "as": "Adjective of Quality" },
+      { "en": "Adjective of Quantity", "as": "Adjective of Quantity" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'My' shows possession before the noun 'father', so it is a possessive adjective.",
+      "as": "'My' এ 'father' বিশেষ্যৰ আগত অধিকাৰ দেখুৱায়, গতিকে ই এটা Possessive Adjective।"
+    }
+  },
+  {
+    "id": "pos-086",
+    "q": {
+      "en": "What kind of adjective is 'Which' in the sentence: Which pen do you want?",
+      "as": "বাক্যটোত 'Which' কি ধৰণৰ Adjective?: Which pen do you want?"
+    },
+    "options": [
+      { "en": "Demonstrative Adjective", "as": "Demonstrative Adjective" },
+      { "en": "Interrogative Adjective", "as": "Interrogative Adjective" },
+      { "en": "Possessive Adjective", "as": "Possessive Adjective" },
+      { "en": "Adjective of Number", "as": "Adjective of Number" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Which' asks a question about the noun 'pen', so it is an interrogative adjective.",
+      "as": "'Which' এ 'pen' বিশেষ্যৰ বিষয়ে প্ৰশ্ন সোধে, গতিকে ই এটা Interrogative Adjective।"
+    }
+  },
+  {
+    "id": "pos-087",
+    "q": {
+      "en": "What kind of adjective is 'intelligent' in the sentence: He is an intelligent boy.",
+      "as": "বাক্যটোত 'intelligent' কি ধৰণৰ Adjective?: He is an intelligent boy."
+    },
+    "options": [
+      { "en": "Adjective of Quantity", "as": "Adjective of Quantity" },
+      { "en": "Adjective of Number", "as": "Adjective of Number" },
+      { "en": "Adjective of Quality", "as": "Adjective of Quality" },
+      { "en": "Demonstrative Adjective", "as": "Demonstrative Adjective" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Intelligent' describes the quality of the noun 'boy', so it is an adjective of quality.",
+      "as": "'Intelligent' এ 'boy' বিশেষ্যৰ গুণ বৰ্ণনা কৰে, গতিকে ই এটা Adjective of Quality।"
+    }
+  },
+  {
+    "id": "pos-088",
+    "q": {
+      "en": "What kind of adjective is 'little' in the sentence: There is little milk in the glass.",
+      "as": "বাক্যটোত 'little' কি ধৰণৰ Adjective?: There is little milk in the glass."
+    },
+    "options": [
+      { "en": "Adjective of Quality", "as": "Adjective of Quality" },
+      { "en": "Adjective of Number", "as": "Adjective of Number" },
+      { "en": "Demonstrative Adjective", "as": "Demonstrative Adjective" },
+      { "en": "Adjective of Quantity", "as": "Adjective of Quantity" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Little' shows how much milk there is, so it is an adjective of quantity.",
+      "as": "'Little' এ কিমান গাখীৰ আছে তাক দেখুৱায়, গতিকে ই এটা Adjective of Quantity।"
+    }
+  },
+  {
+    "id": "pos-089",
+    "q": {
+      "en": "What kind of adjective is 'third' in the sentence: He stood third in the race.",
+      "as": "বাক্যটোত 'third' কি ধৰণৰ Adjective?: He stood third in the race."
+    },
+    "options": [
+      { "en": "Adjective of Number", "as": "Adjective of Number" },
+      { "en": "Adjective of Quality", "as": "Adjective of Quality" },
+      { "en": "Adjective of Quantity", "as": "Adjective of Quantity" },
+      { "en": "Possessive Adjective", "as": "Possessive Adjective" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Third' shows the position or number in order, so it is an adjective of number.",
+      "as": "'Third' এ ক্ৰমৰ সংখ্যা বা স্থান দেখুৱায়, গতিকে ই এটা Adjective of Number।"
+    }
+  },
+  {
+    "id": "pos-090",
+    "q": {
+      "en": "What kind of adjective is 'those' in the sentence: Those boys are my friends.",
+      "as": "বাক্যটোত 'those' কি ধৰণৰ Adjective?: Those boys are my friends."
+    },
+    "options": [
+      { "en": "Adjective of Quality", "as": "Adjective of Quality" },
+      { "en": "Demonstrative Adjective", "as": "Demonstrative Adjective" },
+      { "en": "Adjective of Number", "as": "Adjective of Number" },
+      { "en": "Interrogative Adjective", "as": "Interrogative Adjective" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Those' points out the noun 'boys', so it is a demonstrative adjective.",
+      "as": "'Those' এ 'boys' বিশেষ্যটো দেখুৱায়, গতিকে ই এটা Demonstrative Adjective।"
+    }
+  },
+  {
+    "id": "pos-091",
+    "q": {
+      "en": "What kind of adjective is 'their' in the sentence: Their house is near the school.",
+      "as": "বাক্যটোত 'their' কি ধৰণৰ Adjective?: Their house is near the school."
+    },
+    "options": [
+      { "en": "Demonstrative Adjective", "as": "Demonstrative Adjective" },
+      { "en": "Adjective of Quality", "as": "Adjective of Quality" },
+      { "en": "Possessive Adjective", "as": "Possessive Adjective" },
+      { "en": "Adjective of Number", "as": "Adjective of Number" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Their' shows possession before the noun 'house', so it is a possessive adjective.",
+      "as": "'Their' এ 'house' বিশেষ্যৰ আগত অধিকাৰ দেখুৱায়, গতিকে ই এটা Possessive Adjective।"
+    }
+  },
+  {
+    "id": "pos-092",
+    "q": {
+      "en": "What kind of adjective is 'Whose' in the sentence: Whose bag is this?",
+      "as": "বাক্যটোত 'Whose' কি ধৰণৰ Adjective?: Whose bag is this?"
+    },
+    "options": [
+      { "en": "Possessive Adjective", "as": "Possessive Adjective" },
+      { "en": "Demonstrative Adjective", "as": "Demonstrative Adjective" },
+      { "en": "Adjective of Quantity", "as": "Adjective of Quantity" },
+      { "en": "Interrogative Adjective", "as": "Interrogative Adjective" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Whose' asks a question about the noun 'bag', so it is an interrogative adjective.",
+      "as": "'Whose' এ 'bag' বিশেষ্যৰ বিষয়ে প্ৰশ্ন সোধে, গতিকে ই এটা Interrogative Adjective।"
+    }
+  },
+  {
+    "id": "pos-093",
+    "q": {
+      "en": "What kind of adjective is 'honest' in the sentence: She is an honest girl.",
+      "as": "বাক্যটোত 'honest' কি ধৰণৰ Adjective?: She is an honest girl."
+    },
+    "options": [
+      { "en": "Adjective of Quality", "as": "Adjective of Quality" },
+      { "en": "Adjective of Number", "as": "Adjective of Number" },
+      { "en": "Demonstrative Adjective", "as": "Demonstrative Adjective" },
+      { "en": "Adjective of Quantity", "as": "Adjective of Quantity" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Honest' describes the quality of the noun 'girl', so it is an adjective of quality.",
+      "as": "'Honest' এ 'girl' বিশেষ্যৰ গুণ বৰ্ণনা কৰে, গতিকে ই এটা Adjective of Quality।"
+    }
+  },
+  {
+    "id": "pos-094",
+    "q": {
+      "en": "What kind of adjective is 'enough' in the sentence: We have enough rice for all.",
+      "as": "বাক্যটোত 'enough' কি ধৰণৰ Adjective?: We have enough rice for all."
+    },
+    "options": [
+      { "en": "Adjective of Quality", "as": "Adjective of Quality" },
+      { "en": "Adjective of Quantity", "as": "Adjective of Quantity" },
+      { "en": "Adjective of Number", "as": "Adjective of Number" },
+      { "en": "Possessive Adjective", "as": "Possessive Adjective" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Enough' shows how much rice is available, so it is an adjective of quantity.",
+      "as": "'Enough' এ কিমান চাউল উপলব্ধ তাক দেখুৱায়, গতিকে ই এটা Adjective of Quantity।"
+    }
+  },
+  {
+    "id": "pos-095",
+    "q": {
+      "en": "What kind of adjective is 'many' in the sentence: Many students were absent.",
+      "as": "বাক্যটোত 'many' কি ধৰণৰ Adjective?: Many students were absent."
+    },
+    "options": [
+      { "en": "Adjective of Quantity", "as": "Adjective of Quantity" },
+      { "en": "Adjective of Quality", "as": "Adjective of Quality" },
+      { "en": "Adjective of Number", "as": "Adjective of Number" },
+      { "en": "Demonstrative Adjective", "as": "Demonstrative Adjective" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Many' shows the number of countable students, so it is an adjective of number.",
+      "as": "'Many' এ গণনাযোগ্য ছাত্ৰৰ সংখ্যা দেখুৱায়, গতিকে ই এটা Adjective of Number।"
+    }
+  },
+  {
+    "id": "pos-096",
+    "q": {
+      "en": "What kind of adjective is 'that' in the sentence: That house is very old.",
+      "as": "বাক্যটোত 'that' কি ধৰণৰ Adjective?: That house is very old."
+    },
+    "options": [
+      { "en": "Adjective of Quality", "as": "Adjective of Quality" },
+      { "en": "Interrogative Adjective", "as": "Interrogative Adjective" },
+      { "en": "Adjective of Quantity", "as": "Adjective of Quantity" },
+      { "en": "Demonstrative Adjective", "as": "Demonstrative Adjective" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'That' points out the noun 'house', so it is a demonstrative adjective.",
+      "as": "'That' এ 'house' বিশেষ্যটো দেখুৱায়, গতিকে ই এটা Demonstrative Adjective।"
+    }
+  },
+  {
+    "id": "pos-097",
+    "q": {
+      "en": "What kind of adjective is 'our' in the sentence: Our school is very big.",
+      "as": "বাক্যটোত 'our' কি ধৰণৰ Adjective?: Our school is very big."
+    },
+    "options": [
+      { "en": "Possessive Adjective", "as": "Possessive Adjective" },
+      { "en": "Demonstrative Adjective", "as": "Demonstrative Adjective" },
+      { "en": "Adjective of Quality", "as": "Adjective of Quality" },
+      { "en": "Adjective of Number", "as": "Adjective of Number" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Our' shows possession before the noun 'school', so it is a possessive adjective.",
+      "as": "'Our' এ 'school' বিশেষ্যৰ আগত অধিকাৰ দেখুৱায়, গতিকে ই এটা Possessive Adjective।"
+    }
+  },
+  {
+    "id": "pos-098",
+    "q": {
+      "en": "What kind of adjective is 'What' in the sentence: What time is it?",
+      "as": "বাক্যটোত 'What' কি ধৰণৰ Adjective?: What time is it?"
+    },
+    "options": [
+      { "en": "Possessive Adjective", "as": "Possessive Adjective" },
+      { "en": "Interrogative Adjective", "as": "Interrogative Adjective" },
+      { "en": "Demonstrative Adjective", "as": "Demonstrative Adjective" },
+      { "en": "Adjective of Quantity", "as": "Adjective of Quantity" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'What' asks a question about the noun 'time', so it is an interrogative adjective.",
+      "as": "'What' এ 'time' বিশেষ্যৰ বিষয়ে প্ৰশ্ন সোধে, গতিকে ই এটা Interrogative Adjective।"
+    }
+  },
+  {
+    "id": "pos-099",
+    "q": {
+      "en": "What kind of adjective is 'sweet' in the sentence: This mango is very sweet.",
+      "as": "বাক্যটোত 'sweet' কি ধৰণৰ Adjective?: This mango is very sweet."
+    },
+    "options": [
+      { "en": "Adjective of Number", "as": "Adjective of Number" },
+      { "en": "Adjective of Quantity", "as": "Adjective of Quantity" },
+      { "en": "Adjective of Quality", "as": "Adjective of Quality" },
+      { "en": "Demonstrative Adjective", "as": "Demonstrative Adjective" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Sweet' describes the quality of the noun 'mango', so it is an adjective of quality.",
+      "as": "'Sweet' এ 'mango' বিশেষ্যৰ গুণ বৰ্ণনা কৰে, গতিকে ই এটা Adjective of Quality।"
+    }
+  },
+  {
+    "id": "pos-100",
+    "q": {
+      "en": "What kind of adjective is 'several' in the sentence: I have read several books on this topic.",
+      "as": "বাক্যটোত 'several' কি ধৰণৰ Adjective?: I have read several books on this topic."
+    },
+    "options": [
+      { "en": "Adjective of Quality", "as": "Adjective of Quality" },
+      { "en": "Adjective of Quantity", "as": "Adjective of Quantity" },
+      { "en": "Demonstrative Adjective", "as": "Demonstrative Adjective" },
+      { "en": "Adjective of Number", "as": "Adjective of Number" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Several' shows the number of books, so it is an adjective of number.",
+      "as": "'Several' এ কিতাপৰ সংখ্যা দেখুৱায়, গতিকে ই এটা Adjective of Number।"
+    }
+  },
+  {
+    "id": "pos-101",
+    "q": {
+      "en": "What kind of adverb is 'quickly' in the sentence: She finished the work quickly.",
+      "as": "বাক্যটোত 'quickly' কি ধৰণৰ Adverb?: She finished the work quickly."
+    },
+    "options": [
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Time", "as": "Adverb of Time" },
+      { "en": "Adverb of Place", "as": "Adverb of Place" },
+      { "en": "Adverb of Frequency", "as": "Adverb of Frequency" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Quickly' tells how the action was done, so it is an adverb of manner.",
+      "as": "'Quickly' এ কাৰ্য কেনেকৈ কৰা হৈছিল তাক জনায়, গতিকে ই এটা Adverb of Manner।"
+    }
+  },
+  {
+    "id": "pos-102",
+    "q": {
+      "en": "What kind of adverb is 'yesterday' in the sentence: He came here yesterday.",
+      "as": "বাক্যটোত 'yesterday' কি ধৰণৰ Adverb?: He came here yesterday."
+    },
+    "options": [
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Time", "as": "Adverb of Time" },
+      { "en": "Adverb of Place", "as": "Adverb of Place" },
+      { "en": "Adverb of Degree", "as": "Adverb of Degree" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Yesterday' tells when the action happened, so it is an adverb of time.",
+      "as": "'Yesterday' এ কাৰ্য কেতিয়া ঘটিছিল তাক জনায়, গতিকে ই এটা Adverb of Time।"
+    }
+  },
+  {
+    "id": "pos-103",
+    "q": {
+      "en": "What kind of adverb is 'here' in the sentence: Please come here.",
+      "as": "বাক্যটোত 'here' কি ধৰণৰ Adverb?: Please come here."
+    },
+    "options": [
+      { "en": "Adverb of Time", "as": "Adverb of Time" },
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Place", "as": "Adverb of Place" },
+      { "en": "Adverb of Frequency", "as": "Adverb of Frequency" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Here' tells where the action happens, so it is an adverb of place.",
+      "as": "'Here' এ কাৰ্য ক'ত ঘটে তাক জনায়, গতিকে ই এটা Adverb of Place।"
+    }
+  },
+  {
+    "id": "pos-104",
+    "q": {
+      "en": "What kind of adverb is 'always' in the sentence: He always speaks the truth.",
+      "as": "বাক্যটোত 'always' কি ধৰণৰ Adverb?: He always speaks the truth."
+    },
+    "options": [
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Place", "as": "Adverb of Place" },
+      { "en": "Adverb of Degree", "as": "Adverb of Degree" },
+      { "en": "Adverb of Frequency", "as": "Adverb of Frequency" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Always' tells how often the action happens, so it is an adverb of frequency.",
+      "as": "'Always' এ কাৰ্য কিমান বাৰ ঘ ঘটি তাক জনায়, গতিকে ই এটা Adverb of Frequency।"
+    }
+  },
+  {
+    "id": "pos-105",
+    "q": {
+      "en": "What kind of adverb is 'very' in the sentence: The tea is very hot.",
+      "as": "বাক্যটোত 'very' কি ধৰণৰ Adverb?: The tea is very hot."
+    },
+    "options": [
+      { "en": "Adverb of Degree", "as": "Adverb of Degree" },
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Time", "as": "Adverb of Time" },
+      { "en": "Adverb of Place", "as": "Adverb of Place" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Very' shows the degree of the adjective 'hot', so it is an adverb of degree.",
+      "as": "'Very' এ 'hot' বিশেষণৰ মাত্ৰা দেখুৱায়, গতিকে ই এটা Adverb of Degree।"
+    }
+  },
+  {
+    "id": "pos-106",
+    "q": {
+      "en": "What kind of adverb is 'slowly' in the sentence: The tortoise walks slowly.",
+      "as": "বাক্যটোত 'slowly' কি ধৰণৰ Adverb?: The tortoise walks slowly."
+    },
+    "options": [
+      { "en": "Adverb of Time", "as": "Adverb of Time" },
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Place", "as": "Adverb of Place" },
+      { "en": "Adverb of Degree", "as": "Adverb of Degree" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Slowly' tells how the tortoise walks, so it is an adverb of manner.",
+      "as": "'Slowly' এ কাছটোৱে কেনেকৈ খোজ কাঢ়ে তাক জনায়, গতিকে ই এটা Adverb of Manner।"
+    }
+  },
+  {
+    "id": "pos-107",
+    "q": {
+      "en": "What kind of adverb is 'everywhere' in the sentence: I looked everywhere for my keys.",
+      "as": "বাক্যটোত 'everywhere' কি ধৰণৰ Adverb?: I looked everywhere for my keys."
+    },
+    "options": [
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Time", "as": "Adverb of Time" },
+      { "en": "Adverb of Place", "as": "Adverb of Place" },
+      { "en": "Adverb of Frequency", "as": "Adverb of Frequency" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Everywhere' tells where I looked, so it is an adverb of place.",
+      "as": "'Everywhere' এ ক'ত চাইছিলোঁ তাক জনায়, গতিকে ই এটা Adverb of Place।"
+    }
+  },
+  {
+    "id": "pos-108",
+    "q": {
+      "en": "What kind of adverb is 'sometimes' in the sentence: She sometimes visits us.",
+      "as": "বাক্যটোত 'sometimes' কি ধৰণৰ Adverb?: She sometimes visits us."
+    },
+    "options": [
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Place", "as": "Adverb of Place" },
+      { "en": "Adverb of Degree", "as": "Adverb of Degree" },
+      { "en": "Adverb of Frequency", "as": "Adverb of Frequency" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Sometimes' tells how often she visits, so it is an adverb of frequency.",
+      "as": "'Sometimes' এ তাই কিমান বাৰ আহে তাক জনায়, গতিকে ই এটা Adverb of Frequency।"
+    }
+  },
+  {
+    "id": "pos-109",
+    "q": {
+      "en": "What kind of adverb is 'quite' in the sentence: She is quite clever.",
+      "as": "বাক্যটোত 'quite' কি ধৰণৰ Adverb?: She is quite clever."
+    },
+    "options": [
+      { "en": "Adverb of Degree", "as": "Adverb of Degree" },
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Time", "as": "Adverb of Time" },
+      { "en": "Adverb of Frequency", "as": "Adverb of Frequency" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Quite' shows the degree of the adjective 'clever', so it is an adverb of degree.",
+      "as": "'Quite' এ 'clever' বিশেষণৰ মাত্ৰা দেখুৱায়, গতিকে ই এটা Adverb of Degree।"
+    }
+  },
+  {
+    "id": "pos-110",
+    "q": {
+      "en": "What kind of adverb is 'well' in the sentence: She sings well.",
+      "as": "বাক্যটোত 'well' কি ধৰণৰ Adverb?: She sings well."
+    },
+    "options": [
+      { "en": "Adverb of Place", "as": "Adverb of Place" },
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Time", "as": "Adverb of Time" },
+      { "en": "Adverb of Degree", "as": "Adverb of Degree" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Well' tells how she sings, so it is an adverb of manner.",
+      "as": "'Well' এ তাই কেনেকৈ গায় তাক জনায়, গতিকে ই এটা Adverb of Manner।"
+    }
+  },
+  {
+    "id": "pos-111",
+    "q": {
+      "en": "What kind of adverb is 'outside' in the sentence: The children are playing outside.",
+      "as": "বাক্যটোত 'outside' কি ধৰণৰ Adverb?: The children are playing outside."
+    },
+    "options": [
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Time", "as": "Adverb of Time" },
+      { "en": "Adverb of Place", "as": "Adverb of Place" },
+      { "en": "Adverb of Degree", "as": "Adverb of Degree" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Outside' tells where the children are playing, so it is an adverb of place.",
+      "as": "'Outside' এ শিশুবোৰে ক'ত খেলি আছে তাক জনায়, গতিকে ই এটা Adverb of Place।"
+    }
+  },
+  {
+    "id": "pos-112",
+    "q": {
+      "en": "What kind of adverb is 'never' in the sentence: He never tells a lie.",
+      "as": "বাক্যটোত 'never' কি ধৰণৰ Adverb?: He never tells a lie."
+    },
+    "options": [
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Place", "as": "Adverb of Place" },
+      { "en": "Adverb of Degree", "as": "Adverb of Degree" },
+      { "en": "Adverb of Frequency", "as": "Adverb of Frequency" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Never' tells how often he tells a lie, so it is an adverb of frequency.",
+      "as": "'Never' এ তেওঁ কিমান বাৰ মিছা কয় তাক জনায়, গতিকে ই এটা Adverb of Frequency।"
+    }
+  },
+  {
+    "id": "pos-113",
+    "q": {
+      "en": "What kind of adverb is 'too' in the sentence: The box is too heavy to carry.",
+      "as": "বাক্যটোত 'too' কি ধৰণৰ Adverb?: The box is too heavy to carry."
+    },
+    "options": [
+      { "en": "Adverb of Degree", "as": "Adverb of Degree" },
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Time", "as": "Adverb of Time" },
+      { "en": "Adverb of Place", "as": "Adverb of Place" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Too' shows the degree of the adjective 'heavy', so it is an adverb of degree.",
+      "as": "'Too' এ 'heavy' বিশেষণৰ মাত্ৰা দেখুৱায়, গতিকে ই এটা Adverb of Degree।"
+    }
+  },
+  {
+    "id": "pos-114",
+    "q": {
+      "en": "What kind of adverb is 'tomorrow' in the sentence: We will meet tomorrow.",
+      "as": "বাক্যটোত 'tomorrow' কি ধৰণৰ Adverb?: We will meet tomorrow."
+    },
+    "options": [
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Time", "as": "Adverb of Time" },
+      { "en": "Adverb of Place", "as": "Adverb of Place" },
+      { "en": "Adverb of Frequency", "as": "Adverb of Frequency" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Tomorrow' tells when we will meet, so it is an adverb of time.",
+      "as": "'Tomorrow' এ কেতিয়া লগ পাম তাক জনায়, গতিকে ই এটা Adverb of Time।"
+    }
+  },
+  {
+    "id": "pos-115",
+    "q": {
+      "en": "What kind of adverb is 'hard' in the sentence: He works hard.",
+      "as": "বাক্যটোত 'hard' কি ধৰণৰ Adverb?: He works hard."
+    },
+    "options": [
+      { "en": "Adverb of Time", "as": "Adverb of Time" },
+      { "en": "Adverb of Place", "as": "Adverb of Place" },
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Degree", "as": "Adverb of Degree" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Hard' tells how he works, so it is an adverb of manner.",
+      "as": "'Hard' এ তেওঁ কেনেকৈ কাম কৰে তাক জনায়, গতিকে ই এটা Adverb of Manner।"
+    }
+  },
+  {
+    "id": "pos-116",
+    "q": {
+      "en": "What kind of adverb is 'usually' in the sentence: I usually get up early.",
+      "as": "বাক্যটোত 'usually' কি ধৰণৰ Adverb?: I usually get up early."
+    },
+    "options": [
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Place", "as": "Adverb of Place" },
+      { "en": "Adverb of Degree", "as": "Adverb of Degree" },
+      { "en": "Adverb of Frequency", "as": "Adverb of Frequency" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Usually' tells how often I get up early, so it is an adverb of frequency.",
+      "as": "'Usually' এ মই কিমান বাৰ সোনকালে উঠোঁ তাক জনায়, গতিকে ই এটা Adverb of Frequency।"
+    }
+  },
+  {
+    "id": "pos-117",
+    "q": {
+      "en": "What kind of adverb is 'almost' in the sentence: He has almost finished the work.",
+      "as": "বাক্যটোত 'almost' কি ধৰণৰ Adverb?: He has almost finished the work."
+    },
+    "options": [
+      { "en": "Adverb of Degree", "as": "Adverb of Degree" },
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Time", "as": "Adverb of Time" },
+      { "en": "Adverb of Place", "as": "Adverb of Place" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Almost' shows the degree or extent of completion, so it is an adverb of degree.",
+      "as": "'Almost' এ সম্পূৰ্ণ হোৱাৰ মাত্ৰা দেখুৱায়, গতিকে ই এটা Adverb of Degree।"
+    }
+  },
+  {
+    "id": "pos-118",
+    "q": {
+      "en": "What kind of adverb is 'early' in the sentence: She arrived early in the morning.",
+      "as": "বাক্যটোত 'early' কি ধৰণৰ Adverb?: She arrived early in the morning."
+    },
+    "options": [
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Time", "as": "Adverb of Time" },
+      { "en": "Adverb of Place", "as": "Adverb of Place" },
+      { "en": "Adverb of Frequency", "as": "Adverb of Frequency" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Early' tells when she arrived, so it is an adverb of time.",
+      "as": "'Early' এ তাই কেতিয়া উপস্থিত হৈছিল তাক জনায়, গতিকে ই এটা Adverb of Time।"
+    }
+  },
+  {
+    "id": "pos-119",
+    "q": {
+      "en": "What kind of adverb is 'there' in the sentence: The book is lying there.",
+      "as": "বাক্যটোত 'there' কি ধৰণৰ Adverb?: The book is lying there."
+    },
+    "options": [
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Time", "as": "Adverb of Time" },
+      { "en": "Adverb of Place", "as": "Adverb of Place" },
+      { "en": "Adverb of Degree", "as": "Adverb of Degree" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'There' tells where the book is lying, so it is an adverb of place.",
+      "as": "'There' এ কিতাপখন ক'ত পৰি আছে তাক জনায়, গতিকে ই এটা Adverb of Place।"
+    }
+  },
+  {
+    "id": "pos-120",
+    "q": {
+      "en": "What kind of adverb is 'rarely' in the sentence: He rarely goes to the market.",
+      "as": "বাক্যটোত 'rarely' কি ধৰণৰ Adverb?: He rarely goes to the market."
+    },
+    "options": [
+      { "en": "Adverb of Manner", "as": "Adverb of Manner" },
+      { "en": "Adverb of Place", "as": "Adverb of Place" },
+      { "en": "Adverb of Degree", "as": "Adverb of Degree" },
+      { "en": "Adverb of Frequency", "as": "Adverb of Frequency" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Rarely' tells how often he goes to the market, so it is an adverb of frequency.",
+      "as": "'Rarely' এ তেওঁ কিমান বাৰ বজাৰলৈ যায় তাক জনায়, গতিকে ই এটা Adverb of Frequency।"
+    }
+  },
+  {
+    "id": "pos-121",
+    "q": {
+      "en": "Fill in the blank with the correct preposition: He is fond ___ music.",
+      "as": "শুদ্ধ Preposition ৰে খালী ঠাই পূৰণ কৰক: He is fond ___ music."
+    },
+    "options": [
+      { "en": "of", "as": "of" },
+      { "en": "for", "as": "for" },
+      { "en": "with", "as": "with" },
+      { "en": "at", "as": "at" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The adjective 'fond' always takes the preposition 'of'.",
+      "as": "'Fond' বিশেষণটোৱে সদায় 'of' Preposition লয়।"
+    }
+  },
+  {
+    "id": "pos-122",
+    "q": {
+      "en": "Fill in the blank with the correct preposition: She is good ___ Mathematics.",
+      "as": "শুদ্ধ Preposition ৰে খালী ঠাই পূৰণ কৰক: She is good ___ Mathematics."
+    },
+    "options": [
+      { "en": "in", "as": "in" },
+      { "en": "at", "as": "at" },
+      { "en": "for", "as": "for" },
+      { "en": "of", "as": "of" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Good at' is the correct prepositional phrase for skill in a subject.",
+      "as": "বিষয়ত দক্ষতা বুজাবলৈ 'good at' শুদ্ধ Prepositional phrase।"
+    }
+  },
+  {
+    "id": "pos-123",
+    "q": {
+      "en": "Fill in the blank with the correct preposition: The old man died ___ cholera.",
+      "as": "শুদ্ধ Preposition ৰে খালী ঠাই পূৰণ কৰক: The old man died ___ cholera."
+    },
+    "options": [
+      { "en": "from", "as": "from" },
+      { "en": "by", "as": "by" },
+      { "en": "of", "as": "of" },
+      { "en": "with", "as": "with" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "We use 'die of' before the name of a disease.",
+      "as": "ৰোগৰ নামৰ আগত 'die of' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "pos-124",
+    "q": {
+      "en": "Fill in the blank with the correct preposition: He is suffering ___ fever.",
+      "as": "শুদ্ধ Preposition ৰে খালী ঠাই পূৰণ কৰক: He is suffering ___ fever."
+    },
+    "options": [
+      { "en": "with", "as": "with" },
+      { "en": "of", "as": "of" },
+      { "en": "for", "as": "for" },
+      { "en": "from", "as": "from" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Suffer from' is used before the name of an illness.",
+      "as": "অসুস্থতাৰ নামৰ আগত 'suffer from' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "pos-125",
+    "q": {
+      "en": "Fill in the blank with the correct preposition: She has been waiting ___ the bus.",
+      "as": "শুদ্ধ Preposition ৰে খালী ঠাই পূৰণ কৰক: She has been waiting ___ the bus."
+    },
+    "options": [
+      { "en": "for", "as": "for" },
+      { "en": "on", "as": "on" },
+      { "en": "at", "as": "at" },
+      { "en": "with", "as": "with" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Wait for' is the correct expression.",
+      "as": "'Wait for' এ শুদ্ধ প্ৰকাশ।"
+    }
+  },
+  {
+    "id": "pos-126",
+    "q": {
+      "en": "Fill in the blank with the correct preposition: The boy is afraid ___ the dog.",
+      "as": "শুদ্ধ Preposition ৰে খালী ঠাই পূৰণ কৰক: The boy is afraid ___ the dog."
+    },
+    "options": [
+      { "en": "from", "as": "from" },
+      { "en": "of", "as": "of" },
+      { "en": "with", "as": "with" },
+      { "en": "about", "as": "about" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Afraid of' is the correct prepositional phrase.",
+      "as": "'Afraid of' এ শুদ্ধ Prepositional phrase।"
+    }
+  },
+  {
+    "id": "pos-127",
+    "q": {
+      "en": "Fill in the blank with the correct preposition: He apologized ___ his mistake.",
+      "as": "শুদ্ধ Preposition ৰে খালী ঠাই পূৰণ কৰক: He apologized ___ his mistake."
+    },
+    "options": [
+      { "en": "of", "as": "of" },
+      { "en": "with", "as": "with" },
+      { "en": "for", "as": "for" },
+      { "en": "at", "as": "at" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Apologize for' is used for the thing one is sorry about.",
+      "as": "যি কাৰণত ক্ষমা খুজিছে তাৰ বাবে 'apologize for' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "pos-128",
+    "q": {
+      "en": "Fill in the blank with the correct preposition: The train is bound ___ Delhi.",
+      "as": "শুদ্ধ Preposition ৰে খালী ঠাই পূৰণ কৰক: The train is bound ___ Delhi."
+    },
+    "options": [
+      { "en": "at", "as": "at" },
+      { "en": "to", "as": "to" },
+      { "en": "in", "as": "in" },
+      { "en": "for", "as": "for" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Bound for' is used for the destination of a train or ship.",
+      "as": "ৰে'ল বা জাহাজৰ গন্তব্যস্থানৰ বাবে 'bound for' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "pos-129",
+    "q": {
+      "en": "Which word in the sentence 'He came and sat beside me' is a conjunction?",
+      "as": "'He came and sat beside me' বাক্যটোত কোনটো শব্দ Conjunction?"
+    },
+    "options": [
+      { "en": "and", "as": "and" },
+      { "en": "came", "as": "came" },
+      { "en": "beside", "as": "beside" },
+      { "en": "me", "as": "me" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'And' joins the two verbs 'came' and 'sat', so it is a conjunction.",
+      "as": "'And' এ 'came' আৰু 'sat' দুটা ক্ৰিয়া সংযোগ কৰে, গতিকে ই এটা Conjunction।"
+    }
+  },
+  {
+    "id": "pos-130",
+    "q": {
+      "en": "Which word in the sentence 'Although he was tired, he continued working' is a conjunction?",
+      "as": "'Although he was tired, he continued working' বাক্যটোত কোনটো শব্দ Conjunction?"
+    },
+    "options": [
+      { "en": "tired", "as": "tired" },
+      { "en": "Although", "as": "Although" },
+      { "en": "continued", "as": "continued" },
+      { "en": "working", "as": "working" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Although' joins the subordinate clause to the main clause, so it is a conjunction.",
+      "as": "'Although' এ অপ্রধান খণ্ডবাক্যক মূল খণ্ডবাক্যৰ সৈতে সংযোগ কৰে, গতিকে ই এটা Conjunction।"
+    }
+  },
+  {
+    "id": "pos-131",
+    "q": {
+      "en": "Which word in the sentence 'The sun rises in the east' is a preposition?",
+      "as": "'The sun rises in the east' বাক্যটোত কোনটো শব্দ Preposition?"
+    },
+    "options": [
+      { "en": "sun", "as": "sun" },
+      { "en": "rises", "as": "rises" },
+      { "en": "in", "as": "in" },
+      { "en": "east", "as": "east" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'In' shows the relation between 'rises' and 'east', so it is a preposition.",
+      "as": "'In' এ 'rises' আৰু 'east' ৰ সম্বন্ধ দেখুৱায়, গতিকে ই এটা Preposition।"
+    }
+  },
+  {
+    "id": "pos-132",
+    "q": {
+      "en": "Which word in the sentence 'Hurrah! We won the match' is an interjection?",
+      "as": "'Hurrah! We won the match' বাক্যটোত কোনটো শব্দ Interjection?"
+    },
+    "options": [
+      { "en": "won", "as": "won" },
+      { "en": "match", "as": "match" },
+      { "en": "We", "as": "We" },
+      { "en": "Hurrah", "as": "Hurrah" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Hurrah' expresses joy, so it is an interjection.",
+      "as": "'Hurrah' এ আনন্দ প্ৰকাশ কৰে, গতিকে ই এটা Interjection।"
+    }
+  },
+  {
+    "id": "pos-133",
+    "q": {
+      "en": "Which word in the sentence 'She writes neatly' is an adverb?",
+      "as": "'She writes neatly' বাক্যটোত কোনটো শব্দ Adverb?"
+    },
+    "options": [
+      { "en": "neatly", "as": "neatly" },
+      { "en": "She", "as": "She" },
+      { "en": "writes", "as": "writes" },
+      { "en": "None", "as": "None" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Neatly' modifies the verb 'writes', so it is an adverb.",
+      "as": "'Neatly' এ 'writes' ক্ৰিয়াটো বৰ্ণনা কৰে, গতিকে ই এটা Adverb।"
+    }
+  },
+  {
+    "id": "pos-134",
+    "q": {
+      "en": "Which word in the sentence 'The brave boy saved the child' is an adjective?",
+      "as": "'The brave boy saved the child' বাক্যটোত কোনটো শব্দ Adjective?"
+    },
+    "options": [
+      { "en": "boy", "as": "boy" },
+      { "en": "brave", "as": "brave" },
+      { "en": "saved", "as": "saved" },
+      { "en": "child", "as": "child" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Brave' describes the noun 'boy', so it is an adjective.",
+      "as": "'Brave' এ 'boy' বিশেষ্যটো বৰ্ণনা কৰে, গতিকে ই এটা Adjective।"
+    }
+  },
+  {
+    "id": "pos-135",
+    "q": {
+      "en": "Which word in the sentence 'Rina bought a new dress' is a proper noun?",
+      "as": "'Rina bought a new dress' বাক্যটোত কোনটো শব্দ Proper Noun?"
+    },
+    "options": [
+      { "en": "dress", "as": "dress" },
+      { "en": "new", "as": "new" },
+      { "en": "Rina", "as": "Rina" },
+      { "en": "bought", "as": "bought" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Rina' is the special name of a particular person, so it is a proper noun.",
+      "as": "'Rina' এ এজন নিৰ্দিষ্ট ব্যক্তিৰ বিশেষ নাম, গতিকে ই এটা Proper Noun।"
+    }
+  },
+  {
+    "id": "pos-136",
+    "q": {
+      "en": "Fill in the blank with the correct conjunction: He is rich ___ he is not happy.",
+      "as": "শুদ্ধ Conjunction ৰে খালী ঠাই পূৰণ কৰক: He is rich ___ he is not happy."
+    },
+    "options": [
+      { "en": "and", "as": "and" },
+      { "en": "so", "as": "so" },
+      { "en": "or", "as": "or" },
+      { "en": "but", "as": "but" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'But' is used to join two contrasting ideas.",
+      "as": "দুটা বিপৰীত ভাব সংযোগ কৰিবলৈ 'but' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "pos-137",
+    "q": {
+      "en": "Fill in the blank with the correct conjunction: Work hard ___ you will fail.",
+      "as": "শুদ্ধ Conjunction ৰে খালী ঠাই পূৰণ কৰক: Work hard ___ you will fail."
+    },
+    "options": [
+      { "en": "or", "as": "or" },
+      { "en": "and", "as": "and" },
+      { "en": "but", "as": "but" },
+      { "en": "because", "as": "because" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Or' shows a choice or a negative consequence.",
+      "as": "'Or' এ এটা বিকল্প বা নেতিবাচক পৰিণতি দেখুৱায়।"
+    }
+  },
+  {
+    "id": "pos-138",
+    "q": {
+      "en": "Fill in the blank with the correct conjunction: She was ill, ___ she did not attend the class.",
+      "as": "শুদ্ধ Conjunction ৰে খালী ঠাই পূৰণ কৰক: She was ill, ___ she did not attend the class."
+    },
+    "options": [
+      { "en": "but", "as": "but" },
+      { "en": "so", "as": "so" },
+      { "en": "or", "as": "or" },
+      { "en": "though", "as": "though" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'So' shows the result of the first clause.",
+      "as": "'So' এ প্ৰথম খণ্ডবাক্যৰ ফলাফল দেখুৱায়।"
+    }
+  },
+  {
+    "id": "pos-139",
+    "q": {
+      "en": "Fill in the blank with the correct conjunction: I stayed at home ___ it was raining.",
+      "as": "শুদ্ধ Conjunction ৰে খালী ঠাই পূৰণ কৰক: I stayed at home ___ it was raining."
+    },
+    "options": [
+      { "en": "and", "as": "and" },
+      { "en": "or", "as": "or" },
+      { "en": "because", "as": "because" },
+      { "en": "but", "as": "but" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Because' gives the reason for staying at home.",
+      "as": "'Because' এ ঘৰত থকাৰ কাৰণ দিয়ে।"
+    }
+  },
+  {
+    "id": "pos-140",
+    "q": {
+      "en": "Which word in the sentence 'Oh! What a pity' is an interjection?",
+      "as": "'Oh! What a pity' বাক্যটোত কোনটো শব্দ Interjection?"
+    },
+    "options": [
+      { "en": "What", "as": "What" },
+      { "en": "pity", "as": "pity" },
+      { "en": "a", "as": "a" },
+      { "en": "Oh", "as": "Oh" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Oh' expresses a sudden feeling, so it is an interjection.",
+      "as": "'Oh' এ হঠাৎ ভাব প্ৰকাশ কৰে, গতিকে ই এটা Interjection।"
+    }
+  },
+  {
+    "id": "pos-141",
+    "q": {
+      "en": "Which word in the sentence 'The dog ran after the cat' is a preposition?",
+      "as": "'The dog ran after the cat' বাক্যটোত কোনটো শব্দ Preposition?"
+    },
+    "options": [
+      { "en": "after", "as": "after" },
+      { "en": "ran", "as": "ran" },
+      { "en": "dog", "as": "dog" },
+      { "en": "cat", "as": "cat" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'After' shows the relation between 'ran' and 'cat', so it is a preposition.",
+      "as": "'After' এ 'ran' আৰু 'cat' ৰ সম্বন্ধ দেখুৱায়, গতিকে ই এটা Preposition।"
+    }
+  },
+  {
+    "id": "pos-142",
+    "q": {
+      "en": "Fill in the blank with the correct preposition: He was born ___ a small village.",
+      "as": "শুদ্ধ Preposition ৰে খালী ঠাই পূৰণ কৰক: He was born ___ a small village."
+    },
+    "options": [
+      { "en": "at", "as": "at" },
+      { "en": "in", "as": "in" },
+      { "en": "on", "as": "on" },
+      { "en": "for", "as": "for" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'In' is used before the name of a village, town or city.",
+      "as": "গাঁও, নগৰ বা চহৰৰ নামৰ আগত 'in' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "pos-143",
+    "q": {
+      "en": "Fill in the blank with the correct preposition: The picture was painted ___ Rabindranath Tagore.",
+      "as": "শুদ্ধ Preposition ৰে খালী ঠাই পূৰণ কৰক: The picture was painted ___ Rabindranath Tagore."
+    },
+    "options": [
+      { "en": "with", "as": "with" },
+      { "en": "from", "as": "from" },
+      { "en": "by", "as": "by" },
+      { "en": "of", "as": "of" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'By' is used in the passive voice to show the doer of the action.",
+      "as": "কৰ্মবাচ্যত কাৰ্য কৰ্তাক দেখুৱাবলৈ 'by' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "pos-144",
+    "q": {
+      "en": "Which part of speech is the word 'slow' in the sentence: The train is slow.",
+      "as": "'The train is slow' বাক্যটোত 'slow' শব্দটো কি Parts of Speech?"
+    },
+    "options": [
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" },
+      { "en": "Adjective", "as": "Adjective" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Slow' describes the noun 'train', so it is an adjective.",
+      "as": "'Slow' এ 'train' বিশেষ্যটো বৰ্ণনা কৰে, গতিকে ই এটা Adjective।"
+    }
+  },
+  {
+    "id": "pos-145",
+    "q": {
+      "en": "Which part of speech is the word 'fast' in the sentence: He runs fast.",
+      "as": "'He runs fast' বাক্যটোত 'fast' শব্দটো কি Parts of Speech?"
+    },
+    "options": [
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Here 'fast' modifies the verb 'runs', so it is an adverb.",
+      "as": "ইয়াত 'fast' এ 'runs' ক্ৰিয়াটো বৰ্ণনা কৰে, গতিকে ই এটা Adverb।"
+    }
+  },
+  {
+    "id": "pos-146",
+    "q": {
+      "en": "Which part of speech is the word 'Water' in the sentence: Water is essential for life.",
+      "as": "'Water is essential for life' বাক্যটোত 'Water' শব্দটো কি Parts of Speech?"
+    },
+    "options": [
+      { "en": "Verb", "as": "Verb" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Water' is the name of a substance, so it is a noun (material noun).",
+      "as": "'Water' এ এটা পদাৰ্থৰ নাম, গতিকে ই এটা Noun (Material Noun)।"
+    }
+  },
+  {
+    "id": "pos-147",
+    "q": {
+      "en": "Fill in the blank with the correct pronoun: ___ is a good boy.",
+      "as": "শুদ্ধ Pronoun ৰে খালী ঠাই পূৰণ কৰক: ___ is a good boy."
+    },
+    "options": [
+      { "en": "Him", "as": "Him" },
+      { "en": "His", "as": "His" },
+      { "en": "He", "as": "He" },
+      { "en": "Himself", "as": "Himself" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The subject form 'He' is needed here, not the object form 'Him'.",
+      "as": "ইয়াত কৰ্তা ৰূপ 'He' প্ৰয়োজন, কৰ্ম ৰূপ 'Him' নহয়।"
+    }
+  },
+  {
+    "id": "pos-148",
+    "q": {
+      "en": "Fill in the blank with the correct pronoun: This pen is ___.",
+      "as": "শুদ্ধ Pronoun ৰে খালী ঠাই পূৰণ কৰক: This pen is ___."
+    },
+    "options": [
+      { "en": "I", "as": "I" },
+      { "en": "me", "as": "me" },
+      { "en": "my", "as": "my" },
+      { "en": "mine", "as": "mine" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The possessive pronoun 'mine' is used here.",
+      "as": "ইয়াত Possessive Pronoun 'mine' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "pos-149",
+    "q": {
+      "en": "Fill in the blank with the correct article: He is ___ honest man.",
+      "as": "শুদ্ধ Article ৰে খালী ঠাই পূৰণ কৰক: He is ___ honest man."
+    },
+    "options": [
+      { "en": "a", "as": "a" },
+      { "en": "an", "as": "an" },
+      { "en": "the", "as": "the" },
+      { "en": "no article", "as": "no article" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'An' is used before a vowel sound. 'Honest' begins with a vowel sound.",
+      "as": "স্বৰবৰ্ণ ধ্বনিৰ আগত 'an' ব্যৱহাৰ কৰা হয়। 'Honest' স্বৰবৰ্ণ ধ্বনিৰে আৰম্ভ হয়।"
+    }
+  },
+  {
+    "id": "pos-150",
+    "q": {
+      "en": "Identify the part of speech of the word 'happily' in the sentence: They lived happily ever after.",
+      "as": "'They lived happily ever after' বাক্যটোত 'happily' শব্দটো কি Parts of Speech?"
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Verb", "as": "Verb" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Happily' modifies the verb 'lived', so it is an adverb.",
+      "as": "'Happily' এ 'lived' ক্ৰিয়াটো বৰ্ণনা কৰে, গতিকে ই এটা Adverb।"
+    }
+  },
+  {
+    "id": "pos-151",
+    "q": {
+      "en": "Identify the part of speech of the word 'quick' in the sentence: He gave a quick reply.",
+      "as": "'He gave a quick reply' বাক্যটোত 'quick' শব্দটো কি Parts of Speech?"
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Quick' describes the noun 'reply', so it is an adjective.",
+      "as": "'Quick' এ 'reply' বিশেষ্যটো বৰ্ণনা কৰে, গতিকে ই এটা Adjective।"
+    }
+  },
+  {
+    "id": "pos-152",
+    "q": {
+      "en": "Which word in the sentence 'We waited until the rain stopped' is a conjunction?",
+      "as": "'We waited until the rain stopped' বাক্যটোত কোনটো শব্দ Conjunction?"
+    },
+    "options": [
+      { "en": "waited", "as": "waited" },
+      { "en": "until", "as": "until" },
+      { "en": "rain", "as": "rain" },
+      { "en": "stopped", "as": "stopped" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Until' joins the two clauses showing time, so it is a conjunction.",
+      "as": "'Until' এ সময় দেখুৱাই দুটা খণ্ডবাক্য সংযোগ কৰে, গতিকে ই এটা Conjunction।"
+    }
+  },
+  {
+    "id": "pos-153",
+    "q": {
+      "en": "Which word in the sentence 'She put the book on the table' is a preposition?",
+      "as": "'She put the book on the table' বাক্যটোত কোনটো শব্দ Preposition?"
+    },
+    "options": [
+      { "en": "book", "as": "book" },
+      { "en": "put", "as": "put" },
+      { "en": "on", "as": "on" },
+      { "en": "table", "as": "table" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'On' shows the relation between 'put' and 'table', so it is a preposition.",
+      "as": "'On' এ 'put' আৰু 'table' ৰ সম্বন্ধ দেখুৱায়, গতিকে ই এটা Preposition।"
+    }
+  },
+  {
+    "id": "pos-154",
+    "q": {
+      "en": "Identify the part of speech of the word 'Shh' in the sentence: Shh! The baby is sleeping.",
+      "as": "'Shh! The baby is sleeping' বাক্যটোত 'Shh' শব্দটো কি Parts of Speech?"
+    },
+    "options": [
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Conjunction", "as": "Conjunction" },
+      { "en": "Interjection", "as": "Interjection" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Shh' expresses a command for silence, so it is an interjection.",
+      "as": "'Shh' এ মনে মনে থকাৰ নিৰ্দেশ প্ৰকাশ কৰে, গতিকে ই এটা Interjection।"
+    }
+  },
+  {
+    "id": "pos-155",
+    "q": {
+      "en": "Which word in the sentence 'Neither of the boys was present' is an indefinite pronoun?",
+      "as": "'Neither of the boys was present' বাক্যটোত কোনটো শব্দ Indefinite Pronoun?"
+    },
+    "options": [
+      { "en": "Neither", "as": "Neither" },
+      { "en": "boys", "as": "boys" },
+      { "en": "present", "as": "present" },
+      { "en": "was", "as": "was" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Neither' refers to no particular person, so it is an indefinite pronoun.",
+      "as": "'Neither' এ কোনো নিৰ্দিষ্ট ব্যক্তিক নুবুজায়, গতিকে ই এটা Indefinite Pronoun।"
+    }
+  },
+  {
+    "id": "pos-156",
+    "q": {
+      "en": "Identify the part of speech of the word 'slowly' in the sentence: The old man walked slowly.",
+      "as": "'The old man walked slowly' বাক্যটোত 'slowly' শব্দটো কি Parts of Speech?"
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" },
+      { "en": "Adverb", "as": "Adverb" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Slowly' modifies the verb 'walked', so it is an adverb.",
+      "as": "'Slowly' এ 'walked' ক্ৰিয়াটো বৰ্ণনা কৰে, গতিকে ই এটা Adverb।"
+    }
+  },
+  {
+    "id": "pos-157",
+    "q": {
+      "en": "Fill in the blank with the correct preposition: He is busy ___ his work.",
+      "as": "শুদ্ধ Preposition ৰে খালী ঠাই পূৰণ কৰক: He is busy ___ his work."
+    },
+    "options": [
+      { "en": "at", "as": "at" },
+      { "en": "in", "as": "in" },
+      { "en": "with", "as": "with" },
+      { "en": "of", "as": "of" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Busy with' is the correct prepositional phrase.",
+      "as": "'Busy with' এ শুদ্ধ Prepositional phrase।"
+    }
+  },
+  {
+    "id": "pos-158",
+    "q": {
+      "en": "Identify the part of speech of the word 'careful' in the sentence: Be careful while crossing the road.",
+      "as": "'Be careful while crossing the road' বাক্যটোত 'careful' শব্দটো কি Parts of Speech?"
+    },
+    "options": [
+      { "en": "Adjective", "as": "Adjective" },
+      { "en": "Adverb", "as": "Adverb" },
+      { "en": "Noun", "as": "Noun" },
+      { "en": "Verb", "as": "Verb" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Careful' describes the understood subject 'you', so it is an adjective.",
+      "as": "'Careful' এ বুজিত কৰ্তা 'you' ৰ গুণ বৰ্ণনা কৰে, গতিকে ই এটা Adjective।"
+    }
+  },
+  {
+    "id": "pos-159",
+    "q": {
+      "en": "Which word in the sentence 'Give me the red pen' is an adjective?",
+      "as": "'Give me the red pen' বাক্যটোত কোনটো শব্দ Adjective?"
+    },
+    "options": [
+      { "en": "Give", "as": "Give" },
+      { "en": "me", "as": "me" },
+      { "en": "red", "as": "red" },
+      { "en": "pen", "as": "pen" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Red' describes the noun 'pen', so it is an adjective.",
+      "as": "'Red' এ 'pen' বিশেষ্যটো বৰ্ণনা কৰে, গতিকে ই এটা Adjective।"
+    }
+  },
+  {
+    "id": "pos-160",
+    "q": {
+      "en": "Fill in the blank with the correct conjunction: He is neither rich ___ famous.",
+      "as": "শুদ্ধ Conjunction ৰে খালী ঠাই পূৰণ কৰক: He is neither rich ___ famous."
+    },
+    "options": [
+      { "en": "or", "as": "or" },
+      { "en": "nor", "as": "nor" },
+      { "en": "and", "as": "and" },
+      { "en": "but", "as": "but" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Neither' is always followed by 'nor'.",
+      "as": "'Neither' ৰ পিছত সদায় 'nor' আহে।"
+    }
   }
-}
+]
