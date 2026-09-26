@@ -1,30 +1,4502 @@
-{
-  "id": "ancient-assam-001",
-  "q": {
-    "en": "Who was the founder of the Varman dynasty of ancient Kamarupa?",
-    "as": "প্ৰাচীন কামৰূপৰ বৰ্মন বংশৰ প্ৰতিষ্ঠাপক কোন আছিল?"
-  },
-  "options": [
-    {
-      "en": "Bhaskarvarman",
-      "as": "ভাস্কৰৱৰ্মন"
+[
+  {
+    "id": "ancient-assam-001",
+    "q": {
+      "en": "Who was the founder of the Varman dynasty of ancient Kamarupa?",
+      "as": "প্ৰাচীন কামৰূপৰ বৰ্মন বংশৰ প্ৰতিষ্ঠাপক কোন আছিল?"
     },
-    {
-      "en": "Pushyavarman",
-      "as": "পুশ্যৱৰ্মন"
-    },
-    {
-      "en": "Salastambha",
-      "as": "শালস্তম্ভ"
-    },
-    {
-      "en": "Naranarayan",
-      "as": "নৰনাৰায়ণ"
+    "options": [
+      {
+        "en": "Salastambha",
+        "as": "শালস্তম্ভ"
+      },
+      {
+        "en": "Naranarayan",
+        "as": "নৰনাৰায়ণ"
+      },
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      },
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Pushyavarman founded the Varman dynasty of Kamarupa in the 4th century CE.",
+      "as": "পুশ্যৱৰ্মনে খ্ৰীষ্টীয় চতুৰ্থ শতিকাত কামৰূপৰ বৰ্মন বংশ প্ৰতিষ্ঠা কৰিছিল।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "Pushyavarman founded the Varman dynasty of Kamarupa in the 4th century CE.",
-    "as": "পুশ্যৱৰ্মনে খ্ৰীষ্টীয় চতুৰ্থ শতিকাত কামৰূপৰ বৰ্মন বংশ প্ৰতিষ্ঠা কৰিছিল।"
+  },
+  {
+    "id": "ancient-assam-002",
+    "q": {
+      "en": "In which century did Pushyavarman establish the Varman dynasty?",
+      "as": "পুশ্যৱৰ্মনে কোন শতিকাত বৰ্মন বংশ প্ৰতিষ্ঠা কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "2nd century CE",
+        "as": "খ্ৰীষ্টীয় দ্বিতীয় শতিকাত"
+      },
+      {
+        "en": "6th century CE",
+        "as": "খ্ৰীষ্টীয় ষষ্ঠ শতিকাত"
+      },
+      {
+        "en": "4th century CE",
+        "as": "খ্ৰীষ্টীয় চতুৰ্থ শতিকাত"
+      },
+      {
+        "en": "3rd century CE",
+        "as": "খ্ৰীষ্টীয় তৃতীয় শতিকাত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Pushyavarman established the Varman dynasty in the 4th century CE, around 350 CE.",
+      "as": "পুশ্যৱৰ্মনে খ্ৰীষ্টীয় চতুৰ্থ শতিকাত প্ৰায় ৩৫০ চনত বৰ্মন বংশ প্ৰতিষ্ঠা কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-003",
+    "q": {
+      "en": "What was the capital of the Varman dynasty?",
+      "as": "বৰ্মন বংশৰ ৰাজধানী কি আছিল?"
+    },
+    "options": [
+      {
+        "en": "Pragjyotishpura",
+        "as": "প্ৰাগজ্যোতিষপুৰ"
+      },
+      {
+        "en": "Haruppeswara",
+        "as": "হৰুপ্পেশ্বৰ"
+      },
+      {
+        "en": "Durjaya",
+        "as": "দুৰ্জয়"
+      },
+      {
+        "en": "Sonitpur",
+        "as": "সোণিতপুৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capital of the Varman dynasty was Pragjyotishpura, the present-day Guwahati.",
+      "as": "বৰ্মন বংশৰ ৰাজধানী আছিল প্ৰাগজ্যোতিষপুৰ, অৰ্থাৎ বৰ্তমানৰ গুৱাহাটী।"
+    }
+  },
+  {
+    "id": "ancient-assam-004",
+    "q": {
+      "en": "Bhaskarvarman was a ruler of which dynasty?",
+      "as": "ভাস্কৰৱৰ্মন কোন বংশৰ ৰজা আছিল?"
+    },
+    "options": [
+      {
+        "en": "Varman dynasty",
+        "as": "বৰ্মন বংশ"
+      },
+      {
+        "en": "Chutia dynasty",
+        "as": "চুতীয়া বংশ"
+      },
+      {
+        "en": "Mlechchha dynasty",
+        "as": "ম্লেচ্ছ বংশ"
+      },
+      {
+        "en": "Pala dynasty",
+        "as": "পাল বংশ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bhaskarvarman was the most illustrious ruler of the Varman dynasty of Kamarupa.",
+      "as": "ভাস্কৰৱৰ্মন কামৰূপৰ বৰ্মন বংশৰ আটাইতকৈ প্ৰসিদ্ধ ৰজা আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-005",
+    "q": {
+      "en": "The Chinese traveller Hiuen Tsang visited Kamarupa during the reign of which king?",
+      "as": "চীনা পৰিব্ৰাজক হিউয়েন ছাঙে কোন ৰজাৰ ৰাজত্বকালত কামৰূপ ভ্ৰমণ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Brahmapala",
+        "as": "ব্ৰহ্মপাল"
+      },
+      {
+        "en": "Tyagasimha",
+        "as": "ত্যাগসিংহ"
+      },
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      },
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hiuen Tsang visited Kamarupa in 643 CE during the reign of Bhaskarvarman.",
+      "as": "হিউয়েন ছাঙে ৬৪৩ খ্ৰীষ্টাব্দত ভাস্কৰৱৰ্মনৰ ৰাজত্বকালত কামৰূপ ভ্ৰমণ কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-006",
+    "q": {
+      "en": "Bhaskarvarman was a contemporary of which Indian emperor?",
+      "as": "ভাস্কৰৱৰ্মন কোন ভাৰতীয় সম্ৰাটৰ সমকালীন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Ashoka",
+        "as": "অশোক"
+      },
+      {
+        "en": "Samudragupta",
+        "as": "সমুদ্ৰগুপ্ত"
+      },
+      {
+        "en": "Harshavardhana",
+        "as": "হৰ্ষৱৰ্ধন"
+      },
+      {
+        "en": "Kanishka",
+        "as": "কণিষ্ক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bhaskarvarman was a contemporary and ally of Emperor Harshavardhana of Kanauj.",
+      "as": "ভাস্কৰৱৰ্মন কান্যকুব্জৰ সম্ৰাট হৰ্ষৱৰ্ধনৰ সমকালীন আৰু মিত্ৰ আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-007",
+    "q": {
+      "en": "The Nidhanpur copper plate inscription belongs to which king?",
+      "as": "নিধনপুৰ তামৰ ফলি কোন ৰজাৰ?"
+    },
+    "options": [
+      {
+        "en": "Brahmapala",
+        "as": "ব্ৰহ্মপাল"
+      },
+      {
+        "en": "Samudravarman",
+        "as": "সমুদ্ৰৱৰ্মন"
+      },
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      },
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Nidhanpur copper plate inscription was issued by Bhaskarvarman.",
+      "as": "নিধনপুৰ তামৰ ফলি ভাস্কৰৱৰ্মনে জাৰি কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-008",
+    "q": {
+      "en": "Who founded the Mlechchha dynasty of Kamarupa?",
+      "as": "কামৰূপৰ ম্লেচ্ছ বংশ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      },
+      {
+        "en": "Salastambha",
+        "as": "শালস্তম্ভ"
+      },
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      },
+      {
+        "en": "Brahmapala",
+        "as": "ব্ৰহ্মপাল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Salastambha founded the Mlechchha dynasty around 650 CE.",
+      "as": "শালস্তম্ভে প্ৰায় ৬৫০ খ্ৰীষ্টাব্দত ম্লেচ্ছ বংশ প্ৰতিষ্ঠা কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-009",
+    "q": {
+      "en": "What was the capital of the Mlechchha dynasty?",
+      "as": "ম্লেচ্ছ বংশৰ ৰাজধানী কি আছিল?"
+    },
+    "options": [
+      {
+        "en": "Haruppeswara",
+        "as": "হৰুপ্পেশ্বৰ"
+      },
+      {
+        "en": "Pragjyotishpura",
+        "as": "প্ৰাগজ্যোতিষপুৰ"
+      },
+      {
+        "en": "Durjaya",
+        "as": "দুৰ্জয়"
+      },
+      {
+        "en": "Kamarupa",
+        "as": "কামৰূপ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Mlechchha dynasty shifted its capital to Haruppeswara, in the Tezpur region.",
+      "as": "ম্লেচ্ছ বংশই ৰাজধানী হৰুপ্পেশ্বৰলৈ (তেজপুৰ অঞ্চল) স্থানান্তৰ কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-010",
+    "q": {
+      "en": "Who founded the Pala dynasty of Kamarupa?",
+      "as": "কামৰূপৰ পাল বংশ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Gopala",
+        "as": "গোপাল"
+      },
+      {
+        "en": "Dharmapala",
+        "as": "ধৰ্মপাল"
+      },
+      {
+        "en": "Brahmapala",
+        "as": "ব্ৰহ্মপাল"
+      },
+      {
+        "en": "Ramapala",
+        "as": "ৰামপাল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Brahmapala founded the Pala dynasty of Kamarupa around 900 CE.",
+      "as": "ব্ৰহ্মপালে প্ৰায় ৯০০ খ্ৰীষ্টাব্দত কামৰূপৰ পাল বংশ প্ৰতিষ্ঠা কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-011",
+    "q": {
+      "en": "What was the capital of the Kamarupa Pala dynasty?",
+      "as": "কামৰূপ পাল বংশৰ ৰাজধানী কি আছিল?"
+    },
+    "options": [
+      {
+        "en": "Sonitpur",
+        "as": "সোণিতপুৰ"
+      },
+      {
+        "en": "Pragjyotishpura",
+        "as": "প্ৰাগজ্যোতিষপুৰ"
+      },
+      {
+        "en": "Haruppeswara",
+        "as": "হৰুপ্পেশ্বৰ"
+      },
+      {
+        "en": "Durjaya",
+        "as": "দুৰ্জয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Pala rulers of Kamarupa ruled from their capital at Durjaya.",
+      "as": "কামৰূপৰ পাল শাসকসকলে দুৰ্জয় ৰাজধানীৰ পৰা শাসন কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-012",
+    "q": {
+      "en": "Who was the last ruler of the Varman dynasty?",
+      "as": "বৰ্মন বংশৰ শেষ ৰজা কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Avanti Varman",
+        "as": "অৱন্তী বৰ্মন"
+      },
+      {
+        "en": "Susthitavarman",
+        "as": "সুস্থিতৱৰ্মন"
+      },
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      },
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Avanti Varman was the last ruler of the Varman dynasty.",
+      "as": "অৱন্তী বৰ্মন বৰ্মন বংশৰ শেষ ৰজা আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-013",
+    "q": {
+      "en": "Who was the last notable ruler of the Mlechchha dynasty?",
+      "as": "ম্লেচ্ছ বংশৰ শেষ উল্লেখযোগ্য ৰজা কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Tyagasimha",
+        "as": "ত্যাগসিংহ"
+      },
+      {
+        "en": "Brahmapala",
+        "as": "ব্ৰহ্মপাল"
+      },
+      {
+        "en": "Salastambha",
+        "as": "শালস্তম্ভ"
+      },
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Tyagasimha was the last notable ruler of the Mlechchha dynasty.",
+      "as": "ত্যাগসিংহ ম্লেচ্ছ বংশৰ শেষ উল্লেখযোগ্য ৰজা আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-014",
+    "q": {
+      "en": "Naraka, the legendary founder of Pragjyotisha, was the son of which god?",
+      "as": "প্ৰাগজ্যোতিষৰ কিংবদন্তিমূলক প্ৰতিষ্ঠাপক নৰক কোন দেৱতাৰ পুত্ৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Indra",
+        "as": "ইন্দ্ৰ"
+      },
+      {
+        "en": "Brahma",
+        "as": "ব্ৰহ্মা"
+      },
+      {
+        "en": "Vishnu (Varaha)",
+        "as": "বিষ্ণু (বৰাহ)"
+      },
+      {
+        "en": "Shiva",
+        "as": "শিৱ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Naraka was born to Vishnu in his Varaha (boar) incarnation and Bhumi, the earth goddess.",
+      "as": "নৰক বিষ্ণুৰ বৰাহ অৱতাৰ আৰু পৃথিৱী দেৱী ভূমিৰ পুত্ৰ আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-015",
+    "q": {
+      "en": "Who was the mother of Narakasura?",
+      "as": "নৰকাসুৰৰ মাতৃ কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Saraswati",
+        "as": "সৰস্বতী"
+      },
+      {
+        "en": "Bhumi (Earth)",
+        "as": "ভূমি (পৃথিৱী)"
+      },
+      {
+        "en": "Lakshmi",
+        "as": "লক্ষ্মী"
+      },
+      {
+        "en": "Parvati",
+        "as": "পাৰ্বতী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Narakasura's mother was Bhumi, the earth goddess.",
+      "as": "নৰকাসুৰৰ মাতৃ আছিল ভূমি, পৃথিৱী দেৱী।"
+    }
+  },
+  {
+    "id": "ancient-assam-016",
+    "q": {
+      "en": "Which Mahabharata warrior-king ruled Pragjyotisha?",
+      "as": "মহাভাৰতৰ কোন যোদ্ধা-ৰজাই প্ৰাগজ্যোতিষ শাসন কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Duryodhana",
+        "as": "দুৰ্যোধন"
+      },
+      {
+        "en": "Karna",
+        "as": "কৰ্ণ"
+      },
+      {
+        "en": "Jarasandha",
+        "as": "জৰাসন্ধ"
+      },
+      {
+        "en": "Bhagadatta",
+        "as": "ভগদত্ত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bhagadatta, son of Naraka, was the king of Pragjyotisha in the Mahabharata.",
+      "as": "নৰকৰ পুত্ৰ ভগদত্ত মহাভাৰতত প্ৰাগজ্যোতিষৰ ৰজা আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-017",
+    "q": {
+      "en": "Bhagadatta fought in the Kurukshetra war on the side of which army?",
+      "as": "ভগদত্তই কুৰুক্ষেত্ৰ যুদ্ধত কোন পক্ষত যুঁজিছিল?"
+    },
+    "options": [
+      {
+        "en": "Pandavas",
+        "as": "পাণ্ডৱ"
+      },
+      {
+        "en": "Kauravas",
+        "as": "কৌৰৱ"
+      },
+      {
+        "en": "Yadavas",
+        "as": "যাদৱ"
+      },
+      {
+        "en": "Panchalas",
+        "as": "পাঞ্চাল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bhagadatta fought on the side of the Kauravas in the Kurukshetra war.",
+      "as": "ভগদত্তই কুৰুক্ষেত্ৰ যুদ্ধত কৌৰৱৰ পক্ষত যুঁজিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-018",
+    "q": {
+      "en": "Who was the son of King Bhagadatta?",
+      "as": "ৰজা ভগদত্তৰ পুত্ৰ কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Naraka",
+        "as": "নৰক"
+      },
+      {
+        "en": "Pushpadatta",
+        "as": "পুষ্পদত্ত"
+      },
+      {
+        "en": "Banasura",
+        "as": "বাণাসুৰ"
+      },
+      {
+        "en": "Vajradatta",
+        "as": "বজ্ৰদত্ত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Vajradatta was the son and successor of Bhagadatta.",
+      "as": "বজ্ৰদত্ত ভগদত্তৰ পুত্ৰ আৰু উত্তৰাধিকাৰী আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-019",
+    "q": {
+      "en": "Banasura, a famous king of ancient Assam, ruled which kingdom?",
+      "as": "প্ৰাচীন অসমৰ প্ৰসিদ্ধ ৰজা বাণাসুৰে কোন ৰাজ্য শাসন কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Kamata",
+        "as": "কামতা"
+      },
+      {
+        "en": "Davaka",
+        "as": "দৱাক"
+      },
+      {
+        "en": "Pragjyotisha",
+        "as": "প্ৰাগজ্যোতিষ"
+      },
+      {
+        "en": "Sonitpur",
+        "as": "সোণিতপুৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Banasura was the king of Sonitpur, the present-day Tezpur.",
+      "as": "বাণাসুৰ সোণিতপুৰৰ ৰজা আছিল, অৰ্থাৎ বৰ্তমানৰ তেজপুৰ।"
+    }
+  },
+  {
+    "id": "ancient-assam-020",
+    "q": {
+      "en": "Who was the daughter of Banasura?",
+      "as": "বাণাসুৰৰ জীয়ৰী কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Vijnanavati",
+        "as": "বিজ্ঞানৱতী"
+      },
+      {
+        "en": "Rukmini",
+        "as": "ৰুক্মিণী"
+      },
+      {
+        "en": "Satyabhama",
+        "as": "সত্যভামা"
+      },
+      {
+        "en": "Usha",
+        "as": "ঊষা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Usha was the daughter of Banasura, the king of Sonitpur.",
+      "as": "ঊষা সোণিতপুৰৰ ৰজা বাণাসুৰৰ জীয়ৰী আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-021",
+    "q": {
+      "en": "In legend, who was the lover of Usha, daughter of Banasura?",
+      "as": "কিংবদন্তি অনুসৰি বাণাসুৰৰ জীয়ৰী ঊষাৰ প্ৰেমিক কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Aniruddha",
+        "as": "অনিৰুদ্ধ"
+      },
+      {
+        "en": "Pradyumna",
+        "as": "প্ৰদ্যুম্ন"
+      },
+      {
+        "en": "Krishna",
+        "as": "কৃষ্ণ"
+      },
+      {
+        "en": "Balarama",
+        "as": "বলৰাম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Usha fell in love with Aniruddha, the grandson of Krishna.",
+      "as": "ঊষা কৃষ্ণৰ নাতি অনিৰুদ্ধৰ প্ৰেমত পৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-022",
+    "q": {
+      "en": "Banasura was finally defeated by which divine figure?",
+      "as": "বাণাসুৰক শেষত কোনে পৰাস্ত কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Krishna",
+        "as": "কৃষ্ণ"
+      },
+      {
+        "en": "Shiva",
+        "as": "শিৱ"
+      },
+      {
+        "en": "Indra",
+        "as": "ইন্দ্ৰ"
+      },
+      {
+        "en": "Arjuna",
+        "as": "অৰ্জুন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Banasura was defeated by Krishna in the legendary battle of Sonitpur.",
+      "as": "সোণিতপুৰৰ কিংবদন্তিমূলক যুদ্ধত বাণাসুৰক কৃষ্ণই পৰাস্ত কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-023",
+    "q": {
+      "en": "What is the ancient name of present-day Tezpur?",
+      "as": "বৰ্তমান তেজপুৰৰ প্ৰাচীন নাম কি আছিল?"
+    },
+    "options": [
+      {
+        "en": "Pragjyotishpura",
+        "as": "প্ৰাগজ্যোতিষপুৰ"
+      },
+      {
+        "en": "Durjaya",
+        "as": "দুৰ্জয়"
+      },
+      {
+        "en": "Davaka",
+        "as": "দৱাক"
+      },
+      {
+        "en": "Sonitpur",
+        "as": "সোণিতপুৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Tezpur was known in ancient times as Sonitpur (and later Haruppeswara).",
+      "as": "তেজপুৰ প্ৰাচীন কালত সোণিতপুৰ (পিছলৈ হৰুপ্পেশ্বৰ) নামেৰে পৰিচিত আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-024",
+    "q": {
+      "en": "The Umachal rock inscription, an early epigraphic record of Assam, is associated with which king?",
+      "as": "অসমৰ প্ৰাৰম্ভিক শিলালিপি উমাচল শিলালিপি কোন ৰজাৰ সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      },
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      },
+      {
+        "en": "Mahendravarman",
+        "as": "মহেন্দ্ৰৱৰ্মন"
+      },
+      {
+        "en": "Brahmapala",
+        "as": "ব্ৰহ্মপাল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Umachal rock inscription is associated with the Kamarupa king Mahendravarman.",
+      "as": "উমাচল শিলালিপি কামৰূপৰ ৰজা মহেন্দ্ৰৱৰ্মনৰ সৈতে সম্পৰ্কিত।"
+    }
+  },
+  {
+    "id": "ancient-assam-025",
+    "q": {
+      "en": "The Umachal rock inscription is located at which place?",
+      "as": "উমাচল শিলালিপি কোন স্থানত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Hajo",
+        "as": "হাজো"
+      },
+      {
+        "en": "Kamakhya (Nilachal hill)",
+        "as": "কামাখ্যা (নীলাচল পাহাৰ)"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Surya Pahar",
+        "as": "সূৰ্য পাহাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Umachal rock inscription is located near Kamakhya on the Nilachal hill.",
+      "as": "উমাচল শিলালিপি কামাখ্যাৰ ওচৰত নীলাচল পাহাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "ancient-assam-026",
+    "q": {
+      "en": "The famous Kamakhya temple is situated on which hill?",
+      "as": "প্ৰসিদ্ধ কামাখ্যা মন্দিৰ কোন পাহাৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Chitrachal",
+        "as": "চিত্ৰাচল"
+      },
+      {
+        "en": "Nilachal",
+        "as": "নীলাচল"
+      },
+      {
+        "en": "Sandhyachal",
+        "as": "সন্ধ্যাচল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Kamakhya temple stands on the Nilachal hill in Guwahati.",
+      "as": "কামাখ্যা মন্দিৰ গুৱাহাটীৰ নীলাচল পাহাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "ancient-assam-027",
+    "q": {
+      "en": "Kamakhya is regarded as one of the most important what?",
+      "as": "কামাখ্যাক আটাইতকৈ গুৰুত্বপূৰ্ণ কি বুলি গণ্য কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Shakti Peethas",
+        "as": "শক্তি পীঠ"
+      },
+      {
+        "en": "Jain temples",
+        "as": "জৈন মন্দিৰ"
+      },
+      {
+        "en": "Sun temples",
+        "as": "সূৰ্য মন্দিৰ"
+      },
+      {
+        "en": "Buddhist monasteries",
+        "as": "বৌদ্ধ বিহাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kamakhya is regarded as one of the most important Shakti Peethas of India.",
+      "as": "কামাখ্যাক ভাৰতৰ আটাইতকৈ গুৰুত্বপূৰ্ণ শক্তি পীঠসমূহৰ এটা বুলি গণ্য কৰা হয়।"
+    }
+  },
+  {
+    "id": "ancient-assam-028",
+    "q": {
+      "en": "Which of the following was an ancient name of Assam?",
+      "as": "তলৰ কোনটো অসমৰ প্ৰাচীন নাম আছিল?"
+    },
+    "options": [
+      {
+        "en": "Kalinga",
+        "as": "কলিঙ্গ"
+      },
+      {
+        "en": "Pragjyotisha",
+        "as": "প্ৰাগজ্যোতিষ"
+      },
+      {
+        "en": "Magadha",
+        "as": "মগধ"
+      },
+      {
+        "en": "Avanti",
+        "as": "অৱন্তী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Pragjyotisha was one of the ancient names of Assam, later called Kamarupa.",
+      "as": "প্ৰাগজ্যোতিষ অসমৰ এটা প্ৰাচীন নাম আছিল, যাক পিছলৈ কামৰূপ বোলা হৈছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-029",
+    "q": {
+      "en": "Kamarupa is mentioned in the Allahabad Pillar Inscription of which emperor?",
+      "as": "কামৰূপ কোন সম্ৰাটৰ এলাহাবাদ স্তম্ভ লিপিত উল্লেখ আছে?"
+    },
+    "options": [
+      {
+        "en": "Ashoka",
+        "as": "অশোক"
+      },
+      {
+        "en": "Harshavardhana",
+        "as": "হৰ্ষৱৰ্ধন"
+      },
+      {
+        "en": "Chandragupta II",
+        "as": "চন্দ্ৰগুপ্ত দ্বিতীয়"
+      },
+      {
+        "en": "Samudragupta",
+        "as": "সমুদ্ৰগুপ্ত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Kamarupa is mentioned as a frontier kingdom in Samudragupta's Allahabad Pillar Inscription.",
+      "as": "সমুদ্ৰগুপ্তৰ এলাহাবাদ স্তম্ভ লিপিত কামৰূপ এটা সীমান্তৱৰ্তী ৰাজ্য হিচাপে উল্লিখিত।"
+    }
+  },
+  {
+    "id": "ancient-assam-030",
+    "q": {
+      "en": "The Allahabad Pillar Inscription was composed by which court poet?",
+      "as": "এলাহাবাদ স্তম্ভ লিপি কোন ৰাজসভাৰ কবিয়ে ৰচনা কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Kalidasa",
+        "as": "কালিদাস"
+      },
+      {
+        "en": "Harishena",
+        "as": "হৰিষেণ"
+      },
+      {
+        "en": "Banabhatta",
+        "as": "বাণভট্ট"
+      },
+      {
+        "en": "Vishakhadatta",
+        "as": "বিশাখদত্ত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Allahabad Pillar Inscription was composed by Harishena, the court poet of Samudragupta.",
+      "as": "এলাহাবাদ স্তম্ভ লিপি সমুদ্ৰগুপ্তৰ ৰাজসভাৰ কবি হৰিষেণে ৰচনা কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-031",
+    "q": {
+      "en": "Kalidasa's Raghuvamsa mentions the conquest of which region by King Raghu?",
+      "as": "কালিদাসৰ ৰঘুবংশত ৰজা ৰঘুৱে কোন অঞ্চল জয় কৰাৰ উল্লেখ আছে?"
+    },
+    "options": [
+      {
+        "en": "Magadha",
+        "as": "মগধ"
+      },
+      {
+        "en": "Kalinga",
+        "as": "কলিঙ্গ"
+      },
+      {
+        "en": "Kamarupa",
+        "as": "কামৰূপ"
+      },
+      {
+        "en": "Sindhu",
+        "as": "সিন্ধু"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In the Raghuvamsa, Kalidasa describes the conquest of Kamarupa (Pragjyotisha) by Raghu.",
+      "as": "ৰঘুবংশত কালিদাসে ৰঘুৰ দ্বাৰা কামৰূপ (প্ৰাগজ্যোতিষ) জয়ৰ বৰ্ণনা কৰিছে।"
+    }
+  },
+  {
+    "id": "ancient-assam-032",
+    "q": {
+      "en": "Hiuen Tsang's account of Kamarupa is found in which work?",
+      "as": "হিউয়েন ছাঙৰ কামৰূপৰ বৰ্ণনা কোন গ্ৰন্থত পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Arthashastra",
+        "as": "অৰ্থশাস্ত্ৰ"
+      },
+      {
+        "en": "Harshacharita",
+        "as": "হৰ্ষচৰিত"
+      },
+      {
+        "en": "Si-Yu-Ki",
+        "as": "চি-য়ু-কি"
+      },
+      {
+        "en": "Rajatarangini",
+        "as": "ৰাজতৰঙ্গিনী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hiuen Tsang's travelogue Si-Yu-Ki contains his description of Kamarupa.",
+      "as": "হিউয়েন ছাঙৰ ভ্ৰমণ-বিৱৰণ চি-য়ু-কিত কামৰূপৰ বৰ্ণনা আছে।"
+    }
+  },
+  {
+    "id": "ancient-assam-033",
+    "q": {
+      "en": "Approximately how long did the Varman dynasty rule Kamarupa?",
+      "as": "বৰ্মন বংশে কামৰূপত প্ৰায় কিমান দিন শাসন কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "About 50 years",
+        "as": "প্ৰায় ৫০ বছৰ"
+      },
+      {
+        "en": "About 500 years",
+        "as": "প্ৰায় ৫০০ বছৰ"
+      },
+      {
+        "en": "About 300 years",
+        "as": "প্ৰায় ৩০০ বছৰ"
+      },
+      {
+        "en": "About 100 years",
+        "as": "প্ৰায় ১০০ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Varman dynasty ruled Kamarupa for about 300 years, from c. 350 to 650 CE.",
+      "as": "বৰ্মন বংশে প্ৰায় ৩০০ বছৰ (৩৫০–৬৫০ খ্ৰীষ্টাব্দ) কামৰূপ শাসন কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-034",
+    "q": {
+      "en": "Amritaprabha, a princess of the Varman dynasty, was married to the king of which region?",
+      "as": "বৰ্মন বংশৰ ৰাজকুমাৰী অমৃতপ্ৰভা কোন অঞ্চলৰ ৰজাৰ সৈতে বিবাহ হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Bengal",
+        "as": "বংগ"
+      },
+      {
+        "en": "Magadha",
+        "as": "মগধ"
+      },
+      {
+        "en": "Kashmir",
+        "as": "কাশ্মীৰ"
+      },
+      {
+        "en": "Nepal",
+        "as": "নেপাল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Amritaprabha was married to Meghavahana, the king of Kashmir.",
+      "as": "অমৃতপ্ৰভাৰ বিবাহ কাশ্মীৰৰ ৰজা মেঘৱাহনৰ সৈতে হৈছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-035",
+    "q": {
+      "en": "Who was the Kashmiri king who married Amritaprabha of Kamarupa?",
+      "as": "কামৰূপৰ অমৃতপ্ৰভাক বিবাহ কৰা কাশ্মীৰৰ ৰজা কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Meghavahana",
+        "as": "মেঘৱাহন"
+      },
+      {
+        "en": "Jayapida",
+        "as": "জয়াপিড়"
+      },
+      {
+        "en": "Lalitaditya",
+        "as": "ললিতাদিত্য"
+      },
+      {
+        "en": "Narendra",
+        "as": "নৰেন্দ্ৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Meghavahana of Kashmir married Amritaprabha, daughter of Ganapativarman.",
+      "as": "কাশ্মীৰৰ মেঘৱাহনে গণপতিৱৰ্মনৰ জীয়ৰী অমৃতপ্ৰভাক বিবাহ কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-036",
+    "q": {
+      "en": "Which Varman king is said to have performed Ashwamedha sacrifices?",
+      "as": "কোন বৰ্মন ৰজাই অশ্বমেধ যজ্ঞ কৰিছিল বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      },
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      },
+      {
+        "en": "Avanti Varman",
+        "as": "অৱন্তী বৰ্মন"
+      },
+      {
+        "en": "Balavarman",
+        "as": "বলৱৰ্মন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Pushyavarman is said to have performed two Ashwamedha sacrifices.",
+      "as": "পুশ্যৱৰ্মনে দুটা অশ্বমেধ যজ্ঞ কৰিছিল বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "ancient-assam-037",
+    "q": {
+      "en": "What was the main court language of the Varman dynasty?",
+      "as": "বৰ্মন বংশৰ প্ৰধান ৰাজসভাৰ ভাষা কি আছিল?"
+    },
+    "options": [
+      {
+        "en": "Sanskrit",
+        "as": "সংস্কৃত"
+      },
+      {
+        "en": "Assamese",
+        "as": "অসমীয়া"
+      },
+      {
+        "en": "Prakrit",
+        "as": "প্ৰাকৃত"
+      },
+      {
+        "en": "Pali",
+        "as": "পালি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sanskrit was the main court and official language under the Varman kings.",
+      "as": "বৰ্মন ৰজাৰ সময়ত সংস্কৃত প্ৰধান ৰাজসভা আৰু চৰকাৰী ভাষা আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-038",
+    "q": {
+      "en": "Which religion was mainly patronized by the Varman kings of Kamarupa?",
+      "as": "কামৰূপৰ বৰ্মন ৰজাসকলে প্ৰধানকৈ কোন ধৰ্মক পৃষ্ঠপোষকতা কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Jainism",
+        "as": "জৈন ধৰ্ম"
+      },
+      {
+        "en": "Buddhism",
+        "as": "বৌদ্ধ ধৰ্ম"
+      },
+      {
+        "en": "Christianity",
+        "as": "খ্ৰীষ্টান ধৰ্ম"
+      },
+      {
+        "en": "Brahmanical Hinduism",
+        "as": "ব্ৰাহ্মণ্য হিন্দু ধৰ্ম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Varman kings mainly patronized Brahmanical Hinduism, especially Shaivism.",
+      "as": "বৰ্মন ৰজাসকলে প্ৰধানকৈ ব্ৰাহ্মণ্য হিন্দু ধৰ্ম, বিশেষকৈ শৈৱ ধৰ্মক পৃষ্ঠপোষকতা কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-039",
+    "q": {
+      "en": "Bhaskarvarman sent an embassy to which country in 643 CE?",
+      "as": "ভাস্কৰৱৰ্মনে ৬৪৩ খ্ৰীষ্টাব্দত কোন দেশলৈ দূত পঠিয়াইছিল?"
+    },
+    "options": [
+      {
+        "en": "China",
+        "as": "চীন"
+      },
+      {
+        "en": "Tibet",
+        "as": "তিব্বত"
+      },
+      {
+        "en": "Sri Lanka",
+        "as": "শ্ৰীলংকা"
+      },
+      {
+        "en": "Nepal",
+        "as": "নেপাল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bhaskarvarman sent an embassy to the Chinese court in 643 CE.",
+      "as": "ভাস্কৰৱৰ্মনে ৬৪৩ খ্ৰীষ্টাব্দত চীনৰ ৰাজসভালৈ দূত পঠিয়াইছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-040",
+    "q": {
+      "en": "In which year did Hiuen Tsang visit Kamarupa?",
+      "as": "হিউয়েন ছাঙে কোন বছৰত কামৰূপ ভ্ৰমণ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "623 CE",
+        "as": "৬২৩ খ্ৰীষ্টাব্দ"
+      },
+      {
+        "en": "643 CE",
+        "as": "৬৪৩ খ্ৰীষ্টাব্দ"
+      },
+      {
+        "en": "663 CE",
+        "as": "৬৬৩ খ্ৰীষ্টাব্দ"
+      },
+      {
+        "en": "603 CE",
+        "as": "৬০৩ খ্ৰীষ্টাব্দ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Hiuen Tsang visited Kamarupa in 643 CE, during Bhaskarvarman's reign.",
+      "as": "হিউয়েন ছাঙে ৬৪৩ খ্ৰীষ্টাব্দত ভাস্কৰৱৰ্মনৰ ৰাজত্বকালত কামৰূপ ভ্ৰমণ কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-041",
+    "q": {
+      "en": "Hiuen Tsang travelled to Kanauj in the company of which king?",
+      "as": "হিউয়েন ছাঙ কোন ৰজাৰ লগত কান্যকুব্জলৈ গৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Salastambha",
+        "as": "শালস্তম্ভ"
+      },
+      {
+        "en": "Brahmapala",
+        "as": "ব্ৰহ্মপাল"
+      },
+      {
+        "en": "Samudragupta",
+        "as": "সমুদ্ৰগুপ্ত"
+      },
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Hiuen Tsang accompanied Bhaskarvarman to the court of Harshavardhana at Kanauj.",
+      "as": "হিউয়েন ছাঙ ভাস্কৰৱৰ্মনৰ লগত কান্যকুব্জত হৰ্ষৱৰ্ধনৰ ৰাজসভালৈ গৈছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-042",
+    "q": {
+      "en": "The Nidhanpur copper plate grant was discovered in an area that now lies in which country?",
+      "as": "নিধনপুৰ তামৰ ফলি এতিয়া কোন দেশত অৱস্থিত অঞ্চলত আৱিষ্কৃত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Bangladesh",
+        "as": "বাংলাদেশ"
+      },
+      {
+        "en": "Bhutan",
+        "as": "ভূটান"
+      },
+      {
+        "en": "Myanmar",
+        "as": "ম্যানমাৰ"
+      },
+      {
+        "en": "Nepal",
+        "as": "নেপাল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Nidhanpur grant was found in Sylhet, now in Bangladesh.",
+      "as": "নিধনপুৰ ফলি ছিলেটত পোৱা গৈছিল, যি এতিয়া বাংলাদেশত।"
+    }
+  },
+  {
+    "id": "ancient-assam-043",
+    "q": {
+      "en": "Salastambha, the founder of the Mlechchha dynasty, originally held what position under the Varmans?",
+      "as": "ম্লেচ্ছ বংশৰ প্ৰতিষ্ঠাপক শালস্তম্ভে বৰ্মনসকলৰ অধীনত মূলতঃ কি পদত আছিল?"
+    },
+    "options": [
+      {
+        "en": "Minister/officer",
+        "as": "মন্ত্ৰী/কৰ্মচাৰী"
+      },
+      {
+        "en": "Merchant",
+        "as": "ব্যৱসায়ী"
+      },
+      {
+        "en": "Chief priest",
+        "as": "প্ৰধান পুৰোহিত"
+      },
+      {
+        "en": "Army general",
+        "as": "সেনাপতি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Salastambha was a minister or high officer who later established his own dynasty.",
+      "as": "শালস্তম্ভ এজন মন্ত্ৰী বা উচ্চ পদস্থ কৰ্মচাৰী আছিল, যিয়ে পিছলৈ নিজৰ বংশ প্ৰতিষ্ঠা কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-044",
+    "q": {
+      "en": "The Mlechchha dynasty is also known by which other name?",
+      "as": "ম্লেচ্ছ বংশ আন কি নামেৰে পৰিচিত?"
+    },
+    "options": [
+      {
+        "en": "Pala dynasty",
+        "as": "পাল বংশ"
+      },
+      {
+        "en": "Varman dynasty",
+        "as": "বৰ্মন বংশ"
+      },
+      {
+        "en": "Salastambha dynasty",
+        "as": "শালস্তম্ভ বংশ"
+      },
+      {
+        "en": "Chutia dynasty",
+        "as": "চুতীয়া বংশ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Mlechchha dynasty is also called the Salastambha dynasty after its founder.",
+      "as": "ম্লেচ্ছ বংশক ইয়াৰ প্ৰতিষ্ঠাপকৰ নামেৰে শালস্তম্ভ বংশও বোলা হয়।"
+    }
+  },
+  {
+    "id": "ancient-assam-045",
+    "q": {
+      "en": "What does the term 'Mlechchha' literally mean?",
+      "as": "'ম্লেচ্ছ' শব্দৰ আক্ষৰিক অৰ্থ কি?"
+    },
+    "options": [
+      {
+        "en": "Priest",
+        "as": "পুৰোহিত"
+      },
+      {
+        "en": "Non-Aryan/foreigner",
+        "as": "অনাৰ্য/বিদেশী"
+      },
+      {
+        "en": "Warrior",
+        "as": "যোদ্ধা"
+      },
+      {
+        "en": "King",
+        "as": "ৰজা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The term 'Mlechchha' generally means non-Aryan or foreigner.",
+      "as": "'ম্লেচ্ছ' শব্দৰ অৰ্থ সাধাৰণতে অনাৰ্য বা বিদেশী।"
+    }
+  },
+  {
+    "id": "ancient-assam-046",
+    "q": {
+      "en": "Which dynasty shifted the capital of Kamarupa from Pragjyotishpura to Haruppeswara?",
+      "as": "কোন বংশই কামৰূপৰ ৰাজধানী প্ৰাগজ্যোতিষপুৰৰ পৰা হৰুপ্পেশ্বৰলৈ স্থানান্তৰ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Koch dynasty",
+        "as": "কোচ বংশ"
+      },
+      {
+        "en": "Mlechchha dynasty",
+        "as": "ম্লেচ্ছ বংশ"
+      },
+      {
+        "en": "Varman dynasty",
+        "as": "বৰ্মন বংশ"
+      },
+      {
+        "en": "Pala dynasty",
+        "as": "পাল বংশ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Mlechchha dynasty shifted the capital from Pragjyotishpura to Haruppeswara.",
+      "as": "ম্লেচ্ছ বংশই ৰাজধানী প্ৰাগজ্যোতিষপুৰৰ পৰা হৰুপ্পেশ্বৰলৈ স্থানান্তৰ কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-047",
+    "q": {
+      "en": "The ancient Da Parbatia temple is located near which town?",
+      "as": "প্ৰাচীন দ-পৰ্বতীয়া মন্দিৰ কোন নগৰৰ ওচৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Da Parbatia temple is located near Tezpur in Sonitpur district.",
+      "as": "দ-পৰ্বতীয়া মন্দিৰ সোণিতপুৰ জিলাৰ তেজপুৰৰ ওচৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "ancient-assam-048",
+    "q": {
+      "en": "The architecture of the Da Parbatia temple belongs to which style?",
+      "as": "দ-পৰ্বতীয়া মন্দিৰৰ স্থাপত্য কোন শৈলীৰ?"
+    },
+    "options": [
+      {
+        "en": "Gupta style",
+        "as": "গুপ্ত শৈলী"
+      },
+      {
+        "en": "Mughal style",
+        "as": "মোগল শৈলী"
+      },
+      {
+        "en": "Dravidian style",
+        "as": "দ্ৰাবিড় শৈলী"
+      },
+      {
+        "en": "Ahom style",
+        "as": "আহোম শৈলী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Da Parbatia temple is an example of early Gupta-style architecture in Assam.",
+      "as": "দ-পৰ্বতীয়া মন্দিৰ অসমত প্ৰাৰম্ভিক গুপ্ত শৈলীৰ স্থাপত্যৰ উদাহৰণ।"
+    }
+  },
+  {
+    "id": "ancient-assam-049",
+    "q": {
+      "en": "The archaeological site of Ambari is located in which city?",
+      "as": "আমবাৰী প্ৰত্নতাত্ত্বিক স্থান কোন চহৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Ambari archaeological site is located in Guwahati and shows ancient settlement.",
+      "as": "আমবাৰী প্ৰত্নতাত্ত্বিক স্থান গুৱাহাটীত অৱস্থিত আৰু ই প্ৰাচীন জনবসতিৰ প্ৰমাণ দিয়ে।"
+    }
+  },
+  {
+    "id": "ancient-assam-050",
+    "q": {
+      "en": "The ancient kingdom of Davaka is generally identified with which present-day district?",
+      "as": "প্ৰাচীন দৱাক ৰাজ্যক সাধাৰণতে বৰ্তমানৰ কোন জিলাৰ সৈতে চিনাক্ত কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Goalpara",
+        "as": "গোৱালপাৰা"
+      },
+      {
+        "en": "Nagaon (Dabaka)",
+        "as": "নগাঁও (দবকা)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Davaka is generally identified with the Dabaka region in present-day Nagaon district.",
+      "as": "দৱাকক সাধাৰণতে বৰ্তমান নগাঁও জিলাৰ দবকা অঞ্চলৰ সৈতে চিনাক্ত কৰা হয়।"
+    }
+  },
+  {
+    "id": "ancient-assam-051",
+    "q": {
+      "en": "The name 'Pragjyotisha' is often interpreted to mean what?",
+      "as": "'প্ৰাগজ্যোতিষ' নামৰ অৰ্থ সাধাৰণতে কি বুলি ব্যাখ্যা কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Land of tea",
+        "as": "চাহৰ দেশ"
+      },
+      {
+        "en": "Land of rivers",
+        "as": "নদীৰ দেশ"
+      },
+      {
+        "en": "City of eastern light/astrology",
+        "as": "পূবৰ জ্যোতি/জ্যোতিষৰ নগৰ"
+      },
+      {
+        "en": "Land of elephants",
+        "as": "হাতীৰ দেশ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Pragjyotisha means 'city of eastern light' or 'city of astrology'.",
+      "as": "প্ৰাগজ্যোতিষৰ অৰ্থ 'পূবৰ জ্যোতিৰ নগৰ' বা 'জ্যোতিষৰ নগৰ'।"
+    }
+  },
+  {
+    "id": "ancient-assam-052",
+    "q": {
+      "en": "According to tradition, Kamarupa derived its name from which deity?",
+      "as": "পৰম্পৰা অনুসৰি কামৰূপৰ নাম কোন দেৱতাৰ পৰা আহিছে?"
+    },
+    "options": [
+      {
+        "en": "Kama (Kamadeva)",
+        "as": "কাম (কামদেৱ)"
+      },
+      {
+        "en": "Shiva",
+        "as": "শিৱ"
+      },
+      {
+        "en": "Indra",
+        "as": "ইন্দ্ৰ"
+      },
+      {
+        "en": "Krishna",
+        "as": "কৃষ্ণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kamarupa is traditionally believed to be named after Kama (Kamadeva).",
+      "as": "পৰম্পৰাগত বিশ্বাস অনুসৰি কামৰূপৰ নাম কাম (কামদেৱ)ৰ পৰা আহিছে।"
+    }
+  },
+  {
+    "id": "ancient-assam-053",
+    "q": {
+      "en": "According to mythology, Kamadeva was burnt to ashes by which god?",
+      "as": "পৌৰাণিক কাহিনী অনুসৰি কামদেৱক কোন দেৱতাই ভস্ম কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Shiva",
+        "as": "শিৱ"
+      },
+      {
+        "en": "Vishnu",
+        "as": "বিষ্ণু"
+      },
+      {
+        "en": "Indra",
+        "as": "ইন্দ্ৰ"
+      },
+      {
+        "en": "Brahma",
+        "as": "ব্ৰহ্মা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kamadeva was burnt to ashes by the anger of Lord Shiva.",
+      "as": "কামদেৱক ভগৱান শিৱৰ ক্ৰোধত ভস্ম কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-054",
+    "q": {
+      "en": "According to tradition, in which region did Kamadeva regain his form?",
+      "as": "পৰম্পৰা অনুসৰি কামদেৱে কোন অঞ্চলত পুনৰ ৰূপ লাভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Magadha",
+        "as": "মগধ"
+      },
+      {
+        "en": "Kamarupa",
+        "as": "কামৰূপ"
+      },
+      {
+        "en": "Kashmir",
+        "as": "কাশ্মীৰ"
+      },
+      {
+        "en": "Kalinga",
+        "as": "কলিঙ্গ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Tradition holds that Kamadeva regained his form in Kamarupa, giving the region its name.",
+      "as": "পৰম্পৰা অনুসৰি কামদেৱে কামৰূপত পুনৰ ৰূপ লাভ কৰিছিল, যাৰ পৰাই অঞ্চলটোৰ নাম হয়।"
+    }
+  },
+  {
+    "id": "ancient-assam-055",
+    "q": {
+      "en": "Who is generally regarded as the first historical king of Kamarupa?",
+      "as": "কামৰূপৰ প্ৰথম ঐতিহাসিক ৰজা হিচাপে সাধাৰণতে কাক গণ্য কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      },
+      {
+        "en": "Naraka",
+        "as": "নৰক"
+      },
+      {
+        "en": "Bhagadatta",
+        "as": "ভগদত্ত"
+      },
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Pushyavarman is generally regarded as the first historical king of Kamarupa.",
+      "as": "পুশ্যৱৰ্মনক কামৰূপৰ প্ৰথম ঐতিহাসিক ৰজা হিচাপে গণ্য কৰা হয়।"
+    }
+  },
+  {
+    "id": "ancient-assam-056",
+    "q": {
+      "en": "Who was the father of Bhaskarvarman?",
+      "as": "ভাস্কৰৱৰ্মনৰ পিতৃ কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Balavarman",
+        "as": "বলৱৰ্মন"
+      },
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      },
+      {
+        "en": "Susthitavarman",
+        "as": "সুস্থিতৱৰ্মন"
+      },
+      {
+        "en": "Samudravarman",
+        "as": "সমুদ্ৰৱৰ্মন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bhaskarvarman was the son of Susthitavarman.",
+      "as": "ভাস্কৰৱৰ্মন সুস্থিতৱৰ্মনৰ পুত্ৰ আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-057",
+    "q": {
+      "en": "Who was the elder brother of Bhaskarvarman?",
+      "as": "ভাস্কৰৱৰ্মনৰ জ্যেষ্ঠ ভাতৃ কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Supratisthitavarman",
+        "as": "সুপ্ৰতিষ্ঠিতৱৰ্মন"
+      },
+      {
+        "en": "Sthitavarman",
+        "as": "স্থিতৱৰ্মন"
+      },
+      {
+        "en": "Chandramukhavarman",
+        "as": "চন্দ্ৰমুখৱৰ্মন"
+      },
+      {
+        "en": "Bhutivarman",
+        "as": "ভূতিৱৰ্মন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Supratisthitavarman was the elder brother of Bhaskarvarman.",
+      "as": "সুপ্ৰতিষ্ঠিতৱৰ্মন ভাস্কৰৱৰ্মনৰ জ্যেষ্ঠ ভাতৃ আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-058",
+    "q": {
+      "en": "The Varman kings claimed descent from which legendary king?",
+      "as": "বৰ্মন ৰজাসকলে কোন কিংবদন্তিমূলক ৰজাৰ বংশধৰ বুলি দাবী কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Naraka",
+        "as": "নৰক"
+      },
+      {
+        "en": "Banasura",
+        "as": "বাণাসুৰ"
+      },
+      {
+        "en": "Ravana",
+        "as": "ৰাৱণ"
+      },
+      {
+        "en": "Jarasandha",
+        "as": "জৰাসন্ধ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Varman kings traced their descent from the legendary Naraka.",
+      "as": "বৰ্মন ৰজাসকলে নিজকে কিংবদন্তিমূলক নৰকৰ বংশধৰ বুলি কৈছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-059",
+    "q": {
+      "en": "According to Hiuen Tsang, the king of Kamarupa belonged to which caste?",
+      "as": "হিউয়েন ছাঙৰ মতে কামৰূপৰ ৰজা কোন জাতিৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Shudra",
+        "as": "শূদ্ৰ"
+      },
+      {
+        "en": "Vaishya",
+        "as": "বৈশ্য"
+      },
+      {
+        "en": "Kshatriya",
+        "as": "ক্ষত্ৰিয়"
+      },
+      {
+        "en": "Brahmin",
+        "as": "ব্ৰাহ্মণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hiuen Tsang described the king of Kamarupa as a Kshatriya by caste.",
+      "as": "হিউয়েন ছাঙে কামৰূপৰ ৰজাক ক্ষত্ৰিয় জাতিৰ বুলি বৰ্ণনা কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-060",
+    "q": {
+      "en": "Hiuen Tsang praised the Kamarupa king as a lover of what?",
+      "as": "হিউয়েন ছাঙে কামৰূপৰ ৰজাক কিৰ প্ৰেমিক বুলি প্ৰশংসা কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Wealth",
+        "as": "ধন"
+      },
+      {
+        "en": "Hunting",
+        "as": "চিকাৰ"
+      },
+      {
+        "en": "Learning",
+        "as": "জ্ঞান/শিক্ষা"
+      },
+      {
+        "en": "War",
+        "as": "যুদ্ধ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hiuen Tsang praised the Kamarupa king as a lover of learning and scholars.",
+      "as": "হিউয়েন ছাঙে কামৰূপৰ ৰজাক জ্ঞান আৰু পণ্ডিতসকলৰ প্ৰেমিক বুলি প্ৰশংসা কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-061",
+    "q": {
+      "en": "Hiuen Tsang described Kamarupa as a country about how many li in circuit?",
+      "as": "হিউয়েন ছাঙে কামৰূপক প্ৰায় কিমান লি পৰিধিৰ দেশ বুলি বৰ্ণনা কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "About 10,000 li",
+        "as": "প্ৰায় ১০,০০০ লি"
+      },
+      {
+        "en": "About 50,000 li",
+        "as": "প্ৰায় ৫০,০০০ লি"
+      },
+      {
+        "en": "About 500 li",
+        "as": "প্ৰায় ৫০০ লি"
+      },
+      {
+        "en": "About 1,000 li",
+        "as": "প্ৰায় ১,০০০ লি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Hiuen Tsang described Kamarupa as a country about 10,000 li in circuit.",
+      "as": "হিউয়েন ছাঙে কামৰূপক প্ৰায় ১০,০০০ লি পৰিধিৰ দেশ বুলি বৰ্ণনা কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-062",
+    "q": {
+      "en": "Which Chinese traveller gave a detailed account of Kamarupa in the 7th century?",
+      "as": "সপ্তম শতিকাত কোন চীনা পৰিব্ৰাজকে কামৰূপৰ সবিশেষ বিৱৰণ দিছিল?"
+    },
+    "options": [
+      {
+        "en": "Fa-Hien",
+        "as": "ফা-হিয়েন"
+      },
+      {
+        "en": "Hiuen Tsang",
+        "as": "হিউয়েন ছাঙ"
+      },
+      {
+        "en": "I-tsing",
+        "as": "ই-তছিং"
+      },
+      {
+        "en": "Megasthenes",
+        "as": "মেগাস্থিনিছ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Hiuen Tsang, the Chinese traveller, gave a detailed account of Kamarupa in the 7th century.",
+      "as": "চীনা পৰিব্ৰাজক হিউয়েন ছাঙে সপ্তম শতিকাত কামৰূপৰ সবিশেষ বিৱৰণ দিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-063",
+    "q": {
+      "en": "Bhaskarvarman is known to have supported which famous centre of learning?",
+      "as": "ভাস্কৰৱৰ্মনে কোন প্ৰসিদ্ধ শিক্ষাকেন্দ্ৰক সমৰ্থন কৰিছিল বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Vikramashila",
+        "as": "বিক্ৰমশীলা"
+      },
+      {
+        "en": "Taxila",
+        "as": "তক্ষশীলা"
+      },
+      {
+        "en": "Nalanda",
+        "as": "নালন্দা"
+      },
+      {
+        "en": "Kanchipuram",
+        "as": "কাঞ্চীপুৰম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bhaskarvarman was a patron and supporter of the great monastic university of Nalanda.",
+      "as": "ভাস্কৰৱৰ্মন মহান শিক্ষাকেন্দ্ৰ নালন্দাৰ পৃষ্ঠপোষক আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-064",
+    "q": {
+      "en": "Bhaskarvarman and Harshavardhana shared which kind of relationship?",
+      "as": "ভাস্কৰৱৰ্মন আৰু হৰ্ষৱৰ্ধনৰ মাজত কি ধৰণৰ সম্পৰ্ক আছিল?"
+    },
+    "options": [
+      {
+        "en": "Teacher and student",
+        "as": "শিক্ষক-শিষ্য"
+      },
+      {
+        "en": "Enemies",
+        "as": "শত্ৰু"
+      },
+      {
+        "en": "Father and son",
+        "as": "পিতৃ-পুত্ৰ"
+      },
+      {
+        "en": "Allies/friends",
+        "as": "মিত্ৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bhaskarvarman and Harshavardhana were political allies and friends.",
+      "as": "ভাস্কৰৱৰ্মন আৰু হৰ্ষৱৰ্ধন ৰাজনৈতিক মিত্ৰ আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-065",
+    "q": {
+      "en": "Sasanka, an adversary of Harshavardhana, was the king of which region?",
+      "as": "হৰ্ষৱৰ্ধনৰ শত্ৰু শশাংক কোন অঞ্চলৰ ৰজা আছিল?"
+    },
+    "options": [
+      {
+        "en": "Nepal",
+        "as": "নেপাল"
+      },
+      {
+        "en": "Kashmir",
+        "as": "কাশ্মীৰ"
+      },
+      {
+        "en": "Gauda (Bengal)",
+        "as": "গৌড় (বংগ)"
+      },
+      {
+        "en": "Kamarupa",
+        "as": "কামৰূপ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sasanka was the king of Gauda in Bengal.",
+      "as": "শশাংক বংগৰ গৌড়ৰ ৰজা আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-066",
+    "q": {
+      "en": "Sasanka is believed to have killed which brother of Harshavardhana?",
+      "as": "শশাংকে হৰ্ষৱৰ্ধনৰ কোন ভাতৃক হত্যা কৰিছিল বুলি বিশ্বাস কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Rajyavardhana",
+        "as": "ৰাজ্যৱৰ্ধন"
+      },
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      },
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      },
+      {
+        "en": "Susthitavarman",
+        "as": "সুস্থিতৱৰ্মন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sasanka is believed to have killed Rajyavardhana, the brother of Harshavardhana.",
+      "as": "শশাংকে হৰ্ষৱৰ্ধনৰ ভাতৃ ৰাজ্যৱৰ্ধনক হত্যা কৰিছিল বুলি বিশ্বাস কৰা হয়।"
+    }
+  },
+  {
+    "id": "ancient-assam-067",
+    "q": {
+      "en": "Harshavardhana was the ruler of which kingdom?",
+      "as": "হৰ্ষৱৰ্ধন কোন ৰাজ্যৰ শাসক আছিল?"
+    },
+    "options": [
+      {
+        "en": "Kanauj",
+        "as": "কান্যকুব্জ"
+      },
+      {
+        "en": "Gauda",
+        "as": "গৌড়"
+      },
+      {
+        "en": "Kamarupa",
+        "as": "কামৰূপ"
+      },
+      {
+        "en": "Magadha",
+        "as": "মগধ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Harshavardhana ruled the kingdom of Kanauj (Thanesar) in northern India.",
+      "as": "হৰ্ষৱৰ্ধনে উত্তৰ ভাৰতৰ কান্যকুব্জ (থানেশ্বৰ) ৰাজ্য শাসন কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-068",
+    "q": {
+      "en": "The Nidhanpur grant of Bhaskarvarman records the grant of land to whom?",
+      "as": "ভাস্কৰৱৰ্মনৰ নিধনপুৰ ফলিত কাক ভূমি দান কৰাৰ উল্লেখ আছে?"
+    },
+    "options": [
+      {
+        "en": "Artists",
+        "as": "শিল্পী"
+      },
+      {
+        "en": "Brahmanas",
+        "as": "ব্ৰাহ্মণ"
+      },
+      {
+        "en": "Soldiers",
+        "as": "সৈনিক"
+      },
+      {
+        "en": "Merchants",
+        "as": "ব্যৱসায়ী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Nidhanpur grant records the grant of land to Brahmanas.",
+      "as": "নিধনপুৰ ফলিত ব্ৰাহ্মণসকলক ভূমি দান কৰাৰ উল্লেখ আছে।"
+    }
+  },
+  {
+    "id": "ancient-assam-069",
+    "q": {
+      "en": "Which material was commonly used for royal land grants in ancient Kamarupa?",
+      "as": "প্ৰাচীন কামৰূপত ৰাজকীয় ভূমি দানৰ বাবে সাধাৰণতে কি ব্যৱহাৰ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Copper plates",
+        "as": "তামৰ ফলি"
+      },
+      {
+        "en": "Birch bark",
+        "as": "ভূৰ্জপত্ৰ"
+      },
+      {
+        "en": "Stone tablets",
+        "as": "শিলৰ ফলি"
+      },
+      {
+        "en": "Palm leaves",
+        "as": "তালপাত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Royal land grants in ancient Kamarupa were commonly recorded on copper plates.",
+      "as": "প্ৰাচীন কামৰূপত ৰাজকীয় ভূমি দান সাধাৰণতে তামৰ ফলিত লিপিবদ্ধ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-070",
+    "q": {
+      "en": "The land granted by the Nidhanpur copper plates was located in which region?",
+      "as": "নিধনপুৰ তামৰ ফলিৰে দান কৰা ভূমি কোন অঞ্চলত আছিল?"
+    },
+    "options": [
+      {
+        "en": "Sylhet",
+        "as": "ছিলেট"
+      },
+      {
+        "en": "Goalpara",
+        "as": "গোৱালপাৰা"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The land granted by the Nidhanpur copper plates was located in the Sylhet region.",
+      "as": "নিধনপুৰ তামৰ ফলিৰে দান কৰা ভূমি ছিলেট অঞ্চলত আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-071",
+    "q": {
+      "en": "Which script was used in the Umachal rock inscription?",
+      "as": "উমাচল শিলালিপিত কোন লিপি ব্যৱহাৰ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Devanagari",
+        "as": "দেৱনাগৰী"
+      },
+      {
+        "en": "Brahmi",
+        "as": "ব্ৰাহ্মী"
+      },
+      {
+        "en": "Kharosthi",
+        "as": "খৰোষ্ঠী"
+      },
+      {
+        "en": "Arabic",
+        "as": "আৰবিক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Umachal rock inscription is written in the Brahmi script.",
+      "as": "উমাচল শিলালিপি ব্ৰাহ্মী লিপিত লিখা হৈছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-072",
+    "q": {
+      "en": "The early Kamarupi script later developed into which modern script?",
+      "as": "প্ৰাৰম্ভিক কামৰূপী লিপি পিছলৈ কোন আধুনিক লিপিলৈ বিকশিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Tamil",
+        "as": "তামিল"
+      },
+      {
+        "en": "Bengali only",
+        "as": "কেৱল বঙালী"
+      },
+      {
+        "en": "Devnagari",
+        "as": "দেৱনাগৰী"
+      },
+      {
+        "en": "Assamese",
+        "as": "অসমীয়া"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The early Kamarupi script developed into the modern Assamese script.",
+      "as": "প্ৰাৰম্ভিক কামৰূপী লিপি আধুনিক অসমীয়া লিপিলৈ বিকশিত হৈছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-073",
+    "q": {
+      "en": "Which major river flows near the ancient capital Pragjyotishpura?",
+      "as": "প্ৰাচীন ৰাজধানী প্ৰাগজ্যোতিষপুৰৰ ওচৰেৰে কোন প্ৰধান নদী বৈ গৈছে?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      },
+      {
+        "en": "Ganga",
+        "as": "গঙ্গা"
+      },
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra river flows near Pragjyotishpura, the present-day Guwahati.",
+      "as": "ব্ৰহ্মপুত্ৰ নদী প্ৰাগজ্যোতিষপুৰ, অৰ্থাৎ বৰ্তমান গুৱাহাটীৰ ওচৰেৰে বৈ গৈছে।"
+    }
+  },
+  {
+    "id": "ancient-assam-074",
+    "q": {
+      "en": "What was the western boundary of ancient Kamarupa?",
+      "as": "প্ৰাচীন কামৰূপৰ পশ্চিম সীমা কি আছিল?"
+    },
+    "options": [
+      {
+        "en": "Dihang river",
+        "as": "দিহাং নদী"
+      },
+      {
+        "en": "Ganga river",
+        "as": "গঙ্গা নদী"
+      },
+      {
+        "en": "Karatoya river",
+        "as": "কৰতোয়া নদী"
+      },
+      {
+        "en": "Brahmaputra river",
+        "as": "ব্ৰহ্মপুত্ৰ নদী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Karatoya river formed the western boundary of ancient Kamarupa.",
+      "as": "কৰতোয়া নদীয়ে প্ৰাচীন কামৰূপৰ পশ্চিম সীমা গঠন কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-075",
+    "q": {
+      "en": "The northern boundary of ancient Kamarupa was formed by which mountain range?",
+      "as": "প্ৰাচীন কামৰূপৰ উত্তৰ সীমা কোন পৰ্বতমালাই গঠন কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Vindhyas",
+        "as": "বিন্ধ্য"
+      },
+      {
+        "en": "Aravallis",
+        "as": "অৰাবল্লী"
+      },
+      {
+        "en": "Himalayas",
+        "as": "হিমালয়"
+      },
+      {
+        "en": "Satpuras",
+        "as": "সৎপুৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Himalayas formed the northern boundary of ancient Kamarupa.",
+      "as": "হিমালয়ে প্ৰাচীন কামৰূপৰ উত্তৰ সীমা গঠন কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-076",
+    "q": {
+      "en": "Ancient Kamarupa roughly comprised which modern areas?",
+      "as": "প্ৰাচীন কামৰূপে প্ৰায় কোনবোৰ আধুনিক অঞ্চল সামৰি লৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Assam and parts of Bengal, Bhutan and Bangladesh",
+        "as": "অসম আৰু বংগ, ভূটান, বাংলাদেশৰ অংশ"
+      },
+      {
+        "en": "Only Guwahati",
+        "as": "কেৱল গুৱাহাটী"
+      },
+      {
+        "en": "Only Nagaon",
+        "as": "কেৱল নগাঁও"
+      },
+      {
+        "en": "Only Tezpur",
+        "as": "কেৱল তেজপুৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ancient Kamarupa included present-day Assam and parts of Bengal, Bhutan and Bangladesh.",
+      "as": "প্ৰাচীন কামৰূপত বৰ্তমানৰ অসম আৰু বংগ, ভূটান, বাংলাদেশৰ অংশ আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-077",
+    "q": {
+      "en": "Which famous product of ancient Kamarupa was highly valued?",
+      "as": "প্ৰাচীন কামৰূপৰ কোন প্ৰসিদ্ধ সামগ্ৰী অতি মূল্যৱান আছিল?"
+    },
+    "options": [
+      {
+        "en": "Rubber",
+        "as": "ৰবৰ"
+      },
+      {
+        "en": "Diamond",
+        "as": "হীৰা"
+      },
+      {
+        "en": "Coffee",
+        "as": "কফি"
+      },
+      {
+        "en": "Silk",
+        "as": "ৰেচম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Silk, including the famous Muga silk, was a highly valued product of ancient Kamarupa.",
+      "as": "প্ৰসিদ্ধ মুগা ৰেচমকে ধৰি ৰেচম আছিল প্ৰাচীন কামৰূপৰ অতি মূল্যৱান সামগ্ৰী।"
+    }
+  },
+  {
+    "id": "ancient-assam-078",
+    "q": {
+      "en": "Along with silk, which other product was exported from ancient Kamarupa?",
+      "as": "ৰেচমৰ লগতে প্ৰাচীন কামৰূপৰ পৰা আন কি সামগ্ৰী ৰপ্তানি হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Coffee",
+        "as": "কফি"
+      },
+      {
+        "en": "Ivory",
+        "as": "হাতীদাঁত"
+      },
+      {
+        "en": "Wheat",
+        "as": "গম"
+      },
+      {
+        "en": "Cotton",
+        "as": "কাপাহ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Silk and ivory were among the valued exports of ancient Kamarupa.",
+      "as": "ৰেচম আৰু হাতীদাঁত প্ৰাচীন কামৰূপৰ মূল্যৱান ৰপ্তানি সামগ্ৰী আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-079",
+    "q": {
+      "en": "The practice of rearing silkworms, known in ancient Kamarupa, is called what?",
+      "as": "প্ৰাচীন কামৰূপত প্ৰচলিত ৰেচম পোকা পোহাৰ কামক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Pisciculture",
+        "as": "মৎস্যপালন"
+      },
+      {
+        "en": "Sericulture",
+        "as": "ৰেচমপালন"
+      },
+      {
+        "en": "Horticulture",
+        "as": "উদ্যানপালন"
+      },
+      {
+        "en": "Agriculture",
+        "as": "কৃষি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The rearing of silkworms is called sericulture, widely practised in ancient Kamarupa.",
+      "as": "ৰেচম পোকা পোহাক ৰেচমপালন বোলা হয়, যি প্ৰাচীন কামৰূপত বিস্তৃত আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-080",
+    "q": {
+      "en": "Which metal was notably used in ancient Assam for making weapons and tools?",
+      "as": "প্ৰাচীন অসমত অস্ত্ৰ-শস্ত্ৰ আৰু সঁজুলি তৈয়াৰত কোন ধাতু বিশেষভাৱে ব্যৱহৃত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Gold",
+        "as": "সোণ"
+      },
+      {
+        "en": "Platinum",
+        "as": "প্লেটিনাম"
+      },
+      {
+        "en": "Iron",
+        "as": "লো"
+      },
+      {
+        "en": "Silver",
+        "as": "ৰূপ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Iron was notably used in ancient Assam for making weapons and tools.",
+      "as": "প্ৰাচীন অসমত অস্ত্ৰ-শস্ত্ৰ আৰু সঁজুলি তৈয়াৰত লো বিশেষভাৱে ব্যৱহৃত হৈছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-081",
+    "q": {
+      "en": "The performance of Ashwamedha sacrifices by Pushyavarman indicates the influence of which tradition?",
+      "as": "পুশ্যৱৰ্মনৰ অশ্বমেধ যজ্ঞই কোন পৰম্পৰাৰ প্ৰভাৱ সূচায়?"
+    },
+    "options": [
+      {
+        "en": "Vedic/Brahmanical",
+        "as": "বৈদিক/ব্ৰাহ্মণ্য"
+      },
+      {
+        "en": "Buddhist",
+        "as": "বৌদ্ধ"
+      },
+      {
+        "en": "Tribal",
+        "as": "জনজাতীয়"
+      },
+      {
+        "en": "Jain",
+        "as": "জৈন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Ashwamedha sacrifice indicates the influence of the Vedic/Brahmanical tradition.",
+      "as": "অশ্বমেধ যজ্ঞই বৈদিক/ব্ৰাহ্মণ্য পৰম্পৰাৰ প্ৰভাৱ সূচায়।"
+    }
+  },
+  {
+    "id": "ancient-assam-082",
+    "q": {
+      "en": "Which title, meaning 'great king of kings', was used by the Varman rulers?",
+      "as": "'মহাৰাজসকলৰ মহাৰাজ' অৰ্থবোধক কোন উপাধি বৰ্মন শাসকসকলে ব্যৱহাৰ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Samrat",
+        "as": "সম্ৰাট"
+      },
+      {
+        "en": "Raja",
+        "as": "ৰজা"
+      },
+      {
+        "en": "Chakravarti",
+        "as": "চক্ৰৱৰ্তী"
+      },
+      {
+        "en": "Maharajadhiraja",
+        "as": "মহাৰাজাধিৰাজ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Varman rulers used the title Maharajadhiraja, meaning great king of kings.",
+      "as": "বৰ্মন শাসকসকলে মহাৰাজাধিৰাজ উপাধি ব্যৱহাৰ কৰিছিল, যাৰ অৰ্থ মহাৰাজসকলৰ মহাৰাজ।"
+    }
+  },
+  {
+    "id": "ancient-assam-083",
+    "q": {
+      "en": "Who succeeded Pushyavarman as the ruler of Kamarupa?",
+      "as": "পুশ্যৱৰ্মনৰ পিছত কামৰূপৰ ৰজা হিচাপে কোনে উত্তৰাধিকাৰী হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      },
+      {
+        "en": "Samudravarman",
+        "as": "সমুদ্ৰৱৰ্মন"
+      },
+      {
+        "en": "Balavarman",
+        "as": "বলৱৰ্মন"
+      },
+      {
+        "en": "Kalyanavarman",
+        "as": "কল্যাণৱৰ্মন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Samudravarman succeeded his father Pushyavarman as king of Kamarupa.",
+      "as": "সমুদ্ৰৱৰ্মনে পিতৃ পুশ্যৱৰ্মনৰ পিছত কামৰূপৰ ৰজা হৈছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-084",
+    "q": {
+      "en": "Which of the following was a ruler of the Varman dynasty?",
+      "as": "তলৰ কোনজন বৰ্মন বংশৰ ৰজা আছিল?"
+    },
+    "options": [
+      {
+        "en": "Tyagasimha",
+        "as": "ত্যাগসিংহ"
+      },
+      {
+        "en": "Kalyanavarman",
+        "as": "কল্যাণৱৰ্মন"
+      },
+      {
+        "en": "Salastambha",
+        "as": "শালস্তম্ভ"
+      },
+      {
+        "en": "Brahmapala",
+        "as": "ব্ৰহ্মপাল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kalyanavarman was a ruler of the Varman dynasty.",
+      "as": "কল্যাণৱৰ্মন বৰ্মন বংশৰ এজন ৰজা আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-085",
+    "q": {
+      "en": "Which of the following kings belonged to the Mlechchha dynasty?",
+      "as": "তলৰ কোনজন ৰজা ম্লেচ্ছ বংশৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Brahmapala",
+        "as": "ব্ৰহ্মপাল"
+      },
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      },
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      },
+      {
+        "en": "Tyagasimha",
+        "as": "ত্যাগসিংহ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Tyagasimha was a ruler of the Mlechchha dynasty.",
+      "as": "ত্যাগসিংহ ম্লেচ্ছ বংশৰ এজন ৰজা আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-086",
+    "q": {
+      "en": "Which dynasty ruled Kamarupa immediately after the Varmans?",
+      "as": "বৰ্মনসকলৰ ঠিক পিছত কোন বংশই কামৰূপ শাসন কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Mlechchha",
+        "as": "ম্লেচ্ছ"
+      },
+      {
+        "en": "Varman",
+        "as": "বৰ্মন"
+      },
+      {
+        "en": "Koch",
+        "as": "কোচ"
+      },
+      {
+        "en": "Pala",
+        "as": "পাল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Mlechchha dynasty ruled Kamarupa immediately after the Varmans.",
+      "as": "বৰ্মনসকলৰ ঠিক পিছত ম্লেচ্ছ বংশই কামৰূপ শাসন কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-087",
+    "q": {
+      "en": "Which dynasty ruled Kamarupa after the Mlechchhas?",
+      "as": "ম্লেচ্ছসকলৰ পিছত কোন বংশই কামৰূপ শাসন কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Chutia",
+        "as": "চুতীয়া"
+      },
+      {
+        "en": "Varman",
+        "as": "বৰ্মন"
+      },
+      {
+        "en": "Koch",
+        "as": "কোচ"
+      },
+      {
+        "en": "Pala",
+        "as": "পাল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Pala dynasty ruled Kamarupa after the Mlechchhas.",
+      "as": "ম্লেচ্ছসকলৰ পিছত পাল বংশই কামৰূপ শাসন কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-088",
+    "q": {
+      "en": "Around which year did Brahmapala found the Pala dynasty of Kamarupa?",
+      "as": "ব্ৰহ্মপালে প্ৰায় কোন বছৰত কামৰূপৰ পাল বংশ প্ৰতিষ্ঠা কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "1200 CE",
+        "as": "১২০০ খ্ৰীষ্টাব্দ"
+      },
+      {
+        "en": "350 CE",
+        "as": "৩৫০ খ্ৰীষ্টাব্দ"
+      },
+      {
+        "en": "650 CE",
+        "as": "৬৫০ খ্ৰীষ্টাব্দ"
+      },
+      {
+        "en": "900 CE",
+        "as": "৯০০ খ্ৰীষ্টাব্দ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Brahmapala founded the Pala dynasty of Kamarupa around 900 CE.",
+      "as": "ব্ৰহ্মপালে প্ৰায় ৯০০ খ্ৰীষ্টাব্দত কামৰূপৰ পাল বংশ প্ৰতিষ্ঠা কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-089",
+    "q": {
+      "en": "The Pala dynasty of Kamarupa is distinct from the Pala dynasty of which region?",
+      "as": "কামৰূপৰ পাল বংশ কোন অঞ্চলৰ পাল বংশৰ পৰা পৃথক?"
+    },
+    "options": [
+      {
+        "en": "Odisha",
+        "as": "ওড়িশা"
+      },
+      {
+        "en": "Kashmir",
+        "as": "কাশ্মীৰ"
+      },
+      {
+        "en": "Nepal",
+        "as": "নেপাল"
+      },
+      {
+        "en": "Bengal",
+        "as": "বংগ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Pala dynasty of Kamarupa is distinct from the better-known Pala dynasty of Bengal.",
+      "as": "কামৰূপৰ পাল বংশ প্ৰসিদ্ধ বংগৰ পাল বংশৰ পৰা পৃথক।"
+    }
+  },
+  {
+    "id": "ancient-assam-090",
+    "q": {
+      "en": "Which of the following was a ruler of the Kamarupa Pala dynasty?",
+      "as": "তলৰ কোনজন কামৰূপ পাল বংশৰ ৰজা আছিল?"
+    },
+    "options": [
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      },
+      {
+        "en": "Salastambha",
+        "as": "শালস্তম্ভ"
+      },
+      {
+        "en": "Ramapala",
+        "as": "ৰামপাল"
+      },
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ramapala was a ruler of the Kamarupa Pala dynasty.",
+      "as": "ৰামপাল কামৰূপ পাল বংশৰ এজন ৰজা আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-091",
+    "q": {
+      "en": "In the Mahabharata, which of the following was a king of Pragjyotisha?",
+      "as": "মহাভাৰতত তলৰ কোনজন প্ৰাগজ্যোতিষৰ ৰজা আছিল?"
+    },
+    "options": [
+      {
+        "en": "Bhagadatta",
+        "as": "ভগদত্ত"
+      },
+      {
+        "en": "Vajradatta",
+        "as": "বজ্ৰদত্ত"
+      },
+      {
+        "en": "Duryodhana",
+        "as": "দুৰ্যোধন"
+      },
+      {
+        "en": "Banasura",
+        "as": "বাণাসুৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bhagadatta was the king of Pragjyotisha in the Mahabharata.",
+      "as": "ভগদত্ত মহাভাৰতত প্ৰাগজ্যোতিষৰ ৰজা আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-092",
+    "q": {
+      "en": "King Bhagadatta of Pragjyotisha was especially famous for his what?",
+      "as": "প্ৰাগজ্যোতিষৰ ৰজা ভগদত্ত বিশেষভাৱে কাৰ বাবে বিখ্যাত আছিল?"
+    },
+    "options": [
+      {
+        "en": "Cavalry",
+        "as": "অশ্বাৰোহী সেনা"
+      },
+      {
+        "en": "Chariots",
+        "as": "ৰথ"
+      },
+      {
+        "en": "Navy",
+        "as": "নৌসেনা"
+      },
+      {
+        "en": "Elephant army",
+        "as": "হাতী সেনা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bhagadatta was famous for his powerful elephant army.",
+      "as": "ভগদত্ত নিজৰ শক্তিশালী হাতী সেনাৰ বাবে বিখ্যাত আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-093",
+    "q": {
+      "en": "What was the name of the famous elephant of Bhagadatta?",
+      "as": "ভগদত্তৰ প্ৰসিদ্ধ হাতীটোৰ নাম কি আছিল?"
+    },
+    "options": [
+      {
+        "en": "Supratika",
+        "as": "সুপ্ৰতীক"
+      },
+      {
+        "en": "Pushpadanta",
+        "as": "পুষ্পদন্ত"
+      },
+      {
+        "en": "Airavata",
+        "as": "ঐৰাৱত"
+      },
+      {
+        "en": "Gajendra",
+        "as": "গজেন্দ্ৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bhagadatta's famous elephant was named Supratika.",
+      "as": "ভগদত্তৰ প্ৰসিদ্ধ হাতীটোৰ নাম আছিল সুপ্ৰতীক।"
+    }
+  },
+  {
+    "id": "ancient-assam-094",
+    "q": {
+      "en": "Bhagadatta's elephant Supratika was killed by which Pandava warrior?",
+      "as": "ভগদত্তৰ হাতী সুপ্ৰতীকক কোন পাণ্ডৱ যোদ্ধাই বধ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Nakula",
+        "as": "নকুল"
+      },
+      {
+        "en": "Yudhishthira",
+        "as": "যুধিষ্ঠিৰ"
+      },
+      {
+        "en": "Bhima",
+        "as": "ভীম"
+      },
+      {
+        "en": "Arjuna",
+        "as": "অৰ্জুন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Supratika, the elephant of Bhagadatta, was killed by Bhima.",
+      "as": "ভগদত্তৰ হাতী সুপ্ৰতীকক ভীমে বধ কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-095",
+    "q": {
+      "en": "King Bhagadatta was killed in the Kurukshetra war by which warrior?",
+      "as": "কুৰুক্ষেত্ৰ যুদ্ধত ৰজা ভগদত্তক কোন যোদ্ধাই বধ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Bhima",
+        "as": "ভীম"
+      },
+      {
+        "en": "Drona",
+        "as": "দ্ৰোণ"
+      },
+      {
+        "en": "Arjuna",
+        "as": "অৰ্জুন"
+      },
+      {
+        "en": "Karna",
+        "as": "কৰ্ণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bhagadatta was killed by Arjuna in the Kurukshetra war.",
+      "as": "কুৰুক্ষেত্ৰ যুদ্ধত ভগদত্তক অৰ্জুনে বধ কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-096",
+    "q": {
+      "en": "Narakasura was killed by which divine figure?",
+      "as": "নৰকাসুৰক কোনে বধ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Rama",
+        "as": "ৰাম"
+      },
+      {
+        "en": "Krishna",
+        "as": "কৃষ্ণ"
+      },
+      {
+        "en": "Shiva",
+        "as": "শিৱ"
+      },
+      {
+        "en": "Indra",
+        "as": "ইন্দ্ৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Narakasura was killed by Krishna, assisted by Satyabhama.",
+      "as": "নৰকাসুৰক সত্যভামাৰ সহায়ত কৃষ্ণই বধ কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-097",
+    "q": {
+      "en": "The story of Naraka and the greatness of Kamarupa is elaborately described in which Purana?",
+      "as": "নৰকৰ কাহিনী আৰু কামৰূপৰ মহিমা কোন পুৰাণত সবিশেষ বৰ্ণিত?"
+    },
+    "options": [
+      {
+        "en": "Kalika Purana",
+        "as": "কালিকা পুৰাণ"
+      },
+      {
+        "en": "Vishnu Purana",
+        "as": "বিষ্ণু পুৰাণ"
+      },
+      {
+        "en": "Bhagavata Purana",
+        "as": "ভাগৱত পুৰাণ"
+      },
+      {
+        "en": "Shiva Purana",
+        "as": "শিৱ পুৰাণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Kalika Purana describes the story of Naraka and the glory of Kamarupa.",
+      "as": "কালিকা পুৰাণত নৰকৰ কাহিনী আৰু কামৰূপৰ মহিমা বৰ্ণিত।"
+    }
+  },
+  {
+    "id": "ancient-assam-098",
+    "q": {
+      "en": "The Kalika Purana is especially associated with the worship of which goddess?",
+      "as": "কালিকা পুৰাণ বিশেষভাৱে কোন দেৱীৰ পূজাৰ সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Lakshmi",
+        "as": "লক্ষ্মী"
+      },
+      {
+        "en": "Saraswati",
+        "as": "সৰস্বতী"
+      },
+      {
+        "en": "Kamakhya",
+        "as": "কামাখ্যা"
+      },
+      {
+        "en": "Ganga",
+        "as": "গঙ্গা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Kalika Purana is especially associated with the worship of Goddess Kamakhya.",
+      "as": "কালিকা পুৰাণ বিশেষভাৱে কামাখ্যা দেৱীৰ পূজাৰ সৈতে সম্পৰ্কিত।"
+    }
+  },
+  {
+    "id": "ancient-assam-099",
+    "q": {
+      "en": "The Yogini Tantra is an important text connected with which place?",
+      "as": "যোগিনী তন্ত্ৰ কোন স্থানৰ সৈতে সম্পৰ্কিত এখন গুৰুত্বপূৰ্ণ গ্ৰন্থ?"
+    },
+    "options": [
+      {
+        "en": "Mathura",
+        "as": "মথুৰা"
+      },
+      {
+        "en": "Magadha",
+        "as": "মগধ"
+      },
+      {
+        "en": "Kashi",
+        "as": "কাশী"
+      },
+      {
+        "en": "Kamarupa/Kamakhya",
+        "as": "কামৰূপ/কামাখ্যা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Yogini Tantra is an important text connected with Kamarupa and Kamakhya.",
+      "as": "যোগিনী তন্ত্ৰ কামৰূপ আৰু কামাখ্যাৰ সৈতে সম্পৰ্কিত এখন গুৰুত্বপূৰ্ণ গ্ৰন্থ।"
+    }
+  },
+  {
+    "id": "ancient-assam-100",
+    "q": {
+      "en": "Which of the following ancient sites is located in the Goalpara region of Assam?",
+      "as": "তলৰ কোনটো প্ৰাচীন স্থান অসমৰ গোৱালপাৰা অঞ্চলত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Kamakhya",
+        "as": "কামাখ্যা"
+      },
+      {
+        "en": "Da Parbatia",
+        "as": "দ-পৰ্বতীয়া"
+      },
+      {
+        "en": "Ambari",
+        "as": "আমবাৰী"
+      },
+      {
+        "en": "Surya Pahar",
+        "as": "সূৰ্য পাহাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Surya Pahar, an ancient rock-cut site, is located in the Goalpara region of Assam.",
+      "as": "সূৰ্য পাহাৰ, এটা প্ৰাচীন শিলা-কটা স্থান, অসমৰ গোৱালপাৰা অঞ্চলত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "ancient-assam-101",
+    "q": {
+      "en": "Surya Pahar is mainly associated with the worship of which deity?",
+      "as": "সূৰ্য পাহাৰ মূলতঃ কোন দেৱতাৰ পূজাৰ সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Surya (Sun)",
+        "as": "সূৰ্য"
+      },
+      {
+        "en": "Shiva",
+        "as": "শিৱ"
+      },
+      {
+        "en": "Durga",
+        "as": "দুৰ্গা"
+      },
+      {
+        "en": "Vishnu",
+        "as": "বিষ্ণু"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Surya Pahar is mainly associated with the worship of Surya, the Sun god.",
+      "as": "সূৰ্য পাহাৰ মূলতঃ সূৰ্য দেৱতাৰ পূজাৰ সৈতে সম্পৰ্কিত।"
+    }
+  },
+  {
+    "id": "ancient-assam-102",
+    "q": {
+      "en": "The ancient site of Hajo in Assam is famous for which temple?",
+      "as": "অসমৰ প্ৰাচীন স্থান হাজো কোন মন্দিৰৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Hayagriva Madhava",
+        "as": "হয়গ্ৰীৱ মাধৱ"
+      },
+      {
+        "en": "Madan Kamdev",
+        "as": "মদন কামদেৱ"
+      },
+      {
+        "en": "Kamakhya",
+        "as": "কামাখ্যা"
+      },
+      {
+        "en": "Shiva Dol",
+        "as": "শিৱ দ'ল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Hajo is famous for the ancient Hayagriva Madhava temple.",
+      "as": "হাজো প্ৰাচীন হয়গ্ৰীৱ মাধৱ মন্দিৰৰ বাবে বিখ্যাত।"
+    }
+  },
+  {
+    "id": "ancient-assam-103",
+    "q": {
+      "en": "Madan Kamdev, an ancient temple complex, is located in which district of Assam?",
+      "as": "মদন কামদেৱ, এটা প্ৰাচীন মন্দিৰ চৌহদ, অসমৰ কোন জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Barpeta",
+        "as": "বৰপেটা"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Kamrup",
+        "as": "কামৰূপ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Madan Kamdev is located in Kamrup district, near Baihata Chariali.",
+      "as": "মদন কামদেৱ কামৰূপ জিলাত, বৈহাটা চাৰিআলিৰ ওচৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "ancient-assam-104",
+    "q": {
+      "en": "The ancient name of Guwahati, the capital of the Varmans, was which of the following?",
+      "as": "বৰ্মনসকলৰ ৰাজধানী বৰ্তমান গুৱাহাটীৰ প্ৰাচীন নাম তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Sonitpur",
+        "as": "সোণিতপুৰ"
+      },
+      {
+        "en": "Haruppeswara",
+        "as": "হৰুপ্পেশ্বৰ"
+      },
+      {
+        "en": "Pragjyotishpura",
+        "as": "প্ৰাগজ্যোতিষপুৰ"
+      },
+      {
+        "en": "Durjaya",
+        "as": "দুৰ্জয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The ancient name of Guwahati was Pragjyotishpura, the Varman capital.",
+      "as": "গুৱাহাটীৰ প্ৰাচীন নাম আছিল প্ৰাগজ্যোতিষপুৰ, বৰ্মনসকলৰ ৰাজধানী।"
+    }
+  },
+  {
+    "id": "ancient-assam-105",
+    "q": {
+      "en": "Which ancient people are often described as early inhabitants of Assam in the epics?",
+      "as": "মহাকাব্যসমূহত অসমৰ প্ৰাৰম্ভিক বাসিন্দা হিচাপে কোন প্ৰাচীন জাতিক বৰ্ণনা কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Cholas",
+        "as": "চোল"
+      },
+      {
+        "en": "Pallavas",
+        "as": "পল্লৱ"
+      },
+      {
+        "en": "Sakas",
+        "as": "শক"
+      },
+      {
+        "en": "Kiratas",
+        "as": "কিৰাত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Kiratas are often described in the epics as early inhabitants of Assam.",
+      "as": "মহাকাব্যসমূহত কিৰাতসকলক অসমৰ প্ৰাৰম্ভিক বাসিন্দা হিচাপে বৰ্ণনা কৰা হৈছে।"
+    }
+  },
+  {
+    "id": "ancient-assam-106",
+    "q": {
+      "en": "Which famous epic mentions the Kiratas as inhabitants of the eastern region?",
+      "as": "কোন প্ৰসিদ্ধ মহাকাব্যই কিৰাতসকলক পূব অঞ্চলৰ বাসিন্দা বুলি উল্লেখ কৰিছে?"
+    },
+    "options": [
+      {
+        "en": "Mahabharata",
+        "as": "মহাভাৰত"
+      },
+      {
+        "en": "Raghuvamsa",
+        "as": "ৰঘুবংশ"
+      },
+      {
+        "en": "Arthashastra",
+        "as": "অৰ্থশাস্ত্ৰ"
+      },
+      {
+        "en": "Ramayana",
+        "as": "ৰামায়ণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Mahabharata mentions the Kiratas as inhabitants of the eastern region.",
+      "as": "মহাভাৰতত কিৰাতসকলক পূব অঞ্চলৰ বাসিন্দা বুলি উল্লেখ কৰা হৈছে।"
+    }
+  },
+  {
+    "id": "ancient-assam-107",
+    "q": {
+      "en": "The Allahabad Pillar Inscription mentions which kingdom along with Kamarupa?",
+      "as": "এলাহাবাদ স্তম্ভ লিপিয়ে কামৰূপৰ লগতে কোন ৰাজ্যৰ উল্লেখ কৰিছে?"
+    },
+    "options": [
+      {
+        "en": "Davaka",
+        "as": "দৱাক"
+      },
+      {
+        "en": "Magadha",
+        "as": "মগধ"
+      },
+      {
+        "en": "Avanti",
+        "as": "অৱন্তী"
+      },
+      {
+        "en": "Kalinga",
+        "as": "কলিঙ্গ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Allahabad Pillar Inscription mentions Davaka along with Kamarupa.",
+      "as": "এলাহাবাদ স্তম্ভ লিপিয়ে কামৰূপৰ লগতে দৱাকৰ উল্লেখ কৰিছে।"
+    }
+  },
+  {
+    "id": "ancient-assam-108",
+    "q": {
+      "en": "Samudragupta, who mentions Kamarupa in his inscription, belonged to which dynasty?",
+      "as": "নিজৰ শিলালিপিত কামৰূপৰ উল্লেখ কৰা সমুদ্ৰগুপ্ত কোন বংশৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Mughal",
+        "as": "মোগল"
+      },
+      {
+        "en": "Chola",
+        "as": "চোল"
+      },
+      {
+        "en": "Gupta",
+        "as": "গুপ্ত"
+      },
+      {
+        "en": "Maurya",
+        "as": "মৌৰ্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Samudragupta belonged to the Gupta dynasty.",
+      "as": "সমুদ্ৰগুপ্ত গুপ্ত বংশৰ আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-109",
+    "q": {
+      "en": "Which Varman king had a daughter named Vijnanavati?",
+      "as": "কোন বৰ্মন ৰজাৰ বিজ্ঞানৱতী নামৰ জীয়ৰী আছিল?"
+    },
+    "options": [
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      },
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      },
+      {
+        "en": "Bhutivarman",
+        "as": "ভূতিৱৰ্মন"
+      },
+      {
+        "en": "Susthitavarman",
+        "as": "সুস্থিতৱৰ্মন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Vijnanavati was the daughter of the Varman king Bhutivarman.",
+      "as": "বিজ্ঞানৱতী বৰ্মন ৰজা ভূতিৱৰ্মনৰ জীয়ৰী আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-110",
+    "q": {
+      "en": "Which Varman king was the father of Amritaprabha, who married the king of Kashmir?",
+      "as": "কাশ্মীৰৰ ৰজাৰ সৈতে বিবাহ হোৱা অমৃতপ্ৰভাৰ পিতৃ কোন বৰ্মন ৰজা আছিল?"
+    },
+    "options": [
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      },
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      },
+      {
+        "en": "Ganapativarman",
+        "as": "গণপতিৱৰ্মন"
+      },
+      {
+        "en": "Balavarman",
+        "as": "বলৱৰ্মন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Amritaprabha was the daughter of Ganapativarman.",
+      "as": "অমৃতপ্ৰভা গণপতিৱৰ্মনৰ জীয়ৰী আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-111",
+    "q": {
+      "en": "The Varman dynasty is important because it was the first what in Assam?",
+      "as": "বৰ্মন বংশ অসমত প্ৰথম কি হোৱাৰ বাবে গুৰুত্বপূৰ্ণ?"
+    },
+    "options": [
+      {
+        "en": "Tribal confederacy",
+        "as": "জনজাতীয় সংঘ"
+      },
+      {
+        "en": "Historical dynasty of Kamarupa",
+        "as": "কামৰূপৰ ঐতিহাসিক বংশ"
+      },
+      {
+        "en": "Muslim dynasty",
+        "as": "মুছলমান বংশ"
+      },
+      {
+        "en": "Buddhist dynasty",
+        "as": "বৌদ্ধ বংশ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Varman dynasty is regarded as the first historical dynasty of Kamarupa.",
+      "as": "বৰ্মন বংশক কামৰূপৰ প্ৰথম ঐতিহাসিক বংশ হিচাপে গণ্য কৰা হয়।"
+    }
+  },
+  {
+    "id": "ancient-assam-112",
+    "q": {
+      "en": "Hiuen Tsang described the people of Kamarupa as being what in character?",
+      "as": "হিউয়েন ছাঙে কামৰূপৰ লোকসকলক চৰিত্ৰত কেনেকুৱা বুলি বৰ্ণনা কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Very wealthy",
+        "as": "অতি ধনী"
+      },
+      {
+        "en": "Simple and honest",
+        "as": "সৰল আৰু সৎ"
+      },
+      {
+        "en": "Lazy",
+        "as": "আলসুৱা"
+      },
+      {
+        "en": "Violent",
+        "as": "হিংস্ৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Hiuen Tsang described the people of Kamarupa as simple and honest.",
+      "as": "হিউয়েন ছাঙে কামৰূপৰ লোকসকলক সৰল আৰু সৎ বুলি বৰ্ণনা কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-113",
+    "q": {
+      "en": "The king of Kamarupa, according to Hiuen Tsang, was a devotee of which deity?",
+      "as": "হিউয়েন ছাঙৰ মতে কামৰূপৰ ৰজা কোন দেৱতাৰ ভক্ত আছিল?"
+    },
+    "options": [
+      {
+        "en": "Buddha",
+        "as": "বুদ্ধ"
+      },
+      {
+        "en": "Surya",
+        "as": "সূৰ্য"
+      },
+      {
+        "en": "Shiva",
+        "as": "শিৱ"
+      },
+      {
+        "en": "Mahavira",
+        "as": "মহাৱীৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "According to Hiuen Tsang, the king of Kamarupa was a devotee of Shiva.",
+      "as": "হিউয়েন ছাঙৰ মতে কামৰূপৰ ৰজা শিৱৰ ভক্ত আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-114",
+    "q": {
+      "en": "The Chinese records refer to Kamarupa by which transcription?",
+      "as": "চীনা অভিলেখত কামৰূপক কোন নামেৰে উল্লেখ কৰা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Mo-ho",
+        "as": "মো-হো"
+      },
+      {
+        "en": "She-li",
+        "as": "শে-লি"
+      },
+      {
+        "en": "Tu-fan",
+        "as": "তু-ফান"
+      },
+      {
+        "en": "Kia-mo-lu-po",
+        "as": "কিয়া-মো-লু-পো"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Chinese records refer to Kamarupa as Kia-mo-lu-po.",
+      "as": "চীনা অভিলেখত কামৰূপক কিয়া-মো-লু-পো বুলি উল্লেখ কৰা হৈছে।"
+    }
+  },
+  {
+    "id": "ancient-assam-115",
+    "q": {
+      "en": "Which dynasty's period is generally dated from c. 350 to 650 CE?",
+      "as": "কোন বংশৰ কাল সাধাৰণতে খ্ৰীষ্টীয় ৩৫০ ৰ পৰা ৬৫০ লৈ ধৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Mlechchha",
+        "as": "ম্লেচ্ছ"
+      },
+      {
+        "en": "Varman",
+        "as": "বৰ্মন"
+      },
+      {
+        "en": "Pala",
+        "as": "পাল"
+      },
+      {
+        "en": "Chutia",
+        "as": "চুতীয়া"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Varman dynasty ruled from about 350 to 650 CE.",
+      "as": "বৰ্মন বংশে প্ৰায় ৩৫০ ৰ পৰা ৬৫০ খ্ৰীষ্টাব্দলৈ শাসন কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-116",
+    "q": {
+      "en": "Which dynasty's period is generally dated from c. 650 to 900 CE?",
+      "as": "কোন বংশৰ কাল সাধাৰণতে খ্ৰীষ্টীয় ৬৫০ ৰ পৰা ৯০০ লৈ ধৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Pala",
+        "as": "পাল"
+      },
+      {
+        "en": "Mlechchha",
+        "as": "ম্লেচ্ছ"
+      },
+      {
+        "en": "Varman",
+        "as": "বৰ্মন"
+      },
+      {
+        "en": "Koch",
+        "as": "কোচ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Mlechchha dynasty ruled from about 650 to 900 CE.",
+      "as": "ম্লেচ্ছ বংশে প্ৰায় ৬৫০ ৰ পৰা ৯০০ খ্ৰীষ্টাব্দলৈ শাসন কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-117",
+    "q": {
+      "en": "Which ancient text describes the digvijaya (conquest) of Raghu, including Kamarupa?",
+      "as": "ৰঘুৰ দিগ্বিজয়, যাৰ ভিতৰত কামৰূপো আছে, কোন প্ৰাচীন গ্ৰন্থত বৰ্ণিত?"
+    },
+    "options": [
+      {
+        "en": "Mudrarakshasa",
+        "as": "মুদ্ৰাৰাক্ষস"
+      },
+      {
+        "en": "Raghuvamsa",
+        "as": "ৰঘুবংশ"
+      },
+      {
+        "en": "Arthashastra",
+        "as": "অৰ্থশাস্ত্ৰ"
+      },
+      {
+        "en": "Rajatarangini",
+        "as": "ৰাজতৰঙ্গিনী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kalidasa's Raghuvamsa describes the digvijaya of Raghu, including Kamarupa.",
+      "as": "কালিদাসৰ ৰঘুবংশত কামৰূপকে ধৰি ৰঘুৰ দিগ্বিজয়ৰ বৰ্ণনা আছে।"
+    }
+  },
+  {
+    "id": "ancient-assam-118",
+    "q": {
+      "en": "Who wrote the Raghuvamsa, which refers to Kamarupa?",
+      "as": "কামৰূপৰ উল্লেখ থকা ৰঘুবংশ কাৰ দ্বাৰা লিখিত?"
+    },
+    "options": [
+      {
+        "en": "Kalidasa",
+        "as": "কালিদাস"
+      },
+      {
+        "en": "Valmiki",
+        "as": "বাল্মীকি"
+      },
+      {
+        "en": "Banabhatta",
+        "as": "বাণভট্ট"
+      },
+      {
+        "en": "Harishena",
+        "as": "হৰিষেণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Raghuvamsa was written by the great Sanskrit poet Kalidasa.",
+      "as": "ৰঘুবংশ মহান সংস্কৃত কবি কালিদাসে লিখিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-119",
+    "q": {
+      "en": "Which dynasty is associated with the title 'Mlechchha', given to non-Aryan rulers?",
+      "as": "অনাৰ্য শাসকসকলক দিয়া 'ম্লেচ্ছ' উপাধি কোন বংশৰ সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Salastambha",
+        "as": "শালস্তম্ভ"
+      },
+      {
+        "en": "Koch",
+        "as": "কোচ"
+      },
+      {
+        "en": "Pala",
+        "as": "পাল"
+      },
+      {
+        "en": "Varman",
+        "as": "বৰ্মন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Salastambha (Mlechchha) dynasty is associated with the title Mlechchha.",
+      "as": "শালস্তম্ভ (ম্লেচ্ছ) বংশ ম্লেচ্ছ উপাধিৰ সৈতে সম্পৰ্কিত।"
+    }
+  },
+  {
+    "id": "ancient-assam-120",
+    "q": {
+      "en": "The Kamarupa Pala dynasty ruled during which broad period?",
+      "as": "কামৰূপ পাল বংশই মোটামুটিকৈ কোন কালত শাসন কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "c. 900-1125 CE",
+        "as": "প্ৰায় ৯০০-১১২৫ খ্ৰীষ্টাব্দ"
+      },
+      {
+        "en": "c. 350-650 CE",
+        "as": "প্ৰায় ৩৫০-৬৫০ খ্ৰীষ্টাব্দ"
+      },
+      {
+        "en": "c. 1200-1500 CE",
+        "as": "প্ৰায় ১২০০-১৫০০ খ্ৰীষ্টাব্দ"
+      },
+      {
+        "en": "c. 650-900 CE",
+        "as": "প্ৰায় ৬৫০-৯০০ খ্ৰীষ্টাব্দ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Kamarupa Pala dynasty ruled from about 900 to 1125 CE.",
+      "as": "কামৰূপ পাল বংশই প্ৰায় ৯০০ ৰ পৰা ১১২৫ খ্ৰীষ্টাব্দলৈ শাসন কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-121",
+    "q": {
+      "en": "Which ancient site provides important evidence of early urban settlement in Guwahati?",
+      "as": "কোন প্ৰাচীন স্থানে গুৱাহাটীত প্ৰাৰম্ভিক নগৰীয়া জনবসতিৰ গুৰুত্বপূৰ্ণ প্ৰমাণ দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Madan Kamdev",
+        "as": "মদন কামদেৱ"
+      },
+      {
+        "en": "Ambari",
+        "as": "আমবাৰী"
+      },
+      {
+        "en": "Surya Pahar",
+        "as": "সূৰ্য পাহাৰ"
+      },
+      {
+        "en": "Hajo",
+        "as": "হাজো"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Ambari excavations provide important evidence of early urban settlement in Guwahati.",
+      "as": "আমবাৰী খননে গুৱাহাটীত প্ৰাৰম্ভিক নগৰীয়া জনবসতিৰ গুৰুত্বপূৰ্ণ প্ৰমাণ দিয়ে।"
+    }
+  },
+  {
+    "id": "ancient-assam-122",
+    "q": {
+      "en": "Which of the following was an ancient name of Assam besides Pragjyotisha and Kamarupa?",
+      "as": "প্ৰাগজ্যোতিষ আৰু কামৰূপৰ বাহিৰে তলৰ কোনটো অসমৰ প্ৰাচীন নাম আছিল?"
+    },
+    "options": [
+      {
+        "en": "Kamata",
+        "as": "কামতা"
+      },
+      {
+        "en": "Magadha",
+        "as": "মগধ"
+      },
+      {
+        "en": "Vanga",
+        "as": "বঙ্গ"
+      },
+      {
+        "en": "Kosala",
+        "as": "কোশল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kamata was another ancient name associated with the Assam region.",
+      "as": "কামতা অসম অঞ্চলৰ সৈতে সম্পৰ্কিত আন এটা প্ৰাচীন নাম।"
+    }
+  },
+  {
+    "id": "ancient-assam-123",
+    "q": {
+      "en": "Which river is described as the lifeline of ancient Kamarupa?",
+      "as": "কোন নদীক প্ৰাচীন কামৰূপৰ জীৱন-ৰেখা বুলি বৰ্ণনা কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Krishna",
+        "as": "কৃষ্ণা"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      },
+      {
+        "en": "Ganga",
+        "as": "গঙ্গা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra river is described as the lifeline of ancient Kamarupa.",
+      "as": "ব্ৰহ্মপুত্ৰ নদীক প্ৰাচীন কামৰূপৰ জীৱন-ৰেখা বুলি বৰ্ণনা কৰা হয়।"
+    }
+  },
+  {
+    "id": "ancient-assam-124",
+    "q": {
+      "en": "The ancient Kamarupa region was well known for its production of which fibre?",
+      "as": "প্ৰাচীন কামৰূপ অঞ্চল কোন আঁহৰ উৎপাদনৰ বাবে সুপৰিচিত আছিল?"
+    },
+    "options": [
+      {
+        "en": "Wool",
+        "as": "ঊণ"
+      },
+      {
+        "en": "Silk",
+        "as": "ৰেচম"
+      },
+      {
+        "en": "Jute",
+        "as": "পাট"
+      },
+      {
+        "en": "Cotton",
+        "as": "কাপাহ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ancient Kamarupa was well known for the production of silk, especially Muga silk.",
+      "as": "প্ৰাচীন কামৰূপ ৰেচম, বিশেষকৈ মুগা ৰেচমৰ উৎপাদনৰ বাবে সুপৰিচিত আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-125",
+    "q": {
+      "en": "Which of the following dynasties did NOT rule ancient Kamarupa?",
+      "as": "তলৰ কোনটো বংশই প্ৰাচীন কামৰূপ শাসন কৰা নাছিল?"
+    },
+    "options": [
+      {
+        "en": "Varman",
+        "as": "বৰ্মন"
+      },
+      {
+        "en": "Maurya",
+        "as": "মৌৰ্য"
+      },
+      {
+        "en": "Mlechchha",
+        "as": "ম্লেচ্ছ"
+      },
+      {
+        "en": "Pala",
+        "as": "পাল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Maurya dynasty did not rule ancient Kamarupa; the Varman, Mlechchha and Pala dynasties did.",
+      "as": "মৌৰ্য বংশই প্ৰাচীন কামৰূপ শাসন কৰা নাছিল; বৰ্মন, ম্লেচ্ছ আৰু পাল বংশই কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-126",
+    "q": {
+      "en": "Which of the following was a famous king of Sonitpur associated with the Usha-Aniruddha legend?",
+      "as": "ঊষা-অনিৰুদ্ধ কিংবদন্তিৰ সৈতে সম্পৰ্কিত সোণিতপুৰৰ প্ৰসিদ্ধ ৰজা কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Banasura",
+        "as": "বাণাসুৰ"
+      },
+      {
+        "en": "Bhagadatta",
+        "as": "ভগদত্ত"
+      },
+      {
+        "en": "Naraka",
+        "as": "নৰক"
+      },
+      {
+        "en": "Vajradatta",
+        "as": "বজ্ৰদত্ত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Banasura of Sonitpur is associated with the Usha-Aniruddha legend.",
+      "as": "সোণিতপুৰৰ বাণাসুৰ ঊষা-অনিৰুদ্ধ কিংবদন্তিৰ সৈতে সম্পৰ্কিত।"
+    }
+  },
+  {
+    "id": "ancient-assam-127",
+    "q": {
+      "en": "The legendary city of Pragjyotisha is said to have been founded by whom?",
+      "as": "কিংবদন্তিমূলক প্ৰাগজ্যোতিষ নগৰ কোনে প্ৰতিষ্ঠা কৰিছিল বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      },
+      {
+        "en": "Banasura",
+        "as": "বাণাসুৰ"
+      },
+      {
+        "en": "Naraka",
+        "as": "নৰক"
+      },
+      {
+        "en": "Bhagadatta",
+        "as": "ভগদত্ত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The legendary city of Pragjyotisha is said to have been founded by Naraka.",
+      "as": "কিংবদন্তিমূলক প্ৰাগজ্যোতিষ নগৰ নৰকে প্ৰতিষ্ঠা কৰিছিল বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "ancient-assam-128",
+    "q": {
+      "en": "Which of the following is a famous rock-cut archaeological site in Assam?",
+      "as": "তলৰ কোনটো অসমৰ এটা প্ৰসিদ্ধ শিলা-কটা প্ৰত্নতাত্ত্বিক স্থান?"
+    },
+    "options": [
+      {
+        "en": "Surya Pahar",
+        "as": "সূৰ্য পাহাৰ"
+      },
+      {
+        "en": "Ajanta",
+        "as": "অজন্তা"
+      },
+      {
+        "en": "Mahabalipuram",
+        "as": "মহাবলীপুৰম"
+      },
+      {
+        "en": "Ellora",
+        "as": "ইলোৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Surya Pahar in Assam is a famous rock-cut archaeological site.",
+      "as": "অসমৰ সূৰ্য পাহাৰ এটা প্ৰসিদ্ধ শিলা-কটা প্ৰত্নতাত্ত্বিক স্থান।"
+    }
+  },
+  {
+    "id": "ancient-assam-129",
+    "q": {
+      "en": "Which Varman ruler is credited with extending Kamarupa's power and prestige to its height?",
+      "as": "কামৰূপৰ শক্তি আৰু গৌৰৱ শিখৰত লৈ যোৱাৰ কৃতিত্ব কোন বৰ্মন শাসকৰ?"
+    },
+    "options": [
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      },
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      },
+      {
+        "en": "Samudravarman",
+        "as": "সমুদ্ৰৱৰ্মন"
+      },
+      {
+        "en": "Avanti Varman",
+        "as": "অৱন্তী বৰ্মন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bhaskarvarman brought Kamarupa's power and prestige to its height.",
+      "as": "ভাস্কৰৱৰ্মনে কামৰূপৰ শক্তি আৰু গৌৰৱ শিখৰত লৈ গৈছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-130",
+    "q": {
+      "en": "After the death of Harshavardhana, what happened to Kamarupa's political influence?",
+      "as": "হৰ্ষৱৰ্ধনৰ মৃত্যুৰ পিছত কামৰূপৰ ৰাজনৈতিক প্ৰভাৱৰ কি হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "It declined",
+        "as": "হ্ৰাস পাইছিল"
+      },
+      {
+        "en": "It expanded to China",
+        "as": "চীনলৈ বিস্তৃত হৈছিল"
+      },
+      {
+        "en": "It remained unchanged",
+        "as": "অপৰিৱৰ্তিত আছিল"
+      },
+      {
+        "en": "It greatly increased",
+        "as": "অনেক বৃদ্ধি পাইছিল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "After Harshavardhana's death, Kamarupa's political influence declined.",
+      "as": "হৰ্ষৱৰ্ধনৰ মৃত্যুৰ পিছত কামৰূপৰ ৰাজনৈতিক প্ৰভাৱ হ্ৰাস পাইছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-131",
+    "q": {
+      "en": "Which ancient Assam king is known to have exchanged envoys with China?",
+      "as": "চীনৰ সৈতে দূত বিনিময় কৰা প্ৰাচীন অসমৰ ৰজা কোন?"
+    },
+    "options": [
+      {
+        "en": "Tyagasimha",
+        "as": "ত্যাগসিংহ"
+      },
+      {
+        "en": "Brahmapala",
+        "as": "ব্ৰহ্মপাল"
+      },
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      },
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bhaskarvarman is known to have exchanged envoys with China.",
+      "as": "ভাস্কৰৱৰ্মনে চীনৰ সৈতে দূত বিনিময় কৰিছিল বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "ancient-assam-132",
+    "q": {
+      "en": "The Chinese emperor Li Shih-min was a contemporary of which Kamarupa king?",
+      "as": "চীনা সম্ৰাট লি শ্বি-মিন কোন কামৰূপ ৰজাৰ সমকালীন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Salastambha",
+        "as": "শালস্তম্ভ"
+      },
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      },
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      },
+      {
+        "en": "Brahmapala",
+        "as": "ব্ৰহ্মপাল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bhaskarvarman was a contemporary of the Chinese emperor Li Shih-min (Taizong).",
+      "as": "ভাস্কৰৱৰ্মন চীনা সম্ৰাট লি শ্বি-মিন (তাইজং)ৰ সমকালীন আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-133",
+    "q": {
+      "en": "Which of the following was a Varman capital before Guwahati became prominent?",
+      "as": "গুৱাহাটী প্ৰাধান্য লাভ কৰাৰ আগতে তলৰ কোনটো বৰ্মন ৰাজধানী আছিল?"
+    },
+    "options": [
+      {
+        "en": "Haruppeswara",
+        "as": "হৰুপ্পেশ্বৰ"
+      },
+      {
+        "en": "Sonitpur",
+        "as": "সোণিতপুৰ"
+      },
+      {
+        "en": "Durjaya",
+        "as": "দুৰ্জয়"
+      },
+      {
+        "en": "Pragjyotishpura",
+        "as": "প্ৰাগজ্যোতিষপুৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Pragjyotishpura, the present-day Guwahati, was the Varman capital.",
+      "as": "প্ৰাগজ্যোতিষপুৰ, অৰ্থাৎ বৰ্তমান গুৱাহাটী, বৰ্মনসকলৰ ৰাজধানী আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-134",
+    "q": {
+      "en": "Which dynasty first made Pragjyotishpura (Guwahati) its capital?",
+      "as": "কোন বংশই প্ৰথম প্ৰাগজ্যোতিষপুৰ (গুৱাহাটী)ক ৰাজধানী কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Varman",
+        "as": "বৰ্মন"
+      },
+      {
+        "en": "Mlechchha",
+        "as": "ম্লেচ্ছ"
+      },
+      {
+        "en": "Koch",
+        "as": "কোচ"
+      },
+      {
+        "en": "Pala",
+        "as": "পাল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Varman dynasty made Pragjyotishpura (present-day Guwahati) its capital.",
+      "as": "বৰ্মন বংশই প্ৰাগজ্যোতিষপুৰ (বৰ্তমান গুৱাহাটী)ক ৰাজধানী কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-135",
+    "q": {
+      "en": "Which Assamese site contains early rock-cut sculptures influenced by Hindu, Buddhist and Jain traditions?",
+      "as": "কোন অসমীয়া স্থানত হিন্দু, বৌদ্ধ আৰু জৈন পৰম্পৰাৰ প্ৰভাৱ থকা প্ৰাৰম্ভিক শিলা-কটা ভাস্কৰ্য আছে?"
+    },
+    "options": [
+      {
+        "en": "Da Parbatia",
+        "as": "দ-পৰ্বতীয়া"
+      },
+      {
+        "en": "Surya Pahar",
+        "as": "সূৰ্য পাহাৰ"
+      },
+      {
+        "en": "Ambari",
+        "as": "আমবাৰী"
+      },
+      {
+        "en": "Hajo",
+        "as": "হাজো"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Surya Pahar contains early rock-cut sculptures influenced by Hindu, Buddhist and Jain traditions.",
+      "as": "সূৰ্য পাহাৰত হিন্দু, বৌদ্ধ আৰু জৈন পৰম্পৰাৰ প্ৰভাৱ থকা প্ৰাৰম্ভিক শিলা-কটা ভাস্কৰ্য আছে।"
+    }
+  },
+  {
+    "id": "ancient-assam-136",
+    "q": {
+      "en": "The ancient Kamarupa kings are known to have issued which type of documents to record land grants?",
+      "as": "প্ৰাচীন কামৰূপৰ ৰজাসকলে ভূমি দান লিপিবদ্ধ কৰিবলৈ কোন ধৰণৰ নথি জাৰি কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Copper-plate inscriptions",
+        "as": "তামৰ ফলি শিলালিপি"
+      },
+      {
+        "en": "Stone pillars",
+        "as": "শিলৰ স্তম্ভ"
+      },
+      {
+        "en": "Clay tablets",
+        "as": "মাটিৰ ফলি"
+      },
+      {
+        "en": "Palm-leaf manuscripts",
+        "as": "তালপাতৰ পুথি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Kamarupa kings issued copper-plate inscriptions to record land grants.",
+      "as": "কামৰূপৰ ৰজাসকলে ভূমি দান লিপিবদ্ধ কৰিবলৈ তামৰ ফলি শিলালিপি জাৰি কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-137",
+    "q": {
+      "en": "Which language was mainly used in the copper-plate inscriptions of ancient Kamarupa?",
+      "as": "প্ৰাচীন কামৰূপৰ তামৰ ফলি শিলালিপিত প্ৰধানকৈ কোন ভাষা ব্যৱহাৰ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Assamese",
+        "as": "অসমীয়া"
+      },
+      {
+        "en": "Pali",
+        "as": "পালি"
+      },
+      {
+        "en": "Sanskrit",
+        "as": "সংস্কৃত"
+      },
+      {
+        "en": "Persian",
+        "as": "পাৰ্চী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sanskrit was mainly used in the copper-plate inscriptions of ancient Kamarupa.",
+      "as": "প্ৰাচীন কামৰূপৰ তামৰ ফলি শিলালিপিত প্ৰধানকৈ সংস্কৃত ব্যৱহাৰ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-138",
+    "q": {
+      "en": "The study of ancient inscriptions is known as what?",
+      "as": "প্ৰাচীন শিলালিপিৰ অধ্যয়নক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Epigraphy",
+        "as": "শিলালিপিবিজ্ঞান"
+      },
+      {
+        "en": "Philology",
+        "as": "ভাষাবিজ্ঞান"
+      },
+      {
+        "en": "Numismatics",
+        "as": "মুদ্ৰাবিজ্ঞান"
+      },
+      {
+        "en": "Archaeology",
+        "as": "প্ৰত্নতত্ত্ব"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The study of inscriptions is called epigraphy.",
+      "as": "শিলালিপিৰ অধ্যয়নক শিলালিপিবিজ্ঞান (এপিগ্ৰাফী) বোলা হয়।"
+    }
+  },
+  {
+    "id": "ancient-assam-139",
+    "q": {
+      "en": "Which of the following was a major religious centre of ancient Kamarupa?",
+      "as": "তলৰ কোনটো প্ৰাচীন কামৰূপৰ এটা প্ৰধান ধৰ্মীয় কেন্দ্ৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Kamakhya",
+        "as": "কামাখ্যা"
+      },
+      {
+        "en": "Sanchi",
+        "as": "সাঁচী"
+      },
+      {
+        "en": "Bodh Gaya",
+        "as": "বোধগয়া"
+      },
+      {
+        "en": "Nalanda",
+        "as": "নালন্দা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kamakhya was a major religious centre of ancient Kamarupa.",
+      "as": "কামাখ্যা প্ৰাচীন কামৰূপৰ এটা প্ৰধান ধৰ্মীয় কেন্দ্ৰ আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-140",
+    "q": {
+      "en": "The Varman kings are said to have belonged to which broader cultural tradition?",
+      "as": "বৰ্মন ৰজাসকল কোন বহল সাংস্কৃতিক পৰম্পৰাৰ অন্তৰ্ভুক্ত আছিল বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Greek",
+        "as": "গ্ৰীক"
+      },
+      {
+        "en": "Indo-Aryan",
+        "as": "ইণ্ডো-আৰ্য"
+      },
+      {
+        "en": "Mongoloid",
+        "as": "মঙ্গোলীয়"
+      },
+      {
+        "en": "Dravidian",
+        "as": "দ্ৰাবিড়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Varman kings are generally associated with the Indo-Aryan cultural tradition.",
+      "as": "বৰ্মন ৰজাসকলক সাধাৰণতে ইণ্ডো-আৰ্য সাংস্কৃতিক পৰম্পৰাৰ সৈতে সম্পৰ্কিত বুলি ধৰা হয়।"
+    }
+  },
+  {
+    "id": "ancient-assam-141",
+    "q": {
+      "en": "Which Hindu deity was especially worshipped in ancient Kamarupa, as noted by Hiuen Tsang?",
+      "as": "হিউয়েন ছাঙৰ উল্লেখ অনুসৰি প্ৰাচীন কামৰূপত বিশেষভাৱে কোন হিন্দু দেৱতাৰ পূজা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Brahma",
+        "as": "ব্ৰহ্মা"
+      },
+      {
+        "en": "Varuna",
+        "as": "বৰুণ"
+      },
+      {
+        "en": "Shiva",
+        "as": "শিৱ"
+      },
+      {
+        "en": "Kubera",
+        "as": "কুবেৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hiuen Tsang noted that Shiva was especially worshipped in ancient Kamarupa.",
+      "as": "হিউয়েন ছাঙে উল্লেখ কৰিছিল যে প্ৰাচীন কামৰূপত শিৱৰ বিশেষ পূজা হৈছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-142",
+    "q": {
+      "en": "The ancient Kamarupa region roughly corresponds to which present-day Indian state?",
+      "as": "প্ৰাচীন কামৰূপ অঞ্চল মোটামুটিকৈ বৰ্তমানৰ কোন ভাৰতীয় ৰাজ্যৰ সৈতে মিলে?"
+    },
+    "options": [
+      {
+        "en": "Bihar",
+        "as": "বিহাৰ"
+      },
+      {
+        "en": "Odisha",
+        "as": "ওড়িশা"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Gujarat",
+        "as": "গুজৰাট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The ancient Kamarupa region roughly corresponds to present-day Assam.",
+      "as": "প্ৰাচীন কামৰূপ অঞ্চল মোটামুটিকৈ বৰ্তমানৰ অসমৰ সৈতে মিলে।"
+    }
+  },
+  {
+    "id": "ancient-assam-143",
+    "q": {
+      "en": "Which of the following was an important early dynasty of Kamarupa?",
+      "as": "তলৰ কোনটো কামৰূপৰ এটা গুৰুত্বপূৰ্ণ প্ৰাৰম্ভিক বংশ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Gupta",
+        "as": "গুপ্ত"
+      },
+      {
+        "en": "Maurya",
+        "as": "মৌৰ্য"
+      },
+      {
+        "en": "Varman",
+        "as": "বৰ্মন"
+      },
+      {
+        "en": "Shunga",
+        "as": "শুঙ্গ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Varman dynasty was an important early dynasty of Kamarupa.",
+      "as": "বৰ্মন বংশ কামৰূপৰ এটা গুৰুত্বপূৰ্ণ প্ৰাৰম্ভিক বংশ আছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-144",
+    "q": {
+      "en": "The ancient Assamese script is also referred to as which script?",
+      "as": "প্ৰাচীন অসমীয়া লিপিক আন কি লিপি বুলিও কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Grantha",
+        "as": "গ্ৰন্থ"
+      },
+      {
+        "en": "Kamarupi",
+        "as": "কামৰূপী"
+      },
+      {
+        "en": "Tamil",
+        "as": "তামিল"
+      },
+      {
+        "en": "Kharosthi",
+        "as": "খৰোষ্ঠী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The ancient Assamese script is also referred to as the Kamarupi script.",
+      "as": "প্ৰাচীন অসমীয়া লিপিক কামৰূপী লিপিও বোলা হয়।"
+    }
+  },
+  {
+    "id": "ancient-assam-145",
+    "q": {
+      "en": "Pushyavarman, the founder of the Varman dynasty, was succeeded by which son?",
+      "as": "বৰ্মন বংশৰ প্ৰতিষ্ঠাপক পুশ্যৱৰ্মনৰ পিছত কোন পুত্ৰ ৰজা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Kalyanavarman",
+        "as": "কল্যাণৱৰ্মন"
+      },
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      },
+      {
+        "en": "Samudravarman",
+        "as": "সমুদ্ৰৱৰ্মন"
+      },
+      {
+        "en": "Balavarman",
+        "as": "বলৱৰ্মন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Samudravarman, son of Pushyavarman, succeeded him as king.",
+      "as": "পুশ্যৱৰ্মনৰ পুত্ৰ সমুদ্ৰৱৰ্মনে তেওঁৰ পিছত ৰজা হৈছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-146",
+    "q": {
+      "en": "Which of the following ancient Assamese kings is associated with the title 'Maharajadhiraja'?",
+      "as": "তলৰ কোনজন প্ৰাচীন অসমীয়া ৰজা 'মহাৰাজাধিৰাজ' উপাধিৰ সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Tyagasimha",
+        "as": "ত্যাগসিংহ"
+      },
+      {
+        "en": "Salastambha",
+        "as": "শালস্তম্ভ"
+      },
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      },
+      {
+        "en": "Brahmapala",
+        "as": "ব্ৰহ্মপাল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Pushyavarman and other Varman kings used the title Maharajadhiraja.",
+      "as": "পুশ্যৱৰ্মন আৰু অন্য বৰ্মন ৰজাসকলে মহাৰাজাধিৰাজ উপাধি ব্যৱহাৰ কৰিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-147",
+    "q": {
+      "en": "The Kamarupa kingdom became prominent in Indian history mainly due to which factor?",
+      "as": "কামৰূপ ৰাজ্য ভাৰতীয় ইতিহাসত প্ৰধানকৈ কোন কাৰণত প্ৰসিদ্ধ হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Its desert trade",
+        "as": "ইয়াৰ মৰুভূমি বাণিজ্য"
+      },
+      {
+        "en": "Its gold mines",
+        "as": "ইয়াৰ সোণৰ খনি"
+      },
+      {
+        "en": "Its strategic location and cultural achievements",
+        "as": "ইয়াৰ কৌশলগত অৱস্থান আৰু সাংস্কৃতিক অৰ্জন"
+      },
+      {
+        "en": "Its navy",
+        "as": "ইয়াৰ নৌসেনা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Kamarupa's strategic location and cultural achievements made it prominent in Indian history.",
+      "as": "কামৰূপৰ কৌশলগত অৱস্থান আৰু সাংস্কৃতিক অৰ্জনে ইয়াক ভাৰতীয় ইতিহাসত প্ৰসিদ্ধ কৰি তুলিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-148",
+    "q": {
+      "en": "Which ancient king of Kamarupa is associated with the Nidhanpur grant and the visit of Hiuen Tsang?",
+      "as": "নিধনপুৰ দান আৰু হিউয়েন ছাঙৰ ভ্ৰমণৰ সৈতে সম্পৰ্কিত কামৰূপৰ প্ৰাচীন ৰজা কোন?"
+    },
+    "options": [
+      {
+        "en": "Tyagasimha",
+        "as": "ত্যাগসিংহ"
+      },
+      {
+        "en": "Pushyavarman",
+        "as": "পুশ্যৱৰ্মন"
+      },
+      {
+        "en": "Brahmapala",
+        "as": "ব্ৰহ্মপাল"
+      },
+      {
+        "en": "Bhaskarvarman",
+        "as": "ভাস্কৰৱৰ্মন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bhaskarvarman is associated with the Nidhanpur grant and the visit of Hiuen Tsang.",
+      "as": "ভাস্কৰৱৰ্মন নিধনপুৰ দান আৰু হিউয়েন ছাঙৰ ভ্ৰমণৰ সৈতে সম্পৰ্কিত।"
+    }
+  },
+  {
+    "id": "ancient-assam-149",
+    "q": {
+      "en": "The Mlechchha dynasty is believed to have come to power after the decline of which dynasty?",
+      "as": "ম্লেচ্ছ বংশ কোন বংশৰ অৱক্ষয়ৰ পিছত ক্ষমতালৈ আহিছিল বুলি বিশ্বাস কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Koch",
+        "as": "কোচ"
+      },
+      {
+        "en": "Chutia",
+        "as": "চুতীয়া"
+      },
+      {
+        "en": "Pala",
+        "as": "পাল"
+      },
+      {
+        "en": "Varman",
+        "as": "বৰ্মন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Mlechchha dynasty came to power after the decline of the Varman dynasty.",
+      "as": "বৰ্মন বংশৰ অৱক্ষয়ৰ পিছত ম্লেচ্ছ বংশ ক্ষমতালৈ আহিছিল।"
+    }
+  },
+  {
+    "id": "ancient-assam-150",
+    "q": {
+      "en": "Which of the following best describes the historical importance of ancient Kamarupa?",
+      "as": "তলৰ কোনটোৱে প্ৰাচীন কামৰূপৰ ঐতিহাসিক গুৰুত্ব সৰ্বোত্তমভাৱে বৰ্ণনা কৰে?"
+    },
+    "options": [
+      {
+        "en": "It was a major cultural and political power in ancient North-East India",
+        "as": "ই প্ৰাচীন উত্তৰ-পূব ভাৰতৰ এটা প্ৰধান সাংস্কৃতিক আৰু ৰাজনৈতিক শক্তি আছিল"
+      },
+      {
+        "en": "It was only a religious centre",
+        "as": "ই কেৱল এটা ধৰ্মীয় কেন্দ্ৰ আছিল"
+      },
+      {
+        "en": "It was a short-lived minor kingdom with no influence",
+        "as": "ই আছিল প্ৰভাৱহীন স্বল্পস্থায়ী সৰু ৰাজ্য"
+      },
+      {
+        "en": "It was under the direct rule of the Gupta empire",
+        "as": "ই গুপ্ত সাম্ৰাজ্যৰ প্ৰত্যক্ষ শাসনাধীনে আছিল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ancient Kamarupa was a major cultural and political power in ancient North-East India.",
+      "as": "প্ৰাচীন কামৰূপ প্ৰাচীন উত্তৰ-পূব ভাৰতৰ এটা প্ৰধান সাংস্কৃতিক আৰু ৰাজনৈতিক শক্তি আছিল।"
+    }
   }
-}
+]
