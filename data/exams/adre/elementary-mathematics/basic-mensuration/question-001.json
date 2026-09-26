@@ -1,30 +1,884 @@
-{
-  "id": "basic-mensuration-001",
-  "q": {
-    "en": "The area of a triangle whose base is 10 cm and height is 6 cm is —",
-    "as": "10 cm ভূমি আৰু 6 cm উচ্চতাৰ এটা ত্ৰিভুজৰ কালি —"
-  },
-  "options": [
-    {
-      "en": "60 cm²",
-      "as": "60 cm²"
+[
+  {
+    "id": "basic-mensuration-001",
+    "q": {
+      "en": "The area of a triangle whose base is 10 cm and height is 6 cm is —",
+      "as": "10 cm ভূমি আৰু 6 cm উচ্চতাৰ এটা ত্ৰিভুজৰ কালি —"
     },
-    {
-      "en": "30 cm²",
-      "as": "30 cm²"
-    },
-    {
-      "en": "20 cm²",
-      "as": "20 cm²"
-    },
-    {
-      "en": "16 cm²",
-      "as": "16 cm²"
+    "options": [
+      { "en": "60 cm²", "as": "60 cm²" },
+      { "en": "30 cm²", "as": "30 cm²" },
+      { "en": "20 cm²", "as": "20 cm²" },
+      { "en": "16 cm²", "as": "16 cm²" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Area of a triangle = ½ × base × height = ½ × 10 × 6 = 30 cm².",
+      "as": "ত্ৰিভুজৰ কালি = ½ × ভূমি × উচ্চতা = ½ × 10 × 6 = 30 cm²।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "Area of a triangle = ½ × base × height = ½ × 10 × 6 = 30 cm².",
-    "as": "ত্ৰিভুজৰ কালি = ½ × ভূমি × উচ্চতা = ½ × 10 × 6 = 30 cm²।"
+  },
+  {
+    "id": "basic-mensuration-002",
+    "q": {
+      "en": "The area of a triangle whose base is 12 cm and height is 8 cm is —",
+      "as": "12 cm ভূমি আৰু 8 cm উচ্চতাৰ এটা ত্ৰিভুজৰ কালি —"
+    },
+    "options": [
+      { "en": "96 cm²", "as": "96 cm²" },
+      { "en": "24 cm²", "as": "24 cm²" },
+      { "en": "48 cm²", "as": "48 cm²" },
+      { "en": "40 cm²", "as": "40 cm²" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Area = ½ × base × height = ½ × 12 × 8 = 48 cm².",
+      "as": "কালি = ½ × ভূমি × উচ্চতা = ½ × 12 × 8 = 48 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-003",
+    "q": {
+      "en": "The area of a triangle whose base is 15 cm and height is 10 cm is —",
+      "as": "15 cm ভূমি আৰু 10 cm উচ্চতাৰ এটা ত্ৰিভুজৰ কালি —"
+    },
+    "options": [
+      { "en": "150 cm²", "as": "150 cm²" },
+      { "en": "70 cm²", "as": "70 cm²" },
+      { "en": "60 cm²", "as": "60 cm²" },
+      { "en": "75 cm²", "as": "75 cm²" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Area = ½ × 15 × 10 = 75 cm².",
+      "as": "কালি = ½ × 15 × 10 = 75 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-004",
+    "q": {
+      "en": "The two perpendicular sides of a right triangle are 6 cm and 8 cm. Its area is —",
+      "as": "এটা সমকোণী ত্ৰিভুজৰ সমকোণ সৃষ্টি কৰা দুটা বাহু 6 cm আৰু 8 cm। ইয়াৰ কালি —"
+    },
+    "options": [
+      { "en": "24 cm²", "as": "24 cm²" },
+      { "en": "48 cm²", "as": "48 cm²" },
+      { "en": "14 cm²", "as": "14 cm²" },
+      { "en": "12 cm²", "as": "12 cm²" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Area = ½ × 6 × 8 = 24 cm².",
+      "as": "কালি = ½ × 6 × 8 = 24 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-005",
+    "q": {
+      "en": "The area of a rectangle whose length is 12 cm and breadth is 5 cm is —",
+      "as": "12 cm দীঘ আৰু 5 cm প্ৰস্থৰ এটা আয়তৰ কালি —"
+    },
+    "options": [
+      { "en": "34 cm²", "as": "34 cm²" },
+      { "en": "60 cm²", "as": "60 cm²" },
+      { "en": "17 cm²", "as": "17 cm²" },
+      { "en": "50 cm²", "as": "50 cm²" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Area of a rectangle = length × breadth = 12 × 5 = 60 cm².",
+      "as": "আয়তৰ কালি = দীঘ × প্ৰস্থ = 12 × 5 = 60 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-006",
+    "q": {
+      "en": "The area of a rectangle whose length is 15 cm and breadth is 8 cm is —",
+      "as": "15 cm দীঘ আৰু 8 cm প্ৰস্থৰ এটা আয়তৰ কালি —"
+    },
+    "options": [
+      { "en": "46 cm²", "as": "46 cm²" },
+      { "en": "120 cm²", "as": "120 cm²" },
+      { "en": "100 cm²", "as": "100 cm²" },
+      { "en": "90 cm²", "as": "90 cm²" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Area = length × breadth = 15 × 8 = 120 cm².",
+      "as": "কালি = দীঘ × প্ৰস্থ = 15 × 8 = 120 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-007",
+    "q": {
+      "en": "The area of a rectangle whose length is 20 cm and breadth is 12 cm is —",
+      "as": "20 cm দীঘ আৰু 12 cm প্ৰস্থৰ এটা আয়তৰ কালি —"
+    },
+    "options": [
+      { "en": "64 cm²", "as": "64 cm²" },
+      { "en": "220 cm²", "as": "220 cm²" },
+      { "en": "240 cm²", "as": "240 cm²" },
+      { "en": "200 cm²", "as": "200 cm²" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Area = 20 × 12 = 240 cm².",
+      "as": "কালি = 20 × 12 = 240 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-008",
+    "q": {
+      "en": "The area of a square whose side is 9 cm is —",
+      "as": "9 cm বাহুৰ এটা বৰ্গৰ কালি —"
+    },
+    "options": [
+      { "en": "36 cm²", "as": "36 cm²" },
+      { "en": "72 cm²", "as": "72 cm²" },
+      { "en": "18 cm²", "as": "18 cm²" },
+      { "en": "81 cm²", "as": "81 cm²" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Area of a square = side × side = 9 × 9 = 81 cm².",
+      "as": "বৰ্গৰ কালি = বাহু × বাহু = 9 × 9 = 81 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-009",
+    "q": {
+      "en": "The area of a square whose side is 14 cm is —",
+      "as": "14 cm বাহুৰ এটা বৰ্গৰ কালি —"
+    },
+    "options": [
+      { "en": "196 cm²", "as": "196 cm²" },
+      { "en": "56 cm²", "as": "56 cm²" },
+      { "en": "98 cm²", "as": "98 cm²" },
+      { "en": "28 cm²", "as": "28 cm²" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Area = 14 × 14 = 196 cm².",
+      "as": "কালি = 14 × 14 = 196 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-010",
+    "q": {
+      "en": "The perimeter of a rectangle whose length is 12 cm and breadth is 5 cm is —",
+      "as": "12 cm দীঘ আৰু 5 cm প্ৰস্থৰ এটা আয়তৰ পৰিসীমা —"
+    },
+    "options": [
+      { "en": "17 cm", "as": "17 cm" },
+      { "en": "34 cm", "as": "34 cm" },
+      { "en": "60 cm", "as": "60 cm" },
+      { "en": "30 cm", "as": "30 cm" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Perimeter = 2 × (length + breadth) = 2 × (12 + 5) = 34 cm.",
+      "as": "পৰিসীমা = 2 × (দীঘ + প্ৰস্থ) = 2 × (12 + 5) = 34 cm।"
+    }
+  },
+  {
+    "id": "basic-mensuration-011",
+    "q": {
+      "en": "The perimeter of a rectangle whose length is 18 cm and breadth is 7 cm is —",
+      "as": "18 cm দীঘ আৰু 7 cm প্ৰস্থৰ এটা আয়তৰ পৰিসীমা —"
+    },
+    "options": [
+      { "en": "25 cm", "as": "25 cm" },
+      { "en": "126 cm", "as": "126 cm" },
+      { "en": "50 cm", "as": "50 cm" },
+      { "en": "44 cm", "as": "44 cm" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Perimeter = 2 × (18 + 7) = 2 × 25 = 50 cm.",
+      "as": "পৰিসীমা = 2 × (18 + 7) = 2 × 25 = 50 cm।"
+    }
+  },
+  {
+    "id": "basic-mensuration-012",
+    "q": {
+      "en": "The perimeter of a square whose side is 9 cm is —",
+      "as": "9 cm বাহুৰ এটা বৰ্গৰ পৰিসীমা —"
+    },
+    "options": [
+      { "en": "81 cm", "as": "81 cm" },
+      { "en": "36 cm", "as": "36 cm" },
+      { "en": "18 cm", "as": "18 cm" },
+      { "en": "72 cm", "as": "72 cm" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Perimeter of a square = 4 × side = 4 × 9 = 36 cm.",
+      "as": "বৰ্গৰ পৰিসীমা = 4 × বাহু = 4 × 9 = 36 cm।"
+    }
+  },
+  {
+    "id": "basic-mensuration-013",
+    "q": {
+      "en": "The perimeter of a square whose side is 16 cm is —",
+      "as": "16 cm বাহুৰ এটা বৰ্গৰ পৰিসীমা —"
+    },
+    "options": [
+      { "en": "256 cm", "as": "256 cm" },
+      { "en": "64 cm", "as": "64 cm" },
+      { "en": "32 cm", "as": "32 cm" },
+      { "en": "128 cm", "as": "128 cm" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Perimeter = 4 × 16 = 64 cm.",
+      "as": "পৰিসীমা = 4 × 16 = 64 cm।"
+    }
+  },
+  {
+    "id": "basic-mensuration-014",
+    "q": {
+      "en": "The area of a circle whose radius is 7 cm is — (π = 22/7)",
+      "as": "7 cm ব্যাসাৰ্ধৰ এটা বৃত্তৰ কালি — (π = 22/7)"
+    },
+    "options": [
+      { "en": "154 cm²", "as": "154 cm²" },
+      { "en": "44 cm²", "as": "44 cm²" },
+      { "en": "22 cm²", "as": "22 cm²" },
+      { "en": "77 cm²", "as": "77 cm²" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Area of a circle = πr² = 22/7 × 7 × 7 = 154 cm².",
+      "as": "বৃত্তৰ কালি = πr² = 22/7 × 7 × 7 = 154 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-015",
+    "q": {
+      "en": "The circumference of a circle whose radius is 7 cm is — (π = 22/7)",
+      "as": "7 cm ব্যাসাৰ্ধৰ এটা বৃত্তৰ পৰিধি — (π = 22/7)"
+    },
+    "options": [
+      { "en": "22 cm", "as": "22 cm" },
+      { "en": "154 cm", "as": "154 cm" },
+      { "en": "44 cm", "as": "44 cm" },
+      { "en": "88 cm", "as": "88 cm" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Circumference = 2πr = 2 × 22/7 × 7 = 44 cm.",
+      "as": "পৰিধি = 2πr = 2 × 22/7 × 7 = 44 cm।"
+    }
+  },
+  {
+    "id": "basic-mensuration-016",
+    "q": {
+      "en": "The area of a circle whose radius is 14 cm is — (π = 22/7)",
+      "as": "14 cm ব্যাসাৰ্ধৰ এটা বৃত্তৰ কালি — (π = 22/7)"
+    },
+    "options": [
+      { "en": "88 cm²", "as": "88 cm²" },
+      { "en": "308 cm²", "as": "308 cm²" },
+      { "en": "44 cm²", "as": "44 cm²" },
+      { "en": "616 cm²", "as": "616 cm²" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Area = πr² = 22/7 × 14 × 14 = 616 cm².",
+      "as": "কালি = πr² = 22/7 × 14 × 14 = 616 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-017",
+    "q": {
+      "en": "The circumference of a circle whose diameter is 14 cm is — (π = 22/7)",
+      "as": "14 cm ব্যাসৰ এটা বৃত্তৰ পৰিধি — (π = 22/7)"
+    },
+    "options": [
+      { "en": "14 cm", "as": "14 cm" },
+      { "en": "44 cm", "as": "44 cm" },
+      { "en": "88 cm", "as": "88 cm" },
+      { "en": "22 cm", "as": "22 cm" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Radius = 14 / 2 = 7 cm; circumference = 2πr = 2 × 22/7 × 7 = 44 cm.",
+      "as": "ব্যাসাৰ্ধ = 14 / 2 = 7 cm; পৰিধি = 2πr = 2 × 22/7 × 7 = 44 cm।"
+    }
+  },
+  {
+    "id": "basic-mensuration-018",
+    "q": {
+      "en": "The area of a parallelogram whose base is 12 cm and height is 7 cm is —",
+      "as": "12 cm ভূমি আৰু 7 cm উচ্চতাৰ এটা সামান্তৰিকৰ কালি —"
+    },
+    "options": [
+      { "en": "19 cm²", "as": "19 cm²" },
+      { "en": "42 cm²", "as": "42 cm²" },
+      { "en": "84 cm²", "as": "84 cm²" },
+      { "en": "96 cm²", "as": "96 cm²" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Area of a parallelogram = base × height = 12 × 7 = 84 cm².",
+      "as": "সামান্তৰিকৰ কালি = ভূমি × উচ্চতা = 12 × 7 = 84 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-019",
+    "q": {
+      "en": "The area of a parallelogram whose base is 15 cm and height is 6 cm is —",
+      "as": "15 cm ভূমি আৰু 6 cm উচ্চতাৰ এটা সামান্তৰিকৰ কালি —"
+    },
+    "options": [
+      { "en": "90 cm²", "as": "90 cm²" },
+      { "en": "45 cm²", "as": "45 cm²" },
+      { "en": "15 cm²", "as": "15 cm²" },
+      { "en": "180 cm²", "as": "180 cm²" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Area = base × height = 15 × 6 = 90 cm².",
+      "as": "কালি = ভূমি × উচ্চতা = 15 × 6 = 90 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-020",
+    "q": {
+      "en": "The parallel sides of a trapezium are 8 cm and 12 cm and its height is 5 cm. Its area is —",
+      "as": "এটা ট্ৰেপিজিয়ামৰ সমান্তৰাল বাহু 8 cm আৰু 12 cm আৰু উচ্চতা 5 cm। ইয়াৰ কালি —"
+    },
+    "options": [
+      { "en": "20 cm²", "as": "20 cm²" },
+      { "en": "100 cm²", "as": "100 cm²" },
+      { "en": "40 cm²", "as": "40 cm²" },
+      { "en": "50 cm²", "as": "50 cm²" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Area = ½ × (sum of parallel sides) × height = ½ × (8 + 12) × 5 = 50 cm².",
+      "as": "কালি = ½ × (সমান্তৰাল বাহুৰ সমষ্টি) × উচ্চতা = ½ × (8 + 12) × 5 = 50 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-021",
+    "q": {
+      "en": "The parallel sides of a trapezium are 10 cm and 6 cm and its height is 4 cm. Its area is —",
+      "as": "এটা ট্ৰেপিজিয়ামৰ সমান্তৰাল বাহু 10 cm আৰু 6 cm আৰু উচ্চতা 4 cm। ইয়াৰ কালি —"
+    },
+    "options": [
+      { "en": "64 cm²", "as": "64 cm²" },
+      { "en": "40 cm²", "as": "40 cm²" },
+      { "en": "20 cm²", "as": "20 cm²" },
+      { "en": "32 cm²", "as": "32 cm²" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Area = ½ × (10 + 6) × 4 = ½ × 16 × 4 = 32 cm².",
+      "as": "কালি = ½ × (10 + 6) × 4 = ½ × 16 × 4 = 32 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-022",
+    "q": {
+      "en": "The diagonals of a rhombus are 10 cm and 8 cm. Its area is —",
+      "as": "এটা ৰম্বাছৰ কৰ্ণ 10 cm আৰু 8 cm। ইয়াৰ কালি —"
+    },
+    "options": [
+      { "en": "80 cm²", "as": "80 cm²" },
+      { "en": "40 cm²", "as": "40 cm²" },
+      { "en": "20 cm²", "as": "20 cm²" },
+      { "en": "18 cm²", "as": "18 cm²" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Area of a rhombus = ½ × d₁ × d₂ = ½ × 10 × 8 = 40 cm².",
+      "as": "ৰম্বাছৰ কালি = ½ × d₁ × d₂ = ½ × 10 × 8 = 40 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-023",
+    "q": {
+      "en": "The volume of a cube whose side is 4 cm is —",
+      "as": "4 cm বাহুৰ এটা ঘনকৰ আয়তন —"
+    },
+    "options": [
+      { "en": "16 cm³", "as": "16 cm³" },
+      { "en": "48 cm³", "as": "48 cm³" },
+      { "en": "64 cm³", "as": "64 cm³" },
+      { "en": "32 cm³", "as": "32 cm³" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Volume of a cube = side³ = 4 × 4 × 4 = 64 cm³.",
+      "as": "ঘনকৰ আয়তন = বাহু³ = 4 × 4 × 4 = 64 cm³।"
+    }
+  },
+  {
+    "id": "basic-mensuration-024",
+    "q": {
+      "en": "The volume of a cube whose side is 5 cm is —",
+      "as": "5 cm বাহুৰ এটা ঘনকৰ আয়তন —"
+    },
+    "options": [
+      { "en": "125 cm³", "as": "125 cm³" },
+      { "en": "25 cm³", "as": "25 cm³" },
+      { "en": "75 cm³", "as": "75 cm³" },
+      { "en": "100 cm³", "as": "100 cm³" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Volume = 5 × 5 × 5 = 125 cm³.",
+      "as": "আয়তন = 5 × 5 × 5 = 125 cm³।"
+    }
+  },
+  {
+    "id": "basic-mensuration-025",
+    "q": {
+      "en": "The volume of a cuboid whose length, breadth and height are 10 cm, 5 cm and 4 cm is —",
+      "as": "10 cm, 5 cm আৰু 4 cm দীঘ, প্ৰস্থ আৰু উচ্চতাৰ এটা আয়তঘনৰ আয়তন —"
+    },
+    "options": [
+      { "en": "19 cm³", "as": "19 cm³" },
+      { "en": "100 cm³", "as": "100 cm³" },
+      { "en": "80 cm³", "as": "80 cm³" },
+      { "en": "200 cm³", "as": "200 cm³" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Volume = length × breadth × height = 10 × 5 × 4 = 200 cm³.",
+      "as": "আয়তন = দীঘ × প্ৰস্থ × উচ্চতা = 10 × 5 × 4 = 200 cm³।"
+    }
+  },
+  {
+    "id": "basic-mensuration-026",
+    "q": {
+      "en": "The volume of a cuboid whose length, breadth and height are 6 cm, 4 cm and 3 cm is —",
+      "as": "6 cm, 4 cm আৰু 3 cm দীঘ, প্ৰস্থ আৰু উচ্চতাৰ এটা আয়তঘনৰ আয়তন —"
+    },
+    "options": [
+      { "en": "13 cm³", "as": "13 cm³" },
+      { "en": "72 cm³", "as": "72 cm³" },
+      { "en": "36 cm³", "as": "36 cm³" },
+      { "en": "48 cm³", "as": "48 cm³" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Volume = 6 × 4 × 3 = 72 cm³.",
+      "as": "আয়তন = 6 × 4 × 3 = 72 cm³।"
+    }
+  },
+  {
+    "id": "basic-mensuration-027",
+    "q": {
+      "en": "The total surface area of a cube whose side is 4 cm is —",
+      "as": "4 cm বাহুৰ এটা ঘনকৰ মুঠ পৃষ্ঠকালি —"
+    },
+    "options": [
+      { "en": "64 cm²", "as": "64 cm²" },
+      { "en": "48 cm²", "as": "48 cm²" },
+      { "en": "24 cm²", "as": "24 cm²" },
+      { "en": "96 cm²", "as": "96 cm²" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Surface area of a cube = 6 × side² = 6 × 16 = 96 cm².",
+      "as": "ঘনকৰ পৃষ্ঠকালি = 6 × বাহু² = 6 × 16 = 96 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-028",
+    "q": {
+      "en": "The total surface area of a cube whose side is 3 cm is —",
+      "as": "3 cm বাহুৰ এটা ঘনকৰ মুঠ পৃষ্ঠকালি —"
+    },
+    "options": [
+      { "en": "27 cm²", "as": "27 cm²" },
+      { "en": "36 cm²", "as": "36 cm²" },
+      { "en": "54 cm²", "as": "54 cm²" },
+      { "en": "18 cm²", "as": "18 cm²" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Surface area = 6 × 3² = 6 × 9 = 54 cm².",
+      "as": "পৃষ্ঠকালি = 6 × 3² = 6 × 9 = 54 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-029",
+    "q": {
+      "en": "The total surface area of a cuboid of dimensions 10 cm × 5 cm × 4 cm is —",
+      "as": "10 cm × 5 cm × 4 cm মাপৰ এটা আয়তঘনৰ মুঠ পৃষ্ঠকালি —"
+    },
+    "options": [
+      { "en": "200 cm²", "as": "200 cm²" },
+      { "en": "220 cm²", "as": "220 cm²" },
+      { "en": "110 cm²", "as": "110 cm²" },
+      { "en": "240 cm²", "as": "240 cm²" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Surface area = 2(lb + bh + hl) = 2(50 + 20 + 40) = 220 cm².",
+      "as": "পৃষ্ঠকালি = 2(lb + bh + hl) = 2(50 + 20 + 40) = 220 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-030",
+    "q": {
+      "en": "The volume of a cylinder whose radius is 7 cm and height is 10 cm is — (π = 22/7)",
+      "as": "7 cm ব্যাসাৰ্ধ আৰু 10 cm উচ্চতাৰ এটা বেলনৰ আয়তন — (π = 22/7)"
+    },
+    "options": [
+      { "en": "1540 cm³", "as": "1540 cm³" },
+      { "en": "154 cm³", "as": "154 cm³" },
+      { "en": "440 cm³", "as": "440 cm³" },
+      { "en": "770 cm³", "as": "770 cm³" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Volume of a cylinder = πr²h = 22/7 × 7 × 7 × 10 = 1540 cm³.",
+      "as": "বেলনৰ আয়তন = πr²h = 22/7 × 7 × 7 × 10 = 1540 cm³।"
+    }
+  },
+  {
+    "id": "basic-mensuration-031",
+    "q": {
+      "en": "The volume of a cylinder whose radius is 7 cm and height is 5 cm is — (π = 22/7)",
+      "as": "7 cm ব্যাসাৰ্ধ আৰু 5 cm উচ্চতাৰ এটা বেলনৰ আয়তন — (π = 22/7)"
+    },
+    "options": [
+      { "en": "154 cm³", "as": "154 cm³" },
+      { "en": "385 cm³", "as": "385 cm³" },
+      { "en": "220 cm³", "as": "220 cm³" },
+      { "en": "770 cm³", "as": "770 cm³" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Volume = πr²h = 22/7 × 7 × 7 × 5 = 770 cm³.",
+      "as": "আয়তন = πr²h = 22/7 × 7 × 7 × 5 = 770 cm³।"
+    }
+  },
+  {
+    "id": "basic-mensuration-032",
+    "q": {
+      "en": "The volume of a cone whose radius is 7 cm and height is 12 cm is — (π = 22/7)",
+      "as": "7 cm ব্যাসাৰ্ধ আৰু 12 cm উচ্চতাৰ এটা শংকুৰ আয়তন — (π = 22/7)"
+    },
+    "options": [
+      { "en": "616 cm³", "as": "616 cm³" },
+      { "en": "1848 cm³", "as": "1848 cm³" },
+      { "en": "308 cm³", "as": "308 cm³" },
+      { "en": "1232 cm³", "as": "1232 cm³" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Volume of a cone = ⅓πr²h = ⅓ × 22/7 × 7 × 7 × 12 = 616 cm³.",
+      "as": "শংকুৰ আয়তন = ⅓πr²h = ⅓ × 22/7 × 7 × 7 × 12 = 616 cm³।"
+    }
+  },
+  {
+    "id": "basic-mensuration-033",
+    "q": {
+      "en": "The area of a semicircle whose radius is 14 cm is — (π = 22/7)",
+      "as": "14 cm ব্যাসাৰ্ধৰ এটা অৰ্ধবৃত্তৰ কালি — (π = 22/7)"
+    },
+    "options": [
+      { "en": "616 cm²", "as": "616 cm²" },
+      { "en": "154 cm²", "as": "154 cm²" },
+      { "en": "308 cm²", "as": "308 cm²" },
+      { "en": "88 cm²", "as": "88 cm²" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Area of a semicircle = ½πr² = ½ × 22/7 × 14 × 14 = 308 cm².",
+      "as": "অৰ্ধবৃত্তৰ কালি = ½πr² = ½ × 22/7 × 14 × 14 = 308 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-034",
+    "q": {
+      "en": "The length and breadth of a rectangle are 3 cm and 4 cm. Its diagonal is —",
+      "as": "এটা আয়তৰ দীঘ আৰু প্ৰস্থ ক্ৰমে 3 cm আৰু 4 cm। ইয়াৰ কৰ্ণ —"
+    },
+    "options": [
+      { "en": "7 cm", "as": "7 cm" },
+      { "en": "5 cm", "as": "5 cm" },
+      { "en": "12 cm", "as": "12 cm" },
+      { "en": "6 cm", "as": "6 cm" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Diagonal = √(l² + b²) = √(3² + 4²) = √25 = 5 cm.",
+      "as": "কৰ্ণ = √(l² + b²) = √(3² + 4²) = √25 = 5 cm।"
+    }
+  },
+  {
+    "id": "basic-mensuration-035",
+    "q": {
+      "en": "The length and breadth of a rectangle are 6 cm and 8 cm. Its diagonal is —",
+      "as": "এটা আয়তৰ দীঘ আৰু প্ৰস্থ ক্ৰমে 6 cm আৰু 8 cm। ইয়াৰ কৰ্ণ —"
+    },
+    "options": [
+      { "en": "14 cm", "as": "14 cm" },
+      { "en": "48 cm", "as": "48 cm" },
+      { "en": "10 cm", "as": "10 cm" },
+      { "en": "12 cm", "as": "12 cm" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Diagonal = √(6² + 8²) = √100 = 10 cm.",
+      "as": "কৰ্ণ = √(6² + 8²) = √100 = 10 cm।"
+    }
+  },
+  {
+    "id": "basic-mensuration-036",
+    "q": {
+      "en": "The sides of a triangle are 6 cm, 8 cm and 10 cm. Its perimeter is —",
+      "as": "এটা ত্ৰিভুজৰ বাহু 6 cm, 8 cm আৰু 10 cm। ইয়াৰ পৰিসীমা —"
+    },
+    "options": [
+      { "en": "24 cm", "as": "24 cm" },
+      { "en": "48 cm", "as": "48 cm" },
+      { "en": "14 cm", "as": "14 cm" },
+      { "en": "30 cm", "as": "30 cm" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Perimeter of a triangle = sum of sides = 6 + 8 + 10 = 24 cm.",
+      "as": "ত্ৰিভুজৰ পৰিসীমা = বাহুকেইটাৰ সমষ্টি = 6 + 8 + 10 = 24 cm।"
+    }
+  },
+  {
+    "id": "basic-mensuration-037",
+    "q": {
+      "en": "The perimeter of a square is 36 cm. Its area is —",
+      "as": "এটা বৰ্গৰ পৰিসীমা 36 cm। ইয়াৰ কালি —"
+    },
+    "options": [
+      { "en": "36 cm²", "as": "36 cm²" },
+      { "en": "18 cm²", "as": "18 cm²" },
+      { "en": "72 cm²", "as": "72 cm²" },
+      { "en": "81 cm²", "as": "81 cm²" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Side = 36 / 4 = 9 cm; area = 9 × 9 = 81 cm².",
+      "as": "বাহু = 36 / 4 = 9 cm; কালি = 9 × 9 = 81 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-038",
+    "q": {
+      "en": "The perimeter of a square is 40 cm. Its area is —",
+      "as": "এটা বৰ্গৰ পৰিসীমা 40 cm। ইয়াৰ কালি —"
+    },
+    "options": [
+      { "en": "100 cm²", "as": "100 cm²" },
+      { "en": "40 cm²", "as": "40 cm²" },
+      { "en": "80 cm²", "as": "80 cm²" },
+      { "en": "25 cm²", "as": "25 cm²" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Side = 40 / 4 = 10 cm; area = 10 × 10 = 100 cm².",
+      "as": "বাহু = 40 / 4 = 10 cm; কালি = 10 × 10 = 100 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-039",
+    "q": {
+      "en": "The area of a rectangle whose length is 5 m and breadth is 3 m is —",
+      "as": "5 m দীঘ আৰু 3 m প্ৰস্থৰ এটা আয়তৰ কালি —"
+    },
+    "options": [
+      { "en": "8 m²", "as": "8 m²" },
+      { "en": "30 m²", "as": "30 m²" },
+      { "en": "15 m²", "as": "15 m²" },
+      { "en": "16 m²", "as": "16 m²" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Area = length × breadth = 5 × 3 = 15 m².",
+      "as": "কালি = দীঘ × প্ৰস্থ = 5 × 3 = 15 m²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-040",
+    "q": {
+      "en": "The cost of fencing a square field of side 20 m at Rs 5 per metre is —",
+      "as": "20 m বাহুৰ এটা বৰ্গাকৃতি পথাৰ Rs 5 প্ৰতি মিটাৰ হাৰত বেৰ দিবলৈ খৰচ —"
+    },
+    "options": [
+      { "en": "Rs 100", "as": "Rs 100" },
+      { "en": "Rs 400", "as": "Rs 400" },
+      { "en": "Rs 200", "as": "Rs 200" },
+      { "en": "Rs 300", "as": "Rs 300" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Perimeter = 4 × 20 = 80 m; cost = 80 × 5 = Rs 400.",
+      "as": "পৰিসীমা = 4 × 20 = 80 m; খৰচ = 80 × 5 = Rs 400।"
+    }
+  },
+  {
+    "id": "basic-mensuration-041",
+    "q": {
+      "en": "The cost of painting a rectangle of 10 m × 5 m at Rs 2 per square metre is —",
+      "as": "10 m × 5 m ৰ এটা আয়ত Rs 2 প্ৰতি বৰ্গমিটাৰ হাৰত ৰং কৰিবলৈ খৰচ —"
+    },
+    "options": [
+      { "en": "Rs 50", "as": "Rs 50" },
+      { "en": "Rs 150", "as": "Rs 150" },
+      { "en": "Rs 100", "as": "Rs 100" },
+      { "en": "Rs 200", "as": "Rs 200" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Area = 10 × 5 = 50 m²; cost = 50 × 2 = Rs 100.",
+      "as": "কালি = 10 × 5 = 50 m²; খৰচ = 50 × 2 = Rs 100।"
+    }
+  },
+  {
+    "id": "basic-mensuration-042",
+    "q": {
+      "en": "The volume of a cube whose edge is 8 cm is —",
+      "as": "8 cm কাষৰ এটা ঘনকৰ আয়তন —"
+    },
+    "options": [
+      { "en": "64 cm³", "as": "64 cm³" },
+      { "en": "256 cm³", "as": "256 cm³" },
+      { "en": "384 cm³", "as": "384 cm³" },
+      { "en": "512 cm³", "as": "512 cm³" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Volume = 8 × 8 × 8 = 512 cm³.",
+      "as": "আয়তন = 8 × 8 × 8 = 512 cm³।"
+    }
+  },
+  {
+    "id": "basic-mensuration-043",
+    "q": {
+      "en": "The area of a rectangle is 48 cm² and its length is 8 cm. Its breadth is —",
+      "as": "এটা আয়তৰ কালি 48 cm² আৰু দীঘ 8 cm। ইয়াৰ প্ৰস্থ —"
+    },
+    "options": [
+      { "en": "6 cm", "as": "6 cm" },
+      { "en": "8 cm", "as": "8 cm" },
+      { "en": "40 cm", "as": "40 cm" },
+      { "en": "12 cm", "as": "12 cm" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Breadth = area / length = 48 / 8 = 6 cm.",
+      "as": "প্ৰস্থ = কালি / দীঘ = 48 / 8 = 6 cm।"
+    }
+  },
+  {
+    "id": "basic-mensuration-044",
+    "q": {
+      "en": "The area of a square is 144 cm². Its side is —",
+      "as": "এটা বৰ্গৰ কালি 144 cm²। ইয়াৰ বাহু —"
+    },
+    "options": [
+      { "en": "14 cm", "as": "14 cm" },
+      { "en": "12 cm", "as": "12 cm" },
+      { "en": "24 cm", "as": "24 cm" },
+      { "en": "72 cm", "as": "72 cm" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Side = √144 = 12 cm.",
+      "as": "বাহু = √144 = 12 cm।"
+    }
+  },
+  {
+    "id": "basic-mensuration-045",
+    "q": {
+      "en": "The circumference of a circle is 44 cm. Its radius is — (π = 22/7)",
+      "as": "এটা বৃত্তৰ পৰিধি 44 cm। ইয়াৰ ব্যাসাৰ্ধ — (π = 22/7)"
+    },
+    "options": [
+      { "en": "14 cm", "as": "14 cm" },
+      { "en": "22 cm", "as": "22 cm" },
+      { "en": "11 cm", "as": "11 cm" },
+      { "en": "7 cm", "as": "7 cm" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2πr = 44; 2 × 22/7 × r = 44; r = 7 cm.",
+      "as": "2πr = 44; 2 × 22/7 × r = 44; r = 7 cm।"
+    }
+  },
+  {
+    "id": "basic-mensuration-046",
+    "q": {
+      "en": "The volume of a cuboid is 120 cm³. If its length is 5 cm and breadth is 4 cm, its height is —",
+      "as": "এটা আয়তঘনৰ আয়তন 120 cm³। যদি ইয়াৰ দীঘ 5 cm আৰু প্ৰস্থ 4 cm হয়, উচ্চতা —"
+    },
+    "options": [
+      { "en": "6 cm", "as": "6 cm" },
+      { "en": "20 cm", "as": "20 cm" },
+      { "en": "24 cm", "as": "24 cm" },
+      { "en": "30 cm", "as": "30 cm" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Height = volume / (length × breadth) = 120 / (5 × 4) = 6 cm.",
+      "as": "উচ্চতা = আয়তন / (দীঘ × প্ৰস্থ) = 120 / (5 × 4) = 6 cm।"
+    }
+  },
+  {
+    "id": "basic-mensuration-047",
+    "q": {
+      "en": "The perimeter of a rectangle is 40 cm and its length is 12 cm. Its breadth is —",
+      "as": "এটা আয়তৰ পৰিসীমা 40 cm আৰু দীঘ 12 cm। ইয়াৰ প্ৰস্থ —"
+    },
+    "options": [
+      { "en": "28 cm", "as": "28 cm" },
+      { "en": "8 cm", "as": "8 cm" },
+      { "en": "16 cm", "as": "16 cm" },
+      { "en": "10 cm", "as": "10 cm" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2(l + b) = 40; l + b = 20; b = 20 − 12 = 8 cm.",
+      "as": "2(l + b) = 40; l + b = 20; b = 20 − 12 = 8 cm।"
+    }
+  },
+  {
+    "id": "basic-mensuration-048",
+    "q": {
+      "en": "The area of a triangle whose base is 20 cm and height is 15 cm is —",
+      "as": "20 cm ভূমি আৰু 15 cm উচ্চতাৰ এটা ত্ৰিভুজৰ কালি —"
+    },
+    "options": [
+      { "en": "300 cm²", "as": "300 cm²" },
+      { "en": "75 cm²", "as": "75 cm²" },
+      { "en": "150 cm²", "as": "150 cm²" },
+      { "en": "175 cm²", "as": "175 cm²" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Area = ½ × base × height = ½ × 20 × 15 = 150 cm².",
+      "as": "কালি = ½ × ভূমি × উচ্চতা = ½ × 20 × 15 = 150 cm²।"
+    }
+  },
+  {
+    "id": "basic-mensuration-049",
+    "q": {
+      "en": "The area of a circle whose radius is 21 cm is — (π = 22/7)",
+      "as": "21 cm ব্যাসাৰ্ধৰ এটা বৃত্তৰ কালি — (π = 22/7)"
+    },
+    "options": [
+      { "en": "132 cm²", "as": "132 cm²" },
+      { "en": "693 cm²", "as": "693 cm²" },
+      { "en": "264 cm²", "as": "264 cm²" },
+      { "en": "1386 cm²", "as": "1386 cm²" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Area = πr² = 22/7 × 21 × 21 = 1386 cm².",
+      "as": "কালি = πr² = 22/7 × 21 × 21 = 1386 cm²।"
+    }
   }
-}
+]
