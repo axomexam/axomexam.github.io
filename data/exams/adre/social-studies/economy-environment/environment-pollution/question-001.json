@@ -1,30 +1,5552 @@
-{
-  "id": "environment-pollution-001",
-  "q": {
-    "en": "Which gas is mainly responsible for the greenhouse effect?",
-    "as": "গ্ৰীনহাউছ প্ৰভাৱৰ বাবে মূলতঃ কোনটো গেছ দায়ী?"
-  },
-  "options": [
-    {
-      "en": "Oxygen",
-      "as": "অক্সিজেন"
+[
+  {
+    "id": "environment-pollution-001",
+    "q": {
+      "en": "Which gas is mainly responsible for the greenhouse effect?",
+      "as": "গ্ৰীনহাউছ প্ৰভাৱৰ বাবে মূলতঃ কোনটো গেছ দায়ী?"
     },
-    {
-      "en": "Carbon dioxide",
-      "as": "কাৰ্বন ডাই অক্সাইড"
-    },
-    {
-      "en": "Nitrogen",
-      "as": "নাইট্ৰোজেন"
-    },
-    {
-      "en": "Helium",
-      "as": "হিলিয়াম"
+    "options": [
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰোজেন"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      },
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Carbon dioxide (CO₂) is the main greenhouse gas responsible for global warming.",
+      "as": "কাৰ্বন ডাই অক্সাইড (CO₂) গোলকীয় উষ্ণতা বৃদ্ধিৰ বাবে দায়ী প্ৰধান গ্ৰীনহাউছ গেছ।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "Carbon dioxide (CO₂) is the main greenhouse gas responsible for global warming.",
-    "as": "কাৰ্বন ডাই অক্সাইড (CO₂) গোলকীয় উষ্ণতা বৃদ্ধিৰ বাবে দায়ী প্ৰধান গ্ৰীনহাউছ গেছ।"
+  },
+  {
+    "id": "environment-pollution-002",
+    "q": {
+      "en": "Which gas is most abundant in the Earth's atmosphere?",
+      "as": "পৃথিৱীৰ বায়ুমণ্ডলত সৰ্বাধিক পৰিমাণত থকা গেছ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰোজেন"
+      },
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Argon",
+        "as": "আৰ্গন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Nitrogen makes up about 78% of the atmosphere.",
+      "as": "নাইট্ৰোজেনে বায়ুমণ্ডলৰ প্ৰায় ৭৮% অংশ গঠন কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-003",
+    "q": {
+      "en": "Which substance is mainly responsible for ozone layer depletion?",
+      "as": "ওজোন স্তৰ ক্ষয়ৰ বাবে মূলতঃ কোনটো পদাৰ্থ দায়ী?"
+    },
+    "options": [
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Methane",
+        "as": "মিথেন"
+      },
+      {
+        "en": "Chlorofluorocarbons (CFCs)",
+        "as": "ক্ল'ৰ'ফ্ল'ৰ'কাৰ্বন (CFC)"
+      },
+      {
+        "en": "Sulphur dioxide",
+        "as": "ছালফাৰ ডাই অক্সাইড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "CFCs release chlorine atoms that destroy ozone molecules in the stratosphere.",
+      "as": "CFC-এ ক্ল'ৰিন পৰমাণু মুক্ত কৰি ষ্টেট'স্ফিয়াৰত ওজোন অণু ধ্বংস কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-004",
+    "q": {
+      "en": "Minamata disease is caused by which pollutant?",
+      "as": "মিনামাটা ৰোগ কোনটো প্ৰদূষকৰ বাবে হয়?"
+    },
+    "options": [
+      {
+        "en": "Lead",
+        "as": "সীসা"
+      },
+      {
+        "en": "Mercury",
+        "as": "পাৰা"
+      },
+      {
+        "en": "Arsenic",
+        "as": "আৰ্ছেনিক"
+      },
+      {
+        "en": "Cadmium",
+        "as": "কেডমিয়াম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Minamata disease is caused by mercury poisoning, especially methylmercury in fish.",
+      "as": "মিনামাটা ৰোগ পাৰাৰ বিষক্ৰিয়াৰ ফলত হয়, বিশেষকৈ মাছত থকা মিথাইলমাৰকিউৰীৰ দ্বাৰা।"
+    }
+  },
+  {
+    "id": "environment-pollution-005",
+    "q": {
+      "en": "Itai-itai disease is caused by which heavy metal?",
+      "as": "ইটাই-ইটাই ৰোগ কোনটো গধুৰ ধাতুৰ দ্বাৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Mercury",
+        "as": "পাৰা"
+      },
+      {
+        "en": "Lead",
+        "as": "সীসা"
+      },
+      {
+        "en": "Chromium",
+        "as": "ক্ৰ'মিয়াম"
+      },
+      {
+        "en": "Cadmium",
+        "as": "কেডমিয়াম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Itai-itai disease is caused by cadmium pollution of water and rice.",
+      "as": "ইটাই-ইটাই ৰোগ পানী আৰু চাউলত কেডমিয়াম প্ৰদূষণৰ ফলত হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-006",
+    "q": {
+      "en": "Which toxic gas leaked in the Bhopal gas tragedy?",
+      "as": "ভূপাল গেছ ট্ৰেজেডীত কোনটো বিষাক্ত গেছ ওলাইছিল?"
+    },
+    "options": [
+      {
+        "en": "Methyl isocyanate (MIC)",
+        "as": "মিথাইল আইছ'চায়ানেট (MIC)"
+      },
+      {
+        "en": "Chlorine",
+        "as": "ক্ল'ৰিন"
+      },
+      {
+        "en": "Ammonia",
+        "as": "এম'নিয়া"
+      },
+      {
+        "en": "Phosgene",
+        "as": "ফছজিন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Methyl isocyanate (MIC) leaked from the Union Carbide plant in 1984.",
+      "as": "১৯৮৪ চনত ইউনিয়ন কাৰ্বাইড কাৰখানাৰ পৰা মিথাইল আইছ'চায়ানেট (MIC) ওলাইছিল।"
+    }
+  },
+  {
+    "id": "environment-pollution-007",
+    "q": {
+      "en": "Which gases are mainly responsible for acid rain?",
+      "as": "অম্লীয় বৰষুণৰ বাবে মূলতঃ কোনটো গেছ দায়ী?"
+    },
+    "options": [
+      {
+        "en": "Carbon dioxide and oxygen",
+        "as": "কাৰ্বন ডাই অক্সাইড আৰু অক্সিজেন"
+      },
+      {
+        "en": "Nitrogen and hydrogen",
+        "as": "নাইট্ৰোজেন আৰু হাইড্ৰজেন"
+      },
+      {
+        "en": "Sulphur dioxide and nitrogen oxides",
+        "as": "ছালফাৰ ডাই অক্সাইড আৰু নাইট্ৰোজেন অক্সাইড"
+      },
+      {
+        "en": "Oxygen and hydrogen",
+        "as": "অক্সিজেন আৰু হাইড্ৰজেন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SO₂ and NOx react with water vapour to form sulphuric and nitric acids.",
+      "as": "SO₂ আৰু NOx-এ জলীয় বাষ্পৰ সৈতে বিক্ৰিয়া কৰি ছালফিউৰিক আৰু নাইট্ৰিক এচিড গঠন কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-008",
+    "q": {
+      "en": "What is the pH of normal rain water?",
+      "as": "সাধাৰণ বৰষুণৰ পানীৰ pH কিমান?"
+    },
+    "options": [
+      {
+        "en": "7.0",
+        "as": "৭.০"
+      },
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "5.6",
+        "as": "৫.৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Normal rain is slightly acidic with pH about 5.6 due to dissolved CO₂.",
+      "as": "দ্ৰৱীভূত CO₂ ৰ বাবে সাধাৰণ বৰষুণৰ pH প্ৰায় ৫.৬, অৰ্থাৎ সামান্য অম্লীয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-009",
+    "q": {
+      "en": "Noise pollution is measured in which unit?",
+      "as": "শব্দ প্ৰদূষণ কোনটো এককত মাপা হয়?"
+    },
+    "options": [
+      {
+        "en": "Decibel",
+        "as": "ডেচিবেল"
+      },
+      {
+        "en": "Hertz",
+        "as": "হাৰ্টজ"
+      },
+      {
+        "en": "Pascal",
+        "as": "পাস্কেল"
+      },
+      {
+        "en": "Watt",
+        "as": "ৱাট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Noise intensity or loudness is measured in decibels (dB).",
+      "as": "শব্দৰ তীব্ৰতা বা মাত্ৰা ডেচিবেল (dB) ত মাপা হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-010",
+    "q": {
+      "en": "The ozone layer is found in which layer of the atmosphere?",
+      "as": "ওজোন স্তৰ বায়ুমণ্ডলৰ কোনটো স্তৰত পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Troposphere",
+        "as": "ট্ৰ'প'স্ফিয়াৰ"
+      },
+      {
+        "en": "Mesosphere",
+        "as": "মেছ'স্ফিয়াৰ"
+      },
+      {
+        "en": "Thermosphere",
+        "as": "থাৰ্ম'স্ফিয়াৰ"
+      },
+      {
+        "en": "Stratosphere",
+        "as": "ষ্টেট'স্ফিয়াৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The ozone layer lies in the stratosphere and absorbs UV radiation.",
+      "as": "ওজোন স্তৰ ষ্টেট'স্ফিয়াৰত অৱস্থিত আৰু UV ৰশ্মি শোষণ কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-011",
+    "q": {
+      "en": "What is the chemical formula of ozone?",
+      "as": "ওজোনৰ ৰাসায়নিক সংকেত কি?"
+    },
+    "options": [
+      {
+        "en": "O₂",
+        "as": "O₂"
+      },
+      {
+        "en": "O₃",
+        "as": "O₃"
+      },
+      {
+        "en": "CO₂",
+        "as": "CO₂"
+      },
+      {
+        "en": "H₂O",
+        "as": "H₂O"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ozone is a molecule made of three oxygen atoms, O₃.",
+      "as": "ওজোন তিনিটা অক্সিজেন পৰমাণুৰে গঠিত অণু, O₃।"
+    }
+  },
+  {
+    "id": "environment-pollution-012",
+    "q": {
+      "en": "Which greenhouse gas is released from paddy fields and livestock?",
+      "as": "ধাননি আৰু পশুধনৰ পৰা কোনটো গ্ৰীনহাউছ গেছ নিৰ্গত হয়?"
+    },
+    "options": [
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Methane",
+        "as": "মিথেন"
+      },
+      {
+        "en": "Nitrous oxide",
+        "as": "নাইট্ৰাছ অক্সাইড"
+      },
+      {
+        "en": "CFC",
+        "as": "CFC"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Methane is produced by anaerobic decomposition in paddy fields and by livestock.",
+      "as": "ধাননিত অৱায়ু বিয়োজন আৰু পশুধনৰ পৰা মিথেন উৎপন্ন হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-013",
+    "q": {
+      "en": "What does AQI stand for?",
+      "as": "AQI ৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Air Quality Index",
+        "as": "বায়ু গুণমান সূচকাংক"
+      },
+      {
+        "en": "Atmospheric Quantity Index",
+        "as": "বায়ুমণ্ডলীয় পৰিমাণ সূচকাংক"
+      },
+      {
+        "en": "Air Quantity Indicator",
+        "as": "বায়ু পৰিমাণ সূচক"
+      },
+      {
+        "en": "Aquatic Quality Index",
+        "as": "জলীয় গুণমান সূচকাংক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "AQI stands for Air Quality Index, used to report how polluted the air is.",
+      "as": "AQI ৰ অৰ্থ বায়ু গুণমান সূচকাংক, যি বায়ু কিমান প্ৰদূষিত তাক জনায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-014",
+    "q": {
+      "en": "PM2.5 refers to particulate matter of what size?",
+      "as": "PM2.5 ে কিমান আকাৰৰ কণিকাক সূচায়?"
+    },
+    "options": [
+      {
+        "en": "Less than 2.5 millimetres",
+        "as": "২.৫ মিলিমিটাৰতকৈ কম"
+      },
+      {
+        "en": "Less than 2.5 micrometres",
+        "as": "২.৫ মাইক্ৰ'মিটাৰতকৈ কম"
+      },
+      {
+        "en": "More than 2.5 micrometres",
+        "as": "২.৫ মাইক্ৰ'মিটাৰতকৈ বেছি"
+      },
+      {
+        "en": "Exactly 2.5 centimetres",
+        "as": "ঠিক ২.৫ চেণ্টিমিটাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "PM2.5 are fine particles smaller than 2.5 micrometres that can enter deep into the lungs.",
+      "as": "PM2.5 হৈছে ২.৫ মাইক্ৰ'মিটাৰতকৈ সৰু সূক্ষ্ম কণা, যি ফুসফুসৰ গভীৰলৈকে প্ৰৱেশ কৰিব পাৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-015",
+    "q": {
+      "en": "Eutrophication of water bodies is mainly caused by excess of which nutrients?",
+      "as": "জলাশয়ৰ ইউট্ৰ'ফিকেশ্যন মূলতঃ কোনটো পুষ্টিৰ অতিমাত্ৰাৰ বাবে হয়?"
+    },
+    "options": [
+      {
+        "en": "Iron and copper",
+        "as": "লো আৰু তাম"
+      },
+      {
+        "en": "Calcium and magnesium",
+        "as": "কেলচিয়াম আৰু মেগনেছিয়াম"
+      },
+      {
+        "en": "Nitrogen and phosphorus",
+        "as": "নাইট্ৰোজেন আৰু ফছফৰাছ"
+      },
+      {
+        "en": "Sodium and potassium",
+        "as": "ছ'ডিয়াম আৰু পটাছিয়াম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Excess nitrogen and phosphorus from fertilizers and sewage cause algal blooms.",
+      "as": "সাৰ আৰু পয়ঃৰ পৰা অহা অতিৰিক্ত নাইট্ৰোজেন আৰু ফছফৰাছে শেলাইৰ বিস্ফোৰণ ঘটায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-016",
+    "q": {
+      "en": "Which of the following is a non-biodegradable pollutant?",
+      "as": "তলৰ কোনটো অ-জৈৱ-বিয়োজনযোগ্য প্ৰদূষক?"
+    },
+    "options": [
+      {
+        "en": "Vegetable peels",
+        "as": "পাচলিৰ বাকলি"
+      },
+      {
+        "en": "Paper",
+        "as": "কাগজ"
+      },
+      {
+        "en": "Cow dung",
+        "as": "গোবৰ"
+      },
+      {
+        "en": "Plastic",
+        "as": "প্লাষ্টিক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Plastic does not decompose naturally and persists in the environment for centuries.",
+      "as": "প্লাষ্টিক প্ৰাকৃতিকভাৱে বিয়োজিত নহয় আৰু শতিকাজুৰি পৰিৱেশত থাকি যায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-017",
+    "q": {
+      "en": "Which of the following is a biodegradable waste?",
+      "as": "তলৰ কোনটো জৈৱ-বিয়োজনযোগ্য আৱৰ্জনা?"
+    },
+    "options": [
+      {
+        "en": "Glass bottle",
+        "as": "কাচৰ বটল"
+      },
+      {
+        "en": "Plastic bag",
+        "as": "প্লাষ্টিকৰ মোনা"
+      },
+      {
+        "en": "Vegetable peels",
+        "as": "পাচলিৰ বাকলি"
+      },
+      {
+        "en": "Aluminium can",
+        "as": "এলুমিনিয়ামৰ কেন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Vegetable peels are organic and decomposed by microorganisms.",
+      "as": "পাচলিৰ বাকলি জৈৱিক আৰু অণুজীৱে ইয়াক বিয়োজিত কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-018",
+    "q": {
+      "en": "Which gas emitted from vehicle exhaust is highly poisonous?",
+      "as": "বাহনৰ নিষ্কাশনৰ পৰা নিৰ্গত কোনটো গেছ অতি বিষাক্ত?"
+    },
+    "options": [
+      {
+        "en": "Carbon monoxide",
+        "as": "কাৰ্বন মনোক্সাইড"
+      },
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰোজেন"
+      },
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Carbon monoxide is a toxic gas produced by incomplete combustion in engines.",
+      "as": "কাৰ্বন মনোক্সাইড ইঞ্জিনত অপূৰ্ণ দহনৰ পৰা উৎপন্ন হোৱা বিষাক্ত গেছ।"
+    }
+  },
+  {
+    "id": "environment-pollution-019",
+    "q": {
+      "en": "Why is carbon monoxide dangerous to humans?",
+      "as": "কাৰ্বন মনোক্সাইড মানুহৰ বাবে কিয় বিপজ্জনক?"
+    },
+    "options": [
+      {
+        "en": "It dissolves bones",
+        "as": "ই হাড় গলায়"
+      },
+      {
+        "en": "It increases blood pressure only",
+        "as": "ই কেৱল ৰক্তচাপ বৃদ্ধি কৰে"
+      },
+      {
+        "en": "It binds with haemoglobin and reduces oxygen supply",
+        "as": "ই হিম'গ্ল'বিনৰ সৈতে সংযুক্ত হৈ অক্সিজেন যোগান কমায়"
+      },
+      {
+        "en": "It has a pleasant smell",
+        "as": "ইয়াৰ সুগন্ধি গোন্ধ আছে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "CO binds with haemoglobin about 200 times more strongly than oxygen, causing suffocation.",
+      "as": "CO অক্সিজেনতকৈ প্ৰায় ২০০ গুণ বেছি দৃঢ়ভাৱে হিম'গ্ল'বিনৰ সৈতে সংযুক্ত হৈ উশাহ বন্ধ কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-020",
+    "q": {
+      "en": "Excess nitrate in drinking water causes which disease in infants?",
+      "as": "খোৱা পানীত অতিৰিক্ত নাইট্ৰেটে শিশুৰ কোনটো ৰোগ সৃষ্টি কৰে?"
+    },
+    "options": [
+      {
+        "en": "Blue baby syndrome",
+        "as": "ব্লু বেবী চিন্ড্ৰ'ম"
+      },
+      {
+        "en": "Malaria",
+        "as": "মেলেৰিয়া"
+      },
+      {
+        "en": "Typhoid",
+        "as": "টাইফয়ড"
+      },
+      {
+        "en": "Chicken pox",
+        "as": "আইতিমাৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Nitrate converts to nitrite and causes methaemoglobinaemia, called blue baby syndrome.",
+      "as": "নাইট্ৰেট নাইট্ৰাইটলৈ ৰূপান্তৰিত হৈ মিথেম'গ্ল'বিনিমিয়া সৃষ্টি কৰে, যাক ব্লু বেবী চিন্ড্ৰ'ম বোলে।"
+    }
+  },
+  {
+    "id": "environment-pollution-021",
+    "q": {
+      "en": "World Environment Day is celebrated on which date?",
+      "as": "বিশ্ব পৰিৱেশ দিৱস কোন তাৰিখে পালন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "5 June",
+        "as": "৫ জুন"
+      },
+      {
+        "en": "22 April",
+        "as": "২২ এপ্ৰিল"
+      },
+      {
+        "en": "16 September",
+        "as": "১৬ চেপ্তেম্বৰ"
+      },
+      {
+        "en": "2 February",
+        "as": "২ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Environment Day is observed every year on 5 June.",
+      "as": "বিশ্ব পৰিৱেশ দিৱস প্ৰতি বছৰে ৫ জুনত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-022",
+    "q": {
+      "en": "International Day for the Preservation of the Ozone Layer is observed on which date?",
+      "as": "আন্তৰ্জাতিক ওজোন স্তৰ সংৰক্ষণ দিৱস কোন তাৰিখে পালন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "5 June",
+        "as": "৫ জুন"
+      },
+      {
+        "en": "22 March",
+        "as": "২২ মাৰ্চ"
+      },
+      {
+        "en": "21 March",
+        "as": "২১ মাৰ্চ"
+      },
+      {
+        "en": "16 September",
+        "as": "১৬ চেপ্তেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Ozone Day is celebrated on 16 September to mark the Montreal Protocol.",
+      "as": "মণ্ট্ৰিয়াল প্ৰ'টোকলৰ স্মৰণত ১৬ চেপ্তেম্বৰত ওজোন দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-023",
+    "q": {
+      "en": "National Pollution Control Day in India is observed on which date?",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় প্ৰদূষণ নিয়ন্ত্ৰণ দিৱস কোন তাৰিখে পালন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "5 June",
+        "as": "৫ জুন"
+      },
+      {
+        "en": "2 December",
+        "as": "২ ডিচেম্বৰ"
+      },
+      {
+        "en": "22 April",
+        "as": "২২ এপ্ৰিল"
+      },
+      {
+        "en": "1 May",
+        "as": "১ মে'"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "It is observed on 2 December in memory of the Bhopal gas tragedy victims.",
+      "as": "ভূপাল গেছ ট্ৰেজেডীৰ ভুক্তভোগীসকলৰ স্মৃতিত ২ ডিচেম্বৰত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-024",
+    "q": {
+      "en": "World Wetlands Day is celebrated on which date?",
+      "as": "বিশ্ব জলাশয় দিৱস কোন তাৰিখে পালন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "22 March",
+        "as": "২২ মাৰ্চ"
+      },
+      {
+        "en": "21 March",
+        "as": "২১ মাৰ্চ"
+      },
+      {
+        "en": "3 March",
+        "as": "৩ মাৰ্চ"
+      },
+      {
+        "en": "2 February",
+        "as": "২ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Wetlands Day is celebrated on 2 February to raise awareness about wetlands.",
+      "as": "জলাশয়ৰ বিষয়ে সজাগতা বৃদ্ধিৰ বাবে ২ ফেব্ৰুৱাৰীত বিশ্ব জলাশয় দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-025",
+    "q": {
+      "en": "World Water Day is observed on which date?",
+      "as": "বিশ্ব জল দিৱস কোন তাৰিখে পালন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "5 June",
+        "as": "৫ জুন"
+      },
+      {
+        "en": "22 March",
+        "as": "২২ মাৰ্চ"
+      },
+      {
+        "en": "22 April",
+        "as": "২২ এপ্ৰিল"
+      },
+      {
+        "en": "16 September",
+        "as": "১৬ চেপ্তেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Water Day is observed every year on 22 March.",
+      "as": "বিশ্ব জল দিৱস প্ৰতি বছৰে ২২ মাৰ্চত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-026",
+    "q": {
+      "en": "What is the full form of CPCB?",
+      "as": "CPCB ৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Central Public Cleanliness Bureau",
+        "as": "কেন্দ্ৰীয় ৰাজহুৱা পৰিষ্কাৰতা ব্যুৰ'"
+      },
+      {
+        "en": "Council for Pollution and Climate Board",
+        "as": "প্ৰদূষণ আৰু জলবায়ু পৰিষদ"
+      },
+      {
+        "en": "Central Pollution Control Board",
+        "as": "কেন্দ্ৰীয় প্ৰদূষণ নিয়ন্ত্ৰণ ব'ৰ্ড"
+      },
+      {
+        "en": "Central Plant Conservation Board",
+        "as": "কেন্দ্ৰীয় উদ্ভিদ সংৰক্ষণ ব'ৰ্ড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "CPCB stands for Central Pollution Control Board, a statutory body in India.",
+      "as": "CPCB ৰ অৰ্থ কেন্দ্ৰীয় প্ৰদূষণ নিয়ন্ত্ৰণ ব'ৰ্ড, ভাৰতৰ এটা বিধিবদ্ধ সংস্থা।"
+    }
+  },
+  {
+    "id": "environment-pollution-027",
+    "q": {
+      "en": "The Ganga Action Plan was launched in which year?",
+      "as": "গংগা কাৰ্য পৰিকল্পনা কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1975",
+        "as": "১৯৭৫"
+      },
+      {
+        "en": "1995",
+        "as": "১৯৯৫"
+      },
+      {
+        "en": "1985",
+        "as": "১৯৮৫"
+      },
+      {
+        "en": "2005",
+        "as": "২০০৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Ganga Action Plan was launched in 1985 to clean the river Ganga.",
+      "as": "গংগা নদী পৰিষ্কাৰ কৰাৰ বাবে ১৯৮৫ চনত গংগা কাৰ্য পৰিকল্পনা আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "environment-pollution-028",
+    "q": {
+      "en": "What is the largest source of air pollution in most Indian cities?",
+      "as": "বেছিভাগ ভাৰতীয় চহৰত বায়ু প্ৰদূষণৰ সৰ্ববৃহৎ উৎস কি?"
+    },
+    "options": [
+      {
+        "en": "Volcanoes",
+        "as": "আগ্নেয়গিৰি"
+      },
+      {
+        "en": "Vehicles",
+        "as": "যানবাহন"
+      },
+      {
+        "en": "Forest fires",
+        "as": "বনজুই"
+      },
+      {
+        "en": "Sea waves",
+        "as": "সাগৰীয় ঢৌ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Vehicle emissions are the largest contributor to urban air pollution in India.",
+      "as": "ভাৰতৰ চহৰীয়া বায়ু প্ৰদূষণৰ সৰ্বাধিক অংশ যানবাহনৰ নিষ্কাশনে যোগান ধৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-029",
+    "q": {
+      "en": "Sulphur dioxide pollution mainly causes which health problem?",
+      "as": "ছালফাৰ ডাই অক্সাইড প্ৰদূষণে মূলতঃ কোনটো স্বাস্থ্য সমস্যা সৃষ্টি কৰে?"
+    },
+    "options": [
+      {
+        "en": "Skin allergy only",
+        "as": "কেৱল ছালৰ এলাৰ্জি"
+      },
+      {
+        "en": "Bone fracture",
+        "as": "হাড় ভঙা"
+      },
+      {
+        "en": "Deafness",
+        "as": "বধিৰতা"
+      },
+      {
+        "en": "Respiratory diseases and asthma",
+        "as": "শ্বাস-প্ৰশ্বাসৰ ৰোগ আৰু হাঁপানি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SO₂ irritates the respiratory tract and aggravates asthma and bronchitis.",
+      "as": "SO₂-এ শ্বাসনলীত জ্বালা-পোৰা সৃষ্টি কৰি হাঁপানি আৰু ব্ৰংকাইটিছ বঢ়ায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-030",
+    "q": {
+      "en": "Lead pollution mainly affects which system of the human body?",
+      "as": "সীসা প্ৰদূষণে মানুহৰ শৰীৰৰ কোনটো তন্ত্ৰত মূলতঃ প্ৰভাৱ পেলায়?"
+    },
+    "options": [
+      {
+        "en": "Digestive system only",
+        "as": "কেৱল পাচন তন্ত্ৰ"
+      },
+      {
+        "en": "Nervous system",
+        "as": "স্নায়ু তন্ত্ৰ"
+      },
+      {
+        "en": "Skeletal system only",
+        "as": "কেৱল কংকাল তন্ত্ৰ"
+      },
+      {
+        "en": "Reproductive system only",
+        "as": "কেৱল প্ৰজনন তন্ত্ৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Lead is a neurotoxin and damages the nervous system, especially in children.",
+      "as": "সীসা এটা স্নায়ু-বিষ আৰু বিশেষকৈ শিশুৰ স্নায়ু তন্ত্ৰৰ ক্ষতি কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-031",
+    "q": {
+      "en": "Carbon monoxide is produced mainly by which process?",
+      "as": "কাৰ্বন মনোক্সাইড মূলতঃ কোনটো প্ৰক্ৰিয়াৰ দ্বাৰা উৎপন্ন হয়?"
+    },
+    "options": [
+      {
+        "en": "Incomplete combustion",
+        "as": "অপূৰ্ণ দহন"
+      },
+      {
+        "en": "Complete combustion",
+        "as": "পূৰ্ণ দহন"
+      },
+      {
+        "en": "Photosynthesis",
+        "as": "সালোকসংশ্লেষণ"
+      },
+      {
+        "en": "Respiration",
+        "as": "শ্বাস-প্ৰশ্বাস"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Incomplete combustion of carbon fuels produces carbon monoxide.",
+      "as": "কাৰ্বন ইন্ধনৰ অপূৰ্ণ দহনৰ পৰা কাৰ্বন মনোক্সাইড উৎপন্ন হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-032",
+    "q": {
+      "en": "Why is CNG considered a cleaner fuel than petrol and diesel?",
+      "as": "CNG ক পেট্ৰল আৰু ডিজেলতকৈ পৰিষ্কাৰ ইন্ধন কিয় বুলি গণ্য কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "It is cheaper than water",
+        "as": "ই পানীতকৈ সস্তা"
+      },
+      {
+        "en": "It has a higher sulphur content",
+        "as": "ইয়াত বেছি ছালফাৰ থাকে"
+      },
+      {
+        "en": "It is a solid fuel",
+        "as": "ই এটা কঠিন ইন্ধন"
+      },
+      {
+        "en": "It produces less harmful emissions",
+        "as": "ই কম ক্ষতিকাৰক নিৰ্গমন উৎপন্ন কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "CNG burns more completely and emits fewer pollutants than petrol or diesel.",
+      "as": "CNG অধিক সম্পূৰ্ণভাৱে দহে আৰু পেট্ৰল বা ডিজেলতকৈ কম প্ৰদূষক নিৰ্গত কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-033",
+    "q": {
+      "en": "Bharat Stage (BS) emission norms in India are related to which source?",
+      "as": "ভাৰতত ভাৰত স্তৰ (BS) নিৰ্গমন নীতিসমূহ কোনটো উৎসৰ সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Industrial boilers",
+        "as": "ঔদ্যোগিক বয়লাৰ"
+      },
+      {
+        "en": "Vehicle emissions",
+        "as": "যানবাহনৰ নিৰ্গমন"
+      },
+      {
+        "en": "Agricultural burning",
+        "as": "কৃষি জ্বলোৱা"
+      },
+      {
+        "en": "Nuclear plants",
+        "as": "পাৰমাণৱিক কেন্দ্ৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bharat Stage norms regulate pollutant emissions from motor vehicles.",
+      "as": "ভাৰত স্তৰ নীতিসমূহে মটৰ যানবাহনৰ পৰা হোৱা প্ৰদূষক নিৰ্গমন নিয়ন্ত্ৰণ কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-034",
+    "q": {
+      "en": "Photochemical smog is formed by the reaction of which pollutants in sunlight?",
+      "as": "আলোক-ৰাসায়নিক ধোঁৱা সূৰ্যৰ পোহৰত কোনটো প্ৰদূষকৰ বিক্ৰিয়াৰ দ্বাৰা গঠিত হয়?"
+    },
+    "options": [
+      {
+        "en": "SO₂ and smoke",
+        "as": "SO₂ আৰু ধোঁৱা"
+      },
+      {
+        "en": "CO₂ and water",
+        "as": "CO₂ আৰু পানী"
+      },
+      {
+        "en": "Oxygen and nitrogen",
+        "as": "অক্সিজেন আৰু নাইট্ৰোজেন"
+      },
+      {
+        "en": "Nitrogen oxides and hydrocarbons",
+        "as": "নাইট্ৰোজেন অক্সাইড আৰু হাইড্ৰ'কাৰ্বন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "NOx and volatile organic compounds react in sunlight to form photochemical smog.",
+      "as": "NOx আৰু উদ্বায়ী জৈৱিক যৌগে সূৰ্যৰ পোহৰত বিক্ৰিয়া কৰি আলোক-ৰাসায়নিক ধোঁৱা গঠন কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-035",
+    "q": {
+      "en": "Which type of smog is typical of London?",
+      "as": "লণ্ডনৰ বৈশিষ্ট্যপূৰ্ণ ধোঁৱা কোনটো প্ৰকাৰৰ?"
+    },
+    "options": [
+      {
+        "en": "Photochemical smog",
+        "as": "আলোক-ৰাসায়নিক ধোঁৱা"
+      },
+      {
+        "en": "Reducing smog (sulphurous smog)",
+        "as": "হ্ৰাসকাৰী ধোঁৱা (ছালফাৰযুক্ত)"
+      },
+      {
+        "en": "Ozone smog",
+        "as": "ওজোন ধোঁৱা"
+      },
+      {
+        "en": "Dust storm",
+        "as": "ধূলিৰ ধুমুহা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "London smog is a reducing smog caused by SO₂ and smoke particles.",
+      "as": "লণ্ডন ধোঁৱা SO₂ আৰু ধোঁৱাৰ কণাৰ দ্বাৰা সৃষ্ট হ্ৰাসকাৰী ধোঁৱা।"
+    }
+  },
+  {
+    "id": "environment-pollution-036",
+    "q": {
+      "en": "Ozone present at ground level is best described as:",
+      "as": "ভূপৃষ্ঠৰ ওচৰত থকা ওজোনক কি বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "A beneficial gas for breathing",
+        "as": "শ্বাস লোৱাৰ বাবে উপকাৰী গেছ"
+      },
+      {
+        "en": "A greenhouse gas that cools the Earth",
+        "as": "পৃথিৱী শীতল কৰা গ্ৰীনহাউছ গেছ"
+      },
+      {
+        "en": "An inert gas",
+        "as": "এটা নিষ্ক্ৰিয় গেছ"
+      },
+      {
+        "en": "A harmful air pollutant",
+        "as": "এটা ক্ষতিকাৰক বায়ু প্ৰদূষক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ground-level ozone is a harmful secondary pollutant and irritates lungs.",
+      "as": "ভূপৃষ্ঠীয় ওজোন এটা ক্ষতিকাৰক গৌণ প্ৰদূষক আৰু ফুসফুসত জ্বালা-পোৰা কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-037",
+    "q": {
+      "en": "Acid rain damages the Taj Mahal mainly because it reacts with:",
+      "as": "অম্লীয় বৰষুণে তাজমহলৰ ক্ষতি কৰে কাৰণ ই কাৰ সৈতে বিক্ৰিয়া কৰে?"
+    },
+    "options": [
+      {
+        "en": "Granite",
+        "as": "গ্ৰেনাইট"
+      },
+      {
+        "en": "Iron",
+        "as": "লো"
+      },
+      {
+        "en": "Wood",
+        "as": "কাঠ"
+      },
+      {
+        "en": "Marble",
+        "as": "মাৰ্বল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Acid rain reacts with calcium carbonate in marble, causing corrosion.",
+      "as": "অম্লীয় বৰষুণে মাৰ্বলৰ কেলচিয়াম কাৰ্বনেটৰ সৈতে বিক্ৰিয়া কৰি ক্ষয় ঘটায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-038",
+    "q": {
+      "en": "Which international agreement aims to phase out ozone-depleting substances?",
+      "as": "কোনটো আন্তৰ্জাতিক চুক্তিৰ লক্ষ্য ওজোন ক্ষয়কাৰী পদাৰ্থ বন্ধ কৰা?"
+    },
+    "options": [
+      {
+        "en": "Kyoto Protocol",
+        "as": "কিয়'ট' প্ৰ'টোকল"
+      },
+      {
+        "en": "Paris Agreement",
+        "as": "পেৰিছ চুক্তি"
+      },
+      {
+        "en": "Montreal Protocol",
+        "as": "মণ্ট্ৰিয়াল প্ৰ'টোকল"
+      },
+      {
+        "en": "Basel Convention",
+        "as": "বাছেল সন্মিলন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Montreal Protocol (1987) aims to phase out CFCs and other ozone-depleting substances.",
+      "as": "মণ্ট্ৰিয়াল প্ৰ'টোকল (১৯৮৭) ৰ লক্ষ্য CFC আৰু অন্য ওজোন ক্ষয়কাৰী পদাৰ্থ বন্ধ কৰা।"
+    }
+  },
+  {
+    "id": "environment-pollution-039",
+    "q": {
+      "en": "The Montreal Protocol was signed in which year?",
+      "as": "মণ্ট্ৰিয়াল প্ৰ'টোকল কোন বছৰত স্বাক্ষৰিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1987",
+        "as": "১৯৮৭"
+      },
+      {
+        "en": "1972",
+        "as": "১৯৭২"
+      },
+      {
+        "en": "1992",
+        "as": "১৯৯২"
+      },
+      {
+        "en": "1997",
+        "as": "১৯৯৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Montreal Protocol was signed in 1987 to protect the ozone layer.",
+      "as": "ওজোন স্তৰ সুৰক্ষাৰ বাবে ১৯৮৭ চনত মণ্ট্ৰিয়াল প্ৰ'টোকল স্বাক্ষৰিত হৈছিল।"
+    }
+  },
+  {
+    "id": "environment-pollution-040",
+    "q": {
+      "en": "The Kyoto Protocol is related to the reduction of:",
+      "as": "কিয়'ট' প্ৰ'টোকল কাৰ হ্ৰাসৰ সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Greenhouse gas emissions",
+        "as": "গ্ৰীনহাউছ গেছ নিৰ্গমন"
+      },
+      {
+        "en": "Noise levels",
+        "as": "শব্দৰ মাত্ৰা"
+      },
+      {
+        "en": "Plastic use",
+        "as": "প্লাষ্টিকৰ ব্যৱহাৰ"
+      },
+      {
+        "en": "Nuclear weapons",
+        "as": "পাৰমাণৱিক অস্ত্ৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Kyoto Protocol set binding targets to reduce greenhouse gas emissions.",
+      "as": "কিয়'ট' প্ৰ'টোকলে গ্ৰীনহাউছ গেছ নিৰ্গমন কমোৱাৰ বাবে বাধ্যতামূলক লক্ষ্য নিৰ্ধাৰণ কৰিছিল।"
+    }
+  },
+  {
+    "id": "environment-pollution-041",
+    "q": {
+      "en": "Global warming primarily leads to which of the following?",
+      "as": "গোলকীয় উষ্ণতা বৃদ্ধিয়ে মূলতঃ তলৰ কোনটোৰ সৃষ্টি কৰে?"
+    },
+    "options": [
+      {
+        "en": "Lowering of sea level",
+        "as": "সাগৰীয় স্তৰ কমা"
+      },
+      {
+        "en": "Expansion of glaciers",
+        "as": "হিমবাহৰ বিস্তাৰ"
+      },
+      {
+        "en": "Increase in ozone",
+        "as": "ওজোন বৃদ্ধি"
+      },
+      {
+        "en": "Rise in sea level",
+        "as": "সাগৰীয় স্তৰ বৃদ্ধি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Global warming melts ice sheets and glaciers, raising sea levels.",
+      "as": "গোলকীয় উষ্ণতা বৃদ্ধিয়ে বৰফৰ স্তৰ আৰু হিমবাহ গলাই সাগৰীয় স্তৰ বৃদ্ধি কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-042",
+    "q": {
+      "en": "The Paris Agreement aims to limit the global average temperature rise to well below:",
+      "as": "পেৰিছ চুক্তিৰ লক্ষ্য গোলকীয় গড় উষ্ণতা বৃদ্ধি কিমানৰ তলত ৰখা?"
+    },
+    "options": [
+      {
+        "en": "5°C",
+        "as": "৫°C"
+      },
+      {
+        "en": "2°C",
+        "as": "২°C"
+      },
+      {
+        "en": "1°C",
+        "as": "১°C"
+      },
+      {
+        "en": "3°C",
+        "as": "৩°C"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Paris Agreement aims to keep global warming well below 2°C, preferably 1.5°C.",
+      "as": "পেৰিছ চুক্তিৰ লক্ষ্য গোলকীয় উষ্ণতা বৃদ্ধি ২°C ৰ বহু তলত, বিশেষকৈ ১.৫°C ত ৰখা।"
+    }
+  },
+  {
+    "id": "environment-pollution-043",
+    "q": {
+      "en": "Which of the following is NOT a greenhouse gas?",
+      "as": "তলৰ কোনটো গ্ৰীনহাউছ গেছ নহয়?"
+    },
+    "options": [
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Methane",
+        "as": "মিথেন"
+      },
+      {
+        "en": "Nitrous oxide",
+        "as": "নাইট্ৰাছ অক্সাইড"
+      },
+      {
+        "en": "Nitrogen (N₂)",
+        "as": "নাইট্ৰোজেন (N₂)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Nitrogen does not absorb infrared radiation and is not a greenhouse gas.",
+      "as": "নাইট্ৰোজেনে অৱ-ৰক্ত ৰশ্মি শোষণ নকৰে আৰু গ্ৰীনহাউছ গেছ নহয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-044",
+    "q": {
+      "en": "Which of the following is classified as a primary air pollutant?",
+      "as": "তলৰ কোনটোক প্ৰাথমিক বায়ু প্ৰদূষক হিচাপে শ্ৰেণীবদ্ধ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Ozone",
+        "as": "ওজোন"
+      },
+      {
+        "en": "Sulphuric acid mist",
+        "as": "ছালফিউৰিক এচিডৰ কুঁৱলী"
+      },
+      {
+        "en": "Sulphur dioxide",
+        "as": "ছালফাৰ ডাই অক্সাইড"
+      },
+      {
+        "en": "Photochemical oxidants",
+        "as": "আলোক-ৰাসায়নিক অক্সিডেণ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Primary pollutants like SO₂ are emitted directly from a source.",
+      "as": "SO₂ ৰ দৰে প্ৰাথমিক প্ৰদূষক পোনপটীয়াকৈ উৎসৰ পৰা নিৰ্গত হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-045",
+    "q": {
+      "en": "Which of the following is a secondary air pollutant?",
+      "as": "তলৰ কোনটো গৌণ বায়ু প্ৰদূষক?"
+    },
+    "options": [
+      {
+        "en": "Carbon monoxide",
+        "as": "কাৰ্বন মনোক্সাইড"
+      },
+      {
+        "en": "Sulphur dioxide",
+        "as": "ছালফাৰ ডাই অক্সাইড"
+      },
+      {
+        "en": "Lead",
+        "as": "সীসা"
+      },
+      {
+        "en": "Ozone",
+        "as": "ওজোন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ozone is formed in the atmosphere by reactions among primary pollutants.",
+      "as": "ওজোন বায়ুমণ্ডলত প্ৰাথমিক প্ৰদূষকৰ মাজত বিক্ৰিয়াৰ দ্বাৰা গঠিত হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-046",
+    "q": {
+      "en": "Fly ash is mainly produced by which industry?",
+      "as": "ফ্লাই এছ মূলতঃ কোনটো উদ্যোগত উৎপন্ন হয়?"
+    },
+    "options": [
+      {
+        "en": "Cement industry",
+        "as": "চিমেণ্ট উদ্যোগ"
+      },
+      {
+        "en": "Sugar industry",
+        "as": "চেনি উদ্যোগ"
+      },
+      {
+        "en": "Thermal power plants",
+        "as": "তাপ বিদ্যুৎ কেন্দ্ৰ"
+      },
+      {
+        "en": "Textile industry",
+        "as": "বস্ত্ৰ উদ্যোগ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Burning coal in thermal power plants produces large amounts of fly ash.",
+      "as": "তাপ বিদ্যুৎ কেন্দ্ৰত কয়লা জ্বলোৱাৰ ফলত বহু পৰিমাণে ফ্লাই এছ উৎপন্ন হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-047",
+    "q": {
+      "en": "Radioactive pollution is mainly caused by:",
+      "as": "ৰেডিঅ'এক্টিভ প্ৰদূষণ মূলতঃ কাৰ দ্বাৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Nuclear tests and nuclear power plants",
+        "as": "পাৰমাণৱিক পৰীক্ষা আৰু পাৰমাণৱিক বিদ্যুৎ কেন্দ্ৰ"
+      },
+      {
+        "en": "Wind mills",
+        "as": "বায়ু কল"
+      },
+      {
+        "en": "Solar panels",
+        "as": "সৌৰ পেনেল"
+      },
+      {
+        "en": "Hydroelectric dams",
+        "as": "জলবিদ্যুৎ বান্ধ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Radioactive pollution results from nuclear explosions, reactors and improper disposal.",
+      "as": "পাৰমাণৱিক বিস্ফোৰণ, ৰিয়েক্টৰ আৰু অনুপযুক্ত নিষ্কাশনৰ পৰা ৰেডিঅ'এক্টিভ প্ৰদূষণ হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-048",
+    "q": {
+      "en": "The Chernobyl nuclear disaster occurred in which year?",
+      "as": "চাৰ্ন'বিল পাৰমাণৱিক দুৰ্যোগ কোন বছৰত সংঘটিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1979",
+        "as": "১৯৭৯"
+      },
+      {
+        "en": "1991",
+        "as": "১৯৯১"
+      },
+      {
+        "en": "2001",
+        "as": "২০০১"
+      },
+      {
+        "en": "1986",
+        "as": "১৯৮৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Chernobyl disaster occurred in 1986 in Ukraine.",
+      "as": "চাৰ্ন'বিল দুৰ্যোগ ১৯৮৬ চনত ইউক্ৰেইনত সংঘটিত হৈছিল।"
+    }
+  },
+  {
+    "id": "environment-pollution-049",
+    "q": {
+      "en": "Thermal pollution of water is mainly caused by:",
+      "as": "পানীৰ তাপীয় প্ৰদূষণ মূলতঃ কাৰ দ্বাৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Acid rain",
+        "as": "অম্লীয় বৰষুণ"
+      },
+      {
+        "en": "Discharge of hot water from industries and power plants",
+        "as": "উদ্যোগ আৰু বিদ্যুৎ কেন্দ্ৰৰ পৰা গৰম পানী নিৰ্গমন"
+      },
+      {
+        "en": "Oil spills",
+        "as": "তেলৰ থোপা"
+      },
+      {
+        "en": "Plastic waste",
+        "as": "প্লাষ্টিক আৱৰ্জনা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Hot water released into rivers reduces dissolved oxygen and harms aquatic life.",
+      "as": "নদীত গৰম পানী নিৰ্গমনে দ্ৰৱীভূত অক্সিজেন কমাই জলজ জীৱনৰ ক্ষতি কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-050",
+    "q": {
+      "en": "Which indicator is used to measure organic water pollution?",
+      "as": "জৈৱিক জল প্ৰদূষণ মাপিবলৈ কোনটো সূচক ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "BOD",
+        "as": "BOD"
+      },
+      {
+        "en": "pH",
+        "as": "pH"
+      },
+      {
+        "en": "Temperature",
+        "as": "উষ্ণতা"
+      },
+      {
+        "en": "Turbidity",
+        "as": "ঘোলাত্ব"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "BOD (Biochemical Oxygen Demand) indicates the amount of organic pollution in water.",
+      "as": "BOD (জৈৱ-ৰাসায়নিক অক্সিজেন চাহিদা) য়ে পানীত জৈৱিক প্ৰদূষণৰ পৰিমাণ সূচায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-051",
+    "q": {
+      "en": "What is the full form of BOD?",
+      "as": "BOD ৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Biological Oxygen Demand",
+        "as": "জৈৱিক অক্সিজেন চাহিদা"
+      },
+      {
+        "en": "Biochemical Oxygen Demand",
+        "as": "জৈৱ-ৰাসায়নিক অক্সিজেন চাহিদা"
+      },
+      {
+        "en": "Basic Oxygen Density",
+        "as": "মৌলিক অক্সিজেন ঘনত্ব"
+      },
+      {
+        "en": "Biodegradable Organic Discharge",
+        "as": "জৈৱ-বিয়োজনযোগ্য জৈৱিক নিষ্কাশন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "BOD stands for Biochemical Oxygen Demand, a measure of organic pollution.",
+      "as": "BOD ৰ অৰ্থ জৈৱ-ৰাসায়নিক অক্সিজেন চাহিদা, জৈৱিক প্ৰদূষণৰ এটা মাপকাঠি।"
+    }
+  },
+  {
+    "id": "environment-pollution-052",
+    "q": {
+      "en": "A high BOD value in a water sample indicates:",
+      "as": "পানীৰ নমুনাত উচ্চ BOD মাত্ৰাই কি সূচায়?"
+    },
+    "options": [
+      {
+        "en": "Low organic pollution",
+        "as": "কম জৈৱিক প্ৰদূষণ"
+      },
+      {
+        "en": "High organic pollution",
+        "as": "অধিক জৈৱিক প্ৰদূষণ"
+      },
+      {
+        "en": "Pure drinking water",
+        "as": "শুদ্ধ খোৱা পানী"
+      },
+      {
+        "en": "High dissolved oxygen",
+        "as": "অধিক দ্ৰৱীভূত অক্সিজেন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "High BOD means more organic matter is present, requiring more oxygen to decompose.",
+      "as": "উচ্চ BOD অৰ্থাৎ অধিক জৈৱিক পদাৰ্থ থকা, যি বিয়োজিত হবলৈ বেছি অক্সিজেন লাগে।"
+    }
+  },
+  {
+    "id": "environment-pollution-053",
+    "q": {
+      "en": "Which is a waterborne disease caused by polluted water?",
+      "as": "প্ৰদূষিত পানীৰ দ্বাৰা হোৱা পানী-জনিত ৰোগ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Cholera",
+        "as": "কলেৰা"
+      },
+      {
+        "en": "Asthma",
+        "as": "হাঁপানি"
+      },
+      {
+        "en": "Diabetes",
+        "as": "মধুমেহ"
+      },
+      {
+        "en": "Arthritis",
+        "as": "গাঁঠিৰ বিষ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cholera is a waterborne disease caused by contaminated drinking water.",
+      "as": "কলেৰা প্ৰদূষিত খোৱা পানীৰ দ্বাৰা হোৱা পানী-জনিত ৰোগ।"
+    }
+  },
+  {
+    "id": "environment-pollution-054",
+    "q": {
+      "en": "Excess fluoride in drinking water causes:",
+      "as": "খোৱা পানীত অতিৰিক্ত ফ্ল'ৰাইডে কি সৃষ্টি কৰে?"
+    },
+    "options": [
+      {
+        "en": "Tooth decay",
+        "as": "দাঁতৰ ক্ষয়"
+      },
+      {
+        "en": "Anaemia",
+        "as": "ৰক্তহীনতা"
+      },
+      {
+        "en": "Scurvy",
+        "as": "স্কাৰ্ভি"
+      },
+      {
+        "en": "Fluorosis",
+        "as": "ফ্ল'ৰ'চিছ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Excess fluoride causes fluorosis, affecting teeth and bones.",
+      "as": "অতিৰিক্ত ফ্ল'ৰাইডে ফ্ল'ৰ'চিছ সৃষ্টি কৰে, যাৰ ফলত দাঁত আৰু হাড় ক্ষতিগ্ৰস্ত হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-055",
+    "q": {
+      "en": "Excess arsenic in groundwater causes:",
+      "as": "ভূগৰ্ভস্থ পানীত অতিৰিক্ত আৰ্ছেনিকে কি সৃষ্টি কৰে?"
+    },
+    "options": [
+      {
+        "en": "Fluorosis",
+        "as": "ফ্ল'ৰ'চিছ"
+      },
+      {
+        "en": "Black foot disease",
+        "as": "ব্লেক ফুট ৰোগ"
+      },
+      {
+        "en": "Minamata disease",
+        "as": "মিনামাটা ৰোগ"
+      },
+      {
+        "en": "Itai-itai disease",
+        "as": "ইটাই-ইটাই ৰোগ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Arsenic contamination of groundwater causes black foot disease and skin problems.",
+      "as": "ভূগৰ্ভস্থ পানীত আৰ্ছেনিক প্ৰদূষণে ব্লেক ফুট ৰোগ আৰু ছালৰ সমস্যা সৃষ্টি কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-056",
+    "q": {
+      "en": "Which of the following is a heavy metal pollutant?",
+      "as": "তলৰ কোনটো এটা গধুৰ ধাতু প্ৰদূষক?"
+    },
+    "options": [
+      {
+        "en": "Sodium",
+        "as": "ছ'ডিয়াম"
+      },
+      {
+        "en": "Lead",
+        "as": "সীসা"
+      },
+      {
+        "en": "Calcium",
+        "as": "কেলচিয়াম"
+      },
+      {
+        "en": "Potassium",
+        "as": "পটাছিয়াম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Lead is a toxic heavy metal pollutant that harms the nervous system.",
+      "as": "সীসা এটা বিষাক্ত গধুৰ ধাতু প্ৰদূষক যি স্নায়ু তন্ত্ৰৰ ক্ষতি কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-057",
+    "q": {
+      "en": "DDT is an example of which type of pollutant?",
+      "as": "DDT কোন প্ৰকাৰৰ প্ৰদূষকৰ উদাহৰণ?"
+    },
+    "options": [
+      {
+        "en": "Pesticide pollutant",
+        "as": "কীটনাশক প্ৰদূষক"
+      },
+      {
+        "en": "Gaseous pollutant",
+        "as": "গেছীয় প্ৰদূষক"
+      },
+      {
+        "en": "Noise pollutant",
+        "as": "শব্দ প্ৰদূষক"
+      },
+      {
+        "en": "Radioactive pollutant",
+        "as": "ৰেডিঅ'এক্টিভ প্ৰদূষক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "DDT is an organochlorine pesticide that persists and bioaccumulates.",
+      "as": "DDT এটা ক্ল'ৰিনযুক্ত কীটনাশক যি পৰিৱেশত দীৰ্ঘদিন থাকে আৰু জৈৱ-সঞ্চিত হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-058",
+    "q": {
+      "en": "Biomagnification means:",
+      "as": "জৈৱ-বৰ্ধন (বায়'মেগনিফিকেশ্যন) ৰ অৰ্থ কি?"
+    },
+    "options": [
+      {
+        "en": "Decrease of pollutants along the food chain",
+        "as": "খাদ্য শৃংখলত প্ৰদূষক কমি যোৱা"
+      },
+      {
+        "en": "Increase of pollutant concentration along the food chain",
+        "as": "খাদ্য শৃংখলত প্ৰদূষকৰ ঘনত্ব বাঢ়ি যোৱা"
+      },
+      {
+        "en": "Breakdown of pollutants by microbes",
+        "as": "অণুজীৱৰ দ্বাৰা প্ৰদূষক বিয়োজন"
+      },
+      {
+        "en": "Neutralisation of pollutants",
+        "as": "প্ৰদূষক নিৰপেক্ষ কৰণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Biomagnification is the increasing concentration of toxins at higher trophic levels.",
+      "as": "জৈৱ-বৰ্ধন হৈছে উচ্চ খাদ্য স্তৰত বিষৰ ঘনত্ব ক্ৰমাগতভাৱে বৃদ্ধি পোৱা প্ৰক্ৰিয়া।"
+    }
+  },
+  {
+    "id": "environment-pollution-059",
+    "q": {
+      "en": "Biomagnification of a pollutant is highest in which organism?",
+      "as": "এটা প্ৰদূষকৰ জৈৱ-বৰ্ধন কোনটো জীৱত সৰ্বাধিক?"
+    },
+    "options": [
+      {
+        "en": "Producers",
+        "as": "উৎপাদক"
+      },
+      {
+        "en": "Top consumers (humans)",
+        "as": "সৰ্বোচ্চ ভোক্তা (মানুহ)"
+      },
+      {
+        "en": "Primary consumers",
+        "as": "প্ৰাথমিক ভোক্তা"
+      },
+      {
+        "en": "Secondary consumers",
+        "as": "গৌণ ভোক্তা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Concentration of pollutants is highest at the top of the food chain, including humans.",
+      "as": "খাদ্য শৃংখলৰ শীৰ্ষত, মানুহকে ধৰি, প্ৰদূষকৰ ঘনত্ব সৰ্বাধিক হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-060",
+    "q": {
+      "en": "Which of the following mainly causes soil pollution?",
+      "as": "তলৰ কোনটোৱে মূলতঃ মাটি প্ৰদূষণ ঘটায়?"
+    },
+    "options": [
+      {
+        "en": "Planting trees",
+        "as": "গছ ৰোপণ"
+      },
+      {
+        "en": "Rainfall",
+        "as": "বৰষুণ"
+      },
+      {
+        "en": "Excessive use of chemical fertilizers and pesticides",
+        "as": "ৰাসায়নিক সাৰ আৰু কীটনাশকৰ অত্যধিক ব্যৱহাৰ"
+      },
+      {
+        "en": "Photosynthesis",
+        "as": "সালোকসংশ্লেষণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Chemical fertilizers and pesticides accumulate in soil and reduce its fertility.",
+      "as": "ৰাসায়নিক সাৰ আৰু কীটনাশকে মাটিত জমা হৈ উৰ্বৰতা কমায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-061",
+    "q": {
+      "en": "Non-biodegradable waste in soil mainly causes:",
+      "as": "মাটিত থকা অ-জৈৱ-বিয়োজনযোগ্য আৱৰ্জনাই মূলতঃ কি ঘটায়?"
+    },
+    "options": [
+      {
+        "en": "Increase in soil fertility",
+        "as": "মাটিৰ উৰ্বৰতা বৃদ্ধি"
+      },
+      {
+        "en": "Increase in groundwater",
+        "as": "ভূগৰ্ভস্থ জল বৃদ্ধি"
+      },
+      {
+        "en": "Reduction in soil permeability and fertility",
+        "as": "মাটিৰ ভেদ্যতা আৰু উৰ্বৰতা হ্ৰাস"
+      },
+      {
+        "en": "Faster plant growth",
+        "as": "উদ্ভিদৰ দ্ৰুত বৃদ্ধি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Plastics and other non-biodegradable waste block water and air movement in soil.",
+      "as": "প্লাষ্টিক আৰু অন্য অ-জৈৱ-বিয়োজনযোগ্য আৱৰ্জনাই মাটিত পানী আৰু বায়ুৰ চলাচল বাধা দিয়ে।"
+    }
+  },
+  {
+    "id": "environment-pollution-062",
+    "q": {
+      "en": "The 3R principle of waste management stands for:",
+      "as": "আৱৰ্জনা ব্যৱস্থাপনাৰ 3R নীতিয়ে কি সূচায়?"
+    },
+    "options": [
+      {
+        "en": "Remove, Replace, Restore",
+        "as": "আঁতৰোৱা, সলনি কৰা, পুনৰুদ্ধাৰ"
+      },
+      {
+        "en": "Read, Review, Repeat",
+        "as": "পঢ়া, পুনৰীক্ষা, পুনৰাবৃত্তি"
+      },
+      {
+        "en": "Reduce, Reuse, Recycle",
+        "as": "হ্ৰাস, পুনৰ ব্যৱহাৰ, পুনৰ্চক্ৰণ"
+      },
+      {
+        "en": "Reduce, Refuse, Repair",
+        "as": "হ্ৰাস, অস্বীকাৰ, মেৰামতি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The 3R principle is Reduce, Reuse and Recycle to minimise waste.",
+      "as": "3R নীতি হৈছে হ্ৰাস, পুনৰ ব্যৱহাৰ আৰু পুনৰ্চক্ৰণ, আৱৰ্জনা কম কৰিবলৈ।"
+    }
+  },
+  {
+    "id": "environment-pollution-063",
+    "q": {
+      "en": "Vermicomposting uses which organism to decompose waste?",
+      "as": "ভাৰ্মিকম্প'ষ্টিঙত আৱৰ্জনা বিয়োজিত কৰিবলৈ কোনটো জীৱ ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Bacteria",
+        "as": "বেক্টেৰিয়া"
+      },
+      {
+        "en": "Fungi",
+        "as": "ভেঁকুৰ"
+      },
+      {
+        "en": "Earthworms",
+        "as": "কেঁচু"
+      },
+      {
+        "en": "Algae",
+        "as": "শেলাই"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Vermicomposting uses earthworms to convert organic waste into compost.",
+      "as": "ভাৰ্মিকম্প'ষ্টিঙে জৈৱিক আৱৰ্জনাক কম্প'ষ্টলৈ ৰূপান্তৰ কৰিবলৈ কেঁচু ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-064",
+    "q": {
+      "en": "Biogas produced from organic waste mainly contains:",
+      "as": "জৈৱিক আৱৰ্জনাৰ পৰা উৎপন্ন বায়'গেছত মূলতঃ কি থাকে?"
+    },
+    "options": [
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Hydrogen",
+        "as": "হাইড্ৰজেন"
+      },
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰোজেন"
+      },
+      {
+        "en": "Methane",
+        "as": "মিথেন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Biogas is mainly methane (about 50-75%) and is used as a clean fuel.",
+      "as": "বায়'গেছ মূলতঃ মিথেন (প্ৰায় ৫০-৭৫%) আৰু ইয়াক পৰিষ্কাৰ ইন্ধন হিচাপে ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-065",
+    "q": {
+      "en": "Leachate from landfills can pollute:",
+      "as": "লেণ্ডফিলৰ পৰা ওলোৱা লিচেটে কাক প্ৰদূষিত কৰিব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "Stratosphere",
+        "as": "ষ্টেট'স্ফিয়াৰ"
+      },
+      {
+        "en": "Ozone layer",
+        "as": "ওজোন স্তৰ"
+      },
+      {
+        "en": "Solar energy",
+        "as": "সৌৰ শক্তি"
+      },
+      {
+        "en": "Groundwater",
+        "as": "ভূগৰ্ভস্থ পানী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rainwater percolating through waste forms leachate that contaminates groundwater.",
+      "as": "আৱৰ্জনাৰ মাজেৰে প্ৰৱেশ কৰা বৰষুণৰ পানীয়ে লিচেট গঠন কৰি ভূগৰ্ভস্থ পানী প্ৰদূষিত কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-066",
+    "q": {
+      "en": "Burning of waste in the open (incineration) mainly causes:",
+      "as": "আৱৰ্জনা মুকলিকৈ জ্বলোৱা (ইনচিনাৰেশ্যন) ৰ ফলত মূলতঃ কি হয়?"
+    },
+    "options": [
+      {
+        "en": "Water pollution",
+        "as": "জল প্ৰদূষণ"
+      },
+      {
+        "en": "Air pollution",
+        "as": "বায়ু প্ৰদূষণ"
+      },
+      {
+        "en": "Noise pollution",
+        "as": "শব্দ প্ৰদূষণ"
+      },
+      {
+        "en": "Soil erosion",
+        "as": "মাটিৰ ক্ষয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Open burning of waste releases toxic fumes and particulate matter into the air.",
+      "as": "আৱৰ্জনা মুকলিকৈ জ্বলোৱাৰ ফলত বিষাক্ত ধোঁৱা আৰু কণিকা বায়ুত নিৰ্গত হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-067",
+    "q": {
+      "en": "Which gas is mainly emitted from landfills?",
+      "as": "লেণ্ডফিলৰ পৰা মূলতঃ কোনটো গেছ নিৰ্গত হয়?"
+    },
+    "options": [
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Methane",
+        "as": "মিথেন"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      },
+      {
+        "en": "Ozone",
+        "as": "ওজোন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Decomposing organic waste in landfills releases methane, a greenhouse gas.",
+      "as": "লেণ্ডফিলত বিয়োজিত জৈৱিক আৱৰ্জনাই মিথেন, এটা গ্ৰীনহাউছ গেছ নিৰ্গত কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-068",
+    "q": {
+      "en": "E-waste is generated mainly from:",
+      "as": "ই-আৱৰ্জনা মূলতঃ কাৰ পৰা উৎপন্ন হয়?"
+    },
+    "options": [
+      {
+        "en": "Food waste",
+        "as": "খাদ্য আৱৰ্জনা"
+      },
+      {
+        "en": "Garden leaves",
+        "as": "বাগিচাৰ পাত"
+      },
+      {
+        "en": "Discarded electronic devices",
+        "as": "পেলনীয়া ইলেক্ট্ৰনিক সঁজুলি"
+      },
+      {
+        "en": "Sewage",
+        "as": "পয়ঃ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "E-waste consists of discarded computers, phones and other electronic items.",
+      "as": "ই-আৱৰ্জনাত পেলনীয়া কম্পিউটাৰ, ফোন আৰু অন্য ইলেক্ট্ৰনিক সামগ্ৰী থাকে।"
+    }
+  },
+  {
+    "id": "environment-pollution-069",
+    "q": {
+      "en": "E-waste is hazardous mainly because it contains:",
+      "as": "ই-আৱৰ্জনা মূলতঃ বিপজ্জনক কাৰণ ইয়াত কি থাকে?"
+    },
+    "options": [
+      {
+        "en": "Heavy metals like lead and mercury",
+        "as": "সীসা আৰু পাৰাৰ দৰে গধুৰ ধাতু"
+      },
+      {
+        "en": "Pure oxygen",
+        "as": "শুদ্ধ অক্সিজেন"
+      },
+      {
+        "en": "Edible oil",
+        "as": "খাদ্য তেল"
+      },
+      {
+        "en": "Distilled water",
+        "as": "ডিষ্টিল কৰা পানী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "E-waste contains toxic heavy metals and chemicals harmful to health and environment.",
+      "as": "ই-আৱৰ্জনাত বিষাক্ত গধুৰ ধাতু আৰু ৰাসায়নিক থাকে, যি স্বাস্থ্য আৰু পৰিৱেশৰ বাবে ক্ষতিকাৰক।"
+    }
+  },
+  {
+    "id": "environment-pollution-070",
+    "q": {
+      "en": "Which of the following is a hazardous waste?",
+      "as": "তলৰ কোনটো এটা বিপজ্জনক আৱৰ্জনা?"
+    },
+    "options": [
+      {
+        "en": "Vegetable peels",
+        "as": "পাচলিৰ বাকলি"
+      },
+      {
+        "en": "Dry leaves",
+        "as": "শুকান পাত"
+      },
+      {
+        "en": "Used batteries",
+        "as": "ব্যৱহৃত বেটাৰী"
+      },
+      {
+        "en": "Cooked rice",
+        "as": "ৰন্ধা ভাত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Used batteries contain heavy metals and acids and are classified as hazardous waste.",
+      "as": "ব্যৱহৃত বেটাৰীত গধুৰ ধাতু আৰু এচিড থাকে আৰু ইয়াক বিপজ্জনক আৱৰ্জনা বুলি শ্ৰেণীবদ্ধ কৰা হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-071",
+    "q": {
+      "en": "Which process converts organic waste into manure using microorganisms?",
+      "as": "কোনটো প্ৰক্ৰিয়াই অণুজীৱৰ সহায়ত জৈৱিক আৱৰ্জনাক সাৰলৈ ৰূপান্তৰ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Composting",
+        "as": "কম্প'ষ্টিং"
+      },
+      {
+        "en": "Incineration",
+        "as": "ইনচিনাৰেশ্যন"
+      },
+      {
+        "en": "Landfilling",
+        "as": "লেণ্ডফিলিং"
+      },
+      {
+        "en": "Distillation",
+        "as": "পাতন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Composting uses microorganisms to decompose organic waste into nutrient-rich manure.",
+      "as": "কম্প'ষ্টিঙে অণুজীৱৰ সহায়ত জৈৱিক আৱৰ্জনাক পুষ্টিকৰ সাৰলৈ বিয়োজিত কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-072",
+    "q": {
+      "en": "Which of the following is a renewable source of energy?",
+      "as": "তলৰ কোনটো এটা নৱীকৰণযোগ্য শক্তিৰ উৎস?"
+    },
+    "options": [
+      {
+        "en": "Coal",
+        "as": "কয়লা"
+      },
+      {
+        "en": "Wind",
+        "as": "বায়ু"
+      },
+      {
+        "en": "Petroleum",
+        "as": "পেট্ৰ'লিয়াম"
+      },
+      {
+        "en": "Natural gas",
+        "as": "প্ৰাকৃতিক গেছ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Wind energy is renewable and does not get exhausted by use.",
+      "as": "বায়ু শক্তি নৱীকৰণযোগ্য আৰু ব্যৱহাৰ কৰিলেও শেষ নহয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-073",
+    "q": {
+      "en": "Which of the following is a non-renewable source of energy?",
+      "as": "তলৰ কোনটো এটা অনৱীকৰণযোগ্য শক্তিৰ উৎস?"
+    },
+    "options": [
+      {
+        "en": "Solar energy",
+        "as": "সৌৰ শক্তি"
+      },
+      {
+        "en": "Coal",
+        "as": "কয়লা"
+      },
+      {
+        "en": "Wind energy",
+        "as": "বায়ু শক্তি"
+      },
+      {
+        "en": "Biogas",
+        "as": "বায়'গেছ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Coal is a fossil fuel and is non-renewable; it takes millions of years to form.",
+      "as": "কয়লা এটা জীৱাশ্ম ইন্ধন আৰু অনৱীকৰণযোগ্য; গঠন হবলৈ লক্ষ লক্ষ বছৰ লাগে।"
+    }
+  },
+  {
+    "id": "environment-pollution-074",
+    "q": {
+      "en": "Planting trees helps to reduce air pollution because trees:",
+      "as": "গছ ৰোপণে বায়ু প্ৰদূষণ কমাই কাৰণ গছে কি কৰে?"
+    },
+    "options": [
+      {
+        "en": "Absorb carbon dioxide and release oxygen",
+        "as": "কাৰ্বন ডাই অক্সাইড শোষণ কৰি অক্সিজেন নিৰ্গত কৰে"
+      },
+      {
+        "en": "Release carbon dioxide only",
+        "as": "কেৱল কাৰ্বন ডাই অক্সাইড নিৰ্গত কৰে"
+      },
+      {
+        "en": "Increase greenhouse gases",
+        "as": "গ্ৰীনহাউছ গেছ বৃদ্ধি কৰে"
+      },
+      {
+        "en": "Produce smoke",
+        "as": "ধোঁৱা উৎপন্ন কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Trees absorb CO₂ and pollutants and release oxygen, improving air quality.",
+      "as": "গছে CO₂ আৰু প্ৰদূষক শোষণ কৰি অক্সিজেন নিৰ্গত কৰে, যাৰ ফলত বায়ুৰ গুণমান উন্নত হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-075",
+    "q": {
+      "en": "Deforestation mainly leads to:",
+      "as": "বনাঞ্চল ধ্বংসই মূলতঃ কি ঘটায়?"
+    },
+    "options": [
+      {
+        "en": "Increased rainfall",
+        "as": "বৰষুণ বৃদ্ধি"
+      },
+      {
+        "en": "Soil erosion and loss of biodiversity",
+        "as": "মাটিৰ ক্ষয় আৰু জৈৱ-বৈচিত্ৰ্য হ্ৰাস"
+      },
+      {
+        "en": "Reduced carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড হ্ৰাস"
+      },
+      {
+        "en": "More groundwater",
+        "as": "অধিক ভূগৰ্ভস্থ জল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Deforestation causes soil erosion, floods, desertification and biodiversity loss.",
+      "as": "বনাঞ্চল ধ্বংসই মাটিৰ ক্ষয়, বানপানী, মৰুভূমিকৰণ আৰু জৈৱ-বৈচিত্ৰ্য হ্ৰাস ঘটায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-076",
+    "q": {
+      "en": "The main cause of extinction of wild animals is:",
+      "as": "বন্য প্ৰাণী নিঃশেষ হোৱাৰ প্ৰধান কাৰণ কি?"
+    },
+    "options": [
+      {
+        "en": "Habitat destruction",
+        "as": "বাসস্থান ধ্বংস"
+      },
+      {
+        "en": "Rainfall",
+        "as": "বৰষুণ"
+      },
+      {
+        "en": "Photosynthesis",
+        "as": "সালোকসংশ্লেষণ"
+      },
+      {
+        "en": "Sunlight",
+        "as": "সূৰ্যৰ পোহৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Loss of habitat due to deforestation and human activity is the main cause of extinction.",
+      "as": "বনাঞ্চল ধ্বংস আৰু মানৱ কাৰ্যকলাপৰ ফলত বাসস্থান হেৰুওৱা নিঃশেষ হোৱাৰ প্ৰধান কাৰণ।"
+    }
+  },
+  {
+    "id": "environment-pollution-077",
+    "q": {
+      "en": "Which of the following is a biodiversity hotspot in India?",
+      "as": "তলৰ কোনটো ভাৰতৰ এটা জৈৱ-বৈচিত্ৰ্যৰ হটস্পট?"
+    },
+    "options": [
+      {
+        "en": "Thar Desert",
+        "as": "থৰ মৰুভূমি"
+      },
+      {
+        "en": "Deccan Plateau",
+        "as": "দাক্ষিণাত্য মালভূমি"
+      },
+      {
+        "en": "Western Ghats",
+        "as": "পশ্চিম ঘাট"
+      },
+      {
+        "en": "Gangetic Plain",
+        "as": "গংগা সমভূমি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Western Ghats is one of the world's biodiversity hotspots, located in India.",
+      "as": "পশ্চিম ঘাট বিশ্বৰ জৈৱ-বৈচিত্ৰ্যৰ হটস্পটবোৰৰ এটা, ভাৰতত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "environment-pollution-078",
+    "q": {
+      "en": "The Chipko Movement was mainly related to:",
+      "as": "চিপক' আন্দোলন মূলতঃ কাৰ সৈতে সম্পৰ্কিত আছিল?"
+    },
+    "options": [
+      {
+        "en": "Water pollution control",
+        "as": "জল প্ৰদূষণ নিয়ন্ত্ৰণ"
+      },
+      {
+        "en": "Conservation of trees and forests",
+        "as": "গছ আৰু বনাঞ্চল সংৰক্ষণ"
+      },
+      {
+        "en": "Noise reduction",
+        "as": "শব্দ হ্ৰাস"
+      },
+      {
+        "en": "Nuclear energy",
+        "as": "পাৰমাণৱিক শক্তি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Chipko Movement was a forest conservation movement where people hugged trees.",
+      "as": "চিপক' আন্দোলন আছিল বন সংৰক্ষণৰ আন্দোলন য'ত মানুহে গছ সাবটি ধৰিছিল।"
+    }
+  },
+  {
+    "id": "environment-pollution-079",
+    "q": {
+      "en": "Sustainable development means:",
+      "as": "স্থায়ী উন্নয়নৰ অৰ্থ কি?"
+    },
+    "options": [
+      {
+        "en": "Using resources only for the present generation",
+        "as": "কেৱল বৰ্তমান প্ৰজন্মৰ বাবে সম্পদ ব্যৱহাৰ"
+      },
+      {
+        "en": "Stopping all industrial growth",
+        "as": "সকলো ঔদ্যোগিক বৃদ্ধি বন্ধ কৰা"
+      },
+      {
+        "en": "Development that meets present needs without compromising future generations",
+        "as": "ভৱিষ্যত প্ৰজন্মৰ ক্ষতি নকৰাকৈ বৰ্তমানৰ প্ৰয়োজন পূৰণ কৰা উন্নয়ন"
+      },
+      {
+        "en": "Using as much energy as possible",
+        "as": "সৰ্বাধিক শক্তি ব্যৱহাৰ কৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sustainable development meets present needs without harming future generations' ability.",
+      "as": "স্থায়ী উন্নয়নে ভৱিষ্যত প্ৰজন্মৰ সামৰ্থ্যৰ ক্ষতি নকৰাকৈ বৰ্তমানৰ প্ৰয়োজন পূৰণ কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-080",
+    "q": {
+      "en": "The Stockholm Conference on the Human Environment was held in which year?",
+      "as": "মানৱ পৰিৱেশৰ ওপৰত ষ্টকহ'ম সন্মিলন কোন বছৰত অনুষ্ঠিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1982",
+        "as": "১৯৮২"
+      },
+      {
+        "en": "1992",
+        "as": "১৯৯২"
+      },
+      {
+        "en": "2002",
+        "as": "২০০২"
+      },
+      {
+        "en": "1972",
+        "as": "১৯৭২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Stockholm Conference in 1972 was the first major UN conference on the environment.",
+      "as": "১৯৭২ চনৰ ষ্টকহ'ম সন্মিলন আছিল পৰিৱেশৰ ওপৰত ৰাষ্ট্ৰসংঘৰ প্ৰথম প্ৰধান সন্মিলন।"
+    }
+  },
+  {
+    "id": "environment-pollution-081",
+    "q": {
+      "en": "The Rio Earth Summit was held in which year?",
+      "as": "ৰিঅ' পৃথিৱী সন্মিলন কোন বছৰত অনুষ্ঠিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1972",
+        "as": "১৯৭২"
+      },
+      {
+        "en": "1982",
+        "as": "১৯৮২"
+      },
+      {
+        "en": "2002",
+        "as": "২০০২"
+      },
+      {
+        "en": "1992",
+        "as": "১৯৯২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Rio Earth Summit was held in 1992 in Brazil, producing Agenda 21.",
+      "as": "ৰিঅ' পৃথিৱী সন্মিলন ১৯৯২ চনত ব্ৰাজিলত অনুষ্ঠিত হৈছিল, য'ত এজেণ্ডা ২১ গৃহীত হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-082",
+    "q": {
+      "en": "In India, the Environment (Protection) Act was enacted in which year?",
+      "as": "ভাৰতত পৰিৱেশ (সুৰক্ষা) আইন কোন বছৰত প্ৰণয়ন কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1974",
+        "as": "১৯৭৪"
+      },
+      {
+        "en": "1986",
+        "as": "১৯৮৬"
+      },
+      {
+        "en": "1981",
+        "as": "১৯৮১"
+      },
+      {
+        "en": "1991",
+        "as": "১৯৯১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Environment (Protection) Act was enacted in 1986 after the Bhopal tragedy.",
+      "as": "ভূপাল দুৰ্যোগৰ পিছত ১৯৮৬ চনত পৰিৱেশ (সুৰক্ষা) আইন প্ৰণয়ন কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "environment-pollution-083",
+    "q": {
+      "en": "The Air (Prevention and Control of Pollution) Act in India was passed in which year?",
+      "as": "ভাৰতত বায়ু (প্ৰদূষণ প্ৰতিৰোধ আৰু নিয়ন্ত্ৰণ) আইন কোন বছৰত গৃহীত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1981",
+        "as": "১৯৮১"
+      },
+      {
+        "en": "1974",
+        "as": "১৯৭৪"
+      },
+      {
+        "en": "1986",
+        "as": "১৯৮৬"
+      },
+      {
+        "en": "1992",
+        "as": "১৯৯২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Air Act was passed in 1981 to prevent and control air pollution in India.",
+      "as": "ভাৰতত বায়ু প্ৰদূষণ প্ৰতিৰোধ আৰু নিয়ন্ত্ৰণৰ বাবে ১৯৮১ চনত বায়ু আইন গৃহীত হৈছিল।"
+    }
+  },
+  {
+    "id": "environment-pollution-084",
+    "q": {
+      "en": "The Water (Prevention and Control of Pollution) Act in India was enacted in which year?",
+      "as": "ভাৰতত জল (প্ৰদূষণ প্ৰতিৰোধ আৰু নিয়ন্ত্ৰণ) আইন কোন বছৰত প্ৰণয়ন কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1974",
+        "as": "১৯৭৪"
+      },
+      {
+        "en": "1981",
+        "as": "১৯৮১"
+      },
+      {
+        "en": "1986",
+        "as": "১৯৮৬"
+      },
+      {
+        "en": "1992",
+        "as": "১৯৯২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Water Act was enacted in 1974 to control water pollution in India.",
+      "as": "ভাৰতত জল প্ৰদূষণ নিয়ন্ত্ৰণৰ বাবে ১৯৭৪ চনত জল আইন প্ৰণয়ন কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "environment-pollution-085",
+    "q": {
+      "en": "Project Tiger was launched in India in which year?",
+      "as": "ভাৰতত প্ৰজেক্ট টাইগাৰ কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1963",
+        "as": "১৯৬৩"
+      },
+      {
+        "en": "1983",
+        "as": "১৯৮৩"
+      },
+      {
+        "en": "1993",
+        "as": "১৯৯৩"
+      },
+      {
+        "en": "1973",
+        "as": "১৯৭৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Project Tiger was launched in 1973 to conserve the tiger population in India.",
+      "as": "ভাৰতত বাঘৰ সংখ্যা সংৰক্ষণৰ বাবে ১৯৭৩ চনত প্ৰজেক্ট টাইগাৰ আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "environment-pollution-086",
+    "q": {
+      "en": "A catalytic converter in vehicles is used to reduce:",
+      "as": "বাহনত থকা কেটালিটিক কনভাৰ্টাৰ কাৰ হ্ৰাস কৰিবলৈ ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Carbon dioxide only",
+        "as": "কেৱল কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Water vapour",
+        "as": "জলীয় বাষ্প"
+      },
+      {
+        "en": "Carbon monoxide, hydrocarbons and nitrogen oxides",
+        "as": "কাৰ্বন মনোক্সাইড, হাইড্ৰ'কাৰ্বন আৰু নাইট্ৰোজেন অক্সাইড"
+      },
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Catalytic converters convert CO, hydrocarbons and NOx into less harmful gases.",
+      "as": "কেটালিটিক কনভাৰ্টাৰে CO, হাইড্ৰ'কাৰ্বন আৰু NOx ক কম ক্ষতিকাৰক গেছলৈ ৰূপান্তৰ কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-087",
+    "q": {
+      "en": "An electrostatic precipitator is used to control which type of pollution?",
+      "as": "ইলেক্ট্ৰ'ষ্টেটিক প্ৰিচিপিটেটৰ কোন প্ৰকাৰৰ প্ৰদূষণ নিয়ন্ত্ৰণৰ বাবে ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Particulate air pollution",
+        "as": "কণা বায়ু প্ৰদূষণ"
+      },
+      {
+        "en": "Noise pollution",
+        "as": "শব্দ প্ৰদূষণ"
+      },
+      {
+        "en": "Water pollution",
+        "as": "জল প্ৰদূষণ"
+      },
+      {
+        "en": "Soil pollution",
+        "as": "মাটি প্ৰদূষণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Electrostatic precipitators remove fine particulate matter from industrial flue gases.",
+      "as": "ইলেক্ট্ৰ'ষ্টেটিক প্ৰিচিপিটেটৰে ঔদ্যোগিক গেছৰ পৰা সূক্ষ্ম কণা আঁতৰায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-088",
+    "q": {
+      "en": "A scrubber in an industry is mainly used to remove:",
+      "as": "উদ্যোগত স্ক্ৰাবাৰ মূলতঃ কাক আঁতৰাবলৈ ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Noise",
+        "as": "শব্দ"
+      },
+      {
+        "en": "Solid waste",
+        "as": "কঠিন আৱৰ্জনা"
+      },
+      {
+        "en": "Heat",
+        "as": "তাপ"
+      },
+      {
+        "en": "Sulphur dioxide from flue gases",
+        "as": "গেছৰ পৰা ছালফাৰ ডাই অক্সাইড"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Scrubbers use liquid sprays to remove SO₂ and other acidic gases from emissions.",
+      "as": "স্ক্ৰাবাৰে তৰল স্প্ৰে ব্যৱহাৰ কৰি নিৰ্গমনৰ পৰা SO₂ আৰু অন্য অম্লীয় গেছ আঁতৰায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-089",
+    "q": {
+      "en": "Which of the following is a greenhouse gas released from agriculture?",
+      "as": "তলৰ কোনটো কৃষিৰ পৰা নিৰ্গত গ্ৰীনহাউছ গেছ?"
+    },
+    "options": [
+      {
+        "en": "Nitrous oxide",
+        "as": "নাইট্ৰাছ অক্সাইড"
+      },
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      },
+      {
+        "en": "Argon",
+        "as": "আৰ্গন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Use of nitrogen fertilizers releases nitrous oxide, a potent greenhouse gas.",
+      "as": "নাইট্ৰোজেন সাৰৰ ব্যৱহাৰে নাইট্ৰাছ অক্সাইড, এটা প্ৰবল গ্ৰীনহাউছ গেছ নিৰ্গত কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-090",
+    "q": {
+      "en": "Which gas is a major cause of global warming due to burning of fossil fuels?",
+      "as": "জীৱাশ্ম ইন্ধন জ্বলোৱাৰ ফলত গোলকীয় উষ্ণতা বৃদ্ধিৰ প্ৰধান কাৰণ কোনটো গেছ?"
+    },
+    "options": [
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰোজেন"
+      },
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Burning fossil fuels releases large amounts of CO₂, driving global warming.",
+      "as": "জীৱাশ্ম ইন্ধন জ্বলোৱাৰ ফলত বিপুল পৰিমাণে CO₂ নিৰ্গত হয়, যি গোলকীয় উষ্ণতা বৃদ্ধি কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-091",
+    "q": {
+      "en": "Which of the following acts as a sink for carbon dioxide?",
+      "as": "তলৰ কোনটোৱে কাৰ্বন ডাই অক্সাইডৰ চিঙ্ক হিচাপে কাম কৰে?"
+    },
+    "options": [
+      {
+        "en": "Forests and oceans",
+        "as": "অৰণ্য আৰু সাগৰ"
+      },
+      {
+        "en": "Deserts only",
+        "as": "কেৱল মৰুভূমি"
+      },
+      {
+        "en": "Volcanoes",
+        "as": "আগ্নেয়গিৰি"
+      },
+      {
+        "en": "Cities",
+        "as": "চহৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Forests and oceans absorb carbon dioxide, acting as major carbon sinks.",
+      "as": "অৰণ্য আৰু সাগৰে কাৰ্বন ডাই অক্সাইড শোষণ কৰি প্ৰধান কাৰ্বন চিঙ্ক হিচাপে কাম কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-092",
+    "q": {
+      "en": "Ocean acidification is mainly caused by:",
+      "as": "সাগৰীয় অম্লীকৰণ মূলতঃ কাৰ দ্বাৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Oil spills",
+        "as": "তেলৰ থোপা"
+      },
+      {
+        "en": "Plastic waste",
+        "as": "প্লাষ্টিক আৱৰ্জনা"
+      },
+      {
+        "en": "Noise from ships",
+        "as": "জাহাজৰ শব্দ"
+      },
+      {
+        "en": "Absorption of excess carbon dioxide by oceans",
+        "as": "সাগৰে অতিৰিক্ত কাৰ্বন ডাই অক্সাইড শোষণ কৰা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Oceans absorb CO₂, forming carbonic acid and lowering the pH of seawater.",
+      "as": "সাগৰে CO₂ শোষণ কৰি কাৰ্বনিক এচিড গঠন কৰে আৰু সাগৰীয় পানীৰ pH কমায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-093",
+    "q": {
+      "en": "Coral bleaching is mainly caused by:",
+      "as": "প্ৰবালৰ ব্লিচিং মূলতঃ কাৰ দ্বাৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Rise in sea level",
+        "as": "সাগৰীয় স্তৰ বৃদ্ধি"
+      },
+      {
+        "en": "Increase in oxygen",
+        "as": "অক্সিজেন বৃদ্ধি"
+      },
+      {
+        "en": "Decrease in fishing",
+        "as": "মাছ ধৰা কমা"
+      },
+      {
+        "en": "Rise in sea temperature",
+        "as": "সাগৰীয় উষ্ণতা বৃদ্ধি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Warmer ocean water stresses corals, causing them to expel algae and turn white.",
+      "as": "উষ্ণ সাগৰীয় পানীয়ে প্ৰবালৰ ওপৰত চাপ সৃষ্টি কৰি শেলাই ওলিয়াই দিয়ে আৰু বগা হৈ পৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-094",
+    "q": {
+      "en": "The Montreal Protocol was signed to protect the ozone layer from:",
+      "as": "মণ্ট্ৰিয়াল প্ৰ'টোকল ওজোন স্তৰক কাৰ পৰা সুৰক্ষা দিবলৈ স্বাক্ষৰিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Ozone-depleting substances like CFCs",
+        "as": "CFC ৰ দৰে ওজোন ক্ষয়কাৰী পদাৰ্থ"
+      },
+      {
+        "en": "Greenhouse gases only",
+        "as": "কেৱল গ্ৰীনহাউছ গেছ"
+      },
+      {
+        "en": "Acid rain",
+        "as": "অম্লীয় বৰষুণ"
+      },
+      {
+        "en": "Noise",
+        "as": "শব্দ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Montreal Protocol phases out CFCs and other ozone-depleting substances.",
+      "as": "মণ্ট্ৰিয়াল প্ৰ'টোকলে CFC আৰু অন্য ওজোন ক্ষয়কাৰী পদাৰ্থ বন্ধ কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-095",
+    "q": {
+      "en": "The ozone layer protects living beings from:",
+      "as": "ওজোন স্তৰে জীৱক কাৰ পৰা সুৰক্ষা দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Infrared rays",
+        "as": "অৱ-ৰক্ত ৰশ্মি"
+      },
+      {
+        "en": "Ultraviolet rays",
+        "as": "অতিবেগুনী ৰশ্মি"
+      },
+      {
+        "en": "Radio waves",
+        "as": "ৰেডিঅ' তৰংগ"
+      },
+      {
+        "en": "Sound waves",
+        "as": "শব্দ তৰংগ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The ozone layer absorbs harmful ultraviolet (UV) radiation from the Sun.",
+      "as": "ওজোন স্তৰে সূৰ্যৰ পৰা অহা ক্ষতিকাৰক অতিবেগুনী (UV) ৰশ্মি শোষণ কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-096",
+    "q": {
+      "en": "Exposure to excess ultraviolet radiation can cause:",
+      "as": "অতিৰিক্ত অতিবেগুনী ৰশ্মিৰ সংস্পৰ্শই কি সৃষ্টি কৰিব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "Diabetes",
+        "as": "মধুমেহ"
+      },
+      {
+        "en": "Skin cancer and cataract",
+        "as": "ছালৰ কৰ্কট ৰোগ আৰু ছানি"
+      },
+      {
+        "en": "Malaria",
+        "as": "মেলেৰিয়া"
+      },
+      {
+        "en": "Cholera",
+        "as": "কলেৰা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Excess UV radiation causes skin cancer, cataract and weakened immunity.",
+      "as": "অতিৰিক্ত UV ৰশ্মিয়ে ছালৰ কৰ্কট ৰোগ, ছানি আৰু ৰোগ-প্ৰতিৰোধ ক্ষমতা দুৰ্বল কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-097",
+    "q": {
+      "en": "The largest ozone hole has been observed over which region?",
+      "as": "সৰ্ববৃহৎ ওজোন ছিদ্ৰ কোনটো অঞ্চলত দেখা গৈছে?"
+    },
+    "options": [
+      {
+        "en": "Antarctica",
+        "as": "আণ্টাৰ্কটিকা"
+      },
+      {
+        "en": "Arctic",
+        "as": "আৰ্কটিক"
+      },
+      {
+        "en": "Equator",
+        "as": "বিষুবৰেখা"
+      },
+      {
+        "en": "Sahara",
+        "as": "চাহাৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The largest ozone hole forms over Antarctica due to polar stratospheric clouds.",
+      "as": "মেৰু ষ্টেট'স্ফিয়াৰিক মেঘৰ বাবে আণ্টাৰ্কটিকাৰ ওপৰত সৰ্ববৃহৎ ওজোন ছিদ্ৰ গঠন হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-098",
+    "q": {
+      "en": "Which gas is colourless, odourless and highly poisonous?",
+      "as": "কোনটো গেছ বৰণহীন, গোন্ধহীন আৰু অতি বিষাক্ত?"
+    },
+    "options": [
+      {
+        "en": "Sulphur dioxide",
+        "as": "ছালফাৰ ডাই অক্সাইড"
+      },
+      {
+        "en": "Chlorine",
+        "as": "ক্ল'ৰিন"
+      },
+      {
+        "en": "Carbon monoxide",
+        "as": "কাৰ্বন মনোক্সাইড"
+      },
+      {
+        "en": "Ammonia",
+        "as": "এম'নিয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Carbon monoxide is colourless, odourless and highly toxic.",
+      "as": "কাৰ্বন মনোক্সাইড বৰণহীন, গোন্ধহীন আৰু অতি বিষাক্ত।"
+    }
+  },
+  {
+    "id": "environment-pollution-099",
+    "q": {
+      "en": "The main component of CNG (Compressed Natural Gas) is:",
+      "as": "CNG (সংকুচিত প্ৰাকৃতিক গেছ) ৰ মূল উপাদান কি?"
+    },
+    "options": [
+      {
+        "en": "Methane",
+        "as": "মিথেন"
+      },
+      {
+        "en": "Propane",
+        "as": "প্ৰ'পেন"
+      },
+      {
+        "en": "Butane",
+        "as": "বিউটেন"
+      },
+      {
+        "en": "Hydrogen",
+        "as": "হাইড্ৰজেন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "CNG is mainly methane and is considered a cleaner vehicle fuel.",
+      "as": "CNG মূলতঃ মিথেন আৰু ইয়াক বাহনৰ বাবে পৰিষ্কাৰ ইন্ধন বুলি গণ্য কৰা হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-100",
+    "q": {
+      "en": "LPG used for cooking is mainly a mixture of:",
+      "as": "ৰন্ধা-বঢ়াৰ বাবে ব্যৱহৃত LPG মূলতঃ কাৰ মিশ্ৰণ?"
+    },
+    "options": [
+      {
+        "en": "Methane and ethane",
+        "as": "মিথেন আৰু ইথেন"
+      },
+      {
+        "en": "Oxygen and nitrogen",
+        "as": "অক্সিজেন আৰু নাইট্ৰোজেন"
+      },
+      {
+        "en": "Propane and butane",
+        "as": "প্ৰ'পেন আৰু বিউটেন"
+      },
+      {
+        "en": "Hydrogen and helium",
+        "as": "হাইড্ৰজেন আৰু হিলিয়াম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "LPG is a mixture of propane and butane, used as domestic cooking fuel.",
+      "as": "LPG হৈছে প্ৰ'পেন আৰু বিউটেনৰ মিশ্ৰণ, ঘৰুৱা ৰন্ধা-বঢ়াৰ ইন্ধন হিচাপে ব্যৱহৃত।"
+    }
+  },
+  {
+    "id": "environment-pollution-101",
+    "q": {
+      "en": "The Minamata Bay incident occurred in which country?",
+      "as": "মিনামাটা উপসাগৰৰ ঘটনা কোনটো দেশত সংঘটিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "China",
+        "as": "চীন"
+      },
+      {
+        "en": "Japan",
+        "as": "জাপান"
+      },
+      {
+        "en": "India",
+        "as": "ভাৰত"
+      },
+      {
+        "en": "Brazil",
+        "as": "ব্ৰাজিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Minamata disaster occurred in Japan due to industrial mercury discharge.",
+      "as": "ঔদ্যোগিক পাৰা নিৰ্গমনৰ বাবে জাপানত মিনামাটা দুৰ্যোগ সংঘটিত হৈছিল।"
+    }
+  },
+  {
+    "id": "environment-pollution-102",
+    "q": {
+      "en": "The Chernobyl nuclear disaster took place in which country (present-day)?",
+      "as": "চাৰ্ন'বিল পাৰমাণৱিক দুৰ্যোগ কোনটো দেশত (বৰ্তমান) সংঘটিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Russia",
+        "as": "ৰাছিয়া"
+      },
+      {
+        "en": "Japan",
+        "as": "জাপান"
+      },
+      {
+        "en": "Ukraine",
+        "as": "ইউক্ৰেইন"
+      },
+      {
+        "en": "Germany",
+        "as": "জাৰ্মানী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Chernobyl is located in present-day Ukraine and the disaster occurred in 1986.",
+      "as": "চাৰ্ন'বিল বৰ্তমান ইউক্ৰেইনত অৱস্থিত আৰু দুৰ্যোগ ১৯৮৬ চনত সংঘটিত হৈছিল।"
+    }
+  },
+  {
+    "id": "environment-pollution-103",
+    "q": {
+      "en": "Which is a natural source of air pollution?",
+      "as": "বায়ু প্ৰদূষণৰ এটা প্ৰাকৃতিক উৎস কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Volcanic eruption",
+        "as": "আগ্নেয়গিৰিৰ উদ্গম"
+      },
+      {
+        "en": "Vehicle exhaust",
+        "as": "যানবাহনৰ নিষ্কাশন"
+      },
+      {
+        "en": "Factory smoke",
+        "as": "কাৰখানাৰ ধোঁৱা"
+      },
+      {
+        "en": "Burning of fossil fuels",
+        "as": "জীৱাশ্ম ইন্ধন জ্বলোৱা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Volcanoes release SO₂, ash and other gases naturally into the atmosphere.",
+      "as": "আগ্নেয়গিৰিয়ে প্ৰাকৃতিকভাৱে SO₂, ছাই আৰু অন্য গেছ বায়ুমণ্ডলত নিৰ্গত কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-104",
+    "q": {
+      "en": "Acid rain can damage which of the following?",
+      "as": "অম্লীয় বৰষুণে তলৰ কোনটোৰ ক্ষতি কৰিব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "Buildings, monuments and aquatic life",
+        "as": "ভৱন, স্মৃতিসৌধ আৰু জলজ জীৱন"
+      },
+      {
+        "en": "Only the ozone layer",
+        "as": "কেৱল ওজোন স্তৰ"
+      },
+      {
+        "en": "Only the Sun",
+        "as": "কেৱল সূৰ্য"
+      },
+      {
+        "en": "The Moon",
+        "as": "চন্দ্ৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Acid rain corrodes buildings and monuments and acidifies lakes, harming fish.",
+      "as": "অম্লীয় বৰষুণে ভৱন আৰু স্মৃতিসৌধ ক্ষয় কৰে আৰু হ্ৰদ অম্লীয় কৰি মাছৰ ক্ষতি কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-105",
+    "q": {
+      "en": "Which international agreement deals with the transboundary movement of hazardous wastes?",
+      "as": "কোনটো আন্তৰ্জাতিক চুক্তি বিপজ্জনক আৱৰ্জনাৰ সীমান্ত-পাৰ হোৱা চলাচলৰ সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Montreal Protocol",
+        "as": "মণ্ট্ৰিয়াল প্ৰ'টোকল"
+      },
+      {
+        "en": "Kyoto Protocol",
+        "as": "কিয়'ট' প্ৰ'টোকল"
+      },
+      {
+        "en": "Ramsar Convention",
+        "as": "ৰামচাৰ সন্মিলন"
+      },
+      {
+        "en": "Basel Convention",
+        "as": "বাছেল সন্মিলন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Basel Convention controls the transboundary movement of hazardous wastes.",
+      "as": "বাছেল সন্মিলনে বিপজ্জনক আৱৰ্জনাৰ সীমান্ত-পাৰ চলাচল নিয়ন্ত্ৰণ কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-106",
+    "q": {
+      "en": "The Ramsar Convention is related to the conservation of:",
+      "as": "ৰামচাৰ সন্মিলন কাৰ সংৰক্ষণৰ সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Mountains",
+        "as": "পৰ্বত"
+      },
+      {
+        "en": "Deserts",
+        "as": "মৰুভূমি"
+      },
+      {
+        "en": "Oceans only",
+        "as": "কেৱল মহাসাগৰ"
+      },
+      {
+        "en": "Wetlands",
+        "as": "জলাশয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Ramsar Convention is an international treaty for the conservation of wetlands.",
+      "as": "ৰামচাৰ সন্মিলন জলাশয় সংৰক্ষণৰ বাবে এটা আন্তৰ্জাতিক সন্ধি।"
+    }
+  },
+  {
+    "id": "environment-pollution-107",
+    "q": {
+      "en": "Which of the following is an effect of noise pollution?",
+      "as": "তলৰ কোনটো শব্দ প্ৰদূষণৰ এটা প্ৰভাৱ?"
+    },
+    "options": [
+      {
+        "en": "Skin cancer",
+        "as": "ছালৰ কৰ্কট ৰোগ"
+      },
+      {
+        "en": "Fluorosis",
+        "as": "ফ্ল'ৰ'চিছ"
+      },
+      {
+        "en": "Hearing loss and sleep disturbance",
+        "as": "শ্ৰৱণ শক্তি হ্ৰাস আৰু টোপনিৰ ব্যাঘাত"
+      },
+      {
+        "en": "Blue baby syndrome",
+        "as": "ব্লু বেবী চিন্ড্ৰ'ম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Prolonged noise pollution causes hearing loss, hypertension and sleep problems.",
+      "as": "দীৰ্ঘদিনীয়া শব্দ প্ৰদূষণে শ্ৰৱণ শক্তি হ্ৰাস, উচ্চ ৰক্তচাপ আৰু টোপনিৰ সমস্যা সৃষ্টি কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-108",
+    "q": {
+      "en": "Continuous exposure to noise above which level can damage hearing?",
+      "as": "কিমান মাত্ৰাৰ ওপৰৰ অবিৰত শব্দই শ্ৰৱণ শক্তি নষ্ট কৰিব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "40 dB",
+        "as": "৪০ dB"
+      },
+      {
+        "en": "55 dB",
+        "as": "৫৫ dB"
+      },
+      {
+        "en": "85 dB",
+        "as": "৮৫ dB"
+      },
+      {
+        "en": "20 dB",
+        "as": "২০ dB"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Continuous exposure to noise above 85 dB can cause permanent hearing damage.",
+      "as": "৮৫ dB ৰ ওপৰৰ অবিৰত শব্দই স্থায়ী শ্ৰৱণ ক্ষতি কৰিব পাৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-109",
+    "q": {
+      "en": "Which measure helps in reducing noise pollution on roads?",
+      "as": "পথত শব্দ প্ৰদূষণ কমোৱাত কোনটো ব্যৱস্থাই সহায় কৰে?"
+    },
+    "options": [
+      {
+        "en": "Planting green belts and trees",
+        "as": "সেউজ পটি আৰু গছ ৰোপণ"
+      },
+      {
+        "en": "Using more horns",
+        "as": "অধিক হৰ্ণ ব্যৱহাৰ"
+      },
+      {
+        "en": "Increasing traffic speed",
+        "as": "যান-বাহনৰ গতি বৃদ্ধি"
+      },
+      {
+        "en": "Removing plants",
+        "as": "উদ্ভিদ আঁতৰোৱা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Green belts and trees absorb sound and act as noise barriers.",
+      "as": "সেউজ পটি আৰু গছে শব্দ শোষণ কৰি শব্দ প্ৰতিৰোধক হিচাপে কাম কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-110",
+    "q": {
+      "en": "A green belt planted along roads to reduce noise is called:",
+      "as": "শব্দ কমাবলৈ পথৰ কাষে ৰোপণ কৰা সেউজ পটিক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Green house",
+        "as": "সেউজ গৃহ"
+      },
+      {
+        "en": "Green muffler",
+        "as": "সেউজ মাফলাৰ"
+      },
+      {
+        "en": "Green revolution",
+        "as": "সেউজ বিপ্লৱ"
+      },
+      {
+        "en": "Green card",
+        "as": "সেউজ কাৰ্ড"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A green belt along roads is called a green muffler as it reduces noise.",
+      "as": "পথৰ কাষে ৰোপণ কৰা সেউজ পটিক শব্দ কমোৱাৰ বাবে সেউজ মাফলাৰ বোলা হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-111",
+    "q": {
+      "en": "Which of the following causes indoor air pollution in rural households?",
+      "as": "তলৰ কোনটোৱে গ্ৰাম্য ঘৰত অন্তৰ্দ্বাৰ বায়ু প্ৰদূষণ ঘটায়?"
+    },
+    "options": [
+      {
+        "en": "Solar cooker",
+        "as": "সৌৰ ৰন্ধন সঁজুলি"
+      },
+      {
+        "en": "LED bulb",
+        "as": "এল ই ডি বাল্ব"
+      },
+      {
+        "en": "Smoke from biomass chulha",
+        "as": "জৈৱ-ইন্ধন চুলাৰ ধোঁৱা"
+      },
+      {
+        "en": "Rainwater",
+        "as": "বৰষুণৰ পানী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Smoke from traditional biomass chulhas causes serious indoor air pollution.",
+      "as": "পৰম্পৰাগত জৈৱ-ইন্ধন চুলাৰ ধোঁৱাই গুৰুতৰ অন্তৰ্দ্বাৰ বায়ু প্ৰদূষণ ঘটায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-112",
+    "q": {
+      "en": "The greenhouse effect is essential for life on Earth because it:",
+      "as": "পৃথিৱীত জীৱনৰ বাবে গ্ৰীনহাউছ প্ৰভাৱ অপৰিহাৰ্য কাৰণ ই কি কৰে?"
+    },
+    "options": [
+      {
+        "en": "Cools the Earth completely",
+        "as": "পৃথিৱীক সম্পূৰ্ণৰূপে শীতল কৰে"
+      },
+      {
+        "en": "Keeps the Earth warm enough for life",
+        "as": "পৃথিৱীক জীৱনৰ বাবে পৰ্যাপ্ত উষ্ণ ৰাখে"
+      },
+      {
+        "en": "Removes all oxygen",
+        "as": "সকলো অক্সিজেন আঁতৰায়"
+      },
+      {
+        "en": "Blocks all sunlight",
+        "as": "সকলো সূৰ্যৰ পোহৰ অৱৰোধ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Without the greenhouse effect, Earth's average temperature would be far too cold.",
+      "as": "গ্ৰীনহাউছ প্ৰভাৱ নহ'লে পৃথিৱীৰ গড় উষ্ণতা বহুত কম হ'লহেঁতেন।"
+    }
+  },
+  {
+    "id": "environment-pollution-113",
+    "q": {
+      "en": "Which sector is the largest emitter of greenhouse gases globally?",
+      "as": "বিশ্বজুৰি গ্ৰীনহাউছ গেছৰ সৰ্ববৃহৎ নিৰ্গমনকাৰী খণ্ড কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Energy and power generation",
+        "as": "শক্তি আৰু বিদ্যুৎ উৎপাদন"
+      },
+      {
+        "en": "Entertainment",
+        "as": "মনোৰঞ্জন"
+      },
+      {
+        "en": "Tourism",
+        "as": "পৰ্যটন"
+      },
+      {
+        "en": "Sports",
+        "as": "ক্ৰীড়া"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Burning fossil fuels for energy and power generation is the largest GHG source.",
+      "as": "শক্তি আৰু বিদ্যুৎ উৎপাদনৰ বাবে জীৱাশ্ম ইন্ধন জ্বলোৱা হৈছে সৰ্ববৃহৎ GHG উৎস।"
+    }
+  },
+  {
+    "id": "environment-pollution-114",
+    "q": {
+      "en": "Climate change caused by global warming may lead to:",
+      "as": "গোলকীয় উষ্ণতা বৃদ্ধিৰ ফলত হোৱা জলবায়ু পৰিৱৰ্তনে কি ঘটাব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "More frequent floods and droughts",
+        "as": "অধিক সঘন বানপানী আৰু খৰাং"
+      },
+      {
+        "en": "Constant rainfall everywhere",
+        "as": "সৰ্বত্ৰ স্থিৰ বৰষুণ"
+      },
+      {
+        "en": "No change in weather",
+        "as": "বতৰত কোনো পৰিৱৰ্তন নাই"
+      },
+      {
+        "en": "Complete stop of seasons",
+        "as": "ঋতুসমূহ সম্পূৰ্ণ বন্ধ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Global warming increases extreme weather events such as floods and droughts.",
+      "as": "গোলকীয় উষ্ণতা বৃদ্ধিয়ে বানপানী আৰু খৰাংৰ দৰে চৰম বতৰৰ ঘটনা বঢ়ায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-115",
+    "q": {
+      "en": "Which of the following is a clean and renewable energy source?",
+      "as": "তলৰ কোনটো এটা পৰিষ্কাৰ আৰু নৱীকৰণযোগ্য শক্তিৰ উৎস?"
+    },
+    "options": [
+      {
+        "en": "Coal",
+        "as": "কয়লা"
+      },
+      {
+        "en": "Diesel",
+        "as": "ডিজেল"
+      },
+      {
+        "en": "Petrol",
+        "as": "পেট্ৰল"
+      },
+      {
+        "en": "Solar energy",
+        "as": "সৌৰ শক্তি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Solar energy is clean, renewable and does not emit greenhouse gases.",
+      "as": "সৌৰ শক্তি পৰিষ্কাৰ, নৱীকৰণযোগ্য আৰু গ্ৰীনহাউছ গেছ নিৰ্গত নকৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-116",
+    "q": {
+      "en": "Which tree is commonly known for purifying air and is planted widely in India?",
+      "as": "কোনটো গছক বায়ু শুদ্ধ কৰাৰ বাবে জনা যায় আৰু ভাৰতত বহুলভাৱে ৰোপণ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Cactus",
+        "as": "কেক্টাছ"
+      },
+      {
+        "en": "Mangrove",
+        "as": "মেংগ্ৰ'ভ"
+      },
+      {
+        "en": "Neem",
+        "as": "নীম"
+      },
+      {
+        "en": "Pine",
+        "as": "পাইন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Neem is well known for absorbing pollutants and improving air quality.",
+      "as": "নীম প্ৰদূষক শোষণ আৰু বায়ুৰ গুণমান উন্নত কৰাৰ বাবে সুপৰিচিত।"
+    }
+  },
+  {
+    "id": "environment-pollution-117",
+    "q": {
+      "en": "Which of the following is a major source of water pollution?",
+      "as": "তলৰ কোনটো জল প্ৰদূষণৰ এটা প্ৰধান উৎস?"
+    },
+    "options": [
+      {
+        "en": "Solar power plants",
+        "as": "সৌৰ শক্তি কেন্দ্ৰ"
+      },
+      {
+        "en": "Wind farms",
+        "as": "বায়ু খেতি"
+      },
+      {
+        "en": "Tree plantation",
+        "as": "বৃক্ষৰোপণ"
+      },
+      {
+        "en": "Untreated industrial effluents",
+        "as": "অ-প্ৰক্ৰিয়াকৃত ঔদ্যোগিক নিষ্কাশন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Untreated industrial effluents discharged into rivers are a major water pollutant.",
+      "as": "নদীত পেলোৱা অ-প্ৰক্ৰিয়াকৃত ঔদ্যোগিক নিষ্কাশন এটা প্ৰধান জল প্ৰদূষক।"
+    }
+  },
+  {
+    "id": "environment-pollution-118",
+    "q": {
+      "en": "Excessive growth of algae in a water body due to nutrient pollution is called:",
+      "as": "পুষ্টি প্ৰদূষণৰ বাবে জলাশয়ত শেলাইৰ অত্যধিক বৃদ্ধিক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Acidification",
+        "as": "অম্লীকৰণ"
+      },
+      {
+        "en": "Salination",
+        "as": "লৱণীকৰণ"
+      },
+      {
+        "en": "Algal bloom",
+        "as": "শেলাইৰ বিস্ফোৰণ"
+      },
+      {
+        "en": "Sedimentation",
+        "as": "অৱক্ষেপণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Excess nutrients cause rapid algal growth called an algal bloom.",
+      "as": "অতিৰিক্ত পুষ্টিয়ে দ্ৰুত শেলাই বৃদ্ধি ঘটায়, যাক শেলাইৰ বিস্ফোৰণ বোলা হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-119",
+    "q": {
+      "en": "Algal blooms in water bodies ultimately cause:",
+      "as": "জলাশয়ত শেলাইৰ বিস্ফোৰণে শেষত কি ঘটায়?"
+    },
+    "options": [
+      {
+        "en": "Depletion of dissolved oxygen and fish death",
+        "as": "দ্ৰৱীভূত অক্সিজেন হ্ৰাস আৰু মাছৰ মৃত্যু"
+      },
+      {
+        "en": "Increase in dissolved oxygen",
+        "as": "দ্ৰৱীভূত অক্সিজেন বৃদ্ধি"
+      },
+      {
+        "en": "Cleaner water",
+        "as": "অধিক পৰিষ্কাৰ পানী"
+      },
+      {
+        "en": "More rainfall",
+        "as": "অধিক বৰষুণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Decomposing algae consume oxygen, creating dead zones and killing fish.",
+      "as": "বিয়োজিত শেলাইয়ে অক্সিজেন খৰচ কৰি মৃত অঞ্চল সৃষ্টি কৰে আৰু মাছ মাৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-120",
+    "q": {
+      "en": "Oil spills in oceans mainly harm:",
+      "as": "মহাসাগৰত তেলৰ থোপাই মূলতঃ কাৰ ক্ষতি কৰে?"
+    },
+    "options": [
+      {
+        "en": "Ozone layer",
+        "as": "ওজোন স্তৰ"
+      },
+      {
+        "en": "The Moon",
+        "as": "চন্দ্ৰ"
+      },
+      {
+        "en": "Marine life such as fish and birds",
+        "as": "মাছ আৰু চৰাইৰ দৰে সাগৰীয় জীৱন"
+      },
+      {
+        "en": "Stratosphere",
+        "as": "ষ্টেট'স্ফিয়াৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Oil spills coat marine animals and birds, harming or killing them.",
+      "as": "তেলৰ থোপাই সাগৰীয় প্ৰাণী আৰু চৰাইক ঢাকি ক্ষতি বা মৃত্যু ঘটায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-121",
+    "q": {
+      "en": "Which of the following is used as a substitute for ozone-depleting CFCs?",
+      "as": "তলৰ কোনটো ওজোন ক্ষয়কাৰী CFC ৰ বিকল্প হিচাপে ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Chlorine gas",
+        "as": "ক্ল'ৰিন গেছ"
+      },
+      {
+        "en": "Hydrofluorocarbons (HFCs)",
+        "as": "হাইড্ৰ'ফ্ল'ৰ'কাৰ্বন (HFC)"
+      },
+      {
+        "en": "Carbon monoxide",
+        "as": "কাৰ্বন মনোক্সাইড"
+      },
+      {
+        "en": "Sulphur dioxide",
+        "as": "ছালফাৰ ডাই অক্সাইড"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "HFCs replaced CFCs as they do not deplete the ozone layer, though they are GHGs.",
+      "as": "HFC-এ CFC ৰ ঠাই লয় কাৰণ ই ওজোন স্তৰ ক্ষয় নকৰে, যদিও ই গ্ৰীনহাউছ গেছ।"
+    }
+  },
+  {
+    "id": "environment-pollution-122",
+    "q": {
+      "en": "The process of increasing concentration of a pollutant at each trophic level is called:",
+      "as": "প্ৰতিটো খাদ্য স্তৰত প্ৰদূষকৰ ঘনত্ব বাঢ়ি যোৱা প্ৰক্ৰিয়াক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Eutrophication",
+        "as": "ইউট্ৰ'ফিকেশ্যন"
+      },
+      {
+        "en": "Bioremediation",
+        "as": "জৈৱ-পুনৰুদ্ধাৰ"
+      },
+      {
+        "en": "Biomagnification",
+        "as": "জৈৱ-বৰ্ধন"
+      },
+      {
+        "en": "Bioaccumulation",
+        "as": "জৈৱ-সঞ্চয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Biomagnification is the increase in pollutant concentration along the food chain.",
+      "as": "জৈৱ-বৰ্ধন হৈছে খাদ্য শৃংখলত প্ৰদূষকৰ ঘনত্ব বৃদ্ধি পোৱা প্ৰক্ৰিয়া।"
+    }
+  },
+  {
+    "id": "environment-pollution-123",
+    "q": {
+      "en": "Which of the following pollutants is mainly responsible for the thinning of the ozone layer?",
+      "as": "তলৰ কোনটো প্ৰদূষক মূলতঃ ওজোন স্তৰ পাতল হোৱাৰ বাবে দায়ী?"
+    },
+    "options": [
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Methane",
+        "as": "মিথেন"
+      },
+      {
+        "en": "Water vapour",
+        "as": "জলীয় বাষ্প"
+      },
+      {
+        "en": "Chlorofluorocarbons",
+        "as": "ক্ল'ৰ'ফ্ল'ৰ'কাৰ্বন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "CFCs release chlorine that catalytically destroys stratospheric ozone.",
+      "as": "CFC-এ ক্ল'ৰিন মুক্ত কৰি ষ্টেট'স্ফিয়াৰিক ওজোন ধ্বংস কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-124",
+    "q": {
+      "en": "Which soil pollutant can enter the food chain and cause biomagnification?",
+      "as": "কোনটো মাটি প্ৰদূষক খাদ্য শৃংখলত প্ৰৱেশ কৰি জৈৱ-বৰ্ধন ঘটাব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "Sand",
+        "as": "বালি"
+      },
+      {
+        "en": "Water",
+        "as": "পানী"
+      },
+      {
+        "en": "Pesticides",
+        "as": "কীটনাশক"
+      },
+      {
+        "en": "Air",
+        "as": "বায়ু"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Pesticides persist in soil, enter crops and biomagnify along the food chain.",
+      "as": "কীটনাশক মাটিত থাকে, শস্যত প্ৰৱেশ কৰে আৰু খাদ্য শৃংখলত জৈৱ-বৰ্ধন হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-125",
+    "q": {
+      "en": "Which greenhouse gas is released from decaying organic matter in wetlands?",
+      "as": "জলাশয়ত বিয়োজিত জৈৱিক পদাৰ্থৰ পৰা কোনটো গ্ৰীনহাউছ গেছ নিৰ্গত হয়?"
+    },
+    "options": [
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰোজেন"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      },
+      {
+        "en": "Methane",
+        "as": "মিথেন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Anaerobic decay of organic matter in wetlands produces methane.",
+      "as": "জলাশয়ত জৈৱিক পদাৰ্থৰ অৱায়ু বিয়োজনৰ পৰা মিথেন উৎপন্ন হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-126",
+    "q": {
+      "en": "Which of the following is a major cause of groundwater depletion and contamination?",
+      "as": "তলৰ কোনটো ভূগৰ্ভস্থ জল হ্ৰাস আৰু প্ৰদূষণৰ এটা প্ৰধান কাৰণ?"
+    },
+    "options": [
+      {
+        "en": "Tree plantation",
+        "as": "বৃক্ষৰোপণ"
+      },
+      {
+        "en": "Over-extraction and industrial discharge",
+        "as": "অত্যধিক উত্তোলন আৰু ঔদ্যোগিক নিষ্কাশন"
+      },
+      {
+        "en": "Rainwater harvesting",
+        "as": "বৰষুণৰ পানী সংগ্ৰহ"
+      },
+      {
+        "en": "Solar panels",
+        "as": "সৌৰ পেনেল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Over-extraction and untreated industrial discharge deplete and contaminate groundwater.",
+      "as": "অত্যধিক উত্তোলন আৰু অ-প্ৰক্ৰিয়াকৃত ঔদ্যোগিক নিষ্কাশনে ভূগৰ্ভস্থ জল হ্ৰাস আৰু প্ৰদূষিত কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-127",
+    "q": {
+      "en": "Rainwater harvesting helps mainly to:",
+      "as": "বৰষুণৰ পানী সংগ্ৰহণে মূলতঃ কাৰ সহায় কৰে?"
+    },
+    "options": [
+      {
+        "en": "Increase air pollution",
+        "as": "বায়ু প্ৰদূষণ বৃদ্ধি"
+      },
+      {
+        "en": "Increase groundwater recharge",
+        "as": "ভূগৰ্ভস্থ জল পুনৰ্ভৰণ বৃদ্ধি"
+      },
+      {
+        "en": "Increase noise",
+        "as": "শব্দ বৃদ্ধি"
+      },
+      {
+        "en": "Reduce rainfall",
+        "as": "বৰষুণ হ্ৰাস"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rainwater harvesting recharges groundwater and reduces water scarcity.",
+      "as": "বৰষুণৰ পানী সংগ্ৰহণে ভূগৰ্ভস্থ জল পুনৰ্ভৰণ কৰে আৰু পানীৰ অভাৱ কমায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-128",
+    "q": {
+      "en": "Which of the following is a primary greenhouse gas emitted by livestock?",
+      "as": "তলৰ কোনটো পশুধনৰ পৰা নিৰ্গত এটা প্ৰাথমিক গ্ৰীনহাউছ গেছ?"
+    },
+    "options": [
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Argon",
+        "as": "আৰ্গন"
+      },
+      {
+        "en": "Methane",
+        "as": "মিথেন"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Livestock digestion and manure release significant methane, a greenhouse gas.",
+      "as": "পশুধনৰ হজম আৰু গোবৰে উল্লেখযোগ্য পৰিমাণে মিথেন, এটা গ্ৰীনহাউছ গেছ নিৰ্গত কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-129",
+    "q": {
+      "en": "The use of plastic bags is discouraged mainly because they:",
+      "as": "প্লাষ্টিকৰ মোনা ব্যৱহাৰ নিৰুৎসাহিত কৰা হয় কাৰণ ইহঁতে কি কৰে?"
+    },
+    "options": [
+      {
+        "en": "Are too heavy",
+        "as": "অতি গধুৰ"
+      },
+      {
+        "en": "Are too expensive",
+        "as": "অতি ব্যয়বহুল"
+      },
+      {
+        "en": "Melt in rain",
+        "as": "বৰষুণত গলে"
+      },
+      {
+        "en": "Are non-biodegradable and pollute the environment",
+        "as": "অ-জৈৱ-বিয়োজনযোগ্য আৰু পৰিৱেশ প্ৰদূষিত কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Plastic bags persist for centuries, choke drains and harm animals.",
+      "as": "প্লাষ্টিকৰ মোনা শতিকাজুৰি থাকে, নৰ্দমা বন্ধ কৰে আৰু প্ৰাণীৰ ক্ষতি কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-130",
+    "q": {
+      "en": "Which of the following is a better alternative to plastic carry bags?",
+      "as": "প্লাষ্টিকৰ মোনাৰ এটা উত্তম বিকল্প কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Thin plastic bags",
+        "as": "পাতল প্লাষ্টিকৰ মোনা"
+      },
+      {
+        "en": "Aluminium foil bags",
+        "as": "এলুমিনিয়াম ফইলৰ মোনা"
+      },
+      {
+        "en": "Cloth or jute bags",
+        "as": "কাপোৰ বা পাটৰ মোনা"
+      },
+      {
+        "en": "Polythene sheets",
+        "as": "পলিথিনৰ চাদৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Cloth and jute bags are reusable, biodegradable and eco-friendly.",
+      "as": "কাপোৰ আৰু পাটৰ মোনা পুনৰ ব্যৱহাৰযোগ্য, জৈৱ-বিয়োজনযোগ্য আৰু পৰিৱেশ-বান্ধৱী।"
+    }
+  },
+  {
+    "id": "environment-pollution-131",
+    "q": {
+      "en": "Which of the following gases contributes to both acid rain and respiratory problems?",
+      "as": "তলৰ কোনটো গেছে অম্লীয় বৰষুণ আৰু শ্বাস-প্ৰশ্বাসৰ সমস্যা দুয়োটাতে অৰিহণা যোগায়?"
+    },
+    "options": [
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      },
+      {
+        "en": "Sulphur dioxide",
+        "as": "ছালফাৰ ডাই অক্সাইড"
+      },
+      {
+        "en": "Neon",
+        "as": "নিঅ'ন"
+      },
+      {
+        "en": "Argon",
+        "as": "আৰ্গন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SO₂ causes acid rain and irritates the respiratory system.",
+      "as": "SO₂-এ অম্লীয় বৰষুণ সৃষ্টি কৰে আৰু শ্বাস তন্ত্ৰত জ্বালা-পোৰা কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-132",
+    "q": {
+      "en": "Particulate matter in air mainly causes:",
+      "as": "বায়ুত থকা কণিকাই মূলতঃ কি ঘটায়?"
+    },
+    "options": [
+      {
+        "en": "Respiratory and cardiovascular diseases",
+        "as": "শ্বাস-প্ৰশ্বাস আৰু হৃদ-ৰক্তনলীৰ ৰোগ"
+      },
+      {
+        "en": "Only skin allergy",
+        "as": "কেৱল ছালৰ এলাৰ্জি"
+      },
+      {
+        "en": "Only hair loss",
+        "as": "কেৱল চুলি সৰা"
+      },
+      {
+        "en": "Only tooth decay",
+        "as": "কেৱল দাঁতৰ ক্ষয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Fine particulate matter penetrates deep into lungs and blood, causing serious diseases.",
+      "as": "সূক্ষ্ম কণিকা ফুসফুস আৰু তেজলৈ গভীৰভাৱে প্ৰৱেশ কৰি গুৰুতৰ ৰোগ সৃষ্টি কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-133",
+    "q": {
+      "en": "An increase in which gas is most directly linked to ocean acidification?",
+      "as": "কোনটো গেছ বৃদ্ধি সাগৰীয় অম্লীকৰণৰ সৈতে সৰ্বাধিক প্ৰত্যক্ষভাৱে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰোজেন"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Rising CO₂ dissolves in seawater, forming carbonic acid and lowering pH.",
+      "as": "বাঢ়ি থকা CO₂ সাগৰীয় পানীত দ্ৰৱীভূত হৈ কাৰ্বনিক এচিড গঠন কৰি pH কমায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-134",
+    "q": {
+      "en": "Which of the following is considered the most environment-friendly way of waste disposal?",
+      "as": "তলৰ কোনটোক আৱৰ্জনা নিষ্কাশনৰ সৰ্বাধিক পৰিৱেশ-বান্ধৱ উপায় বুলি গণ্য কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Composting",
+        "as": "কম্প'ষ্টিং"
+      },
+      {
+        "en": "Open burning",
+        "as": "মুকলিকৈ জ্বলোৱা"
+      },
+      {
+        "en": "Dumping in rivers",
+        "as": "নদীত পেলোৱা"
+      },
+      {
+        "en": "Landfilling without treatment",
+        "as": "অ-প্ৰক্ৰিয়াকৃত লেণ্ডফিলিং"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Composting converts organic waste into useful manure without pollution.",
+      "as": "কম্প'ষ্টিঙে জৈৱিক আৱৰ্জনাক প্ৰদূষণ নকৰাকৈ উপযোগী সাৰলৈ ৰূপান্তৰ কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-135",
+    "q": {
+      "en": "Which disease is associated with drinking water contaminated with fluoride?",
+      "as": "ফ্ল'ৰাইডেৰে প্ৰদূষিত খোৱা পানীৰ সৈতে কোনটো ৰোগ সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Fluorosis",
+        "as": "ফ্ল'ৰ'চিছ"
+      },
+      {
+        "en": "Malaria",
+        "as": "মেলেৰিয়া"
+      },
+      {
+        "en": "Dengue",
+        "as": "ডেঙ্গু"
+      },
+      {
+        "en": "Tuberculosis",
+        "as": "ক্ষয়ৰোগ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Excess fluoride in drinking water causes dental and skeletal fluorosis.",
+      "as": "খোৱা পানীত অতিৰিক্ত ফ্ল'ৰাইডে দাঁত আৰু কংকালৰ ফ্ল'ৰ'চিছ সৃষ্টি কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-136",
+    "q": {
+      "en": "Which of the following is a major greenhouse gas besides carbon dioxide and methane?",
+      "as": "কাৰ্বন ডাই অক্সাইড আৰু মিথেনৰ বাহিৰে তলৰ কোনটো এটা প্ৰধান গ্ৰীনহাউছ গেছ?"
+    },
+    "options": [
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Argon",
+        "as": "আৰ্গন"
+      },
+      {
+        "en": "Neon",
+        "as": "নিঅ'ন"
+      },
+      {
+        "en": "Nitrous oxide",
+        "as": "নাইট্ৰাছ অক্সাইড"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Nitrous oxide is a potent greenhouse gas emitted from agriculture and industry.",
+      "as": "নাইট্ৰাছ অক্সাইড কৃষি আৰু উদ্যোগৰ পৰা নিৰ্গত এটা প্ৰবল গ্ৰীনহাউছ গেছ।"
+    }
+  },
+  {
+    "id": "environment-pollution-137",
+    "q": {
+      "en": "Which of the following has the highest global warming potential?",
+      "as": "তলৰ কোনটোৰ গোলকীয় উষ্ণতা বৃদ্ধিৰ সম্ভাৱনা সৰ্বাধিক?"
+    },
+    "options": [
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Methane",
+        "as": "মিথেন"
+      },
+      {
+        "en": "Chlorofluorocarbons (CFCs)",
+        "as": "ক্ল'ৰ'ফ্ল'ৰ'কাৰ্বন (CFC)"
+      },
+      {
+        "en": "Water vapour",
+        "as": "জলীয় বাষ্প"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "CFCs have very high global warming potential, thousands of times that of CO₂.",
+      "as": "CFC ৰ গোলকীয় উষ্ণতা বৃদ্ধিৰ সম্ভাৱনা অতি উচ্চ, CO₂ তকৈ হাজাৰ গুণ বেছি।"
+    }
+  },
+  {
+    "id": "environment-pollution-138",
+    "q": {
+      "en": "Acid rain is formed when pollutants in the atmosphere react with:",
+      "as": "বায়ুমণ্ডলত থকা প্ৰদূষকে কাৰ সৈতে বিক্ৰিয়া কৰিলে অম্লীয় বৰষুণ গঠিত হয়?"
+    },
+    "options": [
+      {
+        "en": "Oxygen only",
+        "as": "কেৱল অক্সিজেন"
+      },
+      {
+        "en": "Nitrogen only",
+        "as": "কেৱল নাইট্ৰোজেন"
+      },
+      {
+        "en": "Water vapour",
+        "as": "জলীয় বাষ্প"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SO₂ and NOx react with water vapour to form acids that fall as acid rain.",
+      "as": "SO₂ আৰু NOx জলে সৈতে বিক্ৰিয়া কৰি এচিড গঠন কৰে যি অম্লীয় বৰষুণ হৈ পৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-139",
+    "q": {
+      "en": "The Bhopal gas tragedy occurred in which year?",
+      "as": "ভূপাল গেছ ট্ৰেজেডী কোন বছৰত সংঘটিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1974",
+        "as": "১৯৭৪"
+      },
+      {
+        "en": "1994",
+        "as": "১৯৯৪"
+      },
+      {
+        "en": "2004",
+        "as": "২০০৪"
+      },
+      {
+        "en": "1984",
+        "as": "১৯৮৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Bhopal gas tragedy occurred on the night of 2-3 December 1984.",
+      "as": "ভূপাল গেছ ট্ৰেজেডী ১৯৮৪ চনৰ ২-৩ ডিচেম্বৰৰ ৰাতি সংঘটিত হৈছিল।"
+    }
+  },
+  {
+    "id": "environment-pollution-140",
+    "q": {
+      "en": "Which company's plant was involved in the Bhopal gas tragedy?",
+      "as": "ভূপাল গেছ ট্ৰেজেডীত কোনটো কোম্পানীৰ কাৰখানা জড়িত আছিল?"
+    },
+    "options": [
+      {
+        "en": "Tata Steel",
+        "as": "টাটা ষ্টিল"
+      },
+      {
+        "en": "Union Carbide",
+        "as": "ইউনিয়ন কাৰ্বাইড"
+      },
+      {
+        "en": "Reliance",
+        "as": "ৰিলায়েন্স"
+      },
+      {
+        "en": "BHEL",
+        "as": "BHEL"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The leak occurred at the Union Carbide pesticide plant in Bhopal.",
+      "as": "ভূপালত ইউনিয়ন কাৰ্বাইড কীটনাশক কাৰখানাত গেছ ওলাইছিল।"
+    }
+  },
+  {
+    "id": "environment-pollution-141",
+    "q": {
+      "en": "Which is the largest and most polluted river basin in India?",
+      "as": "ভাৰতৰ সৰ্ববৃহৎ আৰু সৰ্বাধিক প্ৰদূষিত নদী অববাহিকা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাৱৰী"
+      },
+      {
+        "en": "Krishna",
+        "as": "কৃষ্ণা"
+      },
+      {
+        "en": "Mahanadi",
+        "as": "মহানদী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Ganga basin is the largest river basin in India and faces severe pollution.",
+      "as": "গংগা অববাহিকা ভাৰতৰ সৰ্ববৃহৎ নদী অববাহিকা আৰু ই গুৰুতৰ প্ৰদূষণৰ সন্মুখীন।"
+    }
+  },
+  {
+    "id": "environment-pollution-142",
+    "q": {
+      "en": "The Namami Gange programme was launched mainly to:",
+      "as": "নমামি গংগে কাৰ্যসূচী মূলতঃ কিৰ বাবে আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Build dams",
+        "as": "বান্ধ নিৰ্মাণ"
+      },
+      {
+        "en": "Increase fishing",
+        "as": "মাছ ধৰা বৃদ্ধি"
+      },
+      {
+        "en": "Promote mining",
+        "as": "খনন প্ৰসাৰ"
+      },
+      {
+        "en": "Clean and conserve the river Ganga",
+        "as": "গংগা নদী পৰিষ্কাৰ আৰু সংৰক্ষণ কৰা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Namami Gange aims to clean, conserve and rejuvenate the river Ganga.",
+      "as": "নমামি গংগেৰ লক্ষ্য গংগা নদী পৰিষ্কাৰ, সংৰক্ষণ আৰু পুনৰুজ্জীৱিত কৰা।"
+    }
+  },
+  {
+    "id": "environment-pollution-143",
+    "q": {
+      "en": "What does STP stand for in the context of pollution control?",
+      "as": "প্ৰদূষণ নিয়ন্ত্ৰণৰ প্ৰসংগত STP ৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Sewage Treatment Plant",
+        "as": "পয়ঃ প্ৰশোধন কেন্দ্ৰ"
+      },
+      {
+        "en": "Soil Testing Project",
+        "as": "মাটি পৰীক্ষা প্ৰকল্প"
+      },
+      {
+        "en": "Sound Treatment Panel",
+        "as": "শব্দ প্ৰশোধন পেনেল"
+      },
+      {
+        "en": "Solar Thermal Plant",
+        "as": "সৌৰ তাপ কেন্দ্ৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "STP stands for Sewage Treatment Plant, used to treat wastewater.",
+      "as": "STP ৰ অৰ্থ পয়ঃ প্ৰশোধন কেন্দ্ৰ, অৱশিষ্ট পানী প্ৰশোধন কৰিবলৈ ব্যৱহৃত।"
+    }
+  },
+  {
+    "id": "environment-pollution-144",
+    "q": {
+      "en": "An Effluent Treatment Plant (ETP) is mainly used to treat:",
+      "as": "নিষ্কাশন প্ৰশোধন কেন্দ্ৰ (ETP) মূলতঃ কাক প্ৰশোধন কৰিবলৈ ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Drinking water",
+        "as": "খোৱা পানী"
+      },
+      {
+        "en": "Air",
+        "as": "বায়ু"
+      },
+      {
+        "en": "Industrial wastewater",
+        "as": "ঔদ্যোগিক অৱশিষ্ট পানী"
+      },
+      {
+        "en": "Soil",
+        "as": "মাটি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "ETPs treat industrial wastewater before it is discharged into water bodies.",
+      "as": "ETP-এ জলাশয়ত পেলোৱাৰ আগতে ঔদ্যোগিক অৱশিষ্ট পানী প্ৰশোধন কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-145",
+    "q": {
+      "en": "Which of the following reduces air pollution by treating exhaust gases?",
+      "as": "তলৰ কোনটোৱে নিষ্কাশন গেছ প্ৰশোধন কৰি বায়ু প্ৰদূষণ কমায়?"
+    },
+    "options": [
+      {
+        "en": "Fuel tank",
+        "as": "ইন্ধন টেংকি"
+      },
+      {
+        "en": "Catalytic converter",
+        "as": "কেটালিটিক কনভাৰ্টাৰ"
+      },
+      {
+        "en": "Radiator",
+        "as": "ৰেডিয়েটৰ"
+      },
+      {
+        "en": "Silencer only",
+        "as": "কেৱল ছাইলেন্সাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Catalytic converters convert toxic exhaust gases into less harmful substances.",
+      "as": "কেটালিটিক কনভাৰ্টাৰে বিষাক্ত নিষ্কাশন গেছ কম ক্ষতিকাৰক পদাৰ্থলৈ ৰূপান্তৰ কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-146",
+    "q": {
+      "en": "Which of the following is a greenhouse gas emitted during cement production?",
+      "as": "তলৰ কোনটো চিমেণ্ট উৎপাদনৰ সময়ত নিৰ্গত গ্ৰীনহাউছ গেছ?"
+    },
+    "options": [
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      },
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Neon",
+        "as": "নিঅ'ন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Cement production releases large amounts of CO₂ from limestone processing.",
+      "as": "চিমেণ্ট উৎপাদনে চুণাপাথৰ প্ৰক্ৰিয়াকৰণৰ পৰা বিপুল পৰিমাণে CO₂ নিৰ্গত কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-147",
+    "q": {
+      "en": "Which of the following is a source of thermal pollution of water?",
+      "as": "তলৰ কোনটো পানীৰ তাপীয় প্ৰদূষণৰ উৎস?"
+    },
+    "options": [
+      {
+        "en": "Solar panels",
+        "as": "সৌৰ পেনেল"
+      },
+      {
+        "en": "Wind turbines",
+        "as": "বায়ু টাৰ্বাইন"
+      },
+      {
+        "en": "Nuclear and thermal power plants",
+        "as": "পাৰমাণৱিক আৰু তাপ বিদ্যুৎ কেন্দ্ৰ"
+      },
+      {
+        "en": "Rainwater harvesting",
+        "as": "বৰষুণৰ পানী সংগ্ৰহণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Power plants use water for cooling and discharge it hot, causing thermal pollution.",
+      "as": "বিদ্যুৎ কেন্দ্ৰই শীতল কৰিবলৈ পানী ব্যৱহাৰ কৰি গৰম অৱস্থাত এৰি দিয়ে, যাৰ ফলত তাপীয় প্ৰদূষণ হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-148",
+    "q": {
+      "en": "Which of the following is the best method for the safe disposal of radioactive waste?",
+      "as": "ৰেডিঅ'এক্টিভ আৱৰ্জনা সুৰক্ষিতভাৱে নিষ্কাশনৰ সৰ্বোত্তম উপায় কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Dumping in rivers",
+        "as": "নদীত পেলোৱা"
+      },
+      {
+        "en": "Open burning",
+        "as": "মুকলিকৈ জ্বলোৱা"
+      },
+      {
+        "en": "Deep geological burial",
+        "as": "গভীৰ ভূতাত্ত্বিক সমাধি"
+      },
+      {
+        "en": "Throwing in landfills",
+        "as": "লেণ্ডফিলত পেলোৱা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Radioactive waste is safely disposed by burying it deep underground in stable rock.",
+      "as": "ৰেডিঅ'এক্টিভ আৱৰ্জনা স্থিৰ শিলত গভীৰভাৱে সমাধি কৰি সুৰক্ষিতভাৱে নিষ্কাশন কৰা হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-149",
+    "q": {
+      "en": "Which of the following is an effect of deforestation on the water cycle?",
+      "as": "জল চক্ৰত বনাঞ্চল ধ্বংসৰ এটা প্ৰভাৱ কি?"
+    },
+    "options": [
+      {
+        "en": "Increased rainfall everywhere",
+        "as": "সৰ্বত্ৰ বৰষুণ বৃদ্ধি"
+      },
+      {
+        "en": "Reduced groundwater recharge and increased floods",
+        "as": "ভূগৰ্ভস্থ জল পুনৰ্ভৰণ হ্ৰাস আৰু বানপানী বৃদ্ধি"
+      },
+      {
+        "en": "No effect on water cycle",
+        "as": "জল চক্ৰত কোনো প্ৰভাৱ নাই"
+      },
+      {
+        "en": "Decreased flooding",
+        "as": "বানপানী হ্ৰাস"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Without trees, rainwater runs off quickly, reducing recharge and causing floods.",
+      "as": "গছ নাথাকিলে বৰষুণৰ পানী দ্ৰুত প্ৰবাহিত হৈ পুনৰ্ভৰণ কমায় আৰু বানপানী ঘটায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-150",
+    "q": {
+      "en": "Which of the following is a biodegradable pollutant?",
+      "as": "তলৰ কোনটো এটা জৈৱ-বিয়োজনযোগ্য প্ৰদূষক?"
+    },
+    "options": [
+      {
+        "en": "Plastic",
+        "as": "প্লাষ্টিক"
+      },
+      {
+        "en": "Heavy metals",
+        "as": "গধুৰ ধাতু"
+      },
+      {
+        "en": "Pesticides like DDT",
+        "as": "DDT ৰ দৰে কীটনাশক"
+      },
+      {
+        "en": "Sewage",
+        "as": "পয়ঃ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sewage is organic and can be decomposed by microorganisms.",
+      "as": "পয়ঃ জৈৱিক আৰু অণুজীৱে ইয়াক বিয়োজিত কৰিব পাৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-151",
+    "q": {
+      "en": "Which of the following is considered a global environmental problem?",
+      "as": "তলৰ কোনটোক এটা গোলকীয় পৰিৱেশ সমস্যা বুলি গণ্য কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Global warming and climate change",
+        "as": "গোলকীয় উষ্ণতা বৃদ্ধি আৰু জলবায়ু পৰিৱৰ্তন"
+      },
+      {
+        "en": "Noise from a single vehicle",
+        "as": "এখন মাত্ৰ বাহনৰ শব্দ"
+      },
+      {
+        "en": "A local dustbin",
+        "as": "এটা স্থানীয় আৱৰ্জনা পেৰা"
+      },
+      {
+        "en": "A garden pond",
+        "as": "এটা বাগিচাৰ পুখুৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Global warming and climate change are worldwide problems affecting all nations.",
+      "as": "গোলকীয় উষ্ণতা বৃদ্ধি আৰু জলবায়ু পৰিৱৰ্তন বিশ্বব্যাপী সমস্যা যি সকলো ৰাষ্ট্ৰক প্ৰভাৱিত কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-152",
+    "q": {
+      "en": "The greenhouse effect is caused by gases that:",
+      "as": "গ্ৰীনহাউছ প্ৰভাৱ সেইবোৰ গেছৰ দ্বাৰা হয় যিবোৰে কি কৰে?"
+    },
+    "options": [
+      {
+        "en": "Reflect all sunlight",
+        "as": "সকলো সূৰ্যৰ পোহৰ প্ৰতিফলিত কৰে"
+      },
+      {
+        "en": "Cool the atmosphere",
+        "as": "বায়ুমণ্ডল শীতল কৰে"
+      },
+      {
+        "en": "Destroy oxygen",
+        "as": "অক্সিজেন ধ্বংস কৰে"
+      },
+      {
+        "en": "Trap heat in the atmosphere",
+        "as": "বায়ুমণ্ডলত তাপ আৱদ্ধ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Greenhouse gases trap outgoing infrared radiation, warming the planet.",
+      "as": "গ্ৰীনহাউছ গেছে বাহিৰলৈ যোৱা অৱ-ৰক্ত ৰশ্মি আৱদ্ধ কৰি গ্ৰহক উষ্ণ কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-153",
+    "q": {
+      "en": "Which of the following is a renewable source used to generate electricity without air pollution?",
+      "as": "তলৰ কোনটো বায়ু প্ৰদূষণ নকৰাকৈ বিদ্যুৎ উৎপাদনৰ বাবে ব্যৱহৃত এটা নৱীকৰণযোগ্য উৎস?"
+    },
+    "options": [
+      {
+        "en": "Coal",
+        "as": "কয়লা"
+      },
+      {
+        "en": "Diesel generator",
+        "as": "ডিজেল জেনেৰেটৰ"
+      },
+      {
+        "en": "Wind energy",
+        "as": "বায়ু শক্তি"
+      },
+      {
+        "en": "Petrol engine",
+        "as": "পেট্ৰল ইঞ্জিন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Wind energy generates electricity without emitting air pollutants.",
+      "as": "বায়ু শক্তিয়ে বায়ু প্ৰদূষক নিৰ্গত নকৰাকৈ বিদ্যুৎ উৎপন্ন কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-154",
+    "q": {
+      "en": "Which of the following causes 'dead zones' in water bodies?",
+      "as": "তলৰ কোনটোৱে জলাশয়ত 'মৃত অঞ্চল' সৃষ্টি কৰে?"
+    },
+    "options": [
+      {
+        "en": "Excess oxygen",
+        "as": "অতিৰিক্ত অক্সিজেন"
+      },
+      {
+        "en": "Oxygen depletion due to nutrient pollution",
+        "as": "পুষ্টি প্ৰদূষণৰ বাবে অক্সিজেন হ্ৰাস"
+      },
+      {
+        "en": "Cold temperature",
+        "as": "শীতল উষ্ণতা"
+      },
+      {
+        "en": "Heavy rainfall",
+        "as": "প্ৰবল বৰষুণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Nutrient-driven algal blooms deplete oxygen, creating hypoxic dead zones.",
+      "as": "পুষ্টি-উদ্দীপিত শেলাইৰ বিস্ফোৰণে অক্সিজেন কমাই হাইপক্সিক মৃত অঞ্চল সৃষ্টি কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-155",
+    "q": {
+      "en": "Which of the following is a greenhouse gas contributing to global warming besides CO₂ and methane?",
+      "as": "CO₂ আৰু মিথেনৰ বাহিৰে তলৰ কোনটো গোলকীয় উষ্ণতা বৃদ্ধিত অৰিহণা যোগোৱা গ্ৰীনহাউছ গেছ?"
+    },
+    "options": [
+      {
+        "en": "Water vapour",
+        "as": "জলীয় বাষ্প"
+      },
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰোজেন"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Water vapour is an important greenhouse gas, amplifying the greenhouse effect.",
+      "as": "জলীয় বাষ্প এটা গুৰুত্বপূৰ্ণ গ্ৰীনহাউছ গেছ, যি গ্ৰীনহাউছ প্ৰভাৱ বঢ়ায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-156",
+    "q": {
+      "en": "Which of the following is a major source of noise pollution in cities?",
+      "as": "চহৰত শব্দ প্ৰদূষণৰ এটা প্ৰধান উৎস কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Honking and traffic",
+        "as": "হৰ্ণ আৰু যান-বাহন"
+      },
+      {
+        "en": "Planting trees",
+        "as": "গছ ৰোপণ"
+      },
+      {
+        "en": "Reading books",
+        "as": "কিতাপ পঢ়া"
+      },
+      {
+        "en": "Solar panels",
+        "as": "সৌৰ পেনেল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Traffic and unnecessary honking are major contributors to urban noise pollution.",
+      "as": "যান-বাহন আৰু অপ্ৰয়োজনীয় হৰ্ণ চহৰীয়া শব্দ প্ৰদূষণৰ প্ৰধান কাৰণ।"
+    }
+  },
+  {
+    "id": "environment-pollution-157",
+    "q": {
+      "en": "Which of the following helps to reduce vehicular air pollution?",
+      "as": "তলৰ কোনটোৱে যান-বাহনৰ বায়ু প্ৰদূষণ কমোৱাত সহায় কৰে?"
+    },
+    "options": [
+      {
+        "en": "Using older vehicles",
+        "as": "পুৰণি বাহন ব্যৱহাৰ"
+      },
+      {
+        "en": "Increasing private cars",
+        "as": "ব্যক্তিগত গাড়ী বৃদ্ধি"
+      },
+      {
+        "en": "Using public transport and carpooling",
+        "as": "ৰাজহুৱা পৰিবহণ আৰু কাৰপুল ব্যৱহাৰ"
+      },
+      {
+        "en": "Removing catalytic converters",
+        "as": "কেটালিটিক কনভাৰ্টাৰ আঁতৰোৱা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Public transport and carpooling reduce the number of vehicles and emissions.",
+      "as": "ৰাজহুৱা পৰিবহণ আৰু কাৰপুলে বাহনৰ সংখ্যা আৰু নিৰ্গমন কমায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-158",
+    "q": {
+      "en": "Which of the following is an effect of acid rain on aquatic ecosystems?",
+      "as": "জলজ পৰিৱেশ তন্ত্ৰত অম্লীয় বৰষুণৰ এটা প্ৰভাৱ কি?"
+    },
+    "options": [
+      {
+        "en": "Increase in fish population",
+        "as": "মাছৰ সংখ্যা বৃদ্ধি"
+      },
+      {
+        "en": "Cleaner water",
+        "as": "অধিক পৰিষ্কাৰ পানী"
+      },
+      {
+        "en": "Acidification of lakes harming fish",
+        "as": "হ্ৰদ অম্লীয় হৈ মাছৰ ক্ষতি"
+      },
+      {
+        "en": "More oxygen in water",
+        "as": "পানীত অধিক অক্সিজেন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Acid rain lowers the pH of lakes and rivers, killing fish and aquatic life.",
+      "as": "অম্লীয় বৰষুণে হ্ৰদ আৰু নদীৰ pH কমাই মাছ আৰু জলজ জীৱন মাৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-159",
+    "q": {
+      "en": "Which of the following is a greenhouse gas emitted from rice cultivation and livestock?",
+      "as": "তলৰ কোনটো ধান খেতি আৰু পশুধনৰ পৰা নিৰ্গত গ্ৰীনহাউছ গেছ?"
+    },
+    "options": [
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Argon",
+        "as": "আৰ্গন"
+      },
+      {
+        "en": "Neon",
+        "as": "নিঅ'ন"
+      },
+      {
+        "en": "Methane",
+        "as": "মিথেন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rice paddies and livestock are significant sources of methane emissions.",
+      "as": "ধাননি আৰু পশুধন মিথেন নিৰ্গমনৰ উল্লেখযোগ্য উৎস।"
+    }
+  },
+  {
+    "id": "environment-pollution-160",
+    "q": {
+      "en": "Which of the following is a consequence of the greenhouse effect intensifying?",
+      "as": "গ্ৰীনহাউছ প্ৰভাৱ তীব্ৰ হোৱাৰ এটা পৰিণতি কি?"
+    },
+    "options": [
+      {
+        "en": "Expansion of glaciers",
+        "as": "হিমবাহৰ বিস্তাৰ"
+      },
+      {
+        "en": "Melting of glaciers and polar ice",
+        "as": "হিমবাহ আৰু মেৰু বৰফ গলি যোৱা"
+      },
+      {
+        "en": "Cooling of the Earth",
+        "as": "পৃথিৱী শীতল হোৱা"
+      },
+      {
+        "en": "Decrease in sea level",
+        "as": "সাগৰীয় স্তৰ হ্ৰাস"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Intensified greenhouse effect warms the planet, melting glaciers and polar ice.",
+      "as": "তীব্ৰ গ্ৰীনহাউছ প্ৰভাৱে গ্ৰহ উষ্ণ কৰি হিমবাহ আৰু মেৰু বৰফ গলায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-161",
+    "q": {
+      "en": "Which of the following is a source of carbon monoxide inside homes?",
+      "as": "ঘৰত কাৰ্বন মনোক্সাইডৰ এটা উৎস কোনটো?"
+    },
+    "options": [
+      {
+        "en": "LED lights",
+        "as": "এল ই ডি লাইট"
+      },
+      {
+        "en": "Coal or wood stoves in poorly ventilated rooms",
+        "as": "বায়ু চলাচল নথকা ৰূমত কয়লা বা কাঠৰ চুলা"
+      },
+      {
+        "en": "Refrigerators",
+        "as": "ৰেফ্ৰিজাৰেটৰ"
+      },
+      {
+        "en": "Televisions",
+        "as": "টেলিভিছন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Incomplete combustion in poorly ventilated stoves produces deadly carbon monoxide.",
+      "as": "বায়ু চলাচল নথকা চুলাত অপূৰ্ণ দহনে মাৰাত্মক কাৰ্বন মনোক্সাইড উৎপন্ন কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-162",
+    "q": {
+      "en": "Which of the following is a beneficial effect of forests on the environment?",
+      "as": "পৰিৱেশত অৰণ্যৰ এটা উপকাৰী প্ৰভাৱ কি?"
+    },
+    "options": [
+      {
+        "en": "They increase soil erosion",
+        "as": "ইহঁতে মাটিৰ ক্ষয় বৃদ্ধি কৰে"
+      },
+      {
+        "en": "They reduce rainfall",
+        "as": "ইহঁতে বৰষুণ কমায়"
+      },
+      {
+        "en": "They increase pollution",
+        "as": "ইহঁতে প্ৰদূষণ বৃদ্ধি কৰে"
+      },
+      {
+        "en": "They absorb CO₂ and release oxygen",
+        "as": "ইহঁতে CO₂ শোষণ কৰি অক্সিজেন নিৰ্গত কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Forests absorb carbon dioxide and release oxygen, improving air quality.",
+      "as": "অৰণ্যই কাৰ্বন ডাই অক্সাইড শোষণ কৰি অক্সিজেন নিৰ্গত কৰে, যাৰ ফলত বায়ুৰ গুণমান উন্নত হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-163",
+    "q": {
+      "en": "Which of the following pollutants is mainly responsible for the formation of acid rain?",
+      "as": "অম্লীয় বৰষুণ গঠনৰ বাবে মূলতঃ কোনটো প্ৰদূষক দায়ী?"
+    },
+    "options": [
+      {
+        "en": "Oxygen and nitrogen",
+        "as": "অক্সিজেন আৰু নাইট্ৰোজেন"
+      },
+      {
+        "en": "Sulphur dioxide and nitrogen oxides",
+        "as": "ছালফাৰ ডাই অক্সাইড আৰু নাইট্ৰোজেন অক্সাইড"
+      },
+      {
+        "en": "Helium and neon",
+        "as": "হিলিয়াম আৰু নিঅ'ন"
+      },
+      {
+        "en": "Methane and water vapour",
+        "as": "মিথেন আৰু জলীয় বাষ্প"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SO₂ and NOx are the main precursors of acid rain.",
+      "as": "SO₂ আৰু NOx অম্লীয় বৰষুণৰ প্ৰধান পূৰ্বসূৰী।"
+    }
+  },
+  {
+    "id": "environment-pollution-164",
+    "q": {
+      "en": "Which of the following is an effect of eutrophication on water quality?",
+      "as": "পানীৰ গুণমানত ইউট্ৰ'ফিকেশ্যনৰ এটা প্ৰভাৱ কি?"
+    },
+    "options": [
+      {
+        "en": "Depletion of dissolved oxygen",
+        "as": "দ্ৰৱীভূত অক্সিজেন হ্ৰাস"
+      },
+      {
+        "en": "Improved water quality",
+        "as": "উন্নত পানীৰ গুণমান"
+      },
+      {
+        "en": "Increase in fish",
+        "as": "মাছ বৃদ্ধি"
+      },
+      {
+        "en": "Reduction in algae",
+        "as": "শেলাই হ্ৰাস"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Eutrophication leads to oxygen depletion, degrading water quality and killing fish.",
+      "as": "ইউট্ৰ'ফিকেশ্যনে অক্সিজেন হ্ৰাস কৰি পানীৰ গুণমান নষ্ট কৰে আৰু মাছ মাৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-165",
+    "q": {
+      "en": "Which of the following is the most abundant greenhouse gas by contribution to warming?",
+      "as": "উষ্ণতা বৃদ্ধিত অৱদানৰ দ্বাৰা সৰ্বাধিক থকা গ্ৰীনহাউছ গেছ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      },
+      {
+        "en": "Neon",
+        "as": "নিঅ'ন"
+      },
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Carbon dioxide is the largest contributor to human-caused global warming.",
+      "as": "কাৰ্বন ডাই অক্সাইড মানৱ-সৃষ্ট গোলকীয় উষ্ণতা বৃদ্ধিৰ সৰ্ববৃহৎ অৱদানকাৰী।"
+    }
+  },
+  {
+    "id": "environment-pollution-166",
+    "q": {
+      "en": "Which of the following can reduce water pollution at home?",
+      "as": "ঘৰত কোনটোৱে জল প্ৰদূষণ কমাব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "Treating and reusing greywater",
+        "as": "ধোৱা পানী প্ৰশোধন কৰি পুনৰ ব্যৱহাৰ"
+      },
+      {
+        "en": "Pouring chemicals into drains",
+        "as": "নৰ্দমাত ৰাসায়নিক ঢালা"
+      },
+      {
+        "en": "Throwing plastic in water",
+        "as": "পানীত প্লাষ্টিক পেলোৱা"
+      },
+      {
+        "en": "Disposing batteries in water",
+        "as": "বেটাৰী পানীত পেলোৱা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Treating and reusing greywater reduces the pollutant load on water bodies.",
+      "as": "ধোৱা পানী প্ৰশোধন কৰি পুনৰ ব্যৱহাৰ কৰিলে জলাশয়ত প্ৰদূষকৰ ভাৰ কমে।"
+    }
+  },
+  {
+    "id": "environment-pollution-167",
+    "q": {
+      "en": "Which of the following gases is released during the burning of coal and causes acid rain?",
+      "as": "কয়লা জ্বলোৱাৰ সময়ত কোনটো গেছ নিৰ্গত হৈ অম্লীয় বৰষুণ সৃষ্টি কৰে?"
+    },
+    "options": [
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      },
+      {
+        "en": "Sulphur dioxide",
+        "as": "ছালফাৰ ডাই অক্সাইড"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Coal contains sulphur; burning it releases SO₂, a cause of acid rain.",
+      "as": "কয়লাত ছালফাৰ থাকে; ইয়াক জ্বলালে SO₂ নিৰ্গত হয়, যি অম্লীয় বৰষুণৰ কাৰণ।"
+    }
+  },
+  {
+    "id": "environment-pollution-168",
+    "q": {
+      "en": "Which of the following is a major greenhouse gas emitted by industries using fossil fuels?",
+      "as": "জীৱাশ্ম ইন্ধন ব্যৱহাৰ কৰা উদ্যোগৰ পৰা নিৰ্গত এটা প্ৰধান গ্ৰীনহাউছ গেছ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Argon",
+        "as": "আৰ্গন"
+      },
+      {
+        "en": "Neon",
+        "as": "নিঅ'ন"
+      },
+      {
+        "en": "Carbon dioxide",
+        "as": "কাৰ্বন ডাই অক্সাইড"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Industries burning fossil fuels emit large amounts of carbon dioxide.",
+      "as": "জীৱাশ্ম ইন্ধন জ্বলোৱা উদ্যোগে বিপুল পৰিমাণে কাৰ্বন ডাই অক্সাইড নিৰ্গত কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-169",
+    "q": {
+      "en": "Which of the following practices helps in the conservation of water?",
+      "as": "তলৰ কোনটো অভ্যাসে পানী সংৰক্ষণত সহায় কৰে?"
+    },
+    "options": [
+      {
+        "en": "Keeping taps running",
+        "as": "টেপ খোলা ৰখা"
+      },
+      {
+        "en": "Fixing leaking taps and rainwater harvesting",
+        "as": "চেৰেকি থকা টেপ মেৰামতি আৰু বৰষুণৰ পানী সংগ্ৰহণ"
+      },
+      {
+        "en": "Washing roads daily",
+        "as": "প্ৰতিদিনে পথ ধোৱা"
+      },
+      {
+        "en": "Letting tanks overflow",
+        "as": "টেংকি উপচি পৰিব দিয়া"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Fixing leaks and harvesting rainwater conserve precious water resources.",
+      "as": "চেৰেকি বন্ধ কৰা আৰু বৰষুণৰ পানী সংগ্ৰহ কৰিলে মূল্যৱান জল সম্পদ সংৰক্ষিত হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-170",
+    "q": {
+      "en": "Which of the following is the main reason for the depletion of the ozone layer over Antarctica?",
+      "as": "আণ্টাৰ্কটিকাৰ ওপৰত ওজোন স্তৰ ক্ষয়ৰ প্ৰধান কাৰণ কি?"
+    },
+    "options": [
+      {
+        "en": "Chlorine from CFCs and polar stratospheric clouds",
+        "as": "CFC ৰ ক্ল'ৰিন আৰু মেৰু ষ্টেট'স্ফিয়াৰিক মেঘ"
+      },
+      {
+        "en": "Excess carbon dioxide",
+        "as": "অতিৰিক্ত কাৰ্বন ডাই অক্সাইড"
+      },
+      {
+        "en": "Excess oxygen",
+        "as": "অতিৰিক্ত অক্সিজেন"
+      },
+      {
+        "en": "Volcanic ash",
+        "as": "আগ্নেয়গিৰিৰ ছাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Chlorine released by CFCs on polar stratospheric clouds destroys ozone over Antarctica.",
+      "as": "মেৰু ষ্টেট'স্ফিয়াৰিক মেঘত CFC-এ মুক্ত কৰা ক্ল'ৰিনে আণ্টাৰ্কটিকাৰ ওপৰত ওজোন ধ্বংস কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-171",
+    "q": {
+      "en": "Which of the following is a major effect of soil pollution on agriculture?",
+      "as": "কৃষিত মাটি প্ৰদূষণৰ এটা প্ৰধান প্ৰভাৱ কি?"
+    },
+    "options": [
+      {
+        "en": "Reduced soil fertility and crop yield",
+        "as": "মাটিৰ উৰ্বৰতা আৰু শস্য উৎপাদন হ্ৰাস"
+      },
+      {
+        "en": "Increased crop yield",
+        "as": "শস্য উৎপাদন বৃদ্ধি"
+      },
+      {
+        "en": "Improved soil nutrients",
+        "as": "মাটিৰ পুষ্টি উন্নত"
+      },
+      {
+        "en": "More earthworms",
+        "as": "অধিক কেঁচু"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Soil pollution reduces fertility and the nutritional quality of crops.",
+      "as": "মাটি প্ৰদূষণে উৰ্বৰতা আৰু শস্যৰ পুষ্টি গুণমান কমায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-172",
+    "q": {
+      "en": "Which of the following is a global effect of air pollution?",
+      "as": "বায়ু প্ৰদূষণৰ এটা গোলকীয় প্ৰভাৱ কি?"
+    },
+    "options": [
+      {
+        "en": "Increase in forests",
+        "as": "অৰণ্য বৃদ্ধি"
+      },
+      {
+        "en": "Global warming and ozone depletion",
+        "as": "গোলকীয় উষ্ণতা বৃদ্ধি আৰু ওজোন ক্ষয়"
+      },
+      {
+        "en": "Cooling of oceans",
+        "as": "মহাসাগৰ শীতল হোৱা"
+      },
+      {
+        "en": "Increase in groundwater",
+        "as": "ভূগৰ্ভস্থ জল বৃদ্ধি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Air pollution contributes to global warming and depletion of the ozone layer.",
+      "as": "বায়ু প্ৰদূষণে গোলকীয় উষ্ণতা বৃদ্ধি আৰু ওজোন স্তৰ ক্ষয়ত অৰিহণা যোগায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-173",
+    "q": {
+      "en": "Gas leaked in Bhopal was heavier than air, which caused it to:",
+      "as": "ভূপালত ওলোৱা গেছ বায়ুতকৈ গধুৰ আছিল, যাৰ ফলত ই কি কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Rise quickly into the sky",
+        "as": "দ্ৰুতভাৱে আকাশলৈ উঠিছিল"
+      },
+      {
+        "en": "Mix with upper atmosphere",
+        "as": "উপৰি বায়ুমণ্ডলৰ সৈতে মিহলি হৈছিল"
+      },
+      {
+        "en": "Disappear instantly",
+        "as": "তৎক্ষণাত নোহোৱা হৈছিল"
+      },
+      {
+        "en": "Spread along the ground",
+        "as": "ভূমিৰ লগে লগে বিয়পি পৰিছিল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Being heavier than air, MIC stayed near the ground, affecting many people.",
+      "as": "বায়ুতকৈ গধুৰ হোৱাৰ বাবে MIC মাটিৰ ওচৰত থাকি বহু লোকক প্ৰভাৱিত কৰিছিল।"
+    }
+  },
+  {
+    "id": "environment-pollution-174",
+    "q": {
+      "en": "Which of the following is a major source of marine plastic pollution?",
+      "as": "সাগৰীয় প্লাষ্টিক প্ৰদূষণৰ এটা প্ৰধান উৎস কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Cotton clothes",
+        "as": "বাঁহ-কাপোৰ"
+      },
+      {
+        "en": "Jute bags",
+        "as": "পাটৰ মোনা"
+      },
+      {
+        "en": "Single-use plastic items",
+        "as": "এবাৰ ব্যৱহাৰৰ প্লাষ্টিক সামগ্ৰী"
+      },
+      {
+        "en": "Clay pots",
+        "as": "মাটিৰ পাত্ৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Single-use plastics often end up in oceans, harming marine life.",
+      "as": "এবাৰ ব্যৱহাৰৰ প্লাষ্টিক প্ৰায়ে সাগৰত পৰি সাগৰীয় জীৱনৰ ক্ষতি কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-175",
+    "q": {
+      "en": "Which of the following is a renewable energy source that uses organic matter?",
+      "as": "তলৰ কোনটো জৈৱিক পদাৰ্থ ব্যৱহাৰ কৰা এটা নৱীকৰণযোগ্য শক্তি উৎস?"
+    },
+    "options": [
+      {
+        "en": "Coal",
+        "as": "কয়লা"
+      },
+      {
+        "en": "Petroleum",
+        "as": "পেট্ৰ'লিয়াম"
+      },
+      {
+        "en": "Natural gas",
+        "as": "প্ৰাকৃতিক গেছ"
+      },
+      {
+        "en": "Biomass",
+        "as": "জৈৱ-ভৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Biomass energy comes from organic matter and is renewable.",
+      "as": "জৈৱ-ভৰ শক্তি জৈৱিক পদাৰ্থৰ পৰা আহে আৰু ই নৱীকৰণযোগ্য।"
+    }
+  },
+  {
+    "id": "environment-pollution-176",
+    "q": {
+      "en": "Which of the following gases causes a pungent and suffocating smell?",
+      "as": "তলৰ কোনটো গেছত তীব্ৰ আৰু উশাহ বন্ধ কৰা গোন্ধ আছে?"
+    },
+    "options": [
+      {
+        "en": "Carbon monoxide",
+        "as": "কাৰ্বন মনোক্সাইড"
+      },
+      {
+        "en": "Sulphur dioxide",
+        "as": "ছালফাৰ ডাই অক্সাইড"
+      },
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰোজেন"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sulphur dioxide has a pungent, suffocating odour and irritates the lungs.",
+      "as": "ছালফাৰ ডাই অক্সাইডৰ তীব্ৰ, উশাহ বন্ধ কৰা গোন্ধ আছে আৰু ই ফুসফুসত জ্বালা-পোৰা কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-177",
+    "q": {
+      "en": "Which of the following is a common indoor air pollutant from paints and adhesives?",
+      "as": "ৰং আৰু আঠাৰ পৰা উৎপন্ন এটা সাধাৰণ অন্তৰ্দ্বাৰ বায়ু প্ৰদূষক কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Volatile organic compounds (VOCs)",
+        "as": "উদ্বায়ী জৈৱিক যৌগ (VOC)"
+      },
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰোজেন"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Paints, adhesives and furniture release VOCs that pollute indoor air.",
+      "as": "ৰং, আঠা আৰু আচবাবৰ পৰা VOC নিৰ্গত হৈ অন্তৰ্দ্বাৰ বায়ু প্ৰদূষিত কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-178",
+    "q": {
+      "en": "The damage to forests caused by acid rain is known as:",
+      "as": "অম্লীয় বৰষুণৰ ফলত অৰণ্যৰ ক্ষতিক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Forest decline (Waldsterben)",
+        "as": "অৰণ্যৰ ক্ষয় (ভাল্ডষ্টাৰবেন)"
+      },
+      {
+        "en": "Eutrophication",
+        "as": "ইউট্ৰ'ফিকেশ্যন"
+      },
+      {
+        "en": "Biomagnification",
+        "as": "জৈৱ-বৰ্ধন"
+      },
+      {
+        "en": "Desertification",
+        "as": "মৰুভূমিকৰণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Acid rain damages forests, a phenomenon known as forest decline or Waldsterben.",
+      "as": "অম্লীয় বৰষুণে অৰণ্যৰ ক্ষতি কৰে, এই পৰিঘটনাক অৰণ্যৰ ক্ষয় বা ভাল্ডষ্টাৰবেন বোলা হয়।"
+    }
+  },
+  {
+    "id": "environment-pollution-179",
+    "q": {
+      "en": "Which of the following pollutants is mainly responsible for the corrosion of stone monuments?",
+      "as": "শিলৰ স্মৃতিসৌধ ক্ষয়ৰ বাবে মূলতঃ কোনটো প্ৰদূষক দায়ী?"
+    },
+    "options": [
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰোজেন"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      },
+      {
+        "en": "Sulphur dioxide",
+        "as": "ছালফাৰ ডাই অক্সাইড"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SO₂ forms acid rain that corrodes marble and stone monuments.",
+      "as": "SO₂-এ অম্লীয় বৰষুণ গঠন কৰি মাৰ্বল আৰু শিলৰ স্মৃতিসৌধ ক্ষয় কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-180",
+    "q": {
+      "en": "Which of the following is the most suitable way to manage kitchen waste at home?",
+      "as": "ঘৰত পাকঘৰৰ আৱৰ্জনা পৰিচালনাৰ সৰ্বাধিক উপযুক্ত উপায় কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Burning in the open",
+        "as": "মুকলিকৈ জ্বলোৱা"
+      },
+      {
+        "en": "Composting",
+        "as": "কম্প'ষ্টিং"
+      },
+      {
+        "en": "Dumping in drains",
+        "as": "নৰ্দমাত পেলোৱা"
+      },
+      {
+        "en": "Throwing on roads",
+        "as": "পথত পেলোৱা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Composting kitchen waste converts it into manure and reduces landfill load.",
+      "as": "পাকঘৰৰ আৱৰ্জনা কম্প'ষ্টিং কৰিলে ই সাৰলৈ ৰূপান্তৰিত হয় আৰু লেণ্ডফিলৰ ভাৰ কমে।"
+    }
+  },
+  {
+    "id": "environment-pollution-181",
+    "q": {
+      "en": "Which technology is used to treat solid waste at high temperature without oxygen?",
+      "as": "অক্সিজেন নোহোৱাকৈ উচ্চ উষ্ণতাত কঠিন আৱৰ্জনা প্ৰশোধন কৰিবলৈ কোনটো প্ৰযুক্তি ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Composting",
+        "as": "কম্প'ষ্টিং"
+      },
+      {
+        "en": "Sedimentation",
+        "as": "অৱক্ষেপণ"
+      },
+      {
+        "en": "Pyrolysis",
+        "as": "পাইৰ'লাইচিছ"
+      },
+      {
+        "en": "Filtration",
+        "as": "ছেকনী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Pyrolysis decomposes waste at high temperature in the absence of oxygen.",
+      "as": "পাইৰ'লাইচিছে অক্সিজেনৰ অনুপস্থিতিত উচ্চ উষ্ণতাত আৱৰ্জনা বিয়োজিত কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-182",
+    "q": {
+      "en": "Which of the following is a safe method for the disposal of radioactive waste?",
+      "as": "ৰেডিঅ'এক্টিভ আৱৰ্জনা নিষ্কাশনৰ এটা সুৰক্ষিত উপায় কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Dumping into oceans",
+        "as": "মহাসাগৰত পেলোৱা"
+      },
+      {
+        "en": "Open incineration",
+        "as": "মুকলি দহন"
+      },
+      {
+        "en": "Deep geological disposal",
+        "as": "গভীৰ ভূতাত্ত্বিক নিষ্কাশন"
+      },
+      {
+        "en": "Mixing with soil",
+        "as": "মাটিৰ সৈতে মিহলোৱা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Deep geological disposal isolates radioactive waste safely from the biosphere.",
+      "as": "গভীৰ ভূতাত্ত্বিক নিষ্কাশনে ৰেডিঅ'এক্টিভ আৱৰ্জনাক জৈৱমণ্ডলৰ পৰা সুৰক্ষিতভাৱে পৃথক কৰে।"
+    }
+  },
+  {
+    "id": "environment-pollution-183",
+    "q": {
+      "en": "Which of the following is a greenhouse gas released by old refrigerators and air conditioners?",
+      "as": "পুৰণি ৰেফ্ৰিজাৰেটৰ আৰু এয়াৰ কণ্ডিচনাৰৰ পৰা নিৰ্গত এটা গ্ৰীনহাউছ গেছ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "CFCs",
+        "as": "CFC"
+      },
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Nitrogen",
+        "as": "নাইট্ৰোজেন"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Old refrigerators and ACs used CFCs, which are ozone-depleting greenhouse gases.",
+      "as": "পুৰণি ৰেফ্ৰিজাৰেটৰ আৰু AC-ত CFC আছিল, যি ওজোন ক্ষয়কাৰী গ্ৰীনহাউছ গেছ।"
+    }
+  },
+  {
+    "id": "environment-pollution-184",
+    "q": {
+      "en": "Which of the following is an important step to control air pollution in cities?",
+      "as": "চহৰত বায়ু প্ৰদূষণ নিয়ন্ত্ৰণৰ বাবে এটা গুৰুত্বপূৰ্ণ পদক্ষেপ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Encouraging older diesel vehicles",
+        "as": "পুৰণি ডিজেল বাহন উৎসাহিত কৰা"
+      },
+      {
+        "en": "Burning garbage in streets",
+        "as": "পথত আৱৰ্জনা জ্বলোৱা"
+      },
+      {
+        "en": "Removing trees",
+        "as": "গছ আঁতৰোৱা"
+      },
+      {
+        "en": "Promoting electric vehicles and public transport",
+        "as": "বিদ্যুৎচালিত বাহন আৰু ৰাজহুৱা পৰিবহণ প্ৰসাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Electric vehicles and public transport reduce vehicular emissions significantly.",
+      "as": "বিদ্যুৎচালিত বাহন আৰু ৰাজহুৱা পৰিবহণে যান-বাহনৰ নিৰ্গমন যথেষ্ট কমায়।"
+    }
+  },
+  {
+    "id": "environment-pollution-185",
+    "q": {
+      "en": "Which of the following best describes the relationship between pollution and human health?",
+      "as": "তলৰ কোনটোৱে প্ৰদূষণ আৰু মানৱ স্বাস্থ্যৰ সম্পৰ্ক সৰ্বোত্তমভাৱে বৰ্ণনা কৰে?"
+    },
+    "options": [
+      {
+        "en": "Pollution has no effect on health",
+        "as": "প্ৰদূষণৰ স্বাস্থ্যত কোনো প্ৰভাৱ নাই"
+      },
+      {
+        "en": "Pollution only affects plants",
+        "as": "প্ৰদূষণে কেৱল উদ্ভিদক প্ৰভাৱিত কৰে"
+      },
+      {
+        "en": "Pollution causes many respiratory, cardiovascular and other diseases",
+        "as": "প্ৰদূষণে বহু শ্বাস-প্ৰশ্বাস, হৃদ-ৰক্তনলী আৰু অন্য ৰোগ সৃষ্টি কৰে"
+      },
+      {
+        "en": "Pollution improves immunity",
+        "as": "প্ৰদূষণে ৰোগ-প্ৰতিৰোধ ক্ষমতা উন্নত কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Pollution significantly increases respiratory, cardiovascular and other diseases.",
+      "as": "প্ৰদূষণে শ্বাস-প্ৰশ্বাস, হৃদ-ৰক্তনলী আৰু অন্য ৰোগ যথেষ্ট বৃদ্ধি কৰে।"
+    }
   }
-}
+]
