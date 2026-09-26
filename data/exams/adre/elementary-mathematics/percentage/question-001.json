@@ -1,30 +1,974 @@
-{
-  "id": "percentage-001",
-  "q": {
-    "en": "The price of sugar rises by 25%. By what percentage should a family reduce its consumption so that the expenditure remains the same?",
-    "as": "চেনিৰ দাম 25% বৃদ্ধি হয়। খৰচ একে ৰাখিবলৈ এখন পৰিয়ালে ব্যৱহাৰ কিমান শতাংশ কমাব লাগিব?"
-  },
-  "options": [
-    {
-      "en": "15%",
-      "as": "১৫%"
+[
+  {
+    "id": "percentage-001",
+    "q": {
+      "en": "The price of sugar rises by 25%. By what percentage should a family reduce its consumption so that the expenditure remains the same?",
+      "as": "চেনিৰ দাম 25% বৃদ্ধি হয়। খৰচ একে ৰাখিবলৈ এখন পৰিয়ালে ব্যৱহাৰ কিমান শতাংশ কমাব লাগিব?"
     },
-    {
-      "en": "20%",
-      "as": "২০%"
-    },
-    {
-      "en": "25%",
-      "as": "২৫%"
-    },
-    {
-      "en": "30%",
-      "as": "৩০%"
+    "options": [
+      { "en": "15%", "as": "১৫%" },
+      { "en": "20%", "as": "২০%" },
+      { "en": "25%", "as": "২৫%" },
+      { "en": "30%", "as": "৩০%" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Reduction % = (25 / 125) × 100 = 20%.",
+      "as": "হ্ৰাস % = (25 / 125) × 100 = 20%।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "Reduction % = (25 / 125) × 100 = 20%.",
-    "as": "হ্ৰাস % = (25 / 125) × 100 = 20%।"
+  },
+  {
+    "id": "percentage-002",
+    "q": {
+      "en": "1/4 as a percentage is —",
+      "as": "1/4 শতাংশ হিচাপে —"
+    },
+    "options": [
+      { "en": "20%", "as": "২০%" },
+      { "en": "30%", "as": "৩০%" },
+      { "en": "40%", "as": "৪০%" },
+      { "en": "25%", "as": "২৫%" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "1/4 = 1/4 × 100 = 25%.",
+      "as": "1/4 = 1/4 × 100 = 25%।"
+    }
+  },
+  {
+    "id": "percentage-003",
+    "q": {
+      "en": "3/5 as a percentage is —",
+      "as": "3/5 শতাংশ হিচাপে —"
+    },
+    "options": [
+      { "en": "50%", "as": "৫০%" },
+      { "en": "55%", "as": "৫৫%" },
+      { "en": "60%", "as": "৬০%" },
+      { "en": "65%", "as": "৬৫%" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "3/5 × 100 = 60%.",
+      "as": "3/5 × 100 = 60%।"
+    }
+  },
+  {
+    "id": "percentage-004",
+    "q": {
+      "en": "0.75 as a percentage is —",
+      "as": "0.75 শতাংশ হিচাপে —"
+    },
+    "options": [
+      { "en": "75%", "as": "৭৫%" },
+      { "en": "7.5%", "as": "৭.৫%" },
+      { "en": "0.75%", "as": "০.৭৫%" },
+      { "en": "750%", "as": "৭৫০%" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "0.75 × 100 = 75%.",
+      "as": "0.75 × 100 = 75%।"
+    }
+  },
+  {
+    "id": "percentage-005",
+    "q": {
+      "en": "40% as a fraction is —",
+      "as": "40% ভগ্নাংশ হিচাপে —"
+    },
+    "options": [
+      { "en": "1/4", "as": "1/4" },
+      { "en": "2/5", "as": "2/5" },
+      { "en": "2/3", "as": "2/3" },
+      { "en": "4/5", "as": "4/5" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "40% = 40/100 = 2/5.",
+      "as": "40% = 40/100 = 2/5।"
+    }
+  },
+  {
+    "id": "percentage-006",
+    "q": {
+      "en": "25% of 200 is —",
+      "as": "200 ৰ 25% —"
+    },
+    "options": [
+      { "en": "40", "as": "৪০" },
+      { "en": "60", "as": "৬০" },
+      { "en": "50", "as": "৫০" },
+      { "en": "25", "as": "২৫" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "200 × 25/100 = 50.",
+      "as": "200 × 25/100 = 50।"
+    }
+  },
+  {
+    "id": "percentage-007",
+    "q": {
+      "en": "10% of 250 is —",
+      "as": "250 ৰ 10% —"
+    },
+    "options": [
+      { "en": "25", "as": "২৫" },
+      { "en": "20", "as": "২০" },
+      { "en": "30", "as": "৩০" },
+      { "en": "50", "as": "৫০" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "250 × 10/100 = 25.",
+      "as": "250 × 10/100 = 25।"
+    }
+  },
+  {
+    "id": "percentage-008",
+    "q": {
+      "en": "50% of 80 is —",
+      "as": "80 ৰ 50% —"
+    },
+    "options": [
+      { "en": "30", "as": "৩০" },
+      { "en": "45", "as": "৪৫" },
+      { "en": "50", "as": "৫০" },
+      { "en": "40", "as": "৪০" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "80 × 50/100 = 40.",
+      "as": "80 × 50/100 = 40।"
+    }
+  },
+  {
+    "id": "percentage-009",
+    "q": {
+      "en": "20% of 150 is —",
+      "as": "150 ৰ 20% —"
+    },
+    "options": [
+      { "en": "25", "as": "২৫" },
+      { "en": "30", "as": "৩০" },
+      { "en": "35", "as": "৩৫" },
+      { "en": "45", "as": "৪৫" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "150 × 20/100 = 30.",
+      "as": "150 × 20/100 = 30।"
+    }
+  },
+  {
+    "id": "percentage-010",
+    "q": {
+      "en": "15% of 400 is —",
+      "as": "400 ৰ 15% —"
+    },
+    "options": [
+      { "en": "50", "as": "৫০" },
+      { "en": "55", "as": "৫৫" },
+      { "en": "60", "as": "৬০" },
+      { "en": "65", "as": "৬৫" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "400 × 15/100 = 60.",
+      "as": "400 × 15/100 = 60।"
+    }
+  },
+  {
+    "id": "percentage-011",
+    "q": {
+      "en": "30% of 500 is —",
+      "as": "500 ৰ 30% —"
+    },
+    "options": [
+      { "en": "150", "as": "১৫০" },
+      { "en": "100", "as": "১০০" },
+      { "en": "120", "as": "১২০" },
+      { "en": "200", "as": "২০০" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "500 × 30/100 = 150.",
+      "as": "500 × 30/100 = 150।"
+    }
+  },
+  {
+    "id": "percentage-012",
+    "q": {
+      "en": "12% of 800 is —",
+      "as": "800 ৰ 12% —"
+    },
+    "options": [
+      { "en": "92", "as": "৯২" },
+      { "en": "100", "as": "১০০" },
+      { "en": "88", "as": "৮৮" },
+      { "en": "96", "as": "৯৬" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "800 × 12/100 = 96.",
+      "as": "800 × 12/100 = 96।"
+    }
+  },
+  {
+    "id": "percentage-013",
+    "q": {
+      "en": "5% of 600 is —",
+      "as": "600 ৰ 5% —"
+    },
+    "options": [
+      { "en": "25", "as": "২৫" },
+      { "en": "30", "as": "৩০" },
+      { "en": "35", "as": "৩৫" },
+      { "en": "20", "as": "২০" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "600 × 5/100 = 30.",
+      "as": "600 × 5/100 = 30।"
+    }
+  },
+  {
+    "id": "percentage-014",
+    "q": {
+      "en": "45% of 200 is —",
+      "as": "200 ৰ 45% —"
+    },
+    "options": [
+      { "en": "80", "as": "৮০" },
+      { "en": "85", "as": "৮৫" },
+      { "en": "90", "as": "৯০" },
+      { "en": "95", "as": "৯৫" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "200 × 45/100 = 90.",
+      "as": "200 × 45/100 = 90।"
+    }
+  },
+  {
+    "id": "percentage-015",
+    "q": {
+      "en": "If 25% of a number is 50, the number is —",
+      "as": "যদি এটা সংখ্যাৰ 25% = 50, তেন্তে সংখ্যাটো —"
+    },
+    "options": [
+      { "en": "200", "as": "২০০" },
+      { "en": "150", "as": "১৫০" },
+      { "en": "250", "as": "২৫০" },
+      { "en": "100", "as": "১০০" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Number = 50 × 100 / 25 = 200.",
+      "as": "সংখ্যা = 50 × 100 / 25 = 200।"
+    }
+  },
+  {
+    "id": "percentage-016",
+    "q": {
+      "en": "If 20% of a number is 80, the number is —",
+      "as": "যদি এটা সংখ্যাৰ 20% = 80, তেন্তে সংখ্যাটো —"
+    },
+    "options": [
+      { "en": "320", "as": "৩২০" },
+      { "en": "360", "as": "৩৬০" },
+      { "en": "500", "as": "৫০০" },
+      { "en": "400", "as": "৪০০" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Number = 80 × 100 / 20 = 400.",
+      "as": "সংখ্যা = 80 × 100 / 20 = 400।"
+    }
+  },
+  {
+    "id": "percentage-017",
+    "q": {
+      "en": "If 60% of a number is 120, the number is —",
+      "as": "যদি এটা সংখ্যাৰ 60% = 120, তেন্তে সংখ্যাটো —"
+    },
+    "options": [
+      { "en": "180", "as": "১৮০" },
+      { "en": "200", "as": "২০০" },
+      { "en": "220", "as": "২২০" },
+      { "en": "240", "as": "২৪০" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Number = 120 × 100 / 60 = 200.",
+      "as": "সংখ্যা = 120 × 100 / 60 = 200।"
+    }
+  },
+  {
+    "id": "percentage-018",
+    "q": {
+      "en": "If 15% of a number is 45, the number is —",
+      "as": "যদি এটা সংখ্যাৰ 15% = 45, তেন্তে সংখ্যাটো —"
+    },
+    "options": [
+      { "en": "250", "as": "২৫০" },
+      { "en": "270", "as": "২৭০" },
+      { "en": "300", "as": "৩০০" },
+      { "en": "350", "as": "৩৫০" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Number = 45 × 100 / 15 = 300.",
+      "as": "সংখ্যা = 45 × 100 / 15 = 300।"
+    }
+  },
+  {
+    "id": "percentage-019",
+    "q": {
+      "en": "A number increases from 50 to 60. The percentage increase is —",
+      "as": "এটা সংখ্যা 50 ৰ পৰা 60 লৈ বৃদ্ধি হয়। শতাংশ বৃদ্ধি —"
+    },
+    "options": [
+      { "en": "20%", "as": "২০%" },
+      { "en": "10%", "as": "১০%" },
+      { "en": "15%", "as": "১৫%" },
+      { "en": "25%", "as": "২৫%" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Increase = 10; % increase = 10/50 × 100 = 20%.",
+      "as": "বৃদ্ধি = 10; শতাংশ বৃদ্ধি = 10/50 × 100 = 20%।"
+    }
+  },
+  {
+    "id": "percentage-020",
+    "q": {
+      "en": "A number decreases from 80 to 60. The percentage decrease is —",
+      "as": "এটা সংখ্যা 80 ৰ পৰা 60 লৈ হ্ৰাস হয়। শতাংশ হ্ৰাস —"
+    },
+    "options": [
+      { "en": "20%", "as": "২০%" },
+      { "en": "25%", "as": "২৫%" },
+      { "en": "30%", "as": "৩০%" },
+      { "en": "15%", "as": "১৫%" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Decrease = 20; % decrease = 20/80 × 100 = 25%.",
+      "as": "হ্ৰাস = 20; শতাংশ হ্ৰাস = 20/80 × 100 = 25%।"
+    }
+  },
+  {
+    "id": "percentage-021",
+    "q": {
+      "en": "The price of an item rises from Rs 200 to Rs 250. The percentage increase is —",
+      "as": "এটা সামগ্ৰীৰ দাম Rs 200 ৰ পৰা Rs 250 লৈ বৃদ্ধি হয়। শতাংশ বৃদ্ধি —"
+    },
+    "options": [
+      { "en": "20%", "as": "২০%" },
+      { "en": "30%", "as": "৩০%" },
+      { "en": "50%", "as": "৫০%" },
+      { "en": "25%", "as": "২৫%" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Increase = 50; % increase = 50/200 × 100 = 25%.",
+      "as": "বৃদ্ধি = 50; শতাংশ বৃদ্ধি = 50/200 × 100 = 25%।"
+    }
+  },
+  {
+    "id": "percentage-022",
+    "q": {
+      "en": "A student's marks increase from 40 to 50. The percentage increase is —",
+      "as": "এজন শিক্ষাৰ্থীৰ নম্বৰ 40 ৰ পৰা 50 লৈ বৃদ্ধি হয়। শতাংশ বৃদ্ধি —"
+    },
+    "options": [
+      { "en": "10%", "as": "১০%" },
+      { "en": "20%", "as": "২০%" },
+      { "en": "25%", "as": "২৫%" },
+      { "en": "30%", "as": "৩০%" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Increase = 10; % increase = 10/40 × 100 = 25%.",
+      "as": "বৃদ্ধি = 10; শতাংশ বৃদ্ধি = 10/40 × 100 = 25%।"
+    }
+  },
+  {
+    "id": "percentage-023",
+    "q": {
+      "en": "The price of rice rises by 20%. By what percentage should consumption be reduced so that the expenditure remains the same?",
+      "as": "চাউলৰ দাম 20% বৃদ্ধি হয়। খৰচ একে ৰাখিবলৈ ব্যৱহাৰ কিমান শতাংশ কমাব লাগিব?"
+    },
+    "options": [
+      { "en": "20%", "as": "২০%" },
+      { "en": "16⅔%", "as": "১৬⅔%" },
+      { "en": "25%", "as": "২৫%" },
+      { "en": "15%", "as": "১৫%" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Reduction % = (20 / 120) × 100 = 16⅔%.",
+      "as": "হ্ৰাস % = (20 / 120) × 100 = 16⅔%।"
+    }
+  },
+  {
+    "id": "percentage-024",
+    "q": {
+      "en": "The price of an article rises by 50%. By what percentage should consumption be reduced so that the expenditure remains the same?",
+      "as": "এটা সামগ্ৰীৰ দাম 50% বৃদ্ধি হয়। খৰচ একে ৰাখিবলৈ ব্যৱহাৰ কিমান শতাংশ কমাব লাগিব?"
+    },
+    "options": [
+      { "en": "33⅓%", "as": "৩৩⅓%" },
+      { "en": "25%", "as": "২৫%" },
+      { "en": "50%", "as": "৫০%" },
+      { "en": "30%", "as": "৩০%" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Reduction % = (50 / 150) × 100 = 33⅓%.",
+      "as": "হ্ৰাস % = (50 / 150) × 100 = 33⅓%।"
+    }
+  },
+  {
+    "id": "percentage-025",
+    "q": {
+      "en": "The price of a commodity falls by 20%. By what percentage can consumption be increased so that the expenditure remains the same?",
+      "as": "এটা সামগ্ৰীৰ দাম 20% হ্ৰাস হয়। খৰচ একে ৰাখিবলৈ ব্যৱহাৰ কিমান শতাংশ বঢ়াব পাৰি?"
+    },
+    "options": [
+      { "en": "20%", "as": "২০%" },
+      { "en": "30%", "as": "৩০%" },
+      { "en": "16⅔%", "as": "১৬⅔%" },
+      { "en": "25%", "as": "২৫%" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Increase % = (20 / 80) × 100 = 25%.",
+      "as": "বৃদ্ধি % = (20 / 80) × 100 = 25%।"
+    }
+  },
+  {
+    "id": "percentage-026",
+    "q": {
+      "en": "The price of sugar rises by 100%. By what percentage should consumption be reduced so that the expenditure remains the same?",
+      "as": "চেনিৰ দাম 100% বৃদ্ধি হয়। খৰচ একে ৰাখিবলৈ ব্যৱহাৰ কিমান শতাংশ কমাব লাগিব?"
+    },
+    "options": [
+      { "en": "40%", "as": "৪০%" },
+      { "en": "60%", "as": "৬০%" },
+      { "en": "50%", "as": "৫০%" },
+      { "en": "25%", "as": "২৫%" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Reduction % = (100 / 200) × 100 = 50%.",
+      "as": "হ্ৰাস % = (100 / 200) × 100 = 50%।"
+    }
+  },
+  {
+    "id": "percentage-027",
+    "q": {
+      "en": "A man buys an article for Rs 100 and sells it for Rs 120. His profit percentage is —",
+      "as": "এজন লোকে Rs 100 ত এটা সামগ্ৰী কিনি Rs 120 ত বিক্ৰী কৰে। তেওঁৰ লাভ শতাংশ —"
+    },
+    "options": [
+      { "en": "15%", "as": "১৫%" },
+      { "en": "20%", "as": "২০%" },
+      { "en": "25%", "as": "২৫%" },
+      { "en": "10%", "as": "১০%" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Profit = 20; profit % = 20/100 × 100 = 20%.",
+      "as": "লাভ = 20; লাভ % = 20/100 × 100 = 20%।"
+    }
+  },
+  {
+    "id": "percentage-028",
+    "q": {
+      "en": "The cost price of an article is Rs 200 and the selling price is Rs 250. The profit percentage is —",
+      "as": "এটা সামগ্ৰীৰ ক্ৰয় মূল্য Rs 200 আৰু বিক্ৰয় মূল্য Rs 250। লাভ শতাংশ —"
+    },
+    "options": [
+      { "en": "20%", "as": "২০%" },
+      { "en": "50%", "as": "৫০%" },
+      { "en": "30%", "as": "৩০%" },
+      { "en": "25%", "as": "২৫%" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Profit = 50; profit % = 50/200 × 100 = 25%.",
+      "as": "লাভ = 50; লাভ % = 50/200 × 100 = 25%।"
+    }
+  },
+  {
+    "id": "percentage-029",
+    "q": {
+      "en": "The cost price of an article is Rs 500 and the selling price is Rs 400. The loss percentage is —",
+      "as": "এটা সামগ্ৰীৰ ক্ৰয় মূল্য Rs 500 আৰু বিক্ৰয় মূল্য Rs 400। ক্ষতি শতাংশ —"
+    },
+    "options": [
+      { "en": "20%", "as": "২০%" },
+      { "en": "15%", "as": "১৫%" },
+      { "en": "25%", "as": "২৫%" },
+      { "en": "10%", "as": "১০%" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Loss = 100; loss % = 100/500 × 100 = 20%.",
+      "as": "ক্ষতি = 100; ক্ষতি % = 100/500 × 100 = 20%।"
+    }
+  },
+  {
+    "id": "percentage-030",
+    "q": {
+      "en": "The cost price of an article is Rs 80 and the selling price is Rs 100. The profit percentage is —",
+      "as": "এটা সামগ্ৰীৰ ক্ৰয় মূল্য Rs 80 আৰু বিক্ৰয় মূল্য Rs 100। লাভ শতাংশ —"
+    },
+    "options": [
+      { "en": "20%", "as": "২০%" },
+      { "en": "15%", "as": "১৫%" },
+      { "en": "25%", "as": "২৫%" },
+      { "en": "30%", "as": "৩০%" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Profit = 20; profit % = 20/80 × 100 = 25%.",
+      "as": "লাভ = 20; লাভ % = 20/80 × 100 = 25%।"
+    }
+  },
+  {
+    "id": "percentage-031",
+    "q": {
+      "en": "A student scores 45 marks out of 60. His percentage of marks is —",
+      "as": "এজন শিক্ষাৰ্থীয়ে 60 ৰ ভিতৰত 45 নম্বৰ পায়। তেওঁৰ শতাংশ —"
+    },
+    "options": [
+      { "en": "70%", "as": "৭০%" },
+      { "en": "75%", "as": "৭৫%" },
+      { "en": "72%", "as": "৭২%" },
+      { "en": "80%", "as": "৮০%" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "45/60 × 100 = 75%.",
+      "as": "45/60 × 100 = 75%।"
+    }
+  },
+  {
+    "id": "percentage-032",
+    "q": {
+      "en": "A student scores 30 marks out of 50. His percentage is —",
+      "as": "এজন শিক্ষাৰ্থীয়ে 50 ৰ ভিতৰত 30 নম্বৰ পায়। তেওঁৰ শতাংশ —"
+    },
+    "options": [
+      { "en": "50%", "as": "৫০%" },
+      { "en": "55%", "as": "৫৫%" },
+      { "en": "65%", "as": "৬৫%" },
+      { "en": "60%", "as": "৬০%" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "30/50 × 100 = 60%.",
+      "as": "30/50 × 100 = 60%।"
+    }
+  },
+  {
+    "id": "percentage-033",
+    "q": {
+      "en": "A student scores 36 marks out of 40. His percentage is —",
+      "as": "এজন শিক্ষাৰ্থীয়ে 40 ৰ ভিতৰত 36 নম্বৰ পায়। তেওঁৰ শতাংশ —"
+    },
+    "options": [
+      { "en": "90%", "as": "৯০%" },
+      { "en": "85%", "as": "৮৫%" },
+      { "en": "88%", "as": "৮৮%" },
+      { "en": "95%", "as": "৯৫%" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "36/40 × 100 = 90%.",
+      "as": "36/40 × 100 = 90%।"
+    }
+  },
+  {
+    "id": "percentage-034",
+    "q": {
+      "en": "The population of a town is 5000. If it increases by 10%, the new population is —",
+      "as": "এখন নগৰৰ জনসংখ্যা 5000। যদি 10% বৃদ্ধি হয়, নতুন জনসংখ্যা —"
+    },
+    "options": [
+      { "en": "5000", "as": "৫০০০" },
+      { "en": "5200", "as": "৫২০০" },
+      { "en": "5500", "as": "৫৫০০" },
+      { "en": "6000", "as": "৬০০০" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Increase = 500; new population = 5000 + 500 = 5500.",
+      "as": "বৃদ্ধি = 500; নতুন জনসংখ্যা = 5000 + 500 = 5500।"
+    }
+  },
+  {
+    "id": "percentage-035",
+    "q": {
+      "en": "The population of a village is 8000. If it decreases by 5%, the new population is —",
+      "as": "এখন গাঁৱৰ জনসংখ্যা 8000। যদি 5% হ্ৰাস হয়, নতুন জনসংখ্যা —"
+    },
+    "options": [
+      { "en": "7500", "as": "৭৫০০" },
+      { "en": "7600", "as": "৭৬০০" },
+      { "en": "7700", "as": "৭৭০০" },
+      { "en": "7800", "as": "৭৮০০" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Decrease = 400; new population = 8000 − 400 = 7600.",
+      "as": "হ্ৰাস = 400; নতুন জনসংখ্যা = 8000 − 400 = 7600।"
+    }
+  },
+  {
+    "id": "percentage-036",
+    "q": {
+      "en": "The marked price of an article is Rs 500 and the discount is 10%. The discount amount is —",
+      "as": "এটা সামগ্ৰীৰ চিহ্নিত মূল্য Rs 500 আৰু ৰেহাই 10%। ৰেহাইৰ পৰিমাণ —"
+    },
+    "options": [
+      { "en": "Rs 40", "as": "Rs 40" },
+      { "en": "Rs 45", "as": "Rs 45" },
+      { "en": "Rs 60", "as": "Rs 60" },
+      { "en": "Rs 50", "as": "Rs 50" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Discount = 500 × 10/100 = Rs 50.",
+      "as": "ৰেহাই = 500 × 10/100 = Rs 50।"
+    }
+  },
+  {
+    "id": "percentage-037",
+    "q": {
+      "en": "The marked price of an article is Rs 800 and the discount is 25%. The discount amount is —",
+      "as": "এটা সামগ্ৰীৰ চিহ্নিত মূল্য Rs 800 আৰু ৰেহাই 25%। ৰেহাইৰ পৰিমাণ —"
+    },
+    "options": [
+      { "en": "Rs 150", "as": "Rs 150" },
+      { "en": "Rs 180", "as": "Rs 180" },
+      { "en": "Rs 200", "as": "Rs 200" },
+      { "en": "Rs 250", "as": "Rs 250" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Discount = 800 × 25/100 = Rs 200.",
+      "as": "ৰেহাই = 800 × 25/100 = Rs 200।"
+    }
+  },
+  {
+    "id": "percentage-038",
+    "q": {
+      "en": "After a 20% discount, the price of an article is Rs 400. Its marked price is —",
+      "as": "20% ৰেহাইৰ পিছত এটা সামগ্ৰীৰ দাম Rs 400। ইয়াৰ চিহ্নিত মূল্য —"
+    },
+    "options": [
+      { "en": "Rs 500", "as": "Rs 500" },
+      { "en": "Rs 480", "as": "Rs 480" },
+      { "en": "Rs 520", "as": "Rs 520" },
+      { "en": "Rs 450", "as": "Rs 450" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Marked price = 400 × 100 / 80 = Rs 500.",
+      "as": "চিহ্নিত মূল্য = 400 × 100 / 80 = Rs 500।"
+    }
+  },
+  {
+    "id": "percentage-039",
+    "q": {
+      "en": "In a class of 50 students, 40% are girls. The number of girls is —",
+      "as": "50 জন শিক্ষাৰ্থীৰ এটা শ্ৰেণীত 40% ছোৱালী। ছোৱালীৰ সংখ্যা —"
+    },
+    "options": [
+      { "en": "15", "as": "১৫" },
+      { "en": "20", "as": "২০" },
+      { "en": "25", "as": "২৫" },
+      { "en": "30", "as": "৩০" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Girls = 50 × 40/100 = 20.",
+      "as": "ছোৱালী = 50 × 40/100 = 20।"
+    }
+  },
+  {
+    "id": "percentage-040",
+    "q": {
+      "en": "In an examination, 60% of 300 students passed. The number of students who passed is —",
+      "as": "এখন পৰীক্ষাত 300 জন শিক্ষাৰ্থীৰ 60% উত্তীৰ্ণ হয়। উত্তীৰ্ণ শিক্ষাৰ্থীৰ সংখ্যা —"
+    },
+    "options": [
+      { "en": "150", "as": "১৫০" },
+      { "en": "200", "as": "২০০" },
+      { "en": "120", "as": "১২০" },
+      { "en": "180", "as": "১৮০" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Passed = 300 × 60/100 = 180.",
+      "as": "উত্তীৰ্ণ = 300 × 60/100 = 180।"
+    }
+  },
+  {
+    "id": "percentage-041",
+    "q": {
+      "en": "A man spends 70% of his salary of Rs 5000. His monthly savings is —",
+      "as": "এজন লোকে তেওঁৰ Rs 5000 দৰমহাৰ 70% খৰচ কৰে। তেওঁৰ মাহিলী সঞ্চয় —"
+    },
+    "options": [
+      { "en": "Rs 1000", "as": "Rs 1000" },
+      { "en": "Rs 2000", "as": "Rs 2000" },
+      { "en": "Rs 1500", "as": "Rs 1500" },
+      { "en": "Rs 3500", "as": "Rs 3500" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Savings = 30% of 5000 = 1500.",
+      "as": "সঞ্চয় = 5000 ৰ 30% = 1500।"
+    }
+  },
+  {
+    "id": "percentage-042",
+    "q": {
+      "en": "In a school, 25% of the students are boys and there are 30 boys. The total number of students is —",
+      "as": "এখন বিদ্যালয়ত 25% শিক্ষাৰ্থী ল'ৰা আৰু ল'ৰাৰ সংখ্যা 30। মুঠ শিক্ষাৰ্থীৰ সংখ্যা —"
+    },
+    "options": [
+      { "en": "120", "as": "১২০" },
+      { "en": "100", "as": "১০০" },
+      { "en": "150", "as": "১৫০" },
+      { "en": "90", "as": "৯০" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 30 × 100 / 25 = 120.",
+      "as": "মুঠ = 30 × 100 / 25 = 120।"
+    }
+  },
+  {
+    "id": "percentage-043",
+    "q": {
+      "en": "A number is increased by 10% and then by 20%. The net percentage increase is —",
+      "as": "এটা সংখ্যা প্ৰথমে 10% আৰু তাৰ পিছত 20% বৃদ্ধি কৰা হয়। মুঠ শতাংশ বৃদ্ধি —"
+    },
+    "options": [
+      { "en": "30%", "as": "৩০%" },
+      { "en": "32%", "as": "৩২%" },
+      { "en": "34%", "as": "৩৪%" },
+      { "en": "28%", "as": "২৮%" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Net % increase = 10 + 20 + (10 × 20)/100 = 32%.",
+      "as": "মুঠ শতাংশ বৃদ্ধি = 10 + 20 + (10 × 20)/100 = 32%।"
+    }
+  },
+  {
+    "id": "percentage-044",
+    "q": {
+      "en": "The price of an article is increased by 20% and then decreased by 20%. The net change is —",
+      "as": "এটা সামগ্ৰীৰ দাম 20% বৃদ্ধি কৰি তাৰ পিছত 20% হ্ৰাস কৰা হয়। মুঠ পৰিৱৰ্তন —"
+    },
+    "options": [
+      { "en": "no change", "as": "কোনো পৰিৱৰ্তন নহয়" },
+      { "en": "4% increase", "as": "৪% বৃদ্ধি" },
+      { "en": "2% decrease", "as": "২% হ্ৰাস" },
+      { "en": "4% decrease", "as": "৪% হ্ৰাস" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Net change = +20 − 20 − (20 × 20)/100 = −4%, i.e. a 4% decrease.",
+      "as": "মুঠ পৰিৱৰ্তন = +20 − 20 − (20 × 20)/100 = −4%, অৰ্থাৎ 4% হ্ৰাস।"
+    }
+  },
+  {
+    "id": "percentage-045",
+    "q": {
+      "en": "20 is what percent of 80?",
+      "as": "80 ৰ কিমান শতাংশ 20?"
+    },
+    "options": [
+      { "en": "25%", "as": "২৫%" },
+      { "en": "20%", "as": "২০%" },
+      { "en": "30%", "as": "৩০%" },
+      { "en": "40%", "as": "৪০%" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "20/80 × 100 = 25%.",
+      "as": "20/80 × 100 = 25%।"
+    }
+  },
+  {
+    "id": "percentage-046",
+    "q": {
+      "en": "50 is what percent of 200?",
+      "as": "200 ৰ কিমান শতাংশ 50?"
+    },
+    "options": [
+      { "en": "20%", "as": "২০%" },
+      { "en": "30%", "as": "৩০%" },
+      { "en": "25%", "as": "২৫%" },
+      { "en": "40%", "as": "৪০%" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "50/200 × 100 = 25%.",
+      "as": "50/200 × 100 = 25%।"
+    }
+  },
+  {
+    "id": "percentage-047",
+    "q": {
+      "en": "60 is what percent of 150?",
+      "as": "150 ৰ কিমান শতাংশ 60?"
+    },
+    "options": [
+      { "en": "30%", "as": "৩০%" },
+      { "en": "40%", "as": "৪০%" },
+      { "en": "45%", "as": "৪৫%" },
+      { "en": "50%", "as": "৫০%" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "60/150 × 100 = 40%.",
+      "as": "60/150 × 100 = 40%।"
+    }
+  },
+  {
+    "id": "percentage-048",
+    "q": {
+      "en": "25 is what percent of 100?",
+      "as": "100 ৰ কিমান শতাংশ 25?"
+    },
+    "options": [
+      { "en": "20%", "as": "২০%" },
+      { "en": "30%", "as": "৩০%" },
+      { "en": "40%", "as": "৪০%" },
+      { "en": "25%", "as": "২৫%" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "25/100 × 100 = 25%.",
+      "as": "25/100 × 100 = 25%।"
+    }
+  },
+  {
+    "id": "percentage-049",
+    "q": {
+      "en": "The percentage equivalent of 0.08 is —",
+      "as": "0.08 ৰ শতাংশ ৰূপ —"
+    },
+    "options": [
+      { "en": "8%", "as": "৮%" },
+      { "en": "0.8%", "as": "০.৮%" },
+      { "en": "80%", "as": "৮০%" },
+      { "en": "0.08%", "as": "০.০৮%" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "0.08 × 100 = 8%.",
+      "as": "0.08 × 100 = 8%।"
+    }
+  },
+  {
+    "id": "percentage-050",
+    "q": {
+      "en": "The decimal form of 75% is —",
+      "as": "75% ৰ দশমিক ৰূপ —"
+    },
+    "options": [
+      { "en": "7.5", "as": "৭.৫" },
+      { "en": "0.075", "as": "০.০৭৫" },
+      { "en": "0.75", "as": "০.৭৫" },
+      { "en": "75", "as": "৭৫" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "75% = 75/100 = 0.75.",
+      "as": "75% = 75/100 = 0.75।"
+    }
+  },
+  {
+    "id": "percentage-051",
+    "q": {
+      "en": "A student scores 480 marks out of 600. His percentage is —",
+      "as": "এজন শিক্ষাৰ্থীয়ে 600 ৰ ভিতৰত 480 নম্বৰ পায়। তেওঁৰ শতাংশ —"
+    },
+    "options": [
+      { "en": "75%", "as": "৭৫%" },
+      { "en": "80%", "as": "৮০%" },
+      { "en": "78%", "as": "৭৮%" },
+      { "en": "85%", "as": "৮৫%" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "480/600 × 100 = 80%.",
+      "as": "480/600 × 100 = 80%।"
+    }
+  },
+  {
+    "id": "percentage-052",
+    "q": {
+      "en": "1/8 as a percentage is —",
+      "as": "1/8 শতাংশ হিচাপে —"
+    },
+    "options": [
+      { "en": "8%", "as": "৮%" },
+      { "en": "18%", "as": "১৮%" },
+      { "en": "25%", "as": "২৫%" },
+      { "en": "12.5%", "as": "১২.৫%" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "1/8 × 100 = 12.5%.",
+      "as": "1/8 × 100 = 12.5%।"
+    }
+  },
+  {
+    "id": "percentage-053",
+    "q": {
+      "en": "In a class of 200 students, 75% passed. The number of students who failed is —",
+      "as": "200 জন শিক্ষাৰ্থীৰ এটা শ্ৰেণীত 75% উত্তীৰ্ণ হয়। অনুত্তীৰ্ণ শিক্ষাৰ্থীৰ সংখ্যা —"
+    },
+    "options": [
+      { "en": "50", "as": "৫০" },
+      { "en": "75", "as": "৭৫" },
+      { "en": "150", "as": "১৫০" },
+      { "en": "25", "as": "২৫" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Failed % = 25%; failed students = 25% of 200 = 50.",
+      "as": "অনুত্তীৰ্ণ % = 25%; অনুত্তীৰ্ণ শিক্ষাৰ্থী = 200 ৰ 25% = 50।"
+    }
+  },
+  {
+    "id": "percentage-054",
+    "q": {
+      "en": "The price of an article is Rs 400. If it is decreased by 10%, the new price is —",
+      "as": "এটা সামগ্ৰীৰ দাম Rs 400। যদি 10% হ্ৰাস কৰা হয়, নতুন দাম —"
+    },
+    "options": [
+      { "en": "Rs 340", "as": "Rs 340" },
+      { "en": "Rs 380", "as": "Rs 380" },
+      { "en": "Rs 360", "as": "Rs 360" },
+      { "en": "Rs 390", "as": "Rs 390" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Decrease = 40; new price = 400 − 40 = Rs 360.",
+      "as": "হ্ৰাস = 40; নতুন দাম = 400 − 40 = Rs 360।"
+    }
   }
-}
+]
