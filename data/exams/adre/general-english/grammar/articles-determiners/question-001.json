@@ -1,30 +1,4772 @@
-{
-  "id": "articles-determiners-001",
-  "q": {
-    "en": "Fill in the blank: I saw ___ elephant at the zoo.",
-    "as": "ৰিক্ত স্থান পূৰণ কৰক: I saw ___ elephant at the zoo."
-  },
-  "options": [
-    {
-      "en": "a",
-      "as": "a"
+[
+  {
+    "id": "articles-determiners-001",
+    "q": {
+      "en": "Fill in the blank: I saw ___ elephant at the zoo.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I saw ___ elephant at the zoo."
     },
-    {
-      "en": "the",
-      "as": "the"
-    },
-    {
-      "en": "an",
-      "as": "an"
-    },
-    {
-      "en": "no article",
-      "as": "কোনো article নহয়"
+    "options": [
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Elephant' begins with a vowel sound, so the indefinite article 'an' is used.",
+      "as": "'Elephant' স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে অনিৰ্দিষ্ট article 'an' ব্যৱহাৰ কৰা হয়।"
     }
-  ],
-  "correct": 2,
-  "explanation": {
-    "en": "'Elephant' begins with a vowel sound, so the indefinite article 'an' is used.",
-    "as": "'Elephant' স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে অনিৰ্দিষ্ট article 'an' ব্যৱহাৰ কৰা হয়।"
+  },
+  {
+    "id": "articles-determiners-002",
+    "q": {
+      "en": "Fill in the blank: She is ___ honest girl.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She is ___ honest girl."
+    },
+    "options": [
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Honest' has a silent 'h' and begins with a vowel sound, so 'an' is used.",
+      "as": "'Honest' ৰ 'h' নীৰৱ আৰু ই স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-003",
+    "q": {
+      "en": "Fill in the blank: He is ___ university student.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ university student."
+    },
+    "options": [
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'University' begins with the consonant sound 'yu', so 'a' is used.",
+      "as": "'University' ব্যঞ্জনধ্বনি 'ইউ' ৰে আৰম্ভ হয়, গতিকে 'a' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-004",
+    "q": {
+      "en": "Fill in the blank: It took me ___ hour to finish the work.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: It took me ___ hour to finish the work."
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Hour' has a silent 'h' and begins with a vowel sound, so 'an' is used.",
+      "as": "'Hour' ৰ 'h' নীৰৱ আৰু ই স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-005",
+    "q": {
+      "en": "Fill in the blank: I bought ___ umbrella yesterday.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I bought ___ umbrella yesterday."
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Umbrella' begins with a vowel sound, so 'an' is used.",
+      "as": "'Umbrella' স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-006",
+    "q": {
+      "en": "Fill in the blank: He is ___ European.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ European."
+    },
+    "options": [
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'European' begins with the consonant sound 'yu', so 'a' is used.",
+      "as": "'European' ব্যঞ্জনধ্বনি 'ইউ' ৰে আৰম্ভ হয়, গতিকে 'a' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-007",
+    "q": {
+      "en": "Fill in the blank: She has ___ MBA degree.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She has ___ MBA degree."
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'MBA' is pronounced with an initial vowel sound 'em', so 'an' is used.",
+      "as": "'MBA' ৰ উচ্চাৰণ 'এম' স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-008",
+    "q": {
+      "en": "Fill in the blank: This is ___ useful book.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: This is ___ useful book."
+    },
+    "options": [
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Useful' begins with the consonant sound 'yu', so 'a' is used.",
+      "as": "'Useful' ব্যঞ্জনধ্বনি 'ইউ' ৰে আৰম্ভ হয়, গতিকে 'a' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-009",
+    "q": {
+      "en": "Fill in the blank: He is ___ one-eyed man.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ one-eyed man."
+    },
+    "options": [
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'One' begins with the consonant sound 'w', so 'a' is used.",
+      "as": "'One' ব্যঞ্জনধ্বনি 'ৱ' ৰে আৰম্ভ হয়, গতিকে 'a' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-010",
+    "q": {
+      "en": "Fill in the blank: She is ___ heir to a fortune.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She is ___ heir to a fortune."
+    },
+    "options": [
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Heir' has a silent 'h' and begins with a vowel sound, so 'an' is used.",
+      "as": "'Heir' ৰ 'h' নীৰৱ আৰু ই স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-011",
+    "q": {
+      "en": "Fill in the blank: Ram is ___ SDO.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: Ram is ___ SDO."
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'SDO' begins with a vowel sound 'es', so 'an' is used.",
+      "as": "'SDO' স্বৰধ্বনি 'এছ' ৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-012",
+    "q": {
+      "en": "Fill in the blank: He is ___ unique person.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ unique person."
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Unique' begins with the consonant sound 'yu', so 'a' is used.",
+      "as": "'Unique' ব্যঞ্জনধ্বনি 'ইউ' ৰে আৰম্ভ হয়, গতিকে 'a' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-013",
+    "q": {
+      "en": "Fill in the blank: I have ___ old car.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I have ___ old car."
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Old' begins with a vowel sound, so 'an' is used.",
+      "as": "'Old' স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-014",
+    "q": {
+      "en": "Fill in the blank: She wants to be ___ engineer.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She wants to be ___ engineer."
+    },
+    "options": [
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Engineer' begins with a vowel sound, so 'an' is used.",
+      "as": "'Engineer' স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-015",
+    "q": {
+      "en": "Fill in the blank: He is ___ MP from our district.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ MP from our district."
+    },
+    "options": [
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'MP' begins with a vowel sound 'em', so 'an' is used.",
+      "as": "'MP' স্বৰধ্বনি 'এম' ৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-016",
+    "q": {
+      "en": "Fill in the blank: He is ___ FBI agent.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ FBI agent."
+    },
+    "options": [
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'FBI' begins with a vowel sound 'ef', so 'an' is used.",
+      "as": "'FBI' স্বৰধ্বনি 'এফ' ৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-017",
+    "q": {
+      "en": "Fill in the blank: I saw ___ UFO in the sky.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I saw ___ UFO in the sky."
+    },
+    "options": [
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'UFO' begins with the consonant sound 'yu', so 'a' is used.",
+      "as": "'UFO' ব্যঞ্জনধ্বনি 'ইউ' ৰে আৰম্ভ হয়, গতিকে 'a' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-018",
+    "q": {
+      "en": "Fill in the blank: He is ___ uncle of mine.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ uncle of mine."
+    },
+    "options": [
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Uncle' begins with a vowel sound, so 'an' is used.",
+      "as": "'Uncle' স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-019",
+    "q": {
+      "en": "Fill in the blank: The doctor took ___ X-ray of my chest.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: The doctor took ___ X-ray of my chest."
+    },
+    "options": [
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'X-ray' begins with the vowel sound 'eks', so 'an' is used.",
+      "as": "'X-ray' স্বৰধ্বনি 'এক্স' ৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-020",
+    "q": {
+      "en": "Fill in the blank: She is ___ only child of her parents.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She is ___ only child of her parents."
+    },
+    "options": [
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Only' begins with a vowel sound, so 'an' is used.",
+      "as": "'Only' স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-021",
+    "q": {
+      "en": "Fill in the blank: I ate ___ apple in the morning.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I ate ___ apple in the morning."
+    },
+    "options": [
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Apple' begins with a vowel sound, so 'an' is used.",
+      "as": "'Apple' স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-022",
+    "q": {
+      "en": "Fill in the blank: I ate ___ orange.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I ate ___ orange."
+    },
+    "options": [
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Orange' begins with a vowel sound, so 'an' is used.",
+      "as": "'Orange' স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-023",
+    "q": {
+      "en": "Fill in the blank: He is ___ boy of ten years.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ boy of ten years."
+    },
+    "options": [
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Boy' begins with a consonant sound, so 'a' is used.",
+      "as": "'Boy' ব্যঞ্জনধ্বনিৰে আৰম্ভ হয়, গতিকে 'a' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-024",
+    "q": {
+      "en": "Fill in the blank: She rode ___ horse.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She rode ___ horse."
+    },
+    "options": [
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Horse' begins with a consonant sound, so 'a' is used.",
+      "as": "'Horse' ব্যঞ্জনধ্বনিৰে আৰম্ভ হয়, গতিকে 'a' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-025",
+    "q": {
+      "en": "Fill in the blank: It was ___ historical event.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: It was ___ historical event."
+    },
+    "options": [
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In standard usage the 'h' of 'historical' is pronounced, so 'a' is used.",
+      "as": "মানক ব্যৱহাৰত 'historical' ৰ 'h' উচ্চাৰিত হয়, গতিকে 'a' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-026",
+    "q": {
+      "en": "Fill in the blank: I saw a dog. ___ dog was black.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I saw a dog. ___ dog was black."
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "An",
+        "as": "An"
+      },
+      {
+        "en": "The",
+        "as": "The"
+      },
+      {
+        "en": "No article",
+        "as": "কোনো article নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The dog is mentioned a second time, so the definite article 'the' is used.",
+      "as": "কুকুৰটো দ্বিতীয়বাৰ উল্লেখ কৰা হৈছে, গতিকে নিৰ্দিষ্ট article 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-027",
+    "q": {
+      "en": "Fill in the blank: ___ sun rises in the east.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ sun rises in the east."
+    },
+    "options": [
+      {
+        "en": "The",
+        "as": "The"
+      },
+      {
+        "en": "An",
+        "as": "An"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "No article",
+        "as": "কোনো article নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Sun' is a unique object, so 'the' is used.",
+      "as": "'Sun' এটা অদ্বিতীয় বস্তু, গতিকে 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-028",
+    "q": {
+      "en": "Fill in the blank: He is ___ best student in the class.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ best student in the class."
+    },
+    "options": [
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'The' is used before a superlative degree like 'best'.",
+      "as": "'Best' ৰ দৰে superlative ৰ আগত 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-029",
+    "q": {
+      "en": "Fill in the blank: He was ___ first to arrive.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He was ___ first to arrive."
+    },
+    "options": [
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'The' is used before ordinal numbers like 'first'.",
+      "as": "'First' ৰ দৰে ordinal number ৰ আগত 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-030",
+    "q": {
+      "en": "Fill in the blank: ___ moon is bright tonight.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ moon is bright tonight."
+    },
+    "options": [
+      {
+        "en": "The",
+        "as": "The"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "No article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "An",
+        "as": "An"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Moon' is a unique object, so 'the' is used.",
+      "as": "'Moon' এটা অদ্বিতীয় বস্তু, গতিকে 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-031",
+    "q": {
+      "en": "Fill in the blank: ___ Ganga is a holy river.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ Ganga is a holy river."
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "No article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "An",
+        "as": "An"
+      },
+      {
+        "en": "The",
+        "as": "The"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'The' is used before the names of rivers.",
+      "as": "নদীৰ নামৰ আগত 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-032",
+    "q": {
+      "en": "Fill in the blank: I play ___ guitar.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I play ___ guitar."
+    },
+    "options": [
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'The' is used before the names of musical instruments.",
+      "as": "বাদ্যযন্ত্ৰৰ নামৰ আগত 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-033",
+    "q": {
+      "en": "Fill in the blank: ___ Himalayas are in the north.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ Himalayas are in the north."
+    },
+    "options": [
+      {
+        "en": "No article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "An",
+        "as": "An"
+      },
+      {
+        "en": "The",
+        "as": "The"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'The' is used before the names of mountain ranges.",
+      "as": "পৰ্বতমালাৰ নামৰ আগত 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-034",
+    "q": {
+      "en": "Fill in the blank: He is ___ richest man in town.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ richest man in town."
+    },
+    "options": [
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'The' is used before the superlative 'richest'.",
+      "as": "Superlative 'richest' ৰ আগত 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-035",
+    "q": {
+      "en": "Fill in the blank: ___ earth is round.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ earth is round."
+    },
+    "options": [
+      {
+        "en": "No article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "An",
+        "as": "An"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "The",
+        "as": "The"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Earth' as a unique planet takes 'the'.",
+      "as": "অদ্বিতীয় গ্ৰহ হিচাপে 'earth' ৰ আগত 'the' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-036",
+    "q": {
+      "en": "Fill in the blank: ___ Bay of Bengal is to the east.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ Bay of Bengal is to the east."
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "An",
+        "as": "An"
+      },
+      {
+        "en": "No article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "The",
+        "as": "The"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'The' is used before the names of seas and gulfs.",
+      "as": "সাগৰ আৰু উপসাগৰৰ নামৰ আগত 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-037",
+    "q": {
+      "en": "Fill in the blank: We should help ___ poor.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: We should help ___ poor."
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'The' is used with adjectives to refer to a class of people, as in 'the poor'.",
+      "as": "এটা শ্ৰেণীৰ মানুহ বুজাবলৈ বিশেষণৰ লগত 'the' ব্যৱহাৰ হয়, যেনে 'the poor'।"
+    }
+  },
+  {
+    "id": "articles-determiners-038",
+    "q": {
+      "en": "Fill in the blank: The more, ___ merrier.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: The more, ___ merrier."
+    },
+    "options": [
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In the pattern 'the + comparative, the + comparative', 'the' is used.",
+      "as": "'The + comparative, the + comparative' আৰ্হিত 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-039",
+    "q": {
+      "en": "Fill in the blank: He is ___ better of the two.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ better of the two."
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "When comparing exactly two things, 'the' is used before the comparative.",
+      "as": "ঠিক দুটা বস্তু তুলনা কৰোঁতে comparative ৰ আগত 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-040",
+    "q": {
+      "en": "Fill in the blank: He goes to ___ school every day.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He goes to ___ school every day."
+    },
+    "options": [
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'School' is used here for its purpose, so no article is needed.",
+      "as": "ইয়াত 'school' ইয়াৰ উদ্দেশ্য বুজাবলৈ ব্যৱহাৰ হৈছে, গতিকে article নালাগে।"
+    }
+  },
+  {
+    "id": "articles-determiners-041",
+    "q": {
+      "en": "Fill in the blank: I had ___ breakfast at 8 o'clock.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I had ___ breakfast at 8 o'clock."
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Names of meals usually take no article.",
+      "as": "ভোজনৰ নামৰ আগত সাধাৰণতে article নালাগে।"
+    }
+  },
+  {
+    "id": "articles-determiners-042",
+    "q": {
+      "en": "Fill in the blank: She speaks ___ French.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She speaks ___ French."
+    },
+    "options": [
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Names of languages take no article.",
+      "as": "ভাষাৰ নামৰ আগত article নালাগে।"
+    }
+  },
+  {
+    "id": "articles-determiners-043",
+    "q": {
+      "en": "Fill in the blank: He plays ___ cricket.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He plays ___ cricket."
+    },
+    "options": [
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Names of games take no article.",
+      "as": "খেলৰ নামৰ আগত article নালাগে।"
+    }
+  },
+  {
+    "id": "articles-determiners-044",
+    "q": {
+      "en": "Fill in the blank: ___ honesty is the best policy.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ honesty is the best policy."
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Abstract nouns used in a general sense take no article.",
+      "as": "সাধাৰণ অৰ্থত ব্যৱহৃত গুণবাচক বিশেষ্যৰ আগত article নালাগে।"
+    }
+  },
+  {
+    "id": "articles-determiners-045",
+    "q": {
+      "en": "Fill in the blank: The child is in ___ bed.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: The child is in ___ bed."
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'In bed' is a fixed phrase meaning resting, so no article is used.",
+      "as": "'In bed' এটা স্থিৰ বাক্যাংশ যি শোৱা বুজায়, গতিকে article নালাগে।"
+    }
+  },
+  {
+    "id": "articles-determiners-046",
+    "q": {
+      "en": "Fill in the blank: He is suffering from ___ malaria.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is suffering from ___ malaria."
+    },
+    "options": [
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Names of diseases usually take no article.",
+      "as": "ৰোগৰ নামৰ আগত সাধাৰণতে article নালাগে।"
+    }
+  },
+  {
+    "id": "articles-determiners-047",
+    "q": {
+      "en": "Fill in the blank: He went home by ___ bus.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He went home by ___ bus."
+    },
+    "options": [
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In phrases like 'by bus' showing means of travel, no article is used.",
+      "as": "'By bus' ৰ দৰে যাতায়াতৰ মাধ্যম বুজোৱা বাক্যাংশত article নালাগে।"
+    }
+  },
+  {
+    "id": "articles-determiners-048",
+    "q": {
+      "en": "Fill in the blank: We go to the temple on ___ Sundays.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: We go to the temple on ___ Sundays."
+    },
+    "options": [
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Days of the week in a general sense take no article.",
+      "as": "সাধাৰণ অৰ্থত সপ্তাহৰ দিনৰ আগত article নালাগে।"
+    }
+  },
+  {
+    "id": "articles-determiners-049",
+    "q": {
+      "en": "Fill in the blank: He likes ___ music.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He likes ___ music."
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Uncountable nouns used in a general sense take no article.",
+      "as": "সাধাৰণ অৰ্থত ব্যৱহৃত অগণনীয় বিশেষ্যৰ আগত article নালাগে।"
+    }
+  },
+  {
+    "id": "articles-determiners-050",
+    "q": {
+      "en": "Fill in the blank: Let's play ___ football.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: Let's play ___ football."
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Names of games take no article.",
+      "as": "খেলৰ নামৰ আগত article নালাগে।"
+    }
+  },
+  {
+    "id": "articles-determiners-051",
+    "q": {
+      "en": "Fill in the blank: He goes to ___ work by train.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He goes to ___ work by train."
+    },
+    "options": [
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Go to work' is a fixed phrase and takes no article.",
+      "as": "'Go to work' এটা স্থিৰ বাক্যাংশ, ইয়াত article নালাগে।"
+    }
+  },
+  {
+    "id": "articles-determiners-052",
+    "q": {
+      "en": "Fill in the blank: He is good at ___ mathematics.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is good at ___ mathematics."
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Names of subjects take no article.",
+      "as": "বিষয়ৰ নামৰ আগত article নালাগে।"
+    }
+  },
+  {
+    "id": "articles-determiners-053",
+    "q": {
+      "en": "Fill in the blank: He studies at ___ Assam University.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He studies at ___ Assam University."
+    },
+    "options": [
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A proper name of a place or institution usually takes no article.",
+      "as": "স্থান বা প্ৰতিষ্ঠানৰ নামবাচক বিশেষ্যৰ আগত সাধাৰণতে article নালাগে।"
+    }
+  },
+  {
+    "id": "articles-determiners-054",
+    "q": {
+      "en": "Fill in the blank: He earns 500 rupees ___ day.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He earns 500 rupees ___ day."
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'A' is used to mean 'per' or 'every' in expressions of rate, as in 'a day'.",
+      "as": "হাৰ বুজাবলৈ 'a' য়ে 'প্ৰতি' অৰ্থ দিয়ে, যেনে 'a day'।"
+    }
+  },
+  {
+    "id": "articles-determiners-055",
+    "q": {
+      "en": "Fill in the blank: Take this medicine twice ___ day.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: Take this medicine twice ___ day."
+    },
+    "options": [
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'A' is used to mean 'per' in frequency expressions like 'twice a day'.",
+      "as": "'Twice a day' ৰ দৰে কম্পনাংক বুজোৱা বাক্যাংশত 'a' য়ে 'প্ৰতি' অৰ্থ দিয়ে।"
+    }
+  },
+  {
+    "id": "articles-determiners-056",
+    "q": {
+      "en": "Fill in the blank: What ___ beautiful garden!",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: What ___ beautiful garden!"
+    },
+    "options": [
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In exclamations with a singular countable noun, 'a' is used after 'what'.",
+      "as": "'What' ৰ পিছত একবচন গণনীয় বিশেষ্য থকা বিস্ময়সূচক বাক্যত 'a' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-057",
+    "q": {
+      "en": "Fill in the blank: Such ___ nice person!",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: Such ___ nice person!"
+    },
+    "options": [
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Such a' is used before a singular countable noun, so 'a' is used.",
+      "as": "একবচন গণনীয় বিশেষ্যৰ আগত 'such a' ব্যৱহাৰ হয়, গতিকে 'a' লগা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-058",
+    "q": {
+      "en": "Fill in the blank: He is ___ only son of his father.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ only son of his father."
+    },
+    "options": [
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Only' begins with a vowel sound, so 'an' is used.",
+      "as": "'Only' স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-059",
+    "q": {
+      "en": "Fill in the blank: She is ___ MA in English.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She is ___ MA in English."
+    },
+    "options": [
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'MA' begins with a vowel sound 'em', so 'an' is used.",
+      "as": "'MA' স্বৰধ্বনি 'এম' ৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-060",
+    "q": {
+      "en": "Fill in the blank: He bought ___ new umbrella.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He bought ___ new umbrella."
+    },
+    "options": [
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'New' begins with a consonant sound, so 'a' is used.",
+      "as": "'New' ব্যঞ্জনধ্বনিৰে আৰম্ভ হয়, গতিকে 'a' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-061",
+    "q": {
+      "en": "Choose the correct determiner: I have ___ milk in the fridge.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: I have ___ milk in the fridge."
+    },
+    "options": [
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "any",
+        "as": "any"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "some",
+        "as": "some"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Some' is used in affirmative sentences with uncountable nouns.",
+      "as": "অগণনীয় বিশেষ্যৰ সৈতে ধনাত্মক বাক্যত 'some' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-062",
+    "q": {
+      "en": "Choose the correct determiner: Do you have ___ questions?",
+      "as": "শুদ্ধ determiner বাছনি কৰক: Do you have ___ questions?"
+    },
+    "options": [
+      {
+        "en": "any",
+        "as": "any"
+      },
+      {
+        "en": "some",
+        "as": "some"
+      },
+      {
+        "en": "much",
+        "as": "much"
+      },
+      {
+        "en": "little",
+        "as": "little"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Any' is generally used in questions and negative sentences.",
+      "as": "সাধাৰণতে প্ৰশ্ন আৰু নঞৰ্থক বাক্যত 'any' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-063",
+    "q": {
+      "en": "Choose the correct determiner: There isn't ___ sugar left.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: There isn't ___ sugar left."
+    },
+    "options": [
+      {
+        "en": "any",
+        "as": "any"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "some",
+        "as": "some"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Any' is used in negative sentences.",
+      "as": "নঞৰ্থক বাক্যত 'any' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-064",
+    "q": {
+      "en": "Choose the correct determiner: Would you like ___ tea?",
+      "as": "শুদ্ধ determiner বাছনি কৰক: Would you like ___ tea?"
+    },
+    "options": [
+      {
+        "en": "any",
+        "as": "any"
+      },
+      {
+        "en": "some",
+        "as": "some"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Some' is used in polite offers and requests even in questions.",
+      "as": "ভদ্ৰতাৰ প্ৰস্তাৱ বা অনুৰোধত প্ৰশ্ন হ'লেও 'some' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-065",
+    "q": {
+      "en": "Choose the correct determiner: She didn't eat ___ food.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: She didn't eat ___ food."
+    },
+    "options": [
+      {
+        "en": "some",
+        "as": "some"
+      },
+      {
+        "en": "any",
+        "as": "any"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Any' is used in negative sentences.",
+      "as": "নঞৰ্থক বাক্যত 'any' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-066",
+    "q": {
+      "en": "Choose the correct determiner: I need ___ help with this work.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: I need ___ help with this work."
+    },
+    "options": [
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "some",
+        "as": "some"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "any",
+        "as": "any"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Some' is used in affirmative sentences.",
+      "as": "ধনাত্মক বাক্যত 'some' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-067",
+    "q": {
+      "en": "Choose the correct determiner: Is there ___ milk in the jug?",
+      "as": "শুদ্ধ determiner বাছনি কৰক: Is there ___ milk in the jug?"
+    },
+    "options": [
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "any",
+        "as": "any"
+      },
+      {
+        "en": "some",
+        "as": "some"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In ordinary questions, 'any' is used.",
+      "as": "সাধাৰণ প্ৰশ্নত 'any' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-068",
+    "q": {
+      "en": "Choose the correct determiner: She has ___ good news for you.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: She has ___ good news for you."
+    },
+    "options": [
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "some",
+        "as": "some"
+      },
+      {
+        "en": "any",
+        "as": "any"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'News' is uncountable and the sentence is affirmative, so 'some' is used.",
+      "as": "'News' অগণনীয় আৰু বাক্যটো ধনাত্মক, গতিকে 'some' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-069",
+    "q": {
+      "en": "Choose the correct determiner: He gave me ___ useful advice.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: He gave me ___ useful advice."
+    },
+    "options": [
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "any",
+        "as": "any"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "some",
+        "as": "some"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Advice' is uncountable, so 'some' (not 'many') is used.",
+      "as": "'Advice' অগণনীয়, গতিকে 'many' নহয় 'some' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-070",
+    "q": {
+      "en": "Choose the correct determiner: There aren't ___ oranges in the basket.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: There aren't ___ oranges in the basket."
+    },
+    "options": [
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "some",
+        "as": "some"
+      },
+      {
+        "en": "any",
+        "as": "any"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Any' is used in negative sentences.",
+      "as": "নঞৰ্থক বাক্যত 'any' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-071",
+    "q": {
+      "en": "Choose the correct determiner: How ___ money do you have?",
+      "as": "শুদ্ধ determiner বাছনি কৰক: How ___ money do you have?"
+    },
+    "options": [
+      {
+        "en": "several",
+        "as": "several"
+      },
+      {
+        "en": "much",
+        "as": "much"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Money' is uncountable, so 'much' is used.",
+      "as": "'Money' অগণনীয়, গতিকে 'much' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-072",
+    "q": {
+      "en": "Choose the correct determiner: How ___ students are there in the class?",
+      "as": "শুদ্ধ determiner বাছনি কৰক: How ___ students are there in the class?"
+    },
+    "options": [
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "little",
+        "as": "little"
+      },
+      {
+        "en": "much",
+        "as": "much"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Students' is countable, so 'many' is used.",
+      "as": "'Students' গণনীয়, গতিকে 'many' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-073",
+    "q": {
+      "en": "Choose the correct determiner: There isn't ___ water in the bottle.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: There isn't ___ water in the bottle."
+    },
+    "options": [
+      {
+        "en": "a few",
+        "as": "a few"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "much",
+        "as": "much"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Water' is uncountable, so 'much' is used.",
+      "as": "'Water' অগণনীয়, গতিকে 'much' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-074",
+    "q": {
+      "en": "Choose the correct determiner: He has ___ friends in the city.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: He has ___ friends in the city."
+    },
+    "options": [
+      {
+        "en": "a little",
+        "as": "a little"
+      },
+      {
+        "en": "little",
+        "as": "little"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "much",
+        "as": "much"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Friends' is countable, so 'many' is used.",
+      "as": "'Friends' গণনীয়, গতিকে 'many' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-075",
+    "q": {
+      "en": "Choose the correct determiner: She doesn't have ___ time.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: She doesn't have ___ time."
+    },
+    "options": [
+      {
+        "en": "much",
+        "as": "much"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "a few",
+        "as": "a few"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Time' is uncountable, so 'much' is used.",
+      "as": "'Time' অগণনীয়, গতিকে 'much' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-076",
+    "q": {
+      "en": "Choose the correct determiner: ___ people were injured in the accident.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ people were injured in the accident."
+    },
+    "options": [
+      {
+        "en": "Many",
+        "as": "Many"
+      },
+      {
+        "en": "Little",
+        "as": "Little"
+      },
+      {
+        "en": "Much",
+        "as": "Much"
+      },
+      {
+        "en": "Few",
+        "as": "Few"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'People' is countable, so 'many' is used.",
+      "as": "'People' গণনীয়, গতিকে 'many' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-077",
+    "q": {
+      "en": "Choose the correct determiner: How ___ sugar do you need?",
+      "as": "শুদ্ধ determiner বাছনি কৰক: How ___ sugar do you need?"
+    },
+    "options": [
+      {
+        "en": "several",
+        "as": "several"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "much",
+        "as": "much"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Sugar' is uncountable, so 'much' is used.",
+      "as": "'Sugar' অগণনীয়, গতিকে 'much' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-078",
+    "q": {
+      "en": "Choose the correct determiner: There are too ___ cars on the road.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: There are too ___ cars on the road."
+    },
+    "options": [
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "little",
+        "as": "little"
+      },
+      {
+        "en": "less",
+        "as": "less"
+      },
+      {
+        "en": "much",
+        "as": "much"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Cars' is countable, so 'many' is used.",
+      "as": "'Cars' গণনীয়, গতিকে 'many' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-079",
+    "q": {
+      "en": "Choose the correct determiner: He has ___ friends, so he is lonely.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: He has ___ friends, so he is lonely."
+    },
+    "options": [
+      {
+        "en": "little",
+        "as": "little"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "the few",
+        "as": "the few"
+      },
+      {
+        "en": "a few",
+        "as": "a few"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Few' has a negative sense and means 'hardly any'.",
+      "as": "'Few' য়ে নঞৰ্থক অৰ্থ দিয়ে, অৰ্থাৎ 'প্ৰায় নাই'।"
+    }
+  },
+  {
+    "id": "articles-determiners-080",
+    "q": {
+      "en": "Choose the correct determiner: I have ___ friends and we meet often.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: I have ___ friends and we meet often."
+    },
+    "options": [
+      {
+        "en": "the few",
+        "as": "the few"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "a few",
+        "as": "a few"
+      },
+      {
+        "en": "little",
+        "as": "little"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'A few' has a positive sense and means 'some'.",
+      "as": "'A few' য়ে ধনাত্মক অৰ্থ দিয়ে, অৰ্থাৎ 'কিছু'।"
+    }
+  },
+  {
+    "id": "articles-determiners-081",
+    "q": {
+      "en": "Choose the correct determiner: ___ friends he had helped him in need.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ friends he had helped him in need."
+    },
+    "options": [
+      {
+        "en": "The few",
+        "as": "The few"
+      },
+      {
+        "en": "A few",
+        "as": "A few"
+      },
+      {
+        "en": "Few",
+        "as": "Few"
+      },
+      {
+        "en": "Little",
+        "as": "Little"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'The few' refers to a specific small number of people or things.",
+      "as": "'The few' য়ে এটা নিৰ্দিষ্ট কম সংখ্যা বুজায়।"
+    }
+  },
+  {
+    "id": "articles-determiners-082",
+    "q": {
+      "en": "Choose the correct determiner: Only ___ people came to the party.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: Only ___ people came to the party."
+    },
+    "options": [
+      {
+        "en": "a few",
+        "as": "a few"
+      },
+      {
+        "en": "the few",
+        "as": "the few"
+      },
+      {
+        "en": "little",
+        "as": "little"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "With 'only', the positive form 'a few' is used.",
+      "as": "'Only' ৰ লগত ধনাত্মক ৰূপ 'a few' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-083",
+    "q": {
+      "en": "Choose the correct determiner: ___ people can speak this language; it is very rare.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ people can speak this language; it is very rare."
+    },
+    "options": [
+      {
+        "en": "A few",
+        "as": "A few"
+      },
+      {
+        "en": "Little",
+        "as": "Little"
+      },
+      {
+        "en": "Few",
+        "as": "Few"
+      },
+      {
+        "en": "The few",
+        "as": "The few"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Few' gives the negative sense of 'hardly any'.",
+      "as": "'Few' য়ে 'প্ৰায় নাই' নঞৰ্থক অৰ্থ দিয়ে।"
+    }
+  },
+  {
+    "id": "articles-determiners-084",
+    "q": {
+      "en": "Choose the correct determiner: There was ___ water in the pot, so we could drink.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: There was ___ water in the pot, so we could drink."
+    },
+    "options": [
+      {
+        "en": "the little",
+        "as": "the little"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "a little",
+        "as": "a little"
+      },
+      {
+        "en": "little",
+        "as": "little"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'A little' has a positive sense and means 'some'.",
+      "as": "'A little' য়ে ধনাত্মক অৰ্থ দিয়ে, অৰ্থাৎ 'অলপ'।"
+    }
+  },
+  {
+    "id": "articles-determiners-085",
+    "q": {
+      "en": "Choose the correct determiner: There was ___ water, so we were thirsty.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: There was ___ water, so we were thirsty."
+    },
+    "options": [
+      {
+        "en": "a little",
+        "as": "a little"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "the little",
+        "as": "the little"
+      },
+      {
+        "en": "little",
+        "as": "little"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Little' has a negative sense and means 'hardly any'.",
+      "as": "'Little' য়ে নঞৰ্থক অৰ্থ দিয়ে, অৰ্থাৎ 'প্ৰায় নাই'।"
+    }
+  },
+  {
+    "id": "articles-determiners-086",
+    "q": {
+      "en": "Choose the correct determiner: ___ money he had was spent on books.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ money he had was spent on books."
+    },
+    "options": [
+      {
+        "en": "Little",
+        "as": "Little"
+      },
+      {
+        "en": "The little",
+        "as": "The little"
+      },
+      {
+        "en": "A little",
+        "as": "A little"
+      },
+      {
+        "en": "Few",
+        "as": "Few"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'The little' refers to a specific small amount.",
+      "as": "'The little' য়ে এটা নিৰ্দিষ্ট অলপ পৰিমাণ বুজায়।"
+    }
+  },
+  {
+    "id": "articles-determiners-087",
+    "q": {
+      "en": "Choose the correct determiner: Give me ___ water, I am thirsty.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: Give me ___ water, I am thirsty."
+    },
+    "options": [
+      {
+        "en": "a little",
+        "as": "a little"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "little",
+        "as": "little"
+      },
+      {
+        "en": "the little",
+        "as": "the little"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'A little' means 'some' and is positive in sense.",
+      "as": "'A little' য়ে 'অলপ' ধনাত্মক অৰ্থ দিয়ে।"
+    }
+  },
+  {
+    "id": "articles-determiners-088",
+    "q": {
+      "en": "Choose the correct determiner: He has ___ money left; he is very poor.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: He has ___ money left; he is very poor."
+    },
+    "options": [
+      {
+        "en": "little",
+        "as": "little"
+      },
+      {
+        "en": "the little",
+        "as": "the little"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "a little",
+        "as": "a little"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Little' means 'hardly any' and is negative in sense.",
+      "as": "'Little' য়ে 'প্ৰায় নাই' নঞৰ্থক অৰ্থ দিয়ে।"
+    }
+  },
+  {
+    "id": "articles-determiners-089",
+    "q": {
+      "en": "Choose the correct determiner: ___ of the two boys is present today.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ of the two boys is present today."
+    },
+    "options": [
+      {
+        "en": "All",
+        "as": "All"
+      },
+      {
+        "en": "Each",
+        "as": "Each"
+      },
+      {
+        "en": "Both",
+        "as": "Both"
+      },
+      {
+        "en": "Every",
+        "as": "Every"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Each of' is used for the individual members of a definite group of two or more.",
+      "as": "নিৰ্দিষ্ট দুটা বা ততোধিকৰ প্ৰতিজনৰ বাবে 'each of' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-090",
+    "q": {
+      "en": "Choose the correct determiner: I go to the gym ___ day.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: I go to the gym ___ day."
+    },
+    "options": [
+      {
+        "en": "every",
+        "as": "every"
+      },
+      {
+        "en": "all",
+        "as": "all"
+      },
+      {
+        "en": "both",
+        "as": "both"
+      },
+      {
+        "en": "each",
+        "as": "each"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Every' is used to talk about all the members of a group one by one.",
+      "as": "সমূহৰ প্ৰতিটোকে বুজাবলৈ 'every' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-091",
+    "q": {
+      "en": "Choose the correct determiner: ___ of the students was given a prize.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ of the students was given a prize."
+    },
+    "options": [
+      {
+        "en": "Each",
+        "as": "Each"
+      },
+      {
+        "en": "Every",
+        "as": "Every"
+      },
+      {
+        "en": "Some",
+        "as": "Some"
+      },
+      {
+        "en": "All",
+        "as": "All"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Each of' takes a singular verb and is used for individual members.",
+      "as": "'Each of' য়ে একবচন ক্ৰিয়া লয় আৰু প্ৰতিজন সদস্যৰ বাবে ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-092",
+    "q": {
+      "en": "Choose the correct determiner: He comes to see us ___ Sunday.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: He comes to see us ___ Sunday."
+    },
+    "options": [
+      {
+        "en": "every",
+        "as": "every"
+      },
+      {
+        "en": "some",
+        "as": "some"
+      },
+      {
+        "en": "all",
+        "as": "all"
+      },
+      {
+        "en": "each",
+        "as": "each"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Every' is used with singular nouns to mean 'all' of them.",
+      "as": "একবচন বিশেষ্যৰ সৈতে 'every' য়ে 'সকলো' অৰ্থ দিয়ে।"
+    }
+  },
+  {
+    "id": "articles-determiners-093",
+    "q": {
+      "en": "Choose the correct determiner: ___ morning I wake up early.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ morning I wake up early."
+    },
+    "options": [
+      {
+        "en": "All",
+        "as": "All"
+      },
+      {
+        "en": "Every",
+        "as": "Every"
+      },
+      {
+        "en": "Both",
+        "as": "Both"
+      },
+      {
+        "en": "Each",
+        "as": "Each"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Every' is the natural choice for repeated routine events.",
+      "as": "পুনৰাবৃত্তি ঘটা নিত্য কামৰ বাবে 'every' স্বাভাৱিক পছন্দ।"
+    }
+  },
+  {
+    "id": "articles-determiners-094",
+    "q": {
+      "en": "Choose the correct determiner: ___ of the two answers is correct.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ of the two answers is correct."
+    },
+    "options": [
+      {
+        "en": "Neither",
+        "as": "Neither"
+      },
+      {
+        "en": "Both",
+        "as": "Both"
+      },
+      {
+        "en": "Either",
+        "as": "Either"
+      },
+      {
+        "en": "Each",
+        "as": "Each"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Neither' means 'not one and not the other' of two.",
+      "as": "'Neither' য়ে দুটাৰ 'এটাও নহয়' অৰ্থ দিয়ে।"
+    }
+  },
+  {
+    "id": "articles-determiners-095",
+    "q": {
+      "en": "Choose the correct determiner: You can take ___ of the two books.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: You can take ___ of the two books."
+    },
+    "options": [
+      {
+        "en": "each",
+        "as": "each"
+      },
+      {
+        "en": "both",
+        "as": "both"
+      },
+      {
+        "en": "either",
+        "as": "either"
+      },
+      {
+        "en": "neither",
+        "as": "neither"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Either' means 'one or the other' of two.",
+      "as": "'Either' য়ে দুটাৰ 'যিকোনো এটা' অৰ্থ দিয়ে।"
+    }
+  },
+  {
+    "id": "articles-determiners-096",
+    "q": {
+      "en": "Choose the correct determiner: ___ of my two brothers lives here.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ of my two brothers lives here."
+    },
+    "options": [
+      {
+        "en": "Both",
+        "as": "Both"
+      },
+      {
+        "en": "Neither",
+        "as": "Neither"
+      },
+      {
+        "en": "Either",
+        "as": "Either"
+      },
+      {
+        "en": "All",
+        "as": "All"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Neither' is used for two, meaning not either one.",
+      "as": "দুটাৰ বাবে 'Neither' ব্যৱহাৰ হয়, অৰ্থাৎ এটাও নহয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-097",
+    "q": {
+      "en": "Choose the correct determiner: Take ___ of these two roads.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: Take ___ of these two roads."
+    },
+    "options": [
+      {
+        "en": "neither",
+        "as": "neither"
+      },
+      {
+        "en": "either",
+        "as": "either"
+      },
+      {
+        "en": "both",
+        "as": "both"
+      },
+      {
+        "en": "each",
+        "as": "each"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Either' refers to any one of two things.",
+      "as": "'Either' য়ে দুটাৰ যিকোনো এটাক বুজায়।"
+    }
+  },
+  {
+    "id": "articles-determiners-098",
+    "q": {
+      "en": "Choose the correct determiner: ___ of the two boys is my friend.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ of the two boys is my friend."
+    },
+    "options": [
+      {
+        "en": "Either",
+        "as": "Either"
+      },
+      {
+        "en": "Both",
+        "as": "Both"
+      },
+      {
+        "en": "All",
+        "as": "All"
+      },
+      {
+        "en": "Neither",
+        "as": "Neither"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Neither' with a singular verb means not one of the two.",
+      "as": "একবচন ক্ৰিয়াৰ সৈতে 'Neither' য়ে দুটাৰ এটাও নহয় বুজায়।"
+    }
+  },
+  {
+    "id": "articles-determiners-099",
+    "q": {
+      "en": "Choose the correct determiner: ___ the boys are playing in the field.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ the boys are playing in the field."
+    },
+    "options": [
+      {
+        "en": "Every",
+        "as": "Every"
+      },
+      {
+        "en": "Both",
+        "as": "Both"
+      },
+      {
+        "en": "Each",
+        "as": "Each"
+      },
+      {
+        "en": "All",
+        "as": "All"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Both' is used for exactly two people or things.",
+      "as": "ঠিক দুজন বা দুটাৰ বাবে 'Both' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-100",
+    "q": {
+      "en": "Choose the correct determiner: ___ the students passed the examination.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ the students passed the examination."
+    },
+    "options": [
+      {
+        "en": "Both",
+        "as": "Both"
+      },
+      {
+        "en": "All",
+        "as": "All"
+      },
+      {
+        "en": "Each",
+        "as": "Each"
+      },
+      {
+        "en": "Every",
+        "as": "Every"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'All' is used for more than two people or things.",
+      "as": "দুইৰোধিক ব্যক্তি বা বস্তুৰ বাবে 'All' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-101",
+    "q": {
+      "en": "Choose the correct determiner: I like ___ of them.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: I like ___ of them."
+    },
+    "options": [
+      {
+        "en": "each",
+        "as": "each"
+      },
+      {
+        "en": "both",
+        "as": "both"
+      },
+      {
+        "en": "every",
+        "as": "every"
+      },
+      {
+        "en": "all",
+        "as": "all"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "When referring to two persons or things, 'both' is used.",
+      "as": "দুজন বা দুটা বুজালে 'both' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-102",
+    "q": {
+      "en": "Choose the correct determiner: ___ of us were present in the meeting.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ of us were present in the meeting."
+    },
+    "options": [
+      {
+        "en": "All",
+        "as": "All"
+      },
+      {
+        "en": "Both",
+        "as": "Both"
+      },
+      {
+        "en": "Each",
+        "as": "Each"
+      },
+      {
+        "en": "Every",
+        "as": "Every"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'All of us' refers to every member of a group bigger than two.",
+      "as": "'All of us' য়ে দুজনতকৈ ডাঙৰ দলৰ প্ৰতিজনক বুজায়।"
+    }
+  },
+  {
+    "id": "articles-determiners-103",
+    "q": {
+      "en": "Choose the correct determiner: ___ book here is mine.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ book here is mine."
+    },
+    "options": [
+      {
+        "en": "That",
+        "as": "That"
+      },
+      {
+        "en": "This",
+        "as": "This"
+      },
+      {
+        "en": "Those",
+        "as": "Those"
+      },
+      {
+        "en": "These",
+        "as": "These"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'This' is used for a singular thing that is near.",
+      "as": "ওচৰৰ এটা বস্তুৰ বাবে 'This' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-104",
+    "q": {
+      "en": "Choose the correct determiner: ___ books over there are old.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ books over there are old."
+    },
+    "options": [
+      {
+        "en": "This",
+        "as": "This"
+      },
+      {
+        "en": "These",
+        "as": "These"
+      },
+      {
+        "en": "That",
+        "as": "That"
+      },
+      {
+        "en": "Those",
+        "as": "Those"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Those' is used for plural things that are far away.",
+      "as": "দূৰৰ বহুবচন বস্তুৰ বাবে 'Those' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-105",
+    "q": {
+      "en": "Choose the correct determiner: ___ are my friends.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ are my friends."
+    },
+    "options": [
+      {
+        "en": "This",
+        "as": "This"
+      },
+      {
+        "en": "That",
+        "as": "That"
+      },
+      {
+        "en": "Those",
+        "as": "Those"
+      },
+      {
+        "en": "These",
+        "as": "These"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'These' is used for plural things that are near.",
+      "as": "ওচৰৰ বহুবচন বস্তুৰ বাবে 'These' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-106",
+    "q": {
+      "en": "Choose the correct determiner: ___ house across the street is big.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ house across the street is big."
+    },
+    "options": [
+      {
+        "en": "This",
+        "as": "This"
+      },
+      {
+        "en": "That",
+        "as": "That"
+      },
+      {
+        "en": "These",
+        "as": "These"
+      },
+      {
+        "en": "Those",
+        "as": "Those"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'That' is used for a singular thing that is far.",
+      "as": "দূৰৰ এটা বস্তুৰ বাবে 'That' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-107",
+    "q": {
+      "en": "Choose the correct determiner: ___ shoes near me are mine.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ shoes near me are mine."
+    },
+    "options": [
+      {
+        "en": "Those",
+        "as": "Those"
+      },
+      {
+        "en": "This",
+        "as": "This"
+      },
+      {
+        "en": "That",
+        "as": "That"
+      },
+      {
+        "en": "These",
+        "as": "These"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'These' is used for plural things that are near.",
+      "as": "ওচৰৰ বহুবচন বস্তুৰ বাবে 'These' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-108",
+    "q": {
+      "en": "Choose the correct determiner: She lost ___ pen yesterday.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: She lost ___ pen yesterday."
+    },
+    "options": [
+      {
+        "en": "her",
+        "as": "her"
+      },
+      {
+        "en": "their",
+        "as": "their"
+      },
+      {
+        "en": "its",
+        "as": "its"
+      },
+      {
+        "en": "his",
+        "as": "his"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Her' is the possessive determiner used for a female owner.",
+      "as": "'Her' এগৰাকী মহিলা অধিকাৰীৰ বাবে ব্যৱহৃত possessive determiner।"
+    }
+  },
+  {
+    "id": "articles-determiners-109",
+    "q": {
+      "en": "Choose the correct determiner: The dog wagged ___ tail.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: The dog wagged ___ tail."
+    },
+    "options": [
+      {
+        "en": "it's",
+        "as": "it's"
+      },
+      {
+        "en": "its",
+        "as": "its"
+      },
+      {
+        "en": "their",
+        "as": "their"
+      },
+      {
+        "en": "his",
+        "as": "his"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Its' is the possessive form for an animal or thing; 'it's' means 'it is'.",
+      "as": "'Its' প্ৰাণী বা বস্তুৰ অধিকাৰ বুজায়; 'it's' ৰ অৰ্থ 'it is'।"
+    }
+  },
+  {
+    "id": "articles-determiners-110",
+    "q": {
+      "en": "Choose the correct determiner: The students did ___ homework.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: The students did ___ homework."
+    },
+    "options": [
+      {
+        "en": "its",
+        "as": "its"
+      },
+      {
+        "en": "their",
+        "as": "their"
+      },
+      {
+        "en": "her",
+        "as": "her"
+      },
+      {
+        "en": "his",
+        "as": "his"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Their' is the possessive determiner for a plural owner.",
+      "as": "'Their' বহুবচন অধিকাৰীৰ বাবে possessive determiner।"
+    }
+  },
+  {
+    "id": "articles-determiners-111",
+    "q": {
+      "en": "Choose the correct determiner: I met ___ mother in the market.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: I met ___ mother in the market."
+    },
+    "options": [
+      {
+        "en": "my",
+        "as": "my"
+      },
+      {
+        "en": "me",
+        "as": "me"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      },
+      {
+        "en": "mine",
+        "as": "mine"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'My' is the possessive determiner used before a noun.",
+      "as": "'My' বিশেষ্যৰ আগত ব্যৱহৃত possessive determiner।"
+    }
+  },
+  {
+    "id": "articles-determiners-112",
+    "q": {
+      "en": "Choose the correct determiner: Dad, is this ___ car?",
+      "as": "শুদ্ধ determiner বাছনি কৰক: Dad, is this ___ car?"
+    },
+    "options": [
+      {
+        "en": "yours",
+        "as": "yours"
+      },
+      {
+        "en": "your",
+        "as": "your"
+      },
+      {
+        "en": "you're",
+        "as": "you're"
+      },
+      {
+        "en": "you",
+        "as": "you"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Your' is the possessive determiner used before a noun.",
+      "as": "'Your' বিশেষ্যৰ আগত ব্যৱহৃত possessive determiner।"
+    }
+  },
+  {
+    "id": "articles-determiners-113",
+    "q": {
+      "en": "Choose the correct determiner: We love ___ country very much.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: We love ___ country very much."
+    },
+    "options": [
+      {
+        "en": "we",
+        "as": "we"
+      },
+      {
+        "en": "us",
+        "as": "us"
+      },
+      {
+        "en": "ours",
+        "as": "ours"
+      },
+      {
+        "en": "our",
+        "as": "our"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Our' is the possessive determiner used before a noun.",
+      "as": "'Our' বিশেষ্যৰ আগত ব্যৱহৃত possessive determiner।"
+    }
+  },
+  {
+    "id": "articles-determiners-114",
+    "q": {
+      "en": "Choose the correct determiner: Ravi broke ___ leg while playing.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: Ravi broke ___ leg while playing."
+    },
+    "options": [
+      {
+        "en": "his",
+        "as": "his"
+      },
+      {
+        "en": "her",
+        "as": "her"
+      },
+      {
+        "en": "their",
+        "as": "their"
+      },
+      {
+        "en": "its",
+        "as": "its"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'His' is the possessive determiner used for a male owner.",
+      "as": "'His' এজন পুৰুষ অধিকাৰীৰ বাবে possessive determiner।"
+    }
+  },
+  {
+    "id": "articles-determiners-115",
+    "q": {
+      "en": "Choose the correct determiner: He has ___ money to buy a car.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: He has ___ money to buy a car."
+    },
+    "options": [
+      {
+        "en": "some",
+        "as": "some"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "any",
+        "as": "any"
+      },
+      {
+        "en": "enough",
+        "as": "enough"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Enough' means as much as is needed.",
+      "as": "'Enough' য়ে প্ৰয়োজনীয় পৰিমাণ বুজায়।"
+    }
+  },
+  {
+    "id": "articles-determiners-116",
+    "q": {
+      "en": "Choose the correct determiner: There is ___ time left before the exam.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: There is ___ time left before the exam."
+    },
+    "options": [
+      {
+        "en": "enough",
+        "as": "enough"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "some",
+        "as": "some"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Enough' is used to show a sufficient quantity.",
+      "as": "পৰ্যাপ্ত পৰিমাণ বুজাবলৈ 'enough' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-117",
+    "q": {
+      "en": "Choose the correct determiner: I have read ___ books on this topic.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: I have read ___ books on this topic."
+    },
+    "options": [
+      {
+        "en": "a little",
+        "as": "a little"
+      },
+      {
+        "en": "little",
+        "as": "little"
+      },
+      {
+        "en": "several",
+        "as": "several"
+      },
+      {
+        "en": "much",
+        "as": "much"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Several' means more than two but not many, and is used with countable nouns.",
+      "as": "'Several' য়ে দুইৰোধিক কিন্তু বেছি নোহোৱা সংখ্যা বুজায়, গণনীয় বিশেষ্যৰ সৈতে ব্যৱহৃত।"
+    }
+  },
+  {
+    "id": "articles-determiners-118",
+    "q": {
+      "en": "Choose the correct determiner: There are ___ chairs in the room.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: There are ___ chairs in the room."
+    },
+    "options": [
+      {
+        "en": "several",
+        "as": "several"
+      },
+      {
+        "en": "a little",
+        "as": "a little"
+      },
+      {
+        "en": "little",
+        "as": "little"
+      },
+      {
+        "en": "much",
+        "as": "much"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Several' is used with plural countable nouns.",
+      "as": "'Several' বহুবচন গণনীয় বিশেষ্যৰ সৈতে ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-119",
+    "q": {
+      "en": "Choose the correct determiner: This shirt is small. Please show me ___ one.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: This shirt is small. Please show me ___ one."
+    },
+    "options": [
+      {
+        "en": "the other",
+        "as": "the other"
+      },
+      {
+        "en": "others",
+        "as": "others"
+      },
+      {
+        "en": "other",
+        "as": "other"
+      },
+      {
+        "en": "another",
+        "as": "another"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Another' means an additional one of the same kind.",
+      "as": "'Another' য়ে একে ধৰণৰ এটা অতিৰিক্ত বস্তু বুজায়।"
+    }
+  },
+  {
+    "id": "articles-determiners-120",
+    "q": {
+      "en": "Choose the correct determiner: I have two pens. One is red and ___ is blue.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: I have two pens. One is red and ___ is blue."
+    },
+    "options": [
+      {
+        "en": "another",
+        "as": "another"
+      },
+      {
+        "en": "the other",
+        "as": "the other"
+      },
+      {
+        "en": "other",
+        "as": "other"
+      },
+      {
+        "en": "others",
+        "as": "others"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'The other' refers to the second of exactly two things.",
+      "as": "'The other' য়ে ঠিক দুটাৰ দ্বিতীয়টোক বুজায়।"
+    }
+  },
+  {
+    "id": "articles-determiners-121",
+    "q": {
+      "en": "Choose the correct determiner: Some students left, but ___ stayed.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: Some students left, but ___ stayed."
+    },
+    "options": [
+      {
+        "en": "other",
+        "as": "other"
+      },
+      {
+        "en": "the other",
+        "as": "the other"
+      },
+      {
+        "en": "others",
+        "as": "others"
+      },
+      {
+        "en": "another",
+        "as": "another"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Others' is a pronoun meaning 'other people' or 'other things'.",
+      "as": "'Others' এটা সৰ্বনাম যি 'আন লোক' বা 'আন বস্তু' বুজায়।"
+    }
+  },
+  {
+    "id": "articles-determiners-122",
+    "q": {
+      "en": "Choose the correct determiner: Where are the ___ students?",
+      "as": "শুদ্ধ determiner বাছনি কৰক: Where are the ___ students?"
+    },
+    "options": [
+      {
+        "en": "the other",
+        "as": "the other"
+      },
+      {
+        "en": "other",
+        "as": "other"
+      },
+      {
+        "en": "others",
+        "as": "others"
+      },
+      {
+        "en": "another",
+        "as": "another"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Other' is used before a plural noun to mean additional ones.",
+      "as": "অতিৰিক্ত বস্তু বুজাবলৈ বহুবচন বিশেষ্যৰ আগত 'Other' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-123",
+    "q": {
+      "en": "Choose the correct determiner: I don't like this one; please show me ___.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: I don't like this one; please show me ___."
+    },
+    "options": [
+      {
+        "en": "others",
+        "as": "others"
+      },
+      {
+        "en": "the other",
+        "as": "the other"
+      },
+      {
+        "en": "other",
+        "as": "other"
+      },
+      {
+        "en": "another",
+        "as": "another"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Another' is used as a pronoun meaning one more of the same kind.",
+      "as": "'Another' সৰ্বনাম হিচাপে একে ধৰণৰ আৰু এটা বুজায়।"
+    }
+  },
+  {
+    "id": "articles-determiners-124",
+    "q": {
+      "en": "Choose the correct determiner: There are ___ people in the park.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: There are ___ people in the park."
+    },
+    "options": [
+      {
+        "en": "little",
+        "as": "little"
+      },
+      {
+        "en": "a little",
+        "as": "a little"
+      },
+      {
+        "en": "a lot of",
+        "as": "a lot of"
+      },
+      {
+        "en": "much",
+        "as": "much"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'A lot of' is used with plural countable nouns to show a large number.",
+      "as": "বহু সংখ্যা বুজাবলৈ বহুবচন গণনীয় বিশেষ্যৰ সৈতে 'a lot of' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-125",
+    "q": {
+      "en": "Choose the correct determiner: She has ___ interest in music.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: She has ___ interest in music."
+    },
+    "options": [
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "a few",
+        "as": "a few"
+      },
+      {
+        "en": "a lot of",
+        "as": "a lot of"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'A lot of' can also be used with uncountable nouns like 'interest'.",
+      "as": "'Interest' ৰ দৰে অগণনীয় বিশেষ্যৰ সৈতেও 'a lot of' ব্যৱহাৰ কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "articles-determiners-126",
+    "q": {
+      "en": "Choose the correct determiner: ___ students in the class is forty.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ students in the class is forty."
+    },
+    "options": [
+      {
+        "en": "A number of",
+        "as": "A number of"
+      },
+      {
+        "en": "The number of",
+        "as": "The number of"
+      },
+      {
+        "en": "Many",
+        "as": "Many"
+      },
+      {
+        "en": "Few",
+        "as": "Few"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'The number of' takes a singular verb and refers to the total count.",
+      "as": "'The number of' য়ে একবচন ক্ৰিয়া লয় আৰু মুঠ সংখ্যা বুজায়।"
+    }
+  },
+  {
+    "id": "articles-determiners-127",
+    "q": {
+      "en": "Choose the correct determiner: ___ students were absent yesterday.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ students were absent yesterday."
+    },
+    "options": [
+      {
+        "en": "Little",
+        "as": "Little"
+      },
+      {
+        "en": "Much",
+        "as": "Much"
+      },
+      {
+        "en": "The number of",
+        "as": "The number of"
+      },
+      {
+        "en": "A number of",
+        "as": "A number of"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'A number of' takes a plural verb and means 'several'.",
+      "as": "'A number of' য়ে বহুবচন ক্ৰিয়া লয় আৰু 'কেইজনমান' অৰ্থ দিয়ে।"
+    }
+  },
+  {
+    "id": "articles-determiners-128",
+    "q": {
+      "en": "Choose the correct determiner: There is ___ time, so don't worry.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: There is ___ time, so don't worry."
+    },
+    "options": [
+      {
+        "en": "a few",
+        "as": "a few"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "plenty of",
+        "as": "plenty of"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Plenty of' means a large amount, used with uncountable nouns.",
+      "as": "'Plenty of' য়ে বৃহৎ পৰিমাণ বুজায়, অগণনীয় বিশেষ্যৰ সৈতে ব্যৱহৃত।"
+    }
+  },
+  {
+    "id": "articles-determiners-129",
+    "q": {
+      "en": "Choose the correct determiner: He has ___ patience.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: He has ___ patience."
+    },
+    "options": [
+      {
+        "en": "a great deal of",
+        "as": "a great deal of"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "a few",
+        "as": "a few"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'A great deal of' is used with uncountable nouns to mean a large amount.",
+      "as": "বৃহৎ পৰিমাণ বুজাবলৈ অগণনীয় বিশেষ্যৰ সৈতে 'a great deal of' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-130",
+    "q": {
+      "en": "Choose the correct determiner: There is ___ water in the glass than before.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: There is ___ water in the glass than before."
+    },
+    "options": [
+      {
+        "en": "fewer",
+        "as": "fewer"
+      },
+      {
+        "en": "less",
+        "as": "less"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Less' is used with uncountable nouns like 'water'.",
+      "as": "'Water' ৰ দৰে অগণনীয় বিশেষ্যৰ সৈতে 'less' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-131",
+    "q": {
+      "en": "Choose the correct determiner: There are ___ students today than yesterday.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: There are ___ students today than yesterday."
+    },
+    "options": [
+      {
+        "en": "much",
+        "as": "much"
+      },
+      {
+        "en": "fewer",
+        "as": "fewer"
+      },
+      {
+        "en": "less",
+        "as": "less"
+      },
+      {
+        "en": "little",
+        "as": "little"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Fewer' is used with plural countable nouns like 'students'.",
+      "as": "'Students' ৰ দৰে বহুবচন গণনীয় বিশেষ্যৰ সৈতে 'fewer' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-132",
+    "q": {
+      "en": "Choose the correct determiner: He has ___ money than I have.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: He has ___ money than I have."
+    },
+    "options": [
+      {
+        "en": "less",
+        "as": "less"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "fewer",
+        "as": "fewer"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Money' is uncountable, so 'less' is used.",
+      "as": "'Money' অগণনীয়, গতিকে 'less' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-133",
+    "q": {
+      "en": "Choose the correct determiner: There are ___ chairs here than there.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: There are ___ chairs here than there."
+    },
+    "options": [
+      {
+        "en": "fewer",
+        "as": "fewer"
+      },
+      {
+        "en": "much",
+        "as": "much"
+      },
+      {
+        "en": "less",
+        "as": "less"
+      },
+      {
+        "en": "little",
+        "as": "little"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Chairs' is countable, so 'fewer' is used.",
+      "as": "'Chairs' গণনীয়, গতিকে 'fewer' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-134",
+    "q": {
+      "en": "Choose the correct determiner: ___ of the food was wasted.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ of the food was wasted."
+    },
+    "options": [
+      {
+        "en": "None",
+        "as": "None"
+      },
+      {
+        "en": "Any",
+        "as": "Any"
+      },
+      {
+        "en": "Few",
+        "as": "Few"
+      },
+      {
+        "en": "Some",
+        "as": "Some"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'None of' means not any and can be used with uncountable nouns.",
+      "as": "'None of' য়ে 'একো নহয়' অৰ্থ দিয়ে আৰু অগণনীয় বিশেষ্যৰ সৈতে ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-135",
+    "q": {
+      "en": "Choose the correct determiner: ___ of my friends came to help me.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ of my friends came to help me."
+    },
+    "options": [
+      {
+        "en": "Few",
+        "as": "Few"
+      },
+      {
+        "en": "Some",
+        "as": "Some"
+      },
+      {
+        "en": "None",
+        "as": "None"
+      },
+      {
+        "en": "Any",
+        "as": "Any"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'None of' means not one of a group.",
+      "as": "'None of' য়ে এটা দলৰ এজনো নহয় বুজায়।"
+    }
+  },
+  {
+    "id": "articles-determiners-136",
+    "q": {
+      "en": "Choose the correct determiner: ___ students like cricket in this school.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ students like cricket in this school."
+    },
+    "options": [
+      {
+        "en": "Little",
+        "as": "Little"
+      },
+      {
+        "en": "Few",
+        "as": "Few"
+      },
+      {
+        "en": "Most",
+        "as": "Most"
+      },
+      {
+        "en": "Much",
+        "as": "Much"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Most' means the majority and is used with plural nouns.",
+      "as": "'Most' য়ে সংখ্যাগৰিষ্ঠতা বুজায় আৰু বহুবচন বিশেষ্যৰ সৈতে ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-137",
+    "q": {
+      "en": "Choose the correct determiner: ___ of the milk was spoiled.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ of the milk was spoiled."
+    },
+    "options": [
+      {
+        "en": "Half",
+        "as": "Half"
+      },
+      {
+        "en": "Both",
+        "as": "Both"
+      },
+      {
+        "en": "Each",
+        "as": "Each"
+      },
+      {
+        "en": "Every",
+        "as": "Every"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Half of' shows an equal part of an amount.",
+      "as": "'Half of' য়ে এটা পৰিমাণৰ সমান অংশ বুজায়।"
+    }
+  },
+  {
+    "id": "articles-determiners-138",
+    "q": {
+      "en": "Choose the correct determiner: I like the red ___.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: I like the red ___."
+    },
+    "options": [
+      {
+        "en": "ones",
+        "as": "ones"
+      },
+      {
+        "en": "one",
+        "as": "one"
+      },
+      {
+        "en": "another",
+        "as": "another"
+      },
+      {
+        "en": "other",
+        "as": "other"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'One' replaces a singular countable noun.",
+      "as": "'One' য়ে এটা একবচন গণনীয় বিশেষ্যৰ ঠাই লয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-139",
+    "q": {
+      "en": "Choose the correct determiner: These shoes are small; show me bigger ___.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: These shoes are small; show me bigger ___."
+    },
+    "options": [
+      {
+        "en": "one",
+        "as": "one"
+      },
+      {
+        "en": "ones",
+        "as": "ones"
+      },
+      {
+        "en": "another",
+        "as": "another"
+      },
+      {
+        "en": "other",
+        "as": "other"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Ones' replaces a plural countable noun.",
+      "as": "'Ones' য়ে বহুবচন গণনীয় বিশেষ্যৰ ঠাই লয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-140",
+    "q": {
+      "en": "Choose the correct determiner: Give me the ___ on the table.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: Give me the ___ on the table."
+    },
+    "options": [
+      {
+        "en": "ones",
+        "as": "ones"
+      },
+      {
+        "en": "another",
+        "as": "another"
+      },
+      {
+        "en": "other",
+        "as": "other"
+      },
+      {
+        "en": "one",
+        "as": "one"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'The one' refers to a specific singular thing.",
+      "as": "'The one' য়ে এটা নিৰ্দিষ্ট একবচন বস্তু বুজায়।"
+    }
+  },
+  {
+    "id": "articles-determiners-141",
+    "q": {
+      "en": "Choose the correct determiner: I have two cars; ___ is white and the other is black.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: I have two cars; ___ is white and the other is black."
+    },
+    "options": [
+      {
+        "en": "other",
+        "as": "other"
+      },
+      {
+        "en": "one",
+        "as": "one"
+      },
+      {
+        "en": "another",
+        "as": "another"
+      },
+      {
+        "en": "ones",
+        "as": "ones"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'One' is used with 'the other' when referring to two things.",
+      "as": "দুটা বস্তু বুজাওঁতে 'the other' ৰ সৈতে 'one' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-142",
+    "q": {
+      "en": "Choose the correct determiner: I don't have ___ money with me.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: I don't have ___ money with me."
+    },
+    "options": [
+      {
+        "en": "some",
+        "as": "some"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "any",
+        "as": "any"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Any' is used in negative sentences.",
+      "as": "নঞৰ্থক বাক্যত 'any' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-143",
+    "q": {
+      "en": "Choose the correct determiner: She has ___ books in her bag.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: She has ___ books in her bag."
+    },
+    "options": [
+      {
+        "en": "any",
+        "as": "any"
+      },
+      {
+        "en": "some",
+        "as": "some"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Some' is used in affirmative sentences with plural nouns.",
+      "as": "বহুবচন বিশেষ্যৰ সৈতে ধনাত্মক বাক্যত 'some' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-144",
+    "q": {
+      "en": "Choose the correct determiner: How ___ brothers do you have?",
+      "as": "শুদ্ধ determiner বাছনি কৰক: How ___ brothers do you have?"
+    },
+    "options": [
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "much",
+        "as": "much"
+      },
+      {
+        "en": "little",
+        "as": "little"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Brothers' is countable, so 'many' is used.",
+      "as": "'Brothers' গণনীয়, গতিকে 'many' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-145",
+    "q": {
+      "en": "Choose the correct determiner: There is ___ milk in the jug.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: There is ___ milk in the jug."
+    },
+    "options": [
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "any",
+        "as": "any"
+      },
+      {
+        "en": "some",
+        "as": "some"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Milk' is uncountable and the sentence is affirmative, so 'some' is used.",
+      "as": "'Milk' অগণনীয় আৰু বাক্যটো ধনাত্মক, গতিকে 'some' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-146",
+    "q": {
+      "en": "Fill in the blank: He is ___ intelligent boy.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ intelligent boy."
+    },
+    "options": [
+      {
+        "en": "an",
+        "as": "an"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Intelligent' begins with a vowel sound, so 'an' is used.",
+      "as": "'Intelligent' স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-147",
+    "q": {
+      "en": "Fill in the blank: ___ Andamans are beautiful islands.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ Andamans are beautiful islands."
+    },
+    "options": [
+      {
+        "en": "No article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "An",
+        "as": "An"
+      },
+      {
+        "en": "The",
+        "as": "The"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'The' is used before the names of groups of islands.",
+      "as": "দ্বীপপুঞ্জৰ নামৰ আগত 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-148",
+    "q": {
+      "en": "Choose the correct determiner: ___ of the two girls is my cousin.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ of the two girls is my cousin."
+    },
+    "options": [
+      {
+        "en": "Both",
+        "as": "Both"
+      },
+      {
+        "en": "All",
+        "as": "All"
+      },
+      {
+        "en": "Either",
+        "as": "Either"
+      },
+      {
+        "en": "Neither",
+        "as": "Neither"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Neither' is used for two, meaning not either one.",
+      "as": "দুটাৰ বাবে 'Neither' ব্যৱহাৰ হয়, অৰ্থাৎ এটাও নহয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-149",
+    "q": {
+      "en": "Choose the correct determiner: She has ___ patience, so she gets angry quickly.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: She has ___ patience, so she gets angry quickly."
+    },
+    "options": [
+      {
+        "en": "a little",
+        "as": "a little"
+      },
+      {
+        "en": "little",
+        "as": "little"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "a few",
+        "as": "a few"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Little' with an uncountable noun gives the negative sense of 'hardly any'.",
+      "as": "অগণনীয় বিশেষ্যৰ সৈতে 'Little' য়ে 'প্ৰায় নাই' নঞৰ্থক অৰ্থ দিয়ে।"
+    }
+  },
+  {
+    "id": "articles-determiners-150",
+    "q": {
+      "en": "Choose the correct determiner: There are ___ apples in the basket.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: There are ___ apples in the basket."
+    },
+    "options": [
+      {
+        "en": "little",
+        "as": "little"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "a little",
+        "as": "a little"
+      },
+      {
+        "en": "a few",
+        "as": "a few"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'A few' is used with plural countable nouns in a positive sense.",
+      "as": "'A few' ধনাত্মক অৰ্থত বহুবচন গণনীয় বিশেষ্যৰ সৈতে ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-151",
+    "q": {
+      "en": "Choose the correct determiner: He earns ___ money every month.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: He earns ___ money every month."
+    },
+    "options": [
+      {
+        "en": "a lot of",
+        "as": "a lot of"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "a few",
+        "as": "a few"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'A lot of' is used with the uncountable noun 'money'.",
+      "as": "অগণনীয় বিশেষ্য 'money' ৰ সৈতে 'a lot of' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-152",
+    "q": {
+      "en": "Choose the correct determiner: I have ___ idea about this plan.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: I have ___ idea about this plan."
+    },
+    "options": [
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "some",
+        "as": "some"
+      },
+      {
+        "en": "no",
+        "as": "no"
+      },
+      {
+        "en": "any",
+        "as": "any"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'No' is a negative determiner meaning 'not any'.",
+      "as": "'No' এটা নঞৰ্থক determiner, অৰ্থ 'একো নহয়'।"
+    }
+  },
+  {
+    "id": "articles-determiners-153",
+    "q": {
+      "en": "Choose the correct determiner: There are ___ books on the table.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: There are ___ books on the table."
+    },
+    "options": [
+      {
+        "en": "a little",
+        "as": "a little"
+      },
+      {
+        "en": "much",
+        "as": "much"
+      },
+      {
+        "en": "some",
+        "as": "some"
+      },
+      {
+        "en": "any",
+        "as": "any"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Some' is used with plural countable nouns in affirmative sentences.",
+      "as": "ধনাত্মক বাক্যত বহুবচন গণনীয় বিশেষ্যৰ সৈতে 'some' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-154",
+    "q": {
+      "en": "Choose the correct determiner: ___ of them was ready to go.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: ___ of them was ready to go."
+    },
+    "options": [
+      {
+        "en": "Few",
+        "as": "Few"
+      },
+      {
+        "en": "Any",
+        "as": "Any"
+      },
+      {
+        "en": "Some",
+        "as": "Some"
+      },
+      {
+        "en": "None",
+        "as": "None"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'None of' with a singular verb means not one of them.",
+      "as": "একবচন ক্ৰিয়াৰ সৈতে 'None of' য়ে সিহঁতৰ এজনো নহয় বুজায়।"
+    }
+  },
+  {
+    "id": "articles-determiners-155",
+    "q": {
+      "en": "Choose the correct determiner: Is there ___ tea in the pot?",
+      "as": "শুদ্ধ determiner বাছনি কৰক: Is there ___ tea in the pot?"
+    },
+    "options": [
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "any",
+        "as": "any"
+      },
+      {
+        "en": "some",
+        "as": "some"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Any' is generally used in questions.",
+      "as": "সাধাৰণতে প্ৰশ্নত 'any' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-156",
+    "q": {
+      "en": "Choose the correct determiner: She bought ___ sugar from the shop.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: She bought ___ sugar from the shop."
+    },
+    "options": [
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "many",
+        "as": "many"
+      },
+      {
+        "en": "some",
+        "as": "some"
+      },
+      {
+        "en": "any",
+        "as": "any"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Sugar' is uncountable and the sentence is affirmative, so 'some' is used.",
+      "as": "'Sugar' অগণনীয় আৰু বাক্যটো ধনাত্মক, গতিকে 'some' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-157",
+    "q": {
+      "en": "Choose the correct determiner: There is ___ hope of his recovery.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: There is ___ hope of his recovery."
+    },
+    "options": [
+      {
+        "en": "little",
+        "as": "little"
+      },
+      {
+        "en": "a few",
+        "as": "a few"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "a little",
+        "as": "a little"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Little' with an uncountable noun gives the negative sense of 'hardly any'.",
+      "as": "অগণনীয় বিশেষ্যৰ সৈতে 'Little' য়ে 'প্ৰায় নাই' নঞৰ্থক অৰ্থ দিয়ে।"
+    }
+  },
+  {
+    "id": "articles-determiners-158",
+    "q": {
+      "en": "Choose the correct determiner: I need ___ hours to finish this work.",
+      "as": "শুদ্ধ determiner বাছনি কৰক: I need ___ hours to finish this work."
+    },
+    "options": [
+      {
+        "en": "a little",
+        "as": "a little"
+      },
+      {
+        "en": "little",
+        "as": "little"
+      },
+      {
+        "en": "few",
+        "as": "few"
+      },
+      {
+        "en": "a few",
+        "as": "a few"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'A few' is used with plural countable nouns like 'hours'.",
+      "as": "'Hours' ৰ দৰে বহুবচন গণনীয় বিশেষ্যৰ সৈতে 'a few' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "articles-determiners-159",
+    "q": {
+      "en": "Fill in the blank: He told me ___ interesting story.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He told me ___ interesting story."
+    },
+    "options": [
+      {
+        "en": "no article",
+        "as": "কোনো article নহয়"
+      },
+      {
+        "en": "the",
+        "as": "the"
+      },
+      {
+        "en": "a",
+        "as": "a"
+      },
+      {
+        "en": "an",
+        "as": "an"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Interesting' begins with a vowel sound, so 'an' is used.",
+      "as": "'Interesting' স্বৰধ্বনিৰে আৰম্ভ হয়, গতিকে 'an' ব্যৱহাৰ কৰা হয়।"
+    }
   }
-}
+]
