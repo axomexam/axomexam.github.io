@@ -1,30 +1,1046 @@
-{
-  "id": "number-system-001",
-  "q": {
-    "en": "Which of the following is an irrational number?",
-    "as": "তলৰ কোনটো এটা অপৰিমেয় সংখ্যা?"
-  },
-  "options": [
-    {
-      "en": "√2",
-      "as": "√2"
+[
+  {
+    "id": "number-system-001",
+    "q": {
+      "en": "Which of the following is an irrational number?",
+      "as": "তলৰ কোনটো এটা অপৰিমেয় সংখ্যা?"
     },
-    {
-      "en": "0.25",
-      "as": "0.25"
-    },
-    {
-      "en": "3/4",
-      "as": "3/4"
-    },
-    {
-      "en": "−5",
-      "as": "−5"
+    "options": [
+      { "en": "√2", "as": "√2" },
+      { "en": "0.25", "as": "0.25" },
+      { "en": "3/4", "as": "3/4" },
+      { "en": "−5", "as": "−5" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "√2 cannot be written as a fraction of two integers, so it is irrational.",
+      "as": "√2 ক দুটা পূৰ্ণসংখ্যাৰ ভগ্নাংশ হিচাপে লিখিব নোৱাৰি, গতিকে ই অপৰিমেয়।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "√2 cannot be written as a fraction of two integers, so it is irrational.",
-    "as": "√2 ক দুটা পূৰ্ণসংখ্যাৰ ভগ্নাংশ হিচাপে লিখিব নোৱাৰি, গতিকে ই অপৰিমেয়।"
+  },
+  {
+    "id": "number-system-002",
+    "q": {
+      "en": "Which of the following is an irrational number?",
+      "as": "তলৰ কোনটো এটা অপৰিমেয় সংখ্যা?"
+    },
+    "options": [
+      { "en": "5/7", "as": "5/7" },
+      { "en": "√9", "as": "√9" },
+      { "en": "√7", "as": "√7" },
+      { "en": "0.75", "as": "0.75" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "√7 is irrational, while √9 = 3 and 5/7, 0.75 are rational.",
+      "as": "√7 অপৰিমেয়, আনহাতে √9 = 3 আৰু 5/7, 0.75 পৰিমেয়।"
+    }
+  },
+  {
+    "id": "number-system-003",
+    "q": {
+      "en": "Which of the following is a rational number?",
+      "as": "তলৰ কোনটো এটা পৰিমেয় সংখ্যা?"
+    },
+    "options": [
+      { "en": "√3", "as": "√3" },
+      { "en": "√16", "as": "√16" },
+      { "en": "√5", "as": "√5" },
+      { "en": "π", "as": "π" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "√16 = 4, which can be written as 4/1, so it is rational.",
+      "as": "√16 = 4, যাক 4/1 হিচাপে লিখিব পাৰি, গতিকে ই পৰিমেয়।"
+    }
+  },
+  {
+    "id": "number-system-004",
+    "q": {
+      "en": "Which of the following is an irrational number?",
+      "as": "তলৰ কোনটো এটা অপৰিমেয় সংখ্যা?"
+    },
+    "options": [
+      { "en": "√25", "as": "√25" },
+      { "en": "0.333...", "as": "0.333..." },
+      { "en": "2/3", "as": "2/3" },
+      { "en": "√11", "as": "√11" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "√11 is irrational, while √25 = 5 and 0.333..., 2/3 are rational.",
+      "as": "√11 অপৰিমেয়, আনহাতে √25 = 5 আৰু 0.333..., 2/3 পৰিমেয়।"
+    }
+  },
+  {
+    "id": "number-system-005",
+    "q": {
+      "en": "The smallest natural number is —",
+      "as": "আটাইতকৈ সৰু স্বাভাৱিক সংখ্যা —"
+    },
+    "options": [
+      { "en": "0", "as": "০" },
+      { "en": "1", "as": "১" },
+      { "en": "−1", "as": "−১" },
+      { "en": "2", "as": "২" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Natural numbers start from 1, so the smallest natural number is 1.",
+      "as": "স্বাভাৱিক সংখ্যা 1 ৰ পৰা আৰম্ভ হয়, গতিকে আটাইতকৈ সৰু স্বাভাৱিক সংখ্যা 1।"
+    }
+  },
+  {
+    "id": "number-system-006",
+    "q": {
+      "en": "The smallest whole number is —",
+      "as": "আটাইতকৈ সৰু পূৰ্ণ সংখ্যা —"
+    },
+    "options": [
+      { "en": "0", "as": "০" },
+      { "en": "1", "as": "১" },
+      { "en": "2", "as": "২" },
+      { "en": "−1", "as": "−১" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Whole numbers start from 0, so the smallest whole number is 0.",
+      "as": "পূৰ্ণ সংখ্যা 0 ৰ পৰা আৰম্ভ হয়, গতিকে আটাইতকৈ সৰু পূৰ্ণ সংখ্যা 0।"
+    }
+  },
+  {
+    "id": "number-system-007",
+    "q": {
+      "en": "Which of the following is NOT a natural number?",
+      "as": "তলৰ কোনটো স্বাভাৱিক সংখ্যা নহয়?"
+    },
+    "options": [
+      { "en": "1", "as": "১" },
+      { "en": "5", "as": "৫" },
+      { "en": "0", "as": "০" },
+      { "en": "100", "as": "১০০" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Natural numbers are 1, 2, 3, ...; 0 is not a natural number.",
+      "as": "স্বাভাৱিক সংখ্যা 1, 2, 3, ...; 0 স্বাভাৱিক সংখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "number-system-008",
+    "q": {
+      "en": "Every natural number is also a —",
+      "as": "প্ৰতিটো স্বাভাৱিক সংখ্যা লগতে এটা —"
+    },
+    "options": [
+      { "en": "negative number", "as": "ঋণাত্মক সংখ্যা" },
+      { "en": "fraction", "as": "ভগ্নাংশ" },
+      { "en": "irrational number", "as": "অপৰিমেয় সংখ্যা" },
+      { "en": "whole number", "as": "পূৰ্ণ সংখ্যা" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Every natural number is also a whole number.",
+      "as": "প্ৰতিটো স্বাভাৱিক সংখ্যা লগতে এটা পূৰ্ণ সংখ্যা।"
+    }
+  },
+  {
+    "id": "number-system-009",
+    "q": {
+      "en": "Which of the following is a prime number?",
+      "as": "তলৰ কোনটো এটা মৌলিক সংখ্যা?"
+    },
+    "options": [
+      { "en": "9", "as": "৯" },
+      { "en": "15", "as": "১৫" },
+      { "en": "17", "as": "১৭" },
+      { "en": "21", "as": "২১" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "17 has only two factors, 1 and 17, so it is prime.",
+      "as": "17 ৰ কেৱল দুটা উৎপাদক 1 আৰু 17, গতিকে ই মৌলিক।"
+    }
+  },
+  {
+    "id": "number-system-010",
+    "q": {
+      "en": "Which of the following is a composite number?",
+      "as": "তলৰ কোনটো এটা যৌগিক সংখ্যা?"
+    },
+    "options": [
+      { "en": "7", "as": "৭" },
+      { "en": "11", "as": "১১" },
+      { "en": "13", "as": "১৩" },
+      { "en": "15", "as": "১৫" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "15 = 3 × 5, so it has more than two factors and is composite.",
+      "as": "15 = 3 × 5, গতিকে ইয়াৰ দুটাতকৈ বেছি উৎপাদক আছে আৰু ই যৌগিক।"
+    }
+  },
+  {
+    "id": "number-system-011",
+    "q": {
+      "en": "How many prime numbers are there between 1 and 20?",
+      "as": "1 আৰু 20 ৰ মাজত কিমানটা মৌলিক সংখ্যা আছে?"
+    },
+    "options": [
+      { "en": "7", "as": "৭" },
+      { "en": "8", "as": "৮" },
+      { "en": "9", "as": "৯" },
+      { "en": "10", "as": "১০" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Primes between 1 and 20 are 2, 3, 5, 7, 11, 13, 17, 19 = 8 numbers.",
+      "as": "1 আৰু 20 ৰ মাজৰ মৌলিক সংখ্যা 2, 3, 5, 7, 11, 13, 17, 19 = 8 টা।"
+    }
+  },
+  {
+    "id": "number-system-012",
+    "q": {
+      "en": "The smallest prime number is —",
+      "as": "আটাইতকৈ সৰু মৌলিক সংখ্যা —"
+    },
+    "options": [
+      { "en": "2", "as": "২" },
+      { "en": "1", "as": "১" },
+      { "en": "3", "as": "৩" },
+      { "en": "0", "as": "০" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "2 is the smallest prime number.",
+      "as": "2 আটাইতকৈ সৰু মৌলিক সংখ্যা।"
+    }
+  },
+  {
+    "id": "number-system-013",
+    "q": {
+      "en": "The smallest composite number is —",
+      "as": "আটাইতকৈ সৰু যৌগিক সংখ্যা —"
+    },
+    "options": [
+      { "en": "1", "as": "১" },
+      { "en": "2", "as": "২" },
+      { "en": "4", "as": "৪" },
+      { "en": "6", "as": "৬" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "4 = 2 × 2 is the smallest composite number.",
+      "as": "4 = 2 × 2 আটাইতকৈ সৰু যৌগিক সংখ্যা।"
+    }
+  },
+  {
+    "id": "number-system-014",
+    "q": {
+      "en": "Which of the following is neither prime nor composite?",
+      "as": "তলৰ কোনটো মৌলিকো নহয় যৌগিকো নহয়?"
+    },
+    "options": [
+      { "en": "1", "as": "১" },
+      { "en": "2", "as": "২" },
+      { "en": "4", "as": "৪" },
+      { "en": "9", "as": "৯" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "1 has only one factor (itself), so it is neither prime nor composite.",
+      "as": "1 ৰ কেৱল এটা উৎপাদক (নিজেই), গতিকে ই মৌলিকো নহয় যৌগিকো নহয়।"
+    }
+  },
+  {
+    "id": "number-system-015",
+    "q": {
+      "en": "Which is the only even prime number?",
+      "as": "একমাত্ৰ যুগ্ম মৌলিক সংখ্যা কোনটো?"
+    },
+    "options": [
+      { "en": "4", "as": "৪" },
+      { "en": "2", "as": "২" },
+      { "en": "6", "as": "৬" },
+      { "en": "8", "as": "৮" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2 is the only even prime number.",
+      "as": "2 একমাত্ৰ যুগ্ম মৌলিক সংখ্যা।"
+    }
+  },
+  {
+    "id": "number-system-016",
+    "q": {
+      "en": "Which of the following is an odd number?",
+      "as": "তলৰ কোনটো এটা অযুগ্ম সংখ্যা?"
+    },
+    "options": [
+      { "en": "12", "as": "১২" },
+      { "en": "18", "as": "১৮" },
+      { "en": "26", "as": "২৬" },
+      { "en": "21", "as": "২১" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "21 is not divisible by 2, so it is an odd number.",
+      "as": "21 ক 2 ৰে ভাগ কৰিব নোৱাৰি, গতিকে ই এটা অযুগ্ম সংখ্যা।"
+    }
+  },
+  {
+    "id": "number-system-017",
+    "q": {
+      "en": "The sum of two odd numbers is always —",
+      "as": "দুটা অযুগ্ম সংখ্যাৰ সমষ্টি সদায় —"
+    },
+    "options": [
+      { "en": "odd", "as": "অযুগ্ম" },
+      { "en": "even", "as": "যুগ্ম" },
+      { "en": "prime", "as": "মৌলিক" },
+      { "en": "zero", "as": "শূন্য" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Example: 3 + 5 = 8, which is even. So the sum of two odd numbers is always even.",
+      "as": "উদাহৰণ: 3 + 5 = 8, যি যুগ্ম। গতিকে দুটা অযুগ্ম সংখ্যাৰ সমষ্টি সদায় যুগ্ম।"
+    }
+  },
+  {
+    "id": "number-system-018",
+    "q": {
+      "en": "The product of two even numbers is always —",
+      "as": "দুটা যুগ্ম সংখ্যাৰ গুণফল সদায় —"
+    },
+    "options": [
+      { "en": "odd", "as": "অযুগ্ম" },
+      { "en": "prime", "as": "মৌলিক" },
+      { "en": "even", "as": "যুগ্ম" },
+      { "en": "1", "as": "১" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Example: 2 × 4 = 8, which is even. So the product of two even numbers is always even.",
+      "as": "উদাহৰণ: 2 × 4 = 8, যি যুগ্ম। গতিকে দুটা যুগ্ম সংখ্যাৰ গুণফল সদায় যুগ্ম।"
+    }
+  },
+  {
+    "id": "number-system-019",
+    "q": {
+      "en": "How many even numbers are there from 1 to 20?",
+      "as": "1 ৰ পৰা 20 লৈ কিমানটা যুগ্ম সংখ্যা আছে?"
+    },
+    "options": [
+      { "en": "10", "as": "১০" },
+      { "en": "9", "as": "৯" },
+      { "en": "11", "as": "১১" },
+      { "en": "12", "as": "১২" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Even numbers are 2, 4, 6, ..., 20, so there are 10 even numbers.",
+      "as": "যুগ্ম সংখ্যা 2, 4, 6, ..., 20, গতিকে মুঠ 10 টা যুগ্ম সংখ্যা আছে।"
+    }
+  },
+  {
+    "id": "number-system-020",
+    "q": {
+      "en": "The place value of 7 in 5724 is —",
+      "as": "5724 ত 7 ৰ স্থানীয় মান —"
+    },
+    "options": [
+      { "en": "7", "as": "৭" },
+      { "en": "70", "as": "৭০" },
+      { "en": "700", "as": "৭০০" },
+      { "en": "7000", "as": "৭০০০" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "7 is in the hundreds place, so its place value = 700.",
+      "as": "7 শতক স্থানত আছে, গতিকে ইয়াৰ স্থানীয় মান = 700।"
+    }
+  },
+  {
+    "id": "number-system-021",
+    "q": {
+      "en": "The face value of 8 in 3846 is —",
+      "as": "3846 ত 8 ৰ অভিহিত মান —"
+    },
+    "options": [
+      { "en": "8", "as": "৮" },
+      { "en": "80", "as": "৮০" },
+      { "en": "800", "as": "৮০০" },
+      { "en": "8000", "as": "৮০০০" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The face value of a digit is the digit itself, so it is 8.",
+      "as": "এটা অংকৰ অভিহিত মান সেয়াই, গতিকে ই 8।"
+    }
+  },
+  {
+    "id": "number-system-022",
+    "q": {
+      "en": "The place value of 5 in 1532 is —",
+      "as": "1532 ত 5 ৰ স্থানীয় মান —"
+    },
+    "options": [
+      { "en": "5", "as": "৫" },
+      { "en": "50", "as": "৫০" },
+      { "en": "5000", "as": "৫০০০" },
+      { "en": "500", "as": "৫০০" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "5 is in the hundreds place, so its place value = 500.",
+      "as": "5 শতক স্থানত আছে, গতিকে ইয়াৰ স্থানীয় মান = 500।"
+    }
+  },
+  {
+    "id": "number-system-023",
+    "q": {
+      "en": "The place value of 3 in 23456 is —",
+      "as": "23456 ত 3 ৰ স্থানীয় মান —"
+    },
+    "options": [
+      { "en": "300", "as": "৩০০" },
+      { "en": "3000", "as": "৩০০০" },
+      { "en": "3", "as": "৩" },
+      { "en": "30", "as": "৩০" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "3 is in the thousands place, so its place value = 3000.",
+      "as": "3 হাজাৰ স্থানত আছে, গতিকে ইয়াৰ স্থানীয় মান = 3000।"
+    }
+  },
+  {
+    "id": "number-system-024",
+    "q": {
+      "en": "Which of the following numbers is divisible by 2?",
+      "as": "তলৰ কোনটো সংখ্যা 2 ৰে বিভাজ্য?"
+    },
+    "options": [
+      { "en": "123", "as": "১২৩" },
+      { "en": "345", "as": "৩৪৫" },
+      { "en": "457", "as": "৪৫৭" },
+      { "en": "368", "as": "৩৬৮" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "368 ends with 8 (an even digit), so it is divisible by 2.",
+      "as": "368 ৰ শেষ অংক 8 (যুগ্ম), গতিকে ই 2 ৰে বিভাজ্য।"
+    }
+  },
+  {
+    "id": "number-system-025",
+    "q": {
+      "en": "Which of the following numbers is divisible by 3?",
+      "as": "তলৰ কোনটো সংখ্যা 3 ৰে বিভাজ্য?"
+    },
+    "options": [
+      { "en": "124", "as": "১২৪" },
+      { "en": "234", "as": "২৩৪" },
+      { "en": "341", "as": "৩৪১" },
+      { "en": "452", "as": "৪৫২" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "For 234: 2 + 3 + 4 = 9, which is divisible by 3.",
+      "as": "234 ৰ ক্ষেত্ৰত: 2 + 3 + 4 = 9, যি 3 ৰে বিভাজ্য।"
+    }
+  },
+  {
+    "id": "number-system-026",
+    "q": {
+      "en": "Which of the following numbers is divisible by 5?",
+      "as": "তলৰ কোনটো সংখ্যা 5 ৰে বিভাজ্য?"
+    },
+    "options": [
+      { "en": "122", "as": "১২২" },
+      { "en": "342", "as": "৩৪২" },
+      { "en": "235", "as": "২৩৫" },
+      { "en": "413", "as": "৪১৩" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "235 ends with 5, so it is divisible by 5.",
+      "as": "235 ৰ শেষ অংক 5, গতিকে ই 5 ৰে বিভাজ্য।"
+    }
+  },
+  {
+    "id": "number-system-027",
+    "q": {
+      "en": "Which of the following numbers is divisible by 9?",
+      "as": "তলৰ কোনটো সংখ্যা 9 ৰে বিভাজ্য?"
+    },
+    "options": [
+      { "en": "125", "as": "১২৫" },
+      { "en": "236", "as": "২৩৬" },
+      { "en": "348", "as": "৩৪৮" },
+      { "en": "531", "as": "৫৩১" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "For 531: 5 + 3 + 1 = 9, which is divisible by 9.",
+      "as": "531 ৰ ক্ষেত্ৰত: 5 + 3 + 1 = 9, যি 9 ৰে বিভাজ্য।"
+    }
+  },
+  {
+    "id": "number-system-028",
+    "q": {
+      "en": "Which of the following numbers is divisible by 10?",
+      "as": "তলৰ কোনটো সংখ্যা 10 ৰে বিভাজ্য?"
+    },
+    "options": [
+      { "en": "150", "as": "১৫০" },
+      { "en": "105", "as": "১০৫" },
+      { "en": "115", "as": "১১৫" },
+      { "en": "125", "as": "১২৫" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "150 ends with 0, so it is divisible by 10.",
+      "as": "150 ৰ শেষ অংক 0, গতিকে ই 10 ৰে বিভাজ্য।"
+    }
+  },
+  {
+    "id": "number-system-029",
+    "q": {
+      "en": "Which of the following numbers is divisible by 4?",
+      "as": "তলৰ কোনটো সংখ্যা 4 ৰে বিভাজ্য?"
+    },
+    "options": [
+      { "en": "126", "as": "১২৬" },
+      { "en": "138", "as": "১৩৮" },
+      { "en": "144", "as": "১৪৪" },
+      { "en": "150", "as": "১৫০" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "144 = 4 × 36, so it is divisible by 4.",
+      "as": "144 = 4 × 36, গতিকে ই 4 ৰে বিভাজ্য।"
+    }
+  },
+  {
+    "id": "number-system-030",
+    "q": {
+      "en": "The number of factors of 12 is —",
+      "as": "12 ৰ উৎপাদকৰ সংখ্যা —"
+    },
+    "options": [
+      { "en": "4", "as": "৪" },
+      { "en": "6", "as": "৬" },
+      { "en": "5", "as": "৫" },
+      { "en": "8", "as": "৮" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Factors of 12 are 1, 2, 3, 4, 6, 12, so there are 6 factors.",
+      "as": "12 ৰ উৎপাদক 1, 2, 3, 4, 6, 12, গতিকে 6 টা উৎপাদক আছে।"
+    }
+  },
+  {
+    "id": "number-system-031",
+    "q": {
+      "en": "The number of factors of 24 is —",
+      "as": "24 ৰ উৎপাদকৰ সংখ্যা —"
+    },
+    "options": [
+      { "en": "8", "as": "৮" },
+      { "en": "6", "as": "৬" },
+      { "en": "10", "as": "১০" },
+      { "en": "12", "as": "১২" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Factors of 24 are 1, 2, 3, 4, 6, 8, 12, 24, so there are 8 factors.",
+      "as": "24 ৰ উৎপাদক 1, 2, 3, 4, 6, 8, 12, 24, গতিকে 8 টা উৎপাদক আছে।"
+    }
+  },
+  {
+    "id": "number-system-032",
+    "q": {
+      "en": "The sum of the factors of 6 is —",
+      "as": "6 ৰ উৎপাদকবোৰৰ সমষ্টি —"
+    },
+    "options": [
+      { "en": "10", "as": "১০" },
+      { "en": "11", "as": "১১" },
+      { "en": "12", "as": "১২" },
+      { "en": "13", "as": "১৩" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "1 + 2 + 3 + 6 = 12.",
+      "as": "1 + 2 + 3 + 6 = 12।"
+    }
+  },
+  {
+    "id": "number-system-033",
+    "q": {
+      "en": "Which of the following is a factor of 36?",
+      "as": "তলৰ কোনটো 36 ৰ এটা উৎপাদক?"
+    },
+    "options": [
+      { "en": "5", "as": "৫" },
+      { "en": "7", "as": "৭" },
+      { "en": "8", "as": "৮" },
+      { "en": "9", "as": "৯" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "36 = 9 × 4, so 9 is a factor of 36.",
+      "as": "36 = 9 × 4, গতিকে 9, 36 ৰ এটা উৎপাদক।"
+    }
+  },
+  {
+    "id": "number-system-034",
+    "q": {
+      "en": "The sum of the first 10 natural numbers is —",
+      "as": "প্ৰথম 10 টা স্বাভাৱিক সংখ্যাৰ সমষ্টি —"
+    },
+    "options": [
+      { "en": "45", "as": "৪৫" },
+      { "en": "55", "as": "৫৫" },
+      { "en": "50", "as": "৫০" },
+      { "en": "60", "as": "৬০" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = n(n + 1) / 2 = 10 × 11 / 2 = 55.",
+      "as": "সমষ্টি = n(n + 1) / 2 = 10 × 11 / 2 = 55।"
+    }
+  },
+  {
+    "id": "number-system-035",
+    "q": {
+      "en": "The sum of the first 5 odd numbers is —",
+      "as": "প্ৰথম 5 টা অযুগ্ম সংখ্যাৰ সমষ্টি —"
+    },
+    "options": [
+      { "en": "20", "as": "২০" },
+      { "en": "30", "as": "৩০" },
+      { "en": "15", "as": "১৫" },
+      { "en": "25", "as": "২৫" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "1 + 3 + 5 + 7 + 9 = 25.",
+      "as": "1 + 3 + 5 + 7 + 9 = 25।"
+    }
+  },
+  {
+    "id": "number-system-036",
+    "q": {
+      "en": "The sum of the first 5 even numbers is —",
+      "as": "প্ৰথম 5 টা যুগ্ম সংখ্যাৰ সমষ্টি —"
+    },
+    "options": [
+      { "en": "20", "as": "২০" },
+      { "en": "25", "as": "২৫" },
+      { "en": "30", "as": "৩০" },
+      { "en": "35", "as": "৩৫" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "2 + 4 + 6 + 8 + 10 = 30.",
+      "as": "2 + 4 + 6 + 8 + 10 = 30।"
+    }
+  },
+  {
+    "id": "number-system-037",
+    "q": {
+      "en": "The Roman numeral for 50 is —",
+      "as": "50 ৰ ৰোমান সংখ্যা —"
+    },
+    "options": [
+      { "en": "L", "as": "L" },
+      { "en": "V", "as": "V" },
+      { "en": "X", "as": "X" },
+      { "en": "C", "as": "C" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "50 is written as L in Roman numerals.",
+      "as": "ৰোমান সংখ্যাত 50 ক L হিচাপে লিখা হয়।"
+    }
+  },
+  {
+    "id": "number-system-038",
+    "q": {
+      "en": "The Roman numeral XIV represents —",
+      "as": "ৰোমান সংখ্যা XIV য়ে সূচায় —"
+    },
+    "options": [
+      { "en": "16", "as": "১৬" },
+      { "en": "14", "as": "১৪" },
+      { "en": "4", "as": "৪" },
+      { "en": "24", "as": "২৪" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "X = 10 and IV = 4, so XIV = 14.",
+      "as": "X = 10 আৰু IV = 4, গতিকে XIV = 14।"
+    }
+  },
+  {
+    "id": "number-system-039",
+    "q": {
+      "en": "The Roman numeral for 90 is —",
+      "as": "90 ৰ ৰোমান সংখ্যা —"
+    },
+    "options": [
+      { "en": "LX", "as": "LX" },
+      { "en": "CX", "as": "CX" },
+      { "en": "XC", "as": "XC" },
+      { "en": "IC", "as": "IC" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "90 = 100 − 10 = XC.",
+      "as": "90 = 100 − 10 = XC।"
+    }
+  },
+  {
+    "id": "number-system-040",
+    "q": {
+      "en": "The successor of 999 is —",
+      "as": "999 ৰ পৰৱৰ্তী সংখ্যা —"
+    },
+    "options": [
+      { "en": "998", "as": "৯৯৮" },
+      { "en": "999", "as": "৯৯৯" },
+      { "en": "1001", "as": "১০০১" },
+      { "en": "1000", "as": "১০০০" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Successor = 999 + 1 = 1000.",
+      "as": "পৰৱৰ্তী সংখ্যা = 999 + 1 = 1000।"
+    }
+  },
+  {
+    "id": "number-system-041",
+    "q": {
+      "en": "The predecessor of 1000 is —",
+      "as": "1000 ৰ পূৰ্বৱৰ্তী সংখ্যা —"
+    },
+    "options": [
+      { "en": "999", "as": "৯৯৯" },
+      { "en": "998", "as": "৯৯৮" },
+      { "en": "1000", "as": "১০০০" },
+      { "en": "1001", "as": "১০০১" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Predecessor = 1000 − 1 = 999.",
+      "as": "পূৰ্বৱৰ্তী সংখ্যা = 1000 − 1 = 999।"
+    }
+  },
+  {
+    "id": "number-system-042",
+    "q": {
+      "en": "The value of √144 is —",
+      "as": "√144 ৰ মান —"
+    },
+    "options": [
+      { "en": "11", "as": "১১" },
+      { "en": "12", "as": "১২" },
+      { "en": "13", "as": "১৩" },
+      { "en": "14", "as": "১৪" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "12 × 12 = 144, so √144 = 12.",
+      "as": "12 × 12 = 144, গতিকে √144 = 12।"
+    }
+  },
+  {
+    "id": "number-system-043",
+    "q": {
+      "en": "The value of √169 is —",
+      "as": "√169 ৰ মান —"
+    },
+    "options": [
+      { "en": "12", "as": "১২" },
+      { "en": "14", "as": "১৪" },
+      { "en": "13", "as": "১৩" },
+      { "en": "15", "as": "১৫" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "13 × 13 = 169, so √169 = 13.",
+      "as": "13 × 13 = 169, গতিকে √169 = 13।"
+    }
+  },
+  {
+    "id": "number-system-044",
+    "q": {
+      "en": "The value of ∛27 is —",
+      "as": "∛27 ৰ মান —"
+    },
+    "options": [
+      { "en": "2", "as": "২" },
+      { "en": "6", "as": "৬" },
+      { "en": "9", "as": "৯" },
+      { "en": "3", "as": "৩" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "3 × 3 × 3 = 27, so ∛27 = 3.",
+      "as": "3 × 3 × 3 = 27, গতিকে ∛27 = 3।"
+    }
+  },
+  {
+    "id": "number-system-045",
+    "q": {
+      "en": "The value of √225 is —",
+      "as": "√225 ৰ মান —"
+    },
+    "options": [
+      { "en": "15", "as": "১৫" },
+      { "en": "12", "as": "১২" },
+      { "en": "13", "as": "১৩" },
+      { "en": "14", "as": "১৪" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "15 × 15 = 225, so √225 = 15.",
+      "as": "15 × 15 = 225, গতিকে √225 = 15।"
+    }
+  },
+  {
+    "id": "number-system-046",
+    "q": {
+      "en": "Which of the following fractions is the largest?",
+      "as": "তলৰ কোনটো ভগ্নাংশ আটাইতকৈ ডাঙৰ?"
+    },
+    "options": [
+      { "en": "1/2", "as": "1/2" },
+      { "en": "4/5", "as": "4/5" },
+      { "en": "2/3", "as": "2/3" },
+      { "en": "3/4", "as": "3/4" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "4/5 = 0.8, which is the largest.",
+      "as": "4/5 = 0.8, যি আটাইতকৈ ডাঙৰ।"
+    }
+  },
+  {
+    "id": "number-system-047",
+    "q": {
+      "en": "Which of the following fractions is the smallest?",
+      "as": "তলৰ কোনটো ভগ্নাংশ আটাইতকৈ সৰু?"
+    },
+    "options": [
+      { "en": "1/2", "as": "1/2" },
+      { "en": "1/3", "as": "1/3" },
+      { "en": "1/5", "as": "1/5" },
+      { "en": "1/4", "as": "1/4" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "1/5 = 0.2, which is the smallest.",
+      "as": "1/5 = 0.2, যি আটাইতকৈ সৰু।"
+    }
+  },
+  {
+    "id": "number-system-048",
+    "q": {
+      "en": "Which of the following decimals is the largest?",
+      "as": "তলৰ কোনটো দশমিক আটাইতকৈ ডাঙৰ?"
+    },
+    "options": [
+      { "en": "0.3", "as": "0.3" },
+      { "en": "0.25", "as": "0.25" },
+      { "en": "0.15", "as": "0.15" },
+      { "en": "0.5", "as": "0.5" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "0.5 is the largest among the given decimals.",
+      "as": "দিয়া দশমিকবোৰৰ ভিতৰত 0.5 আটাইতকৈ ডাঙৰ।"
+    }
+  },
+  {
+    "id": "number-system-049",
+    "q": {
+      "en": "The fraction form of 0.5 is —",
+      "as": "0.5 ৰ ভগ্নাংশ ৰূপ —"
+    },
+    "options": [
+      { "en": "1/2", "as": "1/2" },
+      { "en": "1/5", "as": "1/5" },
+      { "en": "2/5", "as": "2/5" },
+      { "en": "5/2", "as": "5/2" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "0.5 = 5/10 = 1/2.",
+      "as": "0.5 = 5/10 = 1/2।"
+    }
+  },
+  {
+    "id": "number-system-050",
+    "q": {
+      "en": "The decimal form of 3/4 is —",
+      "as": "3/4 ৰ দশমিক ৰূপ —"
+    },
+    "options": [
+      { "en": "0.25", "as": "0.25" },
+      { "en": "0.75", "as": "0.75" },
+      { "en": "0.5", "as": "0.5" },
+      { "en": "1.25", "as": "1.25" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "3/4 = 0.75.",
+      "as": "3/4 = 0.75।"
+    }
+  },
+  {
+    "id": "number-system-051",
+    "q": {
+      "en": "The absolute value of −7 is —",
+      "as": "−7 ৰ পৰম মান —"
+    },
+    "options": [
+      { "en": "−7", "as": "−7" },
+      { "en": "0", "as": "0" },
+      { "en": "7", "as": "7" },
+      { "en": "14", "as": "14" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "|−7| = 7.",
+      "as": "|−7| = 7।"
+    }
+  },
+  {
+    "id": "number-system-052",
+    "q": {
+      "en": "Which number is greater, −3 or −5?",
+      "as": "কোনটো সংখ্যা ডাঙৰ, −3 নে −5?"
+    },
+    "options": [
+      { "en": "−5", "as": "−5" },
+      { "en": "both are equal", "as": "দুটাই সমান" },
+      { "en": "cannot be determined", "as": "নিৰ্ণয় কৰিব নোৱাৰি" },
+      { "en": "−3", "as": "−3" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "On the number line, −3 is to the right of −5, so −3 > −5.",
+      "as": "সংখ্যাৰেখাত −3, −5 ৰ সোঁফালে আছে, গতিকে −3 > −5।"
+    }
+  },
+  {
+    "id": "number-system-053",
+    "q": {
+      "en": "The number of digits in 1000 is —",
+      "as": "1000 ত থকা অংকৰ সংখ্যা —"
+    },
+    "options": [
+      { "en": "4", "as": "৪" },
+      { "en": "3", "as": "৩" },
+      { "en": "5", "as": "৫" },
+      { "en": "2", "as": "২" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "1000 has four digits.",
+      "as": "1000 ত চাৰিটা অংক আছে।"
+    }
+  },
+  {
+    "id": "number-system-054",
+    "q": {
+      "en": "The smallest 3-digit number is —",
+      "as": "আটাইতকৈ সৰু 3-অংকৰ সংখ্যা —"
+    },
+    "options": [
+      { "en": "99", "as": "৯৯" },
+      { "en": "100", "as": "১০০" },
+      { "en": "101", "as": "১০১" },
+      { "en": "999", "as": "৯৯৯" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The smallest 3-digit number is 100.",
+      "as": "আটাইতকৈ সৰু 3-অংকৰ সংখ্যা 100।"
+    }
+  },
+  {
+    "id": "number-system-055",
+    "q": {
+      "en": "The largest 4-digit number is —",
+      "as": "আটাইতকৈ ডাঙৰ 4-অংকৰ সংখ্যা —"
+    },
+    "options": [
+      { "en": "1000", "as": "১০০০" },
+      { "en": "9998", "as": "৯৯৯৮" },
+      { "en": "9999", "as": "৯৯৯৯" },
+      { "en": "10000", "as": "১০০০০" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The largest 4-digit number is 9999.",
+      "as": "আটাইতকৈ ডাঙৰ 4-অংকৰ সংখ্যা 9999।"
+    }
+  },
+  {
+    "id": "number-system-056",
+    "q": {
+      "en": "The difference between the place value and the face value of 6 in 462 is —",
+      "as": "462 ত 6 ৰ স্থানীয় মান আৰু অভিহিত মানৰ পাৰ্থক্য —"
+    },
+    "options": [
+      { "en": "6", "as": "৬" },
+      { "en": "66", "as": "৬৬" },
+      { "en": "60", "as": "৬০" },
+      { "en": "54", "as": "৫৪" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Place value = 60, face value = 6, so difference = 60 − 6 = 54.",
+      "as": "স্থানীয় মান = 60, অভিহিত মান = 6, গতিকে পাৰ্থক্য = 60 − 6 = 54।"
+    }
+  },
+  {
+    "id": "number-system-057",
+    "q": {
+      "en": "Which of the following is a perfect square?",
+      "as": "তলৰ কোনটো এটা পূৰ্ণবৰ্গ?"
+    },
+    "options": [
+      { "en": "16", "as": "১৬" },
+      { "en": "12", "as": "১২" },
+      { "en": "15", "as": "১৫" },
+      { "en": "18", "as": "১৮" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "16 = 4 × 4, so it is a perfect square.",
+      "as": "16 = 4 × 4, গতিকে ই এটা পূৰ্ণবৰ্গ।"
+    }
+  },
+  {
+    "id": "number-system-058",
+    "q": {
+      "en": "Which of the following is a perfect cube?",
+      "as": "তলৰ কোনটো এটা পূৰ্ণঘন?"
+    },
+    "options": [
+      { "en": "16", "as": "১৬" },
+      { "en": "27", "as": "২৭" },
+      { "en": "24", "as": "২৪" },
+      { "en": "36", "as": "৩৬" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "27 = 3 × 3 × 3, so it is a perfect cube.",
+      "as": "27 = 3 × 3 × 3, গতিকে ই এটা পূৰ্ণঘন।"
+    }
   }
-}
+]
