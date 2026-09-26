@@ -1,30 +1,650 @@
-{
-  "id": "average-001",
-  "q": {
-    "en": "What is the average of 5, 10, 15, 20 and 25?",
-    "as": "5, 10, 15, 20 আৰু 25 ৰ গড় কিমান?"
-  },
-  "options": [
-    {
-      "en": "12",
-      "as": "১২"
+[
+  {
+    "id": "average-001",
+    "q": {
+      "en": "What is the average of 5, 10, 15, 20 and 25?",
+      "as": "5, 10, 15, 20 আৰু 25 ৰ গড় কিমান?"
     },
-    {
-      "en": "18",
-      "as": "১৮"
-    },
-    {
-      "en": "15",
-      "as": "১৫"
-    },
-    {
-      "en": "20",
-      "as": "২০"
+    "options": [
+      { "en": "12", "as": "১২" },
+      { "en": "18", "as": "১৮" },
+      { "en": "15", "as": "১৫" },
+      { "en": "20", "as": "২০" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 75; average = 75 / 5 = 15.",
+      "as": "সমষ্টি = 75; গড় = 75 / 5 = 15।"
     }
-  ],
-  "correct": 2,
-  "explanation": {
-    "en": "Sum = 75; average = 75 / 5 = 15.",
-    "as": "সমষ্টি = 75; গড় = 75 / 5 = 15।"
+  },
+  {
+    "id": "average-002",
+    "q": {
+      "en": "What is the average of 2, 4, 6, 8 and 10?",
+      "as": "2, 4, 6, 8 আৰু 10 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "5", "as": "৫" },
+      { "en": "6", "as": "৬" },
+      { "en": "7", "as": "৭" },
+      { "en": "8", "as": "৮" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = 30; average = 30 / 5 = 6.",
+      "as": "সমষ্টি = 30; গড় = 30 / 5 = 6।"
+    }
+  },
+  {
+    "id": "average-003",
+    "q": {
+      "en": "What is the average of the first 10 natural numbers?",
+      "as": "প্ৰথম 10 টা স্বাভাৱিক সংখ্যাৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "5", "as": "৫" },
+      { "en": "5.5", "as": "৫.৫" },
+      { "en": "6", "as": "৬" },
+      { "en": "6.5", "as": "৬.৫" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "First 10 natural numbers are 1 to 10; sum = 55; average = 55 / 10 = 5.5.",
+      "as": "প্ৰথম 10 টা স্বাভাৱিক সংখ্যা 1 ৰ পৰা 10 লৈ; সমষ্টি = 55; গড় = 55 / 10 = 5.5।"
+    }
+  },
+  {
+    "id": "average-004",
+    "q": {
+      "en": "What is the average of the first 5 even numbers?",
+      "as": "প্ৰথম 5 টা যুগ্ম সংখ্যাৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "4", "as": "৪" },
+      { "en": "5", "as": "৫" },
+      { "en": "6", "as": "৬" },
+      { "en": "7", "as": "৭" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "First 5 even numbers are 2, 4, 6, 8, 10; sum = 30; average = 30 / 5 = 6.",
+      "as": "প্ৰথম 5 টা যুগ্ম সংখ্যা 2, 4, 6, 8, 10; সমষ্টি = 30; গড় = 30 / 5 = 6।"
+    }
+  },
+  {
+    "id": "average-005",
+    "q": {
+      "en": "What is the average of 10, 20, 30 and 40?",
+      "as": "10, 20, 30 আৰু 40 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "20", "as": "২০" },
+      { "en": "25", "as": "২৫" },
+      { "en": "30", "as": "৩০" },
+      { "en": "35", "as": "৩৫" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = 100; average = 100 / 4 = 25.",
+      "as": "সমষ্টি = 100; গড় = 100 / 4 = 25।"
+    }
+  },
+  {
+    "id": "average-006",
+    "q": {
+      "en": "What is the average of 6, 12 and 18?",
+      "as": "6, 12 আৰু 18 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "10", "as": "১০" },
+      { "en": "11", "as": "১১" },
+      { "en": "12", "as": "১২" },
+      { "en": "13", "as": "১৩" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 36; average = 36 / 3 = 12.",
+      "as": "সমষ্টি = 36; গড় = 36 / 3 = 12।"
+    }
+  },
+  {
+    "id": "average-007",
+    "q": {
+      "en": "What is the average of 100, 200 and 300?",
+      "as": "100, 200 আৰু 300 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "150", "as": "১৫০" },
+      { "en": "200", "as": "২০০" },
+      { "en": "250", "as": "২৫০" },
+      { "en": "300", "as": "৩০০" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = 600; average = 600 / 3 = 200.",
+      "as": "সমষ্টি = 600; গড় = 600 / 3 = 200।"
+    }
+  },
+  {
+    "id": "average-008",
+    "q": {
+      "en": "What is the average of 3, 7, 11 and 15?",
+      "as": "3, 7, 11 আৰু 15 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "8", "as": "৮" },
+      { "en": "9", "as": "৯" },
+      { "en": "10", "as": "১০" },
+      { "en": "11", "as": "১১" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = 36; average = 36 / 4 = 9.",
+      "as": "সমষ্টি = 36; গড় = 36 / 4 = 9।"
+    }
+  },
+  {
+    "id": "average-009",
+    "q": {
+      "en": "What is the average of 25, 35, 45 and 55?",
+      "as": "25, 35, 45 আৰু 55 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "35", "as": "৩৫" },
+      { "en": "40", "as": "৪০" },
+      { "en": "45", "as": "৪৫" },
+      { "en": "50", "as": "৫০" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = 160; average = 160 / 4 = 40.",
+      "as": "সমষ্টি = 160; গড় = 160 / 4 = 40।"
+    }
+  },
+  {
+    "id": "average-010",
+    "q": {
+      "en": "If the average of 5 numbers is 20, what is their sum?",
+      "as": "যদি 5 টা সংখ্যাৰ গড় 20 হয়, তেন্তে সিহঁতৰ সমষ্টি কিমান?"
+    },
+    "options": [
+      { "en": "80", "as": "৮০" },
+      { "en": "100", "as": "১০০" },
+      { "en": "120", "as": "১২০" },
+      { "en": "150", "as": "১৫০" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = average x number of items = 20 x 5 = 100.",
+      "as": "সমষ্টি = গড় x সংখ্যাৰ সংখ্যা = 20 x 5 = 100।"
+    }
+  },
+  {
+    "id": "average-011",
+    "q": {
+      "en": "What is the average of 12, 15, 21 and 24?",
+      "as": "12, 15, 21 আৰু 24 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "16", "as": "১৬" },
+      { "en": "17", "as": "১৭" },
+      { "en": "18", "as": "১৮" },
+      { "en": "19", "as": "১৯" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 72; average = 72 / 4 = 18.",
+      "as": "সমষ্টি = 72; গড় = 72 / 4 = 18।"
+    }
+  },
+  {
+    "id": "average-012",
+    "q": {
+      "en": "What is the average of 1, 2, 3, 4, 5, 6, 7, 8 and 9?",
+      "as": "1, 2, 3, 4, 5, 6, 7, 8 আৰু 9 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "4", "as": "৪" },
+      { "en": "4.5", "as": "৪.৫" },
+      { "en": "5", "as": "৫" },
+      { "en": "5.5", "as": "৫.৫" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 45; average = 45 / 9 = 5.",
+      "as": "সমষ্টি = 45; গড় = 45 / 9 = 5।"
+    }
+  },
+  {
+    "id": "average-013",
+    "q": {
+      "en": "What is the average of 45, 55 and 65?",
+      "as": "45, 55 আৰু 65 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "50", "as": "৫০" },
+      { "en": "55", "as": "৫৫" },
+      { "en": "60", "as": "৬০" },
+      { "en": "65", "as": "৬৫" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = 165; average = 165 / 3 = 55.",
+      "as": "সমষ্টি = 165; গড় = 165 / 3 = 55।"
+    }
+  },
+  {
+    "id": "average-014",
+    "q": {
+      "en": "The ages of 4 boys are 10, 12, 14 and 16 years. What is their average age?",
+      "as": "4 জন ল'ৰাৰ বয়স 10, 12, 14 আৰু 16 বছৰ। সিহঁতৰ গড় বয়স কিমান?"
+    },
+    "options": [
+      { "en": "12 years", "as": "12 বছৰ" },
+      { "en": "13 years", "as": "13 বছৰ" },
+      { "en": "14 years", "as": "14 বছৰ" },
+      { "en": "15 years", "as": "15 বছৰ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum of ages = 52; average = 52 / 4 = 13 years.",
+      "as": "বয়সৰ সমষ্টি = 52; গড় = 52 / 4 = 13 বছৰ।"
+    }
+  },
+  {
+    "id": "average-015",
+    "q": {
+      "en": "What is the average of 7, 14 and 21?",
+      "as": "7, 14 আৰু 21 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "12", "as": "১২" },
+      { "en": "13", "as": "১৩" },
+      { "en": "14", "as": "১৪" },
+      { "en": "15", "as": "১৫" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 42; average = 42 / 3 = 14.",
+      "as": "সমষ্টি = 42; গড় = 42 / 3 = 14।"
+    }
+  },
+  {
+    "id": "average-016",
+    "q": {
+      "en": "What is the average of 50, 60, 70, 80 and 90?",
+      "as": "50, 60, 70, 80 আৰু 90 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "60", "as": "৬০" },
+      { "en": "65", "as": "৬৫" },
+      { "en": "70", "as": "৭০" },
+      { "en": "75", "as": "৭৫" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 350; average = 350 / 5 = 70.",
+      "as": "সমষ্টি = 350; গড় = 350 / 5 = 70।"
+    }
+  },
+  {
+    "id": "average-017",
+    "q": {
+      "en": "What is the average of 11, 22 and 33?",
+      "as": "11, 22 আৰু 33 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "20", "as": "২০" },
+      { "en": "21", "as": "২১" },
+      { "en": "22", "as": "২২" },
+      { "en": "23", "as": "২৩" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 66; average = 66 / 3 = 22.",
+      "as": "সমষ্টি = 66; গড় = 66 / 3 = 22।"
+    }
+  },
+  {
+    "id": "average-018",
+    "q": {
+      "en": "If the average of 8 numbers is 15, what is their sum?",
+      "as": "যদি 8 টা সংখ্যাৰ গড় 15 হয়, তেন্তে সিহঁতৰ সমষ্টি কিমান?"
+    },
+    "options": [
+      { "en": "100", "as": "১০০" },
+      { "en": "110", "as": "১১০" },
+      { "en": "120", "as": "১২০" },
+      { "en": "130", "as": "১৩০" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = average x number of items = 15 x 8 = 120.",
+      "as": "সমষ্টি = গড় x সংখ্যাৰ সংখ্যা = 15 x 8 = 120।"
+    }
+  },
+  {
+    "id": "average-019",
+    "q": {
+      "en": "What is the average of 2, 4, 8 and 16?",
+      "as": "2, 4, 8 আৰু 16 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "6", "as": "৬" },
+      { "en": "7", "as": "৭" },
+      { "en": "7.5", "as": "৭.৫" },
+      { "en": "8", "as": "৮" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 30; average = 30 / 4 = 7.5.",
+      "as": "সমষ্টি = 30; গড় = 30 / 4 = 7.5।"
+    }
+  },
+  {
+    "id": "average-020",
+    "q": {
+      "en": "What is the average of 30, 40, 50 and 60?",
+      "as": "30, 40, 50 আৰু 60 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "40", "as": "৪০" },
+      { "en": "42", "as": "৪২" },
+      { "en": "45", "as": "৪৫" },
+      { "en": "48", "as": "৪৮" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 180; average = 180 / 4 = 45.",
+      "as": "সমষ্টি = 180; গড় = 180 / 4 = 45।"
+    }
+  },
+  {
+    "id": "average-021",
+    "q": {
+      "en": "What is the average of 3, 4, 5, 6 and 7?",
+      "as": "3, 4, 5, 6 আৰু 7 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "4", "as": "৪" },
+      { "en": "5", "as": "৫" },
+      { "en": "6", "as": "৬" },
+      { "en": "7", "as": "৭" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = 25; average = 25 / 5 = 5.",
+      "as": "সমষ্টি = 25; গড় = 25 / 5 = 5।"
+    }
+  },
+  {
+    "id": "average-022",
+    "q": {
+      "en": "What is the average of 90, 100, 110, 120 and 130?",
+      "as": "90, 100, 110, 120 আৰু 130 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "100", "as": "১০০" },
+      { "en": "105", "as": "১০৫" },
+      { "en": "110", "as": "১১০" },
+      { "en": "115", "as": "১১৫" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 550; average = 550 / 5 = 110.",
+      "as": "সমষ্টি = 550; গড় = 550 / 5 = 110।"
+    }
+  },
+  {
+    "id": "average-023",
+    "q": {
+      "en": "What is the average of 5, 15, 25 and 35?",
+      "as": "5, 15, 25 আৰু 35 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "15", "as": "১৫" },
+      { "en": "20", "as": "২০" },
+      { "en": "25", "as": "২৫" },
+      { "en": "30", "as": "৩০" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = 80; average = 80 / 4 = 20.",
+      "as": "সমষ্টি = 80; গড় = 80 / 4 = 20।"
+    }
+  },
+  {
+    "id": "average-024",
+    "q": {
+      "en": "What is the average of 4, 9, 11 and 16?",
+      "as": "4, 9, 11 আৰু 16 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "9", "as": "৯" },
+      { "en": "10", "as": "১০" },
+      { "en": "11", "as": "১১" },
+      { "en": "12", "as": "১২" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = 40; average = 40 / 4 = 10.",
+      "as": "সমষ্টি = 40; গড় = 40 / 4 = 10।"
+    }
+  },
+  {
+    "id": "average-025",
+    "q": {
+      "en": "The sum of some numbers is 150 and their average is 25. How many numbers are there?",
+      "as": "কিছুমান সংখ্যাৰ সমষ্টি 150 আৰু সিহঁতৰ গড় 25। কিমানটা সংখ্যা আছে?"
+    },
+    "options": [
+      { "en": "5", "as": "৫" },
+      { "en": "6", "as": "৬" },
+      { "en": "7", "as": "৭" },
+      { "en": "8", "as": "৮" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Number of items = sum / average = 150 / 25 = 6.",
+      "as": "সংখ্যাৰ সংখ্যা = সমষ্টি / গড় = 150 / 25 = 6।"
+    }
+  },
+  {
+    "id": "average-026",
+    "q": {
+      "en": "What is the average of 18, 20, 22 and 24?",
+      "as": "18, 20, 22 আৰু 24 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "20", "as": "২০" },
+      { "en": "21", "as": "২১" },
+      { "en": "22", "as": "২২" },
+      { "en": "23", "as": "২৩" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = 84; average = 84 / 4 = 21.",
+      "as": "সমষ্টি = 84; গড় = 84 / 4 = 21।"
+    }
+  },
+  {
+    "id": "average-027",
+    "q": {
+      "en": "What is the average of the first 20 natural numbers?",
+      "as": "প্ৰথম 20 টা স্বাভাৱিক সংখ্যাৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "10", "as": "১০" },
+      { "en": "10.5", "as": "১০.৫" },
+      { "en": "11", "as": "১১" },
+      { "en": "11.5", "as": "১১.৫" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum of 1 to 20 = 210; average = 210 / 20 = 10.5.",
+      "as": "1 ৰ পৰা 20 লৈ সমষ্টি = 210; গড় = 210 / 20 = 10.5।"
+    }
+  },
+  {
+    "id": "average-028",
+    "q": {
+      "en": "What is the average of 150, 250 and 350?",
+      "as": "150, 250 আৰু 350 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "200", "as": "২০০" },
+      { "en": "225", "as": "২২৫" },
+      { "en": "250", "as": "২৫০" },
+      { "en": "275", "as": "২৭৫" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 750; average = 750 / 3 = 250.",
+      "as": "সমষ্টি = 750; গড় = 750 / 3 = 250।"
+    }
+  },
+  {
+    "id": "average-029",
+    "q": {
+      "en": "What is the average of 8, 12, 16, 20 and 24?",
+      "as": "8, 12, 16, 20 আৰু 24 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "14", "as": "১৪" },
+      { "en": "15", "as": "১৫" },
+      { "en": "16", "as": "১৬" },
+      { "en": "17", "as": "১৭" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 80; average = 80 / 5 = 16.",
+      "as": "সমষ্টি = 80; গড় = 80 / 5 = 16।"
+    }
+  },
+  {
+    "id": "average-030",
+    "q": {
+      "en": "What is the average of 60, 70, 80 and 90?",
+      "as": "60, 70, 80 আৰু 90 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "70", "as": "৭০" },
+      { "en": "72", "as": "৭২" },
+      { "en": "75", "as": "৭৫" },
+      { "en": "78", "as": "৭৮" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 300; average = 300 / 4 = 75.",
+      "as": "সমষ্টি = 300; গড় = 300 / 4 = 75।"
+    }
+  },
+  {
+    "id": "average-031",
+    "q": {
+      "en": "The ages of 5 friends are 15, 16, 17, 18 and 19 years. What is their average age?",
+      "as": "5 জন বন্ধুৰ বয়স 15, 16, 17, 18 আৰু 19 বছৰ। সিহঁতৰ গড় বয়স কিমান?"
+    },
+    "options": [
+      { "en": "16 years", "as": "16 বছৰ" },
+      { "en": "17 years", "as": "17 বছৰ" },
+      { "en": "18 years", "as": "18 বছৰ" },
+      { "en": "19 years", "as": "19 বছৰ" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum of ages = 85; average = 85 / 5 = 17 years.",
+      "as": "বয়সৰ সমষ্টি = 85; গড় = 85 / 5 = 17 বছৰ।"
+    }
+  },
+  {
+    "id": "average-032",
+    "q": {
+      "en": "What is the average of 1, 3, 5, 7 and 9?",
+      "as": "1, 3, 5, 7 আৰু 9 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "4", "as": "৪" },
+      { "en": "5", "as": "৫" },
+      { "en": "6", "as": "৬" },
+      { "en": "7", "as": "৭" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = 25; average = 25 / 5 = 5.",
+      "as": "সমষ্টি = 25; গড় = 25 / 5 = 5।"
+    }
+  },
+  {
+    "id": "average-033",
+    "q": {
+      "en": "What is the average of 14, 28, 42 and 56?",
+      "as": "14, 28, 42 আৰু 56 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "28", "as": "২৮" },
+      { "en": "32", "as": "৩২" },
+      { "en": "35", "as": "৩৫" },
+      { "en": "42", "as": "৪২" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 140; average = 140 / 4 = 35.",
+      "as": "সমষ্টি = 140; গড় = 140 / 4 = 35।"
+    }
+  },
+  {
+    "id": "average-034",
+    "q": {
+      "en": "What is the average of 12, 24, 36 and 48?",
+      "as": "12, 24, 36 আৰু 48 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "24", "as": "২৪" },
+      { "en": "28", "as": "২৮" },
+      { "en": "30", "as": "৩০" },
+      { "en": "36", "as": "৩৬" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 120; average = 120 / 4 = 30.",
+      "as": "সমষ্টি = 120; গড় = 120 / 4 = 30।"
+    }
+  },
+  {
+    "id": "average-035",
+    "q": {
+      "en": "The marks obtained by a student in 4 subjects are 60, 70, 80 and 90. What is the average mark?",
+      "as": "এজন ছাত্ৰই 4 টা বিষয়ত পোৱা নম্বৰ হ'ল 60, 70, 80 আৰু 90। গড় নম্বৰ কিমান?"
+    },
+    "options": [
+      { "en": "70", "as": "৭০" },
+      { "en": "75", "as": "৭৫" },
+      { "en": "80", "as": "৮০" },
+      { "en": "85", "as": "৮৫" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum of marks = 300; average = 300 / 4 = 75.",
+      "as": "নম্বৰৰ সমষ্টি = 300; গড় = 300 / 4 = 75।"
+    }
+  },
+  {
+    "id": "average-036",
+    "q": {
+      "en": "What is the average of 9, 18, 27, 36 and 45?",
+      "as": "9, 18, 27, 36 আৰু 45 ৰ গড় কিমান?"
+    },
+    "options": [
+      { "en": "24", "as": "২৪" },
+      { "en": "25", "as": "২৫" },
+      { "en": "27", "as": "২৭" },
+      { "en": "30", "as": "৩০" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 135; average = 135 / 5 = 27.",
+      "as": "সমষ্টি = 135; গড় = 135 / 5 = 27।"
+    }
   }
-}
+]
