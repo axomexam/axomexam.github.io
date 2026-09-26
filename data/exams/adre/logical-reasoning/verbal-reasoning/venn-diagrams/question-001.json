@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "venn-diagrams-001",
+    "q": {
+      "en": "In a class of 40 students, 25 play football, 20 play cricket and 10 play both. How many play neither game?",
+      "as": "৪০ জন ছাত্ৰৰ এটা শ্ৰেণীত ২৫ জনে ফুটবল, ২০ জনে ক্ৰিকেট আৰু ১০ জনে দুয়োটা খেলে। কিমানজনে কোনো খেল নেখেলে?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "n(F ∪ C) = 25 + 20 − 10 = 35; neither = 40 − 35 = 5.",
+      "as": "n(F ∪ C) = ২৫ + ২০ − ১০ = ৩৫; কোনো নেখেলে = ৪০ − ৩৫ = ৫।"
+    }
+  },
+  {
+    "id": "venn-diagrams-002",
+    "q": {
+      "en": "In a class of 50 students, 30 play football, 25 play cricket and 15 play both. How many play neither game?",
+      "as": "৫০ জন ছাত্ৰৰ এটা শ্ৰেণীত ৩০ জনে ফুটবল, ২৫ জনে ক্ৰিকেট আৰু ১৫ জনে দুয়োটা খেলে। কিমানজনে কোনো খেল নেখেলে?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "n(F ∪ C) = 30 + 25 − 15 = 40; neither = 50 − 40 = 10.",
+      "as": "n(F ∪ C) = ৩০ + ২৫ − ১৫ = ৪০; কোনো নেখেলে = ৫০ − ৪০ = ১০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-003",
+    "q": {
+      "en": "In a group of 60 people, 35 like tea, 30 like coffee and 20 like both. How many like at least one drink?",
+      "as": "৬০ জনৰ এটা দলত ৩৫ জনে চাহ, ৩০ জনে কফি আৰু ২০ জনে দুয়োটা ভাল পায়। কিমানজনে অন্ততঃ এটা পানীয় ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "n(T ∪ C) = 35 + 30 − 20 = 45.",
+      "as": "n(T ∪ C) = ৩৫ + ৩০ − ২০ = ৪৫।"
+    }
+  },
+  {
+    "id": "venn-diagrams-004",
+    "q": {
+      "en": "In a survey of 100 people, 60 read newspaper A, 50 read newspaper B and 30 read both. How many read only A?",
+      "as": "১০০ জনৰ এটা সমীক্ষাত ৬০ জনে A বাতৰি কাকত, ৫০ জনে B বাতৰি কাকত আৰু ৩০ জনে দুয়োটা পঢ়ে। কিমানজনে কেৱল A পঢ়ে?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only A = 60 − 30 = 30.",
+      "as": "কেৱল A = ৬০ − ৩০ = ৩০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-005",
+    "q": {
+      "en": "In a class of 40 students, 22 like mathematics, 18 like science and 8 like both. How many like neither subject?",
+      "as": "৪০ জন ছাত্ৰৰ এটা শ্ৰেণীত ২২ জনে গণিত, ১৮ জনে বিজ্ঞান আৰু ৮ জনে দুয়োটা ভাল পায়। কিমানজনে কোনো বিষয়েই ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "n(M ∪ S) = 22 + 18 − 8 = 32; neither = 40 − 32 = 8.",
+      "as": "n(M ∪ S) = ২২ + ১৮ − ৮ = ৩২; কোনো নাপায় = ৪০ − ৩২ = ৮।"
+    }
+  },
+  {
+    "id": "venn-diagrams-006",
+    "q": {
+      "en": "In a group of 80 people, 45 speak Hindi, 40 speak English and 25 speak both. How many speak only English?",
+      "as": "৮০ জনৰ এটা দলত ৪৫ জনে হিন্দী, ৪০ জনে ইংৰাজী আৰু ২৫ জনে দুয়োটা কয়। কিমানজনে কেৱল ইংৰাজী কয়?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only English = 40 − 25 = 15.",
+      "as": "কেৱল ইংৰাজী = ৪০ − ২৫ = ১৫।"
+    }
+  },
+  {
+    "id": "venn-diagrams-007",
+    "q": {
+      "en": "Among 120 people, 70 like apples, 60 like bananas and 40 like both. How many like neither fruit?",
+      "as": "১২০ জনৰ ভিতৰত ৭০ জনে আপেল, ৬০ জনে কল আৰু ৪০ জনে দুয়োটা ভাল পায়। কিমানজনে কোনো ফলেই ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "n(A ∪ B) = 70 + 60 − 40 = 90; neither = 120 − 90 = 30.",
+      "as": "n(A ∪ B) = ৭০ + ৬০ − ৪০ = ৯০; কোনো নাপায় = ১২০ − ৯০ = ৩০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-008",
+    "q": {
+      "en": "In a group of 50 children, 30 like chocolate, 25 like vanilla and 15 like both. How many like exactly one flavour?",
+      "as": "৫০ জন শিশুৰ এটা দলত ৩০ জনে চকলেট, ২৫ জনে ভেনিলা আৰু ১৫ জনে দুয়োটা ভাল পায়। কিমানজনে কেৱল এটা সোৱাদ ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Exactly one = 30 + 25 − 2×15 = 25.",
+      "as": "কেৱল এটা = ৩০ + ২৫ − ২×১৫ = ২৫।"
+    }
+  },
+  {
+    "id": "venn-diagrams-009",
+    "q": {
+      "en": "In a class of 45 students, 28 play chess, 22 play carrom and 12 play both. How many play neither game?",
+      "as": "৪৫ জন ছাত্ৰৰ এটা শ্ৰেণীত ২৮ জনে দবা, ২২ জনে কেৰাম আৰু ১২ জনে দুয়োটা খেলে। কিমানজনে কোনো খেল নেখেলে?"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "n(C ∪ K) = 28 + 22 − 12 = 38; neither = 45 − 38 = 7.",
+      "as": "n(C ∪ K) = ২৮ + ২২ − ১২ = ৩৮; কোনো নেখেলে = ৪৫ − ৩৮ = ৭।"
+    }
+  },
+  {
+    "id": "venn-diagrams-010",
+    "q": {
+      "en": "In a class of 90 students, 50 passed mathematics, 45 passed English and 30 passed both. How many passed only one subject?",
+      "as": "৯০ জন ছাত্ৰৰ এটা শ্ৰেণীত ৫০ জনে গণিতত, ৪৫ জনে ইংৰাজীত উত্তীৰ্ণ আৰু ৩০ জনে দুয়োটাতে উত্তীৰ্ণ। কিমানজনে কেৱল এটা বিষয়ত উত্তীৰ্ণ?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only one = 50 + 45 − 2×30 = 35.",
+      "as": "কেৱল এটা = ৫০ + ৪৫ − ২×৩০ = ৩৫।"
+    }
+  },
+  {
+    "id": "venn-diagrams-011",
+    "q": {
+      "en": "Among 70 persons, 40 like tea, 35 like coffee and 15 like both. How many like neither?",
+      "as": "৭০ জন ব্যক্তিৰ ভিতৰত ৪০ জনে চাহ, ৩৫ জনে কফি আৰু ১৫ জনে দুয়োটা ভাল পায়। কিমানজনে দুয়োটাৰে এটাও ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "n(T ∪ C) = 40 + 35 − 15 = 60; neither = 70 − 60 = 10.",
+      "as": "n(T ∪ C) = ৪০ + ৩৫ − ১৫ = ৬০; কোনো নাপায় = ৭০ − ৬০ = ১০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-012",
+    "q": {
+      "en": "In a club of 100 members, 65 play tennis, 45 play badminton and 25 play both. How many play only tennis?",
+      "as": "১০০ জন সদস্যৰ এটা ক্লাবত ৬৫ জনে টেনিছ, ৪৫ জনে বেডমিণ্টন আৰু ২৫ জনে দুয়োটা খেলে। কিমানজনে কেৱল টেনিছ খেলে?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only tennis = 65 − 25 = 40.",
+      "as": "কেৱল টেনিছ = ৬৫ − ২৫ = ৪০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-013",
+    "q": {
+      "en": "In a class of 55 students, 33 like English, 27 like Hindi and 17 like both. How many like neither language?",
+      "as": "৫৫ জন ছাত্ৰৰ এটা শ্ৰেণীত ৩৩ জনে ইংৰাজী, ২৭ জনে হিন্দী আৰু ১৭ জনে দুয়োটা ভাল পায়। কিমানজনে কোনো ভাষাই ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "n(E ∪ H) = 33 + 27 − 17 = 43; neither = 55 − 43 = 12.",
+      "as": "n(E ∪ H) = ৩৩ + ২৭ − ১৭ = ৪৩; কোনো নাপায় = ৫৫ − ৪৩ = ১২।"
+    }
+  },
+  {
+    "id": "venn-diagrams-014",
+    "q": {
+      "en": "Among 200 people, 120 read magazine X, 90 read magazine Y and 60 read both. How many read only Y?",
+      "as": "২০০ জনৰ ভিতৰত ১২০ জনে X আলোচনী, ৯০ জনে Y আলোচনী আৰু ৬০ জনে দুয়োটা পঢ়ে। কিমানজনে কেৱল Y পঢ়ে?"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only Y = 90 − 60 = 30.",
+      "as": "কেৱল Y = ৯০ − ৬০ = ৩০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-015",
+    "q": {
+      "en": "In a class of 36 students, 20 like cricket, 16 like hockey and 8 like both. How many like at least one game?",
+      "as": "৩৬ জন ছাত্ৰৰ এটা শ্ৰেণীত ২০ জনে ক্ৰিকেট, ১৬ জনে হকী আৰু ৮ জনে দুয়োটা ভাল পায়। কিমানজনে অন্ততঃ এটা খেল ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "n(C ∪ H) = 20 + 16 − 8 = 28.",
+      "as": "n(C ∪ H) = ২০ + ১৬ − ৮ = ২৮।"
+    }
+  },
+  {
+    "id": "venn-diagrams-016",
+    "q": {
+      "en": "Among 48 people, 30 eat rice, 26 eat roti and 18 eat both. How many eat neither?",
+      "as": "৪৮ জনৰ ভিতৰত ৩০ জনে ভাত, ২৬ জনে ৰুটি আৰু ১৮ জনে দুয়োটা খায়। কিমানজনে দুয়োটাৰে এটাও নেখায়?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "n(R ∪ T) = 30 + 26 − 18 = 38; neither = 48 − 38 = 10.",
+      "as": "n(R ∪ T) = ৩০ + ২৬ − ১৮ = ৩৮; নেখায় = ৪৮ − ৩৮ = ১০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-017",
+    "q": {
+      "en": "In a class of 75 students, 40 study French, 35 study German and 20 study both. How many study exactly one language?",
+      "as": "৭৫ জন ছাত্ৰৰ এটা শ্ৰেণীত ৪০ জনে ফৰাচী, ৩৫ জনে জাৰ্মান আৰু ২০ জনে দুয়োটা অধ্যয়ন কৰে। কিমানজনে কেৱল এটা ভাষা অধ্যয়ন কৰে?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Exactly one = 40 + 35 − 2×20 = 35.",
+      "as": "কেৱল এটা = ৪০ + ৩৫ − ২×২০ = ৩৫।"
+    }
+  },
+  {
+    "id": "venn-diagrams-018",
+    "q": {
+      "en": "Among 60 people, 35 like milk, 30 like tea and 15 like both. How many like neither drink?",
+      "as": "৬০ জনৰ ভিতৰত ৩৫ জনে গাখীৰ, ৩০ জনে চাহ আৰু ১৫ জনে দুয়োটা ভাল পায়। কিমানজনে দুয়োটাৰে এটাও ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "n(M ∪ T) = 35 + 30 − 15 = 50; neither = 60 − 50 = 10.",
+      "as": "n(M ∪ T) = ৩৫ + ৩০ − ১৫ = ৫০; কোনো নাপায় = ৬০ − ৫০ = ১০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-019",
+    "q": {
+      "en": "In a class of 42 students, 24 play football, 20 play basketball and 12 play both. How many play only football?",
+      "as": "৪২ জন ছাত্ৰৰ এটা শ্ৰেণীত ২৪ জনে ফুটবল, ২০ জনে বাস্কেটবল আৰু ১২ জনে দুয়োটা খেলে। কিমানজনে কেৱল ফুটবল খেলে?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only football = 24 − 12 = 12.",
+      "as": "কেৱল ফুটবল = ২৪ − ১২ = ১২।"
+    }
+  },
+  {
+    "id": "venn-diagrams-020",
+    "q": {
+      "en": "Among 150 people, 85 like coffee, 75 like tea and 50 like both. How many like neither?",
+      "as": "১৫০ জনৰ ভিতৰত ৮৫ জনে কফি, ৭৫ জনে চাহ আৰু ৫০ জনে দুয়োটা ভাল পায়। কিমানজনে দুয়োটাৰে এটাও ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "n(C ∪ T) = 85 + 75 − 50 = 110; neither = 150 − 110 = 40.",
+      "as": "n(C ∪ T) = ৮৫ + ৭৫ − ৫০ = ১১০; কোনো নাপায় = ১৫০ − ১১০ = ৪০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-021",
+    "q": {
+      "en": "In a class of 64 students, 40 like mathematics, 36 like physics and 24 like both. How many like exactly one subject?",
+      "as": "৬৪ জন ছাত্ৰৰ এটা শ্ৰেণীত ৪০ জনে গণিত, ৩৬ জনে পদাৰ্থ বিজ্ঞান আৰু ২৪ জনে দুয়োটা ভাল পায়। কিমানজনে কেৱল এটা বিষয় ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Exactly one = 40 + 36 − 2×24 = 28.",
+      "as": "কেৱল এটা = ৪০ + ৩৬ − ২×২৪ = ২৮।"
+    }
+  },
+  {
+    "id": "venn-diagrams-022",
+    "q": {
+      "en": "Among 90 persons, 55 like red, 45 like blue and 25 like both. How many like only blue?",
+      "as": "৯০ জন ব্যক্তিৰ ভিতৰত ৫৫ জনে ৰঙা, ৪৫ জনে নীলা আৰু ২৫ জনে দুয়োটা ভাল পায়। কিমানজনে কেৱল নীলা ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only blue = 45 − 25 = 20.",
+      "as": "কেৱল নীলা = ৪৫ − ২৫ = ২০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-023",
+    "q": {
+      "en": "In a class of 80 students, 45 passed in mathematics, 40 passed in science and 20 passed in both. How many passed in at least one subject?",
+      "as": "৮০ জন ছাত্ৰৰ এটা শ্ৰেণীত ৪৫ জনে গণিতত, ৪০ জনে বিজ্ঞানত আৰু ২০ জনে দুয়োটাতে উত্তীৰ্ণ। কিমানজনে অন্ততঃ এটা বিষয়ত উত্তীৰ্ণ?"
+    },
+    "options": [
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "n(M ∪ S) = 45 + 40 − 20 = 65.",
+      "as": "n(M ∪ S) = ৪৫ + ৪০ − ২০ = ৬৫।"
+    }
+  },
+  {
+    "id": "venn-diagrams-024",
+    "q": {
+      "en": "Among 100 people, 60 speak Tamil, 45 speak Telugu and 25 speak both. How many speak neither language?",
+      "as": "১০০ জনৰ ভিতৰত ৬০ জনে তামিল, ৪৫ জনে তেলেগু আৰু ২৫ জনে দুয়োটা কয়। কিমানজনে কোনো ভাষাই নকয়?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "n(T ∪ Te) = 60 + 45 − 25 = 80; neither = 100 − 80 = 20.",
+      "as": "n(T ∪ Te) = ৬০ + ৪৫ − ২৫ = ৮০; কোনো নকয় = ১০০ − ৮০ = ২০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-025",
+    "q": {
+      "en": "In a class of 30 students, 18 like tea, 15 like coffee and 10 like both. How many like only tea?",
+      "as": "৩০ জন ছাত্ৰৰ এটা শ্ৰেণীত ১৮ জনে চাহ, ১৫ জনে কফি আৰু ১০ জনে দুয়োটা ভাল পায়। কিমানজনে কেৱল চাহ ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only tea = 18 − 10 = 8.",
+      "as": "কেৱল চাহ = ১৮ − ১০ = ৮।"
+    }
+  },
+  {
+    "id": "venn-diagrams-026",
+    "q": {
+      "en": "In a class of 120 students, 70 like singing, 55 like dancing and 35 like both. How many like exactly one activity?",
+      "as": "১২০ জন ছাত্ৰৰ এটা শ্ৰেণীত ৭০ জনে গান গোৱা, ৫৫ জনে নৃত্য আৰু ৩৫ জনে দুয়োটা ভাল পায়। কিমানজনে কেৱল এটা কাৰ্যকলাপ ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Exactly one = 70 + 55 − 2×35 = 55.",
+      "as": "কেৱল এটা = ৭০ + ৫৫ − ২×৩৫ = ৫৫।"
+    }
+  },
+  {
+    "id": "venn-diagrams-027",
+    "q": {
+      "en": "Among 56 people, 32 like cricket, 30 like football and 18 like both. How many like neither game?",
+      "as": "৫৬ জনৰ ভিতৰত ৩২ জনে ক্ৰিকেট, ৩০ জনে ফুটবল আৰু ১৮ জনে দুয়োটা ভাল পায়। কিমানজনে কোনো খেলেই ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "n(C ∪ F) = 32 + 30 − 18 = 44; neither = 56 − 44 = 12.",
+      "as": "n(C ∪ F) = ৩২ + ৩০ − ১৮ = ৪৪; কোনো নাপায় = ৫৬ − ৪৪ = ১২।"
+    }
+  },
+  {
+    "id": "venn-diagrams-028",
+    "q": {
+      "en": "Among 200 students, 130 like mathematics, 110 like science and 80 like both. How many like only mathematics?",
+      "as": "২০০ জন ছাত্ৰৰ ভিতৰত ১৩০ জনে গণিত, ১১০ জনে বিজ্ঞান আৰু ৮০ জনে দুয়োটা ভাল পায়। কিমানজনে কেৱল গণিত ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only mathematics = 130 − 80 = 50.",
+      "as": "কেৱল গণিত = ১৩০ − ৮০ = ৫০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-029",
+    "q": {
+      "en": "Among 72 people, 45 like apples, 38 like oranges and 23 like both. How many like exactly one fruit?",
+      "as": "৭২ জনৰ ভিতৰত ৪৫ জনে আপেল, ৩৮ জনে কমলা আৰু ২৩ জনে দুয়োটা ভাল পায়। কিমানজনে কেৱল এটা ফল ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Exactly one = 45 + 38 − 2×23 = 37.",
+      "as": "কেৱল এটা = ৪৫ + ৩৮ − ২×২৩ = ৩৭।"
+    }
+  },
+  {
+    "id": "venn-diagrams-030",
+    "q": {
+      "en": "In a class of 84 students, 50 like English, 44 like Hindi and 28 like both. How many like neither language?",
+      "as": "৮৪ জন ছাত্ৰৰ এটা শ্ৰেণীত ৫০ জনে ইংৰাজী, ৪৪ জনে হিন্দী আৰু ২৮ জনে দুয়োটা ভাল পায়। কিমানজনে কোনো ভাষাই ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "n(E ∪ H) = 50 + 44 − 28 = 66; neither = 84 − 66 = 18.",
+      "as": "n(E ∪ H) = ৫০ + ৪৪ − ২৮ = ৬৬; কোনো নাপায় = ৮৪ − ৬৬ = ১৮।"
+    }
+  },
+  {
+    "id": "venn-diagrams-031",
+    "q": {
+      "en": "In a class of 60 students, 30 like tea, 25 like coffee, 20 like milk. 10 like tea and coffee, 8 like coffee and milk, 6 like tea and milk and 4 like all three. How many like at least one drink?",
+      "as": "৬০ জন ছাত্ৰৰ এটা শ্ৰেণীত ৩০ জনে চাহ, ২৫ জনে কফি, ২০ জনে গাখীৰ ভাল পায়। ১০ জনে চাহ আৰু কফি, ৮ জনে কফি আৰু গাখীৰ, ৬ জনে চাহ আৰু গাখীৰ আৰু ৪ জনে তিনিওটা ভাল পায়। কিমানজনে অন্ততঃ এটা পানীয় ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "n = 30 + 25 + 20 − 10 − 8 − 6 + 4 = 55.",
+      "as": "n = ৩০ + ২৫ + ২০ − ১০ − ৮ − ৬ + ৪ = ৫৫।"
+    }
+  },
+  {
+    "id": "venn-diagrams-032",
+    "q": {
+      "en": "In a class of 60 students, 30 like tea, 25 like coffee, 20 like milk. 10 like tea and coffee, 8 like coffee and milk, 6 like tea and milk and 4 like all three. How many like none of the three drinks?",
+      "as": "৬০ জন ছাত্ৰৰ এটা শ্ৰেণীত ৩০ জনে চাহ, ২৫ জনে কফি, ২০ জনে গাখীৰ ভাল পায়। ১০ জনে চাহ আৰু কফি, ৮ জনে কফি আৰু গাখীৰ, ৬ জনে চাহ আৰু গাখীৰ আৰু ৪ জনে তিনিওটা ভাল পায়। কিমানজনে তিনিওটাৰে এটাও ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Union = 55; none = 60 − 55 = 5.",
+      "as": "সংযোগ = ৫৫; এটাও নাপায় = ৬০ − ৫৫ = ৫।"
+    }
+  },
+  {
+    "id": "venn-diagrams-033",
+    "q": {
+      "en": "In a survey of 100 people, 50 read A, 40 read B, 30 read C. 20 read A and B, 15 read B and C, 10 read A and C and 5 read all three. How many read at least one newspaper?",
+      "as": "১০০ জনৰ এটা সমীক্ষাত ৫০ জনে A, ৪০ জনে B, ৩০ জনে C পঢ়ে। ২০ জনে A আৰু B, ১৫ জনে B আৰু C, ১০ জনে A আৰু C আৰু ৫ জনে তিনিওটা পঢ়ে। কিমানজনে অন্ততঃ এটা বাতৰি কাকত পঢ়ে?"
+    },
+    "options": [
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "85",
+        "as": "৮৫"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "n = 50 + 40 + 30 − 20 − 15 − 10 + 5 = 80.",
+      "as": "n = ৫০ + ৪০ + ৩০ − ২০ − ১৫ − ১০ + ৫ = ৮০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-034",
+    "q": {
+      "en": "In a survey of 100 people, 50 read A, 40 read B, 30 read C. 20 read A and B, 15 read B and C, 10 read A and C and 5 read all three. How many read none of the newspapers?",
+      "as": "১০০ জনৰ এটা সমীক্ষাত ৫০ জনে A, ৪০ জনে B, ৩০ জনে C পঢ়ে। ২০ জনে A আৰু B, ১৫ জনে B আৰু C, ১০ জনে A আৰু C আৰু ৫ জনে তিনিওটা পঢ়ে। কিমানজনে এটা বাতৰি কাকতো নপঢ়ে?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Union = 80; none = 100 − 80 = 20.",
+      "as": "সংযোগ = ৮০; এটাও নপঢ়ে = ১০০ − ৮০ = ২০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-035",
+    "q": {
+      "en": "Among 50 students, 25 play cricket, 20 play football, 18 play hockey. 10 play cricket and football, 8 play football and hockey, 6 play cricket and hockey and 4 play all three. How many play at least one game?",
+      "as": "৫০ জন ছাত্ৰৰ ভিতৰত ২৫ জনে ক্ৰিকেট, ২০ জনে ফুটবল, ১৮ জনে হকী খেলে। ১০ জনে ক্ৰিকেট আৰু ফুটবল, ৮ জনে ফুটবল আৰু হকী, ৬ জনে ক্ৰিকেট আৰু হকী আৰু ৪ জনে তিনিওটা খেলে। কিমানজনে অন্ততঃ এটা খেল খেলে?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "43",
+        "as": "৪৩"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "n = 25 + 20 + 18 − 10 − 8 − 6 + 4 = 43.",
+      "as": "n = ২৫ + ২০ + ১৮ − ১০ − ৮ − ৬ + ৪ = ৪৩।"
+    }
+  },
+  {
+    "id": "venn-diagrams-036",
+    "q": {
+      "en": "In a group of 80 people, 45 like tea, 40 like coffee, 35 like milk. 15 like tea and coffee, 12 like coffee and milk, 10 like tea and milk and 5 like all three. How many like exactly one drink?",
+      "as": "৮০ জনৰ এটা দলত ৪৫ জনে চাহ, ৪০ জনে কফি, ৩৫ জনে গাখীৰ ভাল পায়। ১৫ জনে চাহ আৰু কফি, ১২ জনে কফি আৰু গাখীৰ, ১০ জনে চাহ আৰু গাখীৰ আৰু ৫ জনে তিনিওটা ভাল পায়। কিমানজনে কেৱল এটা পানীয় ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "61",
+        "as": "৬১"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Exactly one = 120 − 2×37 + 3×5 = 61.",
+      "as": "কেৱল এটা = ১২০ − ২×৩৭ + ৩×৫ = ৬১।"
+    }
+  },
+  {
+    "id": "venn-diagrams-037",
+    "q": {
+      "en": "In a class of 100 students, 55 like A, 50 like B, 45 like C. 25 like A and B, 20 like B and C, 15 like A and C and 10 like all three. How many like exactly two subjects?",
+      "as": "১০০ জন ছাত্ৰৰ এটা শ্ৰেণীত ৫৫ জনে A, ৫০ জনে B, ৪৫ জনে C ভাল পায়। ২৫ জনে A আৰু B, ২০ জনে B আৰু C, ১৫ জনে A আৰু C আৰু ১০ জনে তিনিওটা ভাল পায়। কিমানজনে কেৱল দুটা বিষয় ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Exactly two = (25 + 20 + 15) − 3×10 = 30.",
+      "as": "কেৱল দুটা = (২৫ + ২০ + ১৫) − ৩×১০ = ৩০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-038",
+    "q": {
+      "en": "In a class of 100 students, 55 like A, 50 like B, 45 like C. 25 like A and B, 20 like B and C, 15 like A and C and 10 like all three. How many like exactly one subject?",
+      "as": "১০০ জন ছাত্ৰৰ এটা শ্ৰেণীত ৫৫ জনে A, ৫০ জনে B, ৪৫ জনে C ভাল পায়। ২৫ জনে A আৰু B, ২০ জনে B আৰু C, ১৫ জনে A আৰু C আৰু ১০ জনে তিনিওটা ভাল পায়। কিমানজনে কেৱল এটা বিষয় ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Exactly one = 150 − 2×60 + 3×10 = 60.",
+      "as": "কেৱল এটা = ১৫০ − ২×৬০ + ৩×১০ = ৬০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-039",
+    "q": {
+      "en": "In a class of 90 students, 50 like mathematics, 45 like physics, 40 like chemistry. 20 like mathematics and physics, 18 like physics and chemistry, 15 like mathematics and chemistry and 8 like all three. How many like at least two subjects?",
+      "as": "৯০ জন ছাত্ৰৰ এটা শ্ৰেণীত ৫০ জনে গণিত, ৪৫ জনে পদাৰ্থ বিজ্ঞান, ৪০ জনে ৰসায়ন বিজ্ঞান ভাল পায়। ২০ জনে গণিত আৰু পদাৰ্থ বিজ্ঞান, ১৮ জনে পদাৰ্থ বিজ্ঞান আৰু ৰসায়ন বিজ্ঞান, ১৫ জনে গণিত আৰু ৰসায়ন বিজ্ঞান আৰু ৮ জনে তিনিওটা ভাল পায়। কিমানজনে অন্ততঃ দুটা বিষয় ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "At least two = (20+18+15 − 3×8) + 8 = 37.",
+      "as": "অন্ততঃ দুটা = (২০+১৮+১৫ − ৩×৮) + ৮ = ৩৭।"
+    }
+  },
+  {
+    "id": "venn-diagrams-040",
+    "q": {
+      "en": "In a class of 90 students, 50 like mathematics, 45 like physics, 40 like chemistry. 20 like mathematics and physics, 18 like physics and chemistry, 15 like mathematics and chemistry and 8 like all three. How many like exactly one subject?",
+      "as": "৯০ জন ছাত্ৰৰ এটা শ্ৰেণীত ৫০ জনে গণিত, ৪৫ জনে পদাৰ্থ বিজ্ঞান, ৪০ জনে ৰসায়ন বিজ্ঞান ভাল পায়। ২০ জনে গণিত আৰু পদাৰ্থ বিজ্ঞান, ১৮ জনে পদাৰ্থ বিজ্ঞান আৰু ৰসায়ন বিজ্ঞান, ১৫ জনে গণিত আৰু ৰসায়ন বিজ্ঞান আৰু ৮ জনে তিনিওটা ভাল পায়। কিমানজনে কেৱল এটা বিষয় ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "53",
+        "as": "৫৩"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Exactly one = 135 − 2×53 + 3×8 = 53.",
+      "as": "কেৱল এটা = ১৩৫ − ২×৫৩ + ৩×৮ = ৫৩।"
+    }
+  },
+  {
+    "id": "venn-diagrams-041",
+    "q": {
+      "en": "In a group of 100 people, 60 like A, 50 like B, 40 like C. 25 like A and B, 20 like B and C, 15 like A and C and 8 like all three. How many like none?",
+      "as": "১০০ জনৰ এটা দলত ৬০ জনে A, ৫০ জনে B, ৪০ জনে C ভাল পায়। ২৫ জনে A আৰু B, ২০ জনে B আৰু C, ১৫ জনে A আৰু C আৰু ৮ জনে তিনিওটা ভাল পায়। কিমানজনে এটাও ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Union = 60 + 50 + 40 − 25 − 20 − 15 + 8 = 98; none = 100 − 98 = 2.",
+      "as": "সংযোগ = ৬০ + ৫০ + ৪০ − ২৫ − ২০ − ১৫ + ৮ = ৯৮; এটাও নাপায় = ১০০ − ৯৮ = ২।"
+    }
+  },
+  {
+    "id": "venn-diagrams-042",
+    "q": {
+      "en": "In a group of 100 people, 60 like A, 50 like B, 40 like C. 25 like A and B, 20 like B and C, 15 like A and C and 8 like all three. How many like exactly one?",
+      "as": "১০০ জনৰ এটা দলত ৬০ জনে A, ৫০ জনে B, ৪০ জনে C ভাল পায়। ২৫ জনে A আৰু B, ২০ জনে B আৰু C, ১৫ জনে A আৰু C আৰু ৮ জনে তিনিওটা ভাল পায়। কিমানজনে কেৱল এটা ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "58",
+        "as": "৫৮"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Exactly one = 150 − 2×60 + 3×8 = 54.",
+      "as": "কেৱল এটা = ১৫০ − ২×৬০ + ৩×৮ = ৫৪।"
+    }
+  },
+  {
+    "id": "venn-diagrams-043",
+    "q": {
+      "en": "In a class of 40 students, 20 play football, 18 play cricket, 15 play hockey. 8 play football and cricket, 7 play cricket and hockey, 6 play football and hockey and 3 play all three. How many play at least one game?",
+      "as": "৪০ জন ছাত্ৰৰ এটা শ্ৰেণীত ২০ জনে ফুটবল, ১৮ জনে ক্ৰিকেট, ১৫ জনে হকী খেলে। ৮ জনে ফুটবল আৰু ক্ৰিকেট, ৭ জনে ক্ৰিকেট আৰু হকী, ৬ জনে ফুটবল আৰু হকী আৰু ৩ জনে তিনিওটা খেলে। কিমানজনে অন্ততঃ এটা খেল খেলে?"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "n = 20 + 18 + 15 − 8 − 7 − 6 + 3 = 35.",
+      "as": "n = ২০ + ১৮ + ১৫ − ৮ − ৭ − ৬ + ৩ = ৩৫।"
+    }
+  },
+  {
+    "id": "venn-diagrams-044",
+    "q": {
+      "en": "In a class of 40 students, 20 play football, 18 play cricket, 15 play hockey. 8 play football and cricket, 7 play cricket and hockey, 6 play football and hockey and 3 play all three. How many play exactly two games?",
+      "as": "৪০ জন ছাত্ৰৰ এটা শ্ৰেণীত ২০ জনে ফুটবল, ১৮ জনে ক্ৰিকেট, ১৫ জনে হকী খেলে। ৮ জনে ফুটবল আৰু ক্ৰিকেট, ৭ জনে ক্ৰিকেট আৰু হকী, ৬ জনে ফুটবল আৰু হকী আৰু ৩ জনে তিনিওটা খেলে। কিমানজনে কেৱল দুটা খেল খেলে?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Exactly two = (8 + 7 + 6) − 3×3 = 12.",
+      "as": "কেৱল দুটা = (৮ + ৭ + ৬) − ৩×৩ = ১২।"
+    }
+  },
+  {
+    "id": "venn-diagrams-045",
+    "q": {
+      "en": "In a class of 70 students, 35 like tea, 30 like coffee, 25 like milk. 12 like tea and coffee, 10 like coffee and milk, 8 like tea and milk and 4 like all three. How many like none?",
+      "as": "৭০ জন ছাত্ৰৰ এটা শ্ৰেণীত ৩৫ জনে চাহ, ৩০ জনে কফি, ২৫ জনে গাখীৰ ভাল পায়। ১২ জনে চাহ আৰু কফি, ১০ জনে কফি আৰু গাখীৰ, ৮ জনে চাহ আৰু গাখীৰ আৰু ৪ জনে তিনিওটা ভাল পায়। কিমানজনে এটাও ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Union = 35 + 30 + 25 − 12 − 10 − 8 + 4 = 64; none = 70 − 64 = 6.",
+      "as": "সংযোগ = ৩৫ + ৩০ + ২৫ − ১২ − ১০ − ৮ + ৪ = ৬৪; এটাও নাপায় = ৭০ − ৬৪ = ৬।"
+    }
+  },
+  {
+    "id": "venn-diagrams-046",
+    "q": {
+      "en": "In a class of 70 students, 35 like tea, 30 like coffee, 25 like milk. 12 like tea and coffee, 10 like coffee and milk, 8 like tea and milk and 4 like all three. How many like exactly one drink?",
+      "as": "৭০ জন ছাত্ৰৰ এটা শ্ৰেণীত ৩৫ জনে চাহ, ৩০ জনে কফি, ২৫ জনে গাখীৰ ভাল পায়। ১২ জনে চাহ আৰু কফি, ১০ জনে কফি আৰু গাখীৰ, ৮ জনে চাহ আৰু গাখীৰ আৰু ৪ জনে তিনিওটা ভাল পায়। কিমানজনে কেৱল এটা পানীয় ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Exactly one = 90 − 2×30 + 3×4 = 42.",
+      "as": "কেৱল এটা = ৯০ − ২×৩০ + ৩×৪ = ৪২।"
+    }
+  },
+  {
+    "id": "venn-diagrams-047",
+    "q": {
+      "en": "Among 100 people, 55 like X, 45 like Y, 35 like Z. 20 like X and Y, 15 like Y and Z, 10 like X and Z and 5 like all three. How many like none?",
+      "as": "১০০ জনৰ ভিতৰত ৫৫ জনে X, ৪৫ জনে Y, ৩৫ জনে Z ভাল পায়। ২০ জনে X আৰু Y, ১৫ জনে Y আৰু Z, ১০ জনে X আৰু Z আৰু ৫ জনে তিনিওটা ভাল পায়। কিমানজনে এটাও ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Union = 55 + 45 + 35 − 20 − 15 − 10 + 5 = 95; none = 100 − 95 = 5.",
+      "as": "সংযোগ = ৫৫ + ৪৫ + ৩৫ − ২০ − ১৫ − ১০ + ৫ = ৯৫; এটাও নাপায় = ১০০ − ৯৫ = ৫।"
+    }
+  },
+  {
+    "id": "venn-diagrams-048",
+    "q": {
+      "en": "Among 100 people, 55 like X, 45 like Y, 35 like Z. 20 like X and Y, 15 like Y and Z, 10 like X and Z and 5 like all three. How many like exactly two?",
+      "as": "১০০ জনৰ ভিতৰত ৫৫ জনে X, ৪৫ জনে Y, ৩৫ জনে Z ভাল পায়। ২০ জনে X আৰু Y, ১৫ জনে Y আৰু Z, ১০ জনে X আৰু Z আৰু ৫ জনে তিনিওটা ভাল পায়। কিমানজনে কেৱল দুটা ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Exactly two = (20 + 15 + 10) − 3×5 = 30.",
+      "as": "কেৱল দুটা = (২০ + ১৫ + ১০) − ৩×৫ = ৩০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-049",
+    "q": {
+      "en": "In a class of 120 students, 70 like A, 65 like B, 60 like C. 35 like A and B, 30 like B and C, 25 like A and C and 15 like all three. How many like exactly one subject?",
+      "as": "১২০ জন ছাত্ৰৰ এটা শ্ৰেণীত ৭০ জনে A, ৬৫ জনে B, ৬০ জনে C ভাল পায়। ৩৫ জনে A আৰু B, ৩০ জনে B আৰু C, ২৫ জনে A আৰু C আৰু ১৫ জনে তিনিওটা ভাল পায়। কিমানজনে কেৱল এটা বিষয় ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Exactly one = 195 − 2×90 + 3×15 = 60.",
+      "as": "কেৱল এটা = ১৯৫ − ২×৯০ + ৩×১৫ = ৬০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-050",
+    "q": {
+      "en": "In a class of 120 students, 70 like A, 65 like B, 60 like C. 35 like A and B, 30 like B and C, 25 like A and C and 15 like all three. How many like all three subjects?",
+      "as": "১২০ জন ছাত্ৰৰ এটা শ্ৰেণীত ৭০ জনে A, ৬৫ জনে B, ৬০ জনে C ভাল পায়। ৩৫ জনে A আৰু B, ৩০ জনে B আৰু C, ২৫ জনে A আৰু C আৰু ১৫ জনে তিনিওটা ভাল পায়। কিমানজনে তিনিওটা বিষয় ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The number who like all three is given directly as 15.",
+      "as": "তিনিওটা ভাল পোৱা লোকৰ সংখ্যা পোনপটীয়াকৈ ১৫ দিয়া আছে।"
+    }
+  },
+  {
+    "id": "venn-diagrams-051",
+    "q": {
+      "en": "In a class of 36 students, 20 like tea, 18 like coffee and 8 like both. How many like neither drink?",
+      "as": "৩৬ জন ছাত্ৰৰ এটা শ্ৰেণীত ২০ জনে চাহ, ১৮ জনে কফি আৰু ৮ জনে দুয়োটা ভাল পায়। কিমানজনে দুয়োটাৰে এটাও ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "n(T ∪ C) = 20 + 18 − 8 = 30; neither = 36 − 30 = 6.",
+      "as": "n(T ∪ C) = ২০ + ১৮ − ৮ = ৩০; কোনো নাপায় = ৩৬ − ৩০ = ৬।"
+    }
+  },
+  {
+    "id": "venn-diagrams-052",
+    "q": {
+      "en": "Among 44 people, 26 like cricket, 22 like tennis and 14 like both. How many like only cricket?",
+      "as": "৪৪ জনৰ ভিতৰত ২৬ জনে ক্ৰিকেট, ২২ জনে টেনিছ আৰু ১৪ জনে দুয়োটা ভাল পায়। কিমানজনে কেৱল ক্ৰিকেট ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only cricket = 26 − 14 = 12.",
+      "as": "কেৱল ক্ৰিকেট = ২৬ − ১৪ = ১২।"
+    }
+  },
+  {
+    "id": "venn-diagrams-053",
+    "q": {
+      "en": "In a class of 52 students, 30 like English, 28 like Hindi and 16 like both. How many like neither language?",
+      "as": "৫২ জন ছাত্ৰৰ এটা শ্ৰেণীত ৩০ জনে ইংৰাজী, ২৮ জনে হিন্দী আৰু ১৬ জনে দুয়োটা ভাল পায়। কিমানজনে কোনো ভাষাই ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "n(E ∪ H) = 30 + 28 − 16 = 42; neither = 52 − 42 = 10.",
+      "as": "n(E ∪ H) = ৩০ + ২৮ − ১৬ = ৪২; কোনো নাপায় = ৫২ − ৪২ = ১০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-054",
+    "q": {
+      "en": "Among 66 people, 40 like orange, 35 like apple and 22 like both. How many like exactly one fruit?",
+      "as": "৬৬ জনৰ ভিতৰত ৪০ জনে কমলা, ৩৫ জনে আপেল আৰু ২২ জনে দুয়োটা ভাল পায়। কিমানজনে কেৱল এটা ফল ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Exactly one = 40 + 35 − 2×22 = 31.",
+      "as": "কেৱল এটা = ৪০ + ৩৫ − ২×২২ = ৩১।"
+    }
+  },
+  {
+    "id": "venn-diagrams-055",
+    "q": {
+      "en": "In a class of 96 students, 60 like mathematics, 55 like science and 35 like both. How many like neither subject?",
+      "as": "৯৬ জন ছাত্ৰৰ এটা শ্ৰেণীত ৬০ জনে গণিত, ৫৫ জনে বিজ্ঞান আৰু ৩৫ জনে দুয়োটা ভাল পায়। কিমানজনে কোনো বিষয়েই ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "n(M ∪ S) = 60 + 55 − 35 = 80; neither = 96 − 80 = 16.",
+      "as": "n(M ∪ S) = ৬০ + ৫৫ − ৩৫ = ৮০; কোনো নাপায় = ৯৬ − ৮০ = ১৬।"
+    }
+  },
+  {
+    "id": "venn-diagrams-056",
+    "q": {
+      "en": "Among 84 people, 50 like tea, 45 like coffee and 30 like both. How many like only tea?",
+      "as": "৮৪ জনৰ ভিতৰত ৫০ জনে চাহ, ৪৫ জনে কফি আৰু ৩০ জনে দুয়োটা ভাল পায়। কিমানজনে কেৱল চাহ ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only tea = 50 − 30 = 20.",
+      "as": "কেৱল চাহ = ৫০ − ৩০ = ২০।"
+    }
+  },
+  {
+    "id": "venn-diagrams-057",
+    "q": {
+      "en": "In a class of 58 students, 34 like cricket, 30 like football and 18 like both. How many like at least one game?",
+      "as": "৫৮ জন ছাত্ৰৰ এটা শ্ৰেণীত ৩৪ জনে ক্ৰিকেট, ৩০ জনে ফুটবল আৰু ১৮ জনে দুয়োটা ভাল পায়। কিমানজনে অন্ততঃ এটা খেল ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "46",
+        "as": "৪৬"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "n(C ∪ F) = 34 + 30 − 18 = 46.",
+      "as": "n(C ∪ F) = ৩৪ + ৩০ − ১৮ = ৪৬।"
+    }
+  },
+  {
+    "id": "venn-diagrams-058",
+    "q": {
+      "en": "Among 110 people, 65 like A, 60 like B and 40 like both. How many like neither?",
+      "as": "১১০ জনৰ ভিতৰত ৬৫ জনে A, ৬০ জনে B আৰু ৪০ জনে দুয়োটা ভাল পায়। কিমানজনে দুয়োটাৰে এটাও ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "n(A ∪ B) = 65 + 60 − 40 = 85; neither = 110 − 85 = 25.",
+      "as": "n(A ∪ B) = ৬৫ + ৬০ − ৪০ = ৮৫; কোনো নাপায় = ১১০ − ৮৫ = ২৫।"
+    }
+  },
+  {
+    "id": "venn-diagrams-059",
+    "q": {
+      "en": "In a class of 92 students, 55 like English, 50 like Hindi and 30 like both. How many like exactly one language?",
+      "as": "৯২ জন ছাত্ৰৰ এটা শ্ৰেণীত ৫৫ জনে ইংৰাজী, ৫০ জনে হিন্দী আৰু ৩০ জনে দুয়োটা ভাল পায়। কিমানজনে কেৱল এটা ভাষা ভাল পায়?"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Exactly one = 55 + 50 − 2×30 = 45.",
+      "as": "কেৱল এটা = ৫৫ + ৫০ − ২×৩০ = ৪৫।"
+    }
+  },
+  {
+    "id": "venn-diagrams-060",
+    "q": {
+      "en": "Among 76 people, 42 like milk, 38 like tea and 20 like both. How many like neither drink?",
+      "as": "৭৬ জনৰ ভিতৰত ৪২ জনে গাখীৰ, ৩৮ জনে চাহ আৰু ২০ জনে দুয়োটা ভাল পায়। কিমানজনে দুয়োটাৰে এটাও ভাল নাপায়?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "n(M ∪ T) = 42 + 38 − 20 = 60; neither = 76 − 60 = 16.",
+      "as": "n(M ∪ T) = ৪২ + ৩৮ − ২০ = ৬০; কোনো নাপায় = ৭৬ − ৬০ = ১৬।"
+    }
+  }
+]

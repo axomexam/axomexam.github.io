@@ -283,15 +283,39 @@
           "color": "#8b5cf6",
           "title": { "en": "Reasoning & Mental Ability", "as": "যুক্তি আৰু বৌদ্ধিক ক্ষমতা (Reasoning & Mental Ability)" },
           "subcategories": [
-            { "id": "series-completion", "title": { "en": "Series Completion", "as": "শৃংখলা নিৰ্ণয় — Number Series আৰু Alphabet Series।" } },
-            { "id": "coding-decoding", "title": { "en": "Coding-Decoding", "as": "সংকেতিকৰণ (Coding-Decoding)।" } },
-            { "id": "analogy", "title": { "en": "Analogy", "as": "সাদৃশ্য বিচাৰ (Analogy)।" } },
-            { "id": "odd-one-out", "title": { "en": "Odd One Out / Classification", "as": "শ্ৰেণীবিভাজন (Odd One Out / Classification)।" } },
-            { "id": "direction-sense", "title": { "en": "Direction Sense Test", "as": "দিশ নিৰ্ণয় (Direction Sense Test)।" } },
-            { "id": "blood-relations", "title": { "en": "Blood Relations", "as": "তেজৰ সম্পৰ্ক (Blood Relations)।" } },
-            { "id": "ranking-order", "title": { "en": "Ranking & Ordering", "as": "স্থান বা ক্ৰম নিৰ্ণয় (Ranking and Ordering)।" } },
-            { "id": "venn-diagrams", "title": { "en": "Venn Diagrams", "as": "ভেন চিত্ৰ (Venn Diagrams)।" } },
-            { "id": "non-verbal-reasoning", "title": { "en": "Basic Non-Verbal Reasoning", "as": "ছবি আৰু আৰ্হি চিনাক্তকৰণ (Basic Non-Verbal Reasoning)।" } }
+            {
+              "id": "verbal-reasoning",
+              "title": { "en": "Verbal Reasoning", "as": "ভাষিক যুক্তিতৰ্ক" },
+              "subcategories": [
+                { "id": "number-alphabet-series", "title": { "en": "Number Series & Alphabet Series", "as": "সংখ্যা আৰু বৰ্ণমালাৰ শৃংখলা চিনাক্তকৰণ।" } },
+                { "id": "coding-decoding", "title": { "en": "Coding-Decoding", "as": "আখৰ বা সংখ্যাৰ সংকেত নিৰ্ণয় (যেনে— Letter Coding, Number Coding)।" } },
+                { "id": "blood-relations", "title": { "en": "Blood Relations", "as": "তেজৰ বা পৰিয়ালৰ সম্পৰ্ক সম্বন্ধীয় প্ৰশ্ন।" } },
+                { "id": "direction-distance", "title": { "en": "Direction Sense Test", "as": "দিশ আৰু দূৰত্ব নিৰ্ণয়।" } },
+                { "id": "analogy", "title": { "en": "Analogy", "as": "সাদৃশ্য নিৰ্ণয় — দুটা শব্দ বা সংখ্যাৰ মাজৰ পাৰস্পৰিক সম্বন্ধ (যেনে— Word, Letter বা Number Analogy)।" } },
+                { "id": "odd-one-out", "title": { "en": "Classification / Odd One Out", "as": "চাৰিটা বিকল্পৰ মাজৰ পৰা অমিল শব্দ বা সংখ্যা বাছি উলিওৱা।" } },
+                { "id": "ranking-order", "title": { "en": "Ranking & Order Test", "as": "শাৰী এটাত কোনো ব্যক্তিৰ স্থান (বাওঁ/সোঁ বা ওপৰ/তলৰ পৰা) নিৰ্ণয়।" } },
+                { "id": "word-formation-dictionary", "title": { "en": "Word Formation & Dictionary Order", "as": "শব্দ গঠন আৰু অভিধানৰ ক্ৰম অনুসৰি সজোৱা।" } },
+                { "id": "venn-diagrams", "title": { "en": "Venn Diagrams", "as": "জ্যামিতিক চিত্ৰৰ জৰিয়তে শ্ৰেণী বা বস্তুৰ সম্বন্ধ বুজোৱা।" } },
+                { "id": "syllogism", "title": { "en": "Syllogism / Statements & Conclusions", "as": "বিবৃতি আৰু যুক্তিযুক্ত সিদ্ধান্ত নিৰ্ণয়।" } },
+                { "id": "mathematical-operations", "title": { "en": "Mathematical Operations", "as": "গাণিতিক চিহ্নৰ সাল-সলনি কৰি মান নিৰ্ণয় (+, -, ×, ÷ সলনি কৰা)।" } },
+                { "id": "clock-calendar", "title": { "en": "Clock & Calendar", "as": "ঘড়ীৰ কাঁটাৰ কোণ আৰু দিন/তাৰিখ নিৰ্ণয় সম্বন্ধীয় প্ৰাথমিক প্ৰশ্ন।" } }
+              ]
+            },
+            {
+              "id": "non-verbal-reasoning",
+              "title": { "en": "Non-Verbal Reasoning", "as": "চিত্ৰভিত্তিক / অ-ভাষিক যুক্তিতৰ্ক" },
+              "subcategories": [
+                { "id": "figure-series", "title": { "en": "Figure Series", "as": "চিত্ৰৰ ধাৰাবাহিক ক্ৰম বা পৰৱৰ্তী চিত্ৰ চিনাক্ত কৰা।" } },
+                { "id": "figure-analogy", "title": { "en": "Figure Analogy", "as": "প্ৰথম দুটা চিত্ৰৰ মাজৰ সম্পৰ্ক চাই তৃতীয় চিত্ৰৰ সঠিক জোৰা উলিওৱা।" } },
+                { "id": "figure-classification", "title": { "en": "Figure Classification (Odd One Out)", "as": "৫টা চিত্ৰৰ ভিতৰত অমিল চিত্ৰটো বাছি উলিওৱা।" } },
+                { "id": "mirror-water-image", "title": { "en": "Mirror Image & Water Image", "as": "দাপোণ আৰু পানীৰ প্ৰতিবিম্ব নিৰ্ণয়।" } },
+                { "id": "pattern-completion", "title": { "en": "Pattern Completion", "as": "অসম্পূৰ্ণ চিত্ৰৰ খালী অংশ পূৰণ কৰা।" } },
+                { "id": "embedded-figures", "title": { "en": "Embedded Figures", "as": "এটা জটিল চিত্ৰৰ ভিতৰত লুকাই থকা নিৰ্দিষ্ট চিত্ৰটো বিচাৰি উলিওৱা।" } },
+                { "id": "counting-figures", "title": { "en": "Counting of Figures", "as": "চিত্ৰত থকা ত্ৰিভুজ, বৰ্গক্ষেত্ৰ, আয়তক্ষেত্ৰ বা সৰলৰেখাৰ সংখ্যা গণনা কৰা।" } },
+                { "id": "paper-folding-cutting", "title": { "en": "Paper Folding & Paper Cutting", "as": "কাগজ ভাঁজ কৰা আৰু কটাৰ পিছত কেনেকুৱা দেখাব তাৰ নিৰ্ণয়।" } },
+                { "id": "cubes-dice", "title": { "en": "Cubes & Dice", "as": "পাশা (Dice)-ৰ বিপৰীত ফলকত থকা সংখ্যা বা বিন্দু নিৰ্ণয়।" } }
+              ]
+            }
           ]
         },
         {

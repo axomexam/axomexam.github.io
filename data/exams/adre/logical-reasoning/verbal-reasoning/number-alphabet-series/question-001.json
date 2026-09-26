@@ -1,0 +1,2552 @@
+[
+  {
+    "id": "number-alphabet-series-001",
+    "q": {
+      "en": "Find the next number in the series: 2, 6, 12, 20, 30, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ২, ৬, ১২, ২০, ৩০, ?"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Differences are 4, 6, 8, 10, 12; next term = 30 + 12 = 42.",
+      "as": "পাৰ্থক্যসমূহ ৪, ৬, ৮, ১০, ১২; পৰৱৰ্তী পদ = ৩০ + ১২ = ৪২।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-002",
+    "q": {
+      "en": "Find the next number in the series: 3, 9, 27, 81, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৩, ৯, ২৭, ৮১, ?"
+    },
+    "options": [
+      {
+        "en": "162",
+        "as": "১৬২"
+      },
+      {
+        "en": "243",
+        "as": "২৪৩"
+      },
+      {
+        "en": "324",
+        "as": "৩২৪"
+      },
+      {
+        "en": "729",
+        "as": "৭২৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each term is multiplied by 3; 81 × 3 = 243.",
+      "as": "প্ৰতিটো পদ ৩ ৰে পূৰণ হয়; ৮১ × ৩ = ২৪৩।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-003",
+    "q": {
+      "en": "Find the next number in the series: 1, 4, 9, 16, 25, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১, ৪, ৯, ১৬, ২৫, ?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "49",
+        "as": "৪৯"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "These are perfect squares; next is 6² = 36.",
+      "as": "এইবোৰ পূৰ্ণ বৰ্গ; পৰৱৰ্তী ৬² = ৩৬।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-004",
+    "q": {
+      "en": "Find the next number in the series: 2, 3, 5, 7, 11, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ২, ৩, ৫, ৭, ১১, ?"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "These are prime numbers; next prime is 13.",
+      "as": "এইবোৰ মৌলিক সংখ্যা; পৰৱৰ্তী মৌলিক সংখ্যা ১৩।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-005",
+    "q": {
+      "en": "Find the next number in the series: 1, 1, 2, 3, 5, 8, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১, ১, ২, ৩, ৫, ৮, ?"
+    },
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Fibonacci series; 5 + 8 = 13.",
+      "as": "ফিবোনাচি শ্ৰেণী; ৫ + ৮ = ১৩।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-006",
+    "q": {
+      "en": "Find the next number in the series: 5, 10, 20, 40, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৫, ১০, ২০, ৪০, ?"
+    },
+    "options": [
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each term is doubled; 40 × 2 = 80.",
+      "as": "প্ৰতিটো পদ দুগুণ হয়; ৪০ × ২ = ৮০।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-007",
+    "q": {
+      "en": "Find the next number in the series: 100, 81, 64, 49, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১০০, ৮১, ৬৪, ৪৯, ?"
+    },
+    "options": [
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Descending squares; next is 6² = 36.",
+      "as": "হ্ৰাসমান বৰ্গ; পৰৱৰ্তী ৬² = ৩৬।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-008",
+    "q": {
+      "en": "Find the next number in the series: 7, 14, 28, 56, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৭, ১৪, ২৮, ৫৬, ?"
+    },
+    "options": [
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "84",
+        "as": "৮৪"
+      },
+      {
+        "en": "98",
+        "as": "৯৮"
+      },
+      {
+        "en": "112",
+        "as": "১১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each term is doubled; 56 × 2 = 112.",
+      "as": "প্ৰতিটো পদ দুগুণ হয়; ৫৬ × ২ = ১১২।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-009",
+    "q": {
+      "en": "Find the next number in the series: 4, 9, 16, 25, 36, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৪, ৯, ১৬, ২৫, ৩৬, ?"
+    },
+    "options": [
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "49",
+        "as": "৪৯"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Squares of 2, 3, 4, 5, 6; next is 7² = 49.",
+      "as": "২, ৩, ৪, ৫, ৬ ৰ বৰ্গ; পৰৱৰ্তী ৭² = ৪৯।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-010",
+    "q": {
+      "en": "Find the next number in the series: 1, 8, 27, 64, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১, ৮, ২৭, ৬৪, ?"
+    },
+    "options": [
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "125",
+        "as": "১২৫"
+      },
+      {
+        "en": "216",
+        "as": "২১৬"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Cubes of 1, 2, 3, 4; next is 5³ = 125.",
+      "as": "১, ২, ৩, ৪ ৰ ঘন; পৰৱৰ্তী ৫³ = ১২৫।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-011",
+    "q": {
+      "en": "Find the next number in the series: 2, 4, 8, 16, 32, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ২, ৪, ৮, ১৬, ৩২, ?"
+    },
+    "options": [
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Powers of 2; next is 32 × 2 = 64.",
+      "as": "২ ৰ ঘাত; পৰৱৰ্তী ৩২ × ২ = ৬৪।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-012",
+    "q": {
+      "en": "Find the next number in the series: 48, 24, 12, 6, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৪৮, ২৪, ১২, ৬, ?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each term is halved; 6 ÷ 2 = 3.",
+      "as": "প্ৰতিটো পদ আধা হয়; ৬ ÷ ২ = ৩।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-013",
+    "q": {
+      "en": "Find the next number in the series: 6, 11, 21, 36, 56, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৬, ১১, ২১, ৩৬, ৫৬, ?"
+    },
+    "options": [
+      {
+        "en": "86",
+        "as": "৮৬"
+      },
+      {
+        "en": "76",
+        "as": "৭৬"
+      },
+      {
+        "en": "81",
+        "as": "৮১"
+      },
+      {
+        "en": "91",
+        "as": "৯১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Differences are 5, 10, 15, 20, 25; 56 + 25 = 81.",
+      "as": "পাৰ্থক্যসমূহ ৫, ১০, ১৫, ২০, ২৫; ৫৬ + ২৫ = ৮১।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-014",
+    "q": {
+      "en": "Find the next number in the series: 3, 6, 11, 18, 27, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৩, ৬, ১১, ১৮, ২৭, ?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Differences are 3, 5, 7, 9, 11; 27 + 11 = 38.",
+      "as": "পাৰ্থক্যসমূহ ৩, ৫, ৭, ৯, ১১; ২৭ + ১১ = ৩৮।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-015",
+    "q": {
+      "en": "Find the next number in the series: 1, 3, 6, 10, 15, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১, ৩, ৬, ১০, ১৫, ?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Triangular numbers; differences 2, 3, 4, 5, 6; 15 + 6 = 21.",
+      "as": "ত্ৰিভুজীয় সংখ্যা; পাৰ্থক্য ২, ৩, ৪, ৫, ৬; ১৫ + ৬ = ২১।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-016",
+    "q": {
+      "en": "Find the next number in the series: 5, 11, 23, 47, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৫, ১১, ২৩, ৪৭, ?"
+    },
+    "options": [
+      {
+        "en": "95",
+        "as": "৯৫"
+      },
+      {
+        "en": "94",
+        "as": "৯৪"
+      },
+      {
+        "en": "96",
+        "as": "৯৬"
+      },
+      {
+        "en": "93",
+        "as": "৯৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each term = previous × 2 + 1; 47 × 2 + 1 = 95.",
+      "as": "প্ৰতিটো পদ = পূৰ্বৰ × ২ + ১; ৪৭ × ২ + ১ = ৯৫।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-017",
+    "q": {
+      "en": "Find the next number in the series: 3, 7, 15, 31, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৩, ৭, ১৫, ৩১, ?"
+    },
+    "options": [
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "62",
+        "as": "৬২"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "63",
+        "as": "৬৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each term = previous × 2 + 1; 31 × 2 + 1 = 63.",
+      "as": "প্ৰতিটো পদ = পূৰ্বৰ × ২ + ১; ৩১ × ২ + ১ = ৬৩।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-018",
+    "q": {
+      "en": "Find the next number in the series: 1, 2, 6, 24, 120, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১, ২, ৬, ২৪, ১২০, ?"
+    },
+    "options": [
+      {
+        "en": "840",
+        "as": "৮৪০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "720",
+        "as": "৭২০"
+      },
+      {
+        "en": "480",
+        "as": "৪৮০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Factorials; 120 × 6 = 720.",
+      "as": "ক্ৰমগুণিতক; ১২০ × ৬ = ৭২০।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-019",
+    "q": {
+      "en": "Find the next number in the series: 0, 3, 8, 15, 24, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ০, ৩, ৮, ১৫, ২৪, ?"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Pattern n² − 1; for n = 6, 36 − 1 = 35.",
+      "as": "ধৰণ n² − ১; n = ৬ ৰ বাবে ৩৬ − ১ = ৩৫।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-020",
+    "q": {
+      "en": "Find the next number in the series: 2, 5, 10, 17, 26, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ২, ৫, ১০, ১৭, ২৬, ?"
+    },
+    "options": [
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Pattern n² + 1; for n = 6, 36 + 1 = 37.",
+      "as": "ধৰণ n² + ১; n = ৬ ৰ বাবে ৩৬ + ১ = ৩৭।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-021",
+    "q": {
+      "en": "Find the next number in the series: 121, 110, 99, 88, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১২১, ১১০, ৯৯, ৮৮, ?"
+    },
+    "options": [
+      {
+        "en": "88",
+        "as": "৮৮"
+      },
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "77",
+        "as": "৭৭"
+      },
+      {
+        "en": "78",
+        "as": "৭৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Subtract 11 each time; 88 − 11 = 77.",
+      "as": "প্ৰতিবাৰ ১১ বিয়োগ হয়; ৮৮ − ১১ = ৭৭।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-022",
+    "q": {
+      "en": "Find the next number in the series: 2, 5, 9, 14, 20, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ২, ৫, ৯, ১৪, ২০, ?"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Differences are 3, 4, 5, 6, 7; 20 + 7 = 27.",
+      "as": "পাৰ্থক্যসমূহ ৩, ৪, ৫, ৬, ৭; ২০ + ৭ = ২৭।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-023",
+    "q": {
+      "en": "Find the next number in the series: 8, 27, 64, 125, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৮, ২৭, ৬৪, ১২৫, ?"
+    },
+    "options": [
+      {
+        "en": "216",
+        "as": "২১৬"
+      },
+      {
+        "en": "196",
+        "as": "১৯৬"
+      },
+      {
+        "en": "225",
+        "as": "২২৫"
+      },
+      {
+        "en": "256",
+        "as": "২৫৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cubes of 2, 3, 4, 5; next is 6³ = 216.",
+      "as": "২, ৩, ৪, ৫ ৰ ঘন; পৰৱৰ্তী ৬³ = ২১৬।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-024",
+    "q": {
+      "en": "Find the next number in the series: 1, 4, 27, 256, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১, ৪, ২৭, ২৫৬, ?"
+    },
+    "options": [
+      {
+        "en": "1024",
+        "as": "১০২৪"
+      },
+      {
+        "en": "7776",
+        "as": "৭৭৭৬"
+      },
+      {
+        "en": "625",
+        "as": "৬২৫"
+      },
+      {
+        "en": "3125",
+        "as": "৩১২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Pattern nⁿ; 5⁵ = 3125.",
+      "as": "ধৰণ nⁿ; ৫⁵ = ৩১২৫।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-025",
+    "q": {
+      "en": "Find the next number in the series: 3, 12, 48, 192, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৩, ১২, ৪৮, ১৯২, ?"
+    },
+    "options": [
+      {
+        "en": "576",
+        "as": "৫৭৬"
+      },
+      {
+        "en": "960",
+        "as": "৯৬০"
+      },
+      {
+        "en": "768",
+        "as": "৭৬৮"
+      },
+      {
+        "en": "384",
+        "as": "৩৮৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each term is multiplied by 4; 192 × 4 = 768.",
+      "as": "প্ৰতিটো পদ ৪ ৰে পূৰণ হয়; ১৯২ × ৪ = ৭৬৮।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-026",
+    "q": {
+      "en": "Find the next number in the series: 2, 3, 10, 15, 26, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ২, ৩, ১০, ১৫, ২৬, ?"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Pattern alternates n² + 1 and n² − 1; 6² − 1 = 35.",
+      "as": "ধৰণ n² + ১ আৰু n² − ১ ক্ৰমে; ৬² − ১ = ৩৫।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-027",
+    "q": {
+      "en": "Find the next number in the series: 7, 21, 63, 189, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৭, ২১, ৬৩, ১৮৯, ?"
+    },
+    "options": [
+      {
+        "en": "588",
+        "as": "৫৮৮"
+      },
+      {
+        "en": "546",
+        "as": "৫৪৬"
+      },
+      {
+        "en": "567",
+        "as": "৫৬৭"
+      },
+      {
+        "en": "189",
+        "as": "১৮৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each term is multiplied by 3; 189 × 3 = 567.",
+      "as": "প্ৰতিটো পদ ৩ ৰে পূৰণ হয়; ১৮৯ × ৩ = ৫৬৭।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-028",
+    "q": {
+      "en": "Find the next number in the series: 1, 2, 4, 7, 11, 16, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১, ২, ৪, ৭, ১১, ১৬, ?"
+    },
+    "options": [
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Differences are 1, 2, 3, 4, 5, 6; 16 + 6 = 22.",
+      "as": "পাৰ্থক্যসমূহ ১, ২, ৩, ৪, ৫, ৬; ১৬ + ৬ = ২২।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-029",
+    "q": {
+      "en": "Find the next number in the series: 90, 80, 71, 63, 56, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৯০, ৮০, ৭১, ৬৩, ৫৬, ?"
+    },
+    "options": [
+      {
+        "en": "49",
+        "as": "৪৯"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "51",
+        "as": "৫১"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Differences are 10, 9, 8, 7, 6; 56 − 6 = 50.",
+      "as": "পাৰ্থক্যসমূহ ১০, ৯, ৮, ৭, ৬; ৫৬ − ৬ = ৫০।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-030",
+    "q": {
+      "en": "Find the next number in the series: 5, 9, 17, 33, 65, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৫, ৯, ১৭, ৩৩, ৬৫, ?"
+    },
+    "options": [
+      {
+        "en": "130",
+        "as": "১৩০"
+      },
+      {
+        "en": "129",
+        "as": "১২৯"
+      },
+      {
+        "en": "128",
+        "as": "১২৮"
+      },
+      {
+        "en": "127",
+        "as": "১২৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each term = previous × 2 − 1; 65 × 2 − 1 = 129.",
+      "as": "প্ৰতিটো পদ = পূৰ্বৰ × ২ − ১; ৬৫ × ২ − ১ = ১২৯।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-031",
+    "q": {
+      "en": "Find the next number in the series: 2, 3, 5, 9, 17, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ২, ৩, ৫, ৯, ১৭, ?"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each term = previous × 2 − 1; 17 × 2 − 1 = 33.",
+      "as": "প্ৰতিটো পদ = পূৰ্বৰ × ২ − ১; ১৭ × ২ − ১ = ৩৩।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-032",
+    "q": {
+      "en": "Find the next number in the series: 4, 6, 10, 18, 34, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৪, ৬, ১০, ১৮, ৩৪, ?"
+    },
+    "options": [
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "68",
+        "as": "৬৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each term = previous × 2 − 2; 34 × 2 − 2 = 66.",
+      "as": "প্ৰতিটো পদ = পূৰ্বৰ × ২ − ২; ৩৪ × ২ − ২ = ৬৬।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-033",
+    "q": {
+      "en": "Find the next number in the series: 25, 23, 21, 19, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ২৫, ২৩, ২১, ১৯, ?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Subtract 2 each time; 19 − 2 = 17.",
+      "as": "প্ৰতিবাৰ ২ বিয়োগ হয়; ১৯ − ২ = ১৭।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-034",
+    "q": {
+      "en": "Find the next number in the series: 1, 3, 6, 10, 15, 21, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১, ৩, ৬, ১০, ১৫, ২১, ?"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Triangular numbers; differences 2, 3, 4, 5, 6, 7; 21 + 7 = 28.",
+      "as": "ত্ৰিভুজীয় সংখ্যা; পাৰ্থক্য ২, ৩, ৪, ৫, ৬, ৭; ২১ + ৭ = ২৮।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-035",
+    "q": {
+      "en": "Find the next number in the series: 6, 13, 27, 55, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৬, ১৩, ২৭, ৫৫, ?"
+    },
+    "options": [
+      {
+        "en": "110",
+        "as": "১১০"
+      },
+      {
+        "en": "111",
+        "as": "১১১"
+      },
+      {
+        "en": "112",
+        "as": "১১২"
+      },
+      {
+        "en": "109",
+        "as": "১০৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each term = previous × 2 + 1; 55 × 2 + 1 = 111.",
+      "as": "প্ৰতিটো পদ = পূৰ্বৰ × ২ + ১; ৫৫ × ২ + ১ = ১১১।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-036",
+    "q": {
+      "en": "Find the next number in the series: 3, 4, 7, 11, 18, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৩, ৪, ৭, ১১, ১৮, ?"
+    },
+    "options": [
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each term is the sum of the previous two; 11 + 18 = 29.",
+      "as": "প্ৰতিটো পদ পূৰ্বৰ দুটাৰ যোগফল; ১১ + ১৮ = ২৯।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-037",
+    "q": {
+      "en": "Find the next number in the series: 2, 7, 17, 37, 77, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ২, ৭, ১৭, ৩৭, ৭৭, ?"
+    },
+    "options": [
+      {
+        "en": "157",
+        "as": "১৫৭"
+      },
+      {
+        "en": "156",
+        "as": "১৫৬"
+      },
+      {
+        "en": "158",
+        "as": "১৫৮"
+      },
+      {
+        "en": "155",
+        "as": "১৫৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each term = previous × 2 + 3; 77 × 2 + 3 = 157.",
+      "as": "প্ৰতিটো পদ = পূৰ্বৰ × ২ + ৩; ৭৭ × ২ + ৩ = ১৫৭।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-038",
+    "q": {
+      "en": "Find the next number in the series: 11, 13, 17, 19, 23, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১১, ১৩, ১৭, ১৯, ২৩, ?"
+    },
+    "options": [
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Consecutive prime numbers; next prime after 23 is 29.",
+      "as": "ক্ৰমিক মৌলিক সংখ্যা; ২৩ ৰ পিছৰ মৌলিক সংখ্যা ২৯।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-039",
+    "q": {
+      "en": "Find the next number in the series: 1, 9, 25, 49, 81, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১, ৯, ২৫, ৪৯, ৮১, ?"
+    },
+    "options": [
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "121",
+        "as": "১২১"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "169",
+        "as": "১৬৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Squares of odd numbers; next is 11² = 121.",
+      "as": "অযুগ্ম সংখ্যাৰ বৰ্গ; পৰৱৰ্তী ১১² = ১২১।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-040",
+    "q": {
+      "en": "Find the next number in the series: 4, 12, 36, 108, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৪, ১২, ৩৬, ১০৮, ?"
+    },
+    "options": [
+      {
+        "en": "324",
+        "as": "৩২৪"
+      },
+      {
+        "en": "216",
+        "as": "২১৬"
+      },
+      {
+        "en": "432",
+        "as": "৪৩২"
+      },
+      {
+        "en": "648",
+        "as": "৬৪৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each term is multiplied by 3; 108 × 3 = 324.",
+      "as": "প্ৰতিটো পদ ৩ ৰে পূৰণ হয়; ১০৮ × ৩ = ৩২৪।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-041",
+    "q": {
+      "en": "Find the next number in the series: 2, 8, 18, 32, 50, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ২, ৮, ১৮, ৩২, ৫০, ?"
+    },
+    "options": [
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "68",
+        "as": "৬৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Pattern 2n²; for n = 6, 2 × 36 = 72.",
+      "as": "ধৰণ ২n²; n = ৬ ৰ বাবে ২ × ৩৬ = ৭২।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-042",
+    "q": {
+      "en": "Find the next number in the series: 6, 12, 24, 48, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৬, ১২, ২৪, ৪৮, ?"
+    },
+    "options": [
+      {
+        "en": "84",
+        "as": "৮৪"
+      },
+      {
+        "en": "108",
+        "as": "১০৮"
+      },
+      {
+        "en": "96",
+        "as": "৯৬"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each term is doubled; 48 × 2 = 96.",
+      "as": "প্ৰতিটো পদ দুগুণ হয়; ৪৮ × ২ = ৯৬।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-043",
+    "q": {
+      "en": "Find the next number in the series: 100, 50, 25, 12.5, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১০০, ৫০, ২৫, ১২.৫, ?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6.25",
+        "as": "৬.২৫"
+      },
+      {
+        "en": "6.5",
+        "as": "৬.৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each term is halved; 12.5 ÷ 2 = 6.25.",
+      "as": "প্ৰতিটো পদ আধা হয়; ১২.৫ ÷ ২ = ৬.২৫।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-044",
+    "q": {
+      "en": "Find the next number in the series: 1, 5, 14, 30, 55, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১, ৫, ১৪, ৩০, ৫৫, ?"
+    },
+    "options": [
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "89",
+        "as": "৮৯"
+      },
+      {
+        "en": "92",
+        "as": "৯২"
+      },
+      {
+        "en": "91",
+        "as": "৯১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Differences are 4, 9, 16, 25, 36; 55 + 36 = 91.",
+      "as": "পাৰ্থক্যসমূহ ৪, ৯, ১৬, ২৫, ৩৬; ৫৫ + ৩৬ = ৯১।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-045",
+    "q": {
+      "en": "Find the next number in the series: 0, 7, 26, 63, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ০, ৭, ২৬, ৬৩, ?"
+    },
+    "options": [
+      {
+        "en": "126",
+        "as": "১২৬"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "124",
+        "as": "১২৪"
+      },
+      {
+        "en": "128",
+        "as": "১২৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Pattern n³ − 1; 5³ − 1 = 124.",
+      "as": "ধৰণ n³ − ১; ৫³ − ১ = ১২৪।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-046",
+    "q": {
+      "en": "Find the next number in the series: 2, 12, 36, 80, 150, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ২, ১২, ৩৬, ৮০, ১৫০, ?"
+    },
+    "options": [
+      {
+        "en": "256",
+        "as": "২৫৬"
+      },
+      {
+        "en": "250",
+        "as": "২৫০"
+      },
+      {
+        "en": "254",
+        "as": "২৫৪"
+      },
+      {
+        "en": "252",
+        "as": "২৫২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Pattern n²(n + 1); 6² × 7 = 252.",
+      "as": "ধৰণ n²(n + ১); ৬² × ৭ = ২৫২।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-047",
+    "q": {
+      "en": "Find the next number in the series: 5, 6, 9, 14, 21, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৫, ৬, ৯, ১৪, ২১, ?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Differences are 1, 3, 5, 7, 9; 21 + 9 = 30.",
+      "as": "পাৰ্থক্যসমূহ ১, ৩, ৫, ৭, ৯; ২১ + ৯ = ৩০।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-048",
+    "q": {
+      "en": "Find the next number in the series: 9, 27, 81, 243, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৯, ২৭, ৮১, ২৪৩, ?"
+    },
+    "options": [
+      {
+        "en": "729",
+        "as": "৭২৯"
+      },
+      {
+        "en": "486",
+        "as": "৪৮৬"
+      },
+      {
+        "en": "972",
+        "as": "৯৭২"
+      },
+      {
+        "en": "243",
+        "as": "২৪৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each term is multiplied by 3; 243 × 3 = 729.",
+      "as": "প্ৰতিটো পদ ৩ ৰে পূৰণ হয়; ২৪৩ × ৩ = ৭২৯।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-049",
+    "q": {
+      "en": "Find the next number in the series: 3, 5, 9, 17, 33, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৩, ৫, ৯, ১৭, ৩৩, ?"
+    },
+    "options": [
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "63",
+        "as": "৬৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each term = previous × 2 − 1; 33 × 2 − 1 = 65.",
+      "as": "প্ৰতিটো পদ = পূৰ্বৰ × ২ − ১; ৩৩ × ২ − ১ = ৬৫।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-050",
+    "q": {
+      "en": "Find the next number in the series: 2, 6, 14, 30, 62, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ২, ৬, ১৪, ৩০, ৬২, ?"
+    },
+    "options": [
+      {
+        "en": "126",
+        "as": "১২৬"
+      },
+      {
+        "en": "124",
+        "as": "১২৪"
+      },
+      {
+        "en": "128",
+        "as": "১২৮"
+      },
+      {
+        "en": "130",
+        "as": "১৩০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each term = previous × 2 + 2; 62 × 2 + 2 = 126.",
+      "as": "প্ৰতিটো পদ = পূৰ্বৰ × ২ + ২; ৬২ × ২ + ২ = ১২৬।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-051",
+    "q": {
+      "en": "Find the next number in the series: 15, 30, 45, 60, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১৫, ৩০, ৪৫, ৬০, ?"
+    },
+    "options": [
+      {
+        "en": "85",
+        "as": "৮৫"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Multiples of 15; next is 60 + 15 = 75.",
+      "as": "১৫ ৰ গুণিতক; পৰৱৰ্তী ৬০ + ১৫ = ৭৫।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-052",
+    "q": {
+      "en": "Find the next number in the series: 1, 4, 10, 20, 35, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১, ৪, ১০, ২০, ৩৫, ?"
+    },
+    "options": [
+      {
+        "en": "58",
+        "as": "৫৮"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "57",
+        "as": "৫৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Differences are 3, 6, 10, 15, 21; 35 + 21 = 56.",
+      "as": "পাৰ্থক্যসমূহ ৩, ৬, ১০, ১৫, ২১; ৩৫ + ২১ = ৫৬।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-053",
+    "q": {
+      "en": "Find the next number in the series: 11, 15, 20, 26, 33, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১১, ১৫, ২০, ২৬, ৩৩, ?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Differences are 4, 5, 6, 7, 8; 33 + 8 = 41.",
+      "as": "পাৰ্থক্যসমূহ ৪, ৫, ৬, ৭, ৮; ৩৩ + ৮ = ৪১।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-054",
+    "q": {
+      "en": "Find the next number in the series: 121, 144, 169, 196, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১২১, ১৪৪, ১৬৯, ১৯৬, ?"
+    },
+    "options": [
+      {
+        "en": "256",
+        "as": "২৫৬"
+      },
+      {
+        "en": "216",
+        "as": "২১৬"
+      },
+      {
+        "en": "225",
+        "as": "২২৫"
+      },
+      {
+        "en": "196",
+        "as": "১৯৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Squares of 11, 12, 13, 14; next is 15² = 225.",
+      "as": "১১, ১২, ১৩, ১৪ ৰ বৰ্গ; পৰৱৰ্তী ১৫² = ২২৫।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-055",
+    "q": {
+      "en": "Find the next number in the series: 2, 4, 12, 48, 240, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ২, ৪, ১২, ৪৮, ২৪০, ?"
+    },
+    "options": [
+      {
+        "en": "1440",
+        "as": "১৪৪০"
+      },
+      {
+        "en": "1200",
+        "as": "১২০০"
+      },
+      {
+        "en": "1680",
+        "as": "১৬৮০"
+      },
+      {
+        "en": "960",
+        "as": "৯৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Multiply by 2, 3, 4, 5, 6; 240 × 6 = 1440.",
+      "as": "২, ৩, ৪, ৫, ৬ ৰে পূৰণ; ২৪০ × ৬ = ১৪৪০।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-056",
+    "q": {
+      "en": "Find the next number in the series: 1, 6, 15, 28, 45, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ১, ৬, ১৫, ২৮, ৪৫, ?"
+    },
+    "options": [
+      {
+        "en": "67",
+        "as": "৬৭"
+      },
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Differences are 5, 9, 13, 17, 21; 45 + 21 = 66.",
+      "as": "পাৰ্থক্যসমূহ ৫, ৯, ১৩, ১৭, ২১; ৪৫ + ২১ = ৬৬।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-057",
+    "q": {
+      "en": "Find the next number in the series: 20, 19, 17, 14, 10, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ২০, ১৯, ১৭, ১৪, ১০, ?"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Differences are 1, 2, 3, 4, 5; 10 − 5 = 5.",
+      "as": "পাৰ্থক্যসমূহ ১, ২, ৩, ৪, ৫; ১০ − ৫ = ৫।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-058",
+    "q": {
+      "en": "Find the next number in the series: 7, 13, 25, 49, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৭, ১৩, ২৫, ৪৯, ?"
+    },
+    "options": [
+      {
+        "en": "95",
+        "as": "৯৫"
+      },
+      {
+        "en": "96",
+        "as": "৯৬"
+      },
+      {
+        "en": "98",
+        "as": "৯৮"
+      },
+      {
+        "en": "97",
+        "as": "৯৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each term = previous × 2 − 1; 49 × 2 − 1 = 97.",
+      "as": "প্ৰতিটো পদ = পূৰ্বৰ × ২ − ১; ৪৯ × ২ − ১ = ৯৭।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-059",
+    "q": {
+      "en": "Find the next number in the series: 8, 9, 12, 17, 24, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ৮, ৯, ১২, ১৭, ২৪, ?"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Differences are 1, 3, 5, 7, 9; 24 + 9 = 33.",
+      "as": "পাৰ্থক্যসমূহ ১, ৩, ৫, ৭, ৯; ২৪ + ৯ = ৩৩।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-060",
+    "q": {
+      "en": "Find the next number in the series: 2, 3, 5, 8, 12, 17, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: ২, ৩, ৫, ৮, ১২, ১৭, ?"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Differences are 1, 2, 3, 4, 5, 6; 17 + 6 = 23.",
+      "as": "পাৰ্থক্যসমূহ ১, ২, ৩, ৪, ৫, ৬; ১৭ + ৬ = ২৩।"
+    }
+  },
+  {
+    "id": "alphabet-series-001",
+    "q": {
+      "en": "Find the next letter in the series: A, C, E, G, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: A, C, E, G, ?"
+    },
+    "options": [
+      {
+        "en": "J",
+        "as": "J"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      },
+      {
+        "en": "H",
+        "as": "H"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each letter skips one letter; next is I.",
+      "as": "প্ৰতিটো আখৰে এটা আখৰ এৰি যায়; পৰৱৰ্তী I।"
+    }
+  },
+  {
+    "id": "alphabet-series-002",
+    "q": {
+      "en": "Find the next letter in the series: B, D, F, H, J, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: B, D, F, H, J, ?"
+    },
+    "options": [
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each letter skips one letter; next is L.",
+      "as": "প্ৰতিটো আখৰে এটা আখৰ এৰি যায়; পৰৱৰ্তী L।"
+    }
+  },
+  {
+    "id": "alphabet-series-003",
+    "q": {
+      "en": "Find the next letter in the series: Z, X, V, T, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: Z, X, V, T, ?"
+    },
+    "options": [
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Backward, skipping one letter; next is R.",
+      "as": "পিছলৈ এটা আখৰ এৰি; পৰৱৰ্তী R।"
+    }
+  },
+  {
+    "id": "alphabet-series-004",
+    "q": {
+      "en": "Find the next letter in the series: A, B, D, G, K, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: A, B, D, G, K, ?"
+    },
+    "options": [
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Gaps increase by one (1, 2, 3, 4, 5); K + 5 = P.",
+      "as": "ব্যৱধান ক্ৰমে এৰে বাঢ়ে (১, ২, ৩, ৪, ৫); K + ৫ = P।"
+    }
+  },
+  {
+    "id": "alphabet-series-005",
+    "q": {
+      "en": "Find the next letter in the series: A, D, G, J, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: A, D, G, J, ?"
+    },
+    "options": [
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Add 3 each time; J + 3 = M.",
+      "as": "প্ৰতিবাৰ ৩ যোগ হয়; J + ৩ = M।"
+    }
+  },
+  {
+    "id": "alphabet-series-006",
+    "q": {
+      "en": "Find the next letter in the series: Z, Y, W, T, P, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: Z, Y, W, T, P, ?"
+    },
+    "options": [
+      {
+        "en": "K",
+        "as": "K"
+      },
+      {
+        "en": "J",
+        "as": "J"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Subtract 1, 2, 3, 4, 5; P − 5 = K.",
+      "as": "১, ২, ৩, ৪, ৫ বিয়োগ; P − ৫ = K।"
+    }
+  },
+  {
+    "id": "alphabet-series-007",
+    "q": {
+      "en": "Find the next letter in the series: A, C, F, J, O, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: A, C, F, J, O, ?"
+    },
+    "options": [
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "V",
+        "as": "V"
+      },
+      {
+        "en": "U",
+        "as": "U"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Add 2, 3, 4, 5, 6; O + 6 = U.",
+      "as": "২, ৩, ৪, ৫, ৬ যোগ; O + ৬ = U।"
+    }
+  },
+  {
+    "id": "alphabet-series-008",
+    "q": {
+      "en": "Find the next letter in the series: Z, X, U, Q, L, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: Z, X, U, Q, L, ?"
+    },
+    "options": [
+      {
+        "en": "G",
+        "as": "G"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "H",
+        "as": "H"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Subtract 2, 3, 4, 5, 6; L − 6 = F.",
+      "as": "২, ৩, ৪, ৫, ৬ বিয়োগ; L − ৬ = F।"
+    }
+  },
+  {
+    "id": "alphabet-series-009",
+    "q": {
+      "en": "Find the next letter in the series: B, E, I, N, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: B, E, I, N, ?"
+    },
+    "options": [
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "U",
+        "as": "U"
+      },
+      {
+        "en": "V",
+        "as": "V"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Add 3, 4, 5, 6; N + 6 = T.",
+      "as": "৩, ৪, ৫, ৬ যোগ; N + ৬ = T।"
+    }
+  },
+  {
+    "id": "alphabet-series-010",
+    "q": {
+      "en": "Find the next letter in the series: C, F, I, L, O, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: C, F, I, L, O, ?"
+    },
+    "options": [
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "T",
+        "as": "T"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Add 3 each time; O + 3 = R.",
+      "as": "প্ৰতিবাৰ ৩ যোগ; O + ৩ = R।"
+    }
+  },
+  {
+    "id": "alphabet-series-011",
+    "q": {
+      "en": "Find the next letter in the series: A, E, J, O, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: A, E, J, O, ?"
+    },
+    "options": [
+      {
+        "en": "W",
+        "as": "W"
+      },
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "V",
+        "as": "V"
+      },
+      {
+        "en": "U",
+        "as": "U"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Add 4 each time; O + 4 = U.",
+      "as": "প্ৰতিবাৰ ৪ যোগ; O + ৪ = U।"
+    }
+  },
+  {
+    "id": "alphabet-series-012",
+    "q": {
+      "en": "Find the next letter in the series: D, H, L, P, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: D, H, L, P, ?"
+    },
+    "options": [
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "U",
+        "as": "U"
+      },
+      {
+        "en": "V",
+        "as": "V"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Add 4 each time; P + 4 = T.",
+      "as": "প্ৰতিবাৰ ৪ যোগ; P + ৪ = T।"
+    }
+  },
+  {
+    "id": "alphabet-series-013",
+    "q": {
+      "en": "Find the next letter in the series: Y, V, S, P, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: Y, V, S, P, ?"
+    },
+    "options": [
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Subtract 3 each time; P − 3 = M.",
+      "as": "প্ৰতিবাৰ ৩ বিয়োগ; P − ৩ = M।"
+    }
+  },
+  {
+    "id": "alphabet-series-014",
+    "q": {
+      "en": "Find the next letter in the series: A, Z, B, Y, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: A, Z, B, Y, ?"
+    },
+    "options": [
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The series alternates from the start and the end; next is C.",
+      "as": "শ্ৰেণীটো আৰম্ভণি আৰু শেষৰ পৰা ক্ৰমে থাকে; পৰৱৰ্তী C।"
+    }
+  },
+  {
+    "id": "alphabet-series-015",
+    "q": {
+      "en": "Find the next letter in the series: B, D, G, K, P, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: B, D, G, K, P, ?"
+    },
+    "options": [
+      {
+        "en": "V",
+        "as": "V"
+      },
+      {
+        "en": "U",
+        "as": "U"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      },
+      {
+        "en": "X",
+        "as": "X"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Add 2, 3, 4, 5, 6; P + 6 = V.",
+      "as": "২, ৩, ৪, ৫, ৬ যোগ; P + ৬ = V।"
+    }
+  },
+  {
+    "id": "alphabet-series-016",
+    "q": {
+      "en": "Find the next letter in the series: A, B, D, H, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: A, B, D, H, ?"
+    },
+    "options": [
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Add 1, 2, 4, 8; H + 8 = P.",
+      "as": "১, ২, ৪, ৮ যোগ; H + ৮ = P।"
+    }
+  },
+  {
+    "id": "alphabet-series-017",
+    "q": {
+      "en": "Find the next letter in the series: X, U, R, O, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: X, U, R, O, ?"
+    },
+    "options": [
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Subtract 3 each time; O − 3 = L.",
+      "as": "প্ৰতিবাৰ ৩ বিয়োগ; O − ৩ = L।"
+    }
+  },
+  {
+    "id": "alphabet-series-018",
+    "q": {
+      "en": "Find the next letter in the series: C, E, H, L, Q, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: C, E, H, L, Q, ?"
+    },
+    "options": [
+      {
+        "en": "W",
+        "as": "W"
+      },
+      {
+        "en": "V",
+        "as": "V"
+      },
+      {
+        "en": "X",
+        "as": "X"
+      },
+      {
+        "en": "Y",
+        "as": "Y"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Add 2, 3, 4, 5, 6; Q + 6 = W.",
+      "as": "২, ৩, ৪, ৫, ৬ যোগ; Q + ৬ = W।"
+    }
+  },
+  {
+    "id": "alphabet-series-019",
+    "q": {
+      "en": "Find the next letter in the series: A, G, M, S, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: A, G, M, S, ?"
+    },
+    "options": [
+      {
+        "en": "Z",
+        "as": "Z"
+      },
+      {
+        "en": "X",
+        "as": "X"
+      },
+      {
+        "en": "Y",
+        "as": "Y"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Add 6 each time; S + 6 = Y.",
+      "as": "প্ৰতিবাৰ ৬ যোগ; S + ৬ = Y।"
+    }
+  },
+  {
+    "id": "alphabet-series-020",
+    "q": {
+      "en": "Find the next letter in the series: E, J, O, T, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰক: E, J, O, T, ?"
+    },
+    "options": [
+      {
+        "en": "Y",
+        "as": "Y"
+      },
+      {
+        "en": "Z",
+        "as": "Z"
+      },
+      {
+        "en": "X",
+        "as": "X"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Add 5 each time; T + 5 = Y.",
+      "as": "প্ৰতিবাৰ ৫ যোগ; T + ৫ = Y।"
+    }
+  },
+  {
+    "id": "alphanumeric-series-001",
+    "q": {
+      "en": "Find the next term in the series: A1, C3, E5, G7, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী পদটো নিৰ্ণয় কৰক: A1, C3, E5, G7, ?"
+    },
+    "options": [
+      {
+        "en": "I8",
+        "as": "I8"
+      },
+      {
+        "en": "I10",
+        "as": "I10"
+      },
+      {
+        "en": "J9",
+        "as": "J9"
+      },
+      {
+        "en": "I9",
+        "as": "I9"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Letters increase by 2 and numbers by 2; next is I9.",
+      "as": "আখৰ ২ আৰু সংখ্যা ২ কৈ বাঢ়ে; পৰৱৰ্তী I9।"
+    }
+  },
+  {
+    "id": "alphanumeric-series-002",
+    "q": {
+      "en": "Find the next term in the series: 2B, 4D, 6F, 8H, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী পদটো নিৰ্ণয় কৰক: 2B, 4D, 6F, 8H, ?"
+    },
+    "options": [
+      {
+        "en": "10J",
+        "as": "10J"
+      },
+      {
+        "en": "10I",
+        "as": "10I"
+      },
+      {
+        "en": "9J",
+        "as": "9J"
+      },
+      {
+        "en": "11J",
+        "as": "11J"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Numbers increase by 2 and letters by 2; next is 10J.",
+      "as": "সংখ্যা ২ আৰু আখৰ ২ কৈ বাঢ়ে; পৰৱৰ্তী 10J।"
+    }
+  },
+  {
+    "id": "alphanumeric-series-003",
+    "q": {
+      "en": "Find the next term in the series: Z1, Y2, X3, W4, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী পদটো নিৰ্ণয় কৰক: Z1, Y2, X3, W4, ?"
+    },
+    "options": [
+      {
+        "en": "U5",
+        "as": "U5"
+      },
+      {
+        "en": "V4",
+        "as": "V4"
+      },
+      {
+        "en": "W5",
+        "as": "W5"
+      },
+      {
+        "en": "V5",
+        "as": "V5"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Letters go backward and numbers increase by 1; next is V5.",
+      "as": "আখৰ পিছলৈ যায় আৰু সংখ্যা ১ কৈ বাঢ়ে; পৰৱৰ্তী V5।"
+    }
+  },
+  {
+    "id": "alphanumeric-series-004",
+    "q": {
+      "en": "Find the next term in the series: A2, D5, G8, J11, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী পদটো নিৰ্ণয় কৰক: A2, D5, G8, J11, ?"
+    },
+    "options": [
+      {
+        "en": "L14",
+        "as": "L14"
+      },
+      {
+        "en": "M13",
+        "as": "M13"
+      },
+      {
+        "en": "M14",
+        "as": "M14"
+      },
+      {
+        "en": "N14",
+        "as": "N14"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Letters add 3 and numbers add 3; next is M14.",
+      "as": "আখৰ ৩ আৰু সংখ্যা ৩ কৈ বাঢ়ে; পৰৱৰ্তী M14।"
+    }
+  },
+  {
+    "id": "alphanumeric-series-005",
+    "q": {
+      "en": "Find the next term in the series: 1A, 4D, 9I, 16P, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী পদটো নিৰ্ণয় কৰক: 1A, 4D, 9I, 16P, ?"
+    },
+    "options": [
+      {
+        "en": "25Z",
+        "as": "25Z"
+      },
+      {
+        "en": "24Y",
+        "as": "24Y"
+      },
+      {
+        "en": "25Y",
+        "as": "25Y"
+      },
+      {
+        "en": "36Y",
+        "as": "36Y"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Numbers are 1, 4, 9, 16, 25 (squares) and letters are their positions (1=A, 4=D, 9=I, 16=P, 25=Y).",
+      "as": "সংখ্যা ১, ৪, ৯, ১৬, ২৫ (বৰ্গ) আৰু আখৰ সেই স্থানৰ (১=A, ৪=D, ৯=I, ১৬=P, ২৫=Y)।"
+    }
+  }
+]
