@@ -1,30 +1,1262 @@
-{
-  "id": "voice-change-001",
-  "q": {
-    "en": "Change into passive voice: She writes a letter.",
-    "as": "Passive voice লৈ সলনি কৰক: She writes a letter."
-  },
-  "options": [
-    {
-      "en": "A letter was written by her.",
-      "as": "A letter was written by her."
+[
+  {
+    "id": "voice-change-001",
+    "q": {
+      "en": "Change into passive voice: She writes a letter.",
+      "as": "Passive voice লৈ সলনি কৰক: She writes a letter."
     },
-    {
-      "en": "A letter is written by her.",
-      "as": "A letter is written by her."
-    },
-    {
-      "en": "A letter is wrote by her.",
-      "as": "A letter is wrote by her."
-    },
-    {
-      "en": "A letter written by her.",
-      "as": "A letter written by her."
+    "options": [
+      { "en": "A letter was written by her.", "as": "A letter was written by her." },
+      { "en": "A letter is written by her.", "as": "A letter is written by her." },
+      { "en": "A letter is wrote by her.", "as": "A letter is wrote by her." },
+      { "en": "A letter written by her.", "as": "A letter written by her." }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Simple present active becomes 'is/am/are + past participle'; 'writes' becomes 'is written'.",
+      "as": "Simple present active ৰ passive হয় 'is/am/are + past participle'; 'writes' → 'is written'।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "Simple present active becomes 'is/am/are + past participle'; 'writes' becomes 'is written'.",
-    "as": "Simple present active ৰ passive হয় 'is/am/are + past participle'; 'writes' → 'is written'।"
+  },
+  {
+    "id": "voice-change-002",
+    "q": {
+      "en": "Change into passive voice: He eats a mango.",
+      "as": "Passive voice লৈ সলনি কৰক: He eats a mango."
+    },
+    "options": [
+      { "en": "A mango was eaten by him.", "as": "A mango was eaten by him." },
+      { "en": "A mango eaten by him.", "as": "A mango eaten by him." },
+      { "en": "A mango is eaten by him.", "as": "A mango is eaten by him." },
+      { "en": "A mango is eat by him.", "as": "A mango is eat by him." }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Simple present passive uses 'is/am/are + past participle'; 'eats' becomes 'is eaten'.",
+      "as": "Simple present ৰ passive হৈছে 'is/am/are + past participle'; 'eats' → 'is eaten'।"
+    }
+  },
+  {
+    "id": "voice-change-003",
+    "q": {
+      "en": "Change into passive voice: They play football.",
+      "as": "Passive voice লৈ সলনি কৰক: They play football."
+    },
+    "options": [
+      { "en": "Football is played by them.", "as": "Football is played by them." },
+      { "en": "Football was played by them.", "as": "Football was played by them." },
+      { "en": "Football is being played by them.", "as": "Football is being played by them." },
+      { "en": "Football played by them.", "as": "Football played by them." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Simple present passive uses 'is + past participle'; 'play' becomes 'is played'.",
+      "as": "Simple present ৰ passive হৈছে 'is + past participle'; 'play' → 'is played'।"
+    }
+  },
+  {
+    "id": "voice-change-004",
+    "q": {
+      "en": "Change into passive voice: She is singing a song.",
+      "as": "Passive voice লৈ সলনি কৰক: She is singing a song."
+    },
+    "options": [
+      { "en": "A song was sung by her.", "as": "A song was sung by her." },
+      { "en": "A song is sang by her.", "as": "A song is sang by her." },
+      { "en": "A song has been sung by her.", "as": "A song has been sung by her." },
+      { "en": "A song is being sung by her.", "as": "A song is being sung by her." }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Present continuous passive uses 'is/am/are being + past participle'; 'is singing' becomes 'is being sung'.",
+      "as": "Present continuous ৰ passive হৈছে 'is/am/are being + past participle'; 'is singing' → 'is being sung'।"
+    }
+  },
+  {
+    "id": "voice-change-005",
+    "q": {
+      "en": "Change into passive voice: The boy is flying a kite.",
+      "as": "Passive voice লৈ সলনি কৰক: The boy is flying a kite."
+    },
+    "options": [
+      { "en": "A kite was being flown by the boy.", "as": "A kite was being flown by the boy." },
+      { "en": "A kite is being flown by the boy.", "as": "A kite is being flown by the boy." },
+      { "en": "A kite is being fly by the boy.", "as": "A kite is being fly by the boy." },
+      { "en": "A kite has been flown by the boy.", "as": "A kite has been flown by the boy." }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Present continuous passive uses 'is being + past participle'; 'is flying' becomes 'is being flown'.",
+      "as": "Present continuous ৰ passive হৈছে 'is being + past participle'; 'is flying' → 'is being flown'।"
+    }
+  },
+  {
+    "id": "voice-change-006",
+    "q": {
+      "en": "Change into passive voice: He has finished the work.",
+      "as": "Passive voice লৈ সলনি কৰক: He has finished the work."
+    },
+    "options": [
+      { "en": "The work has been finished by him.", "as": "The work has been finished by him." },
+      { "en": "The work has finished by him.", "as": "The work has finished by him." },
+      { "en": "The work was finished by him.", "as": "The work was finished by him." },
+      { "en": "The work is finished by him.", "as": "The work is finished by him." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Present perfect passive uses 'has/have been + past participle'.",
+      "as": "Present perfect ৰ passive হৈছে 'has/have been + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-007",
+    "q": {
+      "en": "Change into passive voice: They have completed the project.",
+      "as": "Passive voice লৈ সলনি কৰক: They have completed the project."
+    },
+    "options": [
+      { "en": "The project had been completed by them.", "as": "The project had been completed by them." },
+      { "en": "The project was completed by them.", "as": "The project was completed by them." },
+      { "en": "The project has been completed by them.", "as": "The project has been completed by them." },
+      { "en": "The project has completed by them.", "as": "The project has completed by them." }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Present perfect passive uses 'have been + past participle'.",
+      "as": "Present perfect ৰ passive হৈছে 'have been + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-008",
+    "q": {
+      "en": "Change into passive voice: She wrote a letter.",
+      "as": "Passive voice লৈ সলনি কৰক: She wrote a letter."
+    },
+    "options": [
+      { "en": "A letter is written by her.", "as": "A letter is written by her." },
+      { "en": "A letter has been written by her.", "as": "A letter has been written by her." },
+      { "en": "A letter was wrote by her.", "as": "A letter was wrote by her." },
+      { "en": "A letter was written by her.", "as": "A letter was written by her." }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Simple past passive uses 'was/were + past participle'; 'wrote' becomes 'was written'.",
+      "as": "Simple past ৰ passive হৈছে 'was/were + past participle'; 'wrote' → 'was written'।"
+    }
+  },
+  {
+    "id": "voice-change-009",
+    "q": {
+      "en": "Change into passive voice: He broke the window.",
+      "as": "Passive voice লৈ সলনি কৰক: He broke the window."
+    },
+    "options": [
+      { "en": "The window is broken by him.", "as": "The window is broken by him." },
+      { "en": "The window was broken by him.", "as": "The window was broken by him." },
+      { "en": "The window was break by him.", "as": "The window was break by him." },
+      { "en": "The window had broken by him.", "as": "The window had broken by him." }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Simple past passive uses 'was + past participle'; 'broke' becomes 'was broken'.",
+      "as": "Simple past ৰ passive হৈছে 'was + past participle'; 'broke' → 'was broken'।"
+    }
+  },
+  {
+    "id": "voice-change-010",
+    "q": {
+      "en": "Change into passive voice: They were watching a movie.",
+      "as": "Passive voice লৈ সলনি কৰক: They were watching a movie."
+    },
+    "options": [
+      { "en": "A movie was being watched by them.", "as": "A movie was being watched by them." },
+      { "en": "A movie was watched by them.", "as": "A movie was watched by them." },
+      { "en": "A movie is being watched by them.", "as": "A movie is being watched by them." },
+      { "en": "A movie had been watched by them.", "as": "A movie had been watched by them." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Past continuous passive uses 'was/were being + past participle'.",
+      "as": "Past continuous ৰ passive হৈছে 'was/were being + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-011",
+    "q": {
+      "en": "Change into passive voice: She was cooking food.",
+      "as": "Passive voice লৈ সলনি কৰক: She was cooking food."
+    },
+    "options": [
+      { "en": "Food was cooked by her.", "as": "Food was cooked by her." },
+      { "en": "Food is being cooked by her.", "as": "Food is being cooked by her." },
+      { "en": "Food was being cooked by her.", "as": "Food was being cooked by her." },
+      { "en": "Food has been cooked by her.", "as": "Food has been cooked by her." }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Past continuous passive uses 'was being + past participle'; 'was cooking' becomes 'was being cooked'.",
+      "as": "Past continuous ৰ passive হৈছে 'was being + past participle'; 'was cooking' → 'was being cooked'।"
+    }
+  },
+  {
+    "id": "voice-change-012",
+    "q": {
+      "en": "Change into passive voice: He had finished the work.",
+      "as": "Passive voice লৈ সলনি কৰক: He had finished the work."
+    },
+    "options": [
+      { "en": "The work has been finished by him.", "as": "The work has been finished by him." },
+      { "en": "The work was finished by him.", "as": "The work was finished by him." },
+      { "en": "The work had finished by him.", "as": "The work had finished by him." },
+      { "en": "The work had been finished by him.", "as": "The work had been finished by him." }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Past perfect passive uses 'had been + past participle'.",
+      "as": "Past perfect ৰ passive হৈছে 'had been + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-013",
+    "q": {
+      "en": "Change into passive voice: She will write a letter.",
+      "as": "Passive voice লৈ সলনি কৰক: She will write a letter."
+    },
+    "options": [
+      { "en": "A letter will be written by her.", "as": "A letter will be written by her." },
+      { "en": "A letter will written by her.", "as": "A letter will written by her." },
+      { "en": "A letter would be written by her.", "as": "A letter would be written by her." },
+      { "en": "A letter is written by her.", "as": "A letter is written by her." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Simple future passive uses 'will be + past participle'.",
+      "as": "Simple future ৰ passive হৈছে 'will be + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-014",
+    "q": {
+      "en": "Change into passive voice: They will win the match.",
+      "as": "Passive voice লৈ সলনি কৰক: They will win the match."
+    },
+    "options": [
+      { "en": "The match will won by them.", "as": "The match will won by them." },
+      { "en": "The match will be won by them.", "as": "The match will be won by them." },
+      { "en": "The match would be won by them.", "as": "The match would be won by them." },
+      { "en": "The match is won by them.", "as": "The match is won by them." }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Simple future passive uses 'will be + past participle'; 'will win' becomes 'will be won'.",
+      "as": "Simple future ৰ passive হৈছে 'will be + past participle'; 'will win' → 'will be won'।"
+    }
+  },
+  {
+    "id": "voice-change-015",
+    "q": {
+      "en": "Change into passive voice: He will have completed the task.",
+      "as": "Passive voice লৈ সলনি কৰক: He will have completed the task."
+    },
+    "options": [
+      { "en": "The task will be completed by him.", "as": "The task will be completed by him." },
+      { "en": "The task will have completed by him.", "as": "The task will have completed by him." },
+      { "en": "The task will have been completed by him.", "as": "The task will have been completed by him." },
+      { "en": "The task has been completed by him.", "as": "The task has been completed by him." }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Future perfect passive uses 'will have been + past participle'.",
+      "as": "Future perfect ৰ passive হৈছে 'will have been + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-016",
+    "q": {
+      "en": "Change into passive voice: You must obey the rules.",
+      "as": "Passive voice লৈ সলনি কৰক: You must obey the rules."
+    },
+    "options": [
+      { "en": "The rules must obey by you.", "as": "The rules must obey by you." },
+      { "en": "The rules should be obeyed by you.", "as": "The rules should be obeyed by you." },
+      { "en": "The rules are obeyed by you.", "as": "The rules are obeyed by you." },
+      { "en": "The rules must be obeyed by you.", "as": "The rules must be obeyed by you." }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "With modals, passive is formed as 'modal + be + past participle'.",
+      "as": "Modal ৰ সৈতে passive হয় 'modal + be + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-017",
+    "q": {
+      "en": "Change into passive voice: She can solve the problem.",
+      "as": "Passive voice লৈ সলনি কৰক: She can solve the problem."
+    },
+    "options": [
+      { "en": "The problem can be solved by her.", "as": "The problem can be solved by her." },
+      { "en": "The problem can solve by her.", "as": "The problem can solve by her." },
+      { "en": "The problem could be solved by her.", "as": "The problem could be solved by her." },
+      { "en": "The problem is solved by her.", "as": "The problem is solved by her." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "With 'can', passive is 'can be + past participle'.",
+      "as": "'Can' ৰ সৈতে passive হয় 'can be + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-018",
+    "q": {
+      "en": "Change into passive voice: He should help the poor.",
+      "as": "Passive voice লৈ সলনি কৰক: He should help the poor."
+    },
+    "options": [
+      { "en": "The poor should help by him.", "as": "The poor should help by him." },
+      { "en": "The poor can be helped by him.", "as": "The poor can be helped by him." },
+      { "en": "The poor should be helped by him.", "as": "The poor should be helped by him." },
+      { "en": "The poor is helped by him.", "as": "The poor is helped by him." }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "With 'should', passive is 'should be + past participle'.",
+      "as": "'Should' ৰ সৈতে passive হয় 'should be + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-019",
+    "q": {
+      "en": "Change into passive voice: May I take your pen?",
+      "as": "Passive voice লৈ সলনি কৰক: May I take your pen?"
+    },
+    "options": [
+      { "en": "May your pen taken by me?", "as": "May your pen taken by me?" },
+      { "en": "May your pen be taken by me?", "as": "May your pen be taken by me?" },
+      { "en": "May your pen is taken by me?", "as": "May your pen is taken by me?" },
+      { "en": "May your pen was taken by me?", "as": "May your pen was taken by me?" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In modal questions, passive is 'modal + subject + be + past participle'.",
+      "as": "Modal প্ৰশ্নত passive হয় 'modal + subject + be + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-020",
+    "q": {
+      "en": "Change into passive voice: Open the door.",
+      "as": "Passive voice লৈ সলনি কৰক: Open the door."
+    },
+    "options": [
+      { "en": "The door is opened.", "as": "The door is opened." },
+      { "en": "The door was opened.", "as": "The door was opened." },
+      { "en": "Let the door open.", "as": "Let the door open." },
+      { "en": "Let the door be opened.", "as": "Let the door be opened." }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Imperative sentences become 'Let + object + be + past participle'.",
+      "as": "Imperative বাক্য হয় 'Let + object + be + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-021",
+    "q": {
+      "en": "Change into passive voice: Do not waste time.",
+      "as": "Passive voice লৈ সলনি কৰক: Do not waste time."
+    },
+    "options": [
+      { "en": "Let time not be wasted.", "as": "Let time not be wasted." },
+      { "en": "Time is not wasted.", "as": "Time is not wasted." },
+      { "en": "Let time not waste.", "as": "Let time not waste." },
+      { "en": "Time was not wasted.", "as": "Time was not wasted." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Negative imperative becomes 'Let + object + not be + past participle'.",
+      "as": "নেতিবাচক imperative হয় 'Let + object + not be + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-022",
+    "q": {
+      "en": "Change into passive voice: Please help me.",
+      "as": "Passive voice লৈ সলনি কৰক: Please help me."
+    },
+    "options": [
+      { "en": "Let me be helped.", "as": "Let me be helped." },
+      { "en": "I am requested to help.", "as": "I am requested to help." },
+      { "en": "You are requested to help me.", "as": "You are requested to help me." },
+      { "en": "Let me help you.", "as": "Let me help you." }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Requests with 'Please' become 'You are requested to + verb'.",
+      "as": "'Please' থকা অনুৰোধ হয় 'You are requested to + verb'।"
+    }
+  },
+  {
+    "id": "voice-change-023",
+    "q": {
+      "en": "Change into passive voice: Who wrote this letter?",
+      "as": "Passive voice লৈ সলনি কৰক: Who wrote this letter?"
+    },
+    "options": [
+      { "en": "Who was this letter written?", "as": "Who was this letter written?" },
+      { "en": "By whom was this letter written?", "as": "By whom was this letter written?" },
+      { "en": "Whom was this letter written?", "as": "Whom was this letter written?" },
+      { "en": "By who this letter was written?", "as": "By who this letter was written?" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Wh-questions in passive: 'By whom + helping verb + subject + past participle'.",
+      "as": "Passive ত Wh-প্ৰশ্ন: 'By whom + helping verb + subject + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-024",
+    "q": {
+      "en": "Change into passive voice: What did you see?",
+      "as": "Passive voice লৈ সলনি কৰক: What did you see?"
+    },
+    "options": [
+      { "en": "What is seen by you?", "as": "What is seen by you?" },
+      { "en": "What has seen by you?", "as": "What has seen by you?" },
+      { "en": "What were seen by you?", "as": "What were seen by you?" },
+      { "en": "What was seen by you?", "as": "What was seen by you?" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Past interrogative passive uses 'was/were + subject + past participle'.",
+      "as": "Past interrogative ৰ passive হৈছে 'was/were + subject + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-025",
+    "q": {
+      "en": "Change into passive voice: The teacher teaches us English.",
+      "as": "Passive voice লৈ সলনি কৰক: The teacher teaches us English."
+    },
+    "options": [
+      { "en": "We are taught English by the teacher.", "as": "We are taught English by the teacher." },
+      { "en": "We were taught English by the teacher.", "as": "We were taught English by the teacher." },
+      { "en": "We are teached English by the teacher.", "as": "We are teached English by the teacher." },
+      { "en": "We have taught English by the teacher.", "as": "We have taught English by the teacher." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The indirect object 'us' becomes the subject in the simple present passive.",
+      "as": "Simple present passive ত পৰোক্ষ কৰ্ম 'us' কৰ্তা হয়।"
+    }
+  },
+  {
+    "id": "voice-change-026",
+    "q": {
+      "en": "Change into passive voice: People speak English all over the world.",
+      "as": "Passive voice লৈ সলনি কৰক: People speak English all over the world."
+    },
+    "options": [
+      { "en": "English was spoken all over the world.", "as": "English was spoken all over the world." },
+      { "en": "English is speak all over the world.", "as": "English is speak all over the world." },
+      { "en": "English is spoken all over the world.", "as": "English is spoken all over the world." },
+      { "en": "English has spoken all over the world.", "as": "English has spoken all over the world." }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "When the doer is unknown or general, the 'by' phrase is omitted.",
+      "as": "কৰ্তা অজ্ঞাত বা সাধাৰণ হ'লে 'by' বাক্যাংশ বাদ দিয়া হয়।"
+    }
+  },
+  {
+    "id": "voice-change-027",
+    "q": {
+      "en": "Change into passive voice: Someone has stolen my pen.",
+      "as": "Passive voice লৈ সলনি কৰক: Someone has stolen my pen."
+    },
+    "options": [
+      { "en": "My pen was stolen.", "as": "My pen was stolen." },
+      { "en": "My pen has been stolen.", "as": "My pen has been stolen." },
+      { "en": "My pen has stolen.", "as": "My pen has stolen." },
+      { "en": "My pen is stolen.", "as": "My pen is stolen." }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Present perfect passive without agent when the doer is unknown.",
+      "as": "কৰ্তা অজ্ঞাত হ'লে কৰ্তা অবিহনে present perfect ৰ passive হয়।"
+    }
+  },
+  {
+    "id": "voice-change-028",
+    "q": {
+      "en": "Change into passive voice: They are building a new bridge.",
+      "as": "Passive voice লৈ সলনি কৰক: They are building a new bridge."
+    },
+    "options": [
+      { "en": "A new bridge was being built.", "as": "A new bridge was being built." },
+      { "en": "A new bridge is built.", "as": "A new bridge is built." },
+      { "en": "A new bridge has been built.", "as": "A new bridge has been built." },
+      { "en": "A new bridge is being built.", "as": "A new bridge is being built." }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Present continuous passive; the agent is omitted as it is general.",
+      "as": "Present continuous ৰ passive; কৰ্তা সাধাৰণ হোৱাৰ বাবে বাদ দিয়া হয়।"
+    }
+  },
+  {
+    "id": "voice-change-029",
+    "q": {
+      "en": "Change into passive voice: We must respect our elders.",
+      "as": "Passive voice লৈ সলনি কৰক: We must respect our elders."
+    },
+    "options": [
+      { "en": "Our elders must be respected.", "as": "Our elders must be respected." },
+      { "en": "Our elders must respect.", "as": "Our elders must respect." },
+      { "en": "Our elders should be respected.", "as": "Our elders should be respected." },
+      { "en": "Our elders are respected.", "as": "Our elders are respected." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Modal 'must' takes 'must be + past participle' in the passive.",
+      "as": "Modal 'must' য়ে passive ত 'must be + past participle' লয়।"
+    }
+  },
+  {
+    "id": "voice-change-030",
+    "q": {
+      "en": "Change into passive voice: He gave me a book.",
+      "as": "Passive voice লৈ সলনি কৰক: He gave me a book."
+    },
+    "options": [
+      { "en": "A book is given to me by him.", "as": "A book is given to me by him." },
+      { "en": "I am given a book by him.", "as": "I am given a book by him." },
+      { "en": "I was given a book by him.", "as": "I was given a book by him." },
+      { "en": "I have given a book by him.", "as": "I have given a book by him." }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The indirect object 'me' can become the subject in the passive: 'I was given'.",
+      "as": "Passive ত পৰোক্ষ কৰ্ম 'me' কৰ্তা হ'ব পাৰে: 'I was given'।"
+    }
+  },
+  {
+    "id": "voice-change-031",
+    "q": {
+      "en": "Change into passive voice: She told me a story.",
+      "as": "Passive voice লৈ সলনি কৰক: She told me a story."
+    },
+    "options": [
+      { "en": "I am told a story by her.", "as": "I am told a story by her." },
+      { "en": "A story was told me by her.", "as": "A story was told me by her." },
+      { "en": "I have told a story by her.", "as": "I have told a story by her." },
+      { "en": "I was told a story by her.", "as": "I was told a story by her." }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The indirect object 'me' becomes the subject; simple past passive is used.",
+      "as": "পৰোক্ষ কৰ্ম 'me' কৰ্তা হয়; simple past ৰ passive ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "voice-change-032",
+    "q": {
+      "en": "Change into passive voice: The cat killed the rat.",
+      "as": "Passive voice লৈ সলনি কৰক: The cat killed the rat."
+    },
+    "options": [
+      { "en": "The rat is killed by the cat.", "as": "The rat is killed by the cat." },
+      { "en": "The rat was killed by the cat.", "as": "The rat was killed by the cat." },
+      { "en": "The rat was kill by the cat.", "as": "The rat was kill by the cat." },
+      { "en": "The rat had killed by the cat.", "as": "The rat had killed by the cat." }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Simple past passive uses 'was/were + past participle'.",
+      "as": "Simple past ৰ passive হৈছে 'was/were + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-033",
+    "q": {
+      "en": "Change into passive voice: Mother is making tea.",
+      "as": "Passive voice লৈ সলনি কৰক: Mother is making tea."
+    },
+    "options": [
+      { "en": "Tea is being made by mother.", "as": "Tea is being made by mother." },
+      { "en": "Tea was being made by mother.", "as": "Tea was being made by mother." },
+      { "en": "Tea is made by mother.", "as": "Tea is made by mother." },
+      { "en": "Tea has been made by mother.", "as": "Tea has been made by mother." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Present continuous passive uses 'is being + past participle'.",
+      "as": "Present continuous ৰ passive হৈছে 'is being + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-034",
+    "q": {
+      "en": "Change into passive voice: The children have eaten the cakes.",
+      "as": "Passive voice লৈ সলনি কৰক: The children have eaten the cakes."
+    },
+    "options": [
+      { "en": "The cakes were eaten by the children.", "as": "The cakes were eaten by the children." },
+      { "en": "The cakes have eaten by the children.", "as": "The cakes have eaten by the children." },
+      { "en": "The cakes have been eaten by the children.", "as": "The cakes have been eaten by the children." },
+      { "en": "The cakes are eaten by the children.", "as": "The cakes are eaten by the children." }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Present perfect passive uses 'have been + past participle'.",
+      "as": "Present perfect ৰ passive হৈছে 'have been + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-035",
+    "q": {
+      "en": "Change into passive voice: I will finish the work tomorrow.",
+      "as": "Passive voice লৈ সলনি কৰক: I will finish the work tomorrow."
+    },
+    "options": [
+      { "en": "The work is finished by me tomorrow.", "as": "The work is finished by me tomorrow." },
+      { "en": "The work will finished by me tomorrow.", "as": "The work will finished by me tomorrow." },
+      { "en": "The work would be finished by me tomorrow.", "as": "The work would be finished by me tomorrow." },
+      { "en": "The work will be finished by me tomorrow.", "as": "The work will be finished by me tomorrow." }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Simple future passive uses 'will be + past participle', retaining the time phrase.",
+      "as": "Simple future ৰ passive হৈছে 'will be + past participle', সময়ৰ বাক্যাংশ ৰখা হয়।"
+    }
+  },
+  {
+    "id": "voice-change-036",
+    "q": {
+      "en": "Change into passive voice: He can speak English.",
+      "as": "Passive voice লৈ সলনি কৰক: He can speak English."
+    },
+    "options": [
+      { "en": "English can speak by him.", "as": "English can speak by him." },
+      { "en": "English can be spoken by him.", "as": "English can be spoken by him." },
+      { "en": "English could be spoken by him.", "as": "English could be spoken by him." },
+      { "en": "English is spoken by him.", "as": "English is spoken by him." }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Modal 'can' takes 'can be + past participle' in the passive.",
+      "as": "Modal 'can' য়ে passive ত 'can be + past participle' লয়।"
+    }
+  },
+  {
+    "id": "voice-change-037",
+    "q": {
+      "en": "Change into passive voice: They may help us.",
+      "as": "Passive voice লৈ সলনি কৰক: They may help us."
+    },
+    "options": [
+      { "en": "We may be helped by them.", "as": "We may be helped by them." },
+      { "en": "We may help by them.", "as": "We may help by them." },
+      { "en": "We might be helped by them.", "as": "We might be helped by them." },
+      { "en": "We are helped by them.", "as": "We are helped by them." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Modal 'may' takes 'may be + past participle' in the passive.",
+      "as": "Modal 'may' য়ে passive ত 'may be + past participle' লয়।"
+    }
+  },
+  {
+    "id": "voice-change-038",
+    "q": {
+      "en": "Change into passive voice: She must have done it.",
+      "as": "Passive voice লৈ সলনি কৰক: She must have done it."
+    },
+    "options": [
+      { "en": "It must be done by her.", "as": "It must be done by her." },
+      { "en": "It must have done by her.", "as": "It must have done by her." },
+      { "en": "It must have been done by her.", "as": "It must have been done by her." },
+      { "en": "It should have been done by her.", "as": "It should have been done by her." }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Modal perfect passive uses 'must have been + past participle'.",
+      "as": "Modal perfect ৰ passive হৈছে 'must have been + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-039",
+    "q": {
+      "en": "Change into passive voice: He is going to buy a car.",
+      "as": "Passive voice লৈ সলনি কৰক: He is going to buy a car."
+    },
+    "options": [
+      { "en": "A car is bought by him.", "as": "A car is bought by him." },
+      { "en": "A car is going to be bought by him.", "as": "A car is going to be bought by him." },
+      { "en": "A car was going to be bought by him.", "as": "A car was going to be bought by him." },
+      { "en": "A car is going to bought by him.", "as": "A car is going to bought by him." }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Going to' passive is formed as 'is going to be + past participle'.",
+      "as": "'Going to' ৰ passive হয় 'is going to be + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-040",
+    "q": {
+      "en": "Change into passive voice: The hunter killed a tiger.",
+      "as": "Passive voice লৈ সলনি কৰক: The hunter killed a tiger."
+    },
+    "options": [
+      { "en": "A tiger is killed by the hunter.", "as": "A tiger is killed by the hunter." },
+      { "en": "A tiger was kill by the hunter.", "as": "A tiger was kill by the hunter." },
+      { "en": "A tiger has been killed by the hunter.", "as": "A tiger has been killed by the hunter." },
+      { "en": "A tiger was killed by the hunter.", "as": "A tiger was killed by the hunter." }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Simple past passive uses 'was + past participle'.",
+      "as": "Simple past ৰ passive হৈছে 'was + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-041",
+    "q": {
+      "en": "Change into passive voice: We should not tell a lie.",
+      "as": "Passive voice লৈ সলনি কৰক: We should not tell a lie."
+    },
+    "options": [
+      { "en": "A lie should not be told.", "as": "A lie should not be told." },
+      { "en": "A lie should not tell.", "as": "A lie should not tell." },
+      { "en": "A lie is not told.", "as": "A lie is not told." },
+      { "en": "A lie should not told.", "as": "A lie should not told." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Negative modal passive is 'should not be + past participle'.",
+      "as": "নেতিবাচক modal passive হৈছে 'should not be + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-042",
+    "q": {
+      "en": "Change into passive voice: Did she write the letter?",
+      "as": "Passive voice লৈ সলনি কৰক: Did she write the letter?"
+    },
+    "options": [
+      { "en": "Did the letter written by her?", "as": "Did the letter written by her?" },
+      { "en": "Was the letter write by her?", "as": "Was the letter write by her?" },
+      { "en": "Was the letter written by her?", "as": "Was the letter written by her?" },
+      { "en": "Is the letter written by her?", "as": "Is the letter written by her?" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Past interrogative passive is 'Was/Were + subject + past participle'.",
+      "as": "Past interrogative ৰ passive হৈছে 'Was/Were + subject + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-043",
+    "q": {
+      "en": "Change into passive voice: Has he finished the work?",
+      "as": "Passive voice লৈ সলনি কৰক: Has he finished the work?"
+    },
+    "options": [
+      { "en": "Has the work finished by him?", "as": "Has the work finished by him?" },
+      { "en": "Has the work been finished by him?", "as": "Has the work been finished by him?" },
+      { "en": "Was the work finished by him?", "as": "Was the work finished by him?" },
+      { "en": "Is the work finished by him?", "as": "Is the work finished by him?" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Present perfect interrogative passive is 'Has/Have + subject + been + past participle'.",
+      "as": "Present perfect interrogative ৰ passive হৈছে 'Has/Have + subject + been + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-044",
+    "q": {
+      "en": "Change into passive voice: Will they complete the project?",
+      "as": "Passive voice লৈ সলনি কৰক: Will they complete the project?"
+    },
+    "options": [
+      { "en": "Was the project completed by them?", "as": "Was the project completed by them?" },
+      { "en": "Will the project completed by them?", "as": "Will the project completed by them?" },
+      { "en": "Is the project completed by them?", "as": "Is the project completed by them?" },
+      { "en": "Will the project be completed by them?", "as": "Will the project be completed by them?" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Future interrogative passive is 'Will + subject + be + past participle'.",
+      "as": "Future interrogative ৰ passive হৈছে 'Will + subject + be + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-045",
+    "q": {
+      "en": "Change into passive voice: Why did you break the glass?",
+      "as": "Passive voice লৈ সলনি কৰক: Why did you break the glass?"
+    },
+    "options": [
+      { "en": "Why was the glass broken by you?", "as": "Why was the glass broken by you?" },
+      { "en": "Why was the glass break by you?", "as": "Why was the glass break by you?" },
+      { "en": "Why the glass was broken by you?", "as": "Why the glass was broken by you?" },
+      { "en": "Why is the glass broken by you?", "as": "Why is the glass broken by you?" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Wh-question in past passive is 'Why + was + subject + past participle'.",
+      "as": "Past passive ত Wh-প্ৰশ্ন হৈছে 'Why + was + subject + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-046",
+    "q": {
+      "en": "Change into passive voice: The teacher praised him.",
+      "as": "Passive voice লৈ সলনি কৰক: The teacher praised him."
+    },
+    "options": [
+      { "en": "He is praised by the teacher.", "as": "He is praised by the teacher." },
+      { "en": "He has praised by the teacher.", "as": "He has praised by the teacher." },
+      { "en": "He was praised by the teacher.", "as": "He was praised by the teacher." },
+      { "en": "He was praise by the teacher.", "as": "He was praise by the teacher." }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Simple past passive uses 'was + past participle'.",
+      "as": "Simple past ৰ passive হৈছে 'was + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-047",
+    "q": {
+      "en": "Change into passive voice: She keeps a diary.",
+      "as": "Passive voice লৈ সলনি কৰক: She keeps a diary."
+    },
+    "options": [
+      { "en": "A diary was kept by her.", "as": "A diary was kept by her." },
+      { "en": "A diary is kept by her.", "as": "A diary is kept by her." },
+      { "en": "A diary is keep by her.", "as": "A diary is keep by her." },
+      { "en": "A diary has kept by her.", "as": "A diary has kept by her." }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Simple present passive uses 'is + past participle'; 'keeps' becomes 'is kept'.",
+      "as": "Simple present ৰ passive হৈছে 'is + past participle'; 'keeps' → 'is kept'।"
+    }
+  },
+  {
+    "id": "voice-change-048",
+    "q": {
+      "en": "Change into passive voice: They will have finished the work.",
+      "as": "Passive voice লৈ সলনি কৰক: They will have finished the work."
+    },
+    "options": [
+      { "en": "The work will be finished by them.", "as": "The work will be finished by them." },
+      { "en": "The work will have finished by them.", "as": "The work will have finished by them." },
+      { "en": "The work has been finished by them.", "as": "The work has been finished by them." },
+      { "en": "The work will have been finished by them.", "as": "The work will have been finished by them." }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Future perfect passive uses 'will have been + past participle'.",
+      "as": "Future perfect ৰ passive হৈছে 'will have been + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-049",
+    "q": {
+      "en": "Change into passive voice: You ought to respect your parents.",
+      "as": "Passive voice লৈ সলনি কৰক: You ought to respect your parents."
+    },
+    "options": [
+      { "en": "Your parents ought to be respected.", "as": "Your parents ought to be respected." },
+      { "en": "Your parents ought to respect.", "as": "Your parents ought to respect." },
+      { "en": "Your parents should be respected.", "as": "Your parents should be respected." },
+      { "en": "Your parents are respected.", "as": "Your parents are respected." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Ought to' passive is formed as 'ought to be + past participle'.",
+      "as": "'Ought to' ৰ passive হয় 'ought to be + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-050",
+    "q": {
+      "en": "Change into passive voice: Somebody stole my bicycle.",
+      "as": "Passive voice লৈ সলনি কৰক: Somebody stole my bicycle."
+    },
+    "options": [
+      { "en": "My bicycle is stolen.", "as": "My bicycle is stolen." },
+      { "en": "My bicycle has stolen.", "as": "My bicycle has stolen." },
+      { "en": "My bicycle was stolen.", "as": "My bicycle was stolen." },
+      { "en": "My bicycle was steal.", "as": "My bicycle was steal." }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "When the doer is unknown, the agent 'by somebody' is omitted.",
+      "as": "কৰ্তা অজ্ঞাত হ'লে কৰ্তা 'by somebody' বাদ দিয়া হয়।"
+    }
+  },
+  {
+    "id": "voice-change-051",
+    "q": {
+      "en": "Change into passive voice: All the students attended the class.",
+      "as": "Passive voice লৈ সলনি কৰক: All the students attended the class."
+    },
+    "options": [
+      { "en": "The class is attended by all the students.", "as": "The class is attended by all the students." },
+      { "en": "The class was attended by all the students.", "as": "The class was attended by all the students." },
+      { "en": "The class has attended by all the students.", "as": "The class has attended by all the students." },
+      { "en": "The class was attend by all the students.", "as": "The class was attend by all the students." }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Simple past passive uses 'was + past participle'.",
+      "as": "Simple past ৰ passive হৈছে 'was + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-052",
+    "q": {
+      "en": "Change into passive voice: She was reading a novel.",
+      "as": "Passive voice লৈ সলনি কৰক: She was reading a novel."
+    },
+    "options": [
+      { "en": "A novel was read by her.", "as": "A novel was read by her." },
+      { "en": "A novel is being read by her.", "as": "A novel is being read by her." },
+      { "en": "A novel has been read by her.", "as": "A novel has been read by her." },
+      { "en": "A novel was being read by her.", "as": "A novel was being read by her." }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Past continuous passive uses 'was being + past participle'.",
+      "as": "Past continuous ৰ passive হৈছে 'was being + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-053",
+    "q": {
+      "en": "Change into passive voice: He has written a novel.",
+      "as": "Passive voice লৈ সলনি কৰক: He has written a novel."
+    },
+    "options": [
+      { "en": "A novel has been written by him.", "as": "A novel has been written by him." },
+      { "en": "A novel has written by him.", "as": "A novel has written by him." },
+      { "en": "A novel was written by him.", "as": "A novel was written by him." },
+      { "en": "A novel is written by him.", "as": "A novel is written by him." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Present perfect passive uses 'has been + past participle'.",
+      "as": "Present perfect ৰ passive হৈছে 'has been + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-054",
+    "q": {
+      "en": "Change into passive voice: They had won the match.",
+      "as": "Passive voice লৈ সলনি কৰক: They had won the match."
+    },
+    "options": [
+      { "en": "The match has been won by them.", "as": "The match has been won by them." },
+      { "en": "The match was won by them.", "as": "The match was won by them." },
+      { "en": "The match had been won by them.", "as": "The match had been won by them." },
+      { "en": "The match had won by them.", "as": "The match had won by them." }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Past perfect passive uses 'had been + past participle'.",
+      "as": "Past perfect ৰ passive হৈছে 'had been + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-055",
+    "q": {
+      "en": "Change into passive voice: I will help you.",
+      "as": "Passive voice লৈ সলনি কৰক: I will help you."
+    },
+    "options": [
+      { "en": "You will helped by me.", "as": "You will helped by me." },
+      { "en": "You will be helped by me.", "as": "You will be helped by me." },
+      { "en": "You would be helped by me.", "as": "You would be helped by me." },
+      { "en": "You are helped by me.", "as": "You are helped by me." }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Simple future passive uses 'will be + past participle'.",
+      "as": "Simple future ৰ passive হৈছে 'will be + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-056",
+    "q": {
+      "en": "Change into passive voice: The boy laughed at the beggar.",
+      "as": "Passive voice লৈ সলনি কৰক: The boy laughed at the beggar."
+    },
+    "options": [
+      { "en": "The beggar was laughed at by the boy.", "as": "The beggar was laughed at by the boy." },
+      { "en": "The beggar was laughed by the boy.", "as": "The beggar was laughed by the boy." },
+      { "en": "The beggar is laughed at by the boy.", "as": "The beggar is laughed at by the boy." },
+      { "en": "The beggar laughed at by the boy.", "as": "The beggar laughed at by the boy." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Prepositional verbs keep the preposition in the passive: 'laughed at'.",
+      "as": "Prepositional verb এ passive ত preposition ৰাখে: 'laughed at'।"
+    }
+  },
+  {
+    "id": "voice-change-057",
+    "q": {
+      "en": "Change into passive voice: Someone is knocking at the door.",
+      "as": "Passive voice লৈ সলনি কৰক: Someone is knocking at the door."
+    },
+    "options": [
+      { "en": "The door is knocked at.", "as": "The door is knocked at." },
+      { "en": "The door was being knocked at.", "as": "The door was being knocked at." },
+      { "en": "The door has been knocked at.", "as": "The door has been knocked at." },
+      { "en": "The door is being knocked at.", "as": "The door is being knocked at." }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Present continuous passive is used and the preposition 'at' is retained.",
+      "as": "Present continuous ৰ passive ব্যৱহাৰ হয় আৰু preposition 'at' ৰখা হয়।"
+    }
+  },
+  {
+    "id": "voice-change-058",
+    "q": {
+      "en": "Change into passive voice: He looks after his parents.",
+      "as": "Passive voice লৈ সলনি কৰক: He looks after his parents."
+    },
+    "options": [
+      { "en": "His parents are looked by him.", "as": "His parents are looked by him." },
+      { "en": "His parents were looked after by him.", "as": "His parents were looked after by him." },
+      { "en": "His parents are looked after by him.", "as": "His parents are looked after by him." },
+      { "en": "His parents are look after by him.", "as": "His parents are look after by him." }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The phrasal verb 'look after' keeps 'after' in the passive.",
+      "as": "Phrasal verb 'look after' এ passive ত 'after' ৰাখে।"
+    }
+  },
+  {
+    "id": "voice-change-059",
+    "q": {
+      "en": "Change into passive voice: We expect good news.",
+      "as": "Passive voice লৈ সলনি কৰক: We expect good news."
+    },
+    "options": [
+      { "en": "Good news was expected by us.", "as": "Good news was expected by us." },
+      { "en": "Good news is expected by us.", "as": "Good news is expected by us." },
+      { "en": "Good news is expect by us.", "as": "Good news is expect by us." },
+      { "en": "Good news has expected by us.", "as": "Good news has expected by us." }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Simple present passive uses 'is + past participle'.",
+      "as": "Simple present ৰ passive হৈছে 'is + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-060",
+    "q": {
+      "en": "Change into passive voice: They made him captain.",
+      "as": "Passive voice লৈ সলনি কৰক: They made him captain."
+    },
+    "options": [
+      { "en": "He was made captain by them.", "as": "He was made captain by them." },
+      { "en": "He is made captain by them.", "as": "He is made captain by them." },
+      { "en": "He was make captain by them.", "as": "He was make captain by them." },
+      { "en": "He has made captain by them.", "as": "He has made captain by them." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In 'make + object + noun', the passive keeps the noun: 'was made captain'.",
+      "as": "'Make + object + noun' ত passive এ noun ৰাখে: 'was made captain'।"
+    }
+  },
+  {
+    "id": "voice-change-061",
+    "q": {
+      "en": "Change into passive voice: People believe that he is honest.",
+      "as": "Passive voice লৈ সলনি কৰক: People believe that he is honest."
+    },
+    "options": [
+      { "en": "He is believed to honest.", "as": "He is believed to honest." },
+      { "en": "He was believed to be honest.", "as": "He was believed to be honest." },
+      { "en": "It was believed that he is honest.", "as": "It was believed that he is honest." },
+      { "en": "It is believed that he is honest.", "as": "It is believed that he is honest." }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Impersonal passive is formed with 'It is believed that...'.",
+      "as": "Impersonal passive হয় 'It is believed that...' ৰে।"
+    }
+  },
+  {
+    "id": "voice-change-062",
+    "q": {
+      "en": "Change into passive voice: She accused him of theft.",
+      "as": "Passive voice লৈ সলনি কৰক: She accused him of theft."
+    },
+    "options": [
+      { "en": "He is accused of theft by her.", "as": "He is accused of theft by her." },
+      { "en": "He was accuse of theft by her.", "as": "He was accuse of theft by her." },
+      { "en": "He was accused of theft by her.", "as": "He was accused of theft by her." },
+      { "en": "He has accused of theft by her.", "as": "He has accused of theft by her." }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Simple past passive uses 'was accused of'.",
+      "as": "Simple past ৰ passive হৈছে 'was accused of'।"
+    }
+  },
+  {
+    "id": "voice-change-063",
+    "q": {
+      "en": "Change into passive voice: The police arrested the thief.",
+      "as": "Passive voice লৈ সলনি কৰক: The police arrested the thief."
+    },
+    "options": [
+      { "en": "The thief is arrested by the police.", "as": "The thief is arrested by the police." },
+      { "en": "The thief was arrested by the police.", "as": "The thief was arrested by the police." },
+      { "en": "The thief was arrest by the police.", "as": "The thief was arrest by the police." },
+      { "en": "The thief has arrested by the police.", "as": "The thief has arrested by the police." }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Simple past passive uses 'was + past participle'.",
+      "as": "Simple past ৰ passive হৈছে 'was + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-064",
+    "q": {
+      "en": "Change into passive voice: We must not waste our time.",
+      "as": "Passive voice লৈ সলনি কৰক: We must not waste our time."
+    },
+    "options": [
+      { "en": "Our time must not waste.", "as": "Our time must not waste." },
+      { "en": "Our time should not be wasted.", "as": "Our time should not be wasted." },
+      { "en": "Our time is not wasted.", "as": "Our time is not wasted." },
+      { "en": "Our time must not be wasted.", "as": "Our time must not be wasted." }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Negative modal passive is 'must not be + past participle'.",
+      "as": "নেতিবাচক modal passive হৈছে 'must not be + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-065",
+    "q": {
+      "en": "Change into passive voice: Do it now.",
+      "as": "Passive voice লৈ সলনি কৰক: Do it now."
+    },
+    "options": [
+      { "en": "Let it be done now.", "as": "Let it be done now." },
+      { "en": "It is done now.", "as": "It is done now." },
+      { "en": "Let it done now.", "as": "Let it done now." },
+      { "en": "It was done now.", "as": "It was done now." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Imperative passive is 'Let + object + be + past participle'.",
+      "as": "Imperative ৰ passive হৈছে 'Let + object + be + past participle'।"
+    }
+  },
+  {
+    "id": "voice-change-066",
+    "q": {
+      "en": "Change into passive voice: He teaches us grammar.",
+      "as": "Passive voice লৈ সলনি কৰক: He teaches us grammar."
+    },
+    "options": [
+      { "en": "We were taught grammar by him.", "as": "We were taught grammar by him." },
+      { "en": "We are teached grammar by him.", "as": "We are teached grammar by him." },
+      { "en": "We are taught grammar by him.", "as": "We are taught grammar by him." },
+      { "en": "We have taught grammar by him.", "as": "We have taught grammar by him." }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The indirect object 'us' becomes the subject in the simple present passive.",
+      "as": "Simple present passive ত পৰোক্ষ কৰ্ম 'us' কৰ্তা হয়।"
+    }
+  },
+  {
+    "id": "voice-change-067",
+    "q": {
+      "en": "Change into passive voice: She sent me a gift.",
+      "as": "Passive voice লৈ সলনি কৰক: She sent me a gift."
+    },
+    "options": [
+      { "en": "I am sent a gift by her.", "as": "I am sent a gift by her." },
+      { "en": "I was sent a gift by her.", "as": "I was sent a gift by her." },
+      { "en": "I was send a gift by her.", "as": "I was send a gift by her." },
+      { "en": "I have sent a gift by her.", "as": "I have sent a gift by her." }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The indirect object 'me' becomes the subject; simple past passive is used.",
+      "as": "পৰোক্ষ কৰ্ম 'me' কৰ্তা হয়; simple past ৰ passive ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "voice-change-068",
+    "q": {
+      "en": "Change into passive voice: They are repairing the road.",
+      "as": "Passive voice লৈ সলনি কৰক: They are repairing the road."
+    },
+    "options": [
+      { "en": "The road was being repaired.", "as": "The road was being repaired." },
+      { "en": "The road is repaired.", "as": "The road is repaired." },
+      { "en": "The road has been repaired.", "as": "The road has been repaired." },
+      { "en": "The road is being repaired.", "as": "The road is being repaired." }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Present continuous passive is used and the agent is omitted.",
+      "as": "Present continuous ৰ passive ব্যৱহাৰ হয় আৰু কৰ্তা বাদ দিয়া হয়।"
+    }
+  },
+  {
+    "id": "voice-change-069",
+    "q": {
+      "en": "Change into passive voice: Nobody can do it.",
+      "as": "Passive voice লৈ সলনি কৰক: Nobody can do it."
+    },
+    "options": [
+      { "en": "It cannot be done by anybody.", "as": "It cannot be done by anybody." },
+      { "en": "It can not done by anybody.", "as": "It can not done by anybody." },
+      { "en": "It cannot do by anybody.", "as": "It cannot do by anybody." },
+      { "en": "It could not be done by anybody.", "as": "It could not be done by anybody." }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Nobody' becomes 'not...anybody' in the negative passive.",
+      "as": "'Nobody' য়ে নেতিবাচক passive ত 'not...anybody' ৰ ৰূপ লয়।"
+    }
+  },
+  {
+    "id": "voice-change-070",
+    "q": {
+      "en": "Change into passive voice: The farmer grows rice.",
+      "as": "Passive voice লৈ সলনি কৰক: The farmer grows rice."
+    },
+    "options": [
+      { "en": "Rice was grown by the farmer.", "as": "Rice was grown by the farmer." },
+      { "en": "Rice is grow by the farmer.", "as": "Rice is grow by the farmer." },
+      { "en": "Rice is grown by the farmer.", "as": "Rice is grown by the farmer." },
+      { "en": "Rice has grown by the farmer.", "as": "Rice has grown by the farmer." }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Simple present passive uses 'is + past participle'; 'grows' becomes 'is grown'.",
+      "as": "Simple present ৰ passive হৈছে 'is + past participle'; 'grows' → 'is grown'।"
+    }
   }
-}
+]
