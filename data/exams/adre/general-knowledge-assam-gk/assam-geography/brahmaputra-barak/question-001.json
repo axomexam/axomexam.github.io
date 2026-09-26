@@ -1,30 +1,4502 @@
-{
-  "id": "brahmaputra-barak-001",
-  "q": {
-    "en": "Which is the longest river of Assam?",
-    "as": "অসমৰ আটাইতকৈ দীঘল নদী কোনখন?"
-  },
-  "options": [
-    {
-      "en": "Barak",
-      "as": "বৰাক"
+[
+  {
+    "id": "brahmaputra-barak-001",
+    "q": {
+      "en": "Which is the longest river of Assam?",
+      "as": "অসমৰ আটাইতকৈ দীঘল নদী কোনখন?"
     },
-    {
-      "en": "Brahmaputra",
-      "as": "ব্ৰহ্মপুত্ৰ"
-    },
-    {
-      "en": "Subansiri",
-      "as": "সুবনশিৰি"
-    },
-    {
-      "en": "Dhansiri",
-      "as": "ধনশিৰি"
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra is the longest river of Assam.",
+      "as": "ব্ৰহ্মপুত্ৰ অসমৰ আটাইতকৈ দীঘল নদী।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "The Brahmaputra is the longest river of Assam.",
-    "as": "ব্ৰহ্মপুত্ৰ অসমৰ আটাইতকৈ দীঘল নদী।"
+  },
+  {
+    "id": "brahmaputra-barak-002",
+    "q": {
+      "en": "By what Assamese name is the Brahmaputra river popularly known?",
+      "as": "ব্ৰহ্মপুত্ৰ নদী অসমীয়াত কেতিয়া জনপ্ৰিয়ভাৱে পৰিচিত?"
+    },
+    "options": [
+      {
+        "en": "Luit",
+        "as": "লুইত"
+      },
+      {
+        "en": "Jamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Dihang",
+        "as": "দিহাং"
+      },
+      {
+        "en": "Tsangpo",
+        "as": "ছাংপো"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra is popularly called Luit in Assamese.",
+      "as": "ব্ৰহ্মপুত্ৰক অসমীয়াত লুইত বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-003",
+    "q": {
+      "en": "The Brahmaputra river originates from which glacier?",
+      "as": "ব্ৰহ্মপুত্ৰ নদী কোনখন গ্লেচিয়াৰৰ পৰা উৎপত্তি হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Yamunotri Glacier",
+        "as": "যমুনোত্ৰী গ্লেচিয়াৰ"
+      },
+      {
+        "en": "Siachen Glacier",
+        "as": "ছিয়াচেন গ্লেচিয়াৰ"
+      },
+      {
+        "en": "Angsi Glacier",
+        "as": "আংছি গ্লেচিয়াৰ"
+      },
+      {
+        "en": "Gangotri Glacier",
+        "as": "গংগোত্ৰী গ্লেচিয়াৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Brahmaputra originates from the Angsi Glacier in Tibet.",
+      "as": "ব্ৰহ্মপুত্ৰ তিব্বতৰ আংছি গ্লেচিয়াৰৰ পৰা উৎপত্তি হৈছে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-004",
+    "q": {
+      "en": "What is the Brahmaputra called in Tibet?",
+      "as": "তিব্বতত ব্ৰহ্মপুত্ৰক কি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Yarlung Tsangpo",
+        "as": "য়াৰলুং ছাংপো"
+      },
+      {
+        "en": "Jamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Siang",
+        "as": "ছিয়াং"
+      },
+      {
+        "en": "Dihang",
+        "as": "দিহাং"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In Tibet the Brahmaputra is known as Yarlung Tsangpo.",
+      "as": "তিব্বতত ব্ৰহ্মপুত্ৰক যাৰলুং ছাংপো বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-005",
+    "q": {
+      "en": "In Arunachal Pradesh, the Brahmaputra is known as:",
+      "as": "অৰুণাচল প্ৰদেশত ব্ৰহ্মপুত্ৰক কি বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Tsangpo",
+        "as": "ছাংপো"
+      },
+      {
+        "en": "Siang or Dihang",
+        "as": "ছিয়াং বা দিহাং"
+      },
+      {
+        "en": "Luit",
+        "as": "লুইত"
+      },
+      {
+        "en": "Jamuna",
+        "as": "যমুনা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In Arunachal Pradesh the river is called Siang or Dihang.",
+      "as": "অৰুণাচল প্ৰদেশত নদীখনক ছিয়াং বা দিহাং বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-006",
+    "q": {
+      "en": "In Bangladesh, the Brahmaputra is known as:",
+      "as": "বাংলাদেশত ব্ৰহ্মপুত্ৰক কি বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Jamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Kushiyara",
+        "as": "কুশিয়াৰা"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Surma",
+        "as": "সুৰ্মা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In Bangladesh the Brahmaputra is known as the Jamuna.",
+      "as": "বাংলাদেশত ব্ৰহ্মপুত্ৰক যমুনা বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-007",
+    "q": {
+      "en": "The Brahmaputra enters the Assam plains near which place?",
+      "as": "ব্ৰহ্মপুত্ৰ অসমৰ সমতলত কোন ঠাইৰ ওচৰত প্ৰৱেশ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Sadiya",
+        "as": "শদিয়া"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Brahmaputra enters the Assam plains near Sadiya.",
+      "as": "ব্ৰহ্মপুত্ৰ শদিয়াৰ ওচৰত অসমৰ সমতলত প্ৰৱেশ কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-008",
+    "q": {
+      "en": "What is the approximate total length of the Brahmaputra river?",
+      "as": "ব্ৰহ্মপুত্ৰ নদীৰ সৰ্বমুঠ দীঘল প্ৰায় কিমান?"
+    },
+    "options": [
+      {
+        "en": "About 2900 km",
+        "as": "প্ৰায় ২৯০০ কিলোমিটাৰ"
+      },
+      {
+        "en": "About 1500 km",
+        "as": "প্ৰায় ১৫০০ কিলোমিটাৰ"
+      },
+      {
+        "en": "About 900 km",
+        "as": "প্ৰায় ৯০০ কিলোমিটাৰ"
+      },
+      {
+        "en": "About 640 km",
+        "as": "প্ৰায় ৬৪০ কিলোমিটাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The total length of the Brahmaputra is about 2900 km.",
+      "as": "ব্ৰহ্মপুত্ৰৰ সৰ্বমুঠ দীঘল প্ৰায় ২৯০০ কিলোমিটাৰ।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-009",
+    "q": {
+      "en": "What is the approximate length of the Brahmaputra within Assam?",
+      "as": "অসমৰ ভিতৰত ব্ৰহ্মপুত্ৰৰ দীঘল প্ৰায় কিমান?"
+    },
+    "options": [
+      {
+        "en": "About 200 km",
+        "as": "প্ৰায় ২০০ কিলোমিটাৰ"
+      },
+      {
+        "en": "About 1200 km",
+        "as": "প্ৰায় ১২০০ কিলোমিটাৰ"
+      },
+      {
+        "en": "About 450 km",
+        "as": "প্ৰায় ৪৫০ কিলোমিটাৰ"
+      },
+      {
+        "en": "About 640 km",
+        "as": "প্ৰায় ৬৪০ কিলোমিটাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Brahmaputra flows for about 640 km within Assam.",
+      "as": "ব্ৰহ্মপুত্ৰ অসমৰ ভিতৰত প্ৰায় ৬৪০ কিলোমিটাৰ বৈ যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-010",
+    "q": {
+      "en": "In which direction does the Brahmaputra flow through the Assam valley?",
+      "as": "অসম উপত্যকাত ব্ৰহ্মপুত্ৰ কোন দিশে বৈ যায়?"
+    },
+    "options": [
+      {
+        "en": "West to East",
+        "as": "পশ্চিমৰ পৰা পূবলৈ"
+      },
+      {
+        "en": "North to South",
+        "as": "উত্তৰৰ পৰা দক্ষিণলৈ"
+      },
+      {
+        "en": "South to North",
+        "as": "দক্ষিণৰ পৰা উত্তৰলৈ"
+      },
+      {
+        "en": "East to West",
+        "as": "পূবৰ পৰা পশ্চিমলৈ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Brahmaputra flows roughly from east to west through Assam.",
+      "as": "ব্ৰহ্মপুত্ৰ অসমৰ মাজেৰে প্ৰায় পূবৰ পৰা পশ্চিমলৈ বৈ যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-011",
+    "q": {
+      "en": "What does the name 'Brahmaputra' literally mean?",
+      "as": "'ব্ৰহ্মপুত্ৰ' নামৰ আক্ষৰিক অৰ্থ কি?"
+    },
+    "options": [
+      {
+        "en": "Long river",
+        "as": "দীঘল নদী"
+      },
+      {
+        "en": "Great river",
+        "as": "মহানদী"
+      },
+      {
+        "en": "Son of Brahma",
+        "as": "ব্ৰহ্মাৰ পুত্ৰ"
+      },
+      {
+        "en": "Holy water",
+        "as": "পবিত্ৰ জল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Brahmaputra means 'son of Brahma'.",
+      "as": "ব্ৰহ্মপুত্ৰৰ অৰ্থ 'ব্ৰহ্মাৰ পুত্ৰ'।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-012",
+    "q": {
+      "en": "The Brahmaputra is formed by the confluence of which rivers?",
+      "as": "ব্ৰহ্মপুত্ৰ কোনবোৰ নদীৰ সংগমত গঠিত হয়?"
+    },
+    "options": [
+      {
+        "en": "Barak and Sonai",
+        "as": "বৰাক আৰু সোণাই"
+      },
+      {
+        "en": "Surma and Kushiyara",
+        "as": "সুৰ্মা আৰু কুশিয়াৰা"
+      },
+      {
+        "en": "Dihang, Dibang and Lohit",
+        "as": "দিহাং, দিবাং আৰু লোহিত"
+      },
+      {
+        "en": "Ganga and Yamuna",
+        "as": "গংগা আৰু যমুনা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Brahmaputra is formed by the confluence of the Dihang, Dibang and Lohit.",
+      "as": "ব্ৰহ্মপুত্ৰ দিহাং, দিবাং আৰু লোহিতৰ সংগমত গঠিত হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-013",
+    "q": {
+      "en": "Near which town do the Dihang, Dibang and Lohit rivers meet?",
+      "as": "দিহাং, দিবাং আৰু লোহিত নদী কোন নগৰৰ ওচৰত মিলিত হয়?"
+    },
+    "options": [
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Sadiya",
+        "as": "শদিয়া"
+      },
+      {
+        "en": "Pasighat",
+        "as": "পাছিঘাট"
+      },
+      {
+        "en": "Tinsukia",
+        "as": "তিনিচুকীয়া"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "They meet near Sadiya in Assam.",
+      "as": "সেয়া অসমৰ শদিয়াৰ ওচৰত মিলিত হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-014",
+    "q": {
+      "en": "The Brahmaputra is best described as which type of river?",
+      "as": "ব্ৰহ্মপুত্ৰক কোন প্ৰকাৰৰ নদী বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Underground river",
+        "as": "ভূমিগত নদী"
+      },
+      {
+        "en": "Braided river",
+        "as": "বিনত নদী"
+      },
+      {
+        "en": "Artificial canal",
+        "as": "কৃত্ৰিম খাল"
+      },
+      {
+        "en": "Glacial lake",
+        "as": "হিমবাহ হ্ৰদ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Brahmaputra is a classic braided river.",
+      "as": "ব্ৰহ্মপুত্ৰ এটা প্ৰকৃত বিনত নদী।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-015",
+    "q": {
+      "en": "The Brahmaputra valley is also known as:",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকাক কি বুলিও জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Barak Valley",
+        "as": "বৰাক উপত্যকা"
+      },
+      {
+        "en": "Surma Valley",
+        "as": "সুৰ্মা উপত্যকা"
+      },
+      {
+        "en": "Doab",
+        "as": "দোৱাব"
+      },
+      {
+        "en": "Assam Valley",
+        "as": "অসম উপত্যকা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Brahmaputra valley is also called the Assam Valley.",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকাক অসম উপত্যকাও বোলা হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-016",
+    "q": {
+      "en": "Through which countries does the Brahmaputra river flow?",
+      "as": "ব্ৰহ্মপুত্ৰ নদী কোনবোৰ দেশৰ মাজেৰে বৈ যায়?"
+    },
+    "options": [
+      {
+        "en": "India and Myanmar only",
+        "as": "কেৱল ভাৰত আৰু ম্যানমাৰ"
+      },
+      {
+        "en": "China and Bhutan only",
+        "as": "কেৱল চীন আৰু ভূটান"
+      },
+      {
+        "en": "China, India and Bangladesh",
+        "as": "চীন, ভাৰত আৰু বাংলাদেশ"
+      },
+      {
+        "en": "India and Nepal only",
+        "as": "কেৱল ভাৰত আৰু নেপাল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Brahmaputra flows through China (Tibet), India and Bangladesh.",
+      "as": "ব্ৰহ্মপুত্ৰ চীন (তিব্বত), ভাৰত আৰু বাংলাদেশৰ মাজেৰে বৈ যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-017",
+    "q": {
+      "en": "In Bangladesh, the Brahmaputra joins which major river?",
+      "as": "বাংলাদেশত ব্ৰহ্মপুত্ৰ কোন প্ৰধান নদীৰ সৈতে মিলিত হয়?"
+    },
+    "options": [
+      {
+        "en": "Meghna",
+        "as": "মেঘনা"
+      },
+      {
+        "en": "Ganga (Padma)",
+        "as": "গংগা (পদ্মা)"
+      },
+      {
+        "en": "Karnaphuli",
+        "as": "কৰ্ণফুলী"
+      },
+      {
+        "en": "Teesta",
+        "as": "তিস্তা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Brahmaputra joins the Ganga (Padma) in Bangladesh.",
+      "as": "ব্ৰহ্মপুত্ৰ বাংলাদেশত গংগা (পদ্মা)ৰ সৈতে মিলিত হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-018",
+    "q": {
+      "en": "The combined flow of the Brahmaputra and the Ganga is known as:",
+      "as": "ব্ৰহ্মপুত্ৰ আৰু গংগাৰ মিলিত প্ৰবাহক কি বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Padma",
+        "as": "পদ্মা"
+      },
+      {
+        "en": "Meghna",
+        "as": "মেঘনা"
+      },
+      {
+        "en": "Surma",
+        "as": "সুৰ্মা"
+      },
+      {
+        "en": "Jamuna",
+        "as": "যমুনা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Their combined flow forms the Meghna.",
+      "as": "সেইবোৰৰ মিলিত প্ৰবাহে মেঘনা গঠন কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-019",
+    "q": {
+      "en": "National Waterway 2 (NW-2) is on which river?",
+      "as": "ৰাষ্ট্ৰীয় জলপথ ২ (NW-2) কোন নদীত আছে?"
+    },
+    "options": [
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "NW-2 runs along the Brahmaputra.",
+      "as": "NW-2 ব্ৰহ্মপুত্ৰৰ কাষেৰে চলি যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-020",
+    "q": {
+      "en": "National Waterway 2 connects which two places in Assam?",
+      "as": "ৰাষ্ট্ৰীয় জলপথ ২ এ অসমৰ কোন দুখন ঠাই সংযোগ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Silchar and Karimganj",
+        "as": "শিলচৰ আৰু কৰিমগঞ্জ"
+      },
+      {
+        "en": "Dibrugarh and Jorhat",
+        "as": "ডিব্ৰুগড় আৰু যোৰহাট"
+      },
+      {
+        "en": "Sadiya and Dhubri",
+        "as": "শদিয়া আৰু ধুবুৰী"
+      },
+      {
+        "en": "Guwahati and Tezpur",
+        "as": "গুৱাহাটী আৰু তেজপুৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "NW-2 runs from Sadiya to Dhubri.",
+      "as": "NW-2 শদিয়াৰ পৰা ধুবুৰীলৈ চলে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-021",
+    "q": {
+      "en": "Which is the largest river island in the world?",
+      "as": "বিশ্বৰ আটাইতকৈ ডাঙৰ নদী-দ্বীপ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Umananda",
+        "as": "উমানন্দ"
+      },
+      {
+        "en": "Peacock Island",
+        "as": "ময়ূৰ দ্বীপ"
+      },
+      {
+        "en": "Bhashmachala",
+        "as": "ভস্মাচল"
+      },
+      {
+        "en": "Majuli",
+        "as": "মাজুলী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Majuli is the largest river island in the world.",
+      "as": "মাজুলী বিশ্বৰ আটাইতকৈ ডাঙৰ নদী-দ্বীপ।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-022",
+    "q": {
+      "en": "Majuli island is formed by the Brahmaputra and which other river?",
+      "as": "মাজুলী দ্বীপ ব্ৰহ্মপুত্ৰ আৰু আন কোন নদীৰ দ্বাৰা গঠিত?"
+    },
+    "options": [
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Kopili",
+        "as": "ক'পিলি"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      },
+      {
+        "en": "Manas",
+        "as": "মানস"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Majuli is formed by the Brahmaputra and the Subansiri.",
+      "as": "মাজুলী ব্ৰহ্মপুত্ৰ আৰু সুবনশিৰিৰ দ্বাৰা গঠিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-023",
+    "q": {
+      "en": "Majuli was declared a district of Assam in which year?",
+      "as": "মাজুলীক কোন বছৰত অসমৰ জিলা ঘোষণা কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2010",
+        "as": "২০১০"
+      },
+      {
+        "en": "1990",
+        "as": "১৯৯০"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2001",
+        "as": "২০০১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Majuli became a district in 2016.",
+      "as": "মাজুলী ২০১৬ চনত জিলা হৈছিল।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-024",
+    "q": {
+      "en": "Which island in the Brahmaputra at Guwahati is also called Peacock Island?",
+      "as": "গুৱাহাটীত ব্ৰহ্মপুত্ৰৰ কোন দ্বীপক ময়ূৰ দ্বীপ বুলিও কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Majuli",
+        "as": "মাজুলী"
+      },
+      {
+        "en": "Dibru",
+        "as": "ডিব্ৰু"
+      },
+      {
+        "en": "Bhashmachala",
+        "as": "ভস্মাচল"
+      },
+      {
+        "en": "Umananda",
+        "as": "উমানন্দ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Umananda island is also known as Peacock Island.",
+      "as": "উমানন্দ দ্বীপক ময়ূৰ দ্বীপ বুলিও জনা যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-025",
+    "q": {
+      "en": "Umananda island is located in which city?",
+      "as": "উমানন্দ দ্বীপ কোন নগৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Umananda island lies in the Brahmaputra at Guwahati.",
+      "as": "উমানন্দ দ্বীপ গুৱাহাটীত ব্ৰহ্মপুত্ৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-026",
+    "q": {
+      "en": "Majuli is a major centre of which saint's Vaishnavite culture?",
+      "as": "মাজুলী কোনজন গুৰুৰ বৈষ্ণৱ সংস্কৃতিৰ প্ৰধান কেন্দ্ৰ?"
+    },
+    "options": [
+      {
+        "en": "Madhavdeva only",
+        "as": "কেৱল মাধৱদেৱ"
+      },
+      {
+        "en": "Tulsidas",
+        "as": "তুলসীদাস"
+      },
+      {
+        "en": "Srimanta Sankardeva",
+        "as": "শ্ৰীমন্ত শংকৰদেৱ"
+      },
+      {
+        "en": "Chaitanya Mahaprabhu",
+        "as": "চৈতন্য মহাপ্ৰভু"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Majuli is a major centre of Srimanta Sankardeva's culture.",
+      "as": "মাজুলী শ্ৰীমন্ত শংকৰদেৱৰ সংস্কৃতিৰ প্ৰধান কেন্দ্ৰ।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-027",
+    "q": {
+      "en": "Majuli island is facing serious erosion due to:",
+      "as": "মাজুলী দ্বীপে কাৰণত গুৰুতৰ ভূমিক্ষয়ৰ সন্মুখীন হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra river",
+        "as": "ব্ৰহ্মপুত্ৰ নদী"
+      },
+      {
+        "en": "Earthquake only",
+        "as": "কেৱল ভূমিকম্প"
+      },
+      {
+        "en": "Volcanic activity",
+        "as": "আগ্নেয়গিৰি কাৰ্য্যকলাপ"
+      },
+      {
+        "en": "Deforestation only",
+        "as": "কেৱল বনাঞ্চল ধ্বংস"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Majuli is heavily eroded by the Brahmaputra.",
+      "as": "মাজুলী ব্ৰহ্মপুত্ৰৰ দ্বাৰা অত্যধিক ভূমিক্ষয়ৰ সন্মুখীন।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-028",
+    "q": {
+      "en": "Which was the first rail-cum-road bridge over the Brahmaputra?",
+      "as": "ব্ৰহ্মপুত্ৰৰ ওপৰত প্ৰথম ৰে'ল-পথ সেতু কোনটো আছিল?"
+    },
+    "options": [
+      {
+        "en": "Saraighat Bridge",
+        "as": "শৰাইঘাট সেতু"
+      },
+      {
+        "en": "Naranarayan Setu",
+        "as": "নৰনাৰায়ণ সেতু"
+      },
+      {
+        "en": "Bogibeel Bridge",
+        "as": "বগীবিল সেতু"
+      },
+      {
+        "en": "Kalia Bhomora Setu",
+        "as": "কলিয়া ভোমোৰা সেতু"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Saraighat Bridge was the first rail-cum-road bridge over the Brahmaputra.",
+      "as": "শৰাইঘাট সেতু ব্ৰহ্মপুত্ৰৰ ওপৰত প্ৰথম ৰে'ল-পথ সেতু আছিল।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-029",
+    "q": {
+      "en": "Saraighat Bridge is located in which city?",
+      "as": "শৰাইঘাট সেতু কোন নগৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Goalpara",
+        "as": "গোৱালপাৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Saraighat Bridge is at Guwahati.",
+      "as": "শৰাইঘাট সেতু গুৱাহাটীত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-030",
+    "q": {
+      "en": "Which is the longest bridge in India over water?",
+      "as": "পানীৰ ওপৰত ভাৰতৰ আটাইতকৈ দীঘল সেতু কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Kalia Bhomora Setu",
+        "as": "কলিয়া ভোমোৰা সেতু"
+      },
+      {
+        "en": "Saraighat Bridge",
+        "as": "শৰাইঘাট সেতু"
+      },
+      {
+        "en": "Bhupen Hazarika Setu (Dhola-Sadiya)",
+        "as": "ভূপেন হাজৰিকা সেতু (ধলা-শদিয়া)"
+      },
+      {
+        "en": "Bogibeel Bridge",
+        "as": "বগীবিল সেতু"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Dhola-Sadiya bridge, named Bhupen Hazarika Setu, is India's longest bridge.",
+      "as": "ধলা-শদিয়া সেতু, ভূপেন হাজৰিকা সেতু নামে পৰিচিত, ভাৰতৰ আটাইতকৈ দীঘল সেতু।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-031",
+    "q": {
+      "en": "The Bhupen Hazarika Setu (Dhola-Sadiya) connects which two places?",
+      "as": "ভূপেন হাজৰিকা সেতু (ধলা-শদিয়া) এ কোন দুখন ঠাই সংযোগ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Dhola and Sadiya",
+        "as": "ধলা আৰু শদিয়া"
+      },
+      {
+        "en": "Guwahati and Amingaon",
+        "as": "গুৱাহাটী আৰু আমিনগাঁও"
+      },
+      {
+        "en": "Tezpur and Nagaon",
+        "as": "তেজপুৰ আৰু নগাঁও"
+      },
+      {
+        "en": "Dibrugarh and Dhemaji",
+        "as": "ডিব্ৰুগড় আৰু ধেমাজি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "It connects Dhola and Sadiya.",
+      "as": "ই ধলা আৰু শদিয়া সংযোগ কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-032",
+    "q": {
+      "en": "Which is the longest rail-cum-road bridge in India?",
+      "as": "ভাৰতৰ আটাইতকৈ দীঘল ৰে'ল-পথ সেতু কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Saraighat Bridge",
+        "as": "শৰাইঘাট সেতু"
+      },
+      {
+        "en": "Bogibeel Bridge",
+        "as": "বগীবিল সেতু"
+      },
+      {
+        "en": "Naranarayan Setu",
+        "as": "নৰনাৰায়ণ সেতু"
+      },
+      {
+        "en": "Dhola-Sadiya Bridge",
+        "as": "ধলা-শদিয়া সেতু"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bogibeel Bridge is the longest rail-cum-road bridge in India.",
+      "as": "বগীবিল সেতু ভাৰতৰ আটাইতকৈ দীঘল ৰে'ল-পথ সেতু।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-033",
+    "q": {
+      "en": "Bogibeel Bridge is located over which river?",
+      "as": "বগীবিল সেতু কোন নদীৰ ওপৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bogibeel Bridge spans the Brahmaputra.",
+      "as": "বগীবিল সেতু ব্ৰহ্মপুত্ৰত বিস্তৃত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-034",
+    "q": {
+      "en": "Bogibeel Bridge connects which two districts?",
+      "as": "বগীবিল সেতু কোন দুখন জিলা সংযোগ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Tezpur and Nagaon",
+        "as": "তেজপুৰ আৰু নগাঁও"
+      },
+      {
+        "en": "Guwahati and Goalpara",
+        "as": "গুৱাহাটী আৰু গোৱালপাৰা"
+      },
+      {
+        "en": "Jorhat and Sivasagar",
+        "as": "যোৰহাট আৰু শিৱসাগৰ"
+      },
+      {
+        "en": "Dibrugarh and Dhemaji",
+        "as": "ডিব্ৰুগড় আৰু ধেমাজি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bogibeel connects Dibrugarh and Dhemaji districts.",
+      "as": "বগীবিলে ডিব্ৰুগড় আৰু ধেমাজি জিলা সংযোগ কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-035",
+    "q": {
+      "en": "Kalia Bhomora Setu is located in which city?",
+      "as": "কলিয়া ভোমোৰা সেতু কোন নগৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kalia Bhomora Setu is at Tezpur.",
+      "as": "কলিয়া ভোমোৰা সেতু তেজপুৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-036",
+    "q": {
+      "en": "Naranarayan Setu is located at which place?",
+      "as": "নৰনাৰায়ণ সেতু কোন ঠাইত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+      },
+      {
+        "en": "Jogighopa",
+        "as": "জোগীঘোপা"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Naranarayan Setu is at Jogighopa in Goalpara district.",
+      "as": "নৰনাৰায়ণ সেতু গোৱালপাৰা জিলাৰ জোগীঘোপাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-037",
+    "q": {
+      "en": "Which under-construction bridge will connect Dhubri and Phulbari?",
+      "as": "কোন নিৰ্মাণাধীন সেতুৱে ধুবুৰী আৰু ফুলবাৰী সংযোগ কৰিব?"
+    },
+    "options": [
+      {
+        "en": "Dhola-Sadiya Bridge",
+        "as": "ধলা-শদিয়া সেতু"
+      },
+      {
+        "en": "Dhubri-Phulbari Bridge",
+        "as": "ধুবুৰী-ফুলবাৰী সেতু"
+      },
+      {
+        "en": "Bogibeel Bridge",
+        "as": "বগীবিল সেতু"
+      },
+      {
+        "en": "Saraighat Bridge",
+        "as": "শৰাইঘাট সেতু"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Dhubri-Phulbari bridge is under construction over the Brahmaputra.",
+      "as": "ধুবুৰী-ফুলবাৰী সেতু ব্ৰহ্মপুত্ৰৰ ওপৰত নিৰ্মাণাধীন।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-038",
+    "q": {
+      "en": "The Brahmaputra river finally enters Bangladesh near which town?",
+      "as": "ব্ৰহ্মপুত্ৰ নদী শেষত কোন নগৰৰ ওচৰত বাংলাদেশত প্ৰৱেশ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra enters Bangladesh near Dhubri.",
+      "as": "ব্ৰহ্মপুত্ৰ ধুবুৰীৰ ওচৰত বাংলাদেশত প্ৰৱেশ কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-039",
+    "q": {
+      "en": "Which is the largest north bank tributary of the Brahmaputra?",
+      "as": "ব্ৰহ্মপুত্ৰৰ আটাইতকৈ ডাঙৰ উত্তৰ-পাৰৰ উপনদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Kopili",
+        "as": "ক'পিলি"
+      },
+      {
+        "en": "Kolong",
+        "as": "কলং"
+      },
+      {
+        "en": "Bhogdoi",
+        "as": "ভোগদৈ"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Subansiri is the largest north bank tributary.",
+      "as": "সুবনশিৰি আটাইতকৈ ডাঙৰ উত্তৰ-পাৰৰ উপনদী।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-040",
+    "q": {
+      "en": "The Subansiri river originates in:",
+      "as": "সুবনশিৰি নদী ক'ত উৎপত্তি হয়?"
+    },
+    "options": [
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "Tibet/Himalayas",
+        "as": "তিব্বত/হিমালয়"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Subansiri originates in the Himalayas/Tibet.",
+      "as": "সুবনশিৰি হিমালয়/তিব্বতত উৎপত্তি হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-041",
+    "q": {
+      "en": "The Lower Subansiri Hydroelectric Project is being built on which river?",
+      "as": "নিম্ন সুবনশিৰি জলবিদ্যুৎ প্ৰকল্প কোন নদীত নিৰ্মাণ কৰা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Kopili",
+        "as": "ক'পিলি"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "It is built on the Subansiri river.",
+      "as": "ই সুবনশিৰি নদীত নিৰ্মাণ কৰা হৈছে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-042",
+    "q": {
+      "en": "The Manas river is a tributary of which river?",
+      "as": "মানস নদী কোন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Manas is a tributary of the Brahmaputra.",
+      "as": "মানস ব্ৰহ্মপুত্ৰৰ উপনদী।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-043",
+    "q": {
+      "en": "The Manas river forms part of the border between India and which country?",
+      "as": "মানস নদী ভাৰত আৰু কোন দেশৰ মাজৰ সীমাৰ অংশ গঠন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Bhutan",
+        "as": "ভূটান"
+      },
+      {
+        "en": "Myanmar",
+        "as": "ম্যানমাৰ"
+      },
+      {
+        "en": "Nepal",
+        "as": "নেপাল"
+      },
+      {
+        "en": "China",
+        "as": "চীন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Manas forms part of the India-Bhutan border.",
+      "as": "মানস ভাৰত-ভূটান সীমাৰ অংশ গঠন কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-044",
+    "q": {
+      "en": "Manas National Park is located in which state?",
+      "as": "মানস ৰাষ্ট্ৰীয় উদ্যান কোন ৰাজ্যত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Manas National Park is in Assam.",
+      "as": "মানস ৰাষ্ট্ৰীয় উদ্যান অসমত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-045",
+    "q": {
+      "en": "The Sankosh river forms the boundary between Assam and which state?",
+      "as": "শোণকোশ নদীয়ে অসম আৰু কোন ৰাজ্যৰ সীমা গঠন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিমবঙ্গ"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "Bihar",
+        "as": "বিহাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Sankosh forms the Assam-West Bengal boundary.",
+      "as": "শোণকোশ অসম-পশ্চিমবঙ্গ সীমা গঠন কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-046",
+    "q": {
+      "en": "The Jia Bharali river flows through which district of Assam?",
+      "as": "জীয়া ভৰলী নদী অসমৰ কোন জিলাৰ মাজেৰে বৈ যায়?"
+    },
+    "options": [
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Sonitpur",
+        "as": "শোণিতপুৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Jia Bharali flows through Sonitpur district.",
+      "as": "জীয়া ভৰলী শোণিতপুৰ জিলাৰ মাজেৰে বৈ যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-047",
+    "q": {
+      "en": "The Puthimari is a tributary of which river?",
+      "as": "পুঠিমাৰী কোন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Kopili",
+        "as": "ক'পিলি"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Puthimari is a north bank tributary of the Brahmaputra.",
+      "as": "পুঠিমাৰী ব্ৰহ্মপুত্ৰৰ উত্তৰ-পাৰৰ উপনদী।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-048",
+    "q": {
+      "en": "The Beki river is associated with which district?",
+      "as": "বেকী নদী কোন জিলাৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Tinsukia",
+        "as": "তিনিচুকীয়া"
+      },
+      {
+        "en": "Karimganj",
+        "as": "কৰিমগঞ্জ"
+      },
+      {
+        "en": "Barpeta",
+        "as": "বৰপেটা"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Beki river flows through Barpeta district.",
+      "as": "বেকী নদী বৰপেটা জিলাৰ মাজেৰে বৈ যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-049",
+    "q": {
+      "en": "Which river forms the boundary between Assam and Bhutan in the west?",
+      "as": "পশ্চিমত অসম আৰু ভূটানৰ সীমা কোন নদীয়ে গঠন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Kopili",
+        "as": "ক'পিলি"
+      },
+      {
+        "en": "Sankosh",
+        "as": "শোণকোশ"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      },
+      {
+        "en": "Bhogdoi",
+        "as": "ভোগদৈ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Sankosh (and Manas) form the Assam-Bhutan border.",
+      "as": "শোণকোশ (আৰু মানস) অসম-ভূটান সীমা গঠন কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-050",
+    "q": {
+      "en": "The Dhansiri river joins the Brahmaputra near which place?",
+      "as": "ধনশিৰি নদী কোন ঠাইৰ ওচৰত ব্ৰহ্মপুত্ৰত মিলিত হয়?"
+    },
+    "options": [
+      {
+        "en": "Numaligarh",
+        "as": "নুমলীগড়"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Sadiya",
+        "as": "শদিয়া"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Dhansiri joins the Brahmaputra near Numaligarh.",
+      "as": "ধনশিৰি নুমলীগড়ৰ ওচৰত ব্ৰহ্মপুত্ৰত মিলিত হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-051",
+    "q": {
+      "en": "The Dhansiri river originates in which state?",
+      "as": "ধনশিৰি নদী কোন ৰাজ্যত উৎপত্তি হয়?"
+    },
+    "options": [
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "Mizoram",
+        "as": "মিজোৰাম"
+      },
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Dhansiri originates in Nagaland.",
+      "as": "ধনশিৰি নাগালেণ্ডত উৎপত্তি হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-052",
+    "q": {
+      "en": "The Doyang is a tributary of which river?",
+      "as": "দ'য়াং কোন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      },
+      {
+        "en": "Kopili",
+        "as": "ক'পিলি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Doyang is a tributary of the Dhansiri.",
+      "as": "দ'য়াং ধনশিৰিৰ উপনদী।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-053",
+    "q": {
+      "en": "The Ranganadi river flows mainly through which district?",
+      "as": "ৰঙানদী নদী মূলতঃ কোন জিলাৰ মাজেৰে বৈ যায়?"
+    },
+    "options": [
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Lakhimpur",
+        "as": "লখিমপুৰ"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Ranganadi flows through Lakhimpur district.",
+      "as": "ৰঙানদী লখিমপুৰ জিলাৰ মাজেৰে বৈ যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-054",
+    "q": {
+      "en": "The Dikrong river flows through which district?",
+      "as": "দিক্ৰং নদী কোন জিলাৰ মাজেৰে বৈ যায়?"
+    },
+    "options": [
+      {
+        "en": "Lakhimpur",
+        "as": "লখিমপুৰ"
+      },
+      {
+        "en": "Goalpara",
+        "as": "গোৱালপাৰা"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Karimganj",
+        "as": "কৰিমগঞ্জ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Dikrong flows through Lakhimpur and Sonitpur.",
+      "as": "দিক্ৰং লখিমপুৰ আৰু শোণিতপুৰৰ মাজেৰে বৈ যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-055",
+    "q": {
+      "en": "The Pagladiya river is a tributary of which river?",
+      "as": "পাগলাদিয়া নদী কোন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Kopili",
+        "as": "ক'পিলি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Pagladiya is a north bank tributary of the Brahmaputra.",
+      "as": "পাগলাদিয়া ব্ৰহ্মপুত্ৰৰ উত্তৰ-পাৰৰ উপনদী।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-056",
+    "q": {
+      "en": "The Champamati river is located in which district?",
+      "as": "চাম্পামতি নদী কোন জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Bongaigaon",
+        "as": "বঙাইগাঁও"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Champamati flows through Bongaigaon district.",
+      "as": "চাম্পামতি বঙাইগাঁও জিলাৰ মাজেৰে বৈ যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-057",
+    "q": {
+      "en": "Which is the largest south bank tributary of the Brahmaputra?",
+      "as": "ব্ৰহ্মপুত্ৰৰ আটাইতকৈ ডাঙৰ দক্ষিণ-পাৰৰ উপনদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Burhi Dihing",
+        "as": "বুঢ়ী দিহিং"
+      },
+      {
+        "en": "Jia Bharali",
+        "as": "জীয়া ভৰলী"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Burhi Dihing is the largest south bank tributary.",
+      "as": "বুঢ়ী দিহিং আটাইতকৈ ডাঙৰ দক্ষিণ-পাৰৰ উপনদী।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-058",
+    "q": {
+      "en": "The Burhi Dihing river flows through which district?",
+      "as": "বুঢ়ী দিহিং নদী কোন জিলাৰ মাজেৰে বৈ যায়?"
+    },
+    "options": [
+      {
+        "en": "Karimganj",
+        "as": "কৰিমগঞ্জ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Barpeta",
+        "as": "বৰপেটা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Burhi Dihing flows through Dibrugarh and Tinsukia.",
+      "as": "বুঢ়ী দিহিং ডিব্ৰুগড় আৰু তিনিচুকীয়াৰ মাজেৰে বৈ যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-059",
+    "q": {
+      "en": "The Kopili river joins the Brahmaputra in which district?",
+      "as": "ক'পিলি নদী কোন জিলাত ব্ৰহ্মপুত্ৰত মিলিত হয়?"
+    },
+    "options": [
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Lakhimpur",
+        "as": "লখিমপুৰ"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Kopili joins the Brahmaputra in Nagaon district.",
+      "as": "ক'পিলি নগাঁও জিলাত ব্ৰহ্মপুত্ৰত মিলিত হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-060",
+    "q": {
+      "en": "The Kopili river originates in which state?",
+      "as": "ক'পিলি নদী কোন ৰাজ্যত উৎপত্তি হয়?"
+    },
+    "options": [
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "Tripura",
+        "as": "ত্ৰিপুৰা"
+      },
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Kopili originates in Meghalaya.",
+      "as": "ক'পিলি মেঘালয়ত উৎপত্তি হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-061",
+    "q": {
+      "en": "The Kolong river is associated with which district?",
+      "as": "কলং নদী কোন জিলাৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Goalpara",
+        "as": "গোৱালপাৰা"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Kolong is associated with Nagaon district.",
+      "as": "কলং নগাঁও জিলাৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-062",
+    "q": {
+      "en": "The Bhogdoi river flows through which district?",
+      "as": "ভোগদৈ নদী কোন জিলাৰ মাজেৰে বৈ যায়?"
+    },
+    "options": [
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Nalbari",
+        "as": "নলবাৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Bhogdoi flows through Jorhat district.",
+      "as": "ভোগদৈ যোৰহাট জিলাৰ মাজেৰে বৈ যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-063",
+    "q": {
+      "en": "The Dikhow river is associated with which district?",
+      "as": "দিখৌ নদী কোন জিলাৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Barpeta",
+        "as": "বৰপেটা"
+      },
+      {
+        "en": "Karimganj",
+        "as": "কৰিমগঞ্জ"
+      },
+      {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Dikhow flows through Sivasagar district.",
+      "as": "দিখৌ শিৱসাগৰ জিলাৰ মাজেৰে বৈ যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-064",
+    "q": {
+      "en": "The Krishnai river is located in which district?",
+      "as": "কৃষ্ণাই নদী কোন জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Goalpara",
+        "as": "গোৱালপাৰা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Krishnai flows through Goalpara district.",
+      "as": "কৃষ্ণাই গোৱালপাৰা জিলাৰ মাজেৰে বৈ যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-065",
+    "q": {
+      "en": "The Dudhnoi river is a tributary of which river?",
+      "as": "দুধনৈ নদী কোন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Dudhnoi is a south bank tributary of the Brahmaputra.",
+      "as": "দুধনৈ ব্ৰহ্মপুত্ৰৰ দক্ষিণ-পাৰৰ উপনদী।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-066",
+    "q": {
+      "en": "The Bharalu river flows through which city?",
+      "as": "ভৰলু নদী কোন নগৰৰ মাজেৰে বৈ যায়?"
+    },
+    "options": [
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Bharalu flows through Guwahati.",
+      "as": "ভৰলু গুৱাহাটীৰ মাজেৰে বৈ যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-067",
+    "q": {
+      "en": "Deepor Beel, a Ramsar wetland, is located near which city?",
+      "as": "দীপৰ বিল, এটা ৰামছাৰ জলভূমি, কোন নগৰৰ ওচৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Deepor Beel is near Guwahati.",
+      "as": "দীপৰ বিল গুৱাহাটীৰ ওচৰত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-068",
+    "q": {
+      "en": "Which river is the natural habitat of the Ganges River Dolphin in Assam?",
+      "as": "অসমত গংগা নদী ডলফিনৰ প্ৰাকৃতিক বাসস্থান কোন নদী?"
+    },
+    "options": [
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Brahmaputra is a major habitat of the Ganges River Dolphin.",
+      "as": "ব্ৰহ্মপুত্ৰ গংগা নদী ডলফিনৰ প্ৰধান বাসস্থান।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-069",
+    "q": {
+      "en": "The Ganges River Dolphin is the national aquatic animal of India. It is found in the:",
+      "as": "গংগা নদী ডলফিন ভাৰতৰ ৰাষ্ট্ৰীয় জলজ প্ৰাণী। ই ক'ত পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Subansiri only",
+        "as": "কেৱল সুবনশিৰি"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Manas only",
+        "as": "কেৱল মানস"
+      },
+      {
+        "en": "Barak only",
+        "as": "কেৱল বৰাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "It is found in the Brahmaputra among other rivers.",
+      "as": "ই অন্য নদীৰ লগতে ব্ৰহ্মপুত্ৰতো পোৱা যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-070",
+    "q": {
+      "en": "Kaziranga National Park lies on which bank of the Brahmaputra?",
+      "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ কোন পাৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "South bank",
+        "as": "দক্ষিণ পাৰ"
+      },
+      {
+        "en": "Both banks",
+        "as": "দুয়ো পাৰ"
+      },
+      {
+        "en": "North bank",
+        "as": "উত্তৰ পাৰ"
+      },
+      {
+        "en": "Neither bank",
+        "as": "কোনো পাৰতে নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kaziranga lies on the south bank of the Brahmaputra.",
+      "as": "কাজিৰঙা ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-071",
+    "q": {
+      "en": "Pobitora Wildlife Sanctuary is located in which district?",
+      "as": "পবিতৰা অভয়াৰণ্য কোন জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Morigaon",
+        "as": "মৰিগাঁও"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Pobitora Wildlife Sanctuary is in Morigaon district.",
+      "as": "পবিতৰা অভয়াৰণ্য মৰিগাঁও জিলাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-072",
+    "q": {
+      "en": "Orang National Park lies on which bank of the Brahmaputra?",
+      "as": "অৰং ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ কোন পাৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "North bank",
+        "as": "উত্তৰ পাৰ"
+      },
+      {
+        "en": "Neither bank",
+        "as": "কোনো পাৰতে নহয়"
+      },
+      {
+        "en": "South bank",
+        "as": "দক্ষিণ পাৰ"
+      },
+      {
+        "en": "Both banks",
+        "as": "দুয়ো পাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Orang National Park lies on the north bank.",
+      "as": "অৰং ৰাষ্ট্ৰীয় উদ্যান উত্তৰ পাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-073",
+    "q": {
+      "en": "Which is the second longest river of Assam?",
+      "as": "অসমৰ দ্বিতীয় আটাইতকৈ দীঘল নদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Kopili",
+        "as": "ক'পিলি"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Manas",
+        "as": "মানস"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Barak is the second longest river of Assam.",
+      "as": "বৰাক অসমৰ দ্বিতীয় আটাইতকৈ দীঘল নদী।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-074",
+    "q": {
+      "en": "The Barak river originates in:",
+      "as": "বৰাক নদী ক'ত উৎপত্তি হয়?"
+    },
+    "options": [
+      {
+        "en": "Tibet",
+        "as": "তিব্বত"
+      },
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Manipur hills",
+        "as": "মণিপুৰৰ পাহাৰ"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Barak originates in the hills of Manipur.",
+      "as": "বৰাক মণিপুৰৰ পাহাৰত উৎপত্তি হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-075",
+    "q": {
+      "en": "In Bangladesh, the Barak river is mainly known as:",
+      "as": "বাংলাদেশত বৰাক নদী মূলতঃ কি নামেৰে জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Teesta",
+        "as": "তিস্তা"
+      },
+      {
+        "en": "Padma",
+        "as": "পদ্মা"
+      },
+      {
+        "en": "Surma",
+        "as": "সুৰ্মা"
+      },
+      {
+        "en": "Jamuna",
+        "as": "যমুনা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In Bangladesh the Barak is known as the Surma.",
+      "as": "বাংলাদেশত বৰাকক সুৰ্মা বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-076",
+    "q": {
+      "en": "In Bangladesh, the Barak splits into which two rivers?",
+      "as": "বাংলাদেশত বৰাক কোন দুখন নদীত বিভক্ত হয়?"
+    },
+    "options": [
+      {
+        "en": "Padma and Meghna",
+        "as": "পদ্মা আৰু মেঘনা"
+      },
+      {
+        "en": "Ganga and Yamuna",
+        "as": "গংগা আৰু যমুনা"
+      },
+      {
+        "en": "Dihang and Lohit",
+        "as": "দিহাং আৰু লোহিত"
+      },
+      {
+        "en": "Surma and Kushiyara",
+        "as": "সুৰ্মা আৰু কুশিয়াৰা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Barak splits into the Surma and Kushiyara.",
+      "as": "বৰাক সুৰ্মা আৰু কুশিয়াৰাত বিভক্ত হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-077",
+    "q": {
+      "en": "The Barak Valley of Assam comprises which districts?",
+      "as": "অসমৰ বৰাক উপত্যকাত কোনবোৰ জিলা সন্নিবিষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Jorhat, Sivasagar and Dibrugarh",
+        "as": "যোৰহাট, শিৱসাগৰ আৰু ডিব্ৰুগড়"
+      },
+      {
+        "en": "Dhubri, Goalpara and Bongaigaon",
+        "as": "ধুবুৰী, গোৱালপাৰা আৰু বঙাইগাঁও"
+      },
+      {
+        "en": "Nagaon, Morigaon and Sonitpur",
+        "as": "নগাঁও, মৰিগাঁও আৰু শোণিতপুৰ"
+      },
+      {
+        "en": "Cachar, Karimganj and Hailakandi",
+        "as": "কাছাৰ, কৰিমগঞ্জ আৰু হাইলাকান্দি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Barak Valley comprises Cachar, Karimganj and Hailakandi.",
+      "as": "বৰাক উপত্যকাত কাছাৰ, কৰিমগঞ্জ আৰু হাইলাকান্দি সন্নিবিষ্ট।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-078",
+    "q": {
+      "en": "Which is the main city located on the bank of the Barak river?",
+      "as": "বৰাক নদীৰ পাৰত অৱস্থিত প্ৰধান নগৰ কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Silchar is the main city on the Barak river.",
+      "as": "শিলচৰ বৰাক নদীৰ পাৰত অৱস্থিত প্ৰধান নগৰ।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-079",
+    "q": {
+      "en": "Silchar is the headquarters of which district?",
+      "as": "শিলচৰ কোন জিলাৰ সদৰ ঠাই?"
+    },
+    "options": [
+      {
+        "en": "Dima Hasao",
+        "as": "ডিমা হাছাও"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Hailakandi",
+        "as": "হাইলাকান্দি"
+      },
+      {
+        "en": "Karimganj",
+        "as": "কৰিমগঞ্জ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Silchar is the headquarters of Cachar district.",
+      "as": "শিলচৰ কাছাৰ জিলাৰ সদৰ ঠাই।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-080",
+    "q": {
+      "en": "The Barak river enters Assam near which place?",
+      "as": "বৰাক নদী অসমত কোন ঠাইৰ ওচৰত প্ৰৱেশ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Sadiya",
+        "as": "শদিয়া"
+      },
+      {
+        "en": "Goalpara",
+        "as": "গোৱালপাৰা"
+      },
+      {
+        "en": "Lakhipur",
+        "as": "লখিপুৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Barak enters Assam near Lakhipur in Cachar.",
+      "as": "বৰাক কাছাৰৰ লখিপুৰৰ ওচৰত অসমত প্ৰৱেশ কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-081",
+    "q": {
+      "en": "The Barak river enters Bangladesh near which district of Assam?",
+      "as": "বৰাক নদী অসমৰ কোন জিলাৰ ওচৰত বাংলাদেশত প্ৰৱেশ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Karimganj",
+        "as": "কৰিমগঞ্জ"
+      },
+      {
+        "en": "Hailakandi",
+        "as": "হাইলাকান্দি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Barak enters Bangladesh near Karimganj.",
+      "as": "বৰাক কৰিমগঞ্জৰ ওচৰত বাংলাদেশত প্ৰৱেশ কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-082",
+    "q": {
+      "en": "Which of the following is a tributary of the Barak river?",
+      "as": "তলৰ কোনখন বৰাক নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Kopili",
+        "as": "ক'পিলি"
+      },
+      {
+        "en": "Dhaleswari",
+        "as": "ধলেশ্বৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Dhaleswari is a tributary of the Barak.",
+      "as": "ধলেশ্বৰী বৰাকৰ উপনদী।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-083",
+    "q": {
+      "en": "The Sonai river is a tributary of which river?",
+      "as": "সোণাই নদী কোন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Sonai is a tributary of the Barak.",
+      "as": "সোণাই বৰাকৰ উপনদী।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-084",
+    "q": {
+      "en": "The Katakhal river is a tributary of which river?",
+      "as": "কাটাখাল নদী কোন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Kopili",
+        "as": "ক'পিলি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Katakhal is a tributary of the Barak.",
+      "as": "কাটাখাল বৰাকৰ উপনদী।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-085",
+    "q": {
+      "en": "The Rukni river is a tributary of which river?",
+      "as": "ৰুক্মিণী নদী কোন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Rukni is a tributary of the Barak.",
+      "as": "ৰুক্মিণী বৰাকৰ উপনদী।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-086",
+    "q": {
+      "en": "The Jiri river is a tributary of which river?",
+      "as": "জিৰি নদী কোন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Kopili",
+        "as": "ক'পিলি"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Jiri is a tributary of the Barak.",
+      "as": "জিৰি বৰাকৰ উপনদী।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-087",
+    "q": {
+      "en": "The Longai river is a tributary of which river system?",
+      "as": "লংগাই নদী কোন নদী প্ৰণালীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Longai is a tributary of the Barak system.",
+      "as": "লংগাই বৰাক প্ৰণালীৰ উপনদী।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-088",
+    "q": {
+      "en": "The Madhura river is a tributary of which river?",
+      "as": "মধুৰা নদী কোন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Kopili",
+        "as": "ক'পিলি"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Madhura is a tributary of the Barak.",
+      "as": "মধুৰা বৰাকৰ উপনদী।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-089",
+    "q": {
+      "en": "The Singla river is a tributary of which river?",
+      "as": "সিংলা নদী কোন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Singla is a tributary of the Barak.",
+      "as": "সিংলা বৰাকৰ উপনদী।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-090",
+    "q": {
+      "en": "Which hill range separates the Brahmaputra valley from the Barak valley?",
+      "as": "কোন পাহাৰ শ্ৰেণীয়ে ব্ৰহ্মপুত্ৰ উপত্যকাক বৰাক উপত্যকাৰ পৰা পৃথক কৰে?"
+    },
+    "options": [
+      {
+        "en": "Barail range",
+        "as": "বৰাইল শ্ৰেণী"
+      },
+      {
+        "en": "Patkai range",
+        "as": "পাটকাই শ্ৰেণী"
+      },
+      {
+        "en": "Khasi hills",
+        "as": "খাচী পাহাৰ"
+      },
+      {
+        "en": "Nilachal hill",
+        "as": "নীলাচল পাহাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Barail range separates the two valleys.",
+      "as": "বৰাইল শ্ৰেণীয়ে দুয়ো উপত্যকা পৃথক কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-091",
+    "q": {
+      "en": "The Barak river is part of which major river system?",
+      "as": "বৰাক নদী কোন প্ৰধান নদী প্ৰণালীৰ অংশ?"
+    },
+    "options": [
+      {
+        "en": "Mahanadi system",
+        "as": "মহানদী প্ৰণালী"
+      },
+      {
+        "en": "Godavari system",
+        "as": "গোদাবৰী প্ৰণালী"
+      },
+      {
+        "en": "Surma-Meghna system",
+        "as": "সুৰ্মা-মেঘনা প্ৰণালী"
+      },
+      {
+        "en": "Ganga-Brahmaputra system",
+        "as": "গংগা-ব্ৰহ্মপুত্ৰ প্ৰণালী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Barak is part of the Surma-Meghna system.",
+      "as": "বৰাক সুৰ্মা-মেঘনা প্ৰণালীৰ অংশ।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-092",
+    "q": {
+      "en": "National Waterway 16 (NW-16) is on which river?",
+      "as": "ৰাষ্ট্ৰীয় জলপথ ১৬ (NW-16) কোন নদীত আছে?"
+    },
+    "options": [
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Teesta",
+        "as": "তিস্তা"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "NW-16 is on the Barak river.",
+      "as": "NW-16 বৰাক নদীত আছে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-093",
+    "q": {
+      "en": "Sonbeel, a large wetland, is located in which district?",
+      "as": "সোণবিল, এখন ডাঙৰ জলভূমি, কোন জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Hailakandi",
+        "as": "হাইলাকান্দি"
+      },
+      {
+        "en": "Karimganj",
+        "as": "কৰিমগঞ্জ"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sonbeel is located in Karimganj district.",
+      "as": "সোণবিল কৰিমগঞ্জ জিলাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-094",
+    "q": {
+      "en": "The Barak Valley is known for receiving:",
+      "as": "বৰাক উপত্যকা কাৰ বাবে জনাজাত?"
+    },
+    "options": [
+      {
+        "en": "Low humidity",
+        "as": "কম আৰ্দ্ৰতা"
+      },
+      {
+        "en": "Heavy rainfall",
+        "as": "অত্যধিক বৰষুণ"
+      },
+      {
+        "en": "Desert climate",
+        "as": "মৰুভূমি জলবায়ু"
+      },
+      {
+        "en": "Snowfall",
+        "as": "তুষাৰপাত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Barak Valley receives very heavy rainfall.",
+      "as": "বৰাক উপত্যকাত অতি অত্যধিক বৰষুণ হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-095",
+    "q": {
+      "en": "What is the approximate total length of the Barak river?",
+      "as": "বৰাক নদীৰ সৰ্বমুঠ দীঘল প্ৰায় কিমান?"
+    },
+    "options": [
+      {
+        "en": "About 2900 km",
+        "as": "প্ৰায় ২৯০০ কিলোমিটাৰ"
+      },
+      {
+        "en": "About 200 km",
+        "as": "প্ৰায় ২০০ কিলোমিটাৰ"
+      },
+      {
+        "en": "About 900 km",
+        "as": "প্ৰায় ৯০০ কিলোমিটাৰ"
+      },
+      {
+        "en": "About 1500 km",
+        "as": "প্ৰায় ১৫০০ কিলোমিটাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Barak is about 900 km long in total.",
+      "as": "বৰাকৰ সৰ্বমুঠ দীঘল প্ৰায় ৯০০ কিলোমিটাৰ।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-096",
+    "q": {
+      "en": "In Manipur, the Barak river is locally known as:",
+      "as": "মণিপুৰত বৰাক নদীক স্থানীয়ভাৱে কি বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Tsangpo",
+        "as": "ছাংপো"
+      },
+      {
+        "en": "Liyai or Bark",
+        "as": "লিয়াই বা বৰ্ক"
+      },
+      {
+        "en": "Luit",
+        "as": "লুইত"
+      },
+      {
+        "en": "Jamuna",
+        "as": "যমুনা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In Manipur it is locally called Liyai or Bark.",
+      "as": "মণিপুৰত ইয়াক স্থানীয়ভাৱে লিয়াই বা বৰ্ক বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-097",
+    "q": {
+      "en": "The Lower Subansiri Hydroelectric Project is located in which state?",
+      "as": "নিম্ন সুবনশিৰি জলবিদ্যুৎ প্ৰকল্প কোন ৰাজ্যত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Assam-Arunachal border",
+        "as": "অসম-অৰুণাচল সীমান্ত"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "It lies on the Assam-Arunachal Pradesh border.",
+      "as": "ই অসম-অৰুণাচল প্ৰদেশ সীমান্তত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-098",
+    "q": {
+      "en": "The Kopili Hydroelectric Project is located in which district?",
+      "as": "ক'পিলি জলবিদ্যুৎ প্ৰকল্প কোন জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Lakhimpur",
+        "as": "লখিমপুৰ"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Kopili Hydroelectric Project is in Nagaon district.",
+      "as": "ক'পিলি জলবিদ্যুৎ প্ৰকল্প নগাঁও জিলাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-099",
+    "q": {
+      "en": "The Karbi Langpi Hydroelectric Project is built on which river?",
+      "as": "কাৰ্বি লাংপি জলবিদ্যুৎ প্ৰকল্প কোন নদীত নিৰ্মাণ কৰা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Kopili",
+        "as": "ক'পিলি"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Manas",
+        "as": "মানস"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Karbi Langpi project is on the Kopili river.",
+      "as": "কাৰ্বি লাংপি প্ৰকল্প ক'পিলি নদীত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-100",
+    "q": {
+      "en": "The Doyang Hydroelectric Project is located in which state?",
+      "as": "দ'য়াং জলবিদ্যুৎ প্ৰকল্প কোন ৰাজ্যত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Doyang project is in Nagaland.",
+      "as": "দ'য়াং প্ৰকল্প নাগালেণ্ডত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-101",
+    "q": {
+      "en": "The Brahmaputra Board was established for:",
+      "as": "ব্ৰহ্মপুত্ৰ ব'ৰ্ড কাৰ বাবে স্থাপন কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Oil refining",
+        "as": "তেল শোধন"
+      },
+      {
+        "en": "Flood control and management",
+        "as": "বান নিয়ন্ত্ৰণ আৰু পৰিচালনা"
+      },
+      {
+        "en": "Tea production",
+        "as": "চাহ উৎপাদন"
+      },
+      {
+        "en": "Railway construction",
+        "as": "ৰে'লপথ নিৰ্মাণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Brahmaputra Board was set up for flood control and management.",
+      "as": "ব্ৰহ্মপুত্ৰ ব'ৰ্ড বান নিয়ন্ত্ৰণ আৰু পৰিচালনাৰ বাবে স্থাপন কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-102",
+    "q": {
+      "en": "In which year was the Brahmaputra Board established?",
+      "as": "ব্ৰহ্মপুত্ৰ ব'ৰ্ড কোন বছৰত স্থাপন কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2001",
+        "as": "২০০১"
+      },
+      {
+        "en": "1965",
+        "as": "১৯৬৫"
+      },
+      {
+        "en": "1980",
+        "as": "১৯৮০"
+      },
+      {
+        "en": "1990",
+        "as": "১৯৯০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Brahmaputra Board was established in 1980.",
+      "as": "ব্ৰহ্মপুত্ৰ ব'ৰ্ড ১৯৮০ চনত স্থাপন কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-103",
+    "q": {
+      "en": "The Brahmaputra is famous for causing which natural disaster in Assam?",
+      "as": "অসমত ব্ৰহ্মপুত্ৰ কোন প্ৰাকৃতিক দুৰ্যোগৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Cyclones",
+        "as": "ঘূৰ্ণীবতাহ"
+      },
+      {
+        "en": "Floods",
+        "as": "বান"
+      },
+      {
+        "en": "Tsunamis",
+        "as": "চুনামি"
+      },
+      {
+        "en": "Earthquakes",
+        "as": "ভূমিকম্প"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Brahmaputra causes frequent and severe floods in Assam.",
+      "as": "ব্ৰহ্মপুত্ৰে অসমত সঘনাই আৰু ভয়াৱহ বান সৃষ্টি কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-104",
+    "q": {
+      "en": "Guwahati city is located on which bank of the Brahmaputra?",
+      "as": "গুৱাহাটী নগৰ ব্ৰহ্মপুত্ৰৰ কোন পাৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "North bank",
+        "as": "উত্তৰ পাৰ"
+      },
+      {
+        "en": "Neither bank",
+        "as": "কোনো পাৰতে নহয়"
+      },
+      {
+        "en": "Both banks",
+        "as": "দুয়ো পাৰ"
+      },
+      {
+        "en": "South bank",
+        "as": "দক্ষিণ পাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Guwahati lies on the south bank of the Brahmaputra.",
+      "as": "গুৱাহাটী ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-105",
+    "q": {
+      "en": "The Kamakhya temple is located on which hill near the Brahmaputra?",
+      "as": "কামাখ্যা মন্দিৰ ব্ৰহ্মপুত্ৰৰ ওচৰত কোন পাহাৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Khasi Hill",
+        "as": "খাচী পাহাৰ"
+      },
+      {
+        "en": "Barail Hill",
+        "as": "বৰাইল পাহাৰ"
+      },
+      {
+        "en": "Patkai Hill",
+        "as": "পাটকাই পাহাৰ"
+      },
+      {
+        "en": "Nilachal Hill",
+        "as": "নীলাচল পাহাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Kamakhya temple is on Nilachal Hill.",
+      "as": "কামাখ্যা মন্দিৰ নীলাচল পাহাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-106",
+    "q": {
+      "en": "Tezpur town is located on which bank of the Brahmaputra?",
+      "as": "তেজপুৰ নগৰ ব্ৰহ্মপুত্ৰৰ কোন পাৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "South bank",
+        "as": "দক্ষিণ পাৰ"
+      },
+      {
+        "en": "North bank",
+        "as": "উত্তৰ পাৰ"
+      },
+      {
+        "en": "Both banks",
+        "as": "দুয়ো পাৰ"
+      },
+      {
+        "en": "Neither bank",
+        "as": "কোনো পাৰতে নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Tezpur lies on the north bank of the Brahmaputra.",
+      "as": "তেজপুৰ ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-107",
+    "q": {
+      "en": "Dibrugarh town is located on the bank of which river?",
+      "as": "ডিব্ৰুগড় নগৰ কোন নদীৰ পাৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dibrugarh is on the bank of the Brahmaputra.",
+      "as": "ডিব্ৰুগড় ব্ৰহ্মপুত্ৰৰ পাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-108",
+    "q": {
+      "en": "Which city of Assam is known as the 'Gateway of North East India'?",
+      "as": "অসমৰ কোন নগৰক 'উত্তৰ-পূব ভাৰতৰ প্ৰৱেশদ্বাৰ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Guwahati is called the Gateway of North East India.",
+      "as": "গুৱাহাটীক উত্তৰ-পূব ভাৰতৰ প্ৰৱেশদ্বাৰ বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-109",
+    "q": {
+      "en": "Which district of Assam lies on the north bank near the Brahmaputra and has the town of Bongaigaon?",
+      "as": "কোন জিলা ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰৰ ওচৰত অৱস্থিত আৰু বঙাইগাঁও নগৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "Karimganj",
+        "as": "কৰিমগঞ্জ"
+      },
+      {
+        "en": "Bongaigaon",
+        "as": "বঙাইগাঁও"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Dima Hasao",
+        "as": "ডিমা হাছাও"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bongaigaon district lies in the north-west of Assam.",
+      "as": "বঙাইগাঁও জিলা অসমৰ উত্তৰ-পশ্চিমত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-110",
+    "q": {
+      "en": "Which town in Goalpara district lies on the south bank of the Brahmaputra?",
+      "as": "গোৱালপাৰা জিলাৰ কোন নগৰ ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Goalpara",
+        "as": "গোৱালপাৰা"
+      },
+      {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+      },
+      {
+        "en": "Dhemaji",
+        "as": "ধেমাজি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Goalpara town lies on the south bank of the Brahmaputra.",
+      "as": "গোৱালপাৰা নগৰ ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-111",
+    "q": {
+      "en": "Nagaon town is located near which river?",
+      "as": "নগাঁও নগৰ কোন নদীৰ ওচৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Kolong",
+        "as": "কলং"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Nagaon town is near the Kolong river.",
+      "as": "নগাঁও নগৰ কলং নদীৰ ওচৰত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-112",
+    "q": {
+      "en": "Which city is the headquarters of Cachar district on the Barak river?",
+      "as": "বৰাক নদীৰ পাৰত কাছাৰ জিলাৰ সদৰ কোন নগৰ?"
+    },
+    "options": [
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Hailakandi",
+        "as": "হাইলাকান্দি"
+      },
+      {
+        "en": "Karimganj",
+        "as": "কৰিমগঞ্জ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Silchar is the headquarters of Cachar district.",
+      "as": "শিলচৰ কাছাৰ জিলাৰ সদৰ ঠাই।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-113",
+    "q": {
+      "en": "The Barak Valley is also popularly known as:",
+      "as": "বৰাক উপত্যকাক জনপ্ৰিয়ভাৱে কি বুলিও জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Sonitpur",
+        "as": "শোণিতপুৰ"
+      },
+      {
+        "en": "Darrang",
+        "as": "দৰং"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Kamrup",
+        "as": "কামৰূপ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Barak Valley is popularly known as Cachar.",
+      "as": "বৰাক উপত্যকাক জনপ্ৰিয়ভাৱে কাছাৰ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-114",
+    "q": {
+      "en": "The Brahmaputra Beach Festival is held in which city?",
+      "as": "ব্ৰহ্মপুত্ৰ বীচ মহোৎসৱ কোন নগৰত অনুষ্ঠিত হয়?"
+    },
+    "options": [
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Brahmaputra Beach Festival is held at Guwahati.",
+      "as": "ব্ৰহ্মপুত্ৰ বীচ মহোৎসৱ গুৱাহাটীত অনুষ্ঠিত হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-115",
+    "q": {
+      "en": "The Ganges River Dolphin was declared the national aquatic animal of India in which year?",
+      "as": "গংগা নদী ডলফিনক কোন বছৰত ভাৰতৰ ৰাষ্ট্ৰীয় জলজ প্ৰাণী ঘোষণা কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "1999",
+        "as": "১৯৯৯"
+      },
+      {
+        "en": "1985",
+        "as": "১৯৮৫"
+      },
+      {
+        "en": "2009",
+        "as": "২০০৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "It was declared the national aquatic animal in 2009.",
+      "as": "ইয়াক ২০০৯ চনত ৰাষ্ট্ৰীয় জলজ প্ৰাণী ঘোষণা কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-116",
+    "q": {
+      "en": "The Brahmaputra is one of the largest rivers in the world in terms of:",
+      "as": "ব্ৰহ্মপুত্ৰ বিশ্বৰ আটাইতকৈ ডাঙৰ নদীসমূহৰ এটা কাৰ দিশত?"
+    },
+    "options": [
+      {
+        "en": "Salinity",
+        "as": "লৱণতা"
+      },
+      {
+        "en": "Length only",
+        "as": "কেৱল দীঘল"
+      },
+      {
+        "en": "Width only",
+        "as": "কেৱল প্ৰস্থ"
+      },
+      {
+        "en": "Water discharge",
+        "as": "জল বহিষ্কাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Brahmaputra has one of the highest discharges in the world.",
+      "as": "ব্ৰহ্মপুত্ৰৰ জল বহিষ্কাৰ বিশ্বৰ আটাইতকৈ বেছি সমূহৰ এটা।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-117",
+    "q": {
+      "en": "Kaziranga National Park was declared a UNESCO World Heritage Site in which year?",
+      "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান কোন বছৰত ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ ঘোষণা কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1985",
+        "as": "১৯৮৫"
+      },
+      {
+        "en": "1972",
+        "as": "১৯৭২"
+      },
+      {
+        "en": "1995",
+        "as": "১৯৯৫"
+      },
+      {
+        "en": "2005",
+        "as": "২০০৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kaziranga became a World Heritage Site in 1985.",
+      "as": "কাজিৰঙা ১৯৮৫ চনত বিশ্ব ঐতিহ্য ক্ষেত্ৰ হৈছিল।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-118",
+    "q": {
+      "en": "Manas Wildlife Sanctuary is also a UNESCO World Heritage Site and is famous for:",
+      "as": "মানস বন্যপ্ৰাণী অভয়াৰণ্যও ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ আৰু কাৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Wildlife conservation",
+        "as": "বন্যপ্ৰাণী সংৰক্ষণ"
+      },
+      {
+        "en": "Oil wells",
+        "as": "তেল কুঁৱা"
+      },
+      {
+        "en": "Coal mines",
+        "as": "কয়লা খনি"
+      },
+      {
+        "en": "Tea gardens",
+        "as": "চাহ বাগিছা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Manas is famous for wildlife conservation.",
+      "as": "মানস বন্যপ্ৰাণী সংৰক্ষণৰ বাবে বিখ্যাত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-119",
+    "q": {
+      "en": "The Brahmaputra forms many river islands called:",
+      "as": "ব্ৰহ্মপুত্ৰে বহুতো নদী-দ্বীপ সৃষ্টি কৰে, যিবোৰক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Ghats",
+        "as": "ঘাট"
+      },
+      {
+        "en": "Chars",
+        "as": "চৰ"
+      },
+      {
+        "en": "Beels",
+        "as": "বিল"
+      },
+      {
+        "en": "Doabs",
+        "as": "দোৱাব"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "River islands in the Brahmaputra are called chars.",
+      "as": "ব্ৰহ্মপুত্ৰৰ নদী-দ্বীপসমূহক চৰ বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-120",
+    "q": {
+      "en": "Which of the following is a wetland (beel) of Assam?",
+      "as": "তলৰ কোনটো অসমৰ জলভূমি (বিল)?"
+    },
+    "options": [
+      {
+        "en": "Peacock Island",
+        "as": "ময়ূৰ দ্বীপ"
+      },
+      {
+        "en": "Deepor Beel",
+        "as": "দীপৰ বিল"
+      },
+      {
+        "en": "Majuli",
+        "as": "মাজুলী"
+      },
+      {
+        "en": "Umananda",
+        "as": "উমানন্দ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Deepor Beel is a well-known wetland of Assam.",
+      "as": "দীপৰ বিল অসমৰ এটা সুপৰিচিত জলভূমি।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-121",
+    "q": {
+      "en": "The Brahmaputra river is important for Assam mainly for:",
+      "as": "ব্ৰহ্মপুত্ৰ নদী অসমৰ বাবে মূলতঃ কাৰ বাবে গুৰুত্বপূৰ্ণ?"
+    },
+    "options": [
+      {
+        "en": "Tourism only",
+        "as": "কেৱল পৰ্যটন"
+      },
+      {
+        "en": "Hydropower only",
+        "as": "কেৱল জলবিদ্যুৎ"
+      },
+      {
+        "en": "Mining only",
+        "as": "কেৱল খনি"
+      },
+      {
+        "en": "Transport, irrigation and fisheries",
+        "as": "পৰিবহন, জলসিঞ্চন আৰু মাছ ধৰা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "It supports transport, irrigation and fisheries.",
+      "as": "ই পৰিবহন, জলসিঞ্চন আৰু মাছ ধৰাত সহায় কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-122",
+    "q": {
+      "en": "The Brahmaputra is called a 'transboundary river' because:",
+      "as": "ব্ৰহ্মপুত্ৰক 'সীমান্ত-পাৰ নদী' বুলি কোৱা হয় কাৰণ:"
+    },
+    "options": [
+      {
+        "en": "It flows through more than one country",
+        "as": "ই এখনেৰো অধিক দেশৰ মাজেৰে বৈ যায়"
+      },
+      {
+        "en": "It is underground",
+        "as": "ই ভূ-গৰ্ভত"
+      },
+      {
+        "en": "It is seasonal",
+        "as": "ই ঋতুভিত্তিক"
+      },
+      {
+        "en": "It flows only in Assam",
+        "as": "ই কেৱল অসমত বৈ যায়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "It flows through China, India and Bangladesh.",
+      "as": "ই চীন, ভাৰত আৰু বাংলাদেশৰ মাজেৰে বৈ যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-123",
+    "q": {
+      "en": "The Yarlung Tsangpo Grand Canyon, associated with the upper Brahmaputra, is one of the:",
+      "as": "ব্ৰহ্মপুত্ৰৰ ওপৰৰ অংশৰ সৈতে জড়িত যাৰলুং ছাংপো মহা গিৰিখাত কাৰ এটা?"
+    },
+    "options": [
+      {
+        "en": "Longest beaches",
+        "as": "আটাইতকৈ দীঘল বীচ"
+      },
+      {
+        "en": "Largest deltas",
+        "as": "আটাইতকৈ ডাঙৰ ব-দ্বীপ"
+      },
+      {
+        "en": "Deepest canyons in the world",
+        "as": "বিশ্বৰ আটাইতকৈ গভীৰ গিৰিখাত"
+      },
+      {
+        "en": "Highest plateaus",
+        "as": "আটাইতকৈ ওখ মালভূমি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "It is among the deepest canyons in the world.",
+      "as": "ই বিশ্বৰ আটাইতকৈ গভীৰ গিৰিখাতসমূহৰ এটা।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-124",
+    "q": {
+      "en": "The Brahmaputra enters India through which state?",
+      "as": "ব্ৰহ্মপুত্ৰ কোন ৰাজ্যৰ মাজেৰে ভাৰতত প্ৰৱেশ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Sikkim",
+        "as": "ছিক্কিম"
+      },
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিমবঙ্গ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra enters India through Arunachal Pradesh.",
+      "as": "ব্ৰহ্মপুত্ৰ অৰুণাচল প্ৰদেশৰ মাজেৰে ভাৰতত প্ৰৱেশ কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-125",
+    "q": {
+      "en": "The Brahmaputra and Barak valleys are separated by which geographical feature?",
+      "as": "ব্ৰহ্মপুত্ৰ আৰু বৰাক উপত্যকা কোন ভৌগোলিক বৈশিষ্ট্যই পৃথক কৰে?"
+    },
+    "options": [
+      {
+        "en": "A desert",
+        "as": "এখন মৰুভূমি"
+      },
+      {
+        "en": "A glacier",
+        "as": "এটা হিমবাহ"
+      },
+      {
+        "en": "Hills and plateaus of Karbi Anglong and Barail",
+        "as": "কাৰ্বি আংলং আৰু বৰাইলৰ পাহাৰ আৰু মালভূমি"
+      },
+      {
+        "en": "A single river",
+        "as": "এখন নদী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hills of Karbi Anglong and the Barail range separate them.",
+      "as": "কাৰ্বি আংলংৰ পাহাৰ আৰু বৰাইল শ্ৰেণীয়ে সেইবোৰ পৃথক কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-126",
+    "q": {
+      "en": "Which is the largest river island district of India?",
+      "as": "ভাৰতৰ আটাইতকৈ ডাঙৰ নদী-দ্বীপ জিলা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Majuli",
+        "as": "মাজুলী"
+      },
+      {
+        "en": "Umananda",
+        "as": "উমানন্দ"
+      },
+      {
+        "en": "Dibru-Saikhowa",
+        "as": "ডিব্ৰু-ছৈখোৱা"
+      },
+      {
+        "en": "Peacock Island",
+        "as": "ময়ূৰ দ্বীপ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Majuli is India's largest river island district.",
+      "as": "মাজুলী ভাৰতৰ আটাইতকৈ ডাঙৰ নদী-দ্বীপ জিলা।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-127",
+    "q": {
+      "en": "The temple of Umananda on the Peacock Island is dedicated to which deity?",
+      "as": "ময়ূৰ দ্বীপৰ উমানন্দ মন্দিৰ কোন দেৱতাৰ প্ৰতি উৎসৰ্গিত?"
+    },
+    "options": [
+      {
+        "en": "Lord Krishna",
+        "as": "ভগৱান কৃষ্ণ"
+      },
+      {
+        "en": "Lord Vishnu",
+        "as": "ভগৱান বিষ্ণু"
+      },
+      {
+        "en": "Goddess Durga",
+        "as": "দেৱী দুৰ্গা"
+      },
+      {
+        "en": "Lord Shiva",
+        "as": "ভগৱান শিৱ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Umananda temple is dedicated to Lord Shiva.",
+      "as": "উমানন্দ মন্দিৰ ভগৱান শিৱৰ প্ৰতি উৎসৰ্গিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-128",
+    "q": {
+      "en": "The Brahmaputra river is also known as which of the following in Assam?",
+      "as": "অসমত ব্ৰহ্মপুত্ৰ নদী তলৰ কোনটো নামেৰেও জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Sorrow of Odisha",
+        "as": "ওড়িশাৰ দুখ"
+      },
+      {
+        "en": "Sorrow of Bihar",
+        "as": "বিহাৰৰ দুখ"
+      },
+      {
+        "en": "Sorrow of Bengal",
+        "as": "বঙ্গৰ দুখ"
+      },
+      {
+        "en": "Sorrow of Assam",
+        "as": "অসমৰ দুখ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Brahmaputra is often called the Sorrow of Assam due to floods.",
+      "as": "বানৰ বাবে ব্ৰহ্মপুত্ৰক প্ৰায়ে অসমৰ দুখ বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-129",
+    "q": {
+      "en": "Which of the following crops is widely grown in the Brahmaputra valley?",
+      "as": "তলৰ কোনটো শস্য ব্ৰহ্মপুত্ৰ উপত্যকাত বহুলভাৱে খেতি কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Rice",
+        "as": "ধান"
+      },
+      {
+        "en": "Wheat",
+        "as": "গম"
+      },
+      {
+        "en": "Cotton",
+        "as": "কপাহ"
+      },
+      {
+        "en": "Sugarcane",
+        "as": "কুঁহিয়াৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Rice is widely grown in the Brahmaputra valley.",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকাত ধান বহুলভাৱে খেতি কৰা হয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-130",
+    "q": {
+      "en": "The Brahmaputra valley is famous for the cultivation of:",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকা কাৰ খেতিৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Cocoa",
+        "as": "ককো"
+      },
+      {
+        "en": "Coffee",
+        "as": "কফি"
+      },
+      {
+        "en": "Tea",
+        "as": "চাহ"
+      },
+      {
+        "en": "Rubber",
+        "as": "ৰবৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Brahmaputra valley is world famous for tea.",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকা চাহৰ বাবে বিশ্ববিখ্যাত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-131",
+    "q": {
+      "en": "Which national park is located on the Brahmaputra floodplain in Tinsukia and Dibrugarh districts?",
+      "as": "কোন ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ বানপীড়িত সমতলত তিনিচুকীয়া আৰু ডিব্ৰুগড় জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Dibru-Saikhowa",
+        "as": "ডিব্ৰু-ছৈখোৱা"
+      },
+      {
+        "en": "Nameri",
+        "as": "নামেৰী"
+      },
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Kaziranga",
+        "as": "কাজিৰঙা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Dibru-Saikhowa National Park lies in Tinsukia and Dibrugarh.",
+      "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান তিনিচুকীয়া আৰু ডিব্ৰুগড়ত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-132",
+    "q": {
+      "en": "The Brahmaputra's banks are important for the state's economy because of:",
+      "as": "ৰাজ্যৰ অৰ্থনীতিৰ বাবে ব্ৰহ্মপুত্ৰৰ পাৰ কাৰ বাবে গুৰুত্বপূৰ্ণ?"
+    },
+    "options": [
+      {
+        "en": "Desert tourism",
+        "as": "মৰুভূমি পৰ্যটন"
+      },
+      {
+        "en": "Mining only",
+        "as": "কেৱল খনি"
+      },
+      {
+        "en": "Agriculture, fisheries and trade",
+        "as": "কৃষি, মাছ ধৰা আৰু বাণিজ্য"
+      },
+      {
+        "en": "Skiing",
+        "as": "স্কিইং"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The banks support agriculture, fisheries and trade.",
+      "as": "পাৰসমূহে কৃষি, মাছ ধৰা আৰু বাণিজ্যত সহায় কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-133",
+    "q": {
+      "en": "Which of the following is a south bank tributary that flows through Sivasagar?",
+      "as": "তলৰ কোনটো দক্ষিণ-পাৰৰ উপনদী যি শিৱসাগৰৰ মাজেৰে বৈ যায়?"
+    },
+    "options": [
+      {
+        "en": "Jia Bharali",
+        "as": "জীয়া ভৰলী"
+      },
+      {
+        "en": "Dikhow",
+        "as": "দিখৌ"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Manas",
+        "as": "মানস"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Dikhow flows through Sivasagar.",
+      "as": "দিখৌ শিৱসাগৰৰ মাজেৰে বৈ যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-134",
+    "q": {
+      "en": "The Brahmaputra river changes its course frequently because of:",
+      "as": "ব্ৰহ্মপুত্ৰ নদীয়ে সঘনাই নিজৰ গতিপথ সলনি কৰে কাৰণ:"
+    },
+    "options": [
+      {
+        "en": "Heavy siltation",
+        "as": "অত্যধিক পলস"
+      },
+      {
+        "en": "Rocky banks",
+        "as": "শিলাময় পাৰ"
+      },
+      {
+        "en": "Absence of tributaries",
+        "as": "উপনদীৰ অনুপস্থিতি"
+      },
+      {
+        "en": "Low rainfall",
+        "as": "কম বৰষুণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Heavy siltation makes the Brahmaputra shift its course.",
+      "as": "অত্যধিক পলসে ব্ৰহ্মপুত্ৰক গতিপথ সলনি কৰায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-135",
+    "q": {
+      "en": "Which river is known as the lifeline of the Barak Valley?",
+      "as": "কোন নদী বৰাক উপত্যকাৰ জীৱন-ৰেখা বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Kopili",
+        "as": "ক'পিলি"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Barak is the lifeline of the Barak Valley.",
+      "as": "বৰাক বৰাক উপত্যকাৰ জীৱন-ৰেখা।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-136",
+    "q": {
+      "en": "The Barak Valley mainly depends on which activity along the river?",
+      "as": "বৰাক উপত্যকা মূলতঃ নদীৰ কাষত কোন কাৰ্য্যকলাপৰ ওপৰত নিৰ্ভৰশীল?"
+    },
+    "options": [
+      {
+        "en": "Mining",
+        "as": "খনি"
+      },
+      {
+        "en": "Agriculture",
+        "as": "কৃষি"
+      },
+      {
+        "en": "Shipbuilding",
+        "as": "জাহাজ নিৰ্মাণ"
+      },
+      {
+        "en": "Skiing",
+        "as": "স্কিইং"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Barak Valley mainly depends on agriculture.",
+      "as": "বৰাক উপত্যকা মূলতঃ কৃষিৰ ওপৰত নিৰ্ভৰশীল।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-137",
+    "q": {
+      "en": "Which of the following is a north bank tributary flowing through Sonitpur?",
+      "as": "তলৰ কোনটো উত্তৰ-পাৰৰ উপনদী যি শোণিতপুৰৰ মাজেৰে বৈ যায়?"
+    },
+    "options": [
+      {
+        "en": "Kolong",
+        "as": "কলং"
+      },
+      {
+        "en": "Kopili",
+        "as": "ক'পিলি"
+      },
+      {
+        "en": "Bhogdoi",
+        "as": "ভোগদৈ"
+      },
+      {
+        "en": "Jia Bharali",
+        "as": "জীয়া ভৰলী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Jia Bharali flows through Sonitpur.",
+      "as": "জীয়া ভৰলী শোণিতপুৰৰ মাজেৰে বৈ যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-138",
+    "q": {
+      "en": "The Brahmaputra flows through which large city of Assam?",
+      "as": "ব্ৰহ্মপুত্ৰ অসমৰ কোন ডাঙৰ নগৰৰ মাজেৰে বৈ যায়?"
+    },
+    "options": [
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Haflong",
+        "as": "হাফলং"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Diphu",
+        "as": "দিফু"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra flows past Guwahati.",
+      "as": "ব্ৰহ্মপুত্ৰ গুৱাহাটীৰ কাষেৰে বৈ যায়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-139",
+    "q": {
+      "en": "Which of the following districts does the Barak river NOT flow through?",
+      "as": "তলৰ কোনবোৰ জিলাৰ মাজেৰে বৰাক নদী বৈ নাযায়?"
+    },
+    "options": [
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Karimganj",
+        "as": "কৰিমগঞ্জ"
+      },
+      {
+        "en": "Hailakandi",
+        "as": "হাইলাকান্দি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Barak flows through Cachar, Karimganj and Hailakandi, not Jorhat.",
+      "as": "বৰাক কাছাৰ, কৰিমগঞ্জ আৰু হাইলাকান্দিৰ মাজেৰে বৈ যায়, যোৰহাটৰ নহয়।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-140",
+    "q": {
+      "en": "The Brahmaputra river supports which major industry of Assam?",
+      "as": "ব্ৰহ্মপুত্ৰ নদীয়ে অসমৰ কোন প্ৰধান উদ্যোগক সহায় কৰে?"
+    },
+    "options": [
+      {
+        "en": "Skiing",
+        "as": "স্কিইং"
+      },
+      {
+        "en": "Diamond mining",
+        "as": "হীৰা খনি"
+      },
+      {
+        "en": "Wine making",
+        "as": "মদ প্ৰস্তুত"
+      },
+      {
+        "en": "Tea industry",
+        "as": "চাহ উদ্যোগ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Brahmaputra valley supports the tea industry.",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকা চাহ উদ্যোগক সহায় কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-141",
+    "q": {
+      "en": "Which is the smallest inhabited river island in the world, located in Guwahati?",
+      "as": "বিশ্বৰ আটাইতকৈ সৰু বসতিপূৰ্ণ নদী-দ্বীপ, গুৱাহাটীত অৱস্থিত, কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Bhashmachala",
+        "as": "ভস্মাচল"
+      },
+      {
+        "en": "Dibru",
+        "as": "ডিব্ৰু"
+      },
+      {
+        "en": "Majuli",
+        "as": "মাজুলী"
+      },
+      {
+        "en": "Umananda",
+        "as": "উমানন্দ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Umananda (Peacock Island) is the smallest inhabited river island.",
+      "as": "উমানন্দ (ময়ূৰ দ্বীপ) আটাইতকৈ সৰু বসতিপূৰ্ণ নদী-দ্বীপ।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-142",
+    "q": {
+      "en": "Which town of Assam is situated at the confluence where the Brahmaputra is formed?",
+      "as": "অসমৰ কোন নগৰ ব্ৰহ্মপুত্ৰ গঠিত হোৱা সংগমস্থলত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Sadiya",
+        "as": "শদিয়া"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sadiya is near the confluence forming the Brahmaputra.",
+      "as": "শদিয়া ব্ৰহ্মপুত্ৰ গঠন কৰা সংগমস্থলৰ ওচৰত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-143",
+    "q": {
+      "en": "The Brahmaputra river is measured to be the widest in which part of Assam?",
+      "as": "অসমৰ কোন অংশত ব্ৰহ্মপুত্ৰ নদী আটাইতকৈ বহল বুলি মাপ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Upper Assam near Sadiya",
+        "as": "শদিয়াৰ ওচৰৰ উজনি অসম"
+      },
+      {
+        "en": "Lower Assam near Dhubri",
+        "as": "ধুবুৰীৰ ওচৰৰ নামনি অসম"
+      },
+      {
+        "en": "Middle Assam near Tezpur",
+        "as": "তেজপুৰৰ ওচৰৰ মাজ অসম"
+      },
+      {
+        "en": "Barak valley",
+        "as": "বৰাক উপত্যকা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Brahmaputra is widest in lower Assam near Dhubri.",
+      "as": "ব্ৰহ্মপুত্ৰ ধুবুৰীৰ ওচৰৰ নামনি অসমত আটাইতকৈ বহল।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-144",
+    "q": {
+      "en": "Which of the following is TRUE about the Brahmaputra river?",
+      "as": "ব্ৰহ্মপুত্ৰ নদীৰ বিষয়ে তলৰ কোনটো সঁচা?"
+    },
+    "options": [
+      {
+        "en": "It has no tributaries",
+        "as": "ইৰ কোনো উপনদী নাই"
+      },
+      {
+        "en": "It never floods",
+        "as": "ই কেতিয়াও নাপ্লাৱে"
+      },
+      {
+        "en": "It is a braided river with many sandbars",
+        "as": "ই বহুতো বালিচৰ থকা বিনত নদী"
+      },
+      {
+        "en": "It flows north to south only",
+        "as": "ই কেৱল উত্তৰৰ পৰা দক্ষিণলৈ বৈ যায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "It is a braided river with many sandbars and chars.",
+      "as": "ই বহুতো বালিচৰ আৰু চৰ থকা এটা বিনত নদী।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-145",
+    "q": {
+      "en": "Which is the correct order of the Brahmaputra's names from Tibet to Bangladesh?",
+      "as": "তিব্বতৰ পৰা বাংলাদেশলৈ ব্ৰহ্মপুত্ৰৰ নামৰ শুদ্ধ ক্ৰম কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Jamuna - Brahmaputra - Dihang - Tsangpo",
+        "as": "যমুনা - ব্ৰহ্মপুত্ৰ - দিহাং - ছাংপো"
+      },
+      {
+        "en": "Brahmaputra - Tsangpo - Jamuna - Dihang",
+        "as": "ব্ৰহ্মপুত্ৰ - ছাংপো - যমুনা - দিহাং"
+      },
+      {
+        "en": "Tsangpo - Dihang - Brahmaputra - Jamuna",
+        "as": "ছাংপো - দিহাং - ব্ৰহ্মপুত্ৰ - যমুনা"
+      },
+      {
+        "en": "Dihang - Jamuna - Tsangpo - Brahmaputra",
+        "as": "দিহাং - যমুনা - ছাংপো - ব্ৰহ্মপুত্ৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The order is Tsangpo, Dihang, Brahmaputra and Jamuna.",
+      "as": "ক্ৰমটো হ'ল ছাংপো, দিহাং, ব্ৰহ্মপুত্ৰ আৰু যমুনা।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-146",
+    "q": {
+      "en": "The Brahmaputra river basin is shared by which countries?",
+      "as": "ব্ৰহ্মপুত্ৰ নদী অৱবাহিকা কোনবোৰ দেশে ভাগ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Myanmar and India",
+        "as": "ম্যানমাৰ আৰু ভাৰত"
+      },
+      {
+        "en": "India only",
+        "as": "কেৱল ভাৰত"
+      },
+      {
+        "en": "China, India, Bangladesh and Bhutan",
+        "as": "চীন, ভাৰত, বাংলাদেশ আৰু ভূটান"
+      },
+      {
+        "en": "Nepal and India",
+        "as": "নেপাল আৰু ভাৰত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The basin is shared by China, India, Bangladesh and Bhutan.",
+      "as": "অৱবাহিকাটো চীন, ভাৰত, বাংলাদেশ আৰু ভূটানে ভাগ কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-147",
+    "q": {
+      "en": "Which of the following is a major cause of floods in the Brahmaputra valley?",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকাত বানৰ এটা প্ৰধান কাৰণ তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Volcanic eruptions",
+        "as": "আগ্নেয়গিৰি উদ্গীৰণ"
+      },
+      {
+        "en": "Deforestation only",
+        "as": "কেৱল বনাঞ্চল ধ্বংস"
+      },
+      {
+        "en": "Heavy monsoon rainfall and siltation",
+        "as": "অত্যধিক মৌচুমী বৰষুণ আৰু পলস"
+      },
+      {
+        "en": "Glacial lakes only",
+        "as": "কেৱল হিমবাহ হ্ৰদ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Heavy monsoon rain and siltation cause severe floods.",
+      "as": "অত্যধিক মৌচুমী বৰষুণ আৰু পলসে ভয়াৱহ বান সৃষ্টি কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-148",
+    "q": {
+      "en": "The Brahmaputra is important as a National Waterway because:",
+      "as": "ব্ৰহ্মপুত্ৰ এটা ৰাষ্ট্ৰীয় জলপথ হিচাপে গুৰুত্বপূৰ্ণ কাৰণ:"
+    },
+    "options": [
+      {
+        "en": "It supports inland water transport",
+        "as": "ই অন্তৰ্দেশীয় জল পৰিবহনত সহায় কৰে"
+      },
+      {
+        "en": "It is used for skiing",
+        "as": "ই স্কিইঙৰ বাবে ব্যৱহৃত"
+      },
+      {
+        "en": "It is dry in winter",
+        "as": "ই শীতকালত শুকান"
+      },
+      {
+        "en": "It has no navigation",
+        "as": "ইত নৌচলাচল নাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "It supports inland water transport as NW-2.",
+      "as": "ই NW-2 হিচাপে অন্তৰ্দেশীয় জল পৰিবহনত সহায় কৰে।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-149",
+    "q": {
+      "en": "Which town lies on the Brahmaputra and is famous for the Kamakhya temple nearby?",
+      "as": "কোন নগৰ ব্ৰহ্মপুত্ৰৰ পাৰত অৱস্থিত আৰু ওচৰৰ কামাখ্যা মন্দিৰৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Guwahati is famous for the Kamakhya temple.",
+      "as": "গুৱাহাটী কামাখ্যা মন্দিৰৰ বাবে বিখ্যাত।"
+    }
+  },
+  {
+    "id": "brahmaputra-barak-150",
+    "q": {
+      "en": "The Barak river, after entering Bangladesh, ultimately drains into which sea?",
+      "as": "বাংলাদেশত প্ৰৱেশ কৰাৰ পিছত বৰাক নদী শেষত কোন সাগৰত পৰে?"
+    },
+    "options": [
+      {
+        "en": "Bay of Bengal",
+        "as": "বঙ্গোপসাগৰ"
+      },
+      {
+        "en": "Red Sea",
+        "as": "লোহিত সাগৰ"
+      },
+      {
+        "en": "Arabian Sea",
+        "as": "আৰব সাগৰ"
+      },
+      {
+        "en": "Andaman Sea",
+        "as": "আন্দামান সাগৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Through the Meghna it drains into the Bay of Bengal.",
+      "as": "মেঘনাৰ মাজেৰে ই বঙ্গোপসাগৰত পৰে।"
+    }
   }
-}
+]
