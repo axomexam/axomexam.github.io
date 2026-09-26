@@ -1,30 +1,902 @@
-{
-  "id": "subject-verb-agreement-001",
-  "q": {
-    "en": "Choose the correct option: Each of the boys ___ a bag.",
-    "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Each of the boys ___ a bag."
-  },
-  "options": [
-    {
-      "en": "have",
-      "as": "have"
+[
+  {
+    "id": "subject-verb-agreement-001",
+    "q": {
+      "en": "Choose the correct option: Each of the boys ___ a bag.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Each of the boys ___ a bag."
     },
-    {
-      "en": "has",
-      "as": "has"
-    },
-    {
-      "en": "are",
-      "as": "are"
-    },
-    {
-      "en": "were",
-      "as": "were"
+    "options": [
+      { "en": "have", "as": "have" },
+      { "en": "has", "as": "has" },
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Each' is a singular subject, so it takes the singular verb 'has'.",
+      "as": "'Each' এটা একবচন কৰ্তা, গতিকে ই একবচন ক্ৰিয়া 'has' লয়।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "'Each' is a singular subject, so it takes the singular verb 'has'.",
-    "as": "'Each' এটা একবচন কৰ্তা, গতিকে ই একবচন ক্ৰিয়া 'has' লয়।"
+  },
+  {
+    "id": "subject-verb-agreement-002",
+    "q": {
+      "en": "Choose the correct option: Neither of the two answers ___ correct.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Neither of the two answers ___ correct."
+    },
+    "options": [
+      { "en": "is", "as": "is" },
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" },
+      { "en": "was", "as": "was" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Neither of' takes a singular verb in formal English, so 'is' is correct.",
+      "as": "আনুষ্ঠানিক ইংৰাজীত 'Neither of' ৰ সৈতে একবচন ক্ৰিয়া লয়, গতিকে 'is' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-003",
+    "q": {
+      "en": "Choose the correct option: Both of my brothers ___ doctors.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Both of my brothers ___ doctors."
+    },
+    "options": [
+      { "en": "is", "as": "is" },
+      { "en": "was", "as": "was" },
+      { "en": "are", "as": "are" },
+      { "en": "has", "as": "has" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Both' is always plural, so it takes the plural verb 'are'.",
+      "as": "'Both' সদায় বহুবচন, গতিকে ই বহুবচন ক্ৰিয়া 'are' লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-004",
+    "q": {
+      "en": "Choose the correct option: One of my friends ___ in London.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: One of my friends ___ in London."
+    },
+    "options": [
+      { "en": "live", "as": "live" },
+      { "en": "lives", "as": "lives" },
+      { "en": "living", "as": "living" },
+      { "en": "lived", "as": "lived" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In 'one of the + plural noun', the verb agrees with 'one' (singular), so 'lives' is correct.",
+      "as": "'One of the + বহুবচন বিশেষ্য' ত ক্ৰিয়া 'one' (একবচন) ৰ সৈতে মিলে, গতিকে 'lives' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-005",
+    "q": {
+      "en": "Choose the correct option: The number of students ___ fifty.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The number of students ___ fifty."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" },
+      { "en": "is", "as": "is" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'The number of' takes a singular verb because the subject is 'number'.",
+      "as": "'The number of' ৰ সৈতে একবচন ক্ৰিয়া লয় কাৰণ কৰ্তা 'number'।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-006",
+    "q": {
+      "en": "Choose the correct option: A number of students ___ absent today.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: A number of students ___ absent today."
+    },
+    "options": [
+      { "en": "is", "as": "is" },
+      { "en": "was", "as": "was" },
+      { "en": "has", "as": "has" },
+      { "en": "are", "as": "are" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'A number of' means 'many', so it takes a plural verb 'are'.",
+      "as": "'A number of' মানে 'many', গতিকে ই বহুবচন ক্ৰিয়া 'are' লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-007",
+    "q": {
+      "en": "Choose the correct option: Mathematics ___ my favourite subject.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Mathematics ___ my favourite subject."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "is", "as": "is" },
+      { "en": "were", "as": "were" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Names of subjects ending in '-s' like Mathematics take a singular verb.",
+      "as": "Mathematics ৰ দৰে '-s' ৰে শেষ হোৱা বিষয়ৰ নামে একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-008",
+    "q": {
+      "en": "Choose the correct option: The news ___ very shocking.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The news ___ very shocking."
+    },
+    "options": [
+      { "en": "is", "as": "is" },
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'News' is an uncountable noun and takes a singular verb.",
+      "as": "'News' এটা অগণনীয় বিশেষ্য আৰু ই একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-009",
+    "q": {
+      "en": "Choose the correct option: Cattle ___ grazing in the field.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Cattle ___ grazing in the field."
+    },
+    "options": [
+      { "en": "is", "as": "is" },
+      { "en": "was", "as": "was" },
+      { "en": "has", "as": "has" },
+      { "en": "are", "as": "are" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Cattle' is a plural noun and always takes a plural verb.",
+      "as": "'Cattle' এটা বহুবচন বিশেষ্য আৰু সদায় বহুবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-010",
+    "q": {
+      "en": "Choose the correct option: The police ___ investigating the case.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The police ___ investigating the case."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "is", "as": "is" },
+      { "en": "was", "as": "was" },
+      { "en": "has", "as": "has" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Police' is always treated as plural, so it takes 'are'.",
+      "as": "'Police' সদায় বহুবচন হিচাপে গণ্য হয়, গতিকে ই 'are' লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-011",
+    "q": {
+      "en": "Choose the correct option: Bread and butter ___ my favourite breakfast.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Bread and butter ___ my favourite breakfast."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "is", "as": "is" },
+      { "en": "were", "as": "were" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "When two nouns form a single idea (a dish), the verb is singular.",
+      "as": "দুটা বিশেষ্যই এটা অৰ্থ (এখন খাদ্য) গঠন কৰিলে ক্ৰিয়া একবচন হয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-012",
+    "q": {
+      "en": "Choose the correct option: Rice and curry ___ a popular dish in Assam.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Rice and curry ___ a popular dish in Assam."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" },
+      { "en": "have", "as": "have" },
+      { "en": "is", "as": "is" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Rice and curry' is thought of as one dish, so it takes the singular verb 'is'.",
+      "as": "'Rice and curry' ক এটা ব্যঞ্জন হিচাপে ভবা হয়, গতিকে ই একবচন ক্ৰিয়া 'is' লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-013",
+    "q": {
+      "en": "Choose the correct option: Either you or he ___ responsible.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Either you or he ___ responsible."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "is", "as": "is" },
+      { "en": "were", "as": "were" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "With 'either...or', the verb agrees with the nearer subject 'he', so 'is' is correct.",
+      "as": "'Either...or' ৰ সৈতে ক্ৰিয়া নিকটৱৰ্তী কৰ্তা 'he' ৰ সৈতে মিলে, গতিকে 'is' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-014",
+    "q": {
+      "en": "Choose the correct option: Neither the teacher nor the students ___ present.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Neither the teacher nor the students ___ present."
+    },
+    "options": [
+      { "en": "were", "as": "were" },
+      { "en": "was", "as": "was" },
+      { "en": "is", "as": "is" },
+      { "en": "has", "as": "has" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "With 'neither...nor', the verb agrees with the nearer subject 'students' (plural).",
+      "as": "'Neither...nor' ৰ সৈতে ক্ৰিয়া নিকটৱৰ্তী কৰ্তা 'students' (বহুবচন) ৰ সৈতে মিলে।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-015",
+    "q": {
+      "en": "Choose the correct option: Not only the students but also the teacher ___ happy.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Not only the students but also the teacher ___ happy."
+    },
+    "options": [
+      { "en": "were", "as": "were" },
+      { "en": "was", "as": "was" },
+      { "en": "are", "as": "are" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "With 'not only...but also', the verb agrees with the nearer subject 'teacher' (singular).",
+      "as": "'Not only...but also' ৰ সৈতে ক্ৰিয়া নিকটৱৰ্তী কৰ্তা 'teacher' (একবচন) ৰ সৈতে মিলে।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-016",
+    "q": {
+      "en": "Choose the correct option: My father, along with my brothers, ___ gone to Delhi.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: My father, along with my brothers, ___ gone to Delhi."
+    },
+    "options": [
+      { "en": "have", "as": "have" },
+      { "en": "has", "as": "has" },
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Along with' does not change the number of the subject, so 'has' agrees with 'father'.",
+      "as": "'Along with' এ কৰ্তাৰ সংখ্যা সলনি নকৰে, গতিকে 'has' এ 'father' ৰ সৈতে মিলে।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-017",
+    "q": {
+      "en": "Choose the correct option: The teacher as well as the students ___ present.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The teacher as well as the students ___ present."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" },
+      { "en": "is", "as": "is" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'As well as' does not change the subject's number, so the singular 'is' is used with 'teacher'.",
+      "as": "'As well as' এ কৰ্তাৰ সংখ্যা সলনি নকৰে, গতিকে 'teacher' ৰ সৈতে একবচন 'is' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-018",
+    "q": {
+      "en": "Choose the correct option: Ten kilometres ___ a long distance to walk.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Ten kilometres ___ a long distance to walk."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "is", "as": "is" },
+      { "en": "were", "as": "were" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A distance is treated as a single unit, so it takes the singular verb 'is'.",
+      "as": "দূৰত্বক এটা একক হিচাপে ধৰা হয়, গতিকে ই একবচন ক্ৰিয়া 'is' লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-019",
+    "q": {
+      "en": "Choose the correct option: Fifty rupees ___ not a big amount.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Fifty rupees ___ not a big amount."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" },
+      { "en": "is", "as": "is" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An amount of money is treated as a single unit, so it takes 'is'.",
+      "as": "ধনৰ পৰিমাণক এটা একক হিচাপে ধৰা হয়, গতিকে ই 'is' লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-020",
+    "q": {
+      "en": "Choose the correct option: Each of the girls ___ a prize.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Each of the girls ___ a prize."
+    },
+    "options": [
+      { "en": "have", "as": "have" },
+      { "en": "was", "as": "was" },
+      { "en": "are", "as": "are" },
+      { "en": "has", "as": "has" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Each of' takes a singular verb, so 'has' is correct.",
+      "as": "'Each of' ৰ সৈতে একবচন ক্ৰিয়া লয়, গতিকে 'has' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-021",
+    "q": {
+      "en": "Choose the correct option: Every one of the apples ___ rotten.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Every one of the apples ___ rotten."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" },
+      { "en": "is", "as": "is" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Every one of' takes a singular verb because 'one' is the subject.",
+      "as": "'Every one of' ৰ সৈতে একবচন ক্ৰিয়া লয় কাৰণ কৰ্তা 'one'।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-022",
+    "q": {
+      "en": "Choose the correct option: Many a man ___ tried but failed.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Many a man ___ tried but failed."
+    },
+    "options": [
+      { "en": "have", "as": "have" },
+      { "en": "has", "as": "has" },
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Many a' is followed by a singular noun and a singular verb.",
+      "as": "'Many a' ৰ পিছত একবচন বিশেষ্য আৰু একবচন ক্ৰিয়া আহে।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-023",
+    "q": {
+      "en": "Choose the correct option: Somebody ___ knocking at the door.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Somebody ___ knocking at the door."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" },
+      { "en": "has", "as": "has" },
+      { "en": "is", "as": "is" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Somebody' is singular and takes the singular verb 'is'.",
+      "as": "'Somebody' একবচন আৰু ই একবচন ক্ৰিয়া 'is' লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-024",
+    "q": {
+      "en": "Choose the correct option: Nobody ___ allowed to enter the hall.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Nobody ___ allowed to enter the hall."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "is", "as": "is" },
+      { "en": "were", "as": "were" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Nobody' is singular and takes the singular verb 'is'.",
+      "as": "'Nobody' একবচন আৰু ই একবচন ক্ৰিয়া 'is' লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-025",
+    "q": {
+      "en": "Choose the correct option: The furniture in this room ___ very old.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The furniture in this room ___ very old."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" },
+      { "en": "is", "as": "is" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Furniture' is an uncountable noun and takes a singular verb.",
+      "as": "'Furniture' এটা অগণনীয় বিশেষ্য আৰু ই একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-026",
+    "q": {
+      "en": "Choose the correct option: The information you gave me ___ very useful.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The information you gave me ___ very useful."
+    },
+    "options": [
+      { "en": "is", "as": "is" },
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Information' is an uncountable noun and takes a singular verb.",
+      "as": "'Information' এটা অগণনীয় বিশেষ্য আৰু ই একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-027",
+    "q": {
+      "en": "Choose the correct option: There ___ many books on the table.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: There ___ many books on the table."
+    },
+    "options": [
+      { "en": "is", "as": "is" },
+      { "en": "are", "as": "are" },
+      { "en": "was", "as": "was" },
+      { "en": "has", "as": "has" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In 'there is/are', the verb agrees with the following noun 'books' (plural), so 'are' is correct.",
+      "as": "'There is/are' ত ক্ৰিয়া পিছৰ বিশেষ্য 'books' (বহুবচন) ৰ সৈতে মিলে, গতিকে 'are' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-028",
+    "q": {
+      "en": "Choose the correct option: There ___ a book on the table.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: There ___ a book on the table."
+    },
+    "options": [
+      { "en": "is", "as": "is" },
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" },
+      { "en": "has", "as": "has" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The noun 'a book' is singular, so the verb must be singular 'is'.",
+      "as": "বিশেষ্য 'a book' একবচন, গতিকে ক্ৰিয়া একবচন 'is' হ'ব লাগে।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-029",
+    "q": {
+      "en": "Choose the correct option: Either of the two boys ___ the answer.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Either of the two boys ___ the answer."
+    },
+    "options": [
+      { "en": "know", "as": "know" },
+      { "en": "knows", "as": "knows" },
+      { "en": "knowing", "as": "knowing" },
+      { "en": "known", "as": "known" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Either of' takes a singular verb, so 'knows' is correct.",
+      "as": "'Either of' ৰ সৈতে একবচন ক্ৰিয়া লয়, গতিকে 'knows' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-030",
+    "q": {
+      "en": "Choose the correct option: Neither of them ___ invited to the party.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Neither of them ___ invited to the party."
+    },
+    "options": [
+      { "en": "were", "as": "were" },
+      { "en": "was", "as": "was" },
+      { "en": "are", "as": "are" },
+      { "en": "is", "as": "is" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Neither of' takes a singular verb, so 'is' is correct here.",
+      "as": "'Neither of' ৰ সৈতে একবচন ক্ৰিয়া লয়, গতিকে ইয়াত 'is' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-031",
+    "q": {
+      "en": "Choose the correct option: The committee ___ divided in their opinions.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The committee ___ divided in their opinions."
+    },
+    "options": [
+      { "en": "were", "as": "were" },
+      { "en": "was", "as": "was" },
+      { "en": "is", "as": "is" },
+      { "en": "has", "as": "has" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "When the members of a collective noun act individually, a plural verb is used.",
+      "as": "সমষ্টিবাচক বিশেষ্যৰ সদস্যসকলে পৃথকে কাৰ্য কৰিলে বহুবচন ক্ৰিয়া ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-032",
+    "q": {
+      "en": "Choose the correct option: The jury ___ given its verdict.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The jury ___ given its verdict."
+    },
+    "options": [
+      { "en": "have", "as": "have" },
+      { "en": "were", "as": "were" },
+      { "en": "has", "as": "has" },
+      { "en": "are", "as": "are" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "When a collective noun acts as a single unit, a singular verb is used.",
+      "as": "সমষ্টিবাচক বিশেষ্যই এটা একক হিচাপে কাৰ্য কৰিলে একবচন ক্ৰিয়া ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-033",
+    "q": {
+      "en": "Choose the correct option: Physics ___ a difficult subject for some students.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Physics ___ a difficult subject for some students."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "is", "as": "is" },
+      { "en": "were", "as": "were" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Physics', though ending in '-s', is a singular subject.",
+      "as": "'Physics', '-s' ৰে শেষ হ'লেও, এটা একবচন কৰ্তা।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-034",
+    "q": {
+      "en": "Choose the correct option: Measles ___ a contagious disease.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Measles ___ a contagious disease."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" },
+      { "en": "have", "as": "have" },
+      { "en": "is", "as": "is" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Measles' is the name of a disease and takes a singular verb.",
+      "as": "'Measles' এটা ৰোগৰ নাম আৰু ই একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-035",
+    "q": {
+      "en": "Choose the correct option: My trousers ___ new.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: My trousers ___ new."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "is", "as": "is" },
+      { "en": "was", "as": "was" },
+      { "en": "has", "as": "has" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Nouns like 'trousers' and 'scissors' that are always plural take plural verbs.",
+      "as": "'Trousers' আৰু 'scissors' ৰ দৰে সদায় বহুবচন বিশেষ্যই বহুবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-036",
+    "q": {
+      "en": "Choose the correct option: The scissors ___ very sharp.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The scissors ___ very sharp."
+    },
+    "options": [
+      { "en": "is", "as": "is" },
+      { "en": "was", "as": "was" },
+      { "en": "are", "as": "are" },
+      { "en": "has", "as": "has" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Scissors' is always plural, so it takes the plural verb 'are'.",
+      "as": "'Scissors' সদায় বহুবচন, গতিকে ই বহুবচন ক্ৰিয়া 'are' লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-037",
+    "q": {
+      "en": "Choose the correct option: A flock of birds ___ flying in the sky.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: A flock of birds ___ flying in the sky."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "is", "as": "is" },
+      { "en": "were", "as": "were" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The subject is 'a flock' (collective, singular), so the verb 'is' is used.",
+      "as": "কৰ্তা হৈছে 'a flock' (সমষ্টিবাচক, একবচন), গতিকে 'is' ক্ৰিয়া ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-038",
+    "q": {
+      "en": "Choose the correct option: The poet and writer ___ dead.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The poet and writer ___ dead."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" },
+      { "en": "have", "as": "have" },
+      { "en": "is", "as": "is" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "When the article 'the' is used once, the two nouns refer to one person, so the verb is singular.",
+      "as": "'The' একবাৰ ব্যৱহাৰ হ'লে দুটা বিশেষ্যই এজন ব্যক্তিক বুজায়, গতিকে ক্ৰিয়া একবচন হয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-039",
+    "q": {
+      "en": "Choose the correct option: The poet and the writer ___ come.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The poet and the writer ___ come."
+    },
+    "options": [
+      { "en": "has", "as": "has" },
+      { "en": "was", "as": "was" },
+      { "en": "have", "as": "have" },
+      { "en": "is", "as": "is" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The article 'the' is used twice, so they are two persons and take the plural verb 'have'.",
+      "as": "'The' দুবাৰ ব্যৱহাৰ হৈছে, গতিকে তেওঁলোক দুজন ব্যক্তি আৰু বহুবচন ক্ৰিয়া 'have' লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-040",
+    "q": {
+      "en": "Choose the correct option: Each boy and each girl ___ given a book.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Each boy and each girl ___ given a book."
+    },
+    "options": [
+      { "en": "was", "as": "was" },
+      { "en": "were", "as": "were" },
+      { "en": "are", "as": "are" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "When 'each' is used before both nouns, the verb remains singular.",
+      "as": "দুয়োটা বিশেষ্যৰ আগত 'each' ব্যৱহাৰ হ'লে ক্ৰিয়া একবচন থাকে।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-041",
+    "q": {
+      "en": "Choose the correct option: Slow and steady ___ the race.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Slow and steady ___ the race."
+    },
+    "options": [
+      { "en": "win", "as": "win" },
+      { "en": "wins", "as": "wins" },
+      { "en": "won", "as": "won" },
+      { "en": "winning", "as": "winning" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Slow and steady' is a single idea/proverb, so it takes the singular verb 'wins'.",
+      "as": "'Slow and steady' এটা অৰ্থ বা প্ৰবাদ, গতিকে ই একবচন ক্ৰিয়া 'wins' লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-042",
+    "q": {
+      "en": "Choose the correct option: To err ___ human.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: To err ___ human."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" },
+      { "en": "have", "as": "have" },
+      { "en": "is", "as": "is" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A to-infinitive used as a subject takes a singular verb.",
+      "as": "কৰ্তা হিচাপে ব্যৱহৃত to-infinitive এ একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-043",
+    "q": {
+      "en": "Choose the correct option: Reading books ___ my hobby.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Reading books ___ my hobby."
+    },
+    "options": [
+      { "en": "is", "as": "is" },
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A gerund (verb + ing) used as a subject takes a singular verb.",
+      "as": "কৰ্তা হিচাপে ব্যৱহৃত gerund (verb + ing) এ একবচন ক্ৰিয়া লয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-044",
+    "q": {
+      "en": "Choose the correct option: Nobody knows what ___ going to happen.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Nobody knows what ___ going to happen."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" },
+      { "en": "is", "as": "is" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The subject 'what' here is singular, so the singular verb 'is' is used.",
+      "as": "ইয়াত কৰ্তা 'what' একবচন, গতিকে একবচন ক্ৰিয়া 'is' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-045",
+    "q": {
+      "en": "Choose the correct option: He is one of the boys who ___ always late.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: He is one of the boys who ___ always late."
+    },
+    "options": [
+      { "en": "is", "as": "is" },
+      { "en": "are", "as": "are" },
+      { "en": "was", "as": "was" },
+      { "en": "has", "as": "has" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Here 'who' refers to 'boys' (plural), so the plural verb 'are' is correct.",
+      "as": "ইয়াত 'who' এ 'boys' (বহুবচন) লৈ নির্দেশ কৰে, গতিকে বহুবচন ক্ৰিয়া 'are' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-046",
+    "q": {
+      "en": "Choose the correct option: It is I who ___ to blame.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: It is I who ___ to blame."
+    },
+    "options": [
+      { "en": "am", "as": "am" },
+      { "en": "is", "as": "is" },
+      { "en": "are", "as": "are" },
+      { "en": "was", "as": "was" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Who' refers to 'I', so the verb 'am' agrees with it.",
+      "as": "'Who' এ 'I' লৈ নির্দেশ কৰে, গতিকে ক্ৰিয়া 'am' তাৰ সৈতে মিলে।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-047",
+    "q": {
+      "en": "Choose the correct option: You, he and I ___ friends.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: You, he and I ___ friends."
+    },
+    "options": [
+      { "en": "is", "as": "is" },
+      { "en": "was", "as": "was" },
+      { "en": "has", "as": "has" },
+      { "en": "are", "as": "are" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Three subjects joined by 'and' form a plural subject, so 'are' is correct.",
+      "as": "'And' ৰে সংযুক্ত তিনিটা কৰ্তাই বহুবচন কৰ্তা গঠন কৰে, গতিকে 'are' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-048",
+    "q": {
+      "en": "Choose the correct option: The quality of the mangoes ___ good.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The quality of the mangoes ___ good."
+    },
+    "options": [
+      { "en": "are", "as": "are" },
+      { "en": "were", "as": "were" },
+      { "en": "is", "as": "is" },
+      { "en": "have", "as": "have" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The subject is 'quality' (singular); the phrase 'of the mangoes' does not change it.",
+      "as": "কৰ্তা হৈছে 'quality' (একবচন); 'of the mangoes' বাক্যাংশই ইয়াক সলনি নকৰে।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-049",
+    "q": {
+      "en": "Choose the correct option: A large number of people ___ the meeting.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: A large number of people ___ the meeting."
+    },
+    "options": [
+      { "en": "attend", "as": "attend" },
+      { "en": "attended", "as": "attended" },
+      { "en": "attending", "as": "attending" },
+      { "en": "attends", "as": "attends" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'A large number of people' is plural, so the plural verb 'attended' is correct.",
+      "as": "'A large number of people' বহুবচন, গতিকে বহুবচন ক্ৰিয়া 'attended' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "subject-verb-agreement-050",
+    "q": {
+      "en": "Choose the correct option: The majority of the students ___ passed.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The majority of the students ___ passed."
+    },
+    "options": [
+      { "en": "have", "as": "have" },
+      { "en": "has", "as": "has" },
+      { "en": "is", "as": "is" },
+      { "en": "was", "as": "was" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'The majority of + plural noun' takes a plural verb, so 'have' is correct.",
+      "as": "'The majority of + বহুবচন বিশেষ্য' য়ে বহুবচন ক্ৰিয়া লয়, গতিকে 'have' শুদ্ধ।"
+    }
   }
-}
+]
