@@ -1,30 +1,1010 @@
-{
-  "id": "lcm-hcf-001",
-  "q": {
-    "en": "What is the LCM of 12 and 18?",
-    "as": "12 আৰু 18 ৰ ল.সা.গু. কিমান?"
-  },
-  "options": [
-    {
-      "en": "6",
-      "as": "৬"
+[
+  {
+    "id": "lcm-hcf-001",
+    "q": {
+      "en": "What is the LCM of 12 and 18?",
+      "as": "12 আৰু 18 ৰ ল.সা.গু. কিমান?"
     },
-    {
-      "en": "36",
-      "as": "৩৬"
-    },
-    {
-      "en": "72",
-      "as": "৭২"
-    },
-    {
-      "en": "216",
-      "as": "২১৬"
+    "options": [
+      { "en": "6", "as": "৬" },
+      { "en": "36", "as": "৩৬" },
+      { "en": "72", "as": "৭২" },
+      { "en": "216", "as": "২১৬" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "12 = 2²×3 and 18 = 2×3², so LCM = 2²×3² = 36.",
+      "as": "12 = 2²×3 আৰু 18 = 2×3², গতিকে ল.সা.গু. = 2²×3² = 36।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "12 = 2²×3 and 18 = 2×3², so LCM = 2²×3² = 36.",
-    "as": "12 = 2²×3 আৰু 18 = 2×3², গতিকে ল.সা.গু. = 2²×3² = 36।"
+  },
+  {
+    "id": "lcm-hcf-002",
+    "q": {
+      "en": "What is the LCM of 4 and 6?",
+      "as": "4 আৰু 6 ৰ ল.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "24", "as": "২৪" },
+      { "en": "6", "as": "৬" },
+      { "en": "12", "as": "১২" },
+      { "en": "3", "as": "৩" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "4 = 2² and 6 = 2×3, so LCM = 2²×3 = 12.",
+      "as": "4 = 2² আৰু 6 = 2×3, গতিকে ল.সা.গু. = 2²×3 = 12।"
+    }
+  },
+  {
+    "id": "lcm-hcf-003",
+    "q": {
+      "en": "What is the LCM of 8 and 12?",
+      "as": "8 আৰু 12 ৰ ল.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "24", "as": "২৪" },
+      { "en": "96", "as": "৯৬" },
+      { "en": "4", "as": "৪" },
+      { "en": "48", "as": "৪৮" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "8 = 2³ and 12 = 2²×3, so LCM = 2³×3 = 24.",
+      "as": "8 = 2³ আৰু 12 = 2²×3, গতিকে ল.সা.গু. = 2³×3 = 24।"
+    }
+  },
+  {
+    "id": "lcm-hcf-004",
+    "q": {
+      "en": "What is the LCM of 9 and 12?",
+      "as": "9 আৰু 12 ৰ ল.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "3", "as": "৩" },
+      { "en": "108", "as": "১০৮" },
+      { "en": "18", "as": "১৮" },
+      { "en": "36", "as": "৩৬" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "9 = 3² and 12 = 2²×3, so LCM = 2²×3² = 36.",
+      "as": "9 = 3² আৰু 12 = 2²×3, গতিকে ল.সা.গু. = 2²×3² = 36।"
+    }
+  },
+  {
+    "id": "lcm-hcf-005",
+    "q": {
+      "en": "What is the LCM of 10 and 15?",
+      "as": "10 আৰু 15 ৰ ল.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "150", "as": "১৫০" },
+      { "en": "30", "as": "৩০" },
+      { "en": "5", "as": "৫" },
+      { "en": "60", "as": "৬০" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "10 = 2×5 and 15 = 3×5, so LCM = 2×3×5 = 30.",
+      "as": "10 = 2×5 আৰু 15 = 3×5, গতিকে ল.সা.গু. = 2×3×5 = 30।"
+    }
+  },
+  {
+    "id": "lcm-hcf-006",
+    "q": {
+      "en": "What is the LCM of 6 and 8?",
+      "as": "6 আৰু 8 ৰ ল.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "48", "as": "৪৮" },
+      { "en": "12", "as": "১২" },
+      { "en": "24", "as": "২৪" },
+      { "en": "2", "as": "২" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "6 = 2×3 and 8 = 2³, so LCM = 2³×3 = 24.",
+      "as": "6 = 2×3 আৰু 8 = 2³, গতিকে ল.সা.গু. = 2³×3 = 24।"
+    }
+  },
+  {
+    "id": "lcm-hcf-007",
+    "q": {
+      "en": "What is the LCM of 15 and 20?",
+      "as": "15 আৰু 20 ৰ ল.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "300", "as": "৩০০" },
+      { "en": "5", "as": "৫" },
+      { "en": "30", "as": "৩০" },
+      { "en": "60", "as": "৬০" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "15 = 3×5 and 20 = 2²×5, so LCM = 2²×3×5 = 60.",
+      "as": "15 = 3×5 আৰু 20 = 2²×5, গতিকে ল.সা.গু. = 2²×3×5 = 60।"
+    }
+  },
+  {
+    "id": "lcm-hcf-008",
+    "q": {
+      "en": "What is the LCM of 16 and 24?",
+      "as": "16 আৰু 24 ৰ ল.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "8", "as": "৮" },
+      { "en": "48", "as": "৪৮" },
+      { "en": "24", "as": "২৪" },
+      { "en": "96", "as": "৯৬" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "16 = 2⁴ and 24 = 2³×3, so LCM = 2⁴×3 = 48.",
+      "as": "16 = 2⁴ আৰু 24 = 2³×3, গতিকে ল.সা.গু. = 2⁴×3 = 48।"
+    }
+  },
+  {
+    "id": "lcm-hcf-009",
+    "q": {
+      "en": "What is the LCM of 25 and 30?",
+      "as": "25 আৰু 30 ৰ ল.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "150", "as": "১৫০" },
+      { "en": "5", "as": "৫" },
+      { "en": "50", "as": "৫০" },
+      { "en": "300", "as": "৩০০" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "25 = 5² and 30 = 2×3×5, so LCM = 2×3×5² = 150.",
+      "as": "25 = 5² আৰু 30 = 2×3×5, গতিকে ল.সা.গু. = 2×3×5² = 150।"
+    }
+  },
+  {
+    "id": "lcm-hcf-010",
+    "q": {
+      "en": "What is the LCM of 36 and 48?",
+      "as": "36 আৰু 48 ৰ ল.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "12", "as": "১২" },
+      { "en": "72", "as": "৭২" },
+      { "en": "144", "as": "১৪৪" },
+      { "en": "288", "as": "২৮৮" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "36 = 2²×3² and 48 = 2⁴×3, so LCM = 2⁴×3² = 144.",
+      "as": "36 = 2²×3² আৰু 48 = 2⁴×3, গতিকে ল.সা.গু. = 2⁴×3² = 144।"
+    }
+  },
+  {
+    "id": "lcm-hcf-011",
+    "q": {
+      "en": "What is the LCM of 7 and 11?",
+      "as": "7 আৰু 11 ৰ ল.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "77", "as": "৭৭" },
+      { "en": "1", "as": "১" },
+      { "en": "18", "as": "১৮" },
+      { "en": "7", "as": "৭" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "7 and 11 are co-prime, so LCM = 7 × 11 = 77.",
+      "as": "7 আৰু 11 সহ-মৌলিক, গতিকে ল.সা.গু. = 7 × 11 = 77।"
+    }
+  },
+  {
+    "id": "lcm-hcf-012",
+    "q": {
+      "en": "What is the LCM of 20 and 30?",
+      "as": "20 আৰু 30 ৰ ল.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "10", "as": "১০" },
+      { "en": "60", "as": "৬০" },
+      { "en": "120", "as": "১২০" },
+      { "en": "300", "as": "৩০০" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "20 = 2²×5 and 30 = 2×3×5, so LCM = 2²×3×5 = 60.",
+      "as": "20 = 2²×5 আৰু 30 = 2×3×5, গতিকে ল.সা.গু. = 2²×3×5 = 60।"
+    }
+  },
+  {
+    "id": "lcm-hcf-013",
+    "q": {
+      "en": "What is the HCF of 12 and 18?",
+      "as": "12 আৰু 18 ৰ গ.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "36", "as": "৩৬" },
+      { "en": "3", "as": "৩" },
+      { "en": "2", "as": "২" },
+      { "en": "6", "as": "৬" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "12 = 2²×3 and 18 = 2×3², so HCF = 2×3 = 6.",
+      "as": "12 = 2²×3 আৰু 18 = 2×3², গতিকে গ.সা.গু. = 2×3 = 6।"
+    }
+  },
+  {
+    "id": "lcm-hcf-014",
+    "q": {
+      "en": "What is the HCF of 24 and 36?",
+      "as": "24 আৰু 36 ৰ গ.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "6", "as": "৬" },
+      { "en": "12", "as": "১২" },
+      { "en": "72", "as": "৭২" },
+      { "en": "4", "as": "৪" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "24 = 2³×3 and 36 = 2²×3², so HCF = 2²×3 = 12.",
+      "as": "24 = 2³×3 আৰু 36 = 2²×3², গতিকে গ.সা.গু. = 2²×3 = 12।"
+    }
+  },
+  {
+    "id": "lcm-hcf-015",
+    "q": {
+      "en": "What is the HCF of 16 and 40?",
+      "as": "16 আৰু 40 ৰ গ.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "4", "as": "৪" },
+      { "en": "2", "as": "২" },
+      { "en": "8", "as": "৮" },
+      { "en": "16", "as": "১৬" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "16 = 2⁴ and 40 = 2³×5, so HCF = 2³ = 8.",
+      "as": "16 = 2⁴ আৰু 40 = 2³×5, গতিকে গ.সা.গু. = 2³ = 8।"
+    }
+  },
+  {
+    "id": "lcm-hcf-016",
+    "q": {
+      "en": "What is the HCF of 45 and 60?",
+      "as": "45 আৰু 60 ৰ গ.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "15", "as": "১৫" },
+      { "en": "5", "as": "৫" },
+      { "en": "3", "as": "৩" },
+      { "en": "30", "as": "৩০" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "45 = 3²×5 and 60 = 2²×3×5, so HCF = 3×5 = 15.",
+      "as": "45 = 3²×5 আৰু 60 = 2²×3×5, গতিকে গ.সা.গু. = 3×5 = 15।"
+    }
+  },
+  {
+    "id": "lcm-hcf-017",
+    "q": {
+      "en": "What is the HCF of 21 and 28?",
+      "as": "21 আৰু 28 ৰ গ.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "7", "as": "৭" },
+      { "en": "14", "as": "১৪" },
+      { "en": "3", "as": "৩" },
+      { "en": "21", "as": "২১" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "21 = 3×7 and 28 = 2²×7, so HCF = 7.",
+      "as": "21 = 3×7 আৰু 28 = 2²×7, গতিকে গ.সা.গু. = 7।"
+    }
+  },
+  {
+    "id": "lcm-hcf-018",
+    "q": {
+      "en": "What is the HCF of 18 and 27?",
+      "as": "18 আৰু 27 ৰ গ.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "3", "as": "৩" },
+      { "en": "54", "as": "৫৪" },
+      { "en": "6", "as": "৬" },
+      { "en": "9", "as": "৯" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "18 = 2×3² and 27 = 3³, so HCF = 3² = 9.",
+      "as": "18 = 2×3² আৰু 27 = 3³, গতিকে গ.সা.গু. = 3² = 9।"
+    }
+  },
+  {
+    "id": "lcm-hcf-019",
+    "q": {
+      "en": "What is the HCF of 16 and 24?",
+      "as": "16 আৰু 24 ৰ গ.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "4", "as": "৪" },
+      { "en": "2", "as": "২" },
+      { "en": "8", "as": "৮" },
+      { "en": "16", "as": "১৬" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "16 = 2⁴ and 24 = 2³×3, so HCF = 2³ = 8.",
+      "as": "16 = 2⁴ আৰু 24 = 2³×3, গতিকে গ.সা.গু. = 2³ = 8।"
+    }
+  },
+  {
+    "id": "lcm-hcf-020",
+    "q": {
+      "en": "What is the HCF of 25 and 30?",
+      "as": "25 আৰু 30 ৰ গ.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "150", "as": "১৫০" },
+      { "en": "5", "as": "৫" },
+      { "en": "25", "as": "২৫" },
+      { "en": "10", "as": "১০" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "25 = 5² and 30 = 2×3×5, so HCF = 5.",
+      "as": "25 = 5² আৰু 30 = 2×3×5, গতিকে গ.সা.গু. = 5।"
+    }
+  },
+  {
+    "id": "lcm-hcf-021",
+    "q": {
+      "en": "What is the HCF of 7 and 11?",
+      "as": "7 আৰু 11 ৰ গ.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "1", "as": "১" },
+      { "en": "77", "as": "৭৭" },
+      { "en": "11", "as": "১১" },
+      { "en": "7", "as": "৭" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "7 and 11 are co-prime, so HCF = 1.",
+      "as": "7 আৰু 11 সহ-মৌলিক, গতিকে গ.সা.গু. = 1।"
+    }
+  },
+  {
+    "id": "lcm-hcf-022",
+    "q": {
+      "en": "What is the HCF of 36 and 48?",
+      "as": "36 আৰু 48 ৰ গ.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "6", "as": "৬" },
+      { "en": "12", "as": "১২" },
+      { "en": "144", "as": "১৪৪" },
+      { "en": "24", "as": "২৪" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "36 = 2²×3² and 48 = 2⁴×3, so HCF = 2²×3 = 12.",
+      "as": "36 = 2²×3² আৰু 48 = 2⁴×3, গতিকে গ.সা.গু. = 2²×3 = 12।"
+    }
+  },
+  {
+    "id": "lcm-hcf-023",
+    "q": {
+      "en": "What is the LCM of 4, 6 and 8?",
+      "as": "4, 6 আৰু 8 ৰ ল.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "48", "as": "৪৮" },
+      { "en": "12", "as": "১২" },
+      { "en": "24", "as": "২৪" },
+      { "en": "2", "as": "২" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "4 = 2², 6 = 2×3, 8 = 2³, so LCM = 2³×3 = 24.",
+      "as": "4 = 2², 6 = 2×3, 8 = 2³, গতিকে ল.সা.গু. = 2³×3 = 24।"
+    }
+  },
+  {
+    "id": "lcm-hcf-024",
+    "q": {
+      "en": "What is the LCM of 6, 9 and 12?",
+      "as": "6, 9 আৰু 12 ৰ ল.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "36", "as": "৩৬" },
+      { "en": "3", "as": "৩" },
+      { "en": "72", "as": "৭২" },
+      { "en": "18", "as": "১৮" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "6 = 2×3, 9 = 3², 12 = 2²×3, so LCM = 2²×3² = 36.",
+      "as": "6 = 2×3, 9 = 3², 12 = 2²×3, গতিকে ল.সা.গু. = 2²×3² = 36।"
+    }
+  },
+  {
+    "id": "lcm-hcf-025",
+    "q": {
+      "en": "What is the LCM of 3, 5 and 10?",
+      "as": "3, 5 আৰু 10 ৰ ল.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "15", "as": "১৫" },
+      { "en": "150", "as": "১৫০" },
+      { "en": "60", "as": "৬০" },
+      { "en": "30", "as": "৩০" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "3, 5 and 10 are given; LCM = 2×3×5 = 30.",
+      "as": "3, 5 আৰু 10 দিয়া আছে; ল.সা.গু. = 2×3×5 = 30।"
+    }
+  },
+  {
+    "id": "lcm-hcf-026",
+    "q": {
+      "en": "What is the HCF of 12, 18 and 24?",
+      "as": "12, 18 আৰু 24 ৰ গ.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "2", "as": "২" },
+      { "en": "6", "as": "৬" },
+      { "en": "3", "as": "৩" },
+      { "en": "12", "as": "১২" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "12 = 2²×3, 18 = 2×3², 24 = 2³×3, so HCF = 2×3 = 6.",
+      "as": "12 = 2²×3, 18 = 2×3², 24 = 2³×3, গতিকে গ.সা.গু. = 2×3 = 6।"
+    }
+  },
+  {
+    "id": "lcm-hcf-027",
+    "q": {
+      "en": "What is the HCF of 16, 24 and 40?",
+      "as": "16, 24 আৰু 40 ৰ গ.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "4", "as": "৪" },
+      { "en": "2", "as": "২" },
+      { "en": "8", "as": "৮" },
+      { "en": "16", "as": "১৬" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "16 = 2⁴, 24 = 2³×3, 40 = 2³×5, so HCF = 2³ = 8.",
+      "as": "16 = 2⁴, 24 = 2³×3, 40 = 2³×5, গতিকে গ.সা.গু. = 2³ = 8।"
+    }
+  },
+  {
+    "id": "lcm-hcf-028",
+    "q": {
+      "en": "What is the HCF of 15, 30 and 45?",
+      "as": "15, 30 আৰু 45 ৰ গ.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "3", "as": "৩" },
+      { "en": "5", "as": "৫" },
+      { "en": "30", "as": "৩০" },
+      { "en": "15", "as": "১৫" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "15 = 3×5, 30 = 2×3×5, 45 = 3²×5, so HCF = 3×5 = 15.",
+      "as": "15 = 3×5, 30 = 2×3×5, 45 = 3²×5, গতিকে গ.সা.গু. = 3×5 = 15।"
+    }
+  },
+  {
+    "id": "lcm-hcf-029",
+    "q": {
+      "en": "The LCM and HCF of two numbers are 36 and 6. If one number is 12, find the other number.",
+      "as": "দুটা সংখ্যাৰ ল.সা.গু. আৰু গ.সা.গু. ক্ৰমে 36 আৰু 6। যদি এটা সংখ্যা 12 হয়, আনটো সংখ্যা উলিওৱা।"
+    },
+    "options": [
+      { "en": "18", "as": "১৮" },
+      { "en": "24", "as": "২৪" },
+      { "en": "36", "as": "৩৬" },
+      { "en": "6", "as": "৬" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Product of numbers = LCM × HCF = 36 × 6 = 216; other number = 216 / 12 = 18.",
+      "as": "সংখ্যা দুটাৰ গুণফল = ল.সা.গু. × গ.সা.গু. = 36 × 6 = 216; আনটো সংখ্যা = 216 / 12 = 18।"
+    }
+  },
+  {
+    "id": "lcm-hcf-030",
+    "q": {
+      "en": "The LCM and HCF of two numbers are 60 and 5. If one number is 20, find the other number.",
+      "as": "দুটা সংখ্যাৰ ল.সা.গু. আৰু গ.সা.গু. ক্ৰমে 60 আৰু 5। যদি এটা সংখ্যা 20 হয়, আনটো সংখ্যা উলিওৱা।"
+    },
+    "options": [
+      { "en": "12", "as": "১২" },
+      { "en": "15", "as": "১৫" },
+      { "en": "30", "as": "৩০" },
+      { "en": "25", "as": "২৫" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Product = 60 × 5 = 300; other number = 300 / 20 = 15.",
+      "as": "গুণফল = 60 × 5 = 300; আনটো সংখ্যা = 300 / 20 = 15।"
+    }
+  },
+  {
+    "id": "lcm-hcf-031",
+    "q": {
+      "en": "The product of two numbers is 180 and their HCF is 3. Find their LCM.",
+      "as": "দুটা সংখ্যাৰ গুণফল 180 আৰু সিহঁতৰ গ.সা.গু. 3। সিহঁতৰ ল.সা.গু. উলিওৱা।"
+    },
+    "options": [
+      { "en": "30", "as": "৩০" },
+      { "en": "90", "as": "৯০" },
+      { "en": "60", "as": "৬০" },
+      { "en": "540", "as": "৫৪০" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "LCM = product / HCF = 180 / 3 = 60.",
+      "as": "ল.সা.গু. = গুণফল / গ.সা.গু. = 180 / 3 = 60।"
+    }
+  },
+  {
+    "id": "lcm-hcf-032",
+    "q": {
+      "en": "The HCF of two numbers is 6 and their LCM is 72. If one number is 24, find the other number.",
+      "as": "দুটা সংখ্যাৰ গ.সা.গু. 6 আৰু ল.সা.গু. 72। যদি এটা সংখ্যা 24 হয়, আনটো সংখ্যা উলিওৱা।"
+    },
+    "options": [
+      { "en": "12", "as": "১২" },
+      { "en": "36", "as": "৩৬" },
+      { "en": "24", "as": "২৪" },
+      { "en": "18", "as": "১৮" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Product = 6 × 72 = 432; other number = 432 / 24 = 18.",
+      "as": "গুণফল = 6 × 72 = 432; আনটো সংখ্যা = 432 / 24 = 18।"
+    }
+  },
+  {
+    "id": "lcm-hcf-033",
+    "q": {
+      "en": "The product of two numbers is 288 and their LCM is 72. Find their HCF.",
+      "as": "দুটা সংখ্যাৰ গুণফল 288 আৰু সিহঁতৰ ল.সা.গু. 72। সিহঁতৰ গ.সা.গু. উলিওৱা।"
+    },
+    "options": [
+      { "en": "4", "as": "৪" },
+      { "en": "6", "as": "৬" },
+      { "en": "8", "as": "৮" },
+      { "en": "12", "as": "১২" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "HCF = product / LCM = 288 / 72 = 4.",
+      "as": "গ.সা.গু. = গুণফল / ল.সা.গু. = 288 / 72 = 4।"
+    }
+  },
+  {
+    "id": "lcm-hcf-034",
+    "q": {
+      "en": "The smallest number which is exactly divisible by 12, 15 and 20 is —",
+      "as": "12, 15 আৰু 20 ৰে সম্পূৰ্ণৰূপে বিভাজ্য আটাইতকৈ সৰু সংখ্যা —"
+    },
+    "options": [
+      { "en": "30", "as": "৩০" },
+      { "en": "60", "as": "৬০" },
+      { "en": "120", "as": "১২০" },
+      { "en": "180", "as": "১৮০" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LCM of 12, 15 and 20 = 60, so the smallest number is 60.",
+      "as": "12, 15 আৰু 20 ৰ ল.সা.গু. = 60, গতিকে আটাইতকৈ সৰু সংখ্যা 60।"
+    }
+  },
+  {
+    "id": "lcm-hcf-035",
+    "q": {
+      "en": "The smallest number which is exactly divisible by 6, 8 and 12 is —",
+      "as": "6, 8 আৰু 12 ৰে সম্পূৰ্ণৰূপে বিভাজ্য আটাইতকৈ সৰু সংখ্যা —"
+    },
+    "options": [
+      { "en": "48", "as": "৪৮" },
+      { "en": "12", "as": "১২" },
+      { "en": "24", "as": "২৪" },
+      { "en": "72", "as": "৭২" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "LCM of 6, 8 and 12 = 24.",
+      "as": "6, 8 আৰু 12 ৰ ল.সা.গু. = 24।"
+    }
+  },
+  {
+    "id": "lcm-hcf-036",
+    "q": {
+      "en": "The least number which is exactly divisible by 4, 6, 10 and 12 is —",
+      "as": "4, 6, 10 আৰু 12 ৰে সম্পূৰ্ণৰূপে বিভাজ্য ন্যূনতম সংখ্যা —"
+    },
+    "options": [
+      { "en": "30", "as": "৩০" },
+      { "en": "120", "as": "১২০" },
+      { "en": "240", "as": "২৪০" },
+      { "en": "60", "as": "৬০" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "4 = 2², 6 = 2×3, 10 = 2×5, 12 = 2²×3; LCM = 2²×3×5 = 60.",
+      "as": "4 = 2², 6 = 2×3, 10 = 2×5, 12 = 2²×3; ল.সা.গু. = 2²×3×5 = 60।"
+    }
+  },
+  {
+    "id": "lcm-hcf-037",
+    "q": {
+      "en": "The greatest number that divides 24 and 36 exactly is —",
+      "as": "24 আৰু 36 ক সম্পূৰ্ণৰূপে ভাগ কৰা আটাইতকৈ ডাঙৰ সংখ্যা —"
+    },
+    "options": [
+      { "en": "12", "as": "১২" },
+      { "en": "6", "as": "৬" },
+      { "en": "24", "as": "২৪" },
+      { "en": "72", "as": "৭২" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "HCF of 24 and 36 = 12.",
+      "as": "24 আৰু 36 ৰ গ.সা.গু. = 12।"
+    }
+  },
+  {
+    "id": "lcm-hcf-038",
+    "q": {
+      "en": "The largest number that divides 48 and 60 exactly is —",
+      "as": "48 আৰু 60 ক সম্পূৰ্ণৰূপে ভাগ কৰা আটাইতকৈ ডাঙৰ সংখ্যা —"
+    },
+    "options": [
+      { "en": "6", "as": "৬" },
+      { "en": "12", "as": "১২" },
+      { "en": "24", "as": "২৪" },
+      { "en": "4", "as": "৪" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "HCF of 48 and 60 = 12.",
+      "as": "48 আৰু 60 ৰ গ.সা.গু. = 12।"
+    }
+  },
+  {
+    "id": "lcm-hcf-039",
+    "q": {
+      "en": "The greatest number that divides 18, 24 and 30 exactly is —",
+      "as": "18, 24 আৰু 30 ক সম্পূৰ্ণৰূপে ভাগ কৰা আটাইতকৈ ডাঙৰ সংখ্যা —"
+    },
+    "options": [
+      { "en": "2", "as": "২" },
+      { "en": "3", "as": "৩" },
+      { "en": "6", "as": "৬" },
+      { "en": "12", "as": "১২" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "HCF of 18, 24 and 30 = 6.",
+      "as": "18, 24 আৰু 30 ৰ গ.সা.গু. = 6।"
+    }
+  },
+  {
+    "id": "lcm-hcf-040",
+    "q": {
+      "en": "The largest number which divides 62, 132 and 237 leaving the same remainder in each case is —",
+      "as": "62, 132 আৰু 237 ক ভাগ কৰিলে প্ৰতিটো ক্ষেত্ৰতে একে ভাগশেষ ৰখা আটাইতকৈ ডাঙৰ সংখ্যা —"
+    },
+    "options": [
+      { "en": "5", "as": "৫" },
+      { "en": "7", "as": "৭" },
+      { "en": "70", "as": "৭০" },
+      { "en": "35", "as": "৩৫" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Differences: 132−62 = 70, 237−132 = 105, 237−62 = 175; HCF of 70, 105, 175 = 35.",
+      "as": "পাৰ্থক্য: 132−62 = 70, 237−132 = 105, 237−62 = 175; 70, 105, 175 ৰ গ.সা.গু. = 35।"
+    }
+  },
+  {
+    "id": "lcm-hcf-041",
+    "q": {
+      "en": "The smallest number which when divided by 12, 15 and 20 leaves a remainder 5 in each case is —",
+      "as": "যিটো আটাইতকৈ সৰু সংখ্যাক 12, 15 আৰু 20 ৰে ভাগ কৰিলে প্ৰতিটো ক্ষেত্ৰতে ভাগশেষ 5 থাকে —"
+    },
+    "options": [
+      { "en": "65", "as": "৬৫" },
+      { "en": "60", "as": "৬০" },
+      { "en": "55", "as": "৫৫" },
+      { "en": "120", "as": "১২০" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "LCM of 12, 15, 20 = 60; required number = 60 + 5 = 65.",
+      "as": "12, 15, 20 ৰ ল.সা.গু. = 60; প্ৰয়োজনীয় সংখ্যা = 60 + 5 = 65।"
+    }
+  },
+  {
+    "id": "lcm-hcf-042",
+    "q": {
+      "en": "The smallest number which when divided by 6, 8 and 12 leaves a remainder 3 in each case is —",
+      "as": "যিটো আটাইতকৈ সৰু সংখ্যাক 6, 8 আৰু 12 ৰে ভাগ কৰিলে প্ৰতিটো ক্ষেত্ৰতে ভাগশেষ 3 থাকে —"
+    },
+    "options": [
+      { "en": "24", "as": "২৪" },
+      { "en": "27", "as": "২৭" },
+      { "en": "30", "as": "৩০" },
+      { "en": "3", "as": "৩" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LCM of 6, 8, 12 = 24; required number = 24 + 3 = 27.",
+      "as": "6, 8, 12 ৰ ল.সা.গু. = 24; প্ৰয়োজনীয় সংখ্যা = 24 + 3 = 27।"
+    }
+  },
+  {
+    "id": "lcm-hcf-043",
+    "q": {
+      "en": "The least number which when divided by 10, 15 and 20 leaves a remainder 4 in each case is —",
+      "as": "যিটো ন্যূনতম সংখ্যাক 10, 15 আৰু 20 ৰে ভাগ কৰিলে প্ৰতিটো ক্ষেত্ৰতে ভাগশেষ 4 থাকে —"
+    },
+    "options": [
+      { "en": "60", "as": "৬০" },
+      { "en": "34", "as": "৩৪" },
+      { "en": "64", "as": "৬৪" },
+      { "en": "120", "as": "১২০" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "LCM of 10, 15, 20 = 60; required number = 60 + 4 = 64.",
+      "as": "10, 15, 20 ৰ ল.সা.গু. = 60; প্ৰয়োজনীয় সংখ্যা = 60 + 4 = 64।"
+    }
+  },
+  {
+    "id": "lcm-hcf-044",
+    "q": {
+      "en": "Three bells toll together and then toll at intervals of 6, 8 and 12 minutes respectively. After how many minutes will they toll together again?",
+      "as": "তিনিটা ঘণ্টা একেলগে বাজি তাৰ পিছত ক্ৰমে 6, 8 আৰু 12 মিনিটৰ অন্তৰালত বাজে। কিমান মিনিটৰ পিছত সিহঁত পুনৰ একেলগে বাজিব?"
+    },
+    "options": [
+      { "en": "12 minutes", "as": "12 মিনিট" },
+      { "en": "48 minutes", "as": "48 মিনিট" },
+      { "en": "36 minutes", "as": "36 মিনিট" },
+      { "en": "24 minutes", "as": "24 মিনিট" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "LCM of 6, 8 and 12 = 24, so they toll together again after 24 minutes.",
+      "as": "6, 8 আৰু 12 ৰ ল.সা.গু. = 24, গতিকে সিহঁত 24 মিনিটৰ পিছত পুনৰ একেলগে বাজিব।"
+    }
+  },
+  {
+    "id": "lcm-hcf-045",
+    "q": {
+      "en": "Three bells ring at intervals of 9, 12 and 15 minutes. If they ring together at 8 a.m., at what time will they ring together next?",
+      "as": "তিনিটা ঘণ্টা ক্ৰমে 9, 12 আৰু 15 মিনিটৰ অন্তৰালত বাজে। যদি সিহঁত পুৱা 8 বজাত একেলগে বাজে, পিছত কিমান বজাত পুনৰ একেলগে বাজিব?"
+    },
+    "options": [
+      { "en": "11 a.m.", "as": "পুৱা 11 বজা" },
+      { "en": "10 a.m.", "as": "পুৱা 10 বজা" },
+      { "en": "9 a.m.", "as": "পুৱা 9 বজা" },
+      { "en": "12 noon", "as": "দুপৰীয়া 12 বজা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "LCM of 9, 12 and 15 = 180 minutes = 3 hours; next time = 8 a.m. + 3 hours = 11 a.m.",
+      "as": "9, 12 আৰু 15 ৰ ল.সা.গু. = 180 মিনিট = 3 ঘণ্টা; পৰৱৰ্তী সময় = পুৱা 8 বজাৰ পিছত 3 ঘণ্টা = পুৱা 11 বজা।"
+    }
+  },
+  {
+    "id": "lcm-hcf-046",
+    "q": {
+      "en": "Two lamps blink at intervals of 4 seconds and 6 seconds. If they blink together once, after how many seconds will they blink together again?",
+      "as": "দুইটা লেম্পে ক্ৰমে 4 ছেকেণ্ড আৰু 6 ছেকেণ্ডৰ অন্তৰালত জিলিকি উঠে। যদি সিহঁত এবাৰ একেলগে জিলিকি উঠে, কিমান ছেকেণ্ডৰ পিছত পুনৰ একেলগে জিলিকিব?"
+    },
+    "options": [
+      { "en": "10 seconds", "as": "10 ছেকেণ্ড" },
+      { "en": "12 seconds", "as": "12 ছেকেণ্ড" },
+      { "en": "24 seconds", "as": "24 ছেকেণ্ড" },
+      { "en": "2 seconds", "as": "2 ছেকেণ্ড" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LCM of 4 and 6 = 12, so they blink together again after 12 seconds.",
+      "as": "4 আৰু 6 ৰ ল.সা.গু. = 12, গতিকে সিহঁত 12 ছেকেণ্ডৰ পিছত পুনৰ একেলগে জিলিকিব।"
+    }
+  },
+  {
+    "id": "lcm-hcf-047",
+    "q": {
+      "en": "The HCF of two consecutive natural numbers is —",
+      "as": "দুটা ধাৰাবাহিক স্বাভাৱিক সংখ্যাৰ গ.সা.গু. —"
+    },
+    "options": [
+      { "en": "0", "as": "০" },
+      { "en": "2", "as": "২" },
+      { "en": "1", "as": "১" },
+      { "en": "the smaller number", "as": "সৰু সংখ্যাটো" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Consecutive natural numbers have no common factor other than 1, so HCF = 1.",
+      "as": "ধাৰাবাহিক স্বাভাৱিক সংখ্যাৰ 1 ৰ বাহিৰে সাধাৰণ উৎপাদক নাথাকে, গতিকে গ.সা.গু. = 1।"
+    }
+  },
+  {
+    "id": "lcm-hcf-048",
+    "q": {
+      "en": "The LCM of two co-prime numbers is always —",
+      "as": "দুটা সহ-মৌলিক সংখ্যাৰ ল.সা.গু. সদায় —"
+    },
+    "options": [
+      { "en": "their sum", "as": "সিহঁতৰ সমষ্টি" },
+      { "en": "their difference", "as": "সিহঁতৰ পাৰ্থক্য" },
+      { "en": "1", "as": "১" },
+      { "en": "their product", "as": "সিহঁতৰ গুণফল" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "For co-prime numbers, LCM = product of the numbers.",
+      "as": "সহ-মৌলিক সংখ্যাৰ ক্ষেত্ৰত ল.সা.গু. = সংখ্যা দুটাৰ গুণফল।"
+    }
+  },
+  {
+    "id": "lcm-hcf-049",
+    "q": {
+      "en": "What is the HCF of 2/3, 4/9 and 8/15?",
+      "as": "2/3, 4/9 আৰু 8/15 ৰ গ.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "2/45", "as": "2/45" },
+      { "en": "2/135", "as": "2/135" },
+      { "en": "8/45", "as": "8/45" },
+      { "en": "4/45", "as": "4/45" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "HCF of fractions = HCF of numerators / LCM of denominators = HCF(2,4,8) / LCM(3,9,15) = 2/45.",
+      "as": "ভগ্নাংশৰ গ.সা.গু. = লৱবোৰৰ গ.সা.গু. / হৰবোৰৰ ল.সা.গু. = HCF(2,4,8) / LCM(3,9,15) = 2/45।"
+    }
+  },
+  {
+    "id": "lcm-hcf-050",
+    "q": {
+      "en": "What is the LCM of 2/3 and 4/5?",
+      "as": "2/3 আৰু 4/5 ৰ ল.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "8/15", "as": "8/15" },
+      { "en": "4", "as": "৪" },
+      { "en": "4/15", "as": "4/15" },
+      { "en": "2/5", "as": "2/5" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LCM of fractions = LCM of numerators / HCF of denominators = LCM(2,4) / HCF(3,5) = 4/1 = 4.",
+      "as": "ভগ্নাংশৰ ল.সা.গু. = লৱবোৰৰ ল.সা.গু. / হৰবোৰৰ গ.সা.গু. = LCM(2,4) / HCF(3,5) = 4/1 = 4।"
+    }
+  },
+  {
+    "id": "lcm-hcf-051",
+    "q": {
+      "en": "What is the HCF of 0.9 and 0.6?",
+      "as": "0.9 আৰু 0.6 ৰ গ.সা.গু. কিমান?"
+    },
+    "options": [
+      { "en": "0.9", "as": "0.9" },
+      { "en": "1.8", "as": "1.8" },
+      { "en": "0.3", "as": "0.3" },
+      { "en": "0.6", "as": "0.6" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "0.9 = 9/10 and 0.6 = 6/10; HCF = 3/10 = 0.3.",
+      "as": "0.9 = 9/10 আৰু 0.6 = 6/10; গ.সা.গু. = 3/10 = 0.3।"
+    }
+  },
+  {
+    "id": "lcm-hcf-052",
+    "q": {
+      "en": "The greatest number of students among whom 48 pencils and 60 erasers can be distributed equally is —",
+      "as": "48 টা পেঞ্চিল আৰু 60 টা ৰবৰ সমানে বিতৰণ কৰিব পৰা আটাইতকৈ বেছি ছাত্ৰৰ সংখ্যা —"
+    },
+    "options": [
+      { "en": "6", "as": "৬" },
+      { "en": "24", "as": "২৪" },
+      { "en": "4", "as": "৪" },
+      { "en": "12", "as": "১২" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "HCF of 48 and 60 = 12, so 12 students.",
+      "as": "48 আৰু 60 ৰ গ.সা.গু. = 12, গতিকে 12 জন ছাত্ৰ।"
+    }
+  },
+  {
+    "id": "lcm-hcf-053",
+    "q": {
+      "en": "The least number of sweets that can be distributed equally among 6, 8 or 9 children is —",
+      "as": "6, 8 বা 9 জন ল'ৰা-ছোৱালীৰ মাজত সমানে বিতৰণ কৰিব পৰা আটাইতকৈ কম মিঠাইৰ সংখ্যা —"
+    },
+    "options": [
+      { "en": "72", "as": "৭২" },
+      { "en": "36", "as": "৩৬" },
+      { "en": "144", "as": "১৪৪" },
+      { "en": "24", "as": "২৪" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "LCM of 6, 8 and 9 = 72.",
+      "as": "6, 8 আৰু 9 ৰ ল.সা.গু. = 72।"
+    }
+  },
+  {
+    "id": "lcm-hcf-054",
+    "q": {
+      "en": "Find the least number of oranges which can be arranged in groups of 8, 10 or 15.",
+      "as": "যিটো আটাইতকৈ কম সংখ্যক কমলা 8, 10 বা 15 ৰ গোটত সজাব পাৰি, সেই সংখ্যাটো উলিওৱা।"
+    },
+    "options": [
+      { "en": "60", "as": "৬০" },
+      { "en": "240", "as": "২৪০" },
+      { "en": "30", "as": "৩০" },
+      { "en": "120", "as": "১২০" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "LCM of 8, 10 and 15 = 120, so the least number is 120.",
+      "as": "8, 10 আৰু 15 ৰ ল.সা.গু. = 120, গতিকে আটাইতকৈ কম সংখ্যা 120।"
+    }
+  },
+  {
+    "id": "lcm-hcf-055",
+    "q": {
+      "en": "Four pieces of ribbon of lengths 12 cm, 16 cm, 20 cm and 24 cm are to be cut into pieces of equal length. The maximum possible length of each piece is —",
+      "as": "12 cm, 16 cm, 20 cm আৰু 24 cm দীঘৰ চাৰিটা ৰিবন সমান দীঘৰ টুকুৰাত কাটিব লাগে। প্ৰতিটো টুকুৰাৰ আটাইতকৈ বেছি দীঘ —"
+    },
+    "options": [
+      { "en": "2 cm", "as": "2 cm" },
+      { "en": "6 cm", "as": "6 cm" },
+      { "en": "4 cm", "as": "4 cm" },
+      { "en": "8 cm", "as": "8 cm" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "HCF of 12, 16, 20 and 24 = 4, so the maximum length is 4 cm.",
+      "as": "12, 16, 20 আৰু 24 ৰ গ.সা.গু. = 4, গতিকে আটাইতকৈ বেছি দীঘ 4 cm।"
+    }
+  },
+  {
+    "id": "lcm-hcf-056",
+    "q": {
+      "en": "Three containers contain 24 L, 36 L and 48 L of milk. The capacity of the largest container that can measure the milk of all the containers exactly is —",
+      "as": "তিনিটা পাত্ৰত 24 L, 36 L আৰু 48 L গাখীৰ আছে। আটাইকেইটা পাত্ৰৰ গাখীৰ সঠিকভাৱে জোখিব পৰা আটাইতকৈ ডাঙৰ পাত্ৰৰ ধাৰকত্ব —"
+    },
+    "options": [
+      { "en": "6 L", "as": "6 L" },
+      { "en": "24 L", "as": "24 L" },
+      { "en": "48 L", "as": "48 L" },
+      { "en": "12 L", "as": "12 L" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "HCF of 24, 36 and 48 = 12, so the capacity is 12 L.",
+      "as": "24, 36 আৰু 48 ৰ গ.সা.গু. = 12, গতিকে ধাৰকত্ব 12 L।"
+    }
   }
-}
+]
