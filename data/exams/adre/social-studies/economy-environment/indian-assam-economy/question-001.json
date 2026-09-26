@@ -1,30 +1,4952 @@
-{
-  "id": "indian-assam-economy-001",
-  "q": {
-    "en": "Which sector employs the largest share of India's workforce?",
-    "as": "ভাৰতৰ শ্ৰমশক্তিৰ সৰ্বাধিক অংশ কোনটো খণ্ডত নিয়োজিত?"
-  },
-  "options": [
-    {
-      "en": "Industry",
-      "as": "উদ্যোগ"
+[
+  {
+    "id": "indian-assam-economy-001",
+    "q": {
+      "en": "Which sector employs the largest share of India's workforce?",
+      "as": "ভাৰতৰ শ্ৰমশক্তিৰ সৰ্বাধিক অংশ কোনটো খণ্ডত নিয়োজিত?"
     },
-    {
-      "en": "Agriculture",
-      "as": "কৃষি"
-    },
-    {
-      "en": "Services",
-      "as": "সেৱা"
-    },
-    {
-      "en": "Mining",
-      "as": "খনন"
+    "options": [
+      {
+        "en": "Industry",
+        "as": "উদ্যোগ"
+      },
+      {
+        "en": "Agriculture",
+        "as": "কৃষি"
+      },
+      {
+        "en": "Services",
+        "as": "সেৱা"
+      },
+      {
+        "en": "Mining",
+        "as": "খনন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Agriculture is the largest employer in India, engaging nearly half of the workforce.",
+      "as": "কৃষি ভাৰতৰ সৰ্বাধিক নিয়োগকৰ্তা, প্ৰায় আধা শ্ৰমশক্তি ইয়াত নিয়োজিত।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "Agriculture is the largest employer in India, engaging nearly half of the workforce.",
-    "as": "কৃষি ভাৰতৰ সৰ্বাধিক নিয়োগকৰ্তা, প্ৰায় আধা শ্ৰমশক্তি ইয়াত নিয়োজিত।"
+  },
+  {
+    "id": "indian-assam-economy-002",
+    "q": {
+      "en": "Which sector contributes the largest share to India's GDP?",
+      "as": "ভাৰতৰ GDP ত সৰ্বাধিক অৱদান কোনটো খণ্ডৰ?"
+    },
+    "options": [
+      {
+        "en": "Agriculture",
+        "as": "কৃষি"
+      },
+      {
+        "en": "Industry",
+        "as": "উদ্যোগ"
+      },
+      {
+        "en": "Mining",
+        "as": "খনন"
+      },
+      {
+        "en": "Services",
+        "as": "সেৱা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The services sector contributes the largest share to India's GDP.",
+      "as": "সেৱা খণ্ডই ভাৰতৰ GDP ত সৰ্বাধিক অৱদান যোগায়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-003",
+    "q": {
+      "en": "The primary sector of the economy includes which activities?",
+      "as": "অৰ্থনীতিৰ প্ৰাথমিক খণ্ডত কোনবোৰ কাৰ্যকলাপ অন্তৰ্ভুক্ত?"
+    },
+    "options": [
+      {
+        "en": "Agriculture, mining and fishing",
+        "as": "কৃষি, খনন আৰু মাছ ধৰা"
+      },
+      {
+        "en": "Manufacturing and construction",
+        "as": "উৎপাদন আৰু নিৰ্মাণ"
+      },
+      {
+        "en": "Banking and insurance",
+        "as": "বেংকিং আৰু বীমা"
+      },
+      {
+        "en": "Software services",
+        "as": "চফ্টৱেৰ সেৱা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The primary sector involves direct use of natural resources like farming, mining and fishing.",
+      "as": "প্ৰাথমিক খণ্ডত কৃষি, খনন আৰু মাছ ধৰাৰ দৰে প্ৰাকৃতিক সম্পদৰ প্ৰত্যক্ষ ব্যৱহাৰ জড়িত।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-004",
+    "q": {
+      "en": "The secondary sector of the economy is mainly concerned with:",
+      "as": "অৰ্থনীতিৰ গৌণ খণ্ড মূলতঃ কাৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Agriculture",
+        "as": "কৃষি"
+      },
+      {
+        "en": "Banking",
+        "as": "বেংকিং"
+      },
+      {
+        "en": "Tourism",
+        "as": "পৰ্যটন"
+      },
+      {
+        "en": "Manufacturing and industry",
+        "as": "উৎপাদন আৰু উদ্যোগ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The secondary sector transforms raw materials into finished goods through manufacturing.",
+      "as": "গৌণ খণ্ডই উৎপাদনৰ জৰিয়তে কেঁচা সামগ্ৰীক সমাপ্ত সামগ্ৰীলৈ ৰূপান্তৰ কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-005",
+    "q": {
+      "en": "The tertiary sector is also known as:",
+      "as": "তৃতীয় খণ্ডক আন কি নামেৰে জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Agriculture sector",
+        "as": "কৃষি খণ্ড"
+      },
+      {
+        "en": "Manufacturing sector",
+        "as": "উৎপাদন খণ্ড"
+      },
+      {
+        "en": "Service sector",
+        "as": "সেৱা খণ্ড"
+      },
+      {
+        "en": "Mining sector",
+        "as": "খনন খণ্ড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The tertiary sector is the service sector, including banking, transport and IT.",
+      "as": "তৃতীয় খণ্ড হৈছে সেৱা খণ্ড, য'ত বেংকিং, পৰিবহণ আৰু IT অন্তৰ্ভুক্ত।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-006",
+    "q": {
+      "en": "What is the full form of GDP?",
+      "as": "GDP ৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "General Domestic Price",
+        "as": "সাধাৰণ ঘৰুৱা মূল্য"
+      },
+      {
+        "en": "Gross Domestic Product",
+        "as": "মুঠ ঘৰুৱা উৎপাদন"
+      },
+      {
+        "en": "Gross Development Plan",
+        "as": "মুঠ উন্নয়ন পৰিকল্পনা"
+      },
+      {
+        "en": "Gross Deposits and Payments",
+        "as": "মুঠ জমা আৰু পৰিশোধ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "GDP stands for Gross Domestic Product, the value of all goods and services produced in a country.",
+      "as": "GDP ৰ অৰ্থ মুঠ ঘৰুৱা উৎপাদন, এখন দেশত উৎপাদিত সকলো সামগ্ৰী আৰু সেৱাৰ মূল্য।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-007",
+    "q": {
+      "en": "Who publishes the Economic Survey of India?",
+      "as": "ভাৰতৰ অৰ্থনৈতিক সৰ্বেক্ষণ কে প্ৰকাশ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Reserve Bank of India",
+        "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"
+      },
+      {
+        "en": "NITI Aayog",
+        "as": "নীতি আয়োগ"
+      },
+      {
+        "en": "Ministry of Finance",
+        "as": "বিত্ত মন্ত্ৰালয়"
+      },
+      {
+        "en": "Ministry of Commerce",
+        "as": "বাণিজ্য মন্ত্ৰালয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Economic Survey is prepared by the Ministry of Finance and presented before the Budget.",
+      "as": "অৰ্থনৈতিক সৰ্বেক্ষণ বিত্ত মন্ত্ৰালয়ে প্ৰস্তুত কৰি বাজেটৰ আগতে উপস্থাপন কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-008",
+    "q": {
+      "en": "NITI Aayog replaced which body in 2015?",
+      "as": "নীতি আয়োগে ২০১৫ চনত কোনটো সংস্থাৰ ঠাই লৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Planning Commission",
+        "as": "পৰিকল্পনা আয়োগ"
+      },
+      {
+        "en": "Reserve Bank of India",
+        "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"
+      },
+      {
+        "en": "Finance Commission",
+        "as": "বিত্ত আয়োগ"
+      },
+      {
+        "en": "Election Commission",
+        "as": "নিৰ্বাচন আয়োগ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "NITI Aayog replaced the Planning Commission, which was established in 1950.",
+      "as": "নীতি আয়োগে ১৯৫০ চনত স্থাপিত পৰিকল্পনা আয়োগৰ ঠাই লৈছিল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-009",
+    "q": {
+      "en": "The Planning Commission of India was established in which year?",
+      "as": "ভাৰতৰ পৰিকল্পনা আয়োগ কোন বছৰত স্থাপিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1950",
+        "as": "১৯৫০"
+      },
+      {
+        "en": "1947",
+        "as": "১৯৪৭"
+      },
+      {
+        "en": "1952",
+        "as": "১৯৫২"
+      },
+      {
+        "en": "1965",
+        "as": "১৯৬৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Planning Commission was established in 1950 to oversee India's five-year plans.",
+      "as": "ভাৰতৰ পঞ্চবাৰ্ষিক পৰিকল্পনা পৰ্যবেক্ষণৰ বাবে ১৯৫০ চনত পৰিকল্পনা আয়োগ স্থাপিত হৈছিল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-010",
+    "q": {
+      "en": "The First Five Year Plan of India focused mainly on which sector?",
+      "as": "ভাৰতৰ প্ৰথম পঞ্চবাৰ্ষিক পৰিকল্পনা মূলতঃ কোনটো খণ্ডত গুৰুত্ব দিছিল?"
+    },
+    "options": [
+      {
+        "en": "Heavy industry",
+        "as": "গধুৰ উদ্যোগ"
+      },
+      {
+        "en": "Information technology",
+        "as": "তথ্য প্ৰযুক্তি"
+      },
+      {
+        "en": "Agriculture",
+        "as": "কৃষি"
+      },
+      {
+        "en": "Tourism",
+        "as": "পৰ্যটন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The First Five Year Plan (1951-56) focused on agriculture and irrigation.",
+      "as": "প্ৰথম পঞ্চবাৰ্ষিক পৰিকল্পনা (১৯৫১-৫৬) য়ে কৃষি আৰু জলসিঞ্চনত গুৰুত্ব দিছিল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-011",
+    "q": {
+      "en": "The Green Revolution in India is mainly associated with:",
+      "as": "ভাৰতৰ সেউজ বিপ্লৱ মূলতঃ কাৰ সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Food grain production",
+        "as": "খাদ্যশস্য উৎপাদন"
+      },
+      {
+        "en": "Milk production",
+        "as": "গাখীৰ উৎপাদন"
+      },
+      {
+        "en": "Fish production",
+        "as": "মাছ উৎপাদন"
+      },
+      {
+        "en": "Oilseed production",
+        "as": "তেলবীজ উৎপাদন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Green Revolution boosted food grain production, especially wheat and rice.",
+      "as": "সেউজ বিপ্লৱে বিশেষকৈ ঘেঁহু আৰু ধানৰ খাদ্যশস্য উৎপাদন বৃদ্ধি কৰিছিল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-012",
+    "q": {
+      "en": "Who is known as the Father of the Green Revolution in India?",
+      "as": "ভাৰতত সেউজ বিপ্লৱৰ পিতৃ হিচাপে কাক জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Verghese Kurien",
+        "as": "ভাৰ্গিজ কুৰিয়েন"
+      },
+      {
+        "en": "Norman Borlaug",
+        "as": "নৰ্মান বৰলগ"
+      },
+      {
+        "en": "C. Subramaniam",
+        "as": "চি. সুব্ৰমণ্যম"
+      },
+      {
+        "en": "M. S. Swaminathan",
+        "as": "এম এছ স্বামীনাথন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "M. S. Swaminathan is regarded as the Father of the Green Revolution in India.",
+      "as": "এম এছ স্বামীনাথনক ভাৰতত সেউজ বিপ্লৱৰ পিতৃ হিচাপে গণ্য কৰা হয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-013",
+    "q": {
+      "en": "The White Revolution is related to:",
+      "as": "শ্বেত বিপ্লৱ কাৰ সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Milk production",
+        "as": "গাখীৰ উৎপাদন"
+      },
+      {
+        "en": "Wheat production",
+        "as": "ঘেঁহু উৎপাদন"
+      },
+      {
+        "en": "Fish production",
+        "as": "মাছ উৎপাদন"
+      },
+      {
+        "en": "Egg production",
+        "as": "কণী উৎপাদন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The White Revolution, or Operation Flood, increased milk production in India.",
+      "as": "শ্বেত বিপ্লৱ বা অপাৰেশ্যন ফ্লাডে ভাৰতত গাখীৰ উৎপাদন বৃদ্ধি কৰিছিল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-014",
+    "q": {
+      "en": "Who is known as the Father of the White Revolution in India?",
+      "as": "ভাৰতত শ্বেত বিপ্লৱৰ পিতৃ হিচাপে কাক জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Verghese Kurien",
+        "as": "ভাৰ্গিজ কুৰিয়েন"
+      },
+      {
+        "en": "M. S. Swaminathan",
+        "as": "এম এছ স্বামীনাথন"
+      },
+      {
+        "en": "Homi Bhabha",
+        "as": "হোমি ভাবা"
+      },
+      {
+        "en": "Vikram Sarabhai",
+        "as": "বিক্ৰম সাৰাভাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Verghese Kurien is known as the Father of the White Revolution in India.",
+      "as": "ভাৰ্গিজ কুৰিয়েনক ভাৰতত শ্বেত বিপ্লৱৰ পিতৃ হিচাপে জনা যায়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-015",
+    "q": {
+      "en": "The Blue Revolution is associated with:",
+      "as": "নীল বিপ্লৱ কাৰ সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Fisheries and aquaculture",
+        "as": "মাছ ধৰা আৰু জলজ পালন"
+      },
+      {
+        "en": "Wheat production",
+        "as": "ঘেঁহু উৎপাদন"
+      },
+      {
+        "en": "Milk production",
+        "as": "গাখীৰ উৎপাদন"
+      },
+      {
+        "en": "Cotton production",
+        "as": "কপাহ উৎপাদন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Blue Revolution refers to the growth of fish and fisheries production.",
+      "as": "নীল বিপ্লৱে মাছ আৰু মৎস্য উৎপাদনৰ বৃদ্ধিক সূচায়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-016",
+    "q": {
+      "en": "The Yellow Revolution is related to the production of:",
+      "as": "হালধীয়া বিপ্লৱ কাৰ উৎপাদনৰ সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Oilseeds",
+        "as": "তেলবীজ"
+      },
+      {
+        "en": "Milk",
+        "as": "গাখীৰ"
+      },
+      {
+        "en": "Fish",
+        "as": "মাছ"
+      },
+      {
+        "en": "Maize",
+        "as": "মাকৈ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Yellow Revolution refers to increased production of oilseeds.",
+      "as": "হালধীয়া বিপ্লৱে তেলবীজৰ উৎপাদন বৃদ্ধিক সূচায়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-017",
+    "q": {
+      "en": "The Reserve Bank of India was established in which year?",
+      "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক কোন বছৰত স্থাপিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1921",
+        "as": "১৯২১"
+      },
+      {
+        "en": "1947",
+        "as": "১৯৪৭"
+      },
+      {
+        "en": "1949",
+        "as": "১৯৪৯"
+      },
+      {
+        "en": "1935",
+        "as": "১৯৩৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The RBI was established in 1935 and nationalised in 1949.",
+      "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক ১৯৩৫ চনত স্থাপিত আৰু ১৯৪৯ চনত ৰাষ্ট্ৰীয়কৃত হৈছিল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-018",
+    "q": {
+      "en": "Which institution is the central bank of India?",
+      "as": "কোনটো প্ৰতিষ্ঠান ভাৰতৰ কেন্দ্ৰীয় বেংক?"
+    },
+    "options": [
+      {
+        "en": "State Bank of India",
+        "as": "ষ্টেট বেংক অৱ ইণ্ডিয়া"
+      },
+      {
+        "en": "NABARD",
+        "as": "নাবাৰ্ড"
+      },
+      {
+        "en": "SIDBI",
+        "as": "ছিডবি"
+      },
+      {
+        "en": "Reserve Bank of India",
+        "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Reserve Bank of India is the central bank that issues currency and controls monetary policy.",
+      "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক হৈছে কেন্দ্ৰীয় বেংক যি মুদ্ৰা প্ৰচলন আৰু মুদ্ৰা নীতি নিয়ন্ত্ৰণ কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-019",
+    "q": {
+      "en": "Who decides the monetary policy of India?",
+      "as": "ভাৰতৰ মুদ্ৰা নীতি কে নিৰ্ধাৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Ministry of Finance",
+        "as": "বিত্ত মন্ত্ৰালয়"
+      },
+      {
+        "en": "NITI Aayog",
+        "as": "নীতি আয়োগ"
+      },
+      {
+        "en": "SEBI",
+        "as": "ছেবি"
+      },
+      {
+        "en": "Reserve Bank of India",
+        "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The RBI, through its Monetary Policy Committee, decides India's monetary policy.",
+      "as": "ভাৰতীয় ৰিজাৰ্ভ বেংকে তাৰ মুদ্ৰা নীতি সমিতিৰ জৰিয়তে ভাৰতৰ মুদ্ৰা নীতি নিৰ্ধাৰণ কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-020",
+    "q": {
+      "en": "The repo rate is the rate at which:",
+      "as": "ৰেপ' ৰেট হৈছে সেই হাৰ য'ত:"
+    },
+    "options": [
+      {
+        "en": "Banks lend to customers",
+        "as": "বেংকে গ্ৰাহকক ঋণ দিয়ে"
+      },
+      {
+        "en": "RBI borrows from banks",
+        "as": "আৰ বি আই য়ে বেংকৰ পৰা ঋণ লয়"
+      },
+      {
+        "en": "RBI lends money to commercial banks",
+        "as": "আৰ বি আই য়ে বাণিজ্যিক বেংকক ঋণ দিয়ে"
+      },
+      {
+        "en": "Banks lend to each other",
+        "as": "বেংকে ইজনে সিজনক ঋণ দিয়ে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Repo rate is the rate at which the RBI lends short-term funds to commercial banks.",
+      "as": "ৰেপ' ৰেট হৈছে সেই হাৰ য'ত আৰ বি আই য়ে বাণিজ্যিক বেংকক স্বল্পকালীন ধন ঋণ দিয়ে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-021",
+    "q": {
+      "en": "What does CRR stand for?",
+      "as": "CRR ৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Cash Reserve Ratio",
+        "as": "নগদ সংচিতি অনুপাত"
+      },
+      {
+        "en": "Credit Reserve Rate",
+        "as": "ঋণ সংচিতি হাৰ"
+      },
+      {
+        "en": "Central Revenue Rate",
+        "as": "কেন্দ্ৰীয় ৰাজহ হাৰ"
+      },
+      {
+        "en": "Currency Regulation Ratio",
+        "as": "মুদ্ৰা নিয়ন্ত্ৰণ অনুপাত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "CRR is the share of bank deposits that banks must keep with the RBI as cash.",
+      "as": "CRR হৈছে বেংক জমাৰ সেই অংশ যি বেংকে নগদ ৰূপে আৰ বি আই ৰ ওচৰত ৰাখিব লাগে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-022",
+    "q": {
+      "en": "What does SLR stand for?",
+      "as": "SLR ৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Standard Loan Rate",
+        "as": "মানক ঋণ হাৰ"
+      },
+      {
+        "en": "Statutory Liquidity Ratio",
+        "as": "বিধিবদ্ধ তৰলতা অনুপাত"
+      },
+      {
+        "en": "Savings and Loan Ratio",
+        "as": "সঞ্চয় আৰু ঋণ অনুপাত"
+      },
+      {
+        "en": "State Liquidity Reserve",
+        "as": "ৰাজ্য তৰলতা সংচিতি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SLR is the minimum share of deposits banks must maintain in liquid assets like government securities.",
+      "as": "SLR হৈছে জমাৰ ন্যূনতম অংশ যি বেংকে চৰকাৰী ছিকিউৰিটিকে ধৰি তৰল সম্পদত ৰাখিব লাগে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-023",
+    "q": {
+      "en": "Inflation refers to:",
+      "as": "মুদ্ৰাস্ফীতি (ইনফ্লেশ্যন) ৰ অৰ্থ কি?"
+    },
+    "options": [
+      {
+        "en": "A fall in the price level",
+        "as": "মূল্য স্তৰৰ হ্ৰাস"
+      },
+      {
+        "en": "A general rise in the price level",
+        "as": "মূল্য স্তৰৰ সাধাৰণ বৃদ্ধি"
+      },
+      {
+        "en": "A rise in unemployment",
+        "as": "বেকাৰতাবৃত্তি বৃদ্ধি"
+      },
+      {
+        "en": "A fall in GDP",
+        "as": "GDP হ্ৰাস"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Inflation is a sustained general increase in the prices of goods and services.",
+      "as": "মুদ্ৰাস্ফীতি হৈছে সামগ্ৰী আৰু সেৱাৰ মূল্যৰ দীৰ্ঘস্থায়ী সাধাৰণ বৃদ্ধি।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-024",
+    "q": {
+      "en": "CPI in India is mainly used to measure:",
+      "as": "ভাৰতত CPI মূলতঃ কি মাপিবলৈ ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Retail inflation",
+        "as": "খুচুৰা মুদ্ৰাস্ফীতি"
+      },
+      {
+        "en": "Wholesale inflation",
+        "as": "পাইকাৰী মুদ্ৰাস্ফীতি"
+      },
+      {
+        "en": "Industrial output",
+        "as": "ঔদ্যোগিক উৎপাদন"
+      },
+      {
+        "en": "Foreign trade",
+        "as": "বৈদেশিক বাণিজ্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Consumer Price Index measures retail or consumer-level inflation.",
+      "as": "গ্ৰাহক মূল্য সূচকাংকে খুচুৰা বা গ্ৰাহক স্তৰৰ মুদ্ৰাস্ফীতি মাপে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-025",
+    "q": {
+      "en": "WPI in India measures:",
+      "as": "ভাৰতত WPI য়ে কি মাপে?"
+    },
+    "options": [
+      {
+        "en": "Retail price changes",
+        "as": "খুচুৰা মূল্যৰ পৰিৱৰ্তন"
+      },
+      {
+        "en": "Wholesale price changes",
+        "as": "পাইকাৰী মূল্যৰ পৰিৱৰ্তন"
+      },
+      {
+        "en": "Stock market prices",
+        "as": "শ্বেয়াৰ বজাৰৰ মূল্য"
+      },
+      {
+        "en": "Wages of workers",
+        "as": "শ্ৰমিকৰ মজুৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Wholesale Price Index tracks changes in wholesale-level prices.",
+      "as": "পাইকাৰী মূল্য সূচকাংকে পাইকাৰী স্তৰৰ মূল্যৰ পৰিৱৰ্তন অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-026",
+    "q": {
+      "en": "GST was implemented in India in which year?",
+      "as": "ভাৰতত জিএছটি কোন বছৰত কাৰ্যকৰী কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Goods and Services Tax (GST) was implemented on 1 July 2017.",
+      "as": "সামগ্ৰী আৰু সেৱা কৰ (জিএছটি) ১ জুলাই ২০১৭ তাৰিখে কাৰ্যকৰী কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-027",
+    "q": {
+      "en": "What is the full form of GST?",
+      "as": "GST ৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "General Sales Tax",
+        "as": "সাধাৰণ বিক্ৰয় কৰ"
+      },
+      {
+        "en": "Goods and Services Tax",
+        "as": "সামগ্ৰী আৰু সেৱা কৰ"
+      },
+      {
+        "en": "Government Service Tax",
+        "as": "চৰকাৰী সেৱা কৰ"
+      },
+      {
+        "en": "Gross Sales Tax",
+        "as": "মুঠ বিক্ৰয় কৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "GST stands for Goods and Services Tax, a unified indirect tax in India.",
+      "as": "GST ৰ অৰ্থ সামগ্ৰী আৰু সেৱা কৰ, ভাৰতৰ একীকৃত পৰোক্ষ কৰ।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-028",
+    "q": {
+      "en": "Which is an example of a direct tax?",
+      "as": "প্ৰত্যক্ষ কৰৰ এটা উদাহৰণ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Income tax",
+        "as": "আয় কৰ"
+      },
+      {
+        "en": "GST",
+        "as": "জিএছটি"
+      },
+      {
+        "en": "Excise duty",
+        "as": "আবকাৰী শুল্ক"
+      },
+      {
+        "en": "Customs duty",
+        "as": "ৰাজহুৱা শুল্ক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Income tax is a direct tax paid directly by the taxpayer to the government.",
+      "as": "আয় কৰ এটা প্ৰত্যক্ষ কৰ যি কৰদাতাই পোনপটীয়াকৈ চৰকাৰক দিয়ে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-029",
+    "q": {
+      "en": "Which of the following is an indirect tax?",
+      "as": "তলৰ কোনটো এটা পৰোক্ষ কৰ?"
+    },
+    "options": [
+      {
+        "en": "Income tax",
+        "as": "আয় কৰ"
+      },
+      {
+        "en": "Corporate tax",
+        "as": "নিগম কৰ"
+      },
+      {
+        "en": "Wealth tax",
+        "as": "সম্পত্তি কৰ"
+      },
+      {
+        "en": "GST",
+        "as": "জিএছটি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "GST is an indirect tax collected on the sale of goods and services.",
+      "as": "জিএছটি এটা পৰোক্ষ কৰ যি সামগ্ৰী আৰু সেৱাৰ বিক্ৰয়ত সংগ্ৰহ কৰা হয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-030",
+    "q": {
+      "en": "Net National Product (NNP) equals:",
+      "as": "মুঠ ৰাষ্ট্ৰীয় উৎপাদন (NNP) সমান কি?"
+    },
+    "options": [
+      {
+        "en": "GDP plus depreciation",
+        "as": "GDP যোগ অৱক্ষয়"
+      },
+      {
+        "en": "GNP minus depreciation",
+        "as": "GNP বিয়োগ অৱক্ষয়"
+      },
+      {
+        "en": "GDP plus taxes",
+        "as": "GDP যোগ কৰ"
+      },
+      {
+        "en": "GNP plus subsidies",
+        "as": "GNP যোগ ৰাজসাহায্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "NNP is Gross National Product minus depreciation of capital.",
+      "as": "NNP হৈছে মুঠ ৰাষ্ট্ৰীয় উৎপাদন বিয়োগ মূলধনৰ অৱক্ষয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-031",
+    "q": {
+      "en": "Per capita income is calculated as:",
+      "as": "মুৰি আয় কেনেকৈ গণনা কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "National income multiplied by population",
+        "as": "ৰাষ্ট্ৰীয় আয় গুণ জনসংখ্যা"
+      },
+      {
+        "en": "GDP plus population",
+        "as": "GDP যোগ জনসংখ্যা"
+      },
+      {
+        "en": "National income divided by population",
+        "as": "ৰাষ্ট্ৰীয় আয় ভাগ জনসংখ্যা"
+      },
+      {
+        "en": "Total exports divided by imports",
+        "as": "মুঠ ৰপ্তানি ভাগ আমদানি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Per capita income is national income divided by the total population.",
+      "as": "মুৰি আয় হৈছে ৰাষ্ট্ৰীয় আয়ক মুঠ জনসংখ্যাৰে ভাগ কৰা ফল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-032",
+    "q": {
+      "en": "The largest tea-producing state in India is:",
+      "as": "ভাৰতৰ সৰ্বাধিক চাহ উৎপাদনকাৰী ৰাজ্য কোনটো?"
+    },
+    "options": [
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assam is the largest tea-producing state in India, contributing over half of the output.",
+      "as": "অসম ভাৰতৰ সৰ্বাধিক চাহ উৎপাদনকাৰী ৰাজ্য, যি আধাতকৈ বেছি উৎপাদন যোগায়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-033",
+    "q": {
+      "en": "Assam is world-famous for the production of:",
+      "as": "অসম কাৰ উৎপাদনৰ বাবে বিশ্ববিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Coffee",
+        "as": "কফি"
+      },
+      {
+        "en": "Rubber",
+        "as": "ৰবৰ"
+      },
+      {
+        "en": "Tea",
+        "as": "চাহ"
+      },
+      {
+        "en": "Cocoa",
+        "as": "ক'ক'"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assam is world-famous for its tea, known for its strong malty flavour.",
+      "as": "অসম তাৰ চাহৰ বাবে বিশ্ববিখ্যাত, যি ইয়াৰ তীব্ৰ মল্টি স্বাদৰ বাবে জনাজাত।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-034",
+    "q": {
+      "en": "The Tocklai Tea Research Institute is located in which state?",
+      "as": "টক্লাই চাহ গৱেষণা প্ৰতিষ্ঠান কোনটো ৰাজ্যত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Bihar",
+        "as": "বিহাৰ"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Odisha",
+        "as": "ওডিশা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Tocklai Tea Research Institute is located in Jorhat, Assam.",
+      "as": "টক্লাই চাহ গৱেষণা প্ৰতিষ্ঠান অসমৰ যোৰহাটত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-035",
+    "q": {
+      "en": "India's first oil refinery was established at which place?",
+      "as": "ভাৰতৰ প্ৰথম তেল শোধনাগাৰ কোন ঠাইত স্থাপিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Numaligarh",
+        "as": "নুমলীগড়"
+      },
+      {
+        "en": "Digboi",
+        "as": "ডিগবৈ"
+      },
+      {
+        "en": "Bongaigaon",
+        "as": "বঙাইগাঁও"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Digboi in Assam has India's oldest oil refinery, established in the colonial era.",
+      "as": "অসমৰ ডিগবৈত ভাৰতৰ আটাইতকৈ পুৰণি তেল শোধনাগাৰ আছে, যি ঔপনিৱেশিক যুগত স্থাপিত।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-036",
+    "q": {
+      "en": "Numaligarh Refinery is located in which state?",
+      "as": "নুমলীগড় শোধনাগাৰ কোনটো ৰাজ্যত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Bihar",
+        "as": "বিহাৰ"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Gujarat",
+        "as": "গুজৰাট"
+      },
+      {
+        "en": "Odisha",
+        "as": "ওডিশা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Numaligarh Refinery Limited is located in Golaghat district, Assam.",
+      "as": "নুমলীগড় শোধনাগাৰ লিমিটেড অসমৰ গোলাঘাট জিলাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-037",
+    "q": {
+      "en": "Which is the principal food crop of Assam?",
+      "as": "অসমৰ প্ৰধান খাদ্য শস্য কি?"
+    },
+    "options": [
+      {
+        "en": "Wheat",
+        "as": "ঘেঁহু"
+      },
+      {
+        "en": "Rice",
+        "as": "ধান"
+      },
+      {
+        "en": "Maize",
+        "as": "মাকৈ"
+      },
+      {
+        "en": "Millet",
+        "as": "বাজৰা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rice is the principal food crop and staple food of Assam.",
+      "as": "ধান অসমৰ প্ৰধান খাদ্য শস্য আৰু মূল খাদ্য।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-038",
+    "q": {
+      "en": "Which silk is unique to Assam?",
+      "as": "কোনটো পাট অসমৰ বাবে অনন্য?"
+    },
+    "options": [
+      {
+        "en": "Mulberry silk",
+        "as": "নুনী পাট"
+      },
+      {
+        "en": "Tasar silk",
+        "as": "টছৰ পাট"
+      },
+      {
+        "en": "Eri silk",
+        "as": "এৰী পাট"
+      },
+      {
+        "en": "Muga silk",
+        "as": "মুগা পাট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Muga silk, the golden silk, is unique to Assam and has a GI tag.",
+      "as": "মুগা পাট, সোণালী পাট, অসমৰ বাবে অনন্য আৰু ইয়াৰ জিআই টেগ আছে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-039",
+    "q": {
+      "en": "Kaziranga National Park is famous for which animal?",
+      "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান কোনটো প্ৰাণীৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "One-horned rhinoceros",
+        "as": "এশিঙীয়া গঁড়"
+      },
+      {
+        "en": "Bengal tiger",
+        "as": "বাঘ"
+      },
+      {
+        "en": "Asiatic lion",
+        "as": "এছিয়ান সিংহ"
+      },
+      {
+        "en": "Elephant",
+        "as": "হাতী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kaziranga National Park is famous for the one-horned rhinoceros and is a UNESCO site.",
+      "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান এশিঙীয়া গঁড়ৰ বাবে বিখ্যাত আৰু ই ইউনেস্ক' স্থান।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-040",
+    "q": {
+      "en": "Which river is known as the lifeline of Assam?",
+      "as": "কোনটো নদীক অসমৰ জীৱনৰেখা বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সোণপুৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra is the lifeline of Assam, supporting agriculture, transport and fishing.",
+      "as": "ব্ৰহ্মপুত্ৰ অসমৰ জীৱনৰেখা, যি কৃষি, পৰিবহণ আৰু মাছ ধৰাত সহায় কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-041",
+    "q": {
+      "en": "The main occupation of people in rural Assam is:",
+      "as": "গ্ৰাম্য অসমৰ লোকৰ মূল জীৱিকা কি?"
+    },
+    "options": [
+      {
+        "en": "Mining",
+        "as": "খনন"
+      },
+      {
+        "en": "Agriculture",
+        "as": "কৃষি"
+      },
+      {
+        "en": "Software",
+        "as": "চফ্টৱেৰ"
+      },
+      {
+        "en": "Banking",
+        "as": "বেংকিং"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Agriculture, including tea cultivation, is the main occupation in rural Assam.",
+      "as": "চাহ খেতিকে ধৰি কৃষি গ্ৰাম্য অসমৰ মূল জীৱিকা।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-042",
+    "q": {
+      "en": "Bihu is associated with which activity in Assam?",
+      "as": "বিহু অসমৰ কোনটো কাৰ্যকলাপৰ সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Fishing only",
+        "as": "কেৱল মাছ ধৰা"
+      },
+      {
+        "en": "Mining",
+        "as": "খনন"
+      },
+      {
+        "en": "Harvest and agriculture",
+        "as": "শস্য চপোৱা আৰু কৃষি"
+      },
+      {
+        "en": "Banking",
+        "as": "বেংকিং"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bihu festivals are closely linked to the agricultural cycle and harvest seasons.",
+      "as": "বিহু উৎসৱ কৃষি চক্ৰ আৰু শস্য চপোৱাৰ ঋতুৰ সৈতে ওতঃপ্ৰোতভাৱে জড়িত।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-043",
+    "q": {
+      "en": "Rongali Bihu (Bohag Bihu) is celebrated in which month?",
+      "as": "ৰঙালী বিহু (ব'হাগ বিহু) কোন মাহত পালন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "January",
+        "as": "জানুৱাৰী"
+      },
+      {
+        "en": "October",
+        "as": "অক্টোবৰ"
+      },
+      {
+        "en": "April",
+        "as": "এপ্ৰিল"
+      },
+      {
+        "en": "December",
+        "as": "ডিচেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rongali or Bohag Bihu is celebrated in mid-April, marking the Assamese New Year.",
+      "as": "ৰঙালী বা ব'হাগ বিহু এপ্ৰিলৰ মাজভাগত পালন কৰা হয়, যি অসমীয়া নৱবৰ্ষৰ সূচনা।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-044",
+    "q": {
+      "en": "MGNREGA guarantees how many days of wage employment per rural household?",
+      "as": "মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিয়োগ আইনে প্ৰতিটো গ্ৰাম্য পৰিয়ালক কিমান দিনৰ মজুৰি নিয়োগৰ নিশ্চয়তা দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "50 days",
+        "as": "৫০ দিন"
+      },
+      {
+        "en": "150 days",
+        "as": "১৫০ দিন"
+      },
+      {
+        "en": "200 days",
+        "as": "২০০ দিন"
+      },
+      {
+        "en": "100 days",
+        "as": "১০০ দিন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "MGNREGA guarantees at least 100 days of unskilled wage employment per household.",
+      "as": "MGNREGA য়ে প্ৰতি পৰিয়ালক ন্যূনতম ১০০ দিনৰ অদক্ষ মজুৰি নিয়োগৰ নিশ্চয়তা দিয়ে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-045",
+    "q": {
+      "en": "MGNREGA was enacted in which year?",
+      "as": "MGNREGA কোন বছৰত প্ৰণয়ন কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2009",
+        "as": "২০০৯"
+      },
+      {
+        "en": "2005",
+        "as": "২০০৫"
+      },
+      {
+        "en": "2012",
+        "as": "২০১২"
+      },
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "MGNREGA was enacted in 2005 to provide rural employment.",
+      "as": "গ্ৰাম্য নিয়োগ প্ৰদানৰ বাবে MGNREGA ২০০৫ চনত প্ৰণয়ন কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-046",
+    "q": {
+      "en": "What does PDS stand for in India?",
+      "as": "ভাৰতত PDS ৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Private Distribution System",
+        "as": "ব্যক্তিগত বিতৰণ ব্যৱস্থা"
+      },
+      {
+        "en": "Public Development Scheme",
+        "as": "ৰাজহুৱা উন্নয়ন আঁচনি"
+      },
+      {
+        "en": "Price Determination System",
+        "as": "মূল্য নিৰ্ধাৰণ ব্যৱস্থা"
+      },
+      {
+        "en": "Public Distribution System",
+        "as": "ৰাজহুৱা বিতৰণ ব্যৱস্থা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "PDS is the Public Distribution System that supplies subsidised food grains.",
+      "as": "PDS হৈছে ৰাজহুৱা বিতৰণ ব্যৱস্থা যি ৰাজসাহায্যপ্ৰাপ্ত খাদ্যশস্য যোগান ধৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-047",
+    "q": {
+      "en": "What does MSP stand for?",
+      "as": "MSP ৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Minimum Support Price",
+        "as": "ন্যূনতম সমৰ্থন মূল্য"
+      },
+      {
+        "en": "Maximum Sale Price",
+        "as": "সৰ্বাধিক বিক্ৰয় মূল্য"
+      },
+      {
+        "en": "Market Supply Price",
+        "as": "বজাৰ যোগান মূল্য"
+      },
+      {
+        "en": "Minimum Sale Profit",
+        "as": "ন্যূনতম বিক্ৰয় লাভ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "MSP is the Minimum Support Price guaranteed by the government to farmers for crops.",
+      "as": "MSP হৈছে শস্যৰ বাবে কৃষকক চৰকাৰে নিশ্চিত কৰা ন্যূনতম সমৰ্থন মূল্য।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-048",
+    "q": {
+      "en": "Which body recommends the Minimum Support Price (MSP) in India?",
+      "as": "ভাৰতত ন্যূনতম সমৰ্থন মূল্য (MSP) কোনটো সংস্থাই পৰামৰ্শ দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "RBI",
+        "as": "আৰ বি আই"
+      },
+      {
+        "en": "NITI Aayog",
+        "as": "নীতি আয়োগ"
+      },
+      {
+        "en": "CACP",
+        "as": "চি এ চি পি"
+      },
+      {
+        "en": "SEBI",
+        "as": "ছেবি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Commission for Agricultural Costs and Prices (CACP) recommends MSP.",
+      "as": "কৃষি খৰচ আৰু মূল্য আয়োগ (CACP) য়ে MSP ৰ পৰামৰ্শ দিয়ে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-049",
+    "q": {
+      "en": "Which of the following is a Kharif crop?",
+      "as": "তলৰ কোনটো এটা খাৰিফ শস্য?"
+    },
+    "options": [
+      {
+        "en": "Rice",
+        "as": "ধান"
+      },
+      {
+        "en": "Wheat",
+        "as": "ঘেঁহু"
+      },
+      {
+        "en": "Mustard",
+        "as": "সৰিয়হ"
+      },
+      {
+        "en": "Barley",
+        "as": "যৱ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Rice is a Kharif crop sown with the arrival of the monsoon.",
+      "as": "ধান এটা খাৰিফ শস্য যি মৌচুমীৰ আগমনৰ সৈতে ৰোৱা হয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-050",
+    "q": {
+      "en": "Which of the following is a Rabi crop?",
+      "as": "তলৰ কোনটো এটা ৰবি শস্য?"
+    },
+    "options": [
+      {
+        "en": "Rice",
+        "as": "ধান"
+      },
+      {
+        "en": "Wheat",
+        "as": "ঘেঁহু"
+      },
+      {
+        "en": "Maize",
+        "as": "মাকৈ"
+      },
+      {
+        "en": "Jute",
+        "as": "পাট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Wheat is a Rabi crop sown in winter and harvested in spring.",
+      "as": "ঘেঁহু এটা ৰবি শস্য যি শীতকালত ৰোৱা আৰু বসন্তত চপোৱা হয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-051",
+    "q": {
+      "en": "Which crop is known as the 'golden fibre'?",
+      "as": "কোনটো শস্যক 'সোণালী আঁহ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Jute",
+        "as": "পাট"
+      },
+      {
+        "en": "Cotton",
+        "as": "কপাহ"
+      },
+      {
+        "en": "Silk",
+        "as": "পাট (ৰেচম)"
+      },
+      {
+        "en": "Wool",
+        "as": "ঊণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Jute is called the golden fibre because of its colour and economic value.",
+      "as": "পাটক ইয়াৰ ৰং আৰু অৰ্থনৈতিক মূল্যৰ বাবে সোণালী আঁহ বোলা হয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-052",
+    "q": {
+      "en": "Disguised unemployment is most commonly found in which sector in India?",
+      "as": "ভাৰতত প্ৰচ্ছন্ন বেকাৰতাবৃত্তি সৰ্বাধিক কোনটো খণ্ডত পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Information technology",
+        "as": "তথ্য প্ৰযুক্তি"
+      },
+      {
+        "en": "Agriculture",
+        "as": "কৃষি"
+      },
+      {
+        "en": "Banking",
+        "as": "বেংকিং"
+      },
+      {
+        "en": "Aviation",
+        "as": "উৰণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Disguised unemployment is common in Indian agriculture, where more people work than needed.",
+      "as": "প্ৰচ্ছন্ন বেকাৰতাবৃত্তি ভাৰতীয় কৃষিত সাধাৰণ, য'ত প্ৰয়োজনতকৈ বেছি লোক কাম কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-053",
+    "q": {
+      "en": "Make in India initiative was launched in which year?",
+      "as": "মেক ইন ইণ্ডিয়া পদক্ষেপ কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2012",
+        "as": "২০১২"
+      },
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Make in India was launched in 2014 to promote manufacturing in the country.",
+      "as": "দেশত উৎপাদন প্ৰসাৰৰ বাবে ২০১৪ চনত মেক ইন ইণ্ডিয়া আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-054",
+    "q": {
+      "en": "Startup India initiative was launched in which year?",
+      "as": "ষ্টাৰ্টআপ ইণ্ডিয়া পদক্ষেপ কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Startup India was launched in 2016 to promote entrepreneurship and innovation.",
+      "as": "উদ্যোগ আৰু উদ্ভাৱন প্ৰসাৰৰ বাবে ২০১৬ চনত ষ্টাৰ্টআপ ইণ্ডিয়া আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-055",
+    "q": {
+      "en": "Digital India programme was launched in which year?",
+      "as": "ডিজিটেল ইণ্ডিয়া কাৰ্যসূচী কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      },
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Digital India was launched in 2015 to promote digital governance and services.",
+      "as": "ডিজিটেল শাসন আৰু সেৱা প্ৰসাৰৰ বাবে ২০১৫ চনত ডিজিটেল ইণ্ডিয়া আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-056",
+    "q": {
+      "en": "Demonetisation of ₹500 and ₹1000 notes took place in which year?",
+      "as": "৫০০ আৰু ১০০০ টকাৰ নোটৰ মুদ্ৰা বাতিলীকৰণ কোন বছৰত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      },
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The government demonetised ₹500 and ₹1000 notes in November 2016.",
+      "as": "চৰকাৰে ২০১৬ চনৰ নৱেম্বৰত ৫০০ আৰু ১০০০ টকাৰ নোট বাতিল কৰিছিল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-057",
+    "q": {
+      "en": "What does UPI stand for?",
+      "as": "UPI ৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Universal Payment Index",
+        "as": "সৰ্বজনীন পৰিশোধ সূচকাংক"
+      },
+      {
+        "en": "Unified Price Index",
+        "as": "একীকৃত মূল্য সূচকাংক"
+      },
+      {
+        "en": "User Payment Interface",
+        "as": "ব্যৱহাৰকাৰী পৰিশোধ ইণ্টাৰফেচ"
+      },
+      {
+        "en": "Unified Payments Interface",
+        "as": "একীকৃত পৰিশোধ ইণ্টাৰফেচ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "UPI is the Unified Payments Interface used for instant digital payments.",
+      "as": "UPI হৈছে একীকৃত পৰিশোধ ইণ্টাৰফেচ যি তৎক্ষণাত ডিজিটেল পৰিশোধৰ বাবে ব্যৱহৃত।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-058",
+    "q": {
+      "en": "Which is the largest public sector bank in India?",
+      "as": "ভাৰতৰ সৰ্ববৃহৎ ৰাজহুৱা খণ্ডৰ বেংক কোনটো?"
+    },
+    "options": [
+      {
+        "en": "State Bank of India",
+        "as": "ষ্টেট বেংক অৱ ইণ্ডিয়া"
+      },
+      {
+        "en": "Punjab National Bank",
+        "as": "পাঞ্জাব নেশ্যনেল বেংক"
+      },
+      {
+        "en": "Bank of Baroda",
+        "as": "বেংক অৱ বৰোদা"
+      },
+      {
+        "en": "Canara Bank",
+        "as": "কানাড়া বেংক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "State Bank of India is the largest public sector bank in India.",
+      "as": "ষ্টেট বেংক অৱ ইণ্ডিয়া ভাৰতৰ সৰ্ববৃহৎ ৰাজহুৱা খণ্ডৰ বেংক।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-059",
+    "q": {
+      "en": "Aadhaar is issued by which authority?",
+      "as": "আধাৰ কাৰ দ্বাৰা জাৰি কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "RBI",
+        "as": "আৰ বি আই"
+      },
+      {
+        "en": "SEBI",
+        "as": "ছেবি"
+      },
+      {
+        "en": "NITI Aayog",
+        "as": "নীতি আয়োগ"
+      },
+      {
+        "en": "UIDAI",
+        "as": "ইউআইডিএআই"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Aadhaar is issued by the Unique Identification Authority of India (UIDAI).",
+      "as": "আধাৰ ইউনিক আইডেণ্টিফিকেশ্যন অথৰিটি অৱ ইণ্ডিয়া (UIDAI) য়ে জাৰি কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-060",
+    "q": {
+      "en": "Pradhan Mantri Jan Dhan Yojana was launched mainly to promote:",
+      "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনা মূলতঃ কাৰ প্ৰসাৰৰ বাবে আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Industrial exports",
+        "as": "ঔদ্যোগিক ৰপ্তানি"
+      },
+      {
+        "en": "Tourism",
+        "as": "পৰ্যটন"
+      },
+      {
+        "en": "Financial inclusion",
+        "as": "আৰ্থিক অন্তৰ্ভুক্তি"
+      },
+      {
+        "en": "Mining",
+        "as": "খনন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Jan Dhan Yojana aims at financial inclusion by opening bank accounts for all.",
+      "as": "জন ধন যোজনাই সকলোৰে বেংক একাউণ্ট খুলি আৰ্থিক অন্তৰ্ভুক্তিৰ লক্ষ্য ৰাখে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-061",
+    "q": {
+      "en": "What does FDI stand for?",
+      "as": "FDI ৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Foreign Development Index",
+        "as": "বৈদেশিক উন্নয়ন সূচকাংক"
+      },
+      {
+        "en": "Federal Deposit Insurance",
+        "as": "সংঘীয় জমা বীমা"
+      },
+      {
+        "en": "Foreign Direct Investment",
+        "as": "বৈদেশিক প্ৰত্যক্ষ বিনিয়োগ"
+      },
+      {
+        "en": "Foreign Debt Instrument",
+        "as": "বৈদেশিক ঋণ উপকৰণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "FDI stands for Foreign Direct Investment, investment by foreign entities in a country.",
+      "as": "FDI ৰ অৰ্থ বৈদেশিক প্ৰত্যক্ষ বিনিয়োগ, বিদেশী সত্তাই এখন দেশত কৰা বিনিয়োগ।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-062",
+    "q": {
+      "en": "The Balance of Payments of a country includes:",
+      "as": "এখন দেশৰ পৰিশোধ балан্সত কি অন্তৰ্ভুক্ত?"
+    },
+    "options": [
+      {
+        "en": "Only the current account",
+        "as": "কেৱল চলিত একাউণ্ট"
+      },
+      {
+        "en": "Current account and capital account",
+        "as": "চলিত একাউন্ট আৰু মূলধন একাউন্ট"
+      },
+      {
+        "en": "Only the capital account",
+        "as": "কেৱল মূলধন একাউণ্ট"
+      },
+      {
+        "en": "Only trade balance",
+        "as": "কেৱল বাণিজ্য балан্স"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Balance of Payments records current account and capital account transactions.",
+      "as": "পৰিশোধ балан্সে চলিত একাউন্ট আৰু মূলধন একাউন্টৰ লেনদেন লিপিবদ্ধ কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-063",
+    "q": {
+      "en": "What is the currency of India?",
+      "as": "ভাৰতৰ মুদ্ৰা কি?"
+    },
+    "options": [
+      {
+        "en": "Taka",
+        "as": "টকা"
+      },
+      {
+        "en": "Dollar",
+        "as": "ডলাৰ"
+      },
+      {
+        "en": "Yen",
+        "as": "য়েন"
+      },
+      {
+        "en": "Indian Rupee",
+        "as": "ভাৰতীয় ৰুপী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Indian Rupee (₹) is the official currency of India.",
+      "as": "ভাৰতীয় ৰুপী (₹) ভাৰতৰ চৰকাৰী মুদ্ৰা।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-064",
+    "q": {
+      "en": "The Indian Rupee symbol (₹) was officially adopted in which year?",
+      "as": "ভাৰতীয় ৰুপীৰ চিহ্ন (₹) কোন বছৰত চৰকাৰীভাৱে গৃহীত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2008",
+        "as": "২০০৮"
+      },
+      {
+        "en": "2012",
+        "as": "২০১২"
+      },
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2010",
+        "as": "২০১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The ₹ symbol, designed by D. Udaya Kumar, was adopted in 2010.",
+      "as": "ডি. উদয় কুমাৰে ডিজাইন কৰা ₹ চিহ্ন ২০১০ চনত গৃহীত হৈছিল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-065",
+    "q": {
+      "en": "NABARD is mainly associated with which sector?",
+      "as": "নাবাৰ্ড মূলতঃ কোনটো খণ্ডৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Heavy industry",
+        "as": "গধুৰ উদ্যোগ"
+      },
+      {
+        "en": "Agriculture and rural development",
+        "as": "কৃষি আৰু গ্ৰাম্য উন্নয়ন"
+      },
+      {
+        "en": "Aviation",
+        "as": "উৰণ"
+      },
+      {
+        "en": "Telecom",
+        "as": "টেলিকম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "NABARD is the apex institution for agriculture and rural development finance.",
+      "as": "নাবাৰ্ড কৃষি আৰু গ্ৰাম্য উন্নয়ন বিত্তৰ শীৰ্ষ প্ৰতিষ্ঠান।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-066",
+    "q": {
+      "en": "What does SIDBI stand for?",
+      "as": "SIDBI ৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Small Industries Development Bank of India",
+        "as": "ভাৰতৰ ক্ষুদ্ৰ উদ্যোগ উন্নয়ন বেংক"
+      },
+      {
+        "en": "State Industrial Development Bank of India",
+        "as": "ভাৰতৰ ৰাজ্যিক ঔদ্যোগিক উন্নয়ন বেংক"
+      },
+      {
+        "en": "Small Investment and Deposit Bank of India",
+        "as": "ভাৰতৰ ক্ষুদ্ৰ বিনিয়োগ আৰু জমা বেংক"
+      },
+      {
+        "en": "State Infrastructure Development Bank of India",
+        "as": "ভাৰতৰ ৰাজ্যিক আন্তঃগাঁথনি উন্নয়ন বেংক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SIDBI is the Small Industries Development Bank of India, supporting MSMEs.",
+      "as": "SIDBI হৈছে ভাৰতৰ ক্ষুদ্ৰ উদ্যোগ উন্নয়ন বেংক, যি MSME ক সহায় কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-067",
+    "q": {
+      "en": "MSME stands for:",
+      "as": "MSME ৰ অৰ্থ কি?"
+    },
+    "options": [
+      {
+        "en": "Major, Small and Medium Enterprises",
+        "as": "প্ৰধান, ক্ষুদ্ৰ আৰু মধ্যমীয়া উদ্যোগ"
+      },
+      {
+        "en": "Micro, State and Municipal Enterprises",
+        "as": "কুটিৰ, ৰাজ্যিক আৰু পৌৰ উদ্যোগ"
+      },
+      {
+        "en": "Micro, Small and Medium Enterprises",
+        "as": "কুটিৰ, ক্ষুদ্ৰ আৰু মধ্যমীয়া উদ্যোগ"
+      },
+      {
+        "en": "Medium and Small Manufacturing Enterprises",
+        "as": "মধ্যমীয়া আৰু ক্ষুদ্ৰ উৎপাদন উদ্যোগ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "MSME refers to Micro, Small and Medium Enterprises, a key part of India's economy.",
+      "as": "MSME য়ে কুটিৰ, ক্ষুদ্ৰ আৰু মধ্যমীয়া উদ্যোগক সূচায়, যি ভাৰতৰ অৰ্থনীতিৰ এক মূল অংশ।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-068",
+    "q": {
+      "en": "Which state has the highest Gross State Domestic Product (GSDP) in India?",
+      "as": "ভাৰতত সৰ্বাধিক মুঠ ৰাজ্যিক ঘৰুৱা উৎপাদন (GSDP) কোনটো ৰাজ্যৰ?"
+    },
+    "options": [
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      },
+      {
+        "en": "Gujarat",
+        "as": "গুজৰাট"
+      },
+      {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      },
+      {
+        "en": "Maharashtra",
+        "as": "মহাৰাষ্ট্ৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Maharashtra generally has the highest GSDP among Indian states.",
+      "as": "ভাৰতীয় ৰাজ্যসমূহৰ ভিতৰত মহাৰাষ্ট্ৰৰ GSDP সাধাৰণতে সৰ্বাধিক।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-069",
+    "q": {
+      "en": "Which of the following is the largest industry of Assam?",
+      "as": "তলৰ কোনটো অসমৰ সৰ্ববৃহৎ উদ্যোগ?"
+    },
+    "options": [
+      {
+        "en": "Cement industry",
+        "as": "চিমেণ্ট উদ্যোগ"
+      },
+      {
+        "en": "Tea industry",
+        "as": "চাহ উদ্যোগ"
+      },
+      {
+        "en": "Steel industry",
+        "as": "ইস্পাত উদ্যোগ"
+      },
+      {
+        "en": "Software industry",
+        "as": "চফ্টৱেৰ উদ্যোগ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The tea industry is the largest and most important industry of Assam.",
+      "as": "চাহ উদ্যোগ অসমৰ সৰ্ববৃহৎ আৰু আটাইতকৈ গুৰুত্বপূৰ্ণ উদ্যোগ।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-070",
+    "q": {
+      "en": "Which of the following is a major mineral resource of Assam?",
+      "as": "তলৰ কোনটো অসমৰ এটা প্ৰধান খনিজ সম্পদ?"
+    },
+    "options": [
+      {
+        "en": "Gold",
+        "as": "সোণ"
+      },
+      {
+        "en": "Diamond",
+        "as": "হীৰা"
+      },
+      {
+        "en": "Silver",
+        "as": "ৰূপ"
+      },
+      {
+        "en": "Petroleum (crude oil)",
+        "as": "পেট্ৰ'লিয়াম (কেঁচা তেল)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assam is rich in petroleum, with oilfields like Digboi and Naharkatia.",
+      "as": "অসম পেট্ৰ'লিয়ামত সমৃদ্ধ, ডিগবৈ আৰু নাহৰকটিয়াৰ দৰে তেলক্ষেত্ৰ আছে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-071",
+    "q": {
+      "en": "Which is the largest river island in the world, located in Assam?",
+      "as": "বিশ্বৰ সৰ্ববৃহৎ নদী দ্বীপ, অসমত অৱস্থিত কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Sriharikota",
+        "as": "শ্ৰীহৰিকোটা"
+      },
+      {
+        "en": "Majuli",
+        "as": "মাজুলী"
+      },
+      {
+        "en": "Divar",
+        "as": "দিভাৰ"
+      },
+      {
+        "en": "Munroe",
+        "as": "মুনৰ'"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Majuli in Assam is the largest river island in the world.",
+      "as": "অসমৰ মাজুলী বিশ্বৰ সৰ্ববৃহৎ নদী দ্বীপ।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-072",
+    "q": {
+      "en": "Majuli is famous for which cultural institution?",
+      "as": "মাজুলী কোনটো সাংস্কৃতিক প্ৰতিষ্ঠানৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Satras",
+        "as": "সত্ৰ"
+      },
+      {
+        "en": "Forts",
+        "as": "দুৰ্গ"
+      },
+      {
+        "en": "Palaces",
+        "as": "ৰাজপ্ৰাসাদ"
+      },
+      {
+        "en": "Museums",
+        "as": "সংগ্ৰহালয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Majuli is famous for its Satras, centres of Assamese Vaishnavite culture.",
+      "as": "মাজুলী ইয়াৰ সত্ৰসমূহৰ বাবে বিখ্যাত, যি অসমীয়া বৈষ্ণৱ সংস্কৃতিৰ কেন্দ্ৰ।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-073",
+    "q": {
+      "en": "The capital of Assam is:",
+      "as": "অসমৰ ৰাজধানী কি?"
+    },
+    "options": [
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Dispur",
+        "as": "দিছপুৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Dispur, a locality of Guwahati, is the capital of Assam.",
+      "as": "দিছপুৰ, গুৱাহাটীৰ এটা অঞ্চল, অসমৰ ৰাজধানী।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-074",
+    "q": {
+      "en": "The largest city of Assam by population is:",
+      "as": "জনসংখ্যাৰ ফালৰ পৰা অসমৰ সৰ্ববৃহৎ চহৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Guwahati is the largest city of Assam and the gateway to the North-East.",
+      "as": "গুৱাহাটী অসমৰ সৰ্ববৃহৎ চহৰ আৰু উত্তৰ-পূবৰ প্ৰৱেশদ্বাৰ।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-075",
+    "q": {
+      "en": "Assam's economy is primarily based on:",
+      "as": "অসমৰ অৰ্থনীতি মূলতঃ কাৰ ওপৰত আধাৰিত?"
+    },
+    "options": [
+      {
+        "en": "Heavy machinery manufacturing",
+        "as": "গধুৰ যন্ত্ৰপাতি উৎপাদন"
+      },
+      {
+        "en": "Information technology only",
+        "as": "কেৱল তথ্য প্ৰযুক্তি"
+      },
+      {
+        "en": "Agriculture and allied activities",
+        "as": "কৃষি আৰু সংশ্লিষ্ট কাৰ্যকলাপ"
+      },
+      {
+        "en": "Diamond mining",
+        "as": "হীৰা খনন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Agriculture, tea and allied activities form the base of Assam's economy.",
+      "as": "কৃষি, চাহ আৰু সংশ্লিষ্ট কাৰ্যকলাপে অসমৰ অৰ্থনীতিৰ ভিত্তি গঠন কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-076",
+    "q": {
+      "en": "The Guwahati Tea Auction Centre is significant for the trade of:",
+      "as": "গুৱাহাটী চাহ নিলাম কেন্দ্ৰ কাৰ বাণিজ্যৰ বাবে গুৰুত্বপূৰ্ণ?"
+    },
+    "options": [
+      {
+        "en": "Tea",
+        "as": "চাহ"
+      },
+      {
+        "en": "Oil",
+        "as": "তেল"
+      },
+      {
+        "en": "Jute",
+        "as": "পাট"
+      },
+      {
+        "en": "Timber",
+        "as": "কাঠ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Guwahati Tea Auction Centre is one of the largest tea auction centres.",
+      "as": "গুৱাহাটী চাহ নিলাম কেন্দ্ৰ সৰ্ববৃহৎ চাহ নিলাম কেন্দ্ৰসমূহৰ এটা।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-077",
+    "q": {
+      "en": "Jhum cultivation is also known as:",
+      "as": "ঝুম খেতিক আন কি নামেৰে জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Terrace farming",
+        "as": "চিৰি খেতি"
+      },
+      {
+        "en": "Organic farming",
+        "as": "জৈৱিক খেতি"
+      },
+      {
+        "en": "Plantation farming",
+        "as": "বাগিচা খেতি"
+      },
+      {
+        "en": "Shifting cultivation",
+        "as": "স্থানান্তৰিত খেতি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Jhum is shifting cultivation practised in the hills of North-East India.",
+      "as": "ঝুম হৈছে উত্তৰ-পূব ভাৰতৰ পাহাৰত কৰা স্থানান্তৰিত খেতি।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-078",
+    "q": {
+      "en": "Jhum cultivation is commonly practised in which region?",
+      "as": "ঝুম খেতি সাধাৰণতে কোনটো অঞ্চলত কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Thar Desert",
+        "as": "থৰ মৰুভূমি"
+      },
+      {
+        "en": "North-East India hills",
+        "as": "উত্তৰ-পূব ভাৰতৰ পাহাৰ"
+      },
+      {
+        "en": "Deccan Plateau",
+        "as": "দাক্ষিণাত্য মালভূমি"
+      },
+      {
+        "en": "Coastal Kerala",
+        "as": "উপকূলীয় কেৰালা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Jhum cultivation is practised by tribal communities in the North-East hills.",
+      "as": "ঝুম খেতি উত্তৰ-পূবৰ পাহাৰত জনজাতীয় সমাজে কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-079",
+    "q": {
+      "en": "Which of the following is a traditional handicraft of Assam?",
+      "as": "তলৰ কোনটো অসমৰ পৰম্পৰাগত হস্তশিল্প?"
+    },
+    "options": [
+      {
+        "en": "Bamboo and cane craft",
+        "as": "বাঁহ আৰু বেতৰ শিল্প"
+      },
+      {
+        "en": "Diamond cutting",
+        "as": "হীৰা কটা"
+      },
+      {
+        "en": "Ship building",
+        "as": "জাহাজ নিৰ্মাণ"
+      },
+      {
+        "en": "Watch making",
+        "as": "ঘড়ী নিৰ্মাণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bamboo and cane craft is a famous traditional handicraft of Assam.",
+      "as": "বাঁহ আৰু বেতৰ শিল্প অসমৰ এটা বিখ্যাত পৰম্পৰাগত হস্তশিল্প।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-080",
+    "q": {
+      "en": "The bell metal industry of Assam is centred at which place?",
+      "as": "অসমৰ কাঁহ-পিতল শিল্প কোন ঠাইত কেন্দ্ৰীভূত?"
+    },
+    "options": [
+      {
+        "en": "Sualkuchi",
+        "as": "শুৱালকুছি"
+      },
+      {
+        "en": "Sarthebari",
+        "as": "সৰ্থেবাৰী"
+      },
+      {
+        "en": "Hajo",
+        "as": "হাজো"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sarthebari in Assam is famous for its traditional bell metal industry.",
+      "as": "অসমৰ সৰ্থেবাৰী ইয়াৰ পৰম্পৰাগত কাঁহ-পিতল শিল্পৰ বাবে বিখ্যাত।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-081",
+    "q": {
+      "en": "Sualkuchi in Assam is famous for:",
+      "as": "অসমৰ শুৱালকুছি কাৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Oil refining",
+        "as": "তেল শোধন"
+      },
+      {
+        "en": "Tea processing",
+        "as": "চাহ প্ৰক্ৰিয়াকৰণ"
+      },
+      {
+        "en": "Cement production",
+        "as": "চিমেণ্ট উৎপাদন"
+      },
+      {
+        "en": "Silk weaving",
+        "as": "ৰেচম বোৱা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sualkuchi is known as the Manchester of Assam for its silk weaving.",
+      "as": "শুৱালকুছিক ৰেচম বোৱাৰ বাবে অসমৰ মাঞ্চেষ্টাৰ বোলা হয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-082",
+    "q": {
+      "en": "Which is a major tourist attraction that contributes to Assam's economy?",
+      "as": "অসমৰ অৰ্থনীতিত অৱদান যোগোৱা এটা প্ৰধান পৰ্যটন আকৰ্ষণ কি?"
+    },
+    "options": [
+      {
+        "en": "Taj Mahal",
+        "as": "তাজমহল"
+      },
+      {
+        "en": "Gateway of India",
+        "as": "গেটৱে অৱ ইণ্ডিয়া"
+      },
+      {
+        "en": "Kaziranga National Park",
+        "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান"
+      },
+      {
+        "en": "Sun Temple",
+        "as": "সূৰ্য মন্দিৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Kaziranga attracts tourists and supports Assam's tourism and wildlife economy.",
+      "as": "কাজিৰঙাই পৰ্যটক আকৰ্ষণ কৰি অসমৰ পৰ্যটন আৰু বন্যপ্ৰাণী অৰ্থনীতিত সহায় কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-083",
+    "q": {
+      "en": "Manas National Park in Assam is a:",
+      "as": "অসমৰ মানস ৰাষ্ট্ৰীয় উদ্যান এটা:"
+    },
+    "options": [
+      {
+        "en": "Desert",
+        "as": "মৰুভূমি"
+      },
+      {
+        "en": "UNESCO World Heritage Site",
+        "as": "ইউনেস্ক' বিশ্ব ঐতিহ্য স্থান"
+      },
+      {
+        "en": "Hill station only",
+        "as": "কেৱল পাহাৰীয়া ষ্টেচন"
+      },
+      {
+        "en": "Industrial zone",
+        "as": "ঔদ্যোগিক অঞ্চল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Manas National Park is a UNESCO World Heritage Site and a tiger reserve.",
+      "as": "মানস ৰাষ্ট্ৰীয় উদ্যান এটা ইউনেস্ক' বিশ্ব ঐতিহ্য স্থান আৰু বাঘ সংৰক্ষিত অঞ্চল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-084",
+    "q": {
+      "en": "Which is the state animal of Assam?",
+      "as": "অসমৰ ৰাজ্যিক প্ৰাণী কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Tiger",
+        "as": "বাঘ"
+      },
+      {
+        "en": "Elephant",
+        "as": "হাতী"
+      },
+      {
+        "en": "One-horned rhinoceros",
+        "as": "এশিঙীয়া গঁড়"
+      },
+      {
+        "en": "Deer",
+        "as": "হৰিণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The one-horned rhinoceros is the state animal of Assam.",
+      "as": "এশিঙীয়া গঁড় অসমৰ ৰাজ্যিক প্ৰাণী।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-085",
+    "q": {
+      "en": "Which is the state tree of Assam?",
+      "as": "অসমৰ ৰাজ্যিক বৃক্ষ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Neem",
+        "as": "নীম"
+      },
+      {
+        "en": "Banyan",
+        "as": "বট"
+      },
+      {
+        "en": "Mango",
+        "as": "আম"
+      },
+      {
+        "en": "Hollong",
+        "as": "হলং"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Hollong is the state tree of Assam and is valued for its timber.",
+      "as": "হলং অসমৰ ৰাজ্যিক বৃক্ষ আৰু ইয়াৰ কাঠৰ বাবে মূল্যৱান।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-086",
+    "q": {
+      "en": "The National Food Security Act was enacted in which year?",
+      "as": "ৰাষ্ট্ৰীয় খাদ্য সুৰক্ষা আইন কোন বছৰত প্ৰণয়ন কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2011",
+        "as": "২০১১"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "2013",
+        "as": "২০১৩"
+      },
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The National Food Security Act was enacted in 2013 to ensure food security.",
+      "as": "খাদ্য সুৰক্ষা নিশ্চিত কৰিবলৈ ২০১৩ চনত ৰাষ্ট্ৰীয় খাদ্য সুৰক্ষা আইন প্ৰণয়ন কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-087",
+    "q": {
+      "en": "Pradhan Mantri Awas Yojana is related to:",
+      "as": "প্ৰধানমন্ত্ৰী আৱাস যোজনা কাৰ সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Free electricity",
+        "as": "বিনামূলীয়া বিদ্যুৎ"
+      },
+      {
+        "en": "Food distribution",
+        "as": "খাদ্য বিতৰণ"
+      },
+      {
+        "en": "Road construction",
+        "as": "পথ নিৰ্মাণ"
+      },
+      {
+        "en": "Housing for all",
+        "as": "সকলোৰে বাবে ঘৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "PMAY aims to provide affordable housing to all, including rural households.",
+      "as": "PMAY ৰ লক্ষ্য গ্ৰাম্য পৰিয়ালকে ধৰি সকলোকে সুলভ ঘৰ প্ৰদান কৰা।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-088",
+    "q": {
+      "en": "Which body is responsible for estimating India's national income?",
+      "as": "ভাৰতৰ ৰাষ্ট্ৰীয় আয় অনুমানৰ দায়িত্ব কোনটো সংস্থাৰ?"
+    },
+    "options": [
+      {
+        "en": "RBI",
+        "as": "আৰ বি আই"
+      },
+      {
+        "en": "SEBI",
+        "as": "ছেবি"
+      },
+      {
+        "en": "NITI Aayog",
+        "as": "নীতি আয়োগ"
+      },
+      {
+        "en": "NSO",
+        "as": "এন এছ অ'"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The National Statistical Office (NSO) estimates India's national income.",
+      "as": "ৰাষ্ট্ৰীয় পৰিসংখ্যা কাৰ্যালয় (NSO) য়ে ভাৰতৰ ৰাষ্ট্ৰীয় আয় অনুমান কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-089",
+    "q": {
+      "en": "The Census in India is conducted once in every:",
+      "as": "ভাৰতত জনগণনা কিমান বছৰৰ মূৰে মূৰে কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "10 years",
+        "as": "১০ বছৰ"
+      },
+      {
+        "en": "5 years",
+        "as": "৫ বছৰ"
+      },
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
+      },
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Census of India is conducted every 10 years.",
+      "as": "ভাৰতৰ জনগণনা প্ৰতি ১০ বছৰত এবাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-090",
+    "q": {
+      "en": "The most recent Census of India was conducted in which year?",
+      "as": "ভাৰতৰ শেহতীয়া জনগণনা কোন বছৰত কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2001",
+        "as": "২০০১"
+      },
+      {
+        "en": "2011",
+        "as": "২০১১"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The last Census of India was conducted in 2011.",
+      "as": "ভাৰতৰ শেহতীয়া জনগণনা ২০১১ চনত কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-091",
+    "q": {
+      "en": "Which is the largest employer in Assam's economy?",
+      "as": "অসমৰ অৰ্থনীতিত সৰ্ববৃহৎ নিয়োগকৰ্তা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Information technology",
+        "as": "তথ্য প্ৰযুক্তি"
+      },
+      {
+        "en": "Automobile industry",
+        "as": "অট'মোবাইল উদ্যোগ"
+      },
+      {
+        "en": "Banking",
+        "as": "বেংকিং"
+      },
+      {
+        "en": "Agriculture and tea",
+        "as": "কৃষি আৰু চাহ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Agriculture and tea-related activities employ the largest share in Assam.",
+      "as": "কৃষি আৰু চাহ-সংশ্লিষ্ট কাৰ্যকলাপে অসমত সৰ্বাধিক লোকক নিয়োগ দিয়ে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-092",
+    "q": {
+      "en": "Assam produces approximately what share of India's total tea?",
+      "as": "অসমে ভাৰতৰ মুঠ চাহৰ প্ৰায় কিমান অংশ উৎপাদন কৰে?"
+    },
+    "options": [
+      {
+        "en": "About 10%",
+        "as": "প্ৰায় ১০%"
+      },
+      {
+        "en": "More than 50%",
+        "as": "৫০% তকৈ বেছি"
+      },
+      {
+        "en": "About 25%",
+        "as": "প্ৰায় ২৫%"
+      },
+      {
+        "en": "About 5%",
+        "as": "প্ৰায় ৫%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam produces more than half of India's tea.",
+      "as": "অসমে ভাৰতৰ আধাতকৈ বেছি চাহ উৎপাদন কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-093",
+    "q": {
+      "en": "Which is the largest tea-producing country in the world?",
+      "as": "বিশ্বৰ সৰ্ববৃহৎ চাহ উৎপাদনকাৰী দেশ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "India",
+        "as": "ভাৰত"
+      },
+      {
+        "en": "China",
+        "as": "চীন"
+      },
+      {
+        "en": "Kenya",
+        "as": "কেনিয়া"
+      },
+      {
+        "en": "Sri Lanka",
+        "as": "শ্ৰীলংকা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "China is the world's largest tea producer, followed by India.",
+      "as": "চীন বিশ্বৰ সৰ্ববৃহৎ চাহ উৎপাদনকাৰী, তাৰ পিছত ভাৰত।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-094",
+    "q": {
+      "en": "Which body regulates the tea industry in India?",
+      "as": "ভাৰতত চাহ উদ্যোগ কোনটো সংস্থাই নিয়ন্ত্ৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "RBI",
+        "as": "আৰ বি আই"
+      },
+      {
+        "en": "SEBI",
+        "as": "ছেবি"
+      },
+      {
+        "en": "FCI",
+        "as": "এফ চি আই"
+      },
+      {
+        "en": "Tea Board of India",
+        "as": "ভাৰতীয় চাহ ব'ৰ্ড"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Tea Board of India regulates and promotes the tea industry.",
+      "as": "ভাৰতীয় চাহ ব'ৰ্ডে চাহ উদ্যোগ নিয়ন্ত্ৰণ আৰু প্ৰসাৰ কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-095",
+    "q": {
+      "en": "Ahu, Sali and Boro are varieties of which crop in Assam?",
+      "as": "আহু, শালি আৰু ব'ৰ' অসমৰ কোনটো শস্যৰ জাত?"
+    },
+    "options": [
+      {
+        "en": "Tea",
+        "as": "চাহ"
+      },
+      {
+        "en": "Rice",
+        "as": "ধান"
+      },
+      {
+        "en": "Jute",
+        "as": "পাট"
+      },
+      {
+        "en": "Sugarcane",
+        "as": "কুহিয়াৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ahu, Sali and Boro are the three main rice seasons/varieties of Assam.",
+      "as": "আহু, শালি আৰু ব'ৰ' অসমৰ তিনিটা প্ৰধান ধানৰ ঋতু/জাত।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-096",
+    "q": {
+      "en": "Which crop is the principal commercial crop of Assam?",
+      "as": "অসমৰ প্ৰধান বাণিজ্যিক শস্য কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Wheat",
+        "as": "ঘেঁহু"
+      },
+      {
+        "en": "Tea",
+        "as": "চাহ"
+      },
+      {
+        "en": "Maize",
+        "as": "মাকৈ"
+      },
+      {
+        "en": "Barley",
+        "as": "যৱ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Tea is the principal commercial crop and export earner of Assam.",
+      "as": "চাহ অসমৰ প্ৰধান বাণিজ্যিক শস্য আৰু ৰপ্তানিৰ পৰা আয়ৰ উৎস।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-097",
+    "q": {
+      "en": "Which organisation is known as the apex body for oil and gas exploration in India?",
+      "as": "ভাৰতত তেল আৰু গেছ অন্বেষণৰ শীৰ্ষ সংস্থা হিচাপে কোনটো পৰিচিত?"
+    },
+    "options": [
+      {
+        "en": "SAIL",
+        "as": "ছে'ল"
+      },
+      {
+        "en": "BHEL",
+        "as": "বি এইচ ই এল"
+      },
+      {
+        "en": "ONGC",
+        "as": "অ' এন জি চি"
+      },
+      {
+        "en": "HAL",
+        "as": "এইচ এ এল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "ONGC (Oil and Natural Gas Corporation) is the apex oil and gas exploration body.",
+      "as": "ONGC (তেল আৰু প্ৰাকৃতিক গেছ নিগম) তেল আৰু গেছ অন্বেষণৰ শীৰ্ষ সংস্থা।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-098",
+    "q": {
+      "en": "Which refinery was the first to be commissioned in Assam's petroleum history?",
+      "as": "অসমৰ পেট্ৰ'লিয়াম ইতিহাসত প্ৰথমে কোনটো শোধনাগাৰ আৰম্ভ হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Numaligarh Refinery",
+        "as": "নুমলীগড় শোধনাগাৰ"
+      },
+      {
+        "en": "Bongaigaon Refinery",
+        "as": "বঙাইগাঁও শোধনাগাৰ"
+      },
+      {
+        "en": "Digboi Refinery",
+        "as": "ডিগবৈ শোধনাগাৰ"
+      },
+      {
+        "en": "Guwahati Refinery",
+        "as": "গুৱাহাটী শোধনাগাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Digboi Refinery is the oldest refinery in India and Assam's first.",
+      "as": "ডিগবৈ শোধনাগাৰ ভাৰতৰ পুৰণি আৰু অসমৰ প্ৰথম শোধনাগাৰ।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-099",
+    "q": {
+      "en": "Bamboo, an important forest resource of Assam, is mainly used for:",
+      "as": "অসমৰ এটা গুৰুত্বপূৰ্ণ বনজ সম্পদ বাঁহ মূলতঃ কাৰ বাবে ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Diamond cutting",
+        "as": "হীৰা কটা"
+      },
+      {
+        "en": "Handicrafts, construction and paper",
+        "as": "হস্তশিল্প, নিৰ্মাণ আৰু কাগজ"
+      },
+      {
+        "en": "Oil refining",
+        "as": "তেল শোধন"
+      },
+      {
+        "en": "Cement only",
+        "as": "কেৱল চিমেণ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bamboo is widely used in handicrafts, construction, paper and furniture.",
+      "as": "বাঁহ হস্তশিল্প, নিৰ্মাণ, কাগজ আৰু আচবাবত বহুলভাৱে ব্যৱহৃত।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-100",
+    "q": {
+      "en": "Which of the following is a cottage industry of Assam?",
+      "as": "তলৰ কোনটো অসমৰ কুটিৰ শিল্প?"
+    },
+    "options": [
+      {
+        "en": "Ship building",
+        "as": "জাহাজ নিৰ্মাণ"
+      },
+      {
+        "en": "Aircraft manufacturing",
+        "as": "বিমান উৎপাদন"
+      },
+      {
+        "en": "Diamond mining",
+        "as": "হীৰা খনন"
+      },
+      {
+        "en": "Handloom weaving",
+        "as": "হস্ততাঁত বোৱা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Handloom weaving is a major cottage industry providing rural employment.",
+      "as": "হস্ততাঁত বোৱা এটা প্ৰধান কুটিৰ শিল্প যি গ্ৰাম্য নিয়োগ প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-101",
+    "q": {
+      "en": "Which is the international airport serving Assam?",
+      "as": "অসমলৈ সেৱা আগবঢ়োৱা আন্তৰ্জাতিক বিমানবন্দৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Lokpriya Gopinath Bordoloi International Airport",
+        "as": "লোকপ্ৰিয় গোপীনাথ বৰদলৈ আন্তৰ্জাতিক বিমানবন্দৰ"
+      },
+      {
+        "en": "Netaji Subhas Chandra Bose Airport",
+        "as": "নেতাজী সুভাষ চন্দ্ৰ বসু বিমানবন্দৰ"
+      },
+      {
+        "en": "Indira Gandhi International Airport",
+        "as": "ইন্দিৰা গান্ধী আন্তৰ্জাতিক বিমানবন্দৰ"
+      },
+      {
+        "en": "Rajiv Gandhi International Airport",
+        "as": "ৰাজীৱ গান্ধী আন্তৰ্জাতিক বিমানবন্দৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Lokpriya Gopinath Bordoloi International Airport in Guwahati serves Assam.",
+      "as": "গুৱাহাটীৰ লোকপ্ৰিয় গোপীনাথ বৰদলৈ আন্তৰ্জাতিক বিমানবন্দৰে অসমলৈ সেৱা আগবঢ়ায়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-102",
+    "q": {
+      "en": "Which is the main mode of transport for goods and people within Assam?",
+      "as": "অসমৰ ভিতৰত সামগ্ৰী আৰু লোক পৰিবহণৰ প্ৰধান মাধ্যম কি?"
+    },
+    "options": [
+      {
+        "en": "Air transport only",
+        "as": "কেৱল বিমান পৰিবহণ"
+      },
+      {
+        "en": "Pipeline only",
+        "as": "কেৱল পাইপলাইন"
+      },
+      {
+        "en": "Road transport",
+        "as": "পথ পৰিবহণ"
+      },
+      {
+        "en": "Sea transport",
+        "as": "সামুদ্ৰিক পৰিবহণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Road transport is the main mode of transport within Assam.",
+      "as": "পথ পৰিবহণ অসমৰ ভিতৰত প্ৰধান পৰিবহণ মাধ্যম।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-103",
+    "q": {
+      "en": "The Act East Policy of India aims to improve ties with which region?",
+      "as": "ভাৰতৰ এক্ট ইষ্ট নীতিয়ে কোনটো অঞ্চলৰ সৈতে সম্পৰ্ক উন্নত কৰাৰ লক্ষ্য ৰাখে?"
+    },
+    "options": [
+      {
+        "en": "East and Southeast Asia",
+        "as": "পূব আৰু দক্ষিণ-পূব এছিয়া"
+      },
+      {
+        "en": "South America",
+        "as": "দক্ষিণ আমেৰিকা"
+      },
+      {
+        "en": "Europe",
+        "as": "ইউৰোপ"
+      },
+      {
+        "en": "Africa",
+        "as": "আফ্ৰিকা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Act East Policy focuses on strengthening ties with East and Southeast Asia, benefiting the North-East.",
+      "as": "এক্ট ইষ্ট নীতিয়ে পূব আৰু দক্ষিণ-পূব এছিয়াৰ সৈতে সম্পৰ্ক সবল কৰাত গুৰুত্ব দিয়ে, যাৰ পৰা উত্তৰ-পূব লাভৱান হয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-104",
+    "q": {
+      "en": "Which of the following is a major export item of Assam?",
+      "as": "তলৰ কোনটো অসমৰ এটা প্ৰধান ৰপ্তানি সামগ্ৰী?"
+    },
+    "options": [
+      {
+        "en": "Diamonds",
+        "as": "হীৰা"
+      },
+      {
+        "en": "Wheat",
+        "as": "ঘেঁহু"
+      },
+      {
+        "en": "Tea",
+        "as": "চাহ"
+      },
+      {
+        "en": "Coffee",
+        "as": "কফি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Tea is the most important export item of Assam.",
+      "as": "চাহ অসমৰ আটাইতকৈ গুৰুত্বপূৰ্ণ ৰপ্তানি সামগ্ৰী।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-105",
+    "q": {
+      "en": "The Brahmaputra is important for Assam's economy mainly because it:",
+      "as": "ব্ৰহ্মপুত্ৰ অসমৰ অৰ্থনীতিৰ বাবে মূলতঃ গুৰুত্বপূৰ্ণ কাৰণ ই কি কৰে?"
+    },
+    "options": [
+      {
+        "en": "Supports agriculture, fishing and transport",
+        "as": "কৃষি, মাছ ধৰা আৰু পৰিবহণত সহায় কৰে"
+      },
+      {
+        "en": "Provides diamonds",
+        "as": "হীৰা যোগান ধৰে"
+      },
+      {
+        "en": "Produces coal only",
+        "as": "কেৱল কয়লা উৎপন্ন কৰে"
+      },
+      {
+        "en": "Has no economic use",
+        "as": "কোনো অৰ্থনৈতিক ব্যৱহাৰ নাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra supports irrigation, fishing, navigation and fertile agriculture.",
+      "as": "ব্ৰহ্মপুত্ৰই জলসিঞ্চন, মাছ ধৰা, নৌচলাচল আৰু উৰ্বৰ কৃষিত সহায় কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-106",
+    "q": {
+      "en": "Which sector has the highest growth potential in modern Assam?",
+      "as": "আধুনিক অসমত কোনটো খণ্ডৰ বৃদ্ধিৰ সম্ভাৱনা সৰ্বাধিক?"
+    },
+    "options": [
+      {
+        "en": "Diamond mining",
+        "as": "হীৰা খনন"
+      },
+      {
+        "en": "Whaling",
+        "as": "তিমি চিকাৰ"
+      },
+      {
+        "en": "Ice harvesting",
+        "as": "বৰফ চপোৱা"
+      },
+      {
+        "en": "Services including tourism and IT",
+        "as": "পৰ্যটন আৰু আইটি সহ সেৱা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Services like tourism, IT and education have high growth potential in Assam.",
+      "as": "পৰ্যটন, আইটি আৰু শিক্ষাৰ দৰে সেৱাৰ অসমত উচ্চ বৃদ্ধিৰ সম্ভাৱনা আছে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-107",
+    "q": {
+      "en": "Which of the following is an example of a public utility service in the economy?",
+      "as": "অৰ্থনীতিত তলৰ কোনটো এটা ৰাজহুৱা উপযোগিতা সেৱাৰ উদাহৰণ?"
+    },
+    "options": [
+      {
+        "en": "Diamond trading",
+        "as": "হীৰা বাণিজ্য"
+      },
+      {
+        "en": "Fashion design",
+        "as": "ফেশ্বন ডিজাইন"
+      },
+      {
+        "en": "Electricity supply",
+        "as": "বিদ্যুৎ যোগান"
+      },
+      {
+        "en": "Advertising",
+        "as": "বিজ্ঞাপন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Electricity, water and transport are public utility services.",
+      "as": "বিদ্যুৎ, পানী আৰু পৰিবহণ ৰাজহুৱা উপযোগিতা সেৱা।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-108",
+    "q": {
+      "en": "Which of the following can cause inflation in an economy?",
+      "as": "তলৰ কোনটোৱে অৰ্থনীতিত মুদ্ৰাস্ফীতিৰ কাৰণ হ'ব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "Excess money supply and rising demand",
+        "as": "অতিৰিক্ত ধন যোগান আৰু বাঢ়ি থকা চাহিদা"
+      },
+      {
+        "en": "Decrease in money supply",
+        "as": "ধন যোগান হ্ৰাস"
+      },
+      {
+        "en": "Reduction in demand",
+        "as": "চাহিদা হ্ৰাস"
+      },
+      {
+        "en": "Increase in production only",
+        "as": "কেৱল উৎপাদন বৃদ্ধি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Inflation rises when money supply grows faster than the supply of goods.",
+      "as": "সামগ্ৰীৰ যোগানতকৈ ধন যোগান দ্ৰুতগতিত বাঢ়িলে মুদ্ৰাস্ফীতি বৃদ্ধি পায়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-109",
+    "q": {
+      "en": "The fiscal deficit of the government is financed mainly by:",
+      "as": "চৰকাৰৰ ৰাজকোষীয় ঘাটি মূলতঃ কেনেকৈ ধন যোগান কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Printing notes only",
+        "as": "কেৱল নোট ছপা"
+      },
+      {
+        "en": "Reducing taxes",
+        "as": "কৰ হ্ৰাস"
+      },
+      {
+        "en": "Borrowing",
+        "as": "ঋণ লোৱা"
+      },
+      {
+        "en": "Selling public assets only",
+        "as": "কেৱল ৰাজহুৱা সম্পদ বিক্ৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Fiscal deficit is the gap between expenditure and receipts, financed by borrowing.",
+      "as": "ৰাজকোষীয় ঘাটি হৈছে ব্যয় আৰু ৰাজহৰ মাজৰ ব্যৱধান, যি ঋণ লৈ পূৰণ কৰা হয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-110",
+    "q": {
+      "en": "Which of the following is a feature of a developing economy like India?",
+      "as": "ভাৰতৰ দৰে এখন উন্নয়নশীল অৰ্থনীতিৰ এটা বৈশিষ্ট্য কি?"
+    },
+    "options": [
+      {
+        "en": "Zero unemployment",
+        "as": "শূন্য বেকাৰতাবৃত্তি"
+      },
+      {
+        "en": "Very high per capita income",
+        "as": "অতি উচ্চ মুৰি আয়"
+      },
+      {
+        "en": "No primary sector",
+        "as": "প্ৰাথমিক খণ্ড নাই"
+      },
+      {
+        "en": "Large agricultural workforce and low per capita income",
+        "as": "বৃহৎ কৃষি শ্ৰমশক্তি আৰু কম মুৰি আয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Developing economies have a large farm workforce and relatively low per capita income.",
+      "as": "উন্নয়নশীল অৰ্থনীতিত বৃহৎ কৃষি শ্ৰমশক্তি আৰু তুলনামূলক কম মুৰি আয় থাকে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-111",
+    "q": {
+      "en": "Which of the following is a Sustainable Development Goal (SDG) related to the economy?",
+      "as": "অৰ্থনীতিৰ সৈতে সম্পৰ্কিত এটা বহনক্ষম উন্নয়ন লক্ষ্য (SDG) তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Decent work and economic growth",
+        "as": "উপযুক্ত কাম আৰু অৰ্থনৈতিক বৃদ্ধি"
+      },
+      {
+        "en": "Space exploration",
+        "as": "মহাকাশ অন্বেষণ"
+      },
+      {
+        "en": "Fashion design",
+        "as": "ফেশ্বন ডিজাইন"
+      },
+      {
+        "en": "Video gaming",
+        "as": "ভিডিঅ' গেমিং"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SDG 8 promotes decent work and sustained economic growth.",
+      "as": "SDG ৮ য়ে উপযুক্ত কাম আৰু স্থায়ী অৰ্থনৈতিক বৃদ্ধি প্ৰসাৰ কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-112",
+    "q": {
+      "en": "Which of the following is a direct benefit of the Green Revolution?",
+      "as": "সেউজ বিপ্লৱৰ এটা প্ৰত্যক্ষ লাভ কি?"
+    },
+    "options": [
+      {
+        "en": "Increase in oil imports",
+        "as": "তেল আমদানি বৃদ্ধি"
+      },
+      {
+        "en": "Decrease in crop production",
+        "as": "শস্য উৎপাদন হ্ৰাস"
+      },
+      {
+        "en": "Increase in unemployment",
+        "as": "বেকাৰতাবৃত্তি বৃদ্ধি"
+      },
+      {
+        "en": "Food security and reduced imports",
+        "as": "খাদ্য সুৰক্ষা আৰু আমদানি হ্ৰাস"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Green Revolution made India self-sufficient in food grains.",
+      "as": "সেউজ বিপ্লৱে ভাৰতক খাদ্যশস্যত আত্মনিৰ্ভৰশীল কৰি তুলিছিল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-113",
+    "q": {
+      "en": "Which of the following is a source of non-tax revenue for the government?",
+      "as": "চৰকাৰৰ কৰ-বহিৰ্ভূত ৰাজহৰ এটা উৎস তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Income tax",
+        "as": "আয় কৰ"
+      },
+      {
+        "en": "GST",
+        "as": "জিএছটি"
+      },
+      {
+        "en": "Fees, fines and dividends",
+        "as": "মাচুল, জৰিমনা আৰু লভ্যাংশ"
+      },
+      {
+        "en": "Customs duty",
+        "as": "ৰাজহুৱা শুল্ক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Fees, fines, dividends from PSUs and interest are non-tax revenue sources.",
+      "as": "মাচুল, জৰিমনা, ৰাজহুৱা উদ্যোগৰ লভ্যাংশ আৰু সুত কৰ-বহিৰ্ভূত ৰাজহৰ উৎস।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-114",
+    "q": {
+      "en": "Which of the following best describes economic development?",
+      "as": "তলৰ কোনটোৱে অৰ্থনৈতিক উন্নয়ন সৰ্বোত্তমভাৱে বৰ্ণনা কৰে?"
+    },
+    "options": [
+      {
+        "en": "Only rise in GDP",
+        "as": "কেৱল GDP বৃদ্ধি"
+      },
+      {
+        "en": "Only rise in population",
+        "as": "কেৱল জনসংখ্যা বৃদ্ধি"
+      },
+      {
+        "en": "Only increase in exports",
+        "as": "কেৱল ৰপ্তানি বৃদ্ধি"
+      },
+      {
+        "en": "Quantitative and qualitative improvement in living standards",
+        "as": "জীৱনযাত্ৰাৰ মানৰ পৰিমাণগত আৰু গুণগত উন্নতি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Development includes both economic growth and improvement in quality of life.",
+      "as": "উন্নয়নত অৰ্থনৈতিক বৃদ্ধি আৰু জীৱনৰ মানদণ্ডৰ উন্নতি দুয়োটা অন্তৰ্ভুক্ত।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-115",
+    "q": {
+      "en": "Which of the following is an example of a primary sector activity in Assam?",
+      "as": "অসমত প্ৰাথমিক খণ্ডৰ কাৰ্যকলাপৰ এটা উদাহৰণ তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Tea cultivation",
+        "as": "চাহ খেতি"
+      },
+      {
+        "en": "Tea processing factory",
+        "as": "চাহ প্ৰক্ৰিয়াকৰণ কাৰখানা"
+      },
+      {
+        "en": "Banking",
+        "as": "বেংকিং"
+      },
+      {
+        "en": "Retail shop",
+        "as": "খুচুৰা দোকান"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cultivation is a primary sector activity, while processing and banking are higher sectors.",
+      "as": "খেতি প্ৰাথমিক খণ্ডৰ কাৰ্যকলাপ, আনহাতে প্ৰক্ৰিয়াকৰণ আৰু বেংকিং উচ্চতৰ খণ্ড।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-116",
+    "q": {
+      "en": "Which of the following is an example of a secondary sector activity?",
+      "as": "তলৰ কোনটো গৌণ খণ্ডৰ কাৰ্যকলাপৰ এটা উদাহৰণ?"
+    },
+    "options": [
+      {
+        "en": "Plucking tea leaves",
+        "as": "চাহ পাত ছিঙা"
+      },
+      {
+        "en": "Banking",
+        "as": "বেংকিং"
+      },
+      {
+        "en": "Tourism",
+        "as": "পৰ্যটন"
+      },
+      {
+        "en": "Manufacturing of tea",
+        "as": "চাহ উৎপাদন/প্ৰক্ৰিয়াকৰণ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Processing or manufacturing converts raw tea leaves into finished tea.",
+      "as": "প্ৰক্ৰিয়াকৰণ বা উৎপাদনে কেঁচা চাহ পাতক সমাপ্ত চাহলৈ ৰূপান্তৰ কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-117",
+    "q": {
+      "en": "Which of the following is an example of a tertiary sector activity?",
+      "as": "তলৰ কোনটো তৃতীয় খণ্ডৰ কাৰ্যকলাপৰ এটা উদাহৰণ?"
+    },
+    "options": [
+      {
+        "en": "Rice farming",
+        "as": "ধান খেতি"
+      },
+      {
+        "en": "Banking and insurance",
+        "as": "বেংকিং আৰু বীমা"
+      },
+      {
+        "en": "Coal mining",
+        "as": "কয়লা খনন"
+      },
+      {
+        "en": "Tea manufacturing",
+        "as": "চাহ উৎপাদন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Banking, insurance, transport and IT are tertiary or service sector activities.",
+      "as": "বেংকিং, বীমা, পৰিবহণ আৰু আইটি তৃতীয় বা সেৱা খণ্ডৰ কাৰ্যকলাপ।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-118",
+    "q": {
+      "en": "Which of the following helps in the growth of Assam's tourism economy?",
+      "as": "অসমৰ পৰ্যটন অৰ্থনীতিৰ বৃদ্ধিত তলৰ কোনটোৱে সহায় কৰে?"
+    },
+    "options": [
+      {
+        "en": "Deforestation",
+        "as": "বনাঞ্চল ধ্বংস"
+      },
+      {
+        "en": "Water pollution",
+        "as": "জল প্ৰদূষণ"
+      },
+      {
+        "en": "Heavy taxation",
+        "as": "অধিক কৰ"
+      },
+      {
+        "en": "Wildlife parks, tea gardens and cultural festivals",
+        "as": "বন্যপ্ৰাণী উদ্যান, চাহ বাগিচা আৰু সাংস্কৃতিক উৎসৱ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Wildlife parks, tea tourism and Bihu festivals attract tourists to Assam.",
+      "as": "বন্যপ্ৰাণী উদ্যান, চাহ পৰ্যটন আৰু বিহু উৎসৱে পৰ্যটকক অসমলৈ আকৰ্ষণ কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-119",
+    "q": {
+      "en": "Which of the following is a major challenge for Assam's economy?",
+      "as": "অসমৰ অৰ্থনীতিৰ এটা প্ৰধান প্ৰত্যাহ্বান কি?"
+    },
+    "options": [
+      {
+        "en": "Excess deserts",
+        "as": "অতিৰিক্ত মৰুভূমি"
+      },
+      {
+        "en": "Lack of rivers",
+        "as": "নদীৰ অভাৱ"
+      },
+      {
+        "en": "Frequent floods and limited industrial diversification",
+        "as": "সঘন বানপানী আৰু সীমিত ঔদ্যোগিক বৈচিত্ৰ্য"
+      },
+      {
+        "en": "Too much snowfall",
+        "as": "অতি বৰফপাত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Floods and overdependence on tea and oil are key economic challenges for Assam.",
+      "as": "বানপানী আৰু চাহ আৰু তেলৰ ওপৰত অত্যধিক নিৰ্ভৰশীলতা অসমৰ প্ৰধান আৰ্থিক প্ৰত্যাহ্বান।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-120",
+    "q": {
+      "en": "Which of the following is a step to improve Assam's economy?",
+      "as": "অসমৰ অৰ্থনীতি উন্নত কৰাৰ এটা পদক্ষেপ কি?"
+    },
+    "options": [
+      {
+        "en": "Developing infrastructure and promoting industry",
+        "as": "আন্তঃগাঁথনি উন্নয়ন আৰু উদ্যোগ প্ৰসাৰ"
+      },
+      {
+        "en": "Closing all schools",
+        "as": "সকলো বিদ্যালয় বন্ধ কৰা"
+      },
+      {
+        "en": "Banning all agriculture",
+        "as": "সকলো কৃষি নিষিদ্ধ কৰা"
+      },
+      {
+        "en": "Stopping all transport",
+        "as": "সকলো পৰিবহণ বন্ধ কৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Better infrastructure, industry and connectivity can boost Assam's economy.",
+      "as": "উন্নত আন্তঃগাঁথনি, উদ্যোগ আৰু সংযোগে অসমৰ অৰ্থনীতি বৃদ্ধি কৰিব পাৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-121",
+    "q": {
+      "en": "The Reserve Bank of India was nationalised in which year?",
+      "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক কোন বছৰত ৰাষ্ট্ৰীয়কৃত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1935",
+        "as": "১৯৩৫"
+      },
+      {
+        "en": "1947",
+        "as": "১৯৪৭"
+      },
+      {
+        "en": "1955",
+        "as": "১৯৫৫"
+      },
+      {
+        "en": "1949",
+        "as": "১৯৪৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The RBI was nationalised in 1949, shortly after India's independence.",
+      "as": "ভাৰতৰ স্বাধীনতাৰ কিছু সময়ৰ পিছত ১৯৪৯ চনত আৰ বি আই ৰাষ্ট্ৰীয়কৃত হয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-122",
+    "q": {
+      "en": "Which of the following taxes was subsumed under GST?",
+      "as": "তলৰ কোনটো কৰ জিএছটিৰ অন্তৰ্ভুক্ত কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Income tax",
+        "as": "আয় কৰ"
+      },
+      {
+        "en": "Excise duty and service tax",
+        "as": "আবকাৰী শুল্ক আৰু সেৱা কৰ"
+      },
+      {
+        "en": "Corporate tax",
+        "as": "নিগম কৰ"
+      },
+      {
+        "en": "Capital gains tax",
+        "as": "মূলধন লাভ কৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "GST replaced many indirect taxes such as excise duty, VAT and service tax.",
+      "as": "জিএছটিয়ে আবকাৰী শুল্ক, ভেটি আৰু সেৱা কৰৰ দৰে বহু পৰোক্ষ কৰৰ ঠাই লৈছিল।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-123",
+    "q": {
+      "en": "Which is the largest source of employment in India's unorganised sector?",
+      "as": "ভাৰতৰ অসংগঠিত খণ্ডত নিয়োগৰ সৰ্ববৃহৎ উৎস কি?"
+    },
+    "options": [
+      {
+        "en": "Agriculture and small enterprises",
+        "as": "কৃষি আৰু ক্ষুদ্ৰ উদ্যোগ"
+      },
+      {
+        "en": "Multinational companies",
+        "as": "বহুজাতিক কোম্পানী"
+      },
+      {
+        "en": "Government offices",
+        "as": "চৰকাৰী কাৰ্যালয়"
+      },
+      {
+        "en": "Stock exchanges",
+        "as": "শ্বেয়াৰ বজাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Agriculture and small unorganised enterprises employ most informal workers.",
+      "as": "কৃষি আৰু ক্ষুদ্ৰ অসংগঠিত উদ্যোগে বেছিভাগ অনানুষ্ঠানিক শ্ৰমিকক নিয়োগ দিয়ে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-124",
+    "q": {
+      "en": "Which of the following is a cash crop of Assam?",
+      "as": "তলৰ কোনটো অসমৰ নগদ শস্য?"
+    },
+    "options": [
+      {
+        "en": "Jute",
+        "as": "পাট"
+      },
+      {
+        "en": "Rice",
+        "as": "ধান"
+      },
+      {
+        "en": "Wheat",
+        "as": "ঘেঁহু"
+      },
+      {
+        "en": "Maize",
+        "as": "মাকৈ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Jute is grown mainly for sale and is a cash crop in Assam.",
+      "as": "পাট মূলতঃ বিক্ৰীৰ বাবে খেতি কৰা হয় আৰু ই অসমৰ এটা নগদ শস্য।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-125",
+    "q": {
+      "en": "The headquarters of the Tea Board of India is located at:",
+      "as": "ভাৰতীয় চাহ ব'ৰ্ডৰ মুখ্য কাৰ্যালয় ক'ত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Kolkata",
+        "as": "কলকাতা"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Tea Board of India is headquartered in Kolkata.",
+      "as": "ভাৰতীয় চাহ ব'ৰ্ডৰ মুখ্য কাৰ্যালয় কলকাতাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-126",
+    "q": {
+      "en": "Which of the following is a major source of state revenue for Assam?",
+      "as": "অসমৰ ৰাজ্যিক ৰাজহৰ এটা প্ৰধান উৎস তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Diamond exports",
+        "as": "হীৰা ৰপ্তানি"
+      },
+      {
+        "en": "Whaling",
+        "as": "তিমি চিকাৰ"
+      },
+      {
+        "en": "Taxes on petroleum and tea",
+        "as": "পেট্ৰ'লিয়াম আৰু চাহৰ ওপৰত কৰ"
+      },
+      {
+        "en": "Ski tourism",
+        "as": "স্কি পৰ্যটন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Revenue from petroleum products and tea is important for Assam's finances.",
+      "as": "পেট্ৰ'লিয়াম সামগ্ৰী আৰু চাহৰ ৰাজহ অসমৰ বিত্তৰ বাবে গুৰুত্বপূৰ্ণ।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-127",
+    "q": {
+      "en": "Kharif crops in Assam are mainly grown during which season?",
+      "as": "অসমত খাৰিফ শস্য মূলতঃ কোন ঋতুত ৰোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Monsoon season",
+        "as": "মৌচুমী ঋতু"
+      },
+      {
+        "en": "Winter season",
+        "as": "শীত ঋতু"
+      },
+      {
+        "en": "Spring season only",
+        "as": "কেৱল বসন্ত ঋতু"
+      },
+      {
+        "en": "Autumn only",
+        "as": "কেৱল শৰৎ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kharif crops are sown with the monsoon rains in June-July.",
+      "as": "খাৰিফ শস্য জুন-জুলাইত মৌচুমী বৰষুণৰ সৈতে ৰোৱা হয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-128",
+    "q": {
+      "en": "Which of the following is used to measure economic growth of a country?",
+      "as": "এখন দেশৰ অৰ্থনৈতিক বৃদ্ধি মাপিবলৈ তলৰ কোনটো ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Rainfall",
+        "as": "বৰষুণ"
+      },
+      {
+        "en": "Population density",
+        "as": "জনসংখ্যাৰ ঘনত্ব"
+      },
+      {
+        "en": "GDP growth rate",
+        "as": "GDP বৃদ্ধিৰ হাৰ"
+      },
+      {
+        "en": "Literacy only",
+        "as": "কেৱল সাক্ষৰতা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "GDP growth rate is the standard measure of economic growth.",
+      "as": "GDP বৃদ্ধিৰ হাৰ অৰ্থনৈতিক বৃদ্ধিৰ মানক মাপকাঠি।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-129",
+    "q": {
+      "en": "Human Development Index (HDI) is published by:",
+      "as": "মানৱ উন্নয়ন সূচকাংক (HDI) কে প্ৰকাশ কৰে?"
+    },
+    "options": [
+      {
+        "en": "RBI",
+        "as": "আৰ বি আই"
+      },
+      {
+        "en": "WTO",
+        "as": "ডব্লিউ টি অ'"
+      },
+      {
+        "en": "World Bank",
+        "as": "বিশ্ব বেংক"
+      },
+      {
+        "en": "UNDP",
+        "as": "ইউ এন ডি পি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The UNDP publishes the Human Development Index every year.",
+      "as": "ইউ এন ডি পিয়ে প্ৰতি বছৰে মানৱ উন্নয়ন সূচকাংক প্ৰকাশ কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-130",
+    "q": {
+      "en": "Which of the following is a non-farm source of rural income in Assam?",
+      "as": "অসমত গ্ৰাম্য আয়ৰ কৃষি-বহিৰ্ভূত উৎস তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Rice cultivation",
+        "as": "ধান খেতি"
+      },
+      {
+        "en": "Tea plucking",
+        "as": "চাহ ছিঙা"
+      },
+      {
+        "en": "Wheat farming",
+        "as": "ঘেঁহু খেতি"
+      },
+      {
+        "en": "Handloom and handicrafts",
+        "as": "হস্ততাঁত আৰু হস্তশিল্প"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Handloom and handicrafts provide non-farm income in rural Assam.",
+      "as": "হস্ততাঁত আৰু হস্তশিল্পে গ্ৰাম্য অসমত কৃষি-বহিৰ্ভূত আয় প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-131",
+    "q": {
+      "en": "Which is the main tea research institute of India located in Assam?",
+      "as": "অসমত অৱস্থিত ভাৰতৰ প্ৰধান চাহ গৱেষণা প্ৰতিষ্ঠান কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Tocklai Tea Research Institute",
+        "as": "টক্লাই চাহ গৱেষণা প্ৰতিষ্ঠান"
+      },
+      {
+        "en": "IIT Guwahati",
+        "as": "আই আই টি গুৱাহাটী"
+      },
+      {
+        "en": "Assam Agricultural University",
+        "as": "অসম কৃষি বিশ্ববিদ্যালয়"
+      },
+      {
+        "en": "Cotton Research Institute",
+        "as": "কপাহ গৱেষণা প্ৰতিষ্ঠান"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Tocklai Tea Research Institute in Jorhat supports tea research.",
+      "as": "যোৰহাটৰ টক্লাই চাহ গৱেষণা প্ৰতিষ্ঠানে চাহ গৱেষণাত সহায় কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-132",
+    "q": {
+      "en": "Which of the following is a challenge faced by tea garden workers in Assam?",
+      "as": "অসমৰ চাহ বাগিচাৰ শ্ৰমিকসকলে সন্মুখীন হোৱা এটা প্ৰত্যাহ্বান কি?"
+    },
+    "options": [
+      {
+        "en": "Excess snowfall",
+        "as": "অতি বৰফপাত"
+      },
+      {
+        "en": "Lack of tea plants",
+        "as": "চাহ গছৰ অভাৱ"
+      },
+      {
+        "en": "Too many airports",
+        "as": "অতিৰিক্ত বিমানবন্দৰ"
+      },
+      {
+        "en": "Low wages and inadequate facilities",
+        "as": "কম মজুৰি আৰু অপৰ্যাপ্ত সুবিধা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Tea garden workers often face low wages and limited welfare facilities.",
+      "as": "চাহ বাগিচাৰ শ্ৰমিকসকলে প্ৰায়ে কম মজুৰি আৰু সীমিত কল্যাণ সুবিধাৰ সন্মুখীন হয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-133",
+    "q": {
+      "en": "Which of the following is a benefit of tea tourism in Assam?",
+      "as": "অসমত চাহ পৰ্যটনৰ এটা লাভ কি?"
+    },
+    "options": [
+      {
+        "en": "Reduced tea production",
+        "as": "চাহ উৎপাদন হ্ৰাস"
+      },
+      {
+        "en": "Deforestation",
+        "as": "বনাঞ্চল ধ্বংস"
+      },
+      {
+        "en": "Additional income for tea estates and local people",
+        "as": "চাহ বাগিচা আৰু স্থানীয় লোকৰ বাবে অতিৰিক্ত আয়"
+      },
+      {
+        "en": "Increased pollution",
+        "as": "প্ৰদূষণ বৃদ্ধি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Tea tourism generates extra income and promotes local employment.",
+      "as": "চাহ পৰ্যটনে অতিৰিক্ত আয় সৃষ্টি কৰি স্থানীয় নিয়োগ প্ৰসাৰ কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-134",
+    "q": {
+      "en": "Which is the principal festival that boosts Assam's rural economy?",
+      "as": "অসমৰ গ্ৰাম্য অৰ্থনীতি বৃদ্ধি কৰা প্ৰধান উৎসৱ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Onam",
+        "as": "ওনম"
+      },
+      {
+        "en": "Bihu",
+        "as": "বিহু"
+      },
+      {
+        "en": "Pongal",
+        "as": "পোংগল"
+      },
+      {
+        "en": "Baisakhi",
+        "as": "বৈশাখী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bihu, tied to agriculture, boosts rural trade and economic activity in Assam.",
+      "as": "কৃষিৰ সৈতে জড়িত বিহুৱে অসমত গ্ৰাম্য বাণিজ্য আৰু আৰ্থিক কাৰ্যকলাপ বঢ়ায়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-135",
+    "q": {
+      "en": "Which of the following is a major source of foreign exchange for India?",
+      "as": "ভাৰতৰ বাবে বৈদেশিক মুদ্ৰাৰ এটা প্ৰধান উৎস তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Diamond mining",
+        "as": "হীৰা খনন"
+      },
+      {
+        "en": "Information technology and software exports",
+        "as": "তথ্য প্ৰযুক্তি আৰু চফ্টৱেৰ ৰপ্তানি"
+      },
+      {
+        "en": "Whaling",
+        "as": "তিমি চিকাৰ"
+      },
+      {
+        "en": "Ice exports",
+        "as": "বৰফ ৰপ্তানি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "IT and software services are among India's largest foreign exchange earners.",
+      "as": "আইটি আৰু চফ্টৱেৰ সেৱা ভাৰতৰ সৰ্ববৃহৎ বৈদেশিক মুদ্ৰা অৰ্জনকাৰীসমূহৰ এটা।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-136",
+    "q": {
+      "en": "Which of the following is a goal of Atmanirbhar Bharat?",
+      "as": "আত্মনিৰ্ভৰ ভাৰতৰ এটা লক্ষ্য কি?"
+    },
+    "options": [
+      {
+        "en": "Increased imports",
+        "as": "আমদানি বৃদ্ধি"
+      },
+      {
+        "en": "Self-reliance and local manufacturing",
+        "as": "আত্মনিৰ্ভৰশীলতা আৰু স্থানীয় উৎপাদন"
+      },
+      {
+        "en": "Closing industries",
+        "as": "উদ্যোগ বন্ধ কৰা"
+      },
+      {
+        "en": "Reducing exports",
+        "as": "ৰপ্তানি হ্ৰাস"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Atmanirbhar Bharat promotes self-reliance and domestic manufacturing.",
+      "as": "আত্মনিৰ্ভৰ ভাৰতে আত্মনিৰ্ভৰশীলতা আৰু ঘৰুৱা উৎপাদন প্ৰসাৰ কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-137",
+    "q": {
+      "en": "Which of the following is a reason for low industrial development in Assam?",
+      "as": "অসমত কম ঔদ্যোগিক উন্নয়নৰ এটা কাৰণ কি?"
+    },
+    "options": [
+      {
+        "en": "Difficult terrain and limited connectivity",
+        "as": "কঠিন ভূখণ্ড আৰু সীমিত সংযোগ"
+      },
+      {
+        "en": "Excess deserts",
+        "as": "অতিৰিক্ত মৰুভূমি"
+      },
+      {
+        "en": "Lack of water",
+        "as": "পানীৰ অভাৱ"
+      },
+      {
+        "en": "No population",
+        "as": "জনসংখ্যা নাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Difficult terrain and poor connectivity have slowed Assam's industrial growth.",
+      "as": "কঠিন ভূখণ্ড আৰু দুৰ্বল সংযোগে অসমৰ ঔদ্যোগিক বৃদ্ধি লেহেমীয়া কৰিছে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-138",
+    "q": {
+      "en": "Which is a plantation crop of Assam?",
+      "as": "অসমৰ এটা বাগিচা শস্য কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Wheat",
+        "as": "ঘেঁহু"
+      },
+      {
+        "en": "Barley",
+        "as": "যৱ"
+      },
+      {
+        "en": "Tea",
+        "as": "চাহ"
+      },
+      {
+        "en": "Millet",
+        "as": "বাজৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Tea is the main plantation crop of Assam, grown on large estates.",
+      "as": "চাহ অসমৰ প্ৰধান বাগিচা শস্য, যি বৃহৎ বাগিচাত খেতি কৰা হয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-139",
+    "q": {
+      "en": "Which of the following is a source of livelihood in Assam's wetlands (beels)?",
+      "as": "অসমৰ জলাশয় (বিল) ত জীৱিকাৰ এটা উৎস তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Fishing",
+        "as": "মাছ ধৰা"
+      },
+      {
+        "en": "Diamond mining",
+        "as": "হীৰা খনন"
+      },
+      {
+        "en": "Skiing",
+        "as": "স্কিইং"
+      },
+      {
+        "en": "Whaling",
+        "as": "তিমি চিকাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Fishing in beels and wetlands supports many rural families in Assam.",
+      "as": "বিল আৰু জলাশয়ত মাছ ধৰাই অসমৰ বহু গ্ৰাম্য পৰিয়ালক সহায় কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-140",
+    "q": {
+      "en": "Which of the following is a benefit of the Look East/Act East Policy for the North-East?",
+      "as": "উত্তৰ-পূবৰ বাবে লুক ইষ্ট/এক্ট ইষ্ট নীতৰ এটা লাভ কি?"
+    },
+    "options": [
+      {
+        "en": "Improved trade and connectivity with neighbouring countries",
+        "as": "চুবুৰীয়া দেশৰ সৈতে উন্নত বাণিজ্য আৰু সংযোগ"
+      },
+      {
+        "en": "Reduced tourism",
+        "as": "পৰ্যটন হ্ৰাস"
+      },
+      {
+        "en": "Closure of borders",
+        "as": "সীমান্ত বন্ধ"
+      },
+      {
+        "en": "Decreased exports",
+        "as": "ৰপ্তানি হ্ৰাস"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Act East Policy aims to improve trade and connectivity, benefiting the North-East.",
+      "as": "এক্ট ইষ্ট নীতৰ লক্ষ্য বাণিজ্য আৰু সংযোগ উন্নত কৰা, যাৰ পৰা উত্তৰ-পূব লাভৱান হয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-141",
+    "q": {
+      "en": "Which of the following is an example of a food crop?",
+      "as": "তলৰ কোনটো খাদ্য শস্যৰ উদাহৰণ?"
+    },
+    "options": [
+      {
+        "en": "Tea",
+        "as": "চাহ"
+      },
+      {
+        "en": "Jute",
+        "as": "পাট"
+      },
+      {
+        "en": "Cotton",
+        "as": "কপাহ"
+      },
+      {
+        "en": "Rice",
+        "as": "ধান"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rice is a food crop, while tea, jute and cotton are cash crops.",
+      "as": "ধান এটা খাদ্য শস্য, আনহাতে চাহ, পাট আৰু কপাহ নগদ শস্য।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-142",
+    "q": {
+      "en": "Which of the following is an example of a fibre crop?",
+      "as": "তলৰ কোনটো আঁহ শস্যৰ উদাহৰণ?"
+    },
+    "options": [
+      {
+        "en": "Rice",
+        "as": "ধান"
+      },
+      {
+        "en": "Cotton",
+        "as": "কপাহ"
+      },
+      {
+        "en": "Wheat",
+        "as": "ঘেঁহু"
+      },
+      {
+        "en": "Maize",
+        "as": "মাকৈ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Cotton is a fibre crop used in the textile industry.",
+      "as": "কপাহ এটা আঁহ শস্য যি বস্ত্ৰ উদ্যোগত ব্যৱহৃত হয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-143",
+    "q": {
+      "en": "Which of the following institutions provides rural credit in India?",
+      "as": "ভাৰতত গ্ৰাম্য ঋণ যোগান ধৰা প্ৰতিষ্ঠান তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "SEBI",
+        "as": "ছেবি"
+      },
+      {
+        "en": "WTO",
+        "as": "ডব্লিউ টি অ'"
+      },
+      {
+        "en": "UNESCO",
+        "as": "ইউনেস্ক'"
+      },
+      {
+        "en": "NABARD and cooperative banks",
+        "as": "নাবাৰ্ড আৰু সমবায় বেংক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "NABARD and cooperative banks provide credit to farmers and rural households.",
+      "as": "নাবাৰ্ড আৰু সমবায় বেংকে কৃষক আৰু গ্ৰাম্য পৰিয়ালক ঋণ প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-144",
+    "q": {
+      "en": "Which of the following is a type of unemployment?",
+      "as": "তলৰ কোনটো এটা বেকাৰতাবৃত্তিৰ প্ৰকাৰ?"
+    },
+    "options": [
+      {
+        "en": "Seasonal unemployment",
+        "as": "ঋতুভিত্তিক বেকাৰতাবৃত্তি"
+      },
+      {
+        "en": "Inflation",
+        "as": "মুদ্ৰাস্ফীতি"
+      },
+      {
+        "en": "Deflation",
+        "as": "মুদ্ৰাসংকোচন"
+      },
+      {
+        "en": "Taxation",
+        "as": "কৰ আৰোপ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Seasonal unemployment occurs when work is available only in certain seasons.",
+      "as": "ঋতুভিত্তিক বেকাৰতাবৃত্তি তেতিয়া হয় যেতিয়া কাম কেৱল কিছুমান ঋতুত উপলব্ধ হয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-145",
+    "q": {
+      "en": "Which of the following is a reason for seasonal unemployment in Assam's agriculture?",
+      "as": "অসমৰ কৃষিত ঋতুভিত্তিক বেকাৰতাবৃত্তিৰ এটা কাৰণ কি?"
+    },
+    "options": [
+      {
+        "en": "Farming depends on monsoons and seasons",
+        "as": "খেতি মৌচুমী আৰু ঋতুৰ ওপৰত নিৰ্ভৰশীল"
+      },
+      {
+        "en": "Too many factories",
+        "as": "অতিৰিক্ত কাৰখানা"
+      },
+      {
+        "en": "Excess rainfall only",
+        "as": "কেৱল অতিৰিক্ত বৰষুণ"
+      },
+      {
+        "en": "High literacy",
+        "as": "উচ্চ সাক্ষৰতা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Because farming is seasonal, employment also varies with the agricultural season.",
+      "as": "খেতি ঋতুভিত্তিক হোৱাৰ বাবে নিয়োগো কৃষি ঋতুৰ সৈতে সলনি হয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-146",
+    "q": {
+      "en": "Which of the following is a measure to reduce unemployment?",
+      "as": "বেকাৰতাবৃত্তি কমোৱাৰ এটা উপায় তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Closing schools",
+        "as": "বিদ্যালয় বন্ধ কৰা"
+      },
+      {
+        "en": "Reducing investment",
+        "as": "বিনিয়োগ হ্ৰাস"
+      },
+      {
+        "en": "Promoting skill development and industries",
+        "as": "দক্ষতা উন্নয়ন আৰু উদ্যোগ প্ৰসাৰ"
+      },
+      {
+        "en": "Banning technology",
+        "as": "প্ৰযুক্তি নিষিদ্ধ কৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Skill development and industrial growth create employment opportunities.",
+      "as": "দক্ষতা উন্নয়ন আৰু ঔদ্যোগিক বৃদ্ধিয়ে নিয়োগৰ সুযোগ সৃষ্টি কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-147",
+    "q": {
+      "en": "Which of the following is an indicator of economic development?",
+      "as": "অৰ্থনৈতিক উন্নয়নৰ এটা সূচক তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Per capita income and literacy rate",
+        "as": "মুৰি আয় আৰু সাক্ষৰতাৰ হাৰ"
+      },
+      {
+        "en": "Number of deserts",
+        "as": "মৰুভূমিৰ সংখ্যা"
+      },
+      {
+        "en": "Rainfall only",
+        "as": "কেৱল বৰষুণ"
+      },
+      {
+        "en": "Number of mountains",
+        "as": "পৰ্বতৰ সংখ্যা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Per capita income, literacy and health are key indicators of development.",
+      "as": "মুৰি আয়, সাক্ষৰতা আৰু স্বাস্থ্য উন্নয়নৰ প্ৰধান সূচক।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-148",
+    "q": {
+      "en": "Which of the following contributes to Assam's GSDP through the service sector?",
+      "as": "সেৱা খণ্ডৰ জৰিয়তে অসমৰ GSDP ত অৱদান যোগোৱা তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Diamond mining",
+        "as": "হীৰা খনন"
+      },
+      {
+        "en": "Whaling",
+        "as": "তিমি চিকাৰ"
+      },
+      {
+        "en": "Tourism, transport and banking",
+        "as": "পৰ্যটন, পৰিবহণ আৰু বেংকিং"
+      },
+      {
+        "en": "Ice farming",
+        "as": "বৰফ খেতি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Tourism, transport, banking and IT are service-sector contributors to GSDP.",
+      "as": "পৰ্যটন, পৰিবহণ, বেংকিং আৰু আইটিয়ে GSDP ত অৱদান যোগোৱা সেৱা খণ্ড।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-149",
+    "q": {
+      "en": "Which of the following is an example of infrastructure important for the economy?",
+      "as": "অৰ্থনীতিৰ বাবে গুৰুত্বপূৰ্ণ আন্তঃগাঁথনিৰ এটা উদাহৰণ তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Diamond mines",
+        "as": "হীৰা খনি"
+      },
+      {
+        "en": "Roads, bridges and power supply",
+        "as": "পথ, দলং আৰু বিদ্যুৎ যোগান"
+      },
+      {
+        "en": "Fashion shows",
+        "as": "ফেশ্বন শ্ব'"
+      },
+      {
+        "en": "Video games",
+        "as": "ভিডিঅ' গেম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Roads, bridges, power and communication are essential economic infrastructure.",
+      "as": "পথ, দলং, বিদ্যুৎ আৰু যোগাযোগ অত্যাৱশ্যকীয় আৰ্থিক আন্তঃগাঁথনি।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-150",
+    "q": {
+      "en": "Which of the following is a reason for the importance of the Brahmaputra in Assam's trade?",
+      "as": "অসমৰ বাণিজ্যত ব্ৰহ্মপুত্ৰৰ গুৰুত্বৰ এটা কাৰণ কি?"
+    },
+    "options": [
+      {
+        "en": "It produces diamonds",
+        "as": "ই হীৰা উৎপন্ন কৰে"
+      },
+      {
+        "en": "It blocks all transport",
+        "as": "ই সকলো পৰিবহণ বাধা দিয়ে"
+      },
+      {
+        "en": "It has no trade value",
+        "as": "ইয়াৰ কোনো বাণিজ্যিক মূল্য নাই"
+      },
+      {
+        "en": "It provides a waterway for transport of goods",
+        "as": "ই সামগ্ৰী পৰিবহণৰ বাবে জলপথ প্ৰদান কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Brahmaputra provides inland water transport, supporting trade and movement.",
+      "as": "ব্ৰহ্মপুত্ৰই অন্তৰ্দেশীয় জলপথ প্ৰদান কৰি বাণিজ্য আৰু চলাচলত সহায় কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-151",
+    "q": {
+      "en": "Which of the following is a public sector undertaking (PSU) related to Assam's oil sector?",
+      "as": "অসমৰ তেল খণ্ডৰ সৈতে জড়িত এটা ৰাজহুৱা খণ্ডৰ উদ্যোগ (PSU) তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "SEBI",
+        "as": "ছেবি"
+      },
+      {
+        "en": "ONGC",
+        "as": "অ' এন জি চি"
+      },
+      {
+        "en": "NABARD",
+        "as": "নাবাৰ্ড"
+      },
+      {
+        "en": "UIDAI",
+        "as": "ইউআইডিএআই"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "ONGC is a major PSU involved in oil and gas production, including in Assam.",
+      "as": "ONGC এটা প্ৰধান ৰাজহুৱা খণ্ডৰ উদ্যোগ যি অসমকে ধৰি তেল আৰু গেছ উৎপাদনত জড়িত।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-152",
+    "q": {
+      "en": "Which of the following is the main reason for the importance of agriculture in Assam's economy?",
+      "as": "অসমৰ অৰ্থনীতিত কৃষিৰ গুৰুত্বৰ প্ৰধান কাৰণ কি?"
+    },
+    "options": [
+      {
+        "en": "It produces diamonds",
+        "as": "ই হীৰা উৎপন্ন কৰে"
+      },
+      {
+        "en": "It requires no water",
+        "as": "ইয়াৰ পানী নালাগে"
+      },
+      {
+        "en": "It employs a large part of the population",
+        "as": "ই জনসংখ্যাৰ বৃহৎ অংশক নিয়োগ দিয়ে"
+      },
+      {
+        "en": "It employs nobody",
+        "as": "ই কাকো নিয়োগ নিদিয়ে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Agriculture employs a large share of Assam's population and drives rural income.",
+      "as": "কৃষিয়ে অসমৰ জনসংখ্যাৰ বৃহৎ অংশক নিয়োগ দি গ্ৰাম্য আয়ৰ চালক।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-153",
+    "q": {
+      "en": "Which of the following is a measure of inflation?",
+      "as": "মুদ্ৰাস্ফীতিৰ এটা মাপকাঠি তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Human Development Index",
+        "as": "মানৱ উন্নয়ন সূচকাংক"
+      },
+      {
+        "en": "Consumer Price Index",
+        "as": "গ্ৰাহক মূল্য সূচকাংক"
+      },
+      {
+        "en": "Gross Domestic Product",
+        "as": "মুঠ ঘৰুৱা উৎপাদন"
+      },
+      {
+        "en": "Balance of Payments",
+        "as": "পৰিশোধ балан্স"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Consumer Price Index is commonly used to measure inflation.",
+      "as": "গ্ৰাহক মূল্য সূচকাংক সাধাৰণতে মুদ্ৰাস্ফীতি মাপিবলৈ ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-154",
+    "q": {
+      "en": "Which of the following is a way to promote inclusive growth in Assam?",
+      "as": "অসমত অন্তৰ্ভুক্তিমূলক বৃদ্ধি প্ৰসাৰৰ এটা উপায় তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Ignoring rural areas",
+        "as": "গ্ৰাম্য অঞ্চলক অৱহেলা কৰা"
+      },
+      {
+        "en": "Reducing health facilities",
+        "as": "স্বাস্থ্য সুবিধা হ্ৰাস"
+      },
+      {
+        "en": "Closing schools",
+        "as": "বিদ্যালয় বন্ধ কৰা"
+      },
+      {
+        "en": "Providing education, health and employment to all sections",
+        "as": "সকলো শ্ৰেণীক শিক্ষা, স্বাস্থ্য আৰু নিয়োগ প্ৰদান"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Inclusive growth ensures all sections benefit from education, health and jobs.",
+      "as": "অন্তৰ্ভুক্তিমূলক বৃদ্ধিয়ে সকলো শ্ৰেণীয়ে শিক্ষা, স্বাস্থ্য আৰু কৰ্মৰ লাভ পোৱা নিশ্চিত কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-155",
+    "q": {
+      "en": "Which of the following is the largest source of tax revenue for the Government of India?",
+      "as": "ভাৰত চৰকাৰৰ বাবে কৰ ৰাজহৰ সৰ্ববৃহৎ উৎস তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "GST",
+        "as": "জিএছটি"
+      },
+      {
+        "en": "Income tax",
+        "as": "আয় কৰ"
+      },
+      {
+        "en": "Customs duty",
+        "as": "ৰাজহুৱা শুল্ক"
+      },
+      {
+        "en": "Wealth tax",
+        "as": "সম্পত্তি কৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "GST is now a major source of indirect tax revenue for the Union and states.",
+      "as": "জিএছটি এতিয়া কেন্দ্ৰ আৰু ৰাজ্যসমূহৰ বাবে পৰোক্ষ কৰ ৰাজহৰ এটা প্ৰধান উৎস।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-156",
+    "q": {
+      "en": "Which of the following best defines inflation targeting?",
+      "as": "মুদ্ৰাস্ফীতি লক্ষ্য নিৰ্ধাৰণ সৰ্বোত্তমভাৱে কি বৰ্ণনা কৰে?"
+    },
+    "options": [
+      {
+        "en": "Increasing inflation every year",
+        "as": "প্ৰতি বছৰে মুদ্ৰাস্ফীতি বৃদ্ধি"
+      },
+      {
+        "en": "Ignoring inflation",
+        "as": "মুদ্ৰাস্ফীতি অৱহেলা"
+      },
+      {
+        "en": "Keeping inflation within a specified range",
+        "as": "মুদ্ৰাস্ফীতি নিৰ্দিষ্ট সীমাৰ ভিতৰত ৰখা"
+      },
+      {
+        "en": "Fixing prices of all goods",
+        "as": "সকলো সামগ্ৰীৰ মূল্য নিৰ্ধাৰণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Inflation targeting aims to keep inflation within a pre-set range, usually around 4% in India.",
+      "as": "মুদ্ৰাস্ফীতি লক্ষ্য নিৰ্ধাৰণে মুদ্ৰাস্ফীতি আগতেই নিৰ্ধাৰিত সীমাৰ ভিতৰত ৰখাৰ লক্ষ্য ৰাখে, ভাৰতত সাধাৰণতে ৪% ৰ আশে-পাশে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-157",
+    "q": {
+      "en": "Which of the following is a way through which banks create credit?",
+      "as": "বেংকে ঋণ সৃষ্টি কৰা এটা উপায় তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "By printing currency",
+        "as": "মুদ্ৰা ছপা কৰি"
+      },
+      {
+        "en": "By collecting taxes",
+        "as": "কৰ সংগ্ৰহ কৰি"
+      },
+      {
+        "en": "By lending out a part of their deposits",
+        "as": "তাৰ জমাৰ এটা অংশ ঋণ দি"
+      },
+      {
+        "en": "By exporting goods",
+        "as": "সামগ্ৰী ৰপ্তানি কৰি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Banks create credit by lending a portion of the deposits they receive.",
+      "as": "বেংকে লাভ কৰা জমাৰ এটা অংশ ঋণ দি ঋণ সৃষ্টি কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-158",
+    "q": {
+      "en": "Which of the following is a characteristic of the Indian economy?",
+      "as": "ভাৰতীয় অৰ্থনীতিৰ এটা বৈশিষ্ট্য তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Pure capitalist economy",
+        "as": "শুদ্ধ পুঁজিবাদী অৰ্থনীতি"
+      },
+      {
+        "en": "Mixed economy",
+        "as": "মিশ্ৰিত অৰ্থনীতি"
+      },
+      {
+        "en": "Pure socialist economy",
+        "as": "শুদ্ধ সমাজবাদী অৰ্থনীতি"
+      },
+      {
+        "en": "Barter economy",
+        "as": "বিনিময় অৰ্থনীতি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "India follows a mixed economy with both public and private sectors.",
+      "as": "ভাৰতে ৰাজহুৱা আৰু ব্যক্তিগত খণ্ড দুয়ো থকা মিশ্ৰিত অৰ্থনীতি অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-159",
+    "q": {
+      "en": "Which of the following is a major export destination for Indian tea?",
+      "as": "ভাৰতীয় চাহৰ এটা প্ৰধান ৰপ্তানি গন্তব্যস্থান তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Brazil",
+        "as": "ব্ৰাজিল"
+      },
+      {
+        "en": "Argentina",
+        "as": "আৰ্জেণ্টিনা"
+      },
+      {
+        "en": "Russia",
+        "as": "ৰাছিয়া"
+      },
+      {
+        "en": "Mexico",
+        "as": "মেক্সিক'"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Russia is one of the largest importers of Indian tea, including Assam tea.",
+      "as": "ৰাছিয়া অসমৰ চাহকে ধৰি ভাৰতীয় চাহৰ অন্যতম বৃহৎ আমদানিকাৰী।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-160",
+    "q": {
+      "en": "Which of the following is the significance of the tea auction centre for Assam?",
+      "as": "অসমৰ বাবে চাহ নিলাম কেন্দ্ৰৰ তাৎপর্য কি?"
+    },
+    "options": [
+      {
+        "en": "It reduces tea production",
+        "as": "ই চাহ উৎপাদন হ্ৰাস কৰে"
+      },
+      {
+        "en": "It provides a market and price discovery for tea",
+        "as": "ই চাহৰ বাবে বজাৰ আৰু মূল্য নিৰ্ণয় প্ৰদান কৰে"
+      },
+      {
+        "en": "It increases imports",
+        "as": "ই আমদানি বৃদ্ধি কৰে"
+      },
+      {
+        "en": "It has no economic role",
+        "as": "ইয়াৰ কোনো অৰ্থনৈতিক ভূমিকা নাই"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Tea auctions provide a fair market and price discovery for tea producers.",
+      "as": "চাহ নিলামে চাহ উৎপাদকসকলৰ বাবে ন্যায্য বজাৰ আৰু মূল্য নিৰ্ণয় প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-161",
+    "q": {
+      "en": "Which of the following is a reason for the growth of the service sector in India?",
+      "as": "ভাৰতত সেৱা খণ্ডৰ বৃদ্ধিৰ এটা কাৰণ কি?"
+    },
+    "options": [
+      {
+        "en": "Reduction in trade",
+        "as": "বাণিজ্য হ্ৰাস"
+      },
+      {
+        "en": "Decrease in education",
+        "as": "শিক্ষা হ্ৰাস"
+      },
+      {
+        "en": "Closing of banks",
+        "as": "বেংক বন্ধ"
+      },
+      {
+        "en": "Growth of IT, communications and financial services",
+        "as": "আইটি, যোগাযোগ আৰু বিত্তীয় সেৱাৰ বৃদ্ধি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "IT, telecom and financial services have driven India's service sector growth.",
+      "as": "আইটি, টেলিকম আৰু বিত্তীয় সেৱাই ভাৰতৰ সেৱা খণ্ডৰ বৃদ্ধি চলাইছে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-162",
+    "q": {
+      "en": "Which of the following is a source of employment in Assam's tourism sector?",
+      "as": "অসমৰ পৰ্যটন খণ্ডত নিয়োগৰ এটা উৎস তলৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Diamond mining",
+        "as": "হীৰা খনন"
+      },
+      {
+        "en": "Whaling",
+        "as": "তিমি চিকাৰ"
+      },
+      {
+        "en": "Hotels, guides and transport services",
+        "as": "হোটেল, গাইড আৰু পৰিবহণ সেৱা"
+      },
+      {
+        "en": "Ice harvesting",
+        "as": "বৰফ চপোৱা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Tourism creates jobs in hotels, transport, guiding and local handicrafts.",
+      "as": "পৰ্যটনে হোটেল, পৰিবহণ, গাইড আৰু স্থানীয় হস্তশিল্পত কৰ্মসংস্থান সৃষ্টি কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-163",
+    "q": {
+      "en": "Which of the following is a challenge for inclusive growth in Assam?",
+      "as": "অসমত অন্তৰ্ভুক্তিমূলক বৃদ্ধিৰ এটা প্ৰত্যাহ্বান কি?"
+    },
+    "options": [
+      {
+        "en": "Excess snowfall",
+        "as": "অতি বৰফপাত"
+      },
+      {
+        "en": "Too many deserts",
+        "as": "অতিৰিক্ত মৰুভূমি"
+      },
+      {
+        "en": "No rivers",
+        "as": "নদী নাই"
+      },
+      {
+        "en": "Regional disparities and flood damage",
+        "as": "আঞ্চলিক বৈষম্য আৰু বানপানীৰ ক্ষতি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Regional disparities and recurring floods hamper inclusive growth in Assam.",
+      "as": "আঞ্চলিক বৈষম্য আৰু বাৰে বাৰে হোৱা বানপানীয়ে অসমত অন্তৰ্ভুক্তিমূলক বৃদ্ধিত বাধা দিয়ে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-164",
+    "q": {
+      "en": "Which of the following is an effect of good infrastructure on the economy?",
+      "as": "অৰ্থনীতিত উন্নত আন্তঃগাঁথনিৰ এটা প্ৰভাৱ কি?"
+    },
+    "options": [
+      {
+        "en": "Lower production",
+        "as": "কম উৎপাদন"
+      },
+      {
+        "en": "Higher unemployment",
+        "as": "বেছি বেকাৰতাবৃত্তি"
+      },
+      {
+        "en": "Higher investment and faster growth",
+        "as": "বেছি বিনিয়োগ আৰু দ্ৰুত বৃদ্ধি"
+      },
+      {
+        "en": "Reduced trade",
+        "as": "বাণিজ্য হ্ৰাস"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Better infrastructure attracts investment and speeds up economic growth.",
+      "as": "উন্নত আন্তঃগাঁথনিয়ে বিনিয়োগ আকৰ্ষণ কৰি অৰ্থনৈতিক বৃদ্ধি গতিশীল কৰে।"
+    }
+  },
+  {
+    "id": "indian-assam-economy-165",
+    "q": {
+      "en": "Which of the following best summarises the economy of Assam?",
+      "as": "তলৰ কোনটোৱে অসমৰ অৰ্থনীতি সৰ্বোত্তমভাৱে সাৰাংশ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Based only on diamond mining",
+        "as": "কেৱল হীৰা খননৰ ওপৰত আধাৰিত"
+      },
+      {
+        "en": "Based only on software exports",
+        "as": "কেৱল চফ্টৱেৰ ৰপ্তানিৰ ওপৰত আধাৰিত"
+      },
+      {
+        "en": "Agriculture and tea-based with growing services and tourism",
+        "as": "কৃষি আৰু চাহ-ভিত্তিক, বাঢ়ি থকা সেৱা আৰু পৰ্যটনৰ সৈতে"
+      },
+      {
+        "en": "Based only on whaling",
+        "as": "কেৱল তিমি চিকাৰৰ ওপৰত আধাৰিত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assam's economy rests mainly on agriculture and tea, with a growing service sector.",
+      "as": "অসমৰ অৰ্থনীতি মূলতঃ কৃষি আৰু চাহৰ ওপৰত নিৰ্ভৰশীল, লগতে বাঢ়ি থকা সেৱা খণ্ড।"
+    }
   }
-}
+]
