@@ -1,0 +1,30 @@
+{
+  "id": "ranking-order-001",
+  "q": {
+    "en": "In a row of 40 students, A is 15th from the left end. What is his position from the right end?",
+    "as": "40 জন ছাত্ৰৰ এটা শাৰীত A বাওঁ দিশৰ পৰা 15 তম। সোঁ দিশৰ পৰা তেওঁৰ স্থান কিমান?"
+  },
+  "options": [
+    {
+      "en": "25th",
+      "as": "২৫ তম"
+    },
+    {
+      "en": "26th",
+      "as": "২৬ তম"
+    },
+    {
+      "en": "24th",
+      "as": "২৪ তম"
+    },
+    {
+      "en": "27th",
+      "as": "২৭ তম"
+    }
+  ],
+  "correct": 1,
+  "explanation": {
+    "en": "Position from right = Total − Position from left + 1 = 40 − 15 + 1 = 26.",
+    "as": "সোঁ দিশৰ পৰা স্থান = মুঠ − বাওঁ দিশৰ পৰা স্থান + 1 = 40 − 15 + 1 = 26।"
+  }
+}
