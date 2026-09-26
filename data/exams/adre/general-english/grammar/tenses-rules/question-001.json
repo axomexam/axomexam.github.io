@@ -1,30 +1,3302 @@
-{
-  "id": "tenses-rules-001",
-  "q": {
-    "en": "Choose the correct option: She ___ to school every day.",
-    "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ to school every day."
-  },
-  "options": [
-    {
-      "en": "go",
-      "as": "go"
+[
+  {
+    "id": "tenses-rules-001",
+    "q": {
+      "en": "Choose the correct option: She ___ to school every day.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ to school every day."
     },
-    {
-      "en": "goes",
-      "as": "goes"
-    },
-    {
-      "en": "going",
-      "as": "going"
-    },
-    {
-      "en": "gone",
-      "as": "gone"
+    "options": [
+      {
+        "en": "go",
+        "as": "go"
+      },
+      {
+        "en": "goes",
+        "as": "goes"
+      },
+      {
+        "en": "going",
+        "as": "going"
+      },
+      {
+        "en": "gone",
+        "as": "gone"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In the simple present tense a third-person singular subject (She) takes the verb form 'goes'.",
+      "as": "Simple present tense ত তৃতীয় পুৰুষ একবচন কৰ্তা (She) ৰ সৈতে 'goes' ৰূপ ব্যৱহাৰ হয়।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "In the simple present tense a third-person singular subject (She) takes the verb form 'goes'.",
-    "as": "Simple present tense ত তৃতীয় পুৰুষ একবচন কৰ্তা (She) ৰ সৈতে 'goes' ৰূপ ব্যৱহাৰ হয়।"
+  },
+  {
+    "id": "tenses-rules-002",
+    "q": {
+      "en": "Choose the correct option: The sun ___ in the east.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The sun ___ in the east."
+    },
+    "options": [
+      {
+        "en": "rise",
+        "as": "rise"
+      },
+      {
+        "en": "rising",
+        "as": "rising"
+      },
+      {
+        "en": "rose",
+        "as": "rose"
+      },
+      {
+        "en": "rises",
+        "as": "rises"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A universal truth is expressed in the simple present; 'sun' is third-person singular, so 'rises' is used.",
+      "as": "সাৰ্বজনীন সত্য simple present ত প্ৰকাশ কৰা হয়; 'sun' তৃতীয় পুৰুষ একবচন, গতিকে 'rises' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-003",
+    "q": {
+      "en": "Choose the correct option: He ___ tea every morning.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: He ___ tea every morning."
+    },
+    "options": [
+      {
+        "en": "drinks",
+        "as": "drinks"
+      },
+      {
+        "en": "drink",
+        "as": "drink"
+      },
+      {
+        "en": "drank",
+        "as": "drank"
+      },
+      {
+        "en": "drinking",
+        "as": "drinking"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Habitual action in the simple present with 'He' takes 'drinks'.",
+      "as": "'He' ৰ সৈতে simple present ত অভ্যাসমূলক কামৰ বাবে 'drinks' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-004",
+    "q": {
+      "en": "Choose the correct option: Water ___ at 100 degrees Celsius.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Water ___ at 100 degrees Celsius."
+    },
+    "options": [
+      {
+        "en": "boil",
+        "as": "boil"
+      },
+      {
+        "en": "boiled",
+        "as": "boiled"
+      },
+      {
+        "en": "boiling",
+        "as": "boiling"
+      },
+      {
+        "en": "boils",
+        "as": "boils"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A general scientific fact is in the simple present; 'water' is singular, so 'boils' is used.",
+      "as": "সাধাৰণ বৈজ্ঞানিক সত্য simple present ত হয়; 'water' একবচন, গতিকে 'boils' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-005",
+    "q": {
+      "en": "Choose the correct option: They ___ cricket on Sundays.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: They ___ cricket on Sundays."
+    },
+    "options": [
+      {
+        "en": "plays",
+        "as": "plays"
+      },
+      {
+        "en": "play",
+        "as": "play"
+      },
+      {
+        "en": "played",
+        "as": "played"
+      },
+      {
+        "en": "playing",
+        "as": "playing"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "With a plural subject 'They', the simple present uses the base form 'play'.",
+      "as": "বহুবচন কৰ্তা 'They' ৰ সৈতে simple present ত মূল ৰূপ 'play' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-006",
+    "q": {
+      "en": "Choose the correct option: My father ___ in a bank.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: My father ___ in a bank."
+    },
+    "options": [
+      {
+        "en": "work",
+        "as": "work"
+      },
+      {
+        "en": "worked",
+        "as": "worked"
+      },
+      {
+        "en": "works",
+        "as": "works"
+      },
+      {
+        "en": "working",
+        "as": "working"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'My father' is third-person singular, so 'works' is used.",
+      "as": "'My father' তৃতীয় পুৰুষ একবচন, গতিকে 'works' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-007",
+    "q": {
+      "en": "Choose the correct option: I ___ my homework every day.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: I ___ my homework every day."
+    },
+    "options": [
+      {
+        "en": "does",
+        "as": "does"
+      },
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "doing",
+        "as": "doing"
+      },
+      {
+        "en": "do",
+        "as": "do"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "With 'I', the simple present uses the base form 'do'.",
+      "as": "'I' ৰ সৈতে simple present ত মূল ৰূপ 'do' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-008",
+    "q": {
+      "en": "Choose the correct option: She ___ not like coffee.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ not like coffee."
+    },
+    "options": [
+      {
+        "en": "do",
+        "as": "do"
+      },
+      {
+        "en": "does",
+        "as": "does"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The negative of simple present for third-person singular uses 'does not'.",
+      "as": "তৃতীয় পুৰুষ একবচনৰ simple present ৰ নঞৰ্থক ৰূপত 'does not' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-009",
+    "q": {
+      "en": "Choose the correct option: ___ you speak English?",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: ___ you speak English?"
+    },
+    "options": [
+      {
+        "en": "Does",
+        "as": "Does"
+      },
+      {
+        "en": "Is",
+        "as": "Is"
+      },
+      {
+        "en": "Do",
+        "as": "Do"
+      },
+      {
+        "en": "Are",
+        "as": "Are"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Questions in the simple present with 'you' begin with 'Do'.",
+      "as": "'You' ৰ সৈতে simple present ৰ প্ৰশ্ন 'Do' ৰে আৰম্ভ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-010",
+    "q": {
+      "en": "Choose the correct option: The train ___ at 6 a.m. every day.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The train ___ at 6 a.m. every day."
+    },
+    "options": [
+      {
+        "en": "leaves",
+        "as": "leaves"
+      },
+      {
+        "en": "leave",
+        "as": "leave"
+      },
+      {
+        "en": "left",
+        "as": "left"
+      },
+      {
+        "en": "leaving",
+        "as": "leaving"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A fixed timetable is expressed in the simple present; singular 'train' takes 'leaves'.",
+      "as": "নিৰ্ধাৰিত সময়সূচী simple present ত প্ৰকাশ হয়; একবচন 'train' ৰ সৈতে 'leaves' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-011",
+    "q": {
+      "en": "Choose the correct option: He ___ his teeth twice a day.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: He ___ his teeth twice a day."
+    },
+    "options": [
+      {
+        "en": "brush",
+        "as": "brush"
+      },
+      {
+        "en": "brushed",
+        "as": "brushed"
+      },
+      {
+        "en": "brushes",
+        "as": "brushes"
+      },
+      {
+        "en": "brushing",
+        "as": "brushing"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Habitual action with 'He' in the simple present takes 'brushes'.",
+      "as": "'He' ৰ সৈতে simple present ত অভ্যাসমূলক কামৰ বাবে 'brushes' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-012",
+    "q": {
+      "en": "Choose the correct option: Birds ___ in the sky.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Birds ___ in the sky."
+    },
+    "options": [
+      {
+        "en": "fly",
+        "as": "fly"
+      },
+      {
+        "en": "flies",
+        "as": "flies"
+      },
+      {
+        "en": "flew",
+        "as": "flew"
+      },
+      {
+        "en": "flying",
+        "as": "flying"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Birds' is plural, so the simple present uses 'fly'.",
+      "as": "'Birds' বহুবচন, গতিকে simple present ত 'fly' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-013",
+    "q": {
+      "en": "Choose the correct option: Ram ___ to the temple every day.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Ram ___ to the temple every day."
+    },
+    "options": [
+      {
+        "en": "go",
+        "as": "go"
+      },
+      {
+        "en": "went",
+        "as": "went"
+      },
+      {
+        "en": "going",
+        "as": "going"
+      },
+      {
+        "en": "goes",
+        "as": "goes"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Ram' is third-person singular, so 'goes' is used.",
+      "as": "'Ram' তৃতীয় পুৰুষ একবচন, গতিকে 'goes' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-014",
+    "q": {
+      "en": "Choose the correct option: We ___ our lessons regularly.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: We ___ our lessons regularly."
+    },
+    "options": [
+      {
+        "en": "revises",
+        "as": "revises"
+      },
+      {
+        "en": "revised",
+        "as": "revised"
+      },
+      {
+        "en": "revising",
+        "as": "revising"
+      },
+      {
+        "en": "revise",
+        "as": "revise"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "With the plural subject 'We', the simple present uses 'revise'.",
+      "as": "বহুবচন কৰ্তা 'We' ৰ সৈতে simple present ত 'revise' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-015",
+    "q": {
+      "en": "Choose the correct option: A good student ___ hard.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: A good student ___ hard."
+    },
+    "options": [
+      {
+        "en": "work",
+        "as": "work"
+      },
+      {
+        "en": "worked",
+        "as": "worked"
+      },
+      {
+        "en": "works",
+        "as": "works"
+      },
+      {
+        "en": "working",
+        "as": "working"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'A good student' is singular, so the simple present takes 'works'.",
+      "as": "'A good student' একবচন, গতিকে simple present ত 'works' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-016",
+    "q": {
+      "en": "Choose the correct option: Look! The baby ___ .",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Look! The baby ___ ."
+    },
+    "options": [
+      {
+        "en": "cry",
+        "as": "cry"
+      },
+      {
+        "en": "is crying",
+        "as": "is crying"
+      },
+      {
+        "en": "cries",
+        "as": "cries"
+      },
+      {
+        "en": "cried",
+        "as": "cried"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An action happening now is in the present continuous: is/am/are + verb-ing.",
+      "as": "এতিয়া ঘটি থকা কাম present continuous ত হয়: is/am/are + verb-ing।"
+    }
+  },
+  {
+    "id": "tenses-rules-017",
+    "q": {
+      "en": "Choose the correct option: She ___ a book now.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ a book now."
+    },
+    "options": [
+      {
+        "en": "is reading",
+        "as": "is reading"
+      },
+      {
+        "en": "read",
+        "as": "read"
+      },
+      {
+        "en": "reads",
+        "as": "reads"
+      },
+      {
+        "en": "reading",
+        "as": "reading"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Now' signals the present continuous, so 'is reading' is used.",
+      "as": "'Now' য়ে present continuous বুজায়, গতিকে 'is reading' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-018",
+    "q": {
+      "en": "Choose the correct option: They ___ football at the moment.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: They ___ football at the moment."
+    },
+    "options": [
+      {
+        "en": "are playing",
+        "as": "are playing"
+      },
+      {
+        "en": "is playing",
+        "as": "is playing"
+      },
+      {
+        "en": "play",
+        "as": "play"
+      },
+      {
+        "en": "played",
+        "as": "played"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "With the plural subject 'They', the present continuous uses 'are playing'.",
+      "as": "বহুবচন কৰ্তা 'They' ৰ সৈতে present continuous ত 'are playing' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-019",
+    "q": {
+      "en": "Choose the correct option: I ___ to the market now.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: I ___ to the market now."
+    },
+    "options": [
+      {
+        "en": "am going",
+        "as": "am going"
+      },
+      {
+        "en": "is going",
+        "as": "is going"
+      },
+      {
+        "en": "are going",
+        "as": "are going"
+      },
+      {
+        "en": "go",
+        "as": "go"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "With 'I', the present continuous uses 'am going'.",
+      "as": "'I' ৰ সৈতে present continuous ত 'am going' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-020",
+    "q": {
+      "en": "Choose the correct option: Listen! Someone ___ the door.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Listen! Someone ___ the door."
+    },
+    "options": [
+      {
+        "en": "knock",
+        "as": "knock"
+      },
+      {
+        "en": "is knocking",
+        "as": "is knocking"
+      },
+      {
+        "en": "knocks",
+        "as": "knocks"
+      },
+      {
+        "en": "knocked",
+        "as": "knocked"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Listen!' signals an action in progress, so the present continuous 'is knocking' is used.",
+      "as": "'Listen!' য়ে চলি থকা কাম বুজায়, গতিকে present continuous 'is knocking' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-021",
+    "q": {
+      "en": "Choose the correct option: The children ___ in the garden.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The children ___ in the garden."
+    },
+    "options": [
+      {
+        "en": "is playing",
+        "as": "is playing"
+      },
+      {
+        "en": "play",
+        "as": "play"
+      },
+      {
+        "en": "plays",
+        "as": "plays"
+      },
+      {
+        "en": "are playing",
+        "as": "are playing"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'The children' is plural, so 'are playing' is used in the present continuous.",
+      "as": "'The children' বহুবচন, গতিকে present continuous ত 'are playing' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-022",
+    "q": {
+      "en": "Choose the correct option: He ___ not studying now.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: He ___ not studying now."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "does",
+        "as": "does"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The negative present continuous with 'He' is 'is not studying'.",
+      "as": "'He' ৰ সৈতে নঞৰ্থক present continuous হৈছে 'is not studying'।"
+    }
+  },
+  {
+    "id": "tenses-rules-023",
+    "q": {
+      "en": "Choose the correct option: What ___ you doing now?",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: What ___ you doing now?"
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "do",
+        "as": "do"
+      },
+      {
+        "en": "does",
+        "as": "does"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "With 'you', the present continuous question uses 'are'.",
+      "as": "'You' ৰ সৈতে present continuous প্ৰশ্নত 'are' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-024",
+    "q": {
+      "en": "Choose the correct option: It ___ raining outside.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: It ___ raining outside."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'It' is singular, so the present continuous uses 'is raining'.",
+      "as": "'It' একবচন, গতিকে present continuous ত 'is raining' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-025",
+    "q": {
+      "en": "Choose the correct option: We ___ for the bus.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: We ___ for the bus."
+    },
+    "options": [
+      {
+        "en": "are waiting",
+        "as": "are waiting"
+      },
+      {
+        "en": "is waiting",
+        "as": "is waiting"
+      },
+      {
+        "en": "waits",
+        "as": "waits"
+      },
+      {
+        "en": "waited",
+        "as": "waited"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "With the plural subject 'We', the present continuous uses 'are waiting'.",
+      "as": "বহুবচন কৰ্তা 'We' ৰ সৈতে present continuous ত 'are waiting' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-026",
+    "q": {
+      "en": "Choose the correct option: Mother ___ dinner in the kitchen.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Mother ___ dinner in the kitchen."
+    },
+    "options": [
+      {
+        "en": "are cooking",
+        "as": "are cooking"
+      },
+      {
+        "en": "cooks",
+        "as": "cooks"
+      },
+      {
+        "en": "cooked",
+        "as": "cooked"
+      },
+      {
+        "en": "is cooking",
+        "as": "is cooking"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An action happening now takes the present continuous 'is cooking'.",
+      "as": "এতিয়া ঘটি থকা কামৰ বাবে present continuous 'is cooking' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-027",
+    "q": {
+      "en": "Choose the correct option: Don't disturb me, I ___ .",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: Don't disturb me, I ___ ."
+    },
+    "options": [
+      {
+        "en": "am working",
+        "as": "am working"
+      },
+      {
+        "en": "is working",
+        "as": "is working"
+      },
+      {
+        "en": "are working",
+        "as": "are working"
+      },
+      {
+        "en": "work",
+        "as": "work"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The action in progress with 'I' uses 'am working'.",
+      "as": "'I' ৰ সৈতে চলি থকা কাম 'am working' ৰে প্ৰকাশ কৰা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-028",
+    "q": {
+      "en": "Choose the correct option: The teacher ___ the lesson now.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The teacher ___ the lesson now."
+    },
+    "options": [
+      {
+        "en": "are explaining",
+        "as": "are explaining"
+      },
+      {
+        "en": "explains",
+        "as": "explains"
+      },
+      {
+        "en": "is explaining",
+        "as": "is explaining"
+      },
+      {
+        "en": "explained",
+        "as": "explained"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "With the singular subject 'The teacher', the present continuous uses 'is explaining'.",
+      "as": "একবচন কৰ্তা 'The teacher' ৰ সৈতে present continuous ত 'is explaining' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-029",
+    "q": {
+      "en": "Choose the correct option: I have already ___ my work.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: I have already ___ my work."
+    },
+    "options": [
+      {
+        "en": "finish",
+        "as": "finish"
+      },
+      {
+        "en": "finishing",
+        "as": "finishing"
+      },
+      {
+        "en": "finished",
+        "as": "finished"
+      },
+      {
+        "en": "finishes",
+        "as": "finishes"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The present perfect uses have/has + past participle, so 'finished' is used.",
+      "as": "Present perfect ত have/has + past participle ব্যৱহাৰ হয়, গতিকে 'finished' লগা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-030",
+    "q": {
+      "en": "Choose the correct option: She ___ just arrived.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ just arrived."
+    },
+    "options": [
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The present perfect with a third-person singular subject uses 'has'.",
+      "as": "তৃতীয় পুৰুষ একবচন কৰ্তাৰ সৈতে present perfect ত 'has' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-031",
+    "q": {
+      "en": "Choose the correct option: They ___ lived here since 2010.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: They ___ lived here since 2010."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The present perfect with a plural subject uses 'have'.",
+      "as": "বহুবচন কৰ্তাৰ সৈতে present perfect ত 'have' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-032",
+    "q": {
+      "en": "Choose the correct option: He ___ not seen the movie yet.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: He ___ not seen the movie yet."
+    },
+    "options": [
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Yet' is used with the present perfect; 'He' takes 'has not seen'.",
+      "as": "'Yet' present perfect ৰ সৈতে ব্যৱহাৰ হয়; 'He' ৰ সৈতে 'has not seen' লগা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-033",
+    "q": {
+      "en": "Choose the correct option: ___ you ever visited Delhi?",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: ___ you ever visited Delhi?"
+    },
+    "options": [
+      {
+        "en": "Did",
+        "as": "Did"
+      },
+      {
+        "en": "Have",
+        "as": "Have"
+      },
+      {
+        "en": "Has",
+        "as": "Has"
+      },
+      {
+        "en": "Do",
+        "as": "Do"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Ever' in questions of experience uses the present perfect with 'Have'.",
+      "as": "অভিজ্ঞতাৰ প্ৰশ্নত 'ever' ৰ সৈতে present perfect ত 'Have' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-034",
+    "q": {
+      "en": "Choose the correct option: We ___ known each other for ten years.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: We ___ known each other for ten years."
+    },
+    "options": [
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'For' with a duration in the present perfect; 'We' takes 'have known'.",
+      "as": "সময়কাল বুজোৱা 'for' ৰ সৈতে present perfect; 'We' ৰ সৈতে 'have known' লগা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-035",
+    "q": {
+      "en": "Choose the correct option: She ___ her keys.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ her keys."
+    },
+    "options": [
+      {
+        "en": "have lost",
+        "as": "have lost"
+      },
+      {
+        "en": "has lost",
+        "as": "has lost"
+      },
+      {
+        "en": "had lost",
+        "as": "had lost"
+      },
+      {
+        "en": "lose",
+        "as": "lose"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A past action with present result is in the present perfect; 'She' takes 'has lost'.",
+      "as": "বৰ্তমান পৰিণাম থকা অতীতৰ কাম present perfect ত হয়; 'She' ৰ সৈতে 'has lost' লগা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-036",
+    "q": {
+      "en": "Choose the correct option: The train ___ just left.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The train ___ just left."
+    },
+    "options": [
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The present perfect with the singular 'The train' uses 'has'.",
+      "as": "একবচন 'The train' ৰ সৈতে present perfect ত 'has' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-037",
+    "q": {
+      "en": "Choose the correct option: I ___ never been to London.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: I ___ never been to London."
+    },
+    "options": [
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "am",
+        "as": "am"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The present perfect with 'I' uses 'have been'.",
+      "as": "'I' ৰ সৈতে present perfect ত 'have been' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-038",
+    "q": {
+      "en": "Choose the correct option: He ___ completed his homework.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: He ___ completed his homework."
+    },
+    "options": [
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The present perfect with 'He' uses 'has completed'.",
+      "as": "'He' ৰ সৈতে present perfect ত 'has completed' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-039",
+    "q": {
+      "en": "Choose the correct option: They ___ not come yet.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: They ___ not come yet."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The present perfect negative with 'They' uses 'have not come'.",
+      "as": "'They' ৰ সৈতে নঞৰ্থক present perfect ত 'have not come' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-040",
+    "q": {
+      "en": "Choose the correct option: How long ___ you been here?",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: How long ___ you been here?"
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "do",
+        "as": "do"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The present perfect question with 'you' uses 'have'.",
+      "as": "'You' ৰ সৈতে present perfect প্ৰশ্নত 'have' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-041",
+    "q": {
+      "en": "Choose the correct option: She ___ been studying since morning.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ been studying since morning."
+    },
+    "options": [
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The present perfect continuous uses have/has been + verb-ing; 'She' takes 'has'.",
+      "as": "Present perfect continuous ত have/has been + verb-ing লগে; 'She' ৰ সৈতে 'has' লগে।"
+    }
+  },
+  {
+    "id": "tenses-rules-042",
+    "q": {
+      "en": "Choose the correct option: They ___ been waiting for two hours.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: They ___ been waiting for two hours."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The present perfect continuous with 'They' uses 'have been'.",
+      "as": "'They' ৰ সৈতে present perfect continuous ত 'have been' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-043",
+    "q": {
+      "en": "Choose the correct option: It ___ been raining since last night.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: It ___ been raining since last night."
+    },
+    "options": [
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The present perfect continuous with 'It' uses 'has been'.",
+      "as": "'It' ৰ সৈতে present perfect continuous ত 'has been' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-044",
+    "q": {
+      "en": "Choose the correct option: I ___ been living here for five years.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: I ___ been living here for five years."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "am",
+        "as": "am"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The present perfect continuous with 'I' uses 'have been'.",
+      "as": "'I' ৰ সৈতে present perfect continuous ত 'have been' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-045",
+    "q": {
+      "en": "Choose the correct option: He ___ been working in this office since 2015.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: He ___ been working in this office since 2015."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The present perfect continuous with 'He' uses 'has been'.",
+      "as": "'He' ৰ সৈতে present perfect continuous ত 'has been' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-046",
+    "q": {
+      "en": "Choose the correct option: We ___ been playing since 4 o'clock.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: We ___ been playing since 4 o'clock."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The present perfect continuous with 'We' uses 'have been'.",
+      "as": "'We' ৰ সৈতে present perfect continuous ত 'have been' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-047",
+    "q": {
+      "en": "Choose the correct option: She ___ been teaching for ten years.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ been teaching for ten years."
+    },
+    "options": [
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The present perfect continuous with 'She' uses 'has been'.",
+      "as": "'She' ৰ সৈতে present perfect continuous ত 'has been' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-048",
+    "q": {
+      "en": "Choose the correct option: How long ___ you been learning English?",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: How long ___ you been learning English?"
+    },
+    "options": [
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "do",
+        "as": "do"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The present perfect continuous question with 'you' uses 'have been'.",
+      "as": "'You' ৰ সৈতে present perfect continuous প্ৰশ্নত 'have been' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-049",
+    "q": {
+      "en": "Choose the correct option: I ___ to the market yesterday.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: I ___ to the market yesterday."
+    },
+    "options": [
+      {
+        "en": "went",
+        "as": "went"
+      },
+      {
+        "en": "go",
+        "as": "go"
+      },
+      {
+        "en": "goes",
+        "as": "goes"
+      },
+      {
+        "en": "gone",
+        "as": "gone"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Yesterday' shows a finished past action, so the simple past 'went' is used.",
+      "as": "'Yesterday' য়ে অতীতত শেষ হোৱা কাম বুজায়, গতিকে simple past 'went' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-050",
+    "q": {
+      "en": "Choose the correct option: She ___ her homework last night.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ her homework last night."
+    },
+    "options": [
+      {
+        "en": "finish",
+        "as": "finish"
+      },
+      {
+        "en": "finishes",
+        "as": "finishes"
+      },
+      {
+        "en": "finished",
+        "as": "finished"
+      },
+      {
+        "en": "finishing",
+        "as": "finishing"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Last night' requires the simple past form 'finished'.",
+      "as": "'Last night' ৰ সৈতে simple past ৰূপ 'finished' লগা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-051",
+    "q": {
+      "en": "Choose the correct option: They ___ the match last Sunday.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: They ___ the match last Sunday."
+    },
+    "options": [
+      {
+        "en": "won",
+        "as": "won"
+      },
+      {
+        "en": "win",
+        "as": "win"
+      },
+      {
+        "en": "wins",
+        "as": "wins"
+      },
+      {
+        "en": "winning",
+        "as": "winning"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The past form of 'win' is 'won', used for a finished past event.",
+      "as": "'Win' ৰ past ৰূপ 'won', অতীতত শেষ হোৱা ঘটনাৰ বাবে ব্যৱহৃত।"
+    }
+  },
+  {
+    "id": "tenses-rules-052",
+    "q": {
+      "en": "Choose the correct option: He ___ born in 1990.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: He ___ born in 1990."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "were",
+        "as": "were"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "For a past date with a singular subject, the past form 'was born' is used.",
+      "as": "একবচন কৰ্তাৰ সৈতে অতীতৰ তাৰিখত 'was born' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-053",
+    "q": {
+      "en": "Choose the correct option: We ___ to the zoo last week.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: We ___ to the zoo last week."
+    },
+    "options": [
+      {
+        "en": "went",
+        "as": "went"
+      },
+      {
+        "en": "go",
+        "as": "go"
+      },
+      {
+        "en": "goes",
+        "as": "goes"
+      },
+      {
+        "en": "gone",
+        "as": "gone"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Last week' shows completed past time, so 'went' is used.",
+      "as": "'Last week' য়ে সম্পূৰ্ণ অতীত সময় বুজায়, গতিকে 'went' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-054",
+    "q": {
+      "en": "Choose the correct option: She ___ not come to school yesterday.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ not come to school yesterday."
+    },
+    "options": [
+      {
+        "en": "does",
+        "as": "does"
+      },
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The negative simple past is formed with 'did not' + base verb.",
+      "as": "নঞৰ্থক simple past 'did not' + মূল ক্ৰিয়া ৰে গঠন কৰা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-055",
+    "q": {
+      "en": "Choose the correct option: ___ you meet him yesterday?",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: ___ you meet him yesterday?"
+    },
+    "options": [
+      {
+        "en": "Do",
+        "as": "Do"
+      },
+      {
+        "en": "Did",
+        "as": "Did"
+      },
+      {
+        "en": "Does",
+        "as": "Does"
+      },
+      {
+        "en": "Have",
+        "as": "Have"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A question about the finished past begins with 'Did'.",
+      "as": "অতীতত শেষ হোৱা কামৰ প্ৰশ্ন 'Did' ৰে আৰম্ভ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-056",
+    "q": {
+      "en": "Choose the correct option: The train ___ late yesterday.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The train ___ late yesterday."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "were",
+        "as": "were"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A past state with the singular 'train' uses 'was'.",
+      "as": "একবচন 'train' ৰ সৈতে অতীতৰ অৱস্থা 'was' ৰে প্ৰকাশ কৰা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-057",
+    "q": {
+      "en": "Choose the correct option: I ___ a letter to him last week.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: I ___ a letter to him last week."
+    },
+    "options": [
+      {
+        "en": "write",
+        "as": "write"
+      },
+      {
+        "en": "writes",
+        "as": "writes"
+      },
+      {
+        "en": "written",
+        "as": "written"
+      },
+      {
+        "en": "wrote",
+        "as": "wrote"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The past form of 'write' is 'wrote'.",
+      "as": "'Write' ৰ past ৰূপ 'wrote'।"
+    }
+  },
+  {
+    "id": "tenses-rules-058",
+    "q": {
+      "en": "Choose the correct option: He ___ his leg last year.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: He ___ his leg last year."
+    },
+    "options": [
+      {
+        "en": "break",
+        "as": "break"
+      },
+      {
+        "en": "breaks",
+        "as": "breaks"
+      },
+      {
+        "en": "broke",
+        "as": "broke"
+      },
+      {
+        "en": "broken",
+        "as": "broken"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The past form of 'break' is 'broke'.",
+      "as": "'Break' ৰ past ৰূপ 'broke'।"
+    }
+  },
+  {
+    "id": "tenses-rules-059",
+    "q": {
+      "en": "Choose the correct option: They ___ happy with the result.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: They ___ happy with the result."
+    },
+    "options": [
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "were",
+        "as": "were"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "With the plural subject 'They', the past form 'were' is used.",
+      "as": "বহুবচন কৰ্তা 'They' ৰ সৈতে অতীত ৰূপ 'were' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-060",
+    "q": {
+      "en": "Choose the correct option: She ___ a beautiful song at the party.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ a beautiful song at the party."
+    },
+    "options": [
+      {
+        "en": "sing",
+        "as": "sing"
+      },
+      {
+        "en": "sings",
+        "as": "sings"
+      },
+      {
+        "en": "sang",
+        "as": "sang"
+      },
+      {
+        "en": "sung",
+        "as": "sung"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The past form of 'sing' is 'sang'.",
+      "as": "'Sing' ৰ past ৰূপ 'sang'।"
+    }
+  },
+  {
+    "id": "tenses-rules-061",
+    "q": {
+      "en": "Choose the correct option: I ___ reading when he came.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: I ___ reading when he came."
+    },
+    "options": [
+      {
+        "en": "were",
+        "as": "were"
+      },
+      {
+        "en": "am",
+        "as": "am"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The past continuous uses was/were + verb-ing; with 'I' we use 'was'.",
+      "as": "Past continuous ত was/were + verb-ing লগে; 'I' ৰ সৈতে 'was' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-062",
+    "q": {
+      "en": "Choose the correct option: They ___ playing when it started raining.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: They ___ playing when it started raining."
+    },
+    "options": [
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "were",
+        "as": "were"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "With the plural subject 'They', the past continuous uses 'were'.",
+      "as": "বহুবচন কৰ্তা 'They' ৰ সৈতে past continuous ত 'were' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-063",
+    "q": {
+      "en": "Choose the correct option: She ___ cooking when the phone rang.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ cooking when the phone rang."
+    },
+    "options": [
+      {
+        "en": "were",
+        "as": "were"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "With the singular 'She', the past continuous uses 'was'.",
+      "as": "একবচন 'She' ৰ সৈতে past continuous ত 'was' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-064",
+    "q": {
+      "en": "Choose the correct option: While I ___ , the doorbell rang.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: While I ___ , the doorbell rang."
+    },
+    "options": [
+      {
+        "en": "was sleeping",
+        "as": "was sleeping"
+      },
+      {
+        "en": "sleep",
+        "as": "sleep"
+      },
+      {
+        "en": "slept",
+        "as": "slept"
+      },
+      {
+        "en": "am sleeping",
+        "as": "am sleeping"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A longer past action interrupted by another uses the past continuous 'was sleeping'.",
+      "as": "আন এটা কামে ব্যাঘাত ঘটা দীঘলীয়া অতীত কামত past continuous 'was sleeping' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-065",
+    "q": {
+      "en": "Choose the correct option: The children ___ making noise.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The children ___ making noise."
+    },
+    "options": [
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "were",
+        "as": "were"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'The children' is plural, so the past continuous uses 'were'.",
+      "as": "'The children' বহুবচন, গতিকে past continuous ত 'were' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-066",
+    "q": {
+      "en": "Choose the correct option: He ___ not working at that time.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: He ___ not working at that time."
+    },
+    "options": [
+      {
+        "en": "were",
+        "as": "were"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The negative past continuous with 'He' is 'was not working'.",
+      "as": "'He' ৰ সৈতে নঞৰ্থক past continuous হৈছে 'was not working'।"
+    }
+  },
+  {
+    "id": "tenses-rules-067",
+    "q": {
+      "en": "Choose the correct option: What ___ you doing yesterday at 5?",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: What ___ you doing yesterday at 5?"
+    },
+    "options": [
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "were",
+        "as": "were"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "With 'you', the past continuous question uses 'were'.",
+      "as": "'You' ৰ সৈতে past continuous প্ৰশ্নত 'were' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-068",
+    "q": {
+      "en": "Choose the correct option: We ___ watching TV when father arrived.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: We ___ watching TV when father arrived."
+    },
+    "options": [
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "were",
+        "as": "were"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "With the plural subject 'We', the past continuous uses 'were'.",
+      "as": "বহুবচন কৰ্তা 'We' ৰ সৈতে past continuous ত 'were' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-069",
+    "q": {
+      "en": "Choose the correct option: The train ___ left before we reached.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The train ___ left before we reached."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The earlier of two past actions is in the past perfect: had + past participle.",
+      "as": "অতীতৰ দুটা কামৰ আগৰটো past perfect ত হয়: had + past participle।"
+    }
+  },
+  {
+    "id": "tenses-rules-070",
+    "q": {
+      "en": "Choose the correct option: She ___ finished her work before going out.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ finished her work before going out."
+    },
+    "options": [
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Before' with an earlier past action requires the past perfect 'had finished'.",
+      "as": "আগত হোৱা অতীত কামৰ সৈতে 'before' থাকিলে past perfect 'had finished' লগা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-071",
+    "q": {
+      "en": "Choose the correct option: I ___ never seen such a sight before.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: I ___ never seen such a sight before."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In reported or past narration, an earlier experience uses 'had' + past participle.",
+      "as": "অতীতৰ বৰ্ণনাত আগৰ অভিজ্ঞতা 'had' + past participle ৰে প্ৰকাশ কৰা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-072",
+    "q": {
+      "en": "Choose the correct option: They ___ already gone when I arrived.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: They ___ already gone when I arrived."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "were",
+        "as": "were"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The action completed before another past action uses the past perfect 'had gone'.",
+      "as": "আন এটা অতীত কামৰ আগতে সম্পূৰ্ণ হোৱা কামত past perfect 'had gone' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-073",
+    "q": {
+      "en": "Choose the correct option: He ___ not eaten anything before the meeting.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: He ___ not eaten anything before the meeting."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The negative past perfect is 'had not' + past participle.",
+      "as": "নঞৰ্থক past perfect হৈছে 'had not' + past participle।"
+    }
+  },
+  {
+    "id": "tenses-rules-074",
+    "q": {
+      "en": "Choose the correct option: By the time we reached, the film ___ started.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: By the time we reached, the film ___ started."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'By the time' with a later past event requires the past perfect 'had started'.",
+      "as": "পিছৰ অতীত ঘটনাৰ সৈতে 'by the time' থাকিলে past perfect 'had started' লগা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-075",
+    "q": {
+      "en": "Choose the correct option: She told me that she ___ met him before.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She told me that she ___ met him before."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In indirect speech, a past perfect is used for an action earlier than the past reporting verb.",
+      "as": "পৰোক্ষ উক্তিত অতীতৰ মুখ্য ক্ৰিয়াৰ আগৰ কামৰ বাবে past perfect ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-076",
+    "q": {
+      "en": "Choose the correct option: ___ you finished the work before he came?",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: ___ you finished the work before he came?"
+    },
+    "options": [
+      {
+        "en": "Had",
+        "as": "Had"
+      },
+      {
+        "en": "Has",
+        "as": "Has"
+      },
+      {
+        "en": "Have",
+        "as": "Have"
+      },
+      {
+        "en": "Did",
+        "as": "Did"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A past perfect question begins with 'Had'.",
+      "as": "Past perfect প্ৰশ্ন 'Had' ৰে আৰম্ভ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-077",
+    "q": {
+      "en": "Choose the correct option: She ___ been waiting for an hour before the bus came.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ been waiting for an hour before the bus came."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The past perfect continuous uses had been + verb-ing.",
+      "as": "Past perfect continuous ত had been + verb-ing ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-078",
+    "q": {
+      "en": "Choose the correct option: They ___ been playing since morning.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: They ___ been playing since morning."
+    },
+    "options": [
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "were",
+        "as": "were"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The past perfect continuous uses 'had been' with every subject.",
+      "as": "Past perfect continuous ত প্ৰতিটো কৰ্তাৰ সৈতে 'had been' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-079",
+    "q": {
+      "en": "Choose the correct option: It ___ been raining before we left.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: It ___ been raining before we left."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Before we left' places the action in the past perfect continuous with 'had been'.",
+      "as": "'Before we left' য়ে কামটো past perfect continuous ত ৰাখে, 'had been' ৰ সৈতে।"
+    }
+  },
+  {
+    "id": "tenses-rules-080",
+    "q": {
+      "en": "Choose the correct option: He ___ been working there for two years before he resigned.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: He ___ been working there for two years before he resigned."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The past perfect continuous uses 'had been working' for a duration before a past event.",
+      "as": "অতীত ঘটনাৰ আগৰ সময়কালৰ বাবে past perfect continuous ত 'had been working' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-081",
+    "q": {
+      "en": "Choose the correct option: I ___ been reading since 3 o'clock.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: I ___ been reading since 3 o'clock."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In past narration, the past perfect continuous uses 'had been'.",
+      "as": "অতীতৰ বৰ্ণনাত past perfect continuous ত 'had been' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-082",
+    "q": {
+      "en": "Choose the correct option: We ___ been living there for a decade before we moved.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: We ___ been living there for a decade before we moved."
+    },
+    "options": [
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "were",
+        "as": "were"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The past perfect continuous uses 'had been living' for an action before another past action.",
+      "as": "আন এটা অতীত কামৰ আগৰ কামৰ বাবে past perfect continuous ত 'had been living' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-083",
+    "q": {
+      "en": "Choose the correct option: I ___ call you tomorrow.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: I ___ call you tomorrow."
+    },
+    "options": [
+      {
+        "en": "shall",
+        "as": "shall"
+      },
+      {
+        "en": "will",
+        "as": "will"
+      },
+      {
+        "en": "am",
+        "as": "am"
+      },
+      {
+        "en": "did",
+        "as": "did"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The simple future is formed with 'will' + base verb.",
+      "as": "Simple future 'will' + মূল ক্ৰিয়া ৰে গঠন কৰা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-084",
+    "q": {
+      "en": "Choose the correct option: She ___ come to the party.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ come to the party."
+    },
+    "options": [
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "does",
+        "as": "does"
+      },
+      {
+        "en": "will",
+        "as": "will"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A future action with 'She' is expressed with 'will come'.",
+      "as": "'She' ৰ সৈতে ভৱিষ্যতৰ কাম 'will come' ৰে প্ৰকাশ কৰা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-085",
+    "q": {
+      "en": "Choose the correct option: They ___ finish the work soon.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: They ___ finish the work soon."
+    },
+    "options": [
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "will",
+        "as": "will"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The simple future uses 'will' + base verb for all persons.",
+      "as": "Simple future ত সকলো পুৰুষৰ বাবে 'will' + মূল ক্ৰিয়া ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-086",
+    "q": {
+      "en": "Choose the correct option: We ___ go to Delhi next week.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: We ___ go to Delhi next week."
+    },
+    "options": [
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "were",
+        "as": "were"
+      },
+      {
+        "en": "will",
+        "as": "will"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Next week' shows a future plan, so 'will go' is used.",
+      "as": "'Next week' য়ে ভৱিষ্যতৰ পৰিকল্পনা বুজায়, গতিকে 'will go' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-087",
+    "q": {
+      "en": "Choose the correct option: It ___ rain tomorrow.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: It ___ rain tomorrow."
+    },
+    "options": [
+      {
+        "en": "will",
+        "as": "will"
+      },
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A prediction about the future uses 'will rain'.",
+      "as": "ভৱিষ্যতৰ ভৱিষ্যদ্বাণী 'will rain' ৰে প্ৰকাশ কৰা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-088",
+    "q": {
+      "en": "Choose the correct option: He ___ not help you.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: He ___ not help you."
+    },
+    "options": [
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "will",
+        "as": "will"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The negative simple future is 'will not' + base verb.",
+      "as": "নঞৰ্থক simple future হৈছে 'will not' + মূল ক্ৰিয়া।"
+    }
+  },
+  {
+    "id": "tenses-rules-089",
+    "q": {
+      "en": "Choose the correct option: ___ you come with me?",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: ___ you come with me?"
+    },
+    "options": [
+      {
+        "en": "Do",
+        "as": "Do"
+      },
+      {
+        "en": "Will",
+        "as": "Will"
+      },
+      {
+        "en": "Did",
+        "as": "Did"
+      },
+      {
+        "en": "Are",
+        "as": "Are"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A future question begins with 'Will'.",
+      "as": "ভৱিষ্যতৰ প্ৰশ্ন 'Will' ৰে আৰম্ভ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-090",
+    "q": {
+      "en": "Choose the correct option: The train ___ arrive at 6 p.m.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: The train ___ arrive at 6 p.m."
+    },
+    "options": [
+      {
+        "en": "will",
+        "as": "will"
+      },
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A future event is expressed with 'will arrive'.",
+      "as": "ভৱিষ্যতৰ ঘটনা 'will arrive' ৰে প্ৰকাশ কৰা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-091",
+    "q": {
+      "en": "Choose the correct option: I ___ be waiting for you at the station.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: I ___ be waiting for you at the station."
+    },
+    "options": [
+      {
+        "en": "will",
+        "as": "will"
+      },
+      {
+        "en": "am",
+        "as": "am"
+      },
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The future continuous is 'will be' + verb-ing.",
+      "as": "Future continuous হৈছে 'will be' + verb-ing।"
+    }
+  },
+  {
+    "id": "tenses-rules-092",
+    "q": {
+      "en": "Choose the correct option: She ___ be studying at 8 p.m.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ be studying at 8 p.m."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "will",
+        "as": "will"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An action in progress at a future time uses 'will be studying'.",
+      "as": "ভৱিষ্যতৰ এটা সময়ত চলি থকা কাম 'will be studying' ৰে প্ৰকাশ কৰা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-093",
+    "q": {
+      "en": "Choose the correct option: They ___ be playing tomorrow morning.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: They ___ be playing tomorrow morning."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "will",
+        "as": "will"
+      },
+      {
+        "en": "were",
+        "as": "were"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The future continuous uses 'will be' + verb-ing for all subjects.",
+      "as": "Future continuous ত সকলো কৰ্তাৰ বাবে 'will be' + verb-ing ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-094",
+    "q": {
+      "en": "Choose the correct option: We ___ be travelling next week.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: We ___ be travelling next week."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "shall",
+        "as": "shall"
+      },
+      {
+        "en": "were",
+        "as": "were"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The future continuous is formed with 'shall/will be' + verb-ing.",
+      "as": "Future continuous 'shall/will be' + verb-ing ৰে গঠন কৰা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-095",
+    "q": {
+      "en": "Choose the correct option: I ___ have finished the work by tomorrow.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: I ___ have finished the work by tomorrow."
+    },
+    "options": [
+      {
+        "en": "am",
+        "as": "am"
+      },
+      {
+        "en": "will",
+        "as": "will"
+      },
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The future perfect is 'will have' + past participle.",
+      "as": "Future perfect হৈছে 'will have' + past participle।"
+    }
+  },
+  {
+    "id": "tenses-rules-096",
+    "q": {
+      "en": "Choose the correct option: She ___ have completed her degree by next year.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ have completed her degree by next year."
+    },
+    "options": [
+      {
+        "en": "will",
+        "as": "will"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'By next year' with a completed future action needs 'will have completed'.",
+      "as": "ভৱিষ্যতত সম্পূৰ্ণ হ'বলগীয়া কামৰ সৈতে 'by next year' থাকিলে 'will have completed' লগা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-097",
+    "q": {
+      "en": "Choose the correct option: They ___ have left before we arrive.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: They ___ have left before we arrive."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "will",
+        "as": "will"
+      },
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "were",
+        "as": "were"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The future perfect 'will have left' shows an action completed before a future time.",
+      "as": "Future perfect 'will have left' য়ে ভৱিষ্যতৰ এটা সময়ৰ আগতে সম্পূৰ্ণ হোৱা কাম বুজায়।"
+    }
+  },
+  {
+    "id": "tenses-rules-098",
+    "q": {
+      "en": "Choose the correct option: He ___ have reached home by now.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: He ___ have reached home by now."
+    },
+    "options": [
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "will",
+        "as": "will"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'By now' in a future-perfect sense uses 'will have reached'.",
+      "as": "Future perfect অৰ্থত 'by now' ৰ সৈতে 'will have reached' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-099",
+    "q": {
+      "en": "Choose the correct option: By next month, I ___ have been working here for two years.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: By next month, I ___ have been working here for two years."
+    },
+    "options": [
+      {
+        "en": "will",
+        "as": "will"
+      },
+      {
+        "en": "am",
+        "as": "am"
+      },
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The future perfect continuous is 'will have been' + verb-ing.",
+      "as": "Future perfect continuous হৈছে 'will have been' + verb-ing।"
+    }
+  },
+  {
+    "id": "tenses-rules-100",
+    "q": {
+      "en": "Choose the correct option: She ___ have been teaching for ten years by 2025.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She ___ have been teaching for ten years by 2025."
+    },
+    "options": [
+      {
+        "en": "will",
+        "as": "will"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "did",
+        "as": "did"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The future perfect continuous shows duration up to a point in the future with 'will have been'.",
+      "as": "Future perfect continuous য়ে ভৱিষ্যতৰ এটা সময়লৈকে সময়কাল 'will have been' ৰে দেখুৱায়।"
+    }
+  },
+  {
+    "id": "tenses-rules-101",
+    "q": {
+      "en": "Choose the correct option: He said that he ___ ill.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: He said that he ___ ill."
+    },
+    "options": [
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "will",
+        "as": "will"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In indirect speech, the present tense of the direct speech becomes past: 'is' becomes 'was'.",
+      "as": "পৰোক্ষ উক্তিত প্ৰত্যক্ষ উক্তিবোৰ বৰ্তমান কাল অতীত হয়: 'is' ৰ 'was'।"
+    }
+  },
+  {
+    "id": "tenses-rules-102",
+    "q": {
+      "en": "Choose the correct option: She said she ___ come later.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She said she ___ come later."
+    },
+    "options": [
+      {
+        "en": "will",
+        "as": "will"
+      },
+      {
+        "en": "is",
+        "as": "is"
+      },
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "would",
+        "as": "would"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In indirect speech, 'will' changes to 'would'.",
+      "as": "পৰোক্ষ উক্তিত 'will' ৰ পৰিৱৰ্তন 'would' হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-103",
+    "q": {
+      "en": "Choose the correct option: I ___ here since 2015.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: I ___ here since 2015."
+    },
+    "options": [
+      {
+        "en": "have been",
+        "as": "have been"
+      },
+      {
+        "en": "am",
+        "as": "am"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Since 2015' with a state continuing up to now uses the present perfect 'have been'.",
+      "as": "এতিয়ালৈকে চলি থকা অৱস্থাৰ সৈতে 'since 2015' থাকিলে present perfect 'have been' লগা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-104",
+    "q": {
+      "en": "Choose the correct option: She has been ill ___ Monday.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She has been ill ___ Monday."
+    },
+    "options": [
+      {
+        "en": "for",
+        "as": "for"
+      },
+      {
+        "en": "from",
+        "as": "from"
+      },
+      {
+        "en": "by",
+        "as": "by"
+      },
+      {
+        "en": "since",
+        "as": "since"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Since' is used with a point of time (Monday) in perfect tenses.",
+      "as": "Perfect tense ত সময়ৰ এটা বিন্দু (Monday) ৰ সৈতে 'since' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-105",
+    "q": {
+      "en": "Choose the correct option: I have lived here ___ ten years.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: I have lived here ___ ten years."
+    },
+    "options": [
+      {
+        "en": "since",
+        "as": "since"
+      },
+      {
+        "en": "for",
+        "as": "for"
+      },
+      {
+        "en": "from",
+        "as": "from"
+      },
+      {
+        "en": "by",
+        "as": "by"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'For' is used with a period of time (ten years) in perfect tenses.",
+      "as": "Perfect tense ত সময়ৰ এটা কালছোৱা (ten years) ৰ সৈতে 'for' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-106",
+    "q": {
+      "en": "Choose the correct option: He ___ already left when I called him.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: He ___ already left when I called him."
+    },
+    "options": [
+      {
+        "en": "has",
+        "as": "has"
+      },
+      {
+        "en": "had",
+        "as": "had"
+      },
+      {
+        "en": "have",
+        "as": "have"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The earlier of two past actions uses the past perfect 'had left'.",
+      "as": "অতীতৰ দুটা কামৰ আগৰটো past perfect 'had left' ৰে প্ৰকাশ কৰা হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-107",
+    "q": {
+      "en": "Choose the correct option: If it ___ tomorrow, we will cancel the picnic.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: If it ___ tomorrow, we will cancel the picnic."
+    },
+    "options": [
+      {
+        "en": "will rain",
+        "as": "will rain"
+      },
+      {
+        "en": "rained",
+        "as": "rained"
+      },
+      {
+        "en": "is raining",
+        "as": "is raining"
+      },
+      {
+        "en": "rains",
+        "as": "rains"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In a first conditional, the 'if' clause uses the simple present, not 'will'.",
+      "as": "First conditional ত 'if' খণ্ডত simple present ব্যৱহাৰ হয়, 'will' নহয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-108",
+    "q": {
+      "en": "Choose the correct option: She will call you when she ___ .",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: She will call you when she ___ ."
+    },
+    "options": [
+      {
+        "en": "will arrive",
+        "as": "will arrive"
+      },
+      {
+        "en": "arrived",
+        "as": "arrived"
+      },
+      {
+        "en": "is arriving",
+        "as": "is arriving"
+      },
+      {
+        "en": "arrives",
+        "as": "arrives"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "After 'when' referring to the future, the simple present is used.",
+      "as": "ভৱিষ্যত বুজোৱা 'when' ৰ পিছত simple present ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-109",
+    "q": {
+      "en": "Choose the correct option: He said that he ___ the work the next day.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: He said that he ___ the work the next day."
+    },
+    "options": [
+      {
+        "en": "will finish",
+        "as": "will finish"
+      },
+      {
+        "en": "finishes",
+        "as": "finishes"
+      },
+      {
+        "en": "finished",
+        "as": "finished"
+      },
+      {
+        "en": "would finish",
+        "as": "would finish"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In indirect speech, 'will' becomes 'would'.",
+      "as": "পৰোক্ষ উক্তিত 'will' ৰ পৰিৱৰ্তন 'would' হয়।"
+    }
+  },
+  {
+    "id": "tenses-rules-110",
+    "q": {
+      "en": "Choose the correct option: They ___ here since morning.",
+      "as": "শুদ্ধ বিকল্পটো বাছনি কৰক: They ___ here since morning."
+    },
+    "options": [
+      {
+        "en": "are",
+        "as": "are"
+      },
+      {
+        "en": "have been",
+        "as": "have been"
+      },
+      {
+        "en": "was",
+        "as": "was"
+      },
+      {
+        "en": "had been",
+        "as": "had been"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Since morning' for a state continuing to the present uses the present perfect 'have been'.",
+      "as": "বৰ্তমানলৈকে চলি থকা অৱস্থাৰ সৈতে 'since morning' থাকিলে present perfect 'have been' লগা হয়।"
+    }
   }
-}
+]
