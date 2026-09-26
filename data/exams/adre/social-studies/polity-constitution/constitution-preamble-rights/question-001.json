@@ -1,30 +1,5372 @@
-{
-  "id": "constitution-preamble-rights-001",
-  "q": {
-    "en": "Which Part of the Indian Constitution contains the Fundamental Rights?",
-    "as": "ভাৰতীয় সংবিধানৰ কোনটো অংশত মৌলিক অধিকাৰ সন্নিবিষ্ট আছে?"
-  },
-  "options": [
-    {
-      "en": "Part II",
-      "as": "দ্বিতীয় অংশ"
+[
+  {
+    "id": "constitution-preamble-rights-001",
+    "q": {
+      "en": "When was the Indian Constitution adopted?",
+      "as": "ভাৰতীয় সংবিধান কেতিয়া গ্ৰহণ কৰা হৈছিল?"
     },
-    {
-      "en": "Part III",
-      "as": "তৃতীয় অংশ"
-    },
-    {
-      "en": "Part IV",
-      "as": "চতুৰ্থ অংশ"
-    },
-    {
-      "en": "Part V",
-      "as": "পঞ্চম অংশ"
+    "options": [
+      {
+        "en": "26 November 1949",
+        "as": "২৬ নৱেম্বৰ ১৯৪৯"
+      },
+      {
+        "en": "9 December 1946",
+        "as": "৯ ডিচেম্বৰ ১৯৪৬"
+      },
+      {
+        "en": "26 January 1950",
+        "as": "২৬ জানুৱাৰী ১৯৫০"
+      },
+      {
+        "en": "15 August 1947",
+        "as": "১৫ আগষ্ট ১৯৪৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Constitution was adopted by the Constituent Assembly on 26 November 1949.",
+      "as": "সংবিধান সভাই ২৬ নৱেম্বৰ ১৯৪৯ তাৰিখে সংবিধান গ্ৰহণ কৰিছিল।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "Fundamental Rights are contained in Part III (Articles 12–35) of the Constitution.",
-    "as": "মৌলিক অধিকাৰ সংবিধানৰ তৃতীয় অংশত (অনুচ্ছেদ 12–35) সন্নিবিষ্ট।"
+  },
+  {
+    "id": "constitution-preamble-rights-002",
+    "q": {
+      "en": "When did the Indian Constitution come into force?",
+      "as": "ভাৰতীয় সংবিধান কেতিয়া বলৱৎ হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2 October 1950",
+        "as": "২ অক্টোবৰ ১৯৫০"
+      },
+      {
+        "en": "26 January 1950",
+        "as": "২৬ জানুৱাৰী ১৯৫০"
+      },
+      {
+        "en": "26 November 1949",
+        "as": "২৬ নৱেম্বৰ ১৯৪৯"
+      },
+      {
+        "en": "15 August 1947",
+        "as": "১৫ আগষ্ট ১৯৪৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Constitution came into force on 26 January 1950, celebrated as Republic Day.",
+      "as": "সংবিধান ২৬ জানুৱাৰী ১৯৫০ তাৰিখে বলৱৎ হয়, যাক গণৰাজ্য দিৱস হিচাপে পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-003",
+    "q": {
+      "en": "Who was the Chairman of the Drafting Committee of the Indian Constitution?",
+      "as": "ভাৰতীয় সংবিধানৰ খচৰা সমিতিৰ অধ্যক্ষ কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Sardar Patel",
+        "as": "সৰ্দাৰ পেটেল"
+      },
+      {
+        "en": "Dr. Rajendra Prasad",
+        "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ"
+      },
+      {
+        "en": "Dr. B.R. Ambedkar",
+        "as": "ড০ বি. আৰ. আম্বেদকাৰ"
+      },
+      {
+        "en": "Jawaharlal Nehru",
+        "as": "জৱাহৰলাল নেহৰু"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Dr. B.R. Ambedkar was the Chairman of the Drafting Committee.",
+      "as": "ড০ বি. আৰ. আম্বেদকাৰ খচৰা সমিতিৰ অধ্যক্ষ আছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-004",
+    "q": {
+      "en": "Who was the President of the Constituent Assembly?",
+      "as": "সংবিধান সভাৰ সভাপতি কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Dr. S. Radhakrishnan",
+        "as": "ড০ এছ. ৰাধাকৃষ্ণণ"
+      },
+      {
+        "en": "Jawaharlal Nehru",
+        "as": "জৱাহৰলাল নেহৰু"
+      },
+      {
+        "en": "Dr. B.R. Ambedkar",
+        "as": "ড০ বি. আৰ. আম্বেদকাৰ"
+      },
+      {
+        "en": "Dr. Rajendra Prasad",
+        "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Dr. Rajendra Prasad was the permanent President of the Constituent Assembly.",
+      "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ সংবিধান সভাৰ স্থায়ী সভাপতি আছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-005",
+    "q": {
+      "en": "Who moved the Objectives Resolution in the Constituent Assembly?",
+      "as": "সংবিধান সভাত উদ্দেশ্য প্ৰস্তাৱ কোনে উত্থাপন কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Jawaharlal Nehru",
+        "as": "জৱাহৰলাল নেহৰু"
+      },
+      {
+        "en": "Dr. B.R. Ambedkar",
+        "as": "ড০ বি. আৰ. আম্বেদকাৰ"
+      },
+      {
+        "en": "Dr. Rajendra Prasad",
+        "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ"
+      },
+      {
+        "en": "Sardar Patel",
+        "as": "সৰ্দাৰ পেটেল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Jawaharlal Nehru moved the Objectives Resolution on 13 December 1946.",
+      "as": "জৱাহৰলাল নেহৰুৱে ১৩ ডিচেম্বৰ ১৯৪৬ তাৰিখে উদ্দেশ্য প্ৰস্তাৱ উত্থাপন কৰিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-006",
+    "q": {
+      "en": "Who is known as the Father of the Indian Constitution?",
+      "as": "ভাৰতীয় সংবিধানৰ পিতা বুলি কাক জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Mahatma Gandhi",
+        "as": "মহাত্মা গান্ধী"
+      },
+      {
+        "en": "Dr. B.R. Ambedkar",
+        "as": "ড০ বি. আৰ. আম্বেদকাৰ"
+      },
+      {
+        "en": "Jawaharlal Nehru",
+        "as": "জৱাহৰলাল নেহৰু"
+      },
+      {
+        "en": "Dr. Rajendra Prasad",
+        "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dr. B.R. Ambedkar is known as the Father of the Indian Constitution.",
+      "as": "ড০ বি. আৰ. আম্বেদকাৰক ভাৰতীয় সংবিধানৰ পিতা বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-007",
+    "q": {
+      "en": "The Constituent Assembly of India was formed under which plan?",
+      "as": "ভাৰতৰ সংবিধান সভা কোনটো পৰিকল্পনাৰ অধীনত গঠন কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Mountbatten Plan, 1947",
+        "as": "মাউণ্টবেটেন পৰিকল্পনা, ১৯৪৭"
+      },
+      {
+        "en": "Simon Commission, 1928",
+        "as": "চাইমন আয়োগ, ১৯২৮"
+      },
+      {
+        "en": "Cabinet Mission Plan, 1946",
+        "as": "কেবিনেট মিছন পৰিকল্পনা, ১৯৪৬"
+      },
+      {
+        "en": "Cripps Mission, 1942",
+        "as": "ক্ৰিপছ মিছন, ১৯৪২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Constituent Assembly was constituted under the Cabinet Mission Plan of 1946.",
+      "as": "সংবিধান সভা ১৯৪৬ চনৰ কেবিনেট মিছন পৰিকল্পনাৰ অধীনত গঠন কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-008",
+    "q": {
+      "en": "How long did the Constituent Assembly take to draft the Constitution?",
+      "as": "সংবিধান খচৰা প্ৰস্তুত কৰিবলৈ সংবিধান সভাই কিমান সময় লৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1 year, 10 months and 5 days",
+        "as": "১ বছৰ, ১০ মাহ আৰু ৫ দিন"
+      },
+      {
+        "en": "2 years, 5 months and 20 days",
+        "as": "২ বছৰ, ৫ মাহ আৰু ২০ দিন"
+      },
+      {
+        "en": "3 years, 2 months and 10 days",
+        "as": "৩ বছৰ, ২ মাহ আৰু ১০ দিন"
+      },
+      {
+        "en": "2 years, 11 months and 18 days",
+        "as": "২ বছৰ, ১১ মাহ আৰু ১৮ দিন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "It took 2 years, 11 months and 18 days to prepare the draft Constitution.",
+      "as": "সংবিধানৰ খচৰা প্ৰস্তুত কৰিবলৈ ২ বছৰ, ১১ মাহ আৰু ১৮ দিন লাগিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-009",
+    "q": {
+      "en": "Who was the temporary Chairman of the first meeting of the Constituent Assembly?",
+      "as": "সংবিধান সভাৰ প্ৰথম বৈঠকৰ অস্থায়ী অধ্যক্ষ কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Sachchidananda Sinha",
+        "as": "সচ্চিদানন্দ সিনহা"
+      },
+      {
+        "en": "Jawaharlal Nehru",
+        "as": "জৱাহৰলাল নেহৰু"
+      },
+      {
+        "en": "Dr. Rajendra Prasad",
+        "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ"
+      },
+      {
+        "en": "Dr. B.R. Ambedkar",
+        "as": "ড০ বি. আৰ. আম্বেদকাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sachchidananda Sinha was the temporary Chairman of the first meeting on 9 December 1946.",
+      "as": "৯ ডিচেম্বৰ ১৯৪৬ তাৰিখৰ প্ৰথম বৈঠকৰ অস্থায়ী অধ্যক্ষ আছিল সচ্চিদানন্দ সিনহা।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-010",
+    "q": {
+      "en": "Who was the Chairman of the Union Constitution Committee?",
+      "as": "কেন্দ্ৰীয় সংবিধান সমিতিৰ অধ্যক্ষ কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Dr. B.R. Ambedkar",
+        "as": "ড০ বি. আৰ. আম্বেদকাৰ"
+      },
+      {
+        "en": "Jawaharlal Nehru",
+        "as": "জৱাহৰলাল নেহৰু"
+      },
+      {
+        "en": "J.B. Kripalani",
+        "as": "জে. বি. কৃপালানি"
+      },
+      {
+        "en": "Sardar Patel",
+        "as": "সৰ্দাৰ পেটেল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Jawaharlal Nehru was the Chairman of the Union Constitution Committee.",
+      "as": "জৱাহৰলাল নেহৰু কেন্দ্ৰীয় সংবিধান সমিতিৰ অধ্যক্ষ আছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-011",
+    "q": {
+      "en": "Who was the Chairman of the Fundamental Rights Sub-Committee?",
+      "as": "মৌলিক অধিকাৰ উপ-সমিতিৰ অধ্যক্ষ কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Jawaharlal Nehru",
+        "as": "জৱাহৰলাল নেহৰু"
+      },
+      {
+        "en": "Sardar Patel",
+        "as": "সৰ্দাৰ পেটেল"
+      },
+      {
+        "en": "J.B. Kripalani",
+        "as": "জে. বি. কৃপালানি"
+      },
+      {
+        "en": "Dr. B.R. Ambedkar",
+        "as": "ড০ বি. আৰ. আম্বেদকাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "J.B. Kripalani was the Chairman of the Fundamental Rights Sub-Committee.",
+      "as": "জে. বি. কৃপালানি মৌলিক অধিকাৰ উপ-সমিতিৰ অধ্যক্ষ আছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-012",
+    "q": {
+      "en": "Who was the Constitutional Advisor to the Constituent Assembly?",
+      "as": "সংবিধান সভাৰ সংবিধান উপদেষ্টা কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Alladi Krishnaswamy",
+        "as": "অল্লাদি কৃষ্ণস্বামী"
+      },
+      {
+        "en": "Dr. B.R. Ambedkar",
+        "as": "ড০ বি. আৰ. আম্বেদকাৰ"
+      },
+      {
+        "en": "K.M. Munshi",
+        "as": "কে. এম. মুন্সি"
+      },
+      {
+        "en": "B.N. Rau",
+        "as": "বি. এন. ৰাউ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "B.N. Rau was the Constitutional Advisor to the Constituent Assembly.",
+      "as": "বি. এন. ৰাউ সংবিধান সভাৰ সংবিধান উপদেষ্টা আছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-013",
+    "q": {
+      "en": "Constitution Day (Samvidhan Divas) is celebrated on which date?",
+      "as": "সংবিধান দিৱস কোন তাৰিখে পালন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "26 November",
+        "as": "২৬ নৱেম্বৰ"
+      },
+      {
+        "en": "15 August",
+        "as": "১৫ আগষ্ট"
+      },
+      {
+        "en": "26 January",
+        "as": "২৬ জানুৱাৰী"
+      },
+      {
+        "en": "2 October",
+        "as": "২ অক্টোবৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Constitution Day is celebrated on 26 November to commemorate the adoption of the Constitution.",
+      "as": "সংবিধান গ্ৰহণৰ স্মৃতিত ২৬ নৱেম্বৰ তাৰিখে সংবিধান দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-014",
+    "q": {
+      "en": "How many Articles did the original Constitution contain?",
+      "as": "মূল সংবিধানত কিমানটা অনুচ্ছেদ আছিল?"
+    },
+    "options": [
+      {
+        "en": "370",
+        "as": "৩৭০"
+      },
+      {
+        "en": "395",
+        "as": "৩৯৫"
+      },
+      {
+        "en": "448",
+        "as": "৪৪৮"
+      },
+      {
+        "en": "450",
+        "as": "৪৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The original Constitution contained 395 Articles.",
+      "as": "মূল সংবিধানত ৩৯৫টা অনুচ্ছেদ আছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-015",
+    "q": {
+      "en": "How many Parts did the original Constitution contain?",
+      "as": "মূল সংবিধানত কিমানটা অংশ আছিল?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The original Constitution had 22 Parts.",
+      "as": "মূল সংবিধানত ২২টা অংশ আছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-016",
+    "q": {
+      "en": "How many Schedules did the original Constitution contain?",
+      "as": "মূল সংবিধানত কিমানটা অনুসূচী আছিল?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The original Constitution had 8 Schedules.",
+      "as": "মূল সংবিধানত ৮টা অনুসূচী আছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-017",
+    "q": {
+      "en": "How many Schedules does the Constitution have at present?",
+      "as": "বৰ্তমান সংবিধানত কিমানটা অনুসূচী আছে?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "At present the Constitution has 12 Schedules.",
+      "as": "বৰ্তমান সংবিধানত ১২টা অনুসূচী আছে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-018",
+    "q": {
+      "en": "The Constituent Assembly first met on which date?",
+      "as": "সংবিধান সভাৰ প্ৰথম বৈঠক কোন তাৰিখে অনুষ্ঠিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "26 January 1950",
+        "as": "২৬ জানুৱাৰী ১৯৫০"
+      },
+      {
+        "en": "9 December 1946",
+        "as": "৯ ডিচেম্বৰ ১৯৪৬"
+      },
+      {
+        "en": "15 August 1947",
+        "as": "১৫ আগষ্ট ১৯৪৭"
+      },
+      {
+        "en": "26 November 1949",
+        "as": "২৬ নৱেম্বৰ ১৯৪৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Constituent Assembly held its first meeting on 9 December 1946.",
+      "as": "সংবিধান সভাই ৯ ডিচেম্বৰ ১৯৪৬ তাৰিখে প্ৰথম বৈঠক অনুষ্ঠিত কৰিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-019",
+    "q": {
+      "en": "Who first proposed the idea of a Constituent Assembly for India?",
+      "as": "ভাৰতৰ বাবে সংবিধান সভাৰ ধাৰণা প্ৰথমে কোনে প্ৰস্তাৱ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Jawaharlal Nehru",
+        "as": "জৱাহৰলাল নেহৰু"
+      },
+      {
+        "en": "Mahatma Gandhi",
+        "as": "মহাত্মা গান্ধী"
+      },
+      {
+        "en": "M.N. Roy",
+        "as": "এম. এন. ৰয়"
+      },
+      {
+        "en": "Dr. B.R. Ambedkar",
+        "as": "ড০ বি. আৰ. আম্বেদকাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "M.N. Roy first proposed the idea of a Constituent Assembly in 1934.",
+      "as": "এম. এন. ৰয়ে ১৯৩৪ চনত সংবিধান সভাৰ ধাৰণা প্ৰথমে প্ৰস্তাৱ কৰিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-020",
+    "q": {
+      "en": "Who was the first President of India?",
+      "as": "ভাৰতৰ প্ৰথম ৰাষ্ট্ৰপতি কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Dr. S. Radhakrishnan",
+        "as": "ড০ এছ. ৰাধাকৃষ্ণণ"
+      },
+      {
+        "en": "Jawaharlal Nehru",
+        "as": "জৱাহৰলাল নেহৰু"
+      },
+      {
+        "en": "Dr. Zakir Husain",
+        "as": "ড০ জাকিৰ হুছেইন"
+      },
+      {
+        "en": "Dr. Rajendra Prasad",
+        "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Dr. Rajendra Prasad was the first President of India.",
+      "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ ভাৰতৰ প্ৰথম ৰাষ্ট্ৰপতি আছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-021",
+    "q": {
+      "en": "How many times has the Preamble to the Constitution been amended?",
+      "as": "সংবিধানৰ প্ৰস্তাৱনা কিমানবাৰ সংশোধন কৰা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Once",
+        "as": "এবাৰ"
+      },
+      {
+        "en": "Thrice",
+        "as": "তিনিবাৰ"
+      },
+      {
+        "en": "Twice",
+        "as": "দুবাৰ"
+      },
+      {
+        "en": "Never",
+        "as": "কেতিয়াও নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Preamble has been amended only once, by the 42nd Amendment in 1976.",
+      "as": "প্ৰস্তাৱনা কেৱল এবাৰ, ১৯৭৬ চনৰ ৪২ সংখ্যক সংশোধনীৰ জৰিয়তে সংশোধন কৰা হৈছে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-022",
+    "q": {
+      "en": "Which Amendment added the words 'Socialist', 'Secular' and 'Integrity' to the Preamble?",
+      "as": "কোন সংশোধনীয়ে প্ৰস্তাৱনাত 'সমাজবাদী', 'ধৰ্মনিৰপেক্ষ' আৰু 'সংহতি' শব্দ যোগ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "44th Amendment",
+        "as": "৪৪ সংখ্যক সংশোধনী"
+      },
+      {
+        "en": "42nd Amendment",
+        "as": "৪২ সংখ্যক সংশোধনী"
+      },
+      {
+        "en": "52nd Amendment",
+        "as": "৫২ সংখ্যক সংশোধনী"
+      },
+      {
+        "en": "1st Amendment",
+        "as": "১ সংখ্যক সংশোধনী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The 42nd Amendment (1976) added Socialist, Secular and Integrity to the Preamble.",
+      "as": "৪২ সংখ্যক সংশোধনীয়ে (১৯৭৬) প্ৰস্তাৱনাত সমাজবাদী, ধৰ্মনিৰপেক্ষ আৰু সংহতি যোগ কৰিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-023",
+    "q": {
+      "en": "The Preamble declares India to be a:",
+      "as": "প্ৰস্তাৱনাই ভাৰতক ঘোষণা কৰে এটা:"
+    },
+    "options": [
+      {
+        "en": "Federal Socialist Republic",
+        "as": "যুক্তৰাষ্ট্ৰীয় সমাজবাদী প্ৰজাতন্ত্ৰ"
+      },
+      {
+        "en": "Secular Democratic Kingdom",
+        "as": "ধৰ্মনিৰপেক্ষ গণতান্ত্ৰিক ৰাজ্য"
+      },
+      {
+        "en": "Sovereign Socialist Secular Democratic Republic",
+        "as": "সাৰ্বভৌম সমাজবাদী ধৰ্মনিৰপেক্ষ গণতান্ত্ৰিক প্ৰজাতন্ত্ৰ"
+      },
+      {
+        "en": "Sovereign Democratic Monarchy",
+        "as": "সাৰ্বভৌম গণতান্ত্ৰিক ৰাজতন্ত্ৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Preamble describes India as a Sovereign Socialist Secular Democratic Republic.",
+      "as": "প্ৰস্তাৱনাই ভাৰতক সাৰ্বভৌম সমাজবাদী ধৰ্মনিৰপেক্ষ গণতান্ত্ৰিক প্ৰজাতন্ত্ৰ হিচাপে বৰ্ণনা কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-024",
+    "q": {
+      "en": "In the Preamble, the word 'Secular' means:",
+      "as": "প্ৰস্তাৱনাত 'ধৰ্মনিৰপেক্ষ' শব্দৰ অৰ্থ:"
+    },
+    "options": [
+      {
+        "en": "Only one religion is allowed",
+        "as": "কেৱল এটা ধৰ্মৰ অনুমতি"
+      },
+      {
+        "en": "The State follows one religion",
+        "as": "ৰাষ্ট্ৰই এটা ধৰ্ম পালন কৰে"
+      },
+      {
+        "en": "Religion is banned",
+        "as": "ধৰ্ম নিষিদ্ধ"
+      },
+      {
+        "en": "The State has no religion of its own",
+        "as": "ৰাষ্ট্ৰৰ নিজা কোনো ধৰ্ম নাই"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Secular' means the State has no religion of its own and treats all religions equally.",
+      "as": "'ধৰ্মনিৰপেক্ষ'ৰ অৰ্থ হৈছে ৰাষ্ট্ৰৰ নিজা ধৰ্ম নাই আৰু সকলো ধৰ্মক সমানে ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-025",
+    "q": {
+      "en": "The Preamble of the Indian Constitution is based on which document?",
+      "as": "ভাৰতীয় সংবিধানৰ প্ৰস্তাৱনা কোনখন দস্তাবেজৰ ওপৰত আধাৰিত?"
+    },
+    "options": [
+      {
+        "en": "Objectives Resolution",
+        "as": "উদ্দেশ্য প্ৰস্তাৱ"
+      },
+      {
+        "en": "Government of India Act, 1935",
+        "as": "ভাৰত চৰকাৰ আইন, ১৯৩৫"
+      },
+      {
+        "en": "Nehru Report",
+        "as": "নেহৰু ৰিপৰ্ট"
+      },
+      {
+        "en": "Cabinet Mission Plan",
+        "as": "কেবিনেট মিছন পৰিকল্পনা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Preamble is based on the Objectives Resolution moved by Nehru.",
+      "as": "প্ৰস্তাৱনা নেহৰুৱে উত্থাপন কৰা উদ্দেশ্য প্ৰস্তাৱৰ ওপৰত আধাৰিত।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-026",
+    "q": {
+      "en": "Which case declared that the Preamble is a part of the Constitution?",
+      "as": "কোনটো গোচৰে প্ৰস্তাৱনা সংবিধানৰ অংশ বুলি ঘোষণা কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Golaknath case (1967)",
+        "as": "গোলকনাথ গোচৰ (১৯৬৭)"
+      },
+      {
+        "en": "Kesavananda Bharati case (1973)",
+        "as": "কেশৱানন্দ ভাৰতী গোচৰ (১৯৭৩)"
+      },
+      {
+        "en": "Minerva Mills case (1980)",
+        "as": "মিনাৰ্ভা মিলছ গোচৰ (১৯৮০)"
+      },
+      {
+        "en": "Berubari Union case (1960)",
+        "as": "বেৰুবাৰি ইউনিয়ন গোচৰ (১৯৬০)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In Kesavananda Bharati v. State of Kerala (1973), the Supreme Court held the Preamble is part of the Constitution.",
+      "as": "কেশৱানন্দ ভাৰতী বনাম কেৰালা ৰাজ্য (১৯৭৩) গোচৰত উচ্চতম ন্যায়ালয়ে প্ৰস্তাৱনা সংবিধানৰ অংশ বুলি ৰায় দিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-027",
+    "q": {
+      "en": "Which case held that the Preamble is not a part of the Constitution?",
+      "as": "কোনটো গোচৰে প্ৰস্তাৱনা সংবিধানৰ অংশ নহয় বুলি ৰায় দিছিল?"
+    },
+    "options": [
+      {
+        "en": "Kesavananda Bharati case (1973)",
+        "as": "কেশৱানন্দ ভাৰতী গোচৰ (১৯৭৩)"
+      },
+      {
+        "en": "Shankari Prasad case (1951)",
+        "as": "শংকৰী প্ৰসাদ গোচৰ (১৯৫১)"
+      },
+      {
+        "en": "Berubari Union case (1960)",
+        "as": "বেৰুবাৰি ইউনিয়ন গোচৰ (১৯৬০)"
+      },
+      {
+        "en": "Maneka Gandhi case (1978)",
+        "as": "মেনেকা গান্ধী গোচৰ (১৯৭৮)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In the Berubari Union case (1960), the Supreme Court said the Preamble is not part of the Constitution.",
+      "as": "বেৰুবাৰি ইউনিয়ন গোচৰত (১৯৬০) উচ্চতম ন্যায়ালয়ে প্ৰস্তাৱনা সংবিধানৰ অংশ নহয় বুলি কৈছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-028",
+    "q": {
+      "en": "The phrase 'We the People' in the Preamble indicates:",
+      "as": "প্ৰস্তাৱনাত 'আমি জনতা' বাক্যাংশই সূচায়:"
+    },
+    "options": [
+      {
+        "en": "Judicial supremacy",
+        "as": "ন্যায়িক শ্ৰেষ্ঠত্ব"
+      },
+      {
+        "en": "Presidential supremacy",
+        "as": "ৰাষ্ট্ৰপতিৰ শ্ৰেষ্ঠত্ব"
+      },
+      {
+        "en": "Parliamentary supremacy",
+        "as": "সংসদৰ শ্ৰেষ্ঠত্ব"
+      },
+      {
+        "en": "Popular sovereignty",
+        "as": "জনগণৰ সাৰ্বভৌমত্ব"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'We the People' shows that sovereignty belongs to the people of India.",
+      "as": "'আমি জনতা'ই দেখুৱায় যে সাৰ্বভৌমত্ব ভাৰতৰ জনসাধাৰণৰ ওচৰত আছে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-029",
+    "q": {
+      "en": "According to the Preamble, the objectives of the Constitution are:",
+      "as": "প্ৰস্তাৱনা অনুসৰি সংবিধানৰ উদ্দেশ্যসমূহ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "Justice, Liberty, Equality and Fraternity",
+        "as": "ন্যায়, স্বাধীনতা, সমতা আৰু ভ্ৰাতৃত্ব"
+      },
+      {
+        "en": "Justice, Freedom, Peace and Unity",
+        "as": "ন্যায়, মুক্তি, শান্তি আৰু একতা"
+      },
+      {
+        "en": "Liberty, Property, Equality and Justice",
+        "as": "স্বাধীনতা, সম্পত্তি, সমতা আৰু ন্যায়"
+      },
+      {
+        "en": "Equality, Security, Liberty and Peace",
+        "as": "সমতা, সুৰক্ষা, স্বাধীনতা আৰু শান্তি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Preamble secures Justice, Liberty, Equality and Fraternity for all citizens.",
+      "as": "প্ৰস্তাৱনাই সকলো নাগৰিকৰ বাবে ন্যায়, স্বাধীনতা, সমতা আৰু ভ্ৰাতৃত্ব সুৰক্ষিত কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-030",
+    "q": {
+      "en": "Justice mentioned in the Preamble includes:",
+      "as": "প্ৰস্তাৱনাত উল্লেখ কৰা ন্যায়ৰ ভিতৰত আছে:"
+    },
+    "options": [
+      {
+        "en": "Legal, Moral and Social",
+        "as": "আইনী, নৈতিক আৰু সামাজিক"
+      },
+      {
+        "en": "Social, Economic and Political",
+        "as": "সামাজিক, অৰ্থনৈতিক আৰু ৰাজনৈতিক"
+      },
+      {
+        "en": "Political, Cultural and Economic",
+        "as": "ৰাজনৈতিক, সাংস্কৃতিক আৰু অৰ্থনৈতিক"
+      },
+      {
+        "en": "Social, Legal and Economic",
+        "as": "সামাজিক, আইনী আৰু অৰ্থনৈতিক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Preamble provides for social, economic and political justice.",
+      "as": "প্ৰস্তাৱনাই সামাজিক, অৰ্থনৈতিক আৰু ৰাজনৈতিক ন্যায়ৰ ব্যৱস্থা কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-031",
+    "q": {
+      "en": "Which of the following words was NOT in the original Preamble?",
+      "as": "তলৰ কোনটো শব্দ মূল প্ৰস্তাৱনাত নাছিল?"
+    },
+    "options": [
+      {
+        "en": "Democratic",
+        "as": "গণতান্ত্ৰিক"
+      },
+      {
+        "en": "Sovereign",
+        "as": "সাৰ্বভৌম"
+      },
+      {
+        "en": "Socialist",
+        "as": "সমাজবাদী"
+      },
+      {
+        "en": "Republic",
+        "as": "প্ৰজাতন্ত্ৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Socialist' was added by the 42nd Amendment in 1976.",
+      "as": "'সমাজবাদী' ১৯৭৬ চনৰ ৪২ সংখ্যক সংশোধনীৰ জৰিয়তে যোগ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-032",
+    "q": {
+      "en": "How many times does the word 'Justice' appear in the Preamble?",
+      "as": "প্ৰস্তাৱনাত 'ন্যায়' শব্দ কিমানবাৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "Once",
+        "as": "এবাৰ"
+      },
+      {
+        "en": "Twice",
+        "as": "দুবাৰ"
+      },
+      {
+        "en": "Four times",
+        "as": "চাৰিবাৰ"
+      },
+      {
+        "en": "Three times",
+        "as": "তিনিবাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The word 'Justice' appears three times: social, economic and political justice.",
+      "as": "'ন্যায়' শব্দ তিনিবাৰ আছে: সামাজিক, অৰ্থনৈতিক আৰু ৰাজনৈতিক ন্যায়।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-033",
+    "q": {
+      "en": "The Preamble is often described as the:",
+      "as": "প্ৰস্তাৱনাক প্ৰায়ে বৰ্ণনা কৰা হয়:"
+    },
+    "options": [
+      {
+        "en": "Soul of the Constitution",
+        "as": "সংবিধানৰ আত্মা"
+      },
+      {
+        "en": "Heart of the Constitution",
+        "as": "সংবিধানৰ হৃদয়"
+      },
+      {
+        "en": "Body of the Constitution",
+        "as": "সংবিধানৰ শৰীৰ"
+      },
+      {
+        "en": "Backbone of the Constitution",
+        "as": "সংবিধানৰ মেৰুদণ্ড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Preamble is called the soul and identity card of the Constitution.",
+      "as": "প্ৰস্তাৱনাক সংবিধানৰ আত্মা আৰু পৰিচয়-পত্ৰ বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-034",
+    "q": {
+      "en": "The term 'Fraternity' in the Preamble aims to ensure:",
+      "as": "প্ৰস্তাৱনাত 'ভ্ৰাতৃত্ব' পদটোৱে নিশ্চিত কৰিব বিচাৰে:"
+    },
+    "options": [
+      {
+        "en": "Right to property",
+        "as": "সম্পত্তিৰ অধিকাৰ"
+      },
+      {
+        "en": "Dignity of the individual and unity of the nation",
+        "as": "ব্যক্তিৰ মৰ্যাদা আৰু ৰাষ্ট্ৰৰ একতা"
+      },
+      {
+        "en": "Equal distribution of wealth",
+        "as": "সম্পত্তিৰ সমান বিতৰণ"
+      },
+      {
+        "en": "Freedom of religion",
+        "as": "ধৰ্মৰ স্বাধীনতা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Fraternity ensures the dignity of the individual and the unity and integrity of the nation.",
+      "as": "ভ্ৰাতৃত্বই ব্যক্তিৰ মৰ্যাদা আৰু ৰাষ্ট্ৰৰ একতা তথা সংহতি নিশ্চিত কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-035",
+    "q": {
+      "en": "The Preamble was amended by which Amendment Act?",
+      "as": "প্ৰস্তাৱনা কোন সংশোধনী আইনৰ জৰিয়তে সংশোধন কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1st Amendment Act, 1951",
+        "as": "১ সংখ্যক সংশোধনী আইন, ১৯৫১"
+      },
+      {
+        "en": "52nd Amendment Act, 1985",
+        "as": "৫২ সংখ্যক সংশোধনী আইন, ১৯৮৫"
+      },
+      {
+        "en": "42nd Amendment Act, 1976",
+        "as": "৪২ সংখ্যক সংশোধনী আইন, ১৯৭৬"
+      },
+      {
+        "en": "44th Amendment Act, 1978",
+        "as": "৪৪ সংখ্যক সংশোধনী আইন, ১৯৭৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The 42nd Amendment Act, 1976 amended the Preamble.",
+      "as": "৪২ সংখ্যক সংশোধনী আইন, ১৯৭৬-য়ে প্ৰস্তাৱনা সংশোধন কৰিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-036",
+    "q": {
+      "en": "The words 'Socialist' and 'Secular' were added to the Preamble in which year?",
+      "as": "কোন বছৰত প্ৰস্তাৱনাত 'সমাজবাদী' আৰু 'ধৰ্মনিৰপেক্ষ' শব্দ যোগ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1978",
+        "as": "১৯৭৮"
+      },
+      {
+        "en": "1951",
+        "as": "১৯৫১"
+      },
+      {
+        "en": "1950",
+        "as": "১৯৫০"
+      },
+      {
+        "en": "1976",
+        "as": "১৯৭৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "They were added by the 42nd Amendment in 1976.",
+      "as": "১৯৭৬ চনৰ ৪২ সংখ্যক সংশোধনীৰ জৰিয়তে সেয়া যোগ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-037",
+    "q": {
+      "en": "The Preamble declares the source of authority of the Constitution as:",
+      "as": "প্ৰস্তাৱনাই সংবিধানৰ কৰ্তৃত্বৰ উৎস ঘোষণা কৰে:"
+    },
+    "options": [
+      {
+        "en": "The people of India",
+        "as": "ভাৰতৰ জনসাধাৰণ"
+      },
+      {
+        "en": "The Parliament",
+        "as": "সংসদ"
+      },
+      {
+        "en": "The Supreme Court",
+        "as": "উচ্চতম ন্যায়ালয়"
+      },
+      {
+        "en": "The President",
+        "as": "ৰাষ্ট্ৰপতি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Preamble declares that authority emanates from the people of India.",
+      "as": "প্ৰস্তাৱনাই ঘোষণা কৰে যে কৰ্তৃত্ব ভাৰতৰ জনসাধাৰণৰ পৰা উৎপন্ন হয়।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-038",
+    "q": {
+      "en": "Which word in the Preamble means that India has an elected head of state?",
+      "as": "প্ৰস্তাৱনাত কোনটো শব্দই সূচায় যে ভাৰতৰ ৰাষ্ট্ৰপ্ৰধান নিৰ্বাচিত?"
+    },
+    "options": [
+      {
+        "en": "Democratic",
+        "as": "গণতান্ত্ৰিক"
+      },
+      {
+        "en": "Republic",
+        "as": "প্ৰজাতন্ত্ৰ"
+      },
+      {
+        "en": "Sovereign",
+        "as": "সাৰ্বভৌম"
+      },
+      {
+        "en": "Socialist",
+        "as": "সমাজবাদী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Republic' means the head of state is elected and not a hereditary monarch.",
+      "as": "'প্ৰজাতন্ত্ৰ'ৰ অৰ্থ হৈছে ৰাষ্ট্ৰপ্ৰধান নিৰ্বাচিত, বংশানুচৰিত ৰজা নহয়।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-039",
+    "q": {
+      "en": "In which Part of the Constitution are the Fundamental Rights contained?",
+      "as": "সংবিধানৰ কোনটো অংশত মৌলিক অধিকাৰ সন্নিবিষ্ট আছে?"
+    },
+    "options": [
+      {
+        "en": "Part II",
+        "as": "দ্বিতীয় অংশ"
+      },
+      {
+        "en": "Part V",
+        "as": "পঞ্চম অংশ"
+      },
+      {
+        "en": "Part III",
+        "as": "তৃতীয় অংশ"
+      },
+      {
+        "en": "Part IV",
+        "as": "চতুৰ্থ অংশ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Fundamental Rights are contained in Part III (Articles 12-35).",
+      "as": "মৌলিক অধিকাৰ তৃতীয় অংশত (অনুচ্ছেদ ১২-৩৫) সন্নিবিষ্ট।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-040",
+    "q": {
+      "en": "Fundamental Rights are described in which Articles?",
+      "as": "মৌলিক অধিকাৰ কোন অনুচ্ছেদত বৰ্ণনা কৰা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Articles 5 to 11",
+        "as": "অনুচ্ছেদ ৫ ৰ পৰা ১১"
+      },
+      {
+        "en": "Articles 52 to 78",
+        "as": "অনুচ্ছেদ ৫২ ৰ পৰা ৭৮"
+      },
+      {
+        "en": "Articles 36 to 51",
+        "as": "অনুচ্ছেদ ৩৬ ৰ পৰা ৫১"
+      },
+      {
+        "en": "Articles 12 to 35",
+        "as": "অনুচ্ছেদ ১২ ৰ পৰা ৩৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Fundamental Rights are covered under Articles 12 to 35.",
+      "as": "মৌলিক অধিকাৰ অনুচ্ছেদ ১২ ৰ পৰা ৩৫ ৰ অধীনত অন্তৰ্ভুক্ত।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-041",
+    "q": {
+      "en": "How many Fundamental Rights are there at present?",
+      "as": "বৰ্তমান কিমানটা মৌলিক অধিকাৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "Six",
+        "as": "ছয়টা"
+      },
+      {
+        "en": "Five",
+        "as": "পাঁচটা"
+      },
+      {
+        "en": "Eight",
+        "as": "আঠটা"
+      },
+      {
+        "en": "Seven",
+        "as": "সাতটা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are six Fundamental Rights at present.",
+      "as": "বৰ্তমান ছয়টা মৌলিক অধিকাৰ আছে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-042",
+    "q": {
+      "en": "Which Article defines the term 'State' for the purpose of Fundamental Rights?",
+      "as": "মৌলিক অধিকাৰৰ উদ্দেশ্যে 'ৰাষ্ট্ৰ' শব্দটো কোন অনুচ্ছেদত সংজ্ঞায়িত কৰা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Article 13",
+        "as": "অনুচ্ছেদ ১৩"
+      },
+      {
+        "en": "Article 12",
+        "as": "অনুচ্ছেদ ১২"
+      },
+      {
+        "en": "Article 15",
+        "as": "অনুচ্ছেদ ১৫"
+      },
+      {
+        "en": "Article 14",
+        "as": "অনুচ্ছেদ ১৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Article 12 defines the term 'State' for Part III.",
+      "as": "অনুচ্ছেদ ১২-ই তৃতীয় অংশৰ বাবে 'ৰাষ্ট্ৰ' শব্দটো সংজ্ঞায়িত কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-043",
+    "q": {
+      "en": "Which Article guarantees equality before the law?",
+      "as": "কোন অনুচ্ছেদে আইনৰ আগত সমতা নিশ্চিত কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 15",
+        "as": "অনুচ্ছেদ ১৫"
+      },
+      {
+        "en": "Article 16",
+        "as": "অনুচ্ছেদ ১৬"
+      },
+      {
+        "en": "Article 14",
+        "as": "অনুচ্ছেদ ১৪"
+      },
+      {
+        "en": "Article 17",
+        "as": "অনুচ্ছেদ ১৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Article 14 guarantees equality before the law and equal protection of the laws.",
+      "as": "অনুচ্ছেদ ১৪-য়ে আইনৰ আগত সমতা আৰু আইনৰ সমান সুৰক্ষা নিশ্চিত কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-044",
+    "q": {
+      "en": "Which Article prohibits discrimination on grounds of religion, race, caste, sex or place of birth?",
+      "as": "কোন অনুচ্ছেদে ধৰ্ম, জাতি, বৰ্ণ, লিংগ বা জন্মস্থানৰ ভিত্তিত ভেদাভেদ নিষিদ্ধ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 16",
+        "as": "অনুচ্ছেদ ১৬"
+      },
+      {
+        "en": "Article 14",
+        "as": "অনুচ্ছেদ ১৪"
+      },
+      {
+        "en": "Article 18",
+        "as": "অনুচ্ছেদ ১৮"
+      },
+      {
+        "en": "Article 15",
+        "as": "অনুচ্ছেদ ১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Article 15 prohibits discrimination on these grounds.",
+      "as": "অনুচ্ছেদ ১৫-য়ে এই ভিত্তিসমূহত ভেদাভেদ নিষিদ্ধ কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-045",
+    "q": {
+      "en": "Which Article provides equality of opportunity in public employment?",
+      "as": "কোন অনুচ্ছেদে ৰাজহুৱা নিয়োগত সুযোগৰ সমতা প্ৰদান কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 16",
+        "as": "অনুচ্ছেদ ১৬"
+      },
+      {
+        "en": "Article 14",
+        "as": "অনুচ্ছেদ ১৪"
+      },
+      {
+        "en": "Article 15",
+        "as": "অনুচ্ছেদ ১৫"
+      },
+      {
+        "en": "Article 17",
+        "as": "অনুচ্ছেদ ১৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Article 16 provides equality of opportunity in matters of public employment.",
+      "as": "অনুচ্ছেদ ১৬-ই ৰাজহুৱা নিয়োগৰ ক্ষেত্ৰত সুযোগৰ সমতা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-046",
+    "q": {
+      "en": "Which Article abolishes untouchability?",
+      "as": "কোন অনুচ্ছেদে অস্পৃশ্যতা বিলুপ্ত কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 16",
+        "as": "অনুচ্ছেদ ১৬"
+      },
+      {
+        "en": "Article 17",
+        "as": "অনুচ্ছেদ ১৭"
+      },
+      {
+        "en": "Article 15",
+        "as": "অনুচ্ছেদ ১৫"
+      },
+      {
+        "en": "Article 18",
+        "as": "অনুচ্ছেদ ১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Article 17 abolishes untouchability and forbids its practice.",
+      "as": "অনুচ্ছেদ ১৭-য়ে অস্পৃশ্যতা বিলুপ্ত কৰে আৰু ইয়াৰ প্ৰচলন নিষিদ্ধ কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-047",
+    "q": {
+      "en": "Which Article abolishes titles?",
+      "as": "কোন অনুচ্ছেদে উপাধি বিলুপ্ত কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 17",
+        "as": "অনুচ্ছেদ ১৭"
+      },
+      {
+        "en": "Article 19",
+        "as": "অনুচ্ছেদ ১৯"
+      },
+      {
+        "en": "Article 18",
+        "as": "অনুচ্ছেদ ১৮"
+      },
+      {
+        "en": "Article 16",
+        "as": "অনুচ্ছেদ ১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Article 18 abolishes titles, except military and academic distinctions.",
+      "as": "অনুচ্ছেদ ১৮-য়ে সামৰিক আৰু শৈক্ষিক সন্মান বাদে উপাধি বিলুপ্ত কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-048",
+    "q": {
+      "en": "Right to Equality is covered under which Articles?",
+      "as": "সমতাৰ অধিকাৰ কোন অনুচ্ছেদসমূহৰ অধীনত?"
+    },
+    "options": [
+      {
+        "en": "Articles 19 to 22",
+        "as": "অনুচ্ছেদ ১৯ ৰ পৰা ২২"
+      },
+      {
+        "en": "Articles 23 to 24",
+        "as": "অনুচ্ছেদ ২৩ ৰ পৰা ২৪"
+      },
+      {
+        "en": "Articles 25 to 28",
+        "as": "অনুচ্ছেদ ২৫ ৰ পৰা ২৮"
+      },
+      {
+        "en": "Articles 14 to 18",
+        "as": "অনুচ্ছেদ ১৪ ৰ পৰা ১৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Right to Equality is covered under Articles 14 to 18.",
+      "as": "সমতাৰ অধিকাৰ অনুচ্ছেদ ১৪ ৰ পৰা ১৮ ৰ অধীনত।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-049",
+    "q": {
+      "en": "Which Article guarantees the six freedoms, including freedom of speech and expression?",
+      "as": "কোন অনুচ্ছেদে বাক স্বাধীনতা আৰু প্ৰকাশকে ধৰি ছয়টা স্বাধীনতা নিশ্চিত কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 19",
+        "as": "অনুচ্ছেদ ১৯"
+      },
+      {
+        "en": "Article 20",
+        "as": "অনুচ্ছেদ ২০"
+      },
+      {
+        "en": "Article 22",
+        "as": "অনুচ্ছেদ ২২"
+      },
+      {
+        "en": "Article 21",
+        "as": "অনুচ্ছেদ ২১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Article 19 guarantees six freedoms to citizens.",
+      "as": "অনুচ্ছেদ ১৯-য়ে নাগৰিকক ছয়টা স্বাধীনতা নিশ্চিত কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-050",
+    "q": {
+      "en": "How many freedoms are guaranteed under Article 19?",
+      "as": "অনুচ্ছেদ ১৯ ৰ অধীনত কিমানটা স্বাধীনতা নিশ্চিত কৰা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Five",
+        "as": "পাঁচটা"
+      },
+      {
+        "en": "Six",
+        "as": "ছয়টা"
+      },
+      {
+        "en": "Seven",
+        "as": "সাতটা"
+      },
+      {
+        "en": "Four",
+        "as": "চাৰিটা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Article 19 originally had seven freedoms; the right to property was removed, leaving six.",
+      "as": "অনুচ্ছেদ ১৯-ত মূলত সাতটা স্বাধীনতা আছিল; সম্পত্তিৰ অধিকাৰ আঁতৰোৱাৰ পিছত ছয়টা ৰৈ যায়।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-051",
+    "q": {
+      "en": "Which Article protects a person against conviction under retrospective law and double jeopardy?",
+      "as": "কোন অনুচ্ছেদে প্ৰত্ৰিয়মূলক আইনৰ অধীনত দোষী সাব্যস্ত আৰু দ্বিগুণ শাস্তিৰ পৰা সুৰক্ষা দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Article 21",
+        "as": "অনুচ্ছেদ ২১"
+      },
+      {
+        "en": "Article 22",
+        "as": "অনুচ্ছেদ ২২"
+      },
+      {
+        "en": "Article 20",
+        "as": "অনুচ্ছেদ ২০"
+      },
+      {
+        "en": "Article 19",
+        "as": "অনুচ্ছেদ ১৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Article 20 provides protection in respect of conviction for offences.",
+      "as": "অনুচ্ছেদ ২০-য়ে অপৰাধৰ বাবে দোষী সাব্যস্ততাৰ ক্ষেত্ৰত সুৰক্ষা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-052",
+    "q": {
+      "en": "Which Article guarantees the right to life and personal liberty?",
+      "as": "কোন অনুচ্ছেদে জীৱন আৰু ব্যক্তিগত স্বাধীনতাৰ অধিকাৰ নিশ্চিত কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 20",
+        "as": "অনুচ্ছেদ ২০"
+      },
+      {
+        "en": "Article 19",
+        "as": "অনুচ্ছেদ ১৯"
+      },
+      {
+        "en": "Article 22",
+        "as": "অনুচ্ছেদ ২২"
+      },
+      {
+        "en": "Article 21",
+        "as": "অনুচ্ছেদ ২১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Article 21 guarantees the right to life and personal liberty.",
+      "as": "অনুচ্ছেদ ২১-য়ে জীৱন আৰু ব্যক্তিগত স্বাধীনতাৰ অধিকাৰ নিশ্চিত কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-053",
+    "q": {
+      "en": "The right to education was inserted in Article 21A by which Amendment?",
+      "as": "শিক্ষাৰ অধিকাৰ কোন সংশোধনীৰ জৰিয়তে অনুচ্ছেদ ২১এ(ক)-ত সন্নিবিষ্ট কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "86th Amendment, 2002",
+        "as": "৮৬ সংখ্যক সংশোধনী, ২০০২"
+      },
+      {
+        "en": "73rd Amendment, 1992",
+        "as": "৭৩ সংখ্যক সংশোধনী, ১৯৯২"
+      },
+      {
+        "en": "44th Amendment, 1978",
+        "as": "৪৪ সংখ্যক সংশোধনী, ১৯৭৮"
+      },
+      {
+        "en": "42nd Amendment, 1976",
+        "as": "৪২ সংখ্যক সংশোধনী, ১৯৭৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The 86th Amendment (2002) inserted Article 21A, making education a Fundamental Right.",
+      "as": "৮৬ সংখ্যক সংশোধনীয়ে (২০০২) অনুচ্ছেদ ২১এ সংযোজন কৰি শিক্ষাক মৌলিক অধিকাৰ কৰিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-054",
+    "q": {
+      "en": "Right to privacy was recognized as part of which Article?",
+      "as": "গোপনীয়তাৰ অধিকাৰ কোন অনুচ্ছেদৰ অংশ হিচাপে স্বীকৃত হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Article 14",
+        "as": "অনুচ্ছেদ ১৪"
+      },
+      {
+        "en": "Article 21",
+        "as": "অনুচ্ছেদ ২১"
+      },
+      {
+        "en": "Article 19",
+        "as": "অনুচ্ছেদ ১৯"
+      },
+      {
+        "en": "Article 20",
+        "as": "অনুচ্ছেদ ২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Supreme Court recognized the right to privacy under Article 21 in 2017.",
+      "as": "উচ্চতম ন্যায়ালয়ে ২০১৭ চনত অনুচ্ছেদ ২১ৰ অধীনত গোপনীয়তাৰ অধিকাৰ স্বীকৃতি দিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-055",
+    "q": {
+      "en": "Which case recognized the right to privacy as a Fundamental Right?",
+      "as": "কোন গোচৰে গোপনীয়তাৰ অধিকাৰক মৌলিক অধিকাৰ হিচাপে স্বীকৃতি দিছিল?"
+    },
+    "options": [
+      {
+        "en": "Golaknath case (1967)",
+        "as": "গোলকনাথ গোচৰ (১৯৬৭)"
+      },
+      {
+        "en": "Kesavananda Bharati case (1973)",
+        "as": "কেশৱানন্দ ভাৰতী গোচৰ (১৯৭৩)"
+      },
+      {
+        "en": "K.S. Puttaswamy case (2017)",
+        "as": "কে. এছ. পুট্টাস্বামী গোচৰ (২০১৭)"
+      },
+      {
+        "en": "Maneka Gandhi case (1978)",
+        "as": "মেনেকা গান্ধী গোচৰ (১৯৭৮)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "K.S. Puttaswamy v. Union of India (2017) declared privacy a Fundamental Right under Article 21.",
+      "as": "কে. এছ. পুট্টাস্বামী বনাম ভাৰত সংঘ (২০১৭)-য়ে অনুচ্ছেদ ২১ৰ অধীনত গোপনীয়তাক মৌলিক অধিকাৰ ঘোষণা কৰিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-056",
+    "q": {
+      "en": "Which Article provides protection against arrest and detention?",
+      "as": "কোন অনুচ্ছেদে গ্ৰেপ্তাৰ আৰু আটকৰ পৰা সুৰক্ষা প্ৰদান কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 21",
+        "as": "অনুচ্ছেদ ২১"
+      },
+      {
+        "en": "Article 20",
+        "as": "অনুচ্ছেদ ২০"
+      },
+      {
+        "en": "Article 23",
+        "as": "অনুচ্ছেদ ২৩"
+      },
+      {
+        "en": "Article 22",
+        "as": "অনুচ্ছেদ ২২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Article 22 provides protection against arrest and detention in certain cases.",
+      "as": "অনুচ্ছেদ ২২-য়ে কিছুমান ক্ষেত্ৰত গ্ৰেপ্তাৰ আৰু আটকৰ পৰা সুৰক্ষা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-057",
+    "q": {
+      "en": "Right against Exploitation is covered under which Articles?",
+      "as": "শোষণৰ বিৰুদ্ধে অধিকাৰ কোন অনুচ্ছেদসমূহৰ অধীনত?"
+    },
+    "options": [
+      {
+        "en": "Articles 23 and 24",
+        "as": "অনুচ্ছেদ ২৩ আৰু ২৪"
+      },
+      {
+        "en": "Articles 19 and 20",
+        "as": "অনুচ্ছেদ ১৯ আৰু ২০"
+      },
+      {
+        "en": "Articles 29 and 30",
+        "as": "অনুচ্ছেদ ২৯ আৰু ৩০"
+      },
+      {
+        "en": "Articles 25 and 26",
+        "as": "অনুচ্ছেদ ২৫ আৰু ২৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Right against Exploitation is covered under Articles 23 and 24.",
+      "as": "শোষণৰ বিৰুদ্ধে অধিকাৰ অনুচ্ছেদ ২৩ আৰু ২৪ৰ অধীনত।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-058",
+    "q": {
+      "en": "Which Article prohibits human trafficking and forced labour?",
+      "as": "কোন অনুচ্ছেদে মানৱ সৰবৰাহ আৰু বলপূৰ্বক শ্ৰম নিষিদ্ধ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 22",
+        "as": "অনুচ্ছেদ ২২"
+      },
+      {
+        "en": "Article 23",
+        "as": "অনুচ্ছেদ ২৩"
+      },
+      {
+        "en": "Article 24",
+        "as": "অনুচ্ছেদ ২৪"
+      },
+      {
+        "en": "Article 21",
+        "as": "অনুচ্ছেদ ২১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Article 23 prohibits traffic in human beings and forced labour.",
+      "as": "অনুচ্ছেদ ২৩-য়ে মানৱ সৰবৰাহ আৰু বলপূৰ্বক শ্ৰম নিষিদ্ধ কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-059",
+    "q": {
+      "en": "Which Article prohibits the employment of children below 14 years in factories?",
+      "as": "কোন অনুচ্ছেদে কাৰখানাত ১৪ বছৰৰ তলৰ শিশু নিয়োগ নিষিদ্ধ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 23",
+        "as": "অনুচ্ছেদ ২৩"
+      },
+      {
+        "en": "Article 22",
+        "as": "অনুচ্ছেদ ২২"
+      },
+      {
+        "en": "Article 24",
+        "as": "অনুচ্ছেদ ২৪"
+      },
+      {
+        "en": "Article 21A",
+        "as": "অনুচ্ছেদ ২১এ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Article 24 prohibits child labour in factories, mines and hazardous work.",
+      "as": "অনুচ্ছেদ ২৪-য়ে কাৰখানা, খনি আৰু বিপজ্জনক কামত শিশু শ্ৰম নিষিদ্ধ কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-060",
+    "q": {
+      "en": "Right to Freedom of Religion is covered under which Articles?",
+      "as": "ধৰ্মৰ স্বাধীনতাৰ অধিকাৰ কোন অনুচ্ছেদসমূহৰ অধীনত?"
+    },
+    "options": [
+      {
+        "en": "Articles 29 and 30",
+        "as": "অনুচ্ছেদ ২৯ আৰু ৩০"
+      },
+      {
+        "en": "Articles 23 and 24",
+        "as": "অনুচ্ছেদ ২৩ আৰু ২৪"
+      },
+      {
+        "en": "Articles 19 to 22",
+        "as": "অনুচ্ছেদ ১৯ ৰ পৰা ২২"
+      },
+      {
+        "en": "Articles 25 to 28",
+        "as": "অনুচ্ছেদ ২৫ ৰ পৰা ২৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Right to Freedom of Religion is covered under Articles 25 to 28.",
+      "as": "ধৰ্মৰ স্বাধীনতাৰ অধিকাৰ অনুচ্ছেদ ২৫ ৰ পৰা ২৮ৰ অধীনত।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-061",
+    "q": {
+      "en": "Which Article guarantees freedom of conscience and free profession of religion?",
+      "as": "কোন অনুচ্ছেদে বিবেকৰ স্বাধীনতা আৰু ধৰ্ম পালনৰ স্বাধীনতা নিশ্চিত কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 25",
+        "as": "অনুচ্ছেদ ২৫"
+      },
+      {
+        "en": "Article 26",
+        "as": "অনুচ্ছেদ ২৬"
+      },
+      {
+        "en": "Article 28",
+        "as": "অনুচ্ছেদ ২৮"
+      },
+      {
+        "en": "Article 27",
+        "as": "অনুচ্ছেদ ২৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Article 25 guarantees freedom of conscience and free profession, practice and propagation of religion.",
+      "as": "অনুচ্ছেদ ২৫-য়ে বিবেকৰ স্বাধীনতা আৰু ধৰ্ম পালন, চৰ্চা আৰু প্ৰচাৰৰ স্বাধীনতা নিশ্চিত কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-062",
+    "q": {
+      "en": "Which Article gives freedom to manage religious affairs?",
+      "as": "কোন অনুচ্ছেদে ধৰ্মীয় বিষয় পৰিচালনাৰ স্বাধীনতা দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Article 27",
+        "as": "অনুচ্ছেদ ২৭"
+      },
+      {
+        "en": "Article 26",
+        "as": "অনুচ্ছেদ ২৬"
+      },
+      {
+        "en": "Article 25",
+        "as": "অনুচ্ছেদ ২৫"
+      },
+      {
+        "en": "Article 28",
+        "as": "অনুচ্ছেদ ২৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Article 26 gives every religious denomination the freedom to manage its religious affairs.",
+      "as": "অনুচ্ছেদ ২৬-য়ে প্ৰতিটো ধৰ্মীয় সম্প্ৰদায়ক নিজৰ ধৰ্মীয় বিষয় পৰিচালনাৰ স্বাধীনতা দিয়ে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-063",
+    "q": {
+      "en": "Which Article provides freedom from taxation for the promotion of any religion?",
+      "as": "কোন অনুচ্ছেদে কোনো ধৰ্মৰ প্ৰচাৰৰ বাবে কৰ আৰোপৰ পৰা স্বাধীনতা প্ৰদান কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 26",
+        "as": "অনুচ্ছেদ ২৬"
+      },
+      {
+        "en": "Article 28",
+        "as": "অনুচ্ছেদ ২৮"
+      },
+      {
+        "en": "Article 27",
+        "as": "অনুচ্ছেদ ২৭"
+      },
+      {
+        "en": "Article 25",
+        "as": "অনুচ্ছেদ ২৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Article 27 provides that no person shall be compelled to pay taxes for promoting any religion.",
+      "as": "অনুচ্ছেদ ২৭-য়ে প্ৰদান কৰে যে কোনো ধৰ্ম প্ৰচাৰৰ বাবে কাকো কৰ দিবলৈ বাধ্য কৰা নহব।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-064",
+    "q": {
+      "en": "Which Article provides freedom concerning attendance at religious instruction in educational institutions?",
+      "as": "শৈক্ষিক প্ৰতিষ্ঠানত ধৰ্মীয় শিক্ষাত উপস্থিতিৰ ক্ষেত্ৰত কোন অনুচ্ছেদে স্বাধীনতা প্ৰদান কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 25",
+        "as": "অনুচ্ছেদ ২৫"
+      },
+      {
+        "en": "Article 27",
+        "as": "অনুচ্ছেদ ২৭"
+      },
+      {
+        "en": "Article 26",
+        "as": "অনুচ্ছেদ ২৬"
+      },
+      {
+        "en": "Article 28",
+        "as": "অনুচ্ছেদ ২৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Article 28 deals with freedom as to attendance at religious instruction in certain institutions.",
+      "as": "অনুচ্ছেদ ২৮-য়ে কিছুমান প্ৰতিষ্ঠানত ধৰ্মীয় শিক্ষাত উপস্থিতিৰ স্বাধীনতা সম্পৰ্কে আলোচনা কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-065",
+    "q": {
+      "en": "Cultural and Educational Rights are covered under which Articles?",
+      "as": "সাংস্কৃতিক আৰু শৈক্ষিক অধিকাৰ কোন অনুচ্ছেদসমূহৰ অধীনত?"
+    },
+    "options": [
+      {
+        "en": "Articles 29 and 30",
+        "as": "অনুচ্ছেদ ২৯ আৰু ৩০"
+      },
+      {
+        "en": "Articles 19 and 20",
+        "as": "অনুচ্ছেদ ১৯ আৰু ২০"
+      },
+      {
+        "en": "Articles 23 and 24",
+        "as": "অনুচ্ছেদ ২৩ আৰু ২৪"
+      },
+      {
+        "en": "Articles 25 to 28",
+        "as": "অনুচ্ছেদ ২৫ ৰ পৰা ২৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cultural and Educational Rights are covered under Articles 29 and 30.",
+      "as": "সাংস্কৃতিক আৰু শৈক্ষিক অধিকাৰ অনুচ্ছেদ ২৯ আৰু ৩০ৰ অধীনত।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-066",
+    "q": {
+      "en": "Which Article protects the interests of minorities?",
+      "as": "কোন অনুচ্ছেদে সংখ্যালঘুৰ স্বাৰ্থ সুৰক্ষিত কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 30",
+        "as": "অনুচ্ছেদ ৩০"
+      },
+      {
+        "en": "Article 29",
+        "as": "অনুচ্ছেদ ২৯"
+      },
+      {
+        "en": "Article 25",
+        "as": "অনুচ্ছেদ ২৫"
+      },
+      {
+        "en": "Article 28",
+        "as": "অনুচ্ছেদ ২৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Article 29 protects the interests of minorities in educational and cultural matters.",
+      "as": "অনুচ্ছেদ ২৯-য়ে শৈক্ষিক আৰু সাংস্কৃতিক ক্ষেত্ৰত সংখ্যালঘুৰ স্বাৰ্থ সুৰক্ষিত কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-067",
+    "q": {
+      "en": "Which Article gives minorities the right to establish and administer educational institutions?",
+      "as": "কোন অনুচ্ছেদে সংখ্যালঘুক শৈক্ষিক প্ৰতিষ্ঠান স্থাপন আৰু পৰিচালনাৰ অধিকাৰ দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Article 26",
+        "as": "অনুচ্ছেদ ২৬"
+      },
+      {
+        "en": "Article 29",
+        "as": "অনুচ্ছেদ ২৯"
+      },
+      {
+        "en": "Article 30",
+        "as": "অনুচ্ছেদ ৩০"
+      },
+      {
+        "en": "Article 28",
+        "as": "অনুচ্ছেদ ২৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Article 30 gives religious and linguistic minorities the right to establish and administer educational institutions.",
+      "as": "অনুচ্ছেদ ৩০-য়ে ধৰ্মীয় আৰু ভাষিক সংখ্যালঘুক শৈক্ষিক প্ৰতিষ্ঠান স্থাপন আৰু পৰিচালনাৰ অধিকাৰ দিয়ে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-068",
+    "q": {
+      "en": "Which Article is called the 'heart and soul' of the Constitution?",
+      "as": "কোন অনুচ্ছেদক সংবিধানৰ 'হৃদয় আৰু আত্মা' বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Article 14",
+        "as": "অনুচ্ছেদ ১৪"
+      },
+      {
+        "en": "Article 19",
+        "as": "অনুচ্ছেদ ১৯"
+      },
+      {
+        "en": "Article 21",
+        "as": "অনুচ্ছেদ ২১"
+      },
+      {
+        "en": "Article 32",
+        "as": "অনুচ্ছেদ ৩২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Article 32, the right to constitutional remedies, was called the heart and soul of the Constitution by Ambedkar.",
+      "as": "অনুচ্ছেদ ৩২, অৰ্থাৎ সংবিধানিক প্ৰতিকাৰৰ অধিকাৰ,ক আম্বেদকাৰে সংবিধানৰ হৃদয় আৰু আত্মা বুলি কৈছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-069",
+    "q": {
+      "en": "Which Article guarantees the right to constitutional remedies?",
+      "as": "কোন অনুচ্ছেদে সংবিধানিক প্ৰতিকাৰৰ অধিকাৰ নিশ্চিত কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 32",
+        "as": "অনুচ্ছেদ ৩২"
+      },
+      {
+        "en": "Article 226",
+        "as": "অনুচ্ছেদ ২২৬"
+      },
+      {
+        "en": "Article 14",
+        "as": "অনুচ্ছেদ ১৪"
+      },
+      {
+        "en": "Article 13",
+        "as": "অনুচ্ছেদ ১৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Article 32 guarantees the right to move the Supreme Court for enforcement of Fundamental Rights.",
+      "as": "অনুচ্ছেদ ৩২-য়ে মৌলিক অধিকাৰ বলৱৎ কৰাৰ বাবে উচ্চতম ন্যায়ালয়ত আবেদন কৰাৰ অধিকাৰ নিশ্চিত কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-070",
+    "q": {
+      "en": "Who described Article 32 as the heart and soul of the Constitution?",
+      "as": "অনুচ্ছেদ ৩২-ক সংবিধানৰ হৃদয় আৰু আত্মা বুলি কোনে কৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Jawaharlal Nehru",
+        "as": "জৱাহৰলাল নেহৰু"
+      },
+      {
+        "en": "Dr. B.R. Ambedkar",
+        "as": "ড০ বি. আৰ. আম্বেদকাৰ"
+      },
+      {
+        "en": "Dr. Rajendra Prasad",
+        "as": "ড০ ৰাজেন্দ্ৰ প্ৰসাদ"
+      },
+      {
+        "en": "Sardar Patel",
+        "as": "সৰ্দাৰ পেটেল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dr. B.R. Ambedkar described Article 32 as the heart and soul of the Constitution.",
+      "as": "ড০ বি. আৰ. আম্বেদকাৰে অনুচ্ছেদ ৩২-ক সংবিধানৰ হৃদয় আৰু আত্মা বুলি বৰ্ণনা কৰিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-071",
+    "q": {
+      "en": "The right to property was removed from Fundamental Rights by which Amendment?",
+      "as": "সম্পত্তিৰ অধিকাৰ কোন সংশোধনীৰ জৰিয়তে মৌলিক অধিকাৰৰ পৰা আঁতৰোৱা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "52nd Amendment, 1985",
+        "as": "৫২ সংখ্যক সংশোধনী, ১৯৮৫"
+      },
+      {
+        "en": "42nd Amendment, 1976",
+        "as": "৪২ সংখ্যক সংশোধনী, ১৯৭৬"
+      },
+      {
+        "en": "44th Amendment, 1978",
+        "as": "৪৪ সংখ্যক সংশোধনী, ১৯৭৮"
+      },
+      {
+        "en": "1st Amendment, 1951",
+        "as": "১ সংখ্যক সংশোধনী, ১৯৫১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The 44th Amendment (1978) removed the right to property from Fundamental Rights.",
+      "as": "৪৪ সংখ্যক সংশোধনীয়ে (১৯৭৮) সম্পত্তিৰ অধিকাৰ মৌলিক অধিকাৰৰ পৰা আঁতৰাইছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-072",
+    "q": {
+      "en": "After the 44th Amendment, the right to property is now:",
+      "as": "৪৪ সংখ্যক সংশোধনীৰ পিছত সম্পত্তিৰ অধিকাৰ এতিয়া:"
+    },
+    "options": [
+      {
+        "en": "A Directive Principle",
+        "as": "এটা নিৰ্দেশাত্মক নীতি"
+      },
+      {
+        "en": "A Fundamental Right under Article 31",
+        "as": "অনুচ্ছেদ ৩১ৰ অধীনত মৌলিক অধিকাৰ"
+      },
+      {
+        "en": "A Fundamental Duty",
+        "as": "এটা মৌলিক কৰ্তব্য"
+      },
+      {
+        "en": "A legal right under Article 300A",
+        "as": "অনুচ্ছেদ ৩০০এ(ক)ৰ অধীনত এটা আইনী অধিকাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "It became a legal right under Article 300A.",
+      "as": "ই অনুচ্ছেদ ৩০০এৰ অধীনত এটা আইনী অধিকাৰ হৈ পৰিছে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-073",
+    "q": {
+      "en": "Which Fundamental Right is available only to citizens and not to foreigners?",
+      "as": "কোন মৌলিক অধিকাৰ কেৱল নাগৰিকৰ বাবে উপলব্ধ, বিদেশীৰ বাবে নহয়?"
+    },
+    "options": [
+      {
+        "en": "Article 19",
+        "as": "অনুচ্ছেদ ১৯"
+      },
+      {
+        "en": "Article 21",
+        "as": "অনুচ্ছেদ ২১"
+      },
+      {
+        "en": "Article 14",
+        "as": "অনুচ্ছেদ ১৪"
+      },
+      {
+        "en": "Article 20",
+        "as": "অনুচ্ছেদ ২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Freedoms under Article 19 are available only to citizens.",
+      "as": "অনুচ্ছেদ ১৯ৰ অধীনৰ স্বাধীনতাসমূহ কেৱল নাগৰিকৰ বাবে উপলব্ধ।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-074",
+    "q": {
+      "en": "Which Fundamental Right is available to both citizens and foreigners?",
+      "as": "কোন মৌলিক অধিকাৰ নাগৰিক আৰু বিদেশী উভয়ৰে বাবে উপলব্ধ?"
+    },
+    "options": [
+      {
+        "en": "Article 15",
+        "as": "অনুচ্ছেদ ১৫"
+      },
+      {
+        "en": "Article 21",
+        "as": "অনুচ্ছেদ ২১"
+      },
+      {
+        "en": "Article 19",
+        "as": "অনুচ্ছেদ ১৯"
+      },
+      {
+        "en": "Article 16",
+        "as": "অনুচ্ছেদ ১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Article 21 (right to life and personal liberty) is available to all persons.",
+      "as": "অনুচ্ছেদ ২১ (জীৱন আৰু ব্যক্তিগত স্বাধীনতাৰ অধিকাৰ) সকলো ব্যক্তিৰ বাবে উপলব্ধ।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-075",
+    "q": {
+      "en": "Which Article provides for judicial review of laws inconsistent with Fundamental Rights?",
+      "as": "মৌলিক অধিকাৰৰ সৈতে অসঙ্গত আইনৰ ন্যায়িক পুনৰীক্ষণ কোন অনুচ্ছেদে প্ৰদান কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 12",
+        "as": "অনুচ্ছেদ ১২"
+      },
+      {
+        "en": "Article 14",
+        "as": "অনুচ্ছেদ ১৪"
+      },
+      {
+        "en": "Article 13",
+        "as": "অনুচ্ছেদ ১৩"
+      },
+      {
+        "en": "Article 32",
+        "as": "অনুচ্ছেদ ৩২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Article 13 provides that laws inconsistent with Fundamental Rights are void.",
+      "as": "অনুচ্ছেদ ১৩-য়ে প্ৰদান কৰে যে মৌলিক অধিকাৰৰ সৈতে অসঙ্গত আইন বাতিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-076",
+    "q": {
+      "en": "Which Fundamental Rights cannot be suspended even during a National Emergency?",
+      "as": "ৰাষ্ট্ৰীয় জৰুৰীকালীন অৱস্থাতো কোন মৌলিক অধিকাৰসমূহ স্থগিত ৰাখিব নোৱাৰি?"
+    },
+    "options": [
+      {
+        "en": "Articles 14 and 15",
+        "as": "অনুচ্ছেদ ১৪ আৰু ১৫"
+      },
+      {
+        "en": "Articles 25 and 26",
+        "as": "অনুচ্ছেদ ২৫ আৰু ২৬"
+      },
+      {
+        "en": "Articles 19 and 22",
+        "as": "অনুচ্ছেদ ১৯ আৰু ২২"
+      },
+      {
+        "en": "Articles 20 and 21",
+        "as": "অনুচ্ছেদ ২০ আৰু ২১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Articles 20 and 21 cannot be suspended during a National Emergency (44th Amendment).",
+      "as": "৪৪ সংখ্যক সংশোধনী অনুসৰি ৰাষ্ট্ৰীয় জৰুৰীকালীন অৱস্থাত অনুচ্ছেদ ২০ আৰু ২১ স্থগিত ৰাখিব নোৱাৰি।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-077",
+    "q": {
+      "en": "Which Article deals with the abolition of titles?",
+      "as": "কোন অনুচ্ছেদে উপাধি বিলুপ্তিৰ বিষয়ে আলোচনা কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 18",
+        "as": "অনুচ্ছেদ ১৮"
+      },
+      {
+        "en": "Article 15",
+        "as": "অনুচ্ছেদ ১৫"
+      },
+      {
+        "en": "Article 17",
+        "as": "অনুচ্ছেদ ১৭"
+      },
+      {
+        "en": "Article 16",
+        "as": "অনুচ্ছেদ ১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Article 18 abolishes titles other than military and academic distinctions.",
+      "as": "অনুচ্ছেদ ১৮-য়ে সামৰিক আৰু শৈক্ষিক সন্মানৰ বাহিৰে অন্য উপাধি বিলুপ্ত কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-078",
+    "q": {
+      "en": "Which of the following is NOT a Fundamental Right?",
+      "as": "তলৰ কোনটো মৌলিক অধিকাৰ নহয়?"
+    },
+    "options": [
+      {
+        "en": "Right to Equality",
+        "as": "সমতাৰ অধিকাৰ"
+      },
+      {
+        "en": "Right to Property",
+        "as": "সম্পত্তিৰ অধিকাৰ"
+      },
+      {
+        "en": "Right to Constitutional Remedies",
+        "as": "সংবিধানিক প্ৰতিকাৰৰ অধিকাৰ"
+      },
+      {
+        "en": "Right to Freedom",
+        "as": "স্বাধীনতাৰ অধিকাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The right to property was removed as a Fundamental Right by the 44th Amendment.",
+      "as": "৪৪ সংখ্যক সংশোধনীয়ে সম্পত্তিৰ অধিকাৰক মৌলিক অধিকাৰৰ পৰা আঁতৰাইছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-079",
+    "q": {
+      "en": "The Fundamental Rights are justiciable, which means they are:",
+      "as": "মৌলিক অধিকাৰবোৰ ন্যায়বিচাৰযোগ্য, অৰ্থাৎ সেয়া:"
+    },
+    "options": [
+      {
+        "en": "Only moral duties",
+        "as": "কেৱল নৈতিক কৰ্তব্য"
+      },
+      {
+        "en": "Advisory in nature",
+        "as": "পৰামৰ্শমূলক প্ৰকৃতিৰ"
+      },
+      {
+        "en": "Enforceable in courts of law",
+        "as": "আইনৰ আদালতত বলৱৎ কৰিব পৰা"
+      },
+      {
+        "en": "Non-enforceable in courts",
+        "as": "আদালতত বলৱৎ কৰিব নোৱাৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Fundamental Rights are enforceable in the Supreme Court and High Courts.",
+      "as": "মৌলিক অধিকাৰ উচ্চতম ন্যায়ালয় আৰু উচ্চ ন্যায়ালয়ত বলৱৎ কৰিব পৰা যায়।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-080",
+    "q": {
+      "en": "The freedom of the press is implied in which Fundamental Right?",
+      "as": "সংবাদ মাধ্যমৰ স্বাধীনতা কোন মৌলিক অধিকাৰত অন্তৰ্নিহিত?"
+    },
+    "options": [
+      {
+        "en": "Right against exploitation",
+        "as": "শোষণৰ বিৰুদ্ধে অধিকাৰ"
+      },
+      {
+        "en": "Right to equality",
+        "as": "সমতাৰ অধিকাৰ"
+      },
+      {
+        "en": "Right to religion",
+        "as": "ধৰ্মৰ অধিকাৰ"
+      },
+      {
+        "en": "Freedom of speech and expression",
+        "as": "বাক আৰু প্ৰকাশৰ স্বাধীনতা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Freedom of the press is part of the freedom of speech and expression under Article 19(1)(a).",
+      "as": "সংবাদ মাধ্যমৰ স্বাধীনতা অনুচ্ছেদ ১৯(১)(ক)ৰ অধীনত বাক আৰু প্ৰকাশৰ স্বাধীনতাৰ অংশ।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-081",
+    "q": {
+      "en": "Which Article grants the right to move freely throughout the territory of India?",
+      "as": "কোন অনুচ্ছেদে ভাৰতৰ ভূখণ্ডত মুক্তভাৱে চলাচল কৰাৰ অধিকাৰ দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Article 19(1)(d)",
+        "as": "অনুচ্ছেদ ১৯(১)(ঘ)"
+      },
+      {
+        "en": "Article 19(1)(b)",
+        "as": "অনুচ্ছেদ ১৯(১)(খ)"
+      },
+      {
+        "en": "Article 19(1)(a)",
+        "as": "অনুচ্ছেদ ১৯(১)(ক)"
+      },
+      {
+        "en": "Article 19(1)(g)",
+        "as": "অনুচ্ছেদ ১৯(১)(ছ)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Article 19(1)(d) grants freedom to move freely throughout India.",
+      "as": "অনুচ্ছেদ ১৯(১)(ঘ)-য়ে ভাৰতত মুক্তভাৱে চলাচলৰ স্বাধীনতা দিয়ে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-082",
+    "q": {
+      "en": "Which Fundamental Right is described as the 'Right against Exploitation'?",
+      "as": "কোনটো মৌলিক অধিকাৰক 'শোষণৰ বিৰুদ্ধে অধিকাৰ' বুলি বৰ্ণনা কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Cultural Rights",
+        "as": "সাংস্কৃতিক অধিকাৰ"
+      },
+      {
+        "en": "Right against Exploitation",
+        "as": "শোষণৰ বিৰুদ্ধে অধিকাৰ"
+      },
+      {
+        "en": "Right to Freedom",
+        "as": "স্বাধীনতাৰ অধিকাৰ"
+      },
+      {
+        "en": "Right to Equality",
+        "as": "সমতাৰ অধিকাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Articles 23 and 24 constitute the Right against Exploitation.",
+      "as": "অনুচ্ছেদ ২৩ আৰু ২৪-য়ে শোষণৰ বিৰুদ্ধে অধিকাৰ গঠন কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-083",
+    "q": {
+      "en": "Reservation for backward classes is provided under which Articles?",
+      "as": "অনগ্ৰসৰ শ্ৰেণীৰ বাবে সংৰক্ষণ কোন অনুচ্ছেদৰ অধীনত প্ৰদান কৰা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Articles 23 and 24",
+        "as": "অনুচ্ছেদ ২৩ আৰু ২৪"
+      },
+      {
+        "en": "Articles 29 and 30",
+        "as": "অনুচ্ছেদ ২৯ আৰু ৩০"
+      },
+      {
+        "en": "Articles 15(4) and 16(4)",
+        "as": "অনুচ্ছেদ ১৫(৪) আৰু ১৬(৪)"
+      },
+      {
+        "en": "Articles 19 and 20",
+        "as": "অনুচ্ছেদ ১৯ আৰু ২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Reservation is provided under Articles 15(4) and 16(4).",
+      "as": "সংৰক্ষণ অনুচ্ছেদ ১৫(৪) আৰু ১৬(৪)ৰ অধীনত প্ৰদান কৰা হৈছে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-084",
+    "q": {
+      "en": "Directive Principles of State Policy are contained in which Part?",
+      "as": "ৰাষ্ট্ৰ পৰিচালনাৰ নিৰ্দেশাত্মক নীতিসমূহ কোনটো অংশত সন্নিবিষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Part II",
+        "as": "দ্বিতীয় অংশ"
+      },
+      {
+        "en": "Part III",
+        "as": "তৃতীয় অংশ"
+      },
+      {
+        "en": "Part V",
+        "as": "পঞ্চম অংশ"
+      },
+      {
+        "en": "Part IV",
+        "as": "চতুৰ্থ অংশ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Directive Principles are contained in Part IV (Articles 36-51).",
+      "as": "নিৰ্দেশাত্মক নীতিসমূহ চতুৰ্থ অংশত (অনুচ্ছেদ ৩৬-৫১) সন্নিবিষ্ট।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-085",
+    "q": {
+      "en": "Directive Principles of State Policy are covered under which Articles?",
+      "as": "ৰাষ্ট্ৰ পৰিচালনাৰ নিৰ্দেশাত্মক নীতিসমূহ কোন অনুচ্ছেদসমূহৰ অধীনত?"
+    },
+    "options": [
+      {
+        "en": "Articles 36 to 51",
+        "as": "অনুচ্ছেদ ৩৬ ৰ পৰা ৫১"
+      },
+      {
+        "en": "Articles 12 to 35",
+        "as": "অনুচ্ছেদ ১২ ৰ পৰা ৩৫"
+      },
+      {
+        "en": "Articles 5 to 11",
+        "as": "অনুচ্ছেদ ৫ ৰ পৰা ১১"
+      },
+      {
+        "en": "Articles 52 to 78",
+        "as": "অনুচ্ছেদ ৫২ ৰ পৰা ৭৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Directive Principles are covered under Articles 36 to 51.",
+      "as": "নিৰ্দেশাত্মক নীতিসমূহ অনুচ্ছেদ ৩৬ ৰ পৰা ৫১ৰ অধীনত।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-086",
+    "q": {
+      "en": "The Directive Principles of State Policy were borrowed from the Constitution of:",
+      "as": "ৰাষ্ট্ৰ পৰিচালনাৰ নিৰ্দেশাত্মক নীতিসমূহ কোনখন দেশৰ সংবিধানৰ পৰা গ্ৰহণ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "USSR",
+        "as": "ছোভিয়েট সংঘ"
+      },
+      {
+        "en": "Ireland",
+        "as": "আয়াৰলেণ্ড"
+      },
+      {
+        "en": "United States",
+        "as": "আমেৰিকা যুক্তৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Britain",
+        "as": "ব্ৰিটেইন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Directive Principles were borrowed from the Constitution of Ireland.",
+      "as": "নিৰ্দেশাত্মক নীতিসমূহ আয়াৰলেণ্ডৰ সংবিধানৰ পৰা গ্ৰহণ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-087",
+    "q": {
+      "en": "Fundamental Duties are contained in which Part of the Constitution?",
+      "as": "মৌলিক কৰ্তব্যসমূহ সংবিধানৰ কোনটো অংশত সন্নিবিষ্ট?"
+    },
+    "options": [
+      {
+        "en": "Part V",
+        "as": "পঞ্চম অংশ"
+      },
+      {
+        "en": "Part IV",
+        "as": "চতুৰ্থ অংশ"
+      },
+      {
+        "en": "Part IV-A",
+        "as": "চতুৰ্থ-ক অংশ"
+      },
+      {
+        "en": "Part III",
+        "as": "তৃতীয় অংশ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Fundamental Duties are contained in Part IV-A.",
+      "as": "মৌলিক কৰ্তব্যসমূহ চতুৰ্থ-ক অংশত সন্নিবিষ্ট।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-088",
+    "q": {
+      "en": "Fundamental Duties are mentioned in which Article?",
+      "as": "মৌলিক কৰ্তব্যসমূহ কোন অনুচ্ছেদত উল্লেখ আছে?"
+    },
+    "options": [
+      {
+        "en": "Article 50",
+        "as": "অনুচ্ছেদ ৫০"
+      },
+      {
+        "en": "Article 51",
+        "as": "অনুচ্ছেদ ৫১"
+      },
+      {
+        "en": "Article 32",
+        "as": "অনুচ্ছেদ ৩২"
+      },
+      {
+        "en": "Article 51A",
+        "as": "অনুচ্ছেদ ৫১এ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Fundamental Duties are mentioned in Article 51A.",
+      "as": "মৌলিক কৰ্তব্যসমূহ অনুচ্ছেদ ৫১এ-ত উল্লেখ আছে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-089",
+    "q": {
+      "en": "Fundamental Duties were added to the Constitution by which Amendment?",
+      "as": "কোন সংশোধনীয়ে সংবিধানত মৌলিক কৰ্তব্য যোগ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "42nd Amendment, 1976",
+        "as": "৪২ সংখ্যক সংশোধনী, ১৯৭৬"
+      },
+      {
+        "en": "86th Amendment, 2002",
+        "as": "৮৬ সংখ্যক সংশোধনী, ২০০২"
+      },
+      {
+        "en": "44th Amendment, 1978",
+        "as": "৪৪ সংখ্যক সংশোধনী, ১৯৭৮"
+      },
+      {
+        "en": "52nd Amendment, 1985",
+        "as": "৫২ সংখ্যক সংশোধনী, ১৯৮৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Fundamental Duties were added by the 42nd Amendment (1976) on the recommendation of the Swaran Singh Committee.",
+      "as": "স্বৰণ সিং সমিতিৰ সুপাৰিশৰ মতে ৪২ সংখ্যক সংশোধনীয়ে (১৯৭৬) মৌলিক কৰ্তব্য যোগ কৰিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-090",
+    "q": {
+      "en": "How many Fundamental Duties were originally added to the Constitution?",
+      "as": "মূলত সংবিধানত কিমানটা মৌলিক কৰ্তব্য যোগ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Nine",
+        "as": "নটা"
+      },
+      {
+        "en": "Ten",
+        "as": "দহটা"
+      },
+      {
+        "en": "Twelve",
+        "as": "বাৰটা"
+      },
+      {
+        "en": "Eleven",
+        "as": "এঘাৰটা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ten Fundamental Duties were originally added in 1976.",
+      "as": "১৯৭৬ চনত মূলত দহটা মৌলিক কৰ্তব্য যোগ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-091",
+    "q": {
+      "en": "The Eleventh Fundamental Duty was added by which Amendment?",
+      "as": "এঘাৰ সংখ্যক মৌলিক কৰ্তব্য কোন সংশোধনীৰ জৰিয়তে যোগ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "42nd Amendment, 1976",
+        "as": "৪২ সংখ্যক সংশোধনী, ১৯৭৬"
+      },
+      {
+        "en": "73rd Amendment, 1992",
+        "as": "৭৩ সংখ্যক সংশোধনী, ১৯৯২"
+      },
+      {
+        "en": "86th Amendment, 2002",
+        "as": "৮৬ সংখ্যক সংশোধনী, ২০০২"
+      },
+      {
+        "en": "44th Amendment, 1978",
+        "as": "৪৪ সংখ্যক সংশোধনী, ১৯৭৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The 86th Amendment (2002) added the 11th Fundamental Duty regarding education of children.",
+      "as": "৮৬ সংখ্যক সংশোধনীয়ে (২০০২) শিশুৰ শিক্ষা সম্পৰ্কীয় এঘাৰ সংখ্যক মৌলিক কৰ্তব্য যোগ কৰিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-092",
+    "q": {
+      "en": "How many Fundamental Duties are there at present?",
+      "as": "বৰ্তমান কিমানটা মৌলিক কৰ্তব্য আছে?"
+    },
+    "options": [
+      {
+        "en": "Twelve",
+        "as": "বাৰটা"
+      },
+      {
+        "en": "Ten",
+        "as": "দহটা"
+      },
+      {
+        "en": "Nine",
+        "as": "নটা"
+      },
+      {
+        "en": "Eleven",
+        "as": "এঘাৰটা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are eleven Fundamental Duties at present.",
+      "as": "বৰ্তমান এঘাৰটা মৌলিক কৰ্তব্য আছে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-093",
+    "q": {
+      "en": "The Fundamental Duties were borrowed from the Constitution of:",
+      "as": "মৌলিক কৰ্তব্যসমূহ কোনখন দেশৰ সংবিধানৰ পৰা গ্ৰহণ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "USSR",
+        "as": "ছোভিয়েট সংঘ"
+      },
+      {
+        "en": "Ireland",
+        "as": "আয়াৰলেণ্ড"
+      },
+      {
+        "en": "Australia",
+        "as": "অষ্ট্ৰেলিয়া"
+      },
+      {
+        "en": "United States",
+        "as": "আমেৰিকা যুক্তৰাষ্ট্ৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The idea of Fundamental Duties was borrowed from the Constitution of the USSR.",
+      "as": "মৌলিক কৰ্তব্যৰ ধাৰণা ছোভিয়েট সংঘৰ সংবিধানৰ পৰা গ্ৰহণ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-094",
+    "q": {
+      "en": "Which Article mentions the Uniform Civil Code as a Directive Principle?",
+      "as": "কোন অনুচ্ছেদে নিৰ্দেশাত্মক নীতি হিচাপে এক সমান নাগৰিক সংহিতা উল্লেখ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 45",
+        "as": "অনুচ্ছেদ ৪৫"
+      },
+      {
+        "en": "Article 44",
+        "as": "অনুচ্ছেদ ৪৪"
+      },
+      {
+        "en": "Article 43",
+        "as": "অনুচ্ছেদ ৪৩"
+      },
+      {
+        "en": "Article 40",
+        "as": "অনুচ্ছেদ ৪০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Article 44 directs the State to endeavor to secure a Uniform Civil Code.",
+      "as": "অনুচ্ছেদ ৪৪-য়ে ৰাষ্ট্ৰক এক সমান নাগৰিক সংহিতা নিশ্চিত কৰিবলৈ নিৰ্দেশ দিয়ে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-095",
+    "q": {
+      "en": "Which Article directs the State to organize Village Panchayats?",
+      "as": "কোন অনুচ্ছেদে ৰাষ্ট্ৰক গাঁও পঞ্চায়ত গঠন কৰিবলৈ নিৰ্দেশ দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Article 44",
+        "as": "অনুচ্ছেদ ৪৪"
+      },
+      {
+        "en": "Article 43",
+        "as": "অনুচ্ছেদ ৪৩"
+      },
+      {
+        "en": "Article 40",
+        "as": "অনুচ্ছেদ ৪০"
+      },
+      {
+        "en": "Article 45",
+        "as": "অনুচ্ছেদ ৪৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Article 40 directs the State to organize village panchayats as units of self-government.",
+      "as": "অনুচ্ছেদ ৪০-য়ে ৰাষ্ট্ৰক স্ব-চৰকাৰৰ একক হিচাপে গাঁও পঞ্চায়ত গঠন কৰিবলৈ নিৰ্দেশ দিয়ে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-096",
+    "q": {
+      "en": "Which Article directs the State to secure a living wage for workers?",
+      "as": "কোন অনুচ্ছেদে ৰাষ্ট্ৰক শ্ৰমিকৰ বাবে জীৱন-ধাৰণৰ মজুৰী নিশ্চিত কৰিবলৈ নিৰ্দেশ দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Article 45",
+        "as": "অনুচ্ছেদ ৪৫"
+      },
+      {
+        "en": "Article 40",
+        "as": "অনুচ্ছেদ ৪০"
+      },
+      {
+        "en": "Article 44",
+        "as": "অনুচ্ছেদ ৪৪"
+      },
+      {
+        "en": "Article 43",
+        "as": "অনুচ্ছেদ ৪৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Article 43 directs the State to secure a living wage and decent standard of life for workers.",
+      "as": "অনুচ্ছেদ ৪৩-য়ে ৰাষ্ট্ৰক শ্ৰমিকৰ বাবে জীৱন-ধাৰণৰ মজুৰী আৰু শালীন জীৱনমান নিশ্চিত কৰিবলৈ নিৰ্দেশ দিয়ে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-097",
+    "q": {
+      "en": "The Directive Principles are:",
+      "as": "নিৰ্দেশাত্মক নীতিসমূহ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "Non-justiciable",
+        "as": "ন্যায়বিচাৰ-অযোগ্য"
+      },
+      {
+        "en": "Justiciable",
+        "as": "ন্যায়বিচাৰযোগ্য"
+      },
+      {
+        "en": "Enforceable in courts",
+        "as": "আদালতত বলৱৎ কৰিব পৰা"
+      },
+      {
+        "en": "Fundamental Rights",
+        "as": "মৌলিক অধিকাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Directive Principles are non-justiciable and not enforceable in courts.",
+      "as": "নিৰ্দেশাত্মক নীতিসমূহ ন্যায়বিচাৰ-অযোগ্য আৰু আদালতত বলৱৎ কৰিব নোৱাৰি।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-098",
+    "q": {
+      "en": "Which Article directs the State to provide free and compulsory education for children?",
+      "as": "কোন অনুচ্ছেদে ৰাষ্ট্ৰক শিশুৰ বাবে বিনামূলীয়া আৰু বাধ্যতামূলক শিক্ষা প্ৰদান কৰিবলৈ নিৰ্দেশ দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Article 40",
+        "as": "অনুচ্ছেদ ৪০"
+      },
+      {
+        "en": "Article 45",
+        "as": "অনুচ্ছেদ ৪৫"
+      },
+      {
+        "en": "Article 44",
+        "as": "অনুচ্ছেদ ৪৪"
+      },
+      {
+        "en": "Article 43",
+        "as": "অনুচ্ছেদ ৪৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Article 45 is a Directive Principle regarding early childhood care and education.",
+      "as": "অনুচ্ছেদ ৪৫ শৈশৱৰ যতন আৰু শিক্ষা সম্পৰ্কীয় এটা নিৰ্দেশাত্মক নীতি।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-099",
+    "q": {
+      "en": "Which of the following is a Directive Principle of State Policy?",
+      "as": "তলৰ কোনটো ৰাষ্ট্ৰ পৰিচালনাৰ নিৰ্দেশাত্মক নীতি?"
+    },
+    "options": [
+      {
+        "en": "Right to Constitutional Remedies",
+        "as": "সংবিধানিক প্ৰতিকাৰৰ অধিকাৰ"
+      },
+      {
+        "en": "Right to Freedom",
+        "as": "স্বাধীনতাৰ অধিকাৰ"
+      },
+      {
+        "en": "Uniform Civil Code",
+        "as": "সমান নাগৰিক সংহিতা"
+      },
+      {
+        "en": "Right to Equality",
+        "as": "সমতাৰ অধিকাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Uniform Civil Code under Article 44 is a Directive Principle.",
+      "as": "অনুচ্ছেদ ৪৪ৰ অধীনৰ সমান নাগৰিক সংহিতা এটা নিৰ্দেশাত্মক নীতি।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-100",
+    "q": {
+      "en": "Which Article deals with the President of India?",
+      "as": "ভাৰতৰ ৰাষ্ট্ৰপতিৰ বিষয়ে কোন অনুচ্ছেদে আলোচনা কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 63",
+        "as": "অনুচ্ছেদ ৬৩"
+      },
+      {
+        "en": "Article 72",
+        "as": "অনুচ্ছেদ ৭২"
+      },
+      {
+        "en": "Article 74",
+        "as": "অনুচ্ছেদ ৭৪"
+      },
+      {
+        "en": "Article 52",
+        "as": "অনুচ্ছেদ ৫২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Article 52 provides that there shall be a President of India.",
+      "as": "অনুচ্ছেদ ৫২-য়ে প্ৰদান কৰে যে ভাৰতৰ এজন ৰাষ্ট্ৰপতি থাকিব।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-101",
+    "q": {
+      "en": "Which Article deals with the Vice-President of India?",
+      "as": "ভাৰতৰ উপ-ৰাষ্ট্ৰপতিৰ বিষয়ে কোন অনুচ্ছেদে আলোচনা কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 63",
+        "as": "অনুচ্ছেদ ৬৩"
+      },
+      {
+        "en": "Article 61",
+        "as": "অনুচ্ছেদ ৬১"
+      },
+      {
+        "en": "Article 72",
+        "as": "অনুচ্ছেদ ৭২"
+      },
+      {
+        "en": "Article 52",
+        "as": "অনুচ্ছেদ ৫২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Article 63 provides for a Vice-President of India.",
+      "as": "অনুচ্ছেদ ৬৩-য়ে ভাৰতৰ উপ-ৰাষ্ট্ৰপতিৰ ব্যৱস্থা কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-102",
+    "q": {
+      "en": "A Money Bill is defined under which Article?",
+      "as": "ধন বিধেয়ক কোন অনুচ্ছেদৰ অধীনত সংজ্ঞায়িত?"
+    },
+    "options": [
+      {
+        "en": "Article 143",
+        "as": "অনুচ্ছেদ ১৪৩"
+      },
+      {
+        "en": "Article 110",
+        "as": "অনুচ্ছেদ ১১০"
+      },
+      {
+        "en": "Article 112",
+        "as": "অনুচ্ছেদ ১১২"
+      },
+      {
+        "en": "Article 123",
+        "as": "অনুচ্ছেদ ১২৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Article 110 defines a Money Bill.",
+      "as": "অনুচ্ছেদ ১১০-য়ে ধন বিধেয়ক সংজ্ঞায়িত কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-103",
+    "q": {
+      "en": "The Annual Financial Statement (Budget) is dealt with under which Article?",
+      "as": "বাৰ্ষিক বিত্তীয় বিবৃতি (বাজেট) কোন অনুচ্ছেদৰ অধীনত পৰিচালিত?"
+    },
+    "options": [
+      {
+        "en": "Article 123",
+        "as": "অনুচ্ছেদ ১২৩"
+      },
+      {
+        "en": "Article 110",
+        "as": "অনুচ্ছেদ ১১০"
+      },
+      {
+        "en": "Article 112",
+        "as": "অনুচ্ছেদ ১১২"
+      },
+      {
+        "en": "Article 148",
+        "as": "অনুচ্ছেদ ১৪৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Article 112 deals with the Annual Financial Statement.",
+      "as": "অনুচ্ছেদ ১১২-য়ে বাৰ্ষিক বিত্তীয় বিবৃতি সম্পৰ্কে আলোচনা কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-104",
+    "q": {
+      "en": "Which Article gives the President the power to promulgate Ordinances?",
+      "as": "কোন অনুচ্ছেদে ৰাষ্ট্ৰপতিক অধ্যাদেশ জাৰি কৰাৰ ক্ষমতা দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Article 110",
+        "as": "অনুচ্ছেদ ১১০"
+      },
+      {
+        "en": "Article 143",
+        "as": "অনুচ্ছেদ ১৪৩"
+      },
+      {
+        "en": "Article 213",
+        "as": "অনুচ্ছেদ ২১৩"
+      },
+      {
+        "en": "Article 123",
+        "as": "অনুচ্ছেদ ১২৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Article 123 gives the President the power to promulgate Ordinances when Parliament is not in session.",
+      "as": "সংসদ অধিৱেশনত নাথাকিলে অনুচ্ছেদ ১২৩-য়ে ৰাষ্ট্ৰপতিক অধ্যাদেশ জাৰি কৰাৰ ক্ষমতা দিয়ে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-105",
+    "q": {
+      "en": "Which Article gives the Governor the power to promulgate Ordinances?",
+      "as": "কোন অনুচ্ছেদে ৰাজ্যপালক অধ্যাদেশ জাৰি কৰাৰ ক্ষমতা দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Article 213",
+        "as": "অনুচ্ছেদ ২১৩"
+      },
+      {
+        "en": "Article 161",
+        "as": "অনুচ্ছেদ ১৬১"
+      },
+      {
+        "en": "Article 123",
+        "as": "অনুচ্ছেদ ১২৩"
+      },
+      {
+        "en": "Article 143",
+        "as": "অনুচ্ছেদ ১৪৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Article 213 gives the Governor the power to promulgate Ordinances.",
+      "as": "অনুচ্ছেদ ২১৩-য়ে ৰাজ্যপালক অধ্যাদেশ জাৰি কৰাৰ ক্ষমতা দিয়ে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-106",
+    "q": {
+      "en": "Which Article provides the pardoning power of the President?",
+      "as": "কোন অনুচ্ছেদে ৰাষ্ট্ৰপতিৰ ক্ষমা প্ৰদানৰ ক্ষমতা প্ৰদান কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 161",
+        "as": "অনুচ্ছেদ ১৬১"
+      },
+      {
+        "en": "Article 72",
+        "as": "অনুচ্ছেদ ৭২"
+      },
+      {
+        "en": "Article 123",
+        "as": "অনুচ্ছেদ ১২৩"
+      },
+      {
+        "en": "Article 52",
+        "as": "অনুচ্ছেদ ৫২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Article 72 provides the pardoning power of the President.",
+      "as": "অনুচ্ছেদ ৭২-য়ে ৰাষ্ট্ৰপতিৰ ক্ষমা প্ৰদানৰ ক্ষমতা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-107",
+    "q": {
+      "en": "Which Article provides the pardoning power of the Governor?",
+      "as": "কোন অনুচ্ছেদে ৰাজ্যপালৰ ক্ষমা প্ৰদানৰ ক্ষমতা প্ৰদান কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 163",
+        "as": "অনুচ্ছেদ ১৬৩"
+      },
+      {
+        "en": "Article 213",
+        "as": "অনুচ্ছেদ ২১৩"
+      },
+      {
+        "en": "Article 161",
+        "as": "অনুচ্ছেদ ১৬১"
+      },
+      {
+        "en": "Article 72",
+        "as": "অনুচ্ছেদ ৭২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Article 161 provides the pardoning power of the Governor.",
+      "as": "অনুচ্ছেদ ১৬১-য়ে ৰাজ্যপালৰ ক্ষমা প্ৰদানৰ ক্ষমতা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-108",
+    "q": {
+      "en": "Which Article deals with the advisory jurisdiction of the Supreme Court?",
+      "as": "উচ্চতম ন্যায়ালয়ৰ পৰামৰ্শমূলক অধিকাৰক্ষেত্ৰ কোন অনুচ্ছেদে আলোচনা কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 226",
+        "as": "অনুচ্ছেদ ২২৬"
+      },
+      {
+        "en": "Article 136",
+        "as": "অনুচ্ছেদ ১৩৬"
+      },
+      {
+        "en": "Article 32",
+        "as": "অনুচ্ছেদ ৩২"
+      },
+      {
+        "en": "Article 143",
+        "as": "অনুচ্ছেদ ১৪৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Article 143 deals with the advisory jurisdiction of the Supreme Court.",
+      "as": "অনুচ্ছেদ ১৪৩-য়ে উচ্চতম ন্যায়ালয়ৰ পৰামৰ্শমূলক অধিকাৰক্ষেত্ৰ আলোচনা কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-109",
+    "q": {
+      "en": "The Comptroller and Auditor General (CAG) of India is provided under which Article?",
+      "as": "ভাৰতৰ নিয়ন্ত্ৰক আৰু মহা-হিচাপ পৰীক্ষক (CAG) কোন অনুচ্ছেদৰ অধীনত প্ৰদান কৰা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Article 148",
+        "as": "অনুচ্ছেদ ১৪৮"
+      },
+      {
+        "en": "Article 280",
+        "as": "অনুচ্ছেদ ২৮০"
+      },
+      {
+        "en": "Article 143",
+        "as": "অনুচ্ছেদ ১৪৩"
+      },
+      {
+        "en": "Article 324",
+        "as": "অনুচ্ছেদ ৩২৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Article 148 provides for the Comptroller and Auditor General of India.",
+      "as": "অনুচ্ছেদ ১৪৮-য়ে ভাৰতৰ নিয়ন্ত্ৰক আৰু মহা-হিচাপ পৰীক্ষকৰ ব্যৱস্থা কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-110",
+    "q": {
+      "en": "The Finance Commission is constituted under which Article?",
+      "as": "বিত্ত আয়োগ কোন অনুচ্ছেদৰ অধীনত গঠন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Article 315",
+        "as": "অনুচ্ছেদ ৩১৫"
+      },
+      {
+        "en": "Article 280",
+        "as": "অনুচ্ছেদ ২৮০"
+      },
+      {
+        "en": "Article 324",
+        "as": "অনুচ্ছেদ ৩২৪"
+      },
+      {
+        "en": "Article 148",
+        "as": "অনুচ্ছেদ ১৪৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Article 280 provides for the constitution of a Finance Commission.",
+      "as": "অনুচ্ছেদ ২৮০-য়ে বিত্ত আয়োগ গঠনৰ ব্যৱস্থা কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-111",
+    "q": {
+      "en": "The Election Commission of India is provided under which Article?",
+      "as": "ভাৰতৰ নিৰ্বাচন আয়োগ কোন অনুচ্ছেদৰ অধীনত প্ৰদান কৰা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Article 148",
+        "as": "অনুচ্ছেদ ১৪৮"
+      },
+      {
+        "en": "Article 280",
+        "as": "অনুচ্ছেদ ২৮০"
+      },
+      {
+        "en": "Article 324",
+        "as": "অনুচ্ছেদ ৩২৪"
+      },
+      {
+        "en": "Article 315",
+        "as": "অনুচ্ছেদ ৩১৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Article 324 provides for the superintendence of elections by the Election Commission.",
+      "as": "অনুচ্ছেদ ৩২৪-য়ে নিৰ্বাচন আয়োগৰ দ্বাৰা নিৰ্বাচন পৰিচালনাৰ ব্যৱস্থা কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-112",
+    "q": {
+      "en": "The procedure for amendment of the Constitution is laid down in which Article?",
+      "as": "সংবিধান সংশোধনৰ পদ্ধতি কোন অনুচ্ছেদত বৰ্ণনা কৰা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Article 352",
+        "as": "অনুচ্ছেদ ৩৫২"
+      },
+      {
+        "en": "Article 360",
+        "as": "অনুচ্ছেদ ৩৬০"
+      },
+      {
+        "en": "Article 356",
+        "as": "অনুচ্ছেদ ৩৫৬"
+      },
+      {
+        "en": "Article 368",
+        "as": "অনুচ্ছেদ ৩৬৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Article 368 deals with the power of Parliament to amend the Constitution.",
+      "as": "অনুচ্ছেদ ৩৬৮-য়ে সংবিধান সংশোধনৰ বাবে সংসদৰ ক্ষমতা আলোচনা কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-113",
+    "q": {
+      "en": "National Emergency is proclaimed under which Article?",
+      "as": "ৰাষ্ট্ৰীয় জৰুৰীকালীন অৱস্থা কোন অনুচ্ছেদৰ অধীনত ঘোষণা কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Article 352",
+        "as": "অনুচ্ছেদ ৩৫২"
+      },
+      {
+        "en": "Article 360",
+        "as": "অনুচ্ছেদ ৩৬০"
+      },
+      {
+        "en": "Article 356",
+        "as": "অনুচ্ছেদ ৩৫৬"
+      },
+      {
+        "en": "Article 368",
+        "as": "অনুচ্ছেদ ৩৬৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Article 352 provides for the proclamation of a National Emergency.",
+      "as": "অনুচ্ছেদ ৩৫২-য়ে ৰাষ্ট্ৰীয় জৰুৰীকালীন অৱস্থা ঘোষণাৰ ব্যৱস্থা কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-114",
+    "q": {
+      "en": "President's Rule in a State is imposed under which Article?",
+      "as": "ৰাজ্যত ৰাষ্ট্ৰপতি শাসন কোন অনুচ্ছেদৰ অধীনত জাৰি কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Article 360",
+        "as": "অনুচ্ছেদ ৩৬০"
+      },
+      {
+        "en": "Article 356",
+        "as": "অনুচ্ছেদ ৩৫৬"
+      },
+      {
+        "en": "Article 352",
+        "as": "অনুচ্ছেদ ৩৫২"
+      },
+      {
+        "en": "Article 363",
+        "as": "অনুচ্ছেদ ৩৬৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Article 356 provides for President's Rule in case of failure of constitutional machinery in a State.",
+      "as": "ৰাজ্যত সংবিধানিক ব্যৱস্থা বিফল হ'লে অনুচ্ছেদ ৩৫৬-য়ে ৰাষ্ট্ৰপতি শাসনৰ ব্যৱস্থা কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-115",
+    "q": {
+      "en": "Financial Emergency is proclaimed under which Article?",
+      "as": "বিত্তীয় জৰুৰীকালীন অৱস্থা কোন অনুচ্ছেদৰ অধীনত ঘোষণা কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Article 368",
+        "as": "অনুচ্ছেদ ৩৬৮"
+      },
+      {
+        "en": "Article 352",
+        "as": "অনুচ্ছেদ ৩৫২"
+      },
+      {
+        "en": "Article 360",
+        "as": "অনুচ্ছেদ ৩৬০"
+      },
+      {
+        "en": "Article 356",
+        "as": "অনুচ্ছেদ ৩৫৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Article 360 provides for a Financial Emergency.",
+      "as": "অনুচ্ছেদ ৩৬০-য়ে বিত্তীয় জৰুৰীকালীন অৱস্থাৰ ব্যৱস্থা কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-116",
+    "q": {
+      "en": "Which Schedule of the Constitution deals with anti-defection?",
+      "as": "সংবিধানৰ কোন অনুসূচীয়ে দলত্যাগ-বিৰোধী বিধানৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Eighth Schedule",
+        "as": "অষ্টম অনুসূচী"
+      },
+      {
+        "en": "Eleventh Schedule",
+        "as": "একাদশ অনুসূচী"
+      },
+      {
+        "en": "Ninth Schedule",
+        "as": "নৱম অনুসূচী"
+      },
+      {
+        "en": "Tenth Schedule",
+        "as": "দশম অনুসূচী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Tenth Schedule contains the anti-defection provisions.",
+      "as": "দশম অনুসূচীত দলত্যাগ-বিৰোধী বিধান আছে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-117",
+    "q": {
+      "en": "The anti-defection law was added by which Amendment?",
+      "as": "দলত্যাগ-বিৰোধী আইন কোন সংশোধনীৰ জৰিয়তে যোগ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "52nd Amendment, 1985",
+        "as": "৫২ সংখ্যক সংশোধনী, ১৯৮৫"
+      },
+      {
+        "en": "42nd Amendment, 1976",
+        "as": "৪২ সংখ্যক সংশোধনী, ১৯৭৬"
+      },
+      {
+        "en": "44th Amendment, 1978",
+        "as": "৪৪ সংখ্যক সংশোধনী, ১৯৭৮"
+      },
+      {
+        "en": "61st Amendment, 1988",
+        "as": "৬১ সংখ্যক সংশোধনী, ১৯৮৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The 52nd Amendment (1985) added the Tenth Schedule on anti-defection.",
+      "as": "৫২ সংখ্যক সংশোধনীয়ে (১৯৮৫) দলত্যাগ-বিৰোধী দশম অনুসূচী যোগ কৰিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-118",
+    "q": {
+      "en": "Which Schedule of the Constitution contains the recognized languages?",
+      "as": "সংবিধানৰ কোন অনুসূচীত স্বীকৃত ভাষাসমূহ আছে?"
+    },
+    "options": [
+      {
+        "en": "Seventh Schedule",
+        "as": "সপ্তম অনুসূচী"
+      },
+      {
+        "en": "Eighth Schedule",
+        "as": "অষ্টম অনুসূচী"
+      },
+      {
+        "en": "Ninth Schedule",
+        "as": "নৱম অনুসূচী"
+      },
+      {
+        "en": "Sixth Schedule",
+        "as": "ষষ্ঠ অনুসূচী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Eighth Schedule contains the recognized languages.",
+      "as": "অষ্টম অনুসূচীত স্বীকৃত ভাষাসমূহ আছে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-119",
+    "q": {
+      "en": "How many languages are listed in the Eighth Schedule?",
+      "as": "অষ্টম অনুসূচীত কিমানটা ভাষা তালিকাভুক্ত?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There are 22 languages in the Eighth Schedule.",
+      "as": "অষ্টম অনুসূচীত ২২টা ভাষা আছে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-120",
+    "q": {
+      "en": "Which Schedule deals with Panchayati Raj?",
+      "as": "কোন অনুসূচীয়ে পঞ্চায়তী ৰাজৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Tenth Schedule",
+        "as": "দশম অনুসূচী"
+      },
+      {
+        "en": "Twelfth Schedule",
+        "as": "দ্বাদশ অনুসূচী"
+      },
+      {
+        "en": "Ninth Schedule",
+        "as": "নৱম অনুসূচী"
+      },
+      {
+        "en": "Eleventh Schedule",
+        "as": "একাদশ অনুসূচী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Eleventh Schedule deals with Panchayati Raj.",
+      "as": "একাদশ অনুসূচীয়ে পঞ্চায়তী ৰাজৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-121",
+    "q": {
+      "en": "Which Amendment is related to Panchayati Raj?",
+      "as": "কোন সংশোধনী পঞ্চায়তী ৰাজৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "73rd Amendment, 1992",
+        "as": "৭৩ সংখ্যক সংশোধনী, ১৯৯২"
+      },
+      {
+        "en": "61st Amendment, 1988",
+        "as": "৬১ সংখ্যক সংশোধনী, ১৯৮৮"
+      },
+      {
+        "en": "42nd Amendment, 1976",
+        "as": "৪২ সংখ্যক সংশোধনী, ১৯৭৬"
+      },
+      {
+        "en": "74th Amendment, 1992",
+        "as": "৭৪ সংখ্যক সংশোধনী, ১৯৯২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The 73rd Amendment (1992) gave constitutional status to Panchayati Raj.",
+      "as": "৭৩ সংখ্যক সংশোধনীয়ে (১৯৯২) পঞ্চায়তী ৰাজক সংবিধানিক মৰ্যাদা দিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-122",
+    "q": {
+      "en": "Which Amendment is related to Municipalities?",
+      "as": "কোন সংশোধনী পৌৰসভাৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "42nd Amendment, 1976",
+        "as": "৪২ সংখ্যক সংশোধনী, ১৯৭৬"
+      },
+      {
+        "en": "74th Amendment, 1992",
+        "as": "৭৪ সংখ্যক সংশোধনী, ১৯৯২"
+      },
+      {
+        "en": "52nd Amendment, 1985",
+        "as": "৫২ সংখ্যক সংশোধনী, ১৯৮৫"
+      },
+      {
+        "en": "73rd Amendment, 1992",
+        "as": "৭৩ সংখ্যক সংশোধনী, ১৯৯২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The 74th Amendment (1992) gave constitutional status to Municipalities.",
+      "as": "৭৪ সংখ্যক সংশোধনীয়ে (১৯৯২) পৌৰসভাক সংবিধানিক মৰ্যাদা দিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-123",
+    "q": {
+      "en": "Which Schedule contains the land reform laws protected from judicial review?",
+      "as": "কোন অনুসূচীত ন্যায়িক পুনৰীক্ষণৰ পৰা সুৰক্ষিত ভূমি সংস্কাৰ আইন আছে?"
+    },
+    "options": [
+      {
+        "en": "Fifth Schedule",
+        "as": "পঞ্চম অনুসূচী"
+      },
+      {
+        "en": "Tenth Schedule",
+        "as": "দশম অনুসূচী"
+      },
+      {
+        "en": "Ninth Schedule",
+        "as": "নৱম অনুসূচী"
+      },
+      {
+        "en": "Eighth Schedule",
+        "as": "অষ্টম অনুসূচী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Ninth Schedule contains laws that are protected from judicial review.",
+      "as": "নৱম অনুসূচীত ন্যায়িক পুনৰীক্ষণৰ পৰা সুৰক্ষিত আইনসমূহ আছে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-124",
+    "q": {
+      "en": "The Ninth Schedule was added by which Amendment?",
+      "as": "নৱম অনুসূচী কোন সংশোধনীৰ জৰিয়তে যোগ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "7th Amendment, 1956",
+        "as": "৭ সংখ্যক সংশোধনী, ১৯৫৬"
+      },
+      {
+        "en": "44th Amendment, 1978",
+        "as": "৪৪ সংখ্যক সংশোধনী, ১৯৭৮"
+      },
+      {
+        "en": "42nd Amendment, 1976",
+        "as": "৪২ সংখ্যক সংশোধনী, ১৯৭৬"
+      },
+      {
+        "en": "1st Amendment, 1951",
+        "as": "১ সংখ্যক সংশোধনী, ১৯৫১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The First Amendment (1951) added the Ninth Schedule.",
+      "as": "প্ৰথম সংশোধনীয়ে (১৯৫১) নৱম অনুসূচী যোগ কৰিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-125",
+    "q": {
+      "en": "Which Schedule lists the States and Union Territories?",
+      "as": "কোন অনুসূচীয়ে ৰাজ্য আৰু কেন্দ্ৰীয় শাসিত অঞ্চল তালিকাভুক্ত কৰে?"
+    },
+    "options": [
+      {
+        "en": "First Schedule",
+        "as": "প্ৰথম অনুসূচী"
+      },
+      {
+        "en": "Seventh Schedule",
+        "as": "সপ্তম অনুসূচী"
+      },
+      {
+        "en": "Fourth Schedule",
+        "as": "চতুৰ্থ অনুসূচী"
+      },
+      {
+        "en": "Second Schedule",
+        "as": "দ্বিতীয় অনুসূচী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The First Schedule lists the States and Union Territories.",
+      "as": "প্ৰথম অনুসূচীয়ে ৰাজ্য আৰু কেন্দ্ৰীয় শাসিত অঞ্চল তালিকাভুক্ত কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-126",
+    "q": {
+      "en": "Which Schedule contains the forms of oath for constitutional office holders?",
+      "as": "কোন অনুসূচীত সংবিধানিক পদাধিকাৰীৰ শপতৰ ৰূপ আছে?"
+    },
+    "options": [
+      {
+        "en": "Second Schedule",
+        "as": "দ্বিতীয় অনুসূচী"
+      },
+      {
+        "en": "Third Schedule",
+        "as": "তৃতীয় অনুসূচী"
+      },
+      {
+        "en": "First Schedule",
+        "as": "প্ৰথম অনুসূচী"
+      },
+      {
+        "en": "Fourth Schedule",
+        "as": "চতুৰ্থ অনুসূচী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Third Schedule contains the forms of oath and affirmation.",
+      "as": "তৃতীয় অনুসূচীত শপত আৰু প্ৰতিজ্ঞাৰ ৰূপ আছে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-127",
+    "q": {
+      "en": "Which Schedule deals with the administration of Scheduled Areas?",
+      "as": "কোন অনুসূচীয়ে অনুসূচিত এলেকাৰ প্ৰশাসনৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Sixth Schedule",
+        "as": "ষষ্ঠ অনুসূচী"
+      },
+      {
+        "en": "Ninth Schedule",
+        "as": "নৱম অনুসূচী"
+      },
+      {
+        "en": "Fifth Schedule",
+        "as": "পঞ্চম অনুসূচী"
+      },
+      {
+        "en": "Seventh Schedule",
+        "as": "সপ্তম অনুসূচী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Fifth Schedule deals with the administration of Scheduled Areas.",
+      "as": "পঞ্চম অনুসূচীয়ে অনুসূচিত এলেকাৰ প্ৰশাসনৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-128",
+    "q": {
+      "en": "Which Schedule deals with the administration of tribal areas in Assam, Meghalaya, Tripura and Mizoram?",
+      "as": "কোন অনুসূচীয়ে অসম, মেঘালয়, ত্ৰিপুৰা আৰু মিজোৰামৰ জনজাতীয় এলেকাৰ প্ৰশাসনৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Fifth Schedule",
+        "as": "পঞ্চম অনুসূচী"
+      },
+      {
+        "en": "Seventh Schedule",
+        "as": "সপ্তম অনুসূচী"
+      },
+      {
+        "en": "Tenth Schedule",
+        "as": "দশম অনুসূচী"
+      },
+      {
+        "en": "Sixth Schedule",
+        "as": "ষষ্ঠ অনুসূচী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Sixth Schedule deals with tribal areas in these four states.",
+      "as": "ষষ্ঠ অনুসূচীয়ে এই চাৰিখন ৰাজ্যৰ জনজাতীয় এলেকাৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-129",
+    "q": {
+      "en": "Which Schedule distributes powers between the Union and the States?",
+      "as": "কোন অনুসূচীয়ে সংঘ আৰু ৰাজ্যৰ মাজত ক্ষমতা বিতৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Seventh Schedule",
+        "as": "সপ্তম অনুসূচী"
+      },
+      {
+        "en": "Sixth Schedule",
+        "as": "ষষ্ঠ অনুসূচী"
+      },
+      {
+        "en": "Fifth Schedule",
+        "as": "পঞ্চম অনুসূচী"
+      },
+      {
+        "en": "Eighth Schedule",
+        "as": "অষ্টম অনুসূচী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Seventh Schedule contains the Union, State and Concurrent Lists.",
+      "as": "সপ্তম অনুসূচীত সংঘ, ৰাজ্য আৰু সমৱৰ্তী তালিকা আছে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-130",
+    "q": {
+      "en": "Which Schedule deals with the emoluments of constitutional office holders?",
+      "as": "কোন অনুসূচীয়ে সংবিধানিক পদাধিকাৰীৰ ভতাগ্ৰহণৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Fourth Schedule",
+        "as": "চতুৰ্থ অনুসূচী"
+      },
+      {
+        "en": "Second Schedule",
+        "as": "দ্বিতীয় অনুসূচী"
+      },
+      {
+        "en": "First Schedule",
+        "as": "প্ৰথম অনুসূচী"
+      },
+      {
+        "en": "Third Schedule",
+        "as": "তৃতীয় অনুসূচী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Second Schedule deals with the emoluments and allowances of certain officials.",
+      "as": "দ্বিতীয় অনুসূচীয়ে কিছুমান বিষয়াৰ ভতাগ্ৰহণ আৰু ভাট্টাৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-131",
+    "q": {
+      "en": "Which Schedule allocates seats to the States in the Rajya Sabha?",
+      "as": "কোন অনুসূচীয়ে ৰাজ্যসভাত ৰাজ্যসমূহক আসন আবণ্টন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Second Schedule",
+        "as": "দ্বিতীয় অনুসূচী"
+      },
+      {
+        "en": "First Schedule",
+        "as": "প্ৰথম অনুসূচী"
+      },
+      {
+        "en": "Fourth Schedule",
+        "as": "চতুৰ্থ অনুসূচী"
+      },
+      {
+        "en": "Third Schedule",
+        "as": "তৃতীয় অনুসূচী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Fourth Schedule allocates seats in the Rajya Sabha.",
+      "as": "চতুৰ্থ অনুসূচীয়ে ৰাজ্যসভাত আসন আবণ্টন কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-132",
+    "q": {
+      "en": "Which writ literally means 'to have the body'?",
+      "as": "কোন ৰিটৰ আক্ষৰিক অৰ্থ 'শৰীৰখন লাভ কৰা'?"
+    },
+    "options": [
+      {
+        "en": "Quo Warranto",
+        "as": "কুঅ' ৱাৰেণ্ট'"
+      },
+      {
+        "en": "Mandamus",
+        "as": "মেণ্ডামাছ"
+      },
+      {
+        "en": "Certiorari",
+        "as": "চাৰ্টিওৰেৰাই"
+      },
+      {
+        "en": "Habeas Corpus",
+        "as": "হেবিয়াছ কৰ্পাছ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Habeas Corpus means 'to have the body'; it protects against illegal detention.",
+      "as": "হেবিয়াছ কৰ্পাছৰ অৰ্থ 'শৰীৰখন লাভ কৰা'; ই অবৈধ আটকৰ পৰা সুৰক্ষা দিয়ে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-133",
+    "q": {
+      "en": "Which writ is issued to release a person from illegal detention?",
+      "as": "কোন ৰিট অবৈধ আটকৰ পৰা এজন ব্যক্তিক মুক্ত কৰিবলৈ জাৰি কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Habeas Corpus",
+        "as": "হেবিয়াছ কৰ্পাছ"
+      },
+      {
+        "en": "Quo Warranto",
+        "as": "কুঅ' ৱাৰেণ্ট'"
+      },
+      {
+        "en": "Mandamus",
+        "as": "মেণ্ডামাছ"
+      },
+      {
+        "en": "Prohibition",
+        "as": "নিষেধাজ্ঞা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Habeas Corpus is issued to release a person from illegal detention.",
+      "as": "অবৈধ আটকৰ পৰা এজন ব্যক্তিক মুক্ত কৰিবলৈ হেবিয়াছ কৰ্পাছ জাৰি কৰা হয়।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-134",
+    "q": {
+      "en": "Which writ means 'We command'?",
+      "as": "কোন ৰিটৰ অৰ্থ 'আমি আদেশ দিওঁ'?"
+    },
+    "options": [
+      {
+        "en": "Habeas Corpus",
+        "as": "হেবিয়াছ কৰ্পাছ"
+      },
+      {
+        "en": "Mandamus",
+        "as": "মেণ্ডামাছ"
+      },
+      {
+        "en": "Certiorari",
+        "as": "চাৰ্টিওৰেৰাই"
+      },
+      {
+        "en": "Prohibition",
+        "as": "নিষেধাজ্ঞা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mandamus means 'we command' and is issued to a public authority to do its duty.",
+      "as": "মেণ্ডামাছৰ অৰ্থ 'আমি আদেশ দিওঁ' আৰু ৰাজহুৱা কৰ্তৃপক্ষক তেওঁৰ কৰ্তব্য পালন কৰিবলৈ জাৰি কৰা হয়।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-135",
+    "q": {
+      "en": "Which writ commands a public authority to perform its legal duty?",
+      "as": "কোন ৰিটে ৰাজহুৱা কৰ্তৃপক্ষক আইনী কৰ্তব্য পালন কৰিবলৈ আদেশ দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Certiorari",
+        "as": "চাৰ্টিওৰেৰাই"
+      },
+      {
+        "en": "Quo Warranto",
+        "as": "কুঅ' ৱাৰেণ্ট'"
+      },
+      {
+        "en": "Mandamus",
+        "as": "মেণ্ডামাছ"
+      },
+      {
+        "en": "Habeas Corpus",
+        "as": "হেবিয়াছ কৰ্পাছ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Mandamus commands a public authority to perform its duty.",
+      "as": "মেণ্ডামাছে ৰাজহুৱা কৰ্তৃপক্ষক কৰ্তব্য পালন কৰিবলৈ আদেশ দিয়ে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-136",
+    "q": {
+      "en": "Which writ means 'to be certified'?",
+      "as": "কোন ৰিটৰ অৰ্থ 'প্ৰমাণিত কৰা'?"
+    },
+    "options": [
+      {
+        "en": "Habeas Corpus",
+        "as": "হেবিয়াছ কৰ্পাছ"
+      },
+      {
+        "en": "Quo Warranto",
+        "as": "কুঅ' ৱাৰেণ্ট'"
+      },
+      {
+        "en": "Mandamus",
+        "as": "মেণ্ডামাছ"
+      },
+      {
+        "en": "Certiorari",
+        "as": "চাৰ্টিওৰেৰাই"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Certiorari means 'to be certified'; it transfers a case from a lower court.",
+      "as": "চাৰ্টিওৰেৰাইৰ অৰ্থ 'প্ৰমাণিত কৰা'; ই নিম্ন আদালতৰ পৰা গোচৰ স্থানান্তৰ কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-137",
+    "q": {
+      "en": "Which writ is issued to transfer a case from a lower court to a higher court?",
+      "as": "কোন ৰিট নিম্ন আদালতৰ পৰা উচ্চ আদালতলৈ গোচৰ স্থানান্তৰ কৰিবলৈ জাৰি কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Certiorari",
+        "as": "চাৰ্টিওৰেৰাই"
+      },
+      {
+        "en": "Habeas Corpus",
+        "as": "হেবিয়াছ কৰ্পাছ"
+      },
+      {
+        "en": "Prohibition",
+        "as": "নিষেধাজ্ঞা"
+      },
+      {
+        "en": "Mandamus",
+        "as": "মেণ্ডামাছ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Certiorari is issued to transfer a case from a lower court.",
+      "as": "নিম্ন আদালতৰ পৰা গোচৰ স্থানান্তৰ কৰিবলৈ চাৰ্টিওৰেৰাই জাৰি কৰা হয়।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-138",
+    "q": {
+      "en": "Which writ means 'by what authority'?",
+      "as": "কোন ৰিটৰ অৰ্থ 'কি কৰ্তৃত্বত'?"
+    },
+    "options": [
+      {
+        "en": "Mandamus",
+        "as": "মেণ্ডামাছ"
+      },
+      {
+        "en": "Quo Warranto",
+        "as": "কুঅ' ৱাৰেণ্ট'"
+      },
+      {
+        "en": "Habeas Corpus",
+        "as": "হেবিয়াছ কৰ্পাছ"
+      },
+      {
+        "en": "Certiorari",
+        "as": "চাৰ্টিওৰেৰাই"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Quo Warranto means 'by what authority' and questions a person's right to hold public office.",
+      "as": "কুঅ' ৱাৰেণ্ট'ৰ অৰ্থ 'কি কৰ্তৃত্বত' আৰু ৰাজহুৱা পদত অধিষ্ঠিত হোৱাৰ অধিকাৰক প্ৰশ্ন কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-139",
+    "q": {
+      "en": "Which writ questions a person's authority to hold a public office?",
+      "as": "কোন ৰিটে এজন ব্যক্তিৰ ৰাজহুৱা পদত অধিষ্ঠিত হোৱাৰ কৰ্তৃত্বক প্ৰশ্ন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Certiorari",
+        "as": "চাৰ্টিওৰেৰাই"
+      },
+      {
+        "en": "Prohibition",
+        "as": "নিষেধাজ্ঞা"
+      },
+      {
+        "en": "Quo Warranto",
+        "as": "কুঅ' ৱাৰেণ্ট'"
+      },
+      {
+        "en": "Mandamus",
+        "as": "মেণ্ডামাছ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Quo Warranto is issued to inquire into the legality of a claim to a public office.",
+      "as": "ৰাজহুৱা পদৰ দাবীৰ বৈধতা সোধাবলৈ কুঅ' ৱাৰেণ্ট' জাৰি কৰা হয়।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-140",
+    "q": {
+      "en": "Which writ is issued to a lower court to stop it from exceeding its jurisdiction?",
+      "as": "নিম্ন আদালতক নিজৰ অধিকাৰক্ষেত্ৰ অতিক্ৰম কৰাৰ পৰা বিৰত ৰাখিবলৈ কোন ৰিট জাৰি কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Mandamus",
+        "as": "মেণ্ডামাছ"
+      },
+      {
+        "en": "Certiorari",
+        "as": "চাৰ্টিওৰেৰাই"
+      },
+      {
+        "en": "Quo Warranto",
+        "as": "কুঅ' ৱাৰেণ্ট'"
+      },
+      {
+        "en": "Prohibition",
+        "as": "নিষেধাজ্ঞা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A writ of Prohibition is issued to a lower court to prevent it from exceeding its jurisdiction.",
+      "as": "নিম্ন আদালতক অধিকাৰক্ষেত্ৰ অতিক্ৰম কৰাৰ পৰা বিৰত ৰাখিবলৈ নিষেধাজ্ঞাৰ ৰিট জাৰি কৰা হয়।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-141",
+    "q": {
+      "en": "The writ jurisdiction of the Supreme Court is provided under which Article?",
+      "as": "উচ্চতম ন্যায়ালয়ৰ ৰিট অধিকাৰক্ষেত্ৰ কোন অনুচ্ছেদৰ অধীনত প্ৰদান কৰা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Article 32",
+        "as": "অনুচ্ছেদ ৩২"
+      },
+      {
+        "en": "Article 131",
+        "as": "অনুচ্ছেদ ১৩১"
+      },
+      {
+        "en": "Article 143",
+        "as": "অনুচ্ছেদ ১৪৩"
+      },
+      {
+        "en": "Article 226",
+        "as": "অনুচ্ছেদ ২২৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Article 32 gives the Supreme Court the power to issue writs for enforcement of Fundamental Rights.",
+      "as": "অনুচ্ছেদ ৩২-য়ে মৌলিক অধিকাৰ বলৱৎ কৰাৰ বাবে উচ্চতম ন্যায়ালয়ক ৰিট জাৰি কৰাৰ ক্ষমতা দিয়ে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-142",
+    "q": {
+      "en": "The writ jurisdiction of the High Court is provided under which Article?",
+      "as": "উচ্চ ন্যায়ালয়ৰ ৰিট অধিকাৰক্ষেত্ৰ কোন অনুচ্ছেদৰ অধীনত প্ৰদান কৰা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Article 131",
+        "as": "অনুচ্ছেদ ১৩১"
+      },
+      {
+        "en": "Article 226",
+        "as": "অনুচ্ছেদ ২২৬"
+      },
+      {
+        "en": "Article 143",
+        "as": "অনুচ্ছেদ ১৪৩"
+      },
+      {
+        "en": "Article 32",
+        "as": "অনুচ্ছেদ ৩২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Article 226 empowers the High Court to issue writs.",
+      "as": "অনুচ্ছেদ ২২৬-য়ে উচ্চ ন্যায়ালয়ক ৰিট জাৰি কৰাৰ ক্ষমতা দিয়ে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-143",
+    "q": {
+      "en": "Which Amendment is known as the 'Mini Constitution'?",
+      "as": "কোন সংশোধনীক 'লঘু সংবিধান' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "1st Amendment, 1951",
+        "as": "১ সংখ্যক সংশোধনী, ১৯৫১"
+      },
+      {
+        "en": "44th Amendment, 1978",
+        "as": "৪৪ সংখ্যক সংশোধনী, ১৯৭৮"
+      },
+      {
+        "en": "42nd Amendment, 1976",
+        "as": "৪২ সংখ্যক সংশোধনী, ১৯৭৬"
+      },
+      {
+        "en": "52nd Amendment, 1985",
+        "as": "৫২ সংখ্যক সংশোধনী, ১৯৮৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The 42nd Amendment (1976) is called the Mini Constitution due to its wide-ranging changes.",
+      "as": "ব্যাপক পৰিৱৰ্তনৰ বাবে ৪২ সংখ্যক সংশোধনীক (১৯৭৬) লঘু সংবিধান বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-144",
+    "q": {
+      "en": "Which Amendment lowered the voting age from 21 to 18 years?",
+      "as": "কোন সংশোধনীয়ে ভোটদানৰ বয়স ২১ ৰ পৰা ১৮ বছৰলৈ হ্ৰাস কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "44th Amendment, 1978",
+        "as": "৪৪ সংখ্যক সংশোধনী, ১৯৭৮"
+      },
+      {
+        "en": "42nd Amendment, 1976",
+        "as": "৪২ সংখ্যক সংশোধনী, ১৯৭৬"
+      },
+      {
+        "en": "73rd Amendment, 1992",
+        "as": "৭৩ সংখ্যক সংশোধনী, ১৯৯২"
+      },
+      {
+        "en": "61st Amendment, 1988",
+        "as": "৬১ সংখ্যক সংশোধনী, ১৯৮৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The 61st Amendment (1988) reduced the voting age to 18.",
+      "as": "৬১ সংখ্যক সংশোধনীয়ে (১৯৮৮) ভোটদানৰ বয়স ১৮ লৈ হ্ৰাস কৰিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-145",
+    "q": {
+      "en": "Which Amendment introduced the Goods and Services Tax (GST)?",
+      "as": "কোন সংশোধনীয়ে সামগ্ৰী আৰু সেৱা কৰ (GST) আৰম্ভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "101st Amendment, 2016",
+        "as": "১০১ সংখ্যক সংশোধনী, ২০১৬"
+      },
+      {
+        "en": "86th Amendment, 2002",
+        "as": "৮৬ সংখ্যক সংশোধনী, ২০০২"
+      },
+      {
+        "en": "42nd Amendment, 1976",
+        "as": "৪২ সংখ্যক সংশোধনী, ১৯৭৬"
+      },
+      {
+        "en": "103rd Amendment, 2019",
+        "as": "১০৩ সংখ্যক সংশোধনী, ২০১৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The 101st Amendment (2016) introduced the Goods and Services Tax.",
+      "as": "১০১ সংখ্যক সংশোধনীয়ে (২০১৬) সামগ্ৰী আৰু সেৱা কৰ আৰম্ভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-146",
+    "q": {
+      "en": "Which Amendment provided reservation for Economically Weaker Sections (EWS)?",
+      "as": "কোন সংশোধনীয়ে অৰ্থনৈতিকভাৱে দুৰ্বল শ্ৰেণীৰ বাবে সংৰক্ষণ প্ৰদান কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "86th Amendment, 2002",
+        "as": "৮৬ সংখ্যক সংশোধনী, ২০০২"
+      },
+      {
+        "en": "103rd Amendment, 2019",
+        "as": "১০৩ সংখ্যক সংশোধনী, ২০১৯"
+      },
+      {
+        "en": "102nd Amendment, 2018",
+        "as": "১০২ সংখ্যক সংশোধনী, ২০১৮"
+      },
+      {
+        "en": "101st Amendment, 2016",
+        "as": "১০১ সংখ্যক সংশোধনী, ২০১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The 103rd Amendment (2019) provided 10% reservation for EWS.",
+      "as": "১০৩ সংখ্যক সংশোধনীয়ে (২০১৯) অৰ্থনৈতিকভাৱে দুৰ্বল শ্ৰেণীৰ বাবে ১০% সংৰক্ষণ প্ৰদান কৰিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-147",
+    "q": {
+      "en": "Which Amendment reorganized the States on a linguistic basis?",
+      "as": "কোন সংশোধনীয়ে ভাষিক ভিত্তিত ৰাজ্যসমূহ পুনৰ্গঠন কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "44th Amendment, 1978",
+        "as": "৪৪ সংখ্যক সংশোধনী, ১৯৭৮"
+      },
+      {
+        "en": "1st Amendment, 1951",
+        "as": "১ সংখ্যক সংশোধনী, ১৯৫১"
+      },
+      {
+        "en": "7th Amendment, 1956",
+        "as": "৭ সংখ্যক সংশোধনী, ১৯৫৬"
+      },
+      {
+        "en": "42nd Amendment, 1976",
+        "as": "৪২ সংখ্যক সংশোধনী, ১৯৭৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The 7th Amendment (1956) reorganized States on a linguistic basis.",
+      "as": "৭ সংখ্যক সংশোধনীয়ে (১৯৫৬) ভাষিক ভিত্তিত ৰাজ্যসমূহ পুনৰ্গঠন কৰিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-148",
+    "q": {
+      "en": "The Basic Structure doctrine was propounded in which case?",
+      "as": "মৌলিক গাঁথনি তত্ত্ব কোনটো গোচৰত প্ৰতিষ্ঠা কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Shankari Prasad case (1951)",
+        "as": "শংকৰী প্ৰসাদ গোচৰ (১৯৫১)"
+      },
+      {
+        "en": "Minerva Mills case (1980)",
+        "as": "মিনাৰ্ভা মিলছ গোচৰ (১৯৮০)"
+      },
+      {
+        "en": "Berubari Union case (1960)",
+        "as": "বেৰুবাৰি ইউনিয়ন গোচৰ (১৯৬০)"
+      },
+      {
+        "en": "Kesavananda Bharati case (1973)",
+        "as": "কেশৱানন্দ ভাৰতী গোচৰ (১৯৭৩)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Basic Structure doctrine was laid down in Kesavananda Bharati v. State of Kerala (1973).",
+      "as": "মৌলিক গাঁথনি তত্ত্ব কেশৱানন্দ ভাৰতী বনাম কেৰালা ৰাজ্য (১৯৭৩) গোচৰত প্ৰতিষ্ঠা কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-149",
+    "q": {
+      "en": "Which Article granted special status to Jammu and Kashmir before its abrogation?",
+      "as": "বাতিল হোৱাৰ আগতে কোন অনুচ্ছেদে জম্মু-কাশ্মীৰক বিশেষ মৰ্যাদা দিছিল?"
+    },
+    "options": [
+      {
+        "en": "Article 370",
+        "as": "অনুচ্ছেদ ৩৭০"
+      },
+      {
+        "en": "Article 371",
+        "as": "অনুচ্ছেদ ৩৭১"
+      },
+      {
+        "en": "Article 356",
+        "as": "অনুচ্ছেদ ৩৫৬"
+      },
+      {
+        "en": "Article 360",
+        "as": "অনুচ্ছেদ ৩৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Article 370 granted special status to Jammu and Kashmir; it was abrogated in 2019.",
+      "as": "অনুচ্ছেদ ৩৭০-য়ে জম্মু-কাশ্মীৰক বিশেষ মৰ্যাদা দিছিল; ২০১৯ চনত সেয়া বাতিল কৰা হয়।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-150",
+    "q": {
+      "en": "Which Amendment introduced the Anti-Defection Law?",
+      "as": "কোন সংশোধনীয়ে দলত্যাগ-বিৰোধী আইন আৰম্ভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "44th Amendment, 1978",
+        "as": "৪৪ সংখ্যক সংশোধনী, ১৯৭৮"
+      },
+      {
+        "en": "52nd Amendment, 1985",
+        "as": "৫২ সংখ্যক সংশোধনী, ১৯৮৫"
+      },
+      {
+        "en": "42nd Amendment, 1976",
+        "as": "৪২ সংখ্যক সংশোধনী, ১৯৭৬"
+      },
+      {
+        "en": "61st Amendment, 1988",
+        "as": "৬১ সংখ্যক সংশোধনী, ১৯৮৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The 52nd Amendment (1985) introduced the anti-defection law through the Tenth Schedule.",
+      "as": "৫২ সংখ্যক সংশোধনীয়ে (১৯৮৫) দশম অনুসূচীৰ জৰিয়তে দলত্যাগ-বিৰোধী আইন আৰম্ভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-151",
+    "q": {
+      "en": "The concept of single citizenship was borrowed from which country?",
+      "as": "একক নাগৰিকত্বৰ ধাৰণা কোনখন দেশৰ পৰা গ্ৰহণ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "United States",
+        "as": "আমেৰিকা যুক্তৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Ireland",
+        "as": "আয়াৰলেণ্ড"
+      },
+      {
+        "en": "Britain",
+        "as": "ব্ৰিটেইন"
+      },
+      {
+        "en": "Australia",
+        "as": "অষ্ট্ৰেলিয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The concept of single citizenship was borrowed from Britain.",
+      "as": "একক নাগৰিকত্বৰ ধাৰণা ব্ৰিটেইনৰ পৰা গ্ৰহণ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-152",
+    "q": {
+      "en": "Fundamental Rights were borrowed from the Constitution of which country?",
+      "as": "মৌলিক অধিকাৰ কোনখন দেশৰ সংবিধানৰ পৰা গ্ৰহণ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Ireland",
+        "as": "আয়াৰলেণ্ড"
+      },
+      {
+        "en": "USSR",
+        "as": "ছোভিয়েট সংঘ"
+      },
+      {
+        "en": "Britain",
+        "as": "ব্ৰিটেইন"
+      },
+      {
+        "en": "United States",
+        "as": "আমেৰিকা যুক্তৰাষ্ট্ৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Fundamental Rights and judicial review were borrowed from the United States.",
+      "as": "মৌলিক অধিকাৰ আৰু ন্যায়িক পুনৰীক্ষণ আমেৰিকা যুক্তৰাষ্ট্ৰৰ পৰা গ্ৰহণ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-153",
+    "q": {
+      "en": "The emergency provisions of the Indian Constitution were borrowed from which country?",
+      "as": "ভাৰতীয় সংবিধানৰ জৰুৰীকালীন বিধান কোনখন দেশৰ পৰা গ্ৰহণ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Germany",
+        "as": "জাৰ্মানি"
+      },
+      {
+        "en": "South Africa",
+        "as": "দক্ষিণ আফ্ৰিকা"
+      },
+      {
+        "en": "Australia",
+        "as": "অষ্ট্ৰেলিয়া"
+      },
+      {
+        "en": "Ireland",
+        "as": "আয়াৰলেণ্ড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Emergency provisions were borrowed from the Weimar Constitution of Germany.",
+      "as": "জৰুৰীকালীন বিধান জাৰ্মানীৰ ৱেইমাৰ সংবিধানৰ পৰা গ্ৰহণ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-154",
+    "q": {
+      "en": "The Concurrent List in the Indian Constitution was borrowed from which country?",
+      "as": "ভাৰতীয় সংবিধানৰ সমৱৰ্তী তালিকা কোনখন দেশৰ পৰা গ্ৰহণ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "United States",
+        "as": "আমেৰিকা যুক্তৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Australia",
+        "as": "অষ্ট্ৰেলিয়া"
+      },
+      {
+        "en": "Ireland",
+        "as": "আয়াৰলেণ্ড"
+      },
+      {
+        "en": "Canada",
+        "as": "কানাডা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Concurrent List was borrowed from Australia.",
+      "as": "সমৱৰ্তী তালিকা অষ্ট্ৰেলিয়াৰ পৰা গ্ৰহণ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-155",
+    "q": {
+      "en": "The amendment procedure of the Indian Constitution was borrowed from which country?",
+      "as": "ভাৰতীয় সংবিধানৰ সংশোধন পদ্ধতি কোনখন দেশৰ পৰা গ্ৰহণ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Ireland",
+        "as": "আয়াৰলেণ্ড"
+      },
+      {
+        "en": "United States",
+        "as": "আমেৰিকা যুক্তৰাষ্ট্ৰ"
+      },
+      {
+        "en": "South Africa",
+        "as": "দক্ষিণ আফ্ৰিকা"
+      },
+      {
+        "en": "Britain",
+        "as": "ব্ৰিটেইন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The amendment procedure was borrowed from South Africa.",
+      "as": "সংশোধন পদ্ধতি দক্ষিণ আফ্ৰিকাৰ পৰা গ্ৰহণ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-156",
+    "q": {
+      "en": "Which Article of the Constitution provides for the establishment of the Supreme Court?",
+      "as": "সংবিধানৰ কোন অনুচ্ছেদে উচ্চতম ন্যায়ালয় স্থাপনৰ ব্যৱস্থা কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 226",
+        "as": "অনুচ্ছেদ ২২৬"
+      },
+      {
+        "en": "Article 214",
+        "as": "অনুচ্ছেদ ২১৪"
+      },
+      {
+        "en": "Article 32",
+        "as": "অনুচ্ছেদ ৩২"
+      },
+      {
+        "en": "Article 124",
+        "as": "অনুচ্ছেদ ১২৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Article 124 provides for the establishment of the Supreme Court of India.",
+      "as": "অনুচ্ছেদ ১২৪-য়ে ভাৰতৰ উচ্চতম ন্যায়ালয় স্থাপনৰ ব্যৱস্থা কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-157",
+    "q": {
+      "en": "Which Article of the Constitution provides for the establishment of High Courts?",
+      "as": "সংবিধানৰ কোন অনুচ্ছেদে উচ্চ ন্যায়ালয় স্থাপনৰ ব্যৱস্থা কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 214",
+        "as": "অনুচ্ছেদ ২১৪"
+      },
+      {
+        "en": "Article 32",
+        "as": "অনুচ্ছেদ ৩২"
+      },
+      {
+        "en": "Article 226",
+        "as": "অনুচ্ছেদ ২২৬"
+      },
+      {
+        "en": "Article 124",
+        "as": "অনুচ্ছেদ ১২৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Article 214 provides that there shall be a High Court for each State.",
+      "as": "অনুচ্ছেদ ২১৪-য়ে প্ৰদান কৰে যে প্ৰতিখন ৰাজ্যৰ বাবে এটা উচ্চ ন্যায়ালয় থাকিব।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-158",
+    "q": {
+      "en": "Which Article of the Constitution provides for the Council of Ministers?",
+      "as": "সংবিধানৰ কোন অনুচ্ছেদে মন্ত্ৰী পৰিষদৰ ব্যৱস্থা কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 52",
+        "as": "অনুচ্ছেদ ৫২"
+      },
+      {
+        "en": "Article 74",
+        "as": "অনুচ্ছেদ ৭৪"
+      },
+      {
+        "en": "Article 76",
+        "as": "অনুচ্ছেদ ৭৬"
+      },
+      {
+        "en": "Article 63",
+        "as": "অনুচ্ছেদ ৬৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Article 74 provides for a Council of Ministers headed by the Prime Minister to aid and advise the President.",
+      "as": "অনুচ্ছেদ ৭৪-য়ে ৰাষ্ট্ৰপতিক সহায় আৰু পৰামৰ্শ দিবলৈ প্ৰধানমন্ত্ৰীৰ নেতৃত্বত মন্ত্ৰী পৰিষদৰ ব্যৱস্থা কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-159",
+    "q": {
+      "en": "Which Article provides for the Attorney General of India?",
+      "as": "কোন অনুচ্ছেদে ভাৰতৰ মহাপবিশিষ্ট অধিবক্তা (এটৰ্নি জেনেৰেল)-ৰ ব্যৱস্থা কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 148",
+        "as": "অনুচ্ছেদ ১৪৮"
+      },
+      {
+        "en": "Article 324",
+        "as": "অনুচ্ছেদ ৩২৪"
+      },
+      {
+        "en": "Article 76",
+        "as": "অনুচ্ছেদ ৭৬"
+      },
+      {
+        "en": "Article 74",
+        "as": "অনুচ্ছেদ ৭৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Article 76 provides for the Attorney General of India.",
+      "as": "অনুচ্ছেদ ৭৬-য়ে ভাৰতৰ এটৰ্নি জেনেৰেলৰ ব্যৱস্থা কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-160",
+    "q": {
+      "en": "Citizenship is dealt with in which Part of the Constitution?",
+      "as": "নাগৰিকত্ব সংবিধানৰ কোনটো অংশত আলোচনা কৰা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Part III",
+        "as": "তৃতীয় অংশ"
+      },
+      {
+        "en": "Part I",
+        "as": "প্ৰথম অংশ"
+      },
+      {
+        "en": "Part IV",
+        "as": "চতুৰ্থ অংশ"
+      },
+      {
+        "en": "Part II",
+        "as": "দ্বিতীয় অংশ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Citizenship is dealt with in Part II (Articles 5-11).",
+      "as": "নাগৰিকত্ব দ্বিতীয় অংশত (অনুচ্ছেদ ৫-১১) আলোচনা কৰা হৈছে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-161",
+    "q": {
+      "en": "The idea of 'Republic' in the Preamble was inspired by which country?",
+      "as": "প্ৰস্তাৱনাত 'প্ৰজাতন্ত্ৰ'ৰ ধাৰণা কোনখন দেশৰ দ্বাৰা অনুপ্ৰাণিত?"
+    },
+    "options": [
+      {
+        "en": "France",
+        "as": "ফ্ৰান্স"
+      },
+      {
+        "en": "Britain",
+        "as": "ব্ৰিটেইন"
+      },
+      {
+        "en": "United States",
+        "as": "আমেৰিকা যুক্তৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Ireland",
+        "as": "আয়াৰলেণ্ড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The republican idea in the Preamble was inspired by France.",
+      "as": "প্ৰস্তাৱনাত প্ৰজাতন্ত্ৰীয় ধাৰণা ফ্ৰান্সৰ দ্বাৰা অনুপ্ৰাণিত।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-162",
+    "q": {
+      "en": "The Indian Constitution is the longest written Constitution in the world because it:",
+      "as": "ভাৰতীয় সংবিধান বিশ্বৰ আটাইতকৈ দীঘল লিখিত সংবিধান কাৰণ ই:"
+    },
+    "options": [
+      {
+        "en": "Is based only on customs",
+        "as": "কেৱল ৰীতি-নীতিৰ ওপৰত আধাৰিত"
+      },
+      {
+        "en": "Contains detailed provisions and a large number of Articles and Schedules",
+        "as": "বিস্তাৰিত বিধান আৰু বিপুল সংখ্যক অনুচ্ছেদ তথা অনুসূচী ধাৰণ কৰে"
+      },
+      {
+        "en": "Has no Fundamental Rights",
+        "as": "মৌলিক অধিকাৰ নাই"
+      },
+      {
+        "en": "Has no amendment procedure",
+        "as": "কোনো সংশোধন পদ্ধতি নাই"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "It is the longest written Constitution due to its detailed provisions.",
+      "as": "বিস্তাৰিত বিধানৰ বাবে ই আটাইতকৈ দীঘল লিখিত সংবিধান।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-163",
+    "q": {
+      "en": "Who is the constitutional head of the Indian Union?",
+      "as": "ভাৰতীয় সংঘৰ সংবিধানিক মুৰব্বী কোন?"
+    },
+    "options": [
+      {
+        "en": "The Prime Minister",
+        "as": "প্ৰধানমন্ত্ৰী"
+      },
+      {
+        "en": "The Vice-President",
+        "as": "উপ-ৰাষ্ট্ৰপতি"
+      },
+      {
+        "en": "The President of India",
+        "as": "ভাৰতৰ ৰাষ্ট্ৰপতি"
+      },
+      {
+        "en": "The Chief Justice",
+        "as": "প্ৰধান ন্যায়াধীশ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The President is the constitutional head of the Indian Union.",
+      "as": "ৰাষ্ট্ৰপতি ভাৰতীয় সংঘৰ সংবিধানিক মুৰব্বী।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-164",
+    "q": {
+      "en": "The Preamble's promise of 'Liberty' includes:",
+      "as": "প্ৰস্তাৱনাৰ 'স্বাধীনতা'ৰ প্ৰতিশ্ৰুতিৰ ভিতৰত আছে:"
+    },
+    "options": [
+      {
+        "en": "Liberty of travel only",
+        "as": "কেৱল ভ্ৰমণৰ স্বাধীনতা"
+      },
+      {
+        "en": "Liberty of trade only",
+        "as": "কেৱল বাণিজ্যৰ স্বাধীনতা"
+      },
+      {
+        "en": "Liberty of property only",
+        "as": "কেৱল সম্পত্তিৰ স্বাধীনতা"
+      },
+      {
+        "en": "Liberty of thought, expression, belief, faith and worship",
+        "as": "চিন্তা, প্ৰকাশ, বিশ্বাস, ধৰ্ম আৰু উপাসনাৰ স্বাধীনতা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Preamble secures liberty of thought, expression, belief, faith and worship.",
+      "as": "প্ৰস্তাৱনাই চিন্তা, প্ৰকাশ, বিশ্বাস, ধৰ্ম আৰু উপাসনাৰ স্বাধীনতা নিশ্চিত কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-165",
+    "q": {
+      "en": "The Preamble's promise of 'Equality' includes:",
+      "as": "প্ৰস্তাৱনাৰ 'সমতা'ৰ প্ৰতিশ্ৰুতিৰ ভিতৰত আছে:"
+    },
+    "options": [
+      {
+        "en": "Equality of status and of opportunity",
+        "as": "মৰ্যাদা আৰু সুযোগৰ সমতা"
+      },
+      {
+        "en": "Equality of religion only",
+        "as": "কেৱল ধৰ্মৰ সমতা"
+      },
+      {
+        "en": "Equality of income only",
+        "as": "কেৱল আয়ৰ সমতা"
+      },
+      {
+        "en": "Equality of property only",
+        "as": "কেৱল সম্পত্তিৰ সমতা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Preamble secures equality of status and opportunity for all.",
+      "as": "প্ৰস্তাৱনাই সকলোৰে বাবে মৰ্যাদা আৰু সুযোগৰ সমতা নিশ্চিত কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-166",
+    "q": {
+      "en": "Which Article of the Constitution provides for the abolition of untouchability?",
+      "as": "সংবিধানৰ কোন অনুচ্ছেদে অস্পৃশ্যতা বিলুপ্তিৰ ব্যৱস্থা কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 15",
+        "as": "অনুচ্ছেদ ১৫"
+      },
+      {
+        "en": "Article 17",
+        "as": "অনুচ্ছেদ ১৭"
+      },
+      {
+        "en": "Article 14",
+        "as": "অনুচ্ছেদ ১৪"
+      },
+      {
+        "en": "Article 18",
+        "as": "অনুচ্ছেদ ১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Article 17 abolishes untouchability in any form.",
+      "as": "অনুচ্ছেদ ১৭-য়ে যিকোনো ৰূপত অস্পৃশ্যতা বিলুপ্ত কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-167",
+    "q": {
+      "en": "Which Fundamental Right is also known as the 'Right to Freedom'?",
+      "as": "কোন মৌলিক অধিকাৰক 'স্বাধীনতাৰ অধিকাৰ' বুলিও জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Right against Exploitation",
+        "as": "শোষণৰ বিৰুদ্ধে অধিকাৰ"
+      },
+      {
+        "en": "Right to Equality",
+        "as": "সমতাৰ অধিকাৰ"
+      },
+      {
+        "en": "Right to Freedom",
+        "as": "স্বাধীনতাৰ অধিকাৰ"
+      },
+      {
+        "en": "Cultural Rights",
+        "as": "সাংস্কৃতিক অধিকাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Articles 19 to 22 constitute the Right to Freedom.",
+      "as": "অনুচ্ছেদ ১৯ ৰ পৰা ২২-এ স্বাধীনতাৰ অধিকাৰ গঠন কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-168",
+    "q": {
+      "en": "Indian Constitution adopted the parliamentary system of government from:",
+      "as": "ভাৰতীয় সংবিধানে কোনখন দেশৰ পৰা সংসদীয় চৰকাৰ প্ৰণালী গ্ৰহণ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "France",
+        "as": "ফ্ৰান্স"
+      },
+      {
+        "en": "United States",
+        "as": "আমেৰিকা যুক্তৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Ireland",
+        "as": "আয়াৰলেণ্ড"
+      },
+      {
+        "en": "Britain",
+        "as": "ব্ৰিটেইন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The parliamentary system was borrowed from Britain.",
+      "as": "সংসদীয় প্ৰণালী ব্ৰিটেইনৰ পৰা গ্ৰহণ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-169",
+    "q": {
+      "en": "Which Article of the Constitution provides for the right to equality before the law?",
+      "as": "সংবিধানৰ কোন অনুচ্ছেদে আইনৰ আগত সমতাৰ অধিকাৰ প্ৰদান কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 14",
+        "as": "অনুচ্ছেদ ১৪"
+      },
+      {
+        "en": "Article 17",
+        "as": "অনুচ্ছেদ ১৭"
+      },
+      {
+        "en": "Article 16",
+        "as": "অনুচ্ছেদ ১৬"
+      },
+      {
+        "en": "Article 15",
+        "as": "অনুচ্ছেদ ১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Article 14 provides the right to equality before the law.",
+      "as": "অনুচ্ছেদ ১৪-য়ে আইনৰ আগত সমতাৰ অধিকাৰ প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-170",
+    "q": {
+      "en": "The 'Right to Freedom of Religion' is available to:",
+      "as": "'ধৰ্মৰ স্বাধীনতাৰ অধিকাৰ' কাৰ বাবে উপলব্ধ:"
+    },
+    "options": [
+      {
+        "en": "Members of one religion only",
+        "as": "কেৱল এটা ধৰ্মৰ সদস্য"
+      },
+      {
+        "en": "All persons in India",
+        "as": "ভাৰতৰ সকলো ব্যক্তি"
+      },
+      {
+        "en": "Foreigners only",
+        "as": "কেৱল বিদেশী"
+      },
+      {
+        "en": "Citizens only",
+        "as": "কেৱল নাগৰিক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Right to Freedom of Religion under Articles 25-28 is available to all persons.",
+      "as": "অনুচ্ছেদ ২৫-২৮ৰ অধীনৰ ধৰ্মৰ স্বাধীনতাৰ অধিকাৰ সকলো ব্যক্তিৰ বাবে উপলব্ধ।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-171",
+    "q": {
+      "en": "Which Article provides for the abrogation of titles except military and academic distinctions?",
+      "as": "সামৰিক আৰু শৈক্ষিক সন্মান বাদে উপাধি বিলুপ্তিৰ ব্যৱস্থা কোন অনুচ্ছেদে কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 17",
+        "as": "অনুচ্ছেদ ১৭"
+      },
+      {
+        "en": "Article 15",
+        "as": "অনুচ্ছেদ ১৫"
+      },
+      {
+        "en": "Article 18",
+        "as": "অনুচ্ছেদ ১৮"
+      },
+      {
+        "en": "Article 16",
+        "as": "অনুচ্ছেদ ১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Article 18 abolishes titles except military and academic distinctions.",
+      "as": "অনুচ্ছেদ ১৮-য়ে সামৰিক আৰু শৈক্ষিক সন্মান বাদে উপাধি বিলুপ্ত কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-172",
+    "q": {
+      "en": "The 'Right against Exploitation' prohibits:",
+      "as": "'শোষণৰ বিৰুদ্ধে অধিকাৰ'এ নিষিদ্ধ কৰে:"
+    },
+    "options": [
+      {
+        "en": "Right to property",
+        "as": "সম্পত্তিৰ অধিকাৰ"
+      },
+      {
+        "en": "Freedom of speech",
+        "as": "বাক স্বাধীনতা"
+      },
+      {
+        "en": "Freedom of religion",
+        "as": "ধৰ্মৰ স্বাধীনতা"
+      },
+      {
+        "en": "Human trafficking, forced labour and child labour",
+        "as": "মানৱ সৰবৰাহ, বলপূৰ্বক শ্ৰম আৰু শিশু শ্ৰম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Articles 23 and 24 prohibit human trafficking, forced labour and child labour.",
+      "as": "অনুচ্ছেদ ২৩ আৰু ২৪-য়ে মানৱ সৰবৰাহ, বলপূৰ্বক শ্ৰম আৰু শিশু শ্ৰম নিষিদ্ধ কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-173",
+    "q": {
+      "en": "Which Article guarantees remedies for the enforcement of Fundamental Rights?",
+      "as": "মৌলিক অধিকাৰ বলৱৎ কৰাৰ বাবে প্ৰতিকাৰ কোন অনুচ্ছেদে নিশ্চিত কৰে?"
+    },
+    "options": [
+      {
+        "en": "Article 32",
+        "as": "অনুচ্ছেদ ৩২"
+      },
+      {
+        "en": "Article 13",
+        "as": "অনুচ্ছেদ ১৩"
+      },
+      {
+        "en": "Article 226",
+        "as": "অনুচ্ছেদ ২২৬"
+      },
+      {
+        "en": "Article 14",
+        "as": "অনুচ্ছেদ ১৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Article 32 guarantees the right to constitutional remedies.",
+      "as": "অনুচ্ছেদ ৩২-য়ে সংবিধানিক প্ৰতিকাৰৰ অধিকাৰ নিশ্চিত কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-174",
+    "q": {
+      "en": "The Preamble of the Constitution is:",
+      "as": "সংবিধানৰ প্ৰস্তাৱনা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "A schedule of the Constitution",
+        "as": "সংবিধানৰ এটা অনুসূচী"
+      },
+      {
+        "en": "A preface that states the objectives of the Constitution",
+        "as": "সংবিধানৰ উদ্দেশ্যসমূহ বৰ্ণনা কৰা এখন প্ৰাক-কথন"
+      },
+      {
+        "en": "A source of Fundamental Rights",
+        "as": "মৌলিক অধিকাৰৰ উৎস"
+      },
+      {
+        "en": "An enforceable law",
+        "as": "বলৱৎ কৰিব পৰা আইন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Preamble is a preface that states the objectives and philosophy of the Constitution.",
+      "as": "প্ৰস্তাৱনা এখন প্ৰাক-কথন যিয়ে সংবিধানৰ উদ্দেশ্য আৰু দৰ্শন বৰ্ণনা কৰে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-175",
+    "q": {
+      "en": "Which Article of the Constitution deals with the protection of monuments and places of national importance?",
+      "as": "সংবিধানৰ কোন অনুচ্ছেদে ৰাষ্ট্ৰীয় গুৰুত্বৰ স্মৃতিস্তম্ভ আৰু স্থান সুৰক্ষাৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Article 48",
+        "as": "অনুচ্ছেদ ৪৮"
+      },
+      {
+        "en": "Article 51",
+        "as": "অনুচ্ছেদ ৫১"
+      },
+      {
+        "en": "Article 49",
+        "as": "অনুচ্ছেদ ৪৯"
+      },
+      {
+        "en": "Article 50",
+        "as": "অনুচ্ছেদ ৫০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Article 49 is a Directive Principle for the protection of monuments and places of national importance.",
+      "as": "অনুচ্ছেদ ৪৯ ৰাষ্ট্ৰীয় গুৰুত্বৰ স্মৃতিস্তম্ভ আৰু স্থান সুৰক্ষাৰ বাবে এটা নিৰ্দেশাত্মক নীতি।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-176",
+    "q": {
+      "en": "Which Article directs the State to separate the judiciary from the executive?",
+      "as": "কোন অনুচ্ছেদে ৰাষ্ট্ৰক ন্যায়পালিকা আৰু কাৰ্যপালিকাৰ পৰা পৃথক কৰিবলৈ নিৰ্দেশ দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Article 51",
+        "as": "অনুচ্ছেদ ৫১"
+      },
+      {
+        "en": "Article 49",
+        "as": "অনুচ্ছেদ ৪৯"
+      },
+      {
+        "en": "Article 48",
+        "as": "অনুচ্ছেদ ৪৮"
+      },
+      {
+        "en": "Article 50",
+        "as": "অনুচ্ছেদ ৫০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Article 50 directs the State to separate the judiciary from the executive.",
+      "as": "অনুচ্ছেদ ৫০-য়ে ৰাষ্ট্ৰক ন্যায়পালিকা কাৰ্যপালিকাৰ পৰা পৃথক কৰিবলৈ নিৰ্দেশ দিয়ে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-177",
+    "q": {
+      "en": "Which Article directs the State to promote international peace and security?",
+      "as": "কোন অনুচ্ছেদে ৰাষ্ট্ৰক আন্তৰ্জাতিক শান্তি আৰু সুৰক্ষা প্ৰসাৰৰ বাবে নিৰ্দেশ দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Article 51",
+        "as": "অনুচ্ছেদ ৫১"
+      },
+      {
+        "en": "Article 49",
+        "as": "অনুচ্ছেদ ৪৯"
+      },
+      {
+        "en": "Article 48",
+        "as": "অনুচ্ছেদ ৪৮"
+      },
+      {
+        "en": "Article 50",
+        "as": "অনুচ্ছেদ ৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Article 51 directs the State to promote international peace and security.",
+      "as": "অনুচ্ছেদ ৫১-য়ে ৰাষ্ট্ৰক আন্তৰ্জাতিক শান্তি আৰু সুৰক্ষা প্ৰসাৰৰ বাবে নিৰ্দেশ দিয়ে।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-178",
+    "q": {
+      "en": "The ideal of a welfare state is contained in which part of the Constitution?",
+      "as": "কল্যাণকামী ৰাষ্ট্ৰৰ আদৰ্শ সংবিধানৰ কোনটো অংশত আছে?"
+    },
+    "options": [
+      {
+        "en": "Fundamental Rights",
+        "as": "মৌলিক অধিকাৰ"
+      },
+      {
+        "en": "Directive Principles of State Policy",
+        "as": "ৰাষ্ট্ৰ পৰিচালনাৰ নিৰ্দেশাত্মক নীতি"
+      },
+      {
+        "en": "Preamble only",
+        "as": "কেৱল প্ৰস্তাৱনা"
+      },
+      {
+        "en": "Fundamental Duties",
+        "as": "মৌলিক কৰ্তব্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Directive Principles aim to establish a welfare state.",
+      "as": "নিৰ্দেশাত্মক নীতিসমূহৰ লক্ষ্য হৈছে কল্যাণকামী ৰাষ্ট্ৰ প্ৰতিষ্ঠা কৰা।"
+    }
+  },
+  {
+    "id": "constitution-preamble-rights-179",
+    "q": {
+      "en": "Which Article of the Constitution deals with the abolition of practice of untouchability?",
+      "as": "সংবিধানৰ কোন অনুচ্ছেদে অস্পৃশ্যতা প্ৰথা বিলুপ্তিৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Article 16",
+        "as": "অনুচ্ছেদ ১৬"
+      },
+      {
+        "en": "Article 15",
+        "as": "অনুচ্ছেদ ১৫"
+      },
+      {
+        "en": "Article 17",
+        "as": "অনুচ্ছেদ ১৭"
+      },
+      {
+        "en": "Article 18",
+        "as": "অনুচ্ছেদ ১৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Article 17 abolishes untouchability and makes its practice a punishable offence.",
+      "as": "অনুচ্ছেদ ১৭-য়ে অস্পৃশ্যতা বিলুপ্ত কৰে আৰু ইয়াৰ প্ৰচলনক দণ্ডনীয় অপৰাধ কৰে।"
+    }
   }
-}
+]
