@@ -1,30 +1,992 @@
-{
-  "id": "fill-in-the-blanks-001",
-  "q": {
-    "en": "Fill in the blank: She has been living here ___ 2010.",
-    "as": "ৰিক্ত স্থান পূৰণ কৰক: She has been living here ___ 2010."
-  },
-  "options": [
-    {
-      "en": "for",
-      "as": "for (বাবে)"
+[
+  {
+    "id": "fill-in-the-blanks-001",
+    "q": {
+      "en": "Fill in the blank: She has been living here ___ 2010.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She has been living here ___ 2010."
     },
-    {
-      "en": "since",
-      "as": "since (যেতিয়াৰপৰা)"
-    },
-    {
-      "en": "from",
-      "as": "from (পৰা)"
-    },
-    {
-      "en": "by",
-      "as": "by (দ্বাৰা)"
+    "options": [
+      { "en": "for", "as": "for (বাবে)" },
+      { "en": "since", "as": "since (যেতিয়াৰপৰা)" },
+      { "en": "from", "as": "from (পৰা)" },
+      { "en": "by", "as": "by (দ্বাৰা)" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Since' is used with a point of time in the present perfect continuous tense.",
+      "as": "Present perfect continuous tense ত এটা নিৰ্দিষ্ট সময়ৰ বিন্দুৰ সৈতে 'since' ব্যৱহাৰ হয়।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "'Since' is used with a point of time in the present perfect continuous tense.",
-    "as": "Present perfect continuous tense ত এটা নিৰ্দিষ্ট সময়ৰ বিন্দুৰ সৈতে 'since' ব্যৱহাৰ হয়।"
+  },
+  {
+    "id": "fill-in-the-blanks-002",
+    "q": {
+      "en": "Fill in the blank: I have known him ___ ten years.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I have known him ___ ten years."
+    },
+    "options": [
+      { "en": "since", "as": "since (যেতিয়াৰপৰা)" },
+      { "en": "during", "as": "during (সময়ত)" },
+      { "en": "for", "as": "for (বাবে/সময় ধৰি)" },
+      { "en": "from", "as": "from (পৰা)" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'For' is used with a period or duration of time.",
+      "as": "সময়ৰ কালছোৱা বা সময়সীমাৰ সৈতে 'for' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-003",
+    "q": {
+      "en": "Fill in the blank: He is good ___ English.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is good ___ English."
+    },
+    "options": [
+      { "en": "in", "as": "in (ভিতৰত)" },
+      { "en": "at", "as": "at (ত/স্থানত)" },
+      { "en": "on", "as": "on (ওপৰত)" },
+      { "en": "for", "as": "for (বাবে)" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Good at' is the correct preposition for skill in a subject.",
+      "as": "বিষয়ত দক্ষতা বুজাবলৈ 'good at' শুদ্ধ preposition।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-004",
+    "q": {
+      "en": "Fill in the blank: The book is ___ the table.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: The book is ___ the table."
+    },
+    "options": [
+      { "en": "in", "as": "in (ভিতৰত)" },
+      { "en": "on", "as": "on (ওপৰত)" },
+      { "en": "over", "as": "over (ওপৰত)" },
+      { "en": "at", "as": "at (ত/স্থানত)" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'On' shows the surface on which something rests.",
+      "as": "'On' এ কোনো বস্তু যি পৃষ্ঠত ৰাখি থকা হয় তাক দেখুৱায়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-005",
+    "q": {
+      "en": "Fill in the blank: She was born ___ 1998.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She was born ___ 1998."
+    },
+    "options": [
+      { "en": "on", "as": "on (ওপৰত)" },
+      { "en": "at", "as": "at (ত/স্থানত)" },
+      { "en": "in", "as": "in (ভিতৰত)" },
+      { "en": "since", "as": "since (যেতিয়াৰপৰা)" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'In' is used before a year or month.",
+      "as": "বছৰ বা মাহৰ আগত 'in' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-006",
+    "q": {
+      "en": "Fill in the blank: We must be grateful ___ our parents.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: We must be grateful ___ our parents."
+    },
+    "options": [
+      { "en": "for", "as": "for (বাবে)" },
+      { "en": "to", "as": "to (লৈ)" },
+      { "en": "of", "as": "of (ৰ/বিষয়ে)" },
+      { "en": "with", "as": "with (সৈতে)" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Grateful to' is used before a person; 'grateful for' is used before a thing.",
+      "as": "ব্যক্তিৰ আগত 'grateful to'; বস্তুৰ আগত 'grateful for' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-007",
+    "q": {
+      "en": "Fill in the blank: He died ___ malaria.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He died ___ malaria."
+    },
+    "options": [
+      { "en": "from", "as": "from (পৰা)" },
+      { "en": "with", "as": "with (সৈতে)" },
+      { "en": "of", "as": "of (ৰ/দ্বাৰা)" },
+      { "en": "by", "as": "by (দ্বাৰা)" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Die of' is used before the name of a disease.",
+      "as": "ৰোগৰ নামৰ আগত 'die of' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-008",
+    "q": {
+      "en": "Fill in the blank: The little girl is afraid ___ dogs.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: The little girl is afraid ___ dogs."
+    },
+    "options": [
+      { "en": "from", "as": "from (পৰা)" },
+      { "en": "of", "as": "of (ৰ/পৰা)" },
+      { "en": "at", "as": "at (ত)" },
+      { "en": "with", "as": "with (সৈতে)" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Afraid of' is the correct collocation.",
+      "as": "'Afraid of' এ শুদ্ধ যৌগিক প্ৰয়োগ।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-009",
+    "q": {
+      "en": "Fill in the blank: She is very fond ___ music.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She is very fond ___ music."
+    },
+    "options": [
+      { "en": "for", "as": "for (বাবে)" },
+      { "en": "with", "as": "with (সৈতে)" },
+      { "en": "at", "as": "at (ত)" },
+      { "en": "of", "as": "of (ৰ/প্ৰতি)" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Fond of' is the correct collocation.",
+      "as": "'Fond of' এ শুদ্ধ যৌগিক প্ৰয়োগ।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-010",
+    "q": {
+      "en": "Fill in the blank: The teacher was angry ___ the naughty boy.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: The teacher was angry ___ the naughty boy."
+    },
+    "options": [
+      { "en": "on", "as": "on (ওপৰত)" },
+      { "en": "at", "as": "at (ত)" },
+      { "en": "with", "as": "with (সৈতে/প্ৰতি)" },
+      { "en": "for", "as": "for (বাবে)" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Angry with' is used before a person.",
+      "as": "ব্যক্তিৰ আগত 'angry with' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-011",
+    "q": {
+      "en": "Fill in the blank: The train departs ___ 5 o'clock.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: The train departs ___ 5 o'clock."
+    },
+    "options": [
+      { "en": "at", "as": "at (ত)" },
+      { "en": "in", "as": "in (ভিতৰত)" },
+      { "en": "on", "as": "on (ওপৰত)" },
+      { "en": "for", "as": "for (বাবে)" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'At' is used before a point of time or clock time.",
+      "as": "সময়ৰ বিন্দু বা ঘড়ীৰ সময়ৰ আগত 'at' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-012",
+    "q": {
+      "en": "Fill in the blank: He has been working ___ morning.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He has been working ___ morning."
+    },
+    "options": [
+      { "en": "for", "as": "for (বাবে)" },
+      { "en": "from", "as": "from (পৰা)" },
+      { "en": "since", "as": "since (যেতিয়াৰপৰা)" },
+      { "en": "by", "as": "by (দ্বাৰা)" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Since' is used with a point of time in the present perfect continuous tense.",
+      "as": "Present perfect continuous tense ত এটা সময়ৰ বিন্দুৰ সৈতে 'since' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-013",
+    "q": {
+      "en": "Fill in the blank: Please wait ___ me at the gate.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: Please wait ___ me at the gate."
+    },
+    "options": [
+      { "en": "since", "as": "since (যেতিয়াৰপৰা)" },
+      { "en": "to", "as": "to (লৈ)" },
+      { "en": "at", "as": "at (ত)" },
+      { "en": "for", "as": "for (বাবে/অপেক্ষাত)" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Wait for' is the correct expression.",
+      "as": "'Wait for' এ শুদ্ধ প্ৰকাশ।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-014",
+    "q": {
+      "en": "Fill in the blank: She insisted ___ going there alone.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She insisted ___ going there alone."
+    },
+    "options": [
+      { "en": "in", "as": "in (ভিতৰত)" },
+      { "en": "on", "as": "on (ওপৰত/বিষয়ে)" },
+      { "en": "at", "as": "at (ত)" },
+      { "en": "for", "as": "for (বাবে)" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Insist on' is the correct preposition.",
+      "as": "'Insist on' এ শুদ্ধ preposition।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-015",
+    "q": {
+      "en": "Fill in the blank: He is married ___ my sister.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is married ___ my sister."
+    },
+    "options": [
+      { "en": "to", "as": "to (লৈ)" },
+      { "en": "with", "as": "with (সৈতে)" },
+      { "en": "for", "as": "for (বাবে)" },
+      { "en": "of", "as": "of (ৰ)" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Married to' is the correct collocation.",
+      "as": "'Married to' এ শুদ্ধ যৌগিক প্ৰয়োগ।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-016",
+    "q": {
+      "en": "Fill in the blank: He is capable ___ doing the work.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is capable ___ doing the work."
+    },
+    "options": [
+      { "en": "for", "as": "for (বাবে)" },
+      { "en": "with", "as": "with (সৈতে)" },
+      { "en": "of", "as": "of (ৰ/দ্বাৰা)" },
+      { "en": "at", "as": "at (ত)" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Capable of' is the correct collocation.",
+      "as": "'Capable of' এ শুদ্ধ যৌগিক প্ৰয়োগ।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-017",
+    "q": {
+      "en": "Fill in the blank: I congratulated him ___ his success.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I congratulated him ___ his success."
+    },
+    "options": [
+      { "en": "for", "as": "for (বাবে)" },
+      { "en": "at", "as": "at (ত)" },
+      { "en": "with", "as": "with (সৈতে)" },
+      { "en": "on", "as": "on (বিষয়ে)" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Congratulate on' is the correct preposition.",
+      "as": "'Congratulate on' এ শুদ্ধ preposition।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-018",
+    "q": {
+      "en": "Fill in the blank: He is suffering ___ fever.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is suffering ___ fever."
+    },
+    "options": [
+      { "en": "of", "as": "of (ৰ)" },
+      { "en": "from", "as": "from (পৰা)" },
+      { "en": "with", "as": "with (সৈতে)" },
+      { "en": "by", "as": "by (দ্বাৰা)" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Suffer from' is used before the name of an illness.",
+      "as": "অসুস্থতাৰ নামৰ আগত 'suffer from' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-019",
+    "q": {
+      "en": "Fill in the blank: She is busy ___ her studies.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She is busy ___ her studies."
+    },
+    "options": [
+      { "en": "in", "as": "in (ভিতৰত)" },
+      { "en": "at", "as": "at (ত)" },
+      { "en": "with", "as": "with (সৈতে)" },
+      { "en": "for", "as": "for (বাবে)" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Busy with' is the correct collocation.",
+      "as": "'Busy with' এ শুদ্ধ যৌগিক প্ৰয়োগ।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-020",
+    "q": {
+      "en": "Fill in the blank: The old man is hard ___ hearing.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: The old man is hard ___ hearing."
+    },
+    "options": [
+      { "en": "from", "as": "from (পৰা)" },
+      { "en": "with", "as": "with (সৈতে)" },
+      { "en": "at", "as": "at (ত)" },
+      { "en": "of", "as": "of (ৰ)" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Hard of hearing' is a fixed expression.",
+      "as": "'Hard of hearing' এ এটা স্থিৰ প্ৰকাশ।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-021",
+    "q": {
+      "en": "Fill in the blank: He apologized ___ his mistake.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He apologized ___ his mistake."
+    },
+    "options": [
+      { "en": "for", "as": "for (বাবে)" },
+      { "en": "of", "as": "of (ৰ)" },
+      { "en": "with", "as": "with (সৈতে)" },
+      { "en": "at", "as": "at (ত)" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Apologize for' is used for the thing one is sorry about.",
+      "as": "যি কাৰণত ক্ষমা খুজিছে তাৰ বাবে 'apologize for' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-022",
+    "q": {
+      "en": "Fill in the blank: I prefer tea ___ coffee.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I prefer tea ___ coffee."
+    },
+    "options": [
+      { "en": "from", "as": "from (পৰা)" },
+      { "en": "to", "as": "to (তকৈ/লৈ)" },
+      { "en": "than", "as": "than (তকৈ)" },
+      { "en": "with", "as": "with (সৈতে)" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Prefer...to' is used for comparison.",
+      "as": "তুলনা কৰিবলৈ 'prefer...to' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-023",
+    "q": {
+      "en": "Fill in the blank: He was accused ___ theft.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He was accused ___ theft."
+    },
+    "options": [
+      { "en": "for", "as": "for (বাবে)" },
+      { "en": "with", "as": "with (সৈতে)" },
+      { "en": "at", "as": "at (ত)" },
+      { "en": "of", "as": "of (ৰ/দ্বাৰা)" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Accused of' is the correct collocation.",
+      "as": "'Accused of' এ শুদ্ধ যৌগিক প্ৰয়োগ।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-024",
+    "q": {
+      "en": "Fill in the blank: The frog jumped ___ the pond.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: The frog jumped ___ the pond."
+    },
+    "options": [
+      { "en": "on", "as": "on (ওপৰত)" },
+      { "en": "in", "as": "in (ভিতৰত)" },
+      { "en": "into", "as": "into (ভিতৰলৈ)" },
+      { "en": "onto", "as": "onto (ওপৰলৈ)" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Into' shows movement towards the inside of something.",
+      "as": "'Into' এ কোনো বস্তুৰ ভিতৰলৈ গতি দেখুৱায়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-025",
+    "q": {
+      "en": "Fill in the blank: He is not acquainted ___ the facts.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is not acquainted ___ the facts."
+    },
+    "options": [
+      { "en": "with", "as": "with (সৈতে)" },
+      { "en": "in", "as": "in (ভিতৰত)" },
+      { "en": "of", "as": "of (ৰ)" },
+      { "en": "at", "as": "at (ত)" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Acquainted with' is the correct collocation.",
+      "as": "'Acquainted with' এ শুদ্ধ যৌগিক প্ৰয়োগ।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-026",
+    "q": {
+      "en": "Fill in the blank: I bought ___ umbrella yesterday.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I bought ___ umbrella yesterday."
+    },
+    "options": [
+      { "en": "a", "as": "a (এটা - ব্যঞ্জন ধ্বনিৰ আগত)" },
+      { "en": "an", "as": "an (এটা - স্বৰ ধ্বনিৰ আগত)" },
+      { "en": "the", "as": "the (নিৰ্দিষ্ট)" },
+      { "en": "no article", "as": "no article (কোনো article নহয়)" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'An' is used before a vowel sound. 'Umbrella' begins with a vowel sound.",
+      "as": "স্বৰধ্বনিৰ আগত 'an' ব্যৱহাৰ হয়। 'Umbrella' স্বৰধ্বনিৰে আৰম্ভ হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-027",
+    "q": {
+      "en": "Fill in the blank: He is ___ honest man.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ honest man."
+    },
+    "options": [
+      { "en": "a", "as": "a (এটা - ব্যঞ্জন ধ্বনিৰ আগত)" },
+      { "en": "the", "as": "the (নিৰ্দিষ্ট)" },
+      { "en": "an", "as": "an (এটা - স্বৰ ধ্বনিৰ আগত)" },
+      { "en": "no article", "as": "no article (কোনো article নহয়)" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'An' is used before a vowel sound; 'honest' begins with a vowel sound.",
+      "as": "স্বৰধ্বনিৰ আগত 'an' ব্যৱহাৰ হয়; 'honest' স্বৰধ্বনিৰে আৰম্ভ হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-028",
+    "q": {
+      "en": "Fill in the blank: ___ Ganga is a holy river.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ Ganga is a holy river."
+    },
+    "options": [
+      { "en": "The", "as": "the (নিৰ্দিষ্ট)" },
+      { "en": "A", "as": "a (এটা)" },
+      { "en": "An", "as": "an (এটা)" },
+      { "en": "no article", "as": "no article (কোনো article নহয়)" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'The' is used before the names of rivers.",
+      "as": "নদীৰ নামৰ আগত 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-029",
+    "q": {
+      "en": "Fill in the blank: She is ___ best student in the class.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She is ___ best student in the class."
+    },
+    "options": [
+      { "en": "a", "as": "a (এটা)" },
+      { "en": "an", "as": "an (এটা)" },
+      { "en": "no article", "as": "no article (কোনো article নহয়)" },
+      { "en": "the", "as": "the (নিৰ্দিষ্ট)" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'The' is used with the superlative degree.",
+      "as": "উত্তম степениৰ সৈতে 'the' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-030",
+    "q": {
+      "en": "Fill in the blank: I saw ___ elephant in the zoo.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I saw ___ elephant in the zoo."
+    },
+    "options": [
+      { "en": "a", "as": "a (এটা - ব্যঞ্জন ধ্বনিৰ আগত)" },
+      { "en": "an", "as": "an (এটা - স্বৰ ধ্বনিৰ আগত)" },
+      { "en": "the", "as": "the (নিৰ্দিষ্ট)" },
+      { "en": "no article", "as": "no article (কোনো article নহয়)" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'An' is used before a vowel sound.",
+      "as": "স্বৰধ্বনিৰ আগত 'an' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-031",
+    "q": {
+      "en": "Fill in the blank: He studies in ___ university.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He studies in ___ university."
+    },
+    "options": [
+      { "en": "a", "as": "a (এটা - ব্যঞ্জন ধ্বনিৰ আগত)" },
+      { "en": "an", "as": "an (এটা - স্বৰ ধ্বনিৰ আগত)" },
+      { "en": "the", "as": "the (নিৰ্দিষ্ট)" },
+      { "en": "no article", "as": "no article (কোনো article নহয়)" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'A' is used before a consonant sound; 'university' begins with a 'yu' sound.",
+      "as": "ব্যঞ্জনধ্বনিৰ আগত 'a' ব্যৱহাৰ হয়; 'university' 'yu' ধ্বনিৰে আৰম্ভ হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-032",
+    "q": {
+      "en": "Fill in the blank: ___ sun rises in the east.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ sun rises in the east."
+    },
+    "options": [
+      { "en": "A", "as": "a (এটা)" },
+      { "en": "An", "as": "an (এটা)" },
+      { "en": "The", "as": "the (নিৰ্দিষ্ট)" },
+      { "en": "no article", "as": "no article (কোনো article নহয়)" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'The' is used before unique things like the sun and the moon.",
+      "as": "সূৰ্য আৰু চন্দ্ৰৰ দৰে অদ্বিতীয় বস্তুৰ আগত 'the' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-033",
+    "q": {
+      "en": "Fill in the blank: This is ___ useful book.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: This is ___ useful book."
+    },
+    "options": [
+      { "en": "an", "as": "an (এটা - স্বৰ ধ্বনিৰ আগত)" },
+      { "en": "a", "as": "a (এটা - ব্যঞ্জন ধ্বনিৰ আগত)" },
+      { "en": "the", "as": "the (নিৰ্দিষ্ট)" },
+      { "en": "no article", "as": "no article (কোনো article নহয়)" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'A' is used before a consonant sound; 'useful' begins with a 'yu' sound.",
+      "as": "ব্যঞ্জনধ্বনিৰ আগত 'a' ব্যৱহাৰ হয়; 'useful' 'yu' ধ্বনিৰে আৰম্ভ হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-034",
+    "q": {
+      "en": "Fill in the blank: He is ___ M.A. in English.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ M.A. in English."
+    },
+    "options": [
+      { "en": "a", "as": "a (এটা - ব্যঞ্জন ধ্বনিৰ আগত)" },
+      { "en": "the", "as": "the (নিৰ্দিষ্ট)" },
+      { "en": "no article", "as": "no article (কোনো article নহয়)" },
+      { "en": "an", "as": "an (এটা - স্বৰ ধ্বনিৰ আগত)" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'An' is used before vowel letters pronounced with a vowel sound, as in 'M.A.'.",
+      "as": "'M.A.' ৰ দৰে স্বৰধ্বনিৰে উচ্চাৰিত স্বৰবৰ্ণৰ আগত 'an' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-035",
+    "q": {
+      "en": "Fill in the blank: I waited for him ___ an hour.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I waited for him ___ an hour."
+    },
+    "options": [
+      { "en": "for", "as": "for (বাবে/সময় ধৰি)" },
+      { "en": "since", "as": "since (যেতিয়াৰপৰা)" },
+      { "en": "from", "as": "from (পৰা)" },
+      { "en": "by", "as": "by (দ্বাৰা)" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'For' is used with a duration of time.",
+      "as": "সময়ৰ কালছোৱাৰ সৈতে 'for' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-036",
+    "q": {
+      "en": "Fill in the blank: She has not come ___ Monday.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She has not come ___ Monday."
+    },
+    "options": [
+      { "en": "for", "as": "for (বাবে)" },
+      { "en": "since", "as": "since (যেতিয়াৰপৰা)" },
+      { "en": "from", "as": "from (পৰা)" },
+      { "en": "at", "as": "at (ত)" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Since' is used with a point of time in the present perfect tense.",
+      "as": "Present perfect tense ত এটা সময়ৰ বিন্দুৰ সৈতে 'since' ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-037",
+    "q": {
+      "en": "Fill in the blank: We have lived here ___ five years.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: We have lived here ___ five years."
+    },
+    "options": [
+      { "en": "since", "as": "since (যেতিয়াৰপৰা)" },
+      { "en": "from", "as": "from (পৰা)" },
+      { "en": "for", "as": "for (বাবে/সময় ধৰি)" },
+      { "en": "at", "as": "at (ত)" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'For' is used with a period of time.",
+      "as": "সময়ৰ কালছোৱাৰ সৈতে 'for' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-038",
+    "q": {
+      "en": "Fill in the blank: He did not go to school ___ he was ill.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He did not go to school ___ he was ill."
+    },
+    "options": [
+      { "en": "so", "as": "so (সেয়ে)" },
+      { "en": "and", "as": "and (আৰু)" },
+      { "en": "but", "as": "but (কিন্তু)" },
+      { "en": "because", "as": "because (কাৰণ)" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Because' gives the reason for the action.",
+      "as": "'Because' এ কাৰ্যৰ কাৰণ দিয়ে।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-039",
+    "q": {
+      "en": "Fill in the blank: Work hard ___ you will fail.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: Work hard ___ you will fail."
+    },
+    "options": [
+      { "en": "or", "as": "or (বা/অন্যথা)" },
+      { "en": "and", "as": "and (আৰু)" },
+      { "en": "but", "as": "but (কিন্তু)" },
+      { "en": "because", "as": "because (কাৰণ)" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Or' shows a choice or a negative consequence.",
+      "as": "'Or' এ এটা বিকল্প বা নেতিবাচক পৰিণতি দেখুৱায়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-040",
+    "q": {
+      "en": "Fill in the blank: He is poor ___ honest.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is poor ___ honest."
+    },
+    "options": [
+      { "en": "and", "as": "and (আৰু)" },
+      { "en": "but", "as": "but (কিন্তু)" },
+      { "en": "or", "as": "or (বা)" },
+      { "en": "so", "as": "so (সেয়ে)" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'But' joins two contrasting ideas.",
+      "as": "'But' এ বিপৰীত ধাৰণাৰ দুটা অংশ সংযোগ কৰে।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-041",
+    "q": {
+      "en": "Fill in the blank: She is intelligent ___ diligent.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She is intelligent ___ diligent."
+    },
+    "options": [
+      { "en": "but", "as": "but (কিন্তু)" },
+      { "en": "or", "as": "or (বা)" },
+      { "en": "and", "as": "and (আৰু)" },
+      { "en": "so", "as": "so (সেয়ে)" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'And' joins similar ideas.",
+      "as": "'And' এ একে ধৰণৰ ধাৰণা সংযোগ কৰে।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-042",
+    "q": {
+      "en": "Fill in the blank: I stayed at home ___ it was raining.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I stayed at home ___ it was raining."
+    },
+    "options": [
+      { "en": "so", "as": "so (সেয়ে)" },
+      { "en": "but", "as": "but (কিন্তু)" },
+      { "en": "or", "as": "or (বা)" },
+      { "en": "because", "as": "because (কাৰণ)" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Because' gives the reason for staying at home.",
+      "as": "'Because' এ ঘৰত থকাৰ কাৰণ দিয়ে।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-043",
+    "q": {
+      "en": "Fill in the blank: ___ he is rich, he is not happy.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: ___ he is rich, he is not happy."
+    },
+    "options": [
+      { "en": "Because", "as": "because (কাৰণ)" },
+      { "en": "Although", "as": "although (যদিও)" },
+      { "en": "So", "as": "so (সেয়ে)" },
+      { "en": "But", "as": "but (কিন্তু)" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Although' introduces a contrast.",
+      "as": "'Although' এ বিপৰীত ভাব আগবঢ়ায়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-044",
+    "q": {
+      "en": "Fill in the blank: He is taller ___ his brother.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is taller ___ his brother."
+    },
+    "options": [
+      { "en": "than", "as": "than (তকৈ)" },
+      { "en": "then", "as": "then (তেতিয়া)" },
+      { "en": "as", "as": "as (দৰে)" },
+      { "en": "so", "as": "so (সেয়ে)" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'Than' is used with the comparative degree.",
+      "as": "তুলনামূলক степениৰ সৈতে 'than' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-045",
+    "q": {
+      "en": "Fill in the blank: Do it ___ you are told.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: Do it ___ you are told."
+    },
+    "options": [
+      { "en": "so", "as": "so (সেয়ে)" },
+      { "en": "than", "as": "than (তকৈ)" },
+      { "en": "like", "as": "like (দৰে)" },
+      { "en": "as", "as": "as (দৰে/যেনেকৈ)" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'As' here means 'in the way that'.",
+      "as": "ইয়াত 'as' ৰ অৰ্থ 'যেনেকৈ'।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-046",
+    "q": {
+      "en": "Fill in the blank: Neither he ___ his friends came to the party.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: Neither he ___ his friends came to the party."
+    },
+    "options": [
+      { "en": "or", "as": "or (বা)" },
+      { "en": "and", "as": "and (আৰু)" },
+      { "en": "nor", "as": "nor (নহয়)" },
+      { "en": "but", "as": "but (কিন্তু)" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Neither' is always followed by 'nor'.",
+      "as": "'Neither' ৰ পিছত সদায় 'nor' আহে।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-047",
+    "q": {
+      "en": "Fill in the blank: He is not only a poet ___ also a painter.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is not only a poet ___ also a painter."
+    },
+    "options": [
+      { "en": "and", "as": "and (আৰু)" },
+      { "en": "or", "as": "or (বা)" },
+      { "en": "nor", "as": "nor (নহয়)" },
+      { "en": "but", "as": "but (কিন্তু)" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'Not only...but also' is a correlative conjunction.",
+      "as": "'Not only...but also' এ এটা correlative conjunction।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-048",
+    "q": {
+      "en": "Fill in the blank: He ran fast, ___ he missed the bus.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He ran fast, ___ he missed the bus."
+    },
+    "options": [
+      { "en": "and", "as": "and (আৰু)" },
+      { "en": "yet", "as": "yet (তথাপিও)" },
+      { "en": "so", "as": "so (সেয়ে)" },
+      { "en": "or", "as": "or (বা)" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Yet' shows contrast, like 'but'.",
+      "as": "'Yet' এ 'but' ৰ দৰে বিপৰীত ভাব দেখুৱায়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-049",
+    "q": {
+      "en": "Fill in the blank: She sings ___ than her sister.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: She sings ___ than her sister."
+    },
+    "options": [
+      { "en": "better", "as": "better (বেছি ভাল)" },
+      { "en": "good", "as": "good (ভাল)" },
+      { "en": "best", "as": "best (আটাইতকৈ ভাল)" },
+      { "en": "well", "as": "well (ভালদৰে)" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The comparative degree of 'well' is 'better'.",
+      "as": "'Well' ৰ তুলনামূলক ৰূপ 'better'।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-050",
+    "q": {
+      "en": "Fill in the blank: He works ___ than anyone else in the office.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He works ___ than anyone else in the office."
+    },
+    "options": [
+      { "en": "hard", "as": "hard (কঠিনভাৱে)" },
+      { "en": "hardest", "as": "hardest (আটাইতকৈ কঠিনভাৱে)" },
+      { "en": "more hard", "as": "more hard (বেছি কঠিন)" },
+      { "en": "harder", "as": "harder (বেছি কঠিনভাৱে)" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The comparative degree of 'hard' is 'harder', used with 'than'.",
+      "as": "'Hard' ৰ তুলনামূলক ৰূপ 'harder', 'than' ৰ সৈতে ব্যৱহৃত।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-051",
+    "q": {
+      "en": "Fill in the blank: This is the ___ book I have ever read.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: This is the ___ book I have ever read."
+    },
+    "options": [
+      { "en": "good", "as": "good (ভাল)" },
+      { "en": "better", "as": "better (বেছি ভাল)" },
+      { "en": "best", "as": "best (আটাইতকৈ ভাল)" },
+      { "en": "well", "as": "well (ভালদৰে)" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The superlative degree 'best' is used with 'the'.",
+      "as": "উত্তম степени 'best' 'the' ৰ সৈতে ব্যৱহৃত হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-052",
+    "q": {
+      "en": "Fill in the blank: He is ___ than his brother.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He is ___ than his brother."
+    },
+    "options": [
+      { "en": "strong", "as": "strong (শক্তিশালী)" },
+      { "en": "stronger", "as": "stronger (বেছি শক্তিশালী)" },
+      { "en": "strongest", "as": "strongest (আটাইতকৈ শক্তিশালী)" },
+      { "en": "more strong", "as": "more strong (বেছি শক্তিশালী)" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The comparative degree 'stronger' is used with 'than'.",
+      "as": "তুলনামূলক ৰূপ 'stronger' 'than' ৰ সৈতে ব্যৱহৃত হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-053",
+    "q": {
+      "en": "Fill in the blank: He runs ___ than I do.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: He runs ___ than I do."
+    },
+    "options": [
+      { "en": "faster", "as": "faster (বেছি দ্ৰুত)" },
+      { "en": "fast", "as": "fast (দ্ৰুত)" },
+      { "en": "fastest", "as": "fastest (আটাইতকৈ দ্ৰুত)" },
+      { "en": "more fast", "as": "more fast (বেছি দ্ৰুত)" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The comparative degree 'faster' is used with 'than'.",
+      "as": "তুলনামূলক ৰূপ 'faster' 'than' ৰ সৈতে ব্যৱহৃত হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-054",
+    "q": {
+      "en": "Fill in the blank: I have ___ money than you.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: I have ___ money than you."
+    },
+    "options": [
+      { "en": "fewer", "as": "fewer (সংখ্যাত কম)" },
+      { "en": "little", "as": "little (অলপ)" },
+      { "en": "less", "as": "less (পৰিমাণত কম)" },
+      { "en": "lesser", "as": "lesser (কম)" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'Less' is used with uncountable nouns like 'money'.",
+      "as": "'Money' ৰ দৰে অগণনীয় বিশেষ্যৰ সৈতে 'less' ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "fill-in-the-blanks-055",
+    "q": {
+      "en": "Fill in the blank: If it ___ tomorrow, we will cancel the match.",
+      "as": "ৰিক্ত স্থান পূৰণ কৰক: If it ___ tomorrow, we will cancel the match."
+    },
+    "options": [
+      { "en": "rain", "as": "rain (বৰষে - বহুবচনৰ ৰূপ)" },
+      { "en": "rained", "as": "rained (বৰষিছিল)" },
+      { "en": "raining", "as": "raining (বৰষি থকা)" },
+      { "en": "rains", "as": "rains (বৰষে)" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In the first conditional, the if-clause uses the simple present tense.",
+      "as": "First conditional ত if-clause ত simple present tense ব্যৱহাৰ হয়।"
+    }
   }
-}
+]
