@@ -1,30 +1,3302 @@
-{
-  "id": "assam-natural-resources-001",
-  "q": {
-    "en": "Assam is the largest producer of which of the following in India?",
-    "as": "ভাৰতত অসম তলৰ কোনটোৰ সৰ্বাধিক উৎপাদক?"
-  },
-  "options": [
-    {
-      "en": "Coffee",
-      "as": "কফি"
+[
+  {
+    "id": "assam-natural-resources-001",
+    "q": {
+      "en": "Assam is the largest producer of which of the following in India?",
+      "as": "ভাৰতত অসম তলৰ কোনটোৰ সৰ্বাধিক উৎপাদক?"
     },
-    {
-      "en": "Tea",
-      "as": "চাহ"
-    },
-    {
-      "en": "Rubber",
-      "as": "ৰবৰ"
-    },
-    {
-      "en": "Jute",
-      "as": "পাট"
+    "options": [
+      {
+        "en": "Coffee",
+        "as": "কফি"
+      },
+      {
+        "en": "Rubber",
+        "as": "ৰবৰ"
+      },
+      {
+        "en": "Tea",
+        "as": "চাহ"
+      },
+      {
+        "en": "Jute",
+        "as": "পাট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assam is the largest tea-producing state in India and one of the largest in the world.",
+      "as": "অসম ভাৰতৰ সৰ্বাধিক চাহ উৎপাদনকাৰী ৰাজ্য আৰু বিশ্বৰ অন্যতম বৃহৎ।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "Assam is the largest tea-producing state in India and one of the largest in the world.",
-    "as": "অসম ভাৰতৰ সৰ্বাধিক চাহ উৎপাদনকাৰী ৰাজ্য আৰু বিশ্বৰ অন্যতম বৃহৎ।"
+  },
+  {
+    "id": "assam-natural-resources-002",
+    "q": {
+      "en": "India's first oil refinery was established at which place in Assam?",
+      "as": "ভাৰতৰ প্ৰথম তেল শোধনাগাৰ অসমৰ কোন ঠাইত স্থাপিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Numaligarh",
+        "as": "নুমলীগড়"
+      },
+      {
+        "en": "Digboi",
+        "as": "ডিগবৈ"
+      },
+      {
+        "en": "Bongaigaon",
+        "as": "বঙাইগাঁও"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Digboi in Assam has India's first and oldest oil refinery.",
+      "as": "অসমৰ ডিগবৈত ভাৰতৰ প্ৰথম আৰু আটাইতকৈ পুৰণি তেল শোধনাগাৰ আছে।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-003",
+    "q": {
+      "en": "The headquarters of Oil India Limited (OIL) is located at:",
+      "as": "অইল ইণ্ডিয়া লিমিটেড (OIL) ৰ মুখ্য কাৰ্যালয় ক'ত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Margherita",
+        "as": "মাৰ্ঘেৰিটা"
+      },
+      {
+        "en": "Duliajan",
+        "as": "ডুলিয়াজান"
+      },
+      {
+        "en": "Umrangso",
+        "as": "উমৰাংছ'"
+      },
+      {
+        "en": "Sualkuchi",
+        "as": "শুৱালকুছি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Oil India Limited's headquarters is at Duliajan in Dibrugarh district.",
+      "as": "অইল ইণ্ডিয়া লিমিটেডৰ মুখ্য কাৰ্যালয় ডিব্ৰুগড় জিলাৰ ডুলিয়াজানত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-004",
+    "q": {
+      "en": "Petroleum in Assam is popularly called:",
+      "as": "অসমত পেট্ৰ'লিয়ামক জনপ্ৰিয়ভাৱে কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Red sand",
+        "as": "ৰঙা বালি"
+      },
+      {
+        "en": "Black water",
+        "as": "কৃষ্ণ জল"
+      },
+      {
+        "en": "White oil",
+        "as": "শ্বেত তেল"
+      },
+      {
+        "en": "Liquid gold",
+        "as": "তৰল সোণ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Crude oil is popularly called liquid gold because of its high economic value.",
+      "as": "উচ্চ অৰ্থনৈতিক মূল্যৰ বাবে কেঁচা তেলক জনপ্ৰিয়ভাৱে তৰল সোণ বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-005",
+    "q": {
+      "en": "The Naharkatia oilfield in Assam was discovered in which year?",
+      "as": "অসমৰ নাহৰকটিয়া তেলক্ষেত্ৰ কোন বছৰত আৱিষ্কাৰ হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1901",
+        "as": "১৯০১"
+      },
+      {
+        "en": "1935",
+        "as": "১৯৩৫"
+      },
+      {
+        "en": "1953",
+        "as": "১৯৫৩"
+      },
+      {
+        "en": "1973",
+        "as": "১৯৭৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Naharkatia oilfield was discovered in 1953 and boosted Assam's oil industry.",
+      "as": "নাহৰকটিয়া তেলক্ষেত্ৰ ১৯৫৩ চনত আৱিষ্কৃত হৈছিল আৰু অসমৰ তেল উদ্যোগ বৃদ্ধি কৰিছিল।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-006",
+    "q": {
+      "en": "Which is the oldest oilfield in India?",
+      "as": "ভাৰতৰ আটাইতকৈ পুৰণি তেলক্ষেত্ৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Digboi",
+        "as": "ডিগবৈ"
+      },
+      {
+        "en": "Naharkatia",
+        "as": "নাহৰকটিয়া"
+      },
+      {
+        "en": "Lakwa",
+        "as": "লাকুৱা"
+      },
+      {
+        "en": "Bombay High",
+        "as": "বম্বে হাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Digboi is the oldest oilfield in India.",
+      "as": "ডিগবৈ ভাৰতৰ আটাইতকৈ পুৰণি তেলক্ষেত্ৰ।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-007",
+    "q": {
+      "en": "Which state is a major producer of natural gas in North-East India?",
+      "as": "উত্তৰ-পূব ভাৰতত প্ৰাকৃতিক গেছৰ এটা প্ৰধান উৎপাদক ৰাজ্য কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Mizoram",
+        "as": "মিজোৰাম"
+      },
+      {
+        "en": "Sikkim",
+        "as": "ছিক্কিম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam is the leading producer of natural gas in North-East India.",
+      "as": "অসম উত্তৰ-পূব ভাৰতত প্ৰাকৃতিক গেছৰ শীৰ্ষ উৎপাদক।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-008",
+    "q": {
+      "en": "Namrup in Assam is famous for which type of industry?",
+      "as": "অসমৰ নামৰূপ কোন প্ৰকাৰৰ উদ্যোগৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Cement industry",
+        "as": "চিমেণ্ট উদ্যোগ"
+      },
+      {
+        "en": "Fertilizer industry",
+        "as": "সাৰ উদ্যোগ"
+      },
+      {
+        "en": "Steel industry",
+        "as": "ইস্পাত উদ্যোগ"
+      },
+      {
+        "en": "Sugar industry",
+        "as": "চেনি উদ্যোগ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Namrup is known for its fertilizer plant based on natural gas.",
+      "as": "নামৰূপ প্ৰাকৃতিক গেছ-ভিত্তিক সাৰ কাৰখানাৰ বাবে জনা যায়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-009",
+    "q": {
+      "en": "The Brahmaputra Valley Fertilizer Corporation Limited (BVFCL) is located at:",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকা সাৰ নিগম লিমিটেড (BVFCL) ক'ত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Namrup",
+        "as": "নামৰূপ"
+      },
+      {
+        "en": "Digboi",
+        "as": "ডিগবৈ"
+      },
+      {
+        "en": "Duliajan",
+        "as": "ডুলিয়াজান"
+      },
+      {
+        "en": "Margherita",
+        "as": "মাৰ্ঘেৰিটা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "BVFCL's fertilizer plant is located at Namrup in Dibrugarh district.",
+      "as": "BVFCL ৰ সাৰ কাৰখানা ডিব্ৰুগড় জিলাৰ নামৰূপত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-010",
+    "q": {
+      "en": "The Assam Gas Cracker Project of BCPL is located at:",
+      "as": "BCPL ৰ অসম গেছ ক্ৰেকাৰ প্ৰকল্প ক'ত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Lepetkata",
+        "as": "লেপেটকাটা"
+      },
+      {
+        "en": "Namrup",
+        "as": "নামৰূপ"
+      },
+      {
+        "en": "Digboi",
+        "as": "ডিগবৈ"
+      },
+      {
+        "en": "Umrangso",
+        "as": "উমৰাংছ'"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra Cracker and Polymer Limited project is at Lepetkata, Dibrugarh.",
+      "as": "ব্ৰহ্মপুত্ৰ ক্ৰেকাৰ এণ্ড পলিমাৰ লিমিটেড প্ৰকল্প ডিব্ৰুগড়ৰ লেপেটকাটাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-011",
+    "q": {
+      "en": "BCPL stands for:",
+      "as": "BCPL ৰ অৰ্থ কি?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra Coal and Petroleum Limited",
+        "as": "ব্ৰহ্মপুত্ৰ কয়লা আৰু পেট্ৰ'লিয়াম লিমিটেড"
+      },
+      {
+        "en": "Brahmaputra Cracker and Polymer Limited",
+        "as": "ব্ৰহ্মপুত্ৰ ক্ৰেকাৰ এণ্ড পলিমাৰ লিমিটেড"
+      },
+      {
+        "en": "Barak Chemical and Polymer Limited",
+        "as": "বৰাক কেমিকেল এণ্ড পলিমাৰ লিমিটেড"
+      },
+      {
+        "en": "Brahmaputra Cement and Paint Limited",
+        "as": "ব্ৰহ্মপুত্ৰ চিমেণ্ট এণ্ড পেইণ্ট লিমিটেড"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "BCPL is the Brahmaputra Cracker and Polymer Limited at Lepetkata.",
+      "as": "BCPL হৈছে লেপেটকাটাত অৱস্থিত ব্ৰহ্মপুত্ৰ ক্ৰেকাৰ এণ্ড পলিমাৰ লিমিটেড।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-012",
+    "q": {
+      "en": "Which mineral is abundantly found in Karbi Anglong and Dima Hasao districts of Assam?",
+      "as": "অসমৰ কাৰ্বি আংলং আৰু ডিমা হাছাও জিলাত কোনটো খনিজ প্রচুৰ পৰিমাণে পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Diamond",
+        "as": "হীৰা"
+      },
+      {
+        "en": "Gold",
+        "as": "সোণ"
+      },
+      {
+        "en": "Limestone",
+        "as": "চূণশিল"
+      },
+      {
+        "en": "Silver",
+        "as": "ৰূপ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Limestone is abundant in the hill districts of Karbi Anglong and Dima Hasao.",
+      "as": "চূণশিল কাৰ্বি আংলং আৰু ডিমা হাছাও পাহাৰীয়া জিলাত প্রচুৰ পৰিমাণে পোৱা যায়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-013",
+    "q": {
+      "en": "Coal in Assam is mainly mined in which areas?",
+      "as": "অসমত কয়লা মূলতঃ কোন অঞ্চলত খনন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Nagaon and Morigaon",
+        "as": "নগাঁও আৰু মৰিগাঁও"
+      },
+      {
+        "en": "Dhubri and Goalpara",
+        "as": "ধুবুৰী আৰু গোৱালপাৰা"
+      },
+      {
+        "en": "Tinsukia, Karbi Anglong and Dima Hasao",
+        "as": "তিনিচুকীয়া, কাৰ্বি আংলং আৰু ডিমা হাছাও"
+      },
+      {
+        "en": "Cachar and Karimganj",
+        "as": "কাছাৰ আৰু কৰিমগঞ্জ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Coal is mined mainly in Tinsukia, Karbi Anglong and Dima Hasao districts.",
+      "as": "কয়লা মূলতঃ তিনিচুকীয়া, কাৰ্বি আংলং আৰু ডিমা হাছাও জিলাত খনন কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-014",
+    "q": {
+      "en": "The Margherita coalfield is located in which district of Assam?",
+      "as": "মাৰ্ঘেৰিটা কয়লাক্ষেত্ৰ অসমৰ কোনটো জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Tinsukia",
+        "as": "তিনিচুকীয়া"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Barpeta",
+        "as": "বৰপেটা"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Margherita coalfield is located in Tinsukia district.",
+      "as": "মাৰ্ঘেৰিটা কয়লাক্ষেত্ৰ তিনিচুকীয়া জিলাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-015",
+    "q": {
+      "en": "The headquarters of North Eastern Coalfields (NEC) is located at:",
+      "as": "উত্তৰ-পূব কয়লাক্ষেত্ৰ (NEC) ৰ মুখ্য কাৰ্যালয় ক'ত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Duliajan",
+        "as": "ডুলিয়াজান"
+      },
+      {
+        "en": "Margherita",
+        "as": "মাৰ্ঘেৰিটা"
+      },
+      {
+        "en": "Lepetkata",
+        "as": "লেপেটকাটা"
+      },
+      {
+        "en": "Sualkuchi",
+        "as": "শুৱালকুছি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "North Eastern Coalfields has its headquarters at Margherita, Assam.",
+      "as": "উত্তৰ-পূব কয়লাক্ষেত্ৰৰ মুখ্য কাৰ্যালয় অসমৰ মাৰ্ঘেৰিটাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-016",
+    "q": {
+      "en": "North Eastern Coalfields is a subsidiary of:",
+      "as": "উত্তৰ-পূব কয়লাক্ষেত্ৰ কাৰ এটা সহযোগী সংস্থা?"
+    },
+    "options": [
+      {
+        "en": "Coal India Limited",
+        "as": "কয়লা ইণ্ডিয়া লিমিটেড"
+      },
+      {
+        "en": "Oil India Limited",
+        "as": "অইল ইণ্ডিয়া লিমিটেড"
+      },
+      {
+        "en": "ONGC",
+        "as": "অ' এন জি চি"
+      },
+      {
+        "en": "NTPC",
+        "as": "এন টি পি চি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "North Eastern Coalfields is a subsidiary of Coal India Limited.",
+      "as": "উত্তৰ-পূব কয়লাক্ষেত্ৰ কয়লা ইণ্ডিয়া লিমিটেডৰ এটা সহযোগী সংস্থা।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-017",
+    "q": {
+      "en": "Which is the major coalfield of Assam?",
+      "as": "অসমৰ প্ৰধান কয়লাক্ষেত্ৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Raniganj coalfield",
+        "as": "ৰাণীগঞ্জ কয়লাক্ষেত্ৰ"
+      },
+      {
+        "en": "Singareni coalfield",
+        "as": "ছিংগাৰেনী কয়লাক্ষেত্ৰ"
+      },
+      {
+        "en": "Jharia coalfield",
+        "as": "ঝাৰিয়া কয়লাক্ষেত্ৰ"
+      },
+      {
+        "en": "Makum coalfield",
+        "as": "মাকুম কয়লাক্ষেত্ৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Makum coalfield in Tinsukia is the major coalfield of Assam.",
+      "as": "তিনিচুকীয়াৰ মাকুম কয়লাক্ষেত্ৰ অসমৰ প্ৰধান কয়লাক্ষেত্ৰ।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-018",
+    "q": {
+      "en": "Umrangso in Dima Hasao district is known for which resources?",
+      "as": "ডিমা হাছাও জিলাৰ উমৰাংছ' কোনটো সম্পদৰ বাবে জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Coal and hydel power",
+        "as": "কয়লা আৰু জলবিদ্যুৎ"
+      },
+      {
+        "en": "Gold and diamond",
+        "as": "সোণ আৰু হীৰা"
+      },
+      {
+        "en": "Tea and rubber",
+        "as": "চাহ আৰু ৰবৰ"
+      },
+      {
+        "en": "Fish and salt",
+        "as": "মাছ আৰু নিমখ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Umrangso is known for coal deposits and the Kopili hydel project.",
+      "as": "উমৰাংছ' কয়লা ভঁৰাল আৰু কপিলী জলবিদ্যুৎ প্ৰকল্পৰ বাবে জনা যায়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-019",
+    "q": {
+      "en": "Which river is called the lifeline of Assam and is a major water resource?",
+      "as": "কোনটো নদীক অসমৰ জীৱনৰেখা বোলা হয় আৰু ই এটা প্ৰধান জল সম্পদ?"
+    },
+    "options": [
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Brahmaputra is the lifeline of Assam and its largest water resource.",
+      "as": "ব্ৰহ্মপুত্ৰ অসমৰ জীৱনৰেখা আৰু ইয়াৰ সৰ্ববৃহৎ জল সম্পদ।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-020",
+    "q": {
+      "en": "Which is the major river of the Barak Valley in Assam?",
+      "as": "অসমৰ বৰাক উপত্যকাৰ প্ৰধান নদী কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সোণপুৰ"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধানশিৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Barak river is the major river of the Barak Valley in southern Assam.",
+      "as": "বৰাক নদী দক্ষিণ অসমৰ বৰাক উপত্যকাৰ প্ৰধান নদী।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-021",
+    "q": {
+      "en": "Assam's forest cover is approximately what percentage of its geographical area?",
+      "as": "অসমৰ বনাঞ্চল ইয়াৰ ভৌগোলিক কালিৰ প্ৰায় কিমান শতাংশ?"
+    },
+    "options": [
+      {
+        "en": "About 12%",
+        "as": "প্ৰায় ১২%"
+      },
+      {
+        "en": "About 24%",
+        "as": "প্ৰায় ২৪%"
+      },
+      {
+        "en": "About 36%",
+        "as": "প্ৰায় ৩৬%"
+      },
+      {
+        "en": "About 60%",
+        "as": "প্ৰায় ৬০%"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assam's forest cover is about 36% of its geographical area.",
+      "as": "অসমৰ বনাঞ্চল ইয়াৰ ভৌগোলিক কালিৰ প্ৰায় ৩৬%।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-022",
+    "q": {
+      "en": "Which forest product is Assam particularly rich in?",
+      "as": "কোনটো বনজ সামগ্ৰীত অসম বিশেষভাৱে সমৃদ্ধ?"
+    },
+    "options": [
+      {
+        "en": "Sandalwood",
+        "as": "চন্দন কাঠ"
+      },
+      {
+        "en": "Bamboo",
+        "as": "বাঁহ"
+      },
+      {
+        "en": "Rubber",
+        "as": "ৰবৰ"
+      },
+      {
+        "en": "Coconut",
+        "as": "নাৰিকল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam is rich in bamboo resources and is one of India's leading bamboo states.",
+      "as": "অসম বাঁহ সম্পদত সমৃদ্ধ আৰু ভাৰতৰ আগশাৰীৰ বাঁহ উৎপাদনকাৰী ৰাজ্যসমূহৰ এটা।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-023",
+    "q": {
+      "en": "Which silk of Assam is known as the 'golden silk'?",
+      "as": "অসমৰ কোনটো ৰেচমক 'সোণালী ৰেচম' বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Tasar",
+        "as": "টছৰ"
+      },
+      {
+        "en": "Eri",
+        "as": "এৰী"
+      },
+      {
+        "en": "Pat",
+        "as": "পাট"
+      },
+      {
+        "en": "Muga",
+        "as": "মুগা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Muga silk is the golden silk of Assam and has a GI tag.",
+      "as": "মুগা ৰেচম অসমৰ সোণালী ৰেচম আৰু ইয়াৰ জিআই টেগ আছে।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-024",
+    "q": {
+      "en": "Muga silk of Assam is famous for which special recognition?",
+      "as": "অসমৰ মুগা ৰেচম কোনটো বিশেষ স্বীকৃতিৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "ISO 9001",
+        "as": "আই এছ অ' ৯০০১"
+      },
+      {
+        "en": "GI (Geographical Indication) tag",
+        "as": "জিআই (ভৌগোলিক সূচক) টেগ"
+      },
+      {
+        "en": "Nobel Prize",
+        "as": "নবেল বঁটা"
+      },
+      {
+        "en": "OSCAR",
+        "as": "অস্কাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Muga silk has a Geographical Indication (GI) tag for its unique origin.",
+      "as": "মুগা ৰেচমৰ অনন্য উৎসৰ বাবে ভৌগোলিক সূচক (জিআই) টেগ আছে।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-025",
+    "q": {
+      "en": "Eri silk is also known as:",
+      "as": "এৰী ৰেচমক আন কি নামেৰে জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Golden silk",
+        "as": "সোণালী ৰেচম"
+      },
+      {
+        "en": "Ahimsa silk",
+        "as": "অহিংসা ৰেচম"
+      },
+      {
+        "en": "Wild silk",
+        "as": "বনৰীয়া ৰেচম"
+      },
+      {
+        "en": "Sea silk",
+        "as": "সামুদ্ৰিক ৰেচম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Eri silk is called ahimsa silk as it is produced without killing the silkworm.",
+      "as": "এৰী ৰেচমক অহিংসা ৰেচম বোলা হয় কাৰণ ই পলু নমৰাকৈ উৎপাদন কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-026",
+    "q": {
+      "en": "Which place in Assam is famous for silk weaving?",
+      "as": "অসমৰ কোন ঠাই ৰেচম বোৱাৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Duliajan",
+        "as": "ডুলিয়াজান"
+      },
+      {
+        "en": "Margherita",
+        "as": "মাৰ্ঘেৰিটা"
+      },
+      {
+        "en": "Sualkuchi",
+        "as": "শুৱালকুছি"
+      },
+      {
+        "en": "Umrangso",
+        "as": "উমৰাংছ'"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sualkuchi is famous for silk weaving and is called the Manchester of Assam.",
+      "as": "শুৱালকুছি ৰেচম বোৱাৰ বাবে বিখ্যাত আৰু ইয়াক অসমৰ মাঞ্চেষ্টাৰ বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-027",
+    "q": {
+      "en": "Agarwood (Agar) of Assam is mainly used for:",
+      "as": "অসমৰ অগৰু (আগৰ) মূলতঃ কাৰ বাবে ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Perfume and incense",
+        "as": "সুগন্ধি আৰু ধূপ"
+      },
+      {
+        "en": "Cement",
+        "as": "চিমেণ্ট"
+      },
+      {
+        "en": "Steel",
+        "as": "ইস্পাত"
+      },
+      {
+        "en": "Glass",
+        "as": "কাচ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Agarwood is used to make perfume, incense and medicines.",
+      "as": "আগৰ কাঠ সুগন্ধি, ধূপ আৰু ঔষধ তৈয়াৰ কৰিবলৈ ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-028",
+    "q": {
+      "en": "Which is the state tree of Assam?",
+      "as": "অসমৰ ৰাজ্যিক বৃক্ষ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Hollong",
+        "as": "হলং"
+      },
+      {
+        "en": "Neem",
+        "as": "নীম"
+      },
+      {
+        "en": "Banyan",
+        "as": "বট"
+      },
+      {
+        "en": "Peepal",
+        "as": "আঁহত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Hollong is the state tree of Assam and is a valuable timber species.",
+      "as": "হলং অসমৰ ৰাজ্যিক বৃক্ষ আৰু ই এটা মূল্যৱান কাঠৰ প্ৰজাতি।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-029",
+    "q": {
+      "en": "Which is a major timber tree found in the forests of Assam?",
+      "as": "অসমৰ বনাঞ্চলত পোৱা এটা প্ৰধান কাঠৰ গছ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Sal",
+        "as": "শাল"
+      },
+      {
+        "en": "Cactus",
+        "as": "কেক্টাছ"
+      },
+      {
+        "en": "Date palm",
+        "as": "খেজুৰ"
+      },
+      {
+        "en": "Pine",
+        "as": "পাইন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sal is an important timber tree found in Assam's forests.",
+      "as": "শাল অসমৰ বনাঞ্চলত পোৱা এটা গুৰুত্বপূৰ্ণ কাঠৰ গছ।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-030",
+    "q": {
+      "en": "Which rainforest of Assam is called the 'Amazon of the East'?",
+      "as": "অসমৰ কোনটো বৰ্ষাৰণ্যক 'পূবৰ আমাজন' বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Kaziranga",
+        "as": "কাজিৰঙা"
+      },
+      {
+        "en": "Dehing Patkai",
+        "as": "ডিহিং পাটকাই"
+      },
+      {
+        "en": "Pobitora",
+        "as": "পবিতৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Dehing Patkai rainforest is known as the Amazon of the East.",
+      "as": "ডিহিং পাটকাই বৰ্ষাৰণ্যক পূবৰ আমাজন নামেৰে জনা যায়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-031",
+    "q": {
+      "en": "Which is the main source of irrigation for agriculture in Assam?",
+      "as": "অসমত কৃষিৰ বাবে জলসিঞ্চনৰ প্ৰধান উৎস কি?"
+    },
+    "options": [
+      {
+        "en": "Glacier melt only",
+        "as": "কেৱল হিমবাহ গলন"
+      },
+      {
+        "en": "Desert wells",
+        "as": "মৰুভূমিৰ কুঁৱা"
+      },
+      {
+        "en": "Sea water",
+        "as": "সাগৰীয় পানী"
+      },
+      {
+        "en": "Brahmaputra and its tributaries",
+        "as": "ব্ৰহ্মপুত্ৰ আৰু ইয়াৰ উপনদীসমূহ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Brahmaputra river system provides the main source of irrigation in Assam.",
+      "as": "ব্ৰহ্মপুত্ৰ নদী ব্যৱস্থাই অসমত জলসিঞ্চনৰ প্ৰধান উৎস যোগান ধৰে।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-032",
+    "q": {
+      "en": "Which is the principal food crop of Assam?",
+      "as": "অসমৰ প্ৰধান খাদ্য শস্য কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Rice",
+        "as": "ধান"
+      },
+      {
+        "en": "Wheat",
+        "as": "ঘেঁহু"
+      },
+      {
+        "en": "Barley",
+        "as": "যৱ"
+      },
+      {
+        "en": "Maize",
+        "as": "মাকৈ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Rice is the principal food crop of Assam.",
+      "as": "ধান অসমৰ প্ৰধান খাদ্য শস্য।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-033",
+    "q": {
+      "en": "Which is a major oilseed crop grown in Assam?",
+      "as": "অসমত খেতি কৰা এটা প্ৰধান তেলবীজ শস্য কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Cotton",
+        "as": "কপাহ"
+      },
+      {
+        "en": "Mustard",
+        "as": "সৰিয়হ"
+      },
+      {
+        "en": "Jute",
+        "as": "পাট"
+      },
+      {
+        "en": "Sugarcane",
+        "as": "কুহিয়াৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mustard is an important oilseed crop of Assam.",
+      "as": "সৰিয়হ অসমৰ এটা গুৰুত্বপূৰ্ণ তেলবীজ শস্য।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-034",
+    "q": {
+      "en": "Which is the principal commercial crop of Assam?",
+      "as": "অসমৰ প্ৰধান বাণিজ্যিক শস্য কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Barley",
+        "as": "যৱ"
+      },
+      {
+        "en": "Wheat",
+        "as": "ঘেঁহু"
+      },
+      {
+        "en": "Tea",
+        "as": "চাহ"
+      },
+      {
+        "en": "Millet",
+        "as": "বাজৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Tea is the principal commercial crop of Assam.",
+      "as": "চাহ অসমৰ প্ৰধান বাণিজ্যিক শস্য।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-035",
+    "q": {
+      "en": "Which fibre crop is grown in Assam?",
+      "as": "অসমত কোনটো আঁহ শস্য খেতি কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Coffee",
+        "as": "কফি"
+      },
+      {
+        "en": "Coconut",
+        "as": "নাৰিকল"
+      },
+      {
+        "en": "Jute",
+        "as": "পাট"
+      },
+      {
+        "en": "Cocoa",
+        "as": "ক'ক'"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Jute is an important fibre crop grown in Assam.",
+      "as": "পাট অসমত খেতি কৰা এটা গুৰুত্বপূৰ্ণ আঁহ শস্য।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-036",
+    "q": {
+      "en": "Besides Muga, which silk is produced in Assam?",
+      "as": "মুগাৰ উপৰিও অসমত কোনটো ৰেচম উৎপাদন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Sea silk",
+        "as": "সামুদ্ৰিক ৰেচম"
+      },
+      {
+        "en": "Tasar",
+        "as": "টছৰ"
+      },
+      {
+        "en": "Eri",
+        "as": "এৰী"
+      },
+      {
+        "en": "Spider silk",
+        "as": "মকৰা ৰেচম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assam produces Eri and Pat silk in addition to Muga.",
+      "as": "অসমে মুগাৰ উপৰিও এৰী আৰু পাট ৰেচম উৎপাদন কৰে।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-037",
+    "q": {
+      "en": "Which is the oldest industry of Assam based on natural resources?",
+      "as": "প্ৰাকৃতিক সম্পদ-ভিত্তিক অসমৰ আটাইতকৈ পুৰণি উদ্যোগ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Aviation industry",
+        "as": "উৰণ উদ্যোগ"
+      },
+      {
+        "en": "Software industry",
+        "as": "চফ্টৱেৰ উদ্যোগ"
+      },
+      {
+        "en": "Automobile industry",
+        "as": "অট'মোবাইল উদ্যোগ"
+      },
+      {
+        "en": "Tea industry",
+        "as": "চাহ উদ্যোগ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The tea industry is the oldest resource-based industry of Assam.",
+      "as": "চাহ উদ্যোগ অসমৰ আটাইতকৈ পুৰণি সম্পদ-ভিত্তিক উদ্যোগ।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-038",
+    "q": {
+      "en": "Which mineral found in Assam is a key raw material for the cement industry?",
+      "as": "অসমত পোৱা কোনটো খনিজ চিমেণ্ট উদ্যোগৰ প্ৰধান কেঁচা সামগ্ৰী?"
+    },
+    "options": [
+      {
+        "en": "Limestone",
+        "as": "চূণশিল"
+      },
+      {
+        "en": "Gold",
+        "as": "সোণ"
+      },
+      {
+        "en": "Diamond",
+        "as": "হীৰা"
+      },
+      {
+        "en": "Silver",
+        "as": "ৰূপ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Limestone is the key raw material for cement production.",
+      "as": "চূণশিল চিমেণ্ট উৎপাদনৰ প্ৰধান কেঁচা সামগ্ৰী।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-039",
+    "q": {
+      "en": "Which industry in Assam mainly uses natural gas as a raw material?",
+      "as": "অসমত কোনটো উদ্যোগে মূলতঃ প্ৰাকৃতিক গেছ কেঁচা সামগ্ৰী হিচাপে ব্যৱহাৰ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Fertilizer and petrochemicals",
+        "as": "সাৰ আৰু পেট্ৰ'ৰাসায়নিক"
+      },
+      {
+        "en": "Cement",
+        "as": "চিমেণ্ট"
+      },
+      {
+        "en": "Steel",
+        "as": "ইস্পাত"
+      },
+      {
+        "en": "Sugar",
+        "as": "চেনি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Natural gas is used as a raw material in fertilizer and petrochemical industries.",
+      "as": "প্ৰাকৃতিক গেছ সাৰ আৰু পেট্ৰ'ৰাসায়নিক উদ্যোগত কেঁচা সামগ্ৰী হিচাপে ব্যৱহৃত হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-040",
+    "q": {
+      "en": "The Kopili Hydro Electric Project in Assam is implemented by:",
+      "as": "অসমৰ কপিলী জলবিদ্যুৎ প্ৰকল্প কোনে ৰূপায়ণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Coal India",
+        "as": "কয়লা ইণ্ডিয়া"
+      },
+      {
+        "en": "Oil India Limited",
+        "as": "অইল ইণ্ডিয়া লিমিটেড"
+      },
+      {
+        "en": "NEEPCO",
+        "as": "নিপক'"
+      },
+      {
+        "en": "SAIL",
+        "as": "ছে'ল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "NEEPCO implements the Kopili Hydro Electric Project in Assam.",
+      "as": "নিপক' য়ে অসমত কপিলী জলবিদ্যুৎ প্ৰকল্প ৰূপায়ণ কৰে।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-041",
+    "q": {
+      "en": "What is the full form of NEEPCO?",
+      "as": "NEEPCO ৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "North East Engineering and Power Company",
+        "as": "উত্তৰ-পূব অভিযান্ত্ৰিক আৰু বিদ্যুৎ কোম্পানী"
+      },
+      {
+        "en": "North East Environment Protection Company",
+        "as": "উত্তৰ-পূব পৰিৱেশ সুৰক্ষা কোম্পানী"
+      },
+      {
+        "en": "National Electric Energy Production Company",
+        "as": "ৰাষ্ট্ৰীয় বিদ্যুৎ শক্তি উৎপাদন কোম্পানী"
+      },
+      {
+        "en": "North Eastern Electric Power Corporation",
+        "as": "উত্তৰ-পূব বিদ্যুৎ নিগম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "NEEPCO is the North Eastern Electric Power Corporation.",
+      "as": "NEEPCO হৈছে উত্তৰ-পূব বিদ্যুৎ নিগম।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-042",
+    "q": {
+      "en": "The Subansiri Lower Hydroelectric Project is located on which river?",
+      "as": "সোণপুৰ তলৰ জলবিদ্যুৎ প্ৰকল্প কোনটো নদীৰ ওপৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সোণপুৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Subansiri Lower project is on the Subansiri river, a tributary of the Brahmaputra.",
+      "as": "সোণপুৰ তলৰ প্ৰকল্প সোণপুৰ নদীৰ ওপৰত, যি ব্ৰহ্মপুত্ৰৰ এটা উপনদী।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-043",
+    "q": {
+      "en": "Which thermal power project is located at Bongaigaon in Assam?",
+      "as": "অসমৰ বঙাইগাঁৱত কোনটো তাপ বিদ্যুৎ প্ৰকল্প অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "NTPC Farakka",
+        "as": "এন টি পি চি ফৰাক্কা"
+      },
+      {
+        "en": "NTPC Kahalgaon",
+        "as": "এন টি পি চি কাহালগাঁও"
+      },
+      {
+        "en": "NTPC Talcher",
+        "as": "এন টি পি চি তালচেৰ"
+      },
+      {
+        "en": "NTPC Bongaigaon",
+        "as": "এন টি পি চি বঙাইগাঁও"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "NTPC Bongaigaon is a thermal power project in Assam.",
+      "as": "এন টি পি চি বঙাইগাঁও অসমৰ এটা তাপ বিদ্যুৎ প্ৰকল্প।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-044",
+    "q": {
+      "en": "Assam's coal is mainly used for:",
+      "as": "অসমৰ কয়লা মূলতঃ কাৰ বাবে ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Power generation and cement",
+        "as": "বিদ্যুৎ উৎপাদন আৰু চিমেণ্ট"
+      },
+      {
+        "en": "Making jewellery",
+        "as": "আ-অলংকাৰ তৈয়াৰ"
+      },
+      {
+        "en": "Producing diamonds",
+        "as": "হীৰা উৎপাদন"
+      },
+      {
+        "en": "Making glass only",
+        "as": "কেৱল কাচ তৈয়াৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assam's coal is mostly used in thermal power generation and cement production.",
+      "as": "অসমৰ কয়লা বেছিভাগ তাপ বিদ্যুৎ উৎপাদন আৰু চিমেণ্ট উৎপাদনত ব্যৱহৃত হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-045",
+    "q": {
+      "en": "Which is a major wetland resource of Assam?",
+      "as": "অসমৰ এটা প্ৰধান জলাশয় সম্পদ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Geysers",
+        "as": "গেইজাৰ"
+      },
+      {
+        "en": "Oases",
+        "as": "মৰুদ্যান"
+      },
+      {
+        "en": "Beels",
+        "as": "বিল"
+      },
+      {
+        "en": "Fjords",
+        "as": "ফিয়ৰ্ড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Beels, the ox-bow lakes and wetlands, are important water resources of Assam.",
+      "as": "বিল, অৰ্থাৎ শিং-হ্ৰদ আৰু জলাশয়, অসমৰ গুৰুত্বপূৰ্ণ জল সম্পদ।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-046",
+    "q": {
+      "en": "Deepor Beel, an important wetland resource of Assam, is a:",
+      "as": "অসমৰ এটা গুৰুত্বপূৰ্ণ জলাশয় সম্পদ দীপৰ বিল এটা:"
+    },
+    "options": [
+      {
+        "en": "Glacier",
+        "as": "হিমবাহ"
+      },
+      {
+        "en": "Desert",
+        "as": "মৰুভূমি"
+      },
+      {
+        "en": "Ramsar site",
+        "as": "ৰামচাৰ স্থান"
+      },
+      {
+        "en": "Coral reef",
+        "as": "প্ৰবাল প্ৰাচীৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Deepor Beel is a Ramsar wetland of international importance.",
+      "as": "দীপৰ বিল আন্তৰ্জাতিক গুৰুত্বৰ এটা ৰামচাৰ জলাশয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-047",
+    "q": {
+      "en": "Fisheries in Assam are supported mainly by:",
+      "as": "অসমৰ মৎস্য খণ্ড মূলতঃ কাৰ দ্বাৰা সমৰ্থিত?"
+    },
+    "options": [
+      {
+        "en": "Coral reefs",
+        "as": "প্ৰবাল প্ৰাচীৰ"
+      },
+      {
+        "en": "Deserts",
+        "as": "মৰুভূমি"
+      },
+      {
+        "en": "Glaciers",
+        "as": "হিমবাহ"
+      },
+      {
+        "en": "Rivers, beels and wetlands",
+        "as": "নদী, বিল আৰু জলাশয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assam's fisheries depend on its rivers, beels and wetlands.",
+      "as": "অসমৰ মৎস্য খণ্ড ইয়াৰ নদী, বিল আৰু জলাশয়ৰ ওপৰত নিৰ্ভৰশীল।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-048",
+    "q": {
+      "en": "Which national park of Assam is famous for the one-horned rhinoceros, a key wildlife resource?",
+      "as": "অসমৰ কোনখন ৰাষ্ট্ৰীয় উদ্যান এশিঙীয়া গঁড়, এটা প্ৰধান বন্যপ্ৰাণী সম্পদৰ বাবে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Kaziranga",
+        "as": "কাজিৰঙা"
+      },
+      {
+        "en": "Nameri",
+        "as": "নামেৰী"
+      },
+      {
+        "en": "Orang",
+        "as": "ওৰাং"
+      },
+      {
+        "en": "Manas",
+        "as": "মানস"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kaziranga is world-famous for the one-horned rhinoceros.",
+      "as": "কাজিৰঙা এশিঙীয়া গঁড়ৰ বাবে বিশ্ববিখ্যাত।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-049",
+    "q": {
+      "en": "Which natural resource is extracted at Digboi?",
+      "as": "ডিগবৈত কোনটো প্ৰাকৃতিক সম্পদ উত্তোলন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Limestone",
+        "as": "চূণশিল"
+      },
+      {
+        "en": "Gold",
+        "as": "সোণ"
+      },
+      {
+        "en": "Diamond",
+        "as": "হীৰা"
+      },
+      {
+        "en": "Crude oil",
+        "as": "কেঁচা তেল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Crude oil is extracted at Digboi, India's oldest oilfield.",
+      "as": "ভাৰতৰ আটাইতকৈ পুৰণি তেলক্ষেত্ৰ ডিগবৈত কেঁচা তেল উত্তোলন কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-050",
+    "q": {
+      "en": "Which place in Assam is known as the 'Oil City' of India?",
+      "as": "অসমৰ কোন ঠাইক ভাৰতৰ 'তেল নগৰী' বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Digboi",
+        "as": "ডিগবৈ"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Digboi is known as the Oil City of India.",
+      "as": "ডিগবৈক ভাৰতৰ তেল নগৰী বোলা হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-051",
+    "q": {
+      "en": "Duliajan, the headquarters of Oil India Limited, is located in which district?",
+      "as": "অইল ইণ্ডিয়া লিমিটেডৰ মুখ্য কাৰ্যালয় ডুলিয়াজান কোনটো জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Barpeta",
+        "as": "বৰপেটা"
+      },
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Duliajan is located in Dibrugarh district.",
+      "as": "ডুলিয়াজান ডিব্ৰুগড় জিলাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-052",
+    "q": {
+      "en": "Which is the largest oil refinery of Assam by capacity?",
+      "as": "ক্ষমতাৰ ফালৰ পৰা অসমৰ সৰ্ববৃহৎ তেল শোধনাগাৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Guwahati Refinery",
+        "as": "গুৱাহাটী শোধনাগাৰ"
+      },
+      {
+        "en": "Digboi Refinery",
+        "as": "ডিগবৈ শোধনাগাৰ"
+      },
+      {
+        "en": "Numaligarh Refinery",
+        "as": "নুমলীগড় শোধনাগাৰ"
+      },
+      {
+        "en": "Bongaigaon Refinery",
+        "as": "বঙাইগাঁও শোধনাগাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Numaligarh Refinery is the largest oil refinery of Assam by capacity.",
+      "as": "ক্ষমতাৰ ফালৰ পৰা নুমলীগড় শোধনাগাৰ অসমৰ সৰ্ববৃহৎ তেল শোধনাগাৰ।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-053",
+    "q": {
+      "en": "Numaligarh Refinery is located in which district of Assam?",
+      "as": "নুমলীগড় শোধনাগাৰ অসমৰ কোনটো জিলাত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Golaghat",
+        "as": "গোলাঘাট"
+      },
+      {
+        "en": "Kokrajhar",
+        "as": "কোকৰাঝাৰ"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Numaligarh Refinery is located in Golaghat district.",
+      "as": "নুমলীগড় শোধনাগাৰ গোলাঘাট জিলাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-054",
+    "q": {
+      "en": "Which gas is produced along with crude oil in Assam?",
+      "as": "অসমত কেঁচা তেলৰ লগতে কোনটো গেছ উৎপন্ন হয়?"
+    },
+    "options": [
+      {
+        "en": "Ozone",
+        "as": "ওজোন"
+      },
+      {
+        "en": "Helium",
+        "as": "হিলিয়াম"
+      },
+      {
+        "en": "Natural gas",
+        "as": "প্ৰাকৃতিক গেছ"
+      },
+      {
+        "en": "Neon",
+        "as": "নিঅ'ন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Natural gas is obtained along with crude oil in Assam's oilfields.",
+      "as": "অসমৰ তেলক্ষেত্ৰত কেঁচা তেলৰ লগতে প্ৰাকৃতিক গেছ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-055",
+    "q": {
+      "en": "Which is a major use of natural gas in Assam?",
+      "as": "অসমত প্ৰাকৃতিক গেছৰ এটা প্ৰধান ব্যৱহাৰ কি?"
+    },
+    "options": [
+      {
+        "en": "Producing paper",
+        "as": "কাগজ উৎপাদন"
+      },
+      {
+        "en": "Making jewellery",
+        "as": "আ-অলংকাৰ তৈয়াৰ"
+      },
+      {
+        "en": "Power generation and fertilizer",
+        "as": "বিদ্যুৎ উৎপাদন আৰু সাৰ"
+      },
+      {
+        "en": "Making glass only",
+        "as": "কেৱল কাচ তৈয়াৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Natural gas is used for power generation and fertilizer production.",
+      "as": "প্ৰাকৃতিক গেছ বিদ্যুৎ উৎপাদন আৰু সাৰ উৎপাদনত ব্যৱহৃত হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-056",
+    "q": {
+      "en": "Which district of Assam has significant limestone deposits used in cement?",
+      "as": "অসমৰ কোনটো জিলাত চিমেণ্টত ব্যৱহৃত উল্লেখযোগ্য চূণশিল ভঁৰাল আছে?"
+    },
+    "options": [
+      {
+        "en": "Barpeta",
+        "as": "বৰপেটা"
+      },
+      {
+        "en": "Dhubri",
+        "as": "ধুবুৰী"
+      },
+      {
+        "en": "Karbi Anglong",
+        "as": "কাৰ্বি আংলং"
+      },
+      {
+        "en": "Morigaon",
+        "as": "মৰিগাঁও"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Karbi Anglong has significant limestone deposits used by the cement industry.",
+      "as": "কাৰ্বি আংলঙত উল্লেখযোগ্য চূণশিল ভঁৰাল আছে যি চিমেণ্ট উদ্যোগত ব্যৱহৃত হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-057",
+    "q": {
+      "en": "Which is a renewable natural resource of Assam?",
+      "as": "অসমৰ এটা নৱীকৰণযোগ্য প্ৰাকৃতিক সম্পদ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Natural gas",
+        "as": "প্ৰাকৃতিক গেছ"
+      },
+      {
+        "en": "Coal",
+        "as": "কয়লা"
+      },
+      {
+        "en": "Petroleum",
+        "as": "পেট্ৰ'লিয়াম"
+      },
+      {
+        "en": "Forests",
+        "as": "অৰণ্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Forests are a renewable natural resource if used sustainably.",
+      "as": "বহনক্ষমভাৱে ব্যৱহাৰ কৰিলে অৰণ্য এটা নৱীকৰণযোগ্য প্ৰাকৃতিক সম্পদ।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-058",
+    "q": {
+      "en": "Which is a non-renewable natural resource of Assam?",
+      "as": "অসমৰ এটা অনৱীকৰণযোগ্য প্ৰাকৃতিক সম্পদ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Bamboo",
+        "as": "বাঁহ"
+      },
+      {
+        "en": "Coal",
+        "as": "কয়লা"
+      },
+      {
+        "en": "Water",
+        "as": "পানী"
+      },
+      {
+        "en": "Solar energy",
+        "as": "সৌৰ শক্তি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Coal is a non-renewable fossil fuel resource.",
+      "as": "কয়লা এটা অনৱীকৰণযোগ্য জীৱাশ্ম ইন্ধন সম্পদ।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-059",
+    "q": {
+      "en": "Which is an important non-timber forest product of Assam?",
+      "as": "অসমৰ এটা গুৰুত্বপূৰ্ণ কৰ-বহিৰ্ভূত বনজ সামগ্ৰী কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Bamboo, cane and agar",
+        "as": "বাঁহ, বেত আৰু আগৰ"
+      },
+      {
+        "en": "Gold and silver",
+        "as": "সোণ আৰু ৰূপ"
+      },
+      {
+        "en": "Coal and oil",
+        "as": "কয়লা আৰু তেল"
+      },
+      {
+        "en": "Cement and steel",
+        "as": "চিমেণ্ট আৰু ইস্পাত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bamboo, cane and agar are important non-timber forest products of Assam.",
+      "as": "বাঁহ, বেত আৰু আগৰ অসমৰ গুৰুত্বপূৰ্ণ কৰ-বহিৰ্ভূত বনজ সামগ্ৰী।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-060",
+    "q": {
+      "en": "Which is the state flower of Assam and part of its natural wealth?",
+      "as": "অসমৰ ৰাজ্যিক পুষ্প আৰু ইয়াৰ প্ৰাকৃতিক সম্পদৰ অংশ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Lotus",
+        "as": "পদুম"
+      },
+      {
+        "en": "Kopou phool (Foxtail orchid)",
+        "as": "কপৌ ফুল (শিয়াল-নেজী অৰ্কিড)"
+      },
+      {
+        "en": "Rose",
+        "as": "গোলাপ"
+      },
+      {
+        "en": "Sunflower",
+        "as": "সূৰ্যমুখী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kopou phool, the foxtail orchid, is the state flower of Assam.",
+      "as": "কপৌ ফুল, শিয়াল-নেজী অৰ্কিড, অসমৰ ৰাজ্যিক পুষ্প।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-061",
+    "q": {
+      "en": "Orchids of Assam are an important part of its:",
+      "as": "অসমৰ অৰ্কিড ইয়াৰ কাৰ এটা গুৰুত্বপূৰ্ণ অংশ?"
+    },
+    "options": [
+      {
+        "en": "Metal industry",
+        "as": "ধাতু উদ্যোগ"
+      },
+      {
+        "en": "Mineral wealth",
+        "as": "খনিজ সম্পদ"
+      },
+      {
+        "en": "Fossil fuels",
+        "as": "জীৱাশ্ম ইন্ধন"
+      },
+      {
+        "en": "Biodiversity",
+        "as": "জৈৱ-বৈচিত্ৰ্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assam is rich in orchid species, which are part of its biodiversity.",
+      "as": "অসম অৰ্কিড প্ৰজাতিত সমৃদ্ধ, যি ইয়াৰ জৈৱ-বৈচিত্ৰ্যৰ অংশ।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-062",
+    "q": {
+      "en": "Which type of soil is suitable for tea cultivation in Assam?",
+      "as": "অসমত চাহ খেতিৰ বাবে কোন প্ৰকাৰৰ মাটি উপযুক্ত?"
+    },
+    "options": [
+      {
+        "en": "Well-drained acidic soil",
+        "as": "ভাল ড্ৰেইনযুক্ত অম্লীয় মাটি"
+      },
+      {
+        "en": "Saline desert soil",
+        "as": "লৱণযুক্ত মৰুভূমিৰ মাটি"
+      },
+      {
+        "en": "Frozen soil",
+        "as": "হিমায়িত মাটি"
+      },
+      {
+        "en": "Rocky mountain soil only",
+        "as": "কেৱল শিলাময় পাহাৰীয়া মাটি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Tea thrives in well-drained, slightly acidic soil with high rainfall.",
+      "as": "চাহে ভাল ড্ৰেইনযুক্ত, সামান্য অম্লীয় আৰু অধিক বৰষুণযুক্ত মাটিত ভালকৈ বাঢ়ে।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-063",
+    "q": {
+      "en": "Which resource is a major source of water for agriculture in Assam?",
+      "as": "অসমত কৃষিৰ বাবে পানীৰ এটা প্ৰধান উৎস কোনটো সম্পদ?"
+    },
+    "options": [
+      {
+        "en": "Sea water",
+        "as": "সাগৰীয় পানী"
+      },
+      {
+        "en": "Desert wells",
+        "as": "মৰুভূমিৰ কুঁৱা"
+      },
+      {
+        "en": "Brahmaputra river system",
+        "as": "ব্ৰহ্মপুত্ৰ নদী ব্যৱস্থা"
+      },
+      {
+        "en": "Rain clouds only",
+        "as": "কেৱল বৰষুণৰ মেঘ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Brahmaputra river system is the major water source for agriculture in Assam.",
+      "as": "ব্ৰহ্মপুত্ৰ নদী ব্যৱস্থা অসমত কৃষিৰ প্ৰধান জল উৎস।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-064",
+    "q": {
+      "en": "The Brahmaputra causes floods but also deposits fertile soil called:",
+      "as": "ব্ৰহ্মপুত্ৰই বানপানী ঘটায় কিন্তু উৰ্বৰ মাটিও জমা কৰে, যাক কি বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Alluvial soil",
+        "as": "পলসুৱা মাটি"
+      },
+      {
+        "en": "Laterite soil",
+        "as": "লেটেৰাইট মাটি"
+      },
+      {
+        "en": "Black soil",
+        "as": "ক’লা মাটি"
+      },
+      {
+        "en": "Red soil",
+        "as": "ৰঙা মাটি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra deposits fertile alluvial soil during floods.",
+      "as": "ব্ৰহ্মপুত্ৰই বানপানীৰ সময়ত উৰ্বৰ পলসুৱা মাটি জমা কৰে।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-065",
+    "q": {
+      "en": "Which mineral resource of Assam is used in the glass industry?",
+      "as": "অসমৰ কোনটো খনিজ সম্পদ কাচ উদ্যোগত ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Gold",
+        "as": "সোণ"
+      },
+      {
+        "en": "Silica sand",
+        "as": "ছিলিকা বালি"
+      },
+      {
+        "en": "Silver",
+        "as": "ৰূপ"
+      },
+      {
+        "en": "Diamond",
+        "as": "হীৰা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Silica sand is the main raw material for glass manufacturing.",
+      "as": "ছিলিকা বালি কাচ উৎপাদনৰ প্ৰধান কেঁচা সামগ্ৰী।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-066",
+    "q": {
+      "en": "Which of the following is the main fossil fuel found in Assam?",
+      "as": "তলৰ কোনটো অসমত পোৱা প্ৰধান জীৱাশ্ম ইন্ধন?"
+    },
+    "options": [
+      {
+        "en": "Diamond only",
+        "as": "কেৱল হীৰা"
+      },
+      {
+        "en": "Uranium only",
+        "as": "কেৱল ইউৰেনিয়াম"
+      },
+      {
+        "en": "Gold only",
+        "as": "কেৱল সোণ"
+      },
+      {
+        "en": "Petroleum and coal",
+        "as": "পেট্ৰ'লিয়াম আৰু কয়লা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Petroleum and coal are the main fossil fuels found in Assam.",
+      "as": "পেট্ৰ'লিয়াম আৰু কয়লা অসমত পোৱা প্ৰধান জীৱাশ্ম ইন্ধন।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-067",
+    "q": {
+      "en": "Which is a major hydro-power potential river of Assam?",
+      "as": "অসমৰ এটা প্ৰধান জলবিদ্যুৎ সম্ভাৱনাপূৰ্ণ নদী কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Kaveri",
+        "as": "কাবেৰী"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাৱৰী"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Brahmaputra and its tributaries have huge hydropower potential.",
+      "as": "ব্ৰহ্মপুত্ৰ আৰু ইয়াৰ উপনদীসমূহৰ বিপুল জলবিদ্যুৎ সম্ভাৱনা আছে।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-068",
+    "q": {
+      "en": "Which resource base supports Assam's cement industry?",
+      "as": "অসমৰ চিমেণ্ট উদ্যোগক কোনটো সম্পদৰ ভিত্তি সহায় কৰে?"
+    },
+    "options": [
+      {
+        "en": "Fish and rice",
+        "as": "মাছ আৰু ধান"
+      },
+      {
+        "en": "Gold and silver",
+        "as": "সোণ আৰু ৰূপ"
+      },
+      {
+        "en": "Tea and bamboo",
+        "as": "চাহ আৰু বাঁহ"
+      },
+      {
+        "en": "Limestone and coal",
+        "as": "চূণশিল আৰু কয়লা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Limestone and coal are essential for Assam's cement industry.",
+      "as": "চূণশিল আৰু কয়লা অসমৰ চিমেণ্ট উদ্যোগৰ বাবে অপৰিহাৰ্য।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-069",
+    "q": {
+      "en": "The Guwahati Tea Auction Centre is important for the trade of:",
+      "as": "গুৱাহাটী চাহ নিলাম কেন্দ্ৰ কাৰ বাণিজ্যৰ বাবে গুৰুত্বপূৰ্ণ?"
+    },
+    "options": [
+      {
+        "en": "Limestone",
+        "as": "চূণশিল"
+      },
+      {
+        "en": "Coal",
+        "as": "কয়লা"
+      },
+      {
+        "en": "Tea",
+        "as": "চাহ"
+      },
+      {
+        "en": "Silk",
+        "as": "ৰেচম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Guwahati Tea Auction Centre is one of the largest tea auction centres.",
+      "as": "গুৱাহাটী চাহ নিলাম কেন্দ্ৰ সৰ্ববৃহৎ চাহ নিলাম কেন্দ্ৰসমূহৰ এটা।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-070",
+    "q": {
+      "en": "Which oilfield of Assam was discovered in 1953 and is a major oilfield?",
+      "as": "অসমৰ কোনটো তেলক্ষেত্ৰ ১৯৫৩ চনত আৱিষ্কৃত হৈছিল আৰু এটা প্ৰধান তেলক্ষেত্ৰ?"
+    },
+    "options": [
+      {
+        "en": "Digboi",
+        "as": "ডিগবৈ"
+      },
+      {
+        "en": "Naharkatia",
+        "as": "নাহৰকটিয়া"
+      },
+      {
+        "en": "Bombay High",
+        "as": "বম্বে হাই"
+      },
+      {
+        "en": "Ankleshwar",
+        "as": "আংক্লেশ্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Naharkatia is a major oilfield of Assam discovered in 1953.",
+      "as": "নাহৰকটিয়া ১৯৫৩ চনত আৱিষ্কৃত অসমৰ এটা প্ৰধান তেলক্ষেত্ৰ।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-071",
+    "q": {
+      "en": "Which oilfields are located in the Sivasagar district of Assam?",
+      "as": "অসমৰ শিৱসাগৰ জিলাত কোনবোৰ তেলক্ষেত্ৰ অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Rajasthan fields",
+        "as": "ৰাজস্থানৰ ক্ষেত্ৰ"
+      },
+      {
+        "en": "Bombay High and Ankleshwar",
+        "as": "বম্বে হাই আৰু আংক্লেশ্বৰ"
+      },
+      {
+        "en": "Krishna-Godavari fields",
+        "as": "কৃষ্ণা-গোদাৱৰী ক্ষেত্ৰ"
+      },
+      {
+        "en": "Lakwa and Rudrasagar",
+        "as": "লাকুৱা আৰু ৰুদ্ৰসাগৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Lakwa and Rudrasagar are important oilfields in Sivasagar district.",
+      "as": "লাকুৱা আৰু ৰুদ্ৰসাগৰ শিৱসাগৰ জিলাৰ গুৰুত্বপূৰ্ণ তেলক্ষেত্ৰ।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-072",
+    "q": {
+      "en": "Which companies explore and produce oil in Assam?",
+      "as": "অসমত কোনবোৰ কোম্পানীয়ে তেল অন্বেষণ আৰু উৎপাদন কৰে?"
+    },
+    "options": [
+      {
+        "en": "NTPC and BHEL",
+        "as": "এন টি পি চি আৰু বি এইচ ই এল"
+      },
+      {
+        "en": "Coal India and SAIL",
+        "as": "কয়লা ইণ্ডিয়া আৰু ছে'ল"
+      },
+      {
+        "en": "ONGC and Oil India Limited",
+        "as": "অ' এন জি চি আৰু অইল ইণ্ডিয়া লিমিটেড"
+      },
+      {
+        "en": "NHPC and SJVN",
+        "as": "এন এইচ পি চি আৰু এছ জে ভি এন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "ONGC and Oil India Limited are the main oil exploration and production companies in Assam.",
+      "as": "ONGC আৰু অইল ইণ্ডিয়া লিমিটেড অসমৰ প্ৰধান তেল অন্বেষণ আৰু উৎপাদন কোম্পানী।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-073",
+    "q": {
+      "en": "Which is the largest oil and gas company headquartered in Assam?",
+      "as": "অসমত মুখ্য কাৰ্যালয় থকা সৰ্ববৃহৎ তেল আৰু গেছ কোম্পানী কোনটো?"
+    },
+    "options": [
+      {
+        "en": "BHEL",
+        "as": "বি এইচ ই এল"
+      },
+      {
+        "en": "Coal India Limited",
+        "as": "কয়লা ইণ্ডিয়া লিমিটেড"
+      },
+      {
+        "en": "SAIL",
+        "as": "ছে'ল"
+      },
+      {
+        "en": "Oil India Limited",
+        "as": "অইল ইণ্ডিয়া লিমিটেড"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Oil India Limited, headquartered at Duliajan, is the major oil and gas company in Assam.",
+      "as": "ডুলিয়াজানত মুখ্য কাৰ্যালয় থকা অইল ইণ্ডিয়া লিমিটেড অসমৰ প্ৰধান তেল আৰু গেছ কোম্পানী।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-074",
+    "q": {
+      "en": "Which resource is the raw material for urea fertilizer produced in Assam?",
+      "as": "অসমত উৎপাদিত ইউৰিয়া সাৰৰ কেঁচা সামগ্ৰী কোনটো সম্পদ?"
+    },
+    "options": [
+      {
+        "en": "Natural gas",
+        "as": "প্ৰাকৃতিক গেছ"
+      },
+      {
+        "en": "Coal",
+        "as": "কয়লা"
+      },
+      {
+        "en": "Limestone",
+        "as": "চূণশিল"
+      },
+      {
+        "en": "Iron ore",
+        "as": "লো-আকৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Natural gas is the raw material for urea fertilizer produced in Assam.",
+      "as": "প্ৰাকৃতিক গেছ অসমত উৎপাদিত ইউৰিয়া সাৰৰ কেঁচা সামগ্ৰী।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-075",
+    "q": {
+      "en": "Which resource is abundantly available in the bed of the Brahmaputra?",
+      "as": "ব্ৰহ্মপুত্ৰৰ তলিত কোনটো সম্পদ প্রচুৰ পৰিমাণে উপলব্ধ?"
+    },
+    "options": [
+      {
+        "en": "Sand",
+        "as": "বালি"
+      },
+      {
+        "en": "Gold",
+        "as": "সোণ"
+      },
+      {
+        "en": "Diamond",
+        "as": "হীৰা"
+      },
+      {
+        "en": "Silver",
+        "as": "ৰূপ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra riverbed is rich in sand, an important construction material.",
+      "as": "ব্ৰহ্মপুত্ৰৰ নদীখোলাত বালি প্রচুৰ, যি এটা গুৰুত্বপূৰ্ণ নিৰ্মাণ সামগ্ৰী।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-076",
+    "q": {
+      "en": "Which resources from Assam's rivers are important construction materials?",
+      "as": "অসমৰ নদীৰ পৰা পোৱা কোনবোৰ সম্পদ গুৰুত্বপূৰ্ণ নিৰ্মাণ সামগ্ৰী?"
+    },
+    "options": [
+      {
+        "en": "Gold and silver",
+        "as": "সোণ আৰু ৰূপ"
+      },
+      {
+        "en": "Sand and stone",
+        "as": "বালি আৰু শিল"
+      },
+      {
+        "en": "Diamond and emerald",
+        "as": "হীৰা আৰু মৰকত"
+      },
+      {
+        "en": "Coal and oil",
+        "as": "কয়লা আৰু তেল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sand and stone from rivers are important construction materials.",
+      "as": "নদীৰ পৰা পোৱা বালি আৰু শিল গুৰুত্বপূৰ্ণ নিৰ্মাণ সামগ্ৰী।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-077",
+    "q": {
+      "en": "Which are important natural resources for rural livelihoods in Assam?",
+      "as": "অসমত গ্ৰাম্য জীৱিকাৰ বাবে গুৰুত্বপূৰ্ণ প্ৰাকৃতিক সম্পদ কোনবোৰ?"
+    },
+    "options": [
+      {
+        "en": "Uranium and thorium",
+        "as": "ইউৰেনিয়াম আৰু থৰিয়াম"
+      },
+      {
+        "en": "Diamond and gold",
+        "as": "হীৰা আৰু সোণ"
+      },
+      {
+        "en": "Bamboo and cane",
+        "as": "বাঁহ আৰু বেত"
+      },
+      {
+        "en": "Quartz and mica",
+        "as": "কোৱাৰ্টজ আৰু অভ্ৰক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bamboo and cane support the rural economy and handicrafts in Assam.",
+      "as": "বাঁহ আৰু বেতে অসমৰ গ্ৰাম্য অৰ্থনীতি আৰু হস্তশিল্পক সহায় কৰে।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-078",
+    "q": {
+      "en": "Which forest type is found in Kaziranga National Park?",
+      "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যানত কোন প্ৰকাৰৰ বন পোৱা যায়?"
+    },
+    "options": [
+      {
+        "en": "Mangrove forest",
+        "as": "মেংগ্ৰ'ভ বন"
+      },
+      {
+        "en": "Cactus desert",
+        "as": "কেক্টাছ মৰুভূমি"
+      },
+      {
+        "en": "Coniferous alpine forest",
+        "as": "কনিফেৰাছ আল্পাইন বন"
+      },
+      {
+        "en": "Grassland and floodplain forest",
+        "as": "তৃণভূমি আৰু বানপানী সমভূমিৰ বন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Kaziranga is dominated by tall grasslands and floodplain forests.",
+      "as": "কাজিৰঙাত ওখ তৃণভূমি আৰু বানপানী সমভূমিৰ বনেৰে প্ৰাধান্য।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-079",
+    "q": {
+      "en": "Which natural resources are important for tourism in Assam?",
+      "as": "অসমত পৰ্যটনৰ বাবে গুৰুত্বপূৰ্ণ প্ৰাকৃতিক সম্পদ কোনবোৰ?"
+    },
+    "options": [
+      {
+        "en": "Diamond mines and gold",
+        "as": "হীৰা খনি আৰু সোণ"
+      },
+      {
+        "en": "Wildlife, forests and rivers",
+        "as": "বন্যপ্ৰাণী, অৰণ্য আৰু নদী"
+      },
+      {
+        "en": "Uranium and thorium",
+        "as": "ইউৰেনিয়াম আৰু থৰিয়াম"
+      },
+      {
+        "en": "Cement and steel",
+        "as": "চিমেণ্ট আৰু ইস্পাত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Wildlife, forests, rivers and tea gardens attract tourists to Assam.",
+      "as": "বন্যপ্ৰাণী, অৰণ্য, নদী আৰু চাহ বাগিচাই পৰ্যটকক অসমলৈ আকৰ্ষণ কৰে।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-080",
+    "q": {
+      "en": "Which is a major source of rural fuel in Assam?",
+      "as": "অসমত গ্ৰাম্য ইন্ধনৰ এটা প্ৰধান উৎস কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Gold and silver",
+        "as": "সোণ আৰু ৰূপ"
+      },
+      {
+        "en": "Fuelwood and bamboo",
+        "as": "ইন্ধন কাঠ আৰু বাঁহ"
+      },
+      {
+        "en": "Uranium",
+        "as": "ইউৰেনিয়াম"
+      },
+      {
+        "en": "Diamond",
+        "as": "হীৰা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Fuelwood and bamboo are common rural fuel resources in Assam.",
+      "as": "ইন্ধন কাঠ আৰু বাঁহ অসমৰ সাধাৰণ গ্ৰাম্য ইন্ধন সম্পদ।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-081",
+    "q": {
+      "en": "Which silkworm food plant is used for producing Eri silk in Assam?",
+      "as": "অসমত এৰী ৰেচম উৎপাদনৰ বাবে কোনটো পলুৰ খাদ্য গছ ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Castor",
+        "as": "এৰা"
+      },
+      {
+        "en": "Mulberry",
+        "as": "নুনী"
+      },
+      {
+        "en": "Oak",
+        "as": "ওক"
+      },
+      {
+        "en": "Teak",
+        "as": "চেগুন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Eri silkworms are mainly fed on castor leaves.",
+      "as": "এৰী পলু মূলতঃ এৰা গছৰ পাত খুৱাই প্ৰতিপালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-082",
+    "q": {
+      "en": "Which silk is produced without killing the silkworm in Assam?",
+      "as": "অসমত কোনটো ৰেচম পলু নমৰাকৈ উৎপাদন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Eri",
+        "as": "এৰী"
+      },
+      {
+        "en": "Muga",
+        "as": "মুগা"
+      },
+      {
+        "en": "Pat",
+        "as": "পাট"
+      },
+      {
+        "en": "Tasar",
+        "as": "টছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Eri silk is called ahimsa silk as the silkworm is not killed.",
+      "as": "এৰী ৰেচমক অহিংসা ৰেচম বোলা হয় কাৰণ ইয়াত পলু নমৰে।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-083",
+    "q": {
+      "en": "Which natural resources form the backbone of Assam's economy?",
+      "as": "কোনবোৰ প্ৰাকৃতিক সম্পদে অসমৰ অৰ্থনীতিৰ মেৰুদণ্ড গঠন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Uranium and thorium",
+        "as": "ইউৰেনিয়াম আৰু থৰিয়াম"
+      },
+      {
+        "en": "Diamond and gold",
+        "as": "হীৰা আৰু সোণ"
+      },
+      {
+        "en": "Tea, petroleum and forests",
+        "as": "চাহ, পেট্ৰ'লিয়াম আৰু অৰণ্য"
+      },
+      {
+        "en": "Silver and platinum",
+        "as": "ৰূপ আৰু প্লেটিনাম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Tea, petroleum and forest resources are the backbone of Assam's economy.",
+      "as": "চাহ, পেট্ৰ'লিয়াম আৰু বনজ সম্পদ অসমৰ অৰ্থনীতিৰ মেৰুদণ্ড।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-084",
+    "q": {
+      "en": "Which mineral of Assam is used in the steel and cement industries?",
+      "as": "অসমৰ কোনটো খনিজ ইস্পাত আৰু চিমেণ্ট উদ্যোগত ব্যৱহৃত হয়?"
+    },
+    "options": [
+      {
+        "en": "Gold",
+        "as": "সোণ"
+      },
+      {
+        "en": "Limestone",
+        "as": "চূণশিল"
+      },
+      {
+        "en": "Diamond",
+        "as": "হীৰা"
+      },
+      {
+        "en": "Silver",
+        "as": "ৰূপ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Limestone is used in both steel and cement industries.",
+      "as": "চূণশিল ইস্পাত আৰু চিমেণ্ট দুয়োটা উদ্যোগত ব্যৱহৃত হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-085",
+    "q": {
+      "en": "Which forest resource of Assam is used as raw material in paper mills?",
+      "as": "অসমৰ কোনটো বনজ সম্পদ কাগজ কলত কেঁচা সামগ্ৰী হিচাপে ব্যৱহৃত হয়?"
+    },
+    "options": [
+      {
+        "en": "Limestone",
+        "as": "চূণশিল"
+      },
+      {
+        "en": "Gold",
+        "as": "সোণ"
+      },
+      {
+        "en": "Diamond",
+        "as": "হীৰা"
+      },
+      {
+        "en": "Bamboo",
+        "as": "বাঁহ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bamboo is widely used as raw material in paper mills.",
+      "as": "বাঁহ কাগজ কলত কেঁচা সামগ্ৰী হিচাপে বহুলভাৱে ব্যৱহৃত হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-086",
+    "q": {
+      "en": "Which is the major river island of Assam formed by the Brahmaputra?",
+      "as": "ব্ৰহ্মপুত্ৰৰ দ্বাৰা গঠিত অসমৰ প্ৰধান নদী দ্বীপ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Divar",
+        "as": "দিভাৰ"
+      },
+      {
+        "en": "Sriharikota",
+        "as": "শ্ৰীহৰিকোটা"
+      },
+      {
+        "en": "Diul",
+        "as": "দিউল"
+      },
+      {
+        "en": "Majuli",
+        "as": "মাজুলী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Majuli, formed by the Brahmaputra, is the largest river island in the world.",
+      "as": "ব্ৰহ্মপুত্ৰৰ দ্বাৰা গঠিত মাজুলী বিশ্বৰ সৰ্ববৃহৎ নদী দ্বীপ।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-087",
+    "q": {
+      "en": "Which is the biggest source of fresh water in Assam?",
+      "as": "অসমত মিঠা পানীৰ সৰ্ববৃহৎ উৎস কি?"
+    },
+    "options": [
+      {
+        "en": "Thar desert",
+        "as": "থৰ মৰুভূমি"
+      },
+      {
+        "en": "Brahmaputra basin",
+        "as": "ব্ৰহ্মপুত্ৰ অববাহিকা"
+      },
+      {
+        "en": "Arabian Sea",
+        "as": "আৰব সাগৰ"
+      },
+      {
+        "en": "Bay of Bengal",
+        "as": "বংগোপসাগৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Brahmaputra basin is the largest source of fresh water in Assam.",
+      "as": "ব্ৰহ্মপুত্ৰ অববাহিকা অসমত মিঠা পানীৰ সৰ্ববৃহৎ উৎস।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-088",
+    "q": {
+      "en": "Which natural resources make Assam a biodiversity hotspot region?",
+      "as": "কোনবোৰ প্ৰাকৃতিক সম্পদে অসমক জৈৱ-বৈচিত্ৰ্যৰ হটস্পট অঞ্চল কৰি তুলিছে?"
+    },
+    "options": [
+      {
+        "en": "Coral reefs and atolls",
+        "as": "প্ৰবাল প্ৰাচীৰ আৰু দ্বীপ"
+      },
+      {
+        "en": "Deserts and glaciers",
+        "as": "মৰুভূমি আৰু হিমবাহ"
+      },
+      {
+        "en": "Forests, wetlands and rivers",
+        "as": "অৰণ্য, জলাশয় আৰু নদী"
+      },
+      {
+        "en": "Volcanoes and geysers",
+        "as": "আগ্নেয়গিৰি আৰু গেইজাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Forests, wetlands and rivers make Assam rich in biodiversity.",
+      "as": "অৰণ্য, জলাশয় আৰু নদীয়ে অসমক জৈৱ-বৈচিত্ৰ্যত চহকী কৰি তুলিছে।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-089",
+    "q": {
+      "en": "Which is a mineral resource used in making refractory materials and found in Assam?",
+      "as": "অসমত পোৱা তাপ-সহনশীল সামগ্ৰী তৈয়াৰত ব্যৱহৃত এটা খনিজ সম্পদ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Quartz and feldspar",
+        "as": "কোৱাৰ্টজ আৰু ফেল্ডস্পাৰ"
+      },
+      {
+        "en": "Gold and silver",
+        "as": "সোণ আৰু ৰূপ"
+      },
+      {
+        "en": "Diamond and emerald",
+        "as": "হীৰা আৰু মৰকত"
+      },
+      {
+        "en": "Platinum",
+        "as": "প্লেটিনাম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Quartz and feldspar are used in refractory and ceramic materials.",
+      "as": "কোৱাৰ্টজ আৰু ফেল্ডস্পাৰ তাপ-সহনশীল আৰু চিৰামিক সামগ্ৰীত ব্যৱহৃত হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-090",
+    "q": {
+      "en": "Which resource is mined at Makum in Assam?",
+      "as": "অসমৰ মাকুমত কোনটো সম্পদ খনন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Coal",
+        "as": "কয়লা"
+      },
+      {
+        "en": "Gold",
+        "as": "সোণ"
+      },
+      {
+        "en": "Diamond",
+        "as": "হীৰা"
+      },
+      {
+        "en": "Silver",
+        "as": "ৰূপ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Coal is mined at the Makum coalfield in Assam.",
+      "as": "অসমৰ মাকুম কয়লাক্ষেত্ৰত কয়লা খনন কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-091",
+    "q": {
+      "en": "Which institution manages reserved forests in Assam?",
+      "as": "অসমত সংৰক্ষিত বনাঞ্চল কোনটো প্ৰতিষ্ঠানে পৰিচালনা কৰে?"
+    },
+    "options": [
+      {
+        "en": "RBI",
+        "as": "আৰ বি আই"
+      },
+      {
+        "en": "Oil India Limited",
+        "as": "অইল ইণ্ডিয়া লিমিটেড"
+      },
+      {
+        "en": "Assam Forest Department",
+        "as": "অসম বন বিভাগ"
+      },
+      {
+        "en": "SEBI",
+        "as": "ছেবি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Assam Forest Department manages and protects the state's forests.",
+      "as": "অসম বন বিভাগে ৰাজ্যৰ বনাঞ্চল পৰিচালনা আৰু সুৰক্ষা কৰে।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-092",
+    "q": {
+      "en": "Which resource provides fertile silt to the floodplains of Assam?",
+      "as": "অসমৰ বানপানী সমভূমিক কোনটো সম্পদে উৰ্বৰ পলি যোগান ধৰে?"
+    },
+    "options": [
+      {
+        "en": "Sea waves",
+        "as": "সাগৰীয় ঢৌ"
+      },
+      {
+        "en": "Thar desert sand",
+        "as": "থৰ মৰুভূমিৰ বালি"
+      },
+      {
+        "en": "Glacier ice",
+        "as": "হিমবাহৰ বৰফ"
+      },
+      {
+        "en": "Brahmaputra river",
+        "as": "ব্ৰহ্মপুত্ৰ নদী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Brahmaputra deposits fertile silt on Assam's floodplains.",
+      "as": "ব্ৰহ্মপুত্ৰই অসমৰ বানপানী সমভূমিত উৰ্বৰ পলি জমা কৰে।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-093",
+    "q": {
+      "en": "Which is a major natural resource used in the traditional handicrafts of Assam?",
+      "as": "অসমৰ পৰম্পৰাগত হস্তশিল্পত ব্যৱহৃত এটা প্ৰধান প্ৰাকৃতিক সম্পদ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Diamond and gold",
+        "as": "হীৰা আৰু সোণ"
+      },
+      {
+        "en": "Bamboo and cane",
+        "as": "বাঁহ আৰু বেত"
+      },
+      {
+        "en": "Uranium and thorium",
+        "as": "ইউৰেনিয়াম আৰু থৰিয়াম"
+      },
+      {
+        "en": "Platinum and silver",
+        "as": "প্লেটিনাম আৰু ৰূপ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bamboo and cane are widely used in Assam's traditional handicrafts.",
+      "as": "বাঁহ আৰু বেত অসমৰ পৰম্পৰাগত হস্তশিল্পত বহুলভাৱে ব্যৱহৃত হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-094",
+    "q": {
+      "en": "Which natural resource supports the paper and plywood industries of Assam?",
+      "as": "অসমৰ কাগজ আৰু প্লাইউড উদ্যোগক কোনটো প্ৰাকৃতিক সম্পদে সহায় কৰে?"
+    },
+    "options": [
+      {
+        "en": "Uranium",
+        "as": "ইউৰেনিয়াম"
+      },
+      {
+        "en": "Gold and diamond",
+        "as": "সোণ আৰু হীৰা"
+      },
+      {
+        "en": "Forest and bamboo",
+        "as": "অৰণ্য আৰু বাঁহ"
+      },
+      {
+        "en": "Silver",
+        "as": "ৰূপ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Forests and bamboo provide raw material for paper and plywood industries.",
+      "as": "অৰণ্য আৰু বাঁহে কাগজ আৰু প্লাইউড উদ্যোগক কেঁচা সামগ্ৰী যোগান ধৰে।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-095",
+    "q": {
+      "en": "Which natural resource of Assam is used for generating hydroelectricity?",
+      "as": "অসমৰ কোনটো প্ৰাকৃতিক সম্পদ জলবিদ্যুৎ উৎপাদনত ব্যৱহৃত হয়?"
+    },
+    "options": [
+      {
+        "en": "Coal",
+        "as": "কয়লা"
+      },
+      {
+        "en": "Rivers",
+        "as": "নদী"
+      },
+      {
+        "en": "Petroleum",
+        "as": "পেট্ৰ'লিয়াম"
+      },
+      {
+        "en": "Limestone",
+        "as": "চূণশিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rivers are used to generate hydroelectricity in Assam.",
+      "as": "অসমত নদী ব্যৱহাৰ কৰি জলবিদ্যুৎ উৎপাদন কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-096",
+    "q": {
+      "en": "Which is an example of a renewable energy resource available in Assam?",
+      "as": "অসমত উপলব্ধ নৱীকৰণযোগ্য শক্তি সম্পদৰ এটা উদাহৰণ কি?"
+    },
+    "options": [
+      {
+        "en": "Natural gas",
+        "as": "প্ৰাকৃতিক গেছ"
+      },
+      {
+        "en": "Coal",
+        "as": "কয়লা"
+      },
+      {
+        "en": "Petroleum",
+        "as": "পেট্ৰ'লিয়াম"
+      },
+      {
+        "en": "Solar energy",
+        "as": "সৌৰ শক্তি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Solar energy is a renewable energy resource available in Assam.",
+      "as": "সৌৰ শক্তি অসমত উপলব্ধ এটা নৱীকৰণযোগ্য শক্তি সম্পদ।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-097",
+    "q": {
+      "en": "Which is an important mineral resource in the hills of Assam used in building materials?",
+      "as": "অসমৰ পাহাৰত পোৱা নিৰ্মাণ সামগ্ৰীত ব্যৱহৃত এটা গুৰুত্বপূৰ্ণ খনিজ সম্পদ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Limestone and stone",
+        "as": "চূণশিল আৰু শিল"
+      },
+      {
+        "en": "Gold and silver",
+        "as": "সোণ আৰু ৰূপ"
+      },
+      {
+        "en": "Diamond and ruby",
+        "as": "হীৰা আৰু পাখৰাজ"
+      },
+      {
+        "en": "Platinum",
+        "as": "প্লেটিনাম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Limestone and stone from the hills are used as building materials.",
+      "as": "পাহাৰৰ পৰা পোৱা চূণশিল আৰু শিল নিৰ্মাণ সামগ্ৰী হিচাপে ব্যৱহৃত হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-098",
+    "q": {
+      "en": "Which resource of Assam is a major contributor to its state revenue?",
+      "as": "অসমৰ কোনটো সম্পদ ইয়াৰ ৰাজ্যিক ৰাজহত এটা প্ৰধান অৱদানকাৰী?"
+    },
+    "options": [
+      {
+        "en": "Petroleum and tea",
+        "as": "পেট্ৰ'লিয়াম আৰু চাহ"
+      },
+      {
+        "en": "Diamond and gold",
+        "as": "হীৰা আৰু সোণ"
+      },
+      {
+        "en": "Uranium",
+        "as": "ইউৰেনিয়াম"
+      },
+      {
+        "en": "Platinum",
+        "as": "প্লেটিনাম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Petroleum and tea are major contributors to Assam's state revenue.",
+      "as": "পেট্ৰ'লিয়াম আৰু চাহ অসমৰ ৰাজ্যিক ৰাজহৰ প্ৰধান অৱদানকাৰী।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-099",
+    "q": {
+      "en": "Which is a coastal or wetland resource important for Assam's fisheries?",
+      "as": "অসমৰ মৎস্য খণ্ডৰ বাবে গুৰুত্বপূৰ্ণ এটা জলাশয় সম্পদ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Glaciers",
+        "as": "হিমবাহ"
+      },
+      {
+        "en": "Coral reefs",
+        "as": "প্ৰবাল প্ৰাচীৰ"
+      },
+      {
+        "en": "Deserts",
+        "as": "মৰুভূমি"
+      },
+      {
+        "en": "Beels and rivers",
+        "as": "বিল আৰু নদী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Beels and rivers are important fishery resources of Assam.",
+      "as": "বিল আৰু নদী অসমৰ গুৰুত্বপূৰ্ণ মৎস্য সম্পদ।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-100",
+    "q": {
+      "en": "Which natural resource of Assam is famous worldwide as a beverage crop?",
+      "as": "অসমৰ কোনটো প্ৰাকৃতিক সম্পদ বিশ্বজুৰি পানীয় শস্য হিচাপে বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Rubber",
+        "as": "ৰবৰ"
+      },
+      {
+        "en": "Coffee",
+        "as": "কফি"
+      },
+      {
+        "en": "Cocoa",
+        "as": "ক'ক'"
+      },
+      {
+        "en": "Tea",
+        "as": "চাহ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assam tea is famous worldwide as a beverage crop.",
+      "as": "অসমৰ চাহ বিশ্বজুৰি এটা পানীয় শস্য হিচাপে বিখ্যাত।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-101",
+    "q": {
+      "en": "Which mineral resource of Assam is used in the manufacture of quicklime and cement?",
+      "as": "অসমৰ কোনটো খনিজ সম্পদ চূণ আৰু চিমেণ্ট উৎপাদনত ব্যৱহৃত হয়?"
+    },
+    "options": [
+      {
+        "en": "Gold",
+        "as": "সোণ"
+      },
+      {
+        "en": "Limestone",
+        "as": "চূণশিল"
+      },
+      {
+        "en": "Diamond",
+        "as": "হীৰা"
+      },
+      {
+        "en": "Silver",
+        "as": "ৰূপ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Limestone is used to manufacture quicklime and cement.",
+      "as": "চূণশিল চূণ আৰু চিমেণ্ট উৎপাদনত ব্যৱহৃত হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-102",
+    "q": {
+      "en": "Which natural resource is associated with the Bongaigaon area in Assam?",
+      "as": "অসমৰ বঙাইগাঁও অঞ্চলৰ সৈতে কোনটো প্ৰাকৃতিক সম্পদ জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Uranium mine",
+        "as": "ইউৰেনিয়াম খনি"
+      },
+      {
+        "en": "Diamond mine",
+        "as": "হীৰা খনি"
+      },
+      {
+        "en": "Gold mine",
+        "as": "সোণৰ খনি"
+      },
+      {
+        "en": "Petroleum refinery",
+        "as": "পেট্ৰ'লিয়াম শোধনাগাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bongaigaon is associated with a petroleum refinery.",
+      "as": "বঙাইগাঁও এটা পেট্ৰ'লিয়াম শোধনাগাৰৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-103",
+    "q": {
+      "en": "Which is a major resource-based industry of Assam using tea leaves?",
+      "as": "চাহ পাত ব্যৱহাৰ কৰা অসমৰ এটা প্ৰধান সম্পদ-ভিত্তিক উদ্যোগ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Glass industry",
+        "as": "কাচ উদ্যোগ"
+      },
+      {
+        "en": "Steel industry",
+        "as": "ইস্পাত উদ্যোগ"
+      },
+      {
+        "en": "Cement industry",
+        "as": "চিমেণ্ট উদ্যোগ"
+      },
+      {
+        "en": "Tea processing industry",
+        "as": "চাহ প্ৰক্ৰিয়াকৰণ উদ্যোগ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The tea processing industry uses tea leaves as its raw material.",
+      "as": "চাহ প্ৰক্ৰিয়াকৰণ উদ্যোগে চাহ পাতক কেঁচা সামগ্ৰী হিচাপে ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-104",
+    "q": {
+      "en": "Which resource of Assam is exploited from the Lakwa and Geleki areas?",
+      "as": "অসমৰ লাকুৱা আৰু গেলেকি অঞ্চলৰ পৰা কোনটো সম্পদ উত্তোলন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Gold and silver",
+        "as": "সোণ আৰু ৰূপ"
+      },
+      {
+        "en": "Crude oil and natural gas",
+        "as": "কেঁচা তেল আৰু প্ৰাকৃতিক গেছ"
+      },
+      {
+        "en": "Diamond and ruby",
+        "as": "হীৰা আৰু পাখৰাজ"
+      },
+      {
+        "en": "Uranium and thorium",
+        "as": "ইউৰেনিয়াম আৰু থৰিয়াম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Crude oil and natural gas are extracted from Lakwa and Geleki fields.",
+      "as": "লাকুৱা আৰু গেলেকি ক্ষেত্ৰৰ পৰা কেঁচা তেল আৰু প্ৰাকৃতিক গেছ উত্তোলন কৰা হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-105",
+    "q": {
+      "en": "Which natural resource of Assam is mainly used in the tea industry for processing?",
+      "as": "অসমৰ কোনটো প্ৰাকৃতিক সম্পদ মূলতঃ চাহ উদ্যোগত প্ৰক্ৰিয়াকৰণৰ বাবে ব্যৱহৃত হয়?"
+    },
+    "options": [
+      {
+        "en": "Coal and firewood",
+        "as": "কয়লা আৰু ইন্ধন কাঠ"
+      },
+      {
+        "en": "Gold and silver",
+        "as": "সোণ আৰু ৰূপ"
+      },
+      {
+        "en": "Diamond and ruby",
+        "as": "হীৰা আৰু পাখৰাজ"
+      },
+      {
+        "en": "Uranium",
+        "as": "ইউৰেনিয়াম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Coal and firewood are used as fuel in tea processing.",
+      "as": "চাহ প্ৰক্ৰিয়াকৰণত কয়লা আৰু ইন্ধন কাঠ ইন্ধন হিচাপে ব্যৱহৃত হয়।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-106",
+    "q": {
+      "en": "Which of the following is a water resource that supports navigation and trade in Assam?",
+      "as": "তলৰ কোনটো অসমত নৌচলাচল আৰু বাণিজ্যক সহায় কৰা এটা জল সম্পদ?"
+    },
+    "options": [
+      {
+        "en": "Thar desert",
+        "as": "থৰ মৰুভূমি"
+      },
+      {
+        "en": "Brahmaputra river",
+        "as": "ব্ৰহ্মপুত্ৰ নদী"
+      },
+      {
+        "en": "Glacier",
+        "as": "হিমবাহ"
+      },
+      {
+        "en": "Volcano",
+        "as": "আগ্নেয়গিৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Brahmaputra serves as an important waterway for navigation and trade.",
+      "as": "ব্ৰহ্মপুত্ৰ নৌচলাচল আৰু বাণিজ্যৰ বাবে এটা গুৰুত্বপূৰ্ণ জলপথ হিচাপে কাম কৰে।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-107",
+    "q": {
+      "en": "Which mineral resource of Assam is a source of energy?",
+      "as": "অসমৰ কোনটো খনিজ সম্পদ শক্তিৰ উৎস?"
+    },
+    "options": [
+      {
+        "en": "Silica sand",
+        "as": "ছিলিকা বালি"
+      },
+      {
+        "en": "Limestone",
+        "as": "চূণশিল"
+      },
+      {
+        "en": "Coal",
+        "as": "কয়লা"
+      },
+      {
+        "en": "Clay",
+        "as": "পংক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Coal is a fossil fuel and an important source of energy.",
+      "as": "কয়লা এটা জীৱাশ্ম ইন্ধন আৰু শক্তিৰ এটা গুৰুত্বপূৰ্ণ উৎস।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-108",
+    "q": {
+      "en": "Which is a major natural resource used for pottery and ceramics in Assam?",
+      "as": "অসমত মৃৎশিল্প আৰু চিৰামিকত ব্যৱহৃত এটা প্ৰধান প্ৰাকৃতিক সম্পদ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Petroleum",
+        "as": "পেট্ৰ'লিয়াম"
+      },
+      {
+        "en": "Gold",
+        "as": "সোণ"
+      },
+      {
+        "en": "Diamond",
+        "as": "হীৰা"
+      },
+      {
+        "en": "Clay",
+        "as": "পংক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Clay is the main raw material for pottery and ceramics.",
+      "as": "পংক মৃৎশিল্প আৰু চিৰামিকৰ প্ৰধান কেঁচা সামগ্ৰী।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-109",
+    "q": {
+      "en": "Which of the following best describes Assam's natural resource wealth?",
+      "as": "তলৰ কোনটোৱে অসমৰ প্ৰাকৃতিক সম্পদ সম্পদশালিতাক সৰ্বোত্তমভাৱে বৰ্ণনা কৰে?"
+    },
+    "options": [
+      {
+        "en": "Rich in tea, petroleum, forests, water and biodiversity",
+        "as": "চাহ, পেট্ৰ'লিয়াম, অৰণ্য, পানী আৰু জৈৱ-বৈচিত্ৰ্যত সমৃদ্ধ"
+      },
+      {
+        "en": "Rich only in diamonds",
+        "as": "কেৱল হীৰাত সমৃদ্ধ"
+      },
+      {
+        "en": "Rich only in gold",
+        "as": "কেৱল সোণত সমৃদ্ধ"
+      },
+      {
+        "en": "Devoid of any resources",
+        "as": "কোনো সম্পদ নাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assam is rich in tea, petroleum, forests, water and biodiversity.",
+      "as": "অসম চাহ, পেট্ৰ'লিয়াম, অৰণ্য, পানী আৰু জৈৱ-বৈচিত্ৰ্যত সমৃদ্ধ।"
+    }
+  },
+  {
+    "id": "assam-natural-resources-110",
+    "q": {
+      "en": "Which national park and biosphere reserve of Assam is a major natural heritage resource?",
+      "as": "অসমৰ কোনখন ৰাষ্ট্ৰীয় উদ্যান আৰু জীৱমণ্ডল সংচিতি এটা প্ৰধান প্ৰাকৃতিক ঐতিহ্য সম্পদ?"
+    },
+    "options": [
+      {
+        "en": "Pobitora",
+        "as": "পবিতৰা"
+      },
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Deepor Beel",
+        "as": "দীপৰ বিল"
+      },
+      {
+        "en": "Amchang",
+        "as": "আমচাং"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Manas is a national park, tiger reserve, biosphere reserve and World Heritage Site.",
+      "as": "মানস এটা ৰাষ্ট্ৰীয় উদ্যান, বাঘ সংৰক্ষিত অঞ্চল, জীৱমণ্ডল সংচিতি আৰু বিশ্ব ঐতিহ্য স্থান।"
+    }
   }
-}
+]
