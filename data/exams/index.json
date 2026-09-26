@@ -161,17 +161,146 @@
     },
     {
       "id": "adre",
-      "title": { "en": "ADRE", "as": "ADRE" },
-      "subtitle": { "en": "Assam Direct Recruitment Examination", "as": "অসম প্ৰত্যক্ষ নিযুক্তি পৰীক্ষা" },
+      "title": { "en": "ADRE 3.0 Grade IV", "as": "ADRE 3.0 গ্ৰেড IV" },
+      "subtitle": { "en": "Assam Direct Recruitment Examination — Grade IV (SLRC)", "as": "অসম প্ৰত্যক্ষ নিযুক্তি পৰীক্ষা — গ্ৰেড IV (SLRC)" },
+      "note": { "en": "Choose a subject, then a sub-category to practise question-wise MCQs.", "as": "এখন বিষয় বাছনি কৰক, তাৰ পিছত উপ-শ্ৰেণী এটা বাছি প্ৰশ্নভিত্তিক MCQ অনুশীলন কৰক।" },
       "cover": "/images/exams/adre-cover.webp",
       "coverAlt": {
-        "en": "ADRE 3.0 (Assam Direct Recruitment Exam) Grade III & IV — book front cover",
-        "as": "ADRE 3.0 (অসম প্ৰত্যক্ষ নিযুক্তি পৰীক্ষা) গ্ৰেড III আৰু IV — কিতাপৰ বেটুপাত"
+        "en": "ADRE 3.0 (Assam Direct Recruitment Examination) Grade IV — book front cover",
+        "as": "ADRE 3.0 (অসম প্ৰত্যক্ষ নিযুক্তি পৰীক্ষা) গ্ৰেড IV — কিতাপৰ বেটুপাত"
       },
       "color": "#db2777",
       "icon": "ADRE",
-      "status": "coming-soon",
-      "sections": []
+      "status": "available",
+      "sections": [
+        {
+          "id": "syllabus",
+          "type": "syllabus",
+          "color": "#6366f1",
+          "title": { "en": "Syllabus", "as": "পাঠ্যক্ৰম" }
+        },
+        {
+          "id": "elementary-mathematics",
+          "type": "qa",
+          "color": "#f59e0b",
+          "title": { "en": "Elementary Mathematics", "as": "প্ৰাথমিক অংক" },
+          "subcategories": [
+            { "id": "number-system", "title": { "en": "Number System", "as": "সংখ্যা পদ্ধতি" } },
+            { "id": "lcm-hcf", "title": { "en": "LCM & HCF", "as": "ল.সা.গু. আৰু গ.সা.গু." } },
+            { "id": "percentage", "title": { "en": "Percentage", "as": "শতাংশ" } },
+            { "id": "profit-loss", "title": { "en": "Profit & Loss", "as": "লাভ আৰু লোকচান" } },
+            { "id": "ratio-proportion", "title": { "en": "Ratio & Proportion", "as": "অনুপাত আৰু সমানুপাত" } },
+            { "id": "average", "title": { "en": "Average", "as": "গড়" } },
+            { "id": "simple-compound-interest", "title": { "en": "Simple & Compound Interest", "as": "সৰল আৰু যৌগিক সূত" } },
+            { "id": "time-work", "title": { "en": "Time & Work", "as": "সময় আৰু কাম" } },
+            { "id": "time-speed-distance", "title": { "en": "Time, Speed & Distance", "as": "সময়, দূৰত্ব আৰু গতিবেগ" } },
+            { "id": "simplification-fractions", "title": { "en": "Simplification & Fractions", "as": "সৰলীকৰণ" } }
+          ]
+        },
+        {
+          "id": "general-english",
+          "type": "qa",
+          "color": "#0d9488",
+          "title": { "en": "General English", "as": "সাধাৰণ ইংৰাজী" },
+          "subcategories": [
+            {
+              "id": "vocabulary",
+              "title": { "en": "Vocabulary", "as": "শব্দভাণ্ডাৰ" },
+              "subcategories": [
+                { "id": "synonyms-antonyms", "title": { "en": "Synonyms & Antonyms", "as": "সমাৰ্থক আৰু বিপৰীত শব্দ" } },
+                { "id": "gender", "title": { "en": "Gender (Masculine & Feminine)", "as": "লিংগ (পুংলিংগ আৰু স্ত্ৰীলিংগ)" } },
+                { "id": "young-ones", "title": { "en": "Young Ones (Babies)", "as": "পোৱালিৰ নাম" } },
+                { "id": "homes-habitats", "title": { "en": "Homes & Habitats", "as": "ঘৰ আৰু বাসস্থান" } },
+                { "id": "sounds-calls", "title": { "en": "Sounds & Calls", "as": "শব্দ আৰু ধ্বনি" } },
+                { "id": "collective-nouns", "title": { "en": "Collective Nouns (Groups/Fleets/Packs)", "as": "সমূহবাচক শব্দ (দল)" } }
+              ]
+            },
+            {
+              "id": "grammar",
+              "title": { "en": "Grammar", "as": "ব্যাকৰণ" },
+              "subcategories": [
+                { "id": "tenses-rules", "title": { "en": "Tenses & Rules", "as": "কাল আৰু নিয়ম" } },
+                { "id": "prepositions", "title": { "en": "Prepositions", "as": "পূৰ্বসৰ্গ (Preposition)" } },
+                { "id": "articles-determiners", "title": { "en": "Articles & Determiners", "as": "আৰ্টিকল আৰু নিৰ্ণায়ক" } },
+                { "id": "parts-of-speech", "title": { "en": "Parts of Speech", "as": "শব্দৰ প্ৰকাৰ (Parts of Speech)" } },
+                { "id": "subject-verb-agreement", "title": { "en": "Subject-Verb Agreement", "as": "কৰ্তা-ক্ৰিয়াৰ মিল" } },
+                { "id": "voice-change", "title": { "en": "Voice Change", "as": "বাচ্য পৰিৱৰ্তন" } },
+                { "id": "narration", "title": { "en": "Narration", "as": "উক্তি পৰিৱৰ্তন" } }
+              ]
+            },
+            { "id": "fill-in-the-blanks", "title": { "en": "Fill in the Blanks", "as": "ৰিক্ত স্থান পূৰণ" } },
+            { "id": "error-detection", "title": { "en": "Error Detection", "as": "ব্যাকৰণগত ভুল নিৰ্ণয়" } },
+            { "id": "idioms-phrases", "title": { "en": "Idioms & Phrases", "as": "বাক্যৰীতি আৰু খণ্ডবাক্য" } },
+            { "id": "sentence-rearrangement", "title": { "en": "Sentence Rearrangement", "as": "বাক্য সজোৱা" } },
+            { "id": "one-word-substitution", "title": { "en": "One Word Substitution", "as": "এটা শব্দত প্ৰকাশ কৰা" } }
+          ]
+        },
+        {
+          "id": "logical-reasoning",
+          "type": "qa",
+          "color": "#8b5cf6",
+          "title": { "en": "Logical Reasoning & Mental Ability", "as": "যৌক্তিক বিচাৰ আৰু মানসিক ক্ষমতা" },
+          "subcategories": [
+            {
+              "id": "verbal-reasoning",
+              "title": { "en": "Verbal Reasoning", "as": "ভাষিক যুক্তিতৰ্ক" },
+              "subcategories": [
+                { "id": "number-alphabet-series", "title": { "en": "Number Series & Alphabet Series", "as": "সংখ্যা আৰু বৰ্ণমালাৰ শৃংখলা চিনাক্তকৰণ।" } },
+                { "id": "coding-decoding", "title": { "en": "Coding-Decoding", "as": "আখৰ বা সংখ্যাৰ সংকেত নিৰ্ণয় (যেনে— Letter Coding, Number Coding)।" } },
+                { "id": "blood-relations", "title": { "en": "Blood Relations", "as": "তেজৰ বা পৰিয়ালৰ সম্পৰ্ক সম্বন্ধীয় প্ৰশ্ন।" } },
+                { "id": "direction-distance", "title": { "en": "Direction Sense Test", "as": "দিশ আৰু দূৰত্ব নিৰ্ণয়।" } },
+                { "id": "analogy", "title": { "en": "Analogy", "as": "সাদৃশ্য নিৰ্ণয় — দুটা শব্দ বা সংখ্যাৰ মাজৰ পাৰস্পৰিক সম্বন্ধ (যেনে— Word, Letter বা Number Analogy)।" } },
+                { "id": "odd-one-out", "title": { "en": "Classification / Odd One Out", "as": "চাৰিটা বিকল্পৰ মাজৰ পৰা অমিল শব্দ বা সংখ্যা বাছি উলিওৱা।" } },
+                { "id": "ranking-order", "title": { "en": "Ranking & Order Test", "as": "শাৰী এটাত কোনো ব্যক্তিৰ স্থান (বাওঁ/সোঁ বা ওপৰ/তলৰ পৰা) নিৰ্ণয়।" } },
+                { "id": "word-formation-dictionary", "title": { "en": "Word Formation & Dictionary Order", "as": "শব্দ গঠন আৰু অভিধানৰ ক্ৰম অনুসৰি সজোৱা।" } },
+                { "id": "venn-diagrams", "title": { "en": "Venn Diagrams", "as": "জ্যামিতিক চিত্ৰৰ জৰিয়তে শ্ৰেণী বা বস্তুৰ সম্বন্ধ বুজোৱা।" } },
+                { "id": "syllogism", "title": { "en": "Syllogism / Statements & Conclusions", "as": "বিবৃতি আৰু যুক্তিযুক্ত সিদ্ধান্ত নিৰ্ণয়।" } },
+                { "id": "mathematical-operations", "title": { "en": "Mathematical Operations", "as": "গাণিতিক চিহ্নৰ সাল-সলনি কৰি মান নিৰ্ণয় (+, -, ×, ÷ সলনি কৰা)।" } },
+                { "id": "clock-calendar", "title": { "en": "Clock & Calendar", "as": "ঘড়ীৰ কাঁটাৰ কোণ আৰু দিন/তাৰিখ নিৰ্ণয় সম্বন্ধীয় প্ৰাথমিক প্ৰশ্ন।" } }
+              ]
+            },
+            {
+              "id": "non-verbal-reasoning",
+              "title": { "en": "Non-Verbal Reasoning", "as": "চিত্ৰভিত্তিক / অ-ভাষিক যুক্তিতৰ্ক" },
+              "subcategories": [
+                { "id": "figure-series", "title": { "en": "Figure Series", "as": "চিত্ৰৰ ধাৰাবাহিক ক্ৰম বা পৰৱৰ্তী চিত্ৰ চিনাক্ত কৰা।" } },
+                { "id": "figure-analogy", "title": { "en": "Figure Analogy", "as": "প্ৰথম দুটা চিত্ৰৰ মাজৰ সম্পৰ্ক চাই তৃতীয় চিত্ৰৰ সঠিক জোৰা উলিওৱা।" } },
+                { "id": "figure-classification", "title": { "en": "Figure Classification (Odd One Out)", "as": "৫টা চিত্ৰৰ ভিতৰত অমিল চিত্ৰটো বাছি উলিওৱা।" } },
+                { "id": "mirror-water-image", "title": { "en": "Mirror Image & Water Image", "as": "দাপোণ আৰু পানীৰ প্ৰতিবিম্ব নিৰ্ণয়।" } },
+                { "id": "pattern-completion", "title": { "en": "Pattern Completion", "as": "অসম্পূৰ্ণ চিত্ৰৰ খালী অংশ পূৰণ কৰা।" } },
+                { "id": "embedded-figures", "title": { "en": "Embedded Figures", "as": "এটা জটিল চিত্ৰৰ ভিতৰত লুকাই থকা নিৰ্দিষ্ট চিত্ৰটো বিচাৰি উলিওৱা।" } },
+                { "id": "counting-figures", "title": { "en": "Counting of Figures", "as": "চিত্ৰত থকা ত্ৰিভুজ, বৰ্গক্ষেত্ৰ, আয়তক্ষেত্ৰ বা সৰলৰেখাৰ সংখ্যা গণনা কৰা।" } },
+                { "id": "paper-folding-cutting", "title": { "en": "Paper Folding & Paper Cutting", "as": "কাগজ ভাঁজ কৰা আৰু কটাৰ পিছত কেনেকুৱা দেখাব তাৰ নিৰ্ণয়।" } },
+                { "id": "cubes-dice", "title": { "en": "Cubes & Dice", "as": "পাশা (Dice)-ৰ বিপৰীত ফলকত থকা সংখ্যা বা বিন্দু নিৰ্ণয়।" } }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "assam-history-geography-culture",
+          "type": "qa",
+          "color": "#d97706",
+          "title": { "en": "Assam's History, Geography & Culture", "as": "অসমৰ ইতিহাস, ভূগোল আৰু সংস্কৃতি" },
+          "subcategories": [
+            { "id": "assam-history", "title": { "en": "Assam's History", "as": "অসমৰ ইতিহাস" } },
+            { "id": "assam-geography", "title": { "en": "Assam's Geography", "as": "অসমৰ ভূগোল" } },
+            { "id": "assam-culture", "title": { "en": "Assam's Culture", "as": "অসমৰ সংস্কৃতি" } }
+          ]
+        },
+        {
+          "id": "general-knowledge-current-affairs",
+          "type": "qa",
+          "color": "#0ea5e9",
+          "title": { "en": "General Knowledge & Current Affairs", "as": "সাধাৰণ জ্ঞান আৰু চলিত ঘটনাৱলী" },
+          "subcategories": [
+            { "id": "indian-history-polity-economy", "title": { "en": "Indian History, Polity & Economy", "as": "ভাৰতৰ ইতিহাস, ৰাজনীতি আৰু অৰ্থনীতি" } },
+            { "id": "general-science", "title": { "en": "General Science", "as": "সাধাৰণ বিজ্ঞান" } },
+            { "id": "current-affairs", "title": { "en": "Current Affairs", "as": "চলিত ঘটনাৱলী" } },
+            { "id": "sports-awards", "title": { "en": "Sports & Awards", "as": "ক্ৰীড়া, বঁটা আৰু সন্মান" } },
+            { "id": "important-days-capitals-currencies", "title": { "en": "Important Days, Capitals & Currencies", "as": "গুৰুত্বপূৰ্ণ দিৱস, ৰাজধানী আৰু মুদ্ৰা" } }
+          ]
+        }
+      ]
     },
     {
       "id": "apsc",
