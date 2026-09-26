@@ -1,30 +1,992 @@
-{
-  "id": "time-work-001",
-  "q": {
-    "en": "A can finish a work in 10 days and B in 15 days. Working together, in how many days will they finish it?",
-    "as": "A এ এটা কাম 10 দিনত আৰু B এ 15 দিনত শেষ কৰিব পাৰে। একেলগে কাম কৰিলে কিমান দিনত শেষ কৰিব?"
-  },
-  "options": [
-    {
-      "en": "5 days",
-      "as": "৫ দিন"
+[
+  {
+    "id": "time-work-001",
+    "q": {
+      "en": "A can finish a work in 10 days and B in 15 days. Working together, in how many days will they finish it?",
+      "as": "A এ এটা কাম 10 দিনত আৰু B এ 15 দিনত শেষ কৰিব পাৰে। একেলগে কাম কৰিলে কিমান দিনত শেষ কৰিব?"
     },
-    {
-      "en": "6 days",
-      "as": "৬ দিন"
-    },
-    {
-      "en": "8 days",
-      "as": "৮ দিন"
-    },
-    {
-      "en": "12 days",
-      "as": "১২ দিন"
+    "options": [
+      { "en": "5 days", "as": "৫ দিন" },
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "8 days", "as": "৮ দিন" },
+      { "en": "12 days", "as": "১২ দিন" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "1/10 + 1/15 = 1/6, so they finish in 6 days.",
+      "as": "1/10 + 1/15 = 1/6, গতিকে তেওঁলোকে 6 দিনত শেষ কৰিব।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "1/10 + 1/15 = 1/6, so they finish in 6 days.",
-    "as": "1/10 + 1/15 = 1/6, গতিকে তেওঁলোকে 6 দিনত শেষ কৰিব।"
+  },
+  {
+    "id": "time-work-002",
+    "q": {
+      "en": "A can finish a work in 12 days and B in 24 days. Working together, in how many days will they finish it?",
+      "as": "A এ এটা কাম 12 দিনত আৰু B এ 24 দিনত শেষ কৰিব পাৰে। একেলগে কাম কৰিলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "8 days", "as": "৮ দিন" },
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "9 days", "as": "৯ দিন" },
+      { "en": "10 days", "as": "১০ দিন" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "1/12 + 1/24 = 1/8, so they finish in 8 days.",
+      "as": "1/12 + 1/24 = 1/8, গতিকে 8 দিনত শেষ কৰিব।"
+    }
+  },
+  {
+    "id": "time-work-003",
+    "q": {
+      "en": "A can finish a work in 20 days and B in 30 days. Working together, in how many days will they finish it?",
+      "as": "A এ এটা কাম 20 দিনত আৰু B এ 30 দিনত শেষ কৰিব পাৰে। একেলগে কাম কৰিলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "10 days", "as": "১০ দিন" },
+      { "en": "15 days", "as": "১৫ দিন" },
+      { "en": "12 days", "as": "১২ দিন" },
+      { "en": "25 days", "as": "২৫ দিন" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "1/20 + 1/30 = 1/12, so they finish in 12 days.",
+      "as": "1/20 + 1/30 = 1/12, গতিকে 12 দিনত শেষ কৰিব।"
+    }
+  },
+  {
+    "id": "time-work-004",
+    "q": {
+      "en": "A can finish a work in 10 days and B can also finish it in 10 days. Working together, in how many days will they finish it?",
+      "as": "A এ এটা কাম 10 দিনত আৰু B এওঁ 10 দিনত শেষ কৰিব পাৰে। একেলগে কাম কৰিলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "5 days", "as": "৫ দিন" },
+      { "en": "10 days", "as": "১০ দিন" },
+      { "en": "15 days", "as": "১৫ দিন" },
+      { "en": "20 days", "as": "২০ দিন" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "1/10 + 1/10 = 1/5, so they finish in 5 days.",
+      "as": "1/10 + 1/10 = 1/5, গতিকে 5 দিনত শেষ কৰিব।"
+    }
+  },
+  {
+    "id": "time-work-005",
+    "q": {
+      "en": "A can do a work in 6 days and B in 12 days. Working together, in how many days will they finish it?",
+      "as": "A এ এটা কাম 6 দিনত আৰু B এ 12 দিনত কৰিব পাৰে। একেলগে কাম কৰিলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "3 days", "as": "৩ দিন" },
+      { "en": "4 days", "as": "৪ দিন" },
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "8 days", "as": "৮ দিন" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "1/6 + 1/12 = 1/4, so they finish in 4 days.",
+      "as": "1/6 + 1/12 = 1/4, গতিকে 4 দিনত শেষ কৰিব।"
+    }
+  },
+  {
+    "id": "time-work-006",
+    "q": {
+      "en": "A can finish a work in 8 days and B in 24 days. Working together, in how many days will they finish it?",
+      "as": "A এ এটা কাম 8 দিনত আৰু B এ 24 দিনত শেষ কৰিব পাৰে। একেলগে কাম কৰিলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "12 days", "as": "১২ দিন" },
+      { "en": "16 days", "as": "১৬ দিন" },
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "8 days", "as": "৮ দিন" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "1/8 + 1/24 = 1/6, so they finish in 6 days.",
+      "as": "1/8 + 1/24 = 1/6, গতিকে 6 দিনত শেষ কৰিব।"
+    }
+  },
+  {
+    "id": "time-work-007",
+    "q": {
+      "en": "A can do a work in 9 days and B in 18 days. Working together, in how many days will they finish it?",
+      "as": "A এ এটা কাম 9 দিনত আৰু B এ 18 দিনত কৰিব পাৰে। একেলগে কাম কৰিলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "3 days", "as": "৩ দিন" },
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "9 days", "as": "৯ দিন" },
+      { "en": "12 days", "as": "১২ দিন" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "1/9 + 1/18 = 1/6, so they finish in 6 days.",
+      "as": "1/9 + 1/18 = 1/6, গতিকে 6 দিনত শেষ কৰিব।"
+    }
+  },
+  {
+    "id": "time-work-008",
+    "q": {
+      "en": "A can do a work in 12 days and B in 4 days. Working together, in how many days will they finish it?",
+      "as": "A এ এটা কাম 12 দিনত আৰু B এ 4 দিনত কৰিব পাৰে। একেলগে কাম কৰিলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "3 days", "as": "৩ দিন" },
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "8 days", "as": "৮ দিন" },
+      { "en": "4 days", "as": "৪ দিন" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "1/12 + 1/4 = 1/3, so they finish in 3 days.",
+      "as": "1/12 + 1/4 = 1/3, গতিকে 3 দিনত শেষ কৰিব।"
+    }
+  },
+  {
+    "id": "time-work-009",
+    "q": {
+      "en": "A can finish a work in 15 days and B in 10 days. Working together, in how many days will they finish it?",
+      "as": "A এ এটা কাম 15 দিনত আৰু B এ 10 দিনত শেষ কৰিব পাৰে। একেলগে কাম কৰিলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "5 days", "as": "৫ দিন" },
+      { "en": "8 days", "as": "৮ দিন" },
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "12 days", "as": "১২ দিন" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "1/15 + 1/10 = 1/6, so they finish in 6 days.",
+      "as": "1/15 + 1/10 = 1/6, গতিকে 6 দিনত শেষ কৰিব।"
+    }
+  },
+  {
+    "id": "time-work-010",
+    "q": {
+      "en": "A can do a work in 5 days and B in 20 days. Working together, in how many days will they finish it?",
+      "as": "A এ এটা কাম 5 দিনত আৰু B এ 20 দিনত কৰিব পাৰে। একেলগে কাম কৰিলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "3 days", "as": "৩ দিন" },
+      { "en": "5 days", "as": "৫ দিন" },
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "4 days", "as": "৪ দিন" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "1/5 + 1/20 = 1/4, so they finish in 4 days.",
+      "as": "1/5 + 1/20 = 1/4, গতিকে 4 দিনত শেষ কৰিব।"
+    }
+  },
+  {
+    "id": "time-work-011",
+    "q": {
+      "en": "A can finish a work in 10 days, B in 15 days and C in 30 days. Working together, in how many days will they finish it?",
+      "as": "A এ এটা কাম 10 দিনত, B এ 15 দিনত আৰু C এ 30 দিনত শেষ কৰিব পাৰে। একেলগে কাম কৰিলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "5 days", "as": "৫ দিন" },
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "8 days", "as": "৮ দিন" },
+      { "en": "10 days", "as": "১০ দিন" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "1/10 + 1/15 + 1/30 = 1/5, so they finish in 5 days.",
+      "as": "1/10 + 1/15 + 1/30 = 1/5, গতিকে 5 দিনত শেষ কৰিব।"
+    }
+  },
+  {
+    "id": "time-work-012",
+    "q": {
+      "en": "A can do a work in 12 days, B in 6 days and C in 12 days. Working together, in how many days will they finish it?",
+      "as": "A এ এটা কাম 12 দিনত, B এ 6 দিনত আৰু C এ 12 দিনত কৰিব পাৰে। একেলগে কাম কৰিলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "4 days", "as": "৪ দিন" },
+      { "en": "5 days", "as": "৫ দিন" },
+      { "en": "3 days", "as": "৩ দিন" },
+      { "en": "2 days", "as": "২ দিন" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "1/12 + 1/6 + 1/12 = 1/3, so they finish in 3 days.",
+      "as": "1/12 + 1/6 + 1/12 = 1/3, গতিকে 3 দিনত শেষ কৰিব।"
+    }
+  },
+  {
+    "id": "time-work-013",
+    "q": {
+      "en": "A can finish a work in 20 days, B in 30 days and C in 60 days. Working together, in how many days will they finish it?",
+      "as": "A এ এটা কাম 20 দিনত, B এ 30 দিনত আৰু C এ 60 দিনত শেষ কৰিব পাৰে। একেলগে কাম কৰিলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "12 days", "as": "১২ দিন" },
+      { "en": "10 days", "as": "১০ দিন" },
+      { "en": "15 days", "as": "১৫ দিন" },
+      { "en": "8 days", "as": "৮ দিন" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "1/20 + 1/30 + 1/60 = 1/10, so they finish in 10 days.",
+      "as": "1/20 + 1/30 + 1/60 = 1/10, গতিকে 10 দিনত শেষ কৰিব।"
+    }
+  },
+  {
+    "id": "time-work-014",
+    "q": {
+      "en": "A can do a work in 6 days, B in 9 days and C in 18 days. Working together, in how many days will they finish it?",
+      "as": "A এ এটা কাম 6 দিনত, B এ 9 দিনত আৰু C এ 18 দিনত কৰিব পাৰে। একেলগে কাম কৰিলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "4 days", "as": "৪ দিন" },
+      { "en": "2 days", "as": "২ দিন" },
+      { "en": "3 days", "as": "৩ দিন" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "1/6 + 1/9 + 1/18 = 1/3, so they finish in 3 days.",
+      "as": "1/6 + 1/9 + 1/18 = 1/3, গতিকে 3 দিনত শেষ কৰিব।"
+    }
+  },
+  {
+    "id": "time-work-015",
+    "q": {
+      "en": "A can finish a work in 10 days, B in 20 days and C in 20 days. Working together, in how many days will they finish it?",
+      "as": "A এ এটা কাম 10 দিনত, B এ 20 দিনত আৰু C এ 20 দিনত শেষ কৰিব পাৰে। একেলগে কাম কৰিলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "4 days", "as": "৪ দিন" },
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "5 days", "as": "৫ দিন" },
+      { "en": "8 days", "as": "৮ দিন" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "1/10 + 1/20 + 1/20 = 1/5, so they finish in 5 days.",
+      "as": "1/10 + 1/20 + 1/20 = 1/5, গতিকে 5 দিনত শেষ কৰিব।"
+    }
+  },
+  {
+    "id": "time-work-016",
+    "q": {
+      "en": "A can do a work in 10 days and B in 15 days. They work together and get 300 rupees. What is A's share?",
+      "as": "A এ এটা কাম 10 দিনত আৰু B এ 15 দিনত কৰিব পাৰে। একেলগে কাম কৰি তেওঁলোকে 300 টকা পায়। A ৰ অংশ কিমান?"
+    },
+    "options": [
+      { "en": "120 rupees", "as": "১২০ টকা" },
+      { "en": "180 rupees", "as": "১৮০ টকা" },
+      { "en": "150 rupees", "as": "১৫০ টকা" },
+      { "en": "200 rupees", "as": "২০০ টকা" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A:B = 1/10 : 1/15 = 3:2, so A gets 3/5 x 300 = 180 rupees.",
+      "as": "A:B = 1/10 : 1/15 = 3:2, গতিকে A ৰ অংশ = 3/5 × 300 = 180 টকা।"
+    }
+  },
+  {
+    "id": "time-work-017",
+    "q": {
+      "en": "A can do a work in 12 days and B in 6 days. Working together they earn 900 rupees. What is B's share?",
+      "as": "A এ এটা কাম 12 দিনত আৰু B এ 6 দিনত কৰিব পাৰে। একেলগে কাম কৰি তেওঁলোকে 900 টকা পায়। B ৰ অংশ কিমান?"
+    },
+    "options": [
+      { "en": "300 rupees", "as": "৩০০ টকা" },
+      { "en": "400 rupees", "as": "৪০০ টকা" },
+      { "en": "600 rupees", "as": "৬০০ টকা" },
+      { "en": "500 rupees", "as": "৫০০ টকা" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A:B = 1/12 : 1/6 = 1:2, so B gets 2/3 x 900 = 600 rupees.",
+      "as": "A:B = 1/12 : 1/6 = 1:2, গতিকে B ৰ অংশ = 2/3 × 900 = 600 টকা।"
+    }
+  },
+  {
+    "id": "time-work-018",
+    "q": {
+      "en": "A can do a work in 20 days and B in 30 days. Working together they earn 500 rupees. What is A's share?",
+      "as": "A এ এটা কাম 20 দিনত আৰু B এ 30 দিনত কৰিব পাৰে। একেলগে কাম কৰি তেওঁলোকে 500 টকা পায়। A ৰ অংশ কিমান?"
+    },
+    "options": [
+      { "en": "300 rupees", "as": "৩০০ টকা" },
+      { "en": "200 rupees", "as": "২০০ টকা" },
+      { "en": "250 rupees", "as": "২৫০ টকা" },
+      { "en": "350 rupees", "as": "৩৫০ টকা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A:B = 1/20 : 1/30 = 3:2, so A gets 3/5 x 500 = 300 rupees.",
+      "as": "A:B = 1/20 : 1/30 = 3:2, গতিকে A ৰ অংশ = 3/5 × 500 = 300 টকা।"
+    }
+  },
+  {
+    "id": "time-work-019",
+    "q": {
+      "en": "A, B and C can do a work in 10, 15 and 30 days respectively. Working together they earn 300 rupees. What is A's share?",
+      "as": "A, B আৰু C এ এটা কাম ক্ৰমে 10, 15 আৰু 30 দিনত কৰিব পাৰে। একেলগে কাম কৰি তেওঁলোকে 300 টকা পায়। A ৰ অংশ কিমান?"
+    },
+    "options": [
+      { "en": "100 rupees", "as": "১০০ টকা" },
+      { "en": "120 rupees", "as": "১২০ টকা" },
+      { "en": "180 rupees", "as": "১৮০ টকা" },
+      { "en": "150 rupees", "as": "১৫০ টকা" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A:B:C = 1/10 : 1/15 : 1/30 = 3:2:1, so A gets 3/6 x 300 = 150 rupees.",
+      "as": "A:B:C = 1/10 : 1/15 : 1/30 = 3:2:1, গতিকে A ৰ অংশ = 3/6 × 300 = 150 টকা।"
+    }
+  },
+  {
+    "id": "time-work-020",
+    "q": {
+      "en": "A can do a work in 6 days and B in 12 days. Working together they earn 1800 rupees. What is B's share?",
+      "as": "A এ এটা কাম 6 দিনত আৰু B এ 12 দিনত কৰিব পাৰে। একেলগে কাম কৰি তেওঁলোকে 1800 টকা পায়। B ৰ অংশ কিমান?"
+    },
+    "options": [
+      { "en": "600 rupees", "as": "৬০০ টকা" },
+      { "en": "1200 rupees", "as": "১২০০ টকা" },
+      { "en": "900 rupees", "as": "৯০০ টকা" },
+      { "en": "300 rupees", "as": "৩০০ টকা" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A:B = 1/6 : 1/12 = 2:1, so B gets 1/3 x 1800 = 600 rupees.",
+      "as": "A:B = 1/6 : 1/12 = 2:1, গতিকে B ৰ অংশ = 1/3 × 1800 = 600 টকা।"
+    }
+  },
+  {
+    "id": "time-work-021",
+    "q": {
+      "en": "A can do a work in 6 days and B in 3 days. They work on alternate days starting with A. In how many days will the work be finished?",
+      "as": "A এ এটা কাম 6 দিনত আৰু B এ 3 দিনত কৰিব পাৰে। A ৰ পৰা আৰম্ভ কৰি তেওঁলোকে পাল পাতি কাম কৰে। কামটো কিমান দিনত সম্পূৰ্ণ হ'ব?"
+    },
+    "options": [
+      { "en": "3 days", "as": "৩ দিন" },
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "4 days", "as": "৪ দিন" },
+      { "en": "5 days", "as": "৫ দিন" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In 2 days they do 1/6 + 1/3 = 1/2 of the work, so in 4 days the work is complete.",
+      "as": "2 দিনত তেওঁলোকে 1/6 + 1/3 = 1/2 কাম কৰে, গতিকে 4 দিনত কাম সম্পূৰ্ণ হয়।"
+    }
+  },
+  {
+    "id": "time-work-022",
+    "q": {
+      "en": "A can do a work in 20 days and B in 30 days. They work together for 6 days, then A leaves. In how many more days will B finish the remaining work?",
+      "as": "A এ এটা কাম 20 দিনত আৰু B এ 30 দিনত কৰিব পাৰে। তেওঁলোকে একেলগে 6 দিন কাম কৰাৰ পিছত A এ এৰি যায়। বাকী কাম B এ কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "15 days", "as": "১৫ দিন" },
+      { "en": "12 days", "as": "১২ দিন" },
+      { "en": "18 days", "as": "১৮ দিন" },
+      { "en": "10 days", "as": "১০ দিন" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Together they do 1/12 per day; in 6 days 1/2 is done. Remaining 1/2 is done by B at 1/30 per day = 15 days.",
+      "as": "একেলগে দিনে 1/12 কাম কৰে; 6 দিনত 1/2 হয়। বাকী 1/2 কাম B এ দিনে 1/30 হাৰত = 15 দিনত কৰে।"
+    }
+  },
+  {
+    "id": "time-work-023",
+    "q": {
+      "en": "A can do a work in 12 days and B in 18 days. They work together for 4 days, then A leaves. In how many more days will B finish the work?",
+      "as": "A এ এটা কাম 12 দিনত আৰু B এ 18 দিনত কৰিব পাৰে। তেওঁলোকে একেলগে 4 দিন কাম কৰাৰ পিছত A এ এৰি যায়। বাকী কাম B এ কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "8 days", "as": "৮ দিন" },
+      { "en": "10 days", "as": "১০ দিন" },
+      { "en": "9 days", "as": "৯ দিন" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Together they do 5/36 per day; in 4 days 5/9 is done. Remaining 4/9 is done by B at 1/18 per day = 8 days.",
+      "as": "একেলগে দিনে 5/36 কাম কৰে; 4 দিনত 5/9 হয়। বাকী 4/9 কাম B এ দিনে 1/18 হাৰত = 8 দিনত কৰে।"
+    }
+  },
+  {
+    "id": "time-work-024",
+    "q": {
+      "en": "A is twice as efficient as B. B alone can do a work in 12 days. Working together, in how many days will they finish it?",
+      "as": "A, B তকৈ দুগুণ দক্ষ। B এ অকলে এটা কাম 12 দিনত কৰিব পাৰে। একেলগে কাম কৰিলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "3 days", "as": "৩ দিন" },
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "8 days", "as": "৮ দিন" },
+      { "en": "4 days", "as": "৪ দিন" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A takes 6 days; 1/6 + 1/12 = 1/4, so they finish in 4 days.",
+      "as": "A এ 6 দিনত কৰে; 1/6 + 1/12 = 1/4, গতিকে 4 দিনত শেষ কৰিব।"
+    }
+  },
+  {
+    "id": "time-work-025",
+    "q": {
+      "en": "A is twice as efficient as B. Working together they finish a work in 8 days. In how many days can B alone finish it?",
+      "as": "A, B তকৈ দুগুণ দক্ষ। একেলগে তেওঁলোকে এটা কাম 8 দিনত শেষ কৰে। B এ অকলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "24 days", "as": "২৪ দিন" },
+      { "en": "12 days", "as": "১২ দিন" },
+      { "en": "36 days", "as": "৩৬ দিন" },
+      { "en": "16 days", "as": "১৬ দিন" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Let B take x days and A x/2 days; 2/x + 1/x = 1/8, so x = 24 days.",
+      "as": "B এ x দিন আৰু A এ x/2 দিন লয়; 2/x + 1/x = 1/8, গতিকে x = 24 দিন।"
+    }
+  },
+  {
+    "id": "time-work-026",
+    "q": {
+      "en": "A is three times as fast as B. Working together they finish a work in 12 days. In how many days can A alone finish it?",
+      "as": "A, B তকৈ তিনিগুণ বেগী। একেলগে তেওঁলোকে এটা কাম 12 দিনত শেষ কৰে। A এ অকলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "48 days", "as": "৪৮ দিন" },
+      { "en": "24 days", "as": "২৪ দিন" },
+      { "en": "16 days", "as": "১৬ দিন" },
+      { "en": "12 days", "as": "১২ দিন" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Let A take x days and B 3x days; 1/x + 1/3x = 1/12, so x = 16 days.",
+      "as": "A এ x দিন আৰু B এ 3x দিন লয়; 1/x + 1/3x = 1/12, গতিকে x = 16 দিন।"
+    }
+  },
+  {
+    "id": "time-work-027",
+    "q": {
+      "en": "12 men can complete a work in 10 days. In how many days can 15 men complete the same work?",
+      "as": "12 জন পুৰুষে এটা কাম 10 দিনত শেষ কৰিব পাৰে। 15 জন পুৰুষে সেই কাম কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "10 days", "as": "১০ দিন" },
+      { "en": "8 days", "as": "৮ দিন" },
+      { "en": "12 days", "as": "১২ দিন" },
+      { "en": "6 days", "as": "৬ দিন" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "12 x 10 = 15 x d, so d = 8 days.",
+      "as": "12 × 10 = 15 × d, গতিকে d = 8 দিন।"
+    }
+  },
+  {
+    "id": "time-work-028",
+    "q": {
+      "en": "8 men can do a work in 15 days. In how many days can 12 men do the same work?",
+      "as": "8 জন পুৰুষে এটা কাম 15 দিনত কৰিব পাৰে। 12 জন পুৰুষে সেই কাম কিমান দিনত কৰিব?"
+    },
+    "options": [
+      { "en": "12 days", "as": "১২ দিন" },
+      { "en": "8 days", "as": "৮ দিন" },
+      { "en": "15 days", "as": "১৫ দিন" },
+      { "en": "10 days", "as": "১০ দিন" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "8 x 15 = 12 x d, so d = 10 days.",
+      "as": "8 × 15 = 12 × d, গতিকে d = 10 দিন।"
+    }
+  },
+  {
+    "id": "time-work-029",
+    "q": {
+      "en": "20 men can do a work in 6 days. How many men are needed to finish it in 4 days?",
+      "as": "20 জন পুৰুষে এটা কাম 6 দিনত কৰিব পাৰে। 4 দিনত শেষ কৰিবলৈ কিমান জন পুৰুষ লাগিব?"
+    },
+    "options": [
+      { "en": "30 men", "as": "৩০ জন" },
+      { "en": "24 men", "as": "২৪ জন" },
+      { "en": "36 men", "as": "৩৬ জন" },
+      { "en": "28 men", "as": "২৮ জন" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "20 x 6 = m x 4, so m = 30 men.",
+      "as": "20 × 6 = m × 4, গতিকে m = 30 জন।"
+    }
+  },
+  {
+    "id": "time-work-030",
+    "q": {
+      "en": "15 workers can do a work in 12 days. How many workers are needed to finish it in 9 days?",
+      "as": "15 জন শ্ৰমিকে এটা কাম 12 দিনত কৰিব পাৰে। 9 দিনত শেষ কৰিবলৈ কিমান জন শ্ৰমিক লাগিব?"
+    },
+    "options": [
+      { "en": "18 workers", "as": "১৮ জন" },
+      { "en": "24 workers", "as": "২৪ জন" },
+      { "en": "20 workers", "as": "২০ জন" },
+      { "en": "16 workers", "as": "১৬ জন" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "15 x 12 = w x 9, so w = 20 workers.",
+      "as": "15 × 12 = w × 9, গতিকে w = 20 জন।"
+    }
+  },
+  {
+    "id": "time-work-031",
+    "q": {
+      "en": "A and B together can do a work in 6 days. A alone can do it in 10 days. In how many days can B alone do it?",
+      "as": "A আৰু B একেলগে এটা কাম 6 দিনত কৰিব পাৰে। A এ অকলে 10 দিনত কৰিব পাৰে। B এ অকলে কিমান দিনত কৰিব?"
+    },
+    "options": [
+      { "en": "12 days", "as": "১২ দিন" },
+      { "en": "15 days", "as": "১৫ দিন" },
+      { "en": "18 days", "as": "১৮ দিন" },
+      { "en": "20 days", "as": "২০ দিন" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "1/B = 1/6 - 1/10 = 1/15, so B alone takes 15 days.",
+      "as": "1/B = 1/6 - 1/10 = 1/15, গতিকে B এ 15 দিন লয়।"
+    }
+  },
+  {
+    "id": "time-work-032",
+    "q": {
+      "en": "A and B together can finish a work in 12 days. A alone can do it in 20 days. In how many days can B alone do it?",
+      "as": "A আৰু B একেলগে এটা কাম 12 দিনত শেষ কৰিব পাৰে। A এ অকলে 20 দিনত কৰিব পাৰে। B এ অকলে কিমান দিনত কৰিব?"
+    },
+    "options": [
+      { "en": "24 days", "as": "২৪ দিন" },
+      { "en": "36 days", "as": "৩৬ দিন" },
+      { "en": "15 days", "as": "১৫ দিন" },
+      { "en": "30 days", "as": "৩০ দিন" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "1/B = 1/12 - 1/20 = 1/30, so B alone takes 30 days.",
+      "as": "1/B = 1/12 - 1/20 = 1/30, গতিকে B এ 30 দিন লয়।"
+    }
+  },
+  {
+    "id": "time-work-033",
+    "q": {
+      "en": "A and B together can finish a work in 8 days. B alone can do it in 24 days. In how many days can A alone do it?",
+      "as": "A আৰু B একেলগে এটা কাম 8 দিনত শেষ কৰিব পাৰে। B এ অকলে 24 দিনত কৰিব পাৰে। A এ অকলে কিমান দিনত কৰিব?"
+    },
+    "options": [
+      { "en": "12 days", "as": "১২ দিন" },
+      { "en": "16 days", "as": "১৬ দিন" },
+      { "en": "10 days", "as": "১০ দিন" },
+      { "en": "6 days", "as": "৬ দিন" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "1/A = 1/8 - 1/24 = 1/12, so A alone takes 12 days.",
+      "as": "1/A = 1/8 - 1/24 = 1/12, গতিকে A এ 12 দিন লয়।"
+    }
+  },
+  {
+    "id": "time-work-034",
+    "q": {
+      "en": "A can do a work in 16 days and B in 24 days. They work together for 6 days, then A leaves. In how many more days will B finish the remaining work?",
+      "as": "A এ এটা কাম 16 দিনত আৰু B এ 24 দিনত কৰিব পাৰে। তেওঁলোকে একেলগে 6 দিন কাম কৰাৰ পিছত A এ এৰি যায়। বাকী কাম B এ কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "8 days", "as": "৮ দিন" },
+      { "en": "9 days", "as": "৯ দিন" },
+      { "en": "12 days", "as": "১২ দিন" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Together they do 5/48 per day; in 6 days 5/8 is done. Remaining 3/8 is done by B at 1/24 per day = 9 days.",
+      "as": "একেলগে দিনে 5/48 কাম কৰে; 6 দিনত 5/8 হয়। বাকী 3/8 কাম B এ দিনে 1/24 হাৰত = 9 দিনত কৰে।"
+    }
+  },
+  {
+    "id": "time-work-035",
+    "q": {
+      "en": "A and B together can do a work in 10 days, B and C in 15 days, and A and C in 12 days. In how many days can they finish it working together?",
+      "as": "A আৰু B একেলগে এটা কাম 10 দিনত, B আৰু C এ 15 দিনত, আৰু A আৰু C এ 12 দিনত শেষ কৰিব পাৰে। তিনিও একেলগে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "8 days", "as": "৮ দিন" },
+      { "en": "10 days", "as": "১০ দিন" },
+      { "en": "12 days", "as": "১২ দিন" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2(A+B+C) = 1/10 + 1/15 + 1/12 = 1/4, so A+B+C = 1/8, i.e. 8 days.",
+      "as": "2(A+B+C) = 1/10 + 1/15 + 1/12 = 1/4, গতিকে A+B+C = 1/8, অৰ্থাৎ 8 দিন।"
+    }
+  },
+  {
+    "id": "time-work-036",
+    "q": {
+      "en": "A and B together can do a work in 12 days, B and C in 15 days, and A and C in 20 days. In how many days can they finish it working together?",
+      "as": "A আৰু B একেলগে এটা কাম 12 দিনত, B আৰু C এ 15 দিনত, আৰু A আৰু C এ 20 দিনত শেষ কৰিব পাৰে। তিনিও একেলগে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "12 days", "as": "১২ দিন" },
+      { "en": "15 days", "as": "১৫ দিন" },
+      { "en": "8 days", "as": "৮ দিন" },
+      { "en": "10 days", "as": "১০ দিন" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2(A+B+C) = 1/12 + 1/15 + 1/20 = 1/5, so A+B+C = 1/10, i.e. 10 days.",
+      "as": "2(A+B+C) = 1/12 + 1/15 + 1/20 = 1/5, গতিকে A+B+C = 1/10, অৰ্থাৎ 10 দিন।"
+    }
+  },
+  {
+    "id": "time-work-037",
+    "q": {
+      "en": "A can do half of a work in 10 days and B can do one-third of it in 10 days. Working together, in how many days will they finish the whole work?",
+      "as": "A এ 10 দিনত আধা কাম আৰু B এ 10 দিনত এক-তৃতীয়াংশ কাম কৰিব পাৰে। একেলগে গোটেই কাম কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "12 days", "as": "১২ দিন" },
+      { "en": "15 days", "as": "১৫ দিন" },
+      { "en": "10 days", "as": "১০ দিন" },
+      { "en": "18 days", "as": "১৮ দিন" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A alone takes 20 days and B alone takes 30 days; 1/20 + 1/30 = 1/12, so 12 days.",
+      "as": "A এ অকলে 20 দিন আৰু B এ অকলে 30 দিন লয়; 1/20 + 1/30 = 1/12, গতিকে 12 দিন।"
+    }
+  },
+  {
+    "id": "time-work-038",
+    "q": {
+      "en": "A can do a work in 15 days. He works for 5 days and then B finishes the remaining work in 10 days. In how many days can B alone finish the whole work?",
+      "as": "A এ এটা কাম 15 দিনত কৰিব পাৰে। তেওঁ 5 দিন কাম কৰাৰ পিছত B এ বাকী কাম 10 দিনত শেষ কৰে। B এ অকলে গোটেই কাম কিমান দিনত কৰিব?"
+    },
+    "options": [
+      { "en": "10 days", "as": "১০ দিন" },
+      { "en": "12 days", "as": "১২ দিন" },
+      { "en": "15 days", "as": "১৫ দিন" },
+      { "en": "20 days", "as": "২০ দিন" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A does 5/15 = 1/3 in 5 days. Remaining 2/3 is done by B in 10 days, so B alone takes 15 days.",
+      "as": "A এ 5 দিনত 5/15 = 1/3 কাম কৰে। বাকী 2/3 কাম B এ 10 দিনত কৰে, গতিকে B এ অকলে 15 দিন লয়।"
+    }
+  },
+  {
+    "id": "time-work-039",
+    "q": {
+      "en": "A can do a work in 10 days and B in 15 days. What fraction of the work will they finish in 2 days working together?",
+      "as": "A এ এটা কাম 10 দিনত আৰু B এ 15 দিনত কৰিব পাৰে। একেলগে 2 দিনত তেওঁলোকে কামৰ কিমান অংশ শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "1/5", "as": "১/৫" },
+      { "en": "1/3", "as": "১/৩" },
+      { "en": "2/5", "as": "২/৫" },
+      { "en": "1/2", "as": "১/২" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(1/10 + 1/15) x 2 = 1/6 x 2 = 1/3 of the work.",
+      "as": "(1/10 + 1/15) × 2 = 1/6 × 2 = 1/3 অংশ কাম।"
+    }
+  },
+  {
+    "id": "time-work-040",
+    "q": {
+      "en": "A and B together can finish a work in 6 days. A alone can do it in 12 days. In how many days can B alone finish it?",
+      "as": "A আৰু B একেলগে এটা কাম 6 দিনত শেষ কৰিব পাৰে। A এ অকলে 12 দিনত কৰিব পাৰে। B এ অকলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "8 days", "as": "৮ দিন" },
+      { "en": "10 days", "as": "১০ দিন" },
+      { "en": "12 days", "as": "১২ দিন" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "1/B = 1/6 - 1/12 = 1/12, so B alone takes 12 days.",
+      "as": "1/B = 1/6 - 1/12 = 1/12, গতিকে B এ 12 দিন লয়।"
+    }
+  },
+  {
+    "id": "time-work-041",
+    "q": {
+      "en": "6 men or 12 women can finish a work in 30 days. In how many days can 3 men and 3 women finish it?",
+      "as": "6 জন পুৰুষ বা 12 জন মহিলাই এটা কাম 30 দিনত শেষ কৰিব পাৰে। 3 জন পুৰুষ আৰু 3 জন মহিলাই কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "40 days", "as": "৪০ দিন" },
+      { "en": "36 days", "as": "৩৬ দিন" },
+      { "en": "45 days", "as": "৪৫ দিন" },
+      { "en": "30 days", "as": "৩০ দিন" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "6 men = 12 women, so 1 man = 2 women. 3 men + 3 women = 9 women. 12 x 30 = 9 x d, so d = 40 days.",
+      "as": "6 পুৰুষ = 12 মহিলা, গতিকে 1 পুৰুষ = 2 মহিলা। 3 পুৰুষ + 3 মহিলা = 9 মহিলা। 12 × 30 = 9 × d, গতিকে d = 40 দিন।"
+    }
+  },
+  {
+    "id": "time-work-042",
+    "q": {
+      "en": "8 men or 12 women can do a work in 10 days. In how many days can 6 men and 6 women do it?",
+      "as": "8 জন পুৰুষ বা 12 জন মহিলাই এটা কাম 10 দিনত কৰিব পাৰে। 6 জন পুৰুষ আৰু 6 জন মহিলাই কিমান দিনত কৰিব?"
+    },
+    "options": [
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "10 days", "as": "১০ দিন" },
+      { "en": "8 days", "as": "৮ দিন" },
+      { "en": "12 days", "as": "১২ দিন" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "8 men = 12 women, so 1 man = 1.5 women. 6 men + 6 women = 15 women. 12 x 10 = 15 x d, so d = 8 days.",
+      "as": "8 পুৰুষ = 12 মহিলা, গতিকে 1 পুৰুষ = 1.5 মহিলা। 6 পুৰুষ + 6 মহিলা = 15 মহিলা। 12 × 10 = 15 × d, গতিকে d = 8 দিন।"
+    }
+  },
+  {
+    "id": "time-work-043",
+    "q": {
+      "en": "10 men can finish a work in 15 days. After 5 days, 5 men left. In how many more days will the remaining men finish the work?",
+      "as": "10 জন পুৰুষে এটা কাম 15 দিনত শেষ কৰিব পাৰে। 5 দিনৰ পিছত 5 জন পুৰুষ গুচি গ'ল। বাকী কাম কিমান দিনত শেষ হ'ব?"
+    },
+    "options": [
+      { "en": "15 days", "as": "১৫ দিন" },
+      { "en": "20 days", "as": "২০ দিন" },
+      { "en": "25 days", "as": "২৫ দিন" },
+      { "en": "10 days", "as": "১০ দিন" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total work = 10 x 15 = 150 man-days. In 5 days 50 man-days are done. Remaining 100 man-days by 5 men = 20 days.",
+      "as": "মুঠ কাম = 10 × 15 = 150 মান-দিন। 5 দিনত 50 হয়। বাকী 100 মান-দিন 5 জনে = 20 দিন।"
+    }
+  },
+  {
+    "id": "time-work-044",
+    "q": {
+      "en": "12 men can do a work in 12 days. After 6 days, 6 more men joined. In how many more days will the work be finished?",
+      "as": "12 জন পুৰুষে এটা কাম 12 দিনত কৰিব পাৰে। 6 দিনৰ পিছত আৰু 6 জন পুৰুষ যোগ দিলে। বাকী কাম কিমান দিনত শেষ হ'ব?"
+    },
+    "options": [
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "8 days", "as": "৮ দিন" },
+      { "en": "5 days", "as": "৫ দিন" },
+      { "en": "4 days", "as": "৪ দিন" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total work = 12 x 12 = 144 man-days. In 6 days 72 are done. Remaining 72 by 18 men = 4 days.",
+      "as": "মুঠ কাম = 12 × 12 = 144 মান-দিন। 6 দিনত 72 হয়। বাকী 72, 18 জনে = 4 দিন।"
+    }
+  },
+  {
+    "id": "time-work-045",
+    "q": {
+      "en": "A is 25% more efficient than B. If B alone takes 25 days to do a work, in how many days can A alone do it?",
+      "as": "A, B তকৈ 25% বেছি দক্ষ। B এ অকলে এটা কাম কৰিবলৈ 25 দিন লয়। A এ অকলে কিমান দিনত কৰিব?"
+    },
+    "options": [
+      { "en": "20 days", "as": "২০ দিন" },
+      { "en": "25 days", "as": "২৫ দিন" },
+      { "en": "30 days", "as": "৩০ দিন" },
+      { "en": "18 days", "as": "১৮ দিন" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A's efficiency is 1.25 times B's, so time = 25 / 1.25 = 20 days.",
+      "as": "A ৰ দক্ষতা B তকৈ 1.25 গুণ, গতিকে সময় = 25 / 1.25 = 20 দিন।"
+    }
+  },
+  {
+    "id": "time-work-046",
+    "q": {
+      "en": "A is 20% less efficient than B. If B alone takes 20 days to do a work, in how many days can A alone do it?",
+      "as": "A, B তকৈ 20% কম দক্ষ। B এ অকলে এটা কাম কৰিবলৈ 20 দিন লয়। A এ অকলে কিমান দিনত কৰিব?"
+    },
+    "options": [
+      { "en": "16 days", "as": "১৬ দিন" },
+      { "en": "24 days", "as": "২৪ দিন" },
+      { "en": "25 days", "as": "২৫ দিন" },
+      { "en": "30 days", "as": "৩০ দিন" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A's efficiency is 0.8 times B's, so time = 20 / 0.8 = 25 days.",
+      "as": "A ৰ দক্ষতা B তকৈ 0.8 গুণ, গতিকে সময় = 20 / 0.8 = 25 দিন।"
+    }
+  },
+  {
+    "id": "time-work-047",
+    "q": {
+      "en": "A and B together can finish a work in 8 days. A alone can do it in 12 days. In how many days can B alone finish it?",
+      "as": "A আৰু B একেলগে এটা কাম 8 দিনত শেষ কৰিব পাৰে। A এ অকলে 12 দিনত কৰিব পাৰে। B এ অকলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "16 days", "as": "১৬ দিন" },
+      { "en": "24 days", "as": "২৪ দিন" },
+      { "en": "20 days", "as": "২০ দিন" },
+      { "en": "18 days", "as": "১৮ দিন" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "1/B = 1/8 - 1/12 = 1/24, so B alone takes 24 days.",
+      "as": "1/B = 1/8 - 1/12 = 1/24, গতিকে B এ 24 দিন লয়।"
+    }
+  },
+  {
+    "id": "time-work-048",
+    "q": {
+      "en": "15 men can complete a work in 20 days. How many men are needed to complete it in 15 days?",
+      "as": "15 জন পুৰুষে এটা কাম 20 দিনত শেষ কৰিব পাৰে। 15 দিনত শেষ কৰিবলৈ কিমান জন পুৰুষ লাগিব?"
+    },
+    "options": [
+      { "en": "18 men", "as": "১৮ জন" },
+      { "en": "25 men", "as": "২৫ জন" },
+      { "en": "24 men", "as": "২৪ জন" },
+      { "en": "20 men", "as": "২০ জন" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "15 x 20 = m x 15, so m = 20 men.",
+      "as": "15 × 20 = m × 15, গতিকে m = 20 জন।"
+    }
+  },
+  {
+    "id": "time-work-049",
+    "q": {
+      "en": "A can do 3/4 of a work in 6 days. In how many days can he finish the whole work?",
+      "as": "A এ এটা কামৰ 3/4 অংশ 6 দিনত কৰিব পাৰে। তেওঁ গোটেই কাম কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "8 days", "as": "৮ দিন" },
+      { "en": "10 days", "as": "১০ দিন" },
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "12 days", "as": "১২ দিন" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "3/4 of the work in 6 days, so whole work = 6 x 4/3 = 8 days.",
+      "as": "3/4 কাম 6 দিনত, গতিকে গোটেই কাম = 6 × 4/3 = 8 দিন।"
+    }
+  },
+  {
+    "id": "time-work-050",
+    "q": {
+      "en": "A, B and C together finish a work in 6 days. A and B together finish it in 10 days. In how many days can C alone finish it?",
+      "as": "A, B আৰু C একেলগে এটা কাম 6 দিনত শেষ কৰে। A আৰু B একেলগে 10 দিনত শেষ কৰে। C এ অকলে কিমান দিনত শেষ কৰিব?"
+    },
+    "options": [
+      { "en": "10 days", "as": "১০ দিন" },
+      { "en": "12 days", "as": "১২ দিন" },
+      { "en": "15 days", "as": "১৫ দিন" },
+      { "en": "20 days", "as": "২০ দিন" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "1/C = 1/6 - 1/10 = 1/15, so C alone takes 15 days.",
+      "as": "1/C = 1/6 - 1/10 = 1/15, গতিকে C এ 15 দিন লয়।"
+    }
+  },
+  {
+    "id": "time-work-051",
+    "q": {
+      "en": "A works twice as fast as B. If A alone takes 12 days, in how many days will they finish the work working together?",
+      "as": "A, B তকৈ দুগুণ বেগী। A এ অকলৈ 12 দিন লয়। একেলগে কাম কৰিলে কিমান দিনত শেষ হ'ব?"
+    },
+    "options": [
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "8 days", "as": "৮ দিন" },
+      { "en": "10 days", "as": "১০ দিন" },
+      { "en": "9 days", "as": "৯ দিন" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "B takes 24 days; 1/12 + 1/24 = 1/8, so they finish in 8 days.",
+      "as": "B এ 24 দিন লয়; 1/12 + 1/24 = 1/8, গতিকে 8 দিনত শেষ কৰিব।"
+    }
+  },
+  {
+    "id": "time-work-052",
+    "q": {
+      "en": "A can do a work in 24 days and B in 8 days. They work together for 4 days, then B leaves. In how many total days will the work be finished?",
+      "as": "A এ এটা কাম 24 দিনত আৰু B এ 8 দিনত কৰিব পাৰে। একেলগে 4 দিন কাম কৰাৰ পিছত B এ এৰি যায়। মুঠ কিমান দিনত কাম শেষ হ'ব?"
+    },
+    "options": [
+      { "en": "8 days", "as": "৮ দিন" },
+      { "en": "10 days", "as": "১০ দিন" },
+      { "en": "6 days", "as": "৬ দিন" },
+      { "en": "12 days", "as": "১২ দিন" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Together they do 1/6 per day; in 4 days 2/3 is done. Remaining 1/3 by A at 1/24 per day = 8 days. Total = 4 + 8 = 12 days.",
+      "as": "একেলগে দিনে 1/6 কাম কৰে; 4 দিনত 2/3 হয়। বাকী 1/3 কাম A এ দিনে 1/24 হাৰত = 8 দিন। মুঠ = 4 + 8 = 12 দিন।"
+    }
+  },
+  {
+    "id": "time-work-053",
+    "q": {
+      "en": "A can do a work in 20 days and B in 25 days. Working together for 5 days, what fraction of the work is left?",
+      "as": "A এ এটা কাম 20 দিনত আৰু B এ 25 দিনত কৰিব পাৰে। একেলগে 5 দিন কাম কৰিলে কামৰ কিমান অংশ বাকী থাকিব?"
+    },
+    "options": [
+      { "en": "11/20", "as": "১১/২০" },
+      { "en": "9/20", "as": "৯/২০" },
+      { "en": "1/2", "as": "১/২" },
+      { "en": "3/5", "as": "৩/৫" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "1/20 + 1/25 = 9/100 per day; in 5 days 9/20 is done. Remaining = 1 - 9/20 = 11/20.",
+      "as": "1/20 + 1/25 = 9/100 প্ৰতিদিনে; 5 দিনত 9/20 হয়। বাকী = 1 - 9/20 = 11/20।"
+    }
+  },
+  {
+    "id": "time-work-054",
+    "q": {
+      "en": "A and B together can do a work in 15 days. A alone can do it in 20 days. In how many days can B alone do it?",
+      "as": "A আৰু B একেলগে এটা কাম 15 দিনত কৰিব পাৰে। A এ অকলে 20 দিনত কৰিব পাৰে। B এ অকলে কিমান দিনত কৰিব?"
+    },
+    "options": [
+      { "en": "30 days", "as": "৩০ দিন" },
+      { "en": "40 days", "as": "৪০ দিন" },
+      { "en": "60 days", "as": "৬০ দিন" },
+      { "en": "45 days", "as": "৪৫ দিন" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "1/B = 1/15 - 1/20 = 1/60, so B alone takes 60 days.",
+      "as": "1/B = 1/15 - 1/20 = 1/60, গতিকে B এ 60 দিন লয়।"
+    }
+  },
+  {
+    "id": "time-work-055",
+    "q": {
+      "en": "3 men can do a work in 6 days. In how many days can 9 men do the same work?",
+      "as": "3 জন পুৰুষে এটা কাম 6 দিনত কৰিব পাৰে। 9 জন পুৰুষে সেই কাম কিমান দিনত কৰিব?"
+    },
+    "options": [
+      { "en": "3 days", "as": "৩ দিন" },
+      { "en": "2 days", "as": "২ দিন" },
+      { "en": "4 days", "as": "৪ দিন" },
+      { "en": "1 day", "as": "১ দিন" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "3 x 6 = 9 x d, so d = 2 days.",
+      "as": "3 × 6 = 9 × d, গতিকে d = 2 দিন।"
+    }
   }
-}
+]
