@@ -1,30 +1,6602 @@
-{
-  "id": "one-word-substitution-001",
-  "q": {
-    "en": "One who loves books is called —",
-    "as": "কিতাপ ভাল পোৱা মানুহক কি বোলা হয় —"
-  },
-  "options": [
-    {
-      "en": "Bibliography",
-      "as": "Bibliography"
+[
+  {
+    "id": "one-word-substitution-001",
+    "q": {
+      "en": "One who loves books is called —",
+      "as": "কিতাপ ভাল পোৱা মানুহক কি বোলা হয় —"
     },
-    {
-      "en": "Bibliophile",
-      "as": "Bibliophile"
-    },
-    {
-      "en": "Philatelist",
-      "as": "Philatelist"
-    },
-    {
-      "en": "Numismatist",
-      "as": "Numismatist"
+    "options": [
+      {
+        "en": "Bibliophile",
+        "as": "Bibliophile"
+      },
+      {
+        "en": "Philatelist",
+        "as": "Philatelist"
+      },
+      {
+        "en": "Numismatist",
+        "as": "Numismatist"
+      },
+      {
+        "en": "Bibliography",
+        "as": "Bibliography"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who loves books is called 'Bibliophile'.",
+      "as": "ইংৰাজীত ইয়াক Bibliophile বুলি কোৱা হয়।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "A book lover is called a bibliophile.",
-    "as": "কিতাপপ্ৰেমীক bibliophile বোলা হয়।"
+  },
+  {
+    "id": "one-word-substitution-002",
+    "q": {
+      "en": "One who collects stamps is called —",
+      "as": "ষ্টাম্প সংগ্ৰহ কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Bibliophile",
+        "as": "Bibliophile"
+      },
+      {
+        "en": "Philatelist",
+        "as": "Philatelist"
+      },
+      {
+        "en": "Philanthropist",
+        "as": "Philanthropist"
+      },
+      {
+        "en": "Numismatist",
+        "as": "Numismatist"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who collects stamps is called 'Philatelist'.",
+      "as": "ইংৰাজীত ইয়াক Philatelist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-003",
+    "q": {
+      "en": "One who collects coins is called —",
+      "as": "মুদ্ৰা সংগ্ৰহ কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Bibliophile",
+        "as": "Bibliophile"
+      },
+      {
+        "en": "Antiquarian",
+        "as": "Antiquarian"
+      },
+      {
+        "en": "Numismatist",
+        "as": "Numismatist"
+      },
+      {
+        "en": "Philatelist",
+        "as": "Philatelist"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who collects coins is called 'Numismatist'.",
+      "as": "ইংৰাজীত ইয়াক Numismatist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-004",
+    "q": {
+      "en": "One who loves mankind is called —",
+      "as": "মানৱজাতিক ভাল পোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Cynic",
+        "as": "Cynic"
+      },
+      {
+        "en": "Philatelist",
+        "as": "Philatelist"
+      },
+      {
+        "en": "Misanthrope",
+        "as": "Misanthrope"
+      },
+      {
+        "en": "Philanthropist",
+        "as": "Philanthropist"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who loves mankind is called 'Philanthropist'.",
+      "as": "ইংৰাজীত ইয়াক Philanthropist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-005",
+    "q": {
+      "en": "One who hates mankind is called —",
+      "as": "মানৱজাতিক ঘৃণা কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Misanthrope",
+        "as": "Misanthrope"
+      },
+      {
+        "en": "Philanthropist",
+        "as": "Philanthropist"
+      },
+      {
+        "en": "Altruist",
+        "as": "Altruist"
+      },
+      {
+        "en": "Misogynist",
+        "as": "Misogynist"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who hates mankind is called 'Misanthrope'.",
+      "as": "ইংৰাজীত ইয়াক Misanthrope বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-006",
+    "q": {
+      "en": "One who hates women is called —",
+      "as": "মহিলাক ঘৃণা কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Misogamist",
+        "as": "Misogamist"
+      },
+      {
+        "en": "Misogynist",
+        "as": "Misogynist"
+      },
+      {
+        "en": "Philogynist",
+        "as": "Philogynist"
+      },
+      {
+        "en": "Misanthrope",
+        "as": "Misanthrope"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who hates women is called 'Misogynist'.",
+      "as": "ইংৰাজীত ইয়াক Misogynist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-007",
+    "q": {
+      "en": "One who hates marriage is called —",
+      "as": "বিবাহক ঘৃণা কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Celibate",
+        "as": "Celibate"
+      },
+      {
+        "en": "Misogynist",
+        "as": "Misogynist"
+      },
+      {
+        "en": "Misogamist",
+        "as": "Misogamist"
+      },
+      {
+        "en": "Misanthrope",
+        "as": "Misanthrope"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who hates marriage is called 'Misogamist'.",
+      "as": "ইংৰাজীত ইয়াক Misogamist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-008",
+    "q": {
+      "en": "One who loves women is called —",
+      "as": "মহিলাক ভাল পোৱা পুৰুষক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Misogynist",
+        "as": "Misogynist"
+      },
+      {
+        "en": "Misogamist",
+        "as": "Misogamist"
+      },
+      {
+        "en": "Philanthropist",
+        "as": "Philanthropist"
+      },
+      {
+        "en": "Philogynist",
+        "as": "Philogynist"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who loves women is called 'Philogynist'.",
+      "as": "ইংৰাজীত ইয়াক Philogynist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-009",
+    "q": {
+      "en": "One who is unselfishly concerned for others is called —",
+      "as": "নি:স্বাৰ্থভাৱে আনৰ বিষয়ে চিন্তা কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Altruist",
+        "as": "Altruist"
+      },
+      {
+        "en": "Philanthropist",
+        "as": "Philanthropist"
+      },
+      {
+        "en": "Misanthrope",
+        "as": "Misanthrope"
+      },
+      {
+        "en": "Egoist",
+        "as": "Egoist"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who is unselfishly concerned for others is called 'Altruist'.",
+      "as": "ইংৰাজীত ইয়াক Altruist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-010",
+    "q": {
+      "en": "One who is self-centred is called —",
+      "as": "আত্মকেন্দ্ৰিক মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Misanthrope",
+        "as": "Misanthrope"
+      },
+      {
+        "en": "Egoist",
+        "as": "Egoist"
+      },
+      {
+        "en": "Altruist",
+        "as": "Altruist"
+      },
+      {
+        "en": "Introvert",
+        "as": "Introvert"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who is self-centred is called 'Egoist'.",
+      "as": "ইংৰাজীত ইয়াক Egoist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-011",
+    "q": {
+      "en": "One who looks on the bright side of things is called —",
+      "as": "সকলোৰে ভাল দিশ চোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Pessimist",
+        "as": "Pessimist"
+      },
+      {
+        "en": "Cynic",
+        "as": "Cynic"
+      },
+      {
+        "en": "Optimist",
+        "as": "Optimist"
+      },
+      {
+        "en": "Realist",
+        "as": "Realist"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who looks on the bright side of things is called 'Optimist'.",
+      "as": "ইংৰাজীত ইয়াক Optimist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-012",
+    "q": {
+      "en": "One who looks on the dark side of things is called —",
+      "as": "সকলোৰে বেয়া দিশ চোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Cynic",
+        "as": "Cynic"
+      },
+      {
+        "en": "Realist",
+        "as": "Realist"
+      },
+      {
+        "en": "Optimist",
+        "as": "Optimist"
+      },
+      {
+        "en": "Pessimist",
+        "as": "Pessimist"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who looks on the dark side of things is called 'Pessimist'.",
+      "as": "ইংৰাজীত ইয়াক Pessimist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-013",
+    "q": {
+      "en": "One who does not believe in the existence of God is called —",
+      "as": "ঈশ্বৰৰ অস্তিত্বত বিশ্বাস নকৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Atheist",
+        "as": "Atheist"
+      },
+      {
+        "en": "Agnostic",
+        "as": "Agnostic"
+      },
+      {
+        "en": "Theist",
+        "as": "Theist"
+      },
+      {
+        "en": "Sceptic",
+        "as": "Sceptic"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who does not believe in the existence of God is called 'Atheist'.",
+      "as": "ইংৰাজীত ইয়াক Atheist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-014",
+    "q": {
+      "en": "One who believes in the existence of God is called —",
+      "as": "ঈশ্বৰৰ অস্তিত্বত বিশ্বাস কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Agnostic",
+        "as": "Agnostic"
+      },
+      {
+        "en": "Theist",
+        "as": "Theist"
+      },
+      {
+        "en": "Atheist",
+        "as": "Atheist"
+      },
+      {
+        "en": "Deist",
+        "as": "Deist"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who believes in the existence of God is called 'Theist'.",
+      "as": "ইংৰাজীত ইয়াক Theist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-015",
+    "q": {
+      "en": "One who is not sure about the existence of God is called —",
+      "as": "ঈশ্বৰৰ অস্তিত্ব সম্পৰ্কে নিশ্চিত নোহোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Theist",
+        "as": "Theist"
+      },
+      {
+        "en": "Atheist",
+        "as": "Atheist"
+      },
+      {
+        "en": "Agnostic",
+        "as": "Agnostic"
+      },
+      {
+        "en": "Sceptic",
+        "as": "Sceptic"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who is not sure about the existence of God is called 'Agnostic'.",
+      "as": "ইংৰাজীত ইয়াক Agnostic বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-016",
+    "q": {
+      "en": "One who doubts everything is called —",
+      "as": "সকলোকে সন্দেহ কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Cynic",
+        "as": "Cynic"
+      },
+      {
+        "en": "Atheist",
+        "as": "Atheist"
+      },
+      {
+        "en": "Pessimist",
+        "as": "Pessimist"
+      },
+      {
+        "en": "Sceptic",
+        "as": "Sceptic"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who doubts everything is called 'Sceptic'.",
+      "as": "ইংৰাজীত ইয়াক Sceptic বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-017",
+    "q": {
+      "en": "One who is indifferent to pleasure and pain is called —",
+      "as": "সুখ-দুখত নিৰ্বিকাৰ থকা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Stoic",
+        "as": "Stoic"
+      },
+      {
+        "en": "Cynic",
+        "as": "Cynic"
+      },
+      {
+        "en": "Epicurean",
+        "as": "Epicurean"
+      },
+      {
+        "en": "Sceptic",
+        "as": "Sceptic"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who is indifferent to pleasure and pain is called 'Stoic'.",
+      "as": "ইংৰাজীত ইয়াক Stoic বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-018",
+    "q": {
+      "en": "One who loves his country is called —",
+      "as": "নিজৰ দেশক ভাল পোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Nationalist",
+        "as": "Nationalist"
+      },
+      {
+        "en": "Patriot",
+        "as": "Patriot"
+      },
+      {
+        "en": "Traitor",
+        "as": "Traitor"
+      },
+      {
+        "en": "Loyalist",
+        "as": "Loyalist"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who loves his country is called 'Patriot'.",
+      "as": "ইংৰাজীত ইয়াক Patriot বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-019",
+    "q": {
+      "en": "One who betrays his country is called —",
+      "as": "নিজৰ দেশক বিশ্বাসঘাতকতা কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Rebel",
+        "as": "Rebel"
+      },
+      {
+        "en": "Patriot",
+        "as": "Patriot"
+      },
+      {
+        "en": "Traitor",
+        "as": "Traitor"
+      },
+      {
+        "en": "Spy",
+        "as": "Spy"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who betrays his country is called 'Traitor'.",
+      "as": "ইংৰাজীত ইয়াক Traitor বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-020",
+    "q": {
+      "en": "One who lives alone is called —",
+      "as": "অকলশৰে বাস কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Pauper",
+        "as": "Pauper"
+      },
+      {
+        "en": "Vagabond",
+        "as": "Vagabond"
+      },
+      {
+        "en": "Nomad",
+        "as": "Nomad"
+      },
+      {
+        "en": "Recluse",
+        "as": "Recluse"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who lives alone is called 'Recluse'.",
+      "as": "ইংৰাজীত ইয়াক Recluse বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-021",
+    "q": {
+      "en": "One who wanders from place to place is called —",
+      "as": "ঠাইৰপৰা ঠাইলৈ ঘূৰি ফুৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Nomad",
+        "as": "Nomad"
+      },
+      {
+        "en": "Recluse",
+        "as": "Recluse"
+      },
+      {
+        "en": "Vagabond",
+        "as": "Vagabond"
+      },
+      {
+        "en": "Pilgrim",
+        "as": "Pilgrim"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who wanders from place to place is called 'Nomad'.",
+      "as": "ইংৰাজীত ইয়াক Nomad বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-022",
+    "q": {
+      "en": "One who has no home is called —",
+      "as": "ঘৰ নোহোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Nomad",
+        "as": "Nomad"
+      },
+      {
+        "en": "Vagabond",
+        "as": "Vagabond"
+      },
+      {
+        "en": "Pauper",
+        "as": "Pauper"
+      },
+      {
+        "en": "Refugee",
+        "as": "Refugee"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who has no home is called 'Vagabond'.",
+      "as": "ইংৰাজীত ইয়াক Vagabond বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-023",
+    "q": {
+      "en": "One who is very poor is called —",
+      "as": "অতি দৰিদ্ৰ মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Spendthrift",
+        "as": "Spendthrift"
+      },
+      {
+        "en": "Miser",
+        "as": "Miser"
+      },
+      {
+        "en": "Pauper",
+        "as": "Pauper"
+      },
+      {
+        "en": "Vagabond",
+        "as": "Vagabond"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who is very poor is called 'Pauper'.",
+      "as": "ইংৰাজীত ইয়াক Pauper বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-024",
+    "q": {
+      "en": "One who spends very little is called —",
+      "as": "অতি কম খৰচ কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Pauper",
+        "as": "Pauper"
+      },
+      {
+        "en": "Glutton",
+        "as": "Glutton"
+      },
+      {
+        "en": "Spendthrift",
+        "as": "Spendthrift"
+      },
+      {
+        "en": "Miser",
+        "as": "Miser"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who spends very little is called 'Miser'.",
+      "as": "ইংৰাজীত ইয়াক Miser বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-025",
+    "q": {
+      "en": "One who spends too much is called —",
+      "as": "অত্যধিক খৰচ কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Spendthrift",
+        "as": "Spendthrift"
+      },
+      {
+        "en": "Miser",
+        "as": "Miser"
+      },
+      {
+        "en": "Pauper",
+        "as": "Pauper"
+      },
+      {
+        "en": "Glutton",
+        "as": "Glutton"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who spends too much is called 'Spendthrift'.",
+      "as": "ইংৰাজীত ইয়াক Spendthrift বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-026",
+    "q": {
+      "en": "One who eats too much is called —",
+      "as": "অত্যধিক খোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Teetotaller",
+        "as": "Teetotaller"
+      },
+      {
+        "en": "Glutton",
+        "as": "Glutton"
+      },
+      {
+        "en": "Miser",
+        "as": "Miser"
+      },
+      {
+        "en": "Spendthrift",
+        "as": "Spendthrift"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who eats too much is called 'Glutton'.",
+      "as": "ইংৰাজীত ইয়াক Glutton বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-027",
+    "q": {
+      "en": "One who talks too much is called —",
+      "as": "অত্যধিক কথা কোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Reticent",
+        "as": "Reticent"
+      },
+      {
+        "en": "Taciturn",
+        "as": "Taciturn"
+      },
+      {
+        "en": "Garrulous",
+        "as": "Garrulous"
+      },
+      {
+        "en": "Eloquent",
+        "as": "Eloquent"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who talks too much is called 'Garrulous'.",
+      "as": "ইংৰাজীত ইয়াক Garrulous বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-028",
+    "q": {
+      "en": "One who talks very little is called —",
+      "as": "অতি কম কথা কোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Orator",
+        "as": "Orator"
+      },
+      {
+        "en": "Garrulous",
+        "as": "Garrulous"
+      },
+      {
+        "en": "Eloquent",
+        "as": "Eloquent"
+      },
+      {
+        "en": "Reticent",
+        "as": "Reticent"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who talks very little is called 'Reticent'.",
+      "as": "ইংৰাজীত ইয়াক Reticent বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-029",
+    "q": {
+      "en": "One who pretends to be what he is not is called —",
+      "as": "যি নহয় তেনে কৰি দেখুওৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Hypocrite",
+        "as": "Hypocrite"
+      },
+      {
+        "en": "Braggart",
+        "as": "Braggart"
+      },
+      {
+        "en": "Impostor",
+        "as": "Impostor"
+      },
+      {
+        "en": "Cynic",
+        "as": "Cynic"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who pretends to be what he is not is called 'Hypocrite'.",
+      "as": "ইংৰাজীত ইয়াক Hypocrite বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-030",
+    "q": {
+      "en": "One who boasts about himself is called —",
+      "as": "নিজকে বৰাই কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Introvert",
+        "as": "Introvert"
+      },
+      {
+        "en": "Braggart",
+        "as": "Braggart"
+      },
+      {
+        "en": "Egoist",
+        "as": "Egoist"
+      },
+      {
+        "en": "Hypocrite",
+        "as": "Hypocrite"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who boasts about himself is called 'Braggart'.",
+      "as": "ইংৰাজীত ইয়াক Braggart বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-031",
+    "q": {
+      "en": "One who is hard to please is called —",
+      "as": "সন্তুষ্ট কৰিবলৈ টান মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Stubborn",
+        "as": "Stubborn"
+      },
+      {
+        "en": "Fickle",
+        "as": "Fickle"
+      },
+      {
+        "en": "Fastidious",
+        "as": "Fastidious"
+      },
+      {
+        "en": "Arrogant",
+        "as": "Arrogant"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who is hard to please is called 'Fastidious'.",
+      "as": "ইংৰাজীত ইয়াক Fastidious বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-032",
+    "q": {
+      "en": "One who cannot be corrected is called —",
+      "as": "শুধৰাব নোৱাৰি এনে মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Invincible",
+        "as": "Invincible"
+      },
+      {
+        "en": "Indispensable",
+        "as": "Indispensable"
+      },
+      {
+        "en": "Illegible",
+        "as": "Illegible"
+      },
+      {
+        "en": "Incorrigible",
+        "as": "Incorrigible"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who cannot be corrected is called 'Incorrigible'.",
+      "as": "ইংৰাজীত ইয়াক Incorrigible বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-033",
+    "q": {
+      "en": "One who is easily deceived is called —",
+      "as": "সহজে ভুলাই সোমাব পৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Credulous",
+        "as": "Credulous"
+      },
+      {
+        "en": "Sceptic",
+        "as": "Sceptic"
+      },
+      {
+        "en": "Incredible",
+        "as": "Incredible"
+      },
+      {
+        "en": "Cautious",
+        "as": "Cautious"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who is easily deceived is called 'Credulous'.",
+      "as": "ইংৰাজীত ইয়াক Credulous বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-034",
+    "q": {
+      "en": "One who is easily angered is called —",
+      "as": "সহজে খঙ উঠা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Stoic",
+        "as": "Stoic"
+      },
+      {
+        "en": "Irritable",
+        "as": "Irritable"
+      },
+      {
+        "en": "Calm",
+        "as": "Calm"
+      },
+      {
+        "en": "Patient",
+        "as": "Patient"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who is easily angered is called 'Irritable'.",
+      "as": "ইংৰাজীত ইয়াক Irritable বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-035",
+    "q": {
+      "en": "One who is always dissatisfied is called —",
+      "as": "সদায় অসন্তুষ্ট মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Glutton",
+        "as": "Glutton"
+      },
+      {
+        "en": "Fastidious",
+        "as": "Fastidious"
+      },
+      {
+        "en": "Malcontent",
+        "as": "Malcontent"
+      },
+      {
+        "en": "Optimist",
+        "as": "Optimist"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who is always dissatisfied is called 'Malcontent'.",
+      "as": "ইংৰাজীত ইয়াক Malcontent বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-036",
+    "q": {
+      "en": "One who has long experience is called —",
+      "as": "দীৰ্ঘ অভিজ্ঞতা থকা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Trainee",
+        "as": "Trainee"
+      },
+      {
+        "en": "Novice",
+        "as": "Novice"
+      },
+      {
+        "en": "Amateur",
+        "as": "Amateur"
+      },
+      {
+        "en": "Veteran",
+        "as": "Veteran"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who has long experience is called 'Veteran'.",
+      "as": "ইংৰাজীত ইয়াক Veteran বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-037",
+    "q": {
+      "en": "One who is new to a profession is called —",
+      "as": "বৃত্তিত নতুন মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Novice",
+        "as": "Novice"
+      },
+      {
+        "en": "Veteran",
+        "as": "Veteran"
+      },
+      {
+        "en": "Professional",
+        "as": "Professional"
+      },
+      {
+        "en": "Expert",
+        "as": "Expert"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who is new to a profession is called 'Novice'.",
+      "as": "ইংৰাজীত ইয়াক Novice বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-038",
+    "q": {
+      "en": "One who lives at the same time as another is called —",
+      "as": "একে সময়ত বাস কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Ancestor",
+        "as": "Ancestor"
+      },
+      {
+        "en": "Contemporary",
+        "as": "Contemporary"
+      },
+      {
+        "en": "Descendant",
+        "as": "Descendant"
+      },
+      {
+        "en": "Antiquarian",
+        "as": "Antiquarian"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who lives at the same time as another is called 'Contemporary'.",
+      "as": "ইংৰাজীত ইয়াক Contemporary বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-039",
+    "q": {
+      "en": "One who is a hundred years old is called —",
+      "as": "এশ বছৰ বয়সীয়া মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Octogenarian",
+        "as": "Octogenarian"
+      },
+      {
+        "en": "Septuagenarian",
+        "as": "Septuagenarian"
+      },
+      {
+        "en": "Centenarian",
+        "as": "Centenarian"
+      },
+      {
+        "en": "Nonagenarian",
+        "as": "Nonagenarian"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who is a hundred years old is called 'Centenarian'.",
+      "as": "ইংৰাজীত ইয়াক Centenarian বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-040",
+    "q": {
+      "en": "One who runs away from justice is called —",
+      "as": "ন্যায়ৰপৰা পলায়ন কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Prisoner",
+        "as": "Prisoner"
+      },
+      {
+        "en": "Refugee",
+        "as": "Refugee"
+      },
+      {
+        "en": "Captive",
+        "as": "Captive"
+      },
+      {
+        "en": "Fugitive",
+        "as": "Fugitive"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who runs away from justice is called 'Fugitive'.",
+      "as": "ইংৰাজীত ইয়াক Fugitive বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-041",
+    "q": {
+      "en": "One who is left on a deserted island after a shipwreck is called —",
+      "as": "জাহাজ ধ্বংসৰ পিছত নিৰ্জন দ্বীপত এৰি যোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Castaway",
+        "as": "Castaway"
+      },
+      {
+        "en": "Mariner",
+        "as": "Mariner"
+      },
+      {
+        "en": "Fugitive",
+        "as": "Fugitive"
+      },
+      {
+        "en": "Refugee",
+        "as": "Refugee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who is left on a deserted island after a shipwreck is called 'Castaway'.",
+      "as": "ইংৰাজীত ইয়াক Castaway বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-042",
+    "q": {
+      "en": "One who is unable to pay his debts is called —",
+      "as": "ঋণ শোধ কৰিব নোৱৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Wealthy",
+        "as": "Wealthy"
+      },
+      {
+        "en": "Insolvent",
+        "as": "Insolvent"
+      },
+      {
+        "en": "Miser",
+        "as": "Miser"
+      },
+      {
+        "en": "Frugal",
+        "as": "Frugal"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who is unable to pay his debts is called 'Insolvent'.",
+      "as": "ইংৰাজীত ইয়াক Insolvent বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-043",
+    "q": {
+      "en": "One who eats human flesh is called —",
+      "as": "মানুহৰ মাংস খোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Carnivore",
+        "as": "Carnivore"
+      },
+      {
+        "en": "Herbivore",
+        "as": "Herbivore"
+      },
+      {
+        "en": "Cannibal",
+        "as": "Cannibal"
+      },
+      {
+        "en": "Glutton",
+        "as": "Glutton"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who eats human flesh is called 'Cannibal'.",
+      "as": "ইংৰাজীত ইয়াক Cannibal বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-044",
+    "q": {
+      "en": "One who does not drink alcohol is called —",
+      "as": "মদ নাখোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Vegetarian",
+        "as": "Vegetarian"
+      },
+      {
+        "en": "Drunkard",
+        "as": "Drunkard"
+      },
+      {
+        "en": "Glutton",
+        "as": "Glutton"
+      },
+      {
+        "en": "Teetotaller",
+        "as": "Teetotaller"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who does not drink alcohol is called 'Teetotaller'.",
+      "as": "ইংৰাজীত ইয়াক Teetotaller বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-045",
+    "q": {
+      "en": "One who does not eat meat is called —",
+      "as": "মাংস নাখোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Vegetarian",
+        "as": "Vegetarian"
+      },
+      {
+        "en": "Carnivore",
+        "as": "Carnivore"
+      },
+      {
+        "en": "Teetotaller",
+        "as": "Teetotaller"
+      },
+      {
+        "en": "Cannibal",
+        "as": "Cannibal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who does not eat meat is called 'Vegetarian'.",
+      "as": "ইংৰাজীত ইয়াক Vegetarian বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-046",
+    "q": {
+      "en": "One who can speak many languages is called —",
+      "as": "বহু ভাষা ক'ব পৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Interpreter",
+        "as": "Interpreter"
+      },
+      {
+        "en": "Polyglot",
+        "as": "Polyglot"
+      },
+      {
+        "en": "Linguist",
+        "as": "Linguist"
+      },
+      {
+        "en": "Orator",
+        "as": "Orator"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who can speak many languages is called 'Polyglot'.",
+      "as": "ইংৰাজীত ইয়াক Polyglot বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-047",
+    "q": {
+      "en": "One who can use both hands equally well is called —",
+      "as": "দুয়োখন হাত সমানে ব্যৱহাৰ কৰিব পৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Dexterous",
+        "as": "Dexterous"
+      },
+      {
+        "en": "Skilful",
+        "as": "Skilful"
+      },
+      {
+        "en": "Ambidextrous",
+        "as": "Ambidextrous"
+      },
+      {
+        "en": "Clumsy",
+        "as": "Clumsy"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who can use both hands equally well is called 'Ambidextrous'.",
+      "as": "ইংৰাজীত ইয়াক Ambidextrous বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-048",
+    "q": {
+      "en": "One who walks in his sleep is called —",
+      "as": "টোপনিত খোজ কাঢ়ি ফুৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Somniloquist",
+        "as": "Somniloquist"
+      },
+      {
+        "en": "Insomniac",
+        "as": "Insomniac"
+      },
+      {
+        "en": "Dreamer",
+        "as": "Dreamer"
+      },
+      {
+        "en": "Somnambulist",
+        "as": "Somnambulist"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who walks in his sleep is called 'Somnambulist'.",
+      "as": "ইংৰাজীত ইয়াক Somnambulist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-049",
+    "q": {
+      "en": "One who talks in his sleep is called —",
+      "as": "টোপনিত কথা কোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Somniloquist",
+        "as": "Somniloquist"
+      },
+      {
+        "en": "Somnambulist",
+        "as": "Somnambulist"
+      },
+      {
+        "en": "Dreamer",
+        "as": "Dreamer"
+      },
+      {
+        "en": "Insomniac",
+        "as": "Insomniac"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who talks in his sleep is called 'Somniloquist'.",
+      "as": "ইংৰাজীত ইয়াক Somniloquist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-050",
+    "q": {
+      "en": "One whose behaviour is unusual is called —",
+      "as": "অস্বাভাৱিক আচৰণ কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Stoic",
+        "as": "Stoic"
+      },
+      {
+        "en": "Eccentric",
+        "as": "Eccentric"
+      },
+      {
+        "en": "Hypocrite",
+        "as": "Hypocrite"
+      },
+      {
+        "en": "Introvert",
+        "as": "Introvert"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One whose behaviour is unusual is called 'Eccentric'.",
+      "as": "ইংৰাজীত ইয়াক Eccentric বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-051",
+    "q": {
+      "en": "One who has expert knowledge of art or taste is called —",
+      "as": "শিল্প বা ৰুচিৰ বিশেষজ্ঞ মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Novice",
+        "as": "Novice"
+      },
+      {
+        "en": "Amateur",
+        "as": "Amateur"
+      },
+      {
+        "en": "Connoisseur",
+        "as": "Connoisseur"
+      },
+      {
+        "en": "Dilettante",
+        "as": "Dilettante"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who has expert knowledge of art or taste is called 'Connoisseur'.",
+      "as": "ইংৰাজীত ইয়াক Connoisseur বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-052",
+    "q": {
+      "en": "One who takes up an art merely for amusement is called —",
+      "as": "কেৱল আমোদৰ বাবে শিল্প চৰ্চা কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Expert",
+        "as": "Expert"
+      },
+      {
+        "en": "Connoisseur",
+        "as": "Connoisseur"
+      },
+      {
+        "en": "Professional",
+        "as": "Professional"
+      },
+      {
+        "en": "Dilettante",
+        "as": "Dilettante"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who takes up an art merely for amusement is called 'Dilettante'.",
+      "as": "ইংৰাজীত ইয়াক Dilettante বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-053",
+    "q": {
+      "en": "One who is blindly devoted to a belief is called —",
+      "as": "এটা বিশ্বাসত অন্ধভাৱে অনুগত মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Bigot",
+        "as": "Bigot"
+      },
+      {
+        "en": "Realist",
+        "as": "Realist"
+      },
+      {
+        "en": "Sceptic",
+        "as": "Sceptic"
+      },
+      {
+        "en": "Devotee",
+        "as": "Devotee"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who is blindly devoted to a belief is called 'Bigot'.",
+      "as": "ইংৰাজীত ইয়াক Bigot বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-054",
+    "q": {
+      "en": "One who has extreme enthusiasm for something is called —",
+      "as": "কিবা এটালৈ অতিমাত্ৰা উৎসাহ থকা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Devotee",
+        "as": "Devotee"
+      },
+      {
+        "en": "Fanatic",
+        "as": "Fanatic"
+      },
+      {
+        "en": "Sceptic",
+        "as": "Sceptic"
+      },
+      {
+        "en": "Bigot",
+        "as": "Bigot"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who has extreme enthusiasm for something is called 'Fanatic'.",
+      "as": "ইংৰাজীত ইয়াক Fanatic বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-055",
+    "q": {
+      "en": "One who suffers for his belief is called —",
+      "as": "নিজৰ বিশ্বাসৰ বাবে কষ্ট পোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Victim",
+        "as": "Victim"
+      },
+      {
+        "en": "Saint",
+        "as": "Saint"
+      },
+      {
+        "en": "Martyr",
+        "as": "Martyr"
+      },
+      {
+        "en": "Patriot",
+        "as": "Patriot"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who suffers for his belief is called 'Martyr'.",
+      "as": "ইংৰাজীত ইয়াক Martyr বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-056",
+    "q": {
+      "en": "One whose parents are dead is called —",
+      "as": "যি শিশুৰ পিতৃ-মাতৃ মৃত তাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Widower",
+        "as": "Widower"
+      },
+      {
+        "en": "Widow",
+        "as": "Widow"
+      },
+      {
+        "en": "Foundling",
+        "as": "Foundling"
+      },
+      {
+        "en": "Orphan",
+        "as": "Orphan"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One whose parents are dead is called 'Orphan'.",
+      "as": "ইংৰাজীত ইয়াক Orphan বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-057",
+    "q": {
+      "en": "A woman whose husband is dead is called —",
+      "as": "যাৰ স্বামী মৃত তেনে মহিলাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Widow",
+        "as": "Widow"
+      },
+      {
+        "en": "Widower",
+        "as": "Widower"
+      },
+      {
+        "en": "Spinster",
+        "as": "Spinster"
+      },
+      {
+        "en": "Orphan",
+        "as": "Orphan"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A woman whose husband is dead is called 'Widow'.",
+      "as": "ইংৰাজীত ইয়াক Widow বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-058",
+    "q": {
+      "en": "A man whose wife is dead is called —",
+      "as": "যাৰ স্ত্ৰী মৃত তেনে পুৰুষক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Orphan",
+        "as": "Orphan"
+      },
+      {
+        "en": "Widower",
+        "as": "Widower"
+      },
+      {
+        "en": "Bachelor",
+        "as": "Bachelor"
+      },
+      {
+        "en": "Widow",
+        "as": "Widow"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A man whose wife is dead is called 'Widower'.",
+      "as": "ইংৰাজীত ইয়াক Widower বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-059",
+    "q": {
+      "en": "One who travels on foot is called —",
+      "as": "খোজ কাঢ়ি যাতায়াত কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Passenger",
+        "as": "Passenger"
+      },
+      {
+        "en": "Cyclist",
+        "as": "Cyclist"
+      },
+      {
+        "en": "Pedestrian",
+        "as": "Pedestrian"
+      },
+      {
+        "en": "Motorist",
+        "as": "Motorist"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who travels on foot is called 'Pedestrian'.",
+      "as": "ইংৰাজীত ইয়াক Pedestrian বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-060",
+    "q": {
+      "en": "One who watches a game or show is called —",
+      "as": "খেল বা অনুষ্ঠান চোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Player",
+        "as": "Player"
+      },
+      {
+        "en": "Audience",
+        "as": "Audience"
+      },
+      {
+        "en": "Participant",
+        "as": "Participant"
+      },
+      {
+        "en": "Spectator",
+        "as": "Spectator"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who watches a game or show is called 'Spectator'.",
+      "as": "ইংৰাজীত ইয়াক Spectator বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-061",
+    "q": {
+      "en": "One who sees an incident happen is called —",
+      "as": "কোনো ঘটনা ঘটোঁতে দেখা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Witness",
+        "as": "Witness"
+      },
+      {
+        "en": "Spectator",
+        "as": "Spectator"
+      },
+      {
+        "en": "Victim",
+        "as": "Victim"
+      },
+      {
+        "en": "Accomplice",
+        "as": "Accomplice"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who sees an incident happen is called 'Witness'.",
+      "as": "ইংৰাজীত ইয়াক Witness বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-062",
+    "q": {
+      "en": "One who helps another in a crime is called —",
+      "as": "অপৰাধত আনক সহায় কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Victim",
+        "as": "Victim"
+      },
+      {
+        "en": "Accomplice",
+        "as": "Accomplice"
+      },
+      {
+        "en": "Witness",
+        "as": "Witness"
+      },
+      {
+        "en": "Detective",
+        "as": "Detective"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who helps another in a crime is called 'Accomplice'.",
+      "as": "ইংৰাজীত ইয়াক Accomplice বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-063",
+    "q": {
+      "en": "One who abandons his religion is called —",
+      "as": "নিজৰ ধৰ্ম ত্যাগ কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Devotee",
+        "as": "Devotee"
+      },
+      {
+        "en": "Convert",
+        "as": "Convert"
+      },
+      {
+        "en": "Apostate",
+        "as": "Apostate"
+      },
+      {
+        "en": "Atheist",
+        "as": "Atheist"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who abandons his religion is called 'Apostate'.",
+      "as": "ইংৰাজীত ইয়াক Apostate বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-064",
+    "q": {
+      "en": "One who leaves his own country to settle abroad is called —",
+      "as": "নিজৰ দেশ এৰি বিদেশত থাকিবলৈ যোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Immigrant",
+        "as": "Immigrant"
+      },
+      {
+        "en": "Tourist",
+        "as": "Tourist"
+      },
+      {
+        "en": "Refugee",
+        "as": "Refugee"
+      },
+      {
+        "en": "Emigrant",
+        "as": "Emigrant"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who leaves his own country to settle abroad is called 'Emigrant'.",
+      "as": "ইংৰাজীত ইয়াক Emigrant বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-065",
+    "q": {
+      "en": "One who comes to live permanently in a new country is called —",
+      "as": "নতুন দেশত স্থায়ীভাৱে থাকিবলৈ অহা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Immigrant",
+        "as": "Immigrant"
+      },
+      {
+        "en": "Native",
+        "as": "Native"
+      },
+      {
+        "en": "Refugee",
+        "as": "Refugee"
+      },
+      {
+        "en": "Emigrant",
+        "as": "Emigrant"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who comes to live permanently in a new country is called 'Immigrant'.",
+      "as": "ইংৰাজীত ইয়াক Immigrant বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-066",
+    "q": {
+      "en": "One who is a foreigner is called —",
+      "as": "বিদেশী মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Native",
+        "as": "Native"
+      },
+      {
+        "en": "Alien",
+        "as": "Alien"
+      },
+      {
+        "en": "Emigrant",
+        "as": "Emigrant"
+      },
+      {
+        "en": "Citizen",
+        "as": "Citizen"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who is a foreigner is called 'Alien'.",
+      "as": "ইংৰাজীত ইয়াক Alien বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-067",
+    "q": {
+      "en": "The original inhabitants of a land is called —",
+      "as": "কোনো দেশৰ মূল বাসিন্দাসকলক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Settlers",
+        "as": "Settlers"
+      },
+      {
+        "en": "Colonists",
+        "as": "Colonists"
+      },
+      {
+        "en": "Aborigines",
+        "as": "Aborigines"
+      },
+      {
+        "en": "Immigrants",
+        "as": "Immigrants"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The original inhabitants of a land is called 'Aborigines'.",
+      "as": "ইংৰাজীত ইয়াক Aborigines বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-068",
+    "q": {
+      "en": "An uncivilised person is called —",
+      "as": "অসভ্য মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Civilian",
+        "as": "Civilian"
+      },
+      {
+        "en": "Citizen",
+        "as": "Citizen"
+      },
+      {
+        "en": "Native",
+        "as": "Native"
+      },
+      {
+        "en": "Barbarian",
+        "as": "Barbarian"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An uncivilised person is called 'Barbarian'.",
+      "as": "ইংৰাজীত ইয়াক Barbarian বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-069",
+    "q": {
+      "en": "One who rules with absolute power is called —",
+      "as": "অসীম ক্ষমতাৰে শাসন কৰা শাসকক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Despot",
+        "as": "Despot"
+      },
+      {
+        "en": "Democrat",
+        "as": "Democrat"
+      },
+      {
+        "en": "President",
+        "as": "President"
+      },
+      {
+        "en": "Minister",
+        "as": "Minister"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who rules with absolute power is called 'Despot'.",
+      "as": "ইংৰাজীত ইয়াক Despot বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-070",
+    "q": {
+      "en": "One who seizes power illegally is called —",
+      "as": "অবৈধভাৱে ক্ষমতা দখল কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Ruler",
+        "as": "Ruler"
+      },
+      {
+        "en": "Usurper",
+        "as": "Usurper"
+      },
+      {
+        "en": "Heir",
+        "as": "Heir"
+      },
+      {
+        "en": "Successor",
+        "as": "Successor"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who seizes power illegally is called 'Usurper'.",
+      "as": "ইংৰাজীত ইয়াক Usurper বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-071",
+    "q": {
+      "en": "One who represents his country abroad is called —",
+      "as": "বিদেশত নিজৰ দেশক প্ৰতিনিধিত্ব কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Emissary",
+        "as": "Emissary"
+      },
+      {
+        "en": "Citizen",
+        "as": "Citizen"
+      },
+      {
+        "en": "Ambassador",
+        "as": "Ambassador"
+      },
+      {
+        "en": "Delegate",
+        "as": "Delegate"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who represents his country abroad is called 'Ambassador'.",
+      "as": "ইংৰাজীত ইয়াক Ambassador বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-072",
+    "q": {
+      "en": "One who is appointed to settle a dispute is called —",
+      "as": "বিবাদ মিটাবলৈ নিযুক্ত ব্যক্তিক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Accused",
+        "as": "Accused"
+      },
+      {
+        "en": "Advocate",
+        "as": "Advocate"
+      },
+      {
+        "en": "Witness",
+        "as": "Witness"
+      },
+      {
+        "en": "Arbitrator",
+        "as": "Arbitrator"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who is appointed to settle a dispute is called 'Arbitrator'.",
+      "as": "ইংৰাজীত ইয়াক Arbitrator বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-073",
+    "q": {
+      "en": "One who translates orally is called —",
+      "as": "মুখেৰে অনুবাদ কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Interpreter",
+        "as": "Interpreter"
+      },
+      {
+        "en": "Orator",
+        "as": "Orator"
+      },
+      {
+        "en": "Translator",
+        "as": "Translator"
+      },
+      {
+        "en": "Linguist",
+        "as": "Linguist"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who translates orally is called 'Interpreter'.",
+      "as": "ইংৰাজীত ইয়াক Interpreter বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-074",
+    "q": {
+      "en": "One who compiles a dictionary is called —",
+      "as": "অভিধান সংকলন কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Cartographer",
+        "as": "Cartographer"
+      },
+      {
+        "en": "Lexicographer",
+        "as": "Lexicographer"
+      },
+      {
+        "en": "Linguist",
+        "as": "Linguist"
+      },
+      {
+        "en": "Bibliographer",
+        "as": "Bibliographer"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who compiles a dictionary is called 'Lexicographer'.",
+      "as": "ইংৰাজীত ইয়াক Lexicographer বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-075",
+    "q": {
+      "en": "One who draws maps is called —",
+      "as": "মানচিত্ৰ আঁকা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Geographer",
+        "as": "Geographer"
+      },
+      {
+        "en": "Surveyor",
+        "as": "Surveyor"
+      },
+      {
+        "en": "Cartographer",
+        "as": "Cartographer"
+      },
+      {
+        "en": "Lexicographer",
+        "as": "Lexicographer"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who draws maps is called 'Cartographer'.",
+      "as": "ইংৰাজীত ইয়াক Cartographer বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-076",
+    "q": {
+      "en": "One who designs buildings is called —",
+      "as": "ভৱনৰ ডিজাইন কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Engineer",
+        "as": "Engineer"
+      },
+      {
+        "en": "Carpenter",
+        "as": "Carpenter"
+      },
+      {
+        "en": "Mason",
+        "as": "Mason"
+      },
+      {
+        "en": "Architect",
+        "as": "Architect"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who designs buildings is called 'Architect'.",
+      "as": "ইংৰাজীত ইয়াক Architect বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-077",
+    "q": {
+      "en": "One who travels in space is called —",
+      "as": "মহাকাশত ভ্ৰমণ কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Astronaut",
+        "as": "Astronaut"
+      },
+      {
+        "en": "Aviator",
+        "as": "Aviator"
+      },
+      {
+        "en": "Pilot",
+        "as": "Pilot"
+      },
+      {
+        "en": "Astronomer",
+        "as": "Astronomer"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who travels in space is called 'Astronaut'.",
+      "as": "ইংৰাজীত ইয়াক Astronaut বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-078",
+    "q": {
+      "en": "One who studies the stars is called —",
+      "as": "তৰা-গ্ৰহ অধ্যয়ন কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Astrologer",
+        "as": "Astrologer"
+      },
+      {
+        "en": "Astronomer",
+        "as": "Astronomer"
+      },
+      {
+        "en": "Geologist",
+        "as": "Geologist"
+      },
+      {
+        "en": "Astronaut",
+        "as": "Astronaut"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who studies the stars is called 'Astronomer'.",
+      "as": "ইংৰাজীত ইয়াক Astronomer বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-079",
+    "q": {
+      "en": "One who studies plants is called —",
+      "as": "উদ্ভিদ অধ্যয়ন কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Florist",
+        "as": "Florist"
+      },
+      {
+        "en": "Zoologist",
+        "as": "Zoologist"
+      },
+      {
+        "en": "Botanist",
+        "as": "Botanist"
+      },
+      {
+        "en": "Biologist",
+        "as": "Biologist"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who studies plants is called 'Botanist'.",
+      "as": "ইংৰাজীত ইয়াক Botanist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-080",
+    "q": {
+      "en": "One who studies animals is called —",
+      "as": "জন্তু অধ্যয়ন কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Biologist",
+        "as": "Biologist"
+      },
+      {
+        "en": "Botanist",
+        "as": "Botanist"
+      },
+      {
+        "en": "Entomologist",
+        "as": "Entomologist"
+      },
+      {
+        "en": "Zoologist",
+        "as": "Zoologist"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who studies animals is called 'Zoologist'.",
+      "as": "ইংৰাজীত ইয়াক Zoologist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-081",
+    "q": {
+      "en": "One who studies birds is called —",
+      "as": "চৰাই অধ্যয়ন কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Ornithologist",
+        "as": "Ornithologist"
+      },
+      {
+        "en": "Zoologist",
+        "as": "Zoologist"
+      },
+      {
+        "en": "Entomologist",
+        "as": "Entomologist"
+      },
+      {
+        "en": "Botanist",
+        "as": "Botanist"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who studies birds is called 'Ornithologist'.",
+      "as": "ইংৰাজীত ইয়াক Ornithologist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-082",
+    "q": {
+      "en": "One who studies insects is called —",
+      "as": "পোক-পৰুৱা অধ্যয়ন কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Botanist",
+        "as": "Botanist"
+      },
+      {
+        "en": "Entomologist",
+        "as": "Entomologist"
+      },
+      {
+        "en": "Zoologist",
+        "as": "Zoologist"
+      },
+      {
+        "en": "Ornithologist",
+        "as": "Ornithologist"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who studies insects is called 'Entomologist'.",
+      "as": "ইংৰাজীত ইয়াক Entomologist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-083",
+    "q": {
+      "en": "One who studies the structure of the earth is called —",
+      "as": "পৃথিৱীৰ গঠন অধ্যয়ন কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Botanist",
+        "as": "Botanist"
+      },
+      {
+        "en": "Geographer",
+        "as": "Geographer"
+      },
+      {
+        "en": "Geologist",
+        "as": "Geologist"
+      },
+      {
+        "en": "Astronomer",
+        "as": "Astronomer"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who studies the structure of the earth is called 'Geologist'.",
+      "as": "ইংৰাজীত ইয়াক Geologist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-084",
+    "q": {
+      "en": "One who studies weather is called —",
+      "as": "বতৰ অধ্যয়ন কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Geologist",
+        "as": "Geologist"
+      },
+      {
+        "en": "Astrologer",
+        "as": "Astrologer"
+      },
+      {
+        "en": "Astronomer",
+        "as": "Astronomer"
+      },
+      {
+        "en": "Meteorologist",
+        "as": "Meteorologist"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who studies weather is called 'Meteorologist'.",
+      "as": "ইংৰাজীত ইয়াক Meteorologist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-085",
+    "q": {
+      "en": "One who studies languages is called —",
+      "as": "ভাষা অধ্যয়ন কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Linguist",
+        "as": "Linguist"
+      },
+      {
+        "en": "Lexicographer",
+        "as": "Lexicographer"
+      },
+      {
+        "en": "Orator",
+        "as": "Orator"
+      },
+      {
+        "en": "Polyglot",
+        "as": "Polyglot"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who studies languages is called 'Linguist'.",
+      "as": "ইংৰাজীত ইয়াক Linguist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-086",
+    "q": {
+      "en": "One who studies elections and voting trends is called —",
+      "as": "নিৰ্বাচন আৰু ভোটৰ ধাৰা অধ্যয়ন কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Demographer",
+        "as": "Demographer"
+      },
+      {
+        "en": "Psephologist",
+        "as": "Psephologist"
+      },
+      {
+        "en": "Politician",
+        "as": "Politician"
+      },
+      {
+        "en": "Sociologist",
+        "as": "Sociologist"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who studies elections and voting trends is called 'Psephologist'.",
+      "as": "ইংৰাজীত ইয়াক Psephologist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-087",
+    "q": {
+      "en": "One who studies population is called —",
+      "as": "জনসংখ্যা অধ্যয়ন কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Geographer",
+        "as": "Geographer"
+      },
+      {
+        "en": "Sociologist",
+        "as": "Sociologist"
+      },
+      {
+        "en": "Demographer",
+        "as": "Demographer"
+      },
+      {
+        "en": "Psephologist",
+        "as": "Psephologist"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who studies population is called 'Demographer'.",
+      "as": "ইংৰাজীত ইয়াক Demographer বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-088",
+    "q": {
+      "en": "A doctor who treats mental illness is called —",
+      "as": "মানসিক ৰোগৰ চিকিৎসা কৰা চিকিৎসকক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Neurologist",
+        "as": "Neurologist"
+      },
+      {
+        "en": "Psychologist",
+        "as": "Psychologist"
+      },
+      {
+        "en": "Physician",
+        "as": "Physician"
+      },
+      {
+        "en": "Psychiatrist",
+        "as": "Psychiatrist"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A doctor who treats mental illness is called 'Psychiatrist'.",
+      "as": "ইংৰাজীত ইয়াক Psychiatrist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-089",
+    "q": {
+      "en": "A doctor who treats the heart is called —",
+      "as": "হৃদৰোগৰ চিকিৎসা কৰা চিকিৎসকক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Cardiologist",
+        "as": "Cardiologist"
+      },
+      {
+        "en": "Dermatologist",
+        "as": "Dermatologist"
+      },
+      {
+        "en": "Neurologist",
+        "as": "Neurologist"
+      },
+      {
+        "en": "Physician",
+        "as": "Physician"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A doctor who treats the heart is called 'Cardiologist'.",
+      "as": "ইংৰাজীত ইয়াক Cardiologist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-090",
+    "q": {
+      "en": "A doctor who treats skin diseases is called —",
+      "as": "ছালৰ ৰোগৰ চিকিৎসা কৰা চিকিৎসকক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Physician",
+        "as": "Physician"
+      },
+      {
+        "en": "Dermatologist",
+        "as": "Dermatologist"
+      },
+      {
+        "en": "Cardiologist",
+        "as": "Cardiologist"
+      },
+      {
+        "en": "Ophthalmologist",
+        "as": "Ophthalmologist"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A doctor who treats skin diseases is called 'Dermatologist'.",
+      "as": "ইংৰাজীত ইয়াক Dermatologist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-091",
+    "q": {
+      "en": "A doctor who treats eye diseases is called —",
+      "as": "চকুৰ ৰোগৰ চিকিৎসা কৰা চিকিৎসকক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Optician",
+        "as": "Optician"
+      },
+      {
+        "en": "Physician",
+        "as": "Physician"
+      },
+      {
+        "en": "Ophthalmologist",
+        "as": "Ophthalmologist"
+      },
+      {
+        "en": "Dermatologist",
+        "as": "Dermatologist"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A doctor who treats eye diseases is called 'Ophthalmologist'.",
+      "as": "ইংৰাজীত ইয়াক Ophthalmologist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-092",
+    "q": {
+      "en": "A doctor who treats bone diseases is called —",
+      "as": "হাড়ৰ ৰোগৰ চিকিৎসা কৰা চিকিৎসকক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Neurologist",
+        "as": "Neurologist"
+      },
+      {
+        "en": "Cardiologist",
+        "as": "Cardiologist"
+      },
+      {
+        "en": "Physician",
+        "as": "Physician"
+      },
+      {
+        "en": "Orthopaedist",
+        "as": "Orthopaedist"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A doctor who treats bone diseases is called 'Orthopaedist'.",
+      "as": "ইংৰাজীত ইয়াক Orthopaedist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-093",
+    "q": {
+      "en": "A doctor who treats children is called —",
+      "as": "শিশুৰ চিকিৎসা কৰা চিকিৎসকক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Paediatrician",
+        "as": "Paediatrician"
+      },
+      {
+        "en": "Gynaecologist",
+        "as": "Gynaecologist"
+      },
+      {
+        "en": "Physician",
+        "as": "Physician"
+      },
+      {
+        "en": "Geriatrician",
+        "as": "Geriatrician"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A doctor who treats children is called 'Paediatrician'.",
+      "as": "ইংৰাজীত ইয়াক Paediatrician বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-094",
+    "q": {
+      "en": "A doctor who treats animals is called —",
+      "as": "জন্তুৰ চিকিৎসা কৰা চিকিৎসকক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Physician",
+        "as": "Physician"
+      },
+      {
+        "en": "Veterinarian",
+        "as": "Veterinarian"
+      },
+      {
+        "en": "Zoologist",
+        "as": "Zoologist"
+      },
+      {
+        "en": "Paediatrician",
+        "as": "Paediatrician"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A doctor who treats animals is called 'Veterinarian'.",
+      "as": "ইংৰাজীত ইয়াক Veterinarian বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-095",
+    "q": {
+      "en": "A doctor who treats diseases of women is called —",
+      "as": "মহিলাৰ ৰোগৰ চিকিৎসা কৰা চিকিৎসকক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Paediatrician",
+        "as": "Paediatrician"
+      },
+      {
+        "en": "Dermatologist",
+        "as": "Dermatologist"
+      },
+      {
+        "en": "Gynaecologist",
+        "as": "Gynaecologist"
+      },
+      {
+        "en": "Physician",
+        "as": "Physician"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A doctor who treats diseases of women is called 'Gynaecologist'.",
+      "as": "ইংৰাজীত ইয়াক Gynaecologist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-096",
+    "q": {
+      "en": "A doctor who treats cancer is called —",
+      "as": "কৰ্কট ৰোগৰ চিকিৎসা কৰা চিকিৎসকক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Dermatologist",
+        "as": "Dermatologist"
+      },
+      {
+        "en": "Physician",
+        "as": "Physician"
+      },
+      {
+        "en": "Cardiologist",
+        "as": "Cardiologist"
+      },
+      {
+        "en": "Oncologist",
+        "as": "Oncologist"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A doctor who treats cancer is called 'Oncologist'.",
+      "as": "ইংৰাজীত ইয়াক Oncologist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-097",
+    "q": {
+      "en": "A doctor who treats teeth is called —",
+      "as": "দাঁতৰ চিকিৎসা কৰা চিকিৎসকক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Dentist",
+        "as": "Dentist"
+      },
+      {
+        "en": "Orthopaedist",
+        "as": "Orthopaedist"
+      },
+      {
+        "en": "Optician",
+        "as": "Optician"
+      },
+      {
+        "en": "Physician",
+        "as": "Physician"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A doctor who treats teeth is called 'Dentist'.",
+      "as": "ইংৰাজীত ইয়াক Dentist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-098",
+    "q": {
+      "en": "One who mends clothes is called —",
+      "as": "কাপোৰ চিলাই কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Cobbler",
+        "as": "Cobbler"
+      },
+      {
+        "en": "Tailor",
+        "as": "Tailor"
+      },
+      {
+        "en": "Draper",
+        "as": "Draper"
+      },
+      {
+        "en": "Weaver",
+        "as": "Weaver"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who mends clothes is called 'Tailor'.",
+      "as": "ইংৰাজীত ইয়াক Tailor বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-099",
+    "q": {
+      "en": "One who mends shoes is called —",
+      "as": "জোতা মেৰামতি কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Barber",
+        "as": "Barber"
+      },
+      {
+        "en": "Tanner",
+        "as": "Tanner"
+      },
+      {
+        "en": "Cobbler",
+        "as": "Cobbler"
+      },
+      {
+        "en": "Tailor",
+        "as": "Tailor"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who mends shoes is called 'Cobbler'.",
+      "as": "ইংৰাজীত ইয়াক Cobbler বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-100",
+    "q": {
+      "en": "One who makes things of wood is called —",
+      "as": "কাঠৰ বস্তু বনোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Blacksmith",
+        "as": "Blacksmith"
+      },
+      {
+        "en": "Mason",
+        "as": "Mason"
+      },
+      {
+        "en": "Potter",
+        "as": "Potter"
+      },
+      {
+        "en": "Carpenter",
+        "as": "Carpenter"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who makes things of wood is called 'Carpenter'.",
+      "as": "ইংৰাজীত ইয়াক Carpenter বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-101",
+    "q": {
+      "en": "One who works with iron is called —",
+      "as": "লো-পাতে কাম কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Blacksmith",
+        "as": "Blacksmith"
+      },
+      {
+        "en": "Mason",
+        "as": "Mason"
+      },
+      {
+        "en": "Carpenter",
+        "as": "Carpenter"
+      },
+      {
+        "en": "Goldsmith",
+        "as": "Goldsmith"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who works with iron is called 'Blacksmith'.",
+      "as": "ইংৰাজীত ইয়াক Blacksmith বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-102",
+    "q": {
+      "en": "One who works with gold is called —",
+      "as": "সোণৰ কাম কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Carpenter",
+        "as": "Carpenter"
+      },
+      {
+        "en": "Goldsmith",
+        "as": "Goldsmith"
+      },
+      {
+        "en": "Mason",
+        "as": "Mason"
+      },
+      {
+        "en": "Blacksmith",
+        "as": "Blacksmith"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who works with gold is called 'Goldsmith'.",
+      "as": "ইংৰাজীত ইয়াক Goldsmith বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-103",
+    "q": {
+      "en": "One who makes pots is called —",
+      "as": "মাটিৰ পাত্ৰ বনোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Blacksmith",
+        "as": "Blacksmith"
+      },
+      {
+        "en": "Carpenter",
+        "as": "Carpenter"
+      },
+      {
+        "en": "Potter",
+        "as": "Potter"
+      },
+      {
+        "en": "Mason",
+        "as": "Mason"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who makes pots is called 'Potter'.",
+      "as": "ইংৰাজীত ইয়াক Potter বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-104",
+    "q": {
+      "en": "One who cuts hair is called —",
+      "as": "চুলি কটা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Baker",
+        "as": "Baker"
+      },
+      {
+        "en": "Tailor",
+        "as": "Tailor"
+      },
+      {
+        "en": "Cobbler",
+        "as": "Cobbler"
+      },
+      {
+        "en": "Barber",
+        "as": "Barber"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who cuts hair is called 'Barber'.",
+      "as": "ইংৰাজীত ইয়াক Barber বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-105",
+    "q": {
+      "en": "One who sells flowers is called —",
+      "as": "ফুল বিক্ৰী কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Florist",
+        "as": "Florist"
+      },
+      {
+        "en": "Botanist",
+        "as": "Botanist"
+      },
+      {
+        "en": "Gardener",
+        "as": "Gardener"
+      },
+      {
+        "en": "Greengrocer",
+        "as": "Greengrocer"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who sells flowers is called 'Florist'.",
+      "as": "ইংৰাজীত ইয়াক Florist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-106",
+    "q": {
+      "en": "One who sells meat is called —",
+      "as": "মাংস বিক্ৰী কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Grocer",
+        "as": "Grocer"
+      },
+      {
+        "en": "Butcher",
+        "as": "Butcher"
+      },
+      {
+        "en": "Florist",
+        "as": "Florist"
+      },
+      {
+        "en": "Baker",
+        "as": "Baker"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who sells meat is called 'Butcher'.",
+      "as": "ইংৰাজীত ইয়াক Butcher বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-107",
+    "q": {
+      "en": "One who sells food grains and other provisions is called —",
+      "as": "খাদ্য সামগ্ৰী বিক্ৰী কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Florist",
+        "as": "Florist"
+      },
+      {
+        "en": "Baker",
+        "as": "Baker"
+      },
+      {
+        "en": "Grocer",
+        "as": "Grocer"
+      },
+      {
+        "en": "Butcher",
+        "as": "Butcher"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who sells food grains and other provisions is called 'Grocer'.",
+      "as": "ইংৰাজীত ইয়াক Grocer বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-108",
+    "q": {
+      "en": "One who prepares and sells medicines is called —",
+      "as": "ঔষধ প্ৰস্তুত আৰু বিক্ৰী কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Nurse",
+        "as": "Nurse"
+      },
+      {
+        "en": "Physician",
+        "as": "Physician"
+      },
+      {
+        "en": "Surgeon",
+        "as": "Surgeon"
+      },
+      {
+        "en": "Chemist",
+        "as": "Chemist"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who prepares and sells medicines is called 'Chemist'.",
+      "as": "ইংৰাজীত ইয়াক Chemist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-109",
+    "q": {
+      "en": "One who supplies milk is called —",
+      "as": "গাখীৰ যোগান ধৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Milkman",
+        "as": "Milkman"
+      },
+      {
+        "en": "Grocer",
+        "as": "Grocer"
+      },
+      {
+        "en": "Baker",
+        "as": "Baker"
+      },
+      {
+        "en": "Butcher",
+        "as": "Butcher"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who supplies milk is called 'Milkman'.",
+      "as": "ইংৰাজীত ইয়াক Milkman বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-110",
+    "q": {
+      "en": "One who flies an aeroplane is called —",
+      "as": "বিমান চলোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Captain",
+        "as": "Captain"
+      },
+      {
+        "en": "Pilot",
+        "as": "Pilot"
+      },
+      {
+        "en": "Astronaut",
+        "as": "Astronaut"
+      },
+      {
+        "en": "Navigator",
+        "as": "Navigator"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who flies an aeroplane is called 'Pilot'.",
+      "as": "ইংৰাজীত ইয়াক Pilot বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-111",
+    "q": {
+      "en": "One who steers a ship is called —",
+      "as": "জাহাজ পৰিচালনা কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Sailor",
+        "as": "Sailor"
+      },
+      {
+        "en": "Pilot",
+        "as": "Pilot"
+      },
+      {
+        "en": "Navigator",
+        "as": "Navigator"
+      },
+      {
+        "en": "Captain",
+        "as": "Captain"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who steers a ship is called 'Navigator'.",
+      "as": "ইংৰাজীত ইয়াক Navigator বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-112",
+    "q": {
+      "en": "One who looks after a museum is called —",
+      "as": "সংগ্ৰহালয় চোৱাচিতা কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Guide",
+        "as": "Guide"
+      },
+      {
+        "en": "Curate",
+        "as": "Curate"
+      },
+      {
+        "en": "Custodian",
+        "as": "Custodian"
+      },
+      {
+        "en": "Curator",
+        "as": "Curator"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who looks after a museum is called 'Curator'.",
+      "as": "ইংৰাজীত ইয়াক Curator বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-113",
+    "q": {
+      "en": "One who conducts an auction is called —",
+      "as": "নিলাম পৰিচালনা কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Auctioneer",
+        "as": "Auctioneer"
+      },
+      {
+        "en": "Dealer",
+        "as": "Dealer"
+      },
+      {
+        "en": "Broker",
+        "as": "Broker"
+      },
+      {
+        "en": "Buyer",
+        "as": "Buyer"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who conducts an auction is called 'Auctioneer'.",
+      "as": "ইংৰাজীত ইয়াক Auctioneer বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-114",
+    "q": {
+      "en": "One who copies the writings of others and calls them his own is called —",
+      "as": "আনৰ লেখা নকল কৰি নিজৰ বুলি কোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Editor",
+        "as": "Editor"
+      },
+      {
+        "en": "Plagiarist",
+        "as": "Plagiarist"
+      },
+      {
+        "en": "Author",
+        "as": "Author"
+      },
+      {
+        "en": "Publisher",
+        "as": "Publisher"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who copies the writings of others and calls them his own is called 'Plagiarist'.",
+      "as": "ইংৰাজীত ইয়াক Plagiarist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-115",
+    "q": {
+      "en": "One who writes music is called —",
+      "as": "সংগীত ৰচনা কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Singer",
+        "as": "Singer"
+      },
+      {
+        "en": "Lyricist",
+        "as": "Lyricist"
+      },
+      {
+        "en": "Composer",
+        "as": "Composer"
+      },
+      {
+        "en": "Conductor",
+        "as": "Conductor"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who writes music is called 'Composer'.",
+      "as": "ইংৰাজীত ইয়াক Composer বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-116",
+    "q": {
+      "en": "One who directs an orchestra is called —",
+      "as": "অৰ্কেষ্ট্ৰা পৰিচালনা কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Player",
+        "as": "Player"
+      },
+      {
+        "en": "Singer",
+        "as": "Singer"
+      },
+      {
+        "en": "Composer",
+        "as": "Composer"
+      },
+      {
+        "en": "Conductor",
+        "as": "Conductor"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who directs an orchestra is called 'Conductor'.",
+      "as": "ইংৰাজীত ইয়াক Conductor বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-117",
+    "q": {
+      "en": "One who designs dances is called —",
+      "as": "নৃত্যৰ পৰিকল্পনা কৰা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Choreographer",
+        "as": "Choreographer"
+      },
+      {
+        "en": "Dancer",
+        "as": "Dancer"
+      },
+      {
+        "en": "Composer",
+        "as": "Composer"
+      },
+      {
+        "en": "Conductor",
+        "as": "Conductor"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One who designs dances is called 'Choreographer'.",
+      "as": "ইংৰাজীত ইয়াক Choreographer বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-118",
+    "q": {
+      "en": "One who makes statues is called —",
+      "as": "মূৰ্তি বনোৱা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Potter",
+        "as": "Potter"
+      },
+      {
+        "en": "Sculptor",
+        "as": "Sculptor"
+      },
+      {
+        "en": "Painter",
+        "as": "Painter"
+      },
+      {
+        "en": "Architect",
+        "as": "Architect"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One who makes statues is called 'Sculptor'.",
+      "as": "ইংৰাজীত ইয়াক Sculptor বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-119",
+    "q": {
+      "en": "One who writes satires is called —",
+      "as": "ব্যংগ ৰচনা কৰা লেখকক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Essayist",
+        "as": "Essayist"
+      },
+      {
+        "en": "Comedian",
+        "as": "Comedian"
+      },
+      {
+        "en": "Satirist",
+        "as": "Satirist"
+      },
+      {
+        "en": "Novelist",
+        "as": "Novelist"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One who writes satires is called 'Satirist'.",
+      "as": "ইংৰাজীত ইয়াক Satirist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-120",
+    "q": {
+      "en": "One who writes novels is called —",
+      "as": "উপন্যাস লিখা মানুহক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Poet",
+        "as": "Poet"
+      },
+      {
+        "en": "Essayist",
+        "as": "Essayist"
+      },
+      {
+        "en": "Playwright",
+        "as": "Playwright"
+      },
+      {
+        "en": "Novelist",
+        "as": "Novelist"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One who writes novels is called 'Novelist'.",
+      "as": "ইংৰাজীত ইয়াক Novelist বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-121",
+    "q": {
+      "en": "An abnormal fear of closed spaces is called —",
+      "as": "বন্ধ ঠাইৰ প্ৰতি অস্বাভাৱিক ভয়ক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Claustrophobia",
+        "as": "Claustrophobia"
+      },
+      {
+        "en": "Xenophobia",
+        "as": "Xenophobia"
+      },
+      {
+        "en": "Acrophobia",
+        "as": "Acrophobia"
+      },
+      {
+        "en": "Hydrophobia",
+        "as": "Hydrophobia"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An abnormal fear of closed spaces is called 'Claustrophobia'.",
+      "as": "ইংৰাজীত ইয়াক Claustrophobia বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-122",
+    "q": {
+      "en": "An abnormal fear of water is called —",
+      "as": "পানীৰ প্ৰতি অস্বাভাৱিক ভয়ক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Xenophobia",
+        "as": "Xenophobia"
+      },
+      {
+        "en": "Hydrophobia",
+        "as": "Hydrophobia"
+      },
+      {
+        "en": "Claustrophobia",
+        "as": "Claustrophobia"
+      },
+      {
+        "en": "Acrophobia",
+        "as": "Acrophobia"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An abnormal fear of water is called 'Hydrophobia'.",
+      "as": "ইংৰাজীত ইয়াক Hydrophobia বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-123",
+    "q": {
+      "en": "An abnormal fear of heights is called —",
+      "as": "উচ্চতাৰ প্ৰতি অস্বাভাৱিক ভয়ক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Hydrophobia",
+        "as": "Hydrophobia"
+      },
+      {
+        "en": "Xenophobia",
+        "as": "Xenophobia"
+      },
+      {
+        "en": "Acrophobia",
+        "as": "Acrophobia"
+      },
+      {
+        "en": "Claustrophobia",
+        "as": "Claustrophobia"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An abnormal fear of heights is called 'Acrophobia'.",
+      "as": "ইংৰাজীত ইয়াক Acrophobia বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-124",
+    "q": {
+      "en": "An abnormal fear of strangers is called —",
+      "as": "অচিনাকি লোকৰ প্ৰতি অস্বাভাৱিক ভয়ক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Acrophobia",
+        "as": "Acrophobia"
+      },
+      {
+        "en": "Hydrophobia",
+        "as": "Hydrophobia"
+      },
+      {
+        "en": "Claustrophobia",
+        "as": "Claustrophobia"
+      },
+      {
+        "en": "Xenophobia",
+        "as": "Xenophobia"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An abnormal fear of strangers is called 'Xenophobia'.",
+      "as": "ইংৰাজীত ইয়াক Xenophobia বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-125",
+    "q": {
+      "en": "An unusual urge to steal is called —",
+      "as": "চুৰি কৰাৰ অস্বাভাৱিক ইচ্ছাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Kleptomania",
+        "as": "Kleptomania"
+      },
+      {
+        "en": "Insomnia",
+        "as": "Insomnia"
+      },
+      {
+        "en": "Megalomania",
+        "as": "Megalomania"
+      },
+      {
+        "en": "Pyromania",
+        "as": "Pyromania"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An unusual urge to steal is called 'Kleptomania'.",
+      "as": "ইংৰাজীত ইয়াক Kleptomania বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-126",
+    "q": {
+      "en": "An unusual urge to set things on fire is called —",
+      "as": "জুই লগোৱাৰ অস্বাভাৱিক ইচ্ছাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Megalomania",
+        "as": "Megalomania"
+      },
+      {
+        "en": "Pyromania",
+        "as": "Pyromania"
+      },
+      {
+        "en": "Kleptomania",
+        "as": "Kleptomania"
+      },
+      {
+        "en": "Insomnia",
+        "as": "Insomnia"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An unusual urge to set things on fire is called 'Pyromania'.",
+      "as": "ইংৰাজীত ইয়াক Pyromania বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-127",
+    "q": {
+      "en": "An obsession with one's own greatness is called —",
+      "as": "নিজৰ মহত্ত্বৰ প্ৰতি আসক্তিক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Kleptomania",
+        "as": "Kleptomania"
+      },
+      {
+        "en": "Insomnia",
+        "as": "Insomnia"
+      },
+      {
+        "en": "Megalomania",
+        "as": "Megalomania"
+      },
+      {
+        "en": "Pyromania",
+        "as": "Pyromania"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An obsession with one's own greatness is called 'Megalomania'.",
+      "as": "ইংৰাজীত ইয়াক Megalomania বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-128",
+    "q": {
+      "en": "Inability to sleep is called —",
+      "as": "টোপনি নহাৰ অৱস্থাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Kleptomania",
+        "as": "Kleptomania"
+      },
+      {
+        "en": "Pyromania",
+        "as": "Pyromania"
+      },
+      {
+        "en": "Somnambulism",
+        "as": "Somnambulism"
+      },
+      {
+        "en": "Insomnia",
+        "as": "Insomnia"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Inability to sleep is called 'Insomnia'.",
+      "as": "ইংৰাজীত ইয়াক Insomnia বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-129",
+    "q": {
+      "en": "A place where bees are kept is called —",
+      "as": "মৌমাখি পোহা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Apiary",
+        "as": "Apiary"
+      },
+      {
+        "en": "Aviary",
+        "as": "Aviary"
+      },
+      {
+        "en": "Aquarium",
+        "as": "Aquarium"
+      },
+      {
+        "en": "Kennel",
+        "as": "Kennel"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A place where bees are kept is called 'Apiary'.",
+      "as": "ইংৰাজীত ইয়াক Apiary বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-130",
+    "q": {
+      "en": "A place where birds are kept is called —",
+      "as": "চৰাই ৰখা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Aquarium",
+        "as": "Aquarium"
+      },
+      {
+        "en": "Aviary",
+        "as": "Aviary"
+      },
+      {
+        "en": "Kennel",
+        "as": "Kennel"
+      },
+      {
+        "en": "Apiary",
+        "as": "Apiary"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A place where birds are kept is called 'Aviary'.",
+      "as": "ইংৰাজীত ইয়াক Aviary বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-131",
+    "q": {
+      "en": "A place where fish are kept is called —",
+      "as": "মাছ ৰখা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Aviary",
+        "as": "Aviary"
+      },
+      {
+        "en": "Apiary",
+        "as": "Apiary"
+      },
+      {
+        "en": "Aquarium",
+        "as": "Aquarium"
+      },
+      {
+        "en": "Kennel",
+        "as": "Kennel"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A place where fish are kept is called 'Aquarium'.",
+      "as": "ইংৰাজীত ইয়াক Aquarium বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-132",
+    "q": {
+      "en": "A place where aeroplanes are kept is called —",
+      "as": "বিমান ৰখা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Garage",
+        "as": "Garage"
+      },
+      {
+        "en": "Dockyard",
+        "as": "Dockyard"
+      },
+      {
+        "en": "Airport",
+        "as": "Airport"
+      },
+      {
+        "en": "Hangar",
+        "as": "Hangar"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A place where aeroplanes are kept is called 'Hangar'.",
+      "as": "ইংৰাজীত ইয়াক Hangar বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-133",
+    "q": {
+      "en": "A place where weapons are kept is called —",
+      "as": "অস্ত্ৰ ৰখা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Arsenal",
+        "as": "Arsenal"
+      },
+      {
+        "en": "Fort",
+        "as": "Fort"
+      },
+      {
+        "en": "Hangar",
+        "as": "Hangar"
+      },
+      {
+        "en": "Barracks",
+        "as": "Barracks"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A place where weapons are kept is called 'Arsenal'.",
+      "as": "ইংৰাজীত ইয়াক Arsenal বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-134",
+    "q": {
+      "en": "A place where coins are made is called —",
+      "as": "মুদ্ৰা তৈয়াৰ কৰা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Bank",
+        "as": "Bank"
+      },
+      {
+        "en": "Mint",
+        "as": "Mint"
+      },
+      {
+        "en": "Treasury",
+        "as": "Treasury"
+      },
+      {
+        "en": "Foundry",
+        "as": "Foundry"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A place where coins are made is called 'Mint'.",
+      "as": "ইংৰাজীত ইয়াক Mint বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-135",
+    "q": {
+      "en": "A place where dead bodies are kept before burial is called —",
+      "as": "কবৰ দিয়াৰ আগতে মৃতদেহ ৰখা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Hospital",
+        "as": "Hospital"
+      },
+      {
+        "en": "Crematorium",
+        "as": "Crematorium"
+      },
+      {
+        "en": "Mortuary",
+        "as": "Mortuary"
+      },
+      {
+        "en": "Cemetery",
+        "as": "Cemetery"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A place where dead bodies are kept before burial is called 'Mortuary'.",
+      "as": "ইংৰাজীত ইয়াক Mortuary বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-136",
+    "q": {
+      "en": "A place where government records are kept is called —",
+      "as": "চৰকাৰী নথি-পত্ৰ ৰখা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Office",
+        "as": "Office"
+      },
+      {
+        "en": "Library",
+        "as": "Library"
+      },
+      {
+        "en": "Museum",
+        "as": "Museum"
+      },
+      {
+        "en": "Archives",
+        "as": "Archives"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A place where government records are kept is called 'Archives'.",
+      "as": "ইংৰাজীত ইয়াক Archives বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-137",
+    "q": {
+      "en": "A place where orphans are kept is called —",
+      "as": "এনাথ শিশু ৰখা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Orphanage",
+        "as": "Orphanage"
+      },
+      {
+        "en": "Hostel",
+        "as": "Hostel"
+      },
+      {
+        "en": "Asylum",
+        "as": "Asylum"
+      },
+      {
+        "en": "Hospital",
+        "as": "Hospital"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A place where orphans are kept is called 'Orphanage'.",
+      "as": "ইংৰাজীত ইয়াক Orphanage বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-138",
+    "q": {
+      "en": "A place where clothes are kept is called —",
+      "as": "কাপোৰ ৰখা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Garage",
+        "as": "Garage"
+      },
+      {
+        "en": "Wardrobe",
+        "as": "Wardrobe"
+      },
+      {
+        "en": "Attic",
+        "as": "Attic"
+      },
+      {
+        "en": "Store",
+        "as": "Store"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A place where clothes are kept is called 'Wardrobe'.",
+      "as": "ইংৰাজীত ইয়াক Wardrobe বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-139",
+    "q": {
+      "en": "A place where books are kept for reading is called —",
+      "as": "পঢ়াৰ বাবে কিতাপ ৰখা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Museum",
+        "as": "Museum"
+      },
+      {
+        "en": "Bookshop",
+        "as": "Bookshop"
+      },
+      {
+        "en": "Library",
+        "as": "Library"
+      },
+      {
+        "en": "Archives",
+        "as": "Archives"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A place where books are kept for reading is called 'Library'.",
+      "as": "ইংৰাজীত ইয়াক Library বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-140",
+    "q": {
+      "en": "A place where stars are observed is called —",
+      "as": "তৰা পৰ্যবেক্ষণ কৰা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Planetarium",
+        "as": "Planetarium"
+      },
+      {
+        "en": "Laboratory",
+        "as": "Laboratory"
+      },
+      {
+        "en": "Museum",
+        "as": "Museum"
+      },
+      {
+        "en": "Observatory",
+        "as": "Observatory"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A place where stars are observed is called 'Observatory'.",
+      "as": "ইংৰাজীত ইয়াক Observatory বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-141",
+    "q": {
+      "en": "A place where exercise and sports are done is called —",
+      "as": "ব্যায়াম আৰু ক্ৰীড়া কৰা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Gymnasium",
+        "as": "Gymnasium"
+      },
+      {
+        "en": "Arena",
+        "as": "Arena"
+      },
+      {
+        "en": "Playground",
+        "as": "Playground"
+      },
+      {
+        "en": "Stadium",
+        "as": "Stadium"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A place where exercise and sports are done is called 'Gymnasium'.",
+      "as": "ইংৰাজীত ইয়াক Gymnasium বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-142",
+    "q": {
+      "en": "A place where students sleep in a school is called —",
+      "as": "বিদ্যালয়ত ছাত্ৰ-ছাত্ৰীয়ে শোৱা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Library",
+        "as": "Library"
+      },
+      {
+        "en": "Dormitory",
+        "as": "Dormitory"
+      },
+      {
+        "en": "Classroom",
+        "as": "Classroom"
+      },
+      {
+        "en": "Hostel",
+        "as": "Hostel"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A place where students sleep in a school is called 'Dormitory'.",
+      "as": "ইংৰাজীত ইয়াক Dormitory বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-143",
+    "q": {
+      "en": "A place where bread is made and sold is called —",
+      "as": "পাউৰুটী তৈয়াৰ আৰু বিক্ৰী কৰা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Grocery",
+        "as": "Grocery"
+      },
+      {
+        "en": "Granary",
+        "as": "Granary"
+      },
+      {
+        "en": "Bakery",
+        "as": "Bakery"
+      },
+      {
+        "en": "Dairy",
+        "as": "Dairy"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A place where bread is made and sold is called 'Bakery'.",
+      "as": "ইংৰাজীত ইয়াক Bakery বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-144",
+    "q": {
+      "en": "A place where grain is stored is called —",
+      "as": "ধান-চাউল ৰখা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Dairy",
+        "as": "Dairy"
+      },
+      {
+        "en": "Bakery",
+        "as": "Bakery"
+      },
+      {
+        "en": "Pantry",
+        "as": "Pantry"
+      },
+      {
+        "en": "Granary",
+        "as": "Granary"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A place where grain is stored is called 'Granary'.",
+      "as": "ইংৰাজীত ইয়াক Granary বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-145",
+    "q": {
+      "en": "A place where dogs are kept is called —",
+      "as": "কুকুৰ ৰখা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Kennel",
+        "as": "Kennel"
+      },
+      {
+        "en": "Byre",
+        "as": "Byre"
+      },
+      {
+        "en": "Stable",
+        "as": "Stable"
+      },
+      {
+        "en": "Sty",
+        "as": "Sty"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A place where dogs are kept is called 'Kennel'.",
+      "as": "ইংৰাজীত ইয়াক Kennel বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-146",
+    "q": {
+      "en": "A place where horses are kept is called —",
+      "as": "ঘোঁৰা ৰখা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Sty",
+        "as": "Sty"
+      },
+      {
+        "en": "Stable",
+        "as": "Stable"
+      },
+      {
+        "en": "Byre",
+        "as": "Byre"
+      },
+      {
+        "en": "Kennel",
+        "as": "Kennel"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A place where horses are kept is called 'Stable'.",
+      "as": "ইংৰাজীত ইয়াক Stable বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-147",
+    "q": {
+      "en": "A place where cows are kept is called —",
+      "as": "গাই ৰখা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Sty",
+        "as": "Sty"
+      },
+      {
+        "en": "Kennel",
+        "as": "Kennel"
+      },
+      {
+        "en": "Byre",
+        "as": "Byre"
+      },
+      {
+        "en": "Stable",
+        "as": "Stable"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A place where cows are kept is called 'Byre'.",
+      "as": "ইংৰাজীত ইয়াক Byre বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-148",
+    "q": {
+      "en": "A place where pigs are kept is called —",
+      "as": "গাহৰি ৰখা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Kennel",
+        "as": "Kennel"
+      },
+      {
+        "en": "Byre",
+        "as": "Byre"
+      },
+      {
+        "en": "Stable",
+        "as": "Stable"
+      },
+      {
+        "en": "Sty",
+        "as": "Sty"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A place where pigs are kept is called 'Sty'.",
+      "as": "ইংৰাজীত ইয়াক Sty বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-149",
+    "q": {
+      "en": "A place where monks live is called —",
+      "as": "সন্ন্যাসীসকলে বাস কৰা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Monastery",
+        "as": "Monastery"
+      },
+      {
+        "en": "Convent",
+        "as": "Convent"
+      },
+      {
+        "en": "Temple",
+        "as": "Temple"
+      },
+      {
+        "en": "Church",
+        "as": "Church"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A place where monks live is called 'Monastery'.",
+      "as": "ইংৰাজীত ইয়াক Monastery বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-150",
+    "q": {
+      "en": "A place where nuns live is called —",
+      "as": "সন্ন্যাসিনীসকলে বাস কৰা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Church",
+        "as": "Church"
+      },
+      {
+        "en": "Convent",
+        "as": "Convent"
+      },
+      {
+        "en": "Monastery",
+        "as": "Monastery"
+      },
+      {
+        "en": "Temple",
+        "as": "Temple"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A place where nuns live is called 'Convent'.",
+      "as": "ইংৰাজীত ইয়াক Convent বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-151",
+    "q": {
+      "en": "A place for the treatment of the sick is called —",
+      "as": "ৰোগীৰ চিকিৎসাৰ ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Asylum",
+        "as": "Asylum"
+      },
+      {
+        "en": "Orphanage",
+        "as": "Orphanage"
+      },
+      {
+        "en": "Hospital",
+        "as": "Hospital"
+      },
+      {
+        "en": "Creche",
+        "as": "Creche"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A place for the treatment of the sick is called 'Hospital'.",
+      "as": "ইংৰাজীত ইয়াক Hospital বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-152",
+    "q": {
+      "en": "A place where the mentally ill are kept is called —",
+      "as": "মানসিক ৰোগীক ৰখা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Sanatorium",
+        "as": "Sanatorium"
+      },
+      {
+        "en": "Hospital",
+        "as": "Hospital"
+      },
+      {
+        "en": "Orphanage",
+        "as": "Orphanage"
+      },
+      {
+        "en": "Asylum",
+        "as": "Asylum"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A place where the mentally ill are kept is called 'Asylum'.",
+      "as": "ইংৰাজীত ইয়াক Asylum বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-153",
+    "q": {
+      "en": "A place where small children are cared for during the day is called —",
+      "as": "দিনত সৰু ল'ৰা-ছোৱালী ৰখা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Creche",
+        "as": "Creche"
+      },
+      {
+        "en": "Hostel",
+        "as": "Hostel"
+      },
+      {
+        "en": "Orphanage",
+        "as": "Orphanage"
+      },
+      {
+        "en": "Hospital",
+        "as": "Hospital"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A place where small children are cared for during the day is called 'Creche'.",
+      "as": "ইংৰাজীত ইয়াক Creche বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-154",
+    "q": {
+      "en": "A place where ships are built is called —",
+      "as": "জাহাজ নিৰ্মাণ কৰা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Hangar",
+        "as": "Hangar"
+      },
+      {
+        "en": "Dockyard",
+        "as": "Dockyard"
+      },
+      {
+        "en": "Airport",
+        "as": "Airport"
+      },
+      {
+        "en": "Garage",
+        "as": "Garage"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A place where ships are built is called 'Dockyard'.",
+      "as": "ইংৰাজীত ইয়াক Dockyard বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-155",
+    "q": {
+      "en": "A place where motor vehicles are kept is called —",
+      "as": "মটৰ গাড়ী ৰখা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Dockyard",
+        "as": "Dockyard"
+      },
+      {
+        "en": "Stable",
+        "as": "Stable"
+      },
+      {
+        "en": "Garage",
+        "as": "Garage"
+      },
+      {
+        "en": "Hangar",
+        "as": "Hangar"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A place where motor vehicles are kept is called 'Garage'.",
+      "as": "ইংৰাজীত ইয়াক Garage বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-156",
+    "q": {
+      "en": "A place where gambling is done is called —",
+      "as": "জুৱা খেলা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Club",
+        "as": "Club"
+      },
+      {
+        "en": "Arena",
+        "as": "Arena"
+      },
+      {
+        "en": "Arcade",
+        "as": "Arcade"
+      },
+      {
+        "en": "Casino",
+        "as": "Casino"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A place where gambling is done is called 'Casino'.",
+      "as": "ইংৰাজীত ইয়াক Casino বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-157",
+    "q": {
+      "en": "Government by the people is called —",
+      "as": "জনতাৰ দ্বাৰা চলা শাসনক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Democracy",
+        "as": "Democracy"
+      },
+      {
+        "en": "Oligarchy",
+        "as": "Oligarchy"
+      },
+      {
+        "en": "Monarchy",
+        "as": "Monarchy"
+      },
+      {
+        "en": "Autocracy",
+        "as": "Autocracy"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Government by the people is called 'Democracy'.",
+      "as": "ইংৰাজীত ইয়াক Democracy বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-158",
+    "q": {
+      "en": "Government by one person with absolute power is called —",
+      "as": "এজনৰ অসীম ক্ষমতাৰ শাসনক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Democracy",
+        "as": "Democracy"
+      },
+      {
+        "en": "Autocracy",
+        "as": "Autocracy"
+      },
+      {
+        "en": "Oligarchy",
+        "as": "Oligarchy"
+      },
+      {
+        "en": "Bureaucracy",
+        "as": "Bureaucracy"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Government by one person with absolute power is called 'Autocracy'.",
+      "as": "ইংৰাজীত ইয়াক Autocracy বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-159",
+    "q": {
+      "en": "Government by officials is called —",
+      "as": "বিষয়া-কৰ্মচাৰীৰ শাসনক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Aristocracy",
+        "as": "Aristocracy"
+      },
+      {
+        "en": "Democracy",
+        "as": "Democracy"
+      },
+      {
+        "en": "Bureaucracy",
+        "as": "Bureaucracy"
+      },
+      {
+        "en": "Autocracy",
+        "as": "Autocracy"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Government by officials is called 'Bureaucracy'.",
+      "as": "ইংৰাজীত ইয়াক Bureaucracy বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-160",
+    "q": {
+      "en": "Government by the wealthy is called —",
+      "as": "ধনীসকলৰ শাসনক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Oligarchy",
+        "as": "Oligarchy"
+      },
+      {
+        "en": "Democracy",
+        "as": "Democracy"
+      },
+      {
+        "en": "Theocracy",
+        "as": "Theocracy"
+      },
+      {
+        "en": "Plutocracy",
+        "as": "Plutocracy"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Government by the wealthy is called 'Plutocracy'.",
+      "as": "ইংৰাজীত ইয়াক Plutocracy বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-161",
+    "q": {
+      "en": "Government by a few people is called —",
+      "as": "অলপ লোকে কৰা শাসনক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Oligarchy",
+        "as": "Oligarchy"
+      },
+      {
+        "en": "Plutocracy",
+        "as": "Plutocracy"
+      },
+      {
+        "en": "Democracy",
+        "as": "Democracy"
+      },
+      {
+        "en": "Monarchy",
+        "as": "Monarchy"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Government by a few people is called 'Oligarchy'.",
+      "as": "ইংৰাজীত ইয়াক Oligarchy বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-162",
+    "q": {
+      "en": "Government by religious leaders is called —",
+      "as": "ধৰ্মীয় নেতাসকলৰ শাসনক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Plutocracy",
+        "as": "Plutocracy"
+      },
+      {
+        "en": "Theocracy",
+        "as": "Theocracy"
+      },
+      {
+        "en": "Democracy",
+        "as": "Democracy"
+      },
+      {
+        "en": "Oligarchy",
+        "as": "Oligarchy"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Government by religious leaders is called 'Theocracy'.",
+      "as": "ইংৰাজীত ইয়াক Theocracy বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-163",
+    "q": {
+      "en": "Government by a king or queen is called —",
+      "as": "ৰজা বা ৰাণীৰ শাসনক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Democracy",
+        "as": "Democracy"
+      },
+      {
+        "en": "Oligarchy",
+        "as": "Oligarchy"
+      },
+      {
+        "en": "Monarchy",
+        "as": "Monarchy"
+      },
+      {
+        "en": "Anarchy",
+        "as": "Anarchy"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Government by a king or queen is called 'Monarchy'.",
+      "as": "ইংৰাজীত ইয়াক Monarchy বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-164",
+    "q": {
+      "en": "Government by the nobles is called —",
+      "as": "অভিজাতসকলৰ শাসনক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Oligarchy",
+        "as": "Oligarchy"
+      },
+      {
+        "en": "Democracy",
+        "as": "Democracy"
+      },
+      {
+        "en": "Plutocracy",
+        "as": "Plutocracy"
+      },
+      {
+        "en": "Aristocracy",
+        "as": "Aristocracy"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Government by the nobles is called 'Aristocracy'.",
+      "as": "ইংৰাজীত ইয়াক Aristocracy বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-165",
+    "q": {
+      "en": "Absence of any government is called —",
+      "as": "কোনো চৰকাৰ নথকা অৱস্থাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Anarchy",
+        "as": "Anarchy"
+      },
+      {
+        "en": "Autocracy",
+        "as": "Autocracy"
+      },
+      {
+        "en": "Monarchy",
+        "as": "Monarchy"
+      },
+      {
+        "en": "Democracy",
+        "as": "Democracy"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Absence of any government is called 'Anarchy'.",
+      "as": "ইংৰাজীত ইয়াক Anarchy বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-166",
+    "q": {
+      "en": "Rule by a dictator is called —",
+      "as": "একনায়কৰ শাসনক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Democracy",
+        "as": "Democracy"
+      },
+      {
+        "en": "Dictatorship",
+        "as": "Dictatorship"
+      },
+      {
+        "en": "Monarchy",
+        "as": "Monarchy"
+      },
+      {
+        "en": "Anarchy",
+        "as": "Anarchy"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rule by a dictator is called 'Dictatorship'.",
+      "as": "ইংৰাজীত ইয়াক Dictatorship বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-167",
+    "q": {
+      "en": "The killing of a human being is called —",
+      "as": "এজন মানুহক হত্যা কৰাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Suicide",
+        "as": "Suicide"
+      },
+      {
+        "en": "Fratricide",
+        "as": "Fratricide"
+      },
+      {
+        "en": "Homicide",
+        "as": "Homicide"
+      },
+      {
+        "en": "Genocide",
+        "as": "Genocide"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The killing of a human being is called 'Homicide'.",
+      "as": "ইংৰাজীত ইয়াক Homicide বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-168",
+    "q": {
+      "en": "The killing of one's brother is called —",
+      "as": "নিজৰ ভায়েকক হত্যা কৰাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Homicide",
+        "as": "Homicide"
+      },
+      {
+        "en": "Patricide",
+        "as": "Patricide"
+      },
+      {
+        "en": "Regicide",
+        "as": "Regicide"
+      },
+      {
+        "en": "Fratricide",
+        "as": "Fratricide"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The killing of one's brother is called 'Fratricide'.",
+      "as": "ইংৰাজীত ইয়াক Fratricide বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-169",
+    "q": {
+      "en": "The killing of one's father is called —",
+      "as": "নিজৰ দেউতাকক হত্যা কৰাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Patricide",
+        "as": "Patricide"
+      },
+      {
+        "en": "Regicide",
+        "as": "Regicide"
+      },
+      {
+        "en": "Fratricide",
+        "as": "Fratricide"
+      },
+      {
+        "en": "Matricide",
+        "as": "Matricide"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The killing of one's father is called 'Patricide'.",
+      "as": "ইংৰাজীত ইয়াক Patricide বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-170",
+    "q": {
+      "en": "The killing of one's mother is called —",
+      "as": "নিজৰ মাকক হত্যা কৰাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Uxoricide",
+        "as": "Uxoricide"
+      },
+      {
+        "en": "Matricide",
+        "as": "Matricide"
+      },
+      {
+        "en": "Fratricide",
+        "as": "Fratricide"
+      },
+      {
+        "en": "Patricide",
+        "as": "Patricide"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The killing of one's mother is called 'Matricide'.",
+      "as": "ইংৰাজীত ইয়াক Matricide বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-171",
+    "q": {
+      "en": "The killing of a king is called —",
+      "as": "এজন ৰজাক হত্যা কৰাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Patricide",
+        "as": "Patricide"
+      },
+      {
+        "en": "Fratricide",
+        "as": "Fratricide"
+      },
+      {
+        "en": "Regicide",
+        "as": "Regicide"
+      },
+      {
+        "en": "Homicide",
+        "as": "Homicide"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The killing of a king is called 'Regicide'.",
+      "as": "ইংৰাজীত ইয়াক Regicide বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-172",
+    "q": {
+      "en": "The killing of oneself is called —",
+      "as": "নিজকে হত্যা কৰাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Matricide",
+        "as": "Matricide"
+      },
+      {
+        "en": "Homicide",
+        "as": "Homicide"
+      },
+      {
+        "en": "Genocide",
+        "as": "Genocide"
+      },
+      {
+        "en": "Suicide",
+        "as": "Suicide"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The killing of oneself is called 'Suicide'.",
+      "as": "ইংৰাজীত ইয়াক Suicide বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-173",
+    "q": {
+      "en": "The killing of a whole race is called —",
+      "as": "এটা সম্পূৰ্ণ জাতিক হত্যা কৰাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Genocide",
+        "as": "Genocide"
+      },
+      {
+        "en": "Suicide",
+        "as": "Suicide"
+      },
+      {
+        "en": "Homicide",
+        "as": "Homicide"
+      },
+      {
+        "en": "Infanticide",
+        "as": "Infanticide"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The killing of a whole race is called 'Genocide'.",
+      "as": "ইংৰাজীত ইয়াক Genocide বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-174",
+    "q": {
+      "en": "The killing of an infant is called —",
+      "as": "কেঁচুৱাক হত্যা কৰাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Homicide",
+        "as": "Homicide"
+      },
+      {
+        "en": "Infanticide",
+        "as": "Infanticide"
+      },
+      {
+        "en": "Fratricide",
+        "as": "Fratricide"
+      },
+      {
+        "en": "Genocide",
+        "as": "Genocide"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The killing of an infant is called 'Infanticide'.",
+      "as": "ইংৰাজীত ইয়াক Infanticide বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-175",
+    "q": {
+      "en": "The killing of one's wife is called —",
+      "as": "নিজৰ স্ত্ৰীক হত্যা কৰাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Matricide",
+        "as": "Matricide"
+      },
+      {
+        "en": "Patricide",
+        "as": "Patricide"
+      },
+      {
+        "en": "Uxoricide",
+        "as": "Uxoricide"
+      },
+      {
+        "en": "Fratricide",
+        "as": "Fratricide"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The killing of one's wife is called 'Uxoricide'.",
+      "as": "ইংৰাজীত ইয়াক Uxoricide বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-176",
+    "q": {
+      "en": "A substance that kills insects is called —",
+      "as": "পোক-পৰুৱা মাৰিব পৰা পদাৰ্থক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Herbicide",
+        "as": "Herbicide"
+      },
+      {
+        "en": "Germicide",
+        "as": "Germicide"
+      },
+      {
+        "en": "Fungicide",
+        "as": "Fungicide"
+      },
+      {
+        "en": "Insecticide",
+        "as": "Insecticide"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A substance that kills insects is called 'Insecticide'.",
+      "as": "ইংৰাজীত ইয়াক Insecticide বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-177",
+    "q": {
+      "en": "A substance that kills germs is called —",
+      "as": "জীৱাণু মাৰিব পৰা পদাৰ্থক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Germicide",
+        "as": "Germicide"
+      },
+      {
+        "en": "Herbicide",
+        "as": "Herbicide"
+      },
+      {
+        "en": "Insecticide",
+        "as": "Insecticide"
+      },
+      {
+        "en": "Antiseptic",
+        "as": "Antiseptic"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A substance that kills germs is called 'Germicide'.",
+      "as": "ইংৰাজীত ইয়াক Germicide বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-178",
+    "q": {
+      "en": "A medicine that neutralises a poison is called —",
+      "as": "বিষ নিষ্ক্ৰিয় কৰা ঔষধক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Antiseptic",
+        "as": "Antiseptic"
+      },
+      {
+        "en": "Antidote",
+        "as": "Antidote"
+      },
+      {
+        "en": "Germicide",
+        "as": "Germicide"
+      },
+      {
+        "en": "Vaccine",
+        "as": "Vaccine"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A medicine that neutralises a poison is called 'Antidote'.",
+      "as": "ইংৰাজীত ইয়াক Antidote বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-179",
+    "q": {
+      "en": "A word that reads the same forwards and backwards is called —",
+      "as": "আগলৈ আৰু পিছলৈ একে ধৰণে পঢ়িব পৰা শব্দক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Synonym",
+        "as": "Synonym"
+      },
+      {
+        "en": "Acronym",
+        "as": "Acronym"
+      },
+      {
+        "en": "Palindrome",
+        "as": "Palindrome"
+      },
+      {
+        "en": "Anagram",
+        "as": "Anagram"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A word that reads the same forwards and backwards is called 'Palindrome'.",
+      "as": "ইংৰাজীত ইয়াক Palindrome বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-180",
+    "q": {
+      "en": "A word opposite in meaning to another is called —",
+      "as": "আন শব্দৰ বিপৰীত অৰ্থৰ শব্দক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Acronym",
+        "as": "Acronym"
+      },
+      {
+        "en": "Homonym",
+        "as": "Homonym"
+      },
+      {
+        "en": "Synonym",
+        "as": "Synonym"
+      },
+      {
+        "en": "Antonym",
+        "as": "Antonym"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A word opposite in meaning to another is called 'Antonym'.",
+      "as": "ইংৰাজীত ইয়াক Antonym বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-181",
+    "q": {
+      "en": "A word having the same meaning as another is called —",
+      "as": "আন শব্দৰ একে অৰ্থৰ শব্দক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Synonym",
+        "as": "Synonym"
+      },
+      {
+        "en": "Acronym",
+        "as": "Acronym"
+      },
+      {
+        "en": "Homonym",
+        "as": "Homonym"
+      },
+      {
+        "en": "Antonym",
+        "as": "Antonym"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A word having the same meaning as another is called 'Synonym'.",
+      "as": "ইংৰাজীত ইয়াক Synonym বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-182",
+    "q": {
+      "en": "A word pronounced the same as another but different in meaning is called —",
+      "as": "একে উচ্চাৰণ কিন্তু বেলেগ অৰ্থৰ শব্দক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Synonym",
+        "as": "Synonym"
+      },
+      {
+        "en": "Homophone",
+        "as": "Homophone"
+      },
+      {
+        "en": "Antonym",
+        "as": "Antonym"
+      },
+      {
+        "en": "Homonym",
+        "as": "Homonym"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A word pronounced the same as another but different in meaning is called 'Homophone'.",
+      "as": "ইংৰাজীত ইয়াক Homophone বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-183",
+    "q": {
+      "en": "A word that is spelled and pronounced the same but has different meanings is called —",
+      "as": "একে বানান আৰু উচ্চাৰণ কিন্তু বেলেগ অৰ্থৰ শব্দক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Synonym",
+        "as": "Synonym"
+      },
+      {
+        "en": "Antonym",
+        "as": "Antonym"
+      },
+      {
+        "en": "Homonym",
+        "as": "Homonym"
+      },
+      {
+        "en": "Homophone",
+        "as": "Homophone"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A word that is spelled and pronounced the same but has different meanings is called 'Homonym'.",
+      "as": "ইংৰাজীত ইয়াক Homonym বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-184",
+    "q": {
+      "en": "A speech made by a person to himself is called —",
+      "as": "এজন ব্যক্তিয়ে নিজকে কোৱা ভাষণক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Dialogue",
+        "as": "Dialogue"
+      },
+      {
+        "en": "Monologue",
+        "as": "Monologue"
+      },
+      {
+        "en": "Speech",
+        "as": "Speech"
+      },
+      {
+        "en": "Soliloquy",
+        "as": "Soliloquy"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A speech made by a person to himself is called 'Soliloquy'.",
+      "as": "ইংৰাজীত ইয়াক Soliloquy বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-185",
+    "q": {
+      "en": "A long speech by one person in a company is called —",
+      "as": "দলত এজনৰ দীঘল ভাষণক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Monologue",
+        "as": "Monologue"
+      },
+      {
+        "en": "Discussion",
+        "as": "Discussion"
+      },
+      {
+        "en": "Dialogue",
+        "as": "Dialogue"
+      },
+      {
+        "en": "Soliloquy",
+        "as": "Soliloquy"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A long speech by one person in a company is called 'Monologue'.",
+      "as": "ইংৰাজীত ইয়াক Monologue বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-186",
+    "q": {
+      "en": "The life story of a person written by himself is called —",
+      "as": "নিজে লিখা নিজৰ জীৱনীক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Memoir",
+        "as": "Memoir"
+      },
+      {
+        "en": "Autobiography",
+        "as": "Autobiography"
+      },
+      {
+        "en": "Biography",
+        "as": "Biography"
+      },
+      {
+        "en": "Diary",
+        "as": "Diary"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The life story of a person written by himself is called 'Autobiography'.",
+      "as": "ইংৰাজীত ইয়াক Autobiography বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-187",
+    "q": {
+      "en": "The life story of a person written by someone else is called —",
+      "as": "আন এজনে লিখা জীৱনীক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Diary",
+        "as": "Diary"
+      },
+      {
+        "en": "Autobiography",
+        "as": "Autobiography"
+      },
+      {
+        "en": "Biography",
+        "as": "Biography"
+      },
+      {
+        "en": "Memoir",
+        "as": "Memoir"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The life story of a person written by someone else is called 'Biography'.",
+      "as": "ইংৰাজীত ইয়াক Biography বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-188",
+    "q": {
+      "en": "A speech delivered without previous preparation is called —",
+      "as": "আগতীয়া প্ৰস্তুতি নোহোৱাকৈ দিয়া ভাষণক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Monologue",
+        "as": "Monologue"
+      },
+      {
+        "en": "Declamation",
+        "as": "Declamation"
+      },
+      {
+        "en": "Soliloquy",
+        "as": "Soliloquy"
+      },
+      {
+        "en": "Extempore",
+        "as": "Extempore"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A speech delivered without previous preparation is called 'Extempore'.",
+      "as": "ইংৰাজীত ইয়াক Extempore বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-189",
+    "q": {
+      "en": "A collection of poems is called —",
+      "as": "কবিতাৰ সংকলনক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Anthology",
+        "as": "Anthology"
+      },
+      {
+        "en": "Dictionary",
+        "as": "Dictionary"
+      },
+      {
+        "en": "Biography",
+        "as": "Biography"
+      },
+      {
+        "en": "Novel",
+        "as": "Novel"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A collection of poems is called 'Anthology'.",
+      "as": "ইংৰাজীত ইয়াক Anthology বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-190",
+    "q": {
+      "en": "A phrase written on a tomb is called —",
+      "as": "সমাধিত লিখা লেখাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Obituary",
+        "as": "Obituary"
+      },
+      {
+        "en": "Epitaph",
+        "as": "Epitaph"
+      },
+      {
+        "en": "Prologue",
+        "as": "Prologue"
+      },
+      {
+        "en": "Epilogue",
+        "as": "Epilogue"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A phrase written on a tomb is called 'Epitaph'.",
+      "as": "ইংৰাজীত ইয়াক Epitaph বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-191",
+    "q": {
+      "en": "The concluding part of a literary work is called —",
+      "as": "সাহিত্যিক কৰ্মৰ শেষ অংশক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Epitaph",
+        "as": "Epitaph"
+      },
+      {
+        "en": "Index",
+        "as": "Index"
+      },
+      {
+        "en": "Epilogue",
+        "as": "Epilogue"
+      },
+      {
+        "en": "Prologue",
+        "as": "Prologue"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The concluding part of a literary work is called 'Epilogue'.",
+      "as": "ইংৰাজীত ইয়াক Epilogue বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-192",
+    "q": {
+      "en": "The introductory part of a book is called —",
+      "as": "কিতাপৰ আৰম্ভণি অংশক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Appendix",
+        "as": "Appendix"
+      },
+      {
+        "en": "Epilogue",
+        "as": "Epilogue"
+      },
+      {
+        "en": "Index",
+        "as": "Index"
+      },
+      {
+        "en": "Prologue",
+        "as": "Prologue"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The introductory part of a book is called 'Prologue'.",
+      "as": "ইংৰাজীত ইয়াক Prologue বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-193",
+    "q": {
+      "en": "A notice of a person's death in a newspaper is called —",
+      "as": "বাতৰি কাকতত মৃত্যুৰ খবৰক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Obituary",
+        "as": "Obituary"
+      },
+      {
+        "en": "Epitaph",
+        "as": "Epitaph"
+      },
+      {
+        "en": "Editorial",
+        "as": "Editorial"
+      },
+      {
+        "en": "Biography",
+        "as": "Biography"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A notice of a person's death in a newspaper is called 'Obituary'.",
+      "as": "ইংৰাজীত ইয়াক Obituary বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-194",
+    "q": {
+      "en": "A handwritten document is called —",
+      "as": "হাতে লিখা নথিপত্ৰক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Typescript",
+        "as": "Typescript"
+      },
+      {
+        "en": "Manuscript",
+        "as": "Manuscript"
+      },
+      {
+        "en": "Transcript",
+        "as": "Transcript"
+      },
+      {
+        "en": "Printout",
+        "as": "Printout"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A handwritten document is called 'Manuscript'.",
+      "as": "ইংৰাজীত ইয়াক Manuscript বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-195",
+    "q": {
+      "en": "A list of books on a subject is called —",
+      "as": "এটা বিষয়ৰ কিতাপৰ তালিকাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Index",
+        "as": "Index"
+      },
+      {
+        "en": "Catalogue",
+        "as": "Catalogue"
+      },
+      {
+        "en": "Bibliography",
+        "as": "Bibliography"
+      },
+      {
+        "en": "Anthology",
+        "as": "Anthology"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A list of books on a subject is called 'Bibliography'.",
+      "as": "ইংৰাজীত ইয়াক Bibliography বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-196",
+    "q": {
+      "en": "A list of names or items in order is called —",
+      "as": "ক্ৰমে নাম বা বস্তুৰ তালিকাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Bibliography",
+        "as": "Bibliography"
+      },
+      {
+        "en": "Manuscript",
+        "as": "Manuscript"
+      },
+      {
+        "en": "Anthology",
+        "as": "Anthology"
+      },
+      {
+        "en": "Catalogue",
+        "as": "Catalogue"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A list of names or items in order is called 'Catalogue'.",
+      "as": "ইংৰাজীত ইয়াক Catalogue বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-197",
+    "q": {
+      "en": "The place where one lives permanently is called —",
+      "as": "স্থায়ীভাৱে বাস কৰা ঠাইক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Domicile",
+        "as": "Domicile"
+      },
+      {
+        "en": "Destination",
+        "as": "Destination"
+      },
+      {
+        "en": "Voyage",
+        "as": "Voyage"
+      },
+      {
+        "en": "Journey",
+        "as": "Journey"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The place where one lives permanently is called 'Domicile'.",
+      "as": "ইংৰাজীত ইয়াক Domicile বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-198",
+    "q": {
+      "en": "An animal or plant that lives on another is called —",
+      "as": "আনৰ ওপৰত নিৰ্ভৰ কৰি জীয়াই থকা জীৱক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Host",
+        "as": "Host"
+      },
+      {
+        "en": "Parasite",
+        "as": "Parasite"
+      },
+      {
+        "en": "Predator",
+        "as": "Predator"
+      },
+      {
+        "en": "Symbiont",
+        "as": "Symbiont"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An animal or plant that lives on another is called 'Parasite'.",
+      "as": "ইংৰাজীত ইয়াক Parasite বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-199",
+    "q": {
+      "en": "A statement that seems contradictory but may be true is called —",
+      "as": "বিৰোধী যেন লাগে কিন্তু সত্য হ'ব পৰা বাক্যক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Truism",
+        "as": "Truism"
+      },
+      {
+        "en": "Pun",
+        "as": "Pun"
+      },
+      {
+        "en": "Paradox",
+        "as": "Paradox"
+      },
+      {
+        "en": "Epigram",
+        "as": "Epigram"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A statement that seems contradictory but may be true is called 'Paradox'.",
+      "as": "ইংৰাজীত ইয়াক Paradox বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-200",
+    "q": {
+      "en": "A statement that is obviously true is called —",
+      "as": "স্পষ্টভাৱে সত্য বাক্যক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Proverb",
+        "as": "Proverb"
+      },
+      {
+        "en": "Paradox",
+        "as": "Paradox"
+      },
+      {
+        "en": "Pun",
+        "as": "Pun"
+      },
+      {
+        "en": "Truism",
+        "as": "Truism"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A statement that is obviously true is called 'Truism'.",
+      "as": "ইংৰাজীত ইয়াক Truism বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-201",
+    "q": {
+      "en": "A group of ships is called —",
+      "as": "জাহাজৰ দলক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Fleet",
+        "as": "Fleet"
+      },
+      {
+        "en": "Squadron",
+        "as": "Squadron"
+      },
+      {
+        "en": "Crew",
+        "as": "Crew"
+      },
+      {
+        "en": "Navy",
+        "as": "Navy"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of ships is called 'Fleet'.",
+      "as": "ইংৰাজীত ইয়াক Fleet বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-202",
+    "q": {
+      "en": "A group of stars forming a pattern is called —",
+      "as": "নিৰ্দিষ্ট আৰ্হিত থকা তৰাৰ দলক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Galaxy",
+        "as": "Galaxy"
+      },
+      {
+        "en": "Constellation",
+        "as": "Constellation"
+      },
+      {
+        "en": "Nebula",
+        "as": "Nebula"
+      },
+      {
+        "en": "Cluster",
+        "as": "Cluster"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of stars forming a pattern is called 'Constellation'.",
+      "as": "ইংৰাজীত ইয়াক Constellation বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-203",
+    "q": {
+      "en": "A group of judges is called —",
+      "as": "বিচাৰকৰ দলক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Court",
+        "as": "Court"
+      },
+      {
+        "en": "Jury",
+        "as": "Jury"
+      },
+      {
+        "en": "Bench",
+        "as": "Bench"
+      },
+      {
+        "en": "Bar",
+        "as": "Bar"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A group of judges is called 'Bench'.",
+      "as": "ইংৰাজীত ইয়াক Bench বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-204",
+    "q": {
+      "en": "A group of singers is called —",
+      "as": "গায়কৰ দলক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Band",
+        "as": "Band"
+      },
+      {
+        "en": "Troupe",
+        "as": "Troupe"
+      },
+      {
+        "en": "Orchestra",
+        "as": "Orchestra"
+      },
+      {
+        "en": "Choir",
+        "as": "Choir"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A group of singers is called 'Choir'.",
+      "as": "ইংৰাজীত ইয়াক Choir বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-205",
+    "q": {
+      "en": "A group of dancers is called —",
+      "as": "নৃত্যশিল্পীৰ দলক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Troupe",
+        "as": "Troupe"
+      },
+      {
+        "en": "Choir",
+        "as": "Choir"
+      },
+      {
+        "en": "Orchestra",
+        "as": "Orchestra"
+      },
+      {
+        "en": "Band",
+        "as": "Band"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A group of dancers is called 'Troupe'.",
+      "as": "ইংৰাজীত ইয়াক Troupe বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-206",
+    "q": {
+      "en": "A group of musicians is called —",
+      "as": "সংগীতজ্ঞৰ দলক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Audience",
+        "as": "Audience"
+      },
+      {
+        "en": "Orchestra",
+        "as": "Orchestra"
+      },
+      {
+        "en": "Choir",
+        "as": "Choir"
+      },
+      {
+        "en": "Troupe",
+        "as": "Troupe"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A group of musicians is called 'Orchestra'.",
+      "as": "ইংৰাজীত ইয়াক Orchestra বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-207",
+    "q": {
+      "en": "A number of sheep is called —",
+      "as": "ভেড়াৰ জাকক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Swarm",
+        "as": "Swarm"
+      },
+      {
+        "en": "Pack",
+        "as": "Pack"
+      },
+      {
+        "en": "Flock",
+        "as": "Flock"
+      },
+      {
+        "en": "Herd",
+        "as": "Herd"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A number of sheep is called 'Flock'.",
+      "as": "ইংৰাজীত ইয়াক Flock বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-208",
+    "q": {
+      "en": "A number of cattle is called —",
+      "as": "গৰুৰ জাকক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Pack",
+        "as": "Pack"
+      },
+      {
+        "en": "Flock",
+        "as": "Flock"
+      },
+      {
+        "en": "Swarm",
+        "as": "Swarm"
+      },
+      {
+        "en": "Herd",
+        "as": "Herd"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A number of cattle is called 'Herd'.",
+      "as": "ইংৰাজীত ইয়াক Herd বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-209",
+    "q": {
+      "en": "A number of lions is called —",
+      "as": "সিংহৰ দলক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Pride",
+        "as": "Pride"
+      },
+      {
+        "en": "Flock",
+        "as": "Flock"
+      },
+      {
+        "en": "Pack",
+        "as": "Pack"
+      },
+      {
+        "en": "Herd",
+        "as": "Herd"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A number of lions is called 'Pride'.",
+      "as": "ইংৰাজীত ইয়াক Pride বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-210",
+    "q": {
+      "en": "A number of wolves is called —",
+      "as": "কুকুৰনেছীয়া বাঘৰ দলক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Pride",
+        "as": "Pride"
+      },
+      {
+        "en": "Pack",
+        "as": "Pack"
+      },
+      {
+        "en": "Herd",
+        "as": "Herd"
+      },
+      {
+        "en": "Flock",
+        "as": "Flock"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A number of wolves is called 'Pack'.",
+      "as": "ইংৰাজীত ইয়াক Pack বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-211",
+    "q": {
+      "en": "A number of bees is called —",
+      "as": "মৌমাখিৰ জাকক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Flock",
+        "as": "Flock"
+      },
+      {
+        "en": "Herd",
+        "as": "Herd"
+      },
+      {
+        "en": "Swarm",
+        "as": "Swarm"
+      },
+      {
+        "en": "Pack",
+        "as": "Pack"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A number of bees is called 'Swarm'.",
+      "as": "ইংৰাজীত ইয়াক Swarm বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-212",
+    "q": {
+      "en": "A number of ants is called —",
+      "as": "পৰুৱাৰ দলক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Herd",
+        "as": "Herd"
+      },
+      {
+        "en": "Swarm",
+        "as": "Swarm"
+      },
+      {
+        "en": "Flock",
+        "as": "Flock"
+      },
+      {
+        "en": "Colony",
+        "as": "Colony"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A number of ants is called 'Colony'.",
+      "as": "ইংৰাজীত ইয়াক Colony বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-213",
+    "q": {
+      "en": "A number of fish swimming together is called —",
+      "as": "একেলগে সাঁতুৰি ফুৰা মাছৰ দলক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Shoal",
+        "as": "Shoal"
+      },
+      {
+        "en": "Flock",
+        "as": "Flock"
+      },
+      {
+        "en": "Herd",
+        "as": "Herd"
+      },
+      {
+        "en": "Pack",
+        "as": "Pack"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A number of fish swimming together is called 'Shoal'.",
+      "as": "ইংৰাজীত ইয়াক Shoal বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-214",
+    "q": {
+      "en": "A collection of flowers arranged together is called —",
+      "as": "একেলগে সজোৱা ফুলৰ সমষ্টিক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Anthology",
+        "as": "Anthology"
+      },
+      {
+        "en": "Bouquet",
+        "as": "Bouquet"
+      },
+      {
+        "en": "Wreath",
+        "as": "Wreath"
+      },
+      {
+        "en": "Garland",
+        "as": "Garland"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A collection of flowers arranged together is called 'Bouquet'.",
+      "as": "ইংৰাজীত ইয়াক Bouquet বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-215",
+    "q": {
+      "en": "A long journey by sea is called —",
+      "as": "সাগৰেৰে কৰা দীঘল যাত্ৰাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Flight",
+        "as": "Flight"
+      },
+      {
+        "en": "Pilgrimage",
+        "as": "Pilgrimage"
+      },
+      {
+        "en": "Voyage",
+        "as": "Voyage"
+      },
+      {
+        "en": "Excursion",
+        "as": "Excursion"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A long journey by sea is called 'Voyage'.",
+      "as": "ইংৰাজীত ইয়াক Voyage বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-216",
+    "q": {
+      "en": "A short journey made for pleasure is called —",
+      "as": "আমোদৰ বাবে কৰা চুটি যাত্ৰাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Pilgrimage",
+        "as": "Pilgrimage"
+      },
+      {
+        "en": "Voyage",
+        "as": "Voyage"
+      },
+      {
+        "en": "Expedition",
+        "as": "Expedition"
+      },
+      {
+        "en": "Excursion",
+        "as": "Excursion"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A short journey made for pleasure is called 'Excursion'.",
+      "as": "ইংৰাজীত ইয়াক Excursion বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-217",
+    "q": {
+      "en": "A journey to a holy place is called —",
+      "as": "পবিত্ৰ স্থানলৈ কৰা যাত্ৰাক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Pilgrimage",
+        "as": "Pilgrimage"
+      },
+      {
+        "en": "Voyage",
+        "as": "Voyage"
+      },
+      {
+        "en": "Expedition",
+        "as": "Expedition"
+      },
+      {
+        "en": "Excursion",
+        "as": "Excursion"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A journey to a holy place is called 'Pilgrimage'.",
+      "as": "ইংৰাজীত ইয়াক Pilgrimage বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-218",
+    "q": {
+      "en": "A place of worship for Muslims is called —",
+      "as": "মুছলমানসকলৰ উপাসনাস্থলক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Church",
+        "as": "Church"
+      },
+      {
+        "en": "Mosque",
+        "as": "Mosque"
+      },
+      {
+        "en": "Synagogue",
+        "as": "Synagogue"
+      },
+      {
+        "en": "Temple",
+        "as": "Temple"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A place of worship for Muslims is called 'Mosque'.",
+      "as": "ইংৰাজীত ইয়াক Mosque বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-219",
+    "q": {
+      "en": "A place of worship for Christians is called —",
+      "as": "খ্ৰীষ্টানসকলৰ উপাসনাস্থলক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Synagogue",
+        "as": "Synagogue"
+      },
+      {
+        "en": "Mosque",
+        "as": "Mosque"
+      },
+      {
+        "en": "Church",
+        "as": "Church"
+      },
+      {
+        "en": "Temple",
+        "as": "Temple"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A place of worship for Christians is called 'Church'.",
+      "as": "ইংৰাজীত ইয়াক Church বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "one-word-substitution-220",
+    "q": {
+      "en": "A place of worship for Jews is called —",
+      "as": "ইহুদীসকলৰ উপাসনাস্থলক কি বোলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Mosque",
+        "as": "Mosque"
+      },
+      {
+        "en": "Church",
+        "as": "Church"
+      },
+      {
+        "en": "Temple",
+        "as": "Temple"
+      },
+      {
+        "en": "Synagogue",
+        "as": "Synagogue"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A place of worship for Jews is called 'Synagogue'.",
+      "as": "ইংৰাজীত ইয়াক Synagogue বুলি কোৱা হয়।"
+    }
   }
-}
+]
