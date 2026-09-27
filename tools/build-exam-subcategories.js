@@ -689,7 +689,8 @@ function write(rel, content) {
 /* ---- Static SEO shell page (same shell as the subject page) ---- */
 function buildShellPage({ subEn, subAs, secEn, secAs, examEn, secHref, subHref, descEn, descAs, parentSubEn, parentSubHref }) {
   const canonical = BASE + subHref + "/";
-  const title = `${subEn} — ${secEn} — ${examEn} | axomexam`;
+  const fullTitle = `${subEn} — ${secEn} — ${examEn} | axomexam`;
+  const title = fullTitle.length > 65 ? `${subEn} — ${examEn} | axomexam` : fullTitle;
   const parentCrumb = parentSubEn
     ? `<a href="${parentSubHref}">${esc(parentSubEn)}</a><span class="bc-sep">/</span>`
     : "";
