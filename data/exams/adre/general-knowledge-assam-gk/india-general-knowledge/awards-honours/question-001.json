@@ -1,30 +1,3362 @@
-{
-  "id": "awards-honours-001",
-  "q": {
-    "en": "What is the highest civilian award of India?",
-    "as": "ভাৰতৰ সৰ্বোচ্চ অসামৰিক সন্মান কি?"
-  },
-  "options": [
-    {
-      "en": "Padma Vibhushan",
-      "as": "পদ্মবিভূষণ"
+[
+  {
+    "id": "awards-honours-001",
+    "q": {
+      "en": "What is the highest civilian award of India?",
+      "as": "ভাৰতৰ সৰ্বোচ্চ অসামৰিক সন্মান কি?"
     },
-    {
-      "en": "Bharat Ratna",
-      "as": "ভাৰত ৰত্ন"
-    },
-    {
-      "en": "Padma Bhushan",
-      "as": "পদ্মভূষণ"
-    },
-    {
-      "en": "Padma Shri",
-      "as": "পদ্মশ্ৰী"
+    "options": [
+      {
+        "en": "Padma Vibhushan",
+        "as": "পদ্মবিভূষণ"
+      },
+      {
+        "en": "Bharat Ratna",
+        "as": "ভাৰত ৰত্ন"
+      },
+      {
+        "en": "Padma Bhushan",
+        "as": "পদ্মভূষণ"
+      },
+      {
+        "en": "Padma Shri",
+        "as": "পদ্মশ্ৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Bharat Ratna is the highest civilian award of India.",
+      "as": "ভাৰত ৰত্ন ভাৰতৰ সৰ্বোচ্চ অসামৰিক সন্মান।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "The Bharat Ratna is the highest civilian award of India.",
-    "as": "ভাৰত ৰত্ন ভাৰতৰ সৰ্বোচ্চ অসামৰিক সন্মান।"
+  },
+  {
+    "id": "awards-honours-002",
+    "q": {
+      "en": "In which year was the Bharat Ratna instituted?",
+      "as": "ভাৰত ৰত্ন কোন বছৰত প্ৰতিষ্ঠা কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1950",
+        "as": "১৯৫০"
+      },
+      {
+        "en": "1955",
+        "as": "১৯৫৫"
+      },
+      {
+        "en": "1961",
+        "as": "১৯৬১"
+      },
+      {
+        "en": "1954",
+        "as": "১৯৫৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Bharat Ratna was instituted in 1954.",
+      "as": "ভাৰত ৰত্ন ১৯৫৪ চনত প্ৰতিষ্ঠা কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-003",
+    "q": {
+      "en": "Who was the first recipient of the Bharat Ratna?",
+      "as": "ভাৰত ৰত্নৰ প্ৰথম গ্ৰহণকাৰী কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Rajendra Prasad",
+        "as": "ৰাজেন্দ্ৰ প্ৰসাদ"
+      },
+      {
+        "en": "Jawaharlal Nehru",
+        "as": "জৱাহৰলাল নেহৰু"
+      },
+      {
+        "en": "C. Rajagopalachari",
+        "as": "চি. ৰাজগোপালাচাৰী"
+      },
+      {
+        "en": "Sardar Patel",
+        "as": "সৰ্দাৰ পেটেল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "C. Rajagopalachari was among the first recipients of the Bharat Ratna in 1954.",
+      "as": "১৯৫৪ চনত চি. ৰাজগোপালাচাৰী ভাৰত ৰত্নৰ প্ৰথম গ্ৰহণকাৰীসকলৰ এজন আছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-004",
+    "q": {
+      "en": "Who was the first woman to receive the Bharat Ratna?",
+      "as": "ভাৰত ৰত্ন লাভ কৰা প্ৰথমগৰাকী মহিলা কোন?"
+    },
+    "options": [
+      {
+        "en": "Sarojini Naidu",
+        "as": "সৰোজিনী নাইডু"
+      },
+      {
+        "en": "Lata Mangeshkar",
+        "as": "লতা মংগেশকাৰ"
+      },
+      {
+        "en": "Mother Teresa",
+        "as": "মাদাৰ টেৰেছা"
+      },
+      {
+        "en": "Indira Gandhi",
+        "as": "ইন্দিৰা গান্ধী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Indira Gandhi was the first woman to receive the Bharat Ratna (1971).",
+      "as": "ইন্দিৰা গান্ধী ভাৰত ৰত্ন লাভ কৰা প্ৰথমগৰাকী মহিলা (১৯৭১)।"
+    }
+  },
+  {
+    "id": "awards-honours-005",
+    "q": {
+      "en": "Who confers the Bharat Ratna?",
+      "as": "ভাৰত ৰত্ন কোনে প্ৰদান কৰে?"
+    },
+    "options": [
+      {
+        "en": "Prime Minister",
+        "as": "প্ৰধানমন্ত্ৰী"
+      },
+      {
+        "en": "Chief Justice of India",
+        "as": "ভাৰতৰ প্ৰধান বিচাৰপতি"
+      },
+      {
+        "en": "Parliament",
+        "as": "সংসদ"
+      },
+      {
+        "en": "President of India",
+        "as": "ভাৰতৰ ৰাষ্ট্ৰপতি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The President of India confers the Bharat Ratna.",
+      "as": "ভাৰতৰ ৰাষ্ট্ৰপতিয়ে ভাৰত ৰত্ন প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "awards-honours-006",
+    "q": {
+      "en": "The Bharat Ratna medal is shaped like the leaf of which tree?",
+      "as": "ভাৰত ৰত্নৰ পদক কোনখন গছৰ পাতৰ আকৃতিৰ?"
+    },
+    "options": [
+      {
+        "en": "Peepal",
+        "as": "পিপলি"
+      },
+      {
+        "en": "Banyan",
+        "as": "বৰগছ"
+      },
+      {
+        "en": "Mango",
+        "as": "আম"
+      },
+      {
+        "en": "Neem",
+        "as": "নিম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Bharat Ratna medal is designed in the shape of a Peepal leaf.",
+      "as": "ভাৰত ৰত্নৰ পদক পিপলি পাতৰ আকৃতিত নিৰ্মিত।"
+    }
+  },
+  {
+    "id": "awards-honours-007",
+    "q": {
+      "en": "How many categories of Padma Awards are there?",
+      "as": "কেইশ্ৰেণী পদ্ম বঁটা আছে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There are three Padma Awards: Padma Vibhushan, Padma Bhushan and Padma Shri.",
+      "as": "তিনিশ্ৰেণী পদ্ম বঁটা আছে: পদ্মবিভূষণ, পদ্মভূষণ আৰু পদ্মশ্ৰী।"
+    }
+  },
+  {
+    "id": "awards-honours-008",
+    "q": {
+      "en": "Which is the second highest civilian award of India?",
+      "as": "ভাৰতৰ দ্বিতীয় সৰ্বোচ্চ অসামৰিক সন্মান কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Padma Shri",
+        "as": "পদ্মশ্ৰী"
+      },
+      {
+        "en": "Padma Bhushan",
+        "as": "পদ্মভূষণ"
+      },
+      {
+        "en": "Bharat Ratna",
+        "as": "ভাৰত ৰত্ন"
+      },
+      {
+        "en": "Padma Vibhushan",
+        "as": "পদ্মবিভূষণ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Padma Vibhushan is the second highest civilian award of India.",
+      "as": "পদ্মবিভূষণ ভাৰতৰ দ্বিতীয় সৰ্বোচ্চ অসামৰিক সন্মান।"
+    }
+  },
+  {
+    "id": "awards-honours-009",
+    "q": {
+      "en": "Which is the third highest civilian award of India?",
+      "as": "ভাৰতৰ তৃতীয় সৰ্বোচ্চ অসামৰিক সন্মান কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Padma Bhushan",
+        "as": "পদ্মভূষণ"
+      },
+      {
+        "en": "Padma Vibhushan",
+        "as": "পদ্মবিভূষণ"
+      },
+      {
+        "en": "Padma Shri",
+        "as": "পদ্মশ্ৰী"
+      },
+      {
+        "en": "Bharat Ratna",
+        "as": "ভাৰত ৰত্ন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Padma Bhushan is the third highest civilian award of India.",
+      "as": "পদ্মভূষণ ভাৰতৰ তৃতীয় সৰ্বোচ্চ অসামৰিক সন্মান।"
+    }
+  },
+  {
+    "id": "awards-honours-010",
+    "q": {
+      "en": "On the occasion of which day are the Padma Awards announced?",
+      "as": "পদ্ম বঁটা কোন উপলক্ষত ঘোষণা কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Independence Day",
+        "as": "স্বাধীনতা দিৱস"
+      },
+      {
+        "en": "Gandhi Jayanti",
+        "as": "গান্ধী জয়ন্তী"
+      },
+      {
+        "en": "Republic Day",
+        "as": "গণৰাজ্য দিৱস"
+      },
+      {
+        "en": "New Year",
+        "as": "নতুন বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Padma Awards are announced every year on the occasion of Republic Day.",
+      "as": "পদ্ম বঁটা প্ৰতি বছৰে গণৰাজ্য দিৱস উপলক্ষত ঘোষণা কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-011",
+    "q": {
+      "en": "Which is the highest military award of India?",
+      "as": "ভাৰতৰ সৰ্বোচ্চ সামৰিক সন্মান কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Ashoka Chakra",
+        "as": "অশোক চক্ৰ"
+      },
+      {
+        "en": "Param Vir Chakra",
+        "as": "পৰম বীৰ চক্ৰ"
+      },
+      {
+        "en": "Maha Vir Chakra",
+        "as": "মহা বীৰ চক্ৰ"
+      },
+      {
+        "en": "Vir Chakra",
+        "as": "বীৰ চক্ৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Param Vir Chakra is the highest military (wartime gallantry) award of India.",
+      "as": "পৰম বীৰ চক্ৰ ভাৰতৰ সৰ্বোচ্চ সামৰিক (যুদ্ধকালীন বীৰত্ব) সন্মান।"
+    }
+  },
+  {
+    "id": "awards-honours-012",
+    "q": {
+      "en": "For what is the Param Vir Chakra awarded?",
+      "as": "পৰম বীৰ চক্ৰ কি বাবে প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Peacetime bravery",
+        "as": "শান্তিকালীন সাহস"
+      },
+      {
+        "en": "Literature",
+        "as": "সাহিত্য"
+      },
+      {
+        "en": "Sports",
+        "as": "খেল"
+      },
+      {
+        "en": "Wartime gallantry",
+        "as": "যুদ্ধকালীন বীৰত্ব"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Param Vir Chakra is awarded for the most conspicuous bravery in wartime.",
+      "as": "পৰম বীৰ চক্ৰ যুদ্ধকালত অসাধাৰণ বীৰত্বৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-013",
+    "q": {
+      "en": "Which is the highest peacetime gallantry award of India?",
+      "as": "ভাৰতৰ শান্তিকালীন সৰ্বোচ্চ বীৰত্ব সন্মান কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Param Vir Chakra",
+        "as": "পৰম বীৰ চক্ৰ"
+      },
+      {
+        "en": "Kirti Chakra",
+        "as": "কৃতি চক্ৰ"
+      },
+      {
+        "en": "Ashoka Chakra",
+        "as": "অশোক চক্ৰ"
+      },
+      {
+        "en": "Shaurya Chakra",
+        "as": "শৌৰ্য চক্ৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ashoka Chakra is India's highest peacetime gallantry award.",
+      "as": "অশোক চক্ৰ ভাৰতৰ শান্তিকালীন সৰ্বোচ্চ বীৰত্ব সন্মান।"
+    }
+  },
+  {
+    "id": "awards-honours-014",
+    "q": {
+      "en": "Who was the first recipient of the Param Vir Chakra?",
+      "as": "পৰম বীৰ চক্ৰৰ প্ৰথম গ্ৰহণকাৰী কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Vikram Batra",
+        "as": "বিক্ৰম বাত্ৰা"
+      },
+      {
+        "en": "Abdul Hamid",
+        "as": "আব্দুল হামিদ"
+      },
+      {
+        "en": "Major Somnath Sharma",
+        "as": "মেজৰ সোমনাথ শৰ্মা"
+      },
+      {
+        "en": "Arun Khetarpal",
+        "as": "অৰুণ খেতৰপাল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Major Somnath Sharma was the first recipient of the Param Vir Chakra.",
+      "as": "মেজৰ সোমনাথ শৰ্মা পৰম বীৰ চক্ৰৰ প্ৰথম গ্ৰহণকাৰী আছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-015",
+    "q": {
+      "en": "For what is the Ashoka Chakra awarded?",
+      "as": "অশোক চক্ৰ কি বাবে প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Wartime gallantry",
+        "as": "যুদ্ধকালীন বীৰত্ব"
+      },
+      {
+        "en": "Sports",
+        "as": "খেল"
+      },
+      {
+        "en": "Civil service",
+        "as": "অসামৰিক সেৱা"
+      },
+      {
+        "en": "Peacetime gallantry",
+        "as": "শান্তিকালীন বীৰত্ব"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ashoka Chakra is awarded for peacetime gallantry.",
+      "as": "অশোক চক্ৰ শান্তিকালীন বীৰত্বৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-016",
+    "q": {
+      "en": "Which is the highest award for children in India?",
+      "as": "ভাৰতত শিশুসকলৰ বাবে সৰ্বোচ্চ বঁটা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "National Bravery Award",
+        "as": "ৰাষ্ট্ৰীয় সাহসিকা বঁটা"
+      },
+      {
+        "en": "Khel Ratna",
+        "as": "খেল ৰত্ন"
+      },
+      {
+        "en": "Arjuna Award",
+        "as": "অৰ্জুন বঁটা"
+      },
+      {
+        "en": "Dronacharya Award",
+        "as": "দ্ৰোণাচাৰ্য বঁটা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The National Bravery Award is given to children for acts of bravery.",
+      "as": "সাহসিক কাৰ্যৰ বাবে শিশুসকলক ৰাষ্ট্ৰীয় সাহসিকা বঁটা প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-017",
+    "q": {
+      "en": "The Major Dhyan Chand Khel Ratna is the highest award in which field?",
+      "as": "মেজৰ ধ্যানচান্দ খেল ৰত্ন কোন ক্ষেত্ৰৰ সৰ্বোচ্চ সন্মান?"
+    },
+    "options": [
+      {
+        "en": "Literature",
+        "as": "সাহিত্য"
+      },
+      {
+        "en": "Cinema",
+        "as": "চলচ্চিত্ৰ"
+      },
+      {
+        "en": "Science",
+        "as": "বিজ্ঞান"
+      },
+      {
+        "en": "Sports",
+        "as": "খেল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Major Dhyan Chand Khel Ratna is the highest sporting honour of India.",
+      "as": "মেজৰ ধ্যানচান্দ খেল ৰত্ন ভাৰতৰ সৰ্বোচ্চ খেল সন্মান।"
+    }
+  },
+  {
+    "id": "awards-honours-018",
+    "q": {
+      "en": "What is the new name of the Rajiv Gandhi Khel Ratna Award?",
+      "as": "ৰাজীৱ গান্ধী খেল ৰত্নৰ নতুন নাম কি?"
+    },
+    "options": [
+      {
+        "en": "Arjuna Award",
+        "as": "অৰ্জুন বঁটা"
+      },
+      {
+        "en": "Milkha Singh Khel Ratna",
+        "as": "মিলখা সিং খেল ৰত্ন"
+      },
+      {
+        "en": "Dronacharya Award",
+        "as": "দ্ৰোণাচাৰ্য বঁটা"
+      },
+      {
+        "en": "Major Dhyan Chand Khel Ratna",
+        "as": "মেজৰ ধ্যানচান্দ খেল ৰত্ন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In 2021 the Rajiv Gandhi Khel Ratna was renamed Major Dhyan Chand Khel Ratna.",
+      "as": "২০২১ চনত ৰাজীৱ গান্ধী খেল ৰত্নৰ নাম সলনি কৰি মেজৰ ধ্যানচান্দ খেল ৰত্ন কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-019",
+    "q": {
+      "en": "Who was the first recipient of the Rajiv Gandhi Khel Ratna?",
+      "as": "ৰাজীৱ গান্ধী খেল ৰত্নৰ প্ৰথম গ্ৰহণকাৰী কোন?"
+    },
+    "options": [
+      {
+        "en": "Sachin Tendulkar",
+        "as": "শচীন তেণ্ডুলকাৰ"
+      },
+      {
+        "en": "Viswanathan Anand",
+        "as": "বিশ্বনাথন আনন্দ"
+      },
+      {
+        "en": "Milkha Singh",
+        "as": "মিলখা সিং"
+      },
+      {
+        "en": "P.T. Usha",
+        "as": "পি.টি. উষা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Chess player Viswanathan Anand was the first Khel Ratna recipient (1991-92).",
+      "as": "দবা খেলুৱৈ বিশ্বনাথন আনন্দ খেল ৰত্নৰ প্ৰথম গ্ৰহণকাৰী (১৯৯১-৯২)।"
+    }
+  },
+  {
+    "id": "awards-honours-020",
+    "q": {
+      "en": "For what is the Arjuna Award given?",
+      "as": "অৰ্জুন বঁটা কি বাবে প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Lifetime achievement in sports",
+        "as": "খেলত জীৱনজোৰা কৃতিত্ব"
+      },
+      {
+        "en": "Outstanding performance in sports",
+        "as": "খেলত অসাধাৰণ প্ৰদৰ্শন"
+      },
+      {
+        "en": "Excellence in coaching",
+        "as": "প্ৰশিক্ষণত উৎকৰ্ষতা"
+      },
+      {
+        "en": "Contribution to literature",
+        "as": "সাহিত্যলৈ অৱদান"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Arjuna Award is given for outstanding performance in sports.",
+      "as": "অৰ্জুন বঁটা খেলত অসাধাৰণ প্ৰদৰ্শনৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-021",
+    "q": {
+      "en": "In which year was the Arjuna Award instituted?",
+      "as": "অৰ্জুন বঁটা কোন বছৰত প্ৰৱৰ্তন কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1951",
+        "as": "১৯৫১"
+      },
+      {
+        "en": "1961",
+        "as": "১৯৬১"
+      },
+      {
+        "en": "1955",
+        "as": "১৯৫৫"
+      },
+      {
+        "en": "1965",
+        "as": "১৯৬৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Arjuna Award was instituted in 1961.",
+      "as": "অৰ্জুন বঁটা ১৯৬১ চনত প্ৰৱৰ্তন কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-022",
+    "q": {
+      "en": "The Dronacharya Award is given to whom?",
+      "as": "দ্ৰোণাচাৰ্য বঁটা কাক প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Coaches",
+        "as": "প্ৰশিক্ষক"
+      },
+      {
+        "en": "Players",
+        "as": "খেলুৱৈ"
+      },
+      {
+        "en": "Umpires",
+        "as": "আম্পায়াৰ"
+      },
+      {
+        "en": "Journalists",
+        "as": "সাংবাদিক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Dronacharya Award is given to outstanding coaches.",
+      "as": "দ্ৰোণাচাৰ্য বঁটা অসাধাৰণ প্ৰশিক্ষকসকলক প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-023",
+    "q": {
+      "en": "In which year was the Dronacharya Award instituted?",
+      "as": "দ্ৰোণাচাৰ্য বঁটা কোন বছৰত প্ৰৱৰ্তন কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1975",
+        "as": "১৯৭৫"
+      },
+      {
+        "en": "1985",
+        "as": "১৯৮৫"
+      },
+      {
+        "en": "1980",
+        "as": "১৯৮০"
+      },
+      {
+        "en": "1990",
+        "as": "১৯৯০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Dronacharya Award was instituted in 1985.",
+      "as": "দ্ৰোণাচাৰ্য বঁটা ১৯৮৫ চনত প্ৰৱৰ্তন কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-024",
+    "q": {
+      "en": "For what is the Dhyan Chand Award given?",
+      "as": "ধ্যানচান্দ বঁটা কি বাবে প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Lifetime achievement in sports",
+        "as": "খেলত জীৱনজোৰা কৃতিত্ব"
+      },
+      {
+        "en": "Best player of the year",
+        "as": "বছৰৰ শ্ৰেষ্ঠ খেলুৱৈ"
+      },
+      {
+        "en": "Best coach",
+        "as": "শ্ৰেষ্ঠ প্ৰশিক্ষক"
+      },
+      {
+        "en": "Best team",
+        "as": "শ্ৰেষ্ঠ দল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Dhyan Chand Award is given for lifetime achievement in sports.",
+      "as": "ধ্যানচান্দ বঁটা খেলত জীৱনজোৰা কৃতিত্বৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-025",
+    "q": {
+      "en": "Which is the highest literary award of India?",
+      "as": "ভাৰতৰ সৰ্বোচ্চ সাহিত্যিক সন্মান কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Sahitya Akademi Award",
+        "as": "সাহিত্য একাডেমী বঁটা"
+      },
+      {
+        "en": "Vyas Samman",
+        "as": "ব্যাস সন্মান"
+      },
+      {
+        "en": "Jnanpith Award",
+        "as": "জ্ঞানপীঠ বঁটা"
+      },
+      {
+        "en": "Saraswati Samman",
+        "as": "সৰস্বতী সন্মান"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Jnanpith Award is the highest literary award of India.",
+      "as": "জ্ঞানপীঠ বঁটা ভাৰতৰ সৰ্বোচ্চ সাহিত্যিক সন্মান।"
+    }
+  },
+  {
+    "id": "awards-honours-026",
+    "q": {
+      "en": "Who gives the Jnanpith Award?",
+      "as": "জ্ঞানপীঠ বঁটা কোনে প্ৰদান কৰে?"
+    },
+    "options": [
+      {
+        "en": "Bharatiya Jnanpith",
+        "as": "ভাৰতীয় জ্ঞানপীঠ"
+      },
+      {
+        "en": "Sahitya Akademi",
+        "as": "সাহিত্য একাডেমী"
+      },
+      {
+        "en": "Ministry of Culture",
+        "as": "সাংস্কৃতিক মন্ত্ৰালয়"
+      },
+      {
+        "en": "Sangeet Natak Akademi",
+        "as": "সংগীত নাটক একাডেমী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Jnanpith Award is presented by the Bharatiya Jnanpith organisation.",
+      "as": "ভাৰতীয় জ্ঞানপীঠ সংস্থাই জ্ঞানপীঠ বঁটা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "awards-honours-027",
+    "q": {
+      "en": "Who was the first recipient of the Jnanpith Award?",
+      "as": "জ্ঞানপীঠ বঁটাৰ প্ৰথম গ্ৰহণকাৰী কোন?"
+    },
+    "options": [
+      {
+        "en": "Sumitranandan Pant",
+        "as": "সুমিত্ৰানন্দন পন্ত"
+      },
+      {
+        "en": "Tarashankar Bandyopadhyay",
+        "as": "তাৰাশংকৰ বন্দ্যোপাধ্যায়"
+      },
+      {
+        "en": "G. Sankara Kurup",
+        "as": "জি. শংকৰ কুৰুপ"
+      },
+      {
+        "en": "Firaq Gorakhpuri",
+        "as": "ফিৰাক গোৰখপুৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "G. Sankara Kurup (Malayalam) was the first Jnanpith Award recipient in 1965.",
+      "as": "জি. শংকৰ কুৰুপ (মালয়ালম) ১৯৬৫ চনত জ্ঞানপীঠ বঁটাৰ প্ৰথম গ্ৰহণকাৰী আছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-028",
+    "q": {
+      "en": "Who was the first Assamese to win the Jnanpith Award?",
+      "as": "জ্ঞানপীঠ বঁটা লাভ কৰা প্ৰথম অসমীয়া কোন?"
+    },
+    "options": [
+      {
+        "en": "Mamoni Raisom Goswami",
+        "as": "মামণি ৰয়ছম গোস্বামী"
+      },
+      {
+        "en": "Nilmani Phookan",
+        "as": "নীলমণি ফুকন"
+      },
+      {
+        "en": "Birendra Kumar Bhattacharya",
+        "as": "বিৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+      },
+      {
+        "en": "Homen Borgohain",
+        "as": "হোমেন বৰগোহাঁই"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Birendra Kumar Bhattacharya was the first Assamese to win the Jnanpith Award.",
+      "as": "বিৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য জ্ঞানপীঠ বঁটা লাভ কৰা প্ৰথম অসমীয়া।"
+    }
+  },
+  {
+    "id": "awards-honours-029",
+    "q": {
+      "en": "In which year did Birendra Kumar Bhattacharya win the Jnanpith Award?",
+      "as": "বিৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যই কোন বছৰত জ্ঞানপীঠ বঁটা লাভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "1969",
+        "as": "১৯৬৯"
+      },
+      {
+        "en": "1979",
+        "as": "১৯৭৯"
+      },
+      {
+        "en": "1975",
+        "as": "১৯৭৫"
+      },
+      {
+        "en": "1983",
+        "as": "১৯৮৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Birendra Kumar Bhattacharya won the Jnanpith Award in 1979 for 'Mrityunjay'.",
+      "as": "বিৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যই ১৯৭৯ চনত 'মৃত্যুঞ্জয়'ৰ বাবে জ্ঞানপীঠ বঁটা লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-030",
+    "q": {
+      "en": "For which novel did Mamoni Raisom Goswami win the Jnanpith Award?",
+      "as": "মামণি ৰয়ছম গোস্বামীয়ে কোনখন উপন্যাসৰ বাবে জ্ঞানপীঠ বঁটা লাভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Agnigarbha",
+        "as": "অগ্নিগৰ্ভ"
+      },
+      {
+        "en": "Mrityunjay",
+        "as": "মৃত্যুঞ্জয়"
+      },
+      {
+        "en": "Iyaruingam",
+        "as": "ইয়াৰুইংগম"
+      },
+      {
+        "en": "The Moth Eaten Howdah of the Tusker",
+        "as": "দন্তাল হাতীৰ ঊণে খোৱা হাওদা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mamoni Raisom Goswami won the Jnanpith for 'The Moth Eaten Howdah of the Tusker'.",
+      "as": "মামণি ৰয়ছম গোস্বামীয়ে 'দন্তাল হাতীৰ ঊণে খোৱা হাওদা'ৰ বাবে জ্ঞানপীঠ লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-031",
+    "q": {
+      "en": "Which Assamese writer won the Jnanpith Award in 2021?",
+      "as": "২০২১ চনত জ্ঞানপীঠ বঁটা লাভ কৰা অসমীয়া লেখক কোন?"
+    },
+    "options": [
+      {
+        "en": "Nilmani Phookan",
+        "as": "নীলমণি ফুকন"
+      },
+      {
+        "en": "Homen Borgohain",
+        "as": "হোমেন বৰগোহাঁই"
+      },
+      {
+        "en": "Mamoni Raisom Goswami",
+        "as": "মামণি ৰয়ছম গোস্বামী"
+      },
+      {
+        "en": "Birendra Kumar Bhattacharya",
+        "as": "বিৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Poet Nilmani Phookan won the Jnanpith Award in 2021.",
+      "as": "কবি নীলমণি ফুকনে ২০২১ চনত জ্ঞানপীঠ বঁটা লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-032",
+    "q": {
+      "en": "Which is the highest award in Indian cinema?",
+      "as": "ভাৰতীয় চলচ্চিত্ৰৰ সৰ্বোচ্চ সন্মান কোনটো?"
+    },
+    "options": [
+      {
+        "en": "National Film Award",
+        "as": "ৰাষ্ট্ৰীয় চলচ্চিত্ৰ বঁটা"
+      },
+      {
+        "en": "Filmfare Award",
+        "as": "ফিল্মফেয়াৰ বঁটা"
+      },
+      {
+        "en": "Dadasaheb Phalke Award",
+        "as": "দাদাচাহেব ফাল্কে বঁটা"
+      },
+      {
+        "en": "Swarna Kamal",
+        "as": "স্বৰ্ণ কমল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Dadasaheb Phalke Award is the highest award in Indian cinema.",
+      "as": "দাদাচাহেব ফাল্কে বঁটা ভাৰতীয় চলচ্চিত্ৰৰ সৰ্বোচ্চ সন্মান।"
+    }
+  },
+  {
+    "id": "awards-honours-033",
+    "q": {
+      "en": "In which year was the Dadasaheb Phalke Award instituted?",
+      "as": "দাদাচাহেব ফাল্কে বঁটা কোন বছৰত প্ৰৱৰ্তন কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1959",
+        "as": "১৯৫৯"
+      },
+      {
+        "en": "1969",
+        "as": "১৯৬৯"
+      },
+      {
+        "en": "1964",
+        "as": "১৯৬৪"
+      },
+      {
+        "en": "1974",
+        "as": "১৯৭৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Dadasaheb Phalke Award was instituted in 1969.",
+      "as": "দাদাচাহেব ফাল্কে বঁটা ১৯৬৯ চনত প্ৰৱৰ্তন কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-034",
+    "q": {
+      "en": "Who was the first recipient of the Dadasaheb Phalke Award?",
+      "as": "দাদাচাহেব ফাল্কে বঁটাৰ প্ৰথম গ্ৰহণকাৰী কোন?"
+    },
+    "options": [
+      {
+        "en": "Ashok Kumar",
+        "as": "অশোক কুমাৰ"
+      },
+      {
+        "en": "Prithviraj Kapoor",
+        "as": "পৃথ্বীৰাজ কাপুৰ"
+      },
+      {
+        "en": "Devika Rani",
+        "as": "দেৱিকা ৰাণী"
+      },
+      {
+        "en": "V. Shantaram",
+        "as": "ভি. শান্তাৰাম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Devika Rani was the first recipient of the Dadasaheb Phalke Award.",
+      "as": "দেৱিকা ৰাণী দাদাচাহেব ফাল্কে বঁটাৰ প্ৰথম গ্ৰহণকাৰী আছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-035",
+    "q": {
+      "en": "Which Assamese personality received the Dadasaheb Phalke Award?",
+      "as": "দাদাচাহেব ফাল্কে বঁটা লাভ কৰা অসমীয়া ব্যক্তিত্ব কোন?"
+    },
+    "options": [
+      {
+        "en": "Parvati Prasad Baruva",
+        "as": "পাৰ্বতী প্ৰসাদ বৰুৱা"
+      },
+      {
+        "en": "Jyoti Prasad Agarwala",
+        "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
+      },
+      {
+        "en": "Bishnu Prasad Rabha",
+        "as": "বিষ্ণু প্ৰসাদ ৰাভা"
+      },
+      {
+        "en": "Bhupen Hazarika",
+        "as": "ভূপেন হাজৰিকা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bhupen Hazarika received the Dadasaheb Phalke Award in 1992.",
+      "as": "ভূপেন হাজৰিকাই ১৯৯২ চনত দাদাচাহেব ফাল্কে বঁটা লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-036",
+    "q": {
+      "en": "In which year did Bhupen Hazarika receive the Dadasaheb Phalke Award?",
+      "as": "ভূপেন হাজৰিকাই কোন বছৰত দাদাচাহেব ফাল্কে বঁটা লাভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "1992",
+        "as": "১৯৯২"
+      },
+      {
+        "en": "1990",
+        "as": "১৯৯০"
+      },
+      {
+        "en": "1987",
+        "as": "১৯৮৭"
+      },
+      {
+        "en": "1995",
+        "as": "১৯৯৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bhupen Hazarika received the Dadasaheb Phalke Award in 1992.",
+      "as": "ভূপেন হাজৰিকাই ১৯৯২ চনত দাদাচাহেব ফাল্কে বঁটা লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-037",
+    "q": {
+      "en": "In which year was Bhupen Hazarika posthumously awarded the Bharat Ratna?",
+      "as": "ভূপেন হাজৰিকাক কোন বছৰত মৰণোত্তৰভাৱে ভাৰত ৰত্ন প্ৰদান কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "2021",
+        "as": "২০২১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bhupen Hazarika was posthumously awarded the Bharat Ratna in 2019.",
+      "as": "ভূপেন হাজৰিকাক ২০১৯ চনত মৰণোত্তৰভাৱে ভাৰত ৰত্ন প্ৰদান কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-038",
+    "q": {
+      "en": "Which Assamese singer received the Bharat Ratna?",
+      "as": "ভাৰত ৰত্ন লাভ কৰা অসমীয়া সংগীতশিল্পী কোন?"
+    },
+    "options": [
+      {
+        "en": "Jyoti Prasad Agarwala",
+        "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
+      },
+      {
+        "en": "Bhupen Hazarika",
+        "as": "ভূপেন হাজৰিকা"
+      },
+      {
+        "en": "Bishnu Prasad Rabha",
+        "as": "বিষ্ণু প্ৰসাদ ৰাভা"
+      },
+      {
+        "en": "Parvati Prasad Baruva",
+        "as": "পাৰ্বতী প্ৰসাদ বৰুৱা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bhupen Hazarika is the Assamese singer who received the Bharat Ratna (2019).",
+      "as": "ভূপেন হাজৰিকা ভাৰত ৰত্ন লাভ কৰা অসমীয়া সংগীতশিল্পী (২০১৯)।"
+    }
+  },
+  {
+    "id": "awards-honours-039",
+    "q": {
+      "en": "In which year was Gopinath Bordoloi awarded the Bharat Ratna?",
+      "as": "গোপীনাথ বৰদলৈক কোন বছৰত ভাৰত ৰত্ন প্ৰদান কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1991",
+        "as": "১৯৯১"
+      },
+      {
+        "en": "1996",
+        "as": "১৯৯৬"
+      },
+      {
+        "en": "1999",
+        "as": "১৯৯৯"
+      },
+      {
+        "en": "2001",
+        "as": "২০০১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Gopinath Bordoloi was awarded the Bharat Ratna posthumously in 1999.",
+      "as": "গোপীনাথ বৰদলৈক ১৯৯৯ চনত মৰণোত্তৰভাৱে ভাৰত ৰত্ন প্ৰদান কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-040",
+    "q": {
+      "en": "Gopinath Bordoloi was the first Chief Minister of which state?",
+      "as": "গোপীনাথ বৰদলৈ কোনখন ৰাজ্যৰ প্ৰথম মুখ্যমন্ত্ৰী আছিল?"
+    },
+    "options": [
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Gopinath Bordoloi was the first Chief Minister of Assam.",
+      "as": "গোপীনাথ বৰদলৈ অসমৰ প্ৰথম মুখ্যমন্ত্ৰী আছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-041",
+    "q": {
+      "en": "Which is the highest civilian award of Assam?",
+      "as": "অসমৰ সৰ্বোচ্চ অসামৰিক সন্মান কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Assam Ratna",
+        "as": "অসম ৰত্ন"
+      },
+      {
+        "en": "Assam Gaurav",
+        "as": "অসম গৌৰৱ"
+      },
+      {
+        "en": "Assam Saurav",
+        "as": "অসম সৌৰভ"
+      },
+      {
+        "en": "Assam Baibhav",
+        "as": "অসম বৈভৱ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assam Baibhav is the highest civilian award of Assam.",
+      "as": "অসম বৈভৱ অসমৰ সৰ্বোচ্চ অসামৰিক সন্মান।"
+    }
+  },
+  {
+    "id": "awards-honours-042",
+    "q": {
+      "en": "In which year was the Assam Baibhav award instituted?",
+      "as": "অসম বৈভৱ বঁটা কোন বছৰত প্ৰৱৰ্তন কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2021",
+        "as": "২০২১"
+      },
+      {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2022",
+        "as": "২০২২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Assam Baibhav award was instituted in 2021.",
+      "as": "অসম বৈভৱ বঁটা ২০২১ চনত প্ৰৱৰ্তন কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-043",
+    "q": {
+      "en": "Which is the second highest civilian award of Assam?",
+      "as": "অসমৰ দ্বিতীয় সৰ্বোচ্চ অসামৰিক সন্মান কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Assam Gaurav",
+        "as": "অসম গৌৰৱ"
+      },
+      {
+        "en": "Assam Saurav",
+        "as": "অসম সৌৰভ"
+      },
+      {
+        "en": "Assam Baibhav",
+        "as": "অসম বৈভৱ"
+      },
+      {
+        "en": "Assam Ratna",
+        "as": "অসম ৰত্ন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam Saurav is the second highest civilian award of Assam.",
+      "as": "অসম সৌৰভ অসমৰ দ্বিতীয় সৰ্বোচ্চ অসামৰিক সন্মান।"
+    }
+  },
+  {
+    "id": "awards-honours-044",
+    "q": {
+      "en": "Which is the third highest civilian award of Assam?",
+      "as": "অসমৰ তৃতীয় সৰ্বোচ্চ অসামৰিক সন্মান কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Assam Saurav",
+        "as": "অসম সৌৰভ"
+      },
+      {
+        "en": "Assam Gaurav",
+        "as": "অসম গৌৰৱ"
+      },
+      {
+        "en": "Assam Baibhav",
+        "as": "অসম বৈভৱ"
+      },
+      {
+        "en": "Assam Ratna",
+        "as": "অসম ৰত্ন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam Gaurav is the third highest civilian award of Assam.",
+      "as": "অসম গৌৰৱ অসমৰ তৃতীয় সৰ্বোচ্চ অসামৰিক সন্মান।"
+    }
+  },
+  {
+    "id": "awards-honours-045",
+    "q": {
+      "en": "Who was the first Indian to win a Nobel Prize?",
+      "as": "ভাৰতৰ প্ৰথম নোবেল বিজয়ী কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "C.V. Raman",
+        "as": "চি.ভি. ৰমন"
+      },
+      {
+        "en": "Amartya Sen",
+        "as": "অমৰ্ত্য সেন"
+      },
+      {
+        "en": "Mother Teresa",
+        "as": "মাদাৰ টেৰেছা"
+      },
+      {
+        "en": "Rabindranath Tagore",
+        "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rabindranath Tagore was the first Indian Nobel laureate (1913).",
+      "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ ভাৰতৰ প্ৰথম নোবেল বিজয়ী (১৯১৩)।"
+    }
+  },
+  {
+    "id": "awards-honours-046",
+    "q": {
+      "en": "For which work did Rabindranath Tagore win the Nobel Prize?",
+      "as": "ৰবীন্দ্ৰনাথ ঠাকুৰে কোনখন গ্ৰন্থৰ বাবে নোবেল বঁটা লাভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Gitanjali",
+        "as": "গীতাঞ্জলি"
+      },
+      {
+        "en": "Gora",
+        "as": "গোৰা"
+      },
+      {
+        "en": "The Home and the World",
+        "as": "ঘৰে বাহিৰে"
+      },
+      {
+        "en": "Kabuliwala",
+        "as": "কাবুলীৱালা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Tagore won the Nobel Prize in Literature for 'Gitanjali' (Song Offerings).",
+      "as": "ঠাকুৰে 'গীতাঞ্জলি'ৰ বাবে সাহিত্যৰ নোবেল বঁটা লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-047",
+    "q": {
+      "en": "Who was the first Asian to win a Nobel Prize?",
+      "as": "প্ৰথম এছীয় নোবেল বিজয়ী কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Mother Teresa",
+        "as": "মাদাৰ টেৰেছা"
+      },
+      {
+        "en": "Rabindranath Tagore",
+        "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+      },
+      {
+        "en": "C.V. Raman",
+        "as": "চি.ভি. ৰমন"
+      },
+      {
+        "en": "Amartya Sen",
+        "as": "অমৰ্ত্য সেন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rabindranath Tagore was the first Asian Nobel laureate.",
+      "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ প্ৰথম এছীয় নোবেল বিজয়ী আছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-048",
+    "q": {
+      "en": "Who was the first Indian to win a Nobel Prize in Science?",
+      "as": "বিজ্ঞানত নোবেল বঁটা লাভ কৰা প্ৰথম ভাৰতীয় কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Venki Ramakrishnan",
+        "as": "ভেংকি ৰামকৃষ্ণন"
+      },
+      {
+        "en": "S. Chandrasekhar",
+        "as": "এছ. চন্দ্ৰশেখৰ"
+      },
+      {
+        "en": "Homi Bhabha",
+        "as": "হোমি ভাবা"
+      },
+      {
+        "en": "C.V. Raman",
+        "as": "চি.ভি. ৰমন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "C.V. Raman won the Nobel Prize in Physics in 1930 for the Raman Effect.",
+      "as": "চি.ভি. ৰমনে ৰমন প্ৰভাৱৰ বাবে ১৯৩০ চনত পদাৰ্থ বিজ্ঞানৰ নোবেল লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-049",
+    "q": {
+      "en": "Which Indian won the Nobel Peace Prize in 1979?",
+      "as": "১৯৭৯ চনত শান্তিৰ নোবেল বঁটা লাভ কৰা ভাৰতীয় কোন?"
+    },
+    "options": [
+      {
+        "en": "Amartya Sen",
+        "as": "অমৰ্ত্য সেন"
+      },
+      {
+        "en": "Kailash Satyarthi",
+        "as": "কৈলাশ সত্যাৰ্থী"
+      },
+      {
+        "en": "Rabindranath Tagore",
+        "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+      },
+      {
+        "en": "Mother Teresa",
+        "as": "মাদাৰ টেৰেছা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mother Teresa won the Nobel Peace Prize in 1979.",
+      "as": "মাদাৰ টেৰেছাই ১৯৭৯ চনত শান্তিৰ নোবেল বঁটা লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-050",
+    "q": {
+      "en": "Which Indian won the Nobel Prize in Economics in 1998?",
+      "as": "১৯৯৮ চনত অৰ্থনীতিৰ নোবেল বঁটা লাভ কৰা ভাৰতীয় কোন?"
+    },
+    "options": [
+      {
+        "en": "Kailash Satyarthi",
+        "as": "কৈলাশ সত্যাৰ্থী"
+      },
+      {
+        "en": "Abhijit Banerjee",
+        "as": "অভিজিৎ বেনাৰ্জী"
+      },
+      {
+        "en": "Amartya Sen",
+        "as": "অমৰ্ত্য সেন"
+      },
+      {
+        "en": "C.V. Raman",
+        "as": "চি.ভি. ৰমন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Amartya Sen won the Nobel Prize in Economics in 1998.",
+      "as": "অমৰ্ত্য সেনে ১৯৯৮ চনত অৰ্থনীতিৰ নোবেল বঁটা লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-051",
+    "q": {
+      "en": "Which Indian won the Nobel Peace Prize in 2014?",
+      "as": "২০১৪ চনত শান্তিৰ নোবেল বঁটা লাভ কৰা ভাৰতীয় কোন?"
+    },
+    "options": [
+      {
+        "en": "Amartya Sen",
+        "as": "অমৰ্ত্য সেন"
+      },
+      {
+        "en": "Kailash Satyarthi",
+        "as": "কৈলাশ সত্যাৰ্থী"
+      },
+      {
+        "en": "Mother Teresa",
+        "as": "মাদাৰ টেৰেছা"
+      },
+      {
+        "en": "Abhijit Banerjee",
+        "as": "অভিজিৎ বেনাৰ্জী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kailash Satyarthi won the Nobel Peace Prize in 2014.",
+      "as": "কৈলাশ সত্যাৰ্থীয়ে ২০১৪ চনত শান্তিৰ নোবেল বঁটা লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-052",
+    "q": {
+      "en": "The Shanti Swarup Bhatnagar Prize is given in which field?",
+      "as": "শান্তি স্বৰূপ ভট্টনাগৰ বঁটা কোন ক্ষেত্ৰত প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Literature",
+        "as": "সাহিত্য"
+      },
+      {
+        "en": "Cinema",
+        "as": "চলচ্চিত্ৰ"
+      },
+      {
+        "en": "Sports",
+        "as": "খেল"
+      },
+      {
+        "en": "Science",
+        "as": "বিজ্ঞান"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Shanti Swarup Bhatnagar Prize is given for achievements in science.",
+      "as": "শান্তি স্বৰূপ ভট্টনাগৰ বঁটা বিজ্ঞানত কৃতিত্বৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-053",
+    "q": {
+      "en": "Who gives the Shanti Swarup Bhatnagar Prize?",
+      "as": "শান্তি স্বৰূপ ভট্টনাগৰ বঁটা কোনে প্ৰদান কৰে?"
+    },
+    "options": [
+      {
+        "en": "CSIR",
+        "as": "চি.এছ.আই.আৰ."
+      },
+      {
+        "en": "UGC",
+        "as": "ইউ.জি.চি."
+      },
+      {
+        "en": "ICAR",
+        "as": "আই.চি.এ.আৰ."
+      },
+      {
+        "en": "ISRO",
+        "as": "ইছৰো"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Shanti Swarup Bhatnagar Prize is given by CSIR.",
+      "as": "চি.এছ.আই.আৰ.-এ শান্তি স্বৰূপ ভট্টনাগৰ বঁটা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "awards-honours-054",
+    "q": {
+      "en": "When is National Science Day celebrated in India?",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় বিজ্ঞান দিৱস কেতিয়া পালন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "15 January",
+        "as": "১৫ জানুৱাৰী"
+      },
+      {
+        "en": "28 February",
+        "as": "২৮ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "5 September",
+        "as": "৫ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "14 November",
+        "as": "১৪ নৱেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "National Science Day is celebrated on 28 February to mark the discovery of the Raman Effect.",
+      "as": "ৰমন প্ৰভাৱ আৱিষ্কাৰৰ স্মৃতিত ২৮ ফেব্ৰুৱাৰীত ৰাষ্ট্ৰীয় বিজ্ঞান দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-055",
+    "q": {
+      "en": "What is the highest honour of the Sangeet Natak Akademi?",
+      "as": "সংগীত নাটক একাডেমীৰ সৰ্বোচ্চ সন্মান কি?"
+    },
+    "options": [
+      {
+        "en": "Akademi Puraskar",
+        "as": "একাডেমী পুৰস্কাৰ"
+      },
+      {
+        "en": "Tagore Ratna",
+        "as": "টেগৰ ৰত্ন"
+      },
+      {
+        "en": "Ustad Bismillah Khan Yuva Puraskar",
+        "as": "ওস্তাদ বিছমিল্লাহ খান যুৱ পুৰস্কাৰ"
+      },
+      {
+        "en": "Akademi Ratna",
+        "as": "একাডেমী ৰত্ন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Sangeet Natak Akademi Ratna is the highest honour of the Akademi.",
+      "as": "সংগীত নাটক একাডেমী ৰত্ন একাডেমীৰ সৰ্বোচ্চ সন্মান।"
+    }
+  },
+  {
+    "id": "awards-honours-056",
+    "q": {
+      "en": "The Sangeet Natak Akademi Award is given for excellence in which field?",
+      "as": "সংগীত নাটক একাডেমী বঁটা কোন ক্ষেত্ৰত উৎকৰ্ষতাৰ বাবে প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Literature",
+        "as": "সাহিত্য"
+      },
+      {
+        "en": "Science",
+        "as": "বিজ্ঞান"
+      },
+      {
+        "en": "Fine arts",
+        "as": "ললিত কলা"
+      },
+      {
+        "en": "Performing arts",
+        "as": "পৰিৱেশন কলা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Sangeet Natak Akademi Award is given for excellence in performing arts.",
+      "as": "সংগীত নাটক একাডেমী বঁটা পৰিৱেশন কলাত উৎকৰ্ষতাৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-057",
+    "q": {
+      "en": "The Lalit Kala Akademi is associated with which field?",
+      "as": "ললিত কলা একাডেমী কোন ক্ষেত্ৰৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Literature",
+        "as": "সাহিত্য"
+      },
+      {
+        "en": "Music",
+        "as": "সংগীত"
+      },
+      {
+        "en": "Dance",
+        "as": "নৃত্য"
+      },
+      {
+        "en": "Fine arts",
+        "as": "ললিত কলা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Lalit Kala Akademi is the national academy of fine arts.",
+      "as": "ললিত কলা একাডেমী ললিত কলাৰ ৰাষ্ট্ৰীয় একাডেমী।"
+    }
+  },
+  {
+    "id": "awards-honours-058",
+    "q": {
+      "en": "The Sahitya Akademi Award is given for excellence in which field?",
+      "as": "সাহিত্য একাডেমী বঁটা কোন ক্ষেত্ৰত উৎকৰ্ষতাৰ বাবে প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Music",
+        "as": "সংগীত"
+      },
+      {
+        "en": "Dance",
+        "as": "নৃত্য"
+      },
+      {
+        "en": "Literature",
+        "as": "সাহিত্য"
+      },
+      {
+        "en": "Cinema",
+        "as": "চলচ্চিত্ৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Sahitya Akademi Award is a literary honour given for outstanding literary works.",
+      "as": "সাহিত্য একাডেমী বঁটা উল্লেখযোগ্য সাহিত্য কৰ্মৰ বাবে প্ৰদান কৰা এটা সাহিত্যিক সন্মান।"
+    }
+  },
+  {
+    "id": "awards-honours-059",
+    "q": {
+      "en": "The 'Swarna Kamal' is associated with which awards?",
+      "as": "'স্বৰ্ণ কমল' কি বঁটাৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Sangeet Natak Akademi Awards",
+        "as": "সংগীত নাটক একাডেমী বঁটা"
+      },
+      {
+        "en": "Sahitya Akademi Awards",
+        "as": "সাহিত্য একাডেমী বঁটা"
+      },
+      {
+        "en": "National Film Awards",
+        "as": "ৰাষ্ট্ৰীয় চলচ্চিত্ৰ বঁটা"
+      },
+      {
+        "en": "Lalit Kala Akademi Awards",
+        "as": "ললিত কলা একাডেমী বঁটা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Swarna Kamal (Golden Lotus) is awarded at the National Film Awards.",
+      "as": "স্বৰ্ণ কমল ৰাষ্ট্ৰীয় চলচ্চিত্ৰ বঁটাত প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-060",
+    "q": {
+      "en": "Who confers the Padma Awards?",
+      "as": "পদ্ম বঁটা কোনে প্ৰদান কৰে?"
+    },
+    "options": [
+      {
+        "en": "Prime Minister",
+        "as": "প্ৰধানমন্ত্ৰী"
+      },
+      {
+        "en": "President of India",
+        "as": "ভাৰতৰ ৰাষ্ট্ৰপতি"
+      },
+      {
+        "en": "Vice President",
+        "as": "উপ-ৰাষ্ট্ৰপতি"
+      },
+      {
+        "en": "Speaker of Lok Sabha",
+        "as": "লোকসভাৰ অধ্যক্ষ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The President of India confers the Padma Awards.",
+      "as": "ভাৰতৰ ৰাষ্ট্ৰপতিয়ে পদ্ম বঁটা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "awards-honours-061",
+    "q": {
+      "en": "Who recommends the Bharat Ratna to the President of India?",
+      "as": "ভাৰত ৰত্নৰ বাবে ৰাষ্ট্ৰপতিলৈ সুপাৰিশ কোনে আগবঢ়ায়?"
+    },
+    "options": [
+      {
+        "en": "The President himself",
+        "as": "ৰাষ্ট্ৰপতিয়ে নিজে"
+      },
+      {
+        "en": "The Prime Minister",
+        "as": "প্ৰধানমন্ত্ৰী"
+      },
+      {
+        "en": "The Parliament",
+        "as": "সংসদ"
+      },
+      {
+        "en": "The Chief Justice of India",
+        "as": "ভাৰতৰ প্ৰধান বিচাৰপতি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Prime Minister makes recommendations for the Bharat Ratna to the President.",
+      "as": "প্ৰধানমন্ত্ৰীয়ে ভাৰত ৰত্নৰ বাবে ৰাষ্ট্ৰপতিলৈ সুপাৰিশ আগবঢ়ায়।"
+    }
+  },
+  {
+    "id": "awards-honours-062",
+    "q": {
+      "en": "In which year did Sachin Tendulkar receive the Bharat Ratna?",
+      "as": "শচীন তেণ্ডুলকাৰে কোন বছৰত ভাৰত ৰত্ন লাভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "2012",
+        "as": "২০১২"
+      },
+      {
+        "en": "2013",
+        "as": "২০১৩"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sachin Tendulkar received the Bharat Ratna in 2014.",
+      "as": "শচীন তেণ্ডুলকাৰে ২০১৪ চনত ভাৰত ৰত্ন লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-063",
+    "q": {
+      "en": "Who was the first sportsperson to receive the Bharat Ratna?",
+      "as": "ভাৰত ৰত্ন লাভ কৰা প্ৰথমগৰাকী খেলুৱৈ কোন?"
+    },
+    "options": [
+      {
+        "en": "Major Dhyan Chand",
+        "as": "মেজৰ ধ্যানচান্দ"
+      },
+      {
+        "en": "Sachin Tendulkar",
+        "as": "শচীন তেণ্ডুলকাৰ"
+      },
+      {
+        "en": "Viswanathan Anand",
+        "as": "বিশ্বনাথন আনন্দ"
+      },
+      {
+        "en": "Mary Kom",
+        "as": "মেৰী কম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sachin Tendulkar was the first sportsperson to receive the Bharat Ratna (2014).",
+      "as": "শচীন তেণ্ডুলকাৰ ভাৰত ৰত্ন লাভ কৰা প্ৰথমগৰাকী খেলুৱৈ (২০১৪)।"
+    }
+  },
+  {
+    "id": "awards-honours-064",
+    "q": {
+      "en": "Who is the youngest recipient of the Bharat Ratna?",
+      "as": "আটাইতকৈ কম বয়সত ভাৰত ৰত্ন লাভ কৰা ব্যক্তি কোন?"
+    },
+    "options": [
+      {
+        "en": "A.P.J. Abdul Kalam",
+        "as": "এ.পি.জে. আব্দুল কালাম"
+      },
+      {
+        "en": "Indira Gandhi",
+        "as": "ইন্দিৰা গান্ধী"
+      },
+      {
+        "en": "Sachin Tendulkar",
+        "as": "শচীন তেণ্ডুলকাৰ"
+      },
+      {
+        "en": "Lata Mangeshkar",
+        "as": "লতা মংগেশকাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sachin Tendulkar is the youngest recipient of the Bharat Ratna (at age 40).",
+      "as": "শচীন তেণ্ডুলকাৰ আটাইতকৈ কম বয়সত (৪০ বছৰ) ভাৰত ৰত্ন লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-065",
+    "q": {
+      "en": "In which year did Lata Mangeshkar receive the Bharat Ratna?",
+      "as": "লতা মংগেশকাৰে কোন বছৰত ভাৰত ৰত্ন লাভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "1999",
+        "as": "১৯৯৯"
+      },
+      {
+        "en": "2000",
+        "as": "২০০০"
+      },
+      {
+        "en": "2005",
+        "as": "২০০৫"
+      },
+      {
+        "en": "2001",
+        "as": "২০০১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Lata Mangeshkar received the Bharat Ratna in 2001.",
+      "as": "লতা মংগেশকাৰে ২০০১ চনত ভাৰত ৰত্ন লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-066",
+    "q": {
+      "en": "In which year did A.P.J. Abdul Kalam receive the Bharat Ratna?",
+      "as": "এ.পি.জে. আব্দুল কালামে কোন বছৰত ভাৰত ৰত্ন লাভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "1990",
+        "as": "১৯৯০"
+      },
+      {
+        "en": "2002",
+        "as": "২০০২"
+      },
+      {
+        "en": "2000",
+        "as": "২০০০"
+      },
+      {
+        "en": "1997",
+        "as": "১৯৯৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A.P.J. Abdul Kalam received the Bharat Ratna in 1997.",
+      "as": "এ.পি.জে. আব্দুল কালামে ১৯৯৭ চনত ভাৰত ৰত্ন লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-067",
+    "q": {
+      "en": "In which year did Atal Bihari Vajpayee receive the Bharat Ratna?",
+      "as": "অটল বিহাৰী বাজপেয়ীয়ে কোন বছৰত ভাৰত ৰত্ন লাভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Atal Bihari Vajpayee received the Bharat Ratna in 2015.",
+      "as": "অটল বিহাৰী বাজপেয়ীয়ে ২০১৫ চনত ভাৰত ৰত্ন লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-068",
+    "q": {
+      "en": "In which year did Madan Mohan Malaviya receive the Bharat Ratna?",
+      "as": "মদন মোহন মালব্যে কোন বছৰত ভাৰত ৰত্ন লাভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Madan Mohan Malaviya was awarded the Bharat Ratna posthumously in 2015.",
+      "as": "মদন মোহন মালব্যক ২০১৫ চনত মৰণোত্তৰভাৱে ভাৰত ৰত্ন প্ৰদান কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-069",
+    "q": {
+      "en": "In which year did Pranab Mukherjee receive the Bharat Ratna?",
+      "as": "প্ৰণৱ মুখাৰ্জীয়ে কোন বছৰত ভাৰত ৰত্ন লাভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      },
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      },
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2020",
+        "as": "২০২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Pranab Mukherjee received the Bharat Ratna in 2019.",
+      "as": "প্ৰণৱ মুখাৰ্জীয়ে ২০১৯ চনত ভাৰত ৰত্ন লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-070",
+    "q": {
+      "en": "Which award did Hima Das receive in 2018?",
+      "as": "হিমা দাসে ২০১৮ চনত কোন বঁটা লাভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Arjuna Award",
+        "as": "অৰ্জুন বঁটা"
+      },
+      {
+        "en": "Khel Ratna",
+        "as": "খেল ৰত্ন"
+      },
+      {
+        "en": "Dronacharya Award",
+        "as": "দ্ৰোণাচাৰ্য বঁটা"
+      },
+      {
+        "en": "Padma Shri",
+        "as": "পদ্মশ্ৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Hima Das received the Arjuna Award in 2018.",
+      "as": "হিমা দাসে ২০১৮ চনত অৰ্জুন বঁটা লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-071",
+    "q": {
+      "en": "Hima Das is associated with which sport?",
+      "as": "হিমা দাস কোনটো খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Boxing",
+        "as": "বক্সিং"
+      },
+      {
+        "en": "Athletics",
+        "as": "এথলেটিকছ"
+      },
+      {
+        "en": "Wrestling",
+        "as": "মল্লযুদ্ধ"
+      },
+      {
+        "en": "Badminton",
+        "as": "বেডমিণ্টন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Hima Das is an Indian sprinter associated with athletics.",
+      "as": "হিমা দাস এগৰাকী ভাৰতীয় দৌৰবিদ, এথলেটিকছৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "awards-honours-072",
+    "q": {
+      "en": "Lovlina Borgohain is associated with which sport?",
+      "as": "লৱলীনা বৰগোহাঁই কোনটো খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Boxing",
+        "as": "বক্সিং"
+      },
+      {
+        "en": "Athletics",
+        "as": "এথলেটিকছ"
+      },
+      {
+        "en": "Archery",
+        "as": "ধনুৰ্বিদ্যা"
+      },
+      {
+        "en": "Swimming",
+        "as": "সাঁতোৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Lovlina Borgohain is an Indian boxer from Assam.",
+      "as": "লৱলীনা বৰগোহাঁই অসমৰ এগৰাকী ভাৰতীয় বক্সাৰ।"
+    }
+  },
+  {
+    "id": "awards-honours-073",
+    "q": {
+      "en": "Who was the first Assamese to receive the Arjuna Award?",
+      "as": "অৰ্জুন বঁটা লাভ কৰা প্ৰথম অসমীয়া কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Lovlina Borgohain",
+        "as": "লৱলীনা বৰগোহাঁই"
+      },
+      {
+        "en": "Hima Das",
+        "as": "হিমা দাস"
+      },
+      {
+        "en": "Bhogeswar Baruah",
+        "as": "ভোগেশ্বৰ বৰুৱা"
+      },
+      {
+        "en": "Dipa Karmakar",
+        "as": "দীপা কৰ্মকাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bhogeswar Baruah was the first Assamese to receive the Arjuna Award.",
+      "as": "ভোগেশ্বৰ বৰুৱা অৰ্জুন বঁটা লাভ কৰা প্ৰথম অসমীয়া আছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-074",
+    "q": {
+      "en": "In which year did Bhogeswar Baruah receive the Arjuna Award?",
+      "as": "ভোগেশ্বৰ বৰুৱাই কোন বছৰত অৰ্জুন বঁটা লাভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "1961",
+        "as": "১৯৬১"
+      },
+      {
+        "en": "1975",
+        "as": "১৯৭৫"
+      },
+      {
+        "en": "1970",
+        "as": "১৯৭০"
+      },
+      {
+        "en": "1966",
+        "as": "১৯৬৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bhogeswar Baruah received the Arjuna Award in 1966.",
+      "as": "ভোগেশ্বৰ বৰুৱাই ১৯৬৬ চনত অৰ্জুন বঁটা লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-075",
+    "q": {
+      "en": "Which highest sporting honour did Mary Kom receive?",
+      "as": "মেৰী কমে কোনটো সৰ্বোচ্চ খেল সন্মান লাভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Arjuna Award",
+        "as": "অৰ্জুন বঁটা"
+      },
+      {
+        "en": "Padma Shri",
+        "as": "পদ্মশ্ৰী"
+      },
+      {
+        "en": "Dronacharya Award",
+        "as": "দ্ৰোণাচাৰ্য বঁটা"
+      },
+      {
+        "en": "Khel Ratna",
+        "as": "খেল ৰত্ন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mary Kom received the Khel Ratna, India's highest sporting honour.",
+      "as": "মেৰী কমে ভাৰতৰ সৰ্বোচ্চ খেল সন্মান খেল ৰত্ন লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-076",
+    "q": {
+      "en": "The Dronacharya Award is named after whom?",
+      "as": "দ্ৰোণাচাৰ্য বঁটাৰ নাম কাৰ নামেৰে ৰখা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Arjuna",
+        "as": "অৰ্জুন"
+      },
+      {
+        "en": "Dronacharya",
+        "as": "দ্ৰোণাচাৰ্য"
+      },
+      {
+        "en": "Karna",
+        "as": "কৰ্ণ"
+      },
+      {
+        "en": "Bhima",
+        "as": "ভীম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Dronacharya Award is named after Dronacharya, the guru of the Pandavas.",
+      "as": "দ্ৰোণাচাৰ্য বঁটাৰ নাম পাণ্ডৱসকলৰ গুৰু দ্ৰোণাচাৰ্যৰ নামেৰে ৰখা হৈছে।"
+    }
+  },
+  {
+    "id": "awards-honours-077",
+    "q": {
+      "en": "The Arjuna Award is named after whom?",
+      "as": "অৰ্জুন বঁটাৰ নাম কাৰ নামেৰে ৰখা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Arjuna",
+        "as": "অৰ্জুন"
+      },
+      {
+        "en": "Bhima",
+        "as": "ভীম"
+      },
+      {
+        "en": "Karna",
+        "as": "কৰ্ণ"
+      },
+      {
+        "en": "Yudhishthira",
+        "as": "যুধিষ্ঠিৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Arjuna Award is named after Arjuna, the great archer of the Mahabharata.",
+      "as": "অৰ্জুন বঁটাৰ নাম মহাভাৰতৰ মহান ধনুৰ্দ্ধৰ অৰ্জুনৰ নামেৰে ৰখা হৈছে।"
+    }
+  },
+  {
+    "id": "awards-honours-078",
+    "q": {
+      "en": "The Ashoka Chakra is named after whom?",
+      "as": "অশোক চক্ৰৰ নাম কাৰ নামেৰে ৰখা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Emperor Ashoka",
+        "as": "সম্ৰাট অশোক"
+      },
+      {
+        "en": "Chandragupta",
+        "as": "চন্দ্ৰগুপ্ত"
+      },
+      {
+        "en": "Akbar",
+        "as": "আকবৰ"
+      },
+      {
+        "en": "Samudragupta",
+        "as": "সমুদ্ৰগুপ্ত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Ashoka Chakra is named after Emperor Ashoka.",
+      "as": "অশোক চক্ৰৰ নাম সম্ৰাট অশোকৰ নামেৰে ৰখা হৈছে।"
+    }
+  },
+  {
+    "id": "awards-honours-079",
+    "q": {
+      "en": "Which is the second highest wartime gallantry award after the Param Vir Chakra?",
+      "as": "পৰম বীৰ চক্ৰৰ পিছত দ্বিতীয় সৰ্বোচ্চ যুদ্ধকালীন বীৰত্ব বঁটা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Vir Chakra",
+        "as": "বীৰ চক্ৰ"
+      },
+      {
+        "en": "Maha Vir Chakra",
+        "as": "মহা বীৰ চক্ৰ"
+      },
+      {
+        "en": "Ashoka Chakra",
+        "as": "অশোক চক্ৰ"
+      },
+      {
+        "en": "Kirti Chakra",
+        "as": "কৃতি চক্ৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Maha Vir Chakra is the second highest wartime gallantry award.",
+      "as": "মহা বীৰ চক্ৰ দ্বিতীয় সৰ্বোচ্চ যুদ্ধকালীন বীৰত্ব বঁটা।"
+    }
+  },
+  {
+    "id": "awards-honours-080",
+    "q": {
+      "en": "Which is the second highest peacetime gallantry award?",
+      "as": "দ্বিতীয় সৰ্বোচ্চ শান্তিকালীন বীৰত্ব বঁটা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Kirti Chakra",
+        "as": "কৃতি চক্ৰ"
+      },
+      {
+        "en": "Ashoka Chakra",
+        "as": "অশোক চক্ৰ"
+      },
+      {
+        "en": "Shaurya Chakra",
+        "as": "শৌৰ্য চক্ৰ"
+      },
+      {
+        "en": "Param Vir Chakra",
+        "as": "পৰম বীৰ চক্ৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kirti Chakra is the second highest peacetime gallantry award.",
+      "as": "কৃতি চক্ৰ দ্বিতীয় সৰ্বোচ্চ শান্তিকালীন বীৰত্ব বঁটা।"
+    }
+  },
+  {
+    "id": "awards-honours-081",
+    "q": {
+      "en": "The Vir Chakra is associated with which type of gallantry?",
+      "as": "বীৰ চক্ৰ কোন প্ৰকাৰৰ বীৰত্বৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Wartime gallantry",
+        "as": "যুদ্ধকালীন বীৰত্ব"
+      },
+      {
+        "en": "Peacetime gallantry",
+        "as": "শান্তিকালীন বীৰত্ব"
+      },
+      {
+        "en": "Sports",
+        "as": "খেল"
+      },
+      {
+        "en": "Literature",
+        "as": "সাহিত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Vir Chakra is awarded for acts of gallantry during war.",
+      "as": "বীৰ চক্ৰ যুদ্ধকালত বীৰত্বৰ কাৰ্যৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-082",
+    "q": {
+      "en": "The Shaurya Chakra is associated with which type of gallantry?",
+      "as": "শৌৰ্য চক্ৰ কোন প্ৰকাৰৰ বীৰত্বৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Wartime gallantry",
+        "as": "যুদ্ধকালীন বীৰত্ব"
+      },
+      {
+        "en": "Cinema",
+        "as": "চলচ্চিত্ৰ"
+      },
+      {
+        "en": "Peacetime gallantry",
+        "as": "শান্তিকালীন বীৰত্ব"
+      },
+      {
+        "en": "Science",
+        "as": "বিজ্ঞান"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Shaurya Chakra is awarded for gallantry otherwise than in the face of the enemy.",
+      "as": "শৌৰ্য চক্ৰ শত্ৰুৰ সন্মুখীন নোহোৱাকৈ বীৰত্বৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-083",
+    "q": {
+      "en": "In which year did M.S. Swaminathan receive the Bharat Ratna?",
+      "as": "এম.এছ. স্বামীনাথনে কোন বছৰত ভাৰত ৰত্ন লাভ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "2021",
+        "as": "২০২১"
+      },
+      {
+        "en": "2022",
+        "as": "২০২২"
+      },
+      {
+        "en": "2024",
+        "as": "২০২৪"
+      },
+      {
+        "en": "2023",
+        "as": "২০২৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "M.S. Swaminathan was posthumously awarded the Bharat Ratna in 2024.",
+      "as": "এম.এছ. স্বামীনাথনক ২০২৪ চনত মৰণোত্তৰভাৱে ভাৰত ৰত্ন প্ৰদান কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-084",
+    "q": {
+      "en": "Which scientist was posthumously awarded the Bharat Ratna in 2024?",
+      "as": "২০২৪ চনত মৰণোত্তৰভাৱে ভাৰত ৰত্ন লাভ কৰা বিজ্ঞানী কোন?"
+    },
+    "options": [
+      {
+        "en": "C.V. Raman",
+        "as": "চি.ভি. ৰমন"
+      },
+      {
+        "en": "Homi Bhabha",
+        "as": "হোমি ভাবা"
+      },
+      {
+        "en": "M.S. Swaminathan",
+        "as": "এম.এছ. স্বামীনাথন"
+      },
+      {
+        "en": "Vikram Sarabhai",
+        "as": "বিক্ৰম সাৰাভাই"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Agricultural scientist M.S. Swaminathan was posthumously awarded the Bharat Ratna in 2024.",
+      "as": "কৃষি বিজ্ঞানী এম.এছ. স্বামীনাথনক ২০২৪ চনত মৰণোত্তৰভাৱে ভাৰত ৰত্ন প্ৰদান কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-085",
+    "q": {
+      "en": "In which year did Karpoori Thakur receive the Bharat Ratna?",
+      "as": "কৰ্পুৰী ঠাকুৰক কোন বছৰত ভাৰত ৰত্ন প্ৰদান কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2024",
+        "as": "২০২৪"
+      },
+      {
+        "en": "2022",
+        "as": "২০২২"
+      },
+      {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
+        "en": "2023",
+        "as": "২০২৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Karpoori Thakur was awarded the Bharat Ratna posthumously in 2024.",
+      "as": "কৰ্পুৰী ঠাকুৰক ২০২৪ চনত মৰণোত্তৰভাৱে ভাৰত ৰত্ন প্ৰদান কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-086",
+    "q": {
+      "en": "Which former Prime Minister received the Bharat Ratna in 2024?",
+      "as": "২০২৪ চনত ভাৰত ৰত্ন লাভ কৰা প্ৰাক্তন প্ৰধানমন্ত্ৰী কোন?"
+    },
+    "options": [
+      {
+        "en": "Jawaharlal Nehru",
+        "as": "জৱাহৰলাল নেহৰু"
+      },
+      {
+        "en": "P.V. Narasimha Rao",
+        "as": "পি.ভি. নৰসিংহ ৰাও"
+      },
+      {
+        "en": "Atal Bihari Vajpayee",
+        "as": "অটল বিহাৰী বাজপেয়ী"
+      },
+      {
+        "en": "Rajiv Gandhi",
+        "as": "ৰাজীৱ গান্ধী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Former Prime Minister P.V. Narasimha Rao received the Bharat Ratna in 2024.",
+      "as": "প্ৰাক্তন প্ৰধানমন্ত্ৰী পি.ভি. নৰসিংহ ৰাৱে ২০২৪ চনত ভাৰত ৰত্ন লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-087",
+    "q": {
+      "en": "In which year did L.K. Advani receive the Bharat Ratna?",
+      "as": "এল.কে. আদবানীক কোন বছৰত ভাৰত ৰত্ন প্ৰদান কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2024",
+        "as": "২০২৪"
+      },
+      {
+        "en": "2023",
+        "as": "২০২৩"
+      },
+      {
+        "en": "2022",
+        "as": "২০২২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "L.K. Advani received the Bharat Ratna in 2024.",
+      "as": "এল.কে. আদবানীয়ে ২০২৪ চনত ভাৰত ৰত্ন লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-088",
+    "q": {
+      "en": "Who was the first person to receive the Bharat Ratna posthumously?",
+      "as": "মৰণোত্তৰভাৱে ভাৰত ৰত্ন লাভ কৰা প্ৰথম ব্যক্তি কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Lal Bahadur Shastri",
+        "as": "লাল বাহাদুৰ শাস্ত্ৰী"
+      },
+      {
+        "en": "Jawaharlal Nehru",
+        "as": "জৱাহৰলাল নেহৰু"
+      },
+      {
+        "en": "Indira Gandhi",
+        "as": "ইন্দিৰা গান্ধী"
+      },
+      {
+        "en": "Rajiv Gandhi",
+        "as": "ৰাজীৱ গান্ধী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Lal Bahadur Shastri was the first person to receive the Bharat Ratna posthumously (1966).",
+      "as": "লাল বাহাদুৰ শাস্ত্ৰী মৰণোত্তৰভাৱে ভাৰত ৰত্ন লাভ কৰা প্ৰথম ব্যক্তি (১৯৬৬)।"
+    }
+  },
+  {
+    "id": "awards-honours-089",
+    "q": {
+      "en": "In which year was Lal Bahadur Shastri awarded the Bharat Ratna?",
+      "as": "লাল বাহাদুৰ শাস্ত্ৰীক কোন বছৰত ভাৰত ৰত্ন প্ৰদান কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1966",
+        "as": "১৯৬৬"
+      },
+      {
+        "en": "1965",
+        "as": "১৯৬৫"
+      },
+      {
+        "en": "1964",
+        "as": "১৯৬৪"
+      },
+      {
+        "en": "1967",
+        "as": "১৯৬৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Lal Bahadur Shastri was awarded the Bharat Ratna posthumously in 1966.",
+      "as": "লাল বাহাদুৰ শাস্ত্ৰীক ১৯৬৬ চনত মৰণোত্তৰভাৱে ভাৰত ৰত্ন প্ৰদান কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-090",
+    "q": {
+      "en": "The Ramon Magsaysay Award is popularly known as what?",
+      "as": "ৰেমন মেগছেছে বঁটাক কি বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Africa's Nobel Prize",
+        "as": "আফ্ৰিকাৰ নোবেল বঁটা"
+      },
+      {
+        "en": "Europe's Nobel Prize",
+        "as": "ইউৰোপৰ নোবেল বঁটা"
+      },
+      {
+        "en": "Asia's Nobel Prize",
+        "as": "এছিয়াৰ নোবেল বঁটা"
+      },
+      {
+        "en": "America's Nobel Prize",
+        "as": "আমেৰিকাৰ নোবেল বঁটা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Ramon Magsaysay Award is often called Asia's Nobel Prize.",
+      "as": "ৰেমন মেগছেছে বঁটাক প্ৰায়ে এছিয়াৰ নোবেল বঁটা বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-091",
+    "q": {
+      "en": "The Ramon Magsaysay Award is named after a president of which country?",
+      "as": "ৰেমন মেগছেছে বঁটা কোনখন দেশৰ ৰাষ্ট্ৰপতিৰ নামেৰে ৰখা হৈছে?"
+    },
+    "options": [
+      {
+        "en": "Indonesia",
+        "as": "ইণ্ডোনেছিয়া"
+      },
+      {
+        "en": "Thailand",
+        "as": "থাইলেণ্ড"
+      },
+      {
+        "en": "Philippines",
+        "as": "ফিলিপাইনছ"
+      },
+      {
+        "en": "Malaysia",
+        "as": "মালয়েছিয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Ramon Magsaysay Award is named after a former President of the Philippines.",
+      "as": "ৰেমন মেগছেছে বঁটা ফিলিপাইনছৰ এজন প্ৰাক্তন ৰাষ্ট্ৰপতিৰ নামেৰে ৰখা হৈছে।"
+    }
+  },
+  {
+    "id": "awards-honours-092",
+    "q": {
+      "en": "Who was the first Indian to receive the Ramon Magsaysay Award?",
+      "as": "ৰেমন মেগছেছে বঁটা লাভ কৰা প্ৰথম ভাৰতীয় কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Amartya Sen",
+        "as": "অমৰ্ত্য সেন"
+      },
+      {
+        "en": "Mother Teresa",
+        "as": "মাদাৰ টেৰেছা"
+      },
+      {
+        "en": "Vinoba Bhave",
+        "as": "বিনোবা ভাবে"
+      },
+      {
+        "en": "Satyajit Ray",
+        "as": "সত্যজিৎ ৰায়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Vinoba Bhave was the first Indian recipient of the Ramon Magsaysay Award (1958).",
+      "as": "বিনোবা ভাবে ৰেমন মেগছেছে বঁটা লাভ কৰা প্ৰথম ভাৰতীয় (১৯৫৮)।"
+    }
+  },
+  {
+    "id": "awards-honours-093",
+    "q": {
+      "en": "The Right Livelihood Award is also known as what?",
+      "as": "ৰাইট লাইভলিহুড বঁটাক কি বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Alternative Nobel Prize",
+        "as": "বিকল্প নোবেল বঁটা"
+      },
+      {
+        "en": "Green Nobel Prize",
+        "as": "সেউজ নোবেল বঁটা"
+      },
+      {
+        "en": "People's Nobel Prize",
+        "as": "জনতাৰ নোবেল বঁটা"
+      },
+      {
+        "en": "Asian Nobel Prize",
+        "as": "এছিয়ান নোবেল বঁটা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Right Livelihood Award is widely known as the Alternative Nobel Prize.",
+      "as": "ৰাইট লাইভলিহুড বঁটাক বিকল্প নোবেল বঁটা হিচাপে জনা যায়।"
+    }
+  },
+  {
+    "id": "awards-honours-094",
+    "q": {
+      "en": "In which year was the Sahitya Akademi established?",
+      "as": "সাহিত্য একাডেমী কোন বছৰত প্ৰতিষ্ঠা কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1950",
+        "as": "১৯৫০"
+      },
+      {
+        "en": "1952",
+        "as": "১৯৫২"
+      },
+      {
+        "en": "1954",
+        "as": "১৯৫৪"
+      },
+      {
+        "en": "1956",
+        "as": "১৯৫৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Sahitya Akademi was established in 1954.",
+      "as": "সাহিত্য একাডেমী ১৯৫৪ চনত প্ৰতিষ্ঠা কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-095",
+    "q": {
+      "en": "In which year was the Sangeet Natak Akademi established?",
+      "as": "সংগীত নাটক একাডেমী কোন বছৰত প্ৰতিষ্ঠা কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1952",
+        "as": "১৯৫২"
+      },
+      {
+        "en": "1950",
+        "as": "১৯৫০"
+      },
+      {
+        "en": "1954",
+        "as": "১৯৫৪"
+      },
+      {
+        "en": "1956",
+        "as": "১৯৫৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Sangeet Natak Akademi was established in 1952.",
+      "as": "সংগীত নাটক একাডেমী ১৯৫২ চনত প্ৰতিষ্ঠা কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-096",
+    "q": {
+      "en": "In which year was the Lalit Kala Akademi established?",
+      "as": "ললিত কলা একাডেমী কোন বছৰত প্ৰতিষ্ঠা কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1952",
+        "as": "১৯৫২"
+      },
+      {
+        "en": "1958",
+        "as": "১৯৫৮"
+      },
+      {
+        "en": "1956",
+        "as": "১৯৫৬"
+      },
+      {
+        "en": "1954",
+        "as": "১৯৫৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Lalit Kala Akademi was established in 1954.",
+      "as": "ললিত কলা একাডেমী ১৯৫৪ চনত প্ৰতিষ্ঠা কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-097",
+    "q": {
+      "en": "Which is the highest honour for coaches in India?",
+      "as": "ভাৰতত প্ৰশিক্ষকসকলৰ বাবে সৰ্বোচ্চ সন্মান কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Arjuna Award",
+        "as": "অৰ্জুন বঁটা"
+      },
+      {
+        "en": "Khel Ratna",
+        "as": "খেল ৰত্ন"
+      },
+      {
+        "en": "Dronacharya Award",
+        "as": "দ্ৰোণাচাৰ্য বঁটা"
+      },
+      {
+        "en": "Dhyan Chand Award",
+        "as": "ধ্যানচান্দ বঁটা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Dronacharya Award is the highest honour for coaches in India.",
+      "as": "দ্ৰোণাচাৰ্য বঁটা ভাৰতত প্ৰশিক্ষকসকলৰ বাবে সৰ্বোচ্চ সন্মান।"
+    }
+  },
+  {
+    "id": "awards-honours-098",
+    "q": {
+      "en": "For what is the Dhyan Chand Award given?",
+      "as": "ধ্যানচান্দ বঁটা কি বাবে প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Best coach",
+        "as": "শ্ৰেষ্ঠ প্ৰশিক্ষক"
+      },
+      {
+        "en": "Lifetime achievement in sports",
+        "as": "খেলত জীৱনজোৰা কৃতিত্ব"
+      },
+      {
+        "en": "Best debut performance",
+        "as": "শ্ৰেষ্ঠ নৱাগত প্ৰদৰ্শন"
+      },
+      {
+        "en": "Best team",
+        "as": "শ্ৰেষ্ঠ দল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dhyan Chand Award is given for lifetime achievement in sports.",
+      "as": "ধ্যানচান্দ বঁটা খেলত জীৱনজোৰা কৃতিত্বৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-099",
+    "q": {
+      "en": "In which year was Bhupen Hazarika awarded the Padma Vibhushan?",
+      "as": "ভূপেন হাজৰিকাক কোন বছৰত পদ্মবিভূষণ প্ৰদান কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2001",
+        "as": "২০০১"
+      },
+      {
+        "en": "2008",
+        "as": "২০০৮"
+      },
+      {
+        "en": "2012",
+        "as": "২০১২"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bhupen Hazarika was awarded the Padma Vibhushan posthumously in 2012.",
+      "as": "ভূপেন হাজৰিকাক ২০১২ চনত মৰণোত্তৰভাৱে পদ্মবিভূষণ প্ৰদান কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-100",
+    "q": {
+      "en": "In which year was Bhupen Hazarika awarded the Padma Bhushan?",
+      "as": "ভূপেন হাজৰিকাক কোন বছৰত পদ্মভূষণ প্ৰদান কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1977",
+        "as": "১৯৭৭"
+      },
+      {
+        "en": "2001",
+        "as": "২০০১"
+      },
+      {
+        "en": "1987",
+        "as": "১৯৮৭"
+      },
+      {
+        "en": "2012",
+        "as": "২০১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bhupen Hazarika was awarded the Padma Bhushan in 2001.",
+      "as": "ভূপেন হাজৰিকাক ২০০১ চনত পদ্মভূষণ প্ৰদান কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-101",
+    "q": {
+      "en": "In which year was Bhupen Hazarika awarded the Padma Shri?",
+      "as": "ভূপেন হাজৰিকাক কোন বছৰত পদ্মশ্ৰী প্ৰদান কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1977",
+        "as": "১৯৭৭"
+      },
+      {
+        "en": "1972",
+        "as": "১৯৭২"
+      },
+      {
+        "en": "1982",
+        "as": "১৯৮২"
+      },
+      {
+        "en": "1987",
+        "as": "১৯৮৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bhupen Hazarika was awarded the Padma Shri in 1977.",
+      "as": "ভূপেন হাজৰিকাক ১৯৭৭ চনত পদ্মশ্ৰী প্ৰদান কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-102",
+    "q": {
+      "en": "By what title is Bhupen Hazarika popularly known?",
+      "as": "ভূপেন হাজৰিকাক কি উপাধিৰে জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Rupkonwar",
+        "as": "ৰূপকোঁৱৰ"
+      },
+      {
+        "en": "Sudhakantha",
+        "as": "সুধাকণ্ঠ"
+      },
+      {
+        "en": "Kalaguru",
+        "as": "কলাগুৰু"
+      },
+      {
+        "en": "Biswakabi",
+        "as": "বিশ্বকবি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bhupen Hazarika is popularly known as 'Sudhakantha'.",
+      "as": "ভূপেন হাজৰিকাক 'সুধাকণ্ঠ' নামেৰে জনা যায়।"
+    }
+  },
+  {
+    "id": "awards-honours-103",
+    "q": {
+      "en": "Rabindranath Tagore renounced his knighthood in protest against which incident?",
+      "as": "ৰবীন্দ্ৰনাথ ঠাকুৰে কোন ঘটনাৰ প্ৰতিবাদত নাইট উপাধি ত্যাগ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Champaran Satyagraha",
+        "as": "চম্পাৰণ সত্যাগ্ৰহ"
+      },
+      {
+        "en": "Dandi March",
+        "as": "দাণ্ডী যাত্ৰা"
+      },
+      {
+        "en": "Non-Cooperation Movement",
+        "as": "অসহযোগ আন্দোলন"
+      },
+      {
+        "en": "Jallianwala Bagh massacre",
+        "as": "জালিয়ানৱালাবাগ হত্যাকাণ্ড"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Tagore renounced his knighthood in protest against the Jallianwala Bagh massacre (1919).",
+      "as": "ঠাকুৰে জালিয়ানৱালাবাগ হত্যাকাণ্ডৰ প্ৰতিবাদত নাইট উপাধি ত্যাগ কৰিছিল (১৯১৯)।"
+    }
+  },
+  {
+    "id": "awards-honours-104",
+    "q": {
+      "en": "How many Bharat Ratna awards were conferred in the year 2024?",
+      "as": "২০২৪ চনত মুঠ কেইটা ভাৰত ৰত্ন প্ৰদান কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Five Bharat Ratna awards were announced in 2024.",
+      "as": "২০২৪ চনত পাঁচটা ভাৰত ৰত্ন ঘোষণা কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "awards-honours-105",
+    "q": {
+      "en": "The Bharat Ratna is which type of award?",
+      "as": "ভাৰত ৰত্ন কি ধৰণৰ বঁটা?"
+    },
+    "options": [
+      {
+        "en": "Civilian award",
+        "as": "অসামৰিক বঁটা"
+      },
+      {
+        "en": "Military award",
+        "as": "সামৰিক বঁটা"
+      },
+      {
+        "en": "Sports award",
+        "as": "খেল বঁটা"
+      },
+      {
+        "en": "Literary award",
+        "as": "সাহিত্যিক বঁটা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Bharat Ratna is a civilian award.",
+      "as": "ভাৰত ৰত্ন এটা অসামৰিক বঁটা।"
+    }
+  },
+  {
+    "id": "awards-honours-106",
+    "q": {
+      "en": "Who is eligible for the Bharat Ratna?",
+      "as": "ভাৰত ৰত্নৰ বাবে কোন যোগ্য?"
+    },
+    "options": [
+      {
+        "en": "Any person regardless of race, occupation, position or sex",
+        "as": "বৰ্ণ, বৃত্তি, পদ বা লিংগ নিৰ্বিশেষে যিকোনো ব্যক্তি"
+      },
+      {
+        "en": "Only Indians by birth",
+        "as": "কেৱল জন্মসূত্ৰে ভাৰতীয়"
+      },
+      {
+        "en": "Only government servants",
+        "as": "কেৱল চৰকাৰী কৰ্মচাৰী"
+      },
+      {
+        "en": "Only members of the armed forces",
+        "as": "কেৱল সশস্ত্ৰ বাহিনীৰ সদস্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Bharat Ratna is open to any person without distinction of race, occupation, position or sex.",
+      "as": "বৰ্ণ, বৃত্তি, পদ বা লিংগৰ পাৰ্থক্য নকৰাকৈ যিকোনো ব্যক্তিয়ে ভাৰত ৰত্নৰ বাবে যোগ্য।"
+    }
+  },
+  {
+    "id": "awards-honours-107",
+    "q": {
+      "en": "The Assam Valley Literary Award is given for excellence in which field?",
+      "as": "অসম ভেলী সাহিত্য বঁটা কোন ক্ষেত্ৰত উৎকৰ্ষতাৰ বাবে প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Sports",
+        "as": "খেল"
+      },
+      {
+        "en": "Literature",
+        "as": "সাহিত্য"
+      },
+      {
+        "en": "Music",
+        "as": "সংগীত"
+      },
+      {
+        "en": "Cinema",
+        "as": "চলচ্চিত্ৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Assam Valley Literary Award is given for excellence in literature.",
+      "as": "অসম ভেলী সাহিত্য বঁটা সাহিত্যত উৎকৰ্ষতাৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-108",
+    "q": {
+      "en": "To whom is the National Bravery Award given?",
+      "as": "ৰাষ্ট্ৰীয় সাহসিকা বঁটা কাক প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Soldiers",
+        "as": "সৈনিক"
+      },
+      {
+        "en": "Scientists",
+        "as": "বিজ্ঞানী"
+      },
+      {
+        "en": "Children",
+        "as": "শিশু"
+      },
+      {
+        "en": "Sportspersons",
+        "as": "খেলুৱৈ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The National Bravery Award is given to children for acts of bravery.",
+      "as": "সাহসিক কাৰ্যৰ বাবে শিশুসকলক ৰাষ্ট্ৰীয় সাহসিকা বঁটা প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-109",
+    "q": {
+      "en": "Which is the highest among the Padma Awards?",
+      "as": "পদ্ম বঁটাসমূহৰ ভিতৰত সৰ্বোচ্চ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Padma Bhushan",
+        "as": "পদ্মভূষণ"
+      },
+      {
+        "en": "Padma Vibhushan",
+        "as": "পদ্মবিভূষণ"
+      },
+      {
+        "en": "Padma Shri",
+        "as": "পদ্মশ্ৰী"
+      },
+      {
+        "en": "Padma Ratna",
+        "as": "পদ্ম ৰত্ন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Padma Vibhushan is the highest among the Padma Awards.",
+      "as": "পদ্মবিভূষণ পদ্ম বঁটাসমূহৰ ভিতৰত সৰ্বোচ্চ।"
+    }
+  },
+  {
+    "id": "awards-honours-110",
+    "q": {
+      "en": "In peacetime, the Ashoka Chakra is equivalent to which wartime award?",
+      "as": "শান্তিকালত অশোক চক্ৰ কোনটো যুদ্ধকালীন বঁটাৰ সমতুল্য?"
+    },
+    "options": [
+      {
+        "en": "Param Vir Chakra",
+        "as": "পৰম বীৰ চক্ৰ"
+      },
+      {
+        "en": "Maha Vir Chakra",
+        "as": "মহা বীৰ চক্ৰ"
+      },
+      {
+        "en": "Vir Chakra",
+        "as": "বীৰ চক্ৰ"
+      },
+      {
+        "en": "Kirti Chakra",
+        "as": "কৃতি চক্ৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Ashoka Chakra is the peacetime equivalent of the Param Vir Chakra.",
+      "as": "অশোক চক্ৰ পৰম বীৰ চক্ৰৰ শান্তিকালীন সমতুল্য।"
+    }
+  },
+  {
+    "id": "awards-honours-111",
+    "q": {
+      "en": "Which is the highest gallantry award for civilians in India?",
+      "as": "ভাৰতত অসামৰিকসকলৰ বাবে সৰ্বোচ্চ বীৰত্ব বঁটা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Ashoka Chakra",
+        "as": "অশোক চক্ৰ"
+      },
+      {
+        "en": "Param Vir Chakra",
+        "as": "পৰম বীৰ চক্ৰ"
+      },
+      {
+        "en": "Bharat Ratna",
+        "as": "ভাৰত ৰত্ন"
+      },
+      {
+        "en": "Padma Vibhushan",
+        "as": "পদ্মবিভূষণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Ashoka Chakra, India's highest peacetime gallantry award, is also awarded to civilians.",
+      "as": "ভাৰতৰ সৰ্বোচ্চ শান্তিকালীন বীৰত্ব বঁটা অশোক চক্ৰ অসামৰিকসকলকো প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "awards-honours-112",
+    "q": {
+      "en": "Which Assamese writer won the Jnanpith Award in 2000?",
+      "as": "২০০০ চনত জ্ঞানপীঠ বঁটা লাভ কৰা অসমীয়া লেখক কোন?"
+    },
+    "options": [
+      {
+        "en": "Birendra Kumar Bhattacharya",
+        "as": "বিৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+      },
+      {
+        "en": "Homen Borgohain",
+        "as": "হোমেন বৰগোহাঁই"
+      },
+      {
+        "en": "Nilmani Phookan",
+        "as": "নীলমণি ফুকন"
+      },
+      {
+        "en": "Mamoni Raisom Goswami",
+        "as": "মামণি ৰয়ছম গোস্বামী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mamoni Raisom Goswami won the Jnanpith Award in 2000.",
+      "as": "মামণি ৰয়ছম গোস্বামীয়ে ২০০০ চনত জ্ঞানপীঠ বঁটা লাভ কৰিছিল।"
+    }
   }
-}
+]
