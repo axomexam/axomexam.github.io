@@ -1,30 +1,1562 @@
-{
-  "id": "number-alphabet-series-001",
-  "q": {
-    "en": "Find the next number in the series: 2, 6, 12, 20, 30, ?",
-    "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: 2, 6, 12, 20, 30, ?"
-  },
-  "options": [
-    {
-      "en": "42",
-      "as": "৪২"
+[
+  {
+    "id": "number-alphabet-series-001",
+    "q": {
+      "en": "Find the next number in the series: 3, 6, 9, 12, 15, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ৩, ৬, ৯, ১২, ১৫, ?"
     },
-    {
-      "en": "40",
-      "as": "৪০"
-    },
-    {
-      "en": "36",
-      "as": "৩৬"
-    },
-    {
-      "en": "44",
-      "as": "৪৪"
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The series increases by 3 each time, so 15 + 3 = 18.",
+      "as": "শৃংখলাটো প্ৰতিবাৰ 3 কৈ বৃদ্ধি পায়, সেয়ে 15 + 3 = 18।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "The differences are 4, 6, 8, 10, 12; so the next term is 30 + 12 = 42.",
-    "as": "পাৰ্থক্যসমূহ 4, 6, 8, 10, 12; গতিকে পৰৱৰ্তী পদ = 30 + 12 = 42।"
+  },
+  {
+    "id": "number-alphabet-series-002",
+    "q": {
+      "en": "Find the next number in the series: 5, 10, 20, 40, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ৫, ১০, ২০, ৪০, ?"
+    },
+    "options": [
+      {
+        "en": "81",
+        "as": "৮১"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "79",
+        "as": "৭৯"
+      },
+      {
+        "en": "82",
+        "as": "৮২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each term is doubled, so 40 x 2 = 80.",
+      "as": "প্ৰতিটো পদ দুগুণ হয়, সেয়ে 40 x 2 = 80।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-003",
+    "q": {
+      "en": "Find the next number in the series: 2, 4, 8, 16, 32, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ২, ৪, ৮, ১৬, ৩২, ?"
+    },
+    "options": [
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "63",
+        "as": "৬৩"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "66",
+        "as": "৬৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each term is doubled, so 32 x 2 = 64.",
+      "as": "প্ৰতিটো পদ দুগুণ হয়, সেয়ে 32 x 2 = 64।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-004",
+    "q": {
+      "en": "Find the next number in the series: 1, 4, 9, 16, 25, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ১, ৪, ৯, ১৬, ২৫, ?"
+    },
+    "options": [
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "These are perfect squares (1², 2², 3², 4², 5²), so the next is 6² = 36.",
+      "as": "এইবোৰ পূৰ্ণবৰ্গ (1², 2², 3², 4², 5²), সেয়ে পৰৱৰ্তী = 6² = 36।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-005",
+    "q": {
+      "en": "Find the next number in the series: 1, 8, 27, 64, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ১, ৮, ২৭, ৬৪, ?"
+    },
+    "options": [
+      {
+        "en": "125",
+        "as": "১২৫"
+      },
+      {
+        "en": "126",
+        "as": "১২৬"
+      },
+      {
+        "en": "124",
+        "as": "১২৪"
+      },
+      {
+        "en": "127",
+        "as": "১২৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "These are perfect cubes (1³, 2³, 3³, 4³), so the next is 5³ = 125.",
+      "as": "এইবোৰ পূৰ্ণঘন (1³, 2³, 3³, 4³), সেয়ে পৰৱৰ্তী = 5³ = 125।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-006",
+    "q": {
+      "en": "Find the next number in the series: 2, 5, 10, 17, 26, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ২, ৫, ১০, ১৭, ২৬, ?"
+    },
+    "options": [
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The terms are n² + 1: 1²+1, 2²+1, 3²+1 ... so the next is 6² + 1 = 37.",
+      "as": "পদবোৰ n² + 1: 1²+1, 2²+1, 3²+1 ... সেয়ে পৰৱৰ্তী = 6² + 1 = 37।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-007",
+    "q": {
+      "en": "Find the next number in the series: 0, 3, 8, 15, 24, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ০, ৩, ৮, ১৫, ২৪, ?"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The terms are n² - 1: 1²-1, 2²-1, 3²-1 ... so the next is 6² - 1 = 35.",
+      "as": "পদবোৰ n² - 1: 1²-1, 2²-1, 3²-1 ... সেয়ে পৰৱৰ্তী = 6² - 1 = 35।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-008",
+    "q": {
+      "en": "Find the next number in the series: 1, 3, 6, 10, 15, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ১, ৩, ৬, ১০, ১৫, ?"
+    },
+    "options": [
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "These are triangular numbers; differences 2, 3, 4, 5, so next difference 6 gives 15 + 6 = 21.",
+      "as": "এইবোৰ ত্ৰিভুজীয় সংখ্যা; পাৰ্থক্য 2, 3, 4, 5, সেয়ে পৰৱৰ্তী পাৰ্থক্য 6 ৰে 15 + 6 = 21।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-009",
+    "q": {
+      "en": "Find the next number in the series: 2, 3, 5, 7, 11, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ২, ৩, ৫, ৭, ১১, ?"
+    },
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "These are prime numbers, so the next prime after 11 is 13.",
+      "as": "এইবোৰ মৌলিক সংখ্যা, সেয়ে 11 ৰ পিছৰ মৌলিক সংখ্যা 13।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-010",
+    "q": {
+      "en": "Find the next number in the series: 4, 6, 9, 13, 18, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ৪, ৬, ৯, ১৩, ১৮, ?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Differences are 2, 3, 4, 5, so the next difference 6 gives 18 + 6 = 24.",
+      "as": "পাৰ্থক্যসমূহ 2, 3, 4, 5, সেয়ে পৰৱৰ্তী পাৰ্থক্য 6 ৰে 18 + 6 = 24।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-011",
+    "q": {
+      "en": "Find the next number in the series: 1, 2, 4, 7, 11, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ১, ২, ৪, ৭, ১১, ?"
+    },
+    "options": [
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Differences are 1, 2, 3, 4, so the next difference 5 gives 11 + 5 = 16.",
+      "as": "পাৰ্থক্যসমূহ 1, 2, 3, 4, সেয়ে পৰৱৰ্তী পাৰ্থক্য 5 ৰে 11 + 5 = 16।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-012",
+    "q": {
+      "en": "Find the next number in the series: 3, 6, 11, 18, 27, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ৩, ৬, ১১, ১৮, ২৭, ?"
+    },
+    "options": [
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The terms are n² + 2: 1²+2, 2²+2, 3²+2 ... so the next is 6² + 2 = 38.",
+      "as": "পদবোৰ n² + 2: 1²+2, 2²+2, 3²+2 ... সেয়ে পৰৱৰ্তী = 6² + 2 = 38।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-013",
+    "q": {
+      "en": "Find the next number in the series: 1, 4, 10, 22, 46, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ১, ৪, ১০, ২২, ৪৬, ?"
+    },
+    "options": [
+      {
+        "en": "94",
+        "as": "৯৪"
+      },
+      {
+        "en": "95",
+        "as": "৯৫"
+      },
+      {
+        "en": "93",
+        "as": "৯৩"
+      },
+      {
+        "en": "96",
+        "as": "৯৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each term is doubled and then 2 is added, so 46 x 2 + 2 = 94.",
+      "as": "প্ৰতিটো পদ দুগুণ কৰি 2 যোগ কৰা হয়, সেয়ে 46 x 2 + 2 = 94।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-014",
+    "q": {
+      "en": "Find the next number in the series: 3, 5, 9, 17, 33, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ৩, ৫, ৯, ১৭, ৩৩, ?"
+    },
+    "options": [
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "67",
+        "as": "৬৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each term is doubled and then 1 is subtracted, so 33 x 2 - 1 = 65.",
+      "as": "প্ৰতিটো পদ দুগুণ কৰি 1 বিয়োগ কৰা হয়, সেয়ে 33 x 2 - 1 = 65।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-015",
+    "q": {
+      "en": "Find the next number in the series: 2, 7, 17, 37, 77, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ২, ৭, ১৭, ৩৭, ৭৭, ?"
+    },
+    "options": [
+      {
+        "en": "158",
+        "as": "১৫৮"
+      },
+      {
+        "en": "156",
+        "as": "১৫৬"
+      },
+      {
+        "en": "157",
+        "as": "১৫৭"
+      },
+      {
+        "en": "159",
+        "as": "১৫৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each term is doubled and then 3 is added, so 77 x 2 + 3 = 157.",
+      "as": "প্ৰতিটো পদ দুগুণ কৰি 3 যোগ কৰা হয়, সেয়ে 77 x 2 + 3 = 157।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-016",
+    "q": {
+      "en": "Find the next number in the series: 48, 24, 12, 6, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ৪৮, ২৪, ১২, ৬, ?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each term is halved, so 6 ÷ 2 = 3.",
+      "as": "প্ৰতিটো পদ আধা হয়, সেয়ে 6 ÷ 2 = 3।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-017",
+    "q": {
+      "en": "Find the next number in the series: 100, 81, 64, 49, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ১০০, ৮১, ৬৪, ৪৯, ?"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "These are squares in descending order (10², 9², 8², 7²), so the next is 6² = 36.",
+      "as": "এইবোৰ অৱৰোহী ক্ৰমৰ বৰ্গ (10², 9², 8², 7²), সেয়ে পৰৱৰ্তী = 6² = 36।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-018",
+    "q": {
+      "en": "Find the next number in the series: 1, 1, 2, 3, 5, 8, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ১, ১, ২, ৩, ৫, ৮, ?"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each term is the sum of the previous two, so 5 + 8 = 13.",
+      "as": "প্ৰতিটো পদ আগৰ দুটাৰ যোগফল, সেয়ে 5 + 8 = 13।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-019",
+    "q": {
+      "en": "Find the next number in the series: 2, 3, 5, 8, 12, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ২, ৩, ৫, ৮, ১২, ?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Differences are 1, 2, 3, 4, so the next difference 5 gives 12 + 5 = 17.",
+      "as": "পাৰ্থক্যসমূহ 1, 2, 3, 4, সেয়ে পৰৱৰ্তী পাৰ্থক্য 5 ৰে 12 + 5 = 17।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-020",
+    "q": {
+      "en": "Find the next number in the series: 6, 11, 21, 41, 81, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ৬, ১১, ২১, ৪১, ৮১, ?"
+    },
+    "options": [
+      {
+        "en": "162",
+        "as": "১৬২"
+      },
+      {
+        "en": "160",
+        "as": "১৬০"
+      },
+      {
+        "en": "163",
+        "as": "১৬৩"
+      },
+      {
+        "en": "161",
+        "as": "১৬১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each term follows x2 - 1, so 81 x 2 - 1 = 161.",
+      "as": "প্ৰতিটো পদ x2 - 1 নিয়মত, সেয়ে 81 x 2 - 1 = 161।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-021",
+    "q": {
+      "en": "Find the next number in the series: 4, 9, 16, 25, 36, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ৪, ৯, ১৬, ২৫, ৩৬, ?"
+    },
+    "options": [
+      {
+        "en": "49",
+        "as": "৪৯"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "51",
+        "as": "৫১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "These are perfect squares (2², 3², 4², 5², 6²), so the next is 7² = 49.",
+      "as": "এইবোৰ পূৰ্ণবৰ্গ (2², 3², 4², 5², 6²), সেয়ে পৰৱৰ্তী = 7² = 49।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-022",
+    "q": {
+      "en": "Find the next number in the series: 5, 11, 23, 47, 95, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ৫, ১১, ২৩, ৪৭, ৯৫, ?"
+    },
+    "options": [
+      {
+        "en": "192",
+        "as": "১৯২"
+      },
+      {
+        "en": "191",
+        "as": "১৯১"
+      },
+      {
+        "en": "190",
+        "as": "১৯০"
+      },
+      {
+        "en": "193",
+        "as": "১৯৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each term follows x2 + 1, so 95 x 2 + 1 = 191.",
+      "as": "প্ৰতিটো পদ x2 + 1 নিয়মত, সেয়ে 95 x 2 + 1 = 191।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-023",
+    "q": {
+      "en": "Find the next number in the series: 1, 2, 6, 24, 120, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ১, ২, ৬, ২৪, ১২০, ?"
+    },
+    "options": [
+      {
+        "en": "721",
+        "as": "৭২১"
+      },
+      {
+        "en": "719",
+        "as": "৭১৯"
+      },
+      {
+        "en": "720",
+        "as": "৭২০"
+      },
+      {
+        "en": "722",
+        "as": "৭২২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "These are factorials (1!, 2!, 3!, 4!, 5!), so the next is 6! = 720.",
+      "as": "এইবোৰ ক্ৰমগুণিতক (1!, 2!, 3!, 4!, 5!), সেয়ে পৰৱৰ্তী = 6! = 720।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-024",
+    "q": {
+      "en": "Find the next number in the series: 3, 4, 6, 9, 13, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ৩, ৪, ৬, ৯, ১৩, ?"
+    },
+    "options": [
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Differences are 1, 2, 3, 4, so the next difference 5 gives 13 + 5 = 18.",
+      "as": "পাৰ্থক্যসমূহ 1, 2, 3, 4, সেয়ে পৰৱৰ্তী পাৰ্থক্য 5 ৰে 13 + 5 = 18।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-025",
+    "q": {
+      "en": "Find the next number in the series: 2, 4, 12, 48, 240, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ২, ৪, ১২, ৪৮, ২৪০, ?"
+    },
+    "options": [
+      {
+        "en": "1440",
+        "as": "১৪৪০"
+      },
+      {
+        "en": "1441",
+        "as": "১৪৪১"
+      },
+      {
+        "en": "1439",
+        "as": "১৪৩৯"
+      },
+      {
+        "en": "1442",
+        "as": "১৪৪২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Multiply by 2, then 3, then 4, then 5, then 6: 240 x 6 = 1440.",
+      "as": "2, তাৰপিছত 3, 4, 5, 6 ৰে পূৰণ: 240 x 6 = 1440।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-026",
+    "q": {
+      "en": "Find the next number in the series: 8, 6, 9, 7, 10, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰা: ৮, ৬, ৯, ৭, ১০, ?"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The pattern alternates -2, +3, -2, +3, so 10 - 2 = 8.",
+      "as": "ক্ৰমটো -2, +3, -2, +3 নিয়মত, সেয়ে 10 - 2 = 8।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-027",
+    "q": {
+      "en": "Find the next letter in the series: A, C, E, G, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: A, C, E, G, ?"
+    },
+    "options": [
+      {
+        "en": "J",
+        "as": "J"
+      },
+      {
+        "en": "H",
+        "as": "H"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One letter is skipped each time (difference +2), so after G comes I.",
+      "as": "প্ৰতিবাৰ এটা আখৰ এৰি যোৱা হয় (পাৰ্থক্য +2), সেয়ে G ৰ পিছত I।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-028",
+    "q": {
+      "en": "Find the next letter in the series: Z, X, V, T, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: Z, X, V, T, ?"
+    },
+    "options": [
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The letters move two steps backward each time, so after T comes R.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ দুটা স্তৰ পিছলৈ যায়, সেয়ে T ৰ পিছত R।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-029",
+    "q": {
+      "en": "Find the next letter in the series: A, D, G, J, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: A, D, G, J, ?"
+    },
+    "options": [
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The letters move three steps forward each time, so after J comes M.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ তিনি স্তৰ আগুৱাই যায়, সেয়ে J ৰ পিছত M।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-030",
+    "q": {
+      "en": "Find the next letter in the series: C, F, I, L, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: C, F, I, L, ?"
+    },
+    "options": [
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The letters move three steps forward each time, so after L comes O.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ তিনি স্তৰ আগুৱাই যায়, সেয়ে L ৰ পিছত O।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-031",
+    "q": {
+      "en": "Find the next letter in the series: A, B, D, G, K, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: A, B, D, G, K, ?"
+    },
+    "options": [
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The gaps increase by one (+1, +2, +3, +4, +5), so K + 5 = P.",
+      "as": "ব্যৱধান এটা এটাকৈ বাঢ়ে (+1, +2, +3, +4, +5), সেয়ে K + 5 = P।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-032",
+    "q": {
+      "en": "Find the next letter in the series: Z, Y, W, T, P, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: Z, Y, W, T, P, ?"
+    },
+    "options": [
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "J",
+        "as": "J"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The gaps backward increase by one (-1, -2, -3, -4, -5), so P - 5 = K.",
+      "as": "পিছলৈ ব্যৱধান এটা এটাকৈ বাঢ়ে (-1, -2, -3, -4, -5), সেয়ে P - 5 = K।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-033",
+    "q": {
+      "en": "Find the next letter in the series: B, D, G, K, P, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: B, D, G, K, P, ?"
+    },
+    "options": [
+      {
+        "en": "V",
+        "as": "V"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      },
+      {
+        "en": "U",
+        "as": "U"
+      },
+      {
+        "en": "X",
+        "as": "X"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The gaps increase as +2, +3, +4, +5, +6, so P + 6 = V.",
+      "as": "ব্যৱধান +2, +3, +4, +5, +6 কৈ বাঢ়ে, সেয়ে P + 6 = V।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-034",
+    "q": {
+      "en": "Find the next letter in the series: A, E, I, M, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: A, E, I, M, ?"
+    },
+    "options": [
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The letters move four steps forward each time, so after M comes Q.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ চাৰি স্তৰ আগুৱাই যায়, সেয়ে M ৰ পিছত Q।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-035",
+    "q": {
+      "en": "Find the next letter in the series: Z, W, T, Q, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: Z, W, T, Q, ?"
+    },
+    "options": [
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The letters move three steps backward each time, so after Q comes N.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ তিনি স্তৰ পিছলৈ যায়, সেয়ে Q ৰ পিছত N।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-036",
+    "q": {
+      "en": "Find the next letter in the series: A, Z, B, Y, C, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: A, Z, B, Y, C, ?"
+    },
+    "options": [
+      {
+        "en": "Y",
+        "as": "Y"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      },
+      {
+        "en": "Z",
+        "as": "Z"
+      },
+      {
+        "en": "X",
+        "as": "X"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Two series are mixed: A, B, C ... and Z, Y, X ..., so after C comes X.",
+      "as": "দুটা শৃংখলা মিলাইছে: A, B, C ... আৰু Z, Y, X ..., সেয়ে C ৰ পিছত X।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-037",
+    "q": {
+      "en": "Find the next letter in the series: A, C, F, J, O, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: A, C, F, J, O, ?"
+    },
+    "options": [
+      {
+        "en": "U",
+        "as": "U"
+      },
+      {
+        "en": "V",
+        "as": "V"
+      },
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The gaps increase by one (+2, +3, +4, +5, +6), so O + 6 = U.",
+      "as": "ব্যৱধান এটা এটাকৈ বাঢ়ে (+2, +3, +4, +5, +6), সেয়ে O + 6 = U।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-038",
+    "q": {
+      "en": "Find the next term in the series: AZ, BY, CX, DW, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী পদটো নিৰ্ণয় কৰা: AZ, BY, CX, DW, ?"
+    },
+    "options": [
+      {
+        "en": "EW",
+        "as": "EW"
+      },
+      {
+        "en": "EV",
+        "as": "EV"
+      },
+      {
+        "en": "FV",
+        "as": "FV"
+      },
+      {
+        "en": "DV",
+        "as": "DV"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "First letters run A, B, C, D, E and second letters run Z, Y, X, W, V, so the next pair is EV.",
+      "as": "প্ৰথম আখৰ A, B, C, D, E আৰু দ্বিতীয় আখৰ Z, Y, X, W, V, সেয়ে পৰৱৰ্তী যুৰি EV।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-039",
+    "q": {
+      "en": "Find the next letter in the series: A, D, H, M, S, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: A, D, H, M, S, ?"
+    },
+    "options": [
+      {
+        "en": "Y",
+        "as": "Y"
+      },
+      {
+        "en": "X",
+        "as": "X"
+      },
+      {
+        "en": "Z",
+        "as": "Z"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The gaps increase by one (+3, +4, +5, +6, +7), so S + 7 = Z.",
+      "as": "ব্যৱধান এটা এটাকৈ বাঢ়ে (+3, +4, +5, +6, +7), সেয়ে S + 7 = Z।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-040",
+    "q": {
+      "en": "Find the next letter in the series: Z, V, R, N, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: Z, V, R, N, ?"
+    },
+    "options": [
+      {
+        "en": "K",
+        "as": "K"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "J",
+        "as": "J"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The letters move four steps backward each time, so after N comes J.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ চাৰি স্তৰ পিছলৈ যায়, সেয়ে N ৰ পিছত J।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-041",
+    "q": {
+      "en": "Find the next letter in the series: K, M, P, T, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: K, M, P, T, ?"
+    },
+    "options": [
+      {
+        "en": "Y",
+        "as": "Y"
+      },
+      {
+        "en": "Z",
+        "as": "Z"
+      },
+      {
+        "en": "X",
+        "as": "X"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The gaps increase as +2, +3, +4, +5, so T + 5 = Y.",
+      "as": "ব্যৱধান +2, +3, +4, +5 কৈ বাঢ়ে, সেয়ে T + 5 = Y।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-042",
+    "q": {
+      "en": "Find the next letter in the series: A, K, B, L, C, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: A, K, B, L, C, ?"
+    },
+    "options": [
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Two series are mixed: A, B, C ... and K, L, M ..., so after C comes M.",
+      "as": "দুটা শৃংখলা মিলাইছে: A, B, C ... আৰু K, L, M ..., সেয়ে C ৰ পিছত M।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-043",
+    "q": {
+      "en": "Find the next letter in the series: C, J, D, K, E, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: C, J, D, K, E, ?"
+    },
+    "options": [
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Two series are mixed: C, D, E ... and J, K, L ..., so after E comes L.",
+      "as": "দুটা শৃংখলা মিলাইছে: C, D, E ... আৰু J, K, L ..., সেয়ে E ৰ পিছত L।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-044",
+    "q": {
+      "en": "Find the next letter in the series: A, B, C, E, F, G, I, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: A, B, C, E, F, G, I, ?"
+    },
+    "options": [
+      {
+        "en": "K",
+        "as": "K"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "J",
+        "as": "J"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Groups of three consecutive letters with one letter skipped in between, so after I comes J.",
+      "as": "তিনিটা ক্ৰমিক আখৰৰ গোট, মাজত এটা আখৰ এৰি দিয়া হয়, সেয়ে I ৰ পিছত J।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-045",
+    "q": {
+      "en": "Find the next letter in the series: A, F, K, P, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: A, F, K, P, ?"
+    },
+    "options": [
+      {
+        "en": "U",
+        "as": "U"
+      },
+      {
+        "en": "V",
+        "as": "V"
+      },
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The letters move five steps forward each time, so P + 5 = U.",
+      "as": "আখৰবোৰ প্ৰতিবাৰ পাঁচ স্তৰ আগুৱাই যায়, সেয়ে P + 5 = U।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-046",
+    "q": {
+      "en": "Find the next letter in the series: A, D, I, P, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: A, D, I, P, ?"
+    },
+    "options": [
+      {
+        "en": "Z",
+        "as": "Z"
+      },
+      {
+        "en": "Y",
+        "as": "Y"
+      },
+      {
+        "en": "X",
+        "as": "X"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The gaps are +3, +5, +7, +9 (odd numbers), so P + 9 = Y.",
+      "as": "ব্যৱধান +3, +5, +7, +9 (অযুগ্ম সংখ্যা), সেয়ে P + 9 = Y।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-047",
+    "q": {
+      "en": "Find the next letter in the series: Z, A, Y, B, X, C, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: Z, A, Y, B, X, C, ?"
+    },
+    "options": [
+      {
+        "en": "X",
+        "as": "X"
+      },
+      {
+        "en": "V",
+        "as": "V"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      },
+      {
+        "en": "Y",
+        "as": "Y"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Two series are mixed: Z, Y, X, W ... and A, B, C ..., so after C comes W.",
+      "as": "দুটা শৃংখলা মিলাইছে: Z, Y, X, W ... আৰু A, B, C ..., সেয়ে C ৰ পিছত W।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-048",
+    "q": {
+      "en": "Find the next letter in the series: A, C, B, D, C, E, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী আখৰটো নিৰ্ণয় কৰা: A, C, B, D, C, E, ?"
+    },
+    "options": [
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The pattern alternates +2, -1, +2, -1 ..., so E - 1 = D.",
+      "as": "ক্ৰমটো +2, -1, +2, -1 ... নিয়মত, সেয়ে E - 1 = D।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-049",
+    "q": {
+      "en": "Find the next term in the series: A1, B2, C3, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী পদটো নিৰ্ণয় কৰা: A১, B২, C৩, ?"
+    },
+    "options": [
+      {
+        "en": "D4",
+        "as": "D৪"
+      },
+      {
+        "en": "D5",
+        "as": "D৫"
+      },
+      {
+        "en": "E4",
+        "as": "E৪"
+      },
+      {
+        "en": "C4",
+        "as": "C৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each term is the next letter with its position number: A1, B2, C3, so next is D4.",
+      "as": "প্ৰতিটো পদ পৰৱৰ্তী আখৰ আৰু তাৰ স্থান সংখ্যা: A1, B2, C3, সেয়ে পৰৱৰ্তী D4।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-050",
+    "q": {
+      "en": "Find the next term in the series: 1A, 2B, 3C, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী পদটো নিৰ্ণয় কৰা: ১A, ২B, ৩C, ?"
+    },
+    "options": [
+      {
+        "en": "4E",
+        "as": "৪E"
+      },
+      {
+        "en": "4D",
+        "as": "৪D"
+      },
+      {
+        "en": "5D",
+        "as": "৫D"
+      },
+      {
+        "en": "3D",
+        "as": "৩D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Number first, then letter: 1A, 2B, 3C, so next is 4D.",
+      "as": "প্ৰথমে সংখ্যা, তাৰপিছত আখৰ: 1A, 2B, 3C, সেয়ে পৰৱৰ্তী 4D।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-051",
+    "q": {
+      "en": "Find the next term in the series: A, 1, B, 2, C, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী পদটো নিৰ্ণয় কৰা: A, ১, B, ২, C, ?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The series alternates a letter and a number, so after C comes 3.",
+      "as": "শৃংখলাটো আখৰ আৰু সংখ্যা ক্ৰমে সলনি হয়, সেয়ে C ৰ পিছত 3।"
+    }
+  },
+  {
+    "id": "number-alphabet-series-052",
+    "q": {
+      "en": "Find the next term in the series: Z1, Y2, X3, ?",
+      "as": "শৃংখলাটোত পৰৱৰ্তী পদটো নিৰ্ণয় কৰা: Z১, Y২, X৩, ?"
+    },
+    "options": [
+      {
+        "en": "W5",
+        "as": "W৫"
+      },
+      {
+        "en": "V4",
+        "as": "V৪"
+      },
+      {
+        "en": "X4",
+        "as": "X৪"
+      },
+      {
+        "en": "W4",
+        "as": "W৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The letter decreases and the number increases: Z1, Y2, X3, so next is W4.",
+      "as": "আখৰ কমে আৰু সংখ্যা বাঢ়ে: Z1, Y2, X3, সেয়ে পৰৱৰ্তী W4।"
+    }
   }
-}
+]
