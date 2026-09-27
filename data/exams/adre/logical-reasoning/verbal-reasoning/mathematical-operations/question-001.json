@@ -1,30 +1,1742 @@
-{
-  "id": "mathematical-operations-001",
-  "q": {
-    "en": "If '+' means '×' and '×' means '−', then 6 + 2 × 3 = ?",
-    "as": "যদি '+' ৰ অৰ্থ '×' আৰু '×' ৰ অৰ্থ '−' হয়, তেন্তে 6 + 2 × 3 = ?"
-  },
-  "options": [
-    {
-      "en": "9",
-      "as": "৯"
+[
+  {
+    "id": "mathematical-operations-001",
+    "q": {
+      "en": "If '+' means '×' and '×' means '−', then 6 + 2 × 3 = ?",
+      "as": "যদি '+' ৰ অৰ্থ '×' আৰু '×' ৰ অৰ্থ '−' হয়, তেন্তে 6 + 2 × 3 = ?"
     },
-    {
-      "en": "12",
-      "as": "১২"
-    },
-    {
-      "en": "15",
-      "as": "১৫"
-    },
-    {
-      "en": "3",
-      "as": "৩"
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "After replacing the signs: 6 × 2 − 3 = 12 − 3 = 9.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 6 × 2 − 3 = 12 − 3 = 9।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "After replacing the signs: 6 × 2 − 3 = 12 − 3 = 9.",
-    "as": "চিহ্ন সলনি কৰাৰ পিছত: 6 × 2 − 3 = 12 − 3 = 9।"
+  },
+  {
+    "id": "mathematical-operations-002",
+    "q": {
+      "en": "If '÷' means '×' and '×' means '+', then 9 ÷ 10 × 9 = ?",
+      "as": "যদি '÷' ৰ অৰ্থ '×' আৰু '×' ৰ অৰ্থ '+' হয়, তেন্তে 9 ÷ 10 × 9 = ?"
+    },
+    "options": [
+      {
+        "en": "101",
+        "as": "১০১"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "98",
+        "as": "৯৮"
+      },
+      {
+        "en": "99",
+        "as": "৯৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "After replacing the signs: 9 × 10 + 9 = 99.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 9 × 10 + 9 = 99।"
+    }
+  },
+  {
+    "id": "mathematical-operations-003",
+    "q": {
+      "en": "If '+' means '×' and '×' means '−', then 4 + 3 × 10 = ?",
+      "as": "যদি '+' ৰ অৰ্থ '×' আৰু '×' ৰ অৰ্থ '−' হয়, তেন্তে 4 + 3 × 10 = ?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "After replacing the signs: 4 × 3 − 10 = 2.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 4 × 3 − 10 = 2।"
+    }
+  },
+  {
+    "id": "mathematical-operations-004",
+    "q": {
+      "en": "If '−' means '+' and '×' means '−', then 12 − 11 × 12 = ?",
+      "as": "যদি '−' ৰ অৰ্থ '+' আৰু '×' ৰ অৰ্থ '−' হয়, তেন্তে 12 − 11 × 12 = ?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "After replacing the signs: 12 + 11 − 12 = 11.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 12 + 11 − 12 = 11।"
+    }
+  },
+  {
+    "id": "mathematical-operations-005",
+    "q": {
+      "en": "If '+' means '÷' and '−' means '×', then 9 + 2 − 12 = ?",
+      "as": "যদি '+' ৰ অৰ্থ '÷' আৰু '−' ৰ অৰ্থ '×' হয়, তেন্তে 9 + 2 − 12 = ?"
+    },
+    "options": [
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "53",
+        "as": "৫৩"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "After replacing the signs: 9 ÷ 2 × 12 = 54.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 9 ÷ 2 × 12 = 54।"
+    }
+  },
+  {
+    "id": "mathematical-operations-006",
+    "q": {
+      "en": "If '+' means '−' and '÷' means '+', then 8 + 3 ÷ 2 = ?",
+      "as": "যদি '+' ৰ অৰ্থ '−' আৰু '÷' ৰ অৰ্থ '+' হয়, তেন্তে 8 + 3 ÷ 2 = ?"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "After replacing the signs: 8 − 3 + 2 = 7.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 8 − 3 + 2 = 7।"
+    }
+  },
+  {
+    "id": "mathematical-operations-007",
+    "q": {
+      "en": "If '÷' means '×' and '+' means '−', then 9 ÷ 8 + 8 = ?",
+      "as": "যদি '÷' ৰ অৰ্থ '×' আৰু '+' ৰ অৰ্থ '−' হয়, তেন্তে 9 ÷ 8 + 8 = ?"
+    },
+    "options": [
+      {
+        "en": "63",
+        "as": "৬৩"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "66",
+        "as": "৬৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "After replacing the signs: 9 × 8 − 8 = 64.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 9 × 8 − 8 = 64।"
+    }
+  },
+  {
+    "id": "mathematical-operations-008",
+    "q": {
+      "en": "If '+' means '×' and '−' means '+', then 12 + 6 − 7 = ?",
+      "as": "যদি '+' ৰ অৰ্থ '×' আৰু '−' ৰ অৰ্থ '+' হয়, তেন্তে 12 + 6 − 7 = ?"
+    },
+    "options": [
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "79",
+        "as": "৭৯"
+      },
+      {
+        "en": "78",
+        "as": "৭৮"
+      },
+      {
+        "en": "81",
+        "as": "৮১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "After replacing the signs: 12 × 6 + 7 = 79.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 12 × 6 + 7 = 79।"
+    }
+  },
+  {
+    "id": "mathematical-operations-009",
+    "q": {
+      "en": "If '−' means '+' and '×' means '−', then 8 − 3 × 4 = ?",
+      "as": "যদি '−' ৰ অৰ্থ '+' আৰু '×' ৰ অৰ্থ '−' হয়, তেন্তে 8 − 3 × 4 = ?"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "After replacing the signs: 8 + 3 − 4 = 7.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 8 + 3 − 4 = 7।"
+    }
+  },
+  {
+    "id": "mathematical-operations-010",
+    "q": {
+      "en": "If '−' means '×' and '÷' means '+', then 3 − 2 ÷ 4 = ?",
+      "as": "যদি '−' ৰ অৰ্থ '×' আৰু '÷' ৰ অৰ্থ '+' হয়, তেন্তে 3 − 2 ÷ 4 = ?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "After replacing the signs: 3 × 2 + 4 = 10.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 3 × 2 + 4 = 10।"
+    }
+  },
+  {
+    "id": "mathematical-operations-011",
+    "q": {
+      "en": "If '÷' means '+' and '+' means '−', then 11 ÷ 7 + 6 = ?",
+      "as": "যদি '÷' ৰ অৰ্থ '+' আৰু '+' ৰ অৰ্থ '−' হয়, তেন্তে 11 ÷ 7 + 6 = ?"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "After replacing the signs: 11 + 7 − 6 = 12.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 11 + 7 − 6 = 12।"
+    }
+  },
+  {
+    "id": "mathematical-operations-012",
+    "q": {
+      "en": "If '−' means '+' and '÷' means '−', then 4 − 8 ÷ 4 = ?",
+      "as": "যদি '−' ৰ অৰ্থ '+' আৰু '÷' ৰ অৰ্থ '−' হয়, তেন্তে 4 − 8 ÷ 4 = ?"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "After replacing the signs: 4 + 8 − 4 = 8.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 4 + 8 − 4 = 8।"
+    }
+  },
+  {
+    "id": "mathematical-operations-013",
+    "q": {
+      "en": "If '−' means '×' and '×' means '−', then 5 − 4 × 12 = ?",
+      "as": "যদি '−' ৰ অৰ্থ '×' আৰু '×' ৰ অৰ্থ '−' হয়, তেন্তে 5 − 4 × 12 = ?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "After replacing the signs: 5 × 4 − 12 = 8.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 5 × 4 − 12 = 8।"
+    }
+  },
+  {
+    "id": "mathematical-operations-014",
+    "q": {
+      "en": "If '+' means '−' and '÷' means '+', then 11 + 3 ÷ 8 = ?",
+      "as": "যদি '+' ৰ অৰ্থ '−' আৰু '÷' ৰ অৰ্থ '+' হয়, তেন্তে 11 + 3 ÷ 8 = ?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "After replacing the signs: 11 − 3 + 8 = 16.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 11 − 3 + 8 = 16।"
+    }
+  },
+  {
+    "id": "mathematical-operations-015",
+    "q": {
+      "en": "If '−' means '+' and '×' means '−', then 9 − 6 × 10 = ?",
+      "as": "যদি '−' ৰ অৰ্থ '+' আৰু '×' ৰ অৰ্থ '−' হয়, তেন্তে 9 − 6 × 10 = ?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "After replacing the signs: 9 + 6 − 10 = 5.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 9 + 6 − 10 = 5।"
+    }
+  },
+  {
+    "id": "mathematical-operations-016",
+    "q": {
+      "en": "If '+' means '−' and '−' means '+', then 5 + 9 − 10 = ?",
+      "as": "যদি '+' ৰ অৰ্থ '−' আৰু '−' ৰ অৰ্থ '+' হয়, তেন্তে 5 + 9 − 10 = ?"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "After replacing the signs: 5 − 9 + 10 = 6.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 5 − 9 + 10 = 6।"
+    }
+  },
+  {
+    "id": "mathematical-operations-017",
+    "q": {
+      "en": "If '÷' means '+' and '−' means '×', then 2 ÷ 3 − 6 = ?",
+      "as": "যদি '÷' ৰ অৰ্থ '+' আৰু '−' ৰ অৰ্থ '×' হয়, তেন্তে 2 ÷ 3 − 6 = ?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "After replacing the signs: 2 + 3 × 6 = 20.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 2 + 3 × 6 = 20।"
+    }
+  },
+  {
+    "id": "mathematical-operations-018",
+    "q": {
+      "en": "If '+' means '÷' and '−' means '×' and '×' means '+' and '÷' means '−', then 6 × 7 − 4 ÷ 3 = ?",
+      "as": "যদি '+' ৰ অৰ্থ '÷' আৰু '−' ৰ অৰ্থ '×' আৰু '×' ৰ অৰ্থ '+' আৰু '÷' ৰ অৰ্থ '−' হয়, তেন্তে 6 × 7 − 4 ÷ 3 = ?"
+    },
+    "options": [
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "After replacing the signs: 6 + 7 × 4 − 3 = 31.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 6 + 7 × 4 − 3 = 31।"
+    }
+  },
+  {
+    "id": "mathematical-operations-019",
+    "q": {
+      "en": "If '+' means '×' and '−' means '+' and '×' means '÷' and '÷' means '−', then 2 × 2 + 9 + 7 = ?",
+      "as": "যদি '+' ৰ অৰ্থ '×' আৰু '−' ৰ অৰ্থ '+' আৰু '×' ৰ অৰ্থ '÷' আৰু '÷' ৰ অৰ্থ '−' হয়, তেন্তে 2 × 2 + 9 + 7 = ?"
+    },
+    "options": [
+      {
+        "en": "62",
+        "as": "৬২"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "63",
+        "as": "৬৩"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "After replacing the signs: 2 ÷ 2 × 9 × 7 = 63.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 2 ÷ 2 × 9 × 7 = 63।"
+    }
+  },
+  {
+    "id": "mathematical-operations-020",
+    "q": {
+      "en": "If '+' means '−' and '−' means '÷' and '×' means '+' and '÷' means '×', then 7 ÷ 6 − 2 + 4 × 8 = ?",
+      "as": "যদি '+' ৰ অৰ্থ '−' আৰু '−' ৰ অৰ্থ '÷' আৰু '×' ৰ অৰ্থ '+' আৰু '÷' ৰ অৰ্থ '×' হয়, তেন্তে 7 ÷ 6 − 2 + 4 × 8 = ?"
+    },
+    "options": [
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "After replacing the signs: 7 × 6 ÷ 2 − 4 + 8 = 25.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 7 × 6 ÷ 2 − 4 + 8 = 25।"
+    }
+  },
+  {
+    "id": "mathematical-operations-021",
+    "q": {
+      "en": "If '+' means '÷' and '−' means '×' and '×' means '+' and '÷' means '−', then 2 × 3 + 9 − 3 = ?",
+      "as": "যদি '+' ৰ অৰ্থ '÷' আৰু '−' ৰ অৰ্থ '×' আৰু '×' ৰ অৰ্থ '+' আৰু '÷' ৰ অৰ্থ '−' হয়, তেন্তে 2 × 3 + 9 − 3 = ?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "After replacing the signs: 2 + 3 ÷ 9 × 3 = 3.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 2 + 3 ÷ 9 × 3 = 3।"
+    }
+  },
+  {
+    "id": "mathematical-operations-022",
+    "q": {
+      "en": "If '+' means '÷' and '−' means '×' and '×' means '+' and '÷' means '−', then 6 − 4 − 2 × 9 × 2 = ?",
+      "as": "যদি '+' ৰ অৰ্থ '÷' আৰু '−' ৰ অৰ্থ '×' আৰু '×' ৰ অৰ্থ '+' আৰু '÷' ৰ অৰ্থ '−' হয়, তেন্তে 6 − 4 − 2 × 9 × 2 = ?"
+    },
+    "options": [
+      {
+        "en": "61",
+        "as": "৬১"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "58",
+        "as": "৫৮"
+      },
+      {
+        "en": "59",
+        "as": "৫৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "After replacing the signs: 6 × 4 × 2 + 9 + 2 = 59.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 6 × 4 × 2 + 9 + 2 = 59।"
+    }
+  },
+  {
+    "id": "mathematical-operations-023",
+    "q": {
+      "en": "If '+' means '−' and '−' means '÷' and '×' means '+' and '÷' means '×', then 5 × 5 × 8 × 3 = ?",
+      "as": "যদি '+' ৰ অৰ্থ '−' আৰু '−' ৰ অৰ্থ '÷' আৰু '×' ৰ অৰ্থ '+' আৰু '÷' ৰ অৰ্থ '×' হয়, তেন্তে 5 × 5 × 8 × 3 = ?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "After replacing the signs: 5 + 5 + 8 + 3 = 21.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 5 + 5 + 8 + 3 = 21।"
+    }
+  },
+  {
+    "id": "mathematical-operations-024",
+    "q": {
+      "en": "If 'B' means '−' and 'A' means '+', then 9 B 7 A 10 = ?",
+      "as": "যদি 'B' ৰ অৰ্থ '−' আৰু 'A' ৰ অৰ্থ '+' হয়, তেন্তে 9 B 7 A 10 = ?"
+    },
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Replace B and A by their meanings, then 9 B 7 A 10 = 9 − 7 + 10 = 12.",
+      "as": "B আৰু A ৰ অৰ্থ বহুৱালে 9 B 7 A 10 = 9 − 7 + 10 = 12।"
+    }
+  },
+  {
+    "id": "mathematical-operations-025",
+    "q": {
+      "en": "If 'R' means '+' and 'S' means '×', then 2 R 4 S 10 = ?",
+      "as": "যদি 'R' ৰ অৰ্থ '+' আৰু 'S' ৰ অৰ্থ '×' হয়, তেন্তে 2 R 4 S 10 = ?"
+    },
+    "options": [
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "43",
+        "as": "৪৩"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Replace R and S by their meanings, then 2 R 4 S 10 = 2 + 4 × 10 = 42.",
+      "as": "R আৰু S ৰ অৰ্থ বহুৱালে 2 R 4 S 10 = 2 + 4 × 10 = 42।"
+    }
+  },
+  {
+    "id": "mathematical-operations-026",
+    "q": {
+      "en": "If 'S' means '×' and 'D' means '−', then 11 S 3 D 5 = ?",
+      "as": "যদি 'S' ৰ অৰ্থ '×' আৰু 'D' ৰ অৰ্থ '−' হয়, তেন্তে 11 S 3 D 5 = ?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Replace S and D by their meanings, then 11 S 3 D 5 = 11 × 3 − 5 = 28.",
+      "as": "S আৰু D ৰ অৰ্থ বহুৱালে 11 S 3 D 5 = 11 × 3 − 5 = 28।"
+    }
+  },
+  {
+    "id": "mathematical-operations-027",
+    "q": {
+      "en": "If 'P' means '+' and 'C' means '×', then 12 P 8 C 11 = ?",
+      "as": "যদি 'P' ৰ অৰ্থ '+' আৰু 'C' ৰ অৰ্থ '×' হয়, তেন্তে 12 P 8 C 11 = ?"
+    },
+    "options": [
+      {
+        "en": "99",
+        "as": "৯৯"
+      },
+      {
+        "en": "101",
+        "as": "১০১"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "102",
+        "as": "১০২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Replace P and C by their meanings, then 12 P 8 C 11 = 12 + 8 × 11 = 100.",
+      "as": "P আৰু C ৰ অৰ্থ বহুৱালে 12 P 8 C 11 = 12 + 8 × 11 = 100।"
+    }
+  },
+  {
+    "id": "mathematical-operations-028",
+    "q": {
+      "en": "If 'R' means '×' and 'P' means '−', then 3 R 10 P 2 = ?",
+      "as": "যদি 'R' ৰ অৰ্থ '×' আৰু 'P' ৰ অৰ্থ '−' হয়, তেন্তে 3 R 10 P 2 = ?"
+    },
+    "options": [
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Replace R and P by their meanings, then 3 R 10 P 2 = 3 × 10 − 2 = 28.",
+      "as": "R আৰু P ৰ অৰ্থ বহুৱালে 3 R 10 P 2 = 3 × 10 − 2 = 28।"
+    }
+  },
+  {
+    "id": "mathematical-operations-029",
+    "q": {
+      "en": "If 'S' means '+' and 'B' means '×', then 7 S 8 B 9 = ?",
+      "as": "যদি 'S' ৰ অৰ্থ '+' আৰু 'B' ৰ অৰ্থ '×' হয়, তেন্তে 7 S 8 B 9 = ?"
+    },
+    "options": [
+      {
+        "en": "79",
+        "as": "৭৯"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "78",
+        "as": "৭৮"
+      },
+      {
+        "en": "81",
+        "as": "৮১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Replace S and B by their meanings, then 7 S 8 B 9 = 7 + 8 × 9 = 79.",
+      "as": "S আৰু B ৰ অৰ্থ বহুৱালে 7 S 8 B 9 = 7 + 8 × 9 = 79।"
+    }
+  },
+  {
+    "id": "mathematical-operations-030",
+    "q": {
+      "en": "Which two signs should be interchanged to make the given equation correct?  2 + 4 × 3 − 3 ÷ 5 = 1",
+      "as": "দিয়া সমীকৰণটো শুদ্ধ কৰিবলৈ কোন দুটা চিহ্ন সলনি কৰিব লাগিব?  2 + 4 × 3 − 3 ÷ 5 = 1"
+    },
+    "options": [
+      {
+        "en": "'+' and '÷'",
+        "as": "'+' and '÷'"
+      },
+      {
+        "en": "'+' and '×'",
+        "as": "'+' and '×'"
+      },
+      {
+        "en": "'+' and '−'",
+        "as": "'+' and '−'"
+      },
+      {
+        "en": "'−' and '÷'",
+        "as": "'−' and '÷'"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Interchanging '−' and '÷' gives 2 + 4 × 3 ÷ 3 − 5 = 1.",
+      "as": "'−' and '÷' সলনি কৰিলে 2 + 4 × 3 ÷ 3 − 5 = 1 হয়।"
+    }
+  },
+  {
+    "id": "mathematical-operations-031",
+    "q": {
+      "en": "Which two signs should be interchanged to make the given equation correct?  9 − 8 ÷ 4 × 2 + 7 = 6",
+      "as": "দিয়া সমীকৰণটো শুদ্ধ কৰিবলৈ কোন দুটা চিহ্ন সলনি কৰিব লাগিব?  9 − 8 ÷ 4 × 2 + 7 = 6"
+    },
+    "options": [
+      {
+        "en": "'−' and '×'",
+        "as": "'−' and '×'"
+      },
+      {
+        "en": "'−' and '÷'",
+        "as": "'−' and '÷'"
+      },
+      {
+        "en": "'−' and '+'",
+        "as": "'−' and '+'"
+      },
+      {
+        "en": "'÷' and '×'",
+        "as": "'÷' and '×'"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Interchanging '−' and '+' gives 9 + 8 ÷ 4 × 2 − 7 = 6.",
+      "as": "'−' and '+' সলনি কৰিলে 9 + 8 ÷ 4 × 2 − 7 = 6 হয়।"
+    }
+  },
+  {
+    "id": "mathematical-operations-032",
+    "q": {
+      "en": "Which two signs should be interchanged to make the given equation correct?  9 × 4 − 2 + 6 ÷ 6 = 11",
+      "as": "দিয়া সমীকৰণটো শুদ্ধ কৰিবলৈ কোন দুটা চিহ্ন সলনি কৰিব লাগিব?  9 × 4 − 2 + 6 ÷ 6 = 11"
+    },
+    "options": [
+      {
+        "en": "'×' and '−'",
+        "as": "'×' and '−'"
+      },
+      {
+        "en": "'×' and '+'",
+        "as": "'×' and '+'"
+      },
+      {
+        "en": "'×' and '÷'",
+        "as": "'×' and '÷'"
+      },
+      {
+        "en": "'−' and '+'",
+        "as": "'−' and '+'"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Interchanging '×' and '+' gives 9 + 4 − 2 × 6 ÷ 6 = 11.",
+      "as": "'×' and '+' সলনি কৰিলে 9 + 4 − 2 × 6 ÷ 6 = 11 হয়।"
+    }
+  },
+  {
+    "id": "mathematical-operations-033",
+    "q": {
+      "en": "Which two signs should be interchanged to make the given equation correct?  6 + 7 − 9 ÷ 3 × 3 = 8",
+      "as": "দিয়া সমীকৰণটো শুদ্ধ কৰিবলৈ কোন দুটা চিহ্ন সলনি কৰিব লাগিব?  6 + 7 − 9 ÷ 3 × 3 = 8"
+    },
+    "options": [
+      {
+        "en": "'+' and '−'",
+        "as": "'+' and '−'"
+      },
+      {
+        "en": "'+' and '÷'",
+        "as": "'+' and '÷'"
+      },
+      {
+        "en": "'+' and '×'",
+        "as": "'+' and '×'"
+      },
+      {
+        "en": "'−' and '÷'",
+        "as": "'−' and '÷'"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Interchanging '+' and '−' gives 6 − 7 + 9 ÷ 3 × 3 = 8.",
+      "as": "'+' and '−' সলনি কৰিলে 6 − 7 + 9 ÷ 3 × 3 = 8 হয়।"
+    }
+  },
+  {
+    "id": "mathematical-operations-034",
+    "q": {
+      "en": "Which two signs should be interchanged to make the given equation correct?  4 × 9 ÷ 1 − 9 + 3 = 34",
+      "as": "দিয়া সমীকৰণটো শুদ্ধ কৰিবলৈ কোন দুটা চিহ্ন সলনি কৰিব লাগিব?  4 × 9 ÷ 1 − 9 + 3 = 34"
+    },
+    "options": [
+      {
+        "en": "'×' and '+'",
+        "as": "'×' and '+'"
+      },
+      {
+        "en": "'×' and '÷'",
+        "as": "'×' and '÷'"
+      },
+      {
+        "en": "'×' and '−'",
+        "as": "'×' and '−'"
+      },
+      {
+        "en": "'÷' and '+'",
+        "as": "'÷' and '+'"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Interchanging '÷' and '+' gives 4 × 9 + 1 − 9 ÷ 3 = 34.",
+      "as": "'÷' and '+' সলনি কৰিলে 4 × 9 + 1 − 9 ÷ 3 = 34 হয়।"
+    }
+  },
+  {
+    "id": "mathematical-operations-035",
+    "q": {
+      "en": "Which two signs should be interchanged to make the given equation correct?  4 + 3 × 6 ÷ 4 − 4 = 8",
+      "as": "দিয়া সমীকৰণটো শুদ্ধ কৰিবলৈ কোন দুটা চিহ্ন সলনি কৰিব লাগিব?  4 + 3 × 6 ÷ 4 − 4 = 8"
+    },
+    "options": [
+      {
+        "en": "'+' and '−'",
+        "as": "'+' and '−'"
+      },
+      {
+        "en": "'+' and '×'",
+        "as": "'+' and '×'"
+      },
+      {
+        "en": "'+' and '÷'",
+        "as": "'+' and '÷'"
+      },
+      {
+        "en": "'×' and '÷'",
+        "as": "'×' and '÷'"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Interchanging '+' and '÷' gives 4 ÷ 3 × 6 + 4 − 4 = 8.",
+      "as": "'+' and '÷' সলনি কৰিলে 4 ÷ 3 × 6 + 4 − 4 = 8 হয়।"
+    }
+  },
+  {
+    "id": "mathematical-operations-036",
+    "q": {
+      "en": "Which two signs should be interchanged to make the given equation correct?  2 + 8 × 4 − 1 ÷ 9 = 9",
+      "as": "দিয়া সমীকৰণটো শুদ্ধ কৰিবলৈ কোন দুটা চিহ্ন সলনি কৰিব লাগিব?  2 + 8 × 4 − 1 ÷ 9 = 9"
+    },
+    "options": [
+      {
+        "en": "'+' and '×'",
+        "as": "'+' and '×'"
+      },
+      {
+        "en": "'+' and '÷'",
+        "as": "'+' and '÷'"
+      },
+      {
+        "en": "'+' and '−'",
+        "as": "'+' and '−'"
+      },
+      {
+        "en": "'×' and '−'",
+        "as": "'×' and '−'"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Interchanging '+' and '÷' gives 2 ÷ 8 × 4 − 1 + 9 = 9.",
+      "as": "'+' and '÷' সলনি কৰিলে 2 ÷ 8 × 4 − 1 + 9 = 9 হয়।"
+    }
+  },
+  {
+    "id": "mathematical-operations-037",
+    "q": {
+      "en": "Which two signs should be interchanged to make the given equation correct?  8 × 7 ÷ 2 + 2 − 3 = 12",
+      "as": "দিয়া সমীকৰণটো শুদ্ধ কৰিবলৈ কোন দুটা চিহ্ন সলনি কৰিব লাগিব?  8 × 7 ÷ 2 + 2 − 3 = 12"
+    },
+    "options": [
+      {
+        "en": "'×' and '+'",
+        "as": "'×' and '+'"
+      },
+      {
+        "en": "'×' and '÷'",
+        "as": "'×' and '÷'"
+      },
+      {
+        "en": "'×' and '−'",
+        "as": "'×' and '−'"
+      },
+      {
+        "en": "'÷' and '+'",
+        "as": "'÷' and '+'"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Interchanging '×' and '+' gives 8 + 7 ÷ 2 × 2 − 3 = 12.",
+      "as": "'×' and '+' সলনি কৰিলে 8 + 7 ÷ 2 × 2 − 3 = 12 হয়।"
+    }
+  },
+  {
+    "id": "mathematical-operations-038",
+    "q": {
+      "en": "If '÷' means '+', which of the following equations is correct?",
+      "as": "যদি '÷' ৰ অৰ্থ '+' হয়, তেন্তে তলৰ কোনটো সমীকৰণ শুদ্ধ?"
+    },
+    "options": [
+      {
+        "en": "5 ÷ 4 = 7",
+        "as": "৫ ÷ ৪ = ৭"
+      },
+      {
+        "en": "3 + 5 = 10",
+        "as": "৩ + ৫ = ১০"
+      },
+      {
+        "en": "3 ÷ 8 = 12",
+        "as": "৩ ÷ ৮ = ১২"
+      },
+      {
+        "en": "9 ÷ 3 = 12",
+        "as": "৯ ÷ ৩ = ১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "After replacing the sign, 9 ÷ 3 = 12 is correct.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত ৯ ÷ ৩ = ১২ শুদ্ধ।"
+    }
+  },
+  {
+    "id": "mathematical-operations-039",
+    "q": {
+      "en": "If '×' means '+', which of the following equations is correct?",
+      "as": "যদি '×' ৰ অৰ্থ '+' হয়, তেন্তে তলৰ কোনটো সমীকৰণ শুদ্ধ?"
+    },
+    "options": [
+      {
+        "en": "9 ÷ 3 = 5",
+        "as": "৯ ÷ ৩ = ৫"
+      },
+      {
+        "en": "7 × 5 = 11",
+        "as": "৭ × ৫ = ১১"
+      },
+      {
+        "en": "2 × 6 = 8",
+        "as": "২ × ৬ = ৮"
+      },
+      {
+        "en": "7 + 6 = 15",
+        "as": "৭ + ৬ = ১৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "After replacing the sign, 2 × 6 = 8 is correct.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত ২ × ৬ = ৮ শুদ্ধ।"
+    }
+  },
+  {
+    "id": "mathematical-operations-040",
+    "q": {
+      "en": "If '−' means '×', which of the following equations is correct?",
+      "as": "যদি '−' ৰ অৰ্থ '×' হয়, তেন্তে তলৰ কোনটো সমীকৰণ শুদ্ধ?"
+    },
+    "options": [
+      {
+        "en": "3 − 4 = 10",
+        "as": "৩ − ৪ = ১০"
+      },
+      {
+        "en": "2 − 5 = 10",
+        "as": "২ − ৫ = ১০"
+      },
+      {
+        "en": "8 × 7 = 57",
+        "as": "৮ × ৭ = ৫৭"
+      },
+      {
+        "en": "3 − 9 = 29",
+        "as": "৩ − ৯ = ২৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "After replacing the sign, 2 − 5 = 10 is correct.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত ২ − ৫ = ১০ শুদ্ধ।"
+    }
+  },
+  {
+    "id": "mathematical-operations-041",
+    "q": {
+      "en": "If '+' means '×', which of the following equations is correct?",
+      "as": "যদি '+' ৰ অৰ্থ '×' হয়, তেন্তে তলৰ কোনটো সমীকৰণ শুদ্ধ?"
+    },
+    "options": [
+      {
+        "en": "6 + 4 = 24",
+        "as": "৬ + ৪ = ২৪"
+      },
+      {
+        "en": "7 + 4 = 29",
+        "as": "৭ + ৪ = ২৯"
+      },
+      {
+        "en": "7 − 4 = 4",
+        "as": "৭ − ৪ = ৪"
+      },
+      {
+        "en": "4 × 4 = 14",
+        "as": "৪ × ৪ = ১৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "After replacing the sign, 6 + 4 = 24 is correct.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত ৬ + ৪ = ২৪ শুদ্ধ।"
+    }
+  },
+  {
+    "id": "mathematical-operations-042",
+    "q": {
+      "en": "If '÷' means '+', which of the following equations is correct?",
+      "as": "যদি '÷' ৰ অৰ্থ '+' হয়, তেন্তে তলৰ কোনটো সমীকৰণ শুদ্ধ?"
+    },
+    "options": [
+      {
+        "en": "8 + 9 = 15",
+        "as": "৮ + ৯ = ১৫"
+      },
+      {
+        "en": "7 × 4 = 30",
+        "as": "৭ × ৪ = ৩০"
+      },
+      {
+        "en": "7 + 2 = 11",
+        "as": "৭ + ২ = ১১"
+      },
+      {
+        "en": "4 ÷ 8 = 12",
+        "as": "৪ ÷ ৮ = ১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "After replacing the sign, 4 ÷ 8 = 12 is correct.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত ৪ ÷ ৮ = ১২ শুদ্ধ।"
+    }
+  },
+  {
+    "id": "mathematical-operations-043",
+    "q": {
+      "en": "If '×' means '−', which of the following equations is correct?",
+      "as": "যদি '×' ৰ অৰ্থ '−' হয়, তেন্তে তলৰ কোনটো সমীকৰণ শুদ্ধ?"
+    },
+    "options": [
+      {
+        "en": "8 + 8 = 15",
+        "as": "৮ + ৮ = ১৫"
+      },
+      {
+        "en": "9 ÷ 9 = 2",
+        "as": "৯ ÷ ৯ = ২"
+      },
+      {
+        "en": "8 × 6 = 2",
+        "as": "৮ × ৬ = ২"
+      },
+      {
+        "en": "8 × 7 = 2",
+        "as": "৮ × ৭ = ২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "After replacing the sign, 8 × 6 = 2 is correct.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত ৮ × ৬ = ২ শুদ্ধ।"
+    }
+  },
+  {
+    "id": "mathematical-operations-044",
+    "q": {
+      "en": "If '−' means '+', which of the following equations is correct?",
+      "as": "যদি '−' ৰ অৰ্থ '+' হয়, তেন্তে তলৰ কোনটো সমীকৰণ শুদ্ধ?"
+    },
+    "options": [
+      {
+        "en": "8 ÷ 2 = 5",
+        "as": "৮ ÷ ২ = ৫"
+      },
+      {
+        "en": "9 − 5 = 14",
+        "as": "৯ − ৫ = ১৪"
+      },
+      {
+        "en": "5 × 3 = 13",
+        "as": "৫ × ৩ = ১৩"
+      },
+      {
+        "en": "3 + 3 = 8",
+        "as": "৩ + ৩ = ৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "After replacing the sign, 9 − 5 = 14 is correct.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত ৯ − ৫ = ১৪ শুদ্ধ।"
+    }
+  },
+  {
+    "id": "mathematical-operations-045",
+    "q": {
+      "en": "If '+' means '×', which of the following equations is correct?",
+      "as": "যদি '+' ৰ অৰ্থ '×' হয়, তেন্তে তলৰ কোনটো সমীকৰণ শুদ্ধ?"
+    },
+    "options": [
+      {
+        "en": "9 + 2 = 18",
+        "as": "৯ + ২ = ১৮"
+      },
+      {
+        "en": "6 × 5 = 31",
+        "as": "৬ × ৫ = ৩১"
+      },
+      {
+        "en": "7 + 4 = 26",
+        "as": "৭ + ৪ = ২৬"
+      },
+      {
+        "en": "9 − 8 = 2",
+        "as": "৯ − ৮ = ২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "After replacing the sign, 9 + 2 = 18 is correct.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত ৯ + ২ = ১৮ শুদ্ধ।"
+    }
+  },
+  {
+    "id": "mathematical-operations-046",
+    "q": {
+      "en": "If '÷' means '+', then simplify: 2 ÷ 4 + 3 × 7 − 7",
+      "as": "যদি '÷' ৰ অৰ্থ '+' হয়, তেন্তে সৰল কৰা: 2 ÷ 4 + 3 × 7 − 7"
+    },
+    "options": [
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "After replacing the sign: 2 + 4 + 3 × 7 − 7 = 20.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 2 + 4 + 3 × 7 − 7 = 20।"
+    }
+  },
+  {
+    "id": "mathematical-operations-047",
+    "q": {
+      "en": "If '÷' means '×', then simplify: 2 − 3 + 3 × 4 ÷ 5",
+      "as": "যদি '÷' ৰ অৰ্থ '×' হয়, তেন্তে সৰল কৰা: 2 − 3 + 3 × 4 ÷ 5"
+    },
+    "options": [
+      {
+        "en": "58",
+        "as": "৫৮"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "59",
+        "as": "৫৯"
+      },
+      {
+        "en": "61",
+        "as": "৬১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "After replacing the sign: 2 − 3 + 3 × 4 × 5 = 59.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 2 − 3 + 3 × 4 × 5 = 59।"
+    }
+  },
+  {
+    "id": "mathematical-operations-048",
+    "q": {
+      "en": "If '÷' means '×', then simplify: 2 + 5 ÷ 8 × 4",
+      "as": "যদি '÷' ৰ অৰ্থ '×' হয়, তেন্তে সৰল কৰা: 2 + 5 ÷ 8 × 4"
+    },
+    "options": [
+      {
+        "en": "163",
+        "as": "১৬৩"
+      },
+      {
+        "en": "162",
+        "as": "১৬২"
+      },
+      {
+        "en": "161",
+        "as": "১৬১"
+      },
+      {
+        "en": "164",
+        "as": "১৬৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "After replacing the sign: 2 + 5 × 8 × 4 = 162.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 2 + 5 × 8 × 4 = 162।"
+    }
+  },
+  {
+    "id": "mathematical-operations-049",
+    "q": {
+      "en": "If '÷' means '+', then simplify: 7 + 6 − 7 ÷ 5",
+      "as": "যদি '÷' ৰ অৰ্থ '+' হয়, তেন্তে সৰল কৰা: 7 + 6 − 7 ÷ 5"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "After replacing the sign: 7 + 6 − 7 + 5 = 11.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 7 + 6 − 7 + 5 = 11।"
+    }
+  },
+  {
+    "id": "mathematical-operations-050",
+    "q": {
+      "en": "If '+' means '÷', then simplify: 6 + 3 − 9 ÷ 9",
+      "as": "যদি '+' ৰ অৰ্থ '÷' হয়, তেন্তে সৰল কৰা: 6 + 3 − 9 ÷ 9"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "After replacing the sign: 6 ÷ 3 − 9 ÷ 9 = 1.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 6 ÷ 3 − 9 ÷ 9 = 1।"
+    }
+  },
+  {
+    "id": "mathematical-operations-051",
+    "q": {
+      "en": "If '−' means '×', then simplify: 8 − 4 − 6 ÷ 4",
+      "as": "যদি '−' ৰ অৰ্থ '×' হয়, তেন্তে সৰল কৰা: 8 − 4 − 6 ÷ 4"
+    },
+    "options": [
+      {
+        "en": "47",
+        "as": "৪৭"
+      },
+      {
+        "en": "49",
+        "as": "৪৯"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "After replacing the sign: 8 × 4 × 6 ÷ 4 = 48.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 8 × 4 × 6 ÷ 4 = 48।"
+    }
+  },
+  {
+    "id": "mathematical-operations-052",
+    "q": {
+      "en": "If '÷' means '×', then simplify: 4 ÷ 8 − 5 + 6 × 4",
+      "as": "যদি '÷' ৰ অৰ্থ '×' হয়, তেন্তে সৰল কৰা: 4 ÷ 8 − 5 + 6 × 4"
+    },
+    "options": [
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "51",
+        "as": "৫১"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "53",
+        "as": "৫৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "After replacing the sign: 4 × 8 − 5 + 6 × 4 = 51.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 4 × 8 − 5 + 6 × 4 = 51।"
+    }
+  },
+  {
+    "id": "mathematical-operations-053",
+    "q": {
+      "en": "If '+' means '÷', then simplify: 4 × 3 + 3 × 6",
+      "as": "যদি '+' ৰ অৰ্থ '÷' হয়, তেন্তে সৰল কৰা: 4 × 3 + 3 × 6"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "After replacing the sign: 4 × 3 ÷ 3 × 6 = 24.",
+      "as": "চিহ্ন সলনি কৰাৰ পিছত: 4 × 3 ÷ 3 × 6 = 24।"
+    }
+  },
+  {
+    "id": "mathematical-operations-054",
+    "q": {
+      "en": "Simplify: 12 + 6 ÷ 3 − 2 × 4",
+      "as": "সৰল কৰা: 12 + 6 ÷ 3 − 2 × 4"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "By BODMAS, 12 + 6 ÷ 3 − 2 × 4 = 6.",
+      "as": "BODMAS অনুসৰি, 12 + 6 ÷ 3 − 2 × 4 = 6।"
+    }
+  },
+  {
+    "id": "mathematical-operations-055",
+    "q": {
+      "en": "Simplify: 15 − 3 × 2 + 8 ÷ 4",
+      "as": "সৰল কৰা: 15 − 3 × 2 + 8 ÷ 4"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "By BODMAS, 15 − 3 × 2 + 8 ÷ 4 = 11.",
+      "as": "BODMAS অনুসৰি, 15 − 3 × 2 + 8 ÷ 4 = 11।"
+    }
+  },
+  {
+    "id": "mathematical-operations-056",
+    "q": {
+      "en": "Simplify: 18 ÷ 3 + 4 × 2 − 5",
+      "as": "সৰল কৰা: 18 ÷ 3 + 4 × 2 − 5"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "By BODMAS, 18 ÷ 3 + 4 × 2 − 5 = 9.",
+      "as": "BODMAS অনুসৰি, 18 ÷ 3 + 4 × 2 − 5 = 9।"
+    }
+  },
+  {
+    "id": "mathematical-operations-057",
+    "q": {
+      "en": "Simplify: 20 − 4 × 3 + 12 ÷ 6",
+      "as": "সৰল কৰা: 20 − 4 × 3 + 12 ÷ 6"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "By BODMAS, 20 − 4 × 3 + 12 ÷ 6 = 10.",
+      "as": "BODMAS অনুসৰি, 20 − 4 × 3 + 12 ÷ 6 = 10।"
+    }
+  },
+  {
+    "id": "mathematical-operations-058",
+    "q": {
+      "en": "Simplify: 7 + 2 × 6 − 15 ÷ 3",
+      "as": "সৰল কৰা: 7 + 2 × 6 − 15 ÷ 3"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "By BODMAS, 7 + 2 × 6 − 15 ÷ 3 = 14.",
+      "as": "BODMAS অনুসৰি, 7 + 2 × 6 − 15 ÷ 3 = 14।"
+    }
   }
-}
+]
