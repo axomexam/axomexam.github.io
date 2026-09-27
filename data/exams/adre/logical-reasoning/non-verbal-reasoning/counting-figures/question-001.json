@@ -1,30 +1,1645 @@
-{
-  "id": "counting-figures-001",
-  "q": {
-    "en": "A large triangle is divided into four equal small triangles by joining the midpoints of its sides. How many triangles are there in the figure?",
-    "as": "এটা ডাঙৰ ত্ৰিভুজৰ বাহুসমূহৰ মধ্যবিন্দু সংযোগ কৰি চাৰিটা সমান সৰু ত্ৰিভুজত ভাগ কৰা হৈছে। চিত্ৰটোত মুঠ কিমান ত্ৰিভুজ আছে?"
-  },
-  "options": [
-    {
-      "en": "4",
-      "as": "৪"
+[
+  {
+    "id": "counting-figure-001",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ত্ৰিভুজ আছে?"
     },
-    {
-      "en": "5",
-      "as": "৫"
-    },
-    {
-      "en": "6",
-      "as": "৬"
-    },
-    {
-      "en": "3",
-      "as": "৩"
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"20.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"145.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"60.00\" y1=\"80.00\" x2=\"140.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 2 triangles in the figure.",
+      "as": "চিত্ৰটোত 2 টা ত্ৰিভুজ আছে।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "There are 4 small triangles plus the 1 large outer triangle, so 5 in all.",
-    "as": "৪ টা সৰু ত্ৰিভুজ আৰু বাহিৰৰ ১ টা ডাঙৰ ত্ৰিভুজ, মুঠ ৫ টা।"
+  },
+  {
+    "id": "counting-figure-002",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"20.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"145.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"73.33\" y1=\"58.33\" x2=\"126.67\" y2=\"58.33\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"46.67\" y1=\"101.67\" x2=\"153.33\" y2=\"101.67\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 3 triangles in the figure.",
+      "as": "চিত্ৰটোত 3 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-003",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"20.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"145.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"80.00\" y1=\"47.50\" x2=\"120.00\" y2=\"47.50\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"60.00\" y1=\"80.00\" x2=\"140.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"40.00\" y1=\"112.50\" x2=\"160.00\" y2=\"112.50\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 4 triangles in the figure.",
+      "as": "চিত্ৰটোত 4 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-004",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"20.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"145.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"100.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 3 triangles in the figure.",
+      "as": "চিত্ৰটোত 3 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-005",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"20.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"145.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"60.00\" y1=\"80.00\" x2=\"140.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"100.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 6 triangles in the figure.",
+      "as": "চিত্ৰটোত 6 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-006",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"20.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"145.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"73.33\" y1=\"58.33\" x2=\"126.67\" y2=\"58.33\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"46.67\" y1=\"101.67\" x2=\"153.33\" y2=\"101.67\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"100.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">12</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">9</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">18</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">13</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 9 triangles in the figure.",
+      "as": "চিত্ৰটোত 9 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-007",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"20.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"145.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"73.33\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"126.67\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">12</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 6 triangles in the figure.",
+      "as": "চিত্ৰটোত 6 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-008",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"20.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"145.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"60.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"100.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"140.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">14</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">11</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">10</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 10 triangles in the figure.",
+      "as": "চিত্ৰটোত 10 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-009",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"20.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"145.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"60.00\" y1=\"80.00\" x2=\"140.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"73.33\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"126.67\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">12</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">15</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">13</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 12 triangles in the figure.",
+      "as": "চিত্ৰটোত 12 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-010",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"30.00\" y1=\"10.00\" x2=\"170.00\" y2=\"10.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"80.00\" x2=\"170.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"150.00\" x2=\"170.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"10.00\" x2=\"30.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"10.00\" x2=\"100.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"170.00\" y1=\"10.00\" x2=\"170.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"10.00\" x2=\"100.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"80.00\" x2=\"100.00\" y2=\"10.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"80.00\" x2=\"100.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"150.00\" x2=\"100.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"10.00\" x2=\"170.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"80.00\" x2=\"170.00\" y2=\"10.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"80.00\" x2=\"170.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"150.00\" x2=\"170.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">88</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">44</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">45</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">46</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 44 triangles in the figure.",
+      "as": "চিত্ৰটোত 44 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-011",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100.00\" y1=\"10.00\" x2=\"39.38\" y2=\"115.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"39.38\" y1=\"115.00\" x2=\"160.62\" y2=\"115.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"160.62\" y1=\"115.00\" x2=\"100.00\" y2=\"10.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"150.00\" x2=\"160.62\" y2=\"45.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"160.62\" y1=\"45.00\" x2=\"39.38\" y2=\"45.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"39.38\" y1=\"45.00\" x2=\"100.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">11</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">12</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 8 triangles in the figure.",
+      "as": "চিত্ৰটোত 8 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-012",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"20.00\" y1=\"25.00\" x2=\"170.00\" y2=\"25.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"135.00\" x2=\"170.00\" y2=\"135.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"25.00\" x2=\"20.00\" y2=\"135.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"170.00\" y1=\"25.00\" x2=\"170.00\" y2=\"135.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"25.00\" x2=\"170.00\" y2=\"135.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"135.00\" x2=\"170.00\" y2=\"25.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">10</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">11</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 8 triangles in the figure.",
+      "as": "চিত্ৰটোত 8 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-013",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"180.00\" y2=\"70.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"180.00\" y1=\"70.00\" x2=\"150.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"150.00\" y1=\"145.00\" x2=\"50.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"50.00\" y1=\"145.00\" x2=\"20.00\" y2=\"70.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"70.00\" x2=\"100.00\" y2=\"15.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"150.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"50.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There are 3 triangles in the figure.",
+      "as": "চিত্ৰটোত 3 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-014",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"20.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"145.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"100.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"145.00\" x2=\"140.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"180.00\" y1=\"145.00\" x2=\"60.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">16</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">32</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">19</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">20</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 16 triangles in the figure.",
+      "as": "চিত্ৰটোত 16 টা ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-015",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰটোত কিমান বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"30.00\" y1=\"10.00\" x2=\"170.00\" y2=\"10.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"80.00\" x2=\"170.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"150.00\" x2=\"170.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"10.00\" x2=\"30.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"10.00\" x2=\"100.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"170.00\" y1=\"10.00\" x2=\"170.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">9</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">10</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 5 squares in the figure.",
+      "as": "চিত্ৰটোত 5 টা বৰ্গ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-016",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰটোত কিমান বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"25.00\" y1=\"5.00\" x2=\"175.00\" y2=\"5.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"55.00\" x2=\"175.00\" y2=\"55.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"105.00\" x2=\"175.00\" y2=\"105.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"155.00\" x2=\"175.00\" y2=\"155.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"5.00\" x2=\"25.00\" y2=\"155.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"75.00\" y1=\"5.00\" x2=\"75.00\" y2=\"155.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"125.00\" y1=\"5.00\" x2=\"125.00\" y2=\"155.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"175.00\" y1=\"5.00\" x2=\"175.00\" y2=\"155.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">18</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">13</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">15</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">14</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 14 squares in the figure.",
+      "as": "চিত্ৰটোত 14 টা বৰ্গ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-017",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰটোত কিমান বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"24.00\" y1=\"4.00\" x2=\"176.00\" y2=\"4.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"24.00\" y1=\"42.00\" x2=\"176.00\" y2=\"42.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"24.00\" y1=\"80.00\" x2=\"176.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"24.00\" y1=\"118.00\" x2=\"176.00\" y2=\"118.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"24.00\" y1=\"156.00\" x2=\"176.00\" y2=\"156.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"24.00\" y1=\"4.00\" x2=\"24.00\" y2=\"156.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"62.00\" y1=\"4.00\" x2=\"62.00\" y2=\"156.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"4.00\" x2=\"100.00\" y2=\"156.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"138.00\" y1=\"4.00\" x2=\"138.00\" y2=\"156.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"176.00\" y1=\"4.00\" x2=\"176.00\" y2=\"156.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">33</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">32</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">34</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">30</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 30 squares in the figure.",
+      "as": "চিত্ৰটোত 30 টা বৰ্গ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-018",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰটোত কিমান বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"35.00\" y1=\"15.00\" x2=\"165.00\" y2=\"15.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"35.00\" y1=\"80.00\" x2=\"165.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"35.00\" y1=\"145.00\" x2=\"165.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"35.00\" y1=\"15.00\" x2=\"35.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"100.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"165.00\" y1=\"15.00\" x2=\"165.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"35.00\" y1=\"15.00\" x2=\"100.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"35.00\" y1=\"80.00\" x2=\"100.00\" y2=\"15.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"35.00\" y1=\"80.00\" x2=\"100.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"35.00\" y1=\"145.00\" x2=\"100.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"165.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"80.00\" x2=\"165.00\" y2=\"15.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"80.00\" x2=\"165.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"145.00\" x2=\"165.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">12</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">10</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">13</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 10 squares in the figure.",
+      "as": "চিত্ৰটোত 10 টা বৰ্গ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-019",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰটোত কিমান বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"25.00\" y1=\"5.00\" x2=\"175.00\" y2=\"5.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"55.00\" x2=\"175.00\" y2=\"55.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"105.00\" x2=\"175.00\" y2=\"105.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"155.00\" x2=\"175.00\" y2=\"155.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"5.00\" x2=\"25.00\" y2=\"155.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"75.00\" y1=\"5.00\" x2=\"75.00\" y2=\"155.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"125.00\" y1=\"5.00\" x2=\"125.00\" y2=\"155.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"175.00\" y1=\"5.00\" x2=\"175.00\" y2=\"155.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"5.00\" x2=\"75.00\" y2=\"55.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"55.00\" x2=\"75.00\" y2=\"5.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"55.00\" x2=\"75.00\" y2=\"105.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"105.00\" x2=\"75.00\" y2=\"55.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"105.00\" x2=\"75.00\" y2=\"155.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"155.00\" x2=\"75.00\" y2=\"105.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"75.00\" y1=\"5.00\" x2=\"125.00\" y2=\"55.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"75.00\" y1=\"55.00\" x2=\"125.00\" y2=\"5.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"75.00\" y1=\"55.00\" x2=\"125.00\" y2=\"105.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"75.00\" y1=\"105.00\" x2=\"125.00\" y2=\"55.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"75.00\" y1=\"105.00\" x2=\"125.00\" y2=\"155.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"75.00\" y1=\"155.00\" x2=\"125.00\" y2=\"105.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"125.00\" y1=\"5.00\" x2=\"175.00\" y2=\"55.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"125.00\" y1=\"55.00\" x2=\"175.00\" y2=\"5.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"125.00\" y1=\"55.00\" x2=\"175.00\" y2=\"105.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"125.00\" y1=\"105.00\" x2=\"175.00\" y2=\"55.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"125.00\" y1=\"105.00\" x2=\"175.00\" y2=\"155.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"125.00\" y1=\"155.00\" x2=\"175.00\" y2=\"105.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">31</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">34</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">29</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">62</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 31 squares in the figure.",
+      "as": "চিত্ৰটোত 31 টা বৰ্গ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-020",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰটোত কিমান বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"30.00\" y1=\"10.00\" x2=\"170.00\" y2=\"10.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"170.00\" y1=\"10.00\" x2=\"170.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"170.00\" y1=\"150.00\" x2=\"30.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"150.00\" x2=\"30.00\" y2=\"10.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"10.00\" x2=\"170.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"170.00\" y1=\"80.00\" x2=\"100.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"150.00\" x2=\"30.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"80.00\" x2=\"100.00\" y2=\"10.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 2 squares in the figure.",
+      "as": "চিত্ৰটোত 2 টা বৰ্গ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-021",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"30.00\" y1=\"15.00\" x2=\"170.00\" y2=\"15.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"80.00\" x2=\"170.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"145.00\" x2=\"170.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"15.00\" x2=\"30.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"100.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"170.00\" y1=\"15.00\" x2=\"170.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">9</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">11</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 9 rectangles in the figure.",
+      "as": "চিত্ৰটোত 9 টা আয়ত আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-022",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"25.00\" y1=\"15.00\" x2=\"175.00\" y2=\"15.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"80.00\" x2=\"175.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"145.00\" x2=\"175.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"15.00\" x2=\"25.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"75.00\" y1=\"15.00\" x2=\"75.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"125.00\" y1=\"15.00\" x2=\"125.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"175.00\" y1=\"15.00\" x2=\"175.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">19</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">36</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">18</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">22</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There are 18 rectangles in the figure.",
+      "as": "চিত্ৰটোত 18 টা আয়ত আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-023",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"25.00\" y1=\"10.00\" x2=\"175.00\" y2=\"10.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"56.67\" x2=\"175.00\" y2=\"56.67\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"103.33\" x2=\"175.00\" y2=\"103.33\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"150.00\" x2=\"175.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"10.00\" x2=\"25.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"75.00\" y1=\"10.00\" x2=\"75.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"125.00\" y1=\"10.00\" x2=\"125.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"175.00\" y1=\"10.00\" x2=\"175.00\" y2=\"150.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">39</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">35</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">38</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">36</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 36 rectangles in the figure.",
+      "as": "চিত্ৰটোত 36 টা আয়ত আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-024",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"22.00\" y1=\"8.00\" x2=\"178.00\" y2=\"8.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"22.00\" y1=\"56.00\" x2=\"178.00\" y2=\"56.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"22.00\" y1=\"104.00\" x2=\"178.00\" y2=\"104.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"22.00\" y1=\"152.00\" x2=\"178.00\" y2=\"152.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"22.00\" y1=\"8.00\" x2=\"22.00\" y2=\"152.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"61.00\" y1=\"8.00\" x2=\"61.00\" y2=\"152.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"8.00\" x2=\"100.00\" y2=\"152.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"139.00\" y1=\"8.00\" x2=\"139.00\" y2=\"152.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"178.00\" y1=\"8.00\" x2=\"178.00\" y2=\"152.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">61</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">60</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">120</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">63</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 60 rectangles in the figure.",
+      "as": "চিত্ৰটোত 60 টা আয়ত আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-025",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"25.00\" y1=\"12.00\" x2=\"175.00\" y2=\"12.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"46.00\" x2=\"175.00\" y2=\"46.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"80.00\" x2=\"175.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"114.00\" x2=\"175.00\" y2=\"114.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"148.00\" x2=\"175.00\" y2=\"148.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"12.00\" x2=\"25.00\" y2=\"148.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"62.50\" y1=\"12.00\" x2=\"62.50\" y2=\"148.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"12.00\" x2=\"100.00\" y2=\"148.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"137.50\" y1=\"12.00\" x2=\"137.50\" y2=\"148.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"175.00\" y1=\"12.00\" x2=\"175.00\" y2=\"148.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">100</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">103</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">50</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">200</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 100 rectangles in the figure.",
+      "as": "চিত্ৰটোত 100 টা আয়ত আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-026",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"20.00\" y1=\"20.00\" x2=\"180.00\" y2=\"20.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"80.00\" x2=\"180.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"140.00\" x2=\"180.00\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"20.00\" x2=\"20.00\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"60.00\" y1=\"20.00\" x2=\"60.00\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"20.00\" x2=\"100.00\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"140.00\" y1=\"20.00\" x2=\"140.00\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"180.00\" y1=\"20.00\" x2=\"180.00\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">30</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">33</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">31</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">15</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 30 rectangles in the figure.",
+      "as": "চিত্ৰটোত 30 টা আয়ত আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-027",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰটোত কিমান সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"20.00\" y1=\"40.00\" x2=\"180.00\" y2=\"40.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"80.00\" x2=\"180.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"120.00\" x2=\"180.00\" y2=\"120.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"80.00\" y1=\"20.00\" x2=\"80.00\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"140.00\" y1=\"20.00\" x2=\"140.00\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 5 straight lines in the figure.",
+      "as": "চিত্ৰটোত 5 টা সৰলৰেখা আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-028",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰটোত কিমান সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"180.00\" y2=\"70.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"180.00\" y1=\"70.00\" x2=\"150.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"150.00\" y1=\"145.00\" x2=\"50.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"50.00\" y1=\"145.00\" x2=\"20.00\" y2=\"70.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"70.00\" x2=\"100.00\" y2=\"15.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">10</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 5 straight lines in the figure.",
+      "as": "চিত্ৰটোত 5 টা সৰলৰেখা আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-029",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰটোত কিমান সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"30.00\" y1=\"30.00\" x2=\"170.00\" y2=\"30.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"30.00\" x2=\"30.00\" y2=\"130.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"130.00\" x2=\"170.00\" y2=\"130.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"170.00\" y1=\"30.00\" x2=\"170.00\" y2=\"130.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 4 straight lines in the figure.",
+      "as": "চিত্ৰটোত 4 টা সৰলৰেখা আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-030",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰটোত কিমান সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"20.00\" y1=\"20.00\" x2=\"180.00\" y2=\"20.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"80.00\" x2=\"180.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"140.00\" x2=\"180.00\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"20.00\" x2=\"20.00\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"20.00\" x2=\"100.00\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"180.00\" y1=\"20.00\" x2=\"180.00\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">10</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 6 straight lines in the figure.",
+      "as": "চিত্ৰটোত 6 টা সৰলৰেখা আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-031",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰটোত কিমান সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100.00\" y1=\"10.00\" x2=\"39.38\" y2=\"115.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"39.38\" y1=\"115.00\" x2=\"160.62\" y2=\"115.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"160.62\" y1=\"115.00\" x2=\"100.00\" y2=\"10.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There are 3 straight lines in the figure.",
+      "as": "চিত্ৰটোত 3 টা সৰলৰেখা আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-032",
+    "q": {
+      "en": "How many circles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান বৃত্ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"20\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"100\" cy=\"80\" r=\"40\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"100\" cy=\"80\" r=\"60\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 3 circles in the figure.",
+      "as": "চিত্ৰটোত 3 টা বৃত্ত আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-033",
+    "q": {
+      "en": "How many circles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান বৃত্ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"15\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"100\" cy=\"80\" r=\"32\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"100\" cy=\"80\" r=\"49\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"100\" cy=\"80\" r=\"66\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 4 circles in the figure.",
+      "as": "চিত্ৰটোত 4 টা বৃত্ত আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-034",
+    "q": {
+      "en": "How many circles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান বৃত্ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"40\" r=\"22\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"60\" cy=\"80\" r=\"22\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"140\" cy=\"80\" r=\"22\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"80\" cy=\"118\" r=\"22\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"120\" cy=\"118\" r=\"22\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 5 circles in the figure.",
+      "as": "চিত্ৰটোত 5 টা বৃত্ত আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-035",
+    "q": {
+      "en": "How many circles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান বৃত্ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"72\" cy=\"80\" r=\"45\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"128\" cy=\"80\" r=\"45\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 2 circles in the figure.",
+      "as": "চিত্ৰটোত 2 টা বৃত্ত আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-036",
+    "q": {
+      "en": "How many circles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান বৃত্ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"60\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"78\" cy=\"70\" r=\"18\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"124\" cy=\"96\" r=\"18\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 3 circles in the figure.",
+      "as": "চিত্ৰটোত 3 টা বৃত্ত আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-037",
+    "q": {
+      "en": "How many circles are there in the figure?",
+      "as": "চিত্ৰটোত কিমান বৃত্ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"52\" cy=\"80\" r=\"28\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"100\" cy=\"80\" r=\"28\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"148\" cy=\"80\" r=\"28\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 3 circles in the figure.",
+      "as": "চিত্ৰটোত 3 টা বৃত্ত আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-038",
+    "q": {
+      "en": "Into how many parts is the figure divided?",
+      "as": "চিত্ৰটো কিমান ভাগত বিভক্ত হৈছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"32.00\" y1=\"18.00\" x2=\"168.00\" y2=\"18.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"32.00\" y1=\"80.00\" x2=\"168.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"32.00\" y1=\"142.00\" x2=\"168.00\" y2=\"142.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"32.00\" y1=\"18.00\" x2=\"32.00\" y2=\"142.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"18.00\" x2=\"100.00\" y2=\"142.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"168.00\" y1=\"18.00\" x2=\"168.00\" y2=\"142.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The figure is divided into 4 parts.",
+      "as": "চিত্ৰটো 4 টা ভাগত বিভক্ত।"
+    }
+  },
+  {
+    "id": "counting-figure-039",
+    "q": {
+      "en": "Into how many parts is the figure divided?",
+      "as": "চিত্ৰটো কিমান ভাগত বিভক্ত হৈছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"28.00\" y1=\"14.00\" x2=\"172.00\" y2=\"14.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"28.00\" y1=\"58.00\" x2=\"172.00\" y2=\"58.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"28.00\" y1=\"102.00\" x2=\"172.00\" y2=\"102.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"28.00\" y1=\"146.00\" x2=\"172.00\" y2=\"146.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"28.00\" y1=\"14.00\" x2=\"28.00\" y2=\"146.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"76.00\" y1=\"14.00\" x2=\"76.00\" y2=\"146.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"124.00\" y1=\"14.00\" x2=\"124.00\" y2=\"146.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"172.00\" y1=\"14.00\" x2=\"172.00\" y2=\"146.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">11</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">9</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The figure is divided into 9 parts.",
+      "as": "চিত্ৰটো 9 টা ভাগত বিভক্ত।"
+    }
+  },
+  {
+    "id": "counting-figure-040",
+    "q": {
+      "en": "Into how many parts is the figure divided?",
+      "as": "চিত্ৰটো কিমান ভাগত বিভক্ত হৈছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"20.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"145.00\" x2=\"180.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"60.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"15.00\" x2=\"140.00\" y2=\"145.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The figure is divided into 3 parts.",
+      "as": "চিত্ৰটো 3 টা ভাগত বিভক্ত।"
+    }
+  },
+  {
+    "id": "counting-figure-041",
+    "q": {
+      "en": "Into how many parts is the figure divided?",
+      "as": "চিত্ৰটো কিমান ভাগত বিভক্ত হৈছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"25.00\" y1=\"30.00\" x2=\"165.00\" y2=\"30.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"130.00\" x2=\"165.00\" y2=\"130.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"30.00\" x2=\"25.00\" y2=\"130.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"165.00\" y1=\"30.00\" x2=\"165.00\" y2=\"130.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"30.00\" x2=\"165.00\" y2=\"130.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"25.00\" y1=\"130.00\" x2=\"165.00\" y2=\"30.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The figure is divided into 4 parts.",
+      "as": "চিত্ৰটো 4 টা ভাগত বিভক্ত।"
+    }
+  },
+  {
+    "id": "counting-figure-042",
+    "q": {
+      "en": "Into how many parts is the figure divided?",
+      "as": "চিত্ৰটো কিমান ভাগত বিভক্ত হৈছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"34.00\" y1=\"16.00\" x2=\"166.00\" y2=\"16.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"34.00\" y1=\"81.00\" x2=\"166.00\" y2=\"81.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"34.00\" y1=\"146.00\" x2=\"166.00\" y2=\"146.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"34.00\" y1=\"16.00\" x2=\"34.00\" y2=\"146.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"16.00\" x2=\"100.00\" y2=\"146.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"166.00\" y1=\"16.00\" x2=\"166.00\" y2=\"146.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"34.00\" y1=\"16.00\" x2=\"100.00\" y2=\"81.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"34.00\" y1=\"81.00\" x2=\"100.00\" y2=\"16.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"34.00\" y1=\"81.00\" x2=\"100.00\" y2=\"146.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"34.00\" y1=\"146.00\" x2=\"100.00\" y2=\"81.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"16.00\" x2=\"166.00\" y2=\"81.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"81.00\" x2=\"166.00\" y2=\"16.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"81.00\" x2=\"166.00\" y2=\"146.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"146.00\" x2=\"166.00\" y2=\"81.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">16</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">19</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">20</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The figure is divided into 16 parts.",
+      "as": "চিত্ৰটো 16 টা ভাগত বিভক্ত।"
+    }
+  },
+  {
+    "id": "counting-figure-043",
+    "q": {
+      "en": "Into how many parts is the figure divided?",
+      "as": "চিত্ৰটো কিমান ভাগত বিভক্ত হৈছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"60\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"40.00\" y1=\"80.00\" x2=\"160.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"20.00\" x2=\"100.00\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"57.00\" y1=\"37.00\" x2=\"143.00\" y2=\"123.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">10</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The figure is divided into 6 parts.",
+      "as": "চিত্ৰটো 6 টা ভাগত বিভক্ত।"
+    }
+  },
+  {
+    "id": "counting-figure-044",
+    "q": {
+      "en": "How many cubes are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ঘনক আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100.00\" y1=\"20.00\" x2=\"169.28\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"65.36\" y1=\"40.00\" x2=\"134.64\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"30.72\" y1=\"60.00\" x2=\"100.00\" y2=\"100.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"20.00\" x2=\"30.72\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"134.64\" y1=\"40.00\" x2=\"65.36\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"169.28\" y1=\"60.00\" x2=\"100.00\" y2=\"100.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"100.00\" x2=\"100.00\" y2=\"20.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"65.36\" y1=\"120.00\" x2=\"65.36\" y2=\"40.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"30.72\" y1=\"140.00\" x2=\"30.72\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"100.00\" x2=\"30.72\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"60.00\" x2=\"30.72\" y2=\"100.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"20.00\" x2=\"30.72\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"100.00\" x2=\"100.00\" y2=\"20.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"134.64\" y1=\"120.00\" x2=\"134.64\" y2=\"40.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"169.28\" y1=\"140.00\" x2=\"169.28\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"100.00\" x2=\"169.28\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"60.00\" x2=\"169.28\" y2=\"100.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"20.00\" x2=\"169.28\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">11</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">12</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">9</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The figure is made of 8 unit cubes.",
+      "as": "চিত্ৰটোত 8 টা একক ঘনক আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-045",
+    "q": {
+      "en": "How many cubes are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ঘনক আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100.00\" y1=\"20.00\" x2=\"169.28\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"76.91\" y1=\"33.33\" x2=\"146.19\" y2=\"73.33\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"53.81\" y1=\"46.67\" x2=\"123.09\" y2=\"86.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"30.72\" y1=\"60.00\" x2=\"100.00\" y2=\"100.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"20.00\" x2=\"30.72\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"123.09\" y1=\"33.33\" x2=\"53.81\" y2=\"73.33\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"146.19\" y1=\"46.67\" x2=\"76.91\" y2=\"86.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"169.28\" y1=\"60.00\" x2=\"100.00\" y2=\"100.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"100.00\" x2=\"100.00\" y2=\"20.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"76.91\" y1=\"113.33\" x2=\"76.91\" y2=\"33.33\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"53.81\" y1=\"126.67\" x2=\"53.81\" y2=\"46.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"30.72\" y1=\"140.00\" x2=\"30.72\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"100.00\" x2=\"30.72\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"73.33\" x2=\"30.72\" y2=\"113.33\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"46.67\" x2=\"30.72\" y2=\"86.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"20.00\" x2=\"30.72\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"100.00\" x2=\"100.00\" y2=\"20.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"123.09\" y1=\"113.33\" x2=\"123.09\" y2=\"33.33\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"146.19\" y1=\"126.67\" x2=\"146.19\" y2=\"46.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"169.28\" y1=\"140.00\" x2=\"169.28\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"100.00\" x2=\"169.28\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"73.33\" x2=\"169.28\" y2=\"113.33\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"46.67\" x2=\"169.28\" y2=\"86.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"20.00\" x2=\"169.28\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">31</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">29</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">27</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">28</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The figure is made of 27 unit cubes.",
+      "as": "চিত্ৰটোত 27 টা একক ঘনক আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-046",
+    "q": {
+      "en": "How many cubes are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ঘনক আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"82.68\" y1=\"20.00\" x2=\"151.96\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"48.04\" y1=\"40.00\" x2=\"117.32\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"20.00\" x2=\"48.04\" y2=\"40.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"117.32\" y1=\"40.00\" x2=\"82.68\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"151.96\" y1=\"60.00\" x2=\"117.32\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"100.00\" x2=\"82.68\" y2=\"20.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"48.04\" y1=\"120.00\" x2=\"48.04\" y2=\"40.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"100.00\" x2=\"48.04\" y2=\"120.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"60.00\" x2=\"48.04\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"20.00\" x2=\"48.04\" y2=\"40.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"100.00\" x2=\"82.68\" y2=\"20.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"117.32\" y1=\"120.00\" x2=\"117.32\" y2=\"40.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"151.96\" y1=\"140.00\" x2=\"151.96\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"100.00\" x2=\"151.96\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"60.00\" x2=\"151.96\" y2=\"100.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"20.00\" x2=\"151.96\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The figure is made of 4 unit cubes.",
+      "as": "চিত্ৰটোত 4 টা একক ঘনক আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-047",
+    "q": {
+      "en": "How many cubes are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ঘনক আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"88.45\" y1=\"20.00\" x2=\"157.74\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"65.36\" y1=\"33.33\" x2=\"134.64\" y2=\"73.33\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"42.26\" y1=\"46.67\" x2=\"111.55\" y2=\"86.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"88.45\" y1=\"20.00\" x2=\"42.26\" y2=\"46.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.55\" y1=\"33.33\" x2=\"65.36\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"134.64\" y1=\"46.67\" x2=\"88.45\" y2=\"73.33\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"157.74\" y1=\"60.00\" x2=\"111.55\" y2=\"86.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"88.45\" y1=\"100.00\" x2=\"88.45\" y2=\"20.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"65.36\" y1=\"113.33\" x2=\"65.36\" y2=\"33.33\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"42.26\" y1=\"126.67\" x2=\"42.26\" y2=\"46.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"88.45\" y1=\"100.00\" x2=\"42.26\" y2=\"126.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"88.45\" y1=\"73.33\" x2=\"42.26\" y2=\"100.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"88.45\" y1=\"46.67\" x2=\"42.26\" y2=\"73.33\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"88.45\" y1=\"20.00\" x2=\"42.26\" y2=\"46.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"88.45\" y1=\"100.00\" x2=\"88.45\" y2=\"20.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.55\" y1=\"113.33\" x2=\"111.55\" y2=\"33.33\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"134.64\" y1=\"126.67\" x2=\"134.64\" y2=\"46.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"157.74\" y1=\"140.00\" x2=\"157.74\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"88.45\" y1=\"100.00\" x2=\"157.74\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"88.45\" y1=\"73.33\" x2=\"157.74\" y2=\"113.33\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"88.45\" y1=\"46.67\" x2=\"157.74\" y2=\"86.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"88.45\" y1=\"20.00\" x2=\"157.74\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">21</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">18</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">9</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">17</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The figure is made of 18 unit cubes.",
+      "as": "চিত্ৰটোত 18 টা একক ঘনক আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-048",
+    "q": {
+      "en": "How many cubes are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ঘনক আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"74.02\" y1=\"20.00\" x2=\"177.94\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"48.04\" y1=\"35.00\" x2=\"151.96\" y2=\"95.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"22.06\" y1=\"50.00\" x2=\"125.98\" y2=\"110.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"74.02\" y1=\"20.00\" x2=\"22.06\" y2=\"50.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"35.00\" x2=\"48.04\" y2=\"65.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"125.98\" y1=\"50.00\" x2=\"74.02\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"151.96\" y1=\"65.00\" x2=\"100.00\" y2=\"95.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"177.94\" y1=\"80.00\" x2=\"125.98\" y2=\"110.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"74.02\" y1=\"80.00\" x2=\"74.02\" y2=\"20.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"48.04\" y1=\"95.00\" x2=\"48.04\" y2=\"35.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"22.06\" y1=\"110.00\" x2=\"22.06\" y2=\"50.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"74.02\" y1=\"80.00\" x2=\"22.06\" y2=\"110.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"74.02\" y1=\"50.00\" x2=\"22.06\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"74.02\" y1=\"20.00\" x2=\"22.06\" y2=\"50.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"74.02\" y1=\"80.00\" x2=\"74.02\" y2=\"20.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"95.00\" x2=\"100.00\" y2=\"35.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"125.98\" y1=\"110.00\" x2=\"125.98\" y2=\"50.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"151.96\" y1=\"125.00\" x2=\"151.96\" y2=\"65.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"177.94\" y1=\"140.00\" x2=\"177.94\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"74.02\" y1=\"80.00\" x2=\"177.94\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"74.02\" y1=\"50.00\" x2=\"177.94\" y2=\"110.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"74.02\" y1=\"20.00\" x2=\"177.94\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">20</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">16</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">14</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The figure is made of 16 unit cubes.",
+      "as": "চিত্ৰটোত 16 টা একক ঘনক আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-049",
+    "q": {
+      "en": "How many cubes are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ঘনক আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"111.43\" y1=\"27.21\" x2=\"180.00\" y2=\"66.80\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"88.57\" y1=\"40.41\" x2=\"157.14\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"65.71\" y1=\"53.61\" x2=\"134.29\" y2=\"93.20\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"42.86\" y1=\"66.80\" x2=\"111.43\" y2=\"106.39\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"80.00\" x2=\"88.57\" y2=\"119.59\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.43\" y1=\"27.21\" x2=\"20.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"134.29\" y1=\"40.41\" x2=\"42.86\" y2=\"93.20\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"157.14\" y1=\"53.61\" x2=\"65.71\" y2=\"106.39\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"180.00\" y1=\"66.80\" x2=\"88.57\" y2=\"119.59\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.43\" y1=\"80.00\" x2=\"111.43\" y2=\"27.21\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"88.57\" y1=\"93.20\" x2=\"88.57\" y2=\"40.41\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"65.71\" y1=\"106.39\" x2=\"65.71\" y2=\"53.61\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"42.86\" y1=\"119.59\" x2=\"42.86\" y2=\"66.80\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"20.00\" y1=\"132.79\" x2=\"20.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.43\" y1=\"80.00\" x2=\"20.00\" y2=\"132.79\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.43\" y1=\"53.61\" x2=\"20.00\" y2=\"106.39\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.43\" y1=\"27.21\" x2=\"20.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.43\" y1=\"80.00\" x2=\"111.43\" y2=\"27.21\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"134.29\" y1=\"93.20\" x2=\"134.29\" y2=\"40.41\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"157.14\" y1=\"106.39\" x2=\"157.14\" y2=\"53.61\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"180.00\" y1=\"119.59\" x2=\"180.00\" y2=\"66.80\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.43\" y1=\"80.00\" x2=\"180.00\" y2=\"119.59\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.43\" y1=\"53.61\" x2=\"180.00\" y2=\"93.20\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.43\" y1=\"27.21\" x2=\"180.00\" y2=\"66.80\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">27</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">26</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">24</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">48</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The figure is made of 24 unit cubes.",
+      "as": "চিত্ৰটোত 24 টা একক ঘনক আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-050",
+    "q": {
+      "en": "How many cubes are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ঘনক আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"82.68\" y1=\"20.00\" x2=\"151.96\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"65.36\" y1=\"30.00\" x2=\"134.64\" y2=\"70.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"48.04\" y1=\"40.00\" x2=\"117.32\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"20.00\" x2=\"48.04\" y2=\"40.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"30.00\" x2=\"65.36\" y2=\"50.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"117.32\" y1=\"40.00\" x2=\"82.68\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"134.64\" y1=\"50.00\" x2=\"100.00\" y2=\"70.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"151.96\" y1=\"60.00\" x2=\"117.32\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"100.00\" x2=\"82.68\" y2=\"20.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"65.36\" y1=\"110.00\" x2=\"65.36\" y2=\"30.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"48.04\" y1=\"120.00\" x2=\"48.04\" y2=\"40.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"100.00\" x2=\"48.04\" y2=\"120.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"80.00\" x2=\"48.04\" y2=\"100.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"60.00\" x2=\"48.04\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"40.00\" x2=\"48.04\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"20.00\" x2=\"48.04\" y2=\"40.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"100.00\" x2=\"82.68\" y2=\"20.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"110.00\" x2=\"100.00\" y2=\"30.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"117.32\" y1=\"120.00\" x2=\"117.32\" y2=\"40.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"134.64\" y1=\"130.00\" x2=\"134.64\" y2=\"50.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"151.96\" y1=\"140.00\" x2=\"151.96\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"100.00\" x2=\"151.96\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"80.00\" x2=\"151.96\" y2=\"120.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"60.00\" x2=\"151.96\" y2=\"100.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"40.00\" x2=\"151.96\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"82.68\" y1=\"20.00\" x2=\"151.96\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">36</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">32</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">31</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">33</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The figure is made of 32 unit cubes.",
+      "as": "চিত্ৰটোত 32 টা একক ঘনক আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-051",
+    "q": {
+      "en": "How many cubes are there in the figure?",
+      "as": "চিত্ৰটোত কিমান ঘনক আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"111.55\" y1=\"20.00\" x2=\"157.74\" y2=\"46.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"88.45\" y1=\"33.33\" x2=\"134.64\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"65.36\" y1=\"46.67\" x2=\"111.55\" y2=\"73.33\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"42.26\" y1=\"60.00\" x2=\"88.45\" y2=\"86.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.55\" y1=\"20.00\" x2=\"42.26\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"134.64\" y1=\"33.33\" x2=\"65.36\" y2=\"73.33\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"157.74\" y1=\"46.67\" x2=\"88.45\" y2=\"86.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.55\" y1=\"100.00\" x2=\"111.55\" y2=\"20.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"88.45\" y1=\"113.33\" x2=\"88.45\" y2=\"33.33\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"65.36\" y1=\"126.67\" x2=\"65.36\" y2=\"46.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"42.26\" y1=\"140.00\" x2=\"42.26\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.55\" y1=\"100.00\" x2=\"42.26\" y2=\"140.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.55\" y1=\"73.33\" x2=\"42.26\" y2=\"113.33\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.55\" y1=\"46.67\" x2=\"42.26\" y2=\"86.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.55\" y1=\"20.00\" x2=\"42.26\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.55\" y1=\"100.00\" x2=\"111.55\" y2=\"20.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"134.64\" y1=\"113.33\" x2=\"134.64\" y2=\"33.33\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"157.74\" y1=\"126.67\" x2=\"157.74\" y2=\"46.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.55\" y1=\"100.00\" x2=\"157.74\" y2=\"126.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.55\" y1=\"73.33\" x2=\"157.74\" y2=\"100.00\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.55\" y1=\"46.67\" x2=\"157.74\" y2=\"73.33\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/><line x1=\"111.55\" y1=\"20.00\" x2=\"157.74\" y2=\"46.67\" stroke=\"#334155\" stroke-width=\"2.0\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">21</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">18</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">19</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">22</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The figure is made of 18 unit cubes.",
+      "as": "চিত্ৰটোত 18 টা একক ঘনক আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-052",
+    "q": {
+      "en": "How many triangles and squares are there in total in the figure?",
+      "as": "চিত্ৰটোত মুঠ কিমান ত্ৰিভুজ আৰু বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"28.00\" y1=\"8.00\" x2=\"172.00\" y2=\"8.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"28.00\" y1=\"80.00\" x2=\"172.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"28.00\" y1=\"152.00\" x2=\"172.00\" y2=\"152.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"28.00\" y1=\"8.00\" x2=\"28.00\" y2=\"152.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"8.00\" x2=\"100.00\" y2=\"152.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"172.00\" y1=\"8.00\" x2=\"172.00\" y2=\"152.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"28.00\" y1=\"8.00\" x2=\"100.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"28.00\" y1=\"80.00\" x2=\"100.00\" y2=\"8.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"28.00\" y1=\"80.00\" x2=\"100.00\" y2=\"152.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"28.00\" y1=\"152.00\" x2=\"100.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"8.00\" x2=\"172.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"80.00\" x2=\"172.00\" y2=\"8.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"80.00\" x2=\"172.00\" y2=\"152.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100.00\" y1=\"152.00\" x2=\"172.00\" y2=\"80.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">57</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">54</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">52</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">58</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 54 triangles and squares in total in the figure.",
+      "as": "চিত্ৰটোত মুঠ 54 টা ত্ৰিভুজ আৰু বৰ্গ আছে।"
+    }
+  },
+  {
+    "id": "counting-figure-053",
+    "q": {
+      "en": "How many triangles and squares are there in total in the figure?",
+      "as": "চিত্ৰটোত মুঠ কিমান ত্ৰিভুজ আৰু বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"30.00\" y1=\"20.00\" x2=\"170.00\" y2=\"20.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"160.00\" x2=\"170.00\" y2=\"160.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"20.00\" x2=\"30.00\" y2=\"160.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"170.00\" y1=\"20.00\" x2=\"170.00\" y2=\"160.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"20.00\" x2=\"170.00\" y2=\"160.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"160.00\" x2=\"170.00\" y2=\"20.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">9</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">10</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 9 triangles and squares in total in the figure.",
+      "as": "চিত্ৰটোত মুঠ 9 টা ত্ৰিভুজ আৰু বৰ্গ আছে।"
+    }
   }
-}
+]
