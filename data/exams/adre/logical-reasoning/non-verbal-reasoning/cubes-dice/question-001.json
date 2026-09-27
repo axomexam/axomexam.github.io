@@ -1,30 +1,1242 @@
-{
-  "id": "cubes-dice-001",
-  "q": {
-    "en": "In a standard die, the numbers on opposite faces add up to 7. If the top face shows 2, what does the bottom face show?",
-    "as": "এটা সাধাৰণ পাশাত বিপৰীত ফলকৰ সংখ্যাৰ যোগফল ৭। যদি ওপৰৰ ফলকত ২ দেখুৱায়, তলৰ ফলকত কিমান দেখুৱাব?"
-  },
-  "options": [
-    {
-      "en": "5",
-      "as": "৫"
+[
+  {
+    "id": "cube-dice-001",
+    "q": {
+      "en": "Two different positions of the same dice are shown below. Which number is opposite to the face having 1?",
+      "as": "তলত একে লুডুৰ দুটা ভিন্ন অৱস্থান দেখুওৱা হৈছে। 1 সংখ্যাটো থকা পিঠিখনৰ বিপৰীত পিঠিখনত কোনটো সংখ্যা থাকিব?"
     },
-    {
-      "en": "4",
-      "as": "৪"
-    },
-    {
-      "en": "6",
-      "as": "৬"
-    },
-    {
-      "en": "3",
-      "as": "৩"
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 238 122\" width=\"238\" height=\"122\"><rect x=\"2\" y=\"2\" width=\"234\" height=\"118\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"16.0,38.0 60.0,60.0 60.0,106.0 16.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"24.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"60.0,60.0 104.0,38.0 104.0,84.0 60.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"68.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"82.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"95.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"16.0,38.0 60.0,16.0 104.0,38.0 60.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"60.0\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,60.0 178.0,106.0 134.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"142.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"142.4\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"178.0,60.0 222.0,38.0 222.0,84.0 178.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"200.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,16.0 222.0,38.0 178.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"150.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"51.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"24.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"205.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The number 1 appears in both positions. Its adjacent faces are 2, 3, 4, 5. So 6 is opposite to 1.",
+      "as": "1 সংখ্যাটো দুয়োটা অৱস্থানতে আছে। ইয়াৰ সংলগ্ন পিঠিবোৰ হৈছে 2, 3, 4, 5। সেয়ে 6 হৈছে 1 ৰ বিপৰীত পিঠি।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "Opposite faces add to 7, so the bottom face is 7 − 2 = 5.",
-    "as": "বিপৰীত ফলকৰ যোগফল ৭, গতিকে তলৰ ফলক = ৭ − ২ = ৫।"
+  },
+  {
+    "id": "cube-dice-002",
+    "q": {
+      "en": "Two different positions of the same dice are shown below. Which number is opposite to the face having 2?",
+      "as": "তলত একে লুডুৰ দুটা ভিন্ন অৱস্থান দেখুওৱা হৈছে। 2 সংখ্যাটো থকা পিঠিখনৰ বিপৰীত পিঠিখনত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 238 122\" width=\"238\" height=\"122\"><rect x=\"2\" y=\"2\" width=\"234\" height=\"118\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"16.0,38.0 60.0,60.0 60.0,106.0 16.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"24.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"60.0,60.0 104.0,38.0 104.0,84.0 60.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"68.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"82.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"95.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"16.0,38.0 60.0,16.0 104.0,38.0 60.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"60.0\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,60.0 178.0,106.0 134.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"142.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"142.4\" cy=\"65.2\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"142.4\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"78.8\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"178.0,60.0 222.0,38.0 222.0,84.0 178.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"186.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,16.0 222.0,38.0 178.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"150.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"51.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"24.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"205.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The number 2 appears in both positions. Its adjacent faces are 1, 3, 4, 6. So 5 is opposite to 2.",
+      "as": "2 সংখ্যাটো দুয়োটা অৱস্থানতে আছে। ইয়াৰ সংলগ্ন পিঠিবোৰ হৈছে 1, 3, 4, 6। সেয়ে 5 হৈছে 2 ৰ বিপৰীত পিঠি।"
+    }
+  },
+  {
+    "id": "cube-dice-003",
+    "q": {
+      "en": "Two different positions of the same dice are shown below. Which number is opposite to the face having 3?",
+      "as": "তলত একে লুডুৰ দুটা ভিন্ন অৱস্থান দেখুওৱা হৈছে। 3 সংখ্যাটো থকা পিঠিখনৰ বিপৰীত পিঠিখনত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 238 122\" width=\"238\" height=\"122\"><rect x=\"2\" y=\"2\" width=\"234\" height=\"118\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"16.0,38.0 60.0,60.0 60.0,106.0 16.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"24.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"60.0,60.0 104.0,38.0 104.0,84.0 60.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"68.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"82.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"95.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"16.0,38.0 60.0,16.0 104.0,38.0 60.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"60.0\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,60.0 178.0,106.0 134.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"142.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"156.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"178.0,60.0 222.0,38.0 222.0,84.0 178.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"186.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"186.4\" cy=\"78.8\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"186.4\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"65.2\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,16.0 222.0,38.0 178.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"150.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"51.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"24.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"205.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The number 3 appears in both positions. Its adjacent faces are 1, 2, 5, 6. So 4 is opposite to 3.",
+      "as": "3 সংখ্যাটো দুয়োটা অৱস্থানতে আছে। ইয়াৰ সংলগ্ন পিঠিবোৰ হৈছে 1, 2, 5, 6। সেয়ে 4 হৈছে 3 ৰ বিপৰীত পিঠি।"
+    }
+  },
+  {
+    "id": "cube-dice-004",
+    "q": {
+      "en": "Two different positions of the same dice are shown below. Which number is opposite to the face having 4?",
+      "as": "তলত একে লুডুৰ দুটা ভিন্ন অৱস্থান দেখুওৱা হৈছে। 4 সংখ্যাটো থকা পিঠিখনৰ বিপৰীত পিঠিখনত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 238 122\" width=\"238\" height=\"122\"><rect x=\"2\" y=\"2\" width=\"234\" height=\"118\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"16.0,38.0 60.0,60.0 60.0,106.0 16.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"24.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"60.0,60.0 104.0,38.0 104.0,84.0 60.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"82.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"16.0,38.0 60.0,16.0 104.0,38.0 60.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"32.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"51.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"24.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"87.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,60.0 178.0,106.0 134.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"142.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"142.4\" cy=\"65.2\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"142.4\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"78.8\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"178.0,60.0 222.0,38.0 222.0,84.0 178.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"186.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"186.4\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,16.0 222.0,38.0 178.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"150.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"51.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"24.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"205.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The number 4 appears in both positions. Its adjacent faces are 1, 2, 5, 6. So 3 is opposite to 4.",
+      "as": "4 সংখ্যাটো দুয়োটা অৱস্থানতে আছে। ইয়াৰ সংলগ্ন পিঠিবোৰ হৈছে 1, 2, 5, 6। সেয়ে 3 হৈছে 4 ৰ বিপৰীত পিঠি।"
+    }
+  },
+  {
+    "id": "cube-dice-005",
+    "q": {
+      "en": "Two different positions of the same dice are shown below. Which number is opposite to the face having 5?",
+      "as": "তলত একে লুডুৰ দুটা ভিন্ন অৱস্থান দেখুওৱা হৈছে। 5 সংখ্যাটো থকা পিঠিখনৰ বিপৰীত পিঠিখনত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 238 122\" width=\"238\" height=\"122\"><rect x=\"2\" y=\"2\" width=\"234\" height=\"118\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"16.0,38.0 60.0,60.0 60.0,106.0 16.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"24.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"38.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"60.0,60.0 104.0,38.0 104.0,84.0 60.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"68.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"68.4\" cy=\"78.8\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"68.4\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"95.6\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"95.6\" cy=\"65.2\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"95.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"16.0,38.0 60.0,16.0 104.0,38.0 60.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"32.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"51.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"24.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"87.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,60.0 178.0,106.0 134.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"142.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"142.4\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"156.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"178.0,60.0 222.0,38.0 222.0,84.0 178.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"186.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"186.4\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,16.0 222.0,38.0 178.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"178.0\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The number 5 appears in both positions. Its adjacent faces are 1, 3, 4, 6. So 2 is opposite to 5.",
+      "as": "5 সংখ্যাটো দুয়োটা অৱস্থানতে আছে। ইয়াৰ সংলগ্ন পিঠিবোৰ হৈছে 1, 3, 4, 6। সেয়ে 2 হৈছে 5 ৰ বিপৰীত পিঠি।"
+    }
+  },
+  {
+    "id": "cube-dice-006",
+    "q": {
+      "en": "Two different positions of the same dice are shown below. Which number is opposite to the face having 6?",
+      "as": "তলত একে লুডুৰ দুটা ভিন্ন অৱস্থান দেখুওৱা হৈছে। 6 সংখ্যাটো থকা পিঠিখনৰ বিপৰীত পিঠিখনত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 238 122\" width=\"238\" height=\"122\"><rect x=\"2\" y=\"2\" width=\"234\" height=\"118\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"16.0,38.0 60.0,60.0 60.0,106.0 16.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"24.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"60.0,60.0 104.0,38.0 104.0,84.0 60.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"68.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"68.4\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"95.6\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"95.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"16.0,38.0 60.0,16.0 104.0,38.0 60.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"32.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"46.4\" cy=\"44.8\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"51.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"24.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"73.6\" cy=\"31.2\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"87.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,60.0 178.0,106.0 134.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"142.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"156.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"178.0,60.0 222.0,38.0 222.0,84.0 178.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"186.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"186.4\" cy=\"78.8\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"186.4\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"65.2\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,16.0 222.0,38.0 178.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"150.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"51.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"24.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"205.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The number 6 appears in both positions. Its adjacent faces are 2, 3, 4, 5. So 1 is opposite to 6.",
+      "as": "6 সংখ্যাটো দুয়োটা অৱস্থানতে আছে। ইয়াৰ সংলগ্ন পিঠিবোৰ হৈছে 2, 3, 4, 5। সেয়ে 1 হৈছে 6 ৰ বিপৰীত পিঠি।"
+    }
+  },
+  {
+    "id": "cube-dice-007",
+    "q": {
+      "en": "Two different positions of the same dice are shown below. Which number is opposite to the face having 1?",
+      "as": "তলত একে লুডুৰ দুটা ভিন্ন অৱস্থান দেখুওৱা হৈছে। 1 সংখ্যাটো থকা পিঠিখনৰ বিপৰীত পিঠিখনত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 238 122\" width=\"238\" height=\"122\"><rect x=\"2\" y=\"2\" width=\"234\" height=\"118\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"16.0,38.0 60.0,60.0 60.0,106.0 16.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"24.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"60.0,60.0 104.0,38.0 104.0,84.0 60.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"68.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"82.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"95.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"16.0,38.0 60.0,16.0 104.0,38.0 60.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"60.0\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,60.0 178.0,106.0 134.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"156.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"178.0,60.0 222.0,38.0 222.0,84.0 178.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"186.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"186.4\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"200.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,16.0 222.0,38.0 178.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"150.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"51.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"24.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"205.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The number 1 appears in both positions. Its adjacent faces are 2, 3, 4, 5. So 6 is opposite to 1.",
+      "as": "1 সংখ্যাটো দুয়োটা অৱস্থানতে আছে। ইয়াৰ সংলগ্ন পিঠিবোৰ হৈছে 2, 3, 4, 5। সেয়ে 6 হৈছে 1 ৰ বিপৰীত পিঠি।"
+    }
+  },
+  {
+    "id": "cube-dice-008",
+    "q": {
+      "en": "Two different positions of the same dice are shown below. Which number is opposite to the face having 2?",
+      "as": "তলত একে লুডুৰ দুটা ভিন্ন অৱস্থান দেখুওৱা হৈছে। 2 সংখ্যাটো থকা পিঠিখনৰ বিপৰীত পিঠিখনত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 238 122\" width=\"238\" height=\"122\"><rect x=\"2\" y=\"2\" width=\"234\" height=\"118\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"16.0,38.0 60.0,60.0 60.0,106.0 16.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"24.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"60.0,60.0 104.0,38.0 104.0,84.0 60.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"68.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"82.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"95.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"16.0,38.0 60.0,16.0 104.0,38.0 60.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"60.0\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,60.0 178.0,106.0 134.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"142.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"142.4\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"178.0,60.0 222.0,38.0 222.0,84.0 178.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"186.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"186.4\" cy=\"78.8\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"186.4\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"65.2\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,16.0 222.0,38.0 178.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"150.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"205.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The number 2 appears in both positions. Its adjacent faces are 1, 3, 4, 6. So 5 is opposite to 2.",
+      "as": "2 সংখ্যাটো দুয়োটা অৱস্থানতে আছে। ইয়াৰ সংলগ্ন পিঠিবোৰ হৈছে 1, 3, 4, 6। সেয়ে 5 হৈছে 2 ৰ বিপৰীত পিঠি।"
+    }
+  },
+  {
+    "id": "cube-dice-009",
+    "q": {
+      "en": "Two different positions of the same dice are shown below. Which number is opposite to the face having 3?",
+      "as": "তলত একে লুডুৰ দুটা ভিন্ন অৱস্থান দেখুওৱা হৈছে। 3 সংখ্যাটো থকা পিঠিখনৰ বিপৰীত পিঠিখনত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 238 122\" width=\"238\" height=\"122\"><rect x=\"2\" y=\"2\" width=\"234\" height=\"118\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"16.0,38.0 60.0,60.0 60.0,106.0 16.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"24.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"60.0,60.0 104.0,38.0 104.0,84.0 60.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"68.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"82.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"95.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"16.0,38.0 60.0,16.0 104.0,38.0 60.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"60.0\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,60.0 178.0,106.0 134.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"142.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"142.4\" cy=\"65.2\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"142.4\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"78.8\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"178.0,60.0 222.0,38.0 222.0,84.0 178.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"186.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"186.4\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"200.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,16.0 222.0,38.0 178.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"150.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"205.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The number 3 appears in both positions. Its adjacent faces are 1, 2, 5, 6. So 4 is opposite to 3.",
+      "as": "3 সংখ্যাটো দুয়োটা অৱস্থানতে আছে। ইয়াৰ সংলগ্ন পিঠিবোৰ হৈছে 1, 2, 5, 6। সেয়ে 4 হৈছে 3 ৰ বিপৰীত পিঠি।"
+    }
+  },
+  {
+    "id": "cube-dice-010",
+    "q": {
+      "en": "Two different positions of the same dice are shown below. Which number is opposite to the face having 4?",
+      "as": "তলত একে লুডুৰ দুটা ভিন্ন অৱস্থান দেখুওৱা হৈছে। 4 সংখ্যাটো থকা পিঠিখনৰ বিপৰীত পিঠিখনত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 238 122\" width=\"238\" height=\"122\"><rect x=\"2\" y=\"2\" width=\"234\" height=\"118\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"16.0,38.0 60.0,60.0 60.0,106.0 16.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"24.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"60.0,60.0 104.0,38.0 104.0,84.0 60.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"82.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"16.0,38.0 60.0,16.0 104.0,38.0 60.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"32.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"51.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"24.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"87.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,60.0 178.0,106.0 134.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"142.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"142.4\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"178.0,60.0 222.0,38.0 222.0,84.0 178.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"186.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"186.4\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"200.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,16.0 222.0,38.0 178.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"150.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"164.4\" cy=\"44.8\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"51.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"24.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"191.6\" cy=\"31.2\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"205.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The number 4 appears in both positions. Its adjacent faces are 1, 2, 5, 6. So 3 is opposite to 4.",
+      "as": "4 সংখ্যাটো দুয়োটা অৱস্থানতে আছে। ইয়াৰ সংলগ্ন পিঠিবোৰ হৈছে 1, 2, 5, 6। সেয়ে 3 হৈছে 4 ৰ বিপৰীত পিঠি।"
+    }
+  },
+  {
+    "id": "cube-dice-011",
+    "q": {
+      "en": "Two different positions of the same dice are shown below. Which number is opposite to the face having 5?",
+      "as": "তলত একে লুডুৰ দুটা ভিন্ন অৱস্থান দেখুওৱা হৈছে। 5 সংখ্যাটো থকা পিঠিখনৰ বিপৰীত পিঠিখনত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 238 122\" width=\"238\" height=\"122\"><rect x=\"2\" y=\"2\" width=\"234\" height=\"118\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"16.0,38.0 60.0,60.0 60.0,106.0 16.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"24.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"38.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"60.0,60.0 104.0,38.0 104.0,84.0 60.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"68.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"68.4\" cy=\"78.8\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"68.4\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"95.6\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"95.6\" cy=\"65.2\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"95.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"16.0,38.0 60.0,16.0 104.0,38.0 60.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"32.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"51.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"24.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"87.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,60.0 178.0,106.0 134.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"156.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"178.0,60.0 222.0,38.0 222.0,84.0 178.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"186.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"186.4\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"200.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,16.0 222.0,38.0 178.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"150.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"51.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"24.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"205.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The number 5 appears in both positions. Its adjacent faces are 1, 3, 4, 6. So 2 is opposite to 5.",
+      "as": "5 সংখ্যাটো দুয়োটা অৱস্থানতে আছে। ইয়াৰ সংলগ্ন পিঠিবোৰ হৈছে 1, 3, 4, 6। সেয়ে 2 হৈছে 5 ৰ বিপৰীত পিঠি।"
+    }
+  },
+  {
+    "id": "cube-dice-012",
+    "q": {
+      "en": "Two different positions of the same dice are shown below. Which number is opposite to the face having 6?",
+      "as": "তলত একে লুডুৰ দুটা ভিন্ন অৱস্থান দেখুওৱা হৈছে। 6 সংখ্যাটো থকা পিঠিখনৰ বিপৰীত পিঠিখনত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 238 122\" width=\"238\" height=\"122\"><rect x=\"2\" y=\"2\" width=\"234\" height=\"118\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"16.0,38.0 60.0,60.0 60.0,106.0 16.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"24.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"60.0,60.0 104.0,38.0 104.0,84.0 60.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"68.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"68.4\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"95.6\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"95.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"16.0,38.0 60.0,16.0 104.0,38.0 60.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"32.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"46.4\" cy=\"44.8\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"51.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"24.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"73.6\" cy=\"31.2\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"87.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,60.0 178.0,106.0 134.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"142.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"142.4\" cy=\"65.2\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"142.4\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"78.8\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"178.0,60.0 222.0,38.0 222.0,84.0 178.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"186.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"186.4\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"200.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,16.0 222.0,38.0 178.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"150.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"178.0\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"205.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The number 6 appears in both positions. Its adjacent faces are 2, 3, 4, 5. So 1 is opposite to 6.",
+      "as": "6 সংখ্যাটো দুয়োটা অৱস্থানতে আছে। ইয়াৰ সংলগ্ন পিঠিবোৰ হৈছে 2, 3, 4, 5। সেয়ে 1 হৈছে 6 ৰ বিপৰীত পিঠি।"
+    }
+  },
+  {
+    "id": "cube-dice-013",
+    "q": {
+      "en": "Two different positions of the same dice are shown below. Which number is opposite to the face having 1?",
+      "as": "তলত একে লুডুৰ দুটা ভিন্ন অৱস্থান দেখুওৱা হৈছে। 1 সংখ্যাটো থকা পিঠিখনৰ বিপৰীত পিঠিখনত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 238 122\" width=\"238\" height=\"122\"><rect x=\"2\" y=\"2\" width=\"234\" height=\"118\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"16.0,38.0 60.0,60.0 60.0,106.0 16.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"24.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"60.0,60.0 104.0,38.0 104.0,84.0 60.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"82.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"16.0,38.0 60.0,16.0 104.0,38.0 60.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"32.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"51.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"24.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"87.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,60.0 178.0,106.0 134.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"142.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"156.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"169.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"178.0,60.0 222.0,38.0 222.0,84.0 178.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"186.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"186.4\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"200.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"213.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"134.0,38.0 178.0,16.0 222.0,38.0 178.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"178.0\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The number 1 appears in both positions. Its adjacent faces are 2, 3, 4, 5. So 6 is opposite to 1.",
+      "as": "1 সংখ্যাটো দুয়োটা অৱস্থানতে আছে। ইয়াৰ সংলগ্ন পিঠিবোৰ হৈছে 2, 3, 4, 5। সেয়ে 6 হৈছে 1 ৰ বিপৰীত পিঠি।"
+    }
+  },
+  {
+    "id": "cube-dice-014",
+    "q": {
+      "en": "The figure shows the unfolded net of a dice. Which number will be opposite to the face having 2?",
+      "as": "চিত্ৰত লুডু এখনৰ মুকলি জাল (net) দেখুওৱা হৈছে। 2 সংখ্যাটো থকা পিঠিখনৰ বিপৰীত পিঠিখনত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 204\" width=\"160\" height=\"204\"><rect x=\"2\" y=\"2\" width=\"156\" height=\"200\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"58\" y=\"14\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"80.0\" y=\"45.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text><rect x=\"14\" y=\"58\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"36.0\" y=\"89.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text><rect x=\"58\" y=\"58\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"80.0\" y=\"89.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text><rect x=\"102\" y=\"58\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"124.0\" y=\"89.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text><rect x=\"58\" y=\"102\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"80.0\" y=\"133.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text><rect x=\"58\" y=\"146\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"80.0\" y=\"177.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "On folding the net into a cube the opposite pairs are 4-5, 1-3, 2-6. Hence 6 is opposite to 2.",
+      "as": "জালখন ঘনক হিচাপে ভাঁজ কৰিলে বিপৰীত পিঠিৰ যোৰবোৰ হয় 4-5, 1-3, 2-6। সেয়ে 6 হৈছে 2 ৰ বিপৰীত পিঠি।"
+    }
+  },
+  {
+    "id": "cube-dice-015",
+    "q": {
+      "en": "The figure shows the unfolded net of a dice. Which number will be opposite to the face having 6?",
+      "as": "চিত্ৰত লুডু এখনৰ মুকলি জাল (net) দেখুওৱা হৈছে। 6 সংখ্যাটো থকা পিঠিখনৰ বিপৰীত পিঠিখনত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 204\" width=\"160\" height=\"204\"><rect x=\"2\" y=\"2\" width=\"156\" height=\"200\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"58\" y=\"14\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"80.0\" y=\"45.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text><rect x=\"14\" y=\"58\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"36.0\" y=\"89.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text><rect x=\"58\" y=\"58\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"80.0\" y=\"89.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text><rect x=\"102\" y=\"58\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"124.0\" y=\"89.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text><rect x=\"58\" y=\"102\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"80.0\" y=\"133.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text><rect x=\"58\" y=\"146\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"80.0\" y=\"177.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "On folding the net into a cube the opposite pairs are 5-1, 2-4, 3-6. Hence 3 is opposite to 6.",
+      "as": "জালখন ঘনক হিচাপে ভাঁজ কৰিলে বিপৰীত পিঠিৰ যোৰবোৰ হয় 5-1, 2-4, 3-6। সেয়ে 3 হৈছে 6 ৰ বিপৰীত পিঠি।"
+    }
+  },
+  {
+    "id": "cube-dice-016",
+    "q": {
+      "en": "The figure shows the unfolded net of a dice. Which number will be opposite to the face having 4?",
+      "as": "চিত্ৰত লুডু এখনৰ মুকলি জাল (net) দেখুওৱা হৈছে। 4 সংখ্যাটো থকা পিঠিখনৰ বিপৰীত পিঠিখনত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 204\" width=\"160\" height=\"204\"><rect x=\"2\" y=\"2\" width=\"156\" height=\"200\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"58\" y=\"14\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"80.0\" y=\"45.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text><rect x=\"14\" y=\"58\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"36.0\" y=\"89.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text><rect x=\"58\" y=\"58\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"80.0\" y=\"89.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text><rect x=\"102\" y=\"58\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"124.0\" y=\"89.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text><rect x=\"58\" y=\"102\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"80.0\" y=\"133.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text><rect x=\"58\" y=\"146\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"80.0\" y=\"177.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "On folding the net into a cube the opposite pairs are 5-1, 2-4, 3-6. Hence 2 is opposite to 4.",
+      "as": "জালখন ঘনক হিচাপে ভাঁজ কৰিলে বিপৰীত পিঠিৰ যোৰবোৰ হয় 5-1, 2-4, 3-6। সেয়ে 2 হৈছে 4 ৰ বিপৰীত পিঠি।"
+    }
+  },
+  {
+    "id": "cube-dice-017",
+    "q": {
+      "en": "The figure shows the unfolded net of a dice. Which number will be opposite to the face having 4?",
+      "as": "চিত্ৰত লুডু এখনৰ মুকলি জাল (net) দেখুওৱা হৈছে। 4 সংখ্যাটো থকা পিঠিখনৰ বিপৰীত পিঠিখনত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 204\" width=\"160\" height=\"204\"><rect x=\"2\" y=\"2\" width=\"156\" height=\"200\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"58\" y=\"14\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"80.0\" y=\"45.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text><rect x=\"14\" y=\"58\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"36.0\" y=\"89.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text><rect x=\"58\" y=\"58\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"80.0\" y=\"89.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text><rect x=\"102\" y=\"58\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"124.0\" y=\"89.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text><rect x=\"58\" y=\"102\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"80.0\" y=\"133.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text><rect x=\"58\" y=\"146\" width=\"44\" height=\"44\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.8\"/><text x=\"80.0\" y=\"177.0\" font-size=\"26\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "On folding the net into a cube the opposite pairs are 6-5, 1-2, 4-3. Hence 3 is opposite to 4.",
+      "as": "জালখন ঘনক হিচাপে ভাঁজ কৰিলে বিপৰীত পিঠিৰ যোৰবোৰ হয় 6-5, 1-2, 4-3। সেয়ে 3 হৈছে 4 ৰ বিপৰীত পিঠি।"
+    }
+  },
+  {
+    "id": "cube-dice-018",
+    "q": {
+      "en": "The opposite faces of a standard dice add up to 7. If the top face of the dice below shows 1, which number is on the bottom face?",
+      "as": "এখন সাধাৰণ লুডুৰ বিপৰীত পিঠিবোৰৰ যোগফল ৭। তলৰ লুডুখনৰ ওপৰৰ পিঠিত 1 থাকিলে তলৰ পিঠিত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 122\" width=\"120\" height=\"122\"><rect x=\"2\" y=\"2\" width=\"116\" height=\"118\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"16.0,38.0 60.0,60.0 60.0,106.0 16.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"24.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"60.0,60.0 104.0,38.0 104.0,84.0 60.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"68.4\" cy=\"64.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"82.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"95.6\" cy=\"79.4\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"16.0,38.0 60.0,16.0 104.0,38.0 60.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"60.0\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In a standard dice opposite faces add up to 7. Opposite of 1 is 7 - 1 = 6.",
+      "as": "সাধাৰণ লুডুত বিপৰীত পিঠিৰ যোগফল ৭। 1 ৰ বিপৰীত সংখ্যা = ৭ - 1 = 6।"
+    }
+  },
+  {
+    "id": "cube-dice-019",
+    "q": {
+      "en": "The opposite faces of a standard dice add up to 7. If the top face of the dice below shows 2, which number is on the bottom face?",
+      "as": "এখন সাধাৰণ লুডুৰ বিপৰীত পিঠিবোৰৰ যোগফল ৭। তলৰ লুডুখনৰ ওপৰৰ পিঠিত 2 থাকিলে তলৰ পিঠিত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 122\" width=\"120\" height=\"122\"><rect x=\"2\" y=\"2\" width=\"116\" height=\"118\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"16.0,38.0 60.0,60.0 60.0,106.0 16.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"24.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"38.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"60.0,60.0 104.0,38.0 104.0,84.0 60.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"82.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"16.0,38.0 60.0,16.0 104.0,38.0 60.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"32.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"87.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In a standard dice opposite faces add up to 7. Opposite of 2 is 7 - 2 = 5.",
+      "as": "সাধাৰণ লুডুত বিপৰীত পিঠিৰ যোগফল ৭। 2 ৰ বিপৰীত সংখ্যা = ৭ - 2 = 5।"
+    }
+  },
+  {
+    "id": "cube-dice-020",
+    "q": {
+      "en": "The opposite faces of a standard dice add up to 7. If the top face of the dice below shows 4, which number is on the bottom face?",
+      "as": "এখন সাধাৰণ লুডুৰ বিপৰীত পিঠিবোৰৰ যোগফল ৭। তলৰ লুডুখনৰ ওপৰৰ পিঠিত 4 থাকিলে তলৰ পিঠিত কোনটো সংখ্যা থাকিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 122\" width=\"120\" height=\"122\"><rect x=\"2\" y=\"2\" width=\"116\" height=\"118\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"16.0,38.0 60.0,60.0 60.0,106.0 16.0,84.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"24.4\" cy=\"50.9\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"51.6\" cy=\"93.1\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"60.0,60.0 104.0,38.0 104.0,84.0 60.0,106.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"82.0\" cy=\"72.0\" r=\"4.60\" fill=\"#334155\"/><polygon points=\"16.0,38.0 60.0,16.0 104.0,38.0 60.0,60.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><circle cx=\"32.7\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"51.6\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"24.4\" r=\"4.60\" fill=\"#334155\"/><circle cx=\"87.3\" cy=\"38.0\" r=\"4.60\" fill=\"#334155\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In a standard dice opposite faces add up to 7. Opposite of 4 is 7 - 4 = 3.",
+      "as": "সাধাৰণ লুডুত বিপৰীত পিঠিৰ যোগফল ৭। 4 ৰ বিপৰীত সংখ্যা = ৭ - 4 = 3।"
+    }
+  },
+  {
+    "id": "cube-dice-021",
+    "q": {
+      "en": "How many small cubes are there in the figure given below?",
+      "as": "তলত দিয়া চিত্ৰটোত কিমানটা সৰু ঘনক (cube) আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 192 166\" width=\"192\" height=\"166\"><rect x=\"2\" y=\"2\" width=\"188\" height=\"162\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"70.0,57.0 96.0,70.0 96.0,96.0 70.0,83.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,57.0 122.0,83.0 96.0,96.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,44.0 96.0,70.0 70.0,57.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,31.0 122.0,57.0 96.0,70.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,18.0 122.0,31.0 96.0,44.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,70.0 70.0,83.0 70.0,109.0 44.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,70.0 96.0,96.0 70.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,70.0 70.0,57.0 96.0,70.0 70.0,83.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,83.0 122.0,109.0 96.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,70.0 148.0,96.0 122.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,57.0 148.0,70.0 122.0,83.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,83.0 44.0,96.0 44.0,122.0 18.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,83.0 70.0,109.0 44.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,83.0 44.0,70.0 70.0,83.0 44.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,96.0 96.0,122.0 70.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 122.0,109.0 96.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,70.0 122.0,83.0 96.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,96.0 148.0,122.0 122.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"148.0,96.0 174.0,83.0 174.0,109.0 148.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,70.0 174.0,83.0 148.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,109.0 70.0,135.0 44.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,96.0 96.0,122.0 70.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,83.0 96.0,96.0 70.0,109.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,109.0 122.0,135.0 96.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,96.0 148.0,122.0 122.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 148.0,96.0 122.0,109.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,122.0 96.0,148.0 70.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,109.0 122.0,135.0 96.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,96.0 122.0,109.0 96.0,122.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">13</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">12</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">10</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">11</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The figure has fully supported columns of heights 2+1+1+1+1+1+1+1+1, so the total number of cubes is 2+1+1+1+1+1+1+1+1 = 10.",
+      "as": "চিত্ৰটোত থকা স্তম্ভবোৰৰ উচ্চতা 2+1+1+1+1+1+1+1+1, গতিকে মুঠ ঘনকৰ সংখ্যা = 2+1+1+1+1+1+1+1+1 = 10।"
+    }
+  },
+  {
+    "id": "cube-dice-022",
+    "q": {
+      "en": "How many small cubes are there in the figure given below?",
+      "as": "তলত দিয়া চিত্ৰটোত কিমানটা সৰু ঘনক (cube) আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 192 166\" width=\"192\" height=\"166\"><rect x=\"2\" y=\"2\" width=\"188\" height=\"162\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"70.0,57.0 96.0,70.0 96.0,96.0 70.0,83.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,57.0 122.0,83.0 96.0,96.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,44.0 96.0,70.0 70.0,57.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,31.0 122.0,57.0 96.0,70.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,18.0 122.0,31.0 96.0,44.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,70.0 70.0,83.0 70.0,109.0 44.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,70.0 96.0,96.0 70.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.0 70.0,57.0 70.0,83.0 44.0,70.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,57.0 96.0,44.0 96.0,70.0 70.0,83.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.0 70.0,31.0 96.0,44.0 70.0,57.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,83.0 122.0,109.0 96.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,70.0 148.0,96.0 122.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,57.0 122.0,83.0 96.0,70.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,57.0 148.0,44.0 148.0,70.0 122.0,83.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,31.0 148.0,44.0 122.0,57.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,83.0 44.0,96.0 44.0,122.0 18.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,83.0 70.0,109.0 44.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,83.0 44.0,70.0 70.0,83.0 44.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,96.0 96.0,122.0 70.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 122.0,109.0 96.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,70.0 122.0,83.0 96.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,96.0 148.0,122.0 122.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"148.0,96.0 174.0,83.0 174.0,109.0 148.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,70.0 174.0,83.0 148.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,109.0 70.0,135.0 44.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,96.0 96.0,122.0 70.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,83.0 96.0,96.0 70.0,109.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,109.0 122.0,135.0 96.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,96.0 148.0,122.0 122.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 148.0,96.0 122.0,109.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,122.0 96.0,148.0 70.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,109.0 122.0,135.0 96.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,96.0 122.0,109.0 96.0,122.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">13</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">12</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">15</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">11</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The figure has fully supported columns of heights 2+2+1+2+1+1+1+1+1, so the total number of cubes is 2+2+1+2+1+1+1+1+1 = 12.",
+      "as": "চিত্ৰটোত থকা স্তম্ভবোৰৰ উচ্চতা 2+2+1+2+1+1+1+1+1, গতিকে মুঠ ঘনকৰ সংখ্যা = 2+2+1+2+1+1+1+1+1 = 12।"
+    }
+  },
+  {
+    "id": "cube-dice-023",
+    "q": {
+      "en": "How many small cubes are there in the figure given below?",
+      "as": "তলত দিয়া চিত্ৰটোত কিমানটা সৰু ঘনক (cube) আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 192 192\" width=\"192\" height=\"192\"><rect x=\"2\" y=\"2\" width=\"188\" height=\"188\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"70.0,83.0 96.0,96.0 96.0,122.0 70.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 122.0,109.0 96.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,57.0 96.0,70.0 96.0,96.0 70.0,83.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,57.0 122.0,83.0 96.0,96.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,44.0 96.0,70.0 70.0,57.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,31.0 122.0,57.0 96.0,70.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,18.0 122.0,31.0 96.0,44.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,109.0 70.0,135.0 44.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,96.0 96.0,122.0 70.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,70.0 70.0,83.0 70.0,109.0 44.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,70.0 96.0,96.0 70.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,70.0 70.0,57.0 96.0,70.0 70.0,83.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,109.0 122.0,135.0 96.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,96.0 148.0,122.0 122.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,83.0 122.0,109.0 96.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,70.0 148.0,96.0 122.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,57.0 148.0,70.0 122.0,83.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,109.0 44.0,122.0 44.0,148.0 18.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,122.0 70.0,109.0 70.0,135.0 44.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,109.0 44.0,96.0 70.0,109.0 44.0,122.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,122.0 96.0,148.0 70.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,109.0 122.0,135.0 96.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,96.0 96.0,122.0 70.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 122.0,109.0 96.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,70.0 122.0,83.0 96.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,122.0 148.0,148.0 122.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"148.0,122.0 174.0,109.0 174.0,135.0 148.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,96.0 174.0,109.0 148.0,122.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,122.0 70.0,135.0 70.0,161.0 44.0,148.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,135.0 96.0,122.0 96.0,148.0 70.0,161.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,122.0 70.0,109.0 96.0,122.0 70.0,135.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,135.0 122.0,161.0 96.0,148.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,135.0 148.0,122.0 148.0,148.0 122.0,161.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,109.0 148.0,122.0 122.0,135.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,135.0 96.0,148.0 96.0,174.0 70.0,161.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,148.0 122.0,135.0 122.0,161.0 96.0,174.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,135.0 96.0,122.0 122.0,135.0 96.0,148.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">14</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">17</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">16</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">12</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The figure has fully supported columns of heights 3+2+1+2+2+1+1+1+1, so the total number of cubes is 3+2+1+2+2+1+1+1+1 = 14.",
+      "as": "চিত্ৰটোত থকা স্তম্ভবোৰৰ উচ্চতা 3+2+1+2+2+1+1+1+1, গতিকে মুঠ ঘনকৰ সংখ্যা = 3+2+1+2+2+1+1+1+1 = 14।"
+    }
+  },
+  {
+    "id": "cube-dice-024",
+    "q": {
+      "en": "How many small cubes are there in the figure given below?",
+      "as": "তলত দিয়া চিত্ৰটোত কিমানটা সৰু ঘনক (cube) আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 192 192\" width=\"192\" height=\"192\"><rect x=\"2\" y=\"2\" width=\"188\" height=\"188\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"70.0,83.0 96.0,96.0 96.0,122.0 70.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 122.0,109.0 96.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,57.0 96.0,70.0 96.0,96.0 70.0,83.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,57.0 122.0,83.0 96.0,96.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,44.0 96.0,70.0 70.0,57.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,31.0 122.0,57.0 96.0,70.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,18.0 122.0,31.0 96.0,44.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,109.0 70.0,135.0 44.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,96.0 96.0,122.0 70.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,70.0 70.0,83.0 70.0,109.0 44.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,70.0 96.0,96.0 70.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.0 70.0,57.0 70.0,83.0 44.0,70.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,57.0 96.0,44.0 96.0,70.0 70.0,83.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.0 70.0,31.0 96.0,44.0 70.0,57.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,109.0 122.0,135.0 96.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,96.0 148.0,122.0 122.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,83.0 122.0,109.0 96.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,70.0 148.0,96.0 122.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,57.0 122.0,83.0 96.0,70.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,57.0 148.0,44.0 148.0,70.0 122.0,83.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,31.0 148.0,44.0 122.0,57.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,109.0 44.0,122.0 44.0,148.0 18.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,122.0 70.0,109.0 70.0,135.0 44.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,109.0 44.0,96.0 70.0,109.0 44.0,122.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,122.0 96.0,148.0 70.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,109.0 122.0,135.0 96.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,96.0 96.0,122.0 70.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 122.0,109.0 96.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,70.0 122.0,83.0 96.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,122.0 148.0,148.0 122.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"148.0,122.0 174.0,109.0 174.0,135.0 148.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,96.0 174.0,109.0 148.0,122.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,122.0 70.0,135.0 70.0,161.0 44.0,148.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,135.0 96.0,122.0 96.0,148.0 70.0,161.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,122.0 70.0,109.0 96.0,122.0 70.0,135.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,135.0 122.0,161.0 96.0,148.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,135.0 148.0,122.0 148.0,148.0 122.0,161.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,109.0 148.0,122.0 122.0,135.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,135.0 96.0,148.0 96.0,174.0 70.0,161.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,148.0 122.0,135.0 122.0,161.0 96.0,174.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,135.0 96.0,122.0 122.0,135.0 96.0,148.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">20</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">19</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">16</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">14</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The figure has fully supported columns of heights 3+3+1+3+2+1+1+1+1, so the total number of cubes is 3+3+1+3+2+1+1+1+1 = 16.",
+      "as": "চিত্ৰটোত থকা স্তম্ভবোৰৰ উচ্চতা 3+3+1+3+2+1+1+1+1, গতিকে মুঠ ঘনকৰ সংখ্যা = 3+3+1+3+2+1+1+1+1 = 16।"
+    }
+  },
+  {
+    "id": "cube-dice-025",
+    "q": {
+      "en": "How many small cubes are there in the figure given below?",
+      "as": "তলত দিয়া চিত্ৰটোত কিমানটা সৰু ঘনক (cube) আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 192 192\" width=\"192\" height=\"192\"><rect x=\"2\" y=\"2\" width=\"188\" height=\"188\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"70.0,83.0 96.0,96.0 96.0,122.0 70.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 122.0,109.0 96.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,57.0 96.0,70.0 96.0,96.0 70.0,83.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,57.0 122.0,83.0 96.0,96.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,44.0 96.0,70.0 70.0,57.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,31.0 122.0,57.0 96.0,70.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,18.0 122.0,31.0 96.0,44.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,109.0 70.0,135.0 44.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,96.0 96.0,122.0 70.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,70.0 70.0,83.0 70.0,109.0 44.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,70.0 96.0,96.0 70.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.0 70.0,57.0 70.0,83.0 44.0,70.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,57.0 96.0,44.0 96.0,70.0 70.0,83.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.0 70.0,31.0 96.0,44.0 70.0,57.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,109.0 122.0,135.0 96.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,96.0 148.0,122.0 122.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,83.0 122.0,109.0 96.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,70.0 148.0,96.0 122.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,57.0 122.0,83.0 96.0,70.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,57.0 148.0,44.0 148.0,70.0 122.0,83.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,31.0 148.0,44.0 122.0,57.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,109.0 44.0,122.0 44.0,148.0 18.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,122.0 70.0,109.0 70.0,135.0 44.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,109.0 44.0,96.0 70.0,109.0 44.0,122.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,122.0 96.0,148.0 70.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,109.0 122.0,135.0 96.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,96.0 96.0,122.0 70.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 122.0,109.0 96.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,70.0 122.0,83.0 96.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,122.0 148.0,148.0 122.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"148.0,122.0 174.0,109.0 174.0,135.0 148.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,96.0 148.0,122.0 122.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"148.0,96.0 174.0,83.0 174.0,109.0 148.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,57.0 148.0,70.0 148.0,96.0 122.0,83.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"148.0,70.0 174.0,57.0 174.0,83.0 148.0,96.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,57.0 148.0,44.0 174.0,57.0 148.0,70.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,122.0 70.0,135.0 70.0,161.0 44.0,148.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,135.0 96.0,122.0 96.0,148.0 70.0,161.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,122.0 70.0,109.0 96.0,122.0 70.0,135.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,135.0 122.0,161.0 96.0,148.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,135.0 148.0,122.0 148.0,148.0 122.0,161.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,109.0 148.0,122.0 122.0,135.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,135.0 96.0,148.0 96.0,174.0 70.0,161.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,148.0 122.0,135.0 122.0,161.0 96.0,174.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,135.0 96.0,122.0 122.0,135.0 96.0,148.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">18</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">16</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">17</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">19</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The figure has fully supported columns of heights 3+3+3+3+2+1+1+1+1, so the total number of cubes is 3+3+3+3+2+1+1+1+1 = 18.",
+      "as": "চিত্ৰটোত থকা স্তম্ভবোৰৰ উচ্চতা 3+3+3+3+2+1+1+1+1, গতিকে মুঠ ঘনকৰ সংখ্যা = 3+3+3+3+2+1+1+1+1 = 18।"
+    }
+  },
+  {
+    "id": "cube-dice-026",
+    "q": {
+      "en": "How many small cubes are there in the figure given below?",
+      "as": "তলত দিয়া চিত্ৰটোত কিমানটা সৰু ঘনক (cube) আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 192 166\" width=\"192\" height=\"166\"><rect x=\"2\" y=\"2\" width=\"188\" height=\"162\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"70.0,57.0 96.0,70.0 96.0,96.0 70.0,83.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,57.0 122.0,83.0 96.0,96.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,44.0 96.0,70.0 70.0,57.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,31.0 122.0,57.0 96.0,70.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,18.0 122.0,31.0 96.0,44.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,70.0 70.0,83.0 70.0,109.0 44.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,70.0 96.0,96.0 70.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.0 70.0,57.0 70.0,83.0 44.0,70.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,57.0 96.0,44.0 96.0,70.0 70.0,83.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.0 70.0,31.0 96.0,44.0 70.0,57.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,83.0 122.0,109.0 96.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,70.0 148.0,96.0 122.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,57.0 122.0,83.0 96.0,70.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,57.0 148.0,44.0 148.0,70.0 122.0,83.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,31.0 148.0,44.0 122.0,57.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,83.0 44.0,96.0 44.0,122.0 18.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,83.0 70.0,109.0 44.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,57.0 44.0,70.0 44.0,96.0 18.0,83.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,70.0 70.0,57.0 70.0,83.0 44.0,96.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,57.0 44.0,44.0 70.0,57.0 44.0,70.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,96.0 96.0,122.0 70.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 122.0,109.0 96.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,57.0 96.0,70.0 96.0,96.0 70.0,83.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,57.0 122.0,83.0 96.0,96.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,57.0 96.0,44.0 122.0,57.0 96.0,70.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,96.0 148.0,122.0 122.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"148.0,96.0 174.0,83.0 174.0,109.0 148.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,57.0 148.0,70.0 148.0,96.0 122.0,83.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"148.0,70.0 174.0,57.0 174.0,83.0 148.0,96.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,57.0 148.0,44.0 174.0,57.0 148.0,70.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,109.0 70.0,135.0 44.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,96.0 96.0,122.0 70.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,83.0 96.0,96.0 70.0,109.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,109.0 122.0,135.0 96.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,96.0 148.0,122.0 122.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 148.0,96.0 122.0,109.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,122.0 96.0,148.0 70.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,109.0 122.0,135.0 96.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,96.0 122.0,109.0 96.0,122.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">13</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">15</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">18</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">14</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The figure has fully supported columns of heights 2+2+2+2+2+1+2+1+1, so the total number of cubes is 2+2+2+2+2+1+2+1+1 = 15.",
+      "as": "চিত্ৰটোত থকা স্তম্ভবোৰৰ উচ্চতা 2+2+2+2+2+1+2+1+1, গতিকে মুঠ ঘনকৰ সংখ্যা = 2+2+2+2+2+1+2+1+1 = 15।"
+    }
+  },
+  {
+    "id": "cube-dice-027",
+    "q": {
+      "en": "How many small cubes are there in the figure given below?",
+      "as": "তলত দিয়া চিত্ৰটোত কিমানটা সৰু ঘনক (cube) আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 140 140\" width=\"140\" height=\"140\"><rect x=\"2\" y=\"2\" width=\"136\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"44.0,57.0 70.0,70.0 70.0,96.0 44.0,83.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,70.0 96.0,57.0 96.0,83.0 70.0,96.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,31.0 70.0,44.0 70.0,70.0 44.0,57.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,44.0 96.0,31.0 96.0,57.0 70.0,70.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,31.0 70.0,18.0 96.0,31.0 70.0,44.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,70.0 44.0,83.0 44.0,109.0 18.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,83.0 70.0,70.0 70.0,96.0 44.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,70.0 44.0,57.0 70.0,70.0 44.0,83.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,70.0 96.0,83.0 96.0,109.0 70.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,83.0 122.0,70.0 122.0,96.0 96.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,70.0 96.0,57.0 122.0,70.0 96.0,83.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,83.0 70.0,96.0 70.0,122.0 44.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,96.0 96.0,83.0 96.0,109.0 70.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,83.0 70.0,70.0 96.0,83.0 70.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">9</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The figure has fully supported columns of heights 2+1+1+1, so the total number of cubes is 2+1+1+1 = 5.",
+      "as": "চিত্ৰটোত থকা স্তম্ভবোৰৰ উচ্চতা 2+1+1+1, গতিকে মুঠ ঘনকৰ সংখ্যা = 2+1+1+1 = 5।"
+    }
+  },
+  {
+    "id": "cube-dice-028",
+    "q": {
+      "en": "How many small cubes are there in the figure given below?",
+      "as": "তলত দিয়া চিত্ৰটোত কিমানটা সৰু ঘনক (cube) আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 192 192\" width=\"192\" height=\"192\"><rect x=\"2\" y=\"2\" width=\"188\" height=\"188\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"70.0,83.0 96.0,96.0 96.0,122.0 70.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 122.0,109.0 96.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,57.0 96.0,70.0 96.0,96.0 70.0,83.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,57.0 122.0,83.0 96.0,96.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,44.0 96.0,70.0 70.0,57.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,31.0 122.0,57.0 96.0,70.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,18.0 122.0,31.0 96.0,44.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,109.0 70.0,135.0 44.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,96.0 96.0,122.0 70.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,70.0 70.0,83.0 70.0,109.0 44.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,70.0 96.0,96.0 70.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,70.0 70.0,57.0 96.0,70.0 70.0,83.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,109.0 122.0,135.0 96.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,96.0 148.0,122.0 122.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,83.0 122.0,109.0 96.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,70.0 148.0,96.0 122.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,57.0 148.0,70.0 122.0,83.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,109.0 44.0,122.0 44.0,148.0 18.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,122.0 70.0,109.0 70.0,135.0 44.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,109.0 44.0,96.0 70.0,109.0 44.0,122.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,122.0 96.0,148.0 70.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,109.0 122.0,135.0 96.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,96.0 122.0,109.0 96.0,122.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,122.0 148.0,148.0 122.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"148.0,122.0 174.0,109.0 174.0,135.0 148.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,96.0 174.0,109.0 148.0,122.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,122.0 70.0,135.0 70.0,161.0 44.0,148.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,135.0 96.0,122.0 96.0,148.0 70.0,161.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,122.0 70.0,109.0 96.0,122.0 70.0,135.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,135.0 122.0,161.0 96.0,148.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,135.0 148.0,122.0 148.0,148.0 122.0,161.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,109.0 148.0,122.0 122.0,135.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,135.0 96.0,148.0 96.0,174.0 70.0,161.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,148.0 122.0,135.0 122.0,161.0 96.0,174.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,135.0 96.0,122.0 122.0,135.0 96.0,148.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">11</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">17</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">12</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">13</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The figure has fully supported columns of heights 3+2+1+2+1+1+1+1+1, so the total number of cubes is 3+2+1+2+1+1+1+1+1 = 13.",
+      "as": "চিত্ৰটোত থকা স্তম্ভবোৰৰ উচ্চতা 3+2+1+2+1+1+1+1+1, গতিকে মুঠ ঘনকৰ সংখ্যা = 3+2+1+2+1+1+1+1+1 = 13।"
+    }
+  },
+  {
+    "id": "cube-dice-029",
+    "q": {
+      "en": "How many small cubes are there in the figure given below?",
+      "as": "তলত দিয়া চিত্ৰটোত কিমানটা সৰু ঘনক (cube) আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 218 179\" width=\"218\" height=\"179\"><rect x=\"2\" y=\"2\" width=\"214\" height=\"175\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"70.0,57.0 96.0,70.0 96.0,96.0 70.0,83.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,57.0 122.0,83.0 96.0,96.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,44.0 96.0,70.0 70.0,57.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,31.0 122.0,57.0 96.0,70.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,18.0 122.0,31.0 96.0,44.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,70.0 70.0,83.0 70.0,109.0 44.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,70.0 96.0,96.0 70.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,70.0 70.0,57.0 96.0,70.0 70.0,83.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,83.0 122.0,109.0 96.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,70.0 148.0,96.0 122.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,57.0 148.0,70.0 122.0,83.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,83.0 44.0,96.0 44.0,122.0 18.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,83.0 70.0,109.0 44.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,83.0 44.0,70.0 70.0,83.0 44.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,96.0 96.0,122.0 70.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 122.0,109.0 96.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,70.0 122.0,83.0 96.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,96.0 148.0,122.0 122.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"148.0,96.0 174.0,83.0 174.0,109.0 148.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,70.0 174.0,83.0 148.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,109.0 70.0,135.0 44.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,96.0 96.0,122.0 70.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,83.0 96.0,96.0 70.0,109.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,109.0 122.0,135.0 96.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,96.0 148.0,122.0 122.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 148.0,96.0 122.0,109.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"148.0,96.0 174.0,109.0 174.0,135.0 148.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"174.0,109.0 200.0,96.0 200.0,122.0 174.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"148.0,96.0 174.0,83.0 200.0,96.0 174.0,109.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,122.0 96.0,148.0 70.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,109.0 122.0,135.0 96.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,96.0 122.0,109.0 96.0,122.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,122.0 148.0,148.0 122.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"148.0,122.0 174.0,109.0 174.0,135.0 148.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,96.0 174.0,109.0 148.0,122.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,135.0 122.0,161.0 96.0,148.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,135.0 148.0,122.0 148.0,148.0 122.0,161.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,109.0 148.0,122.0 122.0,135.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">12</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">13</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">11</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">17</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The figure has fully supported columns of heights 2+1+1+1+1+1+1+1+1+1+1+1, so the total number of cubes is 2+1+1+1+1+1+1+1+1+1+1+1 = 13.",
+      "as": "চিত্ৰটোত থকা স্তম্ভবোৰৰ উচ্চতা 2+1+1+1+1+1+1+1+1+1+1+1, গতিকে মুঠ ঘনকৰ সংখ্যা = 2+1+1+1+1+1+1+1+1+1+1+1 = 13।"
+    }
+  },
+  {
+    "id": "cube-dice-030",
+    "q": {
+      "en": "A cube is painted on all its faces and then cut into 3 x 3 x 3 = 27 smaller cubes of equal size. How many smaller cubes have exactly two faces painted?",
+      "as": "এখন ঘনকৰ সকলো পিঠিত ৰং লগাই তাৰপিছত সমান আকাৰৰ 3 x 3 x 3 = 27 টা সৰু ঘনকত কাটি লোৱা হ'ল। কিমানটা সৰু ঘনকৰ ঠিক দুটা পিঠিত ৰং লগা?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 136 136\" width=\"136\" height=\"136\"><rect x=\"2\" y=\"2\" width=\"132\" height=\"132\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"18.0,43.0 68.0,68.0 68.0,118.0 18.0,93.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"68.0,68.0 118.0,43.0 118.0,93.0 68.0,118.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,43.0 68.0,18.0 118.0,43.0 68.0,68.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><line x1=\"34.7\" y1=\"34.7\" x2=\"84.7\" y2=\"59.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"34.7\" y1=\"51.3\" x2=\"84.7\" y2=\"26.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"51.3\" y1=\"26.3\" x2=\"101.3\" y2=\"51.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"51.3\" y1=\"59.7\" x2=\"101.3\" y2=\"34.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"34.7\" y1=\"51.3\" x2=\"34.7\" y2=\"101.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"59.7\" x2=\"68.0\" y2=\"84.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"51.3\" y1=\"59.7\" x2=\"51.3\" y2=\"109.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"76.3\" x2=\"68.0\" y2=\"101.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"84.7\" y1=\"59.7\" x2=\"84.7\" y2=\"109.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"84.7\" x2=\"118.0\" y2=\"59.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"101.3\" y1=\"51.3\" x2=\"101.3\" y2=\"101.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"101.3\" x2=\"118.0\" y2=\"76.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">20</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">12</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">24</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Number of cubes with exactly two faces painted = 12.",
+      "as": "ঠিক দুটা পিঠিত ৰং লগা সৰু ঘনকৰ সংখ্যা = 12।"
+    }
+  },
+  {
+    "id": "cube-dice-031",
+    "q": {
+      "en": "A cube is painted on all its faces and then cut into 4 x 4 x 4 = 64 smaller cubes of equal size. How many smaller cubes have exactly one face painted?",
+      "as": "এখন ঘনকৰ সকলো পিঠিত ৰং লগাই তাৰপিছত সমান আকাৰৰ 4 x 4 x 4 = 64 টা সৰু ঘনকত কাটি লোৱা হ'ল। কিমানটা সৰু ঘনকৰ ঠিক এটা পিঠিত ৰং লগা?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 136 136\" width=\"136\" height=\"136\"><rect x=\"2\" y=\"2\" width=\"132\" height=\"132\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"18.0,43.0 68.0,68.0 68.0,118.0 18.0,93.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"68.0,68.0 118.0,43.0 118.0,93.0 68.0,118.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,43.0 68.0,18.0 118.0,43.0 68.0,68.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><line x1=\"30.5\" y1=\"36.8\" x2=\"80.5\" y2=\"61.8\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"30.5\" y1=\"49.2\" x2=\"80.5\" y2=\"24.2\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"43.0\" y1=\"30.5\" x2=\"93.0\" y2=\"55.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"43.0\" y1=\"55.5\" x2=\"93.0\" y2=\"30.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"55.5\" y1=\"24.2\" x2=\"105.5\" y2=\"49.2\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"55.5\" y1=\"61.8\" x2=\"105.5\" y2=\"36.8\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"30.5\" y1=\"49.2\" x2=\"30.5\" y2=\"99.2\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"55.5\" x2=\"68.0\" y2=\"80.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"43.0\" y1=\"55.5\" x2=\"43.0\" y2=\"105.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"68.0\" x2=\"68.0\" y2=\"93.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"55.5\" y1=\"61.8\" x2=\"55.5\" y2=\"111.8\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"80.5\" x2=\"68.0\" y2=\"105.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"80.5\" y1=\"61.8\" x2=\"80.5\" y2=\"111.8\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"80.5\" x2=\"118.0\" y2=\"55.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"93.0\" y1=\"55.5\" x2=\"93.0\" y2=\"105.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"93.0\" x2=\"118.0\" y2=\"68.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"105.5\" y1=\"49.2\" x2=\"105.5\" y2=\"99.2\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"105.5\" x2=\"118.0\" y2=\"80.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">32</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">64</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">20</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">24</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Number of cubes with exactly one face painted = 24.",
+      "as": "ঠিক এটা পিঠিত ৰং লগা সৰু ঘনকৰ সংখ্যা = 24।"
+    }
+  },
+  {
+    "id": "cube-dice-032",
+    "q": {
+      "en": "A cube is painted on all its faces and then cut into 5 x 5 x 5 = 125 smaller cubes of equal size. How many smaller cubes have no face painted?",
+      "as": "এখন ঘনকৰ সকলো পিঠিত ৰং লগাই তাৰপিছত সমান আকাৰৰ 5 x 5 x 5 = 125 টা সৰু ঘনকত কাটি লোৱা হ'ল। কিমানটা সৰু ঘনকৰ কোনো পিঠিত ৰং নলগা?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 136 136\" width=\"136\" height=\"136\"><rect x=\"2\" y=\"2\" width=\"132\" height=\"132\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"18.0,43.0 68.0,68.0 68.0,118.0 18.0,93.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"68.0,68.0 118.0,43.0 118.0,93.0 68.0,118.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,43.0 68.0,18.0 118.0,43.0 68.0,68.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><line x1=\"28.0\" y1=\"38.0\" x2=\"78.0\" y2=\"63.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"28.0\" y1=\"48.0\" x2=\"78.0\" y2=\"23.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"38.0\" y1=\"33.0\" x2=\"88.0\" y2=\"58.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"38.0\" y1=\"53.0\" x2=\"88.0\" y2=\"28.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"48.0\" y1=\"28.0\" x2=\"98.0\" y2=\"53.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"48.0\" y1=\"58.0\" x2=\"98.0\" y2=\"33.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"58.0\" y1=\"23.0\" x2=\"108.0\" y2=\"48.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"58.0\" y1=\"63.0\" x2=\"108.0\" y2=\"38.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"28.0\" y1=\"48.0\" x2=\"28.0\" y2=\"98.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"53.0\" x2=\"68.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"38.0\" y1=\"53.0\" x2=\"38.0\" y2=\"103.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"63.0\" x2=\"68.0\" y2=\"88.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"48.0\" y1=\"58.0\" x2=\"48.0\" y2=\"108.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"73.0\" x2=\"68.0\" y2=\"98.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"58.0\" y1=\"63.0\" x2=\"58.0\" y2=\"113.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"83.0\" x2=\"68.0\" y2=\"108.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"78.0\" y1=\"63.0\" x2=\"78.0\" y2=\"113.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"78.0\" x2=\"118.0\" y2=\"53.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"88.0\" y1=\"58.0\" x2=\"88.0\" y2=\"108.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"88.0\" x2=\"118.0\" y2=\"63.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"98.0\" y1=\"53.0\" x2=\"98.0\" y2=\"103.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"98.0\" x2=\"118.0\" y2=\"73.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"108.0\" y1=\"48.0\" x2=\"108.0\" y2=\"98.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"108.0\" x2=\"118.0\" y2=\"83.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">27</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">125</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">23</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">33</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Number of cubes with no face painted = 27.",
+      "as": "কোনো পিঠিত ৰং নলগা সৰু ঘনকৰ সংখ্যা = 27।"
+    }
+  },
+  {
+    "id": "cube-dice-033",
+    "q": {
+      "en": "A cube is painted on all its faces and then cut into 3 x 3 x 3 = 27 smaller cubes of equal size. How many smaller cubes have exactly three faces painted?",
+      "as": "এখন ঘনকৰ সকলো পিঠিত ৰং লগাই তাৰপিছত সমান আকাৰৰ 3 x 3 x 3 = 27 টা সৰু ঘনকত কাটি লোৱা হ'ল। কিমানটা সৰু ঘনকৰ ঠিক তিনিটা পিঠিত ৰং লগা?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 136 136\" width=\"136\" height=\"136\"><rect x=\"2\" y=\"2\" width=\"132\" height=\"132\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"18.0,43.0 68.0,68.0 68.0,118.0 18.0,93.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"68.0,68.0 118.0,43.0 118.0,93.0 68.0,118.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,43.0 68.0,18.0 118.0,43.0 68.0,68.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><line x1=\"34.7\" y1=\"34.7\" x2=\"84.7\" y2=\"59.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"34.7\" y1=\"51.3\" x2=\"84.7\" y2=\"26.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"51.3\" y1=\"26.3\" x2=\"101.3\" y2=\"51.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"51.3\" y1=\"59.7\" x2=\"101.3\" y2=\"34.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"34.7\" y1=\"51.3\" x2=\"34.7\" y2=\"101.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"59.7\" x2=\"68.0\" y2=\"84.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"51.3\" y1=\"59.7\" x2=\"51.3\" y2=\"109.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"76.3\" x2=\"68.0\" y2=\"101.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"84.7\" y1=\"59.7\" x2=\"84.7\" y2=\"109.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"84.7\" x2=\"118.0\" y2=\"59.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"101.3\" y1=\"51.3\" x2=\"101.3\" y2=\"101.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"101.3\" x2=\"118.0\" y2=\"76.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">27</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">16</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">20</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Number of cubes with exactly three faces painted = 8.",
+      "as": "ঠিক তিনিটা পিঠিত ৰং লগা সৰু ঘনকৰ সংখ্যা = 8।"
+    }
+  },
+  {
+    "id": "cube-dice-034",
+    "q": {
+      "en": "A cube is painted on all its faces and then cut into 4 x 4 x 4 = 64 smaller cubes of equal size. How many smaller cubes have exactly two faces painted?",
+      "as": "এখন ঘনকৰ সকলো পিঠিত ৰং লগাই তাৰপিছত সমান আকাৰৰ 4 x 4 x 4 = 64 টা সৰু ঘনকত কাটি লোৱা হ'ল। কিমানটা সৰু ঘনকৰ ঠিক দুটা পিঠিত ৰং লগা?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 136 136\" width=\"136\" height=\"136\"><rect x=\"2\" y=\"2\" width=\"132\" height=\"132\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"18.0,43.0 68.0,68.0 68.0,118.0 18.0,93.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"68.0,68.0 118.0,43.0 118.0,93.0 68.0,118.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,43.0 68.0,18.0 118.0,43.0 68.0,68.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><line x1=\"30.5\" y1=\"36.8\" x2=\"80.5\" y2=\"61.8\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"30.5\" y1=\"49.2\" x2=\"80.5\" y2=\"24.2\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"43.0\" y1=\"30.5\" x2=\"93.0\" y2=\"55.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"43.0\" y1=\"55.5\" x2=\"93.0\" y2=\"30.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"55.5\" y1=\"24.2\" x2=\"105.5\" y2=\"49.2\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"55.5\" y1=\"61.8\" x2=\"105.5\" y2=\"36.8\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"30.5\" y1=\"49.2\" x2=\"30.5\" y2=\"99.2\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"55.5\" x2=\"68.0\" y2=\"80.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"43.0\" y1=\"55.5\" x2=\"43.0\" y2=\"105.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"68.0\" x2=\"68.0\" y2=\"93.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"55.5\" y1=\"61.8\" x2=\"55.5\" y2=\"111.8\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"80.5\" x2=\"68.0\" y2=\"105.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"80.5\" y1=\"61.8\" x2=\"80.5\" y2=\"111.8\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"80.5\" x2=\"118.0\" y2=\"55.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"93.0\" y1=\"55.5\" x2=\"93.0\" y2=\"105.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"93.0\" x2=\"118.0\" y2=\"68.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"105.5\" y1=\"49.2\" x2=\"105.5\" y2=\"99.2\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"105.5\" x2=\"118.0\" y2=\"80.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">36</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">32</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">18</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">24</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Number of cubes with exactly two faces painted = 24.",
+      "as": "ঠিক দুটা পিঠিত ৰং লগা সৰু ঘনকৰ সংখ্যা = 24।"
+    }
+  },
+  {
+    "id": "cube-dice-035",
+    "q": {
+      "en": "A cube is painted on all its faces and then cut into 5 x 5 x 5 = 125 smaller cubes of equal size. How many smaller cubes have exactly two faces painted?",
+      "as": "এখন ঘনকৰ সকলো পিঠিত ৰং লগাই তাৰপিছত সমান আকাৰৰ 5 x 5 x 5 = 125 টা সৰু ঘনকত কাটি লোৱা হ'ল। কিমানটা সৰু ঘনকৰ ঠিক দুটা পিঠিত ৰং লগা?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 136 136\" width=\"136\" height=\"136\"><rect x=\"2\" y=\"2\" width=\"132\" height=\"132\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"18.0,43.0 68.0,68.0 68.0,118.0 18.0,93.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"68.0,68.0 118.0,43.0 118.0,93.0 68.0,118.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,43.0 68.0,18.0 118.0,43.0 68.0,68.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><line x1=\"28.0\" y1=\"38.0\" x2=\"78.0\" y2=\"63.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"28.0\" y1=\"48.0\" x2=\"78.0\" y2=\"23.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"38.0\" y1=\"33.0\" x2=\"88.0\" y2=\"58.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"38.0\" y1=\"53.0\" x2=\"88.0\" y2=\"28.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"48.0\" y1=\"28.0\" x2=\"98.0\" y2=\"53.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"48.0\" y1=\"58.0\" x2=\"98.0\" y2=\"33.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"58.0\" y1=\"23.0\" x2=\"108.0\" y2=\"48.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"58.0\" y1=\"63.0\" x2=\"108.0\" y2=\"38.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"28.0\" y1=\"48.0\" x2=\"28.0\" y2=\"98.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"53.0\" x2=\"68.0\" y2=\"78.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"38.0\" y1=\"53.0\" x2=\"38.0\" y2=\"103.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"63.0\" x2=\"68.0\" y2=\"88.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"48.0\" y1=\"58.0\" x2=\"48.0\" y2=\"108.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"73.0\" x2=\"68.0\" y2=\"98.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"58.0\" y1=\"63.0\" x2=\"58.0\" y2=\"113.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"83.0\" x2=\"68.0\" y2=\"108.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"78.0\" y1=\"63.0\" x2=\"78.0\" y2=\"113.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"78.0\" x2=\"118.0\" y2=\"53.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"88.0\" y1=\"58.0\" x2=\"88.0\" y2=\"108.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"88.0\" x2=\"118.0\" y2=\"63.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"98.0\" y1=\"53.0\" x2=\"98.0\" y2=\"103.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"98.0\" x2=\"118.0\" y2=\"73.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"108.0\" y1=\"48.0\" x2=\"108.0\" y2=\"98.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"108.0\" x2=\"118.0\" y2=\"83.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">48</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">44</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">125</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">36</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Number of cubes with exactly two faces painted = 36.",
+      "as": "ঠিক দুটা পিঠিত ৰং লগা সৰু ঘনকৰ সংখ্যা = 36।"
+    }
+  },
+  {
+    "id": "cube-dice-036",
+    "q": {
+      "en": "A cube is painted on all its faces and then cut into 6 x 6 x 6 = 216 smaller cubes of equal size. How many smaller cubes have no face painted?",
+      "as": "এখন ঘনকৰ সকলো পিঠিত ৰং লগাই তাৰপিছত সমান আকাৰৰ 6 x 6 x 6 = 216 টা সৰু ঘনকত কাটি লোৱা হ'ল। কিমানটা সৰু ঘনকৰ কোনো পিঠিত ৰং নলগা?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 136 136\" width=\"136\" height=\"136\"><rect x=\"2\" y=\"2\" width=\"132\" height=\"132\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"18.0,43.0 68.0,68.0 68.0,118.0 18.0,93.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"68.0,68.0 118.0,43.0 118.0,93.0 68.0,118.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,43.0 68.0,18.0 118.0,43.0 68.0,68.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><line x1=\"26.3\" y1=\"38.8\" x2=\"76.3\" y2=\"63.8\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"26.3\" y1=\"47.2\" x2=\"76.3\" y2=\"22.2\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"34.7\" y1=\"34.7\" x2=\"84.7\" y2=\"59.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"34.7\" y1=\"51.3\" x2=\"84.7\" y2=\"26.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"43.0\" y1=\"30.5\" x2=\"93.0\" y2=\"55.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"43.0\" y1=\"55.5\" x2=\"93.0\" y2=\"30.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"51.3\" y1=\"26.3\" x2=\"101.3\" y2=\"51.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"51.3\" y1=\"59.7\" x2=\"101.3\" y2=\"34.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"59.7\" y1=\"22.2\" x2=\"109.7\" y2=\"47.2\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"59.7\" y1=\"63.8\" x2=\"109.7\" y2=\"38.8\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"26.3\" y1=\"47.2\" x2=\"26.3\" y2=\"97.2\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"51.3\" x2=\"68.0\" y2=\"76.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"34.7\" y1=\"51.3\" x2=\"34.7\" y2=\"101.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"59.7\" x2=\"68.0\" y2=\"84.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"43.0\" y1=\"55.5\" x2=\"43.0\" y2=\"105.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"68.0\" x2=\"68.0\" y2=\"93.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"51.3\" y1=\"59.7\" x2=\"51.3\" y2=\"109.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"76.3\" x2=\"68.0\" y2=\"101.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"59.7\" y1=\"63.8\" x2=\"59.7\" y2=\"113.8\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"84.7\" x2=\"68.0\" y2=\"109.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"76.3\" y1=\"63.8\" x2=\"76.3\" y2=\"113.8\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"76.3\" x2=\"118.0\" y2=\"51.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"84.7\" y1=\"59.7\" x2=\"84.7\" y2=\"109.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"84.7\" x2=\"118.0\" y2=\"59.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"93.0\" y1=\"55.5\" x2=\"93.0\" y2=\"105.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"93.0\" x2=\"118.0\" y2=\"68.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"101.3\" y1=\"51.3\" x2=\"101.3\" y2=\"101.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"101.3\" x2=\"118.0\" y2=\"76.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"109.7\" y1=\"47.2\" x2=\"109.7\" y2=\"97.2\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"109.7\" x2=\"118.0\" y2=\"84.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">216</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">72</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">64</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">58</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Number of cubes with no face painted = 64.",
+      "as": "কোনো পিঠিত ৰং নলগা সৰু ঘনকৰ সংখ্যা = 64।"
+    }
+  },
+  {
+    "id": "cube-dice-037",
+    "q": {
+      "en": "How many small cubes of edge 1 cm are required to form a solid cube of edge 4 cm?",
+      "as": "৪ চে.মি. বাহুৰ এটা ঘনক গঠন কৰিবলৈ ১ চে.মি. বাহুৰ কিমানটা সৰু ঘনকৰ প্ৰয়োজন?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 136 136\" width=\"136\" height=\"136\"><rect x=\"2\" y=\"2\" width=\"132\" height=\"132\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"18.0,43.0 68.0,68.0 68.0,118.0 18.0,93.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"68.0,68.0 118.0,43.0 118.0,93.0 68.0,118.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,43.0 68.0,18.0 118.0,43.0 68.0,68.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><line x1=\"30.5\" y1=\"36.8\" x2=\"80.5\" y2=\"61.8\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"30.5\" y1=\"49.2\" x2=\"80.5\" y2=\"24.2\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"43.0\" y1=\"30.5\" x2=\"93.0\" y2=\"55.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"43.0\" y1=\"55.5\" x2=\"93.0\" y2=\"30.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"55.5\" y1=\"24.2\" x2=\"105.5\" y2=\"49.2\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"55.5\" y1=\"61.8\" x2=\"105.5\" y2=\"36.8\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"30.5\" y1=\"49.2\" x2=\"30.5\" y2=\"99.2\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"55.5\" x2=\"68.0\" y2=\"80.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"43.0\" y1=\"55.5\" x2=\"43.0\" y2=\"105.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"68.0\" x2=\"68.0\" y2=\"93.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"55.5\" y1=\"61.8\" x2=\"55.5\" y2=\"111.8\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"80.5\" x2=\"68.0\" y2=\"105.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"80.5\" y1=\"61.8\" x2=\"80.5\" y2=\"111.8\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"80.5\" x2=\"118.0\" y2=\"55.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"93.0\" y1=\"55.5\" x2=\"93.0\" y2=\"105.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"93.0\" x2=\"118.0\" y2=\"68.0\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"105.5\" y1=\"49.2\" x2=\"105.5\" y2=\"99.2\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"105.5\" x2=\"118.0\" y2=\"80.5\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">72</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">56</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">65</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">64</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A cube of edge 4 cm is made of 4 x 4 x 4 = 64 unit cubes.",
+      "as": "৪ চে.মি. বাহুৰ ঘনকত ৪ x ৪ x ৪ = ৬৪ টা একক ঘনক থাকে।"
+    }
+  },
+  {
+    "id": "cube-dice-038",
+    "q": {
+      "en": "A solid cube of edge 3 cm is cut into small cubes of edge 1 cm. How many small cubes are obtained?",
+      "as": "৩ চে.মি. বাহুৰ এটা ঘনক ১ চে.মি. বাহুৰ সৰু ঘনকত কাটিলে কিমানটা সৰু ঘনক পোৱা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 136 136\" width=\"136\" height=\"136\"><rect x=\"2\" y=\"2\" width=\"132\" height=\"132\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"18.0,43.0 68.0,68.0 68.0,118.0 18.0,93.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"68.0,68.0 118.0,43.0 118.0,93.0 68.0,118.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,43.0 68.0,18.0 118.0,43.0 68.0,68.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><line x1=\"34.7\" y1=\"34.7\" x2=\"84.7\" y2=\"59.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"34.7\" y1=\"51.3\" x2=\"84.7\" y2=\"26.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"51.3\" y1=\"26.3\" x2=\"101.3\" y2=\"51.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"51.3\" y1=\"59.7\" x2=\"101.3\" y2=\"34.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"34.7\" y1=\"51.3\" x2=\"34.7\" y2=\"101.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"59.7\" x2=\"68.0\" y2=\"84.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"51.3\" y1=\"59.7\" x2=\"51.3\" y2=\"109.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"18.0\" y1=\"76.3\" x2=\"68.0\" y2=\"101.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"84.7\" y1=\"59.7\" x2=\"84.7\" y2=\"109.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"84.7\" x2=\"118.0\" y2=\"59.7\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"101.3\" y1=\"51.3\" x2=\"101.3\" y2=\"101.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/><line x1=\"68.0\" y1=\"101.3\" x2=\"118.0\" y2=\"76.3\" stroke=\"#334155\" stroke-width=\"1.1\" stroke-opacity=\"0.65\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">27</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">54</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">26</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">28</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total number of unit cubes = 3 x 3 x 3 = 27.",
+      "as": "মুঠ একক ঘনকৰ সংখ্যা = ৩ x ৩ x ৩ = ২৭।"
+    }
+  },
+  {
+    "id": "cube-dice-039",
+    "q": {
+      "en": "How many more unit cubes are required to complete the figure below into a solid 3 x 3 x 3 cube?",
+      "as": "তলৰ চিত্ৰখনক এটা পূৰ্ণ 3 x 3 x 3 ঘনক কৰিবলৈ আৰু কিমানটা একক ঘনকৰ প্ৰয়োজন?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 192 166\" width=\"192\" height=\"166\"><rect x=\"2\" y=\"2\" width=\"188\" height=\"162\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"70.0,57.0 96.0,70.0 96.0,96.0 70.0,83.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,57.0 122.0,83.0 96.0,96.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,44.0 96.0,70.0 70.0,57.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,31.0 122.0,57.0 96.0,70.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,18.0 122.0,31.0 96.0,44.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,70.0 70.0,83.0 70.0,109.0 44.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,70.0 96.0,96.0 70.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,70.0 70.0,57.0 96.0,70.0 70.0,83.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,83.0 122.0,109.0 96.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,70.0 148.0,96.0 122.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,57.0 148.0,70.0 122.0,83.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,83.0 44.0,96.0 44.0,122.0 18.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,83.0 70.0,109.0 44.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,83.0 44.0,70.0 70.0,83.0 44.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,96.0 96.0,122.0 70.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 122.0,109.0 96.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,70.0 122.0,83.0 96.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,96.0 148.0,122.0 122.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"148.0,96.0 174.0,83.0 174.0,109.0 148.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,70.0 174.0,83.0 148.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,109.0 70.0,135.0 44.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,96.0 96.0,122.0 70.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,83.0 96.0,96.0 70.0,109.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,109.0 122.0,135.0 96.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,96.0 148.0,122.0 122.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 148.0,96.0 122.0,109.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,122.0 96.0,148.0 70.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,109.0 122.0,135.0 96.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,96.0 122.0,109.0 96.0,122.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">15</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">17</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">19</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">18</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A 3 x 3 x 3 cube has 27 unit cubes. The figure already has 10 cubes, so 17 more are needed.",
+      "as": "3 x 3 x 3 ঘনকত ২৭ টা একক ঘনক থাকে। চিত্ৰত ইতিমধ্যে 10 টা ঘনক আছে, গতিকে আৰু 17 টা প্ৰয়োজন।"
+    }
+  },
+  {
+    "id": "cube-dice-040",
+    "q": {
+      "en": "How many more unit cubes are required to complete the figure below into a solid 3 x 3 x 3 cube?",
+      "as": "তলৰ চিত্ৰখনক এটা পূৰ্ণ 3 x 3 x 3 ঘনক কৰিবলৈ আৰু কিমানটা একক ঘনকৰ প্ৰয়োজন?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 192 166\" width=\"192\" height=\"166\"><rect x=\"2\" y=\"2\" width=\"188\" height=\"162\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"70.0,57.0 96.0,70.0 96.0,96.0 70.0,83.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,57.0 122.0,83.0 96.0,96.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,44.0 96.0,70.0 70.0,57.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,31.0 122.0,57.0 96.0,70.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,31.0 96.0,18.0 122.0,31.0 96.0,44.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,70.0 70.0,83.0 70.0,109.0 44.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,70.0 96.0,96.0 70.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.0 70.0,57.0 70.0,83.0 44.0,70.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,57.0 96.0,44.0 96.0,70.0 70.0,83.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.0 70.0,31.0 96.0,44.0 70.0,57.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,70.0 122.0,83.0 122.0,109.0 96.0,96.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,70.0 148.0,96.0 122.0,109.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,57.0 122.0,83.0 96.0,70.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,57.0 148.0,44.0 148.0,70.0 122.0,83.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,44.0 122.0,31.0 148.0,44.0 122.0,57.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,83.0 44.0,96.0 44.0,122.0 18.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,83.0 70.0,109.0 44.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"18.0,83.0 44.0,70.0 70.0,83.0 44.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,96.0 96.0,122.0 70.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 122.0,109.0 96.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,83.0 96.0,70.0 122.0,83.0 96.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,96.0 148.0,122.0 122.0,109.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"148.0,96.0 174.0,83.0 174.0,109.0 148.0,122.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,83.0 148.0,70.0 174.0,83.0 148.0,96.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,109.0 70.0,135.0 44.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,96.0 96.0,122.0 70.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"44.0,96.0 70.0,83.0 96.0,96.0 70.0,109.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,109.0 122.0,135.0 96.0,122.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"122.0,109.0 148.0,96.0 148.0,122.0 122.0,135.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,96.0 122.0,83.0 148.0,96.0 122.0,109.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,122.0 96.0,148.0 70.0,135.0\" fill=\"#cbd5e1\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"96.0,122.0 122.0,109.0 122.0,135.0 96.0,148.0\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/><polygon points=\"70.0,109.0 96.0,96.0 122.0,109.0 96.0,122.0\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"1.7\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">13</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">20</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">16</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">15</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A 3 x 3 x 3 cube has 27 unit cubes. The figure already has 12 cubes, so 15 more are needed.",
+      "as": "3 x 3 x 3 ঘনকত ২৭ টা একক ঘনক থাকে। চিত্ৰত ইতিমধ্যে 12 টা ঘনক আছে, গতিকে আৰু 15 টা প্ৰয়োজন।"
+    }
   }
-}
+]
