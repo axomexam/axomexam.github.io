@@ -1,30 +1,2451 @@
-{
-  "id": "clock-calendar-001",
-  "q": {
-    "en": "What is the angle between the hour hand and the minute hand of a clock at 3 o'clock?",
-    "as": "৩ বজাত এটা ঘড়ীৰ ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
-  },
-  "options": [
-    {
-      "en": "90°",
-      "as": "৯০°"
+[
+  {
+    "id": "clock-calendar-001",
+    "type": "clock",
+    "q": {
+      "en": "What is the angle between the hour hand and the minute hand of a clock at 1 o'clock?",
+      "as": "১ বজাত এটা ঘড়ীৰ ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
     },
-    {
-      "en": "60°",
-      "as": "৬০°"
-    },
-    {
-      "en": "120°",
-      "as": "১২০°"
-    },
-    {
-      "en": "45°",
-      "as": "৪৫°"
+    "options": [
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each hour is 360° ÷ 12 = 30°, so at 1 o'clock the angle is 1 × 30° = 30°.",
+      "as": "প্ৰতি ঘণ্টা = ৩৬০° ÷ ১২ = ৩০°, গতিকে ১ বজাত কোণ = ১ × ৩০° = ৩০°।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "Each hour is 360° ÷ 12 = 30°, so at 3 o'clock the angle is 3 × 30° = 90°.",
-    "as": "প্ৰতি ঘণ্টা = ৩৬০° ÷ ১২ = ৩০°, গতিকে ৩ বজাত কোণ = ৩ × ৩০° = ৯০°।"
+  },
+  {
+    "id": "clock-calendar-002",
+    "type": "clock",
+    "q": {
+      "en": "What is the angle between the hour hand and the minute hand of a clock at 2 o'clock?",
+      "as": "২ বজাত এটা ঘড়ীৰ ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each hour is 360° ÷ 12 = 30°, so at 2 o'clock the angle is 2 × 30° = 60°.",
+      "as": "প্ৰতি ঘণ্টা = ৩৬০° ÷ ১২ = ৩০°, গতিকে ২ বজাত কোণ = ২ × ৩০° = ৬০°।"
+    }
+  },
+  {
+    "id": "clock-calendar-003",
+    "type": "clock",
+    "q": {
+      "en": "What is the angle between the hour hand and the minute hand of a clock at 3 o'clock?",
+      "as": "৩ বজাত এটা ঘড়ীৰ ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "180°",
+        "as": "১৮০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each hour is 360° ÷ 12 = 30°, so at 3 o'clock the angle is 3 × 30° = 90°.",
+      "as": "প্ৰতি ঘণ্টা = ৩৬০° ÷ ১২ = ৩০°, গতিকে ৩ বজাত কোণ = ৩ × ৩০° = ৯০°।"
+    }
+  },
+  {
+    "id": "clock-calendar-004",
+    "type": "clock",
+    "q": {
+      "en": "What is the angle between the hour hand and the minute hand of a clock at 4 o'clock?",
+      "as": "৪ বজাত এটা ঘড়ীৰ ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "150°",
+        "as": "১৫০°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each hour is 360° ÷ 12 = 30°, so at 4 o'clock the angle is 4 × 30° = 120°.",
+      "as": "প্ৰতি ঘণ্টা = ৩৬০° ÷ ১২ = ৩০°, গতিকে ৪ বজাত কোণ = ৪ × ৩০° = ১২০°।"
+    }
+  },
+  {
+    "id": "clock-calendar-005",
+    "type": "clock",
+    "q": {
+      "en": "What is the angle between the hour hand and the minute hand of a clock at 5 o'clock?",
+      "as": "৫ বজাত এটা ঘড়ীৰ ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "150°",
+        "as": "১৫০°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "180°",
+        "as": "১৮০°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each hour is 360° ÷ 12 = 30°, so at 5 o'clock the angle is 5 × 30° = 150°.",
+      "as": "প্ৰতি ঘণ্টা = ৩৬০° ÷ ১২ = ৩০°, গতিকে ৫ বজাত কোণ = ৫ × ৩০° = ১৫০°।"
+    }
+  },
+  {
+    "id": "clock-calendar-006",
+    "type": "clock",
+    "q": {
+      "en": "What is the angle between the hour hand and the minute hand of a clock at 6 o'clock?",
+      "as": "৬ বজাত এটা ঘড়ীৰ ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "150°",
+        "as": "১৫০°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "180°",
+        "as": "১৮০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each hour is 360° ÷ 12 = 30°, so at 6 o'clock the angle is 6 × 30° = 180°.",
+      "as": "প্ৰতি ঘণ্টা = ৩৬০° ÷ ১২ = ৩০°, গতিকে ৬ বজাত কোণ = ৬ × ৩০° = ১৮০°।"
+    }
+  },
+  {
+    "id": "clock-calendar-007",
+    "type": "clock",
+    "q": {
+      "en": "What is the angle between the hands of a clock at 3:30?",
+      "as": "৩:৩০ বজাত ঘড়ীৰ কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "15°",
+        "as": "১৫°"
+      },
+      {
+        "en": "75°",
+        "as": "৭৫°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Angle = |30 × 3 − 5.5 × 30| = 75°.",
+      "as": "কোণ = |৩০ × ৩ − ৫.৫ × ৩০| = ৭৫°।"
+    }
+  },
+  {
+    "id": "clock-calendar-008",
+    "type": "clock",
+    "q": {
+      "en": "What is the angle between the hands of a clock at 4:20?",
+      "as": "৪:২০ বজাত ঘড়ীৰ কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "15°",
+        "as": "১৫°"
+      },
+      {
+        "en": "10°",
+        "as": "১০°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Angle = |30 × 4 − 5.5 × 20| = 10°.",
+      "as": "কোণ = |৩০ × ৪ − ৫.৫ × ২০| = ১০°।"
+    }
+  },
+  {
+    "id": "clock-calendar-009",
+    "type": "clock",
+    "q": {
+      "en": "What is the angle between the hands of a clock at 6:30?",
+      "as": "৬:৩০ বজাত ঘড়ীৰ কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "15°",
+        "as": "১৫°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Angle = |30 × 6 − 5.5 × 30| = 15°.",
+      "as": "কোণ = |৩০ × ৬ − ৫.৫ × ৩০| = ১৫°।"
+    }
+  },
+  {
+    "id": "clock-calendar-010",
+    "type": "clock",
+    "q": {
+      "en": "What is the angle between the hands of a clock at 7:20?",
+      "as": "৭:২০ বজাত ঘড়ীৰ কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      },
+      {
+        "en": "15°",
+        "as": "১৫°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "100°",
+        "as": "১০০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Angle = |30 × 7 − 5.5 × 20| = 100°.",
+      "as": "কোণ = |৩০ × ৭ − ৫.৫ × ২০| = ১০০°।"
+    }
+  },
+  {
+    "id": "clock-calendar-011",
+    "type": "clock",
+    "q": {
+      "en": "What is the angle between the hands of a clock at 2:30?",
+      "as": "২:৩০ বজাত ঘড়ীৰ কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "15°",
+        "as": "১৫°"
+      },
+      {
+        "en": "105°",
+        "as": "১০৫°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Angle = |30 × 2 − 5.5 × 30| = 105°.",
+      "as": "কোণ = |৩০ × ২ − ৫.৫ × ৩০| = ১০৫°।"
+    }
+  },
+  {
+    "id": "clock-calendar-012",
+    "type": "clock",
+    "q": {
+      "en": "What is the angle between the hands of a clock at 8:40?",
+      "as": "৮:৪০ বজাত ঘড়ীৰ কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "15°",
+        "as": "১৫°"
+      },
+      {
+        "en": "20°",
+        "as": "২০°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Angle = |30 × 8 − 5.5 × 40| = 20°.",
+      "as": "কোণ = |৩০ × ৮ − ৫.৫ × ৪০| = ২০°।"
+    }
+  },
+  {
+    "id": "clock-calendar-013",
+    "type": "clock",
+    "q": {
+      "en": "What is the angle between the hands of a clock at 5:20?",
+      "as": "৫:২০ বজাত ঘড়ীৰ কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "40°",
+        "as": "৪০°"
+      },
+      {
+        "en": "15°",
+        "as": "১৫°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Angle = |30 × 5 − 5.5 × 20| = 40°.",
+      "as": "কোণ = |৩০ × ৫ − ৫.৫ × ২০| = ৪০°।"
+    }
+  },
+  {
+    "id": "clock-calendar-014",
+    "type": "clock",
+    "q": {
+      "en": "How many degrees does the minute hand move in 20 minutes?",
+      "as": "মিনিটৰ কাঁটাই ২০ মিনিটত কিমান ডিগ্ৰী আগবাঢ়ে?"
+    },
+    "options": [
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The minute hand moves 6° per minute, so in 20 minutes it moves 20 × 6° = 120°.",
+      "as": "মিনিটৰ কাঁটাই প্ৰতি মিনিটত ৬° যায়, গতিকে ২০ মিনিটত ২০ × ৬° = ১২০° যায়।"
+    }
+  },
+  {
+    "id": "clock-calendar-015",
+    "type": "clock",
+    "q": {
+      "en": "How many degrees does the hour hand move in 2 hours?",
+      "as": "ঘণ্টাৰ কাঁটাই ২ ঘণ্টাত কিমান ডিগ্ৰী আগবাঢ়ে?"
+    },
+    "options": [
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The hour hand moves 30° per hour, so in 2 hours it moves 2 × 30° = 60°.",
+      "as": "ঘণ্টাৰ কাঁটাই প্ৰতি ঘণ্টাত ৩০° যায়, গতিকে ২ ঘণ্টাত ২ × ৩০° = ৬০° যায়।"
+    }
+  },
+  {
+    "id": "clock-calendar-016",
+    "type": "clock",
+    "q": {
+      "en": "How many degrees does the hour hand move in 30 minutes?",
+      "as": "ঘণ্টাৰ কাঁটাই ৩০ মিনিটত কিমান ডিগ্ৰী আগবাঢ়ে?"
+    },
+    "options": [
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "15°",
+        "as": "১৫°"
+      },
+      {
+        "en": "10°",
+        "as": "১০°"
+      },
+      {
+        "en": "20°",
+        "as": "২০°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The hour hand moves 0.5° per minute, so in 30 minutes it moves 30 × 0.5° = 15°.",
+      "as": "ঘণ্টাৰ কাঁটাই প্ৰতি মিনিটত ০.৫° যায়, গতিকে ৩০ মিনিটত ৩০ × ০.৫° = ১৫° যায়।"
+    }
+  },
+  {
+    "id": "clock-calendar-017",
+    "type": "clock",
+    "q": {
+      "en": "How many degrees does the minute hand move in 12 minutes?",
+      "as": "মিনিটৰ কাঁটাই ১২ মিনিটত কিমান ডিগ্ৰী আগবাঢ়ে?"
+    },
+    "options": [
+      {
+        "en": "72°",
+        "as": "৭২°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "12°",
+        "as": "১২°"
+      },
+      {
+        "en": "36°",
+        "as": "৩৬°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The minute hand moves 6° per minute, so in 12 minutes it moves 12 × 6° = 72°.",
+      "as": "মিনিটৰ কাঁটাই প্ৰতি মিনিটত ৬° যায়, গতিকে ১২ মিনিটত ১২ × ৬° = ৭২° যায়।"
+    }
+  },
+  {
+    "id": "clock-calendar-018",
+    "type": "clock",
+    "q": {
+      "en": "How many degrees does the minute hand move in one minute?",
+      "as": "মিনিটৰ কাঁটাই এটা মিনিটত কিমান ডিগ্ৰী আগবাঢ়ে?"
+    },
+    "options": [
+      {
+        "en": "0.5°",
+        "as": "০.৫°"
+      },
+      {
+        "en": "1°",
+        "as": "১°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "6°",
+        "as": "৬°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The minute hand completes 360° in 60 minutes, so it moves 6° per minute.",
+      "as": "মিনিটৰ কাঁটাই ৬০ মিনিটত ৩৬০° ঘুৰে, গতিকে প্ৰতি মিনিটত ৬° যায়।"
+    }
+  },
+  {
+    "id": "clock-calendar-019",
+    "type": "clock",
+    "q": {
+      "en": "At what time between 3 and 4 o'clock are the hands of a clock together?",
+      "as": "৩ আৰু ৪ বজাৰ মাজত ঘড়ীৰ কাঁটাদুটা কেতিয়া একেলগে থাকিব?"
+    },
+    "options": [
+      {
+        "en": "24 minutes past 3",
+        "as": "৩ বজাৰ পিছত ২৪ মিনিট"
+      },
+      {
+        "en": "21 minutes past 3",
+        "as": "৩ বজাৰ পিছত ২১ মিনিট"
+      },
+      {
+        "en": "16 4/11 minutes past 3",
+        "as": "৩ বজাৰ পিছত ১৬ ৪/১১ মিনিট"
+      },
+      {
+        "en": "12 minutes past 3",
+        "as": "৩ বজাৰ পিছত ১২ মিনিট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The hands meet at 3:(16 4/11). Using 60H/11 gives 16 4/11 minutes past 3.",
+      "as": "কাঁটাদুটা ৩:(১৬ ৪/১১) ত মিলে। সূত্ৰ ৬০ × ৩ ÷ ১১ = ১৬ ৪/১১ মিনিট ৩ বজাৰ পিছত।"
+    }
+  },
+  {
+    "id": "clock-calendar-020",
+    "type": "clock",
+    "q": {
+      "en": "At what time between 2 and 3 o'clock are the hands of a clock together?",
+      "as": "২ আৰু ৩ বজাৰ মাজত ঘড়ীৰ কাঁটাদুটা কেতিয়া একেলগে থাকিব?"
+    },
+    "options": [
+      {
+        "en": "15 minutes past 2",
+        "as": "২ বজাৰ পিছত ১৫ মিনিট"
+      },
+      {
+        "en": "10 10/11 minutes past 2",
+        "as": "২ বজাৰ পিছত ১০ ১০/১১ মিনিট"
+      },
+      {
+        "en": "18 minutes past 2",
+        "as": "২ বজাৰ পিছত ১৮ মিনিট"
+      },
+      {
+        "en": "6 minutes past 2",
+        "as": "২ বজাৰ পিছত ৬ মিনিট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The hands meet at 2:(10 10/11). Using 60H/11 gives 10 10/11 minutes past 2.",
+      "as": "কাঁটাদুটা ২:(১০ ১০/১১) ত মিলে। সূত্ৰ ৬০ × ২ ÷ ১১ = ১০ ১০/১১ মিনিট ২ বজাৰ পিছত।"
+    }
+  },
+  {
+    "id": "clock-calendar-021",
+    "type": "clock",
+    "q": {
+      "en": "At what time between 4 and 5 o'clock are the hands of a clock together?",
+      "as": "৪ আৰু ৫ বজাৰ মাজত ঘড়ীৰ কাঁটাদুটা কেতিয়া একেলগে থাকিব?"
+    },
+    "options": [
+      {
+        "en": "21 9/11 minutes past 4",
+        "as": "৪ বজাৰ পিছত ২১ ৯/১১ মিনিট"
+      },
+      {
+        "en": "26 minutes past 4",
+        "as": "৪ বজাৰ পিছত ২৬ মিনিট"
+      },
+      {
+        "en": "29 minutes past 4",
+        "as": "৪ বজাৰ পিছত ২৯ মিনিট"
+      },
+      {
+        "en": "17 minutes past 4",
+        "as": "৪ বজাৰ পিছত ১৭ মিনিট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The hands meet at 4:(21 9/11). Using 60H/11 gives 21 9/11 minutes past 4.",
+      "as": "কাঁটাদুটা ৪:(২১ ৯/১১) ত মিলে। সূত্ৰ ৬০ × ৪ ÷ ১১ = ২১ ৯/১১ মিনিট ৪ বজাৰ পিছত।"
+    }
+  },
+  {
+    "id": "clock-calendar-022",
+    "type": "clock",
+    "q": {
+      "en": "At what time between 5 and 6 o'clock are the hands of a clock together?",
+      "as": "৫ আৰু ৬ বজাৰ মাজত ঘড়ীৰ কাঁটাদুটা কেতিয়া একেলগে থাকিব?"
+    },
+    "options": [
+      {
+        "en": "23 minutes past 5",
+        "as": "৫ বজাৰ পিছত ২৩ মিনিট"
+      },
+      {
+        "en": "32 minutes past 5",
+        "as": "৫ বজাৰ পিছত ৩২ মিনিট"
+      },
+      {
+        "en": "35 minutes past 5",
+        "as": "৫ বজাৰ পিছত ৩৫ মিনিট"
+      },
+      {
+        "en": "27 3/11 minutes past 5",
+        "as": "৫ বজাৰ পিছত ২৭ ৩/১১ মিনিট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The hands meet at 5:(27 3/11). Using 60H/11 gives 27 3/11 minutes past 5.",
+      "as": "কাঁটাদুটা ৫:(২৭ ৩/১১) ত মিলে। সূত্ৰ ৬০ × ৫ ÷ ১১ = ২৭ ৩/১১ মিনিট ৫ বজাৰ পিছত।"
+    }
+  },
+  {
+    "id": "clock-calendar-023",
+    "type": "clock",
+    "q": {
+      "en": "At what time between 3 and 4 o'clock will the hands of a clock be at right angles?",
+      "as": "৩ আৰু ৪ বজাৰ মাজত ঘড়ীৰ কাঁটাদুটা কেতিয়া সমকোণত থাকিব?"
+    },
+    "options": [
+      {
+        "en": "42 minutes past 3",
+        "as": "৩ বজাৰ পিছত ৪২ মিনিট"
+      },
+      {
+        "en": "38 minutes past 3",
+        "as": "৩ বজাৰ পিছত ৩৮ মিনিট"
+      },
+      {
+        "en": "32 8/11 minutes past 3",
+        "as": "৩ বজাৰ পিছত ৩২ ৮/১১ মিনিট"
+      },
+      {
+        "en": "29 minutes past 3",
+        "as": "৩ বজাৰ পিছত ২৯ মিনিট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(60H + 180)/11 gives 32 8/11 minutes past 3 for a right angle.",
+      "as": "(৬০ × ৩ + ১৮০) ÷ ১১ = ৩২ ৮/১১ মিনিট, অৰ্থাৎ ৩ বজাৰ পিছত।"
+    }
+  },
+  {
+    "id": "clock-calendar-024",
+    "type": "clock",
+    "q": {
+      "en": "At what time between 2 and 3 o'clock will the hands of a clock be at right angles?",
+      "as": "২ আৰু ৩ বজাৰ মাজত ঘড়ীৰ কাঁটাদুটা কেতিয়া সমকোণত থাকিব?"
+    },
+    "options": [
+      {
+        "en": "33 minutes past 2",
+        "as": "২ বজাৰ পিছত ৩৩ মিনিট"
+      },
+      {
+        "en": "27 3/11 minutes past 2",
+        "as": "২ বজাৰ পিছত ২৭ ৩/১১ মিনিট"
+      },
+      {
+        "en": "37 minutes past 2",
+        "as": "২ বজাৰ পিছত ৩৭ মিনিট"
+      },
+      {
+        "en": "24 minutes past 2",
+        "as": "২ বজাৰ পিছত ২৪ মিনিট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(60H + 180)/11 gives 27 3/11 minutes past 2 for a right angle.",
+      "as": "(৬০ × ২ + ১৮০) ÷ ১১ = ২৭ ৩/১১ মিনিট, অৰ্থাৎ ২ বজাৰ পিছত।"
+    }
+  },
+  {
+    "id": "clock-calendar-025",
+    "type": "clock",
+    "q": {
+      "en": "At what time between 4 and 5 o'clock will the hands of a clock be at right angles?",
+      "as": "৪ আৰু ৫ বজাৰ মাজত ঘড়ীৰ কাঁটাদুটা কেতিয়া সমকোণত থাকিব?"
+    },
+    "options": [
+      {
+        "en": "38 2/11 minutes past 4",
+        "as": "৪ বজাৰ পিছত ৩৮ ২/১১ মিনিট"
+      },
+      {
+        "en": "44 minutes past 4",
+        "as": "৪ বজাৰ পিছত ৪৪ মিনিট"
+      },
+      {
+        "en": "48 minutes past 4",
+        "as": "৪ বজাৰ পিছত ৪৮ মিনিট"
+      },
+      {
+        "en": "35 minutes past 4",
+        "as": "৪ বজাৰ পিছত ৩৫ মিনিট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(60H + 180)/11 gives 38 2/11 minutes past 4 for a right angle.",
+      "as": "(৬০ × ৪ + ১৮০) ÷ ১১ = ৩৮ ২/১১ মিনিট, অৰ্থাৎ ৪ বজাৰ পিছত।"
+    }
+  },
+  {
+    "id": "clock-calendar-026",
+    "type": "clock",
+    "q": {
+      "en": "At what time between 2 and 3 o'clock will the hands of a clock be opposite to each other?",
+      "as": "২ আৰু ৩ বজাৰ মাজত ঘড়ীৰ কাঁটাদুটা কেতিয়া পৰস্পৰ বিপৰীত দিশত থাকিব?"
+    },
+    "options": [
+      {
+        "en": "39 minutes past 2",
+        "as": "২ বজাৰ পিছত ৩৯ মিনিট"
+      },
+      {
+        "en": "48 minutes past 2",
+        "as": "২ বজাৰ পিছত ৪৮ মিনিট"
+      },
+      {
+        "en": "51 minutes past 2",
+        "as": "২ বজাৰ পিছত ৫১ মিনিট"
+      },
+      {
+        "en": "43 7/11 minutes past 2",
+        "as": "২ বজাৰ পিছত ৪৩ ৭/১১ মিনিট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "For opposite hands, minutes = (60H + 360)/11 = 43 7/11 minutes past 2.",
+      "as": "বিপৰীত দিশৰ বাবে মিনিট = (৬০ × ২ + ৩৬০) ÷ ১১ = ৪৩ ৭/১১ মিনিট, অৰ্থাৎ ২ বজাৰ পিছত।"
+    }
+  },
+  {
+    "id": "clock-calendar-027",
+    "type": "clock",
+    "q": {
+      "en": "At what time between 3 and 4 o'clock will the hands of a clock be opposite to each other?",
+      "as": "৩ আৰু ৪ বজাৰ মাজত ঘড়ীৰ কাঁটাদুটা কেতিয়া পৰস্পৰ বিপৰীত দিশত থাকিব?"
+    },
+    "options": [
+      {
+        "en": "57 minutes past 3",
+        "as": "৩ বজাৰ পিছত ৫৭ মিনিট"
+      },
+      {
+        "en": "54 minutes past 3",
+        "as": "৩ বজাৰ পিছত ৫৪ মিনিট"
+      },
+      {
+        "en": "49 1/11 minutes past 3",
+        "as": "৩ বজাৰ পিছত ৪৯ ১/১১ মিনিট"
+      },
+      {
+        "en": "45 minutes past 3",
+        "as": "৩ বজাৰ পিছত ৪৫ মিনিট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "For opposite hands, minutes = (60H + 360)/11 = 49 1/11 minutes past 3.",
+      "as": "বিপৰীত দিশৰ বাবে মিনিট = (৬০ × ৩ + ৩৬০) ÷ ১১ = ৪৯ ১/১১ মিনিট, অৰ্থাৎ ৩ বজাৰ পিছত।"
+    }
+  },
+  {
+    "id": "clock-calendar-028",
+    "type": "clock",
+    "q": {
+      "en": "At what time between 7 and 8 o'clock will the hands of a clock be opposite to each other?",
+      "as": "৭ আৰু ৮ বজাৰ মাজত ঘড়ীৰ কাঁটাদুটা কেতিয়া পৰস্পৰ বিপৰীত দিশত থাকিব?"
+    },
+    "options": [
+      {
+        "en": "10 minutes past 7",
+        "as": "৭ বজাৰ পিছত ১০ মিনিট"
+      },
+      {
+        "en": "5 5/11 minutes past 7",
+        "as": "৭ বজাৰ পিছত ৫ ৫/১১ মিনিট"
+      },
+      {
+        "en": "13 minutes past 7",
+        "as": "৭ বজাৰ পিছত ১৩ মিনিট"
+      },
+      {
+        "en": "1 minutes past 7",
+        "as": "৭ বজাৰ পিছত ১ মিনিট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "For opposite hands, minutes = (60H + 360)/11 = 5 5/11 minutes past 7.",
+      "as": "বিপৰীত দিশৰ বাবে মিনিট = (৬০ × ৭ + ৩৬০) ÷ ১১ = ৫ ৫/১১ মিনিট, অৰ্থাৎ ৭ বজাৰ পিছত।"
+    }
+  },
+  {
+    "id": "clock-calendar-029",
+    "type": "clock",
+    "q": {
+      "en": "How many times do the hands of a clock coincide in a day?",
+      "as": "এটা দিনত এটা ঘড়ীৰ কাঁটাদুটা কিমানবাৰ একেলগে মিলে?"
+    },
+    "options": [
+      {
+        "en": "22 times",
+        "as": "২২ বাৰ"
+      },
+      {
+        "en": "24 times",
+        "as": "২৪ বাৰ"
+      },
+      {
+        "en": "12 times",
+        "as": "১২ বাৰ"
+      },
+      {
+        "en": "11 times",
+        "as": "১১ বাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The hands coincide 11 times in 12 hours, so 22 times in 24 hours.",
+      "as": "কাঁটাদুটা ১২ ঘণ্টাত ১১ বাৰ মিলে, গতিকে ২৪ ঘণ্টাত ২২ বাৰ মিলে।"
+    }
+  },
+  {
+    "id": "clock-calendar-030",
+    "type": "clock",
+    "q": {
+      "en": "How many times are the hands of a clock at right angles in a day?",
+      "as": "এটা দিনত ঘড়ীৰ কাঁটাদুটা কিমানবাৰ সমকোণত থাকে?"
+    },
+    "options": [
+      {
+        "en": "48 times",
+        "as": "৪৮ বাৰ"
+      },
+      {
+        "en": "22 times",
+        "as": "২২ বাৰ"
+      },
+      {
+        "en": "24 times",
+        "as": "২৪ বাৰ"
+      },
+      {
+        "en": "44 times",
+        "as": "৪৪ বাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The hands are at right angles 22 times in 12 hours, so 44 times in 24 hours.",
+      "as": "কাঁটাদুটা ১২ ঘণ্টাত ২২ বাৰ সমকোণত থাকে, গতিকে ২৪ ঘণ্টাত ৪৪ বাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-031",
+    "type": "clock",
+    "q": {
+      "en": "How many times are the hands of a clock opposite to each other in a day?",
+      "as": "এটা দিনত ঘড়ীৰ কাঁটাদুটা কিমানবাৰ পৰস্পৰ বিপৰীত দিশত থাকে?"
+    },
+    "options": [
+      {
+        "en": "44 times",
+        "as": "৪৪ বাৰ"
+      },
+      {
+        "en": "24 times",
+        "as": "২৪ বাৰ"
+      },
+      {
+        "en": "22 times",
+        "as": "২২ বাৰ"
+      },
+      {
+        "en": "11 times",
+        "as": "১১ বাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The hands are opposite 11 times in 12 hours, so 22 times in 24 hours.",
+      "as": "কাঁটাদুটা ১২ ঘণ্টাত ১১ বাৰ বিপৰীত দিশত থাকে, গতিকে ২৪ ঘণ্টাত ২২ বাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-032",
+    "type": "clock",
+    "q": {
+      "en": "How many times do the hands of a clock coincide in 12 hours?",
+      "as": "১২ ঘণ্টাত ঘড়ীৰ কাঁটাদুটা কিমানবাৰ একেলগে মিলে?"
+    },
+    "options": [
+      {
+        "en": "12 times",
+        "as": "১২ বাৰ"
+      },
+      {
+        "en": "11 times",
+        "as": "১১ বাৰ"
+      },
+      {
+        "en": "22 times",
+        "as": "২২ বাৰ"
+      },
+      {
+        "en": "10 times",
+        "as": "১০ বাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In 12 hours the two hands coincide 11 times.",
+      "as": "১২ ঘণ্টাত কাঁটাদুটা ১১ বাৰ মিলে।"
+    }
+  },
+  {
+    "id": "clock-calendar-033",
+    "type": "clock",
+    "q": {
+      "en": "How many times are the hands of a clock at right angles in 12 hours?",
+      "as": "১২ ঘণ্টাত ঘড়ীৰ কাঁটাদুটা কিমানবাৰ সমকোণত থাকে?"
+    },
+    "options": [
+      {
+        "en": "22 times",
+        "as": "২২ বাৰ"
+      },
+      {
+        "en": "11 times",
+        "as": "১১ বাৰ"
+      },
+      {
+        "en": "24 times",
+        "as": "২৪ বাৰ"
+      },
+      {
+        "en": "44 times",
+        "as": "৪৪ বাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In 12 hours the hands are at right angles 22 times.",
+      "as": "১২ ঘণ্টাত কাঁটাদুটা ২২ বাৰ সমকোণত থাকে।"
+    }
+  },
+  {
+    "id": "clock-calendar-034",
+    "type": "clock",
+    "q": {
+      "en": "The reflection of a clock in a mirror shows 4:30. What is the actual time?",
+      "as": "দাপোণত এটা ঘড়ীৰ প্ৰতিচ্ছবিত ৪:৩০ দেখা যায়। প্ৰকৃত সময় কিমান?"
+    },
+    "options": [
+      {
+        "en": "8:30",
+        "as": "৮:৩০"
+      },
+      {
+        "en": "7:40",
+        "as": "৭:৪০"
+      },
+      {
+        "en": "6:30",
+        "as": "৬:৩০"
+      },
+      {
+        "en": "7:30",
+        "as": "৭:৩০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Actual time = 11:60 − 4:30 = 7:30.",
+      "as": "প্ৰকৃত সময় = ১১:৬০ − ৪:৩০ = ৭:৩০।"
+    }
+  },
+  {
+    "id": "clock-calendar-035",
+    "type": "clock",
+    "q": {
+      "en": "The reflection of a clock in a mirror shows 3:20. What is the actual time?",
+      "as": "দাপোণত এটা ঘড়ীৰ প্ৰতিচ্ছবিত ৩:২০ দেখা যায়। প্ৰকৃত সময় কিমান?"
+    },
+    "options": [
+      {
+        "en": "6:30",
+        "as": "৬:৩০"
+      },
+      {
+        "en": "7:40",
+        "as": "৭:৪০"
+      },
+      {
+        "en": "8:40",
+        "as": "৮:৪০"
+      },
+      {
+        "en": "8:30",
+        "as": "৮:৩০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Actual time = 11:60 − 3:20 = 8:40.",
+      "as": "প্ৰকৃত সময় = ১১:৬০ − ৩:২০ = ৮:৪০।"
+    }
+  },
+  {
+    "id": "clock-calendar-036",
+    "type": "clock",
+    "q": {
+      "en": "What will be the mirror image of the time 2:15 on a clock?",
+      "as": "ঘড়ীত ২:১৫ সময়ৰ দাপোণ-প্ৰতিচ্ছবি কি হব?"
+    },
+    "options": [
+      {
+        "en": "10:45",
+        "as": "১০:৪৫"
+      },
+      {
+        "en": "9:45",
+        "as": "৯:৪৫"
+      },
+      {
+        "en": "8:45",
+        "as": "৮:৪৫"
+      },
+      {
+        "en": "9:15",
+        "as": "৯:১৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mirror time = 11:60 − 2:15 = 9:45.",
+      "as": "দাপোণ সময় = ১১:৬০ − ২:১৫ = ৯:৪৫।"
+    }
+  },
+  {
+    "id": "clock-calendar-037",
+    "type": "clock",
+    "q": {
+      "en": "A clock gains 5 minutes every hour. If it is set right at 8 a.m., what time will it show at 8 p.m.?",
+      "as": "এটা ঘড়ী প্ৰতি ঘণ্টাত ৫ মিনিট আগুৱাই যায়। ৮ বজা ভাগে শুদ্ধ কৰা হ'লে ৮ বজা ৰাতিলৈ ঘড়ীটোৱে কিমান দেখুৱাব?"
+    },
+    "options": [
+      {
+        "en": "9:00 p.m.",
+        "as": "৯:০০ ৰাতি"
+      },
+      {
+        "en": "8:60 p.m.",
+        "as": "৮:৬০ ৰাতি"
+      },
+      {
+        "en": "7:00 p.m.",
+        "as": "৭:০০ ৰাতি"
+      },
+      {
+        "en": "9:30 p.m.",
+        "as": "৯:৩০ ৰাতি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In 12 true hours it gains 12 × 5 = 60 minutes, so it shows 9:00 p.m.",
+      "as": "১২ ঘণ্টাত ই ১২ × ৫ = ৬০ মিনিট আগুৱাই যায়, গতিকে ৯:০০ ৰাতি দেখুৱাব।"
+    }
+  },
+  {
+    "id": "clock-calendar-038",
+    "type": "clock",
+    "q": {
+      "en": "A clock loses 5 minutes every hour. If it is set right at 12 noon, what time will it show at 6 p.m.?",
+      "as": "এটা ঘড়ী প্ৰতি ঘণ্টাত ৫ মিনিট পিছ পৰে। ১২ বজা দুপৰীয়া শুদ্ধ কৰা হ'লে ৬ বজা আবেলিলৈ ঘড়ীটোৱে কিমান দেখুৱাব?"
+    },
+    "options": [
+      {
+        "en": "5:45 p.m.",
+        "as": "৫:৪৫ আবেলি"
+      },
+      {
+        "en": "5:00 p.m.",
+        "as": "৫:০০ আবেলি"
+      },
+      {
+        "en": "6:30 p.m.",
+        "as": "৬:৩০ আবেলি"
+      },
+      {
+        "en": "5:30 p.m.",
+        "as": "৫:৩০ আবেলি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In 6 hours it loses 6 × 5 = 30 minutes, so it shows 5:30 p.m.",
+      "as": "৬ ঘণ্টাত ই ৬ × ৫ = ৩০ মিনিট পিছ পৰে, গতিকে ৫:৩০ আবেলি দেখুৱাব।"
+    }
+  },
+  {
+    "id": "clock-calendar-039",
+    "type": "calendar",
+    "q": {
+      "en": "What day of the week was 15 August 1947?",
+      "as": "১৫ আগষ্ট ১৯৪৭ তাৰিখে সপ্তাহৰ কোনটো দিন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Sunday",
+        "as": "দেওবাৰ"
+      },
+      {
+        "en": "Saturday",
+        "as": "শনিবাৰ"
+      },
+      {
+        "en": "Friday",
+        "as": "শুকুৰবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "15 August 1947 is a Friday.",
+      "as": "১৫ আগষ্ট ১৯৪৭ (১৫ আগষ্ট ১৯৪৭) শুকুৰবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-040",
+    "type": "calendar",
+    "q": {
+      "en": "What day of the week was 26 January 1950?",
+      "as": "২৬ জানুৱাৰী ১৯৫০ তাৰিখে সপ্তাহৰ কোনটো দিন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Friday",
+        "as": "শুকুৰবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Saturday",
+        "as": "শনিবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "26 January 1950 is a Thursday.",
+      "as": "২৬ জানুৱাৰী ১৯৫০ (২৬ জানুৱাৰী ১৯৫০) বৃহস্পতিবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-041",
+    "type": "calendar",
+    "q": {
+      "en": "What day of the week is 26 January 2024?",
+      "as": "২৬ জানুৱাৰী ২০২৪ তাৰিখে সপ্তাহৰ কোনটো দিন হয়?"
+    },
+    "options": [
+      {
+        "en": "Friday",
+        "as": "শুকুৰবাৰ"
+      },
+      {
+        "en": "Saturday",
+        "as": "শনিবাৰ"
+      },
+      {
+        "en": "Sunday",
+        "as": "দেওবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "26 January 2024 is a Friday.",
+      "as": "২৬ জানুৱাৰী ২০২৪ (২৬ জানুৱাৰী ২০২৪) শুকুৰবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-042",
+    "type": "calendar",
+    "q": {
+      "en": "What day of the week was 15 August 2023?",
+      "as": "১৫ আগষ্ট ২০২৩ তাৰিখে সপ্তাহৰ কোনটো দিন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Saturday",
+        "as": "শনিবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "15 August 2023 is a Tuesday.",
+      "as": "১৫ আগষ্ট ২০২৩ (১৫ আগষ্ট ২০২৩) মঙ্গলবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-043",
+    "type": "calendar",
+    "q": {
+      "en": "What day of the week was 2 October 2023?",
+      "as": "২ অক্টোবৰ ২০২৩ তাৰিখে সপ্তাহৰ কোনটো দিন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Friday",
+        "as": "শুকুৰবাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "2 October 2023 is a Monday.",
+      "as": "২ অক্টোবৰ ২০২৩ (২ অক্টোবৰ ২০২৩) সোমবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-044",
+    "type": "calendar",
+    "q": {
+      "en": "What day of the week is 1 January 2024?",
+      "as": "১ জানুৱাৰী ২০২৪ তাৰিখে সপ্তাহৰ কোনটো দিন হয়?"
+    },
+    "options": [
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Friday",
+        "as": "শুকুৰবাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "1 January 2024 is a Monday.",
+      "as": "১ জানুৱাৰী ২০২৪ (১ জানুৱাৰী ২০২৪) সোমবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-045",
+    "type": "calendar",
+    "q": {
+      "en": "What day of the week was 25 December 2023?",
+      "as": "২৫ ডিচেম্বৰ ২০২৩ তাৰিখে সপ্তাহৰ কোনটো দিন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Friday",
+        "as": "শুকুৰবাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "25 December 2023 is a Monday.",
+      "as": "২৫ ডিচেম্বৰ ২০২৩ (২৫ ডিচেম্বৰ ২০২৩) সোমবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-046",
+    "type": "calendar",
+    "q": {
+      "en": "What day of the week was 14 November 2023?",
+      "as": "১৪ নৱেম্বৰ ২০২৩ তাৰিখে সপ্তাহৰ কোনটো দিন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Saturday",
+        "as": "শনিবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "14 November 2023 is a Tuesday.",
+      "as": "১৪ নৱেম্বৰ ২০২৩ (১৪ নৱেম্বৰ ২০২৩) মঙ্গলবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-047",
+    "type": "calendar",
+    "q": {
+      "en": "What day of the week is 1 January 2025?",
+      "as": "১ জানুৱাৰী ২০২৫ তাৰিখে সপ্তাহৰ কোনটো দিন হয়?"
+    },
+    "options": [
+      {
+        "en": "Friday",
+        "as": "শুকুৰবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Sunday",
+        "as": "দেওবাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "1 January 2025 is a Wednesday.",
+      "as": "১ জানুৱাৰী ২০২৫ (১ জানুৱাৰী ২০২৫) বুধবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-048",
+    "type": "calendar",
+    "q": {
+      "en": "What day of the week is 26 January 2025?",
+      "as": "২৬ জানুৱাৰী ২০২৫ তাৰিখে সপ্তাহৰ কোনটো দিন হয়?"
+    },
+    "options": [
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Sunday",
+        "as": "দেওবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "26 January 2025 is a Sunday.",
+      "as": "২৬ জানুৱাৰী ২০২৫ (২৬ জানুৱাৰী ২০২৫) দেওবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-049",
+    "type": "calendar",
+    "q": {
+      "en": "What day of the week is 15 August 2024?",
+      "as": "১৫ আগষ্ট ২০২৪ তাৰিখে সপ্তাহৰ কোনটো দিন হয়?"
+    },
+    "options": [
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Friday",
+        "as": "শুকুৰবাৰ"
+      },
+      {
+        "en": "Saturday",
+        "as": "শনিবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "15 August 2024 is a Thursday.",
+      "as": "১৫ আগষ্ট ২০২৪ (১৫ আগষ্ট ২০২৪) বৃহস্পতিবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-050",
+    "type": "calendar",
+    "q": {
+      "en": "What day of the week is 2 October 2024?",
+      "as": "২ অক্টোবৰ ২০২৪ তাৰিখে সপ্তাহৰ কোনটো দিন হয়?"
+    },
+    "options": [
+      {
+        "en": "Sunday",
+        "as": "দেওবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Friday",
+        "as": "শুকুৰবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2 October 2024 is a Wednesday.",
+      "as": "২ অক্টোবৰ ২০২৪ (২ অক্টোবৰ ২০২৪) বুধবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-051",
+    "type": "calendar",
+    "q": {
+      "en": "If today is Monday, what day will it be after 61 days?",
+      "as": "আজি সোমবাৰ হ'লে ৬১ দিনৰ পিছত কি বাৰ হব?"
+    },
+    "options": [
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Saturday",
+        "as": "শনিবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "61 days = 8 weeks + 5 days; Monday + 5 days = Saturday.",
+      "as": "৬১ দিন = ৮ সপ্তাহ + ৫ দিন; সোমবাৰ + ৫ দিন = শনিবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-052",
+    "type": "calendar",
+    "q": {
+      "en": "If today is Monday, what day will it be after 100 days?",
+      "as": "আজি সোমবাৰ হ'লে ১০০ দিনৰ পিছত কি বাৰ হব?"
+    },
+    "options": [
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Friday",
+        "as": "শুকুৰবাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "100 days = 14 weeks + 2 days; Monday + 2 days = Wednesday.",
+      "as": "১০০ দিন = ১৪ সপ্তাহ + ২ দিন; সোমবাৰ + ২ দিন = বুধবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-053",
+    "type": "calendar",
+    "q": {
+      "en": "If today is Monday, what day will it be after 75 days?",
+      "as": "আজি সোমবাৰ হ'লে ৭৫ দিনৰ পিছত কি বাৰ হব?"
+    },
+    "options": [
+      {
+        "en": "Saturday",
+        "as": "শনিবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "75 days = 10 weeks + 5 days; Monday + 5 days = Saturday.",
+      "as": "৭৫ দিন = ১০ সপ্তাহ + ৫ দিন; সোমবাৰ + ৫ দিন = শনিবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-054",
+    "type": "calendar",
+    "q": {
+      "en": "If today is Monday, what day will it be after 45 days?",
+      "as": "আজি সোমবাৰ হ'লে ৪৫ দিনৰ পিছত কি বাৰ হব?"
+    },
+    "options": [
+      {
+        "en": "Friday",
+        "as": "শুকুৰবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "45 days = 6 weeks + 3 days; Monday + 3 days = Thursday.",
+      "as": "৪৫ দিন = ৬ সপ্তাহ + ৩ দিন; সোমবাৰ + ৩ দিন = বৃহস্পতিবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-055",
+    "type": "calendar",
+    "q": {
+      "en": "If today is Monday, what day will it be after 200 days?",
+      "as": "আজি সোমবাৰ হ'লে ২০০ দিনৰ পিছত কি বাৰ হব?"
+    },
+    "options": [
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Friday",
+        "as": "শুকুৰবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "200 days = 28 weeks + 4 days; Monday + 4 days = Friday.",
+      "as": "২০০ দিন = ২৮ সপ্তাহ + ৪ দিন; সোমবাৰ + ৪ দিন = শুকুৰবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-056",
+    "type": "calendar",
+    "q": {
+      "en": "If today is Monday, what day will it be after 1000 days?",
+      "as": "আজি সোমবাৰ হ'লে ১০০০ দিনৰ পিছত কি বাৰ হব?"
+    },
+    "options": [
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Sunday",
+        "as": "দেওবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "1000 days = 142 weeks + 6 days; Monday + 6 days = Sunday.",
+      "as": "১০০০ দিন = ১৪২ সপ্তাহ + ৬ দিন; সোমবাৰ + ৬ দিন = দেওবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-057",
+    "type": "calendar",
+    "q": {
+      "en": "If 1 January 2023 is a Sunday, what day is 1 January 2024?",
+      "as": "১ জানুৱাৰী ২০২৩ যদি দেওবাৰ হয়, তেন্তে ১ জানুৱাৰী ২০২৪ কি বাৰ হব?"
+    },
+    "options": [
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Saturday",
+        "as": "শনিবাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "2023 is an ordinary year, so it adds 1 odd day(s); Sunday + 1 = Monday.",
+      "as": "২০২৩ সাধাৰণ বৰ্ষ, গতিকে ১ টা অতিৰিক্ত দিন যোগ হয়; দেওবাৰ + ১ = সোমবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-058",
+    "type": "calendar",
+    "q": {
+      "en": "If 1 January 2022 is a Saturday, what day is 1 January 2023?",
+      "as": "১ জানুৱাৰী ২০২২ যদি শনিবাৰ হয়, তেন্তে ১ জানুৱাৰী ২০২৩ কি বাৰ হব?"
+    },
+    "options": [
+      {
+        "en": "Friday",
+        "as": "শুকুৰবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Sunday",
+        "as": "দেওবাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2022 is an ordinary year, so it adds 1 odd day(s); Saturday + 1 = Sunday.",
+      "as": "২০২২ সাধাৰণ বৰ্ষ, গতিকে ১ টা অতিৰিক্ত দিন যোগ হয়; শনিবাৰ + ১ = দেওবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-059",
+    "type": "calendar",
+    "q": {
+      "en": "If 1 January 2020 is a Wednesday, what day is 1 January 2021?",
+      "as": "১ জানুৱাৰী ২০২০ যদি বুধবাৰ হয়, তেন্তে ১ জানুৱাৰী ২০২১ কি বাৰ হব?"
+    },
+    "options": [
+      {
+        "en": "Sunday",
+        "as": "দেওবাৰ"
+      },
+      {
+        "en": "Saturday",
+        "as": "শনিবাৰ"
+      },
+      {
+        "en": "Friday",
+        "as": "শুকুৰবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "2020 is a leap year, so it adds 2 odd day(s); Wednesday + 2 = Friday.",
+      "as": "২০২০ অধিবৰ্ষ, গতিকে ২ টা অতিৰিক্ত দিন যোগ হয়; বুধবাৰ + ২ = শুকুৰবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-060",
+    "type": "calendar",
+    "q": {
+      "en": "If 1 January 2024 is a Monday, what day is 1 January 2025?",
+      "as": "১ জানুৱাৰী ২০২৪ যদি সোমবাৰ হয়, তেন্তে ১ জানুৱাৰী ২০২৫ কি বাৰ হব?"
+    },
+    "options": [
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Friday",
+        "as": "শুকুৰবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2024 is a leap year, so it adds 2 odd day(s); Monday + 2 = Wednesday.",
+      "as": "২০২৪ অধিবৰ্ষ, গতিকে ২ টা অতিৰিক্ত দিন যোগ হয়; সোমবাৰ + ২ = বুধবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-061",
+    "type": "calendar",
+    "q": {
+      "en": "If 1 January of a non-leap year is a Monday, what day is 31 December of that year?",
+      "as": "এটা সাধাৰণ বৰ্ষৰ ১ জানুৱাৰী সোমবাৰ হ'লে সেই বছৰৰ ৩১ ডিচেম্বৰ কি বাৰ হব?"
+    },
+    "options": [
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Sunday",
+        "as": "দেওবাৰ"
+      },
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A non-leap year has 365 days = 52 weeks + 1 day; 31 December falls on the same day as 1 January, i.e. Monday.",
+      "as": "সাধাৰণ বৰ্ষত ৩৬৫ দিন = ৫২ সপ্তাহ + ১ দিন; ৩১ ডিচেম্বৰ ১ জানুৱাৰীৰ দৰেই, অৰ্থাৎ সোমবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-062",
+    "type": "calendar",
+    "q": {
+      "en": "How many odd days are there in an ordinary year?",
+      "as": "এটা সাধাৰণ বৰ্ষ কিমানটা অতিৰিক্ত দিন থাকে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An ordinary year gives 1 odd day(s).",
+      "as": "এটা সাধাৰণ বৰ্ষ = ১ টা অতিৰিক্ত দিন।"
+    }
+  },
+  {
+    "id": "clock-calendar-063",
+    "type": "calendar",
+    "q": {
+      "en": "How many odd days are there in a leap year?",
+      "as": "এটা অধিবৰ্ষ কিমানটা অতিৰিক্ত দিন থাকে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A leap year gives 2 odd day(s).",
+      "as": "এটা অধিবৰ্ষ = ২ টা অতিৰিক্ত দিন।"
+    }
+  },
+  {
+    "id": "clock-calendar-064",
+    "type": "calendar",
+    "q": {
+      "en": "How many odd days are there in 100 years?",
+      "as": "১০০ বছৰ কিমানটা অতিৰিক্ত দিন থাকে?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "100 years gives 5 odd day(s).",
+      "as": "১০০ বছৰ = ৫ টা অতিৰিক্ত দিন।"
+    }
+  },
+  {
+    "id": "clock-calendar-065",
+    "type": "calendar",
+    "q": {
+      "en": "How many odd days are there in 200 years?",
+      "as": "২০০ বছৰ কিমানটা অতিৰিক্ত দিন থাকে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "200 years gives 3 odd day(s).",
+      "as": "২০০ বছৰ = ৩ টা অতিৰিক্ত দিন।"
+    }
+  },
+  {
+    "id": "clock-calendar-066",
+    "type": "calendar",
+    "q": {
+      "en": "How many odd days are there in 300 years?",
+      "as": "৩০০ বছৰ কিমানটা অতিৰিক্ত দিন থাকে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "300 years gives 1 odd day(s).",
+      "as": "৩০০ বছৰ = ১ টা অতিৰিক্ত দিন।"
+    }
+  },
+  {
+    "id": "clock-calendar-067",
+    "type": "calendar",
+    "q": {
+      "en": "How many odd days are there in 400 years?",
+      "as": "৪০০ বছৰ কিমানটা অতিৰিক্ত দিন থাকে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "400 years gives 0 odd day(s).",
+      "as": "৪০০ বছৰ = ০ টা অতিৰিক্ত দিন।"
+    }
+  },
+  {
+    "id": "clock-calendar-068",
+    "type": "calendar",
+    "q": {
+      "en": "Which of the following is a leap year?",
+      "as": "তলৰ কোনটো বছৰ অধিবৰ্ষ?"
+    },
+    "options": [
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
+        "en": "2021",
+        "as": "২০২১"
+      },
+      {
+        "en": "2022",
+        "as": "২০২২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2020 is a leap year (divisible by 4, and a century year by 400).",
+      "as": "২০২০ অধিবৰ্ষ (৪ ৰে বিভাজ্য, শতিকাৰ বছৰ হ'লে ৪০০ ৰে)।"
+    }
+  },
+  {
+    "id": "clock-calendar-069",
+    "type": "calendar",
+    "q": {
+      "en": "Which of the following is NOT a leap year?",
+      "as": "তলৰ কোনটো অধিবৰ্ষ নহয়?"
+    },
+    "options": [
+      {
+        "en": "1900",
+        "as": "১৯০০"
+      },
+      {
+        "en": "2000",
+        "as": "২০০০"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2024",
+        "as": "২০২৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "1900 is not a leap year (a century year must be divisible by 400).",
+      "as": "১৯০০ অধিবৰ্ষ নহয় (শতিকাৰ বছৰ ৪০০ ৰে বিভাজ্য হব লাগে)।"
+    }
+  },
+  {
+    "id": "clock-calendar-070",
+    "type": "calendar",
+    "q": {
+      "en": "Which of the following is a leap year?",
+      "as": "তলৰ কোনটো বছৰ অধিবৰ্ষ?"
+    },
+    "options": [
+      {
+        "en": "1900",
+        "as": "১৯০০"
+      },
+      {
+        "en": "1700",
+        "as": "১৭০০"
+      },
+      {
+        "en": "1800",
+        "as": "১৮০০"
+      },
+      {
+        "en": "1600",
+        "as": "১৬০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "1600 is a leap year (divisible by 4, and a century year by 400).",
+      "as": "১৬০০ অধিবৰ্ষ (৪ ৰে বিভাজ্য, শতিকাৰ বছৰ হ'লে ৪০০ ৰে)।"
+    }
+  },
+  {
+    "id": "clock-calendar-071",
+    "type": "calendar",
+    "q": {
+      "en": "Which of the following is NOT a leap year?",
+      "as": "তলৰ কোনটো অধিবৰ্ষ নহয়?"
+    },
+    "options": [
+      {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
+        "en": "2000",
+        "as": "২০০০"
+      },
+      {
+        "en": "2100",
+        "as": "২১০০"
+      },
+      {
+        "en": "1996",
+        "as": "১৯৯৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "2100 is not a leap year (a century year must be divisible by 400).",
+      "as": "২১০০ অধিবৰ্ষ নহয় (শতিকাৰ বছৰ ৪০০ ৰে বিভাজ্য হব লাগে)।"
+    }
+  },
+  {
+    "id": "clock-calendar-072",
+    "type": "calendar",
+    "q": {
+      "en": "How many days are there in February in a leap year?",
+      "as": "অধিবৰ্ষত ফেব্ৰুৱাৰী মাহত কিমান দিন থাকে?"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "February has 29 days in a leap year.",
+      "as": "অধিবৰ্ষত ফেব্ৰুৱাৰীত ২৯ দিন থাকে।"
+    }
+  },
+  {
+    "id": "clock-calendar-073",
+    "type": "calendar",
+    "q": {
+      "en": "If the 1st of a month is a Monday, what day is the 10th of the same month?",
+      "as": "এটা মাহৰ ১ তাৰিখ সোমবাৰ হ'লে সেই মাহৰ ১০ তাৰিখ কি বাৰ হব?"
+    },
+    "options": [
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Tuesday",
+        "as": "মঙ্গলবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Friday",
+        "as": "শুকুৰবাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "From the 1st to the 10th is 9 days = 1 week + 2 days, so Monday + 2 = Wednesday.",
+      "as": "১ তাৰিখৰ পৰা ১০ তাৰিখলৈ ৯ দিন = ১ সপ্তাহ + ২ দিন, গতিকে সোমবাৰ + ২ = বুধবাৰ।"
+    }
+  },
+  {
+    "id": "clock-calendar-074",
+    "type": "calendar",
+    "q": {
+      "en": "How many days are there from 26 January 2024 to 15 August 2024?",
+      "as": "২৬ জানুৱাৰী ২০২৪ ৰ পৰা ১৫ আগষ্ট ২০২৪ লৈ কিমান দিন?"
+    },
+    "options": [
+      {
+        "en": "209",
+        "as": "২০৯"
+      },
+      {
+        "en": "203",
+        "as": "২০৩"
+      },
+      {
+        "en": "201",
+        "as": "২০১"
+      },
+      {
+        "en": "202",
+        "as": "২০২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The number of days between the two dates is 202.",
+      "as": "দুই তাৰিখৰ মাজত মুঠ ২০২ দিন।"
+    }
+  },
+  {
+    "id": "clock-calendar-075",
+    "type": "calendar",
+    "q": {
+      "en": "How many days are there from 1 January 2023 to 31 December 2023?",
+      "as": "১ জানুৱাৰী ২০২৩ ৰ পৰা ৩১ ডিচেম্বৰ ২০২৩ লৈ কিমান দিন?"
+    },
+    "options": [
+      {
+        "en": "363",
+        "as": "৩৬৩"
+      },
+      {
+        "en": "365",
+        "as": "৩৬৫"
+      },
+      {
+        "en": "364",
+        "as": "৩৬৪"
+      },
+      {
+        "en": "371",
+        "as": "৩৭১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The number of days between the two dates is 364.",
+      "as": "দুই তাৰিখৰ মাজত মুঠ ৩৬৪ দিন।"
+    }
+  },
+  {
+    "id": "clock-calendar-076",
+    "type": "calendar",
+    "q": {
+      "en": "How many days are there from 1 February 2024 to 1 March 2024?",
+      "as": "১ ফেব্ৰুৱাৰী ২০২৪ ৰ পৰা ১ মাৰ্চ ২০২৪ লৈ কিমান দিন?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The number of days between the two dates is 29.",
+      "as": "দুই তাৰিখৰ মাজত মুঠ ২৯ দিন।"
+    }
+  },
+  {
+    "id": "clock-calendar-077",
+    "type": "calendar",
+    "q": {
+      "en": "After how many years does the calendar of a leap year repeat?",
+      "as": "এটা অধিবৰ্ষৰ কেলেণ্ডাৰ কিমান বছৰৰ পিছত পুনৰাবৃত্তি হয়?"
+    },
+    "options": [
+      {
+        "en": "28 years",
+        "as": "২৮ বছৰ"
+      },
+      {
+        "en": "11 years",
+        "as": "১১ বছৰ"
+      },
+      {
+        "en": "6 years",
+        "as": "৬ বছৰ"
+      },
+      {
+        "en": "7 years",
+        "as": "৭ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The calendar of a leap year repeats after 28 years.",
+      "as": "অধিবৰ্ষৰ কেলেণ্ডাৰ ২৮ বছৰৰ পিছত পুনৰাবৃত্তি হয়।"
+    }
+  },
+  {
+    "id": "clock-calendar-078",
+    "type": "calendar",
+    "q": {
+      "en": "How many days are there in an ordinary (non-leap) year?",
+      "as": "এটা সাধাৰণ (অধিবৰ্ষ নোহোৱা) বছৰত কিমান দিন থাকে?"
+    },
+    "options": [
+      {
+        "en": "364",
+        "as": "৩৬৪"
+      },
+      {
+        "en": "366",
+        "as": "৩৬৬"
+      },
+      {
+        "en": "360",
+        "as": "৩৬০"
+      },
+      {
+        "en": "365",
+        "as": "৩৬৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An ordinary year has 365 days.",
+      "as": "এটা সাধাৰণ বৰ্ষত ৩৬৫ দিন থাকে।"
+    }
+  },
+  {
+    "id": "clock-calendar-079",
+    "type": "calendar",
+    "q": {
+      "en": "How many odd days are there in 30 days?",
+      "as": "৩০ দিনত কিমানটা অতিৰিক্ত দিন থাকে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "30 days = 4 weeks + 2 days, so there are 2 odd days.",
+      "as": "৩০ দিন = ৪ সপ্তাহ + ২ দিন, গতিকে ২ টা অতিৰিক্ত দিন।"
+    }
   }
-}
+]
