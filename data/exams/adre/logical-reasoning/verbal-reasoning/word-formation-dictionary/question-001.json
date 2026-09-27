@@ -1,30 +1,1712 @@
-{
-  "id": "word-formation-dictionary-001",
-  "q": {
-    "en": "Arrange the words in dictionary order: Nation, Native, Nature, Navy",
-    "as": "শব্দসমূহ অভিধানৰ ক্ৰমত সজোৱা: Nation, Native, Nature, Navy"
-  },
-  "options": [
-    {
-      "en": "Nation, Native, Nature, Navy",
-      "as": "Nation, Native, Nature, Navy"
+[
+  {
+    "id": "word-formation-dictionary-001",
+    "q": {
+      "en": "Arrange the words in dictionary order: Nation, Native, Nature, Navy",
+      "as": "শব্দসমূহ অভিধানৰ ক্ৰমত সজোৱা: Nation, Native, Nature, Navy"
     },
-    {
-      "en": "Native, Nation, Nature, Navy",
-      "as": "Native, Nation, Nature, Navy"
-    },
-    {
-      "en": "Nation, Nature, Native, Navy",
-      "as": "Nation, Nature, Native, Navy"
-    },
-    {
-      "en": "Navy, Nation, Native, Nature",
-      "as": "Navy, Nation, Native, Nature"
+    "options": [
+      {
+        "en": "Nation, Native, Nature, Navy",
+        "as": "Nation, Native, Nature, Navy"
+      },
+      {
+        "en": "Native, Nation, Nature, Navy",
+        "as": "Native, Nation, Nature, Navy"
+      },
+      {
+        "en": "Nation, Nature, Native, Navy",
+        "as": "Nation, Nature, Native, Navy"
+      },
+      {
+        "en": "Navy, Nation, Native, Nature",
+        "as": "Navy, Nation, Native, Nature"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Comparing letter by letter, 'Nation' (o) comes before 'Native' (v), then 'Nature' (u), then 'Navy' (v).",
+      "as": "আখৰ ধৰি ধৰি তুলনা কৰিলে 'Nation' (o) 'Native' (v) ৰ আগত, তাৰ পিছত 'Nature' (u), শেষত 'Navy' (v)।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "Comparing letter by letter, 'Nation' (o) comes before 'Native' (v), then 'Nature' (u), then 'Navy' (v).",
-    "as": "আখৰ ধৰি ধৰি তুলনা কৰিলে 'Nation' (o) 'Native' (v) ৰ আগত, তাৰ পিছত 'Nature' (u), শেষত 'Navy' (v)।"
+  },
+  {
+    "id": "word-formation-dictionary-002",
+    "q": {
+      "en": "Arrange the words in dictionary order: Apple, Apply, Apt, Apart",
+      "as": "শব্দসমূহ অভিধানৰ ক্ৰমত সজোৱা: Apple, Apply, Apt, Apart"
+    },
+    "options": [
+      {
+        "en": "Apple, Apart, Apply, Apt",
+        "as": "Apple, Apart, Apply, Apt"
+      },
+      {
+        "en": "Apart, Apple, Apply, Apt",
+        "as": "Apart, Apple, Apply, Apt"
+      },
+      {
+        "en": "Apart, Apply, Apple, Apt",
+        "as": "Apart, Apply, Apple, Apt"
+      },
+      {
+        "en": "Apart, Apple, Apt, Apply",
+        "as": "Apart, Apple, Apt, Apply"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Comparing letter by letter, the dictionary order is: Apart, Apple, Apply, Apt.",
+      "as": "আখৰ ধৰি ধৰি তুলনা কৰিলে অভিধানৰ ক্ৰম: Apart, Apple, Apply, Apt।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-003",
+    "q": {
+      "en": "Arrange the words in dictionary order: Ball, Balloon, Balm, Balance",
+      "as": "শব্দসমূহ অভিধানৰ ক্ৰমত সজোৱা: Ball, Balloon, Balm, Balance"
+    },
+    "options": [
+      {
+        "en": "Ball, Balance, Balloon, Balm",
+        "as": "Ball, Balance, Balloon, Balm"
+      },
+      {
+        "en": "Balance, Balloon, Ball, Balm",
+        "as": "Balance, Balloon, Ball, Balm"
+      },
+      {
+        "en": "Balance, Ball, Balloon, Balm",
+        "as": "Balance, Ball, Balloon, Balm"
+      },
+      {
+        "en": "Balance, Ball, Balm, Balloon",
+        "as": "Balance, Ball, Balm, Balloon"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Comparing letter by letter, the dictionary order is: Balance, Ball, Balloon, Balm.",
+      "as": "আখৰ ধৰি ধৰি তুলনা কৰিলে অভিধানৰ ক্ৰম: Balance, Ball, Balloon, Balm।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-004",
+    "q": {
+      "en": "Arrange the words in dictionary order: Cat, Cart, Care, Car",
+      "as": "শব্দসমূহ অভিধানৰ ক্ৰমত সজোৱা: Cat, Cart, Care, Car"
+    },
+    "options": [
+      {
+        "en": "Care, Car, Cart, Cat",
+        "as": "Care, Car, Cart, Cat"
+      },
+      {
+        "en": "Car, Cart, Care, Cat",
+        "as": "Car, Cart, Care, Cat"
+      },
+      {
+        "en": "Car, Care, Cat, Cart",
+        "as": "Car, Care, Cat, Cart"
+      },
+      {
+        "en": "Car, Care, Cart, Cat",
+        "as": "Car, Care, Cart, Cat"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Comparing letter by letter, the dictionary order is: Car, Care, Cart, Cat.",
+      "as": "আখৰ ধৰি ধৰি তুলনা কৰিলে অভিধানৰ ক্ৰম: Car, Care, Cart, Cat।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-005",
+    "q": {
+      "en": "Arrange the words in dictionary order: Dear, Deer, Deep, Deal",
+      "as": "শব্দসমূহ অভিধানৰ ক্ৰমত সজোৱা: Dear, Deer, Deep, Deal"
+    },
+    "options": [
+      {
+        "en": "Deal, Dear, Deep, Deer",
+        "as": "Deal, Dear, Deep, Deer"
+      },
+      {
+        "en": "Dear, Deal, Deep, Deer",
+        "as": "Dear, Deal, Deep, Deer"
+      },
+      {
+        "en": "Deal, Deep, Dear, Deer",
+        "as": "Deal, Deep, Dear, Deer"
+      },
+      {
+        "en": "Deal, Dear, Deer, Deep",
+        "as": "Deal, Dear, Deer, Deep"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Comparing letter by letter, the dictionary order is: Deal, Dear, Deep, Deer.",
+      "as": "আখৰ ধৰি ধৰি তুলনা কৰিলে অভিধানৰ ক্ৰম: Deal, Dear, Deep, Deer।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-006",
+    "q": {
+      "en": "Arrange the words in dictionary order: Master, Muster, Mister, Monster",
+      "as": "শব্দসমূহ অভিধানৰ ক্ৰমত সজোৱা: Master, Muster, Mister, Monster"
+    },
+    "options": [
+      {
+        "en": "Mister, Master, Monster, Muster",
+        "as": "Mister, Master, Monster, Muster"
+      },
+      {
+        "en": "Master, Mister, Monster, Muster",
+        "as": "Master, Mister, Monster, Muster"
+      },
+      {
+        "en": "Master, Monster, Mister, Muster",
+        "as": "Master, Monster, Mister, Muster"
+      },
+      {
+        "en": "Master, Mister, Muster, Monster",
+        "as": "Master, Mister, Muster, Monster"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Comparing letter by letter, the dictionary order is: Master, Mister, Monster, Muster.",
+      "as": "আখৰ ধৰি ধৰি তুলনা কৰিলে অভিধানৰ ক্ৰম: Master, Mister, Monster, Muster।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-007",
+    "q": {
+      "en": "Arrange the words in dictionary order: Face, Fact, Factor, Factory",
+      "as": "শব্দসমূহ অভিধানৰ ক্ৰমত সজোৱা: Face, Fact, Factor, Factory"
+    },
+    "options": [
+      {
+        "en": "Fact, Face, Factor, Factory",
+        "as": "Fact, Face, Factor, Factory"
+      },
+      {
+        "en": "Face, Factor, Fact, Factory",
+        "as": "Face, Factor, Fact, Factory"
+      },
+      {
+        "en": "Face, Fact, Factor, Factory",
+        "as": "Face, Fact, Factor, Factory"
+      },
+      {
+        "en": "Face, Fact, Factory, Factor",
+        "as": "Face, Fact, Factory, Factor"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Comparing letter by letter, the dictionary order is: Face, Fact, Factor, Factory.",
+      "as": "আখৰ ধৰি ধৰি তুলনা কৰিলে অভিধানৰ ক্ৰম: Face, Fact, Factor, Factory।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-008",
+    "q": {
+      "en": "Arrange the words in dictionary order: Right, Ring, Rise, River",
+      "as": "শব্দসমূহ অভিধানৰ ক্ৰমত সজোৱা: Right, Ring, Rise, River"
+    },
+    "options": [
+      {
+        "en": "Ring, Right, Rise, River",
+        "as": "Ring, Right, Rise, River"
+      },
+      {
+        "en": "Right, Rise, Ring, River",
+        "as": "Right, Rise, Ring, River"
+      },
+      {
+        "en": "Right, Ring, River, Rise",
+        "as": "Right, Ring, River, Rise"
+      },
+      {
+        "en": "Right, Ring, Rise, River",
+        "as": "Right, Ring, Rise, River"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Comparing letter by letter, the dictionary order is: Right, Ring, Rise, River.",
+      "as": "আখৰ ধৰি ধৰি তুলনা কৰিলে অভিধানৰ ক্ৰম: Right, Ring, Rise, River।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-009",
+    "q": {
+      "en": "Arrange the words in dictionary order: Play, Place, Plan, Plane",
+      "as": "শব্দসমূহ অভিধানৰ ক্ৰমত সজোৱা: Play, Place, Plan, Plane"
+    },
+    "options": [
+      {
+        "en": "Place, Plan, Plane, Play",
+        "as": "Place, Plan, Plane, Play"
+      },
+      {
+        "en": "Plan, Place, Plane, Play",
+        "as": "Plan, Place, Plane, Play"
+      },
+      {
+        "en": "Place, Plane, Plan, Play",
+        "as": "Place, Plane, Plan, Play"
+      },
+      {
+        "en": "Place, Plan, Play, Plane",
+        "as": "Place, Plan, Play, Plane"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Comparing letter by letter, the dictionary order is: Place, Plan, Plane, Play.",
+      "as": "আখৰ ধৰি ধৰি তুলনা কৰিলে অভিধানৰ ক্ৰম: Place, Plan, Plane, Play।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-010",
+    "q": {
+      "en": "Arrange the words in dictionary order: Book, Boot, Boost, Boom",
+      "as": "শব্দসমূহ অভিধানৰ ক্ৰমত সজোৱা: Book, Boot, Boost, Boom"
+    },
+    "options": [
+      {
+        "en": "Boom, Book, Boost, Boot",
+        "as": "Boom, Book, Boost, Boot"
+      },
+      {
+        "en": "Book, Boom, Boost, Boot",
+        "as": "Book, Boom, Boost, Boot"
+      },
+      {
+        "en": "Book, Boost, Boom, Boot",
+        "as": "Book, Boost, Boom, Boot"
+      },
+      {
+        "en": "Book, Boom, Boot, Boost",
+        "as": "Book, Boom, Boot, Boost"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Comparing letter by letter, the dictionary order is: Book, Boom, Boost, Boot.",
+      "as": "আখৰ ধৰি ধৰি তুলনা কৰিলে অভিধানৰ ক্ৰম: Book, Boom, Boost, Boot।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-011",
+    "q": {
+      "en": "Arrange the words in dictionary order: Lemon, Level, Lever, Levee",
+      "as": "শব্দসমূহ অভিধানৰ ক্ৰমত সজোৱা: Lemon, Level, Lever, Levee"
+    },
+    "options": [
+      {
+        "en": "Levee, Lemon, Level, Lever",
+        "as": "Levee, Lemon, Level, Lever"
+      },
+      {
+        "en": "Lemon, Level, Levee, Lever",
+        "as": "Lemon, Level, Levee, Lever"
+      },
+      {
+        "en": "Lemon, Levee, Level, Lever",
+        "as": "Lemon, Levee, Level, Lever"
+      },
+      {
+        "en": "Lemon, Levee, Lever, Level",
+        "as": "Lemon, Levee, Lever, Level"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Comparing letter by letter, the dictionary order is: Lemon, Levee, Level, Lever.",
+      "as": "আখৰ ধৰি ধৰি তুলনা কৰিলে অভিধানৰ ক্ৰম: Lemon, Levee, Level, Lever।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-012",
+    "q": {
+      "en": "Arrange the words in dictionary order: Train, Tree, Trade, Track",
+      "as": "শব্দসমূহ অভিধানৰ ক্ৰমত সজোৱা: Train, Tree, Trade, Track"
+    },
+    "options": [
+      {
+        "en": "Trade, Track, Train, Tree",
+        "as": "Trade, Track, Train, Tree"
+      },
+      {
+        "en": "Track, Train, Trade, Tree",
+        "as": "Track, Train, Trade, Tree"
+      },
+      {
+        "en": "Track, Trade, Tree, Train",
+        "as": "Track, Trade, Tree, Train"
+      },
+      {
+        "en": "Track, Trade, Train, Tree",
+        "as": "Track, Trade, Train, Tree"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Comparing letter by letter, the dictionary order is: Track, Trade, Train, Tree.",
+      "as": "আখৰ ধৰি ধৰি তুলনা কৰিলে অভিধানৰ ক্ৰম: Track, Trade, Train, Tree।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-013",
+    "q": {
+      "en": "Which of the following words comes first in a dictionary? Silence, Silent, Similar, Simple",
+      "as": "তলৰ কোনটো শব্দ অভিধানত আটাইতকৈ আগত আহে? Silence, Silent, Similar, Simple"
+    },
+    "options": [
+      {
+        "en": "Silence",
+        "as": "Silence"
+      },
+      {
+        "en": "Silent",
+        "as": "Silent"
+      },
+      {
+        "en": "Similar",
+        "as": "Similar"
+      },
+      {
+        "en": "Simple",
+        "as": "Simple"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Comparing letter by letter, 'Silence' comes first.",
+      "as": "আখৰ ধৰি ধৰি তুলনা কৰিলে 'Silence' আটাইতকৈ আগত।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-014",
+    "q": {
+      "en": "Which of the following words comes first in a dictionary? Adapt, Adaptable, Adopt, Adoptive",
+      "as": "তলৰ কোনটো শব্দ অভিধানত আটাইতকৈ আগত আহে? Adapt, Adaptable, Adopt, Adoptive"
+    },
+    "options": [
+      {
+        "en": "Adaptable",
+        "as": "Adaptable"
+      },
+      {
+        "en": "Adapt",
+        "as": "Adapt"
+      },
+      {
+        "en": "Adopt",
+        "as": "Adopt"
+      },
+      {
+        "en": "Adoptive",
+        "as": "Adoptive"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Comparing letter by letter, 'Adapt' comes first.",
+      "as": "আখৰ ধৰি ধৰি তুলনা কৰিলে 'Adapt' আটাইতকৈ আগত।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-015",
+    "q": {
+      "en": "Which of the following words comes first in a dictionary? Rural, Rustic, Ruse, Rush",
+      "as": "তলৰ কোনটো শব্দ অভিধানত আটাইতকৈ আগত আহে? Rural, Rustic, Ruse, Rush"
+    },
+    "options": [
+      {
+        "en": "Rustic",
+        "as": "Rustic"
+      },
+      {
+        "en": "Ruse",
+        "as": "Ruse"
+      },
+      {
+        "en": "Rural",
+        "as": "Rural"
+      },
+      {
+        "en": "Rush",
+        "as": "Rush"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Comparing letter by letter, 'Rural' comes first.",
+      "as": "আখৰ ধৰি ধৰি তুলনা কৰিলে 'Rural' আটাইতকৈ আগত।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-016",
+    "q": {
+      "en": "Which of the following words comes last in a dictionary? Examine, Example, Exempt, Exceed",
+      "as": "তলৰ কোনটো শব্দ অভিধানত আটাইতকৈ শেষত আহে? Examine, Example, Exempt, Exceed"
+    },
+    "options": [
+      {
+        "en": "Examine",
+        "as": "Examine"
+      },
+      {
+        "en": "Example",
+        "as": "Example"
+      },
+      {
+        "en": "Exceed",
+        "as": "Exceed"
+      },
+      {
+        "en": "Exempt",
+        "as": "Exempt"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Comparing letter by letter, 'Exempt' comes last.",
+      "as": "আখৰ ধৰি ধৰি তুলনা কৰিলে 'Exempt' আটাইতকৈ শেষত।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-017",
+    "q": {
+      "en": "Which of the following words comes last in a dictionary? Captive, Caption, Capture, Captain",
+      "as": "তলৰ কোনটো শব্দ অভিধানত আটাইতকৈ শেষত আহে? Captive, Caption, Capture, Captain"
+    },
+    "options": [
+      {
+        "en": "Capture",
+        "as": "Capture"
+      },
+      {
+        "en": "Captive",
+        "as": "Captive"
+      },
+      {
+        "en": "Caption",
+        "as": "Caption"
+      },
+      {
+        "en": "Captain",
+        "as": "Captain"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Comparing letter by letter, 'Capture' comes last.",
+      "as": "আখৰ ধৰি ধৰি তুলনা কৰিলে 'Capture' আটাইতকৈ শেষত।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-018",
+    "q": {
+      "en": "Rearrange the letters 'L O O H C S' to form a meaningful English word.",
+      "as": "আখৰবোৰ 'L O O H C S' সজাই এটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "SHOCOL",
+        "as": "SHOCOL"
+      },
+      {
+        "en": "SCHOOL",
+        "as": "SCHOOL"
+      },
+      {
+        "en": "COLOSH",
+        "as": "COLOSH"
+      },
+      {
+        "en": "SOOCHL",
+        "as": "SOOCHL"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The letters rearrange to form the word 'SCHOOL'.",
+      "as": "আখৰবোৰ সজালে 'SCHOOL' শব্দটো গঠন হয়।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-019",
+    "q": {
+      "en": "Rearrange the letters 'R E H T O M' to form a meaningful English word.",
+      "as": "আখৰবোৰ 'R E H T O M' সজাই এটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "HEMTOR",
+        "as": "HEMTOR"
+      },
+      {
+        "en": "ROTHEM",
+        "as": "ROTHEM"
+      },
+      {
+        "en": "MOTHER",
+        "as": "MOTHER"
+      },
+      {
+        "en": "TOHMER",
+        "as": "TOHMER"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The letters rearrange to form the word 'MOTHER'.",
+      "as": "আখৰবোৰ সজালে 'MOTHER' শব্দটো গঠন হয়।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-020",
+    "q": {
+      "en": "Rearrange the letters 'T R E N A P' to form a meaningful English word.",
+      "as": "আখৰবোৰ 'T R E N A P' সজাই এটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "PATERN",
+        "as": "PATERN"
+      },
+      {
+        "en": "PREANT",
+        "as": "PREANT"
+      },
+      {
+        "en": "TAPERN",
+        "as": "TAPERN"
+      },
+      {
+        "en": "PARENT",
+        "as": "PARENT"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The letters rearrange to form the word 'PARENT'.",
+      "as": "আখৰবোৰ সজালে 'PARENT' শব্দটো গঠন হয়।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-021",
+    "q": {
+      "en": "Rearrange the letters 'K A C L B' to form a meaningful English word.",
+      "as": "আখৰবোৰ 'K A C L B' সজাই এটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "BLACK",
+        "as": "BLACK"
+      },
+      {
+        "en": "BALCK",
+        "as": "BALCK"
+      },
+      {
+        "en": "CKLBA",
+        "as": "CKLBA"
+      },
+      {
+        "en": "LABCK",
+        "as": "LABCK"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The letters rearrange to form the word 'BLACK'.",
+      "as": "আখৰবোৰ সজালে 'BLACK' শব্দটো গঠন হয়।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-022",
+    "q": {
+      "en": "Rearrange the letters 'N D E I R F' to form a meaningful English word.",
+      "as": "আখৰবোৰ 'N D E I R F' সজাই এটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "FREIND",
+        "as": "FREIND"
+      },
+      {
+        "en": "FRIEND",
+        "as": "FRIEND"
+      },
+      {
+        "en": "FIRNED",
+        "as": "FIRNED"
+      },
+      {
+        "en": "DEFIRN",
+        "as": "DEFIRN"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The letters rearrange to form the word 'FRIEND'.",
+      "as": "আখৰবোৰ সজালে 'FRIEND' শব্দটো গঠন হয়।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-023",
+    "q": {
+      "en": "Rearrange the letters 'Y M O N D A' to form a meaningful English word.",
+      "as": "আখৰবোৰ 'Y M O N D A' সজাই এটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "MYNDAO",
+        "as": "MYNDAO"
+      },
+      {
+        "en": "DONMAY",
+        "as": "DONMAY"
+      },
+      {
+        "en": "MONDAY",
+        "as": "MONDAY"
+      },
+      {
+        "en": "MOYADN",
+        "as": "MOYADN"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The letters rearrange to form the word 'MONDAY'.",
+      "as": "আখৰবোৰ সজালে 'MONDAY' শব্দটো গঠন হয়।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-024",
+    "q": {
+      "en": "Rearrange the letters 'R H E T O B' to form a meaningful English word.",
+      "as": "আখৰবোৰ 'R H E T O B' সজাই এটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "BORHTER",
+        "as": "BORHTER"
+      },
+      {
+        "en": "THROBER",
+        "as": "THROBER"
+      },
+      {
+        "en": "ROBHTER",
+        "as": "ROBHTER"
+      },
+      {
+        "en": "BROTHER",
+        "as": "BROTHER"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The letters rearrange to form the word 'BROTHER'.",
+      "as": "আখৰবোৰ সজালে 'BROTHER' শব্দটো গঠন হয়।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-025",
+    "q": {
+      "en": "Which of the following words can be formed from the letters of the word 'PROFESSION'?",
+      "as": "'PROFESSION' শব্দটোৰ আখৰবোৰৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "PRISON",
+        "as": "PRISON"
+      },
+      {
+        "en": "FROST",
+        "as": "FROST"
+      },
+      {
+        "en": "PROFIT",
+        "as": "PROFIT"
+      },
+      {
+        "en": "PRINCE",
+        "as": "PRINCE"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'PRISON' uses only the letters P, R, I, S, O, N, which are all present in PROFESSION.",
+      "as": "'PRISON' য়ে কেৱল P, R, I, S, O, N আখৰ ব্যৱহাৰ কৰে, যিবোৰ PROFESSION ত আছে।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-026",
+    "q": {
+      "en": "Which of the following words can be formed from the letters of the word 'CALCULATION'?",
+      "as": "'CALCULATION' শব্দটোৰ আখৰবোৰৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "NATION",
+        "as": "NATION"
+      },
+      {
+        "en": "ACTION",
+        "as": "ACTION"
+      },
+      {
+        "en": "LOCATION",
+        "as": "LOCATION"
+      },
+      {
+        "en": "SECTION",
+        "as": "SECTION"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'ACTION' uses A, C, T, I, O, N, all of which are present in CALCULATION.",
+      "as": "'ACTION' য়ে A, C, T, I, O, N ব্যৱহাৰ কৰে, যিবোৰ CALCULATION ত আছে।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-027",
+    "q": {
+      "en": "Which of the following words can be formed from the letters of the word 'TELEVISION'?",
+      "as": "'TELEVISION' শব্দটোৰ আখৰবোৰৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "LESSON",
+        "as": "LESSON"
+      },
+      {
+        "en": "MOTION",
+        "as": "MOTION"
+      },
+      {
+        "en": "VISION",
+        "as": "VISION"
+      },
+      {
+        "en": "SILENCE",
+        "as": "SILENCE"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'VISION' uses V, I, S, I, O, N, all of which are present in TELEVISION.",
+      "as": "'VISION' য়ে V, I, S, I, O, N ব্যৱহাৰ কৰে, যিবোৰ TELEVISION ত আছে।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-028",
+    "q": {
+      "en": "Which of the following words can be formed from the letters of the word 'EDUCATION'?",
+      "as": "'EDUCATION' শব্দটোৰ আখৰবোৰৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "NATION",
+        "as": "NATION"
+      },
+      {
+        "en": "MEDICINE",
+        "as": "MEDICINE"
+      },
+      {
+        "en": "LOCATION",
+        "as": "LOCATION"
+      },
+      {
+        "en": "CAUTION",
+        "as": "CAUTION"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'CAUTION' uses C, A, U, T, I, O, N, all of which are present in EDUCATION.",
+      "as": "'CAUTION' য়ে C, A, U, T, I, O, N ব্যৱহাৰ কৰে, যিবোৰ EDUCATION ত আছে।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-029",
+    "q": {
+      "en": "Which of the following words can be formed from the letters of the word 'CHOCOLATE'?",
+      "as": "'CHOCOLATE' শব্দটোৰ আখৰবোৰৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "CLOTH",
+        "as": "CLOTH"
+      },
+      {
+        "en": "CLOUD",
+        "as": "CLOUD"
+      },
+      {
+        "en": "WEALTH",
+        "as": "WEALTH"
+      },
+      {
+        "en": "ARTICLE",
+        "as": "ARTICLE"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'CLOTH' uses C, L, O, T, H, all of which are present in CHOCOLATE.",
+      "as": "'CLOTH' য়ে C, L, O, T, H ব্যৱহাৰ কৰে, যিবোৰ CHOCOLATE ত আছে।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-030",
+    "q": {
+      "en": "Which of the following words cannot be formed from the letters of the word 'COMPUTER'?",
+      "as": "'COMPUTER' শব্দটোৰ আখৰবোৰৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব নোৱাৰি?"
+    },
+    "options": [
+      {
+        "en": "COME",
+        "as": "COME"
+      },
+      {
+        "en": "TEMPER",
+        "as": "TEMPER"
+      },
+      {
+        "en": "PUT",
+        "as": "PUT"
+      },
+      {
+        "en": "CUTE",
+        "as": "CUTE"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'TEMPER' needs two E's, but COMPUTER has only one E.",
+      "as": "'TEMPER' ৰ বাবে দুটা E লাগে, কিন্তু COMPUTER ত এটা মাত্ৰ E আছে।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-031",
+    "q": {
+      "en": "Which of the following words cannot be formed from the letters of the word 'EDUCATION'?",
+      "as": "'EDUCATION' শব্দটোৰ আখৰবোৰৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব নোৱাৰি?"
+    },
+    "options": [
+      {
+        "en": "CAT",
+        "as": "CAT"
+      },
+      {
+        "en": "DATE",
+        "as": "DATE"
+      },
+      {
+        "en": "NATION",
+        "as": "NATION"
+      },
+      {
+        "en": "ACTION",
+        "as": "ACTION"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'NATION' needs two N's, but EDUCATION has only one N.",
+      "as": "'NATION' ৰ বাবে দুটা N লাগে, কিন্তু EDUCATION ত এটা মাত্ৰ N আছে।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-032",
+    "q": {
+      "en": "Which of the following words cannot be formed from the letters of the word 'IMPORTANT'?",
+      "as": "'IMPORTANT' শব্দটোৰ আখৰবোৰৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব নোৱাৰি?"
+    },
+    "options": [
+      {
+        "en": "PART",
+        "as": "PART"
+      },
+      {
+        "en": "IMPORT",
+        "as": "IMPORT"
+      },
+      {
+        "en": "TRAIN",
+        "as": "TRAIN"
+      },
+      {
+        "en": "TOMATO",
+        "as": "TOMATO"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "'TOMATO' needs two O's, but IMPORTANT has only one O.",
+      "as": "'TOMATO' ৰ বাবে দুটা O লাগে, কিন্তু IMPORTANT ত এটা মাত্ৰ O আছে।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-033",
+    "q": {
+      "en": "Which of the following words cannot be formed from the letters of the word 'STRAIGHT'?",
+      "as": "'STRAIGHT' শব্দটোৰ আখৰবোৰৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব নোৱাৰি?"
+    },
+    "options": [
+      {
+        "en": "STRAP",
+        "as": "STRAP"
+      },
+      {
+        "en": "TIGHT",
+        "as": "TIGHT"
+      },
+      {
+        "en": "GIRTH",
+        "as": "GIRTH"
+      },
+      {
+        "en": "TRAIT",
+        "as": "TRAIT"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "'STRAP' needs the letter P, which is not present in STRAIGHT.",
+      "as": "'STRAP' ৰ বাবে P আখৰ লাগে, যিটো STRAIGHT ত নাই।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-034",
+    "q": {
+      "en": "Which of the following words cannot be formed from the letters of the word 'BEAUTIFUL'?",
+      "as": "'BEAUTIFUL' শব্দটোৰ আখৰবোৰৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব নোৱাৰি?"
+    },
+    "options": [
+      {
+        "en": "TABLE",
+        "as": "TABLE"
+      },
+      {
+        "en": "BEAUTY",
+        "as": "BEAUTY"
+      },
+      {
+        "en": "FAULT",
+        "as": "FAULT"
+      },
+      {
+        "en": "TUBE",
+        "as": "TUBE"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'BEAUTY' needs the letter Y, which is not present in BEAUTIFUL.",
+      "as": "'BEAUTY' ৰ বাবে Y আখৰ লাগে, যিটো BEAUTIFUL ত নাই।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-035",
+    "q": {
+      "en": "Which of the following words cannot be formed from the letters of the word 'MANAGEMENT'?",
+      "as": "'MANAGEMENT' শব্দটোৰ আখৰবোৰৰ পৰা তলৰ কোনটো শব্দ গঠন কৰিব নোৱাৰি?"
+    },
+    "options": [
+      {
+        "en": "MANAGE",
+        "as": "MANAGE"
+      },
+      {
+        "en": "AGENT",
+        "as": "AGENT"
+      },
+      {
+        "en": "TANGENT",
+        "as": "TANGENT"
+      },
+      {
+        "en": "MEAN",
+        "as": "MEAN"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'TANGENT' needs two T's, but MANAGEMENT has only one T.",
+      "as": "'TANGENT' ৰ বাবে দুটা T লাগে, কিন্তু MANAGEMENT ত এটা মাত্ৰ T আছে।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-036",
+    "q": {
+      "en": "Choose the correctly spelt word.",
+      "as": "শুদ্ধ বানানৰ শব্দটো বাছনি কৰা।"
+    },
+    "options": [
+      {
+        "en": "Ocassion",
+        "as": "Ocassion"
+      },
+      {
+        "en": "Occassion",
+        "as": "Occassion"
+      },
+      {
+        "en": "Ocasion",
+        "as": "Ocasion"
+      },
+      {
+        "en": "Occasion",
+        "as": "Occasion"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct spelling is 'Occasion'.",
+      "as": "শুদ্ধ বানান হ'ল 'Occasion'।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-037",
+    "q": {
+      "en": "Choose the correctly spelt word.",
+      "as": "শুদ্ধ বানানৰ শব্দটো বাছনি কৰা।"
+    },
+    "options": [
+      {
+        "en": "Accommodation",
+        "as": "Accommodation"
+      },
+      {
+        "en": "Accomodation",
+        "as": "Accomodation"
+      },
+      {
+        "en": "Acommodation",
+        "as": "Acommodation"
+      },
+      {
+        "en": "Accommadation",
+        "as": "Accommadation"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct spelling is 'Accommodation'.",
+      "as": "শুদ্ধ বানান হ'ল 'Accommodation'।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-038",
+    "q": {
+      "en": "Choose the correctly spelt word.",
+      "as": "শুদ্ধ বানানৰ শব্দটো বাছনি কৰা।"
+    },
+    "options": [
+      {
+        "en": "Definetely",
+        "as": "Definetely"
+      },
+      {
+        "en": "Definitely",
+        "as": "Definitely"
+      },
+      {
+        "en": "Definitly",
+        "as": "Definitly"
+      },
+      {
+        "en": "Defenitely",
+        "as": "Defenitely"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The correct spelling is 'Definitely'.",
+      "as": "শুদ্ধ বানান হ'ল 'Definitely'।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-039",
+    "q": {
+      "en": "Choose the correctly spelt word.",
+      "as": "শুদ্ধ বানানৰ শব্দটো বাছনি কৰা।"
+    },
+    "options": [
+      {
+        "en": "Seperate",
+        "as": "Seperate"
+      },
+      {
+        "en": "Seperete",
+        "as": "Seperete"
+      },
+      {
+        "en": "Separate",
+        "as": "Separate"
+      },
+      {
+        "en": "Separete",
+        "as": "Separete"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The correct spelling is 'Separate'.",
+      "as": "শুদ্ধ বানান হ'ল 'Separate'।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-040",
+    "q": {
+      "en": "Choose the correctly spelt word.",
+      "as": "শুদ্ধ বানানৰ শব্দটো বাছনি কৰা।"
+    },
+    "options": [
+      {
+        "en": "Commitee",
+        "as": "Commitee"
+      },
+      {
+        "en": "Comittee",
+        "as": "Comittee"
+      },
+      {
+        "en": "Committe",
+        "as": "Committe"
+      },
+      {
+        "en": "Committee",
+        "as": "Committee"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The correct spelling is 'Committee'.",
+      "as": "শুদ্ধ বানান হ'ল 'Committee'।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-041",
+    "q": {
+      "en": "Choose the correctly spelt word.",
+      "as": "শুদ্ধ বানানৰ শব্দটো বাছনি কৰা।"
+    },
+    "options": [
+      {
+        "en": "Business",
+        "as": "Business"
+      },
+      {
+        "en": "Buisness",
+        "as": "Buisness"
+      },
+      {
+        "en": "Bussiness",
+        "as": "Bussiness"
+      },
+      {
+        "en": "Busines",
+        "as": "Busines"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The correct spelling is 'Business'.",
+      "as": "শুদ্ধ বানান হ'ল 'Business'।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-042",
+    "q": {
+      "en": "How many meaningful English words can be formed using the letters T, A, E (each letter once)?",
+      "as": "আখৰ T, A, E ব্যৱহাৰ কৰি (প্ৰতিটো আখৰ এবাৰ) কিমানটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The words are ATE, EAT, TEA, so there are 3 words.",
+      "as": "শব্দবোৰ হ'ল ATE, EAT, TEA, সেয়ে মুঠ ৩ টা শব্দ।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-043",
+    "q": {
+      "en": "How many meaningful English words can be formed using the letters O, N, W (each letter once)?",
+      "as": "আখৰ O, N, W ব্যৱহাৰ কৰি (প্ৰতিটো আখৰ এবাৰ) কিমানটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The words are NOW, OWN, WON, so there are 3 words.",
+      "as": "শব্দবোৰ হ'ল NOW, OWN, WON, সেয়ে মুঠ ৩ টা শব্দ।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-044",
+    "q": {
+      "en": "How many meaningful English words can be formed using the letters A, R, T (each letter once)?",
+      "as": "আখৰ A, R, T ব্যৱহাৰ কৰি (প্ৰতিটো আখৰ এবাৰ) কিমানটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The words are ART, RAT, TAR, so there are 3 words.",
+      "as": "শব্দবোৰ হ'ল ART, RAT, TAR, সেয়ে মুঠ ৩ টা শব্দ।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-045",
+    "q": {
+      "en": "How many meaningful English words can be formed using the letters E, N, T (each letter once)?",
+      "as": "আখৰ E, N, T ব্যৱহাৰ কৰি (প্ৰতিটো আখৰ এবাৰ) কিমানটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The words are TEN, NET, so there are 2 words.",
+      "as": "শব্দবোৰ হ'ল TEN, NET, সেয়ে মুঠ ২ টা শব্দ।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-046",
+    "q": {
+      "en": "How many meaningful English words can be formed using the letters O, W, L (each letter once)?",
+      "as": "আখৰ O, W, L ব্যৱহাৰ কৰি (প্ৰতিটো আখৰ এবাৰ) কিমানটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The words are OWL, LOW, so there are 2 words.",
+      "as": "শব্দবোৰ হ'ল OWL, LOW, সেয়ে মুঠ ২ টা শব্দ।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-047",
+    "q": {
+      "en": "How many meaningful English words can be formed using the letters I, N, P (each letter once)?",
+      "as": "আখৰ I, N, P ব্যৱহাৰ কৰি (প্ৰতিটো আখৰ এবাৰ) কিমানটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The words are PIN, NIP, so there are 2 words.",
+      "as": "শব্দবোৰ হ'ল PIN, NIP, সেয়ে মুঠ ২ টা শব্দ।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-048",
+    "q": {
+      "en": "How many meaningful English words can be formed using the letters O, P, T (each letter once)?",
+      "as": "আখৰ O, P, T ব্যৱহাৰ কৰি (প্ৰতিটো আখৰ এবাৰ) কিমানটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The words are OPT, POT, TOP, so there are 3 words.",
+      "as": "শব্দবোৰ হ'ল OPT, POT, TOP, সেয়ে মুঠ ৩ টা শব্দ।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-049",
+    "q": {
+      "en": "How many meaningful English words can be formed using the letters A, P, T (each letter once)?",
+      "as": "আখৰ A, P, T ব্যৱহাৰ কৰি (প্ৰতিটো আখৰ এবাৰ) কিমানটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The words are APT, PAT, TAP, so there are 3 words.",
+      "as": "শব্দবোৰ হ'ল APT, PAT, TAP, সেয়ে মুঠ ৩ টা শব্দ।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-050",
+    "q": {
+      "en": "Arrange the letters of the word 'TIGER' in alphabetical order.",
+      "as": "'TIGER' শব্দটোৰ আখৰবোৰ বৰ্ণানুক্ৰমত সজোৱা।"
+    },
+    "options": [
+      {
+        "en": "G, E, I, R, T",
+        "as": "G, E, I, R, T"
+      },
+      {
+        "en": "E, G, I, R, T",
+        "as": "E, G, I, R, T"
+      },
+      {
+        "en": "E, I, G, R, T",
+        "as": "E, I, G, R, T"
+      },
+      {
+        "en": "E, G, R, I, T",
+        "as": "E, G, R, I, T"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The letters in alphabetical order are: E, G, I, R, T.",
+      "as": "বৰ্ণানুক্ৰমত আখৰবোৰ: E, G, I, R, T।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-051",
+    "q": {
+      "en": "Arrange the letters of the word 'PLANET' in alphabetical order.",
+      "as": "'PLANET' শব্দটোৰ আখৰবোৰ বৰ্ণানুক্ৰমত সজোৱা।"
+    },
+    "options": [
+      {
+        "en": "E, A, L, N, P, T",
+        "as": "E, A, L, N, P, T"
+      },
+      {
+        "en": "A, L, E, N, P, T",
+        "as": "A, L, E, N, P, T"
+      },
+      {
+        "en": "A, E, L, N, P, T",
+        "as": "A, E, L, N, P, T"
+      },
+      {
+        "en": "A, E, N, L, P, T",
+        "as": "A, E, N, L, P, T"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The letters in alphabetical order are: A, E, L, N, P, T.",
+      "as": "বৰ্ণানুক্ৰমত আখৰবোৰ: A, E, L, N, P, T।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-052",
+    "q": {
+      "en": "Arrange the letters of the word 'MARKET' in alphabetical order.",
+      "as": "'MARKET' শব্দটোৰ আখৰবোৰ বৰ্ণানুক্ৰমত সজোৱা।"
+    },
+    "options": [
+      {
+        "en": "E, A, K, M, R, T",
+        "as": "E, A, K, M, R, T"
+      },
+      {
+        "en": "A, K, E, M, R, T",
+        "as": "A, K, E, M, R, T"
+      },
+      {
+        "en": "A, E, M, K, R, T",
+        "as": "A, E, M, K, R, T"
+      },
+      {
+        "en": "A, E, K, M, R, T",
+        "as": "A, E, K, M, R, T"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The letters in alphabetical order are: A, E, K, M, R, T.",
+      "as": "বৰ্ণানুক্ৰমত আখৰবোৰ: A, E, K, M, R, T।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-053",
+    "q": {
+      "en": "Arrange the letters of the word 'COUNTRY' in alphabetical order.",
+      "as": "'COUNTRY' শব্দটোৰ আখৰবোৰ বৰ্ণানুক্ৰমত সজোৱা।"
+    },
+    "options": [
+      {
+        "en": "C, N, O, R, T, U, Y",
+        "as": "C, N, O, R, T, U, Y"
+      },
+      {
+        "en": "N, C, O, R, T, U, Y",
+        "as": "N, C, O, R, T, U, Y"
+      },
+      {
+        "en": "C, O, N, R, T, U, Y",
+        "as": "C, O, N, R, T, U, Y"
+      },
+      {
+        "en": "C, N, R, O, T, U, Y",
+        "as": "C, N, R, O, T, U, Y"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The letters in alphabetical order are: C, N, O, R, T, U, Y.",
+      "as": "বৰ্ণানুক্ৰমত আখৰবোৰ: C, N, O, R, T, U, Y।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-054",
+    "q": {
+      "en": "Arrange the letters of the word 'FRIEND' in alphabetical order.",
+      "as": "'FRIEND' শব্দটোৰ আখৰবোৰ বৰ্ণানুক্ৰমত সজোৱা।"
+    },
+    "options": [
+      {
+        "en": "E, D, F, I, N, R",
+        "as": "E, D, F, I, N, R"
+      },
+      {
+        "en": "D, E, F, I, N, R",
+        "as": "D, E, F, I, N, R"
+      },
+      {
+        "en": "D, F, E, I, N, R",
+        "as": "D, F, E, I, N, R"
+      },
+      {
+        "en": "D, E, I, F, N, R",
+        "as": "D, E, I, F, N, R"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The letters in alphabetical order are: D, E, F, I, N, R.",
+      "as": "বৰ্ণানুক্ৰমত আখৰবোৰ: D, E, F, I, N, R।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-055",
+    "q": {
+      "en": "In the word 'CHAIR', if the letters are arranged in alphabetical order, which letter will be in the 3rd position?",
+      "as": "'CHAIR' শব্দটোৰ আখৰবোৰ বৰ্ণানুক্ৰমত সজালে ৩য় স্থানত কোনটো আখৰ থাকিব?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "H",
+        "as": "H"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Alphabetical order is A, C, H, I, R; the 3rd letter is H.",
+      "as": "বৰ্ণানুক্ৰম A, C, H, I, R; ৩য় আখৰ H।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-056",
+    "q": {
+      "en": "In the word 'WORLD', if the letters are arranged in alphabetical order, which letter will be in the 3rd position?",
+      "as": "'WORLD' শব্দটোৰ আখৰবোৰ বৰ্ণানুক্ৰমত সজালে ৩য় স্থানত কোনটো আখৰ থাকিব?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Alphabetical order is D, L, O, R, W; the 3rd letter is O.",
+      "as": "বৰ্ণানুক্ৰম D, L, O, R, W; ৩য় আখৰ O।"
+    }
+  },
+  {
+    "id": "word-formation-dictionary-057",
+    "q": {
+      "en": "In the word 'TABLE', if the letters are arranged in alphabetical order, which letter will be in the 4th position?",
+      "as": "'TABLE' শব্দটোৰ আখৰবোৰ বৰ্ণানুক্ৰমত সজালে ৪ৰ্থ স্থানত কোনটো আখৰ থাকিব?"
+    },
+    "options": [
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Alphabetical order is A, B, E, L, T; the 4th letter is L.",
+      "as": "বৰ্ণানুক্ৰম A, B, E, L, T; ৪ৰ্থ আখৰ L।"
+    }
   }
-}
+]
