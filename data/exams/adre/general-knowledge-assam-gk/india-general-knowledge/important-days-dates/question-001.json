@@ -1,30 +1,5102 @@
-{
-  "id": "important-days-dates-001",
-  "q": {
-    "en": "Republic Day is celebrated in India on —",
-    "as": "ভাৰতত গণৰাজ্য দিৱস কেতিয়া পালন কৰা হয় —"
-  },
-  "options": [
-    {
-      "en": "15 August",
-      "as": "১৫ আগষ্ট"
+[
+  {
+    "id": "important-days-dates-001",
+    "q": {
+      "en": "Republic Day is celebrated in India on —",
+      "as": "ভাৰতত গণৰাজ্য দিৱস কেতিয়া পালন কৰা হয় —"
     },
-    {
-      "en": "26 January",
-      "as": "২৬ জানুৱাৰী"
-    },
-    {
-      "en": "2 October",
-      "as": "২ অক্টোবৰ"
-    },
-    {
-      "en": "14 November",
-      "as": "১৪ নৱেম্বৰ"
+    "options": [
+      {
+        "en": "2 October",
+        "as": "২ অক্টোবৰ"
+      },
+      {
+        "en": "14 November",
+        "as": "১৪ নৱেম্বৰ"
+      },
+      {
+        "en": "15 August",
+        "as": "১৫ আগষ্ট"
+      },
+      {
+        "en": "26 January",
+        "as": "২৬ জানুৱাৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Republic Day is celebrated on 26 January every year.",
+      "as": "প্ৰতি বছৰে ২৬ জানুৱাৰীত গণৰাজ্য দিৱস পালন কৰা হয়।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "Republic Day is celebrated on 26 January every year.",
-    "as": "প্ৰতি বছৰে 26 জানুৱাৰীত গণৰাজ্য দিৱস পালন কৰা হয়।"
+  },
+  {
+    "id": "important-days-dates-002",
+    "q": {
+      "en": "Independence Day of India is celebrated on —",
+      "as": "ভাৰতৰ স্বাধীনতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "26 January",
+        "as": "২৬ জানুৱাৰী"
+      },
+      {
+        "en": "15 July",
+        "as": "১৫ জুলাই"
+      },
+      {
+        "en": "14 August",
+        "as": "১৪ আগষ্ট"
+      },
+      {
+        "en": "15 August",
+        "as": "১৫ আগষ্ট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "India got independence on 15 August 1947.",
+      "as": "১৯৪৭ চনৰ ১৫ আগষ্টত ভাৰতে স্বাধীনতা লাভ কৰে।"
+    }
+  },
+  {
+    "id": "important-days-dates-003",
+    "q": {
+      "en": "Gandhi Jayanti is observed on —",
+      "as": "গান্ধী জয়ন্তী কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "14 November",
+        "as": "১৪ নৱেম্বৰ"
+      },
+      {
+        "en": "15 August",
+        "as": "১৫ আগষ্ট"
+      },
+      {
+        "en": "30 January",
+        "as": "৩০ জানুৱাৰী"
+      },
+      {
+        "en": "2 October",
+        "as": "২ অক্টোবৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Gandhi Jayanti marks the birthday of Mahatma Gandhi on 2 October.",
+      "as": "২ অক্টোবৰত মহাত্মা গান্ধীৰ জন্মদিন গান্ধী জয়ন্তী হিচাপে পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-004",
+    "q": {
+      "en": "Children's Day in India is celebrated on —",
+      "as": "ভাৰতত শিশু দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "14 January",
+        "as": "১৪ জানুৱাৰী"
+      },
+      {
+        "en": "14 September",
+        "as": "১৪ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "14 November",
+        "as": "১৪ নৱেম্বৰ"
+      },
+      {
+        "en": "14 December",
+        "as": "১৪ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Children's Day is celebrated on 14 November, the birthday of Jawaharlal Nehru.",
+      "as": "জৱাহৰলাল নেহৰুৰ জন্মদিন ১৪ নৱেম্বৰত শিশু দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-005",
+    "q": {
+      "en": "Teachers' Day in India is celebrated on —",
+      "as": "ভাৰতত শিক্ষক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "5 June",
+        "as": "৫ জুন"
+      },
+      {
+        "en": "5 September",
+        "as": "৫ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "5 October",
+        "as": "৫ অক্টোবৰ"
+      },
+      {
+        "en": "15 September",
+        "as": "১৫ ছেপ্তেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Teachers' Day is celebrated on 5 September, the birthday of Dr. S. Radhakrishnan.",
+      "as": "ড° এছ. ৰাধাকৃষ্ণনৰ জন্মদিন ৫ ছেপ্তেম্বৰত শিক্ষক দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-006",
+    "q": {
+      "en": "International Labour Day is observed on —",
+      "as": "আন্তৰ্জাতিক শ্ৰমিক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "1 June",
+        "as": "১ জুন"
+      },
+      {
+        "en": "1 March",
+        "as": "১ মাৰ্চ"
+      },
+      {
+        "en": "1 April",
+        "as": "১ এপ্ৰিল"
+      },
+      {
+        "en": "1 May",
+        "as": "১ মে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "International Labour Day is observed on 1 May.",
+      "as": "১ মেত আন্তৰ্জাতিক শ্ৰমিক দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-007",
+    "q": {
+      "en": "World Environment Day is observed on —",
+      "as": "বিশ্ব পৰিৱেশ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "5 May",
+        "as": "৫ মে"
+      },
+      {
+        "en": "5 April",
+        "as": "৫ এপ্ৰিল"
+      },
+      {
+        "en": "5 June",
+        "as": "৫ জুন"
+      },
+      {
+        "en": "5 July",
+        "as": "৫ জুলাই"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Environment Day is observed on 5 June every year.",
+      "as": "প্ৰতি বছৰে ৫ জুনত বিশ্ব পৰিৱেশ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-008",
+    "q": {
+      "en": "International Women's Day is observed on —",
+      "as": "আন্তৰ্জাতিক নাৰী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "8 February",
+        "as": "৮ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "8 April",
+        "as": "৮ এপ্ৰিল"
+      },
+      {
+        "en": "8 March",
+        "as": "৮ মাৰ্চ"
+      },
+      {
+        "en": "8 May",
+        "as": "৮ মে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "International Women's Day is observed on 8 March.",
+      "as": "৮ মাৰ্চত আন্তৰ্জাতিক নাৰী দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-009",
+    "q": {
+      "en": "World Health Day is observed on —",
+      "as": "বিশ্ব স্বাস্থ্য দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "7 May",
+        "as": "৭ মে"
+      },
+      {
+        "en": "7 June",
+        "as": "৭ জুন"
+      },
+      {
+        "en": "7 April",
+        "as": "৭ এপ্ৰিল"
+      },
+      {
+        "en": "7 March",
+        "as": "৭ মাৰ্চ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Health Day is observed on 7 April, the founding day of WHO.",
+      "as": "ডব্লিউ এইচ অ' প্ৰতিষ্ঠাৰ দিন ৭ এপ্ৰিলত বিশ্ব স্বাস্থ্য দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-010",
+    "q": {
+      "en": "Human Rights Day is observed on —",
+      "as": "মানৱ অধিকাৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "10 November",
+        "as": "১০ নৱেম্বৰ"
+      },
+      {
+        "en": "10 January",
+        "as": "১০ জানুৱাৰী"
+      },
+      {
+        "en": "10 October",
+        "as": "১০ অক্টোবৰ"
+      },
+      {
+        "en": "10 December",
+        "as": "১০ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Human Rights Day is observed on 10 December.",
+      "as": "১০ ডিচেম্বৰত মানৱ অধিকাৰ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-011",
+    "q": {
+      "en": "World AIDS Day is observed on —",
+      "as": "বিশ্ব এইডছ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "1 January",
+        "as": "১ জানুৱাৰী"
+      },
+      {
+        "en": "1 February",
+        "as": "১ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "1 November",
+        "as": "১ নৱেম্বৰ"
+      },
+      {
+        "en": "1 December",
+        "as": "১ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World AIDS Day is observed on 1 December.",
+      "as": "১ ডিচেম্বৰত বিশ্ব এইডছ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-012",
+    "q": {
+      "en": "International Yoga Day is observed on —",
+      "as": "আন্তৰ্জাতিক যোগ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "21 May",
+        "as": "২১ মে"
+      },
+      {
+        "en": "21 July",
+        "as": "২১ জুলাই"
+      },
+      {
+        "en": "21 June",
+        "as": "২১ জুন"
+      },
+      {
+        "en": "21 August",
+        "as": "২১ আগষ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "International Yoga Day is observed on 21 June.",
+      "as": "২১ জুনত আন্তৰ্জাতিক যোগ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-013",
+    "q": {
+      "en": "National Sports Day of India is observed on —",
+      "as": "ভাৰতৰ ৰাষ্ট্ৰীয় ক্ৰীড়া দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "29 July",
+        "as": "২৯ জুলাই"
+      },
+      {
+        "en": "29 September",
+        "as": "২৯ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "29 June",
+        "as": "২৯ জুন"
+      },
+      {
+        "en": "29 August",
+        "as": "২৯ আগষ্ট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "National Sports Day is observed on 29 August, the birthday of Major Dhyan Chand.",
+      "as": "মেজৰ ধ্যানচান্দৰ জন্মদিন ২৯ আগষ্টত ৰাষ্ট্ৰীয় ক্ৰীড়া দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-014",
+    "q": {
+      "en": "National Science Day is observed on —",
+      "as": "ৰাষ্ট্ৰীয় বিজ্ঞান দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "28 April",
+        "as": "২৮ এপ্ৰিল"
+      },
+      {
+        "en": "28 January",
+        "as": "২৮ জানুৱাৰী"
+      },
+      {
+        "en": "28 February",
+        "as": "২৮ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "28 March",
+        "as": "২৮ মাৰ্চ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "National Science Day is observed on 28 February to mark the discovery of the Raman Effect.",
+      "as": "ৰমন প্ৰভাৱ আৱিষ্কাৰৰ স্মৃতিত ২৮ ফেব্ৰুৱাৰীত ৰাষ্ট্ৰীয় বিজ্ঞান দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-015",
+    "q": {
+      "en": "World Water Day is observed on —",
+      "as": "বিশ্ব জল দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "22 April",
+        "as": "২২ এপ্ৰিল"
+      },
+      {
+        "en": "22 May",
+        "as": "২২ মে"
+      },
+      {
+        "en": "22 June",
+        "as": "২২ জুন"
+      },
+      {
+        "en": "22 March",
+        "as": "২২ মাৰ্চ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Water Day is observed on 22 March.",
+      "as": "২২ মাৰ্চত বিশ্ব জল দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-016",
+    "q": {
+      "en": "World Population Day is observed on —",
+      "as": "বিশ্ব জনসংখ্যা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "11 September",
+        "as": "১১ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "11 June",
+        "as": "১১ জুন"
+      },
+      {
+        "en": "11 July",
+        "as": "১১ জুলাই"
+      },
+      {
+        "en": "11 August",
+        "as": "১১ আগষ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Population Day is observed on 11 July.",
+      "as": "১১ জুলাইত বিশ্ব জনসংখ্যা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-017",
+    "q": {
+      "en": "National Voters' Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় ভোটাৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "25 January",
+        "as": "২৫ জানুৱাৰী"
+      },
+      {
+        "en": "25 February",
+        "as": "২৫ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "15 January",
+        "as": "১৫ জানুৱাৰী"
+      },
+      {
+        "en": "25 March",
+        "as": "২৫ মাৰ্চ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "National Voters' Day is observed on 25 January every year.",
+      "as": "প্ৰতি বছৰে ২৫ জানুৱাৰীত ৰাষ্ট্ৰীয় ভোটাৰ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-018",
+    "q": {
+      "en": "Indian Army Day is observed on —",
+      "as": "ভাৰতীয় সেনা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "15 February",
+        "as": "১৫ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "15 March",
+        "as": "১৫ মাৰ্চ"
+      },
+      {
+        "en": "15 April",
+        "as": "১৫ এপ্ৰিল"
+      },
+      {
+        "en": "15 January",
+        "as": "১৫ জানুৱাৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Indian Army Day is observed on 15 January.",
+      "as": "১৫ জানুৱাৰীত ভাৰতীয় সেনা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-019",
+    "q": {
+      "en": "Indian Navy Day is observed on —",
+      "as": "ভাৰতীয় নৌসেনা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "4 November",
+        "as": "৪ নৱেম্বৰ"
+      },
+      {
+        "en": "4 December",
+        "as": "৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "4 January",
+        "as": "৪ জানুৱাৰী"
+      },
+      {
+        "en": "4 February",
+        "as": "৪ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Indian Navy Day is observed on 4 December.",
+      "as": "৪ ডিচেম্বৰত ভাৰতীয় নৌসেনা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-020",
+    "q": {
+      "en": "Indian Air Force Day is observed on —",
+      "as": "ভাৰতীয় বায়ুসেনা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "8 December",
+        "as": "৮ ডিচেম্বৰ"
+      },
+      {
+        "en": "8 September",
+        "as": "৮ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "8 November",
+        "as": "৮ নৱেম্বৰ"
+      },
+      {
+        "en": "8 October",
+        "as": "৮ অক্টোবৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Indian Air Force Day is observed on 8 October.",
+      "as": "৮ অক্টোবৰত ভাৰতীয় বায়ুসেনা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-021",
+    "q": {
+      "en": "Kargil Vijay Diwas is observed on —",
+      "as": "কাৰ্গিল বিজয় দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "26 May",
+        "as": "২৬ মে"
+      },
+      {
+        "en": "26 June",
+        "as": "২৬ জুন"
+      },
+      {
+        "en": "26 August",
+        "as": "২৬ আগষ্ট"
+      },
+      {
+        "en": "26 July",
+        "as": "২৬ জুলাই"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Kargil Vijay Diwas is observed on 26 July.",
+      "as": "২৬ জুলাইত কাৰ্গিল বিজয় দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-022",
+    "q": {
+      "en": "Vijay Diwas, marking India's victory in the 1971 war, is observed on —",
+      "as": "১৯৭১ চনৰ যুদ্ধত ভাৰতৰ বিজয়ৰ স্মৃতিত বিজয় দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "16 January",
+        "as": "১৬ জানুৱাৰী"
+      },
+      {
+        "en": "16 October",
+        "as": "১৬ অক্টোবৰ"
+      },
+      {
+        "en": "16 December",
+        "as": "১৬ ডিচেম্বৰ"
+      },
+      {
+        "en": "16 November",
+        "as": "১৬ নৱেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Vijay Diwas is observed on 16 December.",
+      "as": "১৬ ডিচেম্বৰত বিজয় দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-023",
+    "q": {
+      "en": "Police Commemoration Day is observed on —",
+      "as": "আৰক্ষী স্মৃতি দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "21 September",
+        "as": "২১ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "21 October",
+        "as": "২১ অক্টোবৰ"
+      },
+      {
+        "en": "21 November",
+        "as": "২১ নৱেম্বৰ"
+      },
+      {
+        "en": "21 December",
+        "as": "২১ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Police Commemoration Day is observed on 21 October.",
+      "as": "২১ অক্টোবৰত আৰক্ষী স্মৃতি দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-024",
+    "q": {
+      "en": "National Unity Day (Rashtriya Ekta Diwas) is observed on —",
+      "as": "ৰাষ্ট্ৰীয় একতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "31 August",
+        "as": "৩১ আগষ্ট"
+      },
+      {
+        "en": "31 December",
+        "as": "৩১ ডিচেম্বৰ"
+      },
+      {
+        "en": "31 July",
+        "as": "৩১ জুলাই"
+      },
+      {
+        "en": "31 October",
+        "as": "৩১ অক্টোবৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "National Unity Day is observed on 31 October, the birthday of Sardar Vallabhbhai Patel.",
+      "as": "চৰ্দাৰ বল্লভভাই পেটেলৰ জন্মদিন ৩১ অক্টোবৰত ৰাষ্ট্ৰীয় একতা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-025",
+    "q": {
+      "en": "Constitution Day of India is observed on —",
+      "as": "ভাৰতৰ সংবিধান দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "26 January",
+        "as": "২৬ জানুৱাৰী"
+      },
+      {
+        "en": "26 November",
+        "as": "২৬ নৱেম্বৰ"
+      },
+      {
+        "en": "26 December",
+        "as": "২৬ ডিচেম্বৰ"
+      },
+      {
+        "en": "26 October",
+        "as": "২৬ অক্টোবৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Constitution Day is observed on 26 November, when the Constitution was adopted in 1949.",
+      "as": "১৯৪৯ চনৰ ২৬ নৱেম্বৰত সংবিধান গৃহীত হৈছিল, সেই দিনা সংবিধান দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-026",
+    "q": {
+      "en": "World Cancer Day is observed on —",
+      "as": "বিশ্ব কৰ্কট ৰোগ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "4 January",
+        "as": "৪ জানুৱাৰী"
+      },
+      {
+        "en": "4 February",
+        "as": "৪ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "4 March",
+        "as": "৪ মাৰ্চ"
+      },
+      {
+        "en": "4 April",
+        "as": "৪ এপ্ৰিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Cancer Day is observed on 4 February.",
+      "as": "৪ ফেব্ৰুৱাৰীত বিশ্ব কৰ্কট ৰোগ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-027",
+    "q": {
+      "en": "World Autism Awareness Day is observed on —",
+      "as": "বিশ্ব অটিজম সজাগতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "2 March",
+        "as": "২ মাৰ্চ"
+      },
+      {
+        "en": "2 April",
+        "as": "২ এপ্ৰিল"
+      },
+      {
+        "en": "2 May",
+        "as": "২ মে"
+      },
+      {
+        "en": "2 June",
+        "as": "২ জুন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Autism Awareness Day is observed on 2 April.",
+      "as": "২ এপ্ৰিলত বিশ্ব অটিজম সজাগতা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-028",
+    "q": {
+      "en": "World Red Cross Day is observed on —",
+      "as": "বিশ্ব ৰেড ক্ৰছ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "8 April",
+        "as": "৮ এপ্ৰিল"
+      },
+      {
+        "en": "8 June",
+        "as": "৮ জুন"
+      },
+      {
+        "en": "8 May",
+        "as": "৮ মে"
+      },
+      {
+        "en": "8 July",
+        "as": "৮ জুলাই"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Red Cross Day is observed on 8 May.",
+      "as": "৮ মেত বিশ্ব ৰেড ক্ৰছ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-029",
+    "q": {
+      "en": "International Nurses Day is observed on —",
+      "as": "আন্তৰ্জাতিক নাৰ্ছ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "12 June",
+        "as": "১২ জুন"
+      },
+      {
+        "en": "12 May",
+        "as": "১২ মে"
+      },
+      {
+        "en": "12 March",
+        "as": "১২ মাৰ্চ"
+      },
+      {
+        "en": "12 April",
+        "as": "১২ এপ্ৰিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "International Nurses Day is observed on 12 May, the birthday of Florence Nightingale.",
+      "as": "ফ্লৰেন্স নাইটিংগেলৰ জন্মদিন ১২ মেত আন্তৰ্জাতিক নাৰ্ছ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-030",
+    "q": {
+      "en": "World No Tobacco Day is observed on —",
+      "as": "বিশ্ব ধূঁৱাবিহীন দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "31 May",
+        "as": "৩১ মে"
+      },
+      {
+        "en": "31 June",
+        "as": "৩১ জুন"
+      },
+      {
+        "en": "31 July",
+        "as": "৩১ জুলাই"
+      },
+      {
+        "en": "31 April",
+        "as": "৩১ এপ্ৰিল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World No Tobacco Day is observed on 31 May.",
+      "as": "৩১ মেত বিশ্ব ধূঁৱাবিহীন দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-031",
+    "q": {
+      "en": "World Blood Donor Day is observed on —",
+      "as": "বিশ্ব ৰক্তদাতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "14 July",
+        "as": "১৪ জুলাই"
+      },
+      {
+        "en": "14 August",
+        "as": "১৪ আগষ্ট"
+      },
+      {
+        "en": "14 May",
+        "as": "১৪ মে"
+      },
+      {
+        "en": "14 June",
+        "as": "১৪ জুন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Blood Donor Day is observed on 14 June.",
+      "as": "১৪ জুনত বিশ্ব ৰক্তদাতা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-032",
+    "q": {
+      "en": "World Nature Conservation Day is observed on —",
+      "as": "বিশ্ব প্ৰকৃতি সংৰক্ষণ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "28 May",
+        "as": "২৮ মে"
+      },
+      {
+        "en": "28 June",
+        "as": "২৮ জুন"
+      },
+      {
+        "en": "28 July",
+        "as": "২৮ জুলাই"
+      },
+      {
+        "en": "28 August",
+        "as": "২৮ আগষ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Nature Conservation Day is observed on 28 July.",
+      "as": "২৮ জুলাইত বিশ্ব প্ৰকৃতি সংৰক্ষণ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-033",
+    "q": {
+      "en": "International Day of the World's Indigenous Peoples is observed on —",
+      "as": "বিশ্বৰ খিলঞ্জীয়া জনগোষ্ঠীৰ আন্তৰ্জাতিক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "9 August",
+        "as": "৯ আগষ্ট"
+      },
+      {
+        "en": "9 September",
+        "as": "৯ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "9 June",
+        "as": "৯ জুন"
+      },
+      {
+        "en": "9 July",
+        "as": "৯ জুলাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "International Day of the World's Indigenous Peoples is observed on 9 August.",
+      "as": "৯ আগষ্টত বিশ্বৰ খিলঞ্জীয়া জনগোষ্ঠীৰ আন্তৰ্জাতিক দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-034",
+    "q": {
+      "en": "World Photography Day is observed on —",
+      "as": "বিশ্ব ফটোগ্ৰাফী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "19 October",
+        "as": "১৯ অক্টোবৰ"
+      },
+      {
+        "en": "19 July",
+        "as": "১৯ জুলাই"
+      },
+      {
+        "en": "19 August",
+        "as": "১৯ আগষ্ট"
+      },
+      {
+        "en": "19 September",
+        "as": "১৯ ছেপ্তেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Photography Day is observed on 19 August.",
+      "as": "১৯ আগষ্টত বিশ্ব ফটোগ্ৰাফী দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-035",
+    "q": {
+      "en": "World Ozone Day is observed on —",
+      "as": "বিশ্ব ওজোন দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "16 July",
+        "as": "১৬ জুলাই"
+      },
+      {
+        "en": "16 September",
+        "as": "১৬ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "16 August",
+        "as": "১৬ আগষ্ট"
+      },
+      {
+        "en": "16 October",
+        "as": "১৬ অক্টোবৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Ozone Day is observed on 16 September.",
+      "as": "১৬ ছেপ্তেম্বৰত বিশ্ব ওজোন দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-036",
+    "q": {
+      "en": "World Heart Day is observed on —",
+      "as": "বিশ্ব হৃদয় দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "29 August",
+        "as": "২৯ আগষ্ট"
+      },
+      {
+        "en": "29 September",
+        "as": "২৯ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "29 October",
+        "as": "২৯ অক্টোবৰ"
+      },
+      {
+        "en": "29 July",
+        "as": "২৯ জুলাই"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Heart Day is observed on 29 September.",
+      "as": "২৯ ছেপ্তেম্বৰত বিশ্ব হৃদয় দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-037",
+    "q": {
+      "en": "World Animal Day is observed on —",
+      "as": "বিশ্ব প্ৰাণী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "4 November",
+        "as": "৪ নৱেম্বৰ"
+      },
+      {
+        "en": "4 August",
+        "as": "৪ আগষ্ট"
+      },
+      {
+        "en": "4 September",
+        "as": "৪ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "4 October",
+        "as": "৪ অক্টোবৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Animal Day is observed on 4 October.",
+      "as": "৪ অক্টোবৰত বিশ্ব প্ৰাণী দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-038",
+    "q": {
+      "en": "World Mental Health Day is observed on —",
+      "as": "বিশ্ব মানসিক স্বাস্থ্য দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "10 November",
+        "as": "১০ নৱেম্বৰ"
+      },
+      {
+        "en": "10 August",
+        "as": "১০ আগষ্ট"
+      },
+      {
+        "en": "10 September",
+        "as": "১০ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "10 October",
+        "as": "১০ অক্টোবৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Mental Health Day is observed on 10 October.",
+      "as": "১০ অক্টোবৰত বিশ্ব মানসিক স্বাস্থ্য দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-039",
+    "q": {
+      "en": "World Food Day is observed on —",
+      "as": "বিশ্ব খাদ্য দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "16 September",
+        "as": "১৬ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "16 October",
+        "as": "১৬ অক্টোবৰ"
+      },
+      {
+        "en": "16 November",
+        "as": "১৬ নৱেম্বৰ"
+      },
+      {
+        "en": "16 August",
+        "as": "১৬ আগষ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Food Day is observed on 16 October.",
+      "as": "১৬ অক্টোবৰত বিশ্ব খাদ্য দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-040",
+    "q": {
+      "en": "World Diabetes Day is observed on —",
+      "as": "বিশ্ব মধুমেহ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "14 October",
+        "as": "১৪ অক্টোবৰ"
+      },
+      {
+        "en": "14 November",
+        "as": "১৪ নৱেম্বৰ"
+      },
+      {
+        "en": "14 December",
+        "as": "১৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "14 September",
+        "as": "১৪ ছেপ্তেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Diabetes Day is observed on 14 November.",
+      "as": "১৪ নৱেম্বৰত বিশ্ব মধুমেহ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-041",
+    "q": {
+      "en": "World Toilet Day is observed on —",
+      "as": "বিশ্ব শৌচালয় দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "19 November",
+        "as": "১৯ নৱেম্বৰ"
+      },
+      {
+        "en": "19 December",
+        "as": "১৯ ডিচেম্বৰ"
+      },
+      {
+        "en": "19 September",
+        "as": "১৯ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "19 October",
+        "as": "১৯ অক্টোবৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Toilet Day is observed on 19 November.",
+      "as": "১৯ নৱেম্বৰত বিশ্ব শৌচালয় দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-042",
+    "q": {
+      "en": "National Mathematics Day is observed on —",
+      "as": "ৰাষ্ট্ৰীয় গণিত দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "22 October",
+        "as": "২২ অক্টোবৰ"
+      },
+      {
+        "en": "22 December",
+        "as": "২২ ডিচেম্বৰ"
+      },
+      {
+        "en": "22 November",
+        "as": "২২ নৱেম্বৰ"
+      },
+      {
+        "en": "22 January",
+        "as": "২২ জানুৱাৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "National Mathematics Day is observed on 22 December, the birthday of Srinivasa Ramanujan.",
+      "as": "শ্ৰীনিবাস ৰামানুজনৰ জন্মদিন ২২ ডিচেম্বৰত ৰাষ্ট্ৰীয় গণিত দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-043",
+    "q": {
+      "en": "Good Governance Day is observed in India on —",
+      "as": "ভাৰতত সুশাসন দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "25 December",
+        "as": "২৫ ডিচেম্বৰ"
+      },
+      {
+        "en": "25 January",
+        "as": "২৫ জানুৱাৰী"
+      },
+      {
+        "en": "25 November",
+        "as": "২৫ নৱেম্বৰ"
+      },
+      {
+        "en": "25 October",
+        "as": "২৫ অক্টোবৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Good Governance Day is observed on 25 December, the birthday of Atal Bihari Vajpayee.",
+      "as": "অটল বিহাৰী বাজপেয়ীৰ জন্মদিন ২৫ ডিচেম্বৰত সুশাসন দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-044",
+    "q": {
+      "en": "World Braille Day is observed on —",
+      "as": "বিশ্ব ব্ৰেইল দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "4 March",
+        "as": "৪ মাৰ্চ"
+      },
+      {
+        "en": "4 April",
+        "as": "৪ এপ্ৰিল"
+      },
+      {
+        "en": "4 January",
+        "as": "৪ জানুৱাৰী"
+      },
+      {
+        "en": "4 February",
+        "as": "৪ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Braille Day is observed on 4 January.",
+      "as": "৪ জানুৱাৰীত বিশ্ব ব্ৰেইল দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-045",
+    "q": {
+      "en": "National Youth Day is observed in India on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় যুৱ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "12 December",
+        "as": "১২ ডিচেম্বৰ"
+      },
+      {
+        "en": "12 January",
+        "as": "১২ জানুৱাৰী"
+      },
+      {
+        "en": "12 February",
+        "as": "১২ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "12 November",
+        "as": "১২ নৱেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "National Youth Day is observed on 12 January, the birthday of Swami Vivekananda.",
+      "as": "স্বামী বিবেকানন্দৰ জন্মদিন ১২ জানুৱাৰীত ৰাষ্ট্ৰীয় যুৱ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-046",
+    "q": {
+      "en": "Parakram Diwas, the birth anniversary of Netaji Subhas Chandra Bose, is observed on —",
+      "as": "নেতাজী সুভাষ চন্দ্ৰ বসুৰ জন্মজয়ন্তী পৰাক্ৰম দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "23 January",
+        "as": "২৩ জানুৱাৰী"
+      },
+      {
+        "en": "23 February",
+        "as": "২৩ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "23 March",
+        "as": "২৩ মাৰ্চ"
+      },
+      {
+        "en": "23 April",
+        "as": "২৩ এপ্ৰিল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Parakram Diwas is observed on 23 January.",
+      "as": "২৩ জানুৱাৰীত পৰাক্ৰম দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-047",
+    "q": {
+      "en": "World Wildlife Day is observed on —",
+      "as": "বিশ্ব বন্যপ্ৰাণী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "3 April",
+        "as": "৩ এপ্ৰিল"
+      },
+      {
+        "en": "3 May",
+        "as": "৩ মে"
+      },
+      {
+        "en": "3 February",
+        "as": "৩ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "3 March",
+        "as": "৩ মাৰ্চ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Wildlife Day is observed on 3 March.",
+      "as": "৩ মাৰ্চত বিশ্ব বন্যপ্ৰাণী দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-048",
+    "q": {
+      "en": "World Forestry Day is observed on —",
+      "as": "বিশ্ব বন দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "21 February",
+        "as": "২১ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "21 March",
+        "as": "২১ মাৰ্চ"
+      },
+      {
+        "en": "21 April",
+        "as": "২১ এপ্ৰিল"
+      },
+      {
+        "en": "21 May",
+        "as": "২১ মে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Forestry Day is observed on 21 March.",
+      "as": "২১ মাৰ্চত বিশ্ব বন দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-049",
+    "q": {
+      "en": "World Meteorological Day is observed on —",
+      "as": "বিশ্ব বতৰ বিজ্ঞান দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "23 April",
+        "as": "২৩ এপ্ৰিল"
+      },
+      {
+        "en": "23 May",
+        "as": "২৩ মে"
+      },
+      {
+        "en": "23 February",
+        "as": "২৩ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "23 March",
+        "as": "২৩ মাৰ্চ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Meteorological Day is observed on 23 March.",
+      "as": "২৩ মাৰ্চত বিশ্ব বতৰ বিজ্ঞান দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-050",
+    "q": {
+      "en": "World Tuberculosis Day is observed on —",
+      "as": "বিশ্ব যক্ষ্মা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "24 February",
+        "as": "২৪ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "24 March",
+        "as": "২৪ মাৰ্চ"
+      },
+      {
+        "en": "24 April",
+        "as": "২৪ এপ্ৰিল"
+      },
+      {
+        "en": "24 May",
+        "as": "২৪ মে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Tuberculosis Day is observed on 24 March.",
+      "as": "২৪ মাৰ্চত বিশ্ব যক্ষ্মা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-051",
+    "q": {
+      "en": "Anti-Terrorism Day in India is observed on —",
+      "as": "ভাৰতত সন্ত্ৰাসবাদ বিৰোধী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "21 June",
+        "as": "২১ জুন"
+      },
+      {
+        "en": "21 July",
+        "as": "২১ জুলাই"
+      },
+      {
+        "en": "21 April",
+        "as": "২১ এপ্ৰিল"
+      },
+      {
+        "en": "21 May",
+        "as": "২১ মে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Anti-Terrorism Day is observed on 21 May, the death anniversary of Rajiv Gandhi.",
+      "as": "ৰাজীৱ গান্ধীৰ মৃত্যু দিৱস ২১ মেত সন্ত্ৰাসবাদ বিৰোধী দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-052",
+    "q": {
+      "en": "World Earth Day is observed on —",
+      "as": "বিশ্ব পৃথিৱী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "22 April",
+        "as": "২২ এপ্ৰিল"
+      },
+      {
+        "en": "22 May",
+        "as": "২২ মে"
+      },
+      {
+        "en": "22 June",
+        "as": "২২ জুন"
+      },
+      {
+        "en": "22 March",
+        "as": "২২ মাৰ্চ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Earth Day is observed on 22 April.",
+      "as": "২২ এপ্ৰিলত বিশ্ব পৃথিৱী দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-053",
+    "q": {
+      "en": "World Book and Copyright Day is observed on —",
+      "as": "বিশ্ব গ্ৰন্থ আৰু কপিৰাইট দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "23 April",
+        "as": "২৩ এপ্ৰিল"
+      },
+      {
+        "en": "23 May",
+        "as": "২৩ মে"
+      },
+      {
+        "en": "23 June",
+        "as": "২৩ জুন"
+      },
+      {
+        "en": "23 March",
+        "as": "২৩ মাৰ্চ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Book and Copyright Day is observed on 23 April.",
+      "as": "২৩ এপ্ৰিলত বিশ্ব গ্ৰন্থ আৰু কপিৰাইট দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-054",
+    "q": {
+      "en": "World Intellectual Property Day is observed on —",
+      "as": "বিশ্ব বৌদ্ধিক সম্পত্তি দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "26 April",
+        "as": "২৬ এপ্ৰিল"
+      },
+      {
+        "en": "26 May",
+        "as": "২৬ মে"
+      },
+      {
+        "en": "26 June",
+        "as": "২৬ জুন"
+      },
+      {
+        "en": "26 March",
+        "as": "২৬ মাৰ্চ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Intellectual Property Day is observed on 26 April.",
+      "as": "২৬ এপ্ৰিলত বিশ্ব বৌদ্ধিক সম্পত্তি দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-055",
+    "q": {
+      "en": "National Technology Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় প্ৰযুক্তি দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "11 April",
+        "as": "১১ এপ্ৰিল"
+      },
+      {
+        "en": "11 May",
+        "as": "১১ মে"
+      },
+      {
+        "en": "11 June",
+        "as": "১১ জুন"
+      },
+      {
+        "en": "11 July",
+        "as": "১১ জুলাই"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "National Technology Day is observed on 11 May, marking the Pokhran tests of 1998.",
+      "as": "১৯৯৮ চনৰ পোখৰান পৰীক্ষাৰ স্মৃতিত ১১ মেত ৰাষ্ট্ৰীয় প্ৰযুক্তি দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-056",
+    "q": {
+      "en": "World Telecommunication Day is observed on —",
+      "as": "বিশ্ব দূৰসংযোগ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "17 May",
+        "as": "১৭ মে"
+      },
+      {
+        "en": "17 June",
+        "as": "১৭ জুন"
+      },
+      {
+        "en": "17 July",
+        "as": "১৭ জুলাই"
+      },
+      {
+        "en": "17 April",
+        "as": "১৭ এপ্ৰিল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Telecommunication Day is observed on 17 May.",
+      "as": "১৭ মেত বিশ্ব দূৰসংযোগ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-057",
+    "q": {
+      "en": "International Museum Day is observed on —",
+      "as": "আন্তৰ্জাতিক সংগ্ৰহালয় দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "18 July",
+        "as": "১৮ জুলাই"
+      },
+      {
+        "en": "18 April",
+        "as": "১৮ এপ্ৰিল"
+      },
+      {
+        "en": "18 May",
+        "as": "১৮ মে"
+      },
+      {
+        "en": "18 June",
+        "as": "১৮ জুন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "International Museum Day is observed on 18 May.",
+      "as": "১৮ মেত আন্তৰ্জাতিক সংগ্ৰহালয় দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-058",
+    "q": {
+      "en": "International Day for Biological Diversity is observed on —",
+      "as": "আন্তৰ্জাতিক জৈৱ বৈচিত্ৰ্য দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "22 April",
+        "as": "২২ এপ্ৰিল"
+      },
+      {
+        "en": "22 May",
+        "as": "২২ মে"
+      },
+      {
+        "en": "22 June",
+        "as": "২২ জুন"
+      },
+      {
+        "en": "22 March",
+        "as": "২২ মাৰ্চ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "International Day for Biological Diversity is observed on 22 May.",
+      "as": "২২ মেত আন্তৰ্জাতিক জৈৱ বৈচিত্ৰ্য দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-059",
+    "q": {
+      "en": "International Day of UN Peacekeepers is observed on —",
+      "as": "ৰাষ্ট্ৰসংঘ শান্তিৰক্ষীৰ আন্তৰ্জাতিক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "29 May",
+        "as": "২৯ মে"
+      },
+      {
+        "en": "29 June",
+        "as": "২৯ জুন"
+      },
+      {
+        "en": "29 March",
+        "as": "২৯ মাৰ্চ"
+      },
+      {
+        "en": "29 April",
+        "as": "২৯ এপ্ৰিল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "International Day of UN Peacekeepers is observed on 29 May.",
+      "as": "২৯ মেত ৰাষ্ট্ৰসংঘ শান্তিৰক্ষীৰ আন্তৰ্জাতিক দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-060",
+    "q": {
+      "en": "Global Wind Day is observed on —",
+      "as": "বিশ্ব বতাহ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "15 June",
+        "as": "১৫ জুন"
+      },
+      {
+        "en": "15 July",
+        "as": "১৫ জুলাই"
+      },
+      {
+        "en": "15 April",
+        "as": "১৫ এপ্ৰিল"
+      },
+      {
+        "en": "15 May",
+        "as": "১৫ মে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Global Wind Day is observed on 15 June.",
+      "as": "১৫ জুনত বিশ্ব বতাহ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-061",
+    "q": {
+      "en": "International Day against Drug Abuse and Illicit Trafficking is observed on —",
+      "as": "মাদক দ্ৰব্যৰ অপব্যৱহাৰ আৰু অবৈধ সৰবৰাহ বিৰোধী আন্তৰ্জাতিক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "26 August",
+        "as": "২৬ আগষ্ট"
+      },
+      {
+        "en": "26 May",
+        "as": "২৬ মে"
+      },
+      {
+        "en": "26 June",
+        "as": "২৬ জুন"
+      },
+      {
+        "en": "26 July",
+        "as": "২৬ জুলাই"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "This day is observed on 26 June.",
+      "as": "এই দিৱস ২৬ জুনত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-062",
+    "q": {
+      "en": "National Doctors' Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় চিকিৎসক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "1 June",
+        "as": "১ জুন"
+      },
+      {
+        "en": "1 July",
+        "as": "১ জুলাই"
+      },
+      {
+        "en": "1 August",
+        "as": "১ আগষ্ট"
+      },
+      {
+        "en": "1 May",
+        "as": "১ মে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "National Doctors' Day is observed on 1 July, the birthday of Dr. Bidhan Chandra Roy.",
+      "as": "ড° বিধান চন্দ্ৰ ৰায়ৰ জন্মদিন ১ জুলাইত ৰাষ্ট্ৰীয় চিকিৎসক দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-063",
+    "q": {
+      "en": "World Hepatitis Day is observed on —",
+      "as": "বিশ্ব হেপাটাইটিছ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "28 July",
+        "as": "২৮ জুলাই"
+      },
+      {
+        "en": "28 August",
+        "as": "২৮ আগষ্ট"
+      },
+      {
+        "en": "28 May",
+        "as": "২৮ মে"
+      },
+      {
+        "en": "28 June",
+        "as": "২৮ জুন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Hepatitis Day is observed on 28 July.",
+      "as": "২৮ জুলাইত বিশ্ব হেপাটাইটিছ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-064",
+    "q": {
+      "en": "International Friendship Day is observed on —",
+      "as": "আন্তৰ্জাতিক বন্ধুত্ব দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "30 September",
+        "as": "৩০ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "30 June",
+        "as": "৩০ জুন"
+      },
+      {
+        "en": "30 July",
+        "as": "৩০ জুলাই"
+      },
+      {
+        "en": "30 August",
+        "as": "৩০ আগষ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "International Friendship Day is observed on 30 July.",
+      "as": "৩০ জুলাইত আন্তৰ্জাতিক বন্ধুত্ব দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-065",
+    "q": {
+      "en": "International Youth Day is observed on —",
+      "as": "আন্তৰ্জাতিক যুৱ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "12 October",
+        "as": "১২ অক্টোবৰ"
+      },
+      {
+        "en": "12 July",
+        "as": "১২ জুলাই"
+      },
+      {
+        "en": "12 August",
+        "as": "১২ আগষ্ট"
+      },
+      {
+        "en": "12 September",
+        "as": "১২ ছেপ্তেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "International Youth Day is observed on 12 August.",
+      "as": "১২ আগষ্টত আন্তৰ্জাতিক যুৱ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-066",
+    "q": {
+      "en": "World Senior Citizens Day is observed on —",
+      "as": "বিশ্ব জ্যেষ্ঠ নাগৰিক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "21 June",
+        "as": "২১ জুন"
+      },
+      {
+        "en": "21 July",
+        "as": "২১ জুলাই"
+      },
+      {
+        "en": "21 August",
+        "as": "২১ আগষ্ট"
+      },
+      {
+        "en": "21 September",
+        "as": "২১ ছেপ্তেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Senior Citizens Day is observed on 21 August.",
+      "as": "২১ আগষ্টত বিশ্ব জ্যেষ্ঠ নাগৰিক দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-067",
+    "q": {
+      "en": "International Literacy Day is observed on —",
+      "as": "আন্তৰ্জাতিক সাক্ষৰতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "8 October",
+        "as": "৮ অক্টোবৰ"
+      },
+      {
+        "en": "8 July",
+        "as": "৮ জুলাই"
+      },
+      {
+        "en": "8 August",
+        "as": "৮ আগষ্ট"
+      },
+      {
+        "en": "8 September",
+        "as": "৮ ছেপ্তেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "International Literacy Day is observed on 8 September.",
+      "as": "৮ ছেপ্তেম্বৰত আন্তৰ্জাতিক সাক্ষৰতা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-068",
+    "q": {
+      "en": "World First Aid Day is observed on —",
+      "as": "বিশ্ব প্ৰাথমিক চিকিৎসা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "12 August",
+        "as": "১২ আগষ্ট"
+      },
+      {
+        "en": "12 September",
+        "as": "১২ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "12 October",
+        "as": "১২ অক্টোবৰ"
+      },
+      {
+        "en": "12 November",
+        "as": "১২ নৱেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World First Aid Day is observed on 12 September.",
+      "as": "১২ ছেপ্তেম্বৰত বিশ্ব প্ৰাথমিক চিকিৎসা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-069",
+    "q": {
+      "en": "International Day of Peace is observed on —",
+      "as": "আন্তৰ্জাতিক শান্তি দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "21 September",
+        "as": "২১ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "21 October",
+        "as": "২১ অক্টোবৰ"
+      },
+      {
+        "en": "21 July",
+        "as": "২১ জুলাই"
+      },
+      {
+        "en": "21 August",
+        "as": "২১ আগষ্ট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "International Day of Peace is observed on 21 September.",
+      "as": "২১ ছেপ্তেম্বৰত আন্তৰ্জাতিক শান্তি দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-070",
+    "q": {
+      "en": "World Teachers' Day is observed on —",
+      "as": "বিশ্ব শিক্ষক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "5 December",
+        "as": "৫ ডিচেম্বৰ"
+      },
+      {
+        "en": "5 September",
+        "as": "৫ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "5 October",
+        "as": "৫ অক্টোবৰ"
+      },
+      {
+        "en": "5 November",
+        "as": "৫ নৱেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Teachers' Day is observed on 5 October.",
+      "as": "৫ অক্টোবৰত বিশ্ব শিক্ষক দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-071",
+    "q": {
+      "en": "World Post Day is observed on —",
+      "as": "বিশ্ব ডাক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "9 November",
+        "as": "৯ নৱেম্বৰ"
+      },
+      {
+        "en": "9 August",
+        "as": "৯ আগষ্ট"
+      },
+      {
+        "en": "9 September",
+        "as": "৯ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "9 October",
+        "as": "৯ অক্টোবৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Post Day is observed on 9 October.",
+      "as": "৯ অক্টোবৰত বিশ্ব ডাক দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-072",
+    "q": {
+      "en": "World Standards Day is observed on —",
+      "as": "বিশ্ব মান দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "14 October",
+        "as": "১৪ অক্টোবৰ"
+      },
+      {
+        "en": "14 November",
+        "as": "১৪ নৱেম্বৰ"
+      },
+      {
+        "en": "14 August",
+        "as": "১৪ আগষ্ট"
+      },
+      {
+        "en": "14 September",
+        "as": "১৪ ছেপ্তেম্বৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Standards Day is observed on 14 October.",
+      "as": "১৪ অক্টোবৰত বিশ্ব মান দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-073",
+    "q": {
+      "en": "World Cities Day is observed on —",
+      "as": "বিশ্ব নগৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "31 October",
+        "as": "৩১ অক্টোবৰ"
+      },
+      {
+        "en": "31 December",
+        "as": "৩১ ডিচেম্বৰ"
+      },
+      {
+        "en": "31 July",
+        "as": "৩১ জুলাই"
+      },
+      {
+        "en": "31 August",
+        "as": "৩১ আগষ্ট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Cities Day is observed on 31 October.",
+      "as": "৩১ অক্টোবৰত বিশ্ব নগৰ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-074",
+    "q": {
+      "en": "World Vegan Day is observed on —",
+      "as": "বিশ্ব ভেগান দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "1 September",
+        "as": "১ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "1 October",
+        "as": "১ অক্টোবৰ"
+      },
+      {
+        "en": "1 November",
+        "as": "১ নৱেম্বৰ"
+      },
+      {
+        "en": "1 December",
+        "as": "১ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Vegan Day is observed on 1 November.",
+      "as": "১ নৱেম্বৰত বিশ্ব ভেগান দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-075",
+    "q": {
+      "en": "International Day of Persons with Disabilities is observed on —",
+      "as": "বিকলাঙ্গ ব্যক্তিৰ আন্তৰ্জাতিক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "3 November",
+        "as": "৩ নৱেম্বৰ"
+      },
+      {
+        "en": "3 December",
+        "as": "৩ ডিচেম্বৰ"
+      },
+      {
+        "en": "3 January",
+        "as": "৩ জানুৱাৰী"
+      },
+      {
+        "en": "3 February",
+        "as": "৩ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "International Day of Persons with Disabilities is observed on 3 December.",
+      "as": "৩ ডিচেম্বৰত বিকলাঙ্গ ব্যক্তিৰ আন্তৰ্জাতিক দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-076",
+    "q": {
+      "en": "World Soil Day is observed on —",
+      "as": "বিশ্ব মাটি দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "5 November",
+        "as": "৫ নৱেম্বৰ"
+      },
+      {
+        "en": "5 December",
+        "as": "৫ ডিচেম্বৰ"
+      },
+      {
+        "en": "5 January",
+        "as": "৫ জানুৱাৰী"
+      },
+      {
+        "en": "5 October",
+        "as": "৫ অক্টোবৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Soil Day is observed on 5 December.",
+      "as": "৫ ডিচেম্বৰত বিশ্ব মাটি দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-077",
+    "q": {
+      "en": "International Anti-Corruption Day is observed on —",
+      "as": "আন্তৰ্জাতিক দুৰ্নীতি বিৰোধী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "9 December",
+        "as": "৯ ডিচেম্বৰ"
+      },
+      {
+        "en": "9 January",
+        "as": "৯ জানুৱাৰী"
+      },
+      {
+        "en": "9 October",
+        "as": "৯ অক্টোবৰ"
+      },
+      {
+        "en": "9 November",
+        "as": "৯ নৱেম্বৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "International Anti-Corruption Day is observed on 9 December.",
+      "as": "৯ ডিচেম্বৰত আন্তৰ্জাতিক দুৰ্নীতি বিৰোধী দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-078",
+    "q": {
+      "en": "National Energy Conservation Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় শক্তি সংৰক্ষণ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "14 October",
+        "as": "১৪ অক্টোবৰ"
+      },
+      {
+        "en": "14 November",
+        "as": "১৪ নৱেম্বৰ"
+      },
+      {
+        "en": "14 December",
+        "as": "১৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "14 January",
+        "as": "১৪ জানুৱাৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "National Energy Conservation Day is observed on 14 December.",
+      "as": "১৪ ডিচেম্বৰত ৰাষ্ট্ৰীয় শক্তি সংৰক্ষণ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-079",
+    "q": {
+      "en": "International Mountain Day is observed on —",
+      "as": "আন্তৰ্জাতিক পৰ্বত দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "11 October",
+        "as": "১১ অক্টোবৰ"
+      },
+      {
+        "en": "11 November",
+        "as": "১১ নৱেম্বৰ"
+      },
+      {
+        "en": "11 December",
+        "as": "১১ ডিচেম্বৰ"
+      },
+      {
+        "en": "11 January",
+        "as": "১১ জানুৱাৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "International Mountain Day is observed on 11 December.",
+      "as": "১১ ডিচেম্বৰত আন্তৰ্জাতিক পৰ্বত দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-080",
+    "q": {
+      "en": "National Girl Child Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় কন্যা শিশু দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "24 February",
+        "as": "২৪ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "24 March",
+        "as": "২৪ মাৰ্চ"
+      },
+      {
+        "en": "24 April",
+        "as": "২৪ এপ্ৰিল"
+      },
+      {
+        "en": "24 January",
+        "as": "২৪ জানুৱাৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "National Girl Child Day is observed on 24 January.",
+      "as": "২৪ জানুৱাৰীত ৰাষ্ট্ৰীয় কন্যা শিশু দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-081",
+    "q": {
+      "en": "World Wetlands Day is observed on —",
+      "as": "বিশ্ব জলাহভূমি দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "2 January",
+        "as": "২ জানুৱাৰী"
+      },
+      {
+        "en": "2 February",
+        "as": "২ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "2 March",
+        "as": "২ মাৰ্চ"
+      },
+      {
+        "en": "2 April",
+        "as": "২ এপ্ৰিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Wetlands Day is observed on 2 February.",
+      "as": "২ ফেব্ৰুৱাৰীত বিশ্ব জলাহভূমি দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-082",
+    "q": {
+      "en": "World Radio Day is observed on —",
+      "as": "বিশ্ব ৰেডিঅ' দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "13 February",
+        "as": "১৩ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "13 March",
+        "as": "১৩ মাৰ্চ"
+      },
+      {
+        "en": "13 April",
+        "as": "১৩ এপ্ৰিল"
+      },
+      {
+        "en": "13 January",
+        "as": "১৩ জানুৱাৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Radio Day is observed on 13 February.",
+      "as": "১৩ ফেব্ৰুৱাৰীত বিশ্ব ৰেডিঅ' দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-083",
+    "q": {
+      "en": "World Day of Social Justice is observed on —",
+      "as": "বিশ্ব সামাজিক ন্যায় দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "20 February",
+        "as": "২০ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "20 March",
+        "as": "২০ মাৰ্চ"
+      },
+      {
+        "en": "20 April",
+        "as": "২০ এপ্ৰিল"
+      },
+      {
+        "en": "20 January",
+        "as": "২০ জানুৱাৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Day of Social Justice is observed on 20 February.",
+      "as": "২০ ফেব্ৰুৱাৰীত বিশ্ব সামাজিক ন্যায় দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-084",
+    "q": {
+      "en": "International Mother Language Day is observed on —",
+      "as": "আন্তৰ্জাতিক মাতৃভাষা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "21 March",
+        "as": "২১ মাৰ্চ"
+      },
+      {
+        "en": "21 April",
+        "as": "২১ এপ্ৰিল"
+      },
+      {
+        "en": "21 January",
+        "as": "২১ জানুৱাৰী"
+      },
+      {
+        "en": "21 February",
+        "as": "২১ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "International Mother Language Day is observed on 21 February.",
+      "as": "২১ ফেব্ৰুৱাৰীত আন্তৰ্জাতিক মাতৃভাষা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-085",
+    "q": {
+      "en": "World Thinking Day is observed on —",
+      "as": "বিশ্ব চিন্তন দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "22 March",
+        "as": "২২ মাৰ্চ"
+      },
+      {
+        "en": "22 April",
+        "as": "২২ এপ্ৰিল"
+      },
+      {
+        "en": "22 January",
+        "as": "২২ জানুৱাৰী"
+      },
+      {
+        "en": "22 February",
+        "as": "২২ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Thinking Day is observed on 22 February.",
+      "as": "২২ ফেব্ৰুৱাৰীত বিশ্ব চিন্তন দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-086",
+    "q": {
+      "en": "Zero Discrimination Day is observed on —",
+      "as": "শূন্য বৈষম্য দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "1 March",
+        "as": "১ মাৰ্চ"
+      },
+      {
+        "en": "1 April",
+        "as": "১ এপ্ৰিল"
+      },
+      {
+        "en": "1 January",
+        "as": "১ জানুৱাৰী"
+      },
+      {
+        "en": "1 February",
+        "as": "১ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Zero Discrimination Day is observed on 1 March.",
+      "as": "১ মাৰ্চত শূন্য বৈষম্য দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-087",
+    "q": {
+      "en": "National Security Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় সুৰক্ষা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "4 April",
+        "as": "৪ এপ্ৰিল"
+      },
+      {
+        "en": "4 May",
+        "as": "৪ মে"
+      },
+      {
+        "en": "4 February",
+        "as": "৪ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "4 March",
+        "as": "৪ মাৰ্চ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "National Security Day is observed on 4 March.",
+      "as": "৪ মাৰ্চত ৰাষ্ট্ৰীয় সুৰক্ষা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-088",
+    "q": {
+      "en": "Bihar Diwas is celebrated on —",
+      "as": "বিহাৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "22 March",
+        "as": "২২ মাৰ্চ"
+      },
+      {
+        "en": "22 April",
+        "as": "২২ এপ্ৰিল"
+      },
+      {
+        "en": "22 January",
+        "as": "২২ জানুৱাৰী"
+      },
+      {
+        "en": "22 February",
+        "as": "২২ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bihar Diwas is celebrated on 22 March.",
+      "as": "২২ মাৰ্চত বিহাৰ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-089",
+    "q": {
+      "en": "World Theatre Day is observed on —",
+      "as": "বিশ্ব নাট্য দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "27 February",
+        "as": "২৭ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "27 March",
+        "as": "২৭ মাৰ্চ"
+      },
+      {
+        "en": "27 April",
+        "as": "২৭ এপ্ৰিল"
+      },
+      {
+        "en": "27 January",
+        "as": "২৭ জানুৱাৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Theatre Day is observed on 27 March.",
+      "as": "২৭ মাৰ্চত বিশ্ব নাট্য দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-090",
+    "q": {
+      "en": "Odisha Day (Utkal Divas) is celebrated on —",
+      "as": "ওড়িশা দিৱস (উৎকল দিৱস) কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "1 February",
+        "as": "১ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "1 March",
+        "as": "১ মাৰ্চ"
+      },
+      {
+        "en": "1 April",
+        "as": "১ এপ্ৰিল"
+      },
+      {
+        "en": "1 May",
+        "as": "১ মে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Odisha Day is celebrated on 1 April.",
+      "as": "১ এপ্ৰিলত ওড়িশা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-091",
+    "q": {
+      "en": "The Jallianwala Bagh Massacre took place on —",
+      "as": "জালিয়ানৱালাবাগ হত্যাকাণ্ড কেতিয়া সংঘটিত হৈছিল —"
+    },
+    "options": [
+      {
+        "en": "13 April 1919",
+        "as": "১৩ এপ্ৰিল ১৯১৯"
+      },
+      {
+        "en": "13 May 1919",
+        "as": "১৩ মে ১৯১৯"
+      },
+      {
+        "en": "13 June 1919",
+        "as": "১৩ জুন ১৯১৯"
+      },
+      {
+        "en": "13 March 1919",
+        "as": "১৩ মাৰ্চ ১৯১৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Jallianwala Bagh Massacre took place on 13 April 1919.",
+      "as": "জালিয়ানৱালাবাগ হত্যাকাণ্ড ১৯১৯ চনৰ ১৩ এপ্ৰিলত সংঘটিত হৈছিল।"
+    }
+  },
+  {
+    "id": "important-days-dates-092",
+    "q": {
+      "en": "Ambedkar Jayanti is observed on —",
+      "as": "আম্বেদকৰ জয়ন্তী কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "14 June",
+        "as": "১৪ জুন"
+      },
+      {
+        "en": "14 March",
+        "as": "১৪ মাৰ্চ"
+      },
+      {
+        "en": "14 April",
+        "as": "১৪ এপ্ৰিল"
+      },
+      {
+        "en": "14 May",
+        "as": "১৪ মে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ambedkar Jayanti is observed on 14 April, the birthday of Dr. B. R. Ambedkar.",
+      "as": "ড° বি. আৰ. আম্বেদকৰৰ জন্মদিন ১৪ এপ্ৰিলত আম্বেদকৰ জয়ন্তী পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-093",
+    "q": {
+      "en": "World Heritage Day is observed on —",
+      "as": "বিশ্ব ঐতিহ্য দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "18 April",
+        "as": "১৮ এপ্ৰিল"
+      },
+      {
+        "en": "18 May",
+        "as": "১৮ মে"
+      },
+      {
+        "en": "18 June",
+        "as": "১৮ জুন"
+      },
+      {
+        "en": "18 March",
+        "as": "১৮ মাৰ্চ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Heritage Day is observed on 18 April.",
+      "as": "১৮ এপ্ৰিলত বিশ্ব ঐতিহ্য দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-094",
+    "q": {
+      "en": "Maharashtra Day is celebrated on —",
+      "as": "মহাৰাষ্ট্ৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "1 June",
+        "as": "১ জুন"
+      },
+      {
+        "en": "1 March",
+        "as": "১ মাৰ্চ"
+      },
+      {
+        "en": "1 April",
+        "as": "১ এপ্ৰিল"
+      },
+      {
+        "en": "1 May",
+        "as": "১ মে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Maharashtra Day is celebrated on 1 May.",
+      "as": "১ মেত মহাৰাষ্ট্ৰ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-095",
+    "q": {
+      "en": "Rabindranath Tagore Jayanti is observed on —",
+      "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ জয়ন্তী কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "7 July",
+        "as": "৭ জুলাই"
+      },
+      {
+        "en": "7 April",
+        "as": "৭ এপ্ৰিল"
+      },
+      {
+        "en": "7 May",
+        "as": "৭ মে"
+      },
+      {
+        "en": "7 June",
+        "as": "৭ জুন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rabindranath Tagore Jayanti is observed on 7 May.",
+      "as": "৭ মেত ৰবীন্দ্ৰনাথ ঠাকুৰ জয়ন্তী পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-096",
+    "q": {
+      "en": "International Day of Light is observed on —",
+      "as": "আন্তৰ্জাতিক পোহৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "16 March",
+        "as": "১৬ মাৰ্চ"
+      },
+      {
+        "en": "16 April",
+        "as": "১৬ এপ্ৰিল"
+      },
+      {
+        "en": "16 May",
+        "as": "১৬ মে"
+      },
+      {
+        "en": "16 June",
+        "as": "১৬ জুন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "International Day of Light is observed on 16 May.",
+      "as": "১৬ মেত আন্তৰ্জাতিক পোহৰ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-097",
+    "q": {
+      "en": "Martyrs' Day (Shaheed Diwas) is observed in India on —",
+      "as": "ভাৰতত শহীদ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "30 March",
+        "as": "৩০ মাৰ্চ"
+      },
+      {
+        "en": "30 May",
+        "as": "৩০ মে"
+      },
+      {
+        "en": "30 July",
+        "as": "৩০ জুলাই"
+      },
+      {
+        "en": "30 January",
+        "as": "৩০ জানুৱাৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Martyrs' Day is observed on 30 January, the death anniversary of Mahatma Gandhi.",
+      "as": "মহাত্মা গান্ধীৰ মৃত্যু দিৱস ৩০ জানুৱাৰীত শহীদ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-098",
+    "q": {
+      "en": "National Integration Day is observed in India on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় সংহতি দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "19 September",
+        "as": "১৯ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "19 October",
+        "as": "১৯ অক্টোবৰ"
+      },
+      {
+        "en": "19 November",
+        "as": "১৯ নৱেম্বৰ"
+      },
+      {
+        "en": "19 December",
+        "as": "১৯ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "National Integration Day is observed on 19 November.",
+      "as": "১৯ নৱেম্বৰত ৰাষ্ট্ৰীয় সংহতি দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-099",
+    "q": {
+      "en": "National Education Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় শিক্ষা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "11 September",
+        "as": "১১ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "11 October",
+        "as": "১১ অক্টোবৰ"
+      },
+      {
+        "en": "11 November",
+        "as": "১১ নৱেম্বৰ"
+      },
+      {
+        "en": "11 December",
+        "as": "১১ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "National Education Day is observed on 11 November, the birthday of Maulana Abul Kalam Azad.",
+      "as": "মৌলানা আবুল কালাম আজাদৰ জন্মদিন ১১ নৱেম্বৰত ৰাষ্ট্ৰীয় শিক্ষা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-100",
+    "q": {
+      "en": "World Pneumonia Day is observed on —",
+      "as": "বিশ্ব নিউমোনিয়া দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "12 September",
+        "as": "১২ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "12 October",
+        "as": "১২ অক্টোবৰ"
+      },
+      {
+        "en": "12 November",
+        "as": "১২ নৱেম্বৰ"
+      },
+      {
+        "en": "12 December",
+        "as": "১২ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Pneumonia Day is observed on 12 November.",
+      "as": "১২ নৱেম্বৰত বিশ্ব নিউমোনিয়া দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-101",
+    "q": {
+      "en": "Jharkhand Formation Day is celebrated on —",
+      "as": "ঝাৰখণ্ড স্থাপনা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "15 November",
+        "as": "১৫ নৱেম্বৰ"
+      },
+      {
+        "en": "15 December",
+        "as": "১৫ ডিচেম্বৰ"
+      },
+      {
+        "en": "15 September",
+        "as": "১৫ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "15 October",
+        "as": "১৫ অক্টোবৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Jharkhand Formation Day is celebrated on 15 November.",
+      "as": "১৫ নৱেম্বৰত ঝাৰখণ্ড স্থাপনা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-102",
+    "q": {
+      "en": "International Day for Tolerance is observed on —",
+      "as": "আন্তৰ্জাতিক সহনশীলতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "16 October",
+        "as": "১৬ অক্টোবৰ"
+      },
+      {
+        "en": "16 November",
+        "as": "১৬ নৱেম্বৰ"
+      },
+      {
+        "en": "16 December",
+        "as": "১৬ ডিচেম্বৰ"
+      },
+      {
+        "en": "16 September",
+        "as": "১৬ ছেপ্তেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "International Day for Tolerance is observed on 16 November.",
+      "as": "১৬ নৱেম্বৰত আন্তৰ্জাতিক সহনশীলতা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-103",
+    "q": {
+      "en": "World Students' Day is observed on —",
+      "as": "বিশ্ব ছাত্ৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "15 September",
+        "as": "১৫ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "15 October",
+        "as": "১৫ অক্টোবৰ"
+      },
+      {
+        "en": "15 November",
+        "as": "১৫ নৱেম্বৰ"
+      },
+      {
+        "en": "15 August",
+        "as": "১৫ আগষ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Students' Day is observed on 15 October, the birthday of Dr. A. P. J. Abdul Kalam.",
+      "as": "ড° এ. পি. জে. আব্দুল কালামৰ জন্মদিন ১৫ অক্টোবৰত বিশ্ব ছাত্ৰ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-104",
+    "q": {
+      "en": "National Milk Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় দুগ্ধ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "26 November",
+        "as": "২৬ নৱেম্বৰ"
+      },
+      {
+        "en": "26 December",
+        "as": "২৬ ডিচেম্বৰ"
+      },
+      {
+        "en": "26 September",
+        "as": "২৬ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "26 October",
+        "as": "২৬ অক্টোবৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "National Milk Day is observed on 26 November, the birthday of Verghese Kurien.",
+      "as": "ভাৰ্গিজ কুৰিয়েনৰ জন্মদিন ২৬ নৱেম্বৰত ৰাষ্ট্ৰীয় দুগ্ধ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-105",
+    "q": {
+      "en": "National Flag Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় পতাকা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "22 July",
+        "as": "২২ জুলাই"
+      },
+      {
+        "en": "22 August",
+        "as": "২২ আগষ্ট"
+      },
+      {
+        "en": "22 September",
+        "as": "২২ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "22 June",
+        "as": "২২ জুন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "National Flag Day is observed on 22 July.",
+      "as": "২২ জুলাইত ৰাষ্ট্ৰীয় পতাকা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-106",
+    "q": {
+      "en": "National Handloom Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় তাঁত দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "7 July",
+        "as": "৭ জুলাই"
+      },
+      {
+        "en": "7 August",
+        "as": "৭ আগষ্ট"
+      },
+      {
+        "en": "7 September",
+        "as": "৭ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "7 June",
+        "as": "৭ জুন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "National Handloom Day is observed on 7 August.",
+      "as": "৭ আগষ্টত ৰাষ্ট্ৰীয় তাঁত দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-107",
+    "q": {
+      "en": "Quit India Movement Day is observed on —",
+      "as": "ভাৰত ছোৱাৰ আন্দোলন দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "8 July 1942",
+        "as": "৮ জুলাই ১৯৪২"
+      },
+      {
+        "en": "8 August 1942",
+        "as": "৮ আগষ্ট ১৯৪২"
+      },
+      {
+        "en": "8 September 1942",
+        "as": "৮ ছেপ্তেম্বৰ ১৯৪২"
+      },
+      {
+        "en": "8 June 1942",
+        "as": "৮ জুন ১৯৪২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Quit India Movement began on 8 August 1942.",
+      "as": "ভাৰত ছোৱাৰ আন্দোলন ১৯৪২ চনৰ ৮ আগষ্টত আৰম্ভ হৈছিল।"
+    }
+  },
+  {
+    "id": "important-days-dates-108",
+    "q": {
+      "en": "World Lion Day is observed on —",
+      "as": "বিশ্ব সিংহ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "10 July",
+        "as": "১০ জুলাই"
+      },
+      {
+        "en": "10 August",
+        "as": "১০ আগষ্ট"
+      },
+      {
+        "en": "10 September",
+        "as": "১০ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "10 October",
+        "as": "১০ অক্টোবৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Lion Day is observed on 10 August.",
+      "as": "১০ আগষ্টত বিশ্ব সিংহ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-109",
+    "q": {
+      "en": "Indian Navy Submarine Day is observed on —",
+      "as": "ভাৰতীয় নৌসেনা ছাবমেৰিন দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "8 December",
+        "as": "৮ ডিচেম্বৰ"
+      },
+      {
+        "en": "8 January",
+        "as": "৮ জানুৱাৰী"
+      },
+      {
+        "en": "8 October",
+        "as": "৮ অক্টোবৰ"
+      },
+      {
+        "en": "8 November",
+        "as": "৮ নৱেম্বৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Navy Submarine Day is observed on 8 December.",
+      "as": "৮ ডিচেম্বৰত নৌসেনা ছাবমেৰিন দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-110",
+    "q": {
+      "en": "Nagaland Statehood Day is celebrated on —",
+      "as": "নাগালেণ্ড ৰাজ্যিকতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "1 November",
+        "as": "১ নৱেম্বৰ"
+      },
+      {
+        "en": "1 December",
+        "as": "১ ডিচেম্বৰ"
+      },
+      {
+        "en": "1 January",
+        "as": "১ জানুৱাৰী"
+      },
+      {
+        "en": "1 October",
+        "as": "১ অক্টোবৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Nagaland Statehood Day is celebrated on 1 December.",
+      "as": "১ ডিচেম্বৰত নাগালেণ্ড ৰাজ্যিকতা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-111",
+    "q": {
+      "en": "Mizoram Statehood Day is celebrated on —",
+      "as": "মিজোৰাম ৰাজ্যিকতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "20 January",
+        "as": "২০ জানুৱাৰী"
+      },
+      {
+        "en": "20 February",
+        "as": "২০ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "20 March",
+        "as": "২০ মাৰ্চ"
+      },
+      {
+        "en": "20 April",
+        "as": "২০ এপ্ৰিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mizoram Statehood Day is celebrated on 20 February.",
+      "as": "২০ ফেব্ৰুৱাৰীত মিজোৰাম ৰাজ্যিকতা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-112",
+    "q": {
+      "en": "Arunachal Pradesh Statehood Day is celebrated on —",
+      "as": "অৰুণাচল প্ৰদেশ ৰাজ্যিকতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "20 February",
+        "as": "২০ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "20 March",
+        "as": "২০ মাৰ্চ"
+      },
+      {
+        "en": "20 April",
+        "as": "২০ এপ্ৰিল"
+      },
+      {
+        "en": "20 January",
+        "as": "২০ জানুৱাৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Arunachal Pradesh Statehood Day is celebrated on 20 February.",
+      "as": "২০ ফেব্ৰুৱাৰীত অৰুণাচল প্ৰদেশ ৰাজ্যিকতা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-113",
+    "q": {
+      "en": "Manipur Statehood Day is celebrated on —",
+      "as": "মণিপুৰ ৰাজ্যিকতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "21 February",
+        "as": "২১ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "21 March",
+        "as": "২১ মাৰ্চ"
+      },
+      {
+        "en": "21 April",
+        "as": "২১ এপ্ৰিল"
+      },
+      {
+        "en": "21 January",
+        "as": "২১ জানুৱাৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Manipur Statehood Day is celebrated on 21 January.",
+      "as": "২১ জানুৱাৰীত মণিপুৰ ৰাজ্যিকতা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-114",
+    "q": {
+      "en": "Tripura Statehood Day is celebrated on —",
+      "as": "ত্ৰিপুৰা ৰাজ্যিকতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "21 January",
+        "as": "২১ জানুৱাৰী"
+      },
+      {
+        "en": "21 February",
+        "as": "২১ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "21 March",
+        "as": "২১ মাৰ্চ"
+      },
+      {
+        "en": "21 April",
+        "as": "২১ এপ্ৰিল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Tripura Statehood Day is celebrated on 21 January.",
+      "as": "২১ জানুৱাৰীত ত্ৰিপুৰা ৰাজ্যিকতা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-115",
+    "q": {
+      "en": "Meghalaya Statehood Day is celebrated on —",
+      "as": "মেঘালয় ৰাজ্যিকতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "21 January",
+        "as": "২১ জানুৱাৰী"
+      },
+      {
+        "en": "21 February",
+        "as": "২১ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "21 March",
+        "as": "২১ মাৰ্চ"
+      },
+      {
+        "en": "21 April",
+        "as": "২১ এপ্ৰিল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Meghalaya Statehood Day is celebrated on 21 January.",
+      "as": "২১ জানুৱাৰীত মেঘালয় ৰাজ্যিকতা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-116",
+    "q": {
+      "en": "World Day against Child Labour is observed on —",
+      "as": "শিশু শ্ৰম বিৰোধী বিশ্ব দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "12 August",
+        "as": "১২ আগষ্ট"
+      },
+      {
+        "en": "12 September",
+        "as": "১২ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "12 June",
+        "as": "১২ জুন"
+      },
+      {
+        "en": "12 July",
+        "as": "১২ জুলাই"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Day against Child Labour is observed on 12 June.",
+      "as": "১২ জুনত শিশু শ্ৰম বিৰোধী বিশ্ব দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-117",
+    "q": {
+      "en": "International Day of the Girl Child is observed on —",
+      "as": "আন্তৰ্জাতিক কন্যা শিশু দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "11 December",
+        "as": "১১ ডিচেম্বৰ"
+      },
+      {
+        "en": "11 September",
+        "as": "১১ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "11 October",
+        "as": "১১ অক্টোবৰ"
+      },
+      {
+        "en": "11 November",
+        "as": "১১ নৱেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "International Day of the Girl Child is observed on 11 October.",
+      "as": "১১ অক্টোবৰত আন্তৰ্জাতিক কন্যা শিশু দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-118",
+    "q": {
+      "en": "Veer Bal Diwas is observed in India on —",
+      "as": "ভাৰতত বীৰ বাল দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "26 January",
+        "as": "২৬ জানুৱাৰী"
+      },
+      {
+        "en": "26 February",
+        "as": "২৬ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "26 November",
+        "as": "২৬ নৱেম্বৰ"
+      },
+      {
+        "en": "26 December",
+        "as": "২৬ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Veer Bal Diwas is observed on 26 December.",
+      "as": "২৬ ডিচেম্বৰত বীৰ বাল দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-119",
+    "q": {
+      "en": "Valour Day of the Central Reserve Police Force is observed on —",
+      "as": "কেন্দ্ৰীয় সংৰক্ষিত আৰক্ষী বাহিনীৰ বীৰত্ব দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "9 June",
+        "as": "৯ জুন"
+      },
+      {
+        "en": "9 July",
+        "as": "৯ জুলাই"
+      },
+      {
+        "en": "9 April",
+        "as": "৯ এপ্ৰিল"
+      },
+      {
+        "en": "9 May",
+        "as": "৯ মে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Valour Day is observed on 9 April.",
+      "as": "৯ এপ্ৰিলত বীৰত্ব দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-120",
+    "q": {
+      "en": "Hindi Diwas is celebrated in India on —",
+      "as": "ভাৰতত হিন্দী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "14 November",
+        "as": "১৪ নৱেম্বৰ"
+      },
+      {
+        "en": "14 August",
+        "as": "১৪ আগষ্ট"
+      },
+      {
+        "en": "14 September",
+        "as": "১৪ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "14 October",
+        "as": "১৪ অক্টোবৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hindi Diwas is celebrated on 14 September.",
+      "as": "১৪ ছেপ্তেম্বৰত হিন্দী দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-121",
+    "q": {
+      "en": "Assam Divas (Sukapha Divas) is celebrated on —",
+      "as": "অসম দিৱস (চুকাফা দিৱস) কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "2 January",
+        "as": "২ জানুৱাৰী"
+      },
+      {
+        "en": "2 October",
+        "as": "২ অক্টোবৰ"
+      },
+      {
+        "en": "2 November",
+        "as": "২ নৱেম্বৰ"
+      },
+      {
+        "en": "2 December",
+        "as": "২ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assam Divas, marking the arrival of Chaolung Sukapha, is celebrated on 2 December.",
+      "as": "চাওলুং চুকাফাৰ অসম আগমনৰ স্মৃতিত ২ ডিচেম্বৰত অসম দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-122",
+    "q": {
+      "en": "Magh Bihu (Bhogali Bihu) is celebrated in the month of —",
+      "as": "মাঘ বিহু (ভোগালী বিহু) কোন মাহত পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "January",
+        "as": "জানুৱাৰী"
+      },
+      {
+        "en": "April",
+        "as": "এপ্ৰিল"
+      },
+      {
+        "en": "October",
+        "as": "অক্টোবৰ"
+      },
+      {
+        "en": "July",
+        "as": "জুলাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Magh Bihu is celebrated in mid-January, usually on 14-15 January.",
+      "as": "মাঘ বিহু জানুৱাৰী মাহৰ মাজভাগত, সাধাৰণতে ১৪-১৫ জানুৱাৰীত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-123",
+    "q": {
+      "en": "Bohag Bihu (Rongali Bihu) is celebrated on —",
+      "as": "ব'হাগ বিহু (ৰঙালী বিহু) কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "14 July",
+        "as": "১৪ জুলাই"
+      },
+      {
+        "en": "14 January",
+        "as": "১৪ জানুৱাৰী"
+      },
+      {
+        "en": "14 April",
+        "as": "১৪ এপ্ৰিল"
+      },
+      {
+        "en": "14 October",
+        "as": "১৪ অক্টোবৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bohag Bihu, the Assamese New Year, is celebrated on 14 April.",
+      "as": "অসমীয়া নববৰ্ষ ব'হাগ বিহু ১৪ এপ্ৰিলত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-124",
+    "q": {
+      "en": "Kati Bihu (Kongali Bihu) is celebrated on —",
+      "as": "কাতি বিহু (কঙালী বিহু) কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "17 September",
+        "as": "১৭ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "17 October",
+        "as": "১৭ অক্টোবৰ"
+      },
+      {
+        "en": "17 November",
+        "as": "১৭ নৱেম্বৰ"
+      },
+      {
+        "en": "17 August",
+        "as": "১৭ আগষ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kati Bihu is celebrated in mid-October, usually on 17 October.",
+      "as": "কাতি বিহু অক্টোবৰ মাহৰ মাজভাগত, সাধাৰণতে ১৭ অক্টোবৰত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-125",
+    "q": {
+      "en": "Bishnu Rabha Divas is observed in Assam on —",
+      "as": "অসমত বিষ্ণু ৰাভা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "20 July",
+        "as": "২০ জুলাই"
+      },
+      {
+        "en": "20 August",
+        "as": "২০ আগষ্ট"
+      },
+      {
+        "en": "20 September",
+        "as": "২০ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "20 June",
+        "as": "২০ জুন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bishnu Rabha Divas is observed on 20 June in Assam.",
+      "as": "অসমত ২০ জুনত বিষ্ণু ৰাভা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-126",
+    "q": {
+      "en": "Lachit Divas is observed in Assam on —",
+      "as": "অসমত লাচিত দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "24 November",
+        "as": "২৪ নৱেম্বৰ"
+      },
+      {
+        "en": "24 December",
+        "as": "২৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "24 September",
+        "as": "২৪ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "24 October",
+        "as": "২৪ অক্টোবৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Lachit Divas is observed on 24 November in honour of Lachit Barphukan.",
+      "as": "লাচিত বৰফুকনৰ সন্মানত ২৪ নৱেম্বৰত লাচিত দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-127",
+    "q": {
+      "en": "The death anniversary of Bhupen Hazarika, observed as a day of remembrance in Assam, falls on —",
+      "as": "ভূপেন হাজৰিকাৰ মৃত্যু দিৱস, অসমত স্মৃতি দিৱস হিচাপে পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "5 October",
+        "as": "৫ অক্টোবৰ"
+      },
+      {
+        "en": "5 November",
+        "as": "৫ নৱেম্বৰ"
+      },
+      {
+        "en": "5 December",
+        "as": "৫ ডিচেম্বৰ"
+      },
+      {
+        "en": "5 September",
+        "as": "৫ ছেপ্তেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bhupen Hazarika passed away on 5 November 2011.",
+      "as": "ভূপেন হাজৰিকা ২০১১ চনৰ ৫ নৱেম্বৰত দেহত্যাগ কৰিছিল।"
+    }
+  },
+  {
+    "id": "important-days-dates-128",
+    "q": {
+      "en": "The death anniversary of Jyoti Prasad Agarwala, observed in Assam, falls on —",
+      "as": "জ্যোতিপ্ৰসাদ আগৰৱালাৰ মৃত্যু দিৱস, অসমত কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "17 April",
+        "as": "১৭ এপ্ৰিল"
+      },
+      {
+        "en": "17 January",
+        "as": "১৭ জানুৱাৰী"
+      },
+      {
+        "en": "17 February",
+        "as": "১৭ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "17 March",
+        "as": "১৭ মাৰ্চ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Jyoti Prasad Agarwala, the pioneer of Assamese cinema, died on 17 January 1951.",
+      "as": "অসমীয়া চলচ্চিত্ৰৰ পথপ্ৰদৰ্শক জ্যোতিপ্ৰসাদ আগৰৱালা ১৯৫১ চনৰ ১৭ জানুৱাৰীত দেহত্যাগ কৰিছিল।"
+    }
+  },
+  {
+    "id": "important-days-dates-129",
+    "q": {
+      "en": "The Assam Accord was signed on —",
+      "as": "অসম চুক্তি কেতিয়া স্বাক্ষৰিত হৈছিল —"
+    },
+    "options": [
+      {
+        "en": "15 August 1965",
+        "as": "১৫ আগষ্ট ১৯৬৫"
+      },
+      {
+        "en": "15 August 1985",
+        "as": "১৫ আগষ্ট ১৯৮৫"
+      },
+      {
+        "en": "15 August 1975",
+        "as": "১৫ আগষ্ট ১৯৭৫"
+      },
+      {
+        "en": "15 August 1995",
+        "as": "১৫ আগষ্ট ১৯৯৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Assam Accord was signed on 15 August 1985.",
+      "as": "অসম চুক্তি ১৯৮৫ চনৰ ১৫ আগষ্টত স্বাক্ষৰিত হৈছিল।"
+    }
+  },
+  {
+    "id": "important-days-dates-130",
+    "q": {
+      "en": "International Day of Education is observed on —",
+      "as": "আন্তৰ্জাতিক শিক্ষা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "24 March",
+        "as": "২৪ মাৰ্চ"
+      },
+      {
+        "en": "24 April",
+        "as": "২৪ এপ্ৰিল"
+      },
+      {
+        "en": "24 January",
+        "as": "২৪ জানুৱাৰী"
+      },
+      {
+        "en": "24 February",
+        "as": "২৪ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "International Day of Education is observed on 24 January.",
+      "as": "২৪ জানুৱাৰীত আন্তৰ্জাতিক শিক্ষা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-131",
+    "q": {
+      "en": "World Pulses Day is observed on —",
+      "as": "বিশ্ব মাহজাতীয় শস্য দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "10 March",
+        "as": "১০ মাৰ্চ"
+      },
+      {
+        "en": "10 April",
+        "as": "১০ এপ্ৰিল"
+      },
+      {
+        "en": "10 January",
+        "as": "১০ জানুৱাৰী"
+      },
+      {
+        "en": "10 February",
+        "as": "১০ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Pulses Day is observed on 10 February.",
+      "as": "১০ ফেব্ৰুৱাৰীত বিশ্ব মাহজাতীয় শস্য দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-132",
+    "q": {
+      "en": "International Day of Women and Girls in Science is observed on —",
+      "as": "বিজ্ঞানত মহিলা আৰু কন্যাৰ আন্তৰ্জাতিক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "11 January",
+        "as": "১১ জানুৱাৰী"
+      },
+      {
+        "en": "11 February",
+        "as": "১১ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "11 March",
+        "as": "১১ মাৰ্চ"
+      },
+      {
+        "en": "11 April",
+        "as": "১১ এপ্ৰিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This day is observed on 11 February.",
+      "as": "এই দিৱস ১১ ফেব্ৰুৱাৰীত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-133",
+    "q": {
+      "en": "International Day of Happiness is observed on —",
+      "as": "আন্তৰ্জাতিক সুখ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "20 January",
+        "as": "২০ জানুৱাৰী"
+      },
+      {
+        "en": "20 February",
+        "as": "২০ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "20 March",
+        "as": "২০ মাৰ্চ"
+      },
+      {
+        "en": "20 April",
+        "as": "২০ এপ্ৰিল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "International Day of Happiness is observed on 20 March.",
+      "as": "২০ মাৰ্চত আন্তৰ্জাতিক সুখ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-134",
+    "q": {
+      "en": "World Consumer Rights Day is observed on —",
+      "as": "বিশ্ব উপভোক্তা অধিকাৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "15 March",
+        "as": "১৫ মাৰ্চ"
+      },
+      {
+        "en": "15 April",
+        "as": "১৫ এপ্ৰিল"
+      },
+      {
+        "en": "15 January",
+        "as": "১৫ জানুৱাৰী"
+      },
+      {
+        "en": "15 February",
+        "as": "১৫ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Consumer Rights Day is observed on 15 March.",
+      "as": "১৫ মাৰ্চত বিশ্ব উপভোক্তা অধিকাৰ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-135",
+    "q": {
+      "en": "National Vaccination Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় টিকাকৰণ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "16 March",
+        "as": "১৬ মাৰ্চ"
+      },
+      {
+        "en": "16 April",
+        "as": "১৬ এপ্ৰিল"
+      },
+      {
+        "en": "16 January",
+        "as": "১৬ জানুৱাৰী"
+      },
+      {
+        "en": "16 February",
+        "as": "১৬ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "National Vaccination Day is observed on 16 March.",
+      "as": "১৬ মাৰ্চত ৰাষ্ট্ৰীয় টিকাকৰণ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-136",
+    "q": {
+      "en": "World Down Syndrome Day is observed on —",
+      "as": "বিশ্ব ডাউন চিনড্ৰম দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "21 January",
+        "as": "২১ জানুৱাৰী"
+      },
+      {
+        "en": "21 February",
+        "as": "২১ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "21 March",
+        "as": "২১ মাৰ্চ"
+      },
+      {
+        "en": "21 April",
+        "as": "২১ এপ্ৰিল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Down Syndrome Day is observed on 21 March.",
+      "as": "২১ মাৰ্চত বিশ্ব ডাউন চিনড্ৰম দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-137",
+    "q": {
+      "en": "World Poetry Day is observed on —",
+      "as": "বিশ্ব কবিতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "21 April",
+        "as": "২১ এপ্ৰিল"
+      },
+      {
+        "en": "21 January",
+        "as": "২১ জানুৱাৰী"
+      },
+      {
+        "en": "21 February",
+        "as": "২১ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "21 March",
+        "as": "২১ মাৰ্চ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Poetry Day is observed on 21 March.",
+      "as": "২১ মাৰ্চত বিশ্ব কবিতা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-138",
+    "q": {
+      "en": "World Sparrow Day is observed on —",
+      "as": "বিশ্ব চৰাই দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "20 January",
+        "as": "২০ জানুৱাৰী"
+      },
+      {
+        "en": "20 February",
+        "as": "২০ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "20 March",
+        "as": "২০ মাৰ্চ"
+      },
+      {
+        "en": "20 April",
+        "as": "২০ এপ্ৰিল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Sparrow Day is observed on 20 March.",
+      "as": "২০ মাৰ্চত বিশ্ব চৰাই দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-139",
+    "q": {
+      "en": "World Alzheimer's Day is observed on —",
+      "as": "বিশ্ব আলজেইমাৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "21 July",
+        "as": "২১ জুলাই"
+      },
+      {
+        "en": "21 August",
+        "as": "২১ আগষ্ট"
+      },
+      {
+        "en": "21 September",
+        "as": "২১ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "21 October",
+        "as": "২১ অক্টোবৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "World Alzheimer's Day is observed on 21 September.",
+      "as": "২১ ছেপ্তেম্বৰত বিশ্ব আলজেইমাৰ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-140",
+    "q": {
+      "en": "International Day of Sign Languages is observed on —",
+      "as": "আন্তৰ্জাতিক সাঙ্কেতিক ভাষা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "23 September",
+        "as": "২৩ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "23 October",
+        "as": "২৩ অক্টোবৰ"
+      },
+      {
+        "en": "23 July",
+        "as": "২৩ জুলাই"
+      },
+      {
+        "en": "23 August",
+        "as": "২৩ আগষ্ট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "International Day of Sign Languages is observed on 23 September.",
+      "as": "২৩ ছেপ্তেম্বৰত আন্তৰ্জাতিক সাঙ্কেতিক ভাষা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-141",
+    "q": {
+      "en": "World Tourism Day is observed on —",
+      "as": "বিশ্ব পৰ্যটন দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "27 September",
+        "as": "২৭ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "27 October",
+        "as": "২৭ অক্টোবৰ"
+      },
+      {
+        "en": "27 July",
+        "as": "২৭ জুলাই"
+      },
+      {
+        "en": "27 August",
+        "as": "২৭ আগষ্ট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Tourism Day is observed on 27 September.",
+      "as": "২৭ ছেপ্তেম্বৰত বিশ্ব পৰ্যটন দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-142",
+    "q": {
+      "en": "World Rabies Day is observed on —",
+      "as": "বিশ্ব জলাতঙ্ক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "28 October",
+        "as": "২৮ অক্টোবৰ"
+      },
+      {
+        "en": "28 July",
+        "as": "২৮ জুলাই"
+      },
+      {
+        "en": "28 August",
+        "as": "২৮ আগষ্ট"
+      },
+      {
+        "en": "28 September",
+        "as": "২৮ ছেপ্তেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Rabies Day is observed on 28 September.",
+      "as": "২৮ ছেপ্তেম্বৰত বিশ্ব জলাতঙ্ক দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-143",
+    "q": {
+      "en": "International Translation Day is observed on —",
+      "as": "আন্তৰ্জাতিক অনুবাদ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "30 September",
+        "as": "৩০ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "30 October",
+        "as": "৩০ অক্টোবৰ"
+      },
+      {
+        "en": "30 July",
+        "as": "৩০ জুলাই"
+      },
+      {
+        "en": "30 August",
+        "as": "৩০ আগষ্ট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "International Translation Day is observed on 30 September.",
+      "as": "৩০ ছেপ্তেম্বৰত আন্তৰ্জাতিক অনুবাদ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-144",
+    "q": {
+      "en": "International Day of Non-Violence is observed on —",
+      "as": "আন্তৰ্জাতিক অহিংসা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "2 December",
+        "as": "২ ডিচেম্বৰ"
+      },
+      {
+        "en": "2 September",
+        "as": "২ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "2 October",
+        "as": "২ অক্টোবৰ"
+      },
+      {
+        "en": "2 November",
+        "as": "২ নৱেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "International Day of Non-Violence is observed on 2 October, the birthday of Mahatma Gandhi.",
+      "as": "মহাত্মা গান্ধীৰ জন্মদিন ২ অক্টোবৰত আন্তৰ্জাতিক অহিংসা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-145",
+    "q": {
+      "en": "World Arthritis Day is observed on —",
+      "as": "বিশ্ব আৰ্থ্ৰাইটিছ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "12 September",
+        "as": "১২ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "12 October",
+        "as": "১২ অক্টোবৰ"
+      },
+      {
+        "en": "12 November",
+        "as": "১২ নৱেম্বৰ"
+      },
+      {
+        "en": "12 December",
+        "as": "১২ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Arthritis Day is observed on 12 October.",
+      "as": "১২ অক্টোবৰত বিশ্ব আৰ্থ্ৰাইটিছ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-146",
+    "q": {
+      "en": "International Day for Disaster Reduction is observed on —",
+      "as": "আন্তৰ্জাতিক দুৰ্যোগ হ্ৰাস দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "13 September",
+        "as": "১৩ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "13 October",
+        "as": "১৩ অক্টোবৰ"
+      },
+      {
+        "en": "13 November",
+        "as": "১৩ নৱেম্বৰ"
+      },
+      {
+        "en": "13 December",
+        "as": "১৩ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "International Day for Disaster Reduction is observed on 13 October.",
+      "as": "১৩ অক্টোবৰত আন্তৰ্জাতিক দুৰ্যোগ হ্ৰাস দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-147",
+    "q": {
+      "en": "Global Handwashing Day is observed on —",
+      "as": "বিশ্ব হাত ধোৱা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "15 December",
+        "as": "১৫ ডিচেম্বৰ"
+      },
+      {
+        "en": "15 September",
+        "as": "১৫ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "15 October",
+        "as": "১৫ অক্টোবৰ"
+      },
+      {
+        "en": "15 November",
+        "as": "১৫ নৱেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Global Handwashing Day is observed on 15 October.",
+      "as": "১৫ অক্টোবৰত বিশ্ব হাত ধোৱা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-148",
+    "q": {
+      "en": "World Osteoporosis Day is observed on —",
+      "as": "বিশ্ব অস্টিওপৰ'চিছ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "20 September",
+        "as": "২০ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "20 October",
+        "as": "২০ অক্টোবৰ"
+      },
+      {
+        "en": "20 November",
+        "as": "২০ নৱেম্বৰ"
+      },
+      {
+        "en": "20 December",
+        "as": "২০ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Osteoporosis Day is observed on 20 October.",
+      "as": "২০ অক্টোবৰত বিশ্ব অস্টিওপৰ'চিছ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-149",
+    "q": {
+      "en": "United Nations Day is observed on —",
+      "as": "ৰাষ্ট্ৰসংঘ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "24 November",
+        "as": "২৪ নৱেম্বৰ"
+      },
+      {
+        "en": "24 December",
+        "as": "২৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "24 September",
+        "as": "২৪ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "24 October",
+        "as": "২৪ অক্টোবৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "United Nations Day is observed on 24 October.",
+      "as": "২৪ অক্টোবৰত ৰাষ্ট্ৰসংঘ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-150",
+    "q": {
+      "en": "World Polio Day is observed on —",
+      "as": "বিশ্ব পলিঅ' দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "24 October",
+        "as": "২৪ অক্টোবৰ"
+      },
+      {
+        "en": "24 November",
+        "as": "২৪ নৱেম্বৰ"
+      },
+      {
+        "en": "24 December",
+        "as": "২৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "24 September",
+        "as": "২৪ ছেপ্তেম্বৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Polio Day is observed on 24 October.",
+      "as": "২৪ অক্টোবৰত বিশ্ব পলিঅ' দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-151",
+    "q": {
+      "en": "World Stroke Day is observed on —",
+      "as": "বিশ্ব ষ্ট্ৰোক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "29 November",
+        "as": "২৯ নৱেম্বৰ"
+      },
+      {
+        "en": "29 August",
+        "as": "২৯ আগষ্ট"
+      },
+      {
+        "en": "29 September",
+        "as": "২৯ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "29 October",
+        "as": "২৯ অক্টোবৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Stroke Day is observed on 29 October.",
+      "as": "২৯ অক্টোবৰত বিশ্ব ষ্ট্ৰোক দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-152",
+    "q": {
+      "en": "World Savings Day is observed on —",
+      "as": "বিশ্ব সঞ্চয় দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "31 December",
+        "as": "৩১ ডিচেম্বৰ"
+      },
+      {
+        "en": "31 August",
+        "as": "৩১ আগষ্ট"
+      },
+      {
+        "en": "31 September",
+        "as": "৩১ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "31 October",
+        "as": "৩১ অক্টোবৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Savings Day is observed on 31 October.",
+      "as": "৩১ অক্টোবৰত বিশ্ব সঞ্চয় দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-153",
+    "q": {
+      "en": "National Cancer Awareness Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় কৰ্কট ৰোগ সজাগতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "7 September",
+        "as": "৭ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "7 October",
+        "as": "৭ অক্টোবৰ"
+      },
+      {
+        "en": "7 November",
+        "as": "৭ নৱেম্বৰ"
+      },
+      {
+        "en": "7 December",
+        "as": "৭ ডিচেম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "National Cancer Awareness Day is observed on 7 November.",
+      "as": "৭ নৱেম্বৰত ৰাষ্ট্ৰীয় কৰ্কট ৰোগ সজাগতা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-154",
+    "q": {
+      "en": "World Science Day for Peace and Development is observed on —",
+      "as": "শান্তি আৰু উন্নয়নৰ বাবে বিশ্ব বিজ্ঞান দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "10 December",
+        "as": "১০ ডিচেম্বৰ"
+      },
+      {
+        "en": "10 September",
+        "as": "১০ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "10 October",
+        "as": "১০ অক্টোবৰ"
+      },
+      {
+        "en": "10 November",
+        "as": "১০ নৱেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Science Day for Peace and Development is observed on 10 November.",
+      "as": "১০ নৱেম্বৰত শান্তি আৰু উন্নয়নৰ বাবে বিশ্ব বিজ্ঞান দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-155",
+    "q": {
+      "en": "Public Service Broadcasting Day in India is observed on —",
+      "as": "ভাৰতত ৰাজহুৱা সম্প্ৰচাৰ সেৱা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "12 October",
+        "as": "১২ অক্টোবৰ"
+      },
+      {
+        "en": "12 November",
+        "as": "১২ নৱেম্বৰ"
+      },
+      {
+        "en": "12 December",
+        "as": "১২ ডিচেম্বৰ"
+      },
+      {
+        "en": "12 January",
+        "as": "১২ জানুৱাৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Public Service Broadcasting Day is observed on 12 November.",
+      "as": "১২ নৱেম্বৰত ৰাজহুৱা সম্প্ৰচাৰ সেৱা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-156",
+    "q": {
+      "en": "World Kindness Day is observed on —",
+      "as": "বিশ্ব দয়া দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "13 November",
+        "as": "১৩ নৱেম্বৰ"
+      },
+      {
+        "en": "13 December",
+        "as": "১৩ ডিচেম্বৰ"
+      },
+      {
+        "en": "13 January",
+        "as": "১৩ জানুৱাৰী"
+      },
+      {
+        "en": "13 October",
+        "as": "১৩ অক্টোবৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Kindness Day is observed on 13 November.",
+      "as": "১৩ নৱেম্বৰত বিশ্ব দয়া দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-157",
+    "q": {
+      "en": "National Press Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় সংবাদপত্ৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "16 December",
+        "as": "১৬ ডিচেম্বৰ"
+      },
+      {
+        "en": "16 January",
+        "as": "১৬ জানুৱাৰী"
+      },
+      {
+        "en": "16 October",
+        "as": "১৬ অক্টোবৰ"
+      },
+      {
+        "en": "16 November",
+        "as": "১৬ নৱেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "National Press Day is observed on 16 November.",
+      "as": "১৬ নৱেম্বৰত ৰাষ্ট্ৰীয় সংবাদপত্ৰ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-158",
+    "q": {
+      "en": "World Television Day is observed on —",
+      "as": "বিশ্ব দূৰদৰ্শন দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "21 December",
+        "as": "২১ ডিচেম্বৰ"
+      },
+      {
+        "en": "21 January",
+        "as": "২১ জানুৱাৰী"
+      },
+      {
+        "en": "21 October",
+        "as": "২১ অক্টোবৰ"
+      },
+      {
+        "en": "21 November",
+        "as": "২১ নৱেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Television Day is observed on 21 November.",
+      "as": "২১ নৱেম্বৰত বিশ্ব দূৰদৰ্শন দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-159",
+    "q": {
+      "en": "International Day for the Elimination of Violence against Women is observed on —",
+      "as": "মহিলাৰ বিৰুদ্ধে হিংসা নিৰ্মূলকৰণৰ আন্তৰ্জাতিক দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "25 October",
+        "as": "২৫ অক্টোবৰ"
+      },
+      {
+        "en": "25 November",
+        "as": "২৫ নৱেম্বৰ"
+      },
+      {
+        "en": "25 December",
+        "as": "২৫ ডিচেম্বৰ"
+      },
+      {
+        "en": "25 January",
+        "as": "২৫ জানুৱাৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "This day is observed on 25 November.",
+      "as": "এই দিৱস ২৫ নৱেম্বৰত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-160",
+    "q": {
+      "en": "National Law Day (Constitution Day) in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় আইন দিৱস (সংবিধান দিৱস) কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "26 December",
+        "as": "২৬ ডিচেম্বৰ"
+      },
+      {
+        "en": "26 January",
+        "as": "২৬ জানুৱাৰী"
+      },
+      {
+        "en": "26 October",
+        "as": "২৬ অক্টোবৰ"
+      },
+      {
+        "en": "26 November",
+        "as": "২৬ নৱেম্বৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "National Law Day is observed on 26 November.",
+      "as": "২৬ নৱেম্বৰত ৰাষ্ট্ৰীয় আইন দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-161",
+    "q": {
+      "en": "World Computer Literacy Day is observed on —",
+      "as": "বিশ্ব কম্পিউটাৰ সাক্ষৰতা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "2 March",
+        "as": "২ মাৰ্চ"
+      },
+      {
+        "en": "2 December",
+        "as": "২ ডিচেম্বৰ"
+      },
+      {
+        "en": "2 January",
+        "as": "২ জানুৱাৰী"
+      },
+      {
+        "en": "2 February",
+        "as": "২ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "World Computer Literacy Day is observed on 2 December.",
+      "as": "২ ডিচেম্বৰত বিশ্ব কম্পিউটাৰ সাক্ষৰতা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-162",
+    "q": {
+      "en": "International Civil Aviation Day is observed on —",
+      "as": "আন্তৰ্জাতিক অসামৰিক বিমান চলাচল দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "7 December",
+        "as": "৭ ডিচেম্বৰ"
+      },
+      {
+        "en": "7 January",
+        "as": "৭ জানুৱাৰী"
+      },
+      {
+        "en": "7 October",
+        "as": "৭ অক্টোবৰ"
+      },
+      {
+        "en": "7 November",
+        "as": "৭ নৱেম্বৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "International Civil Aviation Day is observed on 7 December.",
+      "as": "৭ ডিচেম্বৰত আন্তৰ্জাতিক অসামৰিক বিমান চলাচল দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-163",
+    "q": {
+      "en": "International Migrants Day is observed on —",
+      "as": "আন্তৰ্জাতিক প্ৰব্ৰজনকাৰী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "18 November",
+        "as": "১৮ নৱেম্বৰ"
+      },
+      {
+        "en": "18 December",
+        "as": "১৮ ডিচেম্বৰ"
+      },
+      {
+        "en": "18 January",
+        "as": "১৮ জানুৱাৰী"
+      },
+      {
+        "en": "18 October",
+        "as": "১৮ অক্টোবৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "International Migrants Day is observed on 18 December.",
+      "as": "১৮ ডিচেম্বৰত আন্তৰ্জাতিক প্ৰব্ৰজনকাৰী দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-164",
+    "q": {
+      "en": "International Human Solidarity Day is observed on —",
+      "as": "আন্তৰ্জাতিক মানৱ ঐক্য দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "20 October",
+        "as": "২০ অক্টোবৰ"
+      },
+      {
+        "en": "20 November",
+        "as": "২০ নৱেম্বৰ"
+      },
+      {
+        "en": "20 December",
+        "as": "২০ ডিচেম্বৰ"
+      },
+      {
+        "en": "20 January",
+        "as": "২০ জানুৱাৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "International Human Solidarity Day is observed on 20 December.",
+      "as": "২০ ডিচেম্বৰত আন্তৰ্জাতিক মানৱ ঐক্য দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-165",
+    "q": {
+      "en": "Kisan Diwas (National Farmers' Day) is observed in India on —",
+      "as": "ভাৰতত কিষাণ দিৱস (ৰাষ্ট্ৰীয় কৃষক দিৱস) কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "23 November",
+        "as": "২৩ নৱেম্বৰ"
+      },
+      {
+        "en": "23 December",
+        "as": "২৩ ডিচেম্বৰ"
+      },
+      {
+        "en": "23 January",
+        "as": "২৩ জানুৱাৰী"
+      },
+      {
+        "en": "23 October",
+        "as": "২৩ অক্টোবৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kisan Diwas is observed on 23 December, the birthday of Chaudhary Charan Singh.",
+      "as": "চৌধুৰী চৰণ সিংহৰ জন্মদিন ২৩ ডিচেম্বৰত কিষাণ দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-166",
+    "q": {
+      "en": "National Consumer Day in India is observed on —",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় উপভোক্তা দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "24 October",
+        "as": "২৪ অক্টোবৰ"
+      },
+      {
+        "en": "24 November",
+        "as": "২৪ নৱেম্বৰ"
+      },
+      {
+        "en": "24 December",
+        "as": "২৪ ডিচেম্বৰ"
+      },
+      {
+        "en": "24 January",
+        "as": "২৪ জানুৱাৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "National Consumer Day is observed on 24 December.",
+      "as": "২৪ ডিচেম্বৰত ৰাষ্ট্ৰীয় উপভোক্তা দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-167",
+    "q": {
+      "en": "New Year's Day is celebrated on —",
+      "as": "নতুন বছৰৰ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "1 March",
+        "as": "১ মাৰ্চ"
+      },
+      {
+        "en": "1 April",
+        "as": "১ এপ্ৰিল"
+      },
+      {
+        "en": "1 January",
+        "as": "১ জানুৱাৰী"
+      },
+      {
+        "en": "1 February",
+        "as": "১ ফেব্ৰুৱাৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "New Year's Day is celebrated on 1 January.",
+      "as": "নতুন বছৰৰ দিৱস ১ জানুৱাৰীত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-168",
+    "q": {
+      "en": "World Hindi Day is observed on —",
+      "as": "বিশ্ব হিন্দী দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "10 January",
+        "as": "১০ জানুৱাৰী"
+      },
+      {
+        "en": "10 February",
+        "as": "১০ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "10 March",
+        "as": "১০ মাৰ্চ"
+      },
+      {
+        "en": "10 April",
+        "as": "১০ এপ্ৰিল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Hindi Day is observed on 10 January.",
+      "as": "১০ জানুৱাৰীত বিশ্ব হিন্দী দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-169",
+    "q": {
+      "en": "World Day of War Orphans is observed on —",
+      "as": "যুদ্ধৰ অনাথ শিশুৰ বিশ্ব দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "6 January",
+        "as": "৬ জানুৱাৰী"
+      },
+      {
+        "en": "6 February",
+        "as": "৬ ফেব্ৰুৱাৰী"
+      },
+      {
+        "en": "6 March",
+        "as": "৬ মাৰ্চ"
+      },
+      {
+        "en": "6 April",
+        "as": "৬ এপ্ৰিল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "World Day of War Orphans is observed on 6 January.",
+      "as": "৬ জানুৱাৰীত যুদ্ধৰ অনাথ শিশুৰ বিশ্ব দিৱস পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "important-days-dates-170",
+    "q": {
+      "en": "World Leprosy Day is observed on —",
+      "as": "বিশ্ব কুষ্ঠ ৰোগ দিৱস কেতিয়া পালন কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "Last Sunday of March",
+        "as": "মাৰ্চ মাহৰ শেষ দেওবাৰ"
+      },
+      {
+        "en": "Last Sunday of June",
+        "as": "জুন মাহৰ শেষ দেওবাৰ"
+      },
+      {
+        "en": "Last Sunday of December",
+        "as": "ডিচেম্বৰ মাহৰ শেষ দেওবাৰ"
+      },
+      {
+        "en": "Last Sunday of January",
+        "as": "জানুৱাৰী মাহৰ শেষ দেওবাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "World Leprosy Day is observed on the last Sunday of January.",
+      "as": "জানুৱাৰী মাহৰ শেষ দেওবাৰে বিশ্ব কুষ্ঠ ৰোগ দিৱস পালন কৰা হয়।"
+    }
   }
-}
+]
