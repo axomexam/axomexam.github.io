@@ -1,30 +1,1532 @@
-{
-  "id": "coding-decoding-001",
-  "q": {
-    "en": "If CAT is coded as DBU, then DOG is coded as —",
-    "as": "যদি CAT ক DBU হিচাপে সংকেত কৰা হয়, তেন্তে DOG ক — হিচাপে সংকেত কৰা হয়"
-  },
-  "options": [
-    {
-      "en": "EPH",
-      "as": "EPH"
+[
+  {
+    "id": "coding-decoding-001",
+    "q": {
+      "en": "In a certain code, 'MAN' is written as 'NBO'. How is 'CAN' written in that code?",
+      "as": "এটা নিৰ্দিষ্ট ক'ডত 'MAN' ক 'NBO' বুলি লিখা হয়। সেই ক'ডত 'CAN' ক কেনেকৈ লিখা হ'ব?"
     },
-    {
-      "en": "EPG",
-      "as": "EPG"
-    },
-    {
-      "en": "FPH",
-      "as": "FPH"
-    },
-    {
-      "en": "DPH",
-      "as": "DPH"
+    "options": [
+      {
+        "en": "DBO",
+        "as": "DBO"
+      },
+      {
+        "en": "DBP",
+        "as": "DBP"
+      },
+      {
+        "en": "CBO",
+        "as": "CBO"
+      },
+      {
+        "en": "EBO",
+        "as": "EBO"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each letter is moved one step forward, so C-A-N becomes D-B-O.",
+      "as": "প্ৰতিটো আখৰ এটা স্তৰ আগুৱাই দিয়া হৈছে, সেয়ে C-A-N → D-B-O।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "Each letter moves one step forward: D→E, O→P, G→H.",
-    "as": "প্ৰতিটো আখৰ এখাপ আগলৈ যায়: D→E, O→P, G→H।"
+  },
+  {
+    "id": "coding-decoding-002",
+    "q": {
+      "en": "If 'PEN' is written as 'QFO', how is 'INK' written in that code?",
+      "as": "যদি 'PEN' ক 'QFO' বুলি লিখা হয়, তেন্তে 'INK' ক কেনেকৈ লিখা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "JOK",
+        "as": "JOK"
+      },
+      {
+        "en": "JOL",
+        "as": "JOL"
+      },
+      {
+        "en": "KOL",
+        "as": "KOL"
+      },
+      {
+        "en": "IOL",
+        "as": "IOL"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each letter is moved one step forward, so I-N-K becomes J-O-L.",
+      "as": "প্ৰতিটো আখৰ এটা স্তৰ আগুৱাই, সেয়ে I-N-K → J-O-L।"
+    }
+  },
+  {
+    "id": "coding-decoding-003",
+    "q": {
+      "en": "If 'BOOK' is written as 'CPPL', how is 'PEN' written in that code?",
+      "as": "যদি 'BOOK' ক 'CPPL' বুলি লিখা হয়, তেন্তে 'PEN' ক কেনেকৈ লিখা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "QFP",
+        "as": "QFP"
+      },
+      {
+        "en": "PFO",
+        "as": "PFO"
+      },
+      {
+        "en": "QFO",
+        "as": "QFO"
+      },
+      {
+        "en": "RGP",
+        "as": "RGP"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each letter is shifted one step forward, so P-E-N becomes Q-F-O.",
+      "as": "প্ৰতিটো আখৰ এটা স্তৰ আগুৱাই, সেয়ে P-E-N → Q-F-O।"
+    }
+  },
+  {
+    "id": "coding-decoding-004",
+    "q": {
+      "en": "If 'DELHI' is written as 'EFMIJ', how is 'MUMBAI' written in that code?",
+      "as": "যদি 'DELHI' ক 'EFMIJ' বুলি লিখা হয়, তেন্তে 'MUMBAI' ক কেনেকৈ লিখা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "NVNCBK",
+        "as": "NVNCBK"
+      },
+      {
+        "en": "NUMBAJ",
+        "as": "NUMBAJ"
+      },
+      {
+        "en": "OVOCBJ",
+        "as": "OVOCBJ"
+      },
+      {
+        "en": "NVNCBJ",
+        "as": "NVNCBJ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each letter is shifted one step forward, so MUMBAI becomes NVNCBJ.",
+      "as": "প্ৰতিটো আখৰ এটা স্তৰ আগুৱাই, সেয়ে MUMBAI → NVNCBJ।"
+    }
+  },
+  {
+    "id": "coding-decoding-005",
+    "q": {
+      "en": "If 'CHENNAI' is written as 'DIFOOBJ', how is 'KOLKATA' written in that code?",
+      "as": "যদি 'CHENNAI' ক 'DIFOOBJ' বুলি লিখা হয়, তেন্তে 'KOLKATA' ক কেনেকৈ লিখা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "LPMLBUB",
+        "as": "LPMLBUB"
+      },
+      {
+        "en": "LPMLBUC",
+        "as": "LPMLBUC"
+      },
+      {
+        "en": "KOLKATA",
+        "as": "KOLKATA"
+      },
+      {
+        "en": "LPMKBUB",
+        "as": "LPMKBUB"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Every letter moves one step forward, so KOLKATA becomes LPMLBUB.",
+      "as": "প্ৰতিটো আখৰ এটা স্তৰ আগুৱাই, সেয়ে KOLKATA → LPMLBUB।"
+    }
+  },
+  {
+    "id": "coding-decoding-006",
+    "q": {
+      "en": "If 'MOTHER' is written as 'NPUIFS', how is 'FATHER' written in that code?",
+      "as": "যদি 'MOTHER' ক 'NPUIFS' বুলি লিখা হয়, তেন্তে 'FATHER' ক কেনেকৈ লিখা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "GBUIFR",
+        "as": "GBUIFR"
+      },
+      {
+        "en": "GBUIFS",
+        "as": "GBUIFS"
+      },
+      {
+        "en": "GAUIFS",
+        "as": "GAUIFS"
+      },
+      {
+        "en": "FBUIFS",
+        "as": "FBUIFS"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each letter is shifted one step forward, so FATHER becomes GBUIFS.",
+      "as": "প্ৰতিটো আখৰ এটা স্তৰ আগুৱাই, সেয়ে FATHER → GBUIFS।"
+    }
+  },
+  {
+    "id": "coding-decoding-007",
+    "q": {
+      "en": "If 'FRIEND' is written as 'GSJFOE', how is 'FAMILY' written in that code?",
+      "as": "যদি 'FRIEND' ক 'GSJFOE' বুলি লিখা হয়, তেন্তে 'FAMILY' ক কেনেকৈ লিখা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "GBNJMZA",
+        "as": "GBNJMZA"
+      },
+      {
+        "en": "FAMILZ",
+        "as": "FAMILZ"
+      },
+      {
+        "en": "GBNJMZ",
+        "as": "GBNJMZ"
+      },
+      {
+        "en": "GBMJNZ",
+        "as": "GBMJNZ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each letter is shifted one step forward, so FAMILY becomes GBNJMZ.",
+      "as": "প্ৰতিটো আখৰ এটা স্তৰ আগুৱাই, সেয়ে FAMILY → GBNJMZ।"
+    }
+  },
+  {
+    "id": "coding-decoding-008",
+    "q": {
+      "en": "If 'NATION' is written as 'OBUJPO', how is 'INDIA' written in that code?",
+      "as": "যদি 'NATION' ক 'OBUJPO' বুলি লিখা হয়, তেন্তে 'INDIA' ক কেনেকৈ লিখা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "JOEJC",
+        "as": "JOEJC"
+      },
+      {
+        "en": "HNDJB",
+        "as": "HNDJB"
+      },
+      {
+        "en": "JODJB",
+        "as": "JODJB"
+      },
+      {
+        "en": "JOEJB",
+        "as": "JOEJB"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each letter moves one step forward, so INDIA becomes JOEJB.",
+      "as": "প্ৰতিটো আখৰ এটা স্তৰ আগুৱাই, সেয়ে INDIA → JOEJB।"
+    }
+  },
+  {
+    "id": "coding-decoding-009",
+    "q": {
+      "en": "In a certain code, 'CAT' is written as 'ECV'. How is 'DOG' written in that code?",
+      "as": "এটা নিৰ্দিষ্ট ক'ডত 'CAT' ক 'ECV' বুলি লিখা হয়। সেই ক'ডত 'DOG' ক কেনেকৈ লিখা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "FQI",
+        "as": "FQI"
+      },
+      {
+        "en": "FQJ",
+        "as": "FQJ"
+      },
+      {
+        "en": "EQI",
+        "as": "EQI"
+      },
+      {
+        "en": "FPI",
+        "as": "FPI"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each letter is moved two steps forward, so D-O-G becomes F-Q-I.",
+      "as": "প্ৰতিটো আখৰ দুটা স্তৰ আগুৱাই, সেয়ে D-O-G → F-Q-I।"
+    }
+  },
+  {
+    "id": "coding-decoding-010",
+    "q": {
+      "en": "If each letter of a word is moved two steps forward, how is 'FAN' written?",
+      "as": "যদি শব্দৰ প্ৰতিটো আখৰ দুটা স্তৰ আগুৱাই দিয়া হয়, তেন্তে 'FAN' ক কেনেকৈ লিখা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "HCQ",
+        "as": "HCQ"
+      },
+      {
+        "en": "HCP",
+        "as": "HCP"
+      },
+      {
+        "en": "GCP",
+        "as": "GCP"
+      },
+      {
+        "en": "HBP",
+        "as": "HBP"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "F to H, A to C and N to P, so FAN becomes HCP.",
+      "as": "F→H, A→C আৰু N→P, সেয়ে FAN → HCP।"
+    }
+  },
+  {
+    "id": "coding-decoding-011",
+    "q": {
+      "en": "If 'TIGER' is written as 'SHFDQ', how is 'LION' written in that code?",
+      "as": "যদি 'TIGER' ক 'SHFDQ' বুলি লিখা হয়, তেন্তে 'LION' ক কেনেকৈ লিখা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "KHNN",
+        "as": "KHNN"
+      },
+      {
+        "en": "JHNM",
+        "as": "JHNM"
+      },
+      {
+        "en": "KHNM",
+        "as": "KHNM"
+      },
+      {
+        "en": "KHML",
+        "as": "KHML"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each letter is moved one step backward, so LION becomes KHNM.",
+      "as": "প্ৰতিটো আখৰ এটা স্তৰ পিছলৈ, সেয়ে LION → KHNM।"
+    }
+  },
+  {
+    "id": "coding-decoding-012",
+    "q": {
+      "en": "If each letter is moved one step backward, how is 'CAT' written?",
+      "as": "যদি প্ৰতিটো আখৰ এটা স্তৰ পিছলৈ লৈ যোৱা হয়, তেন্তে 'CAT' ক কেনেকৈ লিখা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "BZT",
+        "as": "BZT"
+      },
+      {
+        "en": "AZS",
+        "as": "AZS"
+      },
+      {
+        "en": "BZR",
+        "as": "BZR"
+      },
+      {
+        "en": "BZS",
+        "as": "BZS"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "C to B, A to Z and T to S, so CAT becomes BZS.",
+      "as": "C→B, A→Z আৰু T→S, সেয়ে CAT → BZS।"
+    }
+  },
+  {
+    "id": "coding-decoding-013",
+    "q": {
+      "en": "If each letter is moved two steps backward, how is 'DOG' written?",
+      "as": "যদি প্ৰতিটো আখৰ দুটা স্তৰ পিছলৈ লৈ যোৱা হয়, তেন্তে 'DOG' ক কেনেকৈ লিখা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "BME",
+        "as": "BME"
+      },
+      {
+        "en": "BMF",
+        "as": "BMF"
+      },
+      {
+        "en": "CME",
+        "as": "CME"
+      },
+      {
+        "en": "BNE",
+        "as": "BNE"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "D to B, O to M and G to E, so DOG becomes BME.",
+      "as": "D→B, O→M আৰু G→E, সেয়ে DOG → BME।"
+    }
+  },
+  {
+    "id": "coding-decoding-014",
+    "q": {
+      "en": "If 'MILK' is coded by moving each letter two steps backward, what is the code?",
+      "as": "যদি 'MILK' ক প্ৰতিটো আখৰ দুটা স্তৰ পিছলৈ লৈ গৈ ক'ড কৰা হয়, তেন্তে ক'ড কি?"
+    },
+    "options": [
+      {
+        "en": "KGJJ",
+        "as": "KGJJ"
+      },
+      {
+        "en": "KGJI",
+        "as": "KGJI"
+      },
+      {
+        "en": "LGJI",
+        "as": "LGJI"
+      },
+      {
+        "en": "KHJI",
+        "as": "KHJI"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "M to K, I to G, L to J and K to I, so MILK becomes KGJI.",
+      "as": "M→K, I→G, L→J আৰু K→I, সেয়ে MILK → KGJI।"
+    }
+  },
+  {
+    "id": "coding-decoding-015",
+    "q": {
+      "en": "If A is coded as Z, B as Y, C as X and so on, how is 'CAT' coded?",
+      "as": "যদি A ক Z, B ক Y, C ক X আৰু এইদৰে ক'ড কৰা হয়, তেন্তে 'CAT' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "XZF",
+        "as": "XZF"
+      },
+      {
+        "en": "YZG",
+        "as": "YZG"
+      },
+      {
+        "en": "XZG",
+        "as": "XZG"
+      },
+      {
+        "en": "XSH",
+        "as": "XSH"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Reverse alphabet: C to X, A to Z and T to G, so CAT becomes XZG.",
+      "as": "বিপৰীত বৰ্ণমালা: C→X, A→Z আৰু T→G, সেয়ে CAT → XZG।"
+    }
+  },
+  {
+    "id": "coding-decoding-016",
+    "q": {
+      "en": "In a reverse alphabet code (A=Z, B=Y, ...), how is 'DOG' coded?",
+      "as": "বিপৰীত বৰ্ণমালা ক'ডত (A=Z, B=Y, ...), 'DOG' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "WLU",
+        "as": "WLU"
+      },
+      {
+        "en": "VLT",
+        "as": "VLT"
+      },
+      {
+        "en": "WLS",
+        "as": "WLS"
+      },
+      {
+        "en": "WLT",
+        "as": "WLT"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "D to W, O to L and G to T, so DOG becomes WLT.",
+      "as": "D→W, O→L আৰু G→T, সেয়ে DOG → WLT।"
+    }
+  },
+  {
+    "id": "coding-decoding-017",
+    "q": {
+      "en": "If 'FRIEND' is coded as 'UIRVMW', how is 'MOTHER' coded in the same code?",
+      "as": "যদি 'FRIEND' ক 'UIRVMW' বুলি ক'ড কৰা হয়, তেন্তে একে ক'ডত 'MOTHER' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "NLGSVI",
+        "as": "NLGSVI"
+      },
+      {
+        "en": "NLGSVJ",
+        "as": "NLGSVJ"
+      },
+      {
+        "en": "MLGSVI",
+        "as": "MLGSVI"
+      },
+      {
+        "en": "NLGTVI",
+        "as": "NLGTVI"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "This is the reverse alphabet code, so MOTHER becomes NLGSVI.",
+      "as": "এইটো বিপৰীত বৰ্ণমালা ক'ড, সেয়ে MOTHER → NLGSVI।"
+    }
+  },
+  {
+    "id": "coding-decoding-018",
+    "q": {
+      "en": "If A=Z, B=Y, C=X and so on, how is 'ABC' coded?",
+      "as": "যদি A=Z, B=Y, C=X আৰু এইদৰে হয়, তেন্তে 'ABC' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "ZYW",
+        "as": "ZYW"
+      },
+      {
+        "en": "ZYX",
+        "as": "ZYX"
+      },
+      {
+        "en": "YZX",
+        "as": "YZX"
+      },
+      {
+        "en": "ZYA",
+        "as": "ZYA"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A to Z, B to Y and C to X, so ABC becomes ZYX.",
+      "as": "A→Z, B→Y আৰু C→X, সেয়ে ABC → ZYX।"
+    }
+  },
+  {
+    "id": "coding-decoding-019",
+    "q": {
+      "en": "In a reverse alphabet code (A=Z, B=Y, ...), how is 'SKY' coded?",
+      "as": "বিপৰীত বৰ্ণমালা ক'ডত (A=Z, B=Y, ...), 'SKY' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "HPC",
+        "as": "HPC"
+      },
+      {
+        "en": "GPB",
+        "as": "GPB"
+      },
+      {
+        "en": "HPB",
+        "as": "HPB"
+      },
+      {
+        "en": "HQB",
+        "as": "HQB"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "S to H, K to P and Y to B, so SKY becomes HPB.",
+      "as": "S→H, K→P আৰু Y→B, সেয়ে SKY → HPB।"
+    }
+  },
+  {
+    "id": "coding-decoding-020",
+    "q": {
+      "en": "If A=1, B=2, C=3, ..., Z=26, what is the code of 'CAT' obtained by adding the values of its letters?",
+      "as": "যদি A=1, B=2, C=3, ..., Z=26, তেন্তে আখৰবোৰৰ মান যোগ কৰি 'CAT' ৰ ক'ড কি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "25"
+      },
+      {
+        "en": "23",
+        "as": "23"
+      },
+      {
+        "en": "20",
+        "as": "20"
+      },
+      {
+        "en": "24",
+        "as": "24"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "C=3, A=1, T=20; 3+1+20 = 24.",
+      "as": "C=3, A=1, T=20; 3+1+20 = 24।"
+    }
+  },
+  {
+    "id": "coding-decoding-021",
+    "q": {
+      "en": "If A=1, B=2, ..., Z=26, what is the sum of the letter values of 'DOG'?",
+      "as": "যদি A=1, B=2, ..., Z=26, তেন্তে 'DOG' ৰ আখৰবোৰৰ মানৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "26",
+        "as": "26"
+      },
+      {
+        "en": "25",
+        "as": "25"
+      },
+      {
+        "en": "27",
+        "as": "27"
+      },
+      {
+        "en": "24",
+        "as": "24"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "D=4, O=15, G=7; 4+15+7 = 26.",
+      "as": "D=4, O=15, G=7; 4+15+7 = 26।"
+    }
+  },
+  {
+    "id": "coding-decoding-022",
+    "q": {
+      "en": "If A=1, B=2, ..., Z=26, what is the sum of the letter values of 'BALL'?",
+      "as": "যদি A=1, B=2, ..., Z=26, তেন্তে 'BALL' ৰ আখৰবোৰৰ মানৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "28"
+      },
+      {
+        "en": "27",
+        "as": "27"
+      },
+      {
+        "en": "26",
+        "as": "26"
+      },
+      {
+        "en": "29",
+        "as": "29"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "B=2, A=1, L=12, L=12; 2+1+12+12 = 27.",
+      "as": "B=2, A=1, L=12, L=12; 2+1+12+12 = 27।"
+    }
+  },
+  {
+    "id": "coding-decoding-023",
+    "q": {
+      "en": "If A=1, B=2, ..., Z=26, what is the sum of the letter values of 'HI'?",
+      "as": "যদি A=1, B=2, ..., Z=26, তেন্তে 'HI' ৰ আখৰবোৰৰ মানৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "18"
+      },
+      {
+        "en": "16",
+        "as": "16"
+      },
+      {
+        "en": "17",
+        "as": "17"
+      },
+      {
+        "en": "19",
+        "as": "19"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "H=8 and I=9; 8+9 = 17.",
+      "as": "H=8 আৰু I=9; 8+9 = 17।"
+    }
+  },
+  {
+    "id": "coding-decoding-024",
+    "q": {
+      "en": "If A=26, B=25, ..., Z=1, what is the sum of the letter values of 'CAT'?",
+      "as": "যদি A=26, B=25, ..., Z=1, তেন্তে 'CAT' ৰ আখৰবোৰৰ মানৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "56",
+        "as": "56"
+      },
+      {
+        "en": "58",
+        "as": "58"
+      },
+      {
+        "en": "24",
+        "as": "24"
+      },
+      {
+        "en": "57",
+        "as": "57"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "C=24, A=26, T=7; 24+26+7 = 57.",
+      "as": "C=24, A=26, T=7; 24+26+7 = 57।"
+    }
+  },
+  {
+    "id": "coding-decoding-025",
+    "q": {
+      "en": "If A=26, B=25, ..., Z=1, what is the sum of the letter values of 'DOG'?",
+      "as": "যদি A=26, B=25, ..., Z=1, তেন্তে 'DOG' ৰ আখৰবোৰৰ মানৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "55",
+        "as": "55"
+      },
+      {
+        "en": "54",
+        "as": "54"
+      },
+      {
+        "en": "56",
+        "as": "56"
+      },
+      {
+        "en": "26",
+        "as": "26"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "D=23, O=12, G=20; 23+12+20 = 55.",
+      "as": "D=23, O=12, G=20; 23+12+20 = 55।"
+    }
+  },
+  {
+    "id": "coding-decoding-026",
+    "q": {
+      "en": "If A=26, B=25, ..., Z=1, what is the sum of the letter values of 'HI'?",
+      "as": "যদি A=26, B=25, ..., Z=1, তেন্তে 'HI' ৰ আখৰবোৰৰ মানৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "36"
+      },
+      {
+        "en": "37",
+        "as": "37"
+      },
+      {
+        "en": "38",
+        "as": "38"
+      },
+      {
+        "en": "17",
+        "as": "17"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "H=19 and I=18; 19+18 = 37.",
+      "as": "H=19 আৰু I=18; 19+18 = 37।"
+    }
+  },
+  {
+    "id": "coding-decoding-027",
+    "q": {
+      "en": "If 'WORD' is coded as 'DROW', how is 'FLOW' coded in the same code?",
+      "as": "যদি 'WORD' ক 'DROW' বুলি ক'ড কৰা হয়, তেন্তে একে ক'ডত 'FLOW' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "WOLG",
+        "as": "WOLG"
+      },
+      {
+        "en": "FOLW",
+        "as": "FOLW"
+      },
+      {
+        "en": "WOLF",
+        "as": "WOLF"
+      },
+      {
+        "en": "WLOW",
+        "as": "WLOW"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The letters are written in reverse order, so FLOW becomes WOLF.",
+      "as": "আখৰবোৰ ওলোটা ক্ৰমত লিখা হয়, সেয়ে FLOW → WOLF।"
+    }
+  },
+  {
+    "id": "coding-decoding-028",
+    "q": {
+      "en": "If the letters of a word are written in reverse order, how is 'SMART' written?",
+      "as": "যদি শব্দৰ আখৰবোৰ ওলোটা ক্ৰমত লিখা হয়, তেন্তে 'SMART' ক কেনেকৈ লিখা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "TMARS",
+        "as": "TMARS"
+      },
+      {
+        "en": "TRAMZ",
+        "as": "TRAMZ"
+      },
+      {
+        "en": "SRAMS",
+        "as": "SRAMS"
+      },
+      {
+        "en": "TRAMS",
+        "as": "TRAMS"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Reversing SMART gives TRAMS.",
+      "as": "SMART ওলোটালে TRAMS হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-029",
+    "q": {
+      "en": "If 'TIGER' is coded as 'REGIT', how is 'LION' coded in the same code?",
+      "as": "যদি 'TIGER' ক 'REGIT' বুলি ক'ড কৰা হয়, তেন্তে একে ক'ডত 'LION' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "NOIL",
+        "as": "NOIL"
+      },
+      {
+        "en": "NOLI",
+        "as": "NOLI"
+      },
+      {
+        "en": "LOIN",
+        "as": "LOIN"
+      },
+      {
+        "en": "NOIM",
+        "as": "NOIM"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The word is reversed, so LION becomes NOIL.",
+      "as": "শব্দটো ওলোটা কৰা হয়, সেয়ে LION → NOIL।"
+    }
+  },
+  {
+    "id": "coding-decoding-030",
+    "q": {
+      "en": "If a word is coded by reversing its letters, how is 'KITE' coded?",
+      "as": "যদি শব্দ এটা আখৰ ওলোটা কৰি ক'ড কৰা হয়, তেন্তে 'KITE' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "EITK",
+        "as": "EITK"
+      },
+      {
+        "en": "ETIK",
+        "as": "ETIK"
+      },
+      {
+        "en": "TIEK",
+        "as": "TIEK"
+      },
+      {
+        "en": "ETKI",
+        "as": "ETKI"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Reversing KITE gives ETIK.",
+      "as": "KITE ওলোটালে ETIK হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-031",
+    "q": {
+      "en": "If the first and the last letters of a word are interchanged, how is 'LAMP' coded?",
+      "as": "যদি শব্দৰ প্ৰথম আৰু শেষ আখৰ সালসলনি কৰা হয়, তেন্তে 'LAMP' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "PMLA",
+        "as": "PMLA"
+      },
+      {
+        "en": "LAPM",
+        "as": "LAPM"
+      },
+      {
+        "en": "PAML",
+        "as": "PAML"
+      },
+      {
+        "en": "MALP",
+        "as": "MALP"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Swapping L and P gives PAML.",
+      "as": "L আৰু P সালসলনি কৰিলে PAML হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-032",
+    "q": {
+      "en": "If 'TIGER' is coded as 'RIGET' (first and last letters interchanged), how is 'SMART' coded?",
+      "as": "যদি 'TIGER' ক 'RIGET' বুলি ক'ড কৰা হয় (প্ৰথম আৰু শেষ আখৰ সালসলনি কৰি), তেন্তে 'SMART' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "TMRAS",
+        "as": "TMRAS"
+      },
+      {
+        "en": "TMASR",
+        "as": "TMASR"
+      },
+      {
+        "en": "SMARS",
+        "as": "SMARS"
+      },
+      {
+        "en": "TMARS",
+        "as": "TMARS"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Swapping S and T gives TMARS.",
+      "as": "S আৰু T সালসলনি কৰিলে TMARS হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-033",
+    "q": {
+      "en": "If the first and the last letters of a word are interchanged, how is 'WORLD' coded?",
+      "as": "যদি শব্দৰ প্ৰথম আৰু শেষ আখৰ সালসলনি কৰা হয়, তেন্তে 'WORLD' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "DORLW",
+        "as": "DORLW"
+      },
+      {
+        "en": "DORWL",
+        "as": "DORWL"
+      },
+      {
+        "en": "WODRL",
+        "as": "WODRL"
+      },
+      {
+        "en": "DOLRW",
+        "as": "DOLRW"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Swapping W and D gives DORLW.",
+      "as": "W আৰু D সালসলনি কৰিলে DORLW হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-034",
+    "q": {
+      "en": "If the first letter is moved to the end of the word, how is 'CAT' coded?",
+      "as": "যদি প্ৰথম আখৰটো শব্দৰ শেষত লৈ যোৱা হয়, তেন্তে 'CAT' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "TCA",
+        "as": "TCA"
+      },
+      {
+        "en": "ATC",
+        "as": "ATC"
+      },
+      {
+        "en": "CTA",
+        "as": "CTA"
+      },
+      {
+        "en": "ACT",
+        "as": "ACT"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "C moves to the end, so CAT becomes ATC.",
+      "as": "C শেষলৈ যায়, সেয়ে CAT → ATC।"
+    }
+  },
+  {
+    "id": "coding-decoding-035",
+    "q": {
+      "en": "If the first letter of a word is moved to the end, how is 'DOG' coded?",
+      "as": "যদি শব্দৰ প্ৰথম আখৰ শেষত লৈ যোৱা হয়, তেন্তে 'DOG' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "GOD",
+        "as": "GOD"
+      },
+      {
+        "en": "DGO",
+        "as": "DGO"
+      },
+      {
+        "en": "OGD",
+        "as": "OGD"
+      },
+      {
+        "en": "ODG",
+        "as": "ODG"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "D moves to the end, so DOG becomes OGD.",
+      "as": "D শেষলৈ যায়, সেয়ে DOG → OGD।"
+    }
+  },
+  {
+    "id": "coding-decoding-036",
+    "q": {
+      "en": "If the first letter is moved to the end of the word, how is 'TIGER' coded?",
+      "as": "যদি প্ৰথম আখৰটো শব্দৰ শেষত লৈ যোৱা হয়, তেন্তে 'TIGER' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "RIGET",
+        "as": "RIGET"
+      },
+      {
+        "en": "TIGRE",
+        "as": "TIGRE"
+      },
+      {
+        "en": "IGRET",
+        "as": "IGRET"
+      },
+      {
+        "en": "IGERT",
+        "as": "IGERT"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "T moves to the end, so TIGER becomes IGERT.",
+      "as": "T শেষলৈ যায়, সেয়ে TIGER → IGERT।"
+    }
+  },
+  {
+    "id": "coding-decoding-037",
+    "q": {
+      "en": "If a word is divided into two equal halves and the halves are interchanged, how is 'WORD' coded?",
+      "as": "যদি শব্দ এটা দুটা সমান অংশত ভাগ কৰি অংশ দুটা সালসলনি কৰা হয়, তেন্তে 'WORD' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "RDWO",
+        "as": "RDWO"
+      },
+      {
+        "en": "WODR",
+        "as": "WODR"
+      },
+      {
+        "en": "DROW",
+        "as": "DROW"
+      },
+      {
+        "en": "ROWD",
+        "as": "ROWD"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "WO and RD interchange, so WORD becomes RDWO.",
+      "as": "WO আৰু RD সালসলনি হৈ WORD → RDWO হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-038",
+    "q": {
+      "en": "If 'LAMP' is coded as 'MPLA' (halves interchanged), how is 'KITE' coded?",
+      "as": "যদি 'LAMP' ক 'MPLA' বুলি ক'ড কৰা হয় (অংশ দুটা সালসলনি), তেন্তে 'KITE' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "KITE",
+        "as": "KITE"
+      },
+      {
+        "en": "TEKI",
+        "as": "TEKI"
+      },
+      {
+        "en": "TIEK",
+        "as": "TIEK"
+      },
+      {
+        "en": "EKIT",
+        "as": "EKIT"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "KI and TE interchange, so KITE becomes TEKI.",
+      "as": "KI আৰু TE সালসলনি হৈ KITE → TEKI হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-039",
+    "q": {
+      "en": "If a word is divided into two equal halves and they are interchanged, how is 'FLOW' coded?",
+      "as": "যদি শব্দ এটা দুটা সমান অংশত ভাগ কৰি সলনি কৰা হয়, তেন্তে 'FLOW' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "WOLF",
+        "as": "WOLF"
+      },
+      {
+        "en": "FOWL",
+        "as": "FOWL"
+      },
+      {
+        "en": "OWFL",
+        "as": "OWFL"
+      },
+      {
+        "en": "OWLF",
+        "as": "OWLF"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "FL and OW interchange, so FLOW becomes OWFL.",
+      "as": "FL আৰু OW সালসলনি হৈ FLOW → OWFL হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-040",
+    "q": {
+      "en": "If letters at odd places are moved one step forward and letters at even places one step backward, how is 'BOAT' coded?",
+      "as": "যদি অযুগ্ম স্থানৰ আখৰ এটা স্তৰ আগুৱাই আৰু যুগ্ম স্থানৰ আখৰ এটা স্তৰ পিছলৈ লৈ যোৱা হয়, তেন্তে 'BOAT' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "CNBR",
+        "as": "CNBR"
+      },
+      {
+        "en": "BNBS",
+        "as": "BNBS"
+      },
+      {
+        "en": "CNCS",
+        "as": "CNCS"
+      },
+      {
+        "en": "CNBS",
+        "as": "CNBS"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "B+1=C, O-1=N, A+1=B, T-1=S, so BOAT becomes CNBS.",
+      "as": "B+1=C, O-1=N, A+1=B, T-1=S, সেয়ে BOAT → CNBS।"
+    }
+  },
+  {
+    "id": "coding-decoding-041",
+    "q": {
+      "en": "If letters at odd places are moved one step forward and those at even places one step backward, how is 'SKY' coded?",
+      "as": "যদি অযুগ্ম স্থানৰ আখৰ এটা স্তৰ আগুৱাই আৰু যুগ্ম স্থানৰ আখৰ এটা স্তৰ পিছলৈ যায়, তেন্তে 'SKY' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "TJZ",
+        "as": "TJZ"
+      },
+      {
+        "en": "TIZ",
+        "as": "TIZ"
+      },
+      {
+        "en": "TJY",
+        "as": "TJY"
+      },
+      {
+        "en": "SKZ",
+        "as": "SKZ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "S+1=T, K-1=J, Y+1=Z, so SKY becomes TJZ.",
+      "as": "S+1=T, K-1=J, Y+1=Z, সেয়ে SKY → TJZ।"
+    }
+  },
+  {
+    "id": "coding-decoding-042",
+    "q": {
+      "en": "If the first, second and third letters are moved 1, 2 and 3 steps forward respectively, how is 'CAT' coded?",
+      "as": "যদি প্ৰথম, দ্বিতীয় আৰু তৃতীয় আখৰক ক্ৰমে 1, 2 আৰু 3 স্তৰ আগুৱাই দিয়া হয়, তেন্তে 'CAT' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "DBW",
+        "as": "DBW"
+      },
+      {
+        "en": "DCW",
+        "as": "DCW"
+      },
+      {
+        "en": "DCV",
+        "as": "DCV"
+      },
+      {
+        "en": "DCX",
+        "as": "DCX"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "C+1=D, A+2=C, T+3=W, so CAT becomes DCW.",
+      "as": "C+1=D, A+2=C, T+3=W, সেয়ে CAT → DCW।"
+    }
+  },
+  {
+    "id": "coding-decoding-043",
+    "q": {
+      "en": "If the first, second and third letters are moved 1, 2 and 3 steps forward respectively, how is 'DOG' coded?",
+      "as": "যদি প্ৰথম, দ্বিতীয় আৰু তৃতীয় আখৰক ক্ৰমে 1, 2 আৰু 3 স্তৰ আগুৱাই দিয়া হয়, তেন্তে 'DOG' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "EPJ",
+        "as": "EPJ"
+      },
+      {
+        "en": "EQI",
+        "as": "EQI"
+      },
+      {
+        "en": "EQJ",
+        "as": "EQJ"
+      },
+      {
+        "en": "ERJ",
+        "as": "ERJ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "D+1=E, O+2=Q, G+3=J, so DOG becomes EQJ.",
+      "as": "D+1=E, O+2=Q, G+3=J, সেয়ে DOG → EQJ।"
+    }
+  },
+  {
+    "id": "coding-decoding-044",
+    "q": {
+      "en": "If every vowel is coded as its previous letter and every consonant as its next letter, how is 'HAT' coded?",
+      "as": "যদি প্ৰতিটো স্বৰবৰ্ণক তাৰ পূৰ্বৱৰ্তী আখৰেৰে আৰু প্ৰতিটো ব্যঞ্জনবৰ্ণক তাৰ পৰৱৰ্তী আখৰেৰে ক'ড কৰা হয়, তেন্তে 'HAT' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "IZV",
+        "as": "IZV"
+      },
+      {
+        "en": "HZU",
+        "as": "HZU"
+      },
+      {
+        "en": "IYU",
+        "as": "IYU"
+      },
+      {
+        "en": "IZU",
+        "as": "IZU"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "H and T are consonants, A is a vowel; so HAT becomes I(Z)U = IZU.",
+      "as": "H আৰু T ব্যঞ্জন, A স্বৰ; সেয়ে HAT → I(Z)U = IZU।"
+    }
+  },
+  {
+    "id": "coding-decoding-045",
+    "q": {
+      "en": "If every vowel is coded as its previous letter and every consonant as its next letter, how is 'SUN' coded?",
+      "as": "যদি প্ৰতিটো স্বৰবৰ্ণক পূৰ্বৱৰ্তী আখৰেৰে আৰু প্ৰতিটো ব্যঞ্জনবৰ্ণক পৰৱৰ্তী আখৰেৰে ক'ড কৰা হয়, তেন্তে 'SUN' ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "TTO",
+        "as": "TTO"
+      },
+      {
+        "en": "TTP",
+        "as": "TTP"
+      },
+      {
+        "en": "STO",
+        "as": "STO"
+      },
+      {
+        "en": "TTN",
+        "as": "TTN"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "S+1=T, U-1=T, N+1=O, so SUN becomes TTO.",
+      "as": "S+1=T, U-1=T, N+1=O, সেয়ে SUN → TTO।"
+    }
+  },
+  {
+    "id": "coding-decoding-046",
+    "q": {
+      "en": "If 'water' is called 'food', 'food' is called 'air' and 'air' is called 'stone', then what do we drink?",
+      "as": "যদি 'পানী' ক 'খাদ্য', 'খাদ্য' ক 'বায়ু' আৰু 'বায়ু' ক 'শিল' বোলা হয়, তেন্তে আমি কি পান কৰোঁ?"
+    },
+    "options": [
+      {
+        "en": "water",
+        "as": "পানী"
+      },
+      {
+        "en": "food",
+        "as": "খাদ্য"
+      },
+      {
+        "en": "air",
+        "as": "বায়ু"
+      },
+      {
+        "en": "stone",
+        "as": "শিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "We drink water, and water is called 'food'.",
+      "as": "আমি পানী পান কৰোঁ, আৰু পানীক 'খাদ্য' বোলা হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-047",
+    "q": {
+      "en": "If 'sky' is called 'sea', 'sea' is called 'land' and 'land' is called 'sky', then where do fish live?",
+      "as": "যদি 'আকাশ' ক 'সাগৰ', 'সাগৰ' ক 'ভূমি' আৰু 'ভূমি' ক 'আকাশ' বোলা হয়, তেন্তে মাছে ক'ত বাস কৰে?"
+    },
+    "options": [
+      {
+        "en": "sea",
+        "as": "সাগৰ"
+      },
+      {
+        "en": "sky",
+        "as": "আকাশ"
+      },
+      {
+        "en": "land",
+        "as": "ভূমি"
+      },
+      {
+        "en": "water",
+        "as": "পানী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Fish live in the sea, and the sea is called 'land'.",
+      "as": "মাছে সাগৰত বাস কৰে, আৰু সাগৰক 'ভূমি' বোলা হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-048",
+    "q": {
+      "en": "If 'red' is called 'blue', 'blue' is called 'green' and 'green' is called 'black', then what is the colour of the sky?",
+      "as": "যদি 'ৰঙা' ক 'নীলা', 'নীলা' ক 'সেউজীয়া' আৰু 'সেউজীয়া' ক 'ক'লা' বোলা হয়, তেন্তে আকাশৰ ৰং কি?"
+    },
+    "options": [
+      {
+        "en": "blue",
+        "as": "নীলা"
+      },
+      {
+        "en": "red",
+        "as": "ৰঙা"
+      },
+      {
+        "en": "black",
+        "as": "ক'লা"
+      },
+      {
+        "en": "green",
+        "as": "সেউজীয়া"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The sky is blue, and blue is called 'green'.",
+      "as": "আকাশ নীলা, আৰু নীলাক 'সেউজীয়া' বোলা হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-049",
+    "q": {
+      "en": "If A=1, B=2, ..., Z=26, how is 'CAT' written by placing the position numbers in order?",
+      "as": "যদি A=1, B=2, ..., Z=26, তেন্তে স্থান সংখ্যাবোৰ ক্ৰমে ৰাখি 'CAT' ক কেনেকৈ লিখা হয়?"
+    },
+    "options": [
+      {
+        "en": "3-1-20",
+        "as": "3-1-20"
+      },
+      {
+        "en": "3-1-19",
+        "as": "3-1-19"
+      },
+      {
+        "en": "2-1-20",
+        "as": "2-1-20"
+      },
+      {
+        "en": "3-2-20",
+        "as": "3-2-20"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "C=3, A=1 and T=20, so CAT is written as 3-1-20.",
+      "as": "C=3, A=1 আৰু T=20, সেয়ে CAT ক 3-1-20 বুলি লিখা হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-050",
+    "q": {
+      "en": "If A=1, B=2, ..., Z=26, how is 'DOG' written by placing the position numbers in order?",
+      "as": "যদি A=1, B=2, ..., Z=26, তেন্তে স্থান সংখ্যাবোৰ ক্ৰমে ৰাখি 'DOG' ক কেনেকৈ লিখা হয়?"
+    },
+    "options": [
+      {
+        "en": "4-14-7",
+        "as": "4-14-7"
+      },
+      {
+        "en": "4-15-7",
+        "as": "4-15-7"
+      },
+      {
+        "en": "4-15-8",
+        "as": "4-15-8"
+      },
+      {
+        "en": "5-15-7",
+        "as": "5-15-7"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "D=4, O=15 and G=7, so DOG is written as 4-15-7.",
+      "as": "D=4, O=15 আৰু G=7, সেয়ে DOG ক 4-15-7 বুলি লিখা হয়।"
+    }
+  },
+  {
+    "id": "coding-decoding-051",
+    "q": {
+      "en": "In a certain code, A is written as *, B as @, C as # and D as $. How is 'CAB' written in that code?",
+      "as": "এটা নিৰ্দিষ্ট ক'ডত A ক *, B ক @, C ক # আৰু D ক $ বুলি লিখা হয়। সেই ক'ডত 'CAB' ক কেনেকৈ লিখা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "#@*",
+        "as": "#@*"
+      },
+      {
+        "en": "*#@",
+        "as": "*#@"
+      },
+      {
+        "en": "#*@",
+        "as": "#*@"
+      },
+      {
+        "en": "#*$",
+        "as": "#*$"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "C=#, A=* and B=@, so CAB becomes #*@.",
+      "as": "C=#, A=* আৰু B=@, সেয়ে CAB → #*@।"
+    }
   }
-}
+]
