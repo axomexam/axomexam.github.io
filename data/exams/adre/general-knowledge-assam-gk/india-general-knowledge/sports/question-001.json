@@ -1,30 +1,4952 @@
-{
-  "id": "sports-001",
-  "q": {
-    "en": "The National Sports Day of India is celebrated on the birthday of which sportsperson?",
-    "as": "ভাৰতৰ ৰাষ্ট্ৰীয় ক্ৰীড়া দিৱস কোনজন খেলুৱৈৰ জন্মদিনত পালন কৰা হয়?"
-  },
-  "options": [
-    {
-      "en": "Sachin Tendulkar",
-      "as": "শচীন তেণ্ডুলকাৰ"
+[
+  {
+    "id": "sports-001",
+    "q": {
+      "en": "The National Sports Day of India is celebrated on the birthday of which sportsperson?",
+      "as": "ভাৰতৰ ৰাষ্ট্ৰীয় ক্ৰীড়া দিৱস কোনজন খেলুৱৈৰ জন্মদিনত পালন কৰা হয়?"
     },
-    {
-      "en": "Major Dhyan Chand",
-      "as": "মেজৰ ধ্যানচান্দ"
-    },
-    {
-      "en": "Milkha Singh",
-      "as": "মিলখা সিং"
-    },
-    {
-      "en": "P. T. Usha",
-      "as": "পি. টি. উষা"
+    "options": [
+      {
+        "en": "Sachin Tendulkar",
+        "as": "শচীন তেণ্ডুলকাৰ"
+      },
+      {
+        "en": "Major Dhyan Chand",
+        "as": "মেজৰ ধ্যানচান্দ"
+      },
+      {
+        "en": "Milkha Singh",
+        "as": "মিলখা সিং"
+      },
+      {
+        "en": "P. T. Usha",
+        "as": "পি. টি. উষা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "National Sports Day is celebrated on 29 August, the birthday of Major Dhyan Chand.",
+      "as": "ৰাষ্ট্ৰীয় ক্ৰীড়া দিৱস ২৯ আগষ্টত, মেজৰ ধ্যানচান্দৰ জন্মদিনত পালন কৰা হয়।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "National Sports Day is celebrated on 29 August, the birthday of Major Dhyan Chand.",
-    "as": "ৰাষ্ট্ৰীয় ক্ৰীড়া দিৱস 29 আগষ্টত, মেজৰ ধ্যানচান্দৰ জন্মদিনত পালন কৰা হয়।"
+  },
+  {
+    "id": "sports-002",
+    "q": {
+      "en": "Who is known as the 'God of Cricket'?",
+      "as": "কাক 'ক্ৰিকেটৰ ভগৱান' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Kapil Dev",
+        "as": "কপিল দেৱ"
+      },
+      {
+        "en": "Sachin Tendulkar",
+        "as": "শচীন তেণ্ডুলকাৰ"
+      },
+      {
+        "en": "Virat Kohli",
+        "as": "বিৰাট কোহলী"
+      },
+      {
+        "en": "Sunil Gavaskar",
+        "as": "সুনীল গাভাস্কাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sachin Tendulkar is popularly known as the 'God of Cricket'.",
+      "as": "শচীন তেণ্ডুলকাৰক জনপ্ৰিয়ভাৱে 'ক্ৰিকেটৰ ভগৱান' বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "sports-003",
+    "q": {
+      "en": "Who was the first Indian to score a double century in ODI cricket?",
+      "as": "এদিনীয়া ক্ৰিকেটত দ্বিশতক অৰ্জন কৰা প্ৰথমগৰাকী ভাৰতীয় কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Virender Sehwag",
+        "as": "বীৰেন্দ্ৰ ছেহৱাগ"
+      },
+      {
+        "en": "Virat Kohli",
+        "as": "বিৰাট কোহলী"
+      },
+      {
+        "en": "Rohit Sharma",
+        "as": "ৰোহিত শৰ্মা"
+      },
+      {
+        "en": "Sachin Tendulkar",
+        "as": "শচীন তেণ্ডুলকাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sachin Tendulkar was the first Indian to score an ODI double century, in 2010.",
+      "as": "২০১০ চনত শচীন তেণ্ডুলকাৰ এদিনীয়া ক্ৰিকেটত দ্বিশতক অৰ্জন কৰা প্ৰথম ভাৰতীয় হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-004",
+    "q": {
+      "en": "Who captained India to victory in the 1983 Cricket World Cup?",
+      "as": "১৯৮৩ চনৰ ক্ৰিকেট বিশ্বকাপত ভাৰতক জয়লাভ কৰোৱা অধিনায়ক কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Kapil Dev",
+        "as": "কপিল দেৱ"
+      },
+      {
+        "en": "Sunil Gavaskar",
+        "as": "সুনীল গাভাস্কাৰ"
+      },
+      {
+        "en": "Mohammad Azharuddin",
+        "as": "মহম্মদ আজহাৰুদ্দিন"
+      },
+      {
+        "en": "M. S. Dhoni",
+        "as": "এম. এছ. ধোনী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kapil Dev captained India to its first Cricket World Cup title in 1983.",
+      "as": "১৯৮৩ চনত কপিল দেৱে ভাৰতক প্ৰথম ক্ৰিকেট বিশ্বকাপ খিতাপ দিয়াইছিল।"
+    }
+  },
+  {
+    "id": "sports-005",
+    "q": {
+      "en": "Who captained India to victory in the 2011 Cricket World Cup?",
+      "as": "২০১১ চনৰ ক্ৰিকেট বিশ্বকাপত ভাৰতক জয়লাভ কৰোৱা অধিনায়ক কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Sourav Ganguly",
+        "as": "সৌৰভ গাংগুলী"
+      },
+      {
+        "en": "Kapil Dev",
+        "as": "কপিল দেৱ"
+      },
+      {
+        "en": "Rahul Dravid",
+        "as": "ৰাহুল দ্ৰাবিড়"
+      },
+      {
+        "en": "M. S. Dhoni",
+        "as": "এম. এছ. ধোনী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "M. S. Dhoni captained India to the 2011 World Cup title.",
+      "as": "এম. এছ. ধোনীয়ে ভাৰতক ২০১১ চনৰ বিশ্বকাপ খিতাপ দিয়াইছিল।"
+    }
+  },
+  {
+    "id": "sports-006",
+    "q": {
+      "en": "In which year did India win its first T20 World Cup?",
+      "as": "কোন বছৰত ভাৰতে প্ৰথম টি-২০ বিশ্বকাপ জয় কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2007",
+        "as": "২০০৭"
+      },
+      {
+        "en": "2011",
+        "as": "২০১১"
+      },
+      {
+        "en": "2012",
+        "as": "২০১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "India won the inaugural T20 World Cup in 2007.",
+      "as": "ভাৰতে ২০০৭ চনত প্ৰথম টি-২০ বিশ্বকাপ জয় কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-007",
+    "q": {
+      "en": "The 2007 T20 World Cup was held in which country?",
+      "as": "২০০৭ চনৰ টি-২০ বিশ্বকাপ কোনখন দেশত অনুষ্ঠিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Australia",
+        "as": "অষ্ট্ৰেলিয়া"
+      },
+      {
+        "en": "India",
+        "as": "ভাৰত"
+      },
+      {
+        "en": "South Africa",
+        "as": "দক্ষিণ আফ্ৰিকা"
+      },
+      {
+        "en": "England",
+        "as": "ইংলেণ্ড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The 2007 T20 World Cup was held in South Africa.",
+      "as": "২০০৭ চনৰ টি-২০ বিশ্বকাপ দক্ষিণ আফ্ৰিকাত অনুষ্ঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-008",
+    "q": {
+      "en": "How many players are there in a cricket team on the field?",
+      "as": "পথাৰত এটা ক্ৰিকেট দলত কিমানজন খেলুৱৈ থাকে?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A cricket team has 11 players.",
+      "as": "এটা ক্ৰিকেট দলত ১১জন খেলুৱৈ থাকে।"
+    }
+  },
+  {
+    "id": "sports-009",
+    "q": {
+      "en": "In which year was the first Cricket World Cup held?",
+      "as": "প্ৰথম ক্ৰিকেট বিশ্বকাপ কোন বছৰত অনুষ্ঠিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1983",
+        "as": "১৯৮৩"
+      },
+      {
+        "en": "1971",
+        "as": "১৯৭১"
+      },
+      {
+        "en": "1975",
+        "as": "১৯৭৫"
+      },
+      {
+        "en": "1979",
+        "as": "১৯৭৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The first Cricket World Cup was held in 1975 in England.",
+      "as": "প্ৰথম ক্ৰিকেট বিশ্বকাপ ১৯৭৫ চনত ইংলেণ্ডত অনুষ্ঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-010",
+    "q": {
+      "en": "Which team won the first Cricket World Cup in 1975?",
+      "as": "১৯৭৫ চনৰ প্ৰথম ক্ৰিকেট বিশ্বকাপ কোন দলে জয় কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "West Indies",
+        "as": "ৱেষ্ট ইণ্ডিজ"
+      },
+      {
+        "en": "England",
+        "as": "ইংলেণ্ড"
+      },
+      {
+        "en": "India",
+        "as": "ভাৰত"
+      },
+      {
+        "en": "Australia",
+        "as": "অষ্ট্ৰেলিয়া"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "West Indies won the first Cricket World Cup in 1975.",
+      "as": "ৱেষ্ট ইণ্ডিজে ১৯৭৫ চনত প্ৰথম ক্ৰিকেট বিশ্বকাপ জয় কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-011",
+    "q": {
+      "en": "Which country has won the most Cricket World Cup titles?",
+      "as": "কোনখন দেশে আটাইতকৈ বেছি ক্ৰিকেট বিশ্বকাপ খিতাপ জয় কৰিছে?"
+    },
+    "options": [
+      {
+        "en": "India",
+        "as": "ভাৰত"
+      },
+      {
+        "en": "Australia",
+        "as": "অষ্ট্ৰেলিয়া"
+      },
+      {
+        "en": "West Indies",
+        "as": "ৱেষ্ট ইণ্ডিজ"
+      },
+      {
+        "en": "England",
+        "as": "ইংলেণ্ড"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Australia has won the most Cricket World Cup titles.",
+      "as": "অষ্ট্ৰেলিয়াই আটাইতকৈ বেছি ক্ৰিকেট বিশ্বকাপ খিতাপ জয় কৰিছে।"
+    }
+  },
+  {
+    "id": "sports-012",
+    "q": {
+      "en": "The Ashes cricket series is played between —",
+      "as": "এছেছ ক্ৰিকেট শৃংখলা কোন দুখন দেশৰ মাজত খেলা হয় —"
+    },
+    "options": [
+      {
+        "en": "Australia and South Africa",
+        "as": "অষ্ট্ৰেলিয়া আৰু দক্ষিণ আফ্ৰিকা"
+      },
+      {
+        "en": "India and Australia",
+        "as": "ভাৰত আৰু অষ্ট্ৰেলিয়া"
+      },
+      {
+        "en": "England and Australia",
+        "as": "ইংলেণ্ড আৰু অষ্ট্ৰেলিয়া"
+      },
+      {
+        "en": "India and England",
+        "as": "ভাৰত আৰু ইংলেণ্ড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Ashes is played between England and Australia.",
+      "as": "এছেছ ইংলেণ্ড আৰু অষ্ট্ৰেলিয়াৰ মাজত খেলা হয়।"
+    }
+  },
+  {
+    "id": "sports-013",
+    "q": {
+      "en": "The Border-Gavaskar Trophy is played between —",
+      "as": "বৰ্ডাৰ-গাভাস্কাৰ ট্ৰফী কোন দুখন দেশৰ মাজত খেলা হয় —"
+    },
+    "options": [
+      {
+        "en": "England and Australia",
+        "as": "ইংলেণ্ড আৰু অষ্ট্ৰেলিয়া"
+      },
+      {
+        "en": "India and Pakistan",
+        "as": "ভাৰত আৰু পাকিস্তান"
+      },
+      {
+        "en": "India and South Africa",
+        "as": "ভাৰত আৰু দক্ষিণ আফ্ৰিকা"
+      },
+      {
+        "en": "India and Australia",
+        "as": "ভাৰত আৰু অষ্ট্ৰেলিয়া"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Border-Gavaskar Trophy is played between India and Australia.",
+      "as": "বৰ্ডাৰ-গাভাস্কাৰ ট্ৰফী ভাৰত আৰু অষ্ট্ৰেলিয়াৰ মাজত খেলা হয়।"
+    }
+  },
+  {
+    "id": "sports-014",
+    "q": {
+      "en": "Who holds the record for the highest individual score in ODI cricket?",
+      "as": "এদিনীয়া ক্ৰিকেটত সৰ্বোচ্চ ব্যক্তিগত স্কোৰৰ ৰেকৰ্ড কাৰ?"
+    },
+    "options": [
+      {
+        "en": "Rohit Sharma",
+        "as": "ৰোহিত শৰ্মা"
+      },
+      {
+        "en": "Sachin Tendulkar",
+        "as": "শচীন তেণ্ডুলকাৰ"
+      },
+      {
+        "en": "Virender Sehwag",
+        "as": "বীৰেন্দ্ৰ ছেহৱাগ"
+      },
+      {
+        "en": "Chris Gayle",
+        "as": "ক্ৰিছ গেইল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Rohit Sharma holds the record with 264 runs in an ODI.",
+      "as": "ৰোহিত শৰ্মাই এদিনীয়াত ২৬৪ ৰানৰ ৰেকৰ্ড ধাৰণ কৰিছে।"
+    }
+  },
+  {
+    "id": "sports-015",
+    "q": {
+      "en": "Which cricketer is the only one to score 100 international centuries?",
+      "as": "১০০টা আন্তৰ্জাতিক শতক অৰ্জন কৰা একমাত্ৰ ক্ৰিকেটাৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "Ricky Ponting",
+        "as": "ৰিকি পণ্টিং"
+      },
+      {
+        "en": "Sachin Tendulkar",
+        "as": "শচীন তেণ্ডুলকাৰ"
+      },
+      {
+        "en": "Virat Kohli",
+        "as": "বিৰাট কোহলী"
+      },
+      {
+        "en": "Kumar Sangakkara",
+        "as": "কুমাৰ সংগক্কাৰা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sachin Tendulkar is the only cricketer with 100 international centuries.",
+      "as": "শচীন তেণ্ডুলকাৰ ১০০টা আন্তৰ্জাতিক শতক থকা একমাত্ৰ ক্ৰিকেটাৰ।"
+    }
+  },
+  {
+    "id": "sports-016",
+    "q": {
+      "en": "In which year was Sachin Tendulkar awarded the Bharat Ratna?",
+      "as": "কোন বছৰত শচীন তেণ্ডুলকাৰক ভাৰত ৰত্ন প্ৰদান কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2008",
+        "as": "২০০৮"
+      },
+      {
+        "en": "2012",
+        "as": "২০১২"
+      },
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sachin Tendulkar received the Bharat Ratna in 2014.",
+      "as": "শচীন তেণ্ডুলকাৰে ২০১৪ চনত ভাৰত ৰত্ন লাভ কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-017",
+    "q": {
+      "en": "The Ranji Trophy is associated with which sport?",
+      "as": "ৰণজী ট্ৰফী কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      },
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      },
+      {
+        "en": "Cricket",
+        "as": "ক্ৰিকেট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Ranji Trophy is a domestic cricket tournament.",
+      "as": "ৰণজী ট্ৰফী এটা ঘৰুৱা ক্ৰিকেট প্ৰতিযোগিতা।"
+    }
+  },
+  {
+    "id": "sports-018",
+    "q": {
+      "en": "The Duleep Trophy is associated with which sport?",
+      "as": "দুলীপ ট্ৰফী কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      },
+      {
+        "en": "Badminton",
+        "as": "বেডমিণ্টন"
+      },
+      {
+        "en": "Cricket",
+        "as": "ক্ৰিকেট"
+      },
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Duleep Trophy is a domestic cricket tournament.",
+      "as": "দুলীপ ট্ৰফী এটা ঘৰুৱা ক্ৰিকেট প্ৰতিযোগিতা।"
+    }
+  },
+  {
+    "id": "sports-019",
+    "q": {
+      "en": "The Irani Cup is associated with which sport?",
+      "as": "ইৰাণী কাপ কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Cricket",
+        "as": "ক্ৰিকেট"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      },
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      },
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Irani Cup is associated with cricket.",
+      "as": "ইৰাণী কাপ ক্ৰিকেটৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "sports-020",
+    "q": {
+      "en": "The Syed Mushtaq Ali Trophy is associated with which sport?",
+      "as": "ছৈয়দ মুশ্বতাক আলী ট্ৰফী কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Badminton",
+        "as": "বেডমিণ্টন"
+      },
+      {
+        "en": "Cricket",
+        "as": "ক্ৰিকেট"
+      },
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Syed Mushtaq Ali Trophy is a domestic T20 cricket tournament.",
+      "as": "ছৈয়দ মুশ্বতাক আলী ট্ৰফী এটা ঘৰুৱা টি-২০ ক্ৰিকেট প্ৰতিযোগিতা।"
+    }
+  },
+  {
+    "id": "sports-021",
+    "q": {
+      "en": "The headquarters of the BCCI is located in —",
+      "as": "বিচিচিআইৰ মুখ্য কাৰ্যালয় ক'ত অৱস্থিত —"
+    },
+    "options": [
+      {
+        "en": "Mumbai",
+        "as": "মুম্বাই"
+      },
+      {
+        "en": "Kolkata",
+        "as": "কলকাতা"
+      },
+      {
+        "en": "Chennai",
+        "as": "চেন্নাই"
+      },
+      {
+        "en": "New Delhi",
+        "as": "নতুন দিল্লী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The BCCI headquarters is in Mumbai.",
+      "as": "বিচিচিআইৰ মুখ্য কাৰ্যালয় মুম্বাইত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "sports-022",
+    "q": {
+      "en": "In which year did the Indian Premier League (IPL) start?",
+      "as": "ইণ্ডিয়ান প্ৰিমিয়াৰ লীগ (আইপিএল) কোন বছৰত আৰম্ভ হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2007",
+        "as": "২০০৭"
+      },
+      {
+        "en": "2008",
+        "as": "২০০৮"
+      },
+      {
+        "en": "2009",
+        "as": "২০০৯"
+      },
+      {
+        "en": "2010",
+        "as": "২০১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The IPL began in 2008.",
+      "as": "আইপিএল ২০০৮ চনত আৰম্ভ হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-023",
+    "q": {
+      "en": "Which team has won the most IPL titles?",
+      "as": "কোন দলে আটাইতকৈ বেছি আইপিএল খিতাপ জয় কৰিছে?"
+    },
+    "options": [
+      {
+        "en": "Mumbai Indians",
+        "as": "মুম্বাই ইণ্ডিয়ানছ"
+      },
+      {
+        "en": "Kolkata Knight Riders",
+        "as": "কলকাতা নাইট ৰাইডাৰছ"
+      },
+      {
+        "en": "Rajasthan Royals",
+        "as": "ৰাজস্থান ৰয়েলছ"
+      },
+      {
+        "en": "Chennai Super Kings",
+        "as": "চেন্নাই ছুপাৰ কিংছ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mumbai Indians have won the most IPL titles.",
+      "as": "মুম্বাই ইণ্ডিয়ানছে আটাইতকৈ বেছি আইপিএল খিতাপ জয় কৰিছে।"
+    }
+  },
+  {
+    "id": "sports-024",
+    "q": {
+      "en": "Which team won the first edition of the IPL in 2008?",
+      "as": "২০০৮ চনৰ প্ৰথম আইপিএল কোন দলে জয় কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Chennai Super Kings",
+        "as": "চেন্নাই ছুপাৰ কিংছ"
+      },
+      {
+        "en": "Deccan Chargers",
+        "as": "ডেক্কান চাৰ্জাৰ্ছ"
+      },
+      {
+        "en": "Mumbai Indians",
+        "as": "মুম্বাই ইণ্ডিয়ানছ"
+      },
+      {
+        "en": "Rajasthan Royals",
+        "as": "ৰাজস্থান ৰয়েলছ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rajasthan Royals won the first IPL in 2008.",
+      "as": "ৰাজস্থান ৰয়েলছে ২০০৮ চনত প্ৰথম আইপিএল জয় কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-025",
+    "q": {
+      "en": "The National Cricket Academy (NCA) is located in —",
+      "as": "ৰাষ্ট্ৰীয় ক্ৰিকেট একাডেমী (এনচিএ) ক'ত অৱস্থিত —"
+    },
+    "options": [
+      {
+        "en": "Chennai",
+        "as": "চেন্নাই"
+      },
+      {
+        "en": "Kolkata",
+        "as": "কলকাতা"
+      },
+      {
+        "en": "Mumbai",
+        "as": "মুম্বাই"
+      },
+      {
+        "en": "Bengaluru",
+        "as": "বেংগালুৰু"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The National Cricket Academy is located in Bengaluru.",
+      "as": "ৰাষ্ট্ৰীয় ক্ৰিকেট একাডেমী বেংগালুৰুত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "sports-026",
+    "q": {
+      "en": "The headquarters of the International Cricket Council (ICC) is located in —",
+      "as": "আন্তৰ্জাতিক ক্ৰিকেট পৰিষদ (আইচিচি)ৰ মুখ্য কাৰ্যালয় ক'ত অৱস্থিত —"
+    },
+    "options": [
+      {
+        "en": "Dubai",
+        "as": "দুবাই"
+      },
+      {
+        "en": "Zurich",
+        "as": "জুৰিখ"
+      },
+      {
+        "en": "Melbourne",
+        "as": "মেলবৰ্ণ"
+      },
+      {
+        "en": "London",
+        "as": "লণ্ডন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The ICC headquarters is in Dubai.",
+      "as": "আইচিচিৰ মুখ্য কাৰ্যালয় দুবাইত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "sports-027",
+    "q": {
+      "en": "Who has taken the most wickets in Test cricket?",
+      "as": "টেষ্ট ক্ৰিকেটত আটাইতকৈ বেছি ৱিকেট কাৰ লৈছে?"
+    },
+    "options": [
+      {
+        "en": "James Anderson",
+        "as": "জেমছ এণ্ডাৰছন"
+      },
+      {
+        "en": "Shane Warne",
+        "as": "শ্বেন ৱাৰ্ণ"
+      },
+      {
+        "en": "Muttiah Muralitharan",
+        "as": "মুত্তিয়া মূৰলীধৰণ"
+      },
+      {
+        "en": "Anil Kumble",
+        "as": "অনিল কুম্বলে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Muttiah Muralitharan holds the record for most Test wickets.",
+      "as": "মুত্তিয়া মূৰলীধৰণে সৰ্বাধিক টেষ্ট ৱিকেটৰ ৰেকৰ্ড ধাৰণ কৰিছে।"
+    }
+  },
+  {
+    "id": "sports-028",
+    "q": {
+      "en": "Who holds the record for the highest individual score in Test cricket?",
+      "as": "টেষ্ট ক্ৰিকেটত সৰ্বোচ্চ ব্যক্তিগত স্কোৰৰ ৰেকৰ্ড কাৰ?"
+    },
+    "options": [
+      {
+        "en": "Virender Sehwag",
+        "as": "বীৰেন্দ্ৰ ছেহৱাগ"
+      },
+      {
+        "en": "Brian Lara",
+        "as": "ব্ৰায়ান লাৰা"
+      },
+      {
+        "en": "Sachin Tendulkar",
+        "as": "শচীন তেণ্ডুলকাৰ"
+      },
+      {
+        "en": "Matthew Hayden",
+        "as": "মেথিউ হেডেন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Brian Lara holds the record with 400 not out in a Test innings.",
+      "as": "ব্ৰায়ান লাৰাই এটা টেষ্ট ইনিংছত ৪০০ নট আউটৰ ৰেকৰ্ড ধাৰণ কৰিছে।"
+    }
+  },
+  {
+    "id": "sports-029",
+    "q": {
+      "en": "Who was the first Indian to score a century in Test cricket?",
+      "as": "টেষ্ট ক্ৰিকেটত শতক অৰ্জন কৰা প্ৰথম ভাৰতীয় কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Vijay Merchant",
+        "as": "বিজয় মাৰ্চেণ্ট"
+      },
+      {
+        "en": "Polly Umrigar",
+        "as": "পলী উম্ৰিগাৰ"
+      },
+      {
+        "en": "Sunil Gavaskar",
+        "as": "সুনীল গাভাস্কাৰ"
+      },
+      {
+        "en": "Lala Amarnath",
+        "as": "লালা অমৰনাথ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Lala Amarnath was the first Indian to score a Test century, in 1933.",
+      "as": "লালা অমৰনাথে ১৯৩৩ চনত টেষ্ট শতক অৰ্জন কৰা প্ৰথম ভাৰতীয় হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-030",
+    "q": {
+      "en": "Who is the only Indian to take all 10 wickets in a Test innings?",
+      "as": "এটা টেষ্ট ইনিংছত ১০টা ৱিকেট লোৱা একমাত্ৰ ভাৰতীয় কোন?"
+    },
+    "options": [
+      {
+        "en": "Anil Kumble",
+        "as": "অনিল কুম্বলে"
+      },
+      {
+        "en": "Harbhajan Singh",
+        "as": "হৰভজন সিং"
+      },
+      {
+        "en": "Kapil Dev",
+        "as": "কপিল দেৱ"
+      },
+      {
+        "en": "Bishan Singh Bedi",
+        "as": "বিশন সিং বেদী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Anil Kumble is the only Indian to take all 10 wickets in a Test innings.",
+      "as": "অনিল কুম্বলে এটা টেষ্ট ইনিংছত ১০টা ৱিকেট লোৱা একমাত্ৰ ভাৰতীয়।"
+    }
+  },
+  {
+    "id": "sports-031",
+    "q": {
+      "en": "Anil Kumble took all 10 wickets in a Test innings against which team?",
+      "as": "অনিল কুম্বলে কোন দলৰ বিৰুদ্ধে এটা টেষ্ট ইনিংছত ১০টা ৱিকেট লৈছিল?"
+    },
+    "options": [
+      {
+        "en": "England",
+        "as": "ইংলেণ্ড"
+      },
+      {
+        "en": "South Africa",
+        "as": "দক্ষিণ আফ্ৰিকা"
+      },
+      {
+        "en": "Australia",
+        "as": "অষ্ট্ৰেলিয়া"
+      },
+      {
+        "en": "Pakistan",
+        "as": "পাকিস্তান"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Anil Kumble took all 10 wickets against Pakistan in 1999.",
+      "as": "অনিল কুম্বলে ১৯৯৯ চনত পাকিস্তানৰ বিৰুদ্ধে ১০টা ৱিকেট লৈছিল।"
+    }
+  },
+  {
+    "id": "sports-032",
+    "q": {
+      "en": "Who was the first Indian to take 300 wickets in Test cricket?",
+      "as": "টেষ্ট ক্ৰিকেটত ৩০০ ৱিকেট লোৱা প্ৰথম ভাৰতীয় কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Kapil Dev",
+        "as": "কপিল দেৱ"
+      },
+      {
+        "en": "Anil Kumble",
+        "as": "অনিল কুম্বলে"
+      },
+      {
+        "en": "Harbhajan Singh",
+        "as": "হৰভজন সিং"
+      },
+      {
+        "en": "Zaheer Khan",
+        "as": "জহীৰ খান"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Anil Kumble was the first Indian to take 300 Test wickets.",
+      "as": "অনিল কুম্বলে ৩০০ টেষ্ট ৱিকেট লোৱা প্ৰথম ভাৰতীয় হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-033",
+    "q": {
+      "en": "Who has scored the most runs in international cricket?",
+      "as": "আন্তৰ্জাতিক ক্ৰিকেটত আটাইতকৈ বেছি ৰান কাৰ কৰিছে?"
+    },
+    "options": [
+      {
+        "en": "Kumar Sangakkara",
+        "as": "কুমাৰ সংগক্কাৰা"
+      },
+      {
+        "en": "Ricky Ponting",
+        "as": "ৰিকি পণ্টিং"
+      },
+      {
+        "en": "Sachin Tendulkar",
+        "as": "শচীন তেণ্ডুলকাৰ"
+      },
+      {
+        "en": "Virat Kohli",
+        "as": "বিৰাট কোহলী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sachin Tendulkar has scored the most runs in international cricket.",
+      "as": "শচীন তেণ্ডুলকাৰে আন্তৰ্জাতিক ক্ৰিকেটত সৰ্বাধিক ৰান কৰিছে।"
+    }
+  },
+  {
+    "id": "sports-034",
+    "q": {
+      "en": "In which year was the first Test cricket match played?",
+      "as": "প্ৰথম টেষ্ট ক্ৰিকেট খেল কোন বছৰত খেলা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1900",
+        "as": "১৯০০"
+      },
+      {
+        "en": "1877",
+        "as": "১৮৭৭"
+      },
+      {
+        "en": "1882",
+        "as": "১৮৮২"
+      },
+      {
+        "en": "1896",
+        "as": "১৮৯৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The first Test match was played in 1877.",
+      "as": "প্ৰথম টেষ্ট খেল ১৮৭৭ চনত খেলা হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-035",
+    "q": {
+      "en": "In which year was the first One Day International (ODI) played?",
+      "as": "প্ৰথম এদিনীয়া আন্তৰ্জাতিক (এদিনীয়া) খেল কোন বছৰত খেলা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1971",
+        "as": "১৯৭১"
+      },
+      {
+        "en": "1975",
+        "as": "১৯৭৫"
+      },
+      {
+        "en": "1977",
+        "as": "১৯৭৭"
+      },
+      {
+        "en": "1969",
+        "as": "১৯৬৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The first ODI was played in 1971.",
+      "as": "প্ৰথম এদিনীয়া খেল ১৯৭১ চনত খেলা হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-036",
+    "q": {
+      "en": "In which year did India play its first Test match?",
+      "as": "ভাৰতে কোন বছৰত প্ৰথম টেষ্ট খেল খেলিছিল?"
+    },
+    "options": [
+      {
+        "en": "1932",
+        "as": "১৯৩২"
+      },
+      {
+        "en": "1934",
+        "as": "১৯৩৪"
+      },
+      {
+        "en": "1936",
+        "as": "১৯৩৬"
+      },
+      {
+        "en": "1930",
+        "as": "১৯৩০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "India played its first Test match in 1932 against England.",
+      "as": "ভাৰতে ১৯৩২ চনত ইংলেণ্ডৰ বিৰুদ্ধে প্ৰথম টেষ্ট খেল খেলিছিল।"
+    }
+  },
+  {
+    "id": "sports-037",
+    "q": {
+      "en": "C. K. Nayudu is associated with which sport?",
+      "as": "চি. কে. নায়ুডু কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      },
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      },
+      {
+        "en": "Cricket",
+        "as": "ক্ৰিকেট"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "C. K. Nayudu was India's first Test cricket captain.",
+      "as": "চি. কে. নায়ুডু ভাৰতৰ প্ৰথম টেষ্ট ক্ৰিকেট অধিনায়ক আছিল।"
+    }
+  },
+  {
+    "id": "sports-038",
+    "q": {
+      "en": "Which cricketer is known as the 'Little Master'?",
+      "as": "কোনজন ক্ৰিকেটাৰক 'লিটল মাষ্টাৰ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Vijay Merchant",
+        "as": "বিজয় মাৰ্চেণ্ট"
+      },
+      {
+        "en": "Sunil Gavaskar",
+        "as": "সুনীল গাভাস্কাৰ"
+      },
+      {
+        "en": "Sachin Tendulkar",
+        "as": "শচীন তেণ্ডুলকাৰ"
+      },
+      {
+        "en": "Gundappa Viswanath",
+        "as": "গুণ্ডাপ্পা বিশ্বনাথ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sunil Gavaskar is known as the 'Little Master'.",
+      "as": "সুনীল গাভাস্কাৰক 'লিটল মাষ্টাৰ' বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "sports-039",
+    "q": {
+      "en": "Who was the first batsman to score 10,000 runs in Test cricket?",
+      "as": "টেষ্ট ক্ৰিকেটত ১০,০০০ ৰান কৰা প্ৰথম বেটছমেন কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Sunil Gavaskar",
+        "as": "সুনীল গাভাস্কাৰ"
+      },
+      {
+        "en": "Brian Lara",
+        "as": "ব্ৰায়ান লাৰা"
+      },
+      {
+        "en": "Ricky Ponting",
+        "as": "ৰিকি পণ্টিং"
+      },
+      {
+        "en": "Sachin Tendulkar",
+        "as": "শচীন তেণ্ডুলকাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sunil Gavaskar was the first to score 10,000 Test runs.",
+      "as": "সুনীল গাভাস্কাৰ প্ৰথম ১০,০০০ টেষ্ট ৰান কৰা খেলুৱৈ আছিল।"
+    }
+  },
+  {
+    "id": "sports-040",
+    "q": {
+      "en": "What is M. S. Dhoni's jersey number?",
+      "as": "এম. এছ. ধোনীৰ জাৰ্ছী নম্বৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "M. S. Dhoni's jersey number is 7.",
+      "as": "এম. এছ. ধোনীৰ জাৰ্ছী নম্বৰ ৭।"
+    }
+  },
+  {
+    "id": "sports-041",
+    "q": {
+      "en": "What is Virat Kohli's jersey number?",
+      "as": "বিৰাট কোহলীৰ জাৰ্ছী নম্বৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Virat Kohli's jersey number is 18.",
+      "as": "বিৰাট কোহলীৰ জাৰ্ছী নম্বৰ ১৮।"
+    }
+  },
+  {
+    "id": "sports-042",
+    "q": {
+      "en": "What is Sachin Tendulkar's jersey number?",
+      "as": "শচীন তেণ্ডুলকাৰৰ জাৰ্ছী নম্বৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sachin Tendulkar's jersey number is 10.",
+      "as": "শচীন তেণ্ডুলকাৰৰ জাৰ্ছী নম্বৰ ১০।"
+    }
+  },
+  {
+    "id": "sports-043",
+    "q": {
+      "en": "Who was declared Man of the Match in the 2011 Cricket World Cup final?",
+      "as": "২০১১ চনৰ ক্ৰিকেট বিশ্বকাপ ফাইনেলত কাক মেন অৱ দ্য মেটছ ঘোষণা কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Gautam Gambhir",
+        "as": "গৌতম গম্ভীৰ"
+      },
+      {
+        "en": "M. S. Dhoni",
+        "as": "এম. এছ. ধোনী"
+      },
+      {
+        "en": "Yuvraj Singh",
+        "as": "যুৱৰাজ সিং"
+      },
+      {
+        "en": "Zaheer Khan",
+        "as": "জহীৰ খান"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "M. S. Dhoni was Man of the Match in the 2011 World Cup final.",
+      "as": "এম. এছ. ধোনী ২০১১ চনৰ বিশ্বকাপ ফাইনেলত মেন অৱ দ্য মেটছ আছিল।"
+    }
+  },
+  {
+    "id": "sports-044",
+    "q": {
+      "en": "Who is the highest run scorer in Women's ODI cricket?",
+      "as": "মহিলাৰ এদিনীয়া ক্ৰিকেটত সৰ্বোচ্চ ৰান সংগ্ৰাহক কোন?"
+    },
+    "options": [
+      {
+        "en": "Smriti Mandhana",
+        "as": "স্মৃতি মন্ধানা"
+      },
+      {
+        "en": "Harmanpreet Kaur",
+        "as": "হৰমনপ্ৰীত কৌৰ"
+      },
+      {
+        "en": "Mithali Raj",
+        "as": "মিতালী ৰাজ"
+      },
+      {
+        "en": "Jhulan Goswami",
+        "as": "ঝুলন গোস্বামী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Mithali Raj is the highest run scorer in Women's ODI cricket.",
+      "as": "মিতালী ৰাজ মহিলাৰ এদিনীয়া ক্ৰিকেটত সৰ্বোচ্চ ৰান সংগ্ৰাহক।"
+    }
+  },
+  {
+    "id": "sports-045",
+    "q": {
+      "en": "Jhulan Goswami is famous in which department of cricket?",
+      "as": "ঝুলন গোস্বামী ক্ৰিকেটৰ কোন বিভাগত বিখ্যাত?"
+    },
+    "options": [
+      {
+        "en": "Batting",
+        "as": "বেটিং"
+      },
+      {
+        "en": "Bowling",
+        "as": "বলিং"
+      },
+      {
+        "en": "Wicket-keeping",
+        "as": "উইকেট ৰক্ষা"
+      },
+      {
+        "en": "Fielding",
+        "as": "ফিল্ডিং"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Jhulan Goswami is a famous fast bowler.",
+      "as": "ঝুলন গোস্বামী এগৰাকী বিখ্যাত দ্ৰুতগতিত বল কৰা বোলাৰ।"
+    }
+  },
+  {
+    "id": "sports-046",
+    "q": {
+      "en": "Which cricketer is known as the 'Master Blaster'?",
+      "as": "কোনজন ক্ৰিকেটাৰক 'মাষ্টাৰ ব্লাষ্টাৰ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Viv Richards",
+        "as": "ভিভ ৰিচাৰ্ডছ"
+      },
+      {
+        "en": "Sachin Tendulkar",
+        "as": "শচীন তেণ্ডুলকাৰ"
+      },
+      {
+        "en": "Virender Sehwag",
+        "as": "বীৰেন্দ্ৰ ছেহৱাগ"
+      },
+      {
+        "en": "Kapil Dev",
+        "as": "কপিল দেৱ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sachin Tendulkar is known as the 'Master Blaster'.",
+      "as": "শচীন তেণ্ডুলকাৰক 'মাষ্টাৰ ব্লাষ্টাৰ' বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "sports-047",
+    "q": {
+      "en": "Cricket is believed to have originated in which country?",
+      "as": "ক্ৰিকেট কোনখন দেশত উৎপত্তি হৈছিল বুলি বিশ্বাস কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Australia",
+        "as": "অষ্ট্ৰেলিয়া"
+      },
+      {
+        "en": "England",
+        "as": "ইংলেণ্ড"
+      },
+      {
+        "en": "India",
+        "as": "ভাৰত"
+      },
+      {
+        "en": "South Africa",
+        "as": "দক্ষিণ আফ্ৰিকা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Cricket originated in England.",
+      "as": "ক্ৰিকেটৰ উৎপত্তি ইংলেণ্ডত হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-048",
+    "q": {
+      "en": "How many stumps are there in a cricket wicket?",
+      "as": "এটা ক্ৰিকেট ৱিকেটত কিমানটা ষ্টাম্প থাকে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A cricket wicket has three stumps.",
+      "as": "এটা ক্ৰিকেট ৱিকেটত তিনি বৰ ষ্টাম্প থাকে।"
+    }
+  },
+  {
+    "id": "sports-049",
+    "q": {
+      "en": "Besides India and Sri Lanka, which country co-hosted the 2011 Cricket World Cup?",
+      "as": "ভাৰত আৰু শ্ৰীলংকাৰ উপৰিও কোনখন দেশে ২০১১ চনৰ ক্ৰিকেট বিশ্বকাপ সহ-আয়োজন কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "UAE",
+        "as": "সংযুক্ত আৰব আমিৰশাহী"
+      },
+      {
+        "en": "Pakistan",
+        "as": "পাকিস্তান"
+      },
+      {
+        "en": "Bangladesh",
+        "as": "বাংলাদেশ"
+      },
+      {
+        "en": "Nepal",
+        "as": "নেপাল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The 2011 World Cup was co-hosted by India, Sri Lanka and Bangladesh.",
+      "as": "২০১১ চনৰ বিশ্বকাপ ভাৰত, শ্ৰীলংকা আৰু বাংলাদেশে সহ-আয়োজন কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-050",
+    "q": {
+      "en": "Where was the final of the 2011 Cricket World Cup played?",
+      "as": "২০১১ চনৰ ক্ৰিকেট বিশ্বকাপৰ ফাইনেল ক'ত খেলা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Eden Gardens, Kolkata",
+        "as": "ইডেন গাৰ্ডেনছ, কলকাতা"
+      },
+      {
+        "en": "Wankhede Stadium, Mumbai",
+        "as": "ৱাংখেড়ে ষ্টেডিয়াম, মুম্বাই"
+      },
+      {
+        "en": "Chinnaswamy Stadium, Bengaluru",
+        "as": "চিন্নাস্বামী ষ্টেডিয়াম, বেংগালুৰু"
+      },
+      {
+        "en": "Feroz Shah Kotla, Delhi",
+        "as": "ফিৰোজ শাহ কোটলা, দিল্লী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The 2011 World Cup final was played at Wankhede Stadium, Mumbai.",
+      "as": "২০১১ চনৰ বিশ্বকাপ ফাইনেল ৱাংখেড়ে ষ্টেডিয়াম, মুম্বাইত খেলা হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-051",
+    "q": {
+      "en": "The Indian Premier League (IPL) is a form of which cricket format?",
+      "as": "ইণ্ডিয়ান প্ৰিমিয়াৰ লীগ (আইপিএল) ক্ৰিকেটৰ কোন ধৰণৰ?"
+    },
+    "options": [
+      {
+        "en": "Test",
+        "as": "টেষ্ট"
+      },
+      {
+        "en": "ODI",
+        "as": "এদিনীয়া"
+      },
+      {
+        "en": "T20",
+        "as": "টি-২০"
+      },
+      {
+        "en": "T10",
+        "as": "টি-১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The IPL is a T20 cricket league.",
+      "as": "আইপিএল এটা টি-২০ ক্ৰিকেট লীগ।"
+    }
+  },
+  {
+    "id": "sports-052",
+    "q": {
+      "en": "Who was the first Indian to score a triple century in Test cricket?",
+      "as": "টেষ্ট ক্ৰিকেটত ত্ৰিশতক অৰ্জন কৰা প্ৰথম ভাৰতীয় কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Rahul Dravid",
+        "as": "ৰাহুল দ্ৰাবিড়"
+      },
+      {
+        "en": "Sunil Gavaskar",
+        "as": "সুনীল গাভাস্কাৰ"
+      },
+      {
+        "en": "Virender Sehwag",
+        "as": "বীৰেন্দ্ৰ ছেহৱাগ"
+      },
+      {
+        "en": "Sachin Tendulkar",
+        "as": "শচীন তেণ্ডুলকাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Virender Sehwag was the first Indian to score a Test triple century.",
+      "as": "বীৰেন্দ্ৰ ছেহৱাগ টেষ্ট ত্ৰিশতক অৰ্জন কৰা প্ৰথম ভাৰতীয় হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-053",
+    "q": {
+      "en": "Which Indian cricketer is known as 'The Wall'?",
+      "as": "কোনজন ভাৰতীয় ক্ৰিকেটাৰক 'দ্য ৱাল' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Sachin Tendulkar",
+        "as": "শচীন তেণ্ডুলকাৰ"
+      },
+      {
+        "en": "V. V. S. Laxman",
+        "as": "ভি. ভি. এছ. লক্ষ্মণ"
+      },
+      {
+        "en": "Sourav Ganguly",
+        "as": "সৌৰভ গাংগুলী"
+      },
+      {
+        "en": "Rahul Dravid",
+        "as": "ৰাহুল দ্ৰাবিড়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rahul Dravid is known as 'The Wall'.",
+      "as": "ৰাহুল দ্ৰাবিড়ক 'দ্য ৱাল' বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "sports-054",
+    "q": {
+      "en": "What is the full form of BCCI?",
+      "as": "বিচিচিআইৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Board of Control for Cricket in India",
+        "as": "বৰ্ড অৱ কণ্ট্ৰল ফৰ ক্ৰিকেট ইন ইণ্ডিয়া"
+      },
+      {
+        "en": "Board of Cricket Control in India",
+        "as": "বৰ্ড অৱ ক্ৰিকেট কণ্ট্ৰল ইন ইণ্ডিয়া"
+      },
+      {
+        "en": "Bureau of Cricket Control in India",
+        "as": "ব্যুৰো অৱ ক্ৰিকেট কণ্ট্ৰল ইন ইণ্ডিয়া"
+      },
+      {
+        "en": "Board of Control of Cricket India",
+        "as": "বৰ্ড অৱ কণ্ট্ৰল অৱ ক্ৰিকেট ইণ্ডিয়া"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "BCCI stands for Board of Control for Cricket in India.",
+      "as": "বিচিচিআইৰ অৰ্থ হ'ল বৰ্ড অৱ কণ্ট্ৰল ফৰ ক্ৰিকেট ইন ইণ্ডিয়া।"
+    }
+  },
+  {
+    "id": "sports-055",
+    "q": {
+      "en": "Who scored the fastest T20 International century by an Indian?",
+      "as": "ভাৰতীয়ৰ ভিতৰত আটাইতকৈ দ্ৰুত টি-২০ আন্তৰ্জাতিক শতক কাৰ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Suresh Raina",
+        "as": "সুৰেশ ৰায়না"
+      },
+      {
+        "en": "Virat Kohli",
+        "as": "বিৰাট কোহলী"
+      },
+      {
+        "en": "Rohit Sharma",
+        "as": "ৰোহিত শৰ্মা"
+      },
+      {
+        "en": "K. L. Rahul",
+        "as": "কে. এল. ৰাহুল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rohit Sharma scored the fastest T20I century by an Indian, off 35 balls.",
+      "as": "ৰোহিত শৰ্মাই ৩৫ বলত ভাৰতীয়ৰ আটাইতকৈ দ্ৰুত টি-২০ আন্তৰ্জাতিক শতক কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-056",
+    "q": {
+      "en": "How many players are there in a football team on the field?",
+      "as": "পথাৰত এটা ফুটবল দলত কিমানজন খেলুৱৈ থাকে?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A football team has 11 players on the field.",
+      "as": "পথাৰত এটা ফুটবল দলত ১১জন খেলুৱৈ থাকে।"
+    }
+  },
+  {
+    "id": "sports-057",
+    "q": {
+      "en": "Which country won the FIFA World Cup 2022?",
+      "as": "২০২২ চনৰ ফিফা বিশ্বকাপ কোনখন দেশে জয় কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Argentina",
+        "as": "আৰ্জেণ্টিনা"
+      },
+      {
+        "en": "Brazil",
+        "as": "ব্ৰাজিল"
+      },
+      {
+        "en": "Germany",
+        "as": "জাৰ্মানী"
+      },
+      {
+        "en": "France",
+        "as": "ফ্ৰান্স"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Argentina won the FIFA World Cup 2022.",
+      "as": "আৰ্জেণ্টিনাই ২০২২ চনৰ ফিফা বিশ্বকাপ জয় কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-058",
+    "q": {
+      "en": "Which country won the FIFA World Cup 2018?",
+      "as": "২০১৮ চনৰ ফিফা বিশ্বকাপ কোনখন দেশে জয় কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Croatia",
+        "as": "ক্ৰ'ৱেচিয়া"
+      },
+      {
+        "en": "Argentina",
+        "as": "আৰ্জেণ্টিনা"
+      },
+      {
+        "en": "Germany",
+        "as": "জাৰ্মানী"
+      },
+      {
+        "en": "France",
+        "as": "ফ্ৰান্স"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "France won the FIFA World Cup 2018.",
+      "as": "ফ্ৰান্সে ২০১৮ চনৰ ফিফা বিশ্বকাপ জয় কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-059",
+    "q": {
+      "en": "Which country won the FIFA World Cup 2014?",
+      "as": "২০১৪ চনৰ ফিফা বিশ্বকাপ কোনখন দেশে জয় কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Germany",
+        "as": "জাৰ্মানী"
+      },
+      {
+        "en": "Argentina",
+        "as": "আৰ্জেণ্টিনা"
+      },
+      {
+        "en": "Brazil",
+        "as": "ব্ৰাজিল"
+      },
+      {
+        "en": "Spain",
+        "as": "স্পেইন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Germany won the FIFA World Cup 2014.",
+      "as": "জাৰ্মানীয়ে ২০১৪ চনৰ ফিফা বিশ্বকাপ জয় কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-060",
+    "q": {
+      "en": "Which country won the FIFA World Cup 2010?",
+      "as": "২০১০ চনৰ ফিফা বিশ্বকাপ কোনখন দেশে জয় কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Germany",
+        "as": "জাৰ্মানী"
+      },
+      {
+        "en": "Italy",
+        "as": "ইটালী"
+      },
+      {
+        "en": "Netherlands",
+        "as": "নেডাৰলেণ্ডছ"
+      },
+      {
+        "en": "Spain",
+        "as": "স্পেইন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Spain won the FIFA World Cup 2010.",
+      "as": "স্পেইনে ২০১০ চনৰ ফিফা বিশ্বকাপ জয় কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-061",
+    "q": {
+      "en": "Which country has won the most FIFA World Cup titles?",
+      "as": "কোনখন দেশে আটাইতকৈ বেছি ফিফা বিশ্বকাপ খিতাপ জয় কৰিছে?"
+    },
+    "options": [
+      {
+        "en": "Italy",
+        "as": "ইটালী"
+      },
+      {
+        "en": "Argentina",
+        "as": "আৰ্জেণ্টিনা"
+      },
+      {
+        "en": "Brazil",
+        "as": "ব্ৰাজিল"
+      },
+      {
+        "en": "Germany",
+        "as": "জাৰ্মানী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Brazil has won the most FIFA World Cup titles (5).",
+      "as": "ব্ৰাজিলে আটাইতকৈ বেছি ফিফা বিশ্বকাপ খিতাপ (৫) জয় কৰিছে।"
+    }
+  },
+  {
+    "id": "sports-062",
+    "q": {
+      "en": "Which footballer is known as the 'Black Pearl'?",
+      "as": "কোনজন ফুটবলাৰক 'ব্লেক পাৰ্ল' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Cristiano Ronaldo",
+        "as": "ক্ৰিষ্টিয়ানো ৰোনাল্ডো"
+      },
+      {
+        "en": "Lionel Messi",
+        "as": "লিঅ'নেল মেছি"
+      },
+      {
+        "en": "Pele",
+        "as": "পেলি"
+      },
+      {
+        "en": "Diego Maradona",
+        "as": "ডিয়েগো মাৰাডোনা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Pele is known as the 'Black Pearl'.",
+      "as": "পেলিক 'ব্লেক পাৰ্ল' বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "sports-063",
+    "q": {
+      "en": "Diego Maradona belonged to which country?",
+      "as": "ডিয়েগো মাৰাডোনা কোনখন দেশৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Spain",
+        "as": "স্পেইন"
+      },
+      {
+        "en": "Portugal",
+        "as": "পৰ্তুগাল"
+      },
+      {
+        "en": "Brazil",
+        "as": "ব্ৰাজিল"
+      },
+      {
+        "en": "Argentina",
+        "as": "আৰ্জেণ্টিনা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Diego Maradona was from Argentina.",
+      "as": "ডিয়েগো মাৰাডোনা আৰ্জেণ্টিনাৰ আছিল।"
+    }
+  },
+  {
+    "id": "sports-064",
+    "q": {
+      "en": "The Ballon d'Or is awarded in which sport?",
+      "as": "বেলন ডি'অৰ কোন খেলত প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Cricket",
+        "as": "ক্ৰিকেট"
+      },
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      },
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      },
+      {
+        "en": "Basketball",
+        "as": "বাস্কেটবল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Ballon d'Or is a football award.",
+      "as": "বেলন ডি'অৰ এখন ফুটবল বঁটা।"
+    }
+  },
+  {
+    "id": "sports-065",
+    "q": {
+      "en": "The Durand Cup is associated with which sport?",
+      "as": "ডুৰাণ্ড কাপ কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Cricket",
+        "as": "ক্ৰিকেট"
+      },
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      },
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Durand Cup is a football tournament.",
+      "as": "ডুৰাণ্ড কাপ এটা ফুটবল প্ৰতিযোগিতা।"
+    }
+  },
+  {
+    "id": "sports-066",
+    "q": {
+      "en": "The Santosh Trophy is associated with which sport?",
+      "as": "সন্তোষ ট্ৰফী কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      },
+      {
+        "en": "Cricket",
+        "as": "ক্ৰিকেট"
+      },
+      {
+        "en": "Badminton",
+        "as": "বেডমিণ্টন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Santosh Trophy is a national football tournament.",
+      "as": "সন্তোষ ট্ৰফী এটা ৰাষ্ট্ৰীয় ফুটবল প্ৰতিযোগিতা।"
+    }
+  },
+  {
+    "id": "sports-067",
+    "q": {
+      "en": "The Subroto Cup is associated with which sport?",
+      "as": "সুব্ৰত কাপ কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      },
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      },
+      {
+        "en": "Cricket",
+        "as": "ক্ৰিকেট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Subroto Cup is a school-level football tournament.",
+      "as": "সুব্ৰত কাপ এখন বিদ্যালয় পৰ্যায়ৰ ফুটবল প্ৰতিযোগিতা।"
+    }
+  },
+  {
+    "id": "sports-068",
+    "q": {
+      "en": "The Federation Cup in India is associated with which sport?",
+      "as": "ভাৰতৰ ফেডাৰেচন কাপ কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Badminton",
+        "as": "বেডমিণ্টন"
+      },
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      },
+      {
+        "en": "Cricket",
+        "as": "ক্ৰিকেট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Federation Cup is a football tournament.",
+      "as": "ফেডাৰেচন কাপ এটা ফুটবল প্ৰতিযোগিতা।"
+    }
+  },
+  {
+    "id": "sports-069",
+    "q": {
+      "en": "What is the full form of AIFF?",
+      "as": "এআইএফএফৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Association of Indian Football Federation",
+        "as": "এছ'চিয়েচন অৱ ইণ্ডিয়ান ফুটবল ফেডাৰেচন"
+      },
+      {
+        "en": "All India Football Front",
+        "as": "অল ইণ্ডিয়া ফুটবল ফ্ৰণ্ট"
+      },
+      {
+        "en": "All India Football Federation",
+        "as": "অল ইণ্ডিয়া ফুটবল ফেডাৰেচন"
+      },
+      {
+        "en": "All India Federation of Football",
+        "as": "অল ইণ্ডিয়া ফেডাৰেচন অৱ ফুটবল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "AIFF stands for All India Football Federation.",
+      "as": "এআইএফএফৰ অৰ্থ হ'ল অল ইণ্ডিয়া ফুটবল ফেডাৰেচন।"
+    }
+  },
+  {
+    "id": "sports-070",
+    "q": {
+      "en": "The headquarters of FIFA is located in —",
+      "as": "ফিফাৰ মুখ্য কাৰ্যালয় ক'ত অৱস্থিত —"
+    },
+    "options": [
+      {
+        "en": "Paris, France",
+        "as": "পেৰিছ, ফ্ৰান্স"
+      },
+      {
+        "en": "London, England",
+        "as": "লণ্ডন, ইংলেণ্ড"
+      },
+      {
+        "en": "Zurich, Switzerland",
+        "as": "জুৰিখ, ছুইজাৰলেণ্ড"
+      },
+      {
+        "en": "Lausanne, Switzerland",
+        "as": "লৌজান, ছুইজাৰলেণ্ড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "FIFA's headquarters is in Zurich, Switzerland.",
+      "as": "ফিফাৰ মুখ্য কাৰ্যালয় জুৰিখ, ছুইজাৰলেণ্ডত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "sports-071",
+    "q": {
+      "en": "Baichung Bhutia, a famous Indian footballer, belongs to which state?",
+      "as": "বিখ্যাত ভাৰতীয় ফুটবলাৰ বাইচুং ভুটিয়া কোনখন ৰাজ্যৰ?"
+    },
+    "options": [
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিমবংগ"
+      },
+      {
+        "en": "Sikkim",
+        "as": "ছিক্কিম"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Baichung Bhutia belongs to Sikkim.",
+      "as": "বাইচুং ভুটিয়া ছিক্কিমৰ।"
+    }
+  },
+  {
+    "id": "sports-072",
+    "q": {
+      "en": "Sunil Chhetri is associated with which sport?",
+      "as": "সুনীল ছেত্ৰী কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      },
+      {
+        "en": "Cricket",
+        "as": "ক্ৰিকেট"
+      },
+      {
+        "en": "Athletics",
+        "as": "এথলেটিকছ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sunil Chhetri is a famous Indian footballer.",
+      "as": "সুনীল ছেত্ৰী এজন বিখ্যাত ভাৰতীয় ফুটবলাৰ।"
+    }
+  },
+  {
+    "id": "sports-073",
+    "q": {
+      "en": "Which country hosted the FIFA U-17 World Cup in 2017?",
+      "as": "২০১৭ চনৰ ফিফা অনুৰ্ধ-১৭ বিশ্বকাপ কোনখন দেশে আয়োজন কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "England",
+        "as": "ইংলেণ্ড"
+      },
+      {
+        "en": "UAE",
+        "as": "সংযুক্ত আৰব আমিৰশাহী"
+      },
+      {
+        "en": "India",
+        "as": "ভাৰত"
+      },
+      {
+        "en": "Brazil",
+        "as": "ব্ৰাজিল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "India hosted the FIFA U-17 World Cup in 2017.",
+      "as": "ভাৰতে ২০১৭ চনত ফিফা অনুৰ্ধ-১৭ বিশ্বকাপ আয়োজন কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-074",
+    "q": {
+      "en": "In which year did the Indian Super League (ISL) start?",
+      "as": "ইণ্ডিয়ান ছুপাৰ লীগ (আইএছএল) কোন বছৰত আৰম্ভ হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "2012",
+        "as": "২০১২"
+      },
+      {
+        "en": "2013",
+        "as": "২০১৩"
+      },
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Indian Super League started in 2014.",
+      "as": "ইণ্ডিয়ান ছুপাৰ লীগ ২০১৪ চনত আৰম্ভ হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-075",
+    "q": {
+      "en": "Which sport is popularly regarded as the national game of India?",
+      "as": "কোন খেলক ভাৰতৰ ৰাষ্ট্ৰীয় খেল হিচাপে জনপ্ৰিয়ভাৱে গণ্য কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Kabaddi",
+        "as": "কাবাডী"
+      },
+      {
+        "en": "Cricket",
+        "as": "ক্ৰিকেট"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      },
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hockey is popularly regarded as the national game of India.",
+      "as": "হকীক ভাৰতৰ ৰাষ্ট্ৰীয় খেল হিচাপে জনপ্ৰিয়ভাৱে গণ্য কৰা হয়।"
+    }
+  },
+  {
+    "id": "sports-076",
+    "q": {
+      "en": "Who is known as the 'Wizard of Hockey'?",
+      "as": "কাক 'হকীৰ যাদুকৰ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Roop Singh",
+        "as": "ৰূপ সিং"
+      },
+      {
+        "en": "Major Dhyan Chand",
+        "as": "মেজৰ ধ্যানচান্দ"
+      },
+      {
+        "en": "Balbir Singh Sr.",
+        "as": "বলবীৰ সিং ছিনিয়ৰ"
+      },
+      {
+        "en": "Dhanraj Pillay",
+        "as": "ধনৰাজ পিল্লাই"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Major Dhyan Chand is known as the 'Wizard of Hockey'.",
+      "as": "মেজৰ ধ্যানচান্দক 'হকীৰ যাদুকৰ' বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "sports-077",
+    "q": {
+      "en": "How many players are there in a hockey team on the field?",
+      "as": "পথাৰত এটা হকী দলত কিমানজন খেলুৱৈ থাকে?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A hockey team has 11 players on the field.",
+      "as": "পথাৰত এটা হকী দলত ১১জন খেলুৱৈ থাকে।"
+    }
+  },
+  {
+    "id": "sports-078",
+    "q": {
+      "en": "The Dhyan Chand Award is given for which purpose?",
+      "as": "ধ্যানচান্দ বঁটা কি বাবে প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Best team",
+        "as": "শ্ৰেষ্ঠ দল"
+      },
+      {
+        "en": "Lifetime achievement in sports",
+        "as": "ক্ৰীড়াত জীৱনজোৰা অৱদান"
+      },
+      {
+        "en": "Best coach",
+        "as": "শ্ৰেষ্ঠ প্ৰশিক্ষক"
+      },
+      {
+        "en": "Best young athlete",
+        "as": "শ্ৰেষ্ঠ যুৱ খেলুৱৈ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Dhyan Chand Award is given for lifetime achievement in sports.",
+      "as": "ধ্যানচান্দ বঁটা ক্ৰীড়াত জীৱনজোৰা অৱদানৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "sports-079",
+    "q": {
+      "en": "The Sultan Azlan Shah Cup is associated with which sport?",
+      "as": "চুলতান আজলান শাহ কাপ কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Cricket",
+        "as": "ক্ৰিকেট"
+      },
+      {
+        "en": "Badminton",
+        "as": "বেডমিণ্টন"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      },
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Sultan Azlan Shah Cup is a field hockey tournament.",
+      "as": "চুলতান আজলান শাহ কাপ এটা ফিল্ড হকী প্ৰতিযোগিতা।"
+    }
+  },
+  {
+    "id": "sports-080",
+    "q": {
+      "en": "In which year did India win its first Olympic gold medal in hockey?",
+      "as": "ভাৰতে হকীত প্ৰথম অলিম্পিক স্বৰ্ণ পদক কোন বছৰত জয় কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "1936",
+        "as": "১৯৩৬"
+      },
+      {
+        "en": "1948",
+        "as": "১৯৪৮"
+      },
+      {
+        "en": "1928",
+        "as": "১৯২৮"
+      },
+      {
+        "en": "1932",
+        "as": "১৯৩২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "India won its first Olympic hockey gold in 1928 at Amsterdam.",
+      "as": "ভাৰতে ১৯২৮ চনত আমষ্টাৰডামত প্ৰথম অলিম্পিক হকী স্বৰ্ণ জয় কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-081",
+    "q": {
+      "en": "How many Olympic gold medals has India won in hockey?",
+      "as": "ভাৰতে হকীত কিমানটা অলিম্পিক স্বৰ্ণ পদক জয় কৰিছে?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "India has won 8 Olympic gold medals in hockey.",
+      "as": "ভাৰতে হকীত ৮টা অলিম্পিক স্বৰ্ণ পদক জয় কৰিছে।"
+    }
+  },
+  {
+    "id": "sports-082",
+    "q": {
+      "en": "Balbir Singh Sr. is associated with which sport?",
+      "as": "বলবীৰ সিং ছিনিয়ৰ কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      },
+      {
+        "en": "Cricket",
+        "as": "ক্ৰিকেট"
+      },
+      {
+        "en": "Athletics",
+        "as": "এথলেটিকছ"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Balbir Singh Sr. was a legendary hockey player.",
+      "as": "বলবীৰ সিং ছিনিয়ৰ এজন কিংবদন্তি হকী খেলুৱৈ আছিল।"
+    }
+  },
+  {
+    "id": "sports-083",
+    "q": {
+      "en": "Dhanraj Pillay is associated with which sport?",
+      "as": "ধনৰাজ পিল্লাই কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Cricket",
+        "as": "ক্ৰিকেট"
+      },
+      {
+        "en": "Kabaddi",
+        "as": "কাবাডী"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      },
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Dhanraj Pillay is a former Indian hockey captain.",
+      "as": "ধনৰাজ পিল্লাই এজন প্ৰাক্তন ভাৰতীয় হকী অধিনায়ক।"
+    }
+  },
+  {
+    "id": "sports-084",
+    "q": {
+      "en": "Where was the Men's Hockey World Cup 2018 held?",
+      "as": "২০১৮ চনৰ পুৰুষ হকী বিশ্বকাপ ক'ত অনুষ্ঠিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Bhubaneswar, India",
+        "as": "ভুৱনেশ্বৰ, ভাৰত"
+      },
+      {
+        "en": "Amsterdam, Netherlands",
+        "as": "আমষ্টাৰডাম, নেডাৰলেণ্ডছ"
+      },
+      {
+        "en": "Antwerp, Belgium",
+        "as": "এণ্টৱাৰ্প, বেলজিয়াম"
+      },
+      {
+        "en": "Sydney, Australia",
+        "as": "চিডনী, অষ্ট্ৰেলিয়া"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Men's Hockey World Cup 2018 was held in Bhubaneswar, India.",
+      "as": "২০১৮ চনৰ পুৰুষ হকী বিশ্বকাপ ভুৱনেশ্বৰ, ভাৰতত অনুষ্ঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-085",
+    "q": {
+      "en": "In which year did India win the Hockey World Cup?",
+      "as": "ভাৰতে কোন বছৰত হকী বিশ্বকাপ জয় কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "1982",
+        "as": "১৯৮২"
+      },
+      {
+        "en": "1986",
+        "as": "১৯৮৬"
+      },
+      {
+        "en": "1971",
+        "as": "১৯৭১"
+      },
+      {
+        "en": "1975",
+        "as": "১৯৭৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "India won the Hockey World Cup in 1975.",
+      "as": "ভাৰতে ১৯৭৫ চনত হকী বিশ্বকাপ জয় কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-086",
+    "q": {
+      "en": "The headquarters of the International Hockey Federation (FIH) is located in —",
+      "as": "আন্তৰ্জাতিক হকী ফেডাৰেচন (এফআইএইচ)ৰ মুখ্য কাৰ্যালয় ক'ত অৱস্থিত —"
+    },
+    "options": [
+      {
+        "en": "Lausanne, Switzerland",
+        "as": "লৌজান, ছুইজাৰলেণ্ড"
+      },
+      {
+        "en": "Zurich, Switzerland",
+        "as": "জুৰিখ, ছুইজাৰলেণ্ড"
+      },
+      {
+        "en": "London, England",
+        "as": "লণ্ডন, ইংলেণ্ড"
+      },
+      {
+        "en": "Paris, France",
+        "as": "পেৰিছ, ফ্ৰান্স"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The FIH headquarters is in Lausanne, Switzerland.",
+      "as": "এফআইএইচৰ মুখ্য কাৰ্যালয় লৌজান, ছুইজাৰলেণ্ডত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "sports-087",
+    "q": {
+      "en": "The Olympic Games are held once in how many years?",
+      "as": "অলিম্পিক ক্ৰীড়া কিমান বছৰৰ মূৰে মূৰে অনুষ্ঠিত হয়?"
+    },
+    "options": [
+      {
+        "en": "5 years",
+        "as": "৫ বছৰ"
+      },
+      {
+        "en": "2 years",
+        "as": "২ বছৰ"
+      },
+      {
+        "en": "3 years",
+        "as": "৩ বছৰ"
+      },
+      {
+        "en": "4 years",
+        "as": "৪ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Olympic Games are held every four years.",
+      "as": "অলিম্পিক ক্ৰীড়া প্ৰতি চাৰি বছৰৰ মূৰে মূৰে অনুষ্ঠিত হয়।"
+    }
+  },
+  {
+    "id": "sports-088",
+    "q": {
+      "en": "In which year were the first modern Olympic Games held?",
+      "as": "প্ৰথম আধুনিক অলিম্পিক ক্ৰীড়া কোন বছৰত অনুষ্ঠিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1904",
+        "as": "১৯০৪"
+      },
+      {
+        "en": "1892",
+        "as": "১৮৯২"
+      },
+      {
+        "en": "1896",
+        "as": "১৮৯৬"
+      },
+      {
+        "en": "1900",
+        "as": "১৯০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The first modern Olympic Games were held in 1896 at Athens.",
+      "as": "প্ৰথম আধুনিক অলিম্পিক ক্ৰীড়া ১৮৯৬ চনত এথেন্সত অনুষ্ঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-089",
+    "q": {
+      "en": "How many rings are there on the Olympic flag?",
+      "as": "অলিম্পিক পতাকাত কিমানটা ৰিং থাকে?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Olympic flag has five intertwined rings.",
+      "as": "অলিম্পিক পতাকাত পাঁচটা সংযুক্ত ৰিং থাকে।"
+    }
+  },
+  {
+    "id": "sports-090",
+    "q": {
+      "en": "What is the Olympic motto?",
+      "as": "অলিম্পিকৰ মটো কি?"
+    },
+    "options": [
+      {
+        "en": "Faster, Higher, Stronger",
+        "as": "দ্ৰুত, উচ্চ, সবল"
+      },
+      {
+        "en": "Faster, Higher, Braver",
+        "as": "দ্ৰুত, উচ্চ, সাহসী"
+      },
+      {
+        "en": "Stronger, Higher, Faster",
+        "as": "সবল, উচ্চ, দ্ৰুত"
+      },
+      {
+        "en": "Swift, High, Strong",
+        "as": "ক্ষিপ্ৰ, উচ্চ, সবল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Olympic motto is 'Citius, Altius, Fortius' meaning Faster, Higher, Stronger.",
+      "as": "অলিম্পিকৰ মটো হ'ল 'চিটিয়াছ, আলটিয়াছ, ফৰ্টিয়াছ' অৰ্থাৎ দ্ৰুত, উচ্চ, সবল।"
+    }
+  },
+  {
+    "id": "sports-091",
+    "q": {
+      "en": "Where were the 2020 Summer Olympics held?",
+      "as": "২০২০ চনৰ গ্ৰীষ্মকালীন অলিম্পিক ক'ত অনুষ্ঠিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Tokyo, Japan",
+        "as": "টকিঅ', জাপান"
+      },
+      {
+        "en": "Paris, France",
+        "as": "পেৰিছ, ফ্ৰান্স"
+      },
+      {
+        "en": "Beijing, China",
+        "as": "বেইজিং, চীন"
+      },
+      {
+        "en": "London, England",
+        "as": "লণ্ডন, ইংলেণ্ড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The 2020 Summer Olympics were held in Tokyo, Japan.",
+      "as": "২০২০ চনৰ গ্ৰীষ্মকালীন অলিম্পিক টকিঅ', জাপানত অনুষ্ঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-092",
+    "q": {
+      "en": "Where were the 2024 Summer Olympics held?",
+      "as": "২০২৪ চনৰ গ্ৰীষ্মকালীন অলিম্পিক ক'ত অনুষ্ঠিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Tokyo, Japan",
+        "as": "টকিঅ', জাপান"
+      },
+      {
+        "en": "Paris, France",
+        "as": "পেৰিছ, ফ্ৰান্স"
+      },
+      {
+        "en": "Los Angeles, USA",
+        "as": "লছ এঞ্জেলছ, আমেৰিকা"
+      },
+      {
+        "en": "Rome, Italy",
+        "as": "ৰোম, ইটালী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The 2024 Summer Olympics were held in Paris, France.",
+      "as": "২০২৪ চনৰ গ্ৰীষ্মকালীন অলিম্পিক পেৰিছ, ফ্ৰান্সত অনুষ্ঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-093",
+    "q": {
+      "en": "Where will the 2028 Summer Olympics be held?",
+      "as": "২০২৮ চনৰ গ্ৰীষ্মকালীন অলিম্পিক ক'ত অনুষ্ঠিত হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Tokyo, Japan",
+        "as": "টকিঅ', জাপান"
+      },
+      {
+        "en": "Los Angeles, USA",
+        "as": "লছ এঞ্জেলছ, আমেৰিকা"
+      },
+      {
+        "en": "Paris, France",
+        "as": "পেৰিছ, ফ্ৰান্স"
+      },
+      {
+        "en": "Brisbane, Australia",
+        "as": "ব্ৰিছবেন, অষ্ট্ৰেলিয়া"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The 2028 Summer Olympics will be held in Los Angeles, USA.",
+      "as": "২০২৮ চনৰ গ্ৰীষ্মকালীন অলিম্পিক লছ এঞ্জেলছ, আমেৰিকাত অনুষ্ঠিত হ'ব।"
+    }
+  },
+  {
+    "id": "sports-094",
+    "q": {
+      "en": "Who was the first Indian to win an individual Olympic gold medal?",
+      "as": "ব্যক্তিগত অলিম্পিক স্বৰ্ণ পদক জয় কৰা প্ৰথম ভাৰতীয় কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Sushil Kumar",
+        "as": "সুশীল কুমাৰ"
+      },
+      {
+        "en": "Vijender Singh",
+        "as": "বিজেন্দৰ সিং"
+      },
+      {
+        "en": "Abhinav Bindra",
+        "as": "অভিনৱ বিন্দ্ৰা"
+      },
+      {
+        "en": "Neeraj Chopra",
+        "as": "নীৰজ চোপ্ৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Abhinav Bindra was the first Indian to win an individual Olympic gold, in 2008.",
+      "as": "অভিনৱ বিন্দ্ৰাই ২০০৮ চনত ব্যক্তিগত অলিম্পিক স্বৰ্ণ জয় কৰা প্ৰথম ভাৰতীয় হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-095",
+    "q": {
+      "en": "Abhinav Bindra won his Olympic gold medal in which sport?",
+      "as": "অভিনৱ বিন্দ্ৰাই কোন খেলত অলিম্পিক স্বৰ্ণ পদক জয় কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Shooting",
+        "as": "শ্বুটিং"
+      },
+      {
+        "en": "Archery",
+        "as": "ধনুৰ্বিদ্যা"
+      },
+      {
+        "en": "Boxing",
+        "as": "বক্সিং"
+      },
+      {
+        "en": "Wrestling",
+        "as": "কুস্তি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Abhinav Bindra won gold in shooting.",
+      "as": "অভিনৱ বিন্দ্ৰাই শ্বুটিংত স্বৰ্ণ জয় কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-096",
+    "q": {
+      "en": "Which Indian athlete is known as the 'Flying Sikh'?",
+      "as": "কোনজন ভাৰতীয় খেলুৱৈক 'ফ্লাইং শিখ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Milkha Singh",
+        "as": "মিলখা সিং"
+      },
+      {
+        "en": "P. T. Usha",
+        "as": "পি. টি. উষা"
+      },
+      {
+        "en": "Neeraj Chopra",
+        "as": "নীৰজ চোপ্ৰা"
+      },
+      {
+        "en": "Dutee Chand",
+        "as": "দুতী চান্দ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Milkha Singh is known as the 'Flying Sikh'.",
+      "as": "মিলখা সিংক 'ফ্লাইং শিখ' বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "sports-097",
+    "q": {
+      "en": "Milkha Singh was associated with which sport?",
+      "as": "মিলখা সিং কোন খেলৰ সৈতে জড়িত আছিল?"
+    },
+    "options": [
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      },
+      {
+        "en": "Boxing",
+        "as": "বক্সিং"
+      },
+      {
+        "en": "Athletics",
+        "as": "এথলেটিকছ"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Milkha Singh was a sprinter in athletics.",
+      "as": "মিলখা সিং এথলেটিকছৰ এজন দৌৰবিদ আছিল।"
+    }
+  },
+  {
+    "id": "sports-098",
+    "q": {
+      "en": "P. T. Usha is popularly known as —",
+      "as": "পি. টি. উষাক জনপ্ৰিয়ভাৱে কি বুলি জনা যায় —"
+    },
+    "options": [
+      {
+        "en": "Flying Sikh",
+        "as": "ফ্লাইং শিখ"
+      },
+      {
+        "en": "Golden Girl",
+        "as": "গোল্ডেন গাৰ্ল"
+      },
+      {
+        "en": "Dhing Express",
+        "as": "ঢিঙ এক্সপ্ৰেছ"
+      },
+      {
+        "en": "Payyoli Express",
+        "as": "পায়্যলী এক্সপ্ৰেছ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "P. T. Usha is known as the 'Payyoli Express'.",
+      "as": "পি. টি. উষাক 'পায়্যলী এক্সপ্ৰেছ' বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "sports-099",
+    "q": {
+      "en": "Neeraj Chopra won an Olympic gold medal in which event?",
+      "as": "নীৰজ চোপ্ৰাই কোন ইভেণ্টত অলিম্পিক স্বৰ্ণ পদক জয় কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Javelin Throw",
+        "as": "জেভলিন থ্ৰ'"
+      },
+      {
+        "en": "Shot Put",
+        "as": "শ্বট পুট"
+      },
+      {
+        "en": "Discus Throw",
+        "as": "ডিস্কাছ থ্ৰ'"
+      },
+      {
+        "en": "Long Jump",
+        "as": "লং জাম্প"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Neeraj Chopra won Olympic gold in Javelin Throw.",
+      "as": "নীৰজ চোপ্ৰাই জেভলিন থ্ৰ'ত অলিম্পিক স্বৰ্ণ জয় কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-100",
+    "q": {
+      "en": "Neeraj Chopra won his Olympic gold medal at which Games?",
+      "as": "নীৰজ চোপ্ৰাই কোন অলিম্পিকত স্বৰ্ণ পদক জয় কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "London 2012",
+        "as": "লণ্ডন ২০১২"
+      },
+      {
+        "en": "Beijing 2008",
+        "as": "বেইজিং ২০০৮"
+      },
+      {
+        "en": "Tokyo 2020",
+        "as": "টকিঅ' ২০২০"
+      },
+      {
+        "en": "Rio 2016",
+        "as": "ৰিঅ' ২০১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Neeraj Chopra won gold at the Tokyo 2020 Olympics.",
+      "as": "নীৰজ চোপ্ৰাই টকিঅ' ২০২০ অলিম্পিকত স্বৰ্ণ জয় কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-101",
+    "q": {
+      "en": "Sushil Kumar is associated with which sport?",
+      "as": "সুশীল কুমাৰ কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Boxing",
+        "as": "বক্সিং"
+      },
+      {
+        "en": "Judo",
+        "as": "জুডো"
+      },
+      {
+        "en": "Weightlifting",
+        "as": "ভাৰোত্তোলন"
+      },
+      {
+        "en": "Wrestling",
+        "as": "কুস্তি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sushil Kumar is a wrestler.",
+      "as": "সুশীল কুমাৰ এজন কুস্তিগীৰ।"
+    }
+  },
+  {
+    "id": "sports-102",
+    "q": {
+      "en": "Who was the first Indian woman to win an Olympic medal?",
+      "as": "অলিম্পিক পদক জয় কৰা প্ৰথম ভাৰতীয় মহিলা কোন?"
+    },
+    "options": [
+      {
+        "en": "P. T. Usha",
+        "as": "পি. টি. উষা"
+      },
+      {
+        "en": "Saina Nehwal",
+        "as": "সাইনা নেহৱাল"
+      },
+      {
+        "en": "P. V. Sindhu",
+        "as": "পি. ভি. সিন্ধু"
+      },
+      {
+        "en": "Karnam Malleswari",
+        "as": "কৰ্ণম মল্লেশ্বৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Karnam Malleswari was the first Indian woman to win an Olympic medal, in 2000.",
+      "as": "কৰ্ণম মল্লেশ্বৰী ২০০০ চনত অলিম্পিক পদক জয় কৰা প্ৰথম ভাৰতীয় মহিলা আছিল।"
+    }
+  },
+  {
+    "id": "sports-103",
+    "q": {
+      "en": "P. V. Sindhu is associated with which sport?",
+      "as": "পি. ভি. সিন্ধু কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      },
+      {
+        "en": "Table Tennis",
+        "as": "টেবুল টেনিছ"
+      },
+      {
+        "en": "Squash",
+        "as": "স্কোৱাছ"
+      },
+      {
+        "en": "Badminton",
+        "as": "বেডমিণ্টন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "P. V. Sindhu is a badminton player.",
+      "as": "পি. ভি. সিন্ধু এগৰাকী বেডমিণ্টন খেলুৱৈ।"
+    }
+  },
+  {
+    "id": "sports-104",
+    "q": {
+      "en": "Saina Nehwal is associated with which sport?",
+      "as": "সাইনা নেহৱাল কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Badminton",
+        "as": "বেডমিণ্টন"
+      },
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      },
+      {
+        "en": "Boxing",
+        "as": "বক্সিং"
+      },
+      {
+        "en": "Athletics",
+        "as": "এথলেটিকছ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Saina Nehwal is a badminton player.",
+      "as": "সাইনা নেহৱাল এগৰাকী বেডমিণ্টন খেলুৱৈ।"
+    }
+  },
+  {
+    "id": "sports-105",
+    "q": {
+      "en": "Who was India's first Olympic medalist?",
+      "as": "ভাৰতৰ প্ৰথম অলিম্পিক পদক বিজয়ী কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Major Dhyan Chand",
+        "as": "মেজৰ ধ্যানচান্দ"
+      },
+      {
+        "en": "K. D. Jadhav",
+        "as": "কে. ডি. জাধৱ"
+      },
+      {
+        "en": "Norman Pritchard",
+        "as": "নৰ্মান প্ৰিচাৰ্ড"
+      },
+      {
+        "en": "Abhinav Bindra",
+        "as": "অভিনৱ বিন্দ্ৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Norman Pritchard was India's first Olympic medalist, in 1900.",
+      "as": "নৰ্মান প্ৰিচাৰ্ড ১৯০০ চনত ভাৰতৰ প্ৰথম অলিম্পিক পদক বিজয়ী আছিল।"
+    }
+  },
+  {
+    "id": "sports-106",
+    "q": {
+      "en": "Where were the 2016 Summer Olympics held?",
+      "as": "২০১৬ চনৰ গ্ৰীষ্মকালীন অলিম্পিক ক'ত অনুষ্ঠিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "London, England",
+        "as": "লণ্ডন, ইংলেণ্ড"
+      },
+      {
+        "en": "Tokyo, Japan",
+        "as": "টকিঅ', জাপান"
+      },
+      {
+        "en": "Beijing, China",
+        "as": "বেইজিং, চীন"
+      },
+      {
+        "en": "Rio de Janeiro, Brazil",
+        "as": "ৰিঅ' ডি জেনেৰ', ব্ৰাজিল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The 2016 Summer Olympics were held in Rio de Janeiro, Brazil.",
+      "as": "২০১৬ চনৰ গ্ৰীষ্মকালীন অলিম্পিক ৰিঅ' ডি জেনেৰ', ব্ৰাজিলত অনুষ্ঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-107",
+    "q": {
+      "en": "Where were the 2022 Winter Olympics held?",
+      "as": "২০২২ চনৰ শীতকালীন অলিম্পিক ক'ত অনুষ্ঠিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Sochi, Russia",
+        "as": "ছ'চি, ৰাছিয়া"
+      },
+      {
+        "en": "Vancouver, Canada",
+        "as": "ভেনকুভাৰ, কানাডা"
+      },
+      {
+        "en": "Beijing, China",
+        "as": "বেইজিং, চীন"
+      },
+      {
+        "en": "Pyeongchang, South Korea",
+        "as": "পিয়ংচাং, দক্ষিণ কোৰিয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The 2022 Winter Olympics were held in Beijing, China.",
+      "as": "২০২২ চনৰ শীতকালীন অলিম্পিক বেইজিং, চীনত অনুষ্ঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-108",
+    "q": {
+      "en": "What is the full form of IOA?",
+      "as": "আইঅ'এৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Indian Olympic Academy",
+        "as": "ইণ্ডিয়ান অলিম্পিক একাডেমী"
+      },
+      {
+        "en": "Indian Olympic Association",
+        "as": "ইণ্ডিয়ান অলিম্পিক এছ'চিয়েচন"
+      },
+      {
+        "en": "International Olympic Association",
+        "as": "ইণ্টাৰনেশ্যনেল অলিম্পিক এছ'চিয়েচন"
+      },
+      {
+        "en": "Indian Olympic Authority",
+        "as": "ইণ্ডিয়ান অলিম্পিক অথৰিটি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "IOA stands for Indian Olympic Association.",
+      "as": "আইঅ'এৰ অৰ্থ হ'ল ইণ্ডিয়ান অলিম্পিক এছ'চিয়েচন।"
+    }
+  },
+  {
+    "id": "sports-109",
+    "q": {
+      "en": "The headquarters of the International Olympic Committee (IOC) is located in —",
+      "as": "আন্তৰ্জাতিক অলিম্পিক কমিটি (আইঅ'চি)ৰ মুখ্য কাৰ্যালয় ক'ত অৱস্থিত —"
+    },
+    "options": [
+      {
+        "en": "Lausanne, Switzerland",
+        "as": "লৌজান, ছুইজাৰলেণ্ড"
+      },
+      {
+        "en": "Zurich, Switzerland",
+        "as": "জুৰিখ, ছুইজাৰলেণ্ড"
+      },
+      {
+        "en": "Paris, France",
+        "as": "পেৰিছ, ফ্ৰান্স"
+      },
+      {
+        "en": "Rome, Italy",
+        "as": "ৰোম, ইটালী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The IOC headquarters is in Lausanne, Switzerland.",
+      "as": "আইঅ'চিৰ মুখ্য কাৰ্যালয় লৌজান, ছুইজাৰলেণ্ডত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "sports-110",
+    "q": {
+      "en": "Yogeshwar Dutt is associated with which sport?",
+      "as": "যোগেশ্বৰ দত্ত কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Athletics",
+        "as": "এথলেটিকছ"
+      },
+      {
+        "en": "Weightlifting",
+        "as": "ভাৰোত্তোলন"
+      },
+      {
+        "en": "Wrestling",
+        "as": "কুস্তি"
+      },
+      {
+        "en": "Boxing",
+        "as": "বক্সিং"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Yogeshwar Dutt is a wrestler.",
+      "as": "যোগেশ্বৰ দত্ত এজন কুস্তিগীৰ।"
+    }
+  },
+  {
+    "id": "sports-111",
+    "q": {
+      "en": "The Asian Games are held once in how many years?",
+      "as": "এছিয়ান গেমছ কিমান বছৰৰ মূৰে মূৰে অনুষ্ঠিত হয়?"
+    },
+    "options": [
+      {
+        "en": "4 years",
+        "as": "৪ বছৰ"
+      },
+      {
+        "en": "5 years",
+        "as": "৫ বছৰ"
+      },
+      {
+        "en": "2 years",
+        "as": "২ বছৰ"
+      },
+      {
+        "en": "3 years",
+        "as": "৩ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Asian Games are held every four years.",
+      "as": "এছিয়ান গেমছ প্ৰতি চাৰি বছৰৰ মূৰে মূৰে অনুষ্ঠিত হয়।"
+    }
+  },
+  {
+    "id": "sports-112",
+    "q": {
+      "en": "Where were the 2018 Asian Games held?",
+      "as": "২০১৮ চনৰ এছিয়ান গেমছ ক'ত অনুষ্ঠিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Hangzhou, China",
+        "as": "হাংঝৌ, চীন"
+      },
+      {
+        "en": "Incheon, South Korea",
+        "as": "ইঞ্চিয়ন, দক্ষিণ কোৰিয়া"
+      },
+      {
+        "en": "New Delhi, India",
+        "as": "নতুন দিল্লী, ভাৰত"
+      },
+      {
+        "en": "Jakarta-Palembang, Indonesia",
+        "as": "জাকাৰ্টা-পালেমবাং, ইণ্ডোনেছিয়া"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The 2018 Asian Games were held in Jakarta-Palembang, Indonesia.",
+      "as": "২০১৮ চনৰ এছিয়ান গেমছ জাকাৰ্টা-পালেমবাং, ইণ্ডোনেছিয়াত অনুষ্ঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-113",
+    "q": {
+      "en": "Where were the 2022 Asian Games held?",
+      "as": "২০২২ চনৰ এছিয়ান গেমছ ক'ত অনুষ্ঠিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Bangkok, Thailand",
+        "as": "বেংকক, থাইলেণ্ড"
+      },
+      {
+        "en": "Doha, Qatar",
+        "as": "দোহা, কাটাৰ"
+      },
+      {
+        "en": "Hangzhou, China",
+        "as": "হাংঝৌ, চীন"
+      },
+      {
+        "en": "Jakarta, Indonesia",
+        "as": "জাকাৰ্টা, ইণ্ডোনেছিয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The 2022 Asian Games were held in Hangzhou, China.",
+      "as": "২০২২ চনৰ এছিয়ান গেমছ হাংঝৌ, চীনত অনুষ্ঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-114",
+    "q": {
+      "en": "In which city were the 1982 Asian Games held?",
+      "as": "১৯৮২ চনৰ এছিয়ান গেমছ কোনখন চহৰত অনুষ্ঠিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "New Delhi, India",
+        "as": "নতুন দিল্লী, ভাৰত"
+      },
+      {
+        "en": "Bangkok, Thailand",
+        "as": "বেংকক, থাইলেণ্ড"
+      },
+      {
+        "en": "Beijing, China",
+        "as": "বেইজিং, চীন"
+      },
+      {
+        "en": "Tehran, Iran",
+        "as": "তেহৰাণ, ইৰাণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The 1982 Asian Games were held in New Delhi, India.",
+      "as": "১৯৮২ চনৰ এছিয়ান গেমছ নতুন দিল্লী, ভাৰতত অনুষ্ঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-115",
+    "q": {
+      "en": "In which city were the 2010 Commonwealth Games held?",
+      "as": "২০১০ চনৰ কমনৱেলথ গেমছ কোনখন চহৰত অনুষ্ঠিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Melbourne, Australia",
+        "as": "মেলবৰ্ণ, অষ্ট্ৰেলিয়া"
+      },
+      {
+        "en": "New Delhi, India",
+        "as": "নতুন দিল্লী, ভাৰত"
+      },
+      {
+        "en": "Glasgow, Scotland",
+        "as": "গ্লাছগো, স্কটলেণ্ড"
+      },
+      {
+        "en": "Manchester, England",
+        "as": "মাঞ্চেষ্টাৰ, ইংলেণ্ড"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The 2010 Commonwealth Games were held in New Delhi, India.",
+      "as": "২০১০ চনৰ কমনৱেলথ গেমছ নতুন দিল্লী, ভাৰতত অনুষ্ঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-116",
+    "q": {
+      "en": "The Commonwealth Games are held once in how many years?",
+      "as": "কমনৱেলথ গেমছ কিমান বছৰৰ মূৰে মূৰে অনুষ্ঠিত হয়?"
+    },
+    "options": [
+      {
+        "en": "4 years",
+        "as": "৪ বছৰ"
+      },
+      {
+        "en": "5 years",
+        "as": "৫ বছৰ"
+      },
+      {
+        "en": "2 years",
+        "as": "২ বছৰ"
+      },
+      {
+        "en": "3 years",
+        "as": "৩ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Commonwealth Games are held every four years.",
+      "as": "কমনৱেলথ গেমছ প্ৰতি চাৰি বছৰৰ মূৰে মূৰে অনুষ্ঠিত হয়।"
+    }
+  },
+  {
+    "id": "sports-117",
+    "q": {
+      "en": "M. C. Mary Kom is associated with which sport?",
+      "as": "এম. চি. মেৰী কম কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Wrestling",
+        "as": "কুস্তি"
+      },
+      {
+        "en": "Athletics",
+        "as": "এথলেটিকছ"
+      },
+      {
+        "en": "Weightlifting",
+        "as": "ভাৰোত্তোলন"
+      },
+      {
+        "en": "Boxing",
+        "as": "বক্সিং"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "M. C. Mary Kom is a boxer.",
+      "as": "এম. চি. মেৰী কম এগৰাকী বক্সাৰ।"
+    }
+  },
+  {
+    "id": "sports-118",
+    "q": {
+      "en": "M. C. Mary Kom won an Olympic medal of which colour?",
+      "as": "এম. চি. মেৰী কমে কোন ৰঙৰ অলিম্পিক পদক জয় কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "No medal",
+        "as": "কোনো পদক নাই"
+      },
+      {
+        "en": "Bronze",
+        "as": "ব্ৰঞ্জ"
+      },
+      {
+        "en": "Silver",
+        "as": "ৰূপ"
+      },
+      {
+        "en": "Gold",
+        "as": "স্বৰ্ণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "M. C. Mary Kom won a bronze medal at the 2012 London Olympics.",
+      "as": "এম. চি. মেৰী কমে ২০১২ চনৰ লণ্ডন অলিম্পিকত ব্ৰঞ্জ পদক জয় কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-119",
+    "q": {
+      "en": "Vijender Singh is associated with which sport?",
+      "as": "বিজেন্দৰ সিং কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Wrestling",
+        "as": "কুস্তি"
+      },
+      {
+        "en": "Athletics",
+        "as": "এথলেটিকছ"
+      },
+      {
+        "en": "Shooting",
+        "as": "শ্বুটিং"
+      },
+      {
+        "en": "Boxing",
+        "as": "বক্সিং"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Vijender Singh is a boxer.",
+      "as": "বিজেন্দৰ সিং এজন বক্সাৰ।"
+    }
+  },
+  {
+    "id": "sports-120",
+    "q": {
+      "en": "Bajrang Punia is associated with which sport?",
+      "as": "বজৰং পুনিয়া কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Wrestling",
+        "as": "কুস্তি"
+      },
+      {
+        "en": "Boxing",
+        "as": "বক্সিং"
+      },
+      {
+        "en": "Athletics",
+        "as": "এথলেটিকছ"
+      },
+      {
+        "en": "Weightlifting",
+        "as": "ভাৰোত্তোলন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bajrang Punia is a wrestler.",
+      "as": "বজৰং পুনিয়া এজন কুস্তিগীৰ।"
+    }
+  },
+  {
+    "id": "sports-121",
+    "q": {
+      "en": "Wimbledon, a Grand Slam tennis tournament, is played on which surface?",
+      "as": "উইম্বলডন, এখন গ্ৰেণ্ড শ্লাম টেনিছ প্ৰতিযোগিতা, কোন পৃষ্ঠত খেলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Clay",
+        "as": "মাটি"
+      },
+      {
+        "en": "Hard court",
+        "as": "হাৰ্ড কোৰ্ট"
+      },
+      {
+        "en": "Carpet",
+        "as": "কাৰ্পেট"
+      },
+      {
+        "en": "Grass",
+        "as": "ঘাঁহ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Wimbledon is played on a grass court.",
+      "as": "উইম্বলডন ঘাঁহৰ কোৰ্টত খেলা হয়।"
+    }
+  },
+  {
+    "id": "sports-122",
+    "q": {
+      "en": "The Davis Cup is associated with which sport?",
+      "as": "ডেভিছ কাপ কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Badminton",
+        "as": "বেডমিণ্টন"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      },
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      },
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Davis Cup is an international tennis tournament.",
+      "as": "ডেভিছ কাপ এটা আন্তৰ্জাতিক টেনিছ প্ৰতিযোগিতা।"
+    }
+  },
+  {
+    "id": "sports-123",
+    "q": {
+      "en": "Leander Paes is associated with which sport?",
+      "as": "লিয়েণ্ডাৰ পেজ কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Badminton",
+        "as": "বেডমিণ্টন"
+      },
+      {
+        "en": "Squash",
+        "as": "স্কোৱাছ"
+      },
+      {
+        "en": "Table Tennis",
+        "as": "টেবুল টেনিছ"
+      },
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Leander Paes is a professional tennis player.",
+      "as": "লিয়েণ্ডাৰ পেজ এজন পেছাদাৰী টেনিছ খেলুৱৈ।"
+    }
+  },
+  {
+    "id": "sports-124",
+    "q": {
+      "en": "Mahesh Bhupathi is associated with which sport?",
+      "as": "মহেশ ভূপতি কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Badminton",
+        "as": "বেডমিণ্টন"
+      },
+      {
+        "en": "Squash",
+        "as": "স্কোৱাছ"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      },
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mahesh Bhupathi is a professional tennis player.",
+      "as": "মহেশ ভূপতি এজন পেছাদাৰী টেনিছ খেলুৱৈ।"
+    }
+  },
+  {
+    "id": "sports-125",
+    "q": {
+      "en": "Sania Mirza is associated with which sport?",
+      "as": "ছানিয়া মিৰ্জা কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Badminton",
+        "as": "বেডমিণ্টন"
+      },
+      {
+        "en": "Squash",
+        "as": "স্কোৱাছ"
+      },
+      {
+        "en": "Boxing",
+        "as": "বক্সিং"
+      },
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sania Mirza is a professional tennis player.",
+      "as": "ছানিয়া মিৰ্জা এগৰাকী পেছাদাৰী টেনিছ খেলুৱৈ।"
+    }
+  },
+  {
+    "id": "sports-126",
+    "q": {
+      "en": "The All England Open is associated with which sport?",
+      "as": "অল ইংলেণ্ড অপেন কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Badminton",
+        "as": "বেডমিণ্টন"
+      },
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      },
+      {
+        "en": "Squash",
+        "as": "স্কোৱাছ"
+      },
+      {
+        "en": "Table Tennis",
+        "as": "টেবুল টেনিছ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The All England Open is a badminton tournament.",
+      "as": "অল ইংলেণ্ড অপেন এখন বেডমিণ্টন প্ৰতিযোগিতা।"
+    }
+  },
+  {
+    "id": "sports-127",
+    "q": {
+      "en": "The Thomas Cup is associated with which sport?",
+      "as": "টমাছ কাপ কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      },
+      {
+        "en": "Badminton (men's team)",
+        "as": "বেডমিণ্টন (পুৰুষ দল)"
+      },
+      {
+        "en": "Badminton (women's team)",
+        "as": "বেডমিণ্টন (মহিলা দল)"
+      },
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Thomas Cup is a men's team badminton championship.",
+      "as": "টমাছ কাপ পুৰুষ দলৰ বেডমিণ্টন চেম্পিয়নশ্বিপ।"
+    }
+  },
+  {
+    "id": "sports-128",
+    "q": {
+      "en": "The Uber Cup is associated with which sport?",
+      "as": "উবাৰ কাপ কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      },
+      {
+        "en": "Squash",
+        "as": "স্কোৱাছ"
+      },
+      {
+        "en": "Badminton (women's team)",
+        "as": "বেডমিণ্টন (মহিলা দল)"
+      },
+      {
+        "en": "Badminton (men's team)",
+        "as": "বেডমিণ্টন (পুৰুষ দল)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Uber Cup is a women's team badminton championship.",
+      "as": "উবাৰ কাপ মহিলা দলৰ বেডমিণ্টন চেম্পিয়নশ্বিপ।"
+    }
+  },
+  {
+    "id": "sports-129",
+    "q": {
+      "en": "The Sudirman Cup is associated with which sport?",
+      "as": "চুদিৰমেন কাপ কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Badminton (mixed team)",
+        "as": "বেডমিণ্টন (মিশ্ৰিত দল)"
+      },
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      },
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Sudirman Cup is a mixed team badminton championship.",
+      "as": "চুদিৰমেন কাপ মিশ্ৰিত দলৰ বেডমিণ্টন চেম্পিয়নশ্বিপ।"
+    }
+  },
+  {
+    "id": "sports-130",
+    "q": {
+      "en": "Prakash Padukone is associated with which sport?",
+      "as": "প্ৰকাশ পাডুকন কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      },
+      {
+        "en": "Squash",
+        "as": "স্কোৱাছ"
+      },
+      {
+        "en": "Table Tennis",
+        "as": "টেবুল টেনিছ"
+      },
+      {
+        "en": "Badminton",
+        "as": "বেডমিণ্টন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Prakash Padukone is a legendary badminton player.",
+      "as": "প্ৰকাশ পাডুকন এজন কিংবদন্তি বেডমিণ্টন খেলুৱৈ।"
+    }
+  },
+  {
+    "id": "sports-131",
+    "q": {
+      "en": "Pullela Gopichand is associated with which sport?",
+      "as": "পুল্লেলা গোপীচান্দ কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      },
+      {
+        "en": "Badminton",
+        "as": "বেডমিণ্টন"
+      },
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      },
+      {
+        "en": "Squash",
+        "as": "স্কোৱাছ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Pullela Gopichand is a famous badminton player and coach.",
+      "as": "পুল্লেলা গোপীচান্দ এজন বিখ্যাত বেডমিণ্টন খেলুৱৈ আৰু প্ৰশিক্ষক।"
+    }
+  },
+  {
+    "id": "sports-132",
+    "q": {
+      "en": "Viswanathan Anand is associated with which sport?",
+      "as": "বিশ্বনাথন আনন্দ কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Badminton",
+        "as": "বেডমিণ্টন"
+      },
+      {
+        "en": "Chess",
+        "as": "দবা"
+      },
+      {
+        "en": "Carrom",
+        "as": "কেৰম"
+      },
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Viswanathan Anand is a chess grandmaster.",
+      "as": "বিশ্বনাথন আনন্দ এজন দবা গ্ৰেণ্ডমাষ্টাৰ।"
+    }
+  },
+  {
+    "id": "sports-133",
+    "q": {
+      "en": "Who was the first Indian to become a chess Grandmaster?",
+      "as": "দবা গ্ৰেণ্ডমাষ্টাৰ হোৱা প্ৰথম ভাৰতীয় কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "R. Praggnanandhaa",
+        "as": "আৰ. প্ৰজ্ঞানানন্দা"
+      },
+      {
+        "en": "Pentala Harikrishna",
+        "as": "পেণ্টালা হৰিকৃষ্ণ"
+      },
+      {
+        "en": "Viswanathan Anand",
+        "as": "বিশ্বনাথন আনন্দ"
+      },
+      {
+        "en": "Koneru Humpy",
+        "as": "কোনেৰু হাম্পী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Viswanathan Anand was India's first chess Grandmaster.",
+      "as": "বিশ্বনাথন আনন্দ ভাৰতৰ প্ৰথম দবা গ্ৰেণ্ডমাষ্টাৰ আছিল।"
+    }
+  },
+  {
+    "id": "sports-134",
+    "q": {
+      "en": "Koneru Humpy is associated with which sport?",
+      "as": "কোনেৰু হাম্পী কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Shooting",
+        "as": "শ্বুটিং"
+      },
+      {
+        "en": "Chess",
+        "as": "দবা"
+      },
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      },
+      {
+        "en": "Badminton",
+        "as": "বেডমিণ্টন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Koneru Humpy is a chess player.",
+      "as": "কোনেৰু হাম্পী এগৰাকী দবা খেলুৱৈ।"
+    }
+  },
+  {
+    "id": "sports-135",
+    "q": {
+      "en": "Rameshbabu Praggnanandhaa is associated with which sport?",
+      "as": "ৰামেশবাবু প্ৰজ্ঞানানন্দা কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Chess",
+        "as": "দবা"
+      },
+      {
+        "en": "Badminton",
+        "as": "বেডমিণ্টন"
+      },
+      {
+        "en": "Tennis",
+        "as": "টেনিছ"
+      },
+      {
+        "en": "Table Tennis",
+        "as": "টেবুল টেনিছ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "R. Praggnanandhaa is a chess prodigy from India.",
+      "as": "আৰ. প্ৰজ্ঞানানন্দা ভাৰতৰ এজন দবা প্ৰতিভা।"
+    }
+  },
+  {
+    "id": "sports-136",
+    "q": {
+      "en": "Sprinter Hima Das belongs to which Indian state?",
+      "as": "দৌৰবিদ হিমা দাস কোনখন ভাৰতীয় ৰাজ্যৰ?"
+    },
+    "options": [
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      },
+      {
+        "en": "Odisha",
+        "as": "ওড়িশা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Hima Das belongs to Assam.",
+      "as": "হিমা দাস অসমৰ।"
+    }
+  },
+  {
+    "id": "sports-137",
+    "q": {
+      "en": "Hima Das is popularly known as —",
+      "as": "হিমা দাসক জনপ্ৰিয়ভাৱে কি বুলি জনা যায় —"
+    },
+    "options": [
+      {
+        "en": "Golden Girl",
+        "as": "গোল্ডেন গাৰ্ল"
+      },
+      {
+        "en": "Dhing Express",
+        "as": "ঢিঙ এক্সপ্ৰেছ"
+      },
+      {
+        "en": "Payyoli Express",
+        "as": "পায়্যলী এক্সপ্ৰেছ"
+      },
+      {
+        "en": "Flying Sikh",
+        "as": "ফ্লাইং শিখ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Hima Das is known as the 'Dhing Express'.",
+      "as": "হিমা দাসক 'ঢিঙ এক্সপ্ৰেছ' বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "sports-138",
+    "q": {
+      "en": "Boxer Lovlina Borgohain belongs to which Indian state?",
+      "as": "বক্সাৰ লাভলিনা বৰগোঁহাই কোনখন ভাৰতীয় ৰাজ্যৰ?"
+    },
+    "options": [
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "Mizoram",
+        "as": "মিজোৰাম"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Lovlina Borgohain belongs to Assam.",
+      "as": "লাভলিনা বৰগোঁহাই অসমৰ।"
+    }
+  },
+  {
+    "id": "sports-139",
+    "q": {
+      "en": "Lovlina Borgohain is associated with which sport?",
+      "as": "লাভলিনা বৰগোঁহাই কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Boxing",
+        "as": "বক্সিং"
+      },
+      {
+        "en": "Wrestling",
+        "as": "কুস্তি"
+      },
+      {
+        "en": "Athletics",
+        "as": "এথলেটিকছ"
+      },
+      {
+        "en": "Judo",
+        "as": "জুডো"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Lovlina Borgohain is a boxer.",
+      "as": "লাভলিনা বৰগোঁহাই এগৰাকী বক্সাৰ।"
+    }
+  },
+  {
+    "id": "sports-140",
+    "q": {
+      "en": "Boxer Shiva Thapa belongs to which Indian state?",
+      "as": "বক্সাৰ শিৱ থাপা কোনখন ভাৰতীয় ৰাজ্যৰ?"
+    },
+    "options": [
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "Sikkim",
+        "as": "ছিক্কিম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Shiva Thapa belongs to Assam.",
+      "as": "শিৱ থাপা অসমৰ।"
+    }
+  },
+  {
+    "id": "sports-141",
+    "q": {
+      "en": "Shiva Thapa is associated with which sport?",
+      "as": "শিৱ থাপা কোন খেলৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Weightlifting",
+        "as": "ভাৰোত্তোলন"
+      },
+      {
+        "en": "Boxing",
+        "as": "বক্সিং"
+      },
+      {
+        "en": "Wrestling",
+        "as": "কুস্তি"
+      },
+      {
+        "en": "Athletics",
+        "as": "এথলেটিকছ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Shiva Thapa is a boxer.",
+      "as": "শিৱ থাপা এজন বক্সাৰ।"
+    }
+  },
+  {
+    "id": "sports-142",
+    "q": {
+      "en": "Bhogeswar Baruah, the first Assamese to win an Asian Games gold, was associated with which sport?",
+      "as": "এছিয়ান গেমছত স্বৰ্ণ জয় কৰা প্ৰথম অসমীয়া ভোগেশ্বৰ বৰুৱা কোন খেলৰ সৈতে জড়িত আছিল?"
+    },
+    "options": [
+      {
+        "en": "Athletics",
+        "as": "এথলেটিকছ"
+      },
+      {
+        "en": "Boxing",
+        "as": "বক্সিং"
+      },
+      {
+        "en": "Football",
+        "as": "ফুটবল"
+      },
+      {
+        "en": "Hockey",
+        "as": "হকী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bhogeswar Baruah was an athlete.",
+      "as": "ভোগেশ্বৰ বৰুৱা এজন এথলেট আছিল।"
+    }
+  },
+  {
+    "id": "sports-143",
+    "q": {
+      "en": "In which year did Bhogeswar Baruah win a gold medal at the Asian Games?",
+      "as": "কোন বছৰত ভোগেশ্বৰ বৰুৱাই এছিয়ান গেমছত স্বৰ্ণ পদক জয় কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "1982",
+        "as": "১৯৮২"
+      },
+      {
+        "en": "1966",
+        "as": "১৯৬৬"
+      },
+      {
+        "en": "1970",
+        "as": "১৯৭০"
+      },
+      {
+        "en": "1974",
+        "as": "১৯৭৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bhogeswar Baruah won Asian Games gold in 1966.",
+      "as": "ভোগেশ্বৰ বৰুৱাই ১৯৬৬ চনত এছিয়ান গেমছ স্বৰ্ণ জয় কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-144",
+    "q": {
+      "en": "The Indira Gandhi Athletic Stadium is located in which city?",
+      "as": "ইন্দিৰা গান্ধী এথলেটিক ষ্টেডিয়াম কোনখন চহৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Indira Gandhi Athletic Stadium is located in Guwahati.",
+      "as": "ইন্দিৰা গান্ধী এথলেটিক ষ্টেডিয়াম গুৱাহাটীত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "sports-145",
+    "q": {
+      "en": "The Barsapara Cricket Stadium is located in which city?",
+      "as": "বৰ্ষাপাৰা ক্ৰিকেট ষ্টেডিয়াম কোনখন চহৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Tezpur",
+        "as": "তেজপুৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Barsapara Cricket Stadium is located in Guwahati, Assam.",
+      "as": "বৰ্ষাপাৰা ক্ৰিকেট ষ্টেডিয়াম গুৱাহাটী, অসমত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "sports-146",
+    "q": {
+      "en": "How many players are there in a volleyball team on the court?",
+      "as": "কোৰ্টত এটা ভলীবল দলত কিমানজন খেলুৱৈ থাকে?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A volleyball team has 6 players on the court.",
+      "as": "কোৰ্টত এটা ভলীবল দলত ৬জন খেলুৱৈ থাকে।"
+    }
+  },
+  {
+    "id": "sports-147",
+    "q": {
+      "en": "How many players are there in a basketball team on the court?",
+      "as": "কোৰ্টত এটা বাস্কেটবল দলত কিমানজন খেলুৱৈ থাকে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A basketball team has 5 players on the court.",
+      "as": "কোৰ্টত এটা বাস্কেটবল দলত ৫জন খেলুৱৈ থাকে।"
+    }
+  },
+  {
+    "id": "sports-148",
+    "q": {
+      "en": "How many players are there in a kabaddi team on the court?",
+      "as": "কোৰ্টত এটা কাবাডী দলত কিমানজন খেলুৱৈ থাকে?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A kabaddi team has 7 players on the court.",
+      "as": "কোৰ্টত এটা কাবাডী দলত ৭জন খেলুৱৈ থাকে।"
+    }
+  },
+  {
+    "id": "sports-149",
+    "q": {
+      "en": "How many players are there in a water polo team in the pool?",
+      "as": "পুলত এটা ৱাটাৰ প'ল' দলত কিমানজন খেলুৱৈ থাকে?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A water polo team has 7 players in the pool.",
+      "as": "পুলত এটা ৱাটাৰ প'ল' দলত ৭জন খেলুৱৈ থাকে।"
+    }
+  },
+  {
+    "id": "sports-150",
+    "q": {
+      "en": "In which year was kabaddi introduced in the Asian Games?",
+      "as": "কোন বছৰত কাবাডী এছিয়ান গেমছত অন্তৰ্ভুক্ত কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1986",
+        "as": "১৯৮৬"
+      },
+      {
+        "en": "1990",
+        "as": "১৯৯০"
+      },
+      {
+        "en": "1994",
+        "as": "১৯৯৪"
+      },
+      {
+        "en": "1998",
+        "as": "১৯৯৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kabaddi was introduced in the Asian Games in 1990.",
+      "as": "১৯৯০ চনত কাবাডী এছিয়ান গেমছত অন্তৰ্ভুক্ত কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-151",
+    "q": {
+      "en": "What is the highest sporting award in India?",
+      "as": "ভাৰতৰ সৰ্বোচ্চ ক্ৰীড়া বঁটা কি?"
+    },
+    "options": [
+      {
+        "en": "Dronacharya Award",
+        "as": "দ্ৰোণাচাৰ্য বঁটা"
+      },
+      {
+        "en": "Dhyan Chand Award",
+        "as": "ধ্যানচান্দ বঁটা"
+      },
+      {
+        "en": "Major Dhyan Chand Khel Ratna Award",
+        "as": "মেজৰ ধ্যানচান্দ খেল ৰত্ন বঁটা"
+      },
+      {
+        "en": "Arjuna Award",
+        "as": "অৰ্জুন বঁটা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Major Dhyan Chand Khel Ratna Award is India's highest sporting honour.",
+      "as": "মেজৰ ধ্যানচান্দ খেল ৰত্ন বঁটা ভাৰতৰ সৰ্বোচ্চ ক্ৰীড়া সন্মান।"
+    }
+  },
+  {
+    "id": "sports-152",
+    "q": {
+      "en": "The Arjuna Award is given for which purpose?",
+      "as": "অৰ্জুন বঁটা কি বাবে প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Best coaching",
+        "as": "শ্ৰেষ্ঠ প্ৰশিক্ষণ"
+      },
+      {
+        "en": "Lifetime achievement",
+        "as": "জীৱনজোৰা অৱদান"
+      },
+      {
+        "en": "Adventure sports",
+        "as": "দুঃসাহসিক ক্ৰীড়া"
+      },
+      {
+        "en": "Outstanding performance in sports",
+        "as": "ক্ৰীড়াত অসাধাৰণ প্ৰদৰ্শন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Arjuna Award is given for outstanding performance in sports.",
+      "as": "অৰ্জুন বঁটা ক্ৰীড়াত অসাধাৰণ প্ৰদৰ্শনৰ বাবে প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "sports-153",
+    "q": {
+      "en": "The Dronacharya Award is given to whom?",
+      "as": "দ্ৰোণাচাৰ্য বঁটা কাক প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Players",
+        "as": "খেলুৱৈসকল"
+      },
+      {
+        "en": "Umpires",
+        "as": "আম্পায়াৰসকল"
+      },
+      {
+        "en": "Sports journalists",
+        "as": "ক্ৰীড়া সাংবাদিকসকল"
+      },
+      {
+        "en": "Coaches",
+        "as": "প্ৰশিক্ষকসকল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Dronacharya Award is given to outstanding coaches.",
+      "as": "দ্ৰোণাচাৰ্য বঁটা অসাধাৰণ প্ৰশিক্ষকসকলক প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "sports-154",
+    "q": {
+      "en": "The Dronacharya Award is named after Dronacharya, who is a character from —",
+      "as": "দ্ৰোণাচাৰ্য বঁটা দ্ৰোণাচাৰ্যৰ নামেৰে নামাকৰণ কৰা হৈছে, তেওঁ কাৰ চৰিত্ৰ —"
+    },
+    "options": [
+      {
+        "en": "Mahabharata",
+        "as": "মহাভাৰত"
+      },
+      {
+        "en": "Ramayana",
+        "as": "ৰামায়ণ"
+      },
+      {
+        "en": "Bhagavata",
+        "as": "ভাগৱত"
+      },
+      {
+        "en": "Vedas",
+        "as": "বেদ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Dronacharya is a character from the Mahabharata.",
+      "as": "দ্ৰোণাচাৰ্য মহাভাৰতৰ এটা চৰিত্ৰ।"
+    }
+  },
+  {
+    "id": "sports-155",
+    "q": {
+      "en": "In which year was the Rajiv Gandhi Khel Ratna Award renamed as the Major Dhyan Chand Khel Ratna Award?",
+      "as": "কোন বছৰত ৰাজীৱ গান্ধী খেল ৰত্ন বঁটাৰ নাম মেজৰ ধ্যানচান্দ খেল ৰত্ন বঁটা ৰখা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2022",
+        "as": "২০২২"
+      },
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
+        "en": "2021",
+        "as": "২০২১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The award was renamed in 2021.",
+      "as": "২০২১ চনত বঁটাটোৰ নাম সলনি কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-156",
+    "q": {
+      "en": "Who was the first recipient of the Khel Ratna Award?",
+      "as": "খেল ৰত্ন বঁটাৰ প্ৰথম গ্ৰহণকৰ্তা কোন আছিল?"
+    },
+    "options": [
+      {
+        "en": "Sachin Tendulkar",
+        "as": "শচীন তেণ্ডুলকাৰ"
+      },
+      {
+        "en": "Leander Paes",
+        "as": "লিয়েণ্ডাৰ পেজ"
+      },
+      {
+        "en": "Major Dhyan Chand",
+        "as": "মেজৰ ধ্যানচান্দ"
+      },
+      {
+        "en": "Viswanathan Anand",
+        "as": "বিশ্বনাথন আনন্দ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Viswanathan Anand was the first recipient of the Khel Ratna Award.",
+      "as": "বিশ্বনাথন আনন্দ খেল ৰত্ন বঁটাৰ প্ৰথম গ্ৰহণকৰ্তা আছিল।"
+    }
+  },
+  {
+    "id": "sports-157",
+    "q": {
+      "en": "The Tenzing Norgay National Adventure Award is associated with which field?",
+      "as": "তেনজিং নৰ্গে ৰাষ্ট্ৰীয় দুঃসাহসিক বঁটা কোন ক্ষেত্ৰৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Adventure sports",
+        "as": "দুঃসাহসিক ক্ৰীড়া"
+      },
+      {
+        "en": "Chess",
+        "as": "দবা"
+      },
+      {
+        "en": "Athletics",
+        "as": "এথলেটিকছ"
+      },
+      {
+        "en": "Swimming",
+        "as": "সাঁতোৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Tenzing Norgay Award is associated with adventure sports.",
+      "as": "তেনজিং নৰ্গে বঁটা দুঃসাহসিক ক্ৰীড়াৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "sports-158",
+    "q": {
+      "en": "How many Grand Slam tournaments are there in tennis?",
+      "as": "টেনিছত কিমানখন গ্ৰেণ্ড শ্লাম প্ৰতিযোগিতা আছে?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are four Grand Slam tournaments in tennis.",
+      "as": "টেনিছত চাৰিখন গ্ৰেণ্ড শ্লাম প্ৰতিযোগিতা আছে।"
+    }
+  },
+  {
+    "id": "sports-159",
+    "q": {
+      "en": "The game of chess is believed to have originated in —",
+      "as": "দবা খেল ক'ত উৎপত্তি হৈছিল বুলি বিশ্বাস কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "Persia",
+        "as": "পাৰস্য"
+      },
+      {
+        "en": "Greece",
+        "as": "গ্ৰীচ"
+      },
+      {
+        "en": "India",
+        "as": "ভাৰত"
+      },
+      {
+        "en": "China",
+        "as": "চীন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Chess is believed to have originated in India.",
+      "as": "দবা খেল ভাৰতত উৎপত্তি হৈছিল বুলি বিশ্বাস কৰা হয়।"
+    }
+  },
+  {
+    "id": "sports-160",
+    "q": {
+      "en": "On which date is National Sports Day celebrated in India?",
+      "as": "ভাৰতত ৰাষ্ট্ৰীয় ক্ৰীড়া দিৱস কোন তাৰিখে পালন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "29 July",
+        "as": "২৯ জুলাই"
+      },
+      {
+        "en": "29 September",
+        "as": "২৯ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "29 October",
+        "as": "২৯ অক্টোবৰ"
+      },
+      {
+        "en": "29 August",
+        "as": "২৯ আগষ্ট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "National Sports Day is celebrated on 29 August.",
+      "as": "ৰাষ্ট্ৰীয় ক্ৰীড়া দিৱস ২৯ আগষ্টত পালন কৰা হয়।"
+    }
+  },
+  {
+    "id": "sports-161",
+    "q": {
+      "en": "Which is the largest cricket stadium in India by capacity?",
+      "as": "ধাৰণক্ষমতা অনুসৰি ভাৰতৰ আটাইতকৈ ডাঙৰ ক্ৰিকেট ষ্টেডিয়াম কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Wankhede Stadium, Mumbai",
+        "as": "ৱাংখেড়ে ষ্টেডিয়াম, মুম্বাই"
+      },
+      {
+        "en": "M. Chinnaswamy Stadium, Bengaluru",
+        "as": "এম. চিন্নাস্বামী ষ্টেডিয়াম, বেংগালুৰু"
+      },
+      {
+        "en": "Narendra Modi Stadium, Ahmedabad",
+        "as": "নৰেন্দ্ৰ মোদী ষ্টেডিয়াম, আহমেদাবাদ"
+      },
+      {
+        "en": "Eden Gardens, Kolkata",
+        "as": "ইডেন গাৰ্ডেনছ, কলকাতা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Narendra Modi Stadium in Ahmedabad is the largest cricket stadium in India.",
+      "as": "আহমেদাবাদৰ নৰেন্দ্ৰ মোদী ষ্টেডিয়াম ভাৰতৰ আটাইতকৈ ডাঙৰ ক্ৰিকেট ষ্টেডিয়াম।"
+    }
+  },
+  {
+    "id": "sports-162",
+    "q": {
+      "en": "Hima Das won a gold medal at the World U-20 Championships in which event?",
+      "as": "হিমা দাসে বিশ্ব অনুৰ্ধ-২০ চেম্পিয়নশ্বিপত কোন ইভেণ্টত স্বৰ্ণ পদক জয় কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "200 metres",
+        "as": "২০০ মিটাৰ"
+      },
+      {
+        "en": "800 metres",
+        "as": "৮০০ মিটাৰ"
+      },
+      {
+        "en": "400 metres",
+        "as": "৪০০ মিটাৰ"
+      },
+      {
+        "en": "100 metres",
+        "as": "১০০ মিটাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hima Das won gold in the 400 metres at the World U-20 Championships.",
+      "as": "হিমা দাসে বিশ্ব অনুৰ্ধ-২০ চেম্পিয়নশ্বিপত ৪০০ মিটাৰত স্বৰ্ণ জয় কৰিছিল।"
+    }
+  },
+  {
+    "id": "sports-163",
+    "q": {
+      "en": "Who is known as the 'Father of the Modern Olympic Games'?",
+      "as": "কাক 'আধুনিক অলিম্পিক ক্ৰীড়াৰ পিতৃ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Pierre de Coubertin",
+        "as": "পিয়েৰ দি কুবাৰ্টিন"
+      },
+      {
+        "en": "Baron de Coubertin",
+        "as": "বেৰন দি কুবাৰ্টিন"
+      },
+      {
+        "en": "Jesse Owens",
+        "as": "জেচি ওৱেনছ"
+      },
+      {
+        "en": "Carl Lewis",
+        "as": "কাৰ্ল লুইছ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Pierre de Coubertin is known as the Father of the Modern Olympic Games.",
+      "as": "পিয়েৰ দি কুবাৰ্টিনক আধুনিক অলিম্পিক ক্ৰীড়াৰ পিতৃ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "sports-164",
+    "q": {
+      "en": "The 2020 Tokyo Olympics were postponed by one year due to —",
+      "as": "২০২০ চনৰ টকিঅ' অলিম্পিক কি কাৰণত এবছৰ পিছলৈ ঠেলি দিয়া হৈছিল —"
+    },
+    "options": [
+      {
+        "en": "COVID-19 pandemic",
+        "as": "ক'ভিড-১৯ মাহামাৰী"
+      },
+      {
+        "en": "An earthquake",
+        "as": "ভূমিকম্প"
+      },
+      {
+        "en": "Financial crisis",
+        "as": "বিত্তীয় সংকট"
+      },
+      {
+        "en": "Political unrest",
+        "as": "ৰাজনৈতিক অস্থিৰতা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The 2020 Tokyo Olympics were postponed due to the COVID-19 pandemic.",
+      "as": "ক'ভিড-১৯ মাহামাৰীৰ বাবে ২০২০ চনৰ টকিঅ' অলিম্পিক পিছলৈ ঠেলি দিয়া হৈছিল।"
+    }
+  },
+  {
+    "id": "sports-165",
+    "q": {
+      "en": "Which Indian cricketer is popularly known as 'Captain Cool'?",
+      "as": "কোনজন ভাৰতীয় ক্ৰিকেটাৰক জনপ্ৰিয়ভাৱে 'কেপ্তেইন কুল' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Kapil Dev",
+        "as": "কপিল দেৱ"
+      },
+      {
+        "en": "M. S. Dhoni",
+        "as": "এম. এছ. ধোনী"
+      },
+      {
+        "en": "Virat Kohli",
+        "as": "বিৰাট কোহলী"
+      },
+      {
+        "en": "Rohit Sharma",
+        "as": "ৰোহিত শৰ্মা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "M. S. Dhoni is popularly known as 'Captain Cool'.",
+      "as": "এম. এছ. ধোনীক জনপ্ৰিয়ভাৱে 'কেপ্তেইন কুল' বুলি জনা যায়।"
+    }
   }
-}
+]
