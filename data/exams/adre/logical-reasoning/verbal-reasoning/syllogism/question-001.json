@@ -1,30 +1,650 @@
-{
-  "id": "syllogism-001",
-  "q": {
-    "en": "Statements: All pens are books. All books are papers. Conclusions: I. All pens are papers. II. Some papers are pens. Which conclusion follows?",
-    "as": "বিবৃতি: সকলো পেন কিতাপ। সকলো কিতাপ কাগজ। সিদ্ধান্ত: I. সকলো পেন কাগজ। II. কিছুমান কাগজ পেন। কোনটো সিদ্ধান্ত সঠিক?"
-  },
-  "options": [
-    {
-      "en": "Only I follows",
-      "as": "কেৱল I সঠিক"
+[
+  {
+    "id": "syllogism-001",
+    "q": {
+      "en": "Statements: All pens are books. All books are papers. Conclusions: I. All pens are papers. II. Some papers are pens. Which conclusion follows?",
+      "as": "বিবৃতি: সকলো পেন কিতাপ। সকলো কিতাপ কাগজ। সিদ্ধান্ত: I. সকলো পেন কাগজ। II. কিছুমান কাগজ পেন। কোনটো সিদ্ধান্ত সঠিক?"
     },
-    {
-      "en": "Only II follows",
-      "as": "কেৱল II সঠিক"
-    },
-    {
-      "en": "Both I and II follow",
-      "as": "I আৰু II দুয়োটাই সঠিক"
-    },
-    {
-      "en": "Neither follows",
-      "as": "কোনোটোৱেই নহয়"
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Pens are a subset of books and books a subset of papers, so all pens are papers and some papers are pens; both follow.",
+      "as": "পেন কিতাপৰ উপসংহতি আৰু কিতাপ কাগজৰ উপসংহতি, গতিকে সকলো পেন কাগজ আৰু কিছুমান কাগজ পেন; দুয়োটাই সঠিক।"
     }
-  ],
-  "correct": 2,
-  "explanation": {
-    "en": "Pens ⊂ books ⊂ papers, so all pens are papers and some papers are pens; both follow.",
-    "as": "পেন ⊂ কিতাপ ⊂ কাগজ, গতিকে সকলো পেন কাগজ আৰু কিছুমান কাগজ পেন; দুয়োটাই সঠিক।"
+  },
+  {
+    "id": "syllogism-002",
+    "q": {
+      "en": "Statements: All cats are animals. All animals are living things. Conclusions: I. All cats are living things. II. Some living things are cats.",
+      "as": "বিবৃতি: সকলো মেকুৰী প্ৰাণী। সকলো প্ৰাণী জীৱ। সিদ্ধান্ত: I. সকলো মেকুৰী জীৱ। II. কিছুমান জীৱ মেকুৰী।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Cats are inside animals which are inside living things, so both conclusions follow.",
+      "as": "মেকুৰী প্ৰাণীৰ ভিতৰত আৰু প্ৰাণী জীৱৰ ভিতৰত, গতিকে দুয়োটা সিদ্ধান্ত সঠিক।"
+    }
+  },
+  {
+    "id": "syllogism-003",
+    "q": {
+      "en": "Statements: All roses are flowers. No flowers are stones. Conclusions: I. No roses are stones. II. Some stones are roses.",
+      "as": "বিবৃতি: সকলো গোলাপ ফুল। কোনো ফুল শিল নহয়। সিদ্ধান্ত: I. কোনো গোলাপ শিল নহয়। II. কিছুমান শিল গোলাপ।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Roses being flowers and no flower being a stone means no rose is a stone; conclusion II is opposite, so only I follows.",
+      "as": "গোলাপ ফুল আৰু কোনো ফুল শিল নহয়, গতিকে কোনো গোলাপ শিল নহয়; সিদ্ধান্ত II ওলোটা, গতিকে কেৱল I সঠিক।"
+    }
+  },
+  {
+    "id": "syllogism-004",
+    "q": {
+      "en": "Statements: All dogs are mammals. Some mammals are pets. Conclusions: I. Some dogs are pets. II. Some pets are dogs.",
+      "as": "বিবৃতি: সকলো কুকুৰ স্তন্যপায়ী। কিছুমান স্তন্যপায়ী পোহনীয়া। সিদ্ধান্ত: I. কিছুমান কুকুৰ পোহনীয়া। II. কিছুমান পোহনীয়া কুকুৰ।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The pets among mammals need not be dogs, so neither conclusion definitely follows.",
+      "as": "স্তন্যপায়ীসকলৰ মাজৰ পোহনীয়া কুকুৰ নহ'বও পাৰে, গতিকে কোনো সিদ্ধান্ত নিশ্চিতভাৱে সঠিক নহয়।"
+    }
+  },
+  {
+    "id": "syllogism-005",
+    "q": {
+      "en": "Statements: Some boys are players. All players are strong. Conclusions: I. Some boys are strong. II. All strong are players.",
+      "as": "বিবৃতি: কিছুমান ল'ৰা খেলুৱৈ। সকলো খেলুৱৈ সবল। সিদ্ধান্ত: I. কিছুমান ল'ৰা সবল। II. সকলো সবল খেলুৱৈ।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The boys who are players are strong, so some boys are strong; but all strong need not be players.",
+      "as": "যিসকল ল'ৰা খেলুৱৈ তেওঁলোক সবল, গতিকে কিছুমান ল'ৰা সবল; কিন্তু সকলো সবল খেলুৱৈ নহ'বও পাৰে।"
+    }
+  },
+  {
+    "id": "syllogism-006",
+    "q": {
+      "en": "Statements: All books are papers. Some papers are old. Conclusions: I. Some books are old. II. All papers are books.",
+      "as": "বিবৃতি: সকলো কিতাপ কাগজ। কিছুমান কাগজ পুৰণি। সিদ্ধান্ত: I. কিছুমান কিতাপ পুৰণি। II. সকলো কাগজ কিতাপ।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The old papers need not be books, and a part cannot be reversed to all, so neither follows.",
+      "as": "পুৰণি কাগজ কিতাপ নহ'বও পাৰে, আৰু অংশক সকলে নধৰে, গতিকে কোনোটোৱেই নহয়।"
+    }
+  },
+  {
+    "id": "syllogism-007",
+    "q": {
+      "en": "Statements: No man is a bird. All birds can fly. Conclusions: I. No man can fly. II. Some birds are men.",
+      "as": "বিবৃতি: কোনো মানুহ চৰাই নহয়। সকলো চৰাই উৰিব পাৰে। সিদ্ধান্ত: I. কোনো মানুহ উৰিব নোৱাৰে। II. কিছুমান চৰাই মানুহ।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Man and bird are disjoint, so II is false; flying is not restricted to birds, so I is not definite.",
+      "as": "মানুহ আৰু চৰাই সম্পূৰ্ণ পৃথক, গতিকে II অসত্য; উৰা কেৱল চৰাইলৈ সীমাবদ্ধ নহয়, গতিকে I নিশ্চিত নহয়।"
+    }
+  },
+  {
+    "id": "syllogism-008",
+    "q": {
+      "en": "Statements: All apples are fruits. All fruits are sweet. Conclusions: I. All apples are sweet. II. Some sweet things are apples.",
+      "as": "বিবৃতি: সকলো আপেল ফল। সকলো ফল মিঠা। সিদ্ধান্ত: I. সকলো আপেল মিঠা। II. কিছুমান মিঠা বস্তু আপেল।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Apples are inside fruits which are inside sweet things, so both conclusions follow.",
+      "as": "আপেল ফলৰ ভিতৰত আৰু ফল মিঠাৰ ভিতৰত, গতিকে দুয়োটা সিদ্ধান্ত সঠিক।"
+    }
+  },
+  {
+    "id": "syllogism-009",
+    "q": {
+      "en": "Statements: Some pens are red. All red things are costly. Conclusions: I. Some pens are costly. II. All costly things are pens.",
+      "as": "বিবৃতি: কিছুমান পেন ৰঙা। সকলো ৰঙা বস্তু দামী। সিদ্ধান্ত: I. কিছুমান পেন দামী। II. সকলো দামী বস্তু পেন।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The red pens are costly, so some pens are costly; but all costly things need not be pens.",
+      "as": "ৰঙা পেনবোৰ দামী, গতিকে কিছুমান পেন দামী; কিন্তু সকলো দামী বস্তু পেন নহ'বও পাৰে।"
+    }
+  },
+  {
+    "id": "syllogism-010",
+    "q": {
+      "en": "Statements: All teachers are graduates. Some graduates are rich. Conclusions: I. Some teachers are rich. II. Some rich are graduates.",
+      "as": "বিবৃতি: সকলো শিক্ষক স্নাতক। কিছুমান স্নাতক ধনী। সিদ্ধান্ত: I. কিছুমান শিক্ষক ধনী। II. কিছুমান ধনী স্নাতক।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Some graduates are rich directly gives some rich are graduates; teachers need not be among the rich graduates.",
+      "as": "কিছুমান স্নাতক ধনী মানেই কিছুমান ধনী স্নাতক; শিক্ষক ধনী স্নাতকসকলৰ ভিতৰত নাথাকিবও পাৰে।"
+    }
+  },
+  {
+    "id": "syllogism-011",
+    "q": {
+      "en": "Statements: All doors are windows. All windows are walls. Conclusions: I. All doors are walls. II. Some walls are doors.",
+      "as": "বিবৃতি: সকলো দুৱাৰ খিৰিকী। সকলো খিৰিকী বেৰ। সিদ্ধান্ত: I. সকলো দুৱাৰ বেৰ। II. কিছুমান বেৰ দুৱাৰ।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Doors are inside windows which are inside walls, so both conclusions follow.",
+      "as": "দুৱাৰ খিৰিকীৰ ভিতৰত আৰু খিৰিকী বেৰৰ ভিতৰত, গতিকে দুয়োটা সিদ্ধান্ত সঠিক।"
+    }
+  },
+  {
+    "id": "syllogism-012",
+    "q": {
+      "en": "Statements: No cat is a dog. Some dogs are pets. Conclusions: I. Some pets are not cats. II. No pet is a cat.",
+      "as": "বিবৃতি: কোনো মেকুৰী কুকুৰ নহয়। কিছুমান কুকুৰ পোহনীয়া। সিদ্ধান্ত: I. কিছুমান পোহনীয়া মেকুৰী নহয়। II. কোনো পোহনীয়া মেকুৰী নহয়।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Those pets that are dogs are not cats, so some pets are not cats; but not every pet is a dog, so II is not definite.",
+      "as": "যিবোৰ পোহনীয়া কুকুৰ সেইবোৰ মেকুৰী নহয়, গতিকে কিছুমান পোহনীয়া মেকুৰী নহয়; কিন্তু প্ৰতিটো পোহনীয়া কুকুৰ নহয়, গতিকে II নিশ্চিত নহয়।"
+    }
+  },
+  {
+    "id": "syllogism-013",
+    "q": {
+      "en": "Statements: All squares are rectangles. All rectangles are shapes. Conclusions: I. All squares are shapes. II. Some shapes are squares.",
+      "as": "বিবৃতি: সকলো বৰ্গ আয়ত। সকলো আয়ত আকৃতি। সিদ্ধান্ত: I. সকলো বৰ্গ আকৃতি। II. কিছুমান আকৃতি বৰ্গ।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Squares are inside rectangles which are inside shapes, so both conclusions follow.",
+      "as": "বৰ্গ আয়তৰ ভিতৰত আৰু আয়ত আকৃতিৰ ভিতৰত, গতিকে দুয়োটা সিদ্ধান্ত সঠিক।"
+    }
+  },
+  {
+    "id": "syllogism-014",
+    "q": {
+      "en": "Statements: Some books are novels. Some novels are thick. Conclusions: I. Some books are thick. II. Some thick are books.",
+      "as": "বিবৃতি: কিছুমান কিতাপ উপন্যাস। কিছুমান উপন্যাস ডাঠ। সিদ্ধান্ত: I. কিছুমান কিতাপ ডাঠ। II. কিছুমান ডাঠ কিতাপ।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Two 'some' statements with a common middle term give no definite conclusion; neither follows.",
+      "as": "একে মধ্য পদ থকা দুটা 'কিছুমান' বিবৃতিয়ে নিশ্চিত সিদ্ধান্ত নিদিয়ে; কোনোটোৱেই নহয়।"
+    }
+  },
+  {
+    "id": "syllogism-015",
+    "q": {
+      "en": "Statements: All flowers are beautiful. Some beautiful things are costly. Conclusions: I. Some flowers are costly. II. Some costly things are flowers.",
+      "as": "বিবৃতি: সকলো ফুল ধুনীয়া। কিছুমান ধুনীয়া বস্তু দামী। সিদ্ধান্ত: I. কিছুমান ফুল দামী। II. কিছুমান দামী বস্তু ফুল।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The costly beautiful things need not be flowers, so neither conclusion is definite.",
+      "as": "দামী ধুনীয়া বস্তুবোৰ ফুল নহ'বও পাৰে, গতিকে কোনো সিদ্ধান্ত নিশ্চিত নহয়।"
+    }
+  },
+  {
+    "id": "syllogism-016",
+    "q": {
+      "en": "Statements: All keys are metals. No metal is wood. Conclusions: I. No key is wood. II. Some wood are keys.",
+      "as": "বিবৃতি: সকলো চাবি ধাতু। কোনো ধাতু কাঠ নহয়। সিদ্ধান্ত: I. কোনো চাবি কাঠ নহয়। II. কিছুমান কাঠ চাবি।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Keys are metals and no metal is wood, so no key is wood; II is the opposite, so only I follows.",
+      "as": "চাবি ধাতু আৰু কোনো ধাতু কাঠ নহয়, গতিকে কোনো চাবি কাঠ নহয়; II ওলোটা, গতিকে কেৱল I সঠিক।"
+    }
+  },
+  {
+    "id": "syllogism-017",
+    "q": {
+      "en": "Statements: All students are intelligent. All intelligent are hardworking. Conclusions: I. All students are hardworking. II. Some hardworking are students.",
+      "as": "বিবৃতি: সকলো ছাত্ৰ বুদ্ধিমান। সকলো বুদ্ধিমান পৰিশ্ৰমী। সিদ্ধান্ত: I. সকলো ছাত্ৰ পৰিশ্ৰমী। II. কিছুমান পৰিশ্ৰমী ছাত্ৰ।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Students are inside intelligent which are inside hardworking, so both conclusions follow.",
+      "as": "ছাত্ৰ বুদ্ধিমানৰ ভিতৰত আৰু বুদ্ধিমান পৰিশ্ৰমীৰ ভিতৰত, গতিকে দুয়োটা সিদ্ধান্ত সঠিক।"
+    }
+  },
+  {
+    "id": "syllogism-018",
+    "q": {
+      "en": "Statements: Some tables are chairs. No chair is a bench. Conclusions: I. Some tables are not benches. II. No table is a bench.",
+      "as": "বিবৃতি: কিছুমান মেজ চকী। কোনো চকী বেঞ্চ নহয়। সিদ্ধান্ত: I. কিছুমান মেজ বেঞ্চ নহয়। II. কোনো মেজ বেঞ্চ নহয়।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The tables that are chairs are not benches, so some tables are not benches; but other tables could be benches.",
+      "as": "যিবোৰ মেজ চকী সেইবোৰ বেঞ্চ নহয়, গতিকে কিছুমান মেজ বেঞ্চ নহয়; কিন্তু অন্য মেজ বেঞ্চ হ'ব পাৰে।"
+    }
+  },
+  {
+    "id": "syllogism-019",
+    "q": {
+      "en": "Statements: All doctors are educated. Some educated are famous. Conclusions: I. Some doctors are famous. II. All famous are doctors.",
+      "as": "বিবৃতি: সকলো ডাক্তৰ শিক্ষিত। কিছুমান শিক্ষিত বিখ্যাত। সিদ্ধান্ত: I. কিছুমান ডাক্তৰ বিখ্যাত। II. সকলো বিখ্যাত ডাক্তৰ।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The famous educated people need not be doctors, so neither conclusion is definite.",
+      "as": "বিখ্যাত শিক্ষিত লোক ডাক্তৰ নহ'বও পাৰে, গতিকে কোনো সিদ্ধান্ত নিশ্চিত নহয়।"
+    }
+  },
+  {
+    "id": "syllogism-020",
+    "q": {
+      "en": "Statements: All mangoes are fruits. Some fruits are yellow. Conclusions: I. Some mangoes are yellow. II. Some yellow things are fruits.",
+      "as": "বিবৃতি: সকলো আম ফল। কিছুমান ফল হালধীয়া। সিদ্ধান্ত: I. কিছুমান আম হালধীয়া। II. কিছুমান হালধীয়া বস্তু ফল।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Some fruits are yellow directly gives some yellow things are fruits; mangoes need not be the yellow fruits.",
+      "as": "কিছুমান ফল হালধীয়া মানেই কিছুমান হালধীয়া বস্তু ফল; আম হালধীয়া ফল নহ'বও পাৰে।"
+    }
+  },
+  {
+    "id": "syllogism-021",
+    "q": {
+      "en": "Statements: No pen is a pencil. All pencils are instruments. Conclusions: I. Some instruments are not pens. II. All instruments are pencils.",
+      "as": "বিবৃতি: কোনো পেন পেঞ্চিল নহয়। সকলো পেঞ্চিল সঁজুলি। সিদ্ধান্ত: I. কিছুমান সঁজুলি পেন নহয়। II. সকলো সঁজুলি পেঞ্চিল।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Pencils are instruments and no pencil is a pen, so some instruments are not pens; not all instruments are pencils.",
+      "as": "পেঞ্চিল সঁজুলি আৰু কোনো পেঞ্চিল পেন নহয়, গতিকে কিছুমান সঁজুলি পেন নহয়; সকলো সঁজুলি পেঞ্চিল নহয়।"
+    }
+  },
+  {
+    "id": "syllogism-022",
+    "q": {
+      "en": "Statements: All birds have wings. All sparrows are birds. Conclusions: I. All sparrows have wings. II. Some birds are sparrows.",
+      "as": "বিবৃতি: সকলো চৰাইৰ ডেউকা আছে। সকলো ঘৰচিৰিকা চৰাই। সিদ্ধান্ত: I. সকলো ঘৰচিৰিকাৰ ডেউকা আছে। II. কিছুমান চৰাই ঘৰচিৰিকা।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sparrows are inside birds which all have wings, so both conclusions follow.",
+      "as": "ঘৰচিৰিকা চৰাইৰ ভিতৰত আৰু সকলো চৰাইৰ ডেউকা আছে, গতিকে দুয়োটা সিদ্ধান্ত সঠিক।"
+    }
+  },
+  {
+    "id": "syllogism-023",
+    "q": {
+      "en": "Statements: Some men are honest. All honest are respected. Conclusions: I. Some men are respected. II. Some respected are men.",
+      "as": "বিবৃতি: কিছুমান মানুহ সৎ। সকলো সৎ সন্মানিত। সিদ্ধান্ত: I. কিছুমান মানুহ সন্মানিত। II. কিছুমান সন্মানিত মানুহ।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The honest men are respected, giving both some men are respected and some respected are men.",
+      "as": "সৎ মানুহসকল সন্মানিত, গতিকে কিছুমান মানুহ সন্মানিত আৰু কিছুমান সন্মানিত মানুহ দুয়োটাই সঠিক।"
+    }
+  },
+  {
+    "id": "syllogism-024",
+    "q": {
+      "en": "Statements: All rivers are water bodies. Some water bodies are polluted. Conclusions: I. Some rivers are polluted. II. Some polluted are rivers.",
+      "as": "বিবৃতি: সকলো নদী জলাশয়। কিছুমান জলাশয় প্ৰদূষিত। সিদ্ধান্ত: I. কিছুমান নদী প্ৰদূষিত। II. কিছুমান প্ৰদূষিত নদী।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The polluted water bodies need not be rivers, so neither conclusion is definite.",
+      "as": "প্ৰদূষিত জলাশয় নদী নহ'বও পাৰে, গতিকে কোনো সিদ্ধান্ত নিশ্চিত নহয়।"
+    }
+  },
+  {
+    "id": "syllogism-025",
+    "q": {
+      "en": "Statements: All coins are round. All round things roll. Conclusions: I. All coins roll. II. Some things that roll are coins.",
+      "as": "বিবৃতি: সকলো মুদ্ৰা ঘূৰণীয়া। সকলো ঘূৰণীয়া বস্তু গড়ি যায়। সিদ্ধান্ত: I. সকলো মুদ্ৰা গড়ি যায়। II. কিছুমান গড়ি যোৱা বস্তু মুদ্ৰা।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Coins are inside round things which all roll, so both conclusions follow.",
+      "as": "মুদ্ৰা ঘূৰণীয়া বস্তুৰ ভিতৰত আৰু সেইবোৰ গড়ি যায়, গতিকে দুয়োটা সিদ্ধান্ত সঠিক।"
+    }
+  },
+  {
+    "id": "syllogism-026",
+    "q": {
+      "en": "Statements: Some trees are tall. All tall things are green. Conclusions: I. Some trees are green. II. All green things are trees.",
+      "as": "বিবৃতি: কিছুমান গছ ওখ। সকলো ওখ বস্তু সেউজীয়া। সিদ্ধান্ত: I. কিছুমান গছ সেউজীয়া। II. সকলো সেউজীয়া বস্তু গছ।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The tall trees are green, so some trees are green; but all green things need not be trees.",
+      "as": "ওখ গছবোৰ সেউজীয়া, গতিকে কিছুমান গছ সেউজীয়া; কিন্তু সকলো সেউজীয়া বস্তু গছ নহ'বও পাৰে।"
+    }
+  },
+  {
+    "id": "syllogism-027",
+    "q": {
+      "en": "Statements: No human is immortal. All gods are immortal. Conclusions: I. No human is a god. II. Some gods are humans.",
+      "as": "বিবৃতি: কোনো মানুহ অমৰ নহয়। সকলো দেৱতা অমৰ। সিদ্ধান্ত: I. কোনো মানুহ দেৱতা নহয়। II. কিছুমান দেৱতা মানুহ।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Gods are immortal and no human is immortal, so no human is a god; II contradicts this.",
+      "as": "দেৱতা অমৰ আৰু কোনো মানুহ অমৰ নহয়, গতিকে কোনো মানুহ দেৱতা নহয়; II ইয়াৰ বিৰোধী।"
+    }
+  },
+  {
+    "id": "syllogism-028",
+    "q": {
+      "en": "Statements: All chairs are furniture. Some furniture are expensive. Conclusions: I. Some chairs are expensive. II. Some expensive are furniture.",
+      "as": "বিবৃতি: সকলো চকী আচবাব। কিছুমান আচবাব দামী। সিদ্ধান্ত: I. কিছুমান চকী দামী। II. কিছুমান দামী আচবাব।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Some furniture are expensive directly gives some expensive are furniture; the expensive furniture need not be chairs.",
+      "as": "কিছুমান আচবাব দামী মানেই কিছুমান দামী আচবাব; দামী আচবাব চকী নহ'বও পাৰে।"
+    }
+  },
+  {
+    "id": "syllogism-029",
+    "q": {
+      "en": "Statements: All metals are good conductors. Some good conductors are copper. Conclusions: I. Some metals are copper. II. All copper are good conductors.",
+      "as": "বিবৃতি: সকলো ধাতু ভাল পৰিবাহী। কিছুমান ভাল পৰিবাহী তাম। সিদ্ধান্ত: I. কিছুমান ধাতু তাম। II. সকলো তাম ভাল পৰিবাহী।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The copper conductors need not be metals, and 'some' cannot be generalised to 'all'; neither follows.",
+      "as": "তাম পৰিবাহী ধাতু নহ'বও পাৰে, আৰু 'কিছুমান'ক 'সকলো' কৰিব নোৱাৰি; কোনোটোৱেই নহয়।"
+    }
+  },
+  {
+    "id": "syllogism-030",
+    "q": {
+      "en": "Statements: All parents are caring. All caring are loving. Conclusions: I. All parents are loving. II. All loving are parents.",
+      "as": "বিবৃতি: সকলো পিতৃ-মাতৃ যত্নশীল। সকলো যত্নশীল মৰমিয়াল। সিদ্ধান্ত: I. সকলো পিতৃ-মাতৃ মৰমিয়াল। II. সকলো মৰমিয়াল পিতৃ-মাতৃ।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Parents are caring and caring are loving, so all parents are loving; but the reverse (II) does not follow.",
+      "as": "পিতৃ-মাতৃ যত্নশীল আৰু যত্নশীল মৰমিয়াল, গতিকে সকলো পিতৃ-মাতৃ মৰমিয়াল; কিন্তু ওলোটা (II) সঠিক নহয়।"
+    }
+  },
+  {
+    "id": "syllogism-031",
+    "q": {
+      "en": "Statements: Some flowers are red. All red things are attractive. Conclusions: I. Some flowers are attractive. II. Some attractive things are flowers.",
+      "as": "বিবৃতি: কিছুমান ফুল ৰঙা। সকলো ৰঙা বস্তু আকৰ্ষণীয়। সিদ্ধান্ত: I. কিছুমান ফুল আকৰ্ষণীয়। II. কিছুমান আকৰ্ষণীয় বস্তু ফুল।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The red flowers are attractive, giving both some flowers are attractive and some attractive are flowers.",
+      "as": "ৰঙা ফুলবোৰ আকৰ্ষণীয়, গতিকে কিছুমান ফুল আকৰ্ষণীয় আৰু কিছুমান আকৰ্ষণীয় ফুল দুয়োটাই সঠিক।"
+    }
+  },
+  {
+    "id": "syllogism-032",
+    "q": {
+      "en": "Statements: No student is lazy. Some lazy are intelligent. Conclusions: I. Some intelligent are not students. II. No intelligent is a student.",
+      "as": "বিবৃতি: কোনো ছাত্ৰ অলস নহয়। কিছুমান অলস বুদ্ধিমান। সিদ্ধান্ত: I. কিছুমান বুদ্ধিমান ছাত্ৰ নহয়। II. কোনো বুদ্ধিমান ছাত্ৰ নহয়।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The intelligent who are lazy are not students, so some intelligent are not students; but other intelligent people may be students.",
+      "as": "যিসকল বুদ্ধিমান অলস তেওঁলোক ছাত্ৰ নহয়, গতিকে কিছুমান বুদ্ধিমান ছাত্ৰ নহয়; কিন্তু অন্য বুদ্ধিমান ছাত্ৰ হ'ব পাৰে।"
+    }
+  },
+  {
+    "id": "syllogism-033",
+    "q": {
+      "en": "Statements: All clocks show time. All watches are clocks. Conclusions: I. All watches show time. II. Some clocks are watches.",
+      "as": "বিবৃতি: সকলো ঘড়ী সময় দেখুৱায়। সকলো হাতঘড়ী ঘড়ী। সিদ্ধান্ত: I. সকলো হাতঘড়ী সময় দেখুৱায়। II. কিছুমান ঘড়ী হাতঘড়ী।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Watches are inside clocks which all show time, so both conclusions follow.",
+      "as": "হাতঘড়ী ঘড়ীৰ ভিতৰত আৰু সকলো ঘড়ী সময় দেখুৱায়, গতিকে দুয়োটা সিদ্ধান্ত সঠিক।"
+    }
+  },
+  {
+    "id": "syllogism-034",
+    "q": {
+      "en": "Statements: All politicians are leaders. Some leaders are honest. Conclusions: I. Some politicians are honest. II. Some honest are leaders.",
+      "as": "বিবৃতি: সকলো ৰাজনীতিবিদ নেতা। কিছুমান নেতা সৎ। সিদ্ধান্ত: I. কিছুমান ৰাজনীতিবিদ সৎ। II. কিছুমান সৎ নেতা।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Some leaders are honest directly gives some honest are leaders; the honest leaders need not be politicians.",
+      "as": "কিছুমান নেতা সৎ মানেই কিছুমান সৎ নেতা; সৎ নেতাসকল ৰাজনীতিবিদ নহ'বও পাৰে।"
+    }
+  },
+  {
+    "id": "syllogism-035",
+    "q": {
+      "en": "Statements: All cups are utensils. No utensil is a toy. Conclusions: I. No cup is a toy. II. Some toys are cups.",
+      "as": "বিবৃতি: সকলো কাপ সঁজুলি। কোনো সঁজুলি খেলনা নহয়। সিদ্ধান্ত: I. কোনো কাপ খেলনা নহয়। II. কিছুমান খেলনা কাপ।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cups are utensils and no utensil is a toy, so no cup is a toy; II is the opposite.",
+      "as": "কাপ সঁজুলি আৰু কোনো সঁজুলি খেলনা নহয়, গতিকে কোনো কাপ খেলনা নহয়; II ওলোটা।"
+    }
+  },
+  {
+    "id": "syllogism-036",
+    "q": {
+      "en": "Statements: All roses are flowers. Some roses are red. Conclusions: I. Some flowers are red. II. All red things are roses.",
+      "as": "বিবৃতি: সকলো গোলাপ ফুল। কিছুমান গোলাপ ৰঙা। সিদ্ধান্ত: I. কিছুমান ফুল ৰঙা। II. সকলো ৰঙা বস্তু গোলাপ।"
+    },
+    "options": [
+      { "en": "Only I follows", "as": "কেৱল I সঠিক" },
+      { "en": "Only II follows", "as": "কেৱল II সঠিক" },
+      { "en": "Both I and II follow", "as": "I আৰু II দুয়োটাই সঠিক" },
+      { "en": "Neither follows", "as": "কোনোটোৱেই নহয়" }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The red roses are flowers, so some flowers are red; but all red things need not be roses.",
+      "as": "ৰঙা গোলাপবোৰ ফুল, গতিকে কিছুমান ফুল ৰঙা; কিন্তু সকলো ৰঙা বস্তু গোলাপ নহ'বও পাৰে।"
+    }
   }
-}
+]
