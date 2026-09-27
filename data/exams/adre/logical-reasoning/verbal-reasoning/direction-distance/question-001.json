@@ -1,30 +1,1502 @@
-{
-  "id": "direction-distance-001",
-  "q": {
-    "en": "Rahim walks 3 km towards the north, then turns right and walks 4 km. How far is he from the starting point?",
-    "as": "ৰহিমে উত্তৰ দিশে ৩ কিমি খোজ কাঢ়ে, তাৰ পিছত সোঁফালে ঘূৰি ৪ কিমি খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰ স্থানৰ পৰা কিমান দূৰত?"
-  },
-  "options": [
-    {
-      "en": "5 km",
-      "as": "৫ কিমি"
+[
+  {
+    "id": "direction-distance-001",
+    "q": {
+      "en": "A man is facing North. He turns 90 degrees to his right. Which direction is he facing now?",
+      "as": "এজন মানুহ উত্তৰমুৱা হৈ আছে। তেওঁ সোঁফালে ৯০ ডিগ্ৰী ঘূৰিল। এতিয়া তেওঁ কোন দিশমুৱা?"
     },
-    {
-      "en": "6 km",
-      "as": "৬ কিমি"
-    },
-    {
-      "en": "7 km",
-      "as": "৭ কিমি"
-    },
-    {
-      "en": "4 km",
-      "as": "৪ কিমি"
+    "options": [
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Facing North, a right turn takes him to the East.",
+      "as": "উত্তৰমুৱা হৈ সোঁফালে ঘূৰিলে তেওঁ পূবমুৱা হয়।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "Distance = √(3² + 4²) = √25 = 5 km.",
-    "as": "দূৰত্ব = √(৩² + ৪²) = √২৫ = ৫ কিমি।"
+  },
+  {
+    "id": "direction-distance-002",
+    "q": {
+      "en": "A man is facing South. He turns 90 degrees to his left. Which direction is he facing now?",
+      "as": "এজন মানুহ দক্ষিণমুৱা হৈ আছে। তেওঁ বাওঁফালে ৯০ ডিগ্ৰী ঘূৰিল। এতিয়া তেওঁ কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      },
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Facing South, a left turn takes him to the East.",
+      "as": "দক্ষিণমুৱা হৈ বাওঁফালে ঘূৰিলে তেওঁ পূবমুৱা হয়।"
+    }
+  },
+  {
+    "id": "direction-distance-003",
+    "q": {
+      "en": "A man is facing East. He turns 90 degrees to his left. Which direction is he facing now?",
+      "as": "এজন মানুহ পূবমুৱা হৈ আছে। তেওঁ বাওঁফালে ৯০ ডিগ্ৰী ঘূৰিল। এতিয়া তেওঁ কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "East",
+        "as": "পূব"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Facing East, a left turn takes him to the North.",
+      "as": "পূবমুৱা হৈ বাওঁফালে ঘূৰিলে তেওঁ উত্তৰমুৱা হয়।"
+    }
+  },
+  {
+    "id": "direction-distance-004",
+    "q": {
+      "en": "A man is facing West. He turns 90 degrees to his right. Which direction is he facing now?",
+      "as": "এজন মানুহ পশ্চিমমুৱা হৈ আছে। তেওঁ সোঁফালে ৯০ ডিগ্ৰী ঘূৰিল। এতিয়া তেওঁ কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Facing West, a right turn takes him to the North.",
+      "as": "পশ্চিমমুৱা হৈ সোঁফালে ঘূৰিলে তেওঁ উত্তৰমুৱা হয়।"
+    }
+  },
+  {
+    "id": "direction-distance-005",
+    "q": {
+      "en": "A man is facing North. He turns right twice. Which direction is he facing now?",
+      "as": "এজন মানুহ উত্তৰমুৱা হৈ আছে। তেওঁ দুবাৰ সোঁফালে ঘূৰিল। এতিয়া তেওঁ কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "North to East, then East to South. Two right turns lead to the South.",
+      "as": "উত্তৰৰপৰা পূবলৈ, তাৰপিছত পূবৰপৰা দক্ষিণলৈ। দুবাৰ সোঁফালে ঘূৰিলে দক্ষিণমুৱা হয়।"
+    }
+  },
+  {
+    "id": "direction-distance-006",
+    "q": {
+      "en": "A man is facing South. He turns 180 degrees. Which direction is he facing now?",
+      "as": "এজন মানুহ দক্ষিণমুৱা হৈ আছে। তেওঁ ১৮০ ডিগ্ৰী ঘূৰিল। এতিয়া তেওঁ কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A 180 degree turn reverses the direction, so South becomes North.",
+      "as": "১৮০ ডিগ্ৰী ঘূৰিলে দিশ ওলোটাই যায়, সেয়ে দক্ষিণৰপৰা উত্তৰ হয়।"
+    }
+  },
+  {
+    "id": "direction-distance-007",
+    "q": {
+      "en": "A man is facing East. He turns right and then turns left. Which direction is he facing now?",
+      "as": "এজন মানুহ পূবমুৱা হৈ আছে। তেওঁ সোঁফালে ঘূৰি তাৰপিছত বাওঁফালে ঘূৰিল। এতিয়া তেওঁ কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "East to South (right), then South to East (left). He faces East again.",
+      "as": "পূবৰপৰা দক্ষিণলৈ (সোঁ), তাৰপিছত দক্ষিণৰপৰা পূবলৈ (বাওঁ)। তেওঁ পুনৰ পূবমুৱা হয়।"
+    }
+  },
+  {
+    "id": "direction-distance-008",
+    "q": {
+      "en": "A man is facing North. He turns right three times. Which direction is he facing now?",
+      "as": "এজন মানুহ উত্তৰমুৱা হৈ আছে। তেওঁ তিনিবাৰ সোঁফালে ঘূৰিল। এতিয়া তেওঁ কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "North to East to South to West. Three right turns lead to the West.",
+      "as": "উত্তৰৰপৰা পূব, পূবৰপৰা দক্ষিণ, দক্ষিণৰপৰা পশ্চিম। তিনিবাৰ সোঁফালে ঘূৰিলে পশ্চিমমুৱা হয়।"
+    }
+  },
+  {
+    "id": "direction-distance-009",
+    "q": {
+      "en": "A man is facing North-East. He turns 90 degrees to his left. Which direction is he facing now?",
+      "as": "এজন মানুহ উত্তৰ-পূবমুৱা হৈ আছে। তেওঁ বাওঁফালে ৯০ ডিগ্ৰী ঘূৰিল। এতিয়া তেওঁ কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "North-West",
+        "as": "উত্তৰ-পশ্চিম"
+      },
+      {
+        "en": "South-East",
+        "as": "দক্ষিণ-পূব"
+      },
+      {
+        "en": "North-East",
+        "as": "উত্তৰ-পূব"
+      },
+      {
+        "en": "South-West",
+        "as": "দক্ষিণ-পশ্চিম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A left turn from North-East gives North-West.",
+      "as": "উত্তৰ-পূবৰপৰা বাওঁফালে ঘূৰিলে উত্তৰ-পশ্চিমমুৱা হয়।"
+    }
+  },
+  {
+    "id": "direction-distance-010",
+    "q": {
+      "en": "A man is facing South-West. He turns 90 degrees to his right. Which direction is he facing now?",
+      "as": "এজন মানুহ দক্ষিণ-পশ্চিমমুৱা হৈ আছে। তেওঁ সোঁফালে ৯০ ডিগ্ৰী ঘূৰিল। এতিয়া তেওঁ কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "South-East",
+        "as": "দক্ষিণ-পূব"
+      },
+      {
+        "en": "North-West",
+        "as": "উত্তৰ-পশ্চিম"
+      },
+      {
+        "en": "South-West",
+        "as": "দক্ষিণ-পশ্চিম"
+      },
+      {
+        "en": "North-East",
+        "as": "উত্তৰ-পূব"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A right turn from South-West gives North-West.",
+      "as": "দক্ষিণ-পশ্চিমৰপৰা সোঁফালে ঘূৰিলে উত্তৰ-পশ্চিমমুৱা হয়।"
+    }
+  },
+  {
+    "id": "direction-distance-011",
+    "q": {
+      "en": "A man is facing South-East. He turns 90 degrees to his right. Which direction is he facing now?",
+      "as": "এজন মানুহ দক্ষিণ-পূবমুৱা হৈ আছে। তেওঁ সোঁফালে ৯০ ডিগ্ৰী ঘূৰিল। এতিয়া তেওঁ কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "North-East",
+        "as": "উত্তৰ-পূব"
+      },
+      {
+        "en": "South-East",
+        "as": "দক্ষিণ-পূব"
+      },
+      {
+        "en": "South-West",
+        "as": "দক্ষিণ-পশ্চিম"
+      },
+      {
+        "en": "North-West",
+        "as": "উত্তৰ-পশ্চিম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A right turn from South-East gives South-West.",
+      "as": "দক্ষিণ-পূবৰপৰা সোঁফালে ঘূৰিলে দক্ষিণ-পশ্চিমমুৱা হয়।"
+    }
+  },
+  {
+    "id": "direction-distance-012",
+    "q": {
+      "en": "A man is facing North. He turns 45 degrees to his right. Which direction is he facing now?",
+      "as": "এজন মানুহ উত্তৰমুৱা হৈ আছে। তেওঁ সোঁফালে ৪৫ ডিগ্ৰী ঘূৰিল। এতিয়া তেওঁ কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "North-West",
+        "as": "উত্তৰ-পশ্চিম"
+      },
+      {
+        "en": "South-East",
+        "as": "দক্ষিণ-পূব"
+      },
+      {
+        "en": "South-West",
+        "as": "দক্ষিণ-পশ্চিম"
+      },
+      {
+        "en": "North-East",
+        "as": "উত্তৰ-পূব"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A 45 degree right turn from North gives North-East.",
+      "as": "উত্তৰৰপৰা সোঁফালে ৪৫ ডিগ্ৰী ঘূৰিলে উত্তৰ-পূবমুৱা হয়।"
+    }
+  },
+  {
+    "id": "direction-distance-013",
+    "q": {
+      "en": "A man is facing North. He turns 135 degrees clockwise. Which direction is he facing now?",
+      "as": "এজন মানুহ উত্তৰমুৱা হৈ আছে। তেওঁ ঘড়ীৰ দিশত ১৩৫ ডিগ্ৰী ঘূৰিল। এতিয়া তেওঁ কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "South-East",
+        "as": "দক্ষিণ-পূব"
+      },
+      {
+        "en": "South-West",
+        "as": "দক্ষিণ-পশ্চিম"
+      },
+      {
+        "en": "North-East",
+        "as": "উত্তৰ-পূব"
+      },
+      {
+        "en": "North-West",
+        "as": "উত্তৰ-পশ্চিম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "North plus 90 degrees is East, plus another 45 degrees gives South-East.",
+      "as": "উত্তৰৰপৰা ৯০ ডিগ্ৰী ঘূৰিলে পূব, আৰু ৪৫ ডিগ্ৰী ঘূৰিলে দক্ষিণ-পূব হয়।"
+    }
+  },
+  {
+    "id": "direction-distance-014",
+    "q": {
+      "en": "Sunil is facing North-West. He turns 90 degrees anticlockwise. Which direction is he facing now?",
+      "as": "সুনীল উত্তৰ-পশ্চিমমুৱা হৈ আছে। তেওঁ ঘড়ীৰ বিপৰীত দিশত ৯০ ডিগ্ৰী ঘূৰিল। এতিয়া তেওঁ কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "North-East",
+        "as": "উত্তৰ-পূব"
+      },
+      {
+        "en": "South-West",
+        "as": "দক্ষিণ-পশ্চিম"
+      },
+      {
+        "en": "North-West",
+        "as": "উত্তৰ-পশ্চিম"
+      },
+      {
+        "en": "South-East",
+        "as": "দক্ষিণ-পূব"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A 90 degree anticlockwise turn from North-West gives South-West.",
+      "as": "উত্তৰ-পশ্চিমৰপৰা ঘড়ীৰ বিপৰীত দিশত ৯০ ডিগ্ৰী ঘূৰিলে দক্ষিণ-পশ্চিমমুৱা হয়।"
+    }
+  },
+  {
+    "id": "direction-distance-015",
+    "q": {
+      "en": "Kiran is facing South. He turns 45 degrees clockwise and then 90 degrees clockwise. Which direction is he facing now?",
+      "as": "কিৰণ দক্ষিণমুৱা হৈ আছে। তেওঁ ঘড়ীৰ দিশত ৪৫ ডিগ্ৰী, তাৰপিছত পুনৰ ৯০ ডিগ্ৰী ঘূৰিল। এতিয়া তেওঁ কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "South-West",
+        "as": "দক্ষিণ-পশ্চিম"
+      },
+      {
+        "en": "South-East",
+        "as": "দক্ষিণ-পূব"
+      },
+      {
+        "en": "North-West",
+        "as": "উত্তৰ-পশ্চিম"
+      },
+      {
+        "en": "North-East",
+        "as": "উত্তৰ-পূব"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "South to South-West (45 degrees), then South-West to North-West (90 degrees).",
+      "as": "দক্ষিণৰপৰা দক্ষিণ-পশ্চিম (৪৫ ডিগ্ৰী), তাৰপিছত দক্ষিণ-পশ্চিমৰপৰা উত্তৰ-পশ্চিম (৯০ ডিগ্ৰী)।"
+    }
+  },
+  {
+    "id": "direction-distance-016",
+    "q": {
+      "en": "Ravi is facing East. He turns 90 degrees right and then 180 degrees. Which direction is he facing now?",
+      "as": "ৰবি পূবমুৱা হৈ আছে। তেওঁ সোঁফালে ৯০ ডিগ্ৰী আৰু তাৰপিছত ১৮০ ডিগ্ৰী ঘূৰিল। এতিয়া তেওঁ কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      },
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "East to South (right), then a 180 degree turn gives North.",
+      "as": "পূবৰপৰা দক্ষিণলৈ (সোঁ), তাৰপিছত ১৮০ ডিগ্ৰী ঘূৰিলে উত্তৰমুৱা হয়।"
+    }
+  },
+  {
+    "id": "direction-distance-017",
+    "q": {
+      "en": "A man walks 5 km towards North and then 5 km towards East. How far is he from the starting point?",
+      "as": "এজন মানুহে ৫ কিমি উত্তৰলৈ আৰু তাৰপিছত ৫ কিমি পূবলৈ খোজ কাঢ়িল। তেওঁ আৰম্ভণিৰ স্থানৰপৰা কিমান দূৰত?"
+    },
+    "options": [
+      {
+        "en": "5√2 km",
+        "as": "5√2 কিমি"
+      },
+      {
+        "en": "10 km",
+        "as": "10 কিমি"
+      },
+      {
+        "en": "5 km",
+        "as": "5 কিমি"
+      },
+      {
+        "en": "2√5 km",
+        "as": "2√5 কিমি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The two displacements are perpendicular, so the distance is √(5² + 5²) = 5√2 km.",
+      "as": "দুয়ো গতি পৰস্পৰ লম্ব, সেয়ে দূৰত্ব √(5² + 5²) = 5√2 কিমি।"
+    }
+  },
+  {
+    "id": "direction-distance-018",
+    "q": {
+      "en": "A man walks 3 km towards North and then 4 km towards East. How far is he from the starting point?",
+      "as": "এজন মানুহে ৩ কিমি উত্তৰলৈ আৰু তাৰপিছত ৪ কিমি পূবলৈ খোজ কাঢ়িল। তেওঁ আৰম্ভণিৰ স্থানৰপৰা কিমান দূৰত?"
+    },
+    "options": [
+      {
+        "en": "7 km",
+        "as": "7 কিমি"
+      },
+      {
+        "en": "5 km",
+        "as": "5 কিমি"
+      },
+      {
+        "en": "1 km",
+        "as": "1 কিমি"
+      },
+      {
+        "en": "12 km",
+        "as": "12 কিমি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Distance = √(3² + 4²) = √25 = 5 km.",
+      "as": "দূৰত্ব = √(3² + 4²) = √25 = 5 কিমি।"
+    }
+  },
+  {
+    "id": "direction-distance-019",
+    "q": {
+      "en": "A man walks 6 km towards South and then 8 km towards West. How far is he from the starting point?",
+      "as": "এজন মানুহে ৬ কিমি দক্ষিণলৈ আৰু তাৰপিছত ৮ কিমি পশ্চিমলৈ খোজ কাঢ়িল। তেওঁ আৰম্ভণিৰ স্থানৰপৰা কিমান দূৰত?"
+    },
+    "options": [
+      {
+        "en": "14 km",
+        "as": "14 কিমি"
+      },
+      {
+        "en": "2 km",
+        "as": "2 কিমি"
+      },
+      {
+        "en": "10 km",
+        "as": "10 কিমি"
+      },
+      {
+        "en": "12 km",
+        "as": "12 কিমি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Distance = √(6² + 8²) = √100 = 10 km.",
+      "as": "দূৰত্ব = √(6² + 8²) = √100 = 10 কিমি।"
+    }
+  },
+  {
+    "id": "direction-distance-020",
+    "q": {
+      "en": "A man walks 4 km towards North and then 3 km towards South. How far and in which direction is he from the starting point?",
+      "as": "এজন মানুহে ৪ কিমি উত্তৰলৈ আৰু তাৰপিছত ৩ কিমি দক্ষিণলৈ খোজ কাঢ়িল। তেওঁ আৰম্ভণিৰ স্থানৰপৰা কিমান দূৰত আৰু কোন দিশত?"
+    },
+    "options": [
+      {
+        "en": "1 km South",
+        "as": "1 কিমি দক্ষিণ"
+      },
+      {
+        "en": "7 km North",
+        "as": "7 কিমি উত্তৰ"
+      },
+      {
+        "en": "1 km East",
+        "as": "1 কিমি পূব"
+      },
+      {
+        "en": "1 km North",
+        "as": "1 কিমি উত্তৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Net movement = 4 - 3 = 1 km towards the North.",
+      "as": "মুঠ গতি = 4 - 3 = 1 কিমি উত্তৰ দিশে।"
+    }
+  },
+  {
+    "id": "direction-distance-021",
+    "q": {
+      "en": "A man walks 10 km towards East and then 10 km towards West. How far is he from the starting point?",
+      "as": "এজন মানুহে ১০ কিমি পূবলৈ আৰু তাৰপিছত ১০ কিমি পশ্চিমলৈ খোজ কাঢ়িল। তেওঁ আৰম্ভণিৰ স্থানৰপৰা কিমান দূৰত?"
+    },
+    "options": [
+      {
+        "en": "0 km",
+        "as": "0 কিমি"
+      },
+      {
+        "en": "20 km",
+        "as": "20 কিমি"
+      },
+      {
+        "en": "10 km",
+        "as": "10 কিমি"
+      },
+      {
+        "en": "5 km",
+        "as": "5 কিমি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The two movements cancel out, so he is back at the starting point.",
+      "as": "দুয়ো গতি পৰস্পৰ বাতিল হৈ যায়, সেয়ে তেওঁ আৰম্ভণিৰ স্থানতে আহি পায়।"
+    }
+  },
+  {
+    "id": "direction-distance-022",
+    "q": {
+      "en": "Ravi walks 2 km towards North, then 3 km towards East and then 2 km towards South. How far and in which direction is he from the starting point?",
+      "as": "ৰবিয়ে ২ কিমি উত্তৰলৈ, তাৰপিছত ৩ কিমি পূবলৈ আৰু তাৰপিছত ২ কিমি দক্ষিণলৈ খোজ কাঢ়িল। তেওঁ আৰম্ভণিৰ স্থানৰপৰা কিমান দূৰত আৰু কোন দিশত?"
+    },
+    "options": [
+      {
+        "en": "3 km West",
+        "as": "3 কিমি পশ্চিম"
+      },
+      {
+        "en": "3 km East",
+        "as": "3 কিমি পূব"
+      },
+      {
+        "en": "2 km East",
+        "as": "2 কিমি পূব"
+      },
+      {
+        "en": "7 km East",
+        "as": "7 কিমি পূব"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The 2 km North and 2 km South cancel, leaving 3 km towards the East.",
+      "as": "২ কিমি উত্তৰ আৰু ২ কিমি দক্ষিণ বাতিল হৈ ৩ কিমি পূবলৈ থাকে।"
+    }
+  },
+  {
+    "id": "direction-distance-023",
+    "q": {
+      "en": "A man walks 5 km towards South, then 5 km towards East, then 5 km towards North. In which direction is he from the starting point?",
+      "as": "এজন মানুহে ৫ কিমি দক্ষিণলৈ, তাৰপিছত ৫ কিমি পূবলৈ আৰু তাৰপিছত ৫ কিমি উত্তৰলৈ খোজ কাঢ়িল। তেওঁ আৰম্ভণিৰ স্থানৰপৰা কোন দিশত?"
+    },
+    "options": [
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The 5 km South and 5 km North cancel, leaving him 5 km to the East.",
+      "as": "৫ কিমি দক্ষিণ আৰু ৫ কিমি উত্তৰ বাতিল হৈ তেওঁ ৫ কিমি পূবত থাকে।"
+    }
+  },
+  {
+    "id": "direction-distance-024",
+    "q": {
+      "en": "A man walks 3 km towards North, turns right and walks 4 km. How far is he from the starting point?",
+      "as": "এজন মানুহে ৩ কিমি উত্তৰলৈ খোজ কাঢ়ি সোঁফালে ঘূৰি ৪ কিমি খোজ কাঢ়িল। তেওঁ আৰম্ভণিৰ স্থানৰপৰা কিমান দূৰত?"
+    },
+    "options": [
+      {
+        "en": "7 km",
+        "as": "7 কিমি"
+      },
+      {
+        "en": "1 km",
+        "as": "1 কিমি"
+      },
+      {
+        "en": "12 km",
+        "as": "12 কিমি"
+      },
+      {
+        "en": "5 km",
+        "as": "5 কিমি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The paths are perpendicular, so distance = √(3² + 4²) = 5 km.",
+      "as": "গতি পথ পৰস্পৰ লম্ব, সেয়ে দূৰত্ব = √(3² + 4²) = 5 কিমি।"
+    }
+  },
+  {
+    "id": "direction-distance-025",
+    "q": {
+      "en": "A man walks 7 km towards West and then 7 km towards North. In which direction is he from the starting point?",
+      "as": "এজন মানুহে ৭ কিমি পশ্চিমলৈ আৰু তাৰপিছত ৭ কিমি উত্তৰলৈ খোজ কাঢ়িল। তেওঁ আৰম্ভণিৰ স্থানৰপৰা কোন দিশত?"
+    },
+    "options": [
+      {
+        "en": "North-West",
+        "as": "উত্তৰ-পশ্চিম"
+      },
+      {
+        "en": "North-East",
+        "as": "উত্তৰ-পূব"
+      },
+      {
+        "en": "South-West",
+        "as": "দক্ষিণ-পশ্চিম"
+      },
+      {
+        "en": "South-East",
+        "as": "দক্ষিণ-পূব"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Moving West and then North places him to the North-West of the start.",
+      "as": "পশ্চিমলৈ আৰু তাৰপিছত উত্তৰলৈ গলে তেওঁ আৰম্ভণিৰ উত্তৰ-পশ্চিমত থাকে।"
+    }
+  },
+  {
+    "id": "direction-distance-026",
+    "q": {
+      "en": "A man goes 4 km North, 6 km East, 4 km South and 2 km West. In which direction is he from the starting point?",
+      "as": "এজন মানুহ ৪ কিমি উত্তৰ, ৬ কিমি পূব, ৪ কিমি দক্ষিণ আৰু ২ কিমি পশ্চিমলৈ গ'ল। তেওঁ আৰম্ভণিৰ স্থানৰপৰা কোন দিশত?"
+    },
+    "options": [
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      },
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "North-East",
+        "as": "উত্তৰ-পূব"
+      },
+      {
+        "en": "South-East",
+        "as": "দক্ষিণ-পূব"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "North and South cancel; East net = 6 - 2 = 4 km, so he is to the East.",
+      "as": "উত্তৰ আৰু দক্ষিণ বাতিল; পূবলৈ মুঠ = 6 - 2 = 4 কিমি, সেয়ে তেওঁ পূবত।"
+    }
+  },
+  {
+    "id": "direction-distance-027",
+    "q": {
+      "en": "A man walks 5 km North, 3 km East, 5 km South and 3 km West. How far is he from the starting point?",
+      "as": "এজন মানুহে ৫ কিমি উত্তৰ, ৩ কিমি পূব, ৫ কিমি দক্ষিণ আৰু ৩ কিমি পশ্চিমলৈ খোজ কাঢ়িল। তেওঁ আৰম্ভণিৰ স্থানৰপৰা কিমান দূৰত?"
+    },
+    "options": [
+      {
+        "en": "16 km",
+        "as": "16 কিমি"
+      },
+      {
+        "en": "8 km",
+        "as": "8 কিমি"
+      },
+      {
+        "en": "0 km",
+        "as": "0 কিমি"
+      },
+      {
+        "en": "3 km",
+        "as": "3 কিমি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "All movements cancel out, so he returns to the starting point.",
+      "as": "সকলো গতি বাতিল হৈ তেওঁ আৰম্ভণিৰ স্থানতে উভতি আহে।"
+    }
+  },
+  {
+    "id": "direction-distance-028",
+    "q": {
+      "en": "A man goes 3 km North, 4 km East and 3 km South. How far is he from the starting point?",
+      "as": "এজন মানুহ ৩ কিমি উত্তৰ, ৪ কিমি পূব আৰু ৩ কিমি দক্ষিণলৈ গ'ল। তেওঁ আৰম্ভণিৰ স্থানৰপৰা কিমান দূৰত?"
+    },
+    "options": [
+      {
+        "en": "10 km",
+        "as": "10 কিমি"
+      },
+      {
+        "en": "3 km",
+        "as": "3 কিমি"
+      },
+      {
+        "en": "5 km",
+        "as": "5 কিমি"
+      },
+      {
+        "en": "4 km",
+        "as": "4 কিমি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "North and South cancel, so he is 4 km away towards the East.",
+      "as": "উত্তৰ আৰু দক্ষিণ বাতিল হৈ তেওঁ পূবলৈ 4 কিমি দূৰত থাকে।"
+    }
+  },
+  {
+    "id": "direction-distance-029",
+    "q": {
+      "en": "A man walks 5 km North, turns right and walks 5 km, then turns right and walks 5 km. In which direction is he from the starting point?",
+      "as": "এজন মানুহে ৫ কিমি উত্তৰলৈ খোজ কাঢ়ি সোঁফালে ঘূৰি ৫ কিমি, তাৰপিছত পুনৰ সোঁফালে ঘূৰি ৫ কিমি খোজ কাঢ়িল। তেওঁ আৰম্ভণিৰ স্থানৰপৰা কোন দিশত?"
+    },
+    "options": [
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "North, then East (right), then South (right): he ends 5 km to the East.",
+      "as": "উত্তৰ, তাৰপিছত পূব (সোঁ), তাৰপিছত দক্ষিণ (সোঁ): তেওঁ 5 কিমি পূবত থাকে।"
+    }
+  },
+  {
+    "id": "direction-distance-030",
+    "q": {
+      "en": "A man walks 10 m North, turns left and walks 10 m, then turns left and walks 10 m. In which direction is he from the starting point?",
+      "as": "এজন মানুহে ১০ মিটাৰ উত্তৰলৈ খোজ কাঢ়ি বাওঁফালে ঘূৰি ১০ মিটাৰ, তাৰপিছত পুনৰ বাওঁফালে ঘূৰি ১০ মিটাৰ খোজ কাঢ়িল। তেওঁ আৰম্ভণিৰ স্থানৰপৰা কোন দিশত?"
+    },
+    "options": [
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "North, then West (left), then South (left): he ends 10 m to the West.",
+      "as": "উত্তৰ, তাৰপিছত পশ্চিম (বাওঁ), তাৰপিছত দক্ষিণ (বাওঁ): তেওঁ 10 মিটাৰ পশ্চিমত থাকে।"
+    }
+  },
+  {
+    "id": "direction-distance-031",
+    "q": {
+      "en": "A person walks 4 km North, then 3 km East, then turns right and walks 4 km. How far is he from the starting point?",
+      "as": "এজন লোকে ৪ কিমি উত্তৰ, তাৰপিছত ৩ কিমি পূবলৈ খোজ কাঢ়ি সোঁফালে ঘূৰি ৪ কিমি খোজ কাঢ়িল। তেওঁ আৰম্ভণিৰ স্থানৰপৰা কিমান দূৰত?"
+    },
+    "options": [
+      {
+        "en": "5 km",
+        "as": "5 কিমি"
+      },
+      {
+        "en": "7 km",
+        "as": "7 কিমি"
+      },
+      {
+        "en": "3 km",
+        "as": "3 কিমি"
+      },
+      {
+        "en": "4 km",
+        "as": "4 কিমি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "After moving North and East, a right turn faces South, cancelling the North; he is 3 km from the start.",
+      "as": "উত্তৰ আৰু পূবলৈ যোৱাৰ পিছত সোঁফালে ঘূৰিলে দক্ষিণমুৱা হয় আৰু উত্তৰ বাতিল হয়; তেওঁ 3 কিমি দূৰত।"
+    }
+  },
+  {
+    "id": "direction-distance-032",
+    "q": {
+      "en": "A man goes 5 km North, 5 km West and 5 km South. How far is he from the starting point?",
+      "as": "এজন মানুহ ৫ কিমি উত্তৰ, ৫ কিমি পশ্চিম আৰু ৫ কিমি দক্ষিণলৈ গ'ল। তেওঁ আৰম্ভণিৰ স্থানৰপৰা কিমান দূৰত?"
+    },
+    "options": [
+      {
+        "en": "15 km",
+        "as": "15 কিমি"
+      },
+      {
+        "en": "10 km",
+        "as": "10 কিমি"
+      },
+      {
+        "en": "0 km",
+        "as": "0 কিমি"
+      },
+      {
+        "en": "5 km",
+        "as": "5 কিমি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "North and South cancel; he is 5 km away towards the West.",
+      "as": "উত্তৰ আৰু দক্ষিণ বাতিল; তেওঁ পশ্চিমলৈ 5 কিমি দূৰত।"
+    }
+  },
+  {
+    "id": "direction-distance-033",
+    "q": {
+      "en": "A man walks 2 km North, 2 km East, 2 km South, 2 km West and then 2 km North. In which direction is he from the starting point?",
+      "as": "এজন মানুহে ২ কিমি উত্তৰ, ২ কিমি পূব, ২ কিমি দক্ষিণ, ২ কিমি পশ্চিম আৰু তাৰপিছত ২ কিমি উত্তৰলৈ খোজ কাঢ়িল। তেওঁ আৰম্ভণিৰ স্থানৰপৰা কোন দিশত?"
+    },
+    "options": [
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      },
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The first four legs cancel out and the last 2 km North leaves him to the North.",
+      "as": "প্ৰথম চাৰি খোজ বাতিল হৈ শেষৰ 2 কিমি উত্তৰে তেওঁ উত্তৰত ৰাখে।"
+    }
+  },
+  {
+    "id": "direction-distance-034",
+    "q": {
+      "en": "A and B start from the same point. A walks 3 km North and B walks 4 km East. What is the shortest distance between A and B?",
+      "as": "A আৰু B একে স্থানৰপৰা আৰম্ভ কৰে। A এ ৩ কিমি উত্তৰলৈ আৰু B এ ৪ কিমি পূবলৈ খোজ কাঢ়িল। A আৰু B ৰ মাজৰ ন্যূনতম দূৰত্ব কিমান?"
+    },
+    "options": [
+      {
+        "en": "7 km",
+        "as": "7 কিমি"
+      },
+      {
+        "en": "5 km",
+        "as": "5 কিমি"
+      },
+      {
+        "en": "1 km",
+        "as": "1 কিমি"
+      },
+      {
+        "en": "12 km",
+        "as": "12 কিমি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Their paths are perpendicular, so distance = √(3² + 4²) = 5 km.",
+      "as": "তেওঁলোকৰ পথ পৰস্পৰ লম্ব, সেয়ে দূৰত্ব = √(3² + 4²) = 5 কিমি।"
+    }
+  },
+  {
+    "id": "direction-distance-035",
+    "q": {
+      "en": "A man walks 5 km towards North and then 12 km towards East. What is the shortest distance from the starting point?",
+      "as": "এজন মানুহে ৫ কিমি উত্তৰলৈ আৰু তাৰপিছত ১২ কিমি পূবলৈ খোজ কাঢ়িল। আৰম্ভণিৰ স্থানৰপৰা ন্যূনতম দূৰত্ব কিমান?"
+    },
+    "options": [
+      {
+        "en": "17 km",
+        "as": "17 কিমি"
+      },
+      {
+        "en": "7 km",
+        "as": "7 কিমি"
+      },
+      {
+        "en": "13 km",
+        "as": "13 কিমি"
+      },
+      {
+        "en": "60 km",
+        "as": "60 কিমি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Distance = √(5² + 12²) = √169 = 13 km.",
+      "as": "দূৰত্ব = √(5² + 12²) = √169 = 13 কিমি।"
+    }
+  },
+  {
+    "id": "direction-distance-036",
+    "q": {
+      "en": "A man walks 8 km towards South and then 15 km towards West. How far is he from the starting point?",
+      "as": "এজন মানুহে ৮ কিমি দক্ষিণলৈ আৰু তাৰপিছত ১৫ কিমি পশ্চিমলৈ খোজ কাঢ়িল। তেওঁ আৰম্ভণিৰ স্থানৰপৰা কিমান দূৰত?"
+    },
+    "options": [
+      {
+        "en": "23 km",
+        "as": "23 কিমি"
+      },
+      {
+        "en": "7 km",
+        "as": "7 কিমি"
+      },
+      {
+        "en": "120 km",
+        "as": "120 কিমি"
+      },
+      {
+        "en": "17 km",
+        "as": "17 কিমি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Distance = √(8² + 15²) = √289 = 17 km.",
+      "as": "দূৰত্ব = √(8² + 15²) = √289 = 17 কিমি।"
+    }
+  },
+  {
+    "id": "direction-distance-037",
+    "q": {
+      "en": "If A is to the East of B and C is to the North of B, then in which direction is A with respect to C?",
+      "as": "যদি A হৈছে B ৰ পূবত আৰু C হৈছে B ৰ উত্তৰত, তেন্তে C ৰ সাপেক্ষে A কোন দিশত?"
+    },
+    "options": [
+      {
+        "en": "South-East",
+        "as": "দক্ষিণ-পূব"
+      },
+      {
+        "en": "North-East",
+        "as": "উত্তৰ-পূব"
+      },
+      {
+        "en": "South-West",
+        "as": "দক্ষিণ-পশ্চিম"
+      },
+      {
+        "en": "North-West",
+        "as": "উত্তৰ-পশ্চিম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A is East of B and C is North of B, so A lies to the South-East of C.",
+      "as": "A হৈছে B ৰ পূবত আৰু C হৈছে B ৰ উত্তৰত, সেয়ে C ৰ দক্ষিণ-পূবত A আছে।"
+    }
+  },
+  {
+    "id": "direction-distance-038",
+    "q": {
+      "en": "If P is to the North-East of Q and R is to the South-East of Q, then R is in which direction from P?",
+      "as": "যদি P হৈছে Q ৰ উত্তৰ-পূবত আৰু R হৈছে Q ৰ দক্ষিণ-পূবত, তেন্তে P ৰ পৰা R কোন দিশত?"
+    },
+    "options": [
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      },
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "P and R are on the same East line with Q between them vertically, so R is to the South of P.",
+      "as": "P আৰু R একে পূব ৰেখাতে, Q তেওঁলোকৰ মাজত, সেয়ে P ৰ দক্ষিণত R আছে।"
+    }
+  },
+  {
+    "id": "direction-distance-039",
+    "q": {
+      "en": "A is 5 km East of B. C is 5 km North of A. In which direction is C with respect to B?",
+      "as": "A হৈছে B ৰ ৫ কিমি পূবত। C হৈছে A ৰ ৫ কিমি উত্তৰত। B ৰ সাপেক্ষে C কোন দিশত?"
+    },
+    "options": [
+      {
+        "en": "North-West",
+        "as": "উত্তৰ-পশ্চিম"
+      },
+      {
+        "en": "South-East",
+        "as": "দক্ষিণ-পূব"
+      },
+      {
+        "en": "North-East",
+        "as": "উত্তৰ-পূব"
+      },
+      {
+        "en": "South-West",
+        "as": "দক্ষিণ-পশ্চিম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "C is to the North of A and A is to the East of B, so C is to the North-East of B.",
+      "as": "C হৈছে A ৰ উত্তৰত আৰু A হৈছে B ৰ পূবত, সেয়ে C হৈছে B ৰ উত্তৰ-পূবত।"
+    }
+  },
+  {
+    "id": "direction-distance-040",
+    "q": {
+      "en": "P is to the North of Q. R is to the East of P. In which direction is R from Q?",
+      "as": "P হৈছে Q ৰ উত্তৰত। R হৈছে P ৰ পূবত। Q ৰ পৰা R কোন দিশত?"
+    },
+    "options": [
+      {
+        "en": "North-West",
+        "as": "উত্তৰ-পশ্চিম"
+      },
+      {
+        "en": "South-East",
+        "as": "দক্ষিণ-পূব"
+      },
+      {
+        "en": "South-West",
+        "as": "দক্ষিণ-পশ্চিম"
+      },
+      {
+        "en": "North-East",
+        "as": "উত্তৰ-পূব"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "R is North of Q (through P) and East of Q, so R is to the North-East of Q.",
+      "as": "R হৈছে Q ৰ উত্তৰত (P ৰ মাজেৰে) আৰু Q ৰ পূবত, সেয়ে R হৈছে Q ৰ উত্তৰ-পূবত।"
+    }
+  },
+  {
+    "id": "direction-distance-041",
+    "q": {
+      "en": "A is to the West of B. C is to the South of B. In which direction is A from C?",
+      "as": "A হৈছে B ৰ পশ্চিমত। C হৈছে B ৰ দক্ষিণত। C ৰ পৰা A কোন দিশত?"
+    },
+    "options": [
+      {
+        "en": "North-West",
+        "as": "উত্তৰ-পশ্চিম"
+      },
+      {
+        "en": "North-East",
+        "as": "উত্তৰ-পূব"
+      },
+      {
+        "en": "South-West",
+        "as": "দক্ষিণ-পশ্চিম"
+      },
+      {
+        "en": "South-East",
+        "as": "দক্ষিণ-পূব"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A is West of B and C is South of B, so A lies to the North-West of C.",
+      "as": "A হৈছে B ৰ পশ্চিমত আৰু C হৈছে B ৰ দক্ষিণত, সেয়ে C ৰ উত্তৰ-পশ্চিমত A আছে।"
+    }
+  },
+  {
+    "id": "direction-distance-042",
+    "q": {
+      "en": "In the morning, a man is walking towards the sun. Which direction is he walking?",
+      "as": "ৰাতিপুৱা এজন মানুহে সূৰ্য্যৰ ফালে খোজ কাঢ়ি আছে। তেওঁ কোন দিশলৈ খোজ কাঢ়ি আছে?"
+    },
+    "options": [
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      },
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The sun rises in the East, so walking towards it means walking East.",
+      "as": "সূৰ্য্য পূবত উদয় হয়, সেয়ে সূৰ্য্যৰ ফালে খোজ কাঢ়িলে পূবলৈ যায়।"
+    }
+  },
+  {
+    "id": "direction-distance-043",
+    "q": {
+      "en": "In the evening, a man's shadow falls to his right. Which direction is he facing?",
+      "as": "সন্ধিয়া এজন মানুহৰ ছাঁ তেওঁৰ সোঁফালে পৰিছে। তেওঁ কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      },
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In the evening the shadow falls towards the East. If it is on his right, he faces North.",
+      "as": "সন্ধিয়া ছাঁ পূবলৈ পৰে। যদি সেয়া সোঁফালে পৰে, তেন্তে তেওঁ উত্তৰমুৱা।"
+    }
+  },
+  {
+    "id": "direction-distance-044",
+    "q": {
+      "en": "At sunrise, a man's shadow falls to his left. Which direction is he facing?",
+      "as": "সূৰ্য্য উদয়ৰ সময়ত এজন মানুহৰ ছাঁ তেওঁৰ বাওঁফালে পৰিছে। তেওঁ কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      },
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "At sunrise the shadow falls towards the West. If it is on his left, he faces North.",
+      "as": "সূৰ্য্য উদয়ৰ সময়ত ছাঁ পশ্চিমলৈ পৰে। যদি সেয়া বাওঁফালে পৰে, তেন্তে তেওঁ উত্তৰমুৱা।"
+    }
+  },
+  {
+    "id": "direction-distance-045",
+    "q": {
+      "en": "In the evening, the sun sets in the West. A man is walking away from the sun. Which direction is he walking?",
+      "as": "সন্ধিয়া সূৰ্য্য পশ্চিমত অস্ত যায়। এজন মানুহে সূৰ্য্যৰপৰা আঁতৰি খোজ কাঢ়ি আছে। তেওঁ কোন দিশলৈ খোজ কাঢ়ি আছে?"
+    },
+    "options": [
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Moving away from the western sun means walking towards the East.",
+      "as": "পশ্চিমৰ সূৰ্য্যৰপৰা আঁতৰি যোৱাৰ অৰ্থ পূবলৈ খোজ কঢ়া।"
+    }
+  },
+  {
+    "id": "direction-distance-046",
+    "q": {
+      "en": "At sunrise, a man faces the sun. In which direction does his shadow fall?",
+      "as": "সূৰ্য্য উদয়ৰ সময়ত এজন মানুহে সূৰ্য্যৰ ফালে মুখ কৰি আছে। তেওঁৰ ছাঁ কোন দিশলৈ পৰিব?"
+    },
+    "options": [
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "At sunrise the sun is in the East and the shadow falls opposite, i.e. to the West.",
+      "as": "সূৰ্য্য উদয়ৰ সময়ত সূৰ্য্য পূবত থাকে আৰু ছাঁ বিপৰীত দিশে অৰ্থাৎ পশ্চিমলৈ পৰে।"
+    }
+  },
+  {
+    "id": "direction-distance-047",
+    "q": {
+      "en": "In the evening, a man faces the setting sun. In which direction does his shadow fall?",
+      "as": "সন্ধিয়া এজন মানুহে অস্তগামী সূৰ্য্যৰ ফালে মুখ কৰি আছে। তেওঁৰ ছাঁ কোন দিশলৈ পৰিব?"
+    },
+    "options": [
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The setting sun is in the West and the shadow falls opposite, i.e. to the East.",
+      "as": "অস্তগামী সূৰ্য্য পশ্চিমত আৰু ছাঁ বিপৰীত দিশে অৰ্থাৎ পূবলৈ পৰে।"
+    }
+  },
+  {
+    "id": "direction-distance-048",
+    "q": {
+      "en": "A and B are facing each other. A's right hand points towards the North. Which direction is B facing?",
+      "as": "A আৰু B ইজনে সিজনৰ ফালে মুখ কৰি আছে। A ৰ সোঁহাত উত্তৰলৈ আঙুলিয়াইছে। B কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      },
+      {
+        "en": "East",
+        "as": "পূব"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "If A's right is North, A faces West, so B, facing A, faces East.",
+      "as": "A ৰ সোঁফাল উত্তৰ হলে A পশ্চিমমুৱা, সেয়ে A ৰ ফালে থকা B পূবমুৱা।"
+    }
+  },
+  {
+    "id": "direction-distance-049",
+    "q": {
+      "en": "A is facing North and B is facing South, and they are facing each other. What is to the right of B?",
+      "as": "A উত্তৰমুৱা আৰু B দক্ষিণমুৱা, আৰু তেওঁলোকে ইজনে সিজনৰ ফালে মুখ কৰি আছে। B ৰ সোঁফালে কি দিশ?"
+    },
+    "options": [
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      },
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "B faces South, so B's right hand points towards the West.",
+      "as": "B দক্ষিণমুৱা, সেয়ে B ৰ সোঁহাত পশ্চিমলৈ আঙুলিয়ায়।"
+    }
+  },
+  {
+    "id": "direction-distance-050",
+    "q": {
+      "en": "Two friends are standing facing each other. If one of them is facing North, which direction is the other facing?",
+      "as": "দুই বন্ধুৱে ইজনে সিজনৰ ফালে মুখ কৰি থিয় হৈ আছে। যদি এজন উত্তৰমুৱা, তেন্তে আনজন কোন দিশমুৱা?"
+    },
+    "options": [
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      },
+      {
+        "en": "East",
+        "as": "পূব"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Two persons facing each other look in opposite directions, so the other faces South.",
+      "as": "ইজনে সিজনৰ ফালে থকা দুজন মানুহে বিপৰীত দিশে চায়, সেয়ে আনজন দক্ষিণমুৱা।"
+    }
   }
-}
+]
