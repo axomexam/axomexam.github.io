@@ -1,30 +1,8372 @@
-{
-  "id": "india-rivers-mountains-states-001",
-  "q": {
-    "en": "Which is the longest river of India?",
-    "as": "ভাৰতৰ আটাইতকৈ দীঘল নদী কোনখন?"
-  },
-  "options": [
-    {
-      "en": "Godavari",
-      "as": "গোদাবৰী"
+[
+  {
+    "id": "india-rivers-mountains-states-001",
+    "q": {
+      "en": "Which is the longest river of India?",
+      "as": "ভাৰতৰ আটাইতকৈ দীঘল নদী কোনখন?"
     },
-    {
-      "en": "Ganga",
-      "as": "গংগা"
-    },
-    {
-      "en": "Brahmaputra",
-      "as": "ব্ৰহ্মপুত্ৰ"
-    },
-    {
-      "en": "Yamuna",
-      "as": "যমুনা"
+    "options": [
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Ganga is the longest river in India.",
+      "as": "গংগা ভাৰতৰ আটাইতকৈ দীঘল নদী।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "The Ganga is the longest river in India.",
-    "as": "গংগা ভাৰতৰ আটাইতকৈ দীঘল নদী।"
+  },
+  {
+    "id": "india-rivers-mountains-states-002",
+    "q": {
+      "en": "Which is the longest river that flows entirely within India?",
+      "as": "সম্পূৰ্ণৰূপে ভাৰতৰ ভিতৰত প্ৰবাহিত আটাইতকৈ দীঘল নদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Krishna",
+        "as": "কৃষ্ণা"
+      },
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Godavari is the longest river flowing entirely within India.",
+      "as": "সম্পূৰ্ণৰূপে ভাৰতৰ ভিতৰত প্ৰবাহিত আটাইতকৈ দীঘল নদী গোদাবৰী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-003",
+    "q": {
+      "en": "Which is the second longest river of India?",
+      "as": "ভাৰতৰ দ্বিতীয় আটাইতকৈ দীঘল নদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Krishna",
+        "as": "কৃষ্ণা"
+      },
+      {
+        "en": "Mahanadi",
+        "as": "মহানদী"
+      },
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Godavari is the second longest river of India.",
+      "as": "গোদাবৰী ভাৰতৰ দ্বিতীয় আটাইতকৈ দীঘল নদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-004",
+    "q": {
+      "en": "Which river is known as 'Dakshin Ganga'?",
+      "as": "কোনখন নদীক 'দক্ষিণ গংগা' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Kaveri",
+        "as": "কাবেৰী"
+      },
+      {
+        "en": "Krishna",
+        "as": "কৃষ্ণা"
+      },
+      {
+        "en": "Tapti",
+        "as": "তাপ্তী"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Godavari is known as Dakshin Ganga.",
+      "as": "গোদাবৰীক দক্ষিণ গংগা বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-005",
+    "q": {
+      "en": "Which is the largest peninsular river of India?",
+      "as": "ভাৰতৰ আটাইতকৈ ডাঙৰ উপদ্বীপীয় নদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      },
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      },
+      {
+        "en": "Mahanadi",
+        "as": "মহানদী"
+      },
+      {
+        "en": "Kaveri",
+        "as": "কাবেৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Godavari is the largest peninsular river.",
+      "as": "গোদাবৰী আটাইতকৈ ডাঙৰ উপদ্বীপীয় নদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-006",
+    "q": {
+      "en": "Where does the river Ganga originate?",
+      "as": "গংগা নদীৰ উৎপত্তি ক'ত হয়?"
+    },
+    "options": [
+      {
+        "en": "Yamunotri Glacier",
+        "as": "যমুনোত্ৰী হিমবাহ"
+      },
+      {
+        "en": "Siachen Glacier",
+        "as": "ছিয়াচেন হিমবাহ"
+      },
+      {
+        "en": "Gangotri Glacier",
+        "as": "গংগোত্ৰী হিমবাহ"
+      },
+      {
+        "en": "Milam Glacier",
+        "as": "মিলাম হিমবাহ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Ganga originates from the Gangotri Glacier.",
+      "as": "গংগা নদীৰ উৎপত্তি গংগোত্ৰী হিমবাহৰ পৰা হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-007",
+    "q": {
+      "en": "The source of the river Ganga is known as?",
+      "as": "গংগা নদীৰ উৎস কি নামেৰে জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Gangotri",
+        "as": "গংগোত্ৰী"
+      },
+      {
+        "en": "Gaumukh",
+        "as": "গৌমুখ"
+      },
+      {
+        "en": "Haridwar",
+        "as": "হৰিদ্বাৰ"
+      },
+      {
+        "en": "Devprayag",
+        "as": "দেৱপ্ৰয়াগ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The source of the Ganga is called Gaumukh.",
+      "as": "গংগা নদীৰ উৎসক গৌমুখ বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-008",
+    "q": {
+      "en": "The river Ganga is called Padma in which country?",
+      "as": "গংগা নদীক কোনখন দেশত পদ্মা বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Nepal",
+        "as": "নেপাল"
+      },
+      {
+        "en": "Myanmar",
+        "as": "ম্যানমাৰ"
+      },
+      {
+        "en": "Bhutan",
+        "as": "ভূটান"
+      },
+      {
+        "en": "Bangladesh",
+        "as": "বাংলাদেশ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In Bangladesh, the Ganga is known as Padma.",
+      "as": "বাংলাদেশত গংগা নদীক পদ্মা বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-009",
+    "q": {
+      "en": "Which river is known as the 'Sorrow of Bihar'?",
+      "as": "কোনখন নদীক 'বিহাৰৰ দুখ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Gandak",
+        "as": "গণ্ডক"
+      },
+      {
+        "en": "Son",
+        "as": "সোণ"
+      },
+      {
+        "en": "Kosi",
+        "as": "কোশী"
+      },
+      {
+        "en": "Ghaghara",
+        "as": "ঘাগ্ৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Kosi river is known as the Sorrow of Bihar.",
+      "as": "কোশী নদীক বিহাৰৰ দুখ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-010",
+    "q": {
+      "en": "Which river is known as the 'Sorrow of Bengal'?",
+      "as": "কোনখন নদীক 'বংগৰ দুখ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Hooghly",
+        "as": "হুগলী"
+      },
+      {
+        "en": "Damodar",
+        "as": "দামোদৰ"
+      },
+      {
+        "en": "Mahanadi",
+        "as": "মহানদী"
+      },
+      {
+        "en": "Teesta",
+        "as": "তিস্তা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Damodar river is known as the Sorrow of Bengal.",
+      "as": "দামোদৰ নদীক বংগৰ দুখ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-011",
+    "q": {
+      "en": "Which river is known as the 'Sorrow of Assam'?",
+      "as": "কোনখন নদীক 'অসমৰ দুখ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Manas",
+        "as": "মানস"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Brahmaputra is known as the Sorrow of Assam due to floods.",
+      "as": "বানপানীৰ বাবে ব্ৰহ্মপুত্ৰক অসমৰ দুখ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-012",
+    "q": {
+      "en": "Which river is known as the 'Sorrow of Odisha'?",
+      "as": "কোনখন নদীক 'ওড়িশাৰ দুখ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Mahanadi",
+        "as": "মহানদী"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      },
+      {
+        "en": "Brahmani",
+        "as": "ব্ৰাহ্মণী"
+      },
+      {
+        "en": "Subarnarekha",
+        "as": "সুবৰ্ণৰেখা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Mahanadi is known as the Sorrow of Odisha.",
+      "as": "মহানদীক ওড়িশাৰ দুখ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-013",
+    "q": {
+      "en": "The Brahmaputra river originates in which region?",
+      "as": "ব্ৰহ্মপুত্ৰ নদী কোন অঞ্চলত উৎপত্তি হয়?"
+    },
+    "options": [
+      {
+        "en": "Nepal",
+        "as": "নেপাল"
+      },
+      {
+        "en": "Tibet",
+        "as": "তিব্বত"
+      },
+      {
+        "en": "Bhutan",
+        "as": "ভূটান"
+      },
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Brahmaputra originates in Tibet near the Angsi Glacier.",
+      "as": "ব্ৰহ্মপুত্ৰ নদী তিব্বতত আংছি হিমবাহৰ ওচৰত উৎপত্তি হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-014",
+    "q": {
+      "en": "In Tibet, the Brahmaputra is known as?",
+      "as": "তিব্বতত ব্ৰহ্মপুত্ৰক কি বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Yarlung Tsangpo",
+        "as": "য়াৰলুং সাংপো"
+      },
+      {
+        "en": "Dihang",
+        "as": "দিহাং"
+      },
+      {
+        "en": "Jamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Luit",
+        "as": "লুইত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In Tibet the Brahmaputra is known as Yarlung Tsangpo.",
+      "as": "তিব্বতত ব্ৰহ্মপুত্ৰক য়াৰলুং সাংপো বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-015",
+    "q": {
+      "en": "In Bangladesh, the Brahmaputra is known as?",
+      "as": "বাংলাদেশত ব্ৰহ্মপুত্ৰক কি বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Padma",
+        "as": "পদ্মা"
+      },
+      {
+        "en": "Meghna",
+        "as": "মেঘনা"
+      },
+      {
+        "en": "Jamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Karnaphuli",
+        "as": "কৰ্ণফুলী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In Bangladesh the Brahmaputra is known as Jamuna.",
+      "as": "বাংলাদেশত ব্ৰহ্মপুত্ৰক যমুনা বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-016",
+    "q": {
+      "en": "In Assam, the Brahmaputra is popularly known as?",
+      "as": "অসমত ব্ৰহ্মপুত্ৰক জনপ্ৰিয়ভাৱে কি বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Tsangpo",
+        "as": "সাংপো"
+      },
+      {
+        "en": "Dihang",
+        "as": "দিহাং"
+      },
+      {
+        "en": "Siang",
+        "as": "সিয়াং"
+      },
+      {
+        "en": "Luit",
+        "as": "লুইত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In Assam, the Brahmaputra is affectionately called Luit.",
+      "as": "অসমত ব্ৰহ্মপুত্ৰক মৰমসনা লুইত বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-017",
+    "q": {
+      "en": "The Brahmaputra enters India through which state?",
+      "as": "ব্ৰহ্মপুত্ৰ কোনখন ৰাজ্যয়েদি ভাৰতত প্ৰৱেশ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Brahmaputra enters India through Arunachal Pradesh.",
+      "as": "ব্ৰহ্মপুত্ৰ অৰুণাচল প্ৰদেশেদি ভাৰতত প্ৰৱেশ কৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-018",
+    "q": {
+      "en": "The Brahmaputra is called Siang or Dihang in which state?",
+      "as": "ব্ৰহ্মপুত্ৰক কোনখন ৰাজ্যত সিয়াং বা দিহাং বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Sikkim",
+        "as": "চিকিম"
+      },
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In Arunachal Pradesh the Brahmaputra is called Siang or Dihang.",
+      "as": "অৰুণাচল প্ৰদেশত ব্ৰহ্মপুত্ৰক সিয়াং বা দিহাং বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-019",
+    "q": {
+      "en": "The Ganga and the Brahmaputra finally meet in which country?",
+      "as": "গংগা আৰু ব্ৰহ্মপুত্ৰৰ সংগম কোনখন দেশত হয়?"
+    },
+    "options": [
+      {
+        "en": "India",
+        "as": "ভাৰত"
+      },
+      {
+        "en": "Nepal",
+        "as": "নেপাল"
+      },
+      {
+        "en": "Bangladesh",
+        "as": "বাংলাদেশ"
+      },
+      {
+        "en": "Bhutan",
+        "as": "ভূটান"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Ganga and Brahmaputra meet in Bangladesh.",
+      "as": "গংগা আৰু ব্ৰহ্মপুত্ৰ বাংলাদেশত মিলিত হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-020",
+    "q": {
+      "en": "Which is the largest river island in the world?",
+      "as": "বিশ্বৰ আটাইতকৈ ডাঙৰ নদী দ্বীপ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Divar",
+        "as": "দিভাৰ"
+      },
+      {
+        "en": "Sriharikota",
+        "as": "শ্ৰীহৰিকোটা"
+      },
+      {
+        "en": "Majuli",
+        "as": "মাজুলী"
+      },
+      {
+        "en": "Munroe",
+        "as": "মুনৰো"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Majuli in Assam is the largest river island in the world.",
+      "as": "অসমৰ মাজুলী বিশ্বৰ আটাইতকৈ ডাঙৰ নদী দ্বীপ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-021",
+    "q": {
+      "en": "Majuli, the largest river island, is situated on which river?",
+      "as": "আটাইতকৈ ডাঙৰ নদী দ্বীপ মাজুলী কোনখন নদীত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Majuli is situated on the Brahmaputra river.",
+      "as": "মাজুলী ব্ৰহ্মপুত্ৰ নদীত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-022",
+    "q": {
+      "en": "Which major city is situated on the bank of the Brahmaputra?",
+      "as": "ব্ৰহ্মপুত্ৰ নদীৰ পাৰত কোনখন প্ৰধান নগৰ অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Imphal",
+        "as": "ইম্ফাল"
+      },
+      {
+        "en": "Shillong",
+        "as": "শিলং"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Kohima",
+        "as": "কোহিমা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Guwahati is situated on the bank of the Brahmaputra.",
+      "as": "গুৱাহাটী ব্ৰহ্মপুত্ৰ নদীৰ পাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-023",
+    "q": {
+      "en": "Kaziranga National Park lies on the floodplain of which river?",
+      "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যানখন কোনখন নদীৰ প্লাৱন ভূমিত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Kosi",
+        "as": "কোশী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kaziranga lies on the floodplain of the Brahmaputra.",
+      "as": "কাজিৰঙা ব্ৰহ্মপুত্ৰ নদীৰ প্লাৱন ভূমিত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-024",
+    "q": {
+      "en": "The Narmada river flows into which sea?",
+      "as": "নৰ্মদা নদী কোনখন সাগৰত পৰে?"
+    },
+    "options": [
+      {
+        "en": "Bay of Bengal",
+        "as": "বংগোপসাগৰ"
+      },
+      {
+        "en": "Andaman Sea",
+        "as": "আন্দামান সাগৰ"
+      },
+      {
+        "en": "Red Sea",
+        "as": "লোহিত সাগৰ"
+      },
+      {
+        "en": "Arabian Sea",
+        "as": "আৰব সাগৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Narmada flows into the Arabian Sea.",
+      "as": "নৰ্মদা নদী আৰব সাগৰত পৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-025",
+    "q": {
+      "en": "Which river flows through a rift valley in India?",
+      "as": "ভাৰতত কোনখন নদী এটি ফল্ট উপত্যকাৰ মাজেদি প্ৰবাহিত হয়?"
+    },
+    "options": [
+      {
+        "en": "Kosi",
+        "as": "কোশী"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Krishna",
+        "as": "কৃষ্ণা"
+      },
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Narmada flows through a rift valley.",
+      "as": "নৰ্মদা নদী এটা ফল্ট উপত্যকাৰ মাজেদি প্ৰবাহিত হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-026",
+    "q": {
+      "en": "The Narmada river originates from which place?",
+      "as": "নৰ্মদা নদী কোন স্থানৰ পৰা উৎপত্তি হয়?"
+    },
+    "options": [
+      {
+        "en": "Talakaveri",
+        "as": "তলকাবেৰী"
+      },
+      {
+        "en": "Trimbakeshwar",
+        "as": "ত্ৰিম্বকেশ্বৰ"
+      },
+      {
+        "en": "Mahabaleshwar",
+        "as": "মহাবালেশ্বৰ"
+      },
+      {
+        "en": "Amarkantak",
+        "as": "অমৰকণ্টক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Narmada originates from Amarkantak in Madhya Pradesh.",
+      "as": "নৰ্মদা নদী মধ্য প্ৰদেশৰ অমৰকণ্টকৰ পৰা উৎপত্তি হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-027",
+    "q": {
+      "en": "The Tapti river flows into which body of water?",
+      "as": "তাপ্তী নদী কোন জলভাগত পৰে?"
+    },
+    "options": [
+      {
+        "en": "Gulf of Khambhat",
+        "as": "খাম্বাট উপসাগৰ"
+      },
+      {
+        "en": "Bay of Bengal",
+        "as": "বংগোপসাগৰ"
+      },
+      {
+        "en": "Gulf of Mannar",
+        "as": "মান্নাৰ উপসাগৰ"
+      },
+      {
+        "en": "Palk Strait",
+        "as": "পাল্ক জলডম্বৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Tapti flows into the Gulf of Khambhat (Arabian Sea).",
+      "as": "তাপ্তী নদী খাম্বাট উপসাগৰত (আৰব সাগৰ) পৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-028",
+    "q": {
+      "en": "Which river is called the 'Ganga of the South'?",
+      "as": "কোনখন নদীক 'দক্ষিণৰ গংগা' বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Kaveri",
+        "as": "কাবেৰী"
+      },
+      {
+        "en": "Tapti",
+        "as": "তাপ্তী"
+      },
+      {
+        "en": "Krishna",
+        "as": "কৃষ্ণা"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Godavari is called the Ganga of the South.",
+      "as": "গোদাবৰীক দক্ষিণৰ গংগা বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-029",
+    "q": {
+      "en": "The Godavari river originates from which place?",
+      "as": "গোদাবৰী নদী কোন স্থানৰ পৰা উৎপত্তি হয়?"
+    },
+    "options": [
+      {
+        "en": "Trimbakeshwar",
+        "as": "ত্ৰিম্বকেশ্বৰ"
+      },
+      {
+        "en": "Mahabaleshwar",
+        "as": "মহাবালেশ্বৰ"
+      },
+      {
+        "en": "Amarkantak",
+        "as": "অমৰকণ্টক"
+      },
+      {
+        "en": "Talakaveri",
+        "as": "তলকাবেৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Godavari originates from Trimbakeshwar in Maharashtra.",
+      "as": "গোদাবৰী নদী মহাৰাষ্ট্ৰৰ ত্ৰিম্বকেশ্বৰৰ পৰা উৎপত্তি হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-030",
+    "q": {
+      "en": "The Krishna river originates from which place?",
+      "as": "কৃষ্ণা নদী কোন স্থানৰ পৰা উৎপত্তি হয়?"
+    },
+    "options": [
+      {
+        "en": "Amarkantak",
+        "as": "অমৰকণ্টক"
+      },
+      {
+        "en": "Trimbakeshwar",
+        "as": "ত্ৰিম্বকেশ্বৰ"
+      },
+      {
+        "en": "Mahabaleshwar",
+        "as": "মহাবালেশ্বৰ"
+      },
+      {
+        "en": "Talakaveri",
+        "as": "তলকাবেৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Krishna originates from Mahabaleshwar in Maharashtra.",
+      "as": "কৃষ্ণা নদী মহাৰাষ্ট্ৰৰ মহাবালেশ্বৰৰ পৰা উৎপত্তি হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-031",
+    "q": {
+      "en": "The Kaveri river originates from which place?",
+      "as": "কাবেৰী নদী কোন স্থানৰ পৰা উৎপত্তি হয়?"
+    },
+    "options": [
+      {
+        "en": "Talakaveri",
+        "as": "তলকাবেৰী"
+      },
+      {
+        "en": "Mahabaleshwar",
+        "as": "মহাবালেশ্বৰ"
+      },
+      {
+        "en": "Amarkantak",
+        "as": "অমৰকণ্টক"
+      },
+      {
+        "en": "Gangotri",
+        "as": "গংগোত্ৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Kaveri originates from Talakaveri in Karnataka.",
+      "as": "কাবেৰী নদী কৰ্ণাটকৰ তলকাবেৰীৰ পৰা উৎপত্তি হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-032",
+    "q": {
+      "en": "The Kaveri river mainly flows through which two states?",
+      "as": "কাবেৰী নদী প্ৰধানকৈ কোন দুখন ৰাজ্যয়েদি প্ৰবাহিত হয়?"
+    },
+    "options": [
+      {
+        "en": "Kerala and Tamil Nadu",
+        "as": "কেৰালা আৰু তামিলনাডু"
+      },
+      {
+        "en": "Andhra Pradesh and Telangana",
+        "as": "অন্ধ্ৰ প্ৰদেশ আৰু তেলেংগানা"
+      },
+      {
+        "en": "Karnataka and Tamil Nadu",
+        "as": "কৰ্ণাটক আৰু তামিলনাডু"
+      },
+      {
+        "en": "Maharashtra and Gujarat",
+        "as": "মহাৰাষ্ট্ৰ আৰু গুজৰাট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Kaveri flows mainly through Karnataka and Tamil Nadu.",
+      "as": "কাবেৰী নদী প্ৰধানকৈ কৰ্ণাটক আৰু তামিলনাডুৰ মাজেদি প্ৰবাহিত হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-033",
+    "q": {
+      "en": "Hirakud Dam is built on which river?",
+      "as": "হীৰাকুদ বান্ধ কোনখন নদীত নিৰ্মিত?"
+    },
+    "options": [
+      {
+        "en": "Mahanadi",
+        "as": "মহানদী"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      },
+      {
+        "en": "Krishna",
+        "as": "কৃষ্ণা"
+      },
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Hirakud Dam is built on the Mahanadi river.",
+      "as": "হীৰাকুদ বান্ধ মহানদী নদীত নিৰ্মিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-034",
+    "q": {
+      "en": "Which is the longest dam in India?",
+      "as": "ভাৰতৰ আটাইতকৈ দীঘল বান্ধ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Bhakra Dam",
+        "as": "ভাকৰা বান্ধ"
+      },
+      {
+        "en": "Hirakud Dam",
+        "as": "হীৰাকুদ বান্ধ"
+      },
+      {
+        "en": "Tehri Dam",
+        "as": "তেহৰী বান্ধ"
+      },
+      {
+        "en": "Nagarjuna Sagar Dam",
+        "as": "নাগাৰ্জুন সাগৰ বান্ধ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Hirakud Dam on the Mahanadi is the longest dam in India.",
+      "as": "মহানদী নদীত থকা হীৰাকুদ বান্ধ ভাৰতৰ আটাইতকৈ দীঘল বান্ধ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-035",
+    "q": {
+      "en": "Bhakra Nangal Dam is built on which river?",
+      "as": "ভাকৰা নাংগল বান্ধ কোনখন নদীত নিৰ্মিত?"
+    },
+    "options": [
+      {
+        "en": "Beas",
+        "as": "বিয়াস"
+      },
+      {
+        "en": "Chenab",
+        "as": "চেনাব"
+      },
+      {
+        "en": "Ravi",
+        "as": "ৰাভী"
+      },
+      {
+        "en": "Sutlej",
+        "as": "সতলুজ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bhakra Nangal Dam is built on the Sutlej river.",
+      "as": "ভাকৰা নাংগল বান্ধ সতলুজ নদীত নিৰ্মিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-036",
+    "q": {
+      "en": "Sardar Sarovar Dam is built on which river?",
+      "as": "সৰ্দাৰ সৰোবৰ বান্ধ কোনখন নদীত নিৰ্মিত?"
+    },
+    "options": [
+      {
+        "en": "Tapti",
+        "as": "তাপ্তী"
+      },
+      {
+        "en": "Sabarmati",
+        "as": "সবৰমতী"
+      },
+      {
+        "en": "Mahi",
+        "as": "মাহী"
+      },
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sardar Sarovar Dam is built on the Narmada river.",
+      "as": "সৰ্দাৰ সৰোবৰ বান্ধ নৰ্মদা নদীত নিৰ্মিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-037",
+    "q": {
+      "en": "Nagarjuna Sagar Dam is built on which river?",
+      "as": "নাগাৰ্জুন সাগৰ বান্ধ কোনখন নদীত নিৰ্মিত?"
+    },
+    "options": [
+      {
+        "en": "Krishna",
+        "as": "কৃষ্ণা"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      },
+      {
+        "en": "Kaveri",
+        "as": "কাবেৰী"
+      },
+      {
+        "en": "Mahanadi",
+        "as": "মহানদী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Nagarjuna Sagar Dam is built on the Krishna river.",
+      "as": "নাগাৰ্জুন সাগৰ বান্ধ কৃষ্ণা নদীত নিৰ্মিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-038",
+    "q": {
+      "en": "Tehri Dam is built on which river?",
+      "as": "তেহৰী বান্ধ কোনখন নদীত নিৰ্মিত?"
+    },
+    "options": [
+      {
+        "en": "Alaknanda",
+        "as": "অলকানন্দা"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Bhagirathi",
+        "as": "ভাগীৰথী"
+      },
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Tehri Dam is built on the Bhagirathi river.",
+      "as": "তেহৰী বান্ধ ভাগীৰথী নদীত নিৰ্মিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-039",
+    "q": {
+      "en": "Rana Pratap Sagar Dam is built on which river?",
+      "as": "ৰাণা প্ৰতাপ সাগৰ বান্ধ কোনখন নদীত নিৰ্মিত?"
+    },
+    "options": [
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Betwa",
+        "as": "বেটোৱা"
+      },
+      {
+        "en": "Chambal",
+        "as": "চম্বল"
+      },
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rana Pratap Sagar Dam is built on the Chambal river.",
+      "as": "ৰাণা প্ৰতাপ সাগৰ বান্ধ চম্বল নদীত নিৰ্মিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-040",
+    "q": {
+      "en": "Farakka Barrage is built on which river?",
+      "as": "ফৰাক্কা বেৰেজ কোনখন নদীত নিৰ্মিত?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Hooghly",
+        "as": "হুগলী"
+      },
+      {
+        "en": "Mahanadi",
+        "as": "মহানদী"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Farakka Barrage is built on the Ganga river.",
+      "as": "ফৰাক্কা বেৰেজ গংগা নদীত নিৰ্মিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-041",
+    "q": {
+      "en": "Which is the longest tributary of the Ganga?",
+      "as": "গংগাৰ আটাইতকৈ দীঘল উপনদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Ghaghara",
+        "as": "ঘাগ্ৰা"
+      },
+      {
+        "en": "Son",
+        "as": "সোণ"
+      },
+      {
+        "en": "Gandak",
+        "as": "গণ্ডক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Yamuna is the longest tributary of the Ganga.",
+      "as": "যমুনা গংগাৰ আটাইতকৈ দীঘল উপনদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-042",
+    "q": {
+      "en": "The Yamuna is a tributary of which river?",
+      "as": "যমুনা কোনখন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Yamuna is a tributary of the Ganga.",
+      "as": "যমুনা গংগা নদীৰ উপনদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-043",
+    "q": {
+      "en": "The Son river is a tributary of which river?",
+      "as": "সোণ নদী কোনখন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      },
+      {
+        "en": "Mahanadi",
+        "as": "মহানদী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Son river is a tributary of the Ganga.",
+      "as": "সোণ নদী গংগা নদীৰ উপনদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-044",
+    "q": {
+      "en": "Which city is situated on the bank of the Yamuna river?",
+      "as": "যমুনা নদীৰ পাৰত কোনখন নগৰ অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Varanasi",
+        "as": "বাৰাণসী"
+      },
+      {
+        "en": "Patna",
+        "as": "পাটনা"
+      },
+      {
+        "en": "Kanpur",
+        "as": "কাণপুৰ"
+      },
+      {
+        "en": "Agra",
+        "as": "আগ্ৰা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Agra is situated on the bank of the Yamuna.",
+      "as": "আগ্ৰা যমুনা নদীৰ পাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-045",
+    "q": {
+      "en": "Delhi is situated on the bank of which river?",
+      "as": "দিল্লী কোনখন নদীৰ পাৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Ghaghara",
+        "as": "ঘাগ্ৰা"
+      },
+      {
+        "en": "Chambal",
+        "as": "চম্বল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Delhi is situated on the bank of the Yamuna.",
+      "as": "দিল্লী যমুনা নদীৰ পাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-046",
+    "q": {
+      "en": "Varanasi is situated on the bank of which river?",
+      "as": "বাৰাণসী কোনখন নদীৰ পাৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Gomti",
+        "as": "গোমতী"
+      },
+      {
+        "en": "Son",
+        "as": "সোণ"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Varanasi is situated on the bank of the Ganga.",
+      "as": "বাৰাণসী গংগা নদীৰ পাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-047",
+    "q": {
+      "en": "Which river is called the 'River of Sorrow' in West Bengal?",
+      "as": "পশ্চিম বংগত কোনখন নদীক 'দুখৰ নদী' বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Rupnarayan",
+        "as": "ৰূপনাৰায়ণ"
+      },
+      {
+        "en": "Hooghly",
+        "as": "হুগলী"
+      },
+      {
+        "en": "Teesta",
+        "as": "তিস্তা"
+      },
+      {
+        "en": "Damodar",
+        "as": "দামোদৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Damodar is called the River of Sorrow in West Bengal.",
+      "as": "পশ্চিম বংগত দামোদৰক দুখৰ নদী বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-048",
+    "q": {
+      "en": "The Indus river originates near which lake?",
+      "as": "সিন্ধু নদী কোনখন হ্ৰদৰ ওচৰত উৎপত্তি হয়?"
+    },
+    "options": [
+      {
+        "en": "Mansarovar",
+        "as": "মানসৰোবৰ"
+      },
+      {
+        "en": "Dal Lake",
+        "as": "ডাল হ্ৰদ"
+      },
+      {
+        "en": "Wular Lake",
+        "as": "ৱুলাৰ হ্ৰদ"
+      },
+      {
+        "en": "Loktak Lake",
+        "as": "লোকটাক হ্ৰদ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Indus originates near Mansarovar Lake in Tibet.",
+      "as": "সিন্ধু নদী তিব্বতৰ মানসৰোবৰ হ্ৰদৰ ওচৰত উৎপত্তি হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-049",
+    "q": {
+      "en": "Which of the following rivers drains into the Arabian Sea?",
+      "as": "তলৰ কোনখন নদী আৰব সাগৰত পৰে?"
+    },
+    "options": [
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      },
+      {
+        "en": "Mahanadi",
+        "as": "মহানদী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Narmada drains into the Arabian Sea.",
+      "as": "নৰ্মদা নদী আৰব সাগৰত পৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-050",
+    "q": {
+      "en": "The Sabarmati river flows through which city?",
+      "as": "সবৰমতী নদী কোনখন নগৰৰ মাজেদি প্ৰবাহিত হয়?"
+    },
+    "options": [
+      {
+        "en": "Rajkot",
+        "as": "ৰাজকোট"
+      },
+      {
+        "en": "Surat",
+        "as": "সুৰাট"
+      },
+      {
+        "en": "Vadodara",
+        "as": "বদোদৰা"
+      },
+      {
+        "en": "Ahmedabad",
+        "as": "আহমেদাবাদ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Sabarmati river flows through Ahmedabad.",
+      "as": "সবৰমতী নদী আহমেদাবাদৰ মাজেদি প্ৰবাহিত হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-051",
+    "q": {
+      "en": "Hyderabad is situated on the bank of which river?",
+      "as": "হায়দৰাবাদ কোনখন নদীৰ পাৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      },
+      {
+        "en": "Krishna",
+        "as": "কৃষ্ণা"
+      },
+      {
+        "en": "Musi",
+        "as": "মুছী"
+      },
+      {
+        "en": "Kaveri",
+        "as": "কাবেৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hyderabad is situated on the bank of the Musi river.",
+      "as": "হায়দৰাবাদ মুছী নদীৰ পাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-052",
+    "q": {
+      "en": "Which is the largest river basin in India?",
+      "as": "ভাৰতৰ আটাইতকৈ ডাঙৰ নদী অৱবাহিকা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Godavari basin",
+        "as": "গোদাবৰী অৱবাহিকা"
+      },
+      {
+        "en": "Brahmaputra basin",
+        "as": "ব্ৰহ্মপুত্ৰ অৱবাহিকা"
+      },
+      {
+        "en": "Ganga basin",
+        "as": "গংগা অৱবাহিকা"
+      },
+      {
+        "en": "Narmada basin",
+        "as": "নৰ্মদা অৱবাহিকা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Ganga basin is the largest river basin in India.",
+      "as": "গংগা অৱবাহিকা ভাৰতৰ আটাইতকৈ ডাঙৰ নদী অৱবাহিকা।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-053",
+    "q": {
+      "en": "Which river forms part of the India-Pakistan boundary in Punjab?",
+      "as": "পঞ্জাবত কোনখন নদী ভাৰত-পাকিস্তান সীমাৰ এক অংশ গঠন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Sutlej",
+        "as": "সতলুজ"
+      },
+      {
+        "en": "Beas",
+        "as": "বিয়াস"
+      },
+      {
+        "en": "Ravi",
+        "as": "ৰাভী"
+      },
+      {
+        "en": "Chenab",
+        "as": "চেনাব"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Ravi river forms part of the India-Pakistan boundary.",
+      "as": "ৰাভী নদী ভাৰত-পাকিস্তান সীমাৰ এক অংশ গঠন কৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-054",
+    "q": {
+      "en": "Which is the longest river of South India?",
+      "as": "দক্ষিণ ভাৰতৰ আটাইতকৈ দীঘল নদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Krishna",
+        "as": "কৃষ্ণা"
+      },
+      {
+        "en": "Kaveri",
+        "as": "কাবেৰী"
+      },
+      {
+        "en": "Tungabhadra",
+        "as": "তুংগভদ্ৰা"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Godavari is the longest river of South India.",
+      "as": "গোদাবৰী দক্ষিণ ভাৰতৰ আটাইতকৈ দীঘল নদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-055",
+    "q": {
+      "en": "Which river is also known as 'Vridha Ganga'?",
+      "as": "কোনখন নদীক 'বৃদ্ধ গংগা' বুলিও জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Mahanadi",
+        "as": "মহানদী"
+      },
+      {
+        "en": "Kaveri",
+        "as": "কাবেৰী"
+      },
+      {
+        "en": "Krishna",
+        "as": "কৃষ্ণা"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Godavari is also known as Vridha Ganga.",
+      "as": "গোদাবৰীক বৃদ্ধ গংগা বুলিও জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-056",
+    "q": {
+      "en": "The Chambal river is a tributary of which river?",
+      "as": "চম্বল নদী কোনখন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Chambal is a tributary of the Yamuna.",
+      "as": "চম্বল নদী যমুনাৰ উপনদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-057",
+    "q": {
+      "en": "The Ghaghara river is a tributary of which river?",
+      "as": "ঘাগ্ৰা নদী কোনখন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Son",
+        "as": "সোণ"
+      },
+      {
+        "en": "Chambal",
+        "as": "চম্বল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Ghaghara is a tributary of the Ganga.",
+      "as": "ঘাগ্ৰা নদী গংগাৰ উপনদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-058",
+    "q": {
+      "en": "The Kosi river originates in which country?",
+      "as": "কোশী নদী কোনখন দেশত উৎপত্তি হয়?"
+    },
+    "options": [
+      {
+        "en": "India",
+        "as": "ভাৰত"
+      },
+      {
+        "en": "China",
+        "as": "চীন"
+      },
+      {
+        "en": "Bhutan",
+        "as": "ভূটান"
+      },
+      {
+        "en": "Nepal",
+        "as": "নেপাল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Kosi originates in Nepal.",
+      "as": "কোশী নদী নেপালত উৎপত্তি হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-059",
+    "q": {
+      "en": "The Betwa river is a tributary of which river?",
+      "as": "বেটোৱা নদী কোনখন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      },
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Son",
+        "as": "সোণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Betwa is a tributary of the Yamuna.",
+      "as": "বেটোৱা নদী যমুনাৰ উপনদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-060",
+    "q": {
+      "en": "The world's largest delta, the Sundarbans, is formed by which rivers?",
+      "as": "বিশ্বৰ আটাইতকৈ ডাঙৰ ব-দ্বীপ সুন্দৰবন কোনবোৰ নদীৰ দ্বাৰা গঠিত?"
+    },
+    "options": [
+      {
+        "en": "Ganga and Brahmaputra",
+        "as": "গংগা আৰু ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Ganga and Yamuna",
+        "as": "গংগা আৰু যমুনা"
+      },
+      {
+        "en": "Indus and Sutlej",
+        "as": "সিন্ধু আৰু সতলুজ"
+      },
+      {
+        "en": "Narmada and Tapti",
+        "as": "নৰ্মদা আৰু তাপ্তী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Sundarbans delta is formed by the Ganga and Brahmaputra rivers.",
+      "as": "সুন্দৰবন ব-দ্বীপ গংগা আৰু ব্ৰহ্মপুত্ৰ নদীৰ দ্বাৰা গঠিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-061",
+    "q": {
+      "en": "The Ganga river finally drains into which water body?",
+      "as": "গংগা নদী অৱশেষত কোন জলভাগত পৰে?"
+    },
+    "options": [
+      {
+        "en": "Arabian Sea",
+        "as": "আৰব সাগৰ"
+      },
+      {
+        "en": "Red Sea",
+        "as": "লোহিত সাগৰ"
+      },
+      {
+        "en": "Indian Ocean",
+        "as": "ভাৰত মহাসাগৰ"
+      },
+      {
+        "en": "Bay of Bengal",
+        "as": "বংগোপসাগৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Ganga drains into the Bay of Bengal.",
+      "as": "গংগা নদী বংগোপসাগৰত পৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-062",
+    "q": {
+      "en": "The Indus river finally drains into which water body?",
+      "as": "সিন্ধু নদী অৱশেষত কোন জলভাগত পৰে?"
+    },
+    "options": [
+      {
+        "en": "Bay of Bengal",
+        "as": "বংগোপসাগৰ"
+      },
+      {
+        "en": "Arabian Sea",
+        "as": "আৰব সাগৰ"
+      },
+      {
+        "en": "Caspian Sea",
+        "as": "কেছ্পিয়ান সাগৰ"
+      },
+      {
+        "en": "Black Sea",
+        "as": "কৃষ্ণ সাগৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Indus drains into the Arabian Sea.",
+      "as": "সিন্ধু নদী আৰব সাগৰত পৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-063",
+    "q": {
+      "en": "The Brahmaputra river finally drains into which water body?",
+      "as": "ব্ৰহ্মপুত্ৰ নদী অৱশেষত কোন জলভাগত পৰে?"
+    },
+    "options": [
+      {
+        "en": "Arabian Sea",
+        "as": "আৰব সাগৰ"
+      },
+      {
+        "en": "Red Sea",
+        "as": "লোহিত সাগৰ"
+      },
+      {
+        "en": "Andaman Sea",
+        "as": "আন্দামান সাগৰ"
+      },
+      {
+        "en": "Bay of Bengal",
+        "as": "বংগোপসাগৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Brahmaputra drains into the Bay of Bengal.",
+      "as": "ব্ৰহ্মপুত্ৰ নদী বংগোপসাগৰত পৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-064",
+    "q": {
+      "en": "Which river is regarded as the holiest river of India?",
+      "as": "কোনখন নদীক ভাৰতৰ আটাইতকৈ পবিত্ৰ নদী বুলি গণ্য কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Ganga is regarded as the holiest river of India.",
+      "as": "গংগাক ভাৰতৰ আটাইতকৈ পবিত্ৰ নদী বুলি গণ্য কৰা হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-065",
+    "q": {
+      "en": "The Ganga Action Plan was launched mainly to do what?",
+      "as": "গংগা একচন প্লেন প্ৰধানকৈ কি কৰিবলৈ আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Build dams",
+        "as": "বান্ধ নিৰ্মাণ কৰিবলৈ"
+      },
+      {
+        "en": "Clean the Ganga",
+        "as": "গংগা পৰিষ্কাৰ কৰিবলৈ"
+      },
+      {
+        "en": "Divert the river",
+        "as": "নদী ঘুৰাই দিবলৈ"
+      },
+      {
+        "en": "Generate electricity",
+        "as": "বিদ্যুৎ উৎপাদন কৰিবলৈ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Ganga Action Plan was launched to clean the Ganga.",
+      "as": "গংগা পৰিষ্কাৰ কৰিবলৈ গংগা একচন প্লেন আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-066",
+    "q": {
+      "en": "Which is the largest tributary of the Brahmaputra river?",
+      "as": "ব্ৰহ্মপুত্ৰ নদীৰ আটাইতকৈ ডাঙৰ উপনদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Dibang",
+        "as": "দিবাং"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Subansiri is the largest tributary of the Brahmaputra.",
+      "as": "সুবনশিৰি ব্ৰহ্মপুত্ৰৰ আটাইতকৈ ডাঙৰ উপনদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-067",
+    "q": {
+      "en": "The Manas river is a tributary of which river?",
+      "as": "মানস নদী কোনখন নদীৰ উপনদী?"
+    },
+    "options": [
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Kosi",
+        "as": "কোশী"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Manas is a tributary of the Brahmaputra.",
+      "as": "মানস নদী ব্ৰহ্মপুত্ৰৰ উপনদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-068",
+    "q": {
+      "en": "Manas National Park is situated in which state?",
+      "as": "মানস ৰাষ্ট্ৰীয় উদ্যানখন কোনখন ৰাজ্যত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Manas National Park is situated in Assam.",
+      "as": "মানস ৰাষ্ট্ৰীয় উদ্যান অসমত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-069",
+    "q": {
+      "en": "Which river is called 'Tsangpo' in Tibet?",
+      "as": "তিব্বতত কোনখন নদীক 'সাংপো' বুলি কোৱা হয়?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Indus",
+        "as": "সিন্ধু"
+      },
+      {
+        "en": "Sutlej",
+        "as": "সতলুজ"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Brahmaputra is called Tsangpo in Tibet.",
+      "as": "ব্ৰহ্মপুত্ৰক তিব্বতত সাংপো বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-070",
+    "q": {
+      "en": "The Hooghly river is a distributary of which river?",
+      "as": "হুগলী নদী কোনখন নদীৰ শাখা নদী?"
+    },
+    "options": [
+      {
+        "en": "Mahanadi",
+        "as": "মহানদী"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Damodar",
+        "as": "দামোদৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Hooghly is a distributary of the Ganga.",
+      "as": "হুগলী নদী গংগাৰ শাখা নদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-071",
+    "q": {
+      "en": "Which river is known as the lifeline of Assam?",
+      "as": "কোনখন নদীক অসমৰ জীৱনৰেখা বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Manas",
+        "as": "মানস"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Brahmaputra is known as the lifeline of Assam.",
+      "as": "ব্ৰহ্মপুত্ৰক অসমৰ জীৱনৰেখা বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-072",
+    "q": {
+      "en": "Which is the longest river of peninsular India that flows east?",
+      "as": "পূব দিশে প্ৰবাহিত উপদ্বীপীয় ভাৰতৰ আটাইতকৈ দীঘল নদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Mahi",
+        "as": "মাহী"
+      },
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      },
+      {
+        "en": "Tapti",
+        "as": "তাপ্তী"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Godavari is the longest east-flowing peninsular river.",
+      "as": "গোদাবৰী পূব দিশে প্ৰবাহিত আটাইতকৈ দীঘল উপদ্বীপীয় নদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-073",
+    "q": {
+      "en": "The Ganga river is also known by which other name?",
+      "as": "গংগা নদী আন কি নামেৰেও জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Bhagirathi",
+        "as": "ভাগীৰথী"
+      },
+      {
+        "en": "Son",
+        "as": "সোণ"
+      },
+      {
+        "en": "Gandak",
+        "as": "গণ্ডক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Ganga is also known as Bhagirathi in its upper course.",
+      "as": "ওপৰৰ গতিত গংগাক ভাগীৰথী বুলিও জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-074",
+    "q": {
+      "en": "Which river flows through the city of Surat?",
+      "as": "কোনখন নদী সূৰাট নগৰৰ মাজেদি প্ৰবাহিত হয়?"
+    },
+    "options": [
+      {
+        "en": "Tapti",
+        "as": "তাপ্তী"
+      },
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      },
+      {
+        "en": "Sabarmati",
+        "as": "সবৰমতী"
+      },
+      {
+        "en": "Mahi",
+        "as": "মাহী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Tapti river flows through Surat.",
+      "as": "তাপ্তী নদী সূৰাটৰ মাজেদি প্ৰবাহিত হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-075",
+    "q": {
+      "en": "Which river is associated with the Kumbh Mela at Prayagraj?",
+      "as": "প্ৰয়াগৰাজৰ কুম্ভ মেলা কোনখন নদীৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Ganga and Yamuna",
+        "as": "গংগা আৰু যমুনা"
+      },
+      {
+        "en": "Ganga and Son",
+        "as": "গংগা আৰু সোণ"
+      },
+      {
+        "en": "Yamuna and Chambal",
+        "as": "যমুনা আৰু চম্বল"
+      },
+      {
+        "en": "Narmada and Tapti",
+        "as": "নৰ্মদা আৰু তাপ্তী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Kumbh Mela at Prayagraj is held at the confluence of the Ganga and Yamuna.",
+      "as": "প্ৰয়াগৰাজৰ কুম্ভ মেলা গংগা আৰু যমুনা নদীৰ সংগমত অনুষ্ঠিত হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-076",
+    "q": {
+      "en": "Which river is the chief tributary of the Mahanadi?",
+      "as": "মহানদী নদীৰ প্ৰধান উপনদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Seonath",
+        "as": "সেয়োনাথ"
+      },
+      {
+        "en": "Wainganga",
+        "as": "ৱাইনগংগা"
+      },
+      {
+        "en": "Pranhita",
+        "as": "প্ৰাণহিতা"
+      },
+      {
+        "en": "Indravati",
+        "as": "ইন্দ্ৰাৱতী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Seonath is the chief tributary of the Mahanadi.",
+      "as": "সেয়োনাথ মহানদীৰ প্ৰধান উপনদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-077",
+    "q": {
+      "en": "Which is the largest river island of Assam?",
+      "as": "অসমৰ আটাইতকৈ ডাঙৰ নদী দ্বীপ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Peacock Island",
+        "as": "পিকক আইলেণ্ড"
+      },
+      {
+        "en": "Umananda",
+        "as": "উমানন্দ"
+      },
+      {
+        "en": "Majuli",
+        "as": "মাজুলী"
+      },
+      {
+        "en": "Bhupen Dwip",
+        "as": "ভূপেন দ্বীপ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Majuli is the largest river island of Assam.",
+      "as": "মাজুলী অসমৰ আটাইতকৈ ডাঙৰ নদী দ্বীপ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-078",
+    "q": {
+      "en": "The Barak river flows through which state?",
+      "as": "বৰাক নদী কোনখন ৰাজ্যৰ মাজেদি প্ৰবাহিত হয়?"
+    },
+    "options": [
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Tripura",
+        "as": "ত্ৰিপুৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Barak river flows through Assam (Barak Valley).",
+      "as": "বৰাক নদী অসমৰ মাজেদি প্ৰবাহিত হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-079",
+    "q": {
+      "en": "Which river is the second largest river of Assam?",
+      "as": "অসমৰ দ্বিতীয় আটাইতকৈ ডাঙৰ নদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Subansiri",
+        "as": "সুবনশিৰি"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Barak is the second largest river of Assam.",
+      "as": "বৰাক অসমৰ দ্বিতীয় আটাইতকৈ ডাঙৰ নদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-080",
+    "q": {
+      "en": "Which river separates India from Nepal in the east?",
+      "as": "পূবত কোনখন নদী ভাৰতক নেপালৰ পৰা পৃথক কৰে?"
+    },
+    "options": [
+      {
+        "en": "Gandak",
+        "as": "গণ্ডক"
+      },
+      {
+        "en": "Mahananda",
+        "as": "মহানন্দা"
+      },
+      {
+        "en": "Kosi",
+        "as": "কোশী"
+      },
+      {
+        "en": "Sarda",
+        "as": "সৰদা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Kosi river forms part of the India-Nepal boundary.",
+      "as": "কোশী নদী ভাৰত-নেপাল সীমাৰ এক অংশ গঠন কৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-081",
+    "q": {
+      "en": "Which is the highest mountain peak in India?",
+      "as": "ভাৰতৰ আটাইতকৈ ওখ পৰ্বত শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Nanda Devi",
+        "as": "নন্দা দেৱী"
+      },
+      {
+        "en": "Kanchenjunga",
+        "as": "কাঞ্চনজঙ্ঘা"
+      },
+      {
+        "en": "Anamudi",
+        "as": "আনামুদি"
+      },
+      {
+        "en": "Kamet",
+        "as": "কামেট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kanchenjunga (8586 m) is the highest mountain peak in India.",
+      "as": "কাঞ্চনজঙ্ঘা (৮৫৮৬ মিটাৰ) ভাৰতৰ আটাইতকৈ ওখ পৰ্বত শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-082",
+    "q": {
+      "en": "Which is the highest peak in the world?",
+      "as": "বিশ্বৰ আটাইতকৈ ওখ শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "K2",
+        "as": "কে-২"
+      },
+      {
+        "en": "Makalu",
+        "as": "মাকালু"
+      },
+      {
+        "en": "Kanchenjunga",
+        "as": "কাঞ্চনজঙ্ঘা"
+      },
+      {
+        "en": "Mount Everest",
+        "as": "মাউণ্ট এভাৰেষ্ট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mount Everest is the highest peak in the world.",
+      "as": "মাউণ্ট এভাৰেষ্ট বিশ্বৰ আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-083",
+    "q": {
+      "en": "Mount Everest is located in which country?",
+      "as": "মাউণ্ট এভাৰেষ্ট কোনখন দেশত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "India",
+        "as": "ভাৰত"
+      },
+      {
+        "en": "Nepal",
+        "as": "নেপাল"
+      },
+      {
+        "en": "China",
+        "as": "চীন"
+      },
+      {
+        "en": "Bhutan",
+        "as": "ভূটান"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mount Everest is located in Nepal.",
+      "as": "মাউণ্ট এভাৰেষ্ট নেপালত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-084",
+    "q": {
+      "en": "Kanchenjunga is located in which Indian state?",
+      "as": "কাঞ্চনজঙ্ঘা কোনখন ভাৰতীয় ৰাজ্যত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Sikkim",
+        "as": "চিকিম"
+      },
+      {
+        "en": "Uttarakhand",
+        "as": "উত্তৰাখণ্ড"
+      },
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kanchenjunga is located in Sikkim.",
+      "as": "কাঞ্চনজঙ্ঘা চিকিমত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-085",
+    "q": {
+      "en": "Which is the highest peak of the Western Ghats?",
+      "as": "পশ্চিম ঘাট পৰ্বতশ্ৰেণীৰ আটাইতকৈ ওখ শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Anamudi",
+        "as": "আনামুদি"
+      },
+      {
+        "en": "Doddabetta",
+        "as": "দোদ্দাবেট্টা"
+      },
+      {
+        "en": "Kalsubai",
+        "as": "কালছুবাই"
+      },
+      {
+        "en": "Guru Shikhar",
+        "as": "গুৰু শিখৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Anamudi is the highest peak of the Western Ghats.",
+      "as": "আনামুদি পশ্চিম ঘাটৰ আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-086",
+    "q": {
+      "en": "Anamudi, the highest peak of South India, is located in which state?",
+      "as": "দক্ষিণ ভাৰতৰ আটাইতকৈ ওখ শিখৰ আনামুদি কোনখন ৰাজ্যত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      },
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      },
+      {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      },
+      {
+        "en": "Andhra Pradesh",
+        "as": "অন্ধ্ৰ প্ৰদেশ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Anamudi is located in Kerala.",
+      "as": "আনামুদি কেৰালাত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-087",
+    "q": {
+      "en": "Which is the highest peak of the Eastern Ghats?",
+      "as": "পূব ঘাট পৰ্বতশ্ৰেণীৰ আটাইতকৈ ওখ শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Doddabetta",
+        "as": "দোদ্দাবেট্টা"
+      },
+      {
+        "en": "Arma Konda",
+        "as": "অৰ্মা কোণ্ডা"
+      },
+      {
+        "en": "Anamudi",
+        "as": "আনামুদি"
+      },
+      {
+        "en": "Mahendragiri",
+        "as": "মহেন্দ্ৰগিৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Arma Konda is the highest peak of the Eastern Ghats.",
+      "as": "অৰ্মা কোণ্ডা পূব ঘাটৰ আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-088",
+    "q": {
+      "en": "Which is the highest peak of the Nilgiri Hills?",
+      "as": "নীলগিৰি পাহাৰৰ আটাইতকৈ ওখ শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Anamudi",
+        "as": "আনামুদি"
+      },
+      {
+        "en": "Arma Konda",
+        "as": "অৰ্মা কোণ্ডা"
+      },
+      {
+        "en": "Doddabetta",
+        "as": "দোদ্দাবেট্টা"
+      },
+      {
+        "en": "Kalsubai",
+        "as": "কালছুবাই"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Doddabetta is the highest peak of the Nilgiri Hills.",
+      "as": "দোদ্দাবেট্টা নীলগিৰি পাহাৰৰ আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-089",
+    "q": {
+      "en": "K2 is also known by which name?",
+      "as": "কে-২ শিখৰক আন কি নামেৰেও জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Dhaulagiri",
+        "as": "ধৌলাগিৰি"
+      },
+      {
+        "en": "Sagarmatha",
+        "as": "সাগৰমাথা"
+      },
+      {
+        "en": "Chomolungma",
+        "as": "চোমোলুংমা"
+      },
+      {
+        "en": "Godwin Austen",
+        "as": "গডউইন অস্টিন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "K2 is also known as Godwin Austen.",
+      "as": "কে-২ক গডউইন অস্টিন বুলিও জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-090",
+    "q": {
+      "en": "Which is the northernmost and highest range of the Himalayas?",
+      "as": "হিমালয়ৰ আটাইতকৈ উত্তৰ আৰু ওখ শ্ৰেণী কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Himadri",
+        "as": "হিমাদ্ৰী"
+      },
+      {
+        "en": "Himachal",
+        "as": "হিমাচল"
+      },
+      {
+        "en": "Shiwalik",
+        "as": "শিৱালিক"
+      },
+      {
+        "en": "Aravalli",
+        "as": "অৰাবল্লী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Himadri (Great Himalayas) is the northernmost and highest range.",
+      "as": "হিমাদ্ৰী (বৃহৎ হিমালয়) আটাইতকৈ উত্তৰ আৰু ওখ শ্ৰেণী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-091",
+    "q": {
+      "en": "Which is the outermost range of the Himalayas?",
+      "as": "হিমালয়ৰ আটাইতকৈ বাহিৰৰ শ্ৰেণী কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Shiwalik",
+        "as": "শিৱালিক"
+      },
+      {
+        "en": "Himadri",
+        "as": "হিমাদ্ৰী"
+      },
+      {
+        "en": "Himachal",
+        "as": "হিমাচল"
+      },
+      {
+        "en": "Satpura",
+        "as": "সৎপুৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Shiwalik is the outermost range of the Himalayas.",
+      "as": "শিৱালিক হিমালয়ৰ আটাইতকৈ বাহিৰৰ শ্ৰেণী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-092",
+    "q": {
+      "en": "The Shiwalik range is also known as?",
+      "as": "শিৱালিক শ্ৰেণীক কি বুলিও জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Inner Himalayas",
+        "as": "অভ্যন্তৰীণ হিমালয়"
+      },
+      {
+        "en": "Great Himalayas",
+        "as": "বৃহৎ হিমালয়"
+      },
+      {
+        "en": "Outer Himalayas",
+        "as": "বাহ্য হিমালয়"
+      },
+      {
+        "en": "Lesser Himalayas",
+        "as": "ক্ষুদ্ৰ হিমালয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Shiwalik is also known as the Outer Himalayas.",
+      "as": "শিৱালিকক বাহ্য হিমালয় বুলিও জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-093",
+    "q": {
+      "en": "Which mountain range separates India from Tibet?",
+      "as": "কোন পৰ্বতশ্ৰেণীয়ে ভাৰতক তিব্বতৰ পৰা পৃথক কৰে?"
+    },
+    "options": [
+      {
+        "en": "Himalayas",
+        "as": "হিমালয়"
+      },
+      {
+        "en": "Aravalli",
+        "as": "অৰাবল্লী"
+      },
+      {
+        "en": "Vindhya",
+        "as": "বিন্ধ্য"
+      },
+      {
+        "en": "Satpura",
+        "as": "সৎপুৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Himalayas separate India from Tibet.",
+      "as": "হিমালয় ভাৰতক তিব্বতৰ পৰা পৃথক কৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-094",
+    "q": {
+      "en": "Which is the oldest mountain range in India?",
+      "as": "ভাৰতৰ আটাইতকৈ পুৰণি পৰ্বতশ্ৰেণী কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Himalayas",
+        "as": "হিমালয়"
+      },
+      {
+        "en": "Satpura",
+        "as": "সৎপুৰা"
+      },
+      {
+        "en": "Aravalli",
+        "as": "অৰাবল্লী"
+      },
+      {
+        "en": "Western Ghats",
+        "as": "পশ্চিম ঘাট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Aravalli is the oldest mountain range in India.",
+      "as": "অৰাবল্লী ভাৰতৰ আটাইতকৈ পুৰণি পৰ্বতশ্ৰেণী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-095",
+    "q": {
+      "en": "The Aravalli range is mainly located in which state?",
+      "as": "অৰাবল্লী পৰ্বতশ্ৰেণী প্ৰধানকৈ কোনখন ৰাজ্যত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Rajasthan",
+        "as": "ৰাজস্থান"
+      },
+      {
+        "en": "Gujarat",
+        "as": "গুজৰাট"
+      },
+      {
+        "en": "Madhya Pradesh",
+        "as": "মধ্য প্ৰদেশ"
+      },
+      {
+        "en": "Haryana",
+        "as": "হাৰিয়ানা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Aravalli range is mainly located in Rajasthan.",
+      "as": "অৰাবল্লী পৰ্বতশ্ৰেণী প্ৰধানকৈ ৰাজস্থানত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-096",
+    "q": {
+      "en": "Which is the highest peak of the Aravalli range?",
+      "as": "অৰাবল্লী পৰ্বতশ্ৰেণীৰ আটাইতকৈ ওখ শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Dhupgarh",
+        "as": "ধূপগড়"
+      },
+      {
+        "en": "Guru Shikhar",
+        "as": "গুৰু শিখৰ"
+      },
+      {
+        "en": "Kalsubai",
+        "as": "কালছুবাই"
+      },
+      {
+        "en": "Doddabetta",
+        "as": "দোদ্দাবেট্টা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Guru Shikhar is the highest peak of the Aravalli range.",
+      "as": "গুৰু শিখৰ অৰাবল্লীৰ আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-097",
+    "q": {
+      "en": "Which mountain range lies between the Narmada and Tapti rivers?",
+      "as": "কোন পৰ্বতশ্ৰেণী নৰ্মদা আৰু তাপ্তী নদীৰ মাজত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Vindhya",
+        "as": "বিন্ধ্য"
+      },
+      {
+        "en": "Satpura",
+        "as": "সৎপুৰা"
+      },
+      {
+        "en": "Aravalli",
+        "as": "অৰাবল্লী"
+      },
+      {
+        "en": "Nilgiri",
+        "as": "নীলগিৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Satpura range lies between the Narmada and Tapti rivers.",
+      "as": "সৎপুৰা শ্ৰেণী নৰ্মদা আৰু তাপ্তী নদীৰ মাজত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-098",
+    "q": {
+      "en": "Which is the highest peak of the Satpura range?",
+      "as": "সৎপুৰা পৰ্বতশ্ৰেণীৰ আটাইতকৈ ওখ শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Guru Shikhar",
+        "as": "গুৰু শিখৰ"
+      },
+      {
+        "en": "Anamudi",
+        "as": "আনামুদি"
+      },
+      {
+        "en": "Dhupgarh",
+        "as": "ধূপগড়"
+      },
+      {
+        "en": "Arma Konda",
+        "as": "অৰ্মা কোণ্ডা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Dhupgarh is the highest peak of the Satpura range.",
+      "as": "ধূপগড় সৎপুৰাৰ আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-099",
+    "q": {
+      "en": "The Vindhya range is mainly located in which part of India?",
+      "as": "বিন্ধ্য পৰ্বতশ্ৰেণী প্ৰধানকৈ ভাৰতৰ কোন অংশত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Central India",
+        "as": "মধ্যভাৰত"
+      },
+      {
+        "en": "South India",
+        "as": "দক্ষিণ ভাৰত"
+      },
+      {
+        "en": "North India",
+        "as": "উত্তৰ ভাৰত"
+      },
+      {
+        "en": "East India",
+        "as": "পূব ভাৰত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Vindhya range is located in central India.",
+      "as": "বিন্ধ্য পৰ্বতশ্ৰেণী মধ্যভাৰতত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-100",
+    "q": {
+      "en": "Which hill range is known as the 'Blue Mountains'?",
+      "as": "কোন পাহাৰশ্ৰেণীক 'নীল পৰ্বত' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Aravalli",
+        "as": "অৰাবল্লী"
+      },
+      {
+        "en": "Satpura",
+        "as": "সৎপুৰা"
+      },
+      {
+        "en": "Nilgiri Hills",
+        "as": "নীলগিৰি পাহাৰ"
+      },
+      {
+        "en": "Vindhya",
+        "as": "বিন্ধ্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Nilgiri Hills are known as the Blue Mountains.",
+      "as": "নীলগিৰি পাহাৰক নীল পৰ্বত বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-101",
+    "q": {
+      "en": "The Nilgiri Hills are located mainly in which state?",
+      "as": "নীলগিৰি পাহাৰ প্ৰধানকৈ কোনখন ৰাজ্যত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      },
+      {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      },
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      },
+      {
+        "en": "Andhra Pradesh",
+        "as": "অন্ধ্ৰ প্ৰদেশ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Nilgiri Hills are located mainly in Tamil Nadu.",
+      "as": "নীলগিৰি পাহাৰ প্ৰধানকৈ তামিলনাডুত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-102",
+    "q": {
+      "en": "Nathu La pass is located in which state?",
+      "as": "নাথু লা গিৰিপথ কোনখন ৰাজ্যত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Himachal Pradesh",
+        "as": "হিমাচল প্ৰদেশ"
+      },
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "Sikkim",
+        "as": "চিকিম"
+      },
+      {
+        "en": "Uttarakhand",
+        "as": "উত্তৰাখণ্ড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Nathu La pass is located in Sikkim.",
+      "as": "নাথু লা গিৰিপথ চিকিমত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-103",
+    "q": {
+      "en": "Rohtang Pass is located in which state?",
+      "as": "ৰোহতাং গিৰিপথ কোনখন ৰাজ্যত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Uttarakhand",
+        "as": "উত্তৰাখণ্ড"
+      },
+      {
+        "en": "Jammu and Kashmir",
+        "as": "জম্মু-কাশ্মীৰ"
+      },
+      {
+        "en": "Sikkim",
+        "as": "চিকিম"
+      },
+      {
+        "en": "Himachal Pradesh",
+        "as": "হিমাচল প্ৰদেশ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rohtang Pass is located in Himachal Pradesh.",
+      "as": "ৰোহতাং গিৰিপথ হিমাচল প্ৰদেশত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-104",
+    "q": {
+      "en": "Which pass connects Jammu with Srinagar?",
+      "as": "কোন গিৰিপথে জম্মুক শ্ৰীনগৰৰ সৈতে সংযোগ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Zoji La",
+        "as": "জোজি লা"
+      },
+      {
+        "en": "Rohtang Pass",
+        "as": "ৰোহতাং গিৰিপথ"
+      },
+      {
+        "en": "Banihal Pass",
+        "as": "বানিহাল গিৰিপথ"
+      },
+      {
+        "en": "Nathu La",
+        "as": "নাথু লা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Banihal Pass connects Jammu with Srinagar.",
+      "as": "বানিহাল গিৰিপথে জম্মুক শ্ৰীনগৰৰ সৈতে সংযোগ কৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-105",
+    "q": {
+      "en": "Palghat Pass connects which two states?",
+      "as": "পালঘাট গিৰিপথে কোন দুখন ৰাজ্যক সংযোগ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Kerala and Tamil Nadu",
+        "as": "কেৰালা আৰু তামিলনাডু"
+      },
+      {
+        "en": "Karnataka and Kerala",
+        "as": "কৰ্ণাটক আৰু কেৰালা"
+      },
+      {
+        "en": "Maharashtra and Goa",
+        "as": "মহাৰাষ্ট্ৰ আৰু গোৱা"
+      },
+      {
+        "en": "Odisha and Andhra Pradesh",
+        "as": "ওড়িশা আৰু অন্ধ্ৰ প্ৰদেশ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Palghat Pass connects Kerala and Tamil Nadu.",
+      "as": "পালঘাট গিৰিপথে কেৰালা আৰু তামিলনাডুক সংযোগ কৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-106",
+    "q": {
+      "en": "Which is the highest mountain peak located entirely within India?",
+      "as": "সম্পূৰ্ণৰূপে ভাৰতৰ ভিতৰত অৱস্থিত আটাইতকৈ ওখ পৰ্বত শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Nanda Devi",
+        "as": "নন্দা দেৱী"
+      },
+      {
+        "en": "Kanchenjunga",
+        "as": "কাঞ্চনজঙ্ঘা"
+      },
+      {
+        "en": "K2",
+        "as": "কে-২"
+      },
+      {
+        "en": "Anamudi",
+        "as": "আনামুদি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Nanda Devi is the highest peak located entirely within India.",
+      "as": "নন্দা দেৱী সম্পূৰ্ণৰূপে ভাৰতৰ ভিতৰত অৱস্থিত আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-107",
+    "q": {
+      "en": "Nanda Devi peak is located in which state?",
+      "as": "নন্দা দেৱী শিখৰ কোনখন ৰাজ্যত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Himachal Pradesh",
+        "as": "হিমাচল প্ৰদেশ"
+      },
+      {
+        "en": "Uttarakhand",
+        "as": "উত্তৰাখণ্ড"
+      },
+      {
+        "en": "Sikkim",
+        "as": "চিকিম"
+      },
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Nanda Devi is located in Uttarakhand.",
+      "as": "নন্দা দেৱী উত্তৰাখণ্ডত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-108",
+    "q": {
+      "en": "Which is the largest glacier in India?",
+      "as": "ভাৰতৰ আটাইতকৈ ডাঙৰ হিমবাহ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Gangotri Glacier",
+        "as": "গংগোত্ৰী হিমবাহ"
+      },
+      {
+        "en": "Siachen Glacier",
+        "as": "ছিয়াচেন হিমবাহ"
+      },
+      {
+        "en": "Milam Glacier",
+        "as": "মিলাম হিমবাহ"
+      },
+      {
+        "en": "Pindari Glacier",
+        "as": "পিণ্ডাৰী হিমবাহ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Siachen Glacier is the largest glacier in India.",
+      "as": "ছিয়াচেন হিমবাহ ভাৰতৰ আটাইতকৈ ডাঙৰ হিমবাহ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-109",
+    "q": {
+      "en": "The Siachen Glacier is located in which mountain range?",
+      "as": "ছিয়াচেন হিমবাহ কোন পৰ্বতশ্ৰেণীত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Karakoram",
+        "as": "কাৰাকোৰাম"
+      },
+      {
+        "en": "Himalayas",
+        "as": "হিমালয়"
+      },
+      {
+        "en": "Aravalli",
+        "as": "অৰাবল্লী"
+      },
+      {
+        "en": "Satpura",
+        "as": "সৎপুৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Siachen Glacier is located in the Karakoram range.",
+      "as": "ছিয়াচেন হিমবাহ কাৰাকোৰাম শ্ৰেণীত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-110",
+    "q": {
+      "en": "Which is the highest plateau in the world?",
+      "as": "বিশ্বৰ আটাইতকৈ ওখ মালভূমি কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Deccan Plateau",
+        "as": "ডেকান মালভূমি"
+      },
+      {
+        "en": "Tibetan Plateau",
+        "as": "তিব্বত মালভূমি"
+      },
+      {
+        "en": "Chotanagpur Plateau",
+        "as": "ছোটনাগপুৰ মালভূমি"
+      },
+      {
+        "en": "Malwa Plateau",
+        "as": "মালৱা মালভূমি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Tibetan Plateau is the highest plateau in the world.",
+      "as": "তিব্বত মালভূমি বিশ্বৰ আটাইতকৈ ওখ মালভূমি।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-111",
+    "q": {
+      "en": "Which is the highest waterfall in India?",
+      "as": "ভাৰতৰ আটাইতকৈ ওখ জলপ্ৰপাত কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Jog Falls",
+        "as": "জোগ জলপ্ৰপাত"
+      },
+      {
+        "en": "Kunchikal Falls",
+        "as": "কুঞ্চিকল জলপ্ৰপাত"
+      },
+      {
+        "en": "Dhuandhar Falls",
+        "as": "ধুঁৱান্ধাৰ জলপ্ৰপাত"
+      },
+      {
+        "en": "Athirappilly Falls",
+        "as": "অথিৰাপল্লী জলপ্ৰপাত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kunchikal Falls in Karnataka is the highest waterfall in India.",
+      "as": "কৰ্ণাটকৰ কুঞ্চিকল জলপ্ৰপাত ভাৰতৰ আটাইতকৈ ওখ জলপ্ৰপাত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-112",
+    "q": {
+      "en": "Which mountain range is known as the 'Abode of Snow'?",
+      "as": "কোন পৰ্বতশ্ৰেণীক 'বৰফৰ নিবাস' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Aravalli",
+        "as": "অৰাবল্লী"
+      },
+      {
+        "en": "Vindhya",
+        "as": "বিন্ধ্য"
+      },
+      {
+        "en": "Himalayas",
+        "as": "হিমালয়"
+      },
+      {
+        "en": "Nilgiri",
+        "as": "নীলগিৰি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Himalayas are known as the Abode of Snow.",
+      "as": "হিমালয়ক বৰফৰ নিবাস বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-113",
+    "q": {
+      "en": "Which is the second highest mountain peak of India?",
+      "as": "ভাৰতৰ দ্বিতীয় আটাইতকৈ ওখ পৰ্বত শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Nanda Devi",
+        "as": "নন্দা দেৱী"
+      },
+      {
+        "en": "K2",
+        "as": "কে-২"
+      },
+      {
+        "en": "Kanchenjunga",
+        "as": "কাঞ্চনজঙ্ঘা"
+      },
+      {
+        "en": "Anamudi",
+        "as": "আনামুদি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Nanda Devi is the second highest peak of India.",
+      "as": "নন্দা দেৱী ভাৰতৰ দ্বিতীয় আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-114",
+    "q": {
+      "en": "Which pass connects Manali with Leh?",
+      "as": "কোন গিৰিপথে মানালীক লেহৰ সৈতে সংযোগ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Nathu La",
+        "as": "নাথু লা"
+      },
+      {
+        "en": "Rohtang Pass",
+        "as": "ৰোহতাং গিৰিপথ"
+      },
+      {
+        "en": "Zoji La",
+        "as": "জোজি লা"
+      },
+      {
+        "en": "Palghat",
+        "as": "পালঘাট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rohtang Pass connects Manali with Leh.",
+      "as": "ৰোহতাং গিৰিপথে মানালীক লেহৰ সৈতে সংযোগ কৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-115",
+    "q": {
+      "en": "Which mountain range forms the eastern boundary of the Deccan Plateau?",
+      "as": "কোন পৰ্বতশ্ৰেণীয়ে ডেকান মালভূমিৰ পূব সীমা গঠন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Western Ghats",
+        "as": "পশ্চিম ঘাট"
+      },
+      {
+        "en": "Vindhya",
+        "as": "বিন্ধ্য"
+      },
+      {
+        "en": "Satpura",
+        "as": "সৎপুৰা"
+      },
+      {
+        "en": "Eastern Ghats",
+        "as": "পূব ঘাট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Eastern Ghats form the eastern boundary of the Deccan Plateau.",
+      "as": "পূব ঘাটে ডেকান মালভূমিৰ পূব সীমা গঠন কৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-116",
+    "q": {
+      "en": "Which mountain range forms the western boundary of the Deccan Plateau?",
+      "as": "কোন পৰ্বতশ্ৰেণীয়ে ডেকান মালভূমিৰ পশ্চিম সীমা গঠন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Eastern Ghats",
+        "as": "পূব ঘাট"
+      },
+      {
+        "en": "Aravalli",
+        "as": "অৰাবল্লী"
+      },
+      {
+        "en": "Western Ghats",
+        "as": "পশ্চিম ঘাট"
+      },
+      {
+        "en": "Vindhya",
+        "as": "বিন্ধ্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Western Ghats form the western boundary of the Deccan Plateau.",
+      "as": "পশ্চিম ঘাটে ডেকান মালভূমিৰ পশ্চিম সীমা গঠন কৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-117",
+    "q": {
+      "en": "The Western Ghats are also known by which name?",
+      "as": "পশ্চিম ঘাটক আন কি নামেৰেও জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Vindhya",
+        "as": "বিন্ধ্য"
+      },
+      {
+        "en": "Mahendra Parbat",
+        "as": "মহেন্দ্ৰ পৰ্বত"
+      },
+      {
+        "en": "Nilgiri",
+        "as": "নীলগিৰি"
+      },
+      {
+        "en": "Sahyadri",
+        "as": "সহ্যাদ্ৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Western Ghats are also known as Sahyadri.",
+      "as": "পশ্চিম ঘাটক সহ্যাদ্ৰী বুলিও জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-118",
+    "q": {
+      "en": "Which is the highest peak of the Western Ghats in Maharashtra?",
+      "as": "মহাৰাষ্ট্ৰত পশ্চিম ঘাটৰ আটাইতকৈ ওখ শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Kalsubai",
+        "as": "কালছুবাই"
+      },
+      {
+        "en": "Doddabetta",
+        "as": "দোদ্দাবেট্টা"
+      },
+      {
+        "en": "Anamudi",
+        "as": "আনামুদি"
+      },
+      {
+        "en": "Guru Shikhar",
+        "as": "গুৰু শিখৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kalsubai is the highest peak of the Western Ghats in Maharashtra.",
+      "as": "কালছুবাই মহাৰাষ্ট্ৰত পশ্চিম ঘাটৰ আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-119",
+    "q": {
+      "en": "Which hill station is known as the 'Queen of Hills'?",
+      "as": "কোন পাহাৰীয়া ষ্টেচনক 'পাহাৰৰ ৰাণী' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Shimla",
+        "as": "চিমলা"
+      },
+      {
+        "en": "Ooty",
+        "as": "উটি"
+      },
+      {
+        "en": "Mussoorie",
+        "as": "মুছৌৰী"
+      },
+      {
+        "en": "Darjeeling",
+        "as": "দাৰ্জিলিং"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Mussoorie is known as the Queen of Hills.",
+      "as": "মুছৌৰীক পাহাৰৰ ৰাণী বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-120",
+    "q": {
+      "en": "The Himalayan mountain system is divided into how many parallel ranges?",
+      "as": "হিমালয় পৰ্বত ব্যৱস্থা কেইটা সমান্তৰাল শ্ৰেণীত বিভক্ত?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Himalayas are divided into three parallel ranges.",
+      "as": "হিমালয় তিনিটা সমান্তৰাল শ্ৰেণীত বিভক্ত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-121",
+    "q": {
+      "en": "Which are the three parallel ranges of the Himalayas?",
+      "as": "হিমালয়ৰ তিনিটা সমান্তৰাল শ্ৰেণী কোনবোৰ?"
+    },
+    "options": [
+      {
+        "en": "Himadri, Himachal, Shiwalik",
+        "as": "হিমাদ্ৰী, হিমাচল, শিৱালিক"
+      },
+      {
+        "en": "Aravalli, Vindhya, Satpura",
+        "as": "অৰাবল্লী, বিন্ধ্য, সৎপুৰা"
+      },
+      {
+        "en": "Satpura, Vindhya, Nilgiri",
+        "as": "সৎপুৰা, বিন্ধ্য, নীলগিৰি"
+      },
+      {
+        "en": "Deccan, Malwa, Chota",
+        "as": "ডেকান, মালৱা, ছোটা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The three ranges are Himadri, Himachal and Shiwalik.",
+      "as": "তিনিটা শ্ৰেণী হ'ল হিমাদ্ৰী, হিমাচল আৰু শিৱালিক।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-122",
+    "q": {
+      "en": "Which range of the Himalayas is known for hill stations like Shimla and Darjeeling?",
+      "as": "শিমলা আৰু দাৰ্জিলিঙৰ দৰে পাহাৰীয়া ষ্টেচনৰ বাবে হিমালয়ৰ কোন শ্ৰেণী জনাজাত?"
+    },
+    "options": [
+      {
+        "en": "Himadri",
+        "as": "হিমাদ্ৰী"
+      },
+      {
+        "en": "Shiwalik",
+        "as": "শিৱালিক"
+      },
+      {
+        "en": "Himachal (Lesser Himalayas)",
+        "as": "হিমাচল (ক্ষুদ্ৰ হিমালয়)"
+      },
+      {
+        "en": "Karakoram",
+        "as": "কাৰাকোৰাম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Himachal or Lesser Himalayas are known for hill stations like Shimla and Darjeeling.",
+      "as": "হিমাচল বা ক্ষুদ্ৰ হিমালয় শিমলা আৰু দাৰ্জিলিঙৰ দৰে পাহাৰীয়া ষ্টেচনৰ বাবে জনাজাত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-123",
+    "q": {
+      "en": "Mount Everest was first successfully climbed by Edmund Hillary and whom?",
+      "as": "মাউণ্ট এভাৰেষ্ট প্ৰথমে সফলভাৱে এডমাণ্ড হিলাৰীয়ে আৰু কোনে আৰোহণ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "Reinhold Messner",
+        "as": "ৰাইনহল্ড মেছনাৰ"
+      },
+      {
+        "en": "George Mallory",
+        "as": "জৰ্জ মেলৰি"
+      },
+      {
+        "en": "Junko Tabei",
+        "as": "জুনকো টাবেই"
+      },
+      {
+        "en": "Tenzing Norgay",
+        "as": "তেনজিং নৰ্গে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mount Everest was first climbed by Edmund Hillary and Tenzing Norgay in 1953.",
+      "as": "১৯৫৩ চনত এডমাণ্ড হিলাৰী আৰু তেনজিং নৰ্গেই প্ৰথমে মাউণ্ট এভাৰেষ্ট আৰোহণ কৰিছিল।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-124",
+    "q": {
+      "en": "Which is the highest mountain range in the world?",
+      "as": "বিশ্বৰ আটাইতকৈ ওখ পৰ্বতশ্ৰেণী কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Andes",
+        "as": "এণ্ডিছ"
+      },
+      {
+        "en": "Alps",
+        "as": "আল্পছ"
+      },
+      {
+        "en": "Rockies",
+        "as": "ৰকি"
+      },
+      {
+        "en": "Himalayas",
+        "as": "হিমালয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Himalayas is the highest mountain range in the world.",
+      "as": "হিমালয় বিশ্বৰ আটাইতকৈ ওখ পৰ্বতশ্ৰেণী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-125",
+    "q": {
+      "en": "Which plateau lies between the Western and Eastern Ghats?",
+      "as": "পশ্চিম আৰু পূব ঘাটৰ মাজত কোন মালভূমি অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Malwa Plateau",
+        "as": "মালৱা মালভূমি"
+      },
+      {
+        "en": "Deccan Plateau",
+        "as": "ডেকান মালভূমি"
+      },
+      {
+        "en": "Chotanagpur Plateau",
+        "as": "ছোটনাগপুৰ মালভূমি"
+      },
+      {
+        "en": "Tibetan Plateau",
+        "as": "তিব্বত মালভূমি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Deccan Plateau lies between the Western and Eastern Ghats.",
+      "as": "ডেকান মালভূমি পশ্চিম আৰু পূব ঘাটৰ মাজত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-126",
+    "q": {
+      "en": "Which is the largest plateau in India?",
+      "as": "ভাৰতৰ আটাইতকৈ ডাঙৰ মালভূমি কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Bundelkhand",
+        "as": "বুন্দেলখণ্ড"
+      },
+      {
+        "en": "Malwa Plateau",
+        "as": "মালৱা মালভূমি"
+      },
+      {
+        "en": "Chotanagpur Plateau",
+        "as": "ছোটনাগপুৰ মালভূমি"
+      },
+      {
+        "en": "Deccan Plateau",
+        "as": "ডেকান মালভূমি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Deccan Plateau is the largest plateau in India.",
+      "as": "ডেকান মালভূমি ভাৰতৰ আটাইতকৈ ডাঙৰ মালভূমি।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-127",
+    "q": {
+      "en": "Ooty, a famous hill station, is located in which hills?",
+      "as": "প্ৰখ্যাত পাহাৰীয়া ষ্টেচন উটি কোন পাহাৰত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Aravalli",
+        "as": "অৰাবল্লী"
+      },
+      {
+        "en": "Satpura",
+        "as": "সৎপুৰা"
+      },
+      {
+        "en": "Nilgiri Hills",
+        "as": "নীলগিৰি পাহাৰ"
+      },
+      {
+        "en": "Vindhya",
+        "as": "বিন্ধ্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ooty is located in the Nilgiri Hills.",
+      "as": "উটি নীলগিৰি পাহাৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-128",
+    "q": {
+      "en": "Kanchenjunga is the ___ highest peak in the world.",
+      "as": "কাঞ্চনজঙ্ঘা বিশ্বৰ ___ সংখ্যক আটাইতকৈ ওখ শিখৰ।"
+    },
+    "options": [
+      {
+        "en": "Third",
+        "as": "তৃতীয়"
+      },
+      {
+        "en": "Second",
+        "as": "দ্বিতীয়"
+      },
+      {
+        "en": "First",
+        "as": "প্ৰথম"
+      },
+      {
+        "en": "Fourth",
+        "as": "চতুৰ্থ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kanchenjunga is the third highest peak in the world.",
+      "as": "কাঞ্চনজঙ্ঘা বিশ্বৰ তৃতীয় আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-129",
+    "q": {
+      "en": "Which mountain range lies to the south of the Himalayas?",
+      "as": "হিমালয়ৰ দক্ষিণে কোন পৰ্বতশ্ৰেণী অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Aravalli",
+        "as": "অৰাবল্লী"
+      },
+      {
+        "en": "Karakoram",
+        "as": "কাৰাকোৰাম"
+      },
+      {
+        "en": "Vindhya",
+        "as": "বিন্ধ্য"
+      },
+      {
+        "en": "Hindu Kush",
+        "as": "হিন্দু Kush"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Vindhya range lies to the south of the Himalayas.",
+      "as": "বিন্ধ্য শ্ৰেণী হিমালয়ৰ দক্ষিণে অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-130",
+    "q": {
+      "en": "How many states are there in India?",
+      "as": "ভাৰতত কেইখন ৰাজ্য আছে?"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "India has 28 states.",
+      "as": "ভাৰতত ২৮খন ৰাজ্য আছে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-131",
+    "q": {
+      "en": "How many Union Territories are there in India?",
+      "as": "ভাৰতত কেইখন কেন্দ্ৰীয় শাসিত অঞ্চল আছে?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "India has 8 Union Territories.",
+      "as": "ভাৰতত ৮খন কেন্দ্ৰীয় শাসিত অঞ্চল আছে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-132",
+    "q": {
+      "en": "Which is the largest state of India by area?",
+      "as": "মাটিকালিৰ ভিত্তিত ভাৰতৰ আটাইতকৈ ডাঙৰ ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Madhya Pradesh",
+        "as": "মধ্য প্ৰদেশ"
+      },
+      {
+        "en": "Rajasthan",
+        "as": "ৰাজস্থান"
+      },
+      {
+        "en": "Maharashtra",
+        "as": "মহাৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Uttar Pradesh",
+        "as": "উত্তৰ প্ৰদেশ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rajasthan is the largest state of India by area.",
+      "as": "মাটিকালিৰ ভিত্তিত ৰাজস্থান ভাৰতৰ আটাইতকৈ ডাঙৰ ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-133",
+    "q": {
+      "en": "Which is the smallest state of India by area?",
+      "as": "মাটিকালিৰ ভিত্তিত ভাৰতৰ আটাইতকৈ সৰু ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Sikkim",
+        "as": "চিকিম"
+      },
+      {
+        "en": "Goa",
+        "as": "গোৱা"
+      },
+      {
+        "en": "Tripura",
+        "as": "ত্ৰিপুৰা"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Goa is the smallest state of India by area.",
+      "as": "মাটিকালিৰ ভিত্তিত গোৱা ভাৰতৰ আটাইতকৈ সৰু ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-134",
+    "q": {
+      "en": "Which is the largest state of India by population?",
+      "as": "জনসংখ্যাৰ ভিত্তিত ভাৰতৰ আটাইতকৈ ডাঙৰ ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Maharashtra",
+        "as": "মহাৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Uttar Pradesh",
+        "as": "উত্তৰ প্ৰদেশ"
+      },
+      {
+        "en": "Bihar",
+        "as": "বিহাৰ"
+      },
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Uttar Pradesh is the largest state by population.",
+      "as": "জনসংখ্যাৰ ভিত্তিত উত্তৰ প্ৰদেশ আটাইতকৈ ডাঙৰ ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-135",
+    "q": {
+      "en": "Which is the smallest state of India by population?",
+      "as": "জনসংখ্যাৰ ভিত্তিত ভাৰতৰ আটাইতকৈ সৰু ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Sikkim",
+        "as": "চিকিম"
+      },
+      {
+        "en": "Goa",
+        "as": "গোৱা"
+      },
+      {
+        "en": "Mizoram",
+        "as": "মিজোৰাম"
+      },
+      {
+        "en": "Tripura",
+        "as": "ত্ৰিপুৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sikkim is the smallest state by population.",
+      "as": "জনসংখ্যাৰ ভিত্তিত চিকিম আটাইতকৈ সৰু ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-136",
+    "q": {
+      "en": "Which Indian state has the longest coastline?",
+      "as": "কোন ভাৰতীয় ৰাজ্যৰ উপকূলৰেখা আটাইতকৈ দীঘল?"
+    },
+    "options": [
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      },
+      {
+        "en": "Maharashtra",
+        "as": "মহাৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Andhra Pradesh",
+        "as": "অন্ধ্ৰ প্ৰদেশ"
+      },
+      {
+        "en": "Gujarat",
+        "as": "গুজৰাট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Gujarat has the longest coastline among Indian states.",
+      "as": "গুজৰাটৰ উপকূলৰেখা ভাৰতীয় ৰাজ্যসমূহৰ ভিতৰত আটাইতকৈ দীঘল।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-137",
+    "q": {
+      "en": "Which Indian state shares the longest border with China?",
+      "as": "কোন ভাৰতীয় ৰাজ্যই চীনৰ সৈতে আটাইতকৈ দীঘল সীমা ভাগ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "Sikkim",
+        "as": "চিকিম"
+      },
+      {
+        "en": "Uttarakhand",
+        "as": "উত্তৰাখণ্ড"
+      },
+      {
+        "en": "Himachal Pradesh",
+        "as": "হিমাচল প্ৰদেশ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Arunachal Pradesh shares the longest border with China among Indian states.",
+      "as": "ভাৰতীয় ৰাজ্যসমূহৰ ভিতৰত অৰুণাচল প্ৰদেশে চীনৰ সৈতে আটাইতকৈ দীঘল সীমা ভাগ কৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-138",
+    "q": {
+      "en": "Which Indian state shares the longest border with Bangladesh?",
+      "as": "কোন ভাৰতীয় ৰাজ্যই বাংলাদেশৰ সৈতে আটাইতকৈ দীঘল সীমা ভাগ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Tripura",
+        "as": "ত্ৰিপুৰা"
+      },
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "West Bengal shares the longest border with Bangladesh.",
+      "as": "পশ্চিম বংগই বাংলাদেশৰ সৈতে আটাইতকৈ দীঘল সীমা ভাগ কৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-139",
+    "q": {
+      "en": "Which state is called the 'Land of Five Rivers'?",
+      "as": "কোনখন ৰাজ্যক 'পাঁচ নদীৰ দেশ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Punjab",
+        "as": "পঞ্জাব"
+      },
+      {
+        "en": "Haryana",
+        "as": "হাৰিয়ানা"
+      },
+      {
+        "en": "Uttarakhand",
+        "as": "উত্তৰাখণ্ড"
+      },
+      {
+        "en": "Himachal Pradesh",
+        "as": "হিমাচল প্ৰদেশ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Punjab is called the Land of Five Rivers.",
+      "as": "পঞ্জাবক পাঁচ নদীৰ দেশ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-140",
+    "q": {
+      "en": "Which state is called 'God's Own Country'?",
+      "as": "কোনখন ৰাজ্যক 'ভগৱানৰ নিজৰ দেশ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      },
+      {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      },
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      },
+      {
+        "en": "Goa",
+        "as": "গোৱা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kerala is called God's Own Country.",
+      "as": "কেৰালাক ভগৱানৰ নিজৰ দেশ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-141",
+    "q": {
+      "en": "Which state is called the 'Tea Garden of India'?",
+      "as": "কোনখন ৰাজ্যক 'ভাৰতৰ চাহ বাগিচা' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      },
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assam is called the Tea Garden of India.",
+      "as": "অসমক ভাৰতৰ চাহ বাগিচা বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-142",
+    "q": {
+      "en": "Which state is known as the 'Land of the Rising Sun'?",
+      "as": "কোনখন ৰাজ্যক 'উদয় সূৰ্যৰ দেশ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "Mizoram",
+        "as": "মিজোৰাম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Arunachal Pradesh is known as the Land of the Rising Sun.",
+      "as": "অৰুণাচল প্ৰদেশক উদয় সূৰ্যৰ দেশ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-143",
+    "q": {
+      "en": "Which is the largest tea-producing state of India?",
+      "as": "ভাৰতৰ আটাইতকৈ ডাঙৰ চাহ উৎপাদনকাৰী ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      },
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assam is the largest tea-producing state of India.",
+      "as": "অসম ভাৰতৰ আটাইতকৈ ডাঙৰ চাহ উৎপাদনকাৰী ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-144",
+    "q": {
+      "en": "Which is the largest coffee-producing state of India?",
+      "as": "ভাৰতৰ আটাইতকৈ ডাঙৰ কফি উৎপাদনকাৰী ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      },
+      {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      },
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      },
+      {
+        "en": "Andhra Pradesh",
+        "as": "অন্ধ্ৰ প্ৰদেশ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Karnataka is the largest coffee-producing state of India.",
+      "as": "কৰ্ণাটক ভাৰতৰ আটাইতকৈ ডাঙৰ কফি উৎপাদনকাৰী ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-145",
+    "q": {
+      "en": "Which state has the highest literacy rate in India?",
+      "as": "ভাৰতত কোনখন ৰাজ্যৰ সাক্ষৰতাৰ হাৰ আটাইতকৈ বেছি?"
+    },
+    "options": [
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      },
+      {
+        "en": "Mizoram",
+        "as": "মিজোৰাম"
+      },
+      {
+        "en": "Goa",
+        "as": "গোৱা"
+      },
+      {
+        "en": "Tripura",
+        "as": "ত্ৰিপুৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kerala has the highest literacy rate in India.",
+      "as": "কেৰালাৰ সাক্ষৰতাৰ হাৰ ভাৰতত আটাইতকৈ বেছি।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-146",
+    "q": {
+      "en": "Which state has the highest sex ratio in India?",
+      "as": "ভাৰতত কোনখন ৰাজ্যৰ লিংগ অনুপাত আটাইতকৈ বেছি?"
+    },
+    "options": [
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      },
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      },
+      {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      },
+      {
+        "en": "Puducherry",
+        "as": "পুডুচেৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kerala has the highest sex ratio in India.",
+      "as": "কেৰালাৰ লিংগ অনুপাত ভাৰতত আটাইতকৈ বেছি।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-147",
+    "q": {
+      "en": "Which was the first state of India formed on a linguistic basis?",
+      "as": "ভাষাৰ ভিত্তিত গঠিত ভাৰতৰ প্ৰথম ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Maharashtra",
+        "as": "মহাৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Andhra Pradesh",
+        "as": "অন্ধ্ৰ প্ৰদেশ"
+      },
+      {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      },
+      {
+        "en": "Gujarat",
+        "as": "গুজৰাট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Andhra Pradesh was the first state formed on a linguistic basis (1953).",
+      "as": "অন্ধ্ৰ প্ৰদেশ ভাষাৰ ভিত্তিত গঠিত প্ৰথম ৰাজ্য (১৯৫৩)।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-148",
+    "q": {
+      "en": "Which is the newest state of India?",
+      "as": "ভাৰতৰ আটাইতকৈ নতুন ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Uttarakhand",
+        "as": "উত্তৰাখণ্ড"
+      },
+      {
+        "en": "Jharkhand",
+        "as": "ঝাৰখণ্ড"
+      },
+      {
+        "en": "Telangana",
+        "as": "তেলেংগানা"
+      },
+      {
+        "en": "Chhattisgarh",
+        "as": "ছত্তীশগড়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Telangana, formed in 2014, is the newest state of India.",
+      "as": "২০১৪ চনত গঠিত তেলেংগানা ভাৰতৰ আটাইতকৈ নতুন ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-149",
+    "q": {
+      "en": "Telangana was formed in which year?",
+      "as": "তেলেংগানা কোন বছৰত গঠিত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2012",
+        "as": "২০১২"
+      },
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2013",
+        "as": "২০১৩"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Telangana was formed on 2 June 2014.",
+      "as": "তেলেংগানা ২০১৪ চনৰ ২ জুনত গঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-150",
+    "q": {
+      "en": "Which state is called the 'Granary of India'?",
+      "as": "কোনখন ৰাজ্যক 'ভাৰতৰ শস্য ভঁৰাল' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Madhya Pradesh",
+        "as": "মধ্য প্ৰদেশ"
+      },
+      {
+        "en": "Haryana",
+        "as": "হাৰিয়ানা"
+      },
+      {
+        "en": "Uttar Pradesh",
+        "as": "উত্তৰ প্ৰদেশ"
+      },
+      {
+        "en": "Punjab",
+        "as": "পঞ্জাব"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Punjab is called the Granary of India.",
+      "as": "পঞ্জাবক ভাৰতৰ শস্য ভঁৰাল বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-151",
+    "q": {
+      "en": "Which state is called the 'Sugar Bowl of India'?",
+      "as": "কোনখন ৰাজ্যক 'ভাৰতৰ চেনিৰ বাটি' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Maharashtra",
+        "as": "মহাৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      },
+      {
+        "en": "Uttar Pradesh",
+        "as": "উত্তৰ প্ৰদেশ"
+      },
+      {
+        "en": "Gujarat",
+        "as": "গুজৰাট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Uttar Pradesh is called the Sugar Bowl of India.",
+      "as": "উত্তৰ প্ৰদেশক ভাৰতৰ চেনিৰ বাটি বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-152",
+    "q": {
+      "en": "Which state has the largest forest area in India?",
+      "as": "ভাৰতত কোনখন ৰাজ্যৰ বনাঞ্চল আটাইতকৈ বেছি?"
+    },
+    "options": [
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "Madhya Pradesh",
+        "as": "মধ্য প্ৰদেশ"
+      },
+      {
+        "en": "Chhattisgarh",
+        "as": "ছত্তীশগড়"
+      },
+      {
+        "en": "Odisha",
+        "as": "ওড়িশা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Madhya Pradesh has the largest forest area in India.",
+      "as": "মধ্য প্ৰদেশৰ বনাঞ্চল ভাৰতত আটাইতকৈ বেছি।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-153",
+    "q": {
+      "en": "What is the capital of Assam?",
+      "as": "অসমৰ ৰাজধানী কি?"
+    },
+    "options": [
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Dispur",
+        "as": "দিছপুৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Dispur is the capital of Assam.",
+      "as": "দিছপুৰ অসমৰ ৰাজধানী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-154",
+    "q": {
+      "en": "Which is the largest city of Assam?",
+      "as": "অসমৰ আটাইতকৈ ডাঙৰ নগৰ কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Silchar",
+        "as": "শিলচৰ"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Guwahati is the largest city of Assam.",
+      "as": "গুৱাহাটী অসমৰ আটাইতকৈ ডাঙৰ নগৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-155",
+    "q": {
+      "en": "Which is the largest state of Northeast India by area?",
+      "as": "মাটিকালিৰ ভিত্তিত উত্তৰ-পূব ভাৰতৰ আটাইতকৈ ডাঙৰ ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Arunachal Pradesh is the largest state of Northeast India by area.",
+      "as": "মাটিকালিৰ ভিত্তিত অৰুণাচল প্ৰদেশ উত্তৰ-পূব ভাৰতৰ আটাইতকৈ ডাঙৰ ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-156",
+    "q": {
+      "en": "Which is the smallest state among the 'Seven Sisters' of Northeast India?",
+      "as": "উত্তৰ-পূব ভাৰতৰ 'সাত ভগ্নী'ৰ ভিতৰত আটাইতকৈ সৰু ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Mizoram",
+        "as": "মিজোৰাম"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "Tripura",
+        "as": "ত্ৰিপুৰা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Tripura is the smallest state among the Seven Sisters.",
+      "as": "ত্ৰিপুৰা সাত ভগ্নীৰ ভিতৰত আটাইতকৈ সৰু ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-157",
+    "q": {
+      "en": "Sikkim became a state of India in which year?",
+      "as": "চিকিম কোন বছৰত ভাৰতৰ ৰাজ্য হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1975",
+        "as": "১৯৭৫"
+      },
+      {
+        "en": "1973",
+        "as": "১৯৭৩"
+      },
+      {
+        "en": "1971",
+        "as": "১৯৭১"
+      },
+      {
+        "en": "1977",
+        "as": "১৯৭৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sikkim became a state of India in 1975.",
+      "as": "চিকিম ১৯৭৫ চনত ভাৰতৰ ৰাজ্য হৈছিল।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-158",
+    "q": {
+      "en": "Which city is called the 'Manchester of India'?",
+      "as": "কোনখন নগৰক 'ভাৰতৰ মাঞ্চেষ্টাৰ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Ahmedabad",
+        "as": "আহমেদাবাদ"
+      },
+      {
+        "en": "Mumbai",
+        "as": "মুম্বাই"
+      },
+      {
+        "en": "Kanpur",
+        "as": "কাণপুৰ"
+      },
+      {
+        "en": "Surat",
+        "as": "সুৰাট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ahmedabad is called the Manchester of India.",
+      "as": "আহমেদাবাদক ভাৰতৰ মাঞ্চেষ্টাৰ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-159",
+    "q": {
+      "en": "Which state is the largest producer of jute in India?",
+      "as": "ভাৰতত কোনখন ৰাজ্য পাটৰ আটাইতকৈ ডাঙৰ উৎপাদনকাৰী?"
+    },
+    "options": [
+      {
+        "en": "Bihar",
+        "as": "বিহাৰ"
+      },
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Odisha",
+        "as": "ওড়িশা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "West Bengal is the largest producer of jute in India.",
+      "as": "পশ্চিম বংগ ভাৰতত পাটৰ আটাইতকৈ ডাঙৰ উৎপাদনকাৰী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-160",
+    "q": {
+      "en": "Which state has the highest population density in India?",
+      "as": "ভাৰতত কোনখন ৰাজ্যৰ জনসংখ্যা ঘনত্ব আটাইতকৈ বেছি?"
+    },
+    "options": [
+      {
+        "en": "Bihar",
+        "as": "বিহাৰ"
+      },
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Uttar Pradesh",
+        "as": "উত্তৰ প্ৰদেশ"
+      },
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bihar has the highest population density in India.",
+      "as": "বিহাৰৰ জনসংখ্যা ঘনত্ব ভাৰতত আটাইতকৈ বেছি।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-161",
+    "q": {
+      "en": "Which state has the lowest population density in India?",
+      "as": "ভাৰতত কোনখন ৰাজ্যৰ জনসংখ্যা ঘনত্ব আটাইতকৈ কম?"
+    },
+    "options": [
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "Mizoram",
+        "as": "মিজোৰাম"
+      },
+      {
+        "en": "Sikkim",
+        "as": "চিকিম"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Arunachal Pradesh has the lowest population density in India.",
+      "as": "অৰুণাচল প্ৰদেশৰ জনসংখ্যা ঘনত্ব ভাৰতত আটাইতকৈ কম।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-162",
+    "q": {
+      "en": "Which Indian state has the longest border with Nepal?",
+      "as": "কোন ভাৰতীয় ৰাজ্যই নেপালৰ সৈতে আটাইতকৈ দীঘল সীমা ভাগ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Uttar Pradesh",
+        "as": "উত্তৰ প্ৰদেশ"
+      },
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Bihar",
+        "as": "বিহাৰ"
+      },
+      {
+        "en": "Uttarakhand",
+        "as": "উত্তৰাখণ্ড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bihar shares the longest border with Nepal.",
+      "as": "বিহাৰে নেপালৰ সৈতে আটাইতকৈ দীঘল সীমা ভাগ কৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-163",
+    "q": {
+      "en": "Which is the southernmost state of India?",
+      "as": "ভাৰতৰ আটাইতকৈ দক্ষিণৰ ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      },
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      },
+      {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      },
+      {
+        "en": "Andhra Pradesh",
+        "as": "অন্ধ্ৰ প্ৰদেশ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Tamil Nadu is the southernmost state of India.",
+      "as": "তামিলনাডু ভাৰতৰ আটাইতকৈ দক্ষিণৰ ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-164",
+    "q": {
+      "en": "Which is the easternmost state of India?",
+      "as": "ভাৰতৰ আটাইতকৈ পূবৰ ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "Mizoram",
+        "as": "মিজোৰাম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Arunachal Pradesh is the easternmost state of India.",
+      "as": "অৰুণাচল প্ৰদেশ ভাৰতৰ আটাইতকৈ পূবৰ ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-165",
+    "q": {
+      "en": "Which is the westernmost state of India?",
+      "as": "ভাৰতৰ আটাইতকৈ পশ্চিমৰ ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Rajasthan",
+        "as": "ৰাজস্থান"
+      },
+      {
+        "en": "Maharashtra",
+        "as": "মহাৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Gujarat",
+        "as": "গুজৰাট"
+      },
+      {
+        "en": "Goa",
+        "as": "গোৱা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Gujarat is the westernmost state of India.",
+      "as": "গুজৰাট ভাৰতৰ আটাইতকৈ পশ্চিমৰ ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-166",
+    "q": {
+      "en": "The city of Jaipur, known as the 'Pink City', is in which state?",
+      "as": "'গোলাপী নগৰ' নামেৰে জনাজাত জয়পুৰ কোনখন ৰাজ্যত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Rajasthan",
+        "as": "ৰাজস্থান"
+      },
+      {
+        "en": "Gujarat",
+        "as": "গুজৰাট"
+      },
+      {
+        "en": "Madhya Pradesh",
+        "as": "মধ্য প্ৰদেশ"
+      },
+      {
+        "en": "Haryana",
+        "as": "হাৰিয়ানা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Jaipur, the Pink City, is in Rajasthan.",
+      "as": "গোলাপী নগৰ জয়পুৰ ৰাজস্থানত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-167",
+    "q": {
+      "en": "Which state is called the 'Land of Kings'?",
+      "as": "কোনখন ৰাজ্যক 'ৰজাসকলৰ দেশ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Uttar Pradesh",
+        "as": "উত্তৰ প্ৰদেশ"
+      },
+      {
+        "en": "Madhya Pradesh",
+        "as": "মধ্য প্ৰদেশ"
+      },
+      {
+        "en": "Rajasthan",
+        "as": "ৰাজস্থান"
+      },
+      {
+        "en": "Bihar",
+        "as": "বিহাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rajasthan is called the Land of Kings.",
+      "as": "ৰাজস্থানক ৰজাসকলৰ দেশ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-168",
+    "q": {
+      "en": "Which state is the largest producer of rice in India?",
+      "as": "ভাৰতত কোনখন ৰাজ্য ধানৰ আটাইতকৈ ডাঙৰ উৎপাদনকাৰী?"
+    },
+    "options": [
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Punjab",
+        "as": "পঞ্জাব"
+      },
+      {
+        "en": "Uttar Pradesh",
+        "as": "উত্তৰ প্ৰদেশ"
+      },
+      {
+        "en": "Andhra Pradesh",
+        "as": "অন্ধ্ৰ প্ৰদেশ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "West Bengal is the largest producer of rice in India.",
+      "as": "পশ্চিম বংগ ভাৰতত ধানৰ আটাইতকৈ ডাঙৰ উৎপাদনকাৰী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-169",
+    "q": {
+      "en": "Which state is the largest producer of wheat in India?",
+      "as": "ভাৰতত কোনখন ৰাজ্য ঘেঁহুৰ আটাইতকৈ ডাঙৰ উৎপাদনকাৰী?"
+    },
+    "options": [
+      {
+        "en": "Punjab",
+        "as": "পঞ্জাব"
+      },
+      {
+        "en": "Madhya Pradesh",
+        "as": "মধ্য প্ৰদেশ"
+      },
+      {
+        "en": "Haryana",
+        "as": "হাৰিয়ানা"
+      },
+      {
+        "en": "Uttar Pradesh",
+        "as": "উত্তৰ প্ৰদেশ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Uttar Pradesh is the largest producer of wheat in India.",
+      "as": "উত্তৰ প্ৰদেশ ভাৰতত ঘেঁহুৰ আটাইতকৈ ডাঙৰ উৎপাদনকাৰী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-170",
+    "q": {
+      "en": "Which state is the largest producer of sugarcane in India?",
+      "as": "ভাৰতত কোনখন ৰাজ্য কুঁহিয়াৰৰ আটাইতকৈ ডাঙৰ উৎপাদনকাৰী?"
+    },
+    "options": [
+      {
+        "en": "Maharashtra",
+        "as": "মহাৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      },
+      {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      },
+      {
+        "en": "Uttar Pradesh",
+        "as": "উত্তৰ প্ৰদেশ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Uttar Pradesh is the largest producer of sugarcane in India.",
+      "as": "উত্তৰ প্ৰদেশ ভাৰতত কুঁহিয়াৰৰ আটাইতকৈ ডাঙৰ উৎপাদনকাৰী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-171",
+    "q": {
+      "en": "Which Indian state has the maximum number of districts?",
+      "as": "কোন ভাৰতীয় ৰাজ্যত আটাইতকৈ বেছি জিলা আছে?"
+    },
+    "options": [
+      {
+        "en": "Madhya Pradesh",
+        "as": "মধ্য প্ৰদেশ"
+      },
+      {
+        "en": "Maharashtra",
+        "as": "মহাৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Uttar Pradesh",
+        "as": "উত্তৰ প্ৰদেশ"
+      },
+      {
+        "en": "Bihar",
+        "as": "বিহাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Uttar Pradesh has the maximum number of districts in India.",
+      "as": "উত্তৰ প্ৰদেশত ভাৰতত আটাইতকৈ বেছি জিলা আছে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-172",
+    "q": {
+      "en": "The Tropic of Cancer passes through how many Indian states?",
+      "as": "কৰ্কটক্ৰান্তি ৰেখা কেইখন ভাৰতীয় ৰাজ্যয়েদি পাৰ হৈ যায়?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Tropic of Cancer passes through 8 Indian states.",
+      "as": "কৰ্কটক্ৰান্তি ৰেখা ৮খন ভাৰতীয় ৰাজ্যয়েদি পাৰ হৈ যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-173",
+    "q": {
+      "en": "The Standard Meridian of India passes through which city?",
+      "as": "ভাৰতৰ প্ৰামাণ্য মধ্যৰেখা কোনখন নগৰৰ মাজেদি পাৰ হৈ যায়?"
+    },
+    "options": [
+      {
+        "en": "Allahabad",
+        "as": "এলাহাবাদ"
+      },
+      {
+        "en": "Mirzapur",
+        "as": "মিৰ্জাপুৰ"
+      },
+      {
+        "en": "Kanpur",
+        "as": "কাণপুৰ"
+      },
+      {
+        "en": "Lucknow",
+        "as": "লক্ষ্ণৌ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Standard Meridian of India (82.5 degree E) passes through Mirzapur.",
+      "as": "ভাৰতৰ প্ৰামাণ্য মধ্যৰেখা (৮২.৫ ডিগ্ৰী পূব) মিৰ্জাপুৰৰ মাজেদি পাৰ হৈ যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-174",
+    "q": {
+      "en": "What is the standard time of India based on?",
+      "as": "ভাৰতৰ প্ৰামাণ্য সময় কাৰ ওপৰত আধাৰিত?"
+    },
+    "options": [
+      {
+        "en": "82.5 degree E longitude",
+        "as": "৮২.৫ ডিগ্ৰী পূব দ্ৰাঘিমা"
+      },
+      {
+        "en": "90 degree E longitude",
+        "as": "৯০ ডিগ্ৰী পূব দ্ৰাঘিমা"
+      },
+      {
+        "en": "75 degree E longitude",
+        "as": "৭৫ ডিগ্ৰী পূব দ্ৰাঘিমা"
+      },
+      {
+        "en": "68 degree E longitude",
+        "as": "৬৮ ডিগ্ৰী পূব দ্ৰাঘিমা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Indian Standard Time is based on the 82.5 degree E longitude.",
+      "as": "ভাৰতীয় মান সময় ৮২.৫ ডিগ্ৰী পূব দ্ৰাঘিমাৰ ওপৰত আধাৰিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-175",
+    "q": {
+      "en": "Which is the southernmost point of India?",
+      "as": "ভাৰতৰ আটাইতকৈ দক্ষিণৰ বিন্দু কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Kanyakumari",
+        "as": "কন্যাকুমাৰী"
+      },
+      {
+        "en": "Rameswaram",
+        "as": "ৰামেশ্বৰম"
+      },
+      {
+        "en": "Indira Point",
+        "as": "ইন্দিৰা পইণ্ট"
+      },
+      {
+        "en": "Point Calimere",
+        "as": "পইণ্ট কেলিমেৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Indira Point in the Great Nicobar Island is the southernmost point of India.",
+      "as": "গ্ৰেট নিকোবৰ দ্বীপৰ ইন্দিৰা পইণ্ট ভাৰতৰ আটাইতকৈ দক্ষিণৰ বিন্দু।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-176",
+    "q": {
+      "en": "What is the southernmost tip of mainland India called?",
+      "as": "ভাৰতৰ মূল ভূখণ্ডৰ আটাইতকৈ দক্ষিণৰ আগ কাক বোলা হয়?"
+    },
+    "options": [
+      {
+        "en": "Kanyakumari",
+        "as": "কন্যাকুমাৰী"
+      },
+      {
+        "en": "Indira Point",
+        "as": "ইন্দিৰা পইণ্ট"
+      },
+      {
+        "en": "Dhanushkodi",
+        "as": "ধনুষ্কোডি"
+      },
+      {
+        "en": "Pamban",
+        "as": "পাম্বান"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kanyakumari is the southernmost tip of mainland India.",
+      "as": "কন্যাকুমাৰী ভাৰতৰ মূল ভূখণ্ডৰ আটাইতকৈ দক্ষিণৰ আগ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-177",
+    "q": {
+      "en": "Which state is known as the 'Spice Garden of India'?",
+      "as": "কোনখন ৰাজ্যক 'ভাৰতৰ মচলা বাগিচা' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      },
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      },
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      },
+      {
+        "en": "Andhra Pradesh",
+        "as": "অন্ধ্ৰ প্ৰদেশ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Kerala is known as the Spice Garden of India.",
+      "as": "কেৰালাক ভাৰতৰ মচলা বাগিচা বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-178",
+    "q": {
+      "en": "What is the capital of Meghalaya?",
+      "as": "মেঘালয়ৰ ৰাজধানী কি?"
+    },
+    "options": [
+      {
+        "en": "Kohima",
+        "as": "কোহিমা"
+      },
+      {
+        "en": "Shillong",
+        "as": "শিলং"
+      },
+      {
+        "en": "Imphal",
+        "as": "ইম্ফাল"
+      },
+      {
+        "en": "Aizawl",
+        "as": "আইজল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Shillong is the capital of Meghalaya.",
+      "as": "শিলং মেঘালয়ৰ ৰাজধানী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-179",
+    "q": {
+      "en": "What is the capital of Nagaland?",
+      "as": "নাগালেণ্ডৰ ৰাজধানী কি?"
+    },
+    "options": [
+      {
+        "en": "Aizawl",
+        "as": "আইজল"
+      },
+      {
+        "en": "Imphal",
+        "as": "ইম্ফাল"
+      },
+      {
+        "en": "Kohima",
+        "as": "কোহিমা"
+      },
+      {
+        "en": "Agartala",
+        "as": "আগৰতলা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Kohima is the capital of Nagaland.",
+      "as": "কোহিমা নাগালেণ্ডৰ ৰাজধানী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-180",
+    "q": {
+      "en": "What is the capital of Manipur?",
+      "as": "মণিপুৰৰ ৰাজধানী কি?"
+    },
+    "options": [
+      {
+        "en": "Aizawl",
+        "as": "আইজল"
+      },
+      {
+        "en": "Shillong",
+        "as": "শিলং"
+      },
+      {
+        "en": "Kohima",
+        "as": "কোহিমা"
+      },
+      {
+        "en": "Imphal",
+        "as": "ইম্ফাল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Imphal is the capital of Manipur.",
+      "as": "ইম্ফাল মণিপুৰৰ ৰাজধানী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-181",
+    "q": {
+      "en": "What is the capital of Mizoram?",
+      "as": "মিজোৰামৰ ৰাজধানী কি?"
+    },
+    "options": [
+      {
+        "en": "Aizawl",
+        "as": "আইজল"
+      },
+      {
+        "en": "Imphal",
+        "as": "ইম্ফাল"
+      },
+      {
+        "en": "Agartala",
+        "as": "আগৰতলা"
+      },
+      {
+        "en": "Gangtok",
+        "as": "গেংটক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Aizawl is the capital of Mizoram.",
+      "as": "আইজল মিজোৰামৰ ৰাজধানী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-182",
+    "q": {
+      "en": "What is the capital of Tripura?",
+      "as": "ত্ৰিপুৰাৰ ৰাজধানী কি?"
+    },
+    "options": [
+      {
+        "en": "Itanagar",
+        "as": "ইটানগৰ"
+      },
+      {
+        "en": "Aizawl",
+        "as": "আইজল"
+      },
+      {
+        "en": "Shillong",
+        "as": "শিলং"
+      },
+      {
+        "en": "Agartala",
+        "as": "আগৰতলা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Agartala is the capital of Tripura.",
+      "as": "আগৰতলা ত্ৰিপুৰাৰ ৰাজধানী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-183",
+    "q": {
+      "en": "What is the capital of Arunachal Pradesh?",
+      "as": "অৰুণাচল প্ৰদেশৰ ৰাজধানী কি?"
+    },
+    "options": [
+      {
+        "en": "Dispur",
+        "as": "দিছপুৰ"
+      },
+      {
+        "en": "Gangtok",
+        "as": "গেংটক"
+      },
+      {
+        "en": "Kohima",
+        "as": "কোহিমা"
+      },
+      {
+        "en": "Itanagar",
+        "as": "ইটানগৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Itanagar is the capital of Arunachal Pradesh.",
+      "as": "ইটানগৰ অৰুণাচল প্ৰদেশৰ ৰাজধানী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-184",
+    "q": {
+      "en": "What is the capital of Sikkim?",
+      "as": "চিকিমৰ ৰাজধানী কি?"
+    },
+    "options": [
+      {
+        "en": "Gangtok",
+        "as": "গেংটক"
+      },
+      {
+        "en": "Itanagar",
+        "as": "ইটানগৰ"
+      },
+      {
+        "en": "Shillong",
+        "as": "শিলং"
+      },
+      {
+        "en": "Imphal",
+        "as": "ইম্ফাল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Gangtok is the capital of Sikkim.",
+      "as": "গেংটক চিকিমৰ ৰাজধানী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-185",
+    "q": {
+      "en": "Assam shares its border with how many Indian states?",
+      "as": "অসমে কেইখন ভাৰতীয় ৰাজ্যৰ সৈতে সীমা ভাগ কৰে?"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assam shares its border with 7 Indian states.",
+      "as": "অসমে ৭খন ভাৰতীয় ৰাজ্যৰ সৈতে সীমা ভাগ কৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-186",
+    "q": {
+      "en": "Which of the following states does NOT share a border with Assam?",
+      "as": "তলৰ কোনখন ৰাজ্যই অসমৰ সৈতে সীমা ভাগ নকৰে?"
+    },
+    "options": [
+      {
+        "en": "Sikkim",
+        "as": "চিকিম"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sikkim does not share a border with Assam.",
+      "as": "চিকিমে অসমৰ সৈতে সীমা ভাগ নকৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-187",
+    "q": {
+      "en": "Assam is located in which part of India?",
+      "as": "অসম ভাৰতৰ কোন অংশত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "North India",
+        "as": "উত্তৰ ভাৰত"
+      },
+      {
+        "en": "Central India",
+        "as": "মধ্য ভাৰত"
+      },
+      {
+        "en": "East India",
+        "as": "পূব ভাৰত"
+      },
+      {
+        "en": "Northeast India",
+        "as": "উত্তৰ-পূব ভাৰত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assam is located in Northeast India.",
+      "as": "অসম উত্তৰ-পূব ভাৰতত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-188",
+    "q": {
+      "en": "Which state is called the 'Land of Red Rivers and Blue Hills'?",
+      "as": "কোনখন ৰাজ্যক 'ৰঙা নদী আৰু নীলা পাহাৰৰ দেশ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assam is called the Land of Red Rivers and Blue Hills.",
+      "as": "অসমক ৰঙা নদী আৰু নীলা পাহাৰৰ দেশ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-189",
+    "q": {
+      "en": "Which is the state animal of Assam?",
+      "as": "অসমৰ ৰাজ্যিক পশু কি?"
+    },
+    "options": [
+      {
+        "en": "Elephant",
+        "as": "হাতী"
+      },
+      {
+        "en": "Leopard",
+        "as": "নাহৰফুটুকী"
+      },
+      {
+        "en": "Tiger",
+        "as": "বাঘ"
+      },
+      {
+        "en": "One-horned Rhinoceros",
+        "as": "এশিঙীয়া গঁড়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The one-horned rhinoceros is the state animal of Assam.",
+      "as": "এশিঙীয়া গঁড় অসমৰ ৰাজ্যিক পশু।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-190",
+    "q": {
+      "en": "Which is the state bird of Assam?",
+      "as": "অসমৰ ৰাজ্যিক চৰাই কি?"
+    },
+    "options": [
+      {
+        "en": "Peacock",
+        "as": "ময়ূৰ"
+      },
+      {
+        "en": "Hornbill",
+        "as": "ধনেশ"
+      },
+      {
+        "en": "White-winged Wood Duck",
+        "as": "বগলী-ডাউক"
+      },
+      {
+        "en": "Swan",
+        "as": "ৰাজহংস"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The White-winged Wood Duck is the state bird of Assam.",
+      "as": "বগলী-ডাউক অসমৰ ৰাজ্যিক চৰাই।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-191",
+    "q": {
+      "en": "Which is the state flower of Assam?",
+      "as": "অসমৰ ৰাজ্যিক ফুল কি?"
+    },
+    "options": [
+      {
+        "en": "Lotus",
+        "as": "পদুম"
+      },
+      {
+        "en": "Sunflower",
+        "as": "সূৰ্যমুখী"
+      },
+      {
+        "en": "Rose",
+        "as": "গোলাপ"
+      },
+      {
+        "en": "Foxtail Orchid (Kopou Phul)",
+        "as": "কপৌ ফুল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Foxtail Orchid (Kopou Phul) is the state flower of Assam.",
+      "as": "কপৌ ফুল অসমৰ ৰাজ্যিক ফুল।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-192",
+    "q": {
+      "en": "Which is the state tree of Assam?",
+      "as": "অসমৰ ৰাজ্যিক গছ কি?"
+    },
+    "options": [
+      {
+        "en": "Hollong",
+        "as": "হলং"
+      },
+      {
+        "en": "Banyan",
+        "as": "বৰগছ"
+      },
+      {
+        "en": "Mango",
+        "as": "আম"
+      },
+      {
+        "en": "Teak",
+        "as": "চেগুন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Hollong is the state tree of Assam.",
+      "as": "হলং অসমৰ ৰাজ্যিক গছ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-193",
+    "q": {
+      "en": "Kaziranga National Park, famous for the one-horned rhinoceros, is in which state?",
+      "as": "এশিঙীয়া গঁড়ৰ বাবে বিখ্যাত কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান কোনখন ৰাজ্যত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kaziranga National Park is in Assam.",
+      "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান অসমত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-194",
+    "q": {
+      "en": "Which is the largest state of India by area among the following?",
+      "as": "তলৰবোৰৰ ভিতৰত মাটিকালিৰ ভিত্তিত ভাৰতৰ আটাইতকৈ ডাঙৰ ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Maharashtra",
+        "as": "মহাৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Rajasthan",
+        "as": "ৰাজস্থান"
+      },
+      {
+        "en": "Madhya Pradesh",
+        "as": "মধ্য প্ৰদেশ"
+      },
+      {
+        "en": "Uttar Pradesh",
+        "as": "উত্তৰ প্ৰদেশ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rajasthan is the largest state by area.",
+      "as": "মাটিকালিৰ ভিত্তিত ৰাজস্থান আটাইতকৈ ডাঙৰ ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-195",
+    "q": {
+      "en": "Which state of India has the longest coastline on the eastern coast?",
+      "as": "ভাৰতৰ কোনখন ৰাজ্যৰ পূব উপকূলত আটাইতকৈ দীঘল উপকূলৰেখা আছে?"
+    },
+    "options": [
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      },
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Odisha",
+        "as": "ওড়িশা"
+      },
+      {
+        "en": "Andhra Pradesh",
+        "as": "অন্ধ্ৰ প্ৰদেশ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Andhra Pradesh has the longest coastline on the eastern coast.",
+      "as": "অন্ধ্ৰ প্ৰদেশৰ পূব উপকূলত আটাইতকৈ দীঘল উপকূলৰেখা আছে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-196",
+    "q": {
+      "en": "Which is the largest district of India by area?",
+      "as": "মাটিকালিৰ ভিত্তিত ভাৰতৰ আটাইতকৈ ডাঙৰ জিলা কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Leh",
+        "as": "লেহ"
+      },
+      {
+        "en": "Kutch",
+        "as": "কচ্ছ"
+      },
+      {
+        "en": "Barmer",
+        "as": "বাৰমেৰ"
+      },
+      {
+        "en": "Jaisalmer",
+        "as": "জয়ছালমেৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Leh district is the largest district of India by area.",
+      "as": "মাটিকালিৰ ভিত্তিত লেহ জিলা ভাৰতৰ আটাইতকৈ ডাঙৰ জিলা।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-197",
+    "q": {
+      "en": "Which river is the boundary between Assam and Meghalaya for a large part?",
+      "as": "কোনখন নদী বৃহৎ অংশত অসম আৰু মেঘালয়ৰ সীমা?"
+    },
+    "options": [
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Barak",
+        "as": "বৰাক"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Dhansiri",
+        "as": "ধনশিৰি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Brahmaputra flows through the Assam-Meghalaya region.",
+      "as": "ব্ৰহ্মপুত্ৰ নদী অসম-মেঘালয় অঞ্চলৰ মাজেদি প্ৰবাহিত হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-198",
+    "q": {
+      "en": "Which is the largest national park of Assam?",
+      "as": "অসমৰ আটাইতকৈ ডাঙৰ ৰাষ্ট্ৰীয় উদ্যান কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Orang",
+        "as": "ওৰাং"
+      },
+      {
+        "en": "Nameri",
+        "as": "নামেৰী"
+      },
+      {
+        "en": "Kaziranga",
+        "as": "কাজিৰঙা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Kaziranga National Park is the largest national park of Assam.",
+      "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান অসমৰ আটাইতকৈ ডাঙৰ ৰাষ্ট্ৰীয় উদ্যান।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-199",
+    "q": {
+      "en": "Which is the highest peak of the Eastern Ghats located in Andhra Pradesh?",
+      "as": "অন্ধ্ৰ প্ৰদেশত অৱস্থিত পূব ঘাটৰ আটাইতকৈ ওখ শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Anamudi",
+        "as": "আনামুদি"
+      },
+      {
+        "en": "Arma Konda",
+        "as": "অৰ্মা কোণ্ডা"
+      },
+      {
+        "en": "Doddabetta",
+        "as": "দোদ্দাবেট্টা"
+      },
+      {
+        "en": "Mahendragiri",
+        "as": "মহেন্দ্ৰগিৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Arma Konda in Andhra Pradesh is the highest peak of the Eastern Ghats.",
+      "as": "অন্ধ্ৰ প্ৰদেশৰ অৰ্মা কোণ্ডা পূব ঘাটৰ আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-200",
+    "q": {
+      "en": "Which state is called the 'Rice Bowl of India'?",
+      "as": "কোনখন ৰাজ্যক 'ভাৰতৰ ধানৰ বাটি' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Andhra Pradesh",
+        "as": "অন্ধ্ৰ প্ৰদেশ"
+      },
+      {
+        "en": "Punjab",
+        "as": "পঞ্জাব"
+      },
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Andhra Pradesh is called the Rice Bowl of India.",
+      "as": "অন্ধ্ৰ প্ৰদেশক ভাৰতৰ ধানৰ বাটি বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-201",
+    "q": {
+      "en": "Which state has the highest number of rivers flowing through it?",
+      "as": "কোনখন ৰাজ্যয়েদি আটাইতকৈ বেছি নদী প্ৰবাহিত হয়?"
+    },
+    "options": [
+      {
+        "en": "Madhya Pradesh",
+        "as": "মধ্য প্ৰদেশ"
+      },
+      {
+        "en": "Uttar Pradesh",
+        "as": "উত্তৰ প্ৰদেশ"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Madhya Pradesh is often called the state with the most rivers.",
+      "as": "মধ্য প্ৰদেশক আটাইতকৈ বেছি নদী থকা ৰাজ্য বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-202",
+    "q": {
+      "en": "Which is the highest mountain pass in the world?",
+      "as": "বিশ্বৰ আটাইতকৈ ওখ গিৰিপথ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Rohtang Pass",
+        "as": "ৰোহতাং গিৰিপথ"
+      },
+      {
+        "en": "Umling La",
+        "as": "উমলিং লা"
+      },
+      {
+        "en": "Nathu La",
+        "as": "নাথু লা"
+      },
+      {
+        "en": "Zoji La",
+        "as": "জোজি লা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Umling La in Ladakh is regarded as the highest motorable pass.",
+      "as": "লাডাখৰ উমলিং লাক বিশ্বৰ আটাইতকৈ ওখ মটৰচালিত গিৰিপথ বুলি গণ্য কৰা হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-203",
+    "q": {
+      "en": "The Deccan Plateau is rich in which type of soil?",
+      "as": "ডেকান মালভূমি কোন প্ৰকাৰৰ মাটিৰে সমৃদ্ধ?"
+    },
+    "options": [
+      {
+        "en": "Black soil",
+        "as": "ক'লা মাটি"
+      },
+      {
+        "en": "Alluvial soil",
+        "as": "পলসুৱা মাটি"
+      },
+      {
+        "en": "Red soil",
+        "as": "ৰঙা মাটি"
+      },
+      {
+        "en": "Laterite soil",
+        "as": "অলা মাটি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Deccan Plateau is rich in black soil.",
+      "as": "ডেকান মালভূমি ক'লা মাটিৰে সমৃদ্ধ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-204",
+    "q": {
+      "en": "Which is the largest freshwater lake in India?",
+      "as": "ভাৰতৰ আটাইতকৈ ডাঙৰ মিঠা পানীৰ হ্ৰদ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Chilika Lake",
+        "as": "চিলিকা হ্ৰদ"
+      },
+      {
+        "en": "Wular Lake",
+        "as": "ৱুলাৰ হ্ৰদ"
+      },
+      {
+        "en": "Loktak Lake",
+        "as": "লোকটাক হ্ৰদ"
+      },
+      {
+        "en": "Sambhar Lake",
+        "as": "সাম্ভাৰ হ্ৰদ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Wular Lake in Jammu and Kashmir is the largest freshwater lake in India.",
+      "as": "জম্মু-কাশ্মীৰৰ ৱুলাৰ হ্ৰদ ভাৰতৰ আটাইতকৈ ডাঙৰ মিঠা পানীৰ হ্ৰদ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-205",
+    "q": {
+      "en": "Which is the largest saltwater lake in India?",
+      "as": "ভাৰতৰ আটাইতকৈ ডাঙৰ লোণা পানীৰ হ্ৰদ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Loktak Lake",
+        "as": "লোকটাক হ্ৰদ"
+      },
+      {
+        "en": "Wular Lake",
+        "as": "ৱুলাৰ হ্ৰদ"
+      },
+      {
+        "en": "Sambhar Lake",
+        "as": "সাম্ভাৰ হ্ৰদ"
+      },
+      {
+        "en": "Chilika Lake",
+        "as": "চিলিকা হ্ৰদ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Chilika Lake in Odisha is the largest brackish water lake in India.",
+      "as": "ওড়িশাৰ চিলিকা হ্ৰদ ভাৰতৰ আটাইতকৈ ডাঙৰ ক্ষাৰীয় জলৰ হ্ৰদ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-206",
+    "q": {
+      "en": "Loktak Lake, famous for its floating islands, is located in which state?",
+      "as": "প্লাৱমান দ্বীপৰ বাবে বিখ্যাত লোকটাক হ্ৰদ কোনখন ৰাজ্যত অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "Mizoram",
+        "as": "মিজোৰাম"
+      },
+      {
+        "en": "Tripura",
+        "as": "ত্ৰিপুৰা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Loktak Lake is located in Manipur.",
+      "as": "লোকটাক হ্ৰদ মণিপুৰত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-207",
+    "q": {
+      "en": "Which state is called the 'Scotland of the East'?",
+      "as": "কোনখন ৰাজ্যক 'পূবৰ স্কটলেণ্ড' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Mizoram",
+        "as": "মিজোৰাম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Meghalaya is called the Scotland of the East.",
+      "as": "মেঘালয়ক পূবৰ স্কটলেণ্ড বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-208",
+    "q": {
+      "en": "Which is the largest state in India by area in the Northeast region?",
+      "as": "উত্তৰ-পূব অঞ্চলত মাটিকালিৰ ভিত্তিত আটাইতকৈ ডাঙৰ ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Meghalaya",
+        "as": "মেঘালয়"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Arunachal Pradesh is the largest state in the Northeast region.",
+      "as": "অৰুণাচল প্ৰদেশ উত্তৰ-পূব অঞ্চলৰ আটাইতকৈ ডাঙৰ ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-209",
+    "q": {
+      "en": "Which is the longest river of India, Ganga or Godavari, by total length?",
+      "as": "মুঠ দৈৰ্ঘ্যৰ ভিত্তিত ভাৰতৰ আটাইতকৈ দীঘল নদী গংগা নে গোদাবৰী?"
+    },
+    "options": [
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Ganga is the longest river of India by total length.",
+      "as": "মুঠ দৈৰ্ঘ্যৰ ভিত্তিত গংগা ভাৰতৰ আটাইতকৈ দীঘল নদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-210",
+    "q": {
+      "en": "Which Indian city is known as the 'City of Lakes'?",
+      "as": "কোন ভাৰতীয় নগৰক 'হ্ৰদৰ নগৰ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Udaipur",
+        "as": "উদয়পুৰ"
+      },
+      {
+        "en": "Bhopal",
+        "as": "ভোপাল"
+      },
+      {
+        "en": "Jaipur",
+        "as": "জয়পুৰ"
+      },
+      {
+        "en": "Srinagar",
+        "as": "শ্ৰীনগৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bhopal is known as the City of Lakes.",
+      "as": "ভোপালক হ্ৰদৰ নগৰ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-211",
+    "q": {
+      "en": "Which is the highest peak of the Satpura range?",
+      "as": "সৎপুৰা পৰ্বতশ্ৰেণীৰ আটাইতকৈ ওখ শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Dhupgarh",
+        "as": "ধূপগড়"
+      },
+      {
+        "en": "Guru Shikhar",
+        "as": "গুৰু শিখৰ"
+      },
+      {
+        "en": "Kalsubai",
+        "as": "কালছুবাই"
+      },
+      {
+        "en": "Anamudi",
+        "as": "আনামুদি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Dhupgarh is the highest peak of the Satpura range.",
+      "as": "ধূপগড় সৎপুৰাৰ আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-212",
+    "q": {
+      "en": "Which river flows through the city of Patna?",
+      "as": "কোনখন নদী পাটনা নগৰৰ মাজেদি প্ৰবাহিত হয়?"
+    },
+    "options": [
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Gandak",
+        "as": "গণ্ডক"
+      },
+      {
+        "en": "Son",
+        "as": "সোণ"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Ganga flows through Patna.",
+      "as": "গংগা নদী পাটনাৰ মাজেদি প্ৰবাহিত হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-213",
+    "q": {
+      "en": "Which state is known as the 'Fruit Bowl of India'?",
+      "as": "কোনখন ৰাজ্যক 'ভাৰতৰ ফলৰ বাটি' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Jammu and Kashmir",
+        "as": "জম্মু-কাশ্মীৰ"
+      },
+      {
+        "en": "Uttarakhand",
+        "as": "উত্তৰাখণ্ড"
+      },
+      {
+        "en": "Himachal Pradesh",
+        "as": "হিমাচল প্ৰদেশ"
+      },
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Himachal Pradesh is known as the Fruit Bowl of India.",
+      "as": "হিমাচল প্ৰদেশক ভাৰতৰ ফলৰ বাটি বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-214",
+    "q": {
+      "en": "Which is the largest union territory of India by area?",
+      "as": "মাটিকালিৰ ভিত্তিত ভাৰতৰ আটাইতকৈ ডাঙৰ কেন্দ্ৰীয় শাসিত অঞ্চল কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Delhi",
+        "as": "দিল্লী"
+      },
+      {
+        "en": "Jammu and Kashmir",
+        "as": "জম্মু-কাশ্মীৰ"
+      },
+      {
+        "en": "Ladakh",
+        "as": "লাডাখ"
+      },
+      {
+        "en": "Andaman and Nicobar",
+        "as": "আন্দামান-নিকোবৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ladakh is the largest union territory of India by area.",
+      "as": "মাটিকালিৰ ভিত্তিত লাডাখ ভাৰতৰ আটাইতকৈ ডাঙৰ কেন্দ্ৰীয় শাসিত অঞ্চল।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-215",
+    "q": {
+      "en": "Which is the smallest union territory of India by area?",
+      "as": "মাটিকালিৰ ভিত্তিত ভাৰতৰ আটাইতকৈ সৰু কেন্দ্ৰীয় শাসিত অঞ্চল কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Puducherry",
+        "as": "পুডুচেৰী"
+      },
+      {
+        "en": "Lakshadweep",
+        "as": "লাক্ষাদ্বীপ"
+      },
+      {
+        "en": "Chandigarh",
+        "as": "চণ্ডীগড়"
+      },
+      {
+        "en": "Delhi",
+        "as": "দিল্লী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Lakshadweep is the smallest union territory of India by area.",
+      "as": "মাটিকালিৰ ভিত্তিত লাক্ষাদ্বীপ ভাৰতৰ আটাইতকৈ সৰু কেন্দ্ৰীয় শাসিত অঞ্চল।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-216",
+    "q": {
+      "en": "Which river is called the 'Ganga of the South' and is the largest river of the Deccan?",
+      "as": "কোনখন নদীক 'দক্ষিণৰ গংগা' বুলি কোৱা হয় আৰু ডেকানৰ আটাইতকৈ ডাঙৰ নদী?"
+    },
+    "options": [
+      {
+        "en": "Kaveri",
+        "as": "কাবেৰী"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      },
+      {
+        "en": "Krishna",
+        "as": "কৃষ্ণা"
+      },
+      {
+        "en": "Tungabhadra",
+        "as": "তুংগভদ্ৰা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Godavari is called the Ganga of the South and is the largest Deccan river.",
+      "as": "গোদাবৰীক দক্ষিণৰ গংগা বুলি কোৱা হয় আৰু ই ডেকানৰ আটাইতকৈ ডাঙৰ নদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-217",
+    "q": {
+      "en": "Which is the largest island of India?",
+      "as": "ভাৰতৰ আটাইতকৈ ডাঙৰ দ্বীপ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Sriharikota",
+        "as": "শ্ৰীহৰিকোটা"
+      },
+      {
+        "en": "Middle Andaman",
+        "as": "মধ্য আন্দামান"
+      },
+      {
+        "en": "Great Nicobar",
+        "as": "গ্ৰেট নিকোবৰ"
+      },
+      {
+        "en": "Little Andaman",
+        "as": "লিটল আন্দামান"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Middle Andaman is the largest island of India.",
+      "as": "মধ্য আন্দামান ভাৰতৰ আটাইতকৈ ডাঙৰ দ্বীপ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-218",
+    "q": {
+      "en": "Which is the highest peak of the Andaman and Nicobar Islands?",
+      "as": "আন্দামান-নিকোবৰ দ্বীপপুঞ্জৰ আটাইতকৈ ওখ শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Saddle Peak",
+        "as": "ছেডল পিক"
+      },
+      {
+        "en": "Mount Harriet",
+        "as": "মাউণ্ট হেৰিয়েট"
+      },
+      {
+        "en": "Mount Thullier",
+        "as": "মাউণ্ট থুলিয়াৰ"
+      },
+      {
+        "en": "Mount Diavolo",
+        "as": "মাউণ্ট ডায়াভোলো"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Saddle Peak is the highest peak of the Andaman and Nicobar Islands.",
+      "as": "ছেডল পিক আন্দামান-নিকোবৰ দ্বীপপুঞ্জৰ আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-219",
+    "q": {
+      "en": "Which is the northernmost state of India (among states, excluding UTs)?",
+      "as": "ভাৰতৰ আটাইতকৈ উত্তৰৰ ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Uttarakhand",
+        "as": "উত্তৰাখণ্ড"
+      },
+      {
+        "en": "Himachal Pradesh",
+        "as": "হিমাচল প্ৰদেশ"
+      },
+      {
+        "en": "Punjab",
+        "as": "পঞ্জাব"
+      },
+      {
+        "en": "Sikkim",
+        "as": "চিকিম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Himachal Pradesh is the northernmost state of India (excluding union territories).",
+      "as": "কেন্দ্ৰীয় শাসিত অঞ্চল বাদ দি হিমাচল প্ৰদেশ ভাৰতৰ আটাইতকৈ উত্তৰৰ ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-220",
+    "q": {
+      "en": "Which state is known as the 'Heart of India'?",
+      "as": "কোনখন ৰাজ্যক 'ভাৰতৰ হৃদয়' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Uttar Pradesh",
+        "as": "উত্তৰ প্ৰদেশ"
+      },
+      {
+        "en": "Madhya Pradesh",
+        "as": "মধ্য প্ৰদেশ"
+      },
+      {
+        "en": "Maharashtra",
+        "as": "মহাৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Chhattisgarh",
+        "as": "ছত্তীশগড়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Madhya Pradesh is known as the Heart of India.",
+      "as": "মধ্য প্ৰদেশক ভাৰতৰ হৃদয় বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-221",
+    "q": {
+      "en": "Which is the largest state of India by population among the following?",
+      "as": "তলৰবোৰৰ ভিতৰত জনসংখ্যাৰ ভিত্তিত ভাৰতৰ আটাইতকৈ ডাঙৰ ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Maharashtra",
+        "as": "মহাৰাষ্ট্ৰ"
+      },
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Bihar",
+        "as": "বিহাৰ"
+      },
+      {
+        "en": "Uttar Pradesh",
+        "as": "উত্তৰ প্ৰদেশ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Uttar Pradesh is the largest state by population.",
+      "as": "জনসংখ্যাৰ ভিত্তিত উত্তৰ প্ৰদেশ আটাইতকৈ ডাঙৰ ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-222",
+    "q": {
+      "en": "Which state is called the 'Land of the Five Rivers' and its capital is Chandigarh?",
+      "as": "কোনখন ৰাজ্যক 'পাঁচ নদীৰ দেশ' বুলি জনা যায় আৰু ইয়াৰ ৰাজধানী চণ্ডীগড়?"
+    },
+    "options": [
+      {
+        "en": "Haryana",
+        "as": "হাৰিয়ানা"
+      },
+      {
+        "en": "Punjab",
+        "as": "পঞ্জাব"
+      },
+      {
+        "en": "Himachal Pradesh",
+        "as": "হিমাচল প্ৰদেশ"
+      },
+      {
+        "en": "Uttarakhand",
+        "as": "উত্তৰাখণ্ড"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Punjab is the Land of the Five Rivers with capital Chandigarh.",
+      "as": "পঞ্জাব পাঁচ নদীৰ দেশ, ৰাজধানী চণ্ডীগড়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-223",
+    "q": {
+      "en": "Which state was created by the States Reorganisation Act of 1956?",
+      "as": "১৯৫৬ চনৰ ৰাজ্য পুনৰ্গঠন আইনৰ দ্বাৰা কোনখন ৰাজ্য সৃষ্টি কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Maharashtra",
+        "as": "মহাৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Haryana",
+        "as": "হাৰিয়ানা"
+      },
+      {
+        "en": "Gujarat",
+        "as": "গুজৰাট"
+      },
+      {
+        "en": "Karnataka (Mysore)",
+        "as": "কৰ্ণাটক (মহীশূৰ)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The state of Karnataka (then Mysore) was reorganised under the 1956 Act.",
+      "as": "১৯৫৬ চনৰ আইনৰ অধীনত কৰ্ণাটক ৰাজ্য (তেতিয়া মহীশূৰ) পুনৰ্গঠিত হৈছিল।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-224",
+    "q": {
+      "en": "Which is the largest state of India by coastline in the west?",
+      "as": "পশ্চিমে কোনখন ৰাজ্যৰ উপকূলৰেখা আটাইতকৈ দীঘল?"
+    },
+    "options": [
+      {
+        "en": "Maharashtra",
+        "as": "মহাৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Gujarat",
+        "as": "গুজৰাট"
+      },
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      },
+      {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Gujarat has the longest coastline in western India.",
+      "as": "পশ্চিম ভাৰতত গুজৰাটৰ উপকূলৰেখা আটাইতকৈ দীঘল।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-225",
+    "q": {
+      "en": "Which is the highest waterfall in India located in Karnataka?",
+      "as": "কৰ্ণাটকত অৱস্থিত ভাৰতৰ আটাইতকৈ ওখ জলপ্ৰপাত কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Jog Falls",
+        "as": "জোগ জলপ্ৰপাত"
+      },
+      {
+        "en": "Kunchikal Falls",
+        "as": "কুঞ্চিকল জলপ্ৰপাত"
+      },
+      {
+        "en": "Shivanasamudra",
+        "as": "শিৱনসমুদ্ৰ"
+      },
+      {
+        "en": "Hogenakkal",
+        "as": "হোগেনাক্কল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kunchikal Falls is the highest waterfall in India.",
+      "as": "কুঞ্চিকল জলপ্ৰপাত ভাৰতৰ আটাইতকৈ ওখ জলপ্ৰপাত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-226",
+    "q": {
+      "en": "Which river is the main tributary of the Godavari?",
+      "as": "গোদাবৰী নদীৰ প্ৰধান উপনদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Wainganga",
+        "as": "ৱাইনগংগা"
+      },
+      {
+        "en": "Manjra",
+        "as": "মঞ্জৰা"
+      },
+      {
+        "en": "Pranhita",
+        "as": "প্ৰাণহিতা"
+      },
+      {
+        "en": "Indravati",
+        "as": "ইন্দ্ৰাৱতী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Pranhita is the main tributary of the Godavari.",
+      "as": "প্ৰাণহিতা গোদাবৰীৰ প্ৰধান উপনদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-227",
+    "q": {
+      "en": "Which state is known as the 'Land of Warriors'?",
+      "as": "কোনখন ৰাজ্যক 'যোদ্ধাসকলৰ দেশ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Uttar Pradesh",
+        "as": "উত্তৰ প্ৰদেশ"
+      },
+      {
+        "en": "Haryana",
+        "as": "হাৰিয়ানা"
+      },
+      {
+        "en": "Rajasthan",
+        "as": "ৰাজস্থান"
+      },
+      {
+        "en": "Punjab",
+        "as": "পঞ্জাব"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Punjab is known as the Land of Warriors.",
+      "as": "পঞ্জাবক যোদ্ধাসকলৰ দেশ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-228",
+    "q": {
+      "en": "Which mountain pass lies in Arunachal Pradesh near the China border?",
+      "as": "চীন সীমাৰ ওচৰত অৰুণাচল প্ৰদেশত কোন গিৰিপথ অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Bum La",
+        "as": "বুম লা"
+      },
+      {
+        "en": "Nathu La",
+        "as": "নাথু লা"
+      },
+      {
+        "en": "Rohtang",
+        "as": "ৰোহতাং"
+      },
+      {
+        "en": "Shipki La",
+        "as": "শিপকি লা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bum La pass is located in Arunachal Pradesh.",
+      "as": "বুম লা গিৰিপথ অৰুণাচল প্ৰদেশত অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-229",
+    "q": {
+      "en": "Which is the largest river island in India besides Majuli?",
+      "as": "মাজুলীৰ বাহিৰে ভাৰতৰ আটাইতকৈ ডাঙৰ নদী দ্বীপ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Umananda",
+        "as": "উমানন্দ"
+      },
+      {
+        "en": "Dibru-Saikhowa",
+        "as": "ডিব্ৰু-চৈখোৱা"
+      },
+      {
+        "en": "Sriharikota",
+        "as": "শ্ৰীহৰিকোটা"
+      },
+      {
+        "en": "Bhupen Dwip",
+        "as": "ভূপেন দ্বীপ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sriharikota is a large island (barrier island) in Andhra Pradesh.",
+      "as": "শ্ৰীহৰিকোটা অন্ধ্ৰ প্ৰদেশৰ এটা ডাঙৰ দ্বীপ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-230",
+    "q": {
+      "en": "Which state is called the 'Land of Sandalwood'?",
+      "as": "কোনখন ৰাজ্যক 'চন্দন কাঠৰ দেশ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      },
+      {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      },
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      },
+      {
+        "en": "Andhra Pradesh",
+        "as": "অন্ধ্ৰ প্ৰদেশ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Karnataka is called the Land of Sandalwood.",
+      "as": "কৰ্ণাটকক চন্দন কাঠৰ দেশ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-231",
+    "q": {
+      "en": "Which is the longest beach in India?",
+      "as": "ভাৰতৰ আটাইতকৈ দীঘল সাগৰীয় সৈকত কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Puri Beach",
+        "as": "পুৰী সৈকত"
+      },
+      {
+        "en": "Juhu Beach",
+        "as": "জুহু সৈকত"
+      },
+      {
+        "en": "Marina Beach",
+        "as": "মাৰিনা সৈকত"
+      },
+      {
+        "en": "Kovalam Beach",
+        "as": "কোভালাম সৈকত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Marina Beach in Chennai is the longest beach in India.",
+      "as": "চেন্নাইৰ মাৰিনা সৈকত ভাৰতৰ আটাইতকৈ দীঘল সৈকত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-232",
+    "q": {
+      "en": "Which river causes the formation of the world's largest delta?",
+      "as": "কোনখন নদীয়ে বিশ্বৰ আটাইতকৈ ডাঙৰ ব-দ্বীপ গঠনত অৰিহণা যোগায়?"
+    },
+    "options": [
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      },
+      {
+        "en": "Ganga-Brahmaputra",
+        "as": "গংগা-ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      },
+      {
+        "en": "Mahanadi",
+        "as": "মহানদী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Ganga-Brahmaputra system forms the world's largest delta.",
+      "as": "গংগা-ব্ৰহ্মপুত্ৰ ব্যৱস্থাই বিশ্বৰ আটাইতকৈ ডাঙৰ ব-দ্বীপ গঠন কৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-233",
+    "q": {
+      "en": "Which state is the largest producer of natural rubber in India?",
+      "as": "ভাৰতত কোনখন ৰাজ্য প্ৰাকৃতিক ৰবৰৰ আটাইতকৈ ডাঙৰ উৎপাদনকাৰী?"
+    },
+    "options": [
+      {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      },
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      },
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      },
+      {
+        "en": "Tripura",
+        "as": "ত্ৰিপুৰা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kerala is the largest producer of natural rubber in India.",
+      "as": "কেৰালা ভাৰতত প্ৰাকৃতিক ৰবৰৰ আটাইতকৈ ডাঙৰ উৎপাদনকাৰী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-234",
+    "q": {
+      "en": "Which is the highest peak in the state of Kerala?",
+      "as": "কেৰালা ৰাজ্যৰ আটাইতকৈ ওখ শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Kalsubai",
+        "as": "কালছুবাই"
+      },
+      {
+        "en": "Doddabetta",
+        "as": "দোদ্দাবেট্টা"
+      },
+      {
+        "en": "Anamudi",
+        "as": "আনামুদি"
+      },
+      {
+        "en": "Arma Konda",
+        "as": "অৰ্মা কোণ্ডা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Anamudi is the highest peak in Kerala.",
+      "as": "আনামুদি কেৰালাৰ আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-235",
+    "q": {
+      "en": "Which is the highest peak in the state of Sikkim?",
+      "as": "চিকিম ৰাজ্যৰ আটাইতকৈ ওখ শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Tent Peak",
+        "as": "টেণ্ট পিক"
+      },
+      {
+        "en": "Nanda Devi",
+        "as": "নন্দা দেৱী"
+      },
+      {
+        "en": "Pauhunri",
+        "as": "পাউহুনৰী"
+      },
+      {
+        "en": "Kanchenjunga",
+        "as": "কাঞ্চনজঙ্ঘা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Kanchenjunga is the highest peak in Sikkim.",
+      "as": "কাঞ্চনজঙ্ঘা চিকিমৰ আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-236",
+    "q": {
+      "en": "Which river is known as the 'Ganga of Kerala'?",
+      "as": "কোনখন নদীক 'কেৰালাৰ গংগা' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Kaveri",
+        "as": "কাবেৰী"
+      },
+      {
+        "en": "Periyar",
+        "as": "পেৰিয়াৰ"
+      },
+      {
+        "en": "Bharathappuzha",
+        "as": "ভৰতপ্পুঝা"
+      },
+      {
+        "en": "Pamba",
+        "as": "পাম্বা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Periyar river is known as the Ganga of Kerala.",
+      "as": "পেৰিয়াৰ নদীক কেৰালাৰ গংগা বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-237",
+    "q": {
+      "en": "Which is the longest river of Kerala?",
+      "as": "কেৰালাৰ আটাইতকৈ দীঘল নদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Periyar",
+        "as": "পেৰিয়াৰ"
+      },
+      {
+        "en": "Chaliyar",
+        "as": "ছালিয়াৰ"
+      },
+      {
+        "en": "Pamba",
+        "as": "পাম্বা"
+      },
+      {
+        "en": "Bharathappuzha",
+        "as": "ভৰতপ্পুঝা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bharathappuzha is the longest river of Kerala.",
+      "as": "ভৰতপ্পুঝা কেৰালাৰ আটাইতকৈ দীঘল নদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-238",
+    "q": {
+      "en": "Which state is called the 'Kashmir of the South'?",
+      "as": "কোনখন ৰাজ্যক 'দক্ষিণৰ কাশ্মীৰ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      },
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      },
+      {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      },
+      {
+        "en": "Andhra Pradesh",
+        "as": "অন্ধ্ৰ প্ৰদেশ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kerala is sometimes called the Kashmir of the South.",
+      "as": "কেৰালাক কেতিয়াবা দক্ষিণৰ কাশ্মীৰ বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-239",
+    "q": {
+      "en": "Which is the easternmost point of India?",
+      "as": "ভাৰতৰ আটাইতকৈ পূবৰ বিন্দু কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Indira Point",
+        "as": "ইন্দিৰা পইণ্ট"
+      },
+      {
+        "en": "Kibithu",
+        "as": "কিবিথু"
+      },
+      {
+        "en": "Kanyakumari",
+        "as": "কন্যাকুমাৰী"
+      },
+      {
+        "en": "Guwahati",
+        "as": "গুৱাহাটী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kibithu in Arunachal Pradesh is the easternmost point of India.",
+      "as": "অৰুণাচল প্ৰদেশৰ কিবিথু ভাৰতৰ আটাইতকৈ পূবৰ বিন্দু।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-240",
+    "q": {
+      "en": "Which is the westernmost point of India?",
+      "as": "ভাৰতৰ আটাইতকৈ পশ্চিমৰ বিন্দু কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Guhar Moti",
+        "as": "গুহৰ মতি"
+      },
+      {
+        "en": "Dwarka",
+        "as": "দ্বাৰকা"
+      },
+      {
+        "en": "Kutch",
+        "as": "কচ্ছ"
+      },
+      {
+        "en": "Porbandar",
+        "as": "পৰবন্দৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Guhar Moti in Gujarat is the westernmost point of India.",
+      "as": "গুজৰাটৰ গুহৰ মতি ভাৰতৰ আটাইতকৈ পশ্চিমৰ বিন্দু।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-241",
+    "q": {
+      "en": "Which is the northernmost point of India?",
+      "as": "ভাৰতৰ আটাইতকৈ উত্তৰৰ বিন্দু কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Indira Col",
+        "as": "ইন্দিৰা ক'ল"
+      },
+      {
+        "en": "Siachen Glacier",
+        "as": "ছিয়াচেন হিমবাহ"
+      },
+      {
+        "en": "Leh",
+        "as": "লেহ"
+      },
+      {
+        "en": "Nanda Devi",
+        "as": "নন্দা দেৱী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Indira Col in Ladakh is the northernmost point of India.",
+      "as": "লাডাখৰ ইন্দিৰা ক'ল ভাৰতৰ আটাইতকৈ উত্তৰৰ বিন্দু।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-242",
+    "q": {
+      "en": "Which is the largest state in India in terms of number of Lok Sabha seats?",
+      "as": "লোকসভা আসনৰ সংখ্যাৰ ভিত্তিত ভাৰতৰ আটাইতকৈ ডাঙৰ ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Maharashtra",
+        "as": "মহাৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Uttar Pradesh",
+        "as": "উত্তৰ প্ৰদেশ"
+      },
+      {
+        "en": "Bihar",
+        "as": "বিহাৰ"
+      },
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Uttar Pradesh has the largest number of Lok Sabha seats.",
+      "as": "উত্তৰ প্ৰদেশত আটাইতকৈ বেছি লোকসভা আসন আছে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-243",
+    "q": {
+      "en": "Which river is the main river of the Sikkim region?",
+      "as": "চিকিম অঞ্চলৰ প্ৰধান নদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Teesta",
+        "as": "তিস্তা"
+      },
+      {
+        "en": "Manas",
+        "as": "মানস"
+      },
+      {
+        "en": "Raidak",
+        "as": "ৰাইডাক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Teesta is the main river of Sikkim.",
+      "as": "তিস্তা চিকিমৰ প্ৰধান নদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-244",
+    "q": {
+      "en": "Which state is called the 'Land of the Buddha'?",
+      "as": "কোনখন ৰাজ্যক 'বুদ্ধৰ দেশ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Madhya Pradesh",
+        "as": "মধ্য প্ৰদেশ"
+      },
+      {
+        "en": "Uttar Pradesh",
+        "as": "উত্তৰ প্ৰদেশ"
+      },
+      {
+        "en": "Bihar",
+        "as": "বিহাৰ"
+      },
+      {
+        "en": "Sikkim",
+        "as": "চিকিম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bihar is called the Land of the Buddha.",
+      "as": "বিহাৰক বুদ্ধৰ দেশ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-245",
+    "q": {
+      "en": "Which is the longest tributary of the Krishna river?",
+      "as": "কৃষ্ণা নদীৰ আটাইতকৈ দীঘল উপনদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Bhima",
+        "as": "ভীমা"
+      },
+      {
+        "en": "Tungabhadra",
+        "as": "তুংগভদ্ৰা"
+      },
+      {
+        "en": "Koyna",
+        "as": "কোয়না"
+      },
+      {
+        "en": "Ghataprabha",
+        "as": "ঘটপ্ৰভা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Tungabhadra is the longest tributary of the Krishna.",
+      "as": "তুংগভদ্ৰা কৃষ্ণাৰ আটাইতকৈ দীঘল উপনদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-246",
+    "q": {
+      "en": "Which state is known as the 'Land of Festivals'?",
+      "as": "কোনখন ৰাজ্যক 'উৎসৱৰ দেশ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "Mizoram",
+        "as": "মিজোৰাম"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      },
+      {
+        "en": "Tripura",
+        "as": "ত্ৰিপুৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Nagaland is known as the Land of Festivals.",
+      "as": "নাগালেণ্ডক উৎসৱৰ দেশ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-247",
+    "q": {
+      "en": "Which river forms the border between India and Bangladesh in the east?",
+      "as": "পূবত কোনখন নদী ভাৰত আৰু বাংলাদেশৰ সীমা গঠন কৰে?"
+    },
+    "options": [
+      {
+        "en": "Yamuna",
+        "as": "যমুনা"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Teesta",
+        "as": "তিস্তা"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Teesta river forms part of the India-Bangladesh border.",
+      "as": "তিস্তা নদী ভাৰত-বাংলাদেশ সীমাৰ এক অংশ গঠন কৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-248",
+    "q": {
+      "en": "Which is the largest district of Assam by area?",
+      "as": "মাটিকালিৰ ভিত্তিত অসমৰ আটাইতকৈ ডাঙৰ জিলা কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Cachar",
+        "as": "কাছাৰ"
+      },
+      {
+        "en": "Dibrugarh",
+        "as": "ডিব্ৰুগড়"
+      },
+      {
+        "en": "Nagaon",
+        "as": "নগাঁও"
+      },
+      {
+        "en": "Karbi Anglong",
+        "as": "কাৰ্বি আংলং"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Karbi Anglong is the largest district of Assam by area.",
+      "as": "মাটিকালিৰ ভিত্তিত কাৰ্বি আংলং অসমৰ আটাইতকৈ ডাঙৰ জিলা।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-249",
+    "q": {
+      "en": "Which is the smallest district of Assam by area?",
+      "as": "মাটিকালিৰ ভিত্তিত অসমৰ আটাইতকৈ সৰু জিলা কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Dispur",
+        "as": "দিছপুৰ"
+      },
+      {
+        "en": "Kamrup Metropolitan",
+        "as": "কামৰূপ মহানগৰ"
+      },
+      {
+        "en": "Jorhat",
+        "as": "যোৰহাট"
+      },
+      {
+        "en": "Sivasagar",
+        "as": "শিৱসাগৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Kamrup Metropolitan is the smallest district of Assam by area.",
+      "as": "মাটিকালিৰ ভিত্তিগত কামৰূপ মহানগৰ অসমৰ আটাইতকৈ সৰু জিলা।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-250",
+    "q": {
+      "en": "Which mountain range is located in the north of the Brahmaputra valley?",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকাৰ উত্তৰে কোন পৰ্বতশ্ৰেণী অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Aravalli",
+        "as": "অৰাবল্লী"
+      },
+      {
+        "en": "Eastern Ghats",
+        "as": "পূব ঘাট"
+      },
+      {
+        "en": "Western Ghats",
+        "as": "পশ্চিম ঘাট"
+      },
+      {
+        "en": "Himalayas",
+        "as": "হিমালয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Himalayas lie to the north of the Brahmaputra valley.",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকাৰ উত্তৰে হিমালয় অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-251",
+    "q": {
+      "en": "Which hill range lies to the south of the Brahmaputra valley?",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকাৰ দক্ষিণে কোন পাহাৰশ্ৰেণী অৱস্থিত?"
+    },
+    "options": [
+      {
+        "en": "Aravalli",
+        "as": "অৰাবল্লী"
+      },
+      {
+        "en": "Karbi Anglong and Meghalaya hills",
+        "as": "কাৰ্বি আংলং আৰু মেঘালয় পাহাৰ"
+      },
+      {
+        "en": "Vindhya",
+        "as": "বিন্ধ্য"
+      },
+      {
+        "en": "Satpura",
+        "as": "সৎপুৰা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Karbi Anglong and Meghalaya hills lie to the south of the Brahmaputra valley.",
+      "as": "ব্ৰহ্মপুত্ৰ উপত্যকাৰ দক্ষিণে কাৰ্বি আংলং আৰু মেঘালয় পাহাৰ অৱস্থিত।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-252",
+    "q": {
+      "en": "Which is the longest river in the world?",
+      "as": "বিশ্বৰ আটাইতকৈ দীঘল নদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Mississippi",
+        "as": "মিছিছিপি"
+      },
+      {
+        "en": "Nile",
+        "as": "নীল নদী"
+      },
+      {
+        "en": "Yangtze",
+        "as": "য়াংচি"
+      },
+      {
+        "en": "Amazon",
+        "as": "আমাজন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Amazon (or the Nile by some measures) is the longest river in the world.",
+      "as": "আমাজন (কিছুমান মাপত নীল নদী) বিশ্বৰ আটাইতকৈ দীঘল নদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-253",
+    "q": {
+      "en": "Which is the largest river in the world by volume of water?",
+      "as": "পানীৰ পৰিমাণৰ ভিত্তিত বিশ্বৰ আটাইতকৈ ডাঙৰ নদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Nile",
+        "as": "নীল নদী"
+      },
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Amazon",
+        "as": "আমাজন"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Amazon is the largest river in the world by volume of water.",
+      "as": "পানীৰ পৰিমাণৰ ভিত্তিত আমাজন বিশ্বৰ আটাইতকৈ ডাঙৰ নদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-254",
+    "q": {
+      "en": "Which is the highest mountain peak in Africa?",
+      "as": "আফ্ৰিকাৰ আটাইতকৈ ওখ পৰ্বত শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Kilimanjaro",
+        "as": "কিলিমাঞ্জাৰো"
+      },
+      {
+        "en": "Mount Kenya",
+        "as": "মাউণ্ট কেনিয়া"
+      },
+      {
+        "en": "Mount Stanley",
+        "as": "মাউণ্ট ষ্টেনলী"
+      },
+      {
+        "en": "Ras Dashen",
+        "as": "ৰাছ দাশেন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mount Kilimanjaro is the highest peak in Africa.",
+      "as": "মাউণ্ট কিলিমাঞ্জাৰো আফ্ৰিকাৰ আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-255",
+    "q": {
+      "en": "Which is the longest mountain range in the world?",
+      "as": "বিশ্বৰ আটাইতকৈ দীঘল পৰ্বতশ্ৰেণী কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Himalayas",
+        "as": "হিমালয়"
+      },
+      {
+        "en": "Rocky Mountains",
+        "as": "ৰকি পৰ্বত"
+      },
+      {
+        "en": "Andes",
+        "as": "এণ্ডিছ"
+      },
+      {
+        "en": "Alps",
+        "as": "আল্পছ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Andes is the longest mountain range in the world.",
+      "as": "এণ্ডিছ বিশ্বৰ আটাইতকৈ দীঘল পৰ্বতশ্ৰেণী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-256",
+    "q": {
+      "en": "Which is the deepest ocean trench in the world?",
+      "as": "বিশ্বৰ আটাইতকৈ গভীৰ মহাসাগৰীয় খাদ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Java Trench",
+        "as": "জাভা খাদ"
+      },
+      {
+        "en": "Puerto Rico Trench",
+        "as": "পুৱেৰ্তো ৰিকো খাদ"
+      },
+      {
+        "en": "Mariana Trench",
+        "as": "মাৰিয়ানা খাদ"
+      },
+      {
+        "en": "Tonga Trench",
+        "as": "টংগা খাদ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Mariana Trench is the deepest ocean trench in the world.",
+      "as": "মাৰিয়ানা খাদ বিশ্বৰ আটাইতকৈ গভীৰ মহাসাগৰীয় খাদ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-257",
+    "q": {
+      "en": "Which state has the largest area under forest cover in terms of percentage?",
+      "as": "শতাংশৰ হিচাপত কোনখন ৰাজ্যত বনাঞ্চলৰ এলেকা আটাইতকৈ বেছি?"
+    },
+    "options": [
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "Madhya Pradesh",
+        "as": "মধ্য প্ৰদেশ"
+      },
+      {
+        "en": "Mizoram",
+        "as": "মিজোৰাম"
+      },
+      {
+        "en": "Nagaland",
+        "as": "নাগালেণ্ড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Mizoram has the highest percentage of forest cover in India.",
+      "as": "শতাংশৰ হিচাপত মিজোৰামত ভাৰতৰ আটাইতকৈ বেছি বনাঞ্চল আছে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-258",
+    "q": {
+      "en": "Which is the highest peak of the Himachal range?",
+      "as": "হিমাচল শ্ৰেণীৰ আটাইতকৈ ওখ শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Nanda Devi",
+        "as": "নন্দা দেৱী"
+      },
+      {
+        "en": "Kanchenjunga",
+        "as": "কাঞ্চনজঙ্ঘা"
+      },
+      {
+        "en": "K2",
+        "as": "কে-২"
+      },
+      {
+        "en": "Kamet",
+        "as": "কামেট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Nanda Devi is a prominent peak of the Himachal range.",
+      "as": "নন্দা দেৱী হিমাচল শ্ৰেণীৰ এটা উল্লেখযোগ্য শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-259",
+    "q": {
+      "en": "Which state is known as the 'Land of the Golden Pagoda'?",
+      "as": "কোনখন ৰাজ্যক 'সোণালী পেগোডাৰ দেশ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Sikkim",
+        "as": "চিকিম"
+      },
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "Manipur",
+        "as": "মণিপুৰ"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assam is sometimes called the Land of the Golden Pagoda.",
+      "as": "অসমক কেতিয়াবা সোণালী পেগোডাৰ দেশ বুলি কোৱা হয়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-260",
+    "q": {
+      "en": "Which is the largest river of the eastern coast of India?",
+      "as": "ভাৰতৰ পূব উপকূলৰ আটাইতকৈ ডাঙৰ নদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Krishna",
+        "as": "কৃষ্ণা"
+      },
+      {
+        "en": "Kaveri",
+        "as": "কাবেৰী"
+      },
+      {
+        "en": "Mahanadi",
+        "as": "মহানদী"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Godavari is the largest river on the eastern coast of India.",
+      "as": "গোদাবৰী ভাৰতৰ পূব উপকূলৰ আটাইতকৈ ডাঙৰ নদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-261",
+    "q": {
+      "en": "Which state has the longest boundary with Bhutan?",
+      "as": "কোনখন ৰাজ্যই ভূটানৰ সৈতে আটাইতকৈ দীঘল সীমা ভাগ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Arunachal Pradesh",
+        "as": "অৰুণাচল প্ৰদেশ"
+      },
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      },
+      {
+        "en": "Sikkim",
+        "as": "চিকিম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assam shares the longest border with Bhutan.",
+      "as": "অসমে ভূটানৰ সৈতে আটাইতকৈ দীঘল সীমা ভাগ কৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-262",
+    "q": {
+      "en": "Which is the largest state of India with a coastline on the west?",
+      "as": "পশ্চিম উপকূল থকা ভাৰতৰ আটাইতকৈ ডাঙৰ ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      },
+      {
+        "en": "Maharashtra",
+        "as": "মহাৰাষ্ট্ৰ"
+      },
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      },
+      {
+        "en": "Gujarat",
+        "as": "গুজৰাট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Gujarat is the largest state on the western coast.",
+      "as": "গুজৰাট পশ্চিম উপকূলৰ আটাইতকৈ ডাঙৰ ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-263",
+    "q": {
+      "en": "Which river is called the 'Sorrow of China'?",
+      "as": "কোনখন নদীক 'চীনৰ দুখ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Yangtze",
+        "as": "য়াংচি"
+      },
+      {
+        "en": "Yellow River",
+        "as": "হালধীয়া নদী"
+      },
+      {
+        "en": "Mekong",
+        "as": "মেকং"
+      },
+      {
+        "en": "Amur",
+        "as": "আমুৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Yellow River is called the Sorrow of China.",
+      "as": "হালধীয়া নদীক চীনৰ দুখ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-264",
+    "q": {
+      "en": "Which is the highest peak in the state of Uttarakhand?",
+      "as": "উত্তৰাখণ্ড ৰাজ্যৰ আটাইতকৈ ওখ শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Trishul",
+        "as": "ত্ৰিশূল"
+      },
+      {
+        "en": "Kamet",
+        "as": "কামেট"
+      },
+      {
+        "en": "Nanda Devi",
+        "as": "নন্দা দেৱী"
+      },
+      {
+        "en": "Dunagiri",
+        "as": "দুনাগিৰি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Nanda Devi is the highest peak in Uttarakhand.",
+      "as": "নন্দা দেৱী উত্তৰাখণ্ডৰ আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-265",
+    "q": {
+      "en": "Which is the largest natural harbour in India?",
+      "as": "ভাৰতৰ আটাইতকৈ ডাঙৰ প্ৰাকৃতিক বন্দৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Chennai",
+        "as": "চেন্নাই"
+      },
+      {
+        "en": "Kolkata",
+        "as": "কলিকতা"
+      },
+      {
+        "en": "Mumbai",
+        "as": "মুম্বাই"
+      },
+      {
+        "en": "Kochi",
+        "as": "কোচি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Mumbai has the largest natural harbour in India.",
+      "as": "মুম্বাইত ভাৰতৰ আটাইতকৈ ডাঙৰ প্ৰাকৃতিক বন্দৰ আছে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-266",
+    "q": {
+      "en": "Which is the largest state of India by area in the Deccan region?",
+      "as": "ডেকান অঞ্চলত মাটিকালিৰ ভিত্তিত ভাৰতৰ আটাইতকৈ ডাঙৰ ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Andhra Pradesh",
+        "as": "অন্ধ্ৰ প্ৰদেশ"
+      },
+      {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      },
+      {
+        "en": "Telegana",
+        "as": "তেলেংগানা"
+      },
+      {
+        "en": "Maharashtra",
+        "as": "মহাৰাষ্ট্ৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Maharashtra is the largest state in the Deccan region.",
+      "as": "মহাৰাষ্ট্ৰ ডেকান অঞ্চলৰ আটাইতকৈ ডাঙৰ ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-267",
+    "q": {
+      "en": "Which is the southernmost range of the Himalayas?",
+      "as": "হিমালয়ৰ আটাইতকৈ দক্ষিণৰ শ্ৰেণী কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Shiwalik",
+        "as": "শিৱালিক"
+      },
+      {
+        "en": "Himadri",
+        "as": "হিমাদ্ৰী"
+      },
+      {
+        "en": "Himachal",
+        "as": "হিমাচল"
+      },
+      {
+        "en": "Karakoram",
+        "as": "কাৰাকোৰাম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Shiwalik is the southernmost range of the Himalayas.",
+      "as": "শিৱালিক হিমালয়ৰ আটাইতকৈ দক্ষিণৰ শ্ৰেণী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-268",
+    "q": {
+      "en": "Which state is called the 'Land of Black Gold'?",
+      "as": "কোনখন ৰাজ্যক 'ক'লা সোণৰ দেশ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Gujarat",
+        "as": "গুজৰাট"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      },
+      {
+        "en": "Jharkhand",
+        "as": "ঝাৰখণ্ড"
+      },
+      {
+        "en": "Odisha",
+        "as": "ওড়িশা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam is called the Land of Black Gold due to its petroleum resources.",
+      "as": "পেট্ৰ'লিয়াম সম্পদৰ বাবে অসমক ক'লা সোণৰ দেশ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-269",
+    "q": {
+      "en": "Which is the highest peak of the Nilgiri hills region in the Western Ghats?",
+      "as": "পশ্চিম ঘাটৰ নীলগিৰি অঞ্চলৰ আটাইতকৈ ওখ শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Anamudi",
+        "as": "আনামুদি"
+      },
+      {
+        "en": "Doddabetta",
+        "as": "দোদ্দাবেট্টা"
+      },
+      {
+        "en": "Kalsubai",
+        "as": "কালছুবাই"
+      },
+      {
+        "en": "Guru Shikhar",
+        "as": "গুৰু শিখৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Doddabetta is the highest peak of the Nilgiri Hills.",
+      "as": "দোদ্দাবেট্টা নীলগিৰি পাহাৰৰ আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-270",
+    "q": {
+      "en": "Which is the largest river of India in terms of water discharge?",
+      "as": "পানীৰ নিষ্কাশনৰ ভিত্তিত ভাৰতৰ আটাইতকৈ ডাঙৰ নদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Ganga",
+        "as": "গংগা"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      },
+      {
+        "en": "Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ"
+      },
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Brahmaputra carries the largest volume of water among Indian rivers.",
+      "as": "ভাৰতীয় নদীসমূহৰ ভিতৰত ব্ৰহ্মপুত্ৰই আটাইতকৈ বেছি পানী বহন কৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-271",
+    "q": {
+      "en": "Which is the largest state in India by area in the south?",
+      "as": "দক্ষিণ ভাৰতত মাটিকালিৰ ভিত্তিত আটাইতকৈ ডাঙৰ ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Tamil Nadu",
+        "as": "তামিলনাডু"
+      },
+      {
+        "en": "Karnataka",
+        "as": "কৰ্ণাটক"
+      },
+      {
+        "en": "Andhra Pradesh",
+        "as": "অন্ধ্ৰ প্ৰদেশ"
+      },
+      {
+        "en": "Telangana",
+        "as": "তেলেংগানা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Karnataka is the largest state in South India by area.",
+      "as": "মাটিকালিৰ ভিত্তিত কৰ্ণাটক দক্ষিণ ভাৰতৰ আটাইতকৈ ডাঙৰ ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-272",
+    "q": {
+      "en": "Which is the highest peak in the state of Tamil Nadu?",
+      "as": "তামিলনাডু ৰাজ্যৰ আটাইতকৈ ওখ শিখৰ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Kalsubai",
+        "as": "কালছুবাই"
+      },
+      {
+        "en": "Anamudi",
+        "as": "আনামুদি"
+      },
+      {
+        "en": "Arma Konda",
+        "as": "অৰ্মা কোণ্ডা"
+      },
+      {
+        "en": "Doddabetta",
+        "as": "দোদ্দাবেট্টা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Doddabetta is the highest peak in Tamil Nadu.",
+      "as": "দোদ্দাবেট্টা তামিলনাডুৰ আটাইতকৈ ওখ শিখৰ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-273",
+    "q": {
+      "en": "Which is the largest river of India that forms a delta on the east coast?",
+      "as": "পূব উপকূলত ব-দ্বীপ গঠন কৰা ভাৰতৰ আটাইতকৈ ডাঙৰ নদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Narmada",
+        "as": "নৰ্মদা"
+      },
+      {
+        "en": "Sabarmati",
+        "as": "সবৰমতী"
+      },
+      {
+        "en": "Tapti",
+        "as": "তাপ্তী"
+      },
+      {
+        "en": "Godavari",
+        "as": "গোদাবৰী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Godavari forms a large delta on the east coast.",
+      "as": "গোদাবৰীয়ে পূব উপকূলত এটা ডাঙৰ ব-দ্বীপ গঠন কৰে।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-274",
+    "q": {
+      "en": "Which is the highest plateau in India?",
+      "as": "ভাৰতৰ আটাইতকৈ ওখ মালভূমি কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Deccan Plateau",
+        "as": "ডেকান মালভূমি"
+      },
+      {
+        "en": "Malwa Plateau",
+        "as": "মালৱা মালভূমি"
+      },
+      {
+        "en": "Chotanagpur Plateau",
+        "as": "ছোটনাগপুৰ মালভূমি"
+      },
+      {
+        "en": "Bundelkhand Plateau",
+        "as": "বুন্দেলখণ্ড মালভূমি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Chotanagpur Plateau is one of the highest plateaus in India.",
+      "as": "ছোটনাগপুৰ মালভূমি ভাৰতৰ আটাইতকৈ ওখ মালভূমিসমূহৰ এটা।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-275",
+    "q": {
+      "en": "Which state of India is known as the 'Powerhouse of India'?",
+      "as": "কোনখন ভাৰতীয় ৰাজ্যক 'ভাৰতৰ শক্তি গৃহ' বুলি জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Jharkhand",
+        "as": "ঝাৰখণ্ড"
+      },
+      {
+        "en": "Odisha",
+        "as": "ওড়িশা"
+      },
+      {
+        "en": "Chhattisgarh",
+        "as": "ছত্তীশগড়"
+      },
+      {
+        "en": "West Bengal",
+        "as": "পশ্চিম বংগ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Jharkhand is known as the Powerhouse of India due to its mineral wealth.",
+      "as": "খনিজ সম্পদৰ বাবে ঝাৰখণ্ডক ভাৰতৰ শক্তি গৃহ বুলি জনা যায়।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-276",
+    "q": {
+      "en": "Which is the largest river island in the Brahmaputra after Majuli?",
+      "as": "মাজুলীৰ পিছত ব্ৰহ্মপুত্ৰৰ আটাইতকৈ ডাঙৰ নদী দ্বীপ কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Umananda",
+        "as": "উমানন্দ"
+      },
+      {
+        "en": "Peacock Island",
+        "as": "পিকক আইলেণ্ড"
+      },
+      {
+        "en": "Bhupen Dwip",
+        "as": "ভূপেন দ্বীপ"
+      },
+      {
+        "en": "Sadiya",
+        "as": "চাদিয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bhupen Dwip is a large river island in the Brahmaputra.",
+      "as": "ভূপেন দ্বীপ ব্ৰহ্মপুত্ৰৰ এটা ডাঙৰ নদী দ্বীপ।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-277",
+    "q": {
+      "en": "Which is the largest state of India by area with a desert?",
+      "as": "মৰুভূমি থকা ভাৰতৰ আটাইতকৈ ডাঙৰ ৰাজ্য কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Gujarat",
+        "as": "গুজৰাট"
+      },
+      {
+        "en": "Rajasthan",
+        "as": "ৰাজস্থান"
+      },
+      {
+        "en": "Haryana",
+        "as": "হাৰিয়ানা"
+      },
+      {
+        "en": "Punjab",
+        "as": "পঞ্জাব"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rajasthan is the largest state with the Thar Desert.",
+      "as": "ৰাজস্থান থৰ মৰুভূমি থকা আটাইতকৈ ডাঙৰ ৰাজ্য।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-278",
+    "q": {
+      "en": "Which is the longest river of the Indian state of Kerala?",
+      "as": "ভাৰতৰ কেৰালা ৰাজ্যৰ আটাইতকৈ দীঘল নদী কোনখন?"
+    },
+    "options": [
+      {
+        "en": "Periyar",
+        "as": "পেৰিয়াৰ"
+      },
+      {
+        "en": "Chaliyar",
+        "as": "ছালিয়াৰ"
+      },
+      {
+        "en": "Pamba",
+        "as": "পাম্বা"
+      },
+      {
+        "en": "Bharathappuzha",
+        "as": "ভৰতপ্পুঝা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bharathappuzha is the longest river in Kerala.",
+      "as": "ভৰতপ্পুঝা কেৰালাৰ আটাইতকৈ দীঘল নদী।"
+    }
+  },
+  {
+    "id": "india-rivers-mountains-states-279",
+    "q": {
+      "en": "Which is the largest river basin in South India?",
+      "as": "দক্ষিণ ভাৰতৰ আটাইতকৈ ডাঙৰ নদী অৱবাহিকা কোনটো?"
+    },
+    "options": [
+      {
+        "en": "Godavari basin",
+        "as": "গোদাবৰী অৱবাহিকা"
+      },
+      {
+        "en": "Kaveri basin",
+        "as": "কাবেৰী অৱবাহিকা"
+      },
+      {
+        "en": "Krishna basin",
+        "as": "কৃষ্ণা অৱবাহিকা"
+      },
+      {
+        "en": "Mahanadi basin",
+        "as": "মহানদী অৱবাহিকা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Godavari basin is the largest river basin in South India.",
+      "as": "গোদাবৰী অৱবাহিকা দক্ষিণ ভাৰতৰ আটাইতকৈ ডাঙৰ নদী অৱবাহিকা।"
+    }
   }
-}
+]
