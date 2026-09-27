@@ -27,7 +27,9 @@
     exams: null,
     examQuestionTotal: 0,
     examTotalLoaded: false,
-    examTotalPromise: null
+    examTotalPromise: null,
+    counts: null,
+    searchCorpusReady: false
   };
 
   /* Max mock test set number to probe per subcategory */
@@ -40,6 +42,46 @@
 
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+
+  /* ================= On-demand third-party libraries =================
+     html2canvas / jsPDF are only needed when the user generates a PDF or
+     shares a result card, so they are loaded lazily instead of shipping
+     ~550 KB of unused JavaScript on every page. */
+  let _pdfLibsPromise = null;
+  let _html2canvasPromise = null;
+
+  function loadScriptOnce(src) {
+    return new Promise((resolve, reject) => {
+      const s = document.createElement("script");
+      s.src = src;
+      s.async = true;
+      s.onload = () => resolve();
+      s.onerror = () => reject(new Error("Failed to load " + src));
+      document.head.appendChild(s);
+    });
+  }
+
+  function ensureHtml2canvas() {
+    if (window.html2canvas) return Promise.resolve();
+    if (!_html2canvasPromise) {
+      _html2canvasPromise = loadScriptOnce("https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js")
+        .catch((e) => { _html2canvasPromise = null; throw e; });
+    }
+    return _html2canvasPromise;
+  }
+
+  function ensurePdfLibs() {
+    if (window.jspdf && window.html2canvas) return Promise.resolve();
+    if (!_pdfLibsPromise) {
+      _pdfLibsPromise = (async () => {
+        if (!window.html2canvas) await ensureHtml2canvas();
+        if (!window.jspdf) {
+          await loadScriptOnce("https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js");
+        }
+      })().catch((e) => { _pdfLibsPromise = null; throw e; });
+    }
+    return _pdfLibsPromise;
+  }
 
   /* Direct Vector Brand Logo */
   const BRAND_LOGO_SVG = `
@@ -708,6 +750,26 @@
 
     (data.categories || []).forEach(walkCategory);
     return { categories: cats, topicMap, topicIndex };
+  }
+
+  /* Apply precomputed counts from data/counts.json so the UI shows exact
+     numbers without downloading every topic / exam file on page load.
+     Records missing from the manifest keep their previous value. */
+  function applyPrecomputedCounts(counts) {
+    if (!counts || typeof counts !== "object") return;
+    state.counts = counts;
+
+    const topicCounts = counts.topicCounts || {};
+    state.topicIndex.forEach((rec) => {
+      if (Object.prototype.hasOwnProperty.call(topicCounts, rec.path)) {
+        rec.nQuestions = Number(topicCounts[rec.path]) || 0;
+      }
+    });
+
+    if (typeof counts.examsTotal === "number") {
+      state.examQuestionTotal = counts.examsTotal;
+      state.examTotalLoaded = true;
+    }
   }
 
   /* ================= Navigation helpers ================= */
@@ -2329,6 +2391,36 @@
     return hits.sort((a, b) => b.score - a.score).slice(0, searchLimit);
   }
 
+  /* Full-text search over question/answer bodies needs every topic loaded.
+     Instead of downloading all of them on boot (the old behaviour, ~24 MB),
+     the corpus is loaded on demand the first time the user actually searches,
+     with limited concurrency, and cached for the rest of the session. */
+  let _searchCorpusPromise = null;
+  function ensureSearchCorpus() {
+    if (state.searchCorpusReady) return Promise.resolve();
+    if (_searchCorpusPromise) return _searchCorpusPromise;
+    _searchCorpusPromise = (async () => {
+      const queue = state.topicIndex.filter((r) => !(r.topic && Array.isArray(r.topic.questions) && r.topic.questions.length));
+      const worker = async () => {
+        while (queue.length) {
+          const rec = queue.shift();
+          try {
+            const data = await API.getTopic(rec.cat.id, rec.topic.id, rec.sub && rec.sub.id, rec.cat && rec.cat.contentLayout);
+            if (data) {
+              const list = Array.isArray(data) ? data : (Array.isArray(data.questions) ? data.questions : []);
+              rec.topic.questions = list;
+              if (!rec.nQuestions) rec.nQuestions = list.length;
+            }
+          } catch (e) { /* individual topic failures are non-fatal */ }
+        }
+      };
+      const workers = Math.min(8, queue.length);
+      await Promise.all(Array.from({ length: workers }, worker));
+      state.searchCorpusReady = true;
+    })().finally(() => { _searchCorpusPromise = null; });
+    return _searchCorpusPromise;
+  }
+
   function bindSearch() {
     const input = $("#master-search");
     const box = $("#search-results");
@@ -2336,28 +2428,36 @@
     let timer;
 
     const close = () => { box.hidden = true; box.innerHTML = ""; };
+
+    const renderDropdown = (v) => {
+      const hits = searchIndex(v);
+      if (!hits.length) {
+        box.innerHTML = `<div class="sr-empty">${t("search.noresult")}</div>`;
+      } else {
+        box.innerHTML = `
+          <div class="sr-head">${t("search.results")} (${hits.length})</div>
+          ${hits.map((h, i) => `
+            <a class="sr-item" href="/topic/${h.rec.path}" data-idx="${i}">
+              <span class="chip">${escapeHtml(localized(h.rec.cat.name))}</span>
+              <span style="display:flex; flex-direction:column; gap:2px;">
+                <span class="sr-title">${escapeHtml(localized(h.rec.title))}</span>
+                <span class="sr-sub">${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.cat.id === "study-guides" ? (state.uiLang === "as" ? "নিৰ্দেশিকা" : "Guide") : `${h.rec.nQuestions || 0} ${t("topic.questions")}`}</span>
+              </span>
+            </a>`).join("")}`;
+        box.innerHTML += `<a class="sr-item" href="/trending" style="justify-content:center;color:var(--primary);font-weight:600;">${t("see.all")}</a>`;
+      }
+      box.hidden = false;
+    };
+
     const onInput = (e) => {
       clearTimeout(timer);
       const v = e.target.value;
       if (v.trim().length < 2) { close(); return; }
       timer = setTimeout(() => {
-        const hits = searchIndex(v);
-        if (!hits.length) {
-          box.innerHTML = `<div class="sr-empty">${t("search.noresult")}</div>`;
-        } else {
-          box.innerHTML = `
-            <div class="sr-head">${t("search.results")} (${hits.length})</div>
-            ${hits.map((h, i) => `
-              <a class="sr-item" href="/topic/${h.rec.path}" data-idx="${i}">
-                <span class="chip">${escapeHtml(localized(h.rec.cat.name))}</span>
-                <span style="display:flex; flex-direction:column; gap:2px;">
-                  <span class="sr-title">${escapeHtml(localized(h.rec.title))}</span>
-                  <span class="sr-sub">${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.cat.id === "study-guides" ? (state.uiLang === "as" ? "নিৰ্দেশিকা" : "Guide") : `${h.rec.nQuestions || 0} ${t("topic.questions")}`}</span>
-                </span>
-              </a>`).join("")}`;
-          box.innerHTML += `<a class="sr-item" href="/trending" style="justify-content:center;color:var(--primary);font-weight:600;">${t("see.all")}</a>`;
-        }
-        box.hidden = false;
+        renderDropdown(v);
+        ensureSearchCorpus().then(() => {
+          if (!box.hidden && input.value.trim() === v.trim()) renderDropdown(v);
+        });
       }, 180);
     };
 
@@ -2393,28 +2493,34 @@
     const input = $("#page-search");
     const results = $("#page-search-results");
     let timer;
+    const run = () => {
+      const q = input.value.trim();
+      if (q.length < 2) {
+        results.innerHTML = `<div class="sp-empty">${t("search.hint")}</div>`;
+        return;
+      }
+      const hits = searchIndex(q);
+      if (!hits.length) {
+        results.innerHTML = `<div class="sp-empty">${t("search.noresult")}</div>`;
+        return;
+      }
+      results.innerHTML = hits.map((h) => `
+        <a class="sp-topic" href="/topic/${h.rec.path}">
+          <span class="chip">${escapeHtml(localized(h.rec.cat.name))}</span>
+          <span style="display:flex; flex-direction:column; gap:2px;">
+            <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(h.rec.title))}</span>
+            <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.cat.id === "study-guides" ? (state.uiLang === "as" ? "নিৰ্দেশিকা" : "Guide") : `${h.rec.nQuestions || 0} ${t("topic.questions")}`}</span>
+          </span>
+        </a>`).join("");
+    };
     input.addEventListener("input", () => {
       clearTimeout(timer);
       const v = input.value;
       timer = setTimeout(() => {
-        const q = v.trim();
-        if (q.length < 2) {
-          results.innerHTML = `<div class="sp-empty">${t("search.hint")}</div>`;
-          return;
-        }
-        const hits = searchIndex(q);
-        if (!hits.length) {
-          results.innerHTML = `<div class="sp-empty">${t("search.noresult")}</div>`;
-          return;
-        }
-        results.innerHTML = hits.map((h) => `
-          <a class="sp-topic" href="/topic/${h.rec.path}">
-            <span class="chip">${escapeHtml(localized(h.rec.cat.name))}</span>
-            <span style="display:flex; flex-direction:column; gap:2px;">
-              <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(h.rec.title))}</span>
-              <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.cat.id === "study-guides" ? (state.uiLang === "as" ? "নিৰ্দেশিকা" : "Guide") : `${h.rec.nQuestions || 0} ${t("topic.questions")}`}</span>
-            </span>
-          </a>`).join("");
+        run();
+        ensureSearchCorpus().then(() => {
+          if (input.value.trim() === v.trim()) run();
+        });
       }, 180);
     });
   }
@@ -2798,6 +2904,7 @@
     renderMathJax(pdfContainer);
 
     try {
+      await ensurePdfLibs();
       if (!window.jspdf || !window.html2canvas) {
         throw new Error("jsPDF or html2canvas library is missing.");
       }
@@ -3407,14 +3514,26 @@
   async function hydrateExamCardCounts(scope, exam) {
     if (!scope || !exam) return;
     const badges = Array.from(scope.querySelectorAll(".exam-sec-count"));
+    const precomputed = state.counts && state.counts.examSectionCounts;
     await Promise.all(badges.map(async (badge) => {
       const examId = badge.dataset.countExam || exam.id;
       const secId = badge.dataset.countSection;
       const sec = (exam.sections || []).find((s) => s.id === secId);
       if (!sec || sec.type === "syllabus") return;
+      const pathStr = badge.dataset.countPath || "";
+      if (precomputed) {
+        const key = pathStr ? `${examId}/${secId}/${pathStr}` : `${examId}/${secId}`;
+        if (Object.prototype.hasOwnProperty.call(precomputed, key)) {
+          const pn = Number(precomputed[key]) || 0;
+          if (pn > 0) {
+            badge.textContent = `${pn} ${t("topic.questions")}`;
+            badge.hidden = false;
+          }
+          return;
+        }
+      }
       let n = 0;
       try {
-        const pathStr = badge.dataset.countPath || "";
         if (pathStr) {
           const path = pathStr.split("/").filter(Boolean);
           const node = examFindSubNode(sec.subcategories || [], path);
@@ -3450,6 +3569,13 @@
   /* Sum every question in the "Your Exams" library and add it to the hero
      counter. Runs once per page load; updates the counter as each exam loads. */
   function loadExamQuestionTotal() {
+    /* Precomputed total from data/counts.json — no exam files downloaded. */
+    if (state.counts && typeof state.counts.examsTotal === "number") {
+      state.examQuestionTotal = state.counts.examsTotal;
+      state.examTotalLoaded = true;
+      updateHeroTotals();
+      return Promise.resolve(state.examQuestionTotal);
+    }
     if (state.examTotalPromise) return state.examTotalPromise;
     state.examTotalPromise = (async () => {
       try {
@@ -5725,6 +5851,7 @@
     holder.appendChild(card);
     document.body.appendChild(holder);
     try {
+      await ensureHtml2canvas();
       if (!window.html2canvas) throw new Error("html2canvas unavailable");
       const canvas = await window.html2canvas(card, { scale: 2, useCORS: true, logging: false, backgroundColor: "#4f46e5" });
       return canvas.toDataURL("image/png");
@@ -6005,6 +6132,14 @@
       console.error("Failed to load categories:", err);
     }
 
+    /* One small manifest replaces the old per-topic fetch storm. */
+    try {
+      const counts = await API.getCounts();
+      applyPrecomputedCounts(counts);
+    } catch (err) {
+      /* counts.json is optional; pages still work without it. */
+    }
+
     try {
       const extras = await API.getTrendingTopics();
       registerExtraTrending(extras);
@@ -6028,27 +6163,9 @@
 
       renderRoute();
 
-      state.topicIndex.forEach(async (rec) => {
-        try {
-          const d = await API.getTopic(rec.cat.id, rec.topic.id, rec.sub && rec.sub.id, rec.cat && rec.cat.contentLayout);
-          if (d) {
-            const list = Array.isArray(d) ? d : (Array.isArray(d.questions) ? d.questions : []);
-            rec.nQuestions = list.length;
-            rec.topic.questions = list;
-            
-            const el = document.getElementById(`count-${rec.path.replace(/\//g, '-')}`);
-            if (el && rec.cat.id !== "study-guides") el.textContent = `${rec.nQuestions} ${t("topic.questions")}`;
-
-            const tEl = document.getElementById(`trend-count-${rec.path.replace(/\//g, '-')}`);
-            if (tEl && rec.cat.id !== "study-guides") tEl.textContent = `${escapeHtml(localized(rec.cat.name))} • ${rec.nQuestions} ${t("topic.questions")}`;
-
-            const dlEl = document.getElementById(`dl-count-${rec.path.replace(/\//g, '-')}`);
-            if (dlEl) dlEl.textContent = `${rec.nQuestions}`;
-
-            updateHeroTotals();
-          }
-        } catch (e) { }
-      });
+      /* Counts are taken from data/counts.json (applyPrecomputedCounts),
+         so no per-topic downloads happen during boot. */
+      updateHeroTotals();
 
     } else {
       $("#app").innerHTML = `<div class="loader"><p>${t("load.error")}</p></div>`;
