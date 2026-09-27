@@ -1,30 +1,6182 @@
-{
-  "id": "government-schemes-001",
-  "q": {
-    "en": "'Orunodoi' scheme of the Government of Assam provides monthly financial assistance to —",
-    "as": "অসম চৰকাৰৰ 'অৰুণোদয়' আঁচনিয়ে মাহিলী আৰ্থিক সহায় প্ৰদান কৰে —"
-  },
-  "options": [
-    {
-      "en": "Only farmers",
-      "as": "কেৱল কৃষক"
+[
+  {
+    "id": "government-schemes-001",
+    "q": {
+      "en": "'Orunodoi' scheme of the Government of Assam provides monthly financial assistance to —",
+      "as": "অসম চৰকাৰৰ 'অৰুণোদয়' আঁচনিয়ে মাহিলী আৰ্থিক সহায় প্ৰদান কৰে —"
     },
-    {
-      "en": "Eligible poor families",
-      "as": "যোগ্য দুখীয়া পৰিয়াল"
-    },
-    {
-      "en": "Only students",
-      "as": "কেৱল শিক্ষাৰ্থী"
-    },
-    {
-      "en": "Only government employees",
-      "as": "কেৱল চৰকাৰী কৰ্মচাৰী"
+    "options": [
+      {
+        "en": "Only students",
+        "as": "কেৱল শিক্ষাৰ্থী"
+      },
+      {
+        "en": "Only farmers",
+        "as": "কেৱল কৃষক"
+      },
+      {
+        "en": "Only government employees",
+        "as": "কেৱল চৰকাৰী কৰ্মচাৰী"
+      },
+      {
+        "en": "Eligible poor families",
+        "as": "যোগ্য দুখীয়া পৰিয়াল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Orunodoi provides monthly financial assistance to eligible poor families of Assam.",
+      "as": "অৰুণোদয়ে অসমৰ যোগ্য দুখীয়া পৰিয়ালক মাহিলী আৰ্থিক সহায় প্ৰদান কৰে।"
     }
-  ],
-  "correct": 1,
-  "explanation": {
-    "en": "Orunodoi provides monthly financial assistance to eligible poor families of Assam.",
-    "as": "অৰুণোদয়ে অসমৰ যোগ্য দুখীয়া পৰিয়ালক মাহিলী আৰ্থিক সহায় প্ৰদান কৰে।"
+  },
+  {
+    "id": "government-schemes-002",
+    "q": {
+      "en": "Under the Orunodoi scheme, how much financial assistance is provided per month?",
+      "as": "অৰুণোদয় আঁচনিৰ অধীনত মাহিলী কিমান আৰ্থিক সহায় প্ৰদান কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Rs 1250",
+        "as": "১২৫০ টকা"
+      },
+      {
+        "en": "Rs 3000",
+        "as": "৩০০০ টকা"
+      },
+      {
+        "en": "Rs 500",
+        "as": "৫০০ টকা"
+      },
+      {
+        "en": "Rs 1000",
+        "as": "১০০০ টকা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Orunodoi provides Rs 1250 per month to eligible households.",
+      "as": "অৰুণোদয়ে যোগ্য পৰিয়ালক মাহিলী ১২৫০ টকা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-003",
+    "q": {
+      "en": "In which year was the Orunodoi scheme launched?",
+      "as": "অৰুণোদয় আঁচনি কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2021",
+        "as": "২০২১"
+      },
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Orunodoi scheme was launched in 2020.",
+      "as": "অৰুণোদয় আঁচনি ২০২০ চনত আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-004",
+    "q": {
+      "en": "Orunodoi is a scheme of which government?",
+      "as": "অৰুণোদয় কোন চৰকাৰৰ আঁচনি?"
+    },
+    "options": [
+      {
+        "en": "Government of Nagaland",
+        "as": "নাগালেণ্ড চৰকাৰ"
+      },
+      {
+        "en": "Government of Assam",
+        "as": "অসম চৰকাৰ"
+      },
+      {
+        "en": "Government of India",
+        "as": "ভাৰত চৰকাৰ"
+      },
+      {
+        "en": "Government of Meghalaya",
+        "as": "মেঘালয় চৰকাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Orunodoi is a scheme of the Government of Assam.",
+      "as": "অৰুণোদয় অসম চৰকাৰৰ আঁচনি।"
+    }
+  },
+  {
+    "id": "government-schemes-005",
+    "q": {
+      "en": "Under Orunodoi, the assistance is generally credited to the bank account of the —",
+      "as": "অৰুণোদয়ৰ অধীনত সহায় সাধাৰণতে কাৰ বেংক একাউণ্টত জমা কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "Village headman",
+        "as": "গাঁৱৰ মুৰব্বী"
+      },
+      {
+        "en": "Woman head of the family",
+        "as": "পৰিয়ালৰ মহিলা মুৰব্বী"
+      },
+      {
+        "en": "Eldest son",
+        "as": "ডাঙৰ পুত্ৰ"
+      },
+      {
+        "en": "Local bank manager",
+        "as": "স্থানীয় বেংক পৰিচালক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Orunodoi assistance is credited to the bank account of the woman head of the family.",
+      "as": "অৰুণোদয়ৰ সহায় পৰিয়ালৰ মহিলা মুৰব্বীৰ বেংক একাউণ্টত জমা কৰা হয়।"
+    }
+  },
+  {
+    "id": "government-schemes-006",
+    "q": {
+      "en": "The Atal Amrit Abhiyan of Assam is related to which field?",
+      "as": "অসমৰ অটল অমৃত অভিযান কোন ক্ষেত্ৰৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Health",
+        "as": "স্বাস্থ্য"
+      },
+      {
+        "en": "Education",
+        "as": "শিক্ষা"
+      },
+      {
+        "en": "Agriculture",
+        "as": "কৃষি"
+      },
+      {
+        "en": "Sports",
+        "as": "ক্ৰীড়া"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Atal Amrit Abhiyan is a health assurance scheme of Assam.",
+      "as": "অটল অমৃত অভিযান অসমৰ স্বাস্থ্য সুৰক্ষা আঁচনি।"
+    }
+  },
+  {
+    "id": "government-schemes-007",
+    "q": {
+      "en": "Under the Atal Amrit Abhiyan, financial coverage is provided up to —",
+      "as": "অটল অমৃত অভিযানৰ অধীনত কিমানলৈকে আৰ্থিক সুবিধা প্ৰদান কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "Rs 1 lakh",
+        "as": "১ লাখ টকা"
+      },
+      {
+        "en": "Rs 10 lakh",
+        "as": "১০ লাখ টকা"
+      },
+      {
+        "en": "Rs 2 lakh",
+        "as": "২ লাখ টকা"
+      },
+      {
+        "en": "Rs 5 lakh",
+        "as": "৫ লাখ টকা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Atal Amrit Abhiyan provides coverage up to Rs 2 lakh.",
+      "as": "অটল অমৃত অভিযানে ২ লাখ টকালৈকে সুবিধা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-008",
+    "q": {
+      "en": "In which year was the Atal Amrit Abhiyan launched?",
+      "as": "অটল অমৃত অভিযান কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Atal Amrit Abhiyan was launched in 2016.",
+      "as": "অটল অমৃত অভিযান ২০১৬ চনত আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-009",
+    "q": {
+      "en": "The Atal Amrit Abhiyan mainly benefits —",
+      "as": "অটল অমৃত অভিযানে মূলতঃ কাক লাভান্বিত কৰে —"
+    },
+    "options": [
+      {
+        "en": "Only industrialists",
+        "as": "কেৱল উদ্যোগপতি"
+      },
+      {
+        "en": "Only foreign tourists",
+        "as": "কেৱল বিদেশী পৰ্যটক"
+      },
+      {
+        "en": "Eligible BPL and low-income families",
+        "as": "যোগ্য বিপিএল আৰু কম আয়ৰ পৰিয়াল"
+      },
+      {
+        "en": "Only government officers",
+        "as": "কেৱল চৰকাৰী বিষয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Atal Amrit Abhiyan benefits eligible BPL and low-income families.",
+      "as": "অটল অমৃত অভিযানে যোগ্য বিপিএল আৰু কম আয়ৰ পৰিয়ালক লাভান্বিত কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-010",
+    "q": {
+      "en": "The 'Nijut Moina' scheme of Assam provides a monthly stipend to —",
+      "as": "অসমৰ 'নিজুত মইনা' আঁচনিয়ে মাহিলী বৃত্তি প্ৰদান কৰে —"
+    },
+    "options": [
+      {
+        "en": "Street vendors",
+        "as": "পথ বিক্ৰেতা"
+      },
+      {
+        "en": "Farmers",
+        "as": "কৃষকসকল"
+      },
+      {
+        "en": "Government employees",
+        "as": "চৰকাৰী কৰ্মচাৰী"
+      },
+      {
+        "en": "Girl students",
+        "as": "ছাত্ৰীসকল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Nijut Moina provides a monthly stipend to girl students in Assam.",
+      "as": "নিজুত মইনাই অসমৰ ছাত্ৰীসকলক মাহিলী বৃত্তি প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-011",
+    "q": {
+      "en": "In which year was the Nijut Moina scheme launched in Assam?",
+      "as": "অসমত নিজুত মইনা আঁচনি কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2022",
+        "as": "২০২২"
+      },
+      {
+        "en": "2024",
+        "as": "২০২৪"
+      },
+      {
+        "en": "2021",
+        "as": "২০২১"
+      },
+      {
+        "en": "2023",
+        "as": "২০২৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Nijut Moina was launched in 2024.",
+      "as": "নিজুত মইনা ২০২৪ চনত আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-012",
+    "q": {
+      "en": "Nijut Moina is a scheme of which government?",
+      "as": "নিজুত মইনা কোন চৰকাৰৰ আঁচনি?"
+    },
+    "options": [
+      {
+        "en": "Government of Tripura",
+        "as": "ত্ৰিপুৰা চৰকাৰ"
+      },
+      {
+        "en": "Government of Manipur",
+        "as": "মণিপুৰ চৰকাৰ"
+      },
+      {
+        "en": "Government of India",
+        "as": "ভাৰত চৰকাৰ"
+      },
+      {
+        "en": "Government of Assam",
+        "as": "অসম চৰকাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Nijut Moina is a scheme of the Government of Assam.",
+      "as": "নিজুত মইনা অসম চৰকাৰৰ আঁচনি।"
+    }
+  },
+  {
+    "id": "government-schemes-013",
+    "q": {
+      "en": "What is the full form of CMSGUY, a scheme of Assam?",
+      "as": "অসমৰ আঁচনি চিএমএছজিইউৱাইৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Central Mission for Gram Unnayan Yojana",
+        "as": "চেণ্ট্ৰেল মিছন ফৰ গ্ৰাম উন্নয়ন যোজনা"
+      },
+      {
+        "en": "Chief Minister Social Growth Urban Yojana",
+        "as": "চিফ মিনিষ্টাৰ ছ'চিয়েল গ্ৰ'থ আৰ্বান যোজনা"
+      },
+      {
+        "en": "Chief Minister Samagra Gramya Unnayan Yojana",
+        "as": "চিফ মিনিষ্টাৰ সমগ্ৰ গ্ৰাম্য উন্নয়ন যোজনা"
+      },
+      {
+        "en": "Chief Minister's Gram Udyog Yojana",
+        "as": "চিফ মিনিষ্টাৰছ গ্ৰাম উদ্যোগ যোজনা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "CMSGUY stands for Chief Minister Samagra Gramya Unnayan Yojana.",
+      "as": "চিএমএছজিইউৱাইৰ অৰ্থ হ'ল চিফ মিনিষ্টাৰ সমগ্ৰ গ্ৰাম্য উন্নয়ন যোজনা।"
+    }
+  },
+  {
+    "id": "government-schemes-014",
+    "q": {
+      "en": "The main objective of the CMSGUY scheme is —",
+      "as": "চিএমএছজিইউৱাই আঁচনিৰ মূল উদ্দেশ্য কি —"
+    },
+    "options": [
+      {
+        "en": "Holistic rural development",
+        "as": "সৰ্বাংগীন গ্ৰাম্য উন্নয়ন"
+      },
+      {
+        "en": "Foreign investment",
+        "as": "বিদেশী বিনিয়োগ"
+      },
+      {
+        "en": "Urban housing",
+        "as": "চহৰীয়া আবাস"
+      },
+      {
+        "en": "Industrial export",
+        "as": "ঔদ্যোগিক ৰপ্তানি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "CMSGUY aims at holistic rural development.",
+      "as": "চিএমএছজিইউৱাইৰ লক্ষ্য সৰ্বাংগীন গ্ৰাম্য উন্নয়ন।"
+    }
+  },
+  {
+    "id": "government-schemes-015",
+    "q": {
+      "en": "Assam's 'Mission Basundhara' is related to —",
+      "as": "অসমৰ 'মিছন বসুন্ধৰা' কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Land records and management",
+        "as": "ভূমি ৰেকৰ্ড আৰু ব্যৱস্থাপনা"
+      },
+      {
+        "en": "Higher education",
+        "as": "উচ্চ শিক্ষা"
+      },
+      {
+        "en": "Health services",
+        "as": "স্বাস্থ্য সেৱা"
+      },
+      {
+        "en": "Tourism",
+        "as": "পৰ্যটন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mission Basundhara is related to land records and management.",
+      "as": "মিছন বসুন্ধৰা ভূমি ৰেকৰ্ড আৰু ব্যৱস্থাপনাৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-016",
+    "q": {
+      "en": "Mission Basundhara was launched in Assam in —",
+      "as": "অসমত মিছন বসুন্ধৰা কেতিয়া আৰম্ভ কৰা হৈছিল —"
+    },
+    "options": [
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2021",
+        "as": "২০২১"
+      },
+      {
+        "en": "2022",
+        "as": "২০২২"
+      },
+      {
+        "en": "2020",
+        "as": "২০২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mission Basundhara was launched in 2021.",
+      "as": "মিছন বসুন্ধৰা ২০২১ চনত আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-017",
+    "q": {
+      "en": "The Anundoram Borooah Award of Assam is given to —",
+      "as": "অসমৰ আনন্দৰাম বৰুৱা বঁটা কাক প্ৰদান কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "Retired teachers",
+        "as": "অৱসৰপ্ৰাপ্ত শিক্ষক"
+      },
+      {
+        "en": "Farmers",
+        "as": "কৃষক"
+      },
+      {
+        "en": "Meritorious students",
+        "as": "মেধাৱী শিক্ষাৰ্থী"
+      },
+      {
+        "en": "Sportspersons",
+        "as": "খেলুৱৈ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Anundoram Borooah Award is given to meritorious students.",
+      "as": "আনন্দৰাম বৰুৱা বঁটা মেধাৱী শিক্ষাৰ্থীসকলক প্ৰদান কৰা হয়।"
+    }
+  },
+  {
+    "id": "government-schemes-018",
+    "q": {
+      "en": "The Anundoram Borooah Award is named after a famous —",
+      "as": "আনন্দৰাম বৰুৱা বঁটা এজন বিখ্যাত কাৰ নামেৰে নামাকৰণ কৰা হৈছে —"
+    },
+    "options": [
+      {
+        "en": "Footballer",
+        "as": "ফুটবলাৰ"
+      },
+      {
+        "en": "Politician",
+        "as": "ৰাজনীতিবিদ"
+      },
+      {
+        "en": "Scholar and educationist",
+        "as": "পণ্ডিত আৰু শিক্ষাবিদ"
+      },
+      {
+        "en": "Singer",
+        "as": "গায়ক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Anundoram Borooah was a great scholar and educationist.",
+      "as": "আনন্দৰাম বৰুৱা এজন মহান পণ্ডিত আৰু শিক্ষাবিদ আছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-019",
+    "q": {
+      "en": "The Mukhya Mantri Krishi Sa-Sajuli Yojana of Assam provides —",
+      "as": "অসমৰ মুখ্যমন্ত্ৰী কৃষি সা-সজুলি আঁচনিয়ে প্ৰদান কৰে —"
+    },
+    "options": [
+      {
+        "en": "Farm equipment and tools to farmers",
+        "as": "কৃষকক কৃষি সঁজুলি আৰু আহিলা"
+      },
+      {
+        "en": "Cash to traders",
+        "as": "ব্যৱসায়ীক নগদ"
+      },
+      {
+        "en": "Free motorcycles",
+        "as": "বিনামূলীয়া মটৰচাইকেল"
+      },
+      {
+        "en": "Free laptops",
+        "as": "বিনামূলীয়া লেপটপ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mukhya Mantri Krishi Sa-Sajuli Yojana provides farm equipment to farmers.",
+      "as": "মুখ্যমন্ত্ৰী কৃষি সা-সজুলি আঁচনিয়ে কৃষকক কৃষি সঁজুলি প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-020",
+    "q": {
+      "en": "The Assam Micro Finance Incentive and Relief Scheme was launched to help —",
+      "as": "অসম মাইক্ৰ' ফাইনেন্স প্ৰণোদনা আৰু ৰেহাই আঁচনি কাক সহায় কৰিবলৈ আৰম্ভ কৰা হৈছিল —"
+    },
+    "options": [
+      {
+        "en": "Industrialists",
+        "as": "উদ্যোগপতি"
+      },
+      {
+        "en": "Foreign investors",
+        "as": "বিদেশী বিনিয়োগকাৰী"
+      },
+      {
+        "en": "Microfinance borrowers",
+        "as": "মাইক্ৰ'ফাইনেন্স ঋণগ্ৰহণকাৰী"
+      },
+      {
+        "en": "Government staff",
+        "as": "চৰকাৰী কৰ্মচাৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The scheme helps microfinance borrowers in Assam.",
+      "as": "আঁচনিখনে অসমৰ মাইক্ৰ'ফাইনেন্স ঋণগ্ৰহণকাৰীক সহায় কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-021",
+    "q": {
+      "en": "Assam Arogya Nidhi is a scheme that provides —",
+      "as": "অসম আৰোগ্য নিধি এটা আঁচনি যিয়ে প্ৰদান কৰে —"
+    },
+    "options": [
+      {
+        "en": "Free education",
+        "as": "বিনামূলীয়া শিক্ষা"
+      },
+      {
+        "en": "Financial assistance for medical treatment",
+        "as": "চিকিৎসাৰ বাবে আৰ্থিক সহায়"
+      },
+      {
+        "en": "Free legal aid",
+        "as": "বিনামূলীয়া আইনী সহায়"
+      },
+      {
+        "en": "Free housing",
+        "as": "বিনামূলীয়া আবাস"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assam Arogya Nidhi provides financial assistance for medical treatment.",
+      "as": "অসম আৰোগ্য নিধিয়ে চিকিৎসাৰ বাবে আৰ্থিক সহায় প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-022",
+    "q": {
+      "en": "The 'Assam Darshan' scheme is related to —",
+      "as": "'অসম দৰ্শন' আঁচনি কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Pilgrimage for senior citizens",
+        "as": "জ্যেষ্ঠ নাগৰিকৰ তীৰ্থযাত্ৰা"
+      },
+      {
+        "en": "Higher education",
+        "as": "উচ্চ শিক্ষা"
+      },
+      {
+        "en": "Industrial parks",
+        "as": "ঔদ্যোগিক উদ্যান"
+      },
+      {
+        "en": "Road construction",
+        "as": "পথ নিৰ্মাণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assam Darshan facilitates pilgrimage for senior citizens.",
+      "as": "অসম দৰ্শনে জ্যেষ্ঠ নাগৰিকসকলক তীৰ্থযাত্ৰাত সহায় কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-023",
+    "q": {
+      "en": "The 'Aponar Apon Ghar' scheme of Assam is related to —",
+      "as": "অসমৰ 'আপোনাৰ আপোন ঘৰ' আঁচনি কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Skill training",
+        "as": "দক্ষতা প্ৰশিক্ষণ"
+      },
+      {
+        "en": "Fish farming",
+        "as": "মাছ পালন"
+      },
+      {
+        "en": "Health insurance",
+        "as": "স্বাস্থ্য বীমা"
+      },
+      {
+        "en": "Housing loan and home ownership",
+        "as": "গৃহ ঋণ আৰু ঘৰৰ মালিকীস্বত্ব"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Aponar Apon Ghar supports housing loans and home ownership.",
+      "as": "আপোনাৰ আপোন ঘৰে গৃহ ঋণ আৰু গৃহ মালিকীক সহায় কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-024",
+    "q": {
+      "en": "What is the full form of SVAYEM, a scheme of Assam?",
+      "as": "অসমৰ আঁচনি এছভিএৱাইইএমৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "State Village and Youth Enterprise Mission",
+        "as": "ষ্টেট ভিলেজ এণ্ড যুথ এণ্টাৰপ্ৰাইজ মিছন"
+      },
+      {
+        "en": "Social Village Assam Youth Employment Mission",
+        "as": "ছ'চিয়েল ভিলেজ অসম যুথ এমপ্লয়মেণ্ট মিছন"
+      },
+      {
+        "en": "Swami Vivekananda Assam Youth Empowerment Yojana",
+        "as": "স্বামী বিবেকানন্দ অসম যুৱ সৱলীকৰণ যোজনা"
+      },
+      {
+        "en": "Swami Vivekananda Assam Youth Employment Model",
+        "as": "স্বামী বিবেকানন্দ অসম যুৱ এমপ্লয়মেণ্ট মডেল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SVAYEM stands for Swami Vivekananda Assam Youth Empowerment Yojana.",
+      "as": "এছভিএৱাইইএমৰ অৰ্থ হ'ল স্বামী বিবেকানন্দ অসম যুৱ সৱলীকৰণ যোজনা।"
+    }
+  },
+  {
+    "id": "government-schemes-025",
+    "q": {
+      "en": "The SVAYEM scheme of Assam aims to promote —",
+      "as": "অসমৰ এছভিএৱাইইএম আঁচনিৰ লক্ষ্য কি প্ৰসাৰ কৰা —"
+    },
+    "options": [
+      {
+        "en": "Organic farming only",
+        "as": "কেৱল জৈৱিক কৃষি"
+      },
+      {
+        "en": "Self-employment among youth",
+        "as": "যুৱকসকলৰ মাজত স্ব-নিযুক্তি"
+      },
+      {
+        "en": "Heavy industry",
+        "as": "ভাৰী উদ্যোগ"
+      },
+      {
+        "en": "Foreign tourism",
+        "as": "বিদেশী পৰ্যটন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SVAYEM promotes self-employment among the youth.",
+      "as": "এছভিএৱাইইএমে যুৱকসকলৰ মাজত স্ব-নিযুক্তি প্ৰসাৰ কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-026",
+    "q": {
+      "en": "The 'Pragyan Bharati' scheme of Assam is related to —",
+      "as": "অসমৰ 'প্ৰজ্ঞান ভাৰতী' আঁচনি কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Fisheries",
+        "as": "মৎস্য"
+      },
+      {
+        "en": "Road safety",
+        "as": "পথ সুৰক্ষা"
+      },
+      {
+        "en": "Old age pension",
+        "as": "বাৰ্ধক্য পেঞ্চন"
+      },
+      {
+        "en": "Free admission and stipend for students",
+        "as": "শিক্ষাৰ্থীৰ বাবে বিনামূলীয়া নামভৰ্তি আৰু বৃত্তি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Pragyan Bharati provides free admission and stipends to students.",
+      "as": "প্ৰজ্ঞান ভাৰতীয়ে শিক্ষাৰ্থীসকলক বিনামূলীয়া নামভৰ্তি আৰু বৃত্তি প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-027",
+    "q": {
+      "en": "The 'Bhasha Gaurav' scheme of Assam is related to —",
+      "as": "অসমৰ 'ভাষা গৌৰৱ' আঁচনি কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "English teaching",
+        "as": "ইংৰাজী শিক্ষণ"
+      },
+      {
+        "en": "Sports coaching",
+        "as": "ক্ৰীড়া প্ৰশিক্ষণ"
+      },
+      {
+        "en": "Rural electrification",
+        "as": "গ্ৰাম্য বিদ্যুতীকৰণ"
+      },
+      {
+        "en": "Awards for excellence in the Assamese language",
+        "as": "অসমীয়া ভাষাত উৎকৃষ্টতাৰ বাবে বঁটা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Bhasha Gaurav awards students for excellence in the Assamese language.",
+      "as": "ভাষা গৌৰৱে অসমীয়া ভাষাত উৎকৃষ্টতাৰ বাবে শিক্ষাৰ্থীক বঁটা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-028",
+    "q": {
+      "en": "The Pradhan Mantri Jan Dhan Yojana is related to —",
+      "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনা কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Housing",
+        "as": "আবাস"
+      },
+      {
+        "en": "Crop insurance",
+        "as": "শস্য বীমা"
+      },
+      {
+        "en": "Rural roads",
+        "as": "গ্ৰাম্য পথ"
+      },
+      {
+        "en": "Financial inclusion",
+        "as": "আৰ্থিক অন্তৰ্ভুক্তি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "PM Jan Dhan Yojana is a financial inclusion scheme.",
+      "as": "পিএম জন ধন যোজনা এখন আৰ্থিক অন্তৰ্ভুক্তি আঁচনি।"
+    }
+  },
+  {
+    "id": "government-schemes-029",
+    "q": {
+      "en": "In which year was the Pradhan Mantri Jan Dhan Yojana launched?",
+      "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনা কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2012",
+        "as": "২০১২"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "2013",
+        "as": "২০১৩"
+      },
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "PMJDY was launched in 2014.",
+      "as": "পিএমজেডিৱাই ২০১৪ চনত আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-030",
+    "q": {
+      "en": "What is the tagline of the Pradhan Mantri Jan Dhan Yojana?",
+      "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনাৰ টেগলাইন কি?"
+    },
+    "options": [
+      {
+        "en": "Mera Khata Bhagya Vidhata",
+        "as": "মেৰা খাতা ভাগ্য বিধাতা"
+      },
+      {
+        "en": "Jai Jawan Jai Kisan",
+        "as": "জয় জৱান জয় কিষাণ"
+      },
+      {
+        "en": "Beti Bachao Beti Padhao",
+        "as": "বেটী বচাও বেটী পঢ়াও"
+      },
+      {
+        "en": "Sabka Sath Sabka Vikas",
+        "as": "সবকা সাথ সবকা ৱিকাশ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The PMJDY tagline is 'Mera Khata Bhagya Vidhata'.",
+      "as": "পিএমজেডিৱাইৰ টেগলাইন 'মেৰা খাতা ভাগ্য বিধাতা'।"
+    }
+  },
+  {
+    "id": "government-schemes-031",
+    "q": {
+      "en": "The main objective of the Pradhan Mantri Jan Dhan Yojana is to —",
+      "as": "প্ৰধানমন্ত্ৰী জন ধন যোজনাৰ মূল উদ্দেশ্য কি —"
+    },
+    "options": [
+      {
+        "en": "Distribute seeds",
+        "as": "বিজ বিতৰণ"
+      },
+      {
+        "en": "Open bank accounts for all households",
+        "as": "সকলো পৰিয়ালৰ বাবে বেংক একাউণ্ট খোলা"
+      },
+      {
+        "en": "Provide free ration",
+        "as": "বিনামূলীয়া ৰেচন প্ৰদান"
+      },
+      {
+        "en": "Build highways",
+        "as": "মহাসড়ক নিৰ্মাণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "PMJDY aims to open bank accounts for all households.",
+      "as": "পিএমজেডিৱাইৰ লক্ষ্য সকলো পৰিয়ালৰ বেংক একাউণ্ট খোলা।"
+    }
+  },
+  {
+    "id": "government-schemes-032",
+    "q": {
+      "en": "The Pradhan Mantri Jeevan Jyoti Bima Yojana provides —",
+      "as": "প্ৰধানমন্ত্ৰী জীৱন জ্যোতি বীমা যোজনে প্ৰদান কৰে —"
+    },
+    "options": [
+      {
+        "en": "Vehicle insurance",
+        "as": "বাহন বীমা"
+      },
+      {
+        "en": "Health insurance",
+        "as": "স্বাস্থ্য বীমা"
+      },
+      {
+        "en": "Life insurance",
+        "as": "জীৱন বীমা"
+      },
+      {
+        "en": "Crop insurance",
+        "as": "শস্য বীমা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "PMJJBY provides life insurance.",
+      "as": "পিএমজেজেবিৱাই জীৱন বীমা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-033",
+    "q": {
+      "en": "Under the Pradhan Mantri Jeevan Jyoti Bima Yojana, the life cover is —",
+      "as": "প্ৰধানমন্ত্ৰী জীৱন জ্যোতি বীমা যোজনাৰ অধীনত জীৱন সুৰক্ষা কিমান —"
+    },
+    "options": [
+      {
+        "en": "Rs 2 lakh",
+        "as": "২ লাখ টকা"
+      },
+      {
+        "en": "Rs 1 lakh",
+        "as": "১ লাখ টকা"
+      },
+      {
+        "en": "Rs 5 lakh",
+        "as": "৫ লাখ টকা"
+      },
+      {
+        "en": "Rs 10 lakh",
+        "as": "১০ লাখ টকা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "PMJJBY provides a life cover of Rs 2 lakh.",
+      "as": "পিএমজেজেবিৱাইয়ে ২ লাখ টকাৰ জীৱন সুৰক্ষা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-034",
+    "q": {
+      "en": "The Pradhan Mantri Suraksha Bima Yojana provides insurance against —",
+      "as": "প্ৰধানমন্ত্ৰী সুৰক্ষা বীমা যোজনে কিৰ বিৰুদ্ধে বীমা প্ৰদান কৰে —"
+    },
+    "options": [
+      {
+        "en": "House damage",
+        "as": "ঘৰৰ ক্ষতি"
+      },
+      {
+        "en": "Accidental death and disability",
+        "as": "দুৰ্ঘটনাজনিত মৃত্যু আৰু অক্ষমতা"
+      },
+      {
+        "en": "Crop failure",
+        "as": "শস্য বিফলতা"
+      },
+      {
+        "en": "Fire accidents only",
+        "as": "কেৱল অগ্নি দুৰ্ঘটনা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "PMSBY provides accidental death and disability insurance.",
+      "as": "পিএমএছবিৱাই দুৰ্ঘটনাজনিত মৃত্যু আৰু অক্ষমতা বীমা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-035",
+    "q": {
+      "en": "Under the Pradhan Mantri Suraksha Bima Yojana, the accidental cover is —",
+      "as": "প্ৰধানমন্ত্ৰী সুৰক্ষা বীমা যোজনাৰ অধীনত দুৰ্ঘটনা সুৰক্ষা কিমান —"
+    },
+    "options": [
+      {
+        "en": "Rs 20 lakh",
+        "as": "২০ লাখ টকা"
+      },
+      {
+        "en": "Rs 2 lakh",
+        "as": "২ লাখ টকা"
+      },
+      {
+        "en": "Rs 5 lakh",
+        "as": "৫ লাখ টকা"
+      },
+      {
+        "en": "Rs 1 lakh",
+        "as": "১ লাখ টকা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "PMSBY provides an accidental cover of Rs 2 lakh.",
+      "as": "পিএমএছবিৱাইয়ে ২ লাখ টকাৰ দুৰ্ঘটনা সুৰক্ষা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-036",
+    "q": {
+      "en": "The Atal Pension Yojana is primarily meant for —",
+      "as": "অটল পেঞ্চন যোজনা মূলতঃ কাৰ বাবে —"
+    },
+    "options": [
+      {
+        "en": "Only doctors",
+        "as": "কেৱল চিকিৎসক"
+      },
+      {
+        "en": "Only students",
+        "as": "কেৱল শিক্ষাৰ্থী"
+      },
+      {
+        "en": "Government officers",
+        "as": "চৰকাৰী বিষয়া"
+      },
+      {
+        "en": "Unorganised sector workers",
+        "as": "অসংগঠিত খণ্ডৰ শ্ৰমিক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Atal Pension Yojana is for unorganised sector workers.",
+      "as": "অটল পেঞ্চন যোজনা অসংগঠিত খণ্ডৰ শ্ৰমিকৰ বাবে।"
+    }
+  },
+  {
+    "id": "government-schemes-037",
+    "q": {
+      "en": "The Atal Pension Yojana provides a pension after the age of —",
+      "as": "অটল পেঞ্চন যোজনে কিমান বছৰ বয়সৰ পিছত পেঞ্চন প্ৰদান কৰে —"
+    },
+    "options": [
+      {
+        "en": "55 years",
+        "as": "৫৫ বছৰ"
+      },
+      {
+        "en": "65 years",
+        "as": "৬৫ বছৰ"
+      },
+      {
+        "en": "50 years",
+        "as": "৫০ বছৰ"
+      },
+      {
+        "en": "60 years",
+        "as": "৬০ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Atal Pension Yojana provides pension after 60 years of age.",
+      "as": "অটল পেঞ্চন যোজনে ৬০ বছৰ বয়সৰ পিছত পেঞ্চন প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-038",
+    "q": {
+      "en": "The Pradhan Mantri Mudra Yojana provides loans to —",
+      "as": "প্ৰধানমন্ত্ৰী মুদ্ৰা যোজনে কাক ঋণ প্ৰদান কৰে —"
+    },
+    "options": [
+      {
+        "en": "Foreign companies",
+        "as": "বিদেশী কোম্পানী"
+      },
+      {
+        "en": "Only farmers",
+        "as": "কেৱল কৃষক"
+      },
+      {
+        "en": "Micro and small enterprises",
+        "as": "ক্ষুদ্ৰ আৰু লঘু উদ্যোগ"
+      },
+      {
+        "en": "Only large industries",
+        "as": "কেৱল বৃহৎ উদ্যোগ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "PM Mudra Yojana provides loans to micro and small enterprises.",
+      "as": "পিএম মুদ্ৰা যোজনে ক্ষুদ্ৰ আৰু লঘু উদ্যোগক ঋণ প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-039",
+    "q": {
+      "en": "Which of the following are categories under the Pradhan Mantri Mudra Yojana?",
+      "as": "তলৰ কোনবোৰ প্ৰধানমন্ত্ৰী মুদ্ৰা যোজনাৰ শ্ৰেণী?"
+    },
+    "options": [
+      {
+        "en": "Gold, Silver, Bronze",
+        "as": "সোণ, ৰূপ, ব্ৰঞ্জ"
+      },
+      {
+        "en": "Shishu, Kishore, Tarun",
+        "as": "শিশু, কিশোৰ, তৰুণ"
+      },
+      {
+        "en": "Red, Green, Blue",
+        "as": "ৰঙা, সেউজীয়া, নীলা"
+      },
+      {
+        "en": "Small, Medium, Large",
+        "as": "ক্ষুদ্ৰ, মধ্যম, বৃহৎ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Mudra categories are Shishu, Kishore and Tarun.",
+      "as": "মুদ্ৰাৰ শ্ৰেণীবোৰ হ'ল শিশু, কিশোৰ আৰু তৰুণ।"
+    }
+  },
+  {
+    "id": "government-schemes-040",
+    "q": {
+      "en": "The Pradhan Mantri Fasal Bima Yojana is related to —",
+      "as": "প্ৰধানমন্ত্ৰী ফচল বীমা যোজনা কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Cattle insurance",
+        "as": "পশু বীমা"
+      },
+      {
+        "en": "Health insurance",
+        "as": "স্বাস্থ্য বীমা"
+      },
+      {
+        "en": "House insurance",
+        "as": "গৃহ বীমা"
+      },
+      {
+        "en": "Crop insurance",
+        "as": "শস্য বীমা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "PM Fasal Bima Yojana is a crop insurance scheme.",
+      "as": "পিএম ফচল বীমা যোজনা এখন শস্য বীমা আঁচনি।"
+    }
+  },
+  {
+    "id": "government-schemes-041",
+    "q": {
+      "en": "The Pradhan Mantri Kisan Samman Nidhi provides income support to —",
+      "as": "প্ৰধানমন্ত্ৰী কিষাণ সম্মান নিধিয়ে আয় সহায় প্ৰদান কৰে —"
+    },
+    "options": [
+      {
+        "en": "Small and marginal farmers",
+        "as": "ক্ষুদ্ৰ আৰু প্ৰান্তীয় কৃষক"
+      },
+      {
+        "en": "Shopkeepers",
+        "as": "দোকানদাৰ"
+      },
+      {
+        "en": "Industrial workers",
+        "as": "ঔদ্যোগিক শ্ৰমিক"
+      },
+      {
+        "en": "Government employees",
+        "as": "চৰকাৰী কৰ্মচাৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "PM-KISAN provides income support to small and marginal farmers.",
+      "as": "পিএম-কিষাণে ক্ষুদ্ৰ আৰু প্ৰান্তীয় কৃষকক আয় সহায় প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-042",
+    "q": {
+      "en": "Under the Pradhan Mantri Kisan Samman Nidhi, how much is given per year?",
+      "as": "প্ৰধানমন্ত্ৰী কিষাণ সম্মান নিধিৰ অধীনত বছৰি কিমান দিয়া হয়?"
+    },
+    "options": [
+      {
+        "en": "Rs 6000",
+        "as": "৬০০০ টকা"
+      },
+      {
+        "en": "Rs 4000",
+        "as": "৪০০০ টকা"
+      },
+      {
+        "en": "Rs 12000",
+        "as": "১২০০০ টকা"
+      },
+      {
+        "en": "Rs 2000",
+        "as": "২০০০ টকা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "PM-KISAN gives Rs 6000 per year in three installments.",
+      "as": "পিএম-কিষাণে তিনি কিস্তিত বছৰি ৬০০০ টকা দিয়ে।"
+    }
+  },
+  {
+    "id": "government-schemes-043",
+    "q": {
+      "en": "In which year was the Pradhan Mantri Kisan Samman Nidhi launched?",
+      "as": "প্ৰধানমন্ত্ৰী কিষাণ সম্মান নিধি কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "PM-KISAN was launched in 2019.",
+      "as": "পিএম-কিষাণ ২০১৯ চনত আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-044",
+    "q": {
+      "en": "The Pradhan Mantri Awas Yojana is related to —",
+      "as": "প্ৰধানমন্ত্ৰী আবাস যোজনা কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Crop insurance",
+        "as": "শস্য বীমা"
+      },
+      {
+        "en": "Housing for all",
+        "as": "সকলোৰে বাবে আবাস"
+      },
+      {
+        "en": "Road construction",
+        "as": "পথ নিৰ্মাণ"
+      },
+      {
+        "en": "Free education",
+        "as": "বিনামূলীয়া শিক্ষা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "PMAY aims to provide housing for all.",
+      "as": "পিএমএৱাইৰ লক্ষ্য সকলোৰে বাবে আবাস প্ৰদান।"
+    }
+  },
+  {
+    "id": "government-schemes-045",
+    "q": {
+      "en": "The Swachh Bharat Mission is primarily related to —",
+      "as": "স্বচ্ছ ভাৰত অভিযান মূলতঃ কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Higher education",
+        "as": "উচ্চ শিক্ষা"
+      },
+      {
+        "en": "Defence",
+        "as": "প্ৰতিৰক্ষা"
+      },
+      {
+        "en": "Foreign trade",
+        "as": "বিদেশী বাণিজ্য"
+      },
+      {
+        "en": "Sanitation and cleanliness",
+        "as": "পৰিচ্ছন্নতা আৰু শৌচ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Swachh Bharat Mission is related to sanitation and cleanliness.",
+      "as": "স্বচ্ছ ভাৰত অভিযান পৰিচ্ছন্নতা আৰু শৌচৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-046",
+    "q": {
+      "en": "The Swachh Bharat Mission was launched on —",
+      "as": "স্বচ্ছ ভাৰত অভিযান কেতিয়া আৰম্ভ কৰা হৈছিল —"
+    },
+    "options": [
+      {
+        "en": "26 January 2015",
+        "as": "২৬ জানুৱাৰী ২০১৫"
+      },
+      {
+        "en": "15 August 2014",
+        "as": "১৫ আগষ্ট ২০১৪"
+      },
+      {
+        "en": "1 May 2015",
+        "as": "১ মে ২০১৫"
+      },
+      {
+        "en": "2 October 2014",
+        "as": "২ অক্টোবৰ ২০১৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Swachh Bharat Mission was launched on 2 October 2014.",
+      "as": "স্বচ্ছ ভাৰত অভিযান ২ অক্টোবৰ ২০১৪ তাৰিখে আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-047",
+    "q": {
+      "en": "The Swachh Bharat Mission was launched on the birth anniversary of —",
+      "as": "স্বচ্ছ ভাৰত অভিযান কাৰ জন্মজয়ন্তীত আৰম্ভ কৰা হৈছিল —"
+    },
+    "options": [
+      {
+        "en": "Sardar Patel",
+        "as": "চৰ্দাৰ পেটেল"
+      },
+      {
+        "en": "B. R. Ambedkar",
+        "as": "বি. আৰ. আম্বেদকৰ"
+      },
+      {
+        "en": "Mahatma Gandhi",
+        "as": "মহাত্মা গান্ধী"
+      },
+      {
+        "en": "Jawaharlal Nehru",
+        "as": "জৱাহৰলাল নেহৰু"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "It was launched on the birth anniversary of Mahatma Gandhi.",
+      "as": "মহাত্মা গান্ধীৰ জন্মজয়ন্তীত ইয়াক আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-048",
+    "q": {
+      "en": "The Ayushman Bharat Pradhan Mantri Jan Arogya Yojana is related to —",
+      "as": "আয়ুষ্মান ভাৰত প্ৰধানমন্ত্ৰী জন আৰোগ্য যোজনা কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Life insurance",
+        "as": "জীৱন বীমা"
+      },
+      {
+        "en": "Crop insurance",
+        "as": "শস্য বীমা"
+      },
+      {
+        "en": "Vehicle insurance",
+        "as": "বাহন বীমা"
+      },
+      {
+        "en": "Health insurance",
+        "as": "স্বাস্থ্য বীমা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "PM-JAY is a health insurance scheme.",
+      "as": "পিএম-জেৱাই এখন স্বাস্থ্য বীমা আঁচনি।"
+    }
+  },
+  {
+    "id": "government-schemes-049",
+    "q": {
+      "en": "Under the Ayushman Bharat PM-JAY, health cover is provided up to —",
+      "as": "আয়ুষ্মান ভাৰত পিএম-জেৱাইৰ অধীনত স্বাস্থ্য সুৰক্ষা কিমানলৈকে প্ৰদান কৰা হয় —"
+    },
+    "options": [
+      {
+        "en": "Rs 10 lakh",
+        "as": "১০ লাখ টকা"
+      },
+      {
+        "en": "Rs 5 lakh",
+        "as": "৫ লাখ টকা"
+      },
+      {
+        "en": "Rs 2 lakh",
+        "as": "২ লাখ টকা"
+      },
+      {
+        "en": "Rs 1 lakh",
+        "as": "১ লাখ টকা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "PM-JAY provides health cover of Rs 5 lakh per family per year.",
+      "as": "পিএম-জেৱাইয়ে প্ৰতি পৰিয়াল বছৰি ৫ লাখ টকাৰ স্বাস্থ্য সুৰক্ষা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-050",
+    "q": {
+      "en": "In which year was the Ayushman Bharat PM-JAY launched?",
+      "as": "আয়ুষ্মান ভাৰত পিএম-জেৱাই কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "PM-JAY was launched in 2018.",
+      "as": "পিএম-জেৱাই ২০১৮ চনত আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-051",
+    "q": {
+      "en": "The Pradhan Mantri Ujjwala Yojana provides —",
+      "as": "প্ৰধানমন্ত্ৰী উজ্জ্বলা যোজনে প্ৰদান কৰে —"
+    },
+    "options": [
+      {
+        "en": "Free LPG connections",
+        "as": "বিনামূলীয়া এলপিজি সংযোগ"
+      },
+      {
+        "en": "Free water",
+        "as": "বিনামূলীয়া পানী"
+      },
+      {
+        "en": "Free electricity",
+        "as": "বিনামূলীয়া বিদ্যুৎ"
+      },
+      {
+        "en": "Free internet",
+        "as": "বিনামূলীয়া ইণ্টাৰনেট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "PMUY provides free LPG connections.",
+      "as": "পিএমইউৱাইয়ে বিনামূলীয়া এলপিজি সংযোগ প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-052",
+    "q": {
+      "en": "In which year was the Pradhan Mantri Ujjwala Yojana launched?",
+      "as": "প্ৰধানমন্ত্ৰী উজ্জ্বলা যোজনা কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      },
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "PMUY was launched in 2016.",
+      "as": "পিএমইউৱাই ২০১৬ চনত আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-053",
+    "q": {
+      "en": "The Pradhan Mantri Ujjwala Yojana primarily benefits —",
+      "as": "প্ৰধানমন্ত্ৰী উজ্জ্বলা যোজনে মূলতঃ কাক লাভান্বিত কৰে —"
+    },
+    "options": [
+      {
+        "en": "Army personnel",
+        "as": "সেনা কৰ্মচাৰী"
+      },
+      {
+        "en": "Women from poor households",
+        "as": "দুখীয়া পৰিয়ালৰ মহিলা"
+      },
+      {
+        "en": "Industrialists",
+        "as": "উদ্যোগপতি"
+      },
+      {
+        "en": "Foreign tourists",
+        "as": "বিদেশী পৰ্যটক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "PMUY primarily benefits women from poor households.",
+      "as": "পিএমইউৱাই মূলতঃ দুখীয়া পৰিয়ালৰ মহিলাক লাভান্বিত কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-054",
+    "q": {
+      "en": "The Beti Bachao Beti Padhao scheme is related to —",
+      "as": "বেটী বচাও বেটী পঢ়াও আঁচনি কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Welfare of the girl child",
+        "as": "কন্যা সন্তানৰ কল্যাণ"
+      },
+      {
+        "en": "Welfare of farmers",
+        "as": "কৃষকৰ কল্যাণ"
+      },
+      {
+        "en": "Welfare of traders",
+        "as": "ব্যৱসায়ীৰ কল্যাণ"
+      },
+      {
+        "en": "Welfare of soldiers",
+        "as": "সৈনিকৰ কল্যাণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "BBBP is related to the welfare of the girl child.",
+      "as": "বিবিবিপি কন্যা সন্তানৰ কল্যাণৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-055",
+    "q": {
+      "en": "In which year was the Beti Bachao Beti Padhao scheme launched?",
+      "as": "বেটী বচাও বেটী পঢ়াও আঁচনি কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "BBBP was launched in 2015.",
+      "as": "বিবিবিপি ২০১৫ চনত আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-056",
+    "q": {
+      "en": "The Sukanya Samriddhi Yojana is a savings scheme meant for —",
+      "as": "সুকন্যা সমৃদ্ধি যোজনা কাৰ বাবে সঞ্চয় আঁচনি —"
+    },
+    "options": [
+      {
+        "en": "A farmer",
+        "as": "এজন কৃষক"
+      },
+      {
+        "en": "A soldier",
+        "as": "এজন সৈনিক"
+      },
+      {
+        "en": "A retired person",
+        "as": "এজন অৱসৰপ্ৰাপ্ত ব্যক্তি"
+      },
+      {
+        "en": "A girl child",
+        "as": "একজনী কন্যা সন্তান"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sukanya Samriddhi Yojana is a savings scheme for a girl child.",
+      "as": "সুকন্যা সমৃদ্ধি যোজনা কন্যা সন্তানৰ বাবে সঞ্চয় আঁচনি।"
+    }
+  },
+  {
+    "id": "government-schemes-057",
+    "q": {
+      "en": "The Mahatma Gandhi National Rural Employment Guarantee Act is related to —",
+      "as": "মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিযুক্তি গেৰাণ্টী আইন কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Higher education",
+        "as": "উচ্চ শিক্ষা"
+      },
+      {
+        "en": "Urban housing",
+        "as": "চহৰীয়া আবাস"
+      },
+      {
+        "en": "Rural wage employment",
+        "as": "গ্ৰাম্য মজুৰি নিযুক্তি"
+      },
+      {
+        "en": "Health insurance",
+        "as": "স্বাস্থ্য বীমা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "MGNREGA guarantees rural wage employment.",
+      "as": "মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিযুক্তি গেৰাণ্টী আইনে গ্ৰাম্য মজুৰি নিযুক্তি নিশ্চিত কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-058",
+    "q": {
+      "en": "Under MGNREGA, how many days of wage employment are guaranteed per household in a year?",
+      "as": "মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিযুক্তি গেৰাণ্টী আইনৰ অধীনত এবছৰত প্ৰতি পৰিয়ালক কিমান দিনৰ মজুৰি নিযুক্তি নিশ্চিত কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "75 days",
+        "as": "৭৫ দিন"
+      },
+      {
+        "en": "150 days",
+        "as": "১৫০ দিন"
+      },
+      {
+        "en": "100 days",
+        "as": "১০০ দিন"
+      },
+      {
+        "en": "50 days",
+        "as": "৫০ দিন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "MGNREGA guarantees 100 days of wage employment per household per year.",
+      "as": "মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিযুক্তি গেৰাণ্টী আইনে বছৰি প্ৰতি পৰিয়ালক ১০০ দিনৰ মজুৰি নিযুক্তি নিশ্চিত কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-059",
+    "q": {
+      "en": "In which year was the National Rural Employment Guarantee Act passed?",
+      "as": "ৰাষ্ট্ৰীয় গ্ৰাম্য নিযুক্তি গেৰাণ্টী আইন কোন বছৰত গৃহীত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2004",
+        "as": "২০০৪"
+      },
+      {
+        "en": "2009",
+        "as": "২০০৯"
+      },
+      {
+        "en": "2005",
+        "as": "২০০৫"
+      },
+      {
+        "en": "2011",
+        "as": "২০১১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Act was passed in 2005.",
+      "as": "আইনখন ২০০৫ চনত গৃহীত হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-060",
+    "q": {
+      "en": "In which year was the NREGA renamed as MGNREGA?",
+      "as": "কোন বছৰত এনআৰইজিএৰ নাম মহাত্মা গান্ধী এনআৰইজিএ ৰখা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2012",
+        "as": "২০১২"
+      },
+      {
+        "en": "2009",
+        "as": "২০০৯"
+      },
+      {
+        "en": "2006",
+        "as": "২০০৬"
+      },
+      {
+        "en": "2007",
+        "as": "২০০৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "NREGA was renamed MGNREGA in 2009.",
+      "as": "২০০৯ চনত এনআৰইজিএৰ নাম মহাত্মা গান্ধী এনআৰইজিএ ৰখা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-061",
+    "q": {
+      "en": "What is the full form of MGNREGA?",
+      "as": "এমজিএনআৰইজিএৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Mahatma Gandhi National Rural Energy Guarantee Act",
+        "as": "মহাত্মা গান্ধী নেশ্যনেল ৰুৰেল এনাৰ্জী গেৰাণ্টী এক্ট"
+      },
+      {
+        "en": "Mahatma Gandhi National Rural Education Guarantee Act",
+        "as": "মহাত্মা গান্ধী নেশ্যনেল ৰুৰেল এডুকেশন গেৰাণ্টী এক্ট"
+      },
+      {
+        "en": "Mahatma Gandhi National Rural Employment Guarantee Act",
+        "as": "মহাত্মা গান্ধী নেশ্যনেল ৰুৰেল এমপ্লয়মেণ্ট গেৰাণ্টী এক্ট"
+      },
+      {
+        "en": "Mahatma Gandhi National Regional Employment Guarantee Act",
+        "as": "মহাত্মা গান্ধী নেশ্যনেল ৰিজনেল এমপ্লয়মেণ্ট গেৰাণ্টী এক্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "MGNREGA stands for Mahatma Gandhi National Rural Employment Guarantee Act.",
+      "as": "এমজিএনআৰইজিএৰ অৰ্থ হ'ল মহাত্মা গান্ধী ৰাষ্ট্ৰীয় গ্ৰাম্য নিযুক্তি গেৰাণ্টী আইন।"
+    }
+  },
+  {
+    "id": "government-schemes-062",
+    "q": {
+      "en": "In which year was the Digital India programme launched?",
+      "as": "ডিজিটেল ইণ্ডিয়া কাৰ্যসূচী কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      },
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Digital India was launched in 2015.",
+      "as": "ডিজিটেল ইণ্ডিয়া ২০১৫ চনত আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-063",
+    "q": {
+      "en": "In which year was the Make in India initiative launched?",
+      "as": "মেক ইন ইণ্ডিয়া পদক্ষেপ কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      },
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Make in India was launched in 2014.",
+      "as": "মেক ইন ইণ্ডিয়া ২০১৪ চনত আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-064",
+    "q": {
+      "en": "In which year was the Startup India initiative launched?",
+      "as": "ষ্টাৰ্টআপ ইণ্ডিয়া পদক্ষেপ কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Startup India was launched in 2016.",
+      "as": "ষ্টাৰ্টআপ ইণ্ডিয়া ২০১৬ চনত আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-065",
+    "q": {
+      "en": "In which year was the Skill India Mission launched?",
+      "as": "স্কিল ইণ্ডিয়া মিছন কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Skill India Mission was launched in 2015.",
+      "as": "স্কিল ইণ্ডিয়া মিছন ২০১৫ চনত আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-066",
+    "q": {
+      "en": "The Stand Up India scheme provides loans mainly to —",
+      "as": "ষ্টেণ্ড আপ ইণ্ডিয়া আঁচনিয়ে মূলতঃ কাক ঋণ প্ৰদান কৰে —"
+    },
+    "options": [
+      {
+        "en": "Foreign companies",
+        "as": "বিদেশী কোম্পানী"
+      },
+      {
+        "en": "Only farmers",
+        "as": "কেৱল কৃষক"
+      },
+      {
+        "en": "SC/ST and women entrepreneurs",
+        "as": "অনুসূচিত জাতি/জনজাতি আৰু মহিলা উদ্যোগী"
+      },
+      {
+        "en": "Only students",
+        "as": "কেৱল শিক্ষাৰ্থী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Stand Up India provides loans to SC/ST and women entrepreneurs.",
+      "as": "ষ্টেণ্ড আপ ইণ্ডিয়া অনুসূচিত জাতি/জনজাতি আৰু মহিলা উদ্যোগীক ঋণ প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-067",
+    "q": {
+      "en": "The Pradhan Mantri Garib Kalyan Anna Yojana provides —",
+      "as": "প্ৰধানমন্ত্ৰী গৰীব কল্যাণ অন্ন যোজনে প্ৰদান কৰে —"
+    },
+    "options": [
+      {
+        "en": "Free food grains",
+        "as": "বিনামূলীয়া খাদ্যশস্য"
+      },
+      {
+        "en": "Free houses",
+        "as": "বিনামূলীয়া ঘৰ"
+      },
+      {
+        "en": "Free petrol",
+        "as": "বিনামূলীয়া পেট্ৰল"
+      },
+      {
+        "en": "Free laptops",
+        "as": "বিনামূলীয়া লেপটপ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "PMGKAY provides free food grains to the poor.",
+      "as": "পিএমজিকেএৱাইয়ে দুখীয়াসকলক বিনামূলীয়া খাদ্যশস্য প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-068",
+    "q": {
+      "en": "In which year was the Pradhan Mantri Garib Kalyan Anna Yojana launched?",
+      "as": "প্ৰধানমন্ত্ৰী গৰীব কল্যাণ অন্ন যোজনা কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2022",
+        "as": "২০২২"
+      },
+      {
+        "en": "2021",
+        "as": "২০২১"
+      },
+      {
+        "en": "2020",
+        "as": "২০২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "PMGKAY was launched in 2020.",
+      "as": "পিএমজিকেএৱাই ২০২০ চনত আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-069",
+    "q": {
+      "en": "In which year was the National Food Security Act passed?",
+      "as": "ৰাষ্ট্ৰীয় খাদ্য সুৰক্ষা আইন কোন বছৰত গৃহীত হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2012",
+        "as": "২০১২"
+      },
+      {
+        "en": "2013",
+        "as": "২০১৩"
+      },
+      {
+        "en": "2011",
+        "as": "২০১১"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The National Food Security Act was passed in 2013.",
+      "as": "ৰাষ্ট্ৰীয় খাদ্য সুৰক্ষা আইন ২০১৩ চনত গৃহীত হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-070",
+    "q": {
+      "en": "The Antyodaya Anna Yojana primarily provides food grains to —",
+      "as": "অন্ত্যোদয় অন্ন যোজনে মূলতঃ কাক খাদ্যশস্য প্ৰদান কৰে —"
+    },
+    "options": [
+      {
+        "en": "Foreign visitors",
+        "as": "বিদেশী আগন্তুক"
+      },
+      {
+        "en": "Industrialists",
+        "as": "উদ্যোগপতি"
+      },
+      {
+        "en": "The poorest of the poor",
+        "as": "আটাইতকৈ দুখীয়াৰ ভিতৰত দুখীয়া"
+      },
+      {
+        "en": "Government officers",
+        "as": "চৰকাৰী বিষয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Antyodaya Anna Yojana provides food grains to the poorest of the poor.",
+      "as": "অন্ত্যোদয় অন্ন যোজনে আটাইতকৈ দুখীয়া লোকসকলক খাদ্যশস্য প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-071",
+    "q": {
+      "en": "The One Nation One Ration Card scheme is related to —",
+      "as": "ৱান নেশ্যন ৱান ৰেশ্যন কাৰ্ড আঁচনি কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Portability of ration benefits",
+        "as": "ৰেশ্যন সুবিধাৰ পৰিবহণযোগ্যতা"
+      },
+      {
+        "en": "Free electricity",
+        "as": "বিনামূলীয়া বিদ্যুৎ"
+      },
+      {
+        "en": "Crop insurance",
+        "as": "শস্য বীমা"
+      },
+      {
+        "en": "Higher education",
+        "as": "উচ্চ শিক্ষা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One Nation One Ration Card allows portability of ration benefits.",
+      "as": "ৱান নেশ্যন ৱান ৰেশ্যন কাৰ্ডে ৰেশ্যন সুবিধা পৰিবহণযোগ্য কৰি তোলে।"
+    }
+  },
+  {
+    "id": "government-schemes-072",
+    "q": {
+      "en": "The Mid Day Meal scheme was renamed as —",
+      "as": "মিড ডে মিল আঁচনিৰ নাম সলনি কৰি ৰখা হৈছিল —"
+    },
+    "options": [
+      {
+        "en": "PM Anna",
+        "as": "পিএম অন্ন"
+      },
+      {
+        "en": "PM Poshan",
+        "as": "পিএম পোষণ"
+      },
+      {
+        "en": "PM Bal",
+        "as": "পিএম বাল"
+      },
+      {
+        "en": "PM Shiksha",
+        "as": "পিএম শিক্ষা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Mid Day Meal scheme was renamed PM Poshan in 2021.",
+      "as": "মিড ডে মিল আঁচনিৰ নাম ২০২১ চনত পিএম পোষণ ৰখা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-073",
+    "q": {
+      "en": "The PM Poshan (Mid Day Meal) scheme generally covers students of —",
+      "as": "পিএম পোষণ (মিড ডে মিল) আঁচনিয়ে সাধাৰণতে কোন শ্ৰেণীৰ শিক্ষাৰ্থীক সামৰে —"
+    },
+    "options": [
+      {
+        "en": "Classes I to VIII",
+        "as": "প্ৰথম শ্ৰেণীৰপৰা অষ্টম শ্ৰেণীলৈ"
+      },
+      {
+        "en": "Only college students",
+        "as": "কেৱল মহাবিদ্যালয়ৰ শিক্ষাৰ্থী"
+      },
+      {
+        "en": "Only pre-nursery children",
+        "as": "কেৱল প্ৰাক-শিশু শ্ৰেণীৰ শিশু"
+      },
+      {
+        "en": "Only university students",
+        "as": "কেৱল বিশ্ববিদ্যালয়ৰ শিক্ষাৰ্থী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "PM Poshan covers students of Classes I to VIII.",
+      "as": "পিএম পোষণে প্ৰথম শ্ৰেণীৰপৰা অষ্টম শ্ৰেণীলৈ শিক্ষাৰ্থীক সামৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-074",
+    "q": {
+      "en": "The Sarva Shiksha Abhiyan is related to —",
+      "as": "সৰ্ব শিক্ষা অভিযান কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Universal elementary education",
+        "as": "সৰ্বজনীন প্ৰাথমিক শিক্ষা"
+      },
+      {
+        "en": "Medical education",
+        "as": "চিকিৎসা শিক্ষা"
+      },
+      {
+        "en": "Higher education only",
+        "as": "কেৱল উচ্চ শিক্ষা"
+      },
+      {
+        "en": "Technical education",
+        "as": "কাৰিকৰী শিক্ষা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sarva Shiksha Abhiyan is related to universal elementary education.",
+      "as": "সৰ্ব শিক্ষা অভিযান সৰ্বজনীন প্ৰাথমিক শিক্ষাৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-075",
+    "q": {
+      "en": "In which year was the Right to Education (RTE) Act enacted?",
+      "as": "শিক্ষাৰ অধিকাৰ (আৰটিই) আইন কোন বছৰত প্ৰণয়ন কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2009",
+        "as": "২০০৯"
+      },
+      {
+        "en": "2013",
+        "as": "২০১৩"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "2005",
+        "as": "২০০৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The RTE Act was enacted in 2009.",
+      "as": "আৰটিই আইন ২০০৯ চনত প্ৰণয়ন কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-076",
+    "q": {
+      "en": "In which year was the Samagra Shiksha Abhiyan launched?",
+      "as": "সমগ্ৰ শিক্ষা অভিযান কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Samagra Shiksha Abhiyan was launched in 2018.",
+      "as": "সমগ্ৰ শিক্ষা অভিযান ২০১৮ চনত আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-077",
+    "q": {
+      "en": "In which year was the National Education Policy announced?",
+      "as": "ৰাষ্ট্ৰীয় শিক্ষা নীতি কোন বছৰত ঘোষণা কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      },
+      {
+        "en": "2022",
+        "as": "২০২২"
+      },
+      {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The National Education Policy was announced in 2020.",
+      "as": "ৰাষ্ট্ৰীয় শিক্ষা নীতি ২০২০ চনত ঘোষণা কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-078",
+    "q": {
+      "en": "The PM e-VIDYA programme is related to —",
+      "as": "পিএম ই-বিদ্যা কাৰ্যসূচী কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Rural roads",
+        "as": "গ্ৰাম্য পথ"
+      },
+      {
+        "en": "Digital and online education",
+        "as": "ডিজিটেল আৰু অনলাইন শিক্ষা"
+      },
+      {
+        "en": "Defence",
+        "as": "প্ৰতিৰক্ষা"
+      },
+      {
+        "en": "Fisheries",
+        "as": "মৎস্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "PM e-VIDYA is related to digital and online education.",
+      "as": "পিএম ই-বিদ্যা ডিজিটেল আৰু অনলাইন শিক্ষাৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-079",
+    "q": {
+      "en": "The POSHAN Abhiyaan is related to —",
+      "as": "পোষণ অভিযান কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Transport",
+        "as": "পৰিবহণ"
+      },
+      {
+        "en": "Tourism",
+        "as": "পৰ্যটন"
+      },
+      {
+        "en": "Nutrition",
+        "as": "পোষণ"
+      },
+      {
+        "en": "Telecom",
+        "as": "দূৰসংযোগ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "POSHAN Abhiyaan is related to nutrition.",
+      "as": "পোষণ অভিযান পোষণৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-080",
+    "q": {
+      "en": "What is the full form of ICDS?",
+      "as": "আইচিডিএছৰ সম্পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Internal Child Development System",
+        "as": "ইণ্টাৰনেল চাইল্ড ডেভেলপমেণ্ট ছিষ্টেম"
+      },
+      {
+        "en": "Indian Child Development Scheme",
+        "as": "ইণ্ডিয়ান চাইল্ড ডেভেলপমেণ্ট স্কীম"
+      },
+      {
+        "en": "Integrated Community Development Services",
+        "as": "ইণ্টিগ্ৰেটেড কমিউনিটি ডেভেলপমেণ্ট ছাৰ্ভিছেছ"
+      },
+      {
+        "en": "Integrated Child Development Services",
+        "as": "ইণ্টিগ্ৰেটেড চাইল্ড ডেভেলপমেণ্ট ছাৰ্ভিছেছ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "ICDS stands for Integrated Child Development Services.",
+      "as": "আইচিডিএছৰ অৰ্থ হ'ল ইণ্টিগ্ৰেটেড চাইল্ড ডেভেলপমেণ্ট ছাৰ্ভিছেছ।"
+    }
+  },
+  {
+    "id": "government-schemes-081",
+    "q": {
+      "en": "Mission Indradhanush is related to —",
+      "as": "মিছন ইন্দ্ৰধনুশ কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Irrigation",
+        "as": "জলসিঞ্চন"
+      },
+      {
+        "en": "Immunization",
+        "as": "টিকাকৰণ"
+      },
+      {
+        "en": "Highways",
+        "as": "মহাসড়ক"
+      },
+      {
+        "en": "Housing",
+        "as": "আবাস"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mission Indradhanush is an immunization drive.",
+      "as": "মিছন ইন্দ্ৰধনুশ এটা টিকাকৰণ অভিযান।"
+    }
+  },
+  {
+    "id": "government-schemes-082",
+    "q": {
+      "en": "The Janani Suraksha Yojana is related to —",
+      "as": "জননী সুৰক্ষা যোজনা কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Safe motherhood and institutional delivery",
+        "as": "সুৰক্ষিত মাতৃত্ব আৰু প্ৰতিষ্ঠানত প্ৰসৱ"
+      },
+      {
+        "en": "Crop insurance",
+        "as": "শস্য বীমা"
+      },
+      {
+        "en": "Rural roads",
+        "as": "গ্ৰাম্য পথ"
+      },
+      {
+        "en": "Higher education",
+        "as": "উচ্চ শিক্ষা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Janani Suraksha Yojana promotes safe motherhood and institutional delivery.",
+      "as": "জননী সুৰক্ষা যোজনে সুৰক্ষিত মাতৃত্ব আৰু প্ৰতিষ্ঠানত প্ৰসৱক প্ৰসাৰ কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-083",
+    "q": {
+      "en": "The Pradhan Mantri Matru Vandana Yojana provides —",
+      "as": "প্ৰধানমন্ত্ৰী মাতৃ বন্দনা যোজনে প্ৰদান কৰে —"
+    },
+    "options": [
+      {
+        "en": "Maternity benefit",
+        "as": "মাতৃত্বকালীন সুবিধা"
+      },
+      {
+        "en": "Vehicle loan",
+        "as": "বাহন ঋণ"
+      },
+      {
+        "en": "Crop loan",
+        "as": "শস্য ঋণ"
+      },
+      {
+        "en": "Old age pension",
+        "as": "বাৰ্ধক্য পেঞ্চন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "PMMVY provides maternity benefit.",
+      "as": "পিএমএমভিৱাই মাতৃত্বকালীন সুবিধা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-084",
+    "q": {
+      "en": "Under the Pradhan Mantri Matru Vandana Yojana, the cash benefit for the first living child is —",
+      "as": "প্ৰধানমন্ত্ৰী মাতৃ বন্দনা যোজনাৰ অধীনত প্ৰথম জীৱিত সন্তানৰ বাবে নগদ সুবিধা কিমান —"
+    },
+    "options": [
+      {
+        "en": "Rs 10000",
+        "as": "১০০০০ টকা"
+      },
+      {
+        "en": "Rs 3000",
+        "as": "৩০০০ টকা"
+      },
+      {
+        "en": "Rs 5000",
+        "as": "৫০০০ টকা"
+      },
+      {
+        "en": "Rs 1000",
+        "as": "১০০০ টকা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "PMMVY provides Rs 5000 for the first living child.",
+      "as": "পিএমএমভিৱাইয়ে প্ৰথম জীৱিত সন্তানৰ বাবে ৫০০০ টকা প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-085",
+    "q": {
+      "en": "The Pradhan Mantri Jan Arogya Yojana (PM-JAY) is a part of —",
+      "as": "প্ৰধানমন্ত্ৰী জন আৰোগ্য যোজনা (পিএম-জেৱাই) কাৰ অংশ —"
+    },
+    "options": [
+      {
+        "en": "Digital India",
+        "as": "ডিজিটেল ইণ্ডিয়া"
+      },
+      {
+        "en": "Ayushman Bharat",
+        "as": "আয়ুষ্মান ভাৰত"
+      },
+      {
+        "en": "Make in India",
+        "as": "মেক ইন ইণ্ডিয়া"
+      },
+      {
+        "en": "Swachh Bharat",
+        "as": "স্বচ্ছ ভাৰত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "PM-JAY is a part of Ayushman Bharat.",
+      "as": "পিএম-জেৱাই আয়ুষ্মান ভাৰতৰ এটা অংশ।"
+    }
+  },
+  {
+    "id": "government-schemes-086",
+    "q": {
+      "en": "The Kisan Credit Card scheme provides —",
+      "as": "কিষাণ ক্ৰেডিট কাৰ্ড আঁচনিয়ে প্ৰদান কৰে —"
+    },
+    "options": [
+      {
+        "en": "Credit to farmers",
+        "as": "কৃষকক ঋণ"
+      },
+      {
+        "en": "Free tractor",
+        "as": "বিনামূলীয়া ট্ৰেক্টৰ"
+      },
+      {
+        "en": "Free housing",
+        "as": "বিনামূলীয়া আবাস"
+      },
+      {
+        "en": "Free seeds",
+        "as": "বিনামূলীয়া বিজ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kisan Credit Card provides credit to farmers.",
+      "as": "কিষাণ ক্ৰেডিট কাৰ্ডে কৃষকক ঋণ প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-087",
+    "q": {
+      "en": "The Soil Health Card Scheme is related to —",
+      "as": "মাটি স্বাস্থ্য কাৰ্ড আঁচনি কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Soil fertility and nutrient status",
+        "as": "মাটিৰ উৰ্বৰতা আৰু পুষ্টি স্থিতি"
+      },
+      {
+        "en": "Human health",
+        "as": "মানৱ স্বাস্থ্য"
+      },
+      {
+        "en": "Building safety",
+        "as": "ভৱন সুৰক্ষা"
+      },
+      {
+        "en": "Vehicle fitness",
+        "as": "বাহন উপযুক্ততা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Soil Health Card Scheme informs farmers about soil fertility.",
+      "as": "মাটি স্বাস্থ্য কাৰ্ড আঁচনিয়ে কৃষকক মাটিৰ উৰ্বৰতাৰ বিষয়ে অৱগত কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-088",
+    "q": {
+      "en": "The e-NAM scheme is related to —",
+      "as": "ই-নাম আঁচনি কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Online shopping",
+        "as": "অনলাইন ক্ৰয়"
+      },
+      {
+        "en": "Online education",
+        "as": "অনলাইন শিক্ষা"
+      },
+      {
+        "en": "Online banking",
+        "as": "অনলাইন বেংকিং"
+      },
+      {
+        "en": "Online national agriculture market",
+        "as": "অনলাইন ৰাষ্ট্ৰীয় কৃষি বজাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "e-NAM is an online national agriculture market.",
+      "as": "ই-নাম এটা অনলাইন ৰাষ্ট্ৰীয় কৃষি বজাৰ।"
+    }
+  },
+  {
+    "id": "government-schemes-089",
+    "q": {
+      "en": "The Pradhan Mantri Krishi Sinchai Yojana is related to —",
+      "as": "প্ৰধানমন্ত্ৰী কৃষি সিঞ্চাই যোজনা কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Crop insurance",
+        "as": "শস্য বীমা"
+      },
+      {
+        "en": "Irrigation",
+        "as": "জলসিঞ্চন"
+      },
+      {
+        "en": "Rural roads",
+        "as": "গ্ৰাম্য পথ"
+      },
+      {
+        "en": "Fisheries",
+        "as": "মৎস্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "PM Krishi Sinchai Yojana is related to irrigation.",
+      "as": "পিএম কৃষি সিঞ্চাই যোজনা জলসিঞ্চনৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-090",
+    "q": {
+      "en": "The Paramparagat Krishi Vikas Yojana promotes —",
+      "as": "পৰম্পৰাগত কৃষি বিকাশ যোজনা কি প্ৰসাৰ কৰে —"
+    },
+    "options": [
+      {
+        "en": "Organic farming",
+        "as": "জৈৱিক কৃষি"
+      },
+      {
+        "en": "Poultry farming",
+        "as": "কুকুৰা পালন"
+      },
+      {
+        "en": "Fish farming",
+        "as": "মাছ পালন"
+      },
+      {
+        "en": "Industrial farming",
+        "as": "ঔদ্যোগিক কৃষি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Paramparagat Krishi Vikas Yojana promotes organic farming.",
+      "as": "পৰম্পৰাগত কৃষি বিকাশ যোজনে জৈৱিক কৃষি প্ৰসাৰ কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-091",
+    "q": {
+      "en": "The Pradhan Mantri Matsya Sampada Yojana is related to —",
+      "as": "প্ৰধানমন্ত্ৰী মৎস্য সম্পদ যোজনা কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Forestry",
+        "as": "বন"
+      },
+      {
+        "en": "Mining",
+        "as": "খনন"
+      },
+      {
+        "en": "Textiles",
+        "as": "বস্ত্ৰ"
+      },
+      {
+        "en": "Fisheries",
+        "as": "মৎস্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "PM Matsya Sampada Yojana is related to fisheries.",
+      "as": "পিএম মৎস্য সম্পদ যোজনা মৎস্যৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-092",
+    "q": {
+      "en": "The Green Revolution in India was mainly associated with —",
+      "as": "ভাৰতৰ সেউজ বিপ্লৱ মূলতঃ কিৰ সৈতে জড়িত আছিল —"
+    },
+    "options": [
+      {
+        "en": "Milk production",
+        "as": "দুগ্ধ উৎপাদন"
+      },
+      {
+        "en": "Food grain production",
+        "as": "খাদ্যশস্য উৎপাদন"
+      },
+      {
+        "en": "Fish production",
+        "as": "মাছ উৎপাদন"
+      },
+      {
+        "en": "Oilseed production",
+        "as": "তেলবীজ উৎপাদন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Green Revolution was associated with food grain production.",
+      "as": "সেউজ বিপ্লৱ খাদ্যশস্য উৎপাদনৰ সৈতে জড়িত আছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-093",
+    "q": {
+      "en": "The White Revolution is associated with —",
+      "as": "শ্বেত বিপ্লৱ কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Food grain production",
+        "as": "খাদ্যশস্য উৎপাদন"
+      },
+      {
+        "en": "Fish production",
+        "as": "মাছ উৎপাদন"
+      },
+      {
+        "en": "Egg production",
+        "as": "কণী উৎপাদন"
+      },
+      {
+        "en": "Milk production",
+        "as": "দুগ্ধ উৎপাদন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The White Revolution is associated with milk production.",
+      "as": "শ্বেত বিপ্লৱ দুগ্ধ উৎপাদনৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-094",
+    "q": {
+      "en": "Operation Flood, launched in India, is associated with —",
+      "as": "ভাৰতত আৰম্ভ কৰা অপাৰেচন ফ্লাড কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Milk production",
+        "as": "দুগ্ধ উৎপাদন"
+      },
+      {
+        "en": "Wheat production",
+        "as": "ঘেঁহু উৎপাদন"
+      },
+      {
+        "en": "Tea production",
+        "as": "চাহ উৎপাদন"
+      },
+      {
+        "en": "Fish production",
+        "as": "মাছ উৎপাদন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Operation Flood was associated with milk production.",
+      "as": "অপাৰেচন ফ্লাড দুগ্ধ উৎপাদনৰ সৈতে জড়িত আছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-095",
+    "q": {
+      "en": "The Yellow Revolution is associated with —",
+      "as": "হালধীয়া বিপ্লৱ কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Oilseed production",
+        "as": "তেলবীজ উৎপাদন"
+      },
+      {
+        "en": "Fish production",
+        "as": "মাছ উৎপাদন"
+      },
+      {
+        "en": "Milk production",
+        "as": "দুগ্ধ উৎপাদন"
+      },
+      {
+        "en": "Meat production",
+        "as": "মাংস উৎপাদন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Yellow Revolution is associated with oilseed production.",
+      "as": "হালধীয়া বিপ্লৱ তেলবীজ উৎপাদনৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-096",
+    "q": {
+      "en": "The Blue Revolution is associated with —",
+      "as": "নীলা বিপ্লৱ কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Cotton production",
+        "as": "কপাহ উৎপাদন"
+      },
+      {
+        "en": "Wheat production",
+        "as": "ঘেঁহু উৎপাদন"
+      },
+      {
+        "en": "Milk production",
+        "as": "দুগ্ধ উৎপাদন"
+      },
+      {
+        "en": "Fish production",
+        "as": "মাছ উৎপাদন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Blue Revolution is associated with fish production.",
+      "as": "নীলা বিপ্লৱ মাছ উৎপাদনৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-097",
+    "q": {
+      "en": "The Golden Revolution is associated with —",
+      "as": "সোণালী বিপ্লৱ কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Coal production",
+        "as": "কয়লা উৎপাদন"
+      },
+      {
+        "en": "Horticulture",
+        "as": "উদ্যানপালন"
+      },
+      {
+        "en": "Fish production",
+        "as": "মাছ উৎপাদন"
+      },
+      {
+        "en": "Milk production",
+        "as": "দুগ্ধ উৎপাদন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Golden Revolution is associated with horticulture.",
+      "as": "সোণালী বিপ্লৱ উদ্যানপালনৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-098",
+    "q": {
+      "en": "The National Rural Livelihood Mission, also known as Aajeevika, works for —",
+      "as": "ৰাষ্ট্ৰীয় গ্ৰাম্য জীৱিকা মিছন, যাক আজীৱিকা বুলিও জনা যায়, কিৰ বাবে কাম কৰে —"
+    },
+    "options": [
+      {
+        "en": "Space research",
+        "as": "মহাকাশ গৱেষণা"
+      },
+      {
+        "en": "Defence production",
+        "as": "প্ৰতিৰক্ষা উৎপাদন"
+      },
+      {
+        "en": "Rural livelihoods",
+        "as": "গ্ৰাম্য জীৱিকা"
+      },
+      {
+        "en": "Urban transport",
+        "as": "চহৰীয়া পৰিবহণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "NRLM (Aajeevika) works for rural livelihoods.",
+      "as": "এনআৰএলএম (আজীৱিকা) গ্ৰাম্য জীৱিকাৰ বাবে কাম কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-099",
+    "q": {
+      "en": "The PM SVANidhi scheme provides support to —",
+      "as": "পিএম স্বনিধি আঁচনিয়ে কাক সহায় প্ৰদান কৰে —"
+    },
+    "options": [
+      {
+        "en": "Engineers",
+        "as": "অভিযন্তা"
+      },
+      {
+        "en": "Street vendors",
+        "as": "পথ বিক্ৰেতা"
+      },
+      {
+        "en": "Doctors",
+        "as": "চিকিৎসক"
+      },
+      {
+        "en": "Farmers",
+        "as": "কৃষক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "PM SVANidhi provides support to street vendors.",
+      "as": "পিএম স্বনিধিয়ে পথ বিক্ৰেতাক সহায় প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-100",
+    "q": {
+      "en": "The Saubhagya Yojana is related to —",
+      "as": "সৌভাগ্য যোজনা কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Drinking water",
+        "as": "খোৱা পানী"
+      },
+      {
+        "en": "Internet connection",
+        "as": "ইণ্টাৰনেট সংযোগ"
+      },
+      {
+        "en": "Electricity connection to households",
+        "as": "পৰিয়াললৈ বিদ্যুৎ সংযোগ"
+      },
+      {
+        "en": "Cooking gas",
+        "as": "ৰন্ধন গেছ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Saubhagya Yojana provides electricity connections to households.",
+      "as": "সৌভাগ্য যোজনা পৰিয়ালক বিদ্যুৎ সংযোগ প্ৰদান কৰে।"
+    }
+  },
+  {
+    "id": "government-schemes-101",
+    "q": {
+      "en": "The Deen Dayal Upadhyaya Gram Jyoti Yojana is related to —",
+      "as": "দীন দয়াল উপাধ্যায় গ্ৰাম জ্যোতি যোজনা কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Rural roads",
+        "as": "গ্ৰাম্য পথ"
+      },
+      {
+        "en": "Rural housing",
+        "as": "গ্ৰাম্য আবাস"
+      },
+      {
+        "en": "Rural health",
+        "as": "গ্ৰাম্য স্বাস্থ্য"
+      },
+      {
+        "en": "Rural electrification",
+        "as": "গ্ৰাম্য বিদ্যুতীকৰণ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "DDUGJY is related to rural electrification.",
+      "as": "ডিডিইউজিজেৱাই গ্ৰাম্য বিদ্যুতীকৰণৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-102",
+    "q": {
+      "en": "In which year was the Smart Cities Mission launched?",
+      "as": "স্মাৰ্ট চিটিজ মিছন কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "2013",
+        "as": "২০১৩"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Smart Cities Mission was launched in 2015.",
+      "as": "স্মাৰ্ট চিটিজ মিছন ২০১৫ চনত আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-103",
+    "q": {
+      "en": "The AMRUT mission is primarily related to —",
+      "as": "অমৃত মিছন মূলতঃ কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Rural roads",
+        "as": "গ্ৰাম্য পথ"
+      },
+      {
+        "en": "Crop insurance",
+        "as": "শস্য বীমা"
+      },
+      {
+        "en": "Urban water supply and sewerage",
+        "as": "চহৰীয়া জল যোগান আৰু নৰ্দমা"
+      },
+      {
+        "en": "Defence",
+        "as": "প্ৰতিৰক্ষা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "AMRUT is related to urban water supply and sewerage.",
+      "as": "অমৃত চহৰীয়া জল যোগান আৰু নৰ্দমাৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-104",
+    "q": {
+      "en": "The Pradhan Mantri Gram Sadak Yojana is related to —",
+      "as": "প্ৰধানমন্ত্ৰী গ্ৰাম সড়ক যোজনা কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Rural health",
+        "as": "গ্ৰাম্য স্বাস্থ্য"
+      },
+      {
+        "en": "Rural electrification",
+        "as": "গ্ৰাম্য বিদ্যুতীকৰণ"
+      },
+      {
+        "en": "Rural roads",
+        "as": "গ্ৰাম্য পথ"
+      },
+      {
+        "en": "Rural housing",
+        "as": "গ্ৰাম্য আবাস"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "PMGSY is related to rural roads.",
+      "as": "পিএমজিএছৱাই গ্ৰাম্য পথৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-105",
+    "q": {
+      "en": "The PM Gati Shakti initiative is related to —",
+      "as": "পিএম গতি শক্তি পদক্ষেপ কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Child welfare",
+        "as": "শিশু কল্যাণ"
+      },
+      {
+        "en": "Health insurance",
+        "as": "স্বাস্থ্য বীমা"
+      },
+      {
+        "en": "Crop insurance",
+        "as": "শস্য বীমা"
+      },
+      {
+        "en": "Infrastructure development",
+        "as": "আধাৰশিলা উন্নয়ন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "PM Gati Shakti is related to infrastructure development.",
+      "as": "পিএম গতি শক্তি আধাৰশিলা উন্নয়নৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-106",
+    "q": {
+      "en": "The Sagarmala programme is related to —",
+      "as": "সাগৰমালা কাৰ্যসূচী কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Railways",
+        "as": "ৰে'লপথ"
+      },
+      {
+        "en": "Port-led development",
+        "as": "বন্দৰ-কেন্দ্ৰিক উন্নয়ন"
+      },
+      {
+        "en": "Highways",
+        "as": "মহাসড়ক"
+      },
+      {
+        "en": "Airports",
+        "as": "বিমানবন্দৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sagarmala is related to port-led development.",
+      "as": "সাগৰমালা বন্দৰ-কেন্দ্ৰিক উন্নয়নৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-107",
+    "q": {
+      "en": "The Bharatmala Pariyojana is related to —",
+      "as": "ভাৰতমালা পৰিযোজনা কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Ports",
+        "as": "বন্দৰ"
+      },
+      {
+        "en": "Highways and road corridors",
+        "as": "মহাসড়ক আৰু পথ কৰিডৰ"
+      },
+      {
+        "en": "Waterways",
+        "as": "জলপথ"
+      },
+      {
+        "en": "Airports",
+        "as": "বিমানবন্দৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bharatmala is related to highways and road corridors.",
+      "as": "ভাৰতমালা মহাসড়ক আৰু পথ কৰিডৰৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-108",
+    "q": {
+      "en": "The UDAN scheme is related to —",
+      "as": "উদান আঁচনি কিৰ সৈতে জড়িত —"
+    },
+    "options": [
+      {
+        "en": "Railways",
+        "as": "ৰে'লপথ"
+      },
+      {
+        "en": "Rural roads",
+        "as": "গ্ৰাম্য পথ"
+      },
+      {
+        "en": "Shipping",
+        "as": "জাহাজ চলাচল"
+      },
+      {
+        "en": "Regional air connectivity",
+        "as": "আঞ্চলিক বিমান সংযোগ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "UDAN is related to regional air connectivity.",
+      "as": "উদান আঞ্চলিক বিমান সংযোগৰ সৈতে জড়িত।"
+    }
+  },
+  {
+    "id": "government-schemes-109",
+    "q": {
+      "en": "In which year was the Atmanirbhar Bharat Abhiyan announced?",
+      "as": "আত্মনিৰ্ভৰ ভাৰত অভিযান কোন বছৰত ঘোষণা কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2021",
+        "as": "২০২১"
+      },
+      {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Atmanirbhar Bharat Abhiyan was announced in 2020.",
+      "as": "আত্মনিৰ্ভৰ ভাৰত অভিযান ২০২০ চনত ঘোষণা কৰা হৈছিল।"
+    }
+  },
+  {
+    "id": "government-schemes-110",
+    "q": {
+      "en": "In which year was the Sansad Adarsh Gram Yojana launched?",
+      "as": "সংসদ আদৰ্শ গ্ৰাম যোজনা কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2013",
+        "as": "২০১৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sansad Adarsh Gram Yojana was launched in 2014.",
+      "as": "সংসদ আদৰ্শ গ্ৰাম যোজনা ২০১৪ চনত আৰম্ভ কৰা হৈছিল।"
+    }
+  },
+  {
+    "q": {
+      "en": "The PM Vishwakarma Yojana is related to —",
+      "as": "পিএম বিশ্বকৰ্মা যোজনা কাৰ সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Only government employees",
+        "as": "কেৱল চৰকাৰী কৰ্মচাৰী"
+      },
+      {
+        "en": "Only IT professionals",
+        "as": "কেৱল তথ্যপ্ৰযুক্তি পেছাদাৰী"
+      },
+      {
+        "en": "Traditional artisans and craftspeople",
+        "as": "পৰম্পৰাগত শিল্পী আৰু কাৰিকৰ"
+      },
+      {
+        "en": "Only scientists",
+        "as": "কেৱল বিজ্ঞানী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "PM Vishwakarma Yojana supports traditional artisans and craftspeople.",
+      "as": "পিএম বিশ্বকৰ্মা যোজনা পৰম্পৰাগত শিল্পী আৰু কাৰিকৰসকলক সহায় কৰে।"
+    },
+    "id": "government-schemes-111"
+  },
+  {
+    "q": {
+      "en": "In which year was the PM Vishwakarma Yojana launched?",
+      "as": "পিএম বিশ্বকৰ্মা যোজনা কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2023",
+        "as": "২০২৩"
+      },
+      {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
+        "en": "2021",
+        "as": "২০২১"
+      },
+      {
+        "en": "2022",
+        "as": "২০২২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "PM Vishwakarma Yojana was launched in 2023.",
+      "as": "পিএম বিশ্বকৰ্মা যোজনা ২০২৩ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-112"
+  },
+  {
+    "q": {
+      "en": "The PM Surya Ghar: Muft Bijli Yojana is related to —",
+      "as": "পিএম সূৰ্য ঘৰ: মুক্ত বিদ্যুৎ যোজনা কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Free education",
+        "as": "বিনামূলীয়া শিক্ষা"
+      },
+      {
+        "en": "Free ration",
+        "as": "বিনামূলীয়া ৰেচন"
+      },
+      {
+        "en": "Free LPG connection",
+        "as": "বিনামূলীয়া এলপিজি সংযোগ"
+      },
+      {
+        "en": "Rooftop solar power for households",
+        "as": "ঘৰুৱা ছাদত সৌৰ বিদ্যুৎ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "PM Surya Ghar: Muft Bijli Yojana promotes rooftop solar power for households.",
+      "as": "পিএম সূৰ্য ঘৰ: মুক্ত বিদ্যুৎ যোজনা ঘৰুৱা ছাদত সৌৰ বিদ্যুৎ প্ৰচাৰ কৰে।"
+    },
+    "id": "government-schemes-113"
+  },
+  {
+    "q": {
+      "en": "In which year was the PM Surya Ghar: Muft Bijli Yojana launched?",
+      "as": "পিএম সূৰ্য ঘৰ: মুক্ত বিদ্যুৎ যোজনা কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2021",
+        "as": "২০২১"
+      },
+      {
+        "en": "2023",
+        "as": "২০২৩"
+      },
+      {
+        "en": "2024",
+        "as": "২০২৪"
+      },
+      {
+        "en": "2022",
+        "as": "২০২২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "PM Surya Ghar: Muft Bijli Yojana was launched in 2024.",
+      "as": "পিএম সূৰ্য ঘৰ: মুক্ত বিদ্যুৎ যোজনা ২০২৪ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-114"
+  },
+  {
+    "q": {
+      "en": "The PM-KUSUM scheme is related to —",
+      "as": "পিএম-কুছুম আঁচনি কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Drinking water",
+        "as": "খোৱাপানী"
+      },
+      {
+        "en": "Solar pumps for farmers",
+        "as": "কৃষকৰ বাবে সৌৰ পাম্প"
+      },
+      {
+        "en": "Rural roads",
+        "as": "গ্ৰাম্য পথ"
+      },
+      {
+        "en": "Kerosene distribution",
+        "as": "কেৰাছিন বিতৰণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "PM-KUSUM promotes solar pumps and renewable energy for farmers.",
+      "as": "পিএম-কুছুমে কৃষকৰ বাবে সৌৰ পাম্প আৰু নৱীকৰণযোগ্য শক্তি প্ৰচাৰ কৰে।"
+    },
+    "id": "government-schemes-115"
+  },
+  {
+    "q": {
+      "en": "The Jal Jeevan Mission is related to —",
+      "as": "জল জীৱন মিছন কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Piped drinking water to rural households",
+        "as": "গ্ৰাম্য পৰিয়াললৈ পাইপযুক্ত খোৱাপানী"
+      },
+      {
+        "en": "Rural electrification",
+        "as": "গ্ৰাম্য বিদ্যুতীকৰণ"
+      },
+      {
+        "en": "Rural roads",
+        "as": "গ্ৰাম্য পথ"
+      },
+      {
+        "en": "LPG distribution",
+        "as": "এলপিজি বিতৰণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Jal Jeevan Mission aims to provide piped drinking water to rural households.",
+      "as": "জল জীৱন মিছনে গ্ৰাম্য পৰিয়াললৈ পাইপযুক্ত খোৱাপানী যোগান ধৰাৰ লক্ষ্য লৈছে।"
+    },
+    "id": "government-schemes-116"
+  },
+  {
+    "q": {
+      "en": "In which year was the Jal Jeevan Mission launched?",
+      "as": "জল জীৱন মিছন কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      },
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      },
+      {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Jal Jeevan Mission was launched in 2019.",
+      "as": "জল জীৱন মিছন ২০১৯ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-117"
+  },
+  {
+    "q": {
+      "en": "The Namami Gange programme is related to —",
+      "as": "নমামি গংগে কাৰ্যসূচী কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Cleaning of air",
+        "as": "বায়ু পৰিষ্কাৰ"
+      },
+      {
+        "en": "Cleaning of soil",
+        "as": "মাটি পৰিষ্কাৰ"
+      },
+      {
+        "en": "Cleaning of the river Ganga",
+        "as": "গংগা নদী পৰিষ্কাৰ"
+      },
+      {
+        "en": "Cleaning of the river Brahmaputra",
+        "as": "ব্ৰহ্মপুত্ৰ নদী পৰিষ্কাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Namami Gange is the programme for cleaning and conserving the river Ganga.",
+      "as": "নমামি গংগে গংগা নদী পৰিষ্কাৰ আৰু সংৰক্ষণৰ কাৰ্যসূচী।"
+    },
+    "id": "government-schemes-118"
+  },
+  {
+    "q": {
+      "en": "The Namami Gange programme comes under which ministry?",
+      "as": "নমামি গংগে কাৰ্যসূচী কোন মন্ত্ৰালয়ৰ অধীনত?"
+    },
+    "options": [
+      {
+        "en": "Ministry of Railways",
+        "as": "ৰে'ল মন্ত্ৰালয়"
+      },
+      {
+        "en": "Ministry of Jal Shakti",
+        "as": "জল শক্তি মন্ত্ৰালয়"
+      },
+      {
+        "en": "Ministry of Defence",
+        "as": "প্ৰতিৰক্ষা মন্ত্ৰালয়"
+      },
+      {
+        "en": "Ministry of Finance",
+        "as": "বিত্ত মন্ত্ৰালয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Namami Gange comes under the Ministry of Jal Shakti.",
+      "as": "নমামি গংগে জল শক্তি মন্ত্ৰালয়ৰ অধীনত।"
+    },
+    "id": "government-schemes-119"
+  },
+  {
+    "q": {
+      "en": "The National Clean Air Programme is related to —",
+      "as": "ৰাষ্ট্ৰীয় পৰিষ্কাৰ বায়ু কাৰ্যসূচী কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Reducing noise",
+        "as": "শব্দ হ্ৰাস"
+      },
+      {
+        "en": "Reducing air pollution",
+        "as": "বায়ু প্ৰদূষণ হ্ৰাস"
+      },
+      {
+        "en": "Reducing water pollution",
+        "as": "জল প্ৰদূষণ হ্ৰাস"
+      },
+      {
+        "en": "Reducing soil erosion",
+        "as": "মাটি ক্ষয় হ্ৰাস"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The National Clean Air Programme aims at reducing air pollution.",
+      "as": "ৰাষ্ট্ৰীয় পৰিষ্কাৰ বায়ু কাৰ্যসূচীয়ে বায়ু প্ৰদূষণ হ্ৰাস কৰাৰ লক্ষ্য লৈছে।"
+    },
+    "id": "government-schemes-120"
+  },
+  {
+    "q": {
+      "en": "The FAME India scheme is related to —",
+      "as": "ফেম ইণ্ডিয়া আঁচনি কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Electric vehicles",
+        "as": "বিদ্যুৎ চালিত বাহন"
+      },
+      {
+        "en": "Food processing",
+        "as": "খাদ্য প্ৰক্ৰিয়াকৰণ"
+      },
+      {
+        "en": "Fibre production",
+        "as": "আঁহ উৎপাদন"
+      },
+      {
+        "en": "Fertilizers",
+        "as": "সাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "FAME India promotes the adoption of electric and hybrid vehicles.",
+      "as": "ফেম ইণ্ডিয়াই বিদ্যুৎ আৰু হাইব্ৰিড বাহনৰ ব্যৱহাৰ প্ৰচাৰ কৰে।"
+    },
+    "id": "government-schemes-121"
+  },
+  {
+    "q": {
+      "en": "The Ayushman Bharat Digital Mission is related to —",
+      "as": "আয়ুষ্মান ভাৰত ডিজিটেল মিছন কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Digital agriculture",
+        "as": "ডিজিটেল কৃষি"
+      },
+      {
+        "en": "Digital banking",
+        "as": "ডিজিটেল বেংকিং"
+      },
+      {
+        "en": "Digital education",
+        "as": "ডিজিটেল শিক্ষা"
+      },
+      {
+        "en": "Digital health ecosystem",
+        "as": "ডিজিটেল স্বাস্থ্য ব্যৱস্থা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ayushman Bharat Digital Mission aims to build a digital health ecosystem.",
+      "as": "আয়ুষ্মান ভাৰত ডিজিটেল মিছনে ডিজিটেল স্বাস্থ্য ব্যৱস্থা গঢ়াৰ লক্ষ্য লৈছে।"
+    },
+    "id": "government-schemes-122"
+  },
+  {
+    "q": {
+      "en": "ABHA, associated with health records in India, stands for —",
+      "as": "ভাৰতত স্বাস্থ্য অভিলেখৰ সৈতে জড়িত ABHA ৰ পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Ayushman Bharat Housing Authority",
+        "as": "আয়ুষ্মান ভাৰত গৃহ প্ৰাধিকৰণ"
+      },
+      {
+        "en": "Ayushman Bharat Health Account",
+        "as": "আয়ুষ্মান ভাৰত স্বাস্থ্য একাউণ্ট"
+      },
+      {
+        "en": "Ayushman Bharat Hospital Account",
+        "as": "আয়ুষ্মান ভাৰত চিকিৎসালয় একাউণ্ট"
+      },
+      {
+        "en": "Ayushman Bharat Health Agency",
+        "as": "আয়ুষ্মান ভাৰত স্বাস্থ্য সংস্থা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "ABHA stands for Ayushman Bharat Health Account.",
+      "as": "ABHA ৰ পূৰ্ণ ৰূপ আয়ুষ্মান ভাৰত স্বাস্থ্য একাউণ্ট।"
+    },
+    "id": "government-schemes-123"
+  },
+  {
+    "q": {
+      "en": "In which year was the PM SHRI Schools scheme launched?",
+      "as": "পিএম শ্ৰী বিদ্যালয় আঁচনি কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2023",
+        "as": "২০২৩"
+      },
+      {
+        "en": "2022",
+        "as": "২০২২"
+      },
+      {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
+        "en": "2021",
+        "as": "২০২১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "PM SHRI Schools scheme was launched in 2022.",
+      "as": "পিএম শ্ৰী বিদ্যালয় আঁচনি ২০২২ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-124"
+  },
+  {
+    "q": {
+      "en": "The PM SHRI scheme is related to —",
+      "as": "পিএম শ্ৰী আঁচনি কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Model prisons",
+        "as": "আদৰ্শ কাৰাগাৰ"
+      },
+      {
+        "en": "Model hospitals",
+        "as": "আদৰ্শ চিকিৎসালয়"
+      },
+      {
+        "en": "Model schools",
+        "as": "আদৰ্শ বিদ্যালয়"
+      },
+      {
+        "en": "Model farms",
+        "as": "আদৰ্শ পাম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "PM SHRI Schools are developed as model schools.",
+      "as": "পিএম শ্ৰী বিদ্যালয়সমূহ আদৰ্শ বিদ্যালয় হিচাপে বিকশিত কৰা হয়।"
+    },
+    "id": "government-schemes-125"
+  },
+  {
+    "q": {
+      "en": "The NIPUN Bharat programme is related to —",
+      "as": "নিপুণ ভাৰত কাৰ্যসূচী কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Higher education",
+        "as": "উচ্চ শিক্ষা"
+      },
+      {
+        "en": "Vocational training",
+        "as": "বৃত্তিমূলক প্ৰশিক্ষণ"
+      },
+      {
+        "en": "Sports",
+        "as": "ক্ৰীড়া"
+      },
+      {
+        "en": "Foundational literacy and numeracy",
+        "as": "মৌলিক সাক্ষৰতা আৰু সংখ্যাজ্ঞান"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "NIPUN Bharat focuses on foundational literacy and numeracy.",
+      "as": "নিপুণ ভাৰতে মৌলিক সাক্ষৰতা আৰু সংখ্যাজ্ঞানত গুৰুত্ব দিয়ে।"
+    },
+    "id": "government-schemes-126"
+  },
+  {
+    "q": {
+      "en": "The PMFME scheme is related to —",
+      "as": "পিএমএফএমই আঁচনি কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Mineral mining",
+        "as": "খনিজ উত্তোলন"
+      },
+      {
+        "en": "Minor forest produce",
+        "as": "সামান্য বনজ সামগ্ৰী"
+      },
+      {
+        "en": "Micro finance",
+        "as": "ক্ষুদ্ৰ বিত্ত"
+      },
+      {
+        "en": "Micro food processing enterprises",
+        "as": "ক্ষুদ্ৰ খাদ্য প্ৰক্ৰিয়াকৰণ উদ্যোগ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "PMFME supports micro food processing enterprises.",
+      "as": "পিএমএফএমইয়ে ক্ষুদ্ৰ খাদ্য প্ৰক্ৰিয়াকৰণ উদ্যোগক সহায় কৰে।"
+    },
+    "id": "government-schemes-127"
+  },
+  {
+    "q": {
+      "en": "The PM Kisan Maan Dhan Yojana is related to —",
+      "as": "পিএম কিষাণ মান ধন যোজনা কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Pension for small and marginal farmers",
+        "as": "ক্ষুদ্ৰ আৰু প্ৰান্তীয় কৃষকৰ বাবে পেঞ্চন"
+      },
+      {
+        "en": "Crop loan",
+        "as": "শস্য ঋণ"
+      },
+      {
+        "en": "Crop insurance",
+        "as": "শস্য বীমা"
+      },
+      {
+        "en": "Fertilizer subsidy",
+        "as": "সাৰ ৰাজসাহায্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "PM Kisan Maan Dhan Yojana provides pension to small and marginal farmers.",
+      "as": "পিএম কিষাণ মান ধন যোজনাই ক্ষুদ্ৰ আৰু প্ৰান্তীয় কৃষকক পেঞ্চন প্ৰদান কৰে।"
+    },
+    "id": "government-schemes-128"
+  },
+  {
+    "q": {
+      "en": "In which year was the PM Kisan Maan Dhan Yojana launched?",
+      "as": "পিএম কিষাণ মান ধন যোজনা কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      },
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "PM Kisan Maan Dhan Yojana was launched in 2019.",
+      "as": "পিএম কিষাণ মান ধন যোজনা ২০১৯ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-129"
+  },
+  {
+    "q": {
+      "en": "The PM Shram Yogi Maan-dhan Yojana is related to —",
+      "as": "পিএম শ্ৰম যোগী মান-ধন যোজনা কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Pension for teachers",
+        "as": "শিক্ষকৰ বাবে পেঞ্চন"
+      },
+      {
+        "en": "Pension for government employees",
+        "as": "চৰকাৰী কৰ্মচাৰীৰ বাবে পেঞ্চন"
+      },
+      {
+        "en": "Pension for soldiers",
+        "as": "সৈনিকৰ বাবে পেঞ্চন"
+      },
+      {
+        "en": "Pension for unorganised workers",
+        "as": "অসংগঠিত শ্ৰমিকৰ বাবে পেঞ্চন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "PM Shram Yogi Maan-dhan provides pension to unorganised sector workers.",
+      "as": "পিএম শ্ৰম যোগী মান-ধনে অসংগঠিত খণ্ডৰ শ্ৰমিকক পেঞ্চন প্ৰদান কৰে।"
+    },
+    "id": "government-schemes-130"
+  },
+  {
+    "q": {
+      "en": "The PM Laghu Vyapari Maan-dhan Yojana is related to —",
+      "as": "পিএম লঘু ব্যৱসায়ী মান-ধন যোজনা কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Pension for doctors",
+        "as": "চিকিৎসকৰ বাবে পেঞ্চন"
+      },
+      {
+        "en": "Pension for farmers",
+        "as": "কৃষকৰ বাবে পেঞ্চন"
+      },
+      {
+        "en": "Pension for small traders",
+        "as": "ক্ষুদ্ৰ ব্যৱসায়ীৰ বাবে পেঞ্চন"
+      },
+      {
+        "en": "Pension for students",
+        "as": "ছাত্ৰৰ বাবে পেঞ্চন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "PM Laghu Vyapari Maan-dhan provides pension to small traders and shopkeepers.",
+      "as": "পিএম লঘু ব্যৱসায়ী মান-ধনে ক্ষুদ্ৰ ব্যৱসায়ী আৰু দুকানীসকলক পেঞ্চন প্ৰদান কৰে।"
+    },
+    "id": "government-schemes-131"
+  },
+  {
+    "q": {
+      "en": "The e-Shram portal is related to —",
+      "as": "ই-শ্ৰম পৰ্টেল কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Online shopping",
+        "as": "অনলাইন ক্ৰয়"
+      },
+      {
+        "en": "Digital payments",
+        "as": "ডিজিটেল পৰিশোধ"
+      },
+      {
+        "en": "Online gaming",
+        "as": "অনলাইন খেল"
+      },
+      {
+        "en": "Database of unorganised workers",
+        "as": "অসংগঠিত শ্ৰমিকৰ তথ্যভঁৰাল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "e-Shram is a national database of unorganised workers.",
+      "as": "ই-শ্ৰম অসংগঠিত শ্ৰমিকৰ ৰাষ্ট্ৰীয় তথ্যভঁৰাল।"
+    },
+    "id": "government-schemes-132"
+  },
+  {
+    "q": {
+      "en": "The Pradhan Mantri Kaushal Vikas Yojana (PMKVY) is related to —",
+      "as": "প্ৰধানমন্ত্ৰী কৌশল বিকাশ যোজনা (PMKVY) কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Skill development",
+        "as": "দক্ষতা বিকাশ"
+      },
+      {
+        "en": "Space research",
+        "as": "মহাকাশ গৱেষণা"
+      },
+      {
+        "en": "Sports",
+        "as": "ক্ৰীড়া"
+      },
+      {
+        "en": "Shipping",
+        "as": "জাহাজ পৰিবহণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "PMKVY is a flagship scheme for skill development.",
+      "as": "PMKVY দক্ষতা বিকাশৰ এক প্ৰধান আঁচনি।"
+    },
+    "id": "government-schemes-133"
+  },
+  {
+    "q": {
+      "en": "In which year was the Pradhan Mantri Kaushal Vikas Yojana launched?",
+      "as": "প্ৰধানমন্ত্ৰী কৌশল বিকাশ যোজনা কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2013",
+        "as": "২০১৩"
+      },
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "PMKVY was launched in 2015.",
+      "as": "PMKVY ২০১৫ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-134"
+  },
+  {
+    "q": {
+      "en": "The Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY) is related to —",
+      "as": "দীন দয়াল উপাধ্যায় গ্ৰামীণ কৌশল্য যোজনা (DDU-GKY) কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Rural roads",
+        "as": "গ্ৰাম্য পথ"
+      },
+      {
+        "en": "Rural housing",
+        "as": "গ্ৰাম্য আবাস"
+      },
+      {
+        "en": "Rural electrification",
+        "as": "গ্ৰাম্য বিদ্যুতীকৰণ"
+      },
+      {
+        "en": "Placement of rural youth",
+        "as": "গ্ৰাম্য যুৱক-যুৱতীৰ নিয়োগ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "DDU-GKY focuses on placement of rural youth.",
+      "as": "DDU-GKY য়ে গ্ৰাম্য যুৱক-যুৱতীৰ নিয়োগত গুৰুত্ব দিয়ে।"
+    },
+    "id": "government-schemes-135"
+  },
+  {
+    "q": {
+      "en": "The National Social Assistance Programme (NSAP) is related to —",
+      "as": "ৰাষ্ট্ৰীয় সমাজ সহায় কাৰ্যসূচী (NSAP) কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Food security",
+        "as": "খাদ্য সুৰক্ষা"
+      },
+      {
+        "en": "Social security",
+        "as": "সামাজিক সুৰক্ষা"
+      },
+      {
+        "en": "Energy security",
+        "as": "শক্তি সুৰক্ষা"
+      },
+      {
+        "en": "National security",
+        "as": "ৰাষ্ট্ৰীয় সুৰক্ষা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "NSAP provides social security to the poor and vulnerable sections.",
+      "as": "NSAPয়ে দৰিদ্ৰ আৰু দুৰ্বল শ্ৰেণীক সামাজিক সুৰক্ষা প্ৰদান কৰে।"
+    },
+    "id": "government-schemes-136"
+  },
+  {
+    "q": {
+      "en": "The Indira Gandhi National Old Age Pension Scheme is related to —",
+      "as": "ইন্দিৰা গান্ধী ৰাষ্ট্ৰীয় বাৰ্ধক্য পেঞ্চন আঁচনি কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Widow pension",
+        "as": "বিধৱা পেঞ্চন"
+      },
+      {
+        "en": "Old age pension",
+        "as": "বাৰ্ধক্য পেঞ্চন"
+      },
+      {
+        "en": "Maternity benefit",
+        "as": "মাতৃত্ব সুবিধা"
+      },
+      {
+        "en": "Disability pension",
+        "as": "অক্ষমতা পেঞ্চন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Indira Gandhi National Old Age Pension Scheme provides old age pension.",
+      "as": "ইন্দিৰা গান্ধী ৰাষ্ট্ৰীয় বাৰ্ধক্য পেঞ্চন আঁচনিয়ে বাৰ্ধক্য পেঞ্চন প্ৰদান কৰে।"
+    },
+    "id": "government-schemes-137"
+  },
+  {
+    "q": {
+      "en": "The Pradhan Mantri Bhartiya Janaushadhi Pariyojana is related to —",
+      "as": "প্ৰধানমন্ত্ৰী ভাৰতীয় জন ঔষধী পৰিয়োজনা কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Affordable generic medicines",
+        "as": "সুলভ জেনেৰিক ঔষধ"
+      },
+      {
+        "en": "Affordable food",
+        "as": "সুলভ খাদ্য"
+      },
+      {
+        "en": "Affordable housing",
+        "as": "সুলভ আবাস"
+      },
+      {
+        "en": "Affordable transport",
+        "as": "সুলভ পৰিবহণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "PMBJP provides affordable generic medicines.",
+      "as": "PMBJPয়ে সুলভ জেনেৰিক ঔষধ যোগান ধৰে।"
+    },
+    "id": "government-schemes-138"
+  },
+  {
+    "q": {
+      "en": "In which year was the National Health Mission launched?",
+      "as": "ৰাষ্ট্ৰীয় স্বাস্থ্য মিছন কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2013",
+        "as": "২০১৩"
+      },
+      {
+        "en": "2010",
+        "as": "২০১০"
+      },
+      {
+        "en": "2011",
+        "as": "২০১১"
+      },
+      {
+        "en": "2012",
+        "as": "২০১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The National Health Mission was launched in 2013.",
+      "as": "ৰাষ্ট্ৰীয় স্বাস্থ্য মিছন ২০১৩ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-139"
+  },
+  {
+    "q": {
+      "en": "In which year was the National Rural Health Mission launched?",
+      "as": "ৰাষ্ট্ৰীয় গ্ৰাম্য স্বাস্থ্য মিছন কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2003",
+        "as": "২০০৩"
+      },
+      {
+        "en": "2005",
+        "as": "২০০৫"
+      },
+      {
+        "en": "2004",
+        "as": "২০০৪"
+      },
+      {
+        "en": "2006",
+        "as": "২০০৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The National Rural Health Mission was launched in 2005.",
+      "as": "ৰাষ্ট্ৰীয় গ্ৰাম্য স্বাস্থ্য মিছন ২০০৫ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-140"
+  },
+  {
+    "q": {
+      "en": "In which year was the Pulse Polio programme launched in India?",
+      "as": "ভাৰতত পাল্‌ছ পলিঅ' কাৰ্যসূচী কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1996",
+        "as": "১৯৯৬"
+      },
+      {
+        "en": "1993",
+        "as": "১৯৯৩"
+      },
+      {
+        "en": "1995",
+        "as": "১৯৯৫"
+      },
+      {
+        "en": "1994",
+        "as": "১৯৯৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Pulse Polio programme was launched in India in 1995.",
+      "as": "ভাৰতত পাল্‌ছ পলিঅ' কাৰ্যসূচী ১৯৯৫ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-141"
+  },
+  {
+    "q": {
+      "en": "The Universal Immunisation Programme is related to —",
+      "as": "সৰ্বজনীন টীকাকৰণ কাৰ্যসূচী কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Training children",
+        "as": "শিশুক প্ৰশিক্ষণ দিয়া"
+      },
+      {
+        "en": "Feeding children",
+        "as": "শিশুক খুৱানো"
+      },
+      {
+        "en": "Educating children",
+        "as": "শিশুক শিক্ষা দিয়া"
+      },
+      {
+        "en": "Vaccinating children",
+        "as": "শিশুক টীকা প্ৰদান"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Universal Immunisation Programme provides vaccination to children.",
+      "as": "সৰ্বজনীন টীকাকৰণ কাৰ্যসূচীয়ে শিশুক টীকা প্ৰদান কৰে।"
+    },
+    "id": "government-schemes-142"
+  },
+  {
+    "q": {
+      "en": "mission shakti of the Government of India is related to —",
+      "as": "ভাৰত চৰকাৰৰ মিছন শক্তি কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Safety and empowerment of women",
+        "as": "মহিলাৰ সুৰক্ষা আৰু ক্ষমতায়ন"
+      },
+      {
+        "en": "Border security",
+        "as": "সীমান্ত সুৰক্ষা"
+      },
+      {
+        "en": "Space research",
+        "as": "মহাকাশ গৱেষণা"
+      },
+      {
+        "en": "Sports",
+        "as": "ক্ৰীড়া"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mission Shakti is an umbrella scheme for the safety and empowerment of women.",
+      "as": "মিছন শক্তি মহিলাৰ সুৰক্ষা আৰু ক্ষমতায়নৰ এক ছত্ৰী আঁচনি।"
+    },
+    "id": "government-schemes-143"
+  },
+  {
+    "q": {
+      "en": "Mission Vatsalya is related to —",
+      "as": "মিছন বাৎসল্য কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Welfare of trees",
+        "as": "গছৰ কল্যাণ"
+      },
+      {
+        "en": "Welfare of animals",
+        "as": "পশুৰ কল্যাণ"
+      },
+      {
+        "en": "Welfare of children",
+        "as": "শিশুৰ কল্যাণ"
+      },
+      {
+        "en": "Welfare of birds",
+        "as": "চৰাইৰ কল্যাণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Mission Vatsalya is related to the welfare of children.",
+      "as": "মিছন বাৎসল্য শিশুৰ কল্যাণৰ সৈতে সম্পৰ্কিত।"
+    },
+    "id": "government-schemes-144"
+  },
+  {
+    "q": {
+      "en": "The PM CARES Fund is related to —",
+      "as": "পিএম কেয়াৰ্ছ ফাণ্ড কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Cinema",
+        "as": "চিনেমা"
+      },
+      {
+        "en": "Cricket",
+        "as": "ক্ৰিকেট"
+      },
+      {
+        "en": "Emergency relief",
+        "as": "আপদকালীন সাহায্য"
+      },
+      {
+        "en": "Commerce",
+        "as": "বাণিজ্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "PM CARES Fund is a public charitable trust for emergency relief.",
+      "as": "পিএম কেয়াৰ্ছ ফাণ্ড আপদকালীন সাহায্যৰ এক ৰাজহুৱা দানশীল ন্যাস।"
+    },
+    "id": "government-schemes-145"
+  },
+  {
+    "q": {
+      "en": "In which year was the Garib Kalyan Rojgar Abhiyaan launched?",
+      "as": "গৰীব কল্যাণ ৰোজগাৰ অভিযান কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      },
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2021",
+        "as": "২০২১"
+      },
+      {
+        "en": "2020",
+        "as": "২০২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Garib Kalyan Rojgar Abhiyaan was launched in 2020.",
+      "as": "গৰীব কল্যাণ ৰোজগাৰ অভিযান ২০২০ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-146"
+  },
+  {
+    "q": {
+      "en": "The Garib Kalyan Rojgar Abhiyaan aimed to provide livelihood to —",
+      "as": "গৰীব কল্যাণ ৰোজগাৰ অভিযানে কাক জীৱিকা প্ৰদানৰ লক্ষ্য লৈছিল?"
+    },
+    "options": [
+      {
+        "en": "Returned migrant workers",
+        "as": "ঘূৰি অহা অনুপ্ৰবেশী শ্ৰমিক"
+      },
+      {
+        "en": "Foreign tourists",
+        "as": "বিদেশী পৰ্যটক"
+      },
+      {
+        "en": "Government officers",
+        "as": "চৰকাৰী বিষয়া"
+      },
+      {
+        "en": "Sportspersons",
+        "as": "ক্ৰীড়াবিদ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Garib Kalyan Rojgar Abhiyaan provided livelihood to returned migrant workers.",
+      "as": "গৰীব কল্যাণ ৰোজগাৰ অভিযানে ঘূৰি অহা অনুপ্ৰবেশী শ্ৰমিকক জীৱিকা প্ৰদান কৰিছিল।"
+    },
+    "id": "government-schemes-147"
+  },
+  {
+    "q": {
+      "en": "The economic package announced under Atmanirbhar Bharat was of the value of —",
+      "as": "আত্মনিৰ্ভৰ ভাৰতৰ অধীনত ঘোষণা কৰা অৰ্থনৈতিক পেকেজৰ মূল্য আছিল —"
+    },
+    "options": [
+      {
+        "en": "15 lakh crore rupees",
+        "as": "১৫ লাখ কোটি টকা"
+      },
+      {
+        "en": "10 lakh crore rupees",
+        "as": "১০ লাখ কোটি টকা"
+      },
+      {
+        "en": "20 lakh crore rupees",
+        "as": "২০ লাখ কোটি টকা"
+      },
+      {
+        "en": "25 lakh crore rupees",
+        "as": "২৫ লাখ কোটি টকা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Atmanirbhar Bharat package was worth 20 lakh crore rupees.",
+      "as": "আত্মনিৰ্ভৰ ভাৰত পেকেজ ২০ লাখ কোটি টকাৰ আছিল।"
+    },
+    "id": "government-schemes-148"
+  },
+  {
+    "q": {
+      "en": "PLI, a scheme of the Government of India, stands for —",
+      "as": "ভাৰত চৰকাৰৰ PLI ৰ পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Public Loan Interest",
+        "as": "পাব্লিক লোন ইনটাৰেষ্ট"
+      },
+      {
+        "en": "Primary Labour Insurance",
+        "as": "প্ৰাইমেৰী লেবাৰ ইনচুৰেন্স"
+      },
+      {
+        "en": "Private Land Investment",
+        "as": "প্ৰাইভেট লেণ্ড ইনভেষ্টমেণ্ট"
+      },
+      {
+        "en": "Production Linked Incentive",
+        "as": "প্ৰডাক্‌চন লিংকড ইনচেণ্টিভ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "PLI stands for Production Linked Incentive.",
+      "as": "PLI ৰ পূৰ্ণ ৰূপ প্ৰডাক্‌চন লিংকড ইনচেণ্টিভ।"
+    },
+    "id": "government-schemes-149"
+  },
+  {
+    "q": {
+      "en": "The HRIDAY scheme is related to —",
+      "as": "হৃদয় (HRIDAY) আঁচনি কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Highway development",
+        "as": "মহাপথ উন্নয়ন"
+      },
+      {
+        "en": "Housing development",
+        "as": "আবাস উন্নয়ন"
+      },
+      {
+        "en": "Heritage city development",
+        "as": "ঐতিহ্যপূৰ্ণ চহৰ উন্নয়ন"
+      },
+      {
+        "en": "Health development",
+        "as": "স্বাস্থ্য উন্নয়ন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "HRIDAY is related to heritage city development.",
+      "as": "হৃদয় (HRIDAY) ঐতিহ্যপূৰ্ণ চহৰ উন্নয়নৰ সৈতে সম্পৰ্কিত।"
+    },
+    "id": "government-schemes-150"
+  },
+  {
+    "q": {
+      "en": "The Jawaharlal Nehru National Urban Renewal Mission (JNNURM) is related to —",
+      "as": "জৱাহৰলাল নেহৰু ৰাষ্ট্ৰীয় নগৰ পুনৰুজ্জীৱন মিছন (JNNURM) কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Urban renewal",
+        "as": "নগৰ পুনৰুজ্জীৱন"
+      },
+      {
+        "en": "Rural roads",
+        "as": "গ্ৰাম্য পথ"
+      },
+      {
+        "en": "Forest conservation",
+        "as": "বন সংৰক্ষণ"
+      },
+      {
+        "en": "Space research",
+        "as": "মহাকাশ গৱেষণা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "JNNURM is related to urban renewal and development.",
+      "as": "JNNURM নগৰ পুনৰুজ্জীৱন আৰু উন্নয়নৰ সৈতে সম্পৰ্কিত।"
+    },
+    "id": "government-schemes-151"
+  },
+  {
+    "q": {
+      "en": "The Deendayal Antyodaya Yojana - National Urban Livelihoods Mission (DAY-NULM) is related to —",
+      "as": "দীনদয়াল অন্ত্যোদয় যোজনা - ৰাষ্ট্ৰীয় নগৰ জীৱিকা মিছন (DAY-NULM) কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Urban parks",
+        "as": "নগৰীয়া উদ্যান"
+      },
+      {
+        "en": "Urban forests",
+        "as": "নগৰীয়া বন"
+      },
+      {
+        "en": "Urban livelihoods",
+        "as": "নগৰীয়া জীৱিকা"
+      },
+      {
+        "en": "Urban railways",
+        "as": "নগৰীয়া ৰে'ল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "DAY-NULM works for urban livelihoods.",
+      "as": "DAY-NULM নগৰীয়া জীৱিকাৰ বাবে কাম কৰে।"
+    },
+    "id": "government-schemes-152"
+  },
+  {
+    "q": {
+      "en": "The National Solar Mission is related to —",
+      "as": "ৰাষ্ট্ৰীয় সৌৰ মিছন কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Solar energy",
+        "as": "সৌৰ শক্তি"
+      },
+      {
+        "en": "Nuclear energy",
+        "as": "পাৰমাণৱিক শক্তি"
+      },
+      {
+        "en": "Wind energy",
+        "as": "বায়ু শক্তি"
+      },
+      {
+        "en": "Tidal energy",
+        "as": "জোৱাৰ শক্তি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The National Solar Mission promotes solar energy.",
+      "as": "ৰাষ্ট্ৰীয় সৌৰ মিছনে সৌৰ শক্তি প্ৰচাৰ কৰে।"
+    },
+    "id": "government-schemes-153"
+  },
+  {
+    "q": {
+      "en": "The International Solar Alliance is related to —",
+      "as": "আন্তৰ্জাতিক সৌৰ মিত্ৰতা কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Defence cooperation",
+        "as": "প্ৰতিৰক্ষা সহযোগিতা"
+      },
+      {
+        "en": "Space cooperation",
+        "as": "মহাকাশ সহযোগিতা"
+      },
+      {
+        "en": "Trade cooperation",
+        "as": "বাণিজ্য সহযোগিতা"
+      },
+      {
+        "en": "Solar energy cooperation",
+        "as": "সৌৰ শক্তি সহযোগিতা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The International Solar Alliance promotes cooperation on solar energy.",
+      "as": "আন্তৰ্জাতিক সৌৰ মিত্ৰতাই সৌৰ শক্তিৰ সহযোগিতা প্ৰচাৰ কৰে।"
+    },
+    "id": "government-schemes-154"
+  },
+  {
+    "q": {
+      "en": "In which year was the National Green Hydrogen Mission launched?",
+      "as": "ৰাষ্ট্ৰীয় সেউজ হাইড্ৰ'জেন মিছন কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2024",
+        "as": "২০২৪"
+      },
+      {
+        "en": "2022",
+        "as": "২০২২"
+      },
+      {
+        "en": "2023",
+        "as": "২০২৩"
+      },
+      {
+        "en": "2021",
+        "as": "২০২১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The National Green Hydrogen Mission was launched in 2023.",
+      "as": "ৰাষ্ট্ৰীয় সেউজ হাইড্ৰ'জেন মিছন ২০২৩ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-155"
+  },
+  {
+    "q": {
+      "en": "The Ethanol Blending Programme is related to —",
+      "as": "ইথানল মিশ্ৰণ কাৰ্যসূচী কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Mixing ethanol with water",
+        "as": "পানীৰ সৈতে ইথানল মিহলোৱা"
+      },
+      {
+        "en": "Mixing ethanol with petrol",
+        "as": "পেট্ৰ'লৰ সৈতে ইথানল মিহলোৱা"
+      },
+      {
+        "en": "Mixing ethanol with kerosene",
+        "as": "কেৰাছিনৰ সৈতে ইথানল মিহলোৱা"
+      },
+      {
+        "en": "Mixing ethanol with diesel",
+        "as": "ডিজেলৰ সৈতে ইথানল মিহলোৱা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Ethanol Blending Programme promotes mixing ethanol with petrol.",
+      "as": "ইথানল মিশ্ৰণ কাৰ্যসূচীয়ে পেট্ৰ'লৰ সৈতে ইথানল মিহলোৱা প্ৰচাৰ কৰে।"
+    },
+    "id": "government-schemes-156"
+  },
+  {
+    "q": {
+      "en": "The UJALA scheme is related to —",
+      "as": "উজালা আঁচনি কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Bio-gas plants",
+        "as": "জৈৱ-গেছ প্লাণ্ট"
+      },
+      {
+        "en": "Solar panels",
+        "as": "সৌৰ পেনেল"
+      },
+      {
+        "en": "Windmills",
+        "as": "বায়ু চকী"
+      },
+      {
+        "en": "LED bulbs",
+        "as": "এলইডি বাল্ব"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "UJALA is related to the distribution of energy-efficient LED bulbs.",
+      "as": "উজালা শক্তি-দক্ষ এলইডি বাল্ব বিতৰণৰ সৈতে সম্পৰ্কিত।"
+    },
+    "id": "government-schemes-157"
+  },
+  {
+    "q": {
+      "en": "The Atal Bhujal Yojana is related to —",
+      "as": "অটল ভূজল যোজনা কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Wildlife management",
+        "as": "বন্যপ্ৰাণী ব্যৱস্থাপনা"
+      },
+      {
+        "en": "Groundwater management",
+        "as": "ভূগৰ্ভস্থ জল ব্যৱস্থাপনা"
+      },
+      {
+        "en": "Waste management",
+        "as": "বৰ্জ্য ব্যৱস্থাপনা"
+      },
+      {
+        "en": "Forest management",
+        "as": "বন ব্যৱস্থাপনা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Atal Bhujal Yojana is related to sustainable groundwater management.",
+      "as": "অটল ভূজল যোজনা টিকি থকা ভূগৰ্ভস্থ জল ব্যৱস্থাপনাৰ সৈতে সম্পৰ্কিত।"
+    },
+    "id": "government-schemes-158"
+  },
+  {
+    "q": {
+      "en": "The Rashtriya Gokul Mission is related to —",
+      "as": "ৰাষ্ট্ৰীয় গোকুল মিছন কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Conservation of fish",
+        "as": "মাছ সংৰক্ষণ"
+      },
+      {
+        "en": "Conservation of birds",
+        "as": "চৰাই সংৰক্ষণ"
+      },
+      {
+        "en": "Conservation of trees",
+        "as": "গছ সংৰক্ষণ"
+      },
+      {
+        "en": "Conservation of indigenous cattle",
+        "as": "দেশী গৰু সংৰক্ষণ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rashtriya Gokul Mission is related to the conservation of indigenous cattle.",
+      "as": "ৰাষ্ট্ৰীয় গোকুল মিছন দেশী গৰু সংৰক্ষণৰ সৈতে সম্পৰ্কিত।"
+    },
+    "id": "government-schemes-159"
+  },
+  {
+    "q": {
+      "en": "The National Beekeeping and Honey Mission is related to —",
+      "as": "ৰাষ্ট্ৰীয় মৌপালন আৰু মৌ মিছন কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Dairy farming",
+        "as": "গাখীৰ পালন"
+      },
+      {
+        "en": "Honeybee keeping",
+        "as": "মৌপালন"
+      },
+      {
+        "en": "Fish farming",
+        "as": "মাছ পালন"
+      },
+      {
+        "en": "Poultry farming",
+        "as": "কুকুৰা পালন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The National Beekeeping and Honey Mission promotes beekeeping and honey production.",
+      "as": "ৰাষ্ট্ৰীয় মৌপালন আৰু মৌ মিছনে মৌপালন আৰু মৌ উৎপাদন প্ৰচাৰ কৰে।"
+    },
+    "id": "government-schemes-160"
+  },
+  {
+    "q": {
+      "en": "The Agriculture Infrastructure Fund is related to —",
+      "as": "কৃষি আন্তঃগাঁথনি পুঁজি কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Defence infrastructure",
+        "as": "প্ৰতিৰক্ষা আন্তঃগাঁথনি"
+      },
+      {
+        "en": "Post-harvest infrastructure",
+        "as": "চপোৱাৰ পিছৰ আন্তঃগাঁথনি"
+      },
+      {
+        "en": "Digital infrastructure",
+        "as": "ডিজিটেল আন্তঃগাঁথনি"
+      },
+      {
+        "en": "Space infrastructure",
+        "as": "মহাকাশ আন্তঃগাঁথনি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Agriculture Infrastructure Fund finances post-harvest infrastructure.",
+      "as": "কৃষি আন্তঃগাঁথনি পুঁজিয়ে চপোৱাৰ পিছৰ আন্তঃগাঁথনিত বিত্তীয় সাহায্য কৰে।"
+    },
+    "id": "government-schemes-161"
+  },
+  {
+    "q": {
+      "en": "The PM-AASHA scheme is related to —",
+      "as": "পিএম-আশা আঁচনি কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Minimum Support Price for farmers",
+        "as": "কৃষকৰ বাবে ন্যূনতম সমৰ্থন মূল্য"
+      },
+      {
+        "en": "Loans for farmers",
+        "as": "কৃষকৰ বাবে ঋণ"
+      },
+      {
+        "en": "Insurance for farmers",
+        "as": "কৃষকৰ বাবে বীমা"
+      },
+      {
+        "en": "Pension for farmers",
+        "as": "কৃষকৰ বাবে পেঞ্চন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "PM-AASHA is related to ensuring Minimum Support Price to farmers.",
+      "as": "পিএম-আশা কৃষকক ন্যূনতম সমৰ্থন মূল্য সুনিশ্চিত কৰাৰ সৈতে সম্পৰ্কিত।"
+    },
+    "id": "government-schemes-162"
+  },
+  {
+    "q": {
+      "en": "The National Mission on Natural Farming promotes —",
+      "as": "ৰাষ্ট্ৰীয় প্ৰাকৃতিক কৃষি মিছনে কি প্ৰচাৰ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Excessive chemical fertiliser use",
+        "as": "অতিৰিক্ত ৰাসায়নিক সাৰ ব্যৱহাৰ"
+      },
+      {
+        "en": "Chemical-free natural farming",
+        "as": "ৰাসায়নিক-মুক্ত প্ৰাকৃতিক কৃষি"
+      },
+      {
+        "en": "Only hybrid seeds",
+        "as": "কেৱল সংকৰ বীজ"
+      },
+      {
+        "en": "Heavy pesticide use",
+        "as": "অধিক কীটনাশক ব্যৱহাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The National Mission on Natural Farming promotes chemical-free natural farming.",
+      "as": "ৰাষ্ট্ৰীয় প্ৰাকৃতিক কৃষি মিছনে ৰাসায়নিক-মুক্ত প্ৰাকৃতিক কৃষি প্ৰচাৰ কৰে।"
+    },
+    "id": "government-schemes-163"
+  },
+  {
+    "q": {
+      "en": "The Rythu Bandhu scheme is a scheme of which state?",
+      "as": "ৰাইথু বন্ধু আঁচনি কোন ৰাজ্যৰ আঁচনি?"
+    },
+    "options": [
+      {
+        "en": "Telangana",
+        "as": "তেলেংগানা"
+      },
+      {
+        "en": "Kerala",
+        "as": "কেৰালা"
+      },
+      {
+        "en": "Punjab",
+        "as": "পাঞ্জাব"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Rythu Bandhu is a scheme of Telangana.",
+      "as": "ৰাইথু বন্ধু তেলেংগানা ৰাজ্যৰ আঁচনি।"
+    },
+    "id": "government-schemes-164"
+  },
+  {
+    "q": {
+      "en": "The KALIA scheme is a scheme of which state?",
+      "as": "কলিয়া আঁচনি কোন ৰাজ্যৰ আঁচনি?"
+    },
+    "options": [
+      {
+        "en": "Goa",
+        "as": "গোৱা"
+      },
+      {
+        "en": "Bihar",
+        "as": "বিহাৰ"
+      },
+      {
+        "en": "Odisha",
+        "as": "ওড়িশা"
+      },
+      {
+        "en": "Assam",
+        "as": "অসম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "KALIA is a scheme of Odisha.",
+      "as": "কলিয়া ওড়িশা ৰাজ্যৰ আঁচনি।"
+    },
+    "id": "government-schemes-165"
+  },
+  {
+    "q": {
+      "en": "In which year was the Mukhya Mantri Atmanirbhar Asom scheme launched?",
+      "as": "মুখ্যমন্ত্ৰী আত্মনিৰ্ভৰ অসম আঁচনি কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2021",
+        "as": "২০২১"
+      },
+      {
+        "en": "2023",
+        "as": "২০২৩"
+      },
+      {
+        "en": "2024",
+        "as": "২০২৪"
+      },
+      {
+        "en": "2022",
+        "as": "২০২২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Mukhya Mantri Atmanirbhar Asom was launched in 2024.",
+      "as": "মুখ্যমন্ত্ৰী আত্মনিৰ্ভৰ অসম ২০২৪ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-166"
+  },
+  {
+    "q": {
+      "en": "The Mukhya Mantri Atmanirbhar Asom scheme is related to —",
+      "as": "মুখ্যমন্ত্ৰী আত্মনিৰ্ভৰ অসম আঁচনি কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Old age pension",
+        "as": "বাৰ্ধক্য পেঞ্চন"
+      },
+      {
+        "en": "Self-employment for youth",
+        "as": "যুৱক-যুৱতীৰ আত্ম-নিয়োজন"
+      },
+      {
+        "en": "Child care",
+        "as": "শিশু যতন"
+      },
+      {
+        "en": "Road building",
+        "as": "পথ নিৰ্মাণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mukhya Mantri Atmanirbhar Asom promotes self-employment for youth.",
+      "as": "মুখ্যমন্ত্ৰী আত্মনিৰ্ভৰ অসমে যুৱক-যুৱতীৰ আত্ম-নিয়োজন প্ৰচাৰ কৰে।"
+    },
+    "id": "government-schemes-167"
+  },
+  {
+    "q": {
+      "en": "The Mukhya Mantri Mahila Udyamita Abhiyaan is related to —",
+      "as": "মুখ্যমন্ত্ৰী মহিলা উদ্যামিতা অভিযান কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Women education",
+        "as": "মহিলা শিক্ষা"
+      },
+      {
+        "en": "Women entrepreneurs",
+        "as": "মহিলা উদ্যোগী"
+      },
+      {
+        "en": "Women security",
+        "as": "মহিলা সুৰক্ষা"
+      },
+      {
+        "en": "Women health",
+        "as": "মহিলা স্বাস্থ্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mukhya Mantri Mahila Udyamita Abhiyaan promotes women entrepreneurs.",
+      "as": "মুখ্যমন্ত্ৰী মহিলা উদ্যামিতা অভিযানে মহিলা উদ্যোগীসকলক প্ৰচাৰ কৰে।"
+    },
+    "id": "government-schemes-168"
+  },
+  {
+    "q": {
+      "en": "The Banasree scheme of Assam is related to —",
+      "as": "অসমৰ বনশ্ৰী আঁচনি কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Boy children",
+        "as": "পুত্ৰ সন্তান"
+      },
+      {
+        "en": "Elderly men",
+        "as": "বয়স্ক পুৰুষ"
+      },
+      {
+        "en": "Girl children",
+        "as": "কন্যা সন্তান"
+      },
+      {
+        "en": "Foreign nationals",
+        "as": "বিদেশী নাগৰিক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Banasree is a scheme of Assam for the welfare of girl children.",
+      "as": "বনশ্ৰী কন্যা সন্তানৰ কল্যাণৰ বাবে অসম চৰকাৰৰ আঁচনি।"
+    },
+    "id": "government-schemes-169"
+  },
+  {
+    "q": {
+      "en": "The Assam Skill Development Mission is related to —",
+      "as": "অসম দক্ষতা বিকাশ মিছন কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Mining",
+        "as": "খনন"
+      },
+      {
+        "en": "Skill training",
+        "as": "দক্ষতা প্ৰশিক্ষণ"
+      },
+      {
+        "en": "Fishing",
+        "as": "মাছ ধৰা"
+      },
+      {
+        "en": "Farming",
+        "as": "কৃষি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Assam Skill Development Mission provides skill training.",
+      "as": "অসম দক্ষতা বিকাশ মিছনে দক্ষতা প্ৰশিক্ষণ প্ৰদান কৰে।"
+    },
+    "id": "government-schemes-170"
+  },
+  {
+    "q": {
+      "en": "The Assam Cancer Care Foundation is related to —",
+      "as": "অসম কৰ্কট ৰোগ যতন ফাউণ্ডেচন কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Animal care",
+        "as": "পশু যতন"
+      },
+      {
+        "en": "Crop care",
+        "as": "শস্য যতন"
+      },
+      {
+        "en": "Road care",
+        "as": "পথ যতন"
+      },
+      {
+        "en": "Cancer treatment",
+        "as": "কৰ্কট ৰোগৰ চিকিৎসা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The Assam Cancer Care Foundation is related to cancer treatment.",
+      "as": "অসম কৰ্কট ৰোগ যতন ফাউণ্ডেচন কৰ্কট ৰোগৰ চিকিৎসাৰ সৈতে সম্পৰ্কিত।"
+    },
+    "id": "government-schemes-171"
+  },
+  {
+    "q": {
+      "en": "The Assam State Rural Livelihood Mission is also known as —",
+      "as": "অসম ৰাজ্যিক গ্ৰাম্য জীৱিকা মিছন আন কি নামেৰে জনা যায়?"
+    },
+    "options": [
+      {
+        "en": "Arogya",
+        "as": "আৰোগ্য"
+      },
+      {
+        "en": "Antyodaya",
+        "as": "অন্ত্যোদয়"
+      },
+      {
+        "en": "Aajeevika",
+        "as": "আজীৱিকা"
+      },
+      {
+        "en": "Annapurna",
+        "as": "অন্নপূৰ্ণা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Assam State Rural Livelihood Mission is also known as Aajeevika.",
+      "as": "অসম ৰাজ্যিক গ্ৰাম্য জীৱিকা মিছন আজীৱিকা নামেৰেও জনা যায়।"
+    },
+    "id": "government-schemes-172"
+  },
+  {
+    "q": {
+      "en": "In which year was the Fit India Movement launched?",
+      "as": "ফিট ইণ্ডিয়া আন্দোলন কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Fit India Movement was launched in 2019.",
+      "as": "ফিট ইণ্ডিয়া আন্দোলন ২০১৯ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-173"
+  },
+  {
+    "q": {
+      "en": "In which year was the Khelo India programme launched?",
+      "as": "খেলো ইণ্ডিয়া কাৰ্যসূচী কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      },
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      },
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Khelo India was launched in 2018.",
+      "as": "খেলো ইণ্ডিয়া ২০১৮ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-174"
+  },
+  {
+    "q": {
+      "en": "Mission Karmayogi is related to —",
+      "as": "মিছন কৰ্মযোগী কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Building of ships",
+        "as": "জাহাজ নিৰ্মাণ"
+      },
+      {
+        "en": "Building of roads",
+        "as": "পথ নিৰ্মাণ"
+      },
+      {
+        "en": "Building of dams",
+        "as": "বান্ধ নিৰ্মাণ"
+      },
+      {
+        "en": "Capacity building of civil servants",
+        "as": "চৰকাৰী কৰ্মচাৰীৰ সক্ষমতা বিকাশ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mission Karmayogi aims at capacity building of civil servants.",
+      "as": "মিছন কৰ্মযোগীয়ে চৰকাৰী কৰ্মচাৰীৰ সক্ষমতা বিকাশৰ লক্ষ্য লৈছে।"
+    },
+    "id": "government-schemes-175"
+  },
+  {
+    "q": {
+      "en": "In which year was Mission Karmayogi launched?",
+      "as": "মিছন কৰ্মযোগী কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      },
+      {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2021",
+        "as": "২০২১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mission Karmayogi was launched in 2020.",
+      "as": "মিছন কৰ্মযোগী ২০২০ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-176"
+  },
+  {
+    "q": {
+      "en": "In which year was the MyGov platform launched?",
+      "as": "মাইগভ প্লেটফৰ্ম কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2014",
+        "as": "২০১৪"
+      },
+      {
+        "en": "2015",
+        "as": "২০১৫"
+      },
+      {
+        "en": "2013",
+        "as": "২০১৩"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "MyGov was launched in 2014.",
+      "as": "মাইগভ ২০১৪ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-177"
+  },
+  {
+    "q": {
+      "en": "Good Governance Day is observed in India on —",
+      "as": "ভাৰতত সুশাসন দিৱস কেতিয়া পালন কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "25 December",
+        "as": "২৫ ডিচেম্বৰ"
+      },
+      {
+        "en": "15 August",
+        "as": "১৫ আগষ্ট"
+      },
+      {
+        "en": "5 September",
+        "as": "৫ ছেপ্তেম্বৰ"
+      },
+      {
+        "en": "26 January",
+        "as": "২৬ জানুৱাৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Good Governance Day is observed on 25 December, the birth anniversary of Atal Bihari Vajpayee.",
+      "as": "সুশাসন দিৱস ২৫ ডিচেম্বৰত, অটল বিহাৰী বাজপেয়ীৰ জন্মদিনত পালন কৰা হয়।"
+    },
+    "id": "government-schemes-178"
+  },
+  {
+    "q": {
+      "en": "The Van Dhan Vikas Yojana is related to —",
+      "as": "বন ধন বিকাশ যোজনা কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Teachers",
+        "as": "শিক্ষক"
+      },
+      {
+        "en": "Tribal gatherers",
+        "as": "জনজাতীয় সংগ্ৰাহক"
+      },
+      {
+        "en": "Factory workers",
+        "as": "কাৰখানা শ্ৰমিক"
+      },
+      {
+        "en": "Urban workers",
+        "as": "নগৰীয়া শ্ৰমিক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Van Dhan Vikas Yojana supports tribal gatherers and forest produce.",
+      "as": "বন ধন বিকাশ যোজনে জনজাতীয় সংগ্ৰাহক আৰু বনজ সামগ্ৰীক সহায় কৰে।"
+    },
+    "id": "government-schemes-179"
+  },
+  {
+    "q": {
+      "en": "Eklavya Model Residential Schools are meant for —",
+      "as": "একলৱ্য আদৰ্শ আবাসিক বিদ্যালয় কাৰ বাবে?"
+    },
+    "options": [
+      {
+        "en": "Sports students",
+        "as": "ক্ৰীড়া ছাত্ৰ"
+      },
+      {
+        "en": "Foreign students",
+        "as": "বিদেশী ছাত্ৰ"
+      },
+      {
+        "en": "Tribal students",
+        "as": "জনজাতীয় ছাত্ৰ-ছাত্ৰী"
+      },
+      {
+        "en": "Music students",
+        "as": "সংগীত ছাত্ৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Eklavya Model Residential Schools are meant for tribal students.",
+      "as": "একলৱ্য আদৰ্শ আবাসিক বিদ্যালয় জনজাতীয় ছাত্ৰ-ছাত্ৰীৰ বাবে।"
+    },
+    "id": "government-schemes-180"
+  },
+  {
+    "q": {
+      "en": "The PM Janman scheme is related to —",
+      "as": "পিএম জনমণ আঁচনি কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Particularly Vulnerable Tribal Groups",
+        "as": "বিশেষভাৱে দুৰ্বল জনজাতীয় গোট"
+      },
+      {
+        "en": "Space scientists",
+        "as": "মহাকাশ বিজ্ঞানী"
+      },
+      {
+        "en": "Sportspersons",
+        "as": "ক্ৰীড়াবিদ"
+      },
+      {
+        "en": "Sea traders",
+        "as": "সামুদ্ৰিক ব্যৱসায়ী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "PM Janman is related to the Particularly Vulnerable Tribal Groups.",
+      "as": "পিএম জনমণ বিশেষভাৱে দুৰ্বল জনজাতীয় গোটৰ সৈতে সম্পৰ্কিত।"
+    },
+    "id": "government-schemes-181"
+  },
+  {
+    "q": {
+      "en": "In which year was the PM Janman scheme launched?",
+      "as": "পিএম জনমণ আঁচনি কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2023",
+        "as": "২০২৩"
+      },
+      {
+        "en": "2022",
+        "as": "২০২২"
+      },
+      {
+        "en": "2024",
+        "as": "২০২৪"
+      },
+      {
+        "en": "2021",
+        "as": "২০২১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "PM Janman was launched in 2023.",
+      "as": "পিএম জনমণ ২০২৩ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-182"
+  },
+  {
+    "q": {
+      "en": "The National Mission on Edible Oils is related to —",
+      "as": "ৰাষ্ট্ৰীয় খাদ্য তেল মিছন কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Increasing edible oil production",
+        "as": "খাদ্য তেল উৎপাদন বৃদ্ধি"
+      },
+      {
+        "en": "Increasing steel production",
+        "as": "ইস্পাত উৎপাদন বৃদ্ধি"
+      },
+      {
+        "en": "Increasing petrol production",
+        "as": "পেট্ৰ'ল উৎপাদন বৃদ্ধি"
+      },
+      {
+        "en": "Increasing cement production",
+        "as": "চিমেণ্ট উৎপাদন বৃদ্ধি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The National Mission on Edible Oils aims to increase edible oil production.",
+      "as": "ৰাষ্ট্ৰীয় খাদ্য তেল মিছনে খাদ্য তেল উৎপাদন বৃদ্ধিৰ লক্ষ্য লৈছে।"
+    },
+    "id": "government-schemes-183"
+  },
+  {
+    "q": {
+      "en": "The Nirmal Bharat Abhiyan was renamed as —",
+      "as": "নিৰ্মল ভাৰত অভিযানৰ নতুন নাম কি?"
+    },
+    "options": [
+      {
+        "en": "POSHAN Abhiyaan",
+        "as": "পোষণ অভিযান"
+      },
+      {
+        "en": "Ujjwala Yojana",
+        "as": "উজ্জ্বলা যোজনা"
+      },
+      {
+        "en": "Jal Jeevan Mission",
+        "as": "জল জীৱন মিছন"
+      },
+      {
+        "en": "Swachh Bharat Mission",
+        "as": "স্বচ্ছ ভাৰত মিছন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Nirmal Bharat Abhiyan was renamed as Swachh Bharat Mission.",
+      "as": "নিৰ্মল ভাৰত অভিযানৰ নতুন নাম স্বচ্ছ ভাৰত মিছন।"
+    },
+    "id": "government-schemes-184"
+  },
+  {
+    "q": {
+      "en": "The National Solar Mission is one of the missions under —",
+      "as": "ৰাষ্ট্ৰীয় সৌৰ মিছন কাৰ অধীনৰ মিছনসমূহৰ এটা?"
+    },
+    "options": [
+      {
+        "en": "Finance Commission",
+        "as": "বিত্ত আয়োগ"
+      },
+      {
+        "en": "NITI Aayog",
+        "as": "নীতি আয়োগ"
+      },
+      {
+        "en": "National Action Plan on Climate Change",
+        "as": "জলবায়ু পৰিৱৰ্তন সম্পৰ্কীয় ৰাষ্ট্ৰীয় কৰ্ম পৰিকল্পনা"
+      },
+      {
+        "en": "Election Commission",
+        "as": "নিৰ্বাচন আয়োগ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The National Solar Mission is one of the missions under the National Action Plan on Climate Change.",
+      "as": "ৰাষ্ট্ৰীয় সৌৰ মিছন জলবায়ু পৰিৱৰ্তন সম্পৰ্কীয় ৰাষ্ট্ৰীয় কৰ্ম পৰিকল্পনাৰ মিছনসমূহৰ এটা।"
+    },
+    "id": "government-schemes-185"
+  },
+  {
+    "q": {
+      "en": "The Pradhan Mantri Khanij Kshetra Kalyan Yojana is related to —",
+      "as": "প্ৰধানমন্ত্ৰী খনিজ ক্ষেত্ৰ কল্যাণ যোজনা কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Welfare of teachers",
+        "as": "শিক্ষকৰ কল্যাণ"
+      },
+      {
+        "en": "Welfare of fishermen",
+        "as": "মাছমৰীয়াৰ কল্যাণ"
+      },
+      {
+        "en": "Welfare of weavers",
+        "as": "তাঁতীৰ কল্যাণ"
+      },
+      {
+        "en": "Welfare of mining-affected areas",
+        "as": "খনন-প্ৰভাৱিত অঞ্চলৰ কল্যাণ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "PMKKKY is related to the welfare of mining-affected areas.",
+      "as": "PMKKKY খনন-প্ৰভাৱিত অঞ্চলৰ কল্যাণৰ সৈতে সম্পৰ্কিত।"
+    },
+    "id": "government-schemes-186"
+  },
+  {
+    "q": {
+      "en": "The Nirbhaya Fund is related to —",
+      "as": "নিৰ্ভয়া পুঁজি কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Sports",
+        "as": "ক্ৰীড়া"
+      },
+      {
+        "en": "Health",
+        "as": "স্বাস্থ্য"
+      },
+      {
+        "en": "Women's safety",
+        "as": "মহিলাৰ সুৰক্ষা"
+      },
+      {
+        "en": "Education",
+        "as": "শিক্ষা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Nirbhaya Fund is dedicated to women's safety.",
+      "as": "নিৰ্ভয়া পুঁজি মহিলাৰ সুৰক্ষাৰ বাবে উৎসৰ্গিত।"
+    },
+    "id": "government-schemes-187"
+  },
+  {
+    "q": {
+      "en": "The Samagra Shiksha Abhiyan covers —",
+      "as": "সমগ্ৰ শিক্ষা অভিযানে কি সামৰি লয়?"
+    },
+    "options": [
+      {
+        "en": "Only university education",
+        "as": "কেৱল বিশ্ববিদ্যালয় শিক্ষা"
+      },
+      {
+        "en": "Only vocational courses",
+        "as": "কেৱল বৃত্তিমূলক পাঠ্যক্ৰম"
+      },
+      {
+        "en": "Only college education",
+        "as": "কেৱল মহাবিদ্যালয় শিক্ষা"
+      },
+      {
+        "en": "School education from pre-primary to class 12",
+        "as": "প্ৰাক-প্ৰাথমিকৰপৰা দ্বাদশ শ্ৰেণীলৈ বিদ্যালয় শিক্ষা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Samagra Shiksha Abhiyan covers school education from pre-primary to class 12.",
+      "as": "সমগ্ৰ শিক্ষা অভিযানে প্ৰাক-প্ৰাথমিকৰপৰা দ্বাদশ শ্ৰেণীলৈ বিদ্যালয় শিক্ষা সামৰি লয়।"
+    },
+    "id": "government-schemes-188"
+  },
+  {
+    "q": {
+      "en": "The Mid Day Meal scheme was renamed in 2021 as —",
+      "as": "২০২১ চনত মধ্যাহ্ন ভোজন আঁচনিৰ নতুন নাম কি হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "PM Bal",
+        "as": "পিএম বাল"
+      },
+      {
+        "en": "PM POSHAN",
+        "as": "পিএম পোষণ"
+      },
+      {
+        "en": "PM Shiksha",
+        "as": "পিএম শিক্ষা"
+      },
+      {
+        "en": "PM Anna",
+        "as": "পিএম অন্ন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Mid Day Meal scheme was renamed as PM POSHAN.",
+      "as": "মধ্যাহ্ন ভোজন আঁচনিৰ নতুন নাম পিএম পোষণ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-189"
+  },
+  {
+    "q": {
+      "en": "In which year was the POSHAN Abhiyaan launched?",
+      "as": "পোষণ অভিযান কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "2017",
+        "as": "২০১৭"
+      },
+      {
+        "en": "2018",
+        "as": "২০১৮"
+      },
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2016",
+        "as": "২০১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "POSHAN Abhiyaan was launched in 2018.",
+      "as": "পোষণ অভিযান ২০১৮ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-190"
+  },
+  {
+    "q": {
+      "en": "ICDS stands for —",
+      "as": "ICDS ৰ পূৰ্ণ ৰূপ কি?"
+    },
+    "options": [
+      {
+        "en": "Integrated Community Development Services",
+        "as": "ইণ্টিগ্ৰেটেড কমিউনিটি ডেভেলপমেণ্ট ছাৰ্ভিচেছ"
+      },
+      {
+        "en": "Internal Child Development System",
+        "as": "ইণ্টাৰ্নেল চাইল্ড ডেভেলপমেণ্ট ছিষ্টেম"
+      },
+      {
+        "en": "Indian Child Development Scheme",
+        "as": "ইণ্ডিয়ান চাইল্ড ডেভেলপমেণ্ট স্কীম"
+      },
+      {
+        "en": "Integrated Child Development Services",
+        "as": "ইণ্টিগ্ৰেটেড চাইল্ড ডেভেলপমেণ্ট ছাৰ্ভিচেছ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "ICDS stands for Integrated Child Development Services.",
+      "as": "ICDS ৰ পূৰ্ণ ৰূপ ইণ্টিগ্ৰেটেড চাইল্ড ডেভেলপমেণ্ট ছাৰ্ভিচেছ।"
+    },
+    "id": "government-schemes-191"
+  },
+  {
+    "q": {
+      "en": "In which year was the Integrated Child Development Services (ICDS) launched?",
+      "as": "ইণ্টিগ্ৰেটেড চাইল্ড ডেভেলপমেণ্ট ছাৰ্ভিচেছ (ICDS) কোন বছৰত আৰম্ভ কৰা হৈছিল?"
+    },
+    "options": [
+      {
+        "en": "1974",
+        "as": "১৯৭৪"
+      },
+      {
+        "en": "1973",
+        "as": "১৯৭৩"
+      },
+      {
+        "en": "1975",
+        "as": "১৯৭৫"
+      },
+      {
+        "en": "1976",
+        "as": "১৯৭৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "ICDS was launched in 1975.",
+      "as": "ICDS ১৯৭৫ চনত আৰম্ভ কৰা হৈছিল।"
+    },
+    "id": "government-schemes-192"
+  },
+  {
+    "q": {
+      "en": "Mission Indradhanush is related to —",
+      "as": "মিছন ইন্দ্ৰধনুশ কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Insurance",
+        "as": "বীমা"
+      },
+      {
+        "en": "Irrigation",
+        "as": "জলসিঞ্চন"
+      },
+      {
+        "en": "Internet",
+        "as": "ইণ্টাৰনেট"
+      },
+      {
+        "en": "Immunisation",
+        "as": "টীকাকৰণ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mission Indradhanush is related to immunisation.",
+      "as": "মিছন ইন্দ্ৰধনুশ টীকাকৰণৰ সৈতে সম্পৰ্কিত।"
+    },
+    "id": "government-schemes-193"
+  },
+  {
+    "q": {
+      "en": "The Janani Suraksha Yojana is related to —",
+      "as": "জননী সুৰক্ষা যোজনা কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Disability support",
+        "as": "অক্ষমতা সহায়"
+      },
+      {
+        "en": "Girl education",
+        "as": "কন্যা শিক্ষা"
+      },
+      {
+        "en": "Old age care",
+        "as": "বাৰ্ধক্য যতন"
+      },
+      {
+        "en": "Safe motherhood",
+        "as": "নিৰাপদ মাতৃত্ব"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Janani Suraksha Yojana promotes safe motherhood.",
+      "as": "জননী সুৰক্ষা যোজনে নিৰাপদ মাতৃত্ব প্ৰচাৰ কৰে।"
+    },
+    "id": "government-schemes-194"
+  },
+  {
+    "q": {
+      "en": "The Pradhan Mantri Matru Vandana Yojana provides —",
+      "as": "প্ৰধানমন্ত্ৰী মাতৃ বন্দনা যোজনে কি প্ৰদান কৰে?"
+    },
+    "options": [
+      {
+        "en": "Maternity benefit",
+        "as": "মাতৃত্ব সুবিধা"
+      },
+      {
+        "en": "Business loan",
+        "as": "ব্যৱসায়িক ঋণ"
+      },
+      {
+        "en": "Marriage benefit",
+        "as": "বিবাহ সুবিধা"
+      },
+      {
+        "en": "Pension",
+        "as": "পেঞ্চন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "PMMVY provides maternity benefit to pregnant women and lactating mothers.",
+      "as": "PMMVYয়ে গৰ্ভৱতী মহিলা আৰু স্তন্যদায়ী মাকক মাতৃত্ব সুবিধা প্ৰদান কৰে।"
+    },
+    "id": "government-schemes-195"
+  },
+  {
+    "q": {
+      "en": "The Kisan Credit Card scheme provides —",
+      "as": "কিষাণ ক্ৰেডিট কাৰ্ড আঁচনিয়ে কি প্ৰদান কৰে?"
+    },
+    "options": [
+      {
+        "en": "Credit to lawyers",
+        "as": "ওকালতী কৰ্তাক ঋণ"
+      },
+      {
+        "en": "Credit to farmers",
+        "as": "কৃষকক ঋণ"
+      },
+      {
+        "en": "Credit to teachers",
+        "as": "শিক্ষকক ঋণ"
+      },
+      {
+        "en": "Credit to doctors",
+        "as": "চিকিৎসকক ঋণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Kisan Credit Card scheme provides timely credit to farmers.",
+      "as": "কিষাণ ক্ৰেডিট কাৰ্ড আঁচনিয়ে কৃষকক সময়মতে ঋণ প্ৰদান কৰে।"
+    },
+    "id": "government-schemes-196"
+  },
+  {
+    "q": {
+      "en": "The Soil Health Card Scheme provides information about —",
+      "as": "মৃত্তিকা স্বাস্থ্য কাৰ্ড আঁচনিয়ে কিৰ বিষয়ে তথ্য প্ৰদান কৰে?"
+    },
+    "options": [
+      {
+        "en": "Market prices",
+        "as": "বজাৰ মূল্য"
+      },
+      {
+        "en": "Seeds only",
+        "as": "কেৱল বীজ"
+      },
+      {
+        "en": "Soil nutrients",
+        "as": "মৃত্তিকাৰ পোষক দ্ৰব্য"
+      },
+      {
+        "en": "Weather",
+        "as": "বতৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Soil Health Card Scheme provides information about soil nutrients.",
+      "as": "মৃত্তিকা স্বাস্থ্য কাৰ্ড আঁচনিয়ে মৃত্তিকাৰ পোষক দ্ৰব্যৰ বিষয়ে তথ্য প্ৰদান কৰে।"
+    },
+    "id": "government-schemes-197"
+  },
+  {
+    "q": {
+      "en": "The e-NAM scheme is related to —",
+      "as": "ই-নাম আঁচনি কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Online education",
+        "as": "অনলাইন শিক্ষা"
+      },
+      {
+        "en": "Online agricultural marketing",
+        "as": "অনলাইন কৃষি বিপণন"
+      },
+      {
+        "en": "Online travel",
+        "as": "অনলাইন ভ্ৰমণ"
+      },
+      {
+        "en": "Online medical care",
+        "as": "অনলাইন চিকিৎসা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "e-NAM is related to online agricultural marketing.",
+      "as": "ই-নাম অনলাইন কৃষি বিপণনৰ সৈতে সম্পৰ্কিত।"
+    },
+    "id": "government-schemes-198"
+  },
+  {
+    "q": {
+      "en": "The Pradhan Mantri Krishi Sinchai Yojana is related to —",
+      "as": "প্ৰধানমন্ত্ৰী কৃষি সিঞ্চাই যোজনা কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Irrigation",
+        "as": "জলসিঞ্চন"
+      },
+      {
+        "en": "Industry",
+        "as": "উদ্যোগ"
+      },
+      {
+        "en": "Insurance",
+        "as": "বীমা"
+      },
+      {
+        "en": "Internet",
+        "as": "ইণ্টাৰনেট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "PMKSY is related to irrigation.",
+      "as": "PMKSY জলসিঞ্চনৰ সৈতে সম্পৰ্কিত।"
+    },
+    "id": "government-schemes-199"
+  },
+  {
+    "q": {
+      "en": "The Paramparagat Krishi Vikas Yojana promotes —",
+      "as": "পৰম্পৰাগত কৃষি বিকাশ যোজনে কি প্ৰচাৰ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Factory farming",
+        "as": "কাৰখানা কৃষি"
+      },
+      {
+        "en": "Fish farming",
+        "as": "মাছ পালন"
+      },
+      {
+        "en": "Organic farming",
+        "as": "জৈৱিক কৃষি"
+      },
+      {
+        "en": "Chemical farming",
+        "as": "ৰাসায়নিক কৃষি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Paramparagat Krishi Vikas Yojana promotes organic farming.",
+      "as": "পৰম্পৰাগত কৃষি বিকাশ যোজনে জৈৱিক কৃষি প্ৰচাৰ কৰে।"
+    },
+    "id": "government-schemes-200"
+  },
+  {
+    "q": {
+      "en": "The Pradhan Mantri Matsya Sampada Yojana is related to —",
+      "as": "প্ৰধানমন্ত্ৰী মৎস্য সম্পদ যোজনা কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Forestry",
+        "as": "বনপালন"
+      },
+      {
+        "en": "Fibre",
+        "as": "আঁহ"
+      },
+      {
+        "en": "Fisheries",
+        "as": "মৎস্যচাষ"
+      },
+      {
+        "en": "Farming",
+        "as": "কৃষি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "PMMSY is related to fisheries.",
+      "as": "PMMSY মৎস্যচাষৰ সৈতে সম্পৰ্কিত।"
+    },
+    "id": "government-schemes-201"
+  },
+  {
+    "q": {
+      "en": "The Blue Revolution is associated with —",
+      "as": "নীল বিপ্লৱ কিৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Milk production",
+        "as": "গাখীৰ উৎপাদন"
+      },
+      {
+        "en": "Fish production",
+        "as": "মাছ উৎপাদন"
+      },
+      {
+        "en": "Meat production",
+        "as": "মাংস উৎপাদন"
+      },
+      {
+        "en": "Egg production",
+        "as": "কণী উৎপাদন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The Blue Revolution is associated with fish production.",
+      "as": "নীল বিপ্লৱ মাছ উৎপাদনৰ সৈতে জড়িত।"
+    },
+    "id": "government-schemes-202"
+  },
+  {
+    "q": {
+      "en": "The PM SVANidhi scheme provides support to —",
+      "as": "পিএম স্বনিধি আঁচনিয়ে কাক সহায় কৰে?"
+    },
+    "options": [
+      {
+        "en": "Students",
+        "as": "ছাত্ৰ"
+      },
+      {
+        "en": "Soldiers",
+        "as": "সৈনিক"
+      },
+      {
+        "en": "Street vendors",
+        "as": "পথৰ বিক্ৰেতা"
+      },
+      {
+        "en": "Space scientists",
+        "as": "মহাকাশ বিজ্ঞানী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "PM SVANidhi provides working capital loans to street vendors.",
+      "as": "পিএম স্বনিধিয়ে পথৰ বিক্ৰেতাক কাৰ্যকৰী পুঁজিৰ ঋণ প্ৰদান কৰে।"
+    },
+    "id": "government-schemes-203"
+  },
+  {
+    "q": {
+      "en": "The Saubhagya Yojana is related to —",
+      "as": "সৌভাগ্য যোজনা কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Water connection",
+        "as": "পানী সংযোগ"
+      },
+      {
+        "en": "Internet connection",
+        "as": "ইণ্টাৰনেট সংযোগ"
+      },
+      {
+        "en": "Gas connection",
+        "as": "গেছ সংযোগ"
+      },
+      {
+        "en": "Electricity connection to households",
+        "as": "ঘৰুৱালৈ বিদ্যুৎ সংযোগ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Saubhagya Yojana is related to electricity connections to households.",
+      "as": "সৌভাগ্য যোজনা ঘৰুৱালৈ বিদ্যুৎ সংযোগৰ সৈতে সম্পৰ্কিত।"
+    },
+    "id": "government-schemes-204"
+  },
+  {
+    "q": {
+      "en": "The PM Gati Shakti initiative is related to —",
+      "as": "পিএম গতি শক্তি পদক্ষেপ কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Space research",
+        "as": "মহাকাশ গৱেষণা"
+      },
+      {
+        "en": "Shipping only",
+        "as": "কেৱল জাহাজ পৰিবহণ"
+      },
+      {
+        "en": "Multi-modal infrastructure connectivity",
+        "as": "বহু-মাধ্যম আন্তঃগাঁথনি সংযোগ"
+      },
+      {
+        "en": "Sports",
+        "as": "ক্ৰীড়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "PM Gati Shakti is related to multi-modal infrastructure connectivity.",
+      "as": "পিএম গতি শক্তি বহু-মাধ্যম আন্তঃগাঁথনি সংযোগৰ সৈতে সম্পৰ্কিত।"
+    },
+    "id": "government-schemes-205"
+  },
+  {
+    "q": {
+      "en": "The UDAN scheme is related to —",
+      "as": "উড়ান আঁচনি কি সৈতে সম্পৰ্কিত?"
+    },
+    "options": [
+      {
+        "en": "Rural roads",
+        "as": "গ্ৰাম্য পথ"
+      },
+      {
+        "en": "Rural health",
+        "as": "গ্ৰাম্য স্বাস্থ্য"
+      },
+      {
+        "en": "Regional air connectivity",
+        "as": "আঞ্চলিক বিমান সংযোগ"
+      },
+      {
+        "en": "Rural water supply",
+        "as": "গ্ৰাম্য পানী যোগান"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "UDAN is related to regional air connectivity.",
+      "as": "উড়ান আঞ্চলিক বিমান সংযোগৰ সৈতে সম্পৰ্কিত।"
+    },
+    "id": "government-schemes-206"
   }
-}
+]
