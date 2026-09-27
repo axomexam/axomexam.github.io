@@ -1,30 +1,1118 @@
-{
-  "id": "paper-folding-cutting-001",
-  "q": {
-    "en": "A square sheet is folded once along the middle and a semicircular notch is cut at the folded edge. When unfolded, the hole is —",
-    "as": "এখন বৰ্গাকৃতি কাগজ মাজেৰে এবাৰ ভাঁজ কৰি ভাঁজ কৰা কাষত এটা অৰ্ধবৃত্তাকৃতি খাঁজ কটা হ'ল। মেলি দিলে খাঁজটো হয় —"
-  },
-  "options": [
-    {
-      "en": "A circle",
-      "as": "এটা বৃত্ত"
+[
+  {
+    "id": "paper-folding-cutting-001",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
     },
-    {
-      "en": "A semicircle",
-      "as": "এটা অৰ্ধবৃত্ত"
-    },
-    {
-      "en": "A square",
-      "as": "এটা বৰ্গ"
-    },
-    {
-      "en": "An oval",
-      "as": "এটা ডিম্ব"
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"138.9\" cy=\"74.2\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"112.7\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"112.7\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"112.7\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"112.7\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"57.3\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"112.7\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"112.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. The hole is mirrored across the vertical fold line, giving 2 holes.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। ফুটাটো উলম্ব ভাঁজ ৰেখাৰ সিপাৰে প্ৰতিফলিত হৈ 2 টা ফুটা হয়।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "The half-notch is mirrored across the fold, giving a full circle.",
-    "as": "আধা খাঁজটো ভাঁজৰ দুয়োকাষে প্ৰতিফলিত হয়, ফলত এটা সম্পূৰ্ণ বৃত্ত পোৱা যায়।"
+  },
+  {
+    "id": "paper-folding-cutting-002",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"132.7\" cy=\"132.7\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"107.7\" cy=\"107.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"62.3\" cy=\"107.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"107.7\" cy=\"107.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"107.7\" cy=\"107.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"107.7\" cy=\"62.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"107.7\" cy=\"107.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"62.3\" cy=\"62.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. The hole is mirrored across the vertical fold line, giving 2 holes.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। ফুটাটো উলম্ব ভাঁজ ৰেখাৰ সিপাৰে প্ৰতিফলিত হৈ 2 টা ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-003",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"77.0\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"28\" y1=\"105.0\" x2=\"182\" y2=\"105.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"74.2\" cy=\"138.9\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"112.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"112.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"110.2\" cy=\"112.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"112.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"112.7\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"112.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. The hole is mirrored across the horizontal fold line, giving 2 holes.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। ফুটাটো অনুভূমিক ভাঁজ ৰেখাৰ সিপাৰে প্ৰতিফলিত হৈ 2 টা ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-004",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"77.0\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"28\" y1=\"105.0\" x2=\"182\" y2=\"105.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"128.1\" cy=\"135.8\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"103.9\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"103.9\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"103.9\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"103.9\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"66.1\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"103.9\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"110.2\" cy=\"103.9\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. The hole is mirrored across the horizontal fold line, giving 2 holes.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। ফুটাটো অনুভূমিক ভাঁজ ৰেখাৰ সিপাৰে প্ৰতিফলিত হৈ 2 টা ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-005",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"105.0\" cy=\"81.9\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"85.0\" cy=\"66.1\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"85.0\" cy=\"103.9\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"85.0\" cy=\"66.1\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"85.0\" cy=\"66.1\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"66.1\" cy=\"85.0\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"85.0\" cy=\"66.1\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"103.9\" cy=\"85.0\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. The hole lies on the fold line, so both halves overlap and only 1 hole is formed.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। ফুটাটো ভাঁজ ৰেখাৰ ওপৰত আছে, সেয়ে দুয়ো অংশ একেলগ হৈ মাত্ৰ 1 টা ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-006",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"77.0\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"28\" y1=\"105.0\" x2=\"182\" y2=\"105.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"74.2\" cy=\"105.0\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"85.0\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"110.2\" cy=\"85.0\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"85.0\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"85.0\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"85.0\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"85.0\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"85.0\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. The hole lies on the fold line, so both halves overlap and only 1 hole is formed.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। ফুটাটো ভাঁজ ৰেখাৰ ওপৰত আছে, সেয়ে দুয়ো অংশ একেলগ হৈ মাত্ৰ 1 টা ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-007",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"77.0\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><line x1=\"28\" y1=\"105.0\" x2=\"182\" y2=\"105.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"143.5\" cy=\"71.1\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"116.5\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"116.5\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"116.5\" cy=\"112.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"116.5\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"53.5\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"116.5\" cy=\"112.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"53.5\" cy=\"112.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"116.5\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"53.5\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. Two folds make 4 overlapping layers, so the hole is repeated 4 times.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। দুটা ভাঁজত 4 টা স্তৰ একেলগ হয়, সেয়ে ফুটাটো 4 বাৰ পুনৰাবৃত্তি হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-008",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"77.0\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><line x1=\"28\" y1=\"105.0\" x2=\"182\" y2=\"105.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"123.5\" cy=\"138.9\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"100.1\" cy=\"112.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"69.9\" cy=\"112.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"100.1\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"69.9\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"100.1\" cy=\"112.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"100.1\" cy=\"112.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"100.1\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"100.1\" cy=\"112.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"69.9\" cy=\"112.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. Two folds make 4 overlapping layers, so the hole is repeated 4 times.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। দুটা ভাঁজত 4 টা স্তৰ একেলগ হয়, সেয়ে ফুটাটো 4 বাৰ পুনৰাবৃত্তি হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-009",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"77.0\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><line x1=\"28\" y1=\"105.0\" x2=\"182\" y2=\"105.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"105.0\" cy=\"71.1\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"85.0\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"85.0\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"57.3\" cy=\"85.0\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"85.0\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"112.7\" cy=\"85.0\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"85.0\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"85.0\" cy=\"112.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. The hole lies on the vertical fold line, so only the horizontal fold doubles it, giving 2 holes.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। ফুটাটো উলম্ব ভাঁজ ৰেখাৰ ওপৰত, সেয়ে অনুভূমিক ভাঁজেহে দুগুণ কৰি 2 টা ফুটা দিয়ে।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-010",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"77.0\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><line x1=\"28\" y1=\"105.0\" x2=\"182\" y2=\"105.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"151.2\" cy=\"105.0\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"122.8\" cy=\"85.0\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"47.2\" cy=\"85.0\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"122.8\" cy=\"85.0\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"122.8\" cy=\"85.0\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"85.0\" cy=\"122.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"122.8\" cy=\"85.0\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"85.0\" cy=\"47.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. The hole lies on the horizontal fold line, so only the vertical fold doubles it, giving 2 holes.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। ফুটাটো অনুভূমিক ভাঁজ ৰেখাৰ ওপৰত, সেয়ে উলম্ব ভাঁজেহে দুগুণ কৰি 2 টা ফুটা দিয়ে।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-011",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"28.0\" y1=\"28.0\" x2=\"182.0\" y2=\"182.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"138.9\" cy=\"74.2\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"112.7\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"112.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"112.7\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"112.7\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"112.7\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"112.7\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"57.3\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. The hole is mirrored across the diagonal fold line, giving 2 holes.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। ফুটাটো কৰ্ণ ভাঁজ ৰেখাৰ সিপাৰে প্ৰতিফলিত হৈ 2 টা ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-012",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"28.0\" y1=\"28.0\" x2=\"182.0\" y2=\"182.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"132.7\" cy=\"123.5\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"107.7\" cy=\"100.1\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"107.7\" cy=\"100.1\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"107.7\" cy=\"69.9\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"107.7\" cy=\"100.1\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"100.1\" cy=\"107.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"107.7\" cy=\"100.1\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"62.3\" cy=\"100.1\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. The hole is mirrored across the diagonal fold line, giving 2 holes.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। ফুটাটো কৰ্ণ ভাঁজ ৰেখাৰ সিপাৰে প্ৰতিফলিত হৈ 2 টা ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-013",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"182.0\" y1=\"28.0\" x2=\"28.0\" y2=\"182.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"74.2\" cy=\"74.2\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"110.2\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"110.2\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. The hole is mirrored across the other diagonal fold line, giving 2 holes.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। ফুটাটো আন কৰ্ণ ভাঁজ ৰেখাৰ সিপাৰে প্ৰতিফলিত হৈ 2 টা ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-014",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"28.0\" y1=\"28.0\" x2=\"182.0\" y2=\"182.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"89.6\" cy=\"89.6\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"72.4\" cy=\"72.4\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"72.4\" cy=\"97.6\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"72.4\" cy=\"72.4\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"97.6\" cy=\"72.4\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"72.4\" cy=\"72.4\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"97.6\" cy=\"97.6\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"72.4\" cy=\"72.4\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. The hole lies on the diagonal fold line, so only 1 hole is formed.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। ফুটাটো কৰ্ণ ভাঁজ ৰেখাৰ ওপৰত আছে, সেয়ে মাত্ৰ 1 টা ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-015",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"135.8\" cy=\"71.1\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"148.1\" cy=\"129.6\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"110.2\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"120.3\" cy=\"105.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"110.2\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"110.2\" cy=\"112.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"120.3\" cy=\"105.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"120.3\" cy=\"64.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"110.2\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"57.3\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"120.3\" cy=\"105.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"105.2\" cy=\"120.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"110.2\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"57.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"120.3\" cy=\"105.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"49.7\" cy=\"105.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. Each of the two holes is mirrored across the fold, giving 4 holes in all.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। দুটা ফুটাৰ প্ৰতিটোকে ভাঁজে প্ৰতিফলিত কৰি মুঠ 4 টা ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-016",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"77.0\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><line x1=\"28\" y1=\"105.0\" x2=\"182\" y2=\"105.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"138.9\" cy=\"74.2\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"129.6\" cy=\"120.4\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"112.7\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"57.3\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"112.7\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"57.3\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"105.2\" cy=\"97.6\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"64.8\" cy=\"97.6\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"105.2\" cy=\"72.4\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"64.8\" cy=\"72.4\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"112.7\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"105.2\" cy=\"97.6\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"112.7\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"112.7\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"105.2\" cy=\"97.6\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"105.2\" cy=\"72.4\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"112.7\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"57.3\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"105.2\" cy=\"97.6\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"64.8\" cy=\"97.6\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. With two folds each hole appears 4 times, so two holes give 8 holes.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। দুটা ভাঁজত প্ৰতিটো ফুটা 4 বাৰ দেখা যায়, সেয়ে দুটা ফুটাত 8 টা ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-017",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"112.7\" cy=\"58.8\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"91.3\" cy=\"47.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"91.3\" cy=\"47.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"78.7\" cy=\"47.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"91.3\" cy=\"47.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"91.3\" cy=\"122.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"91.3\" cy=\"47.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"47.2\" cy=\"91.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. The hole is mirrored across the fold, giving 2 holes.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। ফুটাটো ভাঁজে প্ৰতিফলিত হৈ 2 টা ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-018",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched. How many holes will be formed when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কিমানটা ফুটা হ'ব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"138.9\" cy=\"74.2\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The single punched hole is reflected across the fold, so 2 holes are formed.",
+      "as": "এটা ফুটা ভাঁজে প্ৰতিফলিত হৈ 2 টা ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-019",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched. How many holes will be formed when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কিমানটা ফুটা হ'ব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"77.0\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"28\" y1=\"105.0\" x2=\"182\" y2=\"105.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"74.2\" cy=\"138.9\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The single punched hole is reflected across the fold, so 2 holes are formed.",
+      "as": "এটা ফুটা ভাঁজে প্ৰতিফলিত হৈ 2 টা ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-020",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched. How many holes will be formed when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কিমানটা ফুটা হ'ব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"77.0\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><line x1=\"28\" y1=\"105.0\" x2=\"182\" y2=\"105.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"138.9\" cy=\"74.2\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Two folds give 4 layers, so one hole becomes 4 holes.",
+      "as": "দুটা ভাঁজত 4 টা স্তৰ হয়, সেয়ে এটা ফুটাই 4 টা ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-021",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched. How many holes will be formed when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কিমানটা ফুটা হ'ব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"135.8\" cy=\"71.1\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"145.0\" cy=\"132.7\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each of the two holes is doubled by the fold, giving 4 holes.",
+      "as": "দুটা ফুটাৰ প্ৰতিটো ভাঁজে দুগুণ কৰি 4 টা ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-022",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched. How many holes will be formed when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কিমানটা ফুটা হ'ব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"77.0\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><line x1=\"28\" y1=\"105.0\" x2=\"182\" y2=\"105.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"135.8\" cy=\"71.1\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"123.5\" cy=\"129.6\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">9</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">16</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Two holes with two folds give 2 x 4 = 8 holes.",
+      "as": "দুটা ফুটা আৰু দুটা ভাঁজত 2 x 4 = 8 টা ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-023",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched. How many holes will be formed when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কিমানটা ফুটা হ'ব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"77.0\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><line x1=\"28\" y1=\"105.0\" x2=\"182\" y2=\"105.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"105.0\" cy=\"71.1\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 110 110\" width=\"110\" height=\"110\"><rect x=\"1\" y=\"1\" width=\"108\" height=\"108\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e2e8f0\"/><text x=\"55.0\" y=\"70\" font-size=\"44\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The hole is on one fold line, so it is doubled only once, giving 2 holes.",
+      "as": "ফুটাটো এটা ভাঁজ ৰেখাৰ ওপৰত, সেয়ে মাত্ৰ এবাৰ দুগুণ হৈ 2 টা ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-024",
+    "q": {
+      "en": "A paper is folded and a piece is cut as shown. Which figure will appear when the paper is completely unfolded?",
+      "as": "কাগজ ভাঁজ কৰি দেখুওৱাৰ দৰে এটা টুকুৰা কটা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো চিত্ৰ দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><polygon points=\"105.0,81.9 108.0,82.1 111.0,82.7 113.8,83.7 116.5,85.0 119.1,86.7 121.3,88.7 123.3,90.9 125.0,93.5 126.3,96.2 127.3,99.0 127.9,102.0 128.1,105.0 127.9,108.0 127.3,111.0 126.3,113.8 125.0,116.5 123.3,119.1 121.3,121.3 119.1,123.3 116.5,125.0 113.8,126.3 111.0,127.3 108.0,127.9 105.0,128.1\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"85.0,66.1 87.5,66.3 89.9,66.7 92.2,67.5 94.4,68.6 96.5,70.0 98.4,71.6 100.0,73.5 101.4,75.6 102.5,77.8 103.3,80.1 103.7,82.5 103.9,85.0 103.7,87.5 103.3,89.9 102.5,92.2 101.4,94.4 100.0,96.5 98.4,98.4 96.5,100.0 94.4,101.4 92.2,102.5 89.9,103.3 87.5,103.7 85.0,103.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"85.0,66.1 82.5,66.3 80.1,66.7 77.8,67.5 75.6,68.6 73.5,70.0 71.6,71.6 70.0,73.5 68.6,75.6 67.5,77.8 66.7,80.1 66.3,82.5 66.1,85.0 66.3,87.5 66.7,89.9 67.5,92.2 68.6,94.4 70.0,96.5 71.6,98.4 73.5,100.0 75.6,101.4 77.8,102.5 80.1,103.3 82.5,103.7 85.0,103.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"85.0,66.1 87.5,66.3 89.9,66.7 92.2,67.5 94.4,68.6 96.5,70.0 98.4,71.6 100.0,73.5 101.4,75.6 102.5,77.8 103.3,80.1 103.7,82.5 103.9,85.0 103.7,87.5 103.3,89.9 102.5,92.2 101.4,94.4 100.0,96.5 98.4,98.4 96.5,100.0 94.4,101.4 92.2,102.5 89.9,103.3 87.5,103.7 85.0,103.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"85.0,66.1 87.5,66.3 89.9,66.7 92.2,67.5 94.4,68.6 96.5,70.0 98.4,71.6 100.0,73.5 101.4,75.6 102.5,77.8 103.3,80.1 103.7,82.5 103.9,85.0 103.7,87.5 103.3,89.9 102.5,92.2 101.4,94.4 100.0,96.5 98.4,98.4 96.5,100.0 94.4,101.4 92.2,102.5 89.9,103.3 87.5,103.7 85.0,103.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"66.1,85.0 66.3,87.5 66.7,89.9 67.5,92.2 68.6,94.4 70.0,96.5 71.6,98.4 73.5,100.0 75.6,101.4 77.8,102.5 80.1,103.3 82.5,103.7 85.0,103.9 87.5,103.7 89.9,103.3 92.2,102.5 94.4,101.4 96.5,100.0 98.4,98.4 100.0,96.5 101.4,94.4 102.5,92.2 103.3,89.9 103.7,87.5 103.9,85.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"85.0,66.1 87.5,66.3 89.9,66.7 92.2,67.5 94.4,68.6 96.5,70.0 98.4,71.6 100.0,73.5 101.4,75.6 102.5,77.8 103.3,80.1 103.7,82.5 103.9,85.0 103.7,87.5 103.3,89.9 102.5,92.2 101.4,94.4 100.0,96.5 98.4,98.4 96.5,100.0 94.4,101.4 92.2,102.5 89.9,103.3 87.5,103.7 85.0,103.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"103.9,85.0 103.7,82.5 103.3,80.1 102.5,77.8 101.4,75.6 100.0,73.5 98.4,71.6 96.5,70.0 94.4,68.6 92.2,67.5 89.9,66.7 87.5,66.3 85.0,66.1 82.5,66.3 80.1,66.7 77.8,67.5 75.6,68.6 73.5,70.0 71.6,71.6 70.0,73.5 68.6,75.6 67.5,77.8 66.7,80.1 66.3,82.5 66.1,85.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "When unfolded, the cut is reflected across the fold line, so the two half-circles join to form one circular hole.",
+      "as": "মেলিলে কটা অংশটো ভাঁজ ৰেখাৰ সিপাৰে প্ৰতিফলিত হয়, সেয়ে দুটা অৰ্ধবৃত্ত লগ হৈ এটা বৃত্তাকাৰ ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-025",
+    "q": {
+      "en": "A paper is folded and a piece is cut as shown. Which figure will appear when the paper is completely unfolded?",
+      "as": "কাগজ ভাঁজ কৰি দেখুওৱাৰ দৰে এটা টুকুৰা কটা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো চিত্ৰ দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><polygon points=\"105.0,69.6 128.1,92.7 105.0,115.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"85.0,56.0 103.9,74.9 85.0,93.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"85.0,56.0 103.9,74.9 85.0,93.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"85.0,114.0 103.9,95.1 85.0,76.2\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"85.0,56.0 103.9,74.9 85.0,93.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"85.0,56.0 66.1,74.9 85.0,93.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"85.0,56.0 103.9,74.9 85.0,93.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"56.0,85.0 74.9,103.9 93.8,85.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "When unfolded, the cut is reflected across the fold line, so the two triangles join to form a diamond-shaped hole.",
+      "as": "মেলিলে কটা অংশটো ভাঁজ ৰেখাৰ সিপাৰে প্ৰতিফলিত হয়, সেয়ে দুটা ত্ৰিভুজ লগ হৈ হীৰা আকৃতিৰ ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-026",
+    "q": {
+      "en": "A paper is folded and a piece is cut as shown. Which figure will appear when the paper is completely unfolded?",
+      "as": "কাগজ ভাঁজ কৰি দেখুওৱাৰ দৰে এটা টুকুৰা কটা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো চিত্ৰ দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><polygon points=\"105.0,92.7 129.6,92.7 129.6,117.3 105.0,117.3\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"85.0,74.9 105.2,74.9 105.2,95.1 85.0,95.1\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"85.0,74.9 105.2,74.9 105.2,95.1 85.0,95.1\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"85.0,74.9 64.8,74.9 64.8,95.1 85.0,95.1\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"85.0,74.9 105.2,74.9 105.2,95.1 85.0,95.1\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"74.9,85.0 74.9,105.2 95.1,105.2 95.1,85.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"85.0,74.9 105.2,74.9 105.2,95.1 85.0,95.1\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"95.1,85.0 95.1,64.8 74.9,64.8 74.9,85.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "When unfolded, the cut is reflected across the fold line, so the two rectangles join to form a single rectangular hole.",
+      "as": "মেলিলে কটা অংশটো ভাঁজ ৰেখাৰ সিপাৰে প্ৰতিফলিত হয়, সেয়ে দুটা আয়ত লগ হৈ এটা আয়তাকাৰ ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-027",
+    "q": {
+      "en": "A paper is folded and a piece is cut as shown. Which figure will appear when the paper is completely unfolded?",
+      "as": "কাগজ ভাঁজ কৰি দেখুওৱাৰ দৰে এটা টুকুৰা কটা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো চিত্ৰ দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"77.0\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"28\" y1=\"105.0\" x2=\"182\" y2=\"105.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><polygon points=\"128.1,105.0 127.9,108.0 127.3,111.0 126.3,113.8 125.0,116.5 123.3,119.1 121.3,121.3 119.1,123.3 116.5,125.0 113.8,126.3 111.0,127.3 108.0,127.9 105.0,128.1 102.0,127.9 99.0,127.3 96.2,126.3 93.5,125.0 90.9,123.3 88.7,121.3 86.7,119.1 85.0,116.5 83.7,113.8 82.7,111.0 82.1,108.0 81.9,105.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"103.9,85.0 103.7,87.5 103.3,89.9 102.5,92.2 101.4,94.4 100.0,96.5 98.4,98.4 96.5,100.0 94.4,101.4 92.2,102.5 89.9,103.3 87.5,103.7 85.0,103.9 82.5,103.7 80.1,103.3 77.8,102.5 75.6,101.4 73.5,100.0 71.6,98.4 70.0,96.5 68.6,94.4 67.5,92.2 66.7,89.9 66.3,87.5 66.1,85.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"103.9,85.0 103.7,87.5 103.3,89.9 102.5,92.2 101.4,94.4 100.0,96.5 98.4,98.4 96.5,100.0 94.4,101.4 92.2,102.5 89.9,103.3 87.5,103.7 85.0,103.9 82.5,103.7 80.1,103.3 77.8,102.5 75.6,101.4 73.5,100.0 71.6,98.4 70.0,96.5 68.6,94.4 67.5,92.2 66.7,89.9 66.3,87.5 66.1,85.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"85.0,103.9 87.5,103.7 89.9,103.3 92.2,102.5 94.4,101.4 96.5,100.0 98.4,98.4 100.0,96.5 101.4,94.4 102.5,92.2 103.3,89.9 103.7,87.5 103.9,85.0 103.7,82.5 103.3,80.1 102.5,77.8 101.4,75.6 100.0,73.5 98.4,71.6 96.5,70.0 94.4,68.6 92.2,67.5 89.9,66.7 87.5,66.3 85.0,66.1\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"103.9,85.0 103.7,87.5 103.3,89.9 102.5,92.2 101.4,94.4 100.0,96.5 98.4,98.4 96.5,100.0 94.4,101.4 92.2,102.5 89.9,103.3 87.5,103.7 85.0,103.9 82.5,103.7 80.1,103.3 77.8,102.5 75.6,101.4 73.5,100.0 71.6,98.4 70.0,96.5 68.6,94.4 67.5,92.2 66.7,89.9 66.3,87.5 66.1,85.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"85.0,66.1 82.5,66.3 80.1,66.7 77.8,67.5 75.6,68.6 73.5,70.0 71.6,71.6 70.0,73.5 68.6,75.6 67.5,77.8 66.7,80.1 66.3,82.5 66.1,85.0 66.3,87.5 66.7,89.9 67.5,92.2 68.6,94.4 70.0,96.5 71.6,98.4 73.5,100.0 75.6,101.4 77.8,102.5 80.1,103.3 82.5,103.7 85.0,103.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"103.9,85.0 103.7,87.5 103.3,89.9 102.5,92.2 101.4,94.4 100.0,96.5 98.4,98.4 96.5,100.0 94.4,101.4 92.2,102.5 89.9,103.3 87.5,103.7 85.0,103.9 82.5,103.7 80.1,103.3 77.8,102.5 75.6,101.4 73.5,100.0 71.6,98.4 70.0,96.5 68.6,94.4 67.5,92.2 66.7,89.9 66.3,87.5 66.1,85.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"103.9,85.0 103.7,82.5 103.3,80.1 102.5,77.8 101.4,75.6 100.0,73.5 98.4,71.6 96.5,70.0 94.4,68.6 92.2,67.5 89.9,66.7 87.5,66.3 85.0,66.1 82.5,66.3 80.1,66.7 77.8,67.5 75.6,68.6 73.5,70.0 71.6,71.6 70.0,73.5 68.6,75.6 67.5,77.8 66.7,80.1 66.3,82.5 66.1,85.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "When unfolded, the cut is reflected across the fold line, so the two half-circles join to form one circular hole.",
+      "as": "মেলিলে কটা অংশটো ভাঁজ ৰেখাৰ সিপাৰে প্ৰতিফলিত হয়, সেয়ে দুটা অৰ্ধবৃত্ত লগ হৈ এটা বৃত্তাকাৰ ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-028",
+    "q": {
+      "en": "A paper is folded and a piece is cut as shown. Which figure will appear when the paper is completely unfolded?",
+      "as": "কাগজ ভাঁজ কৰি দেখুওৱাৰ দৰে এটা টুকুৰা কটা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো চিত্ৰ দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><polygon points=\"123.5,58.8 154.3,58.8 154.3,89.6 123.5,89.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"100.1,47.2 125.3,47.2 125.3,72.4 100.1,72.4\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"69.9,47.2 44.7,47.2 44.7,72.4 69.9,72.4\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"100.1,47.2 125.3,47.2 125.3,72.4 100.1,72.4\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"100.1,47.2 125.3,47.2 125.3,72.4 100.1,72.4\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"100.1,122.8 125.3,122.8 125.3,97.6 100.1,97.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"100.1,47.2 125.3,47.2 125.3,72.4 100.1,72.4\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"47.2,100.1 47.2,125.3 72.4,125.3 72.4,100.1\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "When unfolded, the cut is reflected across the fold line, so the square is reflected to produce two square holes.",
+      "as": "মেলিলে কটা অংশটো ভাঁজ ৰেখাৰ সিপাৰে প্ৰতিফলিত হয়, সেয়ে বৰ্গটো প্ৰতিফলিত হৈ দুটা বৰ্গাকাৰ ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-029",
+    "q": {
+      "en": "A paper is folded and a piece is cut as shown. Which figure will appear when the paper is completely unfolded?",
+      "as": "কাগজ ভাঁজ কৰি দেখুওৱাৰ দৰে এটা টুকুৰা কটা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো চিত্ৰ দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><polygon points=\"182.0,71.1 151.2,71.1 151.2,101.9 182.0,101.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"148.0,57.3 122.8,57.3 122.8,82.5 148.0,82.5\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"148.0,57.3 122.8,57.3 122.8,82.5 148.0,82.5\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"22.0,57.3 47.2,57.3 47.2,82.5 22.0,82.5\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"148.0,57.3 122.8,57.3 122.8,82.5 148.0,82.5\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"148.0,112.7 122.8,112.7 122.8,87.5 148.0,87.5\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"148.0,57.3 122.8,57.3 122.8,82.5 148.0,82.5\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"57.3,148.0 57.3,122.8 82.5,122.8 82.5,148.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "When unfolded, the cut is reflected across the fold line, so the notch is reflected to appear on both the left and right edges.",
+      "as": "মেলিলে কটা অংশটো ভাঁজ ৰেখাৰ সিপাৰে প্ৰতিফলিত হয়, সেয়ে খাঁজটো প্ৰতিফলিত হৈ বাওঁ আৰু সোঁ দুই কাষত দেখা যায়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-030",
+    "q": {
+      "en": "A paper is folded and a piece is cut as shown. Which figure will appear when the paper is completely unfolded?",
+      "as": "কাগজ ভাঁজ কৰি দেখুওৱাৰ দৰে এটা টুকুৰা কটা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো চিত্ৰ দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"77.0\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"28\" y1=\"105.0\" x2=\"182\" y2=\"105.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><polygon points=\"89.6,182.0 89.6,151.2 120.4,151.2 120.4,182.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"72.4,148.0 72.4,122.8 97.6,122.8 97.6,148.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"72.4,148.0 72.4,122.8 97.6,122.8 97.6,148.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"148.0,72.4 122.8,72.4 122.8,97.6 148.0,97.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"72.4,148.0 72.4,122.8 97.6,122.8 97.6,148.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"72.4,22.0 72.4,47.2 97.6,47.2 97.6,22.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"72.4,148.0 72.4,122.8 97.6,122.8 97.6,148.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"22.0,97.6 47.2,97.6 47.2,72.4 22.0,72.4\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "When unfolded, the cut is reflected across the fold line, so the notch is reflected to appear on both the top and bottom edges.",
+      "as": "মেলিলে কটা অংশটো ভাঁজ ৰেখাৰ সিপাৰে প্ৰতিফলিত হয়, সেয়ে খাঁজটো প্ৰতিফলিত হৈ ওপৰ আৰু তল দুই কাষত দেখা যায়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-031",
+    "q": {
+      "en": "A paper is folded and a piece is cut as shown. Which figure will appear when the paper is completely unfolded?",
+      "as": "কাগজ ভাঁজ কৰি দেখুওৱাৰ দৰে এটা টুকুৰা কটা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো চিত্ৰ দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"28.0\" y1=\"28.0\" x2=\"182.0\" y2=\"182.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><polygon points=\"120.4,58.8 151.2,58.8 151.2,89.6 120.4,89.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"97.6,47.2 122.8,47.2 122.8,72.4 97.6,72.4\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"97.6,47.2 122.8,47.2 122.8,72.4 97.6,72.4\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"97.6,122.8 122.8,122.8 122.8,97.6 97.6,97.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"97.6,47.2 122.8,47.2 122.8,72.4 97.6,72.4\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"72.4,47.2 47.2,47.2 47.2,72.4 72.4,72.4\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"97.6,47.2 122.8,47.2 122.8,72.4 97.6,72.4\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"47.2,97.6 47.2,122.8 72.4,122.8 72.4,97.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "When unfolded, the cut is reflected across the fold line, so the square is reflected across the diagonal, producing two square holes.",
+      "as": "মেলিলে কটা অংশটো ভাঁজ ৰেখাৰ সিপাৰে প্ৰতিফলিত হয়, সেয়ে বৰ্গটো কৰ্ণৰ সিপাৰে প্ৰতিফলিত হৈ দুটা বৰ্গাকাৰ ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-032",
+    "q": {
+      "en": "A paper is folded and a piece is cut as shown. Which figure will appear when the paper is completely unfolded?",
+      "as": "কাগজ ভাঁজ কৰি দেখুওৱাৰ দৰে এটা টুকুৰা কটা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো চিত্ৰ দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"77.0\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><line x1=\"28\" y1=\"105.0\" x2=\"182\" y2=\"105.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><polygon points=\"125.0,60.3 152.7,60.3 152.7,88.1 125.0,88.1\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"101.4,48.5 124.1,48.5 124.1,71.1 101.4,71.1\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"68.6,48.5 45.9,48.5 45.9,71.1 68.6,71.1\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"101.4,121.5 124.1,121.5 124.1,98.9 101.4,98.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"68.6,121.5 45.9,121.5 45.9,98.9 68.6,98.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"101.4,48.5 124.1,48.5 124.1,71.1 101.4,71.1\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"101.4,48.5 124.1,48.5 124.1,71.1 101.4,71.1\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"101.4,121.5 124.1,121.5 124.1,98.9 101.4,98.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"101.4,48.5 124.1,48.5 124.1,71.1 101.4,71.1\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"68.6,48.5 45.9,48.5 45.9,71.1 68.6,71.1\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "When unfolded, the cut is reflected across the fold line, so the square is reflected by both folds, producing four square holes.",
+      "as": "মেলিলে কটা অংশটো ভাঁজ ৰেখাৰ সিপাৰে প্ৰতিফলিত হয়, সেয়ে বৰ্গটো দুয়ো ভাঁজে প্ৰতিফলিত কৰি চাৰিটা বৰ্গাকাৰ ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-033",
+    "q": {
+      "en": "A paper is folded and a piece is cut as shown. Which figure will appear when the paper is completely unfolded?",
+      "as": "কাগজ ভাঁজ কৰি দেখুওৱাৰ দৰে এটা টুকুৰা কটা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো চিত্ৰ দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><polygon points=\"117.3,105.0 148.1,105.0 148.1,135.8 117.3,135.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"95.1,85.0 120.3,85.0 120.3,110.2 95.1,110.2\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"95.1,85.0 120.3,85.0 120.3,110.2 95.1,110.2\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"95.1,85.0 120.3,85.0 120.3,59.8 95.1,59.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"95.1,85.0 120.3,85.0 120.3,110.2 95.1,110.2\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"74.9,85.0 49.7,85.0 49.7,110.2 74.9,110.2\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"95.1,85.0 120.3,85.0 120.3,110.2 95.1,110.2\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"85.0,95.1 85.0,120.3 110.2,120.3 110.2,95.1\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "When unfolded, the cut is reflected across the fold line, so the square is reflected to produce two square holes.",
+      "as": "মেলিলে কটা অংশটো ভাঁজ ৰেখাৰ সিপাৰে প্ৰতিফলিত হয়, সেয়ে বৰ্গটো প্ৰতিফলিত হৈ দুটা বৰ্গাকাৰ ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-034",
+    "q": {
+      "en": "A paper is folded and a piece is cut as shown. Which figure will appear when the paper is completely unfolded?",
+      "as": "কাগজ ভাঁজ কৰি দেখুওৱাৰ দৰে এটা টুকুৰা কটা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো চিত্ৰ দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"77.0\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"28\" y1=\"105.0\" x2=\"182\" y2=\"105.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><polygon points=\"81.9,105.0 105.0,128.1 128.1,105.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"66.1,85.0 85.0,103.9 103.9,85.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"66.1,85.0 85.0,103.9 103.9,85.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"66.1,85.0 85.0,66.1 103.9,85.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"66.1,85.0 85.0,103.9 103.9,85.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"85.0,66.1 103.9,85.0 85.0,103.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><polygon points=\"66.1,85.0 85.0,103.9 103.9,85.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"85.0,103.9 66.1,85.0 85.0,66.1\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "When unfolded, the cut is reflected across the fold line, so the two triangles join to form a diamond-shaped hole.",
+      "as": "মেলিলে কটা অংশটো ভাঁজ ৰেখাৰ সিপাৰে প্ৰতিফলিত হয়, সেয়ে দুটা ত্ৰিভুজ লগ হৈ হীৰা আকৃতিৰ ফুটা হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-035",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"77.0\" height=\"154\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"77.0\" fill=\"#f8fafc\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"105.0\" y1=\"28\" x2=\"105.0\" y2=\"182\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><line x1=\"28\" y1=\"105.0\" x2=\"182\" y2=\"105.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"74.2\" cy=\"135.8\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"110.2\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"110.2\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"59.8\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"59.8\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"110.2\" cy=\"110.2\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. Two folds make 4 layers, so the hole is repeated 4 times.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। দুটা ভাঁজত 4 টা স্তৰ একেলগ হয়, সেয়ে ফুটাটো 4 বাৰ পুনৰাবৃত্তি হয়।"
+    }
+  },
+  {
+    "id": "paper-folding-cutting-036",
+    "q": {
+      "en": "A paper is folded as shown and a hole is punched through it. Which pattern will appear when the paper is completely unfolded?",
+      "as": "দেখুওৱাৰ দৰে কাগজ ভাঁজ কৰি এটা ফুটা কৰা হ'ল। কাগজখন সম্পূৰ্ণকৈ মেলিলে কোনটো আৰ্হি দেখা যাব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 210 210\" width=\"210\" height=\"210\"><rect x=\"1\" y=\"1\" width=\"208\" height=\"208\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"28\" width=\"154\" height=\"154\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><line x1=\"182.0\" y1=\"28.0\" x2=\"28.0\" y2=\"182.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"132.7\" cy=\"77.3\" r=\"6.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"107.7\" cy=\"62.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"107.7\" cy=\"107.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"107.7\" cy=\"62.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"62.3\" cy=\"62.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"107.7\" cy=\"62.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 170\" width=\"170\" height=\"170\"><rect x=\"1\" y=\"1\" width=\"168\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"22\" y=\"22\" width=\"126\" height=\"126\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"107.7\" cy=\"62.3\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"62.3\" cy=\"107.7\" r=\"5.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "On unfolding, every fold line reflects the punched hole. The hole lies on the diagonal fold line, so only 1 hole is formed.",
+      "as": "কাগজ মেলিলে প্ৰতিটো ভাঁজ ৰেখাই ফুটাৰ প্ৰতিবিম্ব সৃষ্টি কৰে। ফুটাটো কৰ্ণ ভাঁজ ৰেখাৰ ওপৰত আছে, সেয়ে মাত্ৰ 1 টা ফুটা হয়।"
+    }
   }
-}
+]
