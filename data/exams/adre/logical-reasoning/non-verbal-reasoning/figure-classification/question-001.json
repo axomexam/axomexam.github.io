@@ -1,30 +1,1118 @@
-{
-  "id": "figure-classification-001",
-  "q": {
-    "en": "In a set of figures — triangle, square, circle and an open curve — which one is the odd figure?",
-    "as": "চিত্ৰৰ এটা সংহতিত — ত্ৰিভুজ, চতুৰ্ভুজ, বৃত্ত আৰু এডাল খোলা ৰেখা — কোনটো অমিল চিত্ৰ?"
-  },
-  "options": [
-    {
-      "en": "Triangle",
-      "as": "ত্ৰিভুজ"
+[
+  {
+    "id": "figure-classification-001",
+    "q": {
+      "en": "Which of the following figures is different from the others?",
+      "as": "তলৰ কোনটো চিত্ৰ আনবোৰতকৈ বেলেগ?"
     },
-    {
-      "en": "Square",
-      "as": "চতুৰ্ভুজ"
-    },
-    {
-      "en": "Circle",
-      "as": "বৃত্ত"
-    },
-    {
-      "en": "Open curve",
-      "as": "খোলা ৰেখা"
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"52.00\" cy=\"46.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"148.00\" cy=\"46.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"35.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"148.00\" cy=\"114.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "All the figures are circles except the square.",
+      "as": "বৰ্গটোৰ বাহিৰে বাকী সকলো বৃত্ত।"
     }
-  ],
-  "correct": 3,
-  "explanation": {
-    "en": "Triangle, square and circle are closed figures; the open curve is not closed.",
-    "as": "ত্ৰিভুজ, চতুৰ্ভুজ আৰু বৃত্ত বন্ধ চিত্ৰ; খোলা ৰেখাডাল বন্ধ নহয়।"
+  },
+  {
+    "id": "figure-classification-002",
+    "q": {
+      "en": "Find the odd one out.",
+      "as": "বেলেগ চিত্ৰটো নিৰ্ণয় কৰা।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"52.00,24.00 71.05,57.00 32.95,57.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"131.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"35.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"131.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "All the figures are squares except the triangle.",
+      "as": "ত্ৰিভুজটোৰ বাহিৰে বাকী সকলো বৰ্গ।"
+    }
+  },
+  {
+    "id": "figure-classification-003",
+    "q": {
+      "en": "Which of the following figures does not belong to the group?",
+      "as": "তলৰ কোনটো চিত্ৰ এই দলটোৰ অন্তৰ্ভুক্ত নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"52.00,24.00 71.05,57.00 32.95,57.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"148.00,24.00 167.05,57.00 128.95,57.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"52.00,92.00 71.05,125.00 32.95,125.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"148.00\" cy=\"114.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "All the figures are triangles except the circle.",
+      "as": "বৃত্তটোৰ বাহিৰে বাকী সকলো ত্ৰিভুজ।"
+    }
+  },
+  {
+    "id": "figure-classification-004",
+    "q": {
+      "en": "Which figure is different from the other three?",
+      "as": "কোনটো চিত্ৰ বাকী তিনিটাতকৈ বেলেগ?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"31.00\" y=\"33.00\" width=\"42.00\" height=\"26.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"148.00\" cy=\"46.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"31.00\" y=\"101.00\" width=\"42.00\" height=\"26.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"127.00\" y=\"101.00\" width=\"42.00\" height=\"26.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "All the figures are rectangles except the circle.",
+      "as": "বৃত্তটোৰ বাহিৰে বাকী সকলো আয়ত।"
+    }
+  },
+  {
+    "id": "figure-classification-005",
+    "q": {
+      "en": "Which of the following figures is different from the others?",
+      "as": "তলৰ কোনটো চিত্ৰ আনবোৰতকৈ বেলেগ?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"52.00,26.00 71.02,39.82 63.76,62.18 40.24,62.18 32.98,39.82\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"148.00,26.00 167.02,39.82 159.76,62.18 136.24,62.18 128.98,39.82\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"35.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><polygon points=\"148.00,94.00 167.02,107.82 159.76,130.18 136.24,130.18 128.98,107.82\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "All the figures are pentagons except the square.",
+      "as": "বৰ্গটোৰ বাহিৰে বাকী সকলো পঞ্চভুজ।"
+    }
+  },
+  {
+    "id": "figure-classification-006",
+    "q": {
+      "en": "Find the odd one out.",
+      "as": "বেলেগ চিত্ৰটো নিৰ্ণয় কৰা।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"52.00,24.00 71.05,57.00 32.95,57.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"148.00,26.00 165.32,36.00 165.32,56.00 148.00,66.00 130.68,56.00 130.68,36.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"52.00,94.00 69.32,104.00 69.32,124.00 52.00,134.00 34.68,124.00 34.68,104.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"148.00,94.00 165.32,104.00 165.32,124.00 148.00,134.00 130.68,124.00 130.68,104.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "All the figures are hexagons except the triangle.",
+      "as": "ত্ৰিভুজটোৰ বাহিৰে বাকী সকলো ষড়ভুজ।"
+    }
+  },
+  {
+    "id": "figure-classification-007",
+    "q": {
+      "en": "Which of the following figures does not belong to the group?",
+      "as": "তলৰ কোনটো চিত্ৰ এই দলটোৰ অন্তৰ্ভুক্ত নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"52.00\" cy=\"46.00\" r=\"19.00\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"148.00\" cy=\"46.00\" r=\"19.00\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"52.00\" cy=\"114.00\" r=\"19.00\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"148.00\" cy=\"114.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "All the circles are shaded except one.",
+      "as": "এটাৰ বাহিৰে বাকী সকলো বৃত্ত ৰঙ কৰা আছে।"
+    }
+  },
+  {
+    "id": "figure-classification-008",
+    "q": {
+      "en": "Which figure is different from the other three?",
+      "as": "কোনটো চিত্ৰ বাকী তিনিটাতকৈ বেলেগ?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"35.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"131.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"35.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"131.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "All the squares are unshaded except one.",
+      "as": "এটাৰ বাহিৰে বাকী সকলো বৰ্গ ৰঙ নকৰা।"
+    }
+  },
+  {
+    "id": "figure-classification-009",
+    "q": {
+      "en": "Which of the following figures is different from the others?",
+      "as": "তলৰ কোনটো চিত্ৰ আনবোৰতকৈ বেলেগ?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"52.00,24.00 71.05,57.00 32.95,57.00\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"148.00,24.00 167.05,57.00 128.95,57.00\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"52.00,92.00 71.05,125.00 32.95,125.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"148.00,92.00 167.05,125.00 128.95,125.00\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "All the triangles are shaded except one.",
+      "as": "এটাৰ বাহিৰে বাকী সকলো ত্ৰিভুজ ৰঙ কৰা আছে।"
+    }
+  },
+  {
+    "id": "figure-classification-010",
+    "q": {
+      "en": "Find the odd one out.",
+      "as": "বেলেগ চিত্ৰটো নিৰ্ণয় কৰা।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"52.00,24.00 71.05,57.00 32.95,57.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"148.00,24.00 167.05,57.00 128.95,57.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><line x1=\"148.00\" y1=\"24.00\" x2=\"148.00\" y2=\"57.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"52.00,92.00 71.05,125.00 32.95,125.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><line x1=\"52.00\" y1=\"92.00\" x2=\"52.00\" y2=\"125.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"148.00,92.00 167.05,125.00 128.95,125.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><line x1=\"148.00\" y1=\"92.00\" x2=\"148.00\" y2=\"125.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "All the triangles have a median drawn except one.",
+      "as": "এটাৰ বাহিৰে বাকী সকলো ত্ৰিভুজত মধ্যমা আঁকা আছে।"
+    }
+  },
+  {
+    "id": "figure-classification-011",
+    "q": {
+      "en": "Which of the following figures does not belong to the group?",
+      "as": "তলৰ কোনটো চিত্ৰ এই দলটোৰ অন্তৰ্ভুক্ত নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"35.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"35.00\" y1=\"29.00\" x2=\"69.00\" y2=\"63.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><rect x=\"131.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"131.00\" y1=\"29.00\" x2=\"165.00\" y2=\"63.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><rect x=\"35.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"35.00\" y1=\"97.00\" x2=\"69.00\" y2=\"131.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><rect x=\"131.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A diagonal is drawn in all the squares except one.",
+      "as": "এটাৰ বাহিৰে বাকী সকলো বৰ্গত কৰ্ণ আঁকা আছে।"
+    }
+  },
+  {
+    "id": "figure-classification-012",
+    "q": {
+      "en": "Which figure is different from the other three?",
+      "as": "কোনটো চিত্ৰ বাকী তিনিটাতকৈ বেলেগ?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"52.00\" cy=\"46.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"52.00\" cy=\"46.00\" r=\"3.60\" fill=\"#334155\" stroke=\"none\"/><circle cx=\"148.00\" cy=\"46.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"52.00\" cy=\"114.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"52.00\" cy=\"114.00\" r=\"3.60\" fill=\"#334155\" stroke=\"none\"/><circle cx=\"148.00\" cy=\"114.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"148.00\" cy=\"114.00\" r=\"3.60\" fill=\"#334155\" stroke=\"none\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "All the circles have a dot at the centre except one.",
+      "as": "এটাৰ বাহিৰে বাকী সকলো বৃত্তৰ কেন্দ্ৰত এটা বিন্দু আছে।"
+    }
+  },
+  {
+    "id": "figure-classification-013",
+    "q": {
+      "en": "Which of the following figures is different from the others?",
+      "as": "তলৰ কোনটো চিত্ৰ আনবোৰতকৈ বেলেগ?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"35.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"52.00\" y1=\"29.00\" x2=\"52.00\" y2=\"63.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><rect x=\"131.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"148.00\" y1=\"29.00\" x2=\"148.00\" y2=\"63.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><rect x=\"35.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"35.00\" y1=\"114.00\" x2=\"69.00\" y2=\"114.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><rect x=\"131.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"148.00\" y1=\"97.00\" x2=\"148.00\" y2=\"131.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "All the squares are divided by a vertical line except one.",
+      "as": "এটাৰ বাহিৰে বাকী সকলো বৰ্গ উলম্ব ৰেখাৰে বিভক্ত।"
+    }
+  },
+  {
+    "id": "figure-classification-014",
+    "q": {
+      "en": "Find the odd one out.",
+      "as": "বেলেগ চিত্ৰটো নিৰ্ণয় কৰা।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"35.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"45.00\" cy=\"40.00\" r=\"4.20\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"59.00\" cy=\"40.00\" r=\"4.20\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"52.00\" cy=\"54.00\" r=\"4.20\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"131.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"141.00\" cy=\"40.00\" r=\"4.20\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"155.00\" cy=\"40.00\" r=\"4.20\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"148.00\" cy=\"54.00\" r=\"4.20\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"35.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"45.00\" cy=\"108.00\" r=\"4.20\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"59.00\" cy=\"108.00\" r=\"4.20\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"52.00\" cy=\"122.00\" r=\"4.20\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"131.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"141.00\" cy=\"114.00\" r=\"4.20\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"155.00\" cy=\"114.00\" r=\"4.20\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Every square contains three small circles except one.",
+      "as": "এটাত বাদে প্ৰতিটো বৰ্গৰ ভিতৰত তিনিটা সৰু বৃত্ত আছে।"
+    }
+  },
+  {
+    "id": "figure-classification-015",
+    "q": {
+      "en": "Which of the following figures does not belong to the group?",
+      "as": "তলৰ কোনটো চিত্ৰ এই দলটোৰ অন্তৰ্ভুক্ত নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"35.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"52.00\" cy=\"38.00\" r=\"3.60\" fill=\"#334155\" stroke=\"none\"/><circle cx=\"44.00\" cy=\"54.00\" r=\"3.60\" fill=\"#334155\" stroke=\"none\"/><circle cx=\"60.00\" cy=\"54.00\" r=\"3.60\" fill=\"#334155\" stroke=\"none\"/><rect x=\"131.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"140.00\" cy=\"46.00\" r=\"3.60\" fill=\"#334155\" stroke=\"none\"/><circle cx=\"156.00\" cy=\"46.00\" r=\"3.60\" fill=\"#334155\" stroke=\"none\"/><rect x=\"35.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"44.00\" cy=\"114.00\" r=\"3.60\" fill=\"#334155\" stroke=\"none\"/><circle cx=\"60.00\" cy=\"114.00\" r=\"3.60\" fill=\"#334155\" stroke=\"none\"/><rect x=\"131.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"140.00\" cy=\"114.00\" r=\"3.60\" fill=\"#334155\" stroke=\"none\"/><circle cx=\"156.00\" cy=\"114.00\" r=\"3.60\" fill=\"#334155\" stroke=\"none\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Every square contains two dots except one.",
+      "as": "এটাত বাদে প্ৰতিটো বৰ্গৰ ভিতৰত দুটা বিন্দু আছে।"
+    }
+  },
+  {
+    "id": "figure-classification-016",
+    "q": {
+      "en": "Which figure is different from the other three?",
+      "as": "কোনটো চিত্ৰ বাকী তিনিটাতকৈ বেলেগ?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><path d=\"M 35.00 29.00 L 69.00 29.00 L 69.00 63.00 L 35.00 63.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"131.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><path d=\"M 35.00 97.00 L 69.00 97.00 L 69.00 131.00 L 35.00 131.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 131.00 97.00 L 165.00 97.00 L 165.00 131.00 L 131.00 131.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "All the figures are open except one closed square.",
+      "as": "এটা বন্ধ বৰ্গৰ বাহিৰে বাকী সকলো চিত্ৰ খোলা।"
+    }
+  },
+  {
+    "id": "figure-classification-017",
+    "q": {
+      "en": "Which of the following figures is different from the others?",
+      "as": "তলৰ কোনটো চিত্ৰ আনবোৰতকৈ বেলেগ?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"52.00\" cy=\"46.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><path d=\"M 132.00 40.00 A 17 17 0 0 0 164.00 40.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"52.00\" cy=\"114.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"148.00\" cy=\"114.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "All the figures are closed circles except one arc.",
+      "as": "এটা খোলা চাপৰ বাহিৰে বাকী সকলো বন্ধ বৃত্ত।"
+    }
+  },
+  {
+    "id": "figure-classification-018",
+    "q": {
+      "en": "Find the odd one out.",
+      "as": "বেলেগ চিত্ৰটো নিৰ্ণয় কৰা।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"52.00,64.00 43.00,48.00 61.00,48.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><line x1=\"52.00\" y1=\"48.00\" x2=\"52.00\" y2=\"30.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"148.00,28.00 139.00,44.00 157.00,44.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><line x1=\"148.00\" y1=\"44.00\" x2=\"148.00\" y2=\"62.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"52.00,96.00 43.00,112.00 61.00,112.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><line x1=\"52.00\" y1=\"112.00\" x2=\"52.00\" y2=\"130.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"148.00,96.00 139.00,112.00 157.00,112.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><line x1=\"148.00\" y1=\"112.00\" x2=\"148.00\" y2=\"130.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "All the arrows point upwards except one.",
+      "as": "এটাৰ বাহিৰে বাকী সকলো কাঁড় ওপৰলৈ মুখ কৰি আছে।"
+    }
+  },
+  {
+    "id": "figure-classification-019",
+    "q": {
+      "en": "Which of the following figures does not belong to the group?",
+      "as": "তলৰ কোনটো চিত্ৰ এই দলটোৰ অন্তৰ্ভুক্ত নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><path d=\"M 38.00 30.00 L 38.00 62.00 L 68.00 62.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 134.00 30.00 L 134.00 62.00 L 164.00 62.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 38.00 98.00 L 38.00 130.00 L 68.00 130.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 162.00 98.00 L 162.00 130.00 L 132.00 130.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "All the L-shaped figures open to the right except one.",
+      "as": "এটাৰ বাহিৰে বাকী সকলো L-আকৃতিৰ চিত্ৰ সোঁফালে খোলা।"
+    }
+  },
+  {
+    "id": "figure-classification-020",
+    "q": {
+      "en": "Which figure is different from the other three?",
+      "as": "কোনটো চিত্ৰ বাকী তিনিটাতকৈ বেলেগ?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"37.00\" y1=\"61.00\" x2=\"67.00\" y2=\"31.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"132.00\" y1=\"46.00\" x2=\"164.00\" y2=\"46.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"37.00\" y1=\"129.00\" x2=\"67.00\" y2=\"99.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"133.00\" y1=\"129.00\" x2=\"163.00\" y2=\"99.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "All the lines are diagonal except one horizontal line.",
+      "as": "এটা অনুভূমিক ৰেখাৰ বাহিৰে বাকী সকলো ৰেখা তিৰ্যক।"
+    }
+  },
+  {
+    "id": "figure-classification-021",
+    "q": {
+      "en": "Which of the following figures is different from the others?",
+      "as": "তলৰ কোনটো চিত্ৰ আনবোৰতকৈ বেলেগ?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"52.00,25.00 34.00,62.00 70.00,62.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"148.00,25.00 130.00,62.00 166.00,62.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"46.00,93.00 32.00,130.00 72.00,130.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"148.00,93.00 130.00,130.00 166.00,130.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "All the triangles are symmetric except one.",
+      "as": "এটাৰ বাহিৰে বাকী সকলো ত্ৰিভুজ প্ৰতিসম।"
+    }
+  },
+  {
+    "id": "figure-classification-022",
+    "q": {
+      "en": "Find the odd one out.",
+      "as": "বেলেগ চিত্ৰটো নিৰ্ণয় কৰা।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"35.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"131.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"35.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><path d=\"M 132.00 97.00 L 148.00 97.00 A 17 17 0 0 1 148.00 131.00 L 132.00 131.00 Z\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "All the figures have only straight edges except one with a curved edge.",
+      "as": "বক্ৰ প্ৰান্ত থকা এটাৰ বাহিৰে বাকী সকলো চিত্ৰ কেৱল সৰল প্ৰান্তৰ।"
+    }
+  },
+  {
+    "id": "figure-classification-023",
+    "q": {
+      "en": "Which of the following figures does not belong to the group?",
+      "as": "তলৰ কোনটো চিত্ৰ এই দলটোৰ অন্তৰ্ভুক্ত নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><path d=\"M 34.00 46.00 A 18 18 0 0 1 70.00 46.00 Z\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 130.00 46.00 A 18 18 0 0 1 166.00 46.00 Z\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 34.00 114.00 A 18 18 0 0 1 70.00 114.00 Z\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"148.00\" cy=\"114.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "All the figures are semicircles except the full circle.",
+      "as": "পূৰ্ণ বৃত্তটোৰ বাহিৰে বাকী সকলো অৰ্ধবৃত্ত।"
+    }
+  },
+  {
+    "id": "figure-classification-024",
+    "q": {
+      "en": "Which figure is different from the other three?",
+      "as": "কোনটো চিত্ৰ বাকী তিনিটাতকৈ বেলেগ?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"35.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><polygon points=\"52.00,38.00 60.66,53.00 43.34,53.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"148.00,24.00 165.32,54.00 130.68,54.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"141.00\" y=\"43.00\" width=\"14.00\" height=\"14.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"35.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><polygon points=\"52.00,106.00 60.66,121.00 43.34,121.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"131.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><polygon points=\"148.00,106.00 156.66,121.00 139.34,121.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In all the figures a triangle is inside a square except one.",
+      "as": "একেটাত বাদে বাকী সকলো চিত্ৰত বৰ্গৰ ভিতৰত ত্ৰিভুজ আছে।"
+    }
+  },
+  {
+    "id": "figure-classification-025",
+    "q": {
+      "en": "Which of the following figures is different from the others?",
+      "as": "তলৰ কোনটো চিত্ৰ আনবোৰতকৈ বেলেগ?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"34.00\" y1=\"31.00\" x2=\"70.00\" y2=\"31.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"34.00\" y1=\"41.00\" x2=\"70.00\" y2=\"41.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"34.00\" y1=\"51.00\" x2=\"70.00\" y2=\"51.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"34.00\" y1=\"61.00\" x2=\"70.00\" y2=\"61.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130.00\" y1=\"31.00\" x2=\"166.00\" y2=\"31.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130.00\" y1=\"41.00\" x2=\"166.00\" y2=\"41.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130.00\" y1=\"51.00\" x2=\"166.00\" y2=\"51.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130.00\" y1=\"61.00\" x2=\"166.00\" y2=\"61.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"34.00\" y1=\"99.00\" x2=\"70.00\" y2=\"99.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"34.00\" y1=\"109.00\" x2=\"70.00\" y2=\"109.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"34.00\" y1=\"119.00\" x2=\"70.00\" y2=\"119.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"34.00\" y1=\"129.00\" x2=\"70.00\" y2=\"129.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130.00\" y1=\"104.00\" x2=\"166.00\" y2=\"104.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130.00\" y1=\"114.00\" x2=\"166.00\" y2=\"114.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130.00\" y1=\"124.00\" x2=\"166.00\" y2=\"124.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each figure has four parallel lines except one with three.",
+      "as": "তিনিডাল থকা এটাৰ বাহিৰে প্ৰতিটো চিত্ৰত চাৰিডাল সমান্তৰাল ৰেখা আছে।"
+    }
+  },
+  {
+    "id": "figure-classification-026",
+    "q": {
+      "en": "Find the odd one out.",
+      "as": "বেলেগ চিত্ৰটো নিৰ্ণয় কৰা।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"35.00\" cy=\"46.00\" r=\"12.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"69.00\" cy=\"46.00\" r=\"12.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"140.00\" cy=\"46.00\" r=\"14.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"156.00\" cy=\"46.00\" r=\"14.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"44.00\" cy=\"114.00\" r=\"14.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"60.00\" cy=\"114.00\" r=\"14.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"140.00\" cy=\"114.00\" r=\"14.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"156.00\" cy=\"114.00\" r=\"14.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In all the figures the two circles overlap except one.",
+      "as": "একেটাত বাদে বাকী সকলো চিত্ৰত দুটা বৃত্ত ওপৰা-উপৰি হৈছে।"
+    }
+  },
+  {
+    "id": "figure-classification-027",
+    "q": {
+      "en": "Which of the following figures does not belong to the group?",
+      "as": "তলৰ কোনটো চিত্ৰ এই দলটোৰ অন্তৰ্ভুক্ত নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"38.00\" y1=\"32.00\" x2=\"66.00\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"38.00\" y1=\"60.00\" x2=\"66.00\" y2=\"32.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"134.00\" y1=\"32.00\" x2=\"162.00\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"134.00\" y1=\"60.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"36.00\" y1=\"105.00\" x2=\"68.00\" y2=\"105.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"36.00\" y1=\"123.00\" x2=\"68.00\" y2=\"123.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"134.00\" y1=\"100.00\" x2=\"162.00\" y2=\"128.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"134.00\" y1=\"128.00\" x2=\"162.00\" y2=\"100.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The two lines cross each other in all the figures except one.",
+      "as": "একেটাত বাদে বাকী সকলো চিত্ৰত দুডাল ৰেখাই কটাকটি কৰিছে।"
+    }
+  },
+  {
+    "id": "figure-classification-028",
+    "q": {
+      "en": "Which figure is different from the other three?",
+      "as": "কোনটো চিত্ৰ বাকী তিনিটাতকৈ বেলেগ?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"35.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"52.00\" y1=\"29.00\" x2=\"52.00\" y2=\"63.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"35.00\" y1=\"46.00\" x2=\"69.00\" y2=\"46.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><rect x=\"131.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"148.00\" y1=\"29.00\" x2=\"148.00\" y2=\"63.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><rect x=\"35.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"52.00\" y1=\"97.00\" x2=\"52.00\" y2=\"131.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"35.00\" y1=\"114.00\" x2=\"69.00\" y2=\"114.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><rect x=\"131.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"148.00\" y1=\"97.00\" x2=\"148.00\" y2=\"131.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"131.00\" y1=\"114.00\" x2=\"165.00\" y2=\"114.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "All the squares are divided into four parts except one.",
+      "as": "একেটা বৰ্গৰ বাহিৰে বাকী সকলো বৰ্গ চাৰিটা ভাগত বিভক্ত।"
+    }
+  },
+  {
+    "id": "figure-classification-029",
+    "q": {
+      "en": "Which of the following figures is different from the others?",
+      "as": "তলৰ কোনটো চিত্ৰ আনবোৰতকৈ বেলেগ?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"52.00\" cy=\"46.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"52.00\" cy=\"46.00\" r=\"10.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"148.00\" cy=\"46.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"148.00\" cy=\"46.00\" r=\"10.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"52.00\" cy=\"114.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"52.00\" cy=\"114.00\" r=\"10.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"148.00\" cy=\"114.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "All the figures have two concentric circles except one.",
+      "as": "একেটাৰ বাহিৰে বাকী সকলো চিত্ৰত দুটা সমকেন্দ্ৰীয় বৃত্ত আছে।"
+    }
+  },
+  {
+    "id": "figure-classification-030",
+    "q": {
+      "en": "Find the odd one out.",
+      "as": "বেলেগ চিত্ৰটো নিৰ্ণয় কৰা।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><path d=\"M 32.00 56.00 L 47.00 36.00 L 57.00 56.00 L 72.00 36.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 128.00 56.00 L 138.00 36.00 L 148.00 56.00 L 158.00 36.00 L 168.00 56.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 32.00 124.00 L 42.00 104.00 L 52.00 124.00 L 62.00 104.00 L 72.00 124.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 128.00 124.00 L 138.00 104.00 L 148.00 124.00 L 158.00 104.00 L 168.00 124.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "All the zigzag lines have three turns except one with two.",
+      "as": "দুটা মোৰ থকা এটাৰ বাহিৰে বাকী সকলো জিগজেগ ৰেখাত তিনিটা মোৰ আছে।"
+    }
+  },
+  {
+    "id": "figure-classification-031",
+    "q": {
+      "en": "Which of the following figures does not belong to the group?",
+      "as": "তলৰ কোনটো চিত্ৰ এই দলটোৰ অন্তৰ্ভুক্ত নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"35.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"52.00\" cy=\"46.00\" r=\"3.60\" fill=\"#334155\" stroke=\"none\"/><rect x=\"131.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"148.00\" cy=\"46.00\" r=\"3.60\" fill=\"#334155\" stroke=\"none\"/><rect x=\"35.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"63.00\" cy=\"103.00\" r=\"3.60\" fill=\"#334155\" stroke=\"none\"/><rect x=\"131.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><circle cx=\"148.00\" cy=\"114.00\" r=\"3.60\" fill=\"#334155\" stroke=\"none\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The dot is at the centre of all the squares except one.",
+      "as": "একেটা বৰ্গৰ বাহিৰে বাকী সকলো বৰ্গৰ কেন্দ্ৰত বিন্দু আছে।"
+    }
+  },
+  {
+    "id": "figure-classification-032",
+    "q": {
+      "en": "Which figure is different from the other three?",
+      "as": "কোনটো চিত্ৰ বাকী তিনিটাতকৈ বেলেগ?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"52.00\" cy=\"46.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"52.00\" y1=\"27.00\" x2=\"52.00\" y2=\"36.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"148.00\" cy=\"46.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"148.00\" y1=\"65.00\" x2=\"148.00\" y2=\"56.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"52.00\" cy=\"114.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"52.00\" y1=\"95.00\" x2=\"52.00\" y2=\"104.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"148.00\" cy=\"114.00\" r=\"19.00\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"148.00\" y1=\"95.00\" x2=\"148.00\" y2=\"104.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The tick mark is at the top of all the circles except one.",
+      "as": "এটা বৃত্তৰ বাহিৰে বাকী সকলো বৃত্তৰ ওপৰত দাগ আছে।"
+    }
+  },
+  {
+    "id": "figure-classification-033",
+    "q": {
+      "en": "Which of the following figures is different from the others?",
+      "as": "তলৰ কোনটো চিত্ৰ আনবোৰতকৈ বেলেগ?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"35.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"35.00\" y1=\"43.00\" x2=\"55.00\" y2=\"63.00\" stroke=\"#334155\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"35.00\" y1=\"51.00\" x2=\"63.00\" y2=\"63.00\" stroke=\"#334155\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"47.00\" y1=\"29.00\" x2=\"69.00\" y2=\"51.00\" stroke=\"#334155\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><rect x=\"131.00\" y=\"29.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"131.00\" y1=\"43.00\" x2=\"151.00\" y2=\"63.00\" stroke=\"#334155\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"131.00\" y1=\"51.00\" x2=\"159.00\" y2=\"63.00\" stroke=\"#334155\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"143.00\" y1=\"29.00\" x2=\"165.00\" y2=\"51.00\" stroke=\"#334155\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><rect x=\"35.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><line x1=\"35.00\" y1=\"111.00\" x2=\"55.00\" y2=\"131.00\" stroke=\"#334155\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"35.00\" y1=\"119.00\" x2=\"63.00\" y2=\"131.00\" stroke=\"#334155\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"47.00\" y1=\"97.00\" x2=\"69.00\" y2=\"119.00\" stroke=\"#334155\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><rect x=\"131.00\" y=\"97.00\" width=\"34.00\" height=\"34.00\" rx=\"2\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"2.2\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "All the squares are shaded with lines except one filled solid.",
+      "as": "গোটেই ৰঙ কৰা এটা বৰ্গৰ বাহিৰে বাকী সকলো বৰ্গ ৰেখাৰে ৰঙ কৰা।"
+    }
+  },
+  {
+    "id": "figure-classification-034",
+    "q": {
+      "en": "Find the odd one out.",
+      "as": "বেলেগ চিত্ৰটো নিৰ্ণয় কৰা।"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"42.00\" y1=\"58.00\" x2=\"68.00\" y2=\"58.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"42.00\" y1=\"58.00\" x2=\"58.00\" y2=\"36.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"140.00\" y1=\"58.00\" x2=\"164.00\" y2=\"58.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"140.00\" y1=\"58.00\" x2=\"140.00\" y2=\"30.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"44.00\" y1=\"126.00\" x2=\"68.00\" y2=\"126.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"44.00\" y1=\"126.00\" x2=\"44.00\" y2=\"98.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"140.00\" y1=\"126.00\" x2=\"164.00\" y2=\"126.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"140.00\" y1=\"126.00\" x2=\"140.00\" y2=\"98.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "All the angles are right angles except one acute angle.",
+      "as": "এটা সূক্ষ্মকোণৰ বাহিৰে বাকী সকলো কোণ সমকোণ।"
+    }
+  },
+  {
+    "id": "figure-classification-035",
+    "q": {
+      "en": "Which of the following figures does not belong to the group?",
+      "as": "তলৰ কোনটো চিত্ৰ এই দলটোৰ অন্তৰ্ভুক্ত নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"60.00\" y1=\"58.00\" x2=\"72.00\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"60.00\" y1=\"58.00\" x2=\"36.00\" y2=\"38.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"156.00\" y1=\"58.00\" x2=\"168.00\" y2=\"60.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"156.00\" y1=\"58.00\" x2=\"132.00\" y2=\"38.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"44.00\" y1=\"126.00\" x2=\"68.00\" y2=\"126.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"44.00\" y1=\"126.00\" x2=\"44.00\" y2=\"98.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"156.00\" y1=\"126.00\" x2=\"168.00\" y2=\"128.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"156.00\" y1=\"126.00\" x2=\"132.00\" y2=\"106.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "All the angles are obtuse except one right angle.",
+      "as": "এটা সমকোণৰ বাহিৰে বাকী সকলো কোণ স্থূলকোণ।"
+    }
+  },
+  {
+    "id": "figure-classification-036",
+    "q": {
+      "en": "Which figure is different from the other three?",
+      "as": "কোনটো চিত্ৰ বাকী তিনিটাতকৈ বেলেগ?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"52.00,25.00 56.60,41.40 73.00,46.00 56.60,50.60 52.00,67.00 47.40,50.60 31.00,46.00 47.40,41.40\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"148.00,25.00 153.00,39.12 167.97,39.51 156.08,48.63 160.34,62.99 148.00,54.50 135.66,62.99 139.92,48.63 128.03,39.51 143.00,39.12\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"52.00,93.00 57.00,107.12 71.97,107.51 60.08,116.63 64.34,130.99 52.00,122.50 39.66,130.99 43.92,116.63 32.03,107.51 47.00,107.12\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polygon points=\"148.00,93.00 153.00,107.12 167.97,107.51 156.08,116.63 160.34,130.99 148.00,122.50 135.66,130.99 139.92,116.63 128.03,107.51 143.00,107.12\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"27\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">1</text><text x=\"121\" y=\"51\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">2</text><text x=\"27\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">3</text><text x=\"121\" y=\"119\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "All the figures are five-pointed stars except one four-pointed star.",
+      "as": "চাৰিটা আগ থকা এটা তৰাৰ বাহিৰে বাকী সকলো পাঁচটা আগ থকা তৰা।"
+    }
   }
-}
+]
