@@ -1,30 +1,1335 @@
-{
-  "id": "figure-analogy-001",
-  "q": {
-    "en": "Square is to cube as circle is to —",
-    "as": "Square : Cube :: Circle : —"
-  },
-  "options": [
-    {
-      "en": "Sphere",
-      "as": "গোলক"
+[
+  {
+    "id": "figure-analogy-001",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
     },
-    {
-      "en": "Cylinder",
-      "as": "চিলিণ্ডাৰ"
-    },
-    {
-      "en": "Cone",
-      "as": "শংকু"
-    },
-    {
-      "en": "Oval",
-      "as": "ডিম্ব"
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"62.0\" y1=\"90.7\" x2=\"62.0\" y2=\"40.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"40.0\" x2=\"73.7\" y2=\"54.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"40.0\" x2=\"50.3\" y2=\"54.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><line x1=\"233.3\" y1=\"66.0\" x2=\"284.0\" y2=\"66.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"284.0\" y1=\"66.0\" x2=\"269.7\" y2=\"77.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"284.0\" y1=\"66.0\" x2=\"269.7\" y2=\"54.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"161.3\" x2=\"62.0\" y2=\"212.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"212.0\" x2=\"50.3\" y2=\"197.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"212.0\" x2=\"73.7\" y2=\"197.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"21.5\" x2=\"50.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"36.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"63.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"21.5\" y1=\"50.0\" x2=\"80.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.0\" y1=\"50.0\" x2=\"63.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.0\" y1=\"50.0\" x2=\"63.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"78.5\" x2=\"50.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"20.0\" x2=\"63.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"20.0\" x2=\"36.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"78.5\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"20.0\" y1=\"50.0\" x2=\"36.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"20.0\" y1=\"50.0\" x2=\"36.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The figure rotates 90° clockwise at each step.",
+      "as": "প্ৰতিটো ধাপত চিত্ৰটো ৯০° ঘড়ীৰ দিশত ঘূৰে।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "A square becomes a cube in three dimensions; a circle becomes a sphere.",
-    "as": "ত্রিমাত্ৰত এটা বৰ্গ ঘনক হয়; এটা বৃত্ত গোলক হয়।"
+  },
+  {
+    "id": "figure-analogy-002",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"37.3\" y1=\"66.0\" x2=\"88.0\" y2=\"66.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"88.0\" y1=\"66.0\" x2=\"73.7\" y2=\"77.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"88.0\" y1=\"66.0\" x2=\"73.7\" y2=\"54.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><line x1=\"258.0\" y1=\"41.3\" x2=\"258.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"258.0\" y1=\"92.0\" x2=\"246.3\" y2=\"77.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"258.0\" y1=\"92.0\" x2=\"269.7\" y2=\"77.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"86.7\" y1=\"186.0\" x2=\"36.0\" y2=\"186.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"36.0\" y1=\"186.0\" x2=\"50.3\" y2=\"174.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"36.0\" y1=\"186.0\" x2=\"50.3\" y2=\"197.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"21.5\" y1=\"50.0\" x2=\"80.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.0\" y1=\"50.0\" x2=\"63.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.0\" y1=\"50.0\" x2=\"63.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"21.5\" x2=\"50.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"36.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"63.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"78.5\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"20.0\" y1=\"50.0\" x2=\"36.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"20.0\" y1=\"50.0\" x2=\"36.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"78.5\" x2=\"50.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"20.0\" x2=\"63.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"20.0\" x2=\"36.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The figure rotates 90° clockwise at each step.",
+      "as": "প্ৰতিটো ধাপত চিত্ৰটো ৯০° ঘড়ীৰ দিশত ঘূৰে।"
+    }
+  },
+  {
+    "id": "figure-analogy-003",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"62.0\" y1=\"41.3\" x2=\"62.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"92.0\" x2=\"50.3\" y2=\"77.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"92.0\" x2=\"73.7\" y2=\"77.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><line x1=\"282.7\" y1=\"66.0\" x2=\"232.0\" y2=\"66.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"232.0\" y1=\"66.0\" x2=\"246.3\" y2=\"54.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"232.0\" y1=\"66.0\" x2=\"246.3\" y2=\"77.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"210.7\" x2=\"62.0\" y2=\"160.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"160.0\" x2=\"73.7\" y2=\"174.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"160.0\" x2=\"50.3\" y2=\"174.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"21.5\" x2=\"50.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"36.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"63.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"78.5\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"20.0\" y1=\"50.0\" x2=\"36.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"20.0\" y1=\"50.0\" x2=\"36.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"78.5\" x2=\"50.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"20.0\" x2=\"63.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"20.0\" x2=\"36.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"21.5\" y1=\"50.0\" x2=\"80.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.0\" y1=\"50.0\" x2=\"63.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.0\" y1=\"50.0\" x2=\"63.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The figure rotates 90° clockwise at each step.",
+      "as": "প্ৰতিটো ধাপত চিত্ৰটো ৯০° ঘড়ীৰ দিশত ঘূৰে।"
+    }
+  },
+  {
+    "id": "figure-analogy-004",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"62.0\" y1=\"90.7\" x2=\"62.0\" y2=\"40.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"40.0\" x2=\"73.7\" y2=\"54.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"40.0\" x2=\"50.3\" y2=\"54.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><line x1=\"282.7\" y1=\"66.0\" x2=\"232.0\" y2=\"66.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"232.0\" y1=\"66.0\" x2=\"246.3\" y2=\"54.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"232.0\" y1=\"66.0\" x2=\"246.3\" y2=\"77.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"37.3\" y1=\"186.0\" x2=\"88.0\" y2=\"186.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"88.0\" y1=\"186.0\" x2=\"73.7\" y2=\"197.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"88.0\" y1=\"186.0\" x2=\"73.7\" y2=\"174.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"78.5\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"20.0\" y1=\"50.0\" x2=\"36.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"20.0\" y1=\"50.0\" x2=\"36.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"78.5\" x2=\"50.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"20.0\" x2=\"63.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"20.0\" x2=\"36.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"21.5\" x2=\"50.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"36.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"63.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"21.5\" y1=\"50.0\" x2=\"80.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.0\" y1=\"50.0\" x2=\"63.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.0\" y1=\"50.0\" x2=\"63.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The figure rotates 90° anticlockwise at each step.",
+      "as": "প্ৰতিটো ধাপত চিত্ৰটো ৯০° ঘড়ীৰ বিপৰীত দিশত ঘূৰে।"
+    }
+  },
+  {
+    "id": "figure-analogy-005",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"37.3\" y1=\"66.0\" x2=\"88.0\" y2=\"66.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"88.0\" y1=\"66.0\" x2=\"73.7\" y2=\"77.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"88.0\" y1=\"66.0\" x2=\"73.7\" y2=\"54.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><line x1=\"258.0\" y1=\"90.7\" x2=\"258.0\" y2=\"40.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"258.0\" y1=\"40.0\" x2=\"269.7\" y2=\"54.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"258.0\" y1=\"40.0\" x2=\"246.3\" y2=\"54.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"161.3\" x2=\"62.0\" y2=\"212.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"212.0\" x2=\"50.3\" y2=\"197.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"212.0\" x2=\"73.7\" y2=\"197.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"21.5\" y1=\"50.0\" x2=\"80.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.0\" y1=\"50.0\" x2=\"63.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.0\" y1=\"50.0\" x2=\"63.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"78.5\" x2=\"50.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"20.0\" x2=\"63.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"20.0\" x2=\"36.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"78.5\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"20.0\" y1=\"50.0\" x2=\"36.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"20.0\" y1=\"50.0\" x2=\"36.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"21.5\" x2=\"50.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"36.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"63.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The figure rotates 90° anticlockwise at each step.",
+      "as": "প্ৰতিটো ধাপত চিত্ৰটো ৯০° ঘড়ীৰ বিপৰীত দিশত ঘূৰে।"
+    }
+  },
+  {
+    "id": "figure-analogy-006",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"86.7\" y1=\"66.0\" x2=\"36.0\" y2=\"66.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"36.0\" y1=\"66.0\" x2=\"50.3\" y2=\"54.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"36.0\" y1=\"66.0\" x2=\"50.3\" y2=\"77.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><line x1=\"258.0\" y1=\"41.3\" x2=\"258.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"258.0\" y1=\"92.0\" x2=\"246.3\" y2=\"77.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"258.0\" y1=\"92.0\" x2=\"269.7\" y2=\"77.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"210.7\" x2=\"62.0\" y2=\"160.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"160.0\" x2=\"73.7\" y2=\"174.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"160.0\" x2=\"50.3\" y2=\"174.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"21.5\" y1=\"50.0\" x2=\"80.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.0\" y1=\"50.0\" x2=\"63.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.0\" y1=\"50.0\" x2=\"63.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"21.5\" x2=\"50.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"36.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"63.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"78.5\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"20.0\" y1=\"50.0\" x2=\"36.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"20.0\" y1=\"50.0\" x2=\"36.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"78.5\" x2=\"50.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"20.0\" x2=\"63.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"20.0\" x2=\"36.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The figure rotates 90° anticlockwise at each step.",
+      "as": "প্ৰতিটো ধাপত চিত্ৰটো ৯০° ঘড়ীৰ বিপৰীত দিশত ঘূৰে।"
+    }
+  },
+  {
+    "id": "figure-analogy-007",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"62.0\" y1=\"90.7\" x2=\"62.0\" y2=\"40.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"40.0\" x2=\"73.7\" y2=\"54.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"40.0\" x2=\"50.3\" y2=\"54.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><line x1=\"258.0\" y1=\"41.3\" x2=\"258.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"258.0\" y1=\"92.0\" x2=\"246.3\" y2=\"77.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"258.0\" y1=\"92.0\" x2=\"269.7\" y2=\"77.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"37.3\" y1=\"186.0\" x2=\"88.0\" y2=\"186.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"88.0\" y1=\"186.0\" x2=\"73.7\" y2=\"197.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"88.0\" y1=\"186.0\" x2=\"73.7\" y2=\"174.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"21.5\" x2=\"50.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"36.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"63.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"78.5\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"20.0\" y1=\"50.0\" x2=\"36.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"20.0\" y1=\"50.0\" x2=\"36.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"21.5\" y1=\"50.0\" x2=\"80.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.0\" y1=\"50.0\" x2=\"63.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.0\" y1=\"50.0\" x2=\"63.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"78.5\" x2=\"50.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"20.0\" x2=\"63.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"20.0\" x2=\"36.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The figure rotates 180° at each step.",
+      "as": "প্ৰতিটো ধাপত চিত্ৰটো ১৮০° ঘূৰে।"
+    }
+  },
+  {
+    "id": "figure-analogy-008",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"37.3\" y1=\"66.0\" x2=\"88.0\" y2=\"66.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"88.0\" y1=\"66.0\" x2=\"73.7\" y2=\"77.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"88.0\" y1=\"66.0\" x2=\"73.7\" y2=\"54.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><line x1=\"282.7\" y1=\"66.0\" x2=\"232.0\" y2=\"66.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"232.0\" y1=\"66.0\" x2=\"246.3\" y2=\"54.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"232.0\" y1=\"66.0\" x2=\"246.3\" y2=\"77.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"161.3\" x2=\"62.0\" y2=\"212.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"212.0\" x2=\"50.3\" y2=\"197.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"212.0\" x2=\"73.7\" y2=\"197.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"78.5\" x2=\"50.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"20.0\" x2=\"63.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"20.0\" x2=\"36.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"21.5\" x2=\"50.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"36.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"63.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"78.5\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"20.0\" y1=\"50.0\" x2=\"36.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"20.0\" y1=\"50.0\" x2=\"36.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"21.5\" y1=\"50.0\" x2=\"80.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.0\" y1=\"50.0\" x2=\"63.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.0\" y1=\"50.0\" x2=\"63.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The figure rotates 180° at each step.",
+      "as": "প্ৰতিটো ধাপত চিত্ৰটো ১৮০° ঘূৰে।"
+    }
+  },
+  {
+    "id": "figure-analogy-009",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"62.0\" y1=\"41.3\" x2=\"62.0\" y2=\"92.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"92.0\" x2=\"50.3\" y2=\"77.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"92.0\" x2=\"73.7\" y2=\"77.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><line x1=\"258.0\" y1=\"90.7\" x2=\"258.0\" y2=\"40.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"258.0\" y1=\"40.0\" x2=\"269.7\" y2=\"54.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"258.0\" y1=\"40.0\" x2=\"246.3\" y2=\"54.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"86.7\" y1=\"186.0\" x2=\"36.0\" y2=\"186.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"36.0\" y1=\"186.0\" x2=\"50.3\" y2=\"174.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"36.0\" y1=\"186.0\" x2=\"50.3\" y2=\"197.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"21.5\" y1=\"50.0\" x2=\"80.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.0\" y1=\"50.0\" x2=\"63.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.0\" y1=\"50.0\" x2=\"63.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"78.5\" x2=\"50.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"20.0\" x2=\"63.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"20.0\" x2=\"36.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"78.5\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"20.0\" y1=\"50.0\" x2=\"36.5\" y2=\"36.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"20.0\" y1=\"50.0\" x2=\"36.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"21.5\" x2=\"50.0\" y2=\"80.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"36.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"63.5\" y2=\"63.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The figure rotates 180° at each step.",
+      "as": "প্ৰতিটো ধাপত চিত্ৰটো ১৮০° ঘূৰে।"
+    }
+  },
+  {
+    "id": "figure-analogy-010",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"80.4,47.6 80.4,84.4 43.6,84.4 43.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"49.0\" cy=\"53.0\" r=\"4.2\" fill=\"#475569\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"276.4,47.6 276.4,84.4 239.6,84.4 239.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"271.0\" cy=\"53.0\" r=\"4.2\" fill=\"#475569\"/><polygon points=\"80.4,167.6 80.4,204.4 43.6,204.4 43.6,167.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"49.0\" cy=\"199.0\" r=\"4.2\" fill=\"#475569\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"35.0\" cy=\"35.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"65.0\" cy=\"35.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"35.0\" cy=\"65.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"65.0\" cy=\"65.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The dot changes to its mirror position (left-right reflection).",
+      "as": "বিন্দুটো ইয়াৰ দাপোণ প্ৰতিবিম্বৰ স্থানলৈ (বাওঁ-সোঁ প্ৰতিফলন) যায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-011",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"80.4,47.6 80.4,84.4 43.6,84.4 43.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"75.0\" cy=\"53.0\" r=\"4.2\" fill=\"#475569\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"276.4,47.6 276.4,84.4 239.6,84.4 239.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"245.0\" cy=\"53.0\" r=\"4.2\" fill=\"#475569\"/><polygon points=\"80.4,167.6 80.4,204.4 43.6,204.4 43.6,167.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"75.0\" cy=\"199.0\" r=\"4.2\" fill=\"#475569\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"35.0\" cy=\"35.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"35.0\" cy=\"65.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"65.0\" cy=\"35.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"65.0\" cy=\"65.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The dot changes to its mirror position (left-right reflection).",
+      "as": "বিন্দুটো ইয়াৰ দাপোণ প্ৰতিবিম্বৰ স্থানলৈ (বাওঁ-সোঁ প্ৰতিফলন) যায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-012",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"80.4,47.6 80.4,84.4 43.6,84.4 43.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"49.0\" cy=\"53.0\" r=\"4.2\" fill=\"#475569\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"276.4,47.6 276.4,84.4 239.6,84.4 239.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"271.0\" cy=\"53.0\" r=\"4.2\" fill=\"#475569\"/><polygon points=\"80.4,167.6 80.4,204.4 43.6,204.4 43.6,167.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"75.0\" cy=\"199.0\" r=\"4.2\" fill=\"#475569\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"35.0\" cy=\"35.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"65.0\" cy=\"35.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"35.0\" cy=\"65.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"65.0\" cy=\"65.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The dot changes to its mirror position (left-right reflection).",
+      "as": "বিন্দুটো ইয়াৰ দাপোণ প্ৰতিবিম্বৰ স্থানলৈ (বাওঁ-সোঁ প্ৰতিফলন) যায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-013",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"80.4,47.6 80.4,84.4 43.6,84.4 43.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"49.0\" cy=\"53.0\" r=\"4.2\" fill=\"#475569\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"276.4,47.6 276.4,84.4 239.6,84.4 239.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"245.0\" cy=\"79.0\" r=\"4.2\" fill=\"#475569\"/><polygon points=\"80.4,167.6 80.4,204.4 43.6,204.4 43.6,167.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"75.0\" cy=\"173.0\" r=\"4.2\" fill=\"#475569\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"35.0\" cy=\"65.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"35.0\" cy=\"35.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"65.0\" cy=\"35.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"65.0\" cy=\"65.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The dot changes to its water-image position (up-down reflection).",
+      "as": "বিন্দুটো ইয়াৰ জল প্ৰতিবিম্বৰ স্থানলৈ (ওপৰ-তল প্ৰতিফলন) যায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-014",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"80.4,47.6 80.4,84.4 43.6,84.4 43.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"49.0\" cy=\"79.0\" r=\"4.2\" fill=\"#475569\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"276.4,47.6 276.4,84.4 239.6,84.4 239.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"245.0\" cy=\"53.0\" r=\"4.2\" fill=\"#475569\"/><polygon points=\"80.4,167.6 80.4,204.4 43.6,204.4 43.6,167.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"75.0\" cy=\"199.0\" r=\"4.2\" fill=\"#475569\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"35.0\" cy=\"35.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"65.0\" cy=\"65.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"35.0\" cy=\"65.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"65.0\" cy=\"35.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The dot changes to its water-image position (up-down reflection).",
+      "as": "বিন্দুটো ইয়াৰ জল প্ৰতিবিম্বৰ স্থানলৈ (ওপৰ-তল প্ৰতিফলন) যায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-015",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"80.4,47.6 80.4,84.4 43.6,84.4 43.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"49.0\" cy=\"53.0\" r=\"4.2\" fill=\"#475569\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"276.4,47.6 276.4,84.4 239.6,84.4 239.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"245.0\" cy=\"79.0\" r=\"4.2\" fill=\"#475569\"/><polygon points=\"80.4,167.6 80.4,204.4 43.6,204.4 43.6,167.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"75.0\" cy=\"199.0\" r=\"4.2\" fill=\"#475569\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"65.0\" cy=\"65.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"65.0\" cy=\"35.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"35.0\" cy=\"35.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"35.0\" cy=\"65.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The dot changes to its water-image position (up-down reflection).",
+      "as": "বিন্দুটো ইয়াৰ জল প্ৰতিবিম্বৰ স্থানলৈ (ওপৰ-তল প্ৰতিফলন) যায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-016",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"62.0,40.0 84.5,79.0 39.5,79.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"276.4,47.6 276.4,84.4 239.6,84.4 239.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><polygon points=\"62.0,160.0 86.7,178.0 77.3,207.0 46.7,207.0 37.3,178.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 78.5,40.7 67.6,74.3 32.4,74.3 21.5,40.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,65.0 24.0,65.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,35.0 76.0,65.0 50.0,80.0 24.0,65.0 24.0,35.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The number of sides increases by one.",
+      "as": "বাহুৰ সংখ্যা এটা বৃদ্ধি পায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-017",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"80.4,47.6 80.4,84.4 43.6,84.4 43.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"258.0,40.0 282.7,58.0 273.3,87.0 242.7,87.0 233.3,58.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><polygon points=\"62.0,160.0 84.5,199.0 39.5,199.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 78.5,40.7 67.6,74.3 32.4,74.3 21.5,40.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,65.0 24.0,65.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,35.0 76.0,65.0 50.0,80.0 24.0,65.0 24.0,35.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The number of sides increases by one.",
+      "as": "বাহুৰ সংখ্যা এটা বৃদ্ধি পায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-018",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"62.0,40.0 86.7,58.0 77.3,87.0 46.7,87.0 37.3,58.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"258.0,40.0 280.5,53.0 280.5,79.0 258.0,92.0 235.5,79.0 235.5,53.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><polygon points=\"80.4,167.6 80.4,204.4 43.6,204.4 43.6,167.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,35.0 76.0,65.0 50.0,80.0 24.0,65.0 24.0,35.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 78.5,40.7 67.6,74.3 32.4,74.3 21.5,40.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,65.0 24.0,65.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The number of sides increases by one.",
+      "as": "বাহুৰ সংখ্যা এটা বৃদ্ধি পায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-019",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"62.0,40.0 86.7,58.0 77.3,87.0 46.7,87.0 37.3,58.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"276.4,47.6 276.4,84.4 239.6,84.4 239.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><polygon points=\"62.0,160.0 84.5,173.0 84.5,199.0 62.0,212.0 39.5,199.0 39.5,173.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,65.0 24.0,65.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,35.0 76.0,65.0 50.0,80.0 24.0,65.0 24.0,35.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 78.5,40.7 67.6,74.3 32.4,74.3 21.5,40.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The number of sides decreases by one.",
+      "as": "বাহুৰ সংখ্যা এটা হ্ৰাস পায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-020",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"62.0,40.0 84.5,53.0 84.5,79.0 62.0,92.0 39.5,79.0 39.5,53.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"258.0,40.0 282.7,58.0 273.3,87.0 242.7,87.0 233.3,58.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><polygon points=\"80.4,167.6 80.4,204.4 43.6,204.4 43.6,167.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 78.5,40.7 67.6,74.3 32.4,74.3 21.5,40.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,35.0 76.0,65.0 50.0,80.0 24.0,65.0 24.0,35.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,65.0 24.0,65.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The number of sides decreases by one.",
+      "as": "বাহুৰ সংখ্যা এটা হ্ৰাস পায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-021",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"80.4,47.6 80.4,84.4 43.6,84.4 43.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"258.0,40.0 280.5,79.0 235.5,79.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><polygon points=\"62.0,160.0 86.7,178.0 77.3,207.0 46.7,207.0 37.3,178.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,65.0 24.0,65.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 78.5,40.7 67.6,74.3 32.4,74.3 21.5,40.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,35.0 76.0,65.0 50.0,80.0 24.0,65.0 24.0,35.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The number of sides decreases by one.",
+      "as": "বাহুৰ সংখ্যা এটা হ্ৰাস পায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-022",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"62.0\" cy=\"66.0\" r=\"26.0\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2.4\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><circle cx=\"258.0\" cy=\"66.0\" r=\"26.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><polygon points=\"62.0,160.0 84.5,199.0 39.5,199.0\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2.4\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,65.0 24.0,65.0\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,65.0 24.0,65.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The shading of the figure is reversed (filled becomes empty and vice versa).",
+      "as": "চিত্ৰটোৰ ৰং ওলোটা হয় (ৰঙিন হয় খালী আৰু খালী হয় ৰঙিন)।"
+    }
+  },
+  {
+    "id": "figure-analogy-023",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"80.4,47.6 80.4,84.4 43.6,84.4 43.6,47.6\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"276.4,47.6 276.4,84.4 239.6,84.4 239.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"62.0\" cy=\"186.0\" r=\"26.0\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2.4\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2.4\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The shading of the figure is reversed (filled becomes empty and vice versa).",
+      "as": "চিত্ৰটোৰ ৰং ওলোটা হয় (ৰঙিন হয় খালী আৰু খালী হয় ৰঙিন)।"
+    }
+  },
+  {
+    "id": "figure-analogy-024",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"62.0,40.0 84.5,79.0 39.5,79.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"258.0,40.0 280.5,79.0 235.5,79.0\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"62.0\" cy=\"186.0\" r=\"26.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,65.0 24.0,65.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2.4\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,65.0 24.0,65.0\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The shading of the figure is reversed (filled becomes empty and vice versa).",
+      "as": "চিত্ৰটোৰ ৰং ওলোটা হয় (ৰঙিন হয় খালী আৰু খালী হয় ৰঙিন)।"
+    }
+  },
+  {
+    "id": "figure-analogy-025",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"62.0\" cy=\"66.0\" r=\"15.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><circle cx=\"258.0\" cy=\"66.0\" r=\"26.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><polygon points=\"73.4,174.6 73.4,197.4 50.6,197.4 50.6,174.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"18.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"63.2,36.8 63.2,63.2 36.8,63.2 36.8,36.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The figure becomes larger.",
+      "as": "চিত্ৰটো ডাঙৰ হয়।"
+    }
+  },
+  {
+    "id": "figure-analogy-026",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"62.0,50.4 75.5,73.8 48.5,73.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"258.0,40.0 280.5,79.0 235.5,79.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><polygon points=\"62.0,170.4 76.8,181.2 71.2,198.6 52.8,198.6 47.2,181.2\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 78.5,40.7 67.6,74.3 32.4,74.3 21.5,40.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,65.0 24.0,65.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,32.0 67.1,44.4 60.6,64.6 39.4,64.6 32.9,44.4\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,32.0 65.6,59.0 34.4,59.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The figure becomes larger.",
+      "as": "চিত্ৰটো ডাঙৰ হয়।"
+    }
+  },
+  {
+    "id": "figure-analogy-027",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"73.0,55.0 73.0,77.0 51.0,77.0 51.0,55.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"276.4,47.6 276.4,84.4 239.6,84.4 239.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"62.0\" cy=\"186.0\" r=\"15.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"18.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"62.7,37.3 62.7,62.7 37.3,62.7 37.3,37.3\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The figure becomes larger.",
+      "as": "চিত্ৰটো ডাঙৰ হয়।"
+    }
+  },
+  {
+    "id": "figure-analogy-028",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"80.4,47.6 80.4,84.4 43.6,84.4 43.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"276.4,47.6 276.4,84.4 239.6,84.4 239.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"258.0\" cy=\"66.0\" r=\"4.2\" fill=\"#475569\"/><circle cx=\"62.0\" cy=\"186.0\" r=\"26.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A dot is added inside the figure.",
+      "as": "চিত্ৰটোৰ ভিতৰত এটা বিন্দু যোগ কৰা হয়।"
+    }
+  },
+  {
+    "id": "figure-analogy-029",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"62.0,40.0 84.5,79.0 39.5,79.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"258.0,40.0 280.5,79.0 235.5,79.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"258.0\" cy=\"66.0\" r=\"4.2\" fill=\"#475569\"/><polygon points=\"62.0,160.0 86.7,178.0 77.3,207.0 46.7,207.0 37.3,178.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,65.0 24.0,65.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 78.5,40.7 67.6,74.3 32.4,74.3 21.5,40.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 78.5,40.7 67.6,74.3 32.4,74.3 21.5,40.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,65.0 24.0,65.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A dot is added inside the figure.",
+      "as": "চিত্ৰটোৰ ভিতৰত এটা বিন্দু যোগ কৰা হয়।"
+    }
+  },
+  {
+    "id": "figure-analogy-030",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"62.0\" cy=\"66.0\" r=\"26.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><circle cx=\"258.0\" cy=\"66.0\" r=\"26.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><circle cx=\"258.0\" cy=\"66.0\" r=\"4.2\" fill=\"#475569\"/><polygon points=\"80.4,167.6 80.4,204.4 43.6,204.4 43.6,167.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A dot is added inside the figure.",
+      "as": "চিত্ৰটোৰ ভিতৰত এটা বিন্দু যোগ কৰা হয়।"
+    }
+  },
+  {
+    "id": "figure-analogy-031",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"80.4,47.6 80.4,84.4 43.6,84.4 43.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"62.0\" cy=\"66.0\" r=\"4.2\" fill=\"#475569\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"276.4,47.6 276.4,84.4 239.6,84.4 239.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"283.5\" cy=\"40.5\" r=\"4.2\" fill=\"#475569\"/><circle cx=\"62.0\" cy=\"186.0\" r=\"26.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><circle cx=\"62.0\" cy=\"186.0\" r=\"4.2\" fill=\"#475569\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"79.4\" cy=\"20.6\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><circle cx=\"79.4\" cy=\"20.6\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The dot moves from inside the figure to the outside.",
+      "as": "বিন্দুটো চিত্ৰৰ ভিতৰৰ পৰা বাহিৰলৈ যায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-032",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"62.0\" cy=\"66.0\" r=\"26.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><circle cx=\"62.0\" cy=\"66.0\" r=\"4.2\" fill=\"#475569\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><circle cx=\"258.0\" cy=\"66.0\" r=\"26.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><circle cx=\"283.5\" cy=\"40.5\" r=\"4.2\" fill=\"#475569\"/><polygon points=\"62.0,160.0 84.5,199.0 39.5,199.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"62.0\" cy=\"186.0\" r=\"4.2\" fill=\"#475569\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,65.0 24.0,65.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,65.0 24.0,65.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"79.4\" cy=\"20.6\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><circle cx=\"79.4\" cy=\"20.6\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The dot moves from inside the figure to the outside.",
+      "as": "বিন্দুটো চিত্ৰৰ ভিতৰৰ পৰা বাহিৰলৈ যায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-033",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"62.0,40.0 86.7,58.0 77.3,87.0 46.7,87.0 37.3,58.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"62.0\" cy=\"66.0\" r=\"4.2\" fill=\"#475569\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"258.0,40.0 282.7,58.0 273.3,87.0 242.7,87.0 233.3,58.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"283.5\" cy=\"40.5\" r=\"4.2\" fill=\"#475569\"/><polygon points=\"80.4,167.6 80.4,204.4 43.6,204.4 43.6,167.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"62.0\" cy=\"186.0\" r=\"4.2\" fill=\"#475569\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 78.5,40.7 67.6,74.3 32.4,74.3 21.5,40.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"79.4\" cy=\"20.6\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 78.5,40.7 67.6,74.3 32.4,74.3 21.5,40.7\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"79.4\" cy=\"20.6\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"4.8\" fill=\"#475569\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The dot moves from inside the figure to the outside.",
+      "as": "বিন্দুটো চিত্ৰৰ ভিতৰৰ পৰা বাহিৰলৈ যায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-034",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"37.3\" y1=\"66.0\" x2=\"86.7\" y2=\"66.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><line x1=\"233.3\" y1=\"58.9\" x2=\"282.7\" y2=\"58.9\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"233.3\" y1=\"73.2\" x2=\"282.7\" y2=\"73.2\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"163.9\" x2=\"62.0\" y2=\"208.1\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"21.5\" y1=\"50.0\" x2=\"78.5\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"41.8\" y1=\"24.5\" x2=\"41.8\" y2=\"75.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"58.2\" y1=\"24.5\" x2=\"58.2\" y2=\"75.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"24.5\" x2=\"50.0\" y2=\"75.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"21.5\" y1=\"41.8\" x2=\"78.5\" y2=\"41.8\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"21.5\" y1=\"58.2\" x2=\"78.5\" y2=\"58.2\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The number of lines increases by one.",
+      "as": "ৰেখাৰ সংখ্যা এটা বৃদ্ধি পায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-035",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"37.3\" y1=\"58.9\" x2=\"86.7\" y2=\"58.9\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"37.3\" y1=\"73.2\" x2=\"86.7\" y2=\"73.2\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><line x1=\"233.3\" y1=\"51.7\" x2=\"282.7\" y2=\"51.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"233.3\" y1=\"66.0\" x2=\"282.7\" y2=\"66.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"233.3\" y1=\"80.3\" x2=\"282.7\" y2=\"80.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"54.9\" y1=\"163.9\" x2=\"54.9\" y2=\"208.1\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"69.2\" y1=\"163.9\" x2=\"69.2\" y2=\"208.1\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"21.5\" y1=\"33.5\" x2=\"78.5\" y2=\"33.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"21.5\" y1=\"50.0\" x2=\"78.5\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"21.5\" y1=\"66.5\" x2=\"78.5\" y2=\"66.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"33.5\" y1=\"24.5\" x2=\"33.5\" y2=\"75.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"24.5\" x2=\"50.0\" y2=\"75.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"66.5\" y1=\"24.5\" x2=\"66.5\" y2=\"75.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"41.8\" y1=\"24.5\" x2=\"41.8\" y2=\"75.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"58.2\" y1=\"24.5\" x2=\"58.2\" y2=\"75.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"21.5\" y1=\"41.8\" x2=\"78.5\" y2=\"41.8\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"21.5\" y1=\"58.2\" x2=\"78.5\" y2=\"58.2\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The number of lines increases by one.",
+      "as": "ৰেখাৰ সংখ্যা এটা বৃদ্ধি পায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-036",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"37.3\" y1=\"66.0\" x2=\"86.7\" y2=\"66.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><line x1=\"233.3\" y1=\"58.9\" x2=\"282.7\" y2=\"58.9\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"233.3\" y1=\"73.2\" x2=\"282.7\" y2=\"73.2\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"54.9\" y1=\"163.9\" x2=\"54.9\" y2=\"208.1\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"69.2\" y1=\"163.9\" x2=\"69.2\" y2=\"208.1\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"33.5\" y1=\"24.5\" x2=\"33.5\" y2=\"75.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"24.5\" x2=\"50.0\" y2=\"75.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"66.5\" y1=\"24.5\" x2=\"66.5\" y2=\"75.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"24.5\" x2=\"50.0\" y2=\"75.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"41.8\" y1=\"24.5\" x2=\"41.8\" y2=\"75.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"58.2\" y1=\"24.5\" x2=\"58.2\" y2=\"75.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"21.5\" y1=\"50.0\" x2=\"78.5\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The number of lines increases by one.",
+      "as": "ৰেখাৰ সংখ্যা এটা বৃদ্ধি পায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-037",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"88.0\" y1=\"66.0\" x2=\"36.0\" y2=\"66.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"75.0\" y1=\"88.5\" x2=\"49.0\" y2=\"43.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"88.5\" x2=\"75.0\" y2=\"43.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><line x1=\"284.0\" y1=\"66.0\" x2=\"232.0\" y2=\"66.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"276.4\" y1=\"84.4\" x2=\"239.6\" y2=\"47.6\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"258.0\" y1=\"92.0\" x2=\"258.0\" y2=\"40.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"239.6\" y1=\"84.4\" x2=\"276.4\" y2=\"47.6\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"88.0\" y1=\"186.0\" x2=\"36.0\" y2=\"186.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"83.0\" y1=\"201.3\" x2=\"41.0\" y2=\"170.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"70.0\" y1=\"210.7\" x2=\"54.0\" y2=\"161.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"54.0\" y1=\"210.7\" x2=\"70.0\" y2=\"161.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"41.0\" y1=\"201.3\" x2=\"83.0\" y2=\"170.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"80.0\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"71.2\" y1=\"71.2\" x2=\"28.8\" y2=\"28.8\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"50.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"28.8\" y1=\"71.2\" x2=\"71.2\" y2=\"28.8\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"80.0\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"74.3\" y1=\"67.6\" x2=\"25.7\" y2=\"32.4\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"59.3\" y1=\"78.5\" x2=\"40.7\" y2=\"21.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"40.7\" y1=\"78.5\" x2=\"59.3\" y2=\"21.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"25.7\" y1=\"67.6\" x2=\"74.3\" y2=\"32.4\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"80.0\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"65.0\" y1=\"76.0\" x2=\"35.0\" y2=\"24.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"35.0\" y1=\"76.0\" x2=\"65.0\" y2=\"24.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"80.0\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"76.0\" y1=\"65.0\" x2=\"24.0\" y2=\"35.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"65.0\" y1=\"76.0\" x2=\"35.0\" y2=\"24.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"50.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"35.0\" y1=\"76.0\" x2=\"65.0\" y2=\"24.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"24.0\" y1=\"65.0\" x2=\"76.0\" y2=\"35.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The number of spokes increases by one.",
+      "as": "কাঁড়ৰ (spoke) সংখ্যা এটা বৃদ্ধি পায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-038",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"88.0\" y1=\"66.0\" x2=\"36.0\" y2=\"66.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.4\" y1=\"84.4\" x2=\"43.6\" y2=\"47.6\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"92.0\" x2=\"62.0\" y2=\"40.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"43.6\" y1=\"84.4\" x2=\"80.4\" y2=\"47.6\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><line x1=\"284.0\" y1=\"66.0\" x2=\"232.0\" y2=\"66.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"279.0\" y1=\"81.3\" x2=\"237.0\" y2=\"50.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"266.0\" y1=\"90.7\" x2=\"250.0\" y2=\"41.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"250.0\" y1=\"90.7\" x2=\"266.0\" y2=\"41.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"237.0\" y1=\"81.3\" x2=\"279.0\" y2=\"50.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"88.0\" y1=\"186.0\" x2=\"36.0\" y2=\"186.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"75.0\" y1=\"208.5\" x2=\"49.0\" y2=\"163.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"49.0\" y1=\"208.5\" x2=\"75.0\" y2=\"163.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"80.0\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"76.0\" y1=\"65.0\" x2=\"24.0\" y2=\"35.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"65.0\" y1=\"76.0\" x2=\"35.0\" y2=\"24.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"50.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"35.0\" y1=\"76.0\" x2=\"65.0\" y2=\"24.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"24.0\" y1=\"65.0\" x2=\"76.0\" y2=\"35.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"80.0\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"65.0\" y1=\"76.0\" x2=\"35.0\" y2=\"24.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"35.0\" y1=\"76.0\" x2=\"65.0\" y2=\"24.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"80.0\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"71.2\" y1=\"71.2\" x2=\"28.8\" y2=\"28.8\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"50.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"28.8\" y1=\"71.2\" x2=\"71.2\" y2=\"28.8\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"80.0\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"74.3\" y1=\"67.6\" x2=\"25.7\" y2=\"32.4\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"59.3\" y1=\"78.5\" x2=\"40.7\" y2=\"21.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"40.7\" y1=\"78.5\" x2=\"59.3\" y2=\"21.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"25.7\" y1=\"67.6\" x2=\"74.3\" y2=\"32.4\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The number of spokes increases by one.",
+      "as": "কাঁড়ৰ (spoke) সংখ্যা এটা বৃদ্ধি পায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-039",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"88.0\" y1=\"66.0\" x2=\"36.0\" y2=\"66.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"83.0\" y1=\"81.3\" x2=\"41.0\" y2=\"50.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"70.0\" y1=\"90.7\" x2=\"54.0\" y2=\"41.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"54.0\" y1=\"90.7\" x2=\"70.0\" y2=\"41.3\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"41.0\" y1=\"81.3\" x2=\"83.0\" y2=\"50.7\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><line x1=\"284.0\" y1=\"66.0\" x2=\"232.0\" y2=\"66.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"280.5\" y1=\"79.0\" x2=\"235.5\" y2=\"53.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"271.0\" y1=\"88.5\" x2=\"245.0\" y2=\"43.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"258.0\" y1=\"92.0\" x2=\"258.0\" y2=\"40.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"245.0\" y1=\"88.5\" x2=\"271.0\" y2=\"43.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"235.5\" y1=\"79.0\" x2=\"280.5\" y2=\"53.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"88.0\" y1=\"186.0\" x2=\"36.0\" y2=\"186.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"80.4\" y1=\"204.4\" x2=\"43.6\" y2=\"167.6\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"62.0\" y1=\"212.0\" x2=\"62.0\" y2=\"160.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"43.6\" y1=\"204.4\" x2=\"80.4\" y2=\"167.6\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"80.0\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"76.0\" y1=\"65.0\" x2=\"24.0\" y2=\"35.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"65.0\" y1=\"76.0\" x2=\"35.0\" y2=\"24.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"50.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"35.0\" y1=\"76.0\" x2=\"65.0\" y2=\"24.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"24.0\" y1=\"65.0\" x2=\"76.0\" y2=\"35.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"80.0\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"71.2\" y1=\"71.2\" x2=\"28.8\" y2=\"28.8\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"80.0\" x2=\"50.0\" y2=\"20.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"28.8\" y1=\"71.2\" x2=\"71.2\" y2=\"28.8\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"80.0\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"65.0\" y1=\"76.0\" x2=\"35.0\" y2=\"24.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"35.0\" y1=\"76.0\" x2=\"65.0\" y2=\"24.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"80.0\" y1=\"50.0\" x2=\"20.0\" y2=\"50.0\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"74.3\" y1=\"67.6\" x2=\"25.7\" y2=\"32.4\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"59.3\" y1=\"78.5\" x2=\"40.7\" y2=\"21.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"40.7\" y1=\"78.5\" x2=\"59.3\" y2=\"21.5\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"25.7\" y1=\"67.6\" x2=\"74.3\" y2=\"32.4\" stroke=\"#334155\" stroke-width=\"2.6\" stroke-linecap=\"round\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The number of spokes increases by one.",
+      "as": "কাঁড়ৰ (spoke) সংখ্যা এটা বৃদ্ধি পায়।"
+    }
+  },
+  {
+    "id": "figure-analogy-040",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"80.4,47.6 80.4,84.4 43.6,84.4 43.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><polygon points=\"276.4,47.6 276.4,84.4 239.6,84.4 239.6,47.6\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><polygon points=\"268.1,55.9 268.1,76.1 247.9,76.1 247.9,55.9\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"62.0\" cy=\"186.0\" r=\"26.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><polygon points=\"61.7,38.3 61.7,61.7 38.3,61.7 38.3,38.3\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"71.2,28.8 71.2,71.2 28.8,71.2 28.8,28.8\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"16.5\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An inner figure of the same shape is added.",
+      "as": "একে আকৃতিৰ এটা ভিতৰৰ চিত্ৰ যোগ কৰা হয়।"
+    }
+  },
+  {
+    "id": "figure-analogy-041",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"62.0\" cy=\"66.0\" r=\"26.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><circle cx=\"258.0\" cy=\"66.0\" r=\"26.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><circle cx=\"258.0\" cy=\"66.0\" r=\"14.3\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><polygon points=\"62.0,160.0 84.5,199.0 39.5,199.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,65.0 24.0,65.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"50.0,20.0 76.0,65.0 24.0,65.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><polygon points=\"50.0,33.5 64.3,58.2 35.7,58.2\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"16.5\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An inner figure of the same shape is added.",
+      "as": "একে আকৃতিৰ এটা ভিতৰৰ চিত্ৰ যোগ কৰা হয়।"
+    }
+  },
+  {
+    "id": "figure-analogy-042",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"62.0\" cy=\"66.0\" r=\"26.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><path d=\"M 62.0 92.0 A 26.0 26.0 0 0 1 62.0 40.0 Z\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><circle cx=\"258.0\" cy=\"66.0\" r=\"26.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><path d=\"M 232.0 66.0 A 26.0 26.0 0 0 1 284.0 66.0 Z\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"62.0\" cy=\"186.0\" r=\"26.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><path d=\"M 88.0 186.0 A 26.0 26.0 0 0 1 36.0 186.0 Z\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><path d=\"M 20.0 50.0 A 30.0 30.0 0 0 1 80.0 50.0 Z\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><path d=\"M 50.0 20.0 A 30.0 30.0 0 0 1 50.0 80.0 Z\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><path d=\"M 80.0 50.0 A 30.0 30.0 0 0 1 20.0 50.0 Z\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><path d=\"M 50.0 80.0 A 30.0 30.0 0 0 1 50.0 20.0 Z\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The figure (with its shaded half) rotates 90° clockwise.",
+      "as": "চিত্ৰটো (ৰঙিন আধা অংশসহ) ৯০° ঘড়ীৰ দিশত ঘূৰে।"
+    }
+  },
+  {
+    "id": "figure-analogy-043",
+    "q": {
+      "en": "In the figure analogy below, A is related to B in a certain way. Following the same rule, which figure should replace the question mark?",
+      "as": "তলৰ চিত্ৰ-সাদৃশ্যত A ৰ সৈতে B এটা নিৰ্দিষ্ট নিয়মত সম্পৰ্কিত। একেই নিয়ম অনুসৰণ কৰি প্ৰশ্নবোধক চিহ্নৰ ঠাইত কোনটো চিত্ৰ বহিব?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\" width=\"320\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"316\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"62.0\" cy=\"66.0\" r=\"26.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><path d=\"M 36.0 66.0 A 26.0 26.0 0 0 1 88.0 66.0 Z\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"160.0\" y=\"78.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><circle cx=\"258.0\" cy=\"66.0\" r=\"26.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><path d=\"M 258.0 40.0 A 26.0 26.0 0 0 1 258.0 92.0 Z\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"62.0\" cy=\"186.0\" r=\"26.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><path d=\"M 62.0 212.0 A 26.0 26.0 0 0 1 62.0 160.0 Z\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"160.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">:</text><text x=\"258.0\" y=\"198.0\" font-size=\"36\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">?</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><path d=\"M 50.0 80.0 A 30.0 30.0 0 0 1 50.0 20.0 Z\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><path d=\"M 50.0 20.0 A 30.0 30.0 0 0 1 50.0 80.0 Z\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><path d=\"M 80.0 50.0 A 30.0 30.0 0 0 1 20.0 50.0 Z\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50.0\" cy=\"50.0\" r=\"30.0\" fill=\"#ffffff\" stroke=\"#334155\" stroke-width=\"2.4\"/><path d=\"M 20.0 50.0 A 30.0 30.0 0 0 1 80.0 50.0 Z\" fill=\"#475569\" stroke=\"#334155\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The figure (with its shaded half) rotates 90° clockwise.",
+      "as": "চিত্ৰটো (ৰঙিন আধা অংশসহ) ৯০° ঘড়ীৰ দিশত ঘূৰে।"
+    }
   }
-}
+]
