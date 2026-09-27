@@ -1,30 +1,1082 @@
-{
-  "id": "odd-one-out-001",
-  "q": {
-    "en": "Choose the odd one out: Dog, Cat, Cow, Rose",
-    "as": "অমিলটো বাছি উলিওৱা: Dog, Cat, Cow, Rose"
-  },
-  "options": [
-    {
-      "en": "Dog",
-      "as": "কুকুৰ"
+[
+  {
+    "id": "odd-one-out-001",
+    "q": {
+      "en": "Choose the odd one out: Dog, Cat, Cow, Rose",
+      "as": "অমিলটো বাছি উলিওৱা: Dog, Cat, Cow, Rose"
     },
-    {
-      "en": "Cat",
-      "as": "মেকুৰী"
-    },
-    {
-      "en": "Cow",
-      "as": "গৰু"
-    },
-    {
-      "en": "Rose",
-      "as": "গোলাপ"
+    "options": [
+      { "en": "Dog", "as": "কুকুৰ" },
+      { "en": "Cat", "as": "মেকুৰী" },
+      { "en": "Cow", "as": "গৰু" },
+      { "en": "Rose", "as": "গোলাপ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Dog, cat and cow are animals; rose is a flower.",
+      "as": "কুকুৰ, মেকুৰী আৰু গৰু প্ৰাণী; গোলাপ এটা ফুল।"
     }
-  ],
-  "correct": 3,
-  "explanation": {
-    "en": "Dog, cat and cow are animals; rose is a flower.",
-    "as": "কুকুৰ, মেকুৰী আৰু গৰু প্ৰাণী; গোলাপ এটা ফুল।"
+  },
+  {
+    "id": "odd-one-out-002",
+    "q": {
+      "en": "Choose the odd one out: Apple, Banana, Mango, Potato",
+      "as": "অমিলটো বাছি উলিওৱা: Apple, Banana, Mango, Potato"
+    },
+    "options": [
+      { "en": "Apple", "as": "আপেল" },
+      { "en": "Banana", "as": "কল" },
+      { "en": "Mango", "as": "আম" },
+      { "en": "Potato", "as": "আলু" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Apple, banana and mango are fruits; potato is a vegetable.",
+      "as": "আপেল, কল আৰু আম ফল; আলু এটা শাক-পাচলি।"
+    }
+  },
+  {
+    "id": "odd-one-out-003",
+    "q": {
+      "en": "Choose the odd one out: Crow, Sparrow, Parrot, Lion",
+      "as": "অমিলটো বাছি উলিওৱা: Crow, Sparrow, Parrot, Lion"
+    },
+    "options": [
+      { "en": "Crow", "as": "কাউৰী" },
+      { "en": "Sparrow", "as": "চৰাই" },
+      { "en": "Parrot", "as": "ভাটৌ" },
+      { "en": "Lion", "as": "সিংহ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Crow, sparrow and parrot are birds; lion is an animal.",
+      "as": "কাউৰী, চৰাই আৰু ভাটৌ চৰাই; সিংহ এটা জন্তু।"
+    }
+  },
+  {
+    "id": "odd-one-out-004",
+    "q": {
+      "en": "Choose the odd one out: Tiger, Lion, Elephant, Cow",
+      "as": "অমিলটো বাছি উলিওৱা: Tiger, Lion, Elephant, Cow"
+    },
+    "options": [
+      { "en": "Tiger", "as": "বাঘ" },
+      { "en": "Lion", "as": "সিংহ" },
+      { "en": "Elephant", "as": "হাতী" },
+      { "en": "Cow", "as": "গৰু" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Tiger, lion and elephant are wild animals; cow is a domestic animal.",
+      "as": "বাঘ, সিংহ আৰু হাতী বনৰীয়া জন্তু; গৰু পোহনীয়া জন্তু।"
+    }
+  },
+  {
+    "id": "odd-one-out-005",
+    "q": {
+      "en": "Choose the odd one out: Tree, Flower, Grass, Stone",
+      "as": "অমিলটো বাছি উলিওৱা: Tree, Flower, Grass, Stone"
+    },
+    "options": [
+      { "en": "Tree", "as": "গছ" },
+      { "en": "Flower", "as": "ফুল" },
+      { "en": "Grass", "as": "ঘাঁহ" },
+      { "en": "Stone", "as": "শিল" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Tree, flower and grass are living things; stone is non-living.",
+      "as": "গছ, ফুল আৰু ঘাঁহ জীৱ; শিল জীৱহীন।"
+    }
+  },
+  {
+    "id": "odd-one-out-006",
+    "q": {
+      "en": "Choose the odd one out: Red, Blue, Green, Chair",
+      "as": "অমিলটো বাছি উলিওৱা: Red, Blue, Green, Chair"
+    },
+    "options": [
+      { "en": "Red", "as": "ৰঙা" },
+      { "en": "Blue", "as": "নীলা" },
+      { "en": "Green", "as": "সেউজীয়া" },
+      { "en": "Chair", "as": "চকী" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Red, blue and green are colours; chair is a piece of furniture.",
+      "as": "ৰঙা, নীলা আৰু সেউজীয়া ৰং; চকী এটা আচবাব।"
+    }
+  },
+  {
+    "id": "odd-one-out-007",
+    "q": {
+      "en": "Choose the odd one out: A, E, I, B",
+      "as": "অমিলটো বাছি উলিওৱা: A, E, I, B"
+    },
+    "options": [
+      { "en": "A", "as": "A" },
+      { "en": "E", "as": "E" },
+      { "en": "I", "as": "I" },
+      { "en": "B", "as": "B" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A, E and I are vowels; B is a consonant.",
+      "as": "A, E আৰু I স্বৰবৰ্ণ; B ব্যঞ্জনবৰ্ণ।"
+    }
+  },
+  {
+    "id": "odd-one-out-008",
+    "q": {
+      "en": "Choose the odd one out: 2, 4, 6, 7",
+      "as": "অমিলটো বাছি উলিওৱা: 2, 4, 6, 7"
+    },
+    "options": [
+      { "en": "2", "as": "২" },
+      { "en": "4", "as": "৪" },
+      { "en": "6", "as": "৬" },
+      { "en": "7", "as": "৭" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2, 4 and 6 are even numbers; 7 is an odd number.",
+      "as": "২, ৪ আৰু ৬ যুগ্ম সংখ্যা; ৭ অযুগ্ম সংখ্যা।"
+    }
+  },
+  {
+    "id": "odd-one-out-009",
+    "q": {
+      "en": "Choose the odd one out: 2, 3, 5, 9",
+      "as": "অমিলটো বাছি উলিওৱা: 2, 3, 5, 9"
+    },
+    "options": [
+      { "en": "2", "as": "২" },
+      { "en": "3", "as": "৩" },
+      { "en": "5", "as": "৫" },
+      { "en": "9", "as": "৯" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2, 3 and 5 are prime numbers; 9 is not a prime number.",
+      "as": "২, ৩ আৰু ৫ মৌলিক সংখ্যা; ৯ মৌলিক সংখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-010",
+    "q": {
+      "en": "Choose the odd one out: Monday, Tuesday, Friday, January",
+      "as": "অমিলটো বাছি উলিওৱা: Monday, Tuesday, Friday, January"
+    },
+    "options": [
+      { "en": "Monday", "as": "সোমবাৰ" },
+      { "en": "Tuesday", "as": "মঙ্গলবাৰ" },
+      { "en": "Friday", "as": "শুক্ৰবাৰ" },
+      { "en": "January", "as": "জানুৱাৰী" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Monday, Tuesday and Friday are days; January is a month.",
+      "as": "সোমবাৰ, মঙ্গলবাৰ আৰু শুক্ৰবাৰ দিন; জানুৱাৰী এটা মাহ।"
+    }
+  },
+  {
+    "id": "odd-one-out-011",
+    "q": {
+      "en": "Choose the odd one out: March, April, June, Sunday",
+      "as": "অমিলটো বাছি উলিওৱা: March, April, June, Sunday"
+    },
+    "options": [
+      { "en": "March", "as": "মাৰ্চ" },
+      { "en": "April", "as": "এপ্ৰিল" },
+      { "en": "June", "as": "জুন" },
+      { "en": "Sunday", "as": "দেওবাৰ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "March, April and June are months; Sunday is a day.",
+      "as": "মাৰ্চ, এপ্ৰিল আৰু জুন মাহ; দেওবাৰ এটা দিন।"
+    }
+  },
+  {
+    "id": "odd-one-out-012",
+    "q": {
+      "en": "Choose the odd one out: Square, Rectangle, Rhombus, Circle",
+      "as": "অমিলটো বাছি উলিওৱা: Square, Rectangle, Rhombus, Circle"
+    },
+    "options": [
+      { "en": "Square", "as": "বৰ্গ" },
+      { "en": "Rectangle", "as": "আয়ত" },
+      { "en": "Rhombus", "as": "ৰম্বাছ" },
+      { "en": "Circle", "as": "বৃত্ত" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Square, rectangle and rhombus have four sides; circle has no sides.",
+      "as": "বৰ্গ, আয়ত আৰু ৰম্বাছৰ চাৰিটা বাহু থাকে; বৃত্তৰ কোনো বাহু নাই।"
+    }
+  },
+  {
+    "id": "odd-one-out-013",
+    "q": {
+      "en": "Choose the odd one out: Eye, Ear, Nose, Shirt",
+      "as": "অমিলটো বাছি উলিওৱা: Eye, Ear, Nose, Shirt"
+    },
+    "options": [
+      { "en": "Eye", "as": "চকু" },
+      { "en": "Ear", "as": "কাণ" },
+      { "en": "Nose", "as": "নাক" },
+      { "en": "Shirt", "as": "চোলা" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Eye, ear and nose are body parts; shirt is a clothing item.",
+      "as": "চকু, কাণ আৰু নাক শৰীৰৰ অংগ; চোলা এটা বস্ত্ৰ।"
+    }
+  },
+  {
+    "id": "odd-one-out-014",
+    "q": {
+      "en": "Choose the odd one out: Car, Bus, Train, Tree",
+      "as": "অমিলটো বাছি উলিওৱা: Car, Bus, Train, Tree"
+    },
+    "options": [
+      { "en": "Car", "as": "গাড়ী" },
+      { "en": "Bus", "as": "বাছ" },
+      { "en": "Train", "as": "ৰে'ল" },
+      { "en": "Tree", "as": "গছ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Car, bus and train are vehicles; tree is a plant.",
+      "as": "গাড়ী, বাছ আৰু ৰে'ল যানবাহন; গছ এটা উদ্ভিদ।"
+    }
+  },
+  {
+    "id": "odd-one-out-015",
+    "q": {
+      "en": "Choose the odd one out: Table, Chair, Bed, Knife",
+      "as": "অমিলটো বাছি উলিওৱা: Table, Chair, Bed, Knife"
+    },
+    "options": [
+      { "en": "Table", "as": "মেজ" },
+      { "en": "Chair", "as": "চকী" },
+      { "en": "Bed", "as": "বিছনা" },
+      { "en": "Knife", "as": "কটাৰী" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Table, chair and bed are furniture; knife is a kitchen tool.",
+      "as": "মেজ, চকী আৰু বিছনা আচবাব; কটাৰী এটা ৰান্ধনীঘৰৰ সঁজুলি।"
+    }
+  },
+  {
+    "id": "odd-one-out-016",
+    "q": {
+      "en": "Choose the odd one out: Guitar, Flute, Drum, Pencil",
+      "as": "অমিলটো বাছি উলিওৱা: Guitar, Flute, Drum, Pencil"
+    },
+    "options": [
+      { "en": "Guitar", "as": "গীটাৰ" },
+      { "en": "Flute", "as": "বাঁহী" },
+      { "en": "Drum", "as": "ঢোল" },
+      { "en": "Pencil", "as": "পেঞ্চিল" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Guitar, flute and drum are musical instruments; pencil is a stationery item.",
+      "as": "গীটাৰ, বাঁহী আৰু ঢোল বাদ্যযন্ত্ৰ; পেঞ্চিল এটা লিখা সামগ্ৰী।"
+    }
+  },
+  {
+    "id": "odd-one-out-017",
+    "q": {
+      "en": "Choose the odd one out: Cricket, Football, Hockey, Chess",
+      "as": "অমিলটো বাছি উলিওৱা: Cricket, Football, Hockey, Chess"
+    },
+    "options": [
+      { "en": "Cricket", "as": "ক্ৰিকেট" },
+      { "en": "Football", "as": "ফুটবল" },
+      { "en": "Hockey", "as": "হকী" },
+      { "en": "Chess", "as": "চেছ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Cricket, football and hockey are outdoor games; chess is an indoor game.",
+      "as": "ক্ৰিকেট, ফুটবল আৰু হকী বাহিৰৰ খেল; চেছ ঘৰুৱা খেল।"
+    }
+  },
+  {
+    "id": "odd-one-out-018",
+    "q": {
+      "en": "Choose the odd one out: Summer, Winter, Rainy, Monday",
+      "as": "অমিলটো বাছি উলিওৱা: Summer, Winter, Rainy, Monday"
+    },
+    "options": [
+      { "en": "Summer", "as": "গ্ৰীষ্ম" },
+      { "en": "Winter", "as": "শীত" },
+      { "en": "Rainy", "as": "বৰ্ষা" },
+      { "en": "Monday", "as": "সোমবাৰ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Summer, winter and rainy are seasons; Monday is a day.",
+      "as": "গ্ৰীষ্ম, শীত আৰু বৰ্ষা ঋতু; সোমবাৰ এটা দিন।"
+    }
+  },
+  {
+    "id": "odd-one-out-019",
+    "q": {
+      "en": "Choose the odd one out: Ant, Bee, Fly, Cow",
+      "as": "অমিলটো বাছি উলিওৱা: Ant, Bee, Fly, Cow"
+    },
+    "options": [
+      { "en": "Ant", "as": "পৰুৱা" },
+      { "en": "Bee", "as": "মৌমাখি" },
+      { "en": "Fly", "as": "মাখি" },
+      { "en": "Cow", "as": "গৰু" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ant, bee and fly are insects; cow is an animal.",
+      "as": "পৰুৱা, মৌমাখি আৰু মাখি পতংগ; গৰু এটা জন্তু।"
+    }
+  },
+  {
+    "id": "odd-one-out-020",
+    "q": {
+      "en": "Choose the odd one out: Fish, Whale, Dolphin, Horse",
+      "as": "অমিলটো বাছি উলিওৱা: Fish, Whale, Dolphin, Horse"
+    },
+    "options": [
+      { "en": "Fish", "as": "মাছ" },
+      { "en": "Whale", "as": "তিমি" },
+      { "en": "Dolphin", "as": "ডলফিন" },
+      { "en": "Horse", "as": "ঘোঁৰা" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Fish, whale and dolphin live in water; horse lives on land.",
+      "as": "মাছ, তিমি আৰু ডলফিন পানীত থাকে; ঘোঁৰা স্থলত থাকে।"
+    }
+  },
+  {
+    "id": "odd-one-out-021",
+    "q": {
+      "en": "Choose the odd one out: Cow, Goat, Dog, Hen",
+      "as": "অমিলটো বাছি উলিওৱা: Cow, Goat, Dog, Hen"
+    },
+    "options": [
+      { "en": "Cow", "as": "গৰু" },
+      { "en": "Goat", "as": "ছাগলী" },
+      { "en": "Dog", "as": "কুকুৰ" },
+      { "en": "Hen", "as": "কুকুৰা" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Cow, goat and dog are mammals; hen is a bird.",
+      "as": "গৰু, ছাগলী আৰু কুকুৰ স্তন্যপায়ী; কুকুৰা এটা চৰাই।"
+    }
+  },
+  {
+    "id": "odd-one-out-022",
+    "q": {
+      "en": "Choose the odd one out: Brinjal, Cabbage, Carrot, Grapes",
+      "as": "অমিলটো বাছি উলিওৱা: Brinjal, Cabbage, Carrot, Grapes"
+    },
+    "options": [
+      { "en": "Brinjal", "as": "বেঙেনা" },
+      { "en": "Cabbage", "as": "বন্ধাকবি" },
+      { "en": "Carrot", "as": "গাজৰ" },
+      { "en": "Grapes", "as": "আঙুৰ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Brinjal, cabbage and carrot are vegetables; grapes are a fruit.",
+      "as": "বেঙেনা, বন্ধাকবি আৰু গাজৰ শাক-পাচলি; আঙুৰ এটা ফল।"
+    }
+  },
+  {
+    "id": "odd-one-out-023",
+    "q": {
+      "en": "Choose the odd one out: Hammer, Saw, Screwdriver, Spoon",
+      "as": "অমিলটো বাছি উলিওৱা: Hammer, Saw, Screwdriver, Spoon"
+    },
+    "options": [
+      { "en": "Hammer", "as": "হাতুৰী" },
+      { "en": "Saw", "as": "কৰত" },
+      { "en": "Screwdriver", "as": "স্ক্ৰুড্ৰাইভাৰ" },
+      { "en": "Spoon", "as": "চামুচ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Hammer, saw and screwdriver are tools; spoon is a kitchen utensil.",
+      "as": "হাতুৰী, কৰত আৰু স্ক্ৰুড্ৰাইভাৰ সঁজুলি; চামুচ এটা ৰান্ধনীঘৰৰ সঁজুলি।"
+    }
+  },
+  {
+    "id": "odd-one-out-024",
+    "q": {
+      "en": "Choose the odd one out: Doctor, Teacher, Farmer, Table",
+      "as": "অমিলটো বাছি উলিওৱা: Doctor, Teacher, Farmer, Table"
+    },
+    "options": [
+      { "en": "Doctor", "as": "ডাক্তৰ" },
+      { "en": "Teacher", "as": "শিক্ষক" },
+      { "en": "Farmer", "as": "কৃষক" },
+      { "en": "Table", "as": "মেজ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Doctor, teacher and farmer are professions; table is an object.",
+      "as": "ডাক্তৰ, শিক্ষক আৰু কৃষক বৃত্তি; মেজ এটা বস্তু।"
+    }
+  },
+  {
+    "id": "odd-one-out-025",
+    "q": {
+      "en": "Choose the odd one out: Iron, Gold, Silver, Wood",
+      "as": "অমিলটো বাছি উলিওৱা: Iron, Gold, Silver, Wood"
+    },
+    "options": [
+      { "en": "Iron", "as": "লো" },
+      { "en": "Gold", "as": "সোণ" },
+      { "en": "Silver", "as": "ৰূপ" },
+      { "en": "Wood", "as": "কাঠ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Iron, gold and silver are metals; wood is not a metal.",
+      "as": "লো, সোণ আৰু ৰূপ ধাতু; কাঠ ধাতু নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-026",
+    "q": {
+      "en": "Choose the odd one out: Dispur, Delhi, Mumbai, Assam",
+      "as": "অমিলটো বাছি উলিওৱা: Dispur, Delhi, Mumbai, Assam"
+    },
+    "options": [
+      { "en": "Dispur", "as": "দিছপুৰ" },
+      { "en": "Delhi", "as": "দিল্লী" },
+      { "en": "Mumbai", "as": "মুম্বাই" },
+      { "en": "Assam", "as": "অসম" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Dispur, Delhi and Mumbai are capitals; Assam is a state.",
+      "as": "দিছপুৰ, দিল্লী আৰু মুম্বাই ৰাজধানী; অসম এটা ৰাজ্য।"
+    }
+  },
+  {
+    "id": "odd-one-out-027",
+    "q": {
+      "en": "Choose the odd one out: Plus, Minus, Multiply, Circle",
+      "as": "অমিলটো বাছি উলিওৱা: Plus, Minus, Multiply, Circle"
+    },
+    "options": [
+      { "en": "Plus", "as": "যোগ" },
+      { "en": "Minus", "as": "বিয়োগ" },
+      { "en": "Multiply", "as": "পূৰণ" },
+      { "en": "Circle", "as": "বৃত্ত" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Plus, minus and multiply are mathematical operations; circle is a shape.",
+      "as": "যোগ, বিয়োগ আৰু পূৰণ গাণিতিক ক্ৰিয়া; বৃত্ত এটা আকৃতি।"
+    }
+  },
+  {
+    "id": "odd-one-out-028",
+    "q": {
+      "en": "Choose the odd one out: Sun, Moon, Star, Tree",
+      "as": "অমিলটো বাছি উলিওৱা: Sun, Moon, Star, Tree"
+    },
+    "options": [
+      { "en": "Sun", "as": "সূৰ্য" },
+      { "en": "Moon", "as": "চন্দ্ৰ" },
+      { "en": "Star", "as": "তৰা" },
+      { "en": "Tree", "as": "গছ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sun, moon and star are non-living natural objects; tree is a living thing.",
+      "as": "সূৰ্য, চন্দ্ৰ আৰু তৰা জীৱহীন প্ৰাকৃতিক বস্তু; গছ এটা জীৱ।"
+    }
+  },
+  {
+    "id": "odd-one-out-029",
+    "q": {
+      "en": "Choose the odd one out: Pen, Pencil, Eraser, Plate",
+      "as": "অমিলটো বাছি উলিওৱা: Pen, Pencil, Eraser, Plate"
+    },
+    "options": [
+      { "en": "Pen", "as": "কলম" },
+      { "en": "Pencil", "as": "পেঞ্চিল" },
+      { "en": "Eraser", "as": "ৰবৰ" },
+      { "en": "Plate", "as": "প্লেট" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Pen, pencil and eraser are stationery; plate is a kitchen item.",
+      "as": "কলম, পেঞ্চিল আৰু ৰবৰ লিখা সামগ্ৰী; প্লেট এটা ৰান্ধনীঘৰৰ সামগ্ৰী।"
+    }
+  },
+  {
+    "id": "odd-one-out-030",
+    "q": {
+      "en": "Choose the odd one out: Shirt, Pant, Cap, Book",
+      "as": "অমিলটো বাছি উলিওৱা: Shirt, Pant, Cap, Book"
+    },
+    "options": [
+      { "en": "Shirt", "as": "চোলা" },
+      { "en": "Pant", "as": "পেণ্ট" },
+      { "en": "Cap", "as": "টুপী" },
+      { "en": "Book", "as": "কিতাপ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Shirt, pant and cap are clothing; book is a stationery item.",
+      "as": "চোলা, পেণ্ট আৰু টুপী বস্ত্ৰ; কিতাপ লিখা সামগ্ৰী।"
+    }
+  },
+  {
+    "id": "odd-one-out-031",
+    "q": {
+      "en": "Choose the odd one out: See, Hear, Smell, Walk",
+      "as": "অমিলটো বাছি উলিওৱা: See, Hear, Smell, Walk"
+    },
+    "options": [
+      { "en": "See", "as": "দেখা" },
+      { "en": "Hear", "as": "শুনা" },
+      { "en": "Smell", "as": "গোন্ধ লোৱা" },
+      { "en": "Walk", "as": "খোজ কঢ়া" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "See, hear and smell are senses; walk is an action.",
+      "as": "দেখা, শুনা আৰু গোন্ধ লোৱা ইন্দ্ৰিয়; খোজ কঢ়া এটা ক্ৰিয়া।"
+    }
+  },
+  {
+    "id": "odd-one-out-032",
+    "q": {
+      "en": "Choose the odd one out: Earth, Mars, Venus, Moon",
+      "as": "অমিলটো বাছি উলিওৱা: Earth, Mars, Venus, Moon"
+    },
+    "options": [
+      { "en": "Earth", "as": "পৃথিৱী" },
+      { "en": "Mars", "as": "মঙ্গল" },
+      { "en": "Venus", "as": "শুক্ৰ" },
+      { "en": "Moon", "as": "চন্দ্ৰ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Earth, Mars and Venus are planets; moon is a satellite.",
+      "as": "পৃথিৱী, মঙ্গল আৰু শুক্ৰ গ্ৰহ; চন্দ্ৰ এটা উপগ্ৰহ।"
+    }
+  },
+  {
+    "id": "odd-one-out-033",
+    "q": {
+      "en": "Choose the odd one out: East, West, North, Sunday",
+      "as": "অমিলটো বাছি উলিওৱা: East, West, North, Sunday"
+    },
+    "options": [
+      { "en": "East", "as": "পূব" },
+      { "en": "West", "as": "পশ্চিম" },
+      { "en": "North", "as": "উত্তৰ" },
+      { "en": "Sunday", "as": "দেওবাৰ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "East, west and north are directions; Sunday is a day.",
+      "as": "পূব, পশ্চিম আৰু উত্তৰ দিশ; দেওবাৰ এটা দিন।"
+    }
+  },
+  {
+    "id": "odd-one-out-034",
+    "q": {
+      "en": "Choose the odd one out: Sweet, Sour, Bitter, Loud",
+      "as": "অমিলটো বাছি উলিওৱা: Sweet, Sour, Bitter, Loud"
+    },
+    "options": [
+      { "en": "Sweet", "as": "মিঠা" },
+      { "en": "Sour", "as": "টেঙা" },
+      { "en": "Bitter", "as": "তিতা" },
+      { "en": "Loud", "as": "চিঞৰ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sweet, sour and bitter are tastes; loud is related to sound.",
+      "as": "মিঠা, টেঙা আৰু তিতা সোৱাদ; চিঞৰ শব্দৰ সৈতে সম্পৰ্কিত।"
+    }
+  },
+  {
+    "id": "odd-one-out-035",
+    "q": {
+      "en": "Choose the odd one out: Brahmaputra, Ganga, Yamuna, Himalaya",
+      "as": "অমিলটো বাছি উলিওৱা: Brahmaputra, Ganga, Yamuna, Himalaya"
+    },
+    "options": [
+      { "en": "Brahmaputra", "as": "ব্ৰহ্মপুত্ৰ" },
+      { "en": "Ganga", "as": "গঙ্গা" },
+      { "en": "Yamuna", "as": "যমুনা" },
+      { "en": "Himalaya", "as": "হিমালয়" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Brahmaputra, Ganga and Yamuna are rivers; Himalaya is a mountain range.",
+      "as": "ব্ৰহ্মপুত্ৰ, গঙ্গা আৰু যমুনা নদী; হিমালয় এটা পৰ্বতমালা।"
+    }
+  },
+  {
+    "id": "odd-one-out-036",
+    "q": {
+      "en": "Choose the odd one out: 4, 6, 8, 5",
+      "as": "অমিলটো বাছি উলিওৱা: 4, 6, 8, 5"
+    },
+    "options": [
+      { "en": "4", "as": "৪" },
+      { "en": "6", "as": "৬" },
+      { "en": "8", "as": "৮" },
+      { "en": "5", "as": "৫" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "4, 6 and 8 are composite numbers; 5 is a prime number.",
+      "as": "৪, ৬ আৰু ৮ যৌগিক সংখ্যা; ৫ মৌলিক সংখ্যা।"
+    }
+  },
+  {
+    "id": "odd-one-out-037",
+    "q": {
+      "en": "Choose the odd one out: He, She, It, Book",
+      "as": "অমিলটো বাছি উলিওৱা: He, She, It, Book"
+    },
+    "options": [
+      { "en": "He", "as": "সি" },
+      { "en": "She", "as": "তাই" },
+      { "en": "It", "as": "ই" },
+      { "en": "Book", "as": "কিতাপ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "He, she and it are pronouns; book is a noun.",
+      "as": "সি, তাই আৰু ই সৰ্বনাম; কিতাপ এটা বিশেষ্য।"
+    }
+  },
+  {
+    "id": "odd-one-out-038",
+    "q": {
+      "en": "Choose the odd one out: Metre, Kilogram, Second, Pencil",
+      "as": "অমিলটো বাছি উলিওৱা: Metre, Kilogram, Second, Pencil"
+    },
+    "options": [
+      { "en": "Metre", "as": "মিটাৰ" },
+      { "en": "Kilogram", "as": "কিলোগ্ৰাম" },
+      { "en": "Second", "as": "ছেকেণ্ড" },
+      { "en": "Pencil", "as": "পেঞ্চিল" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Metre, kilogram and second are units of measurement; pencil is an object.",
+      "as": "মিটাৰ, কিলোগ্ৰাম আৰু ছেকেণ্ড জোখৰ একক; পেঞ্চিল এটা বস্তু।"
+    }
+  },
+  {
+    "id": "odd-one-out-039",
+    "q": {
+      "en": "Choose the odd one out: Rose, Lotus, Lily, Mango",
+      "as": "অমিলটো বাছি উলিওৱা: Rose, Lotus, Lily, Mango"
+    },
+    "options": [
+      { "en": "Rose", "as": "গোলাপ" },
+      { "en": "Lotus", "as": "পদুম" },
+      { "en": "Lily", "as": "লিলি" },
+      { "en": "Mango", "as": "আম" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rose, lotus and lily are flowers; mango is a fruit.",
+      "as": "গোলাপ, পদুম আৰু লিলি ফুল; আম এটা ফল।"
+    }
+  },
+  {
+    "id": "odd-one-out-040",
+    "q": {
+      "en": "Choose the odd one out: Pot, Pan, Knife, Chair",
+      "as": "অমিলটো বাছি উলিওৱা: Pot, Pan, Knife, Chair"
+    },
+    "options": [
+      { "en": "Pot", "as": "কলহ" },
+      { "en": "Pan", "as": "কেৰাহী" },
+      { "en": "Knife", "as": "কটাৰী" },
+      { "en": "Chair", "as": "চকী" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Pot, pan and knife are kitchen utensils; chair is furniture.",
+      "as": "কলহ, কেৰাহী আৰু কটাৰী ৰান্ধনীঘৰৰ সঁজুলি; চকী আচবাব।"
+    }
+  },
+  {
+    "id": "odd-one-out-041",
+    "q": {
+      "en": "Choose the odd one out: Banyan, Neem, Mango, Tiger",
+      "as": "অমিলটো বাছি উলিওৱা: Banyan, Neem, Mango, Tiger"
+    },
+    "options": [
+      { "en": "Banyan", "as": "বট গছ" },
+      { "en": "Neem", "as": "নিম" },
+      { "en": "Mango", "as": "আম" },
+      { "en": "Tiger", "as": "বাঘ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Banyan, neem and mango are trees; tiger is an animal.",
+      "as": "বট গছ, নিম আৰু আম গছ; বাঘ এটা জন্তু।"
+    }
+  },
+  {
+    "id": "odd-one-out-042",
+    "q": {
+      "en": "Choose the odd one out: First, Second, Third, Five",
+      "as": "অমিলটো বাছি উলিওৱা: First, Second, Third, Five"
+    },
+    "options": [
+      { "en": "First", "as": "প্ৰথম" },
+      { "en": "Second", "as": "দ্বিতীয়" },
+      { "en": "Third", "as": "তৃতীয়" },
+      { "en": "Five", "as": "পাঁচ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "First, second and third are ordinal numbers; five is a cardinal number.",
+      "as": "প্ৰথম, দ্বিতীয় আৰু তৃতীয় ক্ৰমবাচক সংখ্যা; পাঁচ এটা সংখ্যাবাচক সংখ্যা।"
+    }
+  },
+  {
+    "id": "odd-one-out-043",
+    "q": {
+      "en": "Choose the odd one out: Physics, Chemistry, Biology, Cricket",
+      "as": "অমিলটো বাছি উলিওৱা: Physics, Chemistry, Biology, Cricket"
+    },
+    "options": [
+      { "en": "Physics", "as": "পদাৰ্থবিজ্ঞান" },
+      { "en": "Chemistry", "as": "ৰসায়নবিজ্ঞান" },
+      { "en": "Biology", "as": "জীৱবিজ্ঞান" },
+      { "en": "Cricket", "as": "ক্ৰিকেট" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Physics, chemistry and biology are sciences; cricket is a sport.",
+      "as": "পদাৰ্থবিজ্ঞান, ৰসায়নবিজ্ঞান আৰু জীৱবিজ্ঞান বিজ্ঞান; ক্ৰিকেট এটা খেল।"
+    }
+  },
+  {
+    "id": "odd-one-out-044",
+    "q": {
+      "en": "Choose the odd one out: School, Hospital, Market, Teacher",
+      "as": "অমিলটো বাছি উলিওৱা: School, Hospital, Market, Teacher"
+    },
+    "options": [
+      { "en": "School", "as": "বিদ্যালয়" },
+      { "en": "Hospital", "as": "চিকিৎসালয়" },
+      { "en": "Market", "as": "বজাৰ" },
+      { "en": "Teacher", "as": "শিক্ষক" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "School, hospital and market are places; teacher is a person.",
+      "as": "বিদ্যালয়, চিকিৎসালয় আৰু বজাৰ স্থান; শিক্ষক এজন ব্যক্তি।"
+    }
+  },
+  {
+    "id": "odd-one-out-045",
+    "q": {
+      "en": "Choose the odd one out: Heart, Lung, Kidney, Shoe",
+      "as": "অমিলটো বাছি উলিওৱা: Heart, Lung, Kidney, Shoe"
+    },
+    "options": [
+      { "en": "Heart", "as": "হৃদয়" },
+      { "en": "Lung", "as": "ফুসফুস" },
+      { "en": "Kidney", "as": "বৃক্ক" },
+      { "en": "Shoe", "as": "জোতা" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Heart, lung and kidney are body organs; shoe is footwear.",
+      "as": "হৃদয়, ফুসফুস আৰু বৃক্ক শৰীৰৰ অংগ; জোতা পাদুকা।"
+    }
+  },
+  {
+    "id": "odd-one-out-046",
+    "q": {
+      "en": "Choose the odd one out: Litchi, Guava, Orange, Ladyfinger",
+      "as": "অমিলটো বাছি উলিওৱা: Litchi, Guava, Orange, Ladyfinger"
+    },
+    "options": [
+      { "en": "Litchi", "as": "লিচু" },
+      { "en": "Guava", "as": "আমৰুদ" },
+      { "en": "Orange", "as": "কমলা" },
+      { "en": "Ladyfinger", "as": "ভেণ্ডি" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Litchi, guava and orange are fruits; ladyfinger is a vegetable.",
+      "as": "লিচু, আমৰুদ আৰু কমলা ফল; ভেণ্ডি এটা শাক-পাচলি।"
+    }
+  },
+  {
+    "id": "odd-one-out-047",
+    "q": {
+      "en": "Choose the odd one out: River, Lake, Pond, Mountain",
+      "as": "অমিলটো বাছি উলিওৱা: River, Lake, Pond, Mountain"
+    },
+    "options": [
+      { "en": "River", "as": "নদী" },
+      { "en": "Lake", "as": "হ্ৰদ" },
+      { "en": "Pond", "as": "পুখুৰী" },
+      { "en": "Mountain", "as": "পৰ্বত" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "River, lake and pond are water bodies; mountain is a landform.",
+      "as": "নদী, হ্ৰদ আৰু পুখুৰী জলাশয়; পৰ্বত এটা ভূ-ৰূপ।"
+    }
+  },
+  {
+    "id": "odd-one-out-048",
+    "q": {
+      "en": "Choose the odd one out: Fish, Frog, Crab, Camel",
+      "as": "অমিলটো বাছি উলিওৱা: Fish, Frog, Crab, Camel"
+    },
+    "options": [
+      { "en": "Fish", "as": "মাছ" },
+      { "en": "Frog", "as": "ভেকুলী" },
+      { "en": "Crab", "as": "কেঁকোৰা" },
+      { "en": "Camel", "as": "উট" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Fish, frog and crab are associated with water; camel lives in the desert.",
+      "as": "মাছ, ভেকুলী আৰু কেঁকোৰা পানীৰ সৈতে জড়িত; উট মৰুভূমিত থাকে।"
+    }
+  },
+  {
+    "id": "odd-one-out-049",
+    "q": {
+      "en": "Choose the odd one out: K, L, M, E",
+      "as": "অমিলটো বাছি উলিওৱা: K, L, M, E"
+    },
+    "options": [
+      { "en": "K", "as": "K" },
+      { "en": "L", "as": "L" },
+      { "en": "M", "as": "M" },
+      { "en": "E", "as": "E" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "K, L and M are consonants; E is a vowel.",
+      "as": "K, L আৰু M ব্যঞ্জনবৰ্ণ; E স্বৰবৰ্ণ।"
+    }
+  },
+  {
+    "id": "odd-one-out-050",
+    "q": {
+      "en": "Choose the odd one out: Rupee, Dollar, Taka, Delhi",
+      "as": "অমিলটো বাছি উলিওৱা: Rupee, Dollar, Taka, Delhi"
+    },
+    "options": [
+      { "en": "Rupee", "as": "ৰুপী" },
+      { "en": "Dollar", "as": "ডলাৰ" },
+      { "en": "Taka", "as": "টকা" },
+      { "en": "Delhi", "as": "দিল্লী" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rupee, dollar and taka are currencies; Delhi is a city.",
+      "as": "ৰুপী, ডলাৰ আৰু টকা মুদ্ৰা; দিল্লী এখন চহৰ।"
+    }
+  },
+  {
+    "id": "odd-one-out-051",
+    "q": {
+      "en": "Choose the odd one out: Sun, Rain, Rainbow, Car",
+      "as": "অমিলটো বাছি উলিওৱা: Sun, Rain, Rainbow, Car"
+    },
+    "options": [
+      { "en": "Sun", "as": "সূৰ্য" },
+      { "en": "Rain", "as": "বৰষুণ" },
+      { "en": "Rainbow", "as": "ৰামধেনু" },
+      { "en": "Car", "as": "গাড়ী" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sun, rain and rainbow are natural; car is man-made.",
+      "as": "সূৰ্য, বৰষুণ আৰু ৰামধেনু প্ৰাকৃতিক; গাড়ী মানুহে নিৰ্মাণ কৰা।"
+    }
+  },
+  {
+    "id": "odd-one-out-052",
+    "q": {
+      "en": "Choose the odd one out: Ostrich, Penguin, Kiwi, Crow",
+      "as": "অমিলটো বাছি উলিওৱা: Ostrich, Penguin, Kiwi, Crow"
+    },
+    "options": [
+      { "en": "Ostrich", "as": "উটপক্ষী" },
+      { "en": "Penguin", "as": "পেংগুইন" },
+      { "en": "Kiwi", "as": "কীৱি" },
+      { "en": "Crow", "as": "কাউৰী" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ostrich, penguin and kiwi cannot fly; crow can fly.",
+      "as": "উটপক্ষী, পেংগুইন আৰু কীৱি উৰিব নোৱাৰে; কাউৰী উৰিব পাৰে।"
+    }
+  },
+  {
+    "id": "odd-one-out-053",
+    "q": {
+      "en": "Choose the odd one out: Elephant, Whale, Hippo, Ant",
+      "as": "অমিলটো বাছি উলিওৱা: Elephant, Whale, Hippo, Ant"
+    },
+    "options": [
+      { "en": "Elephant", "as": "হাতী" },
+      { "en": "Whale", "as": "তিমি" },
+      { "en": "Hippo", "as": "জলহস্তী" },
+      { "en": "Ant", "as": "পৰুৱা" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Elephant, whale and hippo are large animals; ant is very small.",
+      "as": "হাতী, তিমি আৰু জলহস্তী ডাঙৰ জন্তু; পৰুৱা অতি সৰু।"
+    }
+  },
+  {
+    "id": "odd-one-out-054",
+    "q": {
+      "en": "Choose the odd one out: 3, 6, 9, 10",
+      "as": "অমিলটো বাছি উলিওৱা: 3, 6, 9, 10"
+    },
+    "options": [
+      { "en": "3", "as": "৩" },
+      { "en": "6", "as": "৬" },
+      { "en": "9", "as": "৯" },
+      { "en": "10", "as": "১০" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "3, 6 and 9 are divisible by 3; 10 is not divisible by 3.",
+      "as": "৩, ৬ আৰু ৯ সংখ্যা ৩ ৰে বিভাজ্য; ১০ সংখ্যা ৩ ৰে বিভাজ্য নহয়।"
+    }
+  },
+  {
+    "id": "odd-one-out-055",
+    "q": {
+      "en": "Choose the odd one out: 1, 3, 5, 8",
+      "as": "অমিলটো বাছি উলিওৱা: 1, 3, 5, 8"
+    },
+    "options": [
+      { "en": "1", "as": "১" },
+      { "en": "3", "as": "৩" },
+      { "en": "5", "as": "৫" },
+      { "en": "8", "as": "৮" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "1, 3 and 5 are odd numbers; 8 is an even number.",
+      "as": "১, ৩ আৰু ৫ অযুগ্ম সংখ্যা; ৮ যুগ্ম সংখ্যা।"
+    }
+  },
+  {
+    "id": "odd-one-out-056",
+    "q": {
+      "en": "Choose the odd one out: Blackboard, Chalk, Bench, Fridge",
+      "as": "অমিলটো বাছি উলিওৱা: Blackboard, Chalk, Bench, Fridge"
+    },
+    "options": [
+      { "en": "Blackboard", "as": "ব্লেকবৰ্ড" },
+      { "en": "Chalk", "as": "চক" },
+      { "en": "Bench", "as": "বেঞ্চ" },
+      { "en": "Fridge", "as": "ফ্ৰিজ" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Blackboard, chalk and bench are used in school; fridge is a home appliance.",
+      "as": "ব্লেকবৰ্ড, চক আৰু বেঞ্চ বিদ্যালয়ত ব্যৱহাৰ হয়; ফ্ৰিজ ঘৰুৱা সঁজুলি।"
+    }
+  },
+  {
+    "id": "odd-one-out-057",
+    "q": {
+      "en": "Choose the odd one out: Tongue, Skin, Nose, Hand",
+      "as": "অমিলটো বাছি উলিওৱা: Tongue, Skin, Nose, Hand"
+    },
+    "options": [
+      { "en": "Tongue", "as": "জিভা" },
+      { "en": "Skin", "as": "ছাল" },
+      { "en": "Nose", "as": "নাক" },
+      { "en": "Hand", "as": "হাত" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Tongue, skin and nose are sense organs; hand is a body part.",
+      "as": "জিভা, ছাল আৰু নাক ইন্দ্ৰিয়; হাত শৰীৰৰ এটা অংগ।"
+    }
+  },
+  {
+    "id": "odd-one-out-058",
+    "q": {
+      "en": "Choose the odd one out: Air, Water, Soil, Plastic",
+      "as": "অমিলটো বাছি উলিওৱা: Air, Water, Soil, Plastic"
+    },
+    "options": [
+      { "en": "Air", "as": "বায়ু" },
+      { "en": "Water", "as": "পানী" },
+      { "en": "Soil", "as": "মাটি" },
+      { "en": "Plastic", "as": "প্লাষ্টিক" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Air, water and soil are natural elements; plastic is man-made.",
+      "as": "বায়ু, পানী আৰু মাটি প্ৰাকৃতিক উপাদান; প্লাষ্টিক মানুহে নিৰ্মাণ কৰা।"
+    }
+  },
+  {
+    "id": "odd-one-out-059",
+    "q": {
+      "en": "Choose the odd one out: Mother, Father, Sister, Teacher",
+      "as": "অমিলটো বাছি উলিওৱা: Mother, Father, Sister, Teacher"
+    },
+    "options": [
+      { "en": "Mother", "as": "মা" },
+      { "en": "Father", "as": "দেউতা" },
+      { "en": "Sister", "as": "ভনী" },
+      { "en": "Teacher", "as": "শিক্ষক" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mother, father and sister are family relations; teacher is a profession.",
+      "as": "মা, দেউতা আৰু ভনী পৰিয়ালৰ সম্পৰ্ক; শিক্ষক এটা বৃত্তি।"
+    }
+  },
+  {
+    "id": "odd-one-out-060",
+    "q": {
+      "en": "Choose the odd one out: Head, Arm, Leg, Fan",
+      "as": "অমিলটো বাছি উলিওৱা: Head, Arm, Leg, Fan"
+    },
+    "options": [
+      { "en": "Head", "as": "মূৰ" },
+      { "en": "Arm", "as": "বাহু" },
+      { "en": "Leg", "as": "ভৰি" },
+      { "en": "Fan", "as": "ফেন" }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Head, arm and leg are body parts; fan is an electrical appliance.",
+      "as": "মূৰ, বাহু আৰু ভৰি শৰীৰৰ অংগ; ফেন এটা বিদ্যুৎ সঁজুলি।"
+    }
   }
-}
+]
