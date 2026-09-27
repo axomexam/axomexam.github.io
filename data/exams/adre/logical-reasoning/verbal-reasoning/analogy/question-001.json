@@ -1,30 +1,2606 @@
-{
-  "id": "analogy-001",
-  "q": {
-    "en": "Pen : Write :: Knife : ?",
-    "as": "Pen : Write :: Knife : ?"
-  },
-  "options": [
-    {
-      "en": "Cut",
-      "as": "কটা"
+[
+  {
+    "id": "analogy-001",
+    "type": "function",
+    "q": {
+      "en": "Pen : Write :: Knife : ?",
+      "as": "পেন : লিখা :: কটাৰী : ?"
     },
-    {
-      "en": "Sharp",
-      "as": "চোকা"
-    },
-    {
-      "en": "Kitchen",
-      "as": "ৰান্ধনীঘৰ"
-    },
-    {
-      "en": "Steel",
-      "as": "ইস্পাত"
+    "options": [
+      {
+        "en": "Cut",
+        "as": "কটা"
+      },
+      {
+        "en": "Sharp",
+        "as": "চোকা"
+      },
+      {
+        "en": "Kitchen",
+        "as": "ৰান্ধনীঘৰ"
+      },
+      {
+        "en": "Steel",
+        "as": "ইস্পাত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A Pen is used to Write; in the same way a Knife is used to Cut.",
+      "as": "পেন লিখাৰ বাবে ব্যৱহাৰ কৰা হয়; সেইদৰে কটাৰী কটাৰ বাবে ব্যৱহাৰ কৰা হয়।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "A pen is used to write; a knife is used to cut.",
-    "as": "পেন লিখিবলৈ ব্যৱহাৰ কৰা হয়; কটাৰী কাটিবলৈ ব্যৱহাৰ কৰা হয়।"
+  },
+  {
+    "id": "analogy-002",
+    "type": "function",
+    "q": {
+      "en": "Needle : Sew :: Hammer : ?",
+      "as": "বেজী : চিলাই কৰা :: হাতুৰী : ?"
+    },
+    "options": [
+      {
+        "en": "Heavy",
+        "as": "গধুৰ"
+      },
+      {
+        "en": "Nail",
+        "as": "কাঁই"
+      },
+      {
+        "en": "Wood",
+        "as": "কাঠ"
+      },
+      {
+        "en": "Hit",
+        "as": "আঘাত কৰা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A Needle is used to Sew; in the same way a Hammer is used to Hit.",
+      "as": "বেজী চিলাই কৰাৰ বাবে ব্যৱহাৰ কৰা হয়; সেইদৰে হাতুৰী আঘাত কৰাৰ বাবে ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "analogy-003",
+    "type": "function",
+    "q": {
+      "en": "Scissors : Cut :: Broom : ?",
+      "as": "কেঁচি : কটা :: জাৰু : ?"
+    },
+    "options": [
+      {
+        "en": "Dust",
+        "as": "ধূলি"
+      },
+      {
+        "en": "Floor",
+        "as": "মজিয়া"
+      },
+      {
+        "en": "Sweep",
+        "as": "চফা কৰা"
+      },
+      {
+        "en": "Stick",
+        "as": "লাখুটি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A Scissors is used to Cut; in the same way a Broom is used to Sweep.",
+      "as": "কেঁচি কটাৰ বাবে ব্যৱহাৰ কৰা হয়; সেইদৰে জাৰু চফা কৰাৰ বাবে ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "analogy-004",
+    "type": "function",
+    "q": {
+      "en": "Spade : Dig :: Sieve : ?",
+      "as": "কোৰ : খন্দা :: চালনী : ?"
+    },
+    "options": [
+      {
+        "en": "Water",
+        "as": "পানী"
+      },
+      {
+        "en": "Strain",
+        "as": "চালি লোৱা"
+      },
+      {
+        "en": "Flour",
+        "as": "আটা"
+      },
+      {
+        "en": "Round",
+        "as": "গোল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A Spade is used to Dig; in the same way a Sieve is used to Strain.",
+      "as": "কোৰ খন্দাৰ বাবে ব্যৱহাৰ কৰা হয়; সেইদৰে চালনী চালি লোৱাৰ বাবে ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "analogy-005",
+    "type": "worker_tool",
+    "q": {
+      "en": "Carpenter : Saw :: Blacksmith : ?",
+      "as": "বাঢ়ৈ : কৰত :: কমাৰ : ?"
+    },
+    "options": [
+      {
+        "en": "Hammer",
+        "as": "হাতুৰী"
+      },
+      {
+        "en": "Iron",
+        "as": "লো"
+      },
+      {
+        "en": "Fire",
+        "as": "জুই"
+      },
+      {
+        "en": "Anvil",
+        "as": "নিহৰণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A Carpenter uses a Saw; in the same way a Blacksmith uses a Hammer.",
+      "as": "বাঢ়ৈ এ কৰত ব্যৱহাৰ কৰে; সেইদৰে কমাৰ এ হাতুৰী ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "analogy-006",
+    "type": "worker_tool",
+    "q": {
+      "en": "Painter : Brush :: Surgeon : ?",
+      "as": "চিত্ৰকৰ : তুলিকা :: শল্য চিকিৎসক : ?"
+    },
+    "options": [
+      {
+        "en": "Medicine",
+        "as": "ঔষধ"
+      },
+      {
+        "en": "Patient",
+        "as": "ৰোগী"
+      },
+      {
+        "en": "Hospital",
+        "as": "চিকিৎসালয়"
+      },
+      {
+        "en": "Scalpel",
+        "as": "অস্ত্ৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A Painter uses a Brush; in the same way a Surgeon uses a Scalpel.",
+      "as": "চিত্ৰকৰ এ তুলিকা ব্যৱহাৰ কৰে; সেইদৰে শল্য চিকিৎসক এ অস্ত্ৰ ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "analogy-007",
+    "type": "worker_tool",
+    "q": {
+      "en": "Woodcutter : Axe :: Butcher : ?",
+      "as": "কাঠুৰা : কুঠাৰ :: কচাই : ?"
+    },
+    "options": [
+      {
+        "en": "Shop",
+        "as": "দোকান"
+      },
+      {
+        "en": "Meat",
+        "as": "মাংস"
+      },
+      {
+        "en": "Knife",
+        "as": "কটাৰী"
+      },
+      {
+        "en": "Goat",
+        "as": "ছাগলী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A Woodcutter uses a Axe; in the same way a Butcher uses a Knife.",
+      "as": "কাঠুৰা এ কুঠাৰ ব্যৱহাৰ কৰে; সেইদৰে কচাই এ কটাৰী ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "analogy-008",
+    "type": "worker_tool",
+    "q": {
+      "en": "Tailor : Needle :: Gardener : ?",
+      "as": "দৰ্জী : বেজী :: মালী : ?"
+    },
+    "options": [
+      {
+        "en": "Garden",
+        "as": "বাগান"
+      },
+      {
+        "en": "Spade",
+        "as": "কোৰ"
+      },
+      {
+        "en": "Plant",
+        "as": "পুলি"
+      },
+      {
+        "en": "Water",
+        "as": "পানী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A Tailor uses a Needle; in the same way a Gardener uses a Spade.",
+      "as": "দৰ্জী এ বেজী ব্যৱহাৰ কৰে; সেইদৰে মালী এ কোৰ ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "analogy-009",
+    "type": "workplace",
+    "q": {
+      "en": "Doctor : Hospital :: Teacher : ?",
+      "as": "চিকিৎসক : চিকিৎসালয় :: শিক্ষক : ?"
+    },
+    "options": [
+      {
+        "en": "School",
+        "as": "বিদ্যালয়"
+      },
+      {
+        "en": "Book",
+        "as": "কিতাপ"
+      },
+      {
+        "en": "Student",
+        "as": "ছাত্ৰ"
+      },
+      {
+        "en": "Class",
+        "as": "শ্ৰেণী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A Doctor works in a Hospital; in the same way a Teacher works in a School.",
+      "as": "চিকিৎসক এ চিকিৎসালয়ত কাম কৰে; সেইদৰে শিক্ষক এ বিদ্যালয়ত কাম কৰে।"
+    }
+  },
+  {
+    "id": "analogy-010",
+    "type": "workplace",
+    "q": {
+      "en": "Lawyer : Court :: Chef : ?",
+      "as": "উকীল : ন্যায়ালয় :: পাচক : ?"
+    },
+    "options": [
+      {
+        "en": "Hotel",
+        "as": "হোটেল"
+      },
+      {
+        "en": "Food",
+        "as": "খাদ্য"
+      },
+      {
+        "en": "Knife",
+        "as": "কটাৰী"
+      },
+      {
+        "en": "Kitchen",
+        "as": "ৰান্ধনীঘৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A Lawyer works in a Court; in the same way a Chef works in a Kitchen.",
+      "as": "উকীল এ ন্যায়ালয়ত কাম কৰে; সেইদৰে পাচক এ ৰান্ধনীঘৰত কাম কৰে।"
+    }
+  },
+  {
+    "id": "analogy-011",
+    "type": "workplace",
+    "q": {
+      "en": "Farmer : Field :: Miner : ?",
+      "as": "খেতিয়ক : পথাৰ :: খনি শ্ৰমিক : ?"
+    },
+    "options": [
+      {
+        "en": "Dig",
+        "as": "খন্দা"
+      },
+      {
+        "en": "Coal",
+        "as": "কয়লা"
+      },
+      {
+        "en": "Mine",
+        "as": "খনি"
+      },
+      {
+        "en": "Labour",
+        "as": "শ্ৰম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A Farmer works in a Field; in the same way a Miner works in a Mine.",
+      "as": "খেতিয়ক এ পথাৰত কাম কৰে; সেইদৰে খনি শ্ৰমিক এ খনিত কাম কৰে।"
+    }
+  },
+  {
+    "id": "analogy-012",
+    "type": "workplace",
+    "q": {
+      "en": "Actor : Stage :: Pilot : ?",
+      "as": "অভিনেতা : মঞ্চ :: বৈমানিক : ?"
+    },
+    "options": [
+      {
+        "en": "Airport",
+        "as": "বিমানবন্দৰ"
+      },
+      {
+        "en": "Cockpit",
+        "as": "ককপিট"
+      },
+      {
+        "en": "Sky",
+        "as": "আকাশ"
+      },
+      {
+        "en": "Uniform",
+        "as": "ইউনিফৰ্ম"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A Actor works in a Stage; in the same way a Pilot works in a Cockpit.",
+      "as": "অভিনেতা এ মঞ্চত কাম কৰে; সেইদৰে বৈমানিক এ ককপিটত কাম কৰে।"
+    }
+  },
+  {
+    "id": "analogy-013",
+    "type": "workplace",
+    "q": {
+      "en": "Scientist : Laboratory :: Astronomer : ?",
+      "as": "বিজ্ঞানী : পৰীক্ষাগাৰ :: জ্যোতিৰ্বিজ্ঞানী : ?"
+    },
+    "options": [
+      {
+        "en": "Observatory",
+        "as": "মানমন্দিৰ"
+      },
+      {
+        "en": "Telescope",
+        "as": "দূৰবীক্ষণ যন্ত্ৰ"
+      },
+      {
+        "en": "Star",
+        "as": "তৰা"
+      },
+      {
+        "en": "Space",
+        "as": "মহাকাশ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A Scientist works in a Laboratory; in the same way a Astronomer works in a Observatory.",
+      "as": "বিজ্ঞানী এ পৰীক্ষাগাৰত কাম কৰে; সেইদৰে জ্যোতিৰ্বিজ্ঞানী এ মানমন্দিৰত কাম কৰে।"
+    }
+  },
+  {
+    "id": "analogy-014",
+    "type": "young",
+    "q": {
+      "en": "Goat : Kid :: Dog : ?",
+      "as": "ছাগলী : ছাগলীৰ পোৱালি :: কুকুৰ : ?"
+    },
+    "options": [
+      {
+        "en": "Bone",
+        "as": "হাড়"
+      },
+      {
+        "en": "Bark",
+        "as": "ভৌ-ভৌ"
+      },
+      {
+        "en": "Tail",
+        "as": "নেজ"
+      },
+      {
+        "en": "Puppy",
+        "as": "কুকুৰৰ পোৱালি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The young one of a Goat is called a Kid; so the young one of a Dog is called a Puppy.",
+      "as": "ছাগলীৰ পোৱালিক ছাগলীৰ পোৱালি বোলা হয়; সেইদৰে কুকুৰৰ পোৱালিক কুকুৰৰ পোৱালি বোলা হয়।"
+    }
+  },
+  {
+    "id": "analogy-015",
+    "type": "young",
+    "q": {
+      "en": "Horse : Foal :: Cat : ?",
+      "as": "ঘোঁৰা : ঘোঁৰাৰ পোৱালি :: মেকুৰী : ?"
+    },
+    "options": [
+      {
+        "en": "Fur",
+        "as": "ৰোৱাঁ"
+      },
+      {
+        "en": "Meow",
+        "as": "মিঁউ-মিঁউ"
+      },
+      {
+        "en": "Kitten",
+        "as": "মেকুৰীৰ পোৱালি"
+      },
+      {
+        "en": "Tail",
+        "as": "নেজ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The young one of a Horse is called a Foal; so the young one of a Cat is called a Kitten.",
+      "as": "ঘোঁৰাৰ পোৱালিক ঘোঁৰাৰ পোৱালি বোলা হয়; সেইদৰে মেকুৰীৰ পোৱালিক মেকুৰীৰ পোৱালি বোলা হয়।"
+    }
+  },
+  {
+    "id": "analogy-016",
+    "type": "young",
+    "q": {
+      "en": "Sheep : Lamb :: Deer : ?",
+      "as": "ভেড়া : ভেড়াৰ পোৱালি :: হৰিণ : ?"
+    },
+    "options": [
+      {
+        "en": "Forest",
+        "as": "বন"
+      },
+      {
+        "en": "Fawn",
+        "as": "হৰিণৰ পোৱালি"
+      },
+      {
+        "en": "Grass",
+        "as": "ঘাঁহ"
+      },
+      {
+        "en": "Horn",
+        "as": "শিং"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The young one of a Sheep is called a Lamb; so the young one of a Deer is called a Fawn.",
+      "as": "ভেড়াৰ পোৱালিক ভেড়াৰ পোৱালি বোলা হয়; সেইদৰে হৰিণৰ পোৱালিক হৰিণৰ পোৱালি বোলা হয়।"
+    }
+  },
+  {
+    "id": "analogy-017",
+    "type": "young",
+    "q": {
+      "en": "Hen : Chick :: Frog : ?",
+      "as": "কুকুৰা : কুকুৰাৰ পোৱালি :: ভেকুলী : ?"
+    },
+    "options": [
+      {
+        "en": "Tadpole",
+        "as": "ভেকুলীৰ পোৱালি"
+      },
+      {
+        "en": "Pond",
+        "as": "পুখুৰী"
+      },
+      {
+        "en": "Croak",
+        "as": "টোৰ-টোৰ"
+      },
+      {
+        "en": "Green",
+        "as": "সেউজীয়া"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The young one of a Hen is called a Chick; so the young one of a Frog is called a Tadpole.",
+      "as": "কুকুৰাৰ পোৱালিক কুকুৰাৰ পোৱালি বোলা হয়; সেইদৰে ভেকুলীৰ পোৱালিক ভেকুলীৰ পোৱালি বোলা হয়।"
+    }
+  },
+  {
+    "id": "analogy-018",
+    "type": "young",
+    "q": {
+      "en": "Lion : Cub :: Eagle : ?",
+      "as": "সিংহ : পোৱালি :: ঈগল : ?"
+    },
+    "options": [
+      {
+        "en": "Beak",
+        "as": "ঠোঁট"
+      },
+      {
+        "en": "Sky",
+        "as": "আকাশ"
+      },
+      {
+        "en": "Feather",
+        "as": "পাখি"
+      },
+      {
+        "en": "Eaglet",
+        "as": "ঈগলৰ পোৱালি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The young one of a Lion is called a Cub; so the young one of a Eagle is called a Eaglet.",
+      "as": "সিংহৰ পোৱালিক পোৱালি বোলা হয়; সেইদৰে ঈগলৰ পোৱালিক ঈগলৰ পোৱালি বোলা হয়।"
+    }
+  },
+  {
+    "id": "analogy-019",
+    "type": "sound",
+    "q": {
+      "en": "Dog : Bark :: Cat : ?",
+      "as": "কুকুৰ : ভৌ-ভৌ :: মেকুৰী : ?"
+    },
+    "options": [
+      {
+        "en": "Milk",
+        "as": "গাখীৰ"
+      },
+      {
+        "en": "Tail",
+        "as": "নেজ"
+      },
+      {
+        "en": "Meow",
+        "as": "মিঁউ-মিঁউ"
+      },
+      {
+        "en": "Claw",
+        "as": "নখ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The sound made by a Dog is called Bark; so the sound made by a Cat is called Meow.",
+      "as": "কুকুৰৰ মাতক ভৌ-ভৌ বোলা হয়; সেইদৰে মেকুৰীৰ মাতক মিঁউ-মিঁউ বোলা হয়।"
+    }
+  },
+  {
+    "id": "analogy-020",
+    "type": "sound",
+    "q": {
+      "en": "Lion : Roar :: Horse : ?",
+      "as": "সিংহ : গর্জন :: ঘোঁৰা : ?"
+    },
+    "options": [
+      {
+        "en": "Run",
+        "as": "দৌৰা"
+      },
+      {
+        "en": "Neigh",
+        "as": "হেঁকা"
+      },
+      {
+        "en": "Hoof",
+        "as": "খুৰ"
+      },
+      {
+        "en": "Grass",
+        "as": "ঘাঁহ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The sound made by a Lion is called Roar; so the sound made by a Horse is called Neigh.",
+      "as": "সিংহৰ মাতক গর্জন বোলা হয়; সেইদৰে ঘোঁৰাৰ মাতক হেঁকা বোলা হয়।"
+    }
+  },
+  {
+    "id": "analogy-021",
+    "type": "sound",
+    "q": {
+      "en": "Bee : Buzz :: Snake : ?",
+      "as": "মৌমাখি : ভন-ভন :: সাপ : ?"
+    },
+    "options": [
+      {
+        "en": "Hiss",
+        "as": "ফোঁ-ফোঁ"
+      },
+      {
+        "en": "Crawl",
+        "as": "বগা"
+      },
+      {
+        "en": "Poison",
+        "as": "বিষ"
+      },
+      {
+        "en": "Scales",
+        "as": "শল্ক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The sound made by a Bee is called Buzz; so the sound made by a Snake is called Hiss.",
+      "as": "মৌমাখিৰ মাতক ভন-ভন বোলা হয়; সেইদৰে সাপৰ মাতক ফোঁ-ফোঁ বোলা হয়।"
+    }
+  },
+  {
+    "id": "analogy-022",
+    "type": "sound",
+    "q": {
+      "en": "Elephant : Trumpet :: Donkey : ?",
+      "as": "হাতী : চিঞঁৰ :: গাধ : ?"
+    },
+    "options": [
+      {
+        "en": "Ears",
+        "as": "কাণ"
+      },
+      {
+        "en": "Load",
+        "as": "বোজা"
+      },
+      {
+        "en": "Cart",
+        "as": "ঠেলা-গাড়ী"
+      },
+      {
+        "en": "Bray",
+        "as": "হাঁ-হাঁ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The sound made by a Elephant is called Trumpet; so the sound made by a Donkey is called Bray.",
+      "as": "হাতীৰ মাতক চিঞঁৰ বোলা হয়; সেইদৰে গাধৰ মাতক হাঁ-হাঁ বোলা হয়।"
+    }
+  },
+  {
+    "id": "analogy-023",
+    "type": "sound",
+    "q": {
+      "en": "Owl : Hoot :: Crow : ?",
+      "as": "ফেঁচা : হু-হু :: কাউৰী : ?"
+    },
+    "options": [
+      {
+        "en": "Nest",
+        "as": "বাহ"
+      },
+      {
+        "en": "Fly",
+        "as": "উৰা"
+      },
+      {
+        "en": "Caw",
+        "as": "কা-কা"
+      },
+      {
+        "en": "Feather",
+        "as": "পাখি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The sound made by a Owl is called Hoot; so the sound made by a Crow is called Caw.",
+      "as": "ফেঁচাৰ মাতক হু-হু বোলা হয়; সেইদৰে কাউৰীৰ মাতক কা-কা বোলা হয়।"
+    }
+  },
+  {
+    "id": "analogy-024",
+    "type": "sound",
+    "q": {
+      "en": "Frog : Croak :: Cuckoo : ?",
+      "as": "ভেকুলী : টোৰ-টোৰ :: কুলি : ?"
+    },
+    "options": [
+      {
+        "en": "Sing",
+        "as": "গোৱা"
+      },
+      {
+        "en": "Coo",
+        "as": "কু-কু"
+      },
+      {
+        "en": "Bird",
+        "as": "চৰাই"
+      },
+      {
+        "en": "Tree",
+        "as": "গছ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The sound made by a Frog is called Croak; so the sound made by a Cuckoo is called Coo.",
+      "as": "ভেকুলীৰ মাতক টোৰ-টোৰ বোলা হয়; সেইদৰে কুলিৰ মাতক কু-কু বোলা হয়।"
+    }
+  },
+  {
+    "id": "analogy-025",
+    "type": "home",
+    "q": {
+      "en": "Bee : Hive :: Dog : ?",
+      "as": "মৌমাখি : মৌচাক :: কুকুৰ : ?"
+    },
+    "options": [
+      {
+        "en": "Kennel",
+        "as": "কুকুৰৰ ঘৰ"
+      },
+      {
+        "en": "Bark",
+        "as": "ভৌ-ভৌ"
+      },
+      {
+        "en": "Bone",
+        "as": "হাড়"
+      },
+      {
+        "en": "Tail",
+        "as": "নেজ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A Bee lives in a Hive; in the same way a Dog lives in a Kennel.",
+      "as": "মৌমাখি এ মৌচাকত বাস কৰে; সেইদৰে কুকুৰ এ কুকুৰৰ ঘৰত বাস কৰে।"
+    }
+  },
+  {
+    "id": "analogy-026",
+    "type": "home",
+    "q": {
+      "en": "Bird : Nest :: Horse : ?",
+      "as": "চৰাই : বাহ :: ঘোঁৰা : ?"
+    },
+    "options": [
+      {
+        "en": "Saddle",
+        "as": "জীন"
+      },
+      {
+        "en": "Race",
+        "as": "দৌৰ-প্ৰতিযোগিতা"
+      },
+      {
+        "en": "Hay",
+        "as": "খেৰ"
+      },
+      {
+        "en": "Stable",
+        "as": "ঘোঁৰাৰ ঘৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A Bird lives in a Nest; in the same way a Horse lives in a Stable.",
+      "as": "চৰাই এ বাহত বাস কৰে; সেইদৰে ঘোঁৰা এ ঘোঁৰাৰ ঘৰত বাস কৰে।"
+    }
+  },
+  {
+    "id": "analogy-027",
+    "type": "home",
+    "q": {
+      "en": "Lion : Den :: Rabbit : ?",
+      "as": "সিংহ : গুহা :: শহাপহু : ?"
+    },
+    "options": [
+      {
+        "en": "Fast",
+        "as": "ক্ষিপ্ৰ"
+      },
+      {
+        "en": "Carrot",
+        "as": "গাজৰ"
+      },
+      {
+        "en": "Burrow",
+        "as": "গাঁত"
+      },
+      {
+        "en": "Ears",
+        "as": "কাণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A Lion lives in a Den; in the same way a Rabbit lives in a Burrow.",
+      "as": "সিংহ এ গুহাত বাস কৰে; সেইদৰে শহাপহু এ গাঁতত বাস কৰে।"
+    }
+  },
+  {
+    "id": "analogy-028",
+    "type": "home",
+    "q": {
+      "en": "Cow : Shed :: Spider : ?",
+      "as": "গাই : গৰুৰ ঘৰ :: মকৰা : ?"
+    },
+    "options": [
+      {
+        "en": "Thread",
+        "as": "সূতা"
+      },
+      {
+        "en": "Web",
+        "as": "জাল"
+      },
+      {
+        "en": "Insect",
+        "as": "পোক"
+      },
+      {
+        "en": "Legs",
+        "as": "ভৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A Cow lives in a Shed; in the same way a Spider lives in a Web.",
+      "as": "গাই এ গৰুৰ ঘৰত বাস কৰে; সেইদৰে মকৰা এ জালত বাস কৰে।"
+    }
+  },
+  {
+    "id": "analogy-029",
+    "type": "home",
+    "q": {
+      "en": "Fish : Aquarium :: Bird : ?",
+      "as": "মাছ : মাছৰ জুপি :: চৰাই : ?"
+    },
+    "options": [
+      {
+        "en": "Cage",
+        "as": "পিঞ্জৰা"
+      },
+      {
+        "en": "Sky",
+        "as": "আকাশ"
+      },
+      {
+        "en": "Feather",
+        "as": "পাখি"
+      },
+      {
+        "en": "Fly",
+        "as": "উৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A Fish lives in a Aquarium; in the same way a Bird lives in a Cage.",
+      "as": "মাছ এ মাছৰ জুপিত বাস কৰে; সেইদৰে চৰাই এ পিঞ্জৰাত বাস কৰে।"
+    }
+  },
+  {
+    "id": "analogy-030",
+    "type": "male_female",
+    "q": {
+      "en": "King : Queen :: Bull : ?",
+      "as": "ৰজা : ৰাণী :: ষাঁড় : ?"
+    },
+    "options": [
+      {
+        "en": "Horn",
+        "as": "শিং"
+      },
+      {
+        "en": "Calf",
+        "as": "গো-পোৱালি"
+      },
+      {
+        "en": "Ox",
+        "as": "বলদ"
+      },
+      {
+        "en": "Cow",
+        "as": "গাই"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Queen is the female of King; in the same way Cow is the female of Bull.",
+      "as": "ৰজাৰ মাইকী ৰাণী; সেইদৰে ষাঁড়ৰ মাইকী গাই।"
+    }
+  },
+  {
+    "id": "analogy-031",
+    "type": "male_female",
+    "q": {
+      "en": "Lion : Lioness :: Tiger : ?",
+      "as": "সিংহ : সিংহী :: বাঘ : ?"
+    },
+    "options": [
+      {
+        "en": "Forest",
+        "as": "বন"
+      },
+      {
+        "en": "Cub",
+        "as": "পোৱালি"
+      },
+      {
+        "en": "Tigress",
+        "as": "বাঘিনী"
+      },
+      {
+        "en": "Roar",
+        "as": "গর্জন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Lioness is the female of Lion; in the same way Tigress is the female of Tiger.",
+      "as": "সিংহৰ মাইকী সিংহী; সেইদৰে বাঘৰ মাইকী বাঘিনী।"
+    }
+  },
+  {
+    "id": "analogy-032",
+    "type": "male_female",
+    "q": {
+      "en": "Fox : Vixen :: Horse : ?",
+      "as": "শিয়াল : মাইকী শিয়াল :: ঘোঁৰা : ?"
+    },
+    "options": [
+      {
+        "en": "Foal",
+        "as": "ঘোঁৰাৰ পোৱালি"
+      },
+      {
+        "en": "Mare",
+        "as": "মাইকী ঘোঁৰা"
+      },
+      {
+        "en": "Stallion",
+        "as": "মতা ঘোঁৰা"
+      },
+      {
+        "en": "Stable",
+        "as": "ঘোঁৰাৰ ঘৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Vixen is the female of Fox; in the same way Mare is the female of Horse.",
+      "as": "শিয়ালৰ মাইকী মাইকী শিয়াল; সেইদৰে ঘোঁৰাৰ মাইকী মাইকী ঘোঁৰা।"
+    }
+  },
+  {
+    "id": "analogy-033",
+    "type": "male_female",
+    "q": {
+      "en": "Peacock : Peahen :: Drake : ?",
+      "as": "ময়ূৰ : মাইকী ময়ূৰ :: মতা হাঁহ : ?"
+    },
+    "options": [
+      {
+        "en": "Duck",
+        "as": "মাইকী হাঁহ"
+      },
+      {
+        "en": "Swan",
+        "as": "ৰাজহাঁহ"
+      },
+      {
+        "en": "Goose",
+        "as": "হংস"
+      },
+      {
+        "en": "Water",
+        "as": "পানী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Peahen is the female of Peacock; in the same way Duck is the female of Drake.",
+      "as": "ময়ূৰৰ মাইকী মাইকী ময়ূৰ; সেইদৰে মতা হাঁহৰ মাইকী মাইকী হাঁহ।"
+    }
+  },
+  {
+    "id": "analogy-034",
+    "type": "male_female",
+    "q": {
+      "en": "Bachelor : Spinster :: Nephew : ?",
+      "as": "অবিবাহিত পুৰুষ : অবিবাহিত নাৰী :: ভতিজা : ?"
+    },
+    "options": [
+      {
+        "en": "Cousin",
+        "as": "কাজিন"
+      },
+      {
+        "en": "Uncle",
+        "as": "খুৰা"
+      },
+      {
+        "en": "Aunt",
+        "as": "খুৰী"
+      },
+      {
+        "en": "Niece",
+        "as": "ভতিজী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Spinster is the female of Bachelor; in the same way Niece is the female of Nephew.",
+      "as": "অবিবাহিত পুৰুষৰ মাইকী অবিবাহিত নাৰী; সেইদৰে ভতিজাৰ মাইকী ভতিজী।"
+    }
+  },
+  {
+    "id": "analogy-035",
+    "type": "part_whole",
+    "q": {
+      "en": "Wheel : Car :: Leaf : ?",
+      "as": "চকা : গাড়ী :: পাত : ?"
+    },
+    "options": [
+      {
+        "en": "Branch",
+        "as": "ডাল"
+      },
+      {
+        "en": "Green",
+        "as": "সেউজীয়া"
+      },
+      {
+        "en": "Tree",
+        "as": "গছ"
+      },
+      {
+        "en": "Forest",
+        "as": "বন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Wheel is a part of Car; in the same way Leaf is a part of Tree.",
+      "as": "চকা হ'ল গাড়ীৰ এটা অংশ; সেইদৰে পাত হ'ল গছৰ এটা অংশ।"
+    }
+  },
+  {
+    "id": "analogy-036",
+    "type": "part_whole",
+    "q": {
+      "en": "Page : Book :: Brick : ?",
+      "as": "পৃষ্ঠা : কিতাপ :: ইটা : ?"
+    },
+    "options": [
+      {
+        "en": "House",
+        "as": "ঘৰ"
+      },
+      {
+        "en": "Wall",
+        "as": "বেৰ"
+      },
+      {
+        "en": "Red",
+        "as": "ৰঙা"
+      },
+      {
+        "en": "Cement",
+        "as": "চিমেন্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Page is a part of Book; in the same way Brick is a part of Wall.",
+      "as": "পৃষ্ঠা হ'ল কিতাপৰ এটা অংশ; সেইদৰে ইটা হ'ল বেৰৰ এটা অংশ।"
+    }
+  },
+  {
+    "id": "analogy-037",
+    "type": "part_whole",
+    "q": {
+      "en": "Finger : Hand :: Toe : ?",
+      "as": "আঙুলি : হাত :: ভৰিৰ আঙুলি : ?"
+    },
+    "options": [
+      {
+        "en": "Foot",
+        "as": "ভৰি"
+      },
+      {
+        "en": "Shoe",
+        "as": "জোতা"
+      },
+      {
+        "en": "Leg",
+        "as": "ভৰি"
+      },
+      {
+        "en": "Nail",
+        "as": "কাঁই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Finger is a part of Hand; in the same way Toe is a part of Foot.",
+      "as": "আঙুলি হ'ল হাতৰ এটা অংশ; সেইদৰে ভৰিৰ আঙুলি হ'ল ভৰিৰ এটা অংশ।"
+    }
+  },
+  {
+    "id": "analogy-038",
+    "type": "part_whole",
+    "q": {
+      "en": "Petal : Flower :: Wing : ?",
+      "as": "পাহি : ফুল :: ডেউকা : ?"
+    },
+    "options": [
+      {
+        "en": "Sky",
+        "as": "আকাশ"
+      },
+      {
+        "en": "Fly",
+        "as": "উৰা"
+      },
+      {
+        "en": "Feather",
+        "as": "পাখি"
+      },
+      {
+        "en": "Bird",
+        "as": "চৰাই"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Petal is a part of Flower; in the same way Wing is a part of Bird.",
+      "as": "পাহি হ'ল ফুলৰ এটা অংশ; সেইদৰে ডেউকা হ'ল চৰাইৰ এটা অংশ।"
+    }
+  },
+  {
+    "id": "analogy-039",
+    "type": "whole_part",
+    "q": {
+      "en": "Tree : Branch :: Book : ?",
+      "as": "গছ : ডাল :: কিতাপ : ?"
+    },
+    "options": [
+      {
+        "en": "Author",
+        "as": "লেখক"
+      },
+      {
+        "en": "Read",
+        "as": "পঢ়া"
+      },
+      {
+        "en": "Page",
+        "as": "পৃষ্ঠা"
+      },
+      {
+        "en": "Library",
+        "as": "পুথিভঁৰাল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Branch is a part of Tree; in the same way Page is a part of Book.",
+      "as": "ডাল হ'ল গছৰ এটা অংশ; সেইদৰে পৃষ্ঠা হ'ল কিতাপৰ এটা অংশ।"
+    }
+  },
+  {
+    "id": "analogy-040",
+    "type": "category",
+    "q": {
+      "en": "Fruit : Mango :: Flower : ?",
+      "as": "ফল : আম :: ফুল : ?"
+    },
+    "options": [
+      {
+        "en": "Garden",
+        "as": "বাগান"
+      },
+      {
+        "en": "Rose",
+        "as": "গোলাপ"
+      },
+      {
+        "en": "Red",
+        "as": "ৰঙা"
+      },
+      {
+        "en": "Leaf",
+        "as": "পাত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mango is a Fruit; in the same way Rose is a Flower.",
+      "as": "আম এটা ফল; সেইদৰে গোলাপ এটা ফুল।"
+    }
+  },
+  {
+    "id": "analogy-041",
+    "type": "category",
+    "q": {
+      "en": "Metal : Gold :: Gas : ?",
+      "as": "ধাতু : সোণ :: গেছ : ?"
+    },
+    "options": [
+      {
+        "en": "Oxygen",
+        "as": "অক্সিজেন"
+      },
+      {
+        "en": "Water",
+        "as": "পানী"
+      },
+      {
+        "en": "Air",
+        "as": "বতাহ"
+      },
+      {
+        "en": "Iron",
+        "as": "লো"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Gold is a Metal; in the same way Oxygen is a Gas.",
+      "as": "সোণ এটা ধাতু; সেইদৰে অক্সিজেন এটা গেছ।"
+    }
+  },
+  {
+    "id": "analogy-042",
+    "type": "category",
+    "q": {
+      "en": "Bird : Sparrow :: Fish : ?",
+      "as": "চৰাই : ঘৰচিৰিকা :: মাছ : ?"
+    },
+    "options": [
+      {
+        "en": "Scales",
+        "as": "শল্ক"
+      },
+      {
+        "en": "Water",
+        "as": "পানী"
+      },
+      {
+        "en": "Swim",
+        "as": "সাঁতোৰা"
+      },
+      {
+        "en": "Rohu",
+        "as": "ৰৌ মাছ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sparrow is a Bird; in the same way Rohu is a Fish.",
+      "as": "ঘৰচিৰিকা এটা চৰাই; সেইদৰে ৰৌ মাছ এটা মাছ।"
+    }
+  },
+  {
+    "id": "analogy-043",
+    "type": "synonym",
+    "q": {
+      "en": "Happy : Joyful :: Begin : ?",
+      "as": "আনন্দিত : আনন্দময় :: আৰম্ভ কৰা : ?"
+    },
+    "options": [
+      {
+        "en": "Stop",
+        "as": "বন্ধ কৰা"
+      },
+      {
+        "en": "End",
+        "as": "শেষ"
+      },
+      {
+        "en": "Start",
+        "as": "আৰম্ভ"
+      },
+      {
+        "en": "Slow",
+        "as": "লেহেমীয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Happy and Joyful are synonyms; in the same way Begin and Start are synonyms.",
+      "as": "আনন্দিত আৰু আনন্দময় সমাৰ্থক; সেইদৰে আৰম্ভ কৰা আৰু আৰম্ভ সমাৰ্থক।"
+    }
+  },
+  {
+    "id": "analogy-044",
+    "type": "synonym",
+    "q": {
+      "en": "Quick : Fast :: Brave : ?",
+      "as": "দ্ৰুত : ক্ষিপ্ৰ :: সাহসী : ?"
+    },
+    "options": [
+      {
+        "en": "Weak",
+        "as": "দুৰ্বল"
+      },
+      {
+        "en": "Courageous",
+        "as": "নিৰ্ভীক"
+      },
+      {
+        "en": "Afraid",
+        "as": "ভয় খোৱা"
+      },
+      {
+        "en": "Slow",
+        "as": "লেহেমীয়া"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Quick and Fast are synonyms; in the same way Brave and Courageous are synonyms.",
+      "as": "দ্ৰুত আৰু ক্ষিপ্ৰ সমাৰ্থক; সেইদৰে সাহসী আৰু নিৰ্ভীক সমাৰ্থক।"
+    }
+  },
+  {
+    "id": "analogy-045",
+    "type": "synonym",
+    "q": {
+      "en": "Big : Large :: Tiny : ?",
+      "as": "ডাঙৰ : বৃহৎ :: অতি সৰু : ?"
+    },
+    "options": [
+      {
+        "en": "Small",
+        "as": "সৰু"
+      },
+      {
+        "en": "Huge",
+        "as": "বিশাল"
+      },
+      {
+        "en": "Tall",
+        "as": "ওখ"
+      },
+      {
+        "en": "Wide",
+        "as": "বহল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Big and Large are synonyms; in the same way Tiny and Small are synonyms.",
+      "as": "ডাঙৰ আৰু বৃহৎ সমাৰ্থক; সেইদৰে অতি সৰু আৰু সৰু সমাৰ্থক।"
+    }
+  },
+  {
+    "id": "analogy-046",
+    "type": "synonym",
+    "q": {
+      "en": "Wise : Intelligent :: Bold : ?",
+      "as": "জ্ঞানী : বুদ্ধিমান :: সাহসী : ?"
+    },
+    "options": [
+      {
+        "en": "Lazy",
+        "as": "এলেহুৱা"
+      },
+      {
+        "en": "Weak",
+        "as": "দুৰ্বল"
+      },
+      {
+        "en": "Shy",
+        "as": "লাজুকী"
+      },
+      {
+        "en": "Daring",
+        "as": "দুঃসাহসী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Wise and Intelligent are synonyms; in the same way Bold and Daring are synonyms.",
+      "as": "জ্ঞানী আৰু বুদ্ধিমান সমাৰ্থক; সেইদৰে সাহসী আৰু দুঃসাহসী সমাৰ্থক।"
+    }
+  },
+  {
+    "id": "analogy-047",
+    "type": "antonym",
+    "q": {
+      "en": "Hot : Cold :: Day : ?",
+      "as": "গৰম : ঠাণ্ডা :: দিন : ?"
+    },
+    "options": [
+      {
+        "en": "Light",
+        "as": "পোহৰ"
+      },
+      {
+        "en": "Sun",
+        "as": "সূৰ্য"
+      },
+      {
+        "en": "Night",
+        "as": "ৰাতি"
+      },
+      {
+        "en": "Morning",
+        "as": "ৰাতিপুৱা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hot is the opposite of Cold; in the same way Day is the opposite of Night.",
+      "as": "গৰম আৰু ঠাণ্ডা পৰস্পৰ বিপৰীত; সেইদৰে দিন আৰু ৰাতি পৰস্পৰ বিপৰীত।"
+    }
+  },
+  {
+    "id": "analogy-048",
+    "type": "antonym",
+    "q": {
+      "en": "Victory : Defeat :: Union : ?",
+      "as": "জয় : পৰাজয় :: সংযুক্তি : ?"
+    },
+    "options": [
+      {
+        "en": "Together",
+        "as": "একেলগে"
+      },
+      {
+        "en": "Separation",
+        "as": "বিচ্ছেদ"
+      },
+      {
+        "en": "Group",
+        "as": "দল"
+      },
+      {
+        "en": "Join",
+        "as": "সংযোগ কৰা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Victory is the opposite of Defeat; in the same way Union is the opposite of Separation.",
+      "as": "জয় আৰু পৰাজয় পৰস্পৰ বিপৰীত; সেইদৰে সংযুক্তি আৰু বিচ্ছেদ পৰস্পৰ বিপৰীত।"
+    }
+  },
+  {
+    "id": "analogy-049",
+    "type": "antonym",
+    "q": {
+      "en": "East : West :: North : ?",
+      "as": "পূব : পশ্চিম :: উত্তৰ : ?"
+    },
+    "options": [
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      },
+      {
+        "en": "Up",
+        "as": "ওপৰ"
+      },
+      {
+        "en": "Left",
+        "as": "বাওঁ"
+      },
+      {
+        "en": "Down",
+        "as": "তল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "East is the opposite of West; in the same way North is the opposite of South.",
+      "as": "পূব আৰু পশ্চিম পৰস্পৰ বিপৰীত; সেইদৰে উত্তৰ আৰু দক্ষিণ পৰস্পৰ বিপৰীত।"
+    }
+  },
+  {
+    "id": "analogy-050",
+    "type": "antonym",
+    "q": {
+      "en": "Love : Hate :: Friend : ?",
+      "as": "প্ৰেম : ঘৃণা :: বন্ধু : ?"
+    },
+    "options": [
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Helper",
+        "as": "সহায়কাৰী"
+      },
+      {
+        "en": "Neighbour",
+        "as": "চুবুৰীয়া"
+      },
+      {
+        "en": "Enemy",
+        "as": "শত্ৰু"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Love is the opposite of Hate; in the same way Friend is the opposite of Enemy.",
+      "as": "প্ৰেম আৰু ঘৃণা পৰস্পৰ বিপৰীত; সেইদৰে বন্ধু আৰু শত্ৰু পৰস্পৰ বিপৰীত।"
+    }
+  },
+  {
+    "id": "analogy-051",
+    "type": "antonym",
+    "q": {
+      "en": "Rough : Smooth :: Empty : ?",
+      "as": "খহটা : মসৃণ :: খালী : ?"
+    },
+    "options": [
+      {
+        "en": "Big",
+        "as": "ডাঙৰ"
+      },
+      {
+        "en": "Half",
+        "as": "আধা"
+      },
+      {
+        "en": "Full",
+        "as": "ভৰা"
+      },
+      {
+        "en": "Open",
+        "as": "খোলা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rough is the opposite of Smooth; in the same way Empty is the opposite of Full.",
+      "as": "খহটা আৰু মসৃণ পৰস্পৰ বিপৰীত; সেইদৰে খালী আৰু ভৰা পৰস্পৰ বিপৰীত।"
+    }
+  },
+  {
+    "id": "analogy-052",
+    "type": "capital",
+    "q": {
+      "en": "Japan : Tokyo :: France : ?",
+      "as": "জাপান : টকিঅ' :: ফ্ৰান্স : ?"
+    },
+    "options": [
+      {
+        "en": "London",
+        "as": "লণ্ডন"
+      },
+      {
+        "en": "Paris",
+        "as": "পেৰিছ"
+      },
+      {
+        "en": "Rome",
+        "as": "ৰোম"
+      },
+      {
+        "en": "Berlin",
+        "as": "বাৰ্লিন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Tokyo is the capital of Japan; in the same way Paris is the capital of France.",
+      "as": "টকিঅ' জাপানৰ ৰাজধানী; সেইদৰে পেৰিছ ফ্ৰান্সৰ ৰাজধানী।"
+    }
+  },
+  {
+    "id": "analogy-053",
+    "type": "capital",
+    "q": {
+      "en": "India : New Delhi :: Nepal : ?",
+      "as": "ভাৰত : নতুন দিল্লী :: নেপাল : ?"
+    },
+    "options": [
+      {
+        "en": "Kathmandu",
+        "as": "কাঠমাণ্ডু"
+      },
+      {
+        "en": "Dhaka",
+        "as": "ঢাকা"
+      },
+      {
+        "en": "Thimphu",
+        "as": "থিম্পু"
+      },
+      {
+        "en": "Colombo",
+        "as": "কলম্বো"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "New Delhi is the capital of India; in the same way Kathmandu is the capital of Nepal.",
+      "as": "নতুন দিল্লী ভাৰতৰ ৰাজধানী; সেইদৰে কাঠমাণ্ডু নেপালৰ ৰাজধানী।"
+    }
+  },
+  {
+    "id": "analogy-054",
+    "type": "capital",
+    "q": {
+      "en": "Italy : Rome :: Egypt : ?",
+      "as": "ইটালী : ৰোম :: ইজিপ্ত : ?"
+    },
+    "options": [
+      {
+        "en": "Tehran",
+        "as": "তেহৰাণ"
+      },
+      {
+        "en": "Athens",
+        "as": "এথেন্স"
+      },
+      {
+        "en": "Paris",
+        "as": "পেৰিছ"
+      },
+      {
+        "en": "Cairo",
+        "as": "কাইৰো"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rome is the capital of Italy; in the same way Cairo is the capital of Egypt.",
+      "as": "ৰোম ইটালীৰ ৰাজধানী; সেইদৰে কাইৰো ইজিপ্তৰ ৰাজধানী।"
+    }
+  },
+  {
+    "id": "analogy-055",
+    "type": "capital",
+    "q": {
+      "en": "England : London :: Afghanistan : ?",
+      "as": "ইংলেণ্ড : লণ্ডন :: আফগানিস্তান : ?"
+    },
+    "options": [
+      {
+        "en": "Baghdad",
+        "as": "বাগদাদ"
+      },
+      {
+        "en": "Tehran",
+        "as": "তেহৰাণ"
+      },
+      {
+        "en": "Kabul",
+        "as": "কাবুল"
+      },
+      {
+        "en": "Ankara",
+        "as": "আংকাৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "London is the capital of England; in the same way Kabul is the capital of Afghanistan.",
+      "as": "লণ্ডন ইংলেণ্ডৰ ৰাজধানী; সেইদৰে কাবুল আফগানিস্তানৰ ৰাজধানী।"
+    }
+  },
+  {
+    "id": "analogy-056",
+    "type": "currency",
+    "q": {
+      "en": "India : Rupee :: Japan : ?",
+      "as": "ভাৰত : ৰুপী :: জাপান : ?"
+    },
+    "options": [
+      {
+        "en": "Dollar",
+        "as": "ডলাৰ"
+      },
+      {
+        "en": "Yen",
+        "as": "য়েন"
+      },
+      {
+        "en": "Pound",
+        "as": "পাউণ্ড"
+      },
+      {
+        "en": "Taka",
+        "as": "টকা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rupee is the currency of India; in the same way Yen is the currency of Japan.",
+      "as": "ৰুপী ভাৰতৰ মুদ্ৰা; সেইদৰে য়েন জাপানৰ মুদ্ৰা।"
+    }
+  },
+  {
+    "id": "analogy-057",
+    "type": "currency",
+    "q": {
+      "en": "USA : Dollar :: Bangladesh : ?",
+      "as": "আমেৰিকা : ডলাৰ :: বাংলাদেশ : ?"
+    },
+    "options": [
+      {
+        "en": "Taka",
+        "as": "টকা"
+      },
+      {
+        "en": "Rupee",
+        "as": "ৰুপী"
+      },
+      {
+        "en": "Dinar",
+        "as": "দিনাৰ"
+      },
+      {
+        "en": "Yen",
+        "as": "য়েন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Dollar is the currency of USA; in the same way Taka is the currency of Bangladesh.",
+      "as": "ডলাৰ আমেৰিকাৰ মুদ্ৰা; সেইদৰে টকা বাংলাদেশৰ মুদ্ৰা।"
+    }
+  },
+  {
+    "id": "analogy-058",
+    "type": "currency",
+    "q": {
+      "en": "UK : Pound :: Kuwait : ?",
+      "as": "যুক্তৰাজ্য : পাউণ্ড :: কুৱেইট : ?"
+    },
+    "options": [
+      {
+        "en": "Taka",
+        "as": "টকা"
+      },
+      {
+        "en": "Riyal",
+        "as": "ৰিয়াল"
+      },
+      {
+        "en": "Dollar",
+        "as": "ডলাৰ"
+      },
+      {
+        "en": "Dinar",
+        "as": "দিনাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Pound is the currency of UK; in the same way Dinar is the currency of Kuwait.",
+      "as": "পাউণ্ড যুক্তৰাজ্যৰ মুদ্ৰা; সেইদৰে দিনাৰ কুৱেইটৰ মুদ্ৰা।"
+    }
+  },
+  {
+    "id": "analogy-059",
+    "type": "instrument",
+    "q": {
+      "en": "Thermometer : Temperature :: Barometer : ?",
+      "as": "উষ্ণতা মাপক : উষ্ণতা :: বায়ুচাপ মাপক : ?"
+    },
+    "options": [
+      {
+        "en": "Wind",
+        "as": "বতাহ"
+      },
+      {
+        "en": "Rain",
+        "as": "বৰষুণ"
+      },
+      {
+        "en": "Pressure",
+        "as": "বায়ুচাপ"
+      },
+      {
+        "en": "Heat",
+        "as": "তাপ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A Thermometer measures Temperature; in the same way a Barometer measures Pressure.",
+      "as": "উষ্ণতা মাপক এ উষ্ণতা জুখে; সেইদৰে বায়ুচাপ মাপক এ বায়ুচাপ জুখে।"
+    }
+  },
+  {
+    "id": "analogy-060",
+    "type": "instrument",
+    "q": {
+      "en": "Clock : Time :: Speedometer : ?",
+      "as": "ঘড়ী : সময় :: গতি মাপক : ?"
+    },
+    "options": [
+      {
+        "en": "Distance",
+        "as": "দূৰত্ব"
+      },
+      {
+        "en": "Speed",
+        "as": "গতি"
+      },
+      {
+        "en": "Fuel",
+        "as": "ইন্ধন"
+      },
+      {
+        "en": "Engine",
+        "as": "ইঞ্জিন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A Clock measures Time; in the same way a Speedometer measures Speed.",
+      "as": "ঘড়ী এ সময় জুখে; সেইদৰে গতি মাপক এ গতি জুখে।"
+    }
+  },
+  {
+    "id": "analogy-061",
+    "type": "instrument",
+    "q": {
+      "en": "Scale : Length :: Balance : ?",
+      "as": "মাপনী : দীঘ :: তুলাচনী : ?"
+    },
+    "options": [
+      {
+        "en": "Weight",
+        "as": "ওজন"
+      },
+      {
+        "en": "Money",
+        "as": "টকা-পইচা"
+      },
+      {
+        "en": "Volume",
+        "as": "আয়তন"
+      },
+      {
+        "en": "Height",
+        "as": "উচ্চতা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A Scale measures Length; in the same way a Balance measures Weight.",
+      "as": "মাপনী এ দীঘ জুখে; সেইদৰে তুলাচনী এ ওজন জুখে।"
+    }
+  },
+  {
+    "id": "analogy-062",
+    "type": "science",
+    "q": {
+      "en": "Botany : Plants :: Zoology : ?",
+      "as": "উদ্ভিদ বিজ্ঞান : উদ্ভিদ :: প্ৰাণী বিজ্ঞান : ?"
+    },
+    "options": [
+      {
+        "en": "Rocks",
+        "as": "শিল"
+      },
+      {
+        "en": "Birds",
+        "as": "চৰাই"
+      },
+      {
+        "en": "Insects",
+        "as": "পোক-পতংগ"
+      },
+      {
+        "en": "Animals",
+        "as": "প্ৰাণী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Botany is the study of Plants; in the same way Zoology is the study of Animals.",
+      "as": "উদ্ভিদৰ অধ্যয়নক উদ্ভিদ বিজ্ঞান বোলা হয়; সেইদৰে প্ৰাণীৰ অধ্যয়নক প্ৰাণী বিজ্ঞান বোলা হয়।"
+    }
+  },
+  {
+    "id": "analogy-063",
+    "type": "science",
+    "q": {
+      "en": "Ornithology : Birds :: Entomology : ?",
+      "as": "পক্ষী বিজ্ঞান : চৰাই :: কীট-পতংগ বিজ্ঞান : ?"
+    },
+    "options": [
+      {
+        "en": "Animals",
+        "as": "প্ৰাণী"
+      },
+      {
+        "en": "Plants",
+        "as": "উদ্ভিদ"
+      },
+      {
+        "en": "Insects",
+        "as": "পোক-পতংগ"
+      },
+      {
+        "en": "Fish",
+        "as": "মাছ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ornithology is the study of Birds; in the same way Entomology is the study of Insects.",
+      "as": "চৰাইৰ অধ্যয়নক পক্ষী বিজ্ঞান বোলা হয়; সেইদৰে পোক-পতংগৰ অধ্যয়নক কীট-পতংগ বিজ্ঞান বোলা হয়।"
+    }
+  },
+  {
+    "id": "analogy-064",
+    "type": "science",
+    "q": {
+      "en": "Cardiology : Heart :: Neurology : ?",
+      "as": "হৃদয় বিজ্ঞান : হৃদয় :: স্নায়ু বিজ্ঞান : ?"
+    },
+    "options": [
+      {
+        "en": "Bones",
+        "as": "হাড়"
+      },
+      {
+        "en": "Nerves",
+        "as": "স্নায়ু"
+      },
+      {
+        "en": "Lungs",
+        "as": "হাওঁফাওঁ"
+      },
+      {
+        "en": "Skin",
+        "as": "ছাল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Cardiology is the study of Heart; in the same way Neurology is the study of Nerves.",
+      "as": "হৃদয়ৰ অধ্যয়নক হৃদয় বিজ্ঞান বোলা হয়; সেইদৰে স্নায়ুৰ অধ্যয়নক স্নায়ু বিজ্ঞান বোলা হয়।"
+    }
+  },
+  {
+    "id": "analogy-065",
+    "type": "science",
+    "q": {
+      "en": "Geology : Rocks :: Seismology : ?",
+      "as": "ভূতত্ত্ব : শিল :: ভূকম্প বিজ্ঞান : ?"
+    },
+    "options": [
+      {
+        "en": "Earthquakes",
+        "as": "ভূমিকম্প"
+      },
+      {
+        "en": "Ocean",
+        "as": "মহাসাগৰ"
+      },
+      {
+        "en": "Weather",
+        "as": "বতৰ"
+      },
+      {
+        "en": "Stars",
+        "as": "তৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Geology is the study of Rocks; in the same way Seismology is the study of Earthquakes.",
+      "as": "শিলৰ অধ্যয়নক ভূতত্ত্ব বোলা হয়; সেইদৰে ভূমিকম্পৰ অধ্যয়নক ভূকম্প বিজ্ঞান বোলা হয়।"
+    }
+  },
+  {
+    "id": "analogy-066",
+    "type": "cause",
+    "q": {
+      "en": "Carelessness : Accident :: Hardwork : ?",
+      "as": "অসাৱধানতা : দুৰ্ঘটনা :: পৰিশ্ৰম : ?"
+    },
+    "options": [
+      {
+        "en": "Luck",
+        "as": "ভাগ্য"
+      },
+      {
+        "en": "Failure",
+        "as": "ব্যৰ্থতা"
+      },
+      {
+        "en": "Rest",
+        "as": "জিৰণি"
+      },
+      {
+        "en": "Success",
+        "as": "সফলতা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Carelessness leads to Accident; in the same way Hardwork leads to Success.",
+      "as": "অসাৱধানতাৰ ফলত দুৰ্ঘটনা হয়; সেইদৰে পৰিশ্ৰমৰ ফলত সফলতা হয়।"
+    }
+  },
+  {
+    "id": "analogy-067",
+    "type": "cause",
+    "q": {
+      "en": "Exercise : Health :: Virus : ?",
+      "as": "ব্যায়াম : স্বাস্থ্য :: ভাইৰাছ : ?"
+    },
+    "options": [
+      {
+        "en": "Medicine",
+        "as": "ঔষধ"
+      },
+      {
+        "en": "Cure",
+        "as": "উপশম"
+      },
+      {
+        "en": "Disease",
+        "as": "ৰোগ"
+      },
+      {
+        "en": "Doctor",
+        "as": "চিকিৎসক"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Exercise leads to Health; in the same way Virus leads to Disease.",
+      "as": "ব্যায়ামৰ ফলত স্বাস্থ্য হয়; সেইদৰে ভাইৰাছৰ ফলত ৰোগ হয়।"
+    }
+  },
+  {
+    "id": "analogy-068",
+    "type": "raw",
+    "q": {
+      "en": "Bread : Wheat :: Sugar : ?",
+      "as": "পাউৰুটি : গম :: চেনি : ?"
+    },
+    "options": [
+      {
+        "en": "Milk",
+        "as": "গাখীৰ"
+      },
+      {
+        "en": "Sugarcane",
+        "as": "কুঁহিয়াৰ"
+      },
+      {
+        "en": "Honey",
+        "as": "মৌ"
+      },
+      {
+        "en": "Salt",
+        "as": "নিমখ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Bread is made from Wheat; in the same way Sugar is made from Sugarcane.",
+      "as": "পাউৰুটি গমৰ পৰা তৈয়াৰ কৰা হয়; সেইদৰে চেনি কুঁহিয়াৰৰ পৰা তৈয়াৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "analogy-069",
+    "type": "raw",
+    "q": {
+      "en": "Cloth : Cotton :: Paper : ?",
+      "as": "কাপোৰ : কপাহ :: কাগজ : ?"
+    },
+    "options": [
+      {
+        "en": "Wood",
+        "as": "কাঠ"
+      },
+      {
+        "en": "Ink",
+        "as": "চিয়াঁহী"
+      },
+      {
+        "en": "Pen",
+        "as": "পেন"
+      },
+      {
+        "en": "Water",
+        "as": "পানী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cloth is made from Cotton; in the same way Paper is made from Wood.",
+      "as": "কাপোৰ কপাহৰ পৰা তৈয়াৰ কৰা হয়; সেইদৰে কাগজ কাঠৰ পৰা তৈয়াৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "analogy-070",
+    "type": "raw",
+    "q": {
+      "en": "Butter : Milk :: Oil : ?",
+      "as": "মাখন : গাখীৰ :: তেল : ?"
+    },
+    "options": [
+      {
+        "en": "Fire",
+        "as": "জুই"
+      },
+      {
+        "en": "Salt",
+        "as": "নিমখ"
+      },
+      {
+        "en": "Water",
+        "as": "পানী"
+      },
+      {
+        "en": "Mustard",
+        "as": "সৰিয়হ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Butter is made from Milk; in the same way Oil is made from Mustard.",
+      "as": "মাখন গাখীৰৰ পৰা তৈয়াৰ কৰা হয়; সেইদৰে তেল সৰিয়হৰ পৰা তৈয়াৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "analogy-071",
+    "type": "degree",
+    "q": {
+      "en": "Warm : Hot :: Cold : ?",
+      "as": "উষ্ণ : গৰম :: ঠাণ্ডা : ?"
+    },
+    "options": [
+      {
+        "en": "Ice",
+        "as": "বৰফ"
+      },
+      {
+        "en": "Cool",
+        "as": "শীতল"
+      },
+      {
+        "en": "Freezing",
+        "as": "অতি ঠাণ্ডা"
+      },
+      {
+        "en": "Winter",
+        "as": "শীতকাল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hot is a stronger degree than Warm; in the same way Freezing is a stronger degree than Cold.",
+      "as": "গৰম উষ্ণতকৈ অধিক মাত্ৰা; সেইদৰে অতি ঠাণ্ডা ঠাণ্ডাতকৈ অধিক মাত্ৰা।"
+    }
+  },
+  {
+    "id": "analogy-072",
+    "type": "degree",
+    "q": {
+      "en": "Small : Tiny :: Big : ?",
+      "as": "সৰু : অতি সৰু :: ডাঙৰ : ?"
+    },
+    "options": [
+      {
+        "en": "Large",
+        "as": "বৃহৎ"
+      },
+      {
+        "en": "Huge",
+        "as": "বিশাল"
+      },
+      {
+        "en": "Tall",
+        "as": "ওখ"
+      },
+      {
+        "en": "Wide",
+        "as": "বহল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Tiny is a stronger degree than Small; in the same way Huge is a stronger degree than Big.",
+      "as": "অতি সৰু সৰুতকৈ অধিক মাত্ৰা; সেইদৰে বিশাল ডাঙৰতকৈ অধিক মাত্ৰা।"
+    }
+  },
+  {
+    "id": "analogy-073",
+    "type": "person_creation",
+    "q": {
+      "en": "Poet : Poem :: Painter : ?",
+      "as": "কবি : কবিতা :: চিত্ৰকৰ : ?"
+    },
+    "options": [
+      {
+        "en": "Painting",
+        "as": "চিত্ৰ"
+      },
+      {
+        "en": "Brush",
+        "as": "তুলিকা"
+      },
+      {
+        "en": "Colour",
+        "as": "ৰং"
+      },
+      {
+        "en": "Wall",
+        "as": "বেৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A Poet creates a Poem; in the same way a Painter creates a Painting.",
+      "as": "কবি এ কবিতা সৃষ্টি কৰে; সেইদৰে চিত্ৰকৰ এ চিত্ৰ সৃষ্টি কৰে।"
+    }
+  },
+  {
+    "id": "analogy-074",
+    "type": "person_creation",
+    "q": {
+      "en": "Architect : Building :: Sculptor : ?",
+      "as": "স্থপতি : অট্টালিকা :: ভাস্কৰ্য শিল্পী : ?"
+    },
+    "options": [
+      {
+        "en": "Museum",
+        "as": "সংগ্ৰহালয়"
+      },
+      {
+        "en": "Stone",
+        "as": "শিল"
+      },
+      {
+        "en": "Chisel",
+        "as": "ছেনি"
+      },
+      {
+        "en": "Statue",
+        "as": "মূৰ্তি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A Architect creates a Building; in the same way a Sculptor creates a Statue.",
+      "as": "স্থপতি এ অট্টালিকা সৃষ্টি কৰে; সেইদৰে ভাস্কৰ্য শিল্পী এ মূৰ্তি সৃষ্টি কৰে।"
+    }
+  },
+  {
+    "id": "analogy-075",
+    "type": "person_creation",
+    "q": {
+      "en": "Composer : Music :: Choreographer : ?",
+      "as": "সংগীত ৰচয়িতা : সংগীত :: নৃত্যপৰিচালক : ?"
+    },
+    "options": [
+      {
+        "en": "Dancer",
+        "as": "নৰ্তকী"
+      },
+      {
+        "en": "Stage",
+        "as": "মঞ্চ"
+      },
+      {
+        "en": "Dance",
+        "as": "নৃত্য"
+      },
+      {
+        "en": "Song",
+        "as": "গীত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A Composer creates a Music; in the same way a Choreographer creates a Dance.",
+      "as": "সংগীত ৰচয়িতা এ সংগীত সৃষ্টি কৰে; সেইদৰে নৃত্যপৰিচালক এ নৃত্য সৃষ্টি কৰে।"
+    }
+  },
+  {
+    "id": "analogy-076",
+    "type": "property",
+    "q": {
+      "en": "Ice : Cold :: Sun : ?",
+      "as": "বৰফ : ঠাণ্ডা :: সূৰ্য : ?"
+    },
+    "options": [
+      {
+        "en": "Bright",
+        "as": "উজ্জ্বল"
+      },
+      {
+        "en": "Hot",
+        "as": "গৰম"
+      },
+      {
+        "en": "Yellow",
+        "as": "হালধীয়া"
+      },
+      {
+        "en": "Sky",
+        "as": "আকাশ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "As Ice is Cold, Sun is Hot.",
+      "as": "বৰফ ঠাণ্ডা; সেইদৰে সূৰ্য গৰম।"
+    }
+  },
+  {
+    "id": "analogy-077",
+    "type": "property",
+    "q": {
+      "en": "Honey : Sweet :: Lemon : ?",
+      "as": "মৌ : মিঠা :: নেমু : ?"
+    },
+    "options": [
+      {
+        "en": "Sour",
+        "as": "টেঙা"
+      },
+      {
+        "en": "Yellow",
+        "as": "হালধীয়া"
+      },
+      {
+        "en": "Fruit",
+        "as": "ফল"
+      },
+      {
+        "en": "Juice",
+        "as": "ৰস"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "As Honey is Sweet, Lemon is Sour.",
+      "as": "মৌ মিঠা; সেইদৰে নেমু টেঙা।"
+    }
+  },
+  {
+    "id": "analogy-078",
+    "type": "property",
+    "q": {
+      "en": "Elephant : Big :: Ant : ?",
+      "as": "হাতী : ডাঙৰ :: পিপৰি : ?"
+    },
+    "options": [
+      {
+        "en": "Bite",
+        "as": "কামোৰ"
+      },
+      {
+        "en": "Black",
+        "as": "ক'লা"
+      },
+      {
+        "en": "Insect",
+        "as": "পোক"
+      },
+      {
+        "en": "Small",
+        "as": "সৰু"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "As Elephant is Big, Ant is Small.",
+      "as": "হাতী ডাঙৰ; সেইদৰে পিপৰি সৰু।"
+    }
+  },
+  {
+    "id": "analogy-079",
+    "type": "number",
+    "q": {
+      "en": "2 : 8 :: 3 : ?",
+      "as": "2 : 8 :: 3 : ?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "6"
+      },
+      {
+        "en": "9",
+        "as": "9"
+      },
+      {
+        "en": "27",
+        "as": "27"
+      },
+      {
+        "en": "12",
+        "as": "12"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "3 is related to 27 in the same way 2 is related to 8.",
+      "as": "2ৰ সৈতে 8 যেনেকৈ সম্পৰ্কিত, সেইদৰে 3ৰ সৈতে 27 সম্পৰ্কিত।"
+    }
+  },
+  {
+    "id": "analogy-080",
+    "type": "number",
+    "q": {
+      "en": "4 : 16 :: 5 : ?",
+      "as": "4 : 16 :: 5 : ?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "10"
+      },
+      {
+        "en": "25",
+        "as": "25"
+      },
+      {
+        "en": "20",
+        "as": "20"
+      },
+      {
+        "en": "30",
+        "as": "30"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "5 is related to 25 in the same way 4 is related to 16.",
+      "as": "4ৰ সৈতে 16 যেনেকৈ সম্পৰ্কিত, সেইদৰে 5ৰ সৈতে 25 সম্পৰ্কিত।"
+    }
+  },
+  {
+    "id": "analogy-081",
+    "type": "number",
+    "q": {
+      "en": "3 : 9 :: 7 : ?",
+      "as": "3 : 9 :: 7 : ?"
+    },
+    "options": [
+      {
+        "en": "49",
+        "as": "49"
+      },
+      {
+        "en": "14",
+        "as": "14"
+      },
+      {
+        "en": "21",
+        "as": "21"
+      },
+      {
+        "en": "42",
+        "as": "42"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "7 is related to 49 in the same way 3 is related to 9.",
+      "as": "3ৰ সৈতে 9 যেনেকৈ সম্পৰ্কিত, সেইদৰে 7ৰ সৈতে 49 সম্পৰ্কিত।"
+    }
+  },
+  {
+    "id": "analogy-082",
+    "type": "number",
+    "q": {
+      "en": "5 : 25 :: 6 : ?",
+      "as": "5 : 25 :: 6 : ?"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "11"
+      },
+      {
+        "en": "12",
+        "as": "12"
+      },
+      {
+        "en": "30",
+        "as": "30"
+      },
+      {
+        "en": "36",
+        "as": "36"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "6 is related to 36 in the same way 5 is related to 25.",
+      "as": "5ৰ সৈতে 25 যেনেকৈ সম্পৰ্কিত, সেইদৰে 6ৰ সৈতে 36 সম্পৰ্কিত।"
+    }
+  },
+  {
+    "id": "analogy-083",
+    "type": "verb_noun",
+    "q": {
+      "en": "Speak : Speech :: Think : ?",
+      "as": "কথা কোৱা : ভাষণ :: চিন্তা কৰা : ?"
+    },
+    "options": [
+      {
+        "en": "Idea",
+        "as": "ভাবনা"
+      },
+      {
+        "en": "Mind",
+        "as": "মন"
+      },
+      {
+        "en": "Thought",
+        "as": "চিন্তা"
+      },
+      {
+        "en": "Thinker",
+        "as": "চিন্তাবিদ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Speech is the noun form of Speak; in the same way Thought is the noun form of Think.",
+      "as": "ভাষণ হ'ল কথা কোৱাৰ বিশেষ্য ৰূপ; সেইদৰে চিন্তা হ'ল চিন্তা কৰাৰ বিশেষ্য ৰূপ।"
+    }
+  },
+  {
+    "id": "analogy-084",
+    "type": "verb_noun",
+    "q": {
+      "en": "Write : Writer :: Sing : ?",
+      "as": "লিখা : লেখক :: গোৱা : ?"
+    },
+    "options": [
+      {
+        "en": "Song",
+        "as": "গীত"
+      },
+      {
+        "en": "Singer",
+        "as": "গায়ক"
+      },
+      {
+        "en": "Music",
+        "as": "সংগীত"
+      },
+      {
+        "en": "Voice",
+        "as": "মাত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Writer is the noun form of Write; in the same way Singer is the noun form of Sing.",
+      "as": "লেখক হ'ল লিখাৰ বিশেষ্য ৰূপ; সেইদৰে গায়ক হ'ল গোৱাৰ বিশেষ্য ৰূপ।"
+    }
   }
-}
+]
