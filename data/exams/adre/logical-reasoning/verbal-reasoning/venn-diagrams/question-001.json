@@ -1,30 +1,1428 @@
-{
-  "id": "venn-diagrams-001",
-  "q": {
-    "en": "Three circles are drawn one inside the other, each smaller than the previous. This best represents —",
-    "as": "তিনিটা বৃত্ত এটা আনটোৰ ভিতৰত, প্ৰতিটো আগৰটোতকৈ সৰু হিচাপে অঁকা হৈছে। এইটোৱে সঠিকভাৱে বুজায় —"
-  },
-  "options": [
-    {
-      "en": "Days, Weeks, Years",
-      "as": "দিন, সপ্তাহ, বছৰ"
+[
+  {
+    "id": "venn-diagram-001",
+    "q": {
+      "en": "In the Venn diagram, how many belong to A only?",
+      "as": "চিত্ৰত কিমান A ৰ মাত্ৰ অন্তৰ্ভুক্ত?"
     },
-    {
-      "en": "Men, Fathers, Doctors",
-      "as": "পুৰুষ, দেউতাক, ডাক্তৰ"
-    },
-    {
-      "en": "Roses, Flowers, Red things",
-      "as": "গোলাপ, ফুল, ৰঙা বস্তু"
-    },
-    {
-      "en": "Cats, Dogs, Animals",
-      "as": "মেকুৰী, কুকুৰ, প্ৰাণী"
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"78\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"122\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"60\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"140\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"52\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">18</text><text x=\"100\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">7</text><text x=\"148\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">12</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">18</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">12</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">25</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The A-only region shows 18.",
+      "as": "A ৰ মাত্ৰ অংশত 18 আছে।"
     }
-  ],
-  "correct": 0,
-  "explanation": {
-    "en": "A day is part of a week and a week is part of a year, so Days ⊂ Weeks ⊂ Years.",
-    "as": "এটা দিন সপ্তাহৰ অংশ আৰু এটা সপ্তাহ বছৰৰ অংশ, গতিকে Days ⊂ Weeks ⊂ Years।"
+  },
+  {
+    "id": "venn-diagram-002",
+    "q": {
+      "en": "How many belong to both A and B?",
+      "as": "কিমান A আৰু B দুয়োটাতে অন্তৰ্ভুক্ত?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"78\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"122\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"60\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"140\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"52\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">15</text><text x=\"100\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">9</text><text x=\"148\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">11</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">15</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">9</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">11</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">24</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The common region shows 9.",
+      "as": "সাধাৰণ অংশত 9 আছে।"
+    }
+  },
+  {
+    "id": "venn-diagram-003",
+    "q": {
+      "en": "How many belong to A (either part)?",
+      "as": "কিমান A ত অন্তৰ্ভুক্ত (যিকোনো অংশ)?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"78\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"122\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"60\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"140\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"52\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">20</text><text x=\"100\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">8</text><text x=\"148\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">14</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">20</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">28</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">14</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A = 20 + 8 = 28.",
+      "as": "A = 20 + 8 = 28।"
+    }
+  },
+  {
+    "id": "venn-diagram-004",
+    "q": {
+      "en": "How many belong to exactly one of the two sets?",
+      "as": "কিমান মাত্ৰ এটা সংহতিত অন্তৰ্ভুক্ত?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"78\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"122\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"60\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"140\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"52\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">16</text><text x=\"100\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">6</text><text x=\"148\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">10</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">16</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">22</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">26</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only A + Only B = 16 + 10 = 26.",
+      "as": "মাত্ৰ A + মাত্ৰ B = 16 + 10 = 26।"
+    }
+  },
+  {
+    "id": "venn-diagram-005",
+    "q": {
+      "en": "How many belong to at least one of A or B?",
+      "as": "কিমান A বা B ৰ অন্ততঃ এটাত অন্তৰ্ভুক্ত?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"78\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"122\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"60\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"140\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"52\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">12</text><text x=\"100\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text><text x=\"148\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">13</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">30</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">25</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">17</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "12 + 5 + 13 = 30.",
+      "as": "12 + 5 + 13 = 30।"
+    }
+  },
+  {
+    "id": "venn-diagram-006",
+    "q": {
+      "en": "How many belong to neither A nor B?",
+      "as": "কিমান A বা B ৰ কোনোটোতে অন্তৰ্ভুক্ত নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"78\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"122\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"60\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"140\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"52\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">22</text><text x=\"100\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">8</text><text x=\"148\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">15</text><text x=\"185\" y=\"143\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">22</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">15</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The outside region shows 5.",
+      "as": "বাহিৰৰ অংশত 5 আছে।"
+    }
+  },
+  {
+    "id": "venn-diagram-007",
+    "q": {
+      "en": "What is the total number of elements shown?",
+      "as": "দেখুওৱা মুঠ উপাদান কিমান?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"78\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"122\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"60\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"140\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"52\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">14</text><text x=\"100\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">6</text><text x=\"148\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">11</text><text x=\"185\" y=\"143\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">31</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">25</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">35</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">20</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "14 + 6 + 11 + 4 = 35.",
+      "as": "14 + 6 + 11 + 4 = 35।"
+    }
+  },
+  {
+    "id": "venn-diagram-008",
+    "q": {
+      "en": "How many do NOT belong to A?",
+      "as": "কিমান A ত অন্তৰ্ভুক্ত নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"78\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"122\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"60\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"140\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"52\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">18</text><text x=\"100\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">7</text><text x=\"148\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">12</text><text x=\"185\" y=\"143\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">12</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">10</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">15</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only B + neither = 12 + 3 = 15.",
+      "as": "মাত্ৰ B + কোনোটো নহয় = 12 + 3 = 15।"
+    }
+  },
+  {
+    "id": "venn-diagram-009",
+    "q": {
+      "en": "How many belong to A only?",
+      "as": "কিমান মাত্ৰ A ত অন্তৰ্ভুক্ত?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"46\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"154\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"100\" y=\"153\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#16a34a\">C</text><text x=\"56\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">8</text><text x=\"144\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">6</text><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text><text x=\"100\" y=\"36\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text><text x=\"72\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"128\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"100\" y=\"74\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"185\" y=\"143\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The A-only region shows 8.",
+      "as": "মাত্ৰ A ৰ অংশত 8 আছে।"
+    }
+  },
+  {
+    "id": "venn-diagram-010",
+    "q": {
+      "en": "How many belong to A and B but not C?",
+      "as": "কিমান A আৰু B ত অন্তৰ্ভুক্ত কিন্তু C ত নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"46\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"154\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"100\" y=\"153\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#16a34a\">C</text><text x=\"56\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">6</text><text x=\"144\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">7</text><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text><text x=\"100\" y=\"36\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text><text x=\"72\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"128\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"100\" y=\"74\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"185\" y=\"143\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The A and B only region shows 5.",
+      "as": "A আৰু B মাত্ৰ অংশত 5 আছে।"
+    }
+  },
+  {
+    "id": "venn-diagram-011",
+    "q": {
+      "en": "How many belong to all three sets?",
+      "as": "কিমান তিনিওটা সংহতিত অন্তৰ্ভুক্ত?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"46\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"154\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"100\" y=\"153\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#16a34a\">C</text><text x=\"56\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text><text x=\"144\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">6</text><text x=\"100\" y=\"36\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"72\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text><text x=\"128\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"100\" y=\"74\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"185\" y=\"143\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The centre region shows 2.",
+      "as": "কেন্দ্ৰীয় অংশত 2 আছে।"
+    }
+  },
+  {
+    "id": "venn-diagram-012",
+    "q": {
+      "en": "How many belong to C only?",
+      "as": "কিমান মাত্ৰ C ত অন্তৰ্ভুক্ত?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"46\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"154\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"100\" y=\"153\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#16a34a\">C</text><text x=\"56\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">9</text><text x=\"144\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">7</text><text x=\"100\" y=\"36\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"72\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"128\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text><text x=\"100\" y=\"74\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"185\" y=\"143\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">6</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">9</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The C-only region shows 7.",
+      "as": "মাত্ৰ C ৰ অংশত 7 আছে।"
+    }
+  },
+  {
+    "id": "venn-diagram-013",
+    "q": {
+      "en": "How many belong to exactly two sets?",
+      "as": "কিমান মাত্ৰ দুটা সংহতিত অন্তৰ্ভুক্ত?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"46\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"154\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"100\" y=\"153\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#16a34a\">C</text><text x=\"56\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">6</text><text x=\"144\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text><text x=\"100\" y=\"36\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text><text x=\"72\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"128\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"100\" y=\"74\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"185\" y=\"143\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">11</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">9</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "4 + 3 + 2 = 9.",
+      "as": "4 + 3 + 2 = 9।"
+    }
+  },
+  {
+    "id": "venn-diagram-014",
+    "q": {
+      "en": "How many belong to A and C but not B?",
+      "as": "কিমান A আৰু C ত অন্তৰ্ভুক্ত কিন্তু B ত নহয়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"46\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"154\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"100\" y=\"153\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#16a34a\">C</text><text x=\"56\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">7</text><text x=\"144\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">6</text><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text><text x=\"100\" y=\"36\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"72\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text><text x=\"128\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"100\" y=\"74\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"185\" y=\"143\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The A and C only region shows 4.",
+      "as": "A আৰু C মাত্ৰ অংশত 4 আছে।"
+    }
+  },
+  {
+    "id": "venn-diagram-015",
+    "q": {
+      "en": "How many belong to A?",
+      "as": "কিমান A ত অন্তৰ্ভুক্ত?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"46\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"154\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"100\" y=\"153\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#16a34a\">C</text><text x=\"56\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">8</text><text x=\"144\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">6</text><text x=\"100\" y=\"36\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"72\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"128\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text><text x=\"100\" y=\"74\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"185\" y=\"143\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">14</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">11</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">16</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "8 + 3 + 2 + 1 = 14.",
+      "as": "8 + 3 + 2 + 1 = 14।"
+    }
+  },
+  {
+    "id": "venn-diagram-016",
+    "q": {
+      "en": "How many belong to none of the three sets?",
+      "as": "কিমান তিনিওটা সংহতিৰ কোনোটোতে নাই?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"46\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"154\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"100\" y=\"153\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#16a34a\">C</text><text x=\"56\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">6</text><text x=\"144\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">8</text><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text><text x=\"100\" y=\"36\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text><text x=\"72\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"128\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"100\" y=\"74\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"185\" y=\"143\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">7</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The outside region shows 7.",
+      "as": "বাহিৰৰ অংশত 7 আছে।"
+    }
+  },
+  {
+    "id": "venn-diagram-017",
+    "q": {
+      "en": "Which numbered region represents A only?",
+      "as": "কোনটো নম্বৰ অংশই মাত্ৰ A বুজায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"78\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"122\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"60\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"140\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"52\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"100\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"148\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"185\" y=\"143\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Region 1 lies in A but outside B.",
+      "as": "১ নম্বৰ অংশ A ত কিন্তু B ৰ বাহিৰত।"
+    }
+  },
+  {
+    "id": "venn-diagram-018",
+    "q": {
+      "en": "Which numbered region represents both A and B?",
+      "as": "কোনটো নম্বৰ অংশই A আৰু B দুয়োটা বুজায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"78\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"122\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"60\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"140\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"52\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"100\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"148\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"185\" y=\"143\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Region 2 is the common part of A and B.",
+      "as": "২ নম্বৰ অংশ A আৰু B ৰ সাধাৰণ অংশ।"
+    }
+  },
+  {
+    "id": "venn-diagram-019",
+    "q": {
+      "en": "Which numbered region represents B only?",
+      "as": "কোনটো নম্বৰ অংশই মাত্ৰ B বুজায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"78\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"122\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"60\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"140\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"52\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"100\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"148\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"185\" y=\"143\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Region 3 lies in B but outside A.",
+      "as": "৩ নম্বৰ অংশ B ত কিন্তু A ৰ বাহিৰত।"
+    }
+  },
+  {
+    "id": "venn-diagram-020",
+    "q": {
+      "en": "Which numbered region represents A but not B?",
+      "as": "কোনটো নম্বৰ অংশই A কিন্তু B নহয় বুজায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"78\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"122\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"60\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"140\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"52\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"100\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"148\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"185\" y=\"143\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A but not B is region 1.",
+      "as": "A কিন্তু B নহয় হ'ল ১ নম্বৰ অংশ।"
+    }
+  },
+  {
+    "id": "venn-diagram-021",
+    "q": {
+      "en": "Which numbered region represents neither A nor B?",
+      "as": "কোনটো নম্বৰ অংশই A বা B ৰ কোনোটোৱেই নহয় বুজায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"78\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"122\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"60\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"140\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"52\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"100\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"148\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"185\" y=\"143\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Region 4 is outside both circles.",
+      "as": "৪ নম্বৰ অংশ দুয়োটা বৃত্তৰ বাহিৰত।"
+    }
+  },
+  {
+    "id": "venn-diagram-022",
+    "q": {
+      "en": "Which numbered region represents B but not A?",
+      "as": "কোনটো নম্বৰ অংশই B কিন্তু A নহয় বুজায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"78\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"122\" cy=\"80\" r=\"48\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"60\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"140\" y=\"22\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"52\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"100\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"148\" y=\"80\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"185\" y=\"143\" font-size=\"16\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "B but not A is region 3.",
+      "as": "B কিন্তু A নহয় হ'ল ৩ নম্বৰ অংশ।"
+    }
+  },
+  {
+    "id": "venn-diagram-023",
+    "q": {
+      "en": "Which region represents A only?",
+      "as": "কোনটো অংশই মাত্ৰ A বুজায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"46\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"154\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"100\" y=\"153\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#16a34a\">C</text><text x=\"56\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"144\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"100\" y=\"36\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text><text x=\"72\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text><text x=\"128\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">6</text><text x=\"100\" y=\"74\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">7</text><text x=\"185\" y=\"143\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">8</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Region 1 is inside A only.",
+      "as": "১ নম্বৰ অংশ মাত্ৰ A ৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagram-024",
+    "q": {
+      "en": "Which region represents A and B only (not C)?",
+      "as": "কোনটো অংশই মাত্ৰ A আৰু B বুজায় (C নহয়)?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"46\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"154\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"100\" y=\"153\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#16a34a\">C</text><text x=\"56\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"144\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"100\" y=\"36\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text><text x=\"72\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text><text x=\"128\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">6</text><text x=\"100\" y=\"74\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">7</text><text x=\"185\" y=\"143\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">8</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Region 4 is common to A and B but outside C.",
+      "as": "৪ নম্বৰ অংশ A আৰু B ৰ সাধাৰণ কিন্তু C ৰ বাহিৰত।"
+    }
+  },
+  {
+    "id": "venn-diagram-025",
+    "q": {
+      "en": "Which region represents all three sets?",
+      "as": "কোনটো অংশই তিনিওটা সংহতি বুজায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"46\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"154\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"100\" y=\"153\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#16a34a\">C</text><text x=\"56\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"144\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"100\" y=\"36\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text><text x=\"72\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text><text x=\"128\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">6</text><text x=\"100\" y=\"74\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">7</text><text x=\"185\" y=\"143\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">8</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">7</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Region 7 is common to A, B and C.",
+      "as": "৭ নম্বৰ অংশ A, B আৰু C ৰ সাধাৰণ।"
+    }
+  },
+  {
+    "id": "venn-diagram-026",
+    "q": {
+      "en": "Which region represents C only?",
+      "as": "কোনটো অংশই মাত্ৰ C বুজায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"46\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"154\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"100\" y=\"153\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#16a34a\">C</text><text x=\"56\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"144\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"100\" y=\"36\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text><text x=\"72\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text><text x=\"128\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">6</text><text x=\"100\" y=\"74\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">7</text><text x=\"185\" y=\"143\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">8</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Region 3 is inside C only.",
+      "as": "৩ নম্বৰ অংশ মাত্ৰ C ৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagram-027",
+    "q": {
+      "en": "Which region represents A and C only (not B)?",
+      "as": "কোনটো অংশই মাত্ৰ A আৰু C বুজায় (B নহয়)?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"46\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"154\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"100\" y=\"153\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#16a34a\">C</text><text x=\"56\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"144\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"100\" y=\"36\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text><text x=\"72\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text><text x=\"128\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">6</text><text x=\"100\" y=\"74\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">7</text><text x=\"185\" y=\"143\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">8</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Region 5 is common to A and C but outside B.",
+      "as": "৫ নম্বৰ অংশ A আৰু C ৰ সাধাৰণ কিন্তু B ৰ বাহিৰত।"
+    }
+  },
+  {
+    "id": "venn-diagram-028",
+    "q": {
+      "en": "Which region represents B and C only (not A)?",
+      "as": "কোনটো অংশই মাত্ৰ B আৰু C বুজায় (A নহয়)?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"46\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"154\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"100\" y=\"153\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#16a34a\">C</text><text x=\"56\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"144\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"100\" y=\"36\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text><text x=\"72\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text><text x=\"128\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">6</text><text x=\"100\" y=\"74\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">7</text><text x=\"185\" y=\"143\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">8</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Region 6 is common to B and C but outside A.",
+      "as": "৬ নম্বৰ অংশ B আৰু C ৰ সাধাৰণ কিন্তু A ৰ বাহিৰত।"
+    }
+  },
+  {
+    "id": "venn-diagram-029",
+    "q": {
+      "en": "Which region represents B only?",
+      "as": "কোনটো অংশই মাত্ৰ B বুজায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"46\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"154\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"100\" y=\"153\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#16a34a\">C</text><text x=\"56\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"144\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"100\" y=\"36\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text><text x=\"72\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text><text x=\"128\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">6</text><text x=\"100\" y=\"74\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">7</text><text x=\"185\" y=\"143\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">8</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Region 2 is inside B only.",
+      "as": "২ নম্বৰ অংশ মাত্ৰ B ৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagram-030",
+    "q": {
+      "en": "Which region represents none of the three sets?",
+      "as": "কোনটো অংশই তিনিওটা সংহতিৰ এটাও নুবুজায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"46\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2563eb\">A</text><text x=\"154\" y=\"14\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#dc2626\">B</text><text x=\"100\" y=\"153\" font-size=\"15\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#16a34a\">C</text><text x=\"56\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">1</text><text x=\"144\" y=\"46\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">2</text><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">3</text><text x=\"100\" y=\"36\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">4</text><text x=\"72\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">5</text><text x=\"128\" y=\"92\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">6</text><text x=\"100\" y=\"74\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">7</text><text x=\"185\" y=\"143\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">8</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">8</text></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Region 8 is outside all three circles.",
+      "as": "৮ নম্বৰ অংশ তিনিওটা বৃত্তৰ বাহিৰত।"
+    }
+  },
+  {
+    "id": "venn-diagram-031",
+    "q": {
+      "en": "Which Venn diagram best represents the relationship among Sparrows, Birds, Animals?",
+      "as": "কোনটো ভেন চিত্ৰই ঘৰচিৰিকা, চৰাই, প্ৰাণী ৰ মাজৰ সম্পৰ্ক সঠিকভাৱে দেখুৱায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"25\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"48\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Sparrows</text><rect x=\"28\" y=\"63\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"86\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Birds</text><rect x=\"28\" y=\"101\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Animals</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"60\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"72\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"128\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"62\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"44\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"40\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "All sparrows are birds and all birds are animals, so the sets are nested.",
+      "as": "সকলো ঘৰচিৰিকা চৰাই আৰু সকলো চৰাই প্ৰাণী, গতিকে সংহতিবোৰ নীড়বদ্ধ।"
+    }
+  },
+  {
+    "id": "venn-diagram-032",
+    "q": {
+      "en": "Which Venn diagram best represents the relationship among Apples, Oranges, Fruits?",
+      "as": "কোনটো ভেন চিত্ৰই আপেল, কমলা, ফল ৰ মাজৰ সম্পৰ্ক সঠিকভাৱে দেখুৱায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"25\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"48\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Apples</text><rect x=\"28\" y=\"63\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"86\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Oranges</text><rect x=\"28\" y=\"101\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Fruits</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"62\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"44\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"60\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"72\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"128\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"40\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Apples and oranges are separate sets, both inside fruits.",
+      "as": "আপেল আৰু কমলা পৃথক সংহতি, দুয়োটা ফলৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagram-033",
+    "q": {
+      "en": "Which Venn diagram best represents the relationship among Doctors, Men, Fathers?",
+      "as": "কোনটো ভেন চিত্ৰই ডাক্তৰ, পুৰুষ, পিতৃ ৰ মাজৰ সম্পৰ্ক সঠিকভাৱে দেখুৱায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"25\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"48\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Doctors</text><rect x=\"28\" y=\"63\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"86\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Men</text><rect x=\"28\" y=\"101\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Fathers</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"62\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"44\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"40\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"60\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"72\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"128\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Some doctors are men, some fathers are doctors; the three sets overlap.",
+      "as": "কিছুমান ডাক্তৰ পুৰুষ, কিছুমান পিতৃ ডাক্তৰ; তিনিওটা সংহতি জড়িত।"
+    }
+  },
+  {
+    "id": "venn-diagram-034",
+    "q": {
+      "en": "Which Venn diagram best represents the relationship among Table, Chair, Furniture?",
+      "as": "কোনটো ভেন চিত্ৰই মেজ, চকী, আচবাব ৰ মাজৰ সম্পৰ্ক সঠিকভাৱে দেখুৱায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"25\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"48\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Table</text><rect x=\"28\" y=\"63\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"86\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Chair</text><rect x=\"28\" y=\"101\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Furniture</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"40\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"60\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"72\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"128\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"62\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"44\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Tables and chairs are different things but both are furniture.",
+      "as": "মেজ আৰু চকী বেলেগ বস্তু কিন্তু দুয়োটা আচবাব।"
+    }
+  },
+  {
+    "id": "venn-diagram-035",
+    "q": {
+      "en": "Which Venn diagram best represents the relationship among Earth, Planet, Sun?",
+      "as": "কোনটো ভেন চিত্ৰই পৃথিৱী, গ্ৰহ, সূৰ্য ৰ মাজৰ সম্পৰ্ক সঠিকভাৱে দেখুৱায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"25\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"48\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Earth</text><rect x=\"28\" y=\"63\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"86\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Planet</text><rect x=\"28\" y=\"101\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Sun</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"62\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"44\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"75\" cy=\"80\" r=\"46\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"155\" cy=\"80\" r=\"30\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"40\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Earth is a planet and the sun is separate, so Earth lies inside planet while the sun is apart.",
+      "as": "পৃথিৱী এটা গ্ৰহ আৰু সূৰ্য পৃথক, গতিকে পৃথিৱী গ্ৰহৰ ভিতৰত আৰু সূৰ্য বেলেগ।"
+    }
+  },
+  {
+    "id": "venn-diagram-036",
+    "q": {
+      "en": "Which Venn diagram best represents the relationship among Cow, Dog, Animal?",
+      "as": "কোনটো ভেন চিত্ৰই গৰু, কুকুৰ, প্ৰাণী ৰ মাজৰ সম্পৰ্ক সঠিকভাৱে দেখুৱায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"25\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"48\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Cow</text><rect x=\"28\" y=\"63\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"86\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Dog</text><rect x=\"28\" y=\"101\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Animal</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"60\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"72\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"128\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"62\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"44\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"40\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cow and dog are separate sets, both inside animals.",
+      "as": "গৰু আৰু কুকুৰ পৃথক সংহতি, দুয়োটা প্ৰাণীৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagram-037",
+    "q": {
+      "en": "Which Venn diagram best represents the relationship among Pen, Pencil, Stationery?",
+      "as": "কোনটো ভেন চিত্ৰই কলম, পেঞ্চিল, লিখা সামগ্ৰী ৰ মাজৰ সম্পৰ্ক সঠিকভাৱে দেখুৱায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"25\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"48\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Pen</text><rect x=\"28\" y=\"63\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"86\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Pencil</text><rect x=\"28\" y=\"101\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Stationery</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"40\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"60\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"72\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"128\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"62\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"44\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Pen and pencil are different items but both are stationery.",
+      "as": "কলম আৰু পেঞ্চিল বেলেগ বস্তু কিন্তু দুয়োটা লিখা সামগ্ৰী।"
+    }
+  },
+  {
+    "id": "venn-diagram-038",
+    "q": {
+      "en": "Which Venn diagram best represents the relationship among Men, Fathers, Brothers?",
+      "as": "কোনটো ভেন চিত্ৰই পুৰুষ, পিতৃ, ভাই ৰ মাজৰ সম্পৰ্ক সঠিকভাৱে দেখুৱায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"25\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"48\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Men</text><rect x=\"28\" y=\"63\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"86\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Fathers</text><rect x=\"28\" y=\"101\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Brothers</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"60\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"72\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"128\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"40\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"62\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"44\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Some men are fathers, some fathers are brothers; the sets overlap.",
+      "as": "কিছুমান পুৰুষ পিতৃ, কিছুমান পিতৃ ভাই; সংহতিবোৰ জড়িত।"
+    }
+  },
+  {
+    "id": "venn-diagram-039",
+    "q": {
+      "en": "Which Venn diagram best represents the relationship among India, Asia, World?",
+      "as": "কোনটো ভেন চিত্ৰই ভাৰত, এছিয়া, বিশ্ব ৰ মাজৰ সম্পৰ্ক সঠিকভাৱে দেখুৱায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"25\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"48\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">India</text><rect x=\"28\" y=\"63\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"86\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Asia</text><rect x=\"28\" y=\"101\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">World</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"40\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"62\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"44\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"60\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"72\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"128\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "India is in Asia and Asia is in the world, so the sets are nested.",
+      "as": "ভাৰত এছিয়াত আৰু এছিয়া বিশ্বত, গতিকে সংহতিবোৰ নীড়বদ্ধ।"
+    }
+  },
+  {
+    "id": "venn-diagram-040",
+    "q": {
+      "en": "Which Venn diagram best represents the relationship among Rose, Lotus, Flower?",
+      "as": "কোনটো ভেন চিত্ৰই গোলাপ, পদুম, ফুল ৰ মাজৰ সম্পৰ্ক সঠিকভাৱে দেখুৱায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"25\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"48\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Rose</text><rect x=\"28\" y=\"63\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"86\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Lotus</text><rect x=\"28\" y=\"101\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Flower</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"62\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"44\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"60\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"72\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"128\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"40\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rose and lotus are different flowers, both inside flowers.",
+      "as": "গোলাপ আৰু পদুম বেলেগ ফুল, দুয়োটা ফুলৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagram-041",
+    "q": {
+      "en": "Which Venn diagram best represents the relationship among Cricket, Football, Game?",
+      "as": "কোনটো ভেন চিত্ৰই ক্ৰিকেট, ফুটবল, খেল ৰ মাজৰ সম্পৰ্ক সঠিকভাৱে দেখুৱায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"25\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"48\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Cricket</text><rect x=\"28\" y=\"63\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"86\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Football</text><rect x=\"28\" y=\"101\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Game</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"60\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"72\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"128\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"62\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"44\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"40\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cricket and football are different games, both inside games.",
+      "as": "ক্ৰিকেট আৰু ফুটবল বেলেগ খেল, দুয়োটা খেলৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagram-042",
+    "q": {
+      "en": "Which Venn diagram best represents the relationship among Animal, Bird, Sparrow?",
+      "as": "কোনটো ভেন চিত্ৰই প্ৰাণী, চৰাই, ঘৰচিৰিকা ৰ মাজৰ সম্পৰ্ক সঠিকভাৱে দেখুৱায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"25\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"48\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Animal</text><rect x=\"28\" y=\"63\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"86\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Bird</text><rect x=\"28\" y=\"101\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Sparrow</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"60\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"72\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"128\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"62\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"44\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"40\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A sparrow is a bird and a bird is an animal, so the sets are nested.",
+      "as": "ঘৰচিৰিকা এটা চৰাই আৰু চৰাই এটা প্ৰাণী, গতিকে সংহতিবোৰ নীড়বদ্ধ।"
+    }
+  },
+  {
+    "id": "venn-diagram-043",
+    "q": {
+      "en": "Which Venn diagram best represents the relationship among Metal, Gold, Silver?",
+      "as": "কোনটো ভেন চিত্ৰই ধাতু, সোণ, ৰূপ ৰ মাজৰ সম্পৰ্ক সঠিকভাৱে দেখুৱায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"25\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"48\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Metal</text><rect x=\"28\" y=\"63\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"86\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Gold</text><rect x=\"28\" y=\"101\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Silver</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"60\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"72\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"128\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"40\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"62\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"44\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Gold and silver are different metals, both inside metals.",
+      "as": "সোণ আৰু ৰূপ বেলেগ ধাতু, দুয়োটা ধাতুৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagram-044",
+    "q": {
+      "en": "Which Venn diagram best represents the relationship among Plant, Tree, Living being?",
+      "as": "কোনটো ভেন চিত্ৰই উদ্ভিদ, গছ, জীৱ ৰ মাজৰ সম্পৰ্ক সঠিকভাৱে দেখুৱায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"25\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"48\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Plant</text><rect x=\"28\" y=\"63\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"86\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Tree</text><rect x=\"28\" y=\"101\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Living being</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"60\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"72\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"128\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"62\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"44\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"40\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A tree is a plant and a plant is a living being, so the sets are nested.",
+      "as": "গছ এটা উদ্ভিদ আৰু উদ্ভিদ এটা জীৱ, গতিকে সংহতিবোৰ নীড়বদ্ধ।"
+    }
+  },
+  {
+    "id": "venn-diagram-045",
+    "q": {
+      "en": "Which Venn diagram best represents the relationship among Number, Even, Odd?",
+      "as": "কোনটো ভেন চিত্ৰই সংখ্যা, যুগ্ম, অযুগ্ম ৰ মাজৰ সম্পৰ্ক সঠিকভাৱে দেখুৱায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"25\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"48\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Number</text><rect x=\"28\" y=\"63\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"86\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Even</text><rect x=\"28\" y=\"101\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Odd</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"60\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"72\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"128\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"62\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"44\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"40\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Even and odd numbers are separate sets, both inside numbers.",
+      "as": "যুগ্ম আৰু অযুগ্ম সংখ্যা পৃথক সংহতি, দুয়োটা সংখ্যাৰ ভিতৰত।"
+    }
+  },
+  {
+    "id": "venn-diagram-046",
+    "q": {
+      "en": "Which Venn diagram best represents the relationship among Sentence, Word, Letter?",
+      "as": "কোনটো ভেন চিত্ৰই বাক্য, শব্দ, বৰ্ণ ৰ মাজৰ সম্পৰ্ক সঠিকভাৱে দেখুৱায়?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"28\" y=\"25\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"48\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Sentence</text><rect x=\"28\" y=\"63\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"86\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Word</text><rect x=\"28\" y=\"101\" width=\"144\" height=\"34\" rx=\"8\" fill=\"none\" stroke=\"#1e293b\" stroke-width=\"1.4\"/><text x=\"100\" y=\"124\" font-size=\"14\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1e293b\">Letter</text></svg>",
+    "options": [
+      {
+        "option": "A",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"62\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"44\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "B",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"40\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"80\" r=\"26\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "C",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"100\" cy=\"80\" r=\"60\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"72\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"128\" cy=\"80\" r=\"24\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "option": "D",
+        "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"82\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"118\" cy=\"58\" r=\"42\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"94\" r=\"42\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Letters make words and words make sentences, so the sets are nested.",
+      "as": "বৰ্ণৰ পৰা শব্দ আৰু শব্দৰ পৰা বাক্য, গতিকে সংহতিবোৰ নীড়বদ্ধ।"
+    }
   }
-}
+]
