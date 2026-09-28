@@ -11,19 +11,20 @@
      - Third-party/CDN    -> never touched (ads, analytics, fonts)
      - Range requests     -> never touched (PDF streaming)
 
-   Bump CACHE_VERSION whenever the core asset URLs change so that
-   old cached copies are purged.
+   CACHE_VERSION is derived from the content hashes of the precached
+   assets by scripts/stamp-assets.js, so it only changes (and only then
+   purges the old cache) when an asset's bytes actually change.
    ============================================================ */
-const CACHE_VERSION = "v1";
+const CACHE_VERSION = "51d8e4f5";
 const CACHE_NAME = "axomexam-static-" + CACHE_VERSION;
 
 /* Warm the cache on install with the current asset versions. */
 const PRECACHE = [
-  "/css/style.css?v=20260928a",
-  "/js/config.js?v=20260917a",
-  "/js/i18n.js?v=20260917a",
-  "/js/api.js?v=20260927a",
-  "/js/app.js?v=20260928b",
+  "/css/style.css?v=c950ad2f",
+  "/js/config.js?v=c1144777",
+  "/js/i18n.js?v=0830055b",
+  "/js/api.js?v=26b456f9",
+  "/js/app.js?v=950269f7",
   "/app/axomexam-icon.png",
 ];
 
