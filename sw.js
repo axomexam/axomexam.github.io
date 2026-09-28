@@ -14,12 +14,12 @@
    Bump CACHE_VERSION whenever the core asset URLs change so that
    old cached copies are purged.
    ============================================================ */
-const CACHE_VERSION = "v3";
+const CACHE_VERSION = "v4";
 const CACHE_NAME = "axomexam-static-" + CACHE_VERSION;
 
 /* Warm the cache on install with the current asset versions. */
 const PRECACHE = [
-  "/css/style.css?v=20260928c",
+  "/css/style.css?v=20260928d",
   "/js/config.js?v=20260917a",
   "/js/i18n.js?v=20260917a",
   "/js/api.js?v=20260927a",
