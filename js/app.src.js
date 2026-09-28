@@ -45,10 +45,12 @@
 
   /* ================= On-demand third-party libraries =================
      html2canvas / jsPDF are only needed when the user generates a PDF or
-     shares a result card, so they are loaded lazily instead of shipping
-     ~550 KB of unused JavaScript on every page. */
+     shares a result card. KaTeX is only needed on pages that actually
+     contain math delimiters. All three are loaded lazily instead of
+     shipping ~600 KB of unused JavaScript on every page. */
   let _pdfLibsPromise = null;
   let _html2canvasPromise = null;
+  let _katexPromise = null;
 
   function loadScriptOnce(src) {
     return new Promise((resolve, reject) => {
@@ -59,6 +61,26 @@
       s.onerror = () => reject(new Error("Failed to load " + src));
       document.head.appendChild(s);
     });
+  }
+
+  function loadStyleOnce(id, href) {
+    if (document.getElementById(id)) return;
+    const l = document.createElement("link");
+    l.id = id;
+    l.rel = "stylesheet";
+    l.href = href;
+    document.head.appendChild(l);
+  }
+
+  function ensureKatex() {
+    if (typeof window.renderMathInElement === "function") return Promise.resolve();
+    if (!_katexPromise) {
+      loadStyleOnce("katex-css", "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css");
+      _katexPromise = loadScriptOnce("https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js")
+        .then(() => loadScriptOnce("https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"))
+        .catch((e) => { _katexPromise = null; throw e; });
+    }
+    return _katexPromise;
   }
 
   function ensureHtml2canvas() {
@@ -284,7 +306,10 @@
 
   function renderMathJax(el) {
     if (!el) return;
-    if (typeof renderMathInElement === "function") {
+    /* Only pay for KaTeX when the element actually contains math. */
+    if (!/\$|\\\(|\\\[/.test(el.textContent || "")) return;
+    ensureKatex().then(function () {
+      if (typeof renderMathInElement !== "function") return;
       try {
         renderMathInElement(el, {
           delimiters: [
@@ -296,7 +321,7 @@
           throwOnError: false
         });
       } catch (e) { }
-    }
+    }).catch(function () { });
   }
 
   /* Universal content extractor */
