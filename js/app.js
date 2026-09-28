@@ -1254,6 +1254,7 @@
             <div class="stat"><b id="stat-total-pdfs">${totalPdfs}+</b><span>${t("stat.pdfs")}</span></div>
           </div>
         </div>
+        ${heroVisualHTML()}
       </section>
 
       <section class="section">
@@ -1382,6 +1383,33 @@
 
     observeReveals();
     loadExamQuestionTotal();
+  }
+
+  function heroVisualHTML() {
+    const examName = (typeof CONFIG !== "undefined" && CONFIG.MOCK && CONFIG.MOCK.EXAM_NAME) || "ADRE / Assam Police";
+    const target = new Date((typeof CONFIG !== "undefined" && CONFIG.MOCK && CONFIG.MOCK.EXAM_DATE) || "2026-12-31").getTime();
+    const now = Date.now();
+    const daysLeft = target > now ? Math.max(0, Math.ceil((target - now) / 86400000)) : 0;
+    const fraction = target > now ? Math.min(1, daysLeft / 365) : 0;
+    const C = 314;
+    const offset = C * (1 - fraction);
+    return `
+      <div class="hero-visual">
+        <div class="countdown-ring">
+          <svg viewBox="0 0 120 120" aria-hidden="true">
+            <circle class="ring-bg" cx="60" cy="60" r="50"></circle>
+            <circle class="ring-fg" cx="60" cy="60" r="50" stroke-dashoffset="${offset.toFixed(1)}"></circle>
+          </svg>
+          <div class="ring-center">
+            <span class="ring-num">${daysLeft}</span>
+            <span class="ring-label">${t("hero.days")}</span>
+            <span class="ring-label">${escapeHtml(examName)}</span>
+          </div>
+        </div>
+        <span class="float-chip c1"><span class="dot"></span>ADRE</span>
+        <span class="float-chip c2"><span class="dot"></span>GK & Math</span>
+        <span class="float-chip c3"><span class="dot"></span>Assam Police</span>
+      </div>`;
   }
 
   function trendingTopics(list) {
