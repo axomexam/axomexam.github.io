@@ -6125,27 +6125,22 @@
     applyStaticI18n();
     initAppPrompt();
 
-    try {
-      const data = await API.getCategories();
-      Object.assign(state, normalize(data));
-    } catch (err) {
-      console.error("Failed to load categories:", err);
-    }
+    /* Fetch boot data in parallel (was sequential) to shorten time-to-render. */
+    const [categoriesData, countsData, trendingData] = await Promise.all([
+      API.getCategories().catch((err) => {
+        console.error("Failed to load categories:", err);
+        return null;
+      }),
+      API.getCounts().catch(() => null),
+      API.getTrendingTopics().catch((err) => {
+        console.error("Failed to load extra trending topics:", err);
+        return null;
+      }),
+    ]);
 
-    /* One small manifest replaces the old per-topic fetch storm. */
-    try {
-      const counts = await API.getCounts();
-      applyPrecomputedCounts(counts);
-    } catch (err) {
-      /* counts.json is optional; pages still work without it. */
-    }
-
-    try {
-      const extras = await API.getTrendingTopics();
-      registerExtraTrending(extras);
-    } catch (err) {
-      console.error("Failed to load extra trending topics:", err);
-    }
+    if (categoriesData) Object.assign(state, normalize(categoriesData));
+    if (countsData) applyPrecomputedCounts(countsData);
+    if (trendingData) registerExtraTrending(trendingData);
 
     if (state.categories.length) {
       state.ready = true;
