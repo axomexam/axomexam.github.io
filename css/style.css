@@ -1116,6 +1116,14 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   .container { max-width: 1360px; }
   .nav-list { flex-wrap: nowrap; gap: 1px; }
   .nav-link { padding: 8px 11px; margin: 0; font-size: .93rem; }
+
+  /* Desktop hero only: keep the four CTAs compact on a single line.
+     Mobile styling lives in the max-width: 900px block and is untouched. */
+  .hero-actions { flex-wrap: nowrap; gap: 8px; }
+  .hero-actions .btn {
+    flex: 0 0 auto; width: auto;
+    padding: 8px 14px; font-size: .84rem; white-space: nowrap;
+  }
 }
 
 /* Narrow desktop / desktop-mode-on-mobile: let the nav wrap instead of
