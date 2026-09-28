@@ -19,6 +19,7 @@
  *
  * Typical order after editing styles or scripts:
  *   node scripts/optimize-render-path.js  # refresh the inline critical CSS
+ *   node scripts/minify-assets.js         # minify .src.* -> deployed assets
  *   node scripts/stamp-assets.js          # refresh the ?v= hashes + sw.js
  */
 

@@ -7,9 +7,14 @@
  *  1. Adds `defer` to the four shared scripts on every page so the
  *     parser is not blocked by ~100 KB of JavaScript.
  *  2. On selected entry pages (currently the homepage) it inlines the
- *     above-the-fold "critical" CSS extracted from css/style.css and
+ *     above-the-fold "critical" CSS extracted from css/style.src.css and
  *     switches the full stylesheet to a non-blocking preload. This
  *     removes style.css from the render-blocking critical path.
+ *
+ * The critical ranges below are line numbers in the *source* stylesheet
+ * (css/style.src.css), which is kept unminified for that reason. The
+ * deployed css/style.css is the minified copy produced by
+ * scripts/minify-assets.js.
  *
  * Run from the repository root:
  *   node scripts/optimize-render-path.js
@@ -19,7 +24,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = process.argv[2] ? path.resolve(process.argv[2]) : process.cwd();
-const STYLE_CSS = path.join(ROOT, "css", "style.css");
+const STYLE_CSS = path.join(ROOT, "css", "style.src.css");
 const SKIP_DIRS = new Set([".git", "node_modules", ".github", ".monkeycode-tmp-files"]);
 
 /* Scripts that must run in order but must not block the parser. */
