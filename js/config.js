@@ -226,3 +226,22 @@ const TOPIC_ICON_RULES = [
   gtag("js", new Date());
   gtag("config", GA_ID);
 })();
+
+/* ------------------------------------------------------------
+   Service worker registration
+   Enables long-lived caching of static assets on GitHub Pages,
+   whose HTTP Cache-Control is capped at 10 minutes. Fails
+   silently where service workers are unavailable (HTTP, old
+   browsers) so it never affects page behaviour.
+   ------------------------------------------------------------ */
+(function () {
+  if (!("serviceWorker" in navigator)) return;
+  var register = function () {
+    navigator.serviceWorker.register("/sw.js").catch(function () {});
+  };
+  if (document.readyState === "complete") {
+    register();
+  } else {
+    window.addEventListener("load", register);
+  }
+})();
