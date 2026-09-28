@@ -1116,10 +1116,6 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   .container { max-width: 1360px; }
   .nav-list { flex-wrap: nowrap; gap: 1px; }
   .nav-link { padding: 8px 11px; margin: 0; font-size: .93rem; }
-
-  /* Hero CTAs: content-width, compact, all four on a single centred line */
-  .hero-actions { flex-wrap: nowrap; justify-content: center; gap: 8px; }
-  .hero-actions .btn { flex: 0 0 auto; width: auto; padding: 8px 14px; font-size: .84rem; white-space: nowrap; }
 }
 
 /* Narrow desktop / desktop-mode-on-mobile: let the nav wrap instead of
