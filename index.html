@@ -358,28 +358,6 @@ h1, h2, h3, h4 { line-height: 1.25; font-weight: 700; }
 .hero-stats .stat b { display: block; font-size: 1.25rem; font-weight: 800; }
 .hero-stats .stat span { font-size: .78rem; opacity: .85; }
 
-/* ---- Unique visual: countdown ring + floating chips ---- */
-.hero-visual { position: relative; width: 172px; height: 172px; display: grid; place-items: center; flex-shrink: 0; }
-.countdown-ring { position: relative; width: 150px; height: 150px; }
-.countdown-ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
-.countdown-ring .ring-bg { fill: none; stroke: rgba(255,255,255,.14); stroke-width: 7; }
-.countdown-ring .ring-fg { fill: none; stroke: #fff; stroke-width: 7; stroke-linecap: round; stroke-dasharray: 314; transition: stroke-dashoffset 1s ease; }
-.ring-center { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
-.ring-center .ring-num { font-size: 1.35rem; font-weight: 800; letter-spacing: -.5px; line-height: 1.1; }
-.ring-center .ring-label { font-size: .62rem; opacity: .8; letter-spacing: 1.2px; text-transform: uppercase; margin-top: 3px; }
-.float-chip {
-  position: absolute; display: inline-flex; align-items: center; gap: 5px;
-  padding: 5px 11px; border-radius: 99px; font-size: .72rem; font-weight: 700;
-  background: rgba(255,255,255,.18); border: 1px solid rgba(255,255,255,.3);
-  white-space: nowrap;
-  animation: floaty 6s ease-in-out infinite;
-}
-.float-chip .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--chip, #fff); box-shadow: 0 0 8px var(--chip, #fff); }
-.float-chip.c1 { top: -8px; left: -22px; --chip: #22d3ee; }
-.float-chip.c2 { bottom: 2px; right: -26px; --chip: #fbbf24; animation-delay: -1.6s; }
-.float-chip.c3 { top: 48%; right: -38px; --chip: #f472b6; animation-delay: -3s; }
-@keyframes floaty { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-11px) } }
-
 /* ----- Section scaffolding ----- */
 .section { padding: 40px 0 8px; }
 .section-head { display: flex; align-items: end; justify-content: space-between; gap: 14px; margin-bottom: 22px; }
@@ -521,6 +499,16 @@ h1, h2, h3, h4 { line-height: 1.25; font-weight: 700; }
 /* Footer and toast must remain dark in dark mode */
 [data-theme="dark"] .site-footer { background: #020617; }
 [data-theme="dark"] .toast { background: #1e293b; color: #e5e7eb; }
+
+/* Desktop: no side visual, content centred, four CTAs on one compact line */
+@media (min-width: 901px) {
+  .hero { grid-template-columns: 1fr; }
+  .hero-content { text-align: center; }
+  .hero h1, .hero p.sub { margin-left: auto; margin-right: auto; }
+  .hero-actions { flex-wrap: nowrap; justify-content: center; gap: 10px; }
+  .hero-actions .btn { padding: 9px 16px; font-size: .86rem; white-space: nowrap; }
+  .hero-stats { justify-content: center; }
+}
 
 /* ============================================================
 @media (max-width: 900px) {
@@ -704,8 +692,8 @@ h1, h2, h3, h4 { line-height: 1.25; font-weight: 700; }
   .site-footer { padding-bottom: 6px; }
   .footer-inner { padding: 34px 20px 24px; }
 }</style>
-  <link rel="preload" as="style" href="/css/style.css?v=20260928a" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript><link rel="stylesheet" href="/css/style.css?v=20260928a" /></noscript>
+  <link rel="preload" as="style" href="/css/style.css?v=20260928b" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="/css/style.css?v=20260928b" /></noscript>
 
   <!-- GitHub Pages / Netlify Clean URL Single Page App Redirection Handler -->
   <script>
@@ -1039,6 +1027,6 @@ h1, h2, h3, h4 { line-height: 1.25; font-weight: 700; }
   <script src="/js/config.js?v=20260917a" defer></script>
   <script src="/js/i18n.js?v=20260917a" defer></script>
   <script src="/js/api.js?v=20260927a" defer></script>
-  <script src="/js/app.js?v=20260928b" defer></script>
+  <script src="/js/app.js?v=20260928c" defer></script>
 </body>
 </html>
