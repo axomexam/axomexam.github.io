@@ -79,14 +79,16 @@
   </script>
 
   <!-- Google AdSense Script -->
-  <!-- Reserve space for Google Auto Ads (prevents layout shift / CLS) -->
-  <style id="axo-ad-reserve">
+  <!-- Reserve space for Google Auto Ads and the JS-built desktop nav (prevents layout shift / CLS) -->
+  <style id="axo-layout-reserve">
     ins.adsbygoogle:not(.adsbygoogle-noablate):not([data-anchor-status]),
     .google-auto-placed { min-height: 280px; }
     @media (min-width: 768px) {
       ins.adsbygoogle:not(.adsbygoogle-noablate):not([data-anchor-status]),
       .google-auto-placed { min-height: 250px; }
     }
+    @media (min-width: 901px) and (max-width: 1100px) { .main-nav { min-height: 97px; } }
+    @media (min-width: 1101px) { .main-nav { min-height: 54px; } }
   </style>
 
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4574824794620382" crossorigin="anonymous"></script>

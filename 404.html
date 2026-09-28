@@ -39,7 +39,19 @@
         l.hash
       );
     </script>
-  </head>
+  <!-- Reserve space for Google Auto Ads and the JS-built desktop nav (prevents layout shift / CLS) -->
+  <style id="axo-layout-reserve">
+    ins.adsbygoogle:not(.adsbygoogle-noablate):not([data-anchor-status]),
+    .google-auto-placed { min-height: 280px; }
+    @media (min-width: 768px) {
+      ins.adsbygoogle:not(.adsbygoogle-noablate):not([data-anchor-status]),
+      .google-auto-placed { min-height: 250px; }
+    }
+    @media (min-width: 901px) and (max-width: 1100px) { .main-nav { min-height: 97px; } }
+    @media (min-width: 1101px) { .main-nav { min-height: 54px; } }
+  </style>
+
+</head>
   <body>
   
   <section class="section axo-extra-content" data-axo-extra="1" data-axo-path="/404.html" style="padding-bottom:48px;">
