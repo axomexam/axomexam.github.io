@@ -1093,13 +1093,9 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   .nav-list { flex-wrap: nowrap; gap: 1px; }
   .nav-link { padding: 8px 11px; margin: 0; font-size: .93rem; }
 
-  /* Hero: no side visual, content centred, four CTAs on one compact line */
+  /* Hero: no side visual, four CTAs on one line, centred (text stays left) */
   .hero { grid-template-columns: 1fr; }
-  .hero-content { text-align: center; }
-  .hero h1, .hero p.sub { margin-left: auto; margin-right: auto; }
   .hero-actions { flex-wrap: nowrap; justify-content: center; gap: 10px; }
-  .hero-actions .btn { padding: 9px 16px; font-size: .86rem; white-space: nowrap; }
-  .hero-stats { justify-content: center; }
 }
 
 /* Narrow desktop / desktop-mode-on-mobile: let the nav wrap instead of
