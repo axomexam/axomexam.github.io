@@ -34,7 +34,9 @@ const CRITICAL_PAGES = new Set(["index.html"]);
  * preloader, header, search, theme toggle, navigation, hero, section
  * scaffolding, page header, tab bar, reveal state, dark mode and the
  * mobile overrides. They are copied verbatim so the layout does not
- * shift when the full stylesheet arrives.
+ * shift when the full stylesheet arrives. Keep every range inside full
+ * comment / @media boundaries: a range that ends on a dangling `/*`
+ * would comment out whatever is appended after it.
  */
 const CRITICAL_RANGES = [
   [6, 126],
@@ -45,8 +47,8 @@ const CRITICAL_RANGES = [
   [494, 500],
   [687, 709],
   [1082, 1086],
-  [1171, 1271],
-  [1991, 2171],
+  [1171, 1270],
+  [1986, 2171],
 ];
 
 function walk(dir, files) {
@@ -85,10 +87,20 @@ function addDefer(html) {
 }
 
 function asyncStylesheet(html, criticalCss) {
+  const styleTagRe = /<style id="axo-critical-css">[\s\S]*?<\/style>/;
+  const existing = html.match(styleTagRe);
+
+  /* Re-running the script refreshes the inline block from the current
+     css/style.css instead of leaving a stale copy behind. */
+  if (existing) {
+    const updated = '<style id="axo-critical-css">' + criticalCss + "</style>";
+    if (existing[0] === updated) return { html, changed: false };
+    return { html: html.replace(styleTagRe, updated), changed: true };
+  }
+
   const linkRe = /<link rel="stylesheet" href="(\/css\/style\.css(?:\?[^"]*)?)"\s*\/?>/;
   const match = html.match(linkRe);
   if (!match) return { html, changed: false };
-  if (html.includes('id="axo-critical-css"')) return { html, changed: false };
 
   const href = match[1];
   const replacement =
