@@ -4,10 +4,12 @@
 /*
  * Optimise the render path across the generated static pages.
  *
- * Adds `defer` to the four shared scripts on every page so the HTML
- * parser is not blocked by ~100 KB of JavaScript. Execution order is
- * preserved (defer runs in document order, before DOMContentLoaded)
- * and the trailing per-page guard scripts do not depend on them.
+ *  1. Adds `defer` to the four shared scripts on every page so the
+ *     parser is not blocked by ~100 KB of JavaScript.
+ *  2. On selected entry pages (currently the homepage) it inlines the
+ *     above-the-fold "critical" CSS extracted from css/style.css and
+ *     switches the full stylesheet to a non-blocking preload. This
+ *     removes style.css from the render-blocking critical path.
  *
  * Run from the repository root:
  *   node scripts/optimize-render-path.js
@@ -17,10 +19,35 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = process.argv[2] ? path.resolve(process.argv[2]) : process.cwd();
+const STYLE_CSS = path.join(ROOT, "css", "style.css");
 const SKIP_DIRS = new Set([".git", "node_modules", ".github", ".monkeycode-tmp-files"]);
 
 /* Scripts that must run in order but must not block the parser. */
 const DEFER_SCRIPTS = ["config.js", "i18n.js", "api.js", "app.js"];
+
+/* Pages that get the critical-CSS + async stylesheet treatment. */
+const CRITICAL_PAGES = new Set(["index.html"]);
+
+/*
+ * Line ranges (1-indexed, inclusive) of css/style.css that cover the
+ * elements visible before the first scroll on every template: base,
+ * preloader, header, search, theme toggle, navigation, hero, section
+ * scaffolding, page header, tab bar, reveal state, dark mode and the
+ * mobile overrides. They are copied verbatim so the layout does not
+ * shift when the full stylesheet arrives.
+ */
+const CRITICAL_RANGES = [
+  [6, 126],
+  [128, 153],
+  [207, 244],
+  [246, 293],
+  [349, 438],
+  [494, 500],
+  [687, 709],
+  [1082, 1086],
+  [1171, 1271],
+  [1991, 2171],
+];
 
 function walk(dir, files) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -32,6 +59,15 @@ function walk(dir, files) {
     }
   }
   return files;
+}
+
+function buildCriticalCss() {
+  const lines = fs.readFileSync(STYLE_CSS, "utf8").split("\n");
+  const parts = [];
+  for (const [start, end] of CRITICAL_RANGES) {
+    parts.push(lines.slice(start - 1, end).join("\n"));
+  }
+  return parts.join("\n");
 }
 
 function addDefer(html) {
@@ -48,26 +84,67 @@ function addDefer(html) {
   return { html, changed };
 }
 
+function asyncStylesheet(html, criticalCss) {
+  const linkRe = /<link rel="stylesheet" href="(\/css\/style\.css(?:\?[^"]*)?)"\s*\/?>/;
+  const match = html.match(linkRe);
+  if (!match) return { html, changed: false };
+  if (html.includes('id="axo-critical-css"')) return { html, changed: false };
+
+  const href = match[1];
+  const replacement =
+    '<style id="axo-critical-css">' +
+    criticalCss +
+    "</style>\n  " +
+    '<link rel="preload" as="style" href="' +
+    href +
+    '" onload="this.onload=null;this.rel=\'stylesheet\'" />\n  ' +
+    '<noscript><link rel="stylesheet" href="' +
+    href +
+    '" /></noscript>';
+
+  return { html: html.replace(linkRe, replacement), changed: true };
+}
+
 function main() {
+  const criticalCss = buildCriticalCss();
   const files = walk(ROOT, []);
 
   let deferred = 0;
-  let skipped = 0;
+  let critical = 0;
+  const skipped = [];
 
   for (const file of files) {
-    const html = fs.readFileSync(file, "utf8");
+    const rel = path.relative(ROOT, file);
+    let html = fs.readFileSync(file, "utf8");
+    let changed = false;
+
     const d = addDefer(html);
     if (d.changed) {
-      fs.writeFileSync(file, d.html, "utf8");
+      html = d.html;
+      changed = true;
       deferred++;
+    }
+
+    if (CRITICAL_PAGES.has(rel.split(path.sep).join("/"))) {
+      const c = asyncStylesheet(html, criticalCss);
+      if (c.changed) {
+        html = c.html;
+        changed = true;
+        critical++;
+      }
+    }
+
+    if (changed) {
+      fs.writeFileSync(file, html, "utf8");
     } else if (!html.includes('src="/js/app.js')) {
-      skipped++;
+      skipped.push(rel);
     }
   }
 
   console.log("Scanned:          " + files.length);
   console.log("Deferred scripts: " + deferred);
-  console.log("Skipped (stubs):  " + skipped);
+  console.log("Critical CSS:     " + critical);
+  console.log("Skipped (stubs):  " + skipped.length);
 }
 
 main();
