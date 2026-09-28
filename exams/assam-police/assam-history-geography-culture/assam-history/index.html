@@ -73,6 +73,16 @@
   </script>
 
   <!-- Google AdSense Script -->
+  <!-- Reserve space for Google Auto Ads (prevents layout shift / CLS) -->
+  <style id="axo-ad-reserve">
+    ins.adsbygoogle:not(.adsbygoogle-noablate):not([data-anchor-status]),
+    .google-auto-placed { min-height: 280px; }
+    @media (min-width: 768px) {
+      ins.adsbygoogle:not(.adsbygoogle-noablate):not([data-anchor-status]),
+      .google-auto-placed { min-height: 250px; }
+    }
+  </style>
+
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4574824794620382" crossorigin="anonymous"></script>
 
 
