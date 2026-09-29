@@ -67,7 +67,6 @@ const CONFIG = {
         "rrb-alp": { "2024": ["rrb-alp-2024.pdf"], "2025": ["rrb-alp-2025.pdf"] },
       },
       "guwahati-hc": { "2024": ["ghc-steno-2024.pdf"] },
-      "dhs-dme": { "2023": ["dhs-dme-2023.pdf"] },
       "assam-police": { "2022": ["assam-police-ab-2022.pdf"] },
     },
   },
@@ -83,10 +82,7 @@ const CONFIG = {
       { id: "rrb-alp", name: { en: "RRB ALP", as: "RRB ALP" }, color: "#f59e0b", icon: "ALP" },
     ] },
     { id: "guwahati-hc", name: { en: "Guwahati High Court", as: "গুৱাহাটী উচ্চ ন্যায়ালয়" }, color: "#8b5cf6", icon: "HC" },
-    { id: "dhs-dme", name: { en: "DHS DME", as: "DHS DME" }, color: "#10b981", icon: "DHS" },
     { id: "assam-police", name: { en: "Assam Police", as: "অসম আৰক্ষী" }, color: "#2563eb", icon: "AP" },
-    { id: "apsc", name: { en: "APSC", as: "APSC" }, color: "#d97706", icon: "APSC" },
-    { id: "apdcl", name: { en: "APDCL", as: "APDCL" }, color: "#059669", icon: "APDCL" },
     { id: "adre", name: { en: "ADRE", as: "ADRE" }, color: "#db2777", icon: "ADRE" },
   ],
 
