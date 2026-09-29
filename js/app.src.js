@@ -193,7 +193,7 @@
     articles: "Articles are long-form, easy-reading study pieces that explain a topic in depth and in simple bilingual language, so you can build conceptual clarity before attempting questions.",
     "assam-police": "Assam Police previous year papers help you understand the actual question pattern, difficulty level and frequently repeated topics for Sub-Inspector and Constable recruitment conducted by SLPRB.",
     "dhs-dme": "DHS and DME previous year papers cover the question patterns for Directorate of Health Services and Directorate of Medical Education recruitment in Assam.",
-    "guwahati-hc": "Guwahati High Court previous year papers cover the pattern for Grade III, Grade IV, Steno and related recruitment under the High Court of Assam.",
+    "guwahati-hc": "Guwahati High Court previous year papers cover the pattern for Grade III, Grade IV, Junior Assistant (JAA) and related recruitment under the High Court of Assam.",
     railway: "Railway previous year papers cover NTPB, Group D, ALP and related central railway recruitment patterns, including the computer-based test structure.",
     ssc: "SSC previous year papers cover CGL, CHSL, MTS and related central government recruitment patterns, useful for candidates preparing for both central and state posts."
   };

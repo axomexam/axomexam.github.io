@@ -66,7 +66,7 @@ const CONFIG = {
         "rrb-group-d": { "2024": ["rrb-group-d-2024.pdf"], "2025": ["rrb-group-d-2025.pdf"] },
         "rrb-alp": { "2024": ["rrb-alp-2024.pdf"], "2025": ["rrb-alp-2025.pdf"] },
       },
-      "guwahati-hc": { "2026": ["ghc-steno-2026.pdf"] },
+      "guwahati-hc": { "2026": ["ghc-jaa-2026.pdf"] },
       "assam-police": { "2022": ["assam-police-ab-2022.pdf"] },
     },
   },
