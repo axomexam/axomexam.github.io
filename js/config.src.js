@@ -68,6 +68,11 @@ const CONFIG = {
       },
       "guwahati-hc": { "2026": ["ghc-jaa-2026.pdf"] },
       "assam-police": { "2022": ["assam-police-ab-2022.pdf"] },
+      adre: {
+        "grade-3": { "2024": ["adre-grade-3-2024.pdf"] },
+        "grade-4": { "2024": ["adre-grade-4-2024.pdf"] },
+        driver: { "2024": ["adre-driver-2024.pdf"] },
+      },
     },
   },
 
@@ -83,7 +88,11 @@ const CONFIG = {
     ] },
     { id: "guwahati-hc", name: { en: "Guwahati High Court", as: "গুৱাহাটী উচ্চ ন্যায়ালয়" }, color: "#8b5cf6", icon: "HC" },
     { id: "assam-police", name: { en: "Assam Police", as: "অসম আৰক্ষী" }, color: "#2563eb", icon: "AP" },
-    { id: "adre", name: { en: "ADRE", as: "ADRE" }, color: "#db2777", icon: "ADRE" },
+    { id: "adre", name: { en: "ADRE", as: "ADRE" }, color: "#db2777", icon: "ADRE", children: [
+      { id: "grade-3", name: { en: "ADRE Grade III", as: "ADRE গ্ৰেড III" }, color: "#db2777", icon: "G3" },
+      { id: "grade-4", name: { en: "ADRE Grade IV", as: "ADRE গ্ৰেড IV" }, color: "#ec4899", icon: "G4" },
+      { id: "driver", name: { en: "ADRE Driver", as: "ADRE ড্ৰাইভাৰ" }, color: "#f472b6", icon: "DRV" },
+    ] },
   ],
 
   /* How many questions per page in the Q&A reader */
