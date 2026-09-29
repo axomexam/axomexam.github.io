@@ -67,7 +67,10 @@ const CONFIG = {
         "rrb-alp": { "2024": ["rrb-alp-2024.pdf"], "2025": ["rrb-alp-2025.pdf"] },
       },
       "guwahati-hc": { "2026": ["ghc-jaa-2026.pdf"] },
-      "assam-police": { "2022": ["assam-police-ab-2022.pdf"] },
+      "assam-police": {
+        "ab-ub": { "2025": ["assam-police-ab-ub-2025.pdf"] },
+        "si": { "2025": ["assam-police-si-2025.pdf"] },
+      },
       adre: {
         "grade-3": { "2024": ["adre-grade-3-2024.pdf"] },
         "grade-4": { "2024": ["adre-grade-4-2024.pdf"] },
@@ -87,7 +90,10 @@ const CONFIG = {
       { id: "rrb-alp", name: { en: "RRB ALP", as: "RRB ALP" }, color: "#f59e0b", icon: "ALP" },
     ] },
     { id: "guwahati-hc", name: { en: "Guwahati High Court", as: "গুৱাহাটী উচ্চ ন্যায়ালয়" }, color: "#8b5cf6", icon: "HC" },
-    { id: "assam-police", name: { en: "Assam Police", as: "অসম আৰক্ষী" }, color: "#2563eb", icon: "AP" },
+    { id: "assam-police", name: { en: "Assam Police", as: "অসম আৰক্ষী" }, color: "#2563eb", icon: "AP", children: [
+      { id: "ab-ub", name: { en: "Assam Police AB & UB", as: "অসম আৰক্ষী AB আৰু UB" }, color: "#2563eb", icon: "AB-UB" },
+      { id: "si", name: { en: "Assam Police SI (Sub Inspector)", as: "অসম আৰক্ষী SI (উপ-পৰিদৰ্শক)" }, color: "#1d4ed8", icon: "SI" },
+    ] },
     { id: "adre", name: { en: "ADRE", as: "ADRE" }, color: "#db2777", icon: "ADRE", children: [
       { id: "grade-3", name: { en: "ADRE Grade III", as: "ADRE গ্ৰেড III" }, color: "#db2777", icon: "G3" },
       { id: "grade-4", name: { en: "ADRE Grade IV", as: "ADRE গ্ৰেড IV" }, color: "#ec4899", icon: "G4" },
