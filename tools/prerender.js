@@ -30,7 +30,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
-const SRC_DATA = path.join(ROOT, "data", "sample");
+const SRC_DATA = path.join(ROOT, "data");
 const OUT = path.join(ROOT, "dist");
 
 const BASE = "https://axomexam.in";
@@ -1440,7 +1440,7 @@ function buildPreviousYearPapers(exam, year) {
     .map(
       (f) => `<div class="sub-card reveal" style="margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px;">
         <div style="font-weight:700; color:var(--ink,#0f172a);">${escapeHtml(f)}</div>
-        <a class="btn btn-sm btn-outline" href="/data/sample/previous-year/${exam.id}/${year}/${f}" download>Download PDF</a>
+        <a class="btn btn-sm btn-outline" href="/data/previous-year/${exam.id}/${year}/${f}" download>Download PDF</a>
       </div>`
     )
     .join("");
@@ -1491,7 +1491,7 @@ function buildDownloadsPage() {
   const cards = DOWNLOADS.map(
     (f) => `<div class="sub-card reveal" style="margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px;">
       <div style="font-weight:700; color:var(--ink,#0f172a);">${escapeHtml(f)}</div>
-      <a class="btn btn-sm btn-outline" href="/data/sample/download/${f}" download>Download PDF</a>
+      <a class="btn btn-sm btn-outline" href="/data/download/${f}" download>Download PDF</a>
     </div>`
   ).join("");
   const body =

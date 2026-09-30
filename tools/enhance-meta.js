@@ -85,7 +85,7 @@ function truncate(s, n) {
 
 const asNameByRoute = {}; // "/topic/gk/..." -> "দানৱ বংশ"
 
-const catsData = readJSON(path.join(ROOT, "data", "sample", "categories.json"));
+const catsData = readJSON(path.join(ROOT, "data", "categories.json"));
 const RAW_CATS = (catsData && catsData.categories) || [];
 
 function nameAs(obj) {
@@ -136,7 +136,7 @@ RAW_CATS.forEach(walkCat);
 
 /* trending topics */
 try {
-  const dir = path.join(ROOT, "data", "sample", "trending-topics");
+  const dir = path.join(ROOT, "data", "trending-topics");
   for (const f of fs.readdirSync(dir)) {
     if (!f.endsWith(".json")) continue;
     const d = readJSON(path.join(dir, f));
@@ -168,7 +168,7 @@ try {
 /* ---------------- topic content (for Assamese description/tags) ---------------- */
 
 function findContentFile(catId, topicId) {
-  const base = path.join(ROOT, "data", "sample", "content");
+  const base = path.join(ROOT, "data", "content");
   const stack = [path.join(base, catId)];
   while (stack.length) {
     const dir = stack.pop();

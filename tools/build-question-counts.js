@@ -27,7 +27,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
-const SAMPLE = path.join(ROOT, "data", "sample");
+const SAMPLE = path.join(ROOT, "data");
 const CONTENT_DIR = path.join(SAMPLE, "content");
 const EXAMS_DIR = path.join(ROOT, "data", "exams");
 const OUT_FILE = path.join(ROOT, "data", "counts.json");

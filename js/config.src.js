@@ -32,19 +32,19 @@ const CONFIG = {
 
   /* Local fallback bundle (Fixed with Absolute Paths) */
   FALLBACK: {
-    CATEGORIES_URL: "/data/sample/categories.json",
-    CONTENT_BASE: "/data/sample/content/",
-    PDF_BASE: "/data/sample/pdfs/",
-    /* Downloads page — flat list of PDFs inside /data/sample/download/ */
-    DOWNLOAD_BASE: "/data/sample/download/",
+    CATEGORIES_URL: "/data/categories.json",
+    CONTENT_BASE: "/data/content/",
+    PDF_BASE: "/data/pdfs/",
+    /* Downloads page — flat list of PDFs inside /data/download/ */
+    DOWNLOAD_BASE: "/data/download/",
     DOWNLOADS: ["brahmaputra-river.pdf", "country-capital.pdf"],
-    /* Extra trending topics — JSON files inside /data/sample/trending-topics/ */
-    TRENDING_BASE: "/data/sample/trending-topics/",
+    /* Extra trending topics — JSON files inside /data/trending-topics/ */
+    TRENDING_BASE: "/data/trending-topics/",
     TRENDING: ["assam-gk-special"],
-    /* Previous year questions — /data/sample/previous-year/<exam>/<year>/<file>.pdf */
-    PYEAR_BASE: "/data/sample/previous-year/",
-    /* Mock test sets — /data/sample/mock-test/<category>/<subcategory>/set-<n>.json */
-    MOCKSETS_BASE: "/data/sample/mock-test/",
+    /* Previous year questions — /data/previous-year/<exam>/<year>/<file>.pdf */
+    PYEAR_BASE: "/data/previous-year/",
+    /* Mock test sets — /data/mock-test/<category>/<subcategory>/set-<n>.json */
+    MOCKSETS_BASE: "/data/mock-test/",
     /* E-Books — book JSON files live in /data/books/<id>.json (same repo).
        This bundled list is used only when the GitHub Contents API is
        unavailable, so the library still renders the known sample books. */
