@@ -1360,7 +1360,7 @@
           </a>
           <a class="feat-card reveal" href="/current-affairs" style="--fc:#ef4444">
             <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h13a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6z"/><path d="M4 6V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/><path d="M8 10h6"/><path d="M8 13h6"/><path d="M8 16h3"/></svg></span>
-            <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়া চলিত ঘটনাৱলী" : "Free Current Affairs"}</b><span>${state.uiLang === "as" ? "দৈনিক প্ৰশ্ন আৰু ব্যাখ্যা" : "Updated Q&A with answers"}</span><span class="feat-count" id="ca-feat-count" hidden></span></span>
+            <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়া চলিত ঘটনাৱলী" : "Free Current Affairs"}</b><span>${state.uiLang === "as" ? "দৈনিক প্ৰশ্ন আৰু ব্যাখ্যা" : "Updated Q&A with answers"}</span></span>
           </a>
         </div>
         <style>
@@ -1378,7 +1378,6 @@
           .feat-body { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 3px; min-width: 0; }
           .feat-body b { font-size: .98rem; font-weight: 700; letter-spacing: -.2px; color: var(--ink); }
           .feat-body span { font-size: .775rem; line-height: 1.35; color: var(--ink-faint); }
-          .feat-body .feat-count { font-size: .72rem; font-weight: 700; color: var(--fc); }
           @media (max-width: 640px) {
             .feat-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
             .feat-card { gap: 9px; padding: 16px 12px; border-radius: 16px; min-height: 118px; }
@@ -3934,11 +3933,6 @@
         badge.hidden = false;
       }
     });
-    const feat = $("#ca-feat-count");
-    if (feat && state.caQuestionTotal > 0) {
-      feat.textContent = `${state.caQuestionTotal.toLocaleString()} ${t("topic.questions")}`;
-      feat.hidden = false;
-    }
   }
 
   /* Sum every question in the Free Current Affairs library and add it to the
