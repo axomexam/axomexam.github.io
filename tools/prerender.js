@@ -873,9 +873,9 @@ function buildHome() {
   const body = `
       <section class="hero reveal visible">
         <div class="hero-content">
-          <a class="hero-badge" href="/mock-test">ADRE 2.0 / RRB</a>
-          <h1>Crack Competitive Exams with Bilingual Q&A &amp; PDF Notes</h1>
-          <p class="sub">Practice thousands of exam questions and download printable PDF notes in both Assamese and English — built for APSC, Assam Police, ADRE, and Central Railways.</p>
+          <a class="hero-badge" href="/mock-test">ADRE 3.0 / RRB</a>
+          <h1>Crack Assam Competitive Exams with Bilingual Q&amp;A &amp; PDF Notes</h1>
+          <p class="sub">Practice thousands of questions for Assam competitive exams and download printable PDF notes in both Assamese and English — for ADRE 3.0, APSC, Assam Police, SSC, Railway &amp; more.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="/category/${firstCat}">Start Practicing</a>
             <a class="btn btn-ghost" href="/mock-test">Take a Mock Test</a>

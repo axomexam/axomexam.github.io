@@ -211,10 +211,10 @@
         <div class="hero-content">
           <a class="hero-badge" href="/mock-test">
             <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
-            ${r("hero.daily")} • ADRE 2.0 / RRB
+            ${r("hero.daily")} • ADRE 3.0 / RRB
           </a>
-          <h1>${r("hero.title")||"Crack Competitive Exams with Bilingual Q&A & PDF Notes"}</h1>
-          <p class="sub">${r("hero.sub")||"Practice thousands of exam questions and download printable PDF notes in both Assamese and English — built for APSC, Assam Police, ADRE, and Central Railways."}</p>
+          <h1>${r("hero.title")||"Crack Assam Competitive Exams with Bilingual Q&A & PDF Notes"}</h1>
+          <p class="sub">${r("hero.sub")||"Practice thousands of questions for Assam competitive exams and download printable PDF notes in both Assamese and English — for ADRE 3.0, APSC, Assam Police, SSC, Railway & more."}</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="/category/${s}">${r("hero.cta")}</a>
             <a class="btn btn-ghost" href="/mock-test">${r("hero.cta3")}</a>
