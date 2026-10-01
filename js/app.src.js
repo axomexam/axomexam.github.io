@@ -4158,6 +4158,38 @@
       </article>`;
   }
 
+  function makePaginatedQA(body, questions, perPage, emptyHTML) {
+    const items = Array.isArray(questions) ? questions : [];
+    const total = items.length;
+    const totalPages = Math.max(1, Math.ceil(total / perPage));
+    let page = 0;
+    const paint = (lang) => {
+      if (!body) return;
+      if (!total) {
+        body.innerHTML = emptyHTML || `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`;
+        return;
+      }
+      const start = page * perPage;
+      const slice = items.slice(start, start + perPage);
+      const qHTML = `<div class="qa-list">${slice.map((q, i) => examQACardHTML(q, start + i + 1, lang)).join("")}</div>`;
+      const pagerHTML = totalPages > 1
+        ? `<div class="qa-pager" style="display:flex; justify-content:center; align-items:center; gap:12px; margin-top:24px;">
+            <button type="button" id="qa-prev" class="btn btn-sm btn-outline" ${page === 0 ? "disabled" : ""} style="padding:6px 14px; font-weight:700;">${t("topic.prev")}</button>
+            <span class="pager-info" style="font-weight:700; font-size:.88rem; color:var(--ink-soft,#64748b);">${page + 1} / ${totalPages}</span>
+            <button type="button" id="qa-next" class="btn btn-sm btn-outline" ${page >= totalPages - 1 ? "disabled" : ""} style="padding:6px 14px; font-weight:700;">${t("topic.next")}</button>
+          </div>`
+        : "";
+      body.innerHTML = qHTML + pagerHTML;
+      if (totalPages > 1) {
+        const prevBtn = body.querySelector("#qa-prev");
+        const nextBtn = body.querySelector("#qa-next");
+        if (prevBtn) prevBtn.addEventListener("click", () => { if (page > 0) { page--; paint(lang); scheduleEbkProgress(); window.scrollTo({ top: 0, behavior: "smooth" }); } });
+        if (nextBtn) nextBtn.addEventListener("click", () => { if (page < totalPages - 1) { page++; paint(lang); scheduleEbkProgress(); window.scrollTo({ top: 0, behavior: "smooth" }); } });
+      }
+    };
+    return paint;
+  }
+
   function examBodyHTML(data, sec, lang) {
     const type = data.type || (sec && sec.type) || "qa";
 
@@ -4299,7 +4331,11 @@
       </div>`;
 
     const body = $("#exam-body");
-    const paint = (lang) => { if (body) body.innerHTML = examBodyHTML(data, sec, lang); };
+    const secType = data.type || (sec && sec.type);
+    const isChapterData = secType === "syllabus" || (data.chapters && data.chapters.length);
+    const paint = isChapterData
+      ? (lang) => { if (body) body.innerHTML = examBodyHTML(data, sec, lang); }
+      : makePaginatedQA(body, Array.isArray(data.questions) ? data.questions : [], 30, `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`);
     paint(readLang);
     showEbookProgress(color);
 
@@ -4423,14 +4459,7 @@
       </div>`;
 
     const body = $("#exam-body");
-    const paint = (lang) => {
-      if (!body) return;
-      if (!count) {
-        body.innerHTML = `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`;
-        return;
-      }
-      body.innerHTML = `<div class="qa-list">${questions.map((q, i) => examQACardHTML(q, i + 1, lang)).join("")}</div>`;
-    };
+    const paint = makePaginatedQA(body, questions, 30, `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`);
     paint(readLang);
     showEbookProgress(color);
 
@@ -4524,14 +4553,7 @@
       </div>`;
 
     const body = $("#exam-body");
-    const paint = (lang) => {
-      if (!body) return;
-      if (!count) {
-        body.innerHTML = `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`;
-        return;
-      }
-      body.innerHTML = `<div class="qa-list">${questions.map((q, i) => examQACardHTML(q, i + 1, lang)).join("")}</div>`;
-    };
+    const paint = makePaginatedQA(body, questions, 30, `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`);
     paint(readLang);
     showEbookProgress(color);
 
