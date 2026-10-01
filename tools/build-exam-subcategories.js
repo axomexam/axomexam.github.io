@@ -892,7 +892,7 @@ function buildShellPage({ subEn, subAs, secEn, secAs, examEn, secHref, subHref, 
       <div class="footer-brand">
         <span class="brand-mark">A</span>
         <span class="brand-text">axomexam</span>
-        <p id="footer-tagline" class="footer-tagline">Comprehensive Preparation Portal for Assam Competitive Examinations</p>
+        <p id="footer-tagline" class="footer-tagline">Comprehensive Preparation Portal for Assam Competitive Exams</p>
       </div>
       <div class="footer-links">
         <div>
