@@ -148,6 +148,21 @@ const CONFIG = {
     REPO: "axomexam.github.io",
     BRANCH: "main",
   },
+
+  /* Free Current Affairs (bilingual Q&A, updated by the axomexam team).
+     data/current-affairs/index.json lists every sub-category (Sports,
+     Awards, Appointments ...). Each sub-category keeps ONE JSON FILE PER
+     QUESTION inside its folder, auto-discovered from the repo like e-books:
+       data/current-affairs/<sub-category-id>/<question-file>.json
+     A small index.json inside the folder carries the topic intro + upload
+     metadata and doubles as the offline / local-preview file manifest. */
+  CURRENT_AFFAIRS: {
+    DIR: "data/current-affairs",
+    INDEX: "data/current-affairs/index.json",
+    OWNER: "axomexam",
+    REPO: "axomexam.github.io",
+    BRANCH: "main",
+  },
 };
 
 /* Colour palette used to tint category cards */

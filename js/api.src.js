@@ -380,10 +380,111 @@ const API = (() => {
     return result;
   }
 
+  /* ---- Free Current Affairs ----
+     data/current-affairs/index.json lists the sub-categories. Each
+     sub-category folder holds ONE JSON FILE PER QUESTION (bilingual Q&A with
+     an intro), auto-discovered from the public GitHub Contents API so newly
+     uploaded questions appear automatically. The folder's index.json carries
+     the topic intro + upload metadata and lists the files for the offline /
+     local-preview fallback. */
+  async function listCurrentAffairs() {
+    const cfg = CONFIG.CURRENT_AFFAIRS || {};
+    const rel = cfg.INDEX || "data/current-affairs/index.json";
+    const url = CONFIG.USE_REMOTE ? rawUrl(rel) : `/${rel}`;
+    try {
+      const data = await fetchJSON(url);
+      return Array.isArray(data) ? data : (data && Array.isArray(data.categories) ? data.categories : []);
+    } catch (e) {
+      return [];
+    }
+  }
+
+  async function getCurrentAffairsCategory(catId) {
+    const cfg = CONFIG.CURRENT_AFFAIRS || {};
+    const dir = cfg.DIR || "data/current-affairs";
+    const safe = String(catId || "").replace(/[^A-Za-z0-9_-]/g, "");
+    if (!safe) throw new Error("Invalid current affairs category");
+    const rel = `${dir}/${safe}/index.json`;
+    const url = CONFIG.USE_REMOTE ? rawUrl(rel) : `/${rel}`;
+    return fetchJSON(url);
+  }
+
+  async function listCurrentAffairsQuestions(catId) {
+    const cfg = CONFIG.CURRENT_AFFAIRS || {};
+    const dir = cfg.DIR || "data/current-affairs";
+    const safe = String(catId || "").replace(/[^A-Za-z0-9_-]/g, "");
+    if (!safe) throw new Error("Invalid current affairs category");
+    const relDir = `${dir}/${safe}`;
+
+    const cacheKey = relDir;
+    if (examQuestionCache[cacheKey]) return examQuestionCache[cacheKey];
+
+    const relUrl = (name) => (CONFIG.USE_REMOTE ? rawUrl(`${relDir}/${name}`) : `/${relDir}/${name}`);
+    const isManifest = (name) => /^index\.json$/i.test(name);
+
+    let files = [];
+
+    const loadFromApi = async () => {
+      try {
+        const owner = cfg.OWNER || "axomexam";
+        const repo = cfg.REPO || "axomexam.github.io";
+        const branch = cfg.BRANCH || "main";
+        const items = await fetchJSON(
+          `${API_BASE}/repos/${owner}/${repo}/contents/${relDir}?ref=${branch}`
+        );
+        return (Array.isArray(items) ? items : [])
+          .filter((i) => i.type === "file" && /\.json$/i.test(i.name) && !isManifest(i.name))
+          .map((i) => ({ name: i.name, url: i.download_url || relUrl(i.name) }));
+      } catch (e) {
+        return [];
+      }
+    };
+
+    const loadFromManifest = async () => {
+      try {
+        const man = await fetchJSON(relUrl("index.json"));
+        const list = (man && Array.isArray(man.files)) ? man.files : [];
+        return list
+          .filter((n) => typeof n === "string" && /\.json$/i.test(n) && !isManifest(n))
+          .map((name) => ({ name, url: relUrl(name) }));
+      } catch (e) {
+        return [];
+      }
+    };
+
+    files = await loadFromApi();
+    if (!files.length) files = await loadFromManifest();
+
+    files.sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true, sensitivity: "base" }));
+
+    const records = await Promise.all(files.map(async (f) => {
+      try {
+        const data = await fetchJSON(f.url);
+        if (Array.isArray(data)) {
+          return data.map((item) => {
+            if (item && typeof item === "object" && !Array.isArray(item)) {
+              if (!item.file) item.file = f.name;
+              return item;
+            }
+            return null;
+          });
+        }
+        if (data && typeof data === "object" && !data.file) data.file = f.name;
+        return data;
+      } catch (e) {
+        return null;
+      }
+    }));
+    const result = records.filter(Boolean).flat().filter(Boolean);
+    examQuestionCache[cacheKey] = result;
+    return result;
+  }
+
   return {
     getCategories, getTopic, getTopicMarkdown, listPdfDir, pdfUrl,
     listDownloads, getTrendingTopics, listPreviousYearYears, listPreviousYearPdfs,
     getArticles, getMockSet, getBook, listBooks, listExams, getExamSection,
-    listExamQuestions, getCounts,
+    listExamQuestions, getCounts, listCurrentAffairs, getCurrentAffairsCategory,
+    listCurrentAffairsQuestions,
   };
 })();

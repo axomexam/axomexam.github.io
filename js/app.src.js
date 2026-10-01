@@ -1195,6 +1195,15 @@
           title = "Your Exams | axomexam";
         }
         if (!subName) desc = "Choose your exam and prepare subject-wise — syllabus, Elementary Mathematics, General English, Logical Reasoning & Mental Ability, Assam's History, Geography & Culture and General Knowledge & Current Affairs. Read online in English and Assamese, no download.";
+      } else if (segs[0] === "current-affairs") {
+        const slug = (segs[1] || "").replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+        if (slug) {
+          title = slug + " Current Affairs Q&A | axomexam";
+          desc = "Free " + slug + " current affairs questions with explained answers in Assamese and English — updated regularly by the axomexam team.";
+        } else {
+          title = "Free Current Affairs Questions & Answers | axomexam";
+          desc = "Free bilingual current affairs Q&A for Assam competitive exams — sports, awards, appointments, economy, environment and more, updated by the axomexam team.";
+        }
       } else if (segs[0] === "categories") {
         title = "All Categories | axomexam";
       } else if (["about", "privacy", "privacy-policy", "terms", "disclaimer", "contact", "submit"].includes(segs[0])) {
@@ -1274,6 +1283,10 @@
       if (segs[1]) return renderExamPage(main, segs[1]);
       return renderExamsPage(main);
     }
+    if (segs[0] === "current-affairs") {
+      if (segs[1]) return renderCurrentAffairsCategoryPage(main, segs[1]);
+      return renderCurrentAffairsPage(main);
+    }
     if (segs[0] === "submit") return renderSubmitPage(main);
     if (segs[0] === "mock-test") {
       return handleMockRouting(main, segs);
@@ -1341,6 +1354,10 @@
           <a class="feat-card reveal" href="/downloads" style="--fc:#0d9488">
             <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg></span>
             <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়া PDF টোকা" : "Free PDF Notes"}</b><span>${state.uiLang === "as" ? "প্ৰিন্ট কৰিব পৰা PDF নোট" : "Printable PDF notes"}</span></span>
+          </a>
+          <a class="feat-card reveal" href="/current-affairs" style="--fc:#ef4444">
+            <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h13a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6z"/><path d="M4 6V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/><path d="M8 10h6"/><path d="M8 13h6"/><path d="M8 16h3"/></svg></span>
+            <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়া চলিত ঘটনাৱলী" : "Free Current Affairs"}</b><span>${state.uiLang === "as" ? "দৈনিক প্ৰশ্ন আৰু ব্যাখ্যা" : "Updated Q&A with answers"}</span></span>
           </a>
         </div>
         <style>
@@ -3469,6 +3486,186 @@
           <span class="ebook-read-btn">${escapeHtml(statusLabel)}</span>
         </span>
       </a>`;
+  }
+
+  /* ================= Free Current Affairs =================
+     A separate bilingual Q&A library (Sports, Awards, Appointments ...).
+     data/current-affairs/index.json lists the sub-categories; each
+     sub-category folder keeps one JSON question per file, discovered at
+     runtime like the Your Exams library. Every category page carries its
+     topic intro, the upload date and "uploaded by axomexam team", then a
+     simple question with an explained answer and a language toggle. */
+  const CA_ICONS = {
+    trophy: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8"/><path d="M12 17v4"/><path d="M7 4h10v6a5 5 0 0 1-10 0z"/><path d="M7 6H4v2a3 3 0 0 0 3 3"/><path d="M17 6h3v2a3 3 0 0 1-3 3"/></svg>',
+    award: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="5"/><path d="m8.5 13.5-1.5 8 5-3 5 3-1.5-8"/></svg>',
+    calendar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>',
+    book: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg>',
+    user: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg>',
+    atom: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="1.6"/><ellipse cx="12" cy="12" rx="9" ry="3.4"/><ellipse cx="12" cy="12" rx="9" ry="3.4" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="3.4" transform="rotate(120 12 12)"/></svg>',
+    map: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>',
+    globe: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18z"/></svg>',
+    flag: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 22V2"/><path d="M5 3c4 0 4 3 8 3s4-3 8-3v10c-4 0-4-3-8-3s-4 3-8 3"/></svg>',
+    shield: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>',
+    coins: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="7" rx="7" ry="3"/><path d="M5 7v10c0 1.7 3.1 3 7 3s7-1.3 7-3V7"/><path d="M5 12c0 1.7 3.1 3 7 3s7-1.3 7-3"/></svg>',
+    chart: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15v3M12 10v8M17 6v12"/></svg>',
+    leaf: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6"/></svg>',
+    users: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.5 3-5.5 6.5-5.5s6.5 2 6.5 5.5"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7"/><path d="M17.5 14.6c2.4.5 4 2.1 4 4.4"/></svg>',
+    flower: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2a3 3 0 0 1 0 6 3 3 0 0 1 0-6z"/><path d="M12 16a3 3 0 0 1 0 6 3 3 0 0 1 0-6z"/><path d="M2 12a3 3 0 0 1 6 0 3 3 0 0 1-6 0z"/><path d="M16 12a3 3 0 0 1 6 0 3 3 0 0 1-6 0z"/></svg>',
+  };
+
+  function currentAffairsIcon(cat) {
+    const key = (cat && cat.icon) || "";
+    if (CA_ICONS[key]) return CA_ICONS[key];
+    if (typeof TOPIC_ICON_RULES !== "undefined") {
+      const hay = ((cat && cat.id) || "") + " " + ((cat && cat.title && cat.title.en) || "");
+      for (const [re, svg] of TOPIC_ICON_RULES) {
+        if (re.test(hay)) return svg;
+      }
+    }
+    return (typeof CATEGORY_ICON_SVG !== "undefined" && CATEGORY_ICON_SVG["current-affairs"]) || CA_ICONS.globe;
+  }
+
+  function currentAffairsCardHTML(cat, i) {
+    const color = cat.color || "#ef4444";
+    const nameEn = ebkLang(cat.title, "en");
+    const nameAs = ebkLang(cat.title, "as");
+    return `
+      <a class="sub-card reveal exam-sec-card" href="/current-affairs/${encodeURIComponent(cat.id)}" style="--cat:${color}" data-delay="${(i % 8) * 40}">
+        <span class="sub-ico"><span class="cat-svg">${currentAffairsIcon(cat)}</span></span>
+        <span class="exam-sec-txt">
+          <b>${escapeHtml(nameEn)}</b>
+          ${nameAs && nameAs !== nameEn ? `<span class="exam-sec-as">${escapeHtml(nameAs)}</span>` : ""}
+        </span>
+        <span class="exam-sec-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </span>
+      </a>`;
+  }
+
+  async function renderCurrentAffairsPage(main) {
+    main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
+    let cats = [];
+    try { cats = await API.listCurrentAffairs(); } catch (e) { cats = []; }
+    if (!Array.isArray(cats)) cats = [];
+
+    main.innerHTML = `
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("nav.currentAffairs")}</span>
+        </nav>
+        <h1>${t("ca.title")}</h1>
+        <p class="page-desc">${t("ca.sub")}</p>
+        <p class="exams-choose">${t("ca.choose")}</p>
+      </div>
+      <section class="section" style="padding-bottom:46px;">
+        ${cats.length
+          ? `<div class="sub-grid exam-sec-grid" style="--cat:#ef4444">${cats.map((c, i) => currentAffairsCardHTML(c, i)).join("")}</div>`
+          : `<div class="qa-empty"><div class="big">
+              <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h13a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6z"/><path d="M4 6V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/><path d="M8 10h6"/><path d="M8 13h6"/></svg>
+            </div><p>${escapeHtml(t("ca.empty"))}</p></div>`}
+        <p class="ebooks-note">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+          ${escapeHtml(t("ca.note"))}
+        </p>
+      </section>`;
+    observeReveals();
+  }
+
+  async function renderCurrentAffairsCategoryPage(main, catId) {
+    main.innerHTML = `<div class="loader"><div class="spinner"></div><p>${t("load.loading")}</p></div>`;
+
+    let meta = null;
+    let questions = [];
+    try { meta = await API.getCurrentAffairsCategory(catId); } catch (e) { meta = null; }
+    try { questions = await API.listCurrentAffairsQuestions(catId); } catch (e) { questions = []; }
+    if (!Array.isArray(questions)) questions = [];
+
+    if (!meta) {
+      main.innerHTML = `
+        <div class="page-head" style="text-align:center; max-width:720px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
+          <h1>${t("ca.title")}</h1>
+          <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${escapeHtml(t("ca.noCategory"))}</p>
+          <div style="margin-top:20px;"><a class="btn btn-accent" href="/current-affairs">${t("ca.back")}</a></div>
+        </div>`;
+      return;
+    }
+
+    const color = meta.color || "#ef4444";
+    const titleEn = ebkLang(meta.title, "en") || catId;
+    const titleAs = ebkLang(meta.title, "as");
+    const readLang = state.lang === "as" ? "as" : "en";
+    const count = questions.length;
+
+    main.innerHTML = `
+      <div class="page-head ebk-page-head">
+        <nav class="breadcrumb">
+          <a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/current-affairs">${t("nav.currentAffairs")}</a><span class="bc-sep">/</span>
+          <span>${escapeHtml(titleEn)}</span>
+        </nav>
+      </div>
+      <div class="ebk-reader" style="--ebk:${color};">
+        <header class="ebk-head-card ebk-head-clean">
+          <div class="ebk-head-info">
+            <div class="ebk-chips">
+              <span class="ebk-chip ebk-chip-solid">${t("nav.currentAffairs")}</span>
+              <span class="ebk-chip">${t("ca.questions")}</span>
+            </div>
+            <h2 class="ebk-head-title">${escapeHtml(titleEn)}${titleAs && titleAs !== titleEn ? `<span class="ebk-head-title-as">${escapeHtml(titleAs)}</span>` : ""}</h2>
+          </div>
+        </header>
+
+        <div class="ebk-read-toolbar">
+          <div class="ebk-instruct">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            ${t("ca.uploadedBy")}
+          </div>
+          <div class="lang-switch ebk-tswitch" role="group" aria-label="Reading language">
+            <button type="button" class="lang-btn ${readLang === "as" ? "active" : ""}" data-calang="as">${t("topic.lang.as")}</button>
+            <button type="button" class="lang-btn ${readLang === "en" ? "active" : ""}" data-calang="en">${t("topic.lang.en")}</button>
+          </div>
+        </div>
+
+        <div id="ca-body"></div>
+
+        <div class="ebk-reader-foot">
+          <a class="btn btn-outline btn-sm" href="/current-affairs">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+            ${t("ca.back")}
+          </a>
+        </div>
+      </div>`;
+
+    const body = $("#ca-body");
+    const updated = meta.updated || "";
+    const uploadedBy = meta.uploadedBy || "axomexam team";
+    const paint = (lang) => {
+      if (!body) return;
+      const intro = ebkLang(meta.intro, lang);
+      const introHTML = intro
+        ? `<div class="ca-intro" style="margin:0 0 14px; padding:14px 16px; border-radius:14px; border:1px solid var(--border,#e2e8f0); background:linear-gradient(180deg, color-mix(in srgb, ${color} 9%, transparent), transparent); font-size:.92rem; line-height:1.65; color:var(--ink-soft,#334155); text-align:left;">${escapeHtml(intro)}</div>`
+        : "";
+      const metaHTML = `
+        <div class="ca-meta" style="display:flex; flex-wrap:wrap; gap:6px 18px; margin:0 0 18px; font-size:.78rem; color:var(--ink-muted,#64748b);">
+          ${updated ? `<span><b>${lang === "as" ? "আপডেট" : "Updated"}:</b> ${escapeHtml(updated)}</span>` : ""}
+          <span><b>${lang === "as" ? "আপলোড কৰিছে" : "Uploaded by"}:</b> ${escapeHtml(uploadedBy)}</span>
+        </div>`;
+      const qHTML = count
+        ? `<div class="qa-list">${questions.map((q, i) => examQACardHTML(q, i + 1, lang)).join("")}</div>`
+        : `<div class="qa-empty"><p>${escapeHtml(t("ca.noContent"))}</p></div>`;
+      body.innerHTML = introHTML + metaHTML + qHTML;
+    };
+    paint(readLang);
+    showEbookProgress(color);
+
+    $$(".lang-btn", main).forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const target = btn.dataset.calang;
+        $$(".lang-btn", main).forEach((x) => x.classList.toggle("active", x.dataset.calang === target));
+        paint(target);
+        scheduleEbkProgress();
+      });
+    });
   }
 
   async function renderExamsPage(main) {

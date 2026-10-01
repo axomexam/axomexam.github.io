@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "title": {
+      "en": "Free Current Affairs",
+      "as": "বিনামূলীয়া চলিত ঘটনাৱলী"
+    },
+    "note": "Add a sub-category here and create data/current-affairs/<id>/index.json plus question-XXX.json files inside its folder."
+  },
+  "categories": [
+    {
+      "id": "sports",
+      "color": "#16a34a",
+      "icon": "trophy",
+      "title": {
+        "en": "Sports",
+        "as": "ক্ৰীড়া"
+      },
+      "intro": {
+        "en": "Latest sports news, tournaments, winners and records from India and around the world. These questions cover cricket, football, olympics, national games and major championships.",
+        "as": "ভাৰত আৰু বিশ্বৰ শেহতীয়া ক্ৰীড়া বাতৰি, প্ৰতিযোগিতা, বিজেতা আৰু অভিলেখ। এই প্ৰশ্নসমূহত ক্ৰিকেট, ফুটবল, অলিম্পিক, ৰাষ্ট্ৰীয় খেল আৰু প্ৰধান চেম্পিয়নশ্বিপ সামৰি লোৱা হৈছে।"
+      }
+    },
+    {
+      "id": "awards-honours",
+      "color": "#f59e0b",
+      "icon": "award",
+      "title": {
+        "en": "Awards & Honours",
+        "as": "বঁটা আৰু সন্মান"
+      },
+      "intro": {
+        "en": "National and international awards, honours and recognitions. Questions on Bharat Ratna, Padma awards, Nobel Prizes, sports awards and literary honours.",
+        "as": "ৰাষ্ট্ৰীয় আৰু আন্তঃৰাষ্ট্ৰীয় বঁটা, সন্মান আৰু স্বীকৃতি। ভাৰত ৰত্ন, পদ্ম বঁটা, নোবেল বঁটা, ক্ৰীড়া বঁটা আৰু সাহিত্যিক সন্মানৰ প্ৰশ্ন।"
+      }
+    },
+    {
+      "id": "important-days-themes",
+      "color": "#e11d48",
+      "icon": "calendar",
+      "title": {
+        "en": "Important Days & Themes",
+        "as": "গুৰুত্বপূৰ্ণ দিৱস আৰু থিম"
+      },
+      "intro": {
+        "en": "National and international days observed through the year along with their yearly themes. A high-scoring, factual area in every current-affairs paper.",
+        "as": "বছৰজুৰি পালন কৰা ৰাষ্ট্ৰীয় আৰু আন্তঃৰাষ্ট্ৰীয় দিৱস আৰু তাৰ বছৰেকীয়া থিম। প্ৰতিখন চলিত ঘটনাৱলীৰ প্ৰশ্নপত্ৰত এইটো এটা উচ্চ নম্বৰৰ, তথ্যভিত্তিক ক্ষেত্ৰ।"
+      }
+    },
+    {
+      "id": "books-authors",
+      "color": "#8b5cf6",
+      "icon": "book",
+      "title": {
+        "en": "Books & Authors",
+        "as": "গ্ৰন্থ আৰু লেখক"
+      },
+      "intro": {
+        "en": "Newly released books, their authors and important literary works. Also covers famous autobiographies, award-winning books and Assamese literature.",
+        "as": "শেহতীয়াকৈ প্ৰকাশিত গ্ৰন্থ, তেওঁলোকৰ লেখক আৰু গুৰুত্বপূৰ্ণ সাহিত্যকৰ্ম। লগতে বিখ্যাত আত্মজীৱনী, বঁটা-প্ৰাপ্ত গ্ৰন্থ আৰু অসমীয়া সাহিত্যও সামৰি লোৱা হৈছে।"
+      }
+    },
+    {
+      "id": "appointments-resignations",
+      "color": "#0ea5e9",
+      "icon": "user",
+      "title": {
+        "en": "Appointments & Resignations",
+        "as": "নিযুক্তি আৰু পদত্যাগ"
+      },
+      "intro": {
+        "en": "Who's who — recent appointments, promotions and resignations in constitutional posts, government offices, corporations and international organisations.",
+        "as": "কোন ক'ত — সাংবিধানিক পদ, চৰকাৰী কাৰ্যালয়, নিগম আৰু আন্তঃৰাষ্ট্ৰীয় সংস্থাসমূহত শেহতীয়া নিযুক্তি, পদোন্নতি আৰু পদত্যাগ।"
+      }
+    },
+    {
+      "id": "science-technology",
+      "color": "#2563eb",
+      "icon": "atom",
+      "title": {
+        "en": "Science & Technology",
+        "as": "বিজ্ঞান আৰু প্ৰযুক্তি"
+      },
+      "intro": {
+        "en": "Space missions, ISRO and DRDO achievements, new technologies, inventions, defence technology and scientific research updates.",
+        "as": "মহাকাশ অভিযান, ইছৰো আৰু ডি আৰ ডি অ' ৰ সাফল্য, নতুন প্ৰযুক্তি, আৱিষ্কাৰ, প্ৰতিৰক্ষা প্ৰযুক্তি আৰু বৈজ্ঞানিক গৱেষণাৰ আপডেট।"
+      }
+    },
+    {
+      "id": "state-current-affairs",
+      "color": "#db2777",
+      "icon": "map",
+      "title": {
+        "en": "State Current Affairs",
+        "as": "ৰাজ্যিক পৰিক্ৰমা"
+      },
+      "intro": {
+        "en": "Assam and North-East specific current affairs — state government schemes, appointments, infrastructure, festivals, culture and regional events.",
+        "as": "অসম আৰু উত্তৰ-পূৰ্বাঞ্চলৰ চলিত ঘটনাৱলী — ৰাজ্য চৰকাৰৰ আঁচনি, নিযুক্তি, আন্তঃগাঁথনি, উৎসৱ, সংস্কৃতি আৰু আঞ্চলিক ঘটনা।"
+      }
+    },
+    {
+      "id": "international-affairs",
+      "color": "#0891b2",
+      "icon": "globe",
+      "title": {
+        "en": "International Affairs",
+        "as": "আন্তঃৰাষ্ট্ৰীয় পৰিক্ৰমা"
+      },
+      "intro": {
+        "en": "World events, bilateral relations, treaties, international organisations, global politics and important declarations from abroad.",
+        "as": "বিশ্বৰ ঘটনা, দ্বিপাক্ষিক সম্পৰ্ক, চুক্তি, আন্তঃৰাষ্ট্ৰীয় সংস্থা, বিশ্ব ৰাজনীতি আৰু বিদেশৰ পৰা গুৰুত্বপূৰ্ণ ঘোষণা।"
+      }
+    },
+    {
+      "id": "national-affairs",
+      "color": "#4f46e5",
+      "icon": "flag",
+      "title": {
+        "en": "National Affairs",
+        "as": "ৰাষ্ট্ৰীয় পৰিক্ৰমা"
+      },
+      "intro": {
+        "en": "Important national events, government policies, bills and acts, schemes, Parliament sessions and decisions affecting India.",
+        "as": "গুৰুত্বপূৰ্ণ ৰাষ্ট্ৰীয় ঘটনা, চৰকাৰী নীতি, বিধেয়ক আৰু আইন, আঁচনি, সংসদৰ অধিৱেশন আৰু ভাৰতক প্ৰভাৱিত কৰা সিদ্ধান্ত।"
+      }
+    },
+    {
+      "id": "defence-security",
+      "color": "#334155",
+      "icon": "shield",
+      "title": {
+        "en": "Defence & Security",
+        "as": "প্ৰতিৰক্ষা আৰু নিৰাপত্তা"
+      },
+      "intro": {
+        "en": "Indian armed forces, defence exercises, missile tests, security operations, gallantry awards and defence acquisitions.",
+        "as": "ভাৰতীয় সশস্ত্ৰ বাহিনী, প্ৰতিৰক্ষা অভ্যাস, ক্ষেপণাস্ত্ৰ পৰীক্ষা, নিৰাপত্তা অভিযান, বীৰত্ব বঁটা আৰু প্ৰতিৰক্ষা সংগ্ৰহ।"
+      }
+    },
+    {
+      "id": "economy-banking",
+      "color": "#059669",
+      "icon": "coins",
+      "title": {
+        "en": "Economy & Banking",
+        "as": "অৰ্থনীতি আৰু বেংকিং"
+      },
+      "intro": {
+        "en": "Union Budget, GDP updates, RBI policies, banking news, economic surveys, taxes and financial institutions.",
+        "as": "কেন্দ্ৰীয় বাজেট, জিডিপি আপডেট, আৰ বি আই নীতি, বেংকিং বাতৰি, অৰ্থনৈতিক সমীক্ষা, কৰ আৰু বিত্তীয় প্ৰতিষ্ঠান।"
+      }
+    },
+    {
+      "id": "rankings-reports-indices",
+      "color": "#d97706",
+      "icon": "chart",
+      "title": {
+        "en": "Rankings, Reports & Indices",
+        "as": "সূচক আৰু প্ৰতিবেদন"
+      },
+      "intro": {
+        "en": "Global and national rankings, indices and reports such as HDI, Ease of Doing Business and development reports published by international agencies.",
+        "as": "বিশ্ব আৰু ৰাষ্ট্ৰীয় ৰেংকিং, সূচক আৰু প্ৰতিবেদন যেনে এইচ ডি আই, ব্যৱসায় কৰাৰ সহজতা আৰু আন্তঃৰাষ্ট্ৰীয় সংস্থাই প্ৰকাশ কৰা উন্নয়ন প্ৰতিবেদন।"
+      }
+    },
+    {
+      "id": "environment-ecology",
+      "color": "#15803d",
+      "icon": "leaf",
+      "title": {
+        "en": "Environment & Ecology",
+        "as": "পৰিৱেশ আৰু জৈৱ-বৈচিত্ৰ্য"
+      },
+      "intro": {
+        "en": "Climate change, wildlife, biodiversity, pollution, conservation programmes and environmental summits and agreements.",
+        "as": "জলবায়ু পৰিৱৰ্তন, বন্যপ্ৰাণী, জৈৱ-বৈচিত্ৰ্য, প্ৰদূষণ, সংৰক্ষণ কাৰ্যসূচী আৰু পৰিৱেশ শীৰ্ষ সন্মিলন আৰু চুক্তি।"
+      }
+    },
+    {
+      "id": "summits-conferences",
+      "color": "#c026d3",
+      "icon": "users",
+      "title": {
+        "en": "Summits & Conferences",
+        "as": "শীৰ্ষ সন্মিলন আৰু বৈঠক"
+      },
+      "intro": {
+        "en": "Major bilateral and multilateral summits — G20, BRICS, SAARC, ASEAN, UN conferences and their host cities and outcomes.",
+        "as": "প্ৰধান দ্বিপাক্ষিক আৰু বহুপাক্ষিক শীৰ্ষ সন্মিলন — জি২০, ব্ৰিক্স, চাৰ্ক, আছিয়ান, ৰাষ্ট্ৰসংঘৰ সন্মিলন আৰু তেওঁলোকৰ আয়োজক চহৰ আৰু ফলাফল।"
+      }
+    },
+    {
+      "id": "obituaries",
+      "color": "#64748b",
+      "icon": "flower",
+      "title": {
+        "en": "Obituaries",
+        "as": "শোকবাৰ্তা"
+      },
+      "intro": {
+        "en": "Noted personalities who passed away — their contributions, achievements and the fields they served in.",
+        "as": "প্ৰয়াত বিশিষ্ট ব্যক্তিত্ব — তেওঁলোকৰ অৱদান, কৃতিত্ব আৰু তেওঁলোকে সেৱা আগবঢ়োৱা ক্ষেত্ৰ।"
+      }
+    }
+  ]
+}
