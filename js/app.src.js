@@ -3658,7 +3658,7 @@
           <span><b>${lang === "as" ? "আপলোড কৰিছে" : "Uploaded by"}:</b> ${escapeHtml(uploadedBy)}</span>
         </div>`;
       const qHTML = count
-        ? `<div class="qa-list">${questions.map((q, i) => examQACardHTML(q, i + 1, lang)).join("")}</div>`
+        ? `<div class="qa-list">${questions.map((q, i) => examQACardHTML(q, i + 1, lang, true)).join("")}</div>`
         : `<div class="qa-empty"><p>${escapeHtml(t("ca.noContent"))}</p></div>`;
       body.innerHTML = introHTML + metaHTML + qHTML;
     };
@@ -4087,8 +4087,8 @@
     return answerText;
   }
 
-  function examQACardHTML(q, n, lang) {
-    const cat = ebkLang(q.category, lang);
+  function examQACardHTML(q, n, lang, hideCat) {
+    const cat = hideCat ? "" : ebkLang(q.category, lang);
     const qtext = extractField(q, "question", lang);
     const atext = examResolveAnswer(q, lang, extractField(q, "answer", lang));
     const explanation = extractField(q, "explanation", lang);

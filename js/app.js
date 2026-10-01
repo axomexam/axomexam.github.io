@@ -1290,7 +1290,7 @@ Email: `+i+`
         <div class="ca-meta" style="display:flex; flex-wrap:wrap; gap:6px 18px; margin:0 0 18px; font-size:.78rem; color:var(--ink-muted,#64748b);">
           ${h?`<span><b>${y==="as"?"আপডেট":"Updated"}:</b> ${l(h)}</span>`:""}
           <span><b>${y==="as"?"আপলোড কৰিছে":"Uploaded by"}:</b> ${l(g)}</span>
-        </div>`,v=d?`<div class="qa-list">${n.map((C,A)=>Se(C,A+1,y)).join("")}</div>`:`<div class="qa-empty"><p>${l(r("ca.noContent"))}</p></div>`;u.innerHTML=x+w+v};m(c),ie(s),M(".lang-btn",e).forEach(y=>{y.addEventListener("click",()=>{const k=y.dataset.calang;M(".lang-btn",e).forEach(x=>x.classList.toggle("active",x.dataset.calang===k)),m(k),F()})})}async function Ta(e){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("load.loading")}</p></div>`;const t=await te();if(!t.length){e.innerHTML=`
+        </div>`,v=d?`<div class="qa-list">${n.map((C,A)=>Se(C,A+1,y,!0)).join("")}</div>`:`<div class="qa-empty"><p>${l(r("ca.noContent"))}</p></div>`;u.innerHTML=x+w+v};m(c),ie(s),M(".lang-btn",e).forEach(y=>{y.addEventListener("click",()=>{const k=y.dataset.calang;M(".lang-btn",e).forEach(x=>x.classList.toggle("active",x.dataset.calang===k)),m(k),F()})})}async function Ta(e){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("load.loading")}</p></div>`;const t=await te();if(!t.length){e.innerHTML=`
         <div class="page-head" style="text-align:center; max-width:760px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
           <h1>${r("exams.title")}</h1>
           <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${r("exams.sub")}</p>
@@ -1398,35 +1398,35 @@ Email: `+i+`
             <span style="flex:1; line-height:1.4;">${S(n)}</span>
           </div>
         `).join("")}
-      </div>`:""}function Da(e,t,a){const n=String(a||"").replace(/<[^>]+>/g,"").trim();if(n){const o=/^[\(\[]?([a-eA-E])[\)\]]?[.)]?$/.exec(n);if(!o)return a;const i=j(e,t),c=o[1].toLowerCase().charCodeAt(0)-97;return i[c]===void 0||i[c]===""?a:`${o[1].toUpperCase()}) ${i[c]}`}const s=K(e);if(s&&s.length){const o=e&&e.correct!==void 0?e.correct:e?e.answer:void 0;if(Number.isInteger(o)){if(o>=0&&o<s.length)return s[o].letter||String.fromCharCode(65+o)}else if(typeof o=="string"){const i=/^[\(\[]?([a-eA-E])[\)\]]?[.)]?$/.exec(o.trim());if(i)return i[1].toUpperCase()}}return a}function Se(e,t,a){const n=$(e.category,a),s=q(e,"question",a),o=Da(e,a,q(e,"answer",a)),i=q(e,"explanation",a),c=V(e),d=K(e),u=e.a&&typeof e.a=="object"&&e.a[a]||e.a||e.answer,h=Array.isArray(u)||o.includes("qa-step-line"),g=n?`<span style="display:block; margin-bottom:4px; font-size:.68rem; font-weight:800; letter-spacing:.4px; text-transform:uppercase; color:var(--ebk,#4f46e5);">${l(n)}</span>`:"";return h?`
+      </div>`:""}function Da(e,t,a){const n=String(a||"").replace(/<[^>]+>/g,"").trim();if(n){const o=/^[\(\[]?([a-eA-E])[\)\]]?[.)]?$/.exec(n);if(!o)return a;const i=j(e,t),c=o[1].toLowerCase().charCodeAt(0)-97;return i[c]===void 0||i[c]===""?a:`${o[1].toUpperCase()}) ${i[c]}`}const s=K(e);if(s&&s.length){const o=e&&e.correct!==void 0?e.correct:e?e.answer:void 0;if(Number.isInteger(o)){if(o>=0&&o<s.length)return s[o].letter||String.fromCharCode(65+o)}else if(typeof o=="string"){const i=/^[\(\[]?([a-eA-E])[\)\]]?[.)]?$/.exec(o.trim());if(i)return i[1].toUpperCase()}}return a}function Se(e,t,a,n){const s=n?"":$(e.category,a),o=q(e,"question",a),i=Da(e,a,q(e,"answer",a)),c=q(e,"explanation",a),d=V(e),u=K(e),h=e.a&&typeof e.a=="object"&&e.a[a]||e.a||e.answer,g=Array.isArray(h)||i.includes("qa-step-line"),m=s?`<span style="display:block; margin-bottom:4px; font-size:.68rem; font-weight:800; letter-spacing:.4px; text-transform:uppercase; color:var(--ebk,#4f46e5);">${l(s)}</span>`:"";return g?`
         <article class="qa-card" data-n="${t}" style="box-sizing:border-box; width:100%; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:12px; padding:18px 20px; margin-bottom:0; box-shadow:0 2px 6px rgba(0,0,0,0.03); text-align:left;">
           <div class="qa-q" style="margin:0 0 10px 0; padding:0; font-size:1rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">
-            ${g}${t}. ${S(s)}
+            ${m}${t}. ${S(o)}
           </div>
-          ${c}
-          ${d?Q(e,{compact:!0}):yt(e,a)}
+          ${d}
+          ${u?Q(e,{compact:!0}):yt(e,a)}
           <div class="qa-solution" style="border-top:1px dashed var(--border,#e2e8f0); padding-top:10px; margin:0; font-size:0.9rem; line-height:1.6; color:var(--ink-soft,#334155); text-align:left;">
-            <div class="a-body" style="margin:0; padding:0; text-align:left;">${o}</div>
-            ${i?`
+            <div class="a-body" style="margin:0; padding:0; text-align:left;">${i}</div>
+            ${c?`
               <div class="qa-exp" style="margin-top:8px; padding:0; font-size:0.86rem; color:var(--ink-muted,#64748b); text-align:left;">
-                <b style="color:var(--ink,#0f172a);">${a==="as"?"ব্যাখ্যা":"Explanation"}:</b> ${i}
+                <b style="color:var(--ink,#0f172a);">${a==="as"?"ব্যাখ্যা":"Explanation"}:</b> ${c}
               </div>`:""}
           </div>
         </article>`:`
       <article class="qa-card" data-n="${t}" style="box-sizing:border-box; width:100%; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:18px 20px; margin-bottom:0; box-shadow:0 2px 6px rgba(0,0,0,0.03); text-align:left;">
         <div class="qa-q" style="display:flex; align-items:flex-start; gap:10px; margin:0 0 12px 0; padding:0; text-align:left;">
           <span class="qno" style="flex-shrink:0; width:28px; height:28px; border-radius:8px; background:var(--primary-soft,#eff6ff); color:var(--primary,#2563eb); font-weight:800; font-size:0.88rem; display:inline-flex; align-items:center; justify-content:center; line-height:1; box-sizing:border-box; margin-top:1px;">${t}</span>
-          <span class="qtext" style="flex:1; font-weight:500; font-size:0.96rem; color:var(--ink,#0f172a); line-height:1.55; text-align:left; margin:0; padding:0;">${g}${S(s)}</span>
+          <span class="qtext" style="flex:1; font-weight:500; font-size:0.96rem; color:var(--ink,#0f172a); line-height:1.55; text-align:left; margin:0; padding:0;">${m}${S(o)}</span>
         </div>
-        ${c}
-        ${d?Q(e):yt(e,a)}
-        ${o?`<div class="qa-a" style="margin:10px 0 0 0; padding:0; display:flex; align-items:flex-start; gap:6px; text-align:left;">
+        ${d}
+        ${u?Q(e):yt(e,a)}
+        ${i?`<div class="qa-a" style="margin:10px 0 0 0; padding:0; display:flex; align-items:flex-start; gap:6px; text-align:left;">
           <span class="a-label" style="font-weight:700; color:var(--primary,#2563eb); flex-shrink:0; font-size:0.92rem;">${r("topic.answer")}:</span>
-          <span class="a-body" style="font-weight:600; color:var(--ink,#0f172a); line-height:1.45; font-size:0.92rem; text-align:left;">${S(o)}</span>
+          <span class="a-body" style="font-weight:600; color:var(--ink,#0f172a); line-height:1.45; font-size:0.92rem; text-align:left;">${S(i)}</span>
         </div>`:""}
-        ${i?`
+        ${c?`
           <div class="qa-exp" style="margin-top:8px; padding:0; font-size:0.86rem; color:var(--ink-muted,#64748b); line-height:1.45; text-align:left;">
-            <b style="color:var(--ink,#0f172a);">${a==="as"?"ব্যাখ্যা":"Explanation"}:</b> ${S(i)}
+            <b style="color:var(--ink,#0f172a);">${a==="as"?"ব্যাখ্যা":"Explanation"}:</b> ${S(c)}
           </div>`:""}
       </article>`}function Ba(e,t,a){if((e.type||t&&t.type||"qa")==="syllabus"||e.chapters&&e.chapters.length){const o=e.chapters||[];return o.length?`<div class="ebk-chapters">${o.map((i,c)=>`
         <section class="ebk-chapter" id="exam-ch-${c}">
