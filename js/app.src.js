@@ -1297,18 +1297,6 @@
           </a>
           <h1>${t("hero.title") || "Crack Assam Competitive Exams with Bilingual Q&A & PDF Notes"}</h1>
           <p class="sub">${t("hero.sub") || "Practice thousands of questions for Assam competitive exams and download printable PDF notes in both Assamese and English — for ADRE 3.0, APSC, Assam Police, SSC, Railway & more."}</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="/category/${firstCat}">${t("hero.cta")}</a>
-            <a class="btn btn-ghost" href="/mock-test">${t("hero.cta3")}</a>
-            <a class="btn btn-ebook" href="/ebooks">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
-              ${t("nav.ebooks")}
-            </a>
-            <a class="btn btn-exam" href="/exams">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
-              ${t("hero.ctaExams")}
-            </a>
-          </div>
           <div class="hero-stats">
             <div class="stat"><b id="stat-total-questions">${totalQuestions.toLocaleString()}+</b><span>${t("stat.questions")}</span></div>
             <div class="stat"><b>${state.topicIndex.length}+</b><span>${t("stat.topics")}</span></div>
@@ -1316,6 +1304,65 @@
           </div>
         </div>
         ${heroVisualHTML()}
+      </section>
+
+      <section class="section feat-sec">
+        <div class="section-head reveal">
+          <div>
+            <h2>${state.uiLang === "as" ? "সুবিধাসমূহ" : "Features"}</h2>
+            <p class="sec-sub">${state.uiLang === "as" ? "আৰম্ভ কৰিবলৈ এটা বিকল্প বাছনি কৰক" : "Quick ways to start your preparation"}</p>
+          </div>
+        </div>
+        <div class="feat-grid">
+          <a class="feat-card reveal" href="/category/${firstCat}" style="--fc:#4f46e5">
+            <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>
+            <span class="feat-body"><b>${t("hero.cta")}</b><span>${state.uiLang === "as" ? "বিষয়ভিত্তিক প্ৰশ্ন অনুশীলন" : "Practice Q&A by subject"}</span></span>
+          </a>
+          <a class="feat-card reveal" href="/mock-test" style="--fc:#0ea5e9">
+            <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5"/><path d="M9 2h6"/></svg></span>
+            <span class="feat-body"><b>${t("hero.cta3")}</b><span>${state.uiLang === "as" ? "সময়বদ্ধ পৰীক্ষা-ধৰণৰ টেষ্ট" : "Timed exam-pattern tests"}</span></span>
+          </a>
+          <a class="feat-card reveal" href="/ebooks" style="--fc:#f59e0b">
+            <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg></span>
+            <span class="feat-body"><b>${t("nav.ebooks")}</b><span>${state.uiLang === "as" ? "যিকোনো সময়ত অনলাইন পঢ়ক" : "Read online, anytime"}</span></span>
+          </a>
+          <a class="feat-card reveal" href="/exams" style="--fc:#8b5cf6">
+            <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
+            <span class="feat-body"><b>${t("hero.ctaExams")}</b><span>${state.uiLang === "as" ? "পৰীক্ষা-ভিত্তিক প্ৰস্তুতি" : "Exam-wise preparation"}</span></span>
+          </a>
+          <a class="feat-card reveal" href="/previous-year" style="--fc:#10b981">
+            <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></span>
+            <span class="feat-body"><b>${t("nav.previousYear")}</b><span>${state.uiLang === "as" ? "পূৰ্বৰ প্ৰশ্নপত্ৰসমূহ" : "Solved past papers"}</span></span>
+          </a>
+          <a class="feat-card reveal" href="/category/articles" style="--fc:#e11d48">
+            <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Z"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8z"/></svg></span>
+            <span class="feat-body"><b>${t("nav.articles")}</b><span>${state.uiLang === "as" ? "অধ্যয়ন প্ৰবন্ধ" : "Study articles"}</span></span>
+          </a>
+        </div>
+        <style>
+          .feat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+          .feat-card { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 12px; padding: 20px 16px; border-radius: 18px; border: 1px solid var(--line); background: radial-gradient(140% 140% at 100% 0%, color-mix(in srgb, var(--fc) 13%, transparent), transparent 58%), linear-gradient(180deg, var(--bg), var(--bg-soft)); box-shadow: var(--card-shadow); overflow: hidden; isolation: isolate; transition: transform .28s cubic-bezier(.22, .61, .36, 1), box-shadow .28s, border-color .28s; }
+          .feat-card::before { content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 1px; background: linear-gradient(135deg, color-mix(in srgb, var(--fc) 78%, transparent), transparent 46%, color-mix(in srgb, var(--fc) 45%, transparent)); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); mask-composite: exclude; opacity: 0; transition: opacity .28s; pointer-events: none; }
+          .feat-card::after { content: ""; position: absolute; top: 0; bottom: 0; left: -120%; width: 55%; background: linear-gradient(100deg, transparent, color-mix(in srgb, var(--fc) 26%, transparent), transparent); transform: skewX(-18deg); transition: left .75s cubic-bezier(.22, .61, .36, 1); pointer-events: none; }
+          .feat-card:hover { transform: translateY(-6px); border-color: color-mix(in srgb, var(--fc) 42%, var(--line)); box-shadow: 0 20px 42px -20px color-mix(in srgb, var(--fc) 60%, transparent), var(--card-shadow-hover); }
+          .feat-card:hover::before { opacity: 1; }
+          .feat-card:hover::after { left: 145%; }
+          .feat-card:active { transform: translateY(-2px) scale(.99); }
+          .feat-ico { flex: 0 0 auto; width: 50px; height: 50px; border-radius: 15px; display: grid; place-items: center; color: #fff; background: linear-gradient(145deg, color-mix(in srgb, var(--fc) 82%, #fff), var(--fc) 52%, color-mix(in srgb, var(--fc) 68%, #000)); box-shadow: 0 12px 24px -12px color-mix(in srgb, var(--fc) 90%, transparent), inset 0 1px 0 rgba(255, 255, 255, .4); transition: transform .28s cubic-bezier(.22, .61, .36, 1), box-shadow .28s; }
+          .feat-card:hover .feat-ico { transform: scale(1.07) rotate(-4deg); box-shadow: 0 16px 30px -12px color-mix(in srgb, var(--fc) 95%, transparent), inset 0 1px 0 rgba(255, 255, 255, .5); }
+          .feat-ico svg { width: 23px; height: 23px; }
+          .feat-body { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 3px; min-width: 0; }
+          .feat-body b { font-size: .98rem; font-weight: 700; letter-spacing: -.2px; color: var(--ink); }
+          .feat-body span { font-size: .775rem; line-height: 1.35; color: var(--ink-faint); }
+          @media (max-width: 640px) {
+            .feat-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+            .feat-card { gap: 9px; padding: 16px 12px; border-radius: 16px; min-height: 118px; }
+            .feat-ico { width: 44px; height: 44px; border-radius: 13px; }
+            .feat-ico svg { width: 21px; height: 21px; }
+            .feat-body b { font-size: .9rem; }
+            .feat-body span { font-size: .71rem; }
+          }
+        </style>
       </section>
 
       <section class="section">
