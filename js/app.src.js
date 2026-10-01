@@ -3643,6 +3643,10 @@
         </div>
       </div>`;
 
+    const CA_PER_PAGE = 40;
+    let caPage = 0;
+    const caTotalPages = Math.max(1, Math.ceil(count / CA_PER_PAGE));
+
     const body = $("#ca-body");
     const updated = meta.updated || "";
     const uploadedBy = meta.uploadedBy || "axomexam team";
@@ -3657,10 +3661,25 @@
           ${updated ? `<span><b>${lang === "as" ? "আপডেট" : "Updated"}:</b> ${escapeHtml(updated)}</span>` : ""}
           <span><b>${lang === "as" ? "আপলোড কৰিছে" : "Uploaded by"}:</b> ${escapeHtml(uploadedBy)}</span>
         </div>`;
+      const start = caPage * CA_PER_PAGE;
+      const pageQuestions = questions.slice(start, start + CA_PER_PAGE);
       const qHTML = count
-        ? `<div class="qa-list">${questions.map((q, i) => examQACardHTML(q, i + 1, lang, true)).join("")}</div>`
+        ? `<div class="qa-list">${pageQuestions.map((q, i) => examQACardHTML(q, start + i + 1, lang, true)).join("")}</div>`
         : `<div class="qa-empty"><p>${escapeHtml(t("ca.noContent"))}</p></div>`;
-      body.innerHTML = introHTML + metaHTML + qHTML;
+      const pagerHTML = caTotalPages > 1
+        ? `<div class="ca-pager" style="display:flex; justify-content:center; align-items:center; gap:12px; margin-top:24px;">
+            <button id="ca-prev" class="btn btn-sm btn-outline" ${caPage === 0 ? "disabled" : ""} style="padding:6px 14px; font-weight:700;">${t("topic.prev")}</button>
+            <span class="pager-info" style="font-weight:700; font-size:.88rem; color:var(--ink-soft,#64748b);">${caPage + 1} / ${caTotalPages}</span>
+            <button id="ca-next" class="btn btn-sm btn-outline" ${caPage >= caTotalPages - 1 ? "disabled" : ""} style="padding:6px 14px; font-weight:700;">${t("topic.next")}</button>
+          </div>`
+        : "";
+      body.innerHTML = introHTML + metaHTML + qHTML + pagerHTML;
+      if (caTotalPages > 1) {
+        const prevBtn = $("#ca-prev");
+        const nextBtn = $("#ca-next");
+        if (prevBtn) prevBtn.addEventListener("click", () => { if (caPage > 0) { caPage--; paint(lang); scheduleEbkProgress(); window.scrollTo({ top: 0, behavior: "smooth" }); } });
+        if (nextBtn) nextBtn.addEventListener("click", () => { if (caPage < caTotalPages - 1) { caPage++; paint(lang); scheduleEbkProgress(); window.scrollTo({ top: 0, behavior: "smooth" }); } });
+      }
     };
     paint(readLang);
     showEbookProgress(color);
