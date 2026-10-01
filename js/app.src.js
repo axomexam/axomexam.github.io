@@ -1316,27 +1316,31 @@
         <div class="feat-grid">
           <a class="feat-card reveal" href="/category/${firstCat}" style="--fc:#4f46e5">
             <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>
-            <span class="feat-body"><b>${t("hero.cta")}</b><span>${state.uiLang === "as" ? "বিষয়ভিত্তিক প্ৰশ্ন অনুশীলন" : "Practice Q&A by subject"}</span></span>
+            <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়াকৈ অনুশীলন আৰম্ভ কৰক" : "Free Practicing"}</b><span>${state.uiLang === "as" ? "বিষয়ভিত্তিক প্ৰশ্ন অনুশীলন" : "Practice Q&A by subject"}</span></span>
           </a>
           <a class="feat-card reveal" href="/mock-test" style="--fc:#0ea5e9">
             <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5"/><path d="M9 2h6"/></svg></span>
-            <span class="feat-body"><b>${t("hero.cta3")}</b><span>${state.uiLang === "as" ? "সময়বদ্ধ পৰীক্ষা-ধৰণৰ টেষ্ট" : "Timed exam-pattern tests"}</span></span>
+            <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়াকৈ মক টেষ্ট দিয়ক" : "Free Mock Test"}</b><span>${state.uiLang === "as" ? "সময়বদ্ধ পৰীক্ষা-ধৰণৰ টেষ্ট" : "Timed exam-pattern tests"}</span></span>
           </a>
           <a class="feat-card reveal" href="/ebooks" style="--fc:#f59e0b">
             <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg></span>
-            <span class="feat-body"><b>${t("nav.ebooks")}</b><span>${state.uiLang === "as" ? "যিকোনো সময়ত অনলাইন পঢ়ক" : "Read online, anytime"}</span></span>
+            <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়া ই-বুক" : "Free eBooks"}</b><span>${state.uiLang === "as" ? "যিকোনো সময়ত অনলাইন পঢ়ক" : "Read online, anytime"}</span></span>
           </a>
           <a class="feat-card reveal" href="/exams" style="--fc:#8b5cf6">
             <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
-            <span class="feat-body"><b>${t("hero.ctaExams")}</b><span>${state.uiLang === "as" ? "পৰীক্ষা-ভিত্তিক প্ৰস্তুতি" : "Exam-wise preparation"}</span></span>
+            <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়া পৰীক্ষা-বহী" : "Free Exam Books"}</b><span>${state.uiLang === "as" ? "পৰীক্ষা-ভিত্তিক প্ৰস্তুতি" : "Exam-wise preparation"}</span></span>
           </a>
           <a class="feat-card reveal" href="/previous-year" style="--fc:#10b981">
             <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></span>
-            <span class="feat-body"><b>${t("nav.previousYear")}</b><span>${state.uiLang === "as" ? "পূৰ্বৰ প্ৰশ্নপত্ৰসমূহ" : "Solved past papers"}</span></span>
+            <span class="feat-body"><b>${state.uiLang === "as" ? "পূৰ্ববৰ্তী বছৰৰ প্ৰশ্ন" : "Previous Year Questions"}</b><span>${state.uiLang === "as" ? "পূৰ্বৰ প্ৰশ্নপত্ৰসমূহ" : "Solved past papers"}</span></span>
           </a>
           <a class="feat-card reveal" href="/category/articles" style="--fc:#e11d48">
             <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Z"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8z"/></svg></span>
-            <span class="feat-body"><b>${t("nav.articles")}</b><span>${state.uiLang === "as" ? "অধ্যয়ন প্ৰবন্ধ" : "Study articles"}</span></span>
+            <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়া সবিশেষ প্ৰবন্ধ" : "Free Detailed Articles"}</b><span>${state.uiLang === "as" ? "অধ্যয়ন প্ৰবন্ধ" : "Study articles"}</span></span>
+          </a>
+          <a class="feat-card reveal" href="/downloads" style="--fc:#0d9488">
+            <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg></span>
+            <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়া PDF টোকা" : "Free PDF Notes"}</b><span>${state.uiLang === "as" ? "প্ৰিন্ট কৰিব পৰা PDF নোট" : "Printable PDF notes"}</span></span>
           </a>
         </div>
         <style>
