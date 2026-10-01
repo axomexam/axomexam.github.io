@@ -29,6 +29,9 @@
     examTotalLoaded: false,
     examTotalPromise: null,
     counts: null,
+    caCounts: null,
+    caQuestionTotal: 0,
+    caTotalPromise: null,
     searchCorpusReady: false
   };
 
@@ -1296,7 +1299,7 @@
 
   /* ================= Homepage ================= */
   function renderHome(main) {
-    const totalQuestions = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0) + QUESTION_DISPLAY_BONUS + (state.examQuestionTotal || 0);
+    const totalQuestions = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0) + QUESTION_DISPLAY_BONUS + (state.examQuestionTotal || 0) + (state.caQuestionTotal || 0);
     const totalPdfs = state.topicIndex.length + (state.topicIndex.filter((r) => r.pdf).length);
     const trending = trendingTopics(state.topicIndex).slice(0, typeof CONFIG !== "undefined" ? CONFIG.TRENDING_COUNT : 6);
     const firstCat = state.categories[0]?.id || "gk";
@@ -1357,7 +1360,7 @@
           </a>
           <a class="feat-card reveal" href="/current-affairs" style="--fc:#ef4444">
             <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h13a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6z"/><path d="M4 6V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/><path d="M8 10h6"/><path d="M8 13h6"/><path d="M8 16h3"/></svg></span>
-            <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়া চলিত ঘটনাৱলী" : "Free Current Affairs"}</b><span>${state.uiLang === "as" ? "দৈনিক প্ৰশ্ন আৰু ব্যাখ্যা" : "Updated Q&A with answers"}</span></span>
+            <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়া চলিত ঘটনাৱলী" : "Free Current Affairs"}</b><span>${state.uiLang === "as" ? "দৈনিক প্ৰশ্ন আৰু ব্যাখ্যা" : "Updated Q&A with answers"}</span><span class="feat-count" id="ca-feat-count" hidden></span></span>
           </a>
         </div>
         <style>
@@ -1375,6 +1378,7 @@
           .feat-body { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 3px; min-width: 0; }
           .feat-body b { font-size: .98rem; font-weight: 700; letter-spacing: -.2px; color: var(--ink); }
           .feat-body span { font-size: .775rem; line-height: 1.35; color: var(--ink-faint); }
+          .feat-body .feat-count { font-size: .72rem; font-weight: 700; color: var(--fc); }
           @media (max-width: 640px) {
             .feat-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
             .feat-card { gap: 9px; padding: 16px 12px; border-radius: 16px; min-height: 118px; }
@@ -1512,6 +1516,7 @@
 
     observeReveals();
     loadExamQuestionTotal();
+    loadCurrentAffairsTotal();
   }
 
   function heroVisualHTML() {
@@ -3535,6 +3540,7 @@
         <span class="exam-sec-txt">
           <b>${escapeHtml(nameEn)}</b>
           ${nameAs && nameAs !== nameEn ? `<span class="exam-sec-as">${escapeHtml(nameAs)}</span>` : ""}
+          <span class="exam-sec-count" data-ca-count="${escapeHtml(cat.id)}" hidden></span>
         </span>
         <span class="exam-sec-arrow" aria-hidden="true">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
@@ -3569,6 +3575,8 @@
         </p>
       </section>`;
     observeReveals();
+    refreshCurrentAffairsCounts();
+    loadCurrentAffairsTotal();
   }
 
   async function renderCurrentAffairsCategoryPage(main, catId) {
@@ -3865,7 +3873,7 @@
     const totalEl = $("#stat-total-questions");
     if (totalEl) {
       const total = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0)
-        + QUESTION_DISPLAY_BONUS + (state.examQuestionTotal || 0);
+        + QUESTION_DISPLAY_BONUS + (state.examQuestionTotal || 0) + (state.caQuestionTotal || 0);
       totalEl.textContent = `${total.toLocaleString()}+`;
     }
     const pdfEl = $("#stat-total-pdfs");
@@ -3910,6 +3918,47 @@
       return state.examQuestionTotal;
     })();
     return state.examTotalPromise;
+  }
+
+  /* Current Affairs live counts. The total feeds the homepage hero counter
+     and each category card shows its own question count, hydrated once its
+     folder is read (mirrors the "Your Exams" section cards). */
+  function refreshCurrentAffairsCounts() {
+    const counts = state.caCounts || {};
+    $$(".exam-sec-count[data-ca-count]").forEach((badge) => {
+      const id = badge.dataset.caCount;
+      if (!id || !Object.prototype.hasOwnProperty.call(counts, id)) return;
+      const n = Number(counts[id]) || 0;
+      if (n > 0) {
+        badge.textContent = `${n} ${t("topic.questions")}`;
+        badge.hidden = false;
+      }
+    });
+    const feat = $("#ca-feat-count");
+    if (feat && state.caQuestionTotal > 0) {
+      feat.textContent = `${state.caQuestionTotal.toLocaleString()} ${t("topic.questions")}`;
+      feat.hidden = false;
+    }
+  }
+
+  /* Sum every question in the Free Current Affairs library and add it to the
+     hero counter. Runs once per page load; the counter updates as soon as the
+     counts arrive. */
+  function loadCurrentAffairsTotal() {
+    if (state.caTotalPromise) return state.caTotalPromise;
+    state.caTotalPromise = (async () => {
+      try {
+        const data = await API.getCurrentAffairsCounts();
+        state.caCounts = (data && data.counts) || {};
+        state.caQuestionTotal = (data && data.total) || 0;
+        updateHeroTotals();
+        refreshCurrentAffairsCounts();
+      } catch (e) {
+        /* leave the counters as-is if current affairs data is unavailable */
+      }
+      return state.caQuestionTotal;
+    })();
+    return state.caTotalPromise;
   }
 
   async function renderExamPage(main, examId) {

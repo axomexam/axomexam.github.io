@@ -480,11 +480,36 @@ const API = (() => {
     return result;
   }
 
+  /* Total question count per current-affairs category (and overall), used for
+     the live counters on the homepage hero and the category cards. Reuses the
+     cached listCurrentAffairsQuestions result, so no extra downloads happen
+     when the user opens a category afterwards. */
+  async function getCurrentAffairsCounts() {
+    let cats = [];
+    try { cats = await listCurrentAffairs(); } catch (e) { cats = []; }
+    if (!Array.isArray(cats)) cats = [];
+    const counts = {};
+    let total = 0;
+    await Promise.all(cats.map(async (c) => {
+      if (!c || !c.id) return;
+      let n = 0;
+      try {
+        const qs = await listCurrentAffairsQuestions(c.id);
+        n = Array.isArray(qs) ? qs.length : 0;
+      } catch (e) {
+        n = 0;
+      }
+      counts[c.id] = n;
+      total += n;
+    }));
+    return { counts, total };
+  }
+
   return {
     getCategories, getTopic, getTopicMarkdown, listPdfDir, pdfUrl,
     listDownloads, getTrendingTopics, listPreviousYearYears, listPreviousYearPdfs,
     getArticles, getMockSet, getBook, listBooks, listExams, getExamSection,
     listExamQuestions, getCounts, listCurrentAffairs, getCurrentAffairsCategory,
-    listCurrentAffairsQuestions,
+    listCurrentAffairsQuestions, getCurrentAffairsCounts,
   };
 })();
