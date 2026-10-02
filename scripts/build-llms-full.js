@@ -25,6 +25,7 @@ const SECTION_ORDER = [
   ["root", "Core pages"],
   ["exams", "Exam-wise question banks"],
   ["topic", "Topic question banks"],
+  ["current-affairs", "Current affairs"],
   ["category", "Categories"],
   ["categories", "Categories index"],
   ["mock-test", "Mock tests"],
@@ -114,6 +115,14 @@ function collectQuestions(html) {
         if (p && p["@type"] === "Question" && p.text) {
           const ans = p.acceptedAnswer && p.acceptedAnswer.text ? p.acceptedAnswer.text : "";
           out.push({ q: decode(p.text), a: decode(ans) });
+        }
+      }
+      if (node["@type"] === "FAQPage" && Array.isArray(node.mainEntity)) {
+        for (const q of node.mainEntity) {
+          if (q && q["@type"] === "Question" && q.name) {
+            const ans = q.acceptedAnswer && q.acceptedAnswer.text ? q.acceptedAnswer.text : "";
+            out.push({ q: decode(q.name), a: decode(ans) });
+          }
         }
       }
     }

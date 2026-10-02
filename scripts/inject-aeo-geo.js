@@ -147,7 +147,7 @@ function enrichGraph(data, date) {
   let changed = false;
   const nodes = [];
   if (Array.isArray(data["@graph"])) nodes.push(...data["@graph"]);
-  if (data["@graph"]) nodes.push(data);
+  if (!data["@graph"]) nodes.push(data);
   for (const node of nodes) {
     changed = enrichNode(node, date) || changed;
   }
