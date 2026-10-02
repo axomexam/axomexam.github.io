@@ -1230,6 +1230,93 @@
     } catch (e) { }
   }
 
+  /* ============ Current Affairs static content sync ============
+     Each Current Affairs page ships a rich static block (editorial +
+     sample questions + FAQ) that sits outside #app, right after </main>,
+     so crawlers/no-JS visitors see it. The SPA only re-renders #app, so
+     during client-side navigation that block would keep showing the
+     previously visited page. Keep it in sync with the current route. */
+  const caStaticCache = Object.create(null);
+  let caStaticRequest = null;
+
+  function currentCaStaticId() {
+    const el = document.querySelector("section.ca-rich");
+    return el ? el.getAttribute("data-ca-rich") : null;
+  }
+
+  function removeCaStaticBlock() {
+    const section = document.querySelector("section.ca-rich");
+    if (section) section.remove();
+    const nodes = Array.from(document.head.childNodes);
+    const start = nodes.findIndex((n) => n.nodeType === 8 && /ca-rich-schema:/.test(n.nodeValue || ""));
+    if (start === -1) return;
+    for (let i = start; i < nodes.length; i++) {
+      const node = nodes[i];
+      const isEnd = node.nodeType === 8 && /\/ca-rich-schema/.test(node.nodeValue || "");
+      if (node.parentNode) node.parentNode.removeChild(node);
+      if (isEnd) break;
+    }
+  }
+
+  async function syncCurrentAffairsStaticBlock(targetId) {
+    const token = (caStaticRequest = {});
+    const current = currentCaStaticId();
+
+    if (!targetId) {
+      if (current !== null) removeCaStaticBlock();
+      return;
+    }
+    if (current === targetId) return;
+
+    const url = targetId === "index"
+      ? "/current-affairs/"
+      : "/current-affairs/" + encodeURIComponent(targetId) + "/";
+
+    let html = caStaticCache[url];
+    if (html === undefined) {
+      try {
+        const res = await fetch(url, { cache: "no-store" });
+        if (!res.ok) return;
+        html = caStaticCache[url] = await res.text();
+      } catch (e) {
+        return;
+      }
+    }
+    if (caStaticRequest !== token) return;
+
+    let doc;
+    try { doc = new DOMParser().parseFromString(html, "text/html"); } catch (e) { return; }
+    const section = doc.querySelector("section.ca-rich");
+    if (!section) return;
+
+    const headNodes = Array.from(doc.head.childNodes);
+    const startIdx = headNodes.findIndex((n) => n.nodeType === 8 && /ca-rich-schema:/.test(n.nodeValue || ""));
+    const schemaNodes = [];
+    if (startIdx !== -1) {
+      for (let i = startIdx; i < headNodes.length; i++) {
+        const node = headNodes[i];
+        const isEnd = node.nodeType === 8 && /\/ca-rich-schema/.test(node.nodeValue || "");
+        schemaNodes.push(document.importNode(node, true));
+        if (isEnd) break;
+      }
+    }
+
+    removeCaStaticBlock();
+
+    const main = document.getElementById("app");
+    const sectionNode = document.importNode(section, true);
+    if (main && main.parentNode) main.parentNode.insertBefore(sectionNode, main.nextSibling);
+    else document.body.appendChild(sectionNode);
+
+    schemaNodes.forEach((node) => document.head.appendChild(node));
+
+    const title = doc.querySelector("title");
+    if (title && title.textContent) document.title = title.textContent;
+    const newDesc = doc.querySelector('meta[name="description"]');
+    const curDesc = document.querySelector('meta[name="description"]');
+    if (newDesc && curDesc) curDesc.setAttribute("content", newDesc.getAttribute("content") || "");
+  }
+
   async function renderRoute() {
     if (!state.ready) return;
     const segs = parsePath();
@@ -1239,6 +1326,7 @@
     updateTabbar(segs);
     resetScroll();
     updateSEO();
+    syncCurrentAffairsStaticBlock(segs[0] === "current-affairs" ? (segs[1] || "index") : null);
     clearEbookProgress();
 
     if (segs[0] !== "mock-test" && state.mock && state.mock.timerId) {
