@@ -1390,7 +1390,6 @@
     const totalQuestions = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0) + QUESTION_DISPLAY_BONUS + (state.examQuestionTotal || 0) + (state.caQuestionTotal || 0);
     const totalPdfs = state.topicIndex.length + (state.topicIndex.filter((r) => r.pdf).length);
     const trending = trendingTopics(state.topicIndex).slice(0, typeof CONFIG !== "undefined" ? CONFIG.TRENDING_COUNT : 6);
-    const firstCat = state.categories[0]?.id || "gk";
 
     main.innerHTML = `
       <section class="hero reveal visible">
@@ -1418,7 +1417,7 @@
           </div>
         </div>
         <div class="feat-grid">
-          <a class="feat-card reveal" href="/category/${firstCat}" style="--fc:#4f46e5">
+          <a class="feat-card reveal" href="/categories/" style="--fc:#4f46e5">
             <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>
             <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়াকৈ অনুশীলন আৰম্ভ কৰক" : "Free Practicing"}</b><span>${state.uiLang === "as" ? "বিষয়ভিত্তিক প্ৰশ্ন অনুশীলন" : "Practice Q&A by subject"}</span></span>
           </a>
