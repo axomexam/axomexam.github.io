@@ -2033,7 +2033,7 @@
             </div>
           </div>
           <div id="qa-list" class="qa-list" style="width:100%; box-sizing:border-box;"></div>
-          <div id="pager" style="display:flex; justify-content:center; align-items:center; gap:12px; margin-top:24px;"></div>
+          <div id="pager" style="margin-top:24px;"></div>
         </div>
       </div>
     `;
@@ -2164,6 +2164,16 @@
     });
   }
 
+  /* End-of-page marker placed under the pager so readers can see that the
+     current question set ends here and the next page continues after it. */
+  function pagerEndMarkHTML() {
+    return `<div class="pager-end-mark" style="display:flex; align-items:center; justify-content:center; gap:10px; max-width:340px; margin:14px auto 0; color:var(--ink-muted,#94a3b8); font-weight:700; font-size:0.9rem; user-select:none;" aria-hidden="true">
+      <span style="flex:1; border-top:2px dotted currentColor; opacity:.7;"></span>
+      <span style="letter-spacing:1px;">x</span>
+      <span style="flex:1; border-top:2px dotted currentColor; opacity:.7;"></span>
+    </div>`;
+  }
+
   /* ================= Smart Hybrid Q&A Renderer ================= */
   function renderQAPage() {
     const rec = currentTopicRec();
@@ -2258,9 +2268,12 @@
     const pager = $("#pager");
     if (totalPages > 1) {
       pager.innerHTML = `
-        <button id="pg-prev" class="btn btn-sm btn-outline" ${state.page === 0 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.prev")}</button>
-        <span class="pager-info" style="font-weight:700; font-size:0.88rem; color:var(--ink-soft,#64748b);">${state.page + 1} / ${totalPages}</span>
-        <button id="pg-next" class="btn btn-sm btn-outline" ${state.page >= totalPages - 1 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.next")}</button>`;
+        <div style="display:flex; justify-content:center; align-items:center; gap:12px;">
+          <button id="pg-prev" class="btn btn-sm btn-outline" ${state.page === 0 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.prev")}</button>
+          <span class="pager-info" style="font-weight:700; font-size:0.88rem; color:var(--ink-soft,#64748b);">${state.page + 1} / ${totalPages}</span>
+          <button id="pg-next" class="btn btn-sm btn-outline" ${state.page >= totalPages - 1 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.next")}</button>
+        </div>
+        ${pagerEndMarkHTML()}`;
       $("#pg-prev").addEventListener("click", () => { if (state.page > 0) { state.page--; renderQAPage(); refreshReadingModal(); window.scrollTo({ top: 0, behavior: "smooth" }); } });
       $("#pg-next").addEventListener("click", () => { if (state.page < totalPages - 1) { state.page++; renderQAPage(); refreshReadingModal(); window.scrollTo({ top: 0, behavior: "smooth" }); } });
     } else {
@@ -2294,6 +2307,7 @@
           <span class="read-pageinfo" id="read-pageinfo" style="font-weight:700; font-size:0.88rem; color:var(--ink-soft,#64748b);"></span>
           <button id="read-next" type="button" class="btn btn-sm btn-outline" style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.next")}</button>
         </div>
+        <div style="padding:0 20px 16px;">${pagerEndMarkHTML()}</div>
       </div>`;
     document.body.appendChild(modal);
 
@@ -3874,10 +3888,13 @@
         ? `<div class="qa-list">${pageQuestions.map((q, i) => examQACardHTML(q, start + i + 1, lang, true)).join("")}</div>`
         : `<div class="qa-empty"><p>${escapeHtml(t("ca.noContent"))}</p></div>`;
       const pagerHTML = caTotalPages > 1
-        ? `<div class="ca-pager" style="display:flex; justify-content:center; align-items:center; gap:12px; margin-top:24px;">
-            <button id="ca-prev" class="btn btn-sm btn-outline" ${caPage === 0 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.prev")}</button>
-            <span class="pager-info" style="font-weight:700; font-size:.88rem; color:var(--ink-soft,#64748b);">${caPage + 1} / ${caTotalPages}</span>
-            <button id="ca-next" class="btn btn-sm btn-outline" ${caPage >= caTotalPages - 1 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.next")}</button>
+        ? `<div class="ca-pager" style="margin-top:24px;">
+            <div style="display:flex; justify-content:center; align-items:center; gap:12px;">
+              <button id="ca-prev" class="btn btn-sm btn-outline" ${caPage === 0 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.prev")}</button>
+              <span class="pager-info" style="font-weight:700; font-size:.88rem; color:var(--ink-soft,#64748b);">${caPage + 1} / ${caTotalPages}</span>
+              <button id="ca-next" class="btn btn-sm btn-outline" ${caPage >= caTotalPages - 1 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.next")}</button>
+            </div>
+            ${pagerEndMarkHTML()}
           </div>`
         : "";
       body.innerHTML = introHTML + metaHTML + qHTML + pagerHTML;
@@ -4380,10 +4397,13 @@
       const slice = items.slice(start, start + perPage);
       const qHTML = `<div class="qa-list">${slice.map((q, i) => examQACardHTML(q, start + i + 1, lang)).join("")}</div>`;
       const pagerHTML = totalPages > 1
-        ? `<div class="qa-pager" style="display:flex; justify-content:center; align-items:center; gap:12px; margin-top:24px;">
-            <button type="button" id="qa-prev" class="btn btn-sm btn-outline" ${page === 0 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.prev")}</button>
-            <span class="pager-info" style="font-weight:700; font-size:.88rem; color:var(--ink-soft,#64748b);">${page + 1} / ${totalPages}</span>
-            <button type="button" id="qa-next" class="btn btn-sm btn-outline" ${page >= totalPages - 1 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.next")}</button>
+        ? `<div class="qa-pager" style="margin-top:24px;">
+            <div style="display:flex; justify-content:center; align-items:center; gap:12px;">
+              <button type="button" id="qa-prev" class="btn btn-sm btn-outline" ${page === 0 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.prev")}</button>
+              <span class="pager-info" style="font-weight:700; font-size:.88rem; color:var(--ink-soft,#64748b);">${page + 1} / ${totalPages}</span>
+              <button type="button" id="qa-next" class="btn btn-sm btn-outline" ${page >= totalPages - 1 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.next")}</button>
+            </div>
+            ${pagerEndMarkHTML()}
           </div>`
         : "";
       body.innerHTML = qHTML + pagerHTML;
