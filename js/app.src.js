@@ -1317,6 +1317,84 @@
     if (newDesc && curDesc) curDesc.setAttribute("content", newDesc.getAttribute("content") || "");
   }
 
+  /* ============ Per-page extra-content static sync ============
+     Topic / exam / mock-test / category / previous-year pages ship a
+     pre-rendered <section class="axo-extra-content"> (overview + tips +
+     FAQ) outside #app plus a small guard script that hides it unless
+     location.pathname matches its data-axo-path. That guard also watches
+     #app for mutations, so during SPA client-side navigation it hides the
+     previous page's block while renderRoute() only rewrites #app - the
+     new page's block never appears and a manual reload is required.
+     Fetch the target page, pull its block and swap it in so the extra
+     content shows immediately. */
+  const extraStaticCache = Object.create(null);
+  let extraStaticRequest = null;
+
+  function normalizeExtraPath(p) {
+    if (!p) return "/";
+    return p.length > 1 && p.charAt(p.length - 1) !== "/" ? p + "/" : p;
+  }
+
+  async function syncExtraStaticBlock(targetPath) {
+    const token = (extraStaticRequest = {});
+    const existing = document.querySelector("section.axo-extra-content");
+    const currentPath = existing ? normalizeExtraPath(existing.getAttribute("data-axo-path")) : null;
+
+    if (!targetPath) {
+      if (existing) existing.remove();
+      return;
+    }
+    const want = normalizeExtraPath(targetPath);
+    if (currentPath === want) return;
+
+    let html = extraStaticCache[want];
+    if (html === undefined) {
+      try {
+        const res = await fetch(want, { cache: "no-store" });
+        html = extraStaticCache[want] = res.ok ? await res.text() : "";
+      } catch (e) {
+        return;
+      }
+    }
+    if (extraStaticRequest !== token) return;
+
+    if (!html) {
+      if (existing) existing.remove();
+      return;
+    }
+
+    let doc;
+    try { doc = new DOMParser().parseFromString(html, "text/html"); } catch (e) { return; }
+    const section = doc.querySelector("section.axo-extra-content");
+    if (!section) {
+      if (existing) existing.remove();
+      return;
+    }
+
+    const node = document.importNode(section, true);
+    node.style.display = "";
+
+    let parent;
+    let anchor;
+    if (existing) {
+      parent = existing.parentNode;
+      anchor = existing.nextSibling;
+      existing.remove();
+    } else {
+      const credit = document.querySelector("[data-axo-editorial-credit]");
+      if (credit) {
+        parent = credit.parentNode;
+        anchor = credit.nextSibling;
+      } else {
+        const main = document.getElementById("app");
+        parent = main ? main.parentNode : null;
+        anchor = main ? main.nextSibling : null;
+      }
+    }
+    if (parent) parent.insertBefore(node, anchor);
+    else document.body.appendChild(node);
+  }
+
   async function renderRoute() {
     if (!state.ready) return;
     const segs = parsePath();
@@ -1327,6 +1405,7 @@
     resetScroll();
     updateSEO();
     syncCurrentAffairsStaticBlock(segs[0] === "current-affairs" ? (segs[1] || "index") : null);
+    syncExtraStaticBlock(segs.length ? window.location.pathname : null);
     clearEbookProgress();
 
     if (segs[0] !== "mock-test" && state.mock && state.mock.timerId) {
