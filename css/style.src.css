@@ -2203,3 +2203,12 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   .header-inner #master-search { padding-left: 30px; }
   .header-inner .search-wrap .search-icon { left: 9px; }
 }
+
+/* Bilingual static content blocks (editorial credit + end-of-page extra content)
+   The English panel is annotated data-axo-lang="en" and a sibling Assamese
+   panel data-axo-lang="as" is added by tools/add-as-static-blocks.js. */
+[data-axo-lang="as"] { display: none; }
+body[data-lang="as"] [data-axo-lang="en"],
+body[data-ui-lang="as"] [data-axo-lang="en"] { display: none !important; }
+body[data-lang="as"] [data-axo-lang="as"],
+body[data-ui-lang="as"] [data-axo-lang="as"] { display: block !important; }

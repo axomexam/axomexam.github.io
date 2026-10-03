@@ -724,6 +724,7 @@
         const targetLang = btn.dataset.glang;
         if (state.uiLang === targetLang) return;
         state.uiLang = targetLang;
+        document.body.setAttribute("data-ui-lang", targetLang);
         try { localStorage.setItem("axomexam-ui-lang", targetLang); } catch (err) {}
         
         $$(".glang-btn").forEach((b) => {
@@ -6742,6 +6743,7 @@
     }
 
     document.body.setAttribute("data-lang", state.lang);
+    document.body.setAttribute("data-ui-lang", state.uiLang);
     applyStaticI18n();
     initAppPrompt();
 
