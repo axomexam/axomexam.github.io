@@ -649,6 +649,15 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 .info-panel ul { margin: 12px 0 0 18px; list-style: disc; color: var(--ink-soft); font-size: .93rem; }
 .info-panel ul li { margin: 5px 0; }
 
+/* Editorial credit line (Author / Reference source / Published) */
+.editorial-meta { margin: 0; font-size: .86rem; color: var(--ink-soft, #64748b); line-height: 1.7; }
+.editorial-meta-item { display: inline; }
+.editorial-meta-item + .editorial-meta-item::before { content: "\2022"; margin: 0 8px; }
+@media (max-width: 640px) {
+  .editorial-meta-item { display: block; }
+  .editorial-meta-item + .editorial-meta-item::before { content: none; margin: 0; }
+}
+
 /* Loading / skeleton */
 .loader { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; padding: 70px 0; color: var(--ink-faint); }
 .spinner { width: 40px; height: 40px; border-radius: 50%; border: 3px solid var(--line); border-top-color: var(--primary); animation: spin .8s linear infinite; }
