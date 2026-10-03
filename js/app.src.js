@@ -334,6 +334,7 @@
       s = s.replace(/sqrt\(([^)]+)\)/gi, '&radic;<span style="text-decoration:overline;padding-left:1px;">$1</span>');
       s = s.replace(/√\(([^)]+)\)/g, '&radic;<span style="text-decoration:overline;padding-left:1px;">$1</span>');
       s = s.replace(/\^{([^}]+)}/g, '<sup>$1</sup>');
+      s = s.replace(/\^\(([^)]+)\)/g, '<sup>$1</sup>');
       s = s.replace(/\^([\-\+]?[0-9০-৯a-zA-Z\u0980-\u09FF]+)/g, '<sup>$1</sup>');
       s = s.replace(/_{([^}]+)}/g, '<sub>$1</sub>');
       s = s.replace(/_([0-9০-৯a-zA-Z\u0980-\u09FF]+)/g, '<sub>$1</sub>');
