@@ -2258,9 +2258,9 @@
     const pager = $("#pager");
     if (totalPages > 1) {
       pager.innerHTML = `
-        <button id="pg-prev" class="btn btn-sm btn-outline" ${state.page === 0 ? "disabled" : ""} style="padding:6px 14px; font-weight:700;">${t("topic.prev")}</button>
+        <button id="pg-prev" class="btn btn-sm btn-outline" ${state.page === 0 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.prev")}</button>
         <span class="pager-info" style="font-weight:700; font-size:0.88rem; color:var(--ink-soft,#64748b);">${state.page + 1} / ${totalPages}</span>
-        <button id="pg-next" class="btn btn-sm btn-outline" ${state.page >= totalPages - 1 ? "disabled" : ""} style="padding:6px 14px; font-weight:700;">${t("topic.next")}</button>`;
+        <button id="pg-next" class="btn btn-sm btn-outline" ${state.page >= totalPages - 1 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.next")}</button>`;
       $("#pg-prev").addEventListener("click", () => { if (state.page > 0) { state.page--; renderQAPage(); refreshReadingModal(); window.scrollTo({ top: 0, behavior: "smooth" }); } });
       $("#pg-next").addEventListener("click", () => { if (state.page < totalPages - 1) { state.page++; renderQAPage(); refreshReadingModal(); window.scrollTo({ top: 0, behavior: "smooth" }); } });
     } else {
@@ -2290,9 +2290,9 @@
         </div>
         <div class="read-modal-body" id="read-modal-body" style="padding:20px; max-height:70vh; overflow-y:auto; text-align:left; box-sizing:border-box;"></div>
         <div class="read-modal-foot" style="display:flex; justify-content:space-between; align-items:center; padding:14px 20px; border-top:1px solid var(--border,#e2e8f0);">
-          <button id="read-prev" type="button" class="btn btn-sm btn-outline" style="padding:6px 16px; font-weight:700;">${t("topic.prev")}</button>
+          <button id="read-prev" type="button" class="btn btn-sm btn-outline" style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.prev")}</button>
           <span class="read-pageinfo" id="read-pageinfo" style="font-weight:700; font-size:0.88rem; color:var(--ink-soft,#64748b);"></span>
-          <button id="read-next" type="button" class="btn btn-sm btn-outline" style="padding:6px 16px; font-weight:700;">${t("topic.next")}</button>
+          <button id="read-next" type="button" class="btn btn-sm btn-outline" style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.next")}</button>
         </div>
       </div>`;
     document.body.appendChild(modal);
@@ -3875,9 +3875,9 @@
         : `<div class="qa-empty"><p>${escapeHtml(t("ca.noContent"))}</p></div>`;
       const pagerHTML = caTotalPages > 1
         ? `<div class="ca-pager" style="display:flex; justify-content:center; align-items:center; gap:12px; margin-top:24px;">
-            <button id="ca-prev" class="btn btn-sm btn-outline" ${caPage === 0 ? "disabled" : ""} style="padding:6px 14px; font-weight:700;">${t("topic.prev")}</button>
+            <button id="ca-prev" class="btn btn-sm btn-outline" ${caPage === 0 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.prev")}</button>
             <span class="pager-info" style="font-weight:700; font-size:.88rem; color:var(--ink-soft,#64748b);">${caPage + 1} / ${caTotalPages}</span>
-            <button id="ca-next" class="btn btn-sm btn-outline" ${caPage >= caTotalPages - 1 ? "disabled" : ""} style="padding:6px 14px; font-weight:700;">${t("topic.next")}</button>
+            <button id="ca-next" class="btn btn-sm btn-outline" ${caPage >= caTotalPages - 1 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.next")}</button>
           </div>`
         : "";
       body.innerHTML = introHTML + metaHTML + qHTML + pagerHTML;
@@ -4381,9 +4381,9 @@
       const qHTML = `<div class="qa-list">${slice.map((q, i) => examQACardHTML(q, start + i + 1, lang)).join("")}</div>`;
       const pagerHTML = totalPages > 1
         ? `<div class="qa-pager" style="display:flex; justify-content:center; align-items:center; gap:12px; margin-top:24px;">
-            <button type="button" id="qa-prev" class="btn btn-sm btn-outline" ${page === 0 ? "disabled" : ""} style="padding:6px 14px; font-weight:700;">${t("topic.prev")}</button>
+            <button type="button" id="qa-prev" class="btn btn-sm btn-outline" ${page === 0 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.prev")}</button>
             <span class="pager-info" style="font-weight:700; font-size:.88rem; color:var(--ink-soft,#64748b);">${page + 1} / ${totalPages}</span>
-            <button type="button" id="qa-next" class="btn btn-sm btn-outline" ${page >= totalPages - 1 ? "disabled" : ""} style="padding:6px 14px; font-weight:700;">${t("topic.next")}</button>
+            <button type="button" id="qa-next" class="btn btn-sm btn-outline" ${page >= totalPages - 1 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.next")}</button>
           </div>`
         : "";
       body.innerHTML = qHTML + pagerHTML;
