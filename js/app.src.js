@@ -1336,13 +1336,13 @@
   }
 
   /* Two page-specific blocks live outside #app and are therefore never
-     rewritten by renderRoute(): the editorial-credit panel (author +
-     reference source + published date) and the axo-extra-content section
-     (overview + tips + FAQ). The extra block has a location.pathname guard,
-     but the credit block has none, so without this sync the previous
-     topic's "Reference source" line stays visible after client-side
-     navigation. Replace both from the fetched page and preserve their DOM
-     order (credit first, then extra). */
+     rewritten by renderRoute(): the axo-extra-content section
+     (overview + topics + tips + FAQ) and the editorial-credit panel
+     (author + reference source + published date). The extra block has a
+     location.pathname guard, but the credit block has none, so without
+     this sync the previous topic's "Reference source" line stays visible
+     after client-side navigation. Replace both from the fetched page and
+     preserve their DOM order (extra first, then credit last). */
   async function syncExtraStaticBlock(targetPath) {
     const token = (extraStaticRequest = {});
     const existing = document.querySelector("section.axo-extra-content");
@@ -1384,46 +1384,56 @@
     const creditSection = doc.querySelector("[data-axo-editorial-credit]");
     const main = document.getElementById("app");
 
-    if (existingCredit && creditSection) {
-      existingCredit.replaceWith(document.importNode(creditSection, true));
+    if (section) {
+      const node = document.importNode(section, true);
+      node.style.display = "";
+      if (existing) {
+        existing.replaceWith(node);
+      } else {
+        const credit = document.querySelector("[data-axo-editorial-credit]");
+        let parent;
+        let anchor;
+        if (credit) {
+          parent = credit.parentNode;
+          anchor = credit;
+        } else if (main) {
+          parent = main.parentNode;
+          anchor = main.nextSibling;
+        } else {
+          parent = null;
+          anchor = null;
+        }
+        if (parent) parent.insertBefore(node, anchor);
+        else document.body.appendChild(node);
+      }
+    } else if (existing) {
+      existing.remove();
+    }
+
+    if (creditSection) {
+      const creditNode = document.importNode(creditSection, true);
+      if (existingCredit) {
+        existingCredit.replaceWith(creditNode);
+      } else {
+        const extra = document.querySelector("section.axo-extra-content");
+        let parent;
+        let anchor;
+        if (extra) {
+          parent = extra.parentNode;
+          anchor = extra.nextSibling;
+        } else if (main) {
+          parent = main.parentNode;
+          anchor = main.nextSibling;
+        } else {
+          parent = null;
+          anchor = null;
+        }
+        if (parent) parent.insertBefore(creditNode, anchor);
+        else document.body.appendChild(creditNode);
+      }
     } else if (existingCredit) {
       existingCredit.remove();
-    } else if (creditSection) {
-      const creditNode = document.importNode(creditSection, true);
-      const anchor = existing || (main ? main.nextSibling : null);
-      const parent = existing ? existing.parentNode : (main ? main.parentNode : null);
-      if (parent) parent.insertBefore(creditNode, anchor);
-      else document.body.appendChild(creditNode);
     }
-
-    if (!section) {
-      if (existing) existing.remove();
-      return;
-    }
-
-    const node = document.importNode(section, true);
-    node.style.display = "";
-
-    if (existing) {
-      existing.replaceWith(node);
-      return;
-    }
-
-    const credit = document.querySelector("[data-axo-editorial-credit]");
-    let parent;
-    let anchor;
-    if (credit) {
-      parent = credit.parentNode;
-      anchor = credit.nextSibling;
-    } else if (main) {
-      parent = main.parentNode;
-      anchor = main.nextSibling;
-    } else {
-      parent = null;
-      anchor = null;
-    }
-    if (parent) parent.insertBefore(node, anchor);
-    else document.body.appendChild(node);
   }
 
   async function renderRoute() {
