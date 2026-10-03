@@ -1335,13 +1335,27 @@
     return p.length > 1 && p.charAt(p.length - 1) !== "/" ? p + "/" : p;
   }
 
+  /* Two page-specific blocks live outside #app and are therefore never
+     rewritten by renderRoute(): the editorial-credit panel (author +
+     reference source + published date) and the axo-extra-content section
+     (overview + tips + FAQ). The extra block has a location.pathname guard,
+     but the credit block has none, so without this sync the previous
+     topic's "Reference source" line stays visible after client-side
+     navigation. Replace both from the fetched page and preserve their DOM
+     order (credit first, then extra). */
   async function syncExtraStaticBlock(targetPath) {
     const token = (extraStaticRequest = {});
     const existing = document.querySelector("section.axo-extra-content");
+    const existingCredit = document.querySelector("[data-axo-editorial-credit]");
     const currentPath = existing ? normalizeExtraPath(existing.getAttribute("data-axo-path")) : null;
 
-    if (!targetPath) {
+    const removeBlocks = () => {
       if (existing) existing.remove();
+      if (existingCredit) existingCredit.remove();
+    };
+
+    if (!targetPath) {
+      removeBlocks();
       return;
     }
     const want = normalizeExtraPath(targetPath);
@@ -1359,13 +1373,29 @@
     if (extraStaticRequest !== token) return;
 
     if (!html) {
-      if (existing) existing.remove();
+      removeBlocks();
       return;
     }
 
     let doc;
     try { doc = new DOMParser().parseFromString(html, "text/html"); } catch (e) { return; }
+
     const section = doc.querySelector("section.axo-extra-content");
+    const creditSection = doc.querySelector("[data-axo-editorial-credit]");
+    const main = document.getElementById("app");
+
+    if (existingCredit && creditSection) {
+      existingCredit.replaceWith(document.importNode(creditSection, true));
+    } else if (existingCredit) {
+      existingCredit.remove();
+    } else if (creditSection) {
+      const creditNode = document.importNode(creditSection, true);
+      const anchor = existing || (main ? main.nextSibling : null);
+      const parent = existing ? existing.parentNode : (main ? main.parentNode : null);
+      if (parent) parent.insertBefore(creditNode, anchor);
+      else document.body.appendChild(creditNode);
+    }
+
     if (!section) {
       if (existing) existing.remove();
       return;
@@ -1374,22 +1404,23 @@
     const node = document.importNode(section, true);
     node.style.display = "";
 
+    if (existing) {
+      existing.replaceWith(node);
+      return;
+    }
+
+    const credit = document.querySelector("[data-axo-editorial-credit]");
     let parent;
     let anchor;
-    if (existing) {
-      parent = existing.parentNode;
-      anchor = existing.nextSibling;
-      existing.remove();
+    if (credit) {
+      parent = credit.parentNode;
+      anchor = credit.nextSibling;
+    } else if (main) {
+      parent = main.parentNode;
+      anchor = main.nextSibling;
     } else {
-      const credit = document.querySelector("[data-axo-editorial-credit]");
-      if (credit) {
-        parent = credit.parentNode;
-        anchor = credit.nextSibling;
-      } else {
-        const main = document.getElementById("app");
-        parent = main ? main.parentNode : null;
-        anchor = main ? main.nextSibling : null;
-      }
+      parent = null;
+      anchor = null;
     }
     if (parent) parent.insertBefore(node, anchor);
     else document.body.appendChild(node);
