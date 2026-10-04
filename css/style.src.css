@@ -2035,23 +2035,16 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   .hamburger { display: none; }
   .main-nav { display: none; }
 
-  /* Search box now lives in the top bar (was in the bottom bar) */
+  /* Mobile: search moved to the bottom bar; header keeps brand + language + theme */
   .header-inner .header-center {
     flex: 1 1 auto; margin-left: 0; gap: 8px; min-width: 0;
+    justify-content: flex-end;
   }
-  .header-inner .search-wrap {
-    display: block; position: relative;
-    flex: 1 1 auto; max-width: none; min-width: 0; margin: 0;
-  }
-  .header-inner #master-search {
-    height: 38px; border-radius: 12px;
-    padding: 0 12px 0 34px; font-size: .85rem;
-  }
-  .header-inner .search-wrap .search-icon { left: 11px; width: 15px; height: 15px; }
+  .header-inner .search-wrap { display: none; }
   .header-inner .theme-toggle { flex: 0 0 auto; width: 38px; height: 38px; border-radius: 11px; }
 
-  /* Language switch stays available inside the menu; keep the bar clean */
-  .desktop-lang-toggle { display: none !important; }
+  /* Universal language toggle lives in the top bar on mobile */
+  .desktop-lang-toggle { display: inline-flex !important; margin-right: 0 !important; }
 
   /* Full-width, easy-to-tap search results under the top bar */
   .search-results {

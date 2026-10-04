@@ -722,20 +722,6 @@
       deskTheme.insertAdjacentElement("beforebegin", dWrap);
     }
 
-    const mobileMenu = $("#mobile-menu");
-    if (mobileMenu && !mobileMenu.querySelector(".mobile-lang-bar")) {
-      const mBar = document.createElement("div");
-      mBar.className = "mobile-lang-bar";
-      mBar.style.cssText = "display:flex;justify-content:center;padding:12px 16px;border-bottom:1px solid var(--border,#e2e8f0);background:var(--bg-subtle,#f8fafc);box-sizing:border-box;";
-      mBar.innerHTML = `
-        <div style="display:inline-flex;background:var(--bg,#fff);border:1px solid var(--border,#cbd5e1);border-radius:20px;padding:2px;width:100%;max-width:240px;box-sizing:border-box;">
-          <button type="button" class="glang-btn ${state.uiLang === "en" ? "active" : ""}" data-glang="en" style="flex:1;border:none;background:${state.uiLang === "en" ? "var(--primary,#0ea5e9)" : "transparent"};color:${state.uiLang === "en" ? "#fff" : "var(--ink-soft,#64748b)"};padding:6px 0;border-radius:14px;cursor:pointer;font-size:0.82rem;font-weight:700;text-align:center;">English</button>
-          <button type="button" class="glang-btn ${state.uiLang === "as" ? "active" : ""}" data-glang="as" style="flex:1;border:none;background:${state.uiLang === "as" ? "var(--primary,#0ea5e9)" : "transparent"};color:${state.uiLang === "as" ? "#fff" : "var(--ink-soft,#64748b)"};padding:6px 0;border-radius:14px;cursor:pointer;font-size:0.82rem;font-weight:700;text-align:center;">অসমীয়া</button>
-        </div>
-      `;
-      mobileMenu.insertBefore(mBar, mobileMenu.firstChild);
-    }
-
     $$(".glang-btn").forEach((btn) => {
       btn.addEventListener("click", (e) => {
         e.preventDefault();
@@ -6901,6 +6887,7 @@
     if (segs[0] === "mock-test") active = "mock";
     else if (segs[0] === "categories" || segs[0] === "category" || segs[0] === "topic") active = "categories";
     else if (segs[0] === "exams") active = "exams";
+    else if (segs[0] === "search") active = "search";
     else if (segs[0] && segs[0] !== "") active = "";
     tabs.forEach((el) => el.classList.toggle("active", el.dataset.tab === active));
   }
