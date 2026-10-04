@@ -2835,46 +2835,93 @@
 
   /* ================= Dedicated search page ================= */
   function renderSearchPage(main) {
+    const featured = FEATURED_IDS
+      .map((id) => state.categories.find((c) => c.id === id))
+      .filter(Boolean)
+      .slice(0, 6);
+    const chips = featured
+      .map((c) => `<a class="sp-chip" href="/category/${c.id}">${escapeHtml(localized(c.name))}</a>`)
+      .join("");
+
+    const emptyHTML = () => `
+      <div class="sp-empty">
+        <span class="sp-empty-ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        </span>
+        <span>${t("search.hint")}</span>
+      </div>`;
+
+    const noResultHTML = () => `
+      <div class="sp-empty">
+        <span class="sp-empty-ico is-warn" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/><path d="M8 11h6"/></svg>
+        </span>
+        <span>${t("search.noresult")}</span>
+      </div>`;
+
     main.innerHTML = `
-      <div class="page-head">
+      <div class="page-head sp-page-head">
         <nav class="breadcrumb"><a href="/">${t("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${t("tab.search")}</span></nav>
-        <h1>${t("tab.search")}</h1>
       </div>
       <div class="search-page">
+        <div class="sp-hero">
+          <span class="sp-hero-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          </span>
+          <h1 class="sp-hero-title">${t("tab.search")}</h1>
+          <p class="sp-hero-sub">${t("search.hint")}</p>
+        </div>
         <div class="sp-bar">
-          <input type="search" id="page-search" autocomplete="off" spellcheck="false" placeholder="${t("search.placeholder")}" />
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" id="page-search" autocomplete="off" spellcheck="false" placeholder="${t("search.placeholder")}" aria-label="${t("tab.search")}" />
+          <button type="button" class="sp-clear" id="page-search-clear" aria-label="Clear search" hidden>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+          </button>
         </div>
-        <div class="sp-results" id="page-search-results">
-          <div class="sp-empty">${t("search.hint")}</div>
-        </div>
+        ${chips ? `<div class="sp-sugg"><span class="sp-sugg-label">${t("search.popular")}</span><div class="sp-sugg-list">${chips}</div></div>` : ""}
+        <div class="sp-results" id="page-search-results">${emptyHTML()}</div>
       </div>`;
 
     const input = $("#page-search");
     const results = $("#page-search-results");
+    const clear = $("#page-search-clear");
     let timer;
     const run = () => {
       const q = input.value.trim();
+      if (clear) clear.hidden = !q;
       if (q.length < 2) {
-        results.innerHTML = `<div class="sp-empty">${t("search.hint")}</div>`;
+        results.innerHTML = emptyHTML();
         return;
       }
       const hits = searchIndex(q);
       if (!hits.length) {
-        results.innerHTML = `<div class="sp-empty">${t("search.noresult")}</div>`;
+        results.innerHTML = noResultHTML();
         return;
       }
       results.innerHTML = hits.map((h) => `
         <a class="sp-topic" href="/topic/${h.rec.path}">
-          <span class="chip">${escapeHtml(localized(h.rec.cat.name))}</span>
-          <span style="display:flex; flex-direction:column; gap:2px;">
-            <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(h.rec.title))}</span>
-            <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.cat.id === "study-guides" ? (state.uiLang === "as" ? "নিৰ্দেশিকা" : "Guide") : `${h.rec.nQuestions || 0} ${t("topic.questions")}`}</span>
+          <span class="sp-topic-ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8"/><path d="M8 17h5"/></svg>
           </span>
+          <span class="sp-topic-body">
+            <span class="sp-topic-title">${escapeHtml(localized(h.rec.title))}</span>
+            <span class="sp-topic-meta">${escapeHtml(localized(h.rec.section ? h.rec.section.name : (h.rec.sub ? h.rec.sub.name : "")))} • ${h.rec.cat.id === "study-guides" ? (state.uiLang === "as" ? "নিৰ্দেশিকা" : "Guide") : `${h.rec.nQuestions || 0} ${t("topic.questions")}`}</span>
+          </span>
+          <span class="chip">${escapeHtml(localized(h.rec.cat.name))}</span>
         </a>`).join("");
     };
+    if (clear) {
+      clear.addEventListener("click", () => {
+        input.value = "";
+        clear.hidden = true;
+        input.focus();
+        results.innerHTML = emptyHTML();
+      });
+    }
     input.addEventListener("input", () => {
       clearTimeout(timer);
       const v = input.value;
+      if (clear) clear.hidden = !v.trim();
       timer = setTimeout(() => {
         run();
         ensureSearchCorpus().then(() => {
