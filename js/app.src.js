@@ -155,6 +155,23 @@
     return obj[l] || obj.en || obj.as || "";
   }
 
+  /* Practice cards show the English and Assamese names together, the same
+     way the exam-book cards do. English is the primary label; the Assamese
+     name is rendered underneath and only when it differs from the English. */
+  function catNameHTML(obj) {
+    const en = ebkLang(obj, "en");
+    const as = ebkLang(obj, "as");
+    const asLine = as && as !== en ? `<span class="cat-as">${escapeHtml(as)}</span>` : "";
+    return `<b>${escapeHtml(en)}</b>${asLine}`;
+  }
+
+  function subNameHTML(obj, fontSize) {
+    const en = ebkLang(obj, "en");
+    const as = ebkLang(obj, "as");
+    const asLine = as && as !== en ? `<span class="sub-as">${escapeHtml(as)}</span>` : "";
+    return `<span style="font-weight:600; font-size:${fontSize}; color:var(--ink,#0f172a);">${escapeHtml(en)}</span>${asLine}`;
+  }
+
   /* ================= Deep content for thin hub pages =================
      These blurbs describe the real scope of each subject. They are
      combined with live data (topic names + real question counts) so that
@@ -1612,7 +1629,7 @@
               <a class="cat-card reveal" href="/category/${c.id}" data-cat="${c.id}" style="--cat:${color}" data-delay="${i * 60}">
                 <span class="cat-ico">${catIconHTML(c.id)}</span>
                 <span class="cat-meta">
-                  <b>${escapeHtml(localized(c.name))}</b>
+                  ${catNameHTML(c.name)}
                   <span>${c.id === "articles" ? (state.uiLang === "as" ? "প্ৰবন্ধসমূহ" : "Articles") : `<span class="cat-count">${countTopics(c)}</span> ${c.id === "study-guides" ? (state.uiLang === "as" ? "টা গাইড" : "Guides") : t("cat.topics")}`}</span>
                 </span>
               </a>`;
@@ -1794,7 +1811,7 @@
               <a class="sub-card reveal" href="${href}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
                 <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
                 <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
-                  <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(s.name))}</span>
+                  ${subNameHTML(s.name, "0.94rem")}
                   <span style="font-size:0.75rem; font-weight:${isArticlesCat ? "700" : "400"}; color:${isArticlesCat ? catColor(cat.id) : "var(--ink-soft,#64748b)"};">${meta}</span>
                 </span>
               </a>`;
@@ -1860,7 +1877,7 @@
               <a class="sub-card reveal" href="/category/${cat.id}/${sub.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
                 <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
                 <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
-                  <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(s.name))}</span>
+                  ${subNameHTML(s.name, "0.94rem")}
                   <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${(s.topics || []).length} ${t("cat.topics")}</span>
                 </span>
               </a>`).join("")}
@@ -1930,7 +1947,7 @@
             <a class="sub-card reveal" href="/topic/${path}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
               <span class="sub-ico">${topicIconHTML(tp.id, cat.id)}</span>
               <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
-                <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(tp.name))}</span>
+                ${subNameHTML(tp.name, "0.91rem")}
                 <span id="count-${path.replace(/\//g, '-')}" style="${isStudyGuide ? "color:var(--primary,#2563eb); font-weight:700;" : ""}">${countDisplay}</span>
               </span>
             </a>`;
@@ -2967,7 +2984,7 @@
               <a class="cat-card reveal" href="/category/${c.id}" style="--cat:${color}" data-delay="${i * 50}">
                 <span class="cat-ico">${catIconHTML(c.id)}</span>
                 <span class="cat-meta">
-                  <b>${escapeHtml(localized(c.name))}</b>
+                  ${catNameHTML(c.name)}
                   <span>${c.id === "articles" ? (state.uiLang === "as" ? "প্ৰবন্ধসমূহ" : "Articles") : `<span class="cat-count">${countTopics(c)}</span> ${c.id === "study-guides" ? (state.uiLang === "as" ? "টা গাইড" : "Guides") : t("cat.topics")}`}</span>
                 </span>
               </a>`;
