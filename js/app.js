@@ -1925,7 +1925,7 @@ Sent to: axomexam@outlook.com`};try{const k=await(await fetch("https://api.stati
           <h1>${r("mock.title")} for Competitive Exams</h1>
           <p class="mv-hero-sub">Take timed mock tests designed exactly like the real exam to build speed, accuracy and confidence for ADRE 2.0, Assam Police, APSC, Gauhati High Court, SSC and Railway exams.</p>
           <div class="mv-stats">
-            <div class="mv-stat"><b>6</b><span>Subjects</span></div>
+            <div class="mv-stat"><b>100+</b><span>Subjects</span></div>
             <div class="mv-stat"><b>500+</b><span>Practice Sets</span></div>
             <div class="mv-stat"><b>6500+</b><span>Questions</span></div>
             <div class="mv-stat"><b>100%</b><span>Free Forever</span></div>
