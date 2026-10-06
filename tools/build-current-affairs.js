@@ -424,7 +424,7 @@ function shellPage({ cat, catHref, cardsHtml }) {
     (function () {
       try {
         var t = localStorage.getItem("axomexam-theme");
-        if (t === "dark" || (!t && window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+        if (t === "dark") {
           document.documentElement.setAttribute("data-theme", "dark");
         }
       } catch (e) { }
