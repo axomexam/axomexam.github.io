@@ -5535,36 +5535,93 @@
     return renderMockSetPicker(main, cat, sub, sets);
   }
 
+  /* Static set/question counts shown on the mock-test landing cards. */
+  const MOCK_LANDING_META = {
+    gk: { sets: 35, q: 875 },
+    math: { sets: 15, q: 375 },
+    science: { sets: 15, q: 375 },
+    reasoning: { sets: 15, q: 375 },
+    english: { sets: 10, q: 250 },
+    computer: { sets: 10, q: 250 }
+  };
+
+  function mockLandingCard(c, i) {
+    const color = catColor(c.id);
+    const nm = c.name;
+    const en = typeof nm === "string" ? nm : (nm && nm.en) || "";
+    const as = typeof nm === "string" ? "" : (nm && nm.as) || "";
+    const meta = MOCK_LANDING_META[c.id];
+    const metaText = meta ? `${meta.sets} sets · ${meta.q} questions` : `${countTopics(c)} topics`;
+    return `
+      <a class="mv-card reveal" style="--c:${color}" data-delay="${i * 50}" href="/mock-test/${c.id}">
+        <span class="mv-card-ico">${catIconHTML(c.id)}</span>
+        <span class="mv-card-body">
+          <span class="mv-card-title">${escapeHtml(en)}</span>
+          ${as ? `<span class="mv-card-as">${escapeHtml(as)}</span>` : ""}
+          <span class="mv-card-meta">${metaText}</span>
+        </span>
+        <span class="mv-card-go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+      </a>`;
+  }
+
   function renderMockCategoryPicker(main) {
     const mockCategories = state.categories.filter(c => c.id !== "study-guides" && c.id !== "articles");
 
     main.innerHTML = `
-      <div class="mock-intro">
-        <h1>${t("mock.title")}</h1>
-        <p class="page-desc">${t("mock.sub")}</p>
-      </div>
-      <section class="section" style="padding-bottom:30px;">
-        <div class="section-head"><div><h2>${t("mock.pick")}</h2><p class="sec-sub">${t("mock.pick.sub")}</p></div></div>
-        <div class="mock-grid">
-          ${mockCategories.map((c, i) => {
-            const color = catColor(c.id);
-            return `
-              <div class="mock-card reveal" style="--cat:${color}" data-delay="${i * 40}">
-                <div class="mock-top">
-                  <span class="mock-ico">${catIconHTML(c.id)}</span>
-                  <span>
-                    <b>${escapeHtml(localized(c.name))}</b>
-                    <span class="mock-count">${t("mock.practicing")}</span>
-                  </span>
-                </div>
-                <div class="mock-go">
-                  <a class="mock-start" href="/mock-test/${c.id}">
-                    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-                    ${t("mock.start")}
-                  </a>
-                </div>
-              </div>`;
-          }).join("")}
+      <section class="mv-landing">
+        <div class="mv-hero">
+          <span class="mv-badge"><span class="dot"></span>100% Free · English &amp; Assamese</span>
+          <h1>${t("mock.title")} for Competitive Exams</h1>
+          <p class="mv-hero-sub">Take timed mock tests designed exactly like the real exam to build speed, accuracy and confidence for ADRE 2.0, Assam Police, APSC, Gauhati High Court, SSC and Railway exams.</p>
+          <div class="mv-stats">
+            <div class="mv-stat"><b>6</b><span>Subjects</span></div>
+            <div class="mv-stat"><b>100+</b><span>Practice Sets</span></div>
+            <div class="mv-stat"><b>2500+</b><span>Questions</span></div>
+            <div class="mv-stat"><b>100%</b><span>Free Forever</span></div>
+          </div>
+          <div class="mv-cta">
+            <a class="mv-btn mv-btn-primary" href="#subjects">Start Mock Test
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="mv-section" id="subjects">
+          <div class="mv-head"><h2>${t("mock.pick")}</h2><p>${t("mock.pick.sub")}</p></div>
+          <div class="mv-grid">
+            ${mockCategories.map((c, i) => mockLandingCard(c, i)).join("")}
+          </div>
+        </div>
+
+        <div class="mv-section">
+          <div class="mv-head"><h2>Why practise with axomexam?</h2><p>Everything you need to simulate the real exam</p></div>
+          <div class="mv-features">
+            <div class="mv-feature">
+              <span class="mv-feature-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+              <b>Live Timer</b><p>Every test runs on a real exam-style countdown so you learn to manage your time.</p>
+            </div>
+            <div class="mv-feature">
+              <span class="mv-feature-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span>
+              <b>Instant Scoring</b><p>Your score and accuracy are calculated the moment you submit the paper.</p>
+            </div>
+            <div class="mv-feature">
+              <span class="mv-feature-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span>
+              <b>Answer Review</b><p>See the correct answer and a clear explanation for every question you attempt.</p>
+            </div>
+            <div class="mv-feature">
+              <span class="mv-feature-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
+              <b>Bilingual</b><p>Practise in both English and Assamese — switch anytime during the test.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mv-section">
+          <div class="mv-head"><h2>How it works</h2><p>Three simple steps to test yourself</p></div>
+          <div class="mv-steps">
+            <div class="mv-step"><span class="mv-step-num">1</span><b>Pick a subject</b><p>Choose the subject and paper you want to practise from the grid above.</p></div>
+            <div class="mv-step"><span class="mv-step-num">2</span><b>Attempt the test</b><p>Answer the questions within the live timer just like the real examination hall.</p></div>
+            <div class="mv-step"><span class="mv-step-num">3</span><b>Review &amp; improve</b><p>Study the instant result and explanations, then reattempt to track your progress.</p></div>
+          </div>
         </div>
       </section>`;
     observeReveals();
