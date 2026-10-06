@@ -2236,9 +2236,12 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   .tab-item svg { width: 20px; height: 20px; }
 }
 
-/* Tiny phones: keep brand + search + theme on one line */
+/* Tiny phones: keep brand + theme on one line, never hide the brand name */
 @media (max-width: 360px) {
-  .header-inner .brand-text { display: none; }
+  .header-inner { gap: 6px; }
+  .header-inner .brand { gap: 6px; }
+  .header-inner .brand-mark { width: 28px; height: 28px; border-radius: 9px; font-size: .92rem; }
+  .header-inner .brand-text { display: inline; font-size: .98rem; letter-spacing: -.3px; }
   .header-inner #master-search { padding-left: 30px; }
   .header-inner .search-wrap .search-icon { left: 9px; }
 }
