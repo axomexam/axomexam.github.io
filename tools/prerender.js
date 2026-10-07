@@ -1215,15 +1215,46 @@ All mock tests are 100% free, unlimited and available in both English and Assame
   };
 }
 
+function mockTileHTML(href, nameObj, meta, color) {
+  const en = loc(nameObj);
+  const as = locAs(nameObj);
+  const asLine = as && as !== en ? `<span class="mt-tile-as">${escapeHtml(as)}</span>` : "";
+  const letter = escapeHtml((en || "?").charAt(0).toUpperCase());
+  const c = color || "#4f46e5";
+  return `<a class="mt-tile reveal" href="${href}" style="--c:${c}">
+        <span class="mt-tile-ico">${letter}</span>
+        <span class="mt-tile-en">${escapeHtml(en)}</span>
+        ${asLine}
+        ${meta ? `<span class="mt-tile-meta">${escapeHtml(meta)}</span>` : ""}
+      </a>`;
+}
+
+function mockSubcategories(cat) {
+  if (!cat) return [];
+  if (cat.id === "english") {
+    return [
+      { id: "grammar", name: { en: "Grammar", as: "ব্যাকৰণ" } },
+      { id: "vocabulary", name: { en: "Vocabulary", as: "শব্দভাণ্ডাৰ" } },
+    ];
+  }
+  if (cat.id === "computer") {
+    return [
+      { id: "comp-fundamentals", name: { en: "Fundamentals", as: "মৌলিক" } },
+      { id: "ms-office", name: { en: "MS Office", as: "MS Office" } },
+    ];
+  }
+  return cat.subcategories || [];
+}
+
 function buildMockSubPicker(cat) {
-  const subs = cat.subcategories || [];
+  const subs = mockSubcategories(cat);
+  const color = cat.color || "#4f46e5";
   const cards = subs
-    .map(
-      (s) => `<a class="sub-card reveal" href="/mock-test/${cat.id}/${s.id}" style="display:block; margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px; text-decoration:none;">
-        <div style="font-weight:700; color:var(--ink,#0f172a);">${escapeHtml(loc(s.name))}</div>
-        <div style="font-size:0.8rem; color:#64748b;">Mock Test</div>
-      </a>`
-    )
+    .map((s) => {
+      const topicN = (s.sections || []).reduce((n, sec) => n + ((sec.topics || []).length), 0) || (s.topics || []).length;
+      const meta = topicN ? `${topicN} ${topicN === 1 ? "topic" : "topics"}` : "Timed practice sets";
+      return mockTileHTML(`/mock-test/${cat.id}/${s.id}`, s.name, meta, color);
+    })
     .join("");
   const crumb = breadcrumbHTML([
     { href: "/", label: "Home" },
@@ -1231,7 +1262,7 @@ function buildMockSubPicker(cat) {
     { label: loc(cat.name) },
   ]);
   const body = pageHead(crumb, `${loc(cat.name)} Mock Test`, "") +
-    `<section class="section" style="padding-bottom:40px;"><div class="sub-grid">${cards}</div></section>`;
+    `<section class="section" style="padding-bottom:40px;"><div class="mt-tile-grid">${cards}</div></section>`;
   const isMath = isMathCat(cat);
   return {
     html: shellHTML({
@@ -1255,13 +1286,12 @@ function buildMockSubPicker(cat) {
 
 function buildMockSectionPicker(cat, sub) {
   const secs = sub.sections || [];
+  const color = cat.color || "#4f46e5";
   const cards = secs
-    .map(
-      (s) => `<a class="sub-card reveal" href="/mock-test/${cat.id}/${sub.id}/${s.id}" style="display:block; margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px; text-decoration:none;">
-        <div style="font-weight:700; color:var(--ink,#0f172a);">${escapeHtml(loc(s.name))}</div>
-        <div style="font-size:0.8rem; color:#64748b;">${(s.topics || []).length} Topics</div>
-      </a>`
-    )
+    .map((s) => {
+      const n = (s.topics || []).length;
+      return mockTileHTML(`/mock-test/${cat.id}/${sub.id}/${s.id}`, s.name, `${n} ${n === 1 ? "topic" : "topics"}`, color);
+    })
     .join("");
   const crumb = breadcrumbHTML([
     { href: "/", label: "Home" },
@@ -1270,7 +1300,7 @@ function buildMockSectionPicker(cat, sub) {
     { label: loc(sub.name) },
   ]);
   const body = pageHead(crumb, `${loc(sub.name)} Mock Test`, "") +
-    `<section class="section" style="padding-bottom:40px;"><div class="sub-grid">${cards}</div></section>`;
+    `<section class="section" style="padding-bottom:40px;"><div class="mt-tile-grid">${cards}</div></section>`;
   const isMath = isMathCat(cat);
   return {
     html: shellHTML({
@@ -1295,12 +1325,9 @@ function buildMockSectionPicker(cat, sub) {
 
 function buildMockTopicPicker(cat, sub, sec) {
   const topics = sec.topics || [];
+  const color = cat.color || "#4f46e5";
   const cards = topics
-    .map(
-      (t) => `<a class="sub-card reveal" href="/mock-test/${cat.id}/${sub.id}/${sec.id}" style="display:block; margin:10px 0; padding:14px 16px; border:1px solid var(--border,#e2e8f0); border-radius:14px; text-decoration:none;">
-        <div style="font-weight:700; color:var(--ink,#0f172a);">${escapeHtml(loc(t.name))}</div>
-      </a>`
-    )
+    .map((t) => mockTileHTML(`/mock-test/${cat.id}/${sub.id}/${sec.id}`, t.name, "Take Mock Test", color))
     .join("");
   const crumb = breadcrumbHTML([
     { href: "/", label: "Home" },
@@ -1310,7 +1337,7 @@ function buildMockTopicPicker(cat, sub, sec) {
     { label: loc(sec.name) },
   ]);
   const body = pageHead(crumb, `${loc(sec.name)} Mock Test`, "") +
-    `<section class="section" style="padding-bottom:40px;"><div class="sub-grid">${cards}</div></section>`;
+    `<section class="section" style="padding-bottom:40px;"><div class="mt-tile-grid">${cards}</div></section>`;
   const isMath = isMathCat(cat);
   return {
     html: shellHTML({

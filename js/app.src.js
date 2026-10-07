@@ -5545,6 +5545,28 @@
     computer: { sets: 10, q: 250 }
   };
 
+  function bilingualName(obj) {
+    if (obj == null) return { en: "", as: "" };
+    if (typeof obj === "string") return { en: obj, as: "" };
+    const en = obj.en || obj.as || "";
+    const as = obj.as && obj.as !== en ? obj.as : "";
+    return { en, as };
+  }
+
+  function mockTileHTML(opts) {
+    const color = opts.color || catColor(opts.catId);
+    const delay = opts.delay || 0;
+    const asLine = opts.as ? `<span class="mt-tile-as">${escapeHtml(opts.as)}</span>` : "";
+    const meta = opts.meta ? `<span class="mt-tile-meta">${opts.meta}</span>` : "";
+    const ico = opts.iconHtml || topicIconHTML(opts.id, opts.catId);
+    return `<a class="mt-tile reveal" href="${opts.href}" style="--c:${color}" data-delay="${delay}">
+        <span class="mt-tile-ico">${ico}</span>
+        <span class="mt-tile-en">${escapeHtml(opts.en)}</span>
+        ${asLine}
+        ${meta}
+      </a>`;
+  }
+
   function mockLandingCard(c, i) {
     const color = catColor(c.id);
     const nm = c.name;
@@ -5658,15 +5680,23 @@
         <p class="page-desc">Choose a paper to begin your timed mock test.</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
-        <div class="sub-grid">
-          ${subs.map((s, i) => `
-            <a class="sub-card reveal" href="/mock-test/${cat.id}/${s.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
-              <span class="sub-ico">${topicIconHTML(s.id, cat.id)}</span>
-              <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
-                <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(s.name))}</span>
-                <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">Timed practice sets</span>
-              </span>
-            </a>`).join("")}
+        <div class="mt-tile-grid">
+          ${subs.map((s, i) => {
+            const nm = bilingualName(s.name);
+            const topicN = (s.sections || []).reduce((n, sec) => n + ((sec.topics || []).length), 0) || (s.topics || []).length;
+            const meta = topicN
+              ? `${topicN} ${topicN === 1 ? "topic" : "topics"}`
+              : "Timed practice sets";
+            return mockTileHTML({
+              href: `/mock-test/${cat.id}/${s.id}`,
+              catId: cat.id,
+              id: s.id,
+              en: nm.en,
+              as: nm.as,
+              meta,
+              delay: i * 40
+            });
+          }).join("")}
         </div>
       </section>`;
     observeReveals();
@@ -5695,15 +5725,20 @@
         <p class="page-desc">Choose a section to begin your test.</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
-        <div class="sub-grid">
-          ${secs.map((sec, i) => `
-            <a class="sub-card reveal" href="/mock-test/${cat.id}/${sub.id}/${sec.id}" style="--cat:${catColor(cat.id)}" data-delay="${i * 50}">
-              <span class="sub-ico">${topicIconHTML(sec.id, cat.id)}</span>
-              <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
-                <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${escapeHtml(localized(sec.name))}</span>
-                <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${(sec.topics || []).length} Topics</span>
-              </span>
-            </a>`).join("")}
+        <div class="mt-tile-grid">
+          ${secs.map((sec, i) => {
+            const nm = bilingualName(sec.name);
+            const n = (sec.topics || []).length;
+            return mockTileHTML({
+              href: `/mock-test/${cat.id}/${sub.id}/${sec.id}`,
+              catId: cat.id,
+              id: sec.id,
+              en: nm.en,
+              as: nm.as,
+              meta: `${n} ${n === 1 ? "topic" : "topics"}`,
+              delay: i * 50
+            });
+          }).join("")}
         </div>
       </section>`;
     observeReveals();
@@ -5731,15 +5766,19 @@
         <p class="page-desc">Select a topic to start your mock test.</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
-        <div class="sub-grid">
-          ${topics.map((tp, i) => `
-            <a class="sub-card reveal" href="/mock-test/${cat.id}/start" style="--cat:${catColor(cat.id)}" data-delay="${i * 40}">
-              <span class="sub-ico">${topicIconHTML(tp.id, cat.id)}</span>
-              <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
-                <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${escapeHtml(localized(tp.name))}</span>
-                <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">Take Mock Test</span>
-              </span>
-            </a>`).join("")}
+        <div class="mt-tile-grid">
+          ${topics.map((tp, i) => {
+            const nm = bilingualName(tp.name);
+            return mockTileHTML({
+              href: `/mock-test/${cat.id}/start`,
+              catId: cat.id,
+              id: tp.id,
+              en: nm.en,
+              as: nm.as,
+              meta: "Take Mock Test",
+              delay: i * 40
+            });
+          }).join("")}
         </div>
       </section>`;
     observeReveals();
