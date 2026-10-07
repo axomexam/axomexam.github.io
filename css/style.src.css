@@ -2399,8 +2399,8 @@ body[data-ui-lang="as"] [data-axo-lang="as"] { display: block !important; }
 /* The editorial credit (author / reference source / published) follows the
    universal (UI) language toggle only, so it is English by default and every
    content page shows the same language until the toggle is changed. */
-body[data-axo-editorial-credit] [data-axo-lang="as"] { display: none !important; }
-body[data-axo-editorial-credit] [data-axo-lang="en"] { display: block !important; }
+body [data-axo-editorial-credit] [data-axo-lang="as"] { display: none !important; }
+body [data-axo-editorial-credit] [data-axo-lang="en"] { display: block !important; }
 body[data-ui-lang="as"] [data-axo-editorial-credit] [data-axo-lang="en"] { display: none !important; }
 body[data-ui-lang="as"] [data-axo-editorial-credit] [data-axo-lang="as"] { display: block !important; }
 
