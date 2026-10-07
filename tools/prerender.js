@@ -1229,6 +1229,13 @@ function mockTileHTML(href, nameObj, meta, color) {
       </a>`;
 }
 
+function mockTopicsHead(name) {
+  return `<div class="mt-topics-head">
+        <h2>${escapeHtml(name)} Mock Test</h2>
+        <p>Choose a topic below to begin your timed mock test.</p>
+      </div>`;
+}
+
 function mockSubcategories(cat) {
   if (!cat) return [];
   if (cat.id === "english") {
@@ -1262,7 +1269,7 @@ function buildMockSubPicker(cat) {
     { label: loc(cat.name) },
   ]);
   const body = pageHead(crumb, `${loc(cat.name)} Mock Test`, "") +
-    `<section class="section" style="padding-bottom:40px;"><div class="mt-tile-grid">${cards}</div></section>`;
+    `<section class="section" style="padding-bottom:40px;">${mockTopicsHead(loc(cat.name))}<div class="mt-tile-grid">${cards}</div></section>`;
   const isMath = isMathCat(cat);
   return {
     html: shellHTML({
@@ -1300,7 +1307,7 @@ function buildMockSectionPicker(cat, sub) {
     { label: loc(sub.name) },
   ]);
   const body = pageHead(crumb, `${loc(sub.name)} Mock Test`, "") +
-    `<section class="section" style="padding-bottom:40px;"><div class="mt-tile-grid">${cards}</div></section>`;
+    `<section class="section" style="padding-bottom:40px;">${mockTopicsHead(loc(sub.name))}<div class="mt-tile-grid">${cards}</div></section>`;
   const isMath = isMathCat(cat);
   return {
     html: shellHTML({
@@ -1337,7 +1344,7 @@ function buildMockTopicPicker(cat, sub, sec) {
     { label: loc(sec.name) },
   ]);
   const body = pageHead(crumb, `${loc(sec.name)} Mock Test`, "") +
-    `<section class="section" style="padding-bottom:40px;"><div class="mt-tile-grid">${cards}</div></section>`;
+    `<section class="section" style="padding-bottom:40px;">${mockTopicsHead(loc(sec.name))}<div class="mt-tile-grid">${cards}</div></section>`;
   const isMath = isMathCat(cat);
   return {
     html: shellHTML({

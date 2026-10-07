@@ -1914,7 +1914,10 @@ Sent to: axomexam@outlook.com`};try{const k=await(await fetch("https://api.stati
         <span class="mt-tile-en">${l(e.en)}</span>
         ${n}
         ${s}
-      </a>`}function gn(e,t){const a=j(e.id),n=e.name,s=typeof n=="string"?n:n&&n.en||"",o=typeof n=="string"?"":n&&n.as||"",i=fn[e.id],c=i?`${i.sets} sets · ${i.q} questions`:`${xe(e)} topics`;return`
+      </a>`}function mtTopicsHead(e){return`<div class="mt-topics-head">
+        <h2>${l(e)} Mock Test</h2>
+        <p>Choose a topic below to begin your timed mock test.</p>
+      </div>`}function gn(e,t){const a=j(e.id),n=e.name,s=typeof n=="string"?n:n&&n.en||"",o=typeof n=="string"?"":n&&n.as||"",i=fn[e.id],c=i?`${i.sets} sets · ${i.q} questions`:`${xe(e)} topics`;return`
       <a class="mv-card reveal" style="--c:${a}" data-delay="${t*50}" href="/mock-test/${e.id}">
         <span class="mv-card-ico">${K(e.id)}</span>
         <span class="mv-card-body">
@@ -1990,6 +1993,7 @@ Sent to: axomexam@outlook.com`};try{const k=await(await fetch("https://api.stati
         <p class="page-desc">Choose a paper to begin your timed mock test.</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
+        ${mtTopicsHead(v(t.name))}
         <div class="mt-tile-grid">
           ${a.map((s,o)=>{const i=Ve(s.name),c=(s.sections||[]).reduce((p,h)=>p+(h.topics||[]).length,0)||(s.topics||[]).length,d=c?`${c} ${c===1?"topic":"topics"}`:"Timed practice sets";return Ke({href:`/mock-test/${t.id}/${s.id}`,catId:t.id,id:s.id,en:i.en,as:i.as,meta:d,delay:o*40})}).join("")}
         </div>
@@ -2005,6 +2009,7 @@ Sent to: axomexam@outlook.com`};try{const k=await(await fetch("https://api.stati
         <p class="page-desc">Choose a section to begin your test.</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
+        ${mtTopicsHead(v(a.name))}
         <div class="mt-tile-grid">
           ${n.map((s,o)=>{const i=Ve(s.name),c=(s.topics||[]).length;return Ke({href:`/mock-test/${t.id}/${a.id}/${s.id}`,catId:t.id,id:s.id,en:i.en,as:i.as,meta:`${c} ${c===1?"topic":"topics"}`,delay:o*50})}).join("")}
         </div>
@@ -2021,6 +2026,7 @@ Sent to: axomexam@outlook.com`};try{const k=await(await fetch("https://api.stati
         <p class="page-desc">Select a topic to start your mock test.</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
+        ${mtTopicsHead(v(n.name))}
         <div class="mt-tile-grid">
           ${s.map((o,i)=>{const c=Ve(o.name);return Ke({href:`/mock-test/${t.id}/start`,catId:t.id,id:o.id,en:c.en,as:c.as,meta:"Take Mock Test",delay:i*40})}).join("")}
         </div>

@@ -5567,6 +5567,13 @@
       </a>`;
   }
 
+  function mockTopicsHead(name) {
+    return `<div class="mt-topics-head">
+        <h2>${escapeHtml(name)} Mock Test</h2>
+        <p>Choose a topic below to begin your timed mock test.</p>
+      </div>`;
+  }
+
   function mockLandingCard(c, i) {
     const color = catColor(c.id);
     const nm = c.name;
@@ -5680,6 +5687,7 @@
         <p class="page-desc">Choose a paper to begin your timed mock test.</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
+        ${mockTopicsHead(localized(cat.name))}
         <div class="mt-tile-grid">
           ${subs.map((s, i) => {
             const nm = bilingualName(s.name);
@@ -5725,6 +5733,7 @@
         <p class="page-desc">Choose a section to begin your test.</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
+        ${mockTopicsHead(localized(sub.name))}
         <div class="mt-tile-grid">
           ${secs.map((sec, i) => {
             const nm = bilingualName(sec.name);
@@ -5766,6 +5775,7 @@
         <p class="page-desc">Select a topic to start your mock test.</p>
       </div>
       <section class="section" style="padding-bottom:40px;">
+        ${mockTopicsHead(localized(sec.name))}
         <div class="mt-tile-grid">
           ${topics.map((tp, i) => {
             const nm = bilingualName(tp.name);
