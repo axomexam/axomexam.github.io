@@ -1457,6 +1457,7 @@
     if (segs[0] !== "mock-test" && state.mock && state.mock.timerId) {
       stopMockTimer();
       state.mock = null;
+      disarmMockBackGuard();
     }
 
     state.lang = isEnglishContent(segs) ? "en" : "as";
@@ -5427,6 +5428,41 @@
     }
   }
 
+  /* Guard the browser Back button while a mock test is in progress.
+     We push a marker entry when the test starts and, on popstate, re-push
+     it and ask for confirmation before letting the user leave. */
+  let mockBackGuard = false;
+  let mockGuardUrl = "";
+
+  function armMockBackGuard() {
+    if (mockBackGuard) return;
+    mockBackGuard = true;
+    mockGuardUrl = location.href;
+    try { history.pushState({ axoMockGuard: Date.now() }, "", mockGuardUrl); } catch (e) { }
+  }
+
+  function disarmMockBackGuard() {
+    mockBackGuard = false;
+  }
+
+  function handleMockBackGuard() {
+    if (!mockBackGuard || !state.mock || !state.mock.started) return false;
+    try { history.pushState({ axoMockGuard: Date.now() }, "", mockGuardUrl || location.href); } catch (e) { }
+    showModalPopup({
+      title: "Leave Mock Test?",
+      message: "Are you sure you want to leave the mock test? Your current progress will be lost.",
+      confirmText: "Yes, Leave",
+      cancelText: "Stay",
+      onConfirm: () => {
+        disarmMockBackGuard();
+        stopMockTimer();
+        state.mock = null;
+        navigateTo("/mock-test");
+      }
+    });
+    return true;
+  }
+
   function showModalPopup({ title, message, confirmText, cancelText, onConfirm }) {
     const existing = $("#confirm-modal");
     if (existing) existing.remove();
@@ -5436,9 +5472,9 @@
     modal.className = "read-modal";
     modal.innerHTML = `
       <div class="read-modal-backdrop"></div>
-      <div class="read-modal-box" role="dialog" style="max-width:440px; padding:24px; text-align:center; height:max-content; margin:auto;">
-        <h3 style="font-size:1.2rem; margin-bottom:10px;">${escapeHtml(title)}</h3>
-        <p style="color:var(--ink-soft); font-size:.92rem; margin-bottom:20px;">${escapeHtml(message)}</p>
+      <div class="read-modal-box confirm-modal-box" role="dialog">
+        <h3 style="font-size:1.12rem; margin-bottom:9px;">${escapeHtml(title)}</h3>
+        <p style="color:var(--ink-soft); font-size:.9rem; margin-bottom:18px; line-height:1.55;">${escapeHtml(message)}</p>
         <div style="display:flex; gap:10px; justify-content:center;">
           <button class="btn btn-outline" id="modal-cancel-btn" style="flex:1;">${escapeHtml(cancelText || "Cancel")}</button>
           <button class="btn btn-primary" id="modal-confirm-btn" style="flex:1;">${escapeHtml(confirmText || "Confirm")}</button>
@@ -6296,11 +6332,12 @@
         message: "Are you sure you want to quit the mock test? Your current progress will be lost.",
         confirmText: "Yes, Quit",
         cancelText: "Resume Test",
-        onConfirm: () => { stopMockTimer(); state.mock = null; navigateTo("/mock-test"); }
+        onConfirm: () => { disarmMockBackGuard(); stopMockTimer(); state.mock = null; navigateTo("/mock-test"); }
       });
     });
 
     if (!m.timerId) startMockTimer();
+    armMockBackGuard();
   }
 
   function startMockTimer() {
@@ -6322,6 +6359,7 @@
   function renderMockResults() {
     const m = state.mock;
     stopMockTimer();
+    disarmMockBackGuard();
     if (!m) return;
 
     let correct = 0, wrong = 0, skipped = 0;
@@ -6930,6 +6968,7 @@
       bindLinkInterception();
 
       window.addEventListener("popstate", () => {
+        if (handleMockBackGuard()) return;
         buildDesktopNav();
         buildMobileNav();
         renderRoute();

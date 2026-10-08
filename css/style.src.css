@@ -769,6 +769,9 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   display: flex; flex-direction: column; overflow: hidden;
   box-shadow: 0 30px 80px -20px rgba(15, 23, 42, .5);
 }
+.read-modal-box.confirm-modal-box {
+  max-width: 380px; height: max-content; margin: auto; padding: 22px 20px; text-align: center;
+}
 .read-modal-head {
   display: flex; align-items: center; gap: 12px;
   padding: 14px 18px; border-bottom: 1px solid var(--line); background: var(--bg-soft);
@@ -956,37 +959,37 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 .setup-panel .btn-begin { width: 100%; margin-top: 18px; }
 
 /* ---- Professional Mock Test Setup (manual JSON sets) ---- */
-.mt-setup { max-width: 640px; margin: 6px auto 64px; display: flex; flex-direction: column; gap: 18px; }
+.mt-setup { max-width: 580px; margin: 4px auto 48px; display: flex; flex-direction: column; gap: 14px; }
 
 .mt-hero {
-  position: relative; overflow: hidden; display: flex; align-items: center; gap: 16px;
-  padding: 20px; border-radius: 18px; border: 1px solid var(--line);
+  position: relative; overflow: hidden; display: flex; align-items: center; gap: 14px;
+  padding: 16px 18px; border-radius: 16px; border: 1px solid var(--line);
   background: linear-gradient(135deg, color-mix(in srgb, var(--cat, var(--primary)) 14%, #ffffff), #ffffff);
   box-shadow: var(--card-shadow);
 }
 .mt-hero-icon {
-  width: 54px; height: 54px; flex-shrink: 0; border-radius: 15px; display: grid; place-items: center;
-  background: var(--cat, var(--primary)); color: #fff; font-weight: 800; font-size: 1.25rem;
+  width: 48px; height: 48px; flex-shrink: 0; border-radius: 13px; display: grid; place-items: center;
+  background: var(--cat, var(--primary)); color: #fff; font-weight: 800; font-size: 1.1rem;
   box-shadow: 0 10px 22px -10px var(--cat, var(--primary));
 }
-.mt-hero-cat { display: block; font-size: .72rem; font-weight: 800; letter-spacing: .9px; text-transform: uppercase; color: var(--cat, var(--primary)); }
-.mt-hero-title { display: block; font-size: 1.12rem; font-weight: 800; margin-top: 3px; line-height: 1.35; }
-.mt-hero-chips { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 10px; }
-.mt-chip { font-size: .72rem; font-weight: 700; padding: 4px 10px; border-radius: 99px; background: rgba(255,255,255,.8); border: 1px solid var(--line); color: var(--ink-soft); white-space: nowrap; }
+.mt-hero-cat { display: block; font-size: .7rem; font-weight: 800; letter-spacing: .9px; text-transform: uppercase; color: var(--cat, var(--primary)); }
+.mt-hero-title { display: block; font-size: 1.02rem; font-weight: 800; margin-top: 3px; line-height: 1.32; }
+.mt-hero-chips { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 8px; }
+.mt-chip { font-size: .7rem; font-weight: 700; padding: 3px 9px; border-radius: 99px; background: rgba(255,255,255,.8); border: 1px solid var(--line); color: var(--ink-soft); white-space: nowrap; }
 
-.mt-block { background: #fff; border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--card-shadow); padding: 18px; }
-.mt-label { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; font-weight: 800; font-size: .9rem; margin-bottom: 13px; }
-.mt-label span { font-weight: 600; font-size: .8rem; color: var(--ink-faint); }
+.mt-block { background: #fff; border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--card-shadow); padding: 16px; }
+.mt-label { display: flex; align-items: baseline; gap: 7px; flex-wrap: wrap; font-weight: 800; font-size: .88rem; margin-bottom: 11px; }
+.mt-label span { font-weight: 600; font-size: .78rem; color: var(--ink-faint); }
 
-.mt-segmented { display: flex; gap: 4px; padding: 4px; border-radius: 13px; background: var(--bg-soft); border: 1px solid var(--line); }
+.mt-segmented { display: flex; gap: 4px; padding: 4px; border-radius: 12px; background: var(--bg-soft); border: 1px solid var(--line); }
 .mt-seg-btn {
-  flex: 1; display: inline-flex; align-items: center; justify-content: center; gap: 8px;
-  padding: 11px 10px; border-radius: 10px; font-weight: 800; font-size: .9rem;
+  flex: 1; display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+  padding: 9px 10px; border-radius: 9px; font-weight: 800; font-size: .86rem;
   color: var(--ink-soft); transition: all .18s ease; cursor: pointer;
 }
 .mt-seg-btn:hover { color: var(--primary); }
 .mt-seg-btn.active { background: var(--grad); color: #fff; box-shadow: 0 5px 14px -6px var(--primary); }
-.mt-seg-ico { width: 24px; height: 24px; flex-shrink: 0; border-radius: 7px; display: grid; place-items: center; font-size: .78rem; background: rgba(0,0,0,.07); font-weight: 800; }
+.mt-seg-ico { width: 22px; height: 22px; flex-shrink: 0; border-radius: 7px; display: grid; place-items: center; font-size: .74rem; background: rgba(0,0,0,.07); font-weight: 800; }
 .mt-seg-btn.active .mt-seg-ico { background: rgba(255,255,255,.22); }
 
 .mt-diff { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
@@ -1014,11 +1017,11 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 .mt-diff-card.hard:hover,
 .mt-diff-card.hard.active { border-color: #dc2626; background: color-mix(in srgb, #dc2626 8%, #fff); }
 
-.mt-rules { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 11px; }
-.mt-rules li { display: flex; gap: 10px; align-items: flex-start; font-size: .86rem; color: var(--ink-soft); line-height: 1.6; }
-.mt-rules li svg { width: 17px; height: 17px; flex-shrink: 0; color: var(--primary); margin-top: 2px; }
+.mt-rules { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 9px; }
+.mt-rules li { display: flex; gap: 9px; align-items: flex-start; font-size: .84rem; color: var(--ink-soft); line-height: 1.55; }
+.mt-rules li svg { width: 16px; height: 16px; flex-shrink: 0; color: var(--primary); margin-top: 2px; }
 
-.mt-start { width: 100%; padding: 14px 16px; font-size: 1rem; border-radius: 14px; letter-spacing: .2px; }
+.mt-start { width: 100%; padding: 12px 16px; font-size: .96rem; border-radius: 12px; letter-spacing: .2px; }
 
 /* ---- Mock test set cards ---- */
 .set-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 16px; }
@@ -1308,6 +1311,7 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   .qa-card .qa-q .qtext { font-size: .88rem; line-height: 1.5; }
   .qa-a .a-body { font-size: .85rem; line-height: 1.6; }
   .read-modal-box { inset: 0; max-height: none; border-radius: 0; }
+  .read-modal-box.confirm-modal-box { inset: 12px; max-height: calc(100dvh - 24px); border-radius: var(--radius); padding: 20px 16px; }
   .read-modal-body { padding: 14px; }
   .section-head { flex-wrap: wrap; }
   .quiz-card { padding: 18px 16px; }
@@ -1315,10 +1319,22 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   .quiz-wrap, .result-wrap { margin-bottom: 70px; }
   .result-stats { grid-template-columns: repeat(2, 1fr); }
   .quiz-flash-actions { flex-direction: column; }
-  .mt-hero { padding: 16px; gap: 13px; }
-  .mt-hero-icon { width: 46px; height: 46px; border-radius: 13px; }
-  .mt-hero-title { font-size: .98rem; }
-  .mt-block { padding: 15px 14px; }
+  .mt-setup { max-width: 100%; gap: 11px; margin: 2px auto 36px; }
+  .mt-hero { padding: 13px 14px; gap: 12px; border-radius: 14px; }
+  .mt-hero-icon { width: 42px; height: 42px; border-radius: 12px; font-size: 1rem; }
+  .mt-hero-title { font-size: .92rem; }
+  .mt-hero-cat { font-size: .64rem; }
+  .mt-hero-chips { margin-top: 7px; gap: 6px; }
+  .mt-chip { font-size: .66rem; padding: 3px 8px; }
+  .mt-block { padding: 13px 12px; border-radius: 13px; }
+  .mt-label { font-size: .84rem; gap: 6px; margin-bottom: 10px; }
+  .mt-label span { font-size: .74rem; }
+  .mt-seg-btn { font-size: .8rem; padding: 9px 6px; gap: 6px; border-radius: 9px; }
+  .mt-seg-ico { width: 20px; height: 20px; font-size: .7rem; }
+  .mt-rules { gap: 8px; }
+  .mt-rules li { font-size: .8rem; gap: 8px; line-height: 1.5; }
+  .mt-rules li svg { width: 15px; height: 15px; }
+  .mt-start { padding: 12px 14px; font-size: .94rem; border-radius: 12px; }
   .mt-diff { gap: 8px; }
   .mt-diff-card { padding: 14px 6px 12px; }
   .mt-diff-card .mt-diff-ico { width: 36px; height: 36px; }
