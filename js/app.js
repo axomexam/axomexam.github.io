@@ -1931,7 +1931,7 @@ Sent to: axomexam@outlook.com`};try{const k=await(await fetch("https://api.stati
         <div class="mv-hero">
           <span class="mv-badge"><span class="dot"></span>100% Free · English &amp; Assamese</span>
           <h1>${r("mock.title")} for Competitive Exams</h1>
-          <p class="mv-hero-sub">Take timed mock tests designed exactly like the real exam to build speed, accuracy and confidence for ADRE 2.0, Assam Police, APSC, Gauhati High Court, SSC and Railway exams.</p>
+          <p class="mv-hero-sub">Take timed mock tests designed exactly like the real exam to build speed, accuracy and confidence for ADRE 3.0, Assam Police, APSC, Gauhati High Court, SSC and Railway exams.</p>
           <div class="mv-stats">
             <div class="mv-stat"><b>100+</b><span>Subjects</span></div>
             <div class="mv-stat"><b>500+</b><span>Practice Sets</span></div>
@@ -1943,6 +1943,24 @@ Sent to: axomexam@outlook.com`};try{const k=await(await fetch("https://api.stati
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
             </a>
           </div>
+        </div>
+
+        <div class="mv-exams reveal">
+          <div class="mv-exams-head">
+            <h2>Which exams do these Mock Tests cover?</h2>
+            <p class="mv-exams-as">এই মক টেষ্টবোৰে কোন কোন পৰীক্ষা সামৰি লয়?</p>
+            <p class="mv-exams-sub">Timed mock tests built on the exact syllabus &amp; pattern of:<br>তলত দিয়া পৰীক্ষাসমূহৰ পাঠ্যক্ৰম আৰু আৰ্হি অনুসৰি প্ৰস্তুত কৰা সময়সীমা থকা মক টেষ্ট:</p>
+          </div>
+          <ul class="mv-exams-list">
+            <li><b>Assam Police</b><span>অসম আৰক্ষী</span></li>
+            <li><b>ADRE 3.0</b><span>ADRE ৩.০</span></li>
+            <li><b>APSC</b><span>এ পি এছ চি</span></li>
+            <li><b>Gauhati High Court</b><span>গুৱাহাটী উচ্চ ন্যায়ালয়</span></li>
+            <li><b>SSC</b><span>এছ এছ চি</span></li>
+            <li><b>Railway (RRB)</b><span>ৰে'লৱে (RRB)</span></li>
+            <li><b>DHS &amp; DME</b><span>ডি এইচ এছ আৰু ডি এম ই</span></li>
+            <li><b>And many more...</b><span>আৰু অন্যান্য প্ৰতিযোগিতামূলক পৰীক্ষা</span></li>
+          </ul>
         </div>
 
         <div class="mv-section" id="subjects">
@@ -1982,7 +2000,7 @@ Sent to: axomexam@outlook.com`};try{const k=await(await fetch("https://api.stati
             <div class="mv-step"><span class="mv-step-num">3</span><b>Review &amp; improve</b><p>Study the instant result and explanations, then reattempt to track your progress.</p></div>
           </div>
         </div>
-      </section>`,T(),O(e,{name:"Mock Tests",noDefaults:!0,h2:"Timed Mock Tests for Assam Competitive Exams",info:"Each mock test on axomexam.in works like the real examination. A live timer runs while you attempt the questions, your score is calculated instantly, and every question is followed by a clear bilingual explanation. The sets are arranged subject-wise and paper-wise so you can practise exactly the section you are preparing for.",items:t.map(a=>({name:v(a.name),count:ye(a)})),tips:["Start with the subject you find hardest, so you have the most time to improve it.","Attempt one full set under the timer before checking any answer.","Maintain an error log of every wrong answer and revise it weekly.","Increase the number of questions gradually once your accuracy is stable."],faqs:[{q:"How does the online mock test work?",a:"Choose a subject, pick a paper and attempt the questions within the timer. Once you submit, you immediately see your score along with the correct answers and explanations."},{q:"Can I attempt the mock tests more than once?",a:"Yes. All mock tests are unlimited. You can reattempt any set as many times as you like at no cost."},{q:"Are the mock tests suitable for ADRE and Assam Police?",a:"Yes. The subjects and question patterns follow the syllabus of ADRE 2.0, Assam Police, APSC, Gauhati High Court, SSC and Railway recruitment exams."}]})}function An(e,t){const a=Bt(t);e.innerHTML=`
+      </section>`,T(),O(e,{name:"Mock Tests",noDefaults:!0,h2:"Timed Mock Tests for Assam Competitive Exams",info:"Each mock test on axomexam.in works like the real examination. A live timer runs while you attempt the questions, your score is calculated instantly, and every question is followed by a clear bilingual explanation. The sets are arranged subject-wise and paper-wise so you can practise exactly the section you are preparing for.",items:t.map(a=>({name:v(a.name),count:ye(a)})),tips:["Start with the subject you find hardest, so you have the most time to improve it.","Attempt one full set under the timer before checking any answer.","Maintain an error log of every wrong answer and revise it weekly.","Increase the number of questions gradually once your accuracy is stable."],faqs:[{q:"How does the online mock test work?",a:"Choose a subject, pick a paper and attempt the questions within the timer. Once you submit, you immediately see your score along with the correct answers and explanations."},{q:"Can I attempt the mock tests more than once?",a:"Yes. All mock tests are unlimited. You can reattempt any set as many times as you like at no cost."},{q:"Are the mock tests suitable for ADRE and Assam Police?",a:"Yes. The subjects and question patterns follow the syllabus of ADRE 3.0, Assam Police, APSC, Gauhati High Court, SSC and Railway recruitment exams."}]})}function An(e,t){const a=Bt(t);e.innerHTML=`
       <div class="page-head">
         <nav class="breadcrumb">
           <a href="/">Home</a><span class="bc-sep">/</span>
@@ -2120,6 +2138,8 @@ Sent to: axomexam@outlook.com`};try{const k=await(await fetch("https://api.stati
           </div>
         </div>
 
+        <button class="btn mt-start" id="mock-begin-btn">${r("mock.begin")} →</button>
+
         <div class="mt-block">
           <div class="mt-label">Instructions <span>নিৰ্দেশনা</span></div>
           <ul class="mt-rules">
@@ -2128,8 +2148,6 @@ Sent to: axomexam@outlook.com`};try{const k=await(await fetch("https://api.stati
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>You can quit anytime — your current progress will be lost.</li>
           </ul>
         </div>
-
-        <button class="btn btn-primary mt-start" id="mock-begin-btn">${r("mock.begin")} →</button>
       </div>`,S("[data-mocklang]").forEach(f=>{f.addEventListener("click",()=>{S("[data-mocklang]").forEach(m=>m.classList.remove("active")),f.classList.add("active"),p.mock.testLang=f.dataset.mocklang})});let u=d;const h=g("#set-count-picker");h&&S("button",h).forEach(f=>{f.addEventListener("click",()=>{S("button",h).forEach(m=>m.classList.remove("active")),f.classList.add("active"),u=parseInt(f.dataset.count,10),p.mock.count=u})}),g("#mock-begin-btn").addEventListener("click",()=>{Ie({title:`Start ${s.title}?`,message:`You are about to start a ${u} question mock test in ${p.mock.testLang==="as"?"অসমীয়া":"English"}. Do you want to proceed?`,confirmText:"Start Test",cancelText:"Cancel",onConfirm:()=>Tn(u)})})}function Tn(e){if(!p.mock)return;const t=p.mock.pool.filter(s=>s.options&&s.options.length>=2),a=t.length?t:p.mock.pool,n=Math.min(e||a.length,a.length);p.mock=Object.assign(p.mock,{pool:Dt(a).slice(0,n),count:n,idx:0,answers:[],elapsedSec:0,started:!0,timerId:null}),at()}async function ze(e,t,a,n,s){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("mock.loading")}</p></div>`;const o=await fn(t,a,n,s);if(!o.length){e.innerHTML=`
         <div class="qa-empty" style="padding:60px 20px;">
           <div class="big"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg></div>
@@ -2159,11 +2177,11 @@ Sent to: axomexam@outlook.com`};try{const k=await(await fetch("https://api.stati
           ${i.map((u,h)=>`<button type="button" data-count="${u}" class="${h===0?"active":""}">${u}</button>`).join("")}
         </div>
 
+        <button class="btn btn-begin" id="mock-begin-btn">${r("mock.begin")}</button>
         <div class="setup-note">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
           <span>Stopwatch Timer will track your total time taken. Instant grading on final submission.</span>
         </div>
-        <button class="btn btn-primary btn-begin" id="mock-begin-btn">${r("mock.begin")}</button>
       </div>`,S("[data-mocklang]").forEach(u=>{u.addEventListener("click",()=>{S("[data-mocklang]").forEach(h=>h.classList.remove("active")),u.classList.add("active"),p.mock.testLang=u.dataset.mocklang})});const l=g("#count-picker");let d=i[0]||o.length;S("button",l).forEach(u=>{u.addEventListener("click",()=>{S("button",l).forEach(h=>h.classList.remove("active")),u.classList.add("active"),d=parseInt(u.dataset.count,10)})}),g("#mock-begin-btn").addEventListener("click",()=>{Ie({title:"Start Mock Test?",message:`You are about to start a ${d} question test in ${p.mock.testLang==="as"?"অসমীয়া":"English"}. Do you want to proceed?`,confirmText:"Start Test",cancelText:"Cancel",onConfirm:()=>Ft(d)})})}function Ft(e){if(!p.mock)return;const t=Dt(p.mock.pool).slice(0,e);p.mock=Object.assign(p.mock,{pool:t,idx:0,answers:[],elapsedSec:0,started:!0,timerId:null}),at()}function at(){const e=p.mock,t=e.pool[e.idx];if(!t)return Nt();const a=g("#app"),n=e.answers[e.idx]!==void 0,s=["A","B","C","D","E"],o=U(t.q),i=t.options||[],l=W(t),d=e.setInfo?`${c(v(e.cat.name))} • ${c(e.setInfo.title)}`:`${c(v(e.cat.name))}`;a.innerHTML=`
       <div class="quiz-wrap">
         <div class="quiz-top">

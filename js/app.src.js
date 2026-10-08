@@ -5637,7 +5637,7 @@
         <div class="mv-hero">
           <span class="mv-badge"><span class="dot"></span>100% Free · English &amp; Assamese</span>
           <h1>${t("mock.title")} for Competitive Exams</h1>
-          <p class="mv-hero-sub">Take timed mock tests designed exactly like the real exam to build speed, accuracy and confidence for ADRE 2.0, Assam Police, APSC, Gauhati High Court, SSC and Railway exams.</p>
+          <p class="mv-hero-sub">Take timed mock tests designed exactly like the real exam to build speed, accuracy and confidence for ADRE 3.0, Assam Police, APSC, Gauhati High Court, SSC and Railway exams.</p>
           <div class="mv-stats">
             <div class="mv-stat"><b>100+</b><span>Subjects</span></div>
             <div class="mv-stat"><b>500+</b><span>Practice Sets</span></div>
@@ -5649,6 +5649,24 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
             </a>
           </div>
+        </div>
+
+        <div class="mv-exams reveal">
+          <div class="mv-exams-head">
+            <h2>Which exams do these Mock Tests cover?</h2>
+            <p class="mv-exams-as">এই মক টেষ্টবোৰে কোন কোন পৰীক্ষা সামৰি লয়?</p>
+            <p class="mv-exams-sub">Timed mock tests built on the exact syllabus &amp; pattern of:<br>তলত দিয়া পৰীক্ষাসমূহৰ পাঠ্যক্ৰম আৰু আৰ্হি অনুসৰি প্ৰস্তুত কৰা সময়সীমা থকা মক টেষ্ট:</p>
+          </div>
+          <ul class="mv-exams-list">
+            <li><b>Assam Police</b><span>অসম আৰক্ষী</span></li>
+            <li><b>ADRE 3.0</b><span>ADRE ৩.০</span></li>
+            <li><b>APSC</b><span>এ পি এছ চি</span></li>
+            <li><b>Gauhati High Court</b><span>গুৱাহাটী উচ্চ ন্যায়ালয়</span></li>
+            <li><b>SSC</b><span>এছ এছ চি</span></li>
+            <li><b>Railway (RRB)</b><span>ৰে'লৱে (RRB)</span></li>
+            <li><b>DHS &amp; DME</b><span>ডি এইচ এছ আৰু ডি এম ই</span></li>
+            <li><b>And many more...</b><span>আৰু অন্যান্য প্ৰতিযোগিতামূলক পৰীক্ষা</span></li>
+          </ul>
         </div>
 
         <div class="mv-section" id="subjects">
@@ -5705,7 +5723,7 @@
       faqs: [
         { q: "How does the online mock test work?", a: "Choose a subject, pick a paper and attempt the questions within the timer. Once you submit, you immediately see your score along with the correct answers and explanations." },
         { q: "Can I attempt the mock tests more than once?", a: "Yes. All mock tests are unlimited. You can reattempt any set as many times as you like at no cost." },
-        { q: "Are the mock tests suitable for ADRE and Assam Police?", a: "Yes. The subjects and question patterns follow the syllabus of ADRE 2.0, Assam Police, APSC, Gauhati High Court, SSC and Railway recruitment exams." }
+        { q: "Are the mock tests suitable for ADRE and Assam Police?", a: "Yes. The subjects and question patterns follow the syllabus of ADRE 3.0, Assam Police, APSC, Gauhati High Court, SSC and Railway recruitment exams." }
       ]
     });
   }
@@ -6089,6 +6107,8 @@
           </div>
         </div>
 
+        <button class="btn mt-start" id="mock-begin-btn">${t("mock.begin")} →</button>
+
         <div class="mt-block">
           <div class="mt-label">Instructions <span>নিৰ্দেশনা</span></div>
           <ul class="mt-rules">
@@ -6097,8 +6117,6 @@
             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>You can quit anytime — your current progress will be lost.</li>
           </ul>
         </div>
-
-        <button class="btn btn-primary mt-start" id="mock-begin-btn">${t("mock.begin")} →</button>
       </div>`;
 
     $$("[data-mocklang]").forEach((b) => {
@@ -6192,11 +6210,11 @@
           ${counts.map((n, i) => `<button type="button" data-count="${n}" class="${i === 0 ? "active" : ""}">${n}</button>`).join("")}
         </div>
 
+        <button class="btn btn-begin" id="mock-begin-btn">${t("mock.begin")}</button>
         <div class="setup-note">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
           <span>Stopwatch Timer will track your total time taken. Instant grading on final submission.</span>
         </div>
-        <button class="btn btn-primary btn-begin" id="mock-begin-btn">${t("mock.begin")}</button>
       </div>`;
 
     $$("[data-mocklang]").forEach((b) => {
