@@ -1573,7 +1573,7 @@
           </a>
           <a class="feat-card reveal" href="/current-affairs" style="--fc:#ef4444">
             <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h13a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6z"/><path d="M4 6V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/><path d="M8 10h6"/><path d="M8 13h6"/><path d="M8 16h3"/></svg></span>
-            <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়া চলিত ঘটনাৱলী" : "Free Current Affairs"}</b><span>${state.uiLang === "as" ? "দৈনিক প্ৰশ্ন আৰু ব্যাখ্যা" : "Updated Q&A with answers"}</span></span>
+            <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়া চলিত ঘটনাৱলী" : "Free Current Affairs"}</b><span>${state.uiLang === "as" ? "আপডেট: ১ অক্টোবৰ ২০২৬ • দৈনিক প্ৰশ্ন আৰু ব্যাখ্যা" : "Updated: 1 October 2026 • Q&A with answers"}</span></span>
           </a>
         </div>
         <style>
