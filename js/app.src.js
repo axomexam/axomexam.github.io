@@ -1617,7 +1617,7 @@
                 <span class="cat-ico">${catIconHTML(c.id)}</span>
                 <span class="cat-meta">
                   ${catNameHTML(c.name)}
-                  <span>${c.id === "articles" ? (state.uiLang === "as" ? "প্ৰবন্ধসমূহ" : "Articles") : `<span class="cat-count">${countTopics(c)}</span> ${c.id === "study-guides" ? (state.uiLang === "as" ? "টা গাইড" : "Guides") : t("cat.topics")}`}</span>
+                  <span><span class="cat-count">${countTopics(c)}</span> ${c.id === "study-guides" ? (state.uiLang === "as" ? "টা গাইড" : "Guides") : t("cat.topics")}</span>
                 </span>
               </a>`;
           }).join("")}
@@ -3019,7 +3019,7 @@
                 <span class="cat-ico">${catIconHTML(c.id)}</span>
                 <span class="cat-meta">
                   ${catNameHTML(c.name)}
-                  <span>${c.id === "articles" ? (state.uiLang === "as" ? "প্ৰবন্ধসমূহ" : "Articles") : `<span class="cat-count">${countTopics(c)}</span> ${c.id === "study-guides" ? (state.uiLang === "as" ? "টা গাইড" : "Guides") : t("cat.topics")}`}</span>
+                  <span><span class="cat-count">${countTopics(c)}</span> ${c.id === "study-guides" ? (state.uiLang === "as" ? "টা গাইড" : "Guides") : t("cat.topics")}</span>
                 </span>
               </a>`;
           }).join("")}

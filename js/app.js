@@ -299,7 +299,7 @@
                 <span class="cat-ico">${K(o.id)}</span>
                 <span class="cat-meta">
                   ${lt(o.name)}
-                  <span>${o.id==="articles"?p.uiLang==="as"?"প্ৰবন্ধসমূহ":"Articles":`<span class="cat-count">${ye(o)}</span> ${o.id==="study-guides"?p.uiLang==="as"?"টা গাইড":"Guides":r("cat.topics")}`}</span>
+                  <span><span class="cat-count">${ye(o)}</span> ${o.id==="study-guides"?p.uiLang==="as"?"টা গাইড":"Guides":r("cat.topics")}</span>
                 </span>
               </a>`}).join("")}
         </div>
@@ -956,7 +956,7 @@ Email: `+i+`
                 <span class="cat-ico">${K(t.id)}</span>
                 <span class="cat-meta">
                   ${lt(t.name)}
-                  <span>${t.id==="articles"?p.uiLang==="as"?"প্ৰবন্ধসমূহ":"Articles":`<span class="cat-count">${ye(t)}</span> ${t.id==="study-guides"?p.uiLang==="as"?"টা গাইড":"Guides":r("cat.topics")}`}</span>
+                  <span><span class="cat-count">${ye(t)}</span> ${t.id==="study-guides"?p.uiLang==="as"?"টা গাইড":"Guides":r("cat.topics")}</span>
                 </span>
               </a>`}).join("")}
         </div>

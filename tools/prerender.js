@@ -856,7 +856,7 @@ function buildHome() {
   const catCards = categories
     .map((c) => {
       const count = topicIndex.filter((r) => r.cat.id === c.id).length;
-      const metaLabel = c.id === "articles" ? "Study Articles" : `${count} ${count === 1 ? "Topic" : "Topics"}`;
+      const metaLabel = `${count} ${count === 1 ? "Topic" : "Topics"}`;
       return `<a class="cat-card reveal" href="/category/${c.id}" style="--cat:${c.color || "#4f46e5"}">
         <span class="cat-meta"><b>${escapeHtml(loc(c.name))}</b><span>${metaLabel}</span></span>
       </a>`;
