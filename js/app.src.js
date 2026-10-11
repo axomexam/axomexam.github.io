@@ -4622,7 +4622,9 @@
     $$(".lang-btn", main).forEach((btn) => {
       btn.addEventListener("click", () => {
         const target = btn.dataset.exlang;
-        $$(".lang-btn", main).forEach((x) => x.classList.toggle("active", x.dataset.exlang === target));
+        state.lang = target;
+        document.body.setAttribute("data-lang", target);
+        Array.from(main.querySelectorAll(".lang-btn")).forEach((x) => x.classList.toggle("active", x.dataset.exlang === target));
         paint(target);
         scheduleEbkProgress();
       });
@@ -4746,7 +4748,9 @@
     $$(".lang-btn", main).forEach((btn) => {
       btn.addEventListener("click", () => {
         const target = btn.dataset.exlang;
-        $$(".lang-btn", main).forEach((x) => x.classList.toggle("active", x.dataset.exlang === target));
+        state.lang = target;
+        document.body.setAttribute("data-lang", target);
+        Array.from(main.querySelectorAll(".lang-btn")).forEach((x) => x.classList.toggle("active", x.dataset.exlang === target));
         paint(target);
         scheduleEbkProgress();
       });
@@ -4840,7 +4844,9 @@
     $$(".lang-btn", main).forEach((btn) => {
       btn.addEventListener("click", () => {
         const target = btn.dataset.exlang;
-        $$(".lang-btn", main).forEach((x) => x.classList.toggle("active", x.dataset.exlang === target));
+        state.lang = target;
+        document.body.setAttribute("data-lang", target);
+        Array.from(main.querySelectorAll(".lang-btn")).forEach((x) => x.classList.toggle("active", x.dataset.exlang === target));
         paint(target);
         scheduleEbkProgress();
       });
