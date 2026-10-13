@@ -300,6 +300,14 @@ const PYEAR_EXAMS =
 /* Downloads */
 const DOWNLOADS = (CONFIG.FALLBACK && CONFIG.FALLBACK.DOWNLOADS) || [];
 
+/* Legacy routes that changed and are now 404s.
+   Each one is emitted as a noindex redirect stub so the old (possibly
+   still-indexed) URL forwards to its current location instead of returning
+   a hard 404. Kept out of the sitemap on purpose. */
+const LEGACY_REDIRECTS = {
+  "/previous-year/guwahati-hc/2024": "/previous-year/guwahati-hc/2026/",
+};
+
 /* ================= E-Books (read-only online readers) ================= */
 
 function ebkColor(book) {
@@ -1073,6 +1081,30 @@ function buildArticleSubPage(cat, sub) {
     html,
     jsonld: "",
   };
+}
+
+function buildLegacyRedirect(target) {
+  const targetUrl = BASE + target;
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>This page has moved | ${SITE_NAME}</title>
+  <link rel="canonical" href="${targetUrl}" />
+  <meta name="robots" content="noindex, follow" />
+  <meta http-equiv="refresh" content="0; url=${target}" />
+  <script>location.replace("${target}");</script>
+</head>
+<body style="margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:#f8fafc; color:#0f172a; display:flex; align-items:center; justify-content:center; min-height:100vh;">
+  <div style="text-align:center; padding:24px;">
+    <p style="font-size:1.05rem; font-weight:700; margin:0 0 8px 0;">This page has moved</p>
+    <p style="font-size:0.9rem; color:#64748b; margin:0 0 16px 0;">Redirecting to the latest page&hellip;</p>
+    <a style="display:inline-block; padding:10px 26px; border-radius:99px; font-weight:800; font-size:0.95rem; color:#fff; background:linear-gradient(135deg,#2563eb,#3b82f6); text-decoration:none;" href="${target}">Continue</a>
+  </div>
+</body>
+</html>`;
+  return { html, jsonld: "" };
 }
 
 function buildArticleReader(cat, sub) {
@@ -2029,6 +2061,11 @@ function main() {
       addPage(`/previous-year/${exam.id}/${year}`, buildPreviousYearPapers(exam, year));
       addSitemap(`/previous-year/${exam.id}/${year}`, "0.7", "weekly");
     }
+  }
+
+  /* Legacy redirect stubs (noindex, not in sitemap) */
+  for (const [from, to] of Object.entries(LEGACY_REDIRECTS)) {
+    addPage(from, buildLegacyRedirect(to));
   }
 
   /* Categories / downloads pages */
