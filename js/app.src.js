@@ -5519,6 +5519,11 @@
     if (segs[0] === "topic" && segs[1] === "english") return true;
     if (segs[0] === "mock-test" && segs[1] === "english") return true;
     if (segs[0] === "category" && segs[1] === "articles" && segs[2] === "english") return true;
+    /* English-subject sections inside an exam book, e.g.
+       /exams/assam-police/general-english/... — these open in English by
+       default, and the topic's own EN/অসমীয়া toggle still lets the reader
+       switch to Assamese. */
+    if (segs[0] === "exams" && /english/i.test(segs[2] || "")) return true;
     return false;
   }
 
