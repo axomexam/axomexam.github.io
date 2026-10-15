@@ -176,6 +176,13 @@ h1, h2, h3, h4 { line-height: 1.25; font-weight: 700; }
 .search-page .sp-clear { position: absolute; right: 9px; top: 50%; transform: translateY(-50%); width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; color: var(--ink-faint); background: var(--bg-soft); transition: all var(--transition); }
 .search-page .sp-clear:hover { background: var(--bg-tint); color: var(--primary); }
 .search-page .sp-clear svg { width: 15px; height: 15px; }
+/* Hide the browser's built-in small clear "x" so only our custom button shows */
+.search-page .sp-bar input[type="search"]::-webkit-search-cancel-button,
+.search-page .sp-bar input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+}
 
 .sp-sugg { display: flex; flex-direction: column; align-items: center; gap: 10px; margin-top: 20px; }
 .sp-sugg-label { font-size: .71rem; font-weight: 800; letter-spacing: .8px; text-transform: uppercase; color: var(--ink-faint); }
@@ -2335,6 +2342,8 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   .search-page .sp-bar .search-icon { left: 17px; width: 19px; height: 19px; }
   .search-page .sp-bar input { height: 54px; padding: 0 50px 0 48px; }
   .sp-sugg { margin-top: 18px; }
+  /* Mobile: hide the default "Popular" topic chips so live search suggestions stay visible */
+  .search-page .sp-sugg { display: none; }
   .sp-chip { font-size: .8rem; padding: 7px 13px; }
   .search-page .sp-results { margin-top: 18px; }
   .sp-topic { padding: 12px 13px; gap: 11px; }
