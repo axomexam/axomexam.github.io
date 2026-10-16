@@ -1,35 +1,731 @@
 {
-  "setNumber": 6,
-  "title": "Set 6",
+  "setNumber": 2,
+  "title": "Set 2",
   "subject": "Assam Literature",
   "questions": [
     {
       "q": {
-        "en": "Questions for this set will be added soon.",
-        "as": "এই ছেটৰ প্ৰশ্নসমূহ সোনকালে যোগ কৰা হ'ব।"
+        "en": "Which work is regarded as the earliest specimen of Assamese literature?",
+        "as": "অসমীয়া সাহিত্যৰ আটাইতকৈ প্ৰাচীন নিদৰ্শন বুলি কোনখন ৰচনাক গণ্য কৰা হয়?"
       },
       "options": [
         {
-          "en": "Option A",
-          "as": "বিকল্প A"
+          "en": "Namghosa",
+          "as": "নামঘোষা"
         },
         {
-          "en": "Option B",
-          "as": "বিকল্প B"
+          "en": "Kirtan Ghosha",
+          "as": "কীৰ্তন ঘোষা"
         },
         {
-          "en": "Option C",
-          "as": "বিকল্প C"
+          "en": "Saptakanda Ramayana",
+          "as": "সপ্তকাণ্ড ৰামায়ণ"
         },
         {
-          "en": "Option D",
-          "as": "বিকল্প D"
+          "en": "Charyapada",
+          "as": "চৰ্যাপদ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Charyapada is regarded as the earliest specimen of Assamese literature.",
+        "as": "চৰ্যাপদ অসমীয়া সাহিত্যৰ আটাইতকৈ প্ৰাচীন নিদৰ্শন বুলি গণ্য কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Charyapada are songs belonging to which tradition?",
+        "as": "চৰ্যাপদসমূহ কোন পৰম্পৰাৰ গীত?"
+      },
+      "options": [
+        {
+          "en": "Vedic ritual tradition",
+          "as": "বৈদিক অনুষ্ঠান পৰম্পৰা"
+        },
+        {
+          "en": "Sufi tradition",
+          "as": "চুফী পৰম্পৰা"
+        },
+        {
+          "en": "Western classical tradition",
+          "as": "পাশ্চাত্য শাস্ত্ৰীয় পৰম্পৰা"
+        },
+        {
+          "en": "Sahajiya mystic tradition",
+          "as": "সহজিয়া ৰহস্যবাদী পৰম্পৰা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Charyapada are songs of the Sahajiya (Buddhist mystic) tradition.",
+        "as": "চৰ্যাপদ সহজিয়া (বৌদ্ধ ৰহস্যবাদী) পৰম্পৰাৰ গীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who translated the Ramayana into Assamese as the 'Saptakanda Ramayana'?",
+        "as": "'সপ্তকাণ্ড ৰামায়ণ' হিচাপে অসমীয়ালৈ ৰামায়ণ অনুবাদ কৰিছিল কোনে?"
+      },
+      "options": [
+        {
+          "en": "Srimanta Sankardev",
+          "as": "শ্ৰীমন্ত শংকৰদেৱ"
+        },
+        {
+          "en": "Madhava Kandali",
+          "as": "মাধৱ কন্দলী"
+        },
+        {
+          "en": "Ram Saraswati",
+          "as": "ৰাম সৰস্বতী"
+        },
+        {
+          "en": "Ananta Kandali",
+          "as": "অনন্ত কন্দলী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Madhava Kandali translated the Ramayana as the Saptakanda Ramayana.",
+        "as": "মাধৱ কন্দলীয়ে সপ্তকাণ্ড ৰামায়ণ হিচাপে ৰামায়ণ অনুবাদ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Madhava Kandali translated the Ramayana at the request of which king?",
+        "as": "মাধৱ কন্দলীয়ে কোন ৰজাৰ অনুৰোধত ৰামায়ণ অনুবাদ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Naranarayan",
+          "as": "নৰনাৰায়ণ"
+        },
+        {
+          "en": "Sukapha",
+          "as": "চুকাফা"
+        },
+        {
+          "en": "Mahamanikya",
+          "as": "মহামাণিক্য"
+        },
+        {
+          "en": "Bhaskaravarman",
+          "as": "ভাস্কৰবৰ্মা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Madhava Kandali translated the Ramayana at the request of king Mahamanikya.",
+        "as": "মাধৱ কন্দলীয়ে ৰজা মহামাণিক্যৰ অনুৰোধত ৰামায়ণ অনুবাদ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Madhava Kandali is placed in which century?",
+        "as": "মাধৱ কন্দলীক কোন শতিকাত স্থাপন কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "8th century",
+          "as": "৮ম শতিকা"
+        },
+        {
+          "en": "6th century",
+          "as": "৬ষ্ঠ শতিকা"
+        },
+        {
+          "en": "14th century",
+          "as": "১৪শ শতিকা"
+        },
+        {
+          "en": "18th century",
+          "as": "১৮শ শতিকা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Madhava Kandali belongs to the 14th century.",
+        "as": "মাধৱ কন্দলী ১৪শ শতিকাৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who composed the 'Kirtan Ghosha'?",
+        "as": "'কীৰ্তন ঘোষা' কোনে ৰচনা কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Srimanta Sankardev",
+          "as": "শ্ৰীমন্ত শংকৰদেৱ"
+        },
+        {
+          "en": "Madhava Kandali",
+          "as": "মাধৱ কন্দলী"
+        },
+        {
+          "en": "Damodardev",
+          "as": "দামোদৰদেৱ"
+        },
+        {
+          "en": "Madhavdev",
+          "as": "মাধৱদেৱ"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "This set is being updated. Please check back soon.",
-        "as": "এই ছেটটো আপডেট কৰা হৈছে। অনুগ্ৰহ কৰি সোনকালে পুনৰ চাওক।"
+        "en": "The Kirtan Ghosha was composed by Srimanta Sankardev.",
+        "as": "কীৰ্তন ঘোষা শ্ৰীমন্ত শংকৰদেৱে ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the 'Namghosa'?",
+        "as": "'নামঘোষা' কোনে লিখিছিল?"
+      },
+      "options": [
+        {
+          "en": "Srimanta Sankardev",
+          "as": "শ্ৰীমন্ত শংকৰদেৱ"
+        },
+        {
+          "en": "Bhattadeva",
+          "as": "ভট্টদেৱ"
+        },
+        {
+          "en": "Ram Saraswati",
+          "as": "ৰাম সৰস্বতী"
+        },
+        {
+          "en": "Madhavdev",
+          "as": "মাধৱদেৱ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Namghosa was written by Madhavdev.",
+        "as": "নামঘোষা মাধৱদেৱে লিখিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which is the first Ankiya Naat composed by Srimanta Sankardev?",
+        "as": "শ্ৰীমন্ত শংকৰদেৱে ৰচনা কৰা প্ৰথম অংকীয়া নাট কোনখন?"
+      },
+      "options": [
+        {
+          "en": "Keli Gopal",
+          "as": "কেলি গোপাল"
+        },
+        {
+          "en": "Rukmini Haran",
+          "as": "ৰুক্মিণী হৰণ"
+        },
+        {
+          "en": "Parijata Haran",
+          "as": "পাৰিজাত হৰণ"
+        },
+        {
+          "en": "Chihna Yatra",
+          "as": "চিহ্নযাত্ৰা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Chihna Yatra is regarded as the first Ankiya Naat composed by Sankardev.",
+        "as": "চিহ্নযাত্ৰাক শংকৰদেৱে ৰচনা কৰা প্ৰথম অংকীয়া নাট বুলি গণ্য কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is an Ankiya Naat composed by Srimanta Sankardev?",
+        "as": "তলৰ কোনখন শ্ৰীমন্ত শংকৰদেৱে ৰচনা কৰা অংকীয়া নাট?"
+      },
+      "options": [
+        {
+          "en": "Bhojan Bihar",
+          "as": "ভোজন বিহাৰ"
+        },
+        {
+          "en": "Rukmini Haran",
+          "as": "ৰুক্মিণী হৰণ"
+        },
+        {
+          "en": "Ram-Navami",
+          "as": "ৰাম-নৱমী"
+        },
+        {
+          "en": "Arjun Bhanjan",
+          "as": "অৰ্জুন ভঞ্জন"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Rukmini Haran is an Ankiya Naat composed by Sankardev.",
+        "as": "ৰুক্মিণী হৰণ শংকৰদেৱে ৰচনা কৰা এখন অংকীয়া নাট।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Ankiya Naat is composed by Madhavdev?",
+        "as": "কোনখন অংকীয়া নাট মাধৱদেৱে ৰচনা কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Kaliya Daman",
+          "as": "কালীয় দমন"
+        },
+        {
+          "en": "Chihna Yatra",
+          "as": "চিহ্নযাত্ৰা"
+        },
+        {
+          "en": "Arjun Bhanjan",
+          "as": "অৰ্জুন ভঞ্জন"
+        },
+        {
+          "en": "Rukmini Haran",
+          "as": "ৰুক্মিণী হৰণ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Arjun Bhanjan is an Ankiya Naat composed by Madhavdev.",
+        "as": "অৰ্জুন ভঞ্জন মাধৱদেৱে ৰচনা কৰা এখন অংকীয়া নাট।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Borgeet' are devotional songs composed mainly by whom?",
+        "as": "'বৰগীত' মূলতঃ কোনে ৰচনা কৰা ভক্তিমূলক গীত?"
+      },
+      "options": [
+        {
+          "en": "Madhava Kandali",
+          "as": "মাধৱ কন্দলী"
+        },
+        {
+          "en": "Ram Saraswati",
+          "as": "ৰাম সৰস্বতী"
+        },
+        {
+          "en": "Sankardev and Madhavdev",
+          "as": "শংকৰদেৱ আৰু মাধৱদেৱ"
+        },
+        {
+          "en": "Bhattadeva",
+          "as": "ভট্টদেৱ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Borgeets were composed mainly by Sankardev and Madhavdev.",
+        "as": "বৰগীত মূলতঃ শংকৰদেৱ আৰু মাধৱদেৱে ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Srimanta Sankardev was born at which place?",
+        "as": "শ্ৰীমন্ত শংকৰদেৱ কোন স্থানত জন্মগ্ৰহণ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Sivasagar",
+          "as": "শিৱসাগৰ"
+        },
+        {
+          "en": "Majuli",
+          "as": "মাজুলী"
+        },
+        {
+          "en": "Letekupukhuri",
+          "as": "লেটেকুপুখুৰী"
+        },
+        {
+          "en": "Bordowa (Nagaon)",
+          "as": "বৰদোৱা (নগাঁও)"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Srimanta Sankardev was born at Bordowa in Nagaon district.",
+        "as": "শ্ৰীমন্ত শংকৰদেৱ নগাঁও জিলাৰ বৰদোৱাত জন্মগ্ৰহণ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Madhavdev was born at which place?",
+        "as": "মাধৱদেৱ কোন স্থানত জন্মগ্ৰহণ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Majuli",
+          "as": "মাজুলী"
+        },
+        {
+          "en": "Bordowa",
+          "as": "বৰদোৱা"
+        },
+        {
+          "en": "Barpeta",
+          "as": "বৰপেটা"
+        },
+        {
+          "en": "Letekupukhuri (Narayanpur)",
+          "as": "লেটেকুপুখুৰী (নাৰায়ণপুৰ)"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Madhavdev was born at Letekupukhuri in Narayanpur.",
+        "as": "মাধৱদেৱ নাৰায়ণপুৰৰ লেটেকুপুখুৰীত জন্মগ্ৰহণ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The faith propagated by Srimanta Sankardev is known as what?",
+        "as": "শ্ৰীমন্ত শংকৰদেৱে প্ৰচাৰ কৰা ধৰ্ম কি নামেৰে জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Shaiva Dharma",
+          "as": "শৈৱ ধৰ্ম"
+        },
+        {
+          "en": "Shakti Dharma",
+          "as": "শক্তি ধৰ্ম"
+        },
+        {
+          "en": "Sahajiya Dharma",
+          "as": "সহজিয়া ধৰ্ম"
+        },
+        {
+          "en": "Eka Sarana Nam Dharma",
+          "as": "এক শৰণ নাম ধৰ্ম"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Sankardev's faith is known as Eka Sarana Nam Dharma.",
+        "as": "শংকৰদেৱৰ ধৰ্মক এক শৰণ নাম ধৰ্ম বুলি জনা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Vaishnavite monastic institution established in Assam is called what?",
+        "as": "অসমত প্ৰতিষ্ঠিত বৈষ্ণৱ মঠীয় অনুষ্ঠানক কি বোলা হয়?"
+      },
+      "options": [
+        {
+          "en": "Math",
+          "as": "মঠ"
+        },
+        {
+          "en": "Sattra",
+          "as": "সত্ৰ"
+        },
+        {
+          "en": "Dharamshala",
+          "as": "ধৰ্মশালা"
+        },
+        {
+          "en": "Vihara",
+          "as": "বিহাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Vaishnavite monastic institution is called a Sattra.",
+        "as": "বৈষ্ণৱ মঠীয় অনুষ্ঠানক সত্ৰ বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is regarded as the father of Assamese prose?",
+        "as": "অসমীয়া গদ্যৰ জনক বুলি কাক গণ্য কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Bhattadeva",
+          "as": "ভট্টদেৱ"
+        },
+        {
+          "en": "Gunabhiram Barua",
+          "as": "গুণাভিৰাম বৰুৱা"
+        },
+        {
+          "en": "Srimanta Sankardev",
+          "as": "শ্ৰীমন্ত শংকৰদেৱ"
+        },
+        {
+          "en": "Hemchandra Baruah",
+          "as": "হেমচন্দ্ৰ বৰুৱা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Bhattadeva is regarded as the father of Assamese prose.",
+        "as": "ভট্টদেৱক অসমীয়া গদ্যৰ জনক বুলি গণ্য কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Bhattadeva is best known for translating which text into Assamese prose?",
+        "as": "ভট্টদেৱ কোন গ্ৰন্থ অসমীয়া গদ্যলৈ অনুবাদ কৰাৰ বাবে বিখ্যাত?"
+      },
+      "options": [
+        {
+          "en": "Ramayana",
+          "as": "ৰামায়ণ"
+        },
+        {
+          "en": "Bhagavata Purana",
+          "as": "ভাগৱত পুৰাণ"
+        },
+        {
+          "en": "Vedas",
+          "as": "বেদ"
+        },
+        {
+          "en": "Mahabharata",
+          "as": "মহাভাৰত"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Bhattadeva translated the Bhagavata Purana into Assamese prose.",
+        "as": "ভট্টদেৱে ভাগৱত পুৰাণক অসমীয়া গদ্যলৈ অনুবাদ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who translated the Mahabharata into Assamese?",
+        "as": "মহাভাৰতক অসমীয়ালৈ অনুবাদ কৰিছিল কোনে?"
+      },
+      "options": [
+        {
+          "en": "Ram Saraswati",
+          "as": "ৰাম সৰস্বতী"
+        },
+        {
+          "en": "Madhava Kandali",
+          "as": "মাধৱ কন্দলী"
+        },
+        {
+          "en": "Madhavdev",
+          "as": "মাধৱদেৱ"
+        },
+        {
+          "en": "Bhattadeva",
+          "as": "ভট্টদেৱ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ram Saraswati translated the Mahabharata into Assamese.",
+        "as": "ৰাম সৰস্বতীয়ে মহাভাৰতক অসমীয়ালৈ অনুবাদ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Ram Saraswati translated the Mahabharata at the request of which Koch king?",
+        "as": "ৰাম সৰস্বতীয়ে কোন কোচ ৰজাৰ অনুৰোধত মহাভাৰত অনুবাদ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Chilarai",
+          "as": "চিলাৰায়"
+        },
+        {
+          "en": "Biswa Singha",
+          "as": "বিশ্ব সিংহ"
+        },
+        {
+          "en": "Mahamanikya",
+          "as": "মহামাণিক্য"
+        },
+        {
+          "en": "Naranarayan",
+          "as": "নৰনাৰায়ণ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Ram Saraswati translated the Mahabharata at the request of king Naranarayan.",
+        "as": "ৰাম সৰস্বতীয়ে ৰজা নৰনাৰায়ণৰ অনুৰোধত মহাভাৰত অনুবাদ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Sankardev's 'Ratnavali' is an Assamese rendering of which work?",
+        "as": "শংকৰদেৱৰ 'ৰত্নাৱলী' কোন গ্ৰন্থৰ অসমীয়া ৰূপান্তৰ?"
+      },
+      "options": [
+        {
+          "en": "Gita Govinda",
+          "as": "গীত গোবিন্দ"
+        },
+        {
+          "en": "Ramayana",
+          "as": "ৰামায়ণ"
+        },
+        {
+          "en": "Bhakti Ratnavali",
+          "as": "ভক্তি ৰত্নাৱলী"
+        },
+        {
+          "en": "Bhagavata Purana",
+          "as": "ভাগৱত পুৰাণ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Sankardev's 'Ratnavali' is a translation of the Bhakti Ratnavali.",
+        "as": "শংকৰদেৱৰ 'ৰত্নাৱলী' ভক্তি ৰত্নাৱলীৰ অনুবাদ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who was the chief disciple and successor of Srimanta Sankardev?",
+        "as": "শ্ৰীমন্ত শংকৰদেৱৰ প্ৰধান শিষ্য তথা উত্তৰাধিকাৰী কোন আছিল?"
+      },
+      "options": [
+        {
+          "en": "Bhattadeva",
+          "as": "ভট্টদেৱ"
+        },
+        {
+          "en": "Ram Saraswati",
+          "as": "ৰাম সৰস্বতী"
+        },
+        {
+          "en": "Madhavdev",
+          "as": "মাধৱদেৱ"
+        },
+        {
+          "en": "Damodardev",
+          "as": "দামোদৰদেৱ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Madhavdev was the chief disciple and successor of Sankardev.",
+        "as": "মাধৱদেৱ শংকৰদেৱৰ প্ৰধান শিষ্য তথা উত্তৰাধিকাৰী আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Bhaona' is the performance form of which type of drama?",
+        "as": "'ভাওনা' কোন ধৰণৰ নাটকৰ পৰিবেশন ৰূপ?"
+      },
+      "options": [
+        {
+          "en": "Sanskrit drama",
+          "as": "সংস্কৃত নাটক"
+        },
+        {
+          "en": "Modern Assamese drama",
+          "as": "আধুনিক অসমীয়া নাটক"
+        },
+        {
+          "en": "Ankiya Naat",
+          "as": "অংকীয়া নাট"
+        },
+        {
+          "en": "Yatra",
+          "as": "যাত্ৰা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Bhaona is the traditional performance form of the Ankiya Naat.",
+        "as": "ভাওনা অংকীয়া নাটৰ পৰম্পৰাগত পৰিবেশন ৰূপ।"
+      }
+    },
+    {
+      "q": {
+        "en": "In which structure is a Bhaona traditionally performed?",
+        "as": "ভাওনা পৰম্পৰাগতভাৱে কোন গঠনত পৰিবেশন কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Temple courtyard",
+          "as": "মন্দিৰ চোতাল"
+        },
+        {
+          "en": "Open field",
+          "as": "মুকলি পথাৰ"
+        },
+        {
+          "en": "Namghar",
+          "as": "নামঘৰ"
+        },
+        {
+          "en": "Royal palace",
+          "as": "ৰাজপ্ৰসাদ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Bhaona is traditionally performed in the Namghar.",
+        "as": "ভাওনা পৰম্পৰাগতভাৱে নামঘৰত পৰিবেশন কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Vaishnavite order founded by Damodardev is known as what?",
+        "as": "দামোদৰদেৱে প্ৰতিষ্ঠা কৰা বৈষ্ণৱ ধাৰাক কি বোলা হয়?"
+      },
+      "options": [
+        {
+          "en": "Brahma Sanghati",
+          "as": "ব্ৰহ্ম সংহতি"
+        },
+        {
+          "en": "Nika Sanghati",
+          "as": "নিকা সংহতি"
+        },
+        {
+          "en": "Purusha Sanghati",
+          "as": "পুৰুষ সংহতি"
+        },
+        {
+          "en": "Kala Sanghati",
+          "as": "কলা সংহতি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Damodardev founded the Brahma Sanghati.",
+        "as": "দামোদৰদেৱে ব্ৰহ্ম সংহতি প্ৰতিষ্ঠা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "In the teachings of Sankardev, 'Eka Sarana' means what?",
+        "as": "শংকৰদেৱৰ উপদেশত 'এক শৰণ'ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Sole refuge in one God",
+          "as": "এক ঈশ্বৰত একান্ত শৰণ"
+        },
+        {
+          "en": "Ritual sacrifice",
+          "as": "কৰ্মকাণ্ড বলি"
+        },
+        {
+          "en": "Worship of many gods",
+          "as": "অনেক দেৱতাৰ পূজা"
+        },
+        {
+          "en": "Idol worship only",
+          "as": "কেৱল মূৰ্তি পূজা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Eka Sarana means taking sole refuge in one God.",
+        "as": "এক শৰণৰ অৰ্থ হ'ল এক ঈশ্বৰত একান্তভাৱে শৰণ লোৱা।"
       }
     }
   ]
