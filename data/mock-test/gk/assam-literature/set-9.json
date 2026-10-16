@@ -1,35 +1,731 @@
 {
-  "setNumber": 9,
-  "title": "Set 9",
+  "setNumber": 5,
+  "title": "Set 5",
   "subject": "Assam Literature",
   "questions": [
     {
       "q": {
-        "en": "Questions for this set will be added soon.",
-        "as": "এই ছেটৰ প্ৰশ্নসমূহ সোনকালে যোগ কৰা হ'ব।"
+        "en": "Who composed the 'Kirtan Ghosha'?",
+        "as": "'কীৰ্তন ঘোষা' কাৰ ৰচনা?"
       },
       "options": [
         {
-          "en": "Option A",
-          "as": "বিকল্প A"
+          "en": "Srimanta Sankardeva",
+          "as": "শ্ৰীমন্ত শংকৰদেৱ"
         },
         {
-          "en": "Option B",
-          "as": "বিকল্প B"
+          "en": "Damodardeva",
+          "as": "দামোদৰদেৱ"
         },
         {
-          "en": "Option C",
-          "as": "বিকল্প C"
+          "en": "Harideva",
+          "as": "হৰিদেৱ"
         },
         {
-          "en": "Option D",
-          "as": "বিকল্প D"
+          "en": "Madhavdeva",
+          "as": "মাধৱদেৱ"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "This set is being updated. Please check back soon.",
-        "as": "এই ছেটটো আপডেট কৰা হৈছে। অনুগ্ৰহ কৰি সোনকালে পুনৰ চাওক।"
+        "en": "The 'Kirtan Ghosha' was composed by Srimanta Sankardeva, the founder of the Vaishnava movement in Assam.",
+        "as": "'কীৰ্তন ঘোষা' অসমৰ বৈষ্ণৱ আন্দোলনৰ প্ৰৱৰ্তক শ্ৰীমন্ত শংকৰদেৱে ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is known as 'Naam Guru' in Assamese literature?",
+        "as": "অসমীয়া সাহিত্যত 'নাম গুৰু' বুলি কাক জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Srimanta Sankardeva",
+          "as": "শ্ৰীমন্ত শংকৰদেৱ"
+        },
+        {
+          "en": "Madhavdeva",
+          "as": "মাধৱদেৱ"
+        },
+        {
+          "en": "Gopaldev",
+          "as": "গোপালদেৱ"
+        },
+        {
+          "en": "Naraharideva",
+          "as": "নৰহৰিদেৱ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Madhavdeva is called 'Naam Guru' for his 'Naam Ghosha', a collection of devotional hymns.",
+        "as": "ভক্তিমূলক গীতৰ সংকলন 'নাম ঘোষা'ৰ বাবে মাধৱদেৱক 'নাম গুৰু' বুলি কোৱা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Charyapada' is associated with which period of Assamese literature?",
+        "as": "'চৰ্যাপদ' অসমীয়া সাহিত্যৰ কোনটো যুগৰ সৈতে জড়িত?"
+      },
+      "options": [
+        {
+          "en": "Ancient period",
+          "as": "প্ৰাচীন যুগ"
+        },
+        {
+          "en": "Post-modern period",
+          "as": "উত্তৰ-আধুনিক যুগ"
+        },
+        {
+          "en": "Medieval period",
+          "as": "মধ্যযুগ"
+        },
+        {
+          "en": "Modern period",
+          "as": "আধুনিক যুগ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Charyapada, the earliest specimen of Assamese, belongs to the ancient period (10th-12th century).",
+        "as": "চৰ্যাপদ, অসমীয়াৰ আটাইতকৈ পুৰণি নিদৰ্শন, প্ৰাচীন যুগৰ (১০ম-১২শ শতিকাৰ)।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote 'Ramayana' in Assamese and is known as the first Assamese Ramayana poet?",
+        "as": "অসমীয়াত 'ৰামায়ণ' ৰচনা কৰি প্ৰথম অসমীয়া ৰামায়ণ কবি হিচাপে পৰিচিত ব্যক্তি কোন?"
+      },
+      "options": [
+        {
+          "en": "Sankardeva",
+          "as": "শংকৰদেৱ"
+        },
+        {
+          "en": "Rudra Singha",
+          "as": "ৰুদ্ৰ সিংহ"
+        },
+        {
+          "en": "Ananta Kandali",
+          "as": "অনন্ত কন্দলী"
+        },
+        {
+          "en": "Madhav Kandali",
+          "as": "মাধৱ কন্দলী"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Madhav Kandali translated the Ramayana into Assamese in the 14th century, the first such rendering.",
+        "as": "মাধৱ কন্দলীয়ে ১৪শ শতিকাত ৰামায়ণ অসমীয়ালৈ অনুবাদ কৰিছিল, যি প্ৰথম অসমীয়া ৰূপান্তৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Buranjis' are historical works primarily written in which language?",
+        "as": "'বুৰঞ্জী'সমূহ মূলতঃ কোন ভাষাত লিখা ঐতিহাসিক ৰচনা?"
+      },
+      "options": [
+        {
+          "en": "Pali",
+          "as": "পালি"
+        },
+        {
+          "en": "Sanskrit",
+          "as": "সংস্কৃত"
+        },
+        {
+          "en": "Assamese",
+          "as": "অসমীয়া"
+        },
+        {
+          "en": "Bengali",
+          "as": "বাংলা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Buranjis, the chronicles of the Ahom kingdom, were mainly written in Assamese.",
+        "as": "আহোম ৰাজ্যৰ ইতিহাস বুৰঞ্জীসমূহ মূলতঃ অসমীয়াত লিখা হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who composed 'Bhakti Pradipa'?",
+        "as": "'ভক্তি প্ৰদীপ' কাৰ ৰচনা?"
+      },
+      "options": [
+        {
+          "en": "Gopaldev",
+          "as": "গোপালদেৱ"
+        },
+        {
+          "en": "Damodardeva",
+          "as": "দামোদৰদেৱ"
+        },
+        {
+          "en": "Madhavdeva",
+          "as": "মাধৱদেৱ"
+        },
+        {
+          "en": "Sankardeva",
+          "as": "শংকৰদেৱ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Bhakti Pradipa' was composed by Srimanta Sankardeva.",
+        "as": "'ভক্তি প্ৰদীপ' শ্ৰীমন্ত শংকৰদেৱে ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Gita Govinda' was translated into Assamese by which poet?",
+        "as": "'গীত গোবিন্দ' কোন কবিয়ে অসমীয়ালৈ অনুবাদ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Madhav Kandali",
+          "as": "মাধৱ কন্দলী"
+        },
+        {
+          "en": "Rama Saraswati",
+          "as": "ৰাম সৰস্বতী"
+        },
+        {
+          "en": "Madhavdeva",
+          "as": "মাধৱদেৱ"
+        },
+        {
+          "en": "Sankardeva",
+          "as": "শংকৰদেৱ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Srimanta Sankardeva translated Jayadeva's 'Gita Govinda' into Assamese.",
+        "as": "শ্ৰীমন্ত শংকৰদেৱে জয়দেৱৰ 'গীত গোবিন্দ' অসমীয়ালৈ অনুবাদ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Ananda Lahari' was composed by which Assamese saint-poet?",
+        "as": "'আনন্দ লহৰী' কোন অসমীয়া সন্ত-কবিয়ে ৰচনা কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Sankardeva",
+          "as": "শংকৰদেৱ"
+        },
+        {
+          "en": "Aniruddhadeva",
+          "as": "অনিৰুদ্ধদেৱ"
+        },
+        {
+          "en": "Purushottam Thakur",
+          "as": "পুৰুষোত্তম ঠাকুৰ"
+        },
+        {
+          "en": "Madhavdeva",
+          "as": "মাধৱদেৱ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'Ananda Lahari' is a devotional work composed by Srimanta Sankardeva.",
+        "as": "'আনন্দ লহৰী' শ্ৰীমন্ত শংকৰদেৱৰ এক ভক্তিমূলক ৰচনা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is regarded as the first Assamese woman writer of the modern era?",
+        "as": "আধুনিক যুগৰ প্ৰথম অসমীয়া মহিলা লেখিকা হিচাপে কাক গণ্য কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Padmavati Devi Phukanani",
+          "as": "পদ্মাৱতী দেৱী ফুকননী"
+        },
+        {
+          "en": "Nalinibala Devi",
+          "as": "নলিনীবালা দেৱী"
+        },
+        {
+          "en": "Chandraprabha Saikiani",
+          "as": "চন্দ্ৰপ্ৰভা শইকীয়ানী"
+        },
+        {
+          "en": "Savitri Bai Phule",
+          "as": "সাৱিত্ৰী বাই ফুলে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Padmavati Devi Phukanani is considered the first Assamese woman writer of the modern era.",
+        "as": "পদ্মাৱতী দেৱী ফুকননীক আধুনিক যুগৰ প্ৰথম অসমীয়া মহিলা লেখিকা বুলি গণ্য কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Assamese novel is considered the first Assamese novel?",
+        "as": "কোনখন অসমীয়া উপন্যাসক প্ৰথম অসমীয়া উপন্যাস হিচাপে ধৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Phoolmoni",
+          "as": "ফুলমণি"
+        },
+        {
+          "en": "Bhanumati",
+          "as": "ভানুমতী"
+        },
+        {
+          "en": "Saudor",
+          "as": "সৌদৰ"
+        },
+        {
+          "en": "Miri Jiyori",
+          "as": "মিৰি জীয়ৰী"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'Phoolmoni' (1868) by Gunabhiram Barua is often regarded as the first Assamese novel.",
+        "as": "গুণাভিৰাম বৰুৱাৰ 'ফুলমণি' (১৮৬৮) প্ৰায়ে প্ৰথম অসমীয়া উপন্যাস হিচাপে গণ্য কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the novel 'Miri Jiyori'?",
+        "as": "'মিৰি জীয়ৰী' উপন্যাসখন কাৰ ৰচনা?"
+      },
+      "options": [
+        {
+          "en": "Rajani Kanta Bordoloi",
+          "as": "ৰজনীকান্ত বৰদলৈ"
+        },
+        {
+          "en": "Ramananda Sarma",
+          "as": "ৰামানন্দ শৰ্মা"
+        },
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'Miri Jiyori', a classic of Assamese fiction, was written by Rajani Kanta Bordoloi.",
+        "as": "অসমীয়া কল্প-সাহিত্যৰ এক ক্লাছিক 'মিৰি জীয়ৰী' ৰজনীকান্ত বৰদলৈয়ে ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the play 'Nilamani'?",
+        "as": "'নীলমণি' নাটখন কাৰ ৰচনা?"
+      },
+      "options": [
+        {
+          "en": "Jyoti Prasad Agarwala",
+          "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+        },
+        {
+          "en": "Hemchandra Goswami",
+          "as": "হেমচন্দ্ৰ গোস্বামী"
+        },
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Nilamani' was written by Padmanath Gohain Baruah, regarded as the first Assamese playwright.",
+        "as": "'নীলমণি' পদ্মনাথ গোহাঞি বৰুৱাই ৰচনা কৰিছিল, যাক প্ৰথম অসমীয়া নাট্যকাৰ বুলি গণ্য কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is known as the 'Rasaraj' of Assamese literature?",
+        "as": "অসমীয়া সাহিত্যৰ 'ৰসৰাজ' বুলি কাক জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Hem Barua",
+          "as": "হেম বৰুৱা"
+        },
+        {
+          "en": "Chandra Kumar Agarwala",
+          "as": "চন্দ্ৰকুমাৰ আগৰৱালা"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Rajani Kanta Bordoloi",
+          "as": "ৰজনীকান্ত বৰদলৈ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Lakshminath Bezbaroa is honoured with the title 'Rasaraj'.",
+        "as": "লক্ষ্মীনাথ বেজবৰুৱাক 'ৰসৰাজ' উপাধিৰে সন্মানিত কৰা হৈছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Mor Jivan Soworon' is the autobiography of which writer?",
+        "as": "'মোৰ জীৱন সোঁৱৰণ' কোন লেখকৰ আত্মজীৱনী?"
+      },
+      "options": [
+        {
+          "en": "Madhavdeva",
+          "as": "মাধৱদেৱ"
+        },
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        },
+        {
+          "en": "Hem Barua",
+          "as": "হেম বৰুৱা"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Mor Jivan Soworon' is the autobiography of Lakshminath Bezbaroa.",
+        "as": "'মোৰ জীৱন সোঁৱৰণ' লক্ষ্মীনাথ বেজবৰুৱাৰ আত্মজীৱনী।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which is the first Assamese children's story collection by Lakshminath Bezbaroa?",
+        "as": "লক্ষ্মীনাথ বেজবৰুৱাৰ প্ৰথম অসমীয়া শিশু-কাহিনী সংকলন কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Sadhukathar Kuki",
+          "as": "সাধুকথাৰ কুকি"
+        },
+        {
+          "en": "Kokadeuta Aru Nati Lora",
+          "as": "ককাদেউতা আৰু নাতি-ল'ৰা"
+        },
+        {
+          "en": "Burhi Aair Sadhu",
+          "as": "বুঢ়ী আইৰ সাধু"
+        },
+        {
+          "en": "Junuka",
+          "as": "জুনুকা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Burhi Aair Sadhu' (Grandmother's Tales) is the classic Assamese folk-tale collection by Bezbaroa.",
+        "as": "'বুঢ়ী আইৰ সাধু' বেজবৰুৱাৰ অসমীয়া লোক-কথাৰ ক্লাছিক সংকলন।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Orunodoi' was the first Assamese monthly magazine. In which year did it start?",
+        "as": "'অৰুণোদই' প্ৰথম অসমীয়া মাহেকীয়া আলোচনী। ই কোন বছৰত আৰম্ভ হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1889",
+          "as": "১৮৮৯"
+        },
+        {
+          "en": "1846",
+          "as": "১৮৪৬"
+        },
+        {
+          "en": "1868",
+          "as": "১৮৬৮"
+        },
+        {
+          "en": "1836",
+          "as": "১৮৩৬"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Orunodoi', the first Assamese monthly magazine, was started in 1846 by the American Baptist Mission.",
+        "as": "'অৰুণোদই', প্ৰথম অসমীয়া মাহেকীয়া আলোচনী, ১৮৪৬ চনত আমেৰিকান বেপ্টিষ্ট মিছনে আৰম্ভ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who was the editor of 'Orunodoi'?",
+        "as": "'অৰুণোদই'ৰ সম্পাদক কোন আছিল?"
+      },
+      "options": [
+        {
+          "en": "Oliver Cutter",
+          "as": "অলিভাৰ কাটাৰ"
+        },
+        {
+          "en": "William Carey",
+          "as": "উইলিয়াম কেৰী"
+        },
+        {
+          "en": "Nathan Brown",
+          "as": "নাথান ব্ৰাউন"
+        },
+        {
+          "en": "Miles Bronson",
+          "as": "মাইলছ ব্ৰনছন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Nathan Brown was the editor of 'Orunodoi', which did much to develop Assamese prose.",
+        "as": "নাথান ব্ৰাউন 'অৰুণোদই'ৰ সম্পাদক আছিল, যিয়ে অসমীয়া গদ্য বিকাশত বহু অৱদান আগবঢ়াইছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is the author of 'Assamese: Its Formation and Development'?",
+        "as": "'অসমীয়া: ইটছ ফৰ্মেচন এণ্ড ডেভেলপমেণ্ট'ৰ লেখক কোন?"
+      },
+      "options": [
+        {
+          "en": "Dimbeswar Neog",
+          "as": "ডিম্বেশ্বৰ নেওগ"
+        },
+        {
+          "en": "Suryya Kumar Bhuyan",
+          "as": "সূৰ্য্যকুমাৰ ভূঞা"
+        },
+        {
+          "en": "Banikanta Kakati",
+          "as": "বাণীকান্ত কাকতি"
+        },
+        {
+          "en": "Hemchandra Baruah",
+          "as": "হেমচন্দ্ৰ বৰুৱা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Assamese: Its Formation and Development' is a scholarly work by Banikanta Kakati.",
+        "as": "'অসমীয়া: ইটছ ফৰ্মেচন এণ্ড ডেভেলপমেণ্ট' বাণীকান্ত কাকতিৰ এক পাণ্ডিত্যপূৰ্ণ ৰচনা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the first Assamese dictionary 'Hemkosh'?",
+        "as": "প্ৰথম অসমীয়া অভিধান 'হেমকোষ' কাৰ ৰচনা?"
+      },
+      "options": [
+        {
+          "en": "Hemchandra Goswami",
+          "as": "হেমচন্দ্ৰ গোস্বামী"
+        },
+        {
+          "en": "Banikanta Kakati",
+          "as": "বাণীকান্ত কাকতি"
+        },
+        {
+          "en": "Hemchandra Baruah",
+          "as": "হেমচন্দ্ৰ বৰুৱা"
+        },
+        {
+          "en": "Dimbeswar Neog",
+          "as": "ডিম্বেশ্বৰ নেওগ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Hemkosh', the first standard Assamese dictionary, was compiled by Hemchandra Baruah.",
+        "as": "'হেমকোষ', প্ৰথম মানক অসমীয়া অভিধান, হেমচন্দ্ৰ বৰুৱাই সংকলন কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is regarded as the 'Buranji Bidushi' and pioneer of Assamese history writing?",
+        "as": "'বুৰঞ্জী বিদূষী' আৰু অসমীয়া ইতিহাস-লিখনৰ অগ্ৰগামী হিচাপে কাক গণ্য কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        },
+        {
+          "en": "Banikanta Kakati",
+          "as": "বাণীকান্ত কাকতি"
+        },
+        {
+          "en": "Suryya Kumar Bhuyan",
+          "as": "সূৰ্য্যকুমাৰ ভূঞা"
+        },
+        {
+          "en": "Hem Barua",
+          "as": "হেম বৰুৱা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Suryya Kumar Bhuyan was a pioneering historian of Assam and authored many historical works.",
+        "as": "সূৰ্য্যকুমাৰ ভূঞা অসমৰ এজন অগ্ৰণী ইতিহাসবিদ আছিল আৰু বহু ঐতিহাসিক গ্ৰন্থ ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is known as the 'Agnikabi' of Assamese literature?",
+        "as": "অসমীয়া সাহিত্যৰ 'অগ্নিকবি' বুলি কাক জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Hem Barua",
+          "as": "হেম বৰুৱা"
+        },
+        {
+          "en": "Nilamani Phukan",
+          "as": "নীলমণি ফুকন"
+        },
+        {
+          "en": "Nabakanta Barua",
+          "as": "নৱকান্ত বৰুৱা"
+        },
+        {
+          "en": "Bhupen Hazarika",
+          "as": "ভূপেন হাজৰিকা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Hem Barua is known as 'Agnikabi' for the fiery spirit of his poetry.",
+        "as": "কবিতাৰ জুইকুৰা-সদৃশ ভাবৰ বাবে হেম বৰুৱাক 'অগ্নিকবি' বুলি জনা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the novel 'Saudor'?",
+        "as": "'সৌদৰ' উপন্যাসখন কাৰ ৰচনা?"
+      },
+      "options": [
+        {
+          "en": "Birendra Kumar Bhattacharyya",
+          "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+        },
+        {
+          "en": "Rajani Kanta Bordoloi",
+          "as": "ৰজনীকান্ত বৰদলৈ"
+        },
+        {
+          "en": "Saurabh Kumar Chaliha",
+          "as": "সৌৰভ কুমাৰ চলিহা"
+        },
+        {
+          "en": "Mamoni Raisom Goswami",
+          "as": "মামণি ৰয়ছম গোস্বামী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Saudor' is a noted novel by Saurabh Kumar Chaliha.",
+        "as": "'সৌদৰ' সৌৰভ কুমাৰ চলিহাৰ এক প্ৰখ্যাত উপন্যাস।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who received the Jnanpith Award first among Assamese writers?",
+        "as": "অসমীয়া লেখকসকলৰ ভিতৰত প্ৰথমে কাক জ্ঞানপীঠ বঁটা প্ৰদান কৰা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Mamoni Raisom Goswami",
+          "as": "মামণি ৰয়ছম গোস্বামী"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Nilamani Phukan",
+          "as": "নীলমণি ফুকন"
+        },
+        {
+          "en": "Birendra Kumar Bhattacharyya",
+          "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Birendra Kumar Bhattacharyya was the first Assamese to win the Jnanpith Award (1979) for 'Mrityunjay'.",
+        "as": "'মৃত্যুঞ্জয়'ৰ বাবে বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য প্ৰথম অসমীয়া হিচাপে জ্ঞানপীঠ বঁটা (১৯৭৯) লাভ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "For which novel did Mamoni Raisom Goswami win the Jnanpith Award?",
+        "as": "কোনখন উপন্যাসৰ বাবে মামণি ৰয়ছম গোস্বামীয়ে জ্ঞানপীঠ বঁটা লাভ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Neelakanthi Braja",
+          "as": "নীলকণ্ঠী ব্ৰজ"
+        },
+        {
+          "en": "Chenabru",
+          "as": "চেনাব্ৰু"
+        },
+        {
+          "en": "Mamare Dhara Tarowal",
+          "as": "মামৰে ধৰা তৰোৱাল"
+        },
+        {
+          "en": "The Moth Eaten Howdah of the Tusker",
+          "as": "দঁতাল হাতীৰ উঁয়ে খোৱা হাওদা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Mamoni Raisom Goswami won the Jnanpith Award for her novel 'The Moth Eaten Howdah of the Tusker'.",
+        "as": "মামণি ৰয়ছম গোস্বামীয়ে 'দঁতাল হাতীৰ উঁয়ে খোৱা হাওদা' উপন্যাসৰ বাবে জ্ঞানপীঠ বঁটা লাভ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is known as the 'Kabi Guru' of Assamese literature?",
+        "as": "অসমীয়া সাহিত্যৰ 'কবিগুৰু' বুলি কাক জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Hem Barua",
+          "as": "হেম বৰুৱা"
+        },
+        {
+          "en": "Raghunath Choudhary",
+          "as": "ৰঘুনাথ চৌধুৰী"
+        },
+        {
+          "en": "Rabindranath Tagore",
+          "as": "ৰবীন্দ্ৰনাথ ঠাকুৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Raghunath Choudhary is popularly called the 'Kabi Guru' (poet-teacher) of Assamese literature.",
+        "as": "ৰঘুনাথ চৌধুৰীক অসমীয়া সাহিত্যৰ 'কবিগুৰু' বুলি জনপ্ৰিয়ভাৱে কোৱা হয়।"
       }
     }
   ]
