@@ -5,31 +5,427 @@
   "questions": [
     {
       "q": {
-        "en": "Questions for this set will be added soon.",
-        "as": "এই ছেটৰ প্ৰশ্নসমূহ সোনকালে যোগ কৰা হ'ব।"
+        "en": "The Taj Mahal, a UNESCO World Heritage Site, is located in which city?",
+        "as": "ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ তাজমহল কোন নগৰত অৱস্থিত?"
       },
       "options": [
-        {
-          "en": "Option A",
-          "as": "বিকল্প A"
-        },
-        {
-          "en": "Option B",
-          "as": "বিকল্প B"
-        },
-        {
-          "en": "Option C",
-          "as": "বিকল্প C"
-        },
-        {
-          "en": "Option D",
-          "as": "বিকল্প D"
-        }
+        { "en": "Delhi", "as": "দিল্লী" },
+        { "en": "Agra", "as": "আগ্ৰা" },
+        { "en": "Jaipur", "as": "জয়পুৰ" },
+        { "en": "Lucknow", "as": "লখনউ" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Taj Mahal is located in Agra.",
+        "as": "তাজমহল আগ্ৰাত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Taj Mahal was built by which Mughal emperor?",
+        "as": "তাজমহল কোন মোগল সম্ৰাটে নিৰ্মাণ কৰিছিল?"
+      },
+      "options": [
+        { "en": "Akbar", "as": "আকবৰ" },
+        { "en": "Shah Jahan", "as": "শাহজাহান" },
+        { "en": "Aurangzeb", "as": "আওৰংজেব" },
+        { "en": "Babur", "as": "বাবৰ" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Taj Mahal was built by Shah Jahan.",
+        "as": "তাজমহল শাহজাহানে নিৰ্মাণ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Qutub Minar, a famous monument, is located in which city?",
+        "as": "বিখ্যাত স্মৃতিসৌধ কুতুব মিনাৰ কোন নগৰত অৱস্থিত?"
+      },
+      "options": [
+        { "en": "Agra", "as": "আগ্ৰা" },
+        { "en": "Delhi", "as": "দিল্লী" },
+        { "en": "Bhopal", "as": "ভোপাল" },
+        { "en": "Patna", "as": "পাটনা" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Qutub Minar is located in Delhi.",
+        "as": "কুতুব মিনাৰ দিল্লীত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Sun Temple at Konark, a masterpiece of architecture, is located in which state?",
+        "as": "স্থাপত্যৰ উৎকৃষ্ট নিদৰ্শন কোণাৰ্কৰ সূৰ্য মন্দিৰ কোন ৰাজ্যত অৱস্থিত?"
+      },
+      "options": [
+        { "en": "Odisha", "as": "ওড়িশা" },
+        { "en": "West Bengal", "as": "পশ্চিম বংগ" },
+        { "en": "Bihar", "as": "বিহাৰ" },
+        { "en": "Jharkhand", "as": "ঝাৰখণ্ড" }
       ],
       "correct": 0,
       "explanation": {
-        "en": "This set is being updated. Please check back soon.",
-        "as": "এই ছেটটো আপডেট কৰা হৈছে। অনুগ্ৰহ কৰি সোনকালে পুনৰ চাওক।"
+        "en": "The Konark Sun Temple is located in Odisha.",
+        "as": "কোণাৰ্ক সূৰ্য মন্দিৰ ওড়িশাত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Khajuraho temples, famous for their sculptures, are located in which state?",
+        "as": "ভাস্কৰ্যৰ বাবে বিখ্যাত খাজুৰাহো মন্দিৰ কোন ৰাজ্যত অৱস্থিত?"
+      },
+      "options": [
+        { "en": "Rajasthan", "as": "ৰাজস্থান" },
+        { "en": "Madhya Pradesh", "as": "মধ্য প্ৰদেশ" },
+        { "en": "Uttar Pradesh", "as": "উত্তৰ প্ৰদেশ" },
+        { "en": "Gujarat", "as": "গুজৰাট" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Khajuraho temples are located in Madhya Pradesh.",
+        "as": "খাজুৰাহো মন্দিৰ মধ্য প্ৰদেশত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Ajanta and Ellora caves, renowned for ancient art, are located in which state?",
+        "as": "প্ৰাচীন শিল্পৰ বাবে বিখ্যাত অজন্তা আৰু ইলোৰা গুহা কোন ৰাজ্যত অৱস্থিত?"
+      },
+      "options": [
+        { "en": "Maharashtra", "as": "মহাৰাষ্ট্ৰ" },
+        { "en": "Karnataka", "as": "কৰ্ণাটক" },
+        { "en": "Madhya Pradesh", "as": "মধ্য প্ৰদেশ" },
+        { "en": "Telangana", "as": "তেলেংগানা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Ajanta and Ellora caves are located in Maharashtra.",
+        "as": "অজন্তা আৰু ইলোৰা গুহা মহাৰাষ্ট্ৰত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Hampi ruins, a UNESCO World Heritage Site, are associated with which empire?",
+        "as": "ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ হাম্পি ধ্বংসাৱশেষ কোন সাম্ৰাজ্যৰ সৈতে জড়িত?"
+      },
+      "options": [
+        { "en": "Maurya Empire", "as": "মৌৰ্য সাম্ৰাজ্য" },
+        { "en": "Vijayanagara Empire", "as": "বিজয়নগৰ সাম্ৰাজ্য" },
+        { "en": "Gupta Empire", "as": "গুপ্ত সাম্ৰাজ্য" },
+        { "en": "Mughal Empire", "as": "মোগল সাম্ৰাজ্য" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Hampi was the capital of the Vijayanagara Empire.",
+        "as": "হাম্পি বিজয়নগৰ সাম্ৰাজ্যৰ ৰাজধানী আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Mahabalipuram monuments, known for rock-cut art, are located in which state?",
+        "as": "শিলা-কটা শিল্পৰ বাবে পৰিচিত মহাবলীপুৰম স্মৃতিসৌধ কোন ৰাজ্যত অৱস্থিত?"
+      },
+      "options": [
+        { "en": "Tamil Nadu", "as": "তামিলনাডু" },
+        { "en": "Kerala", "as": "কেৰেলা" },
+        { "en": "Karnataka", "as": "কৰ্ণাটক" },
+        { "en": "Andhra Pradesh", "as": "অন্ধ্ৰ প্ৰদেশ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Mahabalipuram monuments are located in Tamil Nadu.",
+        "as": "মহাবলীপুৰম স্মৃতিসৌধ তামিলনাডুত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Tanjore painting', a famous Indian art form, originated in which state?",
+        "as": "ভাৰতৰ বিখ্যাত শিল্পৰূপ 'তাঞ্জোৰ চিত্ৰকলা' কোন ৰাজ্যত উৎপত্তি হৈছিল?"
+      },
+      "options": [
+        { "en": "Tamil Nadu", "as": "তামিলনাডু" },
+        { "en": "Odisha", "as": "ওড়িশা" },
+        { "en": "West Bengal", "as": "পশ্চিম বংগ" },
+        { "en": "Rajasthan", "as": "ৰাজস্থান" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Tanjore painting originated in Tamil Nadu.",
+        "as": "তাঞ্জোৰ চিত্ৰকলা তামিলনাডুত উৎপত্তি হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Pattachitra' painting tradition is associated with which state?",
+        "as": "'পটচিত্ৰ' চিত্ৰকলা পৰম্পৰা কোন ৰাজ্যৰ সৈতে জড়িত?"
+      },
+      "options": [
+        { "en": "Odisha", "as": "ওড়িশা" },
+        { "en": "Bihar", "as": "বিহাৰ" },
+        { "en": "Punjab", "as": "পঞ্জাব" },
+        { "en": "Gujarat", "as": "গুজৰাট" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Pattachitra painting is associated with Odisha.",
+        "as": "পটচিত্ৰ চিত্ৰকলা ওড়িশাৰ সৈতে জড়িত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Warli' painting, a tribal art form, is associated with which state?",
+        "as": "জনজাতীয় শিল্পৰূপ 'ৱাৰলী' চিত্ৰকলা কোন ৰাজ্যৰ সৈতে জড়িত?"
+      },
+      "options": [
+        { "en": "Maharashtra", "as": "মহাৰাষ্ট্ৰ" },
+        { "en": "Odisha", "as": "ওড়িশা" },
+        { "en": "Madhya Pradesh", "as": "মধ্য প্ৰদেশ" },
+        { "en": "Chhattisgarh", "as": "ছত্তীশগড়" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Warli painting is associated with Maharashtra.",
+        "as": "ৱাৰলী চিত্ৰকলা মহাৰাষ্ট্ৰৰ সৈতে জড়িত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Kalamkari' textile art is traditionally associated with which state?",
+        "as": "বস্ত্ৰ শিল্প 'কলমকাৰী' পৰম্পৰাগতভাৱে কোন ৰাজ্যৰ সৈতে জড়িত?"
+      },
+      "options": [
+        { "en": "Andhra Pradesh", "as": "অন্ধ্ৰ প্ৰদেশ" },
+        { "en": "Punjab", "as": "পঞ্জাব" },
+        { "en": "Assam", "as": "অসম" },
+        { "en": "Kerala", "as": "কেৰেলা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Kalamkari textile art is associated with Andhra Pradesh.",
+        "as": "কলমকাৰী বস্ত্ৰ শিল্প অন্ধ্ৰ প্ৰদেশৰ সৈতে জড়িত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Kathputli' is a traditional form of what?",
+        "as": "'কঠপুতলি' কিসৰ পৰম্পৰাগত ৰূপ?"
+      },
+      "options": [
+        { "en": "Puppetry", "as": "পুতলা নাচ" },
+        { "en": "Painting", "as": "চিত্ৰকলা" },
+        { "en": "Music", "as": "সংগীত" },
+        { "en": "Weaving", "as": "বোৱা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Kathputli is a traditional form of puppetry.",
+        "as": "কঠপুতলি পুতলা নাচৰ এটা পৰম্পৰাগত ৰূপ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Kalaripayattu', one of the oldest martial arts, originated in which state?",
+        "as": "আটাইতকৈ প্ৰাচীন মাৰ্চিয়াল আৰ্টৰ এটা 'কলাৰিপায়াট্টু' কোন ৰাজ্যত উৎপত্তি হৈছিল?"
+      },
+      "options": [
+        { "en": "Kerala", "as": "কেৰেলা" },
+        { "en": "Tamil Nadu", "as": "তামিলনাডু" },
+        { "en": "Karnataka", "as": "কৰ্ণাটক" },
+        { "en": "Odisha", "as": "ওড়িশা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Kalaripayattu originated in Kerala.",
+        "as": "কলাৰিপায়াট্টু কেৰেলাত উৎপত্তি হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Yakshagana', a traditional theatre form, is associated with which state?",
+        "as": "পৰম্পৰাগত ৰংগমঞ্চ ৰূপ 'যক্ষগান' কোন ৰাজ্যৰ সৈতে জড়িত?"
+      },
+      "options": [
+        { "en": "Karnataka", "as": "কৰ্ণাটক" },
+        { "en": "Kerala", "as": "কেৰেলা" },
+        { "en": "Tamil Nadu", "as": "তামিলনাডু" },
+        { "en": "Andhra Pradesh", "as": "অন্ধ্ৰ প্ৰদেশ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Yakshagana is associated with Karnataka.",
+        "as": "যক্ষগান কৰ্ণাটকৰ সৈতে জড়িত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Koodiyattam', recognised by UNESCO, is a traditional theatre form of which state?",
+        "as": "ইউনেস্কোৰ দ্বাৰা স্বীকৃত 'কুটিয়াট্টম' কোন ৰাজ্যৰ পৰম্পৰাগত ৰংগমঞ্চ ৰূপ?"
+      },
+      "options": [
+        { "en": "Kerala", "as": "কেৰেলা" },
+        { "en": "Karnataka", "as": "কৰ্ণাটক" },
+        { "en": "Odisha", "as": "ওড়িশা" },
+        { "en": "Manipur", "as": "মণিপুৰ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Koodiyattam is a traditional theatre form of Kerala.",
+        "as": "কুটিয়াট্টম কেৰেলাৰ এটা পৰম্পৰাগত ৰংগমঞ্চ ৰূপ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Bihu festival of Assam is primarily a celebration of what?",
+        "as": "অসমৰ বিহু উৎসৱ মূলতঃ কিসৰ উদযাপন?"
+      },
+      "options": [
+        { "en": "Agriculture and seasons", "as": "কৃষি আৰু ঋতু" },
+        { "en": "War victories", "as": "যুদ্ধৰ জয়" },
+        { "en": "Religious rituals only", "as": "কেৱল ধৰ্মীয় নীতি" },
+        { "en": "Trade fairs", "as": "বাণিজ্য মেলা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Bihu celebrates agriculture and the changing seasons.",
+        "as": "বিহুয়ে কৃষি আৰু ঋতু পৰিৱৰ্তন উদযাপন কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Char Dham' pilgrimage includes which of the following places?",
+        "as": "'চাৰধাম' তীৰ্থযাত্ৰাত তলৰ কোনটো স্থান অন্তৰ্ভুক্ত?"
+      },
+      "options": [
+        { "en": "Badrinath", "as": "বদৰীনাথ" },
+        { "en": "Hampi", "as": "হাম্পি" },
+        { "en": "Khajuraho", "as": "খাজুৰাহো" },
+        { "en": "Konark", "as": "কোণাৰ্ক" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Badrinath is one of the four Char Dham pilgrimage sites.",
+        "as": "বদৰীনাথ চাৰধাম তীৰ্থস্থানসমূহৰ এটা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Kumbh Mela', a major Indian pilgrimage festival, is held at how many main locations?",
+        "as": "ভাৰতৰ প্ৰধান তীৰ্থ উৎসৱ 'কুম্ভ মেলা' কিমানটা প্ৰধান স্থানত অনুষ্ঠিত হয়?"
+      },
+      "options": [
+        { "en": "Two", "as": "দুটা" },
+        { "en": "Four", "as": "চাৰিটা" },
+        { "en": "Six", "as": "ছটা" },
+        { "en": "Eight", "as": "আঠটা" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Kumbh Mela is held at four main locations: Prayagraj, Haridwar, Nashik and Ujjain.",
+        "as": "কুম্ভ মেলা চাৰিটা প্ৰধান স্থানত অনুষ্ঠিত হয়: প্ৰয়াগৰাজ, হৰিদ্বাৰ, নাচিক আৰু উজ্জয়িনী।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Sanchi Stupa', a famous Buddhist monument, is located in which state?",
+        "as": "বিখ্যাত বৌদ্ধ স্মৃতিসৌধ 'সাঁচী স্তূপ' কোন ৰাজ্যত অৱস্থিত?"
+      },
+      "options": [
+        { "en": "Madhya Pradesh", "as": "মধ্য প্ৰদেশ" },
+        { "en": "Uttar Pradesh", "as": "উত্তৰ প্ৰদেশ" },
+        { "en": "Bihar", "as": "বিহাৰ" },
+        { "en": "Maharashtra", "as": "মহাৰাষ্ট্ৰ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Sanchi Stupa is located in Madhya Pradesh.",
+        "as": "সাঁচী স্তূপ মধ্য প্ৰদেশত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Rangoli', a traditional floor art, is usually made using what?",
+        "as": "পৰম্পৰাগত মজিয়াৰ শিল্প 'ৰঙ্গোলী' সাধাৰণতে কিসেৰে তৈয়াৰ কৰা হয়?"
+      },
+      "options": [
+        { "en": "Coloured powder, flowers and rice", "as": "ৰঙীন গুৰি, ফুল আৰু চাউল" },
+        { "en": "Metal sheets", "as": "ধাতুৰ পাতে" },
+        { "en": "Wood carvings", "as": "কাঠৰ খোদাই" },
+        { "en": "Glass pieces", "as": "কাঁচৰ টুকুৰা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Rangoli is usually made with coloured powder, flowers and rice.",
+        "as": "ৰঙ্গোলী সাধাৰণতে ৰঙীন গুৰি, ফুল আৰু চাউলৰে তৈয়াৰ কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Bamboo and Cane craft' is an important traditional industry of which region?",
+        "as": "'বাঁহ আৰু বেতৰ শিল্প' কোন অঞ্চলৰ এটা গুৰুত্বপূৰ্ণ পৰম্পৰাগত উদ্যোগ?"
+      },
+      "options": [
+        { "en": "North-East India", "as": "উত্তৰ-পূব ভাৰত" },
+        { "en": "Rajasthan", "as": "ৰাজস্থান" },
+        { "en": "Gujarat", "as": "গুজৰাট" },
+        { "en": "Punjab", "as": "পঞ্জাব" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Bamboo and cane craft is a major traditional industry of North-East India.",
+        "as": "বাঁহ আৰু বেতৰ শিল্প উত্তৰ-পূব ভাৰতৰ এটা প্ৰধান পৰম্পৰাগত উদ্যোগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Kandyan' influence is seen in the architecture of which of these?",
+        "as": "তলৰ কোনটোৰ স্থাপত্যত 'কান্দিয়ান' প্ৰভাৱ দেখা যায়?"
+      },
+      "options": [
+        { "en": "Rang Ghar", "as": "ৰঙ্গঘৰ" },
+        { "en": "Taj Mahal", "as": "তাজমহল" },
+        { "en": "Qutub Minar", "as": "কুতুব মিনাৰ" },
+        { "en": "Konark Temple", "as": "কোণাৰ্ক মন্দিৰ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Rang Ghar's roof reflects the Ahom style influenced by regional (including Kandyan) architecture.",
+        "as": "ৰঙ্গঘৰৰ চালত আঞ্চলিক (কান্দিয়ানকে ধৰি) স্থাপত্যৰ প্ৰভাৱিত আহোম শৈলী প্ৰতিফলিত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Garba' and 'Dandiya' dances are traditionally performed during which festival?",
+        "as": "'গৰবা' আৰু 'ডাণ্ডিয়া' নৃত্য পৰম্পৰাগতভাৱে কোন উৎসৱত পৰিবেশন কৰা হয়?"
+      },
+      "options": [
+        { "en": "Navratri", "as": "নৱৰাত্ৰি" },
+        { "en": "Bihu", "as": "বিহু" },
+        { "en": "Pongal", "as": "পোঙ্গল" },
+        { "en": "Baisakhi", "as": "বৈশাখী" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Garba and Dandiya are performed during Navratri.",
+        "as": "গৰবা আৰু ডাণ্ডিয়া নৱৰাত্ৰিত পৰিবেশন কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Sohrai' and 'Khovar' wall paintings are associated with which state?",
+        "as": "'সোহৰাই' আৰু 'খোৱাৰ' বেৰ চিত্ৰকলা কোন ৰাজ্যৰ সৈতে জড়িত?"
+      },
+      "options": [
+        { "en": "Jharkhand", "as": "ঝাৰখণ্ড" },
+        { "en": "Odisha", "as": "ওড়িশা" },
+        { "en": "Bengal", "as": "বংগ" },
+        { "en": "Assam", "as": "অসম" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sohrai and Khovar wall paintings are associated with Jharkhand.",
+        "as": "সোহৰাই আৰু খোৱাৰ বেৰ চিত্ৰকলা ঝাৰখণ্ডৰ সৈতে জড়িত।"
       }
     }
   ]
