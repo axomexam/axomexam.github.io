@@ -5,31 +5,427 @@
   "questions": [
     {
       "q": {
-        "en": "The mean of 4, 8, 10, 14 and 24 is:",
-        "as": "4, 8, 10, 14 আৰু 24 ৰ মধ্যমান (Mean) কিমান?"
+        "en": "The arithmetic mean of 5, 10, 15, 20 and 25 is:",
+        "as": "5, 10, 15, 20 আৰু 25 ৰ পাটিগাণিতিক গড় কি?"
       },
       "options": [
-        {
-          "en": "10",
-          "as": "10"
-        },
-        {
-          "en": "12",
-          "as": "12"
-        },
-        {
-          "en": "14",
-          "as": "14"
-        },
-        {
-          "en": "8",
-          "as": "8"
-        }
+        { "en": "15", "as": "15" },
+        { "en": "10", "as": "10" },
+        { "en": "20", "as": "20" },
+        { "en": "25", "as": "25" }
       ],
-      "correct": 1,
+      "correct": 0,
       "explanation": {
-        "en": "Mean = (4 + 8 + 10 + 14 + 24) / 5 = 60/5 = 12.",
-        "as": "মধ্যমান = (4 + 8 + 10 + 14 + 24) / 5 = 60/5 = 12।"
+        "en": "Mean = sum/number = (5+10+15+20+25)/5 = 75/5 = 15.",
+        "as": "গড় = যোগফল/সংখ্যা = (5+10+15+20+25)/5 = 75/5 = 15।"
+      }
+    },
+    {
+      "q": {
+        "en": "The median of 3, 6, 9, 12 and 15 is:",
+        "as": "3, 6, 9, 12 আৰু 15 ৰ মধ্যমা কি?"
+      },
+      "options": [
+        { "en": "9", "as": "9" },
+        { "en": "6", "as": "6" },
+        { "en": "12", "as": "12" },
+        { "en": "15", "as": "15" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "n = 5 (odd), so median = ((n+1)/2)th term = 3rd term = 9.",
+        "as": "n = 5 (অযুগ্ম), সেয়ে মধ্যমা = ((n+1)/2)তম পদ = তৃতীয় পদ = 9।"
+      }
+    },
+    {
+      "q": {
+        "en": "The mode of 2, 3, 3, 4, 5, 3 is:",
+        "as": "2, 3, 3, 4, 5, 3 ৰ প্ৰচলক কি?"
+      },
+      "options": [
+        { "en": "3", "as": "3" },
+        { "en": "2", "as": "2" },
+        { "en": "4", "as": "4" },
+        { "en": "5", "as": "5" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "3 appears three times, more than any other value, so mode = 3.",
+        "as": "3 তিনিবাৰ ঘটিছে, আন যিকোনো মানতকৈ বেছি, সেয়ে প্ৰচলক = 3।"
+      }
+    },
+    {
+      "q": {
+        "en": "The mean of the first 10 natural numbers is:",
+        "as": "প্ৰথম 10 টা স্বাভাৱিক সংখ্যাৰ গড় কি?"
+      },
+      "options": [
+        { "en": "5.5", "as": "5.5" },
+        { "en": "5", "as": "5" },
+        { "en": "6", "as": "6" },
+        { "en": "10", "as": "10" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Mean = (first + last)/2 = (1+10)/2 = 5.5.",
+        "as": "গড় = (প্ৰথম + শেষ)/2 = (1+10)/2 = 5.5।"
+      }
+    },
+    {
+      "q": {
+        "en": "The range of 12, 7, 25, 18 and 9 is:",
+        "as": "12, 7, 25, 18 আৰু 9 ৰ পৰিসৰ কিমান?"
+      },
+      "options": [
+        { "en": "18", "as": "18" },
+        { "en": "25", "as": "25" },
+        { "en": "13", "as": "13" },
+        { "en": "7", "as": "7" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Range = maximum - minimum = 25 - 7 = 18.",
+        "as": "পৰিসৰ = সৰ্বাধিক - সৰ্বনিম্ন = 25 - 7 = 18।"
+      }
+    },
+    {
+      "q": {
+        "en": "The median of 10, 20, 30 and 40 is:",
+        "as": "10, 20, 30 আৰু 40 ৰ মধ্যমা কি?"
+      },
+      "options": [
+        { "en": "25", "as": "25" },
+        { "en": "20", "as": "20" },
+        { "en": "30", "as": "30" },
+        { "en": "35", "as": "35" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "n = 4 (even), so median = (2nd + 3rd)/2 = (20+30)/2 = 25.",
+        "as": "n = 4 (যুগ্ম), সেয়ে মধ্যমা = (দ্বিতীয় + তৃতীয়)/2 = (20+30)/2 = 25।"
+      }
+    },
+    {
+      "q": {
+        "en": "The mean of 4, 8, 12, 16 and 20 is:",
+        "as": "4, 8, 12, 16 আৰু 20 ৰ গড় কি?"
+      },
+      "options": [
+        { "en": "12", "as": "12" },
+        { "en": "10", "as": "10" },
+        { "en": "14", "as": "14" },
+        { "en": "16", "as": "16" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Mean = (4+8+12+16+20)/5 = 60/5 = 12.",
+        "as": "গড় = (4+8+12+16+20)/5 = 60/5 = 12।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the mean of 5 numbers is 25, their sum is:",
+        "as": "যদি 5 টা সংখ্যাৰ গড় 25 হয়, সিহঁতৰ যোগফল কিমান?"
+      },
+      "options": [
+        { "en": "125", "as": "125" },
+        { "en": "25", "as": "25" },
+        { "en": "100", "as": "100" },
+        { "en": "150", "as": "150" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sum = mean x number = 25 x 5 = 125.",
+        "as": "যোগফল = গড় x সংখ্যা = 25 x 5 = 125।"
+      }
+    },
+    {
+      "q": {
+        "en": "The mode of 7, 7, 8, 9, 9, 9 and 10 is:",
+        "as": "7, 7, 8, 9, 9, 9 আৰু 10 ৰ প্ৰচলক কি?"
+      },
+      "options": [
+        { "en": "9", "as": "9" },
+        { "en": "7", "as": "7" },
+        { "en": "8", "as": "8" },
+        { "en": "10", "as": "10" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "9 appears three times, the most, so mode = 9.",
+        "as": "9 তিনিবাৰ ঘটিছে, আটাইতকৈ বেছি, সেয়ে প্ৰচলক = 9।"
+      }
+    },
+    {
+      "q": {
+        "en": "The median of the first 7 natural numbers is:",
+        "as": "প্ৰথম 7 টা স্বাভাৱিক সংখ্যাৰ মধ্যমা কি?"
+      },
+      "options": [
+        { "en": "4", "as": "4" },
+        { "en": "5", "as": "5" },
+        { "en": "3", "as": "3" },
+        { "en": "7", "as": "7" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The numbers are 1 to 7; n = 7 (odd), so median = 4th term = 4.",
+        "as": "সংখ্যাবোৰ 1 ৰ পৰা 7 লৈকে; n = 7 (অযুগ্ম), সেয়ে মধ্যমা = চতুৰ্থ পদ = 4।"
+      }
+    },
+    {
+      "q": {
+        "en": "The average of 20, 30, 40 and 50 is:",
+        "as": "20, 30, 40 আৰু 50 ৰ গড় কি?"
+      },
+      "options": [
+        { "en": "35", "as": "35" },
+        { "en": "30", "as": "30" },
+        { "en": "40", "as": "40" },
+        { "en": "45", "as": "45" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Average = (20+30+40+50)/4 = 140/4 = 35.",
+        "as": "গড় = (20+30+40+50)/4 = 140/4 = 35।"
+      }
+    },
+    {
+      "q": {
+        "en": "The most frequently occurring value in a data set is called the:",
+        "as": "তথ্যৰাজিত সৰ্বাধিকবাৰ ঘটা মানক কি বোলা হয়?"
+      },
+      "options": [
+        { "en": "Mode", "as": "প্ৰচলক" },
+        { "en": "Mean", "as": "গড়" },
+        { "en": "Median", "as": "মধ্যমা" },
+        { "en": "Range", "as": "পৰিসৰ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The mode is the value that occurs most frequently.",
+        "as": "প্ৰচলক হৈছে সৰ্বাধিকবাৰ ঘটা মান।"
+      }
+    },
+    {
+      "q": {
+        "en": "The middle value of a data set arranged in order is called the:",
+        "as": "ক্ৰমত সজোৱা তথ্যৰাজিৰ মাজৰ মানক কি বোলা হয়?"
+      },
+      "options": [
+        { "en": "Median", "as": "মধ্যমা" },
+        { "en": "Mode", "as": "প্ৰচলক" },
+        { "en": "Mean", "as": "গড়" },
+        { "en": "Range", "as": "পৰিসৰ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The median divides the ordered data into two equal halves.",
+        "as": "মধ্যমাই ক্ৰমত সজোৱা তথ্যক দুটা সমান ভাগত ভাগ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The mean of 2, 4, 6, 8, 10 and 12 is:",
+        "as": "2, 4, 6, 8, 10 আৰু 12 ৰ গড় কি?"
+      },
+      "options": [
+        { "en": "7", "as": "7" },
+        { "en": "6", "as": "6" },
+        { "en": "8", "as": "8" },
+        { "en": "9", "as": "9" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Mean = (2+4+6+8+10+12)/6 = 42/6 = 7.",
+        "as": "গড় = (2+4+6+8+10+12)/6 = 42/6 = 7।"
+      }
+    },
+    {
+      "q": {
+        "en": "The mean of 11, 13, 15, 17 and 19 is:",
+        "as": "11, 13, 15, 17 আৰু 19 ৰ গড় কি?"
+      },
+      "options": [
+        { "en": "15", "as": "15" },
+        { "en": "13", "as": "13" },
+        { "en": "17", "as": "17" },
+        { "en": "14", "as": "14" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Mean = (11+13+15+17+19)/5 = 75/5 = 15.",
+        "as": "গড় = (11+13+15+17+19)/5 = 75/5 = 15।"
+      }
+    },
+    {
+      "q": {
+        "en": "The median of 5, 7, 9, 11, 13 and 15 is:",
+        "as": "5, 7, 9, 11, 13 আৰু 15 ৰ মধ্যমা কি?"
+      },
+      "options": [
+        { "en": "10", "as": "10" },
+        { "en": "9", "as": "9" },
+        { "en": "11", "as": "11" },
+        { "en": "12", "as": "12" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "n = 6 (even), so median = (3rd + 4th)/2 = (9+11)/2 = 10.",
+        "as": "n = 6 (যুগ্ম), সেয়ে মধ্যমা = (তৃতীয় + চতুৰ্থ)/2 = (9+11)/2 = 10।"
+      }
+    },
+    {
+      "q": {
+        "en": "The mode of 1, 2, 2, 3, 4, 4, 4, 5 is:",
+        "as": "1, 2, 2, 3, 4, 4, 4, 5 ৰ প্ৰচলক কি?"
+      },
+      "options": [
+        { "en": "4", "as": "4" },
+        { "en": "2", "as": "2" },
+        { "en": "3", "as": "3" },
+        { "en": "5", "as": "5" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "4 appears three times, the most, so mode = 4.",
+        "as": "4 তিনিবাৰ ঘটিছে, আটাইতকৈ বেছি, সেয়ে প্ৰচলক = 4।"
+      }
+    },
+    {
+      "q": {
+        "en": "The average of the first 5 even numbers is:",
+        "as": "প্ৰথম 5 টা যুগ্ম সংখ্যাৰ গড় কি?"
+      },
+      "options": [
+        { "en": "6", "as": "6" },
+        { "en": "5", "as": "5" },
+        { "en": "7", "as": "7" },
+        { "en": "8", "as": "8" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The numbers are 2, 4, 6, 8, 10; mean = 30/5 = 6.",
+        "as": "সংখ্যাবোৰ 2, 4, 6, 8, 10; গড় = 30/5 = 6।"
+      }
+    },
+    {
+      "q": {
+        "en": "The mean of 100, 200 and 300 is:",
+        "as": "100, 200 আৰু 300 ৰ গড় কি?"
+      },
+      "options": [
+        { "en": "200", "as": "200" },
+        { "en": "150", "as": "150" },
+        { "en": "250", "as": "250" },
+        { "en": "300", "as": "300" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Mean = (100+200+300)/3 = 600/3 = 200.",
+        "as": "গড় = (100+200+300)/3 = 600/3 = 200।"
+      }
+    },
+    {
+      "q": {
+        "en": "The number of observations in a data set is usually denoted by:",
+        "as": "তথ্যৰাজিত পৰ্যবেক্ষণৰ সংখ্যাক সাধাৰণতে কিৰে সূচোৱা হয়?"
+      },
+      "options": [
+        { "en": "n", "as": "n" },
+        { "en": "m", "as": "m" },
+        { "en": "x", "as": "x" },
+        { "en": "s", "as": "s" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The number of observations is conventionally denoted by n.",
+        "as": "পৰ্যবেক্ষণৰ সংখ্যাক প্ৰথাগতভাৱে n ৰে সূচোৱা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The median of 15, 25, 35, 45 and 55 is:",
+        "as": "15, 25, 35, 45 আৰু 55 ৰ মধ্যমা কি?"
+      },
+      "options": [
+        { "en": "35", "as": "35" },
+        { "en": "25", "as": "25" },
+        { "en": "45", "as": "45" },
+        { "en": "30", "as": "30" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "n = 5 (odd), so median = 3rd term = 35.",
+        "as": "n = 5 (অযুগ্ম), সেয়ে মধ্যমা = তৃতীয় পদ = 35।"
+      }
+    },
+    {
+      "q": {
+        "en": "The mean of 6, 12, 18, 24 and 30 is:",
+        "as": "6, 12, 18, 24 আৰু 30 ৰ গড় কি?"
+      },
+      "options": [
+        { "en": "18", "as": "18" },
+        { "en": "15", "as": "15" },
+        { "en": "20", "as": "20" },
+        { "en": "24", "as": "24" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Mean = (6+12+18+24+30)/5 = 90/5 = 18.",
+        "as": "গড় = (6+12+18+24+30)/5 = 90/5 = 18।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the mean of 10 numbers is 30, their sum is:",
+        "as": "যদি 10 টা সংখ্যাৰ গড় 30 হয়, সিহঁতৰ যোগফল কিমান?"
+      },
+      "options": [
+        { "en": "300", "as": "300" },
+        { "en": "30", "as": "30" },
+        { "en": "270", "as": "270" },
+        { "en": "330", "as": "330" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sum = mean x number = 30 x 10 = 300.",
+        "as": "যোগফল = গড় x সংখ্যা = 30 x 10 = 300।"
+      }
+    },
+    {
+      "q": {
+        "en": "The mode of 4, 5, 4, 6, 4 and 7 is:",
+        "as": "4, 5, 4, 6, 4 আৰু 7 ৰ প্ৰচলক কি?"
+      },
+      "options": [
+        { "en": "4", "as": "4" },
+        { "en": "5", "as": "5" },
+        { "en": "6", "as": "6" },
+        { "en": "7", "as": "7" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "4 appears three times, the most, so mode = 4.",
+        "as": "4 তিনিবাৰ ঘটিছে, আটাইতকৈ বেছি, সেয়ে প্ৰচলক = 4।"
+      }
+    },
+    {
+      "q": {
+        "en": "The value that divides an ordered data set into two equal halves is the:",
+        "as": "ক্ৰমত সজোৱা তথ্যৰাজিক দুটা সমান ভাগত ভাগ কৰা মানটো কি?"
+      },
+      "options": [
+        { "en": "Median", "as": "মধ্যমা" },
+        { "en": "Mode", "as": "প্ৰচলক" },
+        { "en": "Range", "as": "পৰিসৰ" },
+        { "en": "Mean", "as": "গড়" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The median splits the ordered data into two equal halves.",
+        "as": "মধ্যমাই ক্ৰমত সজোৱা তথ্যক দুটা সমান ভাগত ভাগ কৰে।"
       }
     }
   ]
