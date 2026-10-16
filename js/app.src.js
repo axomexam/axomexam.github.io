@@ -24,6 +24,8 @@
     mock: null,            
     isGeneratingPdf: false,
     mockSetCache: {},
+    mockSetCount: {},
+    mockLiveCounts: {},
     exams: null,
     examQuestionTotal: 0,
     examTotalLoaded: false,
@@ -5582,15 +5584,111 @@
     return renderMockSetPicker(main, cat, sub, sets);
   }
 
-  /* Static set/question counts shown on the mock-test landing cards. */
+  /* Baseline set/question counts for the mock-test landing cards. These are
+     only the values shown for the first paint — the real numbers are detected
+     live from the published set-*.json files (see refreshMockLandingCounts). */
   const MOCK_LANDING_META = {
     gk: { sets: 70, q: 1750 },
-    math: { sets: 15, q: 375 },
+    math: { sets: 30, q: 750 },
     science: { sets: 15, q: 375 },
     reasoning: { sets: 15, q: 375 },
     english: { sets: 10, q: 250 },
     computer: { sets: 10, q: 250 }
   };
+
+  /* Resolve the static URL of one published mock set file. */
+  function mockSetUrl(catId, subId, n) {
+    if (CONFIG.USE_REMOTE) {
+      return `${CONFIG.RAW_BASE}/${CONFIG.OWNER}/${CONFIG.REPO}/${CONFIG.BRANCH}/${CONFIG.PATHS.MOCKSETS}/${catId}/${subId}/set-${n}.json`;
+    }
+    return `${CONFIG.FALLBACK.MOCKSETS_BASE}${catId}/${subId}/set-${n}.json`;
+  }
+
+  /* Lightweight existence check for one set file. A HEAD request avoids
+     downloading the (often large) question JSON just to count sets. */
+  async function mockSetExists(catId, subId, n) {
+    try {
+      const res = await fetch(mockSetUrl(catId, subId, n), { method: "HEAD", cache: "no-store" });
+      if (res.status === 405 || res.status === 501) {
+        return hasMockQuestions(await API.getMockSet(catId, subId, n));
+      }
+      return res.ok;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  /* Count how many consecutive set files are published for a subcategory.
+     Results are cached per session so each set is probed at most once. */
+  async function countMockSetsForSub(catId, subId) {
+    const key = catId + "/" + subId;
+    if (Object.prototype.hasOwnProperty.call(state.mockSetCount, key)) {
+      return state.mockSetCount[key];
+    }
+    let total = 0;
+    for (let n = 1; n <= MAX_MOCK_SETS; n++) {
+      if (await mockSetExists(catId, subId, n)) total++;
+      else break;
+    }
+    state.mockSetCount[key] = total;
+    return total;
+  }
+
+  /* Live per-category set / question totals probed from the published files. */
+  async function computeMockCategoryCounts(cat) {
+    const counts = await Promise.all(mockSubcategories(cat).map((s) => countMockSetsForSub(cat.id, s.id)));
+    const sets = counts.reduce((a, b) => a + b, 0);
+    const baseline = MOCK_LANDING_META[cat.id];
+    const perSet = baseline && baseline.sets ? Math.round(baseline.q / baseline.sets) : 25;
+    return { sets, questions: sets * perSet };
+  }
+
+  /* Replace the baseline landing-card meta with the live counts as soon as the
+     probes finish, then refresh the hero totals. */
+  function refreshMockLandingCounts(cats) {
+    cats.forEach((c) => {
+      computeMockCategoryCounts(c).then((live) => {
+        if (!live.sets) return;
+        state.mockLiveCounts[c.id] = live;
+        const card = document.querySelector(`.mv-card[data-mock-cat="${c.id}"]`);
+        const meta = card && card.querySelector(".mv-card-meta");
+        if (meta) meta.textContent = `${live.sets} sets · ${live.questions} questions`;
+        updateMockHeroTotals();
+      }).catch(() => {});
+    });
+  }
+
+  function updateMockHeroTotals() {
+    const cats = state.categories.filter((c) => c.id !== "study-guides" && c.id !== "articles");
+    let sets = 0;
+    let questions = 0;
+    let found = false;
+    cats.forEach((c) => {
+      const live = state.mockLiveCounts[c.id];
+      if (!live) return;
+      sets += live.sets;
+      questions += live.questions;
+      found = true;
+    });
+    if (!found) return;
+    const setEl = $("#mock-stat-sets");
+    const qEl = $("#mock-stat-questions");
+    if (setEl) setEl.textContent = String(sets);
+    if (qEl) qEl.textContent = String(questions);
+  }
+
+  /* Sum of the static baseline counts for the categories that exist. */
+  function mockLandingBaseline() {
+    let sets = 0;
+    let questions = 0;
+    state.categories.forEach((c) => {
+      const meta = MOCK_LANDING_META[c.id];
+      if (!meta) return;
+      sets += meta.sets;
+      questions += meta.q;
+    });
+    return { sets, questions };
+  }
 
   function bilingualName(obj) {
     if (obj == null) return { en: "", as: "" };
@@ -5629,7 +5727,7 @@
     const meta = MOCK_LANDING_META[c.id];
     const metaText = meta ? `${meta.sets} sets · ${meta.q} questions` : `${countTopics(c)} topics`;
     return `
-      <a class="mv-card reveal" style="--c:${color}" data-delay="${i * 50}" href="/mock-test/${c.id}">
+      <a class="mv-card reveal" style="--c:${color}" data-delay="${i * 50}" data-mock-cat="${c.id}" href="/mock-test/${c.id}">
         <span class="mv-card-ico">${catIconHTML(c.id)}</span>
         <span class="mv-card-body">
           <span class="mv-card-title">${escapeHtml(en)}</span>
@@ -5642,6 +5740,7 @@
 
   function renderMockCategoryPicker(main) {
     const mockCategories = state.categories.filter(c => c.id !== "study-guides" && c.id !== "articles");
+    const baseline = mockLandingBaseline();
 
     main.innerHTML = `
       <section class="mv-landing">
@@ -5651,8 +5750,8 @@
           <p class="mv-hero-sub">Take timed mock tests designed exactly like the real exam to build speed, accuracy and confidence for ADRE 3.0, Assam Police, APSC, Gauhati High Court, SSC and Railway exams.</p>
           <div class="mv-stats">
             <div class="mv-stat"><b>100+</b><span>Subjects</span></div>
-            <div class="mv-stat"><b>500+</b><span>Practice Sets</span></div>
-            <div class="mv-stat"><b>6500+</b><span>Questions</span></div>
+            <div class="mv-stat"><b id="mock-stat-sets">${baseline.sets}</b><span>Practice Sets</span></div>
+            <div class="mv-stat"><b id="mock-stat-questions">${baseline.questions}</b><span>Questions</span></div>
             <div class="mv-stat"><b>100%</b><span>Free Forever</span></div>
           </div>
           <div class="mv-cta">
@@ -5737,6 +5836,7 @@
         { q: "Are the mock tests suitable for ADRE and Assam Police?", a: "Yes. The subjects and question patterns follow the syllabus of ADRE 3.0, Assam Police, APSC, Gauhati High Court, SSC and Railway recruitment exams." }
       ]
     });
+    refreshMockLandingCounts(mockCategories);
   }
 
   function renderMockSubcategoryPicker(main, cat) {
