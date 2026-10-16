@@ -5,31 +5,427 @@
   "questions": [
     {
       "q": {
-        "en": "Questions for this set will be added soon.",
-        "as": "এই ছেটৰ প্ৰশ্নসমূহ সোনকালে যোগ কৰা হ'ব।"
+        "en": "How many classical dance forms are officially recognised in India?",
+        "as": "ভাৰতত চৰকাৰীভাৱে কিমানটা শাস্ত্ৰীয় নৃত্য ৰূপ স্বীকৃত?"
       },
       "options": [
-        {
-          "en": "Option A",
-          "as": "বিকল্প A"
-        },
-        {
-          "en": "Option B",
-          "as": "বিকল্প B"
-        },
-        {
-          "en": "Option C",
-          "as": "বিকল্প C"
-        },
-        {
-          "en": "Option D",
-          "as": "বিকল্প D"
-        }
+        { "en": "Six", "as": "ছটা" },
+        { "en": "Four", "as": "চাৰিটা" },
+        { "en": "Eight", "as": "আঠটা" },
+        { "en": "Ten", "as": "দহটা" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Eight classical dance forms are recognised in India.",
+        "as": "ভাৰতত আঠটা শাস্ত্ৰীয় নৃত্য ৰূপ স্বীকৃত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Bharatanatyam, one of the oldest classical dances, originated in which state?",
+        "as": "আটাইতকৈ প্ৰাচীন শাস্ত্ৰীয় নৃত্যৰ এটা ভৰতনাট্যম কোন ৰাজ্যত উৎপত্তি হৈছিল?"
+      },
+      "options": [
+        { "en": "Kerala", "as": "কেৰেলা" },
+        { "en": "Tamil Nadu", "as": "তামিলনাডু" },
+        { "en": "Andhra Pradesh", "as": "অন্ধ্ৰ প্ৰদেশ" },
+        { "en": "Karnataka", "as": "কৰ্ণাটক" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Bharatanatyam originated in Tamil Nadu.",
+        "as": "ভৰতনাট্যম তামিলনাডুত উৎপত্তি হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Kathakali is a classical dance-drama form of which state?",
+        "as": "কথাকলি কোন ৰাজ্যৰ শাস্ত্ৰীয় নৃত্য-নাট্য ৰূপ?"
+      },
+      "options": [
+        { "en": "Tamil Nadu", "as": "তামিলনাডু" },
+        { "en": "Odisha", "as": "ওড়িশা" },
+        { "en": "Manipur", "as": "মণিপুৰ" },
+        { "en": "Kerala", "as": "কেৰেলা" }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Kathakali belongs to Kerala.",
+        "as": "কথাকলি কেৰেলাৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Kathak, the classical dance form, is associated mainly with which region?",
+        "as": "শাস্ত্ৰীয় নৃত্য ৰূপ কথক মূলতঃ কোন অঞ্চলৰ সৈতে জড়িত?"
+      },
+      "options": [
+        { "en": "North India", "as": "উত্তৰ ভাৰত" },
+        { "en": "South India", "as": "দক্ষিণ ভাৰত" },
+        { "en": "North-East India", "as": "উত্তৰ-পূব ভাৰত" },
+        { "en": "East India", "as": "পূব ভাৰত" }
       ],
       "correct": 0,
       "explanation": {
-        "en": "This set is being updated. Please check back soon.",
-        "as": "এই ছেটটো আপডেট কৰা হৈছে। অনুগ্ৰহ কৰি সোনকালে পুনৰ চাওক।"
+        "en": "Kathak is associated mainly with North India.",
+        "as": "কথক মূলতঃ উত্তৰ ভাৰতৰ সৈতে জড়িত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Odissi is the classical dance form of which state?",
+        "as": "ওড়িছী কোন ৰাজ্যৰ শাস্ত্ৰীয় নৃত্য ৰূপ?"
+      },
+      "options": [
+        { "en": "West Bengal", "as": "পশ্চিম বংগ" },
+        { "en": "Odisha", "as": "ওড়িশা" },
+        { "en": "Bihar", "as": "বিহাৰ" },
+        { "en": "Jharkhand", "as": "ঝাৰখণ্ড" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Odissi belongs to Odisha.",
+        "as": "ওড়িছী ওড়িশাৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Kuchipudi is a classical dance form associated with which state?",
+        "as": "কুচিপুড়ি কোন ৰাজ্যৰ সৈতে জড়িত শাস্ত্ৰীয় নৃত্য ৰূপ?"
+      },
+      "options": [
+        { "en": "Kerala", "as": "কেৰেলা" },
+        { "en": "Tamil Nadu", "as": "তামিলনাডু" },
+        { "en": "Andhra Pradesh", "as": "অন্ধ্ৰ প্ৰদেশ" },
+        { "en": "Karnataka", "as": "কৰ্ণাটক" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Kuchipudi belongs to Andhra Pradesh.",
+        "as": "কুচিপুড়ি অন্ধ্ৰ প্ৰদেশৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Manipuri, a classical dance form, belongs to which state?",
+        "as": "শাস্ত্ৰীয় নৃত্য ৰূপ মণিপুৰী কোন ৰাজ্যৰ?"
+      },
+      "options": [
+        { "en": "Manipur", "as": "মণিপুৰ" },
+        { "en": "Mizoram", "as": "মিজোৰাম" },
+        { "en": "Nagaland", "as": "নাগালেণ্ড" },
+        { "en": "Tripura", "as": "ত্ৰিপুৰা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Manipuri dance belongs to Manipur.",
+        "as": "মণিপুৰী নৃত্য মণিপুৰৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Mohiniyattam is a classical dance form of which state?",
+        "as": "মোহিনীঅট্টম কোন ৰাজ্যৰ শাস্ত্ৰীয় নৃত্য ৰূপ?"
+      },
+      "options": [
+        { "en": "Tamil Nadu", "as": "তামিলনাডু" },
+        { "en": "Karnataka", "as": "কৰ্ণাটক" },
+        { "en": "Kerala", "as": "কেৰেলা" },
+        { "en": "Odisha", "as": "ওড়িশা" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Mohiniyattam belongs to Kerala.",
+        "as": "মোহিনীঅট্টম কেৰেলাৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Sattriya, the eighth classical dance form, belongs to which state?",
+        "as": "অষ্টম শাস্ত্ৰীয় নৃত্য ৰূপ সত্ৰীয়া কোন ৰাজ্যৰ?"
+      },
+      "options": [
+        { "en": "Manipur", "as": "মণিপুৰ" },
+        { "en": "Assam", "as": "অসম" },
+        { "en": "West Bengal", "as": "পশ্চিম বংগ" },
+        { "en": "Odisha", "as": "ওড়িশা" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Sattriya belongs to Assam.",
+        "as": "সত্ৰীয়া অসমৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Natya Shastra', the foundational treatise on Indian dance and drama, was authored by whom?",
+        "as": "ভাৰতীয় নৃত্য আৰু নাট্যৰ মূল গ্ৰন্থ 'নাট্যশাস্ত্ৰ' কোনে ৰচনা কৰিছিল?"
+      },
+      "options": [
+        { "en": "Patanjali", "as": "পতঞ্জলি" },
+        { "en": "Kalidasa", "as": "কালিদাস" },
+        { "en": "Bharata Muni", "as": "ভৰত মুনি" },
+        { "en": "Valmiki", "as": "বাল্মীকি" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Natya Shastra was authored by Bharata Muni.",
+        "as": "নাট্যশাস্ত্ৰ ভৰত মুনিয়ে ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Mudra' used in classical dance refers to what?",
+        "as": "শাস্ত্ৰীয় নৃত্যত ব্যৱহৃত 'মুদ্ৰা'য়ে কিসৰ ইঙ্গিত দিয়ে?"
+      },
+      "options": [
+        { "en": "Hand gestures", "as": "হাতৰ ভংগি" },
+        { "en": "Footwear", "as": "জোতা" },
+        { "en": "Jewellery", "as": "অলংকাৰ" },
+        { "en": "Musical beat", "as": "তাল" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Mudras are symbolic hand gestures in classical dance.",
+        "as": "মুদ্ৰা শাস্ত্ৰীয় নৃত্যত প্ৰতীকী হাতৰ ভংগি।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Sangeet Natak Akademi', India's national academy of performing arts, was established in which year?",
+        "as": "ভাৰতৰ ৰাষ্ট্ৰীয় পৰিবেশন কলা একাডেমী 'সংগীত নাটক একাডেমী' কোন চনত প্ৰতিষ্ঠা হৈছিল?"
+      },
+      "options": [
+        { "en": "1970", "as": "১৯৭০" },
+        { "en": "1947", "as": "১৯৪৭" },
+        { "en": "1962", "as": "১৯৬২" },
+        { "en": "1952", "as": "১৯৫২" }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Sangeet Natak Akademi was established in 1952.",
+        "as": "সংগীত নাটক একাডেমী ১৯৫২ চনত প্ৰতিষ্ঠা হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Ravi Shankar, a world-famous musician, was a master of which instrument?",
+        "as": "বিশ্ববিখ্যাত সংগীতশিল্পী ৰবি শংকৰ কোন বাদ্যযন্ত্ৰৰ ওস্তাদ আছিল?"
+      },
+      "options": [
+        { "en": "Sarod", "as": "চাৰোদ" },
+        { "en": "Sitar", "as": "চিতাৰ" },
+        { "en": "Tabla", "as": "তবলা" },
+        { "en": "Flute", "as": "বাঁহী" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Ravi Shankar was a master of the sitar.",
+        "as": "ৰবি শংকৰ চিতাৰৰ এজন ওস্তাদ আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Amjad Ali Khan is a renowned exponent of which instrument?",
+        "as": "অমজাদ আলী খান কোন বাদ্যযন্ত্ৰৰ প্ৰখ্যাত শিল্পী?"
+      },
+      "options": [
+        { "en": "Sitar", "as": "চিতাৰ" },
+        { "en": "Santoor", "as": "চন্তুৰ" },
+        { "en": "Sarod", "as": "চাৰোদ" },
+        { "en": "Sarangi", "as": "চাৰেংগী" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Amjad Ali Khan is a master of the sarod.",
+        "as": "অমজাদ আলী খান চাৰোদৰ এজন ওস্তাদ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Pandit Shivkumar Sharma was a legendary maestro of which instrument?",
+        "as": "পণ্ডিত শিৱকুমাৰ শৰ্মা কোন বাদ্যযন্ত্ৰৰ কিংবদন্তি ওস্তাদ আছিল?"
+      },
+      "options": [
+        { "en": "Sitar", "as": "চিতাৰ" },
+        { "en": "Sarod", "as": "চাৰোদ" },
+        { "en": "Veena", "as": "বীণা" },
+        { "en": "Santoor", "as": "চন্তুৰ" }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Shivkumar Sharma was a maestro of the santoor.",
+        "as": "শিৱকুমাৰ শৰ্মা চন্তুৰৰ এজন ওস্তাদ আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Carnatic' style of music belongs to which part of India?",
+        "as": "সংগীতৰ 'কৰ্ণাটকী' ধাৰা ভাৰতৰ কোন অংশৰ?"
+      },
+      "options": [
+        { "en": "North India", "as": "উত্তৰ ভাৰত" },
+        { "en": "South India", "as": "দক্ষিণ ভাৰত" },
+        { "en": "East India", "as": "পূব ভাৰত" },
+        { "en": "North-East India", "as": "উত্তৰ-পূব ভাৰত" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Carnatic music belongs to South India.",
+        "as": "কৰ্ণাটকী সংগীত দক্ষিণ ভাৰতৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Hindustani classical music is mainly prevalent in which part of India?",
+        "as": "হিন্দুস্তানী শাস্ত্ৰীয় সংগীত মূলতঃ ভাৰতৰ কোন অংশত প্ৰচলিত?"
+      },
+      "options": [
+        { "en": "South India", "as": "দক্ষিণ ভাৰত" },
+        { "en": "Only Tamil Nadu", "as": "কেৱল তামিলনাডু" },
+        { "en": "North India", "as": "উত্তৰ ভাৰত" },
+        { "en": "Only Kerala", "as": "কেৱল কেৰেলা" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Hindustani classical music is mainly prevalent in North India.",
+        "as": "হিন্দুস্তানী শাস্ত্ৰীয় সংগীত মূলতঃ উত্তৰ ভাৰতত প্ৰচলিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Tabla' is a percussion instrument traditionally played in which music style?",
+        "as": "'তবলা' পৰম্পৰাগতভাৱে কোন সংগীত ধাৰাত বজোৱা হয়?"
+      },
+      "options": [
+        { "en": "Carnatic music", "as": "কৰ্ণাটকী সংগীত" },
+        { "en": "Hindustani classical music", "as": "হিন্দুস্তানী শাস্ত্ৰীয় সংগীত" },
+        { "en": "Western classical", "as": "পাশ্চাত্য শাস্ত্ৰীয়" },
+        { "en": "Jazz", "as": "জাজ" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The tabla is a mainstay of Hindustani classical music.",
+        "as": "তবলা হিন্দুস্তানী শাস্ত্ৰীয় সংগীতৰ এটা প্ৰধান বাদ্যযন্ত্ৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "M.S. Subbulakshmi, a legendary singer, was associated with which music tradition?",
+        "as": "কিংবদন্তি গায়িকা এম.এছ. সুব্বুলক্ষ্মী কোন সংগীত পৰম্পৰাৰ সৈতে জড়িত আছিল?"
+      },
+      "options": [
+        { "en": "Hindustani music", "as": "হিন্দুস্তানী সংগীত" },
+        { "en": "Folk music only", "as": "কেৱল লোকসংগীত" },
+        { "en": "Carnatic music", "as": "কৰ্ণাটকী সংগীত" },
+        { "en": "Western music", "as": "পাশ্চাত্য সংগীত" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "M.S. Subbulakshmi was a legendary Carnatic singer.",
+        "as": "এম.এছ. সুব্বুলক্ষ্মী এগৰাকী কিংবদন্তি কৰ্ণাটকী গায়িকা আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Bismillah Khan, a Bharat Ratna awardee, was a maestro of which instrument?",
+        "as": "ভাৰত ৰত্ন প্ৰাপ্ত বিশিল্লাহ খান কোন বাদ্যযন্ত্ৰৰ ওস্তাদ আছিল?"
+      },
+      "options": [
+        { "en": "Sitar", "as": "চিতাৰ" },
+        { "en": "Shehnai", "as": "চানাই" },
+        { "en": "Sarangi", "as": "চাৰেংগী" },
+        { "en": "Mridangam", "as": "মৃদংগম" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Bismillah Khan was a legendary shehnai player.",
+        "as": "বিশিল্লাহ খান এজন কিংবদন্তি চানাই বাদক আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Veena', a string instrument, is especially associated with which music tradition?",
+        "as": "'বীণা' নামৰ তাৰযন্ত্ৰ বিশেষকৈ কোন সংগীত পৰম্পৰাৰ সৈতে জড়িত?"
+      },
+      "options": [
+        { "en": "Hindustani music", "as": "হিন্দুস্তানী সংগীত" },
+        { "en": "Western classical", "as": "পাশ্চাত্য শাস্ত্ৰীয়" },
+        { "en": "Pop music", "as": "পপ সংগীত" },
+        { "en": "Carnatic music", "as": "কৰ্ণাটকী সংগীত" }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The veena is especially associated with Carnatic music.",
+        "as": "বীণা বিশেষকৈ কৰ্ণাটকী সংগীতৰ সৈতে জড়িত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Raga' in Indian classical music primarily refers to what?",
+        "as": "ভাৰতীয় শাস্ত্ৰীয় সংগীতত 'ৰাগ'য়ে মূলতঃ কিসৰ ইঙ্গিত দিয়ে?"
+      },
+      "options": [
+        { "en": "A melodic framework", "as": "এটা সুৰৰ কাঠামো" },
+        { "en": "A rhythmic cycle", "as": "এটা তাল চক্ৰ" },
+        { "en": "A dance posture", "as": "এটা নৃত্য ভংগি" },
+        { "en": "A percussion instrument", "as": "এটা তালযন্ত্ৰ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A raga is a melodic framework in Indian classical music.",
+        "as": "ৰাগ ভাৰতীয় শাস্ত্ৰীয় সংগীতত এটা সুৰৰ কাঠামো।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Tala' in Indian music refers to what?",
+        "as": "ভাৰতীয় সংগীতত 'তাল'য়ে কিসৰ ইঙ্গিত দিয়ে?"
+      },
+      "options": [
+        { "en": "Melody", "as": "সুৰ" },
+        { "en": "Rhythmic cycle", "as": "তাল চক্ৰ" },
+        { "en": "Lyrics", "as": "গীত" },
+        { "en": "Costume", "as": "সাজ-পোছাক" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Tala refers to the rhythmic cycle in Indian music.",
+        "as": "তালয়ে ভাৰতীয় সংগীতৰ তাল চক্ৰক বুজায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Bharatanatyam' dance form is traditionally accompanied by which musical style?",
+        "as": "ভৰতনাট্যম নৃত্য ৰূপ পৰম্পৰাগতভাৱে কোন সংগীত ধাৰাৰ লগত পৰিবেশন কৰা হয়?"
+      },
+      "options": [
+        { "en": "Hindustani music", "as": "হিন্দুস্তানী সংগীত" },
+        { "en": "Western music", "as": "পাশ্চাত্য সংগীত" },
+        { "en": "Jazz", "as": "জাজ" },
+        { "en": "Carnatic music", "as": "কৰ্ণাটকী সংগীত" }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Bharatanatyam is traditionally accompanied by Carnatic music.",
+        "as": "ভৰতনাট্যম পৰম্পৰাগতভাৱে কৰ্ণাটকী সংগীতৰ লগত পৰিবেশন কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Kathakali performers are traditionally recognised by their elaborate what?",
+        "as": "কথাকলি শিল্পীসকল পৰম্পৰাগতভাৱে তেওঁলোকৰ বিস্তৃত কিসৰ জৰিয়তে চিনাক্ত কৰা হয়?"
+      },
+      "options": [
+        { "en": "Musical instruments", "as": "বাদ্যযন্ত্ৰ" },
+        { "en": "Facial make-up and costumes", "as": "মুখৰ সজ্জা আৰু সাজ-পোছাক" },
+        { "en": "Jewellery only", "as": "কেৱল অলংকাৰ" },
+        { "en": "Footwear", "as": "জোতা" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Kathakali is recognised by its elaborate make-up and costumes.",
+        "as": "কথাকলি ইয়াৰ বিস্তৃত মুখসজ্জা আৰু সাজ-পোছাকৰ বাবে চিনাক্ত।"
       }
     }
   ]
