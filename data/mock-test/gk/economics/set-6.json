@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "Questions for this set will be added soon.",
-        "as": "এই ছেটৰ প্ৰশ্নসমূহ সোনকালে যোগ কৰা হ'ব।"
+        "en": "Who wrote the book 'The Wealth of Nations'?",
+        "as": "'দ্য ৱেলথ অৱ নেশ্যনছ' গ্ৰন্থখন কাৰ ৰচনা?"
       },
       "options": [
         {
-          "en": "Option A",
-          "as": "বিকল্প A"
+          "en": "Karl Marx",
+          "as": "কাৰ্ল মাৰ্ক্স"
         },
         {
-          "en": "Option B",
-          "as": "বিকল্প B"
+          "en": "Alfred Marshall",
+          "as": "আলফ্ৰেড মাৰ্শ্বাল"
         },
         {
-          "en": "Option C",
-          "as": "বিকল্প C"
+          "en": "J. M. Keynes",
+          "as": "জে. এম. কেইনছ"
         },
         {
-          "en": "Option D",
-          "as": "বিকল্প D"
+          "en": "Adam Smith",
+          "as": "এডাম স্মিথ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'The Wealth of Nations' (1776) was written by Adam Smith, the Father of Economics.",
+        "as": "'দ্য ৱেলথ অৱ নেশ্যনছ' (১৭৭৬) অৰ্থনীতিৰ পিতৃ এডাম স্মিথে ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Microeconomics primarily studies?",
+        "as": "সূক্ষ্ম অৰ্থনীতিয়ে প্ৰধানকৈ কি অধ্যয়ন কৰে?"
+      },
+      "options": [
+        {
+          "en": "Only government policy",
+          "as": "কেৱল চৰকাৰী নীতি"
+        },
+        {
+          "en": "The whole economy",
+          "as": "সমগ্ৰ অৰ্থনীতি"
+        },
+        {
+          "en": "Individual economic units",
+          "as": "ব্যক্তিগত অৰ্থনৈতিক একক"
+        },
+        {
+          "en": "Only foreign trade",
+          "as": "কেৱল বৈদেশিক বাণিজ্য"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Microeconomics studies individual units such as a consumer, a firm or a market.",
+        "as": "সূক্ষ্ম অৰ্থনীতিয়ে এজন গ্ৰাহক, এটা প্ৰতিষ্ঠান বা এটা বজাৰৰ দৰে ব্যক্তিগত একক অধ্যয়ন কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Macroeconomics deals with?",
+        "as": "বৃহৎ অৰ্থনীতিয়ে কিৰ সৈতে deals কৰে?"
+      },
+      "options": [
+        {
+          "en": "A single firm",
+          "as": "এটা প্ৰতিষ্ঠান"
+        },
+        {
+          "en": "A single market",
+          "as": "এটা বজাৰ"
+        },
+        {
+          "en": "A single consumer",
+          "as": "এজন গ্ৰাহক"
+        },
+        {
+          "en": "Aggregate economic variables",
+          "as": "সামগ্ৰিক অৰ্থনৈতিক চলক"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Macroeconomics studies aggregates such as national income, inflation and unemployment.",
+        "as": "বৃহৎ অৰ্থনীতিয়ে ৰাষ্ট্ৰীয় আয়, মুদ্ৰাস্ফীতি আৰু বেকাৰীৰ দৰে সামগ্ৰিক বিষয় অধ্যয়ন কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "In India, inflation at the retail level is measured by which index?",
+        "as": "ভাৰতত খুচুৰা স্তৰত মুদ্ৰাস্ফীতি কোন সূচকাংকৰ দ্বাৰা জোখা হয়?"
+      },
+      "options": [
+        {
+          "en": "Index of Industrial Production (IIP)",
+          "as": "ঔদ্যোগিক উৎপাদন সূচকাংক (IIP)"
+        },
+        {
+          "en": "Consumer Price Index (CPI)",
+          "as": "গ্ৰাহক মূল্য সূচকাংক (CPI)"
+        },
+        {
+          "en": "Wholesale Price Index (WPI)",
+          "as": "পাইকাৰী মূল্য সূচকাংক (WPI)"
+        },
+        {
+          "en": "Human Development Index (HDI)",
+          "as": "মানৱ উন্নয়ন সূচকাংক (HDI)"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Retail or headline inflation in India is measured by the Consumer Price Index (CPI).",
+        "as": "ভাৰতত খুচুৰা বা হেডলাইন মুদ্ৰাস্ফীতি গ্ৰাহক মূল্য সূচকাংক (CPI) ৰে জোখা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "NNP is obtained by deducting which item from GNP?",
+        "as": "GNP ৰ পৰা কোনটো বিয়োগ কৰি NNP পোৱা যায়?"
+      },
+      "options": [
+        {
+          "en": "Net exports",
+          "as": "নিকা ৰপ্তানি"
+        },
+        {
+          "en": "Subsidies",
+          "as": "ৰাজসাহায্য"
+        },
+        {
+          "en": "Depreciation",
+          "as": "অৱক্ষয়"
+        },
+        {
+          "en": "Indirect taxes",
+          "as": "পৰোক্ষ কৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Net National Product (NNP) = GNP minus depreciation.",
+        "as": "নিকা ৰাষ্ট্ৰীয় উৎপাদন (NNP) = GNP - অৱক্ষয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Per capita income is calculated as?",
+        "as": "মূৰ্শুমাৰি আয় কেনেকৈ গণনা কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "National income divided by population",
+          "as": "ৰাষ্ট্ৰীয় আয় জনসংখ্যাৰে হৰণ কৰি"
+        },
+        {
+          "en": "Total exports minus imports",
+          "as": "মুঠ ৰপ্তানি - আমদানি"
+        },
+        {
+          "en": "GDP minus taxes",
+          "as": "GDP - কৰ"
+        },
+        {
+          "en": "National income multiplied by population",
+          "as": "ৰাষ্ট্ৰীয় আয় জনসংখ্যাৰে পূৰণ কৰি"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "This set is being updated. Please check back soon.",
-        "as": "এই ছেটটো আপডেট কৰা হৈছে। অনুগ্ৰহ কৰি সোনকালে পুনৰ চাওক।"
+        "en": "Per capita income equals national income divided by the total population.",
+        "as": "মূৰ্শুমাৰি আয় = ৰাষ্ট্ৰীয় আয় / মুঠ জনসংখ্যা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a direct tax?",
+        "as": "তলৰ কোনটো এক প্ৰত্যক্ষ কৰ?"
+      },
+      "options": [
+        {
+          "en": "Excise duty",
+          "as": "আবকাৰী কৰ"
+        },
+        {
+          "en": "Income tax",
+          "as": "আয় কৰ"
+        },
+        {
+          "en": "Customs duty",
+          "as": "শুল্ক কৰ"
+        },
+        {
+          "en": "GST",
+          "as": "GST"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Income tax is a direct tax, as its burden cannot be shifted to another person.",
+        "as": "আয় কৰ এক প্ৰত্যক্ষ কৰ, কাৰণ ইয়াৰ বােজা আন কাৰোবালৈ স্থানান্তৰ কৰিব নোৱাৰি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Inflation refers to?",
+        "as": "মুদ্ৰাস্ফীতি বলিলে কি বুজায়?"
+      },
+      "options": [
+        {
+          "en": "A general rise in the price level",
+          "as": "মূল্য স্তৰৰ সাধাৰণ বৃদ্ধি"
+        },
+        {
+          "en": "A general fall in the price level",
+          "as": "মূল্য স্তৰৰ সাধাৰণ হ্ৰাস"
+        },
+        {
+          "en": "A rise in unemployment",
+          "as": "বেকাৰী বৃদ্ধি"
+        },
+        {
+          "en": "A fall in national income",
+          "as": "ৰাষ্ট্ৰীয় আয় হ্ৰাস"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Inflation is a sustained general rise in the price level of goods and services.",
+        "as": "মুদ্ৰাস্ফীতি হৈছে সামগ্ৰী আৰু সেৱাৰ মূল্য স্তৰৰ এক ধাৰাবাহিক সাধাৰণ বৃদ্ধি।"
+      }
+    },
+    {
+      "q": {
+        "en": "The primary sector of the economy includes?",
+        "as": "অৰ্থনীতিৰ প্ৰাথমিক খণ্ডত কি কি অন্তৰ্ভুক্ত?"
+      },
+      "options": [
+        {
+          "en": "Banking and transport",
+          "as": "বেংকিং আৰু পৰিবহণ"
+        },
+        {
+          "en": "Information technology",
+          "as": "তথ্য প্ৰযুক্তি"
+        },
+        {
+          "en": "Agriculture, forestry and mining",
+          "as": "কৃষি, বনানী আৰু খনি"
+        },
+        {
+          "en": "Manufacturing and construction",
+          "as": "উৎপাদন আৰু নিৰ্মাণ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The primary sector involves direct use of natural resources such as agriculture, forestry and mining.",
+        "as": "প্ৰাথমিক খণ্ডই কৃষি, বনানী আৰু খননৰ দৰে প্ৰাকৃতিক সম্পদৰ প্ৰত্যক্ষ ব্যৱহাৰক সাঙুৰি লয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which sector is known as the tertiary sector?",
+        "as": "কোন খণ্ডক তৃতীয় খণ্ড বুলি জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Manufacturing sector",
+          "as": "উৎপাদন খণ্ড"
+        },
+        {
+          "en": "Service sector",
+          "as": "সেৱা খণ্ড"
+        },
+        {
+          "en": "Mining sector",
+          "as": "খনি খণ্ড"
+        },
+        {
+          "en": "Agricultural sector",
+          "as": "কৃষি খণ্ড"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The tertiary sector is the service sector, including trade, transport, banking and IT.",
+        "as": "তৃতীয় খণ্ড হৈছে সেৱা খণ্ড, য'ত বাণিজ্য, পৰিবহণ, বেংকিং আৰু তথ্য প্ৰযুক্তি অন্তৰ্ভুক্ত।"
+      }
+    },
+    {
+      "q": {
+        "en": "In India, which body estimates the national income?",
+        "as": "ভাৰতত ৰাষ্ট্ৰীয় আয় কোন সংস্থাই অনুমান কৰে?"
+      },
+      "options": [
+        {
+          "en": "National Statistical Office (NSO)",
+          "as": "ৰাষ্ট্ৰীয় পৰিসংখ্যা কাৰ্যালয় (NSO)"
+        },
+        {
+          "en": "NITI Aayog",
+          "as": "নীতি আয়োগ"
+        },
+        {
+          "en": "Reserve Bank of India",
+          "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"
+        },
+        {
+          "en": "Ministry of Commerce",
+          "as": "বাণিজ্য মন্ত্ৰালয়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The National Statistical Office (NSO) estimates India's national income.",
+        "as": "ৰাষ্ট্ৰীয় পৰিসংখ্যা কাৰ্যালয় (NSO) য়ে ভাৰতৰ ৰাষ্ট্ৰীয় আয় অনুমান কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Human Development Index (HDI) is published by?",
+        "as": "মানৱ উন্নয়ন সূচকাংক (HDI) কোনে প্ৰকাশ কৰে?"
+      },
+      "options": [
+        {
+          "en": "UNDP",
+          "as": "UNDP"
+        },
+        {
+          "en": "WTO",
+          "as": "WTO"
+        },
+        {
+          "en": "IMF",
+          "as": "IMF"
+        },
+        {
+          "en": "World Bank",
+          "as": "বিশ্ব বেংক"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Human Development Index is published annually by the UNDP.",
+        "as": "মানৱ উন্নয়ন সূচকাংক UNDP য়ে বছৰি প্ৰকাশ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Disguised unemployment is mostly found in which sector in India?",
+        "as": "ভাৰতত প্ৰচ্ছন্ন বেকাৰী প্ৰধানকৈ কোন খণ্ডত দেখা যায়?"
+      },
+      "options": [
+        {
+          "en": "Banking",
+          "as": "বেংকিং"
+        },
+        {
+          "en": "Information technology",
+          "as": "তথ্য প্ৰযুক্তি"
+        },
+        {
+          "en": "Agriculture",
+          "as": "কৃষি"
+        },
+        {
+          "en": "Aviation",
+          "as": "বিমান"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Disguised unemployment occurs mainly in Indian agriculture where more people work than required.",
+        "as": "প্ৰচ্ছন্ন বেকাৰী প্ৰধানকৈ ভাৰতৰ কৃষিত দেখা যায়, য'ত প্ৰয়োজনতকৈ অধিক লোকে কাম কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The law of demand states that, other things being equal, when price rises?",
+        "as": "চাহিদাৰ নিয়ম অনুসৰি, আন কথা সমান থাকিলে, মূল্য বাঢ়িলে কি হয়?"
+      },
+      "options": [
+        {
+          "en": "Quantity demanded rises",
+          "as": "চাহিদাৰ পৰিমাণ বাঢ়ে"
+        },
+        {
+          "en": "Quantity demanded is unchanged",
+          "as": "চাহিদাৰ পৰিমাণ অপৰিৱৰ্তিত থাকে"
+        },
+        {
+          "en": "Quantity demanded falls",
+          "as": "চাহিদাৰ পৰিমাণ কমে"
+        },
+        {
+          "en": "Supply falls to zero",
+          "as": "যোগান শূন্যলৈ নামে"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "According to the law of demand, price and quantity demanded are inversely related, other things being equal.",
+        "as": "চাহিদাৰ নিয়ম অনুসৰি, আন কথা সমান থাকিলে মূল্য আৰু চাহিদাৰ পৰিমাণৰ মাজত ঋণাত্মক সম্পৰ্ক থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The term 'Ceteris paribus' means?",
+        "as": "'চেটেৰিছ পাৰিবাছ' অভিধাটোৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "No assumptions",
+          "as": "কোনো অনুমান নাই"
+        },
+        {
+          "en": "Other things remaining constant",
+          "as": "আন কথা অপৰিৱৰ্তিত থকা"
+        },
+        {
+          "en": "Only price changing",
+          "as": "কেৱল মূল্য সলনি হোৱা"
+        },
+        {
+          "en": "All things changing",
+          "as": "সকলো কথা সলনি হোৱা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Ceteris paribus' is a Latin phrase meaning 'other things being equal'.",
+        "as": "'চেটেৰিছ পাৰিবাছ' এটা লেটিন বাক্যাংশ যাৰ অৰ্থ 'আন কথা সমান থকা'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Opportunity cost refers to?",
+        "as": "সুযোগ ব্যয় বলিলে কি বুজায়?"
+      },
+      "options": [
+        {
+          "en": "The tax paid on goods",
+          "as": "সামগ্ৰীৰ ওপৰত দিয়া কৰ"
+        },
+        {
+          "en": "The value of the next best alternative forgone",
+          "as": "ত্যাগ কৰা পৰৱৰ্তী শ্ৰেষ্ঠ বিকল্পৰ মূল্য"
+        },
+        {
+          "en": "The actual money spent",
+          "as": "প্ৰকৃততে ব্যয় কৰা ধন"
+        },
+        {
+          "en": "The total profit earned",
+          "as": "অৰ্জিত মুঠ লাভ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Opportunity cost is the value of the next best alternative that is given up when making a choice.",
+        "as": "সুযোগ ব্যয় হৈছে এটা নিৰ্বাচন কৰোঁতে ত্যাগ কৰা পৰৱৰ্তী শ্ৰেষ্ঠ বিকল্পৰ মূল্য।"
+      }
+    },
+    {
+      "q": {
+        "en": "Economics is primarily concerned with the allocation of?",
+        "as": "অৰ্থনীতি প্ৰধানকৈ কিৰ বিতৰণৰ সৈতে জড়িত?"
+      },
+      "options": [
+        {
+          "en": "Unlimited resources",
+          "as": "অসীম সম্পদ"
+        },
+        {
+          "en": "Scarce resources",
+          "as": "দুৰ্লভ সম্পদ"
+        },
+        {
+          "en": "Only labour",
+          "as": "কেৱল শ্ৰম"
+        },
+        {
+          "en": "Only money",
+          "as": "কেৱল ধন"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Economics studies how scarce resources are allocated to satisfy unlimited wants.",
+        "as": "অৰ্থনীতিয়ে অসীম অভাৱ পূৰণৰ বাবে দুৰ্লভ সম্পদ কেনেকৈ বিতৰণ কৰা হয় সেই বিষয়ে অধ্যয়ন কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is an indirect tax?",
+        "as": "তলৰ কোনটো এক পৰোক্ষ কৰ?"
+      },
+      "options": [
+        {
+          "en": "Capital gains tax",
+          "as": "মূলধন লাভ কৰ"
+        },
+        {
+          "en": "Income tax",
+          "as": "আয় কৰ"
+        },
+        {
+          "en": "Corporate tax",
+          "as": "নিগম কৰ"
+        },
+        {
+          "en": "GST",
+          "as": "GST"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "GST is an indirect tax, as its burden can be shifted to the final consumer.",
+        "as": "GST এক পৰোক্ষ কৰ, কাৰণ ইয়াৰ বােজা চূড়ান্ত গ্ৰাহকলৈ স্থানান্তৰ কৰিব পাৰি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Deflation means?",
+        "as": "অৱমুদ্ৰণ (Deflation) বলিলে কি বুজায়?"
+      },
+      "options": [
+        {
+          "en": "A rise in money supply",
+          "as": "মুদ্ৰা যোগান বৃদ্ধি"
+        },
+        {
+          "en": "A general rise in the price level",
+          "as": "মূল্য স্তৰৰ সাধাৰণ বৃদ্ধি"
+        },
+        {
+          "en": "A general fall in the price level",
+          "as": "মূল্য স্তৰৰ সাধাৰণ হ্ৰাস"
+        },
+        {
+          "en": "A rise in exports",
+          "as": "ৰপ্তানি বৃদ্ধি"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Deflation is a sustained general fall in the price level of goods and services.",
+        "as": "অৱমুদ্ৰণ হৈছে সামগ্ৰী আৰু সেৱাৰ মূল্য স্তৰৰ এক ধাৰাবাহিক সাধাৰণ হ্ৰাস।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a capital receipt of the government?",
+        "as": "তলৰ কোনটো চৰকাৰৰ মূলধন প্ৰাপ্তি?"
+      },
+      "options": [
+        {
+          "en": "Income tax",
+          "as": "আয় কৰ"
+        },
+        {
+          "en": "GST collections",
+          "as": "GST সংগ্ৰহ"
+        },
+        {
+          "en": "Fees and fines",
+          "as": "মাচুল আৰু জৰিমনা"
+        },
+        {
+          "en": "Borrowings",
+          "as": "ঋণ গ্ৰহণ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Borrowings are capital receipts, as they create a liability and do not reduce assets.",
+        "as": "ঋণ গ্ৰহণ এক মূলধন প্ৰাপ্তি, কাৰণ ই দায় সৃষ্টি কৰে আৰু সম্পদ হ্ৰাস নকৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Per capita income is often used as an indicator of?",
+        "as": "মূৰ্শুমাৰি আয় প্ৰায়ে কিৰ সূচক হিচাপে ব্যৱহাৰ কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Standard of living",
+          "as": "জীৱনযাত্ৰাৰ মান"
+        },
+        {
+          "en": "Inflation rate",
+          "as": "মুদ্ৰাস্ফীতিৰ হাৰ"
+        },
+        {
+          "en": "Unemployment rate",
+          "as": "বেকাৰীৰ হাৰ"
+        },
+        {
+          "en": "Literacy rate",
+          "as": "সাক্ষৰতাৰ হাৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Per capita income is a commonly used indicator of the standard of living of a country's people.",
+        "as": "মূৰ্শুমাৰি আয় এটা দেশৰ জনসাধাৰণৰ জীৱনযাত্ৰাৰ মানৰ এক সাধাৰণ সূচক।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'base year' in national income accounting is used for?",
+        "as": "ৰাষ্ট্ৰীয় আয় হিচাপত 'ভিত্তি বছৰ' কিসকুৱা কামত ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Deciding MSP",
+          "as": "MSP নিৰ্ধাৰণ কৰিবলৈ"
+        },
+        {
+          "en": "Fixing the tax rate",
+          "as": "কৰৰ হাৰ নিৰ্ধাৰণ কৰিবলৈ"
+        },
+        {
+          "en": "Printing currency",
+          "as": "মুদ্ৰা ছপাবলৈ"
+        },
+        {
+          "en": "Comparing changes in real values",
+          "as": "প্ৰকৃত মূল্যৰ পৰিৱৰ্তন তুলনা কৰিবলৈ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A base year is used as a reference point to compare real changes in economic values over time.",
+        "as": "সময়ৰ লগে লগে অৰ্থনৈতিক মূল্যৰ প্ৰকৃত পৰিৱৰ্তন তুলনা কৰিবলৈ ভিত্তি বছৰক প্ৰসংগ বিন্দু হিচাপে ব্যৱহাৰ কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The financial year in India runs from?",
+        "as": "ভাৰতত বিত্তীয় বছৰ কেতিয়াৰ পৰা কেতিয়ালৈ চলে?"
+      },
+      "options": [
+        {
+          "en": "1 April to 31 March",
+          "as": "১ এপ্ৰিলৰ পৰা ৩১ মাৰ্চলৈ"
+        },
+        {
+          "en": "1 July to 30 June",
+          "as": "১ জুলাইৰ পৰা ৩০ জুনলৈ"
+        },
+        {
+          "en": "1 October to 30 September",
+          "as": "১ অক্টোবৰৰ পৰা ৩০ ছেপ্তেম্বৰলৈ"
+        },
+        {
+          "en": "1 January to 31 December",
+          "as": "১ জানুৱাৰীৰ পৰা ৩১ ডিচেম্বৰলৈ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Indian financial year runs from 1 April of one year to 31 March of the next year.",
+        "as": "ভাৰতৰ বিত্তীয় বছৰ এটা বছৰৰ ১ এপ্ৰিলৰ পৰা পৰৱৰ্তী বছৰৰ ৩১ মাৰ্চলৈকে চলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'utility' in economics refers to?",
+        "as": "অৰ্থনীতিত 'উপযোগিতা' বলিলে কি বুজায়?"
+      },
+      "options": [
+        {
+          "en": "The cost of production",
+          "as": "উৎপাদনৰ ব্যয়"
+        },
+        {
+          "en": "The profit of a firm",
+          "as": "এটা প্ৰতিষ্ঠানৰ লাভ"
+        },
+        {
+          "en": "The price of a good",
+          "as": "এটা সামগ্ৰীৰ মূল্য"
+        },
+        {
+          "en": "The satisfaction derived from consuming a good",
+          "as": "এটা সামগ্ৰী ভোগ কৰি পোৱা সন্তুষ্টি"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Utility is the satisfaction or want-satisfying power of a commodity.",
+        "as": "উপযোগিতা হৈছে এটা সামগ্ৰীয়ে দিয়া সন্তুষ্টি বা অভাৱ পূৰণৰ ক্ষমতা।"
+      }
+    },
+    {
+      "q": {
+        "en": "A market with a single seller is called?",
+        "as": "কেৱল এজন বিক্ৰেতা থকা বজাৰক কি বোলা হয়?"
+      },
+      "options": [
+        {
+          "en": "Monopoly",
+          "as": "একচেটিয়া"
+        },
+        {
+          "en": "Monopsony",
+          "as": "মন'পছ'নী"
+        },
+        {
+          "en": "Oligopoly",
+          "as": "অলিগ'পলি"
+        },
+        {
+          "en": "Perfect competition",
+          "as": "পূৰ্ণ প্ৰতিযোগিতা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A monopoly is a market structure with a single seller of a product having no close substitutes.",
+        "as": "একচেটিয়া হৈছে এনে এক বজাৰ গাঁথনি য'ত এটা সামগ্ৰীৰ কেৱল এজন বিক্ৰেতা থাকে আৰু ইয়াৰ ওচৰ সম্বন্ধীয় বিকল্প নাথাকে।"
       }
     }
   ]
