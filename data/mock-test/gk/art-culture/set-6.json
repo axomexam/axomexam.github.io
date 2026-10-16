@@ -5,31 +5,427 @@
   "questions": [
     {
       "q": {
-        "en": "Questions for this set will be added soon.",
-        "as": "এই ছেটৰ প্ৰশ্নসমূহ সোনকালে যোগ কৰা হ'ব।"
+        "en": "Rongali Bihu, the most festive of the three Bihus, is celebrated in which month?",
+        "as": "তিনিটা বিহুৰ ভিতৰত আটাইতকৈ উৎসৱময় ৰঙালী বিহু কোন মাহত পালন কৰা হয়?"
       },
       "options": [
-        {
-          "en": "Option A",
-          "as": "বিকল্প A"
-        },
-        {
-          "en": "Option B",
-          "as": "বিকল্প B"
-        },
-        {
-          "en": "Option C",
-          "as": "বিকল্প C"
-        },
-        {
-          "en": "Option D",
-          "as": "বিকল্প D"
-        }
+        { "en": "January", "as": "জানুৱাৰী" },
+        { "en": "April", "as": "এপ্ৰিল" },
+        { "en": "October", "as": "অক্টোবৰ" },
+        { "en": "July", "as": "জুলাই" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Rongali or Bohag Bihu is celebrated in April (spring).",
+        "as": "ৰঙালী বা ব'হাগ বিহু এপ্ৰিল মাহত (বসন্তত) পালন কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Rongali Bihu is also known by which other name?",
+        "as": "ৰঙালী বিহু আন কোন নামেৰে জনা যায়?"
+      },
+      "options": [
+        { "en": "Bhogali Bihu", "as": "ভোগালী বিহু" },
+        { "en": "Kongali Bihu", "as": "কঙালী বিহু" },
+        { "en": "Bohag Bihu", "as": "ব'হাগ বিহু" },
+        { "en": "Kati Bihu", "as": "কাতি বিহু" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Rongali Bihu is also called Bohag Bihu.",
+        "as": "ৰঙালী বিহুক ব'হাগ বিহু বুলিও কোৱা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The community feast held on the eve of Bhogali Bihu is known as what?",
+        "as": "ভোগালী বিহুৰ পূৰ্বসন্ধ্যাত অনুষ্ঠিত সামূহিক ভোজখন কি নামেৰে জনা যায়?"
+      },
+      "options": [
+        { "en": "Meji", "as": "মেজি" },
+        { "en": "Husori", "as": "হুচৰি" },
+        { "en": "Uruka", "as": "উৰুকা" },
+        { "en": "Bhelaghar", "as": "ভেলাঘৰ" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The eve of Bhogali Bihu is observed as Uruka with a community feast.",
+        "as": "ভোগালী বিহুৰ আগদিনা ৰাতিটো উৰুকা হিচাপে সামূহিক ভোজেৰে পালন কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Sattriya dance of Assam was introduced by which Vaishnava saint?",
+        "as": "অসমৰ সত্ৰীয়া নৃত্য কোন বৈষ্ণৱ সন্তই আৰম্ভ কৰিছিল?"
+      },
+      "options": [
+        { "en": "Madhavdev", "as": "মাধৱদেৱ" },
+        { "en": "Srimanta Sankardeva", "as": "শ্ৰীমন্ত শংকৰদেৱ" },
+        { "en": "Bhattadev", "as": "ভট্টদেৱ" },
+        { "en": "Damodardev", "as": "দামোদৰদেৱ" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Sattriya dance was introduced by Srimanta Sankardeva.",
+        "as": "সত্ৰীয়া নৃত্য শ্ৰীমন্ত শংকৰদেৱে আৰম্ভ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Sattriya was recognised as a classical dance form by the Sangeet Natak Akademi in which year?",
+        "as": "সংগীত নাটক একাডেমীয়ে সত্ৰীয়াক কোন চনত শাস্ত্ৰীয় নৃত্য হিচাপে স্বীকৃতি দিছিল?"
+      },
+      "options": [
+        { "en": "2000", "as": "২০০০" },
+        { "en": "1985", "as": "১৯৮৫" },
+        { "en": "2010", "as": "২০১০" },
+        { "en": "1995", "as": "১৯৯৫" }
       ],
       "correct": 0,
       "explanation": {
-        "en": "This set is being updated. Please check back soon.",
-        "as": "এই ছেটটো আপডেট কৰা হৈছে। অনুগ্ৰহ কৰি সোনকালে পুনৰ চাওক।"
+        "en": "Sattriya was recognised as a classical dance form in 2000.",
+        "as": "সত্ৰীয়াক ২০০০ চনত শাস্ত্ৰীয় নৃত্যৰূপে স্বীকৃতি দিয়া হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The traditional Assamese 'Japi' is a type of what?",
+        "as": "পৰম্পৰাগত অসমীয়া 'জাপি' কি ধৰণৰ বস্তু?"
+      },
+      "options": [
+        { "en": "Musical instrument", "as": "বাদ্যযন্ত্ৰ" },
+        { "en": "Headgear", "as": "মূৰৰ টুপী" },
+        { "en": "Weapon", "as": "অস্ত্ৰ" },
+        { "en": "Vessel", "as": "পাত্ৰ" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Japi is a traditional Assamese headgear made of bamboo and cane.",
+        "as": "জাপি বাঁহ আৰু বেতৰে নিৰ্মিত পৰম্পৰাগত অসমীয়া মূৰৰ টুপী।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Dhol' used in Bihu dance is which type of instrument?",
+        "as": "বিহু নৃত্যত ব্যৱহৃত 'ঢোল' কোন ধৰণৰ বাদ্যযন্ত্ৰ?"
+      },
+      "options": [
+        { "en": "String instrument", "as": "তাৰযন্ত্ৰ" },
+        { "en": "Percussion instrument", "as": "তালযন্ত্ৰ" },
+        { "en": "Wind instrument", "as": "ফু-বাদ্যযন্ত্ৰ" },
+        { "en": "Keyboard instrument", "as": "কীবৰ্ড যন্ত্ৰ" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Dhol is a percussion instrument.",
+        "as": "ঢোল এটা তালযন্ত্ৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Pepa' musical instrument of Assam is made from the horn of which animal?",
+        "as": "অসমৰ 'পেঁপা' বাদ্যযন্ত্ৰ কোন জন্তুৰ শিংৰ পৰা তৈয়াৰ কৰা হয়?"
+      },
+      "options": [
+        { "en": "Cow", "as": "গৰু" },
+        { "en": "Buffalo", "as": "ম'হ" },
+        { "en": "Goat", "as": "ছাগলী" },
+        { "en": "Deer", "as": "হৰিণ" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Pepa is made from the horn of a buffalo.",
+        "as": "পেঁপা ম'হৰ শিংৰ পৰা তৈয়াৰ কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Muga silk, unique to Assam, is famous for its natural colour which is?",
+        "as": "অসমৰ বিশেষ মুগা পাটৰ প্ৰাকৃতিক ৰং কি বাবে বিখ্যাত?"
+      },
+      "options": [
+        { "en": "White", "as": "বগা" },
+        { "en": "Golden", "as": "সোণালী" },
+        { "en": "Red", "as": "ৰঙা" },
+        { "en": "Green", "as": "সেউজীয়া" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Muga silk is famous for its natural golden colour.",
+        "as": "মুগা পাট ইয়াৰ প্ৰাকৃতিক সোণালী ৰঙৰ বাবে বিখ্যাত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Gamosa', a traditional Assamese textile, is mainly used as what?",
+        "as": "পৰম্পৰাগত অসমীয়া বস্ত্ৰ 'গামোচা' মূলতঃ কিসৰ বাবে ব্যৱহাৰ কৰা হয়?"
+      },
+      "options": [
+        { "en": "Bedsheet", "as": "শয্যা" },
+        { "en": "Towel and mark of respect", "as": "তোৱালী আৰু সন্মানৰ চিন" },
+        { "en": "Curtain", "as": "পৰ্দা" },
+        { "en": "Carpet", "as": "মেট" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Gamosa is a towel that is also offered as a mark of respect.",
+        "as": "গামোচা এটা তোৱালী যি সন্মানৰ চিন হিচাপেও আগবঢ়োৱা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Bagurumba' dance is a traditional dance of which tribe of Assam?",
+        "as": "'বাগুৰুম্বা' নৃত্য অসমৰ কোন জনজাতিৰ পৰম্পৰাগত নৃত্য?"
+      },
+      "options": [
+        { "en": "Mishing", "as": "মিচিং" },
+        { "en": "Bodo", "as": "বড়ো" },
+        { "en": "Karbi", "as": "কাৰ্বি" },
+        { "en": "Rabha", "as": "ৰাভা" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Bagurumba is the traditional dance of the Bodo community.",
+        "as": "বাগুৰুম্বা বড়ো জনগোষ্ঠীৰ পৰম্পৰাগত নৃত্য।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Bwisagu' festival is celebrated by which community of Assam?",
+        "as": "'বিছাগু' উৎসৱ অসমৰ কোন জনগোষ্ঠীয়ে পালন কৰে?"
+      },
+      "options": [
+        { "en": "Bodo", "as": "বড়ো" },
+        { "en": "Mishing", "as": "মিচিং" },
+        { "en": "Karbi", "as": "কাৰ্বি" },
+        { "en": "Dimasa", "as": "ডিমাছা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Bwisagu is the New Year festival of the Bodo community.",
+        "as": "বিছাগু বড়ো জনগোষ্ঠীৰ নৱবৰ্ষ উৎসৱ।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Ali-Ai-Ligang' is the harvest festival of which tribe of Assam?",
+        "as": "'আলি-আই-লিগাং' অসমৰ কোন জনজাতিৰ শস্য উৎসৱ?"
+      },
+      "options": [
+        { "en": "Bodo", "as": "বড়ো" },
+        { "en": "Mishing", "as": "মিচিং" },
+        { "en": "Rabha", "as": "ৰাভা" },
+        { "en": "Tiwa", "as": "তিওৱা" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Ali-Ai-Ligang is the harvest festival of the Mishing tribe.",
+        "as": "আলি-আই-লিগাং মিচিং জনজাতিৰ শস্য উৎসৱ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Bhortal Nritya' of Assam is performed holding which instrument?",
+        "as": "অসমৰ 'ভোৰতাল নৃত্য' কোন বাদ্যযন্ত্ৰ লৈ পৰিবেশন কৰা হয়?"
+      },
+      "options": [
+        { "en": "Dhol", "as": "ঢোল" },
+        { "en": "Bhortal (large cymbals)", "as": "ভোৰতাল (ডাঙৰ তাল)" },
+        { "en": "Flute", "as": "বাঁহী" },
+        { "en": "Gogona", "as": "গগণা" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Bhortal Nritya is performed by dancers holding large cymbals called Bhortal.",
+        "as": "ভোৰতাল নৃত্য ভোৰতাল নামৰ ডাঙৰ তাল হাতত লৈ পৰিবেশন কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Ojapali' is a traditional form of what in Assamese culture?",
+        "as": "অসমীয়া সংস্কৃতিত 'ওজাপালি' কিসৰ পৰম্পৰাগত ৰূপ?"
+      },
+      "options": [
+        { "en": "Folk dance-drama with narration", "as": "আখ্যানসহ লোক নাট্য-নৃত্য" },
+        { "en": "Puppet show", "as": "পুতলা নাচ" },
+        { "en": "Cooking style", "as": "ৰন্ধন শৈলী" },
+        { "en": "Weaving technique", "as": "বোৱা কৌশল" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ojapali is a traditional folk dance-drama form with narration and music.",
+        "as": "ওজাপালি আখ্যান আৰু সংগীতসহ এক পৰম্পৰাগত লোক নাট্য-নৃত্য।"
+      }
+    },
+    {
+      "q": {
+        "en": "The first day of Rongali Bihu, dedicated to cattle, is called what?",
+        "as": "ৰঙালী বিহুৰ গৰুৰ বাবে উৎসৰ্গিত প্ৰথম দিনটোক কি বোলা হয়?"
+      },
+      "options": [
+        { "en": "Goru Bihu", "as": "গৰু বিহু" },
+        { "en": "Manuh Bihu", "as": "মানুহ বিহু" },
+        { "en": "Gosai Bihu", "as": "গোসাঁই বিহু" },
+        { "en": "Husori Bihu", "as": "হুচৰি বিহু" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The first day is Goru Bihu, devoted to cattle.",
+        "as": "প্ৰথম দিনটো গৰু বিহু, গৰুৰ বাবে উৎসৰ্গিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The second day of Rongali Bihu, celebrated as the Assamese New Year, is called what?",
+        "as": "অসমীয়া নৱবৰ্ষ হিচাপে পালিত ৰঙালী বিহুৰ দ্বিতীয় দিনটোক কি বোলা হয়?"
+      },
+      "options": [
+        { "en": "Goru Bihu", "as": "গৰু বিহু" },
+        { "en": "Manuh Bihu", "as": "মানুহ বিহু" },
+        { "en": "Gosai Bihu", "as": "গোসাঁই বিহু" },
+        { "en": "Bhor Bihu", "as": "ভ'ৰ বিহু" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The second day is Manuh Bihu, the Assamese New Year.",
+        "as": "দ্বিতীয় দিনটো মানুহ বিহু, অসমীয়া নৱবৰ্ষ।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Eri' silk of Assam is also known by which name?",
+        "as": "অসমৰ 'এৰি' পাট আন কোন নামেৰে জনা যায়?"
+      },
+      "options": [
+        { "en": "Ahimsa silk / Endi", "as": "অহিংসা পাট / এণ্ডি" },
+        { "en": "Muga", "as": "মুগা" },
+        { "en": "Pat", "as": "পাট" },
+        { "en": "Tasar", "as": "তচৰ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Eri silk is also known as Endi or Ahimsa silk.",
+        "as": "এৰি পাটক এণ্ডি বা অহিংসা পাট বুলিও জনা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which place of Assam is known as the cultural capital and is famous for its Sattras?",
+        "as": "অসমৰ কোন স্থানক সাংস্কৃতিক ৰাজধানী বুলি জনা যায় আৰু সত্ৰৰ বাবে বিখ্যাত?"
+      },
+      "options": [
+        { "en": "Guwahati", "as": "গুৱাহাটী" },
+        { "en": "Majuli", "as": "মাজুলী" },
+        { "en": "Jorhat", "as": "যোৰহাট" },
+        { "en": "Sivasagar", "as": "শিৱসাগৰ" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Majuli is regarded as the cultural capital of Assam and is famous for its Sattras.",
+        "as": "মাজুলীক অসমৰ সাংস্কৃতিক ৰাজধানী বুলি গণ্য কৰা হয় আৰু ইয়াৰ সত্ৰৰ বাবে বিখ্যাত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The traditional Assamese 'Xorai' is used for what purpose?",
+        "as": "পৰম্পৰাগত অসমীয়া 'শৰাই' কি কামত ব্যৱহাৰ কৰা হয়?"
+      },
+      "options": [
+        { "en": "Storing water", "as": "পানী ৰখা" },
+        { "en": "Offering betel nut and showing respect", "as": "তামোল আগবঢ়াই সন্মান জনোৱা" },
+        { "en": "Playing music", "as": "সংগীত বজোৱা" },
+        { "en": "Lighting lamps", "as": "চাকি জ্বলোৱা" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Xorai is a tray used to offer betel nut and show respect.",
+        "as": "শৰাই তামোল আগবঢ়াই সন্মান জনোৱাৰ বাবে ব্যৱহৃত এখন tray।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Bihu dance is traditionally performed by whom?",
+        "as": "বিহু নৃত্য পৰম্পৰাগতভাৱে কোনে পৰিবেশন কৰে?"
+      },
+      "options": [
+        { "en": "Only men", "as": "কেৱল পুৰুষে" },
+        { "en": "Only women", "as": "কেৱল মহিলায়ে" },
+        { "en": "Both men and women", "as": "পুৰুষ আৰু মহিলা উভয়ে" },
+        { "en": "Only children", "as": "কেৱল ল'ৰা-ছোৱালীয়ে" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Bihu dance is performed by both men and women.",
+        "as": "বিহু নৃত্য পুৰুষ আৰু মহিলা উভয়ে পৰিবেশন কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Bihu dance is performed to the accompaniment of which instruments?",
+        "as": "বিহু নৃত্য কোন বাদ্যযন্ত্ৰৰ লগত পৰিবেশন কৰা হয়?"
+      },
+      "options": [
+        { "en": "Dhol, Pepa and Gogona", "as": "ঢোল, পেঁপা আৰু গগণা" },
+        { "en": "Sitar and Tabla", "as": "চিতাৰ আৰু তবলা" },
+        { "en": "Violin and Piano", "as": "বেহেলা আৰু পিয়ানো" },
+        { "en": "Guitar and Drums", "as": "গীটাৰ আৰু ড্ৰাম" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Bihu dance is accompanied by the Dhol, Pepa and Gogona.",
+        "as": "বিহু নৃত্য ঢোল, পেঁপা আৰু গগণাৰ লগত পৰিবেশন কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Gogona' is a small Assamese musical instrument made of what?",
+        "as": "'গগণা' অসমৰ এটা সৰু বাদ্যযন্ত্ৰ কিসৰ পৰা তৈয়াৰ কৰা হয়?"
+      },
+      "options": [
+        { "en": "Bamboo", "as": "বাঁহ" },
+        { "en": "Metal", "as": "ধাতু" },
+        { "en": "Wood", "as": "কাঠ" },
+        { "en": "Bone", "as": "হাড়" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Gogona is a small bamboo instrument.",
+        "as": "গগণা বাঁহেৰে তৈয়াৰী এটা সৰু বাদ্যযন্ত্ৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Madhubani painting, a famous Indian folk art, belongs to which state?",
+        "as": "ভাৰতৰ বিখ্যাত লোকচিত্ৰ মধুবনী চিত্ৰকলা কোন ৰাজ্যৰ?"
+      },
+      "options": [
+        { "en": "Bihar", "as": "বিহাৰ" },
+        { "en": "Assam", "as": "অসম" },
+        { "en": "Odisha", "as": "ওড়িশা" },
+        { "en": "Gujarat", "as": "গুজৰাট" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Madhubani painting belongs to Bihar.",
+        "as": "মধুবনী চিত্ৰকলা বিহাৰৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Bihu festival is essentially associated with what?",
+        "as": "বিহু উৎসৱ মূলতঃ কিসৰ সৈতে জড়িত?"
+      },
+      "options": [
+        { "en": "Monsoon rains", "as": "বৰ্ষাৰ বৰষুণ" },
+        { "en": "Seasons and agricultural harvest", "as": "ঋতু আৰু কৃষি শস্য" },
+        { "en": "Winter only", "as": "কেৱল শীত" },
+        { "en": "Full moon worship", "as": "পূৰ্ণিমা পূজা" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The three Bihus mark the changing seasons and agricultural cycle.",
+        "as": "তিনিওটা বিহু ঋতু পৰিৱৰ্তন আৰু কৃষি চক্ৰৰ সৈতে জড়িত।"
       }
     }
   ]
