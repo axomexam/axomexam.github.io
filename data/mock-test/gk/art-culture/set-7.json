@@ -5,31 +5,427 @@
   "questions": [
     {
       "q": {
-        "en": "Questions for this set will be added soon.",
-        "as": "এই ছেটৰ প্ৰশ্নসমূহ সোনকালে যোগ কৰা হ'ব।"
+        "en": "The famous Kamakhya Temple of Assam is located on which hill?",
+        "as": "অসমৰ বিখ্যাত কামাখ্যা মন্দিৰ কোন পাহাৰত অৱস্থিত?"
       },
       "options": [
-        {
-          "en": "Option A",
-          "as": "বিকল্প A"
-        },
-        {
-          "en": "Option B",
-          "as": "বিকল্প B"
-        },
-        {
-          "en": "Option C",
-          "as": "বিকল্প C"
-        },
-        {
-          "en": "Option D",
-          "as": "বিকল্প D"
-        }
+        { "en": "Nilachal Hill", "as": "নীলাচল পাহাৰ" },
+        { "en": "Chitrachal Hill", "as": "চিত্ৰাচল পাহাৰ" },
+        { "en": "Sandhyachal Hill", "as": "সন্ধ্যাচল পাহাৰ" },
+        { "en": "Umananda Hill", "as": "উমানন্দ পাহাৰ" }
       ],
       "correct": 0,
       "explanation": {
-        "en": "This set is being updated. Please check back soon.",
-        "as": "এই ছেটটো আপডেট কৰা হৈছে। অনুগ্ৰহ কৰি সোনকালে পুনৰ চাওক।"
+        "en": "Kamakhya Temple is located on Nilachal Hill.",
+        "as": "কামাখ্যা মন্দিৰ নীলাচল পাহাৰত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Kamakhya Temple is located in which city of Assam?",
+        "as": "কামাখ্যা মন্দিৰ অসমৰ কোন নগৰত অৱস্থিত?"
+      },
+      "options": [
+        { "en": "Jorhat", "as": "যোৰহাট" },
+        { "en": "Dibrugarh", "as": "ডিব্ৰুগড়" },
+        { "en": "Guwahati", "as": "গুৱাহাটী" },
+        { "en": "Tezpur", "as": "তেজপুৰ" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Kamakhya Temple is located in Guwahati.",
+        "as": "কামাখ্যা মন্দিৰ গুৱাহাটীত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Ambubachi Mela, an important festival, is held at which temple?",
+        "as": "গুৰুত্বপূৰ্ণ উৎসৱ অম্বুবাচী মেলা কোন মন্দিৰত অনুষ্ঠিত হয়?"
+      },
+      "options": [
+        { "en": "Kamakhya Temple", "as": "কামাখ্যা মন্দিৰ" },
+        { "en": "Umananda Temple", "as": "উমানন্দ মন্দিৰ" },
+        { "en": "Hayagriva Madhava Temple", "as": "হয়গ্ৰীৱ মাধৱ মন্দিৰ" },
+        { "en": "Shiva Dol", "as": "শিৱ দ'ল" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Ambubachi Mela is held at the Kamakhya Temple.",
+        "as": "অম্বুবাচী মেলা কামাখ্যা মন্দিৰত অনুষ্ঠিত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Srimanta Sankardeva propagated which religious tradition in Assam?",
+        "as": "শ্ৰীমন্ত শংকৰদেৱে অসমত কোন ধৰ্মীয় ধাৰা প্ৰচাৰ কৰিছিল?"
+      },
+      "options": [
+        { "en": "Buddhism", "as": "বৌদ্ধ ধৰ্ম" },
+        { "en": "Vaishnavism", "as": "বৈষ্ণৱ ধৰ্ম" },
+        { "en": "Shaivism", "as": "শৈৱ ধৰ্ম" },
+        { "en": "Jainism", "as": "জৈন ধৰ্ম" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Srimanta Sankardeva propagated Vaishnavism in Assam.",
+        "as": "শ্ৰীমন্ত শংকৰদেৱে অসমত বৈষ্ণৱ ধৰ্ম প্ৰচাৰ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "In Assamese villages, the 'Namghar' is primarily a what?",
+        "as": "অসমীয়া গাঁৱত 'নামঘৰ' মূলতঃ কি?"
+      },
+      "options": [
+        { "en": "Marketplace", "as": "বজাৰ" },
+        { "en": "Prayer hall", "as": "প্ৰাৰ্থনা গৃহ" },
+        { "en": "School", "as": "বিদ্যালয়" },
+        { "en": "Granary", "as": "ভঁৰাল" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Namghar is a community prayer hall.",
+        "as": "নামঘৰ এখন সামূহিক প্ৰাৰ্থনা গৃহ।"
+      }
+    },
+    {
+      "q": {
+        "en": "In Assamese culture, a 'Satra' refers to what?",
+        "as": "অসমীয়া সংস্কৃতিত 'সত্ৰ' বলিলে কি বুজায়?"
+      },
+      "options": [
+        { "en": "A Vaishnavite monastery", "as": "এখন বৈষ্ণৱ মঠ" },
+        { "en": "A fort", "as": "এটা দুৰ্গ" },
+        { "en": "A festival", "as": "এটা উৎসৱ" },
+        { "en": "A dance form", "as": "এটা নৃত্য ৰূপ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A Satra is a Vaishnavite monastery established by the Sankardeva tradition.",
+        "as": "সত্ৰ শংকৰদেৱ পৰম্পৰাত প্ৰতিষ্ঠিত এখন বৈষ্ণৱ মঠ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Dakhinpat Satra, an important Vaishnavite monastery, is located at which place?",
+        "as": "গুৰুত্বপূৰ্ণ বৈষ্ণৱ মঠ দক্ষিণপাট সত্ৰ কোন স্থানত অৱস্থিত?"
+      },
+      "options": [
+        { "en": "Majuli", "as": "মাজুলী" },
+        { "en": "Barpeta", "as": "বৰপেটা" },
+        { "en": "Nagaon", "as": "নগাঁও" },
+        { "en": "Goalpara", "as": "গোৱালপাৰা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Dakhinpat Satra is located in Majuli.",
+        "as": "দক্ষিণপাট সত্ৰ মাজুলীত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Rang Ghar, an amphitheatre, was built by which dynasty?",
+        "as": "ৰঙ্গঘৰ নামৰ ৰঙ্গমঞ্চ কোন ৰাজবংশই নিৰ্মাণ কৰিছিল?"
+      },
+      "options": [
+        { "en": "Koch dynasty", "as": "কছ ৰাজবংশ" },
+        { "en": "Ahom dynasty", "as": "আহোম ৰাজবংশ" },
+        { "en": "Chutiya dynasty", "as": "চুতীয়া ৰাজবংশ" },
+        { "en": "Kachari dynasty", "as": "কছাৰী ৰাজবংশ" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Rang Ghar was built by the Ahom dynasty.",
+        "as": "ৰঙ্গঘৰ আহোম ৰাজবংশই নিৰ্মাণ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Rang Ghar was mainly used as what?",
+        "as": "ৰঙ্গঘৰ মূলতঃ কিসৰ বাবে ব্যৱহাৰ কৰা হৈছিল?"
+      },
+      "options": [
+        { "en": "A royal viewing pavilion", "as": "ৰাজকীয় দৰ্শন মণ্ডপ" },
+        { "en": "A temple", "as": "এটা মন্দিৰ" },
+        { "en": "A granary", "as": "এটা ভঁৰাল" },
+        { "en": "A prison", "as": "এখন কাৰাগাৰ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Rang Ghar served as a royal sports pavilion for viewing events.",
+        "as": "ৰঙ্গঘৰ ৰাজকীয় ক্ৰীড়া আদি চাবলৈ দৰ্শন মণ্ডপ হিচাপে ব্যৱহৃত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Talatal Ghar of Assam is an example of which dynasty's architecture?",
+        "as": "অসমৰ তলাতল ঘৰ কোন ৰাজবংশৰ স্থাপত্যৰ উদাহৰণ?"
+      },
+      "options": [
+        { "en": "Mughal", "as": "মোগল" },
+        { "en": "Ahom", "as": "আহোম" },
+        { "en": "Maurya", "as": "মৌৰ্য" },
+        { "en": "Gupta", "as": "গুপ্ত" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Talatal Ghar is an example of Ahom architecture.",
+        "as": "তলাতল ঘৰ আহোম স্থাপত্যৰ উদাহৰণ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Sivasagar town served as the capital of which kingdom?",
+        "as": "শিৱসাগৰ নগৰখন কোন ৰাজ্যৰ ৰাজধানী আছিল?"
+      },
+      "options": [
+        { "en": "Koch Kingdom", "as": "কছ ৰাজ্য" },
+        { "en": "Ahom Kingdom", "as": "আহোম ৰাজ্য" },
+        { "en": "Kachari Kingdom", "as": "কছাৰী ৰাজ্য" },
+        { "en": "Chutiya Kingdom", "as": "চুতীয়া ৰাজ্য" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Sivasagar was the capital of the Ahom Kingdom.",
+        "as": "শিৱসাগৰ আহোম ৰাজ্যৰ ৰাজধানী আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Shivsagar 'Shiva Dol' is an example of what?",
+        "as": "শিৱসাগৰৰ 'শিৱ দ'ল' কিসৰ উদাহৰণ?"
+      },
+      "options": [
+        { "en": "A mosque", "as": "এটা মছজিদ" },
+        { "en": "A temple", "as": "এটা মন্দিৰ" },
+        { "en": "A palace", "as": "এটা ৰাজপ্ৰসাদ" },
+        { "en": "A bridge", "as": "এখন দলং" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Shiva Dol is a temple built by the Ahoms.",
+        "as": "শিৱ দ'ল আহোমসকলে নিৰ্মাণ কৰা এটা মন্দিৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Ahom king is credited with building the Rang Ghar?",
+        "as": "ৰঙ্গঘৰ নিৰ্মাণ কৰাৰ কৃতিত্ব কোন আহোম ৰজাক দিয়া হয়?"
+      },
+      "options": [
+        { "en": "Rudra Singha", "as": "ৰুদ্ৰ সিংহ" },
+        { "en": "Pramatta Singha", "as": "প্ৰমত্ত সিংহ" },
+        { "en": "Sukapha", "as": "চুকাফা" },
+        { "en": "Gadadhar Singha", "as": "গদাধৰ সিংহ" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Rang Ghar was built during the reign of Pramatta Singha.",
+        "as": "ৰঙ্গঘৰ প্ৰমত্ত সিংহৰ ৰাজত্বকালত নিৰ্মাণ কৰা হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Charaideo is historically famous for which monuments?",
+        "as": "চৰাইদেউ ঐতিহাসিকভাৱে কোন স্মৃতিসৌধৰ বাবে বিখ্যাত?"
+      },
+      "options": [
+        { "en": "Maidams (burial mounds)", "as": "মৈদাম (সমাধি স্তূপ)" },
+        { "en": "Rock-cut caves", "as": "শিলা-কটা গুহা" },
+        { "en": "Stepwells", "as": "বাওঁলী" },
+        { "en": "Stupas", "as": "স্তূপ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Charaideo is famous for the Maidams, the burial mounds of Ahom kings.",
+        "as": "চৰাইদেউ আহোম ৰজাসকলৰ মৈদামৰ বাবে বিখ্যাত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Maidams are burial mounds of the kings of which kingdom?",
+        "as": "মৈদামসমূহ কোন ৰাজ্যৰ ৰজাসকলৰ সমাধি স্তূপ?"
+      },
+      "options": [
+        { "en": "Mughal Empire", "as": "মোগল সাম্ৰাজ্য" },
+        { "en": "Ahom Kingdom", "as": "আহোম ৰাজ্য" },
+        { "en": "Vijayanagara Empire", "as": "বিজয়নগৰ সাম্ৰাজ্য" },
+        { "en": "Maratha Empire", "as": "মাৰাঠা সাম্ৰাজ্য" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Maidams are the burial mounds of Ahom kings.",
+        "as": "মৈদাম আহোম ৰজাসকলৰ সমাধি স্তূপ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Charaideo Maidams were inscribed on the UNESCO World Heritage list in which year?",
+        "as": "চৰাইদেউ মৈদাম কোন চনত ইউনেস্কো বিশ্ব ঐতিহ্য তালিকাত অন্তৰ্ভুক্ত হৈছিল?"
+      },
+      "options": [
+        { "en": "2023", "as": "২০২৩" },
+        { "en": "2010", "as": "২০১০" },
+        { "en": "2015", "as": "২০১৫" },
+        { "en": "2020", "as": "২০২০" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Charaideo Maidams were inscribed on the UNESCO World Heritage list in 2023.",
+        "as": "চৰাইদেউ মৈদাম ২০২৩ চনত ইউনেস্কো বিশ্ব ঐতিহ্য তালিকাত অন্তৰ্ভুক্ত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Kareng Ghar, a seven-storeyed royal palace, is located at which place?",
+        "as": "সাতমহলীয়া ৰাজকীয় প্ৰসাদ কাৰেং ঘৰ কোন স্থানত অৱস্থিত?"
+      },
+      "options": [
+        { "en": "Sivasagar", "as": "শিৱসাগৰ" },
+        { "en": "Dibrugarh", "as": "ডিব্ৰুগড়" },
+        { "en": "Nagaon", "as": "নগাঁও" },
+        { "en": "Jorhat", "as": "যোৰহাট" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Kareng Ghar is located at Sivasagar.",
+        "as": "কাৰেং ঘৰ শিৱসাগৰত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Majuli is the largest river island in the world and lies in which river?",
+        "as": "মাজুলী বিশ্বৰ আটাইতকৈ ডাঙৰ নদীদ্বীপ; ই কোন নদীত অৱস্থিত?"
+      },
+      "options": [
+        { "en": "Ganga", "as": "গংগা" },
+        { "en": "Brahmaputra", "as": "ব্ৰহ্মপুত্ৰ" },
+        { "en": "Godavari", "as": "গোদাৱৰী" },
+        { "en": "Yamuna", "as": "যমুনা" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Majuli lies in the Brahmaputra river.",
+        "as": "মাজুলী ব্ৰহ্মপুত্ৰ নদীত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Umananda Temple is located on an island in which city?",
+        "as": "উমানন্দ মন্দিৰ কোন নগৰৰ এটা দ্বীপত অৱস্থিত?"
+      },
+      "options": [
+        { "en": "Guwahati", "as": "গুৱাহাটী" },
+        { "en": "Tezpur", "as": "তেজপুৰ" },
+        { "en": "Dibrugarh", "as": "ডিব্ৰুগড়" },
+        { "en": "Silchar", "as": "শিলচৰ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Umananda Temple is on Peacock Island in Guwahati.",
+        "as": "উমানন্দ মন্দিৰ গুৱাহাটীৰ ময়ূৰ দ্বীপত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Hayagriva Madhava Temple is located at which place in Assam?",
+        "as": "হয়গ্ৰীৱ মাধৱ মন্দিৰ অসমৰ কোন স্থানত অৱস্থিত?"
+      },
+      "options": [
+        { "en": "Hajo", "as": "হাজো" },
+        { "en": "Majuli", "as": "মাজুলী" },
+        { "en": "Barpeta", "as": "বৰপেটা" },
+        { "en": "Majbat", "as": "মাজবাট" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Hayagriva Madhava Temple is located at Hajo.",
+        "as": "হয়গ্ৰীৱ মাধৱ মন্দিৰ হাজোত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Hajo in Assam is notable as a pilgrimage site for which communities?",
+        "as": "অসমৰ হাজো কোন কোন সম্প্ৰদায়ৰ তীৰ্থস্থান হিচাপে উল্লেখযোগ্য?"
+      },
+      "options": [
+        { "en": "Only Hindus", "as": "কেৱল হিন্দু" },
+        { "en": "Hindus, Muslims and Buddhists", "as": "হিন্দু, মুছলমান আৰু বৌদ্ধ" },
+        { "en": "Only Buddhists", "as": "কেৱল বৌদ্ধ" },
+        { "en": "Only Christians", "as": "কেৱল খ্ৰীষ্টান" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Hajo is a pilgrimage site for Hindus, Muslims and Buddhists.",
+        "as": "হাজো হিন্দু, মুছলমান আৰু বৌদ্ধসকলৰ তীৰ্থস্থান।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Basistha Ashram, an ancient temple complex, is located near which city?",
+        "as": "প্ৰাচীন মন্দিৰ চৌহদ বশিষ্ঠ আশ্ৰম কোন নগৰৰ ওচৰত অৱস্থিত?"
+      },
+      "options": [
+        { "en": "Jorhat", "as": "যোৰহাট" },
+        { "en": "Guwahati", "as": "গুৱাহাটী" },
+        { "en": "Nagaon", "as": "নগাঁও" },
+        { "en": "Dhubri", "as": "ধুবুৰী" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Basistha Ashram is located near Guwahati.",
+        "as": "বশিষ্ঠ আশ্ৰম গুৱাহাটীৰ ওচৰত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Madan Kamdev temple complex of Assam is mainly dedicated to which deity?",
+        "as": "অসমৰ মদন কামদেৱ মন্দিৰ চৌহদ মূলতঃ কোন দেৱতাৰ প্ৰতি উৎসৰ্গিত?"
+      },
+      "options": [
+        { "en": "Kamadeva (god of love)", "as": "কামদেৱ (প্ৰেমৰ দেৱতা)" },
+        { "en": "Shiva", "as": "শিৱ" },
+        { "en": "Vishnu", "as": "বিষ্ণু" },
+        { "en": "Durga", "as": "দুৰ্গা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Madan Kamdev temple is dedicated to Kamadeva.",
+        "as": "মদন কামদেৱ মন্দিৰ কামদেৱৰ প্ৰতি উৎসৰ্গিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Kaziranga National Park is renowned for conserving which animal?",
+        "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান কোন জন্তু সংৰক্ষণৰ বাবে বিখ্যাত?"
+      },
+      "options": [
+        { "en": "One-horned rhinoceros", "as": "একশৃংগ গঁড়" },
+        { "en": "Royal Bengal tiger", "as": "ৰয়েল বেংগল বাঘ" },
+        { "en": "Asiatic lion", "as": "এছিয়াটিক সিংহ" },
+        { "en": "Snow leopard", "as": "হিম বাঘ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Kaziranga National Park is famous for the one-horned rhinoceros.",
+        "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান একশৃংগ গঁড়ৰ বাবে বিখ্যাত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Ahom dynasty ruled Assam for approximately how many years?",
+        "as": "আহোম ৰাজবংশই অসমত প্ৰায় কিমান বছৰ ৰাজত্ব কৰিছিল?"
+      },
+      "options": [
+        { "en": "About 100 years", "as": "প্ৰায় ১০০ বছৰ" },
+        { "en": "About 300 years", "as": "প্ৰায় ৩০০ বছৰ" },
+        { "en": "About 600 years", "as": "প্ৰায় ৬০০ বছৰ" },
+        { "en": "About 1000 years", "as": "প্ৰায় ১০০০ বছৰ" }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Ahom dynasty ruled Assam for about 600 years.",
+        "as": "আহোম ৰাজবংশই অসমত প্ৰায় ৬০০ বছৰ ৰাজত্ব কৰিছিল।"
       }
     }
   ]
