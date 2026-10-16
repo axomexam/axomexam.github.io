@@ -5,31 +5,427 @@
   "questions": [
     {
       "q": {
-        "en": "The value of sin 30° + cos 60° is:",
-        "as": "sin 30° + cos 60° ৰ মান কি?"
+        "en": "The distance between the points (0, 0) and (3, 4) is:",
+        "as": "(0, 0) আৰু (3, 4) বিন্দু দুটাৰ মাজৰ দূৰত্ব কিমান?"
       },
       "options": [
-        {
-          "en": "1",
-          "as": "1"
-        },
-        {
-          "en": "1/2",
-          "as": "1/2"
-        },
-        {
-          "en": "√3/2",
-          "as": "√3/2"
-        },
-        {
-          "en": "0",
-          "as": "0"
-        }
+        { "en": "5", "as": "5" },
+        { "en": "7", "as": "7" },
+        { "en": "25", "as": "25" },
+        { "en": "1", "as": "1" }
       ],
       "correct": 0,
       "explanation": {
-        "en": "sin 30° = 1/2 and cos 60° = 1/2, so the sum = 1.",
-        "as": "sin 30° = 1/2 আৰু cos 60° = 1/2, গতিকে যোগফল = 1।"
+        "en": "d = √(3² + 4²) = √25 = 5.",
+        "as": "d = √(3² + 4²) = √25 = 5।"
+      }
+    },
+    {
+      "q": {
+        "en": "The slope of the line through (1, 2) and (3, 6) is:",
+        "as": "(1, 2) আৰু (3, 6) ৰ মাজেৰে যোৱা ৰেখাৰ ঢাল কিমান?"
+      },
+      "options": [
+        { "en": "2", "as": "2" },
+        { "en": "1/2", "as": "1/2" },
+        { "en": "4", "as": "4" },
+        { "en": "−2", "as": "−2" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Slope = (6 − 2)/(3 − 1) = 4/2 = 2.",
+        "as": "ঢাল = (6 − 2)/(3 − 1) = 4/2 = 2।"
+      }
+    },
+    {
+      "q": {
+        "en": "The midpoint of the segment joining (2, 4) and (6, 8) is:",
+        "as": "(2, 4) আৰু (6, 8) যোগ কৰা ৰেখাখণ্ডৰ মধ্যবিন্দু কি?"
+      },
+      "options": [
+        { "en": "(4, 6)", "as": "(4, 6)" },
+        { "en": "(8, 12)", "as": "(8, 12)" },
+        { "en": "(2, 2)", "as": "(2, 2)" },
+        { "en": "(3, 3)", "as": "(3, 3)" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Midpoint = ((2 + 6)/2, (4 + 8)/2) = (4, 6).",
+        "as": "মধ্যবিন্দু = ((2 + 6)/2, (4 + 8)/2) = (4, 6)।"
+      }
+    },
+    {
+      "q": {
+        "en": "The equation of the x-axis is:",
+        "as": "x-অক্ষৰ সমীকৰণ কি?"
+      },
+      "options": [
+        { "en": "y = 0", "as": "y = 0" },
+        { "en": "x = 0", "as": "x = 0" },
+        { "en": "x = y", "as": "x = y" },
+        { "en": "y = 1", "as": "y = 1" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Every point on the x-axis has y = 0.",
+        "as": "x-অক্ষৰ প্ৰতিটো বিন্দুৰ y = 0।"
+      }
+    },
+    {
+      "q": {
+        "en": "The distance of the point (3, 4) from the origin is:",
+        "as": "মূলবিন্দুৰপৰা (3, 4) বিন্দুৰ দূৰত্ব কিমান?"
+      },
+      "options": [
+        { "en": "5", "as": "5" },
+        { "en": "7", "as": "7" },
+        { "en": "12", "as": "12" },
+        { "en": "1", "as": "1" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "d = √(3² + 4²) = 5.",
+        "as": "d = √(3² + 4²) = 5।"
+      }
+    },
+    {
+      "q": {
+        "en": "The slope of the line y = 2x + 3 is:",
+        "as": "y = 2x + 3 ৰেখাৰ ঢাল কিমান?"
+      },
+      "options": [
+        { "en": "2", "as": "2" },
+        { "en": "3", "as": "3" },
+        { "en": "−2", "as": "−2" },
+        { "en": "1/2", "as": "1/2" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Comparing with y = mx + c, the slope m = 2.",
+        "as": "y = mx + c ৰ সৈতে তুলনা কৰি ঢাল m = 2।"
+      }
+    },
+    {
+      "q": {
+        "en": "The value of log₁₀ 100 is:",
+        "as": "log₁₀ 100 ৰ মান কি?"
+      },
+      "options": [
+        { "en": "2", "as": "2" },
+        { "en": "10", "as": "10" },
+        { "en": "1", "as": "1" },
+        { "en": "100", "as": "100" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Since 10² = 100, log₁₀ 100 = 2.",
+        "as": "10² = 100 হোৱাত log₁₀ 100 = 2।"
+      }
+    },
+    {
+      "q": {
+        "en": "The value of log₂ 8 is:",
+        "as": "log₂ 8 ৰ মান কি?"
+      },
+      "options": [
+        { "en": "3", "as": "3" },
+        { "en": "2", "as": "2" },
+        { "en": "4", "as": "4" },
+        { "en": "8", "as": "8" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Since 2³ = 8, log₂ 8 = 3.",
+        "as": "2³ = 8 হোৱাত log₂ 8 = 3।"
+      }
+    },
+    {
+      "q": {
+        "en": "The derivative of x² with respect to x is:",
+        "as": "x ৰ সাপেক্ষে x² ৰ অৱকলজ কি?"
+      },
+      "options": [
+        { "en": "2x", "as": "2x" },
+        { "en": "x", "as": "x" },
+        { "en": "x²", "as": "x²" },
+        { "en": "2", "as": "2" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "d/dx (x²) = 2x.",
+        "as": "d/dx (x²) = 2x।"
+      }
+    },
+    {
+      "q": {
+        "en": "The derivative of sin x with respect to x is:",
+        "as": "x ৰ সাপেক্ষে sin x ৰ অৱকলজ কি?"
+      },
+      "options": [
+        { "en": "cos x", "as": "cos x" },
+        { "en": "−cos x", "as": "−cos x" },
+        { "en": "sin x", "as": "sin x" },
+        { "en": "−sin x", "as": "−sin x" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "d/dx (sin x) = cos x.",
+        "as": "d/dx (sin x) = cos x।"
+      }
+    },
+    {
+      "q": {
+        "en": "The integral ∫ x dx is:",
+        "as": "সমাকল ∫ x dx ৰ মান কি?"
+      },
+      "options": [
+        { "en": "x²/2 + C", "as": "x²/2 + C" },
+        { "en": "x² + C", "as": "x² + C" },
+        { "en": "2x + C", "as": "2x + C" },
+        { "en": "x + C", "as": "x + C" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "∫ x dx = x²/2 + C.",
+        "as": "∫ x dx = x²/2 + C।"
+      }
+    },
+    {
+      "q": {
+        "en": "The integral ∫ dx is:",
+        "as": "সমাকল ∫ dx ৰ মান কি?"
+      },
+      "options": [
+        { "en": "x + C", "as": "x + C" },
+        { "en": "1 + C", "as": "1 + C" },
+        { "en": "x² + C", "as": "x² + C" },
+        { "en": "C", "as": "C" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "∫ dx = x + C.",
+        "as": "∫ dx = x + C।"
+      }
+    },
+    {
+      "q": {
+        "en": "The value of lim (x→1) (x² − 1)/(x − 1) is:",
+        "as": "lim (x→1) (x² − 1)/(x − 1) ৰ মান কি?"
+      },
+      "options": [
+        { "en": "2", "as": "2" },
+        { "en": "1", "as": "1" },
+        { "en": "0", "as": "0" },
+        { "en": "Does not exist", "as": "অস্তিত্ব নাই" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "(x² − 1)/(x − 1) = x + 1 for x ≠ 1, so the limit is 2.",
+        "as": "x ≠ 1 ৰ বাবে (x² − 1)/(x − 1) = x + 1, গতিকে সীমা 2।"
+      }
+    },
+    {
+      "q": {
+        "en": "The derivative of eˣ with respect to x is:",
+        "as": "x ৰ সাপেক্ষে eˣ ৰ অৱকলজ কি?"
+      },
+      "options": [
+        { "en": "eˣ", "as": "eˣ" },
+        { "en": "x eˣ", "as": "x eˣ" },
+        { "en": "eˣ/x", "as": "eˣ/x" },
+        { "en": "1", "as": "1" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "d/dx (eˣ) = eˣ.",
+        "as": "d/dx (eˣ) = eˣ।"
+      }
+    },
+    {
+      "q": {
+        "en": "log a + log b is equal to:",
+        "as": "log a + log b ৰ মান কি?"
+      },
+      "options": [
+        { "en": "log(ab)", "as": "log(ab)" },
+        { "en": "log(a + b)", "as": "log(a + b)" },
+        { "en": "log(a/b)", "as": "log(a/b)" },
+        { "en": "log a × log b", "as": "log a × log b" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "By the product rule, log a + log b = log(ab).",
+        "as": "গুণন নিয়ম অনুসৰি log a + log b = log(ab)।"
+      }
+    },
+    {
+      "q": {
+        "en": "The value of log 1 is:",
+        "as": "log 1 ৰ মান কি?"
+      },
+      "options": [
+        { "en": "0", "as": "0" },
+        { "en": "1", "as": "1" },
+        { "en": "∞", "as": "∞" },
+        { "en": "−1", "as": "−1" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "log 1 = 0 for any base.",
+        "as": "যিকোনো ভিত্তিৰ বাবে log 1 = 0।"
+      }
+    },
+    {
+      "q": {
+        "en": "The derivative of a constant is:",
+        "as": "এটা ধ্ৰুৱকৰ অৱকলজ কি?"
+      },
+      "options": [
+        { "en": "0", "as": "0" },
+        { "en": "1", "as": "1" },
+        { "en": "the constant itself", "as": "ধ্ৰুৱকটো নিজেই" },
+        { "en": "undefined", "as": "অনিৰ্ধাৰিত" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The derivative of any constant is 0.",
+        "as": "যিকোনো ধ্ৰুৱকৰ অৱকলজ 0।"
+      }
+    },
+    {
+      "q": {
+        "en": "The value of ∫₁² x dx is:",
+        "as": "∫₁² x dx ৰ মান কি?"
+      },
+      "options": [
+        { "en": "3/2", "as": "3/2" },
+        { "en": "1/2", "as": "1/2" },
+        { "en": "2", "as": "2" },
+        { "en": "3", "as": "3" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "∫₁² x dx = [x²/2]₁² = 4/2 − 1/2 = 3/2.",
+        "as": "∫₁² x dx = [x²/2]₁² = 4/2 − 1/2 = 3/2।"
+      }
+    },
+    {
+      "q": {
+        "en": "The slope of the line 2x + 3y = 6 is:",
+        "as": "2x + 3y = 6 ৰেখাৰ ঢাল কিমান?"
+      },
+      "options": [
+        { "en": "−2/3", "as": "−2/3" },
+        { "en": "2/3", "as": "2/3" },
+        { "en": "3/2", "as": "3/2" },
+        { "en": "−3/2", "as": "−3/2" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "y = (6 − 2x)/3 = −(2/3)x + 2, so slope = −2/3.",
+        "as": "y = (6 − 2x)/3 = −(2/3)x + 2, গতিকে ঢাল = −2/3।"
+      }
+    },
+    {
+      "q": {
+        "en": "The area of the triangle with vertices (0, 0), (4, 0) and (0, 3) is:",
+        "as": "(0, 0), (4, 0) আৰু (0, 3) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ কালি কিমান?"
+      },
+      "options": [
+        { "en": "6", "as": "6" },
+        { "en": "12", "as": "12" },
+        { "en": "7", "as": "7" },
+        { "en": "3", "as": "3" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Area = (1/2) × base × height = (1/2) × 4 × 3 = 6.",
+        "as": "কালি = (1/2) × ভূমি × উচ্চতা = (1/2) × 4 × 3 = 6।"
+      }
+    },
+    {
+      "q": {
+        "en": "The derivative of ln x with respect to x is:",
+        "as": "x ৰ সাপেক্ষে ln x ৰ অৱকলজ কি?"
+      },
+      "options": [
+        { "en": "1/x", "as": "1/x" },
+        { "en": "x", "as": "x" },
+        { "en": "ln x", "as": "ln x" },
+        { "en": "1", "as": "1" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "d/dx (ln x) = 1/x.",
+        "as": "d/dx (ln x) = 1/x।"
+      }
+    },
+    {
+      "q": {
+        "en": "The value of logₐ 1 (for a > 0, a ≠ 1) is:",
+        "as": "logₐ 1 ৰ মান কি (a > 0, a ≠ 1)?"
+      },
+      "options": [
+        { "en": "0", "as": "0" },
+        { "en": "1", "as": "1" },
+        { "en": "a", "as": "a" },
+        { "en": "∞", "as": "∞" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Since a⁰ = 1, logₐ 1 = 0.",
+        "as": "a⁰ = 1 হোৱাত logₐ 1 = 0।"
+      }
+    },
+    {
+      "q": {
+        "en": "The equation of the line with slope 2 and y-intercept 3 is:",
+        "as": "ঢাল 2 আৰু y-ছেদ 3 থকা ৰেখাৰ সমীকৰণ কি?"
+      },
+      "options": [
+        { "en": "y = 2x + 3", "as": "y = 2x + 3" },
+        { "en": "y = 3x + 2", "as": "y = 3x + 2" },
+        { "en": "y = 2x − 3", "as": "y = 2x − 3" },
+        { "en": "y = −2x + 3", "as": "y = −2x + 3" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Using y = mx + c with m = 2, c = 3, we get y = 2x + 3.",
+        "as": "y = mx + c ৰ সূত্ৰত m = 2, c = 3 বহুৱাই y = 2x + 3 পোৱা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The integral ∫ cos x dx is:",
+        "as": "সমাকল ∫ cos x dx ৰ মান কি?"
+      },
+      "options": [
+        { "en": "sin x + C", "as": "sin x + C" },
+        { "en": "−sin x + C", "as": "−sin x + C" },
+        { "en": "cos x + C", "as": "cos x + C" },
+        { "en": "−cos x + C", "as": "−cos x + C" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "∫ cos x dx = sin x + C.",
+        "as": "∫ cos x dx = sin x + C।"
+      }
+    },
+    {
+      "q": {
+        "en": "The value of lim (x→∞) 1/x is:",
+        "as": "lim (x→∞) 1/x ৰ মান কি?"
+      },
+      "options": [
+        { "en": "0", "as": "0" },
+        { "en": "1", "as": "1" },
+        { "en": "∞", "as": "∞" },
+        { "en": "undefined", "as": "অনিৰ্ধাৰিত" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "As x grows large, 1/x approaches 0.",
+        "as": "x ডাঙৰ হোৱাৰ লগে লগে 1/x শূন্যৰ ফালে আগবাঢ়ে।"
       }
     }
   ]
