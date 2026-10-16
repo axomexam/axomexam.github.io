@@ -1140,88 +1140,61 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
 .mock-intro { position: fixed; inset: 0; z-index: 800; display: grid; place-items: center; padding: 24px; overflow: hidden; }
 .mock-intro .mi-backdrop {
   position: absolute; inset: 0;
-  background:
-    radial-gradient(circle at 50% 42%, rgba(99, 102, 241, .20), transparent 58%),
-    radial-gradient(circle at 78% 82%, rgba(34, 211, 238, .10), transparent 52%),
-    rgba(6, 9, 20, .90);
-  -webkit-backdrop-filter: blur(16px) saturate(120%);
-  backdrop-filter: blur(16px) saturate(120%);
-  opacity: 0; transition: opacity .6s ease;
+  background: radial-gradient(circle at 50% 42%, #16203a 0%, #0a0f1e 60%, #05070f 100%);
+  opacity: 0; transition: opacity .5s ease;
 }
 .mock-intro.in .mi-backdrop { opacity: 1; }
 .mock-intro.out .mi-backdrop { opacity: 0; }
 
 .mi-stage {
-  position: relative; display: grid; place-items: center; gap: 30px;
-  width: min(320px, 84vw); text-align: center; z-index: 1;
-  opacity: 0; transform: translateY(16px) scale(.985);
-  transition: opacity .75s cubic-bezier(.16, 1, .3, 1), transform .75s cubic-bezier(.16, 1, .3, 1);
+  position: relative; z-index: 1;
+  width: clamp(150px, 46vw, 184px); aspect-ratio: 1;
+  display: grid; place-items: center; text-align: center;
+  opacity: 0; transform: translateY(14px);
+  transition: opacity .6s ease, transform .6s ease;
 }
 .mock-intro.in .mi-stage { opacity: 1; transform: none; }
-.mock-intro.out .mi-stage { opacity: 0; transform: translateY(-12px) scale(1.01); }
+.mock-intro.out .mi-stage { opacity: 0; transform: translateY(-12px); }
 
-.mi-ring { position: relative; width: clamp(128px, 38vw, 158px); aspect-ratio: 1; }
-.mi-ring::after {
-  content: ""; position: absolute; inset: -12%; border-radius: 50%;
-  background: radial-gradient(circle, rgba(129, 140, 248, .22), transparent 68%);
-  filter: blur(6px); animation: miHalo 3.2s ease-in-out infinite;
-}
-@keyframes miHalo { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
-.mi-ring > svg { position: relative; z-index: 1; width: 100%; height: 100%; transform: rotate(-90deg); }
-.mi-ring .mi-ring-bg { fill: none; stroke: rgba(255, 255, 255, .09); stroke-width: 2.5; }
+.mi-ring { position: relative; width: 100%; height: 100%; }
+.mi-ring > svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+.mi-ring .mi-ring-bg { fill: none; stroke: rgba(148, 163, 184, .20); stroke-width: 8; }
 .mi-ring .mi-ring-fg {
-  fill: none; stroke: url(#mi-grad); stroke-width: 2.5; stroke-linecap: round;
-  stroke-dasharray: 490; stroke-dashoffset: 490;
-  filter: drop-shadow(0 0 7px rgba(129, 140, 248, .55));
+  fill: none; stroke: url(#mi-grad); stroke-width: 8; stroke-linecap: round;
+  stroke-dasharray: 553; stroke-dashoffset: 553;
 }
-.mi-ring-fg.fill { animation: miRingFill var(--ring-dur, 1.8s) cubic-bezier(.5, 0, .2, 1) forwards; }
+.mi-ring-fg.fill { animation: miRingFill var(--ring-dur, .6s) linear forwards; }
 @keyframes miRingFill { to { stroke-dashoffset: 0; } }
 
-.mi-ring .mi-core { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2; display: flex; align-items: center; justify-content: center; }
+.mi-ring .mi-core { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
 .mi-count {
-  display: flex; align-items: center; justify-content: center;
-  width: 100%; height: 100%; margin: 0; padding: 0; text-align: center;
-  font-size: clamp(2.4rem, 10vw, 3.6rem); font-weight: 300; line-height: 1;
-  letter-spacing: 0; color: #f8fafc; font-variant-numeric: tabular-nums;
+  font-size: clamp(3rem, 13vw, 4.4rem); font-weight: 800; line-height: 1;
+  color: #ffffff; font-variant-numeric: tabular-nums;
 }
-.mi-count.tick { animation: miTick .58s cubic-bezier(.16, 1, .3, 1); }
-@keyframes miTick {
-  0% { opacity: 0; transform: scale(.9); }
-  100% { opacity: 1; transform: scale(1); }
-}
+.mi-count.tick { animation: miPop .5s ease; }
+@keyframes miPop { 0% { opacity: 0; transform: scale(.85); } 100% { opacity: 1; transform: scale(1); } }
 
 .mi-check { display: grid; place-items: center; }
 .mi-check svg {
-  width: 46px; height: 46px; fill: none; stroke: #e2e8f0; stroke-width: 2;
-  stroke-linecap: round; stroke-linejoin: round;
-  filter: drop-shadow(0 0 8px rgba(129, 140, 248, .55));
-  animation: miTick .5s cubic-bezier(.16, 1, .3, 1);
+  width: 60px; height: 60px; fill: none; stroke: #22d3ee; stroke-width: 3;
+  stroke-linecap: round; stroke-linejoin: round; animation: miPop .4s ease;
 }
-.mi-check svg path { stroke-dasharray: 30; stroke-dashoffset: 30; animation: miCheck .5s cubic-bezier(.16, 1, .3, 1) forwards .05s; }
-@keyframes miCheck { to { stroke-dashoffset: 0; } }
+.mi-check svg path { stroke-dasharray: 34; stroke-dashoffset: 34; animation: miDraw .5s ease forwards .05s; }
+@keyframes miDraw { to { stroke-dashoffset: 0; } }
 
 .mi-text {
-  display: flex; flex-direction: column; align-items: center; gap: 9px; margin-top: 2px;
-  opacity: 0; transform: translateY(9px);
-  transition: opacity .6s ease .05s, transform .6s ease .05s;
+  position: absolute; top: calc(100% + 22px); left: 50%; transform: translateX(-50%);
+  width: max-content; max-width: 88vw;
+  display: flex; flex-direction: column; align-items: center; gap: 10px;
+  opacity: 0; transition: opacity .5s ease .05s;
 }
-.mock-intro.go .mi-text { opacity: 1; transform: none; }
-.mi-title { font-size: 1.3rem; font-weight: 600; letter-spacing: .2px; color: #f8fafc; }
-.mi-line {
-  height: 1px; width: 0; margin: 2px 0;
-  background: linear-gradient(90deg, transparent, rgba(129, 140, 248, .85), transparent);
-  transition: width .8s cubic-bezier(.16, 1, .3, 1) .15s;
-}
-.mock-intro.go .mi-line { width: 96px; }
-.mi-sub { font-size: .9rem; font-weight: 400; color: rgba(148, 163, 184, .9); }
+.mock-intro.go .mi-text { opacity: 1; }
+.mi-title { font-size: 1.4rem; font-weight: 800; color: #ffffff; }
+.mi-line { height: 3px; width: 100px; border-radius: 3px; background: linear-gradient(90deg, transparent, #6366f1, #22d3ee, transparent); }
+.mi-sub { font-size: .9rem; color: #94a3b8; }
 
-@media (max-width: 480px) {
-  .mi-stage { gap: 24px; }
-  .mi-title { font-size: 1.12rem; }
-  .mi-sub { font-size: .82rem; }
-}
 @media (prefers-reduced-motion: reduce) {
-  .mi-ring::after { animation: none; }
+  .mi-ring-fg.fill, .mi-count.tick, .mi-check svg, .mi-check svg path { animation: none; }
 }
 
 /* ---- Results ---- */

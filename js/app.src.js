@@ -6487,15 +6487,15 @@
       <div class="mi-backdrop"></div>
       <div class="mi-stage">
         <div class="mi-ring">
-          <svg viewBox="0 0 176 176" aria-hidden="true">
+          <svg viewBox="0 0 200 200" aria-hidden="true">
             <defs>
               <linearGradient id="mi-grad" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0" stop-color="#818cf8"></stop>
-                <stop offset="1" stop-color="#67e8f9"></stop>
+                <stop offset="0" stop-color="#6366f1"></stop>
+                <stop offset="1" stop-color="#22d3ee"></stop>
               </linearGradient>
             </defs>
-            <circle class="mi-ring-bg" cx="88" cy="88" r="78"></circle>
-            <circle class="mi-ring-fg" cx="88" cy="88" r="78"></circle>
+            <circle class="mi-ring-bg" cx="100" cy="100" r="88"></circle>
+            <circle class="mi-ring-fg" cx="100" cy="100" r="88"></circle>
           </svg>
           <div class="mi-core"><div class="mi-count" id="mi-count">3</div></div>
         </div>
@@ -6511,11 +6511,10 @@
     const ringFg = stage.querySelector(".mi-ring-fg");
     const countEl = stage.querySelector("#mi-count");
     const from = 3, step = 600;
-    if (miStage) miStage.style.setProperty("--ring-dur", (from * step) + "ms");
+    if (miStage) miStage.style.setProperty("--ring-dur", step + "ms");
 
     requestAnimationFrame(() => {
       stage.classList.add("in");
-      if (ringFg) ringFg.classList.add("fill");
     });
 
     const paint = (n) => {
@@ -6523,6 +6522,11 @@
       countEl.classList.remove("tick");
       void countEl.offsetWidth;
       countEl.classList.add("tick");
+      if (ringFg) {
+        ringFg.classList.remove("fill");
+        void ringFg.getBoundingClientRect();
+        ringFg.classList.add("fill");
+      }
     };
     paint(from);
 

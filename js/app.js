@@ -2212,15 +2212,15 @@ Sent to: axomexam@outlook.com`};try{const k=await(await fetch("https://api.stati
       <div class="mi-backdrop"></div>
       <div class="mi-stage">
         <div class="mi-ring">
-          <svg viewBox="0 0 176 176" aria-hidden="true">
+          <svg viewBox="0 0 200 200" aria-hidden="true">
             <defs>
               <linearGradient id="mi-grad" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0" stop-color="#818cf8"></stop>
-                <stop offset="1" stop-color="#67e8f9"></stop>
+                <stop offset="0" stop-color="#6366f1"></stop>
+                <stop offset="1" stop-color="#22d3ee"></stop>
               </linearGradient>
             </defs>
-            <circle class="mi-ring-bg" cx="88" cy="88" r="78"></circle>
-            <circle class="mi-ring-fg" cx="88" cy="88" r="78"></circle>
+            <circle class="mi-ring-bg" cx="100" cy="100" r="88"></circle>
+            <circle class="mi-ring-fg" cx="100" cy="100" r="88"></circle>
           </svg>
           <div class="mi-core"><div class="mi-count" id="mi-count">3</div></div>
         </div>
@@ -2229,7 +2229,7 @@ Sent to: axomexam@outlook.com`};try{const k=await(await fetch("https://api.stati
           <span class="mi-line"></span>
           <span class="mi-sub">All the best • শুভকামনা</span>
         </div>
-      </div>`,document.body.appendChild(a);const n=a.querySelector(".mi-stage"),s=a.querySelector(".mi-ring-fg"),o=a.querySelector("#mi-count"),i=3,c=600;n&&n.style.setProperty("--ring-dur",i*c+"ms"),requestAnimationFrame(()=>{a.classList.add("in"),s&&s.classList.add("fill")});const d=f=>{o.textContent=String(f),o.classList.remove("tick"),o.offsetWidth,o.classList.add("tick")};d(i);let u=i;const m=setInterval(()=>{if(u--,u>=1){d(u);return}clearInterval(m),a.classList.add("go"),o.outerHTML='<div class="mi-check" id="mi-count"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.2 4.2L19 7"/></svg></div>',setTimeout(()=>{a.classList.add("out"),setTimeout(()=>{a.remove(),e&&e()},520)},880)},c)}function Qt(){const e=p.mock,t=()=>{if(!e||!e.started||e.timerId===null)return;e.elapsedSec++;const a=g("#quiz-timer");a&&(a.textContent=`⏱ ${je(e.elapsedSec)}`)};e.timerId=setInterval(t,1e3)}function je(e){const t=Math.max(0,e);return`${String(Math.floor(t/60)).padStart(2,"0")}:${String(t%60).padStart(2,"0")}`}function _t(){const e=p.mock;if(le(),Te(),!e)return;let t=0,a=0,n=0;const s=e.pool.map((b,w)=>{const k=e.answers[w];let A=!1;return k===void 0?n++:k===b.correct?(A=!0,t++):a++,{q:b,a:k,ok:A}}),o=e.elapsedSec,i=e.pool.length?Math.round(t/e.pool.length*100):0,c=i>=80?"mock.result.msgExcellent":i>=55?"mock.result.msgGood":i>=35?"mock.result.msgAverage":"mock.result.msgPoor",d=52.5,u=2*Math.PI*d,m=u*(1-i/100),f=g("#app");f.innerHTML=`
+      </div>`,document.body.appendChild(a);const n=a.querySelector(".mi-stage"),s=a.querySelector(".mi-ring-fg"),o=a.querySelector("#mi-count"),i=3,c=600;n&&n.style.setProperty("--ring-dur",c+"ms"),requestAnimationFrame(()=>{a.classList.add("in")});const d=f=>{o.textContent=String(f),o.classList.remove("tick"),o.offsetWidth,o.classList.add("tick"),s&&(s.classList.remove("fill"),s.getBoundingClientRect(),s.classList.add("fill"))};d(i);let u=i;const m=setInterval(()=>{if(u--,u>=1){d(u);return}clearInterval(m),a.classList.add("go"),o.outerHTML='<div class="mi-check" id="mi-count"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.2 4.2L19 7"/></svg></div>',setTimeout(()=>{a.classList.add("out"),setTimeout(()=>{a.remove(),e&&e()},520)},880)},c)}function Qt(){const e=p.mock,t=()=>{if(!e||!e.started||e.timerId===null)return;e.elapsedSec++;const a=g("#quiz-timer");a&&(a.textContent=`⏱ ${je(e.elapsedSec)}`)};e.timerId=setInterval(t,1e3)}function je(e){const t=Math.max(0,e);return`${String(Math.floor(t/60)).padStart(2,"0")}:${String(t%60).padStart(2,"0")}`}function _t(){const e=p.mock;if(le(),Te(),!e)return;let t=0,a=0,n=0;const s=e.pool.map((b,w)=>{const k=e.answers[w];let A=!1;return k===void 0?n++:k===b.correct?(A=!0,t++):a++,{q:b,a:k,ok:A}}),o=e.elapsedSec,i=e.pool.length?Math.round(t/e.pool.length*100):0,c=i>=80?"mock.result.msgExcellent":i>=55?"mock.result.msgGood":i>=35?"mock.result.msgAverage":"mock.result.msgPoor",d=52.5,u=2*Math.PI*d,m=u*(1-i/100),f=g("#app");f.innerHTML=`
       <div class="result-wrap">
         <div class="result-panel">
           <div class="result-ring">
