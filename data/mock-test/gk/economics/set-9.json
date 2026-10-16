@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "Questions for this set will be added soon.",
-        "as": "এই ছেটৰ প্ৰশ্নসমূহ সোনকালে যোগ কৰা হ'ব।"
+        "en": "Since 2017, the Union Budget of India is presented on which date?",
+        "as": "২০১৭ চনৰ পৰা ভাৰতৰ কেন্দ্ৰীয় বাজেট কোন তাৰিখে উপস্থাপন কৰা হয়?"
       },
       "options": [
         {
-          "en": "Option A",
-          "as": "বিকল্প A"
+          "en": "1st March",
+          "as": "১ মাৰ্চ"
         },
         {
-          "en": "Option B",
-          "as": "বিকল্প B"
+          "en": "31st January",
+          "as": "৩১ জানুৱাৰী"
         },
         {
-          "en": "Option C",
-          "as": "বিকল্প C"
+          "en": "28th February",
+          "as": "২৮ ফেব্ৰুৱাৰী"
         },
         {
-          "en": "Option D",
-          "as": "বিকল্প D"
+          "en": "1st February",
+          "as": "১ ফেব্ৰুৱাৰী"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Since 2017, the Union Budget is presented on 1 February.",
+        "as": "২০১৭ চনৰ পৰা কেন্দ্ৰীয় বাজেট ১ ফেব্ৰুৱাৰীত উপস্থাপন কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Union Budget of India is presented by?",
+        "as": "ভাৰতৰ কেন্দ্ৰীয় বাজেট কোনে উপস্থাপন কৰে?"
+      },
+      "options": [
+        {
+          "en": "The Finance Minister",
+          "as": "বিত্তমন্ত্ৰী"
+        },
+        {
+          "en": "The RBI Governor",
+          "as": "RBI ৰ গৱৰ্ণৰ"
+        },
+        {
+          "en": "The President",
+          "as": "ৰাষ্ট্ৰপতি"
+        },
+        {
+          "en": "The Prime Minister",
+          "as": "প্ৰধানমন্ত্ৰী"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "This set is being updated. Please check back soon.",
-        "as": "এই ছেটটো আপডেট কৰা হৈছে। অনুগ্ৰহ কৰি সোনকালে পুনৰ চাওক।"
+        "en": "The Union Budget is presented by the Finance Minister in Parliament.",
+        "as": "কেন্দ্ৰীয় বাজেট বিত্তমন্ত্ৰীয়ে সংসদত উপস্থাপন কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The budget is also known as?",
+        "as": "বাজেটক আন কি নামেৰেও জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Annual Financial Statement",
+          "as": "বাৰ্ষিক বিত্তীয় বিৱৰণ"
+        },
+        {
+          "en": "Five Year Plan",
+          "as": "পঞ্চবাৰ্ষিক পৰিকল্পনা"
+        },
+        {
+          "en": "Economic Survey",
+          "as": "অৰ্থনৈতিক সমীক্ষা"
+        },
+        {
+          "en": "Monetary Policy",
+          "as": "মুদ্ৰা নীতি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The budget is referred to in the Constitution as the Annual Financial Statement.",
+        "as": "সংবিধানত বাজেটক বাৰ্ষিক বিত্তীয় বিৱৰণ বুলি উল্লেখ কৰা হৈছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "GST was implemented in India from which date?",
+        "as": "ভাৰতত GST কোন তাৰিখৰ পৰা কাৰ্যকৰী হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1st July 2017",
+          "as": "১ জুলাই ২০১৭"
+        },
+        {
+          "en": "1st January 2017",
+          "as": "১ জানুৱাৰী ২০১৭"
+        },
+        {
+          "en": "15th August 2017",
+          "as": "১৫ আগষ্ট ২০১৭"
+        },
+        {
+          "en": "1st April 2016",
+          "as": "১ এপ্ৰিল ২০১৬"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "GST came into force in India on 1 July 2017.",
+        "as": "GST ভাৰতত ২০১৭ চনৰ ১ জুলাইত বলবৎ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The GST Council is chaired by?",
+        "as": "GST পৰিষদৰ অধ্যক্ষ কোন?"
+      },
+      "options": [
+        {
+          "en": "The Chief Economic Adviser",
+          "as": "মুখ্য অৰ্থনৈতিক উপদেষ্টা"
+        },
+        {
+          "en": "The RBI Governor",
+          "as": "RBI ৰ গৱৰ্ণৰ"
+        },
+        {
+          "en": "The Prime Minister",
+          "as": "প্ৰধানমন্ত্ৰী"
+        },
+        {
+          "en": "The Union Finance Minister",
+          "as": "কেন্দ্ৰীয় বিত্তমন্ত্ৰী"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The GST Council is chaired by the Union Finance Minister.",
+        "as": "GST পৰিষদৰ অধ্যক্ষতা কেন্দ্ৰীয় বিত্তমন্ত্ৰীয়ে কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "GST is which type of tax?",
+        "as": "GST কোন ধৰণৰ কৰ?"
+      },
+      "options": [
+        {
+          "en": "A property tax",
+          "as": "সম্পত্তি-কৰ"
+        },
+        {
+          "en": "A destination-based indirect tax",
+          "as": "গন্তব্য-ভিত্তিক পৰোক্ষ কৰ"
+        },
+        {
+          "en": "A wealth tax",
+          "as": "সম্পত্তি কৰ"
+        },
+        {
+          "en": "A direct tax",
+          "as": "প্ৰত্যক্ষ কৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "GST is a destination-based indirect tax levied on the supply of goods and services.",
+        "as": "GST এটা গন্তব্য-ভিত্তিক পৰোক্ষ কৰ, যি সামগ্ৰী আৰু সেৱাৰ যোগানত আৰোপ কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the highest GST slab rate in India?",
+        "as": "ভাৰতত GST ৰ সৰ্বাধিক হাৰ কিমান?"
+      },
+      "options": [
+        {
+          "en": "12%",
+          "as": "১২%"
+        },
+        {
+          "en": "5%",
+          "as": "৫%"
+        },
+        {
+          "en": "28%",
+          "as": "২৮%"
+        },
+        {
+          "en": "18%",
+          "as": "১৮%"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The highest GST slab rate in India is 28%.",
+        "as": "ভাৰতত GST ৰ সৰ্বাধিক হাৰ ২৮%।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fiscal deficit is the excess of?",
+        "as": "ৰাজকোষীয় ঘাটি কিৰ আধিক্য?"
+      },
+      "options": [
+        {
+          "en": "Revenue expenditure over revenue receipts",
+          "as": "ৰাজহ ব্যয় ৰাজহ প্ৰাপ্তিতকৈ অধিক"
+        },
+        {
+          "en": "Imports over exports",
+          "as": "আমদানি ৰপ্তানিতকৈ অধিক"
+        },
+        {
+          "en": "Total expenditure over total receipts excluding borrowings",
+          "as": "ঋণ বাদ দি মুঠ ব্যয় মুঠ প্ৰাপ্তিতকৈ অধিক"
+        },
+        {
+          "en": "Tax revenue over non-tax revenue",
+          "as": "কৰ ৰাজহ কৰ-বহিৰ্ভূত ৰাজহতকৈ অধিক"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Fiscal deficit is total expenditure minus total receipts excluding borrowings.",
+        "as": "ৰাজকোষীয় ঘাটি = ঋণ বাদ দি মুঠ ব্যয় - মুঠ প্ৰাপ্তি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Revenue deficit is the excess of?",
+        "as": "ৰাজহ ঘাটি কিৰ আধিক্য?"
+      },
+      "options": [
+        {
+          "en": "Tax revenue over total revenue",
+          "as": "কৰ ৰাজহ মুঠ ৰাজহতকৈ অধিক"
+        },
+        {
+          "en": "Capital expenditure over capital receipts",
+          "as": "মূলধন ব্যয় মূলধন প্ৰাপ্তিতকৈ অধিক"
+        },
+        {
+          "en": "Revenue expenditure over revenue receipts",
+          "as": "ৰাজহ ব্যয় ৰাজহ প্ৰাপ্তিতকৈ অধিক"
+        },
+        {
+          "en": "Imports over exports",
+          "as": "আমদানি ৰপ্তানিতকৈ অধিক"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Revenue deficit is revenue expenditure minus revenue receipts.",
+        "as": "ৰাজহ ঘাটি = ৰাজহ ব্যয় - ৰাজহ প্ৰাপ্তি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Primary deficit equals fiscal deficit minus?",
+        "as": "প্ৰাথমিক ঘাটি = ৰাজকোষীয় ঘাটি - ?"
+      },
+      "options": [
+        {
+          "en": "Tax revenue",
+          "as": "কৰ ৰাজহ"
+        },
+        {
+          "en": "Subsidies",
+          "as": "ৰাজসাহায্য"
+        },
+        {
+          "en": "Capital expenditure",
+          "as": "মূলধন ব্যয়"
+        },
+        {
+          "en": "Interest payments",
+          "as": "সুদ পৰিশোধ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Primary deficit is fiscal deficit minus interest payments.",
+        "as": "প্ৰাথমিক ঘাটি = ৰাজকোষীয় ঘাটি - সুদ পৰিশোধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Finance Commission of India is constituted every?",
+        "as": "ভাৰতৰ বিত্ত আয়োগ কিমান বছৰৰ মূৰে মূৰে গঠন কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "3 years",
+          "as": "৩ বছৰ"
+        },
+        {
+          "en": "1 year",
+          "as": "১ বছৰ"
+        },
+        {
+          "en": "5 years",
+          "as": "৫ বছৰ"
+        },
+        {
+          "en": "10 years",
+          "as": "১০ বছৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Finance Commission is constituted every five years.",
+        "as": "বিত্ত আয়োগ প্ৰতি পাঁচ বছৰৰ মূৰে মূৰে গঠন কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Finance Commission mainly recommends?",
+        "as": "বিত্ত আয়োগে প্ৰধানকৈ কি পৰামৰ্শ দিয়ে?"
+      },
+      "options": [
+        {
+          "en": "The exchange rate",
+          "as": "বিনিময় হাৰ"
+        },
+        {
+          "en": "The repo rate",
+          "as": "ৰেপ' ৰেট"
+        },
+        {
+          "en": "The MSP",
+          "as": "MSP"
+        },
+        {
+          "en": "Distribution of taxes between the Centre and the States",
+          "as": "কেন্দ্ৰ আৰু ৰাজ্যৰ মাজত কৰৰ বিতৰণ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Finance Commission recommends how taxes are shared between the Centre and the States.",
+        "as": "বিত্ত আয়োগে কেন্দ্ৰ আৰু ৰাজ্যৰ মাজত কৰ কেনেকৈ ভাগ কৰা হ'ব সেই বিষয়ে পৰামৰ্শ দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Finance Commission is constituted under which Article of the Constitution?",
+        "as": "সংবিধানৰ কোন অনুচ্ছেদৰ অধীনত বিত্ত আয়োগ গঠন কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Article 280",
+          "as": "অনুচ্ছেদ ২৮০"
+        },
+        {
+          "en": "Article 370",
+          "as": "অনুচ্ছেদ ৩৭০"
+        },
+        {
+          "en": "Article 356",
+          "as": "অনুচ্ছেদ ৩৫৬"
+        },
+        {
+          "en": "Article 112",
+          "as": "অনুচ্ছেদ ১১২"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Finance Commission is constituted under Article 280 of the Constitution.",
+        "as": "সংবিধানৰ অনুচ্ছেদ ২৮০ ৰ অধীনত বিত্ত আয়োগ গঠন কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Union Budget is presented under which Article of the Constitution?",
+        "as": "সংবিধানৰ কোন অনুচ্ছেদৰ অধীনত কেন্দ্ৰীয় বাজেট উপস্থাপন কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Article 112",
+          "as": "অনুচ্ছেদ ১১২"
+        },
+        {
+          "en": "Article 280",
+          "as": "অনুচ্ছেদ ২৮০"
+        },
+        {
+          "en": "Article 51A",
+          "as": "অনুচ্ছেদ ৫১ক"
+        },
+        {
+          "en": "Article 324",
+          "as": "অনুচ্ছেদ ৩২৪"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Annual Financial Statement (Budget) is presented under Article 112.",
+        "as": "বাৰ্ষিক বিত্তীয় বিৱৰণ (বাজেট) অনুচ্ছেদ ১১২ ৰ অধীনত উপস্থাপন কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 14th Finance Commission recommended the States' share of central taxes as?",
+        "as": "চতুৰ্দশ বিত্ত আয়োগে ৰাজ্যসমূহৰ কেন্দ্ৰীয় কৰৰ অংশ কিমান পৰামৰ্শ দিছিল?"
+      },
+      "options": [
+        {
+          "en": "42%",
+          "as": "৪২%"
+        },
+        {
+          "en": "29%",
+          "as": "২৯%"
+        },
+        {
+          "en": "50%",
+          "as": "৫০%"
+        },
+        {
+          "en": "32%",
+          "as": "৩২%"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The 14th Finance Commission raised the States' share of the divisible tax pool to 42%.",
+        "as": "চতুৰ্দশ বিত্ত আয়োগে ৰাজ্যসমূহৰ বিতৰণযোগ্য কৰ-পুলৰ অংশ ৪২% লৈ বৃদ্ধি কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Zero-based budgeting means?",
+        "as": "শূন্য-ভিত্তিক বাজেটিঙৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "A budget with zero deficit",
+          "as": "শূন্য ঘাটিৰ বাজেট"
+        },
+        {
+          "en": "Preparing the budget based only on last year's figures",
+          "as": "কেৱল যোৱা বছৰৰ সংখ্যাৰ ওপৰত ভিত্তি কৰি বাজেট প্ৰস্তুত কৰা"
+        },
+        {
+          "en": "A budget with no taxes",
+          "as": "কৰ-মুক্ত বাজেট"
+        },
+        {
+          "en": "Preparing the budget afresh without reference to the previous year",
+          "as": "পূৰ্ববৰ্তী বছৰৰ কথা নাভাবি নতুনকৈ বাজেট প্ৰস্তুত কৰা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Zero-based budgeting prepares each budget from scratch, justifying all expenses afresh.",
+        "as": "শূন্য-ভিত্তিক বাজেটিঙত প্ৰতিটো বাজেট নতুনকৈ প্ৰস্তুত কৰা হয় আৰু সকলো ব্যয় নতুনকৈ যুক্তিসংগত কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a capital receipt?",
+        "as": "তলৰ কোনটো এক মূলধন প্ৰাপ্তি?"
+      },
+      "options": [
+        {
+          "en": "Fees and fines",
+          "as": "মাচুল আৰু জৰিমনা"
+        },
+        {
+          "en": "GST",
+          "as": "GST"
+        },
+        {
+          "en": "Income tax",
+          "as": "আয় কৰ"
+        },
+        {
+          "en": "Borrowings",
+          "as": "ঋণ গ্ৰহণ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Borrowings are capital receipts as they create a liability.",
+        "as": "ঋণ গ্ৰহণ মূলধন প্ৰাপ্তি, কাৰণ ই দায় সৃষ্টি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a revenue receipt?",
+        "as": "তলৰ কোনটো এক ৰাজহ প্ৰাপ্তি?"
+      },
+      "options": [
+        {
+          "en": "Borrowings",
+          "as": "ঋণ গ্ৰহণ"
+        },
+        {
+          "en": "Tax revenue",
+          "as": "কৰ ৰাজহ"
+        },
+        {
+          "en": "Disinvestment receipts",
+          "as": "বিনিয়োগ বিলুপ্তিৰ প্ৰাপ্তি"
+        },
+        {
+          "en": "Recovery of loans",
+          "as": "ঋণ আদায়"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Tax revenue is a revenue receipt as it neither creates a liability nor reduces assets.",
+        "as": "কৰ ৰাজহ এক ৰাজহ প্ৰাপ্তি, কাৰণ ই দায় সৃষ্টি নকৰে আৰু সম্পদ হ্ৰাস নকৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a direct tax?",
+        "as": "তলৰ কোনটো এক প্ৰত্যক্ষ কৰ?"
+      },
+      "options": [
+        {
+          "en": "GST",
+          "as": "GST"
+        },
+        {
+          "en": "Income tax",
+          "as": "আয় কৰ"
+        },
+        {
+          "en": "Customs duty",
+          "as": "শুল্ক কৰ"
+        },
+        {
+          "en": "Excise duty",
+          "as": "আবকাৰী কৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Income tax is a direct tax whose burden cannot be shifted.",
+        "as": "আয় কৰ এক প্ৰত্যক্ষ কৰ, যাৰ বােজা স্থানান্তৰ কৰিব নোৱাৰি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which tax is levied and collected by the State Government?",
+        "as": "কোন কৰ ৰাজ্য চৰকাৰে আৰোপ আৰু সংগ্ৰহ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Land revenue",
+          "as": "ভূমি ৰাজহ"
+        },
+        {
+          "en": "Corporate tax",
+          "as": "নিগম কৰ"
+        },
+        {
+          "en": "Income tax",
+          "as": "আয় কৰ"
+        },
+        {
+          "en": "Customs duty",
+          "as": "শুল্ক কৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Land revenue is levied and collected by the State Government.",
+        "as": "ভূমি ৰাজহ ৰাজ্য চৰকাৰে আৰোপ আৰু সংগ্ৰহ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Deficit financing refers to?",
+        "as": "ঘাটি বিত্তীয় সাহায্য বলিলে কি বুজায়?"
+      },
+      "options": [
+        {
+          "en": "Increasing exports",
+          "as": "ৰপ্তানি বৃদ্ধি কৰা"
+        },
+        {
+          "en": "Borrowing or printing money to cover a budget deficit",
+          "as": "বাজেটৰ ঘাটি পূৰণৰ বাবে ঋণ লোৱা বা মুদ্ৰা ছপা"
+        },
+        {
+          "en": "Cutting all public spending",
+          "as": "সকলো ৰাজহুৱা ব্যয় কটা"
+        },
+        {
+          "en": "Reducing taxes to zero",
+          "as": "কৰ শূন্যলৈ হ্ৰাস কৰা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Deficit financing means covering a budget deficit by borrowing or issuing new money.",
+        "as": "ঘাটি বিত্তীয় সাহায্য মানে ঋণ লৈ বা নতুন মুদ্ৰা জাৰি কৰি বাজেটৰ ঘাটি পূৰণ কৰা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Economic Survey of India is presented by?",
+        "as": "ভাৰতৰ অৰ্থনৈতিক সমীক্ষা কোনে উপস্থাপন কৰে?"
+      },
+      "options": [
+        {
+          "en": "The Planning Commission",
+          "as": "পৰিকল্পনা আয়োগ"
+        },
+        {
+          "en": "The Reserve Bank of India",
+          "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"
+        },
+        {
+          "en": "NITI Aayog",
+          "as": "নীতি আয়োগ"
+        },
+        {
+          "en": "The Ministry of Finance",
+          "as": "বিত্ত মন্ত্ৰালয়"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Economic Survey is prepared by the Ministry of Finance and presented before the Budget.",
+        "as": "অৰ্থনৈতিক সমীক্ষা বিত্ত মন্ত্ৰালয়ে প্ৰস্তুত কৰে আৰু বাজেটৰ আগতে উপস্থাপন কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Public expenditure on education and health is an example of?",
+        "as": "শিক্ষা আৰু স্বাস্থ্যত ৰাজহুৱা ব্যয় কিৰ উদাহৰণ?"
+      },
+      "options": [
+        {
+          "en": "Capital expenditure",
+          "as": "মূলধন ব্যয়"
+        },
+        {
+          "en": "Defence expenditure",
+          "as": "প্ৰতিৰক্ষা ব্যয়"
+        },
+        {
+          "en": "Social sector expenditure",
+          "as": "সমাজ খণ্ডৰ ব্যয়"
+        },
+        {
+          "en": "Interest payments",
+          "as": "সুদ পৰিশোধ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Spending on education and health is classified as social sector expenditure.",
+        "as": "শিক্ষা আৰু স্বাস্থ্যৰ ব্যয়ক সমাজ খণ্ডৰ ব্যয় হিচাপে শ্ৰেণীবদ্ধ কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A tax on which the burden can be shifted to another person is called?",
+        "as": "যি কৰৰ বােজা আন এজনলৈ স্থানান্তৰ কৰিব পাৰি তাক কি বোলা হয়?"
+      },
+      "options": [
+        {
+          "en": "A wealth tax",
+          "as": "এক সম্পত্তি কৰ"
+        },
+        {
+          "en": "An indirect tax",
+          "as": "এক পৰোক্ষ কৰ"
+        },
+        {
+          "en": "A direct tax",
+          "as": "এক প্ৰত্যক্ষ কৰ"
+        },
+        {
+          "en": "A capital tax",
+          "as": "এক মূলধন কৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "An indirect tax is one whose burden can be shifted to the final consumer.",
+        "as": "পৰোক্ষ কৰ হৈছে এনে কৰ যাৰ বােজা চূড়ান্ত গ্ৰাহকলৈ স্থানান্তৰ কৰিব পাৰি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who was the chairman of the First Finance Commission of India?",
+        "as": "ভাৰতৰ প্ৰথম বিত্ত আয়োগৰ অধ্যক্ষ কোন আছিল?"
+      },
+      "options": [
+        {
+          "en": "C. Rangarajan",
+          "as": "চি. ৰংগৰাজন"
+        },
+        {
+          "en": "K. C. Neogy",
+          "as": "কে. চি. নিয়োগী"
+        },
+        {
+          "en": "A. M. Khusro",
+          "as": "এ. এম. খুছৰো"
+        },
+        {
+          "en": "Y. V. Reddy",
+          "as": "ৱাই. ভি. ৰেড্ডী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "K. C. Neogy was the chairman of the First Finance Commission of India (1951).",
+        "as": "কে. চি. নিয়োগী ভাৰতৰ প্ৰথম বিত্ত আয়োগৰ (১৯৫১) অধ্যক্ষ আছিল।"
       }
     }
   ]
