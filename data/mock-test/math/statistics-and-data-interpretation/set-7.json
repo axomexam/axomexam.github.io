@@ -5,31 +5,427 @@
   "questions": [
     {
       "q": {
-        "en": "The median of the data 7, 3, 9, 5, 11 is:",
-        "as": "7, 3, 9, 5, 11 তথ্যৰ মধ্যমা কিমান?"
+        "en": "The range of 5, 15, 25 and 35 is:",
+        "as": "5, 15, 25 আৰু 35 ৰ পৰিসৰ কিমান?"
       },
       "options": [
-        {
-          "en": "5",
-          "as": "5"
-        },
-        {
-          "en": "7",
-          "as": "7"
-        },
-        {
-          "en": "9",
-          "as": "9"
-        },
-        {
-          "en": "11",
-          "as": "11"
-        }
+        { "en": "30", "as": "30" },
+        { "en": "20", "as": "20" },
+        { "en": "40", "as": "40" },
+        { "en": "25", "as": "25" }
       ],
-      "correct": 1,
+      "correct": 0,
       "explanation": {
-        "en": "Arranged in order: 3, 5, 7, 9, 11; the middle value is 7.",
-        "as": "ক্ৰমত সজাই: 3, 5, 7, 9, 11; মাজৰ মান 7।"
+        "en": "Range = maximum - minimum = 35 - 5 = 30.",
+        "as": "পৰিসৰ = সৰ্বাধিক - সৰ্বনিম্ন = 35 - 5 = 30।"
+      }
+    },
+    {
+      "q": {
+        "en": "The range of 12, 4, 8 and 20 is:",
+        "as": "12, 4, 8 আৰু 20 ৰ পৰিসৰ কিমান?"
+      },
+      "options": [
+        { "en": "16", "as": "16" },
+        { "en": "12", "as": "12" },
+        { "en": "8", "as": "8" },
+        { "en": "20", "as": "20" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Range = 20 - 4 = 16.",
+        "as": "পৰিসৰ = 20 - 4 = 16।"
+      }
+    },
+    {
+      "q": {
+        "en": "The range of a data set is calculated as:",
+        "as": "তথ্যৰাজিৰ পৰিসৰ কেনেকৈ গণনা কৰা হয়?"
+      },
+      "options": [
+        { "en": "Maximum - Minimum", "as": "সৰ্বাধিক - সৰ্বনিম্ন" },
+        { "en": "Maximum + Minimum", "as": "সৰ্বাধিক + সৰ্বনিম্ন" },
+        { "en": "Maximum / Minimum", "as": "সৰ্বাধিক / সৰ্বনিম্ন" },
+        { "en": "Maximum x Minimum", "as": "সৰ্বাধিক x সৰ্বনিম্ন" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Range is the difference between the largest and smallest observations.",
+        "as": "পৰিসৰ হৈছে আটাইতকৈ ডাঙৰ আৰু আটাইতকৈ সৰু পৰ্যবেক্ষণৰ পাৰ্থক্য।"
+      }
+    },
+    {
+      "q": {
+        "en": "Variance is defined as the mean of the:",
+        "as": "প্ৰসৰণক কিৰে সংজ্ঞায়িত কৰা হয়?"
+      },
+      "options": [
+        { "en": "Squared deviations from the mean", "as": "গড়ৰ পৰা বৰ্গ বিচ্যুতি" },
+        { "en": "Absolute deviations from the mean", "as": "গড়ৰ পৰা পৰম বিচ্যুতি" },
+        { "en": "Original observations", "as": "মূল পৰ্যবেক্ষণ" },
+        { "en": "Maximum and minimum values", "as": "সৰ্বাধিক আৰু সৰ্বনিম্ন মান" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Variance is the average of the squared deviations from the mean.",
+        "as": "প্ৰসৰণ হৈছে গড়ৰ পৰা বৰ্গ বিচ্যুতিৰ গড়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Standard deviation is the ______ of the variance.",
+        "as": "মানক বিচ্যুতি হ'ল প্ৰসৰণৰ ______।"
+      },
+      "options": [
+        { "en": "square root", "as": "বৰ্গমূল" },
+        { "en": "square", "as": "বৰ্গ" },
+        { "en": "double", "as": "দুগুণ" },
+        { "en": "half", "as": "আধা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Standard deviation is the positive square root of the variance.",
+        "as": "মানক বিচ্যুতি হ'ল প্ৰসৰণৰ ধনাত্মক বৰ্গমূল।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the variance of a data set is 16, its standard deviation is:",
+        "as": "যদি এটা তথ্যৰাজিৰ প্ৰসৰণ 16 হয়, তাৰ মানক বিচ্যুতি কিমান?"
+      },
+      "options": [
+        { "en": "4", "as": "4" },
+        { "en": "8", "as": "8" },
+        { "en": "256", "as": "256" },
+        { "en": "2", "as": "2" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "SD = sqrt(variance) = sqrt(16) = 4.",
+        "as": "মানক বিচ্যুতি = sqrt(প্ৰসৰণ) = sqrt(16) = 4।"
+      }
+    },
+    {
+      "q": {
+        "en": "The range of the first 10 natural numbers is:",
+        "as": "প্ৰথম 10 টা স্বাভাৱিক সংখ্যাৰ পৰিসৰ কিমান?"
+      },
+      "options": [
+        { "en": "9", "as": "9" },
+        { "en": "10", "as": "10" },
+        { "en": "8", "as": "8" },
+        { "en": "11", "as": "11" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Range = 10 - 1 = 9.",
+        "as": "পৰিসৰ = 10 - 1 = 9।"
+      }
+    },
+    {
+      "q": {
+        "en": "The sum of the deviations of observations from their arithmetic mean is:",
+        "as": "পাটিগাণিতিক গড়ৰ পৰা পৰ্যবেক্ষণবোৰৰ বিচ্যুতিৰ যোগফল কি?"
+      },
+      "options": [
+        { "en": "0", "as": "0" },
+        { "en": "1", "as": "1" },
+        { "en": "Equal to the mean", "as": "গড়ৰ সমান" },
+        { "en": "Always positive", "as": "সদায় ধনাত্মক" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The mean is the balance point, so the deviations sum to zero.",
+        "as": "গড় হৈছে ভাৰসাম্য বিন্দু, সেয়ে বিচ্যুতিৰ যোগফল শূন্য হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The standard deviation of 5, 5, 5 and 5 is:",
+        "as": "5, 5, 5 আৰু 5 ৰ মানক বিচ্যুতি কিমান?"
+      },
+      "options": [
+        { "en": "0", "as": "0" },
+        { "en": "5", "as": "5" },
+        { "en": "1", "as": "1" },
+        { "en": "25", "as": "25" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "All values are equal, so every deviation is zero and SD = 0.",
+        "as": "সকলো মান সমান, সেয়ে প্ৰতিটো বিচ্যুতি শূন্য আৰু SD = 0।"
+      }
+    },
+    {
+      "q": {
+        "en": "If all the observations in a data set are equal, the variance is:",
+        "as": "যদি তথ্যৰাজিৰ সকলো পৰ্যবেক্ষণ সমান হয়, প্ৰসৰণ কিমান?"
+      },
+      "options": [
+        { "en": "0", "as": "0" },
+        { "en": "1", "as": "1" },
+        { "en": "Equal to the mean", "as": "গড়ৰ সমান" },
+        { "en": "Maximum", "as": "সৰ্বাধিক" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "With no spread, all deviations are zero, so variance = 0.",
+        "as": "কোনো বিস্তাৰ নথকাত আটাইবোৰ বিচ্যুতি শূন্য, সেয়ে প্ৰসৰণ = 0।"
+      }
+    },
+    {
+      "q": {
+        "en": "The range of the data 3, 3, 3 is:",
+        "as": "3, 3, 3 তথ্যৰ পৰিসৰ কিমান?"
+      },
+      "options": [
+        { "en": "0", "as": "0" },
+        { "en": "3", "as": "3" },
+        { "en": "1", "as": "1" },
+        { "en": "9", "as": "9" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Range = 3 - 3 = 0.",
+        "as": "পৰিসৰ = 3 - 3 = 0।"
+      }
+    },
+    {
+      "q": {
+        "en": "The median of a data set is the same as:",
+        "as": "এটা তথ্যৰাজিৰ মধ্যমা কাৰ সমান?"
+      },
+      "options": [
+        { "en": "Second quartile", "as": "দ্বিতীয় চতুৰ্থাংশ" },
+        { "en": "First quartile", "as": "প্ৰথম চতুৰ্থাংশ" },
+        { "en": "Third quartile", "as": "তৃতীয় চতুৰ্থাংশ" },
+        { "en": "Range", "as": "পৰিসৰ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The median is the second quartile Q2, which divides the data in half.",
+        "as": "মধ্যমা হৈছে দ্বিতীয় চতুৰ্থাংশ Q2, যিয়ে তথ্যক আধা আধা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Quartiles divide a data set into:",
+        "as": "চতুৰ্থাংশই এটা তথ্যৰাজিক কিমান ভাগত ভাগ কৰে?"
+      },
+      "options": [
+        { "en": "4 equal parts", "as": "4 সমান ভাগ" },
+        { "en": "2 equal parts", "as": "2 সমান ভাগ" },
+        { "en": "10 equal parts", "as": "10 সমান ভাগ" },
+        { "en": "100 equal parts", "as": "100 সমান ভাগ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The three quartiles Q1, Q2, Q3 divide the data into four equal parts.",
+        "as": "তিনিটা চতুৰ্থাংশ Q1, Q2, Q3 য়ে তথ্যক চাৰিটা সমান ভাগত ভাগ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Mean deviation is based on the:",
+        "as": "মাধ্য বিচ্যুতি কাৰ ওপৰত আধাৰিত?"
+      },
+      "options": [
+        { "en": "Absolute deviations from the mean", "as": "গড়ৰ পৰা পৰম বিচ্যুতি" },
+        { "en": "Squared deviations from the mean", "as": "গড়ৰ পৰা বৰ্গ বিচ্যুতি" },
+        { "en": "Cubed deviations", "as": "ঘন বিচ্যুতি" },
+        { "en": "Maximum value only", "as": "কেৱল সৰ্বাধিক মান" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Mean deviation is the average of absolute deviations from a central value.",
+        "as": "মাধ্য বিচ্যুতি হৈছে এটা কেন্দ্ৰীয় মানৰ পৰা পৰম বিচ্যুতিৰ গড়।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the standard deviation of a data set is 5, its variance is:",
+        "as": "যদি এটা তথ্যৰাজিৰ মানক বিচ্যুতি 5 হয়, তাৰ প্ৰসৰণ কিমান?"
+      },
+      "options": [
+        { "en": "25", "as": "25" },
+        { "en": "5", "as": "5" },
+        { "en": "10", "as": "10" },
+        { "en": "sqrt(5)", "as": "sqrt(5)" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Variance = (SD)² = 5² = 25.",
+        "as": "প্ৰসৰণ = (মানক বিচ্যুতি)² = 5² = 25।"
+      }
+    },
+    {
+      "q": {
+        "en": "The range of 100, 250 and 75 is:",
+        "as": "100, 250 আৰু 75 ৰ পৰিসৰ কিমান?"
+      },
+      "options": [
+        { "en": "175", "as": "175" },
+        { "en": "150", "as": "150" },
+        { "en": "250", "as": "250" },
+        { "en": "75", "as": "75" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Range = 250 - 75 = 175.",
+        "as": "পৰিসৰ = 250 - 75 = 175।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a measure of dispersion?",
+        "as": "তলৰ কোনটো বিস্তাৰৰ জোখ?"
+      },
+      "options": [
+        { "en": "Range", "as": "পৰিসৰ" },
+        { "en": "Mean", "as": "গড়" },
+        { "en": "Median", "as": "মধ্যমা" },
+        { "en": "Mode", "as": "প্ৰচলক" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Range measures spread, while mean, median and mode measure central tendency.",
+        "as": "পৰিসৰে বিস্তাৰ জোখে, আনহাতে গড়, মধ্যমা আৰু প্ৰচলকে কেন্দ্ৰীয় প্ৰৱণতা জোখে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The variance of 1, 2, 3, 4 and 5 is:",
+        "as": "1, 2, 3, 4 আৰু 5 ৰ প্ৰসৰণ কিমান?"
+      },
+      "options": [
+        { "en": "2", "as": "2" },
+        { "en": "4", "as": "4" },
+        { "en": "10", "as": "10" },
+        { "en": "5", "as": "5" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Mean = 3; squared deviations = 4+1+0+1+4 = 10, so variance = 10/5 = 2.",
+        "as": "গড় = 3; বৰ্গ বিচ্যুতি = 4+1+0+1+4 = 10, সেয়ে প্ৰসৰণ = 10/5 = 2।"
+      }
+    },
+    {
+      "q": {
+        "en": "The standard deviation of 4, 4, 4, 4 and 4 is:",
+        "as": "4, 4, 4, 4 আৰু 4 ৰ মানক বিচ্যুতি কিমান?"
+      },
+      "options": [
+        { "en": "0", "as": "0" },
+        { "en": "4", "as": "4" },
+        { "en": "2", "as": "2" },
+        { "en": "16", "as": "16" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "All values are equal, so there is no spread and SD = 0.",
+        "as": "সকলো মান সমান, সেয়ে কোনো বিস্তাৰ নাই আৰু SD = 0।"
+      }
+    },
+    {
+      "q": {
+        "en": "The range of 45, 60, 30 and 55 is:",
+        "as": "45, 60, 30 আৰু 55 ৰ পৰিসৰ কিমান?"
+      },
+      "options": [
+        { "en": "30", "as": "30" },
+        { "en": "60", "as": "60" },
+        { "en": "15", "as": "15" },
+        { "en": "25", "as": "25" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Range = 60 - 30 = 30.",
+        "as": "পৰিসৰ = 60 - 30 = 30।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the standard deviation of a data set increases, the data is:",
+        "as": "যদি এটা তথ্যৰাজিৰ মানক বিচ্যুতি বৃদ্ধি পায়, তথ্যখিনি:"
+      },
+      "options": [
+        { "en": "More spread out", "as": "অধিক বিস্তৃত" },
+        { "en": "Less spread out", "as": "কম বিস্তৃত" },
+        { "en": "Unchanged", "as": "অপৰিৱৰ্তিত" },
+        { "en": "Equal to the mean", "as": "গড়ৰ সমান" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A larger standard deviation means the data values are more spread out.",
+        "as": "ডাঙৰ মানক বিচ্যুতিৰ অৰ্থ তথ্যৰ মানবোৰ অধিক বিস্তৃত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The difference between the third and first quartiles is called the:",
+        "as": "তৃতীয় আৰু প্ৰথম চতুৰ্থাংশৰ পাৰ্থক্যক কি বোলা হয়?"
+      },
+      "options": [
+        { "en": "Interquartile range", "as": "আন্তঃচতুৰ্থাংশ পৰিসৰ" },
+        { "en": "Range", "as": "পৰিসৰ" },
+        { "en": "Variance", "as": "প্ৰসৰণ" },
+        { "en": "Mean deviation", "as": "মাধ্য বিচ্যুতি" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Interquartile range = Q3 - Q1.",
+        "as": "আন্তঃচতুৰ্থাংশ পৰিসৰ = Q3 - Q1।"
+      }
+    },
+    {
+      "q": {
+        "en": "The variance of 3, 6, 9, 12 and 15 is:",
+        "as": "3, 6, 9, 12 আৰু 15 ৰ প্ৰসৰণ কিমান?"
+      },
+      "options": [
+        { "en": "18", "as": "18" },
+        { "en": "9", "as": "9" },
+        { "en": "36", "as": "36" },
+        { "en": "90", "as": "90" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Mean = 9; squared deviations = 36+9+0+9+36 = 90, so variance = 90/5 = 18.",
+        "as": "গড় = 9; বৰ্গ বিচ্যুতি = 36+9+0+9+36 = 90, সেয়ে প্ৰসৰণ = 90/5 = 18।"
+      }
+    },
+    {
+      "q": {
+        "en": "Standard deviation is a measure of:",
+        "as": "মানক বিচ্যুতি হৈছে কিৰ জোখ?"
+      },
+      "options": [
+        { "en": "Dispersion", "as": "বিস্তাৰ" },
+        { "en": "Central tendency", "as": "কেন্দ্ৰীয় প্ৰৱণতা" },
+        { "en": "Symmetry", "as": "সমমিতি" },
+        { "en": "Correlation", "as": "সহসম্বন্ধ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Standard deviation measures how spread out the data is, i.e. dispersion.",
+        "as": "মানক বিচ্যুতিয়ে তথ্য কিমান বিস্তৃত তাৰ জোখ দিয়ে, অৰ্থাৎ বিস্তাৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The square of the standard deviation is called the:",
+        "as": "মানক বিচ্যুতিৰ বৰ্গক কি বোলা হয়?"
+      },
+      "options": [
+        { "en": "Variance", "as": "প্ৰসৰণ" },
+        { "en": "Range", "as": "পৰিসৰ" },
+        { "en": "Mean", "as": "গড়" },
+        { "en": "Median", "as": "মধ্যমা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Variance = (standard deviation)².",
+        "as": "প্ৰসৰণ = (মানক বিচ্যুতি)²।"
       }
     }
   ]
