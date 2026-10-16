@@ -6483,30 +6483,26 @@
     const stage = document.createElement("div");
     stage.className = "mock-intro";
     stage.id = "mock-intro";
-
-    const sparks = Array.from({ length: 10 }).map((_, i) => {
-      const ang = (i / 10) * Math.PI * 2;
-      const dist = 92 + (i % 3) * 26;
-      const tx = Math.round(Math.cos(ang) * dist);
-      const ty = Math.round(Math.sin(ang) * dist);
-      return `<span style="--tx:${tx}px;--ty:${ty}px;--d:${((i % 5) * 0.15).toFixed(2)}s"></span>`;
-    }).join("");
-
     stage.innerHTML = `
       <div class="mi-backdrop"></div>
       <div class="mi-stage">
-        <div class="mi-orb"></div>
-        <div class="mi-sparks">${sparks}</div>
         <div class="mi-ring">
           <svg viewBox="0 0 176 176" aria-hidden="true">
+            <defs>
+              <linearGradient id="mi-grad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#818cf8"></stop>
+                <stop offset="1" stop-color="#67e8f9"></stop>
+              </linearGradient>
+            </defs>
             <circle class="mi-ring-bg" cx="88" cy="88" r="78"></circle>
             <circle class="mi-ring-fg" cx="88" cy="88" r="78"></circle>
           </svg>
           <div class="mi-core"><div class="mi-count" id="mi-count">3</div></div>
         </div>
         <div class="mi-text">
-          <span class="mi-title">Mock Test Started</span>
-          <span class="mi-sub">All the best! • শুভকামনা</span>
+          <span class="mi-title">Test Started</span>
+          <span class="mi-line"></span>
+          <span class="mi-sub">All the best • শুভকামনা</span>
         </div>
       </div>`;
     document.body.appendChild(stage);
@@ -6514,7 +6510,7 @@
     const miStage = stage.querySelector(".mi-stage");
     const ringFg = stage.querySelector(".mi-ring-fg");
     const countEl = stage.querySelector("#mi-count");
-    const from = 3, step = 560;
+    const from = 3, step = 600;
     if (miStage) miStage.style.setProperty("--ring-dur", (from * step) + "ms");
 
     requestAnimationFrame(() => {
@@ -6524,9 +6520,9 @@
 
     const paint = (n) => {
       countEl.textContent = String(n);
-      countEl.classList.remove("pop");
+      countEl.classList.remove("tick");
       void countEl.offsetWidth;
-      countEl.classList.add("pop");
+      countEl.classList.add("tick");
     };
     paint(from);
 
@@ -6536,11 +6532,11 @@
       if (n >= 1) { paint(n); return; }
       clearInterval(timer);
       stage.classList.add("go");
-      countEl.outerHTML = `<div class="mi-check go" id="mi-count"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.2 4.2L19 7"/></svg></div>`;
+      countEl.outerHTML = `<div class="mi-check" id="mi-count"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.2 4.2L19 7"/></svg></div>`;
       setTimeout(() => {
         stage.classList.add("out");
-        setTimeout(() => { stage.remove(); if (done) done(); }, 440);
-      }, 780);
+        setTimeout(() => { stage.remove(); if (done) done(); }, 520);
+      }, 880);
     }, step);
   }
 
