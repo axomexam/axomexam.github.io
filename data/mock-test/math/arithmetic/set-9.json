@@ -5,31 +5,427 @@
   "questions": [
     {
       "q": {
-        "en": "The average of 5, 10, 15 and 20 is:",
-        "as": "5, 10, 15 আৰু 20 ৰ গড় কিমান?"
+        "en": "If A can complete a work in 10 days, then A's one day work is:",
+        "as": "যদি A য়ে এটা কাম 10 দিনত সম্পূৰ্ণ কৰে, তেন্তে A ৰ এদিনৰ কাম কিমান?"
       },
       "options": [
-        {
-          "en": "10",
-          "as": "10"
-        },
-        {
-          "en": "12.5",
-          "as": "12.5"
-        },
-        {
-          "en": "15",
-          "as": "15"
-        },
-        {
-          "en": "12",
-          "as": "12"
-        }
+        { "en": "1/10", "as": "1/10" },
+        { "en": "10", "as": "10" },
+        { "en": "1/5", "as": "1/5" },
+        { "en": "1/20", "as": "1/20" }
       ],
-      "correct": 1,
+      "correct": 0,
       "explanation": {
-        "en": "Average = (5 + 10 + 15 + 20) / 4 = 50/4 = 12.5.",
-        "as": "গড় = (5 + 10 + 15 + 20) / 4 = 50/4 = 12.5।"
+        "en": "One day work = 1/total days = 1/10.",
+        "as": "এদিনৰ কাম = 1/মুঠ দিন = 1/10।"
+      }
+    },
+    {
+      "q": {
+        "en": "A can do a work in 12 days and B in 6 days. Together they finish it in:",
+        "as": "A য়ে এটা কাম 12 দিনত আৰু B য়ে 6 দিনত কৰিব পাৰে। একেলগে তেওঁলোকে কিমান দিনত শেষ কৰিব?"
+      },
+      "options": [
+        { "en": "4 days", "as": "4 দিন" },
+        { "en": "3 days", "as": "3 দিন" },
+        { "en": "6 days", "as": "6 দিন" },
+        { "en": "5 days", "as": "5 দিন" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "1/12 + 1/6 = 1/4, so they finish in 4 days.",
+        "as": "1/12 + 1/6 = 1/4, গতিকে তেওঁলোকে 4 দিনত শেষ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A car covers 100 km in 2 hours. Its speed is:",
+        "as": "এখন গাড়ীয়ে 2 ঘণ্টাত 100 কি.মি. অতিক্ৰম কৰে। ইয়াৰ গতি কিমান?"
+      },
+      "options": [
+        { "en": "50 km/h", "as": "50 কি.মি./ঘণ্টা" },
+        { "en": "200 km/h", "as": "200 কি.মি./ঘণ্টা" },
+        { "en": "100 km/h", "as": "100 কি.মি./ঘণ্টা" },
+        { "en": "25 km/h", "as": "25 কি.মি./ঘণ্টা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Speed = distance/time = 100/2 = 50 km/h.",
+        "as": "গতি = দূৰত্ব/সময় = 100/2 = 50 কি.মি./ঘণ্টা।"
+      }
+    },
+    {
+      "q": {
+        "en": "A train covers 180 km in 3 hours. Its speed is:",
+        "as": "এখন ৰে'লে 3 ঘণ্টাত 180 কি.মি. অতিক্ৰম কৰে। ইয়াৰ গতি কিমান?"
+      },
+      "options": [
+        { "en": "60 km/h", "as": "60 কি.মি./ঘণ্টা" },
+        { "en": "90 km/h", "as": "90 কি.মি./ঘণ্টা" },
+        { "en": "45 km/h", "as": "45 কি.মি./ঘণ্টা" },
+        { "en": "540 km/h", "as": "540 কি.মি./ঘণ্টা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Speed = 180/3 = 60 km/h.",
+        "as": "গতি = 180/3 = 60 কি.মি./ঘণ্টা।"
+      }
+    },
+    {
+      "q": {
+        "en": "A and B together finish a work in 6 days. A alone takes 10 days. B alone takes:",
+        "as": "A আৰু B য়ে একেলগে এটা কাম 6 দিনত শেষ কৰে। A অকলে 10 দিন লয়। B অকলে কিমান দিন ল'ব?"
+      },
+      "options": [
+        { "en": "15 days", "as": "15 দিন" },
+        { "en": "12 days", "as": "12 দিন" },
+        { "en": "18 days", "as": "18 দিন" },
+        { "en": "16 days", "as": "16 দিন" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "1/6 − 1/10 = 1/15, so B alone takes 15 days.",
+        "as": "1/6 − 1/10 = 1/15, গতিকে B অকলে 15 দিন লয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The distance covered at 60 km/h in 2.5 hours is:",
+        "as": "60 কি.মি./ঘণ্টা গতিত 2.5 ঘণ্টাত অতিক্ৰম কৰা দূৰত্ব কিমান?"
+      },
+      "options": [
+        { "en": "150 km", "as": "150 কি.মি." },
+        { "en": "120 km", "as": "120 কি.মি." },
+        { "en": "180 km", "as": "180 কি.মি." },
+        { "en": "90 km", "as": "90 কি.মি." }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Distance = speed × time = 60 × 2.5 = 150 km.",
+        "as": "দূৰত্ব = গতি × সময় = 60 × 2.5 = 150 কি.মি.।"
+      }
+    },
+    {
+      "q": {
+        "en": "72 km/h expressed in m/s is:",
+        "as": "72 কি.মি./ঘণ্টাক মিটাৰ/ছেকেণ্ডত প্ৰকাশ কৰিলে কি হয়?"
+      },
+      "options": [
+        { "en": "20 m/s", "as": "20 মি./ছে." },
+        { "en": "18 m/s", "as": "18 মি./ছে." },
+        { "en": "25 m/s", "as": "25 মি./ছে." },
+        { "en": "72 m/s", "as": "72 মি./ছে." }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "72 × 5/18 = 20 m/s.",
+        "as": "72 × 5/18 = 20 মি./ছে.।"
+      }
+    },
+    {
+      "q": {
+        "en": "The time taken to cover 400 m at 20 m/s is:",
+        "as": "20 মি./ছে. গতিত 400 মিটাৰ অতিক্ৰম কৰিবলৈ লগা সময় কিমান?"
+      },
+      "options": [
+        { "en": "20 s", "as": "20 ছেকেণ্ড" },
+        { "en": "10 s", "as": "10 ছেকেণ্ড" },
+        { "en": "40 s", "as": "40 ছেকেণ্ড" },
+        { "en": "8 s", "as": "8 ছেকেণ্ড" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Time = distance/speed = 400/20 = 20 s.",
+        "as": "সময় = দূৰত্ব/গতি = 400/20 = 20 ছেকেণ্ড।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 5 workers complete a work in 10 days, then 10 workers will complete it in:",
+        "as": "যদি 5 জন শ্ৰমিকে এটা কাম 10 দিনত সম্পূৰ্ণ কৰে, তেন্তে 10 জন শ্ৰমিকে কিমান দিনত কৰিব?"
+      },
+      "options": [
+        { "en": "5 days", "as": "5 দিন" },
+        { "en": "10 days", "as": "10 দিন" },
+        { "en": "20 days", "as": "20 দিন" },
+        { "en": "2 days", "as": "2 দিন" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Work is inversely proportional to workers: 5 × 10 / 10 = 5 days.",
+        "as": "কাম শ্ৰমিকৰ ব্যস্তানুপাতী: 5 × 10 / 10 = 5 দিন।"
+      }
+    },
+    {
+      "q": {
+        "en": "One pipe fills a tank in 4 hours and another in 6 hours. Together they fill it in:",
+        "as": "এটা নলে এটা টেংক 4 ঘণ্টাত আৰু আনটোৱে 6 ঘণ্টাত ভৰ্তি কৰে। একেলগে কিমান সময়ত ভৰ্তি হ'ব?"
+      },
+      "options": [
+        { "en": "2.4 hours", "as": "2.4 ঘণ্টা" },
+        { "en": "5 hours", "as": "5 ঘণ্টা" },
+        { "en": "3 hours", "as": "3 ঘণ্টা" },
+        { "en": "2 hours", "as": "2 ঘণ্টা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "1/4 + 1/6 = 5/12, so time = 12/5 = 2.4 hours.",
+        "as": "1/4 + 1/6 = 5/12, গতিকে সময় = 12/5 = 2.4 ঘণ্টা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The time taken to cover 1 km at a speed of 5 m/s is:",
+        "as": "5 মি./ছে. গতিত 1 কি.মি. অতিক্ৰম কৰিবলৈ লগা সময় কিমান?"
+      },
+      "options": [
+        { "en": "200 s", "as": "200 ছেকেণ্ড" },
+        { "en": "100 s", "as": "100 ছেকেণ্ড" },
+        { "en": "500 s", "as": "500 ছেকেণ্ড" },
+        { "en": "50 s", "as": "50 ছেকেণ্ড" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "1 km = 1000 m; time = 1000/5 = 200 s.",
+        "as": "1 কি.মি. = 1000 মিটাৰ; সময় = 1000/5 = 200 ছেকেণ্ড।"
+      }
+    },
+    {
+      "q": {
+        "en": "A man walking at 6 km/h covers how much distance in 1.5 hours?",
+        "as": "6 কি.মি./ঘণ্টা গতিত খোজ কঢ়া এজন লোকে 1.5 ঘণ্টাত কিমান দূৰত্ব অতিক্ৰম কৰে?"
+      },
+      "options": [
+        { "en": "9 km", "as": "9 কি.মি." },
+        { "en": "6 km", "as": "6 কি.মি." },
+        { "en": "12 km", "as": "12 কি.মি." },
+        { "en": "4 km", "as": "4 কি.মি." }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Distance = 6 × 1.5 = 9 km.",
+        "as": "দূৰত্ব = 6 × 1.5 = 9 কি.মি.।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 3 men complete a work in 4 days, then 6 men will complete it in:",
+        "as": "যদি 3 জন মানুহে এটা কাম 4 দিনত সম্পূৰ্ণ কৰে, তেন্তে 6 জনে কিমান দিনত কৰিব?"
+      },
+      "options": [
+        { "en": "2 days", "as": "2 দিন" },
+        { "en": "8 days", "as": "8 দিন" },
+        { "en": "4 days", "as": "4 দিন" },
+        { "en": "6 days", "as": "6 দিন" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Time = 3 × 4 / 6 = 2 days.",
+        "as": "সময় = 3 × 4 / 6 = 2 দিন।"
+      }
+    },
+    {
+      "q": {
+        "en": "The average speed for two equal distances covered at 30 km/h and 60 km/h is:",
+        "as": "30 কি.মি./ঘণ্টা আৰু 60 কি.মি./ঘণ্টা গতিত অতিক্ৰম কৰা দুটা সমান দূৰত্বৰ গড় গতি কিমান?"
+      },
+      "options": [
+        { "en": "40 km/h", "as": "40 কি.মি./ঘণ্টা" },
+        { "en": "45 km/h", "as": "45 কি.মি./ঘণ্টা" },
+        { "en": "50 km/h", "as": "50 কি.মি./ঘণ্টা" },
+        { "en": "35 km/h", "as": "35 কি.মি./ঘণ্টা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Average speed = 2 × 30 × 60/(30 + 60) = 3600/90 = 40 km/h.",
+        "as": "গড় গতি = 2 × 30 × 60/(30 + 60) = 3600/90 = 40 কি.মি./ঘণ্টা।"
+      }
+    },
+    {
+      "q": {
+        "en": "A can do a work in 8 days. The fraction of work done in 2 days is:",
+        "as": "A য়ে এটা কাম 8 দিনত কৰিব পাৰে। 2 দিনত কৰা কামৰ ভগ্নাংশ কিমান?"
+      },
+      "options": [
+        { "en": "1/4", "as": "1/4" },
+        { "en": "1/2", "as": "1/2" },
+        { "en": "1/8", "as": "1/8" },
+        { "en": "2/8", "as": "2/8" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Work done = 2/8 = 1/4.",
+        "as": "কৰা কাম = 2/8 = 1/4।"
+      }
+    },
+    {
+      "q": {
+        "en": "If a person's rate of work is 1/5 per day, he will finish the work in:",
+        "as": "যদি এজনৰ কামৰ হাৰ প্ৰতিদিনে 1/5 হয়, তেওঁ কামটো কিমান দিনত শেষ কৰিব?"
+      },
+      "options": [
+        { "en": "5 days", "as": "5 দিন" },
+        { "en": "1/5 day", "as": "1/5 দিন" },
+        { "en": "10 days", "as": "10 দিন" },
+        { "en": "2 days", "as": "2 দিন" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Time = 1/rate = 5 days.",
+        "as": "সময় = 1/হাৰ = 5 দিন।"
+      }
+    },
+    {
+      "q": {
+        "en": "A train 300 m long moving at 30 m/s passes a pole in:",
+        "as": "30 মি./ছে. গতিত গৈ থকা 300 মিটাৰ দীঘল এখন ৰে'লে এটা খুঁটা কিমান সময়ত পাৰ হয়?"
+      },
+      "options": [
+        { "en": "10 s", "as": "10 ছেকেণ্ড" },
+        { "en": "30 s", "as": "30 ছেকেণ্ড" },
+        { "en": "100 s", "as": "100 ছেকেণ্ড" },
+        { "en": "9 s", "as": "9 ছেকেণ্ড" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Time = length/speed = 300/30 = 10 s.",
+        "as": "সময় = দীঘ/গতি = 300/30 = 10 ছেকেণ্ড।"
+      }
+    },
+    {
+      "q": {
+        "en": "Two pipes fill a tank in 12 hours and 18 hours. Together they fill it in:",
+        "as": "দুটা নলে এটা টেংক 12 ঘণ্টা আৰু 18 ঘণ্টাত ভৰ্তি কৰে। একেলগে কিমান সময়ত ভৰ্তি হ'ব?"
+      },
+      "options": [
+        { "en": "7.2 hours", "as": "7.2 ঘণ্টা" },
+        { "en": "6 hours", "as": "6 ঘণ্টা" },
+        { "en": "8 hours", "as": "8 ঘণ্টা" },
+        { "en": "9 hours", "as": "9 ঘণ্টা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "1/12 + 1/18 = 5/36, so time = 36/5 = 7.2 hours.",
+        "as": "1/12 + 1/18 = 5/36, গতিকে সময় = 36/5 = 7.2 ঘণ্টা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The speed of a vehicle that covers 45 km in 1.5 hours is:",
+        "as": "1.5 ঘণ্টাত 45 কি.মি. অতিক্ৰম কৰা এখন বাহনৰ গতি কিমান?"
+      },
+      "options": [
+        { "en": "30 km/h", "as": "30 কি.মি./ঘণ্টা" },
+        { "en": "45 km/h", "as": "45 কি.মি./ঘণ্টা" },
+        { "en": "60 km/h", "as": "60 কি.মি./ঘণ্টা" },
+        { "en": "15 km/h", "as": "15 কি.মি./ঘণ্টা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Speed = 45/1.5 = 30 km/h.",
+        "as": "গতি = 45/1.5 = 30 কি.মি./ঘণ্টা।"
+      }
+    },
+    {
+      "q": {
+        "en": "If A is twice as fast as B and B completes a work in 12 days, A completes it in:",
+        "as": "যদি A, B তকৈ দুগুণ দ্ৰুত আৰু B য়ে এটা কাম 12 দিনত সম্পূৰ্ণ কৰে, A য়ে কিমান দিনত কৰিব?"
+      },
+      "options": [
+        { "en": "6 days", "as": "6 দিন" },
+        { "en": "24 days", "as": "24 দিন" },
+        { "en": "8 days", "as": "8 দিন" },
+        { "en": "12 days", "as": "12 দিন" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A is twice as fast, so A takes half the time = 6 days.",
+        "as": "A দুগুণ দ্ৰুত, গতিকে A য়ে আধা সময় = 6 দিন লয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The distance covered in 45 minutes at 40 km/h is:",
+        "as": "40 কি.মি./ঘণ্টা গতিত 45 মিনিটত অতিক্ৰম কৰা দূৰত্ব কিমান?"
+      },
+      "options": [
+        { "en": "30 km", "as": "30 কি.মি." },
+        { "en": "40 km", "as": "40 কি.মি." },
+        { "en": "20 km", "as": "20 কি.মি." },
+        { "en": "45 km", "as": "45 কি.মি." }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "45 min = 3/4 h; distance = 40 × 3/4 = 30 km.",
+        "as": "45 মিনিট = 3/4 ঘণ্টা; দূৰত্ব = 40 × 3/4 = 30 কি.মি.।"
+      }
+    },
+    {
+      "q": {
+        "en": "A alone can do a work in 20 days and B in 30 days. Together they finish it in:",
+        "as": "A য়ে অকলে এটা কাম 20 দিনত আৰু B য়ে 30 দিনত কৰিব পাৰে। একেলগে কিমান দিনত শেষ কৰিব?"
+      },
+      "options": [
+        { "en": "12 days", "as": "12 দিন" },
+        { "en": "10 days", "as": "10 দিন" },
+        { "en": "15 days", "as": "15 দিন" },
+        { "en": "25 days", "as": "25 দিন" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "1/20 + 1/30 = 5/60 = 1/12, so time = 12 days.",
+        "as": "1/20 + 1/30 = 5/60 = 1/12, গতিকে সময় = 12 দিন।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the speed of a journey is doubled, the time taken for the same distance:",
+        "as": "যদি এটা যাত্ৰাৰ গতি দুগুণ কৰা হয়, একেই দূৰত্বৰ বাবে লগা সময়:"
+      },
+      "options": [
+        { "en": "Becomes half", "as": "আধা হ'ব" },
+        { "en": "Doubles", "as": "দুগুণ হ'ব" },
+        { "en": "Remains the same", "as": "একে থাকিব" },
+        { "en": "Becomes four times", "as": "চাৰিগুণ হ'ব" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "For the same distance, time is inversely proportional to speed, so time becomes half.",
+        "as": "একেই দূৰত্বৰ বাবে সময় গতিৰ ব্যস্তানুপাতী, গতিকে সময় আধা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A tank is filled by a pipe in 3 hours and emptied by another in 5 hours. If both are open, the tank fills in:",
+        "as": "এটা নলে এটা টেংক 3 ঘণ্টাত ভৰ্তি কৰে আৰু আনটোৱে 5 ঘণ্টাত খালী কৰে। দুয়োটা খোলা থাকিলে টেংকটো কিমান সময়ত ভৰ্তি হ'ব?"
+      },
+      "options": [
+        { "en": "7.5 hours", "as": "7.5 ঘণ্টা" },
+        { "en": "8 hours", "as": "8 ঘণ্টা" },
+        { "en": "2 hours", "as": "2 ঘণ্টা" },
+        { "en": "4 hours", "as": "4 ঘণ্টা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "1/3 − 1/5 = 2/15, so time = 15/2 = 7.5 hours.",
+        "as": "1/3 − 1/5 = 2/15, গতিকে সময় = 15/2 = 7.5 ঘণ্টা।"
+      }
+    },
+    {
+      "q": {
+        "en": "18 km/h expressed in m/s is:",
+        "as": "18 কি.মি./ঘণ্টাক মিটাৰ/ছেকেণ্ডত প্ৰকাশ কৰিলে কি হয়?"
+      },
+      "options": [
+        { "en": "5 m/s", "as": "5 মি./ছে." },
+        { "en": "3 m/s", "as": "3 মি./ছে." },
+        { "en": "18 m/s", "as": "18 মি./ছে." },
+        { "en": "6 m/s", "as": "6 মি./ছে." }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "18 × 5/18 = 5 m/s.",
+        "as": "18 × 5/18 = 5 মি./ছে.।"
       }
     }
   ]
