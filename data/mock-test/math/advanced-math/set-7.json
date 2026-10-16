@@ -5,31 +5,427 @@
   "questions": [
     {
       "q": {
-        "en": "The value of 27^(1/3) is:",
-        "as": "27^(1/3) ৰ মান কি?"
+        "en": "The roots of the equation x² − 9 = 0 are:",
+        "as": "x² − 9 = 0 সমীকৰণৰ মূল কি?"
       },
       "options": [
-        {
-          "en": "3",
-          "as": "3"
-        },
-        {
-          "en": "9",
-          "as": "9"
-        },
-        {
-          "en": "6",
-          "as": "6"
-        },
-        {
-          "en": "27",
-          "as": "27"
-        }
+        { "en": "3", "as": "3" },
+        { "en": "±3", "as": "±3" },
+        { "en": "9", "as": "9" },
+        { "en": "±9", "as": "±9" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "x² = 9 gives x = ±3.",
+        "as": "x² = 9 ৰপৰা x = ±3।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the roots of x² + kx + 9 = 0 are equal, then k is:",
+        "as": "যদি x² + kx + 9 = 0 ৰ মূল দুটা সমান হয়, তেন্তে k ৰ মান কি?"
+      },
+      "options": [
+        { "en": "±6", "as": "±6" },
+        { "en": "6", "as": "6" },
+        { "en": "±3", "as": "±3" },
+        { "en": "9", "as": "9" }
       ],
       "correct": 0,
       "explanation": {
-        "en": "27 = 3³, so 27^(1/3) = 3.",
-        "as": "27 = 3³, গতিকে 27^(1/3) = 3।"
+        "en": "For equal roots, D = k² − 36 = 0, so k = ±6.",
+        "as": "সমান মূলৰ বাবে D = k² − 36 = 0, গতিকে k = ±6।"
+      }
+    },
+    {
+      "q": {
+        "en": "The sum of the roots of 2x² − 7x + 3 = 0 is:",
+        "as": "2x² − 7x + 3 = 0 ৰ মূল দুটাৰ যোগফল কিমান?"
+      },
+      "options": [
+        { "en": "7/2", "as": "7/2" },
+        { "en": "−7/2", "as": "−7/2" },
+        { "en": "3/2", "as": "3/2" },
+        { "en": "7", "as": "7" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sum of roots = −b/a = 7/2.",
+        "as": "মূলৰ যোগফল = −b/a = 7/2।"
+      }
+    },
+    {
+      "q": {
+        "en": "The product of the roots of 3x² + 5x − 2 = 0 is:",
+        "as": "3x² + 5x − 2 = 0 ৰ মূল দুটাৰ গুণফল কিমান?"
+      },
+      "options": [
+        { "en": "−2/3", "as": "−2/3" },
+        { "en": "2/3", "as": "2/3" },
+        { "en": "−5/3", "as": "−5/3" },
+        { "en": "5/3", "as": "5/3" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Product of roots = c/a = −2/3.",
+        "as": "মূলৰ গুণফল = c/a = −2/3।"
+      }
+    },
+    {
+      "q": {
+        "en": "The discriminant of x² + 6x + 9 = 0 is:",
+        "as": "x² + 6x + 9 = 0 ৰ ডিস্ক্ৰিমিনেণ্ট কিমান?"
+      },
+      "options": [
+        { "en": "0", "as": "0" },
+        { "en": "36", "as": "36" },
+        { "en": "9", "as": "9" },
+        { "en": "72", "as": "72" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "D = b² − 4ac = 36 − 36 = 0.",
+        "as": "D = b² − 4ac = 36 − 36 = 0।"
+      }
+    },
+    {
+      "q": {
+        "en": "If one root of x² − 5x + k = 0 is 3, then k is:",
+        "as": "যদি x² − 5x + k = 0 ৰ এটা মূল 3 হয়, তেন্তে k ৰ মান কি?"
+      },
+      "options": [
+        { "en": "6", "as": "6" },
+        { "en": "5", "as": "5" },
+        { "en": "−6", "as": "−6" },
+        { "en": "9", "as": "9" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Put x = 3: 9 − 15 + k = 0, so k = 6.",
+        "as": "x = 3 বহুৱাই: 9 − 15 + k = 0, গতিকে k = 6।"
+      }
+    },
+    {
+      "q": {
+        "en": "The quadratic equation whose roots are 1 and −2 is:",
+        "as": "যি দ্বিঘাত সমীকৰণৰ মূল 1 আৰু −2, সেই সমীকৰণটো কি?"
+      },
+      "options": [
+        { "en": "x² + x − 2 = 0", "as": "x² + x − 2 = 0" },
+        { "en": "x² − x − 2 = 0", "as": "x² − x − 2 = 0" },
+        { "en": "x² + x + 2 = 0", "as": "x² + x + 2 = 0" },
+        { "en": "x² − x + 2 = 0", "as": "x² − x + 2 = 0" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sum = −1, product = −2, so x² − (−1)x + (−2) = x² + x − 2 = 0.",
+        "as": "যোগফল = −1, গুণফল = −2, গতিকে x² − (−1)x + (−2) = x² + x − 2 = 0।"
+      }
+    },
+    {
+      "q": {
+        "en": "If α and β are the roots of x² − 4x + 3 = 0, then α² + β² is:",
+        "as": "যদি x² − 4x + 3 = 0 ৰ মূল α আৰু β হয়, তেন্তে α² + β² ৰ মান কি?"
+      },
+      "options": [
+        { "en": "10", "as": "10" },
+        { "en": "16", "as": "16" },
+        { "en": "6", "as": "6" },
+        { "en": "14", "as": "14" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "α + β = 4, αβ = 3, so α² + β² = 16 − 6 = 10.",
+        "as": "α + β = 4, αβ = 3, গতিকে α² + β² = 16 − 6 = 10।"
+      }
+    },
+    {
+      "q": {
+        "en": "The nature of the roots of 2x² − 4x + 3 = 0 is:",
+        "as": "2x² − 4x + 3 = 0 ৰ মূল দুটাৰ প্ৰকৃতি কি?"
+      },
+      "options": [
+        { "en": "Not real", "as": "বাস্তৱ নহয়" },
+        { "en": "Real and equal", "as": "বাস্তৱ আৰু সমান" },
+        { "en": "Real and unequal", "as": "বাস্তৱ আৰু অসমান" },
+        { "en": "Rational and equal", "as": "পৰিমেয় আৰু সমান" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "D = 16 − 24 = −8 < 0, so the roots are not real.",
+        "as": "D = 16 − 24 = −8 < 0, গতিকে মূলবোৰ অবাস্তৱ।"
+      }
+    },
+    {
+      "q": {
+        "en": "If x = 2 is a root of x² + kx + 6 = 0, then k is:",
+        "as": "যদি x = 2, x² + kx + 6 = 0 ৰ এটা মূল হয়, তেন্তে k ৰ মান কি?"
+      },
+      "options": [
+        { "en": "−5", "as": "−5" },
+        { "en": "5", "as": "5" },
+        { "en": "−3", "as": "−3" },
+        { "en": "3", "as": "3" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Put x = 2: 4 + 2k + 6 = 0, so k = −5.",
+        "as": "x = 2 বহুৱাই: 4 + 2k + 6 = 0, গতিকে k = −5।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the equation x² − bx + 1 = 0 has one root equal to 1, then b is:",
+        "as": "যদি x² − bx + 1 = 0 সমীকৰণৰ এটা মূল 1 হয়, তেন্তে b ৰ মান কি?"
+      },
+      "options": [
+        { "en": "2", "as": "2" },
+        { "en": "1", "as": "1" },
+        { "en": "−2", "as": "−2" },
+        { "en": "0", "as": "0" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Put x = 1: 1 − b + 1 = 0, so b = 2.",
+        "as": "x = 1 বহুৱাই: 1 − b + 1 = 0, গতিকে b = 2।"
+      }
+    },
+    {
+      "q": {
+        "en": "The roots of x² + 7x + 12 = 0 are:",
+        "as": "x² + 7x + 12 = 0 ৰ মূল কি?"
+      },
+      "options": [
+        { "en": "−3 and −4", "as": "−3 আৰু −4" },
+        { "en": "3 and 4", "as": "3 আৰু 4" },
+        { "en": "−3 and 4", "as": "−3 আৰু 4" },
+        { "en": "3 and −4", "as": "3 আৰু −4" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "x² + 7x + 12 = (x + 3)(x + 4), so roots are −3 and −4.",
+        "as": "x² + 7x + 12 = (x + 3)(x + 4), গতিকে মূল −3 আৰু −4।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the sum and product of the roots are 5 and 4 respectively, the equation is:",
+        "as": "যদি মূলৰ যোগফল 5 আৰু গুণফল 4 হয়, তেন্তে সমীকৰণটো কি?"
+      },
+      "options": [
+        { "en": "x² − 5x + 4 = 0", "as": "x² − 5x + 4 = 0" },
+        { "en": "x² + 5x + 4 = 0", "as": "x² + 5x + 4 = 0" },
+        { "en": "x² − 5x − 4 = 0", "as": "x² − 5x − 4 = 0" },
+        { "en": "x² − 4x + 5 = 0", "as": "x² − 4x + 5 = 0" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The equation is x² − (sum)x + product = 0, i.e. x² − 5x + 4 = 0.",
+        "as": "সমীকৰণ x² − (যোগফল)x + গুণফল = 0, অৰ্থাৎ x² − 5x + 4 = 0।"
+      }
+    },
+    {
+      "q": {
+        "en": "If x² − px + 16 = 0 has equal roots, then p is:",
+        "as": "যদি x² − px + 16 = 0 ৰ মূল সমান হয়, তেন্তে p ৰ মান কি?"
+      },
+      "options": [
+        { "en": "±8", "as": "±8" },
+        { "en": "8", "as": "8" },
+        { "en": "±4", "as": "±4" },
+        { "en": "16", "as": "16" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "For equal roots, D = p² − 64 = 0, so p = ±8.",
+        "as": "সমান মূলৰ বাবে D = p² − 64 = 0, গতিকে p = ±8।"
+      }
+    },
+    {
+      "q": {
+        "en": "The solutions of x² = 5x are:",
+        "as": "x² = 5x ৰ সমাধান কি?"
+      },
+      "options": [
+        { "en": "0 and 5", "as": "0 আৰু 5" },
+        { "en": "5 only", "as": "কেৱল 5" },
+        { "en": "0 only", "as": "কেৱল 0" },
+        { "en": "−5 and 5", "as": "−5 আৰু 5" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "x² − 5x = 0 gives x(x − 5) = 0, so x = 0 or 5.",
+        "as": "x² − 5x = 0 ৰপৰা x(x − 5) = 0, গতিকে x = 0 বা 5।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 1 is a root of ax² + bx + c = 0, then:",
+        "as": "যদি 1, ax² + bx + c = 0 ৰ এটা মূল হয়, তেন্তে:"
+      },
+      "options": [
+        { "en": "a + b + c = 0", "as": "a + b + c = 0" },
+        { "en": "a − b + c = 0", "as": "a − b + c = 0" },
+        { "en": "a + b − c = 0", "as": "a + b − c = 0" },
+        { "en": "a − b − c = 0", "as": "a − b − c = 0" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Putting x = 1 gives a(1)² + b(1) + c = 0, i.e. a + b + c = 0.",
+        "as": "x = 1 বহুৱাই a(1)² + b(1) + c = 0, অৰ্থাৎ a + b + c = 0।"
+      }
+    },
+    {
+      "q": {
+        "en": "The roots of x² + 2x + 1 = 0 are:",
+        "as": "x² + 2x + 1 = 0 ৰ মূল কি?"
+      },
+      "options": [
+        { "en": "1 and 1", "as": "1 আৰু 1" },
+        { "en": "−1 and −1", "as": "−1 আৰু −1" },
+        { "en": "1 and −1", "as": "1 আৰু −1" },
+        { "en": "2 and 1", "as": "2 আৰু 1" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "x² + 2x + 1 = (x + 1)², so both roots are −1.",
+        "as": "x² + 2x + 1 = (x + 1)², গতিকে দুয়োটা মূল −1।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the roots of a quadratic equation are reciprocals of each other, then the product of the roots is:",
+        "as": "যদি এটা দ্বিঘাত সমীকৰণৰ মূল দুটা এটাই আনটোৰ ব্যস্তক হয়, তেন্তে মূলৰ গুণফল কি?"
+      },
+      "options": [
+        { "en": "1", "as": "1" },
+        { "en": "0", "as": "0" },
+        { "en": "−1", "as": "−1" },
+        { "en": "2", "as": "2" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "If the roots are α and 1/α, their product is α × 1/α = 1.",
+        "as": "মূল দুটা α আৰু 1/α হ'লে গুণফল α × 1/α = 1।"
+      }
+    },
+    {
+      "q": {
+        "en": "The number of real roots of x² + 4 = 0 is:",
+        "as": "x² + 4 = 0 ৰ বাস্তৱ মূল কিমানটা?"
+      },
+      "options": [
+        { "en": "0", "as": "0" },
+        { "en": "1", "as": "1" },
+        { "en": "2", "as": "2" },
+        { "en": "4", "as": "4" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "x² = −4 has no real solution, so there are no real roots.",
+        "as": "x² = −4 ৰ কোনো বাস্তৱ সমাধান নাই, গতিকে বাস্তৱ মূল নাই।"
+      }
+    },
+    {
+      "q": {
+        "en": "If α and β are the roots of x² − 6x + 8 = 0, then 1/α + 1/β is:",
+        "as": "যদি x² − 6x + 8 = 0 ৰ মূল α আৰু β হয়, তেন্তে 1/α + 1/β ৰ মান কি?"
+      },
+      "options": [
+        { "en": "3/4", "as": "3/4" },
+        { "en": "4/3", "as": "4/3" },
+        { "en": "6/8", "as": "6/8" },
+        { "en": "1", "as": "1" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "1/α + 1/β = (α + β)/αβ = 6/8 = 3/4.",
+        "as": "1/α + 1/β = (α + β)/αβ = 6/8 = 3/4।"
+      }
+    },
+    {
+      "q": {
+        "en": "If α and β are the roots of x² − 5x + 6 = 0, then (α − β)² is:",
+        "as": "যদি x² − 5x + 6 = 0 ৰ মূল α আৰু β হয়, তেন্তে (α − β)² ৰ মান কি?"
+      },
+      "options": [
+        { "en": "1", "as": "1" },
+        { "en": "25", "as": "25" },
+        { "en": "5", "as": "5" },
+        { "en": "13", "as": "13" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "(α − β)² = (α + β)² − 4αβ = 25 − 24 = 1.",
+        "as": "(α − β)² = (α + β)² − 4αβ = 25 − 24 = 1।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the roots of x² + kx + 4 = 0 are equal, then k is:",
+        "as": "যদি x² + kx + 4 = 0 ৰ মূল সমান হয়, তেন্তে k ৰ মান কি?"
+      },
+      "options": [
+        { "en": "±4", "as": "±4" },
+        { "en": "4", "as": "4" },
+        { "en": "±2", "as": "±2" },
+        { "en": "±8", "as": "±8" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "For equal roots, D = k² − 16 = 0, so k = ±4.",
+        "as": "সমান মূলৰ বাবে D = k² − 16 = 0, গতিকে k = ±4।"
+      }
+    },
+    {
+      "q": {
+        "en": "The solutions of 2x² − 8 = 0 are:",
+        "as": "2x² − 8 = 0 ৰ সমাধান কি?"
+      },
+      "options": [
+        { "en": "±2", "as": "±2" },
+        { "en": "2", "as": "2" },
+        { "en": "±4", "as": "±4" },
+        { "en": "4", "as": "4" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "2x² = 8 gives x² = 4, so x = ±2.",
+        "as": "2x² = 8 ৰপৰা x² = 4, গতিকে x = ±2।"
+      }
+    },
+    {
+      "q": {
+        "en": "If a and b are the roots of x² − 3x − 4 = 0, then ab is:",
+        "as": "যদি x² − 3x − 4 = 0 ৰ মূল a আৰু b হয়, তেন্তে ab ৰ মান কি?"
+      },
+      "options": [
+        { "en": "−4", "as": "−4" },
+        { "en": "4", "as": "4" },
+        { "en": "3", "as": "3" },
+        { "en": "−3", "as": "−3" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Product of roots ab = c/a = −4.",
+        "as": "মূলৰ গুণফল ab = c/a = −4।"
+      }
+    },
+    {
+      "q": {
+        "en": "For what value of k does 3x² + 2x + k = 0 have real and equal roots?",
+        "as": "k ৰ কি মানৰ বাবে 3x² + 2x + k = 0 ৰ মূল বাস্তৱ আৰু সমান হ'ব?"
+      },
+      "options": [
+        { "en": "1/3", "as": "1/3" },
+        { "en": "3", "as": "3" },
+        { "en": "2/3", "as": "2/3" },
+        { "en": "4/3", "as": "4/3" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "D = 2² − 4(3)(k) = 4 − 12k = 0, so k = 1/3.",
+        "as": "D = 2² − 4(3)(k) = 4 − 12k = 0, গতিকে k = 1/3।"
       }
     }
   ]
