@@ -5,31 +5,427 @@
   "questions": [
     {
       "q": {
-        "en": "A can do a piece of work in 10 days and B in 15 days. Working together, they will finish it in:",
-        "as": "A এ এটা কাম 10 দিনত আৰু B এ 15 দিনত কৰিব পাৰে। একেলগে কাম কৰিলে তেওঁলোকে কিমান দিনত শেষ কৰিব?"
+        "en": "The simple interest on 1000 at 5% per annum for 2 years is:",
+        "as": "1000 টকাৰ ওপৰত বছৰি 5% হাৰে 2 বছৰৰ সৰল সুত কিমান?"
       },
       "options": [
-        {
-          "en": "5 days",
-          "as": "5 দিন"
-        },
-        {
-          "en": "6 days",
-          "as": "6 দিন"
-        },
-        {
-          "en": "7 days",
-          "as": "7 দিন"
-        },
-        {
-          "en": "8 days",
-          "as": "8 দিন"
-        }
+        { "en": "100", "as": "100" },
+        { "en": "50", "as": "50" },
+        { "en": "200", "as": "200" },
+        { "en": "150", "as": "150" }
       ],
-      "correct": 1,
+      "correct": 0,
       "explanation": {
-        "en": "Together they do 1/10 + 1/15 = 5/30 = 1/6 of the work per day, so they finish in 6 days.",
-        "as": "একেলগে তেওঁলোকৰ প্ৰতিদিনৰ কাম = 1/10 + 1/15 = 5/30 = 1/6, গতিকে 6 দিনত শেষ হ'ব।"
+        "en": "SI = PRT/100 = 1000 × 5 × 2/100 = 100.",
+        "as": "সৰল সুত = PRT/100 = 1000 × 5 × 2/100 = 100।"
+      }
+    },
+    {
+      "q": {
+        "en": "The simple interest on 500 at 10% per annum for 3 years is:",
+        "as": "500 টকাৰ ওপৰত বছৰি 10% হাৰে 3 বছৰৰ সৰল সুত কিমান?"
+      },
+      "options": [
+        { "en": "150", "as": "150" },
+        { "en": "100", "as": "100" },
+        { "en": "50", "as": "50" },
+        { "en": "200", "as": "200" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "SI = 500 × 10 × 3/100 = 150.",
+        "as": "সৰল সুত = 500 × 10 × 3/100 = 150।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the principal is 2000 and the simple interest is 400, the amount is:",
+        "as": "যদি মূলধন 2000 আৰু সৰল সুত 400 হয়, তেন্তে মুঠ ধন কিমান?"
+      },
+      "options": [
+        { "en": "2400", "as": "2400" },
+        { "en": "1600", "as": "1600" },
+        { "en": "2200", "as": "2200" },
+        { "en": "2000", "as": "2000" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Amount = principal + interest = 2000 + 400 = 2400.",
+        "as": "মুঠ ধন = মূলধন + সুত = 2000 + 400 = 2400।"
+      }
+    },
+    {
+      "q": {
+        "en": "The compound interest on 1000 at 10% per annum for 2 years is:",
+        "as": "1000 টকাৰ ওপৰত বছৰি 10% হাৰে 2 বছৰৰ চক্ৰবৃদ্ধি সুত কিমান?"
+      },
+      "options": [
+        { "en": "210", "as": "210" },
+        { "en": "200", "as": "200" },
+        { "en": "100", "as": "100" },
+        { "en": "121", "as": "121" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Amount = 1000 × (1.1)² = 1210, so CI = 210.",
+        "as": "মুঠ ধন = 1000 × (1.1)² = 1210, গতিকে চক্ৰবৃদ্ধি সুত = 210।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the principal is 1000, simple interest is 100 and time is 2 years, the rate percent is:",
+        "as": "যদি মূলধন 1000, সৰল সুত 100 আৰু সময় 2 বছৰ হয়, সুতৰ হাৰ কিমান?"
+      },
+      "options": [
+        { "en": "5%", "as": "5%" },
+        { "en": "10%", "as": "10%" },
+        { "en": "2%", "as": "2%" },
+        { "en": "4%", "as": "4%" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "R = (SI × 100)/(P × T) = (100 × 100)/(1000 × 2) = 5%.",
+        "as": "হাৰ = (সুত × 100)/(মূলধন × সময়) = (100 × 100)/(1000 × 2) = 5%।"
+      }
+    },
+    {
+      "q": {
+        "en": "The compound interest on 100 at 10% per annum for 1 year is:",
+        "as": "100 টকাৰ ওপৰত বছৰি 10% হাৰে 1 বছৰৰ চক্ৰবৃদ্ধি সুত কিমান?"
+      },
+      "options": [
+        { "en": "10", "as": "10" },
+        { "en": "11", "as": "11" },
+        { "en": "1", "as": "1" },
+        { "en": "20", "as": "20" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "For one year, CI equals SI = 100 × 10/100 = 10.",
+        "as": "এক বছৰৰ বাবে চক্ৰবৃদ্ধি সুত সৰল সুতৰ সমান = 100 × 10/100 = 10।"
+      }
+    },
+    {
+      "q": {
+        "en": "A sum doubles in 10 years at simple interest. The rate percent is:",
+        "as": "সৰল সুতত এটা ধন 10 বছৰত দুগুণ হয়। সুতৰ হাৰ কিমান?"
+      },
+      "options": [
+        { "en": "10%", "as": "10%" },
+        { "en": "5%", "as": "5%" },
+        { "en": "20%", "as": "20%" },
+        { "en": "12%", "as": "12%" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "SI = P in 10 years, so R = 100/10 = 10%.",
+        "as": "10 বছৰত সৰল সুত = মূলধন, গতিকে হাৰ = 100/10 = 10%।"
+      }
+    },
+    {
+      "q": {
+        "en": "The difference between compound interest and simple interest on 1000 at 10% for 2 years is:",
+        "as": "1000 টকাৰ ওপৰত 10% হাৰে 2 বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য কিমান?"
+      },
+      "options": [
+        { "en": "10", "as": "10" },
+        { "en": "100", "as": "100" },
+        { "en": "20", "as": "20" },
+        { "en": "0", "as": "0" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "CI − SI = P(R/100)² = 1000 × (0.1)² = 10.",
+        "as": "CI − SI = মূলধন × (হাৰ/100)² = 1000 × (0.1)² = 10।"
+      }
+    },
+    {
+      "q": {
+        "en": "A mixture of 40 L has milk and water in the ratio 2 : 3. The quantity of milk is:",
+        "as": "40 লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী 2 : 3 অনুপাতত আছে। গাখীৰৰ পৰিমাণ কিমান?"
+      },
+      "options": [
+        { "en": "16 L", "as": "16 লিটাৰ" },
+        { "en": "24 L", "as": "24 লিটাৰ" },
+        { "en": "20 L", "as": "20 লিটাৰ" },
+        { "en": "12 L", "as": "12 লিটাৰ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Milk = (2/5) × 40 = 16 L.",
+        "as": "গাখীৰ = (2/5) × 40 = 16 লিটাৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "In 40 L of a milk-water mixture in the ratio 3 : 1, the quantity of water is:",
+        "as": "3 : 1 অনুপাতত থকা 40 লিটাৰ গাখীৰ-পানীৰ মিশ্ৰণত পানীৰ পৰিমাণ কিমান?"
+      },
+      "options": [
+        { "en": "10 L", "as": "10 লিটাৰ" },
+        { "en": "30 L", "as": "30 লিটাৰ" },
+        { "en": "20 L", "as": "20 লিটাৰ" },
+        { "en": "13 L", "as": "13 লিটাৰ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Water = (1/4) × 40 = 10 L.",
+        "as": "পানী = (1/4) × 40 = 10 লিটাৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "To make a 40 L mixture with 25% water, the ratio of milk to water is:",
+        "as": "25% পানী থকা 40 লিটাৰ মিশ্ৰণ বনাবলৈ গাখীৰ আৰু পানীৰ অনুপাত কিমান হ'ব?"
+      },
+      "options": [
+        { "en": "3 : 1", "as": "3 : 1" },
+        { "en": "1 : 3", "as": "1 : 3" },
+        { "en": "2 : 1", "as": "2 : 1" },
+        { "en": "4 : 1", "as": "4 : 1" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Water = 10 L and milk = 30 L, so the ratio is 30 : 10 = 3 : 1.",
+        "as": "পানী = 10 লিটাৰ আৰু গাখীৰ = 30 লিটাৰ, গতিকে অনুপাত 30 : 10 = 3 : 1।"
+      }
+    },
+    {
+      "q": {
+        "en": "The simple interest on 1200 at 12% per annum for 6 months is:",
+        "as": "1200 টকাৰ ওপৰত বছৰি 12% হাৰে 6 মাহৰ সৰল সুত কিমান?"
+      },
+      "options": [
+        { "en": "72", "as": "72" },
+        { "en": "144", "as": "144" },
+        { "en": "36", "as": "36" },
+        { "en": "60", "as": "60" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "T = 0.5 year; SI = 1200 × 12 × 0.5/100 = 72.",
+        "as": "সময় = 0.5 বছৰ; সুত = 1200 × 12 × 0.5/100 = 72।"
+      }
+    },
+    {
+      "q": {
+        "en": "If a sum triples in 20 years at simple interest, the rate percent is:",
+        "as": "যদি সৰল সুতত এটা ধন 20 বছৰত তিনিগুণ হয়, সুতৰ হাৰ কিমান?"
+      },
+      "options": [
+        { "en": "10%", "as": "10%" },
+        { "en": "15%", "as": "15%" },
+        { "en": "5%", "as": "5%" },
+        { "en": "20%", "as": "20%" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "SI = 2P in 20 years, so R = 200/20 = 10%.",
+        "as": "20 বছৰত সুত = 2 × মূলধন, গতিকে হাৰ = 200/20 = 10%।"
+      }
+    },
+    {
+      "q": {
+        "en": "The average of 2, 3, 4, 5 and 6 is:",
+        "as": "2, 3, 4, 5 আৰু 6 ৰ গড় কিমান?"
+      },
+      "options": [
+        { "en": "4", "as": "4" },
+        { "en": "5", "as": "5" },
+        { "en": "3", "as": "3" },
+        { "en": "4.5", "as": "4.5" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sum = 20, average = 20/5 = 4.",
+        "as": "যোগফল = 20, গড় = 20/5 = 4।"
+      }
+    },
+    {
+      "q": {
+        "en": "The compound interest on 5000 at 10% per annum for 2 years is:",
+        "as": "5000 টকাৰ ওপৰত বছৰি 10% হাৰে 2 বছৰৰ চক্ৰবৃদ্ধি সুত কিমান?"
+      },
+      "options": [
+        { "en": "1050", "as": "1050" },
+        { "en": "1000", "as": "1000" },
+        { "en": "500", "as": "500" },
+        { "en": "1100", "as": "1100" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Amount = 5000 × (1.1)² = 6050, so CI = 1050.",
+        "as": "মুঠ ধন = 5000 × (1.1)² = 6050, গতিকে চক্ৰবৃদ্ধি সুত = 1050।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 5 kg of rice costs 250, then the cost of 8 kg is:",
+        "as": "যদি 5 কি.গ্ৰা. চাউলৰ দাম 250 হয়, তেন্তে 8 কি.গ্ৰা.ৰ দাম কিমান?"
+      },
+      "options": [
+        { "en": "400", "as": "400" },
+        { "en": "350", "as": "350" },
+        { "en": "450", "as": "450" },
+        { "en": "320", "as": "320" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Cost per kg = 50; 8 kg costs 8 × 50 = 400.",
+        "as": "প্ৰতি কি.গ্ৰা.ৰ দাম = 50; 8 কি.গ্ৰা.ৰ দাম = 8 × 50 = 400।"
+      }
+    },
+    {
+      "q": {
+        "en": "A 60 L mixture has milk and water in the ratio 2 : 1. After adding 12 L of water, the new ratio of milk to water is:",
+        "as": "60 লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী 2 : 1 অনুপাতত আছে। 12 লিটাৰ পানী যোগ কৰাৰ পিছত গাখীৰ আৰু পানীৰ নতুন অনুপাত কিমান?"
+      },
+      "options": [
+        { "en": "5 : 4", "as": "5 : 4" },
+        { "en": "4 : 5", "as": "4 : 5" },
+        { "en": "2 : 1", "as": "2 : 1" },
+        { "en": "3 : 2", "as": "3 : 2" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Milk = 40 L, water = 20 + 12 = 32 L, so the ratio is 40 : 32 = 5 : 4.",
+        "as": "গাখীৰ = 40 লিটাৰ, পানী = 20 + 12 = 32 লিটাৰ, গতিকে অনুপাত 40 : 32 = 5 : 4।"
+      }
+    },
+    {
+      "q": {
+        "en": "The simple interest on 200 at 5% per annum for 4 years is:",
+        "as": "200 টকাৰ ওপৰত বছৰি 5% হাৰে 4 বছৰৰ সৰল সুত কিমান?"
+      },
+      "options": [
+        { "en": "40", "as": "40" },
+        { "en": "20", "as": "20" },
+        { "en": "50", "as": "50" },
+        { "en": "10", "as": "10" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "SI = 200 × 5 × 4/100 = 40.",
+        "as": "সৰল সুত = 200 × 5 × 4/100 = 40।"
+      }
+    },
+    {
+      "q": {
+        "en": "The compound interest on 1000 at 10% per annum for 3 years is:",
+        "as": "1000 টকাৰ ওপৰত বছৰি 10% হাৰে 3 বছৰৰ চক্ৰবৃদ্ধি সুত কিমান?"
+      },
+      "options": [
+        { "en": "331", "as": "331" },
+        { "en": "300", "as": "300" },
+        { "en": "310", "as": "310" },
+        { "en": "321", "as": "321" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Amount = 1000 × (1.1)³ = 1331, so CI = 331.",
+        "as": "মুঠ ধন = 1000 × (1.1)³ = 1331, গতিকে চক্ৰবৃদ্ধি সুত = 331।"
+      }
+    },
+    {
+      "q": {
+        "en": "If a sum becomes 1.5 times in 5 years at simple interest, the rate percent is:",
+        "as": "যদি সৰল সুতত এটা ধন 5 বছৰত 1.5 গুণ হয়, সুতৰ হাৰ কিমান?"
+      },
+      "options": [
+        { "en": "10%", "as": "10%" },
+        { "en": "5%", "as": "5%" },
+        { "en": "15%", "as": "15%" },
+        { "en": "20%", "as": "20%" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "SI = 0.5P in 5 years, so R = 50/5 = 10%.",
+        "as": "5 বছৰত সুত = 0.5 × মূলধন, গতিকে হাৰ = 50/5 = 10%।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a 30 L mixture of milk and water in the ratio 4 : 1, the quantity of milk is:",
+        "as": "4 : 1 অনুপাতত থকা 30 লিটাৰ গাখীৰ-পানীৰ মিশ্ৰণত গাখীৰৰ পৰিমাণ কিমান?"
+      },
+      "options": [
+        { "en": "24 L", "as": "24 লিটাৰ" },
+        { "en": "6 L", "as": "6 লিটাৰ" },
+        { "en": "20 L", "as": "20 লিটাৰ" },
+        { "en": "25 L", "as": "25 লিটাৰ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Milk = (4/5) × 30 = 24 L.",
+        "as": "গাখীৰ = (4/5) × 30 = 24 লিটাৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The formula for the amount under compound interest is:",
+        "as": "চক্ৰবৃদ্ধি সুতত মুঠ ধনৰ সূত্ৰ কি?"
+      },
+      "options": [
+        { "en": "A = P(1 + R/100)ⁿ", "as": "A = P(1 + R/100)ⁿ" },
+        { "en": "A = P + PRT", "as": "A = P + PRT" },
+        { "en": "A = P(1 − R/100)ⁿ", "as": "A = P(1 − R/100)ⁿ" },
+        { "en": "A = PRT/100", "as": "A = PRT/100" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The compound interest formula for amount is A = P(1 + R/100)ⁿ.",
+        "as": "চক্ৰবৃদ্ধি সুতৰ মুঠ ধনৰ সূত্ৰ A = P(1 + R/100)ⁿ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The simple interest on 1500 at 8% per annum for 2 years is:",
+        "as": "1500 টকাৰ ওপৰত বছৰি 8% হাৰে 2 বছৰৰ সৰল সুত কিমান?"
+      },
+      "options": [
+        { "en": "240", "as": "240" },
+        { "en": "120", "as": "120" },
+        { "en": "180", "as": "180" },
+        { "en": "300", "as": "300" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "SI = 1500 × 8 × 2/100 = 240.",
+        "as": "সৰল সুত = 1500 × 8 × 2/100 = 240।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 10% of a 200 g mixture is salt, the quantity of salt is:",
+        "as": "যদি 200 গ্ৰাম মিশ্ৰণৰ 10% লৱণ হয়, লৱণৰ পৰিমাণ কিমান?"
+      },
+      "options": [
+        { "en": "20 g", "as": "20 গ্ৰাম" },
+        { "en": "10 g", "as": "10 গ্ৰাম" },
+        { "en": "2 g", "as": "2 গ্ৰাম" },
+        { "en": "180 g", "as": "180 গ্ৰাম" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Salt = 10% of 200 = 20 g.",
+        "as": "লৱণ = 200 ৰ 10% = 20 গ্ৰাম।"
+      }
+    },
+    {
+      "q": {
+        "en": "The principal that yields 60 as simple interest at 5% per annum in 3 years is:",
+        "as": "বছৰি 5% হাৰে 3 বছৰত 60 সৰল সুত দিয়া মূলধন কিমান?"
+      },
+      "options": [
+        { "en": "400", "as": "400" },
+        { "en": "300", "as": "300" },
+        { "en": "500", "as": "500" },
+        { "en": "600", "as": "600" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "P = (SI × 100)/(R × T) = (60 × 100)/(5 × 3) = 400.",
+        "as": "মূলধন = (সুত × 100)/(হাৰ × সময়) = (60 × 100)/(5 × 3) = 400।"
       }
     }
   ]
