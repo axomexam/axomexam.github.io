@@ -1,35 +1,731 @@
 {
-  "setNumber": 10,
-  "title": "Set 10",
+  "setNumber": 6,
+  "title": "Set 6",
   "subject": "Assam History",
   "questions": [
     {
       "q": {
-        "en": "Questions for this set will be added soon.",
-        "as": "এই ছেটৰ প্ৰশ্নসমূহ সোনকালে যোগ কৰা হ'ব।"
+        "en": "Who was the first Chief Minister of independent Assam?",
+        "as": "স্বাধীন অসমৰ প্ৰথম মুখ্যমন্ত্ৰী কোন আছিল?"
       },
       "options": [
         {
-          "en": "Option A",
-          "as": "বিকল্প A"
+          "en": "Muhammad Saadulla",
+          "as": "মহম্মদ ছাদুল্লা"
         },
         {
-          "en": "Option B",
-          "as": "বিকল্প B"
+          "en": "Bimala Prasad Chaliha",
+          "as": "বিমলা প্ৰসাদ চলিহা"
         },
         {
-          "en": "Option C",
-          "as": "বিকল্প C"
+          "en": "Bishnuram Medhi",
+          "as": "বিষ্ণুৰাম মেধি"
         },
         {
-          "en": "Option D",
-          "as": "বিকল্প D"
+          "en": "Gopinath Bordoloi",
+          "as": "গোপীনাথ বৰদলৈ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Gopinath Bordoloi was the first Chief Minister of independent Assam.",
+        "as": "গোপীনাথ বৰদলৈ স্বাধীন অসমৰ প্ৰথম মুখ্যমন্ত্ৰী আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Gopinath Bordoloi was posthumously awarded which highest Indian civilian honour?",
+        "as": "গোপীনাথ বৰদলৈক মৰণোত্তৰভাৱে কোন সৰ্বোচ্চ ভাৰতীয় অসামৰিক সন্মান প্ৰদান কৰা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Bharat Ratna",
+          "as": "ভাৰত ৰত্ন"
+        },
+        {
+          "en": "Param Vir Chakra",
+          "as": "পৰম বীৰ চক্ৰ"
+        },
+        {
+          "en": "Padma Shri",
+          "as": "পদ্মশ্ৰী"
+        },
+        {
+          "en": "Padma Vibhushan",
+          "as": "পদ্ম বিভূষণ"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "This set is being updated. Please check back soon.",
-        "as": "এই ছেটটো আপডেট কৰা হৈছে। অনুগ্ৰহ কৰি সোনকালে পুনৰ চাওক।"
+        "en": "Gopinath Bordoloi was awarded the Bharat Ratna posthumously.",
+        "as": "গোপীনাথ বৰদলৈক মৰণোত্তৰভাৱে ভাৰত ৰত্ন প্ৰদান কৰা হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Indian National Congress session was held at Guwahati in 1926?",
+        "as": "১৯২৬ চনত গুৱাহাটীত ভাৰতীয় জাতীয় কংগ্ৰেছৰ কোন অধিৱেশন অনুষ্ঠিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "The Lahore session",
+          "as": "লাহোৰ অধিৱেশন"
+        },
+        {
+          "en": "The Guwahati session of the INC",
+          "as": "কংগ্ৰেছৰ গুৱাহাটী অধিৱেশন"
+        },
+        {
+          "en": "The Calcutta session",
+          "as": "কলিকতা অধিৱেশন"
+        },
+        {
+          "en": "The Nagpur session",
+          "as": "নাগপুৰ অধিৱেশন"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Indian National Congress held its session at Guwahati in 1926.",
+        "as": "ভাৰতীয় জাতীয় কংগ্ৰেছে ১৯২৬ চনত গুৱাহাটীত অধিৱেশন অনুষ্ঠিত কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who presided over the 1926 Guwahati session of the Indian National Congress?",
+        "as": "১৯২৬ চনৰ কংগ্ৰেছ গুৱাহাটী অধিৱেশনৰ সভাপতিত্ব কোনে কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Jawaharlal Nehru",
+          "as": "জৱাহৰলাল নেহৰু"
+        },
+        {
+          "en": "Mahatma Gandhi",
+          "as": "মহাত্মা গান্ধী"
+        },
+        {
+          "en": "S. Srinivasa Iyengar",
+          "as": "এছ. শ্ৰীনিবাস আয়েঙ্গাৰ"
+        },
+        {
+          "en": "Subhas Chandra Bose",
+          "as": "সুভাষ চন্দ্ৰ বসু"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "S. Srinivasa Iyengar presided over the 1926 Guwahati session.",
+        "as": "এছ. শ্ৰীনিবাস আয়েঙ্গাৰে ১৯২৬ চনৰ গুৱাহাটী অধিৱেশনৰ সভাপতিত্ব কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Kanaklata Barua, a young freedom fighter, was shot dead during which movement?",
+        "as": "নাবালিকা স্বাধীনতা সংগ্ৰামী কনকলতা বৰুৱাক কোন আন্দোলনৰ সময়ত গুলীয়াই হত্যা কৰা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Khilafat Movement",
+          "as": "খিলাফত আন্দোলন"
+        },
+        {
+          "en": "Quit India Movement",
+          "as": "ভাৰত ত্যাগ আন্দোলন"
+        },
+        {
+          "en": "Civil Disobedience Movement",
+          "as": "আইন অমান্য আন্দোলন"
+        },
+        {
+          "en": "Non-Cooperation Movement",
+          "as": "অসহযোগ আন্দোলন"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Kanaklata Barua was shot dead during the Quit India Movement.",
+        "as": "কনকলতা বৰুৱাক ভাৰত ত্যাগ আন্দোলনৰ সময়ত গুলীয়াই হত্যা কৰা হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Kanaklata Barua was shot while trying to hoist the national flag at which place?",
+        "as": "কনকলতা বৰুৱাই কোন স্থানত জাতীয় পতাকা উত্তোলন কৰিবলৈ যাওঁতে গুলীবিদ্ধ হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Dispur",
+          "as": "দিছপুৰত"
+        },
+        {
+          "en": "Gohpur police station",
+          "as": "গহপুৰ থানাত"
+        },
+        {
+          "en": "Nagaon",
+          "as": "নগাঁৱত"
+        },
+        {
+          "en": "Jorhat",
+          "as": "যোৰহাটত"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Kanaklata Barua was shot at the Gohpur police station.",
+        "as": "কনকলতা বৰুৱাক গহপুৰ থানাত গুলীয়াই হত্যা কৰা হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Kushal Konwar, hanged by the British in 1943, was associated with which movement?",
+        "as": "১৯৪৩ চনত ব্ৰিটিছে ফাঁচি দিয়া কুশল কোঁৱৰ কোন আন্দোলনৰ সৈতে জড়িত আছিল?"
+      },
+      "options": [
+        {
+          "en": "Quit India Movement",
+          "as": "ভাৰত ত্যাগ আন্দোলন"
+        },
+        {
+          "en": "Non-Cooperation Movement",
+          "as": "অসহযোগ আন্দোলন"
+        },
+        {
+          "en": "Home Rule Movement",
+          "as": "হোম ৰুল আন্দোলন"
+        },
+        {
+          "en": "Swadeshi Movement",
+          "as": "স্বদেশী আন্দোলন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Kushal Konwar was associated with the Quit India Movement.",
+        "as": "কুশল কোঁৱৰ ভাৰত ত্যাগ আন্দোলনৰ সৈতে জড়িত আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Sarupathar railway derailment incident of 1942 is linked to which freedom fighter?",
+        "as": "১৯৪২ চনৰ শৰুপথাৰ ৰে'ল লাইনচ্যুত ঘটনা কোন স্বাধীনতা সংগ্ৰামীৰ সৈতে জড়িত?"
+      },
+      "options": [
+        {
+          "en": "Kanaklata Barua",
+          "as": "কনকলতা বৰুৱা"
+        },
+        {
+          "en": "Piyoli Phukan",
+          "as": "পিয়লি ফুকন"
+        },
+        {
+          "en": "Maniram Dewan",
+          "as": "মণিৰাম দেৱান"
+        },
+        {
+          "en": "Kushal Konwar",
+          "as": "কুশল কোঁৱৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Sarupathar railway derailment incident is linked to Kushal Konwar.",
+        "as": "শৰুপাথাৰ ৰে'ল লাইনচ্যুত ঘটনা কুশল কোঁৱৰৰ সৈতে জড়িত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who was the second Chief Minister of Assam?",
+        "as": "অসমৰ দ্বিতীয় মুখ্যমন্ত্ৰী কোন আছিল?"
+      },
+      "options": [
+        {
+          "en": "Bimala Prasad Chaliha",
+          "as": "বিমলা প্ৰসাদ চলিহা"
+        },
+        {
+          "en": "Gopinath Bordoloi",
+          "as": "গোপীনাথ বৰদলৈ"
+        },
+        {
+          "en": "Bishnuram Medhi",
+          "as": "বিষ্ণুৰাম মেধি"
+        },
+        {
+          "en": "Sarat Chandra Sinha",
+          "as": "সৰৎচন্দ্ৰ সিংহ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Bishnuram Medhi was the second Chief Minister of Assam.",
+        "as": "বিষ্ণুৰাম মেধি অসমৰ দ্বিতীয় মুখ্যমন্ত্ৰী আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Gopinath Bordoloi played a key role in preventing Assam from joining which proposed grouping before independence?",
+        "as": "স্বাধীনতাৰ পূৰ্বে অসমক কোন প্ৰস্তাৱিত গোটত যোগদান কৰাৰ পৰা ৰক্ষা কৰাত গোপীনাথ বৰদলৈয়ে মূল ভূমিকা লৈছিল?"
+      },
+      "options": [
+        {
+          "en": "A separate Ahom state",
+          "as": "পৃথক আহোম ৰাজ্য"
+        },
+        {
+          "en": "Merging with Burma",
+          "as": "বাৰ্মাৰ সৈতে সংযুক্তি"
+        },
+        {
+          "en": "Joining the princely states",
+          "as": "দেশীয় ৰাজ্যসমূহত যোগদান"
+        },
+        {
+          "en": "Grouping with Pakistan in the Cabinet Mission Plan",
+          "as": "কেবিনেট মিছন প্লেনত পাকিস্তানৰ সৈতে গোট গঠন"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Bordoloi opposed Assam's grouping with Pakistan under the Cabinet Mission Plan.",
+        "as": "বৰদলৈয়ে কেবিনেট মিছন প্লেনৰ অধীনত অসমক পাকিস্তানৰ সৈতে গোট কৰাৰ বিৰোধিতা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "In the Non-Cooperation Movement, which Assam leader gave up his legal practice to join the struggle?",
+        "as": "অসহযোগ আন্দোলনত কোন অসম নেতাই সংগ্ৰামত যোগদান কৰিবলৈ তেওঁৰ আইনী অনুশীলন ত্যাগ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Maniram Dewan",
+          "as": "মণিৰাম দেৱান"
+        },
+        {
+          "en": "Gopinath Bordoloi",
+          "as": "গোপীনাথ বৰদলৈ"
+        },
+        {
+          "en": "David Scott",
+          "as": "ডেভিড স্কট"
+        },
+        {
+          "en": "Anandaram Dhekial Phukan",
+          "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Gopinath Bordoloi gave up his legal practice to join the Non-Cooperation Movement.",
+        "as": "গোপীনাথ বৰদলৈয়ে অসহযোগ আন্দোলনত যোগদান কৰিবলৈ তেওঁৰ আইনী অনুশীলন ত্যাগ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Assam Pradesh Congress Committee was formed in which year?",
+        "as": "অসম প্ৰদেশ কংগ্ৰেছ কমিটি কোন চনত গঠিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1921",
+          "as": "১৯২১"
+        },
+        {
+          "en": "1885",
+          "as": "১৮৮৫"
+        },
+        {
+          "en": "1947",
+          "as": "১৯৪৭"
+        },
+        {
+          "en": "1903",
+          "as": "১৯'০৩"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Assam Pradesh Congress Committee was formed in 1921.",
+        "as": "অসম প্ৰদেশ কংগ্ৰেছ কমিটি ১৯২১ চনত গঠিত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Asam Sahitya Sabha, the premier literary body of Assam, was founded in which year?",
+        "as": "অসমৰ প্ৰধান সাহিত্য সংস্থা অসম সাহিত্য সভা কোন চনত প্ৰতিষ্ঠা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1889",
+          "as": "১৮৮৯"
+        },
+        {
+          "en": "1903",
+          "as": "১৯'০৩"
+        },
+        {
+          "en": "1917",
+          "as": "১৯১৭"
+        },
+        {
+          "en": "1921",
+          "as": "১৯২১"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Asam Sahitya Sabha was founded in 1917.",
+        "as": "অসম সাহিত্য সভা ১৯১৭ চনত প্ৰতিষ্ঠা হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Gauhati University, the first university of Assam, was established in which year?",
+        "as": "অসমৰ প্ৰথম বিশ্ববিদ্যালয় গুৱাহাটী বিশ্ববিদ্যালয় কোন চনত স্থাপিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1947",
+          "as": "১৯৪৭"
+        },
+        {
+          "en": "1921",
+          "as": "১৯২১"
+        },
+        {
+          "en": "1960",
+          "as": "১৯৬০"
+        },
+        {
+          "en": "1948",
+          "as": "১৯৪৮"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Gauhati University was established in 1948.",
+        "as": "গুৱাহাটী বিশ্ববিদ্যালয় ১৯৪৮ চনত স্থাপিত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Assamese writer won the Jnanpith Award for the novel 'Mrityunjay'?",
+        "as": "কোন অসমীয়া লেখকে 'মৃতুঞ্জয়' উপন্যাসৰ বাবে জ্ঞানপীঠ বঁটা লাভ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Birendra Kumar Bhattacharya",
+          "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+        },
+        {
+          "en": "Mamoni Raisom Goswami",
+          "as": "মামণি ৰয়ছম গোস্বামী"
+        },
+        {
+          "en": "Nilamani Phukan",
+          "as": "নীলমণি ফুকন"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Birendra Kumar Bhattacharya won the Jnanpith Award for his novel 'Mrityunjay'.",
+        "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যই তেওঁৰ 'মৃতুঞ্জয়' উপন্যাসৰ বাবে জ্ঞানপীঠ বঁটা লাভ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The capital of Assam was shifted from Shillong to Dispur in which year?",
+        "as": "অসমৰ ৰাজধানী শিলঙৰ পৰা দিছপুৰলৈ স্থানান্তৰ কৰা হয় কোন চনত?"
+      },
+      "options": [
+        {
+          "en": "1985",
+          "as": "১৯৮৫"
+        },
+        {
+          "en": "1947",
+          "as": "১৯৪৭"
+        },
+        {
+          "en": "1973",
+          "as": "১৯৭৩"
+        },
+        {
+          "en": "1960",
+          "as": "১৯৬০"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The capital was shifted from Shillong to Dispur in 1973.",
+        "as": "১৯৭৩ চনত ৰাজধানী শিলঙৰ পৰা দিছপুৰলৈ স্থানান্তৰ কৰা হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Assam Movement, led by the All Assam Students' Union, began in which year?",
+        "as": "সৰ্ব অসম ছাত্ৰ সন্থাৰ নেতৃত্বত অসম আন্দোলন কোন চনত আৰম্ভ হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1966",
+          "as": "১৯৬৬"
+        },
+        {
+          "en": "1971",
+          "as": "১৯৭১"
+        },
+        {
+          "en": "1979",
+          "as": "১৯৭৯"
+        },
+        {
+          "en": "1985",
+          "as": "১৯৮৫"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Assam Movement began in 1979.",
+        "as": "অসম আন্দোলন ১৯৭৯ চনত আৰম্ভ হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Assam Accord, which concluded the Assam Movement, was signed in which year?",
+        "as": "অসম আন্দোলন সমাপ্ত কৰা অসম চুক্তি কোন চনত স্বাক্ষৰিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1985",
+          "as": "১৯৮৫"
+        },
+        {
+          "en": "1963",
+          "as": "১৯৬৩"
+        },
+        {
+          "en": "1979",
+          "as": "১৯৭৯"
+        },
+        {
+          "en": "1972",
+          "as": "১৯৭২"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Assam Accord was signed in 1985.",
+        "as": "অসম চুক্তি ১৯৮৫ চনত স্বাক্ষৰিত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Under the Assam Accord, a cut-off date of which year was fixed for detection of foreigners?",
+        "as": "অসম চুক্তিৰ অধীনত বিদেশী চিনাক্তকৰণৰ বাবে কোন চনক কাট-অফ তাৰিখ হিচাপে নিৰ্ধাৰণ কৰা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1966",
+          "as": "১৯৬৬"
+        },
+        {
+          "en": "1947",
+          "as": "১৯৪৭"
+        },
+        {
+          "en": "1985",
+          "as": "১৯৮৫"
+        },
+        {
+          "en": "1971",
+          "as": "১৯৭১"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Assam Accord fixed 1971 as the cut-off date for detection of foreigners.",
+        "as": "অসম চুক্তিয়ে বিদেশী চিনাক্তকৰণৰ বাবে ১৯৭১ চনক কাট-অফ তাৰিখ নিৰ্ধাৰণ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which state was carved out of Assam in 1963?",
+        "as": "১৯৬৩ চনত অসমৰ পৰা কোন ৰাজ্য পৃথক কৰা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Arunachal Pradesh",
+          "as": "অৰুণাচল প্ৰদেশ"
+        },
+        {
+          "en": "Meghalaya",
+          "as": "মেঘালয়"
+        },
+        {
+          "en": "Mizoram",
+          "as": "মিজোৰাম"
+        },
+        {
+          "en": "Nagaland",
+          "as": "নাগালেণ্ড"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Nagaland was carved out of Assam in 1963.",
+        "as": "১৯৬৩ চনত অসমৰ পৰা নাগালেণ্ড পৃথক কৰা হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Meghalaya attained full statehood after being carved out of Assam in which year?",
+        "as": "অসমৰ পৰা পৃথক হৈ মেঘালয়ে কোন চনত পূৰ্ণ ৰাজ্যৰ মৰ্যাদা লাভ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "1972",
+          "as": "১৯৭২"
+        },
+        {
+          "en": "1971",
+          "as": "১৯৭১"
+        },
+        {
+          "en": "1963",
+          "as": "১৯৬৩"
+        },
+        {
+          "en": "1987",
+          "as": "১৯৮৭"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Meghalaya became a full state in 1972.",
+        "as": "মেঘালয় ১৯৭২ চনত পূৰ্ণ ৰাজ্য হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who was the Governor of Assam at the time of India's independence in 1947?",
+        "as": "১৯৪৭ চনত ভাৰতৰ স্বাধীনতাৰ সময়ত অসমৰ গৱৰ্ণৰ কোন আছিল?"
+      },
+      "options": [
+        {
+          "en": "Sir John Kerr",
+          "as": "ছাৰ জন কেৰ"
+        },
+        {
+          "en": "Sir Muhammad Saleh Akbar Hydari",
+          "as": "ছাৰ মহম্মদ চালেহ আকবৰ হাইদৰী"
+        },
+        {
+          "en": "Sir Robert Reid",
+          "as": "ছাৰ ৰবাৰ্ট ৰেইড"
+        },
+        {
+          "en": "Sir Archdale Earle",
+          "as": "ছাৰ আৰ্চডেল আৰ্ল"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Sir Muhammad Saleh Akbar Hydari was the Governor of Assam in 1947.",
+        "as": "ছাৰ মহম্মদ চালেহ আকবৰ হাইদৰী ১৯৪৭ চনত অসমৰ গৱৰ্ণৰ আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Anandaram Dhekial Phukan is remembered as a pioneer of which cause in Assam?",
+        "as": "আনন্দৰাম ঢেকিয়াল ফুকন অসমত কোন কাৰ্যৰ অগ্ৰণী হিচাপে স্মৰণ কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Oil exploration",
+          "as": "তেল অনুসন্ধান"
+        },
+        {
+          "en": "Railway construction",
+          "as": "ৰে'লপথ নিৰ্মাণ"
+        },
+        {
+          "en": "Assamese language and education",
+          "as": "অসমীয়া ভাষা আৰু শিক্ষা"
+        },
+        {
+          "en": "Tea industry",
+          "as": "চাহ উদ্যোগ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Anandaram Dhekial Phukan is remembered as a pioneer of Assamese language and education.",
+        "as": "আনন্দৰাম ঢেকিয়াল ফুকন অসমীয়া ভাষা আৰু শিক্ষাৰ অগ্ৰণী হিচাপে স্মৰণ কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Assam Medical College', one of the oldest in India, is located at which place?",
+        "as": "ভাৰতৰ আটাইতকৈ পুৰণি চিকিৎসা মহাবিদ্যালয়ৰ এটা 'অসম চিকিৎসা মহাবিদ্যালয়' কোন স্থানত অৱস্থিত?"
+      },
+      "options": [
+        {
+          "en": "Jorhat",
+          "as": "যোৰহাট"
+        },
+        {
+          "en": "Guwahati",
+          "as": "গুৱাহাটী"
+        },
+        {
+          "en": "Dibrugarh",
+          "as": "ডিব্ৰুগড়"
+        },
+        {
+          "en": "Silchar",
+          "as": "শিলচৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Assam Medical College is located at Dibrugarh.",
+        "as": "অসম চিকিৎসা মহাবিদ্যালয় ডিব্ৰুগড়ত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who was the first Assamese to be awarded the Dada Saheb Phalke Award for contributions to cinema?",
+        "as": "চলচ্চিত্ৰলৈ অৱদানৰ বাবে দাদা চাহেব ফাল্কে বঁটা প্ৰাপ্ত প্ৰথম অসমীয়া কোন?"
+      },
+      "options": [
+        {
+          "en": "Bhupen Hazarika",
+          "as": "ভূপেন হাজৰিকা"
+        },
+        {
+          "en": "Bishnu Prasad Rabha",
+          "as": "বিষ্ণু প্ৰসাদ ৰাভা"
+        },
+        {
+          "en": "Jyoti Prasad Agarwala",
+          "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
+        },
+        {
+          "en": "Phani Sarma",
+          "as": "ফণী শৰ্মা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Bhupen Hazarika received the Dada Saheb Phalke Award.",
+        "as": "ভূপেন হাজৰিকাই দাদা চাহেব ফাল্কে বঁটা লাভ কৰিছিল।"
       }
     }
   ]
