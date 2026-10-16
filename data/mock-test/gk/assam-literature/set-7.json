@@ -1,35 +1,731 @@
 {
-  "setNumber": 7,
-  "title": "Set 7",
+  "setNumber": 3,
+  "title": "Set 3",
   "subject": "Assam Literature",
   "questions": [
     {
       "q": {
-        "en": "Questions for this set will be added soon.",
-        "as": "এই ছেটৰ প্ৰশ্নসমূহ সোনকালে যোগ কৰা হ'ব।"
+        "en": "Which was the first Assamese newspaper?",
+        "as": "প্ৰথম অসমীয়া বাতৰি কাকতখন কি আছিল?"
       },
       "options": [
         {
-          "en": "Option A",
-          "as": "বিকল্প A"
+          "en": "Banhi",
+          "as": "বাঁহী"
         },
         {
-          "en": "Option B",
-          "as": "বিকল্প B"
+          "en": "Orunodoi",
+          "as": "অৰুণোদই"
         },
         {
-          "en": "Option C",
-          "as": "বিকল্প C"
+          "en": "Jonaki",
+          "as": "জোনাকী"
         },
         {
-          "en": "Option D",
-          "as": "বিকল্প D"
+          "en": "Assam Bilasini",
+          "as": "অসম বিলাসিনী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Orunodoi was the first Assamese newspaper.",
+        "as": "অৰুণোদই প্ৰথম অসমীয়া বাতৰি কাকত আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "In which year was 'Orunodoi' first published?",
+        "as": "'অৰুণোদই' কোন চনত প্ৰথম প্ৰকাশিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1836",
+          "as": "১৮৩৬"
+        },
+        {
+          "en": "1846",
+          "as": "১৮৪৬"
+        },
+        {
+          "en": "1889",
+          "as": "১৮৮৯"
+        },
+        {
+          "en": "1873",
+          "as": "১৮৭৩"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Orunodoi was first published in 1846.",
+        "as": "অৰুণোদই ১৮৪৬ চনত প্ৰথম প্ৰকাশিত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Orunodoi was started by which organisation?",
+        "as": "অৰুণোদই কোন সংস্থাই আৰম্ভ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "American Baptist Mission",
+          "as": "আমেৰিকান বেপ্তিষ্ট মিছন"
+        },
+        {
+          "en": "Assam Association",
+          "as": "অসম এছ'চিয়েছন"
+        },
+        {
+          "en": "Asam Sahitya Sabha",
+          "as": "অসম সাহিত্য সভা"
+        },
+        {
+          "en": "British East India Company",
+          "as": "ব্ৰিটিছ ইষ্ট ইণ্ডিয়া কোম্পানী"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "This set is being updated. Please check back soon.",
-        "as": "এই ছেটটো আপডেট কৰা হৈছে। অনুগ্ৰহ কৰি সোনকালে পুনৰ চাওক।"
+        "en": "Orunodoi was started by the American Baptist Mission.",
+        "as": "অৰুণোদই আমেৰিকান বেপ্তিষ্ট মিছনে আৰম্ভ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which American missionary was closely associated with the early Assamese press and Orunodoi?",
+        "as": "প্ৰাৰম্ভিক অসমীয়া ছপাশাল আৰু অৰুণোদইৰ সৈতে কোন আমেৰিকান মিছনেৰী জড়িত আছিল?"
+      },
+      "options": [
+        {
+          "en": "Miles Bronson",
+          "as": "মাইলছ ব্ৰন্ছন"
+        },
+        {
+          "en": "Francis Jenkins",
+          "as": "ফ্ৰান্সিছ জেনকিন্স"
+        },
+        {
+          "en": "Nathan Brown",
+          "as": "নাথান ব্ৰাউন"
+        },
+        {
+          "en": "David Scott",
+          "as": "ডেভিড স্কট"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Nathan Brown was closely associated with the early Assamese press and Orunodoi.",
+        "as": "নাথান ব্ৰাউন প্ৰাৰম্ভিক অসমীয়া ছপাশাল আৰু অৰুণোদইৰ সৈতে ঘনিষ্ঠভাৱে জড়িত আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote 'A Few Remarks on the Assamese Language and on Vernacular Education in Assam'?",
+        "as": "'A Few Remarks on the Assamese Language and on Vernacular Education in Assam' কোনে লিখিছিল?"
+      },
+      "options": [
+        {
+          "en": "Anandaram Dhekial Phukan",
+          "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+        },
+        {
+          "en": "Hemchandra Baruah",
+          "as": "হেমচন্দ্ৰ বৰুৱা"
+        },
+        {
+          "en": "Gunabhiram Barua",
+          "as": "গুণাভিৰাম বৰুৱা"
+        },
+        {
+          "en": "Nathan Brown",
+          "as": "নাথান ব্ৰাউন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Anandaram Dhekial Phukan wrote this essay in defence of the Assamese language.",
+        "as": "আনন্দৰাম ঢেকিয়াল ফুকনে অসমীয়া ভাষাৰ সপক্ষে এই প্ৰবন্ধ লিখিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Assamese dictionary 'Hemkosh' was compiled by whom?",
+        "as": "অসমীয়া অভিধান 'হেমকোষ' কোনে সংকলন কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Hemchandra Goswami",
+          "as": "হেমচন্দ্ৰ গোস্বামী"
+        },
+        {
+          "en": "Hemchandra Baruah",
+          "as": "হেমচন্দ্ৰ বৰুৱা"
+        },
+        {
+          "en": "Banikanta Kakati",
+          "as": "বাণীকান্ত কাকতি"
+        },
+        {
+          "en": "Anandaram Dhekial Phukan",
+          "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Hemkosh was compiled by Hemchandra Baruah.",
+        "as": "হেমকোষ হেমচন্দ্ৰ বৰুৱাই সংকলন কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who authored the Assamese grammar 'Assamiya Byakaran'?",
+        "as": "অসমীয়া ব্যাকৰণ 'অসমীয়া ব্যাকৰণ' কোনে ৰচনা কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Gunabhiram Barua",
+          "as": "গুণাভিৰাম বৰুৱা"
+        },
+        {
+          "en": "Hemchandra Baruah",
+          "as": "হেমচন্দ্ৰ বৰুৱা"
+        },
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        },
+        {
+          "en": "Kaliram Medhi",
+          "as": "কালিৰাম মেধি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Hemchandra Baruah authored 'Assamiya Byakaran'.",
+        "as": "হেমচন্দ্ৰ বৰুৱাই 'অসমীয়া ব্যাকৰণ' ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is regarded as the father of modern Assamese prose?",
+        "as": "আধুনিক অসমীয়া গদ্যৰ জনক বুলি কাক গণ্য কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Anandaram Dhekial Phukan",
+          "as": "আনন্দৰাম ঢেকিয়াল ফুকন"
+        },
+        {
+          "en": "Nathan Brown",
+          "as": "নাথান ব্ৰাউন"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Hemchandra Baruah",
+          "as": "হেমচন্দ্ৰ বৰুৱা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Hemchandra Baruah is regarded as the father of modern Assamese prose.",
+        "as": "হেমচন্দ্ৰ বৰুৱাক আধুনিক অসমীয়া গদ্যৰ জনক বুলি গণ্য কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the first Assamese drama 'Ram-Navami'?",
+        "as": "প্ৰথম অসমীয়া নাটক 'ৰাম-নৱমী' কোনে ৰচনা কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Gunabhiram Barua",
+          "as": "গুণাভিৰাম বৰুৱা"
+        },
+        {
+          "en": "Jyoti Prasad Agarwala",
+          "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+        },
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Gunabhiram Barua wrote 'Ram-Navami', regarded as the first Assamese drama.",
+        "as": "গুণাভিৰাম বৰুৱাই 'ৰাম-নৱমী' লিখিছিল, যাক প্ৰথম অসমীয়া নাটক বুলি গণ্য কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which journal was started by Gunabhiram Barua?",
+        "as": "গুণাভিৰাম বৰুৱাই কোন আলোচনী আৰম্ভ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Banhi",
+          "as": "বাঁহী"
+        },
+        {
+          "en": "Orunodoi",
+          "as": "অৰুণোদই"
+        },
+        {
+          "en": "Assam Bandhu",
+          "as": "অসম বন্ধু"
+        },
+        {
+          "en": "Jonaki",
+          "as": "জোনাকী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Gunabhiram Barua started the journal 'Assam Bandhu'.",
+        "as": "গুণাভিৰাম বৰুৱাই 'অসম বন্ধু' আলোচনী আৰম্ভ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which was the first Assamese magazine?",
+        "as": "প্ৰথম অসমীয়া আলোচনীখন কি আছিল?"
+      },
+      "options": [
+        {
+          "en": "Ramdhenu",
+          "as": "ৰামধেনু"
+        },
+        {
+          "en": "Assam Bilasini",
+          "as": "অসম বিলাসিনী"
+        },
+        {
+          "en": "Jonaki",
+          "as": "জোনাকী"
+        },
+        {
+          "en": "Banhi",
+          "as": "বাঁহী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Assam Bilasini (1871) was the first Assamese magazine.",
+        "as": "অসম বিলাসিনী (১৮৭১) প্ৰথম অসমীয়া আলোচনী আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "In which year was Bengali imposed as the official language of Assam?",
+        "as": "কোন চনত অসমত বাংলাক চৰকাৰী ভাষা হিচাপে জাপি দিয়া হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1846",
+          "as": "১৮৪৬"
+        },
+        {
+          "en": "1905",
+          "as": "১৯০৫"
+        },
+        {
+          "en": "1836",
+          "as": "১৮৩৬"
+        },
+        {
+          "en": "1873",
+          "as": "১৮৭৩"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Bengali was imposed as the official language of Assam in 1836.",
+        "as": "১৮৩৬ চনত অসমত বাংলাক চৰকাৰী ভাষা হিচাপে জাপি দিয়া হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Assamese was restored as the official language of Assam in which year?",
+        "as": "অসমীয়াক অসমৰ চৰকাৰী ভাষা হিচাপে পুনৰ বহাল কৰা হয় কোন চনত?"
+      },
+      "options": [
+        {
+          "en": "1917",
+          "as": "১৯১৭"
+        },
+        {
+          "en": "1873",
+          "as": "১৮৭৩"
+        },
+        {
+          "en": "1900",
+          "as": "১৯'০০"
+        },
+        {
+          "en": "1836",
+          "as": "১৮৩৬"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Assamese was restored as the official language in 1873.",
+        "as": "১৮৭৩ চনত অসমীয়াক চৰকাৰী ভাষা হিচাপে পুনৰ বহাল কৰা হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is regarded as the first Assamese novelist?",
+        "as": "প্ৰথম অসমীয়া ঔপন্যাসিক বুলি কাক গণ্য কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Rajanikanta Bordoloi",
+          "as": "ৰজনীকান্ত বৰদলৈ"
+        },
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Gunabhiram Barua",
+          "as": "গুণাভিৰাম বৰুৱা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Padmanath Gohain Baruah is regarded as the first Assamese novelist.",
+        "as": "পদ্মনাথ গোহাঞিবৰুৱাক প্ৰথম অসমীয়া ঔপন্যাসিক বুলি গণ্য কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which work is considered the first Assamese novel?",
+        "as": "প্ৰথম অসমীয়া উপন্যাস বুলি কোনখনক গণ্য কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Manomati",
+          "as": "মনোমতী"
+        },
+        {
+          "en": "Miri Jiyori",
+          "as": "মিৰি জীয়ৰী"
+        },
+        {
+          "en": "Sadhukathar Kuki",
+          "as": "সাধুকথাৰ কুকি"
+        },
+        {
+          "en": "Bhanumati",
+          "as": "ভানুমতী"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Bhanumati, by Padmanath Gohain Baruah, is considered the first Assamese novel.",
+        "as": "পদ্মনাথ গোহাঞিবৰুৱাৰ ভানুমতীক প্ৰথম অসমীয়া উপন্যাস বুলি গণ্য কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Bhanumati', the first Assamese novel, was published in which year?",
+        "as": "প্ৰথম অসমীয়া উপন্যাস 'ভানুমতী' কোন চনত প্ৰকাশিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1846",
+          "as": "১৮৪৬"
+        },
+        {
+          "en": "1917",
+          "as": "১৯১৭"
+        },
+        {
+          "en": "1890",
+          "as": "১৮৯০"
+        },
+        {
+          "en": "1873",
+          "as": "১৮৭৩"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Bhanumati was published in 1890.",
+        "as": "ভানুমতী ১৮৯০ চনত প্ৰকাশিত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the novel 'Miri Jiyori'?",
+        "as": "'মিৰি জীয়ৰী' উপন্যাস কোনে লিখিছিল?"
+      },
+      "options": [
+        {
+          "en": "Dandinath Kalita",
+          "as": "দণ্ডিনাথ কলিতা"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Rajanikanta Bordoloi",
+          "as": "ৰজনীকান্ত বৰদলৈ"
+        },
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Rajanikanta Bordoloi wrote 'Miri Jiyori'.",
+        "as": "ৰজনীকান্ত বৰদলৈয়ে 'মিৰি জীয়ৰী' লিখিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Miri Jiyori' is set against the background of which community?",
+        "as": "'মিৰি জীয়ৰী' কোন জনগোষ্ঠীৰ পটভূমিত ৰচিত?"
+      },
+      "options": [
+        {
+          "en": "Mising (Miri)",
+          "as": "মিচিং (মিৰি)"
+        },
+        {
+          "en": "Bodo",
+          "as": "বড়ো"
+        },
+        {
+          "en": "Karbi",
+          "as": "কাৰ্বি"
+        },
+        {
+          "en": "Rabha",
+          "as": "ৰাভা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Miri Jiyori is set among the Mising (Miri) community.",
+        "as": "মিৰি জীয়ৰী মিচিং (মিৰি) জনগোষ্ঠীৰ পটভূমিত ৰচিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Hemkosh, the Assamese dictionary, was first published in which year?",
+        "as": "অসমীয়া অভিধান হেমকোষ কোন চনত প্ৰথম প্ৰকাশিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1900",
+          "as": "১৯'০০"
+        },
+        {
+          "en": "1846",
+          "as": "১৮৪৬"
+        },
+        {
+          "en": "1873",
+          "as": "১৮৭৩"
+        },
+        {
+          "en": "1917",
+          "as": "১৯১৭"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Hemkosh was first published in 1900.",
+        "as": "হেমকোষ ১৯'০০ চনত প্ৰথম প্ৰকাশিত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Orunodoi era' refers to which phase of Assamese literature?",
+        "as": "'অৰুণোদই যুগ'য়ে অসমীয়া সাহিত্যৰ কোন পৰ্বক বুজায়?"
+      },
+      "options": [
+        {
+          "en": "The ancient phase",
+          "as": "প্ৰাচীন পৰ্ব"
+        },
+        {
+          "en": "The mid-19th century phase",
+          "as": "১৯শ শতিকাৰ মাজভাগৰ পৰ্ব"
+        },
+        {
+          "en": "The 21st century phase",
+          "as": "২১শ শতিকাৰ পৰ্ব"
+        },
+        {
+          "en": "The medieval Vaishnavite phase",
+          "as": "মধ্যযুগীয় বৈষ্ণৱ পৰ্ব"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Orunodoi era refers to the mid-19th century phase of Assamese literature.",
+        "as": "অৰুণোদই যুগয়ে ১৯শ শতিকাৰ মাজভাগৰ অসমীয়া সাহিত্যৰ পৰ্বক বুজায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Anandaram Dhekial Phukan is closely associated with which cause?",
+        "as": "আনন্দৰাম ঢেকিয়াল ফুকন কোন কাৰ্যৰ সৈতে ঘনিষ্ঠভাৱে জড়িত?"
+      },
+      "options": [
+        {
+          "en": "Mobile theatre",
+          "as": "ভ্ৰাম্যমাণ থিয়েটাৰ"
+        },
+        {
+          "en": "The tea industry",
+          "as": "চাহ উদ্যোগ"
+        },
+        {
+          "en": "The Assamese language movement",
+          "as": "অসমীয়া ভাষা আন্দোলন"
+        },
+        {
+          "en": "Oil exploration",
+          "as": "তেল অনুসন্ধান"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Anandaram Dhekial Phukan is associated with the Assamese language movement.",
+        "as": "আনন্দৰাম ঢেকিয়াল ফুকন অসমীয়া ভাষা আন্দোলনৰ সৈতে জড়িত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Bible was translated into Assamese largely through the efforts of which mission?",
+        "as": "অসমীয়ালৈ বাইবেল অনুবাদ মূলতঃ কোন মিছনৰ প্ৰচেষ্টাত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Church of England",
+          "as": "চাৰ্চ অৱ ইংলেণ্ড"
+        },
+        {
+          "en": "London Missionary Society",
+          "as": "লণ্ডন মিছনেৰী ছ'চাইটি"
+        },
+        {
+          "en": "Salvation Army",
+          "as": "চালভেছন আৰ্মী"
+        },
+        {
+          "en": "American Baptist Mission",
+          "as": "আমেৰিকান বেপ্তিষ্ট মিছন"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Bible was translated into Assamese largely by the American Baptist Mission.",
+        "as": "অসমীয়ালৈ বাইবেল মূলতঃ আমেৰিকান বেপ্তিষ্ট মিছনে অনুবাদ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who was the first president of Asam Sahitya Sabha?",
+        "as": "অসম সাহিত্য সভাৰ প্ৰথম সভাপতি কোন আছিল?"
+      },
+      "options": [
+        {
+          "en": "Hemchandra Goswami",
+          "as": "হেমচন্দ্ৰ গোস্বামী"
+        },
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Chandra Kumar Agarwala",
+          "as": "চন্দ্ৰকুমাৰ আগৰৱালা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Padmanath Gohain Baruah was the first president of Asam Sahitya Sabha.",
+        "as": "পদ্মনাথ গোহাঞিবৰুৱা অসম সাহিত্য সভাৰ প্ৰথম সভাপতি আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The first session of Asam Sahitya Sabha was held at which place?",
+        "as": "অসম সাহিত্য সভাৰ প্ৰথম অধিৱেশন কোন স্থানত অনুষ্ঠিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Jorhat",
+          "as": "যোৰহাট"
+        },
+        {
+          "en": "Sivasagar",
+          "as": "শিৱসাগৰ"
+        },
+        {
+          "en": "Guwahati",
+          "as": "গুৱাহাটী"
+        },
+        {
+          "en": "Dibrugarh",
+          "as": "ডিব্ৰুগড়"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The first session of Asam Sahitya Sabha was held at Sivasagar.",
+        "as": "অসম সাহিত্য সভাৰ প্ৰথম অধিৱেশন শিৱসাগৰত অনুষ্ঠিত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is known by the title 'Kaviraj' in Assamese literature?",
+        "as": "অসমীয়া সাহিত্যত 'কবিৰাজ' উপাধিৰে কাক জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Hemchandra Goswami",
+          "as": "হেমচন্দ্ৰ গোস্বামী"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Hemchandra Baruah",
+          "as": "হেমচন্দ্ৰ বৰুৱা"
+        },
+        {
+          "en": "Raghunath Choudhary",
+          "as": "ৰঘুনাথ চৌধুৰী"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Hemchandra Goswami is known as 'Kaviraj'.",
+        "as": "হেমচন্দ্ৰ গোস্বামীক 'কবিৰাজ' বুলি জনা যায়।"
       }
     }
   ]
