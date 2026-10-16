@@ -5,31 +5,427 @@
   "questions": [
     {
       "q": {
-        "en": "If a : b = 2 : 3 and b : c = 4 : 5, then a : c is:",
-        "as": "যদি a : b = 2 : 3 আৰু b : c = 4 : 5 হয়, তেন্তে a : c কিমান?"
+        "en": "The ratio 15 : 25 in its simplest form is:",
+        "as": "15 : 25 অনুপাতক আটাইতকৈ সৰল ৰূপত লিখিলে কি হয়?"
       },
       "options": [
-        {
-          "en": "8 : 15",
-          "as": "8 : 15"
-        },
-        {
-          "en": "2 : 5",
-          "as": "2 : 5"
-        },
-        {
-          "en": "6 : 5",
-          "as": "6 : 5"
-        },
-        {
-          "en": "4 : 15",
-          "as": "4 : 15"
-        }
+        { "en": "3 : 5", "as": "3 : 5" },
+        { "en": "5 : 3", "as": "5 : 3" },
+        { "en": "15 : 25", "as": "15 : 25" },
+        { "en": "1 : 5", "as": "1 : 5" }
       ],
       "correct": 0,
       "explanation": {
-        "en": "a : b = 2 : 3 = 8 : 12 and b : c = 4 : 5 = 12 : 15, so a : c = 8 : 15.",
-        "as": "a : b = 2 : 3 = 8 : 12 আৰু b : c = 4 : 5 = 12 : 15, গতিকে a : c = 8 : 15।"
+        "en": "Dividing both terms by 5 gives 3 : 5.",
+        "as": "দুয়োটা পদক 5 ৰে হৰণ কৰি 3 : 5 পোৱা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "If a : b = 2 : 3 and b : c = 4 : 5, then a : c is:",
+        "as": "যদি a : b = 2 : 3 আৰু b : c = 4 : 5 হয়, তেন্তে a : c কি?"
+      },
+      "options": [
+        { "en": "8 : 15", "as": "8 : 15" },
+        { "en": "2 : 5", "as": "2 : 5" },
+        { "en": "3 : 5", "as": "3 : 5" },
+        { "en": "5 : 8", "as": "5 : 8" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "a : b : c = 8 : 12 : 15, so a : c = 8 : 15.",
+        "as": "a : b : c = 8 : 12 : 15, গতিকে a : c = 8 : 15।"
+      }
+    },
+    {
+      "q": {
+        "en": "The average of 2, 4, 6, 8 and 10 is:",
+        "as": "2, 4, 6, 8 আৰু 10 ৰ গড় কিমান?"
+      },
+      "options": [
+        { "en": "6", "as": "6" },
+        { "en": "5", "as": "5" },
+        { "en": "7", "as": "7" },
+        { "en": "8", "as": "8" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sum = 30, average = 30/5 = 6.",
+        "as": "যোগফল = 30, গড় = 30/5 = 6।"
+      }
+    },
+    {
+      "q": {
+        "en": "120 is divided in the ratio 2 : 3. The larger part is:",
+        "as": "120 ক 2 : 3 অনুপাতত ভাগ কৰা হ'ল। ডাঙৰ অংশটো কিমান?"
+      },
+      "options": [
+        { "en": "72", "as": "72" },
+        { "en": "48", "as": "48" },
+        { "en": "60", "as": "60" },
+        { "en": "80", "as": "80" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Larger part = (3/5) × 120 = 72.",
+        "as": "ডাঙৰ অংশ = (3/5) × 120 = 72।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 3 : 5 = x : 20, then x is:",
+        "as": "যদি 3 : 5 = x : 20 হয়, তেন্তে x ৰ মান কি?"
+      },
+      "options": [
+        { "en": "12", "as": "12" },
+        { "en": "15", "as": "15" },
+        { "en": "10", "as": "10" },
+        { "en": "18", "as": "18" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "3/5 = x/20 gives x = 12.",
+        "as": "3/5 = x/20 ৰপৰা x = 12।"
+      }
+    },
+    {
+      "q": {
+        "en": "The average of the first 10 natural numbers is:",
+        "as": "প্ৰথম 10 টা স্বাভাৱিক সংখ্যাৰ গড় কিমান?"
+      },
+      "options": [
+        { "en": "5.5", "as": "5.5" },
+        { "en": "5", "as": "5" },
+        { "en": "6", "as": "6" },
+        { "en": "10", "as": "10" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Average = (first + last)/2 = (1 + 10)/2 = 5.5.",
+        "as": "গড় = (প্ৰথম + শেষ)/2 = (1 + 10)/2 = 5.5।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the average of 5 numbers is 20, their sum is:",
+        "as": "যদি 5 টা সংখ্যাৰ গড় 20 হয়, সিহঁতৰ যোগফল কিমান?"
+      },
+      "options": [
+        { "en": "100", "as": "100" },
+        { "en": "25", "as": "25" },
+        { "en": "80", "as": "80" },
+        { "en": "120", "as": "120" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sum = average × number of terms = 20 × 5 = 100.",
+        "as": "যোগফল = গড় × পদ সংখ্যা = 20 × 5 = 100।"
+      }
+    },
+    {
+      "q": {
+        "en": "The ratio of 1 rupee to 50 paise is:",
+        "as": "1 টকা আৰু 50 পইচাৰ অনুপাত কিমান?"
+      },
+      "options": [
+        { "en": "2 : 1", "as": "2 : 1" },
+        { "en": "1 : 2", "as": "1 : 2" },
+        { "en": "1 : 50", "as": "1 : 50" },
+        { "en": "50 : 1", "as": "50 : 1" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "1 rupee = 100 paise, so the ratio = 100 : 50 = 2 : 1.",
+        "as": "1 টকা = 100 পইচা, গতিকে অনুপাত = 100 : 50 = 2 : 1।"
+      }
+    },
+    {
+      "q": {
+        "en": "A invests 1000 for 12 months and B invests 2000 for 6 months. Their profit ratio is:",
+        "as": "A য়ে 12 মাহৰ বাবে 1000 আৰু B য়ে 6 মাহৰ বাবে 2000 বিনিয়োগ কৰে। সিহঁতৰ লাভৰ অনুপাত কিমান?"
+      },
+      "options": [
+        { "en": "1 : 1", "as": "1 : 1" },
+        { "en": "1 : 2", "as": "1 : 2" },
+        { "en": "2 : 1", "as": "2 : 1" },
+        { "en": "1 : 3", "as": "1 : 3" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ratio = 1000 × 12 : 2000 × 6 = 12000 : 12000 = 1 : 1.",
+        "as": "অনুপাত = 1000 × 12 : 2000 × 6 = 12000 : 12000 = 1 : 1।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 4 : 9 = 8 : x, then x is:",
+        "as": "যদি 4 : 9 = 8 : x হয়, তেন্তে x ৰ মান কি?"
+      },
+      "options": [
+        { "en": "18", "as": "18" },
+        { "en": "16", "as": "16" },
+        { "en": "20", "as": "20" },
+        { "en": "12", "as": "12" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "4/9 = 8/x gives x = 18.",
+        "as": "4/9 = 8/x ৰপৰা x = 18।"
+      }
+    },
+    {
+      "q": {
+        "en": "The mean proportional between 4 and 9 is:",
+        "as": "4 আৰু 9 ৰ মাজৰ সমানুপাতিক কি?"
+      },
+      "options": [
+        { "en": "6", "as": "6" },
+        { "en": "36", "as": "36" },
+        { "en": "13", "as": "13" },
+        { "en": "4.5", "as": "4.5" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Mean proportional = √(4 × 9) = 6.",
+        "as": "সমানুপাতিক = √(4 × 9) = 6।"
+      }
+    },
+    {
+      "q": {
+        "en": "The average of 10, 20, 30 and 40 is:",
+        "as": "10, 20, 30 আৰু 40 ৰ গড় কিমান?"
+      },
+      "options": [
+        { "en": "25", "as": "25" },
+        { "en": "20", "as": "20" },
+        { "en": "30", "as": "30" },
+        { "en": "24", "as": "24" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sum = 100, average = 100/4 = 25.",
+        "as": "যোগফল = 100, গড় = 100/4 = 25।"
+      }
+    },
+    {
+      "q": {
+        "en": "Two numbers are in the ratio 3 : 4 and their sum is 70. The numbers are:",
+        "as": "দুটা সংখ্যা 3 : 4 অনুপাতত আছে আৰু সিহঁতৰ যোগফল 70। সংখ্যা দুটা কি?"
+      },
+      "options": [
+        { "en": "30 and 40", "as": "30 আৰু 40" },
+        { "en": "20 and 50", "as": "20 আৰু 50" },
+        { "en": "35 and 35", "as": "35 আৰু 35" },
+        { "en": "21 and 49", "as": "21 আৰু 49" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "3x + 4x = 70 gives x = 10, so the numbers are 30 and 40.",
+        "as": "3x + 4x = 70 ৰপৰা x = 10, গতিকে সংখ্যা দুটা 30 আৰু 40।"
+      }
+    },
+    {
+      "q": {
+        "en": "The ratio of the ages of two persons is 2 : 3 and the sum of their ages is 30. The elder person's age is:",
+        "as": "দুজনৰ বয়সৰ অনুপাত 2 : 3 আৰু বয়সৰ যোগফল 30। ডাঙৰজনৰ বয়স কিমান?"
+      },
+      "options": [
+        { "en": "18", "as": "18" },
+        { "en": "12", "as": "12" },
+        { "en": "15", "as": "15" },
+        { "en": "20", "as": "20" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "2x + 3x = 30 gives x = 6, so the elder age = 3 × 6 = 18.",
+        "as": "2x + 3x = 30 ৰপৰা x = 6, গতিকে ডাঙৰ বয়স = 3 × 6 = 18।"
+      }
+    },
+    {
+      "q": {
+        "en": "The compound ratio of 2 : 3 and 4 : 5 is:",
+        "as": "2 : 3 আৰু 4 : 5 ৰ যৌগিক অনুপাত কি?"
+      },
+      "options": [
+        { "en": "8 : 15", "as": "8 : 15" },
+        { "en": "6 : 20", "as": "6 : 20" },
+        { "en": "2 : 5", "as": "2 : 5" },
+        { "en": "15 : 8", "as": "15 : 8" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Compound ratio = (2 × 4) : (3 × 5) = 8 : 15.",
+        "as": "যৌগিক অনুপাত = (2 × 4) : (3 × 5) = 8 : 15।"
+      }
+    },
+    {
+      "q": {
+        "en": "The third proportional to 4 and 8 is:",
+        "as": "4 আৰু 8 ৰ তৃতীয় সমানুপাতিক কি?"
+      },
+      "options": [
+        { "en": "16", "as": "16" },
+        { "en": "12", "as": "12" },
+        { "en": "32", "as": "32" },
+        { "en": "2", "as": "2" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Third proportional = 8²/4 = 64/4 = 16.",
+        "as": "তৃতীয় সমানুপাতিক = 8²/4 = 64/4 = 16।"
+      }
+    },
+    {
+      "q": {
+        "en": "The average of the first 5 odd numbers is:",
+        "as": "প্ৰথম 5 টা অযুগ্ম সংখ্যাৰ গড় কিমান?"
+      },
+      "options": [
+        { "en": "5", "as": "5" },
+        { "en": "3", "as": "3" },
+        { "en": "7", "as": "7" },
+        { "en": "9", "as": "9" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The numbers are 1, 3, 5, 7, 9; sum = 25, so average = 5.",
+        "as": "সংখ্যাবোৰ 1, 3, 5, 7, 9; যোগফল = 25, গতিকে গড় = 5।"
+      }
+    },
+    {
+      "q": {
+        "en": "A invests 5000 and B invests 3000 in a business. The ratio of their profits is:",
+        "as": "এটা ব্যৱসায়ত A য়ে 5000 আৰু B য়ে 3000 বিনিয়োগ কৰে। সিহঁতৰ লাভৰ অনুপাত কিমান?"
+      },
+      "options": [
+        { "en": "5 : 3", "as": "5 : 3" },
+        { "en": "3 : 5", "as": "3 : 5" },
+        { "en": "5 : 8", "as": "5 : 8" },
+        { "en": "8 : 5", "as": "8 : 5" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Profit ratio = capital ratio = 5000 : 3000 = 5 : 3.",
+        "as": "লাভৰ অনুপাত = মূলধনৰ অনুপাত = 5000 : 3000 = 5 : 3।"
+      }
+    },
+    {
+      "q": {
+        "en": "If the speeds of two vehicles are in the ratio 2 : 3, then for the same distance the ratio of times taken is:",
+        "as": "যদি দুখন বাহনৰ গতি 2 : 3 অনুপাতত থাকে, একেই দূৰত্বৰ বাবে লগা সময়ৰ অনুপাত কি?"
+      },
+      "options": [
+        { "en": "3 : 2", "as": "3 : 2" },
+        { "en": "2 : 3", "as": "2 : 3" },
+        { "en": "4 : 9", "as": "4 : 9" },
+        { "en": "1 : 1", "as": "1 : 1" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "For the same distance, time is inversely proportional to speed, so time ratio = 3 : 2.",
+        "as": "একেই দূৰত্বৰ বাবে সময় গতিৰ ব্যস্তানুপাতী, গতিকে সময়ৰ অনুপাত = 3 : 2।"
+      }
+    },
+    {
+      "q": {
+        "en": "The average age of 4 persons is 25. Their total age is:",
+        "as": "4 জনৰ গড় বয়স 25। সিহঁতৰ মুঠ বয়স কিমান?"
+      },
+      "options": [
+        { "en": "100", "as": "100" },
+        { "en": "29", "as": "29" },
+        { "en": "75", "as": "75" },
+        { "en": "125", "as": "125" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Total = 25 × 4 = 100.",
+        "as": "মুঠ = 25 × 4 = 100।"
+      }
+    },
+    {
+      "q": {
+        "en": "Two numbers are in the ratio 7 : 5 and their difference is 10. The smaller number is:",
+        "as": "দুটা সংখ্যা 7 : 5 অনুপাতত আছে আৰু সিহঁতৰ অন্তৰ 10। সৰু সংখ্যাটো কি?"
+      },
+      "options": [
+        { "en": "25", "as": "25" },
+        { "en": "35", "as": "35" },
+        { "en": "15", "as": "15" },
+        { "en": "20", "as": "20" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "7x − 5x = 10 gives x = 5, so the smaller number = 5 × 5 = 25.",
+        "as": "7x − 5x = 10 ৰপৰা x = 5, গতিকে সৰু সংখ্যা = 5 × 5 = 25।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 20% of x = 30% of y, then x : y is:",
+        "as": "যদি x ৰ 20% = y ৰ 30% হয়, তেন্তে x : y কি?"
+      },
+      "options": [
+        { "en": "3 : 2", "as": "3 : 2" },
+        { "en": "2 : 3", "as": "2 : 3" },
+        { "en": "20 : 30", "as": "20 : 30" },
+        { "en": "1 : 1", "as": "1 : 1" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "0.2x = 0.3y gives x/y = 0.3/0.2 = 3/2, so x : y = 3 : 2.",
+        "as": "0.2x = 0.3y ৰপৰা x/y = 0.3/0.2 = 3/2, গতিকে x : y = 3 : 2।"
+      }
+    },
+    {
+      "q": {
+        "en": "The average marks of 3 tests is 70. To make the average 75 after the fourth test, the fourth test mark must be:",
+        "as": "3 টা পৰীক্ষাৰ গড় নম্বৰ 70। চতুৰ্থ পৰীক্ষাৰ পিছত গড় 75 কৰিবলৈ চতুৰ্থ পৰীক্ষাৰ নম্বৰ কিমান হ'ব লাগিব?"
+      },
+      "options": [
+        { "en": "90", "as": "90" },
+        { "en": "75", "as": "75" },
+        { "en": "80", "as": "80" },
+        { "en": "85", "as": "85" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Required total = 75 × 4 = 300; current total = 210; so the fourth mark = 90.",
+        "as": "প্ৰয়োজনীয় মুঠ = 75 × 4 = 300; বৰ্তমান মুঠ = 210; গতিকে চতুৰ্থ নম্বৰ = 90।"
+      }
+    },
+    {
+      "q": {
+        "en": "800 is divided among A, B and C in the ratio 2 : 3 : 5. B's share is:",
+        "as": "800 ক A, B আৰু C ৰ মাজত 2 : 3 : 5 অনুপাতত ভাগ কৰা হ'ল। B ৰ অংশ কিমান?"
+      },
+      "options": [
+        { "en": "240", "as": "240" },
+        { "en": "160", "as": "160" },
+        { "en": "400", "as": "400" },
+        { "en": "200", "as": "200" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "B's share = (3/10) × 800 = 240.",
+        "as": "B ৰ অংশ = (3/10) × 800 = 240।"
+      }
+    },
+    {
+      "q": {
+        "en": "The mean of 5, 10, 15, 20 and 25 is:",
+        "as": "5, 10, 15, 20 আৰু 25 ৰ মাধ্য কিমান?"
+      },
+      "options": [
+        { "en": "15", "as": "15" },
+        { "en": "10", "as": "10" },
+        { "en": "20", "as": "20" },
+        { "en": "25", "as": "25" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sum = 75, mean = 75/5 = 15.",
+        "as": "যোগফল = 75, মাধ্য = 75/5 = 15।"
       }
     }
   ]
