@@ -1,35 +1,731 @@
 {
-  "setNumber": 10,
-  "title": "Set 10",
+  "setNumber": 6,
+  "title": "Set 6",
   "subject": "Assam Literature",
   "questions": [
     {
       "q": {
-        "en": "Questions for this set will be added soon.",
-        "as": "এই ছেটৰ প্ৰশ্নসমূহ সোনকালে যোগ কৰা হ'ব।"
+        "en": "Who wrote the play 'Karengar Ligiri'?",
+        "as": "'কাৰেংঘৰৰ লিগিৰি' নাটখন কাৰ ৰচনা?"
       },
       "options": [
         {
-          "en": "Option A",
-          "as": "বিকল্প A"
+          "en": "Bishnu Prasad Rabha",
+          "as": "বিষ্ণুপ্ৰসাদ ৰাভা"
         },
         {
-          "en": "Option B",
-          "as": "বিকল্প B"
+          "en": "Jyoti Prasad Agarwala",
+          "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
         },
         {
-          "en": "Option C",
-          "as": "বিকল্প C"
+          "en": "Phani Sarma",
+          "as": "ফণী শৰ্মা"
         },
         {
-          "en": "Option D",
-          "as": "বিকল্প D"
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Karengar Ligiri', a landmark Assamese historical play, was written by Jyoti Prasad Agarwala.",
+        "as": "'কাৰেংঘৰৰ লিগিৰি', এক যুগান্তকাৰী অসমীয়া ঐতিহাসিক নাট, জ্যোতিপ্ৰসাদ আগৰৱালাই ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who founded the 'Assam Sahitya Sabha'?",
+        "as": "'অসম সাহিত্য সভা' কেৱে প্ৰতিষ্ঠা কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Chandra Kumar Agarwala",
+          "as": "চন্দ্ৰকুমাৰ আগৰৱালা"
+        },
+        {
+          "en": "Hemchandra Goswami",
+          "as": "হেমচন্দ্ৰ গোস্বামী"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "This set is being updated. Please check back soon.",
-        "as": "এই ছেটটো আপডেট কৰা হৈছে। অনুগ্ৰহ কৰি সোনকালে পুনৰ চাওক।"
+        "en": "Padmanath Gohain Baruah was the first president and a founder of the Assam Sahitya Sabha.",
+        "as": "পদ্মনাথ গোহাঞি বৰুৱা অসম সাহিত্য সভাৰ প্ৰথম সভাপতি আৰু প্ৰতিষ্ঠাপক আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "In which year was the Assam Sahitya Sabha founded?",
+        "as": "অসম সাহিত্য সভা কোন বছৰত প্ৰতিষ্ঠা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1907",
+          "as": "১৯০৭"
+        },
+        {
+          "en": "1889",
+          "as": "১৮৮৯"
+        },
+        {
+          "en": "1917",
+          "as": "১৯১৭"
+        },
+        {
+          "en": "1927",
+          "as": "১৯২৭"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Assam Sahitya Sabha was founded in 1917 at Sivasagar.",
+        "as": "অসম সাহিত্য সভা ১৯১৭ চনত শিৱসাগৰত প্ৰতিষ্ঠা হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the poem collection 'Bonhi'?",
+        "as": "'বনহি' কবিতা সংকলন কাৰ ৰচনা?"
+      },
+      "options": [
+        {
+          "en": "Raghunath Choudhary",
+          "as": "ৰঘুনাথ চৌধুৰী"
+        },
+        {
+          "en": "Chandra Kumar Agarwala",
+          "as": "চন্দ্ৰকুমাৰ আগৰৱালা"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Hem Barua",
+          "as": "হেম বৰুৱা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Bonhi' (Flute) is a collection of poems by Lakshminath Bezbaroa.",
+        "as": "'বনহি' (বাঁহী) লক্ষ্মীনাথ বেজবৰুৱাৰ এক কবিতা সংকলন।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the novel 'Mrityunjay'?",
+        "as": "'মৃত্যুঞ্জয়' উপন্যাসখন কাৰ ৰচনা?"
+      },
+      "options": [
+        {
+          "en": "Mamoni Raisom Goswami",
+          "as": "মামণি ৰয়ছম গোস্বামী"
+        },
+        {
+          "en": "Rajani Kanta Bordoloi",
+          "as": "ৰজনীকান্ত বৰদলৈ"
+        },
+        {
+          "en": "Saurabh Kumar Chaliha",
+          "as": "সৌৰভ কুমাৰ চলিহা"
+        },
+        {
+          "en": "Birendra Kumar Bhattacharyya",
+          "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Mrityunjay' is a Jnanpith-winning novel by Birendra Kumar Bhattacharyya.",
+        "as": "'মৃত্যুঞ্জয়' বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যৰ জ্ঞানপীঠ বঁটা বিজয়ী উপন্যাস।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is known as the 'Bihogi Kabi' of Assamese literature?",
+        "as": "অসমীয়া সাহিত্যৰ 'বিহগী কবি' বুলি কাক জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Nabakanta Barua",
+          "as": "নৱকান্ত বৰুৱা"
+        },
+        {
+          "en": "Hem Barua",
+          "as": "হেম বৰুৱা"
+        },
+        {
+          "en": "Raghunath Choudhary",
+          "as": "ৰঘুনাথ চৌধুৰী"
+        },
+        {
+          "en": "Nilamani Phukan",
+          "as": "নীলমণি ফুকন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Raghunath Choudhary is called the 'Bihogi Kabi' for his nature poetry centred on birds.",
+        "as": "পক্ষী-কেন্দ্ৰিক প্ৰকৃতি-কবিতাৰ বাবে ৰঘুনাথ চৌধুৰীক 'বিহগী কবি' বুলি কোৱা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Nritya Natya' tradition in Assamese culture is most associated with which composer?",
+        "as": "অসমীয়া সংস্কৃতিত 'নৃত্য নাট্য' পৰম্পৰা প্ৰধানকৈ কোন সুৰকাৰৰ সৈতে জড়িত?"
+      },
+      "options": [
+        {
+          "en": "Sankardeva",
+          "as": "শংকৰদেৱ"
+        },
+        {
+          "en": "Jyoti Prasad Agarwala",
+          "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+        },
+        {
+          "en": "Bishnu Prasad Rabha",
+          "as": "বিষ্ণুপ্ৰসাদ ৰাভা"
+        },
+        {
+          "en": "Bhupen Hazarika",
+          "as": "ভূপেন হাজৰিকা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Jyoti Prasad Agarwala pioneered the 'Nritya Natya' (dance-drama) form in modern Assamese culture.",
+        "as": "জ্যোতিপ্ৰসাদ আগৰৱালাই আধুনিক অসমীয়া সংস্কৃতিত 'নৃত্য নাট্য' ৰূপৰ সূচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the play 'Parijat Haran'?",
+        "as": "'পাৰিজাত হৰণ' নাটখন কাৰ ৰচনা?"
+      },
+      "options": [
+        {
+          "en": "Damodardeva",
+          "as": "দামোদৰদেৱ"
+        },
+        {
+          "en": "Gopaldev",
+          "as": "গোপালদেৱ"
+        },
+        {
+          "en": "Madhavdeva",
+          "as": "মাধৱদেৱ"
+        },
+        {
+          "en": "Sankardeva",
+          "as": "শংকৰদেৱ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Parijat Haran' is one of the 'Ankiya Naat' plays written by Srimanta Sankardeva.",
+        "as": "'পাৰিজাত হৰণ' শ্ৰীমন্ত শংকৰদেৱৰ 'অঙ্কীয়া নাট'সমূহৰ এখনে।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Chihna Yatra' is a form of traditional Assamese:",
+        "as": "'চিহ্ন যাত্ৰা' অসমীয়া পৰম্পৰাগত কোন ধৰণৰ?"
+      },
+      "options": [
+        {
+          "en": "Folk painting",
+          "as": "লোকচিত্ৰ"
+        },
+        {
+          "en": "Folk theatre/performance",
+          "as": "লোক নাট/পৰিৱেশনা"
+        },
+        {
+          "en": "Folk dance",
+          "as": "লোকনৃত্য"
+        },
+        {
+          "en": "Folk song",
+          "as": "লোকগীত"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Chihna Yatra' is an early form of Assamese folk theatre that later influenced 'Ankiya Naat'.",
+        "as": "'চিহ্ন যাত্ৰা' অসমীয়া লোক নাটৰ এক প্ৰাৰম্ভিক ৰূপ, যিয়ে পিছত 'অঙ্কীয়া নাট'ক প্ৰভাৱিত কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote 'Sahitya Ratna'?",
+        "as": "'সাহিত্য ৰত্ন' কাৰ ৰচনা?"
+      },
+      "options": [
+        {
+          "en": "Chandra Kumar Agarwala",
+          "as": "চন্দ্ৰকুমাৰ আগৰৱালা"
+        },
+        {
+          "en": "Hemchandra Goswami",
+          "as": "হেমচন্দ্ৰ গোস্বামী"
+        },
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Padmanath Gohain Baruah authored 'Sahitya Ratna', a notable Assamese work.",
+        "as": "পদ্মনাথ গোহাঞি বৰুৱাই 'সাহিত্য ৰত্ন' ৰচনা কৰিছিল, এক উল্লেখযোগ্য অসমীয়া ৰচনা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is the author of 'Asamiya Bhasa Aru Sahitya'?",
+        "as": "'অসমীয়া ভাষা আৰু সাহিত্য'ৰ লেখক কোন?"
+      },
+      "options": [
+        {
+          "en": "Dimbeswar Neog",
+          "as": "ডিম্বেশ্বৰ নেওগ"
+        },
+        {
+          "en": "Banikanta Kakati",
+          "as": "বাণীকান্ত কাকতি"
+        },
+        {
+          "en": "Hemchandra Baruah",
+          "as": "হেমচন্দ্ৰ বৰুৱা"
+        },
+        {
+          "en": "Suryya Kumar Bhuyan",
+          "as": "সূৰ্য্যকুমাৰ ভূঞা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Dimbeswar Neog wrote 'Asamiya Bhasa Aru Sahitya', an important history of Assamese language and literature.",
+        "as": "ডিম্বেশ্বৰ নেওগে 'অসমীয়া ভাষা আৰু সাহিত্য' ৰচনা কৰিছিল, অসমীয়া ভাষা-সাহিত্যৰ এক গুৰুত্বপূৰ্ণ ইতিহাস।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the short story collection 'Ashanta Electron'?",
+        "as": "'অশান্ত ইলেকট্ৰন' চুটি গল্প সংকলন কাৰ ৰচনা?"
+      },
+      "options": [
+        {
+          "en": "Mamoni Raisom Goswami",
+          "as": "মামণি ৰয়ছম গোস্বামী"
+        },
+        {
+          "en": "Birendra Kumar Bhattacharyya",
+          "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+        },
+        {
+          "en": "Saurabh Kumar Chaliha",
+          "as": "সৌৰভ কুমাৰ চলিহা"
+        },
+        {
+          "en": "Sheelabhadra",
+          "as": "শীলভদ্ৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Ashanta Electron' is a famous short story collection by Saurabh Kumar Chaliha.",
+        "as": "'অশান্ত ইলেকট্ৰন' সৌৰভ কুমাৰ চলিহাৰ এক বিখ্যাত চুটি গল্প সংকলন।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the poetry collection 'Sonali Samay'?",
+        "as": "'সোণালী সময়' কবিতা সংকলন কাৰ ৰচনা?"
+      },
+      "options": [
+        {
+          "en": "Nabakanta Barua",
+          "as": "নৱকান্ত বৰুৱা"
+        },
+        {
+          "en": "Hiren Bhattacharyya",
+          "as": "হীৰেন ভট্টাচাৰ্য"
+        },
+        {
+          "en": "Hem Barua",
+          "as": "হেম বৰুৱা"
+        },
+        {
+          "en": "Nilamani Phukan",
+          "as": "নীলমণি ফুকন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'Sonali Samay' is a collection of poems by Nabakanta Barua.",
+        "as": "'সোণালী সময়' নৱকান্ত বৰুৱাৰ এক কবিতা সংকলন।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is the author of 'Kavitara Rup'?",
+        "as": "'কবিতাৰ ৰূপ'ৰ লেখক কোন?"
+      },
+      "options": [
+        {
+          "en": "Nabakanta Barua",
+          "as": "নৱকান্ত বৰুৱা"
+        },
+        {
+          "en": "Hiren Bhattacharyya",
+          "as": "হীৰেন ভট্টাচাৰ্য"
+        },
+        {
+          "en": "Hem Barua",
+          "as": "হেম বৰুৱা"
+        },
+        {
+          "en": "Raghunath Choudhary",
+          "as": "ৰঘুনাথ চৌধুৰী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Kavitara Rup' is a notable work on poetics by Hem Barua.",
+        "as": "'কবিতাৰ ৰূপ' হেম বৰুৱাৰ কবিতাতত্ত্ব সম্পৰ্কীয় এক উল্লেখযোগ্য ৰচনা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The magazine 'Jonaki' was published from which place?",
+        "as": "'জোনাকী' আলোচনী কোন ঠাইৰ পৰা প্ৰকাশ হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Guwahati",
+          "as": "গুৱাহাটী"
+        },
+        {
+          "en": "Jorhat",
+          "as": "যোৰহাট"
+        },
+        {
+          "en": "Calcutta",
+          "as": "কলিকতা"
+        },
+        {
+          "en": "Sivasagar",
+          "as": "শিৱসাগৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Jonaki', the magazine of the Jonaki era, was published from Calcutta.",
+        "as": "'জোনাকী', জোনাকী যুগৰ আলোচনী, কলিকতাৰ পৰা প্ৰকাশ হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the novel 'Chakratirtha'?",
+        "as": "'চক্ৰতীৰ্থ' উপন্যাসখন কাৰ ৰচনা?"
+      },
+      "options": [
+        {
+          "en": "Mamoni Raisom Goswami",
+          "as": "মামণি ৰয়ছম গোস্বামী"
+        },
+        {
+          "en": "Rajani Kanta Bordoloi",
+          "as": "ৰজনীকান্ত বৰদলৈ"
+        },
+        {
+          "en": "Birendra Kumar Bhattacharyya",
+          "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+        },
+        {
+          "en": "Saurabh Kumar Chaliha",
+          "as": "সৌৰভ কুমাৰ চলিহা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Chakratirtha' is a novel by Birendra Kumar Bhattacharyya.",
+        "as": "'চক্ৰতীৰ্থ' বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যৰ এক উপন্যাস।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is the author of 'Yuddhagatha'?",
+        "as": "'যুদ্ধগাথা'ৰ লেখক কোন?"
+      },
+      "options": [
+        {
+          "en": "Bishnu Prasad Rabha",
+          "as": "বিষ্ণুপ্ৰসাদ ৰাভা"
+        },
+        {
+          "en": "Hem Barua",
+          "as": "হেম বৰুৱা"
+        },
+        {
+          "en": "Jyoti Prasad Agarwala",
+          "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+        },
+        {
+          "en": "Birendra Kumar Bhattacharyya",
+          "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Yuddhagatha' is a war-themed work by Birendra Kumar Bhattacharyya.",
+        "as": "'যুদ্ধগাথা' বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যৰ যুদ্ধ-বিষয়ক এক ৰচনা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the historically important 'Asamar Buranji'?",
+        "as": "ঐতিহাসিকভাৱে গুৰুত্বপূৰ্ণ 'অসমৰ বুৰঞ্জী' কাৰ ৰচনা?"
+      },
+      "options": [
+        {
+          "en": "Banikanta Kakati",
+          "as": "বাণীকান্ত কাকতি"
+        },
+        {
+          "en": "Suryya Kumar Bhuyan",
+          "as": "সূৰ্য্যকুমাৰ ভূঞা"
+        },
+        {
+          "en": "Dimbeswar Neog",
+          "as": "ডিম্বেশ্বৰ নেওগ"
+        },
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Suryya Kumar Bhuyan edited and authored major historical works including 'Asamar Buranji'.",
+        "as": "সূৰ্য্যকুমাৰ ভূঞাই 'অসমৰ বুৰঞ্জী'কে ধৰি কেইবাখনো গুৰুত্বপূৰ্ণ ঐতিহাসিক গ্ৰন্থ সম্পাদনা আৰু ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Darrang Raj Vamsavali' is a:",
+        "as": "'দৰং ৰাজবংশাৱলী' হৈছে এক:"
+      },
+      "options": [
+        {
+          "en": "Religious hymn",
+          "as": "ধৰ্মীয় গীত"
+        },
+        {
+          "en": "Collection of poems",
+          "as": "কবিতা সংকলন"
+        },
+        {
+          "en": "Historical chronicle",
+          "as": "ঐতিহাসিক বংশাৱলী"
+        },
+        {
+          "en": "Dictionary",
+          "as": "অভিধান"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Darrang Raj Vamsavali' is a historical chronicle of the Darrang royal family.",
+        "as": "'দৰং ৰাজবংশাৱলী' দৰং ৰাজপৰিয়ালৰ এক ঐতিহাসিক বংশাৱলী।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote 'Lachit Borphukan' as a historical play?",
+        "as": "ঐতিহাসিক নাট হিচাপে 'লাচিত বৰফুকন' কাৰ ৰচনা?"
+      },
+      "options": [
+        {
+          "en": "Phani Sarma",
+          "as": "ফণী শৰ্মা"
+        },
+        {
+          "en": "Ramananda Sarma",
+          "as": "ৰামানন্দ শৰ্মা"
+        },
+        {
+          "en": "Padmanath Gohain Baruah",
+          "as": "পদ্মনাথ গোহাঞি বৰুৱা"
+        },
+        {
+          "en": "Sabin Alun",
+          "as": "চাবিন আলুন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Padmanath Gohain Baruah wrote a historical play centred on the Ahom general Lachit Borphukan.",
+        "as": "পদ্মনাথ গোহাঞি বৰুৱাই আহোম সেনাপতি লাচিত বৰফুকনক কেন্দ্ৰ কৰি ঐতিহাসিক নাট ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is regarded as the father of Assamese grammar?",
+        "as": "অসমীয়া ব্যাকৰণৰ পিতৃ হিচাপে কাক গণ্য কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Dimbeswar Neog",
+          "as": "ডিম্বেশ্বৰ নেওগ"
+        },
+        {
+          "en": "Banikanta Kakati",
+          "as": "বাণীকান্ত কাকতি"
+        },
+        {
+          "en": "Lakshminath Bezbaroa",
+          "as": "লক্ষ্মীনাথ বেজবৰুৱা"
+        },
+        {
+          "en": "Hemchandra Baruah",
+          "as": "হেমচন্দ্ৰ বৰুৱা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Hemchandra Baruah is regarded as the father of Assamese grammar and the compiler of 'Hemkosh'.",
+        "as": "হেমচন্দ্ৰ বৰুৱাক অসমীয়া ব্যাকৰণৰ পিতৃ আৰু 'হেমকোষ'ৰ সংকলক হিচাপে গণ্য কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Aankiya Naat' (one-act plays) were first composed by:",
+        "as": "'অঙ্কীয়া নাট' প্ৰথমে কাৰ দ্বাৰা ৰচিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Sankardeva",
+          "as": "শংকৰদেৱ"
+        },
+        {
+          "en": "Madhavdeva",
+          "as": "মাধৱদেৱ"
+        },
+        {
+          "en": "Damodardeva",
+          "as": "দামোদৰদেৱ"
+        },
+        {
+          "en": "Gopaldev",
+          "as": "গোপালদেৱ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Srimanta Sankardeva created the 'Ankiya Naat' tradition of one-act devotional plays.",
+        "as": "শ্ৰীমন্ত শংকৰদেৱে একাঙ্ক ভক্তিমূলক 'অঙ্কীয়া নাট' পৰম্পৰা সৃষ্টি কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the novel 'Sesa Basanta'?",
+        "as": "'শেষ বসন্ত' উপন্যাসখন কাৰ ৰচনা?"
+      },
+      "options": [
+        {
+          "en": "Jogesh Das",
+          "as": "যোগেশ দাস"
+        },
+        {
+          "en": "Saurabh Kumar Chaliha",
+          "as": "সৌৰভ কুমাৰ চলিহা"
+        },
+        {
+          "en": "Mamoni Raisom Goswami",
+          "as": "মামণি ৰয়ছম গোস্বামী"
+        },
+        {
+          "en": "Rajani Kanta Bordoloi",
+          "as": "ৰজনীকান্ত বৰদলৈ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'Sesa Basanta' is a noted novel by Jogesh Das.",
+        "as": "'শেষ বসন্ত' যোগেশ দাসৰ এক প্ৰখ্যাত উপন্যাস।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who wrote the influential essay collection 'Kotha Kobi'?",
+        "as": "প্ৰভাৱশালী প্ৰবন্ধ-সংকলন 'কথা কবি' কাৰ ৰচনা?"
+      },
+      "options": [
+        {
+          "en": "Saurabh Kumar Chaliha",
+          "as": "সৌৰভ কুমাৰ চলিহা"
+        },
+        {
+          "en": "Birendra Kumar Bhattacharyya",
+          "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+        },
+        {
+          "en": "Hem Barua",
+          "as": "হেম বৰুৱা"
+        },
+        {
+          "en": "Nabakanta Barua",
+          "as": "নৱকান্ত বৰুৱা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Saurabh Kumar Chaliha authored the noted essay collection 'Kotha Kobi'.",
+        "as": "সৌৰভ কুমাৰ চলিহাই 'কথা কবি' নামৰ প্ৰবন্ধ-সংকলন ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who is known as the 'Silpi' of Assamese music and wrote numerous Borgeets?",
+        "as": "অসমীয়া সংগীতৰ 'শিল্পী' আৰু অসংখ্য বৰগীতৰ ৰচয়িতা হিচাপে কাক জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Madhavdeva",
+          "as": "মাধৱদেৱ"
+        },
+        {
+          "en": "Sankardeva",
+          "as": "শংকৰদেৱ"
+        },
+        {
+          "en": "Jyoti Prasad Agarwala",
+          "as": "জ্যোতিপ্ৰসাদ আগৰৱালা"
+        },
+        {
+          "en": "Bhupen Hazarika",
+          "as": "ভূপেন হাজৰিকা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Srimanta Sankardeva composed numerous Borgeets and is revered as a great artist of Assamese culture.",
+        "as": "শ্ৰীমন্ত শংকৰদেৱে অসংখ্য বৰগীত ৰচনা কৰিছিল আৰু অসমীয়া সংস্কৃতিৰ মহান শিল্পী হিচাপে পূজিত।"
       }
     }
   ]
