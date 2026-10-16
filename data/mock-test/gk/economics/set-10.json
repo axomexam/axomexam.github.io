@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "Questions for this set will be added soon.",
-        "as": "এই ছেটৰ প্ৰশ্নসমূহ সোনকালে যোগ কৰা হ'ব।"
+        "en": "What is the main occupation of the majority of people in Assam?",
+        "as": "অসমৰ বেছিভাগ লোকৰ মূল বৃত্তি কি?"
       },
       "options": [
         {
-          "en": "Option A",
-          "as": "বিকল্প A"
+          "en": "Industry",
+          "as": "উদ্যোগ"
         },
         {
-          "en": "Option B",
-          "as": "বিকল্প B"
+          "en": "Agriculture",
+          "as": "কৃষি"
         },
         {
-          "en": "Option C",
-          "as": "বিকল্প C"
+          "en": "Mining",
+          "as": "খনি"
         },
         {
-          "en": "Option D",
-          "as": "বিকল্প D"
+          "en": "Service sector",
+          "as": "সেৱা খণ্ড"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Agriculture is the main occupation of the majority of people in Assam.",
+        "as": "কৃষি অসমৰ বেছিভাগ লোকৰ প্ৰধান জীৱিকা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which crop is regarded as the principal cash crop of Assam?",
+        "as": "কোন শস্যক অসমৰ প্ৰধান নগদ শস্য বুলি গণ্য কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Tea",
+          "as": "চাহ"
+        },
+        {
+          "en": "Rice",
+          "as": "ধান"
+        },
+        {
+          "en": "Sugarcane",
+          "as": "আখ"
+        },
+        {
+          "en": "Jute",
+          "as": "পাট"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "This set is being updated. Please check back soon.",
-        "as": "এই ছেটটো আপডেট কৰা হৈছে। অনুগ্ৰহ কৰি সোনকালে পুনৰ চাওক।"
+        "en": "Tea is the principal cash crop of Assam.",
+        "as": "চাহ অসমৰ প্ৰধান নগদ শস্য।"
+      }
+    },
+    {
+      "q": {
+        "en": "Assam accounts for approximately what share of India's total tea production?",
+        "as": "ভাৰতৰ মুঠ চাহ উৎপাদনৰ প্ৰায় কিমান অংশ অসমত উৎপাদিত হয়?"
+      },
+      "options": [
+        {
+          "en": "Less than 10%",
+          "as": "১০% ৰ তলত"
+        },
+        {
+          "en": "About 10%",
+          "as": "প্ৰায় ১০%"
+        },
+        {
+          "en": "About 25%",
+          "as": "প্ৰায় ২৫%"
+        },
+        {
+          "en": "More than half (above 50%)",
+          "as": "আধাতকৈ অধিক (৫০% ৰ ওপৰত)"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Assam produces more than half of India's total tea, making it the largest tea-producing state.",
+        "as": "অসমে ভাৰতৰ মুঠ চাহৰ আধাতকৈ অধিক উৎপাদন কৰে, সেয়ে ই সৰ্বাধিক চাহ উৎপাদনকাৰী ৰাজ্য।"
+      }
+    },
+    {
+      "q": {
+        "en": "The world's oldest tea research station, Tocklai, is located in which district of Assam?",
+        "as": "বিশ্বৰ আটাইতকৈ পুৰণি চাহ গৱেষণা কেন্দ্ৰ টকলাই অসমৰ কোন জিলাত অৱস্থিত?"
+      },
+      "options": [
+        {
+          "en": "Sivasagar",
+          "as": "শিৱসাগৰ"
+        },
+        {
+          "en": "Jorhat",
+          "as": "যোৰহাট"
+        },
+        {
+          "en": "Dibrugarh",
+          "as": "ডিব্ৰুগড়"
+        },
+        {
+          "en": "Tinsukia",
+          "as": "তিনিচুকীয়া"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Tocklai Tea Research Institute is located at Jorhat in Assam.",
+        "as": "টকলাই চাহ গৱেষণা প্ৰতিষ্ঠান অসমৰ যোৰহাটত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The tea auction centre of Assam is located at?",
+        "as": "অসমৰ চাহ নিলাম কেন্দ্ৰ ক'ত অৱস্থিত?"
+      },
+      "options": [
+        {
+          "en": "Guwahati",
+          "as": "গুৱাহাটী"
+        },
+        {
+          "en": "Jorhat",
+          "as": "যোৰহাট"
+        },
+        {
+          "en": "Silchar",
+          "as": "শিলচৰ"
+        },
+        {
+          "en": "Tezpur",
+          "as": "তেজপুৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Assam's tea auction centre is located at Guwahati.",
+        "as": "অসমৰ চাহ নিলাম কেন্দ্ৰ গুৱাহাটীত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The oldest oil refinery in India is located at which place in Assam?",
+        "as": "ভাৰতৰ আটাইতকৈ পুৰণি তেল শোধনাগাৰ অসমৰ কোন ঠাইত অৱস্থিত?"
+      },
+      "options": [
+        {
+          "en": "Numaligarh",
+          "as": "নুমলীগড়"
+        },
+        {
+          "en": "Digboi",
+          "as": "ডিগবৈ"
+        },
+        {
+          "en": "Guwahati",
+          "as": "গুৱাহাটী"
+        },
+        {
+          "en": "Bongaigaon",
+          "as": "বঙাইগাঁও"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The oldest oil refinery in India is at Digboi in Assam.",
+        "as": "ভাৰতৰ আটাইতকৈ পুৰণি তেল শোধনাগাৰ অসমৰ ডিগবৈত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which mineral is chiefly extracted in Assam?",
+        "as": "অসমত প্ৰধানকৈ কোনখনি খনিজ উৎপাদিত হয়?"
+      },
+      "options": [
+        {
+          "en": "Gold",
+          "as": "সোণ"
+        },
+        {
+          "en": "Silver",
+          "as": "ৰূপ"
+        },
+        {
+          "en": "Petroleum and natural gas",
+          "as": "পেট্ৰলিয়াম আৰু প্ৰাকৃতিক গেছ"
+        },
+        {
+          "en": "Diamond",
+          "as": "হীৰা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Petroleum and natural gas are the chief minerals extracted in Assam.",
+        "as": "পেট্ৰলিয়াম আৰু প্ৰাকৃতিক গেছ অসমত উৎপাদিত প্ৰধান খনিজ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Assam is famous for which variety of silk?",
+        "as": "অসম কোন প্ৰকাৰৰ পাটৰ বাবে বিখ্যাত?"
+      },
+      "options": [
+        {
+          "en": "Tussar silk",
+          "as": "টাছাৰ পাট"
+        },
+        {
+          "en": "Eri silk only",
+          "as": "কেৱল এৰী পাট"
+        },
+        {
+          "en": "Mulberry silk only",
+          "as": "কেৱল নুনি পাট"
+        },
+        {
+          "en": "Muga silk",
+          "as": "মুগা পাট"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Assam is famous for golden Muga silk, which is found only in Assam.",
+        "as": "অসম সোণালী মুগা পাটৰ বাবে বিখ্যাত, যি কেৱল অসমতহে পোৱা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which district of Assam is known for the weaving industry?",
+        "as": "অসমৰ কোন জিলা বয়ন শিল্পৰ বাবে জনাজাত?"
+      },
+      "options": [
+        {
+          "en": "Nagaon (Sualkuchi)",
+          "as": "নগাঁও (সুৱালকুছি)"
+        },
+        {
+          "en": "Dibrugarh",
+          "as": "ডিব্ৰুগড়"
+        },
+        {
+          "en": "Karimganj",
+          "as": "কৰিমগঞ্জ"
+        },
+        {
+          "en": "Barpeta",
+          "as": "বৰপেটা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sualkuchi in Nagaon district is known as the 'Manchester of Assam' for its weaving industry.",
+        "as": "নগাঁও জিলাৰ সুৱালকুছিক তেওঁলোকৰ বয়ন শিল্পৰ বাবে 'অসমৰ মাঞ্চেষ্টাৰ' বুলি জনা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which national park of Assam contributes significantly to tourism in the state?",
+        "as": "অসমৰ কোনখন ৰাষ্ট্ৰীয় উদ্যানে ৰাজ্যৰ পৰ্যটনলৈ উল্লেখযোগ্যভাৱে অৱদান আগবঢ়ায়?"
+      },
+      "options": [
+        {
+          "en": "Kaziranga National Park",
+          "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান"
+        },
+        {
+          "en": "Bandipur National Park",
+          "as": "বন্দীপুৰ ৰাষ্ট্ৰীয় উদ্যান"
+        },
+        {
+          "en": "Namdapha National Park",
+          "as": "নামদাফা ৰাষ্ট্ৰীয় উদ্যান"
+        },
+        {
+          "en": "Sundarbans National Park",
+          "as": "সুন্দৰবন ৰাষ্ট্ৰীয় উদ্যান"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Kaziranga National Park, famous for the one-horned rhinoceros, draws many tourists.",
+        "as": "এশিঙীয়া গঁড়ৰ বাবে বিখ্যাত কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যানে বহু পৰ্যটকক আকৰ্ষণ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Kaziranga National Park is famous for which animal?",
+        "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান কোন প্ৰাণীৰ বাবে বিখ্যাত?"
+      },
+      "options": [
+        {
+          "en": "One-horned rhinoceros",
+          "as": "এশিঙীয়া গঁড়"
+        },
+        {
+          "en": "Elephant only",
+          "as": "কেৱল হাতী"
+        },
+        {
+          "en": "Lion",
+          "as": "সিংহ"
+        },
+        {
+          "en": "Tiger only",
+          "as": "কেৱল বাঘ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Kaziranga National Park is famous for the great one-horned rhinoceros.",
+        "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান মহান এশিঙীয়া গঁড়ৰ বাবে বিখ্যাত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which river is the lifeline of Assam's agriculture and fisheries?",
+        "as": "অসমৰ কৃষি আৰু মৎস্যৰ জীৱনৰেখা কোনখন নদী?"
+      },
+      "options": [
+        {
+          "en": "Brahmaputra",
+          "as": "ব্ৰহ্মপুত্ৰ"
+        },
+        {
+          "en": "Ganga",
+          "as": "গঙ্গা"
+        },
+        {
+          "en": "Narmada",
+          "as": "নৰ্মদা"
+        },
+        {
+          "en": "Godavari",
+          "as": "গোদাবৰী"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Brahmaputra is the lifeline of Assam's agriculture, fisheries and transport.",
+        "as": "ব্ৰহ্মপুত্ৰ অসমৰ কৃষি, মৎস্য আৰু পৰিবহণৰ জীৱনৰেখা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The economy of Assam is mainly?",
+        "as": "অসমৰ অৰ্থনীতি প্ৰধানকৈ কি?"
+      },
+      "options": [
+        {
+          "en": "Fully industrial",
+          "as": "সম্পূৰ্ণ ঔদ্যোগিক"
+        },
+        {
+          "en": "Desert-based",
+          "as": "মৰুভূমি-ভিত্তিক"
+        },
+        {
+          "en": "Agrarian",
+          "as": "কৃষি-ভিত্তিক"
+        },
+        {
+          "en": "Mining-based",
+          "as": "খনি-ভিত্তিক"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The economy of Assam is mainly agrarian, with agriculture employing most of the population.",
+        "as": "অসমৰ অৰ্থনীতি প্ৰধানকৈ কৃষি-ভিত্তিক, কৃষিৰ দ্বাৰা বেছিভাগ জনসংখ্যা নিয়োজিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which industry is the largest agro-based industry of Assam?",
+        "as": "অসমৰ সৰ্ববৃহৎ কৃষি-ভিত্তিক উদ্যোগ কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Iron and steel industry",
+          "as": "লো-ইস্পাত উদ্যোগ"
+        },
+        {
+          "en": "Sugar industry",
+          "as": "চেনি উদ্যোগ"
+        },
+        {
+          "en": "Tea industry",
+          "as": "চাহ উদ্যোগ"
+        },
+        {
+          "en": "Cement industry",
+          "as": "চিমেণ্ট উদ্যোগ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The tea industry is the largest agro-based industry in Assam.",
+        "as": "চাহ উদ্যোগ অসমৰ সৰ্ববৃহৎ কৃষি-ভিত্তিক উদ্যোগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Assam's handicraft sector is chiefly known for?",
+        "as": "অসমৰ হস্তশিল্প খণ্ড প্ৰধানকৈ কিৰ বাবে জনাজাত?"
+      },
+      "options": [
+        {
+          "en": "Marble statues",
+          "as": "মাৰ্বলৰ মূৰ্তি"
+        },
+        {
+          "en": "Ceramic tiles",
+          "as": "ছিৰামিক টাইলছ"
+        },
+        {
+          "en": "Bamboo and cane products",
+          "as": "বাঁহ আৰু বেতৰ সামগ্ৰী"
+        },
+        {
+          "en": "Glassware",
+          "as": "কাঁচৰ সামগ্ৰী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Assam's handicraft sector is chiefly known for bamboo and cane products.",
+        "as": "অসমৰ হস্তশিল্প খণ্ড প্ৰধানকৈ বাঁহ আৰু বেতৰ সামগ্ৰীৰ বাবে জনাজাত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which crop occupies the largest area of cultivated land in Assam?",
+        "as": "অসমত কোন শস্যই খেতিৰ মাটিৰ সৰ্বাধিক অংশ দখল কৰে?"
+      },
+      "options": [
+        {
+          "en": "Jute",
+          "as": "পাট"
+        },
+        {
+          "en": "Rice",
+          "as": "ধান"
+        },
+        {
+          "en": "Wheat",
+          "as": "ঘেঁহু"
+        },
+        {
+          "en": "Tea",
+          "as": "চাহ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Rice occupies the largest area of cultivated land in Assam.",
+        "as": "অসমত ধান খেতিয়ে খেতিৰ মাটিৰ সৰ্বাধিক অংশ দখল কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Sericulture is the rearing of?",
+        "as": "ৰেশমপালন হৈছে কিৰ পালন?"
+      },
+      "options": [
+        {
+          "en": "Silkworms",
+          "as": "পলু"
+        },
+        {
+          "en": "Honeybees",
+          "as": "মৌমাখি"
+        },
+        {
+          "en": "Poultry",
+          "as": "কুকুৰা"
+        },
+        {
+          "en": "Fish",
+          "as": "মাছ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sericulture is the rearing of silkworms for the production of silk.",
+        "as": "ৰেশমপালন হৈছে পাট উৎপাদনৰ বাবে পলু পালন।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which ASSAM scheme is aimed at flood and erosion control?",
+        "as": "অসমৰ কোনখন আঁচনি বানপানী আৰু ভাঙন নিয়ন্ত্ৰণৰ বাবে গ্ৰহণ কৰা হৈছে?"
+      },
+      "options": [
+        {
+          "en": "Swachh Bharat Mission",
+          "as": "স্বচ্ছ ভাৰত অভিযান"
+        },
+        {
+          "en": "Brahmaputra Board measures",
+          "as": "ব্ৰহ্মপুত্ৰ বৰ্ডৰ ব্যৱস্থা"
+        },
+        {
+          "en": "Digital India",
+          "as": "ডিজিটেল ইণ্ডিয়া"
+        },
+        {
+          "en": "Make in India",
+          "as": "মেক ইন ইণ্ডিয়া"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Brahmaputra Board undertakes measures for flood and erosion control in Assam.",
+        "as": "ব্ৰহ্মপুত্ৰ বৰ্ডে অসমত বানপানী আৰু ভাঙন নিয়ন্ত্ৰণৰ ব্যৱস্থা গ্ৰহণ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which forest produce is important to Assam's economy?",
+        "as": "অসমৰ অৰ্থনীতিৰ বাবে কোন বনজ সামগ্ৰী গুৰুত্বপূৰ্ণ?"
+      },
+      "options": [
+        {
+          "en": "Rubber only",
+          "as": "কেৱল ৰবৰ"
+        },
+        {
+          "en": "Coffee",
+          "as": "কফি"
+        },
+        {
+          "en": "Timber and bamboo",
+          "as": "কাঠ আৰু বাঁহ"
+        },
+        {
+          "en": "Cocoa",
+          "as": "কোকো"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Timber and bamboo are important forest produce for Assam's economy.",
+        "as": "কাঠ আৰু বাঁহ অসমৰ অৰ্থনীতিৰ বাবে গুৰুত্বপূৰ্ণ বনজ সামগ্ৰী।"
+      }
+    },
+    {
+      "q": {
+        "en": "The principal source of power for Assam's tea factories earlier was?",
+        "as": "অসমৰ চাহ কাৰখানাৰ বাবে আগতে প্ৰধান শক্তিৰ উৎস কি আছিল?"
+      },
+      "options": [
+        {
+          "en": "Coal",
+          "as": "কয়লা"
+        },
+        {
+          "en": "Nuclear power",
+          "as": "পাৰমাণৱিক শক্তি"
+        },
+        {
+          "en": "Wind power",
+          "as": "বতাহ শক্তি"
+        },
+        {
+          "en": "Solar power",
+          "as": "সৌৰ শক্তি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Coal was the principal source of power for Assam's tea factories in the early period.",
+        "as": "প্ৰাৰম্ভিক কালত অসমৰ চাহ কাৰখানাৰ বাবে কয়লা প্ৰধান শক্তিৰ উৎস আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which town in Assam is known as the 'Manchester of Assam'?",
+        "as": "অসমৰ কোনখন চহৰক 'অসমৰ মাঞ্চেষ্টাৰ' বুলি জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Dibrugarh",
+          "as": "ডিব্ৰুগড়"
+        },
+        {
+          "en": "Sualkuchi",
+          "as": "সুৱালকুছি"
+        },
+        {
+          "en": "Jorhat",
+          "as": "যোৰহাট"
+        },
+        {
+          "en": "Tezpur",
+          "as": "তেজপুৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Sualkuchi is known as the 'Manchester of Assam' due to its textile weaving industry.",
+        "as": "বস্ত্ৰ বয়ন শিল্পৰ বাবে সুৱালকুছিক 'অসমৰ মাঞ্চেষ্টাৰ' বুলি জনা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Assam's rural economy mainly depends on?",
+        "as": "অসমৰ গ্ৰাম্য অৰ্থনীতি প্ৰধানকৈ কিৰ ওপৰত নিৰ্ভৰশীল?"
+      },
+      "options": [
+        {
+          "en": "Agriculture",
+          "as": "কৃষি"
+        },
+        {
+          "en": "Heavy industry",
+          "as": "ভাৰী উদ্যোগ"
+        },
+        {
+          "en": "Petroleum only",
+          "as": "কেৱল পেট্ৰলিয়াম"
+        },
+        {
+          "en": "Tourism only",
+          "as": "কেৱল পৰ্যটন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Assam's rural economy mainly depends on agriculture and allied activities.",
+        "as": "অসমৰ গ্ৰাম্য অৰ্থনীতি প্ৰধানকৈ কৃষি আৰু আনুষঙ্গিক কাৰ্যৰ ওপৰত নিৰ্ভৰশীল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which sector contributes the largest share to Assam's Gross State Domestic Product (GSDP)?",
+        "as": "অসমৰ মুঠ ৰাজ্যিক ঘৰুৱা উৎপাদন (GSDP) ত কোন খণ্ডই সৰ్వାଧିକ অংশ যোগান ধৰে?"
+      },
+      "options": [
+        {
+          "en": "Construction sector",
+          "as": "নিৰ্মাণ খণ্ড"
+        },
+        {
+          "en": "Services (tertiary) sector",
+          "as": "সেৱা (তৃতীয়) খণ্ড"
+        },
+        {
+          "en": "Mining sector",
+          "as": "খনি খণ্ড"
+        },
+        {
+          "en": "Manufacturing sector",
+          "as": "উৎপাদন খণ্ড"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The services (tertiary) sector contributes the largest share to Assam's GSDP.",
+        "as": "অসমৰ GSDP ত সেৱা (তৃতীয়) খণ্ডই সৰ্বাধিক অংশ যোগান ধৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which activity is a major source of livelihood in Assam's flood plains?",
+        "as": "অসমৰ বানপানী সমভূমিত জীৱিকা নিৰ্বাহৰ এটা প্ৰধান উৎস কোন কাৰ্য?"
+      },
+      "options": [
+        {
+          "en": "Coffee plantation",
+          "as": "কফি ৰোপণ"
+        },
+        {
+          "en": "Salt farming",
+          "as": "নিমখ উৎপাদন"
+        },
+        {
+          "en": "Fishing and paddy cultivation",
+          "as": "মাছ ধৰা আৰু ধান খেতি"
+        },
+        {
+          "en": "Mining",
+          "as": "খনন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Fishing and paddy cultivation are major sources of livelihood in Assam's flood plains.",
+        "as": "মাছ ধৰা আৰু ধান খেতি অসমৰ বানপানীৰ সমভূমিত জীৱিকা নিৰ্বাহৰ প্ৰধান উৎস।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Look East' policy is significant for Assam because it aims at?",
+        "as": "অসমৰ বাবে 'লুক ইষ্ট' নীতিয়ে গুৰুত্বপূৰ্ণ কাৰণ ইয়াৰ উদ্দেশ্য কি?"
+      },
+      "options": [
+        {
+          "en": "Reducing tea production",
+          "as": "চাহ উৎপাদন হ্ৰাস"
+        },
+        {
+          "en": "Banning all exports",
+          "as": "সকলো ৰপ্তানি নিষিদ্ধ কৰা"
+        },
+        {
+          "en": "Increasing trade and connectivity with South-East Asian countries",
+          "as": "দক্ষিণ-পূব এছিয়াৰ দেশসমূহৰ সৈতে বাণিজ্য আৰু সংযোগ বৃদ্ধি"
+        },
+        {
+          "en": "Closing all borders",
+          "as": "সকলো সীমান্ত বন্ধ কৰা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Look East policy aims to boost trade and connectivity between India's North-East and South-East Asia.",
+        "as": "লুক ইষ্ট নীতিৰ উদ্দেশ্য ভাৰতৰ উত্তৰ-পূব আৰু দক্ষিণ-পূব এছিয়াৰ মাজত বাণিজ্য আৰু সংযোগ বৃদ্ধি কৰা।"
       }
     }
   ]
