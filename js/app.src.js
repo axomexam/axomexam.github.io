@@ -5584,7 +5584,7 @@
 
   /* Static set/question counts shown on the mock-test landing cards. */
   const MOCK_LANDING_META = {
-    gk: { sets: 35, q: 875 },
+    gk: { sets: 70, q: 1750 },
     math: { sets: 15, q: 375 },
     science: { sets: 15, q: 375 },
     reasoning: { sets: 15, q: 375 },
@@ -5995,7 +5995,7 @@
 
   function renderMockSetPicker(main, cat, sub, setNumbers) {
     const existing = new Set(setNumbers);
-    const visible = DEFAULT_VISIBLE_SETS;
+    const visible = Math.max(DEFAULT_VISIBLE_SETS, ...setNumbers);
 
     main.innerHTML = `
       <div class="page-head">
