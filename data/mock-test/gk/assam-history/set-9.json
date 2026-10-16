@@ -1,35 +1,731 @@
 {
-  "setNumber": 9,
-  "title": "Set 9",
+  "setNumber": 5,
+  "title": "Set 5",
   "subject": "Assam History",
   "questions": [
     {
       "q": {
-        "en": "Questions for this set will be added soon.",
-        "as": "এই ছেটৰ প্ৰশ্নসমূহ সোনকালে যোগ কৰা হ'ব।"
+        "en": "The Treaty of Yandabo, which ended the First Anglo-Burmese War, was signed in which year?",
+        "as": "প্ৰথম ইংৰাজ-বৰ্মীজ যুদ্ধ অন্ত কৰা ইয়ান্দাবু সন্ধি কোন চনত স্বাক্ষৰিত হৈছিল?"
       },
       "options": [
         {
-          "en": "Option A",
-          "as": "বিকল্প A"
+          "en": "1817",
+          "as": "১৮১৭"
         },
         {
-          "en": "Option B",
-          "as": "বিকল্প B"
+          "en": "1826",
+          "as": "১৮২৬"
         },
         {
-          "en": "Option C",
-          "as": "বিকল্প C"
+          "en": "1824",
+          "as": "১৮২৪"
         },
         {
-          "en": "Option D",
-          "as": "বিকল্প D"
+          "en": "1838",
+          "as": "১৮৩৮"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Treaty of Yandabo was signed in 1826.",
+        "as": "ইয়ান্দাবু সন্ধি ১৮২৬ চনত স্বাক্ষৰিত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who was the first British Agent to the Governor-General appointed in Assam after 1826?",
+        "as": "১৮২৬ চনৰ পিছত অসমত নিযুক্ত প্ৰথম ব্ৰিটিছ এজেণ্ট কোন আছিল?"
+      },
+      "options": [
+        {
+          "en": "David Scott",
+          "as": "ডেভিড স্কট"
+        },
+        {
+          "en": "Francis Jenkins",
+          "as": "ফ্ৰান্সিছ জেনকিন্স"
+        },
+        {
+          "en": "Thomas Robertson",
+          "as": "থমাছ ৰবাৰ্টছন"
+        },
+        {
+          "en": "R. H. Keatinge",
+          "as": "আৰ. এইচ. কিটিংজ"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "This set is being updated. Please check back soon.",
-        "as": "এই ছেটটো আপডেট কৰা হৈছে। অনুগ্ৰহ কৰি সোনকালে পুনৰ চাওক।"
+        "en": "David Scott was the first British Agent appointed in Assam after 1826.",
+        "as": "ডেভিড স্কট ১৮২৬ চনৰ পিছত অসমত নিযুক্ত প্ৰথম ব্ৰিটিছ এজেণ্ট আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Burmese occupation of Assam is popularly known by which term?",
+        "as": "অসমৰ বৰ্মীজ দখলক জনপ্ৰিয়ভাৱে কোন শব্দই জনায়?"
+      },
+      "options": [
+        {
+          "en": "Orunodoi Yug",
+          "as": "অৰুণোদই যুগ"
+        },
+        {
+          "en": "Ramdhenu Yug",
+          "as": "ৰামধেনু যুগ"
+        },
+        {
+          "en": "Jonaki Yug",
+          "as": "জোনাকী যুগ"
+        },
+        {
+          "en": "Manor Din",
+          "as": "মনৰ দিন"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Burmese occupation is remembered as 'Manor Din'.",
+        "as": "বৰ্মীজ দখলক 'মনৰ দিন' বুলি স্মৰণ কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The first peasant uprising against British rule in Assam was which of the following?",
+        "as": "অসমত ব্ৰিটিছ শাসনৰ বিৰুদ্ধে প্ৰথম কৃষক বিদ্ৰোহ তলৰ কোনটো আছিল?"
+      },
+      "options": [
+        {
+          "en": "Phulaguri Dhawa",
+          "as": "ফুলাগুৰি ধেৱা"
+        },
+        {
+          "en": "Quit India Movement",
+          "as": "ভাৰত ত্যাগ আন্দোলন"
+        },
+        {
+          "en": "Moamoria rebellion",
+          "as": "মোৱামৰীয়া বিদ্ৰোহ"
+        },
+        {
+          "en": "Patharughat uprising",
+          "as": "পাথৰুঘাট বিদ্ৰোহ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Phulaguri Dhawa was the first peasant uprising against British rule in Assam.",
+        "as": "ফুলাগুৰি ধেৱা ব্ৰিটিছ শাসনৰ বিৰুদ্ধে অসমৰ প্ৰথম কৃষক বিদ্ৰোহ আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Phulaguri Dhawa took place in which year?",
+        "as": "ফুলাগুৰি ধেৱা কোন চনত সংঘটিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1894",
+          "as": "১৮৯৪"
+        },
+        {
+          "en": "1861",
+          "as": "১৮৬১"
+        },
+        {
+          "en": "1857",
+          "as": "১৮৫৭"
+        },
+        {
+          "en": "1942",
+          "as": "১৯৪২"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Phulaguri Dhawa took place in 1861.",
+        "as": "ফুলাগুৰি ধেৱা ১৮৬১ চনত সংঘটিত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Phulaguri uprising was mainly a protest against which British measure?",
+        "as": "ফুলাগুৰি বিদ্ৰোহ মূলতঃ ব্ৰিটিছৰ কোন ব্যৱস্থাৰ বিৰুদ্ধে প্ৰতিবাদ আছিল?"
+      },
+      "options": [
+        {
+          "en": "Introduction of railways",
+          "as": "ৰে'লপথ প্ৰৱৰ্তন"
+        },
+        {
+          "en": "English education",
+          "as": "ইংৰাজী শিক্ষা"
+        },
+        {
+          "en": "Tea plantation ban",
+          "as": "চাহ বাগিচা নিষিদ্ধ"
+        },
+        {
+          "en": "New taxes on peasants",
+          "as": "কৃষকৰ ওপৰত নতুন কৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Phulaguri uprising protested against new taxes imposed on peasants.",
+        "as": "ফুলাগুৰি বিদ্ৰোহ কৃষকৰ ওপৰত আৰোপিত নতুন কৰৰ বিৰুদ্ধে প্ৰতিবাদ আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Patharughat peasant uprising occurred in which year?",
+        "as": "পাথৰুঘাট কৃষক বিদ্ৰোহ কোন চনত সংঘটিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1921",
+          "as": "১৯২১"
+        },
+        {
+          "en": "1894",
+          "as": "১৮৯৪"
+        },
+        {
+          "en": "1857",
+          "as": "১৮৫৭"
+        },
+        {
+          "en": "1861",
+          "as": "১৮৬১"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Patharughat uprising occurred in 1894.",
+        "as": "পাথৰুঘাট বিদ্ৰোহ ১৮৯৪ চনত সংঘটিত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Patharughat uprising was directed against which British demand?",
+        "as": "পাথৰুঘাট বিদ্ৰোহ ব্ৰিটিছৰ কোন দাবীৰ বিৰুদ্ধে আছিল?"
+      },
+      "options": [
+        {
+          "en": "Increase in land revenue",
+          "as": "ভূমি ৰাজহ বৃদ্ধি"
+        },
+        {
+          "en": "Ban on Assamese language",
+          "as": "অসমীয়া ভাষাৰ ওপৰত নিষেধাজ্ঞা"
+        },
+        {
+          "en": "Ban on Bihu festival",
+          "as": "বিহু উৎসৱত নিষেধাজ্ঞা"
+        },
+        {
+          "en": "Conscription into the army",
+          "as": "সেনাত বাধ্যতামূলক নিযুক্তি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Patharughat uprising was against the increase in land revenue.",
+        "as": "পাথৰুঘাট বিদ্ৰোহ ভূমি ৰাজহ বৃদ্ধিৰ বিৰুদ্ধে আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who was hanged by the British in 1858 for his role in the 1857 revolt in Assam?",
+        "as": "১৮৫৭ চনৰ বিদ্ৰোহত ভূমিকা লোৱাৰ বাবে ব্ৰিটিছে ১৮৫৮ চনত কাক ফাঁচি দিছিল?"
+      },
+      "options": [
+        {
+          "en": "Maniram Dewan",
+          "as": "মণিৰাম দেৱান"
+        },
+        {
+          "en": "Gomdhar Konwar",
+          "as": "গোমধৰ কোঁৱৰ"
+        },
+        {
+          "en": "Piyoli Phukan",
+          "as": "পিয়লি ফুকন"
+        },
+        {
+          "en": "Kushal Konwar",
+          "as": "কুশল কোঁৱৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Maniram Dewan was hanged in 1858 for his role in the 1857 revolt.",
+        "as": "১৮৫৭ চনৰ বিদ্ৰোহত ভূমিকা লোৱাৰ বাবে মণিৰাম দেৱানক ১৮৫৮ চনত ফাঁচি দিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Maniram Dewan was associated with which industry before the revolt?",
+        "as": "বিদ্ৰোহৰ পূৰ্বে মণিৰাম দেৱান কোন উদ্যোগৰ সৈতে জড়িত আছিল?"
+      },
+      "options": [
+        {
+          "en": "Salt trade",
+          "as": "নিমখ বাণিজ্য"
+        },
+        {
+          "en": "Jute mills",
+          "as": "পাট মিল"
+        },
+        {
+          "en": "Coal mining",
+          "as": "কয়লা খনি"
+        },
+        {
+          "en": "Tea industry",
+          "as": "চাহ উদ্যোগ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Maniram Dewan was associated with the tea industry.",
+        "as": "মণিৰাম দেৱান চাহ উদ্যোগৰ সৈতে জড়িত আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "In which year was Assam separated from Bengal and made a Chief Commissioner's province?",
+        "as": "অসমক বংগৰ পৰা পৃথক কৰি মুখ্য আয়ুক্তৰ প্ৰদেশ কৰা হয় কোন চনত?"
+      },
+      "options": [
+        {
+          "en": "1826",
+          "as": "১৮২৬"
+        },
+        {
+          "en": "1905",
+          "as": "১৯০৫"
+        },
+        {
+          "en": "1874",
+          "as": "১৮৭৪"
+        },
+        {
+          "en": "1912",
+          "as": "১৯১২"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Assam was separated from Bengal and made a Chief Commissioner's province in 1874.",
+        "as": "১৮৭৪ চনত অসমক বংগৰ পৰা পৃথক কৰি মুখ্য আয়ুক্তৰ প্ৰদেশ কৰা হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The first Assamese monthly magazine 'Orunodoi' was published in which year?",
+        "as": "প্ৰথম অসমীয়া মাহেকীয়া আলোচনী 'অৰুণোদই' কোন চনত প্ৰকাশিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1846",
+          "as": "১৮৪৬"
+        },
+        {
+          "en": "1836",
+          "as": "১৮৩৬"
+        },
+        {
+          "en": "1874",
+          "as": "১৮৭৪"
+        },
+        {
+          "en": "1889",
+          "as": "১৮৮৯"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Orunodoi was first published in 1846.",
+        "as": "অৰুণোদই ১৮৪৬ চনত প্ৰথম প্ৰকাশিত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Orunodoi was published by which organisation?",
+        "as": "অৰুণোদই কোন সংস্থাই প্ৰকাশ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "American Baptist Mission",
+          "as": "আমেৰিকান বেপ্তিষ্ট মিছন"
+        },
+        {
+          "en": "Assam Association",
+          "as": "অসম এছ'চিয়েছন"
+        },
+        {
+          "en": "British East India Company",
+          "as": "ব্ৰিটিছ ইষ্ট ইণ্ডিয়া কোম্পানী"
+        },
+        {
+          "en": "Asam Sahitya Sabha",
+          "as": "অসম সাহিত্য সভা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Orunodoi was published by the American Baptist Mission.",
+        "as": "অৰুণোদই আমেৰিকান বেপ্তিষ্ট মিছনে প্ৰকাশ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "When was Bengali imposed as the official language of Assam by the British?",
+        "as": "ব্ৰিটিছে কোন চনত অসমত বাংলাক চৰকাৰী ভাষা হিচাপে জাপি দিছিল?"
+      },
+      "options": [
+        {
+          "en": "1905",
+          "as": "১৯০৫"
+        },
+        {
+          "en": "1874",
+          "as": "১৮৭৪"
+        },
+        {
+          "en": "1836",
+          "as": "১৮৩৬"
+        },
+        {
+          "en": "1873",
+          "as": "১৮৭৩"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Bengali was imposed as the official language of Assam in 1836.",
+        "as": "১৮৩৬ চনত অসমত বাংলাক চৰকাৰী ভাষা হিচাপে জাপি দিয়া হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Assamese was restored as the official language of Assam in which year?",
+        "as": "অসমীয়াক অসমৰ চৰকাৰী ভাষা হিচাপে পুনৰ বহাল কৰা হয় কোন চনত?"
+      },
+      "options": [
+        {
+          "en": "1905",
+          "as": "১৯০৫"
+        },
+        {
+          "en": "1836",
+          "as": "১৮৩৬"
+        },
+        {
+          "en": "1873",
+          "as": "১৮৭৩"
+        },
+        {
+          "en": "1912",
+          "as": "১৯১২"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Assamese was restored as the official language in 1873.",
+        "as": "১৮৭৩ চনত অসমীয়াক চৰকাৰী ভাষা হিচাপে পুনৰ বহাল কৰা হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Assam Association', an early political organisation, was formed in which year?",
+        "as": "প্ৰাৰম্ভিক ৰাজনৈতিক সংগঠন 'অসম এছ'চিয়েছন' কোন চনত গঠিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1919",
+          "as": "১৯১৯"
+        },
+        {
+          "en": "1903",
+          "as": "১৯'০৩"
+        },
+        {
+          "en": "1885",
+          "as": "১৮৮৫"
+        },
+        {
+          "en": "1921",
+          "as": "১৯২১"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Assam Association was formed in 1903.",
+        "as": "অসম এছ'চিয়েছন ১৯'০৩ চনত গঠিত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Under the Partition of Bengal in 1905, Assam was merged with which province?",
+        "as": "১৯'০৫ চনৰ বংগ বিভাজনৰ অধীনত অসমক কোন প্ৰদেশৰ সৈতে সংযুক্ত কৰা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "East Bengal and Assam",
+          "as": "পূব বংগ আৰু অসম"
+        },
+        {
+          "en": "Madras Presidency",
+          "as": "মাদ্ৰাজ প্ৰেচিডেন্সী"
+        },
+        {
+          "en": "Bihar and Orissa",
+          "as": "বিহাৰ আৰু ওড়িশা"
+        },
+        {
+          "en": "Central Provinces",
+          "as": "মধ্য প্ৰদেশ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "In 1905 Assam was merged into the new province of East Bengal and Assam.",
+        "as": "১৯'০৫ চনত অসমক পূব বংগ আৰু অসম নামৰ নতুন প্ৰদেশত সংযুক্ত কৰা হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The partition of Bengal was annulled and Assam was reunited with its old status in which year?",
+        "as": "বংগ বিভাজন বাতিল কৰি অসমক পুনৰ পুৰণি স্থিতিলৈ অনা হয় কোন চনত?"
+      },
+      "options": [
+        {
+          "en": "1905",
+          "as": "১৯০৫"
+        },
+        {
+          "en": "1912",
+          "as": "১৯১২"
+        },
+        {
+          "en": "1874",
+          "as": "১৮৭৪"
+        },
+        {
+          "en": "1921",
+          "as": "১৯২১"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The partition was annulled in 1912 and Assam was restored as a Chief Commissioner's province.",
+        "as": "১৯১২ চনত বিভাজন বাতিল হয় আৰু অসমক মুখ্য আয়ুক্তৰ প্ৰদেশ হিচাপে পুনৰ স্থাপন কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "In 1921, under the Montagu-Chelmsford reforms, Assam became what?",
+        "as": "১৯২১ চনত মণ্টেগু-চেমছফৰ্ড সংস্কাৰৰ অধীনত অসম কি হৈ পৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "A union territory",
+          "as": "এটা সংঘীয় অঞ্চল"
+        },
+        {
+          "en": "A princely state",
+          "as": "এখন দেশীয় ৰাজ্য"
+        },
+        {
+          "en": "A Governor's province",
+          "as": "গৱৰ্ণৰৰ প্ৰদেশ"
+        },
+        {
+          "en": "A Chief Commissioner's province",
+          "as": "মুখ্য আয়ুক্তৰ প্ৰদেশ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "In 1921 Assam became a Governor's province.",
+        "as": "১৯২১ চনত অসম গৱৰ্ণৰৰ প্ৰদেশ হৈ পৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The first oil well in Asia was drilled at which place in Assam?",
+        "as": "এছিয়াৰ প্ৰথম তেলৰ কুঁৱা অসমৰ কোন স্থানত খনন কৰা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Duliajan",
+          "as": "দুলীয়াজান"
+        },
+        {
+          "en": "Naharkatia",
+          "as": "নাহৰকটিয়া"
+        },
+        {
+          "en": "Digboi",
+          "as": "ডিগবৈ"
+        },
+        {
+          "en": "Moran",
+          "as": "মৰাণ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The first oil well in Asia was drilled at Digboi.",
+        "as": "এছিয়াৰ প্ৰথম তেলৰ কুঁৱা ডিগবৈত খনন কৰা হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who among the following is regarded as a pioneer in establishing the tea industry in Assam?",
+        "as": "অসমত চাহ উদ্যোগ প্ৰতিষ্ঠাৰ অগ্ৰণী ব্যক্তি বুলি তলৰ কোনজনক গণ্য কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Charles Bruce",
+          "as": "চাৰ্লছ ব্ৰুছ"
+        },
+        {
+          "en": "David Scott",
+          "as": "ডেভিড স্কট"
+        },
+        {
+          "en": "Maniram Dewan",
+          "as": "মণিৰাম দেৱান"
+        },
+        {
+          "en": "Francis Jenkins",
+          "as": "ফ্ৰান্সিছ জেনকিন্স"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Maniram Dewan was a pioneer of the tea industry in Assam, along with Charles Bruce.",
+        "as": "মণিৰাম দেৱান চাহ উদ্যোগৰ অগ্ৰণী ব্যক্তি আছিল, চাৰ্লছ ব্ৰুছৰ লগতে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Before 1874, Assam was administered as part of which British province?",
+        "as": "১৮৭৪ চনৰ পূৰ্বে অসম কোন ব্ৰিটিছ প্ৰদেশৰ অংশ হিচাপে পৰিচালিত হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Bombay",
+          "as": "বোম্বাই"
+        },
+        {
+          "en": "Bihar",
+          "as": "বিহাৰ"
+        },
+        {
+          "en": "Madras",
+          "as": "মাদ্ৰাজ"
+        },
+        {
+          "en": "Bengal",
+          "as": "বংগ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Before 1874, Assam was administered as part of the Bengal province.",
+        "as": "১৮৭৪ চনৰ পূৰ্বে অসম বংগ প্ৰদেশৰ অংশ হিচাপে পৰিচালিত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which British administrator is credited with reorganising the administration of Assam after 1826 and promoting communication?",
+        "as": "১৮২৬ চনৰ পিছত অসমৰ শাসন পুনৰ্গঠন আৰু যোগাযোগ প্ৰসাৰৰ কৃতিত্ব কোন ব্ৰিটিছ প্ৰশাসকক দিয়া হয়?"
+      },
+      "options": [
+        {
+          "en": "Lord Dalhousie",
+          "as": "লৰ্ড ডালহাউছি"
+        },
+        {
+          "en": "Warren Hastings",
+          "as": "ৱাৰেন হেষ্টিংছ"
+        },
+        {
+          "en": "David Scott",
+          "as": "ডেভিড স্কট"
+        },
+        {
+          "en": "Lord Curzon",
+          "as": "লৰ্ড কাৰ্জন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "David Scott reorganised the administration and promoted communication after 1826.",
+        "as": "ডেভিড স্কটে ১৮২৬ চনৰ পিছত শাসন পুনৰ্গঠন আৰু যোগাযোগ প্ৰসাৰ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Patharughat' event is often remembered as a massacre of peasants by British police. In which district was it located?",
+        "as": "'পাথৰুঘাট' ঘটনা ব্ৰিটিছ আৰক্ষীৰ দ্বাৰা কৃষক হত্যাকাণ্ড হিচাপে স্মৰণ কৰা হয়। ই কোন জিলাত অৱস্থিত আছিল?"
+      },
+      "options": [
+        {
+          "en": "Sivasagar",
+          "as": "শিৱসাগৰ"
+        },
+        {
+          "en": "Goalpara",
+          "as": "গোৱালপাৰা"
+        },
+        {
+          "en": "Kamrup",
+          "as": "কামৰূপ"
+        },
+        {
+          "en": "Darrang",
+          "as": "দৰং"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Patharughat is located in Darrang district.",
+        "as": "পাথৰুঘাট দৰং জিলাত অৱস্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The First Anglo-Burmese War, which led to the Treaty of Yandabo, began in which year?",
+        "as": "ইয়ান্দাবু সন্ধিৰ কাৰণ হোৱা প্ৰথম ইংৰাজ-বৰ্মীজ যুদ্ধ কোন চনত আৰম্ভ হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "1826",
+          "as": "১৮২৬"
+        },
+        {
+          "en": "1824",
+          "as": "১৮২৪"
+        },
+        {
+          "en": "1838",
+          "as": "১৮৩৮"
+        },
+        {
+          "en": "1817",
+          "as": "১৮১৭"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The First Anglo-Burmese War began in 1824 and ended with the Treaty of Yandabo in 1826.",
+        "as": "প্ৰথম ইংৰাজ-বৰ্মীজ যুদ্ধ ১৮২৪ চনত আৰম্ভ হৈছিল আৰু ১৮২৬ চনত ইয়ান্দাবু সন্ধিৰে সমাপ্ত হৈছিল।"
       }
     }
   ]
