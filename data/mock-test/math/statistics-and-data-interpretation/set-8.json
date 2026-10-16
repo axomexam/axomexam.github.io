@@ -5,31 +5,427 @@
   "questions": [
     {
       "q": {
-        "en": "The mode of the data 2, 3, 3, 5, 7, 3, 4 is:",
-        "as": "2, 3, 3, 5, 7, 3, 4 তথ্যৰ বহুলক (Mode) কিমান?"
+        "en": "The geometric mean of 4 and 9 is:",
+        "as": "4 আৰু 9 ৰ গুণোত্তৰ গড় কি?"
       },
       "options": [
-        {
-          "en": "3",
-          "as": "3"
-        },
-        {
-          "en": "5",
-          "as": "5"
-        },
-        {
-          "en": "7",
-          "as": "7"
-        },
-        {
-          "en": "2",
-          "as": "2"
-        }
+        { "en": "6", "as": "6" },
+        { "en": "6.5", "as": "6.5" },
+        { "en": "13", "as": "13" },
+        { "en": "36", "as": "36" }
       ],
       "correct": 0,
       "explanation": {
-        "en": "3 occurs most frequently (three times), so the mode is 3.",
-        "as": "3 সৰ্বাধিক বাৰ (তিনিবাৰ) আহিছে, গতিকে বহুলক 3।"
+        "en": "GM = sqrt(a x b) = sqrt(4 x 9) = sqrt(36) = 6.",
+        "as": "গুণোত্তৰ গড় = sqrt(a x b) = sqrt(4 x 9) = sqrt(36) = 6।"
+      }
+    },
+    {
+      "q": {
+        "en": "The harmonic mean of 2 and 6 is:",
+        "as": "2 আৰু 6 ৰ সমঞ্জন গড় কি?"
+      },
+      "options": [
+        { "en": "3", "as": "3" },
+        { "en": "4", "as": "4" },
+        { "en": "5", "as": "5" },
+        { "en": "2.5", "as": "2.5" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "HM = 2ab/(a+b) = (2 x 2 x 6)/(2+6) = 24/8 = 3.",
+        "as": "সমঞ্জন গড় = 2ab/(a+b) = (2 x 2 x 6)/(2+6) = 24/8 = 3।"
+      }
+    },
+    {
+      "q": {
+        "en": "The weighted mean of 10 and 20 with weights 1 and 3 respectively is:",
+        "as": "1 আৰু 3 ওজনৰ সৈতে 10 আৰু 20 ৰ ওজনযুক্ত গড় কিমান?"
+      },
+      "options": [
+        { "en": "17.5", "as": "17.5" },
+        { "en": "15", "as": "15" },
+        { "en": "20", "as": "20" },
+        { "en": "16", "as": "16" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Weighted mean = (1x10 + 3x20)/(1+3) = (10+60)/4 = 17.5.",
+        "as": "ওজনযুক্ত গড় = (1x10 + 3x20)/(1+3) = (10+60)/4 = 17.5।"
+      }
+    },
+    {
+      "q": {
+        "en": "Group 1 has 10 items with mean 20 and group 2 has 20 items with mean 35. The combined mean is:",
+        "as": "গোট 1 ত 10 টা মান গড় 20 আৰু গোট 2 ত 20 টা মান গড় 35। সংযুক্ত গড় কিমান?"
+      },
+      "options": [
+        { "en": "30", "as": "30" },
+        { "en": "27.5", "as": "27.5" },
+        { "en": "32", "as": "32" },
+        { "en": "25", "as": "25" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Combined mean = (10x20 + 20x35)/(10+20) = (200+700)/30 = 900/30 = 30.",
+        "as": "সংযুক্ত গড় = (10x20 + 20x35)/(10+20) = (200+700)/30 = 900/30 = 30।"
+      }
+    },
+    {
+      "q": {
+        "en": "The geometric mean of 2 and 8 is:",
+        "as": "2 আৰু 8 ৰ গুণোত্তৰ গড় কি?"
+      },
+      "options": [
+        { "en": "4", "as": "4" },
+        { "en": "5", "as": "5" },
+        { "en": "6", "as": "6" },
+        { "en": "16", "as": "16" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "GM = sqrt(2 x 8) = sqrt(16) = 4.",
+        "as": "গুণোত্তৰ গড় = sqrt(2 x 8) = sqrt(16) = 4।"
+      }
+    },
+    {
+      "q": {
+        "en": "The harmonic mean of 4 and 6 is:",
+        "as": "4 আৰু 6 ৰ সমঞ্জন গড় কি?"
+      },
+      "options": [
+        { "en": "4.8", "as": "4.8" },
+        { "en": "5", "as": "5" },
+        { "en": "5.2", "as": "5.2" },
+        { "en": "4", "as": "4" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "HM = 2ab/(a+b) = (2 x 4 x 6)/(4+6) = 48/10 = 4.8.",
+        "as": "সমঞ্জন গড় = 2ab/(a+b) = (2 x 4 x 6)/(4+6) = 48/10 = 4.8।"
+      }
+    },
+    {
+      "q": {
+        "en": "The weighted mean of 30 and 50 with equal weights is:",
+        "as": "সমান ওজনৰ সৈতে 30 আৰু 50 ৰ ওজনযুক্ত গড় কিমান?"
+      },
+      "options": [
+        { "en": "40", "as": "40" },
+        { "en": "35", "as": "35" },
+        { "en": "45", "as": "45" },
+        { "en": "50", "as": "50" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "With equal weights, the weighted mean equals the simple average = (30+50)/2 = 40.",
+        "as": "সমান ওজনত ওজনযুক্ত গড় সৰল গড়ৰ সমান = (30+50)/2 = 40।"
+      }
+    },
+    {
+      "q": {
+        "en": "Group A has 15 items with mean 40 and group B has 5 items with mean 60. The combined mean is:",
+        "as": "গোট A ত 15 টা মান গড় 40 আৰু গোট B ত 5 টা মান গড় 60। সংযুক্ত গড় কিমান?"
+      },
+      "options": [
+        { "en": "45", "as": "45" },
+        { "en": "50", "as": "50" },
+        { "en": "48", "as": "48" },
+        { "en": "42", "as": "42" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Combined mean = (15x40 + 5x60)/(15+5) = (600+300)/20 = 900/20 = 45.",
+        "as": "সংযুক্ত গড় = (15x40 + 5x60)/(15+5) = (600+300)/20 = 900/20 = 45।"
+      }
+    },
+    {
+      "q": {
+        "en": "The geometric mean of 4 and 16 is:",
+        "as": "4 আৰু 16 ৰ গুণোত্তৰ গড় কি?"
+      },
+      "options": [
+        { "en": "8", "as": "8" },
+        { "en": "10", "as": "10" },
+        { "en": "12", "as": "12" },
+        { "en": "64", "as": "64" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "GM = sqrt(4 x 16) = sqrt(64) = 8.",
+        "as": "গুণোত্তৰ গড় = sqrt(4 x 16) = sqrt(64) = 8।"
+      }
+    },
+    {
+      "q": {
+        "en": "The harmonic mean of 1 and 1/2 is:",
+        "as": "1 আৰু 1/2 ৰ সমঞ্জন গড় কি?"
+      },
+      "options": [
+        { "en": "2/3", "as": "2/3" },
+        { "en": "3/4", "as": "3/4" },
+        { "en": "1/2", "as": "1/2" },
+        { "en": "1", "as": "1" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "HM = 2ab/(a+b) = (2 x 1 x 1/2)/(1 + 1/2) = 1/(3/2) = 2/3.",
+        "as": "সমঞ্জন গড় = 2ab/(a+b) = (2 x 1 x 1/2)/(1 + 1/2) = 1/(3/2) = 2/3।"
+      }
+    },
+    {
+      "q": {
+        "en": "The weighted mean of 5, 10 and 15 with weights 1, 2 and 1 respectively is:",
+        "as": "1, 2 আৰু 1 ওজনৰ সৈতে 5, 10 আৰু 15 ৰ ওজনযুক্ত গড় কিমান?"
+      },
+      "options": [
+        { "en": "10", "as": "10" },
+        { "en": "12", "as": "12" },
+        { "en": "15", "as": "15" },
+        { "en": "8", "as": "8" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Weighted mean = (1x5 + 2x10 + 1x15)/(1+2+1) = (5+20+15)/4 = 40/4 = 10.",
+        "as": "ওজনযুক্ত গড় = (1x5 + 2x10 + 1x15)/(1+2+1) = (5+20+15)/4 = 40/4 = 10।"
+      }
+    },
+    {
+      "q": {
+        "en": "For two numbers, the relationship between the means is:",
+        "as": "দুটা সংখ্যাৰ বাবে গড়বোৰৰ মাজৰ সম্পৰ্ক কি?"
+      },
+      "options": [
+        { "en": "GM² = AM x HM", "as": "GM² = AM x HM" },
+        { "en": "GM = AM x HM", "as": "GM = AM x HM" },
+        { "en": "AM² = GM x HM", "as": "AM² = GM x HM" },
+        { "en": "HM² = AM x GM", "as": "HM² = AM x GM" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "For two numbers, (geometric mean)² = arithmetic mean x harmonic mean.",
+        "as": "দুটা সংখ্যাৰ বাবে (গুণোত্তৰ গড়)² = পাটিগাণিতিক গড় x সমঞ্জন গড়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Two equal groups have means 20 and 40. Their combined mean is:",
+        "as": "দুটা সমান গোটৰ গড় 20 আৰু 40। সিহঁতৰ সংযুক্ত গড় কিমান?"
+      },
+      "options": [
+        { "en": "30", "as": "30" },
+        { "en": "25", "as": "25" },
+        { "en": "35", "as": "35" },
+        { "en": "28", "as": "28" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "With equal group sizes, combined mean = (20+40)/2 = 30.",
+        "as": "সমান গোট আকাৰত সংযুক্ত গড় = (20+40)/2 = 30।"
+      }
+    },
+    {
+      "q": {
+        "en": "The geometric mean of 25 and 36 is:",
+        "as": "25 আৰু 36 ৰ গুণোত্তৰ গড় কি?"
+      },
+      "options": [
+        { "en": "30", "as": "30" },
+        { "en": "31", "as": "31" },
+        { "en": "29", "as": "29" },
+        { "en": "900", "as": "900" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "GM = sqrt(25 x 36) = sqrt(900) = 30.",
+        "as": "গুণোত্তৰ গড় = sqrt(25 x 36) = sqrt(900) = 30।"
+      }
+    },
+    {
+      "q": {
+        "en": "The harmonic mean of 6 and 12 is:",
+        "as": "6 আৰু 12 ৰ সমঞ্জন গড় কি?"
+      },
+      "options": [
+        { "en": "8", "as": "8" },
+        { "en": "9", "as": "9" },
+        { "en": "7", "as": "7" },
+        { "en": "10", "as": "10" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "HM = 2ab/(a+b) = (2 x 6 x 12)/(6+12) = 144/18 = 8.",
+        "as": "সমঞ্জন গড় = 2ab/(a+b) = (2 x 6 x 12)/(6+12) = 144/18 = 8।"
+      }
+    },
+    {
+      "q": {
+        "en": "The weighted mean is used when the observations have:",
+        "as": "ওজনযুক্ত গড় কেতিয়া ব্যৱহাৰ কৰা হয়?"
+      },
+      "options": [
+        { "en": "Different importance or weights", "as": "ভিন্ন গুৰুত্ব বা ওজন" },
+        { "en": "Equal importance", "as": "সমান গুৰুত্ব" },
+        { "en": "Zero values", "as": "শূন্য মান" },
+        { "en": "No variation", "as": "কোনো পৰিৱৰ্তন নাই" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The weighted mean accounts for the differing importance of each observation.",
+        "as": "ওজনযুক্ত গড়ে প্ৰতিটো পৰ্যবেক্ষণৰ ভিন্ন গুৰুত্বৰ হিচাপ লয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "If all weights are equal, the weighted mean equals the:",
+        "as": "যদি আটাইবোৰ ওজন সমান হয়, ওজনযুক্ত গড় কাৰ সমান হয়?"
+      },
+      "options": [
+        { "en": "Arithmetic mean", "as": "পাটিগাণিতিক গড়" },
+        { "en": "Geometric mean", "as": "গুণোত্তৰ গড়" },
+        { "en": "Harmonic mean", "as": "সমঞ্জন গড়" },
+        { "en": "Median", "as": "মধ্যমা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "With equal weights, the weighted mean reduces to the arithmetic mean.",
+        "as": "সমান ওজনত ওজনযুক্ত গড় পাটিগাণিতিক গড়লৈ হ্ৰাস পায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Group X has 20 items with mean 55 and group Y has 30 items with mean 70. The combined mean is:",
+        "as": "গোট X ত 20 টা মান গড় 55 আৰু গোট Y ত 30 টা মান গড় 70। সংযুক্ত গড় কিমান?"
+      },
+      "options": [
+        { "en": "64", "as": "64" },
+        { "en": "62.5", "as": "62.5" },
+        { "en": "65", "as": "65" },
+        { "en": "60", "as": "60" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Combined mean = (20x55 + 30x70)/(20+30) = (1100+2100)/50 = 3200/50 = 64.",
+        "as": "সংযুক্ত গড় = (20x55 + 30x70)/(20+30) = (1100+2100)/50 = 3200/50 = 64।"
+      }
+    },
+    {
+      "q": {
+        "en": "The geometric mean of 3 and 12 is:",
+        "as": "3 আৰু 12 ৰ গুণোত্তৰ গড় কি?"
+      },
+      "options": [
+        { "en": "6", "as": "6" },
+        { "en": "7.5", "as": "7.5" },
+        { "en": "9", "as": "9" },
+        { "en": "36", "as": "36" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "GM = sqrt(3 x 12) = sqrt(36) = 6.",
+        "as": "গুণোত্তৰ গড় = sqrt(3 x 12) = sqrt(36) = 6।"
+      }
+    },
+    {
+      "q": {
+        "en": "The harmonic mean of 2 and 3 is:",
+        "as": "2 আৰু 3 ৰ সমঞ্জন গড় কি?"
+      },
+      "options": [
+        { "en": "2.4", "as": "2.4" },
+        { "en": "2.5", "as": "2.5" },
+        { "en": "2.6", "as": "2.6" },
+        { "en": "2.2", "as": "2.2" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "HM = 2ab/(a+b) = (2 x 2 x 3)/(2+3) = 12/5 = 2.4.",
+        "as": "সমঞ্জন গড় = 2ab/(a+b) = (2 x 2 x 3)/(2+3) = 12/5 = 2.4।"
+      }
+    },
+    {
+      "q": {
+        "en": "For two numbers, the arithmetic mean is 10 and the geometric mean is 8. Their harmonic mean is:",
+        "as": "দুটা সংখ্যাৰ বাবে পাটিগাণিতিক গড় 10 আৰু গুণোত্তৰ গড় 8। সিহঁতৰ সমঞ্জন গড় কিমান?"
+      },
+      "options": [
+        { "en": "6.4", "as": "6.4" },
+        { "en": "8", "as": "8" },
+        { "en": "12.5", "as": "12.5" },
+        { "en": "5", "as": "5" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "GM² = AM x HM gives 64 = 10 x HM, so HM = 6.4.",
+        "as": "GM² = AM x HM ৰপৰা 64 = 10 x HM, সেয়ে HM = 6.4।"
+      }
+    },
+    {
+      "q": {
+        "en": "The weighted mean of 70 and 80 with weights 3 and 2 respectively is:",
+        "as": "3 আৰু 2 ওজনৰ সৈতে 70 আৰু 80 ৰ ওজনযুক্ত গড় কিমান?"
+      },
+      "options": [
+        { "en": "74", "as": "74" },
+        { "en": "76", "as": "76" },
+        { "en": "73", "as": "73" },
+        { "en": "75", "as": "75" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Weighted mean = (3x70 + 2x80)/(3+2) = (210+160)/5 = 370/5 = 74.",
+        "as": "ওজনযুক্ত গড় = (3x70 + 2x80)/(3+2) = (210+160)/5 = 370/5 = 74।"
+      }
+    },
+    {
+      "q": {
+        "en": "The geometric mean of 5 and 20 is:",
+        "as": "5 আৰু 20 ৰ গুণোত্তৰ গড় কি?"
+      },
+      "options": [
+        { "en": "10", "as": "10" },
+        { "en": "12.5", "as": "12.5" },
+        { "en": "15", "as": "15" },
+        { "en": "100", "as": "100" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "GM = sqrt(5 x 20) = sqrt(100) = 10.",
+        "as": "গুণোত্তৰ গড় = sqrt(5 x 20) = sqrt(100) = 10।"
+      }
+    },
+    {
+      "q": {
+        "en": "The combined average of 30 boys with average 50 and 20 girls with average 40 is:",
+        "as": "গড় 50 থকা 30 জন ল'ৰা আৰু গড় 40 থকা 20 জনী ছোৱালীৰ সংযুক্ত গড় কিমান?"
+      },
+      "options": [
+        { "en": "46", "as": "46" },
+        { "en": "45", "as": "45" },
+        { "en": "48", "as": "48" },
+        { "en": "44", "as": "44" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Combined average = (30x50 + 20x40)/50 = (1500+800)/50 = 2300/50 = 46.",
+        "as": "সংযুক্ত গড় = (30x50 + 20x40)/50 = (1500+800)/50 = 2300/50 = 46।"
+      }
+    },
+    {
+      "q": {
+        "en": "The average used when the observations have different levels of importance is the:",
+        "as": "যেতিয়া পৰ্যবেক্ষণবোৰৰ গুৰুত্ব ভিন্ন হয়, তেতিয়া কোনটো গড় ব্যৱহাৰ কৰা হয়?"
+      },
+      "options": [
+        { "en": "Weighted average", "as": "ওজনযুক্ত গড়" },
+        { "en": "Simple average", "as": "সৰল গড়" },
+        { "en": "Range", "as": "পৰিসৰ" },
+        { "en": "Median", "as": "মধ্যমা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A weighted average assigns a weight to each observation according to its importance.",
+        "as": "ওজনযুক্ত গড়ে প্ৰতিটো পৰ্যবেক্ষণক তাৰ গুৰুত্ব অনুসৰি এটা ওজন দিয়ে।"
       }
     }
   ]
