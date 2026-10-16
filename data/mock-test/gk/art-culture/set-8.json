@@ -5,31 +5,427 @@
   "questions": [
     {
       "q": {
-        "en": "Questions for this set will be added soon.",
-        "as": "এই ছেটৰ প্ৰশ্নসমূহ সোনকালে যোগ কৰা হ'ব।"
+        "en": "Srimanta Sankardeva wrote his magnum opus 'Kirtana Ghosha' in which language?",
+        "as": "শ্ৰীমন্ত শংকৰদেৱে তেওঁৰ মহাকাব্য 'কীৰ্তন ঘোষা' কোন ভাষাত ৰচনা কৰিছিল?"
       },
       "options": [
-        {
-          "en": "Option A",
-          "as": "বিকল্প A"
-        },
-        {
-          "en": "Option B",
-          "as": "বিকল্প B"
-        },
-        {
-          "en": "Option C",
-          "as": "বিকল্প C"
-        },
-        {
-          "en": "Option D",
-          "as": "বিকল্প D"
-        }
+        { "en": "Sanskrit", "as": "সংস্কৃত" },
+        { "en": "Assamese (Early Assamese)", "as": "অসমীয়া (প্ৰাক-অসমীয়া)" },
+        { "en": "Bengali", "as": "বাংলা" },
+        { "en": "Hindi", "as": "হিন্দী" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Sankardeva wrote the Kirtana Ghosha in Assamese.",
+        "as": "শংকৰদেৱে কীৰ্তন ঘোষা অসমীয়া ভাষাত ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is the oldest of the Assamese scriptures composed by Sankardeva?",
+        "as": "শংকৰদেৱে ৰচনা কৰা অসমীয়া শাস্ত্ৰসমূহৰ ভিতৰত তলৰ কোনখন আটাইতকৈ প্ৰাচীন?"
+      },
+      "options": [
+        { "en": "Ratnavali", "as": "ৰত্নাৱলী" },
+        { "en": "Kirtana Ghosha", "as": "কীৰ্তন ঘোষা" },
+        { "en": "Bhakti Pradip", "as": "ভক্তি প্ৰদীপ" },
+        { "en": "Gunamala", "as": "গুণমালা" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Kirtana Ghosha is the most celebrated single work of Sankardeva.",
+        "as": "কীৰ্তন ঘোষা শংকৰদেৱৰ আটাইতকৈ প্ৰশংসিত ৰচনা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Assamese Ramayana written by Madhavdev is known as what?",
+        "as": "মাধৱদেৱে ৰচনা কৰা অসমীয়া ৰামায়ণখন কি নামেৰে জনা যায়?"
+      },
+      "options": [
+        { "en": "Saptakanda Ramayana", "as": "সপ্তকাণ্ড ৰামায়ণ" },
+        { "en": "Adbhuta Ramayana", "as": "অদ্ভুত ৰামায়ণ" },
+        { "en": "Bhattadeva Ramayana", "as": "ভট্টদেৱ ৰামায়ণ" },
+        { "en": "Gunamala Ramayana", "as": "গুণমালা ৰামায়ণ" }
       ],
       "correct": 0,
       "explanation": {
-        "en": "This set is being updated. Please check back soon.",
-        "as": "এই ছেটটো আপডেট কৰা হৈছে। অনুগ্ৰহ কৰি সোনকালে পুনৰ চাওক।"
+        "en": "The Saptakanda Ramayana was composed by Madhavdev.",
+        "as": "সপ্তকাণ্ড ৰামায়ণ মাধৱদেৱে ৰচনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Srimanta Sankardeva was born in which year (traditional date)?",
+        "as": "শ্ৰীমন্ত শংকৰদেৱ কোন চনত (পৰম্পৰাগত তাৰিখ) জন্মগ্ৰহণ কৰিছিল?"
+      },
+      "options": [
+        { "en": "1449", "as": "১৪৪৯" },
+        { "en": "1398", "as": "১৩৯৮" },
+        { "en": "1520", "as": "১৫২০" },
+        { "en": "1600", "as": "১৬০০" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sankardeva is believed to have been born in 1449.",
+        "as": "শংকৰদেৱ ১৪৪৯ চনত জন্মগ্ৰহণ কৰিছিল বুলি বিশ্বাস কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The first Assamese novel is generally regarded to be which work?",
+        "as": "প্ৰথম অসমীয়া উপন্যাস কোনখন বুলি সাধাৰণতে গণ্য কৰা হয়?"
+      },
+      "options": [
+        { "en": "Bhanumati", "as": "ভানুমতী" },
+        { "en": "Padum Kunwari", "as": "পদুম কুঁৱৰী" },
+        { "en": "Kari Diaria Dekhi Bari", "as": "কাৰী দিয়াৰা দেখি বাৰী" },
+        { "en": "Miri Jiyori", "as": "মিৰি জীয়ৰী" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Bhanumati by Padmanath Gohain Baruah is often called the first Assamese novel.",
+        "as": "পদ্মনাথ গোহাঞিবৰুৱাৰ ভানুমতীক প্ৰথম অসমীয়া উপন্যাস বুলি কোৱা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Assamese writer is popularly known by the title 'Rasaraj'?",
+        "as": "'ৰসৰাজ' উপাধি কোন অসমীয়া সাহিত্যিকৰ সৈতে জড়িত?"
+      },
+      "options": [
+        { "en": "Lakshminath Bezbaroa", "as": "লক্ষ্মীনাথ বেজবৰুৱা" },
+        { "en": "Hemchandra Goswami", "as": "হেমচন্দ্ৰ গোস্বামী" },
+        { "en": "Chandra Kumar Agarwala", "as": "চন্দ্ৰকুমাৰ আগৰৱালা" },
+        { "en": "Padmanath Gohain Baruah", "as": "পদ্মনাথ গোহাঞিবৰুৱা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Lakshminath Bezbaroa is popularly known as 'Rasaraj'.",
+        "as": "লক্ষ্মীনাথ বেজবৰুৱাক 'ৰসৰাজ' বুলি জনা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Lakshminath Bezbaroa is popularly known by which other title?",
+        "as": "লক্ষ্মীনাথ বেজবৰুৱাক আন কোন উপাধিৰে জনা যায়?"
+      },
+      "options": [
+        { "en": "Sahityarathi", "as": "সাহিত্যৰথী" },
+        { "en": "Kaviraj", "as": "কবিৰাজ" },
+        { "en": "Bharat Ratna", "as": "ভাৰত ৰত্ন" },
+        { "en": "Mahakavi", "as": "মহাকবি" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Bezbaroa is also called 'Sahityarathi'.",
+        "as": "বেজবৰুৱাক 'সাহিত্যৰথী' বুলিও কোৱা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The renowned Assamese poet Hemchandra Goswami is popularly known by which title?",
+        "as": "বিখ্যাত অসমীয়া কবি হেমচন্দ্ৰ গোস্বামীক কোন উপাধিৰে জনা যায়?"
+      },
+      "options": [
+        { "en": "Kaviraj", "as": "কবিৰাজ" },
+        { "en": "Rasaraj", "as": "ৰসৰাজ" },
+        { "en": "Sahityarathi", "as": "সাহিত্যৰথী" },
+        { "en": "Sahityacharya", "as": "সাহিত্যাচাৰ্য" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Hemchandra Goswami is known as 'Kaviraj'.",
+        "as": "হেমচন্দ্ৰ গোস্বামীক 'কবিৰাজ' বুলি জনা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Orunodoi', the first Assamese monthly magazine, was published in which year?",
+        "as": "প্ৰথম অসমীয়া মাহেকীয়া আলোচনী 'অৰুণোদই' কোন চনত প্ৰকাশিত হৈছিল?"
+      },
+      "options": [
+        { "en": "1846", "as": "১৮৪৬" },
+        { "en": "1889", "as": "১৮৮৯" },
+        { "en": "1900", "as": "১৯০০" },
+        { "en": "1826", "as": "১৮২৬" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Orunodoi was first published in 1846.",
+        "as": "অৰুণোদই ১৮৪৬ চনত প্ৰথম প্ৰকাশিত হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The book 'Burhi Aair Sadhu', a collection of Assamese folk tales, was written by whom?",
+        "as": "অসমীয়া সাধু সংকলন 'বুঢ়ী আইৰ সাধু' কোনে লিখিছিল?"
+      },
+      "options": [
+        { "en": "Lakshminath Bezbaroa", "as": "লক্ষ্মীনাথ বেজবৰুৱা" },
+        { "en": "Sankardeva", "as": "শংকৰদেৱ" },
+        { "en": "Madhavdev", "as": "মাধৱদেৱ" },
+        { "en": "Raghunath Choudhary", "as": "ৰঘুনাথ চৌধুৰী" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Burhi Aair Sadhu was written by Lakshminath Bezbaroa.",
+        "as": "বুঢ়ী আইৰ সাধু লক্ষ্মীনাথ বেজবৰুৱাই লিখিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Assamese poet Raghunath Choudhary is popularly known by which title?",
+        "as": "অসমীয়া কবি ৰঘুনাথ চৌধুৰীক কোন উপাধিৰে জনা যায়?"
+      },
+      "options": [
+        { "en": "Kaviraj", "as": "কবিৰাজ" },
+        { "en": "Bihogi Kavi", "as": "বিহগী কবি" },
+        { "en": "Rasaraj", "as": "ৰসৰাজ" },
+        { "en": "Mahakavi", "as": "মহাকবি" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Raghunath Choudhary is known as 'Bihogi Kavi' (poet of birds).",
+        "as": "ৰঘুনাথ চৌধুৰীক 'বিহগী কবি' বুলি জনা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Jonaki era of Assamese literature gets its name from which magazine?",
+        "as": "অসমীয়া সাহিত্যৰ জোনাকী যুগ কোন আলোচনীৰ পৰা নাম পাইছে?"
+      },
+      "options": [
+        { "en": "Orunodoi", "as": "অৰুণোদই" },
+        { "en": "Jonaki", "as": "জোনাকী" },
+        { "en": "Banhi", "as": "বাঁহী" },
+        { "en": "Awahan", "as": "আহ্বান" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Jonaki era is named after the magazine Jonaki.",
+        "as": "জোনাকী যুগখন জোনাকী আলোচনীৰ নামেৰে নামাকৰণ কৰা হৈছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The renowned Assamese poet Hem Barua is mainly associated with which field?",
+        "as": "বিখ্যাত অসমীয়া কবি হেম বৰুৱা মূলতঃ কোন ক্ষেত্ৰৰ সৈতে জড়িত?"
+      },
+      "options": [
+        { "en": "Poetry", "as": "কবিতা" },
+        { "en": "Sculpture", "as": "ভাস্কৰ্য" },
+        { "en": "Music", "as": "সংগীত" },
+        { "en": "Dance", "as": "নৃত্য" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Hem Barua is a well-known Assamese poet.",
+        "as": "হেম বৰুৱা এগৰাকী প্ৰখ্যাত অসমীয়া কবি।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Barpeta Satra' is closely associated with which saint-scholar?",
+        "as": "'বৰপেটা সত্ৰ' কোন সন্ত-পণ্ডিতৰ সৈতে ঘনিষ্ঠভাৱে জড়িত?"
+      },
+      "options": [
+        { "en": "Madhavdev", "as": "মাধৱদেৱ" },
+        { "en": "Sankardeva", "as": "শংকৰদেৱ" },
+        { "en": "Damodardev", "as": "দামোদৰদেৱ" },
+        { "en": "Rama Saraswati", "as": "ৰাম সৰস্বতী" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Barpeta Satra was established by Madhavdev.",
+        "as": "বৰপেটা সত্ৰ মাধৱদেৱে প্ৰতিষ্ঠা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following languages is Assamese written in?",
+        "as": "অসমীয়া কোন লিপিত লিখা হয়?"
+      },
+      "options": [
+        { "en": "Devanagari", "as": "দেৱনাগৰী" },
+        { "en": "Assamese (Assamese-Bengali script)", "as": "অসমীয়া (অসমীয়া-বঙালী লিপি)" },
+        { "en": "Roman", "as": "ৰোমান" },
+        { "en": "Tamil", "as": "তামিল" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Assamese is written in the Assamese script, which is closely related to the Bengali script.",
+        "as": "অসমীয়া অসমীয়া লিপিত লিখা হয়, যি বঙালী লিপিৰ সৈতে ঘনিষ্ঠভাৱে সম্পৰ্কিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Assamese was recognised as a classical language of India in which year?",
+        "as": "অসমীয়াক কোন চনত ভাৰতৰ শাস্ত্ৰীয় ভাষা হিচাপে স্বীকৃতি দিয়া হৈছিল?"
+      },
+      "options": [
+        { "en": "2024", "as": "২০২৪" },
+        { "en": "2010", "as": "২০১০" },
+        { "en": "2004", "as": "২০০৪" },
+        { "en": "2018", "as": "২০১৮" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Assamese was granted classical language status in 2024.",
+        "as": "অসমীয়াক ২০২৪ চনত শাস্ত্ৰীয় ভাষাৰ মৰ্যাদা দিয়া হৈছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The famed 'Charyapada', the earliest specimens of Assamese/Bengali literature, are a collection of what?",
+        "as": "অসমীয়া/বঙালী সাহিত্যৰ প্ৰাচীনতম নিদৰ্শন 'চৰ্যাপদ' কিসৰ সংকলন?"
+      },
+      "options": [
+        { "en": "Mystic songs", "as": "সিদ্ধ বা ৰহস্যময় গীত" },
+        { "en": "Prose essays", "as": "গদ্য ৰচনা" },
+        { "en": "Novels", "as": "উপন্যাস" },
+        { "en": "Dramas", "as": "নাটক" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Charyapada are a collection of mystic (Sahajiya) songs.",
+        "as": "চৰ্যাপদ ৰহস্যবাদী (সহজিয়া) গীতৰ সংকলন।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Assamese writer Indira Goswami is popularly known by which pen name?",
+        "as": "অসমীয়া লেখিকা ইন্দিৰা গোস্বামীক কোন ছদ্মনামেৰে জনা যায়?"
+      },
+      "options": [
+        { "en": "Mamoni Raisom Goswami", "as": "মামণি ৰয়ছম গোস্বামী" },
+        { "en": "Biren Dutta", "as": "বীৰেন দত্ত" },
+        { "en": "Sahityarathi", "as": "সাহিত্যৰথী" },
+        { "en": "Rasaraj", "as": "ৰসৰাজ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Indira Goswami wrote under the name Mamoni Raisom Goswami.",
+        "as": "ইন্দিৰা গোস্বামীয়ে মামণি ৰয়ছম গোস্বামী নামেৰে লিখিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Srimanta Sankardeva is credited with introducing which theatrical form?",
+        "as": "শ্ৰীমন্ত শংকৰদেৱক কোন নাট্য ৰূপ প্ৰৱৰ্তনৰ কৃতিত্ব দিয়া হয়?"
+      },
+      "options": [
+        { "en": "Ankiya Naat (Bhaona)", "as": "অংকীয়া নাট (ভাওনা)" },
+        { "en": "Yakshagana", "as": "যক্ষগান" },
+        { "en": "Kutiyattam", "as": "কুটিয়াট্টম" },
+        { "en": "Tamasha", "as": "তমাশা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sankardeva introduced the Ankiya Naat, performed as Bhaona.",
+        "as": "শংকৰদেৱে অংকীয়া নাট প্ৰৱৰ্তন কৰিছিল, যি ভাওনা হিচাপে পৰিবেশিত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The 'Bhaona' performance is traditionally staged in which structure?",
+        "as": "ভাওনা পৰম্পৰাগতভাৱে কোন গঠনত মঞ্চস্থ কৰা হয়?"
+      },
+      "options": [
+        { "en": "Namghar", "as": "নামঘৰ" },
+        { "en": "Rajmahal", "as": "ৰাজমহল" },
+        { "en": "Field", "as": "পথাৰ" },
+        { "en": "Temple courtyard", "as": "মন্দিৰ চোতাল" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Bhaona is traditionally staged in the Namghar.",
+        "as": "ভাওনা পৰম্পৰাগতভাৱে নামঘৰত মঞ্চস্থ কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Who among the following is a celebrated modern Assamese poet awarded the Jnanpith?",
+        "as": "তলৰ কোনগৰাকী জ্ঞানপীঠ বঁটা প্ৰাপ্ত আধুনিক অসমীয়া কবি?"
+      },
+      "options": [
+        { "en": "Nilamani Phukan", "as": "নীলমণি ফুকন" },
+        { "en": "Birendra Kumar Bhattacharya", "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য" },
+        { "en": "Hem Barua", "as": "হেম বৰুৱা" },
+        { "en": "Jyoti Prasad Agarwala", "as": "জ্যোতি প্ৰসাদ আগৰৱালা" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Birendra Kumar Bhattacharya won the Jnanpith Award for Assamese.",
+        "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্যই অসমীয়াৰ বাবে জ্ঞানপীঠ বঁটা লাভ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Assamese cultural figure Jyoti Prasad Agarwala is best known as what?",
+        "as": "অসমীয়া সাংস্কৃতিক ব্যক্তিত্ব জ্যোতি প্ৰসাদ আগৰৱালাক মূলতঃ কিসৰ বাবে জনা যায়?"
+      },
+      "options": [
+        { "en": "Filmmaker, poet and freedom fighter", "as": "চলচ্চিত্ৰ নিৰ্মাতা, কবি আৰু স্বাধীনতা সংগ্ৰামী" },
+        { "en": "Classical dancer", "as": "শাস্ত্ৰীয় নৃত্যশিল্পী" },
+        { "en": "Painter only", "as": "কেৱল চিত্ৰশিল্পী" },
+        { "en": "Sculptor", "as": "ভাস্কৰ্য শিল্পী" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Jyoti Prasad Agarwala was a filmmaker, poet and freedom fighter.",
+        "as": "জ্যোতি প্ৰসাদ আগৰৱালা এজন চলচ্চিত্ৰ নিৰ্মাতা, কবি আৰু স্বাধীনতা সংগ্ৰামী আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The first Assamese feature film 'Joymoti' was directed by whom?",
+        "as": "প্ৰথম অসমীয়া কাহিনীচিত্ৰ 'জয়মতী' কোনে পৰিচালনা কৰিছিল?"
+      },
+      "options": [
+        { "en": "Jyoti Prasad Agarwala", "as": "জ্যোতি প্ৰসাদ আগৰৱালা" },
+        { "en": "Bishnu Prasad Rabha", "as": "বিষ্ণু প্ৰসাদ ৰাভা" },
+        { "en": "Bhupen Hazarika", "as": "ভূপেন হাজৰিকা" },
+        { "en": "Phani Sarma", "as": "ফণী শৰ্মা" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The first Assamese feature film Joymoti was directed by Jyoti Prasad Agarwala in 1935.",
+        "as": "প্ৰথম অসমীয়া কাহিনীচিত্ৰ জয়মতী ১৯৩৫ চনত জ্যোতি প্ৰসাদ আগৰৱালাই পৰিচালনা কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Assamese singer-composer Bhupen Hazarika is popularly known by which title?",
+        "as": "অসমীয়া গায়ক-সংগীতকাৰ ভূপেন হাজৰিকাক কোন উপাধিৰে জনা যায়?"
+      },
+      "options": [
+        { "en": "Sahityarathi", "as": "সাহিত্যৰথী" },
+        { "en": "Sudha Konthi (melodious voice)", "as": "সুধাকণ্ঠ" },
+        { "en": "Rasaraj", "as": "ৰসৰাজ" },
+        { "en": "Kaviraj", "as": "কবিৰাজ" }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Bhupen Hazarika is known as 'Sudha Konthi'.",
+        "as": "ভূপেন হাজৰিকাক 'সুধাকণ্ঠ' বুলি জনা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The Assamese scholar and freedom fighter Bishnu Prasad Rabha is also known by which title?",
+        "as": "অসমীয়া পণ্ডিত আৰু স্বাধীনতা সংগ্ৰামী বিষ্ণু প্ৰসাদ ৰাভাক কোন উপাধিৰে জনা যায়?"
+      },
+      "options": [
+        { "en": "Kalaguru", "as": "কলাগুৰু" },
+        { "en": "Sudha Konthi", "as": "সুধাকণ্ঠ" },
+        { "en": "Rasaraj", "as": "ৰসৰাজ" },
+        { "en": "Kaviraj", "as": "কবিৰাজ" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Bishnu Prasad Rabha is known as 'Kalaguru'.",
+        "as": "বিষ্ণু প্ৰসাদ ৰাভাক 'কলাগুৰু' বুলি জনা যায়।"
       }
     }
   ]
