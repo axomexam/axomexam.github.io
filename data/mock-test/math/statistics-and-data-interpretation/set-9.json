@@ -5,31 +5,427 @@
   "questions": [
     {
       "q": {
-        "en": "The range of the data 12, 7, 19, 25 and 4 is:",
-        "as": "12, 7, 19, 25 আৰু 4 তথ্যৰ পৰিসৰ কিমান?"
+        "en": "In a survey of 100 students, 40 like tea. The percentage of students who like tea is:",
+        "as": "100 জন ছাত্ৰৰ এটা সমীক্ষাত 40 জনে চাহ ভাল পায়। চাহ ভাল পোৱা ছাত্ৰৰ শতাংশ কিমান?"
       },
       "options": [
-        {
-          "en": "21",
-          "as": "21"
-        },
-        {
-          "en": "19",
-          "as": "19"
-        },
-        {
-          "en": "25",
-          "as": "25"
-        },
-        {
-          "en": "12",
-          "as": "12"
-        }
+        { "en": "40%", "as": "40%" },
+        { "en": "60%", "as": "60%" },
+        { "en": "50%", "as": "50%" },
+        { "en": "45%", "as": "45%" }
       ],
       "correct": 0,
       "explanation": {
-        "en": "Range = maximum − minimum = 25 − 4 = 21.",
-        "as": "পৰিসৰ = সৰ্বাধিক − সৰ্বনিম্ন = 25 − 4 = 21।"
+        "en": "Percentage = (40/100) x 100 = 40%.",
+        "as": "শতাংশ = (40/100) x 100 = 40%।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a pie chart, a sector representing 25% has a central angle of:",
+        "as": "এটা পাই চাৰ্টত 25% সূচোৱা খণ্ডৰ কেন্দ্ৰীয় কোণ কিমান?"
+      },
+      "options": [
+        { "en": "90°", "as": "90°" },
+        { "en": "45°", "as": "45°" },
+        { "en": "72°", "as": "72°" },
+        { "en": "180°", "as": "180°" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Central angle = 25% of 360° = 90°.",
+        "as": "কেন্দ্ৰীয় কোণ = 360° ৰ 25% = 90°।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 20% of 500 students play football, the number of such students is:",
+        "as": "যদি 500 জন ছাত্ৰৰ 20% য়ে ফুটবল খেলে, তেনে ছাত্ৰৰ সংখ্যা কিমান?"
+      },
+      "options": [
+        { "en": "100", "as": "100" },
+        { "en": "80", "as": "80" },
+        { "en": "120", "as": "120" },
+        { "en": "150", "as": "150" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Number = 20% of 500 = 100.",
+        "as": "সংখ্যা = 500 ৰ 20% = 100।"
+      }
+    },
+    {
+      "q": {
+        "en": "A bar graph shows sales of 100, 150 and 200 units for three months. The average monthly sales is:",
+        "as": "এটা বাৰ গ্ৰাফে তিনিমাহৰ বিক্ৰী 100, 150 আৰু 200 একক দেখুৱায়। মাহেকীয়া গড় বিক্ৰী কিমান?"
+      },
+      "options": [
+        { "en": "150", "as": "150" },
+        { "en": "140", "as": "140" },
+        { "en": "160", "as": "160" },
+        { "en": "175", "as": "175" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Average = (100+150+200)/3 = 450/3 = 150.",
+        "as": "গড় = (100+150+200)/3 = 450/3 = 150।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a table, 60 out of 80 students passed. The pass percentage is:",
+        "as": "এটা তালিকাত 80 জনৰ 60 জন উত্তীৰ্ণ হ'ল। উত্তীৰ্ণৰ শতাংশ কিমান?"
+      },
+      "options": [
+        { "en": "75%", "as": "75%" },
+        { "en": "70%", "as": "70%" },
+        { "en": "80%", "as": "80%" },
+        { "en": "60%", "as": "60%" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Pass % = (60/80) x 100 = 75%.",
+        "as": "উত্তীৰ্ণ % = (60/80) x 100 = 75%।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a pie chart, a sector representing 20% has a central angle of:",
+        "as": "এটা পাই চাৰ্টত 20% সূচোৱা খণ্ডৰ কেন্দ্ৰীয় কোণ কিমান?"
+      },
+      "options": [
+        { "en": "72°", "as": "72°" },
+        { "en": "60°", "as": "60°" },
+        { "en": "90°", "as": "90°" },
+        { "en": "36°", "as": "36°" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Central angle = 20% of 360° = 72°.",
+        "as": "কেন্দ্ৰীয় কোণ = 360° ৰ 20% = 72°।"
+      }
+    },
+    {
+      "q": {
+        "en": "A bar chart has 5 bars, each of value 40. The total of all bars is:",
+        "as": "এটা বাৰ চাৰ্টত 5 টা বাৰ আছে, প্ৰতিটোৰ মান 40। আটাইবোৰ বাৰৰ মুঠ কিমান?"
+      },
+      "options": [
+        { "en": "200", "as": "200" },
+        { "en": "160", "as": "160" },
+        { "en": "240", "as": "240" },
+        { "en": "180", "as": "180" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Total = 5 x 40 = 200.",
+        "as": "মুঠ = 5 x 40 = 200।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a survey of 500 people, 250 prefer option A. The percentage preferring A is:",
+        "as": "500 জনৰ এটা সমীক্ষাত 250 জনে A বিকল্প ভাল পায়। A ভাল পোৱাৰ শতাংশ কিমান?"
+      },
+      "options": [
+        { "en": "50%", "as": "50%" },
+        { "en": "40%", "as": "40%" },
+        { "en": "60%", "as": "60%" },
+        { "en": "25%", "as": "25%" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Percentage = (250/500) x 100 = 50%.",
+        "as": "শতাংশ = (250/500) x 100 = 50%।"
+      }
+    },
+    {
+      "q": {
+        "en": "The value of 15% of 800 is:",
+        "as": "800 ৰ 15% ৰ মান কিমান?"
+      },
+      "options": [
+        { "en": "120", "as": "120" },
+        { "en": "100", "as": "100" },
+        { "en": "140", "as": "140" },
+        { "en": "160", "as": "160" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "15% of 800 = (15/100) x 800 = 120.",
+        "as": "800 ৰ 15% = (15/100) x 800 = 120।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a pie chart, a sector of 120° represents what percentage?",
+        "as": "এটা পাই চাৰ্টত 120° ৰ এটা খণ্ডে কিমান শতাংশ সূচায়?"
+      },
+      "options": [
+        { "en": "33.33%", "as": "33.33%" },
+        { "en": "30%", "as": "30%" },
+        { "en": "25%", "as": "25%" },
+        { "en": "40%", "as": "40%" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Percentage = (120/360) x 100 = 33.33%.",
+        "as": "শতাংশ = (120/360) x 100 = 33.33%।"
+      }
+    },
+    {
+      "q": {
+        "en": "A company's production was 400 units in 2020 and 500 units in 2021. The percentage increase is:",
+        "as": "এটা কোম্পানীৰ উৎপাদন 2020 ত 400 একক আৰু 2021 ত 500 একক আছিল। শতাংশ বৃদ্ধি কিমান?"
+      },
+      "options": [
+        { "en": "25%", "as": "25%" },
+        { "en": "20%", "as": "20%" },
+        { "en": "30%", "as": "30%" },
+        { "en": "10%", "as": "10%" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Increase % = (100/400) x 100 = 25%.",
+        "as": "বৃদ্ধি % = (100/400) x 100 = 25%।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a class of 50, there are 30 boys. The percentage of girls is:",
+        "as": "50 জনৰ এটা শ্ৰেণীত 30 জন ল'ৰা আছে। ছোৱালীৰ শতাংশ কিমান?"
+      },
+      "options": [
+        { "en": "40%", "as": "40%" },
+        { "en": "60%", "as": "60%" },
+        { "en": "30%", "as": "30%" },
+        { "en": "50%", "as": "50%" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Girls = 20; percentage = (20/50) x 100 = 40%.",
+        "as": "ছোৱালী = 20; শতাংশ = (20/50) x 100 = 40%।"
+      }
+    },
+    {
+      "q": {
+        "en": "If a value is 60 out of a total of 300, its share is:",
+        "as": "যদি মুঠ 300 ৰ এটা মান 60 হয়, তাৰ অংশ কিমান?"
+      },
+      "options": [
+        { "en": "20%", "as": "20%" },
+        { "en": "25%", "as": "25%" },
+        { "en": "15%", "as": "15%" },
+        { "en": "30%", "as": "30%" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Share = (60/300) x 100 = 20%.",
+        "as": "অংশ = (60/300) x 100 = 20%।"
+      }
+    },
+    {
+      "q": {
+        "en": "From a bar chart, the highest value is 90 and the lowest is 30. Their difference is:",
+        "as": "এটা বাৰ চাৰ্টৰ পৰা, সৰ্বোচ্চ মান 90 আৰু সৰ্বনিম্ন 30। সিহঁতৰ পাৰ্থক্য কিমান?"
+      },
+      "options": [
+        { "en": "60", "as": "60" },
+        { "en": "120", "as": "120" },
+        { "en": "30", "as": "30" },
+        { "en": "90", "as": "90" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Difference = 90 - 30 = 60.",
+        "as": "পাৰ্থক্য = 90 - 30 = 60।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 45% of 200 students are boys, the number of boys is:",
+        "as": "যদি 200 জন ছাত্ৰৰ 45% ল'ৰা হয়, ল'ৰাৰ সংখ্যা কিমান?"
+      },
+      "options": [
+        { "en": "90", "as": "90" },
+        { "en": "110", "as": "110" },
+        { "en": "100", "as": "100" },
+        { "en": "80", "as": "80" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Boys = 45% of 200 = 90.",
+        "as": "ল'ৰা = 200 ৰ 45% = 90।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a pie chart, if two sectors are 90° each and the third is 180°, the third sector represents:",
+        "as": "এটা পাই চাৰ্টত যদি দুটা খণ্ড 90° আৰু তৃতীয়টো 180° হয়, তৃতীয় খণ্ডই কিমান সূচায়?"
+      },
+      "options": [
+        { "en": "50%", "as": "50%" },
+        { "en": "25%", "as": "25%" },
+        { "en": "75%", "as": "75%" },
+        { "en": "60%", "as": "60%" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Third sector = 180° = (180/360) x 100 = 50%.",
+        "as": "তৃতীয় খণ্ড = 180° = (180/360) x 100 = 50%।"
+      }
+    },
+    {
+      "q": {
+        "en": "If sales rise from 200 to 250, the percentage increase is:",
+        "as": "যদি বিক্ৰী 200 ৰপৰা 250 লৈ বৃদ্ধি হয়, শতাংশ বৃদ্ধি কিমান?"
+      },
+      "options": [
+        { "en": "25%", "as": "25%" },
+        { "en": "20%", "as": "20%" },
+        { "en": "50%", "as": "50%" },
+        { "en": "30%", "as": "30%" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Increase % = (50/200) x 100 = 25%.",
+        "as": "বৃদ্ধি % = (50/200) x 100 = 25%।"
+      }
+    },
+    {
+      "q": {
+        "en": "A table lists four items with values 10, 20, 30 and 40. The total is:",
+        "as": "এটা তালিকাত 10, 20, 30 আৰু 40 মানৰ চাৰিটা বস্তু আছে। মুঠ কিমান?"
+      },
+      "options": [
+        { "en": "100", "as": "100" },
+        { "en": "90", "as": "90" },
+        { "en": "110", "as": "110" },
+        { "en": "80", "as": "80" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Total = 10+20+30+40 = 100.",
+        "as": "মুঠ = 10+20+30+40 = 100।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 30% of 300 candidates are selected, the number selected is:",
+        "as": "যদি 300 প্ৰাৰ্থীৰ 30% নিৰ্বাচিত হয়, নিৰ্বাচিতৰ সংখ্যা কিমান?"
+      },
+      "options": [
+        { "en": "90", "as": "90" },
+        { "en": "60", "as": "60" },
+        { "en": "100", "as": "100" },
+        { "en": "120", "as": "120" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Selected = 30% of 300 = 90.",
+        "as": "নিৰ্বাচিত = 300 ৰ 30% = 90।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a pie chart, a sector of 36° represents what percentage?",
+        "as": "এটা পাই চাৰ্টত 36° ৰ এটা খণ্ডে কিমান শতাংশ সূচায়?"
+      },
+      "options": [
+        { "en": "10%", "as": "10%" },
+        { "en": "12%", "as": "12%" },
+        { "en": "15%", "as": "15%" },
+        { "en": "20%", "as": "20%" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Percentage = (36/360) x 100 = 10%.",
+        "as": "শতাংশ = (36/360) x 100 = 10%।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 5 students each scored 80 out of 100, their common percentage is:",
+        "as": "যদি 5 জন ছাত্ৰই 100 ৰ ভিতৰত 80 নম্বৰ পায়, তেওঁলোকৰ সাধাৰণ শতাংশ কিমান?"
+      },
+      "options": [
+        { "en": "80%", "as": "80%" },
+        { "en": "70%", "as": "70%" },
+        { "en": "85%", "as": "85%" },
+        { "en": "75%", "as": "75%" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Percentage = (80/100) x 100 = 80%.",
+        "as": "শতাংশ = (80/100) x 100 = 80%।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a pie chart of total 720 units, a sector of 25% represents:",
+        "as": "মুঠ 720 এককৰ এটা পাই চাৰ্টত 25% ৰ এটা খণ্ডই কিমান সূচায়?"
+      },
+      "options": [
+        { "en": "180 units", "as": "180 একক" },
+        { "en": "160 units", "as": "160 একক" },
+        { "en": "200 units", "as": "200 একক" },
+        { "en": "144 units", "as": "144 একক" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Quantity = 25% of 720 = 180 units.",
+        "as": "পৰিমাণ = 720 ৰ 25% = 180 একক।"
+      }
+    },
+    {
+      "q": {
+        "en": "The ratio of two bars of heights 150 and 300 is:",
+        "as": "150 আৰু 300 উচ্চতাৰ দুটা বাৰৰ অনুপাত কিমান?"
+      },
+      "options": [
+        { "en": "1 : 2", "as": "1 : 2" },
+        { "en": "2 : 1", "as": "2 : 1" },
+        { "en": "1 : 3", "as": "1 : 3" },
+        { "en": "3 : 1", "as": "3 : 1" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ratio = 150 : 300 = 1 : 2.",
+        "as": "অনুপাত = 150 : 300 = 1 : 2।"
+      }
+    },
+    {
+      "q": {
+        "en": "A city's population of 25000 grows by 10%. The new population is:",
+        "as": "এখন চহৰৰ 25000 জনসংখ্যা 10% বৃদ্ধি হয়। নতুন জনসংখ্যা কিমান?"
+      },
+      "options": [
+        { "en": "27500", "as": "27500" },
+        { "en": "26000", "as": "26000" },
+        { "en": "28000", "as": "28000" },
+        { "en": "25000", "as": "25000" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "New population = 25000 x 1.10 = 27500.",
+        "as": "নতুন জনসংখ্যা = 25000 x 1.10 = 27500।"
+      }
+    },
+    {
+      "q": {
+        "en": "The average of the values 20, 30, 40, 50 and 60 is:",
+        "as": "20, 30, 40, 50 আৰু 60 মানবোৰৰ গড় কিমান?"
+      },
+      "options": [
+        { "en": "40", "as": "40" },
+        { "en": "35", "as": "35" },
+        { "en": "45", "as": "45" },
+        { "en": "50", "as": "50" }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Average = (20+30+40+50+60)/5 = 200/5 = 40.",
+        "as": "গড় = (20+30+40+50+60)/5 = 200/5 = 40।"
       }
     }
   ]
