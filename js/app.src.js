@@ -5453,20 +5453,34 @@
     mockBackGuard = false;
   }
 
+  /* Quit / leave should step back exactly one history entry — to the page the
+     test was started from — instead of jumping to the mock-test landing page. */
+  function leaveMockTest() {
+    disarmMockBackGuard();
+    stopMockTimer();
+    state.mock = null;
+    if (history.state && history.state.axoMockGuard) {
+      history.back();
+      return;
+    }
+    if (mockGuardUrl) {
+      navigateTo(mockGuardUrl);
+      return;
+    }
+    navigateTo("/mock-test");
+  }
+
   function handleMockBackGuard() {
     if (!mockBackGuard || !state.mock || !state.mock.started) return false;
+    const promptOpen = !!document.getElementById("confirm-modal");
     try { history.pushState({ axoMockGuard: Date.now() }, "", mockGuardUrl || location.href); } catch (e) { }
+    if (promptOpen) return true;
     showModalPopup({
       title: "Leave Mock Test?",
       message: "Are you sure you want to leave the mock test? Your current progress will be lost.",
       confirmText: "Yes, Leave",
       cancelText: "Stay",
-      onConfirm: () => {
-        disarmMockBackGuard();
-        stopMockTimer();
-        state.mock = null;
-        navigateTo("/mock-test");
-      }
+      onConfirm: leaveMockTest
     });
     return true;
   }
@@ -6462,7 +6476,7 @@
         message: "Are you sure you want to quit the mock test? Your current progress will be lost.",
         confirmText: "Yes, Quit",
         cancelText: "Resume Test",
-        onConfirm: () => { disarmMockBackGuard(); stopMockTimer(); state.mock = null; navigateTo("/mock-test"); }
+        onConfirm: () => leaveMockTest()
       });
     });
 
