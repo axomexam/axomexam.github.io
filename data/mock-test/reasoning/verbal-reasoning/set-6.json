@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "Doctor is to Hospital as Teacher is to?",
-        "as": "চিকিৎসকৰ লগত চিকিৎসালয় যেনে, শিক্ষকৰ লগত কি?"
+        "en": "Bird is to Nest as Bee is to?",
+        "as": "চৰাইৰ লগত বাহ যেনে, মৌমাখিৰ লগত কি?"
       },
       "options": [
         {
-          "en": "School",
-          "as": "বিদ্যালয়"
+          "en": "Hive",
+          "as": "মৌচাক"
         },
         {
-          "en": "Student",
-          "as": "ছাত্ৰ"
+          "en": "Web",
+          "as": "জাল"
         },
         {
-          "en": "Book",
-          "as": "কিতাপ"
+          "en": "Den",
+          "as": "গুহা"
         },
         {
-          "en": "Blackboard",
-          "as": "ব্লেকবৰ্ড"
+          "en": "Burrow",
+          "as": "গাঁত"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "A doctor works in a hospital, just as a teacher works in a school, so the answer is School.",
-        "as": "চিকিৎসকে চিকিৎসালয়ত কাম কৰে, সেইদৰে শিক্ষকে বিদ্যালয়ত কাম কৰে; সেয়ে উত্তৰ 'বিদ্যালয়'।"
+        "en": "A bird lives in a nest and a bee lives in a hive, so the answer is Hive.",
+        "as": "চৰাই বাহত থাকে আৰু মৌমাখি মৌচাকত থাকে; সেয়ে উত্তৰ 'মৌচাক'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one out: 4, 9, 16, 25, 30",
+        "as": "বেলেগটো বাছক: ৪, ৯, ১৬, ২৫, ৩০"
+      },
+      "options": [
+        {
+          "en": "30",
+          "as": "৩০"
+        },
+        {
+          "en": "4",
+          "as": "৪"
+        },
+        {
+          "en": "16",
+          "as": "১৬"
+        },
+        {
+          "en": "25",
+          "as": "২৫"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "4, 9, 16 and 25 are perfect squares, while 30 is not a perfect square, so 30 is the odd one.",
+        "as": "৪, ৯, ১৬ আৰু ২৫ পূৰ্ণবৰ্গ, কিন্তু ৩০ পূৰ্ণবৰ্গ নহয়; সেয়ে ৩০ বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the next number: 3, 6, 12, 24, ?",
+        "as": "পৰৱৰ্তী সংখ্যা বাছক: ৩, ৬, ১২, ২৪, ?"
+      },
+      "options": [
+        {
+          "en": "36",
+          "as": "৩৬"
+        },
+        {
+          "en": "42",
+          "as": "৪২"
+        },
+        {
+          "en": "48",
+          "as": "৪৮"
+        },
+        {
+          "en": "54",
+          "as": "৫৪"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Each term is double the previous term (3x2=6, 6x2=12, 12x2=24), so the next term is 24 x 2 = 48.",
+        "as": "প্ৰতিটো সংখ্যা আগৰটোৰ দুগুণ (৩x২=৬, ৬x২=১২, ১২x২=২৪); সেয়ে পৰৱৰ্তী সংখ্যা ২৪ x ২ = ৪৮।"
+      }
+    },
+    {
+      "q": {
+        "en": "If FRIEND is coded as GSJFOE, then CAT is coded as?",
+        "as": "যদি FRIEND-ক GSJFOE কোড কৰা হয়, তেন্তে CAT-ৰ কোড কি?"
+      },
+      "options": [
+        {
+          "en": "DBU",
+          "as": "DBU"
+        },
+        {
+          "en": "DBT",
+          "as": "DBT"
+        },
+        {
+          "en": "EBU",
+          "as": "EBU"
+        },
+        {
+          "en": "CBU",
+          "as": "CBU"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "In the code each letter moves one step forward (F to G, R to S, and so on); applying the same, CAT becomes DBU.",
+        "as": "সংকেতত প্ৰতিটো আখৰ এপদ আগবাঢ়ে (F→G, R→S আদি); সেইদৰে CAT ৰ C→D, A→B, T→U কৰিলে DBU পোৱা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A is the mother of B. B is the father of C. How is A related to C?",
+        "as": "A হৈছে Bৰ মাতৃ। B হৈছে Cৰ পিতৃ। A, Cৰ কি হয়?"
+      },
+      "options": [
+        {
+          "en": "Aunt",
+          "as": "মাহী"
+        },
+        {
+          "en": "Grandmother",
+          "as": "আইতাক"
+        },
+        {
+          "en": "Mother",
+          "as": "মাতৃ"
+        },
+        {
+          "en": "Sister",
+          "as": "ভনী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A is the mother of B and B is the father of C, so A is the grandmother of C.",
+        "as": "A হৈছে Bৰ মাতৃ আৰু B হৈছে Cৰ পিতৃ; সেয়ে A, Cৰ আইতাক।"
+      }
+    },
+    {
+      "q": {
+        "en": "A man facing north turns right twice. Which direction is he facing now?",
+        "as": "উত্তৰলৈ মুখ কৰি থকা এজন মানুহে দুবাৰ সোঁফালে ঘূৰে। এতিয়া তেওঁ কোন দিশলৈ মুখ কৰি আছে?"
+      },
+      "options": [
+        {
+          "en": "East",
+          "as": "পূব"
+        },
+        {
+          "en": "West",
+          "as": "পশ্চিম"
+        },
+        {
+          "en": "North",
+          "as": "উত্তৰ"
+        },
+        {
+          "en": "South",
+          "as": "দক্ষিণ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Facing north, the first right turn makes him face east and the second right turn makes him face south.",
+        "as": "উত্তৰলৈ মুখ কৰি প্ৰথমবাৰ সোঁফালে ঘূৰিলে পূবলৈ আৰু দ্বিতীয়বাৰ সোঁফালে ঘূৰিলে দক্ষিণলৈ মুখ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a class of 30 students, Ravi is 12th from the top. What is his rank from the bottom?",
+        "as": "৩০ জন ছাত্ৰ থকা শ্ৰেণীত ৰবি ওপৰৰ পৰা ১২ নম্বৰ। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+      },
+      "options": [
+        {
+          "en": "18th",
+          "as": "১৮ নম্বৰ"
+        },
+        {
+          "en": "19th",
+          "as": "১৯ নম্বৰ"
+        },
+        {
+          "en": "20th",
+          "as": "২০ নম্বৰ"
+        },
+        {
+          "en": "17th",
+          "as": "১৭ নম্বৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Rank from the bottom = total - rank from the top + 1 = 30 - 12 + 1 = 19th.",
+        "as": "তলৰ পৰা স্থান = মুঠ - ওপৰৰ পৰা স্থান + ১ = ৩০ - ১২ + ১ = ১৯ নম্বৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "All pens are books. Some books are red. Which conclusion follows?",
+        "as": "সকলো কলম কিতাপ। কিছুমান কিতাপ ৰঙা। কোনটো সিদ্ধান্ত সত্য?"
+      },
+      "options": [
+        {
+          "en": "Only I: Some pens are red",
+          "as": "কেৱল I: কিছুমান কলম ৰঙা"
+        },
+        {
+          "en": "Only II: Some red things are books",
+          "as": "কেৱল II: কিছুমান ৰঙা বস্তু কিতাপ"
+        },
+        {
+          "en": "Both I and II",
+          "as": "I আৰু II দুয়োটা"
+        },
+        {
+          "en": "Neither I nor II",
+          "as": "I আৰু II কোনোটো নহয়"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Some books are red means some red things are books, so only II follows. Some pens being red is not guaranteed.",
+        "as": "'কিছুমান কিতাপ ৰঙা' মানে কিছুমান ৰঙা বস্তু কিতাপ; সেয়ে কেৱল II সত্য। কলম ৰঙা হোৱাটো নিশ্চিত নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "If today is Tuesday, what day will it be after 45 days?",
+        "as": "যদি আজি মঙ্গলবাৰ, তেন্তে ৪৫ দিনৰ পিছত কোনবাৰ হ'ব?"
+      },
+      "options": [
+        {
+          "en": "Wednesday",
+          "as": "বুধবাৰ"
+        },
+        {
+          "en": "Thursday",
+          "as": "বৃহস্পতিবাৰ"
+        },
+        {
+          "en": "Friday",
+          "as": "শুক্ৰবাৰ"
+        },
+        {
+          "en": "Saturday",
+          "as": "শনিবাৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "45 divided by 7 leaves a remainder of 3, so the day moves three days ahead of Tuesday, which is Friday.",
+        "as": "৪৫-ক ৭-ৰে হৰণ কৰিলে ভাগশেষ ৩ থাকে; মঙ্গলবাৰৰ পৰা তিনি দিন আগবঢ়ালে শুক্ৰবাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Thermometer is to Temperature as Barometer is to?",
+        "as": "থাৰ্মোমিটাৰৰ লগত উষ্ণতা যেনে, বেৰোমিটাৰৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Rain",
+          "as": "বৰষুণ"
+        },
+        {
+          "en": "Pressure",
+          "as": "চাপ"
+        },
+        {
+          "en": "Wind",
+          "as": "বতাহ"
+        },
+        {
+          "en": "Humidity",
+          "as": "আৰ্দ্ৰতা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A thermometer measures temperature and a barometer measures atmospheric pressure, so the answer is Pressure.",
+        "as": "থাৰ্মোমিটাৰে উষ্ণতা জোখে আৰু বেৰোমিটাৰে বায়ুমণ্ডলীয় চাপ জোখে; সেয়ে উত্তৰ 'চাপ'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one: Dog, Cat, Goat, Lion",
+        "as": "বেলেগটো বাছক: কুকুৰ, মেকুৰী, ছাগলী, সিংহ"
+      },
+      "options": [
+        {
+          "en": "Dog",
+          "as": "কুকুৰ"
+        },
+        {
+          "en": "Cat",
+          "as": "মেকুৰী"
+        },
+        {
+          "en": "Goat",
+          "as": "ছাগলী"
+        },
+        {
+          "en": "Lion",
+          "as": "সিংহ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Dog, cat and goat are domesticated animals, while a lion is a wild animal, so Lion is the odd one.",
+        "as": "কুকুৰ, মেকুৰী আৰু ছাগলী পোহনীয়া জন্তু, কিন্তু সিংহ বন্য জন্তু; সেয়ে সিংহ বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the series: B, D, F, H, ?",
+        "as": "শ্ৰেণী সম্পূৰ্ণ কৰক: B, D, F, H, ?"
+      },
+      "options": [
+        {
+          "en": "I",
+          "as": "I"
+        },
+        {
+          "en": "J",
+          "as": "J"
+        },
+        {
+          "en": "K",
+          "as": "K"
+        },
+        {
+          "en": "L",
+          "as": "L"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Each letter skips one letter in the alphabet (B, D, F, H), so the next letter is J.",
+        "as": "প্ৰতিটো আখৰে এটা আখৰ এৰি আগবাঢ়ে (B, D, F, H); সেয়ে পৰৱৰ্তী আখৰ J।"
+      }
+    },
+    {
+      "q": {
+        "en": "If A=1, B=2, ..., Z=26, what is the value of BAD?",
+        "as": "যদি A=১, B=২, ..., Z=২৬, তেন্তে BAD-ৰ মান কিমান?"
+      },
+      "options": [
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "7",
+          "as": "৭"
+        },
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "9",
+          "as": "৯"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "B=2, A=1 and D=4, so BAD = 2 + 1 + 4 = 7.",
+        "as": "B=২, A=১ আৰু D=৪; সেয়ে BAD = ২ + ১ + ৪ = ৭।"
+      }
+    },
+    {
+      "q": {
+        "en": "A father is 40 years old and his son is 10. After how many years will the father be twice as old as the son?",
+        "as": "পিতৃৰ বয়স ৪০ বছৰ আৰু পুত্ৰৰ বয়স ১০ বছৰ। কিমান বছৰৰ পিছত পিতৃৰ বয়স পুত্ৰৰ দুগুণ হ'ব?"
+      },
+      "options": [
+        {
+          "en": "15 years",
+          "as": "১৫ বছৰ"
+        },
+        {
+          "en": "20 years",
+          "as": "২০ বছৰ"
+        },
+        {
+          "en": "25 years",
+          "as": "২৫ বছৰ"
+        },
+        {
+          "en": "30 years",
+          "as": "৩০ বছৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Let x be the number of years: 40 + x = 2(10 + x), which gives x = 20 years.",
+        "as": "x বছৰ ধৰিলে: ৪০ + x = ২(১০ + x); ইয়াৰ পৰা x = ২০ বছৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the angle between the hands of a clock at 3:00?",
+        "as": "৩ বজাত ঘড়ীৰ কাঁটা দুটাৰ মাজৰ কোণ কিমান?"
+      },
+      "options": [
+        {
+          "en": "30 degrees",
+          "as": "৩০ ডিগ্ৰী"
+        },
+        {
+          "en": "45 degrees",
+          "as": "৪৫ ডিগ্ৰী"
+        },
+        {
+          "en": "60 degrees",
+          "as": "৬০ ডিগ্ৰী"
+        },
+        {
+          "en": "90 degrees",
+          "as": "৯০ ডিগ্ৰী"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "At 3:00 the hour hand is on 3 and the minute hand is on 12; each hour space is 30 degrees, so the angle is 3 x 30 = 90 degrees.",
+        "as": "৩ বজাত ঘণ্টাকাঁটা ৩-ত আৰু মিনিটকাঁটা ১২-ত থাকে; প্ৰতি ঘণ্টাৰ ব্যৱধান ৩০ ডিগ্ৰী, সেয়ে কোণ = ৩ x ৩০ = ৯০ ডিগ্ৰী।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one: 2, 3, 5, 7, 9",
+        "as": "বেলেগটো বাছক: ২, ৩, ৫, ৭, ৯"
+      },
+      "options": [
+        {
+          "en": "9",
+          "as": "৯"
+        },
+        {
+          "en": "2",
+          "as": "২"
+        },
+        {
+          "en": "3",
+          "as": "৩"
+        },
+        {
+          "en": "7",
+          "as": "৭"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "2, 3, 5 and 7 are prime numbers, while 9 is composite, so 9 is the odd one.",
+        "as": "২, ৩, ৫ আৰু ৭ মৌলিক সংখ্যা, কিন্তু ৯ যৌগিক; সেয়ে ৯ বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "A man walks 3 km south and then 4 km east. How far is he from the starting point?",
+        "as": "এজন মানুহে ৩ কি.মি. দক্ষিণে আৰু তাৰ পিছত ৪ কি.মি. পূবে খোজে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+      },
+      "options": [
+        {
+          "en": "5 km",
+          "as": "৫ কি.মি."
+        },
+        {
+          "en": "7 km",
+          "as": "৭ কি.মি."
+        },
+        {
+          "en": "1 km",
+          "as": "১ কি.মি."
+        },
+        {
+          "en": "12 km",
+          "as": "১২ কি.মি."
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The path forms a right-angled triangle with sides 3 and 4, so the distance is the square root of (9 + 16) = 5 km.",
+        "as": "পথটোৱে ৩ আৰু ৪ বাহুৰ সমকোণী ত্ৰিভুজ সৃষ্টি কৰে; সেয়ে দূৰত্ব = √(৯+১৬) = ৫ কি.মি.।"
+      }
+    },
+    {
+      "q": {
+        "en": "How many meaningful English words can be formed with the letters R, A, T using each letter once?",
+        "as": "R, A, T আখৰ প্ৰত্যেক এবাৰ ব্যৱহাৰ কৰি কেইটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন হয়?"
+      },
+      "options": [
+        {
+          "en": "One",
+          "as": "এটা"
+        },
+        {
+          "en": "Two",
+          "as": "দুটা"
+        },
+        {
+          "en": "Three",
+          "as": "তিনিটা"
+        },
+        {
+          "en": "Four",
+          "as": "চাৰিটা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Using R, A and T once each, the words ART, RAT and TAR can be formed, i.e. three words.",
+        "as": "R, A, T প্ৰত্যেক এবাৰ ব্যৱহাৰ কৰি ART, RAT আৰু TAR — এই তিনিটা শব্দ গঠন হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Water is to Thirst as Food is to?",
+        "as": "পানীৰ লগত পিয়াহ যেনে, খাদ্যৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Sleep",
+          "as": "টোপনি"
+        },
+        {
+          "en": "Hunger",
+          "as": "ভোক"
+        },
+        {
+          "en": "Energy",
+          "as": "শক্তি"
+        },
+        {
+          "en": "Taste",
+          "as": "স্বাদ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Water removes thirst and food removes hunger, so the answer is Hunger.",
+        "as": "পানীয়ে পিয়াহ নাইকিয়া কৰে আৰু খাদ্যই ভোক নাইকিয়া কৰে; সেয়ে উত্তৰ 'ভোক'।"
+      }
+    },
+    {
+      "q": {
+        "en": "A is taller than B, B is taller than C and C is taller than D. Who is the shortest?",
+        "as": "A, Bত ওখ; B, Cত ওখ আৰু C, Dত ওখ। আটাইতকৈ চুটি কোন?"
+      },
+      "options": [
+        {
+          "en": "A",
+          "as": "A"
+        },
+        {
+          "en": "B",
+          "as": "B"
+        },
+        {
+          "en": "C",
+          "as": "C"
+        },
+        {
+          "en": "D",
+          "as": "D"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The order of height is A > B > C > D, so D is the shortest.",
+        "as": "উচ্চতাৰ ক্ৰম A > B > C > D; সেয়ে D আটাইতকৈ চুটি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one: Wood, Copper, Iron, Gold",
+        "as": "বেলেগটো বাছক: কাঠ, তাম, লো, সোণ"
+      },
+      "options": [
+        {
+          "en": "Wood",
+          "as": "কাঠ"
+        },
+        {
+          "en": "Copper",
+          "as": "তাম"
+        },
+        {
+          "en": "Iron",
+          "as": "লো"
+        },
+        {
+          "en": "Gold",
+          "as": "সোণ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Copper, iron and gold are metals, while wood is not a metal, so Wood is the odd one.",
+        "as": "তাম, লো আৰু সোণ ধাতু, কিন্তু কাঠ ধাতু নহয়; সেয়ে কাঠ বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the next number: 100, 50, 25, ?",
+        "as": "পৰৱৰ্তী সংখ্যা বাছক: ১০০, ৫০, ২৫, ?"
+      },
+      "options": [
+        {
+          "en": "10",
+          "as": "১০"
+        },
+        {
+          "en": "12.5",
+          "as": "১২.৫"
+        },
+        {
+          "en": "15",
+          "as": "১৫"
+        },
+        {
+          "en": "5",
+          "as": "৫"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Each term is half the previous term, so the next term is 25 divided by 2 = 12.5.",
+        "as": "প্ৰতিটো সংখ্যা আগৰটোৰ আধা; সেয়ে পৰৱৰ্তী সংখ্যা ২৫ ÷ ২ = ১২.৫।"
+      }
+    },
+    {
+      "q": {
+        "en": "No cats are dogs. All dogs are animals. Which conclusion follows?",
+        "as": "কোনো মেকুৰী কুকুৰ নহয়। সকলো কুকুৰ জন্তু। কোনটো সিদ্ধান্ত সত্য?"
+      },
+      "options": [
+        {
+          "en": "All cats are animals",
+          "as": "সকলো মেকুৰী জন্তু"
+        },
+        {
+          "en": "Some animals are not cats",
+          "as": "কিছুমান জন্তু মেকুৰী নহয়"
+        },
+        {
+          "en": "No animals are cats",
+          "as": "কোনো জন্তু মেকুৰী নহয়"
+        },
+        {
+          "en": "All dogs are cats",
+          "as": "সকলো কুকুৰ মেকুৰী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "All dogs are animals and no cat is a dog, so dogs are animals that are not cats; hence some animals are not cats.",
+        "as": "সকলো কুকুৰ জন্তু আৰু কোনো মেকুৰী কুকুৰ নহয়; অৰ্থাৎ কুকুৰবোৰ এনে জন্তু যিবোৰ মেকুৰী নহয়; সেয়ে কিছু জন্তু মেকুৰী নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A woman says, 'He is the son of my father's only son.' How is the man related to her?",
+        "as": "এগৰাকী মহিলাই কয়, 'তেওঁ মোৰ পিতৃৰ একমাত্ৰ পুত্ৰৰ পুত্ৰ।' সেই পুৰুষগৰাকী তাইৰ কি?"
+      },
+      "options": [
+        {
+          "en": "Son",
+          "as": "পুত্ৰ"
+        },
+        {
+          "en": "Brother",
+          "as": "ভাই"
+        },
+        {
+          "en": "Nephew",
+          "as": "ভাগিনা"
+        },
+        {
+          "en": "Cousin",
+          "as": "খুৰাত ভাই"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The woman's father's only son is her brother, and his son is her nephew.",
+        "as": "মহিলাগৰাকীৰ পিতৃৰ একমাত্ৰ পুত্ৰ হৈছে তাইৰ ভাই; তেওঁৰ পুত্ৰ তাইৰ ভাগিনা।"
+      }
+    },
+    {
+      "q": {
+        "en": "If South-East becomes North, then North-East becomes?",
+        "as": "যদি দক্ষিণ-পূব উত্তৰ হয়, তেন্তে উত্তৰ-পূব কি হ'ব?"
+      },
+      "options": [
+        {
+          "en": "South",
+          "as": "দক্ষিণ"
+        },
+        {
+          "en": "East",
+          "as": "পূব"
+        },
+        {
+          "en": "West",
+          "as": "পশ্চিম"
+        },
+        {
+          "en": "North",
+          "as": "উত্তৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "South-East is rotated 135 degrees anticlockwise to become North; applying the same rotation, North-East becomes West.",
+        "as": "দক্ষিণ-পূবক ঘড়ীৰ কাঁটাৰ বিপৰীত দিশে ১৩৫ ডিগ্ৰী ঘূৰালে উত্তৰ হয়; সেই একেই ঘূৰ্ণন প্ৰয়োগ কৰিলে উত্তৰ-পূব পশ্চিম হয়।"
       }
     }
   ]
