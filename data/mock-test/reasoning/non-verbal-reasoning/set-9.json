@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "A square sheet of paper is folded in half twice and then a small corner is cut. When unfolded, the cut will appear as?",
-        "as": "এখন বৰ্গাকৃতিৰ কাগজ দুবাৰ আধা কৰি ভাঁজ কৰি এটা সৰু চুক কটা হয়। মেলি দিলে কটা অংশটো কেনে দেখা যাব?"
+        "en": "The mirror image of the word LAMP (vertical mirror on the right) looks like which option?",
+        "as": "LAMP শব্দৰ দাপোন প্ৰতিবিম্ব (সোঁফালে উলম্ব দাপোন) কেনেকুৱা দেখা যায়?"
       },
       "options": [
         {
-          "en": "A symmetrical pattern of holes",
-          "as": "ছিদ্ৰৰ এটা সমমিতীয় আৰ্হি"
+          "en": "LAMP",
+          "as": "LAMP"
         },
         {
-          "en": "A single hole in the centre",
-          "as": "মাজত এটা ছিদ্ৰ"
+          "en": "PMAL",
+          "as": "PMAL"
         },
         {
-          "en": "No hole at all",
-          "as": "কোনো ছিদ্ৰ নাই"
+          "en": "PAML",
+          "as": "PAML"
         },
         {
-          "en": "A single hole at one corner",
-          "as": "এটা চুকত এটা ছিদ୍ର"
+          "en": "MAPL",
+          "as": "MAPL"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A vertical mirror reverses the order of the letters, so LAMP becomes PMAL.",
+        "as": "উলম্ব দাপোনে আখৰৰ ক্ৰম ওলোটা কৰে, সেয়ে LAMP → PMAL।"
+      }
+    },
+    {
+      "q": {
+        "en": "The water image of the letter E is?",
+        "as": "E আখৰৰ জল প্ৰতিবিম্ব কি?"
+      },
+      "options": [
+        {
+          "en": "E",
+          "as": "E"
+        },
+        {
+          "en": "W",
+          "as": "W"
+        },
+        {
+          "en": "M",
+          "as": "M"
+        },
+        {
+          "en": "F",
+          "as": "F"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "Each fold creates a mirror copy of the cut, so unfolding the paper gives a symmetrical pattern of holes.",
-        "as": "প্ৰতিটো ভাঁজে কটা অংশৰ দাপোন প্ৰতিচ্ছবি সৃষ্টি কৰে; সেয়ে কাগজ মেলি দিলে ছিদ্ৰৰ এটা সমমিতীয় আৰ্হি দেখা যায়।"
+        "en": "E is symmetric about a horizontal axis, so its top-bottom reflection is also E.",
+        "as": "E আড় অক্ষৰ সাপেক্ষে সমমিত, সেয়ে ইয়াৰ ওপৰ-তল প্ৰতিফলনও E।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which is the odd one: square, rectangle, rhombus, triangle?",
+        "as": "কোনটো বেলেগ: বৰ্গ, আয়ত, ৰম্বাছ, ত্ৰিভুজ?"
+      },
+      "options": [
+        {
+          "en": "Square",
+          "as": "বৰ্গ"
+        },
+        {
+          "en": "Rectangle",
+          "as": "আয়ত"
+        },
+        {
+          "en": "Rhombus",
+          "as": "ৰম্বাছ"
+        },
+        {
+          "en": "Triangle",
+          "as": "ত্ৰিভুজ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Square, rectangle and rhombus are four-sided figures, while a triangle has three sides.",
+        "as": "বৰ্গ, আয়ত আৰু ৰম্বাছ চাৰিবাহুযুক্ত চিত্ৰ; ত্ৰিভুজৰ তিনিটা বাহু।"
+      }
+    },
+    {
+      "q": {
+        "en": "Triangle : 3 sides :: Octagon : ?",
+        "as": "ত্ৰিভুজ : ৩ বাহু :: অষ্টভুজ : ?"
+      },
+      "options": [
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "7",
+          "as": "৭"
+        },
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "9",
+          "as": "৯"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A triangle has 3 sides; following the same relation, an octagon has 8 sides.",
+        "as": "ত্ৰিভুজৰ ৩ বাহু; একে সম্পৰ্ক অনুসৰি অষ্টভুজৰ ৮ বাহু।"
+      }
+    },
+    {
+      "q": {
+        "en": "A 4x4x4 cube is painted on all faces and cut into small cubes. How many small cubes have exactly one painted face?",
+        "as": "৪×৪×৪ ঘনকৰ পিঠিত ৰং কৰি সৰু ঘনকত কাটিলে ঠিক এটা পিঠি ৰঙা সৰু ঘনক কিমান?"
+      },
+      "options": [
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "16",
+          "as": "১৬"
+        },
+        {
+          "en": "24",
+          "as": "২৪"
+        },
+        {
+          "en": "36",
+          "as": "৩৬"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Each face has an inner 2x2 block of cubes with one painted face, so 6 x 4 = 24 cubes.",
+        "as": "প্ৰতিটো পিঠিৰ ভিতৰৰ ২×২ = ৪টা ঘনকত এটা ৰঙা পিঠি থাকে, সেয়ে ৬ × ৪ = ২৪টা।"
+      }
+    },
+    {
+      "q": {
+        "en": "On a dice, opposite faces add up to 7. If 5 is on top, which number is at the bottom?",
+        "as": "পাশাত বিপৰীত পিঠিৰ যোগফল ৭। যদি ৫ ওপৰত থাকে, তলৰ সংখ্যা কি?"
+      },
+      "options": [
+        {
+          "en": "1",
+          "as": "১"
+        },
+        {
+          "en": "2",
+          "as": "২"
+        },
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "4",
+          "as": "৪"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The bottom face is opposite 5, so it is 7 - 5 = 2.",
+        "as": "তলৰ পিঠি ৫-ৰ বিপৰীত, সেয়ে ই ৭ − ৫ = ২।"
+      }
+    },
+    {
+      "q": {
+        "en": "A square paper is folded once in half and two holes are punched. When unfolded, how many holes are seen?",
+        "as": "বৰ্গাকাৰ কাগজ এবাৰ আধা কৰি ভাঁজ কৰি দুটা ফুটা মৰা হ'ল। মেলিলে কিমান ফুটা দেখা যাব?"
+      },
+      "options": [
+        {
+          "en": "2",
+          "as": "২"
+        },
+        {
+          "en": "4",
+          "as": "৪"
+        },
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "8",
+          "as": "৮"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "One fold doubles the holes, so 2 holes become 2 x 2 = 4 holes.",
+        "as": "এবাৰ ভাঁজে ফুটাৰ সংখ্যা দুগুণ কৰে, সেয়ে ২টা ফুটা ২ × ২ = ৪টা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "How many squares are there in a 2x4 grid of unit squares?",
+        "as": "২×৪ একক বৰ্গৰ গ্ৰিডত মুঠ কিমান বৰ্গ আছে?"
+      },
+      "options": [
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "10",
+          "as": "১০"
+        },
+        {
+          "en": "11",
+          "as": "১১"
+        },
+        {
+          "en": "12",
+          "as": "১২"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "There are 8 one-by-one squares and 3 two-by-two squares, giving 11 squares.",
+        "as": "৮টা ১×১ বৰ্গ আৰু ৩টা ২×২ বৰ্গ আছে, মুঠ ১১টা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which letter looks the same in a vertical mirror?",
+        "as": "কোন আখৰটো উলম্ব দাপোনত একেই দেখা যায়?"
+      },
+      "options": [
+        {
+          "en": "T",
+          "as": "T"
+        },
+        {
+          "en": "F",
+          "as": "F"
+        },
+        {
+          "en": "G",
+          "as": "G"
+        },
+        {
+          "en": "J",
+          "as": "J"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "T is symmetric about its vertical axis, so its vertical mirror image is also T.",
+        "as": "T উলম্ব অক্ষৰ সাপেক্ষে সমমিত, সেয়ে ইয়াৰ উলম্ব দাপোন প্ৰতিবিম্বও T।"
+      }
+    },
+    {
+      "q": {
+        "en": "The water image of the digit 9 is?",
+        "as": "অংক ৯-ৰ জল প্ৰতিবিম্ব কি?"
+      },
+      "options": [
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "9",
+          "as": "৯"
+        },
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "0",
+          "as": "০"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Reflecting 9 from top to bottom gives a shape like 6.",
+        "as": "৯-ক ওপৰৰপৰা তললৈ প্ৰতিফলিত কৰিলে ৬ ৰ দৰে আকৃতি পোৱা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "In the series 1, 2, 4, 7, 11, ?, the next number is?",
+        "as": "১, ২, ৪, ৭, ১১, ? শ্ৰেণীত পৰৱৰ্তী সংখ্যা কি?"
+      },
+      "options": [
+        {
+          "en": "14",
+          "as": "১৪"
+        },
+        {
+          "en": "15",
+          "as": "১৫"
+        },
+        {
+          "en": "16",
+          "as": "১৬"
+        },
+        {
+          "en": "18",
+          "as": "১৮"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The differences are 1, 2, 3, 4; the next difference is 5, so 11 + 5 = 16.",
+        "as": "পাৰ্থক্যবোৰ ১, ২, ৩, ৪; পৰৱৰ্তী পাৰ্থক্য ৫, সেয়ে ১১ + ৫ = ১৬।"
+      }
+    },
+    {
+      "q": {
+        "en": "How many lines of symmetry does a circle have?",
+        "as": "এটা বৃত্তৰ কিমান সমমিতি ৰেখা থাকে?"
+      },
+      "options": [
+        {
+          "en": "1",
+          "as": "১"
+        },
+        {
+          "en": "2",
+          "as": "২"
+        },
+        {
+          "en": "4",
+          "as": "৪"
+        },
+        {
+          "en": "Infinite",
+          "as": "অসীম"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Every diameter is a line of symmetry, so a circle has infinitely many.",
+        "as": "প্ৰতিটো ব্যাসেই সমমিতি ৰেখা, সেয়ে বৃত্তৰ অসীম সংখ্যক সমমিতি ৰেখা আছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which letter looks the same in a water image?",
+        "as": "কোন আখৰটো জল প্ৰতিবিম্বত একেই দেখা যায়?"
+      },
+      "options": [
+        {
+          "en": "K",
+          "as": "K"
+        },
+        {
+          "en": "L",
+          "as": "L"
+        },
+        {
+          "en": "C",
+          "as": "C"
+        },
+        {
+          "en": "D",
+          "as": "D"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "C is symmetric about a horizontal axis, so its water image looks the same.",
+        "as": "C আড় অক্ষৰ সাপেক্ষে সমমিত, সেয়ে ইয়াৰ জল প্ৰতিবিম্ব একেই দেখা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which solid has 8 vertices?",
+        "as": "কোন ঘনবস্তুৰ ৮টা শীৰ্ষবিন্দু থাকে?"
+      },
+      "options": [
+        {
+          "en": "Cone",
+          "as": "শংকু"
+        },
+        {
+          "en": "Cylinder",
+          "as": "চুঙা"
+        },
+        {
+          "en": "Sphere",
+          "as": "গোলক"
+        },
+        {
+          "en": "Cube",
+          "as": "ঘনক"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A cube has 8 vertices, one at each of its eight corners.",
+        "as": "ঘনকৰ ৮টা শীৰ্ষবিন্দু থাকে, ইয়াৰ আঠটা কোণৰ প্ৰতিটোত এটা।"
+      }
+    },
+    {
+      "q": {
+        "en": "How many faces does a cube have?",
+        "as": "এটা ঘনকৰ কিমান পিঠি থাকে?"
+      },
+      "options": [
+        {
+          "en": "4",
+          "as": "৪"
+        },
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "12",
+          "as": "১২"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A cube has 6 faces: top, bottom and four side faces.",
+        "as": "ঘনকৰ ৬টা পিঠি: ওপৰ, তল আৰু চাৰিটা কাষৰ পিঠি।"
+      }
+    },
+    {
+      "q": {
+        "en": "An arrow pointing north is rotated 180 degrees. It now points?",
+        "as": "উত্তৰমুৱা এটা কাঁড় ১৮০° ঘূৰালে এতিয়া কোনফালে মুৱা হ'ব?"
+      },
+      "options": [
+        {
+          "en": "East",
+          "as": "পূব"
+        },
+        {
+          "en": "West",
+          "as": "পশ্চিম"
+        },
+        {
+          "en": "North",
+          "as": "উত্তৰ"
+        },
+        {
+          "en": "South",
+          "as": "দক্ষিণ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A half turn reverses the direction, so north becomes south.",
+        "as": "আধা ঘূৰ্ণনে দিশ ওলোটা কৰে, সেয়ে উত্তৰ দক্ষিণ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "How many lines of symmetry does a regular hexagon have?",
+        "as": "নিয়মিত ষড়ভুজৰ কিমান সমমিতি ৰেখা থাকে?"
+      },
+      "options": [
+        {
+          "en": "2",
+          "as": "২"
+        },
+        {
+          "en": "3",
+          "as": "৩"
+        },
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "12",
+          "as": "১২"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A regular hexagon has 6 lines of symmetry, three through opposite vertices and three through opposite sides.",
+        "as": "নিয়মিত ষড়ভুজৰ ৬টা সমমিতি ৰেখা থাকে, তিনিটা বিপৰীত শীৰ্ষবিন্দুৰ মাজেৰে আৰু তিনিটা বিপৰীত বাহুৰ মাজেৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shape can tessellate a plane without gaps?",
+        "as": "কোন আকৃতিয়ে সমতলখন ফাঁক নোহোৱাকৈ ঢাকিব পাৰে?"
+      },
+      "options": [
+        {
+          "en": "Circle",
+          "as": "বৃত্ত"
+        },
+        {
+          "en": "Regular pentagon",
+          "as": "নিয়মিত পঞ্চভুজ"
+        },
+        {
+          "en": "Equilateral triangle",
+          "as": "সমবাহু ত্ৰিভুজ"
+        },
+        {
+          "en": "Star",
+          "as": "তৰা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Equilateral triangles join edge to edge without gaps, so they tile a plane.",
+        "as": "সমবাহু ত্ৰিভুজবোৰ কাষে কাষে ফাঁক নোহোৱাকৈ জোৰা লাগে, সেয়ে সিহঁতে সমতল ঢাকিব পাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Four unit squares are joined in a row. What is the perimeter of the resulting rectangle?",
+        "as": "চাৰিটা একক বৰ্গ শাৰীত জোৰা লাগি হোৱা আয়তৰ পৰিসীমা কিমান?"
+      },
+      "options": [
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "10",
+          "as": "১০"
+        },
+        {
+          "en": "12",
+          "as": "১২"
+        },
+        {
+          "en": "16",
+          "as": "১৬"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The rectangle is 4 by 1, so its perimeter is 2 x (4 + 1) = 10.",
+        "as": "আয়তটো ৪×১, সেয়ে পৰিসীমা ২ × (৪ + ১) = ১০।"
+      }
+    },
+    {
+      "q": {
+        "en": "A square paper is folded along a diagonal so that it forms a triangle. How many layers does it have?",
+        "as": "বৰ্গাকাৰ কাগজ কৰ্ণেৰে ভাঁজ কৰি ত্ৰিভুজ গঠন কৰিলে কিমান স্তৰ থাকে?"
+      },
+      "options": [
+        {
+          "en": "1",
+          "as": "১"
+        },
+        {
+          "en": "2",
+          "as": "২"
+        },
+        {
+          "en": "3",
+          "as": "৩"
+        },
+        {
+          "en": "4",
+          "as": "৪"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A single fold along a diagonal gives 2 layers.",
+        "as": "কৰ্ণেৰে এবাৰ ভাঁজ কৰিলে ২টা স্তৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A rectangle is cut along both diagonals. How many pieces are formed?",
+        "as": "এটা আয়তৰ দুয়োটা কৰ্ণেৰে কাটিলে কিমান টুকুৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "2",
+          "as": "২"
+        },
+        {
+          "en": "4",
+          "as": "৪"
+        },
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "8",
+          "as": "৮"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The two diagonals cross at the centre and form 4 triangular pieces.",
+        "as": "দুয়োটা কৰ্ণই কেন্দ্ৰত লগ লাগি ৪টা ত্ৰিভুজীয় টুকুৰা গঠন কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which is the odd one: cone, sphere, cube, circle?",
+        "as": "কোনটো বেলেগ: শংকু, গোলক, ঘনক, বৃত্ত?"
+      },
+      "options": [
+        {
+          "en": "Cone",
+          "as": "শংকু"
+        },
+        {
+          "en": "Sphere",
+          "as": "গোলক"
+        },
+        {
+          "en": "Cube",
+          "as": "ঘনক"
+        },
+        {
+          "en": "Circle",
+          "as": "বৃত্ত"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Cone, sphere and cube are 3-D solids, while a circle is a flat 2-D shape.",
+        "as": "শংকু, গোলক আৰু ঘনক ত্ৰিমাত্ৰিক ঘনবস্তু; বৃত্ত সমতল দ্বিমাত্ৰিক আকৃতি।"
+      }
+    },
+    {
+      "q": {
+        "en": "The mirror image of the word TAP (vertical mirror on the right) looks like which option?",
+        "as": "TAP শব্দৰ দাপোন প্ৰতিবিম্ব (সোঁফালে উলম্ব দাপোন) কেনেকুৱা দেখা যায়?"
+      },
+      "options": [
+        {
+          "en": "TAP",
+          "as": "TAP"
+        },
+        {
+          "en": "PAT",
+          "as": "PAT"
+        },
+        {
+          "en": "ATP",
+          "as": "ATP"
+        },
+        {
+          "en": "TPA",
+          "as": "TPA"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A vertical mirror reverses the order, so TAP is seen as P-A-T.",
+        "as": "উলম্ব দাপোনে ক্ৰম ওলোটা কৰে, সেয়ে TAP-ক P-A-T ৰূপে দেখা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the minimum number of straight lines needed to draw a hexagon?",
+        "as": "ষড়ভুজ আঁকিবলৈ ন্যূনতম কিমান সৰলৰেখা লাগে?"
+      },
+      "options": [
+        {
+          "en": "4",
+          "as": "৪"
+        },
+        {
+          "en": "5",
+          "as": "৫"
+        },
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "8",
+          "as": "৮"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A hexagon has six sides, so six straight lines are needed.",
+        "as": "ষড়ভুজৰ ছয়টা বাহু, সেয়ে ছয়টা সৰলৰেখা লাগে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Two concentric circles have how many common centres?",
+        "as": "দুটা সমকেন্দ্ৰিক বৃত্তৰ কিমান উমৈহতীয়া কেন্দ্ৰ থাকে?"
+      },
+      "options": [
+        {
+          "en": "0",
+          "as": "০"
+        },
+        {
+          "en": "1",
+          "as": "১"
+        },
+        {
+          "en": "2",
+          "as": "২"
+        },
+        {
+          "en": "Infinite",
+          "as": "অসীম"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Concentric circles are drawn from the same point, so they have exactly 1 common centre.",
+        "as": "সমকেন্দ্ৰিক বৃত্ত একে বিন্দুৰপৰা আঁকা হয়, সেয়ে সিহঁতৰ ঠিক ১টা উমৈহতীয়া কেন্দ্ৰ থাকে।"
       }
     }
   ]
