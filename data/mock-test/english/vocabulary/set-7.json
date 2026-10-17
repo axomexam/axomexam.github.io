@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "Choose the antonym of 'expand':",
-        "as": "'expand' ৰ বিপৰীত শব্দ বাছক:"
+        "en": "Choose the synonym of 'candid':",
+        "as": "'candid' ৰ সমাৰ্থক শব্দ বাছক:"
       },
       "options": [
         {
-          "en": "spread",
-          "as": "বিস্তাৰ কৰা"
+          "en": "Frank",
+          "as": "স্পষ্টবাদী"
         },
         {
-          "en": "enlarge",
-          "as": "ডাঙৰ কৰা"
+          "en": "Shy",
+          "as": "লাজুক"
         },
         {
-          "en": "contract",
-          "as": "সঙ্কুচিত কৰা"
+          "en": "Rude",
+          "as": "ৰুক্ষ"
         },
         {
-          "en": "extend",
-          "as": "প্ৰসাৰিত কৰা"
+          "en": "Secretive",
+          "as": "গোপনীয়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'Frank' is a synonym of 'candid'.",
+        "as": "'frank' হৈছে 'candid' ৰ সমাৰ্থক শব্দ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'obsolete':",
+        "as": "'obsolete' ৰ সমাৰ্থক শব্দ বাছক:"
+      },
+      "options": [
+        {
+          "en": "Fresh",
+          "as": "তাজা"
+        },
+        {
+          "en": "Outdated",
+          "as": "অচল"
+        },
+        {
+          "en": "Modern",
+          "as": "আধুনিক"
+        },
+        {
+          "en": "Useful",
+          "as": "উপযোগী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Outdated' is a synonym of 'obsolete'.",
+        "as": "'outdated' হৈছে 'obsolete' ৰ সমাৰ্থক শব্দ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'frugal':",
+        "as": "'frugal' ৰ বিপৰীত শব্দ বাছক:"
+      },
+      "options": [
+        {
+          "en": "Economical",
+          "as": "মিতব্যয়ী"
+        },
+        {
+          "en": "Thrifty",
+          "as": "মিতব্যয়ী"
+        },
+        {
+          "en": "Extravagant",
+          "as": "অপচয়ী"
+        },
+        {
+          "en": "Careful",
+          "as": "সতৰ্ক"
         }
       ],
       "correct": 2,
       "explanation": {
-        "en": "'Expand' means to become larger, so its opposite is 'contract', meaning to become smaller.",
-        "as": "'expand' ৰ অৰ্থ ডাঙৰ হোৱা; সেয়ে ইয়াৰ বিপৰীত 'contract', যাৰ অৰ্থ সৰু বা সঙ্কুচিত হোৱা।"
+        "en": "'Extravagant' is an antonym of 'frugal'.",
+        "as": "'extravagant' হৈছে 'frugal' ৰ বিপৰীত শব্দ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'benevolent':",
+        "as": "'benevolent' ৰ বিপৰীত শব্দ বাছক:"
+      },
+      "options": [
+        {
+          "en": "Generous",
+          "as": "উদাৰ"
+        },
+        {
+          "en": "Helpful",
+          "as": "সহায়ক"
+        },
+        {
+          "en": "Kind",
+          "as": "দয়ালু"
+        },
+        {
+          "en": "Cruel",
+          "as": "নিষ্ঠুৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Cruel' is an antonym of 'benevolent'.",
+        "as": "'cruel' হৈছে 'benevolent' ৰ বিপৰীত শব্দ।"
+      }
+    },
+    {
+      "q": {
+        "en": "One who studies the stars and planets is:",
+        "as": "তাৰা আৰু গ্ৰহ অধ্যয়ন কৰা ব্যক্তিক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Astronomer",
+          "as": "জ্যোৰ্তিবিদ"
+        },
+        {
+          "en": "Geologist",
+          "as": "ভূতত্ত্ববিদ"
+        },
+        {
+          "en": "Biologist",
+          "as": "জীৱবিজ্ঞানী"
+        },
+        {
+          "en": "Astrologer",
+          "as": "জ্যোতিষী"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "One who studies the stars and planets is an astronomer.",
+        "as": "তাৰা আৰু গ্ৰহ অধ্যয়ন কৰা ব্যক্তিক astronomer বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A speech delivered without any preparation is called:",
+        "as": "কোনো প্ৰস্তুতি নোহোৱাকৈ দিয়া ভাষণক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Sermon",
+          "as": "ধৰ্মোপদেশ"
+        },
+        {
+          "en": "Extempore",
+          "as": "তৎক্ষণিক ভাষণ"
+        },
+        {
+          "en": "Oration",
+          "as": "বাগ্মিতা"
+        },
+        {
+          "en": "Debate",
+          "as": "বিতৰ্ক"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A speech delivered without preparation is called an extempore.",
+        "as": "প্ৰস্তুতি নোহোৱাকৈ দিয়া ভাষণক extempore বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The idiom 'to hit the nail on the head' means:",
+        "as": "'to hit the nail on the head' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "To fail badly",
+          "as": "বেয়াকৈ বিফল হোৱা"
+        },
+        {
+          "en": "To waste time",
+          "as": "সময় নষ্ট কৰা"
+        },
+        {
+          "en": "To do or say exactly the right thing",
+          "as": "ঠিক শুদ্ধ কথা কোৱা বা কৰা"
+        },
+        {
+          "en": "To hurt someone",
+          "as": "কাকো আঘাত কৰা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'To hit the nail on the head' means to do or say exactly the right thing.",
+        "as": "'to hit the nail on the head' মানে ঠিক শুদ্ধ কথা কোৱা বা কৰা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The idiom 'a wild goose chase' means:",
+        "as": "'a wild goose chase' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "A hunting trip",
+          "as": "চিকাৰ অভিযান"
+        },
+        {
+          "en": "A quick success",
+          "as": "দ্ৰুত সফলতা"
+        },
+        {
+          "en": "A noisy quarrel",
+          "as": "হুলস্থূলীয়া কাজিয়া"
+        },
+        {
+          "en": "A hopeless search",
+          "as": "নিষ্ফল সন্ধান"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'A wild goose chase' means a hopeless or futile search.",
+        "as": "'a wild goose chase' মানে নিষ্ফল বা ব্যৰ্থ সন্ধান।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correctly spelt word:",
+        "as": "শুদ্ধ বানানৰ শব্দটো বাছক:"
+      },
+      "options": [
+        {
+          "en": "occurrence",
+          "as": "occurrence"
+        },
+        {
+          "en": "ocurrence",
+          "as": "ocurrence"
+        },
+        {
+          "en": "occurrance",
+          "as": "occurrance"
+        },
+        {
+          "en": "occurence",
+          "as": "occurence"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The correct spelling is 'occurrence'.",
+        "as": "শুদ্ধ বানান হৈছে 'occurrence'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correctly spelt word:",
+        "as": "শুদ্ধ বানানৰ শব্দটো বাছক:"
+      },
+      "options": [
+        {
+          "en": "millenium",
+          "as": "millenium"
+        },
+        {
+          "en": "millennium",
+          "as": "millennium"
+        },
+        {
+          "en": "milennium",
+          "as": "milennium"
+        },
+        {
+          "en": "millenneum",
+          "as": "millenneum"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The correct spelling is 'millennium'.",
+        "as": "শুদ্ধ বানান হৈছে 'millennium'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The phrasal verb 'to call off' means:",
+        "as": "'to call off' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "To shout",
+          "as": "চিঞৰা"
+        },
+        {
+          "en": "To continue",
+          "as": "অব্যাহত ৰখা"
+        },
+        {
+          "en": "To cancel",
+          "as": "বাতিল কৰা"
+        },
+        {
+          "en": "To invite",
+          "as": "আমন্ত্ৰণ কৰা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'To call off' means to cancel.",
+        "as": "'to call off' মানে বাতিল কৰা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The phrasal verb 'to break down' means:",
+        "as": "'to break down' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "To repair",
+          "as": "মেৰামতি কৰা"
+        },
+        {
+          "en": "To run fast",
+          "as": "দৌৰা"
+        },
+        {
+          "en": "To build",
+          "as": "নিৰ্মাণ কৰা"
+        },
+        {
+          "en": "To stop working",
+          "as": "কাম বন্ধ হোৱা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'To break down' means to stop working or fail.",
+        "as": "'to break down' মানে কাম বন্ধ হোৱা বা বিফল হোৱা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correct word: 'The dog wagged ___ tail.'",
+        "as": "শুদ্ধ শব্দটো বাছক: 'The dog wagged ___ tail.'"
+      },
+      "options": [
+        {
+          "en": "Its",
+          "as": "তাৰ"
+        },
+        {
+          "en": "Its'",
+          "as": "তাৰ"
+        },
+        {
+          "en": "It",
+          "as": "ই"
+        },
+        {
+          "en": "It's",
+          "as": "ইয়াৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'Its' is the possessive form of 'it' and fits before a noun.",
+        "as": "'its' হৈছে 'it' ৰ অধিকাৰসূচক ৰূপ আৰু বিশেষ্যৰ আগত খাপ খায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correct word: 'The school ___ gave a speech.'",
+        "as": "শুদ্ধ শব্দটো বাছক: 'The school ___ gave a speech.'"
+      },
+      "options": [
+        {
+          "en": "principle",
+          "as": "নীতি"
+        },
+        {
+          "en": "principal",
+          "as": "প্ৰধান শিক্ষক"
+        },
+        {
+          "en": "principals",
+          "as": "প্ৰধান শিক্ষকসকল"
+        },
+        {
+          "en": "principles",
+          "as": "নীতিসমূহ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Principal' means the head of a school; 'principle' means a rule or belief.",
+        "as": "'principal' মানে বিদ্যালয়ৰ প্ৰধান শিক্ষক; 'principle' মানে নীতি বা বিশ্বাস।"
+      }
+    },
+    {
+      "q": {
+        "en": "A group of fish is called a:",
+        "as": "মাছৰ দলক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Flock",
+          "as": "চৰাইৰ জাক"
+        },
+        {
+          "en": "Pack",
+          "as": "জাক"
+        },
+        {
+          "en": "School",
+          "as": "মাছৰ জাক"
+        },
+        {
+          "en": "Herd",
+          "as": "পশুৰ জাক"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A group of fish is called a school or shoal.",
+        "as": "মাছৰ দলক school বা shoal বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The noun form of 'strong' is:",
+        "as": "'strong' ৰ বিশেষ্য ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Strongly",
+          "as": "দৃঢ়ভাৱে"
+        },
+        {
+          "en": "Stronger",
+          "as": "অধিক শক্তিশালী"
+        },
+        {
+          "en": "Strengthen",
+          "as": "শক্তিশালী কৰা"
+        },
+        {
+          "en": "Strength",
+          "as": "শক্তি"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The noun form of 'strong' is 'strength'.",
+        "as": "'strong' ৰ বিশেষ্য ৰূপ হৈছে 'strength'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The phrase 'ad hoc' means:",
+        "as": "'ad hoc' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "For a particular purpose",
+          "as": "নিৰ্দিষ্ট কামৰ বাবে"
+        },
+        {
+          "en": "Without reason",
+          "as": "কাৰণ নোহোৱাকৈ"
+        },
+        {
+          "en": "Permanently",
+          "as": "স্থায়ীভাৱে"
+        },
+        {
+          "en": "By law",
+          "as": "আইন অনুসাৰে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'Ad hoc' means for a particular purpose only.",
+        "as": "'ad hoc' মানে কেৱল এটা নিৰ্দিষ্ট কামৰ বাবে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the proverb: 'Birds of a feather ___ together.'",
+        "as": "প্ৰবচনটো সম্পূৰ্ণ কৰক: 'Birds of a feather ___ together.'"
+      },
+      "options": [
+        {
+          "en": "walk",
+          "as": "খোজ কাঢ়া"
+        },
+        {
+          "en": "flock",
+          "as": "দল বন্ধা"
+        },
+        {
+          "en": "fly",
+          "as": "উৰা"
+        },
+        {
+          "en": "sing",
+          "as": "গোৱা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The proverb is 'Birds of a feather flock together'.",
+        "as": "প্ৰবচনটো হৈছে 'Birds of a feather flock together'।"
+      }
+    },
+    {
+      "q": {
+        "en": "In the sentence 'The judge's verdict was unequivocal', 'unequivocal' means:",
+        "as": "'The judge's verdict was unequivocal' বাক্যটোত 'unequivocal' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Rude",
+          "as": "ৰুক্ষ"
+        },
+        {
+          "en": "Lengthy",
+          "as": "দীঘল"
+        },
+        {
+          "en": "Clear and definite",
+          "as": "স্পষ্ট আৰু নিশ্চিত"
+        },
+        {
+          "en": "Doubtful",
+          "as": "সন্দেহজনক"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Unequivocal' means clear and definite.",
+        "as": "'unequivocal' মানে স্পষ্ট আৰু নিশ্চিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Pen : Write :: Knife : ?",
+        "as": "কলম : লিখা :: knife : ?"
+      },
+      "options": [
+        {
+          "en": "Sharp",
+          "as": "জোঙা"
+        },
+        {
+          "en": "Metal",
+          "as": "ধাতু"
+        },
+        {
+          "en": "Kitchen",
+          "as": "ৰান্ধনিশালা"
+        },
+        {
+          "en": "Cut",
+          "as": "কটা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A pen is used to write; a knife is used to cut.",
+        "as": "কলম লিখিবলৈ ব্যৱহাৰ হয়; knife কটিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which word is different: brave, courageous, valiant, timid?",
+        "as": "কোন শব্দটো বেলেগ: brave, courageous, valiant, timid?"
+      },
+      "options": [
+        {
+          "en": "timid",
+          "as": "ভীতু"
+        },
+        {
+          "en": "brave",
+          "as": "সাহসী"
+        },
+        {
+          "en": "courageous",
+          "as": "সাহসী"
+        },
+        {
+          "en": "valiant",
+          "as": "বীৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Brave, courageous and valiant mean fearless, while timid means fearful.",
+        "as": "brave, courageous আৰু valiant ৱে নিৰ্ভীক বুজায়, আনহাতে timid ৱে ভীতু বুজায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The root 'chron' means:",
+        "as": "'chron' মূল অংশৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Water",
+          "as": "পানী"
+        },
+        {
+          "en": "Time",
+          "as": "সময়"
+        },
+        {
+          "en": "Earth",
+          "as": "পৃথিৱী"
+        },
+        {
+          "en": "Life",
+          "as": "জীৱন"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The root 'chron' means time, as in chronology.",
+        "as": "'chron' মূল অংশৰ অৰ্থ সময়, যেনে chronology।"
+      }
+    },
+    {
+      "q": {
+        "en": "WHO stands for:",
+        "as": "WHO ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "World Human Organization",
+          "as": "World Human Organization"
+        },
+        {
+          "en": "World Health Office",
+          "as": "World Health Office"
+        },
+        {
+          "en": "World Health Organization",
+          "as": "World Health Organization"
+        },
+        {
+          "en": "World Housing Organization",
+          "as": "World Housing Organization"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "WHO stands for World Health Organization.",
+        "as": "WHO ৰ সম্পূৰ্ণ ৰূপ হৈছে World Health Organization।"
+      }
+    },
+    {
+      "q": {
+        "en": "The adverb form of 'quick' is:",
+        "as": "'quick' ৰ ক্ৰিয়া-বিশেষণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Quicker",
+          "as": "অধিক দ্ৰুত"
+        },
+        {
+          "en": "Quickness",
+          "as": "দ্ৰুততা"
+        },
+        {
+          "en": "Quicken",
+          "as": "দ্ৰুত কৰা"
+        },
+        {
+          "en": "Quickly",
+          "as": "দ্ৰুতভাৱে"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The adverb form of 'quick' is 'quickly'.",
+        "as": "'quick' ৰ ক্ৰিয়া-বিশেষণ ৰূপ হৈছে 'quickly'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'He prefers tea ___ coffee.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'He prefers tea ___ coffee.'"
+      },
+      "options": [
+        {
+          "en": "to",
+          "as": "লৈ"
+        },
+        {
+          "en": "over",
+          "as": "ওপৰত"
+        },
+        {
+          "en": "from",
+          "as": "পৰা"
+        },
+        {
+          "en": "than",
+          "as": "তকৈ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The verb 'prefer' is followed by 'to', so 'prefers tea to coffee' is correct.",
+        "as": "'prefer' ৰ পিছত 'to' ব্যৱহাৰ হয়, সেয়ে 'prefers tea to coffee' শুদ্ধ।"
       }
     }
   ]
