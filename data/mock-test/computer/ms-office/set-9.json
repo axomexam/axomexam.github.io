@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "Which key is used to start a slide show in PowerPoint?",
-        "as": "PowerPoint-ত স্লাইড শ্ব' আৰম্ভ কৰিবলৈ কোনটো কী ব্যৱহাৰ হয়?"
+        "en": "What does Ctrl + B do in MS Word?",
+        "as": "MS Word-ত Ctrl + B য়ে কি কৰে?"
       },
       "options": [
         {
-          "en": "F1",
-          "as": "F1"
+          "en": "Makes the text bold",
+          "as": "লিখনী বোল্ড কৰে"
         },
         {
-          "en": "F2",
-          "as": "F2"
+          "en": "Makes the text italic",
+          "as": "লিখনী ইটালিক কৰে"
         },
         {
-          "en": "F5",
-          "as": "F5"
+          "en": "Underlines the text",
+          "as": "লিখনীৰ তলত ৰেখা দিয়ে"
         },
         {
-          "en": "F12",
-          "as": "F12"
+          "en": "Centres the text",
+          "as": "লিখনী কেন্দ্ৰত সংযুক্ত কৰে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ctrl + B makes the selected text bold.",
+        "as": "Ctrl + B য়ে বাছনি কৰা লিখনী বোল্ড কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the Format Painter used for in MS Word?",
+        "as": "MS Word-ত Format Painter কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "To insert a picture",
+          "as": "ছবি সন্নিবেশ কৰা"
+        },
+        {
+          "en": "To copy formatting from one place to another",
+          "as": "এক ঠাইৰপৰা আন ঠাইলৈ ফৰ্মেটিং কপি কৰা"
+        },
+        {
+          "en": "To print the document",
+          "as": "নথিপত্ৰ প্ৰিন্ট কৰা"
+        },
+        {
+          "en": "To count the words",
+          "as": "শব্দ গণনা কৰা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Format Painter copies the formatting of selected text to another location.",
+        "as": "Format Painter য়ে বাছনি কৰা লিখনীৰ ফৰ্মেটিং আন ঠাইলৈ কপি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is a watermark used for in MS Word?",
+        "as": "MS Word-ত ৱাটাৰমাৰ্ক কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "To add a table",
+          "as": "টেবুল যোগ কৰা"
+        },
+        {
+          "en": "To print the document",
+          "as": "নথিপত্ৰ প্ৰিন্ট কৰা"
+        },
+        {
+          "en": "To display faint background text or a logo",
+          "as": "পৃষ্ঠাৰ পিছফালে ক্ষীণ লিখনী বা ল'গ' দেখুওৱা"
+        },
+        {
+          "en": "To change the font",
+          "as": "ফণ্ট সলনি কৰা"
         }
       ],
       "correct": 2,
       "explanation": {
-        "en": "Pressing F5 starts the slide show from the first slide in PowerPoint.",
-        "as": "PowerPoint-ত F5 টিপিলে প্ৰথম স্লাইডৰ পৰা স্লাইড শ্ব' আৰম্ভ হয়।"
+        "en": "A watermark displays faint text or a logo behind the text of a document.",
+        "as": "ৱাটাৰমাৰ্কে নথিপত্ৰৰ লিখনীৰ পিছফালে ক্ষীণ লিখনী বা ল'গ' দেখুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is a section break used for in MS Word?",
+        "as": "MS Word-ত Section break কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "To delete a page",
+          "as": "পৃষ্ঠা মচা"
+        },
+        {
+          "en": "To insert a picture",
+          "as": "ছবি সন্নিবেশ কৰা"
+        },
+        {
+          "en": "To check spelling",
+          "as": "বানান পৰীক্ষা কৰা"
+        },
+        {
+          "en": "To apply different formatting to parts of a document",
+          "as": "নথিপত্ৰৰ অংশবোৰত বেলেগ ফৰ্মেটিং প্ৰয়োগ কৰা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A section break allows different formatting, such as margins or orientation, in different parts of a document.",
+        "as": "Section break য়ে নথিপত্ৰৰ বেলেগ বেলেগ অংশত বেলেগ ফৰ্মেটিং, যেনে মাৰ্জিন বা অভিমুখ, ব্যৱহাৰ কৰিব দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does the .docm extension indicate?",
+        "as": ".docm এক্সটেনশনএ কি বুজায়?"
+      },
+      "options": [
+        {
+          "en": "A macro-enabled Word document",
+          "as": "মেক্ৰ' সক্ষম Word ডকুমেণ্ট"
+        },
+        {
+          "en": "A Word template",
+          "as": "Word টেমপ্লেট"
+        },
+        {
+          "en": "A read-only document",
+          "as": "কেৱল পঢ়িব পৰা ডকুমেণ্ট"
+        },
+        {
+          "en": "A PDF file",
+          "as": "PDF ফাইল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": ".docm is a macro-enabled Word document.",
+        "as": ".docm হৈছে মেক্ৰ' সক্ষম Word ডকুমেণ্ট।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which function returns the smallest value in Excel?",
+        "as": "Excel-ত সৰ্বনিম্ন মান ঘূৰাই দিয়া ফলন কোনটো?"
+      },
+      "options": [
+        {
+          "en": "AVERAGE",
+          "as": "AVERAGE"
+        },
+        {
+          "en": "MIN",
+          "as": "MIN"
+        },
+        {
+          "en": "MAX",
+          "as": "MAX"
+        },
+        {
+          "en": "SMALL",
+          "as": "SMALL"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The MIN function returns the smallest value in a range.",
+        "as": "MIN ফলনে এটা পৰিসৰৰ সৰ্বনিম্ন মান ঘূৰাই দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which function counts non-empty cells in Excel?",
+        "as": "Excel-ত খালী নোহোৱা চেল গণনা কৰিবলৈ কোন ফলন ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "SUM",
+          "as": "SUM"
+        },
+        {
+          "en": "COUNTIF",
+          "as": "COUNTIF"
+        },
+        {
+          "en": "COUNTA",
+          "as": "COUNTA"
+        },
+        {
+          "en": "COUNT",
+          "as": "COUNT"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "COUNTA counts all non-empty cells in a range.",
+        "as": "COUNTA য়ে এটা পৰিসৰৰ সকলো খালী নোহোৱা চেল গণনা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which function is used to join two or more text strings in Excel?",
+        "as": "Excel-ত দুটা বা ততোধিক লিখনী সংযুক্ত কৰিবলৈ কোন ফলন ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "LEN",
+          "as": "LEN"
+        },
+        {
+          "en": "TRIM",
+          "as": "TRIM"
+        },
+        {
+          "en": "MID",
+          "as": "MID"
+        },
+        {
+          "en": "CONCATENATE",
+          "as": "CONCATENATE"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "CONCATENATE joins two or more text strings into one.",
+        "as": "CONCATENATE য়ে দুটা বা ততোধিক লিখনীক এটাত সংযুক্ত কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does Ctrl + D do in Excel?",
+        "as": "Excel-ত Ctrl + D য়ে কি কৰে?"
+      },
+      "options": [
+        {
+          "en": "Fills down the selected cells",
+          "as": "বাছনি কৰা চেলবোৰ তললৈ পূৰণ কৰে"
+        },
+        {
+          "en": "Deletes the selected cells",
+          "as": "বাছনি কৰা চেলবোৰ মচে"
+        },
+        {
+          "en": "Opens the font dialog",
+          "as": "ফণ্ট ডায়লগ খোলে"
+        },
+        {
+          "en": "Saves the workbook",
+          "as": "ৱৰ্কবুক চেভ কৰে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ctrl + D fills the contents of the top cell down into the selected cells.",
+        "as": "Ctrl + D য়ে ওপৰৰ চেলৰ বিষয়বস্তু বাছনি কৰা চেলবোৰলৈ তললৈ পূৰণ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which chart is best for showing a trend over time?",
+        "as": "সময়ৰ সৈতে পৰিৱৰ্তনৰ প্ৰৱণতা দেখুওৱাৰ বাবে কোন চাৰ্ট উত্তম?"
+      },
+      "options": [
+        {
+          "en": "Doughnut chart",
+          "as": "ড'নাট চাৰ্ট"
+        },
+        {
+          "en": "Line chart",
+          "as": "লাইন চাৰ্ট"
+        },
+        {
+          "en": "Pie chart",
+          "as": "পাই চাৰ্ট"
+        },
+        {
+          "en": "Scatter chart",
+          "as": "স্কেটাৰ চাৰ্ট"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A line chart is best for showing trends over time.",
+        "as": "সময়ৰ সৈতে প্ৰৱণতা দেখুওৱাৰ বাবে লাইন চাৰ্ট আটাইতকৈ উপযুক্ত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Excel feature finds the input needed to reach a target result?",
+        "as": "লক্ষ্য ফলাফল পাবলৈ প্ৰয়োজনীয় ইনপুট বিচাৰি উলিওৱা Excel সুবিধা কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Data Validation",
+          "as": "ডেটা ভেলিডেচন"
+        },
+        {
+          "en": "Filter",
+          "as": "ফিল্টাৰ"
+        },
+        {
+          "en": "Goal Seek",
+          "as": "গ'ল ছীক"
+        },
+        {
+          "en": "Freeze Panes",
+          "as": "ফ্ৰীজ পেইনছ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Goal Seek finds the input value needed to achieve a target result.",
+        "as": "Goal Seek য়ে লক্ষ্য ফলাফল পাবলৈ প্ৰয়োজনীয় ইনপুট মান বিচাৰি উলিয়ায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is Data Validation used for in Excel?",
+        "as": "Excel-ত Data Validation কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "To sort the data",
+          "as": "তথ্য সজোৱা"
+        },
+        {
+          "en": "To create a chart",
+          "as": "চাৰ্ট সৃষ্টি কৰা"
+        },
+        {
+          "en": "To print the sheet",
+          "as": "শ্বীট প্ৰিন্ট কৰা"
+        },
+        {
+          "en": "To restrict the values that can be entered in a cell",
+          "as": "চেলত প্ৰৱেশ কৰিব পৰা মান সীমিত কৰা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Data Validation restricts the type or range of values that can be entered in a cell.",
+        "as": "Data Validation য়ে চেলত প্ৰৱেশ কৰিব পৰা মানৰ প্ৰকাৰ বা পৰিসৰ সীমিত কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key blacks out the screen during a slide show?",
+        "as": "স্লাইড শ্ব'ৰ সময়ত স্ক্ৰীন ক'লা কৰিবলৈ কোন কী ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "B",
+          "as": "B"
+        },
+        {
+          "en": "W",
+          "as": "W"
+        },
+        {
+          "en": "Esc",
+          "as": "Esc"
+        },
+        {
+          "en": "Enter",
+          "as": "Enter"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Pressing B blacks out the screen during a PowerPoint slide show.",
+        "as": "PowerPoint স্লাইড শ্ব'ৰ সময়ত B টিপিলে স্ক্ৰীন ক'লা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "On which tab are slide transitions found in PowerPoint?",
+        "as": "PowerPoint-ত স্লাইড ট্ৰানজিচন কোন টেবত থাকে?"
+      },
+      "options": [
+        {
+          "en": "Slide Show",
+          "as": "Slide Show"
+        },
+        {
+          "en": "Transitions",
+          "as": "Transitions"
+        },
+        {
+          "en": "Animations",
+          "as": "Animations"
+        },
+        {
+          "en": "Design",
+          "as": "Design"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Slide transitions are found on the Transitions tab.",
+        "as": "স্লাইড ট্ৰানজিচন Transitions টেবত থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is SmartArt used for in PowerPoint?",
+        "as": "PowerPoint-ত SmartArt কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "To record narration",
+          "as": "ধ্বনি ৰেকৰ্ড কৰা"
+        },
+        {
+          "en": "To check spelling",
+          "as": "বানান পৰীক্ষা কৰা"
+        },
+        {
+          "en": "To create visual diagrams",
+          "as": "দৃশ্যমান ডায়াগ্ৰাম তৈয়াৰ কৰা"
+        },
+        {
+          "en": "To print slides",
+          "as": "স্লাইড প্ৰিন্ট কৰা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "SmartArt is used to create visual diagrams such as lists, processes and hierarchies.",
+        "as": "SmartArt য়ে তালিকা, প্ৰক্ৰিয়া আৰু শ্ৰেণীবিন্যাসৰ দৰে দৃশ্যমান ডায়াগ্ৰাম তৈয়াৰ কৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the Notes pane used for in PowerPoint?",
+        "as": "PowerPoint-ত Notes pane কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "To add animations",
+          "as": "এনিমেচন যোগ কৰা"
+        },
+        {
+          "en": "To change the theme",
+          "as": "থীম সলনি কৰা"
+        },
+        {
+          "en": "To print the slides",
+          "as": "স্লাইড প্ৰিন্ট কৰা"
+        },
+        {
+          "en": "To add speaker notes",
+          "as": "স্পীকাৰ নোট যোগ কৰা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Notes pane is used to add speaker notes for each slide.",
+        "as": "Notes pane প্ৰতিটো স্লাইডৰ বাবে স্পীকাৰ নোট যোগ কৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut creates a new presentation in PowerPoint?",
+        "as": "PowerPoint-ত নতুন প্ৰেজেণ্টেচন তৈয়াৰ কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        },
+        {
+          "en": "Ctrl + M",
+          "as": "Ctrl + M"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ctrl + N creates a new presentation in PowerPoint.",
+        "as": "PowerPoint-ত Ctrl + N য়ে নতুন প্ৰেজেণ্টেচন তৈয়াৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A row in an Access table is called a?",
+        "as": "Access টেবুলত এটা শাৰীক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Report",
+          "as": "ৰিপৰ্ট"
+        },
+        {
+          "en": "Record",
+          "as": "ৰেকৰ্ড"
+        },
+        {
+          "en": "Field",
+          "as": "ফিল্ড"
+        },
+        {
+          "en": "Query",
+          "as": "কুৱেৰী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A row in an Access table is called a record.",
+        "as": "Access টেবুলত এটা শাৰীক ৰেকৰ্ড বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A column in an Access table is called a?",
+        "as": "Access টেবুলত এটা স্তম্ভক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Form",
+          "as": "ফৰ্ম"
+        },
+        {
+          "en": "Index",
+          "as": "ইণ্ডেক্স"
+        },
+        {
+          "en": "Field",
+          "as": "ফিল্ড"
+        },
+        {
+          "en": "Record",
+          "as": "ৰেকৰ্ড"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A column in an Access table is called a field.",
+        "as": "Access টেবুলত এটা স্তম্ভক ফিল্ড বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Access data type stores true or false values?",
+        "as": "কোন Access ডেটা টাইপে সত্য বা মিছা মান সংৰক্ষণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Text",
+          "as": "লিখনী"
+        },
+        {
+          "en": "Number",
+          "as": "সংখ্যা"
+        },
+        {
+          "en": "Currency",
+          "as": "মুদ্ৰা"
+        },
+        {
+          "en": "Yes/No",
+          "as": "হয়/নহয়"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Yes/No data type stores true or false values.",
+        "as": "Yes/No ডেটা টাইপে সত্য বা মিছা মান সংৰক্ষণ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Outlook folder stores messages that are waiting to be sent?",
+        "as": "পঠিয়াবলৈ বাকী থকা বাৰ্তাবোৰ Outlook-ৰ কোন ফোল্ডাৰত থাকে?"
+      },
+      "options": [
+        {
+          "en": "Outbox",
+          "as": "আউটবক্স"
+        },
+        {
+          "en": "Inbox",
+          "as": "ইনবক্স"
+        },
+        {
+          "en": "Sent Items",
+          "as": "প্ৰেৰিত আইটেম"
+        },
+        {
+          "en": "Drafts",
+          "as": "ড্ৰাফ্ট"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Outbox stores messages that are waiting to be sent.",
+        "as": "Outbox য়ে পঠিয়াবলৈ বাকী থকা বাৰ্তাবোৰ সংৰক্ষণ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is an email attachment?",
+        "as": "ইমেইল সংলগ্ন ফাইল (attachment) কি?"
+      },
+      "options": [
+        {
+          "en": "A keyboard shortcut",
+          "as": "কীবৰ্ড চৰ্টকাট"
+        },
+        {
+          "en": "A file sent along with an email",
+          "as": "ইমেইলৰ সৈতে পঠিওৱা ফাইল"
+        },
+        {
+          "en": "A type of email address",
+          "as": "এবিধ ইমেইল ঠিকনা"
+        },
+        {
+          "en": "A folder in Outlook",
+          "as": "Outlook-ৰ এটা ফোল্ডাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "An attachment is a file sent along with an email message.",
+        "as": "সংলগ্ন ফাইল হৈছে ইমেইল বাৰ্তাৰ সৈতে পঠিওৱা ফাইল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used to cut the selected item in MS Office?",
+        "as": "MS Office-ত বাছনি কৰা বস্তু কাট কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        },
+        {
+          "en": "Ctrl + Z",
+          "as": "Ctrl + Z"
+        },
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        },
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Ctrl + X cuts the selected item and places it on the clipboard.",
+        "as": "Ctrl + X য়ে বাছনি কৰা বস্তু কাটি ক্লিপব'ৰ্ডত ৰাখে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the Quick Access Toolbar used for?",
+        "as": "Quick Access Toolbar কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "To print documents",
+          "as": "নথিপত্ৰ প্ৰিন্ট কৰা"
+        },
+        {
+          "en": "To send emails",
+          "as": "ইমেইল পঠিওৱা"
+        },
+        {
+          "en": "To create charts",
+          "as": "চাৰ্ট তৈয়াৰ কৰা"
+        },
+        {
+          "en": "To access commonly used commands quickly",
+          "as": "সাধাৰণতে ব্যৱহৃত কামৰ সঁজুলিত দ্ৰুত প্ৰৱেশ কৰা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The Quick Access Toolbar provides quick access to commonly used commands.",
+        "as": "Quick Access Toolbar য়ে সাধাৰণতে ব্যৱহৃত কামৰ সঁজুলিত দ্ৰুত প্ৰৱেশ প্ৰদান কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which file format is commonly used to share a fixed-layout document?",
+        "as": "স্থিৰ বিন্যাসৰ নথিপত্ৰ ভাগ কৰিবলৈ সাধাৰণতে কোন ফাইল ফৰ্মেট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "PDF",
+          "as": "PDF"
+        },
+        {
+          "en": "DOCX",
+          "as": "DOCX"
+        },
+        {
+          "en": "XLSX",
+          "as": "XLSX"
+        },
+        {
+          "en": "PPTX",
+          "as": "PPTX"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "PDF is commonly used to share documents with a fixed layout.",
+        "as": "স্থিৰ বিন্যাসৰ নথিপত্ৰ ভাগ কৰিবলৈ PDF সাধাৰণতে ব্যৱহাৰ হয়।"
       }
     }
   ]
