@@ -5,8 +5,211 @@
   "questions": [
     {
       "q": {
-        "en": "Which of the following is a volatile memory?",
-        "as": "তলৰ কোনটো অস্থায়ী (volatile) স্মৃতি?"
+        "en": "The full form of BIOS is?",
+        "as": "BIOS-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Basic Input Output System",
+          "as": "বেচিক ইনপুট আউটপুট চিষ্টেম"
+        },
+        {
+          "en": "Basic Integrated Operating System",
+          "as": "বেচিক ইণ্টিগ্ৰেটেড অপাৰেটিং চিষ্টেম"
+        },
+        {
+          "en": "Binary Input Output System",
+          "as": "বাইনেৰী ইনপুট আউটপুট চিষ্টেম"
+        },
+        {
+          "en": "Basic Input Output Software",
+          "as": "বেচিক ইনপুট আউটপুট ছফটৱেৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "BIOS stands for Basic Input Output System. It starts the computer and checks the hardware during booting.",
+        "as": "BIOS ৰ সম্পূৰ্ণ ৰূপ Basic Input Output System। ই কম্পিউটাৰ আৰম্ভ কৰে আৰু বুটিং সময়ত হাৰ্ডৱেৰ পৰীক্ষা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which part of the CPU performs arithmetic and logical operations?",
+        "as": "CPU-ৰ কোন অংশই গাণিতিক আৰু যুক্তিমূলক কাৰ্য সম্পাদন কৰে?"
+      },
+      "options": [
+        {
+          "en": "Control Unit",
+          "as": "কণ্ট্ৰোল ইউনিট"
+        },
+        {
+          "en": "Arithmetic Logic Unit",
+          "as": "এৰিথমেটিক লজিক ইউনিট"
+        },
+        {
+          "en": "Memory Unit",
+          "as": "মেমেৰী ইউনিট"
+        },
+        {
+          "en": "Register",
+          "as": "ৰেজিষ্টাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Arithmetic Logic Unit (ALU) performs all arithmetic and logical operations inside the CPU.",
+        "as": "ALU (Arithmetic Logic Unit) য়ে CPU ৰ ভিতৰত সকলো গাণিতিক আৰু যুক্তিমূলক কাৰ্য সম্পাদন কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a pointing input device?",
+        "as": "তলৰ কোনটো পইণ্টিং ইনপুট ডিভাইচ?"
+      },
+      "options": [
+        {
+          "en": "Mouse",
+          "as": "মাউছ"
+        },
+        {
+          "en": "Printer",
+          "as": "প্ৰিণ্টাৰ"
+        },
+        {
+          "en": "Speaker",
+          "as": "স্পীকাৰ"
+        },
+        {
+          "en": "Plotter",
+          "as": "প্লটাৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A mouse is a pointing input device used to move the pointer and select items on the screen.",
+        "as": "মাউছ এটা পইণ্টিং ইনপুট ডিভাইচ, যি পইণ্টাৰ লৈ যাবলৈ আৰু স্ক্ৰীনত বস্তু বাছনি কৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a soft copy output device?",
+        "as": "তলৰ কোনটো ছফট কপি আউটপুট ডিভাইচ?"
+      },
+      "options": [
+        {
+          "en": "Keyboard",
+          "as": "কীব’ৰ্ড"
+        },
+        {
+          "en": "Scanner",
+          "as": "স্কেনাৰ"
+        },
+        {
+          "en": "Monitor",
+          "as": "মনিটৰ"
+        },
+        {
+          "en": "Mouse",
+          "as": "মাউছ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A monitor displays output on a screen, which is a soft copy.",
+        "as": "মনিটৰে স্ক্ৰীনত আউটপুট দেখুৱায়, যি ছফট কপি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is both an input and an output device?",
+        "as": "তলৰ কোনটো ইনপুট আৰু আউটপুট দুয়োটা ডিভাইচ?"
+      },
+      "options": [
+        {
+          "en": "Touch screen",
+          "as": "টাচ স্ক্ৰীন"
+        },
+        {
+          "en": "Printer",
+          "as": "প্ৰিণ্টাৰ"
+        },
+        {
+          "en": "Speaker",
+          "as": "স্পীকাৰ"
+        },
+        {
+          "en": "Scanner",
+          "as": "স্কেনাৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A touch screen accepts input by touch and also displays output, so it works as both.",
+        "as": "টাচ স্ক্ৰীনে স্পৰ্শৰে ইনপুট লয় আৰু আউটপুটও দেখুৱায়; সেয়ে ই দুয়োটা হিচাপে কাম কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "1 GB is equal to?",
+        "as": "১ GB কিমানৰ সমান?"
+      },
+      "options": [
+        {
+          "en": "1000 MB",
+          "as": "১০০০ MB"
+        },
+        {
+          "en": "1024 MB",
+          "as": "১০২৪ MB"
+        },
+        {
+          "en": "512 MB",
+          "as": "৫১২ MB"
+        },
+        {
+          "en": "2048 MB",
+          "as": "২০৪৮ MB"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "1 GB (gigabyte) is equal to 1024 MB (megabytes).",
+        "as": "১ GB (গিগাবাইট) = ১০২৪ MB (মেগাবাইট)।"
+      }
+    },
+    {
+      "q": {
+        "en": "1 Nibble is equal to?",
+        "as": "১ নিবল কিমানৰ সমান?"
+      },
+      "options": [
+        {
+          "en": "2 bits",
+          "as": "২ বিট"
+        },
+        {
+          "en": "8 bits",
+          "as": "৮ বিট"
+        },
+        {
+          "en": "4 bits",
+          "as": "৪ বিট"
+        },
+        {
+          "en": "16 bits",
+          "as": "১৬ বিট"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A nibble is equal to 4 bits, which is half of a byte.",
+        "as": "১ নিবল = ৪ বিট, অৰ্থাৎ এটা বাইটৰ আধা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a non-volatile memory?",
+        "as": "তলৰ কোনটো অপৰিৱৰ্তনশীল (non-volatile) স্মৃতি?"
       },
       "options": [
         {
@@ -14,22 +217,515 @@
           "as": "RAM"
         },
         {
+          "en": "Cache",
+          "as": "ক্যাশ"
+        },
+        {
           "en": "ROM",
           "as": "ROM"
         },
+        {
+          "en": "Register",
+          "as": "ৰেজিষ্টাৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "ROM is non-volatile memory, so its contents remain even when the power is switched off.",
+        "as": "ROM অপৰিৱৰ্তনশীল স্মৃতি; বিদ্যুৎ বন্ধ হ'লেও ইয়াৰ তথ্য থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is primary memory?",
+        "as": "তলৰ কোনটো প্ৰাথমিক স্মৃতি?"
+      },
+      "options": [
         {
           "en": "Hard disk",
           "as": "হাৰ্ড ডিস্ক"
         },
         {
-          "en": "SSD",
-          "as": "SSD"
+          "en": "RAM",
+          "as": "RAM"
+        },
+        {
+          "en": "DVD",
+          "as": "DVD"
+        },
+        {
+          "en": "Pen drive",
+          "as": "পেন ড্ৰাইভ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "RAM is primary memory, which the CPU can access directly while the computer is running.",
+        "as": "RAM প্ৰাথমিক স্মৃতি; কম্পিউটাৰ চলি থকা সময়ত CPU য়ে ইয়াক পোনপটীয়াকৈ ব্যৱহাৰ কৰিব পাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of GUI is?",
+        "as": "GUI-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Graphical User Interface",
+          "as": "গ্ৰাফিকেল ইউজাৰ ইন্টাৰফেচ"
+        },
+        {
+          "en": "General User Interface",
+          "as": "জেনেৰেল ইউজাৰ ইন্টাৰফেচ"
+        },
+        {
+          "en": "Graphical Utility Interface",
+          "as": "গ্ৰাফিকেল ইউটিলিটি ইন্টাৰফেচ"
+        },
+        {
+          "en": "Guided User Interface",
+          "as": "গাইডেড ইউজাৰ ইন্টাৰফেচ"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "RAM is volatile memory because its contents are lost when the power is switched off.",
-        "as": "RAM অস্থায়ী স্মৃতি, কাৰণ বিদ্যুৎ বন্ধ হ'লে ইয়াৰ তথ্য হেৰাই যায়।"
+        "en": "GUI stands for Graphical User Interface, which uses icons, windows and menus.",
+        "as": "GUI ৰ সম্পূৰ্ণ ৰূপ Graphical User Interface; ই আইকন, ৱিণ্ডো আৰু মেনু ব্যৱহাৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is system software?",
+        "as": "তলৰ কোনটো চিষ্টেম ছফটৱেৰ?"
+      },
+      "options": [
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        },
+        {
+          "en": "Operating system",
+          "as": "অপাৰেটিং চিষ্টেম"
+        },
+        {
+          "en": "Google Chrome",
+          "as": "Google Chrome"
+        },
+        {
+          "en": "Adobe Photoshop",
+          "as": "Adobe Photoshop"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "An operating system is system software that manages hardware and provides a platform for other programs.",
+        "as": "অপাৰেটিং চিষ্টেম চিষ্টেম ছফটৱেৰ, যি হাৰ্ডৱেৰ পৰিচালনা কৰে আৰু আন প্ৰগ্ৰামৰ বাবে প্লেটফৰ্ম দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a spreadsheet application?",
+        "as": "তলৰ কোনটো স্প্ৰেডশ্বীট এপ্লিকেচন?"
+      },
+      "options": [
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        },
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "MS PowerPoint",
+          "as": "MS PowerPoint"
+        },
+        {
+          "en": "MS Access",
+          "as": "MS Access"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "MS Excel is spreadsheet software used for calculations, tables and charts.",
+        "as": "MS Excel স্প্ৰেডশ্বীট ছফটৱেৰ, যি গণনা, টেবুল আৰু চাৰ্ট তৈয়াৰ কৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is an open-source operating system?",
+        "as": "তলৰ কোনটো মুক্ত-উৎস (open-source) অপাৰেটিং চিষ্টেম?"
+      },
+      "options": [
+        {
+          "en": "Windows",
+          "as": "Windows"
+        },
+        {
+          "en": "macOS",
+          "as": "macOS"
+        },
+        {
+          "en": "Linux",
+          "as": "Linux"
+        },
+        {
+          "en": "MS Office",
+          "as": "MS Office"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Linux is an open-source operating system whose source code is freely available.",
+        "as": "Linux এটা open-source অপাৰেটিং চিষ্টেম, যাৰ চোৰ্ছ কোড মুকলিকৈ উপলব্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The shortcut key for Undo is?",
+        "as": "Undo-ৰ শ্বৰ্টকাট কি?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + Z",
+          "as": "Ctrl + Z"
+        },
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        },
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ctrl + Z is the standard shortcut used to undo the last action.",
+        "as": "Ctrl + Z হৈ শেষ কাৰ্য বাতিল (undo) কৰাৰ সাধাৰণ শ্বৰ্টকাট।"
+      }
+    },
+    {
+      "q": {
+        "en": "The shortcut key for Select All is?",
+        "as": "Select All-ৰ শ্বৰ্টকাট কি?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        },
+        {
+          "en": "Ctrl + A",
+          "as": "Ctrl + A"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Ctrl + A is used to select all text or items in the current window.",
+        "as": "Ctrl + A য়ে বৰ্তমান ৱিণ্ডোৰ সকলো লিখা বা বস্তু বাছনি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key moves the cursor to the beginning of a line?",
+        "as": "কোন কীয়ে কাৰ্ছৰক এটা শাৰীৰ আৰম্ভণিলৈ লৈ যায়?"
+      },
+      "options": [
+        {
+          "en": "End",
+          "as": "End"
+        },
+        {
+          "en": "Home",
+          "as": "Home"
+        },
+        {
+          "en": "Page Up",
+          "as": "Page Up"
+        },
+        {
+          "en": "Tab",
+          "as": "Tab"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Home key moves the cursor to the beginning of the current line.",
+        "as": "Home কীয়ে কাৰ্ছৰক বৰ্তমান শাৰীৰ আৰম্ভণিলৈ লৈ যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of URL is?",
+        "as": "URL-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Uniform Resource Locator",
+          "as": "ইউনিফৰ্ম ৰিছ’ৰ্চ লোকেটৰ"
+        },
+        {
+          "en": "Universal Resource Link",
+          "as": "ইউনিভাৰ্চেল ৰিছ’ৰ্চ লিংক"
+        },
+        {
+          "en": "Uniform Reference Locator",
+          "as": "ইউনিফৰ্ম ৰেফাৰেন্স লোকেটৰ"
+        },
+        {
+          "en": "United Resource Locator",
+          "as": "ইউনাইটেড ৰিছ’ৰ্চ লোকেটৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "URL stands for Uniform Resource Locator, which gives the address of a resource on the web.",
+        "as": "URL ৰ সম্পূৰ্ণ ৰূপ Uniform Resource Locator; ই ৱেবত এটা সম্পদৰ ঠিকনা দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of DNS is?",
+        "as": "DNS-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Digital Network System",
+          "as": "ডিজিটেল নেটৱৰ্ক চিষ্টেম"
+        },
+        {
+          "en": "Domain Name System",
+          "as": "ডমেইন নেম চিষ্টেম"
+        },
+        {
+          "en": "Domain Network Service",
+          "as": "ডমেইন নেটৱৰ্ক চাৰ্ভিছ"
+        },
+        {
+          "en": "Data Name System",
+          "as": "ডেটা নেম চিষ্টেম"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "DNS stands for Domain Name System, which converts domain names into IP addresses.",
+        "as": "DNS ৰ সম্পূৰ্ণ ৰূপ Domain Name System; ই ডমেইন নামক IP ঠিকনালৈ ৰূপান্তৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a web browser?",
+        "as": "তলৰ কোনটো ৱেব ব্ৰাউজাৰ?"
+      },
+      "options": [
+        {
+          "en": "Google Chrome",
+          "as": "Google Chrome"
+        },
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "Windows",
+          "as": "Windows"
+        },
+        {
+          "en": "Photoshop",
+          "as": "Photoshop"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Google Chrome is a web browser used to access websites on the internet.",
+        "as": "Google Chrome এটা ৱেব ব্ৰাউজাৰ, যি ইণ্টাৰনেটত ৱেবচাইট চাবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of LAN is?",
+        "as": "LAN-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Long Area Network",
+          "as": "লং এৰিয়া নেটৱৰ্ক"
+        },
+        {
+          "en": "Local Access Network",
+          "as": "লোকেল এক্সেছ নেটৱৰ্ক"
+        },
+        {
+          "en": "Local Area Network",
+          "as": "লোকেল এৰিয়া নেটৱৰ্ক"
+        },
+        {
+          "en": "Linked Area Network",
+          "as": "লিংকড এৰিয়া নেটৱৰ্ক"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "LAN stands for Local Area Network, which connects devices within a small area such as an office or school.",
+        "as": "LAN ৰ সম্পূৰ্ণ ৰূপ Local Area Network; ই অফিচ বা বিদ্যালয়ৰ দৰে সৰু এলেকাৰ সঁজুলি সংযোগ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of WAN is?",
+        "as": "WAN-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "World Area Network",
+          "as": "ৱৰ্ল্ড এৰিয়া নেটৱৰ্ক"
+        },
+        {
+          "en": "Wireless Area Network",
+          "as": "ৱায়াৰলেছ এৰিয়া নেটৱৰ্ক"
+        },
+        {
+          "en": "Wide Access Network",
+          "as": "ৱাইড এক্সেছ নেটৱৰ্ক"
+        },
+        {
+          "en": "Wide Area Network",
+          "as": "ৱাইড এৰিয়া নেটৱৰ্ক"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "WAN stands for Wide Area Network, which covers a large geographical area.",
+        "as": "WAN ৰ সম্পূৰ্ণ ৰূপ Wide Area Network; ই বৃহৎ ভৌগোলিক এলেকা সামৰি লয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is an antivirus software?",
+        "as": "তলৰ কোনটো এণ্টিভাইৰাছ ছফটৱেৰ?"
+      },
+      "options": [
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "Norton",
+          "as": "Norton"
+        },
+        {
+          "en": "Google Chrome",
+          "as": "Google Chrome"
+        },
+        {
+          "en": "Photoshop",
+          "as": "Photoshop"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Norton is antivirus software used to detect and remove malicious programs.",
+        "as": "Norton এণ্টিভাইৰাছ ছফটৱেৰ, যি ক্ষতিকাৰক প্ৰগ্ৰাম চিনাক্ত আৰু আঁতৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A firewall is used to?",
+        "as": "ফায়াৰৱাল কি কামত ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Increase internet speed",
+          "as": "ইণ্টাৰনেটৰ গতি বঢ়াবলৈ"
+        },
+        {
+          "en": "Protect a network from unauthorized access",
+          "as": "অননুমোদিত প্ৰৱেশৰ পৰা নেটৱৰ্ক সুৰক্ষিত কৰিবলৈ"
+        },
+        {
+          "en": "Store files permanently",
+          "as": "ফাইল স্থায়ীভাৱে সংৰক্ষণ কৰিবলৈ"
+        },
+        {
+          "en": "Print documents",
+          "as": "নথিপত্ৰ ছপাবলৈ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A firewall monitors and filters network traffic to block unauthorized access.",
+        "as": "ফায়াৰৱালে নেটৱৰ্ক ট্ৰেফিক নিৰীক্ষণ আৰু ফিল্টাৰ কৰি অননুমোদিত প্ৰৱেশ বাধা দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of PDF is?",
+        "as": "PDF-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Personal Document File",
+          "as": "পাৰ্ছনেল ডকুমেণ্ট ফাইল"
+        },
+        {
+          "en": "Portable Data File",
+          "as": "প’ৰ্টেবল ডেটা ফাইল"
+        },
+        {
+          "en": "Printable Document Format",
+          "as": "প্ৰিণ্টেবল ডকুমেণ্ট ফৰ্মেট"
+        },
+        {
+          "en": "Portable Document Format",
+          "as": "প’ৰ্টেবল ডকুমেণ্ট ফৰ্মেট"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "PDF stands for Portable Document Format, a file format that preserves the layout of a document.",
+        "as": "PDF ৰ সম্পূৰ্ণ ৰূপ Portable Document Format; ই নথিপত্ৰৰ বিন্যাস সংৰক্ষণ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A pen drive is usually connected to which port?",
+        "as": "পেন ড্ৰাইভ সাধাৰণতে কোন প’ৰ্টত সংযোগ কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "HDMI port",
+          "as": "HDMI প’ৰ্ট"
+        },
+        {
+          "en": "USB port",
+          "as": "USB প’ৰ্ট"
+        },
+        {
+          "en": "VGA port",
+          "as": "VGA প’ৰ্ট"
+        },
+        {
+          "en": "Ethernet port",
+          "as": "ইথাৰনেট প’ৰ্ট"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A pen drive is connected to a USB port for data transfer.",
+        "as": "পেন ড্ৰাইভ তথ্য স্থানান্তৰৰ বাবে USB প’ৰ্টত সংযোগ কৰা হয়।"
       }
     }
   ]
