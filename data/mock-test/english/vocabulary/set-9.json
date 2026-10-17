@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "What is the meaning of the idiom 'once in a blue moon'?",
-        "as": "'once in a blue moon' বাগধাৰাৰ অৰ্থ কি?"
+        "en": "Choose the synonym of 'tenacious':",
+        "as": "'tenacious' ৰ সমাৰ্থক শব্দ বাছক:"
       },
       "options": [
         {
-          "en": "Very rarely",
-          "as": "অতি বিৰলভাৱে"
+          "en": "Persistent",
+          "as": "অধ্যৱসায়ী"
         },
         {
-          "en": "Very often",
-          "as": "বাৰে বাবে"
+          "en": "Weak",
+          "as": "দুৰ্বল"
         },
         {
-          "en": "At night",
-          "as": "ৰাতি"
+          "en": "Lazy",
+          "as": "অলস"
         },
         {
-          "en": "Never",
-          "as": "কেতিয়াও নহয়"
+          "en": "Careless",
+          "as": "অসাৱধান"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "'Once in a blue moon' means something that happens very rarely.",
-        "as": "'once in a blue moon' ৰ অৰ্থ হৈছে অতি কেতিয়াবা বা বিৰলভাৱে ঘটা।"
+        "en": "'Persistent' is a synonym of 'tenacious'.",
+        "as": "'persistent' হৈছে 'tenacious' ৰ সমাৰ্থক শব্দ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'vivid':",
+        "as": "'vivid' ৰ সমাৰ্থক শব্দ বাছক:"
+      },
+      "options": [
+        {
+          "en": "Faint",
+          "as": "ক্ষীণ"
+        },
+        {
+          "en": "Lively",
+          "as": "জীৱন্ত"
+        },
+        {
+          "en": "Dull",
+          "as": "ম্লান"
+        },
+        {
+          "en": "Dark",
+          "as": "অন্ধকাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Lively' is a synonym of 'vivid'.",
+        "as": "'lively' হৈছে 'vivid' ৰ সমাৰ্থক শব্দ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'praise':",
+        "as": "'praise' ৰ বিপৰীত শব্দ বাছক:"
+      },
+      "options": [
+        {
+          "en": "Applaud",
+          "as": "হাত চাপৰি বজোৱা"
+        },
+        {
+          "en": "Worship",
+          "as": "পূজা কৰা"
+        },
+        {
+          "en": "Criticize",
+          "as": "সমালোচনা কৰা"
+        },
+        {
+          "en": "Admire",
+          "as": "প্ৰশংসা কৰা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Criticize' is an antonym of 'praise'.",
+        "as": "'criticize' হৈছে 'praise' ৰ বিপৰীত শব্দ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'expand':",
+        "as": "'expand' ৰ বিপৰীত শব্দ বাছক:"
+      },
+      "options": [
+        {
+          "en": "Grow",
+          "as": "বাঢ়া"
+        },
+        {
+          "en": "Enlarge",
+          "as": "ডাঙৰ কৰা"
+        },
+        {
+          "en": "Spread",
+          "as": "বিয়পা"
+        },
+        {
+          "en": "Contract",
+          "as": "সংকুচিত হোৱা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Contract' is an antonym of 'expand'.",
+        "as": "'contract' হৈছে 'expand' ৰ বিপৰীত শব্দ।"
+      }
+    },
+    {
+      "q": {
+        "en": "One who eats too much is a:",
+        "as": "অত্যধিক খোৱা ব্যক্তিক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Glutton",
+          "as": "অতিভোজী"
+        },
+        {
+          "en": "Gourmet",
+          "as": "খাদ্যৰ সোৱাদ-বিশাৰদ"
+        },
+        {
+          "en": "Miser",
+          "as": "কৃপণ"
+        },
+        {
+          "en": "Spendthrift",
+          "as": "অপচয়ী"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "One who eats too much is a glutton.",
+        "as": "অত্যধিক খোৱা ব্যক্তিক glutton বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A place where bees are kept is an:",
+        "as": "মৌমাখি ৰখা ঠাইক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Granary",
+          "as": "শস্য ভঁৰাল"
+        },
+        {
+          "en": "Apiary",
+          "as": "মৌমাখি ৰখা ঠাই"
+        },
+        {
+          "en": "Aviary",
+          "as": "চৰাই ৰখা ঠাই"
+        },
+        {
+          "en": "Aquarium",
+          "as": "মাছ ৰখা ঠাই"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A place where bees are kept is an apiary.",
+        "as": "মৌমাখি ৰখা ঠাইক apiary বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The idiom 'to bite the dust' means:",
+        "as": "'to bite the dust' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "To succeed",
+          "as": "সফল হোৱা"
+        },
+        {
+          "en": "To run away",
+          "as": "পলাই যোৱা"
+        },
+        {
+          "en": "To fail or be defeated",
+          "as": "বিফল হোৱা বা পৰাজিত হোৱা"
+        },
+        {
+          "en": "To eat dust",
+          "as": "ধূলি খোৱা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'To bite the dust' means to fail or be defeated.",
+        "as": "'to bite the dust' মানে বিফল হোৱা বা পৰাজিত হোৱা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The idiom 'to add fuel to the fire' means:",
+        "as": "'to add fuel to the fire' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "To extinguish a fire",
+          "as": "জুই নুমুৱা"
+        },
+        {
+          "en": "To help someone",
+          "as": "কাকো সহায় কৰা"
+        },
+        {
+          "en": "To keep quiet",
+          "as": "মৌন থাকা"
+        },
+        {
+          "en": "To make a situation worse",
+          "as": "পৰিস্থিতি বেয়া কৰা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'To add fuel to the fire' means to make a bad situation worse.",
+        "as": "'to add fuel to the fire' মানে বেয়া পৰিস্থিতি আৰু বেয়া কৰা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correctly spelt word:",
+        "as": "শুদ্ধ বানানৰ শব্দটো বাছক:"
+      },
+      "options": [
+        {
+          "en": "conscientious",
+          "as": "conscientious"
+        },
+        {
+          "en": "consciencious",
+          "as": "consciencious"
+        },
+        {
+          "en": "conscentious",
+          "as": "conscentious"
+        },
+        {
+          "en": "consientious",
+          "as": "consientious"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The correct spelling is 'conscientious'.",
+        "as": "শুদ্ধ বানান হৈছে 'conscientious'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correctly spelt word:",
+        "as": "শুদ্ধ বানানৰ শব্দটো বাছক:"
+      },
+      "options": [
+        {
+          "en": "pronounciation",
+          "as": "pronounciation"
+        },
+        {
+          "en": "pronunciation",
+          "as": "pronunciation"
+        },
+        {
+          "en": "prononciation",
+          "as": "prononciation"
+        },
+        {
+          "en": "pronunciaton",
+          "as": "pronunciaton"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The correct spelling is 'pronunciation'.",
+        "as": "শুদ্ধ বানান হৈছে 'pronunciation'।"
+      }
+    },
+    {
+      "q": {
+        "en": "In 'The company turned down his application', 'turned down' means:",
+        "as": "'The company turned down his application' বাক্যটোত 'turned down' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Reduced",
+          "as": "কমাই দিয়া"
+        },
+        {
+          "en": "Increased",
+          "as": "বঢ়াই দিয়া"
+        },
+        {
+          "en": "Rejected",
+          "as": "প্ৰত্যাখ্যান কৰা"
+        },
+        {
+          "en": "Accepted",
+          "as": "গ্ৰহণ কৰা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Here 'turned down' means rejected the application.",
+        "as": "ইয়াত 'turned down' মানে আবেদন প্ৰত্যাখ্যান কৰা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The phrasal verb 'to bring about' means:",
+        "as": "'to bring about' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "To carry",
+          "as": "কঢ়িয়াই নিয়া"
+        },
+        {
+          "en": "To prevent",
+          "as": "প্ৰতিৰোধ কৰা"
+        },
+        {
+          "en": "To delay",
+          "as": "পলম কৰা"
+        },
+        {
+          "en": "To cause to happen",
+          "as": "ঘটোৱা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'To bring about' means to cause something to happen.",
+        "as": "'to bring about' মানে কিবা ঘটোৱা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correct word: 'I don't know ___ he will come.'",
+        "as": "শুদ্ধ শব্দটো বাছক: 'I don't know ___ he will come.'"
+      },
+      "options": [
+        {
+          "en": "Whether",
+          "as": "কি নাইবা"
+        },
+        {
+          "en": "Wether",
+          "as": "মেষ"
+        },
+        {
+          "en": "Whither",
+          "as": "ক'লৈ"
+        },
+        {
+          "en": "Weather",
+          "as": "বতৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'Whether' introduces a choice or doubt; 'weather' refers to climate.",
+        "as": "'whether' ৱে সন্দেহ বা বিকল্প বুজায়; 'weather' মানে বতৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correct word: 'He gave me good ___.'",
+        "as": "শুদ্ধ শব্দটো বাছক: 'He gave me good ___.'"
+      },
+      "options": [
+        {
+          "en": "advise",
+          "as": "উপদেশ দিয়া"
+        },
+        {
+          "en": "advice",
+          "as": "উপদেশ"
+        },
+        {
+          "en": "advices",
+          "as": "উপদেশসমূহ"
+        },
+        {
+          "en": "advising",
+          "as": "উপদেশ দিয়া"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Advice' is a noun; 'advise' is a verb.",
+        "as": "'advice' এটা বিশেষ্য; 'advise' এটা ক্ৰিয়া।"
+      }
+    },
+    {
+      "q": {
+        "en": "A group of cattle is called a:",
+        "as": "গৰুৰ দলক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Pack",
+          "as": "জাক"
+        },
+        {
+          "en": "School",
+          "as": "মাছৰ জাক"
+        },
+        {
+          "en": "Herd",
+          "as": "গৰুৰ জাক"
+        },
+        {
+          "en": "Flock",
+          "as": "চৰাইৰ জাক"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A group of cattle is called a herd.",
+        "as": "গৰুৰ দলক herd বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The adverb form of 'careful' is:",
+        "as": "'careful' ৰ ক্ৰিয়া-বিশেষণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Careful",
+          "as": "সাৱধান"
+        },
+        {
+          "en": "Carefulness",
+          "as": "সাৱধানতা"
+        },
+        {
+          "en": "Careless",
+          "as": "অসাৱধান"
+        },
+        {
+          "en": "Carefully",
+          "as": "সাৱধানে"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The adverb form of 'careful' is 'carefully'.",
+        "as": "'careful' ৰ ক্ৰিয়া-বিশেষণ ৰূপ হৈছে 'carefully'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The phrase 'status quo' means:",
+        "as": "'status quo' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "The existing state of affairs",
+          "as": "বৰ্তমান অৱস্থা"
+        },
+        {
+          "en": "A new plan",
+          "as": "নতুন পৰিকল্পনা"
+        },
+        {
+          "en": "A legal order",
+          "as": "আইনী আদেশ"
+        },
+        {
+          "en": "A final decision",
+          "as": "চূড়ান্ত সিদ্ধান্ত"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'Status quo' means the existing state of affairs.",
+        "as": "'status quo' মানে বৰ্তমান অৱস্থা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the proverb: 'Actions speak louder than ___.'",
+        "as": "প্ৰবচনটো সম্পূৰ্ণ কৰক: 'Actions speak louder than ___.'"
+      },
+      "options": [
+        {
+          "en": "promises",
+          "as": "প্ৰতিশ্ৰুতি"
+        },
+        {
+          "en": "words",
+          "as": "কথা"
+        },
+        {
+          "en": "actions",
+          "as": "কাৰ্য"
+        },
+        {
+          "en": "money",
+          "as": "ধন"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The proverb is 'Actions speak louder than words'.",
+        "as": "প্ৰবচনটো হৈছে 'Actions speak louder than words'।"
+      }
+    },
+    {
+      "q": {
+        "en": "In the sentence 'The evidence was deemed inadmissible in court', 'inadmissible' means:",
+        "as": "'The evidence was deemed inadmissible in court' বাক্যটোত 'inadmissible' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Important",
+          "as": "গুৰুত্বপূৰ্ণ"
+        },
+        {
+          "en": "Unclear",
+          "as": "অস্পষ্ট"
+        },
+        {
+          "en": "Not allowed",
+          "as": "অনুমোদিত নহয়"
+        },
+        {
+          "en": "Acceptable",
+          "as": "গ্ৰহণযোগ্য"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Inadmissible' means not allowed to be used or accepted.",
+        "as": "'inadmissible' মানে ব্যৱহাৰ বা গ্ৰহণ কৰিবলৈ অনুমোদিত নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Book : Author :: Painting : ?",
+        "as": "বই : লেখক :: চিত্ৰ : ?"
+      },
+      "options": [
+        {
+          "en": "Brush",
+          "as": "ব্ৰাছ"
+        },
+        {
+          "en": "Wall",
+          "as": "বেৰ"
+        },
+        {
+          "en": "Museum",
+          "as": "সংগ্ৰহালয়"
+        },
+        {
+          "en": "Artist",
+          "as": "শিল্পী"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A book is created by an author; a painting is created by an artist.",
+        "as": "বই লেখকে সৃষ্টি কৰে; চিত্ৰ শিল্পীয়ে সৃষ্টি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which word is different: begin, start, commence, finish?",
+        "as": "কোন শব্দটো বেলেগ: begin, start, commence, finish?"
+      },
+      "options": [
+        {
+          "en": "finish",
+          "as": "শেষ কৰা"
+        },
+        {
+          "en": "begin",
+          "as": "আৰম্ভ কৰা"
+        },
+        {
+          "en": "start",
+          "as": "শুৰু কৰা"
+        },
+        {
+          "en": "commence",
+          "as": "আৰম্ভ কৰা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Begin, start and commence mean to begin, while finish means to end.",
+        "as": "begin, start আৰু commence ৱে আৰম্ভ কৰা বুজায়, আনহাতে finish ৱে শেষ কৰা বুজায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The root 'scrib/script' means:",
+        "as": "'scrib/script' মূল অংশৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Read",
+          "as": "পঢ়া"
+        },
+        {
+          "en": "Write",
+          "as": "লিখা"
+        },
+        {
+          "en": "Draw",
+          "as": "আঁকা"
+        },
+        {
+          "en": "Speak",
+          "as": "কোৱা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The root 'scrib/script' means write, as in describe or manuscript.",
+        "as": "'scrib/script' মূল অংশৰ অৰ্থ লিখা, যেনে describe বা manuscript।"
+      }
+    },
+    {
+      "q": {
+        "en": "IQ stands for:",
+        "as": "IQ ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Intelligence Quality",
+          "as": "Intelligence Quality"
+        },
+        {
+          "en": "Intellectual Quotient",
+          "as": "Intellectual Quotient"
+        },
+        {
+          "en": "Intelligence Quotient",
+          "as": "Intelligence Quotient"
+        },
+        {
+          "en": "Intelligent Question",
+          "as": "Intelligent Question"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "IQ stands for Intelligence Quotient.",
+        "as": "IQ ৰ সম্পূৰ্ণ ৰূপ হৈছে Intelligence Quotient।"
+      }
+    },
+    {
+      "q": {
+        "en": "The adjective form of 'success' is:",
+        "as": "'success' ৰ বিশেষণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Successfully",
+          "as": "সফলভাৱে"
+        },
+        {
+          "en": "Succeed",
+          "as": "সফল হোৱা"
+        },
+        {
+          "en": "Succession",
+          "as": "উত্তৰাধিকাৰ"
+        },
+        {
+          "en": "Successful",
+          "as": "সফল"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The adjective form of 'success' is 'successful'.",
+        "as": "'success' ৰ বিশেষণ ৰূপ হৈছে 'successful'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'He is good ___ mathematics.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'He is good ___ mathematics.'"
+      },
+      "options": [
+        {
+          "en": "at",
+          "as": "ত"
+        },
+        {
+          "en": "on",
+          "as": "ওপৰত"
+        },
+        {
+          "en": "for",
+          "as": "বাবে"
+        },
+        {
+          "en": "in",
+          "as": "ত"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The correct expression is 'good at' a subject or skill.",
+        "as": "শুদ্ধ প্ৰকাশ হৈছে 'good at', যি কোনো বিষয় বা দক্ষতাৰ ক্ষেত্ৰত ব্যৱহাৰ হয়।"
       }
     }
   ]
