@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "One word for 'a person who writes books':",
-        "as": "'কিতাপ লিখা ব্যক্তি'ৰ বাবে এটা শব্দ:"
+        "en": "Choose the synonym of 'lucid':",
+        "as": "'lucid' ৰ সমাৰ্থক শব্দ বাছক:"
       },
       "options": [
         {
-          "en": "editor",
-          "as": "সম্পাদক"
+          "en": "Clear",
+          "as": "স্পষ্ট"
         },
         {
-          "en": "author",
-          "as": "লেখক"
+          "en": "Dark",
+          "as": "অন্ধকাৰ"
         },
         {
-          "en": "publisher",
-          "as": "প্ৰকাশক"
+          "en": "Confused",
+          "as": "দ্ব্যৰ্থক"
         },
         {
-          "en": "printer",
-          "as": "মুদ্ৰক"
+          "en": "Dull",
+          "as": "ম্লান"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'Clear' is a synonym of 'lucid'.",
+        "as": "'clear' হৈছে 'lucid' ৰ সমাৰ্থক শব্দ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'melancholy':",
+        "as": "'melancholy' ৰ সমাৰ্থক শব্দ বাছক:"
+      },
+      "options": [
+        {
+          "en": "Fear",
+          "as": "ভয়"
+        },
+        {
+          "en": "Sadness",
+          "as": "বিষাদ"
+        },
+        {
+          "en": "Joy",
+          "as": "আনন্দ"
+        },
+        {
+          "en": "Anger",
+          "as": "খং"
         }
       ],
       "correct": 1,
       "explanation": {
-        "en": "A person who writes books is called an author.",
-        "as": "কিতাপ লিখা ব্যক্তিক 'author' (লেখক) বোলা হয়।"
+        "en": "'Sadness' is a synonym of 'melancholy'.",
+        "as": "'sadness' হৈছে 'melancholy' ৰ সমাৰ্থক শব্দ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'scarce':",
+        "as": "'scarce' ৰ বিপৰীত শব্দ বাছক:"
+      },
+      "options": [
+        {
+          "en": "Limited",
+          "as": "সীমিত"
+        },
+        {
+          "en": "Few",
+          "as": "কম"
+        },
+        {
+          "en": "Abundant",
+          "as": "প্ৰচুৰ"
+        },
+        {
+          "en": "Rare",
+          "as": "বিৰল"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Abundant' is an antonym of 'scarce'.",
+        "as": "'abundant' হৈছে 'scarce' ৰ বিপৰীত শব্দ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'rigid':",
+        "as": "'rigid' ৰ বিপৰীত শব্দ বাছক:"
+      },
+      "options": [
+        {
+          "en": "Hard",
+          "as": "কঠিন"
+        },
+        {
+          "en": "Stiff",
+          "as": "অনমনীয়"
+        },
+        {
+          "en": "Firm",
+          "as": "দৃঢ়"
+        },
+        {
+          "en": "Flexible",
+          "as": "নমনীয়"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Flexible' is an antonym of 'rigid'.",
+        "as": "'flexible' হৈছে 'rigid' ৰ বিপৰীত শব্দ।"
+      }
+    },
+    {
+      "q": {
+        "en": "One who repairs machines is a:",
+        "as": "মেচিন মেৰামতি কৰা ব্যক্তিক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Mechanic",
+          "as": "মেকানিক"
+        },
+        {
+          "en": "Engineer",
+          "as": "অভিযন্তা"
+        },
+        {
+          "en": "Plumber",
+          "as": "নলমিস্ত্ৰী"
+        },
+        {
+          "en": "Carpenter",
+          "as": "কাঠমিস্ত্ৰী"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "One who repairs machines is a mechanic.",
+        "as": "মেচিন মেৰামতি কৰা ব্যক্তিক mechanic বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A place where money is coined is a:",
+        "as": "টকা তৈয়াৰ কৰা ঠাইক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Vault",
+          "as": "ভঁৰাল"
+        },
+        {
+          "en": "Mint",
+          "as": "টকা তৈয়াৰ কৰা ঠাই"
+        },
+        {
+          "en": "Bank",
+          "as": "বেংক"
+        },
+        {
+          "en": "Treasury",
+          "as": "ধনাগাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A place where money is coined is a mint.",
+        "as": "টকা তৈয়াৰ কৰা ঠাইক mint বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The idiom 'to burn the candle at both ends' means:",
+        "as": "'to burn the candle at both ends' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "To waste money",
+          "as": "ধন নষ্ট কৰা"
+        },
+        {
+          "en": "To sleep late",
+          "as": "দেৰিলৈ শোৱা"
+        },
+        {
+          "en": "To overwork and exhaust oneself",
+          "as": "অত্যধিক কাম কৰি নিজকে ভাগৰুৱা কৰা"
+        },
+        {
+          "en": "To celebrate",
+          "as": "উদযাপন কৰা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'To burn the candle at both ends' means to overwork and exhaust oneself.",
+        "as": "'to burn the candle at both ends' মানে অত্যধিক কাম কৰি নিজকে ভাগৰুৱা কৰা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The idiom 'to turn a deaf ear' means:",
+        "as": "'to turn a deaf ear' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "To listen carefully",
+          "as": "মন দি শুনা"
+        },
+        {
+          "en": "To become deaf",
+          "as": "কলা হোৱা"
+        },
+        {
+          "en": "To agree",
+          "as": "সহমত হোৱা"
+        },
+        {
+          "en": "To ignore",
+          "as": "অৱজ্ঞা কৰা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'To turn a deaf ear' means to ignore what is said.",
+        "as": "'to turn a deaf ear' মানে কোৱা কথা অৱজ্ঞা কৰা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correctly spelt word:",
+        "as": "শুদ্ধ বানানৰ শব্দটো বাছক:"
+      },
+      "options": [
+        {
+          "en": "conscience",
+          "as": "conscience"
+        },
+        {
+          "en": "consience",
+          "as": "consience"
+        },
+        {
+          "en": "consciense",
+          "as": "consciense"
+        },
+        {
+          "en": "concience",
+          "as": "concience"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The correct spelling is 'conscience'.",
+        "as": "শুদ্ধ বানান হৈছে 'conscience'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correctly spelt word:",
+        "as": "শুদ্ধ বানানৰ শব্দটো বাছক:"
+      },
+      "options": [
+        {
+          "en": "maintenence",
+          "as": "maintenence"
+        },
+        {
+          "en": "maintenance",
+          "as": "maintenance"
+        },
+        {
+          "en": "maintanance",
+          "as": "maintanance"
+        },
+        {
+          "en": "maintainance",
+          "as": "maintainance"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The correct spelling is 'maintenance'.",
+        "as": "শুদ্ধ বানান হৈছে 'maintenance'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The phrasal verb 'to run out of' means:",
+        "as": "'to run out of' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "To enter",
+          "as": "প্ৰৱেশ কৰা"
+        },
+        {
+          "en": "To fill",
+          "as": "ভৰোৱা"
+        },
+        {
+          "en": "To have no more of something",
+          "as": "কিবা শেষ হৈ যোৱা"
+        },
+        {
+          "en": "To run quickly",
+          "as": "দ্ৰুত দৌৰা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'To run out of' means to have no more of something.",
+        "as": "'to run out of' মানে কিবা শেষ হৈ যোৱা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The phrasal verb 'to put up with' means:",
+        "as": "'to put up with' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "To build",
+          "as": "নিৰ্মাণ কৰা"
+        },
+        {
+          "en": "To place",
+          "as": "ৰখা"
+        },
+        {
+          "en": "To reject",
+          "as": "প্ৰত্যাখ্যান কৰা"
+        },
+        {
+          "en": "To tolerate",
+          "as": "সহ্য কৰা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'To put up with' means to tolerate.",
+        "as": "'to put up with' মানে সহ্য কৰা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correct word: '___ welcome.'",
+        "as": "শুদ্ধ শব্দটো বাছক: '___ welcome.'"
+      },
+      "options": [
+        {
+          "en": "You're",
+          "as": "আপুনি"
+        },
+        {
+          "en": "Yours",
+          "as": "আপোনাৰ"
+        },
+        {
+          "en": "You",
+          "as": "আপুনি"
+        },
+        {
+          "en": "Your",
+          "as": "আপোনাৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'You're' is the contraction of 'you are', giving 'You are welcome'.",
+        "as": "'You're' হৈছে 'you are' ৰ সংক্ষিপ্ত ৰূপ, সেয়ে 'You are welcome' হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correct word: 'The car remained ___.'",
+        "as": "শুদ্ধ শব্দটো বাছক: 'The car remained ___.'"
+      },
+      "options": [
+        {
+          "en": "stationery",
+          "as": "লেখা-পঢ়াৰ সামগ্ৰী"
+        },
+        {
+          "en": "stationary",
+          "as": "স্থিৰ"
+        },
+        {
+          "en": "stationarry",
+          "as": "স্থিৰ"
+        },
+        {
+          "en": "stational",
+          "as": "স্থিৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Stationary' means not moving; 'stationery' means writing materials.",
+        "as": "'stationary' মানে স্থিৰ বা গতিহীন; 'stationery' মানে লেখা-পঢ়াৰ সামগ্ৰী।"
+      }
+    },
+    {
+      "q": {
+        "en": "A group of birds is called a:",
+        "as": "চৰাইৰ দলক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Pack",
+          "as": "জাক"
+        },
+        {
+          "en": "School",
+          "as": "মাছৰ জাক"
+        },
+        {
+          "en": "Flock",
+          "as": "চৰাইৰ জাক"
+        },
+        {
+          "en": "Herd",
+          "as": "পশুৰ জাক"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A group of birds is called a flock.",
+        "as": "চৰাইৰ দলক flock বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The adjective form of 'beauty' is:",
+        "as": "'beauty' ৰ বিশেষণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Beautifully",
+          "as": "সুন্দৰভাৱে"
+        },
+        {
+          "en": "Beautify",
+          "as": "সুন্দৰ কৰা"
+        },
+        {
+          "en": "Beauty",
+          "as": "সৌন্দৰ্য"
+        },
+        {
+          "en": "Beautiful",
+          "as": "সুন্দৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The adjective form of 'beauty' is 'beautiful'.",
+        "as": "'beauty' ৰ বিশেষণ ৰূপ হৈছে 'beautiful'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The phrase 'vice versa' means:",
+        "as": "'vice versa' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "The other way round",
+          "as": "ওলোটা ক্ৰমে"
+        },
+        {
+          "en": "For example",
+          "as": "উদাহৰণস্বৰূপে"
+        },
+        {
+          "en": "In fact",
+          "as": "প্ৰকৃততে"
+        },
+        {
+          "en": "By chance",
+          "as": "আকস্মিকভাৱে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'Vice versa' means the other way round.",
+        "as": "'vice versa' মানে ওলোটা ক্ৰমে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the proverb: 'Too many cooks spoil the ___.'",
+        "as": "প্ৰবচনটো সম্পূৰ্ণ কৰক: 'Too many cooks spoil the ___.'"
+      },
+      "options": [
+        {
+          "en": "taste",
+          "as": "স্বাদ"
+        },
+        {
+          "en": "broth",
+          "as": "আঠা"
+        },
+        {
+          "en": "food",
+          "as": "খাদ্য"
+        },
+        {
+          "en": "soup",
+          "as": "চুপ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The proverb is 'Too many cooks spoil the broth'.",
+        "as": "প্ৰবচনটো হৈছে 'Too many cooks spoil the broth'।"
+      }
+    },
+    {
+      "q": {
+        "en": "In the sentence 'The politician's speech was full of rhetoric', 'rhetoric' means:",
+        "as": "'The politician's speech was full of rhetoric' বাক্যটোত 'rhetoric' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Short reply",
+          "as": "চুটি উত্তৰ"
+        },
+        {
+          "en": "Written proof",
+          "as": "লিখিত প্ৰমাণ"
+        },
+        {
+          "en": "Grand but empty talk",
+          "as": "ডাঙৰ কিন্তু অৰ্থহীন কথা"
+        },
+        {
+          "en": "Honest speech",
+          "as": "সৎ ভাষণ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Rhetoric' means grand but often empty talk.",
+        "as": "'rhetoric' মানে ডাঙৰ কিন্তু প্ৰায়ে অৰ্থহীন কথা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Bird : Nest :: Bee : ?",
+        "as": "চৰাই : বাহ :: মৌমাখি : ?"
+      },
+      "options": [
+        {
+          "en": "Web",
+          "as": "জাল"
+        },
+        {
+          "en": "Den",
+          "as": "গুহা"
+        },
+        {
+          "en": "Burrow",
+          "as": "বিল"
+        },
+        {
+          "en": "Hive",
+          "as": "মৌচাক"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A bird lives in a nest; a bee lives in a hive.",
+        "as": "চৰাইে বাহত থাকে; মৌমাখিয়ে মৌচাকত থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which word is different: enormous, huge, vast, tiny?",
+        "as": "কোন শব্দটো বেলেগ: enormous, huge, vast, tiny?"
+      },
+      "options": [
+        {
+          "en": "tiny",
+          "as": "ক্ষুদ্ৰ"
+        },
+        {
+          "en": "enormous",
+          "as": "বিশাল"
+        },
+        {
+          "en": "huge",
+          "as": "বৃহৎ"
+        },
+        {
+          "en": "vast",
+          "as": "বিপুল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Enormous, huge and vast mean very large, while tiny means very small.",
+        "as": "enormous, huge আৰু vast ৱে অতি ডাঙৰ বুজায়, আনহাতে tiny ৱে অতি সৰু বুজায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The root 'geo' means:",
+        "as": "'geo' মূল অংশৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Time",
+          "as": "সময়"
+        },
+        {
+          "en": "Earth",
+          "as": "পৃথিৱী"
+        },
+        {
+          "en": "Life",
+          "as": "জীৱন"
+        },
+        {
+          "en": "Water",
+          "as": "পানী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The root 'geo' means earth, as in geography.",
+        "as": "'geo' মূল অংশৰ অৰ্থ পৃথিৱী, যেনে geography।"
+      }
+    },
+    {
+      "q": {
+        "en": "NASA stands for:",
+        "as": "NASA ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "North American Space Association",
+          "as": "North American Space Association"
+        },
+        {
+          "en": "National Astronaut and Space Administration",
+          "as": "National Astronaut and Space Administration"
+        },
+        {
+          "en": "National Aeronautics and Space Administration",
+          "as": "National Aeronautics and Space Administration"
+        },
+        {
+          "en": "National Air and Space Agency",
+          "as": "National Air and Space Agency"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "NASA stands for National Aeronautics and Space Administration.",
+        "as": "NASA ৰ সম্পূৰ্ণ ৰূপ হৈছে National Aeronautics and Space Administration।"
+      }
+    },
+    {
+      "q": {
+        "en": "The noun form of 'invite' is:",
+        "as": "'invite' ৰ বিশেষ্য ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Inviting",
+          "as": "আমন্ত্ৰণমূলক"
+        },
+        {
+          "en": "Invited",
+          "as": "আমন্ত্ৰিত"
+        },
+        {
+          "en": "Inviter",
+          "as": "আমন্ত্ৰণকাৰী"
+        },
+        {
+          "en": "Invitation",
+          "as": "আমন্ত্ৰণ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The noun form of 'invite' is 'invitation'.",
+        "as": "'invite' ৰ বিশেষ্য ৰূপ হৈছে 'invitation'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'She is married ___ a doctor.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'She is married ___ a doctor.'"
+      },
+      "options": [
+        {
+          "en": "to",
+          "as": "লৈ"
+        },
+        {
+          "en": "for",
+          "as": "বাবে"
+        },
+        {
+          "en": "by",
+          "as": "দ্বাৰা"
+        },
+        {
+          "en": "with",
+          "as": "সৈতে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The correct expression is 'married to someone'.",
+        "as": "শুদ্ধ প্ৰকাশ হৈছে 'married to someone'।"
       }
     }
   ]
