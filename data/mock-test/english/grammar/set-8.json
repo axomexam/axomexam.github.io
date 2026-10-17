@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "The book is ___ the table.",
-        "as": "কিতাপখন মেজখনৰ ___ আছে।"
+        "en": "He bought ___ umbrella.",
+        "as": "তেওঁ ___ ছাতি কিনিলে।"
       },
       "options": [
         {
-          "en": "on",
-          "as": "ওপৰত"
+          "en": "a",
+          "as": "a"
         },
         {
-          "en": "in",
-          "as": "ভিতৰত"
+          "en": "an",
+          "as": "an"
         },
         {
-          "en": "at",
-          "as": "ত"
+          "en": "the",
+          "as": "the"
         },
         {
-          "en": "under",
-          "as": "তলত"
+          "en": "no article",
+          "as": "প্ৰবন্ধ নাই"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Umbrella' begins with a vowel sound, so 'an' is used.",
+        "as": "'umbrella' ৰ উচ্চাৰণ স্বৰধ্বনিৰে আৰম্ভ হয়; সেয়ে 'an' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "___ Gita is a sacred book.",
+        "as": "___ গীতা এখন পবিত্ৰ গ্ৰন্থ।"
+      },
+      "options": [
+        {
+          "en": "A",
+          "as": "A"
+        },
+        {
+          "en": "An",
+          "as": "An"
+        },
+        {
+          "en": "The",
+          "as": "The"
+        },
+        {
+          "en": "No article",
+          "as": "প্ৰবন্ধ নাই"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'The' is used before the names of sacred books.",
+        "as": "পবিত্ৰ গ্ৰন্থৰ নামৰ আগত 'The' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The plural of 'datum' is:",
+        "as": "'datum' ৰ বহুবচন কি?"
+      },
+      "options": [
+        {
+          "en": "datums",
+          "as": "datums"
+        },
+        {
+          "en": "data",
+          "as": "data"
+        },
+        {
+          "en": "datases",
+          "as": "datases"
+        },
+        {
+          "en": "datum",
+          "as": "datum"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The plural of 'datum' is 'data'.",
+        "as": "'datum' ৰ বহুবচন হৈছে 'data'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The plural of 'tooth' is:",
+        "as": "'tooth' ৰ বহুবচন কি?"
+      },
+      "options": [
+        {
+          "en": "teeth",
+          "as": "teeth"
+        },
+        {
+          "en": "tooths",
+          "as": "tooths"
+        },
+        {
+          "en": "toothes",
+          "as": "toothes"
+        },
+        {
+          "en": "tooth",
+          "as": "tooth"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "'On' is used to show that something is resting on a surface, so 'on the table' is correct.",
-        "as": "কোনো বস্তু পৃষ্ঠৰ ওপৰত অৱস্থিত বুলি দেখুৱাবলৈ 'on' ব্যৱহাৰ হয়; সেয়ে 'on the table' শুদ্ধ।"
+        "en": "The plural of 'tooth' is 'teeth'.",
+        "as": "'tooth' ৰ বহুবচন হৈছে 'teeth'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The abstract noun of 'free' is:",
+        "as": "'free' ৰ ভাৱবাচক বিশেষ্য কি?"
+      },
+      "options": [
+        {
+          "en": "freely",
+          "as": "freely"
+        },
+        {
+          "en": "freeness",
+          "as": "freeness"
+        },
+        {
+          "en": "freedom",
+          "as": "freedom"
+        },
+        {
+          "en": "free",
+          "as": "free"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The abstract noun of 'free' is 'freedom'.",
+        "as": "'free' ৰ ভাৱবাচক বিশেষ্য হৈছে 'freedom'।"
+      }
+    },
+    {
+      "q": {
+        "en": "A collective noun for a group of bees is:",
+        "as": "মৌমাখিৰ দলৰ সমষ্টিবাচক বিশেষ্য কি?"
+      },
+      "options": [
+        {
+          "en": "flock",
+          "as": "flock"
+        },
+        {
+          "en": "herd",
+          "as": "herd"
+        },
+        {
+          "en": "swarm",
+          "as": "swarm"
+        },
+        {
+          "en": "pack",
+          "as": "pack"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Swarm' is the collective noun used for a group of bees.",
+        "as": "মৌমাখিৰ গোটৰ বাবে ব্যৱহৃত collective noun হৈছে 'swarm'।"
+      }
+    },
+    {
+      "q": {
+        "en": "___ book is this?",
+        "as": "এইখন কাৰ কিতাপ?"
+      },
+      "options": [
+        {
+          "en": "Who",
+          "as": "Who"
+        },
+        {
+          "en": "Whose",
+          "as": "Whose"
+        },
+        {
+          "en": "Whom",
+          "as": "Whom"
+        },
+        {
+          "en": "Which",
+          "as": "Which"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Whose' is used to ask about possession.",
+        "as": "মালিকানা সোধাৰ বাবে 'whose' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "He is the boy ___ father is a doctor.",
+        "as": "তেওঁ সেই ল'ৰাটো যাৰ পিতৃ এজন চিকিৎসক।"
+      },
+      "options": [
+        {
+          "en": "who",
+          "as": "who"
+        },
+        {
+          "en": "whom",
+          "as": "whom"
+        },
+        {
+          "en": "which",
+          "as": "which"
+        },
+        {
+          "en": "whose",
+          "as": "whose"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Whose' shows possession and is used here for 'the boy's father'.",
+        "as": "'whose' য়ে মালিকানা দেখুৱায়; ইয়াত 'the boy's father' বুজাবলৈ ব্যৱহাৰ হৈছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "They enjoyed ___ at the party.",
+        "as": "তেওঁলোকে মেলত নিজকে আমোদ দিলে।"
+      },
+      "options": [
+        {
+          "en": "themselves",
+          "as": "themselves"
+        },
+        {
+          "en": "themself",
+          "as": "themself"
+        },
+        {
+          "en": "theirselves",
+          "as": "theirselves"
+        },
+        {
+          "en": "their",
+          "as": "their"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The correct reflexive pronoun for 'they' is 'themselves'.",
+        "as": "'they' ৰ বাবে শুদ্ধ reflexive pronoun হৈছে 'themselves'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Between you and ___, this is wrong.",
+        "as": "তোমাৰ আৰু ___ মাজত, এইটো ভুল।"
+      },
+      "options": [
+        {
+          "en": "I",
+          "as": "I"
+        },
+        {
+          "en": "me",
+          "as": "me"
+        },
+        {
+          "en": "mine",
+          "as": "mine"
+        },
+        {
+          "en": "myself",
+          "as": "myself"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "After the preposition 'between', the objective pronoun 'me' is used.",
+        "as": "preposition 'between' ৰ পিছত objective pronoun 'me' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The comparative degree of 'good' is:",
+        "as": "'good' ৰ তুলনামূলক ডিগ্ৰী কি?"
+      },
+      "options": [
+        {
+          "en": "gooder",
+          "as": "gooder"
+        },
+        {
+          "en": "more good",
+          "as": "more good"
+        },
+        {
+          "en": "better",
+          "as": "better"
+        },
+        {
+          "en": "best",
+          "as": "best"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The comparative degree of 'good' is 'better'.",
+        "as": "'good' ৰ তুলনামূলক ডিগ্ৰী হৈছে 'better'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The superlative degree of 'little' is:",
+        "as": "'little' ৰ সৰ্বোচ্চ ডিগ্ৰী কি?"
+      },
+      "options": [
+        {
+          "en": "littlest",
+          "as": "littlest"
+        },
+        {
+          "en": "less",
+          "as": "less"
+        },
+        {
+          "en": "lesser",
+          "as": "lesser"
+        },
+        {
+          "en": "least",
+          "as": "least"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The superlative degree of 'little' is 'least'.",
+        "as": "'little' ৰ সৰ্বোচ্চ ডিগ্ৰী হৈছে 'least'।"
+      }
+    },
+    {
+      "q": {
+        "en": "He is angry ___ me.",
+        "as": "তেওঁ মোৰ ওপৰত খং কৰিছে।"
+      },
+      "options": [
+        {
+          "en": "on",
+          "as": "on"
+        },
+        {
+          "en": "with",
+          "as": "with"
+        },
+        {
+          "en": "at",
+          "as": "at"
+        },
+        {
+          "en": "for",
+          "as": "for"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The correct preposition after 'angry' with a person is 'with'.",
+        "as": "ব্যক্তিৰ সৈতে 'angry' ৰ পিছত শুদ্ধ preposition হৈছে 'with'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The cat jumped ___ the fence.",
+        "as": "মেকুৰীটো বেৰৰ ___ জাঁপ মাৰিলে।"
+      },
+      "options": [
+        {
+          "en": "on",
+          "as": "on"
+        },
+        {
+          "en": "into",
+          "as": "into"
+        },
+        {
+          "en": "over",
+          "as": "over"
+        },
+        {
+          "en": "at",
+          "as": "at"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Over' means across from one side to the other, which fits jumping across a fence.",
+        "as": "'over' মানে এফালৰ পৰা আনফাললৈ; বেৰৰ ওপৰেৰে জাঁপ মৰাৰ বাবে ই উপযুক্ত।"
+      }
+    },
+    {
+      "q": {
+        "en": "She is rich ___ not happy.",
+        "as": "তাই ধনী ___ সুখী নহয়।"
+      },
+      "options": [
+        {
+          "en": "and",
+          "as": "and"
+        },
+        {
+          "en": "but",
+          "as": "but"
+        },
+        {
+          "en": "or",
+          "as": "or"
+        },
+        {
+          "en": "so",
+          "as": "so"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'But' is used to join two contrasting ideas.",
+        "as": "দুটা বিপৰীত ভাৱ সংযোগ কৰিবলৈ 'but' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The news ___ shocking.",
+        "as": "বাতৰিটো চমকপ্ৰদ ___।"
+      },
+      "options": [
+        {
+          "en": "are",
+          "as": "are"
+        },
+        {
+          "en": "were",
+          "as": "were"
+        },
+        {
+          "en": "is",
+          "as": "is"
+        },
+        {
+          "en": "have",
+          "as": "have"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'News' is an uncountable noun and takes the singular verb 'is'.",
+        "as": "'news' uncountable noun; সেয়ে ই singular verb 'is' লয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "By next year, he ___ his degree.",
+        "as": "অহা বছৰৰ ভিতৰত তেওঁ তেওঁৰ ডিগ্ৰী ___।"
+      },
+      "options": [
+        {
+          "en": "will complete",
+          "as": "will complete"
+        },
+        {
+          "en": "will have completed",
+          "as": "will have completed"
+        },
+        {
+          "en": "has completed",
+          "as": "has completed"
+        },
+        {
+          "en": "completed",
+          "as": "completed"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The future perfect 'will have completed' shows an action finished before a future time.",
+        "as": "future perfect 'will have completed' য়ে ভৱিষ্যৎ সময়ৰ আগতে সম্পূৰ্ণ হোৱা কাৰ্য দেখুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Look! The baby ___.",
+        "as": "চোৱা! কেঁচুৱাটো ___।"
+      },
+      "options": [
+        {
+          "en": "cries",
+          "as": "cries"
+        },
+        {
+          "en": "cried",
+          "as": "cried"
+        },
+        {
+          "en": "is crying",
+          "as": "is crying"
+        },
+        {
+          "en": "has cried",
+          "as": "has cried"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Look!' signals an action happening now, so the present continuous 'is crying' is used.",
+        "as": "'Look!' য়ে এতিয়া ঘটি থকা কাৰ্য বুজায়; সেয়ে present continuous 'is crying' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Change into passive voice: They are painting the wall.",
+        "as": "কৰ্মবাচ্যলৈ ৰূপান্তৰ কৰক: They are painting the wall."
+      },
+      "options": [
+        {
+          "en": "The wall is painted.",
+          "as": "The wall is painted."
+        },
+        {
+          "en": "The wall is being painted.",
+          "as": "The wall is being painted."
+        },
+        {
+          "en": "The wall was being painted.",
+          "as": "The wall was being painted."
+        },
+        {
+          "en": "The wall has painted.",
+          "as": "The wall has painted."
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The present continuous passive is formed with 'is/are being' plus the past participle.",
+        "as": "present continuous ৰ কৰ্মবাচ্য 'is/are being' আৰু past participle ৰে গঠিত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Change into active voice: The work has been done by him.",
+        "as": "কৰ্তৃবাচ্যলৈ ৰূপান্তৰ কৰক: The work has been done by him."
+      },
+      "options": [
+        {
+          "en": "He has done the work.",
+          "as": "He has done the work."
+        },
+        {
+          "en": "He did the work.",
+          "as": "He did the work."
+        },
+        {
+          "en": "He does the work.",
+          "as": "He does the work."
+        },
+        {
+          "en": "He is doing the work.",
+          "as": "He is doing the work."
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The present perfect passive 'has been done' corresponds to the active 'has done'.",
+        "as": "present perfect ৰ কৰ্মবাচ্য 'has been done' ৰ কৰ্তৃবাচ্য হৈছে 'has done'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Change into indirect speech: The teacher said to me, 'Open the door.'",
+        "as": "পৰোক্ষ উক্তিলৈ ৰূপান্তৰ কৰক: The teacher said to me, 'Open the door.'"
+      },
+      "options": [
+        {
+          "en": "The teacher told me open the door.",
+          "as": "The teacher told me open the door."
+        },
+        {
+          "en": "The teacher said me to open the door.",
+          "as": "The teacher said me to open the door."
+        },
+        {
+          "en": "The teacher told me to open the door.",
+          "as": "The teacher told me to open the door."
+        },
+        {
+          "en": "The teacher asked me open the door.",
+          "as": "The teacher asked me open the door."
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "An imperative sentence is reported with 'told' plus 'to' and the base verb.",
+        "as": "আদেশবাচক বাক্যৰ পৰোক্ষ উক্তিত 'told' আৰু 'to' ৰ সৈতে verb ৰ base form ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "He ___ speak English fluently when he was young.",
+        "as": "তেওঁ ডেকা কালত ইংৰাজী অনৰ্গল ক'ব ___।"
+      },
+      "options": [
+        {
+          "en": "can",
+          "as": "can"
+        },
+        {
+          "en": "could",
+          "as": "could"
+        },
+        {
+          "en": "may",
+          "as": "may"
+        },
+        {
+          "en": "must",
+          "as": "must"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Could' is the past form of 'can' and shows past ability.",
+        "as": "'could' হৈছে 'can' ৰ অতীত ৰূপ আৰু ই অতীতৰ সামৰ্থ্য দেখুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Let us go for a walk, ___?",
+        "as": "আহা, আমি খোজ কাঢ়িবলৈ যাওঁ, ___?"
+      },
+      "options": [
+        {
+          "en": "shall we",
+          "as": "shall we"
+        },
+        {
+          "en": "will we",
+          "as": "will we"
+        },
+        {
+          "en": "do we",
+          "as": "do we"
+        },
+        {
+          "en": "don't we",
+          "as": "don't we"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A sentence beginning with 'Let us' takes the question tag 'shall we'.",
+        "as": "'Let us' ৰে আৰম্ভ হোৱা বাক্যৰ question tag হৈছে 'shall we'।"
+      }
+    },
+    {
+      "q": {
+        "en": "If you heat ice, it ___.",
+        "as": "যদি তুমি বৰফ গৰম কৰা, ই ___।"
+      },
+      "options": [
+        {
+          "en": "melt",
+          "as": "melt"
+        },
+        {
+          "en": "melted",
+          "as": "melted"
+        },
+        {
+          "en": "melts",
+          "as": "melts"
+        },
+        {
+          "en": "will melting",
+          "as": "will melting"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A general truth is expressed in the zero conditional with the present simple 'melts'.",
+        "as": "সাধাৰণ সত্য zero conditional ত present simple 'melts' ৰে প্ৰকাশ কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correct sentence using 'one of':",
+        "as": "'one of' ব্যৱহাৰ কৰা শুদ্ধ বাক্যটো বাছক:"
+      },
+      "options": [
+        {
+          "en": "One of my friends is a doctor.",
+          "as": "One of my friends is a doctor."
+        },
+        {
+          "en": "One of my friend are a doctor.",
+          "as": "One of my friend are a doctor."
+        },
+        {
+          "en": "One of my friends are a doctor.",
+          "as": "One of my friends are a doctor."
+        },
+        {
+          "en": "One of my friend is doctor.",
+          "as": "One of my friend is doctor."
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The phrase is 'one of my friends', and 'one' takes the singular verb 'is'.",
+        "as": "বাক্যাংশটো 'one of my friends', আৰু 'one' য়ে singular verb 'is' লয়।"
       }
     }
   ]
