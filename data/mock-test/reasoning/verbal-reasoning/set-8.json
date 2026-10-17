@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "If in a certain code PEN is written as QFO, then INK is written as?",
-        "as": "যদি এটা নিৰ্দিষ্ট সংকেতত PEN-ক QFO লিখা হয়, তেন্তে INK-ক কি লিখা হ'ব?"
+        "en": "Pen is to Ink as Car is to?",
+        "as": "কলমৰ লগত চিয়াহী যেনে, গাড়ীৰ লগত কি?"
       },
       "options": [
         {
-          "en": "JOL",
-          "as": "JOL"
+          "en": "Fuel",
+          "as": "ইন্ধন"
         },
         {
-          "en": "JOK",
-          "as": "JOK"
+          "en": "Driver",
+          "as": "চালক"
         },
         {
-          "en": "HOL",
-          "as": "HOL"
+          "en": "Road",
+          "as": "পথ"
         },
         {
-          "en": "IOL",
-          "as": "IOL"
+          "en": "Wheel",
+          "as": "চকা"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "Each letter in the code moves one step forward in the alphabet (P to Q, E to F, N to O); applying the same rule to INK gives JOL.",
-        "as": "সংকেতত প্ৰতিটো আখৰ বৰ্ণমালাত এপদ আগবাঢ়ে (P→Q, E→F, N→O); INK-ত একে নিয়ম প্ৰয়োগ কৰিলে JOL পোৱা যায়।"
+        "en": "A pen runs on ink and a car runs on fuel, so the answer is Fuel.",
+        "as": "কলম চিয়াহীৰে চলে আৰু গাড়ী ইন্ধনৰে চলে; সেয়ে উত্তৰ 'ইন্ধন'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one out: 6, 12, 18, 25, 30",
+        "as": "বেলেগটো বাছক: ৬, ১২, ১৮, ২৫, ৩০"
+      },
+      "options": [
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "18",
+          "as": "১৮"
+        },
+        {
+          "en": "25",
+          "as": "২৫"
+        },
+        {
+          "en": "30",
+          "as": "৩০"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "6, 12, 18 and 30 are multiples of 6, while 25 is not, so 25 is the odd one.",
+        "as": "৬, ১২, ১৮ আৰু ৩০, ৬-ৰ গুণিতক, কিন্তু ২৫ নহয়; সেয়ে ২৫ বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the next number: 7, 14, 28, 56, ?",
+        "as": "পৰৱৰ্তী সংখ্যা বাছক: ৭, ১৪, ২৮, ৫৬, ?"
+      },
+      "options": [
+        {
+          "en": "98",
+          "as": "৯৮"
+        },
+        {
+          "en": "112",
+          "as": "১১২"
+        },
+        {
+          "en": "108",
+          "as": "১০৮"
+        },
+        {
+          "en": "120",
+          "as": "১২০"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Each term is double the previous term, so the next term is 56 x 2 = 112.",
+        "as": "প্ৰতিটো সংখ্যা আগৰটোৰ দুগুণ; সেয়ে পৰৱৰ্তী সংখ্যা ৫৬ x ২ = ১১২।"
+      }
+    },
+    {
+      "q": {
+        "en": "If A=1, B=2, ..., Z=26, what is the value of CAB?",
+        "as": "যদি A=১, B=২, ..., Z=২৬, তেন্তে CAB-ৰ মান কিমান?"
+      },
+      "options": [
+        {
+          "en": "5",
+          "as": "৫"
+        },
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "7",
+          "as": "৭"
+        },
+        {
+          "en": "8",
+          "as": "৮"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "C=3, A=1 and B=2, so CAB = 3 + 1 + 2 = 6.",
+        "as": "C=৩, A=১ আৰু B=২; সেয়ে CAB = ৩ + ১ + ২ = ৬।"
+      }
+    },
+    {
+      "q": {
+        "en": "My father's wife is my?",
+        "as": "মোৰ পিতৃৰ পত্নী মোৰ কি?"
+      },
+      "options": [
+        {
+          "en": "Sister",
+          "as": "ভনী"
+        },
+        {
+          "en": "Aunt",
+          "as": "মাহী"
+        },
+        {
+          "en": "Mother",
+          "as": "মাতৃ"
+        },
+        {
+          "en": "Grandmother",
+          "as": "আইতাক"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The wife of one's father is one's mother, so the answer is Mother.",
+        "as": "পিতৃৰ পত্নী হৈছে মাতৃ; সেয়ে উত্তৰ 'মাতৃ'।"
+      }
+    },
+    {
+      "q": {
+        "en": "A man facing south turns right twice. Which direction is he facing now?",
+        "as": "দক্ষিণলৈ মুখ কৰি থকা এজন মানুহে দুবাৰ সোঁফালে ঘূৰে। এতিয়া তেওঁ কোন দিশলৈ মুখ কৰি আছে?"
+      },
+      "options": [
+        {
+          "en": "South",
+          "as": "দক্ষিণ"
+        },
+        {
+          "en": "West",
+          "as": "পশ্চিম"
+        },
+        {
+          "en": "North",
+          "as": "উত্তৰ"
+        },
+        {
+          "en": "East",
+          "as": "পূব"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Facing south, the first right turn makes him face west and the second right turn makes him face north.",
+        "as": "দক্ষিণলৈ মুখ কৰি প্ৰথম সোঁ ঘূৰ্ণনত পশ্চিমলৈ আৰু দ্বিতীয় সোঁ ঘূৰ্ণনত উত্তৰলৈ মুখ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a row of 25 students, B is 9th from the right. What is his position from the left?",
+        "as": "২৫ জন ছাত্ৰৰ শাৰীত B সোঁফালৰ পৰা ৯ নম্বৰ। বাওঁফালৰ পৰা তেওঁৰ স্থান কিমান?"
+      },
+      "options": [
+        {
+          "en": "16th",
+          "as": "১৬ নম্বৰ"
+        },
+        {
+          "en": "17th",
+          "as": "১৭ নম্বৰ"
+        },
+        {
+          "en": "18th",
+          "as": "১৮ নম্বৰ"
+        },
+        {
+          "en": "19th",
+          "as": "১৯ নম্বৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Position from the left = total - position from the right + 1 = 25 - 9 + 1 = 17th.",
+        "as": "বাওঁফালৰ পৰা স্থান = মুঠ - সোঁফালৰ স্থান + ১ = ২৫ - ৯ + ১ = ১৭ নম্বৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Some doctors are teachers. All teachers are graduates. Which conclusion follows?",
+        "as": "কিছুমান চিকিৎসক শিক্ষক। সকলো শিক্ষক স্নাতক। কোনটো সিদ্ধান্ত সত্য?"
+      },
+      "options": [
+        {
+          "en": "Some doctors are graduates",
+          "as": "কিছুমান চিকিৎসক স্নাতক"
+        },
+        {
+          "en": "All doctors are graduates",
+          "as": "সকলো চিকিৎসক স্নাতক"
+        },
+        {
+          "en": "No doctor is a graduate",
+          "as": "কোনো চিকিৎসক স্নাতক নহয়"
+        },
+        {
+          "en": "None of these",
+          "as": "ইয়াৰ কোনোটো নহয়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The doctors who are teachers are also graduates, so some doctors are graduates.",
+        "as": "যিসকল চিকিৎসক শিক্ষক তেওঁলোক স্নাতকো; সেয়ে কিছুমান চিকিৎসক স্নাতক।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 15th August 2024 was Thursday, what day was 15th September 2024?",
+        "as": "যদি ১৫ আগষ্ট ২০২৪ বৃহস্পতিবাৰ আছিল, তেন্তে ১৫ চেপ্তেম্বৰ ২০২৪ কোনবাৰ আছিল?"
+      },
+      "options": [
+        {
+          "en": "Saturday",
+          "as": "শনিবাৰ"
+        },
+        {
+          "en": "Sunday",
+          "as": "দেওবাৰ"
+        },
+        {
+          "en": "Monday",
+          "as": "সোমবাৰ"
+        },
+        {
+          "en": "Friday",
+          "as": "শুক্ৰবাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "August has 31 days and 31 divided by 7 leaves 3, so the day moves three days ahead of Thursday, which is Sunday.",
+        "as": "আগষ্টত ৩১ দিন; ৩১-ক ৭-ৰে হৰণ কৰিলে ৩ বাকী থাকে; বৃহস্পতিবাৰৰ পৰা তিনি দিন আগবঢ়ালে দেওবাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Sailor is to Ship as Pilot is to?",
+        "as": "নাবিকৰ লগত জাহাজ যেনে, পাইলটৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Aeroplane",
+          "as": "বিমান"
+        },
+        {
+          "en": "Airport",
+          "as": "বিমানবন্দৰ"
+        },
+        {
+          "en": "Sky",
+          "as": "আকাশ"
+        },
+        {
+          "en": "Passenger",
+          "as": "যাত্ৰী"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A sailor operates a ship and a pilot operates an aeroplane, so the answer is Aeroplane.",
+        "as": "নাবিকে জাহাজ চলায় আৰু পাইলটে বিমান চলায়; সেয়ে উত্তৰ 'বিমান'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one: Circle, Triangle, Square, Sphere",
+        "as": "বেলেগটো বাছক: বৃত্ত, ত্ৰিভুজ, বৰ্গ, গোলক"
+      },
+      "options": [
+        {
+          "en": "Circle",
+          "as": "বৃত্ত"
+        },
+        {
+          "en": "Triangle",
+          "as": "ত্ৰিভুজ"
+        },
+        {
+          "en": "Square",
+          "as": "বৰ্গ"
+        },
+        {
+          "en": "Sphere",
+          "as": "গোলক"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Circle, triangle and square are two-dimensional figures, while a sphere is a three-dimensional solid, so Sphere is the odd one.",
+        "as": "বৃত্ত, ত্ৰিভুজ আৰু বৰ্গ দ্বিমাত্ৰিক আকৃতি, কিন্তু গোলক ত্ৰিমাত্ৰিক ঘনবস্তু; সেয়ে গোলক বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the series: AB, CD, EF, ?",
+        "as": "শ্ৰেণী সম্পূৰ্ণ কৰক: AB, CD, EF, ?"
+      },
+      "options": [
+        {
+          "en": "GH",
+          "as": "GH"
+        },
+        {
+          "en": "HI",
+          "as": "HI"
+        },
+        {
+          "en": "FG",
+          "as": "FG"
+        },
+        {
+          "en": "IJ",
+          "as": "IJ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Each pair uses consecutive letters and the next pair starts after the previous pair, so after EF comes GH.",
+        "as": "প্ৰতিটো যোৰত ক্ৰমিক আখৰ থাকে আৰু পৰৱৰ্তী যোৰ আগৰটোৰ পিছত আৰম্ভ হয়; সেয়ে EF-ৰ পিছত GH।"
+      }
+    },
+    {
+      "q": {
+        "en": "A is 24 years old and B is 6 years old. In how many years will A be twice as old as B?",
+        "as": "A-ৰ বয়স ২৪ বছৰ আৰু B-ৰ বয়স ৬ বছৰ। কিমান বছৰৰ পিছত A-ৰ বয়স B-ৰ দুগুণ হ'ব?"
+      },
+      "options": [
+        {
+          "en": "6 years",
+          "as": "৬ বছৰ"
+        },
+        {
+          "en": "12 years",
+          "as": "১২ বছৰ"
+        },
+        {
+          "en": "18 years",
+          "as": "১৮ বছৰ"
+        },
+        {
+          "en": "24 years",
+          "as": "২৪ বছৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Let x be the number of years: 24 + x = 2(6 + x), which gives x = 12 years.",
+        "as": "x বছৰ ধৰিলে: ২৪ + x = ২(৬ + x); ইয়াৰ পৰা x = ১২ বছৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the angle between the hands of a clock at 9:00?",
+        "as": "৯ বজাত ঘড়ীৰ কাঁটা দুটাৰ মাজৰ কোণ কিমান?"
+      },
+      "options": [
+        {
+          "en": "45 degrees",
+          "as": "৪৫ ডিগ্ৰী"
+        },
+        {
+          "en": "90 degrees",
+          "as": "৯০ ডিগ্ৰী"
+        },
+        {
+          "en": "120 degrees",
+          "as": "১২০ ডিগ্ৰী"
+        },
+        {
+          "en": "180 degrees",
+          "as": "১৮০ ডিগ্ৰী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "At 9:00 the hour hand is on 9 and the minute hand is on 12, so the angle is 3 x 30 = 90 degrees.",
+        "as": "৯ বজাত ঘণ্টাকাঁটা ৯-ত আৰু মিনিটকাঁটা ১২-ত থাকে; সেয়ে কোণ = ৩ x ৩০ = ৯০ ডিগ্ৰী।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one: 15, 21, 27, 32",
+        "as": "বেলেগটো বাছক: ১৫, ২১, ২৭, ৩২"
+      },
+      "options": [
+        {
+          "en": "15",
+          "as": "১৫"
+        },
+        {
+          "en": "21",
+          "as": "২১"
+        },
+        {
+          "en": "27",
+          "as": "২৭"
+        },
+        {
+          "en": "32",
+          "as": "৩২"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "15, 21 and 27 are divisible by 3, while 32 is not, so 32 is the odd one.",
+        "as": "১৫, ২১ আৰু ২৭, ৩-ৰে বিভাজ্য, কিন্তু ৩২ নহয়; সেয়ে ৩২ বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "A man walks 8 km east and then 6 km north. How far is he from the starting point?",
+        "as": "এজন মানুহে ৮ কি.মি. পূবে আৰু তাৰ পিছত ৬ কি.মি. উত্তৰে খোজে। তেওঁ আৰম্ভণিৰ পৰা কিমান দূৰত?"
+      },
+      "options": [
+        {
+          "en": "14 km",
+          "as": "১৪ কি.মি."
+        },
+        {
+          "en": "10 km",
+          "as": "১০ কি.মি."
+        },
+        {
+          "en": "2 km",
+          "as": "২ কি.মি."
+        },
+        {
+          "en": "48 km",
+          "as": "৪৮ কি.মি."
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The path forms a right-angled triangle with sides 8 and 6, so the distance is the square root of (64 + 36) = 10 km.",
+        "as": "পথটোৱে ৮ আৰু ৬ বাহুৰ সমকোণী ত্ৰিভুজ সৃষ্টি কৰে; সেয়ে দূৰত্ব = √(৬৪+৩৬) = ১০ কি.মি.।"
+      }
+    },
+    {
+      "q": {
+        "en": "How many meaningful English words can be formed with the letters S, U, N using each letter once?",
+        "as": "S, U, N আখৰ প্ৰত্যেক এবাৰ ব্যৱহাৰ কৰি কেইটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন হয়?"
+      },
+      "options": [
+        {
+          "en": "One",
+          "as": "এটা"
+        },
+        {
+          "en": "Two",
+          "as": "দুটা"
+        },
+        {
+          "en": "Three",
+          "as": "তিনিটা"
+        },
+        {
+          "en": "None",
+          "as": "এটাও নহয়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Using S, U and N once each, only the word SUN can be formed, so the answer is One.",
+        "as": "S, U, N প্ৰত্যেক এবাৰ ব্যৱহাৰ কৰি কেৱল SUN শব্দটো গঠন হয়; সেয়ে উত্তৰ 'এটা'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Bird is to Wings as Fish is to?",
+        "as": "চৰাইৰ লগত ডেউকা যেনে, মাছৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Fins",
+          "as": "পাখি"
+        },
+        {
+          "en": "Scales",
+          "as": "আঁহ"
+        },
+        {
+          "en": "Water",
+          "as": "পানী"
+        },
+        {
+          "en": "Tail",
+          "as": "নেজ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A bird uses wings to move and a fish uses fins to move, so the answer is Fins.",
+        "as": "চৰাই ডেউকাৰে গতি কৰে আৰু মাছ পাখি (fins)ৰে গতি কৰে; সেয়ে উত্তৰ 'পাখি'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the next number: 1, 4, 9, 16, ?",
+        "as": "পৰৱৰ্তী সংখ্যা বাছক: ১, ৪, ৯, ১৬, ?"
+      },
+      "options": [
+        {
+          "en": "20",
+          "as": "২০"
+        },
+        {
+          "en": "24",
+          "as": "২৪"
+        },
+        {
+          "en": "25",
+          "as": "২৫"
+        },
+        {
+          "en": "36",
+          "as": "৩৬"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The terms are the squares of 1, 2, 3 and 4, so the next term is 5 squared = 25.",
+        "as": "পদবোৰ ১, ২, ৩ আৰু ৪-ৰ বৰ্গ; সেয়ে পৰৱৰ্তী পদ ৫² = ২৫।"
+      }
+    },
+    {
+      "q": {
+        "en": "My brother's wife is my?",
+        "as": "মোৰ ভাইৰ পত্নী মোৰ কি?"
+      },
+      "options": [
+        {
+          "en": "Sister",
+          "as": "ভনী"
+        },
+        {
+          "en": "Sister-in-law",
+          "as": "বোৱাৰী"
+        },
+        {
+          "en": "Aunt",
+          "as": "মাহী"
+        },
+        {
+          "en": "Cousin",
+          "as": "খুৰাত ভাই"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The wife of one's brother is one's sister-in-law, so the answer is Sister-in-law.",
+        "as": "ভাইৰ পত্নী হৈছে বোৱাৰী (sister-in-law); সেয়ে উত্তৰ 'বোৱাৰী'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one: Delhi, Mumbai, Kolkata, Nepal",
+        "as": "বেলেগটো বাছক: দিল্লী, মুম্বাই, কলকাতা, নেপাল"
+      },
+      "options": [
+        {
+          "en": "Delhi",
+          "as": "দিল্লী"
+        },
+        {
+          "en": "Mumbai",
+          "as": "মুম্বাই"
+        },
+        {
+          "en": "Kolkata",
+          "as": "কলকাতা"
+        },
+        {
+          "en": "Nepal",
+          "as": "নেপাল"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Delhi, Mumbai and Kolkata are cities in India, while Nepal is a country, so Nepal is the odd one.",
+        "as": "দিল্লী, মুম্বাই আৰু কলকাতা ভাৰতৰ চহৰ, কিন্তু নেপাল এখন দেশ; সেয়ে নেপাল বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "All mangoes are sweet. Which conclusion definitely follows?",
+        "as": "সকলো আম মিঠা। কোনটো সিদ্ধান্ত নিশ্চিতভাৱে সত্য?"
+      },
+      "options": [
+        {
+          "en": "Some sweet things are mangoes",
+          "as": "কিছুমান মিঠা বস্তু আম"
+        },
+        {
+          "en": "Some mangoes are sour",
+          "as": "কিছুমান আম টেঙা"
+        },
+        {
+          "en": "No mango is sour",
+          "as": "কোনো আম টেঙা নহয়"
+        },
+        {
+          "en": "All sour things are mangoes",
+          "as": "সকলো টেঙা বস্তু আম"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Since all mangoes are sweet, mangoes form a part of sweet things, so some sweet things are mangoes.",
+        "as": "সকলো আম মিঠা; সেয়ে আমবোৰ মিঠা বস্তুৰ অংশ, অৰ্থাৎ কিছুমান মিঠা বস্তু আম।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a row of 15 students, C is 5th from the left. What is his position from the right?",
+        "as": "১৫ জন ছাত্ৰৰ শাৰীত C বাওঁফালৰ পৰা ৫ নম্বৰ। সোঁফালৰ পৰা তেওঁৰ স্থান কিমান?"
+      },
+      "options": [
+        {
+          "en": "10th",
+          "as": "১০ নম্বৰ"
+        },
+        {
+          "en": "11th",
+          "as": "১১ নম্বৰ"
+        },
+        {
+          "en": "12th",
+          "as": "১২ নম্বৰ"
+        },
+        {
+          "en": "9th",
+          "as": "৯ নম্বৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Position from the right = total - position from the left + 1 = 15 - 5 + 1 = 11th.",
+        "as": "সোঁফালৰ পৰা স্থান = মুঠ - বাওঁফালৰ স্থান + ১ = ১৫ - ৫ + ১ = ১১ নম্বৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "If East is called North, North is called West, West is called South and South is called East, what is the direction opposite to the actual East called?",
+        "as": "যদি পূবক উত্তৰ, উত্তৰক পশ্চিম, পশ্চিমক দক্ষিণ আৰু দক্ষিণক পূব বোলা হয়, তেন্তে প্ৰকৃত পূবৰ বিপৰীত দিশক কি বোলা হয়?"
+      },
+      "options": [
+        {
+          "en": "North",
+          "as": "উত্তৰ"
+        },
+        {
+          "en": "South",
+          "as": "দক্ষিণ"
+        },
+        {
+          "en": "East",
+          "as": "পূব"
+        },
+        {
+          "en": "West",
+          "as": "পশ্চিম"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The direction opposite to the actual east is west, and in this naming scheme west is called south, so the answer is South.",
+        "as": "প্ৰকৃত পূবৰ বিপৰীত দিশ পশ্চিম; এই নামকৰণত পশ্চিমক দক্ষিণ বোলা হয়; সেয়ে উত্তৰ 'দক্ষিণ'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Author is to Book as Composer is to?",
+        "as": "লেখকৰ লগত কিতাপ যেনে, সুৰকাৰৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Symphony",
+          "as": "সিম্ফনি"
+        },
+        {
+          "en": "Painter",
+          "as": "চিত্ৰশিল্পী"
+        },
+        {
+          "en": "Stage",
+          "as": "মঞ্চ"
+        },
+        {
+          "en": "Audience",
+          "as": "শ্ৰোতা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "An author creates a book and a composer creates a symphony, so the answer is Symphony.",
+        "as": "লেখকে কিতাপ সৃষ্টি কৰে আৰু সুৰকাৰে সিম্ফনি সৃষ্টি কৰে; সেয়ে উত্তৰ 'সিম্ফনি'।"
       }
     }
   ]
