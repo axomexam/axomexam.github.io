@@ -1,35 +1,731 @@
 {
   "setNumber": 8,
   "title": "Set 8",
-  "subject": "Critical & Analytical",
+  "subject": "Analytical & Critical Reasoning",
   "questions": [
     {
       "q": {
-        "en": "Statement: The main road was closed for repair work. Which is the most likely effect?",
-        "as": "বক্তব্য: মেৰামতিৰ কামৰ বাবে মূল পথটো বন্ধ কৰা হৈছিল। আটাইতকৈ সম্ভাব্য প্ৰভাৱ কোনটো?"
+        "en": "In a row of 40 people, a person is 12th from the left. What is his position from the right?",
+        "as": "40 জনীয়া শাৰীত এজন ব্যক্তি বাওঁফালৰ পৰা 12ম। তেওঁ সোঁফালৰ পৰা কিমানতম?"
       },
       "options": [
         {
-          "en": "Vehicles were diverted to other roads",
-          "as": "যানবাহনবোৰ আন পথলৈ ঘূৰাই দিয়া হৈছিল"
+          "en": "27th",
+          "as": "27তম"
         },
         {
-          "en": "The cost of repair increased",
-          "as": "মেৰামতিৰ খৰচ বৃদ্ধি পালে"
+          "en": "28th",
+          "as": "28তম"
         },
         {
-          "en": "The road became wider",
-          "as": "পথটো বহল হৈ গ'ল"
+          "en": "29th",
+          "as": "29তম"
         },
         {
-          "en": "The repair work was cancelled",
-          "as": "মেৰামতিৰ কাম বাতিল হ'ল"
+          "en": "30th",
+          "as": "30তম"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Position from right = 40 − 12 + 1 = 29th.",
+        "as": "সোঁফালৰ পৰা স্থান = 40 − 12 + 1 = 29তম।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a row of 20 people, A is 8th from the left and B is 12th from the right. How many people are between A and B?",
+        "as": "20 জনীয়া শাৰীত A বাওঁফালৰ পৰা 8ম আৰু B সোঁফালৰ পৰা 12ম। তেওঁলোকৰ মাজত কিমান জন আছে?"
+      },
+      "options": [
+        {
+          "en": "0",
+          "as": "0"
+        },
+        {
+          "en": "1",
+          "as": "1"
+        },
+        {
+          "en": "2",
+          "as": "2"
+        },
+        {
+          "en": "3",
+          "as": "3"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "When the main road is closed, traffic has to move through other roads, so diversion is the most likely effect.",
-        "as": "মূল পথ বন্ধ হ'লে যান-জঁট আন পথেৰে যাবলগীয়া হয়; সেয়ে যানবাহন ঘূৰাই পঠিওৱাটোৱে আটাইতকৈ সম্ভাব্য প্ৰভাৱ।"
+        "en": "B's position from the left is 20 − 12 + 1 = 9th, so nobody is between A (8th) and B (9th).",
+        "as": "B বাওঁফালৰ পৰা 20 − 12 + 1 = 9ম, সেয়ে A (8ম) আৰু B (9ম) ৰ মাজত কোনো নাই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Ravi is 15th from the top and 20th from the bottom of a row. How many people are in the row?",
+        "as": "ৰবি ওপৰৰ পৰা 15ম আৰু তলৰ পৰা 20ম। শাৰীত মুঠ কিমান জন?"
+      },
+      "options": [
+        {
+          "en": "33",
+          "as": "33"
+        },
+        {
+          "en": "36",
+          "as": "36"
+        },
+        {
+          "en": "35",
+          "as": "35"
+        },
+        {
+          "en": "34",
+          "as": "34"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Total = 15 + 20 − 1 = 34.",
+        "as": "মুঠ = 15 + 20 − 1 = 34।"
+      }
+    },
+    {
+      "q": {
+        "en": "Sita is 11th from the left and 14th from the right in a row. How many people are in the row?",
+        "as": "সীতা বাওঁফালৰ পৰা 11ম আৰু সোঁফালৰ পৰা 14ম। শাৰীত মুঠ কিমান জন?"
+      },
+      "options": [
+        {
+          "en": "22",
+          "as": "22"
+        },
+        {
+          "en": "24",
+          "as": "24"
+        },
+        {
+          "en": "25",
+          "as": "25"
+        },
+        {
+          "en": "23",
+          "as": "23"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Total = 11 + 14 − 1 = 24.",
+        "as": "মুঠ = 11 + 14 − 1 = 24।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a row, a person has 5 people before him and 8 people after him. How many people are in the row?",
+        "as": "শাৰীত এজন ব্যক্তিৰ আগত 5 জন আৰু পিছত 8 জন আছে। মুঠ কিমান জন?"
+      },
+      "options": [
+        {
+          "en": "14",
+          "as": "14"
+        },
+        {
+          "en": "13",
+          "as": "13"
+        },
+        {
+          "en": "12",
+          "as": "12"
+        },
+        {
+          "en": "15",
+          "as": "15"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Total = 5 + 8 + 1 = 14.",
+        "as": "মুঠ = 5 + 8 + 1 = 14।"
+      }
+    },
+    {
+      "q": {
+        "en": "A is 7th from the top and B is 12th from the top. How many people are between them?",
+        "as": "ওপৰৰ পৰা A 7ম আৰু B 12ম। তেওঁলোকৰ মাজত কিমান জন আছে?"
+      },
+      "options": [
+        {
+          "en": "3",
+          "as": "3"
+        },
+        {
+          "en": "5",
+          "as": "5"
+        },
+        {
+          "en": "4",
+          "as": "4"
+        },
+        {
+          "en": "6",
+          "as": "6"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "People between them = 12 − 7 − 1 = 4.",
+        "as": "তেওঁলোকৰ মাজৰ লোক = 12 − 7 − 1 = 4।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a row of 25 people, M is 13th from the right. What is M's position from the left?",
+        "as": "25 জনীয়া শাৰীত M সোঁফালৰ পৰা 13ম। M বাওঁফালৰ পৰা কিমানতম?"
+      },
+      "options": [
+        {
+          "en": "12th",
+          "as": "12তম"
+        },
+        {
+          "en": "13th",
+          "as": "13তম"
+        },
+        {
+          "en": "14th",
+          "as": "14তম"
+        },
+        {
+          "en": "15th",
+          "as": "15তম"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Position from left = 25 − 13 + 1 = 13th.",
+        "as": "বাওঁফালৰ পৰা স্থান = 25 − 13 + 1 = 13ম।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a row, A is to the left of B and B is to the left of C. Who is in the middle?",
+        "as": "এটা শাৰীত A, B ৰ বাওঁফালে আৰু B, C ৰ বাওঁফালে। মাজত কোন আছে?"
+      },
+      "options": [
+        {
+          "en": "A",
+          "as": "A"
+        },
+        {
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        },
+        {
+          "en": "C",
+          "as": "C"
+        },
+        {
+          "en": "B",
+          "as": "B"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The order is A, B, C, so B is in the middle.",
+        "as": "ক্ৰমটো A, B, C, সেয়ে মাজত B আছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "P, Q, R, S and T sit in a row facing north. P is immediately left of Q, R is immediately right of Q, and S is at the left end. Who is at the right end?",
+        "as": "P, Q, R, S, T উত্তৰমুৱা হৈ শাৰীত বহিছে। P, Q ৰ লগতে লগতে বাওঁফালে, R, Q ৰ লগতে লগতে সোঁফালে আৰু S বাওঁমূৰত। সোঁমূৰত কোন?"
+      },
+      "options": [
+        {
+          "en": "P",
+          "as": "P"
+        },
+        {
+          "en": "T",
+          "as": "T"
+        },
+        {
+          "en": "R",
+          "as": "R"
+        },
+        {
+          "en": "Q",
+          "as": "Q"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The order is S, P, Q, R, T, so T is at the right end.",
+        "as": "ক্ৰমটো S, P, Q, R, T, সেয়ে সোঁমূৰত T আছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A, B, C, D and E sit in a row facing north. A is at the left end, C is immediately right of A, B is at the right end, and D is immediately right of C. Who is in the middle?",
+        "as": "A, B, C, D, E উত্তৰমুৱা হৈ শাৰীত বহিছে। A বাওঁমূৰত, C, A ৰ লগতে লগতে সোঁফালে, B সোঁমূৰত আৰু D, C ৰ লগতে লগতে সোঁফালে। মাজত কোন?"
+      },
+      "options": [
+        {
+          "en": "A",
+          "as": "A"
+        },
+        {
+          "en": "C",
+          "as": "C"
+        },
+        {
+          "en": "E",
+          "as": "E"
+        },
+        {
+          "en": "D",
+          "as": "D"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The order is A, C, D, E, B, so D is in the middle.",
+        "as": "ক্ৰমটো A, C, D, E, B, সেয়ে মাজত D আছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A, B, C and D sit in a row facing north. B is second from the right, A is immediately left of B and C is immediately right of B. Who is second from the left?",
+        "as": "A, B, C, D উত্তৰমুৱা হৈ শাৰীত বহিছে। B সোঁফালৰ পৰা দ্বিতীয়, A, B ৰ লগতে লগতে বাওঁফালে আৰু C, B ৰ লগতে লগতে সোঁফালে। বাওঁফালৰ পৰা দ্বিতীয় কোন?"
+      },
+      "options": [
+        {
+          "en": "A",
+          "as": "A"
+        },
+        {
+          "en": "B",
+          "as": "B"
+        },
+        {
+          "en": "C",
+          "as": "C"
+        },
+        {
+          "en": "D",
+          "as": "D"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The order is D, A, B, C, so A is second from the left.",
+        "as": "ক্ৰমটো D, A, B, C, সেয়ে বাওঁফালৰ পৰা দ্বিতীয় A।"
+      }
+    },
+    {
+      "q": {
+        "en": "P is 4th to the left of Q. Q is 11th from the right and P is 8th from the left. How many people are in the row?",
+        "as": "P, Q ৰ পৰা 4 স্থান বাওঁফালে আছে। Q সোঁফালৰ পৰা 11ম আৰু P বাওঁফালৰ পৰা 8ম। শাৰীত মুঠ কিমান জন?"
+      },
+      "options": [
+        {
+          "en": "21",
+          "as": "21"
+        },
+        {
+          "en": "23",
+          "as": "23"
+        },
+        {
+          "en": "22",
+          "as": "22"
+        },
+        {
+          "en": "24",
+          "as": "24"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Q is 12th from the left, so total = 12 + 11 − 1 = 22.",
+        "as": "Q বাওঁফালৰ পৰা 12ম, সেয়ে মুঠ = 12 + 11 − 1 = 22।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a row of 30 people, A is 10th from the left and B is 15th from the right. How many people are between them?",
+        "as": "30 জনীয়া শাৰীত A বাওঁফালৰ পৰা 10ম আৰু B সোঁফালৰ পৰা 15ম। তেওঁলোকৰ মাজত কিমান জন আছে?"
+      },
+      "options": [
+        {
+          "en": "4",
+          "as": "4"
+        },
+        {
+          "en": "7",
+          "as": "7"
+        },
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "5",
+          "as": "5"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "B is 16th from the left, so people between them = 16 − 10 − 1 = 5.",
+        "as": "B বাওঁফালৰ পৰা 16ম, সেয়ে মাজৰ লোক = 16 − 10 − 1 = 5।"
+      }
+    },
+    {
+      "q": {
+        "en": "A, B, C, D and E sit in a row facing north. A is at one end, B is immediately right of A, E is at the other end and D is immediately left of E. Who is in the middle?",
+        "as": "A, B, C, D, E উত্তৰমুৱা হৈ শাৰীত বহিছে। A এটা মূৰত, B, A ৰ লগতে লগতে সোঁফালে, E আনটো মূৰত আৰু D, E ৰ লগতে লগতে বাওঁফালে। মাজত কোন?"
+      },
+      "options": [
+        {
+          "en": "A",
+          "as": "A"
+        },
+        {
+          "en": "C",
+          "as": "C"
+        },
+        {
+          "en": "B",
+          "as": "B"
+        },
+        {
+          "en": "D",
+          "as": "D"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The order is A, B, C, D, E, so C is in the middle.",
+        "as": "ক্ৰমটো A, B, C, D, E, সেয়ে মাজত C আছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A, B, C, D, E and F sit in a row facing north. A is at the extreme left, F at the extreme right, B is second from the left, E is second from the right and D is immediately right of B. What is C's position from the left?",
+        "as": "A, B, C, D, E, F উত্তৰমুৱা হৈ শাৰীত বহিছে। A বাওঁমূৰত, F সোঁমূৰত, B বাওঁফালৰ পৰা দ্বিতীয়, E সোঁফালৰ পৰা দ্বিতীয় আৰু D, B ৰ লগতে লগতে সোঁফালে। C বাওঁফালৰ পৰা কিমানতম?"
+      },
+      "options": [
+        {
+          "en": "Third",
+          "as": "তৃতীয়"
+        },
+        {
+          "en": "Fifth",
+          "as": "পঞ্চম"
+        },
+        {
+          "en": "Fourth",
+          "as": "চতুৰ্থ"
+        },
+        {
+          "en": "Second",
+          "as": "দ্বিতীয়"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The order is A, B, D, C, E, F, so C is fourth from the left.",
+        "as": "ক্ৰমটো A, B, D, C, E, F, সেয়ে C বাওঁফালৰ পৰা চতুৰ্থ।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the angle between the hands of a clock at 3 o'clock?",
+        "as": "3 বজাত ঘড়ীৰ কাঁটা দুটাৰ মাজৰ কোণ কিমান?"
+      },
+      "options": [
+        {
+          "en": "90°",
+          "as": "90°"
+        },
+        {
+          "en": "60°",
+          "as": "60°"
+        },
+        {
+          "en": "120°",
+          "as": "120°"
+        },
+        {
+          "en": "180°",
+          "as": "180°"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Each hour makes 30°, so the angle at 3 o'clock is 3 × 30° = 90°.",
+        "as": "প্ৰতি ঘণ্টাত 30°, সেয়ে 3 বজাত কোণ 3 × 30° = 90°।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the angle between the hands of a clock at 6 o'clock?",
+        "as": "6 বজাত ঘড়ীৰ কাঁটা দুটাৰ মাজৰ কোণ কিমান?"
+      },
+      "options": [
+        {
+          "en": "180°",
+          "as": "180°"
+        },
+        {
+          "en": "120°",
+          "as": "120°"
+        },
+        {
+          "en": "90°",
+          "as": "90°"
+        },
+        {
+          "en": "360°",
+          "as": "360°"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "At 6 o'clock the hands are exactly opposite, making 180°.",
+        "as": "6 বজাত কাঁটা দুটা পৰস্পৰ বিপৰীত, সেয়ে কোণ 180°।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the angle between the hands of a clock at 9 o'clock?",
+        "as": "9 বজাত ঘড়ীৰ কাঁটা দুটাৰ মাজৰ কোণ কিমান?"
+      },
+      "options": [
+        {
+          "en": "45°",
+          "as": "45°"
+        },
+        {
+          "en": "60°",
+          "as": "60°"
+        },
+        {
+          "en": "90°",
+          "as": "90°"
+        },
+        {
+          "en": "180°",
+          "as": "180°"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "At 9 o'clock the hands are 3 hours apart, so 3 × 30° = 90°.",
+        "as": "9 বজাত কাঁটা দুটা 3 ঘণ্টা আঁতৰত, সেয়ে 3 × 30° = 90°।"
+      }
+    },
+    {
+      "q": {
+        "en": "At what time do the two hands of a clock coincide?",
+        "as": "কোন সময়ত ঘড়ীৰ দুয়ো কাঁটা একে ঠাইত মিলে?"
+      },
+      "options": [
+        {
+          "en": "6:00",
+          "as": "6:00"
+        },
+        {
+          "en": "12:00",
+          "as": "12:00"
+        },
+        {
+          "en": "3:00",
+          "as": "3:00"
+        },
+        {
+          "en": "9:00",
+          "as": "9:00"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "At 12 o'clock both hands point to 12 and coincide.",
+        "as": "12 বজাত দুয়ো কাঁটাই 12 ত থাকে আৰু মিলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the angle between the hands of a clock at 2:30?",
+        "as": "2:30 বজাত ঘড়ীৰ কাঁটা দুটাৰ মাজৰ কোণ কিমান?"
+      },
+      "options": [
+        {
+          "en": "90°",
+          "as": "90°"
+        },
+        {
+          "en": "75°",
+          "as": "75°"
+        },
+        {
+          "en": "120°",
+          "as": "120°"
+        },
+        {
+          "en": "105°",
+          "as": "105°"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Hour hand = 2 × 30 + 30 × 0.5 = 75°; minute hand = 180°; difference = 105°.",
+        "as": "ঘণ্টাৰ কাঁটা = 2 × 30 + 30 × 0.5 = 75°; মিনিটৰ কাঁটা = 180°; পাৰ্থক্য = 105°।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the angle between the hands of a clock at 4:15?",
+        "as": "4:15 বজাত ঘড়ীৰ কাঁটা দুটাৰ মাজৰ কোণ কিমান?"
+      },
+      "options": [
+        {
+          "en": "30°",
+          "as": "30°"
+        },
+        {
+          "en": "45°",
+          "as": "45°"
+        },
+        {
+          "en": "37.5°",
+          "as": "37.5°"
+        },
+        {
+          "en": "60°",
+          "as": "60°"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Hour hand = 4 × 30 + 15 × 0.5 = 127.5°; minute hand = 90°; difference = 37.5°.",
+        "as": "ঘণ্টাৰ কাঁটা = 4 × 30 + 15 × 0.5 = 127.5°; মিনিটৰ কাঁটা = 90°; পাৰ্থক্য = 37.5°।"
+      }
+    },
+    {
+      "q": {
+        "en": "If today is Tuesday, what day will it be after 30 days?",
+        "as": "আজি মঙ্গলবাৰ হ'লে 30 দিনৰ পিছত কি বাৰ হ'ব?"
+      },
+      "options": [
+        {
+          "en": "Wednesday",
+          "as": "বুধবাৰ"
+        },
+        {
+          "en": "Saturday",
+          "as": "শনিবাৰ"
+        },
+        {
+          "en": "Friday",
+          "as": "শুক্ৰবাৰ"
+        },
+        {
+          "en": "Thursday",
+          "as": "বৃহস্পতিবাৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "30 ÷ 7 leaves 2; Tuesday plus 2 days is Thursday.",
+        "as": "30 ÷ 7 ৰ ভাগশেষ 2; মঙ্গলবাৰৰ পৰা 2 দিন পিছত বৃহস্পতিবাৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 1st January is Monday, what day is 1st February?",
+        "as": "1 জানুৱাৰী সোমবাৰ হ'লে 1 ফেব্ৰুৱাৰী কি বাৰ?"
+      },
+      "options": [
+        {
+          "en": "Thursday",
+          "as": "বৃহস্পতিবাৰ"
+        },
+        {
+          "en": "Wednesday",
+          "as": "বুধবাৰ"
+        },
+        {
+          "en": "Tuesday",
+          "as": "মঙ্গলবাৰ"
+        },
+        {
+          "en": "Friday",
+          "as": "শুক্ৰবাৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "January has 31 days; 31 ÷ 7 leaves 3, so Monday plus 3 is Thursday.",
+        "as": "জানুৱাৰীত 31 দিন; 31 ÷ 7 ৰ ভাগশেষ 3, সেয়ে সোমবাৰৰ পৰা 3 দিন পিছত বৃহস্পতিবাৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "What day of the week is 15 August 2026?",
+        "as": "15 আগষ্ট 2026 কি বাৰ?"
+      },
+      "options": [
+        {
+          "en": "Friday",
+          "as": "শুক্ৰবাৰ"
+        },
+        {
+          "en": "Saturday",
+          "as": "শনিবাৰ"
+        },
+        {
+          "en": "Sunday",
+          "as": "দেওবাৰ"
+        },
+        {
+          "en": "Monday",
+          "as": "সোমবাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "15 August 2026 falls on a Saturday.",
+        "as": "15 আগষ্ট 2026 শনিবাৰত পৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A is taller than B and B is taller than C. Who is the shortest?",
+        "as": "A, B ৰ পৰা ওখ আৰু B, C ৰ পৰা ওখ। আটাইতকৈ চুটী কোন?"
+      },
+      "options": [
+        {
+          "en": "A",
+          "as": "A"
+        },
+        {
+          "en": "C",
+          "as": "C"
+        },
+        {
+          "en": "B",
+          "as": "B"
+        },
+        {
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The order is A > B > C, so C is the shortest.",
+        "as": "ক্ৰম A > B > C, সেয়ে C আটাইতকৈ চুটী।"
       }
     }
   ]
