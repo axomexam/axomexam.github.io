@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "Change into indirect speech: He said, \"I am busy.\"",
-        "as": "পৰোক্ষ উক্তিলৈ সলনি কৰক: He said, \"I am busy.\""
+        "en": "He is ___ European.",
+        "as": "তেওঁ ___ ইউৰোপীয়।"
       },
       "options": [
         {
-          "en": "He said that he was busy.",
-          "as": "He said that he was busy."
+          "en": "a",
+          "as": "a"
         },
         {
-          "en": "He said that he is busy.",
-          "as": "He said that he is busy."
+          "en": "an",
+          "as": "an"
         },
         {
-          "en": "He says that he was busy.",
-          "as": "He says that he was busy."
+          "en": "the",
+          "as": "the"
         },
         {
-          "en": "He said that I was busy.",
-          "as": "He said that I was busy."
+          "en": "no article",
+          "as": "প্ৰবন্ধ নাই"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "In indirect speech the present tense 'am' changes to the past 'was', and 'I' changes to 'he'.",
-        "as": "পৰোক্ষ উক্তিত বৰ্তমান কাল 'am'ৰ পৰা অতীত কাল 'was' হয় আৰু 'I'ৰ পৰা 'he' হয়।"
+        "en": "'European' begins with the consonant sound 'yu', so 'a' is used.",
+        "as": "'European' ৰ উচ্চাৰণ 'yu' ব্যঞ্জন ধ্বনিৰে আৰম্ভ হয়; সেয়ে 'a' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "___ Brahmaputra is a big river.",
+        "as": "___ ব্ৰহ্মপুত্ৰ এখন ডাঙৰ নদী।"
+      },
+      "options": [
+        {
+          "en": "A",
+          "as": "A"
+        },
+        {
+          "en": "An",
+          "as": "An"
+        },
+        {
+          "en": "The",
+          "as": "The"
+        },
+        {
+          "en": "No article",
+          "as": "প্ৰবন্ধ নাই"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'The' is used before the names of rivers.",
+        "as": "নদীৰ নামৰ আগত 'The' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The plural of 'phenomenon' is:",
+        "as": "'phenomenon' ৰ বহুবচন কি?"
+      },
+      "options": [
+        {
+          "en": "phenomenons",
+          "as": "phenomenons"
+        },
+        {
+          "en": "phenomena",
+          "as": "phenomena"
+        },
+        {
+          "en": "phenomenas",
+          "as": "phenomenas"
+        },
+        {
+          "en": "phenomenon",
+          "as": "phenomenon"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The plural of 'phenomenon' is 'phenomena'.",
+        "as": "'phenomenon' ৰ বহুবচন হৈছে 'phenomena'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The plural of 'deer' is:",
+        "as": "'deer' ৰ বহুবচন কি?"
+      },
+      "options": [
+        {
+          "en": "deer",
+          "as": "deer"
+        },
+        {
+          "en": "deers",
+          "as": "deers"
+        },
+        {
+          "en": "deeres",
+          "as": "deeres"
+        },
+        {
+          "en": "deeren",
+          "as": "deeren"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The plural of 'deer' is also 'deer'.",
+        "as": "'deer' ৰ বহুবচনও 'deer'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The abstract noun of 'brave' is:",
+        "as": "'brave' ৰ ভাৱবাচক বিশেষ্য কি?"
+      },
+      "options": [
+        {
+          "en": "bravely",
+          "as": "bravely"
+        },
+        {
+          "en": "braveness",
+          "as": "braveness"
+        },
+        {
+          "en": "bravery",
+          "as": "bravery"
+        },
+        {
+          "en": "brave",
+          "as": "brave"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The abstract noun of 'brave' is 'bravery'.",
+        "as": "'brave' ৰ ভাৱবাচক বিশেষ্য হৈছে 'bravery'।"
+      }
+    },
+    {
+      "q": {
+        "en": "A collective noun for a group of ships is:",
+        "as": "জাহাজৰ দলৰ সমষ্টিবাচক বিশেষ্য কি?"
+      },
+      "options": [
+        {
+          "en": "flock",
+          "as": "flock"
+        },
+        {
+          "en": "herd",
+          "as": "herd"
+        },
+        {
+          "en": "swarm",
+          "as": "swarm"
+        },
+        {
+          "en": "fleet",
+          "as": "fleet"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Fleet' is the collective noun used for a group of ships.",
+        "as": "জাহাজৰ গোটৰ বাবে ব্যৱহৃত collective noun হৈছে 'fleet'।"
+      }
+    },
+    {
+      "q": {
+        "en": "___ did you give the book?",
+        "as": "তুমি কিতাপখন ___ দিলা?"
+      },
+      "options": [
+        {
+          "en": "Who",
+          "as": "Who"
+        },
+        {
+          "en": "Whom",
+          "as": "Whom"
+        },
+        {
+          "en": "Whose",
+          "as": "Whose"
+        },
+        {
+          "en": "Which",
+          "as": "Which"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Whom' is used as the object of the verb 'give'.",
+        "as": "'give' ক্ৰিয়াৰ object হিচাপে 'whom' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "This is the house ___ roof is red.",
+        "as": "এইটো সেই ঘৰটো যাৰ চালি ৰঙা।"
+      },
+      "options": [
+        {
+          "en": "who",
+          "as": "who"
+        },
+        {
+          "en": "whom",
+          "as": "whom"
+        },
+        {
+          "en": "which",
+          "as": "which"
+        },
+        {
+          "en": "whose",
+          "as": "whose"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Whose' shows possession and refers to 'the house's roof'.",
+        "as": "'whose' য়ে মালিকানা দেখুৱায় আৰু 'the house's roof' লৈ ইংগিত কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The children hurt ___ while playing.",
+        "as": "ল'ৰা-ছোৱালীবোৰ খেলি থাকোঁতে নিজকে আঘাত কৰিলে।"
+      },
+      "options": [
+        {
+          "en": "themselves",
+          "as": "themselves"
+        },
+        {
+          "en": "theirselves",
+          "as": "theirselves"
+        },
+        {
+          "en": "themself",
+          "as": "themself"
+        },
+        {
+          "en": "their",
+          "as": "their"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The correct reflexive pronoun for 'the children' is 'themselves'.",
+        "as": "'the children' ৰ বাবে শুদ্ধ reflexive pronoun হৈছে 'themselves'।"
+      }
+    },
+    {
+      "q": {
+        "en": "She and ___ went to the market.",
+        "as": "তাই আৰু ___ বজাৰলৈ গ'ল।"
+      },
+      "options": [
+        {
+          "en": "I",
+          "as": "I"
+        },
+        {
+          "en": "me",
+          "as": "me"
+        },
+        {
+          "en": "mine",
+          "as": "mine"
+        },
+        {
+          "en": "myself",
+          "as": "myself"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The subject pronoun 'I' is used because it is part of the subject of the sentence.",
+        "as": "বাক্যৰ কৰ্তাৰ অংশ হোৱাৰ বাবে subject pronoun 'I' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The comparative degree of 'many' is:",
+        "as": "'many' ৰ তুলনামূলক ডিগ্ৰী কি?"
+      },
+      "options": [
+        {
+          "en": "most",
+          "as": "most"
+        },
+        {
+          "en": "much",
+          "as": "much"
+        },
+        {
+          "en": "many",
+          "as": "many"
+        },
+        {
+          "en": "more",
+          "as": "more"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The comparative degree of 'many' is 'more'.",
+        "as": "'many' ৰ তুলনামূলক ডিগ্ৰী হৈছে 'more'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The superlative degree of 'well' is:",
+        "as": "'well' ৰ সৰ্বোচ্চ ডিগ্ৰী কি?"
+      },
+      "options": [
+        {
+          "en": "wellest",
+          "as": "wellest"
+        },
+        {
+          "en": "better",
+          "as": "better"
+        },
+        {
+          "en": "most well",
+          "as": "most well"
+        },
+        {
+          "en": "best",
+          "as": "best"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The superlative degree of 'well' is 'best'.",
+        "as": "'well' ৰ সৰ্বোচ্চ ডিগ্ৰী হৈছে 'best'।"
+      }
+    },
+    {
+      "q": {
+        "en": "He is different ___ his brother.",
+        "as": "তেওঁ তেওঁৰ ভাইৰ পৰা পৃথক।"
+      },
+      "options": [
+        {
+          "en": "than",
+          "as": "than"
+        },
+        {
+          "en": "to",
+          "as": "to"
+        },
+        {
+          "en": "with",
+          "as": "with"
+        },
+        {
+          "en": "from",
+          "as": "from"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The correct preposition after 'different' is 'from'.",
+        "as": "'different' ৰ পিছত শুদ্ধ preposition হৈছে 'from'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The meeting was postponed ___ Monday.",
+        "as": "সভাখন সোমবাৰলৈ ___।"
+      },
+      "options": [
+        {
+          "en": "at",
+          "as": "at"
+        },
+        {
+          "en": "in",
+          "as": "in"
+        },
+        {
+          "en": "until",
+          "as": "until"
+        },
+        {
+          "en": "on",
+          "as": "on"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Postponed until Monday' means the meeting is delayed to that time.",
+        "as": "'postponed until Monday' মানে সভাখন সেই সময়লৈ পিছলৈ ঠেলি দিয়া হৈছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "He is neither tall ___ strong.",
+        "as": "তেওঁ ওখও নহয় ___ বলৱানও নহয়।"
+      },
+      "options": [
+        {
+          "en": "or",
+          "as": "or"
+        },
+        {
+          "en": "and",
+          "as": "and"
+        },
+        {
+          "en": "nor",
+          "as": "nor"
+        },
+        {
+          "en": "but",
+          "as": "but"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The correlative conjunction pair is 'neither...nor'.",
+        "as": "correlative conjunction ৰ যোৰ হৈছে 'neither...nor'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Either of the answers ___ correct.",
+        "as": "উত্তৰবোৰৰ এটা ___ শুদ্ধ।"
+      },
+      "options": [
+        {
+          "en": "are",
+          "as": "are"
+        },
+        {
+          "en": "were",
+          "as": "were"
+        },
+        {
+          "en": "have",
+          "as": "have"
+        },
+        {
+          "en": "is",
+          "as": "is"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Either' is singular, so it takes the singular verb 'is'.",
+        "as": "'either' singular; সেয়ে ই singular verb 'is' লয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "I ___ him yesterday.",
+        "as": "মই কালি তেওঁক ___।"
+      },
+      "options": [
+        {
+          "en": "meet",
+          "as": "meet"
+        },
+        {
+          "en": "have met",
+          "as": "have met"
+        },
+        {
+          "en": "met",
+          "as": "met"
+        },
+        {
+          "en": "had met",
+          "as": "had met"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Yesterday' refers to past time, so the simple past 'met' is used.",
+        "as": "'yesterday' এ অতীত সময় বুজায়; সেয়ে simple past 'met' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "He ___ TV when I called him.",
+        "as": "মই তেওঁক ফোন কৰোঁতে তেওঁ টি.ভি. ___।"
+      },
+      "options": [
+        {
+          "en": "watched",
+          "as": "watched"
+        },
+        {
+          "en": "was watching",
+          "as": "was watching"
+        },
+        {
+          "en": "watches",
+          "as": "watches"
+        },
+        {
+          "en": "has watched",
+          "as": "has watched"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The past continuous 'was watching' shows an action in progress when another past action happened.",
+        "as": "past continuous 'was watching' য়ে আন এটা অতীত কাৰ্য ঘটোঁতে চলি থকা কাৰ্য দেখুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Change into passive voice: People speak English all over the world.",
+        "as": "কৰ্মবাচ্যলৈ ৰূপান্তৰ কৰক: People speak English all over the world."
+      },
+      "options": [
+        {
+          "en": "English is spoken all over the world.",
+          "as": "English is spoken all over the world."
+        },
+        {
+          "en": "English was spoken all over the world.",
+          "as": "English was spoken all over the world."
+        },
+        {
+          "en": "English speaks all over the world.",
+          "as": "English speaks all over the world."
+        },
+        {
+          "en": "English has spoken all over the world.",
+          "as": "English has spoken all over the world."
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The present simple passive is formed with 'is/are' plus the past participle.",
+        "as": "present simple ৰ কৰ্মবাচ্য 'is/are' আৰু past participle ৰে গঠিত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Change into active voice: The report has been submitted by the committee.",
+        "as": "কৰ্তৃবাচ্যলৈ ৰূপান্তৰ কৰক: The report has been submitted by the committee."
+      },
+      "options": [
+        {
+          "en": "The committee submitted the report.",
+          "as": "The committee submitted the report."
+        },
+        {
+          "en": "The committee has submitted the report.",
+          "as": "The committee has submitted the report."
+        },
+        {
+          "en": "The committee had submitted the report.",
+          "as": "The committee had submitted the report."
+        },
+        {
+          "en": "The committee submits the report.",
+          "as": "The committee submits the report."
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The present perfect passive 'has been submitted' corresponds to the active 'has submitted'.",
+        "as": "present perfect ৰ কৰ্মবাচ্য 'has been submitted' ৰ কৰ্তৃবাচ্য হৈছে 'has submitted'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Change into indirect speech: She said, 'Where are you going?'",
+        "as": "পৰোক্ষ উক্তিলৈ ৰূপান্তৰ কৰক: She said, 'Where are you going?'"
+      },
+      "options": [
+        {
+          "en": "She asked where I was going.",
+          "as": "She asked where I was going."
+        },
+        {
+          "en": "She asked where was I going.",
+          "as": "She asked where was I going."
+        },
+        {
+          "en": "She said where I was going.",
+          "as": "She said where I was going."
+        },
+        {
+          "en": "She asked where I am going.",
+          "as": "She asked where I am going."
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A wh-question in indirect speech uses statement word order: 'where I was going'.",
+        "as": "পৰোক্ষ উক্তিত wh-question এ statement ৰ word order লয়: 'where I was going'।"
+      }
+    },
+    {
+      "q": {
+        "en": "___ you please help me?",
+        "as": "আপুনি মোক সহায় কৰিব ___?"
+      },
+      "options": [
+        {
+          "en": "Should",
+          "as": "Should"
+        },
+        {
+          "en": "Must",
+          "as": "Must"
+        },
+        {
+          "en": "May",
+          "as": "May"
+        },
+        {
+          "en": "Could",
+          "as": "Could"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Could' is used to make a polite request.",
+        "as": "ভদ্ৰভাৱে অনুৰোধ কৰিবলৈ 'could' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Everyone has arrived, ___?",
+        "as": "সকলোৱে আহি পাইছে, ___?"
+      },
+      "options": [
+        {
+          "en": "hasn't he",
+          "as": "hasn't he"
+        },
+        {
+          "en": "haven't they",
+          "as": "haven't they"
+        },
+        {
+          "en": "hasn't they",
+          "as": "hasn't they"
+        },
+        {
+          "en": "have they",
+          "as": "have they"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Everyone' is treated as plural in a question tag, so 'haven't they' is used.",
+        "as": "question tag ত 'everyone' ক plural হিচাপে ধৰা হয়; সেয়ে 'haven't they' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "If I were you, I ___ accept the offer.",
+        "as": "যদি মই তোমাৰ ঠাইত থাকিলোহেঁতেন, মই প্ৰস্তাৱটো ___ গ্ৰহণ কৰিলোহেঁতেন।"
+      },
+      "options": [
+        {
+          "en": "will",
+          "as": "will"
+        },
+        {
+          "en": "would",
+          "as": "would"
+        },
+        {
+          "en": "can",
+          "as": "can"
+        },
+        {
+          "en": "shall",
+          "as": "shall"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The second conditional uses 'would' plus the base verb in the main clause.",
+        "as": "second conditional ত main clause ত 'would' আৰু verb ৰ base form ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correct negative sentence with 'doesn't':",
+        "as": "'doesn't' ৰ সৈতে শুদ্ধ ঋণাত্মক বাক্যটো বাছক:"
+      },
+      "options": [
+        {
+          "en": "She don't knows the answer.",
+          "as": "She don't knows the answer."
+        },
+        {
+          "en": "She doesn't knows the answer.",
+          "as": "She doesn't knows the answer."
+        },
+        {
+          "en": "She doesn't know the answer.",
+          "as": "She doesn't know the answer."
+        },
+        {
+          "en": "She not know the answer.",
+          "as": "She not know the answer."
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "After 'doesn't', the base form 'know' is used, not 'knows'.",
+        "as": "'doesn't' ৰ পিছত 'knows' নহয়, verb ৰ base form 'know' ব্যৱহাৰ হয়।"
       }
     }
   ]
