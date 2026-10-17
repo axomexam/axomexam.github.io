@@ -6,15 +6,13 @@
  *
  *  1. Adds `defer` to the four shared scripts on every page so the
  *     parser is not blocked by ~100 KB of JavaScript.
- *  2. On selected entry pages (currently the homepage) it inlines the
- *     above-the-fold "critical" CSS extracted from css/style.src.css and
- *     switches the full stylesheet to a non-blocking preload. This
- *     removes style.css from the render-blocking critical path.
- *
- * The critical ranges below are line numbers in the *source* stylesheet
- * (css/style.src.css), which is kept unminified for that reason. The
- * deployed css/style.css is the minified copy produced by
- * scripts/minify-assets.js.
+ *  2. Keeps the shared stylesheet render-blocking on every page. Older
+ *     builds inlined a partial "critical" CSS block and loaded style.css
+ *     with rel=preload + onload. That made the first paint depend on an
+ *     async request, so on slower connections the page appeared
+ *     partially styled until a reload (when the CSS came from cache).
+ *     A normal stylesheet link guarantees the full design is applied
+ *     before the first paint.
  *
  * Run from the repository root:
  *   node scripts/optimize-render-path.js
@@ -24,39 +22,10 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = process.argv[2] ? path.resolve(process.argv[2]) : process.cwd();
-const STYLE_CSS = path.join(ROOT, "css", "style.src.css");
 const SKIP_DIRS = new Set([".git", "node_modules", ".github", ".monkeycode-tmp-files"]);
 
 /* Scripts that must run in order but must not block the parser. */
 const DEFER_SCRIPTS = ["config.js", "i18n.js", "api.js", "app.js"];
-
-/* Pages that get the critical-CSS + async stylesheet treatment. */
-const CRITICAL_PAGES = new Set(["index.html"]);
-
-/*
- * Line ranges (1-indexed, inclusive) of css/style.css that cover the
- * elements visible before the first scroll on every template: base,
- * preloader, header, search, theme toggle, navigation, hero, section
- * scaffolding, page header, tab bar, reveal state, dark mode and the
- * mobile overrides. They are copied verbatim so the layout does not
- * shift when the full stylesheet arrives. Keep every range inside full
- * comment / @media boundaries: a range that ends on a dangling `/*`
- * would comment out whatever is appended after it.
- */
-const CRITICAL_RANGES = [
-  [6, 126],
-  [128, 153],
-  [207, 244],
-  [246, 293],
-  [349, 438],
-  [494, 500],
-  [687, 709],
-  [1085, 1089],
-  [1113, 1130],
-  [1132, 1136],
-  [1174, 1273],
-  [2002, 2187],
-];
 
 function walk(dir, files) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -68,15 +37,6 @@ function walk(dir, files) {
     }
   }
   return files;
-}
-
-function buildCriticalCss() {
-  const lines = fs.readFileSync(STYLE_CSS, "utf8").split("\n");
-  const parts = [];
-  for (const [start, end] of CRITICAL_RANGES) {
-    parts.push(lines.slice(start - 1, end).join("\n"));
-  }
-  return parts.join("\n");
 }
 
 function addDefer(html) {
@@ -93,43 +53,45 @@ function addDefer(html) {
   return { html, changed };
 }
 
-function asyncStylesheet(html, criticalCss) {
-  const styleTagRe = /<style id="axo-critical-css">[\s\S]*?<\/style>/;
-  const existing = html.match(styleTagRe);
+/* Normalise the shared stylesheet to a plain render-blocking link and
+   strip the old inline critical-CSS + preload/onload treatment. */
+function blockingStylesheet(html) {
+  let changed = false;
 
-  /* Re-running the script refreshes the inline block from the current
-     css/style.css instead of leaving a stale copy behind. */
-  if (existing) {
-    const updated = '<style id="axo-critical-css">' + criticalCss + "</style>";
-    if (existing[0] === updated) return { html, changed: false };
-    return { html: html.replace(styleTagRe, updated), changed: true };
+  const criticalRe = /\s*<style id="axo-critical-css">[\s\S]*?<\/style>/;
+  if (criticalRe.test(html)) {
+    html = html.replace(criticalRe, "");
+    changed = true;
   }
 
-  const linkRe = /<link rel="stylesheet" href="(\/css\/style\.css(?:\?[^"]*)?)"\s*\/?>/;
-  const match = html.match(linkRe);
-  if (!match) return { html, changed: false };
+  /* Drop the no-JS duplicate first so it is not mistaken for an existing
+     render-blocking stylesheet below. */
+  const noscriptRe =
+    /\s*<noscript><link rel="stylesheet" href="\/css\/style\.css(?:\?[^"]*)?"\s*\/?><\/noscript>/i;
+  if (noscriptRe.test(html)) {
+    html = html.replace(noscriptRe, "");
+    changed = true;
+  }
 
-  const href = match[1];
-  const replacement =
-    '<style id="axo-critical-css">' +
-    criticalCss +
-    "</style>\n  " +
-    '<link rel="preload" as="style" href="' +
-    href +
-    '" onload="this.onload=null;this.rel=\'stylesheet\'" />\n  ' +
-    '<noscript><link rel="stylesheet" href="' +
-    href +
-    '" /></noscript>';
+  const hasBlocking =
+    /<link\b[^>]*rel="stylesheet"[^>]*href="\/css\/style\.css(?:\?[^"]*)?"[^>]*>/i.test(html);
 
-  return { html: html.replace(linkRe, replacement), changed: true };
+  html = html.replace(/<link\b[^>]*>/gi, (tag) => {
+    if (!/rel="preload"/i.test(tag) || !/as="style"/i.test(tag)) return tag;
+    const match = tag.match(/href="([^"]*\/css\/style\.css(?:\?[^"]*)?)"/i);
+    if (!match) return tag;
+    changed = true;
+    return hasBlocking ? "" : '<link rel="stylesheet" href="' + match[1] + '" />';
+  });
+
+  return { html, changed };
 }
 
 function main() {
-  const criticalCss = buildCriticalCss();
   const files = walk(ROOT, []);
 
   let deferred = 0;
-  let critical = 0;
+  let styles = 0;
   const skipped = [];
 
   for (const file of files) {
@@ -144,13 +106,11 @@ function main() {
       deferred++;
     }
 
-    if (CRITICAL_PAGES.has(rel.split(path.sep).join("/"))) {
-      const c = asyncStylesheet(html, criticalCss);
-      if (c.changed) {
-        html = c.html;
-        changed = true;
-        critical++;
-      }
+    const s = blockingStylesheet(html);
+    if (s.changed) {
+      html = s.html;
+      changed = true;
+      styles++;
     }
 
     if (changed) {
@@ -162,7 +122,7 @@ function main() {
 
   console.log("Scanned:          " + files.length);
   console.log("Deferred scripts: " + deferred);
-  console.log("Critical CSS:     " + critical);
+  console.log("Blocking CSS:     " + styles);
   console.log("Skipped (stubs):  " + skipped.length);
 }
 
