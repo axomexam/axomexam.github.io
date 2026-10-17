@@ -1183,7 +1183,7 @@
         title = "Download Free PDF Notes | axomexam";
       } else if (segs[0] === "download-app") {
         title = "Download axomexam App (APK) | axomexam";
-        desc = "Download the free axomexam Android app (APK, v1.9) — mock tests, bilingual Q&A practice, e-books and previous year papers for ADRE, APSC, Assam Police, SSC & Railway exams.";
+        desc = "Download the free axomexam Android app (APK, v2.1) — mock tests, bilingual Q&A practice, e-books and previous year papers for ADRE, APSC, Assam Police, SSC & Railway exams.";
       } else if (segs[0] === "ebooks") {
         title = segs[1] ? "Read E-Book Online | axomexam" : "E-Books Library | axomexam";
         desc = "Free online e-books for Assam competitive exams (ADRE, APSC, Assam Police) — Assam History, Indian History, Art & Culture, Polity, Economy and Geography. Read online in English and Assamese, no PDF download.";
@@ -1579,7 +1579,7 @@
           </a>
           <a class="feat-card feat-app reveal" href="/download-app/" style="--fc:#16a34a">
             <span class="feat-ico feat-ico-app"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v7"/><path d="m9 7 3 3 3-3"/><path d="M4 15.5c2.5-1.3 5.5-1.3 8 0 2.5-1.3 5.5-1.3 8 0"/><path d="M4 19c2.5-1.3 5.5-1.3 8 0 2.5-1.3 5.5-1.3 8 0"/></svg></span>
-            <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়া এপ ডাউনলোড কৰক" : "Download Free App"}</b><span>${state.uiLang === "as" ? "এণ্ড্ৰইড APK • v1.9" : "Android APK • v1.9"}</span></span>
+            <span class="feat-body"><b>${state.uiLang === "as" ? "বিনামূলীয়া এপ ডাউনলোড কৰক" : "Download Free App"}</b><span>${state.uiLang === "as" ? "এণ্ড্ৰইড APK • v2.1" : "Android APK • v2.1"}</span></span>
           </a>
         </div>
         <style>
@@ -4871,7 +4871,7 @@
       ["E-Books On the Go", "Read every subject e-book right inside the app — Assam History, Polity, Geography and more."],
       ["Previous Year Papers", "Solved past papers organised by exam and year for focused revision."],
       ["PDF Notes & Downloads", "Save study material and keep it ready for offline revision."],
-      ["Lightweight & Fast", "The complete axomexam experience in a tiny 389 KB app."]
+      ["Lightweight & Fast", "The complete axomexam experience in a compact 1.32 MB app."]
     ];
     const feats = features.map(([title, text]) => `
         <div class="appdl-feature">
@@ -4907,15 +4907,15 @@
             <h2 class="appdl-title">axomexam — Exam Prep App</h2>
             <p class="appdl-tag">Assam competitive exam preparation, now on your phone.</p>
             <ul class="appdl-meta">
-              <li><b>Version</b> 1.9</li>
-              <li><b>Size</b> 389 KB</li>
-              <li><b>Updated</b> 10 Sep 2026</li>
+              <li><b>Version</b> 2.1</li>
+              <li><b>Size</b> 1.32 MB</li>
+              <li><b>Updated</b> 17 Oct 2026</li>
               <li><b>Format</b> APK</li>
               <li><b>Package</b> in.axomexam.app</li>
               <li><b>Price</b> Free</li>
             </ul>
             <div class="appdl-actions">
-              <a class="btn btn-accent appdl-download" href="/app/axomexam-v1.9.apk" download>Download APK (389 KB)</a>
+              <a class="btn btn-accent appdl-download" href="/app/axomexam-v2.1.apk" download>Download APK (1.32 MB)</a>
               <a class="btn btn-outline" href="#install">How to install</a>
             </div>
             <p class="appdl-note">Direct download · No sign-up · 100% free</p>
@@ -4931,7 +4931,7 @@
       <section class="section" id="install">
         <h2 class="appdl-section-title">How to install the APK</h2>
         <ol class="appdl-steps">
-          <li><b>Download the APK.</b> Tap the Download button above. The file <code>axomexam-v1.9.apk</code> will be saved to your phone.</li>
+          <li><b>Download the APK.</b> Tap the Download button above. The file <code>axomexam-v2.1.apk</code> will be saved to your phone.</li>
           <li><b>Allow the install.</b> If Android blocks it, open Settings and enable “Install unknown apps” (or “Unknown sources”) for your browser.</li>
           <li><b>Install the app.</b> Open the downloaded file from Downloads or the notification, then tap <b>Install</b>.</li>
           <li><b>Open and start learning.</b> Launch <b>axomexam</b> from your app drawer and begin practising.</li>
@@ -4942,8 +4942,8 @@
         <h2 class="appdl-section-title">System requirements</h2>
         <ul class="appdl-meta">
           <li><b>Platform</b> Android</li>
-          <li><b>App version</b> 1.9</li>
-          <li><b>File size</b> 389 KB</li>
+          <li><b>App version</b> 2.1</li>
+          <li><b>File size</b> 1.32 MB</li>
           <li><b>Internet</b> Required</li>
           <li><b>Price</b> Free</li>
         </ul>
