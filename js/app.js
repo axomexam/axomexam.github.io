@@ -2186,7 +2186,7 @@ Sent to: axomexam@outlook.com`};try{const k=await(await fetch("https://api.stati
       <div class="quiz-wrap">
         <div class="quiz-top">
           <span class="qt-cat">${d} • Question ${e.idx+1}/${e.pool.length}</span>
-          <span class="quiz-timer" id="quiz-timer" title="Time Elapsed"><svg class="qt-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><span id="quiz-timer-val">${je(e.elapsedSec)}</span></span>
+          <span class="quiz-timer" id="quiz-timer" title="Time Elapsed"><span id="quiz-timer-val">${je(e.elapsedSec)}</span></span>
           <button class="quiz-quit" id="quiz-quit-btn">${r("mock.quit")}</button>
         </div>
         <div class="quiz-progress"><span id="quiz-progress" style="width:${(e.idx/e.pool.length*100).toFixed(1)}%"></span></div>
