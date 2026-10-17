@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "He ___ to school every day.",
-        "as": "তেওঁ প্ৰতিদিনে বিদ্যালয়লৈ ___।"
+        "en": "We saw ___ elephant in the zoo.",
+        "as": "আমি চিৰিয়াখানাত ___ হাতী দেখিলোঁ।"
       },
       "options": [
         {
-          "en": "go",
-          "as": "go"
+          "en": "a",
+          "as": "a"
         },
         {
-          "en": "goes",
-          "as": "goes"
+          "en": "an",
+          "as": "an"
         },
         {
-          "en": "going",
-          "as": "going"
+          "en": "the",
+          "as": "the"
         },
         {
-          "en": "gone",
-          "as": "gone"
+          "en": "no article",
+          "as": "প্ৰবন্ধ নাই"
         }
       ],
       "correct": 1,
       "explanation": {
-        "en": "In the simple present tense, a third-person singular subject takes the verb with 's', so 'goes' is correct.",
-        "as": "সাধাৰণ বৰ্তমান কালত তৃতীয় পুৰুষ একবচন কৰ্তাৰ সৈতে ক্ৰিয়াৰ লগত 's' যোগ হয়; সেয়ে 'goes' শুদ্ধ।"
+        "en": "'Elephant' begins with a vowel sound, so 'an' is used.",
+        "as": "'elephant' ৰ উচ্চাৰণ স্বৰধ্বনিৰে আৰম্ভ হয়; সেয়ে 'an' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "He is ___ best student in the class.",
+        "as": "তেওঁ শ্ৰেণীৰ ___ শ্ৰেষ্ঠ ছাত্ৰ।"
+      },
+      "options": [
+        {
+          "en": "a",
+          "as": "a"
+        },
+        {
+          "en": "an",
+          "as": "an"
+        },
+        {
+          "en": "the",
+          "as": "the"
+        },
+        {
+          "en": "no article",
+          "as": "প্ৰবন্ধ নাই"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'The' is used before a superlative degree.",
+        "as": "superlative degree ৰ আগত 'the' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The plural of 'leaf' is:",
+        "as": "'leaf' ৰ বহুবচন কি?"
+      },
+      "options": [
+        {
+          "en": "leafs",
+          "as": "leafs"
+        },
+        {
+          "en": "leaves",
+          "as": "leaves"
+        },
+        {
+          "en": "leafes",
+          "as": "leafes"
+        },
+        {
+          "en": "leaf",
+          "as": "leaf"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The plural of 'leaf' is 'leaves'.",
+        "as": "'leaf' ৰ বহুবচন হৈছে 'leaves'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The plural of 'crisis' is:",
+        "as": "'crisis' ৰ বহুবচন কি?"
+      },
+      "options": [
+        {
+          "en": "crisises",
+          "as": "crisises"
+        },
+        {
+          "en": "crisis",
+          "as": "crisis"
+        },
+        {
+          "en": "crises",
+          "as": "crises"
+        },
+        {
+          "en": "crisi",
+          "as": "crisi"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The plural of 'crisis' is 'crises'.",
+        "as": "'crisis' ৰ বহুবচন হৈছে 'crises'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The abstract noun of 'able' is:",
+        "as": "'able' ৰ ভাৱবাচক বিশেষ্য কি?"
+      },
+      "options": [
+        {
+          "en": "able",
+          "as": "able"
+        },
+        {
+          "en": "ably",
+          "as": "ably"
+        },
+        {
+          "en": "ability",
+          "as": "ability"
+        },
+        {
+          "en": "ablement",
+          "as": "ablement"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The abstract noun of 'able' is 'ability'.",
+        "as": "'able' ৰ ভাৱবাচক বিশেষ্য হৈছে 'ability'।"
+      }
+    },
+    {
+      "q": {
+        "en": "A collective noun for a group of lions is:",
+        "as": "সিংহৰ দলৰ সমষ্টিবাচক বিশেষ্য কি?"
+      },
+      "options": [
+        {
+          "en": "herd",
+          "as": "herd"
+        },
+        {
+          "en": "pack",
+          "as": "pack"
+        },
+        {
+          "en": "flock",
+          "as": "flock"
+        },
+        {
+          "en": "pride",
+          "as": "pride"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Pride' is the collective noun used for a group of lions.",
+        "as": "সিংহৰ গোটৰ বাবে ব্যৱহৃত collective noun হৈছে 'pride'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The man ___ helped me was very kind.",
+        "as": "যি মানুহজনে মোক সহায় কৰিছিল তেওঁ বৰ দয়ালু আছিল।"
+      },
+      "options": [
+        {
+          "en": "who",
+          "as": "who"
+        },
+        {
+          "en": "whom",
+          "as": "whom"
+        },
+        {
+          "en": "which",
+          "as": "which"
+        },
+        {
+          "en": "whose",
+          "as": "whose"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'Who' is used as the subject relative pronoun for a person.",
+        "as": "ব্যক্তিৰ বাবে কৰ্তা হিচাপে relative pronoun 'who' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The pen ___ I lost was new.",
+        "as": "মই হেৰুওৱা কলমটো নতুন আছিল।"
+      },
+      "options": [
+        {
+          "en": "who",
+          "as": "who"
+        },
+        {
+          "en": "whose",
+          "as": "whose"
+        },
+        {
+          "en": "which",
+          "as": "which"
+        },
+        {
+          "en": "whom",
+          "as": "whom"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Which' is used for things, so 'the pen which I lost' is correct.",
+        "as": "বস্তুৰ বাবে 'which' ব্যৱহাৰ হয়; সেয়ে 'the pen which I lost' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "He made ___ a cup of tea.",
+        "as": "তেওঁ নিজৰ বাবে এক কাপ চাহ বনালে।"
+      },
+      "options": [
+        {
+          "en": "him",
+          "as": "him"
+        },
+        {
+          "en": "his",
+          "as": "his"
+        },
+        {
+          "en": "he",
+          "as": "he"
+        },
+        {
+          "en": "himself",
+          "as": "himself"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Himself' is the reflexive pronoun referring back to 'he'.",
+        "as": "'himself' reflexive pronoun য়ে 'he' লৈ উলটি সূচায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "This house is ___.",
+        "as": "এই ঘৰটো ___।"
+      },
+      "options": [
+        {
+          "en": "our",
+          "as": "our"
+        },
+        {
+          "en": "us",
+          "as": "us"
+        },
+        {
+          "en": "ours",
+          "as": "ours"
+        },
+        {
+          "en": "we",
+          "as": "we"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Ours' is the possessive pronoun that stands alone without a noun.",
+        "as": "'ours' হৈছে possessive pronoun, যি noun ৰ পিছত অকলে ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The comparative degree of 'far' (distance) is:",
+        "as": "'far' (দূৰত্ব) ৰ তুলনামূলক ডিগ্ৰী কি?"
+      },
+      "options": [
+        {
+          "en": "farther",
+          "as": "farther"
+        },
+        {
+          "en": "farthest",
+          "as": "farthest"
+        },
+        {
+          "en": "more far",
+          "as": "more far"
+        },
+        {
+          "en": "farer",
+          "as": "farer"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "For physical distance, the comparative degree of 'far' is 'farther'.",
+        "as": "শাৰীৰিক দূৰত্বৰ বাবে 'far' ৰ তুলনামূলক ডিগ্ৰী 'farther'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The superlative degree of 'many' is:",
+        "as": "'many' ৰ সৰ্বোচ্চ ডিগ্ৰী কি?"
+      },
+      "options": [
+        {
+          "en": "more",
+          "as": "more"
+        },
+        {
+          "en": "many",
+          "as": "many"
+        },
+        {
+          "en": "much",
+          "as": "much"
+        },
+        {
+          "en": "most",
+          "as": "most"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The superlative degree of 'many' is 'most'.",
+        "as": "'many' ৰ সৰ্বোচ্চ ডিগ্ৰী হৈছে 'most'।"
+      }
+    },
+    {
+      "q": {
+        "en": "She is afraid ___ dogs.",
+        "as": "তাই কুকুৰক ভয় পায়।"
+      },
+      "options": [
+        {
+          "en": "from",
+          "as": "from"
+        },
+        {
+          "en": "of",
+          "as": "of"
+        },
+        {
+          "en": "with",
+          "as": "with"
+        },
+        {
+          "en": "at",
+          "as": "at"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The correct preposition after 'afraid' is 'of'.",
+        "as": "'afraid' ৰ পিছত শুদ্ধ preposition হৈছে 'of'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The train arrived ___ time.",
+        "as": "ৰেলগাড়ীখন সময়মতে আহিল।"
+      },
+      "options": [
+        {
+          "en": "in",
+          "as": "in"
+        },
+        {
+          "en": "at",
+          "as": "at"
+        },
+        {
+          "en": "on",
+          "as": "on"
+        },
+        {
+          "en": "by",
+          "as": "by"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The fixed phrase is 'on time', meaning at the expected time.",
+        "as": "নিৰ্দিষ্ট বাক্যাংশ 'on time', যাৰ অৰ্থ হৈছে নিৰ্ধাৰিত সময়ত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Work hard ___ you will fail.",
+        "as": "পৰিশ্ৰম কৰা ___ তুমি ব্যৰ্থ হ'ব।"
+      },
+      "options": [
+        {
+          "en": "and",
+          "as": "and"
+        },
+        {
+          "en": "but",
+          "as": "but"
+        },
+        {
+          "en": "or",
+          "as": "or"
+        },
+        {
+          "en": "so",
+          "as": "so"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Or' joins two alternatives here: work hard, or else you will fail.",
+        "as": "ইয়াত 'or' য়ে দুটা বিকল্প সংযোগ কৰে: পৰিশ্ৰম কৰা, নহ'লে ব্যৰ্থ হ'ব।"
+      }
+    },
+    {
+      "q": {
+        "en": "Neither Ram nor his friends ___ present.",
+        "as": "ৰাম বা তেওঁৰ বন্ধুবৰ্শে ___ উপস্থিত নাছিল।"
+      },
+      "options": [
+        {
+          "en": "was",
+          "as": "was"
+        },
+        {
+          "en": "is",
+          "as": "is"
+        },
+        {
+          "en": "were",
+          "as": "were"
+        },
+        {
+          "en": "has",
+          "as": "has"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "With 'neither...nor', the verb agrees with the nearer subject 'friends', so 'were' is used.",
+        "as": "'neither...nor' ৰ ক্ষেত্ৰত verb ই নিকটৱৰ্তী কৰ্তা 'friends' ৰ সৈতে মিলে; সেয়ে 'were' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "I ___ my homework before he came.",
+        "as": "তেওঁ অহাৰ আগতে মই মোৰ গৃহকৰ্ম ___।"
+      },
+      "options": [
+        {
+          "en": "had finished",
+          "as": "had finished"
+        },
+        {
+          "en": "finished",
+          "as": "finished"
+        },
+        {
+          "en": "have finished",
+          "as": "have finished"
+        },
+        {
+          "en": "finish",
+          "as": "finish"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The past perfect 'had finished' shows an action completed before another past action.",
+        "as": "past perfect 'had finished' য়ে আন এটা অতীত কাৰ্যৰ আগতে সম্পূৰ্ণ হোৱা কাৰ্য দেখুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "She ___ in this school for ten years.",
+        "as": "তাই এই বিদ্যালয়ত দহ বছৰ ধৰি ___।"
+      },
+      "options": [
+        {
+          "en": "has taught",
+          "as": "has taught"
+        },
+        {
+          "en": "has been teaching",
+          "as": "has been teaching"
+        },
+        {
+          "en": "is teaching",
+          "as": "is teaching"
+        },
+        {
+          "en": "taught",
+          "as": "taught"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The present perfect continuous 'has been teaching' is used for an action continuing from the past until now.",
+        "as": "অতীতৰ পৰা এতিয়ালৈকে চলি থকা কাৰ্যৰ বাবে present perfect continuous 'has been teaching' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Change into passive voice: Someone stole my pen.",
+        "as": "কৰ্মবাচ্যলৈ ৰূপান্তৰ কৰক: Someone stole my pen."
+      },
+      "options": [
+        {
+          "en": "My pen was stolen.",
+          "as": "My pen was stolen."
+        },
+        {
+          "en": "My pen is stolen.",
+          "as": "My pen is stolen."
+        },
+        {
+          "en": "My pen has stolen.",
+          "as": "My pen has stolen."
+        },
+        {
+          "en": "My pen stole.",
+          "as": "My pen stole."
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The simple past passive is formed with 'was/were' plus the past participle, so 'was stolen' is correct.",
+        "as": "simple past ৰ কৰ্মবাচ্য 'was/were' আৰু past participle ৰে গঠিত; সেয়ে 'was stolen' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Change into active voice: The song is being sung by her.",
+        "as": "কৰ্তৃবাচ্যলৈ ৰূপান্তৰ কৰক: The song is being sung by her."
+      },
+      "options": [
+        {
+          "en": "She is singing the song.",
+          "as": "She is singing the song."
+        },
+        {
+          "en": "She sings the song.",
+          "as": "She sings the song."
+        },
+        {
+          "en": "She sang the song.",
+          "as": "She sang the song."
+        },
+        {
+          "en": "She has sung the song.",
+          "as": "She has sung the song."
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The present continuous passive 'is being sung' corresponds to the active 'is singing'.",
+        "as": "present continuous ৰ কৰ্মবাচ্য 'is being sung' ৰ কৰ্তৃবাচ্য হৈছে 'is singing'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Change into indirect speech: She said, 'I will come tomorrow.'",
+        "as": "পৰোক্ষ উক্তিলৈ ৰূপান্তৰ কৰক: She said, 'I will come tomorrow.'"
+      },
+      "options": [
+        {
+          "en": "She said that she will come tomorrow.",
+          "as": "She said that she will come tomorrow."
+        },
+        {
+          "en": "She said that she came tomorrow.",
+          "as": "She said that she came tomorrow."
+        },
+        {
+          "en": "She says that she would come tomorrow.",
+          "as": "She says that she would come tomorrow."
+        },
+        {
+          "en": "She said that she would come the next day.",
+          "as": "She said that she would come the next day."
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "In indirect speech, 'will' changes to 'would' and 'tomorrow' changes to 'the next day'.",
+        "as": "পৰোক্ষ উক্তিত 'will' 'would' লৈ আৰু 'tomorrow' 'the next day' লৈ সলনি হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "___ I open the window?",
+        "as": "মই খিৰিকীখন খোলোঁ ___?"
+      },
+      "options": [
+        {
+          "en": "May",
+          "as": "May"
+        },
+        {
+          "en": "Should",
+          "as": "Should"
+        },
+        {
+          "en": "Must",
+          "as": "Must"
+        },
+        {
+          "en": "Need",
+          "as": "Need"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'May' is used to ask for permission politely.",
+        "as": "ভদ্ৰভাৱে অনুমতি বিচাৰিবলৈ 'may' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "They don't play cricket, ___?",
+        "as": "তেওঁলোকে ক্ৰিকেট নাখেলে, ___?"
+      },
+      "options": [
+        {
+          "en": "don't they",
+          "as": "don't they"
+        },
+        {
+          "en": "do they",
+          "as": "do they"
+        },
+        {
+          "en": "didn't they",
+          "as": "didn't they"
+        },
+        {
+          "en": "are they",
+          "as": "are they"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A negative statement takes a positive question tag, so 'do they' is correct.",
+        "as": "ঋণাত্মক বাক্যৰ সৈতে ধনাত্মক question tag লগে; সেয়ে 'do they' শুদ্ধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "If I had studied hard, I ___ passed.",
+        "as": "যদি মই কঠোৰ পৰিশ্ৰম কৰিলোহেঁতেন, মই ___ উত্তীৰ্ণ হ'লোহেঁতেন।"
+      },
+      "options": [
+        {
+          "en": "will have",
+          "as": "will have"
+        },
+        {
+          "en": "would",
+          "as": "would"
+        },
+        {
+          "en": "would have",
+          "as": "would have"
+        },
+        {
+          "en": "had",
+          "as": "had"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "In the third conditional, the main clause uses 'would have' plus the past participle.",
+        "as": "third conditional ত main clause ত 'would have' আৰু past participle ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correct comparative sentence:",
+        "as": "শুদ্ধ তুলনামূলক বাক্যটো বাছক:"
+      },
+      "options": [
+        {
+          "en": "She is taller than her sister.",
+          "as": "She is taller than her sister."
+        },
+        {
+          "en": "She is more tall than her sister.",
+          "as": "She is more tall than her sister."
+        },
+        {
+          "en": "She is tallest than her sister.",
+          "as": "She is tallest than her sister."
+        },
+        {
+          "en": "She is taller then her sister.",
+          "as": "She is taller then her sister."
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The comparative form is 'taller', and comparison uses 'than', not 'then' or 'more tall'.",
+        "as": "তুলনামূলক ৰূপ 'taller' আৰু তুলনাত 'than' ব্যৱহাৰ হয়, 'then' বা 'more tall' নহয়।"
       }
     }
   ]
