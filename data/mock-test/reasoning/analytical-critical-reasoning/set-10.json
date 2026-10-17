@@ -1,35 +1,731 @@
 {
   "setNumber": 10,
   "title": "Set 10",
-  "subject": "Critical & Analytical",
+  "subject": "Analytical & Critical Reasoning",
   "questions": [
     {
       "q": {
-        "en": "Question: How old is Ravi? Statements: I. Ravi is 5 years older than Sita. II. Sita is 20 years old. Which statement(s) are sufficient to answer?",
-        "as": "প্ৰশ্ন: ৰবিৰ বয়স কিমান? বক্তব্য: I. ৰবি সীতাৰ পৰা ৫ বছৰ ডাঙৰ। II. সীতাৰ বয়স ২০ বছৰ। উত্তৰ দিবলৈ কোনটো/কোনবোৰ বক্তব্য পৰ্যাপ্ত?"
+        "en": "Statement: 'Use public transport to reduce pollution.' Which assumption is implicit?",
+        "as": "কথা: 'প্ৰদূষণ কমাবলৈ ৰাজহুৱা পৰিবহণ ব্যৱহাৰ কৰক।' কোনটো নিহিত ধাৰণা?"
       },
       "options": [
         {
-          "en": "I alone is sufficient",
-          "as": "কেৱল I পৰ্যাপ্ত"
+          "en": "Public transport is cheap",
+          "as": "ৰাজহুৱা পৰিবহণ সস্তা"
         },
         {
-          "en": "II alone is sufficient",
-          "as": "কেৱল II পৰ্যাপ্ত"
+          "en": "Everyone owns a car",
+          "as": "সকলোৰে গাড়ী আছে"
         },
         {
-          "en": "Both I and II together are sufficient",
-          "as": "I আৰু II একেলগে পৰ্যাপ্ত"
+          "en": "Public transport helps reduce pollution",
+          "as": "ৰাজহুৱা পৰিবহণে প্ৰদূষণ কমাবলৈ সহায় কৰে"
         },
         {
-          "en": "Neither I nor II is sufficient",
-          "as": "I আৰু II কোনোটোৱেই পৰ্যাপ্ত নহয়"
+          "en": "All roads are wide",
+          "as": "সকলো পথ বহল"
         }
       ],
       "correct": 2,
       "explanation": {
-        "en": "Statement I gives only the age difference and statement II gives Sita's age; using both, Ravi's age is 20 + 5 = 25 years.",
-        "as": "I-য়ে কেৱল বয়সৰ পাৰ্থক্য দিয়ে আৰু II-য়ে সীতাৰ বয়স দিয়ে; দুয়োটাকে ব্যৱহাৰ কৰিলে ৰবিৰ বয়স ২০ + ৫ = ২৫ বছৰ পোৱা যায়।"
+        "en": "The advice assumes that using public transport actually reduces pollution.",
+        "as": "পৰামৰ্শটোৱে ধৰি লয় যে ৰাজহুৱা পৰিবহণ ব্যৱহাৰে প্ৰকৃততে প্ৰদূষণ কমায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Statement: 'Ban plastic bags.' Which assumption is implicit?",
+        "as": "কথা: 'প্লাষ্টিক বেগ নিষেধ কৰক।' কোনটো নিহিত ধাৰণা?"
+      },
+      "options": [
+        {
+          "en": "Plastic bags harm the environment",
+          "as": "প্লাষ্টিক বেগে পৰিৱেশৰ ক্ষতি কৰে"
+        },
+        {
+          "en": "Plastic bags are cheap",
+          "as": "প্লাষ্টিক বেগ সস্তা"
+        },
+        {
+          "en": "Cloth bags are already banned",
+          "as": "কাপোৰ বেগ ইতিমধ্যে নিষিদ্ধ"
+        },
+        {
+          "en": "Shops sell only plastic bags",
+          "as": "দোকানে কেৱল প্লাষ্টিক বেগ বিক্ৰী কৰে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A ban on plastic bags assumes that plastic bags cause environmental harm.",
+        "as": "প্লাষ্টিক বেগ নিষেধ কৰাৰ অৰ্থ হ'ল ই পৰিৱেশৰ ক্ষতি কৰে বুলি ধৰি লোৱা।"
+      }
+    },
+    {
+      "q": {
+        "en": "A city is facing a severe water shortage. Which course of action is most appropriate?",
+        "as": "এখন চহৰত তীব্ৰ পানীৰ নাটনি দেখা দিছে। সবাতোকৈ উপযুক্ত পদক্ষেপ কি?"
+      },
+      "options": [
+        {
+          "en": "Ignore the shortage",
+          "as": "নাটনি উপেক্ষা কৰক"
+        },
+        {
+          "en": "Only raise the price of water",
+          "as": "কেৱল পানীৰ দাম বঢ়াওক"
+        },
+        {
+          "en": "Stop drinking water",
+          "as": "খোৱা পানী বন্ধ কৰক"
+        },
+        {
+          "en": "Harvest rainwater and repair leakages",
+          "as": "বৰষুণৰ পানী সংগ্ৰহ কৰি নলীৰ ক্ষয় মেৰামতি কৰক"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Rainwater harvesting and repairing leakages directly increase available water.",
+        "as": "বৰষুণৰ পানী সংগ্ৰহ আৰু ক্ষয় মেৰামতিয়ে উপলব্ধ পানী প্ৰকৃততে বঢ়ায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Cause: Heavy rain for three days. What is the most likely effect?",
+        "as": "কাৰণ: তিনিদিন ধৰি প্ৰচণ্ড বৰষুণ। সবাতোকৈ সম্ভাৱ্য প্ৰভাৱ কি?"
+      },
+      "options": [
+        {
+          "en": "Drought",
+          "as": "খৰাং"
+        },
+        {
+          "en": "Floods",
+          "as": "বানপানী"
+        },
+        {
+          "en": "Earthquake",
+          "as": "ভূমিকম্প"
+        },
+        {
+          "en": "Heat wave",
+          "as": "তাপপ্ৰবাহ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Three days of heavy rain is most likely to cause floods.",
+        "as": "তিনিদিন ধৰি প্ৰচণ্ড বৰষুণে বানপানীৰ সৃষ্টি কৰাৰ সম্ভাৱনা সৰ্বাধিক।"
+      }
+    },
+    {
+      "q": {
+        "en": "Libraries in a city are crowded after an exam was announced. What is the best inference?",
+        "as": "পৰীক্ষাৰ ঘোষণাৰ পিছত চহৰৰ পুথিভঁৰালবোৰত ভিৰ হৈছে। শ্ৰেষ্ঠ অনুমান কি?"
+      },
+      "options": [
+        {
+          "en": "More students may be preparing for the exam",
+          "as": "অধিক ছাত্ৰই পৰীক্ষাৰ বাবে প্ৰস্তুতি কৰিব পাৰে"
+        },
+        {
+          "en": "The exam was cancelled",
+          "as": "পৰীক্ষা বাতিল হ'ল"
+        },
+        {
+          "en": "All libraries are closed",
+          "as": "সকলো পুথিভঁৰাল বন্ধ"
+        },
+        {
+          "en": "Books have become useless",
+          "as": "কিতাপ অকৰ্মণ্য হ'ল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The crowding is best explained by more students preparing for the announced exam.",
+        "as": "ভিৰৰ শ্ৰেষ্ঠ ব্যাখ্যা হ'ল ঘোষিত পৰীক্ষাৰ বাবে অধিক ছাত্ৰই প্ৰস্তুতি কৰিছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Should school education be free? Which is a strong argument?",
+        "as": "বিদ্যালয় শিক্ষা বিনামূলীয়া কৰা উচিত নে? কোনটো সবল যুক্তি?"
+      },
+      "options": [
+        {
+          "en": "Yes, because teachers like holidays",
+          "as": "হয়, কাৰণ শিক্ষকে বন্ধ ভাল পায়"
+        },
+        {
+          "en": "No, because schools are buildings",
+          "as": "নহয়, কাৰণ বিদ্যালয় কেৱল ইমাৰত"
+        },
+        {
+          "en": "Yes, it helps poor children get education",
+          "as": "হয়, ই দুখীয়া ছাত্ৰক শিক্ষা লাভ কৰাত সহায় কৰে"
+        },
+        {
+          "en": "No, because exams are difficult",
+          "as": "নহয়, কাৰণ পৰীক্ষা কঠিন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Helping poor children access education is a relevant and strong reason.",
+        "as": "দুখীয়া ছাত্ৰক শিক্ষাৰ সুযোগ দিয়া এটা প্ৰাসংগিক আৰু সবল কাৰণ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Argument: 'All students should get mobile phones because students like them.' What is the weakness?",
+        "as": "যুক্তি: 'সকলো ছাত্ৰক মোবাইল ফোন দিয়া উচিত কাৰণ ছাত্ৰই ইয়াক ভাল পায়।' দুৰ্বলতাটো কি?"
+      },
+      "options": [
+        {
+          "en": "It gives strong evidence",
+          "as": "ই সবল প্ৰমাণ দিয়ে"
+        },
+        {
+          "en": "It relies on liking rather than educational benefit",
+          "as": "ই শিক্ষামূলক উপকাৰৰ সলনি ভাল পোৱাৰ ওপৰত নিৰ্ভৰ কৰে"
+        },
+        {
+          "en": "It compares many schools",
+          "as": "ই বহু বিদ্যালয় তুলনা কৰে"
+        },
+        {
+          "en": "It cites expert opinion",
+          "as": "ই বিশেষজ্ঞৰ মত উদ্ধৃত কৰে"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Personal liking is not enough to justify an educational policy.",
+        "as": "ব্যক্তিগত ভাল পোৱা এটা শিক্ষামূলক নীতিৰ যুক্তি হ'বলৈ যথেষ্ট নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A claim: 'Our product is the best because it is the cheapest.' What is the flaw?",
+        "as": "দাবী: 'আমাৰ সামগ্ৰী আটাইতকৈ ভাল কাৰণ ই আটাইতকৈ কম দামী।' ত্ৰুটিটো কি?"
+      },
+      "options": [
+        {
+          "en": "It gives strong evidence",
+          "as": "ই সবল প্ৰমাণ দিয়ে"
+        },
+        {
+          "en": "It is based on a survey",
+          "as": "ই সমীক্ষাৰ ওপৰত আধাৰিত"
+        },
+        {
+          "en": "It compares many products",
+          "as": "ই বহু সামগ্ৰী তুলনা কৰে"
+        },
+        {
+          "en": "It assumes that cheap means best",
+          "as": "ই কম দামকেই সৰ্বোত্তম বুলি ধৰি লয়"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The argument wrongly assumes that low price automatically means high quality.",
+        "as": "যুক্তিটোৱে ভুলকৈ ধৰি লয় যে কম দামেই উচ্চ গুণক প্ৰমাণ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Advertisement: 'Doctors recommend X.' Which assumption is implicit?",
+        "as": "বিজ্ঞাপন: 'চিকিৎসকসকলে X ৰ পৰামৰ্শ দিয়ে।' কোনটো নিহিত ধাৰণা?"
+      },
+      "options": [
+        {
+          "en": "All doctors use X",
+          "as": "সকলো চিকিৎসকে X ব্যৱহাৰ কৰে"
+        },
+        {
+          "en": "People trust doctors' recommendations",
+          "as": "লোকে চিকিৎসকৰ পৰামৰ্শত বিশ্বাস কৰে"
+        },
+        {
+          "en": "X is cheap",
+          "as": "X কম দামী"
+        },
+        {
+          "en": "X has no side effects",
+          "as": "X ৰ কোনো পাৰ্শ্বপ্ৰভাৱ নাই"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The advertisement works only if people trust and act on doctors' recommendations.",
+        "as": "বিজ্ঞাপনটো কেৱল তেতিয়াহে কাম কৰে যেতিয়া লোকে চিকিৎসকৰ পৰামৰ্শত বিশ্বাস কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Proposal: 'Increase tax on tobacco.' Which assumption is implicit?",
+        "as": "প্ৰস্তাৱ: 'তামাকৰ ওপৰত কৰ বঢ়াওক।' কোনটো নিহিত ধাৰণা?"
+      },
+      "options": [
+        {
+          "en": "Tobacco is healthy",
+          "as": "তামাক স্বাস্থ্যকৰ"
+        },
+        {
+          "en": "Tax reduces government income",
+          "as": "কৰে চৰকাৰৰ আয় কমায়"
+        },
+        {
+          "en": "Everyone smokes",
+          "as": "সকলোৱে ধূমপান কৰে"
+        },
+        {
+          "en": "Higher price reduces consumption",
+          "as": "অধিক দামে ব্যৱহাৰ কমায়"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The proposal assumes that raising the price will reduce tobacco use.",
+        "as": "প্ৰস্তাৱটোৱে ধৰি লয় যে দাম বঢ়ালে তামাকৰ ব্যৱহাৰ কমিব।"
+      }
+    },
+    {
+      "q": {
+        "en": "Road accidents are increasing in a town. Which course of action is most appropriate?",
+        "as": "এখন চহৰত পথ দুৰ্ঘটনা বাঢ়িছে। সবাতোকৈ উপযুক্ত পদক্ষেপ কি?"
+      },
+      "options": [
+        {
+          "en": "Enforce speed limits and improve signage",
+          "as": "গতিৰ সীমা কঠোৰভাৱে পালন কৰাওক আৰু পথৰ চিন উন্নত কৰক"
+        },
+        {
+          "en": "Ban all vehicles",
+          "as": "সকলো বাহন নিষেধ কৰক"
+        },
+        {
+          "en": "Increase speed limits",
+          "as": "গতিৰ সীমা বঢ়াওক"
+        },
+        {
+          "en": "Remove road signs",
+          "as": "পথৰ চিন আঁতৰাওক"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Strict speed limits and better signage directly address accident causes.",
+        "as": "কঠোৰ গতি সীমা আৰু উন্নত চিনে দুৰ্ঘটনাৰ কাৰণ প্ৰত্যক্ষভাৱে সমাধান কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Cause: Crop failure. What is the most likely effect?",
+        "as": "কাৰণ: শস্যৰ বিফলতা। সবাতোকৈ সম্ভাৱ্য প্ৰভাৱ কি?"
+      },
+      "options": [
+        {
+          "en": "Fall in food prices",
+          "as": "খাদ্যৰ দাম কমা"
+        },
+        {
+          "en": "Increase in exports",
+          "as": "ৰপ্তানি বৃদ্ধি"
+        },
+        {
+          "en": "Rise in food prices",
+          "as": "খাদ্যৰ দাম বৃদ্ধি"
+        },
+        {
+          "en": "Decrease in demand",
+          "as": "চাহিদা হ্ৰাস"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Crop failure reduces supply, which most likely raises food prices.",
+        "as": "শস্যৰ বিফলতাই যোগান কমায়, যাৰ ফলত খাদ্যৰ দাম বাঢ়াৰ সম্ভাৱনা বেছি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Many students failed despite attending classes. What is the best inference?",
+        "as": "শ্ৰেণীত উপস্থিত থকাৰ পিছতো বহু ছাত্ৰ অনুত্তীৰ্ণ হ'ল। শ্ৰেষ্ঠ অনুমান কি?"
+      },
+      "options": [
+        {
+          "en": "Classes are useless",
+          "as": "শ্ৰেণী অকৰ্মণ্য"
+        },
+        {
+          "en": "All students fail",
+          "as": "সকলো ছাত্ৰ অনুত্তীৰ্ণ"
+        },
+        {
+          "en": "Exams are easy",
+          "as": "পৰীক্ষা সহজ"
+        },
+        {
+          "en": "Attendance alone is not enough",
+          "as": "কেৱল উপস্থিতি যথেষ্ট নহয়"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Failure despite attendance suggests that attendance alone does not ensure success.",
+        "as": "উপস্থিতিৰ পিছতো বিফলতাৰ পৰা বুজা যায় কেৱল উপস্থিতিয়েই সফলতা নিশ্চিত নকৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Proposal: 'Open more libraries in villages.' Which assumption is implicit?",
+        "as": "প্ৰস্তাৱ: 'গাঁৱত অধিক পুথিভঁৰাল খোলক।' কোনটো নিহিত ধাৰণা?"
+      },
+      "options": [
+        {
+          "en": "Villagers cannot read",
+          "as": "গাঁৱৰ লোকে পঢ়িব নোৱাৰে"
+        },
+        {
+          "en": "Villagers will use the libraries",
+          "as": "গাঁৱৰ লোকে পুথিভঁৰাল ব্যৱহাৰ কৰিব"
+        },
+        {
+          "en": "Cities have no libraries",
+          "as": "চহৰত পুথিভঁৰাল নাই"
+        },
+        {
+          "en": "Books are costly",
+          "as": "কিতাপ দামী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The proposal is useful only if villagers actually use the libraries.",
+        "as": "প্ৰস্তাৱটো কেৱল তেতিয়াহে উপযোগী যেতিয়া গাঁৱৰ লোকে পুথিভঁৰাল ব্যৱহাৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Should mobile phones be banned in classrooms? Which is a strong argument?",
+        "as": "শ্ৰেণীকোঠাত মোবাইল ফোন নিষেধ কৰা উচিত নে? কোনটো সবল যুক্তি?"
+      },
+      "options": [
+        {
+          "en": "No, because phones are costly",
+          "as": "নহয়, কাৰণ ফোন দামী"
+        },
+        {
+          "en": "Yes, because phones are small",
+          "as": "হয়, কাৰণ ফোন সৰু"
+        },
+        {
+          "en": "Yes, because they distract students",
+          "as": "হয়, কাৰণ ই ছাত্ৰৰ মনোযোগ বিচলিত কৰে"
+        },
+        {
+          "en": "No, because teachers use phones",
+          "as": "নহয়, কাৰণ শিক্ষকে ফোন ব্যৱহাৰ কৰে"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Distraction from studies is a direct and strong reason for the ban.",
+        "as": "পঢ়াৰ পৰা মনোযোগ বিচলিত হোৱা নিষেধৰ প্ৰত্যক্ষ আৰু সবল কাৰণ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Should voting be made compulsory? Which is a strong argument?",
+        "as": "ভোটদান বাধ্যতামূলক কৰা উচিত নে? কোনটো সবল যুক্তি?"
+      },
+      "options": [
+        {
+          "en": "Yes, because it increases participation",
+          "as": "হয়, কাৰণ ই অংশগ্ৰহণ বঢ়ায়"
+        },
+        {
+          "en": "No, because voting is a right",
+          "as": "নহয়, কাৰণ ভোটদান এটা অধিকাৰ"
+        },
+        {
+          "en": "Yes, because elections are costly",
+          "as": "হয়, কাৰণ নিৰ্বাচন ব্যয়বহুল"
+        },
+        {
+          "en": "No, because queues are long",
+          "as": "নহয়, কাৰণ শাৰী দীঘল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Increased public participation is a strong reason in favour of compulsory voting.",
+        "as": "জনসাধাৰণৰ অংশগ্ৰহণ বৃদ্ধি বাধ্যতামূলক ভোটদানৰ সপক্ষে এটা সবল কাৰণ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Umbrella sales rose after the monsoon began. What is the best inference?",
+        "as": "বৰ্ষা আৰম্ভ হোৱাৰ পিছত ছাতিৰ বিক্ৰী বাঢ়িছে। শ্ৰেষ্ঠ অনুমান কি?"
+      },
+      "options": [
+        {
+          "en": "Rain increases umbrella demand",
+          "as": "বৰষুণে ছাতিৰ চাহিদা বঢ়ায়"
+        },
+        {
+          "en": "The monsoon has ended",
+          "as": "বৰ্ষা শেষ হ'ল"
+        },
+        {
+          "en": "Umbrellas are fashionable",
+          "as": "ছাতি ফেশ্বনেবল"
+        },
+        {
+          "en": "People dislike rain",
+          "as": "লোকে বৰষুণ অপছন্দ কৰে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The rise in sales is best explained by rain increasing the demand for umbrellas.",
+        "as": "বিক্ৰী বৃদ্ধিৰ শ্ৰেষ্ঠ ব্যাখ্যা হ'ল বৰষুণে ছাতিৰ চাহিদা বঢ়ায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A town is facing frequent power cuts. Which course of action is most appropriate?",
+        "as": "এখন চহৰত ঘনাই বিদ্যুৎ কাট হৈছে। সবাতোকৈ উপযুক্ত পদক্ষেপ কি?"
+      },
+      "options": [
+        {
+          "en": "Stop using electricity",
+          "as": "বিদ্যুৎ ব্যৱহাৰ বন্ধ কৰক"
+        },
+        {
+          "en": "Only raise the price of electricity",
+          "as": "কেৱল বিদ্যুৎৰ দাম বঢ়াওক"
+        },
+        {
+          "en": "Improve transmission and add capacity",
+          "as": "সংযোগ ব্যৱস্থা উন্নত কৰি ক্ষমতা বৃদ্ধি কৰক"
+        },
+        {
+          "en": "Ignore the power cuts",
+          "as": "বিদ্যুৎ কাট উপেক্ষা কৰক"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Improving transmission and capacity addresses the root cause of power cuts.",
+        "as": "সংযোগ আৰু ক্ষমতা উন্নত কৰিলে বিদ্যুৎ কাটৰ মূল কাৰণ সমাধান হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A is taller than B, B is taller than C and C is taller than D. Who is the tallest?",
+        "as": "A, B ৰ পৰা ওখ; B, C ৰ পৰা ওখ; C, D ৰ পৰা ওখ। আটাইতকৈ ওখ কোন?"
+      },
+      "options": [
+        {
+          "en": "D",
+          "as": "D"
+        },
+        {
+          "en": "A",
+          "as": "A"
+        },
+        {
+          "en": "B",
+          "as": "B"
+        },
+        {
+          "en": "C",
+          "as": "C"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The order is A > B > C > D, so A is the tallest.",
+        "as": "ক্ৰম A > B > C > D, সেয়ে A আটাইতকৈ ওখ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Advertisement: 'Join our coaching to top the exam.' Which assumption is implicit?",
+        "as": "বিজ্ঞাপন: 'পৰীক্ষাত শীৰ্ষত থাকিবলৈ আমাৰ কোচিংত যোগদান কৰক।' কোনটো নিহিত ধাৰণা?"
+      },
+      "options": [
+        {
+          "en": "Everyone tops the exam",
+          "as": "সকলোৱে পৰীক্ষাত শীৰ্ষত থাকে"
+        },
+        {
+          "en": "Coaching is free",
+          "as": "কোচিং বিনামূলীয়া"
+        },
+        {
+          "en": "Exams are easy",
+          "as": "পৰীক্ষা সহজ"
+        },
+        {
+          "en": "Coaching helps top the exam",
+          "as": "কোচিঙে পৰীক্ষাত শীৰ্ষত থাকিবলৈ সহায় কৰে"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The advertisement assumes that coaching actually helps students top the exam.",
+        "as": "বিজ্ঞাপনটোৱে ধৰি লয় যে কোচিঙে ছাত্ৰক পৰীক্ষাত শীৰ্ষত থাকিবলৈ প্ৰকৃততে সহায় কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Everyone says it, so it must be true.' What is the flaw?",
+        "as": "'সকলোৱে কয়, সেয়ে ই সত্য হ'বই।' ত্ৰুটিটো কি?"
+      },
+      "options": [
+        {
+          "en": "False cause",
+          "as": "ভুল কাৰণ"
+        },
+        {
+          "en": "Circular reasoning",
+          "as": "চক্ৰাকাৰ যুক্তি"
+        },
+        {
+          "en": "Appeal to popularity",
+          "as": "জনপ্ৰিয়তাৰ ওপৰত আধাৰিত যুক্তি"
+        },
+        {
+          "en": "Hasty generalization",
+          "as": "ত্বৰিত সাধাৰণীকৰণ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Popularity does not prove truth; this is an appeal to popularity.",
+        "as": "জনপ্ৰিয়তাই সত্য প্ৰমাণ নকৰে; এয়া জনপ্ৰিয়তাৰ ওপৰত আধাৰিত যুক্তি।"
+      }
+    },
+    {
+      "q": {
+        "en": "'He is poor, so he must be dishonest.' What is the flaw?",
+        "as": "'তেওঁ দুখীয়া, সেয়ে তেওঁ অসৎ হ'বই।' ত্ৰুটিটো কি?"
+      },
+      "options": [
+        {
+          "en": "False cause",
+          "as": "ভুল কাৰণ"
+        },
+        {
+          "en": "Appeal to authority",
+          "as": "কৰ্তৃত্বৰ ওপৰত আধাৰিত যুক্তি"
+        },
+        {
+          "en": "Circular reasoning",
+          "as": "চক্ৰাকাৰ যুক্তি"
+        },
+        {
+          "en": "False generalization",
+          "as": "ভুল সাধাৰণীকৰণ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Poverty is wrongly used to generalize about a person's honesty.",
+        "as": "দাৰিদ্ৰ্যক ভুলকৈ ব্যক্তিৰ সততা সম্পৰ্কে সাধাৰণীকৰণ কৰিবলৈ ব্যৱহাৰ কৰা হৈছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Company profits rose after a new CEO joined. What can be concluded?",
+        "as": "নতুন CEO অহাৰ পিছত কোম্পানীৰ লাভ বাঢ়িছে। কি সিদ্ধান্ত কৰিব পাৰি?"
+      },
+      "options": [
+        {
+          "en": "Cannot conclude that the CEO caused it",
+          "as": "CEOয়ে ইয়াৰ কাৰণ বুলি সিদ্ধান্ত কৰিব নোৱাৰি"
+        },
+        {
+          "en": "Profits will fall next",
+          "as": "ইয়াৰ পিছত লাভ কমিব"
+        },
+        {
+          "en": "Employees caused the rise",
+          "as": "কৰ্মচাৰীয়ে বৃদ্ধিৰ কাৰণ"
+        },
+        {
+          "en": "The CEO is the best",
+          "as": "CEO সৰ্বোত্তম"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Profit rising after the CEO joined does not prove that the CEO caused it.",
+        "as": "CEO অহাৰ পিছত লাভ বঢ়াৰ পৰা CEOয়ে ইয়াৰ কাৰণ বুলি প্ৰমাণ নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Dengue is spreading in a locality. Which course of action is most appropriate?",
+        "as": "এক এলেকাত ডেঙ্গু বাঢ়িছে। সবাতোকৈ উপযুক্ত পদক্ষেপ কি?"
+      },
+      "options": [
+        {
+          "en": "Ignore it",
+          "as": "উপেক্ষা কৰক"
+        },
+        {
+          "en": "Remove stagnant water and create awareness",
+          "as": "থমকি ৰোৱা পানী আঁতৰাই সজাগতা সৃষ্টি কৰক"
+        },
+        {
+          "en": "Spray medicine only in offices",
+          "as": "কেৱল কাৰ্যালয়ত ঔষধ ছটিয়াওক"
+        },
+        {
+          "en": "Ban hospitals",
+          "as": "চিকিৎসালয় নিষেধ কৰক"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Removing stagnant water and spreading awareness directly target mosquito breeding.",
+        "as": "থমকি ৰোৱা পানী আঁতৰোৱা আৰু সজাগতা সৃষ্টিয়ে মছাৰ প্ৰজনন প্ৰত্যক্ষভাৱে কমায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A student scored high marks without attending coaching. What is the best inference?",
+        "as": "কোচিং নোলোকাই এজন ছাত্ৰই উচ্চ নম্বৰ পাইছে। শ্ৰেষ্ঠ অনুমান কি?"
+      },
+      "options": [
+        {
+          "en": "Coaching is useless",
+          "as": "কোচিং অকৰ্মণ্য"
+        },
+        {
+          "en": "Coaching is not necessary for high marks",
+          "as": "উচ্চ নম্বৰৰ বাবে কোচিং প্ৰয়োজনীয় নহয়"
+        },
+        {
+          "en": "All toppers attend coaching",
+          "as": "সকলো শীৰ্ষস্থানীয়ে কোচিং লয়"
+        },
+        {
+          "en": "Marks are unimportant",
+          "as": "নম্বৰৰ কোনো মূল্য নাই"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "One student succeeding without coaching shows that coaching is not always necessary.",
+        "as": "কোচিং নোলোকাই এজন ছাত্ৰ সফল হোৱাটোৱে দেখুৱায় কোচিং সদায় প্ৰয়োজনীয় নহয়।"
       }
     }
   ]
