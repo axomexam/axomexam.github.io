@@ -1,35 +1,731 @@
 {
   "setNumber": 6,
   "title": "Set 6",
-  "subject": "Critical & Analytical",
+  "subject": "Analytical & Critical Reasoning",
   "questions": [
     {
       "q": {
-        "en": "Statements: All pens are books. Some books are red. Conclusion: Some pens are red. The conclusion is?",
-        "as": "কথা: সকলো কলম কিতাপ। কিছুমান কিতাপ ৰঙা। সিদ্ধান্ত: কিছুমান কলম ৰঙা। সিদ্ধান্তটো?"
+        "en": "Find the next number: 2, 6, 12, 20, 30, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: 2, 6, 12, 20, 30, ?"
       },
       "options": [
         {
-          "en": "Does not follow",
-          "as": "অনুসৰণ নকৰে"
+          "en": "40",
+          "as": "40"
         },
         {
-          "en": "Definitely true",
-          "as": "নিশ্চিতভাৱে সত্য"
+          "en": "44",
+          "as": "44"
         },
         {
-          "en": "Definitely false",
-          "as": "নিশ্চিতভাৱে অসত্য"
+          "en": "42",
+          "as": "42"
         },
         {
-          "en": "Follows only if all books are red",
-          "as": "সকলো কিতাপ ৰঙা হ'লেহে অনুসৰণ কৰে"
+          "en": "46",
+          "as": "46"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The differences are 4, 6, 8, 10, so the next difference is 12 and 30 + 12 = 42.",
+        "as": "পাৰ্থক্যসমূহ 4, 6, 8, 10; পৰৱৰ্তী পাৰ্থক্য 12, সেয়ে 30 + 12 = 42।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the series: 3, 9, 27, 81, ?",
+        "as": "শৃংখলাটো সম্পূৰ্ণ কৰক: 3, 9, 27, 81, ?"
+      },
+      "options": [
+        {
+          "en": "243",
+          "as": "243"
+        },
+        {
+          "en": "162",
+          "as": "162"
+        },
+        {
+          "en": "324",
+          "as": "324"
+        },
+        {
+          "en": "729",
+          "as": "729"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "All pens are books, but the red books may be different from the pens, so the conclusion does not necessarily follow.",
-        "as": "সকলো কলম কিতাপ, কিন্তু ৰঙা কিতাপবোৰ কলমৰ পৰা বেলেগ হ'ব পাৰে; সেয়ে সিদ্ধান্তটো অৱশ্যে অনুসৰণ নকৰে।"
+        "en": "Each number is multiplied by 3, so 81 × 3 = 243.",
+        "as": "প্ৰতিটো সংখ্যা 3 ৰে পূৰণ হয়, সেয়ে 81 × 3 = 243।"
+      }
+    },
+    {
+      "q": {
+        "en": "What comes next: 1, 4, 9, 16, 25, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো কি: 1, 4, 9, 16, 25, ?"
+      },
+      "options": [
+        {
+          "en": "30",
+          "as": "30"
+        },
+        {
+          "en": "32",
+          "as": "32"
+        },
+        {
+          "en": "49",
+          "as": "49"
+        },
+        {
+          "en": "36",
+          "as": "36"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "These are the squares of 1, 2, 3, 4, 5; the next is 6² = 36.",
+        "as": "এইবোৰ 1, 2, 3, 4, 5 ৰ বৰ্গ; পৰৱৰ্তী 6² = 36।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the next term: 5, 10, 20, 40, ?",
+        "as": "পৰৱৰ্তী পদটো নিৰ্ণয় কৰক: 5, 10, 20, 40, ?"
+      },
+      "options": [
+        {
+          "en": "60",
+          "as": "60"
+        },
+        {
+          "en": "80",
+          "as": "80"
+        },
+        {
+          "en": "70",
+          "as": "70"
+        },
+        {
+          "en": "100",
+          "as": "100"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Each term is double the previous term, so 40 × 2 = 80.",
+        "as": "প্ৰতিটো পদ পূৰ্বৰ পদৰ দুগুণ, সেয়ে 40 × 2 = 80।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the next prime number: 2, 3, 5, 7, 11, ?",
+        "as": "পৰৱৰ্তী মৌলিক সংখ্যাটো বাছনি কৰক: 2, 3, 5, 7, 11, ?"
+      },
+      "options": [
+        {
+          "en": "13",
+          "as": "13"
+        },
+        {
+          "en": "14",
+          "as": "14"
+        },
+        {
+          "en": "12",
+          "as": "12"
+        },
+        {
+          "en": "15",
+          "as": "15"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "These are consecutive prime numbers; the next prime after 11 is 13.",
+        "as": "এইবোৰ ক্ৰমিক মৌলিক সংখ্যা; 11 ৰ পিছৰ মৌলিক সংখ্যা 13।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the series: 1, 1, 2, 3, 5, 8, ?",
+        "as": "শৃংখলা সম্পূৰ্ণ কৰক: 1, 1, 2, 3, 5, 8, ?"
+      },
+      "options": [
+        {
+          "en": "11",
+          "as": "11"
+        },
+        {
+          "en": "15",
+          "as": "15"
+        },
+        {
+          "en": "13",
+          "as": "13"
+        },
+        {
+          "en": "21",
+          "as": "21"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Each term is the sum of the previous two (Fibonacci series), so 5 + 8 = 13.",
+        "as": "প্ৰতিটো পদ পূৰ্বৰ দুটা পদৰ যোগফল (ফিবোনাচি শৃংখলা), সেয়ে 5 + 8 = 13।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the next number: 100, 81, 64, 49, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: 100, 81, 64, 49, ?"
+      },
+      "options": [
+        {
+          "en": "25",
+          "as": "25"
+        },
+        {
+          "en": "36",
+          "as": "36"
+        },
+        {
+          "en": "49",
+          "as": "49"
+        },
+        {
+          "en": "16",
+          "as": "16"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "These are decreasing squares: 10², 9², 8², 7²; the next is 6² = 36.",
+        "as": "এইবোৰ হ্ৰাসমান বৰ্গ: 10², 9², 8², 7²; পৰৱৰ্তী 6² = 36।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the letter series: A, C, E, G, ?",
+        "as": "আখৰ শৃংখলা সম্পূৰ্ণ কৰক: A, C, E, G, ?"
+      },
+      "options": [
+        {
+          "en": "H",
+          "as": "H"
+        },
+        {
+          "en": "J",
+          "as": "J"
+        },
+        {
+          "en": "K",
+          "as": "K"
+        },
+        {
+          "en": "I",
+          "as": "I"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "One letter is skipped each time, so after G comes I.",
+        "as": "প্ৰতিবাৰে এটা আখৰ এৰি দিয়া হয়, সেয়ে G ৰ পিছত I আহে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the series: AZ, BY, CX, ?",
+        "as": "শৃংখলা সম্পূৰ্ণ কৰক: AZ, BY, CX, ?"
+      },
+      "options": [
+        {
+          "en": "DV",
+          "as": "DV"
+        },
+        {
+          "en": "DW",
+          "as": "DW"
+        },
+        {
+          "en": "EW",
+          "as": "EW"
+        },
+        {
+          "en": "DX",
+          "as": "DX"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "First letters move forward A, B, C, D and second letters move backward Z, Y, X, W, giving DW.",
+        "as": "প্ৰথম আখৰ A, B, C, D আগলৈ আৰু দ্বিতীয় আখৰ Z, Y, X, W পিছলৈ যায়, সেয়ে DW।"
+      }
+    },
+    {
+      "q": {
+        "en": "What comes next: Z, X, V, T, ?",
+        "as": "পৰৱৰ্তী আখৰটো কি: Z, X, V, T, ?"
+      },
+      "options": [
+        {
+          "en": "Q",
+          "as": "Q"
+        },
+        {
+          "en": "S",
+          "as": "S"
+        },
+        {
+          "en": "P",
+          "as": "P"
+        },
+        {
+          "en": "R",
+          "as": "R"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Letters decrease by two places each time: Z, X, V, T, R.",
+        "as": "আখৰসমূহ প্ৰতিবাৰে দুই স্থান কমে: Z, X, V, T, R।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the next term: 1, 8, 27, 64, ?",
+        "as": "পৰৱৰ্তী পদটো নিৰ্ণয় কৰক: 1, 8, 27, 64, ?"
+      },
+      "options": [
+        {
+          "en": "125",
+          "as": "125"
+        },
+        {
+          "en": "216",
+          "as": "216"
+        },
+        {
+          "en": "144",
+          "as": "144"
+        },
+        {
+          "en": "100",
+          "as": "100"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "These are cubes of 1, 2, 3, 4; the next is 5³ = 125.",
+        "as": "এইবোৰ 1, 2, 3, 4 ৰ ঘন; পৰৱৰ্তী 5³ = 125।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the next number: 7, 14, 28, 56, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো নিৰ্ণয় কৰক: 7, 14, 28, 56, ?"
+      },
+      "options": [
+        {
+          "en": "84",
+          "as": "84"
+        },
+        {
+          "en": "98",
+          "as": "98"
+        },
+        {
+          "en": "112",
+          "as": "112"
+        },
+        {
+          "en": "120",
+          "as": "120"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Each term is doubled, so 56 × 2 = 112.",
+        "as": "প্ৰতিটো পদ দুগুণ হয়, সেয়ে 56 × 2 = 112।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the series: 4, 9, 19, 39, ?",
+        "as": "শৃংখলা সম্পূৰ্ণ কৰক: 4, 9, 19, 39, ?"
+      },
+      "options": [
+        {
+          "en": "78",
+          "as": "78"
+        },
+        {
+          "en": "82",
+          "as": "82"
+        },
+        {
+          "en": "80",
+          "as": "80"
+        },
+        {
+          "en": "79",
+          "as": "79"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Multiply by 2 and add 1: 4→9→19→39→79.",
+        "as": "2 ৰে পূৰণ কৰি 1 যোগ কৰা হয়: 4→9→19→39→79।"
+      }
+    },
+    {
+      "q": {
+        "en": "What comes next: 11, 13, 17, 19, 23, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো কি: 11, 13, 17, 19, 23, ?"
+      },
+      "options": [
+        {
+          "en": "25",
+          "as": "25"
+        },
+        {
+          "en": "29",
+          "as": "29"
+        },
+        {
+          "en": "27",
+          "as": "27"
+        },
+        {
+          "en": "31",
+          "as": "31"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "These are consecutive prime numbers; the next prime after 23 is 29.",
+        "as": "এইবোৰ ক্ৰমিক মৌলিক সংখ্যা; 23 ৰ পিছৰ মৌলিক সংখ্যা 29।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the next term: 121, 144, 169, 196, ?",
+        "as": "পৰৱৰ্তী পদটো নিৰ্ণয় কৰক: 121, 144, 169, 196, ?"
+      },
+      "options": [
+        {
+          "en": "210",
+          "as": "210"
+        },
+        {
+          "en": "216",
+          "as": "216"
+        },
+        {
+          "en": "225",
+          "as": "225"
+        },
+        {
+          "en": "220",
+          "as": "220"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "These are squares of 11, 12, 13, 14; the next is 15² = 225.",
+        "as": "এইবোৰ 11, 12, 13, 14 ৰ বৰ্গ; পৰৱৰ্তী 15² = 225।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the relation: Doctor : Hospital :: Teacher : ?",
+        "as": "সম্পৰ্কটো সম্পূৰ্ণ কৰক: চিকিৎসক : চিকিৎসালয় :: শিক্ষক : ?"
+      },
+      "options": [
+        {
+          "en": "School",
+          "as": "বিদ্যালয়"
+        },
+        {
+          "en": "Student",
+          "as": "ছাত্ৰ"
+        },
+        {
+          "en": "Book",
+          "as": "কিতাপ"
+        },
+        {
+          "en": "Class",
+          "as": "শ্ৰেণী"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A doctor works in a hospital as a teacher works in a school.",
+        "as": "চিকিৎসকে চিকিৎসালয়ত কাম কৰে যেনেকৈ শিক্ষকে বিদ্যালয়ত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the relation: Pen : Write :: Knife : ?",
+        "as": "সম্পৰ্কটো সম্পূৰ্ণ কৰক: কলম : লিখা :: কটাৰী : ?"
+      },
+      "options": [
+        {
+          "en": "Cut",
+          "as": "কটা"
+        },
+        {
+          "en": "Sharp",
+          "as": "তীক্ষ্ণ"
+        },
+        {
+          "en": "Metal",
+          "as": "ধাতু"
+        },
+        {
+          "en": "Kitchen",
+          "as": "ৰান্ধনীঘৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A pen is used to write as a knife is used to cut.",
+        "as": "কলম লিখিবলৈ ব্যৱহাৰ হয় যেনেকৈ কটাৰী কাটিবলৈ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the relation: Book : Pages :: Ladder : ?",
+        "as": "সম্পৰ্কটো সম্পূৰ্ণ কৰক: কিতাপ : পৃষ্ঠা :: জখলা : ?"
+      },
+      "options": [
+        {
+          "en": "Wood",
+          "as": "কাঠ"
+        },
+        {
+          "en": "Height",
+          "as": "উচ্চতা"
+        },
+        {
+          "en": "Rungs",
+          "as": "খপ্পৰ"
+        },
+        {
+          "en": "Climb",
+          "as": "আৰোহণ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A book is made of pages as a ladder is made of rungs.",
+        "as": "কিতাপ পৃষ্ঠাৰে গঠিত যেনেকৈ জখলা খপ্পৰেৰে গঠিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the relation: Assam : Dispur :: Meghalaya : ?",
+        "as": "সম্পৰ্কটো সম্পূৰ্ণ কৰক: অসম : দিছপুৰ :: মেঘালয় : ?"
+      },
+      "options": [
+        {
+          "en": "Guwahati",
+          "as": "গুৱাহাটী"
+        },
+        {
+          "en": "Shillong",
+          "as": "শ্বিলং"
+        },
+        {
+          "en": "Aizawl",
+          "as": "আইজল"
+        },
+        {
+          "en": "Imphal",
+          "as": "ইম্ফাল"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Dispur is the capital of Assam and Shillong is the capital of Meghalaya.",
+        "as": "দিছপুৰ অসমৰ ৰাজধানী আৰু শ্বিলং মেঘালয়ৰ ৰাজধানী।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the odd one out: 3, 5, 7, 9, 11",
+        "as": "অযুগুতটো বাছনি কৰক: 3, 5, 7, 9, 11"
+      },
+      "options": [
+        {
+          "en": "11",
+          "as": "11"
+        },
+        {
+          "en": "3",
+          "as": "3"
+        },
+        {
+          "en": "5",
+          "as": "5"
+        },
+        {
+          "en": "9",
+          "as": "9"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "9 is not a prime number, while the others are prime.",
+        "as": "9 মৌলিক সংখ্যা নহয়, কিন্তু বাকীবোৰ মৌলিক।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the odd one out: Mango, Apple, Potato, Orange",
+        "as": "অযুগুতটো বাছনি কৰক: আম, আপেল, আলু, কমলা"
+      },
+      "options": [
+        {
+          "en": "Mango",
+          "as": "আম"
+        },
+        {
+          "en": "Apple",
+          "as": "আপেল"
+        },
+        {
+          "en": "Potato",
+          "as": "আলু"
+        },
+        {
+          "en": "Orange",
+          "as": "কমলা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Potato is a vegetable, while the others are fruits.",
+        "as": "আলু শাক-পাচলি, কিন্তু বাকীবোৰ ফল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the relation: Bird : Nest :: Bee : ?",
+        "as": "সম্পৰ্কটো সম্পূৰ্ণ কৰক: চৰাই : বাহ :: মৌমাখি : ?"
+      },
+      "options": [
+        {
+          "en": "Web",
+          "as": "জাল"
+        },
+        {
+          "en": "Cave",
+          "as": "গুহা"
+        },
+        {
+          "en": "Burrow",
+          "as": "গাঁত"
+        },
+        {
+          "en": "Hive",
+          "as": "মৌচাক"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A bird lives in a nest as a bee lives in a hive.",
+        "as": "চৰাই বাহত থাকে যেনেকৈ মৌমাখি মৌচাকত থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the relation: 6 : 42 :: 8 : ?",
+        "as": "সম্পৰ্কটো সম্পূৰ্ণ কৰক: 6 : 42 :: 8 : ?"
+      },
+      "options": [
+        {
+          "en": "72",
+          "as": "72"
+        },
+        {
+          "en": "64",
+          "as": "64"
+        },
+        {
+          "en": "70",
+          "as": "70"
+        },
+        {
+          "en": "56",
+          "as": "56"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "6 × 7 = 42, so 8 × 9 = 72.",
+        "as": "6 × 7 = 42, সেয়ে 8 × 9 = 72।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the relation: Day : Night :: Summer : ?",
+        "as": "সম্পৰ্কটো সম্পূৰ্ণ কৰক: দিন : ৰাতি :: গ্ৰীষ্ম : ?"
+      },
+      "options": [
+        {
+          "en": "Monsoon",
+          "as": "বৰ্ষা"
+        },
+        {
+          "en": "Winter",
+          "as": "শীত"
+        },
+        {
+          "en": "Spring",
+          "as": "বসন্ত"
+        },
+        {
+          "en": "Autumn",
+          "as": "শৰৎ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Day is opposite to night as summer is opposite to winter.",
+        "as": "দিনৰ বিপৰীত ৰাতি যেনেকৈ গ্ৰীষ্মৰ বিপৰীত শীত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the relation: Square : Cube :: Circle : ?",
+        "as": "সম্পৰ্কটো সম্পূৰ্ণ কৰক: বৰ্গ : ঘন :: বৃত্ত : ?"
+      },
+      "options": [
+        {
+          "en": "Cone",
+          "as": "শংকু"
+        },
+        {
+          "en": "Sphere",
+          "as": "গোলক"
+        },
+        {
+          "en": "Cylinder",
+          "as": "চুঙা"
+        },
+        {
+          "en": "Rectangle",
+          "as": "আয়ত"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A square is two-dimensional and a cube is three-dimensional; similarly a circle is two-dimensional and a sphere is three-dimensional.",
+        "as": "বৰ্গ দ্বিমাত্ৰিক আৰু ঘন ত্ৰিমাত্ৰিক; সেইদৰে বৃত্ত দ্বিমাত্ৰিক আৰু গোলক ত্ৰিমাত্ৰিক।"
       }
     }
   ]
