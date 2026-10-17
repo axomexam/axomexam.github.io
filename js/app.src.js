@@ -6547,7 +6547,7 @@
     let n = from;
     const timer = setInterval(() => {
       n--;
-      if (n >= 1) { paint(n); return; }
+      if (n >= 0) { paint(n); return; }
       clearInterval(timer);
       stage.classList.add("go");
       countEl.outerHTML = `<div class="mi-check" id="mi-count"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.2 4.2L19 7"/></svg></div>`;
