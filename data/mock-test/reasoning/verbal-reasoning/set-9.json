@@ -5,14 +5,561 @@
   "questions": [
     {
       "q": {
-        "en": "P is the brother of Q. Q is the mother of R. How is P related to R?",
-        "as": "P হৈছে Qৰ ভাই। Q হৈছে Rৰ মাক। P, Rৰ কি হয়?"
+        "en": "Teacher is to Student as Doctor is to?",
+        "as": "শিক্ষকৰ লগত ছাত্ৰ যেনে, চিকিৎসকৰ লগত কি?"
       },
       "options": [
         {
-          "en": "Maternal uncle",
+          "en": "Patient",
+          "as": "ৰোগী"
+        },
+        {
+          "en": "Hospital",
+          "as": "চিকিৎসালয়"
+        },
+        {
+          "en": "Nurse",
+          "as": "নাৰ্ছ"
+        },
+        {
+          "en": "Medicine",
+          "as": "ঔষধ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A teacher serves a student and a doctor serves a patient, so the answer is Patient.",
+        "as": "শিক্ষকে ছাত্ৰক সহায় কৰে আৰু চিকিৎসকে ৰোগীক সহায় কৰে; সেয়ে উত্তৰ 'ৰোগী'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one out: 2, 4, 8, 16, 20",
+        "as": "বেলেগটো বাছক: ২, ৪, ৮, ১৬, ২০"
+      },
+      "options": [
+        {
+          "en": "2",
+          "as": "২"
+        },
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "16",
+          "as": "১৬"
+        },
+        {
+          "en": "20",
+          "as": "২০"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "2, 4, 8 and 16 are powers of 2, while 20 is not, so 20 is the odd one.",
+        "as": "২, ৪, ৮ আৰু ১৬, ২-ৰ ঘাত, কিন্তু ২০ নহয়; সেয়ে ২০ বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the next number: 10, 20, 40, 80, ?",
+        "as": "পৰৱৰ্তী সংখ্যা বাছক: ১০, ২০, ৪০, ৮০, ?"
+      },
+      "options": [
+        {
+          "en": "120",
+          "as": "১২০"
+        },
+        {
+          "en": "140",
+          "as": "১৪০"
+        },
+        {
+          "en": "160",
+          "as": "১৬০"
+        },
+        {
+          "en": "100",
+          "as": "১০০"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Each term is double the previous term, so the next term is 80 x 2 = 160.",
+        "as": "প্ৰতিটো সংখ্যা আগৰটোৰ দুগুণ; সেয়ে পৰৱৰ্তী সংখ্যা ৮০ x ২ = ১৬০।"
+      }
+    },
+    {
+      "q": {
+        "en": "If TEA is coded as 20-5-1, then BAT is coded as?",
+        "as": "যদি TEA-ক ২০-৫-১ কোড কৰা হয়, তেন্তে BAT-ৰ কোড কি?"
+      },
+      "options": [
+        {
+          "en": "2-1-20",
+          "as": "২-১-২০"
+        },
+        {
+          "en": "2-20-1",
+          "as": "২-২০-১"
+        },
+        {
+          "en": "1-2-20",
+          "as": "১-২-২০"
+        },
+        {
+          "en": "20-1-2",
+          "as": "২০-১-২"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Each letter is replaced by its position in the alphabet: B=2, A=1, T=20, so BAT is 2-1-20.",
+        "as": "প্ৰতিটো আখৰক বৰ্ণমালাৰ ক্ৰমিক সংখ্যাৰে সলনি কৰা হয়: B=২, A=১, T=২০; সেয়ে BAT = ২-১-২০।"
+      }
+    },
+    {
+      "q": {
+        "en": "My mother's father is my?",
+        "as": "মোৰ মাকৰ পিতৃ মোৰ কি?"
+      },
+      "options": [
+        {
+          "en": "Grandfather",
+          "as": "ককা"
+        },
+        {
+          "en": "Father",
+          "as": "পিতৃ"
+        },
+        {
+          "en": "Uncle",
           "as": "মামা"
         },
+        {
+          "en": "Brother",
+          "as": "ভাই"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The father of one's mother is one's maternal grandfather, so the answer is Grandfather.",
+        "as": "মাকৰ পিতৃ হৈছে ককা (মাতামহ); সেয়ে উত্তৰ 'ককা'।"
+      }
+    },
+    {
+      "q": {
+        "en": "A man facing west turns left twice. Which direction is he facing now?",
+        "as": "পশ্চিমলৈ মুখ কৰি থকা এজন মানুহে দুবাৰ বাওঁফালে ঘূৰে। এতিয়া তেওঁ কোন দিশলৈ মুখ কৰি আছে?"
+      },
+      "options": [
+        {
+          "en": "West",
+          "as": "পশ্চিম"
+        },
+        {
+          "en": "South",
+          "as": "দক্ষিণ"
+        },
+        {
+          "en": "East",
+          "as": "পূব"
+        },
+        {
+          "en": "North",
+          "as": "উত্তৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Facing west, the first left turn makes him face south and the second left turn makes him face east.",
+        "as": "পশ্চিমলৈ মুখ কৰি প্ৰথম বাওঁ ঘূৰ্ণনত দক্ষিণলৈ আৰু দ্বিতীয় বাওঁ ঘূৰ্ণনত পূবলৈ মুখ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a class of 50 students, Priya is 20th from the top. What is her rank from the bottom?",
+        "as": "৫০ জন ছাত্ৰ থকা শ্ৰেণীত প্ৰিয়া ওপৰৰ পৰা ২০ নম্বৰ। তলৰ পৰা তাইৰ স্থান কিমান?"
+      },
+      "options": [
+        {
+          "en": "30th",
+          "as": "৩০ নম্বৰ"
+        },
+        {
+          "en": "31st",
+          "as": "৩১ নম্বৰ"
+        },
+        {
+          "en": "32nd",
+          "as": "৩২ নম্বৰ"
+        },
+        {
+          "en": "29th",
+          "as": "২৯ নম্বৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Rank from the bottom = total - rank from the top + 1 = 50 - 20 + 1 = 31st.",
+        "as": "তলৰ পৰা স্থান = মুঠ - ওপৰৰ পৰা স্থান + ১ = ৫০ - ২০ + ১ = ৩১ নম্বৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "All cats are animals. Some animals are wild. Which conclusion follows?",
+        "as": "সকলো মেকুৰী জন্তু। কিছুমান জন্তু বনৰীয়া। কোনটো সিদ্ধান্ত সত্য?"
+      },
+      "options": [
+        {
+          "en": "Some cats are wild",
+          "as": "কিছুমান মেকুৰী বনৰীয়া"
+        },
+        {
+          "en": "All animals are cats",
+          "as": "সকলো জন্তু মেকুৰী"
+        },
+        {
+          "en": "No cat is wild",
+          "as": "কোনো মেকুৰী বনৰীয়া নহয়"
+        },
+        {
+          "en": "None of these",
+          "as": "ইয়াৰ কোনোটো নহয়"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The wild animals may or may not include cats, so none of the given conclusions definitely follows.",
+        "as": "বনৰীয়া জন্তুবোৰৰ ভিতৰত মেকুৰী থাকিবও পাৰে, নাথাকিবও পাৰে; সেয়ে দিয়া সিদ্ধান্তবোৰৰ কোনোটো নিশ্চিত নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 1st January 2024 was Monday, what day was 1st April 2024?",
+        "as": "যদি ১ জানুৱাৰী ২০২৪ সোমবাৰ আছিল, তেন্তে ১ এপ্ৰিল ২০২৪ কোনবাৰ আছিল?"
+      },
+      "options": [
+        {
+          "en": "Sunday",
+          "as": "দেওবাৰ"
+        },
+        {
+          "en": "Monday",
+          "as": "সোমবাৰ"
+        },
+        {
+          "en": "Tuesday",
+          "as": "মঙ্গলবাৰ"
+        },
+        {
+          "en": "Friday",
+          "as": "শুক্ৰবাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "From 1 January to 1 April 2024 there are 31 + 29 + 31 = 91 days, and 91 is divisible by 7, so 1 April was also a Monday.",
+        "as": "১ জানুৱাৰীৰ পৰা ১ এপ্ৰিল ২০২৪ লৈ ৩১ + ২৯ + ৩১ = ৯১ দিন; ৯১, ৭-ৰে বিভাজ্য; সেয়ে ১ এপ্ৰিলও সোমবাৰ আছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Watch is to Time as Calendar is to?",
+        "as": "ঘড়ীৰ লগত সময় যেনে, দিনপঞ্জীৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Date",
+          "as": "তাৰিখ"
+        },
+        {
+          "en": "Month",
+          "as": "মাহ"
+        },
+        {
+          "en": "Year",
+          "as": "বছৰ"
+        },
+        {
+          "en": "Day",
+          "as": "দিন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A watch shows time and a calendar shows dates, so the answer is Date.",
+        "as": "ঘড়ীয়ে সময় দেখুৱায় আৰু দিনপঞ্জীয়ে তাৰিখ দেখুৱায়; সেয়ে উত্তৰ 'তাৰিখ'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one: Rose, Lotus, Lily, Mango",
+        "as": "বেলেগটো বাছক: গোলাপ, পদুম, শাপলা, আম"
+      },
+      "options": [
+        {
+          "en": "Rose",
+          "as": "গোলাপ"
+        },
+        {
+          "en": "Lotus",
+          "as": "পদুম"
+        },
+        {
+          "en": "Lily",
+          "as": "শাপলা"
+        },
+        {
+          "en": "Mango",
+          "as": "আম"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Rose, lotus and lily are flowers, while mango is a fruit, so Mango is the odd one.",
+        "as": "গোলাপ, পদুম আৰু শাপলা ফুল, কিন্তু আম ফল; সেয়ে আম বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the series: Z, X, V, T, ?",
+        "as": "শ্ৰেণী সম্পূৰ্ণ কৰক: Z, X, V, T, ?"
+      },
+      "options": [
+        {
+          "en": "S",
+          "as": "S"
+        },
+        {
+          "en": "R",
+          "as": "R"
+        },
+        {
+          "en": "Q",
+          "as": "Q"
+        },
+        {
+          "en": "P",
+          "as": "P"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Each letter moves two steps backward in the alphabet (Z, X, V, T), so the next letter is R.",
+        "as": "প্ৰতিটো আখৰ বৰ্ণমালাত দুপদ পিছলৈ যায় (Z, X, V, T); সেয়ে পৰৱৰ্তী আখৰ R।"
+      }
+    },
+    {
+      "q": {
+        "en": "The sum of the ages of a father and his son is 50 years, and the father is 4 times as old as the son. What is the son's age?",
+        "as": "পিতৃ আৰু পুত্ৰৰ বয়সৰ যোগফল ৫০ বছৰ আৰু পিতৃৰ বয়স পুত্ৰৰ ৪ গুণ। পুত্ৰৰ বয়স কিমান?"
+      },
+      "options": [
+        {
+          "en": "10 years",
+          "as": "১০ বছৰ"
+        },
+        {
+          "en": "12 years",
+          "as": "১২ বছৰ"
+        },
+        {
+          "en": "15 years",
+          "as": "১৫ বছৰ"
+        },
+        {
+          "en": "8 years",
+          "as": "৮ বছৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Let the son's age be x; then x + 4x = 50, so 5x = 50 and x = 10 years.",
+        "as": "পুত্ৰৰ বয়স x ধৰিলে x + ৪x = ৫০; সেয়ে ৫x = ৫০, x = ১০ বছৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the angle between the hands of a clock at 12:00?",
+        "as": "১২ বজাত ঘড়ীৰ কাঁটা দুটাৰ মাজৰ কোণ কিমান?"
+      },
+      "options": [
+        {
+          "en": "0 degrees",
+          "as": "০ ডিগ্ৰী"
+        },
+        {
+          "en": "90 degrees",
+          "as": "৯০ ডিগ্ৰী"
+        },
+        {
+          "en": "180 degrees",
+          "as": "১৮০ ডিগ্ৰী"
+        },
+        {
+          "en": "360 degrees",
+          "as": "৩৬০ ডিগ্ৰী"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "At 12:00 both hands point to 12, so they overlap and the angle between them is 0 degrees.",
+        "as": "১২ বজাত দুয়োখন কাঁটা ১২-ত থাকে, অৰ্থাৎ ওপৰাপৰি পৰে; সেয়ে মাজৰ কোণ ০ ডিগ্ৰী।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one: 5, 10, 15, 22",
+        "as": "বেলেগটো বাছক: ৫, ১০, ১৫, ২২"
+      },
+      "options": [
+        {
+          "en": "5",
+          "as": "৫"
+        },
+        {
+          "en": "10",
+          "as": "১০"
+        },
+        {
+          "en": "15",
+          "as": "১৫"
+        },
+        {
+          "en": "22",
+          "as": "২২"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "5, 10 and 15 are multiples of 5, while 22 is not, so 22 is the odd one.",
+        "as": "৫, ১০ আৰু ১৫, ৫-ৰ গুণিতক, কিন্তু ২২ নহয়; সেয়ে ২২ বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "A man walks 4 km north, then 3 km west, then 4 km south. Where is he from the starting point?",
+        "as": "এজন মানুহে ৪ কি.মি. উত্তৰে, তাৰ পিছত ৩ কি.মি. পশ্চিমে, তাৰ পিছত ৪ কি.মি. দক্ষিণে খোজে। তেওঁ আৰম্ভণিৰ পৰা ক'ত?"
+      },
+      "options": [
+        {
+          "en": "3 km west",
+          "as": "৩ কি.মি. পশ্চিম"
+        },
+        {
+          "en": "4 km north",
+          "as": "৪ কি.মি. উত্তৰ"
+        },
+        {
+          "en": "5 km west",
+          "as": "৫ কি.মি. পশ্চিম"
+        },
+        {
+          "en": "7 km west",
+          "as": "৭ কি.মি. পশ্চিম"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The 4 km north and 4 km south cancel out, leaving only the 3 km westward movement, so he is 3 km west of the start.",
+        "as": "৪ কি.মি. উত্তৰ আৰু ৪ কি.মি. দক্ষিণ কটাকটি যায়; কেৱল ৩ কি.মি. পশ্চিম দিশ থাকে; সেয়ে তেওঁ আৰম্ভণিৰ পৰা ৩ কি.মি. পশ্চিমত।"
+      }
+    },
+    {
+      "q": {
+        "en": "How many meaningful English words can be formed with the letters T, O, N using each letter once?",
+        "as": "T, O, N আখৰ প্ৰত্যেক এবাৰ ব্যৱহাৰ কৰি কেইটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন হয়?"
+      },
+      "options": [
+        {
+          "en": "One",
+          "as": "এটা"
+        },
+        {
+          "en": "Two",
+          "as": "দুটা"
+        },
+        {
+          "en": "Three",
+          "as": "তিনিটা"
+        },
+        {
+          "en": "None",
+          "as": "এটাও নহয়"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Using T, O and N once each, the words NOT and TON can be formed, i.e. two words.",
+        "as": "T, O, N প্ৰত্যেক এবাৰ ব্যৱহাৰ কৰি NOT আৰু TON — এই দুটা অৰ্থপূৰ্ণ শব্দ গঠন হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Doctor is to Stethoscope as Carpenter is to?",
+        "as": "চিকিৎসকৰ লগত ষ্টেথোস্কোপ যেনে, কাঠমিস্ত্ৰীৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Nail",
+          "as": "কাঁইট"
+        },
+        {
+          "en": "Hammer",
+          "as": "হাতুৰী"
+        },
+        {
+          "en": "Wood",
+          "as": "কাঠ"
+        },
+        {
+          "en": "Bench",
+          "as": "বেঞ্চ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A stethoscope is the tool of a doctor and a hammer is the tool of a carpenter, so the answer is Hammer.",
+        "as": "ষ্টেথোস্কোপ চিকিৎসকৰ সঁজুলি আৰু হাতুৰী কাঠমিস্ত্ৰীৰ সঁজুলি; সেয়ে উত্তৰ 'হাতুৰী'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the next number: 6, 11, 21, 41, ?",
+        "as": "পৰৱৰ্তী সংখ্যা বাছক: ৬, ১১, ২১, ৪১, ?"
+      },
+      "options": [
+        {
+          "en": "61",
+          "as": "৬১"
+        },
+        {
+          "en": "71",
+          "as": "৭১"
+        },
+        {
+          "en": "81",
+          "as": "৮১"
+        },
+        {
+          "en": "91",
+          "as": "৯১"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Each term is obtained by doubling the previous term and subtracting 1 (6x2-1=11, 11x2-1=21, 21x2-1=41), so the next term is 41x2-1 = 81.",
+        "as": "প্ৰতিটো পদ আগৰটোৰ দুগুণৰ পৰা ১ বিয়োগ কৰি পোৱা যায় (৬x২-১=১১, ১১x২-১=২১, ২১x২-১=৪১); সেয়ে পৰৱৰ্তী পদ ৪১x২-১ = ৮১।"
+      }
+    },
+    {
+      "q": {
+        "en": "My mother's brother is my?",
+        "as": "মোৰ মাকৰ ভাই মোৰ কি?"
+      },
+      "options": [
         {
           "en": "Father",
           "as": "পিতৃ"
@@ -22,14 +569,163 @@
           "as": "ভাই"
         },
         {
-          "en": "Grandfather",
-          "as": "ককা"
+          "en": "Uncle",
+          "as": "মামা"
+        },
+        {
+          "en": "Cousin",
+          "as": "খুৰাত ভাই"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The brother of one's mother is one's maternal uncle (mama), so the answer is Uncle.",
+        "as": "মাকৰ ভাই হৈছে মামা; সেয়ে উত্তৰ 'মামা'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one: Mercury, Venus, Earth, Sun",
+        "as": "বেলেগটো বাছক: বুধ, শুক্ৰ, পৃথিৱী, সূৰ্য"
+      },
+      "options": [
+        {
+          "en": "Mercury",
+          "as": "বুধ"
+        },
+        {
+          "en": "Venus",
+          "as": "শুক্ৰ"
+        },
+        {
+          "en": "Earth",
+          "as": "পৃথিৱী"
+        },
+        {
+          "en": "Sun",
+          "as": "সূৰ্য"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Mercury, Venus and Earth are planets, while the Sun is a star, so Sun is the odd one.",
+        "as": "বুধ, শুক্ৰ আৰু পৃথিৱী গ্ৰহ, কিন্তু সূৰ্য তৰা; সেয়ে সূৰ্য বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "All pencils are instruments. All instruments are useful. Which conclusion follows?",
+        "as": "সকলো পেঞ্চিল সঁজুলি। সকলো সঁজুলি উপযোগী। কোনটো সিদ্ধান্ত সত্য?"
+      },
+      "options": [
+        {
+          "en": "All pencils are useful",
+          "as": "সকলো পেঞ্চিল উপযোগী"
+        },
+        {
+          "en": "Some pencils are not useful",
+          "as": "কিছুমান পেঞ্চিল উপযোগী নহয়"
+        },
+        {
+          "en": "No pencil is an instrument",
+          "as": "কোনো পেঞ্চিল সঁজুলি নহয়"
+        },
+        {
+          "en": "None of these",
+          "as": "ইয়াৰ কোনোটো নহয়"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "Q is R's mother and P is Q's brother, so P is the brother of R's mother, that is, R's maternal uncle.",
-        "as": "Q হৈছে Rৰ মাক আৰু P হৈছে Qৰ ভাই; সেয়ে P হৈছে Rৰ মাকৰ ভাই, অৰ্থাৎ Rৰ মামা।"
+        "en": "All pencils are instruments and all instruments are useful, so all pencils are useful.",
+        "as": "সকলো পেঞ্চিল সঁজুলি আৰু সকলো সঁজুলি উপযোগী; সেয়ে সকলো পেঞ্চিল উপযোগী।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a row of 30 students, P is 14th from the right. What is his position from the left?",
+        "as": "৩০ জন ছাত্ৰৰ শাৰীত P সোঁফালৰ পৰা ১৪ নম্বৰ। বাওঁফালৰ পৰা তেওঁৰ স্থান কিমান?"
+      },
+      "options": [
+        {
+          "en": "16th",
+          "as": "১৬ নম্বৰ"
+        },
+        {
+          "en": "17th",
+          "as": "১৭ নম্বৰ"
+        },
+        {
+          "en": "18th",
+          "as": "১৮ নম্বৰ"
+        },
+        {
+          "en": "15th",
+          "as": "১৫ নম্বৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Position from the left = total - position from the right + 1 = 30 - 14 + 1 = 17th.",
+        "as": "বাওঁফালৰ পৰা স্থান = মুঠ - সোঁফালৰ স্থান + ১ = ৩০ - ১৪ + ১ = ১৭ নম্বৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "A man walks 2 km east, turns left and walks 2 km, then turns left again and walks 2 km. Where is he from the starting point?",
+        "as": "এজন মানুহে ২ কি.মি. পূবে খোজে, বাওঁফালে ঘূৰি ২ কি.মি. খোজে, পুনৰ বাওঁফালে ঘূৰি ২ কি.মি. খোজে। তেওঁ আৰম্ভণিৰ পৰা ক'ত?"
+      },
+      "options": [
+        {
+          "en": "2 km east",
+          "as": "২ কি.মি. পূব"
+        },
+        {
+          "en": "2 km north",
+          "as": "২ কি.মি. উত্তৰ"
+        },
+        {
+          "en": "2 km west",
+          "as": "২ কি.মি. পশ্চিম"
+        },
+        {
+          "en": "2 km south",
+          "as": "২ কি.মি. দক্ষিণ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "He goes 2 km east, then 2 km north, then 2 km west; the east and west movements cancel, leaving him 2 km north of the start.",
+        "as": "তেওঁ ২ কি.মি. পূব, তাৰ পিছত ২ কি.মি. উত্তৰ, তাৰ পিছত ২ কি.মি. পশ্চিম যায়; পূব-পশ্চিম কটাকটি যায়; সেয়ে আৰম্ভণিৰ পৰা ২ কি.মি. উত্তৰত থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Water is to Liquid as Stone is to?",
+        "as": "পানীৰ লগত তৰল যেনে, শিলৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Solid",
+          "as": "কঠিন"
+        },
+        {
+          "en": "Hard",
+          "as": "টান"
+        },
+        {
+          "en": "Heavy",
+          "as": "গধুৰ"
+        },
+        {
+          "en": "Rock",
+          "as": "শিল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Water is a liquid and stone is a solid, so the state-of-matter relation gives Solid.",
+        "as": "পানী তৰল পদাৰ্থ আৰু শিল কঠিন পদাৰ্থ; সেয়ে পদাৰ্থ-অৱস্থাৰ সম্পৰ্কমতে উত্তৰ 'কঠিন'।"
       }
     }
   ]
