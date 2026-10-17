@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "Which of the following is an input device?",
-        "as": "তলৰ কোনটো ইনপুট যন্ত্ৰ?"
+        "en": "Which generation of computers used vacuum tubes?",
+        "as": "কোন প্ৰজন্মৰ কম্পিউটাৰে ভেকুৱাম টিউব ব্যৱহাৰ কৰিছিল?"
       },
       "options": [
         {
-          "en": "Monitor",
-          "as": "মনিটৰ"
+          "en": "First generation",
+          "as": "প্ৰথম প্ৰজন্ম"
         },
         {
-          "en": "Printer",
-          "as": "প্ৰিণ্টাৰ"
+          "en": "Second generation",
+          "as": "দ্বিতীয় প্ৰজন্ম"
         },
         {
-          "en": "Keyboard",
-          "as": "কীব'ৰ্ড"
+          "en": "Third generation",
+          "as": "তৃতীয় প্ৰজন্ম"
         },
         {
-          "en": "Speaker",
-          "as": "স্পীকাৰ"
+          "en": "Fourth generation",
+          "as": "চতুৰ্থ প্ৰজন্ম"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "First generation computers used vacuum tubes as their main electronic component.",
+        "as": "প্ৰথম প্ৰজন্মৰ কম্পিউটাৰে মূল ইলেক্ট্ৰনিক অংশ হিচাপে ভেকুৱাম টিউব ব্যৱহাৰ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which generation of computers used integrated circuits?",
+        "as": "কোন প্ৰজন্মৰ কম্পিউটাৰে ইন্টিগ্ৰেটেড চাৰ্কিট ব্যৱহাৰ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "First generation",
+          "as": "প্ৰথম প্ৰজন্ম"
+        },
+        {
+          "en": "Second generation",
+          "as": "দ্বিতীয় প্ৰজন্ম"
+        },
+        {
+          "en": "Third generation",
+          "as": "তৃতীয় প্ৰজন্ম"
+        },
+        {
+          "en": "Fourth generation",
+          "as": "চতুৰ্থ প্ৰজন্ম"
         }
       ],
       "correct": 2,
       "explanation": {
-        "en": "A keyboard is used to enter data into a computer, so it is an input device.",
-        "as": "কীব'ৰ্ডে কম্পিউটাৰত তথ্য সুমুৱাবলৈ ব্যৱহাৰ হয়; সেয়ে ই এটা ইনপুট যন্ত্ৰ।"
+        "en": "Third generation computers used integrated circuits (ICs) instead of transistors.",
+        "as": "তৃতীয় প্ৰজন্মৰ কম্পিউটাৰে ট্ৰান্সিষ্টৰৰ সলনি ইন্টিগ্ৰেটেড চাৰ্কিট (IC) ব্যৱহাৰ কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is the fastest type of computer?",
+        "as": "তলৰ কোনটো আটাইতকৈ দ্ৰুত ধৰণৰ কম্পিউটাৰ?"
+      },
+      "options": [
+        {
+          "en": "Mainframe computer",
+          "as": "মেইনফ্ৰেম কম্পিউটাৰ"
+        },
+        {
+          "en": "Supercomputer",
+          "as": "ছুপাৰ কম্পিউটাৰ"
+        },
+        {
+          "en": "Microcomputer",
+          "as": "মাইক্ৰ’ কম্পিউটাৰ"
+        },
+        {
+          "en": "Minicomputer",
+          "as": "মিনি কম্পিউটাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A supercomputer is the fastest and most powerful type of computer, used for complex calculations.",
+        "as": "ছুপাৰ কম্পিউটাৰ আটাইতকৈ দ্ৰুত আৰু শক্তিশালী কম্পিউটাৰ, যি জটিল গণনাৰ বাবে ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of ENIAC is?",
+        "as": "ENIAC-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Electronic Numerical Integrator and Calculator",
+          "as": "ইলেক্ট্ৰনিক নামেৰিকেল ইন্টিগ্ৰেটৰ এণ্ড কেলকুলেটৰ"
+        },
+        {
+          "en": "Electronic Number Integrator and Computer",
+          "as": "ইলেক্ট্ৰনিক নাম্বাৰ ইন্টিগ্ৰেটৰ এণ্ড কম্পিউটাৰ"
+        },
+        {
+          "en": "Electric Numerical Integrator and Computer",
+          "as": "ইলেক্ট্ৰিক নামেৰিকেল ইন্টিগ্ৰেটৰ এণ্ড কম্পিউটাৰ"
+        },
+        {
+          "en": "Electronic Numerical Integrator and Computer",
+          "as": "ইলেক্ট্ৰনিক নামেৰিকেল ইন্টিগ্ৰেটৰ এণ্ড কম্পিউটাৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "ENIAC stands for Electronic Numerical Integrator and Computer, an early electronic computer.",
+        "as": "ENIAC ৰ সম্পূৰ্ণ ৰূপ Electronic Numerical Integrator and Computer; ই প্ৰাৰম্ভিক ইলেক্ট্ৰনিক কম্পিউটাৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is an example of a supercomputer?",
+        "as": "তলৰ কোনটো ছুপাৰ কম্পিউটাৰৰ উদাহৰণ?"
+      },
+      "options": [
+        {
+          "en": "PARAM",
+          "as": "PARAM"
+        },
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "Android",
+          "as": "Android"
+        },
+        {
+          "en": "Google Chrome",
+          "as": "Google Chrome"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "PARAM is an Indian supercomputer developed by C-DAC.",
+        "as": "PARAM ভাৰতীয় ছুপাৰ কম্পিউটাৰ, যি C-DAC য়ে বিকশিত কৰিছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of IBM is?",
+        "as": "IBM-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "International Business System",
+          "as": "ইণ্টাৰনেশ্যনেল বিজনেছ চিষ্টেম"
+        },
+        {
+          "en": "Integrated Business Machines",
+          "as": "ইণ্টিগ্ৰেটেড বিজনেছ মেচিনছ"
+        },
+        {
+          "en": "International Business Machines",
+          "as": "ইণ্টাৰনেশ্যনেল বিজনেছ মেচিনছ"
+        },
+        {
+          "en": "International Basic Machines",
+          "as": "ইণ্টাৰনেশ্যনেল বেচিক মেচিনছ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "IBM stands for International Business Machines, a well-known computer company.",
+        "as": "IBM ৰ সম্পূৰ্ণ ৰূপ International Business Machines; ই এটা প্ৰসিদ্ধ কম্পিউটাৰ কোম্পানী।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a read-only primary memory?",
+        "as": "তলৰ কোনটো কেৱল পঢ়িব পৰা প্ৰাথমিক স্মৃতি?"
+      },
+      "options": [
+        {
+          "en": "RAM",
+          "as": "RAM"
+        },
+        {
+          "en": "Cache",
+          "as": "কেশ্ব"
+        },
+        {
+          "en": "Register",
+          "as": "ৰেজিষ্টাৰ"
+        },
+        {
+          "en": "ROM",
+          "as": "ROM"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "ROM is read-only memory, so its contents can normally be read but not changed.",
+        "as": "ROM কেৱল পঢ়িব পৰা স্মৃতি; সাধাৰণতে ইয়াৰ তথ্য পঢ়িব পাৰি, সলনি কৰিব নোৱাৰি।"
+      }
+    },
+    {
+      "q": {
+        "en": "1 TB is equal to?",
+        "as": "১ TB কিমানৰ সমান?"
+      },
+      "options": [
+        {
+          "en": "1000 GB",
+          "as": "১০০০ GB"
+        },
+        {
+          "en": "1024 GB",
+          "as": "১০২৪ GB"
+        },
+        {
+          "en": "512 GB",
+          "as": "৫১২ GB"
+        },
+        {
+          "en": "2048 GB",
+          "as": "২০৪৮ GB"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "1 TB (terabyte) is equal to 1024 GB (gigabytes).",
+        "as": "১ TB (টাৰাবাইট) = ১০২৪ GB (গিগাবাইট)।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of SSD is?",
+        "as": "SSD-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Solid State Drive",
+          "as": "ছ’লিড ষ্টেট ড্ৰাইভ"
+        },
+        {
+          "en": "Solid Storage Disk",
+          "as": "ছ’লিড ষ্ট’ৰেজ ডিস্ক"
+        },
+        {
+          "en": "Secure State Drive",
+          "as": "ছিকিউৰ ষ্টেট ড্ৰাইভ"
+        },
+        {
+          "en": "Solid System Disk",
+          "as": "ছ’লিড চিষ্টেম ডিস্ক"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "SSD stands for Solid State Drive, a storage device with no moving parts.",
+        "as": "SSD ৰ সম্পূৰ্ণ ৰূপ Solid State Drive; ই চলনশীল অংশ নথকা সংৰক্ষণ সঁজুলি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is not a secondary storage device?",
+        "as": "তলৰ কোনটো গৌণ সংৰক্ষণ সঁজুলি নহয়?"
+      },
+      "options": [
+        {
+          "en": "Hard disk",
+          "as": "হাৰ্ড ডিস্ক"
+        },
+        {
+          "en": "DVD",
+          "as": "DVD"
+        },
+        {
+          "en": "RAM",
+          "as": "RAM"
+        },
+        {
+          "en": "Pen drive",
+          "as": "পেন ড্ৰাইভ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "RAM is primary memory, not secondary storage.",
+        "as": "RAM প্ৰাথমিক স্মৃতি, গৌণ সংৰক্ষণ নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is an optical storage device?",
+        "as": "তলৰ কোনটো অপটিকেল সংৰক্ষণ সঁজুলি?"
+      },
+      "options": [
+        {
+          "en": "Hard disk",
+          "as": "হাৰ্ড ডিস্ক"
+        },
+        {
+          "en": "CD",
+          "as": "CD"
+        },
+        {
+          "en": "Pen drive",
+          "as": "পেন ড্ৰাইভ"
+        },
+        {
+          "en": "SSD",
+          "as": "SSD"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A CD is an optical storage device that stores data and is read using a laser.",
+        "as": "CD এটা অপটিকেল সংৰক্ষণ সঁজুলি, যি লেজাৰৰ সহায়ত তথ্য পঢ়া হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a magnetic storage device?",
+        "as": "তলৰ কোনটো চুম্বকীয় সংৰক্ষণ সঁজুলি?"
+      },
+      "options": [
+        {
+          "en": "CD",
+          "as": "CD"
+        },
+        {
+          "en": "DVD",
+          "as": "DVD"
+        },
+        {
+          "en": "Pen drive",
+          "as": "পেন ড্ৰাইভ"
+        },
+        {
+          "en": "Hard disk",
+          "as": "হাৰ্ড ডিস্ক"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A hard disk is a magnetic storage device that stores data on magnetic platters.",
+        "as": "হাৰ্ড ডিস্ক চুম্বকীয় সংৰক্ষণ সঁজুলি, যি চুম্বকীয় প্লেটাৰত তথ্য সংৰক্ষণ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of CMOS is?",
+        "as": "CMOS-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Complementary Metal Oxide Semiconductor",
+          "as": "কম্প্লিমেণ্টেৰী মেটাল অক্সাইড ছেমিকণ্ডাক্টৰ"
+        },
+        {
+          "en": "Computer Metal Oxide Semiconductor",
+          "as": "কম্পিউটাৰ মেটাল অক্সাইড ছেমিকণ্ডাক্টৰ"
+        },
+        {
+          "en": "Complementary Memory Oxide Semiconductor",
+          "as": "কম্প্লিমেণ্টেৰী মেমেৰী অক্সাইড ছেমিকণ্ডাক্টৰ"
+        },
+        {
+          "en": "Common Metal Oxide Semiconductor",
+          "as": "কমন মেটাল অক্সাইড ছেমিকণ্ডাক্টৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "CMOS stands for Complementary Metal Oxide Semiconductor, used to store BIOS settings.",
+        "as": "CMOS ৰ সম্পূৰ্ণ ৰূপ Complementary Metal Oxide Semiconductor, যি BIOS ৰ ছেটিং সংৰক্ষণ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of POST is?",
+        "as": "POST-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Power On System Test",
+          "as": "পাৱাৰ অন চিষ্টেম টেষ্ট"
+        },
+        {
+          "en": "Post On Self Test",
+          "as": "প’ষ্ট অন ছেল্ফ টেষ্ট"
+        },
+        {
+          "en": "Power On Self Test",
+          "as": "পাৱাৰ অন ছেল্ফ টেষ্ট"
+        },
+        {
+          "en": "Power Off Self Test",
+          "as": "পাৱাৰ অফ ছেল্ফ টেষ্ট"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "POST stands for Power On Self Test, which checks hardware when the computer starts.",
+        "as": "POST ৰ সম্পূৰ্ণ ৰূপ Power On Self Test, যি কম্পিউটাৰ আৰম্ভ হ'লে হাৰ্ডৱেৰ পৰীক্ষা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of CLI is?",
+        "as": "CLI-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Graphical Line Interface",
+          "as": "গ্ৰাফিকেল লাইন ইন্টাৰফেচ"
+        },
+        {
+          "en": "Command Line Interface",
+          "as": "কমাণ্ড লাইন ইন্টাৰফেচ"
+        },
+        {
+          "en": "Command Link Interface",
+          "as": "কমাণ্ড লিংক ইন্টাৰফেচ"
+        },
+        {
+          "en": "Common Line Interface",
+          "as": "কমন লাইন ইন্টাৰফেচ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "CLI stands for Command Line Interface, where commands are typed instead of using icons.",
+        "as": "CLI ৰ সম্পূৰ্ণ ৰূপ Command Line Interface; ইয়াত আইকনৰ সলনি কমাণ্ড টাইপ কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of MAN is?",
+        "as": "MAN-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Metropolitan Access Network",
+          "as": "মেট্ৰ’পলিটান এক্সেছ নেটৱৰ্ক"
+        },
+        {
+          "en": "Metro Area Network",
+          "as": "মেট্ৰ’ এৰিয়া নেটৱৰ্ক"
+        },
+        {
+          "en": "Metropolitan Area Node",
+          "as": "মেট্ৰ’পলিটান এৰিয়া নোড"
+        },
+        {
+          "en": "Metropolitan Area Network",
+          "as": "মেট্ৰ’পলিটান এৰিয়া নেটৱৰ্ক"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "MAN stands for Metropolitan Area Network, which covers a city or a large town.",
+        "as": "MAN ৰ সম্পূৰ্ণ ৰূপ Metropolitan Area Network; ই এটা চহৰ বা ডাঙৰ নগৰ সামৰি লয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of ISP is?",
+        "as": "ISP-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Internet Service Provider",
+          "as": "ইণ্টাৰনেট চাৰ্ভিছ প্ৰ’ভাইডাৰ"
+        },
+        {
+          "en": "Internet System Provider",
+          "as": "ইণ্টাৰনেট চিষ্টেম প্ৰ’ভাইডাৰ"
+        },
+        {
+          "en": "Internal Service Provider",
+          "as": "ইণ্টাৰনেল চাৰ্ভিছ প্ৰ’ভাইডাৰ"
+        },
+        {
+          "en": "Internet Service Program",
+          "as": "ইণ্টাৰনেট চাৰ্ভিছ প্ৰগ্ৰাম"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "ISP stands for Internet Service Provider, a company that provides internet access.",
+        "as": "ISP ৰ সম্পূৰ্ণ ৰূপ Internet Service Provider; ই ইন্টাৰনেট সেৱা যোগান ধৰা কোম্পানী।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of VPN is?",
+        "as": "VPN-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Virtual Public Network",
+          "as": "ভাৰ্চুৱেল পাব্লিক নেটৱৰ্ক"
+        },
+        {
+          "en": "Visual Private Network",
+          "as": "ভিজুৱেল প্ৰাইভেট নেটৱৰ্ক"
+        },
+        {
+          "en": "Virtual Private Network",
+          "as": "ভাৰ্চুৱেল প্ৰাইভেট নেটৱৰ্ক"
+        },
+        {
+          "en": "Virtual Personal Network",
+          "as": "ভাৰ্চুৱেল পাৰ্ছনেল নেটৱৰ্ক"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "VPN stands for Virtual Private Network, which provides a secure connection over the internet.",
+        "as": "VPN ৰ সম্পূৰ্ণ ৰূপ Virtual Private Network; ই ইন্টাৰনেটত সুৰক্ষিত সংযোগ প্ৰদান কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of IoT is?",
+        "as": "IoT-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Internet of Tools",
+          "as": "ইণ্টাৰনেট অফ টুলছ"
+        },
+        {
+          "en": "Internet of Things",
+          "as": "ইণ্টাৰনেট অফ থিংছ"
+        },
+        {
+          "en": "Integrated of Things",
+          "as": "ইণ্টিগ্ৰেটেড অফ থিংছ"
+        },
+        {
+          "en": "Internet of Technology",
+          "as": "ইণ্টাৰনেট অফ টেকন’লজি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "IoT stands for Internet of Things, the network of physical devices connected to the internet.",
+        "as": "IoT ৰ সম্পূৰ্ণ ৰূপ Internet of Things; ই ইন্টাৰনেটত সংযুক্ত ভৌতিক সঁজুলিৰ নেটৱৰ্ক।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of AI is?",
+        "as": "AI-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Artificial Intelligence",
+          "as": "আৰ্টিফিচিয়েল ইন্টেলিজেন্স"
+        },
+        {
+          "en": "Automatic Intelligence",
+          "as": "অট’মেটিক ইন্টেলিজেন্স"
+        },
+        {
+          "en": "Advanced Intelligence",
+          "as": "এডভান্সড ইন্টেলিজেন্স"
+        },
+        {
+          "en": "Artificial Information",
+          "as": "আৰ্টিফিচিয়েল ইনফৰ্মেশ্যন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "AI stands for Artificial Intelligence, which enables machines to perform tasks that need human intelligence.",
+        "as": "AI ৰ সম্পূৰ্ণ ৰূপ Artificial Intelligence; ই মেচিনক মানৱ বুদ্ধিমত্তাৰ প্ৰয়োজনীয় কাৰ্য কৰিবলৈ সক্ষম কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of OCR is?",
+        "as": "OCR-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Optical Code Recognition",
+          "as": "অপটিকেল কোড ৰিকগনিশ্যন"
+        },
+        {
+          "en": "Optical Character Reader",
+          "as": "অপটিকেল কেৰেক্টৰ ৰিডাৰ"
+        },
+        {
+          "en": "Optical Character Reading",
+          "as": "অপটিকেল কেৰেক্টৰ ৰিডিং"
+        },
+        {
+          "en": "Optical Character Recognition",
+          "as": "অপটিকেল কেৰেক্টৰ ৰিকগনিশ্যন"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "OCR stands for Optical Character Recognition, used to convert printed text into digital text.",
+        "as": "OCR ৰ সম্পূৰ্ণ ৰূপ Optical Character Recognition, যি ছপা লিখাক ডিজিটেল লিখালৈ ৰূপান্তৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of OMR is?",
+        "as": "OMR-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Optical Machine Recognition",
+          "as": "অপটিকেল মেচিন ৰিকগনিশ্যন"
+        },
+        {
+          "en": "Optical Mark Reader",
+          "as": "অপটিকেল মাৰ্ক ৰিডাৰ"
+        },
+        {
+          "en": "Optical Mark Recognition",
+          "as": "অপটিকেল মাৰ্ক ৰিকগনিশ্যন"
+        },
+        {
+          "en": "Optical Mark Reading",
+          "as": "অপটিকেল মাৰ্ক ৰিডিং"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "OMR stands for Optical Mark Recognition, used to read marked answers on OMR sheets.",
+        "as": "OMR ৰ সম্পূৰ্ণ ৰূপ Optical Mark Recognition, যি OMR শ্বীটত দিয়া উত্তৰ পঢ়িবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of MICR is?",
+        "as": "MICR-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Magnetic Ink Character Recognition",
+          "as": "মেগনেটিক ইঙ্ক কেৰেক্টৰ ৰিকগনিশ্যন"
+        },
+        {
+          "en": "Magnetic Ink Code Reader",
+          "as": "মেগনেটিক ইঙ্ক কোড ৰিডাৰ"
+        },
+        {
+          "en": "Magnetic Image Character Recognition",
+          "as": "মেগনেটিক ইমেজ কেৰেক্টৰ ৰিকগনিশ্যন"
+        },
+        {
+          "en": "Machine Ink Character Recognition",
+          "as": "মেচিন ইঙ্ক কেৰেক্টৰ ৰিকগনিশ্যন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "MICR stands for Magnetic Ink Character Recognition, used mainly in banks for cheque processing.",
+        "as": "MICR ৰ সম্পূৰ্ণ ৰূপ Magnetic Ink Character Recognition, যি মূলতঃ বেংকত চেক প্ৰক্ৰিয়াৰ বাবে ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of LCD is?",
+        "as": "LCD-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Liquid Crystal Device",
+          "as": "লিকুইড ক্ৰিষ্টাল ডিভাইচ"
+        },
+        {
+          "en": "Light Crystal Display",
+          "as": "লাইট ক্ৰিষ্টাল ডিস্প্লে"
+        },
+        {
+          "en": "Liquid Colour Display",
+          "as": "লিকুইড কালাৰ ডিস্প্লে"
+        },
+        {
+          "en": "Liquid Crystal Display",
+          "as": "লিকুইড ক্ৰিষ্টাল ডিস্প্লে"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "LCD stands for Liquid Crystal Display, a flat display technology used in monitors and screens.",
+        "as": "LCD ৰ সম্পূৰ্ণ ৰূপ Liquid Crystal Display; ই মনিটৰ আৰু স্ক্ৰীনত ব্যৱহৃত সমতল ডিস্প্লে প্ৰযুক্তি।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of LED is?",
+        "as": "LED-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Light Emitting Device",
+          "as": "লাইট এমিটিং ডিভাইচ"
+        },
+        {
+          "en": "Light Emitting Diode",
+          "as": "লাইট এমিটিং ডায়’ড"
+        },
+        {
+          "en": "Light Energy Diode",
+          "as": "লাইট এনাৰ্জী ডায়’ড"
+        },
+        {
+          "en": "Low Emitting Diode",
+          "as": "লো এমিটিং ডায়’ড"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "LED stands for Light Emitting Diode, a semiconductor device that produces light.",
+        "as": "LED ৰ সম্পূৰ্ণ ৰূপ Light Emitting Diode; ই পোহৰ উৎপন্ন কৰা ছেমিকণ্ডাক্টৰ সঁজুলি।"
       }
     }
   ]
