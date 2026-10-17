@@ -1,35 +1,731 @@
 {
   "setNumber": 7,
   "title": "Set 7",
-  "subject": "Critical & Analytical",
+  "subject": "Analytical & Critical Reasoning",
   "questions": [
     {
       "q": {
-        "en": "Statement: 'Use public transport to reduce traffic congestion.' Which assumption is implicit?",
-        "as": "বক্তব্য: 'যান-জঁট কমাবলৈ ৰাজহুৱা পৰিবহণ ব্যৱহাৰ কৰক।' কোনটো নিহিত ধাৰণা স্পষ্ট?"
+        "en": "If CAT is coded as DBU, how is DOG coded?",
+        "as": "যদি CAT ক DBU হিচাপে সংকেত কৰা হয়, তেন্তে DOG ক কেনেকৈ সংকেত কৰা হ'ব?"
       },
       "options": [
         {
-          "en": "Public transport can help reduce traffic congestion",
-          "as": "ৰাজহুৱা পৰিবহণে যান-জঁট কমাবলৈ সহায় কৰিব পাৰে"
+          "en": "EPG",
+          "as": "EPG"
         },
         {
-          "en": "Private vehicles are cheaper",
-          "as": "ব্যক্তিগত যান সস্তা"
+          "en": "FPI",
+          "as": "FPI"
         },
         {
-          "en": "Public transport is always empty",
-          "as": "ৰাজহুৱা পৰিবহণ সদায় খালী থাকে"
+          "en": "EPH",
+          "as": "EPH"
         },
         {
-          "en": "Traffic congestion cannot be reduced",
-          "as": "যান-জঁট কমাব নোৱাৰি"
+          "en": "DPH",
+          "as": "DPH"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Each letter moves one step forward: D→E, O→P, G→H, so the code is EPH.",
+        "as": "প্ৰতিটো আখৰ এটা স্থান আগলৈ যায়: D→E, O→P, G→H, সেয়ে সংকেত EPH।"
+      }
+    },
+    {
+      "q": {
+        "en": "If SUN is coded as TVO, how is MOON coded?",
+        "as": "যদি SUN ক TVO হিচাপে সংকেত কৰা হয়, তেন্তে MOON ক কেনেকৈ সংকেত কৰা হ'ব?"
+      },
+      "options": [
+        {
+          "en": "NPPO",
+          "as": "NPPO"
+        },
+        {
+          "en": "MPPO",
+          "as": "MPPO"
+        },
+        {
+          "en": "NPPN",
+          "as": "NPPN"
+        },
+        {
+          "en": "NOPO",
+          "as": "NOPO"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "The advice to use public transport assumes that doing so will reduce traffic congestion, so the first option is implicit.",
-        "as": "ৰাজহুৱা পৰিবহণ ব্যৱহাৰ কৰাৰ পৰামৰ্শই এই ধাৰণা বহন কৰে যে ইয়াৰ দ্বাৰা যান-জঁট কমিব; সেয়ে প্ৰথমটো বিকল্প নিহিত।"
+        "en": "Each letter is moved one step forward, so M→N, O→P, O→P, N→O gives NPPO.",
+        "as": "প্ৰতিটো আখৰ এটা স্থান আগলৈ যায়, সেয়ে M→N, O→P, O→P, N→O ৰ পৰা NPPO হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "If TABLE is written as UBCMF, how is CHAIR written?",
+        "as": "যদি TABLE ক UBCMF লিখা হয়, তেন্তে CHAIR ক কেনেকৈ লিখা হ'ব?"
+      },
+      "options": [
+        {
+          "en": "EIBJS",
+          "as": "EIBJS"
+        },
+        {
+          "en": "DIBJR",
+          "as": "DIBJR"
+        },
+        {
+          "en": "DIBKS",
+          "as": "DIBKS"
+        },
+        {
+          "en": "DIBJS",
+          "as": "DIBJS"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Each letter is shifted one place forward: C→D, H→I, A→B, I→J, R→S, giving DIBJS.",
+        "as": "প্ৰতিটো আখৰ এটা স্থান আগলৈ যায়: C→D, H→I, A→B, I→J, R→S, সেয়ে DIBJS।"
+      }
+    },
+    {
+      "q": {
+        "en": "If A = 1, B = 2, C = 3 and so on, what is the code for BAD?",
+        "as": "যদি A = 1, B = 2, C = 3 হয়, তেন্তে BAD ৰ সংকেত কি?"
+      },
+      "options": [
+        {
+          "en": "2-1-3",
+          "as": "2-1-3"
+        },
+        {
+          "en": "2-1-4",
+          "as": "2-1-4"
+        },
+        {
+          "en": "2-4-1",
+          "as": "2-4-1"
+        },
+        {
+          "en": "3-1-4",
+          "as": "3-1-4"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "B = 2, A = 1 and D = 4, so BAD is coded as 2-1-4.",
+        "as": "B = 2, A = 1 আৰু D = 4, সেয়ে BAD ৰ সংকেত 2-1-4।"
+      }
+    },
+    {
+      "q": {
+        "en": "If GO = 715, then DO = ?",
+        "as": "যদি GO = 715, তেন্তে DO = ?"
+      },
+      "options": [
+        {
+          "en": "415",
+          "as": "415"
+        },
+        {
+          "en": "715",
+          "as": "715"
+        },
+        {
+          "en": "425",
+          "as": "425"
+        },
+        {
+          "en": "514",
+          "as": "514"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "G = 7 and O = 15, so D = 4 and O = 15 make DO = 415.",
+        "as": "G = 7 আৰু O = 15, সেয়ে D = 4 আৰু O = 15 ৰ পৰা DO = 415।"
+      }
+    },
+    {
+      "q": {
+        "en": "If LATE is written as MBUF, how is EARLY written?",
+        "as": "যদি LATE ক MBUF লিখা হয়, তেন্তে EARLY ক কেনেকৈ লিখা হ'ব?"
+      },
+      "options": [
+        {
+          "en": "FBSNZ",
+          "as": "FBSNZ"
+        },
+        {
+          "en": "GBSMZ",
+          "as": "GBSMZ"
+        },
+        {
+          "en": "FBSMZ",
+          "as": "FBSMZ"
+        },
+        {
+          "en": "FBSLY",
+          "as": "FBSLY"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Every letter is shifted one place forward, so EARLY becomes FBSMZ.",
+        "as": "প্ৰতিটো আখৰ এটা স্থান আগলৈ যায়, সেয়ে EARLY ৰ পৰা FBSMZ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A is B's father and B is C's sister. How is A related to C?",
+        "as": "A, B ৰ পিতৃ আৰু B, C ৰ ভগ্নী। তেন্তে A, C ৰ কি?"
+      },
+      "options": [
+        {
+          "en": "Mother",
+          "as": "মাতৃ"
+        },
+        {
+          "en": "Father",
+          "as": "পিতৃ"
+        },
+        {
+          "en": "Brother",
+          "as": "ভাই"
+        },
+        {
+          "en": "Uncle",
+          "as": "খুৰা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "B and C are sisters, so B's father A is also C's father.",
+        "as": "B আৰু C ভগ্নী, সেয়ে B ৰ পিতৃ A, C ৰো পিতৃ।"
+      }
+    },
+    {
+      "q": {
+        "en": "P is Q's mother and Q is R's sister. How is P related to R?",
+        "as": "P, Q ৰ মাতৃ আৰু Q, R ৰ ভগ্নী। তেন্তে P, R ৰ কি?"
+      },
+      "options": [
+        {
+          "en": "Sister",
+          "as": "ভগ্নী"
+        },
+        {
+          "en": "Aunt",
+          "as": "পেহী"
+        },
+        {
+          "en": "Daughter",
+          "as": "কন্যা"
+        },
+        {
+          "en": "Mother",
+          "as": "মাতৃ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Q and R are siblings, so Q's mother P is also R's mother.",
+        "as": "Q আৰু R সহোদৰ, সেয়ে Q ৰ মাতৃ P, R ৰো মাতৃ।"
+      }
+    },
+    {
+      "q": {
+        "en": "X's father's only son is Y. How is X related to Y if X is a girl?",
+        "as": "X ৰ পিতৃৰ একমাত্ৰ পুত্ৰ Y। X এগৰাকী কন্যা হ'লে X, Y ৰ কি?"
+      },
+      "options": [
+        {
+          "en": "Brother",
+          "as": "ভাই"
+        },
+        {
+          "en": "Sister",
+          "as": "ভগ্নী"
+        },
+        {
+          "en": "Aunt",
+          "as": "পেহী"
+        },
+        {
+          "en": "Mother",
+          "as": "মাতৃ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Y is the only son of X's father, so X is Y's sister.",
+        "as": "Y, X ৰ পিতৃৰ একমাত্ৰ পুত্ৰ, সেয়ে X, Y ৰ ভগ্নী।"
+      }
+    },
+    {
+      "q": {
+        "en": "A is the son of B and B is the daughter of C. How is A related to C?",
+        "as": "A, B ৰ পুত্ৰ আৰু B, C ৰ কন্যা। তেন্তে A, C ৰ কি?"
+      },
+      "options": [
+        {
+          "en": "Nephew",
+          "as": "ভতিজা"
+        },
+        {
+          "en": "Granddaughter",
+          "as": "নাতিনী"
+        },
+        {
+          "en": "Son",
+          "as": "পুত্ৰ"
+        },
+        {
+          "en": "Grandson",
+          "as": "নাতি"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A is the son of C's daughter B, so A is C's grandson.",
+        "as": "A, C ৰ কন্যা B ৰ পুত্ৰ, সেয়ে A, C ৰ নাতি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Pointing to a man, Sita said, 'He is the son of my mother's only daughter.' How is the man related to Sita?",
+        "as": "এজন মানুহলৈ আঙুলিয়াই সীতাৱে ক'লে, 'তেওঁ মোৰ মাতৃৰ একমাত্ৰ কন্যাৰ পুত্ৰ।' মানুহজন সীতাৰ কি?"
+      },
+      "options": [
+        {
+          "en": "Son",
+          "as": "পুত্ৰ"
+        },
+        {
+          "en": "Father",
+          "as": "পিতৃ"
+        },
+        {
+          "en": "Brother",
+          "as": "ভাই"
+        },
+        {
+          "en": "Nephew",
+          "as": "ভতিজা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sita is her mother's only daughter, so the man is Sita's son.",
+        "as": "সীতা তেওঁৰ মাতৃৰ একমাত্ৰ কন্যা, সেয়ে মানুহজন সীতাৰ পুত্ৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "R's sister is M and M's father is F. Who is R's father?",
+        "as": "R ৰ ভগ্নী M আৰু M ৰ পিতৃ F। তেন্তে R ৰ পিতৃ কোন?"
+      },
+      "options": [
+        {
+          "en": "M",
+          "as": "M"
+        },
+        {
+          "en": "Brother",
+          "as": "ভাই"
+        },
+        {
+          "en": "F",
+          "as": "F"
+        },
+        {
+          "en": "Uncle",
+          "as": "খুৰা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "R and M are siblings, so M's father F is also R's father.",
+        "as": "R আৰু M সহোদৰ, সেয়ে M ৰ পিতৃ F, R ৰো পিতৃ।"
+      }
+    },
+    {
+      "q": {
+        "en": "A person facing north turns right. Which direction does he face now?",
+        "as": "উত্তৰমুৱা হৈ থিয় হৈ সোঁফালে ঘূৰিলে কোন দিশত থাকিব?"
+      },
+      "options": [
+        {
+          "en": "South",
+          "as": "দক্ষিণ"
+        },
+        {
+          "en": "West",
+          "as": "পশ্চিম"
+        },
+        {
+          "en": "North",
+          "as": "উত্তৰ"
+        },
+        {
+          "en": "East",
+          "as": "পূৱ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Turning right from north leads to the east.",
+        "as": "উত্তৰৰ পৰা সোঁফালে ঘূৰিলে পূৱ দিশ পোৱা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A man walks 5 km north, then 3 km east, then 5 km south. Where is he from the starting point?",
+        "as": "এজন মানুহে 5 কিমি উত্তৰলৈ, তাৰ পিছত 3 কিমি পূৱলৈ, তাৰ পিছত 5 কিমি দক্ষিণলৈ খোজ কাঢ়িলে। তেওঁ আৰম্ভণিৰ পৰা ক'ত আছে?"
+      },
+      "options": [
+        {
+          "en": "3 km west",
+          "as": "3 কিমি পশ্চিম"
+        },
+        {
+          "en": "3 km east",
+          "as": "3 কিমি পূৱ"
+        },
+        {
+          "en": "8 km east",
+          "as": "8 কিমি পূৱ"
+        },
+        {
+          "en": "5 km north",
+          "as": "5 কিমি উত্তৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The 5 km north and 5 km south cancel out, leaving him 3 km east of the start.",
+        "as": "5 কিমি উত্তৰ আৰু 5 কিমি দক্ষিণ কটাকটি যায়, সেয়ে তেওঁ আৰম্ভণিৰ পৰা 3 কিমি পূৱত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Facing south, a person turns left twice. Which direction is he facing?",
+        "as": "দক্ষিণমুৱা হৈ এজন মানুহে দুবাৰ বাওঁফালে ঘূৰিলে। তেওঁ কোন দিশত মুখ কৰি আছে?"
+      },
+      "options": [
+        {
+          "en": "East",
+          "as": "পূৱ"
+        },
+        {
+          "en": "South",
+          "as": "দক্ষিণ"
+        },
+        {
+          "en": "North",
+          "as": "উত্তৰ"
+        },
+        {
+          "en": "West",
+          "as": "পশ্চিম"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "From south, one left turn gives east and a second left turn gives north.",
+        "as": "দক্ষিণৰ পৰা প্ৰথম বাওঁ ঘূৰণত পূৱ আৰু দ্বিতীয় বাওঁ ঘূৰণত উত্তৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A person facing west turns 90° clockwise. Which direction does he face?",
+        "as": "পশ্চিমমুৱা এজন মানুহে 90° ঘড়ীৰ দিশত ঘূৰিলে। তেওঁ কোন দিশত মুখ কৰি আছে?"
+      },
+      "options": [
+        {
+          "en": "North",
+          "as": "উত্তৰ"
+        },
+        {
+          "en": "East",
+          "as": "পূৱ"
+        },
+        {
+          "en": "South",
+          "as": "দক্ষিণ"
+        },
+        {
+          "en": "West",
+          "as": "পশ্চিম"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A clockwise turn from west points north.",
+        "as": "পশ্চিমৰ পৰা ঘড়ীৰ দিশত ঘূৰিলে উত্তৰ দিশ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A man walks 10 m south, turns left and walks 10 m, then turns left and walks 10 m. Where is he from the start?",
+        "as": "এজন মানুহে 10 মি দক্ষিণলৈ গৈ বাওঁফালে 10 মি, তাৰ পিছত পুনৰ বাওঁফালে 10 মি গ'ল। তেওঁ আৰম্ভণিৰ পৰা ক'ত আছে?"
+      },
+      "options": [
+        {
+          "en": "10 m east",
+          "as": "10 মি পূৱ"
+        },
+        {
+          "en": "10 m west",
+          "as": "10 মি পশ্চিম"
+        },
+        {
+          "en": "10 m north",
+          "as": "10 মি উত্তৰ"
+        },
+        {
+          "en": "10 m south",
+          "as": "10 মি দক্ষিণ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "He goes south 10 m, east 10 m and north 10 m, ending 10 m east of the start.",
+        "as": "তেওঁ 10 মি দক্ষিণ, 10 মি পূৱ আৰু 10 মি উত্তৰ গৈ আৰম্ভণিৰ পৰা 10 মি পূৱত উপনীত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "If north-east becomes north, what does south-east become?",
+        "as": "যদি উত্তৰ-পূৱে উত্তৰ হয়, তেন্তে দক্ষিণ-পূৱে কি হ'ব?"
+      },
+      "options": [
+        {
+          "en": "North",
+          "as": "উত্তৰ"
+        },
+        {
+          "en": "South",
+          "as": "দক্ষিণ"
+        },
+        {
+          "en": "East",
+          "as": "পূৱ"
+        },
+        {
+          "en": "West",
+          "as": "পশ্চিম"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The directions are rotated 45° anticlockwise, so south-east becomes east.",
+        "as": "দিশসমূহ 45° ঘড়ীৰ বিপৰীত দিশত ঘূৰে, সেয়ে দক্ষিণ-পূৱৰ পৰা পূৱ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a row, A is 7th from the left and 5th from the right. How many people are in the row?",
+        "as": "শাৰীত A বাওঁফালৰ পৰা 7ম আৰু সোঁফালৰ পৰা 5ম। শাৰীত মুঠ কিমান জন?"
+      },
+      "options": [
+        {
+          "en": "10",
+          "as": "10"
+        },
+        {
+          "en": "11",
+          "as": "11"
+        },
+        {
+          "en": "12",
+          "as": "12"
+        },
+        {
+          "en": "13",
+          "as": "13"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Total = 7 + 5 − 1 = 11.",
+        "as": "মুঠ = 7 + 5 − 1 = 11।"
+      }
+    },
+    {
+      "q": {
+        "en": "A is the brother of B and B is the sister of C. How is A related to C?",
+        "as": "A, B ৰ ভাই আৰু B, C ৰ ভগ্নী। তেন্তে A, C ৰ কি?"
+      },
+      "options": [
+        {
+          "en": "Uncle",
+          "as": "খুৰা"
+        },
+        {
+          "en": "Sister",
+          "as": "ভগ্নী"
+        },
+        {
+          "en": "Father",
+          "as": "পিতৃ"
+        },
+        {
+          "en": "Brother",
+          "as": "ভাই"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A and B are siblings and B and C are siblings, so A is C's brother.",
+        "as": "A আৰু B সহোদৰ আৰু B আৰু C সহোদৰ, সেয়ে A, C ৰ ভাই।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a queue, 10 people are ahead of Ravi and 15 are behind him. How many people are in the queue?",
+        "as": "এটা শাৰীত ৰবিৰ আগত 10 জন আৰু পিছত 15 জন। মুঠ কিমান জন?"
+      },
+      "options": [
+        {
+          "en": "24",
+          "as": "24"
+        },
+        {
+          "en": "25",
+          "as": "25"
+        },
+        {
+          "en": "26",
+          "as": "26"
+        },
+        {
+          "en": "27",
+          "as": "27"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Total = 10 + 15 + Ravi = 26.",
+        "as": "মুঠ = 10 + 15 + ৰবি = 26।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 5 pens cost Rs. 40, what is the cost of 8 pens?",
+        "as": "5 টা কলমৰ দাম 40 টকা হ'লে 8 টা কলমৰ দাম কিমান?"
+      },
+      "options": [
+        {
+          "en": "Rs. 80",
+          "as": "80 টকা"
+        },
+        {
+          "en": "Rs. 72",
+          "as": "72 টকা"
+        },
+        {
+          "en": "Rs. 56",
+          "as": "56 টকা"
+        },
+        {
+          "en": "Rs. 64",
+          "as": "64 টকা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "One pen costs Rs. 8, so 8 pens cost 8 × 8 = Rs. 64.",
+        "as": "এটা কলমৰ দাম 8 টকা, সেয়ে 8 টা কলমৰ দাম 8 × 8 = 64 টকা।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 3 cats catch 3 mice in 3 minutes, how many cats are needed to catch 9 mice in 9 minutes?",
+        "as": "যদি 3 টা মেকুৰীয়ে 3 মিনিটত 3 টা নিগনি ধৰে, তেন্তে 9 মিনিটত 9 টা নিগনি ধৰিবলৈ কিমান টা মেকুৰী লাগিব?"
+      },
+      "options": [
+        {
+          "en": "3",
+          "as": "3"
+        },
+        {
+          "en": "6",
+          "as": "6"
+        },
+        {
+          "en": "9",
+          "as": "9"
+        },
+        {
+          "en": "12",
+          "as": "12"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Each cat catches 1 mouse in 3 minutes, so 3 cats catch 9 mice in 9 minutes.",
+        "as": "প্ৰতিটো মেকুৰীয়ে 3 মিনিটত 1 টা নিগনি ধৰে, সেয়ে 3 টা মেকুৰীয়ে 9 মিনিটত 9 টা নিগনি ধৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "If today is Monday, what day will it be after 60 days?",
+        "as": "আজি সোমবাৰ হ'লে 60 দিনৰ পিছত কি বাৰ হ'ব?"
+      },
+      "options": [
+        {
+          "en": "Thursday",
+          "as": "বৃহস্পতিবাৰ"
+        },
+        {
+          "en": "Friday",
+          "as": "শুক্ৰবাৰ"
+        },
+        {
+          "en": "Saturday",
+          "as": "শনিবাৰ"
+        },
+        {
+          "en": "Sunday",
+          "as": "দেওবাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "60 ÷ 7 leaves 4; Monday plus 4 days is Friday.",
+        "as": "60 ÷ 7 ৰ ভাগশেষ 4; সোমবাৰৰ পৰা 4 দিন পিছত শুক্ৰবাৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "A father is 4 times as old as his son and their total age is 50. What is the son's age?",
+        "as": "পিতৃৰ বয়স পুত্ৰৰ 4 গুণ আৰু দুয়োৰে বয়সৰ যোগফল 50। পুত্ৰৰ বয়স কিমান?"
+      },
+      "options": [
+        {
+          "en": "8 years",
+          "as": "8 বছৰ"
+        },
+        {
+          "en": "10 years",
+          "as": "10 বছৰ"
+        },
+        {
+          "en": "15 years",
+          "as": "15 বছৰ"
+        },
+        {
+          "en": "12 years",
+          "as": "12 বছৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Let the son's age be x; then 4x + x = 50, so x = 10 years.",
+        "as": "পুত্ৰৰ বয়স x হ'লে 4x + x = 50, সেয়ে x = 10 বছৰ।"
       }
     }
   ]
