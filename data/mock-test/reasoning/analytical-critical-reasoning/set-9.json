@@ -1,35 +1,731 @@
 {
   "setNumber": 9,
   "title": "Set 9",
-  "subject": "Critical & Analytical",
+  "subject": "Analytical & Critical Reasoning",
   "questions": [
     {
       "q": {
-        "en": "Statement: Regular exercise keeps the body healthy. Which conclusion follows?",
-        "as": "বক্তব্য: নিয়মীয়া ব্যায়ামে শৰীৰ সুস্থ ৰাখে। কোনটো সিদ্ধান্ত অনুসৰণ কৰে?"
+        "en": "All roses are flowers. All flowers are plants. Which conclusion follows?",
+        "as": "সকলো গোলাপ ফুল। সকলো ফুল গছ। কোনটো সিদ্ধান্ত অনুসৰণ কৰে?"
       },
       "options": [
         {
-          "en": "Exercise contributes to good health",
-          "as": "ব্যায়ামে সুস্বাস্থ্যত অৰিহণা দিয়ে"
+          "en": "Some plants are not roses",
+          "as": "কিছুমান গছ গোলাপ নহয়"
         },
         {
-          "en": "Only exercise can cure all diseases",
-          "as": "কেৱল ব্যায়ামে সকলো ৰোগ নিৰাময় কৰে"
+          "en": "No rose is a plant",
+          "as": "কোনো গোলাপ গছ নহয়"
         },
         {
-          "en": "People who do not exercise are always ill",
-          "as": "ব্যায়াম নকৰা লোক সদায় অসুস্থ"
+          "en": "All roses are plants",
+          "as": "সকলো গোলাপ গছ"
         },
         {
-          "en": "Rest is harmful for the body",
-          "as": "জিৰণি শৰীৰৰ বাবে ক্ষতিকাৰক"
+          "en": "Some roses are not plants",
+          "as": "কিছুমান গোলাপ গছ নহয়"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "All roses are flowers and all flowers are plants, so all roses are plants.",
+        "as": "সকলো গোলাপ ফুল আৰু সকলো ফুল গছ, সেয়ে সকলো গোলাপ গছ।"
+      }
+    },
+    {
+      "q": {
+        "en": "All cats are animals. Some animals are wild. Which conclusion follows?",
+        "as": "সকলো মেকুৰী প্ৰাণী। কিছুমান প্ৰাণী বনৰীয়া। কোনটো সিদ্ধান্ত অনুসৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        },
+        {
+          "en": "Some cats are wild",
+          "as": "কিছুমান মেকুৰী বনৰীয়া"
+        },
+        {
+          "en": "No cat is wild",
+          "as": "কোনো মেকুৰী বনৰীয়া নহয়"
+        },
+        {
+          "en": "All cats are wild",
+          "as": "সকলো মেকুৰী বনৰীয়া"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "The statement directly supports the idea that exercise contributes to good health; the other options are too extreme.",
-        "as": "বক্তব্যই পোনপটীয়াকৈ কয় যে ব্যায়ামে সুস্বাস্থ্যত অৰিহণা দিয়ে; আন বিকল্পবোৰ অতিশয়োক্তি।"
+        "en": "Some animals being wild does not tell us whether any cat is wild.",
+        "as": "কিছুমান প্ৰাণী বনৰীয়া হোৱাটোৱে মেকুৰী বনৰীয়া হয় নে নহয় নিশ্চিত নকৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Some pens are books. All books are papers. Which conclusion follows?",
+        "as": "কিছুমান কলম কিতাপ। সকলো কিতাপ কাগজ। কোনটো সিদ্ধান্ত অনুসৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "All papers are pens",
+          "as": "সকলো কাগজ কলম"
+        },
+        {
+          "en": "All pens are papers",
+          "as": "সকলো কলম কাগজ"
+        },
+        {
+          "en": "No pen is paper",
+          "as": "কোনো কলম কাগজ নহয়"
+        },
+        {
+          "en": "Some pens are papers",
+          "as": "কিছুমান কলম কাগজ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Some pens are books and all books are papers, so some pens are papers.",
+        "as": "কিছুমান কলম কিতাপ আৰু সকলো কিতাপ কাগজ, সেয়ে কিছুমান কলম কাগজ।"
+      }
+    },
+    {
+      "q": {
+        "en": "No fish is a bird. Some birds are sparrows. Which conclusion follows?",
+        "as": "কোনো মাছ চৰাই নহয়। কিছুমান চৰাই ঘৰচিৰি। কোনটো সিদ্ধান্ত অনুসৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "All sparrows are fish",
+          "as": "সকলো ঘৰচিৰি মাছ"
+        },
+        {
+          "en": "Some sparrows are not fish",
+          "as": "কিছুমান ঘৰচিৰি মাছ নহয়"
+        },
+        {
+          "en": "No sparrow is a bird",
+          "as": "কোনো ঘৰচিৰি চৰাই নহয়"
+        },
+        {
+          "en": "Some fish are sparrows",
+          "as": "কিছুমান মাছ ঘৰচিৰি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Sparrows are birds and no bird is a fish, so those sparrows are not fish.",
+        "as": "ঘৰচিৰি চৰাই আৰু কোনো চৰাই মাছ নহয়, সেয়ে সেই ঘৰচিৰিবোৰ মাছ নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "All doctors are educated. Some educated people are rich. Which conclusion follows?",
+        "as": "সকলো চিকিৎসক শিক্ষিত। কিছুমান শিক্ষিত ব্যক্তি ধনী। কোনটো সিদ্ধান্ত অনুসৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        },
+        {
+          "en": "All doctors are rich",
+          "as": "সকলো চিকিৎসক ধনী"
+        },
+        {
+          "en": "Some doctors are rich",
+          "as": "কিছুমান চিকিৎসক ধনী"
+        },
+        {
+          "en": "No doctor is rich",
+          "as": "কোনো চিকিৎসক ধনী নহয়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The rich educated people may or may not include doctors, so no definite conclusion follows.",
+        "as": "ধনী শিক্ষিত ব্যক্তিসকলৰ মাজত চিকিৎসক থাকিবও পাৰে নাথাকিবও পাৰে, সেয়ে নিশ্চিত সিদ্ধান্ত নাই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Some A are B. All B are C. Which conclusion follows?",
+        "as": "কিছুমান A, B। সকলো B, C। কোনটো সিদ্ধান্ত অনুসৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "All A are C",
+          "as": "সকলো A, C"
+        },
+        {
+          "en": "No A is C",
+          "as": "কোনো A, C নহয়"
+        },
+        {
+          "en": "Some A are C",
+          "as": "কিছুমান A, C"
+        },
+        {
+          "en": "Some C are not A",
+          "as": "কিছুমান C, A নহয়"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The A that are B must also be C, so some A are C.",
+        "as": "যিবোৰ A, B সেইবোৰ Cও, সেয়ে কিছুমান A, C।"
+      }
+    },
+    {
+      "q": {
+        "en": "All mangoes are fruits. No fruit is sour. Which conclusion follows?",
+        "as": "সকলো আম ফল। কোনো ফল টেঙা নহয়। কোনটো সিদ্ধান্ত অনুসৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "All mangoes are sour",
+          "as": "সকলো আম টেঙা"
+        },
+        {
+          "en": "No mango is sour",
+          "as": "কোনো আম টেঙা নহয়"
+        },
+        {
+          "en": "Some mangoes are sour",
+          "as": "কিছুমান আম টেঙা"
+        },
+        {
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Mangoes are fruits and no fruit is sour, so no mango is sour.",
+        "as": "আম ফল আৰু কোনো ফল টেঙা নহয়, সেয়ে কোনো আম টেঙা নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "All students who attend regularly pass. Ravi passed. What can be concluded?",
+        "as": "নিয়মিত উপস্থিত থকা সকলো ছাত্ৰই উত্তীৰ্ণ হয়। ৰবি উত্তীৰ্ণ হ'ল। কি সিদ্ধান্ত কৰিব পাৰি?"
+      },
+      "options": [
+        {
+          "en": "Ravi attended regularly",
+          "as": "ৰবি নিয়মিত উপস্থিত আছিল"
+        },
+        {
+          "en": "Ravi did not attend regularly",
+          "as": "ৰবি নিয়মিত উপস্থিত নাছিল"
+        },
+        {
+          "en": "Nobody else passed",
+          "as": "আন কোনো উত্তীৰ্ণ নহয়"
+        },
+        {
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Passing does not prove regular attendance, because others may also pass.",
+        "as": "উত্তীৰ্ণ হোৱাটোৱে নিয়মিত উপস্থিতি প্ৰমাণ নকৰে, কাৰণ আনেও উত্তীৰ্ণ হ'ব পাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "If it rains, the ground gets wet. The ground is wet. What can be concluded?",
+        "as": "যদি বৰষুণ হয়, মাটি তিতিব। মাটি তিতা আছে। কি সিদ্ধান্ত কৰিব পাৰি?"
+      },
+      "options": [
+        {
+          "en": "It rained",
+          "as": "বৰষুণ হৈছিল"
+        },
+        {
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        },
+        {
+          "en": "It did not rain",
+          "as": "বৰষুণ হোৱা নাই"
+        },
+        {
+          "en": "The ground never dries",
+          "as": "মাটি কেতিয়াও শুকান নহয়"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Wet ground may have another cause, such as a water pipe, so rain cannot be concluded.",
+        "as": "মাটি তিতা হোৱাৰ আন কাৰণো থাকিব পাৰে, যেনে পানীৰ পাইপ, সেয়ে বৰষুণ হৈছিল বুলি নিশ্চিত নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "All good players practise daily. Suresh practises daily. What can be concluded?",
+        "as": "সকলো ভাল খেলুৱৈয়ে প্ৰতিদিনে অনুশীলন কৰে। সুনীল প্ৰতিদিনে অনুশীলন কৰে। কি সিদ্ধান্ত কৰিব পাৰি?"
+      },
+      "options": [
+        {
+          "en": "All who practise are good",
+          "as": "অনুশীলন কৰা সকলোৱে ভাল"
+        },
+        {
+          "en": "Suresh is a good player",
+          "as": "সুনীল ভাল খেলুৱৈ"
+        },
+        {
+          "en": "Suresh is not a good player",
+          "as": "সুনীল ভাল খেলুৱৈ নহয়"
+        },
+        {
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Daily practice is necessary for good players but does not prove that Suresh is one.",
+        "as": "ভাল খেলুৱৈৰ বাবে প্ৰতিদিনৰ অনুশীলন প্ৰয়োজন, কিন্তু ই সুনীল ভাল খেলুৱৈ বুলি প্ৰমাণ নকৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Only graduates can apply for the post. Amit applied. What can be concluded?",
+        "as": "কেৱল স্নাতকসকলে পদটোৰ বাবে আবেদন কৰিব পাৰে। অমিতয়ে আবেদন কৰিলে। কি সিদ্ধান্ত কৰিব পাৰি?"
+      },
+      "options": [
+        {
+          "en": "Amit is a graduate",
+          "as": "অমিত স্নাতক"
+        },
+        {
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        },
+        {
+          "en": "Amit is not a graduate",
+          "as": "অমিত স্নাতক নহয়"
+        },
+        {
+          "en": "Amit may not be a graduate",
+          "as": "অমিত স্নাতক নহবও পাৰে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Since only graduates can apply, Amit's application proves that he is a graduate.",
+        "as": "কেৱল স্নাতকসকলে আবেদন কৰিব পাৰে, সেয়ে অমিতৰ আবেদনে তেওঁ স্নাতক বুলি প্ৰমাণ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "No one who lies is trusted. Ram is trusted. What can be concluded?",
+        "as": "মিছা কোৱা কোনোৱেই বিশ্বাসযোগ্য নহয়। ৰাম বিশ্বাসযোগ্য। কি সিদ্ধান্ত কৰিব পাৰি?"
+      },
+      "options": [
+        {
+          "en": "Ram lies",
+          "as": "ৰামে মিছা কয়"
+        },
+        {
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        },
+        {
+          "en": "Ram does not lie",
+          "as": "ৰামে মিছা নকয়"
+        },
+        {
+          "en": "All liars are trusted",
+          "as": "সকলো মিছলীয়া বিশ্বাসযোগ্য"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A trusted person cannot be a liar, so Ram does not lie.",
+        "as": "বিশ্বাসযোগ্য ব্যক্তি মিছলীয়া হ'ব নোৱাৰে, সেয়ে ৰামে মিছা নকয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "All A are B. No B is C. Which conclusion follows?",
+        "as": "সকলো A, B। কোনো B, C নহয়। কোনটো সিদ্ধান্ত অনুসৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Some C are A",
+          "as": "কিছুমান C, A"
+        },
+        {
+          "en": "Some A are C",
+          "as": "কিছুমান A, C"
+        },
+        {
+          "en": "All A are C",
+          "as": "সকলো A, C"
+        },
+        {
+          "en": "No A is C",
+          "as": "কোনো A, C নহয়"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "All A lie inside B and B has no part in C, so no A is C.",
+        "as": "সকলো A, B ৰ ভিতৰত আৰু B ৰ C ৰ সৈতে সম্পৰ্ক নাই, সেয়ে কোনো A, C নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Some A are B. No B is C. Which conclusion follows?",
+        "as": "কিছুমান A, B। কোনো B, C নহয়। কোনটো সিদ্ধান্ত অনুসৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "No A is C",
+          "as": "কোনো A, C নহয়"
+        },
+        {
+          "en": "Some A are not C",
+          "as": "কিছুমান A, C নহয়"
+        },
+        {
+          "en": "All A are C",
+          "as": "সকলো A, C"
+        },
+        {
+          "en": "Some C are A",
+          "as": "কিছুমান C, A"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The A that are B cannot be C, so some A are not C.",
+        "as": "যিবোৰ A, B সেইবোৰ C নহয়, সেয়ে কিছুমান A, C নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "All engineers are graduates. Some graduates are women. What can be concluded?",
+        "as": "সকলো অভিযন্তা স্নাতক। কিছুমান স্নাতক মহিলা। কি সিদ্ধান্ত কৰিব পাৰি?"
+      },
+      "options": [
+        {
+          "en": "All engineers are women",
+          "as": "সকলো অভিযন্তা মহিলা"
+        },
+        {
+          "en": "Some engineers are women",
+          "as": "কিছুমান অভিযন্তা মহিলা"
+        },
+        {
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        },
+        {
+          "en": "No engineer is a woman",
+          "as": "কোনো অভিযন্তা মহিলা নহয়"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Some graduates being women does not decide whether any engineer is a woman.",
+        "as": "কিছুমান স্নাতক মহিলা হোৱাটোৱে কোনো অভিযন্তা মহিলা হয় নে নহয় নিৰ্ণয় নকৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "If P then Q. Q is false. What follows?",
+        "as": "যদি P, তেন্তে Q। Q অসত্য। কি অনুসৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "P is false",
+          "as": "P অসত্য"
+        },
+        {
+          "en": "Q is true",
+          "as": "Q সত্য"
+        },
+        {
+          "en": "P is true",
+          "as": "P সত্য"
+        },
+        {
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "If P implied Q and Q is false, P must be false (modus tollens).",
+        "as": "P ৰ পৰা Q অনুসৰণ কৰে আৰু Q অসত্য, সেয়ে P অসত্য হ'ব লাগিব।"
+      }
+    },
+    {
+      "q": {
+        "en": "It is either a pen or a pencil. It is not a pen. What is it?",
+        "as": "ই হয় কলম নহয় পেঞ্চিল। ই কলম নহয়। তেন্তে কি?"
+      },
+      "options": [
+        {
+          "en": "Pencil",
+          "as": "পেঞ্চিল"
+        },
+        {
+          "en": "Pen",
+          "as": "কলম"
+        },
+        {
+          "en": "Both",
+          "as": "দুয়োটা"
+        },
+        {
+          "en": "Neither",
+          "as": "এটাও নহয়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "One of the two must be true and it is not a pen, so it is a pencil.",
+        "as": "দুটোৰ এটা সত্য হ'ব লাগিব আৰু কলম নহয়, সেয়ে পেঞ্চিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "All metals conduct electricity. Copper conducts electricity. What can be concluded?",
+        "as": "সকলো ধাতু বিদ্যুৎ পৰিবাহী। তাম বিদ্যুৎ পৰিবাহী। কি সিদ্ধান্ত কৰিব পাৰি?"
+      },
+      "options": [
+        {
+          "en": "Copper is a metal",
+          "as": "তাম ধাতু"
+        },
+        {
+          "en": "Copper is not a metal",
+          "as": "তাম ধাতু নহয়"
+        },
+        {
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        },
+        {
+          "en": "All conductors are metals",
+          "as": "সকলো পৰিবাহী ধাতু"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Copper may conduct without being a metal; the reverse relation is not given.",
+        "as": "তাম ধাতু নোহোৱাকৈও পৰিবাহী হ'ব পাৰে; ওলোটা সম্পৰ্ক দিয়া নাই।"
+      }
+    },
+    {
+      "q": {
+        "en": "Some actors are singers. All singers are dancers. Which conclusion follows?",
+        "as": "কিছুমান অভিনেতা গায়ক। সকলো গায়ক নৰ্তক। কোনটো সিদ্ধান্ত অনুসৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "All actors are dancers",
+          "as": "সকলো অভিনেতা নৰ্তক"
+        },
+        {
+          "en": "Some actors are dancers",
+          "as": "কিছুমান অভিনেতা নৰ্তক"
+        },
+        {
+          "en": "Some dancers are not actors",
+          "as": "কিছুমান নৰ্তক অভিনেতা নহয়"
+        },
+        {
+          "en": "No actor is a dancer",
+          "as": "কোনো অভিনেতা নৰ্তক নহয়"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The actors who are singers are also dancers, so some actors are dancers.",
+        "as": "যিবোৰ অভিনেতা গায়ক সেইবোৰ নৰ্তকও, সেয়ে কিছুমান অভিনেতা নৰ্তক।"
+      }
+    },
+    {
+      "q": {
+        "en": "No teacher is lazy. Some lazy persons are students. Which conclusion follows?",
+        "as": "কোনো শিক্ষক অলস নহয়। কিছুমান অলস ব্যক্তি ছাত্ৰ। কোনটো সিদ্ধান্ত অনুসৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "All students are lazy",
+          "as": "সকলো ছাত্ৰ অলস"
+        },
+        {
+          "en": "No student is a teacher",
+          "as": "কোনো ছাত্ৰ শিক্ষক নহয়"
+        },
+        {
+          "en": "Some teachers are lazy",
+          "as": "কিছুমান শিক্ষক অলস"
+        },
+        {
+          "en": "Some students are not teachers",
+          "as": "কিছুমান ছাত্ৰ শিক্ষক নহয়"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The lazy students cannot be teachers because no teacher is lazy.",
+        "as": "অলস ছাত্ৰসকল শিক্ষক হ'ব নোৱাৰে, কাৰণ কোনো শিক্ষক অলস নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "All birds have wings. Penguins are birds. Which conclusion follows?",
+        "as": "সকলো চৰাইৰ ডেউকা আছে। পেঙ্গুইন চৰাই। কোনটো সিদ্ধান্ত অনুসৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Penguins cannot fly",
+          "as": "পেঙ্গুইনে উৰিব নোৱাৰে"
+        },
+        {
+          "en": "Only penguins have wings",
+          "as": "কেৱল পেঙ্গুইনৰ ডেউকা আছে"
+        },
+        {
+          "en": "Penguins have wings",
+          "as": "পেঙ্গুইনৰ ডেউকা আছে"
+        },
+        {
+          "en": "No bird has wings",
+          "as": "কোনো চৰাইৰ ডেউকা নাই"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "All birds have wings and penguins are birds, so penguins have wings.",
+        "as": "সকলো চৰাইৰ ডেউকা আছে আৰু পেঙ্গুইন চৰাই, সেয়ে পেঙ্গুইনৰ ডেউকা আছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "All squares are rectangles. All rectangles are quadrilaterals. Which conclusion follows?",
+        "as": "সকলো বৰ্গ আয়ত। সকলো আয়ত চতুৰ্ভুজ। কোনটো সিদ্ধান্ত অনুসৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Some squares are not quadrilaterals",
+          "as": "কিছুমান বৰ্গ চতুৰ্ভুজ নহয়"
+        },
+        {
+          "en": "All quadrilaterals are squares",
+          "as": "সকলো চতুৰ্ভুজ বৰ্গ"
+        },
+        {
+          "en": "No square is a quadrilateral",
+          "as": "কোনো বৰ্গ চতুৰ্ভুজ নহয়"
+        },
+        {
+          "en": "All squares are quadrilaterals",
+          "as": "সকলো বৰ্গ চতুৰ্ভুজ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "All squares are rectangles and all rectangles are quadrilaterals, so all squares are quadrilaterals.",
+        "as": "সকলো বৰ্গ আয়ত আৰু সকলো আয়ত চতুৰ্ভুজ, সেয়ে সকলো বৰ্গ চতুৰ্ভুজ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Only if you study, you pass. Ravi passed. What can be concluded?",
+        "as": "কেৱল পঢ়িলেহে উত্তীৰ্ণ হ'ব। ৰবি উত্তীৰ্ণ হ'ল। কি সিদ্ধান্ত কৰিব পাৰি?"
+      },
+      "options": [
+        {
+          "en": "Ravi studied",
+          "as": "ৰবিয়ে পঢ়িছিল"
+        },
+        {
+          "en": "Ravi did not study",
+          "as": "ৰবিয়ে পঢ়া নাই"
+        },
+        {
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        },
+        {
+          "en": "Passing is easy",
+          "as": "উত্তীৰ্ণ হোৱা সহজ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'Only if you study' means passing implies studying, so Ravi studied.",
+        "as": "'কেৱল পঢ়িলেহে' অৰ্থাৎ উত্তীৰ্ণ হ'লে পঢ়িছে, সেয়ে ৰবিয়ে পঢ়িছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "Unless you hurry, you will be late. You were not late. What follows?",
+        "as": "খৰধৰ নকৰিলে দেৰি হ'ব। তুমি দেৰি হোৱা নাই। কি অনুসৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "You were late",
+          "as": "তুমি দেৰি হৈছিলা"
+        },
+        {
+          "en": "You hurried",
+          "as": "তুমি খৰধৰ কৰিছিলা"
+        },
+        {
+          "en": "You did not hurry",
+          "as": "তুমি খৰধৰ কৰা নাই"
+        },
+        {
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Not being late means you avoided the condition of not hurrying, so you hurried.",
+        "as": "দেৰি নোহোৱা অৰ্থাৎ খৰধৰ নকৰা অৱস্থা এৰাই চলিছা, সেয়ে খৰধৰ কৰিছিলা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Some books are novels. No novel is a magazine. Which conclusion follows?",
+        "as": "কিছুমান কিতাপ উপন্যাস। কোনো উপন্যাস আলোচনী নহয়। কোনটো সিদ্ধান্ত অনুসৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "All books are magazines",
+          "as": "সকলো কিতাপ আলোচনী"
+        },
+        {
+          "en": "Some books are not magazines",
+          "as": "কিছুমান কিতাপ আলোচনী নহয়"
+        },
+        {
+          "en": "No book is a magazine",
+          "as": "কোনো কিতাপ আলোচনী নহয়"
+        },
+        {
+          "en": "Some magazines are novels",
+          "as": "কিছুমান আলোচনী উপন্যাস"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The books that are novels cannot be magazines, so some books are not magazines.",
+        "as": "যিবোৰ কিতাপ উপন্যাস সেইবোৰ আলোচনী নহয়, সেয়ে কিছুমান কিতাপ আলোচনী নহয়।"
       }
     }
   ]
