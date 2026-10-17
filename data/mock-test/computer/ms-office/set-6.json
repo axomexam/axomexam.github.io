@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "Ctrl + C is used for?",
-        "as": "Ctrl + C কিৰ বাবে ব্যৱহাৰ হয়?"
+        "en": "What is the default file extension of a Microsoft Word document?",
+        "as": "Microsoft Word ডকুমেণ্টৰ ডিফল্ট ফাইল এক্সটেনশ্যন কি?"
       },
       "options": [
         {
-          "en": "Cut",
-          "as": "কাট"
+          "en": ".docx",
+          "as": ".docx"
         },
         {
-          "en": "Copy",
-          "as": "কপি"
+          "en": ".doc",
+          "as": ".doc"
         },
         {
-          "en": "Paste",
-          "as": "পেষ্ট"
+          "en": ".txt",
+          "as": ".txt"
         },
         {
-          "en": "Undo",
-          "as": "আনডু"
+          "en": ".rtf",
+          "as": ".rtf"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The default extension of a Word document is .docx.",
+        "as": "Word ডকুমেণ্টৰ ডিফল্ট এক্সটেনশ্যন হৈছে .docx।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut selects all the text in a Word document?",
+        "as": "Word ডকুমেণ্টৰ সকলো লিখনী বাছনি কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + A",
+          "as": "Ctrl + A"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
         }
       ],
       "correct": 1,
       "explanation": {
-        "en": "Ctrl + C is the shortcut key used to copy the selected text or object.",
-        "as": "Ctrl + C হৈছে নিৰ্বাচিত লিখা বা বস্তু কপি কৰিবলৈ ব্যৱহৃত চৰ্টকাট কী।"
+        "en": "Ctrl + A selects all the text in a document.",
+        "as": "Ctrl + A য়ে ডকুমেণ্টৰ সকলো লিখনী বাছনি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which feature is used to send the same letter to many people with different names and addresses?",
+        "as": "একে এখন পত্ৰ বহু লোকলৈ বেলেগ নাম আৰু ঠিকনাৰে পঠিয়াবলৈ কোন সুবিধা ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Word Count",
+          "as": "ৱৰ্ড কাউণ্ট"
+        },
+        {
+          "en": "Format Painter",
+          "as": "ফৰ্মেট পেইণ্টাৰ"
+        },
+        {
+          "en": "Mail Merge",
+          "as": "মেইল মাৰ্জ"
+        },
+        {
+          "en": "Track Changes",
+          "as": "ট্ৰেক চেঞ্জেছ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Mail Merge combines a main document with a data source to create personalised letters.",
+        "as": "Mail Merge য়ে মূল ডকুমেণ্টক তথ্য উৎসৰ সৈতে সংযুক্ত কৰি ব্যক্তিগতকৃত পত্ৰ তৈয়াৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which view shows a Word document exactly as it will appear when printed?",
+        "as": "Word ডকুমেণ্ট ছপা হোৱাৰ দৰে দেখুওৱা ভিউ কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Web Layout",
+          "as": "ৱেব লে'আউট"
+        },
+        {
+          "en": "Outline",
+          "as": "আউটলাইন"
+        },
+        {
+          "en": "Draft",
+          "as": "ড্ৰাফ্ট"
+        },
+        {
+          "en": "Print Layout",
+          "as": "প্ৰিন্ট লে'আউট"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Print Layout view shows the document as it will look when printed.",
+        "as": "Print Layout ভিউত নথিপত্ৰ ছপা হোৱাৰ দৰে দেখা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does Ctrl + E do in MS Word?",
+        "as": "MS Word-ত Ctrl + E য়ে কি কৰে?"
+      },
+      "options": [
+        {
+          "en": "Center align",
+          "as": "কেন্দ্ৰত সংযুক্ত কৰা"
+        },
+        {
+          "en": "Bold",
+          "as": "বোল্ড কৰা"
+        },
+        {
+          "en": "Find",
+          "as": "বিচৰা"
+        },
+        {
+          "en": "Print",
+          "as": "প্ৰিন্ট কৰা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ctrl + E is used to centre-align the selected text.",
+        "as": "Ctrl + E য়ে বাছনি কৰা লিখনীক কেন্দ্ৰত সংযুক্ত কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the default file extension of an Excel workbook?",
+        "as": "Excel ৱৰ্কবুকৰ ডিফল্ট ফাইল এক্সটেনশ্যন কি?"
+      },
+      "options": [
+        {
+          "en": ".accdb",
+          "as": ".accdb"
+        },
+        {
+          "en": ".xlsx",
+          "as": ".xlsx"
+        },
+        {
+          "en": ".docx",
+          "as": ".docx"
+        },
+        {
+          "en": ".pptx",
+          "as": ".pptx"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The default extension of an Excel workbook is .xlsx.",
+        "as": "Excel ৱৰ্কবুকৰ ডিফল্ট এক্সটেনশ্যন হৈছে .xlsx।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Excel function is used to add numbers?",
+        "as": "সংখ্যা যোগ কৰিবলৈ Excel-ৰ কোন ফলন ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "COUNT",
+          "as": "COUNT"
+        },
+        {
+          "en": "MAX",
+          "as": "MAX"
+        },
+        {
+          "en": "SUM",
+          "as": "SUM"
+        },
+        {
+          "en": "AVERAGE",
+          "as": "AVERAGE"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The SUM function adds all the numbers in a range.",
+        "as": "SUM ফলনে এটা পৰিসৰৰ সকলো সংখ্যা যোগ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which function returns only the current date?",
+        "as": "কেৱল বৰ্তমান তাৰিখ ঘূৰাই দিয়া ফলন কোনটো?"
+      },
+      "options": [
+        {
+          "en": "NOW()",
+          "as": "NOW()"
+        },
+        {
+          "en": "DATE()",
+          "as": "DATE()"
+        },
+        {
+          "en": "TIME()",
+          "as": "TIME()"
+        },
+        {
+          "en": "TODAY()",
+          "as": "TODAY()"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "TODAY() returns only the current date.",
+        "as": "TODAY() য়ে কেৱল বৰ্তমান তাৰিখ ঘূৰাই দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which symbol is used to make an absolute cell reference?",
+        "as": "পূৰ্ণ (absolute) চেল ৰেফাৰেন্স বনাবলৈ কোন চিহ্ন ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "$",
+          "as": "$"
+        },
+        {
+          "en": "%",
+          "as": "%"
+        },
+        {
+          "en": "#",
+          "as": "#"
+        },
+        {
+          "en": "&",
+          "as": "&"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The $ symbol makes a cell reference absolute, as in $A$1.",
+        "as": "$ চিহ্নই চেল ৰেফাৰেন্স পূৰ্ণ কৰে, যেনে $A$1।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key is used to edit the active cell in Excel?",
+        "as": "Excel-ত সক্ৰিয় চেল সম্পাদনা কৰিবলৈ কোন কী ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "F9",
+          "as": "F9"
+        },
+        {
+          "en": "F2",
+          "as": "F2"
+        },
+        {
+          "en": "F5",
+          "as": "F5"
+        },
+        {
+          "en": "F7",
+          "as": "F7"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "F2 puts the active cell into edit mode.",
+        "as": "F2 য়ে সক্ৰিয় চেলক সম্পাদনা ম'ডত ৰাখে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which chart is best for showing parts of a whole?",
+        "as": "সম্পূৰ্ণৰ অংশ দেখুওৱাৰ বাবে কোন চাৰ্ট উত্তম?"
+      },
+      "options": [
+        {
+          "en": "Scatter chart",
+          "as": "স্কেটাৰ চাৰ্ট"
+        },
+        {
+          "en": "Column chart",
+          "as": "কলাম চাৰ্ট"
+        },
+        {
+          "en": "Pie chart",
+          "as": "পাই চাৰ্ট"
+        },
+        {
+          "en": "Line chart",
+          "as": "লাইন চাৰ্ট"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A pie chart is best for showing parts of a whole.",
+        "as": "সম্পূৰ্ণৰ অংশ দেখুওৱাৰ বাবে পাই চাৰ্ট আটাইতকৈ উপযুক্ত।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does the #DIV/0! error mean in Excel?",
+        "as": "Excel-ত #DIV/0! ত্ৰুটিয়ে কি বুজায়?"
+      },
+      "options": [
+        {
+          "en": "Text too long",
+          "as": "লিখনী অতি দীঘল"
+        },
+        {
+          "en": "Column too narrow",
+          "as": "স্তম্ভ বহল নহয়"
+        },
+        {
+          "en": "Invalid name",
+          "as": "অবৈধ নাম"
+        },
+        {
+          "en": "Division by zero",
+          "as": "শূন্যৰে ভাগ কৰা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The #DIV/0! error appears when a formula tries to divide by zero.",
+        "as": "#DIV/0! ত্ৰুটি তেতিয়া দেখুৱায় যেতিয়া এটা সূত্ৰই শূন্যৰে ভাগ কৰিবলৈ চেষ্টা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the default file extension of a PowerPoint presentation?",
+        "as": "PowerPoint প্ৰেজেণ্টেচনৰ ডিফল্ট ফাইল এক্সটেনশ্যন কি?"
+      },
+      "options": [
+        {
+          "en": ".pptx",
+          "as": ".pptx"
+        },
+        {
+          "en": ".docx",
+          "as": ".docx"
+        },
+        {
+          "en": ".xlsx",
+          "as": ".xlsx"
+        },
+        {
+          "en": ".ppsx",
+          "as": ".ppsx"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The default extension of a PowerPoint presentation is .pptx.",
+        "as": "PowerPoint প্ৰেজেণ্টেচনৰ ডিফল্ট এক্সটেনশ্যন হৈছে .pptx।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the default slide orientation in PowerPoint?",
+        "as": "PowerPoint-ত স্লাইডৰ ডিফল্ট অভিমুখ কি?"
+      },
+      "options": [
+        {
+          "en": "Custom",
+          "as": "কাষ্টম"
+        },
+        {
+          "en": "Landscape",
+          "as": "লেণ্ডস্কেপ"
+        },
+        {
+          "en": "Portrait",
+          "as": "পৰ্ট্ৰেট"
+        },
+        {
+          "en": "Square",
+          "as": "বৰ্গ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The default slide orientation in PowerPoint is Landscape.",
+        "as": "PowerPoint-ত স্লাইডৰ ডিফল্ট অভিমুখ হৈছে Landscape।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key starts a slide show from the beginning?",
+        "as": "আৰম্ভণিৰ পৰা স্লাইড শ্ব' আৰম্ভ কৰিবলৈ কোন কী ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "F1",
+          "as": "F1"
+        },
+        {
+          "en": "F2",
+          "as": "F2"
+        },
+        {
+          "en": "F5",
+          "as": "F5"
+        },
+        {
+          "en": "Esc",
+          "as": "Esc"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "F5 starts a slide show from the beginning in PowerPoint.",
+        "as": "PowerPoint-ত F5 য়ে আৰম্ভণিৰ পৰা স্লাইড শ্ব' আৰম্ভ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which feature is used to apply effects to text or objects on a slide?",
+        "as": "স্লাইডত লিখনী বা বস্তুত প্ৰভাৱ প্ৰয়োগ কৰিবলৈ কোন সুবিধা ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Transition",
+          "as": "ট্ৰানজিচন"
+        },
+        {
+          "en": "Slide Master",
+          "as": "স্লাইড মাষ্টাৰ"
+        },
+        {
+          "en": "Rehearse Timings",
+          "as": "ৰিহাৰ্ছ টাইমিংছ"
+        },
+        {
+          "en": "Animation",
+          "as": "এনিমেচন"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Animation applies effects to text or objects within a slide.",
+        "as": "Animation য়ে এটা স্লাইডৰ ভিতৰত লিখনী বা বস্তুত প্ৰভাৱ প্ৰয়োগ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the main purpose of the Slide Master?",
+        "as": "Slide Master ৰ মূল উদ্দেশ্য কি?"
+      },
+      "options": [
+        {
+          "en": "Apply a consistent design to all slides",
+          "as": "সকলো স্লাইডত একে ডিজাইন প্ৰয়োগ কৰা"
+        },
+        {
+          "en": "Print the slides",
+          "as": "স্লাইডবোৰ প্ৰিন্ট কৰা"
+        },
+        {
+          "en": "Delete the slides",
+          "as": "স্লাইডবোৰ মচা"
+        },
+        {
+          "en": "Record narration",
+          "as": "ধ্বনি ৰেকৰ্ড কৰা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Slide Master controls the design and layout of all slides in a presentation.",
+        "as": "Slide Master য়ে প্ৰেজেণ্টেচনৰ সকলো স্লাইডৰ ডিজাইন আৰু বিন্যাস নিয়ন্ত্ৰণ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the default file extension of an MS Access database?",
+        "as": "MS Access ডেটাবেছৰ ডিফল্ট ফাইল এক্সটেনশ্যন কি?"
+      },
+      "options": [
+        {
+          "en": ".pptx",
+          "as": ".pptx"
+        },
+        {
+          "en": ".accdb",
+          "as": ".accdb"
+        },
+        {
+          "en": ".xlsx",
+          "as": ".xlsx"
+        },
+        {
+          "en": ".docx",
+          "as": ".docx"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The default extension of an Access database is .accdb.",
+        "as": "Access ডেটাবেছৰ ডিফল্ট এক্সটেনশ্যন হৈছে .accdb।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Access object is used to store data?",
+        "as": "তথ্য সংৰক্ষণ কৰিবলৈ Access-ৰ কোন বস্তু ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Form",
+          "as": "ফৰ্ম"
+        },
+        {
+          "en": "Report",
+          "as": "ৰিপৰ্ট"
+        },
+        {
+          "en": "Table",
+          "as": "টেবুল"
+        },
+        {
+          "en": "Query",
+          "as": "কুৱেৰী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A table stores the actual data in an Access database.",
+        "as": "Access ডেটাবেছত টেবুলে প্ৰকৃত তথ্য সংৰক্ষণ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the purpose of a primary key in an Access table?",
+        "as": "Access টেবুলত প্ৰাইমেৰী কী ৰ উদ্দেশ্য কি?"
+      },
+      "options": [
+        {
+          "en": "Sort the records",
+          "as": "ৰেকৰ্ডবোৰ ক্ৰমবদ্ধ কৰা"
+        },
+        {
+          "en": "Print the records",
+          "as": "ৰেকৰ্ডবোৰ প্ৰিন্ট কৰা"
+        },
+        {
+          "en": "Delete duplicate records",
+          "as": "পুনৰাবৃত্ত ৰেকৰ্ড মচা"
+        },
+        {
+          "en": "Uniquely identify each record",
+          "as": "প্ৰতিটো ৰেকৰ্ড অদ্বিতীয়ভাৱে চিনাক্ত কৰা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A primary key uniquely identifies each record in a table.",
+        "as": "প্ৰাইমেৰী কী য়ে টেবুলৰ প্ৰতিটো ৰেকৰ্ড অদ্বিতীয়ভাৱে চিনাক্ত কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "MS Outlook is mainly used for?",
+        "as": "MS Outlook মূলতঃ কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Sending and receiving emails",
+          "as": "ইমেইল পঠিওৱা আৰু লোৱা"
+        },
+        {
+          "en": "Making spreadsheets",
+          "as": "স্প্ৰেডশ্বীট তৈয়াৰ কৰা"
+        },
+        {
+          "en": "Editing photos",
+          "as": "ফটো সম্পাদনা কৰা"
+        },
+        {
+          "en": "Designing slides",
+          "as": "স্লাইড ডিজাইন কৰা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "MS Outlook is mainly an email client used to send and receive emails.",
+        "as": "MS Outlook মূলতঃ এটা ইমেইল ক্লায়েণ্ট, যি ইমেইল পঠিওৱা আৰু ল'বলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does BCC stand for in email?",
+        "as": "ইমেইলত BCC ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Back Carbon Copy",
+          "as": "Back Carbon Copy"
+        },
+        {
+          "en": "Blind Carbon Copy",
+          "as": "Blind Carbon Copy"
+        },
+        {
+          "en": "Basic Carbon Copy",
+          "as": "Basic Carbon Copy"
+        },
+        {
+          "en": "Blind Computer Copy",
+          "as": "Blind Computer Copy"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "BCC stands for Blind Carbon Copy.",
+        "as": "BCC ৰ সম্পূৰ্ণ ৰূপ হৈছে Blind Carbon Copy।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used to save a file in MS Office?",
+        "as": "MS Office-ত ফাইল চেভ কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + O",
+          "as": "Ctrl + O"
+        },
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Ctrl + S is the common shortcut to save a file in MS Office.",
+        "as": "MS Office-ত ফাইল চেভ কৰাৰ সাধাৰণ চৰ্টকাট হৈছে Ctrl + S।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is opened when you click the File tab in MS Office?",
+        "as": "MS Office-ত File টেবত ক্লিক কৰিলে কি খোলে?"
+      },
+      "options": [
+        {
+          "en": "Home tab",
+          "as": "Home টেব"
+        },
+        {
+          "en": "Developer tab",
+          "as": "Developer টেব"
+        },
+        {
+          "en": "Quick Access Toolbar",
+          "as": "কুইক এক্সেছ টুলবাৰ"
+        },
+        {
+          "en": "Backstage view",
+          "as": "বেকষ্টেজ ভিউ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Clicking the File tab opens the Backstage view.",
+        "as": "File টেবত ক্লিক কৰিলে Backstage view খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which MS Office application is used for presentations?",
+        "as": "কোন MS Office এপ্লিকেচন প্ৰেজেণ্টেচনৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "PowerPoint",
+          "as": "PowerPoint"
+        },
+        {
+          "en": "Word",
+          "as": "Word"
+        },
+        {
+          "en": "Excel",
+          "as": "Excel"
+        },
+        {
+          "en": "Access",
+          "as": "Access"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "PowerPoint is the MS Office application used for presentations.",
+        "as": "PowerPoint হৈছে প্ৰেজেণ্টেচনৰ বাবে ব্যৱহৃত MS Office এপ্লিকেচন।"
       }
     }
   ]
