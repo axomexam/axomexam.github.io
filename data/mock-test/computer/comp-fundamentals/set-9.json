@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "1 kilobyte (KB) is equal to?",
-        "as": "১ কিল'বাইট (KB) কিমানৰ সমান?"
+        "en": "The motherboard is also known as?",
+        "as": "মাদাৰব’ৰ্ডক আন কি নামেৰে জনা যায়?"
       },
       "options": [
         {
-          "en": "1000 bytes",
-          "as": "১০০০ বাইট"
+          "en": "System board",
+          "as": "চিষ্টেম ব’ৰ্ড"
         },
         {
-          "en": "1024 bytes",
-          "as": "১০২৪ বাইট"
+          "en": "Sound card",
+          "as": "ছাউণ্ড কাৰ্ড"
         },
         {
-          "en": "512 bytes",
-          "as": "৫১২ বাইট"
+          "en": "Video card",
+          "as": "ভিডিঅ’ কাৰ্ড"
         },
         {
-          "en": "2048 bytes",
-          "as": "২০৪৮ বাইট"
+          "en": "Power supply",
+          "as": "পাৱাৰ ছাপ্লাই"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The motherboard is also called the system board because it connects all main components of a computer.",
+        "as": "মাদাৰব’ৰ্ডক চিষ্টেম ব’ৰ্ডও কোৱা হয়, কাৰণ ই কম্পিউটাৰৰ সকলো মূল অংশ সংযুক্ত কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which device is known as the brain of the computer?",
+        "as": "কোন সঁজুলিক কম্পিউটাৰৰ মগজু বুলি কোৱা হয়?"
+      },
+      "options": [
+        {
+          "en": "RAM",
+          "as": "RAM"
+        },
+        {
+          "en": "CPU",
+          "as": "CPU"
+        },
+        {
+          "en": "Hard disk",
+          "as": "হাৰ্ড ডিস্ক"
+        },
+        {
+          "en": "Monitor",
+          "as": "মনিটৰ"
         }
       ],
       "correct": 1,
       "explanation": {
-        "en": "In binary measurement, 1 KB = 2 to the power 10 bytes = 1024 bytes.",
-        "as": "বাইনাৰি মাপত ১ KB = ২¹⁰ বাইট = ১০২৪ বাইট।"
+        "en": "The CPU is called the brain of the computer because it processes all instructions and data.",
+        "as": "CPU ক কম্পিউটাৰৰ মগজু কোৱা হয়, কাৰণ ই সকলো নিৰ্দেশনা আৰু তথ্য প্ৰক্ৰিয়া কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of GPU is?",
+        "as": "GPU-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "General Processing Unit",
+          "as": "জেনেৰেল প্ৰচেছিং ইউনিট"
+        },
+        {
+          "en": "Graphical Process Unit",
+          "as": "গ্ৰাফিকেল প্ৰচেছ ইউনিট"
+        },
+        {
+          "en": "Graphics Processing Unit",
+          "as": "গ্ৰাফিক্স প্ৰচেছিং ইউনিট"
+        },
+        {
+          "en": "Graphics Program Unit",
+          "as": "গ্ৰাফিক্স প্ৰগ্ৰাম ইউনিট"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "GPU stands for Graphics Processing Unit, used mainly for rendering images and video.",
+        "as": "GPU ৰ সম্পূৰ্ণ ৰূপ Graphics Processing Unit, যি মূলতঃ ছবি আৰু ভিডিঅ’ ৰেণ্ডাৰ কৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "RAM is which type of memory?",
+        "as": "RAM কোন ধৰণৰ স্মৃতি?"
+      },
+      "options": [
+        {
+          "en": "Non-volatile",
+          "as": "অস্থিৰ নহয়"
+        },
+        {
+          "en": "Volatile",
+          "as": "অস্থিৰ"
+        },
+        {
+          "en": "Permanent",
+          "as": "স্থায়ী"
+        },
+        {
+          "en": "Read-only",
+          "as": "কেৱল পঢ়িব পৰা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "RAM is volatile memory, so its contents are lost when the power is switched off.",
+        "as": "RAM অস্থিৰ স্মৃতি, গতিকে বিদ্যুৎ বন্ধ হ'লে ইয়াৰ তথ্য নোহোৱা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Where is cache memory located?",
+        "as": "কেশ্ব স্মৃতি ক’ত অৱস্থিত?"
+      },
+      "options": [
+        {
+          "en": "Inside the hard disk",
+          "as": "হাৰ্ড ডিস্কৰ ভিতৰত"
+        },
+        {
+          "en": "Inside the monitor",
+          "as": "মনিটৰৰ ভিতৰত"
+        },
+        {
+          "en": "On the keyboard",
+          "as": "কীব’ৰ্ডত"
+        },
+        {
+          "en": "Between the CPU and main memory",
+          "as": "CPU আৰু মূল স্মৃতিৰ মাজত"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Cache memory is placed between the CPU and main memory to provide faster access to frequently used data.",
+        "as": "কেশ্ব স্মৃতি CPU আৰু মূল স্মৃতিৰ মাজত থাকে, যাতে সঘনাই ব্যৱহৃত তথ্য দ্ৰুতভাৱে পাব পাৰি।"
+      }
+    },
+    {
+      "q": {
+        "en": "1 byte is equal to how many bits?",
+        "as": "১ বাইট কিমান বিটৰ সমান?"
+      },
+      "options": [
+        {
+          "en": "8 bits",
+          "as": "৮ বিট"
+        },
+        {
+          "en": "16 bits",
+          "as": "১৬ বিট"
+        },
+        {
+          "en": "4 bits",
+          "as": "৪ বিট"
+        },
+        {
+          "en": "32 bits",
+          "as": "৩২ বিট"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "One byte is made up of 8 bits.",
+        "as": "এক বাইট ৮ টা বিটেৰে গঠিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "The binary number system uses which digits?",
+        "as": "বাইনেৰী সংখ্যা পদ্ধতিয়ে কোন অংক ব্যৱহাৰ কৰে?"
+      },
+      "options": [
+        {
+          "en": "1 and 2",
+          "as": "১ আৰু ২"
+        },
+        {
+          "en": "0 and 9",
+          "as": "০ আৰু ৯"
+        },
+        {
+          "en": "0 and 1",
+          "as": "০ আৰু ১"
+        },
+        {
+          "en": "2 and 3",
+          "as": "২ আৰু ৩"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The binary number system uses only two digits, 0 and 1.",
+        "as": "বাইনেৰী সংখ্যা পদ্ধতিয়ে কেৱল দুটা অংক, ০ আৰু ১ ব্যৱহাৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The base of the hexadecimal number system is?",
+        "as": "হেক্সাডেচিমেল সংখ্যা পদ্ধতিৰ ভিত্তি কি?"
+      },
+      "options": [
+        {
+          "en": "2",
+          "as": "২"
+        },
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "10",
+          "as": "১০"
+        },
+        {
+          "en": "16",
+          "as": "১৬"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The hexadecimal number system has base 16 and uses digits 0 to 9 and letters A to F.",
+        "as": "হেক্সাডেচিমেল সংখ্যা পদ্ধতিৰ ভিত্তি ১৬; ই ০ৰ পৰা ৯ লৈকে অংক আৰু Aৰ পৰা F লৈকে আখৰ ব্যৱহাৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which software manages computer hardware and provides services to other software?",
+        "as": "কোন ছফ্টৱেৰে কম্পিউটাৰ হাৰ্ডৱেৰ পৰিচালনা কৰে আৰু অন্য ছফ্টৱেৰক সেৱা প্ৰদান কৰে?"
+      },
+      "options": [
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "Operating system",
+          "as": "অপাৰেটিং চিষ্টেম"
+        },
+        {
+          "en": "Google Chrome",
+          "as": "Google Chrome"
+        },
+        {
+          "en": "VLC player",
+          "as": "VLC প্লেয়াৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "An operating system manages hardware and provides a platform for other software to run.",
+        "as": "অপাৰেটিং চিষ্টেমে হাৰ্ডৱেৰ পৰিচালনা কৰে আৰু অন্য ছফ্টৱেৰ চলাৰ বাবে প্লেটফৰ্ম প্ৰদান কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is an example of application software?",
+        "as": "তলৰ কোনটো এপ্লিকেশ্যন ছফ্টৱেৰৰ উদাহৰণ?"
+      },
+      "options": [
+        {
+          "en": "Windows",
+          "as": "Windows"
+        },
+        {
+          "en": "Linux",
+          "as": "Linux"
+        },
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "BIOS",
+          "as": "BIOS"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "MS Word is application software designed for creating and editing documents.",
+        "as": "MS Word এপ্লিকেশ্যন ছফ্টৱেৰ, যি নথি সৃষ্টি আৰু সম্পাদনাৰ বাবে তৈয়াৰ কৰা হৈছে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is an operating system?",
+        "as": "তলৰ কোনটো অপাৰেটিং চিষ্টেম?"
+      },
+      "options": [
+        {
+          "en": "Windows",
+          "as": "Windows"
+        },
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "Photoshop",
+          "as": "Photoshop"
+        },
+        {
+          "en": "Chrome",
+          "as": "Chrome"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Windows is an operating system, while the others are application software.",
+        "as": "Windows এটা অপাৰেটিং চিষ্টেম, আনবোৰ এপ্লিকেশ্যন ছফ্টৱেৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which operating system is developed by Apple for Mac computers?",
+        "as": "Apple-এ Mac কম্পিউটাৰৰ বাবে কোন অপাৰেটিং চিষ্টেম বিকশিত কৰে?"
+      },
+      "options": [
+        {
+          "en": "Windows",
+          "as": "Windows"
+        },
+        {
+          "en": "macOS",
+          "as": "macOS"
+        },
+        {
+          "en": "Linux",
+          "as": "Linux"
+        },
+        {
+          "en": "Android",
+          "as": "Android"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "macOS is the operating system developed by Apple for its Mac computers.",
+        "as": "macOS হৈছে Apple-এ ইয়াৰ Mac কম্পিউটাৰৰ বাবে বিকশিত কৰা অপাৰেটিং চিষ্টেম।"
+      }
+    },
+    {
+      "q": {
+        "en": "A compiler converts?",
+        "as": "কম্পাইলাৰে কি ৰূপান্তৰ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Machine language into high-level language",
+          "as": "মেচিন ভাষাক উচ্চ-স্তৰৰ ভাষালৈ"
+        },
+        {
+          "en": "High-level language into assembly language",
+          "as": "উচ্চ-স্তৰৰ ভাষাক এছেম্বলি ভাষালৈ"
+        },
+        {
+          "en": "Assembly language into high-level language",
+          "as": "এছেম্বলি ভাষাক উচ্চ-স্তৰৰ ভাষালৈ"
+        },
+        {
+          "en": "High-level language into machine language",
+          "as": "উচ্চ-স্তৰৰ ভাষাক মেচিন ভাষালৈ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A compiler translates the entire high-level language program into machine language at once.",
+        "as": "কম্পাইলাৰে সমগ্ৰ উচ্চ-স্তৰৰ ভাষাৰ প্ৰগ্ৰাম একে সময়তে মেচিন ভাষালৈ অনুবাদ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Assembly language is a type of?",
+        "as": "এছেম্বলি ভাষা কি ধৰণৰ?"
+      },
+      "options": [
+        {
+          "en": "High-level language",
+          "as": "উচ্চ-স্তৰৰ ভাষা"
+        },
+        {
+          "en": "Low-level language",
+          "as": "নিম্ন-স্তৰৰ ভাষা"
+        },
+        {
+          "en": "Natural language",
+          "as": "প্ৰাকৃতিক ভাষা"
+        },
+        {
+          "en": "Query language",
+          "as": "কুৱেৰী ভাষা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Assembly language is a low-level language that uses mnemonics instead of binary codes.",
+        "as": "এছেম্বলি ভাষা নিম্ন-স্তৰৰ ভাষা, যি বাইনেৰী কোডৰ সলনি স্মৃতিসহায়ক চিহ্ন ব্যৱহাৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "An algorithm is?",
+        "as": "এলগৰিদম কি?"
+      },
+      "options": [
+        {
+          "en": "A computer hardware",
+          "as": "এটা কম্পিউটাৰ হাৰ্ডৱেৰ"
+        },
+        {
+          "en": "A programming language",
+          "as": "এটা প্ৰগ্ৰামিং ভাষা"
+        },
+        {
+          "en": "A step-by-step procedure to solve a problem",
+          "as": "সমস্যা সমাধানৰ বাবে ধাপে ধাপে পদ্ধতি"
+        },
+        {
+          "en": "A type of memory",
+          "as": "এক ধৰণৰ স্মৃতি"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "An algorithm is a finite step-by-step procedure used to solve a problem.",
+        "as": "এলগৰিদম হৈছে সমস্যা সমাধানৰ বাবে সীমিত ধাপে ধাপে পদ্ধতি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is used to represent an algorithm graphically?",
+        "as": "এলগৰিদমক graphical ৰূপত দেখুৱাবলৈ তলৰ কোনটো ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Flowchart",
+          "as": "ফ্ল’চাৰ্ট"
+        },
+        {
+          "en": "Algorithm",
+          "as": "এলগৰিদম"
+        },
+        {
+          "en": "Program",
+          "as": "প্ৰগ্ৰাম"
+        },
+        {
+          "en": "Compiler",
+          "as": "কম্পাইলাৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A flowchart uses standard symbols to represent the steps of an algorithm graphically.",
+        "as": "ফ্ল’চাৰ্টে মানক চিহ্ন ব্যৱহাৰ কৰি এলগৰিদমৰ ধাপসমূহ graphical ৰূপত দেখুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of HDMI is?",
+        "as": "HDMI-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "High Definition Media Interface",
+          "as": "হাই ডেফিনিশ্যন মিডিয়া ইন্টাৰফেচ"
+        },
+        {
+          "en": "High Digital Multimedia Interface",
+          "as": "হাই ডিজিটেল মাল্টিমিডিয়া ইন্টাৰফেচ"
+        },
+        {
+          "en": "High Definition Multi Interface",
+          "as": "হাই ডেফিনিশ্যন মাল্টি ইন্টাৰফেচ"
+        },
+        {
+          "en": "High Definition Multimedia Interface",
+          "as": "হাই ডেফিনিশ্যন মাল্টিমিডিয়া ইন্টাৰফেচ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "HDMI stands for High Definition Multimedia Interface, used to transmit audio and video.",
+        "as": "HDMI ৰ সম্পূৰ্ণ ৰূপ High Definition Multimedia Interface, যি অডিঅ’ আৰু ভিডিঅ’ প্ৰেৰণ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which port is commonly used to connect a monitor?",
+        "as": "মনিটৰ সংযোগ কৰিবলৈ সাধাৰণতে কোন প’ৰ্ট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "USB",
+          "as": "USB"
+        },
+        {
+          "en": "HDMI",
+          "as": "HDMI"
+        },
+        {
+          "en": "Ethernet",
+          "as": "ইথাৰনেট"
+        },
+        {
+          "en": "Audio jack",
+          "as": "অডিঅ’ জেক"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "HDMI is commonly used to connect a monitor or display to a computer.",
+        "as": "মনিটৰ বা ডিস্প্লে কম্পিউটাৰৰ সৈতে সংযোগ কৰিবলৈ HDMI সাধাৰণতে ব্যৱহৃত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut key is used to copy selected text?",
+        "as": "বাছনি কৰা লিখা কপি কৰিবলৈ কোন চৰ্টকাট কী ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        },
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        },
+        {
+          "en": "Ctrl + Z",
+          "as": "Ctrl + Z"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ctrl + C is used to copy the selected content to the clipboard.",
+        "as": "Ctrl + C ব্যৱহাৰ কৰি বাছনি কৰা সমল ক্লিপব’ৰ্ডলৈ কপি কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut key is used to paste copied content?",
+        "as": "কপি কৰা সমল পেষ্ট কৰিবলৈ কোন চৰ্টকাট কী ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Ctrl + V is used to paste the content available in the clipboard.",
+        "as": "Ctrl + V ব্যৱহাৰ কৰি ক্লিপব’ৰ্ডত থকা সমল পেষ্ট কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key combination is used to switch between open windows?",
+        "as": "খোলা উইণ্ড’ৰ মাজত সলনি কৰিবলৈ কোন কী সংযোগ ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + Tab",
+          "as": "Ctrl + Tab"
+        },
+        {
+          "en": "Shift + Tab",
+          "as": "Shift + Tab"
+        },
+        {
+          "en": "Alt + F4",
+          "as": "Alt + F4"
+        },
+        {
+          "en": "Alt + Tab",
+          "as": "Alt + Tab"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Alt + Tab is used to switch between currently open windows or applications.",
+        "as": "Alt + Tab ব্যৱহাৰ কৰি বৰ্তমান খোলা উইণ্ড’ বা এপ্লিকেশ্যনৰ মাজত সলনি কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key combination permanently deletes a file without sending it to the Recycle Bin?",
+        "as": "কোন কী সংযোগে ফাইল Recycle Bin-লৈ নপঠিয়াই স্থায়ীভাৱে মচি পেলায়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + Delete",
+          "as": "Ctrl + Delete"
+        },
+        {
+          "en": "Alt + Delete",
+          "as": "Alt + Delete"
+        },
+        {
+          "en": "Shift + Delete",
+          "as": "Shift + Delete"
+        },
+        {
+          "en": "Delete",
+          "as": "Delete"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Shift + Delete permanently deletes the selected file without moving it to the Recycle Bin.",
+        "as": "Shift + Delete এ বাছনি কৰা ফাইল Recycle Bin-লৈ নিনি স্থায়ীভাৱে মচি পেলায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "In Windows, deleted files are temporarily stored in?",
+        "as": "Windows-ত মচা ফাইলসমূহ অস্থায়ীভাৱে ক’ত সংৰক্ষিত হয়?"
+      },
+      "options": [
+        {
+          "en": "Recycle Bin",
+          "as": "Recycle Bin"
+        },
+        {
+          "en": "My Computer",
+          "as": "My Computer"
+        },
+        {
+          "en": "Control Panel",
+          "as": "Control Panel"
+        },
+        {
+          "en": "Task Manager",
+          "as": "Task Manager"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Deleted files are temporarily kept in the Recycle Bin and can be restored.",
+        "as": "মচা ফাইলসমূহ অস্থায়ীভাৱে Recycle Bin-ত থাকে আৰু পুনৰুদ্ধাৰ কৰিব পাৰি।"
+      }
+    },
+    {
+      "q": {
+        "en": "The .docx file extension indicates which type of file?",
+        "as": ".docx ফাইল এক্সটেনশনে কোন ধৰণৰ ফাইল সূচায়?"
+      },
+      "options": [
+        {
+          "en": "Excel worksheet",
+          "as": "Excel কৰ্মপত্ৰ"
+        },
+        {
+          "en": "Word document",
+          "as": "Word নথি"
+        },
+        {
+          "en": "PowerPoint presentation",
+          "as": "PowerPoint উপস্থাপন"
+        },
+        {
+          "en": "Notepad file",
+          "as": "Notepad ফাইল"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The .docx extension is used for documents created in Microsoft Word.",
+        "as": ".docx এক্সটেনশন Microsoft Word-ত তৈয়াৰ কৰা নথিৰ বাবে ব্যৱহৃত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which device converts digital signals into analog signals and vice versa?",
+        "as": "কোন সঁজুলিয়ে ডিজিটেল সংকেতক এনালগ সংকেতলৈ আৰু উল্টাকৈ ৰূপান্তৰ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Router",
+          "as": "ৰাউটাৰ"
+        },
+        {
+          "en": "Switch",
+          "as": "চুইচ"
+        },
+        {
+          "en": "Hub",
+          "as": "হাব"
+        },
+        {
+          "en": "Modem",
+          "as": "মডেম"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A modem modulates and demodulates signals, converting between digital and analog forms.",
+        "as": "মডেমে সংকেত মডুলেট আৰু ডিমডুলেট কৰি ডিজিটেল আৰু এনালগ ৰূপৰ মাজত ৰূপান্তৰ কৰে।"
       }
     }
   ]
