@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "The speed of a CPU is commonly measured in?",
-        "as": "CPU ৰ গতি সাধাৰণতে কিমানত জোখা হয়?"
+        "en": "Which is the smallest unit of data in a computer?",
+        "as": "কম্পিউটাৰত তথ্যৰ আটাইতকৈ সৰু একক কোনটো?"
       },
       "options": [
         {
-          "en": "Gigahertz (GHz)",
-          "as": "গিগাহাৰ্টজ (GHz)"
+          "en": "Byte",
+          "as": "বাইট"
         },
         {
-          "en": "Megabyte (MB)",
-          "as": "মেগাবাইট (MB)"
+          "en": "Bit",
+          "as": "বিট"
         },
         {
-          "en": "Volt (V)",
-          "as": "ভল্ট (V)"
+          "en": "Nibble",
+          "as": "নিবল"
         },
         {
-          "en": "Pixel",
-          "as": "পিক্সেল"
+          "en": "Kilobyte",
+          "as": "কিলোবাইট"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A bit is the smallest unit of data and can have a value of either 0 or 1.",
+        "as": "বিট হৈছে তথ্যৰ আটাইতকৈ সৰু একক, যাৰ মান ০ বা ১ হ'ব পাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "1 KB is equal to how many bytes?",
+        "as": "১ KB কিমান বাইটৰ সমান?"
+      },
+      "options": [
+        {
+          "en": "1000 bytes",
+          "as": "১০০০ বাইট"
+        },
+        {
+          "en": "1024 bytes",
+          "as": "১০২৪ বাইট"
+        },
+        {
+          "en": "512 bytes",
+          "as": "৫১২ বাইট"
+        },
+        {
+          "en": "2048 bytes",
+          "as": "২০৪৮ বাইট"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "1 KB (kilobyte) is equal to 1024 bytes.",
+        "as": "১ KB (কিলোবাইট) = ১০২৪ বাইট।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is the fastest type of memory?",
+        "as": "তলৰ কোনটো আটাইতকৈ দ্ৰুত স্মৃতি?"
+      },
+      "options": [
+        {
+          "en": "Hard disk",
+          "as": "হাৰ্ড ডিস্ক"
+        },
+        {
+          "en": "RAM",
+          "as": "RAM"
+        },
+        {
+          "en": "Register",
+          "as": "ৰেজিষ্টাৰ"
+        },
+        {
+          "en": "Cache",
+          "as": "কেশ্ব"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Registers are located inside the CPU and are the fastest type of memory.",
+        "as": "ৰেজিষ্টাৰ CPU-ৰ ভিতৰত থাকে আৰু আটাইতকৈ দ্ৰুত স্মৃতি।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of CPU is?",
+        "as": "CPU-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Central Process Unit",
+          "as": "চেণ্ট্ৰেল প্ৰচেছ ইউনিট"
+        },
+        {
+          "en": "Central Processing Unit",
+          "as": "চেণ্ট্ৰেল প্ৰচেছিং ইউনিট"
+        },
+        {
+          "en": "Computer Processing Unit",
+          "as": "কম্পিউটাৰ প্ৰচেছিং ইউনিট"
+        },
+        {
+          "en": "Central Program Unit",
+          "as": "চেণ্ট্ৰেল প্ৰগ্ৰাম ইউনিট"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "CPU stands for Central Processing Unit, which executes instructions and processes data.",
+        "as": "CPU ৰ সম্পূৰ্ণ ৰূপ Central Processing Unit, যি নিৰ্দেশনা সম্পাদন আৰু তথ্য প্ৰক্ৰিয়া কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of RAM is?",
+        "as": "RAM-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Rapid Access Memory",
+          "as": "ৰেপিড এক্সেছ মেম’ৰী"
+        },
+        {
+          "en": "Read Access Memory",
+          "as": "ৰিড এক্সেছ মেম’ৰী"
+        },
+        {
+          "en": "Random Access Memory",
+          "as": "ৰেনডম এক্সেছ মেম’ৰী"
+        },
+        {
+          "en": "Random Available Memory",
+          "as": "ৰেনডম এভেইলেবল মেম’ৰী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "RAM stands for Random Access Memory, where data can be read and written randomly.",
+        "as": "RAM ৰ সম্পূৰ্ণ ৰূপ Random Access Memory, য'ত তথ্য যিকোনো ক্ৰমত পঢ়া আৰু লিখা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "BIOS settings are stored in which chip?",
+        "as": "BIOS ছেটিং কোন চিপত সংৰক্ষিত হয়?"
+      },
+      "options": [
+        {
+          "en": "CMOS",
+          "as": "CMOS"
+        },
+        {
+          "en": "RAM",
+          "as": "RAM"
+        },
+        {
+          "en": "ROM",
+          "as": "ROM"
+        },
+        {
+          "en": "Cache",
+          "as": "কেশ্ব"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "CPU speed is measured in hertz, commonly in gigahertz (GHz), which counts cycles per second.",
-        "as": "CPU ৰ গতি হাৰ্টজত জোখা হয়, সাধাৰণতে গিগাহাৰ্টজ (GHz)-ত, যি প্ৰতি ছেকেণ্ডৰ চক্ৰৰ সংখ্যা সূচায়।"
+        "en": "BIOS settings are stored in the CMOS chip, which is backed up by a small battery.",
+        "as": "BIOS ছেটিং CMOS চিপত সংৰক্ষিত হয়, যি এটা সৰু বেটাৰীৰ দ্বাৰা সমৰ্থিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which device is used to produce a hard copy of a document?",
+        "as": "নথিৰ হাৰ্ড কপি তৈয়াৰ কৰিবলৈ কোন সঁজুলি ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Monitor",
+          "as": "মনিটৰ"
+        },
+        {
+          "en": "Speaker",
+          "as": "স্পীকাৰ"
+        },
+        {
+          "en": "Projector",
+          "as": "প্ৰজেক্টৰ"
+        },
+        {
+          "en": "Printer",
+          "as": "প্ৰিণ্টাৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A printer produces a hard copy of digital documents on paper.",
+        "as": "প্ৰিণ্টাৰে ডিজিটেল নথিৰ কাগজত হাৰ্ড কপি উৎপন্ন কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of WWW is?",
+        "as": "WWW-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "World Web Wide",
+          "as": "ৱৰ্ল্ড ৱেব ৱাইড"
+        },
+        {
+          "en": "Wide World Web",
+          "as": "ৱাইড ৱৰ্ল্ড ৱেব"
+        },
+        {
+          "en": "World Wide Web",
+          "as": "ৱৰ্ল্ড ৱাইড ৱেব"
+        },
+        {
+          "en": "Web World Wide",
+          "as": "ৱেব ৱৰ্ল্ড ৱাইড"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "WWW stands for World Wide Web, a system of linked documents on the internet.",
+        "as": "WWW ৰ সম্পূৰ্ণ ৰূপ World Wide Web; ই ইন্টাৰনেটত সংযুক্ত নথিৰ ব্যৱস্থা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of HTTP is?",
+        "as": "HTTP-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "HyperText Transfer Protocol",
+          "as": "হাইপাৰটেক্সট ট্ৰান্সফাৰ প্ৰ’ট’কল"
+        },
+        {
+          "en": "HyperText Transmission Protocol",
+          "as": "হাইপাৰটেক্সট ট্ৰান্সমিশ্যন প্ৰ’ট’কল"
+        },
+        {
+          "en": "High Transfer Text Protocol",
+          "as": "হাই ট্ৰান্সফাৰ টেক্সট প্ৰ’ট’কল"
+        },
+        {
+          "en": "Hyper Transfer Text Protocol",
+          "as": "হাইপাৰ ট্ৰান্সফাৰ টেক্সট প্ৰ’ট’কল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "HTTP stands for HyperText Transfer Protocol, used to transfer web pages over the internet.",
+        "as": "HTTP ৰ সম্পূৰ্ণ ৰূপ HyperText Transfer Protocol, যি ইন্টাৰনেটত ৱেব পৃষ্ঠা প্ৰেৰণ কৰিবলৈ ব্যৱহৃত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of HTTPS is?",
+        "as": "HTTPS-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "HyperText Transfer Protocol System",
+          "as": "হাইপাৰটেক্সট ট্ৰান্সফাৰ প্ৰ’ট’কল চিষ্টেম"
+        },
+        {
+          "en": "HyperText Transfer Protocol Server",
+          "as": "হাইপাৰটেক্সট ট্ৰান্সফাৰ প্ৰ’ট’কল ছাৰ্ভাৰ"
+        },
+        {
+          "en": "HyperText Transfer Protocol Standard",
+          "as": "হাইপাৰটেক্সট ট্ৰান্সফাৰ প্ৰ’ট’কল ষ্টেণ্ডাৰ্ড"
+        },
+        {
+          "en": "HyperText Transfer Protocol Secure",
+          "as": "হাইপাৰটেক্সট ট্ৰান্সফাৰ প্ৰ’ট’কল ছিকিউৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "HTTPS stands for HyperText Transfer Protocol Secure, which encrypts data between the browser and server.",
+        "as": "HTTPS ৰ সম্পূৰ্ণ ৰূপ HyperText Transfer Protocol Secure, যি ব্ৰাউজাৰ আৰু ছাৰ্ভাৰৰ মাজত তথ্য এনক্ৰিপ্ট কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of IP is?",
+        "as": "IP-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Internet Program",
+          "as": "ইণ্টাৰনেট প্ৰগ্ৰাম"
+        },
+        {
+          "en": "Internet Protocol",
+          "as": "ইণ্টাৰনেট প্ৰ’ট’কল"
+        },
+        {
+          "en": "Internal Protocol",
+          "as": "ইণ্টাৰনেল প্ৰ’ট’কল"
+        },
+        {
+          "en": "Internet Provider",
+          "as": "ইণ্টাৰনেট প্ৰ’ভাইডাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "IP stands for Internet Protocol, which identifies devices and routes data on a network.",
+        "as": "IP ৰ সম্পূৰ্ণ ৰূপ Internet Protocol, যি নেটৱৰ্কত সঁজুলি চিনাক্ত কৰে আৰু তথ্য পথ প্ৰদৰ্শন কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of WiFi is?",
+        "as": "WiFi-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Wireless Finder",
+          "as": "ৱায়াৰলেছ ফাইণ্ডাৰ"
+        },
+        {
+          "en": "Wire Fidelity",
+          "as": "ৱায়াৰ ফিডেলিটি"
+        },
+        {
+          "en": "Wireless Fidelity",
+          "as": "ৱায়াৰলেছ ফিডেলিটি"
+        },
+        {
+          "en": "Wide Fidelity",
+          "as": "ৱাইড ফিডেলিটি"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "WiFi stands for Wireless Fidelity, a technology used for wireless network connections.",
+        "as": "WiFi ৰ সম্পূৰ্ণ ৰূপ Wireless Fidelity, যি তাৰবিহীন নেটৱৰ্ক সংযোগৰ বাবে ব্যৱহৃত প্ৰযুক্তি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which symbol is present in every email address?",
+        "as": "প্ৰতিটো ইমেইল ঠিকনাত কোন চিহ্ন থাকে?"
+      },
+      "options": [
+        {
+          "en": "@",
+          "as": "@"
+        },
+        {
+          "en": "#",
+          "as": "#"
+        },
+        {
+          "en": "$",
+          "as": "$"
+        },
+        {
+          "en": "%",
+          "as": "%"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Every email address contains the @ symbol, which separates the user name from the domain name.",
+        "as": "প্ৰতিটো ইমেইল ঠিকনাত @ চিহ্ন থাকে, যি ব্যৱহাৰকাৰী নাম আৰু ডমেইন নাম পৃথক কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which function key is used to refresh a web page?",
+        "as": "ৱেব পৃষ্ঠা ৰিফ্ৰেশ কৰিবলৈ কোন ফাংচন কী ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "F1",
+          "as": "F1"
+        },
+        {
+          "en": "F2",
+          "as": "F2"
+        },
+        {
+          "en": "F3",
+          "as": "F3"
+        },
+        {
+          "en": "F5",
+          "as": "F5"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "F5 is commonly used to refresh or reload a web page in most browsers.",
+        "as": "অধিকাংশ ব্ৰাউজাৰত ৱেব পৃষ্ঠা ৰিফ্ৰেশ বা পুনৰ লোড কৰিবলৈ F5 ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which function key is used to rename a selected file?",
+        "as": "বাছনি কৰা ফাইলৰ নাম সলনি কৰিবলৈ কোন ফাংচন কী ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "F1",
+          "as": "F1"
+        },
+        {
+          "en": "F2",
+          "as": "F2"
+        },
+        {
+          "en": "F3",
+          "as": "F3"
+        },
+        {
+          "en": "F5",
+          "as": "F5"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Pressing F2 on a selected file allows you to rename it in Windows.",
+        "as": "Windows-ত বাছনি কৰা ফাইলত F2 টিপিলে ইয়াৰ নাম সলনি কৰিব পাৰি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Ctrl + Alt + Delete is commonly used to open?",
+        "as": "Ctrl + Alt + Delete সাধাৰণতে কি খুলিবলৈ ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Recycle Bin",
+          "as": "Recycle Bin"
+        },
+        {
+          "en": "Control Panel",
+          "as": "Control Panel"
+        },
+        {
+          "en": "Task Manager",
+          "as": "Task Manager"
+        },
+        {
+          "en": "My Computer",
+          "as": "My Computer"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Ctrl + Alt + Delete opens the security screen from which Task Manager can be opened.",
+        "as": "Ctrl + Alt + Delete এ ছিকিউৰিটি স্ক্ৰীন খোলে, যাৰ পৰা Task Manager খুলিব পাৰি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key is used to cancel an operation?",
+        "as": "কোন কী ব্যৱহাৰ কৰি কোনো কাৰ্য বাতিল কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Esc",
+          "as": "Esc"
+        },
+        {
+          "en": "Enter",
+          "as": "Enter"
+        },
+        {
+          "en": "Tab",
+          "as": "Tab"
+        },
+        {
+          "en": "Shift",
+          "as": "Shift"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Esc (Escape) key is generally used to cancel or exit an operation.",
+        "as": "Esc (Escape) কী সাধাৰণতে কোনো কাৰ্য বাতিল বা ওলাই যাবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key moves the cursor to the end of a line?",
+        "as": "কোন কীএ কাৰ্চৰক শাৰীৰ শেষলৈ লৈ যায়?"
+      },
+      "options": [
+        {
+          "en": "Home",
+          "as": "Home"
+        },
+        {
+          "en": "Insert",
+          "as": "Insert"
+        },
+        {
+          "en": "End",
+          "as": "End"
+        },
+        {
+          "en": "Page Up",
+          "as": "Page Up"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The End key moves the cursor to the end of the current line.",
+        "as": "End কীএ কাৰ্চৰক বৰ্তমান শাৰীৰ শেষলৈ লৈ যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key deletes the character to the left of the cursor?",
+        "as": "কোন কীএ কাৰ্চৰৰ বাওঁফালৰ আখৰ মচি পেলায়?"
+      },
+      "options": [
+        {
+          "en": "Delete",
+          "as": "Delete"
+        },
+        {
+          "en": "Backspace",
+          "as": "Backspace"
+        },
+        {
+          "en": "Enter",
+          "as": "Enter"
+        },
+        {
+          "en": "Tab",
+          "as": "Tab"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Backspace key deletes the character immediately to the left of the cursor.",
+        "as": "Backspace কীএ কাৰ্চৰৰ ঠিক বাওঁফালে থকা আখৰ মচি পেলায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which software is used to create presentations?",
+        "as": "উপস্থাপন তৈয়াৰ কৰিবলৈ কোন ছফ্টৱেৰ ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        },
+        {
+          "en": "MS Access",
+          "as": "MS Access"
+        },
+        {
+          "en": "MS PowerPoint",
+          "as": "MS PowerPoint"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "MS PowerPoint is application software used to create slideshow presentations.",
+        "as": "MS PowerPoint এপ্লিকেশ্যন ছফ্টৱেৰ, যি স্লাইডশ্ব’ উপস্থাপন তৈয়াৰ কৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which software is mainly used for editing images?",
+        "as": "ছবি সম্পাদনা কৰিবলৈ মূলতঃ কোন ছফ্টৱেৰ ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Photoshop",
+          "as": "Photoshop"
+        },
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "Notepad",
+          "as": "Notepad"
+        },
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Photoshop is a popular application software used for editing and manipulating images.",
+        "as": "Photoshop এটা জনপ্ৰিয় এপ্লিকেশ্যন ছফ্টৱেৰ, যি ছবি সম্পাদনা আৰু পৰিৱৰ্তন কৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a search engine?",
+        "as": "তলৰ কোনটো ছাৰ্চ ইঞ্জিন?"
+      },
+      "options": [
+        {
+          "en": "Facebook",
+          "as": "Facebook"
+        },
+        {
+          "en": "YouTube",
+          "as": "YouTube"
+        },
+        {
+          "en": "Google",
+          "as": "Google"
+        },
+        {
+          "en": "WhatsApp",
+          "as": "WhatsApp"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Google is a search engine used to find information on the internet.",
+        "as": "Google এটা ছাৰ্চ ইঞ্জিন, যি ইন্টাৰনেটত তথ্য বিচাৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a markup language used to create web pages?",
+        "as": "ৱেব পৃষ্ঠা তৈয়াৰ কৰিবলৈ তলৰ কোনটো মাৰ্কআপ ভাষা ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "HTML",
+          "as": "HTML"
+        },
+        {
+          "en": "Java",
+          "as": "Java"
+        },
+        {
+          "en": "Python",
+          "as": "Python"
+        },
+        {
+          "en": "C",
+          "as": "C"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "HTML is a markup language used to structure content on web pages.",
+        "as": "HTML এটা মাৰ্কআপ ভাষা, যি ৱেব পৃষ্ঠাত সমলৰ গঠন তৈয়াৰ কৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which language is used for styling web pages?",
+        "as": "ৱেব পৃষ্ঠা styling কৰিবলৈ কোন ভাষা ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "CSS",
+          "as": "CSS"
+        },
+        {
+          "en": "HTML",
+          "as": "HTML"
+        },
+        {
+          "en": "Java",
+          "as": "Java"
+        },
+        {
+          "en": "SQL",
+          "as": "SQL"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "CSS (Cascading Style Sheets) is used to control the layout and appearance of web pages.",
+        "as": "CSS (Cascading Style Sheets) ব্যৱহাৰ কৰি ৱেব পৃষ্ঠাৰ বিন্যাস আৰু ৰূপ নিয়ন্ত্ৰণ কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which language is used to add interactivity to web pages?",
+        "as": "ৱেব পৃষ্ঠাত ইন্টাৰেক্টিভিটি যোগ কৰিবলৈ কোন ভাষা ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "HTML",
+          "as": "HTML"
+        },
+        {
+          "en": "CSS",
+          "as": "CSS"
+        },
+        {
+          "en": "SQL",
+          "as": "SQL"
+        },
+        {
+          "en": "JavaScript",
+          "as": "JavaScript"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "JavaScript is a scripting language used to make web pages interactive.",
+        "as": "JavaScript এটা স্ক্ৰিপ্টিং ভাষা, যি ৱেব পৃষ্ঠাক ইন্টাৰেক্টিভ কৰিবলৈ ব্যৱহাৰ হয়।"
       }
     }
   ]
