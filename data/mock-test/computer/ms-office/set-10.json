@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "Which function is used to add numbers in MS Excel?",
-        "as": "MS Excel-ত সংখ্যা যোগ কৰিবলৈ কোনটো ফলন ব্যৱহাৰ হয়?"
+        "en": "What does Ctrl + U do in MS Word?",
+        "as": "MS Word-ত Ctrl + U য়ে কি কৰে?"
       },
       "options": [
         {
-          "en": "SUM",
-          "as": "SUM"
+          "en": "Underlines the text",
+          "as": "লিখনীৰ তলত ৰেখা দিয়ে"
+        },
+        {
+          "en": "Makes the text bold",
+          "as": "লিখনী বোল্ড কৰে"
+        },
+        {
+          "en": "Makes the text italic",
+          "as": "লিখনী ইটালিক কৰে"
+        },
+        {
+          "en": "Centres the text",
+          "as": "লিখনী কেন্দ্ৰত সংযুক্ত কৰে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ctrl + U underlines the selected text.",
+        "as": "Ctrl + U য়ে বাছনি কৰা লিখনীৰ তলত ৰেখা দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the Thesaurus used for in MS Word?",
+        "as": "MS Word-ত Thesaurus কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "To print the document",
+          "as": "নথিপত্ৰ প্ৰিন্ট কৰা"
+        },
+        {
+          "en": "To find synonyms of a word",
+          "as": "শব্দৰ সমাৰ্থক শব্দ বিচৰা"
+        },
+        {
+          "en": "To check spelling",
+          "as": "বানান পৰীক্ষা কৰা"
+        },
+        {
+          "en": "To count words",
+          "as": "শব্দ গণনা কৰা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Thesaurus is used to find synonyms and related words.",
+        "as": "Thesaurus সমাৰ্থক আৰু সম্পৰ্কিত শব্দ বিচাৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Where does a footer appear in a Word document?",
+        "as": "Word ডকুমেণ্টত ফুটাৰ ক'ত দেখা যায়?"
+      },
+      "options": [
+        {
+          "en": "In the middle of the page",
+          "as": "পৃষ্ঠাৰ মাজত"
+        },
+        {
+          "en": "Only on the first page",
+          "as": "কেৱল প্ৰথম পৃষ্ঠাত"
+        },
+        {
+          "en": "At the bottom of the page",
+          "as": "পৃষ্ঠাৰ তলত"
+        },
+        {
+          "en": "At the top of the page",
+          "as": "পৃষ্ঠাৰ ওপৰত"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A footer appears at the bottom of every page.",
+        "as": "ফুটাৰ প্ৰতিটো পৃষ্ঠাৰ তলত দেখা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut inserts a hyperlink in MS Word?",
+        "as": "MS Word-ত হাইপাৰলিংক সন্নিবেশ কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + H",
+          "as": "Ctrl + H"
+        },
+        {
+          "en": "Ctrl + L",
+          "as": "Ctrl + L"
+        },
+        {
+          "en": "Ctrl + J",
+          "as": "Ctrl + J"
+        },
+        {
+          "en": "Ctrl + K",
+          "as": "Ctrl + K"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Ctrl + K opens the Insert Hyperlink dialog box.",
+        "as": "Ctrl + K য়ে Insert Hyperlink ডায়লগ বক্স খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does the Word Count feature show?",
+        "as": "Word Count সুবিধাই কি দেখুৱায়?"
+      },
+      "options": [
+        {
+          "en": "The number of words and characters",
+          "as": "শব্দ আৰু আখৰৰ সংখ্যা"
+        },
+        {
+          "en": "The number of pages only",
+          "as": "কেৱল পৃষ্ঠাৰ সংখ্যা"
+        },
+        {
+          "en": "The number of pictures",
+          "as": "ছবিৰ সংখ্যা"
+        },
+        {
+          "en": "The number of fonts",
+          "as": "ফণ্টৰ সংখ্যা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Word Count shows the number of words, characters, lines and pages.",
+        "as": "Word Count য়ে শব্দ, আখৰ, শাৰী আৰু পৃষ্ঠাৰ সংখ্যা দেখুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which function counts numeric cells in Excel?",
+        "as": "Excel-ত সংখ্যাযুক্ত চেল গণনা কৰিবলৈ কোন ফলন ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "COUNTIF",
+          "as": "COUNTIF"
         },
         {
           "en": "COUNT",
           "as": "COUNT"
         },
         {
-          "en": "AVERAGE",
-          "as": "AVERAGE"
+          "en": "COUNTA",
+          "as": "COUNTA"
         },
         {
-          "en": "MAX",
-          "as": "MAX"
+          "en": "SUM",
+          "as": "SUM"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The COUNT function counts cells that contain numbers.",
+        "as": "COUNT ফলনে সংখ্যা থকা চেলবোৰ গণনা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which function returns the current date and time in Excel?",
+        "as": "Excel-ত বৰ্তমান তাৰিখ আৰু সময় ঘূৰাই দিয়া ফলন কোনটো?"
+      },
+      "options": [
+        {
+          "en": "DATE()",
+          "as": "DATE()"
+        },
+        {
+          "en": "TIME()",
+          "as": "TIME()"
+        },
+        {
+          "en": "NOW()",
+          "as": "NOW()"
+        },
+        {
+          "en": "TODAY()",
+          "as": "TODAY()"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "NOW() returns the current date and time.",
+        "as": "NOW() য়ে বৰ্তমান তাৰিখ আৰু সময় ঘূৰাই দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which symbol must every Excel formula begin with?",
+        "as": "প্ৰতিটো Excel সূত্ৰ কোন চিহ্নৰে আৰম্ভ হ'ব লাগে?"
+      },
+      "options": [
+        {
+          "en": "+",
+          "as": "+"
+        },
+        {
+          "en": "#",
+          "as": "#"
+        },
+        {
+          "en": "@",
+          "as": "@"
+        },
+        {
+          "en": "=",
+          "as": "="
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Every Excel formula begins with an equals sign (=).",
+        "as": "প্ৰতিটো Excel সূত্ৰ সমান চিহ্ন (=) ৰে আৰম্ভ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does the F4 key do in Excel?",
+        "as": "Excel-ত F4 কী য়ে কি কৰে?"
+      },
+      "options": [
+        {
+          "en": "Toggles absolute and relative references",
+          "as": "পূৰ্ণ আৰু আপেক্ষিক ৰেফাৰেন্সৰ মাজত সলনি কৰে"
+        },
+        {
+          "en": "Opens the print dialog",
+          "as": "প্ৰিন্ট ডায়লগ খোলে"
+        },
+        {
+          "en": "Saves the workbook",
+          "as": "ৱৰ্কবুক চেভ কৰে"
+        },
+        {
+          "en": "Inserts a new worksheet",
+          "as": "নতুন ৱৰ্কশ্বীট সন্নিবেশ কৰে"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "The SUM function adds all the selected numbers in Excel.",
-        "as": "SUM ফলনে Excel-ত নিৰ্বাচিত সকলো সংখ্যা যোগ কৰে।"
+        "en": "F4 toggles between absolute and relative cell references.",
+        "as": "F4 য়ে পূৰ্ণ আৰু আপেক্ষিক চেল ৰেফাৰেন্সৰ মাজত সলনি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Excel feature removes duplicate rows from data?",
+        "as": "তথ্যৰ পৰা পুনৰাবৃত্ত শাৰী মচিবলৈ Excel-ৰ কোন সুবিধা ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Freeze Panes",
+          "as": "Freeze Panes"
+        },
+        {
+          "en": "Remove Duplicates",
+          "as": "Remove Duplicates"
+        },
+        {
+          "en": "Filter",
+          "as": "Filter"
+        },
+        {
+          "en": "Sort",
+          "as": "Sort"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Remove Duplicates deletes duplicate rows from the selected data.",
+        "as": "Remove Duplicates য়ে বাছনি কৰা তথ্যৰ পৰা পুনৰাবৃত্ত শাৰী মচে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which chart is best for comparing values across categories?",
+        "as": "শ্ৰেণী অনুসৰি মান তুলনা কৰিবলৈ কোন চাৰ্ট উত্তম?"
+      },
+      "options": [
+        {
+          "en": "Doughnut chart",
+          "as": "ড'নাট চাৰ্ট"
+        },
+        {
+          "en": "Radar chart",
+          "as": "ৰাডাৰ চাৰ্ট"
+        },
+        {
+          "en": "Column chart",
+          "as": "কলাম চাৰ্ট"
+        },
+        {
+          "en": "Pie chart",
+          "as": "পাই চাৰ্ট"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A column chart is best for comparing values across categories.",
+        "as": "শ্ৰেণী অনুসৰি মান তুলনা কৰিবলৈ কলাম চাৰ্ট আটাইতকৈ উপযুক্ত।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the intersection of a row and a column called in Excel?",
+        "as": "Excel-ত এটা শাৰী আৰু এটা স্তম্ভৰ সংযোগস্থলক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Range",
+          "as": "ৰেঞ্জ"
+        },
+        {
+          "en": "Sheet",
+          "as": "শ্বীট"
+        },
+        {
+          "en": "Workbook",
+          "as": "ৱৰ্কবুক"
+        },
+        {
+          "en": "Cell",
+          "as": "চেল"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The intersection of a row and a column is called a cell.",
+        "as": "শাৰী আৰু স্তম্ভৰ সংযোগস্থলক চেল বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which tab is used to insert pictures and charts in PowerPoint?",
+        "as": "PowerPoint-ত ছবি আৰু চাৰ্ট সন্নিবেশ কৰিবলৈ কোন টেব ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Insert",
+          "as": "Insert"
+        },
+        {
+          "en": "Home",
+          "as": "Home"
+        },
+        {
+          "en": "Design",
+          "as": "Design"
+        },
+        {
+          "en": "View",
+          "as": "View"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Insert tab is used to add pictures, charts, shapes and other objects.",
+        "as": "ছবি, চাৰ্ট, আকৃতি আৰু অন্য বস্তু যোগ কৰিবলৈ Insert টেব ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which animation category makes an object leave the slide?",
+        "as": "কোন এনিমেচন শ্ৰেণীয়ে বস্তু এটা স্লাইডৰপৰা আঁতৰাই নিয়ে?"
+      },
+      "options": [
+        {
+          "en": "Motion Path",
+          "as": "Motion Path"
+        },
+        {
+          "en": "Exit",
+          "as": "Exit"
+        },
+        {
+          "en": "Entrance",
+          "as": "Entrance"
+        },
+        {
+          "en": "Emphasis",
+          "as": "Emphasis"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "An Exit animation makes an object leave the slide.",
+        "as": "Exit এনিমেচনে বস্তু এটা স্লাইডৰপৰা আঁতৰাই নিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which PowerPoint view displays slides along with speaker notes?",
+        "as": "কোন PowerPoint ভিউয়ে স্লাইডৰ সৈতে স্পীকাৰ নোট দেখুৱায়?"
+      },
+      "options": [
+        {
+          "en": "Reading view",
+          "as": "Reading ভিউ"
+        },
+        {
+          "en": "Outline view",
+          "as": "Outline ভিউ"
+        },
+        {
+          "en": "Notes Page view",
+          "as": "Notes Page ভিউ"
+        },
+        {
+          "en": "Slide Sorter view",
+          "as": "Slide Sorter ভিউ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Notes Page view displays each slide along with its speaker notes.",
+        "as": "Notes Page ভিউয়ে প্ৰতিটো স্লাইডৰ সৈতে তাৰ স্পীকাৰ নোট দেখুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does the Hide Slide option do in PowerPoint?",
+        "as": "PowerPoint-ত Hide Slide বিকল্পই কি কৰে?"
+      },
+      "options": [
+        {
+          "en": "Deletes the slide",
+          "as": "স্লাইডটো মচে"
+        },
+        {
+          "en": "Prints the slide",
+          "as": "স্লাইডটো প্ৰিন্ট কৰে"
+        },
+        {
+          "en": "Copies the slide",
+          "as": "স্লাইডটো কপি কৰে"
+        },
+        {
+          "en": "Skips the slide during a slide show",
+          "as": "স্লাইড শ্ব'ৰ সময়ত স্লাইডটো এৰাই যায়"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Hide Slide hides a slide so that it is skipped during the slide show.",
+        "as": "Hide Slide য়ে স্লাইডটো লুকুৱাই ৰাখে, যাতে স্লাইড শ্ব'ৰ সময়ত ইয়াক এৰাই যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the file extension of a PowerPoint template?",
+        "as": "PowerPoint টেমপ্লেটৰ ফাইল এক্সটেনশ্যন কি?"
+      },
+      "options": [
+        {
+          "en": ".potx",
+          "as": ".potx"
+        },
+        {
+          "en": ".pptx",
+          "as": ".pptx"
+        },
+        {
+          "en": ".ppsx",
+          "as": ".ppsx"
+        },
+        {
+          "en": ".docx",
+          "as": ".docx"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A PowerPoint template uses the .potx extension.",
+        "as": "PowerPoint টেমপ্লেটে .potx এক্সটেনশ্যন ব্যৱহাৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the Navigation Pane used for in MS Access?",
+        "as": "MS Access-ত Navigation Pane কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "To send emails",
+          "as": "ইমেইল পঠিওৱা"
+        },
+        {
+          "en": "To list and open database objects",
+          "as": "ডেটাবেছ বস্তুবোৰ তালিকা আৰু খোলা"
+        },
+        {
+          "en": "To print reports",
+          "as": "ৰিপৰ্ট প্ৰিন্ট কৰা"
+        },
+        {
+          "en": "To create charts",
+          "as": "চাৰ্ট তৈয়াৰ কৰা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Navigation Pane lists all the objects in an Access database.",
+        "as": "Navigation Pane য়ে Access ডেটাবেছৰ সকলো বস্তু তালিকাভুক্ত কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does Compact and Repair do in MS Access?",
+        "as": "MS Access-ত Compact and Repair য়ে কি কৰে?"
+      },
+      "options": [
+        {
+          "en": "Prints a report",
+          "as": "ৰিপৰ্ট প্ৰিন্ট কৰে"
+        },
+        {
+          "en": "Sends an email",
+          "as": "ইমেইল পঠিয়ায়"
+        },
+        {
+          "en": "Reduces file size and fixes database problems",
+          "as": "ফাইলৰ আকাৰ কমায় আৰু ডেটাবেছৰ সমস্যা ঠিক কৰে"
+        },
+        {
+          "en": "Creates a new table",
+          "as": "নতুন টেবুল তৈয়াৰ কৰে"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Compact and Repair reduces the size of the database and repairs minor problems.",
+        "as": "Compact and Repair য়ে ডেটাবেছৰ আকাৰ কমায় আৰু সৰু সমস্যাবোৰ ঠিক কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is a relationship in MS Access used for?",
+        "as": "MS Access-ত Relationship কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "To print tables",
+          "as": "টেবুল প্ৰিন্ট কৰা"
+        },
+        {
+          "en": "To delete records",
+          "as": "ৰেকৰ্ড মচা"
+        },
+        {
+          "en": "To create forms",
+          "as": "ফৰ্ম তৈয়াৰ কৰা"
+        },
+        {
+          "en": "To link tables using a common field",
+          "as": "সাধাৰণ ফিল্ড ব্যৱহাৰ কৰি টেবুলবোৰ সংযুক্ত কৰা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A relationship links two tables through a common field.",
+        "as": "Relationship য়ে সাধাৰণ ফিল্ডৰ জৰিয়তে দুটা টেবুল সংযুক্ত কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Outlook folder stores copies of sent messages?",
+        "as": "পঠিওৱা বাৰ্তাৰ প্ৰতিলিপি Outlook-ৰ কোন ফোল্ডাৰত সংৰক্ষিত হয়?"
+      },
+      "options": [
+        {
+          "en": "Sent Items",
+          "as": "প্ৰেৰিত আইটেম"
+        },
+        {
+          "en": "Inbox",
+          "as": "ইনবক্স"
+        },
+        {
+          "en": "Outbox",
+          "as": "আউটবক্স"
+        },
+        {
+          "en": "Drafts",
+          "as": "ড্ৰাফ্ট"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Copies of sent messages are stored in the Sent Items folder.",
+        "as": "পঠিওৱা বাৰ্তাৰ প্ৰতিলিপি Sent Items ফোল্ডাৰত সংৰক্ষিত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does the paperclip icon do in Outlook?",
+        "as": "Outlook-ত পেপাৰক্লিপ আইকনে কি কৰে?"
+      },
+      "options": [
+        {
+          "en": "Prints the email",
+          "as": "ইমেইল প্ৰিন্ট কৰে"
+        },
+        {
+          "en": "Attaches a file to the email",
+          "as": "ইমেইলত ফাইল সংলগ্ন কৰে"
+        },
+        {
+          "en": "Sends the email",
+          "as": "ইমেইল পঠিয়ায়"
+        },
+        {
+          "en": "Deletes the email",
+          "as": "ইমেইল মচে"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The paperclip icon is used to attach a file to an email.",
+        "as": "পেপাৰক্লিপ আইকন ইমেইলত ফাইল সংলগ্ন কৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used to paste the copied item in MS Office?",
+        "as": "MS Office-ত কপি কৰা বস্তু পেষ্ট কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        },
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        },
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Ctrl + V pastes the item from the clipboard.",
+        "as": "Ctrl + V য়ে ক্লিপব'ৰ্ডৰপৰা বস্তু পেষ্ট কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the status bar in MS Office used for?",
+        "as": "MS Office-ত ষ্টেটাছ বাৰ কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "To print the document",
+          "as": "নথিপত্ৰ প্ৰিন্ট কৰা"
+        },
+        {
+          "en": "To open the File tab",
+          "as": "File টেব খোলা"
+        },
+        {
+          "en": "To change the font",
+          "as": "ফণ্ট সলনি কৰা"
+        },
+        {
+          "en": "To show information about the current document",
+          "as": "বৰ্তমান নথিপত্ৰৰ তথ্য দেখুওৱা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The status bar displays information such as page number, word count and zoom level.",
+        "as": "ষ্টেটাছ বাৰে পৃষ্ঠা সংখ্যা, শব্দ সংখ্যা আৰু জুম স্তৰৰ দৰে তথ্য দেখুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut closes the active MS Office application?",
+        "as": "সক্ৰিয় MS Office এপ্লিকেচন বন্ধ কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Alt + F4",
+          "as": "Alt + F4"
+        },
+        {
+          "en": "Ctrl + W",
+          "as": "Ctrl + W"
+        },
+        {
+          "en": "Alt + F2",
+          "as": "Alt + F2"
+        },
+        {
+          "en": "Ctrl + Q",
+          "as": "Ctrl + Q"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Alt + F4 closes the active application window.",
+        "as": "Alt + F4 য়ে সক্ৰিয় এপ্লিকেচন উইণ্ডো বন্ধ কৰে।"
       }
     }
   ]
