@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "The binary representation of the decimal number 5 is?",
-        "as": "দশমিক সংখ্যা ৫ ৰ বাইনাৰি ৰূপ কি?"
+        "en": "Cache memory is usually made of which type of memory?",
+        "as": "কেশ্ব স্মৃতি সাধাৰণতে কোন ধৰণৰ স্মৃতিৰে তৈয়াৰ কৰা হয়?"
       },
       "options": [
         {
-          "en": "101",
-          "as": "101"
+          "en": "SRAM",
+          "as": "SRAM"
         },
         {
-          "en": "110",
-          "as": "110"
+          "en": "DRAM",
+          "as": "DRAM"
         },
         {
-          "en": "011",
-          "as": "011"
+          "en": "ROM",
+          "as": "ROM"
         },
         {
-          "en": "111",
-          "as": "111"
+          "en": "Hard disk",
+          "as": "হাৰ্ড ডিস্ক"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "5 = 4 + 1 = 2 squared + 2 to the power 0, so its binary form is 101.",
-        "as": "৫ = ৪ + ১ = ২² + ২⁰; সেয়ে ইয়াৰ বাইনাৰি ৰূপ ১০১।"
+        "en": "Cache memory is usually built with SRAM because it is faster than DRAM.",
+        "as": "কেশ্ব স্মৃতি সাধাৰণতে SRAM ৰে তৈয়াৰ কৰা হয়, কাৰণ ই DRAM তকৈ দ্ৰুত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which memory stores the BIOS and firmware?",
+        "as": "কোন স্মৃতিয়ে BIOS আৰু ফাৰ্মৱেৰ সংৰক্ষণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "RAM",
+          "as": "RAM"
+        },
+        {
+          "en": "ROM",
+          "as": "ROM"
+        },
+        {
+          "en": "Cache",
+          "as": "কেশ্ব"
+        },
+        {
+          "en": "Register",
+          "as": "ৰেজিষ্টাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "ROM stores the BIOS and firmware, which are needed when the computer starts.",
+        "as": "ROM য়ে BIOS আৰু ফাৰ্মৱেৰ সংৰক্ষণ কৰে, যি কম্পিউটাৰ আৰম্ভ হ'বলৈ প্ৰয়োজন।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a secondary storage device?",
+        "as": "তলৰ কোনটো গৌণ সংৰক্ষণ সঁজুলি?"
+      },
+      "options": [
+        {
+          "en": "RAM",
+          "as": "RAM"
+        },
+        {
+          "en": "Cache",
+          "as": "কেশ্ব"
+        },
+        {
+          "en": "DVD",
+          "as": "DVD"
+        },
+        {
+          "en": "Register",
+          "as": "ৰেজিষ্টাৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A DVD is secondary storage used to store data permanently for later use.",
+        "as": "DVD গৌণ সংৰক্ষণ, যি তথ্য পিছত ব্যৱহাৰৰ বাবে স্থায়ীভাৱে ৰাখে।"
+      }
+    },
+    {
+      "q": {
+        "en": "1 MB is equal to?",
+        "as": "১ MB কিমানৰ সমান?"
+      },
+      "options": [
+        {
+          "en": "1000 KB",
+          "as": "১০০০ KB"
+        },
+        {
+          "en": "1024 KB",
+          "as": "১০২৪ KB"
+        },
+        {
+          "en": "512 KB",
+          "as": "৫১২ KB"
+        },
+        {
+          "en": "2048 KB",
+          "as": "২০৪৮ KB"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "1 MB (megabyte) is equal to 1024 KB (kilobytes).",
+        "as": "১ MB (মেগাবাইট) = ১০২৪ KB (কিলোবাইট)।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of ASCII is?",
+        "as": "ASCII-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "American National Standard Code",
+          "as": "আমেৰিকান নেশ্যনেল ষ্টেণ্ডাৰ্ড কোড"
+        },
+        {
+          "en": "American Standard Code for Information Exchange",
+          "as": "আমেৰিকান ষ্টেণ্ডাৰ্ড কোড ফৰ ইনফৰ্মেশ্যন এক্সচেঞ্জ"
+        },
+        {
+          "en": "American System Code for Information Interchange",
+          "as": "আমেৰিকান চিষ্টেম কোড ফৰ ইনফৰ্মেশ্যন ইন্টাৰচেঞ্জ"
+        },
+        {
+          "en": "American Standard Code for Information Interchange",
+          "as": "আমেৰিকান ষ্টেণ্ডাৰ্ড কোড ফৰ ইনফৰ্মেশ্যন ইন্টাৰচেঞ্জ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "ASCII stands for American Standard Code for Information Interchange, a character encoding standard.",
+        "as": "ASCII ৰ সম্পূৰ্ণ ৰূপ American Standard Code for Information Interchange; ই আখৰ এনকোডিংৰ মান।"
+      }
+    },
+    {
+      "q": {
+        "en": "How many bits are there in a nibble?",
+        "as": "এটা নিবলত কিমান বিট থাকে?"
+      },
+      "options": [
+        {
+          "en": "4 bits",
+          "as": "৪ বিট"
+        },
+        {
+          "en": "8 bits",
+          "as": "৮ বিট"
+        },
+        {
+          "en": "2 bits",
+          "as": "২ বিট"
+        },
+        {
+          "en": "16 bits",
+          "as": "১৬ বিট"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A nibble contains 4 bits, while a byte contains 8 bits.",
+        "as": "এটা নিবলত ৪ বিট থাকে, আনহাতে এটা বাইটত ৮ বিট থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which device is used to print large drawings and maps?",
+        "as": "ডাঙৰ অংকন আৰু মানচিত্ৰ ছপাবলৈ কোন সঁজুলি ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Printer",
+          "as": "প্ৰিণ্টাৰ"
+        },
+        {
+          "en": "Plotter",
+          "as": "প্লটাৰ"
+        },
+        {
+          "en": "Monitor",
+          "as": "মনিটৰ"
+        },
+        {
+          "en": "Speaker",
+          "as": "স্পীকাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A plotter is an output device used to print large drawings, maps and designs.",
+        "as": "প্লটাৰ এটা আউটপুট সঁজুলি, যি ডাঙৰ অংকন, মানচিত্ৰ আৰু ডিজাইন ছপাবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which device is used to scan documents into a computer?",
+        "as": "নথিপত্ৰ কম্পিউটাৰত স্কেন কৰিবলৈ কোন সঁজুলি ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Mouse",
+          "as": "মাউছ"
+        },
+        {
+          "en": "Keyboard",
+          "as": "কীব’ৰ্ড"
+        },
+        {
+          "en": "Scanner",
+          "as": "স্কেনাৰ"
+        },
+        {
+          "en": "Joystick",
+          "as": "জয়ষ্টিক"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A scanner converts printed documents and images into digital form.",
+        "as": "স্কেনাৰে ছপা নথিপত্ৰ আৰু ছবি ডিজিটেল ৰূপলৈ ৰূপান্তৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a storage device?",
+        "as": "তলৰ কোনটো সংৰক্ষণ সঁজুলি?"
+      },
+      "options": [
+        {
+          "en": "Monitor",
+          "as": "মনিটৰ"
+        },
+        {
+          "en": "Keyboard",
+          "as": "কীব’ৰ্ড"
+        },
+        {
+          "en": "Printer",
+          "as": "প্ৰিণ্টাৰ"
+        },
+        {
+          "en": "Pen drive",
+          "as": "পেন ড্ৰাইভ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A pen drive is a portable storage device used to store and transfer data.",
+        "as": "পেন ড্ৰাইভ এটা বহনযোগ্য সংৰক্ষণ সঁজুলি, যি তথ্য সংৰক্ষণ আৰু স্থানান্তৰ কৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a programming language?",
+        "as": "তলৰ কোনটো প্ৰগ্ৰামিং ভাষা?"
+      },
+      "options": [
+        {
+          "en": "Python",
+          "as": "Python"
+        },
+        {
+          "en": "MS Word",
+          "as": "MS Word"
+        },
+        {
+          "en": "Windows",
+          "as": "Windows"
+        },
+        {
+          "en": "Google Chrome",
+          "as": "Google Chrome"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Python is a high-level programming language used to write computer programs.",
+        "as": "Python এটা উচ্চস্তৰীয় প্ৰগ্ৰামিং ভাষা, যি কম্পিউটাৰ প্ৰগ্ৰাম লিখিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which translator converts a program line by line?",
+        "as": "কোন অনুবাদকে প্ৰগ্ৰাম শাৰী শাৰীকৈ ৰূপান্তৰ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Compiler",
+          "as": "ক’ম্পাইলাৰ"
+        },
+        {
+          "en": "Interpreter",
+          "as": "ইণ্টাৰপ্ৰেটাৰ"
+        },
+        {
+          "en": "Assembler",
+          "as": "এচেম্বলাৰ"
+        },
+        {
+          "en": "Linker",
+          "as": "লিংকাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "An interpreter translates and executes a program one line at a time.",
+        "as": "ইণ্টাৰপ্ৰেটাৰে প্ৰগ্ৰাম এটা এটা শাৰীকৈ অনুবাদ আৰু সম্পাদন কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which translator converts the whole program at once?",
+        "as": "কোন অনুবাদকে সম্পূৰ্ণ প্ৰগ্ৰাম একেলগে ৰূপান্তৰ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Interpreter",
+          "as": "ইণ্টাৰপ্ৰেটাৰ"
+        },
+        {
+          "en": "Assembler",
+          "as": "এচেম্বলাৰ"
+        },
+        {
+          "en": "Compiler",
+          "as": "ক’ম্পাইলাৰ"
+        },
+        {
+          "en": "Loader",
+          "as": "লোডাৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A compiler translates the entire program into machine code at once.",
+        "as": "ক’ম্পাইলাৰে সম্পূৰ্ণ প্ৰগ্ৰাম একেলগে মেচিন কোডলৈ ৰূপান্তৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of HTML is?",
+        "as": "HTML-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "HyperText Machine Language",
+          "as": "হাইপাৰটেক্সট মেচিন লেংগুৱেজ"
+        },
+        {
+          "en": "Hyperlink Text Markup Language",
+          "as": "হাইপাৰলিংক টেক্সট মাৰ্কআপ লেংগুৱেজ"
+        },
+        {
+          "en": "High Text Markup Language",
+          "as": "হাই টেক্সট মাৰ্কআপ লেংগুৱেজ"
+        },
+        {
+          "en": "HyperText Markup Language",
+          "as": "হাইপাৰটেক্সট মাৰ্কআপ লেংগুৱেজ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "HTML stands for HyperText Markup Language, used to create web pages.",
+        "as": "HTML ৰ সম্পূৰ্ণ ৰূপ HyperText Markup Language, যি ৱেবপৃষ্ঠা তৈয়াৰ কৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of FTP is?",
+        "as": "FTP-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "File Transfer Protocol",
+          "as": "ফাইল ট্ৰান্সফাৰ প্ৰট’কল"
+        },
+        {
+          "en": "File Transmission Protocol",
+          "as": "ফাইল ট্ৰান্সমিছন প্ৰট’কল"
+        },
+        {
+          "en": "Fast Transfer Protocol",
+          "as": "ফাষ্ট ট্ৰান্সফাৰ প্ৰট’কল"
+        },
+        {
+          "en": "File Text Protocol",
+          "as": "ফাইল টেক্সট প্ৰট’কল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "FTP stands for File Transfer Protocol, used to transfer files between computers over a network.",
+        "as": "FTP ৰ সম্পূৰ্ণ ৰূপ File Transfer Protocol, যি নেটৱৰ্কত কম্পিউটাৰৰ মাজত ফাইল স্থানান্তৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of SMTP is?",
+        "as": "SMTP-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Simple Mail Transfer Program",
+          "as": "ছিম্পল মেইল ট্ৰান্সফাৰ প্ৰগ্ৰাম"
+        },
+        {
+          "en": "Simple Mail Transfer Protocol",
+          "as": "ছিম্পল মেইল ট্ৰান্সফাৰ প্ৰট’কল"
+        },
+        {
+          "en": "Secure Mail Transfer Protocol",
+          "as": "ছিকিউৰ মেইল ট্ৰান্সফাৰ প্ৰট’কল"
+        },
+        {
+          "en": "Simple Message Transfer Protocol",
+          "as": "ছিম্পল মেছেজ ট্ৰান্সফাৰ প্ৰট’কল"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "SMTP stands for Simple Mail Transfer Protocol, used for sending e-mail.",
+        "as": "SMTP ৰ সম্পূৰ্ণ ৰূপ Simple Mail Transfer Protocol, যি ই-মেইল পঠিয়াবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of IMAP is?",
+        "as": "IMAP-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Internet Mail Access Program",
+          "as": "ইণ্টাৰনেট মেইল এক্সেছ প্ৰগ্ৰাম"
+        },
+        {
+          "en": "Internet Message Access Program",
+          "as": "ইণ্টাৰনেট মেছেজ এক্সেছ প্ৰগ্ৰাম"
+        },
+        {
+          "en": "Internet Message Access Protocol",
+          "as": "ইণ্টাৰনেট মেছেজ এক্সেছ প্ৰট’কল"
+        },
+        {
+          "en": "Internal Mail Access Protocol",
+          "as": "ইণ্টাৰনেল মেইল এক্সেছ প্ৰট’কল"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "IMAP stands for Internet Message Access Protocol, used to retrieve e-mail from a mail server.",
+        "as": "IMAP ৰ সম্পূৰ্ণ ৰূপ Internet Message Access Protocol, যি মেইল চাৰ্ভাৰৰ পৰা ই-মেইল আনিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The shortcut key for Cut is?",
+        "as": "Cut-ৰ শ্বৰ্টকাট কি?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        },
+        {
+          "en": "Ctrl + Z",
+          "as": "Ctrl + Z"
+        },
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Ctrl + X is used to cut the selected text or object.",
+        "as": "Ctrl + X য়ে বাছনি কৰা লিখা বা বস্তু কাট (cut) কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The shortcut key for Save is?",
+        "as": "Save-ৰ শ্বৰ্টকাট কি?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        },
+        {
+          "en": "Ctrl + O",
+          "as": "Ctrl + O"
+        },
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ctrl + S is the standard shortcut used to save a file.",
+        "as": "Ctrl + S হৈ ফাইল সংৰক্ষণ কৰাৰ সাধাৰণ শ্বৰ্টকাট।"
+      }
+    },
+    {
+      "q": {
+        "en": "The shortcut key for Print is?",
+        "as": "Print-ৰ শ্বৰ্টকাট কি?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + O",
+          "as": "Ctrl + O"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + F",
+          "as": "Ctrl + F"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Ctrl + P opens the print dialog box in most applications.",
+        "as": "বেছিভাগ এপ্লিকেচনত Ctrl + P য়ে প্ৰিণ্ট ডায়লগ বক্স খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The address of a website is commonly called?",
+        "as": "ৱেবচাইটৰ ঠিকনাক সাধাৰণতে কি বোলা হয়?"
+      },
+      "options": [
+        {
+          "en": "IP address",
+          "as": "IP ঠিকনা"
+        },
+        {
+          "en": "Domain name",
+          "as": "ডমেইন নাম"
+        },
+        {
+          "en": "URL",
+          "as": "URL"
+        },
+        {
+          "en": "HTTP",
+          "as": "HTTP"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The full address of a website is called a URL (Uniform Resource Locator).",
+        "as": "ৱেবচাইটৰ সম্পূৰ্ণ ঠিকনাক URL (Uniform Resource Locator) বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a mobile operating system?",
+        "as": "তলৰ কোনটো ম’বাইল অপাৰেটিং চিষ্টেম?"
+      },
+      "options": [
+        {
+          "en": "Windows",
+          "as": "Windows"
+        },
+        {
+          "en": "Android",
+          "as": "Android"
+        },
+        {
+          "en": "Linux",
+          "as": "Linux"
+        },
+        {
+          "en": "macOS",
+          "as": "macOS"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Android is a mobile operating system designed for smartphones and tablets.",
+        "as": "Android এটা ম’বাইল অপাৰেটিং চিষ্টেম, যি স্মাৰ্টফোন আৰু টেবলেটৰ বাবে তৈয়াৰ কৰা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of DBMS is?",
+        "as": "DBMS-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Database Management Software",
+          "as": "ডেটাবেছ মেনেজমেণ্ট ছফটৱেৰ"
+        },
+        {
+          "en": "Data Management System",
+          "as": "ডেটা মেনেজমেণ্ট চিষ্টেম"
+        },
+        {
+          "en": "Database Management System",
+          "as": "ডেটাবেছ মেনেজমেণ্ট চিষ্টেম"
+        },
+        {
+          "en": "Database Machine System",
+          "as": "ডেটাবেছ মেচিন চিষ্টেম"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "DBMS stands for Database Management System, used to store and manage data in databases.",
+        "as": "DBMS ৰ সম্পূৰ্ণ ৰূপ Database Management System, যি ডেটাবেছত তথ্য সংৰক্ষণ আৰু পৰিচালনা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The full form of SQL is?",
+        "as": "SQL-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Simple Query Language",
+          "as": "ছিম্পল কোৱেৰী লেংগুৱেজ"
+        },
+        {
+          "en": "Structured Query Logic",
+          "as": "ষ্ট্ৰাকচাৰ্ড কোৱেৰী লজিক"
+        },
+        {
+          "en": "Standard Query Language",
+          "as": "ষ্টেণ্ডাৰ্ড কোৱেৰী লেংগুৱেজ"
+        },
+        {
+          "en": "Structured Query Language",
+          "as": "ষ্ট্ৰাকচাৰ্ড কোৱেৰী লেংগুৱেজ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "SQL stands for Structured Query Language, used to work with databases.",
+        "as": "SQL ৰ সম্পূৰ্ণ ৰূপ Structured Query Language, যি ডেটাবেছৰ সৈতে কাম কৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is utility software?",
+        "as": "তলৰ কোনটো ইউটিলিটি ছফটৱেৰ?"
+      },
+      "options": [
+        {
+          "en": "Antivirus",
+          "as": "এণ্টিভাইৰাছ"
+        },
+        {
+          "en": "MS Excel",
+          "as": "MS Excel"
+        },
+        {
+          "en": "Google Chrome",
+          "as": "Google Chrome"
+        },
+        {
+          "en": "Photoshop",
+          "as": "Photoshop"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Antivirus is utility software that helps maintain and protect the computer system.",
+        "as": "এণ্টিভাইৰাছ ইউটিলিটি ছফটৱেৰ, যি কম্পিউটাৰ চিষ্টেম ৰক্ষণাবেক্ষণ আৰু সুৰক্ষিত কৰাত সহায় কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is not an input device?",
+        "as": "তলৰ কোনটো ইনপুট ডিভাইচ নহয়?"
+      },
+      "options": [
+        {
+          "en": "Monitor",
+          "as": "মনিটৰ"
+        },
+        {
+          "en": "Keyboard",
+          "as": "কীব’ৰ্ড"
+        },
+        {
+          "en": "Mouse",
+          "as": "মাউছ"
+        },
+        {
+          "en": "Scanner",
+          "as": "স্কেনাৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A monitor is an output device, not an input device.",
+        "as": "মনিটৰ আউটপুট ডিভাইচ, ইনপুট ডিভাইচ নহয়।"
       }
     }
   ]
