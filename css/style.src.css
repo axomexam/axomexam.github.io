@@ -1067,6 +1067,7 @@ body[data-lang="as"] .qa-a .a-label { text-transform: none; letter-spacing: 0; f
   box-shadow: 0 4px 14px -6px var(--primary);
 }
 .quiz-timer.low { background: linear-gradient(135deg, #dc2626, #f97316); box-shadow: 0 4px 14px -6px #dc2626; color: #fff; animation: pulse .9s ease infinite; }
+.quiz-timer .qt-ico { width: 14px; height: 14px; flex-shrink: 0; }
 @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .55 } }
 .quiz-quit { padding: 7px 13px; border-radius: 10px; border: 1px solid var(--line); font-size: .84rem; font-weight: 700; color: var(--ink-soft); transition: all var(--transition); }
 .quiz-quit:hover { color: #dc2626; border-color: #fecaca; background: #fef2f2; }

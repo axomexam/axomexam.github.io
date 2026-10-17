@@ -6398,7 +6398,7 @@
       <div class="quiz-wrap">
         <div class="quiz-top">
           <span class="qt-cat">${setLabel} • Question ${m.idx + 1}/${m.pool.length}</span>
-          <span class="quiz-timer" id="quiz-timer" title="Time Elapsed">⏱ ${fmtTime(m.elapsedSec)}</span>
+          <span class="quiz-timer" id="quiz-timer" title="Time Elapsed"><svg class="qt-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><span id="quiz-timer-val">${fmtTime(m.elapsedSec)}</span></span>
           <button class="quiz-quit" id="quiz-quit-btn">${t("mock.quit")}</button>
         </div>
         <div class="quiz-progress"><span id="quiz-progress" style="width:${((m.idx) / m.pool.length * 100).toFixed(1)}%"></span></div>
@@ -6563,8 +6563,8 @@
     const tick = () => {
       if (!m || !m.started || m.timerId === null) return;
       m.elapsedSec++;
-      const tEl = $("#quiz-timer");
-      if (tEl) tEl.textContent = `⏱ ${fmtTime(m.elapsedSec)}`;
+      const tEl = $("#quiz-timer-val");
+      if (tEl) tEl.textContent = fmtTime(m.elapsedSec);
     };
     m.timerId = setInterval(tick, 1000);
   }
