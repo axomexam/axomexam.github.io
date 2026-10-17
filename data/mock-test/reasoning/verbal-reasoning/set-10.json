@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "Find the odd one out: Rose, Lotus, Lily, Mango",
-        "as": "বেলেগটো বাছক: গোলাপ, পদুম, লিলি, আম"
+        "en": "Watch is to Wrist as Ring is to?",
+        "as": "ঘড়ীৰ লগত হাতৰ কব্জি যেনে, আঙঠিৰ লগত কি?"
       },
       "options": [
         {
-          "en": "Rose",
-          "as": "গোলাপ"
+          "en": "Finger",
+          "as": "আঙুলি"
         },
         {
-          "en": "Lotus",
-          "as": "পদুম"
+          "en": "Hand",
+          "as": "হাত"
         },
         {
-          "en": "Lily",
-          "as": "লিলি"
+          "en": "Gold",
+          "as": "সোণ"
         },
         {
-          "en": "Mango",
-          "as": "আম"
+          "en": "Box",
+          "as": "বাকচ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A watch is worn on the wrist and a ring is worn on the finger, so the answer is Finger.",
+        "as": "ঘড়ী কব্জিত পিন্ধা হয় আৰু আঙঠি আঙুলিত পিন্ধা হয়; সেয়ে উত্তৰ 'আঙুলি'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one out: 9, 16, 25, 36, 42",
+        "as": "বেলেগটো বাছক: ৯, ১৬, ২৫, ৩৬, ৪২"
+      },
+      "options": [
+        {
+          "en": "9",
+          "as": "৯"
+        },
+        {
+          "en": "16",
+          "as": "১৬"
+        },
+        {
+          "en": "25",
+          "as": "২৫"
+        },
+        {
+          "en": "42",
+          "as": "৪২"
         }
       ],
       "correct": 3,
       "explanation": {
-        "en": "Rose, lotus and lily are flowers, while mango is a fruit, so Mango is the odd one out.",
-        "as": "গোলাপ, পদুম আৰু লিলি ফুল, কিন্তু আম এটা ফল; সেয়ে 'আম' বেলেগ।"
+        "en": "9, 16, 25 and 36 are perfect squares, while 42 is not, so 42 is the odd one.",
+        "as": "৯, ১৬, ২৫ আৰু ৩৬ পূৰ্ণবৰ্গ, কিন্তু ৪২ নহয়; সেয়ে ৪২ বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the next number: 5, 11, 23, 47, ?",
+        "as": "পৰৱৰ্তী সংখ্যা বাছক: ৫, ১১, ২৩, ৪৭, ?"
+      },
+      "options": [
+        {
+          "en": "93",
+          "as": "৯৩"
+        },
+        {
+          "en": "94",
+          "as": "৯৪"
+        },
+        {
+          "en": "95",
+          "as": "৯৫"
+        },
+        {
+          "en": "96",
+          "as": "৯৬"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Each term is obtained by doubling the previous term and adding 1 (5x2+1=11, 11x2+1=23, 23x2+1=47), so the next term is 47x2+1 = 95.",
+        "as": "প্ৰতিটো পদ আগৰটোৰ দুগুণত ১ যোগ কৰি পোৱা যায় (৫x২+১=১১, ১১x২+১=২৩, ২৩x২+১=৪৭); সেয়ে পৰৱৰ্তী পদ ৪৭x২+১ = ৯৫।"
+      }
+    },
+    {
+      "q": {
+        "en": "If CAT is coded as 3-1-20, then DOG is coded as?",
+        "as": "যদি CAT-ক ৩-১-২০ কোড কৰা হয়, তেন্তে DOG-ৰ কোড কি?"
+      },
+      "options": [
+        {
+          "en": "4-15-7",
+          "as": "৪-১৫-৭"
+        },
+        {
+          "en": "4-14-7",
+          "as": "৪-১৪-৭"
+        },
+        {
+          "en": "3-15-7",
+          "as": "৩-১৫-৭"
+        },
+        {
+          "en": "4-15-6",
+          "as": "৪-১৫-৬"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "D=4, O=15 and G=7, so DOG is coded as 4-15-7.",
+        "as": "D=৪, O=১৫ আৰু G=৭; সেয়ে DOG-ৰ কোড ৪-১৫-৭।"
+      }
+    },
+    {
+      "q": {
+        "en": "My sister's son is my?",
+        "as": "মোৰ ভনীৰ পুত্ৰ মোৰ কি?"
+      },
+      "options": [
+        {
+          "en": "Son",
+          "as": "পুত্ৰ"
+        },
+        {
+          "en": "Nephew",
+          "as": "ভাগিনা"
+        },
+        {
+          "en": "Cousin",
+          "as": "খুৰাত ভাই"
+        },
+        {
+          "en": "Brother",
+          "as": "ভাই"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The son of one's sister is one's nephew, so the answer is Nephew.",
+        "as": "ভনীৰ পুত্ৰ হৈছে ভাগিনা; সেয়ে উত্তৰ 'ভাগিনা'।"
+      }
+    },
+    {
+      "q": {
+        "en": "A man facing north turns 90 degrees clockwise and then 90 degrees anticlockwise. Which direction is he facing now?",
+        "as": "উত্তৰলৈ মুখ কৰি থকা এজন মানুহে ৯০ ডিগ্ৰী ঘড়ীৰ কাঁটাৰ দিশে আৰু তাৰ পিছত ৯০ ডিগ্ৰী ঘড়ীৰ কাঁটাৰ বিপৰীত দিশে ঘূৰে। এতিয়া তেওঁ কোন দিশলৈ মুখ কৰি আছে?"
+      },
+      "options": [
+        {
+          "en": "North",
+          "as": "উত্তৰ"
+        },
+        {
+          "en": "East",
+          "as": "পূব"
+        },
+        {
+          "en": "South",
+          "as": "দক্ষিণ"
+        },
+        {
+          "en": "West",
+          "as": "পশ্চিম"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A clockwise turn takes him from north to east, and the anticlockwise turn brings him back to north.",
+        "as": "ঘড়ীৰ কাঁটাৰ দিশে ঘূৰিলে উত্তৰৰ পৰা পূবলৈ যায় আৰু বিপৰীত দিশে ঘূৰিলে পুনৰ উত্তৰলৈ আহে।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a row of 18 students, Q is 6th from the left. What is his position from the right?",
+        "as": "১৮ জন ছাত্ৰৰ শাৰীত Q বাওঁফালৰ পৰা ৬ নম্বৰ। সোঁফালৰ পৰা তেওঁৰ স্থান কিমান?"
+      },
+      "options": [
+        {
+          "en": "12th",
+          "as": "১২ নম্বৰ"
+        },
+        {
+          "en": "13th",
+          "as": "১৩ নম্বৰ"
+        },
+        {
+          "en": "14th",
+          "as": "১৪ নম্বৰ"
+        },
+        {
+          "en": "11th",
+          "as": "১১ নম্বৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Position from the right = total - position from the left + 1 = 18 - 6 + 1 = 13th.",
+        "as": "সোঁফালৰ পৰা স্থান = মুঠ - বাওঁফালৰ স্থান + ১ = ১৮ - ৬ + ১ = ১৩ নম্বৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Some boys are players. All players are athletes. Which conclusion follows?",
+        "as": "কিছুমান ল'ৰা খেলুৱৈ। সকলো খেলুৱৈ খেলপটু। কোনটো সিদ্ধান্ত সত্য?"
+      },
+      "options": [
+        {
+          "en": "Some boys are athletes",
+          "as": "কিছুমান ল'ৰা খেলপটু"
+        },
+        {
+          "en": "All boys are athletes",
+          "as": "সকলো ল'ৰা খেলপটু"
+        },
+        {
+          "en": "No boy is an athlete",
+          "as": "কোনো ল'ৰা খেলপটু নহয়"
+        },
+        {
+          "en": "None of these",
+          "as": "ইয়াৰ কোনোটো নহয়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The boys who are players are also athletes, so some boys are athletes.",
+        "as": "যিসকল ল'ৰা খেলুৱৈ তেওঁলোক খেলপটুও; সেয়ে কিছুমান ল'ৰা খেলপটু।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 15th August 2023 was Tuesday, what day was 15th August 2024?",
+        "as": "যদি ১৫ আগষ্ট ২০২৩ মঙ্গলবাৰ আছিল, তেন্তে ১৫ আগষ্ট ২০২৪ কোনবাৰ আছিল?"
+      },
+      "options": [
+        {
+          "en": "Wednesday",
+          "as": "বুধবাৰ"
+        },
+        {
+          "en": "Thursday",
+          "as": "বৃহস্পতিবাৰ"
+        },
+        {
+          "en": "Friday",
+          "as": "শুক্ৰবাৰ"
+        },
+        {
+          "en": "Tuesday",
+          "as": "মঙ্গলবাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The year 2024 is a leap year, so the period contains 366 days; 366 divided by 7 leaves 2, moving the day two ahead of Tuesday, which is Thursday.",
+        "as": "২০২৪ অধিবৰ্ষ, সেয়ে এই সময়ছোৱাত ৩৬৬ দিন; ৩৬৬-ক ৭-ৰে হৰণ কৰিলে ২ বাকী থাকে; মঙ্গলবাৰৰ পৰা দুই দিন আগবঢ়ালে বৃহস্পতিবাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Seed is to Tree as Egg is to?",
+        "as": "গুটিটোৰ লগত গছ যেনে, কণীৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Bird",
+          "as": "চৰাই"
+        },
+        {
+          "en": "Nest",
+          "as": "বাহ"
+        },
+        {
+          "en": "Hen",
+          "as": "কুকুৰা"
+        },
+        {
+          "en": "Feather",
+          "as": "পাখি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A seed grows into a tree and an egg hatches into a bird, so the answer is Bird.",
+        "as": "গুটিৰ পৰা গছ জন্মে আৰু কণীৰ পৰা চৰাই জন্মে; সেয়ে উত্তৰ 'চৰাই'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one: Cup, Plate, Spoon, Chair",
+        "as": "বেলেগটো বাছক: কাপ, প্লেট, চামুচ, চকী"
+      },
+      "options": [
+        {
+          "en": "Cup",
+          "as": "কাপ"
+        },
+        {
+          "en": "Plate",
+          "as": "প্লেট"
+        },
+        {
+          "en": "Spoon",
+          "as": "চামুচ"
+        },
+        {
+          "en": "Chair",
+          "as": "চকী"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Cup, plate and spoon are used for eating or drinking, while a chair is furniture, so Chair is the odd one.",
+        "as": "কাপ, প্লেট আৰু চামুচ খোৱা-বোৱাৰ সঁজুলি, কিন্তু চকী আসবাব; সেয়ে চকী বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the series: A, B, D, G, ?",
+        "as": "শ্ৰেণী সম্পূৰ্ণ কৰক: A, B, D, G, ?"
+      },
+      "options": [
+        {
+          "en": "I",
+          "as": "I"
+        },
+        {
+          "en": "J",
+          "as": "J"
+        },
+        {
+          "en": "K",
+          "as": "K"
+        },
+        {
+          "en": "L",
+          "as": "L"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The gaps between letters are +1, +2 and +3 (A to B, B to D, D to G), so the next gap is +4 and the next letter is K.",
+        "as": "আখৰবোৰৰ মাজৰ ব্যৱধান +১, +২, +৩ (A→B, B→D, D→G); সেয়ে পৰৱৰ্তী ব্যৱধান +৪ আৰু পৰৱৰ্তী আখৰ K।"
+      }
+    },
+    {
+      "q": {
+        "en": "A is 3 years older than B and B is 5 years older than C. If C is 10 years old, how old is A?",
+        "as": "A, Bত ৩ বছৰ ডাঙৰ আৰু B, Cত ৫ বছৰ ডাঙৰ। যদি C-ৰ বয়স ১০ বছৰ, তেন্তে A-ৰ বয়স কিমান?"
+      },
+      "options": [
+        {
+          "en": "15 years",
+          "as": "১৫ বছৰ"
+        },
+        {
+          "en": "16 years",
+          "as": "১৬ বছৰ"
+        },
+        {
+          "en": "17 years",
+          "as": "১৭ বছৰ"
+        },
+        {
+          "en": "18 years",
+          "as": "১৮ বছৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "B = 10 + 5 = 15 years and A = 15 + 3 = 18 years.",
+        "as": "B = ১০ + ৫ = ১৫ বছৰ আৰু A = ১৫ + ৩ = ১৮ বছৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the angle between the hands of a clock at 4:00?",
+        "as": "৪ বজাত ঘড়ীৰ কাঁটা দুটাৰ মাজৰ কোণ কিমান?"
+      },
+      "options": [
+        {
+          "en": "60 degrees",
+          "as": "৬০ ডিগ্ৰী"
+        },
+        {
+          "en": "90 degrees",
+          "as": "৯০ ডিগ্ৰী"
+        },
+        {
+          "en": "120 degrees",
+          "as": "১২০ ডিগ্ৰী"
+        },
+        {
+          "en": "150 degrees",
+          "as": "১৫০ ডিগ্ৰী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "At 4:00 the hour hand is on 4 and the minute hand is on 12, so the angle is 4 x 30 = 120 degrees.",
+        "as": "৪ বজাত ঘণ্টাকাঁটা ৪-ত আৰু মিনিটকাঁটা ১২-ত থাকে; সেয়ে কোণ = ৪ x ৩০ = ১২০ ডিগ্ৰী।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one: 3, 9, 27, 36, 81",
+        "as": "বেলেগটো বাছক: ৩, ৯, ২৭, ৩৬, ৮১"
+      },
+      "options": [
+        {
+          "en": "3",
+          "as": "৩"
+        },
+        {
+          "en": "9",
+          "as": "৯"
+        },
+        {
+          "en": "36",
+          "as": "৩৬"
+        },
+        {
+          "en": "81",
+          "as": "৮১"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "3, 9, 27 and 81 are powers of 3, while 36 is not, so 36 is the odd one.",
+        "as": "৩, ৯, ২৭ আৰু ৮১, ৩-ৰ ঘাত, কিন্তু ৩৬ নহয়; সেয়ে ৩৬ বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "A man walks 7 km north, then 7 km east, then 7 km south. Where is he from the starting point?",
+        "as": "এজন মানুহে ৭ কি.মি. উত্তৰে, তাৰ পিছত ৭ কি.মি. পূবে, তাৰ পিছত ৭ কি.মি. দক্ষিণে খোজে। তেওঁ আৰম্ভণিৰ পৰা ক'ত?"
+      },
+      "options": [
+        {
+          "en": "7 km east",
+          "as": "৭ কি.মি. পূব"
+        },
+        {
+          "en": "7 km west",
+          "as": "৭ কি.মি. পশ্চিম"
+        },
+        {
+          "en": "0 km",
+          "as": "০ কি.মি."
+        },
+        {
+          "en": "21 km east",
+          "as": "২১ কি.মি. পূব"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The 7 km north and 7 km south cancel out, leaving only the 7 km eastward movement, so he is 7 km east of the start.",
+        "as": "৭ কি.মি. উত্তৰ আৰু ৭ কি.মি. দক্ষিণ কটাকটি যায়; কেৱল ৭ কি.মি. পূব দিশ থাকে; সেয়ে তেওঁ আৰম্ভণিৰ পৰা ৭ কি.মি. পূবত।"
+      }
+    },
+    {
+      "q": {
+        "en": "How many meaningful English words can be formed with the letters O, W, N using each letter once?",
+        "as": "O, W, N আখৰ প্ৰত্যেক এবাৰ ব্যৱহাৰ কৰি কেইটা অৰ্থপূৰ্ণ ইংৰাজী শব্দ গঠন হয়?"
+      },
+      "options": [
+        {
+          "en": "One",
+          "as": "এটা"
+        },
+        {
+          "en": "Two",
+          "as": "দুটা"
+        },
+        {
+          "en": "Three",
+          "as": "তিনিটা"
+        },
+        {
+          "en": "Four",
+          "as": "চাৰিটা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Using O, W and N once each, the words OWN, NOW and WON can be formed, i.e. three words.",
+        "as": "O, W, N প্ৰত্যেক এবাৰ ব্যৱহাৰ কৰি OWN, NOW আৰু WON — এই তিনিটা শব্দ গঠন হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Clock is to Time as Ruler is to?",
+        "as": "ঘড়ীৰ লগত সময় যেনে, স্কেলৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Length",
+          "as": "দীৰ্ঘতা"
+        },
+        {
+          "en": "Weight",
+          "as": "ওজন"
+        },
+        {
+          "en": "Volume",
+          "as": "আয়তন"
+        },
+        {
+          "en": "Speed",
+          "as": "বেগ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A clock measures time and a ruler measures length, so the answer is Length.",
+        "as": "ঘড়ীয়ে সময় জোখে আৰু স্কেলে দীৰ্ঘতা জোখে; সেয়ে উত্তৰ 'দীৰ্ঘতা'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the next number: 2, 6, 12, 20, ?",
+        "as": "পৰৱৰ্তী সংখ্যা বাছক: ২, ৬, ১২, ২০, ?"
+      },
+      "options": [
+        {
+          "en": "28",
+          "as": "২৮"
+        },
+        {
+          "en": "30",
+          "as": "৩০"
+        },
+        {
+          "en": "32",
+          "as": "৩২"
+        },
+        {
+          "en": "26",
+          "as": "২৬"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The terms are products of consecutive numbers (1x2, 2x3, 3x4, 4x5), so the next term is 5x6 = 30.",
+        "as": "পদবোৰ ক্ৰমিক সংখ্যাৰ গুণফল (১x২, ২x৩, ৩x৪, ৪x৫); সেয়ে পৰৱৰ্তী পদ ৫x৬ = ৩০।"
+      }
+    },
+    {
+      "q": {
+        "en": "My father's brother is my?",
+        "as": "মোৰ পিতৃৰ ভাই মোৰ কি?"
+      },
+      "options": [
+        {
+          "en": "Brother",
+          "as": "ভাই"
+        },
+        {
+          "en": "Uncle",
+          "as": "খুৰা"
+        },
+        {
+          "en": "Nephew",
+          "as": "ভতিজা"
+        },
+        {
+          "en": "Cousin",
+          "as": "খুৰাত ভাই"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The brother of one's father is one's uncle, so the answer is Uncle.",
+        "as": "পিতৃৰ ভাই হৈছে খুৰা; সেয়ে উত্তৰ 'খুৰা'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one: Cricket, Football, Hockey, Chess",
+        "as": "বেলেগটো বাছক: ক্ৰিকেট, ফুটবল, হকী, দবা"
+      },
+      "options": [
+        {
+          "en": "Cricket",
+          "as": "ক্ৰিকেট"
+        },
+        {
+          "en": "Football",
+          "as": "ফুটবল"
+        },
+        {
+          "en": "Hockey",
+          "as": "হকী"
+        },
+        {
+          "en": "Chess",
+          "as": "দবা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Cricket, football and hockey are outdoor games, while chess is an indoor game, so Chess is the odd one.",
+        "as": "ক্ৰিকেট, ফুটবল আৰু হকী বাহিৰৰ খেল, কিন্তু দবা ঘৰৰ ভিতৰৰ খেল; সেয়ে দবা বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "All fruits contain vitamins. Oranges are fruits. Which conclusion follows?",
+        "as": "সকলো ফলত ভিটামিন থাকে। কমলা ফল। কোনটো সিদ্ধান্ত সত্য?"
+      },
+      "options": [
+        {
+          "en": "Oranges contain vitamins",
+          "as": "কমলাত ভিটামিন থাকে"
+        },
+        {
+          "en": "Some oranges do not contain vitamins",
+          "as": "কিছুমান কমলাত ভিটামিন নাথাকে"
+        },
+        {
+          "en": "No fruit contains vitamins",
+          "as": "কোনো ফলত ভিটামিন নাথাকে"
+        },
+        {
+          "en": "None of these",
+          "as": "ইয়াৰ কোনোটো নহয়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "All fruits contain vitamins and oranges are fruits, so oranges contain vitamins.",
+        "as": "সকলো ফলত ভিটামিন থাকে আৰু কমলা ফল; সেয়ে কমলাত ভিটামিন থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a row of 22 students, S is 9th from the left. What is his position from the right?",
+        "as": "২২ জন ছাত্ৰৰ শাৰীত S বাওঁফালৰ পৰা ৯ নম্বৰ। সোঁফালৰ পৰা তেওঁৰ স্থান কিমান?"
+      },
+      "options": [
+        {
+          "en": "13th",
+          "as": "১৩ নম্বৰ"
+        },
+        {
+          "en": "14th",
+          "as": "১৪ নম্বৰ"
+        },
+        {
+          "en": "15th",
+          "as": "১৫ নম্বৰ"
+        },
+        {
+          "en": "12th",
+          "as": "১২ নম্বৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Position from the right = total - position from the left + 1 = 22 - 9 + 1 = 14th.",
+        "as": "সোঁফালৰ পৰা স্থান = মুঠ - বাওঁফালৰ স্থান + ১ = ২২ - ৯ + ১ = ১৪ নম্বৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "If North is called East, East is called South, South is called West and West is called North, what is the direction opposite to the actual North called?",
+        "as": "যদি উত্তৰক পূব, পূবক দক্ষিণ, দক্ষিণক পশ্চিম আৰু পশ্চিমক উত্তৰ বোলা হয়, তেন্তে প্ৰকৃত উত্তৰৰ বিপৰীত দিশক কি বোলা হয়?"
+      },
+      "options": [
+        {
+          "en": "North",
+          "as": "উত্তৰ"
+        },
+        {
+          "en": "East",
+          "as": "পূব"
+        },
+        {
+          "en": "South",
+          "as": "দক্ষিণ"
+        },
+        {
+          "en": "West",
+          "as": "পশ্চিম"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The direction opposite to the actual north is south, and in this naming scheme south is called west, so the answer is West.",
+        "as": "প্ৰকৃত উত্তৰৰ বিপৰীত দিশ দক্ষিণ; এই নামকৰণত দক্ষিণক পশ্চিম বোলা হয়; সেয়ে উত্তৰ 'পশ্চিম'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Bird is to Fly as Fish is to?",
+        "as": "চৰাইৰ লগত উৰা যেনে, মাছৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Swim",
+          "as": "সাঁতোৰা"
+        },
+        {
+          "en": "Water",
+          "as": "পানী"
+        },
+        {
+          "en": "Jump",
+          "as": "জাঁপ মৰা"
+        },
+        {
+          "en": "Breathe",
+          "as": "উশাহ লোৱা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A bird moves by flying and a fish moves by swimming, so the answer is Swim.",
+        "as": "চৰাই উৰি গতি কৰে আৰু মাছে সাঁতোৰি গতি কৰে; সেয়ে উত্তৰ 'সাঁতোৰা'।"
       }
     }
   ]
