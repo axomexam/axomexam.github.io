@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "Choose the correctly spelt word:",
-        "as": "শুদ্ধ বানানযুক্ত শব্দ বাছক:"
+        "en": "Choose the synonym of 'obstinate':",
+        "as": "'obstinate' ৰ সমাৰ্থক শব্দ বাছক:"
       },
       "options": [
         {
-          "en": "recieve",
-          "as": "recieve"
+          "en": "Stubborn",
+          "as": "একগুঁয়ে"
         },
         {
-          "en": "receive",
-          "as": "receive"
+          "en": "Flexible",
+          "as": "নমনীয়"
         },
         {
-          "en": "receeve",
-          "as": "receeve"
+          "en": "Polite",
+          "as": "ভদ্ৰ"
         },
         {
-          "en": "receve",
-          "as": "receve"
+          "en": "Generous",
+          "as": "উদাৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'Stubborn' is a synonym of 'obstinate'.",
+        "as": "'stubborn' হৈছে 'obstinate' ৰ সমাৰ্থক শব্দ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the synonym of 'transient':",
+        "as": "'transient' ৰ সমাৰ্থক শব্দ বাছক:"
+      },
+      "options": [
+        {
+          "en": "Stable",
+          "as": "স্থিৰ"
+        },
+        {
+          "en": "Temporary",
+          "as": "অস্থায়ী"
+        },
+        {
+          "en": "Permanent",
+          "as": "স্থায়ী"
+        },
+        {
+          "en": "Long",
+          "as": "দীঘল"
         }
       ],
       "correct": 1,
       "explanation": {
-        "en": "The correct spelling is 'receive', following the rule 'i before e except after c'.",
-        "as": "শুদ্ধ বানান 'receive'; 'i before e except after c' নিয়ম অনুসৰি c ৰ পিছত e আহে।"
+        "en": "'Temporary' is a synonym of 'transient'.",
+        "as": "'temporary' হৈছে 'transient' ৰ সমাৰ্থক শব্দ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'generous':",
+        "as": "'generous' ৰ বিপৰীত শব্দ বাছক:"
+      },
+      "options": [
+        {
+          "en": "Liberal",
+          "as": "উদাৰ"
+        },
+        {
+          "en": "Helpful",
+          "as": "সহায়ক"
+        },
+        {
+          "en": "Selfish",
+          "as": "স্বাৰ্থপৰ"
+        },
+        {
+          "en": "Kind",
+          "as": "দয়ালু"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Selfish' is an antonym of 'generous'.",
+        "as": "'selfish' হৈছে 'generous' ৰ বিপৰীত শব্দ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the antonym of 'humble':",
+        "as": "'humble' ৰ বিপৰীত শব্দ বাছক:"
+      },
+      "options": [
+        {
+          "en": "Modest",
+          "as": "বিনয়ী"
+        },
+        {
+          "en": "Simple",
+          "as": "সৰল"
+        },
+        {
+          "en": "Polite",
+          "as": "ভদ্ৰ"
+        },
+        {
+          "en": "Arrogant",
+          "as": "অহংকাৰী"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'Arrogant' is an antonym of 'humble'.",
+        "as": "'arrogant' হৈছে 'humble' ৰ বিপৰীত শব্দ।"
+      }
+    },
+    {
+      "q": {
+        "en": "One who believes in the existence of God is a:",
+        "as": "ঈশ্বৰৰ অস্তিত্বত বিশ্বাস ৰখা ব্যক্তিক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Theist",
+          "as": "আস্তিক"
+        },
+        {
+          "en": "Atheist",
+          "as": "নাস্তিক"
+        },
+        {
+          "en": "Agnostic",
+          "as": "অজ্ঞেয়বাদী"
+        },
+        {
+          "en": "Sceptic",
+          "as": "সংশয়বাদী"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "One who believes in the existence of God is a theist.",
+        "as": "ঈশ্বৰৰ অস্তিত্বত বিশ্বাস ৰখা ব্যক্তিক theist বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A place where aeroplanes are kept is a:",
+        "as": "বিমান ৰখা ঠাইক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Airport",
+          "as": "বিমানবন্দৰ"
+        },
+        {
+          "en": "Hangar",
+          "as": "বিমান ৰখা ঠাই"
+        },
+        {
+          "en": "Garage",
+          "as": "গাড়ী ৰখা ঠাই"
+        },
+        {
+          "en": "Shelter",
+          "as": "আশ্ৰয়স্থল"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A place where aeroplanes are kept is a hangar.",
+        "as": "বিমান ৰখা ঠাইক hangar বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The idiom 'to cry over spilt milk' means:",
+        "as": "'to cry over spilt milk' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "To waste milk",
+          "as": "গাখীৰ নষ্ট কৰা"
+        },
+        {
+          "en": "To clean a mess",
+          "as": "অপৰিষ্কাৰ পৰিষ্কাৰ কৰা"
+        },
+        {
+          "en": "To regret something that cannot be changed",
+          "as": "অপৰিৱৰ্তনীয় কিবা বাবে অনুতাপ কৰা"
+        },
+        {
+          "en": "To cry loudly",
+          "as": "জোৰকৈ কন্দা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'To cry over spilt milk' means to regret what cannot be undone.",
+        "as": "'to cry over spilt milk' মানে যি ঘূৰাই পোৱা নাযায় তাৰ বাবে অনুতাপ কৰা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The idiom 'to be in hot water' means:",
+        "as": "'to be in hot water' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "To be comfortable",
+          "as": "আৰামত থকা"
+        },
+        {
+          "en": "To be bathing",
+          "as": "গা ধোৱা"
+        },
+        {
+          "en": "To be happy",
+          "as": "আনন্দত থকা"
+        },
+        {
+          "en": "To be in trouble",
+          "as": "বিপদত পৰা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'To be in hot water' means to be in trouble.",
+        "as": "'to be in hot water' মানে বিপদত পৰা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correctly spelt word:",
+        "as": "শুদ্ধ বানানৰ শব্দটো বাছক:"
+      },
+      "options": [
+        {
+          "en": "definitely",
+          "as": "definitely"
+        },
+        {
+          "en": "definitly",
+          "as": "definitly"
+        },
+        {
+          "en": "defenitely",
+          "as": "defenitely"
+        },
+        {
+          "en": "definately",
+          "as": "definately"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The correct spelling is 'definitely'.",
+        "as": "শুদ্ধ বানান হৈছে 'definitely'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correctly spelt word:",
+        "as": "শুদ্ধ বানানৰ শব্দটো বাছক:"
+      },
+      "options": [
+        {
+          "en": "rhythym",
+          "as": "rhythym"
+        },
+        {
+          "en": "rhythm",
+          "as": "rhythm"
+        },
+        {
+          "en": "rythem",
+          "as": "rythem"
+        },
+        {
+          "en": "rythm",
+          "as": "rythm"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The correct spelling is 'rhythm'.",
+        "as": "শুদ্ধ বানান হৈছে 'rhythm'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The phrasal verb 'to come across' means:",
+        "as": "'to come across' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "To avoid",
+          "as": "পৰিহাৰ কৰা"
+        },
+        {
+          "en": "To meet intentionally",
+          "as": "ইচ্ছাকৃতভাৱে লগ পোৱা"
+        },
+        {
+          "en": "To find by chance",
+          "as": "আকস্মিকভাৱে পোৱা"
+        },
+        {
+          "en": "To cross a road",
+          "as": "ৰাস্তা পাৰ হোৱা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'To come across' means to find or meet by chance.",
+        "as": "'to come across' মানে আকস্মিকভাৱে পোৱা বা লগ পোৱা।"
+      }
+    },
+    {
+      "q": {
+        "en": "The phrasal verb 'to give in' means:",
+        "as": "'to give in' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "To give a gift",
+          "as": "উপহাৰ দিয়া"
+        },
+        {
+          "en": "To enter",
+          "as": "প্ৰৱেশ কৰা"
+        },
+        {
+          "en": "To resist",
+          "as": "প্ৰতিৰোধ কৰা"
+        },
+        {
+          "en": "To surrender or yield",
+          "as": "আত্মসমৰ্পণ কৰা বা হাৰ মানা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'To give in' means to surrender or yield.",
+        "as": "'to give in' মানে আত্মসমৰ্পণ কৰা বা হাৰ মানা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correct word: 'He ate a ___ of cake.'",
+        "as": "শুদ্ধ শব্দটো বাছক: 'He ate a ___ of cake.'"
+      },
+      "options": [
+        {
+          "en": "Piece",
+          "as": "টুকুৰা"
+        },
+        {
+          "en": "Peice",
+          "as": "টুকুৰা"
+        },
+        {
+          "en": "Piese",
+          "as": "টুকুৰা"
+        },
+        {
+          "en": "Peace",
+          "as": "শান্তি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'Piece' means a portion; 'peace' means calmness.",
+        "as": "'piece' মানে টুকুৰা; 'peace' মানে শান্তি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Choose the correct word: 'Don't ___ your keys.'",
+        "as": "শুদ্ধ শব্দটো বাছক: 'Don't ___ your keys.'"
+      },
+      "options": [
+        {
+          "en": "loose",
+          "as": "ঢিলা"
+        },
+        {
+          "en": "lose",
+          "as": "হেৰুওৱা"
+        },
+        {
+          "en": "loss",
+          "as": "ক্ষতি"
+        },
+        {
+          "en": "losing",
+          "as": "হেৰুওৱা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "'Lose' is the verb meaning to misplace; 'loose' means not tight.",
+        "as": "'lose' ক্ৰিয়াৰ অৰ্থ হেৰুওৱা; 'loose' মানে ঢিলা।"
+      }
+    },
+    {
+      "q": {
+        "en": "A group of wolves is called a:",
+        "as": "নেকুৰিৰ দলক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Flock",
+          "as": "চৰাইৰ জাক"
+        },
+        {
+          "en": "School",
+          "as": "মাছৰ জাক"
+        },
+        {
+          "en": "Pack",
+          "as": "জাক"
+        },
+        {
+          "en": "Herd",
+          "as": "পশুৰ জাক"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A group of wolves is called a pack.",
+        "as": "নেকুৰিৰ দলক pack বোলা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The noun form of 'develop' is:",
+        "as": "'develop' ৰ বিশেষ্য ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Developing",
+          "as": "উন্নয়নশীল"
+        },
+        {
+          "en": "Developed",
+          "as": "উন্নত"
+        },
+        {
+          "en": "Developer",
+          "as": "উন্নয়নকাৰী"
+        },
+        {
+          "en": "Development",
+          "as": "উন্নয়ন"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The noun form of 'develop' is 'development'.",
+        "as": "'develop' ৰ বিশেষ্য ৰূপ হৈছে 'development'।"
+      }
+    },
+    {
+      "q": {
+        "en": "The phrase 'de facto' means:",
+        "as": "'de facto' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "In reality or practice",
+          "as": "প্ৰকৃততে বা ব্যৱহাৰত"
+        },
+        {
+          "en": "By law",
+          "as": "আইন অনুসাৰে"
+        },
+        {
+          "en": "For example",
+          "as": "উদাহৰণস্বৰূপে"
+        },
+        {
+          "en": "In future",
+          "as": "ভৱিষ্যতে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'De facto' means in reality or practice, even if not officially.",
+        "as": "'de facto' মানে প্ৰকৃততে বা ব্যৱহাৰত, যদিও আনুষ্ঠানিক নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the proverb: 'A rolling stone gathers no ___.'",
+        "as": "প্ৰবচনটো সম্পূৰ্ণ কৰক: 'A rolling stone gathers no ___.'"
+      },
+      "options": [
+        {
+          "en": "money",
+          "as": "ধন"
+        },
+        {
+          "en": "moss",
+          "as": "শেলাই"
+        },
+        {
+          "en": "grass",
+          "as": "ঘাঁহ"
+        },
+        {
+          "en": "dust",
+          "as": "ধূলি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The proverb is 'A rolling stone gathers no moss'.",
+        "as": "প্ৰবচনটো হৈছে 'A rolling stone gathers no moss'।"
+      }
+    },
+    {
+      "q": {
+        "en": "In the sentence 'The scientist was meticulous in her research', 'meticulous' means:",
+        "as": "'The scientist was meticulous in her research' বাক্যটোত 'meticulous' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Lazy",
+          "as": "অলস"
+        },
+        {
+          "en": "Rude",
+          "as": "ৰুক্ষ"
+        },
+        {
+          "en": "Very careful",
+          "as": "অতি সতৰ্ক"
+        },
+        {
+          "en": "Careless",
+          "as": "অসাৱধান"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "'Meticulous' means very careful about details.",
+        "as": "'meticulous' মানে বিৱৰণত অতি সতৰ্ক।"
+      }
+    },
+    {
+      "q": {
+        "en": "Shoe : Foot :: Glove : ?",
+        "as": "জোতা : ভৰি :: glove : ?"
+      },
+      "options": [
+        {
+          "en": "Arm",
+          "as": "বাহু"
+        },
+        {
+          "en": "Finger",
+          "as": "আঙুলি"
+        },
+        {
+          "en": "Leg",
+          "as": "ভৰি"
+        },
+        {
+          "en": "Hand",
+          "as": "হাত"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A shoe is worn on the foot; a glove is worn on the hand.",
+        "as": "জোতা ভৰিত পিন্ধা হয়; glove হাতত পিন্ধা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which word is different: angry, furious, enraged, calm?",
+        "as": "কোন শব্দটো বেলেগ: angry, furious, enraged, calm?"
+      },
+      "options": [
+        {
+          "en": "calm",
+          "as": "শান্ত"
+        },
+        {
+          "en": "angry",
+          "as": "খং কৰা"
+        },
+        {
+          "en": "furious",
+          "as": "অতি ক্ৰুদ্ধ"
+        },
+        {
+          "en": "enraged",
+          "as": "ক্ৰুদ্ধ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Angry, furious and enraged express anger, while calm expresses peace.",
+        "as": "angry, furious আৰু enraged ৱে খং বুজায়, আনহাতে calm ৱে শান্তি বুজায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The root 'aqua' means:",
+        "as": "'aqua' মূল অংশৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Earth",
+          "as": "পৃথিৱী"
+        },
+        {
+          "en": "Water",
+          "as": "পানী"
+        },
+        {
+          "en": "Air",
+          "as": "বায়ু"
+        },
+        {
+          "en": "Fire",
+          "as": "জুই"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The root 'aqua' means water, as in aquatic.",
+        "as": "'aqua' মূল অংশৰ অৰ্থ পানী, যেনে aquatic।"
+      }
+    },
+    {
+      "q": {
+        "en": "ATM stands for:",
+        "as": "ATM ৰ সম্পূৰ্ণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Automated Transaction Machine",
+          "as": "Automated Transaction Machine"
+        },
+        {
+          "en": "Automatic Teller Mechanism",
+          "as": "Automatic Teller Mechanism"
+        },
+        {
+          "en": "Automated Teller Machine",
+          "as": "Automated Teller Machine"
+        },
+        {
+          "en": "Automatic Transfer Machine",
+          "as": "Automatic Transfer Machine"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "ATM stands for Automated Teller Machine.",
+        "as": "ATM ৰ সম্পূৰ্ণ ৰূপ হৈছে Automated Teller Machine।"
+      }
+    },
+    {
+      "q": {
+        "en": "The adjective form of 'hero' is:",
+        "as": "'hero' ৰ বিশেষণ ৰূপ কি?"
+      },
+      "options": [
+        {
+          "en": "Heroism",
+          "as": "বীৰত্ব"
+        },
+        {
+          "en": "Heroically",
+          "as": "বীৰত্বৰে"
+        },
+        {
+          "en": "Heroine",
+          "as": "নায়িকা"
+        },
+        {
+          "en": "Heroic",
+          "as": "বীৰত্বপূৰ্ণ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The adjective form of 'hero' is 'heroic'.",
+        "as": "'hero' ৰ বিশেষণ ৰূপ হৈছে 'heroic'।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fill in the blank: 'She is afraid ___ snakes.'",
+        "as": "খালী ঠাই পূৰণ কৰক: 'She is afraid ___ snakes.'"
+      },
+      "options": [
+        {
+          "en": "of",
+          "as": "ৰ"
+        },
+        {
+          "en": "with",
+          "as": "সৈতে"
+        },
+        {
+          "en": "at",
+          "as": "ত"
+        },
+        {
+          "en": "from",
+          "as": "পৰা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The correct expression is 'afraid of'.",
+        "as": "শুদ্ধ প্ৰকাশ হৈছে 'afraid of'।"
       }
     }
   ]
