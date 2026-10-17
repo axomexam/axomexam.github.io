@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "Every formula in MS Excel begins with which symbol?",
-        "as": "MS Excel-ত প্ৰতিটো সূত্ৰ কোনটো চিহ্নৰে আৰম্ভ হয়?"
+        "en": "Which shortcut is used to print a document in MS Word?",
+        "as": "MS Word-ত নথিপত্ৰ প্ৰিন্ট কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
       },
       "options": [
         {
-          "en": "Plus (+)",
-          "as": "যোগ (+)"
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
         },
         {
-          "en": "Equals (=)",
-          "as": "সম (=)"
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
         },
         {
-          "en": "Asterisk (*)",
-          "as": "তাৰকা (*)"
+          "en": "Ctrl + O",
+          "as": "Ctrl + O"
         },
         {
-          "en": "Hash (#)",
-          "as": "হেশ (#)"
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ctrl + P opens the print options in MS Word.",
+        "as": "Ctrl + P য়ে MS Word-ত প্ৰিন্টৰ বিকল্প খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key is used to check spelling and grammar in MS Word?",
+        "as": "MS Word-ত বানান আৰু ব্যাকৰণ পৰীক্ষা কৰিবলৈ কোন কী ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "F9",
+          "as": "F9"
+        },
+        {
+          "en": "F7",
+          "as": "F7"
+        },
+        {
+          "en": "F1",
+          "as": "F1"
+        },
+        {
+          "en": "F5",
+          "as": "F5"
         }
       ],
       "correct": 1,
       "explanation": {
-        "en": "In MS Excel every formula must begin with the equals sign (=).",
-        "as": "MS Excel-ত প্ৰতিটো সূত্ৰ সম চিহ্ন (=) ৰে আৰম্ভ হ'ব লাগে।"
+        "en": "F7 starts the spelling and grammar check in MS Word.",
+        "as": "F7 য়ে MS Word-ত বানান আৰু ব্যাকৰণ পৰীক্ষা আৰম্ভ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Where does a header appear in a Word document?",
+        "as": "Word ডকুমেণ্টত হেডাৰ ক'ত দেখা যায়?"
+      },
+      "options": [
+        {
+          "en": "In the middle of the page",
+          "as": "পৃষ্ঠাৰ মাজত"
+        },
+        {
+          "en": "Only on the last page",
+          "as": "কেৱল শেষ পৃষ্ঠাত"
+        },
+        {
+          "en": "At the top of the page",
+          "as": "পৃষ্ঠাৰ ওপৰত"
+        },
+        {
+          "en": "At the bottom of the page",
+          "as": "পৃষ্ঠাৰ তলত"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A header appears at the top of every page.",
+        "as": "হেডাৰ প্ৰতিটো পৃষ্ঠাৰ ওপৰত দেখা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the Track Changes feature used for in Word?",
+        "as": "Word-ত Track Changes সুবিধা কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "To print the document",
+          "as": "নথিপত্ৰ প্ৰিন্ট কৰা"
+        },
+        {
+          "en": "To count the words",
+          "as": "শব্দ গণনা কৰা"
+        },
+        {
+          "en": "To change the font",
+          "as": "ফণ্ট সলনি কৰা"
+        },
+        {
+          "en": "To record edits made to a document",
+          "as": "নথিপত্ৰত কৰা পৰিৱৰ্তন লিপিবদ্ধ কৰা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Track Changes records all edits so that they can be reviewed.",
+        "as": "Track Changes য়ে সকলো পৰিৱৰ্তন লিপিবদ্ধ কৰে, যাতে পৰ্যালোচনা কৰিব পাৰি।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the file extension of a Word template?",
+        "as": "Word টেমপ্লেট ফাইলৰ এক্সটেনশ্যন কি?"
+      },
+      "options": [
+        {
+          "en": ".dotx",
+          "as": ".dotx"
+        },
+        {
+          "en": ".docx",
+          "as": ".docx"
+        },
+        {
+          "en": ".docm",
+          "as": ".docm"
+        },
+        {
+          "en": ".pdf",
+          "as": ".pdf"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A Word template uses the .dotx extension.",
+        "as": "Word টেমপ্লেটে .dotx এক্সটেনশ্যন ব্যৱহাৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which function is used to find the average of numbers in Excel?",
+        "as": "Excel-ত সংখ্যাৰ গড় নিৰ্ণয় কৰিবলৈ কোন ফলন ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "MAX",
+          "as": "MAX"
+        },
+        {
+          "en": "AVERAGE",
+          "as": "AVERAGE"
+        },
+        {
+          "en": "SUM",
+          "as": "SUM"
+        },
+        {
+          "en": "COUNT",
+          "as": "COUNT"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The AVERAGE function returns the arithmetic mean of a range.",
+        "as": "AVERAGE ফলনে এটা পৰিসৰৰ গাণিতিক গড় ঘূৰাই দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used for AutoSum in Excel?",
+        "as": "Excel-ত AutoSum ৰ বাবে কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Alt + S",
+          "as": "Alt + S"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Alt + =",
+          "as": "Alt + ="
+        },
+        {
+          "en": "Ctrl + =",
+          "as": "Ctrl + ="
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Alt + = inserts the AutoSum formula in Excel.",
+        "as": "Excel-ত Alt + = য়ে AutoSum সূত্ৰ সন্নিবেশ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which function counts the cells that meet a condition?",
+        "as": "চৰ্ত পূৰণ কৰা চেলৰ সংখ্যা গণনা কৰিবলৈ কোন ফলন ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "COUNT",
+          "as": "COUNT"
+        },
+        {
+          "en": "SUMIF",
+          "as": "SUMIF"
+        },
+        {
+          "en": "IF",
+          "as": "IF"
+        },
+        {
+          "en": "COUNTIF",
+          "as": "COUNTIF"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "COUNTIF counts cells that satisfy a given condition.",
+        "as": "COUNTIF য়ে নিৰ্দিষ্ট চৰ্ত পূৰণ কৰা চেলবোৰ গণনা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the purpose of Freeze Panes in Excel?",
+        "as": "Excel-ত Freeze Panes ৰ উদ্দেশ্য কি?"
+      },
+      "options": [
+        {
+          "en": "Keep rows or columns visible while scrolling",
+          "as": "স্ক্ৰল কৰাৰ সময়তো শাৰী বা স্তম্ভ দেখা ৰখা"
+        },
+        {
+          "en": "Hide the selected rows",
+          "as": "বাছনি কৰা শাৰীবোৰ লুকুৱা"
+        },
+        {
+          "en": "Delete empty rows",
+          "as": "খালী শাৰীবোৰ মচা"
+        },
+        {
+          "en": "Change the chart type",
+          "as": "চাৰ্টৰ প্ৰকাৰ সলনি কৰা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Freeze Panes keeps selected rows or columns visible while scrolling.",
+        "as": "Freeze Panes য়ে স্ক্ৰল কৰাৰ সময়তো বাছনি কৰা শাৰী বা স্তম্ভ দেখা ৰাখে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which function returns the number of characters in a text string?",
+        "as": "এটা লিখনীৰ আখৰৰ সংখ্যা ঘূৰাই দিয়া ফলন কোনটো?"
+      },
+      "options": [
+        {
+          "en": "TRIM",
+          "as": "TRIM"
+        },
+        {
+          "en": "LEN",
+          "as": "LEN"
+        },
+        {
+          "en": "LEFT",
+          "as": "LEFT"
+        },
+        {
+          "en": "MID",
+          "as": "MID"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The LEN function returns the number of characters in a text string.",
+        "as": "LEN ফলনে এটা লিখনীৰ আখৰৰ সংখ্যা ঘূৰাই দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the Filter feature used for in Excel?",
+        "as": "Excel-ত Filter সুবিধা কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "To merge the cells",
+          "as": "চেলবোৰ মাৰ্জ কৰা"
+        },
+        {
+          "en": "To change the font colour",
+          "as": "ফণ্টৰ ৰং সলনি কৰা"
+        },
+        {
+          "en": "To show only rows that meet a condition",
+          "as": "কেৱল চৰ্ত পূৰণ কৰা শাৰী দেখুওৱা"
+        },
+        {
+          "en": "To sort the data alphabetically",
+          "as": "তথ্য বৰ্ণানুক্ৰমে সজোৱা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Filter displays only the rows that meet a specified condition.",
+        "as": "Filter য়ে কেৱল নিৰ্দিষ্ট চৰ্ত পূৰণ কৰা শাৰীবোৰ দেখুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which tab is used to insert a PivotTable in Excel?",
+        "as": "Excel-ত PivotTable সন্নিবেশ কৰিবলৈ কোন টেব ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Home",
+          "as": "Home"
+        },
+        {
+          "en": "View",
+          "as": "View"
+        },
+        {
+          "en": "Formulas",
+          "as": "Formulas"
+        },
+        {
+          "en": "Insert",
+          "as": "Insert"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A PivotTable is inserted from the Insert tab in Excel.",
+        "as": "Excel-ত PivotTable Insert টেবৰপৰা সন্নিবেশ কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut adds a new slide in PowerPoint?",
+        "as": "PowerPoint-ত নতুন স্লাইড যোগ কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + M",
+          "as": "Ctrl + M"
+        },
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ctrl + M adds a new slide in PowerPoint.",
+        "as": "PowerPoint-ত Ctrl + M য়ে নতুন স্লাইড যোগ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key ends a running slide show?",
+        "as": "চলি থকা স্লাইড শ্ব' শেষ কৰিবলৈ কোন কী ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Spacebar",
+          "as": "স্পেচবাৰ"
+        },
+        {
+          "en": "Esc",
+          "as": "Esc"
+        },
+        {
+          "en": "Enter",
+          "as": "Enter"
+        },
+        {
+          "en": "Tab",
+          "as": "Tab"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Esc key ends a running slide show in PowerPoint.",
+        "as": "PowerPoint-ত চলি থকা স্লাইড শ্ব' শেষ কৰিবলৈ Esc কী ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A transition is applied between?",
+        "as": "Transition কিমানৰ মাজত প্ৰয়োগ কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Two fonts",
+          "as": "দুটা ফণ্টৰ মাজত"
+        },
+        {
+          "en": "Two tabs",
+          "as": "দুটা টেবৰ মাজত"
+        },
+        {
+          "en": "Two slides",
+          "as": "দুটা স্লাইডৰ মাজত"
+        },
+        {
+          "en": "Two objects on a slide",
+          "as": "স্লাইডৰ দুটা বস্তুৰ মাজত"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A transition is the effect that occurs between two slides.",
+        "as": "Transition হৈছে দুটা স্লাইডৰ মাজত ঘটা প্ৰভাৱ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which view arranges the slides as thumbnails?",
+        "as": "স্লাইডবোৰ সৰু থাম্বনেইল হিচাপে দেখুওৱা ভিউ কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Normal view",
+          "as": "Normal ভিউ"
+        },
+        {
+          "en": "Reading view",
+          "as": "Reading ভিউ"
+        },
+        {
+          "en": "Outline view",
+          "as": "Outline ভিউ"
+        },
+        {
+          "en": "Slide Sorter view",
+          "as": "Slide Sorter ভিউ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Slide Sorter view shows all slides as thumbnails so they can be rearranged.",
+        "as": "Slide Sorter ভিউত সকলো স্লাইড থাম্বনেইল হিচাপে দেখা যায়, যাতে সজাই পৰিবৰ্তন কৰিব পাৰি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which PowerPoint file opens directly as a slide show?",
+        "as": "পোনপটীয়াকৈ স্লাইড শ্ব' হিচাপে খোলা PowerPoint ফাইল কোনটো?"
+      },
+      "options": [
+        {
+          "en": ".ppsx",
+          "as": ".ppsx"
+        },
+        {
+          "en": ".pptx",
+          "as": ".pptx"
+        },
+        {
+          "en": ".potx",
+          "as": ".potx"
+        },
+        {
+          "en": ".docx",
+          "as": ".docx"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A .ppsx file opens directly in slide show mode.",
+        "as": ".ppsx ফাইল পোনপটীয়াকৈ স্লাইড শ্ব' ম'ডত খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Access object provides an easy screen for entering data?",
+        "as": "তথ্য প্ৰৱেশ কৰিবলৈ সহজ স্ক্ৰীন প্ৰদান কৰা Access বস্তু কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Macro",
+          "as": "মেক্ৰ'"
+        },
+        {
+          "en": "Form",
+          "as": "ফৰ্ম"
+        },
+        {
+          "en": "Table",
+          "as": "টেবুল"
+        },
+        {
+          "en": "Report",
+          "as": "ৰিপৰ্ট"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A form provides a user-friendly screen for entering and editing data.",
+        "as": "ফৰ্মে তথ্য প্ৰৱেশ আৰু সম্পাদনাৰ বাবে ব্যৱহাৰকাৰী-বান্ধৱ স্ক্ৰীন প্ৰদান কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Access object is used to produce printable output?",
+        "as": "ছপা কৰিব পৰা আউটপুট তৈয়াৰ কৰিবলৈ Access-ৰ কোন বস্তু ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Query",
+          "as": "কুৱেৰী"
+        },
+        {
+          "en": "Table",
+          "as": "টেবুল"
+        },
+        {
+          "en": "Report",
+          "as": "ৰিপৰ্ট"
+        },
+        {
+          "en": "Form",
+          "as": "ফৰ্ম"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A report is used to present data in a printable format.",
+        "as": "ৰিপৰ্টে তথ্য ছপা কৰিব পৰা ৰূপত উপস্থাপন কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Access object is used to retrieve or filter data?",
+        "as": "তথ্য উদ্ধাৰ বা ফিল্টাৰ কৰিবলৈ Access-ৰ কোন বস্তু ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Table",
+          "as": "টেবুল"
+        },
+        {
+          "en": "Form",
+          "as": "ফৰ্ম"
+        },
+        {
+          "en": "Report",
+          "as": "ৰিপৰ্ট"
+        },
+        {
+          "en": "Query",
+          "as": "কুৱেৰী"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A query is used to retrieve, filter and sort data from tables.",
+        "as": "কুৱেৰীয়ে টেবুলৰপৰা তথ্য উদ্ধাৰ, ফিল্টাৰ আৰু সজোৱাৰ বাবে ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Outlook folder contains received emails?",
+        "as": "Outlook-ত লোৱা ইমেইলবোৰ কোন ফোল্ডাৰত থাকে?"
+      },
+      "options": [
+        {
+          "en": "Inbox",
+          "as": "ইনবক্স"
+        },
+        {
+          "en": "Sent Items",
+          "as": "প্ৰেৰিত আইটেম"
+        },
+        {
+          "en": "Drafts",
+          "as": "ড্ৰাফ্ট"
+        },
+        {
+          "en": "Outbox",
+          "as": "আউটবক্স"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Received emails are stored in the Inbox.",
+        "as": "লোৱা ইমেইলবোৰ Inbox ত সংৰক্ষিত থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used to reply to an email in Outlook?",
+        "as": "Outlook-ত প্ৰাপ্ত ইমেইলৰ উত্তৰ দিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        },
+        {
+          "en": "Ctrl + R",
+          "as": "Ctrl + R"
+        },
+        {
+          "en": "Ctrl + F",
+          "as": "Ctrl + F"
+        },
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Ctrl + R is used to reply to the selected email in Outlook.",
+        "as": "Outlook-ত বাছনি কৰা ইমেইলৰ উত্তৰ দিবলৈ Ctrl + R ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used to undo the last action in MS Office?",
+        "as": "MS Office-ত শেষ কাৰ্য বাতিল কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        },
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + Z",
+          "as": "Ctrl + Z"
+        },
+        {
+          "en": "Ctrl + Y",
+          "as": "Ctrl + Y"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Ctrl + Z undoes the last action.",
+        "as": "Ctrl + Z য়ে শেষ কাৰ্য বাতিল কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does the ribbon in MS Office contain?",
+        "as": "MS Office ৰিবনত কি থাকে?"
+      },
+      "options": [
+        {
+          "en": "Only fonts",
+          "as": "কেৱল ফণ্ট"
+        },
+        {
+          "en": "Saved files",
+          "as": "সংৰক্ষিত ফাইল"
+        },
+        {
+          "en": "Email messages",
+          "as": "ইমেইল বাৰ্তা"
+        },
+        {
+          "en": "Commands organised in tabs",
+          "as": "টেবত সংগঠিত কামৰ সঁজুলি"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The ribbon contains commands organised into tabs.",
+        "as": "ৰিবনত টেবত সংগঠিত কামৰ সঁজুলি থাকে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which MS Office application is a spreadsheet program?",
+        "as": "কোন MS Office এপ্লিকেচন স্প্ৰেডশ্বীট প্ৰগ্ৰাম?"
+      },
+      "options": [
+        {
+          "en": "Excel",
+          "as": "Excel"
+        },
+        {
+          "en": "Word",
+          "as": "Word"
+        },
+        {
+          "en": "PowerPoint",
+          "as": "PowerPoint"
+        },
+        {
+          "en": "Access",
+          "as": "Access"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Excel is the spreadsheet program in MS Office.",
+        "as": "Excel হৈছে MS Office ৰ স্প্ৰেডশ্বীট প্ৰগ্ৰাম।"
       }
     }
   ]
