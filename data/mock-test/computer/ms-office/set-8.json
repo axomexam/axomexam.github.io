@@ -5,31 +5,727 @@
   "questions": [
     {
       "q": {
-        "en": "What is the default file extension of a Microsoft Word document?",
-        "as": "Microsoft Word দস্তাবেজৰ ডিফল্ট ফাইল এক্সটেনশ্যন কি?"
+        "en": "Which shortcut is used to find text in MS Word?",
+        "as": "MS Word-ত লিখনী বিচাৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
       },
       "options": [
         {
-          "en": ".xlsx",
-          "as": ".xlsx"
+          "en": "Ctrl + F",
+          "as": "Ctrl + F"
         },
         {
-          "en": ".pptx",
-          "as": ".pptx"
+          "en": "Ctrl + H",
+          "as": "Ctrl + H"
         },
         {
-          "en": ".docx",
-          "as": ".docx"
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
         },
         {
-          "en": ".txt",
-          "as": ".txt"
+          "en": "Ctrl + D",
+          "as": "Ctrl + D"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ctrl + F opens the Find option in MS Word.",
+        "as": "Ctrl + F য়ে MS Word-ত Find বিকল্প খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used for Find and Replace in MS Word?",
+        "as": "MS Word-ত Find and Replace ৰ বাবে কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + T",
+          "as": "Ctrl + T"
+        },
+        {
+          "en": "Ctrl + H",
+          "as": "Ctrl + H"
+        },
+        {
+          "en": "Ctrl + F",
+          "as": "Ctrl + F"
+        },
+        {
+          "en": "Ctrl + R",
+          "as": "Ctrl + R"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Ctrl + H opens the Find and Replace dialog box.",
+        "as": "Ctrl + H য়ে Find and Replace ডায়লগ বক্স খোলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Where does a footnote appear in a document?",
+        "as": "নথিপত্ৰত ফুটনোট ক'ত দেখা যায়?"
+      },
+      "options": [
+        {
+          "en": "In the header",
+          "as": "হেডাৰত"
+        },
+        {
+          "en": "In the margin",
+          "as": "মাৰ্জিনত"
+        },
+        {
+          "en": "At the bottom of the page",
+          "as": "পৃষ্ঠাৰ তলত"
+        },
+        {
+          "en": "At the top of the page",
+          "as": "পৃষ্ঠাৰ ওপৰত"
         }
       ],
       "correct": 2,
       "explanation": {
-        "en": "A Microsoft Word document is saved with the .docx extension by default.",
-        "as": "Microsoft Word দস্তাবেজ ডিফল্টভাৱে .docx এক্সটেনশ্যনৰ সৈতে সংৰক্ষিত হয়।"
+        "en": "A footnote appears at the bottom of the page.",
+        "as": "ফুটনোট পৃষ্ঠাৰ তলত দেখা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does Ctrl + Enter insert in MS Word?",
+        "as": "MS Word-ত Ctrl + Enter য়ে কি সন্নিবেশ কৰে?"
+      },
+      "options": [
+        {
+          "en": "A line break",
+          "as": "শাৰী বিভাজন"
+        },
+        {
+          "en": "A table",
+          "as": "এটা টেবুল"
+        },
+        {
+          "en": "A picture",
+          "as": "এখন ছবি"
+        },
+        {
+          "en": "A page break",
+          "as": "পৃষ্ঠা বিভাজন"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Ctrl + Enter inserts a page break in MS Word.",
+        "as": "Ctrl + Enter য়ে MS Word-ত পৃষ্ঠা বিভাজন সন্নিবেশ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which view displays the headings and structure of a Word document?",
+        "as": "Word ডকুমেণ্টৰ শিৰোনামা আৰু গাঁথনি দেখুওৱা ভিউ কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Outline view",
+          "as": "আউটলাইন ভিউ"
+        },
+        {
+          "en": "Print Layout",
+          "as": "প্ৰিন্ট লে'আউট"
+        },
+        {
+          "en": "Web Layout",
+          "as": "ৱেব লে'আউট"
+        },
+        {
+          "en": "Full Screen Reading",
+          "as": "ফুল স্ক্ৰীন ৰিডিং"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Outline view displays the headings and structure of a document.",
+        "as": "আউটলাইন ভিউয়ে নথিপত্ৰৰ শিৰোনামা আৰু গাঁথনি দেখুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which function returns the largest value in Excel?",
+        "as": "Excel-ত সৰ্বোচ্চ মান ঘূৰাই দিয়া ফলন কোনটো?"
+      },
+      "options": [
+        {
+          "en": "LARGE",
+          "as": "LARGE"
+        },
+        {
+          "en": "MAX",
+          "as": "MAX"
+        },
+        {
+          "en": "MIN",
+          "as": "MIN"
+        },
+        {
+          "en": "SUM",
+          "as": "SUM"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The MAX function returns the largest value in a range.",
+        "as": "MAX ফলনে এটা পৰিসৰৰ সৰ্বোচ্চ মান ঘূৰাই দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which function is used for a logical test in Excel?",
+        "as": "Excel-ত তৰ্কমূলক পৰীক্ষাৰ বাবে কোন ফলন ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "COUNT",
+          "as": "COUNT"
+        },
+        {
+          "en": "NOW",
+          "as": "NOW"
+        },
+        {
+          "en": "IF",
+          "as": "IF"
+        },
+        {
+          "en": "SUM",
+          "as": "SUM"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The IF function performs a logical test and returns one of two values.",
+        "as": "IF ফলনে তৰ্কমূলক পৰীক্ষা কৰি দুটা মানৰ এটা ঘূৰাই দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "An Excel file is called a?",
+        "as": "Excel ফাইলক কি বোলে?"
+      },
+      "options": [
+        {
+          "en": "Worksheet",
+          "as": "ৱৰ্কশ্বীট"
+        },
+        {
+          "en": "Slide",
+          "as": "স্লাইড"
+        },
+        {
+          "en": "Document",
+          "as": "ডকুমেণ্ট"
+        },
+        {
+          "en": "Workbook",
+          "as": "ৱৰ্কবুক"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "An Excel file is called a workbook, and it contains worksheets.",
+        "as": "Excel ফাইলক ৱৰ্কবুক বোলে, যি ৱৰ্কশ্বীটবোৰ ধৰি ৰাখে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut inserts the current date in Excel?",
+        "as": "Excel-ত বৰ্তমান তাৰিখ সন্নিবেশ কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + ;",
+          "as": "Ctrl + ;"
+        },
+        {
+          "en": "Ctrl + :",
+          "as": "Ctrl + :"
+        },
+        {
+          "en": "Ctrl + D",
+          "as": "Ctrl + D"
+        },
+        {
+          "en": "Ctrl + T",
+          "as": "Ctrl + T"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ctrl + ; inserts the current date in Excel.",
+        "as": "Excel-ত Ctrl + ; য়ে বৰ্তমান তাৰিখ সন্নিবেশ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which function looks up a value in the first column of a vertical table?",
+        "as": "উলম্ব টেবুলৰ প্ৰথম স্তম্ভত মান বিচাৰিবলৈ কোন ফলন ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "MATCH",
+          "as": "MATCH"
+        },
+        {
+          "en": "VLOOKUP",
+          "as": "VLOOKUP"
+        },
+        {
+          "en": "HLOOKUP",
+          "as": "HLOOKUP"
+        },
+        {
+          "en": "INDEX",
+          "as": "INDEX"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "VLOOKUP searches for a value in the first column of a vertical table.",
+        "as": "VLOOKUP য়ে উলম্ব টেবুলৰ প্ৰথম স্তম্ভত মান বিচাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does ##### in an Excel cell indicate?",
+        "as": "Excel চেলত ##### দেখুওৱাৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "The cell is empty",
+          "as": "চেল খালী"
+        },
+        {
+          "en": "The value is text",
+          "as": "মানটো লিখনী"
+        },
+        {
+          "en": "The column is too narrow",
+          "as": "স্তম্ভ বহল নহয়"
+        },
+        {
+          "en": "The formula is wrong",
+          "as": "সূত্ৰ ভুল"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "##### appears when the column is too narrow to display the value.",
+        "as": "মানটো দেখুৱাবলৈ স্তম্ভ বহল নহ'লে ##### দেখা যায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is Conditional Formatting used for in Excel?",
+        "as": "Excel-ত Conditional Formatting কিৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Sorting the data",
+          "as": "তথ্য সজোৱা"
+        },
+        {
+          "en": "Printing the sheet",
+          "as": "শ্বীট প্ৰিন্ট কৰা"
+        },
+        {
+          "en": "Merging cells",
+          "as": "চেল মাৰ্জ কৰা"
+        },
+        {
+          "en": "Formatting cells based on conditions",
+          "as": "চৰ্ত অনুসৰি চেল ফৰ্মেট কৰা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Conditional Formatting changes the appearance of cells that meet specified conditions.",
+        "as": "Conditional Formatting য়ে নিৰ্দিষ্ট চৰ্ত পূৰণ কৰা চেলৰ ৰূপ সলনি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut duplicates the current slide in PowerPoint?",
+        "as": "PowerPoint-ত বৰ্তমান স্লাইডৰ প্ৰতিলিপি বনাবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + D",
+          "as": "Ctrl + D"
+        },
+        {
+          "en": "Ctrl + M",
+          "as": "Ctrl + M"
+        },
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        },
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Ctrl + D duplicates the selected slide in PowerPoint.",
+        "as": "PowerPoint-ত Ctrl + D য়ে বাছনি কৰা স্লাইডৰ প্ৰতিলিপি বনায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which tab is used to apply a theme in PowerPoint?",
+        "as": "PowerPoint-ত থীম প্ৰয়োগ কৰিবলৈ কোন টেব ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Transitions",
+          "as": "Transitions"
+        },
+        {
+          "en": "Design",
+          "as": "Design"
+        },
+        {
+          "en": "Home",
+          "as": "Home"
+        },
+        {
+          "en": "Insert",
+          "as": "Insert"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Design tab is used to apply themes and variants in PowerPoint.",
+        "as": "PowerPoint-ত থীম আৰু ভেৰিয়েণ্ট প্ৰয়োগ কৰিবলৈ Design টেব ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does Presenter View show in PowerPoint?",
+        "as": "PowerPoint-ত Presenter View য়ে কি দেখুৱায়?"
+      },
+      "options": [
+        {
+          "en": "Only the slide thumbnails",
+          "as": "কেৱল স্লাইড থাম্বনেইল"
+        },
+        {
+          "en": "Only the file name",
+          "as": "কেৱল ফাইলৰ নাম"
+        },
+        {
+          "en": "Speaker notes and the next slide",
+          "as": "স্পীকাৰ নোট আৰু পৰৱৰ্তী স্লাইড"
+        },
+        {
+          "en": "Only the current slide",
+          "as": "কেৱল বৰ্তমান স্লাইড"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Presenter View shows speaker notes, the current slide and the next slide.",
+        "as": "Presenter View য়ে স্পীকাৰ নোট, বৰ্তমান স্লাইড আৰু পৰৱৰ্তী স্লাইড দেখুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is a slide in PowerPoint?",
+        "as": "PowerPoint-ত এটা স্লাইড কি?"
+      },
+      "options": [
+        {
+          "en": "A type of chart",
+          "as": "এবিধ চাৰ্ট"
+        },
+        {
+          "en": "A saved file",
+          "as": "সংৰক্ষিত ফাইল"
+        },
+        {
+          "en": "A keyboard shortcut",
+          "as": "কীবৰ্ড চৰ্টকাট"
+        },
+        {
+          "en": "A single page of a presentation",
+          "as": "প্ৰেজেণ্টেচনৰ এটা পৃষ্ঠা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A slide is a single page of a presentation.",
+        "as": "স্লাইড হৈছে প্ৰেজেণ্টেচনৰ এটা পৃষ্ঠা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut starts a slide show from the current slide?",
+        "as": "বৰ্তমান স্লাইডৰপৰা স্লাইড শ্ব' আৰম্ভ কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Shift + F5",
+          "as": "Shift + F5"
+        },
+        {
+          "en": "F5",
+          "as": "F5"
+        },
+        {
+          "en": "Ctrl + F5",
+          "as": "Ctrl + F5"
+        },
+        {
+          "en": "Alt + F5",
+          "as": "Alt + F5"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Shift + F5 starts the slide show from the current slide.",
+        "as": "Shift + F5 য়ে বৰ্তমান স্লাইডৰপৰা স্লাইড শ্ব' আৰম্ভ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "MS Access is a?",
+        "as": "MS Access কি ধৰণৰ চফটৱেৰ?"
+      },
+      "options": [
+        {
+          "en": "Presentation software",
+          "as": "প্ৰেজেণ্টেচন চফটৱেৰ"
+        },
+        {
+          "en": "Relational database management system",
+          "as": "ৰিলেচনেল ডেটাবেছ মেনেজমেণ্ট চিষ্টেম"
+        },
+        {
+          "en": "Word processing software",
+          "as": "শব্দ প্ৰক্ৰিয়াকৰণ চফটৱেৰ"
+        },
+        {
+          "en": "Spreadsheet software",
+          "as": "স্প্ৰেডশ্বীট চফটৱেৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "MS Access is a relational database management system.",
+        "as": "MS Access এটা ৰিলেচনেল ডেটাবেছ মেনেজমেণ্ট চিষ্টেম।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Access data type automatically generates a unique number?",
+        "as": "কোন Access ডেটা টাইপে স্বয়ংক্ৰিয়ভাৱে অদ্বিতীয় সংখ্যা সৃষ্টি কৰে?"
+      },
+      "options": [
+        {
+          "en": "Number",
+          "as": "সংখ্যা"
+        },
+        {
+          "en": "Date/Time",
+          "as": "তাৰিখ/সময়"
+        },
+        {
+          "en": "AutoNumber",
+          "as": "অট'নাম্বাৰ"
+        },
+        {
+          "en": "Short Text",
+          "as": "চুটি লিখনী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The AutoNumber data type automatically generates a unique number for each record.",
+        "as": "AutoNumber ডেটা টাইপে প্ৰতিটো ৰেকৰ্ডৰ বাবে স্বয়ংক্ৰিয়ভাৱে অদ্বিতীয় সংখ্যা সৃষ্টি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Access object is used to automate repetitive tasks?",
+        "as": "পুনৰাবৃত্তিমূলক কাম স্বয়ংক্ৰিয় কৰিবলৈ Access-ৰ কোন বস্তু ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Table",
+          "as": "টেবুল"
+        },
+        {
+          "en": "Query",
+          "as": "কুৱেৰী"
+        },
+        {
+          "en": "Report",
+          "as": "ৰিপৰ্ট"
+        },
+        {
+          "en": "Macro",
+          "as": "মেক্ৰ'"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A macro is used to automate tasks in MS Access.",
+        "as": "MS Access-ত কাম স্বয়ংক্ৰিয় কৰিবলৈ মেক্ৰ' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does CC mean in email?",
+        "as": "ইমেইলত CC ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Carbon Copy",
+          "as": "Carbon Copy"
+        },
+        {
+          "en": "Blind Carbon Copy",
+          "as": "Blind Carbon Copy"
+        },
+        {
+          "en": "Computer Copy",
+          "as": "Computer Copy"
+        },
+        {
+          "en": "Common Copy",
+          "as": "Common Copy"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "CC stands for Carbon Copy.",
+        "as": "CC ৰ সম্পূৰ্ণ ৰূপ হৈছে Carbon Copy।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Outlook feature is used to schedule meetings and appointments?",
+        "as": "সভা আৰু অপয়ন্টমেণ্টৰ সময় নিৰ্ধাৰণ কৰিবলৈ Outlook-ৰ কোন সুবিধা ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Notes",
+          "as": "নোটছ"
+        },
+        {
+          "en": "Calendar",
+          "as": "কেলেণ্ডাৰ"
+        },
+        {
+          "en": "Contacts",
+          "as": "কণ্টেক্টছ"
+        },
+        {
+          "en": "Tasks",
+          "as": "টাস্কছ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Calendar feature is used to schedule meetings and appointments.",
+        "as": "Calendar সুবিধা সভা আৰু অপয়ন্টমেণ্টৰ সময় নিৰ্ধাৰণ কৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which shortcut is used to copy the selected item in MS Office?",
+        "as": "MS Office-ত বাছনি কৰা বস্তু কপি কৰিবলৈ কোন চৰ্টকাট ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ctrl + V",
+          "as": "Ctrl + V"
+        },
+        {
+          "en": "Ctrl + Z",
+          "as": "Ctrl + Z"
+        },
+        {
+          "en": "Ctrl + C",
+          "as": "Ctrl + C"
+        },
+        {
+          "en": "Ctrl + X",
+          "as": "Ctrl + X"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Ctrl + C copies the selected item to the clipboard.",
+        "as": "Ctrl + C য়ে বাছনি কৰা বস্তু ক্লিপব'ৰ্ডলৈ কপি কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is a template in MS Office?",
+        "as": "MS Office-ত টেমপ্লেট কি?"
+      },
+      "options": [
+        {
+          "en": "A saved email",
+          "as": "সংৰক্ষিত ইমেইল"
+        },
+        {
+          "en": "A type of chart",
+          "as": "এবিধ চাৰ্ট"
+        },
+        {
+          "en": "A keyboard shortcut",
+          "as": "কীবৰ্ড চৰ্টকাট"
+        },
+        {
+          "en": "A pre-designed document format",
+          "as": "পূৰ্ব-পৰিকল্পিত নথিপত্ৰৰ আৰ্হি"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A template is a pre-designed format used as a starting point for new documents.",
+        "as": "টেমপ্লেট হৈছে নতুন নথিপত্ৰৰ আৰম্ভণি বিন্দু হিচাপে ব্যৱহৃত পূৰ্ব-পৰিকল্পিত আৰ্হি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which key opens Help in MS Office?",
+        "as": "MS Office-ত সহায় (Help) পাবলৈ কোন কী ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "F1",
+          "as": "F1"
+        },
+        {
+          "en": "F2",
+          "as": "F2"
+        },
+        {
+          "en": "F5",
+          "as": "F5"
+        },
+        {
+          "en": "F7",
+          "as": "F7"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "F1 opens the Help window in MS Office.",
+        "as": "F1 য়ে MS Office-ত সহায় উইণ্ডো খোলে।"
       }
     }
   ]
