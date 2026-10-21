@@ -57,15 +57,43 @@
   let _html2canvasPromise = null;
   let _katexPromise = null;
 
-  function loadScriptOnce(src) {
+  function loadScriptOnce(src, timeoutMs) {
     return new Promise((resolve, reject) => {
       const s = document.createElement("script");
+      let settled = false;
+      const finish = (err) => {
+        if (settled) return;
+        settled = true;
+        clearTimeout(timer);
+        s.onload = s.onerror = null;
+        if (err) {
+          if (s.parentNode) s.parentNode.removeChild(s);
+          reject(err);
+        } else {
+          resolve();
+        }
+      };
+      const timer = setTimeout(() => finish(new Error("Timed out loading " + src)), timeoutMs || 15000);
       s.src = src;
       s.async = true;
-      s.onload = () => resolve();
-      s.onerror = () => reject(new Error("Failed to load " + src));
+      s.onload = () => finish();
+      s.onerror = () => finish(new Error("Failed to load " + src));
       document.head.appendChild(s);
     });
+  }
+
+  /* Try mirrors in order so a blocked/slow CDN never breaks PDF export. */
+  async function loadScriptWithFallback(urls, timeoutMs) {
+    let lastErr = null;
+    for (let i = 0; i < urls.length; i++) {
+      try {
+        await loadScriptOnce(urls[i], timeoutMs);
+        return;
+      } catch (err) {
+        lastErr = err;
+      }
+    }
+    throw lastErr || new Error("Failed to load script");
   }
 
   function loadStyleOnce(id, href) {
@@ -88,10 +116,21 @@
     return _katexPromise;
   }
 
+  const HTML2CANVAS_URLS = [
+    "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js",
+    "https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js",
+    "https://unpkg.com/html2canvas@1.4.1/dist/html2canvas.min.js"
+  ];
+  const JSPDF_URLS = [
+    "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js",
+    "https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js",
+    "https://unpkg.com/jspdf@2.5.1/dist/jspdf.umd.min.js"
+  ];
+
   function ensureHtml2canvas() {
     if (window.html2canvas) return Promise.resolve();
     if (!_html2canvasPromise) {
-      _html2canvasPromise = loadScriptOnce("https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js")
+      _html2canvasPromise = loadScriptWithFallback(HTML2CANVAS_URLS, 15000)
         .catch((e) => { _html2canvasPromise = null; throw e; });
     }
     return _html2canvasPromise;
@@ -103,7 +142,7 @@
       _pdfLibsPromise = (async () => {
         if (!window.html2canvas) await ensureHtml2canvas();
         if (!window.jspdf) {
-          await loadScriptOnce("https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js");
+          await loadScriptWithFallback(JSPDF_URLS, 15000);
         }
       })().catch((e) => { _pdfLibsPromise = null; throw e; });
     }
@@ -364,10 +403,10 @@
   }
 
   function renderMathJax(el) {
-    if (!el) return;
+    if (!el) return Promise.resolve();
     /* Only pay for KaTeX when the element actually contains math. */
-    if (!/\$|\\\(|\\\[/.test(el.textContent || "")) return;
-    ensureKatex().then(function () {
+    if (!/\$|\\\(|\\\[/.test(el.textContent || "")) return Promise.resolve();
+    return ensureKatex().then(function () {
       if (typeof renderMathInElement !== "function") return;
       try {
         renderMathInElement(el, {
@@ -3144,7 +3183,8 @@
     if (state.isGeneratingPdf) return;
     state.isGeneratingPdf = true;
 
-    showPdfSpinner(lang === "as" ? "PDF প্ৰস্তুত হৈ আছে, অনুগ্ৰহ কৰি ৰওক..." : "Generating PDF, please wait...");
+    const pdfWaitMsg = lang === "as" ? "PDF প্ৰস্তুত হৈ আছে, অনুগ্ৰহ কৰি অপেক্ষা কৰক..." : "Generating PDF, please wait...";
+    showPdfSpinner(pdfWaitMsg);
     await new Promise((r) => setTimeout(r, 40));
 
     let qs = rec.topic.questions || [];
@@ -3179,7 +3219,7 @@
     testMeasureDiv.style.cssText = "position:absolute; left:-9999px; top:-9999px; visibility:hidden; width:726px; font-family:" + fontFam + ";";
     document.body.appendChild(testMeasureDiv);
 
-    const renderedCards = qs.map((item, idx) => {
+    const renderedRows = qs.map((item, idx) => {
       const qText = extractField(item, "question", lang);
       const aText = extractField(item, "answer", lang);
       const exp = extractField(item, "explanation", lang);
@@ -3221,9 +3261,19 @@
       }
 
       testMeasureDiv.appendChild(row);
-      const h = row.offsetHeight + 7;
-      return { html: row.outerHTML, height: h };
+      return row;
     });
+
+    /* Render math and load the Bengali webfonts before measuring, so every
+       card gets its real final height and nothing shifts/overflows later. */
+    await renderMathJax(testMeasureDiv);
+    if (document.fonts && document.fonts.ready) {
+      await Promise.race([document.fonts.ready, new Promise((r) => setTimeout(r, 3000))]);
+    }
+    const renderedCards = renderedRows.map((row) => ({
+      html: row.outerHTML,
+      height: row.offsetHeight + 7
+    }));
     testMeasureDiv.remove();
 
     const pages = [];
@@ -3249,8 +3299,7 @@
     pdfContainer.id = "dynamic-pdf-export-container";
     pdfContainer.style.cssText = "position:absolute; left:-9999px; top:-9999px; width:794px; background:#fff;";
 
-    pages.forEach((pageRows, pageIdx) => {
-      const pageNum = pageIdx + 1;
+    function buildPdfPage(pageRows, pageNum) {
       const isFirst = pageNum === 1;
 
       const pageDiv = document.createElement("div");
@@ -3314,39 +3363,117 @@
         </div>
       `;
 
-      pdfContainer.appendChild(pageDiv);
-    });
+      return pageDiv;
+    }
 
     document.body.appendChild(pdfContainer);
-    renderMathJax(pdfContainer);
 
     try {
       await ensurePdfLibs();
       if (!window.jspdf || !window.html2canvas) {
         throw new Error("jsPDF or html2canvas library is missing.");
       }
+      if (document.fonts && document.fonts.ready) {
+        await Promise.race([document.fonts.ready, new Promise((r) => setTimeout(r, 3000))]);
+      }
       const { jsPDF } = window.jspdf;
       const pdf = new jsPDF('p', 'mm', 'a4');
-      const pageElements = pdfContainer.querySelectorAll('.pdf-page-node');
 
-      for (let i = 0; i < pageElements.length; i++) {
-        const canvas = await window.html2canvas(pageElements[i], { scale: 2, useCORS: true, logging: false });
-        const imgData = canvas.toDataURL('image/jpeg', 0.98);
-        if (i > 0) pdf.addPage('a4', 'p');
-        pdf.addImage(imgData, 'JPEG', 0, 0, 210, 297);
+      /* Lower resolution on phones / low-memory devices keeps the canvas
+         small enough to avoid the out-of-memory crashes that used to make
+         the download fail outright. */
+      const smallScreen = window.matchMedia ? window.matchMedia("(max-width: 820px)").matches : false;
+      const lowMemory = typeof navigator.deviceMemory === "number" && navigator.deviceMemory <= 4;
+      const scale = smallScreen || lowMemory ? 1.5 : 2;
+      const total = pages.length;
+
+      /* html2canvas has a large fixed cost per call, so capture several
+         pages in one pass and slice the bitmap. Memory stays bounded by
+         the pixel budget below. */
+      const pxPerPage = 794 * 1122 * scale * scale;
+      const maxPixels = smallScreen || lowMemory ? 8e6 : 16e6;
+      const batchSize = Math.max(1, Math.min(4, Math.floor(maxPixels / pxPerPage)));
+      const pagePxHeight = Math.round(1122 * scale);
+
+      for (let start = 0; start < total; start += batchSize) {
+        const count = Math.min(batchSize, total - start);
+        showPdfSpinner(lang === "as"
+          ? `PDF প্ৰস্তুত হৈ আছে (${start + 1}/${total}), অনুগ্ৰহ কৰি অপেক্ষা কৰক...`
+          : `Generating PDF (${start + 1}/${total}), please wait...`);
+        await new Promise((r) => setTimeout(r, 0));
+
+        const batchWrap = document.createElement("div");
+        batchWrap.style.cssText = "width:794px; background:#ffffff;";
+        for (let j = 0; j < count; j++) {
+          const pageDiv = buildPdfPage(pages[start + j], start + j + 1);
+          pageDiv.style.margin = "0";
+          batchWrap.appendChild(pageDiv);
+        }
+        pdfContainer.appendChild(batchWrap);
+
+        let canvas;
+        try {
+          canvas = await window.html2canvas(batchWrap, {
+            scale: scale,
+            useCORS: true,
+            allowTaint: false,
+            logging: false,
+            backgroundColor: "#ffffff"
+          });
+          const pxWidth = canvas.width;
+          for (let j = 0; j < count; j++) {
+            const sliceHeight = Math.min(pagePxHeight, canvas.height - j * pagePxHeight);
+            if (sliceHeight <= 0) break;
+            const slice = document.createElement("canvas");
+            slice.width = pxWidth;
+            slice.height = sliceHeight;
+            slice.getContext("2d").drawImage(
+              canvas,
+              0, j * pagePxHeight, pxWidth, sliceHeight,
+              0, 0, pxWidth, sliceHeight
+            );
+            const imgData = slice.toDataURL("image/jpeg", 0.9);
+            slice.width = 0;
+            slice.height = 0;
+            if (start + j > 0) pdf.addPage("a4", "p");
+            pdf.addImage(imgData, "JPEG", 0, 0, 210, 297, undefined, "FAST");
+          }
+        } finally {
+          if (canvas) {
+            canvas.width = 0;
+            canvas.height = 0;
+          }
+          canvas = null;
+          if (batchWrap.parentNode) batchWrap.remove();
+        }
       }
 
-      pdf.save(`${rec.topic.id}-${lang}.pdf`);
-      pdfContainer.remove();
-      hidePdfSpinner();
-      state.isGeneratingPdf = false;
+      const filename = `${rec.topic.id}-${lang}.pdf`;
+      try {
+        pdf.save(filename);
+      } catch (saveErr) {
+        const blobUrl = pdf.output("bloburl");
+        const a = document.createElement("a");
+        a.href = blobUrl;
+        a.download = filename;
+        a.rel = "noopener";
+        document.body.appendChild(a);
+        a.click();
+        setTimeout(() => {
+          if (a.parentNode) a.parentNode.removeChild(a);
+          URL.revokeObjectURL(blobUrl);
+        }, 4000);
+      }
       toast(lang === "as" ? "PDF ডাউনলোড সফল হ'ল!" : "PDF downloaded successfully!");
     } catch (err) {
       console.error("PDF generation failed:", err);
-      pdfContainer.remove();
+      toast(lang === "as"
+        ? "PDF বনাব পৰা নগ'ল। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।"
+        : "Failed to generate PDF. Please try again.");
+    } finally {
+      if (pdfContainer.parentNode) pdfContainer.remove();
       hidePdfSpinner();
       state.isGeneratingPdf = false;
-      toast("Failed to generate PDF. Please try again.");
     }
   }
 
