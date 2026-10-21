@@ -3083,10 +3083,10 @@
     if (!spinner) {
       spinner = document.createElement("div");
       spinner.id = "pdf-loading-overlay";
-      spinner.style.cssText = "position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(15,23,42,0.8);z-index:99999;display:flex;flex-direction:column;align-items:center;justify-content:center;backdrop-filter:blur(4px);";
+      spinner.style.cssText = "position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(15,23,42,0.8);z-index:99999;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;box-sizing:border-box;backdrop-filter:blur(4px);";
       spinner.innerHTML = `
-        <div style="width:48px;height:48px;border:3.5px solid rgba(255,255,255,0.15);border-top:3.5px solid #3b82f6;border-radius:50%;animation:pdfSpin 0.8s linear infinite;margin-bottom:16px;"></div>
-        <div id="pdf-spinner-text" style="color:#ffffff;font-size:0.98rem;font-weight:700;letter-spacing:0.3px;font-family:'Plus Jakarta Sans',sans-serif;">${escapeHtml(message || "Generating PDF...")}</div>
+        <div style="width:48px;height:48px;border:3.5px solid rgba(255,255,255,0.15);border-top:3.5px solid #3b82f6;border-radius:50%;animation:pdfSpin 0.8s linear infinite;margin-bottom:16px;flex:0 0 auto;"></div>
+        <div id="pdf-spinner-text" style="color:#ffffff;font-size:0.98rem;font-weight:700;letter-spacing:0.3px;line-height:1.6;text-align:center;max-width:min(92vw,460px);margin:0 auto;padding:0 4px;font-family:'Plus Jakarta Sans',sans-serif;word-break:break-word;overflow-wrap:anywhere;">${escapeHtml(message || "Generating PDF...")}</div>
         <style>@keyframes pdfSpin{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}</style>
       `;
       document.body.appendChild(spinner);
@@ -3449,22 +3449,48 @@
       }
 
       const filename = `${rec.topic.id}-${lang}.pdf`;
-      try {
-        pdf.save(filename);
-      } catch (saveErr) {
-        const blobUrl = pdf.output("bloburl");
-        const a = document.createElement("a");
-        a.href = blobUrl;
-        a.download = filename;
-        a.rel = "noopener";
-        document.body.appendChild(a);
-        a.click();
-        setTimeout(() => {
-          if (a.parentNode) a.parentNode.removeChild(a);
-          URL.revokeObjectURL(blobUrl);
-        }, 4000);
+      let savedByApp = false;
+
+      /* Newer Android builds expose a small bridge that writes the PDF bytes
+         straight to the Downloads folder. Inside the app the WebView's
+         DownloadListener can only pass http(s) URLs to DownloadManager, so a
+         blob: URL can never be saved there — the bridge is the only reliable
+         path. */
+      const appBridge = window.AxoApp;
+      if (appBridge && typeof appBridge.savePdf === "function") {
+        try {
+          const dataUri = String(pdf.output("datauristring") || "");
+          appBridge.savePdf(dataUri.substring(dataUri.indexOf(",") + 1), filename);
+          savedByApp = true;
+        } catch (bridgeErr) {
+          console.error("App PDF bridge failed:", bridgeErr);
+        }
       }
-      toast(lang === "as" ? "PDF ডাউনলোড সফল হ'ল!" : "PDF downloaded successfully!");
+
+      if (savedByApp) {
+        /* The native side shows its own "download started" toast. */
+      } else if (isInAxomexamApp()) {
+        toast(lang === "as"
+          ? "অ্যাপত PDF ছেভ কৰিব নোৱাৰি। Chrome ত axomexam.in খুলি ডাউনলোড কৰক।"
+          : "Can't save PDF inside the app. Open axomexam.in in Chrome and download there.");
+      } else {
+        try {
+          pdf.save(filename);
+        } catch (saveErr) {
+          const blobUrl = pdf.output("bloburl");
+          const a = document.createElement("a");
+          a.href = blobUrl;
+          a.download = filename;
+          a.rel = "noopener";
+          document.body.appendChild(a);
+          a.click();
+          setTimeout(() => {
+            if (a.parentNode) a.parentNode.removeChild(a);
+            URL.revokeObjectURL(blobUrl);
+          }, 4000);
+        }
+        toast(lang === "as" ? "PDF ডাউনলোড সফল হ'ল!" : "PDF downloaded successfully!");
+      }
     } catch (err) {
       console.error("PDF generation failed:", err);
       toast(lang === "as"
