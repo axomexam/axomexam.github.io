@@ -473,7 +473,6 @@ function shellHTML({ route, title, description, descriptionAs, canonical, keywor
   const robotsContent = robots || "index, follow";
   const ogTitle = escapeHtml(title);
   const ogDesc = escapeHtml(description);
-  const ogDescAs = descriptionAs ? escapeHtml(descriptionAs) : "";
   /* Page-level node: tells Google/Bing (and AI crawlers) the page is
      bilingual. hreflang is intentionally NOT used here because every page
      serves both languages on one URL; on a single URL hreflang would just
@@ -495,7 +494,6 @@ function shellHTML({ route, title, description, descriptionAs, canonical, keywor
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="${ogDesc}" />
-  ${ogDescAs ? `<meta name="description" lang="as" content="${ogDescAs}" />` : ""}
   <meta name="robots" content="${robotsContent}" />
   ${allKeywords ? `<meta name="keywords" content="${escapeHtml(allKeywords)}" />` : ""}
   ${keywordsAs ? `<meta name="keywords" lang="as" content="${escapeHtml(keywordsAs)}" />` : ""}

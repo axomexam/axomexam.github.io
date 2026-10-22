@@ -366,7 +366,6 @@ function shellPage({ cat, catHref, cardsHtml }) {
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="${esc(descEn)}" />
-  <meta name="description" lang="as" content="${esc(descAs)}" />
   <meta name="robots" content="index, follow" />
   <meta name="keywords" content="${esc(titleEn.toLowerCase())}, current affairs, assam current affairs, current affairs mcq, axomexam, adre current affairs, assam police current affairs" />
 

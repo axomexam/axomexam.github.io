@@ -709,7 +709,6 @@ function buildShellPage({ subEn, subAs, secEn, secAs, examEn, secHref, subHref, 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="${esc(descEn)}" />
-  <meta name="description" lang="as" content="${esc(descAs)}" />
   <meta name="robots" content="index, follow" />
   <meta name="keywords" content="${esc(subEn.toLowerCase())}, assam police, slprb, assam police constable, assam police ab ub, assam exams" />
 

@@ -14,7 +14,6 @@
      pages in place and never touches <body> content.
 
    What it adds to every indexable page (idempotent):
-     - <meta name="description" lang="as"> (Assamese description)
      - <meta name="keywords" lang="as"> where Assamese tags exist
      - <meta property="og:locale:alternate" content="as_IN">
      - a WebPage JSON-LD node with inLanguage: ["en", "as"]
@@ -331,25 +330,14 @@ function enhance(html, rel) {
   if (!canonical) return { html, changed: false }; // skip 404/redirect stubs without canonical
   const url = canonical.endsWith("/") ? canonical : canonical + "/";
   const title = decodeHtml(getAttr(html, /<title>([\s\S]*?)<\/title>/));
-  const { desc, tags } = assameseFor(route, canonical);
+  const { tags } = assameseFor(route, canonical);
 
   let out = html;
   let changed = false;
 
-  // 1. Assamese description meta (insert or refresh)
-  const asDescRe = /<meta name="description" lang="as" content="[^"]*"\s*\/?>/;
-  const asDescTag = `<meta name="description" lang="as" content="${escapeHtml(desc)}" />`;
-  if (asDescRe.test(out)) {
-    const next = out.replace(asDescRe, asDescTag);
-    if (next !== out) changed = true;
-    out = next;
-  } else {
-    const m = out.match(/<meta name="description" content="[^"]*"\s*\/?>/);
-    if (m) {
-      out = out.replace(m[0], m[0] + "\n  " + asDescTag);
-      changed = true;
-    }
-  }
+  // 1. Only ONE <meta name="description"> is allowed per page. A second
+  //    language-tagged description is flagged by Bing as a SEO error and
+  //    ignored by crawlers, so it is removed instead of inserted.
 
   // 2. Assamese keywords meta
   if (tags) {
