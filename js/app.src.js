@@ -1255,8 +1255,8 @@
         }
       } else if (segs[0] === "categories") {
         title = "All Categories | axomexam";
-      } else if (["about", "privacy", "privacy-policy", "terms", "disclaimer", "contact", "submit"].includes(segs[0])) {
-        const map = { about: "About Us", privacy: "Privacy Policy", "privacy-policy": "Privacy Policy", terms: "Terms & Conditions", disclaimer: "Disclaimer", contact: "Contact Us", submit: "Submit Q&A" };
+      } else if (["about", "privacy", "privacy-policy", "terms", "disclaimer", "contact", "submit", "editorial-policy", "editorial-team", "sources", "updates"].includes(segs[0])) {
+        const map = { about: "About Us", privacy: "Privacy Policy", "privacy-policy": "Privacy Policy", terms: "Terms & Conditions", disclaimer: "Disclaimer", contact: "Contact Us", submit: "Submit Q&A", "editorial-policy": "Editorial Policy", "editorial-team": "Editorial Team", sources: "Official Sources", updates: "Content Updates" };
         title = (map[segs[0]] || "axomexam") + " | axomexam";
       }
 
@@ -1518,7 +1518,7 @@
       return renderTopicPage(main, rec);
     }
     
-    if (["about", "privacy", "privacy-policy", "terms", "disclaimer"].includes(segs[0])) {
+    if (["about", "privacy", "privacy-policy", "terms", "disclaimer", "editorial-policy", "editorial-team", "sources", "updates"].includes(segs[0])) {
       const pageKey = segs[0] === "privacy-policy" ? "privacy" : segs[0];
       return renderStatic(main, pageKey);
     }
@@ -2656,6 +2656,358 @@
         <p>axomexam.in is an independent private educational website. It is NOT affiliated with, sponsored by, or endorsed by the Government of Assam, APSC, SLPRB, State Recruitment Boards, or any governmental testing agency. Candidates must always cross-reference with official state recruitment gazettes.</p>
         <h3>2. Educational Warranties</h3>
         <p>We make no absolute warranties regarding test pattern guarantees or exam success outcomes. Use of study resources and mock practices is at the user's sole discretion.</p>
+      `;
+    } else if (key === "editorial-policy") {
+      title = isAs ? "সম্পাদকীয় নীতি" : "Editorial Policy";
+      desc = isAs ? "অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে axomexam.in ৰ দ্বিভাষিক অধ্যয়ন সামগ্ৰী কেনেদৰে পৰিকল্পনা, লিখন, তথ্য-যাচাই, পৰ্যালোচনা আৰু সংশোধন কৰা হয়।" : "How axomexam.in plans, writes, fact-checks, reviews and corrects its bilingual study material for Assam competitive examinations.";
+      content = isAs ? `
+        <p><strong>axomexam.in</strong> এ অসম ৰাজ্যিক নিযুক্তি পৰীক্ষা আৰু অসমত জনপ্ৰিয় কেন্দ্ৰীয় পৰীক্ষাসমূহৰ বাবে বিনামূলীয়া দ্বিভাষিক অধ্যয়ন সামগ্ৰী প্ৰকাশ কৰে। এই পৃষ্ঠাই ব্যাখ্যা কৰে যে সামগ্ৰী কেৱে প্ৰস্তুত কৰে, কেনেদৰে পৰীক্ষা কৰা হয়, কি উৎস ব্যৱহাৰ কৰা হয়, ভুল কেনেদৰে সংশোধন কৰা হয়, আৰু বিজ্ঞাপনক সম্পাদকীয় সিদ্ধান্তৰ পৰা কেনেদৰে পৃথক ৰখা হয়। এই নীতি এই ৱেবছাইটত প্ৰকাশিত প্ৰতিটো প্ৰশ্ন-সংগ্ৰহ, মক টেষ্ট, বিগত বৰ্ষৰ প্ৰশ্নকাকত, ই-বুক, PDF নোট আৰু প্ৰবন্ধৰ ক্ষেত্ৰত প্ৰযোজ্য।</p>
+
+        <h2>সামগ্ৰী কেৱে প্ৰস্তুত কৰে</h2>
+        <p>সামগ্ৰী <a href="/editorial-team/">axomexam সম্পাদকীয় দল</a>এ পৰিকল্পনা আৰু পৰ্যালোচনা কৰে, যিয়ে কেৱল এই মঞ্চৰ অধ্যয়ন সামগ্ৰীত কাম কৰে। প্ৰকাশৰ আগতে প্ৰতিটো পৃষ্ঠা এজন বিষয়-পৰ্যালোচকে আৰু অসমীয়া পাঠৰ বাবে এজন ভাষা-পৰ্যালোচকে পৰীক্ষা কৰে। কোনো কোচিং প্ৰতিষ্ঠান, প্ৰকাশক বা পৰীক্ষা প'ৰ্টেলৰ সামগ্ৰী অন্তৰ্ভুক্ত কৰাৰ বিনিময়ত আমি ধন লোৱা নাই, আৰু কোনো পৃষ্ঠপোষকতা কৰা পৃষ্ঠাক অধ্যয়ন সামগ্ৰী হিচাপে উপস্থাপন কৰা নহয়।</p>
+
+        <h2>এখন পৃষ্ঠা কেনেদৰে সৃষ্টি কৰা হয়</h2>
+        <ol>
+          <li><strong>পাঠ্যক্ৰমৰ মিল।</strong> প্ৰতিটো শিতান প্ৰথমে সংশ্লিষ্ট পৰীক্ষাৰ চৰকাৰী পাঠ্যক্ৰম বা জাননীৰ সৈতে মিলাই লোৱা হয়, যাতে পৃষ্ঠাত থকা বিষয়বোৰ প্ৰকৃততে প্ৰশ্নকাকতত অহা বিষয় হয়।</li>
+          <li><strong>খচৰা প্ৰস্তুত।</strong> প্ৰশ্ন, উত্তৰ আৰু ব্যাখ্যা সহজ ভাষাত লিখা হয়। সংখ্যাগত বা যুক্তিৰ প্ৰশ্নত কেৱল চূড়ান্ত উত্তৰ নহয়, কামৰ ধাপবোৰো দেখুওৱা হয়। ইংৰাজী আৰু অসমীয়া সংস্কৰণ একেলগে প্ৰস্তুত কৰা হয় যাতে দুয়োটা সংস্কৰণে একে সামগ্ৰী সামৰি লয়।</li>
+          <li><strong>তথ্য-যাচাই।</strong> তথ্য, তাৰিখ, নাম আৰু সংখ্যাগত উত্তৰ চৰকাৰী জাননী আৰু চৰকাৰী প'ৰ্টেল, ৰাজহুৱা বিগত বৰ্ষৰ প্ৰশ্নকাকত, আৰু মানক বিদ্যালয় বা প্ৰসংগ সামগ্ৰীৰ সৈতে মিলাই পৰীক্ষা কৰা হয়। যি তথ্য যাচাই কৰিব নোৱাৰি, তাক সত্য হিচাপে প্ৰকাশ কৰা নহয়।</li>
+          <li><strong>ভাষা পৰ্যালোচনা।</strong> অসমীয়া সংস্কৰণ শুদ্ধ পাৰিভাষিক শব্দ, বানান আৰু স্বাভাৱিক প্ৰয়োগৰ বাবে পঢ়া হয়, কেৱল শব্দে শব্দে অনুবাদ নহয়। কাৰিকৰী শব্দবোৰ অসমীয়া প্ৰশ্নকাকতত ব্যৱহৃত ৰূপতেই ৰখা হয়।</li>
+          <li><strong>প্ৰকাশ আৰু পুনৰ পৰ্যালোচনা।</strong> প্ৰতিটো পৃষ্ঠাত প্ৰকাশৰ তাৰিখ আৰু শেষ হালনাগাদৰ তাৰিখ থাকে। পাঠ্যক্ৰম, পৰীক্ষাৰ আৰ্হি বা চৰকাৰী জাননী সলনি হ'লে সামগ্ৰী পুনৰ পৰ্যালোচনা কৰা হয়।</li>
+        </ol>
+
+        <h2>আমি ব্যৱহাৰ কৰা উৎস</h2>
+        <p>আমি প্ৰাথমিক আৰু ৰাজহুৱাভাৱে উপলব্ধ সামগ্ৰীৰ ওপৰত নিৰ্ভৰ কৰোঁ: চৰকাৰী নিযুক্তি জাননী আৰু সংশোধনী, চৰকাৰী পৰীক্ষা প'ৰ্টেল, ৰাজহুৱা বিগত বৰ্ষৰ প্ৰশ্নকাকত, আৰু মানক বিদ্যালয়-স্তৰৰ পাঠ্যপুথি। আমি অনুসৰণ কৰা চৰকাৰী প'ৰ্টেলৰ তালিকা <a href="/sources/">চৰকাৰী উৎস পৃষ্ঠা</a>ত ৰখা হৈছে।</p>
+        <p>আমি বাণিজ্যিক পুথিৰ অধ্যায়, প্ৰশ্ন-সংগ্ৰহ বা ব্যাখ্যামূলক পাঠ পুনৰুত্পাদন নকৰোঁ। যি বিষয় সাধাৰণতে এটা নিৰ্দিষ্ট ধৰণে ব্যাখ্যা কৰা হয়, আমি নিজৰ ব্যাখ্যা লিখি পাঠ্যক্ৰম আৰু ৰাজহুৱা সামগ্ৰীৰ সৈতে মিলাই পৰীক্ষা কৰোঁ। তৃতীয় পক্ষৰ প্ৰকাশনৰ উল্লেখ আমাৰ নিজৰ যাচাইৰ বিকল্প নহয়।</p>
+
+        <h2>AI সহায়ক সঁজুলিৰ ব্যৱহাৰ</h2>
+        <p>অন্যান্য আধুনিক প্ৰকাশকৰ দৰেই আমি পাঠ খচৰা, সজ্জিত কৰা আৰু অনুবাদ কৰাত সহায় কৰিবলৈ ছফ্টৱেৰ, যাৰ ভিতৰত AI ভাষা সঁজুলিও আছে, ব্যৱহাৰ কৰোঁ। এই সঁজুলিবোৰ কেৱল খচৰা সহায়ক হিচাপেহে ব্যৱহাৰ কৰা হয়। প্ৰতিটো প্ৰকাশিত পৃষ্ঠা লাইভ হোৱাৰ আগতে এজন ব্যক্তিয়ে পৰ্যালোচনা কৰে, তথ্য ওপৰত বৰ্ণনা কৰা উৎসৰ সৈতে যাচাই কৰা হয়, আৰু প্ৰকাশিত সমলৰ দায়িত্ব সম্পাদকীয় দলৰ। আমি পৰ্যালোচনা নকৰা যন্ত্ৰ-আউটপুট স্বয়ংক্ৰিয়ভাৱে প্ৰকাশ নকৰোঁ, আৰু পৰীক্ষাৰ জাননী, তাৰিখ বা ফলাফল সৃষ্টি কৰিবলৈ AI সঁজুলি ব্যৱহাৰ নকৰোঁ।</p>
+
+        <h2>শুদ্ধতা, সংশোধন আৰু হালনাগাদ</h2>
+        <p>পৰীক্ষাৰ বিৱৰণ সঘনাই সলনি হয়। যদি আপুনি ভুল উত্তৰ, পুৰণি তথ্য, ভাঙা লিংক বা অনুবাদৰ ভুল পায়, তেন্তে পৃষ্ঠাৰ ঠিকনা আৰু শুদ্ধ তথ্যসহ <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a> লৈ লিখক। আমি প্ৰতিটো অভিযোগ উৎসৰ সৈতে যাচাই কৰি পৃষ্ঠা সলনি কৰোঁ, আৰু দুই-তিনি কৰ্মদিৱসৰ ভিতৰত উত্তৰ দিবলৈ চেষ্টা কৰোঁ। সংশোধন লাইভ পৃষ্ঠাত কৰা হয় আৰু শেষ হালনাগাদৰ তাৰিখ সলনি কৰা হয়। প্ৰধান পৰিৱৰ্তনৰ ৰেকৰ্ড <a href="/updates/">সমল হালনাগাদ পৃষ্ঠা</a>ত ৰখা হয়।</p>
+        <p>axomexam.in এখন স্বতন্ত্ৰ অধ্যয়ন সহায়িকা। ই চৰকাৰী প'ৰ্টেল নহয় আৰু কোনো নিযুক্তি ব'ৰ্ডক প্ৰতিনিধিত্ব নকৰে। আবেদন কৰাৰ আগতে যোগ্যতা, তাৰিখ আৰু পৰীক্ষাৰ আৰ্হি চৰকাৰী জাননীৰ পৰা সদায় নিশ্চিত কৰক।</p>
+
+        <h2>বিজ্ঞাপন আৰু সম্পাদকীয় স্বাধীনতা</h2>
+        <p>ৱেবছাইটটো ব্যৱহাৰ কৰিবলৈ বিনামূলীয়া আৰু বিজ্ঞাপনৰ দ্বাৰা সমৰ্থিত। বিজ্ঞাপন তৃতীয় পক্ষৰ নেটৱৰ্কে পৰিবেশন কৰে আৰু সম্পাদকীয় সমলৰ পৰা স্পষ্টভাৱে পৃথক থাকে। বিজ্ঞাপনদাতাই অধ্যয়ন সামগ্ৰী পৰ্যালোচনা, অনুমোদন বা প্ৰভাৱিত নকৰে, আৰু বিজ্ঞাপনৰ উপস্থিতি বিজ্ঞাপিত সামগ্ৰীৰ অনুমোদন নহয়।</p>
+        <p>আমি ভুল পৃষ্ঠা, ৰিডাইৰেক্ট পৃষ্ঠা, সন্ধান ফলাফল বা অধ্যয়ন সামগ্ৰী নথকা অন্য স্ক্ৰীনত বিজ্ঞাপন নৰখোঁ। বিজ্ঞাপন থকা পৃষ্ঠাত ওপৰত বৰ্ণনা কৰা সম্পূৰ্ণ বিষয়বস্তু থাকে, কেৱল বিজ্ঞাপন দেখুওৱাৰ বাবে লিখা সাৰাংশ নহয়।</p>
+
+        <h2>যোগাযোগ</h2>
+        <p>এই নীতিৰ বিষয়ে প্ৰশ্ন, সংশোধনৰ অনুৰোধ আৰু অৱদান <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a> লৈ বা <a href="/contact/">যোগাযোগ পৃষ্ঠা</a>ৰ জৰিয়তে পঠিয়াব পাৰে।</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২৩ অক্টোবৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
+      ` : `
+        <p><strong>axomexam.in</strong> publishes free bilingual study material for Assam state recruitment examinations and for central examinations that are popular in Assam. This page explains who prepares that material, how it is checked, which sources are used, how errors are corrected, and how advertising is kept separate from editorial decisions. It applies to every question bank, mock test, previous year paper, e-book, PDF note and article published on this website.</p>
+
+        <h2>Who prepares the content</h2>
+        <p>Content is planned and reviewed by the <a href="/editorial-team/">Axomexam Editorial Team</a>, which works only on study material for this platform. Every page is checked by a subject reviewer and, for Assamese text, by a language reviewer before it is published. We do not accept payment from coaching institutes, publishers or exam portals in exchange for including their material, and no sponsored page is presented as study content.</p>
+
+        <h2>How a page is created</h2>
+        <ol>
+          <li><strong>Syllabus mapping.</strong> Each section is first matched to the official syllabus or notification of the examination it supports, so that the topics on the page are the topics that the paper actually tests.</li>
+          <li><strong>Drafting.</strong> Questions, answers and explanations are written in plain language. Wherever a numerical or reasoning question needs working, the steps are shown instead of only the final answer. English and Assamese versions are prepared together so that the two versions cover the same material.</li>
+          <li><strong>Fact-checking.</strong> Facts, dates, names and numerical answers are cross-checked against official notifications and government portals, public previous year question papers, and standard school or reference material. A statement that cannot be verified is not published as fact.</li>
+          <li><strong>Language review.</strong> The Assamese version is read for correct terminology, spelling and natural usage, not merely translated word for word. Technical terms are kept in the form used in Assamese exam papers.</li>
+          <li><strong>Publishing and review.</strong> Each page carries a published date and a last-updated date. Content is reviewed again when a syllabus, exam pattern or official notification changes.</li>
+        </ol>
+
+        <h2>Sources we use</h2>
+        <p>We rely on primary and publicly available material: official recruitment notifications and corrigenda, official exam portals, public previous year question papers, and standard school-level textbooks. A list of the official portals we monitor is maintained on the <a href="/sources/">official sources page</a>.</p>
+        <p>We do not reproduce chapters, question banks or explanatory text from commercial books. Where a topic is commonly explained in a particular way, we write our own explanation and check it against the syllabus and public material. References to third-party publications are not used as a substitute for our own verification.</p>
+
+        <h2>Use of AI-assisted tools</h2>
+        <p>Like many modern publishers, we use software, including AI language tools, to help draft, format and translate text. These tools are used as drafting aids only. Every published page is reviewed by a person before it goes live, facts are checked against the sources described above, and the editorial team is responsible for what is published. We do not auto-publish unreviewed machine output, and we do not use AI tools to invent exam notifications, dates or results.</p>
+
+        <h2>Accuracy, corrections and updates</h2>
+        <p>Examination details change often. If you find a wrong answer, an outdated fact, a broken link or a translation error, write to <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a> with the page address and the correct information. We verify every report against a source before changing a page, and we aim to reply within two to three working days. Corrections are made on the live page and the last-updated date is changed. A record of major changes is kept on the <a href="/updates/">content updates page</a>.</p>
+        <p>axomexam.in is an independent study aid. It is not a government portal and does not represent any recruitment board. Always confirm eligibility, dates and the exam pattern from the official notification before applying.</p>
+
+        <h2>Advertising and editorial independence</h2>
+        <p>The website is free to use and is supported by advertising. Advertising is served by third-party networks and is clearly distinguishable from editorial content. Advertisers do not review, approve or influence study material, and the presence of an advertisement is not an endorsement of the advertised product.</p>
+        <p>We do not place advertising on error pages, redirect pages, search results or other screens that contain no study content. Pages that carry advertising contain the full topic material described above, not a summary written only to host ads.</p>
+
+        <h2>Contact</h2>
+        <p>Questions about this policy, correction requests and contributions can be sent to <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a> or through the <a href="/contact/">contact page</a>.</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 23 October 2026 &middot; Publisher: axomexam.in</p>
+      `;
+    } else if (key === "editorial-team") {
+      title = isAs ? "সম্পাদকীয় দল" : "Editorial Team";
+      desc = isAs ? "axomexam সম্পাদকীয় দল: axomexam.in ত প্ৰকাশিত দ্বিভাষিক অধ্যয়ন সামগ্ৰী কেৱে পৰিকল্পনা, লিখন, তথ্য-যাচাই আৰু পৰ্যালোচনা কৰে।" : "The Axomexam Editorial Team: who plans, writes, fact-checks and reviews the bilingual study material published on axomexam.in.";
+      content = isAs ? `
+        <p>axomexam.in ৰ প্ৰতিটো পৃষ্ঠা axomexam সম্পাদকীয় দলে প্ৰস্তুত আৰু পৰীক্ষা কৰে। দলটো সৰু আৰু কেৱল এই মঞ্চৰ অধ্যয়ন সামগ্ৰীত কাম কৰে। এই পৃষ্ঠাই জড়িত ভূমিকা, পৰ্যালোচনাৰ কাৰ্যপ্ৰবাহ, আৰু প্ৰতিজন অৱদানকাৰীয়ে মানি চলিবলগীয়া মানদণ্ড ব্যাখ্যা কৰে।</p>
+
+        <h2>সম্পাদকীয় দলৰ ভূমিকা</h2>
+        <ul>
+          <li><strong>সমল পৰিকল্পনা আৰু পাঠ্যক্ৰমৰ মিল।</strong> চৰকাৰী জাননী আৰু পাঠ্যক্ৰম অনুসৰণ কৰে, কোন বিষয় কোন পৰীক্ষাৰ শিতানত পৰে নিৰ্ধাৰণ কৰে, আৰু পাঠ্যক্ৰমৰ পৰা বাদ পৰা সামগ্ৰী আঁতৰায়।</li>
+          <li><strong>বিষয় লেখক।</strong> সাধাৰণ জ্ঞান, গণিত, সাধাৰণ বিজ্ঞান, যুক্তি, সাধাৰণ ইংৰাজী, কম্পিউটাৰ সজাগতা আৰু চলিত ঘটনাৱলীত প্ৰশ্ন, উত্তৰ আৰু ধাপে ধাপে ব্যাখ্যা প্ৰস্তুত কৰে।</li>
+          <li><strong>অসমীয়া ভাষা পৰ্যালোচক।</strong> অসমীয়া সংস্কৰণৰ শুদ্ধ পাৰিভাষিক শব্দ, বানান আৰু স্বাভাৱিক প্ৰয়োগ পৰীক্ষা কৰে, আৰু ইয়াৰ পৰিসৰ ইংৰাজী সংস্কৰণৰ সৈতে মিলে নে নাই নিশ্চিত কৰে।</li>
+          <li><strong>তথ্য-যাচাই আৰু গুণগত পৰ্যালোচনা।</strong> প্ৰকাশৰ আগতে তথ্য, তাৰিখ, নাম আৰু সংখ্যাগত উত্তৰ চৰকাৰী জাননী, ৰাজহুৱা প্ৰশ্নকাকত আৰু মানক প্ৰসংগ সামগ্ৰীৰ সৈতে যাচাই কৰে।</li>
+          <li><strong>কাৰিকৰী পৰ্যালোচনা।</strong> পৃষ্ঠাৰ গাঁথনি, ম'বাইলত পঢ়নক্ষমতা, সন্ধান, ডাউনল'ডযোগ্য ফাইল আৰু প্ৰকাশিত পৃষ্ঠাৰ অভিগম্যতা পৰীক্ষা কৰে।</li>
+        </ul>
+
+        <h2>এখন পৃষ্ঠা কেনেদৰে পৰ্যালোচনা কৰা হয়</h2>
+        <ol>
+          <li>বিষয়টো চৰকাৰী পাঠ্যক্ৰম বা জাননীৰ সৈতে মিলাই লোৱা হয়।</li>
+          <li>উত্তৰ আৰু ব্যাখ্যাসহ ইংৰাজী আৰু অসমীয়াত খচৰা লিখা হয়।</li>
+          <li>দ্বিতীয় এজন পৰ্যালোচকে তথ্য আৰু প্ৰতিটো সংখ্যাগত বা যুক্তিৰ প্ৰশ্নৰ কাম পৰীক্ষা কৰে।</li>
+          <li>অসমীয়া পাঠৰ ভাষাৰ গুণ পৰ্যালোচনা কৰা হয়।</li>
+          <li>প্ৰকাশৰ তাৰিখ আৰু শেষ হালনাগাদৰ তাৰিখসহ পৃষ্ঠা প্ৰকাশ কৰা হয়, আৰু পৰীক্ষাৰ আৰ্হি সলনি হ'লে পুনৰ পৰ্যালোচনা কৰা হয়।</li>
+        </ol>
+        <p>AI সহায়ক খচৰাৰ নীতিকে ধৰি সম্পূৰ্ণ প্ৰক্ৰিয়া <a href="/editorial-policy/">সম্পাদকীয় নীতি</a>ত বৰ্ণনা কৰা হৈছে।</p>
+
+        <h2>প্ৰতিজন অৱদানকাৰীয়ে মানি চলা মানদণ্ড</h2>
+        <ul>
+          <li>মৌলিক ব্যাখ্যা লিখক; বাণিজ্যিক পুথি বা অন্য ৱেবছাইটৰ পাঠ, প্ৰশ্ন বা নোট কপি নকৰিব।</li>
+          <li>তথ্য চৰকাৰী বা ৰাজহুৱা উৎসৰ সৈতে যাচাই কৰক আৰু অযাচিত দাবীক সত্য হিচাপে উপস্থাপন নকৰিব।</li>
+          <li>সংখ্যাগত আৰু যুক্তিৰ প্ৰশ্নত কেৱল উত্তৰ নহয়, কামৰ ধাপো দেখুওৱাক।</li>
+          <li>ইংৰাজী আৰু অসমীয়া সংস্কৰণৰ পৰিসৰ আৰু কাঠিন্য সমান ৰাখক।</li>
+          <li>জনোৱা ভুলসমূহ সময়মতে সংশোধন কৰক আৰু পৰিৱৰ্তন লিপিবদ্ধ কৰক।</li>
+          <li>বিজ্ঞাপন আৰু সম্পাদকীয় সিদ্ধান্ত পৃথক ৰাখক।</li>
+        </ul>
+
+        <h2>স্বাধীনতা আৰু পুঁজি</h2>
+        <p>axomexam.in স্বাধীনভাৱে পৰিচালিত আৰু ব্যৱহাৰ কৰিবলৈ বিনামূলীয়া। ই বিজ্ঞাপনৰ দ্বাৰা পুঁজিৰ যোগান ধৰে আৰু নিজৰ অধ্যয়ন সামগ্ৰীত কোনো পৰীক্ষা, কোচিং প্ৰতিষ্ঠান, পুথি বা সামগ্ৰী অন্তৰ্ভুক্ত কৰাৰ বাবে ধন লোৱা নাই। দলৰ সদস্যসকলে পৃষ্ঠপোষকতা কৰা সামগ্ৰী সম্পাদকীয় সমল হিচাপে প্ৰকাশ নকৰে।</p>
+
+        <h2>অৱদান আৰু সংশোধন</h2>
+        <p>শিক্ষক, বিষয় বিশেষজ্ঞ আৰু ভুল ধৰা পেলোৱা পৰীক্ষাৰ্থীসকলক <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a> লৈ লিখিবলৈ আমন্ত্ৰণ জনাইছোঁ। সোনকালে যাচাই কৰিব পৰাকৈ পৃষ্ঠাৰ ঠিকনা আৰু সংশোধনৰ উৎস অন্তৰ্ভুক্ত কৰিব। আপুনি <a href="/contact/">যোগাযোগ পৃষ্ঠা</a>ও ব্যৱহাৰ কৰিব পাৰে।</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২৩ অক্টোবৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
+      ` : `
+        <p>Every page on axomexam.in is produced and checked by the Axomexam Editorial Team. The team is small and works only on study material for this platform. This page explains the roles involved, the review workflow, and the standards every contributor agrees to follow.</p>
+
+        <h2>Roles in the editorial team</h2>
+        <ul>
+          <li><strong>Content planning and syllabus mapping.</strong> Tracks official notifications and syllabi, decides which topics belong to which exam section, and retires material that is no longer part of the syllabus.</li>
+          <li><strong>Subject writers.</strong> Prepare questions, answers and step-by-step explanations in General Knowledge, Mathematics, General Science, Reasoning, General English, Computer Awareness and current affairs.</li>
+          <li><strong>Assamese language reviewer.</strong> Checks the Assamese version for correct terminology, spelling and natural usage, and makes sure it matches the English version in scope.</li>
+          <li><strong>Fact-check and quality review.</strong> Verifies facts, dates, names and numerical answers against official notifications, public question papers and standard reference material before publishing.</li>
+          <li><strong>Technical review.</strong> Checks page structure, mobile readability, search, downloadable files and accessibility of the published page.</li>
+        </ul>
+
+        <h2>How a page is reviewed</h2>
+        <ol>
+          <li>The topic is matched to the official syllabus or notification.</li>
+          <li>A draft is written in English and Assamese with answers and explanations.</li>
+          <li>A second reviewer checks the facts and the working of every numerical or reasoning question.</li>
+          <li>The Assamese text is reviewed for language quality.</li>
+          <li>The page is published with a published date and a last-updated date, and is revisited when the exam pattern changes.</li>
+        </ol>
+        <p>The full process, including our policy on AI-assisted drafting, is described in the <a href="/editorial-policy/">editorial policy</a>.</p>
+
+        <h2>Standards every contributor follows</h2>
+        <ul>
+          <li>Write original explanations; do not copy text, questions or notes from commercial books or other websites.</li>
+          <li>Check facts against official or public sources and do not present an unverified claim as fact.</li>
+          <li>Show the working for numerical and reasoning questions, not only the answer.</li>
+          <li>Keep the English and Assamese versions equivalent in coverage and difficulty.</li>
+          <li>Correct reported errors promptly and record the change.</li>
+          <li>Keep advertising and editorial decisions separate.</li>
+        </ul>
+
+        <h2>Independence and funding</h2>
+        <p>axomexam.in is independently run and free to use. It is funded by advertising and does not accept payment for including any exam, coaching institute, book or product in its study material. Team members do not publish sponsored material as editorial content.</p>
+
+        <h2>Contributions and corrections</h2>
+        <p>Teachers, subject experts and candidates who spot an error are welcome to write to <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a>. Please include the page address and the source for the correction so that it can be verified quickly. You can also use the <a href="/contact/">contact page</a>.</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 23 October 2026 &middot; Publisher: axomexam.in</p>
+      `;
+    } else if (key === "sources") {
+      title = isAs ? "চৰকাৰী উৎস আৰু তথ্যসূত্ৰ" : "Official Sources & References";
+      desc = isAs ? "axomexam.in ৰ অধ্যয়ন সামগ্ৰী প্ৰস্তুত আৰু যাচাই কৰিবলৈ ব্যৱহৃত চৰকাৰী পৰীক্ষা প'ৰ্টেল, জাননী যাচাই আৰু প্ৰসংগ সামগ্ৰী।" : "Official exam portals, notification checks and reference material used to prepare and verify study content on axomexam.in.";
+      content = isAs ? `
+        <p>অধ্যয়ন সামগ্ৰী তেতিয়াহে উপযোগী হয় যেতিয়া ই চৰকাৰী পৰীক্ষাৰ সৈতে মিলে। এই পৃষ্ঠাই আমি অনুসৰণ কৰা চৰকাৰী প'ৰ্টেলৰ তালিকা দিয়ে আৰু axomexam.in ৰ সমলত প্ৰভাৱ পেলোৱাৰ আগতে এখন জাননী কেনেদৰে যাচাই কৰা হয় তাক ব্যাখ্যা কৰে। আমি এখন স্বতন্ত্ৰ ৱেবছাইট আৰু এই কোনো সংস্থাৰ সৈতে সংযুক্ত নহয়।</p>
+
+        <h2>চৰকাৰী পৰীক্ষা প'ৰ্টেল</h2>
+        <div style="overflow-x:auto;">
+          <table style="width:100%; border-collapse:collapse; font-size:0.95rem;">
+            <thead>
+              <tr>
+                <th style="text-align:left; padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">পৰীক্ষা সংস্থা</th>
+                <th style="text-align:left; padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">তাত কি চাব</th>
+                <th style="text-align:left; padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">চৰকাৰী প'ৰ্টেল</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">SLPRB অসম</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">অসম আৰক্ষী কনিষ্টবল আৰু উপ-পৰিদৰ্শকৰ জাননী, পাঠ্যক্ৰম, প্ৰৱেশপত্ৰ আৰু ফলাফল</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://slprbassam.in/" rel="noopener nofollow" target="_blank">slprbassam.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">SLRC অসম</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">ADRE তৃতীয় আৰু চতুৰ্থ শ্ৰেণীৰ জাননী, পৰীক্ষাৰ আৰ্হি আৰু ফলাফল</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://slrcassam.in/" rel="noopener nofollow" target="_blank">slrcassam.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">APSC</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">সংযুক্ত প্ৰতিযোগিতামূলক পৰীক্ষা আৰু আয়োগৰ অন্যান্য পৰীক্ষা</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://apsc.nic.in/" rel="noopener nofollow" target="_blank">apsc.nic.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">কৰ্মচাৰী নিৰ্বাচন আয়োগ</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">CGL, CHSL, GD, MTS আৰু অন্যান্য কেন্দ্ৰীয় জাননী আৰু উত্তৰ-কুঞ্জিকা</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://ssc.gov.in/" rel="noopener nofollow" target="_blank">ssc.gov.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">ভাৰতীয় ৰে'লৱে</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">RRB NTPC, Group D, ALP আৰু অন্যান্য ৰে'লৱে নিযুক্তি জাননী</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://www.indianrailways.gov.in/" rel="noopener nofollow" target="_blank">indianrailways.gov.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px;">গুৱাহাটী উচ্চ ন্যায়ালয়</td>
+                <td style="padding:10px;">তৃতীয় আৰু চতুৰ্থ শ্ৰেণীৰ নিযুক্তি জাননী আৰু ফলাফল</td>
+                <td style="padding:10px;"><a href="https://ghconline.gov.in/" rel="noopener nofollow" target="_blank">ghconline.gov.in</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>এখন জাননী কেনেদৰে যাচাই কৰা হয়</h2>
+        <ol>
+          <li>আমি জাননীখন নিযুক্তি সংস্থাৰ চৰকাৰী প'ৰ্টেলত খোলোঁ, কোনো কোচিং বা বাতৰি ৱেবছাইটত নহয়।</li>
+          <li>বিজ্ঞাপন নম্বৰ, পদ, খালী পদৰ সংখ্যা আৰু শেষ তাৰিখ নিযুক্তি সংস্থাই প্ৰকাশ কৰা PDF ৰ সৈতে মিলাই পৰীক্ষা কৰোঁ।</li>
+          <li>প্ৰথম বিজ্ঞাপনৰ পিছত কোনো সংশোধনী বা সময় বঢ়োৱা জাননী জাৰি হৈছে নেকি পৰীক্ষা কৰোঁ।</li>
+          <li>বিৱৰণ চৰকাৰী নথিপত্ৰৰ সৈতে মিলাৰ পিছতহে সংশ্লিষ্ট পৃষ্ঠা হালনাগাদ কৰোঁ।</li>
+          <li>চৰকাৰী তথ্য অস্পষ্ট হ'লে অনুমানেৰে পূৰণ নকৰি পৃষ্ঠাত সেই কথা উল্লেখ কৰোঁ।</li>
+        </ol>
+
+        <h2>প্ৰসংগ সামগ্ৰী</h2>
+        <p>চৰকাৰী জাননীৰ উপৰিও আমাৰ ব্যাখ্যা মানক বিদ্যালয়-স্তৰৰ পাঠ্যপুথি, ৰাজহুৱা বিগত বৰ্ষৰ প্ৰশ্নকাকত আৰু বহুলভাৱে স্বীকৃত বিষয়-প্ৰসংগৰ সৈতে যাচাই কৰা হয়। প্ৰশ্ন আৰু ব্যাখ্যা আমাৰ নিজৰ শব্দত লিখা হয়। আমি বাণিজ্যিক পুথিৰ অধ্যায় পুনৰুত্পাদন নকৰোঁ, আৰু ছাইটৰ অন্য ঠাইত কোনো পুথিৰ উল্লেখ কৰাৰ অৰ্থ ইয়াৰ পাঠ কপি কৰা বুলি দাবী নহয়।</p>
+
+        <h2>উৎসৰ সমস্যা জনোৱা</h2>
+        <p>যদি কোনো লিংক ভাঙি গৈছে, জাননী সলনি হৈছে বা কোনো পৃষ্ঠাই উৎস ভুলকৈ উল্লেখ কৰিছে, তেন্তে পৃষ্ঠাৰ ঠিকনাসহ <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a> লৈ লিখক। সংশোধন কেনেদৰে কৰা হয়, সেই বিষয়ে <a href="/editorial-policy/">সম্পাদকীয় নীতি</a>ত চাওক।</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২৩ অক্টোবৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
+      ` : `
+        <p>Study material is only useful if it matches the official examination. This page lists the official portals we monitor and explains how a notification is verified before it affects the content on axomexam.in. We are an independent website and are not connected to any of these organisations.</p>
+
+        <h2>Official exam portals</h2>
+        <div style="overflow-x:auto;">
+          <table style="width:100%; border-collapse:collapse; font-size:0.95rem;">
+            <thead>
+              <tr>
+                <th style="text-align:left; padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">Exam body</th>
+                <th style="text-align:left; padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">What to check there</th>
+                <th style="text-align:left; padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">Official portal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">SLPRB Assam</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">Assam Police constable and sub-inspector notifications, syllabus, admit cards and results</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://slprbassam.in/" rel="noopener nofollow" target="_blank">slprbassam.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">SLRC Assam</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">ADRE Grade III and Grade IV notifications, exam pattern and results</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://slrcassam.in/" rel="noopener nofollow" target="_blank">slrcassam.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">APSC</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">Combined Competitive Examination and other commission examinations</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://apsc.nic.in/" rel="noopener nofollow" target="_blank">apsc.nic.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">Staff Selection Commission</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">CGL, CHSL, GD, MTS and other central notifications and answer keys</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://ssc.gov.in/" rel="noopener nofollow" target="_blank">ssc.gov.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">Indian Railways</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">RRB NTPC, Group D, ALP and other railway recruitment notices</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://www.indianrailways.gov.in/" rel="noopener nofollow" target="_blank">indianrailways.gov.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px;">Gauhati High Court</td>
+                <td style="padding:10px;">Grade III and Grade IV recruitment notices and results</td>
+                <td style="padding:10px;"><a href="https://ghconline.gov.in/" rel="noopener nofollow" target="_blank">ghconline.gov.in</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>How a notification is verified</h2>
+        <ol>
+          <li>We open the notice on the official portal of the recruiting body, not on a coaching or news website.</li>
+          <li>We check the advertisement number, the post, the number of vacancies and the last date against the PDF published by the recruiting body.</li>
+          <li>We check whether a corrigendum or extension notice has been issued after the first advertisement.</li>
+          <li>We update the relevant page only after the details match the official document.</li>
+          <li>Where the official information is unclear, the page says so instead of filling the gap with a guess.</li>
+        </ol>
+
+        <h2>Reference material</h2>
+        <p>Besides official notifications, our explanations are checked against standard school-level textbooks, public previous year question papers and widely accepted subject references. Questions and explanations are written in our own words. We do not reproduce chapters from commercial books, and the mention of any book elsewhere on the site is not a claim that its text has been copied.</p>
+
+        <h2>Reporting a source problem</h2>
+        <p>If a link is broken, a notification has changed or a page cites a source incorrectly, write to <a href="mailto:axomexam@outlook.com">axomexam@outlook.com</a> with the page address. See the <a href="/editorial-policy/">editorial policy</a> for how corrections are handled.</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 23 October 2026 &middot; Publisher: axomexam.in</p>
+      `;
+    } else if (key === "updates") {
+      title = isAs ? "সমল হালনাগাদ" : "Content Updates";
+      desc = isAs ? "axomexam.in ৰ অধ্যয়ন সামগ্ৰীত কৰা সংশোধন, পাঠ্যক্ৰমৰ হালনাগাদ, নতুন শিতান আৰু সম্পাদকীয় পৰিৱৰ্তনৰ তাৰিখসহ ৰেকৰ্ড।" : "A dated record of corrections, syllabus updates, new sections and editorial changes made to axomexam.in study material.";
+      content = isAs ? `
+        <p>এই পৃষ্ঠাই অধ্যয়ন সামগ্ৰী আৰু ছাইট পৰিচালনাৰ পদ্ধতিত কৰা উল্লেখযোগ্য পৰিৱৰ্তন লিপিবদ্ধ কৰে। সৰু বানান সংশোধন তালিকাভুক্ত নকৰা হয়, কিন্তু পাঠ্যক্ৰমৰ পৰিৱৰ্তন, নতুন শিতান, উত্তৰৰ সংশোধন আৰু নীতিৰ পৰিৱৰ্তন লিপিবদ্ধ কৰা হয়। নতুন ভুক্তি প্ৰথমে দেখুওৱা হয়।</p>
+
+        <h2>২৩ অক্টোবৰ ২০২৬ &mdash; সম্পাদকীয় গুণগত পৰ্যালোচনা</h2>
+        <ul>
+          <li>লেখক পৰিচয়, উৎসৰ টোকা আৰু শেষ হালনাগাদৰ তাৰিখকে ধৰি প্ৰতিটো বিষয় পৃষ্ঠাৰ সম্পাদকীয় উপস্থাপন পৰ্যালোচনা কৰা হৈছে।</li>
+          <li>সন্ধান ইঞ্জিনে ব্যৱহাৰ নকৰা আৰু পাঠকক সহায় নকৰা keyword meta টেগ আঁতৰোৱা হৈছে।</li>
+          <li>বাণিজ্যিক প্ৰসংগ পুথিৰ উল্লেখ চৰকাৰী পাঠ্যক্ৰম আৰু ৰাজহুৱা উৎসৰ উল্লেখেৰে সলনি কৰা হৈছে, আৰু প্ৰভাৱিত বাক্যবোৰ নিজৰ শব্দত পুনৰ লিখা হৈছে।</li>
+          <li>এই পৰিৱৰ্তন-তালিকা, <a href="/editorial-policy/">সম্পাদকীয় নীতি</a>, <a href="/editorial-team/">সম্পাদকীয় দল</a> পৃষ্ঠা আৰু <a href="/sources/">চৰকাৰী উৎস</a> পৃষ্ঠা যোগ কৰা হৈছে।</li>
+          <li>ভুল পৃষ্ঠা, ৰিডাইৰেক্ট পৃষ্ঠা, সন্ধান পৃষ্ঠা আৰু অধ্যয়ন সামগ্ৰী নথকা অন্য স্ক্ৰীনৰ পৰা বিজ্ঞাপন আঁতৰোৱা হৈছে।</li>
+        </ul>
+
+        <h2>২২ অক্টোবৰ ২০২৬ &mdash; নকল বিৱৰণৰ সংশোধন</h2>
+        <ul>
+          <li>সন্ধান ইঞ্জিনৰ ছাইট স্কেনত ধৰা পৰা এখন নকল meta description টেগ আঁতৰোৱা হৈছে।</li>
+        </ul>
+
+        <h2>২ অক্টোবৰ ২০২৬ &mdash; চলিত ঘটনাৱলীৰ হালনাগাদ</h2>
+        <ul>
+          <li>অৰ্থনীতি আৰু বেংকিং, পৰিৱেশ আৰু পৰিৱেশ বিজ্ঞান, শীৰ্ষ সন্মিলন, ৰেংকিং আৰু প্ৰতিবেদন, আৰু মৃতকৰ্মকে ধৰি চলিত ঘটনাৱলীৰ শিতানসমূহ হালনাগাদ কৰা হৈছে।</li>
+        </ul>
+
+        <h2>১৮ ছেপ্তেম্বৰ ২০২৬ &mdash; ছাইট প্ৰকাশ</h2>
+        <ul>
+          <li>অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে বিষয়ভিত্তিক দ্বিভাষিক প্ৰশ্ন-সংগ্ৰহ, মক টেষ্ট, বিগত বৰ্ষৰ প্ৰশ্নকাকত আৰু PDF নোট প্ৰকাশ কৰা হৈছে।</li>
+        </ul>
+
+        <h2>হালনাগাদ কেনেদৰে লিপিবদ্ধ কৰা হয়</h2>
+        <p>কোনো পৃষ্ঠা সংশোধন কৰিলে তাৰ শেষ হালনাগাদৰ তাৰিখ সলনি হয়, আৰু পাঠকে শিকা বা নিৰ্ভৰ কৰা তথ্যত প্ৰভাৱ পৰিলে পৰিৱৰ্তনৰ সাৰাংশ ইয়াত দিয়া হয়। পৰীক্ষাৰ জাননী, পাঠ্যক্ৰমৰ পৰিৱৰ্তন আৰু উত্তৰৰ সংশোধন সদায় লিপিবদ্ধ কৰা হয়। নতুন সামগ্ৰী <a href="/feed.xml">RSS ফীড</a>ৰ জৰিয়তে অনুসৰণ কৰিব পাৰে বা <a href="/contact/">যোগাযোগ পৃষ্ঠা</a>ৰ জৰিয়তে প্ৰয়োজনীয় সংশোধন জনাব পাৰে।</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২৩ অক্টোবৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
+      ` : `
+        <p>This page records substantive changes to the study material and to the way the site is run. Small spelling fixes are not listed, but syllabus changes, new sections, corrections to answers and policy changes are. The newest entries appear first.</p>
+
+        <h2>23 October 2026 &mdash; Editorial quality review</h2>
+        <ul>
+          <li>Reviewed the editorial presentation of every topic page, including author attribution, source notes and last-updated dates.</li>
+          <li>Removed keyword meta tags that were not used by search engines and did not help readers.</li>
+          <li>Replaced references to commercial reference books with official syllabus and public-source references, and rewrote the affected sentences in our own words.</li>
+          <li>Added this changelog, the <a href="/editorial-policy/">editorial policy</a>, the <a href="/editorial-team/">editorial team</a> page and the <a href="/sources/">official sources</a> page.</li>
+          <li>Removed advertising from error pages, redirect pages, search pages and other screens without study content.</li>
+        </ul>
+
+        <h2>22 October 2026 &mdash; Duplicate description fix</h2>
+        <ul>
+          <li>Removed a duplicate meta description tag that had been flagged during a search-engine site scan.</li>
+        </ul>
+
+        <h2>2 October 2026 &mdash; Current affairs update</h2>
+        <ul>
+          <li>Updated the current affairs sections, including economy and banking, environment and ecology, summits and conferences, rankings and reports, and obituaries.</li>
+        </ul>
+
+        <h2>18 September 2026 &mdash; Site published</h2>
+        <ul>
+          <li>Published the topic-wise bilingual question banks, mock tests, previous year papers and PDF notes for Assam competitive examinations.</li>
+        </ul>
+
+        <h2>How updates are recorded</h2>
+        <p>When a page is corrected, its last-updated date changes and the change is summarised here if it affects what a reader learns or relies on. Exam notifications, syllabus changes and corrections to answers are always recorded. You can follow new material through the <a href="/feed.xml">RSS feed</a> or report a needed correction through the <a href="/contact/">contact page</a>.</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 23 October 2026 &middot; Publisher: axomexam.in</p>
       `;
     } else {
       content = `<p>${t(`page.${key}.p1`)}</p>`;
