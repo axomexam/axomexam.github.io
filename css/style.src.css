@@ -2642,3 +2642,16 @@ body[data-ui-lang="as"] [data-axo-editorial-credit] [data-axo-lang="as"] { displ
   .mv-exams-list li { padding: 11px 12px; }
 }
 [data-theme="dark"] .mv-exams { background: var(--bg-soft); }
+
+/* Editorial cross-links: always blue and underlined */
+.axo-editorial-page .info-panel a,
+a.axo-editorial-link {
+  color: #2563eb;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 600;
+}
+.axo-editorial-page .info-panel a:hover,
+a.axo-editorial-link:hover { color: #1d4ed8; }
+.site-footer a.axo-editorial-link { color: #93c5fd; }
+.site-footer a.axo-editorial-link:hover { color: #bfdbfe; }

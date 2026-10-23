@@ -708,11 +708,12 @@
             <div style="text-align:left;">
               <span style="font-size:0.78rem; font-weight:800; text-transform:uppercase; letter-spacing:0.8px; color:#ffffff; display:block; margin-bottom:12px;">${isAs ? "দ্ৰুত লিংক" : "Quick Links"}</span>
               <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px; font-size:0.86rem;">
-                <li><a href="/mock-test" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "মক টেষ্ট" : "Mock Test"}</a></li>
-                <li><a href="/category/articles" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "প্ৰবন্ধসমূহ" : "Articles"}</a></li>
+                <li><a href="/" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "গৃহপৃষ্ঠা" : "Home"}</a></li>
                 <li><a href="/previous-year" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "বিগত বৰ্ষৰ প্ৰশ্ন" : "Previous Papers"}</a></li>
-                <li><a href="/ebooks" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "ই-বুক" : "E-Books"}</a></li>
-                <li><a href="/downloads" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "নোটসমূহ ডাউনল'ড" : "Download Notes"}</a></li>
+                <li><a href="/editorial-policy/" class="axo-editorial-link">${isAs ? "সম্পাদকীয় নীতি" : "Editorial Policy"}</a></li>
+                <li><a href="/editorial-team/" class="axo-editorial-link">${isAs ? "সম্পাদকীয় দল" : "Editorial Team"}</a></li>
+                <li><a href="/sources/" class="axo-editorial-link">${isAs ? "চৰকাৰী উৎস" : "Official Sources"}</a></li>
+                <li><a href="/updates/" class="axo-editorial-link">${isAs ? "সমল হালনাগাদ" : "Content Updates"}</a></li>
                 <li><a href="/download-app" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "এপ ডাউনলোড" : "Download App"}</a></li>
                 <li><a href="/submit" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${isAs ? "প্ৰশ্ন প্ৰেৰণ কৰক" : "Submit Q&A"}</a></li>
               </ul>
@@ -3013,6 +3014,20 @@
       content = `<p>${t(`page.${key}.p1`)}</p>`;
     }
 
+    if (["editorial-policy", "editorial-team", "sources", "updates"].includes(key)) {
+      const links = [
+        ["/editorial-policy/", isAs ? "সম্পাদকীয় নীতি" : "Editorial Policy"],
+        ["/editorial-team/", isAs ? "সম্পাদকীয় দল" : "Editorial Team"],
+        ["/sources/", isAs ? "চৰকাৰী উৎস" : "Official Sources"],
+        ["/updates/", isAs ? "সমল হালনাগাদ" : "Content Updates"],
+      ];
+      content += `
+        <p class="axo-editorial-links" style="margin-top:26px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); line-height:2;">
+          <strong>Axomexam Editorial:</strong>
+          ${links.map(([href, label]) => `<a href="${href}">${label}</a>`).join(" &middot; ")}
+        </p>`;
+    }
+
     main.innerHTML = `
       <div class="page-head">
         <nav class="breadcrumb"><a href="/">${isAs ? "গৃহপৃষ্ঠা" : "Home"}</a><span class="bc-sep">/</span><span>${escapeHtml(title)}</span></nav>
@@ -3020,7 +3035,7 @@
         ${desc ? `<p class="page-desc">${escapeHtml(desc)}</p>` : ""}
       </div>
       <section class="section" style="padding-bottom:40px;">
-        <div class="info-panel" style="background:var(--bg,#ffffff); padding:28px 24px; border-radius:18px; border:1px solid var(--border,#e2e8f0); line-height:1.75; color:var(--ink-soft,#475569); box-shadow:0 8px 24px -4px rgba(15,23,42,0.03); max-width:860px; margin:0 auto; text-align:left;">
+        <div class="info-panel${["editorial-policy", "editorial-team", "sources", "updates"].includes(key) ? " axo-editorial-page" : ""}" style="background:var(--bg,#ffffff); padding:28px 24px; border-radius:18px; border:1px solid var(--border,#e2e8f0); line-height:1.75; color:var(--ink-soft,#475569); box-shadow:0 8px 24px -4px rgba(15,23,42,0.03); max-width:860px; margin:0 auto; text-align:left;">
           ${content}
         </div>
       </section>`;

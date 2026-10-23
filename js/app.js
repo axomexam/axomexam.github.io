@@ -73,11 +73,12 @@
             <div style="text-align:left;">
               <span style="font-size:0.78rem; font-weight:800; text-transform:uppercase; letter-spacing:0.8px; color:#ffffff; display:block; margin-bottom:12px;">${t?"দ্ৰুত লিংক":"Quick Links"}</span>
               <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px; font-size:0.86rem;">
-                <li><a href="/mock-test" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${t?"মক টেষ্ট":"Mock Test"}</a></li>
-                <li><a href="/category/articles" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${t?"প্ৰবন্ধসমূহ":"Articles"}</a></li>
+                <li><a href="/" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${t?"গৃহপৃষ্ঠা":"Home"}</a></li>
                 <li><a href="/previous-year" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${t?"বিগত বৰ্ষৰ প্ৰশ্ন":"Previous Papers"}</a></li>
-                <li><a href="/ebooks" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${t?"ই-বুক":"E-Books"}</a></li>
-                <li><a href="/downloads" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${t?"নোটসমূহ ডাউনল'ড":"Download Notes"}</a></li>
+                <li><a href="/editorial-policy/" class="axo-editorial-link">${t?"সম্পাদকীয় নীতি":"Editorial Policy"}</a></li>
+                <li><a href="/editorial-team/" class="axo-editorial-link">${t?"সম্পাদকীয় দল":"Editorial Team"}</a></li>
+                <li><a href="/sources/" class="axo-editorial-link">${t?"চৰকাৰী উৎস":"Official Sources"}</a></li>
+                <li><a href="/updates/" class="axo-editorial-link">${t?"সমল হালনাগাদ":"Content Updates"}</a></li>
                 <li><a href="/download-app" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${t?"এপ ডাউনলোড":"Download App"}</a></li>
                 <li><a href="/submit" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${t?"প্ৰশ্ন প্ৰেৰণ কৰক":"Submit Q&A"}</a></li>
               </ul>
@@ -1156,14 +1157,18 @@
         <p>When a page is corrected, its last-updated date changes and the change is summarised here if it affects what a reader learns or relies on. Exam notifications, syllabus changes and corrections to answers are always recorded. You can follow new material through the <a href="/feed.xml">RSS feed</a> or report a needed correction through the <a href="/contact/">contact page</a>.</p>
 
         <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 23 October 2026 &middot; Publisher: axomexam.in</p>
-      `):o=`<p>${r(`page.${t}.p1`)}</p>`,e.innerHTML=`
+      `):o=`<p>${r(`page.${t}.p1`)}</p>`,["editorial-policy","editorial-team","sources","updates"].includes(t)&&(o+=`
+        <p class="axo-editorial-links" style="margin-top:26px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); line-height:2;">
+          <strong>Axomexam Editorial:</strong>
+          ${[["/editorial-policy/",a?"সম্পাদকীয় নীতি":"Editorial Policy"],["/editorial-team/",a?"সম্পাদকীয় দল":"Editorial Team"],["/sources/",a?"চৰকাৰী উৎস":"Official Sources"],["/updates/",a?"সমল হালনাগাদ":"Content Updates"]].map(([l,d])=>`<a href="${l}">${d}</a>`).join(" &middot; ")}
+        </p>`),e.innerHTML=`
       <div class="page-head">
         <nav class="breadcrumb"><a href="/">${a?"গৃহপৃষ্ঠা":"Home"}</a><span class="bc-sep">/</span><span>${c(n)}</span></nav>
         <h1>${c(n)}</h1>
         ${s?`<p class="page-desc">${c(s)}</p>`:""}
       </div>
       <section class="section" style="padding-bottom:40px;">
-        <div class="info-panel" style="background:var(--bg,#ffffff); padding:28px 24px; border-radius:18px; border:1px solid var(--border,#e2e8f0); line-height:1.75; color:var(--ink-soft,#475569); box-shadow:0 8px 24px -4px rgba(15,23,42,0.03); max-width:860px; margin:0 auto; text-align:left;">
+        <div class="info-panel${["editorial-policy","editorial-team","sources","updates"].includes(t)?" axo-editorial-page":""}" style="background:var(--bg,#ffffff); padding:28px 24px; border-radius:18px; border:1px solid var(--border,#e2e8f0); line-height:1.75; color:var(--ink-soft,#475569); box-shadow:0 8px 24px -4px rgba(15,23,42,0.03); max-width:860px; margin:0 auto; text-align:left;">
           ${o}
         </div>
       </section>`,Pe(),window.scrollTo(0,0)}function an(e){const t=p.uiLang==="as",a=t?["সমল সংশোধন","ভাঙা লিংক বা ডাউনল'ড সমস্যা","নতুন বিষয়ৰ অনুৰোধ","প্ৰশ্ন আগবঢ়াওক","কপিৰাইট / টেকডাউন অনুৰোধ","অন্যান্য"]:["Content correction","Broken link or download problem","New topic request","Contribute questions","Copyright / takedown request","Other"];e.innerHTML=`
