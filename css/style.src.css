@@ -2643,15 +2643,27 @@ body[data-ui-lang="as"] [data-axo-editorial-credit] [data-axo-lang="as"] { displ
 }
 [data-theme="dark"] .mv-exams { background: var(--bg-soft); }
 
-/* Editorial cross-links: always blue and underlined */
+/* Editorial cross-links: normal text with a blue underline */
 .axo-editorial-page .info-panel a,
-a.axo-editorial-link {
-  color: #2563eb;
+a.axo-editorial-link,
+.editorial-meta a {
+  color: inherit;
   text-decoration: underline;
+  text-decoration-color: #2563eb;
   text-underline-offset: 2px;
-  font-weight: 600;
+  font-weight: inherit;
 }
 .axo-editorial-page .info-panel a:hover,
-a.axo-editorial-link:hover { color: #1d4ed8; }
-.site-footer a.axo-editorial-link { color: #93c5fd; }
-.site-footer a.axo-editorial-link:hover { color: #bfdbfe; }
+a.axo-editorial-link:hover,
+.editorial-meta a:hover { color: #1d4ed8; }
+
+/* Footer: these links look exactly like every other footer link */
+.site-footer a.axo-editorial-link {
+  color: inherit;
+  text-decoration: none;
+  font-weight: inherit;
+}
+.site-footer a.axo-editorial-link:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
