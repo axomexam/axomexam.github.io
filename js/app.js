@@ -971,8 +971,8 @@
         <p>অধ্যয়ন সামগ্ৰী তেতিয়াহে উপযোগী হয় যেতিয়া ই চৰকাৰী পৰীক্ষাৰ সৈতে মিলে। এই পৃষ্ঠাই আমি অনুসৰণ কৰা চৰকাৰী প'ৰ্টেলৰ তালিকা দিয়ে আৰু axomexam.in ৰ সমলত প্ৰভাৱ পেলোৱাৰ আগতে এখন জাননী কেনেদৰে যাচাই কৰা হয় তাক ব্যাখ্যা কৰে। আমি এখন স্বতন্ত্ৰ ৱেবছাইট আৰু এই কোনো সংস্থাৰ সৈতে সংযুক্ত নহয়।</p>
 
         <h2>চৰকাৰী পৰীক্ষা প'ৰ্টেল</h2>
-        <div style="overflow-x:auto;">
-          <table style="width:100%; border-collapse:collapse; font-size:0.95rem;">
+        <div class="axo-sources-table-wrap" style="overflow-x:auto;">
+          <table class="axo-sources-table" style="width:100%; border-collapse:collapse; font-size:0.95rem;">
             <thead>
               <tr>
                 <th style="text-align:left; padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">পৰীক্ষা সংস্থা</th>
@@ -1035,8 +1035,8 @@
         <p>Study material is only useful if it matches the official examination. This page lists the official portals we monitor and explains how a notification is verified before it affects the content on axomexam.in. We are an independent website and are not connected to any of these organisations.</p>
 
         <h2>Official exam portals</h2>
-        <div style="overflow-x:auto;">
-          <table style="width:100%; border-collapse:collapse; font-size:0.95rem;">
+        <div class="axo-sources-table-wrap" style="overflow-x:auto;">
+          <table class="axo-sources-table" style="width:100%; border-collapse:collapse; font-size:0.95rem;">
             <thead>
               <tr>
                 <th style="text-align:left; padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">Exam body</th>
