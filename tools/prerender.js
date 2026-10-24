@@ -429,8 +429,19 @@ for (const cat of RAW_CATS) {
           sec.name = sec.name || { en: sec.id, as: sec.id };
           for (const tp of sec.topics || []) pushTopic(tp, cat, sub, sec);
         }
-      } else {
+      } else if ((sub.topics || []).length) {
         for (const tp of sub.topics || []) pushTopic(tp, cat, sub, null);
+      } else {
+        /* Leaf sub-category with no topics of its own still gets a page and a
+           topic-index record, exactly as the runtime walk in js/app.src.js. */
+        const p = [cat.id, sub.id].join("/");
+        const rec = {
+          path: p, cat, sub, section: null, topic: sub,
+          title: sub.name, desc: sub.description, tags: [],
+          nQuestions: 0, pdf: null, popularity: Number(sub.popularity) || 0,
+        };
+        topicMap[p] = rec;
+        topicIndex.push(rec);
       }
     }
   } else {
@@ -848,12 +859,78 @@ function emptyHTML() {
 
 /* ---------- page builders ---------- */
 
-/* Displayed question total = real live count + this bonus, mirroring js/app.js */
-const QUESTION_DISPLAY_BONUS = 6000;
+/* Number of real downloadable PDF files shipped with the site. */
+const PDF_NOTE_COUNT = 21;
+
+/* Count every question stored under data/exams/<exam>/.../question-*.json,
+   so the homepage total matches what the exam pages actually contain. */
+function examQuestionTotal() {
+  let total = 0;
+  const walk = (dir) => {
+    let entries;
+    try {
+      entries = fs.readdirSync(dir, { withFileTypes: true });
+    } catch (e) {
+      return;
+    }
+    for (const e of entries) {
+      const full = path.join(dir, e.name);
+      if (e.isDirectory()) {
+        walk(full);
+      } else if (e.name === "index.json") {
+        const manifest = readJSON(full);
+        if (!manifest || !Array.isArray(manifest.files)) continue;
+        for (const f of manifest.files) {
+          const arr = readJSON(path.join(path.dirname(full), f));
+          if (Array.isArray(arr)) total += arr.length;
+        }
+      }
+    }
+  };
+  walk(path.join(ROOT, "data", "exams"));
+  return total;
+}
+
+/* Total question count shown on the homepage. Mirrors the runtime sum in
+   js/app.src.js: topic counts + exam questions + current-affairs questions
+   (+ trending topics). Using the same sources keeps the prerendered HTML and
+   the hydrated page from disagreeing. */
+function homepageQuestionTotal() {
+  const counts = readJSON(path.join(ROOT, "data", "counts.json")) || {};
+  let total = 0;
+
+  const tc = counts.topicCounts;
+  if (tc && typeof tc === "object") {
+    for (const k of Object.keys(tc)) total += Number(tc[k]) || 0;
+  } else {
+    total += topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0);
+  }
+
+  total += Number(counts.examsTotal) || examQuestionTotal();
+
+  const caDir = path.join(ROOT, "data", "current-affairs");
+  try {
+    for (const e of fs.readdirSync(caDir, { withFileTypes: true })) {
+      if (!e.isDirectory()) continue;
+      for (const f of fs.readdirSync(path.join(caDir, e.name))) {
+        if (!/^question-.*\.json$/i.test(f)) continue;
+        const arr = readJSON(path.join(caDir, e.name, f));
+        if (Array.isArray(arr)) total += arr.length;
+      }
+    }
+  } catch (e) {}
+
+  /* Trending topics live outside counts.json; their counts are inline. */
+  for (const r of topicIndex) {
+    if (r.path.startsWith("trending/")) total += r.nQuestions || 0;
+  }
+
+  return total;
+}
 
 function buildHome() {
   const firstCat = (categories[0] && categories[0].id) || "gk";
-  const totalQuestions = topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0) + QUESTION_DISPLAY_BONUS;
+  const totalQuestions = homepageQuestionTotal();
   const trending = [...topicIndex]
     .filter((r) => r.path.startsWith("trending/") || r.popularity >= 7)
     .sort((a, b) => b.popularity - a.popularity)
@@ -889,7 +966,7 @@ function buildHome() {
           <div class="hero-stats">
             <div class="stat"><b>${totalQuestions.toLocaleString()}+</b><span>Questions</span></div>
             <div class="stat"><b>${topicIndex.length}+</b><span>Topics</span></div>
-            <div class="stat"><b>${topicIndex.length + DOWNLOADS.length}+</b><span>PDFs</span></div>
+            <div class="stat"><b>${PDF_NOTE_COUNT}+</b><span>PDFs</span></div>
           </div>
         </div>
       </section>

@@ -41,9 +41,10 @@
   const MAX_MOCK_SETS = 20;
   /* Minimum number of set cards to show once at least one set exists */
   const DEFAULT_VISIBLE_SETS = 5;
-  /* Displayed question total = real live count + this bonus, so the site
-     always shows a higher number while staying in sync as questions are added. */
-  const QUESTION_DISPLAY_BONUS = 6000;
+  /* Number of real downloadable PDF files shipped with the site. Kept in
+     sync by tools/inject-static-questions.js so the homepage never claims
+     more PDFs than it actually serves. */
+  const PDF_NOTE_COUNT = 21;
 
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
@@ -1555,8 +1556,10 @@
 
   /* ================= Homepage ================= */
   function renderHome(main) {
-    const totalQuestions = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0) + QUESTION_DISPLAY_BONUS + (state.examQuestionTotal || 0) + (state.caQuestionTotal || 0);
-    const totalPdfs = state.topicIndex.length + (state.topicIndex.filter((r) => r.pdf).length);
+    const totalQuestions = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0) + (state.examQuestionTotal || 0) + (state.caQuestionTotal || 0);
+    /* Only real downloadable PDF files count here; every other study
+       resource on the site is an HTML page, not a PDF. */
+    const totalPdfs = PDF_NOTE_COUNT;
     const trending = trendingTopics(state.topicIndex).slice(0, typeof CONFIG !== "undefined" ? CONFIG.TRENDING_COUNT : 6);
 
     main.innerHTML = `
@@ -4698,13 +4701,12 @@
     const totalEl = $("#stat-total-questions");
     if (totalEl) {
       const total = state.topicIndex.reduce((a, r) => a + (r.nQuestions || 0), 0)
-        + QUESTION_DISPLAY_BONUS + (state.examQuestionTotal || 0) + (state.caQuestionTotal || 0);
+        + (state.examQuestionTotal || 0) + (state.caQuestionTotal || 0);
       totalEl.textContent = `${total.toLocaleString()}+`;
     }
     const pdfEl = $("#stat-total-pdfs");
     if (pdfEl) {
-      const totalPdfs = state.topicIndex.length + state.topicIndex.filter((r) => r.pdf).length;
-      pdfEl.textContent = `${totalPdfs}+`;
+      pdfEl.textContent = `${PDF_NOTE_COUNT}+`;
     }
   }
 
