@@ -48,6 +48,26 @@ All three are idempotent; run with `--check` first.
   page is genuinely indexable (canonical points at itself).
 - `tools/add-lang-attributes.js` - adds `lang="as"`/`lang="en"` to elements
   that already carry `data-axo-lang`. `data-axo-lang` is preserved.
+- `tools/apply-real-dates.js` - derives `datePublished`/`dateModified`, the
+  visible `Published:`/`Last updated:` labels and `sitemap.xml` `<lastmod>`
+  from git history. `git log` is newest-first, so the *last* entry for a path
+  is the creation date and the *first* is the last modification.
+- `tools/fix-faq-schema-visibility.js` - rebuilds the `FAQPage` node from the
+  Q&A the site marks `data-axo-faq="1"`, dropping any pair that repeats
+  site-wide. Pages with no unique visible FAQ lose the node. Handles both
+  `@graph`-shaped pages and current-affairs pages that ship a standalone
+  `FAQPage` script.
+- `tools/fix-orphan-links.js` - links the two indexable pages that had no
+  inbound links from their parents, and adds the matching ItemList entry.
+- `tools/scan-404.js` - read-only. Checks every sitemap URL and every internal
+  `href`/`src` against committed files; exits non-zero on a broken target.
+
+## Answering "why is my content invisible to AdSense"
+
+The site ships a static block outside `<main id="app">` on most pages. That is
+deliberate: `renderRoute()` replaces `#app` on load and navigation, so content
+placed *inside* `<main>` is destroyed for real visitors and never seen. The
+static block is the crawler/no-JS copy. Do not move it inside `<main>`.
 
 ## Verifying a change
 
