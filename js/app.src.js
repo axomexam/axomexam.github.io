@@ -2239,12 +2239,9 @@
     const rec = currentTopicRec();
     if (!rec) return;
     const qs = rec.topic.questions || [];
-    const perPage = typeof CONFIG !== "undefined" ? CONFIG.PER_PAGE : 10;
-    const totalPages = Math.max(1, Math.ceil(qs.length / perPage));
     /* Every question is rendered into the DOM, not just the current page.
        Crawlers that execute JavaScript (Googlebot) then receive the whole
-       topic instead of a single 15-question page. The pager below is a
-       scroll-to-page control, so nothing is removed from the document. */
+       topic instead of a single 15-question page. */
     const start = 0;
     const slice = qs;
 
@@ -2272,19 +2269,7 @@
       renderMathJax(list);
     }
     const pager = $("#pager");
-    if (totalPages > 1) {
-      pager.innerHTML = `
-        <div style="display:flex; justify-content:center; align-items:center; gap:12px;">
-          <button id="pg-prev" class="btn btn-sm btn-outline" ${state.page === 0 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.prev")}</button>
-          <span class="pager-info" style="font-weight:700; font-size:0.88rem; color:var(--ink-soft,#64748b);">${state.page + 1} / ${totalPages}</span>
-          <button id="pg-next" class="btn btn-sm btn-outline" ${state.page >= totalPages - 1 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.next")}</button>
-        </div>
-        ${pagerEndMarkHTML()}`;
-      $("#pg-prev").addEventListener("click", () => { if (state.page > 0) { state.page--; scrollToQAPage(perPage); refreshReadingModal(); } });
-      $("#pg-next").addEventListener("click", () => { if (state.page < totalPages - 1) { state.page++; scrollToQAPage(perPage); refreshReadingModal(); } });
-    } else {
-      pager.innerHTML = "";
-    }
+    if (pager) pager.innerHTML = "";
   }
 
   /* Render one topic question card for a given language. Extracted so the
@@ -2358,21 +2343,8 @@
     }
   }
 
-  /* Scroll the already-rendered question list to the requested page and keep
-     the pager label/disabled state in sync. */
-  function scrollToQAPage(perPage) {
-    const list = $("#qa-list");
-    if (!list) return;
-    const active = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
-    /* Each question exists once per language; scroll only the visible copy. */
-    const items = list.querySelectorAll(`[data-axo-lang="${active}"] [data-n]`);
-    const first = items[state.page * perPage];
-    if (first) first.scrollIntoView({ behavior: "smooth", block: "start" });
-    syncQAPager(perPage);
-  }
-
-  /* Refresh the topic pager's label and disabled state without re-rendering
-     the question list (which now always holds every question). */
+  /* Refresh the topic reading-modal pager label and disabled state without
+     re-rendering the question list (which always holds every question). */
   function syncQAPager(perPage) {
     const rec = currentTopicRec();
     const total = rec && rec.topic.questions ? rec.topic.questions.length : 0;
@@ -7738,7 +7710,9 @@
       const a = e.target.closest("a");
       if (!a) return;
       const href = a.getAttribute("href");
-      if (href && href.startsWith("/") && !href.startsWith("//") && !a.hasAttribute("download") && a.target !== "_blank") {
+      if (!href) return;
+      if (href.startsWith("/topic/")) return;
+      if (href.startsWith("/") && !href.startsWith("//") && !a.hasAttribute("download") && a.target !== "_blank") {
         e.preventDefault();
         navigateTo(href);
       }
