@@ -2692,12 +2692,3 @@ a.axo-editorial-link:hover,
   .axo-sources-table td:first-child { font-weight: 700; color: var(--ink, #0f172a); }
   .axo-sources-table td:last-child a { font-weight: 600; word-break: break-word; }
 }
-
-.qa-item,
-.qa-card {
-  content-visibility: auto;
-  contain-intrinsic-size: auto 620px;
-}
-.qa-list {
-  contain: layout style;
-}
