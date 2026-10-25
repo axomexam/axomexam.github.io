@@ -210,152 +210,118 @@
         
 <section class="section axo-extra-content" data-axo-extra="1" data-axo-path="/category/computer/dbms-number-shortcuts/" style="padding-bottom:48px;">
     <div class="container">
-      <article lang="en" data-axo-lang="en" class="info-panel" style="background:var(--bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:18px; padding:28px 24px; line-height:1.85; color:var(--ink-soft,#475569); max-width:900px; margin:0 auto; text-align:left;"><h2>DBMS, Number Systems &amp; Shortcuts: Concepts and Conversions</h2>
-<p>This section tests three different skills together: the basic terms of a database, the conversion of numbers between the binary, octal, decimal and hexadecimal systems, and the common keyboard shortcuts of a computer. Each part is fact based, so short and clear revision secures almost full marks.</p>
-<p>This deep-study note covers the basic terms of a DBMS, the number systems and their conversions, the units of data and the keyboard shortcuts, the question patterns, a solving method, the traps examiners set and a preparation plan. After reading it, a candidate should be able to answer a database, conversion or shortcut question without hesitation.</p>
-<h3>Basic Terms</h3>
+      <article lang="en" data-axo-lang="en" class="info-panel" style="background:var(--bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:18px; padding:28px 24px; line-height:1.85; color:var(--ink-soft,#475569); max-width:900px; margin:0 auto; text-align:left;"><h2>DBMS, Number Systems and Keyboard Shortcuts</h2>
+<p>This chapter bundles three separate skills that a single recruitment paper often tests together: the vocabulary of databases, conversions between the binary, octal, decimal and hexadecimal number systems, and the everyday keyboard shortcuts of a Windows computer. Each item is a single hard fact, so once the fact is fixed in memory the question takes only seconds. Below is the fact list, the conversion method I actually use under time pressure, and the places where candidates most often slip.</p>
+<h3>Database Vocabulary You Must Know</h3>
 <ul>
-<li><strong>Data:</strong> raw facts and figures that have little meaning on their own.</li>
-<li><strong>Database:</strong> an organised collection of related data stored so that it can be searched and updated easily.</li>
-<li><strong>DBMS:</strong> database management system, the software that creates and manages a database, such as MySQL or Oracle.</li>
-<li><strong>RDBMS:</strong> a relational database management system, which stores data in tables that are linked by keys.</li>
-<li><strong>Table:</strong> a set of rows and columns that stores data about one subject.</li>
-<li><strong>Record:</strong> one complete row of a table, describing one entity.</li>
-<li><strong>Field:</strong> one column of a table, holding one attribute of every record.</li>
-<li><strong>Primary key:</strong> a field that uniquely identifies each record of a table.</li>
-<li><strong>Foreign key:</strong> a field that links one table to the primary key of another.</li>
-<li><strong>SQL:</strong> structured query language, used to create, read, update and delete data.</li>
+<li><strong>Data:</strong> raw facts and figures that carry little meaning on their own.</li>
+<li><strong>Database:</strong> related data stored in an organised way so it can be searched and updated quickly.</li>
+<li><strong>DBMS:</strong> the software that creates and runs a database; MySQL, Oracle, SQL Server and MS Access are common examples.</li>
+<li><strong>RDBMS:</strong> a DBMS that keeps data in tables joined by keys.</li>
+<li><strong>Table:</strong> rows and columns holding data about one subject.</li>
+<li><strong>Record:</strong> one complete row, describing a single entity.</li>
+<li><strong>Field:</strong> one column, holding a single attribute of every record.</li>
+<li><strong>Primary key:</strong> the field that uniquely identifies a row; it can never be blank or repeated.</li>
+<li><strong>Foreign key:</strong> a field that points to the primary key of another table and joins the two.</li>
+<li><strong>SQL:</strong> structured query language, the standard language for creating, reading, updating and deleting data.</li>
 <li><strong>Query:</strong> a request for data from a database.</li>
-<li><strong>Number system:</strong> a way of writing numbers by using a fixed set of digits, called its base.</li>
-<li><strong>Bit:</strong> a binary digit, either 0 or 1, the smallest unit of data.</li>
-<li><strong>Byte:</strong> a group of eight bits.</li>
+<li><strong>Normalisation:</strong> reorganising tables so that repetition and inconsistency are reduced.</li>
+<li><strong>Number system:</strong> a way of writing numbers using a fixed set of digits, called its base.</li>
+<li><strong>Bit:</strong> one binary digit, 0 or 1, the smallest unit of data.</li>
+<li><strong>Byte:</strong> a group of eight bits, enough to hold one character.</li>
 </ul>
-<h3>Core Concepts and Rules</h3>
+<h3>Rules That Decide Most Answers</h3>
 <ul>
-<li>A DBMS is software, while a database is the organised collection of data that the DBMS manages.</li>
-<li>A primary key is unique and cannot be empty, and a foreign key links two tables.</li>
-<li>SQL statements include SELECT, INSERT, UPDATE, DELETE, CREATE and DROP.</li>
-<li>The decimal system has base 10, binary base 2, octal base 8 and hexadecimal base 16.</li>
-<li>To convert decimal to binary, divide again and again by two and read the remainders upwards.</li>
-<li>To convert binary to decimal, add the place values where the digit is one.</li>
-<li>Octal groups binary bits in threes and hexadecimal groups them in fours.</li>
-<li>In hexadecimal the digits A to F stand for 10 to 15.</li>
-<li>The table of data units is 8 bits = 1 byte, 1024 bytes = 1 KB, 1024 KB = 1 MB, 1024 MB = 1 GB and 1024 GB = 1 TB.</li>
-<li>Ctrl+C copies, Ctrl+V pastes, Ctrl+Z undoes and Ctrl+S saves.</li>
+<li>A database is the data; a DBMS is the software that manages it. Never treat the two as the same thing.</li>
+<li>Only the primary key must be unique. A foreign key may repeat and may be empty.</li>
+<li>SQL's working statements are SELECT to read, INSERT to add, UPDATE to change and DELETE to remove, with CREATE and DROP to make or delete a table.</li>
+<li>The bases are 10 for decimal, 2 for binary, 8 for octal and 16 for hexadecimal.</li>
+<li>Octal is a shorthand for binary in groups of three bits; hexadecimal groups four bits.</li>
+<li>In hexadecimal the letters A to F stand for the values 10 to 15.</li>
+<li>Computer memory climbs in powers of 1024, not 1000: 8 bits = 1 byte, 1024 bytes = 1 KB, 1024 KB = 1 MB, 1024 MB = 1 GB and 1024 GB = 1 TB.</li>
 </ul>
-<h3>Database Concepts</h3>
-<p>A database stores related data in an organised way so that the same data need not be kept in many places. A DBMS is the software that creates the database and lets a user store, search, update and delete data, with examples such as MySQL, Oracle, SQL Server and MS Access. When the data is kept in tables that are linked by keys, the system is called a relational database management system. In a table each row is a record, each column is a field, and a primary key uniquely identifies every row, while a foreign key in one table points to the primary key of another and joins the two. Structured query language, SQL, is the standard language used to work with such tables, and its main statements are SELECT to read, INSERT to add, UPDATE to change and DELETE to remove data, along with CREATE and DROP to make or delete a table. Normalisation is the process of organising tables to reduce repetition and errors.</p>
-<h3>Number Systems and Conversions</h3>
-<p>A number system is named by its base, which is the number of different digits it uses. The decimal system uses ten digits from 0 to 9, the binary system uses two digits 0 and 1, the octal system uses eight digits from 0 to 7, and the hexadecimal system uses sixteen symbols, the digits 0 to 9 and the letters A to F for ten to fifteen. To convert a decimal number into binary, divide it by two again and again, write down each remainder and then read the remainders from the last to the first. To convert binary into decimal, multiply each bit by its place value, which doubles from right to left, and add the results. Octal and hexadecimal are useful because they are short forms of binary: three binary bits make one octal digit and four binary bits make one hexadecimal digit. The largest place value of a number is called the most significant digit and the smallest the least significant digit.</p>
-<h3>Data Units and Keyboard Shortcuts</h3>
-<p>The smallest unit of data is a bit, which is a single 0 or 1, and eight bits make one byte, which can store one character. The larger units rise in steps of 1024: 1024 bytes make one kilobyte, 1024 kilobytes one megabyte, 1024 megabytes one gigabyte, 1024 gigabytes one terabyte and 1024 terabytes one petabyte. A nibble is four bits, or half a byte. Keyboard shortcuts save time and are asked directly: Ctrl+C copies, Ctrl+X cuts, Ctrl+V pastes, Ctrl+Z undoes, Ctrl+Y redoes, Ctrl+A selects all, Ctrl+S saves, Ctrl+P prints, Ctrl+F finds, Ctrl+B makes text bold, Ctrl+I italics and Ctrl+U underline. Alt+F4 closes a window, Alt+Tab switches between open windows, and F5 refreshes a page or window.</p>
-<h3>Types of Questions Asked</h3>
-<p>The most common pattern asks for a conversion, such as the binary form of a decimal number. The second asks a definition, such as what a primary key is. The third asks a full form, such as DBMS, SQL or RDBMS. The fourth asks the number of bytes in a kilobyte or the bits in a byte. The fifth asks the shortcut for an action. Direct conversions and definitions take most of the marks.</p>
-<h3>Steps to Solve a DBMS or Number Question</h3>
-<p>First, read the question and see whether it asks for a database term, a conversion, a unit or a shortcut. Second, if it is a conversion, fix the bases involved and apply the divide or place-value rule. Third, if it is a definition, recall the exact one-line meaning and its key condition, such as unique for a primary key. Fourth, if it is a unit, remember the base of 1024 and the order of the units. Fifth, if it is a shortcut, picture the key and the action. Finally, check the result once, because a single wrong remainder or place value changes the whole answer.</p>
-<h3>Examination Trends</h3>
-<p>In Assam recruitment papers decimal-to-binary conversions, the table of data units, the definitions of primary key, foreign key and DBMS, the full forms of SQL and RDBMS and the common keyboard shortcuts appear most often, followed by octal and hexadecimal conversions and SQL statements. Questions are short and single fact based, so steady revision is enough. The same conversions and definitions repeat with small changes, which makes this section quick to secure.</p>
-<h3>Common Mistakes to Avoid</h3>
+<h3>How the Four Number Systems Differ</h3>
+<p>A number system takes its name from its base, the count of distinct digits it uses. Decimal runs 0 to 9 on ten digits. Binary uses only 0 and 1. Octal uses 0 to 7 on eight digits. Hexadecimal uses sixteen symbols: 0 to 9 followed by A, B, C, D, E and F for the values ten through fifteen. Because eight, sixteen and two are all powers of two, octal and hexadecimal are compact ways of writing long binary strings, which is why memory addresses are usually shown in hexadecimal. Within any number the leftmost digit carries the largest place value and is called the most significant digit; the rightmost is the least significant.</p>
+<h3>Converting by Hand: Worked Examples</h3>
+<p>Decimal to binary: divide by two, note each remainder, then read the remainders from bottom to top. Take 13. 13 divided by 2 is 6 remainder 1, 6 divided by 2 is 3 remainder 0, 3 divided by 2 is 1 remainder 1, and 1 divided by 2 is 0 remainder 1. Read upwards and 13 becomes 1101.</p>
+<p>Binary to decimal: add the place values wherever the digit is 1. The places, right to left, are 1, 2, 4, 8, 16 and so on. For 1101 that is 8 + 4 + 0 + 1, which is 13 and checks the first example.</p>
+<p>Binary to octal and hexadecimal: split the bits into groups. Grouping 1101 in threes from the right gives 1 and 101, so the octal form is 15. Grouping the same bits in fours gives 1101, so the hexadecimal form is D. A four-bit group is a nibble, half a byte.</p>
+<h3>Memory Sizes and the 1024 Ladder</h3>
+<p>A bit holds a single 0 or 1. Eight bits make a byte, which stores one character. From there every step multiplies by 1024: 1024 bytes make a kilobyte, 1024 KB a megabyte, 1024 MB a gigabyte, 1024 GB a terabyte and 1024 TB a petabyte. Questions usually ask how many bytes sit in a kilobyte or how many bits in a byte, and the answers are 1024 and 8.</p>
+<h3>Shortcuts Worth Memorising</h3>
+<p>Ctrl+C copies, Ctrl+X cuts, Ctrl+V pastes, Ctrl+Z undoes and Ctrl+Y redoes. Ctrl+A selects everything, Ctrl+S saves, Ctrl+P prints, Ctrl+F finds, and Ctrl+B, Ctrl+I and Ctrl+U apply bold, italics and underline. Alt+F4 closes the active window, Alt+Tab switches between open windows, and F5 refreshes the current page or window. A handy pairing: Z for undo sits just left of Y for redo.</p>
+<h3>Where Candidates Lose Marks</h3>
 <ul>
-<li>Do not read the remainders in the wrong order; read the decimal-to-binary result from the last remainder to the first.</li>
-<li>Do not confuse a primary key with a foreign key; only the primary key is unique.</li>
-<li>Do not call a database and a DBMS the same; one is data and the other is software.</li>
-<li>Do not use 1000 for the data units; computer memory uses 1024.</li>
-<li>Do not forget that octal groups bits in threes and hexadecimal in fours.</li>
-<li>Do not mix up the shortcut keys, such as Ctrl+Z for undo and Ctrl+Y for redo.</li>
+<li>Reading the decimal-to-binary remainders top to bottom instead of bottom to top.</li>
+<li>Treating a foreign key as unique, when only the primary key is.</li>
+<li>Writing 1000 for memory units; computer memory uses 1024.</li>
+<li>Forgetting that octal groups bits in threes and hexadecimal in fours.</li>
+<li>Swapping Ctrl+Z for undo and Ctrl+Y for redo.</li>
 </ul>
-<h3>How to Prepare This Topic</h3>
-<p>Make a three-column table of the number systems with their base and their digits, and practise ten conversions every day in each direction. Next write the data-unit ladder from bit to petabyte with the value 1024 at each step. Then write the database terms, such as table, record, field, primary key and foreign key, with a one-line meaning each. Finally, write the twenty most common keyboard shortcuts with their actions.</p>
-<p>Attempt twenty questions a day and keep a register of the conversions, definitions and shortcuts you got wrong, because the same items recur. Practise decimal-to-binary conversions aloud, reading the remainders in the correct order, since the order is the most common trap. In the last week revise only the tables and the register, and the section will be ready.</p>
-<h3>Quick Revision Tips</h3>
-<ul>
-<li>Decimal base 10, binary base 2, octal base 8, hexadecimal base 16.</li>
-<li>Decimal to binary: divide by two and read the remainders upwards.</li>
-<li>8 bits = 1 byte, 1024 bytes = 1 KB, 1024 KB = 1 MB.</li>
-<li>A primary key is unique; a foreign key links tables.</li>
-<li>Ctrl+Z undo, Ctrl+Y redo, Ctrl+S save, Ctrl+C copy.</li>
-</ul>
-<h3>Final Revision Note</h3>
-<p>On the last day, revise the number-system table, the data-unit ladder, the database terms and the shortcut list, then attempt a timed set of twenty questions. For every wrong answer, write the exact item that was missed. These questions reward clear rules, and a candidate who has them answers fast and gains easy marks.</p>
+<h3>A Two-Week Revision Plan</h3>
+<p>Draw one table of the four number systems with their base and digit set, and one ladder from bit to petabyte marked 1024 at every step. Spend the first week converting ten decimal numbers to binary and back each day, reading the remainders aloud so the order becomes automatic. Keep a running list of every conversion, definition or shortcut you get wrong and re-test yourself on that list every third day. In the final week revise only the two tables and the error list; that is enough to hold the chapter.</p>
 <h3>Frequently Asked Questions</h3>
-<details data-axo-faq="1"><summary>What is a primary key?</summary><p style="margin:8px 0 0;">A primary key is a field that uniquely identifies each record of a table and cannot be empty.</p></details>
-<details data-axo-faq="1"><summary>What is the binary form of the decimal number 10?</summary><p style="margin:8px 0 0;">The decimal number 10 is written as 1010 in binary.</p></details>
-<details data-axo-faq="1"><summary>How many bytes are there in one kilobyte?</summary><p style="margin:8px 0 0;">There are 1024 bytes in one kilobyte, because computer memory rises in steps of 1024.</p></details>
-<details data-axo-faq="1"><summary>What does SQL stand for and what is it used for?</summary><p style="margin:8px 0 0;">SQL stands for structured query language, and it is used to create, read, update and delete data in a database.</p></details>
-<details data-axo-faq="1"><summary>Which keys are used to undo and redo an action?</summary><p style="margin:8px 0 0;">Ctrl+Z is used to undo an action and Ctrl+Y is used to redo it.</p></details></article>
-      <article lang="as" data-axo-lang="as" class="info-panel" style="background:var(--bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:18px; padding:28px 24px; line-height:1.85; color:var(--ink-soft,#475569); max-width:900px; margin:0 auto; text-align:left;"><h2>DBMS, সংখ্যা পদ্ধতি আৰু Shortcut: ধাৰণা আৰু ৰূপান্তৰ</h2>
-<p>এই অংশত তিনিটা বেলেগ দক্ষতা একেলগে পৰীক্ষা কৰা হয়: database ৰ মূল পৰিভাষা, binary, octal, decimal আৰু hexadecimal পদ্ধতিৰ মাজত সংখ্যাৰ ৰূপান্তৰ, আৰু কম্পিউটাৰৰ সাধাৰণ keyboard shortcut। প্ৰতিটো অংশ তথ্যভিত্তিক, গতিকে চুটি আৰু স্পষ্ট পুনৰালোচনাই প্ৰায় সম্পূৰ্ণ নম্বৰ নিশ্চিত কৰে।</p>
-<p>এই গভীৰ অধ্যয়ন টোকাত DBMS ৰ মূল পৰিভাষা, সংখ্যা পদ্ধতি আৰু সিহঁতৰ ৰূপান্তৰ, তথ্যৰ একক আৰু keyboard shortcut, প্ৰশ্নৰ ধৰণ, সমাধানৰ পদ্ধতি, পৰীক্ষকে পতা ফান্দ আৰু প্ৰস্তুতিৰ পৰিকল্পনা দিয়া হৈছে। পঢ়াৰ পিছত প্ৰাৰ্থীয়ে database, ৰূপান্তৰ বা shortcut ৰ প্ৰশ্ন দ্বিধা নকৰি উত্তৰ দিব পাৰিব।</p>
-<h3>মূল পৰিভাষা</h3>
+<details data-axo-faq="1"><summary>What is a primary key?</summary><p style="margin:8px 0 0;">A primary key is a field that uniquely identifies each record of a table and cannot be left empty.</p></details>
+<details data-axo-faq="1"><summary>What is the binary form of the decimal number 10?</summary><p style="margin:8px 0 0;">Dividing 10 repeatedly by two gives the remainders 0, 1, 0 and 1, so 10 is written as 1010 in binary.</p></details>
+<details data-axo-faq="1"><summary>How many bytes are there in one kilobyte?</summary><p style="margin:8px 0 0;">There are 1024 bytes in one kilobyte, because computer memory grows in steps of 1024 rather than 1000.</p></details>
+<details data-axo-faq="1"><summary>What does SQL stand for and what is it used for?</summary><p style="margin:8px 0 0;">SQL stands for structured query language; it is used to create, read, update and delete data in a database.</p></details>
+<details data-axo-faq="1"><summary>Which keys undo and redo an action?</summary><p style="margin:8px 0 0;">Ctrl+Z undoes the last action and Ctrl+Y redoes it.</p></details></article>
+      <article lang="as" data-axo-lang="as" class="info-panel" style="background:var(--bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:18px; padding:28px 24px; line-height:1.85; color:var(--ink-soft,#475569); max-width:900px; margin:0 auto; text-align:left;"><h2>DBMS, সংখ্যা পদ্ধতি আৰু Keyboard Shortcut</h2>
+<p>এই অধ্যায়ত এটা নিয়োগ পৰীক্ষাৰ প্ৰশ্নপত্ৰত সঘনাই একেলগে অহা তিনিটা বেলেগ দক্ষতা আছে: database ৰ পৰিভাষা, binary, octal, decimal আৰু hexadecimal ৰ মাজত সংখ্যাৰ ৰূপান্তৰ, আৰু Windows কম্পিউটাৰৰ দৈনন্দিন keyboard shortcut। প্ৰতিটোৱেই এটা নিৰ্দিষ্ট তথ্য, গতিকে তথ্যটো মনত থাকিলে উত্তৰ দিবলৈ কেইছেকেণ্ডহে লাগে। তলত তথ্যৰ তালিকা, সময় কম থকা অৱস্থাত ব্যৱহাৰ কৰিবলগীয়া ৰূপান্তৰৰ পদ্ধতি, আৰু প্ৰাৰ্থীসকলে আটাইতকৈ বেছি ভুল কৰা ঠাইবোৰ দিয়া হৈছে।</p>
+<h3>জানিবলগীয়া Database পৰিভাষা</h3>
 <ul>
 <li><strong>Data:</strong> অকলশৰে অলপ অৰ্থপূৰ্ণ কেঁচা তথ্য আৰু সংখ্যা।</li>
 <li><strong>Database:</strong> সহজে বিচাৰি উলিয়াব আৰু আপডেট কৰিব পৰাকৈ ৰখা সম্পৰ্কীয় তথ্যৰ সুসংগঠিত সংগ্ৰহ।</li>
-<li><strong>DBMS:</strong> database management system, database সৃষ্টি আৰু পৰিচালনা কৰা software, যেনে MySQL বা Oracle।</li>
-<li><strong>RDBMS:</strong> relational database management system, যি key ৰে সংযুক্ত table ত তথ্য ৰাখে।</li>
+<li><strong>DBMS:</strong> database সৃষ্টি আৰু পৰিচালনা কৰা software; MySQL, Oracle, SQL Server আৰু MS Access ইয়াৰ সাধাৰণ উদাহৰণ।</li>
+<li><strong>RDBMS:</strong> key ৰে সংযুক্ত table ত তথ্য ৰখা DBMS।</li>
 <li><strong>Table:</strong> এটা বিষয়ৰ তথ্য ৰখা row আৰু column ৰ সংহতি।</li>
 <li><strong>Record:</strong> table ৰ এটা সম্পূৰ্ণ row, যি এটা entity বৰ্ণনা কৰে।</li>
 <li><strong>Field:</strong> table ৰ এটা column, যি প্ৰতিটো record ৰ এটা গুণ ধৰি ৰাখে।</li>
-<li><strong>Primary key:</strong> table ৰ প্ৰতিটো record অদ্বিতীয়ভাৱে চিনাক্ত কৰা field।</li>
+<li><strong>Primary key:</strong> table ৰ প্ৰতিটো record অদ্বিতীয়ভাৱে চিনাক্ত কৰা field; ই কেতিয়াও খালী বা পুনৰাবৃত্তি হ'ব নোৱাৰে।</li>
 <li><strong>Foreign key:</strong> এটা table ক আন এটাৰ primary key লৈ সংযোগ কৰা field।</li>
-<li><strong>SQL:</strong> structured query language, তথ্য সৃষ্টি, পঢ়া, আপডেট আৰু মচিবলৈ ব্যৱহৃত।</li>
+<li><strong>SQL:</strong> structured query language, তথ্য সৃষ্টি, পঢ়া, আপডেট আৰু মচিবলৈ ব্যৱহৃত মানক ভাষা।</li>
 <li><strong>Query:</strong> database ৰ পৰা তথ্য বিচৰা অনুৰোধ।</li>
+<li><strong>Normalisation:</strong> পুনৰাবৃত্তি আৰু অসংগতি কমাবলৈ table পুনৰ সংগঠিত কৰাৰ প্ৰক্ৰিয়া।</li>
 <li><strong>Number system:</strong> নিৰ্দিষ্ট digit ৰ সংহতি, অৰ্থাৎ base, ব্যৱহাৰ কৰি সংখ্যা লিখাৰ পদ্ধতি।</li>
-<li><strong>Bit:</strong> binary digit, 0 বা 1, তথ্যৰ আটাইতকৈ সৰু একক।</li>
-<li><strong>Byte:</strong> আঠটা bit ৰ সংগ্ৰহ।</li>
+<li><strong>Bit:</strong> এটা binary digit, 0 বা 1, তথ্যৰ আটাইতকৈ সৰু একক।</li>
+<li><strong>Byte:</strong> আঠটা bit ৰ সংগ্ৰহ, যি এটা character ৰাখিব পাৰে।</li>
 </ul>
-<h3>মুখ্য ধাৰণা আৰু নিয়ম</h3>
+<h3>বেছিভাগ উত্তৰ নিৰ্ণয় কৰা নিয়ম</h3>
 <ul>
-<li>DBMS software, আনহাতে database হৈছে DBMS এ পৰিচালনা কৰা তথ্যৰ সুসংগঠিত সংগ্ৰহ।</li>
-<li>Primary key অদ্বিতীয় আৰু খালী হ'ব নোৱাৰে, আৰু foreign key য়ে দুটা table সংযোগ কৰে।</li>
-<li>SQL statement ৰ ভিতৰত SELECT, INSERT, UPDATE, DELETE, CREATE আৰু DROP থাকে।</li>
-<li>Decimal পদ্ধতিৰ base 10, binary ৰ base 2, octal ৰ base 8 আৰু hexadecimal ৰ base 16।</li>
-<li>Decimal ক binary লৈ সলাবলৈ বাৰে বাৰে দুৰে ভাগ কৰি ভাগশেষ ওপৰলৈ পঢ়ক।</li>
-<li>Binary ক decimal লৈ সলাবলৈ য'ত digit এক তাত place value যোগ কৰক।</li>
-<li>Octal য়ে binary bit ক তিনি তিনি আৰু hexadecimal য়ে চাৰি চাৰি গোট কৰে।</li>
-<li>Hexadecimal ত A ৰ পৰা F লৈ অক্ষৰে 10 ৰ পৰা 15 লৈ সূচায়।</li>
-<li>তথ্য এককৰ তালিকা: 8 bit = 1 byte, 1024 byte = 1 KB, 1024 KB = 1 MB, 1024 MB = 1 GB আৰু 1024 GB = 1 TB।</li>
-<li>Ctrl+C copy, Ctrl+V paste, Ctrl+Z undo আৰু Ctrl+S save।</li>
+<li>Database হৈছে তথ্য, আৰু DBMS হৈছে সেই তথ্য পৰিচালনা কৰা software; দুয়োটাক একে বুলি নাভাবিব।</li>
+<li>কেৱল primary key অদ্বিতীয় হ'ব লাগে; foreign key পুনৰাবৃত্তি হ'ব পাৰে আৰু খালীও থাকিব পাৰে।</li>
+<li>SQL ৰ কাম কৰা statement ক্ৰমে SELECT পঢ়িবলৈ, INSERT যোগ কৰিবলৈ, UPDATE সলাবলৈ আৰু DELETE মচিবলৈ, লগতে CREATE আৰু DROP table বনাব বা মচিবলৈ।</li>
+<li>Base ক্ৰমে decimal 10, binary 2, octal 8 আৰু hexadecimal 16।</li>
+<li>Octal হৈছে তিনি bit ৰ গোটত binary ৰ চুটি ৰূপ; hexadecimal এ চাৰি bit ৰ গোট লয়।</li>
+<li>Hexadecimal ত A ৰ পৰা F লৈ অক্ষৰে 10 ৰ পৰা 15 লৈ মান সূচায়।</li>
+<li>কম্পিউটাৰ মেমৰি 1000 নহয়, 1024 ৰ পৰ্যায়ত বাঢ়ে: 8 bit = 1 byte, 1024 byte = 1 KB, 1024 KB = 1 MB, 1024 MB = 1 GB আৰু 1024 GB = 1 TB।</li>
 </ul>
-<h3>Database ৰ ধাৰণা</h3>
-<p>Database এ সম্পৰ্কীয় তথ্য সুসংগঠিতভাৱে ৰাখে যাতে একেই তথ্য অনেক ঠাইত ৰাখিব নালাগে। DBMS হৈছে সেই software, যি database সৃষ্টি কৰি ব্যৱহাৰকাৰীক তথ্য ৰাখিব, বিচাৰিব, আপডেট আৰু মচিবলৈ দিয়ে, যেনে MySQL, Oracle, SQL Server আৰু MS Access। যেতিয়া তথ্য key ৰে সংযুক্ত table ত ৰখা হয়, তেতিয়া সেই system ক relational database management system বোলা হয়। Table ত প্ৰতিটো row এটা record, প্ৰতিটো column এটা field, আৰু primary key য়ে প্ৰতিটো row অদ্বিতীয়ভাৱে চিনাক্ত কৰে, আনহাতে এটা table ৰ foreign key য়ে আন এটাৰ primary key লৈ দেখুৱাই দুয়োটা জোৰা লগায়। Structured query language, SQL, এনে table ৰ লগত কাম কৰাৰ মানক ভাষা, আৰু ইয়াৰ মূল statement ক্ৰমে SELECT পঢ়িবলৈ, INSERT যোগ কৰিবলৈ, UPDATE সলাবলৈ আৰু DELETE মচিবলৈ, লগতে CREATE আৰু DROP table বনাব বা মচিবলৈ। Normalisation হৈছে পুনৰাবৃত্তি আৰু ভুল কমাবলৈ table সুসংগঠিত কৰাৰ প্ৰক্ৰিয়া।</p>
-<h3>সংখ্যা পদ্ধতি আৰু ৰূপান্তৰ</h3>
-<p>সংখ্যা পদ্ধতিৰ নাম তাৰ base ৰ পৰা হয়, যি ই ব্যৱহাৰ কৰা বেলেগ digit ৰ সংখ্যা। Decimal পদ্ধতিত 0 ৰ পৰা 9 লৈ দহটা digit, binary ত 0 আৰু 1 দুটা, octal ত 0 ৰ পৰা 7 লৈ আঠটা, আৰু hexadecimal ত ষোল্লটা চিহ্ন, অৰ্থাৎ 0 ৰ পৰা 9 লৈ digit আৰু দহৰ পৰা পোন্ধৰলৈ A ৰ পৰা F লৈ অক্ষৰ ব্যৱহৃত হয়। Decimal সংখ্যাক binary লৈ সলাবলৈ ইয়াক বাৰে বাৰে দুৰে ভাগ কৰি প্ৰতিটো ভাগশেষ লিখি শেষৰ পৰা প্ৰথমলৈ পঢ়ক। Binary ক decimal লৈ সলাবলৈ প্ৰতিটো bit ক তাৰ place value ৰে পূৰণ কৰক, যি সোঁফালৰ পৰা বাওঁফাললৈ দুগুণ হয়, আৰু ফলাফল যোগ কৰক। Octal আৰু hexadecimal উপকাৰী কাৰণ সিহঁত binary ৰ চুটি ৰূপ: তিনি bit এ এটা octal digit আৰু চাৰি bit এ এটা hexadecimal digit বনায়। সংখ্যা এটাৰ আটাইতকৈ ডাঙৰ place value ক most significant digit আৰু আটাইতকৈ সৰুটোক least significant digit বোলা হয়।</p>
-<h3>তথ্যৰ একক আৰু Keyboard Shortcut</h3>
-<p>তথ্যৰ আটাইতকৈ সৰু একক হৈছে bit, যি এটা 0 বা 1, আৰু আঠটা bit এ এটা byte বনায়, যি এটা character ৰাখিব পাৰে। ডাঙৰ এককবোৰ 1024 ৰ পৰ্যায়ত বাঢ়ে: 1024 byte = এটা kilobyte, 1024 kilobyte = এটা megabyte, 1024 megabyte = এটা gigabyte, 1024 gigabyte = এটা terabyte আৰু 1024 terabyte = এটা petabyte। Nibble হৈছে চাৰিটা bit, অৰ্থাৎ আধা byte। Keyboard shortcut এ সময় ৰাহি কৰে আৰু পোনপটীয়াকৈ সোধা হয়: Ctrl+C copy, Ctrl+X cut, Ctrl+V paste, Ctrl+Z undo, Ctrl+Y redo, Ctrl+A আটাই বাছনি, Ctrl+S save, Ctrl+P print, Ctrl+F বিচাৰ, Ctrl+B bold, Ctrl+I italic আৰু Ctrl+U underline। Alt+F4 এ ৱিন্ডো বন্ধ কৰে, Alt+Tab এ খোলা ৱিন্ডোৰ মাজত সলনি কৰে, আৰু F5 এ পৃষ্ঠা বা ৱিন্ডো refresh কৰে।</p>
-<h3>সোধা প্ৰশ্নৰ প্ৰকাৰ</h3>
-<p>আটাইতকৈ বেছি অহা ধৰণ হ'ল এটা ৰূপান্তৰ, যেনে decimal সংখ্যা এটাৰ binary ৰূপ সোধা। দ্বিতীয়ত এটা সংজ্ঞা, যেনে primary key কি, সোধা হয়। তৃতীয়ত এটা full form, যেনে DBMS, SQL বা RDBMS, সোধা হয়। চতুৰ্থত এটা kilobyte ত কিমান byte বা এটা byte ত কিমান bit সোধা হয়। পঞ্চমত এটা কামৰ shortcut সোধা হয়। পোনপটীয়া ৰূপান্তৰ আৰু সংজ্ঞাই বেছি নম্বৰ লয়।</p>
-<h3>DBMS বা সংখ্যাৰ প্ৰশ্ন সমাধানৰ স্তৰ</h3>
-<p>প্ৰথমে প্ৰশ্ন পঢ়ি ই database ৰ শব্দ, ৰূপান্তৰ, একক নে shortcut বিচাৰে চাওক। দ্বিতীয়ে ৰূপান্তৰ হ'লে জড়িত base নিৰ্ণয় কৰি ভাগ বা place value ৰ নিয়ম প্ৰয়োগ কৰক। তৃতীয়ে সংজ্ঞা হ'লে সঠিক এশাৰী অৰ্থ আৰু তাৰ মূল চৰ্ত মনত পেলাওক, যেনে primary key ৰ অদ্বিতীয়তা। চতুৰ্থে একক হ'লে 1024 ৰ ভিত্তি আৰু এককৰ ক্ৰম মনত ৰাখক। পঞ্চমে shortcut হ'লে চাবি আৰু কাম কল্পনা কৰক। শেষত ফলাফল এবাৰ পৰীক্ষা কৰক, কাৰণ এটা ভুল ভাগশেষ বা place value য়ে গোটেই উত্তৰ সলনি কৰে।</p>
-<h3>পৰীক্ষাৰ প্ৰৱণতা</h3>
-<p>অসমৰ নিয়োগ পৰীক্ষাত decimal-ৰপৰা-binary ৰূপান্তৰ, তথ্য এককৰ তালিকা, primary key, foreign key আৰু DBMS ৰ সংজ্ঞা, SQL আৰু RDBMS ৰ full form আৰু সাধাৰণ keyboard shortcut আটাইতকৈ বেছি আহে, তাৰ পিছত octal আৰু hexadecimal ৰূপান্তৰ আৰু SQL statement। প্ৰশ্ন চুটি আৰু এটা তথ্যভিত্তিক, গতিকে নিয়মীয়া পুনৰালোচনেই যথেষ্ট। একেই ৰূপান্তৰ আৰু সংজ্ঞা সৰু সালসলনিৰে পুনৰ আহে, যাৰ ফলত এই অংশ দ্ৰুতভাৱে জনা যায়।</p>
-<h3>সাধাৰণ ভুল</h3>
+<h3>চাৰিটা সংখ্যা পদ্ধতিৰ পাৰ্থক্য</h3>
+<p>সংখ্যা পদ্ধতিৰ নাম তাৰ base ৰ পৰা হয়, অৰ্থাৎ ই ব্যৱহাৰ কৰা বেলেগ digit ৰ সংখ্যাৰ পৰা। Decimal এ 0 ৰ পৰা 9 লৈ দহটা digit লয়। Binary এ কেৱল 0 আৰু 1 লয়। Octal এ 0 ৰ পৰা 7 লৈ আঠটা লয়। Hexadecimal এ ষোল্লটা চিহ্ন লয়: 0 ৰ পৰা 9, তাৰ পিছত দহৰ পৰা পোন্ধৰলৈ A, B, C, D, E আৰু F। আঠ, ষোল্ল আৰু দুই — আটাইবোৰেই দুইৰ ঘাত, গতিকে octal আৰু hexadecimal দীঘল binary শাৰী লিখাৰ চুটি উপায়; সেয়ে মেমৰি ঠিকনা সাধাৰণতে hexadecimal ত দেখুওৱা হয়। যিকোনো সংখ্যাত বাওঁফালৰ digit ৰ place value আটাইতকৈ ডাঙৰ, যাক most significant digit বোলা হয়; সোঁফালৰটো least significant।</p>
+<h3>হাতেৰে ৰূপান্তৰ: কাম কৰা উদাহৰণ</h3>
+<p>Decimal ৰ পৰা binary: দুৰে ভাগ কৰি প্ৰতিটো ভাগশেষ লিখি শেষৰ পৰা প্ৰথমলৈ পঢ়ক। 13 লওক। 13 ÷ 2 = 6, ভাগশেষ 1; 6 ÷ 2 = 3, ভাগশেষ 0; 3 ÷ 2 = 1, ভাগশেষ 1; 1 ÷ 2 = 0, ভাগশেষ 1। ওপৰলৈ পঢ়িলে 13 হয় 1101।</p>
+<p>Binary ৰ পৰা decimal: য'ত digit এক তাত place value যোগ কৰক। সোঁফালৰ পৰা place value ক্ৰমে 1, 2, 4, 8, 16। 1101 ৰ বাবে ই 8 + 4 + 0 + 1 = 13, যি প্ৰথম উদাহৰণটো মিলাই দিয়ে।</p>
+<p>Binary ৰ পৰা octal আৰু hexadecimal: bit বোৰ গোটত ভাগ কৰক। 1101 ক সোঁফালৰ পৰা তিনি তিনি কৰি ভাগ কৰিলে 1 আৰু 101 পোৱা যায়, গতিকে octal ৰূপ 15। একেখিনি bit চাৰি চাৰিকৈ ভাগ কৰিলে 1101 পোৱা যায়, গতিকে hexadecimal ৰূপ D। চাৰি bit ৰ গোটক nibble বোলা হয়, যি আধা byte।</p>
+<h3>মেমৰিৰ আকাৰ আৰু 1024 ৰ শ্ৰেণী</h3>
+<p>এটা bit এ এটা 0 বা 1 ধৰি ৰাখে। আঠটা bit এ এটা byte বনায়, যি এটা character ৰাখে। তাৰ পৰা প্ৰতিটো খোজ 1024 ৰে পূৰণ হয়: 1024 byte = এটা kilobyte, 1024 KB = এটা megabyte, 1024 MB = এটা gigabyte, 1024 GB = এটা terabyte আৰু 1024 TB = এটা petabyte। প্ৰশ্নত সাধাৰণতে এটা kilobyte ত কিমান byte বা এটা byte ত কিমান bit সোধা হয়, আৰু উত্তৰ 1024 আৰু 8।</p>
+<h3>মনত ৰখাৰ যোগ্য Shortcut</h3>
+<p>Ctrl+C copy, Ctrl+X cut, Ctrl+V paste, Ctrl+Z undo আৰু Ctrl+Y redo। Ctrl+A এ আটাই বাছনি, Ctrl+S save, Ctrl+P print, Ctrl+F find কৰে, আৰু Ctrl+B, Ctrl+I লগতে Ctrl+U এ bold, italic আৰু underline দিয়ে। Alt+F4 এ সক্ৰিয় ৱিন্ডো বন্ধ কৰে, Alt+Tab এ খোলা ৱিন্ডোৰ মাজত সলনি কৰে, আৰু F5 এ চলিত পৃষ্ঠা বা ৱিন্ডো refresh কৰে। এটা সহজ যোৰ: undo ৰ Z ঠিক redo ৰ Y ৰ বাওঁফালে থাকে।</p>
+<h3>য'ত প্ৰাৰ্থীসকলে নম্বৰ হেৰুৱায়</h3>
 <ul>
-<li>ভাগশেষ ভুল ক্ৰমত নপঢ়িব; decimal-ৰপৰা-binary ফলাফল শেষৰ ভাগশেষৰ পৰা প্ৰথমলৈ পঢ়ক।</li>
-<li>Primary key আৰু foreign key মিলাই নিদিব; কেৱল primary key অদ্বিতীয়।</li>
-<li>Database আৰু DBMS একে নুবুলিব; এটা তথ্য আৰু আনটো software।</li>
-<li>তথ্য এককলৈ 1000 ব্যৱহাৰ নকৰিব; কম্পিউটাৰ মেমৰিত 1024 ব্যৱহাৰ হয়।</li>
-<li>Octal য়ে bit তিনি তিনিকৈ আৰু hexadecimal য়ে চাৰি চাৰিকৈ গোট কৰে, নাপাহৰিব।</li>
-<li>Shortcut চাবি মিলাই নিদিব, যেনে Ctrl+Z undo আৰু Ctrl+Y redo।</li>
+<li>Decimal-ৰপৰা-binary ৰ ভাগশেষ ওপৰৰ পৰা তললৈ পঢ়া, শেষৰ পৰা প্ৰথমলৈ পঢ়িবৰ সলনি।</li>
+<li>Foreign key ক অদ্বিতীয় ভবা, য'ত কেৱল primary key অদ্বিতীয়।</li>
+<li>মেমৰি এককলৈ 1000 লিখা; কম্পিউটাৰ মেমৰিত 1024 ব্যৱহৃত হয়।</li>
+<li>Octal এ bit তিনি তিনি আৰু hexadecimal এ চাৰি চাৰিকৈ গোট কৰে, সেয়া পাহৰি যোৱা।</li>
+<li>Ctrl+Z (undo) আৰু Ctrl+Y (redo) ওলোটাই দিয়া।</li>
 </ul>
-<h3>প্ৰস্তুতি কেনেকৈ কৰিব</h3>
-<p>সংখ্যা পদ্ধতি, সিহঁতৰ base আৰু digit লৈ তিনি স্তম্ভৰ তালিকা বনাই দিনে প্ৰতিটো দিশত দহটা ৰূপান্তৰ অভ্যাস কৰক। তাৰ পিছত bit ৰ পৰা petabyte লৈ, প্ৰতিটো খোজত 1024 মূল্য ৰাখি তথ্য এককৰ শ্ৰেণী লিখক। তাৰ পিছত table, record, field, primary key আৰু foreign key ৰ দৰে database ৰ শব্দ আৰু প্ৰতিটোৰ এশাৰী অৰ্থ লিখক। শেষত আটাইতকৈ বেছি অহা কুৰিটা keyboard shortcut আৰু সিহঁতৰ কাম লিখক।</p>
-<p>দিনে কুৰিটা প্ৰশ্ন কৰি ভুল হোৱা ৰূপান্তৰ, সংজ্ঞা আৰু shortcut ৰ এখন তালিকা ৰাখক, কাৰণ একেই বস্তু পুনৰ আহে। Decimal-ৰপৰা-binary ৰূপান্তৰ উচ্চস্বৰে অভ্যাস কৰি ভাগশেষ সঠিক ক্ৰমত পঢ়ক, কাৰণ ক্ৰমেই আটাইতকৈ সাধাৰণ ফান্দ। শেষ সপ্তাহত কেৱল তালিকা আৰু ৰেজিষ্টাৰ চাওক, তেতিয়া এই অংশ সাজু হ'ব।</p>
-<h3>দ্ৰুত পুনৰালোচনাৰ টিপছ</h3>
-<ul>
-<li>Decimal base 10, binary base 2, octal base 8, hexadecimal base 16।</li>
-<li>Decimal ৰপৰা binary: দুৰে ভাগ কৰি ভাগশেষ ওপৰলৈ পঢ়ক।</li>
-<li>8 bit = 1 byte, 1024 byte = 1 KB, 1024 KB = 1 MB।</li>
-<li>Primary key অদ্বিতীয়; foreign key য়ে table সংযোগ কৰে।</li>
-<li>Ctrl+Z undo, Ctrl+Y redo, Ctrl+S save, Ctrl+C copy।</li>
-</ul>
-<h3>শেষ পুনৰালোচনা</h3>
-<p>শেষ দিনা সংখ্যা পদ্ধতিৰ তালিকা, তথ্য এককৰ শ্ৰেণী, database ৰ শব্দ আৰু shortcut ৰ তালিকা পুনৰালোচনা কৰি কুৰিটা প্ৰশ্নৰ সময়বদ্ধ সংহতি কৰক। প্ৰতিটো ভুল উত্তৰৰ বাবে বাদ পৰা বস্তুটো লিখি ৰাখক। এই প্ৰশ্নই স্পষ্ট নিয়ম বিচাৰে, আৰু নিয়ম জনা প্ৰাৰ্থীয়ে দ্ৰুতভাৱে উত্তৰ দি সহজ নম্বৰ পায়।</p>
+<h3>দুই সপ্তাহৰ পুনৰালোচনাৰ পৰিকল্পনা</h3>
+<p>চাৰিটা সংখ্যা পদ্ধতিৰ base আৰু digit লৈ এটা তালিকা আঁকক, আৰু bit ৰ পৰা petabyte লৈ প্ৰতিটো খোজত 1024 লিখি এটা শ্ৰেণী আঁকক। প্ৰথম সপ্তাহত দিনে দহটা decimal সংখ্যা binary লৈ আৰু উলটি decimal লৈ সলাওক, ভাগশেষ উচ্চস্বৰে পঢ়ি ক্ৰমটো স্বাভাৱিক কৰি তুলক। ভুল হোৱা প্ৰতিটো ৰূপান্তৰ, সংজ্ঞা বা shortcut ৰ এখন চলিত তালিকা ৰাখক আৰু প্ৰতি তৃতীয় দিনে সেই তালিকাতে নিজকে পৰীক্ষা কৰক। শেষ সপ্তাহত কেৱল দুয়োখন তালিকা আৰু ভুলৰ তালিকা পুনৰালোচনা কৰিলেই যথেষ্ট।</p>
 <h3>সঘনাই সোধা প্ৰশ্ন</h3>
-<details data-axo-faq="1"><summary>Primary key কি?</summary><p style="margin:8px 0 0;">Primary key হৈছে table ৰ প্ৰতিটো record অদ্বিতীয়ভাৱে চিনাক্ত কৰা field, যি খালী হ'ব নোৱাৰে।</p></details>
-<details data-axo-faq="1"><summary>Decimal সংখ্যা 10 ৰ binary ৰূপ কি?</summary><p style="margin:8px 0 0;">Decimal সংখ্যা 10 ক binary ত 1010 বুলি লিখা হয়।</p></details>
-<details data-axo-faq="1"><summary>এটা kilobyte ত কিমান byte থাকে?</summary><p style="margin:8px 0 0;">এটা kilobyte ত 1024 byte থাকে, কাৰণ কম্পিউটাৰ মেমৰি 1024 ৰ পৰ্যায়ত বাঢ়ে।</p></details>
-<details data-axo-faq="1"><summary>SQL ৰ full form কি আৰু কাম কি?</summary><p style="margin:8px 0 0;">SQL ৰ full form structured query language, যি database ত তথ্য সৃষ্টি, পঢ়া, আপডেট আৰু মচিবলৈ ব্যৱহৃত হয়।</p></details>
-<details data-axo-faq="1"><summary>কাম undo আৰু redo কৰিবলৈ কোন চাবি ব্যৱহৃত হয়?</summary><p style="margin:8px 0 0;">কাম undo কৰিবলৈ Ctrl+Z আৰু redo কৰিবলৈ Ctrl+Y ব্যৱহৃত হয়।</p></details></article>
+<details data-axo-faq="1"><summary>Primary key কি?</summary><p style="margin:8px 0 0;">Primary key হৈছে table ৰ প্ৰতিটো record অদ্বিতীয়ভাৱে চিনাক্ত কৰা field, যি খালী ৰাখিব নোৱাৰি।</p></details>
+<details data-axo-faq="1"><summary>Decimal সংখ্যা 10 ৰ binary ৰূপ কি?</summary><p style="margin:8px 0 0;">10 ক বাৰে বাৰে দুৰে ভাগ কৰিলে ভাগশেষ 0, 1, 0, 1 পোৱা যায়, গতিকে 10 ক binary ত 1010 বুলি লিখা হয়।</p></details>
+<details data-axo-faq="1"><summary>এটা kilobyte ত কিমান byte থাকে?</summary><p style="margin:8px 0 0;">এটা kilobyte ত 1024 byte থাকে, কাৰণ কম্পিউটাৰ মেমৰি 1000 নহয় 1024 ৰ পৰ্যায়ত বাঢ়ে।</p></details>
+<details data-axo-faq="1"><summary>SQL ৰ full form কি আৰু ইয়াৰ কাম কি?</summary><p style="margin:8px 0 0;">SQL ৰ full form structured query language; database ত তথ্য সৃষ্টি, পঢ়া, আপডেট আৰু মচিবলৈ ই ব্যৱহৃত হয়।</p></details>
+<details data-axo-faq="1"><summary>কাম undo আৰু redo কৰিবলৈ কোন চাবি ব্যৱহৃত হয়?</summary><p style="margin:8px 0 0;">Ctrl+Z য়ে শেষ কাম undo কৰে আৰু Ctrl+Y য়ে redo কৰে।</p></details></article>
     </div>
   </section>
 
