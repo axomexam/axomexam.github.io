@@ -2105,7 +2105,8 @@
         state.lang = btn.dataset.lang;
         document.body.setAttribute("data-lang", state.lang);
         $$(".lang-btn").forEach((x) => x.classList.toggle("active", x.dataset.lang === state.lang));
-        renderQAPage();
+        /* Both languages already live in the DOM; just swap the visible one. */
+        syncQAPager();
         refreshReadingModal();
       });
     });
@@ -2240,8 +2241,12 @@
     const qs = rec.topic.questions || [];
     const perPage = typeof CONFIG !== "undefined" ? CONFIG.PER_PAGE : 10;
     const totalPages = Math.max(1, Math.ceil(qs.length / perPage));
-    const start = state.page * perPage;
-    const slice = qs.slice(start, start + perPage);
+    /* Every question is rendered into the DOM, not just the current page.
+       Crawlers that execute JavaScript (Googlebot) then receive the whole
+       topic instead of a single 15-question page. The pager below is a
+       scroll-to-page control, so nothing is removed from the document. */
+    const start = 0;
+    const slice = qs;
 
     const list = $("#qa-list");
 
@@ -2255,14 +2260,45 @@
     } else {
       list.innerHTML = slice.map((item, i) => {
         const n = start + i + 1;
-        const qtext = extractField(item, "question");
-        const atext = extractField(item, "answer");
-        const options = getOptionsList(item);
-        const explanation = extractField(item, "explanation");
+        const active = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
+        const other = active === "as" ? "en" : "as";
+        /* Both languages are emitted so JS-executing crawlers receive the full
+           bilingual content; the existing data-axo-lang rules show only the
+           active language, so the reader-facing UI is unchanged. */
+        return `<div data-axo-lang="${active}">${topicQACardHTML(item, n, active)}</div>`
+          + `<div data-axo-lang="${other}">${topicQACardHTML(item, n, other)}</div>`;
+      }).join("");
+
+      renderMathJax(list);
+    }
+    const pager = $("#pager");
+    if (totalPages > 1) {
+      pager.innerHTML = `
+        <div style="display:flex; justify-content:center; align-items:center; gap:12px;">
+          <button id="pg-prev" class="btn btn-sm btn-outline" ${state.page === 0 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.prev")}</button>
+          <span class="pager-info" style="font-weight:700; font-size:0.88rem; color:var(--ink-soft,#64748b);">${state.page + 1} / ${totalPages}</span>
+          <button id="pg-next" class="btn btn-sm btn-outline" ${state.page >= totalPages - 1 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.next")}</button>
+        </div>
+        ${pagerEndMarkHTML()}`;
+      $("#pg-prev").addEventListener("click", () => { if (state.page > 0) { state.page--; scrollToQAPage(perPage); refreshReadingModal(); } });
+      $("#pg-next").addEventListener("click", () => { if (state.page < totalPages - 1) { state.page++; scrollToQAPage(perPage); refreshReadingModal(); } });
+    } else {
+      pager.innerHTML = "";
+    }
+  }
+
+  /* Render one topic question card for a given language. Extracted so the
+     caller can emit every question in both languages. */
+  function topicQACardHTML(item, n, lang) {
+    {
+        const qtext = extractField(item, "question", lang);
+        const atext = extractField(item, "answer", lang);
+        const options = getOptionsList(item, lang);
+        const explanation = extractField(item, "explanation", lang);
         const media = mediaBlock(item);
         const fopts = figureOptions(item);
 
-        const targetLang = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
+        const targetLang = lang;
         const rawAns = (item.a && typeof item.a === "object" && item.a[targetLang]) || item.a || item.answer;
         const isStepArray = Array.isArray(rawAns) || atext.includes("qa-step-line");
 
@@ -2285,7 +2321,7 @@
                 <div class="a-body" style="margin:0; padding:0; text-align:left;">${atext}</div>
                 ${explanation ? `
                   <div class="qa-exp" style="margin-top:8px; padding:0; font-size:0.86rem; color:var(--ink-muted,#64748b); text-align:left;">
-                    <b style="color:var(--ink,#0f172a);">${state.lang === "as" ? "ব্যাখ্যা" : "Explanation"}:</b> ${explanation}
+                    <b style="color:var(--ink,#0f172a);">${lang === "as" ? "ব্যাখ্যা" : "Explanation"}:</b> ${explanation}
                   </div>` : ""
                 }
               </div>
@@ -2314,30 +2350,40 @@
               </div>
               ${explanation ? `
                 <div class="qa-exp" style="margin-top:8px; padding:0; font-size:0.86rem; color:var(--ink-muted,#64748b); line-height:1.45; text-align:left;">
-                  <b style="color:var(--ink,#0f172a);">${state.lang === "as" ? "ব্যাখ্যা" : "Explanation"}:</b> ${formatMath(explanation)}
+                  <b style="color:var(--ink,#0f172a);">${lang === "as" ? "ব্যাখ্যা" : "Explanation"}:</b> ${formatMath(explanation)}
                 </div>` : ""
               }
             </article>`;
         }
-      }).join("");
-
-      renderMathJax(list);
     }
+  }
 
-    const pager = $("#pager");
-    if (totalPages > 1) {
-      pager.innerHTML = `
-        <div style="display:flex; justify-content:center; align-items:center; gap:12px;">
-          <button id="pg-prev" class="btn btn-sm btn-outline" ${state.page === 0 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.prev")}</button>
-          <span class="pager-info" style="font-weight:700; font-size:0.88rem; color:var(--ink-soft,#64748b);">${state.page + 1} / ${totalPages}</span>
-          <button id="pg-next" class="btn btn-sm btn-outline" ${state.page >= totalPages - 1 ? "disabled" : ""} style="width:112px; padding:6px 12px; font-weight:700; text-align:center; box-sizing:border-box;">${t("topic.next")}</button>
-        </div>
-        ${pagerEndMarkHTML()}`;
-      $("#pg-prev").addEventListener("click", () => { if (state.page > 0) { state.page--; renderQAPage(); refreshReadingModal(); window.scrollTo({ top: 0, behavior: "smooth" }); } });
-      $("#pg-next").addEventListener("click", () => { if (state.page < totalPages - 1) { state.page++; renderQAPage(); refreshReadingModal(); window.scrollTo({ top: 0, behavior: "smooth" }); } });
-    } else {
-      pager.innerHTML = "";
-    }
+  /* Scroll the already-rendered question list to the requested page and keep
+     the pager label/disabled state in sync. */
+  function scrollToQAPage(perPage) {
+    const list = $("#qa-list");
+    if (!list) return;
+    const active = (state.mock && state.mock.testLang) ? state.mock.testLang : state.lang;
+    /* Each question exists once per language; scroll only the visible copy. */
+    const items = list.querySelectorAll(`[data-axo-lang="${active}"] [data-n]`);
+    const first = items[state.page * perPage];
+    if (first) first.scrollIntoView({ behavior: "smooth", block: "start" });
+    syncQAPager(perPage);
+  }
+
+  /* Refresh the topic pager's label and disabled state without re-rendering
+     the question list (which now always holds every question). */
+  function syncQAPager(perPage) {
+    const rec = currentTopicRec();
+    const total = rec && rec.topic.questions ? rec.topic.questions.length : 0;
+    const pp = perPage || (typeof CONFIG !== "undefined" ? CONFIG.PER_PAGE : 10);
+    const totalPages = Math.max(1, Math.ceil(total / pp));
+    const info = $("#pager .pager-info");
+    if (info) info.textContent = `${state.page + 1} / ${totalPages}`;
+    const prev = $("#pg-prev");
+    const next = $("#pg-next");
+    if (prev) prev.disabled = state.page === 0;
+    if (next) next.disabled = state.page >= totalPages - 1;
   }
 
   /* ================= Reading-mode popup ================= */
@@ -2376,7 +2422,7 @@
     $("#read-prev", modal).addEventListener("click", () => {
       if (state.page > 0) {
         state.page--;
-        renderQAPage();
+        syncQAPager();
         renderReadingModalPage();
         const b = $("#read-modal-body");
         if (b) b.scrollTop = 0;
@@ -2392,7 +2438,7 @@
 
       if (state.page < totalPages - 1) {
         state.page++;
-        renderQAPage();
+        syncQAPager();
         renderReadingModalPage();
         const b = $("#read-modal-body");
         if (b) b.scrollTop = 0;
@@ -4468,8 +4514,10 @@
           ${updated ? `<span><b>${lang === "as" ? "আপডেট" : "Updated"}:</b> ${escapeHtml(updated)}</span>` : ""}
           <span><b>${lang === "as" ? "আপলোড কৰিছে" : "Uploaded by"}:</b> ${escapeHtml(uploadedBy)}</span>
         </div>`;
-      const start = caPage * CA_PER_PAGE;
-      const pageQuestions = questions.slice(start, start + CA_PER_PAGE);
+      /* All current-affairs questions are rendered so JS-executing crawlers
+         see the full set; the pager below only scrolls between pages. */
+      const start = 0;
+      const pageQuestions = questions;
       const qHTML = count
         ? `<div class="qa-list">${pageQuestions.map((q, i) => examQACardHTML(q, start + i + 1, lang, true)).join("")}</div>`
         : `<div class="qa-empty"><p>${escapeHtml(t("ca.noContent"))}</p></div>`;
@@ -4487,9 +4535,23 @@
       if (caTotalPages > 1) {
         const prevBtn = $("#ca-prev");
         const nextBtn = $("#ca-next");
-        if (prevBtn) prevBtn.addEventListener("click", () => { if (caPage > 0) { caPage--; paint(lang); scheduleEbkProgress(); window.scrollTo({ top: 0, behavior: "smooth" }); } });
-        if (nextBtn) nextBtn.addEventListener("click", () => { if (caPage < caTotalPages - 1) { caPage++; paint(lang); scheduleEbkProgress(); window.scrollTo({ top: 0, behavior: "smooth" }); } });
+        if (prevBtn) prevBtn.addEventListener("click", () => { if (caPage > 0) { caPage--; caScrollToPage(lang); scheduleEbkProgress(); } });
+        if (nextBtn) nextBtn.addEventListener("click", () => { if (caPage < caTotalPages - 1) { caPage++; caScrollToPage(lang); scheduleEbkProgress(); } });
       }
+    };
+    /* Scroll the already-rendered current-affairs list to the requested page
+       and refresh the pager label/disabled state. */
+    const caScrollToPage = (lang) => {
+      const list = $("#ca-body");
+      if (!list) return;
+      const first = list.querySelectorAll("[data-n]")[caPage * CA_PER_PAGE];
+      if (first) first.scrollIntoView({ behavior: "smooth", block: "start" });
+      const info = list.querySelector(".pager-info");
+      if (info) info.textContent = `${caPage + 1} / ${caTotalPages}`;
+      const p = $("#ca-prev");
+      const n = $("#ca-next");
+      if (p) p.disabled = caPage === 0;
+      if (n) n.disabled = caPage >= caTotalPages - 1;
     };
     paint(readLang);
     showEbookProgress(color);
@@ -4978,8 +5040,8 @@
         body.innerHTML = emptyHTML || `<div class="qa-empty"><p>${escapeHtml(t("exams.noContent"))}</p></div>`;
         return;
       }
-      const start = page * perPage;
-      const slice = items.slice(start, start + perPage);
+      const start = 0;
+      const slice = items;
       const qHTML = `<div class="qa-list">${slice.map((q, i) => examQACardHTML(q, start + i + 1, lang)).join("")}</div>`;
       const pagerHTML = totalPages > 1
         ? `<div class="qa-pager" style="margin-top:24px;">
@@ -4993,10 +5055,20 @@
         : "";
       body.innerHTML = qHTML + pagerHTML;
       if (totalPages > 1) {
+        const scrollToPage = () => {
+          const first = body.querySelectorAll("[data-n]")[page * perPage];
+          if (first) first.scrollIntoView({ behavior: "smooth", block: "start" });
+          const info = body.querySelector(".pager-info");
+          if (info) info.textContent = `${page + 1} / ${totalPages}`;
+          const p = body.querySelector("#qa-prev");
+          const n = body.querySelector("#qa-next");
+          if (p) p.disabled = page === 0;
+          if (n) n.disabled = page >= totalPages - 1;
+        };
         const prevBtn = body.querySelector("#qa-prev");
         const nextBtn = body.querySelector("#qa-next");
-        if (prevBtn) prevBtn.addEventListener("click", () => { if (page > 0) { page--; paint(lang); scheduleEbkProgress(); window.scrollTo({ top: 0, behavior: "smooth" }); } });
-        if (nextBtn) nextBtn.addEventListener("click", () => { if (page < totalPages - 1) { page++; paint(lang); scheduleEbkProgress(); window.scrollTo({ top: 0, behavior: "smooth" }); } });
+        if (prevBtn) prevBtn.addEventListener("click", () => { if (page > 0) { page--; scrollToPage(); scheduleEbkProgress(); } });
+        if (nextBtn) nextBtn.addEventListener("click", () => { if (page < totalPages - 1) { page++; scrollToPage(); scheduleEbkProgress(); } });
       }
     };
     return paint;
